@@ -1,4 +1,35 @@
 {
-  "welcome": "Welkom bij Home Nura",
-  "description": "Technologische excellentie voor uw Europese woning."
+  "welcome": "De Beste Smart Airfryers van 2026",
+  "description": "Gezond frituren met de nieuwste technologie. Wij hebben de populairste modellen voor de Nederlandse keuken getest.",
+  "buy_button": "Check prijs op Amazon.nl",
+  "why_trust": "Waarom Home Nura?",
+  "expert_label": "Nura Expert Beoordeling",
+  "section_title": "Onze Topkeuzes",
+  "section_subtitle": "Beste prijs-kwaliteitverhouding getest door onze experts.",
+  "affiliate_disclaimer": "Als Amazon-partner verdient Home Nura aan in aanmerking komende aankopen.",
+  "guide_title": "Complete Airfryer Gids 2026",
+  "guide_subtitle": "Alles wat je moet weten voordat je een airfryer koopt",
+  "faq_title": "Veelgestelde Vragen",
+  "faq": [
+    {
+      "question": "Hoe werkt een airfryer?",
+      "answer": "Een airfryer gebruikt een krachtige ventilator om zeer hete lucht rond het eten te circuleren, waardoor een knapperig resultaat ontstaat vergelijkbaar met frituren maar met tot 80% minder vet. De Rapid Air-technologie zorgt voor een gelijkmatige warmteverdeling."
+    },
+    {
+      "question": "Welke maat airfryer heb ik nodig voor mijn gezin?",
+      "answer": "Voor 1-2 personen is een 2-3L model voldoende. Voor een gezin van 3-4 personen raden we 4-5L aan. Voor 5+ personen kies je een XXL-model van 6L of meer. Dubbele mand-modellen laten je twee gerechten tegelijk bereiden."
+    },
+    {
+      "question": "Verbruiken airfryers veel stroom?",
+      "answer": "Nee, airfryers zijn zeer energiezuinig. Ze verbruiken gemiddeld 1000-1700W en garen sneller dan een gewone oven, waardoor het energieverbruik met 30-50% daalt. Op jaarbasis kun je €40-60 besparen op je energierekening."
+    },
+    {
+      "question": "Kan je diepvriesproducten in een airfryer bereiden?",
+      "answer": "Absoluut! Airfryers zijn uitstekend voor diepvriesproducten: frietjes, nuggets, kroketten, gepaneerde groenten. Ontdooien is niet nodig. De bereidingstijd is doorgaans 20% korter dan in de oven en het resultaat is knapperiger."
+    },
+    {
+      "question": "Wat is het verschil tussen een airfryer en een heteluchtoven?",
+      "answer": "Een airfryer is in feite een compacte, geconcentreerde heteluchtoven. Het kleinere formaat zorgt voor intensere luchtcirculatie en bijna direct opwarmen. Het resultaat: sneller garen, knapperiger eten en lager energieverbruik vergeleken met een gewone oven."
+    }
+  ]
 }

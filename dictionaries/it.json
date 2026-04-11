@@ -1,4 +1,35 @@
 {
-  "welcome": "Benvenuto su Home Nura",
-  "description": "L'eccellenza tecnologica per la tua casa europea."
+  "welcome": "Le Migliori Friggitrici ad Aria Smart 2026",
+  "description": "Tecnologia e design per la tua cucina. Il confronto definitivo tra i modelli più avanzati dell'anno.",
+  "buy_button": "Controlla il prezzo su Amazon.it",
+  "why_trust": "Perché fidarsi di Home Nura?",
+  "expert_label": "Recensione dell'esperto Nura",
+  "section_title": "Le Nostre Scelte Top",
+  "section_subtitle": "Miglior rapporto qualità-prezzo testato dai nostri esperti.",
+  "affiliate_disclaimer": "In qualità di Affiliato Amazon, Home Nura riceve un guadagno dagli acquisti idonei.",
+  "guide_title": "Guida Completa alle Friggitrici ad Aria 2026",
+  "guide_subtitle": "Tutto quello che devi sapere prima di acquistare una friggitrice ad aria",
+  "faq_title": "Domande Frequenti",
+  "faq": [
+    {
+      "question": "Come funziona una friggitrice ad aria?",
+      "answer": "Una friggitrice ad aria utilizza una ventola potente per far circolare aria molto calda intorno agli alimenti, creando una cottura croccante simile alla frittura ma con fino all'80% di grassi in meno. La tecnologia Rapid Air garantisce una distribuzione uniforme del calore."
+    },
+    {
+      "question": "Quale capacità scegliere per la mia famiglia?",
+      "answer": "Per 1-2 persone, un modello da 2-3L è sufficiente. Per una famiglia di 3-4 persone, scegli 4-5L. Oltre 5 persone, opta per un modello XXL da 6L o più. I modelli a doppio cestello permettono di cucinare due piatti contemporaneamente."
+    },
+    {
+      "question": "Le friggitrici ad aria consumano molta elettricità?",
+      "answer": "No, le friggitrici ad aria sono molto efficienti dal punto di vista energetico. Consumano in media 1000-1700W e cuociono più velocemente di un forno tradizionale, riducendo il consumo energetico del 30-50%. In un anno, puoi risparmiare 40-60€ sulla bolletta elettrica."
+    },
+    {
+      "question": "Si possono cuocere cibi surgelati nella friggitrice ad aria?",
+      "answer": "Assolutamente sì! Le friggitrici ad aria sono perfette con i surgelati: patatine, nuggets, crocchette, verdure impanate. Non serve scongelare. Il tempo di cottura è circa il 20% più breve rispetto al forno e il risultato è più croccante."
+    },
+    {
+      "question": "Qual è la differenza tra friggitrice ad aria e forno ventilato?",
+      "answer": "Una friggitrice ad aria è essenzialmente un forno ventilato compatto e concentrato. Le sue dimensioni ridotte permettono una circolazione d'aria più intensa e un preriscaldamento quasi istantaneo. Risultato: cottura più rapida, cibi più croccanti e minor consumo energetico."
+    }
+  ]
 }

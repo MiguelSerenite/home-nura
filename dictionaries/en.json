@@ -1,4 +1,35 @@
 {
-  "welcome": "Welcome to Home Nura",
-  "description": "Tech excellence for your European home."
+  "welcome": "Best Smart Air Fryers 2026: The Ultimate Guide",
+  "description": "Save time and eat better. Discover the top-rated connected air fryers for the modern British home.",
+  "buy_button": "Check price on Amazon.co.uk",
+  "why_trust": "Why Trust Home Nura?",
+  "expert_label": "Nura Expert Review",
+  "section_title": "Our Top Picks",
+  "section_subtitle": "Best value for money tested by our experts.",
+  "affiliate_disclaimer": "As an Amazon Associate, Home Nura earns from qualifying purchases.",
+  "guide_title": "Complete Air Fryer Guide 2026",
+  "guide_subtitle": "Everything you need to know before buying an air fryer",
+  "faq_title": "Frequently Asked Questions",
+  "faq": [
+    {
+      "question": "How does an air fryer work?",
+      "answer": "An air fryer uses a powerful fan to circulate very hot air around food, creating a crispy finish similar to deep frying but with up to 80% less fat. Rapid Air technology ensures even heat distribution for consistent results every time."
+    },
+    {
+      "question": "What size air fryer do I need for my family?",
+      "answer": "For 1-2 people, a 2-3L model is sufficient. For a family of 3-4, go for 4-5L. For 5+ people, choose an XXL model of 6L or more. Dual basket models let you cook two dishes simultaneously, perfect for busy households."
+    },
+    {
+      "question": "Do air fryers use a lot of electricity?",
+      "answer": "No, air fryers are very energy efficient. They typically use 1000-1700W and cook faster than a conventional oven, reducing energy consumption by 30-50%. Over a year, you could save £40-60 on your electricity bill compared to using a traditional oven."
+    },
+    {
+      "question": "Can you cook frozen food in an air fryer?",
+      "answer": "Absolutely! Air fryers are brilliant with frozen foods: chips, nuggets, onion rings, breaded vegetables. No need to defrost first. Cooking time is typically 20% shorter than an oven and the results are crispier."
+    },
+    {
+      "question": "What is the difference between an air fryer and a convection oven?",
+      "answer": "An air fryer is essentially a compact, concentrated convection oven. Its smaller size allows for more intense air circulation and near-instant preheating. The result: faster cooking, crispier food, and reduced energy consumption compared to a full-size oven."
+    }
+  ]
 }

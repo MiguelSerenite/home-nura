@@ -1,4 +1,35 @@
 {
-  "welcome": "Bienvenue sur Home Nura",
-  "description": "L'excellence technologique pour votre foyer européen."
+  "welcome": "Les Meilleurs Airfryers Connectés 2026",
+  "description": "Cuisinez sainement avec les technologies à air pulsé testées par nos experts. Comparatif complet pour votre cuisine intelligente.",
+  "buy_button": "Vérifier le prix sur Amazon.fr",
+  "why_trust": "Pourquoi nous faire confiance ?",
+  "expert_label": "Avis de l'expert Nura",
+  "section_title": "Nos Incontournables",
+  "section_subtitle": "Meilleur rapport qualité/prix testé par nos experts.",
+  "affiliate_disclaimer": "En tant que Partenaire Amazon, Home Nura réalise un bénéfice sur les achats remplissant les conditions requises.",
+  "guide_title": "Guide Complet des Airfryers 2026",
+  "guide_subtitle": "Tout ce que vous devez savoir avant d'acheter une friteuse à air chaud",
+  "faq_title": "Questions Fréquentes",
+  "faq": [
+    {
+      "question": "Comment fonctionne une friteuse à air chaud ?",
+      "answer": "Une friteuse à air chaud utilise un puissant ventilateur pour faire circuler de l'air très chaud autour des aliments, créant une cuisson croustillante similaire à la friture mais avec jusqu'à 80% de matière grasse en moins. La technologie Rapid Air garantit une répartition homogène de la chaleur."
+    },
+    {
+      "question": "Quelle capacité choisir pour ma famille ?",
+      "answer": "Pour 1-2 personnes, un modèle de 2-3L suffit. Pour une famille de 3-4 personnes, optez pour 4-5L. Au-delà de 5 personnes, choisissez un modèle XXL de 6L ou plus. Les modèles double panier permettent de cuisiner deux plats simultanément."
+    },
+    {
+      "question": "Les airfryers consomment-ils beaucoup d'électricité ?",
+      "answer": "Non, les airfryers sont très économes en énergie. Ils consomment en moyenne 1000-1700W et cuisent plus rapidement qu'un four traditionnel, réduisant la consommation d'énergie de 30 à 50%. Sur un an, l'économie peut atteindre 50-70€ sur votre facture d'électricité."
+    },
+    {
+      "question": "Peut-on cuisiner des plats surgelés dans un airfryer ?",
+      "answer": "Absolument ! Les airfryers excellent avec les aliments surgelés : frites, nuggets, beignets, légumes panés. Pas besoin de décongeler au préalable. Le temps de cuisson est généralement 20% plus court qu'au four et le résultat est plus croustillant."
+    },
+    {
+      "question": "Quelle est la différence entre un airfryer et un four à convection ?",
+      "answer": "L'airfryer est un mini four à convection concentré. Sa petite taille permet une circulation d'air plus intense et un préchauffage quasi instantané. Résultat : une cuisson plus rapide, plus croustillante, et une consommation d'énergie réduite par rapport à un four classique."
+    }
+  ]
 }

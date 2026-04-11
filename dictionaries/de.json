@@ -1,4 +1,35 @@
 {
-  "welcome": "Willkommen bei Home Nura",
-  "description": "Technische Exzellenz für Ihr europäisches Zuhause."
+  "welcome": "Die besten Smart Airfryer im Test 2026",
+  "description": "Maximale Effizienz für Ihre Küche. Wir haben die führenden Heißluftfritteusen auf Stromverbrauch und Langlebigkeit geprüft.",
+  "buy_button": "Preis auf Amazon.de prüfen",
+  "why_trust": "Warum uns vertrauen?",
+  "expert_label": "Nura Expertenmeinung",
+  "section_title": "Unsere Top-Auswahl",
+  "section_subtitle": "Bestes Preis-Leistungs-Verhältnis von unseren Experten getestet.",
+  "affiliate_disclaimer": "Als Amazon-Partner verdient Home Nura an qualifizierten Verkäufen.",
+  "guide_title": "Kompletter Airfryer-Ratgeber 2026",
+  "guide_subtitle": "Alles, was Sie vor dem Kauf einer Heißluftfritteuse wissen müssen",
+  "faq_title": "Häufig gestellte Fragen",
+  "faq": [
+    {
+      "question": "Wie funktioniert eine Heißluftfritteuse?",
+      "answer": "Eine Heißluftfritteuse verwendet einen leistungsstarken Ventilator, um sehr heiße Luft um die Lebensmittel zu zirkulieren. Das Ergebnis ist eine knusprige Oberfläche ähnlich wie beim Frittieren, aber mit bis zu 80% weniger Fett. Die Rapid-Air-Technologie sorgt für eine gleichmäßige Wärmeverteilung."
+    },
+    {
+      "question": "Welche Größe brauche ich für meine Familie?",
+      "answer": "Für 1-2 Personen reicht ein 2-3L Modell. Für eine Familie mit 3-4 Personen empfehlen wir 4-5L. Ab 5 Personen wählen Sie ein XXL-Modell mit 6L oder mehr. Doppelkorb-Modelle ermöglichen das gleichzeitige Garen von zwei Gerichten."
+    },
+    {
+      "question": "Verbrauchen Airfryer viel Strom?",
+      "answer": "Nein, Airfryer sind sehr energieeffizient. Sie verbrauchen durchschnittlich 1000-1700W und garen schneller als ein herkömmlicher Backofen, wodurch der Energieverbrauch um 30-50% sinkt. Jährlich können Sie 50-70€ bei Ihrer Stromrechnung sparen."
+    },
+    {
+      "question": "Kann man Tiefkühlkost im Airfryer zubereiten?",
+      "answer": "Auf jeden Fall! Airfryer sind ideal für Tiefkühlprodukte: Pommes, Nuggets, Kroketten, paniertes Gemüse. Kein Auftauen nötig. Die Garzeit ist in der Regel 20% kürzer als im Backofen und das Ergebnis ist knuspriger."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Airfryer und Umluftbackofen?",
+      "answer": "Ein Airfryer ist ein kompakter, konzentrierter Umluftbackofen. Seine kleinere Größe ermöglicht eine intensivere Luftzirkulation und nahezu sofortiges Aufheizen. Das Ergebnis: schnelleres Garen, knusprigere Speisen und geringerer Energieverbrauch im Vergleich zu einem normalen Backofen."
+    }
+  ]
 }

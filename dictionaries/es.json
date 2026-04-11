@@ -1,4 +1,35 @@
 {
-  "welcome": "Bienvenido a Home Nura",
-  "description": "La excelencia tecnológica para tu hogar europeo."
+  "welcome": "Las Mejores Freidoras de Aire Conectadas 2026",
+  "description": "Cocina crujiente y saludable. Analizamos los modelos más versátiles para la dieta mediterránea moderna.",
+  "buy_button": "Ver precio en Amazon.es",
+  "why_trust": "¿Por qué confiar en nosotros?",
+  "expert_label": "Opinión del experto Nura",
+  "section_title": "Nuestras Recomendaciones",
+  "section_subtitle": "Mejor relación calidad-precio probada por nuestros expertos.",
+  "affiliate_disclaimer": "Como Asociado de Amazon, Home Nura obtiene ingresos por las compras adscritas.",
+  "guide_title": "Guía Completa de Freidoras de Aire 2026",
+  "guide_subtitle": "Todo lo que necesitas saber antes de comprar una freidora de aire",
+  "faq_title": "Preguntas Frecuentes",
+  "faq": [
+    {
+      "question": "¿Cómo funciona una freidora de aire?",
+      "answer": "Una freidora de aire utiliza un ventilador potente para hacer circular aire muy caliente alrededor de los alimentos, creando un acabado crujiente similar a la fritura pero con hasta un 80% menos de grasa. La tecnología Rapid Air garantiza una distribución uniforme del calor."
+    },
+    {
+      "question": "¿Qué capacidad necesito para mi familia?",
+      "answer": "Para 1-2 personas, un modelo de 2-3L es suficiente. Para una familia de 3-4 personas, elige 4-5L. Para más de 5 personas, opta por un modelo XXL de 6L o más. Los modelos de doble cesta permiten cocinar dos platos a la vez."
+    },
+    {
+      "question": "¿Las freidoras de aire consumen mucha electricidad?",
+      "answer": "No, las freidoras de aire son muy eficientes energéticamente. Consumen entre 1000-1700W y cocinan más rápido que un horno convencional, reduciendo el consumo de energía entre un 30-50%. Al año, puedes ahorrar entre 40-60€ en tu factura de luz."
+    },
+    {
+      "question": "¿Se pueden cocinar alimentos congelados en una freidora de aire?",
+      "answer": "¡Por supuesto! Las freidoras de aire son excelentes con alimentos congelados: patatas fritas, nuggets, croquetas, verduras empanadas. No necesitas descongelar. El tiempo de cocción es un 20% menor que en el horno y el resultado es más crujiente."
+    },
+    {
+      "question": "¿Cuál es la diferencia entre una freidora de aire y un horno de convección?",
+      "answer": "Una freidora de aire es esencialmente un horno de convección compacto y concentrado. Su menor tamaño permite una circulación de aire más intensa y un precalentamiento casi instantáneo. El resultado: cocción más rápida, alimentos más crujientes y menor consumo de energía."
+    }
+  ]
 }
