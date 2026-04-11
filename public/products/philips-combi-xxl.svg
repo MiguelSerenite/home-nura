@@ -1,5 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
-  <rect width="500" height="500" fill="#f1f5f9"/>
-  <text x="250" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#94a3b8">Philips Airfryer</text>
-  <text x="250" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#94a3b8">Combi XXL 8.3L</text>
+  <defs>
+    <linearGradient id="bg7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#bg7)" rx="24"/>
+  <!-- Large premium body -->
+  <rect x="145" y="95" width="210" height="275" rx="25" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+  <!-- Premium display -->
+  <rect x="185" y="115" width="130" height="65" rx="12" fill="#1e293b"/>
+  <text x="250" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#3b82f6">NutriU</text>
+  <!-- Steam indicator -->
+  <path d="M200 90 Q205 75 210 90 Q215 75 220 90" stroke="#94a3b8" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M280 90 Q285 75 290 90 Q295 75 300 90" stroke="#94a3b8" stroke-width="2" fill="none" opacity="0.6"/>
+  <!-- Large drawer -->
+  <rect x="158" y="200" width="184" height="150" rx="18" fill="#b0bec5" stroke="#94a3b8" stroke-width="1.5"/>
+  <rect x="215" y="212" width="70" height="10" rx="5" fill="#94a3b8"/>
+  <!-- Vent pattern -->
+  <line x1="178" y1="280" x2="322" y2="280" stroke="#94a3b8" stroke-width="1" opacity="0.4"/>
+  <line x1="178" y1="295" x2="322" y2="295" stroke="#94a3b8" stroke-width="1" opacity="0.4"/>
+  <line x1="178" y1="310" x2="322" y2="310" stroke="#94a3b8" stroke-width="1" opacity="0.4"/>
+  <!-- Base -->
+  <rect x="165" y="375" width="170" height="16" rx="8" fill="#94a3b8" opacity="0.5"/>
+  <!-- Badge -->
+  <rect x="150" y="67" width="80" height="24" rx="12" fill="#3b82f6"/>
+  <text x="190" y="84" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="white">8.3L</text>
+  <!-- Product name -->
+  <text x="250" y="430" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#334155">Philips Combi XXL</text>
+  <text x="250" y="455" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#64748b">Connected 8.3L</text>
 </svg>

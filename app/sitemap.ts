@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/politique-confidentialite', priority: 0.3, changeFrequency: 'yearly' as const },
     { path: '/politique-cookies', priority: 0.3, changeFrequency: 'yearly' as const },
     { path: '/a-propos', priority: 0.5, changeFrequency: 'monthly' as const },
+    { path: '/guides/airfryer-vs-four', priority: 0.8, changeFrequency: 'monthly' as const },
   ]
 
   const entries: MetadataRoute.Sitemap = []

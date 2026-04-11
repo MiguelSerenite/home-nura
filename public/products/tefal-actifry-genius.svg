@@ -1,5 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
-  <rect width="500" height="500" fill="#f1f5f9"/>
-  <text x="250" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#94a3b8">Tefal ActiFry</text>
-  <text x="250" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#94a3b8">Genius XL 2in1</text>
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#bg4)" rx="24"/>
+  <!-- Round ActiFry body -->
+  <ellipse cx="250" cy="260" rx="140" ry="100" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+  <!-- Transparent lid (glass effect) -->
+  <ellipse cx="250" cy="200" rx="120" ry="60" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.5" opacity="0.7"/>
+  <!-- Stirring paddle inside -->
+  <line x1="200" y1="230" x2="300" y2="230" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="250" cy="230" r="6" fill="#94a3b8"/>
+  <!-- Control panel -->
+  <rect x="190" y="300" width="120" height="40" rx="10" fill="#475569"/>
+  <circle cx="230" cy="320" r="10" fill="#334155" stroke="#64748b" stroke-width="1"/>
+  <circle cx="270" cy="320" r="10" fill="#334155" stroke="#64748b" stroke-width="1"/>
+  <!-- Handle -->
+  <rect x="210" y="135" width="80" height="12" rx="6" fill="#94a3b8"/>
+  <!-- Base -->
+  <rect x="160" y="355" width="180" height="16" rx="8" fill="#94a3b8" opacity="0.5"/>
+  <!-- Badge -->
+  <rect x="155" y="80" width="80" height="24" rx="12" fill="#3b82f6"/>
+  <text x="195" y="97" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="white">1.7kg</text>
+  <!-- Product name -->
+  <text x="250" y="420" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="bold" fill="#334155">Tefal ActiFry</text>
+  <text x="250" y="445" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#64748b">Genius XL 2in1</text>
 </svg>
