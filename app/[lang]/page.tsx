@@ -138,7 +138,6 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <section className="max-w-7xl mx-auto px-4 py-20">
         <ComparisonTable
           products={comparisonProducts}
-          lang={lang}
           dict={tableDict}
         />
       </section>

@@ -188,7 +188,6 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <section className="max-w-7xl mx-auto px-4 py-20">
         <ComparisonTable
           products={comparisonProducts}
-          lang={lang}
           dict={tableDict}
         />
       </section>
