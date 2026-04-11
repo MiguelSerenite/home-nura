@@ -145,7 +145,7 @@ const content: Record<string, {
   },
 }
 
-export default async function AboutPage({ params }: { params: { lang: string } }) {
+export default async function AboutPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
   const dict = await getDictionary(lang)
   const c = content[lang] || content.fr

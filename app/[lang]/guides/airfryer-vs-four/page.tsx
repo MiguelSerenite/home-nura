@@ -155,7 +155,7 @@ const metaTitles: Record<string, string> = {
   nl: 'Airfryer vs Oven: Wat is Beter? | Home Nura',
 }
 
-export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
   const c = pageContent[lang] || pageContent.fr
   return {
@@ -169,7 +169,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   }
 }
 
-export default async function AirfryerVsFour({ params }: { params: { lang: string } }) {
+export default async function AirfryerVsFour({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
   const dict = await getDictionary(lang)
   const c = pageContent[lang] || pageContent.fr

@@ -74,6 +74,10 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   };
 }
 
+export async function generateStaticParams() {
+  return LANGUAGES.map((lang) => ({ lang }));
+}
+
 export default async function RootLayout({
   children,
   params,

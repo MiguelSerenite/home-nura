@@ -8,7 +8,7 @@ import { getStaticProducts } from '@/lib/products'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 
-export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
   const dict = await getDictionary(lang)
   return {
@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   }
 }
 
-export default async function AirfryerGuide({ params }: { params: { lang: string } }) {
+export default async function AirfryerGuide({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
   const dict = await getDictionary(lang)
 

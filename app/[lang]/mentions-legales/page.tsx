@@ -28,7 +28,7 @@ const content: Record<string, { title: string; body: string }> = {
   },
 }
 
-export default async function MentionsLegales({ params }: { params: { lang: string } }) {
+export default async function MentionsLegales({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
   const c = content[lang] || content.fr
 
