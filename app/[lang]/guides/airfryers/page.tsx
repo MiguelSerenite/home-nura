@@ -1,7 +1,8 @@
 import { getDictionary } from '../../dictionaries'
 import Navbar from '@/components/Navbar'
 import FaqSection from '@/components/FaqSection'
-import { getAmazonProduct } from '@/lib/amazon'
+import ProductCard from '@/components/ProductCard'
+import { getStaticProducts } from '@/lib/products'
 import type { Metadata } from 'next'
 
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
@@ -22,11 +23,8 @@ export default async function AirfryerGuide({ params }: { params: { lang: string
   const { lang } = await params
   const dict = await getDictionary(lang)
 
-  // Fetch products for the comparison section
-  const asinList = ['B08P5B36MC', 'B09B8WLY9V', 'B07Z667S1T']
-  const products = await Promise.all(
-    asinList.map((asin) => getAmazonProduct(asin, lang))
-  )
+  // Produits statiques avec liens affiliés
+  const products = getStaticProducts(lang)
 
   return (
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans">
@@ -80,48 +78,18 @@ export default async function AirfryerGuide({ params }: { params: { lang: string
         <p className="text-slate-500 mb-12">{dict.section_subtitle}</p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {products.map((product, index) =>
-            product ? (
-              <div
-                key={index}
-                className="group relative flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white transition-all hover:shadow-xl hover:-translate-y-1"
-              >
-                {index === 0 && (
-                  <div className="absolute top-4 left-4 z-10 px-3 py-1 bg-amber-400 text-amber-900 text-xs font-bold rounded-full">
-                    {dict.expert_label}
-                  </div>
-                )}
-                <div className="aspect-square overflow-hidden bg-slate-100">
-                  <img
-                    src={product.Images.Primary.Large.URL}
-                    alt={product.ItemInfo.Title.DisplayValue}
-                    className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
-                </div>
-                <div className="flex flex-1 flex-col p-6">
-                  <div className="flex items-center gap-1 text-amber-400 mb-2">
-                    {"★".repeat(5)}
-                  </div>
-                  <h3 className="text-lg font-bold text-slate-900 line-clamp-2 leading-tight">
-                    {product.ItemInfo.Title.DisplayValue}
-                  </h3>
-                  <p className="mt-4 text-2xl font-black text-slate-900">
-                    {product.Offers.Listings[0].Price.DisplayAmount}
-                  </p>
-                  <a
-                    href={product.DetailPageURL}
-                    target="_blank"
-                    rel="nofollow"
-                    className="mt-6 block w-full rounded-full bg-blue-600 px-4 py-3 text-center text-sm font-bold text-white transition-colors hover:bg-blue-700"
-                  >
-                    {dict.buy_button}
-                  </a>
-                </div>
-              </div>
-            ) : (
-              <div key={index} className="animate-pulse bg-slate-100 rounded-3xl h-[450px]" />
-            )
-          )}
+          {products.map((product, index) => (
+            <ProductCard
+              key={index}
+              name={product.title}
+              price={product.price}
+              imageUrl={product.image}
+              affiliateLink={product.url}
+              rating={5}
+              buyButtonText={dict.buy_button}
+              badge={product.badge}
+            />
+          ))}
         </div>
       </section>
 

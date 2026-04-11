@@ -2,19 +2,15 @@ import { getDictionary } from './dictionaries'
 import ProductCard from '@/components/ProductCard'
 import Navbar from '@/components/Navbar'
 import FaqSection from '@/components/FaqSection'
-import { getAmazonProduct } from '@/lib/amazon'
+import { getStaticProducts } from '@/lib/products'
 import Link from 'next/link'
 
 export default async function Home({ params }: { params: { lang: string } }) {
   const { lang } = await params;
   const dict = await getDictionary(lang);
 
-  // Liste d'ASINs pour remplir ta grille (à personnaliser plus tard)
-  // On récupère les produits en parallèle pour la vitesse
-  const asinList = ['B08P5B36MC', 'B09B8WLY9V', 'B07Z667S1T'];
-  const products = await Promise.all(
-    asinList.map(asin => getAmazonProduct(asin, lang))
-  );
+  // Produits statiques avec liens affiliés
+  const products = getStaticProducts(lang);
 
   return (
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans">
@@ -54,19 +50,16 @@ export default async function Home({ params }: { params: { lang: string } }) {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {products.map((product, index) => (
-            product ? (
-              <ProductCard
-                key={index}
-                name={product.ItemInfo.Title.DisplayValue}
-                price={product.Offers.Listings[0].Price.DisplayAmount}
-                imageUrl={product.Images.Primary.Large.URL}
-                affiliateLink={product.DetailPageURL}
-                rating={5}
-                buyButtonText={dict.buy_button}
-              />
-            ) : (
-              <div key={index} className="animate-pulse bg-slate-100 rounded-[2.5rem] h-[450px]" />
-            )
+            <ProductCard
+              key={index}
+              name={product.title}
+              price={product.price}
+              imageUrl={product.image}
+              affiliateLink={product.url}
+              rating={5}
+              buyButtonText={dict.buy_button}
+              badge={product.badge}
+            />
           ))}
         </div>
       </section>

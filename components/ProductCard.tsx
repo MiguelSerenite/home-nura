@@ -5,16 +5,22 @@ interface ProductProps {
   affiliateLink: string;
   rating: number;
   buyButtonText?: string;
+  badge?: string;
 }
 
-export default function ProductCard({ name, price, imageUrl, affiliateLink, rating, buyButtonText }: ProductProps) {
+export default function ProductCard({ name, price, imageUrl, affiliateLink, rating, buyButtonText, badge }: ProductProps) {
   return (
     <div className="group relative flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white transition-all hover:shadow-xl hover:-translate-y-1">
+      {badge && (
+        <div className="absolute top-4 left-4 z-10 px-3 py-1 bg-amber-400 text-amber-900 text-xs font-bold rounded-full">
+          {badge}
+        </div>
+      )}
       <div className="aspect-square overflow-hidden bg-slate-100">
         <img
           src={imageUrl}
           alt={name}
-          className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+          className="h-full w-full object-contain p-4 transition-transform duration-300 group-hover:scale-105"
         />
       </div>
       <div className="flex flex-1 flex-col p-6">
@@ -25,7 +31,7 @@ export default function ProductCard({ name, price, imageUrl, affiliateLink, rati
           {name}
         </h3>
         <p className="mt-4 text-2xl font-black text-slate-900">
-          {price}€
+          {price}
         </p>
         <a
           href={affiliateLink}
