@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <rect width="500" height="500" fill="#f8f9fa"/>
+  <rect x="100" y="80" width="300" height="300" rx="20" fill="#e9ecef"/>
+  <circle cx="250" cy="200" r="80" fill="#dee2e6"/>
+  <rect x="180" y="300" width="140" height="40" rx="10" fill="#dee2e6"/>
+  <text x="250" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#495057">Ninja Foodi MAX 9.5L</text>
+  <text x="250" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#6c757d">Double Stack XL Air Fryer</text>
+</svg>

@@ -46,7 +46,7 @@ export const staticProducts: StaticProduct[] = [
       it: '229,99€',
       nl: '229,99€',
     },
-    image: '/api/img?url=https://m.media-amazon.com/images/I/71HmZ%2BYLFWL._AC_SL500_.jpg',
+    image: '/products/ninja-foodi-max.svg',
     badge: {
       fr: 'Choix N°1',
       de: 'Beste Wahl',
@@ -74,7 +74,7 @@ export const staticProducts: StaticProduct[] = [
       it: '119,99€',
       nl: '109,99€',
     },
-    image: '/api/img?url=https://m.media-amazon.com/images/I/61kk1l6uOgL._AC_SL500_.jpg',
+    image: '/products/philips-3000-xl.svg',
   },
   {
     asin: 'B0CG1N9QSX',
@@ -94,7 +94,7 @@ export const staticProducts: StaticProduct[] = [
       it: '139,99€',
       nl: '129,99€',
     },
-    image: '/api/img?url=https://m.media-amazon.com/images/I/71dRvFpEVbL._AC_SL500_.jpg',
+    image: '/products/cosori-dual-blaze.svg',
   },
 ]
 
