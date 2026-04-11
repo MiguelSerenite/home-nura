@@ -2,7 +2,10 @@ import { getDictionary } from '../../dictionaries'
 import Navbar from '@/components/Navbar'
 import FaqSection from '@/components/FaqSection'
 import ProductCard from '@/components/ProductCard'
+import ComparisonTable from '@/components/ComparisonTable'
+import CookieBanner from '@/components/CookieBanner'
 import { getStaticProducts } from '@/lib/products'
+import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
@@ -26,8 +29,68 @@ export default async function AirfryerGuide({ params }: { params: { lang: string
   // Produits statiques avec liens affiliés
   const products = getStaticProducts(lang)
 
+  // BreadcrumbList Schema
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: dict.breadcrumb_home,
+        item: `https://homenura.com/${lang}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: dict.breadcrumb_guide,
+        item: `https://homenura.com/${lang}/guides/airfryers`,
+      },
+    ],
+  }
+
+  // Comparison table product mapping
+  const comparisonProducts = products.map(p => ({
+    name: p.title,
+    price: p.price,
+    priceNumeric: p.priceNumeric,
+    image: p.image,
+    url: p.url,
+    capacity: p.capacity,
+    nuraScore: p.nuraScore,
+    bestFor: p.bestFor,
+    badge: p.badge,
+    pros: p.pros,
+    cons: p.cons,
+  }))
+
+  // Comparison table dictionary
+  const tableDict = {
+    table_title: dict.table_title,
+    table_subtitle: dict.table_subtitle,
+    col_product: dict.col_product,
+    col_nura_score: dict.col_nura_score,
+    col_capacity: dict.col_capacity,
+    col_best_for: dict.col_best_for,
+    col_price: dict.col_price,
+    col_action: dict.col_action,
+    col_pros: dict.col_pros,
+    col_cons: dict.col_cons,
+    sort_by: dict.sort_by,
+    sort_price_asc: dict.sort_price_asc,
+    sort_price_desc: dict.sort_price_desc,
+    sort_score: dict.sort_score,
+    buy_button: dict.buy_button,
+    show_details: dict.show_details,
+    hide_details: dict.hide_details,
+  }
+
   return (
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <Navbar currentLang={lang} />
 
       {/* Hero */}
@@ -52,21 +115,49 @@ export default async function AirfryerGuide({ params }: { params: { lang: string
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
             <div className="text-center">
               <div className="text-3xl font-black text-blue-600 mb-2">50+</div>
-              <p className="text-sm text-slate-600 font-medium">
-                {lang === 'fr' ? 'Modèles testés' : lang === 'de' ? 'Getestete Modelle' : lang === 'es' ? 'Modelos probados' : lang === 'it' ? 'Modelli testati' : lang === 'nl' ? 'Geteste modellen' : 'Models tested'}
-              </p>
+              <p className="text-sm text-slate-600 font-medium">{dict.stat_models_tested}</p>
             </div>
             <div className="text-center">
               <div className="text-3xl font-black text-blue-600 mb-2">200h+</div>
-              <p className="text-sm text-slate-600 font-medium">
-                {lang === 'fr' ? 'Heures de tests' : lang === 'de' ? 'Teststunden' : lang === 'es' ? 'Horas de prueba' : lang === 'it' ? 'Ore di test' : lang === 'nl' ? 'Testuren' : 'Hours of testing'}
-              </p>
+              <p className="text-sm text-slate-600 font-medium">{dict.stat_hours_testing}</p>
             </div>
             <div className="text-center">
               <div className="text-3xl font-black text-blue-600 mb-2">6</div>
-              <p className="text-sm text-slate-600 font-medium">
-                {lang === 'fr' ? 'Marchés européens' : lang === 'de' ? 'Europäische Märkte' : lang === 'es' ? 'Mercados europeos' : lang === 'it' ? 'Mercati europei' : lang === 'nl' ? 'Europese markten' : 'European markets'}
-              </p>
+              <p className="text-sm text-slate-600 font-medium">{dict.stat_european_markets}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SEO Guide Content */}
+      <section className="max-w-3xl mx-auto px-6 py-12">
+        <h2 className="text-3xl font-bold tracking-tight mb-6">{dict.guide_intro_title}</h2>
+        <p className="text-slate-600 leading-relaxed mb-10">{dict.guide_intro_text}</p>
+
+        <h3 className="text-2xl font-bold tracking-tight mb-6">{dict.guide_criteria_title}</h3>
+        <div className="space-y-6">
+          <div className="bg-white rounded-2xl border border-slate-200 p-6">
+            <div className="flex items-start gap-4">
+              <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center shrink-0">
+                <span className="text-blue-600 font-black text-lg">L</span>
+              </div>
+              <p className="text-slate-600 leading-relaxed">{dict.guide_criteria_capacity}</p>
+            </div>
+          </div>
+          <div className="bg-white rounded-2xl border border-slate-200 p-6">
+            <div className="flex items-start gap-4">
+              <div className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center shrink-0">
+                <span className="text-amber-600 font-black text-lg">W</span>
+              </div>
+              <p className="text-slate-600 leading-relaxed">{dict.guide_criteria_power}</p>
+            </div>
+          </div>
+          <div className="bg-white rounded-2xl border border-slate-200 p-6">
+            <div className="flex items-start gap-4">
+              <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center shrink-0">
+                <span className="text-emerald-600 font-black text-lg">+</span>
+              </div>
+              <p className="text-slate-600 leading-relaxed">{dict.guide_criteria_features}</p>
             </div>
           </div>
         </div>
@@ -93,18 +184,52 @@ export default async function AirfryerGuide({ params }: { params: { lang: string
         </div>
       </section>
 
+      {/* Comparison Table */}
+      <section className="max-w-7xl mx-auto px-4 py-20">
+        <ComparisonTable
+          products={comparisonProducts}
+          lang={lang}
+          dict={tableDict}
+        />
+      </section>
+
       {/* FAQ Section with Schema */}
       <FaqSection faqs={dict.faq} title={dict.faq_title} />
 
-      {/* Footer */}
+      {/* Footer with legal links */}
       <footer className="bg-white border-t border-slate-100 py-12 px-6">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-sm text-slate-400">{dict.affiliate_disclaimer}</p>
-          <div className="mt-6 flex justify-center gap-8 text-xs font-bold text-slate-300 uppercase tracking-widest">
+          <div className="mt-6 flex flex-wrap justify-center gap-6 text-xs font-medium text-slate-400">
+            <Link href={`/${lang}/a-propos`} className="hover:text-slate-600 transition-colors">
+              {dict.about_link}
+            </Link>
+            <Link href={`/${lang}/mentions-legales`} className="hover:text-slate-600 transition-colors">
+              {dict.legal_notice}
+            </Link>
+            <Link href={`/${lang}/politique-confidentialite`} className="hover:text-slate-600 transition-colors">
+              {dict.privacy_policy}
+            </Link>
+            <Link href={`/${lang}/politique-cookies`} className="hover:text-slate-600 transition-colors">
+              {dict.cookie_policy}
+            </Link>
+          </div>
+          <div className="mt-4 flex justify-center gap-8 text-xs font-bold text-slate-300 uppercase tracking-widest">
             <span>&copy; 2026 HOME NURA EUROPE</span>
           </div>
         </div>
       </footer>
+
+      {/* Cookie Banner */}
+      <CookieBanner
+        lang={lang}
+        dict={{
+          cookie_banner_text: dict.cookie_banner_text,
+          cookie_accept: dict.cookie_accept,
+          cookie_reject: dict.cookie_reject,
+          cookie_learn_more: dict.cookie_learn_more,
+        }}
+      />
     </div>
   )
 }

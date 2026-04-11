@@ -1,4 +1,3 @@
-// This file is intentionally empty - API image proxy removed
-// Amazon blocks all server-side image fetching
-// Product images are now served as local static files from /public/products/
+// Removed — Amazon blocks all server-side image fetching.
+// Product images are served as static files from /public/products/
 export {}
