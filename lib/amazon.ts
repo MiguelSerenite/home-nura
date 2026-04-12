@@ -1,16 +1,15 @@
-const amazonPaapi = require('amazon-paapi');
+import amazonPaapi from 'amazon-paapi';
+
+const marketplace: Record<string, string> = {
+  fr: 'www.amazon.fr',
+  de: 'www.amazon.de',
+  es: 'www.amazon.es',
+  it: 'www.amazon.it',
+  en: 'www.amazon.co.uk',
+  nl: 'www.amazon.nl'
+};
 
 export async function getAmazonProduct(asin: string, lang: string) {
-  // On définit le domaine Amazon selon la langue
-  const marketplace: any = {
-    fr: 'www.amazon.fr',
-    de: 'www.amazon.de',
-    es: 'www.amazon.es',
-    it: 'www.amazon.it',
-    en: 'www.amazon.co.uk',
-    nl: 'www.amazon.nl'
-  };
-
   const commonParameters = {
     AccessKey: process.env.AMAZON_ACCESS_KEY,
     SecretKey: process.env.AMAZON_SECRET_KEY,

@@ -12,7 +12,6 @@ const texts: Record<string, { title: string; desc: string; button: string }> = {
 }
 
 export default function Error({
-  error,
   reset,
 }: {
   error: Error & { digest?: string }

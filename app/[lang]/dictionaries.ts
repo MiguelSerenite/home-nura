@@ -1,6 +1,7 @@
 import 'server-only'
 
-const dictionaries: any = {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const dictionaries: Record<string, () => Promise<any>> = {
   en: () => import('../../dictionaries/en.json').then((module) => module.default),
   fr: () => import('../../dictionaries/fr.json').then((module) => module.default),
   de: () => import('../../dictionaries/de.json').then((module) => module.default),
@@ -9,4 +10,7 @@ const dictionaries: any = {
   nl: () => import('../../dictionaries/nl.json').then((module) => module.default),
 }
 
-export const getDictionary = async (locale: string) => dictionaries[locale]()
+export const getDictionary = async (locale: string) => {
+  const loader = dictionaries[locale] || dictionaries.fr
+  return loader()
+}

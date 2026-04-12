@@ -1,6 +1,5 @@
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
-import { getDictionary } from '../dictionaries'
 
 const content: Record<string, {
   title: string
@@ -147,7 +146,6 @@ const content: Record<string, {
 
 export default async function AboutPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
-  const dict = await getDictionary(lang)
   const c = content[lang] || content.fr
 
   return (

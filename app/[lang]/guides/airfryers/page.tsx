@@ -6,6 +6,7 @@ import ProductImageCarousel from '@/components/ProductImageCarousel'
 import ComparisonTable from '@/components/ComparisonTable'
 import CookieBanner from '@/components/CookieBanner'
 import { getStaticProducts } from '@/lib/products'
+import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 
@@ -730,10 +731,12 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           {products.map((product, i) => (
             <div key={i} className="bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-lg transition-all">
               <div className="aspect-square relative bg-slate-50 p-4">
-                <img
+                <Image
                   src={product.image}
                   alt={product.title}
-                  className="w-full h-full object-contain"
+                  fill
+                  className="object-contain"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   loading="lazy"
                 />
                 {product.badge && (

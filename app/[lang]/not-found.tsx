@@ -1,4 +1,7 @@
+'use client'
+
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 const texts: Record<string, { title: string; desc: string; button: string }> = {
   fr: { title: 'Page introuvable', desc: 'La page que vous recherchez n\'existe pas ou a été déplacée.', button: 'Retour à l\'accueil' },
@@ -10,8 +13,9 @@ const texts: Record<string, { title: string; desc: string; button: string }> = {
 }
 
 export default function NotFound() {
-  // Default to French since we can't access params in not-found
-  const t = texts.fr
+  const pathname = usePathname()
+  const langFromPath = pathname?.split('/')[1] || 'fr'
+  const t = texts[langFromPath] || texts.fr
 
   return (
     <div className="min-h-screen bg-[#FBFBFD] flex items-center justify-center px-6">
@@ -20,7 +24,7 @@ export default function NotFound() {
         <h2 className="text-2xl font-bold text-slate-900 mb-4">{t.title}</h2>
         <p className="text-slate-500 mb-8 max-w-md mx-auto">{t.desc}</p>
         <Link
-          href="/fr"
+          href={`/${langFromPath}`}
           className="inline-flex items-center gap-2 px-8 py-3 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition-colors"
         >
           {t.button}

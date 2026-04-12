@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Link from 'next/link'
 
 const COOKIE_NAME = 'homenura_cookie_consent'
@@ -27,15 +27,10 @@ interface CookieBannerProps {
 }
 
 export default function CookieBanner({ lang, dict }: CookieBannerProps) {
-  const [visible, setVisible] = useState(false)
-
-  useEffect(() => {
-    // Only show banner if user hasn't already made a choice
-    const consent = getCookie(COOKIE_NAME)
-    if (!consent) {
-      setVisible(true)
-    }
-  }, [])
+  const [visible, setVisible] = useState(() => {
+    if (typeof document === 'undefined') return false
+    return !getCookie(COOKIE_NAME)
+  })
 
   function handleAccept() {
     setCookie(COOKIE_NAME, 'accepted', COOKIE_MAX_AGE)
