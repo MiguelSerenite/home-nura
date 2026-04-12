@@ -1,5 +1,6 @@
 import { getDictionary } from './dictionaries'
 import ProductCard from '@/components/ProductCard'
+import ProductImageCarousel from '@/components/ProductImageCarousel'
 import Navbar from '@/components/Navbar'
 import FaqSection from '@/components/FaqSection'
 import ComparisonTable from '@/components/ComparisonTable'
@@ -41,6 +42,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     badge: p.badge,
     pros: p.pros,
     cons: p.cons,
+    images: p.images,
   }))
 
   // Comparison table dictionary
@@ -105,6 +107,44 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               <div className="text-3xl font-black text-blue-600 mb-1">6</div>
               <p className="text-sm text-slate-600 font-medium">{dict.stat_european_markets}</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Top Products Showcase with Real Images */}
+      <section className="px-6 py-16 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-slate-900 mb-4">
+            {dict.top_picks_title || 'Our Top Picks'}
+          </h2>
+          <p className="text-lg text-slate-600 text-center mb-12 max-w-2xl mx-auto">
+            {dict.top_picks_subtitle || 'Hand-tested and reviewed by our team of experts'}
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {products.slice(0, 3).map((product, i) => (
+              <div key={i} className="group bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl transition-all hover:-translate-y-1">
+                <div className="p-4">
+                  <ProductImageCarousel
+                    images={product.images}
+                    alt={product.title}
+                    badge={product.badge}
+                  />
+                </div>
+                <div className="px-6 pb-6">
+                  <h3 className="text-lg font-bold text-slate-900 mb-2 line-clamp-2">{product.title}</h3>
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="text-2xl font-black text-slate-900">{product.price}</span>
+                    <span className={`px-2 py-0.5 text-xs font-bold rounded-full ${product.nuraScore >= 9 ? 'bg-emerald-100 text-emerald-700' : 'bg-blue-100 text-blue-700'}`}>
+                      {product.nuraScore}/10
+                    </span>
+                  </div>
+                  <a href={product.url} target="_blank" rel="nofollow noopener noreferrer"
+                    className="block w-full rounded-full bg-blue-600 px-4 py-3 text-center text-sm font-bold text-white transition-colors hover:bg-blue-700">
+                    {dict.buy_button}
+                  </a>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>

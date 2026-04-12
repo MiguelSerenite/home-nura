@@ -24,6 +24,7 @@ export interface StaticProduct {
   price: Record<string, string>
   priceNumeric: Record<string, number>
   image: string
+  images: string[]
   asin: string
   badge?: Record<string, string>
   nuraScore: number
@@ -35,7 +36,7 @@ export interface StaticProduct {
 
 export const staticProducts: StaticProduct[] = [
   {
-    asin: 'B0D3CRGG4C',
+    asin: 'B0CZPJ1HFP',
     title: {
       fr: 'Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L',
       de: 'Ninja Foodi MAX Double Stack XL Heißluftfritteuse - 9.5L',
@@ -60,7 +61,8 @@ export const staticProducts: StaticProduct[] = [
       it: 229.99,
       nl: 229.99,
     },
-    image: '/products/ninja-foodi-max.svg',
+    image: 'https://m.media-amazon.com/images/I/71GTPUFlAnL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/71GTPUFlAnL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/71f7hPZS0KL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/61JyRzj2kWL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/71HmarM3VKL._AC_SL1500_.jpg'],
     badge: {
       fr: 'Choix N°1',
       de: 'Beste Wahl',
@@ -97,7 +99,7 @@ export const staticProducts: StaticProduct[] = [
     },
   },
   {
-    asin: 'B0CPFBM3Y4',
+    asin: 'B0D9S9Y16Y',
     title: {
       fr: 'Philips Airfryer Série 3000 XL - 6.2L',
       de: 'Philips Airfryer Serie 3000 XL - 6.2L',
@@ -122,7 +124,8 @@ export const staticProducts: StaticProduct[] = [
       it: 119.99,
       nl: 109.99,
     },
-    image: '/products/philips-3000-xl.svg',
+    image: 'https://m.media-amazon.com/images/I/516hlh2K8IL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/516hlh2K8IL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/51Sty-HjlWL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/51YFTZ8imWL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/614ST7SivZL._AC_SL1500_.jpg'],
     nuraScore: 8.7,
     capacity: '6.2L',
     bestFor: {
@@ -151,7 +154,7 @@ export const staticProducts: StaticProduct[] = [
     },
   },
   {
-    asin: 'B0CG1N9QSX',
+    asin: 'B0FPWSDF86',
     title: {
       fr: 'Cosori Dual Blaze Smart Air Fryer - 6.4L',
       de: 'Cosori Dual Blaze Smart Heißluftfritteuse - 6.4L',
@@ -176,7 +179,8 @@ export const staticProducts: StaticProduct[] = [
       it: 139.99,
       nl: 129.99,
     },
-    image: '/products/cosori-dual-blaze.svg',
+    image: 'https://m.media-amazon.com/images/I/91mFwLsU2DL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/91mFwLsU2DL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/91iP-1+tWvL._AC_SL1500_.jpg'],
     nuraScore: 8.9,
     capacity: '6.4L',
     bestFor: {
@@ -205,7 +209,7 @@ export const staticProducts: StaticProduct[] = [
     },
   },
   {
-    asin: 'B0B1BC4FNY',
+    asin: 'B079QL7T1S',
     title: {
       fr: 'Tefal ActiFry Genius XL 2in1 - 1.7kg',
       de: 'Tefal ActiFry Genius XL 2in1 - 1.7kg',
@@ -230,7 +234,8 @@ export const staticProducts: StaticProduct[] = [
       it: 199.99,
       nl: 199.99,
     },
-    image: '/products/tefal-actifry-genius.svg',
+    image: 'https://m.media-amazon.com/images/I/81QIrBuK-jL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/81QIrBuK-jL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/71uXbDlnkaL._AC_SL1500_.jpg'],
     nuraScore: 8.2,
     capacity: '1.7kg',
     bestFor: {
@@ -259,7 +264,7 @@ export const staticProducts: StaticProduct[] = [
     },
   },
   {
-    asin: 'B0CFWMP4JR',
+    asin: 'B0D8WHQMHT',
     title: {
       fr: 'Xiaomi Smart Air Fryer Pro 4L',
       de: 'Xiaomi Smart Air Fryer Pro 4L',
@@ -284,7 +289,8 @@ export const staticProducts: StaticProduct[] = [
       it: 79.99,
       nl: 74.99,
     },
-    image: '/products/xiaomi-smart-4l.svg',
+    image: 'https://m.media-amazon.com/images/I/51cfOKkOhlL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/51cfOKkOhlL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/61XBXzL0ptL._AC_SL1500_.jpg'],
     badge: {
       fr: 'Meilleur Prix',
       de: 'Bester Preis',
@@ -321,7 +327,7 @@ export const staticProducts: StaticProduct[] = [
     },
   },
   {
-    asin: 'B0CXKWLVL5',
+    asin: 'B0CFL49C1J',
     title: {
       fr: 'Ninja Foodi FlexDrawer 10.4L Double Zone',
       de: 'Ninja Foodi FlexDrawer 10.4L Doppelzone',
@@ -346,7 +352,8 @@ export const staticProducts: StaticProduct[] = [
       it: 249.99,
       nl: 239.99,
     },
-    image: '/products/ninja-flexdrawer.svg',
+    image: 'https://m.media-amazon.com/images/I/71T8jynPV3L._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/71T8jynPV3L._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/61RpkcFkBtL._AC_SL1500_.jpg'],
     badge: {
       fr: 'Premium',
       de: 'Premium',
@@ -383,7 +390,7 @@ export const staticProducts: StaticProduct[] = [
     },
   },
   {
-    asin: 'B0C9R4YM3B',
+    asin: 'B0D67569TZ',
     title: {
       fr: 'Philips Airfryer Combi XXL Connecté - 8.3L',
       de: 'Philips Airfryer Combi XXL Connected - 8.3L',
@@ -408,7 +415,8 @@ export const staticProducts: StaticProduct[] = [
       it: 349.99,
       nl: 339.99,
     },
-    image: '/products/philips-combi-xxl.svg',
+    image: 'https://m.media-amazon.com/images/I/61gU3AHsFdL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/61gU3AHsFdL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/61SVOlziehL._AC_SL1500_.jpg'],
     nuraScore: 9.0,
     capacity: '8.3L',
     bestFor: {
@@ -437,7 +445,7 @@ export const staticProducts: StaticProduct[] = [
     },
   },
   {
-    asin: 'B0BXM4WG31',
+    asin: 'B07N8N6C85',
     title: {
       fr: 'Cosori Lite 3.8L Air Fryer',
       de: 'Cosori Lite 3.8L Heißluftfritteuse',
@@ -462,7 +470,8 @@ export const staticProducts: StaticProduct[] = [
       it: 69.99,
       nl: 64.99,
     },
-    image: '/products/cosori-lite-38l.svg',
+    image: 'https://m.media-amazon.com/images/I/81xafenO7aL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/81xafenO7aL._AC_SL1500_.jpg'],
     nuraScore: 7.8,
     capacity: '3.8L',
     bestFor: {
@@ -491,7 +500,7 @@ export const staticProducts: StaticProduct[] = [
     },
   },
   {
-    asin: 'B0CYR6YYK2',
+    asin: 'B0CG6C26QW',
     title: {
       fr: 'Moulinex Easy Fry Max 5L',
       de: 'Moulinex Easy Fry Max 5L',
@@ -516,7 +525,8 @@ export const staticProducts: StaticProduct[] = [
       it: 89.99,
       nl: 84.99,
     },
-    image: '/products/moulinex-easy-fry-max.svg',
+    image: 'https://m.media-amazon.com/images/I/51ATUoMSddL._AC_SL500_.jpg',
+    images: ['https://m.media-amazon.com/images/I/51ATUoMSddL._AC_SL1500_.jpg'],
     nuraScore: 8.3,
     capacity: '5L',
     bestFor: {
@@ -555,6 +565,7 @@ export function getStaticProducts(lang: string) {
     price: p.price[lang] || p.price.fr,
     priceNumeric: p.priceNumeric[lang] || p.priceNumeric.fr,
     image: p.image,
+    images: p.images,
     url: `https://${domain}/dp/${p.asin}?tag=${tag}`,
     badge: p.badge ? (p.badge[lang] || p.badge.fr) : undefined,
     nuraScore: p.nuraScore,

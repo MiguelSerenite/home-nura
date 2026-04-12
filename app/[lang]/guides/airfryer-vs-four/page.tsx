@@ -2,6 +2,8 @@ import { getDictionary } from '../../../[lang]/dictionaries'
 import Navbar from '@/components/Navbar'
 import FaqSection from '@/components/FaqSection'
 import CookieBanner from '@/components/CookieBanner'
+import ProductImageCarousel from '@/components/ProductImageCarousel'
+import { getStaticProducts } from '@/lib/products'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 
@@ -348,6 +350,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
   const { lang } = await params
   const dict = await getDictionary(lang)
   const c = pageContent[lang] || pageContent.fr
+  const products = getStaticProducts(lang)
 
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
@@ -380,6 +383,36 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
       <section className="max-w-3xl mx-auto px-6 pb-12">
         <p className="text-slate-600 leading-relaxed text-lg mb-6">{c.intro}</p>
         <p className="text-slate-700 leading-relaxed text-base">{c.intro_long}</p>
+      </section>
+
+      {/* Product Showcase */}
+      <section className="max-w-6xl mx-auto px-6 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {products.slice(0, 3).map((product, i) => (
+            <div key={i} className="bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="p-4">
+                <ProductImageCarousel
+                  images={product.images}
+                  alt={product.title}
+                  badge={product.badge}
+                />
+              </div>
+              <div className="px-5 pb-5">
+                <h3 className="text-base font-bold text-slate-900 mb-1 line-clamp-2">{product.title}</h3>
+                <div className="flex items-center justify-between mb-3">
+                  <span className="text-xl font-black text-slate-900">{product.price}</span>
+                  <span className={`px-2 py-0.5 text-xs font-bold rounded-full ${product.nuraScore >= 9 ? 'bg-emerald-100 text-emerald-700' : 'bg-blue-100 text-blue-700'}`}>
+                    {product.nuraScore}/10
+                  </span>
+                </div>
+                <a href={product.url} target="_blank" rel="nofollow noopener noreferrer"
+                  className="block w-full rounded-full bg-blue-600 px-4 py-2.5 text-center text-sm font-bold text-white hover:bg-blue-700 transition-colors">
+                  Voir sur Amazon
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
 
       {/* How Airfryer Works */}
@@ -476,6 +509,37 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
         <div className="mb-12">
           <h3 className="text-xl font-bold text-slate-900 mb-4">{c.replace_oven_title}</h3>
           <p className="text-slate-600 leading-relaxed">{c.replace_oven}</p>
+        </div>
+      </section>
+
+      {/* All Recommended Products */}
+      <section className="max-w-6xl mx-auto px-6 py-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {products.map((product, i) => (
+            <div key={i} className="bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-lg transition-all">
+              <div className="aspect-square relative bg-slate-50 p-4">
+                <img
+                  src={product.image}
+                  alt={product.title}
+                  className="w-full h-full object-contain"
+                  loading="lazy"
+                />
+                {product.badge && (
+                  <span className="absolute top-3 left-3 px-2 py-0.5 text-xs font-bold bg-amber-400 text-amber-900 rounded-full">{product.badge}</span>
+                )}
+              </div>
+              <div className="p-4">
+                <h3 className="text-sm font-bold text-slate-900 mb-1 line-clamp-2">{product.title}</h3>
+                <div className="flex items-center justify-between">
+                  <span className="text-lg font-black">{product.price}</span>
+                  <a href={product.url} target="_blank" rel="nofollow noopener noreferrer"
+                    className="px-4 py-1.5 bg-blue-600 text-white text-xs font-bold rounded-full hover:bg-blue-700 transition-colors">
+                    Amazon
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
