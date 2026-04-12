@@ -130,12 +130,11 @@ export function ProductImageCarousel({
                 aria-label="Play product video"
               >
                 {/* YouTube thumbnail as background */}
-                <Image
-                  src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
                   alt={`${alt} - Video thumbnail`}
-                  fill
-                  className="object-cover opacity-80 group-hover:opacity-60 transition-opacity"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 60vw"
+                  className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:opacity-60 transition-opacity"
                 />
                 {/* Play button overlay */}
                 <div className="absolute inset-0 flex items-center justify-center">
@@ -153,7 +152,7 @@ export function ProductImageCarousel({
         )}
 
         {/* Image Slides */}
-        <div className="relative w-full h-full">
+        <div className={`relative w-full h-full ${isVideoSlide ? 'pointer-events-none z-0' : 'z-10'}`}>
           {images.map((image, index) => {
             const slideIndex = index + imageOffset;
             return (
@@ -220,13 +219,11 @@ export function ProductImageCarousel({
               }`}
               aria-label="View video"
             >
-              <Image
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src={`https://img.youtube.com/vi/${videoId}/mqdefault.jpg`}
                 alt="Video thumbnail"
-                fill
-                className="object-cover"
-                sizes="80px"
-                loading="lazy"
+                className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 flex items-center justify-center bg-black/30">
                 <PlayIcon className="w-6 h-6 text-white" />

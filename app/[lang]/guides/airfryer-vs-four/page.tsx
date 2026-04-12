@@ -395,7 +395,6 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
                   images={product.images}
                   alt={product.title}
                   badge={product.badge}
-                  videoId={product.videoId}
                 />
               </div>
               <div className="px-5 pb-5">
