@@ -1,5 +1,6 @@
 // Static product data - fallback when Amazon PA-API is unavailable
 // Links are real Amazon affiliate links using the partner tags
+// Images are localized: 'fr' for French marketplace, 'intl' for international (DE, UK, ES, IT, NL)
 
 const partnerTags: Record<string, string> = {
   fr: 'meilleursav00-21',
@@ -19,12 +20,16 @@ const domains: Record<string, string> = {
   nl: 'www.amazon.nl',
 }
 
+// Helper to build image URLs from Amazon image IDs
+const img = (id: string, size: 'SL500' | 'SL1500' = 'SL1500') =>
+  `https://m.media-amazon.com/images/I/${id}._AC_${size}_.jpg`
+
 export interface StaticProduct {
   title: Record<string, string>
   price: Record<string, string>
   priceNumeric: Record<string, number>
-  image: string
-  images: string[]
+  /** Localized images: 'fr' for French marketplace, 'intl' for all other languages */
+  images: { fr: string[]; intl: string[] }
   asin: string
   badge?: Record<string, string>
   nuraScore: number
@@ -61,8 +66,10 @@ export const staticProducts: StaticProduct[] = [
       it: 229.99,
       nl: 229.99,
     },
-    image: 'https://m.media-amazon.com/images/I/71GTPUFlAnL._AC_SL500_.jpg',
-    images: ['https://m.media-amazon.com/images/I/71GTPUFlAnL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/71f7hPZS0KL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/61JyRzj2kWL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/71HmarM3VKL._AC_SL1500_.jpg'],
+    images: {
+      fr: [img('71GTPUFlAnL'), img('71f7hPZS0KL'), img('61JyRzj2kWL'), img('71HmarM3VKL')],
+      intl: [img('71GTPUFlAnL'), img('71DUMo5JpDL'), img('61RfHNvifmL'), img('71OhWKrxiXL')],
+    },
     badge: {
       fr: 'Choix N°1',
       de: 'Beste Wahl',
@@ -124,8 +131,11 @@ export const staticProducts: StaticProduct[] = [
       it: 119.99,
       nl: 109.99,
     },
-    image: 'https://m.media-amazon.com/images/I/516hlh2K8IL._AC_SL500_.jpg',
-    images: ['https://m.media-amazon.com/images/I/516hlh2K8IL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/51Sty-HjlWL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/51YFTZ8imWL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/614ST7SivZL._AC_SL1500_.jpg'],
+    images: {
+      // Same images for all languages - main product shots are neutral
+      fr: [img('516hlh2K8IL'), img('51Sty-HjlWL'), img('51YFTZ8imWL'), img('614ST7SivZL')],
+      intl: [img('516hlh2K8IL'), img('51Sty-HjlWL'), img('51YFTZ8imWL'), img('614ST7SivZL')],
+    },
     nuraScore: 8.7,
     capacity: '6.2L',
     bestFor: {
@@ -179,8 +189,10 @@ export const staticProducts: StaticProduct[] = [
       it: 139.99,
       nl: 129.99,
     },
-    image: 'https://m.media-amazon.com/images/I/91mFwLsU2DL._AC_SL500_.jpg',
-    images: ['https://m.media-amazon.com/images/I/91mFwLsU2DL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/91iP-1+tWvL._AC_SL1500_.jpg'],
+    images: {
+      fr: [img('91mFwLsU2DL'), img('91iP-1+tWvL')],
+      intl: [img('91rdPszNizL'), img('714cX6bCsvL'), img('81egtt7O7OL'), img('71eWgqDpJgL')],
+    },
     nuraScore: 8.9,
     capacity: '6.4L',
     bestFor: {
@@ -234,8 +246,10 @@ export const staticProducts: StaticProduct[] = [
       it: 199.99,
       nl: 199.99,
     },
-    image: 'https://m.media-amazon.com/images/I/81QIrBuK-jL._AC_SL500_.jpg',
-    images: ['https://m.media-amazon.com/images/I/81QIrBuK-jL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/71uXbDlnkaL._AC_SL1500_.jpg'],
+    images: {
+      fr: [img('81QIrBuK-jL'), img('71uXbDlnkaL')],
+      intl: [img('71xmK48MrWL'), img('51iAtFMGJ7L'), img('61Xq5AZqnzL'), img('71Yutb71owL')],
+    },
     nuraScore: 8.2,
     capacity: '1.7kg',
     bestFor: {
@@ -289,8 +303,10 @@ export const staticProducts: StaticProduct[] = [
       it: 79.99,
       nl: 74.99,
     },
-    image: 'https://m.media-amazon.com/images/I/51cfOKkOhlL._AC_SL500_.jpg',
-    images: ['https://m.media-amazon.com/images/I/51cfOKkOhlL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/61XBXzL0ptL._AC_SL1500_.jpg'],
+    images: {
+      fr: [img('51cfOKkOhlL'), img('61XBXzL0ptL')],
+      intl: [img('51cfOKkOhlL'), img('51bXpxpU6xL'), img('51RPTsl64sL'), img('513lsEQp8fL')],
+    },
     badge: {
       fr: 'Meilleur Prix',
       de: 'Bester Preis',
@@ -352,8 +368,10 @@ export const staticProducts: StaticProduct[] = [
       it: 249.99,
       nl: 239.99,
     },
-    image: 'https://m.media-amazon.com/images/I/71T8jynPV3L._AC_SL500_.jpg',
-    images: ['https://m.media-amazon.com/images/I/71T8jynPV3L._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/61RpkcFkBtL._AC_SL1500_.jpg'],
+    images: {
+      fr: [img('71T8jynPV3L'), img('61RpkcFkBtL')],
+      intl: [img('71T8jynPV3L'), img('61RPHhZTbCL'), img('61VcTgll2cL'), img('71vlnqlUGZL')],
+    },
     badge: {
       fr: 'Premium',
       de: 'Premium',
@@ -415,8 +433,10 @@ export const staticProducts: StaticProduct[] = [
       it: 349.99,
       nl: 339.99,
     },
-    image: 'https://m.media-amazon.com/images/I/61gU3AHsFdL._AC_SL500_.jpg',
-    images: ['https://m.media-amazon.com/images/I/61gU3AHsFdL._AC_SL1500_.jpg', 'https://m.media-amazon.com/images/I/61SVOlziehL._AC_SL1500_.jpg'],
+    images: {
+      fr: [img('61gU3AHsFdL'), img('61SVOlziehL')],
+      intl: [img('615x77sZFpL'), img('61cM36OKyTL'), img('61hzd7lQSyL'), img('71YTm7h84PL')],
+    },
     nuraScore: 9.0,
     capacity: '8.3L',
     bestFor: {
@@ -470,8 +490,10 @@ export const staticProducts: StaticProduct[] = [
       it: 69.99,
       nl: 64.99,
     },
-    image: 'https://m.media-amazon.com/images/I/81xafenO7aL._AC_SL500_.jpg',
-    images: ['https://m.media-amazon.com/images/I/81xafenO7aL._AC_SL1500_.jpg'],
+    images: {
+      fr: [img('81xafenO7aL')],
+      intl: [img('81xafenO7aL'), img('71RqadK0FML'), img('81RDY16w0fL'), img('81Ge3R32tEL')],
+    },
     nuraScore: 7.8,
     capacity: '3.8L',
     bestFor: {
@@ -525,8 +547,10 @@ export const staticProducts: StaticProduct[] = [
       it: 89.99,
       nl: 84.99,
     },
-    image: 'https://m.media-amazon.com/images/I/51ATUoMSddL._AC_SL500_.jpg',
-    images: ['https://m.media-amazon.com/images/I/51ATUoMSddL._AC_SL1500_.jpg'],
+    images: {
+      fr: [img('51ATUoMSddL')],
+      intl: [img('61hddsGcPOL'), img('61v2wrE9CML'), img('715QNlObGyL'), img('71gdyeigGeL')],
+    },
     nuraScore: 8.3,
     capacity: '5L',
     bestFor: {
@@ -560,18 +584,25 @@ export function getStaticProducts(lang: string) {
   const tag = partnerTags[lang] || partnerTags.fr
   const domain = domains[lang] || domains.fr
 
-  return staticProducts.map((p) => ({
-    title: p.title[lang] || p.title.fr,
-    price: p.price[lang] || p.price.fr,
-    priceNumeric: p.priceNumeric[lang] || p.priceNumeric.fr,
-    image: p.image,
-    images: p.images,
-    url: `https://${domain}/dp/${p.asin}?tag=${tag}`,
-    badge: p.badge ? (p.badge[lang] || p.badge.fr) : undefined,
-    nuraScore: p.nuraScore,
-    capacity: p.capacity,
-    bestFor: p.bestFor[lang] || p.bestFor.fr,
-    pros: p.pros[lang] || p.pros.fr,
-    cons: p.cons[lang] || p.cons.fr,
-  }))
+  return staticProducts.map((p) => {
+    // Select localized images: French for 'fr', international for all others
+    const langImages = lang === 'fr' ? p.images.fr : (p.images.intl || p.images.fr)
+    // Main image is the first one, in SL500 size
+    const mainImage = langImages[0].replace('SL1500', 'SL500')
+
+    return {
+      title: p.title[lang] || p.title.fr,
+      price: p.price[lang] || p.price.fr,
+      priceNumeric: p.priceNumeric[lang] || p.priceNumeric.fr,
+      image: mainImage,
+      images: langImages,
+      url: `https://${domain}/dp/${p.asin}?tag=${tag}`,
+      badge: p.badge ? (p.badge[lang] || p.badge.fr) : undefined,
+      nuraScore: p.nuraScore,
+      capacity: p.capacity,
+      bestFor: p.bestFor[lang] || p.bestFor.fr,
+      pros: p.pros[lang] || p.pros.fr,
+      cons: p.cons[lang] || p.cons.fr,
+    }
+  })
 }
