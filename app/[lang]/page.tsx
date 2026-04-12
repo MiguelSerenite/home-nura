@@ -142,6 +142,32 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         />
       </section>
 
+      {/* SEO Content Sections */}
+
+      {/* Why Trust Us Section */}
+      <section className="max-w-3xl mx-auto px-6 py-16 border-t border-slate-100">
+        <h2 className="text-3xl font-bold mb-6 text-slate-900">{dict.trust_section_title}</h2>
+        <p className="text-slate-600 leading-relaxed text-base">{dict.trust_section_content}</p>
+      </section>
+
+      {/* Market Overview Section */}
+      <section className="max-w-3xl mx-auto px-6 py-16 border-t border-slate-100">
+        <h2 className="text-3xl font-bold mb-6 text-slate-900">{dict.market_section_title}</h2>
+        <p className="text-slate-600 leading-relaxed text-base">{dict.market_section_content}</p>
+      </section>
+
+      {/* Testing Methodology Section */}
+      <section className="max-w-3xl mx-auto px-6 py-16 border-t border-slate-100">
+        <h2 className="text-3xl font-bold mb-6 text-slate-900">{dict.testing_section_title}</h2>
+        <p className="text-slate-600 leading-relaxed text-base">{dict.testing_section_content}</p>
+      </section>
+
+      {/* Recommendation Guide Section */}
+      <section className="max-w-3xl mx-auto px-6 py-16 border-t border-slate-100 pb-8">
+        <h2 className="text-3xl font-bold mb-6 text-slate-900">{dict.recommendation_section_title}</h2>
+        <p className="text-slate-600 leading-relaxed text-base">{dict.recommendation_section_content}</p>
+      </section>
+
       {/* Guide CTA */}
       <section className="max-w-3xl mx-auto px-6 pb-16 text-center">
         <Link
