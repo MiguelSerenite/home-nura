@@ -1,5 +1,5 @@
 // Static product data with Amazon product images and affiliate links
-// Images are sourced from Amazon CDN (universal across all marketplaces)
+// Images are sourced from Amazon CDN (per-country marketplace images)
 
 const partnerTags: Record<string, string> = {
   fr: 'homenuraen05-21',
@@ -28,8 +28,8 @@ export interface StaticProduct {
   title: Record<string, string>
   price: Record<string, string>
   priceNumeric: Record<string, number>
-  /** Product images (universal - Amazon CDN images work globally) */
-  images: string[]
+  /** Per-country marketplace images */
+  images: Record<string, string[]>
   asin: string
   badge?: Record<string, string>
   nuraScore: number
@@ -56,7 +56,14 @@ export const staticProducts: StaticProduct[] = [
       es: '229,99€', it: '229,99€', nl: '229,99€',
     },
     priceNumeric: { fr: 229.99, de: 229.99, en: 229.99, es: 229.99, it: 229.99, nl: 229.99 },
-    images: [img('71GTPUFlAnL'), img('41CfTSLQprL'), img('41Vx9wlJztL'), img('41OVP9LdQfL')],
+    images: {
+      fr: [img('41CfTSLQprL'), img('41rW9SE67CL'), img('41UknP2dSDL'), img('51mUF3yC0XL'), img('51kFfNWVVmL'), img('51SQGlZ5HqL'), img('81KwTJl9DWL'), img('71GTPUFlAnL')],
+      de: [img('41CfTSLQprL'), img('41Vx9wlJztL'), img('41OVP9LdQfL'), img('51r0lz5MHQL'), img('51ntqWIQVmL'), img('51wdAhlYZvL'), img('91ljfEyAG+L'), img('71GTPUFlAnL')],
+      en: [img('41q8JF5X2dL'), img('51F8eagvyaL'), img('61rt8iW5LLL')],
+      es: [img('41CfTSLQprL'), img('418RY5VZtXL'), img('41e09aE8blL'), img('51FWLbR7QYL'), img('51fUPHYhGHL'), img('51RjMpIlD7L'), img('91QqUTWcXDL'), img('71GTPUFlAnL')],
+      it: [img('41CfTSLQprL'), img('41fqAR3UWeL'), img('41l0KWVku1L'), img('51ZnUSw-77L'), img('51+5MDNxDKL'), img('51bAw6RkbJL'), img('915SdkJY+mL'), img('71GTPUFlAnL')],
+      nl: [img('41CfTSLQprL'), img('41Vx9wlJztL'), img('41OVP9LdQfL'), img('51r0lz5MHQL'), img('51ntqWIQVmL'), img('51wdAhlYZvL'), img('91ljfEyAG+L'), img('71GTPUFlAnL')],
+    },
     badge: {
       fr: 'Choix N°1', de: 'Beste Wahl', en: 'Top Pick',
       es: 'Mejor Elección', it: 'Scelta Top', nl: 'Beste Keuze',
@@ -97,7 +104,14 @@ export const staticProducts: StaticProduct[] = [
       es: '109,99€', it: '119,99€', nl: '109,99€',
     },
     priceNumeric: { fr: 119.99, de: 119.99, en: 99.99, es: 109.99, it: 119.99, nl: 109.99 },
-    images: [img('51JFVsg9BzL'), img('31ihrfI3oJL'), img('41ExFDsBRkL'), img('31OF6Z0HJlL')],
+    images: {
+      fr: [img('31upZSvSwjL'), img('31kx15DMoWL'), img('41Hc43N6WlL'), img('41I8+6WDUdL'), img('41Uhfau0fcL'), img('51ouKk1X8rL'), img('41yUrDga5ML'), img('516hlh2K8IL')],
+      de: [img('31ihrfI3oJL'), img('41ExFDsBRkL'), img('31OF6Z0HJlL'), img('611kSWXGdAL'), img('51JFVsg9BzL')],
+      en: [img('31htbiQXdhL'), img('41QCII3b57L'), img('413ityir+XL'), img('51Xa00+L5fL'), img('51w9B8HUvIL'), img('41YgfZK3LdL'), img('41cLDNrEt4L'), img('51lXaS1GjEL')],
+      es: [img('31EF5Q9vkpL'), img('41wE5-Wkf0L'), img('41Zvn27SqFL'), img('51Sa+dC92oL'), img('51a7uKgvHSL'), img('41N9swplcpL'), img('61Fv2QxR6uL'), img('514QeBoWEUL')],
+      it: [img('31upZSvSwjL'), img('31kx15DMoWL'), img('41Hc43N6WlL'), img('41I8+6WDUdL'), img('41Uhfau0fcL'), img('51ouKk1X8rL'), img('41yUrDga5ML'), img('516hlh2K8IL')],
+      nl: [img('31upZSvSwjL'), img('41g2Bu-+FZL'), img('41I8+6WDUdL'), img('41FlvEJH6RL'), img('51ktilXnRHL'), img('51KjBx7kJbL'), img('41qLfETFmDL'), img('516hlh2K8IL')],
+    },
     nuraScore: 8.7,
     capacity: '6.2L',
     bestFor: {
@@ -134,7 +148,14 @@ export const staticProducts: StaticProduct[] = [
       es: '129,99€', it: '139,99€', nl: '129,99€',
     },
     priceNumeric: { fr: 139.99, de: 139.99, en: 119.99, es: 129.99, it: 139.99, nl: 129.99 },
-    images: [img('91mFwLsU2DL'), img('41qK28Ln0PL'), img('51eX4ilkMVL'), img('51rTkIGnYTL')],
+    images: {
+      fr: [img('41qK28Ln0PL'), img('51eX4ilkMVL'), img('51rTkIGnYTL'), img('517Ul1Ym6KL'), img('51lUY-Q1b5L'), img('51GZcygvXfL'), img('91mFwLsU2DL')],
+      de: [img('41qK28Ln0PL'), img('51eX4ilkMVL'), img('51rTkIGnYTL'), img('517Ul1Ym6KL'), img('51lUY-Q1b5L'), img('51GZcygvXfL'), img('91mFwLsU2DL')],
+      en: [img('41h5+oA7WXL'), img('61VZOPq09xL')],
+      es: [img('41UDTjvPnuL'), img('51V50PjealL'), img('51Jp5jUoDpL'), img('51kXvM0XosL'), img('51E0GUZNTQL'), img('51ys3sZeWlL'), img('91rdPszNizL')],
+      it: [img('41UDTjvPnuL'), img('51V50PjealL'), img('51Jp5jUoDpL'), img('51kXvM0XosL'), img('51E0GUZNTQL'), img('51ys3sZeWlL'), img('91rdPszNizL')],
+      nl: [img('41qK28Ln0PL'), img('51eX4ilkMVL'), img('51rTkIGnYTL'), img('517Ul1Ym6KL'), img('51lUY-Q1b5L'), img('51GZcygvXfL'), img('91mFwLsU2DL')],
+    },
     nuraScore: 8.9,
     capacity: '6.4L',
     bestFor: {
@@ -171,7 +192,14 @@ export const staticProducts: StaticProduct[] = [
       es: '189,99€', it: '199,99€', nl: '199,99€',
     },
     priceNumeric: { fr: 199.99, de: 209.99, en: 179.99, es: 189.99, it: 199.99, nl: 199.99 },
-    images: [img('81QIrBuK-jL'), img('41sQIj0LwDL'), img('41CHtc+1fpL'), img('31Ul3dd0BNL')],
+    images: {
+      fr: [img('41sQIj0LwDL'), img('4163aujSYZL'), img('41CHtc+1fpL'), img('31Ul3dd0BNL'), img('41biHhvIGSL'), img('415PxoisSFL'), img('41qwNP-X98L'), img('81QIrBuK-jL')],
+      de: [img('41sQIj0LwDL'), img('41CHtc+1fpL'), img('31Ul3dd0BNL'), img('41biHhvIGSL'), img('4163aujSYZL'), img('415PxoisSFL'), img('41c-99oMleL'), img('81QIrBuK-jL')],
+      en: [img('41sQIj0LwDL'), img('41CHtc+1fpL'), img('31Ul3dd0BNL'), img('41biHhvIGSL'), img('4163aujSYZL'), img('415PxoisSFL'), img('41qwNP-X98L'), img('81QIrBuK-jL')],
+      es: [img('41sQIj0LwDL'), img('41CHtc+1fpL'), img('31Ul3dd0BNL'), img('41biHhvIGSL'), img('4163aujSYZL'), img('415PxoisSFL'), img('41qwNP-X98L'), img('81QIrBuK-jL')],
+      it: [img('41sQIj0LwDL'), img('41CHtc+1fpL'), img('31Ul3dd0BNL'), img('41biHhvIGSL'), img('4163aujSYZL'), img('415PxoisSFL'), img('41qwNP-X98L'), img('81QIrBuK-jL')],
+      nl: [img('41Fw7V4F8fL'), img('515scv6AudL'), img('41WZXGCyMzL'), img('31RXJGbJsJL'), img('41kzpb7UpkL'), img('418bUhQAKXL'), img('7103ERZq1kL')],
+    },
     nuraScore: 8.2,
     capacity: '1.7kg',
     bestFor: {
@@ -208,7 +236,14 @@ export const staticProducts: StaticProduct[] = [
       es: '74,99€', it: '79,99€', nl: '74,99€',
     },
     priceNumeric: { fr: 79.99, de: 79.99, en: 69.99, es: 74.99, it: 79.99, nl: 74.99 },
-    images: [img('51cfOKkOhlL'), img('21z46vwmm1L'), img('21DcY1zeMKL'), img('21ytbWXBlQL')],
+    images: {
+      fr: [img('21z46vwmm1L'), img('41LOazNzK8L'), img('21DcY1zeMKL'), img('21ytbWXBlQL'), img('21nhxb2WbBL'), img('21Ksv-j5OcL'), img('41NYR94DL8L'), img('51cfOKkOhlL')],
+      de: [img('21z46vwmm1L'), img('21DcY1zeMKL'), img('21ytbWXBlQL'), img('21nhxb2WbBL'), img('21Ksv-j5OcL'), img('41LOazNzK8L'), img('41NYR94DL8L'), img('51cfOKkOhlL')],
+      en: [img('21z46vwmm1L'), img('21DcY1zeMKL'), img('21ytbWXBlQL'), img('21nhxb2WbBL'), img('21Ksv-j5OcL'), img('41LOazNzK8L'), img('41NYR94DL8L'), img('51cfOKkOhlL')],
+      es: [img('21z46vwmm1L'), img('21DcY1zeMKL'), img('21ytbWXBlQL'), img('21nhxb2WbBL'), img('21Ksv-j5OcL'), img('41LOazNzK8L'), img('41NYR94DL8L'), img('51cfOKkOhlL')],
+      it: [img('21z46vwmm1L'), img('21DcY1zeMKL'), img('21ytbWXBlQL'), img('21nhxb2WbBL'), img('21Ksv-j5OcL'), img('41LOazNzK8L'), img('41NYR94DL8L'), img('51cfOKkOhlL')],
+      nl: [img('21z46vwmm1L'), img('21DcY1zeMKL'), img('21ytbWXBlQL'), img('21nhxb2WbBL'), img('21Ksv-j5OcL'), img('41LOazNzK8L'), img('41NYR94DL8L'), img('51cfOKkOhlL')],
+    },
     badge: {
       fr: 'Meilleur Prix', de: 'Bester Preis', en: 'Best Value',
       es: 'Mejor Precio', it: 'Miglior Prezzo', nl: 'Beste Prijs',
@@ -252,7 +287,14 @@ export const staticProducts: StaticProduct[] = [
       es: '239,99€', it: '249,99€', nl: '239,99€',
     },
     priceNumeric: { fr: 249.99, de: 249.99, en: 219.99, es: 239.99, it: 249.99, nl: 239.99 },
-    images: [img('71T8jynPV3L'), img('31pr60oiZuL'), img('414VFz8Jc4L'), img('51sF7ZrbJlL')],
+    images: {
+      fr: [img('31pr60oiZuL'), img('41Ivql+rlPL'), img('519odoJB9CL'), img('51rCYDpcl6L'), img('51QXMUDCEqL'), img('51x6nXJBrtL'), img('81S9f8EAHRL'), img('71T8jynPV3L')],
+      de: [img('31pr60oiZuL'), img('414VFz8Jc4L'), img('51s+pAyeqdL'), img('51sF7ZrbJlL'), img('51xdWWG4skL'), img('5192N20Q2KL'), img('81sdBwjVcLL'), img('71T8jynPV3L')],
+      en: [img('31pr60oiZuL'), img('41Ivql+rlPL'), img('519odoJB9CL'), img('51rCYDpcl6L'), img('51QXMUDCEqL'), img('51x6nXJBrtL'), img('51LJzCgN6TL'), img('71T8jynPV3L')],
+      es: [img('31pr60oiZuL'), img('41UuCVjBXPL'), img('51wbDWNZX4L'), img('51dqj35iXjL'), img('51GsxiE6+rL'), img('41cq0G3zyDL'), img('51-9Oe7cyOL'), img('71T8jynPV3L')],
+      it: [img('31pr60oiZuL'), img('4152ZqREpFL'), img('51U17kAoAsL'), img('51uQjNPam3L'), img('51PHRzNltxL'), img('41mIKYSFSpL'), img('81JA5ZtmYEL'), img('71T8jynPV3L')],
+      nl: [img('31pr60oiZuL'), img('414VFz8Jc4L'), img('51s+pAyeqdL'), img('51sF7ZrbJlL'), img('51xdWWG4skL'), img('5192N20Q2KL'), img('81sdBwjVcLL'), img('71T8jynPV3L')],
+    },
     badge: {
       fr: 'Premium', de: 'Premium', en: 'Premium',
       es: 'Premium', it: 'Premium', nl: 'Premium',
@@ -293,7 +335,14 @@ export const staticProducts: StaticProduct[] = [
       es: '329,99€', it: '349,99€', nl: '339,99€',
     },
     priceNumeric: { fr: 349.99, de: 349.99, en: 299.99, es: 329.99, it: 349.99, nl: 339.99 },
-    images: [img('615x77sZFpL'), img('41m8gEYJfCL'), img('51LUtueROvL'), img('51rNdtsnisL')],
+    images: {
+      fr: [img('41sOxW9hrYL'), img('51TI6vVXnAL'), img('41mPH4oI62L'), img('41J+Ne+U65L'), img('41VoaarlecL'), img('51h8qJQcaPL'), img('41yUrDga5ML'), img('61gU3AHsFdL')],
+      de: [img('41m8gEYJfCL'), img('51LUtueROvL'), img('51rNdtsnisL'), img('41ZEyDnW6RL'), img('51h73+ZN8ML'), img('51-YiO2wybL'), img('51s3ATFaiNL'), img('615x77sZFpL')],
+      en: [img('31bSuWEvmHL'), img('41gdDY7NW-L'), img('31+1t1s4m3L'), img('5148QeBjTwL'), img('41L7rIeFHSL'), img('41UR97+ZI6L'), img('51fJ4U8kHjL')],
+      es: [img('41sOxW9hrYL'), img('41wPKWvM7lL'), img('41J+Ne+U65L'), img('41j-fZLvZLL'), img('51vherEwTmL'), img('51q1LHMcImL'), img('61gU3AHsFdL')],
+      it: [img('41m8gEYJfCL'), img('41zVxRY43RL'), img('41U9RZcb02L'), img('41drP4n9kpL'), img('51bO0-eOa0L'), img('51KN7EcfHRL'), img('51FW0-MYY5L'), img('615x77sZFpL')],
+      nl: [img('41m8gEYJfCL'), img('41ENtdNZqQL'), img('41U9RZcb02L'), img('41j-wbYp+3L'), img('51HR4jdUeNL'), img('51eLodvh9aL'), img('615x77sZFpL')],
+    },
     nuraScore: 9.0,
     capacity: '8.3L',
     bestFor: {
@@ -330,7 +379,14 @@ export const staticProducts: StaticProduct[] = [
       es: '64,99€', it: '69,99€', nl: '64,99€',
     },
     priceNumeric: { fr: 69.99, de: 69.99, en: 59.99, es: 64.99, it: 69.99, nl: 64.99 },
-    images: [img('81xtJuKPaKL'), img('41c8-2mR9oL'), img('51uRm9v7qHL'), img('51KXkmGhcSL')],
+    images: {
+      fr: [img('51asEHelgNL'), img('51lTfLNrybL'), img('61ioCA+eEkL'), img('5183QQlqfLL'), img('51ffH+cjCaL'), img('51hgRE0O34L'), img('51M5smIzJEL'), img('81xafenO7aL')],
+      de: [img('41c8-2mR9oL'), img('51uRm9v7qHL'), img('51KXkmGhcSL'), img('51Qd6R6NOsL'), img('5128zA9msHL'), img('51U368xcc0L'), img('51t-mQix2EL'), img('81xtJuKPaKL')],
+      en: [img('4108ujSWGrL'), img('51M82f8gN7L'), img('41Im5on3BrL'), img('51sjbRZKCpL'), img('41mPiMHl7QL'), img('41-NUkox8eL'), img('41asrD8LQCL'), img('51vliGEwoSL')],
+      es: [img('51f110+wHwL'), img('51Hz0BEs8-L'), img('51sFygxvqDL'), img('51Dhq0837uL'), img('519eb9UfuxL'), img('514hF8Z02sL'), img('514MBurI7fL'), img('81HDt6NDs7L')],
+      it: [img('51asEHelgNL'), img('51Iq5WITwDL'), img('51t2OGeTNVL'), img('5163wAxl2yL'), img('51jfO4piGTL'), img('51WD8PcyGvL'), img('51Rv4MjEilL'), img('81xafenO7aL')],
+      nl: [img('41dgImAaFxL'), img('41hjvFtIDhL'), img('513vGJD8pCL'), img('514XcUy0bQL'), img('51kLrvVBWML'), img('51rYiJd-BLL'), img('61CfY9egMNL'), img('61ooux6h5iL')],
+    },
     nuraScore: 7.8,
     capacity: '3.8L',
     bestFor: {
@@ -367,7 +423,14 @@ export const staticProducts: StaticProduct[] = [
       es: '84,99€', it: '89,99€', nl: '84,99€',
     },
     priceNumeric: { fr: 89.99, de: 94.99, en: 79.99, es: 84.99, it: 89.99, nl: 84.99 },
-    images: [img('71odsj+-FCL'), img('41MfLEk4x1L'), img('418AwHIHMCL'), img('31yWW2d7Y0L')],
+    images: {
+      fr: [img('31sYjIGedWL'), img('31yWW2d7Y0L'), img('418zRPkh+4L'), img('5153iWZKejL'), img('41KOqrNxjWL'), img('51pysa4flEL'), img('61Pq0r2hHsL'), img('51ATUoMSddL')],
+      de: [img('41MfLEk4x1L'), img('418AwHIHMCL'), img('31yWW2d7Y0L'), img('51p7J2ejpUL'), img('514k1H7gIHL'), img('517yrZhLoZL'), img('411i-St1ZTL'), img('71odsj+-FCL')],
+      en: [img('41MfLEk4x1L'), img('418AwHIHMCL'), img('31yWW2d7Y0L'), img('51p7J2ejpUL'), img('514k1H7gIHL'), img('517yrZhLoZL'), img('411i-St1ZTL'), img('71odsj+-FCL')],
+      es: [img('315oOiq8UiL'), img('51mVy-GrU7L'), img('41CLVJ5xs7L'), img('51uoqBjGDWL'), img('41p+RVNs1LL'), img('512vJXroK3L'), img('315qjeFgloL'), img('516kJw1p0lL')],
+      it: [img('31doBiaU5EL'), img('31DCkz+fUYL'), img('41QIoYhLIvL'), img('51VvXoieWOL'), img('51oDwINf-nL'), img('41g83WE8G5L'), img('41rqozVBvGL'), img('61hddsGcPOL')],
+      nl: [img('41MfLEk4x1L'), img('418AwHIHMCL'), img('31yWW2d7Y0L'), img('51p7J2ejpUL'), img('514k1H7gIHL'), img('517yrZhLoZL'), img('411i-St1ZTL'), img('71odsj+-FCL')],
+    },
     nuraScore: 8.3,
     capacity: '5L',
     bestFor: {
@@ -395,14 +458,15 @@ export function getStaticProducts(lang: string) {
   const domain = domains[lang] || domains.fr
 
   return staticProducts.map((p) => {
-    const mainImage = p.images[0].replace('SL1500', 'SL500')
+    const langImages = p.images[lang] || p.images.fr
+    const mainImage = langImages[0].replace('SL1500', 'SL500')
 
     return {
       title: p.title[lang] || p.title.fr,
       price: p.price[lang] || p.price.fr,
       priceNumeric: p.priceNumeric[lang] || p.priceNumeric.fr,
       image: mainImage,
-      images: p.images,
+      images: langImages,
       asin: p.asin,
       url: `https://${domain}/dp/${p.asin}?tag=${tag}`,
       badge: p.badge ? (p.badge[lang] || p.badge.fr) : undefined,
