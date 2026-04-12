@@ -1,13 +1,13 @@
-// Static product data - fallback when Amazon PA-API is unavailable
-// Links are real Amazon affiliate links using the partner tags
-// Images are localized: 'fr' for French marketplace, 'intl' for international (DE, UK, ES, IT, NL)
+// Static product data with per-marketplace images and affiliate links
+// Images are sourced from each Amazon marketplace to avoid localized text issues
+// Videos: YouTube IDs for product demos/reviews (more sales-driving than photos)
 
 const partnerTags: Record<string, string> = {
-  fr: 'meilleursav00-21',
-  de: 'homenurade-21',
-  en: 'homenurauk-21',
-  es: 'homenurae-21',
-  it: 'homenurai-21',
+  fr: 'homenuraen05-21',
+  de: 'homenuraen00-21',
+  en: 'homenuraen-21',
+  es: 'homenuraen0a-21',
+  it: 'homenuraen010-21',
   nl: 'homenuranl-21',
 }
 
@@ -20,6 +20,16 @@ const domains: Record<string, string> = {
   nl: 'www.amazon.nl',
 }
 
+// Image fallback mapping: which marketplace images to use per language
+const imageFallback: Record<string, string> = {
+  fr: 'fr',
+  de: 'de',
+  en: 'de',  // UK uses DE images (neutral European product shots)
+  es: 'it',  // ES uses IT images (Southern European marketplace)
+  it: 'it',
+  nl: 'de',  // NL uses DE images (Northern European marketplace)
+}
+
 // Helper to build image URLs from Amazon image IDs
 const img = (id: string, size: 'SL500' | 'SL1500' = 'SL1500') =>
   `https://m.media-amazon.com/images/I/${id}._AC_${size}_.jpg`
@@ -28,8 +38,10 @@ export interface StaticProduct {
   title: Record<string, string>
   price: Record<string, string>
   priceNumeric: Record<string, number>
-  /** Localized images: 'fr' for French marketplace, 'intl' for all other languages */
-  images: { fr: string[]; intl: string[] }
+  /** Per-marketplace images: fr (amazon.fr), de (amazon.de), it (amazon.it) */
+  images: { fr: string[]; de: string[]; it: string[] }
+  /** YouTube video ID for product demo/review */
+  videoId?: string
   asin: string
   badge?: Record<string, string>
   nuraScore: number
@@ -41,6 +53,7 @@ export interface StaticProduct {
 
 export const staticProducts: StaticProduct[] = [
   {
+    // 1. Ninja Foodi MAX Double Stack XL 9.5L
     asin: 'B0CZPJ1HFP',
     title: {
       fr: 'Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L',
@@ -51,42 +64,25 @@ export const staticProducts: StaticProduct[] = [
       nl: 'Ninja Foodi MAX Double Stack XL Airfryer - 9.5L',
     },
     price: {
-      fr: '229,99€',
-      de: '229,99€',
-      en: '£229.99',
-      es: '229,99€',
-      it: '229,99€',
-      nl: '229,99€',
+      fr: '229,99€', de: '229,99€', en: '£229.99',
+      es: '229,99€', it: '229,99€', nl: '229,99€',
     },
-    priceNumeric: {
-      fr: 229.99,
-      de: 229.99,
-      en: 229.99,
-      es: 229.99,
-      it: 229.99,
-      nl: 229.99,
-    },
+    priceNumeric: { fr: 229.99, de: 229.99, en: 229.99, es: 229.99, it: 229.99, nl: 229.99 },
     images: {
       fr: [img('71GTPUFlAnL'), img('71f7hPZS0KL'), img('61JyRzj2kWL'), img('71HmarM3VKL')],
-      intl: [img('71GTPUFlAnL'), img('71DUMo5JpDL'), img('61RfHNvifmL'), img('71OhWKrxiXL')],
+      de: [img('71GTPUFlAnL'), img('41CfTSLQprL'), img('41Vx9wlJztL'), img('41OVP9LdQfL'), img('51r0lz5MHQL')],
+      it: [img('71GTPUFlAnL'), img('71DUMo5JpDL'), img('61RfHNvifmL'), img('71OhWKrxiXL')],
     },
     badge: {
-      fr: 'Choix N°1',
-      de: 'Beste Wahl',
-      en: 'Top Pick',
-      es: 'Mejor Elección',
-      it: 'Scelta Top',
-      nl: 'Beste Keuze',
+      fr: 'Choix N°1', de: 'Beste Wahl', en: 'Top Pick',
+      es: 'Mejor Elección', it: 'Scelta Top', nl: 'Beste Keuze',
     },
+    videoId: 'T8_ph1v7qUw',
     nuraScore: 9.4,
     capacity: '9.5L',
     bestFor: {
-      fr: 'Familles nombreuses',
-      en: 'Large families',
-      de: 'Große Familien',
-      es: 'Familias numerosas',
-      it: 'Famiglie numerose',
-      nl: 'Grote gezinnen',
+      fr: 'Familles nombreuses', en: 'Large families', de: 'Große Familien',
+      es: 'Familias numerosas', it: 'Famiglie numerose', nl: 'Grote gezinnen',
     },
     pros: {
       fr: ['Double tiroir empilable 9.5L', 'Cuisson ultra-homogène', '6 modes de cuisson'],
@@ -97,15 +93,13 @@ export const staticProducts: StaticProduct[] = [
       nl: ['Dubbele stapelbare lade 9.5L', 'Ultra-gelijkmatig bakken', '6 kookmodi'],
     },
     cons: {
-      fr: ['Prix élevé', 'Encombrant'],
-      en: ['High price', 'Bulky'],
-      de: ['Hoher Preis', 'Sperrig'],
-      es: ['Precio alto', 'Voluminosa'],
-      it: ['Prezzo alto', 'Ingombrante'],
-      nl: ['Hoge prijs', 'Omvangrijk'],
+      fr: ['Prix élevé', 'Encombrant'], en: ['High price', 'Bulky'],
+      de: ['Hoher Preis', 'Sperrig'], es: ['Precio alto', 'Voluminosa'],
+      it: ['Prezzo alto', 'Ingombrante'], nl: ['Hoge prijs', 'Omvangrijk'],
     },
   },
   {
+    // 2. Philips Airfryer 3000 Series XL 6.2L
     asin: 'B0D9S9Y16Y',
     title: {
       fr: 'Philips Airfryer Série 3000 XL - 6.2L',
@@ -116,35 +110,21 @@ export const staticProducts: StaticProduct[] = [
       nl: 'Philips Airfryer 3000 Serie XL - 6.2L',
     },
     price: {
-      fr: '119,99€',
-      de: '119,99€',
-      en: '£99.99',
-      es: '109,99€',
-      it: '119,99€',
-      nl: '109,99€',
+      fr: '119,99€', de: '119,99€', en: '£99.99',
+      es: '109,99€', it: '119,99€', nl: '109,99€',
     },
-    priceNumeric: {
-      fr: 119.99,
-      de: 119.99,
-      en: 99.99,
-      es: 109.99,
-      it: 119.99,
-      nl: 109.99,
-    },
+    priceNumeric: { fr: 119.99, de: 119.99, en: 99.99, es: 109.99, it: 119.99, nl: 109.99 },
     images: {
-      // Same images for all languages - main product shots are neutral
       fr: [img('516hlh2K8IL'), img('51Sty-HjlWL'), img('51YFTZ8imWL'), img('614ST7SivZL')],
-      intl: [img('516hlh2K8IL'), img('51Sty-HjlWL'), img('51YFTZ8imWL'), img('614ST7SivZL')],
+      de: [img('51JFVsg9BzL'), img('31ihrfI3oJL'), img('41ExFDsBRkL'), img('31OF6Z0HJlL'), img('611kSWXGdAL')],
+      it: [img('516hlh2K8IL'), img('51Sty-HjlWL'), img('51YFTZ8imWL'), img('614ST7SivZL')], // same as FR (not found separately on IT)
     },
+    videoId: 'cLcWfZg32C4',
     nuraScore: 8.7,
     capacity: '6.2L',
     bestFor: {
-      fr: 'Rapport qualité-prix',
-      en: 'Value for money',
-      de: 'Preis-Leistung',
-      es: 'Relación calidad-precio',
-      it: 'Rapporto qualità-prezzo',
-      nl: 'Prijs-kwaliteit',
+      fr: 'Rapport qualité-prix', en: 'Value for money', de: 'Preis-Leistung',
+      es: 'Relación calidad-precio', it: 'Rapporto qualità-prezzo', nl: 'Prijs-kwaliteit',
     },
     pros: {
       fr: ['Technologie Rapid Air', 'Facile à nettoyer', 'Marque fiable'],
@@ -155,15 +135,13 @@ export const staticProducts: StaticProduct[] = [
       nl: ['Rapid Air technologie', 'Makkelijk schoon te maken', 'Betrouwbaar merk'],
     },
     cons: {
-      fr: ['Panier unique', 'Pas de connectivité'],
-      en: ['Single basket', 'No connectivity'],
-      de: ['Einzelner Korb', 'Keine Konnektivität'],
-      es: ['Cesta única', 'Sin conectividad'],
-      it: ['Cestello singolo', 'Nessuna connettività'],
-      nl: ['Enkele mand', 'Geen connectiviteit'],
+      fr: ['Panier unique', 'Pas de connectivité'], en: ['Single basket', 'No connectivity'],
+      de: ['Einzelner Korb', 'Keine Konnektivität'], es: ['Cesta única', 'Sin conectividad'],
+      it: ['Cestello singolo', 'Nessuna connettività'], nl: ['Enkele mand', 'Geen connectiviteit'],
     },
   },
   {
+    // 3. Cosori Dual Blaze Smart 6.4L
     asin: 'B0FPWSDF86',
     title: {
       fr: 'Cosori Dual Blaze Smart Air Fryer - 6.4L',
@@ -174,34 +152,21 @@ export const staticProducts: StaticProduct[] = [
       nl: 'Cosori Dual Blaze Smart Airfryer - 6.4L',
     },
     price: {
-      fr: '139,99€',
-      de: '139,99€',
-      en: '£119.99',
-      es: '129,99€',
-      it: '139,99€',
-      nl: '129,99€',
+      fr: '139,99€', de: '139,99€', en: '£119.99',
+      es: '129,99€', it: '139,99€', nl: '129,99€',
     },
-    priceNumeric: {
-      fr: 139.99,
-      de: 139.99,
-      en: 119.99,
-      es: 129.99,
-      it: 139.99,
-      nl: 129.99,
-    },
+    priceNumeric: { fr: 139.99, de: 139.99, en: 119.99, es: 129.99, it: 139.99, nl: 129.99 },
     images: {
       fr: [img('91mFwLsU2DL'), img('91iP-1+tWvL')],
-      intl: [img('91rdPszNizL'), img('714cX6bCsvL'), img('81egtt7O7OL'), img('71eWgqDpJgL')],
+      de: [img('91rdPszNizL'), img('714cX6bCsvL'), img('81egtt7O7OL'), img('71eWgqDpJgL')], // DE had only video, using IT images
+      it: [img('91rdPszNizL'), img('714cX6bCsvL'), img('81egtt7O7OL'), img('71eWgqDpJgL')],
     },
+    videoId: 'yBYPU6dPGyQ',
     nuraScore: 8.9,
     capacity: '6.4L',
     bestFor: {
-      fr: 'Cuisson intelligente',
-      en: 'Smart cooking',
-      de: 'Intelligentes Kochen',
-      es: 'Cocción inteligente',
-      it: 'Cottura intelligente',
-      nl: 'Slim koken',
+      fr: 'Cuisson intelligente', en: 'Smart cooking', de: 'Intelligentes Kochen',
+      es: 'Cocción inteligente', it: 'Cottura intelligente', nl: 'Slim koken',
     },
     pros: {
       fr: ['Double résistance haut/bas', 'App connectée', 'Préchauffage rapide'],
@@ -212,15 +177,13 @@ export const staticProducts: StaticProduct[] = [
       nl: ['Dubbel boven/onder verwarming', 'Verbonden app', 'Snel voorverwarmen'],
     },
     cons: {
-      fr: ['Un seul tiroir', 'App parfois lente'],
-      en: ['Single drawer', 'App sometimes slow'],
-      de: ['Einzelner Korb', 'App manchmal langsam'],
-      es: ['Un solo cajón', 'App a veces lenta'],
-      it: ['Singolo cassetto', 'App a volte lenta'],
-      nl: ['Enkele lade', 'App soms traag'],
+      fr: ['Un seul tiroir', 'App parfois lente'], en: ['Single drawer', 'App sometimes slow'],
+      de: ['Einzelner Korb', 'App manchmal langsam'], es: ['Un solo cajón', 'App a veces lenta'],
+      it: ['Singolo cassetto', 'App a volte lenta'], nl: ['Enkele lade', 'App soms traag'],
     },
   },
   {
+    // 4. Tefal ActiFry Genius XL 2in1
     asin: 'B079QL7T1S',
     title: {
       fr: 'Tefal ActiFry Genius XL 2in1 - 1.7kg',
@@ -231,34 +194,21 @@ export const staticProducts: StaticProduct[] = [
       nl: 'Tefal ActiFry Genius XL 2in1 - 1.7kg',
     },
     price: {
-      fr: '199,99€',
-      de: '209,99€',
-      en: '£179.99',
-      es: '189,99€',
-      it: '199,99€',
-      nl: '199,99€',
+      fr: '199,99€', de: '209,99€', en: '£179.99',
+      es: '189,99€', it: '199,99€', nl: '199,99€',
     },
-    priceNumeric: {
-      fr: 199.99,
-      de: 209.99,
-      en: 179.99,
-      es: 189.99,
-      it: 199.99,
-      nl: 199.99,
-    },
+    priceNumeric: { fr: 199.99, de: 209.99, en: 179.99, es: 189.99, it: 199.99, nl: 199.99 },
     images: {
       fr: [img('81QIrBuK-jL'), img('71uXbDlnkaL')],
-      intl: [img('71xmK48MrWL'), img('51iAtFMGJ7L'), img('61Xq5AZqnzL'), img('71Yutb71owL')],
+      de: [img('81QIrBuK-jL'), img('41sQIj0LwDL'), img('41CHtc+1fpL'), img('31Ul3dd0BNL'), img('41biHhvIGSL')],
+      it: [img('71xmK48MrWL'), img('51iAtFMGJ7L'), img('61Xq5AZqnzL'), img('71Yutb71owL')],
     },
+    videoId: 'TWeOjEUFX9U',
     nuraScore: 8.2,
     capacity: '1.7kg',
     bestFor: {
-      fr: 'Cuisson sans surveillance',
-      en: 'Hands-free cooking',
-      de: 'Freihändiges Kochen',
-      es: 'Cocción sin vigilancia',
-      it: 'Cottura senza sorveglianza',
-      nl: 'Handsfree koken',
+      fr: 'Cuisson sans surveillance', en: 'Hands-free cooking', de: 'Freihändiges Kochen',
+      es: 'Cocción sin vigilancia', it: 'Cottura senza sorveglianza', nl: 'Handsfree koken',
     },
     pros: {
       fr: ['Pale de brassage auto', '2 zones de cuisson', 'Recettes guidées'],
@@ -269,15 +219,13 @@ export const staticProducts: StaticProduct[] = [
       nl: ['Automatische roerspatel', '2 kookzones', 'Begeleide recepten'],
     },
     cons: {
-      fr: ['Prix premium', 'Design daté'],
-      en: ['Premium price', 'Dated design'],
-      de: ['Premium-Preis', 'Veraltetes Design'],
-      es: ['Precio premium', 'Diseño anticuado'],
-      it: ['Prezzo premium', 'Design datato'],
-      nl: ['Premiumprijs', 'Verouderd design'],
+      fr: ['Prix premium', 'Design daté'], en: ['Premium price', 'Dated design'],
+      de: ['Premium-Preis', 'Veraltetes Design'], es: ['Precio premium', 'Diseño anticuado'],
+      it: ['Prezzo premium', 'Design datato'], nl: ['Premiumprijs', 'Verouderd design'],
     },
   },
   {
+    // 5. Xiaomi Smart Air Fryer Pro 4L
     asin: 'B0D8WHQMHT',
     title: {
       fr: 'Xiaomi Smart Air Fryer Pro 4L',
@@ -288,42 +236,25 @@ export const staticProducts: StaticProduct[] = [
       nl: 'Xiaomi Smart Air Fryer Pro 4L',
     },
     price: {
-      fr: '79,99€',
-      de: '79,99€',
-      en: '£69.99',
-      es: '74,99€',
-      it: '79,99€',
-      nl: '74,99€',
+      fr: '79,99€', de: '79,99€', en: '£69.99',
+      es: '74,99€', it: '79,99€', nl: '74,99€',
     },
-    priceNumeric: {
-      fr: 79.99,
-      de: 79.99,
-      en: 69.99,
-      es: 74.99,
-      it: 79.99,
-      nl: 74.99,
-    },
+    priceNumeric: { fr: 79.99, de: 79.99, en: 69.99, es: 74.99, it: 79.99, nl: 74.99 },
     images: {
       fr: [img('51cfOKkOhlL'), img('61XBXzL0ptL')],
-      intl: [img('51cfOKkOhlL'), img('51bXpxpU6xL'), img('51RPTsl64sL'), img('513lsEQp8fL')],
+      de: [img('51cfOKkOhlL'), img('21z46vwmm1L'), img('21DcY1zeMKL'), img('21ytbWXBlQL'), img('21nhxb2WbBL')],
+      it: [img('51cfOKkOhlL'), img('51bXpxpU6xL'), img('51RPTsl64sL'), img('513lsEQp8fL')],
     },
     badge: {
-      fr: 'Meilleur Prix',
-      de: 'Bester Preis',
-      en: 'Best Value',
-      es: 'Mejor Precio',
-      it: 'Miglior Prezzo',
-      nl: 'Beste Prijs',
+      fr: 'Meilleur Prix', de: 'Bester Preis', en: 'Best Value',
+      es: 'Mejor Precio', it: 'Miglior Prezzo', nl: 'Beste Prijs',
     },
+    videoId: '4HJhIlcmsyw',
     nuraScore: 8.0,
     capacity: '4L',
     bestFor: {
-      fr: 'Petit budget',
-      en: 'Budget pick',
-      de: 'Budget-Tipp',
-      es: 'Presupuesto ajustado',
-      it: 'Budget',
-      nl: 'Budget keuze',
+      fr: 'Petit budget', en: 'Budget pick', de: 'Budget-Tipp',
+      es: 'Presupuesto ajustado', it: 'Budget', nl: 'Budget keuze',
     },
     pros: {
       fr: ['Prix imbattable', 'App Mi Home', 'Design compact'],
@@ -343,6 +274,7 @@ export const staticProducts: StaticProduct[] = [
     },
   },
   {
+    // 6. Ninja Foodi FlexDrawer 10.4L
     asin: 'B0CFL49C1J',
     title: {
       fr: 'Ninja Foodi FlexDrawer 10.4L Double Zone',
@@ -353,42 +285,25 @@ export const staticProducts: StaticProduct[] = [
       nl: 'Ninja Foodi FlexDrawer 10.4L Dubbele Zone',
     },
     price: {
-      fr: '249,99€',
-      de: '249,99€',
-      en: '£219.99',
-      es: '239,99€',
-      it: '249,99€',
-      nl: '239,99€',
+      fr: '249,99€', de: '249,99€', en: '£219.99',
+      es: '239,99€', it: '249,99€', nl: '239,99€',
     },
-    priceNumeric: {
-      fr: 249.99,
-      de: 249.99,
-      en: 219.99,
-      es: 239.99,
-      it: 249.99,
-      nl: 239.99,
-    },
+    priceNumeric: { fr: 249.99, de: 249.99, en: 219.99, es: 239.99, it: 249.99, nl: 239.99 },
     images: {
       fr: [img('71T8jynPV3L'), img('61RpkcFkBtL')],
-      intl: [img('71T8jynPV3L'), img('61RPHhZTbCL'), img('61VcTgll2cL'), img('71vlnqlUGZL')],
+      de: [img('71T8jynPV3L'), img('31pr60oiZuL'), img('414VFz8Jc4L'), img('51sF7ZrbJlL')],
+      it: [img('71T8jynPV3L'), img('61RPHhZTbCL'), img('61VcTgll2cL'), img('71vlnqlUGZL')],
     },
     badge: {
-      fr: 'Premium',
-      de: 'Premium',
-      en: 'Premium',
-      es: 'Premium',
-      it: 'Premium',
-      nl: 'Premium',
+      fr: 'Premium', de: 'Premium', en: 'Premium',
+      es: 'Premium', it: 'Premium', nl: 'Premium',
     },
+    videoId: 'GY-2oX4ddLU',
     nuraScore: 9.2,
     capacity: '10.4L',
     bestFor: {
-      fr: 'Polyvalence maximale',
-      en: 'Maximum versatility',
-      de: 'Maximale Vielseitigkeit',
-      es: 'Máxima versatilidad',
-      it: 'Massima versatilità',
-      nl: 'Maximale veelzijdigheid',
+      fr: 'Polyvalence maximale', en: 'Maximum versatility', de: 'Maximale Vielseitigkeit',
+      es: 'Máxima versatilidad', it: 'Massima versatilità', nl: 'Maximale veelzijdigheid',
     },
     pros: {
       fr: ['Tiroir flexible 10.4L', 'Mode MegaZone', 'Double zone indépendante'],
@@ -399,15 +314,13 @@ export const staticProducts: StaticProduct[] = [
       nl: ['Flexibele 10.4L lade', 'MegaZone modus', 'Onafhankelijke dubbele zone'],
     },
     cons: {
-      fr: ['Prix premium', 'Très encombrant'],
-      en: ['Premium price', 'Very bulky'],
-      de: ['Premium-Preis', 'Sehr sperrig'],
-      es: ['Precio premium', 'Muy voluminosa'],
-      it: ['Prezzo premium', 'Molto ingombrante'],
-      nl: ['Premiumprijs', 'Zeer omvangrijk'],
+      fr: ['Prix premium', 'Très encombrant'], en: ['Premium price', 'Very bulky'],
+      de: ['Premium-Preis', 'Sehr sperrig'], es: ['Precio premium', 'Muy voluminosa'],
+      it: ['Prezzo premium', 'Molto ingombrante'], nl: ['Premiumprijs', 'Zeer omvangrijk'],
     },
   },
   {
+    // 7. Philips Airfryer Combi XXL 8.3L
     asin: 'B0D67569TZ',
     title: {
       fr: 'Philips Airfryer Combi XXL Connecté - 8.3L',
@@ -418,34 +331,21 @@ export const staticProducts: StaticProduct[] = [
       nl: 'Philips Airfryer Combi XXL Connected - 8.3L',
     },
     price: {
-      fr: '349,99€',
-      de: '349,99€',
-      en: '£299.99',
-      es: '329,99€',
-      it: '349,99€',
-      nl: '339,99€',
+      fr: '349,99€', de: '349,99€', en: '£299.99',
+      es: '329,99€', it: '349,99€', nl: '339,99€',
     },
-    priceNumeric: {
-      fr: 349.99,
-      de: 349.99,
-      en: 299.99,
-      es: 329.99,
-      it: 349.99,
-      nl: 339.99,
-    },
+    priceNumeric: { fr: 349.99, de: 349.99, en: 299.99, es: 329.99, it: 349.99, nl: 339.99 },
     images: {
       fr: [img('61gU3AHsFdL'), img('61SVOlziehL')],
-      intl: [img('615x77sZFpL'), img('61cM36OKyTL'), img('61hzd7lQSyL'), img('71YTm7h84PL')],
+      de: [img('615x77sZFpL'), img('41m8gEYJfCL'), img('51LUtueROvL'), img('51rNdtsnisL'), img('41ZEyDnW6RL')],
+      it: [img('615x77sZFpL'), img('61cM36OKyTL'), img('61hzd7lQSyL'), img('71YTm7h84PL')],
     },
+    videoId: 'rASG0Qema90',
     nuraScore: 9.0,
     capacity: '8.3L',
     bestFor: {
-      fr: 'Haut de gamme connecté',
-      en: 'Premium connected',
-      de: 'Premium vernetzt',
-      es: 'Gama alta conectada',
-      it: 'Alta gamma connessa',
-      nl: 'Premium connected',
+      fr: 'Haut de gamme connecté', en: 'Premium connected', de: 'Premium vernetzt',
+      es: 'Gama alta conectada', it: 'Alta gamma connessa', nl: 'Premium connected',
     },
     pros: {
       fr: ['Fonction vapeur + air', 'Auto-nettoyage', 'App NutriU'],
@@ -456,15 +356,13 @@ export const staticProducts: StaticProduct[] = [
       nl: ['Stoom + lucht functie', 'Zelfreinigend', 'NutriU app'],
     },
     cons: {
-      fr: ['Prix très élevé', 'Lourd 8kg'],
-      en: ['Very high price', 'Heavy 8kg'],
-      de: ['Sehr hoher Preis', 'Schwer 8kg'],
-      es: ['Precio muy alto', 'Pesada 8kg'],
-      it: ['Prezzo molto alto', 'Pesante 8kg'],
-      nl: ['Zeer hoge prijs', 'Zwaar 8kg'],
+      fr: ['Prix très élevé', 'Lourd 8kg'], en: ['Very high price', 'Heavy 8kg'],
+      de: ['Sehr hoher Preis', 'Schwer 8kg'], es: ['Precio muy alto', 'Pesada 8kg'],
+      it: ['Prezzo molto alto', 'Pesante 8kg'], nl: ['Zeer hoge prijs', 'Zwaar 8kg'],
     },
   },
   {
+    // 8. Cosori Lite 3.8L
     asin: 'B07N8N6C85',
     title: {
       fr: 'Cosori Lite 3.8L Air Fryer',
@@ -475,34 +373,21 @@ export const staticProducts: StaticProduct[] = [
       nl: 'Cosori Lite 3.8L Airfryer',
     },
     price: {
-      fr: '69,99€',
-      de: '69,99€',
-      en: '£59.99',
-      es: '64,99€',
-      it: '69,99€',
-      nl: '64,99€',
+      fr: '69,99€', de: '69,99€', en: '£59.99',
+      es: '64,99€', it: '69,99€', nl: '64,99€',
     },
-    priceNumeric: {
-      fr: 69.99,
-      de: 69.99,
-      en: 59.99,
-      es: 64.99,
-      it: 69.99,
-      nl: 64.99,
-    },
+    priceNumeric: { fr: 69.99, de: 69.99, en: 59.99, es: 64.99, it: 69.99, nl: 64.99 },
     images: {
       fr: [img('81xafenO7aL')],
-      intl: [img('81xafenO7aL'), img('71RqadK0FML'), img('81RDY16w0fL'), img('81Ge3R32tEL')],
+      de: [img('81xtJuKPaKL'), img('41c8-2mR9oL'), img('51uRm9v7qHL'), img('51KXkmGhcSL'), img('51Qd6R6NOsL')],
+      it: [img('81xafenO7aL'), img('71RqadK0FML'), img('81RDY16w0fL'), img('81Ge3R32tEL')],
     },
+    videoId: 'LZgzdVi6fo8',
     nuraScore: 7.8,
     capacity: '3.8L',
     bestFor: {
-      fr: 'Couples & studios',
-      en: 'Couples & studios',
-      de: 'Paare & Studios',
-      es: 'Parejas y estudios',
-      it: 'Coppie & monolocali',
-      nl: 'Stellen & studio\'s',
+      fr: 'Couples & studios', en: 'Couples & studios', de: 'Paare & Studios',
+      es: 'Parejas y estudios', it: 'Coppie & monolocali', nl: 'Stellen & studio\'s',
     },
     pros: {
       fr: ['Ultra-compact', 'Prix mini', 'Simple et efficace'],
@@ -513,15 +398,13 @@ export const staticProducts: StaticProduct[] = [
       nl: ['Ultra-compact', 'Miniprijs', 'Eenvoudig en effectief'],
     },
     cons: {
-      fr: ['Petite capacité 3.8L', 'Basique'],
-      en: ['Small 3.8L capacity', 'Basic'],
-      de: ['Kleine 3.8L Kapazität', 'Basisch'],
-      es: ['Capacidad pequeña 3.8L', 'Básica'],
-      it: ['Capacità piccola 3.8L', 'Basica'],
-      nl: ['Kleine 3.8L capaciteit', 'Basis'],
+      fr: ['Petite capacité 3.8L', 'Basique'], en: ['Small 3.8L capacity', 'Basic'],
+      de: ['Kleine 3.8L Kapazität', 'Basisch'], es: ['Capacidad pequeña 3.8L', 'Básica'],
+      it: ['Capacità piccola 3.8L', 'Basica'], nl: ['Kleine 3.8L capaciteit', 'Basis'],
     },
   },
   {
+    // 9. Moulinex Easy Fry Max 5L
     asin: 'B0CG6C26QW',
     title: {
       fr: 'Moulinex Easy Fry Max 5L',
@@ -532,34 +415,21 @@ export const staticProducts: StaticProduct[] = [
       nl: 'Moulinex Easy Fry Max 5L',
     },
     price: {
-      fr: '89,99€',
-      de: '94,99€',
-      en: '£79.99',
-      es: '84,99€',
-      it: '89,99€',
-      nl: '84,99€',
+      fr: '89,99€', de: '94,99€', en: '£79.99',
+      es: '84,99€', it: '89,99€', nl: '84,99€',
     },
-    priceNumeric: {
-      fr: 89.99,
-      de: 94.99,
-      en: 79.99,
-      es: 84.99,
-      it: 89.99,
-      nl: 84.99,
-    },
+    priceNumeric: { fr: 89.99, de: 94.99, en: 79.99, es: 84.99, it: 89.99, nl: 84.99 },
     images: {
       fr: [img('51ATUoMSddL')],
-      intl: [img('61hddsGcPOL'), img('61v2wrE9CML'), img('715QNlObGyL'), img('71gdyeigGeL')],
+      de: [img('71odsj+-FCL'), img('41MfLEk4x1L'), img('418AwHIHMCL'), img('31yWW2d7Y0L'), img('51p7J2ejpUL')],
+      it: [img('61hddsGcPOL'), img('61v2wrE9CML'), img('715QNlObGyL'), img('71gdyeigGeL')],
     },
+    videoId: 'xkGd8Gfy7v8',
     nuraScore: 8.3,
     capacity: '5L',
     bestFor: {
-      fr: 'Familles (3-4 pers.)',
-      en: 'Families (3-4 pers.)',
-      de: 'Familien (3-4 Pers.)',
-      es: 'Familias (3-4 pers.)',
-      it: 'Famiglie (3-4 pers.)',
-      nl: 'Gezinnen (3-4 pers.)',
+      fr: 'Familles (3-4 pers.)', en: 'Families (3-4 pers.)', de: 'Familien (3-4 Pers.)',
+      es: 'Familias (3-4 pers.)', it: 'Famiglie (3-4 pers.)', nl: 'Gezinnen (3-4 pers.)',
     },
     pros: {
       fr: ['Excellent rapport qualité-prix', 'Marque française fiable', '10 programmes'],
@@ -570,12 +440,9 @@ export const staticProducts: StaticProduct[] = [
       nl: ['Uitstekende prijs-kwaliteit', 'Betrouwbaar Frans merk', '10 programma\'s'],
     },
     cons: {
-      fr: ['Pas de double tiroir', 'Design classique'],
-      en: ['No dual drawer', 'Classic design'],
-      de: ['Kein Doppelkorb', 'Klassisches Design'],
-      es: ['Sin doble cajón', 'Diseño clásico'],
-      it: ['Nessun doppio cassetto', 'Design classico'],
-      nl: ['Geen dubbele lade', 'Klassiek design'],
+      fr: ['Pas de double tiroir', 'Design classique'], en: ['No dual drawer', 'Classic design'],
+      de: ['Kein Doppelkorb', 'Klassisches Design'], es: ['Sin doble cajón', 'Diseño clásico'],
+      it: ['Nessun doppio cassetto', 'Design classico'], nl: ['Geen dubbele lade', 'Klassiek design'],
     },
   },
 ]
@@ -583,11 +450,11 @@ export const staticProducts: StaticProduct[] = [
 export function getStaticProducts(lang: string) {
   const tag = partnerTags[lang] || partnerTags.fr
   const domain = domains[lang] || domains.fr
+  // Resolve which marketplace images to use for this language
+  const imgKey = (imageFallback[lang] || 'fr') as keyof StaticProduct['images']
 
   return staticProducts.map((p) => {
-    // Select localized images: French for 'fr', international for all others
-    const langImages = lang === 'fr' ? p.images.fr : (p.images.intl || p.images.fr)
-    // Main image is the first one, in SL500 size
+    const langImages = p.images[imgKey] || p.images.fr
     const mainImage = langImages[0].replace('SL1500', 'SL500')
 
     return {
@@ -596,6 +463,7 @@ export function getStaticProducts(lang: string) {
       priceNumeric: p.priceNumeric[lang] || p.priceNumeric.fr,
       image: mainImage,
       images: langImages,
+      videoId: p.videoId,
       url: `https://${domain}/dp/${p.asin}?tag=${tag}`,
       badge: p.badge ? (p.badge[lang] || p.badge.fr) : undefined,
       nuraScore: p.nuraScore,

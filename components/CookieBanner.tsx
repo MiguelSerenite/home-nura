@@ -1,7 +1,20 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
+
+const COOKIE_NAME = 'homenura_cookie_consent'
+const COOKIE_MAX_AGE = 365 * 24 * 60 * 60 // 1 year in seconds
+
+function getCookie(name: string): string | null {
+  if (typeof document === 'undefined') return null
+  const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'))
+  return match ? decodeURIComponent(match[2]) : null
+}
+
+function setCookie(name: string, value: string, maxAge: number) {
+  document.cookie = `${name}=${encodeURIComponent(value)};path=/;max-age=${maxAge};SameSite=Lax`
+}
 
 interface CookieBannerProps {
   lang: string
@@ -14,7 +27,25 @@ interface CookieBannerProps {
 }
 
 export default function CookieBanner({ lang, dict }: CookieBannerProps) {
-  const [visible, setVisible] = useState(true)
+  const [visible, setVisible] = useState(false)
+
+  useEffect(() => {
+    // Only show banner if user hasn't already made a choice
+    const consent = getCookie(COOKIE_NAME)
+    if (!consent) {
+      setVisible(true)
+    }
+  }, [])
+
+  function handleAccept() {
+    setCookie(COOKIE_NAME, 'accepted', COOKIE_MAX_AGE)
+    setVisible(false)
+  }
+
+  function handleReject() {
+    setCookie(COOKIE_NAME, 'rejected', COOKIE_MAX_AGE)
+    setVisible(false)
+  }
 
   if (!visible) return null
 
@@ -34,13 +65,13 @@ export default function CookieBanner({ lang, dict }: CookieBannerProps) {
         </div>
         <div className="flex gap-3 shrink-0">
           <button
-            onClick={() => setVisible(false)}
+            onClick={handleReject}
             className="px-5 py-2.5 text-sm font-bold text-slate-500 bg-slate-100 rounded-full hover:bg-slate-200 transition-colors"
           >
             {dict.cookie_reject}
           </button>
           <button
-            onClick={() => setVisible(false)}
+            onClick={handleAccept}
             className="px-5 py-2.5 text-sm font-bold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors"
           >
             {dict.cookie_accept}

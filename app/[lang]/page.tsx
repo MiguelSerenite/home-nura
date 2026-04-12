@@ -128,6 +128,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                     images={product.images}
                     alt={product.title}
                     badge={product.badge}
+                    videoId={product.videoId}
                   />
                 </div>
                 <div className="px-6 pb-6">
