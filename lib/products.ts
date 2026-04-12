@@ -56,7 +56,7 @@ export const staticProducts: StaticProduct[] = [
       es: '229,99€', it: '229,99€', nl: '229,99€',
     },
     priceNumeric: { fr: 229.99, de: 229.99, en: 229.99, es: 229.99, it: 229.99, nl: 229.99 },
-    images: [img('71GTPUFlAnL'), img('41CfTSLQprL'), img('41Vx9wlJztL'), img('41OVP9LdQfL'), img('51r0lz5MHQL'), img('51ntqWIQVmL'), img('51wdAhlYZvL')],
+    images: [img('71GTPUFlAnL'), img('41CfTSLQprL'), img('41Vx9wlJztL'), img('41OVP9LdQfL')],
     badge: {
       fr: 'Choix N°1', de: 'Beste Wahl', en: 'Top Pick',
       es: 'Mejor Elección', it: 'Scelta Top', nl: 'Beste Keuze',
@@ -97,7 +97,7 @@ export const staticProducts: StaticProduct[] = [
       es: '109,99€', it: '119,99€', nl: '109,99€',
     },
     priceNumeric: { fr: 119.99, de: 119.99, en: 99.99, es: 109.99, it: 119.99, nl: 109.99 },
-    images: [img('51JFVsg9BzL'), img('31ihrfI3oJL'), img('41ExFDsBRkL'), img('31OF6Z0HJlL'), img('611kSWXGdAL')],
+    images: [img('51JFVsg9BzL'), img('31ihrfI3oJL'), img('41ExFDsBRkL'), img('31OF6Z0HJlL')],
     nuraScore: 8.7,
     capacity: '6.2L',
     bestFor: {
@@ -134,7 +134,7 @@ export const staticProducts: StaticProduct[] = [
       es: '129,99€', it: '139,99€', nl: '129,99€',
     },
     priceNumeric: { fr: 139.99, de: 139.99, en: 119.99, es: 129.99, it: 139.99, nl: 129.99 },
-    images: [img('91mFwLsU2DL'), img('41qK28Ln0PL'), img('51eX4ilkMVL'), img('51rTkIGnYTL'), img('517Ul1Ym6KL'), img('51lUY-Q1b5L'), img('51GZcygvXfL')],
+    images: [img('91mFwLsU2DL'), img('41qK28Ln0PL'), img('51eX4ilkMVL'), img('51rTkIGnYTL')],
     nuraScore: 8.9,
     capacity: '6.4L',
     bestFor: {
@@ -171,7 +171,7 @@ export const staticProducts: StaticProduct[] = [
       es: '189,99€', it: '199,99€', nl: '199,99€',
     },
     priceNumeric: { fr: 199.99, de: 209.99, en: 179.99, es: 189.99, it: 199.99, nl: 199.99 },
-    images: [img('81QIrBuK-jL'), img('41sQIj0LwDL'), img('41CHtc+1fpL'), img('31Ul3dd0BNL'), img('41biHhvIGSL'), img('4163aujSYZL'), img('415PxoisSFL')],
+    images: [img('81QIrBuK-jL'), img('41sQIj0LwDL'), img('41CHtc+1fpL'), img('31Ul3dd0BNL')],
     nuraScore: 8.2,
     capacity: '1.7kg',
     bestFor: {
@@ -208,7 +208,7 @@ export const staticProducts: StaticProduct[] = [
       es: '74,99€', it: '79,99€', nl: '74,99€',
     },
     priceNumeric: { fr: 79.99, de: 79.99, en: 69.99, es: 74.99, it: 79.99, nl: 74.99 },
-    images: [img('51cfOKkOhlL'), img('21z46vwmm1L'), img('21DcY1zeMKL'), img('21ytbWXBlQL'), img('21nhxb2WbBL'), img('21Ksv-j5OcL'), img('41LOazNzK8L')],
+    images: [img('51cfOKkOhlL'), img('21z46vwmm1L'), img('21DcY1zeMKL'), img('21ytbWXBlQL')],
     badge: {
       fr: 'Meilleur Prix', de: 'Bester Preis', en: 'Best Value',
       es: 'Mejor Precio', it: 'Miglior Prezzo', nl: 'Beste Prijs',
@@ -252,7 +252,7 @@ export const staticProducts: StaticProduct[] = [
       es: '239,99€', it: '249,99€', nl: '239,99€',
     },
     priceNumeric: { fr: 249.99, de: 249.99, en: 219.99, es: 239.99, it: 249.99, nl: 239.99 },
-    images: [img('71T8jynPV3L'), img('31pr60oiZuL'), img('414VFz8Jc4L'), img('51sF7ZrbJlL'), img('51s+pAyeqdL'), img('51xdWWG4skL'), img('5192N20Q2KL')],
+    images: [img('71T8jynPV3L'), img('31pr60oiZuL'), img('414VFz8Jc4L'), img('51sF7ZrbJlL')],
     badge: {
       fr: 'Premium', de: 'Premium', en: 'Premium',
       es: 'Premium', it: 'Premium', nl: 'Premium',
@@ -293,7 +293,7 @@ export const staticProducts: StaticProduct[] = [
       es: '329,99€', it: '349,99€', nl: '339,99€',
     },
     priceNumeric: { fr: 349.99, de: 349.99, en: 299.99, es: 329.99, it: 349.99, nl: 339.99 },
-    images: [img('615x77sZFpL'), img('41m8gEYJfCL'), img('51LUtueROvL'), img('51rNdtsnisL'), img('41ZEyDnW6RL'), img('51h73+ZN8ML'), img('51-YiO2wybL')],
+    images: [img('615x77sZFpL'), img('41m8gEYJfCL'), img('51LUtueROvL'), img('51rNdtsnisL')],
     nuraScore: 9.0,
     capacity: '8.3L',
     bestFor: {
@@ -330,7 +330,7 @@ export const staticProducts: StaticProduct[] = [
       es: '64,99€', it: '69,99€', nl: '64,99€',
     },
     priceNumeric: { fr: 69.99, de: 69.99, en: 59.99, es: 64.99, it: 69.99, nl: 64.99 },
-    images: [img('81xtJuKPaKL'), img('41c8-2mR9oL'), img('51uRm9v7qHL'), img('51KXkmGhcSL'), img('51Qd6R6NOsL'), img('5128zA9msHL'), img('51U368xcc0L')],
+    images: [img('81xtJuKPaKL'), img('41c8-2mR9oL'), img('51uRm9v7qHL'), img('51KXkmGhcSL')],
     nuraScore: 7.8,
     capacity: '3.8L',
     bestFor: {
@@ -367,7 +367,7 @@ export const staticProducts: StaticProduct[] = [
       es: '84,99€', it: '89,99€', nl: '84,99€',
     },
     priceNumeric: { fr: 89.99, de: 94.99, en: 79.99, es: 84.99, it: 89.99, nl: 84.99 },
-    images: [img('71odsj+-FCL'), img('41MfLEk4x1L'), img('418AwHIHMCL'), img('31yWW2d7Y0L'), img('51p7J2ejpUL'), img('514k1H7gIHL'), img('517yrZhLoZL')],
+    images: [img('71odsj+-FCL'), img('41MfLEk4x1L'), img('418AwHIHMCL'), img('31yWW2d7Y0L')],
     nuraScore: 8.3,
     capacity: '5L',
     bestFor: {
