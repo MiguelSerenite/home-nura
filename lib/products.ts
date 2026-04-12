@@ -1,6 +1,5 @@
-// Static product data with per-marketplace images and affiliate links
-// Images are sourced from each Amazon marketplace to avoid localized text issues
-// Videos: YouTube IDs for product demos/reviews (more sales-driving than photos)
+// Static product data with Amazon product images and affiliate links
+// Images are sourced from Amazon CDN (universal across all marketplaces)
 
 const partnerTags: Record<string, string> = {
   fr: 'homenuraen05-21',
@@ -31,8 +30,6 @@ export interface StaticProduct {
   priceNumeric: Record<string, number>
   /** Product images (universal - Amazon CDN images work globally) */
   images: string[]
-  /** YouTube video ID for product demo/review */
-  videoId?: string
   asin: string
   badge?: Record<string, string>
   nuraScore: number
@@ -64,7 +61,6 @@ export const staticProducts: StaticProduct[] = [
       fr: 'Choix N°1', de: 'Beste Wahl', en: 'Top Pick',
       es: 'Mejor Elección', it: 'Scelta Top', nl: 'Beste Keuze',
     },
-    videoId: 'T8_ph1v7qUw',
     nuraScore: 9.4,
     capacity: '9.5L',
     bestFor: {
@@ -102,7 +98,6 @@ export const staticProducts: StaticProduct[] = [
     },
     priceNumeric: { fr: 119.99, de: 119.99, en: 99.99, es: 109.99, it: 119.99, nl: 109.99 },
     images: [img('51JFVsg9BzL'), img('31ihrfI3oJL'), img('41ExFDsBRkL'), img('31OF6Z0HJlL'), img('611kSWXGdAL')],
-    videoId: 'cLcWfZg32C4',
     nuraScore: 8.7,
     capacity: '6.2L',
     bestFor: {
@@ -140,7 +135,6 @@ export const staticProducts: StaticProduct[] = [
     },
     priceNumeric: { fr: 139.99, de: 139.99, en: 119.99, es: 129.99, it: 139.99, nl: 129.99 },
     images: [img('91mFwLsU2DL'), img('41qK28Ln0PL'), img('51eX4ilkMVL'), img('51rTkIGnYTL'), img('517Ul1Ym6KL'), img('51lUY-Q1b5L'), img('51GZcygvXfL')],
-    videoId: 'yBYPU6dPGyQ',
     nuraScore: 8.9,
     capacity: '6.4L',
     bestFor: {
@@ -178,7 +172,6 @@ export const staticProducts: StaticProduct[] = [
     },
     priceNumeric: { fr: 199.99, de: 209.99, en: 179.99, es: 189.99, it: 199.99, nl: 199.99 },
     images: [img('81QIrBuK-jL'), img('41sQIj0LwDL'), img('41CHtc+1fpL'), img('31Ul3dd0BNL'), img('41biHhvIGSL'), img('4163aujSYZL'), img('415PxoisSFL')],
-    videoId: 'TWeOjEUFX9U',
     nuraScore: 8.2,
     capacity: '1.7kg',
     bestFor: {
@@ -220,7 +213,6 @@ export const staticProducts: StaticProduct[] = [
       fr: 'Meilleur Prix', de: 'Bester Preis', en: 'Best Value',
       es: 'Mejor Precio', it: 'Miglior Prezzo', nl: 'Beste Prijs',
     },
-    videoId: '4HJhIlcmsyw',
     nuraScore: 8.0,
     capacity: '4L',
     bestFor: {
@@ -265,7 +257,6 @@ export const staticProducts: StaticProduct[] = [
       fr: 'Premium', de: 'Premium', en: 'Premium',
       es: 'Premium', it: 'Premium', nl: 'Premium',
     },
-    videoId: 'GY-2oX4ddLU',
     nuraScore: 9.2,
     capacity: '10.4L',
     bestFor: {
@@ -303,7 +294,6 @@ export const staticProducts: StaticProduct[] = [
     },
     priceNumeric: { fr: 349.99, de: 349.99, en: 299.99, es: 329.99, it: 349.99, nl: 339.99 },
     images: [img('615x77sZFpL'), img('41m8gEYJfCL'), img('51LUtueROvL'), img('51rNdtsnisL'), img('41ZEyDnW6RL'), img('51h73+ZN8ML'), img('51-YiO2wybL')],
-    videoId: 'rASG0Qema90',
     nuraScore: 9.0,
     capacity: '8.3L',
     bestFor: {
@@ -341,7 +331,6 @@ export const staticProducts: StaticProduct[] = [
     },
     priceNumeric: { fr: 69.99, de: 69.99, en: 59.99, es: 64.99, it: 69.99, nl: 64.99 },
     images: [img('81xtJuKPaKL'), img('41c8-2mR9oL'), img('51uRm9v7qHL'), img('51KXkmGhcSL'), img('51Qd6R6NOsL'), img('5128zA9msHL'), img('51U368xcc0L')],
-    videoId: 'LZgzdVi6fo8',
     nuraScore: 7.8,
     capacity: '3.8L',
     bestFor: {
@@ -379,7 +368,6 @@ export const staticProducts: StaticProduct[] = [
     },
     priceNumeric: { fr: 89.99, de: 94.99, en: 79.99, es: 84.99, it: 89.99, nl: 84.99 },
     images: [img('71odsj+-FCL'), img('41MfLEk4x1L'), img('418AwHIHMCL'), img('31yWW2d7Y0L'), img('51p7J2ejpUL'), img('514k1H7gIHL'), img('517yrZhLoZL')],
-    videoId: 'xkGd8Gfy7v8',
     nuraScore: 8.3,
     capacity: '5L',
     bestFor: {
@@ -415,7 +403,6 @@ export function getStaticProducts(lang: string) {
       priceNumeric: p.priceNumeric[lang] || p.priceNumeric.fr,
       image: mainImage,
       images: p.images,
-      videoId: p.videoId,
       asin: p.asin,
       url: `https://${domain}/dp/${p.asin}?tag=${tag}`,
       badge: p.badge ? (p.badge[lang] || p.badge.fr) : undefined,
