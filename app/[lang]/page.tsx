@@ -170,6 +170,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               rating={5}
               buyButtonText={dict.buy_button}
               badge={product.badge}
+              lang={lang}
             />
           ))}
         </div>

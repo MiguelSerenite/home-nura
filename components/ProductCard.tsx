@@ -6,12 +6,29 @@ interface ProductProps {
   rating: number;
   buyButtonText?: string;
   badge?: string;
+  lang?: string;
 }
 
-export default function ProductCard({ name, price, imageUrl, affiliateLink, rating, buyButtonText, badge }: ProductProps) {
+// Extract brand from product name
+const knownBrands = ['Ninja', 'Philips', 'Cosori', 'Tefal', 'Xiaomi', 'Moulinex']
+function extractBrand(name: string): string {
+  for (const brand of knownBrands) {
+    if (name.toLowerCase().includes(brand.toLowerCase())) return brand
+  }
+  return 'Generic'
+}
+
+// Country code to schema.org country mapping
+const countryMap: Record<string, string> = {
+  fr: 'FR', de: 'DE', en: 'GB', es: 'ES', it: 'IT', nl: 'NL',
+}
+
+export default function ProductCard({ name, price, imageUrl, affiliateLink, rating, buyButtonText, badge, lang = 'fr' }: ProductProps) {
   // Extract numeric price and currency for schema
   const numericPrice = price.replace(/[^0-9.,]/g, '').replace(',', '.')
   const currency = price.includes('£') ? 'GBP' : 'EUR'
+  const brand = extractBrand(name)
+  const country = countryMap[lang] || 'FR'
 
   const productSchema = {
     '@context': 'https://schema.org',
@@ -19,6 +36,10 @@ export default function ProductCard({ name, price, imageUrl, affiliateLink, rati
     name,
     image: imageUrl.startsWith('/') ? `https://homenura.com${imageUrl}` : imageUrl,
     description: name,
+    brand: {
+      '@type': 'Brand',
+      name: brand,
+    },
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: rating,
@@ -35,6 +56,41 @@ export default function ProductCard({ name, price, imageUrl, affiliateLink, rati
       seller: {
         '@type': 'Organization',
         name: 'Amazon',
+      },
+      shippingDetails: {
+        '@type': 'OfferShippingDetails',
+        shippingDestination: {
+          '@type': 'DefinedRegion',
+          addressCountry: country,
+        },
+        deliveryTime: {
+          '@type': 'ShippingDeliveryTime',
+          handlingTime: {
+            '@type': 'QuantitativeValue',
+            minValue: 0,
+            maxValue: 1,
+            unitCode: 'DAY',
+          },
+          transitTime: {
+            '@type': 'QuantitativeValue',
+            minValue: 1,
+            maxValue: 5,
+            unitCode: 'DAY',
+          },
+        },
+        shippingRate: {
+          '@type': 'MonetaryAmount',
+          value: 0,
+          currency: currency,
+        },
+      },
+      hasMerchantReturnPolicy: {
+        '@type': 'MerchantReturnPolicy',
+        applicableCountry: country,
+        returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
+        merchantReturnDays: 30,
+        returnMethod: 'https://schema.org/ReturnByMail',
+        returnFees: 'https://schema.org/FreeReturn',
       },
     },
   }
