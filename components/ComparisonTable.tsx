@@ -71,7 +71,7 @@ export default function ComparisonTable({ products, dict }: ComparisonTableProps
   }
 
   return (
-    <section className="max-w-7xl mx-auto px-4 py-16">
+    <section id="comparatif-2026" className="max-w-7xl mx-auto px-4 py-16 scroll-mt-28">
       <div className="text-center mb-10">
         <h2 className="text-3xl font-black tracking-tight mb-3">{dict.table_title}</h2>
         <p className="text-slate-500 max-w-2xl mx-auto">{dict.table_subtitle}</p>

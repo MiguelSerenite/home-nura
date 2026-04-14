@@ -29,9 +29,19 @@ const aboutLabel: Record<string, string> = {
   en: 'About',
 }
 
+const comparatifLabel: Record<string, string> = {
+  fr: 'Comparatif 2026',
+  de: 'Vergleich 2026',
+  es: 'Comparativa 2026',
+  it: 'Confronto 2026',
+  nl: 'Vergelijking 2026',
+  en: '2026 Comparison',
+}
+
 export default function Navbar({ currentLang }: { currentLang: string }) {
   const [isOpen, setIsOpen] = useState(false)
   const about = aboutLabel[currentLang] ?? 'About'
+  const comparatif = comparatifLabel[currentLang] ?? '2026 Comparison'
 
   // Lock body scroll while the drawer is open
   useEffect(() => {
@@ -77,6 +87,9 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
           </Link>
           <div className="hidden md:flex items-center gap-4 text-sm font-medium text-slate-500">
             <Link href={`/${currentLang}/guides/airfryers`} className="hover:text-blue-600 transition-colors">Guide</Link>
+            <Link href={`/${currentLang}/guides/airfryers#comparatif-2026`} className="hover:text-blue-600 transition-colors">
+              {comparatif}
+            </Link>
             <Link href={`/${currentLang}/blog`} className="hover:text-blue-600 transition-colors">Blog</Link>
             <Link href={`/${currentLang}/a-propos`} className="hover:text-blue-600 transition-colors">
               {about}
@@ -148,6 +161,14 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
                 className="flex items-center justify-between py-3 px-4 rounded-xl text-slate-900 font-semibold hover:bg-slate-50 transition-colors"
               >
                 <span>Guide</span>
+                <svg className="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="m9 18 6-6-6-6"/></svg>
+              </Link>
+              <Link
+                href={`/${currentLang}/guides/airfryers#comparatif-2026`}
+                onClick={close}
+                className="flex items-center justify-between py-3 px-4 rounded-xl text-slate-900 font-semibold hover:bg-slate-50 transition-colors"
+              >
+                <span>{comparatif}</span>
                 <svg className="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="m9 18 6-6-6-6"/></svg>
               </Link>
               <Link
