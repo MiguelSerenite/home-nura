@@ -61,6 +61,8 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       card: 'summary_large_image',
       title: metaTitles[safeLang],
       description: metaDescriptions[safeLang],
+      creator: '@homenura',
+      site: '@homenura',
     },
     robots: {
       index: true,
@@ -93,14 +95,39 @@ export default async function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Home Nura',
+    alternateName: 'HomeNura',
     url: BASE_URL,
-    logo: `${BASE_URL}/logo.png`,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${BASE_URL}/logo.png`,
+      width: 1400,
+      height: 400,
+    },
+    image: `${BASE_URL}/logo.png`,
     description: metaDescriptions[lang] || metaDescriptions.fr,
     foundingDate: '2024-01-15',
+    founder: {
+      '@type': 'Person',
+      name: 'Miguel Serenite',
+      jobTitle: lang === 'fr' ? 'Fondateur & Rédacteur en Chef' : 'Founder & Editor-in-Chief',
+      url: `${BASE_URL}/${lang}/a-propos`,
+    },
+    sameAs: [
+      'https://twitter.com/homenura',
+      'https://www.instagram.com/homenura',
+      'https://www.linkedin.com/company/homenura',
+    ],
+    contactPoint: {
+      '@type': 'ContactPoint',
+      contactType: 'customer support',
+      email: 'contact@homenura.com',
+      availableLanguage: ['French', 'English', 'German', 'Spanish', 'Italian', 'Dutch'],
+    },
     areaServed: LANGUAGES.map(l => ({
       '@type': 'Country',
       name: l === 'fr' ? 'France' : l === 'de' ? 'Germany' : l === 'en' ? 'United Kingdom' : l === 'es' ? 'Spain' : l === 'it' ? 'Italy' : 'Netherlands',
     })),
+    knowsAbout: ['Air Fryers', 'Smart Kitchen Appliances', 'Home Cooking', 'Kitchen Reviews'],
   };
 
   return (
