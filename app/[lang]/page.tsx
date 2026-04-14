@@ -171,13 +171,15 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         </div>
       </section>
 
-      {/* Product Section */}
+      {/* Product Section — editorial header */}
       <section className="max-w-7xl mx-auto px-4 pb-20">
-        <div className="flex items-end justify-between mb-12 border-b border-slate-100 pb-6">
-          <div>
-            <h2 className="text-3xl font-bold tracking-tight">{dict.section_title}</h2>
-            <p className="text-slate-400 mt-1">{dict.section_subtitle}</p>
+        <div className="text-center mb-14 md:mb-16 px-4">
+          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
+            {lang === 'fr' ? 'La Sélection' : lang === 'de' ? 'Die Auswahl' : lang === 'es' ? 'La Selección' : lang === 'it' ? 'La Selezione' : lang === 'nl' ? 'De Selectie' : 'The Selection'}
           </div>
+          <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-4">{dict.section_title}</h2>
+          <p className="text-base md:text-lg text-slate-500 max-w-xl mx-auto">{dict.section_subtitle}</p>
+          <div className="h-[2px] w-16 bg-blue-600 mx-auto mt-6"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -205,66 +207,88 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         />
       </section>
 
-      {/* SEO Content Sections */}
+      {/* SEO Content — editorial long-read with numbered chapters */}
+      <section className="max-w-3xl mx-auto px-6 pt-24 md:pt-28">
+        <div className="text-center mb-16">
+          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
+            {lang === 'fr' ? 'Le Dossier' : lang === 'de' ? 'Das Dossier' : lang === 'es' ? 'El Dossier' : lang === 'it' ? 'Il Dossier' : lang === 'nl' ? 'Het Dossier' : 'The Dossier'}
+          </div>
+          <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight text-slate-900 mb-5">
+            {lang === 'fr' ? 'Tout savoir sur l\'airfryer en 2026' : lang === 'de' ? 'Alles über den Airfryer 2026' : lang === 'es' ? 'Todo sobre la freidora de aire en 2026' : lang === 'it' ? 'Tutto sulla friggitrice ad aria nel 2026' : lang === 'nl' ? 'Alles over de airfryer in 2026' : 'Everything About the Air Fryer in 2026'}
+          </h2>
+          <div className="h-[2px] w-16 bg-blue-600 mx-auto"></div>
+        </div>
 
-      {/* Why Trust Us Section */}
-      <section className="max-w-3xl mx-auto px-6 py-16 border-t border-slate-100">
-        <h2 className="text-3xl font-bold mb-6 text-slate-900">{dict.trust_section_title}</h2>
-        <p className="text-slate-600 leading-relaxed text-base">{dict.trust_section_content}</p>
-        <p className="mt-4">
-          <Link href={`/${lang}/a-propos`} className="text-blue-600 font-semibold hover:underline">
-            {lang === 'fr' ? 'En savoir plus sur notre équipe et notre méthodologie →' : lang === 'de' ? 'Mehr über unser Team und unsere Methodik erfahren →' : lang === 'es' ? 'Más información sobre nuestro equipo y metodología →' : lang === 'it' ? 'Scopri di più sul nostro team e la nostra metodologia →' : lang === 'nl' ? 'Meer over ons team en onze methodologie →' : 'Learn more about our team and methodology →'}
-          </Link>
-        </p>
+        <div className="divide-y divide-slate-200 border-t border-b border-slate-200">
+          {[
+            {
+              num: 'I',
+              title: dict.trust_section_title,
+              body: dict.trust_section_content,
+              href: `/${lang}/a-propos`,
+              cta: lang === 'fr' ? 'En savoir plus sur notre équipe et notre méthodologie' : lang === 'de' ? 'Mehr über unser Team und unsere Methodik erfahren' : lang === 'es' ? 'Más información sobre nuestro equipo y metodología' : lang === 'it' ? 'Scopri di più sul nostro team e la nostra metodologia' : lang === 'nl' ? 'Meer over ons team en onze methodologie' : 'Learn more about our team and methodology',
+            },
+            {
+              num: 'II',
+              title: dict.market_section_title,
+              body: dict.market_section_content,
+              href: `/${lang}/guides/airfryers`,
+              cta: lang === 'fr' ? 'Consultez notre guide complet des airfryers 2026' : lang === 'de' ? 'Lesen Sie unseren kompletten Airfryer-Ratgeber 2026' : lang === 'es' ? 'Consulta nuestra guía completa de freidoras de aire 2026' : lang === 'it' ? 'Consulta la nostra guida completa alle friggitrici ad aria 2026' : lang === 'nl' ? 'Bekijk onze complete airfryer-gids 2026' : 'See our complete air fryer guide 2026',
+            },
+            {
+              num: 'III',
+              title: dict.testing_section_title,
+              body: dict.testing_section_content,
+              href: `/${lang}/guides/airfryer-vs-four`,
+              cta: lang === 'fr' ? 'Airfryer vs four traditionnel : notre comparatif détaillé' : lang === 'de' ? 'Heißluftfritteuse vs. Backofen: unser detaillierter Vergleich' : lang === 'es' ? 'Freidora de aire vs horno tradicional: nuestra comparativa detallada' : lang === 'it' ? 'Friggitrice ad aria vs forno tradizionale: il nostro confronto dettagliato' : lang === 'nl' ? 'Airfryer vs traditionele oven: onze gedetailleerde vergelijking' : 'Air fryer vs traditional oven: our detailed comparison',
+            },
+            {
+              num: 'IV',
+              title: dict.recommendation_section_title,
+              body: dict.recommendation_section_content,
+              href: `/${lang}/guides/airfryers`,
+              cta: lang === 'fr' ? 'Voir notre classement complet des 9 meilleurs airfryers' : lang === 'de' ? 'Unsere komplette Rangliste der 9 besten Heißluftfritteusen ansehen' : lang === 'es' ? 'Ver nuestro ranking completo de las 9 mejores freidoras de aire' : lang === 'it' ? 'Scopri la nostra classifica completa delle 9 migliori friggitrici ad aria' : lang === 'nl' ? 'Bekijk onze complete ranking van de 9 beste airfryers' : 'See our complete ranking of the 9 best air fryers',
+            },
+          ].map((chapter, i) => (
+            <article key={i} className="py-14 md:py-16 first:pt-10">
+              <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-4">
+                Chapitre · {chapter.num}
+              </div>
+              <h3 className="text-2xl md:text-[1.875rem] font-bold tracking-tight leading-[1.2] text-slate-900 mb-5">
+                {chapter.title}
+              </h3>
+              <div className="h-px w-10 bg-blue-600 mb-6"></div>
+              <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85] mb-6">{chapter.body}</p>
+              <Link
+                href={chapter.href}
+                className="group inline-flex items-center gap-2 text-sm font-semibold text-blue-600 hover:text-blue-700 transition-colors"
+              >
+                <span className="uppercase tracking-[0.15em] text-[11px]">{chapter.cta}</span>
+                <span className="transition-transform group-hover:translate-x-1">&rarr;</span>
+              </Link>
+            </article>
+          ))}
+        </div>
       </section>
 
-      {/* Market Overview Section */}
-      <section className="max-w-3xl mx-auto px-6 py-16 border-t border-slate-100">
-        <h2 className="text-3xl font-bold mb-6 text-slate-900">{dict.market_section_title}</h2>
-        <p className="text-slate-600 leading-relaxed text-base">{dict.market_section_content}</p>
-        <p className="mt-4">
-          <Link href={`/${lang}/guides/airfryers`} className="text-blue-600 font-semibold hover:underline">
-            {lang === 'fr' ? 'Consultez notre guide complet des airfryers 2026 →' : lang === 'de' ? 'Lesen Sie unseren kompletten Airfryer-Ratgeber 2026 →' : lang === 'es' ? 'Consulta nuestra guía completa de freidoras de aire 2026 →' : lang === 'it' ? 'Consulta la nostra guida completa alle friggitrici ad aria 2026 →' : lang === 'nl' ? 'Bekijk onze complete airfryer-gids 2026 →' : 'See our complete air fryer guide 2026 →'}
+      {/* Guide CTA — refined twin buttons */}
+      <section className="max-w-3xl mx-auto px-6 py-20 md:py-24 text-center">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <Link
+            href={`/${lang}/guides/airfryers`}
+            className="group inline-flex items-center gap-3 px-8 py-4 bg-slate-900 text-white font-bold rounded-full hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl"
+          >
+            <span className="tracking-wide">{dict.guide_title}</span>
+            <span className="transition-transform group-hover:translate-x-1">&rarr;</span>
           </Link>
-        </p>
-      </section>
-
-      {/* Testing Methodology Section */}
-      <section className="max-w-3xl mx-auto px-6 py-16 border-t border-slate-100">
-        <h2 className="text-3xl font-bold mb-6 text-slate-900">{dict.testing_section_title}</h2>
-        <p className="text-slate-600 leading-relaxed text-base">{dict.testing_section_content}</p>
-        <p className="mt-4">
-          <Link href={`/${lang}/guides/airfryer-vs-four`} className="text-blue-600 font-semibold hover:underline">
-            {lang === 'fr' ? 'Airfryer vs four traditionnel : notre comparatif détaillé →' : lang === 'de' ? 'Heißluftfritteuse vs. Backofen: unser detaillierter Vergleich →' : lang === 'es' ? 'Freidora de aire vs horno tradicional: nuestra comparativa detallada →' : lang === 'it' ? 'Friggitrice ad aria vs forno tradizionale: il nostro confronto dettagliato →' : lang === 'nl' ? 'Airfryer vs traditionele oven: onze gedetailleerde vergelijking →' : 'Air fryer vs traditional oven: our detailed comparison →'}
+          <Link
+            href={`/${lang}/blog`}
+            className="group inline-flex items-center gap-3 px-8 py-4 bg-white text-slate-900 font-bold rounded-full border-2 border-slate-900 hover:bg-slate-900 hover:text-white transition-all duration-300"
+          >
+            <span className="tracking-wide">{lang === 'fr' ? 'Nos articles & recettes' : lang === 'de' ? 'Artikel & Rezepte' : lang === 'es' ? 'Artículos y recetas' : lang === 'it' ? 'Articoli e ricette' : lang === 'nl' ? 'Artikelen & recepten' : 'Articles & recipes'}</span>
+            <span className="transition-transform group-hover:translate-x-1">&rarr;</span>
           </Link>
-        </p>
-      </section>
-
-      {/* Recommendation Guide Section */}
-      <section className="max-w-3xl mx-auto px-6 py-16 border-t border-slate-100 pb-8">
-        <h2 className="text-3xl font-bold mb-6 text-slate-900">{dict.recommendation_section_title}</h2>
-        <p className="text-slate-600 leading-relaxed text-base">{dict.recommendation_section_content}</p>
-        <p className="mt-4">
-          <Link href={`/${lang}/guides/airfryers`} className="text-blue-600 font-semibold hover:underline">
-            {lang === 'fr' ? 'Voir notre classement complet des 9 meilleurs airfryers →' : lang === 'de' ? 'Unsere komplette Rangliste der 9 besten Heißluftfritteusen ansehen →' : lang === 'es' ? 'Ver nuestro ranking completo de las 9 mejores freidoras de aire →' : lang === 'it' ? 'Scopri la nostra classifica completa delle 9 migliori friggitrici ad aria →' : lang === 'nl' ? 'Bekijk onze complete ranking van de 9 beste airfryers →' : 'See our complete ranking of the 9 best air fryers →'}
-          </Link>
-        </p>
-      </section>
-
-      {/* Guide CTA */}
-      <section className="max-w-3xl mx-auto px-6 pb-16 text-center flex flex-col sm:flex-row items-center justify-center gap-4">
-        <Link
-          href={`/${lang}/guides/airfryers`}
-          className="inline-flex items-center gap-2 px-8 py-4 bg-slate-900 text-white font-bold rounded-full hover:bg-slate-800 transition-colors"
-        >
-          {dict.guide_title} &rarr;
-        </Link>
-        <Link
-          href={`/${lang}/blog`}
-          className="inline-flex items-center gap-2 px-8 py-4 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition-colors"
-        >
-          {lang === 'fr' ? 'Nos articles & recettes' : lang === 'de' ? 'Artikel & Rezepte' : lang === 'es' ? 'Artículos y recetas' : lang === 'it' ? 'Articoli e ricette' : lang === 'nl' ? 'Artikelen & recepten' : 'Articles & recipes'} &rarr;
-        </Link>
+        </div>
       </section>
 
       {/* FAQ Section with Schema */}

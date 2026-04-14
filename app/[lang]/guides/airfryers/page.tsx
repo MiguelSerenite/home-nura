@@ -606,10 +606,16 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
         </div>
       </section>
 
-      {/* SEO Guide Content - Intro */}
-      <section className="max-w-3xl mx-auto px-6 py-12">
-        <h2 className="text-3xl font-bold tracking-tight mb-6 text-slate-900">{content.intro_title}</h2>
-        <p className="text-slate-600 leading-relaxed mb-8 text-base">{content.intro_text}</p>
+      {/* SEO Guide Content - Intro (editorial opening) */}
+      <section className="max-w-3xl mx-auto px-6 pt-16 pb-16 md:pt-24 md:pb-20">
+        <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-6">
+          {lang === 'fr' ? 'L\'Édito' : lang === 'de' ? 'Editorial' : lang === 'es' ? 'Editorial' : lang === 'it' ? 'Editoriale' : lang === 'nl' ? 'Redactioneel' : 'Editorial'}
+        </div>
+        <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-6">{content.intro_title}</h2>
+        <div className="h-[2px] w-16 bg-blue-600 mb-10"></div>
+        <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85] [&::first-letter]:text-[5rem] [&::first-letter]:font-bold [&::first-letter]:text-blue-600 [&::first-letter]:float-left [&::first-letter]:mr-3 [&::first-letter]:leading-[0.85] [&::first-letter]:mt-2">
+          {content.intro_text}
+        </p>
       </section>
 
       {/* Featured Products Gallery */}
@@ -643,86 +649,114 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
         </div>
       </section>
 
-      {/* How to Choose Section */}
-      <section className="max-w-3xl mx-auto px-6 py-12">
-        <h2 className="text-3xl font-bold tracking-tight mb-4 text-slate-900">{content.how_to_choose_title}</h2>
-        <p className="text-slate-600 leading-relaxed mb-8">{content.how_to_choose_intro}</p>
-
-        {/* Capacity Subsection */}
-        <div className="mb-10">
-          <h3 className="text-2xl font-bold tracking-tight mb-4 text-slate-900">{content.capacity_title}</h3>
-          <p className="text-slate-600 leading-relaxed">{content.capacity_text}</p>
+      {/* How to Choose — editorial dossier with 6 numbered chapters */}
+      <section className="max-w-3xl mx-auto px-6 pt-16 md:pt-20 pb-10">
+        <div className="text-center mb-14">
+          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
+            {lang === 'fr' ? 'Le Guide d\'Achat' : lang === 'de' ? 'Der Kaufratgeber' : lang === 'es' ? 'La Guía de Compra' : lang === 'it' ? 'La Guida all\'Acquisto' : lang === 'nl' ? 'De Koopgids' : 'The Buyer\'s Guide'}
+          </div>
+          <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">{content.how_to_choose_title}</h2>
+          <div className="h-[2px] w-16 bg-blue-600 mx-auto mb-8"></div>
+          <p className="text-base md:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">{content.how_to_choose_intro}</p>
         </div>
 
-        {/* Power Subsection */}
-        <div className="mb-10">
-          <h3 className="text-2xl font-bold tracking-tight mb-4 text-slate-900">{content.power_title}</h3>
-          <p className="text-slate-600 leading-relaxed">{content.power_text}</p>
-        </div>
-
-        {/* Features Subsection */}
-        <div className="mb-10">
-          <h3 className="text-2xl font-bold tracking-tight mb-4 text-slate-900">{content.features_title}</h3>
-          <p className="text-slate-600 leading-relaxed">{content.features_text}</p>
-        </div>
-
-        {/* Materials Subsection */}
-        <div className="mb-10">
-          <h3 className="text-2xl font-bold tracking-tight mb-4 text-slate-900">{content.materials_title}</h3>
-          <p className="text-slate-600 leading-relaxed">{content.materials_text}</p>
-        </div>
-
-        {/* Noise Subsection */}
-        <div className="mb-10">
-          <h3 className="text-2xl font-bold tracking-tight mb-4 text-slate-900">{content.noise_title}</h3>
-          <p className="text-slate-600 leading-relaxed">{content.noise_text}</p>
-        </div>
-
-        {/* Energy Subsection */}
-        <div className="mb-10">
-          <h3 className="text-2xl font-bold tracking-tight mb-4 text-slate-900">{content.energy_title}</h3>
-          <p className="text-slate-600 leading-relaxed">{content.energy_text}</p>
+        <div className="divide-y divide-slate-200 border-t border-b border-slate-200">
+          {[
+            { title: content.capacity_title, body: content.capacity_text },
+            { title: content.power_title, body: content.power_text },
+            { title: content.features_title, body: content.features_text },
+            { title: content.materials_title, body: content.materials_text },
+            { title: content.noise_title, body: content.noise_text },
+            { title: content.energy_title, body: content.energy_text },
+          ].map((chap, i) => (
+            <article key={i} className="py-12 md:py-14 first:pt-10">
+              <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-4">
+                {['Critère · I', 'Critère · II', 'Critère · III', 'Critère · IV', 'Critère · V', 'Critère · VI'][i]}
+              </div>
+              <h3 className="text-2xl md:text-[1.75rem] font-bold tracking-tight leading-[1.2] text-slate-900 mb-5">{chap.title}</h3>
+              <div className="h-px w-10 bg-blue-600 mb-6"></div>
+              <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85]">{chap.body}</p>
+            </article>
+          ))}
         </div>
       </section>
 
-      {/* Common Mistakes Section */}
-      <section className="max-w-3xl mx-auto px-6 py-12">
-        <h2 className="text-3xl font-bold tracking-tight mb-4 text-slate-900">{content.mistakes_title}</h2>
-        <p className="text-slate-600 leading-relaxed mb-8">{content.mistakes_intro}</p>
-        <div className="space-y-6">
+      {/* Common Mistakes — editorial cards with numbered labels */}
+      <section className="max-w-4xl mx-auto px-6 pt-16 pb-16 md:pt-20 md:pb-20">
+        <div className="text-center mb-14">
+          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-amber-600 mb-5">
+            {lang === 'fr' ? 'Les Pièges' : lang === 'de' ? 'Die Fallen' : lang === 'es' ? 'Las Trampas' : lang === 'it' ? 'Le Insidie' : lang === 'nl' ? 'De Valkuilen' : 'The Pitfalls'}
+          </div>
+          <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">{content.mistakes_title}</h2>
+          <div className="h-[2px] w-16 bg-amber-600 mx-auto mb-8"></div>
+          <p className="text-base md:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">{content.mistakes_intro}</p>
+        </div>
+
+        <div className="grid gap-5 md:grid-cols-2">
           {content.mistakes.map((mistake, index) => (
-            <div key={index} className="bg-white rounded-2xl border border-slate-200 p-6">
-              <h3 className="text-lg font-bold text-slate-900 mb-2">{mistake.title}</h3>
-              <p className="text-slate-600 leading-relaxed">{mistake.desc}</p>
+            <div key={index} className="relative overflow-hidden bg-white rounded-2xl border border-slate-200 p-7 md:p-8 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+              <div className="absolute top-0 left-0 right-0 h-0.5 bg-amber-500"></div>
+              <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-amber-600 mb-3 tabular-nums">
+                {String(index + 1).padStart(2, '0')}
+              </div>
+              <h3 className="text-lg font-bold text-slate-900 mb-4 leading-snug">{mistake.title}</h3>
+              <div className="h-px w-8 bg-amber-500 mb-4"></div>
+              <p className="text-sm text-slate-600 leading-[1.75]">{mistake.desc}</p>
             </div>
           ))}
         </div>
       </section>
 
-      {/* Maintenance Section */}
-      <section className="max-w-3xl mx-auto px-6 py-12">
-        <h2 className="text-3xl font-bold tracking-tight mb-4 text-slate-900">{content.maintenance_title}</h2>
-        <p className="text-slate-600 leading-relaxed">{content.maintenance_text}</p>
+      {/* Maintenance Section — editorial feature */}
+      <section className="max-w-3xl mx-auto px-6 pt-16 pb-16 md:pt-20 md:pb-20">
+        <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-6">
+          {lang === 'fr' ? 'L\'Entretien' : lang === 'de' ? 'Die Pflege' : lang === 'es' ? 'El Mantenimiento' : lang === 'it' ? 'La Manutenzione' : lang === 'nl' ? 'Het Onderhoud' : 'Maintenance'}
+        </div>
+        <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-6">{content.maintenance_title}</h2>
+        <div className="h-[2px] w-16 bg-blue-600 mb-10"></div>
+        <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85]">{content.maintenance_text}</p>
       </section>
 
-      {/* Recipes Section */}
-      <section className="max-w-3xl mx-auto px-6 py-12">
-        <h2 className="text-3xl font-bold tracking-tight mb-4 text-slate-900">{content.recipes_title}</h2>
-        <p className="text-slate-600 leading-relaxed mb-8">{content.recipes_intro}</p>
-        <div className="space-y-6">
+      {/* Recipes Section — editorial cookbook */}
+      <section className="max-w-5xl mx-auto px-6 pt-16 pb-16 md:pt-20 md:pb-20">
+        <div className="text-center mb-14">
+          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
+            {lang === 'fr' ? 'Le Cahier Recettes' : lang === 'de' ? 'Das Rezeptbuch' : lang === 'es' ? 'El Recetario' : lang === 'it' ? 'Il Ricettario' : lang === 'nl' ? 'Het Receptenboek' : 'The Recipe Book'}
+          </div>
+          <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">{content.recipes_title}</h2>
+          <div className="h-[2px] w-16 bg-blue-600 mx-auto mb-8"></div>
+          <p className="text-base md:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">{content.recipes_intro}</p>
+        </div>
+
+        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {content.recipes.map((recipe, index) => (
-            <div key={index} className="bg-white rounded-2xl border border-slate-200 p-6">
-              <h3 className="text-lg font-bold text-slate-900 mb-2">{recipe.title}</h3>
-              <p className="text-slate-600 leading-relaxed text-sm">{recipe.desc}</p>
+            <div key={index} className="group relative overflow-hidden bg-white rounded-2xl border border-slate-200 p-7 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+              <div className="absolute top-0 left-0 right-0 h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></div>
+              <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600/70 mb-3 tabular-nums">
+                N° {String(index + 1).padStart(2, '0')}
+              </div>
+              <h3 className="text-base font-bold text-slate-900 mb-3 leading-snug group-hover:text-blue-700 transition-colors">{recipe.title}</h3>
+              <div className="h-px w-8 bg-blue-600 mb-4"></div>
+              <p className="text-[13px] text-slate-600 leading-[1.75]">{recipe.desc}</p>
             </div>
           ))}
         </div>
       </section>
 
-      {/* Verdict Section */}
-      <section className="max-w-3xl mx-auto px-6 py-12 bg-gradient-to-br from-emerald-50 to-teal-50 rounded-3xl border border-emerald-100">
-        <h2 className="text-3xl font-bold tracking-tight mb-4 text-emerald-900">{content.verdict_title}</h2>
-        <p className="text-slate-700 leading-relaxed">{content.verdict_text}</p>
+      {/* Verdict — dark editorial panel */}
+      <section className="max-w-4xl mx-auto px-6 pt-16 pb-20 md:pt-20 md:pb-24">
+        <div className="relative overflow-hidden rounded-3xl bg-slate-900 p-10 md:p-16 text-white shadow-2xl">
+          <div className="absolute top-0 left-0 h-[3px] w-24 bg-blue-400"></div>
+          <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-blue-500/10 blur-3xl"></div>
+          <div className="relative">
+            <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-300 mb-6">
+              {lang === 'fr' ? 'Verdict' : lang === 'de' ? 'Urteil' : lang === 'es' ? 'Veredicto' : lang === 'it' ? 'Verdetto' : lang === 'nl' ? 'Eindoordeel' : 'Verdict'}
+            </div>
+            <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] mb-6 max-w-2xl">{content.verdict_title}</h2>
+            <div className="h-[2px] w-16 bg-blue-400 mb-8"></div>
+            <p className="text-lg md:text-xl leading-[1.75] text-slate-200 max-w-2xl">{content.verdict_text}</p>
+          </div>
+        </div>
       </section>
 
       {/* All Products with Images */}
@@ -758,10 +792,16 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
         </div>
       </section>
 
-      {/* Product Comparison */}
-      <section className="max-w-5xl mx-auto px-6 py-12">
-        <h2 className="text-3xl font-bold tracking-tight mb-8">{dict.section_title}</h2>
-        <p className="text-slate-500 mb-12">{dict.section_subtitle}</p>
+      {/* Product Comparison — editorial header */}
+      <section className="max-w-5xl mx-auto px-6 py-16 md:py-20">
+        <div className="text-center mb-14">
+          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
+            {lang === 'fr' ? 'La Sélection' : lang === 'de' ? 'Die Auswahl' : lang === 'es' ? 'La Selección' : lang === 'it' ? 'La Selezione' : lang === 'nl' ? 'De Selectie' : 'The Selection'}
+          </div>
+          <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-4">{dict.section_title}</h2>
+          <p className="text-base md:text-lg text-slate-500 max-w-xl mx-auto">{dict.section_subtitle}</p>
+          <div className="h-[2px] w-16 bg-blue-600 mx-auto mt-6"></div>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {products.map((product, index) => (
@@ -788,24 +828,53 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
         />
       </section>
 
-      {/* Internal Links Section */}
-      <section className="max-w-3xl mx-auto px-6 py-12 border-t border-slate-100">
-        <h2 className="text-2xl font-bold text-slate-900 mb-6">
-          {lang === 'fr' ? 'Guides connexes' : lang === 'de' ? 'Verwandte Ratgeber' : lang === 'es' ? 'Guías relacionadas' : lang === 'it' ? 'Guide correlate' : lang === 'nl' ? 'Gerelateerde gidsen' : 'Related Guides'}
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <Link href={`/${lang}/guides/airfryer-vs-four`} className="block p-5 bg-white rounded-2xl border border-slate-200 hover:shadow-lg hover:-translate-y-0.5 transition-all">
-            <h3 className="font-bold text-blue-600 mb-1">{lang === 'fr' ? 'Airfryer vs Four traditionnel' : lang === 'de' ? 'Heißluftfritteuse vs Backofen' : lang === 'es' ? 'Freidora de aire vs Horno' : lang === 'it' ? 'Friggitrice ad aria vs Forno' : lang === 'nl' ? 'Airfryer vs Oven' : 'Air Fryer vs Traditional Oven'}</h3>
-            <p className="text-sm text-slate-500">{lang === 'fr' ? 'Comparatif détaillé pour savoir lequel choisir.' : lang === 'de' ? 'Detaillierter Vergleich, welcher besser ist.' : lang === 'es' ? 'Comparativa detallada para saber cuál elegir.' : lang === 'it' ? 'Confronto dettagliato per sapere quale scegliere.' : lang === 'nl' ? 'Gedetailleerde vergelijking om te weten welke te kiezen.' : 'Detailed comparison to help you choose.'}</p>
-          </Link>
-          <Link href={`/${lang}/a-propos`} className="block p-5 bg-white rounded-2xl border border-slate-200 hover:shadow-lg hover:-translate-y-0.5 transition-all">
-            <h3 className="font-bold text-blue-600 mb-1">{lang === 'fr' ? 'Notre méthodologie de test' : lang === 'de' ? 'Unsere Testmethodik' : lang === 'es' ? 'Nuestra metodología de pruebas' : lang === 'it' ? 'La nostra metodologia di test' : lang === 'nl' ? 'Onze testmethodologie' : 'Our Testing Methodology'}</h3>
-            <p className="text-sm text-slate-500">{lang === 'fr' ? 'Comment nous testons et notons chaque airfryer.' : lang === 'de' ? 'Wie wir jede Heißluftfritteuse testen und bewerten.' : lang === 'es' ? 'Cómo probamos y calificamos cada freidora.' : lang === 'it' ? 'Come testiamo e valutiamo ogni friggitrice.' : lang === 'nl' ? 'Hoe we elke airfryer testen en beoordelen.' : 'How we test and rate every air fryer.'}</p>
-          </Link>
-          <Link href={`/${lang}`} className="block p-5 bg-white rounded-2xl border border-slate-200 hover:shadow-lg hover:-translate-y-0.5 transition-all">
-            <h3 className="font-bold text-blue-600 mb-1">{lang === 'fr' ? 'Classement des meilleurs airfryers 2026' : lang === 'de' ? 'Ranking der besten Airfryer 2026' : lang === 'es' ? 'Ranking de las mejores freidoras 2026' : lang === 'it' ? 'Classifica delle migliori friggitrici 2026' : lang === 'nl' ? 'Ranking beste airfryers 2026' : 'Best Air Fryers 2026 Ranking'}</h3>
-            <p className="text-sm text-slate-500">{lang === 'fr' ? 'Notre top 9 avec comparatif et prix.' : lang === 'de' ? 'Unsere Top 9 mit Vergleich und Preisen.' : lang === 'es' ? 'Nuestro top 9 con comparativa y precios.' : lang === 'it' ? 'La nostra top 9 con confronto e prezzi.' : lang === 'nl' ? 'Onze top 9 met vergelijking en prijzen.' : 'Our top 9 with comparison and prices.'}</p>
-          </Link>
+      {/* Internal Links Section — editorial "Also read" */}
+      <section className="max-w-5xl mx-auto px-6 py-20 md:py-24 border-t border-slate-200">
+        <div className="text-center mb-14">
+          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-4">
+            {lang === 'fr' ? 'À lire aussi' : lang === 'de' ? 'Auch lesen' : lang === 'es' ? 'Leer también' : lang === 'it' ? 'Leggi anche' : lang === 'nl' ? 'Lees ook' : 'Also read'}
+          </div>
+          <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight text-slate-900 mb-4">
+            {lang === 'fr' ? 'Guides connexes' : lang === 'de' ? 'Verwandte Ratgeber' : lang === 'es' ? 'Guías relacionadas' : lang === 'it' ? 'Guide correlate' : lang === 'nl' ? 'Gerelateerde gidsen' : 'Related Guides'}
+          </h2>
+          <div className="h-[2px] w-16 bg-blue-600 mx-auto"></div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {[
+            {
+              href: `/${lang}/guides/airfryer-vs-four`,
+              num: '01',
+              title: lang === 'fr' ? 'Airfryer vs Four traditionnel' : lang === 'de' ? 'Heißluftfritteuse vs Backofen' : lang === 'es' ? 'Freidora de aire vs Horno' : lang === 'it' ? 'Friggitrice ad aria vs Forno' : lang === 'nl' ? 'Airfryer vs Oven' : 'Air Fryer vs Traditional Oven',
+              desc: lang === 'fr' ? 'Comparatif détaillé pour savoir lequel choisir.' : lang === 'de' ? 'Detaillierter Vergleich, welcher besser ist.' : lang === 'es' ? 'Comparativa detallada para saber cuál elegir.' : lang === 'it' ? 'Confronto dettagliato per sapere quale scegliere.' : lang === 'nl' ? 'Gedetailleerde vergelijking om te weten welke te kiezen.' : 'Detailed comparison to help you choose.',
+            },
+            {
+              href: `/${lang}/a-propos`,
+              num: '02',
+              title: lang === 'fr' ? 'Notre méthodologie de test' : lang === 'de' ? 'Unsere Testmethodik' : lang === 'es' ? 'Nuestra metodología de pruebas' : lang === 'it' ? 'La nostra metodologia di test' : lang === 'nl' ? 'Onze testmethodologie' : 'Our Testing Methodology',
+              desc: lang === 'fr' ? 'Comment nous testons et notons chaque airfryer.' : lang === 'de' ? 'Wie wir jede Heißluftfritteuse testen und bewerten.' : lang === 'es' ? 'Cómo probamos y calificamos cada freidora.' : lang === 'it' ? 'Come testiamo e valutiamo ogni friggitrice.' : lang === 'nl' ? 'Hoe we elke airfryer testen en beoordelen.' : 'How we test and rate every air fryer.',
+            },
+            {
+              href: `/${lang}`,
+              num: '03',
+              title: lang === 'fr' ? 'Classement des meilleurs airfryers 2026' : lang === 'de' ? 'Ranking der besten Airfryer 2026' : lang === 'es' ? 'Ranking de las mejores freidoras 2026' : lang === 'it' ? 'Classifica delle migliori friggitrici 2026' : lang === 'nl' ? 'Ranking beste airfryers 2026' : 'Best Air Fryers 2026 Ranking',
+              desc: lang === 'fr' ? 'Notre top 9 avec comparatif et prix.' : lang === 'de' ? 'Unsere Top 9 mit Vergleich und Preisen.' : lang === 'es' ? 'Nuestro top 9 con comparativa y precios.' : lang === 'it' ? 'La nostra top 9 con confronto e prezzi.' : lang === 'nl' ? 'Onze top 9 met vergelijking en prijzen.' : 'Our top 9 with comparison and prices.',
+            },
+          ].map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="group relative block bg-white rounded-2xl border border-slate-200 p-7 hover:border-blue-600 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden"
+            >
+              <div className="absolute top-0 left-0 right-0 h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></div>
+              <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600/70 mb-3">{item.num}</div>
+              <h3 className="font-bold text-slate-900 mb-3 leading-snug group-hover:text-blue-700 transition-colors">{item.title}</h3>
+              <p className="text-sm text-slate-500 leading-relaxed">{item.desc}</p>
+              <div className="mt-5 flex items-center text-sm font-semibold text-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <span>{lang === 'fr' ? 'Lire' : lang === 'de' ? 'Lesen' : lang === 'es' ? 'Leer' : lang === 'it' ? 'Leggi' : lang === 'nl' ? 'Lezen' : 'Read'}</span>
+                <span className="ml-2 transition-transform group-hover:translate-x-1">&rarr;</span>
+              </div>
+            </Link>
+          ))}
         </div>
       </section>
 
