@@ -583,6 +583,27 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
         </Link>
       </section>
 
+      {/* Internal Links Section */}
+      <section className="max-w-3xl mx-auto px-6 py-12 border-t border-slate-100">
+        <h2 className="text-2xl font-bold text-slate-900 mb-6">
+          {lang === 'fr' ? 'Guides connexes' : lang === 'de' ? 'Verwandte Ratgeber' : lang === 'es' ? 'Guías relacionadas' : lang === 'it' ? 'Guide correlate' : lang === 'nl' ? 'Gerelateerde gidsen' : 'Related Guides'}
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <Link href={`/${lang}/guides/airfryers`} className="block p-5 bg-white rounded-2xl border border-slate-200 hover:shadow-lg hover:-translate-y-0.5 transition-all">
+            <h3 className="font-bold text-blue-600 mb-1">{lang === 'fr' ? 'Guide complet des airfryers 2026' : lang === 'de' ? 'Kompletter Airfryer-Ratgeber 2026' : lang === 'es' ? 'Guía completa de freidoras 2026' : lang === 'it' ? 'Guida completa friggitrici 2026' : lang === 'nl' ? 'Complete airfryer-gids 2026' : 'Complete Air Fryer Guide 2026'}</h3>
+            <p className="text-sm text-slate-500">{lang === 'fr' ? 'Tous les critères pour bien choisir votre airfryer.' : lang === 'de' ? 'Alle Kriterien für die richtige Wahl.' : lang === 'es' ? 'Todos los criterios para elegir bien.' : lang === 'it' ? 'Tutti i criteri per scegliere bene.' : lang === 'nl' ? 'Alle criteria om goed te kiezen.' : 'All criteria to choose the right one.'}</p>
+          </Link>
+          <Link href={`/${lang}/a-propos`} className="block p-5 bg-white rounded-2xl border border-slate-200 hover:shadow-lg hover:-translate-y-0.5 transition-all">
+            <h3 className="font-bold text-blue-600 mb-1">{lang === 'fr' ? 'Notre méthodologie de test' : lang === 'de' ? 'Unsere Testmethodik' : lang === 'es' ? 'Nuestra metodología de pruebas' : lang === 'it' ? 'La nostra metodologia di test' : lang === 'nl' ? 'Onze testmethodologie' : 'Our Testing Methodology'}</h3>
+            <p className="text-sm text-slate-500">{lang === 'fr' ? 'Comment nous testons et notons chaque airfryer.' : lang === 'de' ? 'Wie wir jede Heißluftfritteuse testen und bewerten.' : lang === 'es' ? 'Cómo probamos y calificamos cada freidora.' : lang === 'it' ? 'Come testiamo e valutiamo ogni friggitrice.' : lang === 'nl' ? 'Hoe we elke airfryer testen en beoordelen.' : 'How we test and rate every air fryer.'}</p>
+          </Link>
+          <Link href={`/${lang}`} className="block p-5 bg-white rounded-2xl border border-slate-200 hover:shadow-lg hover:-translate-y-0.5 transition-all">
+            <h3 className="font-bold text-blue-600 mb-1">{lang === 'fr' ? 'Classement des meilleurs airfryers 2026' : lang === 'de' ? 'Ranking der besten Airfryer 2026' : lang === 'es' ? 'Ranking de las mejores freidoras 2026' : lang === 'it' ? 'Classifica delle migliori friggitrici 2026' : lang === 'nl' ? 'Ranking beste airfryers 2026' : 'Best Air Fryers 2026 Ranking'}</h3>
+            <p className="text-sm text-slate-500">{lang === 'fr' ? 'Notre top 9 avec comparatif et prix.' : lang === 'de' ? 'Unsere Top 9 mit Vergleich und Preisen.' : lang === 'es' ? 'Nuestro top 9 con comparativa y precios.' : lang === 'it' ? 'La nostra top 9 con confronto e prezzi.' : lang === 'nl' ? 'Onze top 9 met vergelijking en prijzen.' : 'Our top 9 with comparison and prices.'}</p>
+          </Link>
+        </div>
+      </section>
+
       {/* FAQ */}
       <FaqSection faqs={dict.faq} title={dict.faq_title} />
 

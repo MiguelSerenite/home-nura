@@ -31,7 +31,7 @@ export function middleware(request: NextRequest) {
   )
   response.headers.set(
     'Content-Security-Policy',
-    "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://m.media-amazon.com https://images-na.ssl-images-amazon.com; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'"
+    "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://m.media-amazon.com https://images-na.ssl-images-amazon.com https://img.youtube.com; font-src 'self' data:; connect-src 'self'; frame-src https://www.youtube.com https://www.youtube-nocookie.com; frame-ancestors 'none'"
   )
 
   return response
