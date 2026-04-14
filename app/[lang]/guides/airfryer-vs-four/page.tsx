@@ -353,6 +353,21 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
   const c = pageContent[lang] || pageContent.fr
   const products = getStaticProducts(lang)
 
+  // Editorial chapter list for the post-table deep dive
+  const chapters = [
+    { title: c.cooking_time_title, body: c.cooking_time },
+    { title: c.energy_consumption_title, body: c.energy_consumption },
+    { title: c.cooking_quality_title, body: c.cooking_quality },
+    { title: c.capacity_title, body: c.capacity },
+    { title: c.cleaning_title, body: c.cleaning },
+    { title: c.noise_title, body: c.noise },
+    { title: c.cost_title, body: c.cost },
+    { title: c.when_choose_airfryer_title, body: c.when_choose_airfryer },
+    { title: c.when_keep_oven_title, body: c.when_keep_oven },
+    { title: c.replace_oven_title, body: c.replace_oven },
+  ]
+  const roman = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X']
+
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -417,22 +432,62 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
         </div>
       </section>
 
-      {/* How Airfryer Works */}
-      <section className="max-w-3xl mx-auto px-6 pb-12">
-        <h2 className="text-2xl font-bold tracking-tight mb-6">{c.how_airfryer_works_title}</h2>
-        <p className="text-slate-600 leading-relaxed">{c.how_airfryer_works}</p>
+      {/* ═══════════════════════════════════════════════════
+          FEATURE N° 01 — How the airfryer works
+      ═══════════════════════════════════════════════════ */}
+      <section className="max-w-3xl mx-auto px-6 pt-16 pb-20 md:pt-24 md:pb-24">
+        <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-6">
+          N° 01 — Technologie
+        </div>
+        <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-6">
+          {c.how_airfryer_works_title}
+        </h2>
+        <div className="h-[2px] w-16 bg-blue-600 mb-10"></div>
+        <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85] [&::first-letter]:text-[5rem] [&::first-letter]:font-bold [&::first-letter]:text-blue-600 [&::first-letter]:float-left [&::first-letter]:mr-3 [&::first-letter]:leading-[0.85] [&::first-letter]:mt-2">
+          {c.how_airfryer_works}
+        </p>
       </section>
 
-      {/* How Oven Works */}
-      <section className="max-w-3xl mx-auto px-6 pb-12">
-        <h2 className="text-2xl font-bold tracking-tight mb-6">{c.how_oven_works_title}</h2>
-        <p className="text-slate-600 leading-relaxed">{c.how_oven_works}</p>
+      {/* Hairline divider with centered ornament */}
+      <div className="max-w-3xl mx-auto px-6">
+        <div className="flex items-center gap-4">
+          <div className="h-px flex-1 bg-slate-200"></div>
+          <div className="w-1.5 h-1.5 rounded-full bg-blue-600/70"></div>
+          <div className="h-px flex-1 bg-slate-200"></div>
+        </div>
+      </div>
+
+      {/* ═══════════════════════════════════════════════════
+          FEATURE N° 02 — How the traditional oven works
+      ═══════════════════════════════════════════════════ */}
+      <section className="max-w-3xl mx-auto px-6 pt-20 pb-20 md:pt-24 md:pb-24">
+        <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-amber-600 mb-6">
+          N° 02 — Technologie
+        </div>
+        <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-6">
+          {c.how_oven_works_title}
+        </h2>
+        <div className="h-[2px] w-16 bg-amber-600 mb-10"></div>
+        <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85] [&::first-letter]:text-[5rem] [&::first-letter]:font-bold [&::first-letter]:text-amber-600 [&::first-letter]:float-left [&::first-letter]:mr-3 [&::first-letter]:leading-[0.85] [&::first-letter]:mt-2">
+          {c.how_oven_works}
+        </p>
       </section>
 
-      {/* Comparison Table */}
-      <section className="max-w-4xl mx-auto px-6 pb-16">
-        <h2 className="text-2xl font-bold tracking-tight mb-8">{c.comparison_title}</h2>
-        <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white mb-12">
+      {/* ═══════════════════════════════════════════════════
+          FEATURE N° 03 — Detailed comparison (table + chapters)
+      ═══════════════════════════════════════════════════ */}
+      <section className="max-w-4xl mx-auto px-6 pt-16 pb-10 md:pt-20">
+        <div className="text-center mb-12">
+          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-slate-500 mb-5">
+            N° 03 — Dossier
+          </div>
+          <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-4">
+            {c.comparison_title}
+          </h2>
+          <div className="h-[2px] w-16 bg-slate-900 mx-auto"></div>
+        </div>
+
+        <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm ring-1 ring-black/[0.02]">
           <table className="w-full text-left">
             <thead>
               <tr className="border-b border-slate-100 bg-slate-50">
@@ -452,65 +507,25 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
             </tbody>
           </table>
         </div>
+      </section>
 
-        {/* Cooking Time Section */}
-        <div className="mb-12">
-          <h3 className="text-xl font-bold text-slate-900 mb-4">{c.cooking_time_title}</h3>
-          <p className="text-slate-600 leading-relaxed">{c.cooking_time}</p>
-        </div>
-
-        {/* Energy Consumption Section */}
-        <div className="mb-12">
-          <h3 className="text-xl font-bold text-slate-900 mb-4">{c.energy_consumption_title}</h3>
-          <p className="text-slate-600 leading-relaxed">{c.energy_consumption}</p>
-        </div>
-
-        {/* Cooking Quality Section */}
-        <div className="mb-12">
-          <h3 className="text-xl font-bold text-slate-900 mb-4">{c.cooking_quality_title}</h3>
-          <p className="text-slate-600 leading-relaxed">{c.cooking_quality}</p>
-        </div>
-
-        {/* Capacity Section */}
-        <div className="mb-12">
-          <h3 className="text-xl font-bold text-slate-900 mb-4">{c.capacity_title}</h3>
-          <p className="text-slate-600 leading-relaxed">{c.capacity}</p>
-        </div>
-
-        {/* Cleaning Section */}
-        <div className="mb-12">
-          <h3 className="text-xl font-bold text-slate-900 mb-4">{c.cleaning_title}</h3>
-          <p className="text-slate-600 leading-relaxed">{c.cleaning}</p>
-        </div>
-
-        {/* Noise Section */}
-        <div className="mb-12">
-          <h3 className="text-xl font-bold text-slate-900 mb-4">{c.noise_title}</h3>
-          <p className="text-slate-600 leading-relaxed">{c.noise}</p>
-        </div>
-
-        {/* Cost Section */}
-        <div className="mb-12">
-          <h3 className="text-xl font-bold text-slate-900 mb-4">{c.cost_title}</h3>
-          <p className="text-slate-600 leading-relaxed">{c.cost}</p>
-        </div>
-
-        {/* When Choose Airfryer Section */}
-        <div className="mb-12">
-          <h3 className="text-xl font-bold text-slate-900 mb-4">{c.when_choose_airfryer_title}</h3>
-          <p className="text-slate-600 leading-relaxed">{c.when_choose_airfryer}</p>
-        </div>
-
-        {/* When Keep Oven Section */}
-        <div className="mb-12">
-          <h3 className="text-xl font-bold text-slate-900 mb-4">{c.when_keep_oven_title}</h3>
-          <p className="text-slate-600 leading-relaxed">{c.when_keep_oven}</p>
-        </div>
-
-        {/* Replace Oven Section */}
-        <div className="mb-12">
-          <h3 className="text-xl font-bold text-slate-900 mb-4">{c.replace_oven_title}</h3>
-          <p className="text-slate-600 leading-relaxed">{c.replace_oven}</p>
+      {/* Editorial chapters — magazine-style long read after the table */}
+      <section className="max-w-3xl mx-auto px-6 pt-6 pb-20">
+        <div className="divide-y divide-slate-200">
+          {chapters.map((chapter, i) => (
+            <article key={i} className="py-14 md:py-16 first:pt-10">
+              <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-4">
+                Chapitre · {roman[i]}
+              </div>
+              <h3 className="text-2xl md:text-[1.875rem] font-bold tracking-tight leading-[1.2] text-slate-900 mb-5">
+                {chapter.title}
+              </h3>
+              <div className="h-px w-10 bg-blue-600 mb-6"></div>
+              <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85]">
+                {chapter.body}
+              </p>
+            </article>
+          ))}
         </div>
       </section>
 
