@@ -88,9 +88,9 @@ export function enrichContentWithCTAs(html: string, lang: string): string {
         ctaCount++
         const url = `https://${domain}/dp/${product.asin}?tag=${tag}`
         const productName = product.name[lang] || product.name.fr
-        const cta = `<div style="margin:1.5rem 0;padding:1rem 1.25rem;background:linear-gradient(135deg,#eff6ff,#eef2ff);border:2px solid #bfdbfe;border-radius:1rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.75rem">
+        const cta = `<div style="margin:1.5rem 0;padding:1rem 1.25rem;background:linear-gradient(135deg,#f8f8ef,#eeefd7);border:2px solid #c2c67c;border-radius:1rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.75rem">
 <span style="font-weight:700;font-size:0.9rem;color:#1e293b">${productName}</span>
-<a href="${url}" target="_blank" rel="nofollow noopener noreferrer" style="display:inline-block;padding:0.5rem 1.25rem;background:#2563eb;color:white;font-weight:700;font-size:0.85rem;border-radius:9999px;text-decoration:none;white-space:nowrap">${btnText}</a>
+<a href="${url}" target="_blank" rel="nofollow noopener noreferrer" style="display:inline-block;padding:0.5rem 1.25rem;background:#6b7230;color:white;font-weight:700;font-size:0.85rem;border-radius:9999px;text-decoration:none;white-space:nowrap">${btnText}</a>
 </div>`
         return section + cta
       }
