@@ -487,26 +487,72 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
           <div className="h-[2px] w-16 bg-slate-900 mx-auto"></div>
         </div>
 
-        <div className="overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm ring-1 ring-black/[0.02]">
-          <table className="w-full text-left">
-            <thead>
-              <tr className="border-b border-slate-100 bg-slate-50">
-                <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-400">{lang === 'fr' ? 'Critère' : lang === 'de' ? 'Kriterium' : lang === 'es' ? 'Criterio' : lang === 'it' ? 'Criterio' : lang === 'nl' ? 'Criterium' : 'Criteria'}</th>
-                <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-blue-600">Airfryer</th>
-                <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-amber-600">{lang === 'fr' ? 'Four' : lang === 'de' ? 'Backofen' : lang === 'es' ? 'Horno' : lang === 'it' ? 'Forno' : lang === 'nl' ? 'Oven' : 'Oven'}</th>
-              </tr>
-            </thead>
-            <tbody>
-              {c.rows.map((row, i) => (
-                <tr key={i} className="border-b border-slate-50 hover:bg-slate-50/50">
-                  <td className="px-6 py-4 text-sm font-semibold text-slate-700">{row.criteria}</td>
-                  <td className="px-6 py-4 text-sm text-blue-700 bg-blue-50/30">{row.airfryer}</td>
-                  <td className="px-6 py-4 text-sm text-amber-700 bg-amber-50/30">{row.oven}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        {(() => {
+          const criteriaLabel = lang === 'fr' ? 'Critère' : lang === 'de' ? 'Kriterium' : lang === 'es' ? 'Criterio' : lang === 'it' ? 'Criterio' : lang === 'nl' ? 'Criterium' : 'Criteria'
+          const ovenLabel = lang === 'fr' ? 'Four' : lang === 'de' ? 'Backofen' : lang === 'es' ? 'Horno' : lang === 'it' ? 'Forno' : lang === 'nl' ? 'Oven' : 'Oven'
+          return (
+            <>
+              {/* Mobile: stacked card layout for readability */}
+              <div className="md:hidden space-y-4">
+                {c.rows.map((row, i) => (
+                  <div
+                    key={i}
+                    className="rounded-2xl border border-slate-200 bg-white shadow-sm ring-1 ring-black/[0.02] overflow-hidden"
+                  >
+                    <div className="px-5 pt-4 pb-3 bg-slate-50 border-b border-slate-100">
+                      <div className="text-[10px] font-bold tracking-[0.2em] uppercase text-slate-400 mb-1">
+                        {criteriaLabel}
+                      </div>
+                      <div className="text-base font-bold text-slate-900 leading-snug">
+                        {row.criteria}
+                      </div>
+                    </div>
+                    <div className="divide-y divide-slate-100">
+                      <div className="px-5 py-4 bg-blue-50/40">
+                        <div className="text-[10px] font-bold tracking-[0.2em] uppercase text-blue-600 mb-1.5">
+                          Airfryer
+                        </div>
+                        <div className="text-[15px] text-blue-900 leading-snug">
+                          {row.airfryer}
+                        </div>
+                      </div>
+                      <div className="px-5 py-4 bg-amber-50/40">
+                        <div className="text-[10px] font-bold tracking-[0.2em] uppercase text-amber-600 mb-1.5">
+                          {ovenLabel}
+                        </div>
+                        <div className="text-[15px] text-amber-900 leading-snug">
+                          {row.oven}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Desktop: classic 3-column table */}
+              <div className="hidden md:block overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm ring-1 ring-black/[0.02]">
+                <table className="w-full text-left">
+                  <thead>
+                    <tr className="border-b border-slate-100 bg-slate-50">
+                      <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-400">{criteriaLabel}</th>
+                      <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-blue-600">Airfryer</th>
+                      <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-amber-600">{ovenLabel}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {c.rows.map((row, i) => (
+                      <tr key={i} className="border-b border-slate-50 hover:bg-slate-50/50">
+                        <td className="px-6 py-4 text-sm font-semibold text-slate-700">{row.criteria}</td>
+                        <td className="px-6 py-4 text-sm text-blue-700 bg-blue-50/30">{row.airfryer}</td>
+                        <td className="px-6 py-4 text-sm text-amber-700 bg-amber-50/30">{row.oven}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </>
+          )
+        })()}
       </section>
 
       {/* Editorial chapters — magazine-style long read after the table */}

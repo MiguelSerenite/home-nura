@@ -66,7 +66,13 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
   }))
   const title = article.title[lang] || article.title.fr
   const rawContent = article.content[lang] || article.content.fr
-  const content = enrichContentWithCTAs(rawContent, lang)
+  // Wrap tables in a scrollable container so they scroll horizontally on mobile
+  // without breaking the table layout algorithm (`display: block` shrinks cells).
+  const enrichedContent = enrichContentWithCTAs(rawContent, lang)
+  const content = enrichedContent.replace(
+    /<table(\s[^>]*)?>/gi,
+    '<div class="blog-table-wrap"><table$1>'
+  ).replace(/<\/table>/gi, '</table></div>')
   const excerpt = article.excerpt[lang] || article.excerpt.fr
   const categoryLabel = CATEGORIES[article.category]?.[lang] || CATEGORIES[article.category]?.fr
 
@@ -174,10 +180,14 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
             prose-strong:text-slate-900
             prose-a:text-blue-600 prose-a:font-semibold prose-a:no-underline hover:prose-a:underline
             prose-img:rounded-xl prose-img:shadow-md
-            prose-table:border-collapse
-            prose-th:bg-slate-50 prose-th:p-3 prose-th:text-left prose-th:font-bold prose-th:border prose-th:border-slate-200
-            prose-td:p-3 prose-td:border prose-td:border-slate-200
-            [&_table]:block [&_table]:overflow-x-auto [&_table]:max-w-full
+            [&_.blog-table-wrap]:my-6 [&_.blog-table-wrap]:-mx-4 md:[&_.blog-table-wrap]:mx-0 [&_.blog-table-wrap]:overflow-x-auto [&_.blog-table-wrap]:rounded-xl md:[&_.blog-table-wrap]:border md:[&_.blog-table-wrap]:border-slate-200 md:[&_.blog-table-wrap]:bg-white md:[&_.blog-table-wrap]:shadow-sm
+            [&_.blog-table-wrap]:px-4 md:[&_.blog-table-wrap]:px-0
+            [&_.blog-table-wrap_table]:min-w-[560px] [&_.blog-table-wrap_table]:w-full [&_.blog-table-wrap_table]:border-collapse [&_.blog-table-wrap_table]:text-sm
+            [&_.blog-table-wrap_thead]:bg-slate-50
+            [&_.blog-table-wrap_th]:p-3 [&_.blog-table-wrap_th]:text-left [&_.blog-table-wrap_th]:font-bold [&_.blog-table-wrap_th]:text-slate-900 [&_.blog-table-wrap_th]:text-[11px] [&_.blog-table-wrap_th]:uppercase [&_.blog-table-wrap_th]:tracking-wider [&_.blog-table-wrap_th]:border-b-2 [&_.blog-table-wrap_th]:border-slate-200 [&_.blog-table-wrap_th]:whitespace-nowrap
+            [&_.blog-table-wrap_td]:p-3 [&_.blog-table-wrap_td]:align-top [&_.blog-table-wrap_td]:border-b [&_.blog-table-wrap_td]:border-slate-100 [&_.blog-table-wrap_td]:text-slate-700
+            [&_.blog-table-wrap_tr:last-child_td]:border-b-0
+            [&_.blog-table-wrap_tbody_tr]:transition-colors hover:[&_.blog-table-wrap_tbody_tr]:bg-slate-50/60
             [&_img]:max-w-full [&_img]:h-auto
             [&_pre]:overflow-x-auto [&_pre]:max-w-full
           "
