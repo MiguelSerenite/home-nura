@@ -774,7 +774,6 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
               rating={5}
               buyButtonText={dict.buy_button}
               badge={product.badge}
-              lang={lang}
             />
           ))}
         </div>

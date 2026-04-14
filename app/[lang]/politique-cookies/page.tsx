@@ -34,6 +34,17 @@ export default async function PolitiqueCookies({ params }: { params: Promise<{ l
 
   return (
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'BreadcrumbList',
+          itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: `https://homenura.com/${lang}` },
+            { '@type': 'ListItem', position: 2, name: 'Politique cookies', item: `https://homenura.com/${lang}/politique-cookies` },
+          ],
+        }) }}
+      />
       <Navbar currentLang={lang} />
       <main className="max-w-3xl mx-auto px-6 py-16">
         <h1 className="text-3xl font-black mb-8">{c.title}</h1>

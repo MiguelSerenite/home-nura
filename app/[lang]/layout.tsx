@@ -93,6 +93,7 @@ export default async function RootLayout({
     name: 'Home Nura',
     url: BASE_URL,
     description: metaDescriptions[lang] || metaDescriptions.fr,
+    foundingDate: '2024-01-15',
     areaServed: LANGUAGES.map(l => ({
       '@type': 'Country',
       name: l === 'fr' ? 'France' : l === 'de' ? 'Germany' : l === 'en' ? 'United Kingdom' : l === 'es' ? 'Spain' : l === 'it' ? 'Italy' : 'Netherlands',
