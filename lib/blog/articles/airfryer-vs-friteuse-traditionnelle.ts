@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 13,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/81bq0atSJML._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/41CfTSLQprL._AC_SL1500_.jpg',
       alt: {
         fr: 'Comparaison entre un airfryer et une friteuse traditionnelle',
         en: 'Comparison between an air fryer and a traditional deep fryer',

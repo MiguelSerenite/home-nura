@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 12,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/81dMHkAL0aL._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/41sQIj0LwDL._AC_SL1500_.jpg',
       alt: {
         fr: 'Airfryer économique en énergie comparé à un four traditionnel',
         en: 'Energy-efficient air fryer compared to a traditional oven',

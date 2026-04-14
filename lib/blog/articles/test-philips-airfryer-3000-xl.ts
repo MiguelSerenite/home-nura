@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 12,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/61cFSBxbL8L._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/31upZSvSwjL._AC_SL1500_.jpg',
       alt: {
         fr: 'Philips Airfryer 3000 Series XL 6,2L - vue de face sur plan de travail',
         en: 'Philips Airfryer 3000 Series XL 6.2L - front view on kitchen counter',

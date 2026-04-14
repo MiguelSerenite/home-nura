@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 13,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/61cFSBxbL8L._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/31upZSvSwjL._AC_SL1500_.jpg',
       alt: {
         fr: 'Légumes frais et colorés cuits sainement dans un airfryer',
         en: 'Fresh colourful vegetables cooked healthily in an air fryer',

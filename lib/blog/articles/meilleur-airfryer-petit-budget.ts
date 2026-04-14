@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 11,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71w-jRACPlL._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/21z46vwmm1L._AC_SL1500_.jpg',
       alt: {
         fr: 'Sélection des meilleurs airfryers pas chers sous 100 euros en 2026',
         en: 'Selection of the best budget air fryers under 100 euros in 2026',

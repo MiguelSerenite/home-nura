@@ -363,7 +363,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
   }
 
   return (
-    <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans">
+    <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
       <Navbar currentLang={lang} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 

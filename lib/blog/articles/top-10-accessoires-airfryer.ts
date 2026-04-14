@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 11,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71MYfMjPPnL._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/41qK28Ln0PL._AC_SL1500_.jpg',
       alt: {
         fr: 'Accessoires indispensables pour airfryer : papier sulfurisé, grilles, moules en silicone',
         en: 'Essential air fryer accessories: parchment liners, racks, silicone moulds',

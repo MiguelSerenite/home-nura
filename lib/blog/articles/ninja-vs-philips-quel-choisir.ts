@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 15,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/61cFSBxbL8L._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/31upZSvSwjL._AC_SL1500_.jpg',
       alt: {
         fr: 'Comparaison airfryer Ninja vs Philips en 2026',
         en: 'Ninja vs Philips air fryer comparison 2026',

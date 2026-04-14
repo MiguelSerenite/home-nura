@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 11,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/81dMHkAL0aL._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/41sQIj0LwDL._AC_SL1500_.jpg',
       alt: {
         fr: 'Comparaison airfryer simple panier vs double panier',
         en: 'Single basket vs dual basket air fryer comparison',

@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 13,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/81dMHkAL0aL._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/41sQIj0LwDL._AC_SL1500_.jpg',
       alt: {
         fr: 'Ninja Foodi FlexDrawer 10,4L - vue de face avec le tiroir flexible ouvert',
         en: 'Ninja Foodi FlexDrawer 10.4L - front view with flexible drawer open',

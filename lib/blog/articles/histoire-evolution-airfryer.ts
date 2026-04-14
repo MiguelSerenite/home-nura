@@ -8,7 +8,7 @@ export const article: BlogArticle = {
   datePublished: '2026-01-01',
   dateModified: '2026-03-15',
   readingTime: 14,
-  images: [{ src: 'https://m.media-amazon.com/images/I/71-6Eu88JOL._AC_SL1500_.jpg', alt: { fr: 'Evolution des airfryers', en: 'Air fryer evolution', de: 'Evolution der Heißluftfritteusen', es: 'Evolución de las freidoras de aire', it: 'Evoluzione delle friggitrici ad aria', nl: 'Evolutie van airfryers' } }],
+  images: [{ src: 'https://m.media-amazon.com/images/I/41Hc43N6WlL._AC_SL1500_.jpg', alt: { fr: 'Evolution des airfryers', en: 'Air fryer evolution', de: 'Evolution der Heißluftfritteusen', es: 'Evolución de las freidoras de aire', it: 'Evoluzione delle friggitrici ad aria', nl: 'Evolutie van airfryers' } }],
   title: {
     fr: "L'Histoire et l'Évolution de l'Airfryer : De l'Invention à la Révolution Culinaire",
     en: 'The History and Evolution of the Air Fryer: From Invention to Kitchen Revolution',
@@ -29,7 +29,7 @@ export const article: BlogArticle = {
     fr: `<article>
 <h1>L'Histoire et l'Évolution de l'Airfryer : De l'Invention à la Révolution Culinaire</h1>
 
-<img src="https://m.media-amazon.com/images/I/71-6Eu88JOL._AC_SL1500_.jpg" alt="Evolution des airfryers" loading="lazy" />
+<img src="https://m.media-amazon.com/images/I/41Hc43N6WlL._AC_SL1500_.jpg" alt="Evolution des airfryers" loading="lazy" />
 
 <p>Peu d'appareils électroménagers ont autant transformé nos habitudes culinaires que l'airfryer. En l'espace de quinze ans, cette friteuse à air chaud est passée d'une curiosité technologique présentée dans un salon professionnel à un incontournable présent dans des millions de foyers à travers le monde. Comment en sommes-nous arrivés là ? Retour sur une histoire fascinante, marquée par l'innovation technologique, l'évolution des modes de vie et une véritable révolution dans notre façon de cuisiner.</p>
 
@@ -140,7 +140,7 @@ export const article: BlogArticle = {
     en: `<article>
 <h1>The History and Evolution of the Air Fryer: From Invention to Kitchen Revolution</h1>
 
-<img src="https://m.media-amazon.com/images/I/71-6Eu88JOL._AC_SL1500_.jpg" alt="Air fryer evolution" loading="lazy" />
+<img src="https://m.media-amazon.com/images/I/41Hc43N6WlL._AC_SL1500_.jpg" alt="Air fryer evolution" loading="lazy" />
 
 <p>Few kitchen appliances have transformed our cooking habits as profoundly as the air fryer. In just fifteen years, this hot-air cooking device has gone from a technological curiosity showcased at a trade fair to a household essential found in millions of homes worldwide. How did we get here? Let's trace this fascinating journey, shaped by technological innovation, evolving lifestyles, and a genuine revolution in how we cook.</p>
 
@@ -222,7 +222,7 @@ export const article: BlogArticle = {
     de: `<article>
 <h1>Die Geschichte und Entwicklung der Heißluftfritteuse: Von der Erfindung zur Küchenrevolution</h1>
 
-<img src="https://m.media-amazon.com/images/I/71-6Eu88JOL._AC_SL1500_.jpg" alt="Evolution der Heißluftfritteusen" loading="lazy" />
+<img src="https://m.media-amazon.com/images/I/41Hc43N6WlL._AC_SL1500_.jpg" alt="Evolution der Heißluftfritteusen" loading="lazy" />
 
 <p>Nur wenige Küchengeräte haben unsere Kochgewohnheiten so grundlegend verändert wie die Heißluftfritteuse. In nur fünfzehn Jahren hat sich dieses Heißluft-Kochgerät von einer auf einer Messe präsentierten technologischen Kuriosität zu einem unverzichtbaren Haushaltsgerät entwickelt, das in Millionen von Haushalten weltweit zu finden ist.</p>
 
@@ -283,7 +283,7 @@ export const article: BlogArticle = {
     es: `<article>
 <h1>La Historia y Evolución de la Freidora de Aire: De la Invención a la Revolución Culinaria</h1>
 
-<img src="https://m.media-amazon.com/images/I/71-6Eu88JOL._AC_SL1500_.jpg" alt="Evolución de las freidoras de aire" loading="lazy" />
+<img src="https://m.media-amazon.com/images/I/41Hc43N6WlL._AC_SL1500_.jpg" alt="Evolución de las freidoras de aire" loading="lazy" />
 
 <p>Pocos electrodomésticos han transformado nuestros hábitos culinarios tan profundamente como la freidora de aire. En solo quince años, este dispositivo de cocción por aire caliente ha pasado de ser una curiosidad tecnológica presentada en una feria profesional a un imprescindible presente en millones de hogares en todo el mundo.</p>
 
@@ -341,7 +341,7 @@ export const article: BlogArticle = {
     it: `<article>
 <h1>La Storia e l'Evoluzione della Friggitrice ad Aria: Dall'Invenzione alla Rivoluzione Culinaria</h1>
 
-<img src="https://m.media-amazon.com/images/I/71-6Eu88JOL._AC_SL1500_.jpg" alt="Evoluzione delle friggitrici ad aria" loading="lazy" />
+<img src="https://m.media-amazon.com/images/I/41Hc43N6WlL._AC_SL1500_.jpg" alt="Evoluzione delle friggitrici ad aria" loading="lazy" />
 
 <p>Pochi elettrodomestici hanno trasformato le nostre abitudini culinarie in modo così profondo come la friggitrice ad aria. In soli quindici anni, questo dispositivo di cottura ad aria calda è passato da curiosità tecnologica presentata in una fiera a un must-have presente in milioni di case in tutto il mondo.</p>
 
@@ -399,7 +399,7 @@ export const article: BlogArticle = {
     nl: `<article>
 <h1>De Geschiedenis en Evolutie van de Airfryer: Van Uitvinding tot Keukenrevolutie</h1>
 
-<img src="https://m.media-amazon.com/images/I/71-6Eu88JOL._AC_SL1500_.jpg" alt="Evolutie van airfryers" loading="lazy" />
+<img src="https://m.media-amazon.com/images/I/41Hc43N6WlL._AC_SL1500_.jpg" alt="Evolutie van airfryers" loading="lazy" />
 
 <p>Weinig keukenapparaten hebben onze kookgewoonten zo ingrijpend veranderd als de airfryer. In slechts vijftien jaar is dit hetelucht-kookapparaat uitgegroeid van een technologische curiositeit op een vakbeurs tot een onmisbaar huishoudapparaat dat in miljoenen huishoudens wereldwijd te vinden is.</p>
 

@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 14,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71-6Eu88JOL._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/41Hc43N6WlL._AC_SL1500_.jpg',
       alt: {
         fr: 'Philips Airfryer Combi XXL Connected 8,3L - vue de face avec écran couleur',
         en: 'Philips Airfryer Combi XXL Connected 8.3L - front view with colour display',

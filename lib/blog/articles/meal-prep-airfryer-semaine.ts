@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 15,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/81dMHkAL0aL._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/41sQIj0LwDL._AC_SL1500_.jpg',
       alt: {
         fr: 'Meal prep de la semaine avec des plats préparés à l\'airfryer dans des contenants',
         en: 'Weekly meal prep with air fryer prepared dishes in containers',

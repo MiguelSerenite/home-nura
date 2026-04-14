@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 13,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/61cFSBxbL8L._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/31upZSvSwjL._AC_SL1500_.jpg',
       alt: {
         fr: 'Poulet croustillant doré cuit à l\'airfryer',
         en: 'Golden crispy chicken cooked in an air fryer',

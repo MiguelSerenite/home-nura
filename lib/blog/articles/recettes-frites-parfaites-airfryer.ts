@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 12,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/81bq0atSJML._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/41CfTSLQprL._AC_SL1500_.jpg',
       alt: {
         fr: 'Frites croustillantes dorées cuites à l\'airfryer',
         en: 'Golden crispy fries cooked in an air fryer',

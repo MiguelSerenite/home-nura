@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 11,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/61Y-6vLxHtL._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/51eX4ilkMVL._AC_SL1500_.jpg',
       alt: {
         fr: 'Xiaomi Smart Air Fryer Pro 4L - vue de face design minimaliste blanc',
         en: 'Xiaomi Smart Air Fryer Pro 4L - front view minimalist white design',

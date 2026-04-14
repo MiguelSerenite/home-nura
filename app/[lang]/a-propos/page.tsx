@@ -261,7 +261,7 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
   const c = content[lang] || content.fr
 
   return (
-    <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans">
+    <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
       {/* Person JSON-LD Schema */}
       <script
         type="application/ld+json"

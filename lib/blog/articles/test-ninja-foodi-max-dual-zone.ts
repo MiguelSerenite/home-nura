@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 14,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/81bq0atSJML._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/41CfTSLQprL._AC_SL1500_.jpg',
       alt: {
         fr: 'Ninja Foodi MAX Double Stack XL 9,5L - vue de face avec les deux tiroirs ouverts',
         en: 'Ninja Foodi MAX Double Stack XL 9.5L - front view with both drawers open',

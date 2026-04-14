@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 14,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71-6Eu88JOL._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/41Hc43N6WlL._AC_SL1500_.jpg',
       alt: {
         fr: 'Comparatif des meilleurs airfryers connectes WiFi 2026',
         en: 'Comparison of the best WiFi connected air fryers 2026',

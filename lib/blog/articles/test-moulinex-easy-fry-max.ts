@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 12,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71w-jRACPlL._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/21z46vwmm1L._AC_SL1500_.jpg',
       alt: {
         fr: 'Moulinex Easy Fry Max 5L - vue de face design noir compact',
         en: 'Moulinex Easy Fry Max 5L - front view compact black design',

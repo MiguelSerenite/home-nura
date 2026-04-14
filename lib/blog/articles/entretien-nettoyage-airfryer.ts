@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 9,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/61Y-6vLxHtL._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/51eX4ilkMVL._AC_SL1500_.jpg',
       alt: {
         fr: 'Nettoyage et entretien d\'un airfryer avec éponge douce et brosse',
         en: 'Cleaning and maintaining an air fryer with soft sponge and brush',

@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 13,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/81dMHkAL0aL._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/41sQIj0LwDL._AC_SL1500_.jpg',
       alt: {
         fr: 'Les meilleurs airfryers XXL pour grande famille en 2026',
         en: 'The best XXL air fryers for large families in 2026',

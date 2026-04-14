@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 11,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71MYfMjPPnL._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/41qK28Ln0PL._AC_SL1500_.jpg',
       alt: {
         fr: 'Légumes grillés colorés cuits à l\'airfryer',
         en: 'Colourful grilled vegetables cooked in an air fryer',

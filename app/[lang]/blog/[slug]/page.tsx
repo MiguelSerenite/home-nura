@@ -106,7 +106,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
   )
 
   return (
-    <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans">
+    <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Navbar currentLang={lang} />
@@ -169,6 +169,9 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
             prose-table:border-collapse
             prose-th:bg-slate-50 prose-th:p-3 prose-th:text-left prose-th:font-bold prose-th:border prose-th:border-slate-200
             prose-td:p-3 prose-td:border prose-td:border-slate-200
+            [&_table]:block [&_table]:overflow-x-auto [&_table]:max-w-full
+            [&_img]:max-w-full [&_img]:h-auto
+            [&_pre]:overflow-x-auto [&_pre]:max-w-full
           "
           dangerouslySetInnerHTML={{ __html: content }}
         />

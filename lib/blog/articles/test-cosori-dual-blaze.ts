@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 13,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71MYfMjPPnL._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/41qK28Ln0PL._AC_SL1500_.jpg',
       alt: {
         fr: 'Cosori Dual Blaze Smart 6,4L - vue de face avec écran tactile allumé',
         en: 'Cosori Dual Blaze Smart 6.4L - front view with touchscreen display on',
