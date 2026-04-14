@@ -370,7 +370,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
       {/* Hero */}
       <section className="relative px-6 py-20 lg:py-28 overflow-hidden">
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-rose-600 uppercase bg-rose-50 rounded-full">
+          <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-600 uppercase bg-blue-50 rounded-full">
             VS 2026
           </span>
           <h1 className="text-4xl md:text-6xl font-black tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-slate-900 to-slate-600">

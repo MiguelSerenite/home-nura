@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 const countries = [
   { code: 'fr', flag: '🇫🇷', label: 'FR' },
@@ -12,11 +13,18 @@ const countries = [
 export default function Navbar({ currentLang }: { currentLang: string }) {
   return (
     <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
-      <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 h-24 flex items-center justify-between">
         {/* Logo + Nav */}
         <div className="flex items-center gap-6">
-          <Link href={`/${currentLang}`} className="text-xl font-black tracking-tighter">
-            HOME <span className="text-blue-600">NURA</span>
+          <Link href={`/${currentLang}`} className="flex items-center" aria-label="Home Nura">
+            <Image
+              src="/logo.png"
+              alt="Home Nura"
+              width={1400}
+              height={400}
+              priority
+              className="h-20 w-auto"
+            />
           </Link>
           <div className="hidden md:flex items-center gap-4 text-sm font-medium text-slate-500">
             <Link href={`/${currentLang}/guides/airfryers`} className="hover:text-blue-600 transition-colors">Guide</Link>

@@ -94,6 +94,7 @@ export default async function RootLayout({
     '@type': 'Organization',
     name: 'Home Nura',
     url: BASE_URL,
+    logo: `${BASE_URL}/logo.png`,
     description: metaDescriptions[lang] || metaDescriptions.fr,
     foundingDate: '2024-01-15',
     areaServed: LANGUAGES.map(l => ({
