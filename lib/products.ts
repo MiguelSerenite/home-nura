@@ -453,12 +453,32 @@ export const staticProducts: StaticProduct[] = [
   },
 ]
 
+// Amazon CDN image IDs whose first character is 2, 3, or 4 are the clean
+// "hero" product shots on a white background (the canonical product images
+// the seller uploads). IDs starting with 5/6/7/8/9 are Amazon A+ / lifestyle
+// content — they contain embedded marketing banners, people, promotional
+// stickers ("DESIGN OPTIMISÉ", "1er Inventeur", etc.) which look terrible
+// in our product cards. Filter them out so every product shows clean shots.
+function isCleanProductShot(imgUrl: string): boolean {
+  const match = imgUrl.match(/\/I\/([^.]+)\./)
+  if (!match) return true
+  const firstChar = match[1][0]
+  return firstChar === '2' || firstChar === '3' || firstChar === '4'
+}
+
+function cleanImages(urls: string[]): string[] {
+  const cleaned = urls.filter(isCleanProductShot)
+  // Safety net: if filtering wipes everything out, fall back to the first
+  // original URL so the card never ends up image-less.
+  return cleaned.length > 0 ? cleaned : urls.slice(0, 1)
+}
+
 export function getStaticProducts(lang: string) {
   const tag = partnerTags[lang] || partnerTags.fr
   const domain = domains[lang] || domains.fr
 
   return staticProducts.map((p) => {
-    const langImages = p.images[lang] || p.images.fr
+    const langImages = cleanImages(p.images[lang] || p.images.fr)
     const mainImage = langImages[0].replace('SL1500', 'SL500')
 
     return {
