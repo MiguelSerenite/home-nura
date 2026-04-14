@@ -79,15 +79,8 @@ export function ProductImageCarousel({
         onMouseEnter={() => setIsHovering(true)}
         onMouseLeave={() => setIsHovering(false)}
       >
-        {/* Badge */}
-        {badge && (
-          <div className="absolute top-4 right-4 z-10 bg-red-600 text-white px-3 py-1 rounded-md text-sm font-semibold shadow-md">
-            {badge}
-          </div>
-        )}
-
         {/* Image Slides */}
-        <div className="relative w-full h-full z-10">
+        <div className="relative w-full h-full">
           {images.map((image, index) => (
             <div
               key={index}
@@ -107,6 +100,13 @@ export function ProductImageCarousel({
             </div>
           ))}
         </div>
+
+        {/* Badge - placed after images so it always stacks on top */}
+        {badge && (
+          <div className="absolute top-4 right-4 z-30 bg-red-600 text-white px-3 py-1 rounded-md text-sm font-semibold shadow-md whitespace-nowrap">
+            {badge}
+          </div>
+        )}
 
         {/* Navigation Arrows */}
         {!hasSingleSlide && (
