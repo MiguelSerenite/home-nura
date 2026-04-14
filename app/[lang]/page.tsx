@@ -252,12 +252,18 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       </section>
 
       {/* Guide CTA */}
-      <section className="max-w-3xl mx-auto px-6 pb-16 text-center">
+      <section className="max-w-3xl mx-auto px-6 pb-16 text-center flex flex-col sm:flex-row items-center justify-center gap-4">
         <Link
           href={`/${lang}/guides/airfryers`}
           className="inline-flex items-center gap-2 px-8 py-4 bg-slate-900 text-white font-bold rounded-full hover:bg-slate-800 transition-colors"
         >
           {dict.guide_title} &rarr;
+        </Link>
+        <Link
+          href={`/${lang}/blog`}
+          className="inline-flex items-center gap-2 px-8 py-4 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition-colors"
+        >
+          {lang === 'fr' ? 'Nos articles & recettes' : lang === 'de' ? 'Artikel & Rezepte' : lang === 'es' ? 'Artículos y recetas' : lang === 'it' ? 'Articoli e ricette' : lang === 'nl' ? 'Artikelen & recepten' : 'Articles & recipes'} &rarr;
         </Link>
       </section>
 
@@ -269,6 +275,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-sm text-slate-400">{dict.affiliate_disclaimer}</p>
           <div className="mt-6 flex flex-wrap justify-center gap-6 text-xs font-medium text-slate-400">
+            <Link href={`/${lang}/blog`} className="hover:text-slate-600 transition-colors">
+              Blog
+            </Link>
             <Link href={`/${lang}/a-propos`} className="hover:text-slate-600 transition-colors">
               {dict.about_link}
             </Link>

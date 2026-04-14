@@ -13,10 +13,19 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
   return (
     <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
-        {/* Logo */}
-        <Link href={`/${currentLang}`} className="text-xl font-black tracking-tighter">
-          HOME <span className="text-blue-600">NURA</span>
-        </Link>
+        {/* Logo + Nav */}
+        <div className="flex items-center gap-6">
+          <Link href={`/${currentLang}`} className="text-xl font-black tracking-tighter">
+            HOME <span className="text-blue-600">NURA</span>
+          </Link>
+          <div className="hidden md:flex items-center gap-4 text-sm font-medium text-slate-500">
+            <Link href={`/${currentLang}/guides/airfryers`} className="hover:text-blue-600 transition-colors">Guide</Link>
+            <Link href={`/${currentLang}/blog`} className="hover:text-blue-600 transition-colors">Blog</Link>
+            <Link href={`/${currentLang}/a-propos`} className="hover:text-blue-600 transition-colors">
+              {currentLang === 'fr' ? 'À propos' : currentLang === 'de' ? 'Über uns' : currentLang === 'es' ? 'Sobre' : currentLang === 'it' ? 'Chi siamo' : currentLang === 'nl' ? 'Over ons' : 'About'}
+            </Link>
+          </div>
+        </div>
 
         {/* Sélecteur de pays - UX Optimisée */}
         <div className="flex items-center gap-2 md:gap-4 bg-slate-50 p-1 rounded-full border border-slate-100">

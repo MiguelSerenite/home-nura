@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next'
+import { getAllArticles } from '@/lib/blog'
 
 const BASE_URL = 'https://homenura.com'
 const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl']
@@ -12,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/politique-cookies', priority: 0.3, changeFrequency: 'yearly' as const, lastModified: '2026-01-10' },
     { path: '/a-propos', priority: 0.5, changeFrequency: 'monthly' as const, lastModified: '2026-03-15' },
     { path: '/guides/airfryer-vs-four', priority: 0.8, changeFrequency: 'monthly' as const, lastModified: '2026-04-08' },
+    { path: '/blog', priority: 0.7, changeFrequency: 'weekly' as const, lastModified: '2026-04-14' },
   ]
 
   const entries: MetadataRoute.Sitemap = []
@@ -26,6 +28,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
         alternates: {
           languages: Object.fromEntries(
             LANGUAGES.map(l => [l, `${BASE_URL}/${l}${page.path}`])
+          ),
+        },
+      })
+    }
+  }
+
+  // Add all blog articles dynamically
+  const articles = getAllArticles()
+  for (const article of articles) {
+    for (const lang of LANGUAGES) {
+      entries.push({
+        url: `${BASE_URL}/${lang}/blog/${article.slug}`,
+        lastModified: new Date(article.dateModified),
+        changeFrequency: 'monthly',
+        priority: 0.6,
+        alternates: {
+          languages: Object.fromEntries(
+            LANGUAGES.map(l => [l, `${BASE_URL}/${l}/blog/${article.slug}`])
           ),
         },
       })
