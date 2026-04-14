@@ -77,10 +77,10 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
             onClick={close}
           >
             <Image
-              src="/favicon-mark.png"
+              src="/logo.png"
               alt="Home Nura"
-              width={512}
-              height={512}
+              width={1400}
+              height={400}
               priority
               className="h-20 md:h-24 w-auto"
             />
