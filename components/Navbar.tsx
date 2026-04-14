@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -9,6 +11,13 @@ const countries = [
   { code: 'it', flag: '🇮🇹', label: 'IT' },
   { code: 'nl', flag: '🇳🇱', label: 'NL' },
 ]
+
+// Persist the user's explicit locale choice so the middleware stops
+// auto-negotiating on the next visit to /.
+function rememberLocale(code: string) {
+  if (typeof document === 'undefined') return
+  document.cookie = `NEXT_LOCALE=${code}; path=/; max-age=${60 * 60 * 24 * 365}; SameSite=Lax`
+}
 
 export default function Navbar({ currentLang }: { currentLang: string }) {
   return (
@@ -41,6 +50,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
             <Link
               key={c.code}
               href={`/${c.code}`}
+              onClick={() => rememberLocale(c.code)}
               className={`flex items-center gap-1 px-2 py-1 rounded-full transition-all text-xs font-bold ${
                 currentLang === c.code
                 ? 'bg-white shadow-sm text-blue-600 scale-105'
