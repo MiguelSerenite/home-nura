@@ -550,6 +550,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
     badge: p.badge,
     pros: p.pros,
     cons: p.cons,
+    asin: p.asin,
   }))
 
   // Comparison table dictionary
@@ -836,7 +837,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
               price={product.price}
               imageUrl={product.image}
               affiliateLink={product.url}
-              rating={5}
+              asin={product.asin}
               buyButtonText={dict.buy_button}
               badge={product.badge}
               lang={lang}
@@ -850,6 +851,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
         <ComparisonTable
           products={comparisonProducts}
           dict={tableDict}
+          lang={lang}
         />
       </section>
 

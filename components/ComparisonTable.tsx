@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useMemo } from 'react'
+import GoogleReviewBadge from './GoogleReviewBadge'
 
 interface ComparisonProduct {
   name: string
@@ -14,10 +15,12 @@ interface ComparisonProduct {
   badge?: string
   pros: string[]
   cons: string[]
+  asin: string
 }
 
 interface ComparisonTableProps {
   products: ComparisonProduct[]
+  lang?: string
   dict: {
     table_title: string
     table_subtitle: string
@@ -39,7 +42,7 @@ interface ComparisonTableProps {
   }
 }
 
-export default function ComparisonTable({ products, dict }: ComparisonTableProps) {
+export default function ComparisonTable({ products, dict, lang = 'fr' }: ComparisonTableProps) {
   const [sortBy, setSortBy] = useState<'score' | 'price_asc' | 'price_desc'>('score')
   const [expandedRow, setExpandedRow] = useState<number | null>(null)
 
@@ -129,6 +132,9 @@ export default function ComparisonTable({ products, dict }: ComparisonTableProps
                     </div>
                     <div>
                       <h3 className="font-bold text-slate-900 text-sm leading-tight">{p.name}</h3>
+                      <div className="mt-1">
+                        <GoogleReviewBadge asin={p.asin} lang={lang} size="sm" />
+                      </div>
                       {p.badge && (
                         <span className="inline-block mt-1 px-2 py-0.5 text-[10px] font-bold bg-amber-100 text-amber-700 rounded-full">
                           {p.badge}
@@ -179,6 +185,9 @@ export default function ComparisonTable({ products, dict }: ComparisonTableProps
                 </div>
                 <div className="flex-1 min-w-0">
                   <h3 className="font-bold text-slate-900 text-sm leading-tight">{p.name}</h3>
+                  <div className="mt-1.5">
+                    <GoogleReviewBadge asin={p.asin} lang={lang} size="sm" />
+                  </div>
                   <div className="flex items-center gap-2 mt-2">
                     <div className={`inline-flex items-center gap-1 px-2 py-1 rounded-full border text-xs ${getScoreBg(p.nuraScore)}`}>
                       <div className={`w-2 h-2 rounded-full ${getScoreColor(p.nuraScore)}`} />

@@ -72,6 +72,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     pros: p.pros,
     cons: p.cons,
     images: p.images,
+    asin: p.asin,
   }))
 
   // Comparison table dictionary
@@ -216,7 +217,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               price={product.price}
               imageUrl={product.image}
               affiliateLink={product.url}
-              rating={5}
+              asin={product.asin}
               buyButtonText={dict.buy_button}
               badge={product.badge}
               lang={lang}
@@ -230,6 +231,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         <ComparisonTable
           products={comparisonProducts}
           dict={tableDict}
+          lang={lang}
         />
       </section>
 

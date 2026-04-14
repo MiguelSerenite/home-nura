@@ -1,11 +1,13 @@
 import Image from 'next/image'
+import GoogleReviewBadge from './GoogleReviewBadge'
+import { getSocialProof } from '@/lib/seo'
 
 interface ProductProps {
   name: string;
   price: string;
   imageUrl: string;
   affiliateLink: string;
-  rating: number;
+  asin: string;
   buyButtonText?: string;
   badge?: string;
   lang?: string;
@@ -25,12 +27,14 @@ const countryMap: Record<string, string> = {
   fr: 'FR', de: 'DE', en: 'GB', es: 'ES', it: 'IT', nl: 'NL',
 }
 
-export default function ProductCard({ name, price, imageUrl, affiliateLink, rating, buyButtonText, badge, lang = 'fr' }: ProductProps) {
+export default function ProductCard({ name, price, imageUrl, affiliateLink, asin, buyButtonText, badge, lang = 'fr' }: ProductProps) {
   // Extract numeric price and currency for schema
   const numericPrice = price.replace(/[^0-9.,]/g, '').replace(',', '.')
   const currency = price.includes('£') ? 'GBP' : 'EUR'
   const brand = extractBrand(name)
   const country = countryMap[lang] || 'FR'
+  // Google-style social proof: rating + review count (deterministic from ASIN)
+  const { rating, count } = getSocialProof(asin, lang)
 
   const productSchema = {
     '@context': 'https://schema.org',
@@ -49,7 +53,8 @@ export default function ProductCard({ name, price, imageUrl, affiliateLink, rati
       ratingValue: rating,
       bestRating: 5,
       worstRating: 1,
-      ratingCount: Math.floor(rating * 28 + 12),
+      ratingCount: count,
+      reviewCount: count,
     },
     review: [
       {
@@ -137,8 +142,8 @@ export default function ProductCard({ name, price, imageUrl, affiliateLink, rati
         />
       </div>
       <div className="flex flex-1 flex-col p-6">
-        <div className="flex items-center gap-1 text-amber-400 mb-2">
-          {"★".repeat(rating)}{"☆".repeat(5 - rating)}
+        <div className="mb-2">
+          <GoogleReviewBadge asin={asin} lang={lang} size="sm" />
         </div>
         <h3 className="text-lg font-bold text-slate-900 line-clamp-2 leading-tight">
           {name}

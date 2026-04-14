@@ -10,7 +10,7 @@ const publisher = {
   rcs: 'Paris 500 511 373',
   siret: '500 511 373 00044',
   vat: 'FR30 500 511 373',
-  publicationDirector: 'Miguel MM',
+  publicationDirector: 'Miguel MARIE',
   phone: '+33 1 77 35 50 71',
   email: 'contact@homenura.com',
   website: 'https://homenura.com',
