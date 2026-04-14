@@ -67,9 +67,9 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
 
   return (
     <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
-      <div className="max-w-7xl mx-auto px-4 h-28 md:h-24 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 h-24 md:h-28 flex items-center justify-between">
         {/* Logo + Nav */}
-        <div className="flex items-center gap-6 min-w-0">
+        <div className="flex items-center gap-4 md:gap-6 min-w-0">
           <Link
             href={`/${currentLang}`}
             className="flex items-center shrink-0"
@@ -77,12 +77,12 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
             onClick={close}
           >
             <Image
-              src="/logo.png"
+              src="/favicon-mark.png"
               alt="Home Nura"
-              width={1400}
-              height={400}
+              width={512}
+              height={512}
               priority
-              className="h-24 md:h-20 w-auto"
+              className="h-20 md:h-24 w-auto"
             />
           </Link>
           <div className="hidden md:flex items-center gap-4 text-sm font-medium text-slate-500">
@@ -147,12 +147,12 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
             type="button"
             aria-label="Fermer le menu"
             onClick={close}
-            className="md:hidden fixed inset-0 top-28 bg-slate-900/30 backdrop-blur-sm z-40"
+            className="md:hidden fixed inset-0 top-24 md:top-28 bg-slate-900/30 backdrop-blur-sm z-40"
           />
           {/* Panel */}
           <div
             id="mobile-menu"
-            className="md:hidden absolute left-0 right-0 top-28 z-50 bg-white border-b border-slate-200 shadow-lg"
+            className="md:hidden absolute left-0 right-0 top-24 md:top-28 z-50 bg-white border-b border-slate-200 shadow-lg"
           >
             <div className="max-w-7xl mx-auto px-4 py-6 flex flex-col gap-2">
               <Link
