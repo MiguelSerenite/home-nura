@@ -2,8 +2,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Navbar from '@/components/Navbar'
 import CookieBanner from '@/components/CookieBanner'
+import ArticleProductCTA from '@/components/ArticleProductCTA'
 import { getDictionary } from '../../dictionaries'
 import { getArticleBySlug, getRelatedArticles, getAllSlugs } from '@/lib/blog'
+import { getStaticProducts } from '@/lib/products'
+import { enrichContentWithCTAs } from '@/lib/blog/enrichContent'
 import { CATEGORIES } from '@/lib/blog/types'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
@@ -57,8 +60,13 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
 
   const dict = await getDictionary(lang)
   const related = getRelatedArticles(article)
+  const products = getStaticProducts(lang)
+  const topProducts = products.slice(0, 3).map(p => ({
+    title: p.title, price: p.price, image: p.image, url: p.url, nuraScore: p.nuraScore, capacity: p.capacity,
+  }))
   const title = article.title[lang] || article.title.fr
-  const content = article.content[lang] || article.content.fr
+  const rawContent = article.content[lang] || article.content.fr
+  const content = enrichContentWithCTAs(rawContent, lang)
   const excerpt = article.excerpt[lang] || article.excerpt.fr
   const categoryLabel = CATEGORIES[article.category]?.[lang] || CATEGORIES[article.category]?.fr
 
@@ -176,6 +184,9 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
           dangerouslySetInnerHTML={{ __html: content }}
         />
 
+        {/* Inline Product CTA - top pick */}
+        <ArticleProductCTA products={topProducts.slice(0, 1)} lang={lang} variant="inline" />
+
         {/* Pillar Link */}
         <div className="mt-12 p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl border border-blue-100">
           <p className="text-sm font-bold text-blue-900 mb-2">
@@ -185,6 +196,9 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
             {lang === 'fr' ? 'Voir le guide complet des airfryers 2026 →' : lang === 'de' ? 'Zum kompletten Airfryer-Ratgeber 2026 →' : lang === 'es' ? 'Ver la guía completa de freidoras 2026 →' : lang === 'it' ? 'Vai alla guida completa 2026 →' : lang === 'nl' ? 'Naar de complete airfryer-gids 2026 →' : 'See the complete air fryer guide 2026 →'}
           </Link>
         </div>
+
+        {/* Product Recommendations CTA */}
+        <ArticleProductCTA products={topProducts} lang={lang} variant="bottom" />
 
         {/* Related Articles */}
         {related.length > 0 && (

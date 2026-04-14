@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 interface ProductProps {
   name: string;
   price: string;
@@ -124,14 +126,14 @@ export default function ProductCard({ name, price, imageUrl, affiliateLink, rati
           {badge}
         </div>
       )}
-      <div className="aspect-square overflow-hidden bg-slate-100">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+      <div className="aspect-square overflow-hidden bg-slate-100 relative">
+        <Image
           src={imageUrl}
           alt={name}
-          referrerPolicy="no-referrer"
+          fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          className="object-contain p-4 transition-transform duration-300 group-hover:scale-105"
           loading="lazy"
-          className="h-full w-full object-contain p-4 transition-transform duration-300 group-hover:scale-105"
         />
       </div>
       <div className="flex flex-1 flex-col p-6">

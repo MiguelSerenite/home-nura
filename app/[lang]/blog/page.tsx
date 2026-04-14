@@ -183,13 +183,40 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
         )
       })}
 
-      {/* CTA to main comparatif */}
-      <section className="max-w-3xl mx-auto px-6 py-16 text-center">
+      {/* Internal Links Grid - Maillage */}
+      <section className="max-w-7xl mx-auto px-6 py-12 border-t border-slate-100">
+        <h2 className="text-2xl font-bold mb-6">
+          {lang === 'fr' ? 'Guides populaires' : lang === 'de' ? 'Beliebte Ratgeber' : lang === 'es' ? 'Guías populares' : lang === 'it' ? 'Guide popolari' : lang === 'nl' ? 'Populaire gidsen' : 'Popular Guides'}
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <Link href={`/${lang}/guides/airfryers`} className="p-4 bg-white rounded-xl border border-slate-200 hover:shadow-md hover:-translate-y-0.5 transition-all">
+            <p className="text-sm font-bold text-slate-900">{lang === 'fr' ? 'Guide complet des airfryers 2026' : lang === 'de' ? 'Kompletter Airfryer-Ratgeber 2026' : lang === 'es' ? 'Guía completa de freidoras 2026' : lang === 'it' ? 'Guida completa airfryer 2026' : lang === 'nl' ? 'Complete airfryer-gids 2026' : 'Complete air fryer guide 2026'}</p>
+            <p className="text-xs text-slate-400 mt-1">{lang === 'fr' ? 'Notre comparatif expert des 9 meilleurs modèles' : 'Our expert comparison of the 9 best models'}</p>
+          </Link>
+          <Link href={`/${lang}/guides/airfryer-vs-four`} className="p-4 bg-white rounded-xl border border-slate-200 hover:shadow-md hover:-translate-y-0.5 transition-all">
+            <p className="text-sm font-bold text-slate-900">{lang === 'fr' ? 'Airfryer vs four traditionnel' : lang === 'de' ? 'Airfryer vs Backofen' : lang === 'es' ? 'Freidora de aire vs horno' : lang === 'it' ? 'Airfryer vs forno' : lang === 'nl' ? 'Airfryer vs oven' : 'Air fryer vs oven'}</p>
+            <p className="text-xs text-slate-400 mt-1">{lang === 'fr' ? 'Comparatif détaillé des performances' : 'Detailed performance comparison'}</p>
+          </Link>
+          <Link href={`/${lang}`} className="p-4 bg-white rounded-xl border border-slate-200 hover:shadow-md hover:-translate-y-0.5 transition-all">
+            <p className="text-sm font-bold text-slate-900">{lang === 'fr' ? 'Nos meilleurs choix 2026' : lang === 'de' ? 'Unsere Top-Auswahl 2026' : lang === 'es' ? 'Nuestras mejores opciones 2026' : lang === 'it' ? 'Le nostre scelte migliori 2026' : lang === 'nl' ? 'Onze beste keuzes 2026' : 'Our top picks 2026'}</p>
+            <p className="text-xs text-slate-400 mt-1">{lang === 'fr' ? 'Comparatif avec prix et scores Nura' : 'Comparison with prices and Nura scores'}</p>
+          </Link>
+        </div>
+      </section>
+
+      {/* CTA to main comparatif + homepage */}
+      <section className="max-w-3xl mx-auto px-6 py-16 text-center flex flex-col sm:flex-row items-center justify-center gap-4">
         <Link
           href={`/${lang}/guides/airfryers`}
           className="inline-flex items-center gap-2 px-8 py-4 bg-slate-900 text-white font-bold rounded-full hover:bg-slate-800 transition-colors"
         >
           {dict.guide_title || 'Guide Complet des Airfryers 2026'} &rarr;
+        </Link>
+        <Link
+          href={`/${lang}`}
+          className="inline-flex items-center gap-2 px-8 py-4 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition-colors"
+        >
+          {lang === 'fr' ? 'Voir le comparatif' : lang === 'de' ? 'Zum Vergleich' : lang === 'es' ? 'Ver comparativa' : lang === 'it' ? 'Vedi confronto' : lang === 'nl' ? 'Bekijk vergelijking' : 'See comparison'} &rarr;
         </Link>
       </section>
 
