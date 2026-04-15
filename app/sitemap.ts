@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '', priority: 1.0, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/guides/airfryers', priority: 0.9, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/guides/airfryer-vs-four', priority: 0.8, changeFrequency: 'monthly' as const, lastModified: today },
+    { path: '/guides/cuisine-connectee', priority: 0.9, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/comparateur', priority: 0.85, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/cuisine-connectee', priority: 0.85, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/cuisine-connectee/comparateur', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: today },
