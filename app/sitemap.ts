@@ -6,6 +6,7 @@ import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import {
   getIndexableSilos,
   getIndexableCategories,
+  getPersonasForSilo,
   BUYER_PERSONAS,
   PROBLEMS,
 } from '@/lib/catalog'
@@ -79,6 +80,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       lastModified: today,
     })),
+    // Phase HH: Moteur 4 — "meilleur X pour Y" best-for pages. Every
+    // (indexable category × applicable persona) pair answers a direct
+    // purchase-intent query, so these get the highest non-cornerstone
+    // priority in the sitemap. Personas are filtered per silo so we
+    // never emit nonsense pairs like "best alarm for vegan family".
+    ...getIndexableCategories().flatMap((cat) =>
+      getPersonasForSilo(cat.metaSilo).map((persona) => ({
+        path: `/${cat.metaSilo}/${cat.slug}/meilleur-pour/${persona.slug}`,
+        priority: 0.8,
+        changeFrequency: 'weekly' as const,
+        lastModified: today,
+      }))
+    ),
     // Legal pages (mentions-legales, politique-confidentialite,
     // politique-cookies) are intentionally omitted — they're noindex'd
     // via per-page meta robots so there's no point pointing crawlers
