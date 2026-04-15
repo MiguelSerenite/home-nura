@@ -35,6 +35,8 @@ import {
   buildPageMetadata,
   buildBreadcrumbListSchema,
   buildClusterItemListSchema,
+  buildArticleSchema,
+  SITE_LAST_UPDATED_ISO,
 } from '@/lib/seo'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import FaqSection from '@/components/FaqSection'
@@ -203,6 +205,25 @@ export default async function ProblemGuidePage({
     { name: content.title, path: `/guides/probleme/${prob.slug}` },
   ])
 
+  // Phase EEE: emit TechArticle JSON-LD so every troubleshooting page
+  // ships a proper editorial-content signal (author, publisher, dates,
+  // section). Google deprecated HowTo rich results in 2023 but
+  // TechArticle is still the correct schema.org type for a technical
+  // repair guide, and LLM crawlers use it heavily for citation ranking.
+  // Zero new URLs — pure schema enrichment across 1026 pages.
+  const articleSchema = buildArticleSchema({
+    lang: safeLang,
+    path: `/guides/probleme/${prob.slug}`,
+    title: content.title,
+    description: content.diagnosis,
+    image: '/og-image.png',
+    imageAlt: content.title,
+    datePublished: '2026-02-01',
+    dateModified: SITE_LAST_UPDATED_ISO,
+    articleType: 'TechArticle',
+    articleSection: ui.troubleshooting,
+  })
+
   // Phase OO: expose the sibling cluster as a schema.org ItemList.
   // Each ListItem wraps a full absolute URL so crawlers can walk the
   // whole cluster without needing to parse the DOM for anchors.
@@ -227,6 +248,12 @@ export default async function ProblemGuidePage({
         nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        nonce={nonce}
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
       {siblingClusterSchema && (
         <script
