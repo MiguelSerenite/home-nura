@@ -3,7 +3,12 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getNonce } from '@/lib/nonce'
-import { buildPageMetadata } from '@/lib/seo'
+import { buildPageMetadata, buildClusterItemListSchema } from '@/lib/seo'
+import {
+  getCategory,
+  getPersonasForSilo,
+} from '@/lib/catalog'
+import type { Lang } from '@/lib/i18n'
 import ProductCard from '@/components/ProductCard'
 import FaqSection from '@/components/FaqSection'
 import {
@@ -282,6 +287,43 @@ const categoryContent: Record<string, CategoryDict> = {
   },
 }
 
+// Phase OO: per-locale strings for the best-for persona cluster that
+// cross-links the flagship category page into the Moteur 4
+// /meilleur-pour/[persona] conversion layer. Kept as a tiny
+// standalone dict so we don't duplicate these across every category.
+const bestForUiStrings: Record<string, { title: string; prefix: string; subtitle: string }> = {
+  fr: {
+    title: 'Trouvez le meilleur selon votre profil',
+    prefix: 'Le meilleur pour',
+    subtitle: 'Notre classement est repondéré selon votre situation : capacité, budget, usage, contrainte.',
+  },
+  en: {
+    title: 'Find the best one for your profile',
+    prefix: 'The best for',
+    subtitle: 'Our ranking is reweighted to your situation: capacity, budget, usage, constraint.',
+  },
+  de: {
+    title: 'Finden Sie das Beste für Ihr Profil',
+    prefix: 'Das Beste für',
+    subtitle: 'Unser Ranking wird neu gewichtet: Kapazität, Budget, Nutzung, Einschränkung.',
+  },
+  es: {
+    title: 'Encuentra el mejor según tu perfil',
+    prefix: 'El mejor para',
+    subtitle: 'Nuestro ranking se reequilibra según tu situación: capacidad, presupuesto, uso, restricción.',
+  },
+  it: {
+    title: 'Trova il migliore secondo il tuo profilo',
+    prefix: 'Il migliore per',
+    subtitle: 'La nostra classifica viene ripondera: capacità, budget, uso, vincolo.',
+  },
+  nl: {
+    title: 'Vind de beste voor uw profiel',
+    prefix: 'De beste voor',
+    subtitle: 'Onze ranking wordt opnieuw gewogen: capaciteit, budget, gebruik, beperking.',
+  },
+}
+
 export function generateStaticParams() {
   return SMART_KITCHEN_CATEGORIES.flatMap((category) =>
     SUPPORTED_LANGS.map((lang) => ({ lang, category }))
@@ -314,7 +356,9 @@ export default async function CategoryPage({
   params: Promise<{ lang: string; category: string }>
 }) {
   const { lang, category } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang: Lang = (SUPPORTED_LANGS as readonly string[]).includes(lang)
+    ? (lang as Lang)
+    : 'fr'
   if (!(SMART_KITCHEN_CATEGORIES as readonly string[]).includes(category)) {
     notFound()
   }
@@ -325,6 +369,16 @@ export default async function CategoryPage({
   const products = getSmartKitchenProductsByCategory(safeLang, safeCat)
   const faqs = getSmartKitchenFaqs(safeLang, safeCat)
   const faqTitle = faqSectionTitles[safeLang] || faqSectionTitles.fr
+
+  // Phase OO: resolve the best-for persona cluster for this flagship
+  // category via the shared catalog so the route stays in sync with
+  // Moteur 4 — one click sends a buyer from the product grid into
+  // the exact /meilleur-pour/[persona] page that matches them.
+  const catalogCategory = getCategory(safeCat)
+  const bestForPersonas = catalogCategory?.indexable
+    ? getPersonasForSilo('cuisine-connectee').slice(0, 9)
+    : []
+  const bestForUi = bestForUiStrings[safeLang] || bestForUiStrings.fr
 
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
@@ -348,6 +402,25 @@ export default async function CategoryPage({
     })),
   }
 
+  // Phase OO: second ItemList — the best-for persona cluster.
+  // Each ListItem carries a url pointing into the Moteur 4 page, so
+  // crawlers can walk the entire persona cluster without parsing the
+  // DOM. Only emitted when the catalog recognises this flagship
+  // category as indexable (prevents orphan URLs in production).
+  const bestForClusterSchema =
+    bestForPersonas.length > 0
+      ? buildClusterItemListSchema({
+          lang: safeLang,
+          path: `/cuisine-connectee/${safeCat}`,
+          name: `${bestForUi.title} — ${c.title}`,
+          description: bestForUi.subtitle,
+          items: bestForPersonas.map((persona) => ({
+            name: `${bestForUi.prefix} ${c.kicker.toLowerCase()} — ${persona.label[safeLang]}`,
+            path: `/cuisine-connectee/${safeCat}/meilleur-pour/${persona.slug}`,
+          })),
+        })
+      : null
+
   return (
     <div className="min-h-screen bg-white">
       <script
@@ -362,6 +435,14 @@ export default async function CategoryPage({
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
+      {bestForClusterSchema && (
+        <script
+          type="application/ld+json"
+          nonce={nonce}
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(bestForClusterSchema) }}
+        />
+      )}
       <Navbar currentLang={safeLang} />
 
       <main id="main">
@@ -416,6 +497,35 @@ export default async function CategoryPage({
           </div>
         )}
       </section>
+
+      {/* Phase OO: best-for persona cluster — cross-links to Moteur 4 */}
+      {bestForPersonas.length > 0 && (
+        <section className="max-w-6xl mx-auto px-4 md:px-6 pb-16">
+          <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-3">
+            {bestForUi.title}
+          </h2>
+          <p className="text-sm text-slate-500 mb-6 max-w-2xl">
+            {bestForUi.subtitle}
+          </p>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {bestForPersonas.map((persona) => (
+              <li key={persona.slug}>
+                <Link
+                  href={`/${safeLang}/cuisine-connectee/${safeCat}/meilleur-pour/${persona.slug}`}
+                  className="group flex flex-col rounded-2xl border border-slate-200 bg-white px-5 py-4 transition duration-200 hover:border-blue-200 hover:shadow-sm"
+                >
+                  <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-blue-600 mb-1">
+                    {bestForUi.prefix} {c.kicker.toLowerCase()}
+                  </span>
+                  <span className="text-base font-semibold text-slate-900 group-hover:text-blue-700 transition-colors">
+                    {persona.label[safeLang]}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {/* FAQ — category-specific, emits FAQPage JSON-LD */}
       <FaqSection faqs={faqs} title={faqTitle} nonce={nonce} />

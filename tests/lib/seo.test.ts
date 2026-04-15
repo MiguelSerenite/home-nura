@@ -6,6 +6,7 @@ import {
   buildBreadcrumbListSchema,
   buildFaqPageSchema,
   buildBestForItemListSchema,
+  buildClusterItemListSchema,
   getSocialProof,
   formatLastUpdated,
   SITE_LAST_UPDATED_ISO,
@@ -606,5 +607,78 @@ describe('buildBestForItemListSchema', () => {
     const s = buildBestForItemListSchema({ ...baseInput, criteria: [] })
     expect(s.numberOfItems).toBe(0)
     expect(s.itemListElement.length).toBe(0)
+  })
+})
+
+describe('buildClusterItemListSchema', () => {
+  const baseInput = {
+    lang: 'fr',
+    path: '/cuisine-connectee/airfryers',
+    name: 'Trouvez le meilleur selon votre profil — Airfryers',
+    description: 'Sélection repondérée par profil.',
+    items: [
+      { name: 'Meilleur airfryer pour famille 4 personnes', path: '/cuisine-connectee/airfryers/meilleur-pour/famille-4-personnes' },
+      { name: 'Meilleur airfryer pour étudiant', path: '/cuisine-connectee/airfryers/meilleur-pour/etudiant' },
+      { name: 'Meilleur airfryer pour petit budget', path: '/cuisine-connectee/airfryers/meilleur-pour/petit-budget' },
+    ],
+  }
+
+  it('returns a well-formed ItemList with Ascending order', () => {
+    const s = buildClusterItemListSchema(baseInput)
+    expect(s['@context']).toBe('https://schema.org')
+    expect(s['@type']).toBe('ItemList')
+    expect(s.itemListOrder).toBe('https://schema.org/ItemListOrderAscending')
+    expect(s.numberOfItems).toBe(3)
+  })
+
+  it('builds an absolute URL for the parent page', () => {
+    const s = buildClusterItemListSchema(baseInput)
+    expect(s.url).toBe(`${BASE_URL}/fr/cuisine-connectee/airfryers`)
+  })
+
+  it('builds absolute URLs per ListItem with language prefix', () => {
+    const s = buildClusterItemListSchema(baseInput)
+    s.itemListElement.forEach((el, i) => {
+      expect(el['@type']).toBe('ListItem')
+      expect(el.position).toBe(i + 1)
+      expect(el.url).toBe(`${BASE_URL}/fr${baseInput.items[i].path}`)
+      expect(el.name).toBe(baseInput.items[i].name)
+    })
+  })
+
+  it('emits dateModified from SITE_LAST_UPDATED_ISO', () => {
+    const s = buildClusterItemListSchema(baseInput)
+    expect(s.dateModified).toBe(SITE_LAST_UPDATED_ISO)
+  })
+
+  it('normalises item paths missing a leading slash', () => {
+    const s = buildClusterItemListSchema({
+      ...baseInput,
+      items: [{ name: 'X', path: 'cuisine-connectee/airfryers/meilleur-pour/x' }],
+    })
+    expect(s.itemListElement[0].url).toBe(
+      `${BASE_URL}/fr/cuisine-connectee/airfryers/meilleur-pour/x`
+    )
+  })
+
+  it('falls back to fr when given an unknown lang', () => {
+    const s = buildClusterItemListSchema({ ...baseInput, lang: 'xx' })
+    expect(s.url).toContain('/fr/')
+    expect(s.itemListElement[0].url).toContain('/fr/')
+  })
+
+  it('handles an empty items list (numberOfItems = 0)', () => {
+    const s = buildClusterItemListSchema({ ...baseInput, items: [] })
+    expect(s.numberOfItems).toBe(0)
+    expect(s.itemListElement.length).toBe(0)
+  })
+
+  it('emits a different locale prefix for each lang', () => {
+    const de = buildClusterItemListSchema({ ...baseInput, lang: 'de' })
+    const it = buildClusterItemListSchema({ ...baseInput, lang: 'it' })
+    expect(de.url).toContain('/de/')
+    expect(it.url).toContain('/it/')
+    expect(de.itemListElement[0].url).toContain('/de/')
+    expect(it.itemListElement[0].url).toContain('/it/')
   })
 })

@@ -27,7 +27,7 @@ import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getNonce } from '@/lib/nonce'
-import { buildBreadcrumbListSchema } from '@/lib/seo'
+import { buildBreadcrumbListSchema, buildClusterItemListSchema } from '@/lib/seo'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import FaqSection from '@/components/FaqSection'
 import {
@@ -156,6 +156,25 @@ export default async function CategoryHub({
     ? getPersonasForSilo(siloSlug).slice(0, 9)
     : []
 
+  // Phase OO: emit the best-for cluster as a schema.org ItemList so
+  // search engines and LLM crawlers can walk the entire persona
+  // cluster from one structured payload rather than parsing the DOM
+  // for anchor tags. Only indexable categories emit this — empty
+  // bestForPersonas list means no ItemList on the page.
+  const clusterItemListSchema =
+    bestForPersonas.length > 0
+      ? buildClusterItemListSchema({
+          lang: safeLang,
+          path: `/${silo.slug}/${category.slug}`,
+          name: ui.bestForTitle,
+          description: `${ui.bestForPrefix} ${categoryTitle.toLowerCase()}`,
+          items: bestForPersonas.map((persona) => ({
+            name: `${ui.bestForPrefix} ${categoryTitle.toLowerCase()} — ${persona.label[safeLang]}`,
+            path: `/${silo.slug}/${category.slug}/meilleur-pour/${persona.slug}`,
+          })),
+        })
+      : null
+
   return (
     <div className="min-h-screen bg-white">
       <script
@@ -164,6 +183,14 @@ export default async function CategoryHub({
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {clusterItemListSchema && (
+        <script
+          type="application/ld+json"
+          nonce={nonce}
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(clusterItemListSchema) }}
+        />
+      )}
 
       <Navbar currentLang={safeLang} />
 

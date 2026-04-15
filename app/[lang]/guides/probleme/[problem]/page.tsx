@@ -34,12 +34,14 @@ import { getNonce } from '@/lib/nonce'
 import {
   buildPageMetadata,
   buildBreadcrumbListSchema,
+  buildClusterItemListSchema,
 } from '@/lib/seo'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import FaqSection from '@/components/FaqSection'
 import {
   PROBLEMS,
   getProblem,
+  getProblemsByCategory,
   getCategory,
   getMetaSilo,
   getProblemContent,
@@ -55,6 +57,9 @@ interface ProblemUi {
   quickFixTitle: string
   faqTitle: string
   methodologyCta: string
+  /** Phase OO: sibling-problem cluster heading. */
+  relatedProblemsTitle: string
+  relatedProblemsSubtitle: string
 }
 
 const uiStrings: Record<Lang, ProblemUi> = {
@@ -66,6 +71,8 @@ const uiStrings: Record<Lang, ProblemUi> = {
     quickFixTitle: 'Procédure recommandée',
     faqTitle: 'Questions fréquentes',
     methodologyCta: 'Lire notre méthodologie',
+    relatedProblemsTitle: 'Autres pannes fréquentes sur cette catégorie',
+    relatedProblemsSubtitle: 'Ces autres incidents touchent le même type d\'appareil — diagnostic et procédure recommandée pour chacun.',
   },
   en: {
     home: 'Home',
@@ -75,6 +82,8 @@ const uiStrings: Record<Lang, ProblemUi> = {
     quickFixTitle: 'Recommended procedure',
     faqTitle: 'Frequently asked questions',
     methodologyCta: 'Read our methodology',
+    relatedProblemsTitle: 'Other common failures on this category',
+    relatedProblemsSubtitle: 'These incidents affect the same type of appliance — diagnosis and recommended procedure for each.',
   },
   de: {
     home: 'Start',
@@ -84,6 +93,8 @@ const uiStrings: Record<Lang, ProblemUi> = {
     quickFixTitle: 'Empfohlene Vorgehensweise',
     faqTitle: 'Häufige Fragen',
     methodologyCta: 'Zur Methodik',
+    relatedProblemsTitle: 'Weitere häufige Störungen dieser Kategorie',
+    relatedProblemsSubtitle: 'Diese Vorfälle betreffen denselben Gerätetyp — Diagnose und empfohlene Vorgehensweise pro Problem.',
   },
   es: {
     home: 'Inicio',
@@ -93,6 +104,8 @@ const uiStrings: Record<Lang, ProblemUi> = {
     quickFixTitle: 'Procedimiento recomendado',
     faqTitle: 'Preguntas frecuentes',
     methodologyCta: 'Leer nuestra metodología',
+    relatedProblemsTitle: 'Otras averías frecuentes en esta categoría',
+    relatedProblemsSubtitle: 'Estos incidentes afectan al mismo tipo de aparato — diagnóstico y procedimiento recomendado para cada uno.',
   },
   it: {
     home: 'Home',
@@ -102,6 +115,8 @@ const uiStrings: Record<Lang, ProblemUi> = {
     quickFixTitle: 'Procedura consigliata',
     faqTitle: 'Domande frequenti',
     methodologyCta: 'Leggi la nostra metodologia',
+    relatedProblemsTitle: 'Altri guasti frequenti su questa categoria',
+    relatedProblemsSubtitle: 'Questi incidenti riguardano lo stesso tipo di apparecchio — diagnosi e procedura consigliata per ciascuno.',
   },
   nl: {
     home: 'Home',
@@ -111,6 +126,8 @@ const uiStrings: Record<Lang, ProblemUi> = {
     quickFixTitle: 'Aanbevolen procedure',
     faqTitle: 'Veelgestelde vragen',
     methodologyCta: 'Lees onze methodologie',
+    relatedProblemsTitle: 'Andere veelvoorkomende storingen in deze categorie',
+    relatedProblemsSubtitle: 'Deze incidenten treffen hetzelfde type apparaat — diagnose en aanbevolen procedure per probleem.',
   },
 }
 
@@ -169,12 +186,39 @@ export default async function ProblemGuidePage({
 
   const categoryHref = `/${safeLang}/${silo.slug}/${category.slug}`
 
+  // Phase OO: sibling-problem cluster. Every problem on a given
+  // category cross-links to its siblings so the troubleshooting
+  // cluster is walkable from any entry point. Phase KK expanded
+  // PROBLEMS to 5 per cuisine-connectee category → each page now
+  // surfaces 4 sibling links at minimum. This is the strongest
+  // internal-link signal search engines get for Moteur 3.
+  const siblingProblems = getProblemsByCategory(prob.categorySlug).filter(
+    (p) => p.slug !== prob.slug
+  )
+
   const breadcrumbSchema = buildBreadcrumbListSchema(safeLang, [
     { name: ui.home, path: '' },
     { name: ui.guides, path: '/guides' },
     { name: ui.troubleshooting, path: '/guides/probleme' },
     { name: content.title, path: `/guides/probleme/${prob.slug}` },
   ])
+
+  // Phase OO: expose the sibling cluster as a schema.org ItemList.
+  // Each ListItem wraps a full absolute URL so crawlers can walk the
+  // whole cluster without needing to parse the DOM for anchors.
+  const siblingClusterSchema =
+    siblingProblems.length > 0
+      ? buildClusterItemListSchema({
+          lang: safeLang,
+          path: `/guides/probleme/${prob.slug}`,
+          name: `${ui.relatedProblemsTitle} — ${category.title[safeLang]}`,
+          description: ui.relatedProblemsSubtitle,
+          items: siblingProblems.map((sibling) => ({
+            name: sibling.query[safeLang],
+            path: `/guides/probleme/${sibling.slug}`,
+          })),
+        })
+      : null
 
   return (
     <div className="min-h-screen bg-white">
@@ -184,6 +228,14 @@ export default async function ProblemGuidePage({
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {siblingClusterSchema && (
+        <script
+          type="application/ld+json"
+          nonce={nonce}
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siblingClusterSchema) }}
+        />
+      )}
 
       <Navbar currentLang={safeLang} />
 
@@ -255,7 +307,7 @@ export default async function ProblemGuidePage({
         </section>
 
         {/* Back to category — reinforces internal link graph */}
-        <section className="max-w-3xl mx-auto px-6 pb-16">
+        <section className="max-w-3xl mx-auto px-6 pb-12">
           <Link
             href={categoryHref}
             className="inline-flex items-center gap-2 text-sm font-semibold text-blue-700 hover:text-blue-800"
@@ -266,6 +318,35 @@ export default async function ProblemGuidePage({
             </span>
           </Link>
         </section>
+
+        {/* Phase OO: sibling-problem cluster — internal link graph */}
+        {siblingProblems.length > 0 && (
+          <section className="max-w-6xl mx-auto px-4 md:px-6 pb-16">
+            <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-3">
+              {ui.relatedProblemsTitle}
+            </h2>
+            <p className="text-sm text-slate-500 mb-6 max-w-2xl">
+              {ui.relatedProblemsSubtitle}
+            </p>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {siblingProblems.map((sibling) => (
+                <li key={sibling.slug}>
+                  <Link
+                    href={`/${safeLang}/guides/probleme/${sibling.slug}`}
+                    className="group flex flex-col rounded-2xl border border-slate-200 bg-white px-5 py-4 transition duration-200 hover:border-blue-200 hover:shadow-sm"
+                  >
+                    <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-blue-600 mb-1">
+                      {category.title[safeLang]}
+                    </span>
+                    <span className="text-base font-semibold text-slate-900 group-hover:text-blue-700 transition-colors">
+                      {sibling.query[safeLang]}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {/* FAQ (emits FAQPage JSON-LD) */}
         <FaqSection faqs={faqEntries} title={ui.faqTitle} nonce={nonce} />

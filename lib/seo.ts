@@ -297,6 +297,65 @@ export function buildBestForItemListSchema(input: BuildBestForItemListInput) {
 }
 
 // ---------------------------------------------------------------------
+// Cluster ItemList builder for internal link hubs (Phase OO)
+//
+// Produces an ItemList in the "summary" form Google supports for
+// grouped URL clusters — each ListItem has a position + url + name
+// without embedding a full Product or Thing node. Used by CategoryHub
+// to declare its best-for persona cluster, and by problem pages to
+// declare sibling problems within the same category. Makes the
+// internal-link cluster crawl-friendly: search engines can walk the
+// entire cluster from a single ItemList blob rather than parsing the
+// page DOM for anchor tags.
+//
+// Unlike buildBestForItemListSchema (criteria-as-Thing, no URLs),
+// this one is URL-centric: every ListItem must carry a path that
+// resolves inside the same lang prefix as the parent page.
+// ---------------------------------------------------------------------
+
+interface ClusterItem {
+  name: string
+  /** Path inside the lang prefix, starting with '/'. */
+  path: string
+}
+
+interface BuildClusterItemListInput {
+  lang: string
+  /** Path of the parent page hosting the cluster. */
+  path: string
+  /** Cluster headline — becomes ItemList.name. */
+  name: string
+  description: string
+  items: ClusterItem[]
+}
+
+export function buildClusterItemListSchema(
+  input: BuildClusterItemListInput
+) {
+  const { lang, path, name, description, items } = input
+  const safeLang: Lang = isValidLang(lang) ? lang : 'fr'
+  const normalise = (p: string) => (p.startsWith('/') ? p : `/${p}`)
+  const pageUrl = `${BASE_URL}/${safeLang}${normalise(path)}`
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name,
+    description,
+    url: pageUrl,
+    numberOfItems: items.length,
+    itemListOrder: 'https://schema.org/ItemListOrderAscending',
+    dateModified: SITE_LAST_UPDATED_ISO,
+    itemListElement: items.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${BASE_URL}/${safeLang}${normalise(item.path)}`,
+      name: item.name,
+    })),
+  }
+}
+
+// ---------------------------------------------------------------------
 // Article schema builder (Phase T)
 //
 // Produces a schema.org Article / ReviewArticle / TechArticle JSON-LD
