@@ -1,6 +1,7 @@
 import { getDictionary } from './dictionaries'
 import ProductCard from '@/components/ProductCard'
 import ProductImageCarousel from '@/components/ProductImageCarousel'
+import AffiliateLink from '@/components/AffiliateLink'
 import Navbar from '@/components/Navbar'
 import FaqSection from '@/components/FaqSection'
 import NewsletterForm from '@/components/NewsletterForm'
@@ -199,10 +200,18 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                       {product.nuraScore}/10
                     </span>
                   </div>
-                  <a href={product.url} target="_blank" rel="nofollow noopener noreferrer"
-                    className="block w-full rounded-full bg-blue-600 px-4 py-3 text-center text-sm font-bold text-white transition-colors hover:bg-blue-700">
+                  <AffiliateLink
+                    href={product.url}
+                    asin={product.asin}
+                    productName={product.title}
+                    priceNumeric={product.priceNumeric}
+                    position={i + 1}
+                    location="product_card"
+                    lang={lang}
+                    className="block w-full rounded-full bg-blue-600 px-4 py-3 text-center text-sm font-bold text-white transition-colors hover:bg-blue-700"
+                  >
                     {dict.buy_button}
-                  </a>
+                  </AffiliateLink>
                 </div>
               </div>
             ))}

@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { trackEvent, EVENTS } from '@/lib/analytics'
 
 interface Labels {
   title: string
@@ -112,11 +113,13 @@ export default function NewsletterForm({ currentLang }: { currentLang: string })
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(trimmed)) {
       setStatus('error')
       setErrorMsg(t.errorInvalid)
+      trackEvent(EVENTS.NEWSLETTER_ERROR, { lang: currentLang, reason: 'invalid_email' })
       return
     }
 
     setStatus('loading')
     setErrorMsg('')
+    trackEvent(EVENTS.NEWSLETTER_SUBMIT, { lang: currentLang })
     try {
       const res = await fetch('/api/newsletter', {
         method: 'POST',
@@ -126,16 +129,24 @@ export default function NewsletterForm({ currentLang }: { currentLang: string })
       if (res.ok) {
         setStatus('success')
         setEmail('')
+        trackEvent(EVENTS.NEWSLETTER_SUCCESS, { lang: currentLang })
       } else if (res.status === 429) {
         setStatus('error')
         setErrorMsg(t.errorRateLimited)
+        trackEvent(EVENTS.NEWSLETTER_ERROR, { lang: currentLang, reason: 'rate_limited' })
       } else {
         setStatus('error')
         setErrorMsg(t.errorGeneric)
+        trackEvent(EVENTS.NEWSLETTER_ERROR, {
+          lang: currentLang,
+          reason: 'server_error',
+          status: res.status,
+        })
       }
     } catch {
       setStatus('error')
       setErrorMsg(t.errorGeneric)
+      trackEvent(EVENTS.NEWSLETTER_ERROR, { lang: currentLang, reason: 'network_error' })
     }
   }
 

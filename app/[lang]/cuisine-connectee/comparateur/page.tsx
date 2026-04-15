@@ -90,6 +90,7 @@ export default async function SmartKitchenComparatorPage({ params }: { params: P
     asin: p.asin,
     title: p.title,
     price: p.price,
+    priceNumeric: p.priceNumeric,
     image: p.image,
     url: p.url,
     nuraScore: p.nuraScore,

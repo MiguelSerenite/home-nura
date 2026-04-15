@@ -4,6 +4,7 @@ import FaqSection from '@/components/FaqSection'
 import ProductCard from '@/components/ProductCard'
 import ProductImageCarousel from '@/components/ProductImageCarousel'
 import ComparisonTable from '@/components/ComparisonTable'
+import AffiliateLink from '@/components/AffiliateLink'
 import CookieBanner from '@/components/CookieBanner'
 import { getStaticProducts } from '@/lib/products'
 import { buildProductListSchema, formatLastUpdated, lastUpdatedLabel, SITE_LAST_UPDATED_ISO, buildPageMetadata } from '@/lib/seo'
@@ -675,10 +676,18 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
                     {product.nuraScore}/10
                   </span>
                 </div>
-                <a href={product.url} target="_blank" rel="nofollow noopener noreferrer"
-                  className="block w-full rounded-full bg-blue-600 px-4 py-2.5 text-center text-sm font-bold text-white hover:bg-blue-700 transition-colors">
+                <AffiliateLink
+                  href={product.url}
+                  asin={product.asin}
+                  productName={product.title}
+                  priceNumeric={product.priceNumeric}
+                  position={i + 1}
+                  location="product_card"
+                  lang={lang}
+                  className="block w-full rounded-full bg-blue-600 px-4 py-2.5 text-center text-sm font-bold text-white hover:bg-blue-700 transition-colors"
+                >
                   {content.verdict_title ? dict?.buy_button || 'Voir sur Amazon' : 'Voir sur Amazon'}
-                </a>
+                </AffiliateLink>
               </div>
             </div>
           ))}
@@ -817,10 +826,18 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
                 <h3 className="text-sm font-bold text-slate-900 mb-1 line-clamp-2">{product.title}</h3>
                 <div className="flex items-center justify-between">
                   <span className="text-lg font-black">{product.price}</span>
-                  <a href={product.url} target="_blank" rel="nofollow noopener noreferrer"
-                    className="px-4 py-1.5 bg-blue-600 text-white text-xs font-bold rounded-full hover:bg-blue-700 transition-colors">
+                  <AffiliateLink
+                    href={product.url}
+                    asin={product.asin}
+                    productName={product.title}
+                    priceNumeric={product.priceNumeric}
+                    position={i + 1}
+                    location="article_bottom"
+                    lang={lang}
+                    className="px-4 py-1.5 bg-blue-600 text-white text-xs font-bold rounded-full hover:bg-blue-700 transition-colors"
+                  >
                     Amazon
-                  </a>
+                  </AffiliateLink>
                 </div>
               </div>
             </div>

@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import GoogleReviewBadge from './GoogleReviewBadge'
+import AffiliateLink from './AffiliateLink'
 import { getSocialProof } from '@/lib/seo'
 import { getNonce } from '@/lib/nonce'
 
@@ -14,6 +15,7 @@ interface ProductProps {
   lang?: string;
   capacity?: string;
   bestFor?: string;
+  position?: number;
 }
 
 // Extract brand from product name
@@ -30,10 +32,11 @@ const countryMap: Record<string, string> = {
   fr: 'FR', de: 'DE', en: 'GB', es: 'ES', it: 'IT', nl: 'NL',
 }
 
-export default async function ProductCard({ name, price, imageUrl, affiliateLink, asin, buyButtonText, badge, lang = 'fr', capacity, bestFor }: ProductProps) {
+export default async function ProductCard({ name, price, imageUrl, affiliateLink, asin, buyButtonText, badge, lang = 'fr', capacity, bestFor, position }: ProductProps) {
   const nonce = await getNonce()
   // Extract numeric price and currency for schema
   const numericPrice = price.replace(/[^0-9.,]/g, '').replace(',', '.')
+  const priceForTracking = parseFloat(numericPrice)
   const currency = price.includes('£') ? 'GBP' : 'EUR'
   const brand = extractBrand(name)
   const country = countryMap[lang] || 'FR'
@@ -160,14 +163,18 @@ export default async function ProductCard({ name, price, imageUrl, affiliateLink
         <p className="mt-4 text-2xl font-black text-slate-900">
           {price}
         </p>
-        <a
+        <AffiliateLink
           href={affiliateLink}
-          target="_blank"
-          rel="nofollow noopener noreferrer"
+          asin={asin}
+          productName={name}
+          priceNumeric={Number.isFinite(priceForTracking) ? priceForTracking : undefined}
+          position={position}
+          location="product_card"
+          lang={lang}
           className="mt-6 block w-full rounded-full bg-blue-600 px-4 py-3 text-center text-sm font-bold text-white transition-colors hover:bg-blue-700"
         >
           {buyButtonText || 'Vérifier le prix sur Amazon'}
-        </a>
+        </AffiliateLink>
       </div>
     </div>
   );

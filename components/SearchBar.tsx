@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { trackEvent, EVENTS } from '@/lib/analytics'
 
 interface SearchableProduct {
   title: string
@@ -120,11 +121,31 @@ export default function SearchBar({
     return () => window.removeEventListener('keydown', handler)
   }, [open])
 
-  const handleOpen = () => setOpen(true)
+  const handleOpen = () => {
+    setOpen(true)
+    trackEvent(EVENTS.SEARCH_OPEN, { lang: currentLang, variant })
+  }
   const handleClose = () => {
     setOpen(false)
     setQuery('')
   }
+
+  // Debounce query-tracking so we don't fire a SEARCH_QUERY event on every
+  // keystroke. 500 ms after the last change, if the trimmed query has ≥ 2
+  // chars, record it with the number of client-side matches.
+  useEffect(() => {
+    if (!open) return
+    const q = query.trim()
+    if (q.length < 2) return
+    const timer = setTimeout(() => {
+      trackEvent(EVENTS.SEARCH_QUERY, {
+        query: q.toLowerCase(),
+        results: results.length,
+        lang: currentLang,
+      })
+    }, 500)
+    return () => clearTimeout(timer)
+  }, [query, open, results.length, currentLang])
 
   const handleResultClick = () => {
     handleClose()

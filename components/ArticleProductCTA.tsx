@@ -1,9 +1,14 @@
+'use client'
+
 import Image from 'next/image'
 import Link from 'next/link'
+import { trackAffiliateClick } from '@/lib/analytics'
 
 interface Product {
+  asin: string
   title: string
   price: string
+  priceNumeric: number
   image: string
   url: string
   nuraScore: number
@@ -84,6 +89,16 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom' }
           href={p.url}
           target="_blank"
           rel="nofollow noopener noreferrer"
+          onClick={() =>
+            trackAffiliateClick({
+              asin: p.asin,
+              productName: p.title,
+              priceNumeric: p.priceNumeric,
+              position: 1,
+              location: 'article_inline',
+              lang,
+            })
+          }
           className="flex-shrink-0 px-5 py-2.5 bg-blue-600 text-white text-sm font-bold rounded-full hover:bg-blue-700 transition-colors whitespace-nowrap"
         >
           {labels.button} →
@@ -113,6 +128,16 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom' }
               href={p.url}
               target="_blank"
               rel="nofollow noopener noreferrer"
+              onClick={() =>
+                trackAffiliateClick({
+                  asin: p.asin,
+                  productName: p.title,
+                  priceNumeric: p.priceNumeric,
+                  position: i + 1,
+                  location: 'article_bottom',
+                  lang,
+                })
+              }
               className="w-full px-4 py-2.5 bg-blue-600 text-white text-sm font-bold rounded-full hover:bg-blue-700 transition-colors text-center block"
             >
               {labels.button} →

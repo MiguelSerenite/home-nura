@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import type { SmartKitchenCategory, SmartKitchenProduct } from '@/lib/smart-kitchen-products'
+import { trackAffiliateClick, trackEvent, EVENTS } from '@/lib/analytics'
 
 type PainPoint = 'time' | 'precision' | 'monitoring' | 'automation' | 'safety'
 type UseFrequency = 'daily' | 'often' | 'weekends' | 'rarely'
@@ -266,16 +267,41 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
   const [step, setStep] = useState<1 | 2 | 3>(1)
   const [painPoint, setPainPoint] = useState<PainPoint | null>(null)
   const [frequency, setFrequency] = useState<UseFrequency | null>(null)
+  // Fire quiz_start/quiz_complete at most once per visit so the analytics
+  // funnel isn't polluted by users bouncing between steps.
+  const [started, setStarted] = useState(false)
+  const [completed, setCompleted] = useState(false)
 
-  const pick = <T extends string>(setter: (v: T) => void, nextStep: 1 | 2 | 3) => (v: T) => {
-    setter(v)
-    setStep(nextStep)
+  const pickPain = (v: PainPoint) => {
+    if (!started) {
+      trackEvent(EVENTS.QUIZ_START, { lang: currentLang, quiz: 'smart_kitchen' })
+      setStarted(true)
+    }
+    setPainPoint(v)
+    setStep(2)
+  }
+
+  const pickFrequency = (v: UseFrequency) => {
+    setFrequency(v)
+    setStep(3)
+    if (!completed && painPoint) {
+      trackEvent(EVENTS.QUIZ_COMPLETE, {
+        lang: currentLang,
+        quiz: 'smart_kitchen',
+        pain_point: painPoint,
+        frequency: v,
+        recommended_category: painToCategory[painPoint],
+      })
+      setCompleted(true)
+    }
   }
 
   const restart = () => {
     setPainPoint(null)
     setFrequency(null)
     setStep(1)
+    setStarted(false)
+    setCompleted(false)
   }
 
   // STEP 3: results
@@ -299,7 +325,7 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mb-10">
-          {products.map((p) => (
+          {products.map((p, i) => (
             <div
               key={p.asin}
               className="flex flex-col rounded-2xl border border-slate-200 bg-white p-5 hover:shadow-md transition-shadow"
@@ -321,7 +347,17 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
                 href={p.url}
                 target="_blank"
                 rel="nofollow noopener noreferrer"
-                className="mt-auto block w-full rounded-full bg-blue-600 px-3 py-2.5 text-center text-xs font-bold text-white hover:bg-blue-700 transition-colors"
+                onClick={() =>
+                  trackAffiliateClick({
+                    asin: p.asin,
+                    productName: p.title,
+                    priceNumeric: p.priceNumeric,
+                    position: i + 1,
+                    location: 'smart_kitchen',
+                    lang: currentLang,
+                  })
+                }
+                className="mt-auto block w-full rounded-full bg-blue-600 px-3 py-2.5 text-center text-xs font-bold text-white hover:bg-blue-700 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
               >
                 {dict.ctaBuy}
               </a>
@@ -382,8 +418,8 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
               type="button"
               onClick={() =>
                 step === 1
-                  ? pick<PainPoint>(setPainPoint, 2)(opt.value as PainPoint)
-                  : pick<UseFrequency>(setFrequency, 3)(opt.value as UseFrequency)
+                  ? pickPain(opt.value as PainPoint)
+                  : pickFrequency(opt.value as UseFrequency)
               }
               className={`flex items-center gap-4 p-5 rounded-2xl border-2 text-left transition duration-200 ${
                 isSelected

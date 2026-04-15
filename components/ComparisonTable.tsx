@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import GoogleReviewBadge from './GoogleReviewBadge'
+import { trackAffiliateClick } from '@/lib/analytics'
 
 interface ComparisonProduct {
   name: string
@@ -162,6 +163,16 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                     href={p.url}
                     target="_blank"
                     rel="nofollow noopener noreferrer"
+                    onClick={() =>
+                      trackAffiliateClick({
+                        asin: p.asin,
+                        productName: p.name,
+                        priceNumeric: p.priceNumeric,
+                        position: i + 1,
+                        location: 'comparison_table',
+                        lang,
+                      })
+                    }
                     className="inline-flex px-5 py-2 bg-blue-600 text-white text-xs font-bold rounded-full hover:bg-blue-700 transition-colors"
                   >
                     {dict.buy_button}
@@ -207,6 +218,16 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                   href={p.url}
                   target="_blank"
                   rel="nofollow noopener noreferrer"
+                  onClick={() =>
+                    trackAffiliateClick({
+                      asin: p.asin,
+                      productName: p.name,
+                      priceNumeric: p.priceNumeric,
+                      position: i + 1,
+                      location: 'comparison_table',
+                      lang,
+                    })
+                  }
                   className="px-5 py-2.5 bg-blue-600 text-white text-xs font-bold rounded-full hover:bg-blue-700 transition-colors"
                 >
                   {dict.buy_button}

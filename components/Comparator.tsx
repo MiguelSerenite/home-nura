@@ -2,11 +2,13 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
+import { trackAffiliateClick, trackEvent, EVENTS } from '@/lib/analytics'
 
 interface ComparatorProduct {
   asin: string
   title: string
   price: string
+  priceNumeric?: number
   image: string
   url: string
   nuraScore: number
@@ -126,7 +128,13 @@ export default function Comparator({
   const setSlot = (index: number, asin: string | null) => {
     setSlots((prev) => {
       const next = [...prev]
+      const previous = next[index]
       next[index] = asin
+      if (asin && asin !== previous) {
+        trackEvent(EVENTS.COMPARATOR_ADD, { asin, slot: index, lang: currentLang })
+      } else if (!asin && previous) {
+        trackEvent(EVENTS.COMPARATOR_REMOVE, { asin: previous, slot: index, lang: currentLang })
+      }
       return next
     })
   }
@@ -211,6 +219,16 @@ export default function Comparator({
                       href={product.url}
                       target="_blank"
                       rel="nofollow noopener noreferrer"
+                      onClick={() =>
+                        trackAffiliateClick({
+                          asin: product.asin,
+                          productName: product.title,
+                          priceNumeric: product.priceNumeric,
+                          position: index + 1,
+                          location: 'comparator',
+                          lang: currentLang,
+                        })
+                      }
                       className="mt-5 block w-full rounded-full bg-blue-600 px-4 py-3 text-center text-xs md:text-sm font-bold text-white hover:bg-blue-700 transition-colors"
                     >
                       {t.viewOnAmazon}

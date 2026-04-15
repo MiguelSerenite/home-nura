@@ -67,7 +67,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
   const related = getRelatedArticles(article)
   const products = getStaticProducts(lang)
   const topProducts = products.slice(0, 3).map(p => ({
-    title: p.title, price: p.price, image: p.image, url: p.url, nuraScore: p.nuraScore, capacity: p.capacity,
+    asin: p.asin, title: p.title, price: p.price, priceNumeric: p.priceNumeric, image: p.image, url: p.url, nuraScore: p.nuraScore, capacity: p.capacity,
   }))
   const title = article.title[lang] || article.title.fr
   const rawContent = article.content[lang] || article.content.fr

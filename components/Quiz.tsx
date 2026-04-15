@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from 'react'
 import Image from 'next/image'
+import { trackAffiliateClick, trackEvent, EVENTS } from '@/lib/analytics'
 
 interface QuizProduct {
   asin: string
@@ -354,6 +355,10 @@ export default function Quiz({ products, currentLang }: QuizProps) {
     budget: null,
     priority: null,
   })
+  // Track whether we've fired the quiz_start event yet so users flipping back
+  // and forth between questions don't spam analytics with duplicate starts.
+  const [started, setStarted] = useState(false)
+  const [completed, setCompleted] = useState(false)
 
   const totalSteps = 3
 
@@ -371,13 +376,44 @@ export default function Quiz({ products, currentLang }: QuizProps) {
   }, [answers, products])
 
   const handlePick = <K extends keyof Answers>(key: K, value: NonNullable<Answers[K]>) => {
-    setAnswers((a) => ({ ...a, [key]: value }))
+    if (!started) {
+      trackEvent(EVENTS.QUIZ_START, { lang: currentLang })
+      setStarted(true)
+    }
+    setAnswers((a) => {
+      const next = { ...a, [key]: value }
+      // Fire QUIZ_COMPLETE exactly once when all three answers are in — do it
+      // here rather than in a useEffect so the event fires in the same tick
+      // as the click, keeping it inside the user-gesture for analytics beacons.
+      if (!completed && next.household && next.budget && next.priority) {
+        const complete: CompleteAnswers = {
+          household: next.household,
+          budget: next.budget,
+          priority: next.priority,
+        }
+        const ranked = [...products]
+          .map((p) => ({ p, score: scoreProduct(p, complete) }))
+          .sort((a, b) => b.score - a.score)
+        const winner = ranked[0]?.p
+        trackEvent(EVENTS.QUIZ_COMPLETE, {
+          lang: currentLang,
+          household: next.household,
+          budget: next.budget,
+          priority: next.priority,
+          recommended_asin: winner?.asin,
+        })
+        setCompleted(true)
+      }
+      return next
+    })
     setStep((s) => Math.min(s + 1, totalSteps))
   }
 
   const restart = () => {
     setStep(0)
     setAnswers({ household: null, budget: null, priority: null })
+    setStarted(false)
+    setCompleted(false)
   }
 
   const goBack = () => setStep((s) => Math.max(0, s - 1))
@@ -470,7 +506,17 @@ export default function Quiz({ products, currentLang }: QuizProps) {
                       href={recommendation.url}
                       target="_blank"
                       rel="nofollow noopener noreferrer"
-                      className="block w-full rounded-full bg-blue-600 px-5 py-3 text-sm font-bold text-white hover:bg-blue-700 transition-colors"
+                      onClick={() =>
+                        trackAffiliateClick({
+                          asin: recommendation.asin,
+                          productName: recommendation.title,
+                          priceNumeric: recommendation.priceNumeric,
+                          position: 1,
+                          location: 'article_inline',
+                          lang: currentLang,
+                        })
+                      }
+                      className="block w-full rounded-full bg-blue-600 px-5 py-3 text-sm font-bold text-white hover:bg-blue-700 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2"
                     >
                       {t.seePrice}
                     </a>

@@ -77,6 +77,7 @@ export default async function ComparateurPage({ params }: { params: Promise<{ la
     asin: p.asin,
     title: p.title,
     price: p.price,
+    priceNumeric: p.priceNumeric,
     image: p.image,
     url: p.url,
     nuraScore: p.nuraScore,
