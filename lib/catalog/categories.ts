@@ -1404,7 +1404,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'aspirateurs-robots',
     metaSilo: 'entretien-maison',
     searchVolume: 'high',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Aspirateurs Robots',
       en: 'Robot Vacuums',
@@ -1434,7 +1434,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'aspirateurs-laveurs',
     metaSilo: 'entretien-maison',
     searchVolume: 'high',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Aspirateurs Laveurs Robots',
       en: 'Vacuum-Mop Robots',
@@ -1464,7 +1464,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'laveurs-vitres',
     metaSilo: 'entretien-maison',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Laveurs de Vitres Robotisés',
       en: 'Window Cleaning Robots',
@@ -1494,7 +1494,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'aspirateurs-balais',
     metaSilo: 'entretien-maison',
     searchVolume: 'high',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Aspirateurs Balais Sans Fil',
       en: 'Cordless Stick Vacuums',
@@ -1524,7 +1524,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'nettoyeurs-vapeur',
     metaSilo: 'entretien-maison',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Nettoyeurs Vapeur',
       en: 'Steam Cleaners',
@@ -1554,7 +1554,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'fers-centrales-vapeur',
     metaSilo: 'entretien-maison',
     searchVolume: 'low',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Fers & Centrales Vapeur',
       en: 'Irons & Steam Generators',
@@ -1584,7 +1584,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'lave-vaisselle-connectes',
     metaSilo: 'entretien-maison',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     reviewOnly: true,
     title: {
       fr: 'Lave-vaisselle Connectés',
@@ -1615,7 +1615,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'lave-linge-connectes',
     metaSilo: 'entretien-maison',
     searchVolume: 'high',
-    indexable: false,
+    indexable: true,
     reviewOnly: true,
     title: {
       fr: 'Lave-linge & Sèche-linge Connectés',

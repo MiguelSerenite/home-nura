@@ -118,7 +118,7 @@ export const META_SILOS: readonly MetaSilo[] = [
     icon: 'Sparkles',
     flagship: false,
     priority: 5,
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Entretien & Ménage',
       en: 'Cleaning & Housekeeping',
