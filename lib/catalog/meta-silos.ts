@@ -141,7 +141,7 @@ export const META_SILOS: readonly MetaSilo[] = [
     icon: 'Trees',
     flagship: false,
     priority: 6,
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Jardin & Extérieur Connectés',
       en: 'Smart Garden & Outdoors',

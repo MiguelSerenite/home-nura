@@ -1650,7 +1650,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'tondeuses-robots',
     metaSilo: 'outdoor-connecte',
     searchVolume: 'high',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Tondeuses Robots',
       en: 'Robot Lawn Mowers',
@@ -1680,7 +1680,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'arrosage-connecte',
     metaSilo: 'outdoor-connecte',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Arrosage Connecté',
       en: 'Smart Irrigation',
@@ -1710,7 +1710,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'eclairage-exterieur',
     metaSilo: 'outdoor-connecte',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Éclairage Extérieur Solaire Connecté',
       en: 'Smart Solar Outdoor Lighting',
@@ -1740,7 +1740,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'portails-garages',
     metaSilo: 'outdoor-connecte',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Portails & Portes de Garage Connectés',
       en: 'Smart Gates & Garage Doors',
@@ -1770,7 +1770,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'robots-piscine',
     metaSilo: 'outdoor-connecte',
     searchVolume: 'high',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Robots de Piscine',
       en: 'Pool Cleaning Robots',
@@ -1800,7 +1800,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'barbecues-connectes',
     metaSilo: 'outdoor-connecte',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Barbecues & Planchas Connectés',
       en: 'Smart BBQs & Griddles',
@@ -1830,7 +1830,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'stations-recharge-outdoor',
     metaSilo: 'outdoor-connecte',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Stations de Recharge Portables',
       en: 'Portable Power Stations',
@@ -1860,7 +1860,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'alarmes-exterieures',
     metaSilo: 'outdoor-connecte',
     searchVolume: 'low',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Alarmes & Capteurs Extérieurs',
       en: 'Outdoor Alarms & Sensors',
