@@ -25,6 +25,9 @@ export { PROBLEMS, getProblem, getProblemsByCategory } from './problems'
 export {
   getCategoryHero,
   getCategoryFaq,
+  getPersonaGuideHero,
+  getPersonaGuideFaq,
   type CategoryHero,
   type CategoryFaqEntry,
+  type PersonaGuideHero,
 } from './content'

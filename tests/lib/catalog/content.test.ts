@@ -17,8 +17,11 @@ import { CATEGORIES } from '@/lib/catalog/categories'
 import {
   getCategoryHero,
   getCategoryFaq,
+  getPersonaGuideHero,
+  getPersonaGuideFaq,
 } from '@/lib/catalog/content'
 import { getMetaSilo } from '@/lib/catalog/meta-silos'
+import { BUYER_PERSONAS } from '@/lib/catalog/buyer-personas'
 
 const LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
@@ -122,6 +125,62 @@ describe('getCategoryFaq', () => {
           faq[0].question.toLowerCase().includes(catTitle),
           `${cat.slug}.${lang}: first FAQ question should mention category`
         ).toBe(true)
+      }
+    }
+  })
+})
+
+describe('getPersonaGuideHero', () => {
+  it('returns a populated hero for every persona × locale', () => {
+    for (const p of BUYER_PERSONAS) {
+      for (const lang of LANGS) {
+        const hero = getPersonaGuideHero(lang, p)
+        expect(hero.kicker.trim().length, `${p.slug}.${lang}.kicker`).toBeGreaterThan(0)
+        expect(hero.title.trim().length, `${p.slug}.${lang}.title`).toBeGreaterThan(0)
+        expect(hero.subtitle.trim().length, `${p.slug}.${lang}.subtitle`).toBeGreaterThan(0)
+        expect(hero.intro.trim().length, `${p.slug}.${lang}.intro`).toBeGreaterThan(0)
+      }
+    }
+  })
+
+  it('embeds the persona label in the hero title and subtitle', () => {
+    for (const p of BUYER_PERSONAS) {
+      for (const lang of LANGS) {
+        const hero = getPersonaGuideHero(lang, p)
+        const label = p.label[lang].toLowerCase()
+        expect(
+          hero.title.toLowerCase().includes(label),
+          `${p.slug}.${lang}: persona label should appear in hero.title`
+        ).toBe(true)
+        expect(
+          hero.subtitle.toLowerCase().includes(label),
+          `${p.slug}.${lang}: persona label should appear in hero.subtitle`
+        ).toBe(true)
+      }
+    }
+  })
+
+  it('intro references the persona label (axis-specific template)', () => {
+    for (const p of BUYER_PERSONAS) {
+      for (const lang of LANGS) {
+        const hero = getPersonaGuideHero(lang, p)
+        expect(
+          hero.intro.toLowerCase().includes(p.label[lang].toLowerCase()),
+          `${p.slug}.${lang}: persona label should appear in hero.intro`
+        ).toBe(true)
+      }
+    }
+  })
+})
+
+describe('getPersonaGuideFaq', () => {
+  it('returns at least 3 entries for every locale', () => {
+    for (const lang of LANGS) {
+      const faq = getPersonaGuideFaq(lang)
+      expect(faq.length, `${lang}: persona FAQ length`).toBeGreaterThanOrEqual(3)
+      for (const entry of faq) {
+        expect(entry.question.trim().length).toBeGreaterThan(0)
+        expect(entry.answer.trim().length).toBeGreaterThan(0)
       }
     }
   })
