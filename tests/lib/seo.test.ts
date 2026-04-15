@@ -1,0 +1,318 @@
+import { describe, it, expect } from 'vitest'
+import {
+  buildPageMetadata,
+  buildProductListSchema,
+  getSocialProof,
+  formatLastUpdated,
+  SITE_LAST_UPDATED_ISO,
+  BASE_URL,
+} from '@/lib/seo'
+
+describe('buildPageMetadata', () => {
+  it('produces a canonical URL from lang + path', () => {
+    const m = buildPageMetadata({
+      lang: 'fr',
+      path: '/blog',
+      title: 'Blog',
+      description: 'Desc',
+    })
+    expect(m.alternates?.canonical).toBe(`${BASE_URL}/fr/blog`)
+  })
+
+  it('exposes hreflang alternates for all 6 locales at the same path', () => {
+    const m = buildPageMetadata({
+      lang: 'en',
+      path: '/guides/airfryers',
+      title: 'Guide',
+      description: 'Desc',
+    })
+    const langs = m.alternates?.languages ?? {}
+    expect(Object.keys(langs).sort()).toEqual(['de', 'en', 'es', 'fr', 'it', 'nl'])
+    expect(langs.fr).toBe(`${BASE_URL}/fr/guides/airfryers`)
+    expect(langs.en).toBe(`${BASE_URL}/en/guides/airfryers`)
+    expect(langs.de).toBe(`${BASE_URL}/de/guides/airfryers`)
+  })
+
+  it('falls back to fr when lang is unknown', () => {
+    const m = buildPageMetadata({
+      lang: 'xx',
+      path: '/blog',
+      title: 'T',
+      description: 'D',
+    })
+    expect(m.alternates?.canonical).toBe(`${BASE_URL}/fr/blog`)
+  })
+
+  it('normalizes path without leading slash', () => {
+    const m = buildPageMetadata({
+      lang: 'fr',
+      path: 'comparateur',
+      title: 'T',
+      description: 'D',
+    })
+    expect(m.alternates?.canonical).toBe(`${BASE_URL}/fr/comparateur`)
+  })
+
+  it('handles empty path as home', () => {
+    const m = buildPageMetadata({
+      lang: 'fr',
+      path: '',
+      title: 'Home',
+      description: 'D',
+    })
+    expect(m.alternates?.canonical).toBe(`${BASE_URL}/fr`)
+    const langs = m.alternates?.languages ?? {}
+    expect(langs.fr).toBe(`${BASE_URL}/fr`)
+  })
+
+  it('populates openGraph with siteName, locale, type and a complete image', () => {
+    const m = buildPageMetadata({
+      lang: 'de',
+      path: '/blog',
+      title: 'Blog DE',
+      description: 'Desc',
+    })
+    const og = m.openGraph as Record<string, unknown>
+    expect(og.siteName).toBe('Home Nura')
+    expect(og.locale).toBe('de_DE')
+    expect(og.type).toBe('website')
+    expect(og.url).toBe(`${BASE_URL}/de/blog`)
+    const images = og.images as { url: string; width: number; height: number; alt: string }[]
+    expect(images).toHaveLength(1)
+    expect(images[0].width).toBe(1200)
+    expect(images[0].height).toBe(630)
+    expect(images[0].url).toBe(`${BASE_URL}/og-image.png`)
+    expect(images[0].alt).toBe('Blog DE')
+  })
+
+  it('lets caller override image and imageAlt', () => {
+    const m = buildPageMetadata({
+      lang: 'fr',
+      path: '/blog/post',
+      title: 'Post',
+      description: 'D',
+      image: 'https://example.com/custom.png',
+      imageAlt: 'Custom alt',
+    })
+    const og = m.openGraph as Record<string, unknown>
+    const images = og.images as { url: string; alt: string }[]
+    expect(images[0].url).toBe('https://example.com/custom.png')
+    expect(images[0].alt).toBe('Custom alt')
+    const twImages = (m.twitter as { images?: string[] }).images
+    expect(twImages?.[0]).toBe('https://example.com/custom.png')
+  })
+
+  it('adds article-only fields when type=article', () => {
+    const m = buildPageMetadata({
+      lang: 'fr',
+      path: '/blog/a',
+      title: 'A',
+      description: 'D',
+      type: 'article',
+      publishedTime: '2026-01-01',
+      modifiedTime: '2026-04-01',
+      authors: ['Miguel Serenite'],
+    })
+    const og = m.openGraph as Record<string, unknown>
+    expect(og.type).toBe('article')
+    expect(og.publishedTime).toBe('2026-01-01')
+    expect(og.modifiedTime).toBe('2026-04-01')
+    expect(og.authors).toEqual(['Miguel Serenite'])
+  })
+
+  it('defaults article authors to ["Home Nura"] when omitted', () => {
+    const m = buildPageMetadata({
+      lang: 'fr',
+      path: '/guides/x',
+      title: 'G',
+      description: 'D',
+      type: 'article',
+    })
+    const og = m.openGraph as Record<string, unknown>
+    expect(og.authors).toEqual(['Home Nura'])
+  })
+
+  it('sets Twitter summary_large_image with the brand handles', () => {
+    const m = buildPageMetadata({
+      lang: 'fr',
+      path: '/blog',
+      title: 'T',
+      description: 'D',
+    })
+    const tw = m.twitter as Record<string, unknown>
+    expect(tw.card).toBe('summary_large_image')
+    expect(tw.site).toBe('@homenura')
+    expect(tw.creator).toBe('@homenura')
+  })
+
+  it('honors index: false by producing noindex robots directive', () => {
+    const m = buildPageMetadata({
+      lang: 'fr',
+      path: '/search',
+      title: 'T',
+      description: 'D',
+      index: false,
+    })
+    const robots = m.robots as Record<string, unknown>
+    expect(robots.index).toBe(false)
+    expect(robots.follow).toBe(true)
+    const gbot = robots.googleBot as Record<string, unknown>
+    expect(gbot.index).toBe(false)
+  })
+
+  it('defaults robots.index to true', () => {
+    const m = buildPageMetadata({
+      lang: 'fr',
+      path: '/',
+      title: 'T',
+      description: 'D',
+    })
+    const robots = m.robots as Record<string, unknown>
+    expect(robots.index).toBe(true)
+  })
+})
+
+describe('buildProductListSchema', () => {
+  const products = [
+    {
+      title: 'Ninja Foodi Max Dual Zone',
+      price: '229€',
+      priceNumeric: 229,
+      image: 'https://example.com/ninja.jpg',
+      url: 'https://amzn.to/ninja',
+      asin: 'B09XYZ1234',
+      nuraScore: 9.2,
+      capacity: '9.5L',
+    },
+    {
+      title: 'Philips Airfryer XXL',
+      price: '189€',
+      priceNumeric: 189,
+      image: 'https://example.com/philips.jpg',
+      url: 'https://amzn.to/philips',
+      asin: 'B08ABC5678',
+      nuraScore: 8.5,
+      capacity: '7.3L',
+    },
+  ]
+
+  it('emits schema.org ItemList with correct count and dateModified', () => {
+    const s = buildProductListSchema(products, 'fr', 'Top Airfryers', 'https://homenura.com/fr')
+    expect(s['@context']).toBe('https://schema.org')
+    expect(s['@type']).toBe('ItemList')
+    expect(s.name).toBe('Top Airfryers')
+    expect(s.url).toBe('https://homenura.com/fr')
+    expect(s.numberOfItems).toBe(2)
+    expect(s.dateModified).toBe(SITE_LAST_UPDATED_ISO)
+    expect(s.itemListElement).toHaveLength(2)
+  })
+
+  it('numbers list items starting at 1', () => {
+    const s = buildProductListSchema(products, 'fr', 'L', 'url')
+    expect(s.itemListElement[0].position).toBe(1)
+    expect(s.itemListElement[1].position).toBe(2)
+  })
+
+  it('extracts brand from product title', () => {
+    const s = buildProductListSchema(products, 'fr', 'L', 'url')
+    const first = s.itemListElement[0].item as { brand: { name: string } }
+    const second = s.itemListElement[1].item as { brand: { name: string } }
+    expect(first.brand.name).toBe('Ninja')
+    expect(second.brand.name).toBe('Philips')
+  })
+
+  it('falls back to "Home Nura" brand for unknown manufacturers', () => {
+    const s = buildProductListSchema(
+      [{ ...products[0], title: 'UnknownBrand Fryer 5L' }],
+      'fr',
+      'L',
+      'url',
+    )
+    const item = s.itemListElement[0].item as { brand: { name: string } }
+    expect(item.brand.name).toBe('Home Nura')
+  })
+
+  it('uses GBP currency for English locale and EUR elsewhere', () => {
+    const fr = buildProductListSchema(products, 'fr', 'L', 'url')
+    const en = buildProductListSchema(products, 'en', 'L', 'url')
+    const de = buildProductListSchema(products, 'de', 'L', 'url')
+    const getCurrency = (s: ReturnType<typeof buildProductListSchema>) =>
+      (s.itemListElement[0].item as { offers: { priceCurrency: string } }).offers.priceCurrency
+    expect(getCurrency(fr)).toBe('EUR')
+    expect(getCurrency(en)).toBe('GBP')
+    expect(getCurrency(de)).toBe('EUR')
+  })
+
+  it('maps nuraScore (0-10) to ratingValue (0-5) with one decimal', () => {
+    const s = buildProductListSchema(products, 'fr', 'L', 'url')
+    const rating = (s.itemListElement[0].item as { aggregateRating: { ratingValue: number } }).aggregateRating
+    // nuraScore 9.2 → 9.2/2 = 4.6
+    expect(rating.ratingValue).toBe(4.6)
+  })
+
+  it('sets availability to InStock and includes the affiliate URL', () => {
+    const s = buildProductListSchema(products, 'fr', 'L', 'url')
+    const offers = (s.itemListElement[0].item as { offers: Record<string, unknown> }).offers
+    expect(offers.availability).toBe('https://schema.org/InStock')
+    expect(offers.url).toBe('https://amzn.to/ninja')
+    expect(offers.price).toBe('229')
+  })
+})
+
+describe('getSocialProof', () => {
+  it('returns a rating in the 4.3–4.8 range', () => {
+    for (const asin of ['B001', 'B002', 'B123XYZ', 'B09ABCDEF']) {
+      const { rating } = getSocialProof(asin)
+      expect(rating).toBeGreaterThanOrEqual(4.3)
+      expect(rating).toBeLessThanOrEqual(4.8)
+    }
+  })
+
+  it('returns a count in the 847–4821 range', () => {
+    for (const asin of ['B001', 'B002', 'B123XYZ', 'B09ABCDEF']) {
+      const { count } = getSocialProof(asin)
+      expect(count).toBeGreaterThanOrEqual(847)
+      expect(count).toBeLessThanOrEqual(4821)
+    }
+  })
+
+  it('is deterministic — same ASIN yields the same proof', () => {
+    const a = getSocialProof('B09XYZ1234')
+    const b = getSocialProof('B09XYZ1234')
+    expect(a.rating).toBe(b.rating)
+    expect(a.count).toBe(b.count)
+  })
+
+  it('formats count per locale (English uses comma thousands separator)', () => {
+    const { count, countFormatted } = getSocialProof('B09XYZ1234', 'en')
+    if (count >= 1000) {
+      expect(countFormatted).toContain(',')
+    }
+  })
+
+  it('rounds rating to one decimal', () => {
+    const { rating } = getSocialProof('ANY_ASIN')
+    // one decimal ⇒ rating * 10 must be an integer
+    expect(rating * 10).toBe(Math.round(rating * 10))
+  })
+})
+
+describe('formatLastUpdated', () => {
+  it('formats the site-wide default date in French', () => {
+    const out = formatLastUpdated('fr')
+    // "14 avril 2026" — format may vary by ICU version; check for year + month substring
+    expect(out).toMatch(/2026/)
+    expect(out.toLowerCase()).toMatch(/avril/)
+  })
+
+  it('formats in English with British locale', () => {
+    const out = formatLastUpdated('en', '2026-04-14')
+    expect(out).toMatch(/2026/)
+    expect(out).toMatch(/April/i)
+  })
+
+  it('falls back to French for unknown lang', () => {
+    const out = formatLastUpdated('xx', '2026-04-14')
+    expect(out.toLowerCase()).toMatch(/avril/)
+  })
+})
