@@ -49,7 +49,7 @@ export const META_SILOS: readonly MetaSilo[] = [
     icon: 'Zap',
     flagship: false,
     priority: 2,
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Énergie & Domotique',
       en: 'Energy & Home Automation',

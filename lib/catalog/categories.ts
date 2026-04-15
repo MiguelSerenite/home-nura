@@ -462,7 +462,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'thermostats',
     metaSilo: 'energie-domotique',
     searchVolume: 'high',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Thermostats Connectés',
       en: 'Smart Thermostats',
@@ -492,7 +492,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'compteurs-energie',
     metaSilo: 'energie-domotique',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Compteurs d\'Énergie Connectés',
       en: 'Smart Energy Monitors',
@@ -522,7 +522,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'solaire-balcon',
     metaSilo: 'energie-domotique',
     searchVolume: 'high',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Solaire de Balcon (Plug & Play)',
       en: 'Balcony Solar Panels',
@@ -552,7 +552,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'batteries-domestiques',
     metaSilo: 'energie-domotique',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Batteries Domestiques',
       en: 'Home Batteries',
@@ -582,7 +582,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'eclairage-connecte',
     metaSilo: 'energie-domotique',
     searchVolume: 'high',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Éclairage Connecté',
       en: 'Smart Lighting',
@@ -612,7 +612,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'interrupteurs',
     metaSilo: 'energie-domotique',
     searchVolume: 'low',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Interrupteurs Connectés',
       en: 'Smart Switches',
@@ -642,7 +642,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'volets-stores',
     metaSilo: 'energie-domotique',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Volets & Stores Connectés',
       en: 'Smart Blinds & Shutters',
@@ -672,7 +672,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'capteurs-qualite-air',
     metaSilo: 'energie-domotique',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Capteurs de Qualité de l\'Air',
       en: 'Air Quality Monitors',
@@ -702,7 +702,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'detecteurs-fuite-eau',
     metaSilo: 'energie-domotique',
     searchVolume: 'low',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Détecteurs de Fuite d\'Eau',
       en: 'Water Leak Detectors',
@@ -732,7 +732,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'hubs-domotique',
     metaSilo: 'energie-domotique',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Hubs Domotique',
       en: 'Smart Home Hubs',
@@ -762,7 +762,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'bornes-recharge-ve',
     metaSilo: 'energie-domotique',
     searchVolume: 'high',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Bornes de Recharge VE',
       en: 'EV Charging Stations',
