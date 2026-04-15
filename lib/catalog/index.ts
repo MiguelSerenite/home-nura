@@ -22,3 +22,9 @@ export {
   getPersonasByAxis,
 } from './buyer-personas'
 export { PROBLEMS, getProblem, getProblemsByCategory } from './problems'
+export {
+  getCategoryHero,
+  getCategoryFaq,
+  type CategoryHero,
+  type CategoryFaqEntry,
+} from './content'
