@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { Geist, Geist_Mono } from "next/font/google";
 import { getNonce } from "@/lib/nonce";
 import { WebVitalsReporter } from "@/components/WebVitalsReporter";
+import { LANGUAGES, isValidLang, type Lang } from "@/lib/i18n";
+import { buildPageMetadata, BASE_URL } from "@/lib/seo";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -17,10 +19,7 @@ const geistMono = Geist_Mono({
   display: "swap",
 });
 
-const BASE_URL = 'https://homenura.com';
-const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl'];
-
-const metaTitles: Record<string, string> = {
+const metaTitles: Record<Lang, string> = {
   fr: 'Home Nura | Les Meilleurs Airfryers Connectés en Europe',
   en: 'Home Nura | Best Smart Air Fryers in Europe',
   de: 'Home Nura | Die besten Smart Airfryer in Europa',
@@ -29,7 +28,7 @@ const metaTitles: Record<string, string> = {
   nl: 'Home Nura | De Beste Smart Airfryers in Europa',
 };
 
-const metaDescriptions: Record<string, string> = {
+const metaDescriptions: Record<Lang, string> = {
   fr: 'Comparatif expert des meilleurs airfryers 2026. Guides d\'achat, tests et avis pour la France, Allemagne, UK, Espagne, Italie et Pays-Bas.',
   en: 'Expert comparison of the best air fryers 2026. Buying guides, reviews and tests for the UK, France, Germany, Spain, Italy and Netherlands.',
   de: 'Experten-Vergleich der besten Heißluftfritteusen 2026. Kaufberatung, Tests und Bewertungen für Deutschland, Frankreich, UK, Spanien, Italien und Niederlande.',
@@ -40,59 +39,33 @@ const metaDescriptions: Record<string, string> = {
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
-  const safeLang = LANGUAGES.includes(lang) ? lang : 'fr';
+  const safeLang: Lang = isValidLang(lang) ? lang : 'fr';
 
-  return {
+  // Phase V: go through buildPageMetadata so canonical, hreflang alternates,
+  // complete OpenGraph (siteName/locale/images), Twitter card, and robots
+  // directives all stay in lockstep with every other page on the site.
+  return buildPageMetadata({
+    lang: safeLang,
+    path: '',
     title: metaTitles[safeLang],
     description: metaDescriptions[safeLang],
-    metadataBase: new URL(BASE_URL),
-    alternates: {
-      canonical: `${BASE_URL}/${safeLang}`,
-      languages: Object.fromEntries(
-        LANGUAGES.map(l => [l, `${BASE_URL}/${l}`])
-      ),
-    },
-    openGraph: {
-      title: metaTitles[safeLang],
-      description: metaDescriptions[safeLang],
-      url: `${BASE_URL}/${safeLang}`,
-      siteName: 'Home Nura',
-      locale: safeLang,
-      type: 'website',
-      images: [
-        {
-          url: `${BASE_URL}/og-image.png`,
-          width: 1200,
-          height: 630,
-          alt: metaTitles[safeLang],
-        },
-      ],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: metaTitles[safeLang],
-      description: metaDescriptions[safeLang],
-      creator: '@homenura',
-      site: '@homenura',
-      images: [`${BASE_URL}/og-image.png`],
-    },
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: {
-        index: true,
-        follow: true,
-        'max-video-preview': -1,
-        'max-image-preview': 'large',
-        'max-snippet': -1,
-      },
-    },
-  };
+  });
 }
 
 export async function generateStaticParams() {
   return LANGUAGES.map((lang) => ({ lang }));
 }
+
+// Static country label for the Organization schema. Keeping the
+// mapping adjacent to the schema keeps the file scannable.
+const COUNTRY_NAMES: Record<Lang, string> = {
+  fr: 'France',
+  de: 'Germany',
+  en: 'United Kingdom',
+  es: 'Spain',
+  it: 'Italy',
+  nl: 'Netherlands',
+};
 
 export default async function RootLayout({
   children,
@@ -101,13 +74,14 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: Promise<{ lang: string }>;
 }>) {
-  const { lang } = await params;
+  const { lang: rawLang } = await params;
   // Unknown lang segment → proper 404. Without this, Next.js falls through
   // to the default dictionary and returns HTTP 200 on e.g. /xyz, which
   // Google can index as a thin duplicate of the homepage.
-  if (!LANGUAGES.includes(lang)) {
+  if (!isValidLang(rawLang)) {
     notFound();
   }
+  const lang: Lang = rawLang;
   const nonce = await getNonce();
 
   const organizationSchema = {
@@ -123,7 +97,7 @@ export default async function RootLayout({
       height: 400,
     },
     image: `${BASE_URL}/logo.png`,
-    description: metaDescriptions[lang] || metaDescriptions.fr,
+    description: metaDescriptions[lang],
     foundingDate: '2024-01-15',
     founder: {
       '@type': 'Person',
@@ -142,9 +116,9 @@ export default async function RootLayout({
       email: 'contact@homenura.com',
       availableLanguage: ['French', 'English', 'German', 'Spanish', 'Italian', 'Dutch'],
     },
-    areaServed: LANGUAGES.map(l => ({
+    areaServed: LANGUAGES.map((l) => ({
       '@type': 'Country',
-      name: l === 'fr' ? 'France' : l === 'de' ? 'Germany' : l === 'en' ? 'United Kingdom' : l === 'es' ? 'Spain' : l === 'it' ? 'Italy' : 'Netherlands',
+      name: COUNTRY_NAMES[l],
     })),
     knowsAbout: [
       'Air Fryers',

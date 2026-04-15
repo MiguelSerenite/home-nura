@@ -1,11 +1,9 @@
 // Shared SEO helpers: site-wide "last updated" date and schema builders.
 
 import type { Metadata } from 'next'
+import { LANGUAGES, type Lang, isValidLang } from './i18n'
 
 const BASE_URL = 'https://homenura.com'
-
-const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
-type Lang = (typeof LANGUAGES)[number]
 
 const ogLocaleMap: Record<Lang, string> = {
   fr: 'fr_FR',
@@ -63,7 +61,7 @@ export function buildPageMetadata(input: BuildPageMetadataInput): Metadata {
     index = true,
   } = input
 
-  const safeLang: Lang = (LANGUAGES as readonly string[]).includes(lang) ? (lang as Lang) : 'fr'
+  const safeLang: Lang = isValidLang(lang) ? lang : 'fr'
   const normalizedPath = path.startsWith('/') || path === '' ? path : `/${path}`
   const url = `${BASE_URL}/${safeLang}${normalizedPath}`
   const ogImage = image ?? `${BASE_URL}/og-image.png`
@@ -294,7 +292,7 @@ export function buildArticleSchema(input: BuildArticleSchemaInput) {
     authorJobTitle,
   } = input
 
-  const safeLang: Lang = (LANGUAGES as readonly string[]).includes(lang) ? (lang as Lang) : 'fr'
+  const safeLang: Lang = isValidLang(lang) ? lang : 'fr'
   const normalizedPath = path.startsWith('/') || path === '' ? path : `/${path}`
   const pageUrl = `${BASE_URL}/${safeLang}${normalizedPath}`
   const absoluteImage = image.startsWith('http') ? image : `${BASE_URL}${image}`

@@ -1,9 +1,7 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
+import { DEFAULT_LANG, isValidLang, type Lang } from './lib/i18n'
 
-const VALID_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
-type Lang = (typeof VALID_LANGS)[number]
-const DEFAULT_LANG: Lang = 'fr'
 const LOCALE_COOKIE = 'NEXT_LOCALE'
 
 // Vercel geo country → supported language (fallback only, after Accept-Language)
@@ -14,10 +12,6 @@ const COUNTRY_TO_LANG: Record<string, Lang> = {
   IT: 'it',
   NL: 'nl',
   GB: 'en', IE: 'en', US: 'en', CA: 'en', AU: 'en', NZ: 'en',
-}
-
-function isValidLang(value: string | undefined | null): value is Lang {
-  return !!value && (VALID_LANGS as readonly string[]).includes(value)
 }
 
 // Parse "fr-FR,fr;q=0.9,en;q=0.8" → best matching supported language
