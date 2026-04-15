@@ -72,7 +72,7 @@ export const META_SILOS: readonly MetaSilo[] = [
     icon: 'Shield',
     flagship: false,
     priority: 3,
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Sécurité Maison',
       en: 'Home Security',

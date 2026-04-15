@@ -796,7 +796,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'sonnettes-video',
     metaSilo: 'securite-maison',
     searchVolume: 'high',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Sonnettes Vidéo',
       en: 'Video Doorbells',
@@ -826,7 +826,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'cameras-interieur',
     metaSilo: 'securite-maison',
     searchVolume: 'high',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Caméras Intérieures',
       en: 'Indoor Cameras',
@@ -856,7 +856,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'cameras-exterieur',
     metaSilo: 'securite-maison',
     searchVolume: 'high',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Caméras Extérieures',
       en: 'Outdoor Cameras',
@@ -886,7 +886,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'serrures-connectees',
     metaSilo: 'securite-maison',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Serrures Connectées',
       en: 'Smart Locks',
@@ -916,7 +916,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'alarmes',
     metaSilo: 'securite-maison',
     searchVolume: 'high',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Alarmes Maison',
       en: 'Home Alarm Systems',
@@ -946,7 +946,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'detecteurs-fumee-co',
     metaSilo: 'securite-maison',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Détecteurs de Fumée & CO',
       en: 'Smoke & CO Detectors',
@@ -976,7 +976,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'detecteurs-mouvement',
     metaSilo: 'securite-maison',
     searchVolume: 'low',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Détecteurs de Mouvement',
       en: 'Motion Sensors',
@@ -1006,7 +1006,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'trackers-objets',
     metaSilo: 'securite-maison',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Trackers d\'Objets',
       en: 'Item Trackers',
@@ -1036,7 +1036,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'interphones',
     metaSilo: 'securite-maison',
     searchVolume: 'low',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Interphones Vidéo',
       en: 'Video Intercoms',
@@ -1066,7 +1066,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'coffres-forts-connectes',
     metaSilo: 'securite-maison',
     searchVolume: 'low',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Coffres-forts Connectés',
       en: 'Smart Safes',
