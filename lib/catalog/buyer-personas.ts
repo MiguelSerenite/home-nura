@@ -26,6 +26,15 @@
  * persona generates 54 indexable categories × 6 locales = 324 best-
  * for pages + 6 persona buyer-guide pages. Phase CCC therefore adds
  * 4 × 330 = 1320 new URLs to the production sitemap.
+ *
+ * Phase DDD (Period 17) adds 3 more ALL_SILOS personas — maison-
+ * location (renters, "no installation / no drilling" intent),
+ * ecoresponsable (eco-conscious buyers, aligns with the European
+ * smart-home thesis and the energy-cost criterion), and premiere-
+ * maison (first-time homeowners, a genuinely distinct search intent
+ * from "couple" or "famille"). Same shipping economics as CCC: zero
+ * code changes, axis templates handle all three, every new persona
+ * pumps 324 + 6 = 330 URLs. Phase DDD adds 3 × 330 = 990 URLs.
  */
 
 import type { BuyerPersona } from './types'
@@ -463,6 +472,50 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Bebé y niño pequeño',
       it: 'Neonato e bambino piccolo',
       nl: 'Baby en peuter',
+    },
+  },
+
+  // ===================================================================
+  // Phase DDD — 3 more ALL_SILOS personas for Moteur 2+4 expansion
+  // ===================================================================
+
+  {
+    slug: 'maison-location',
+    axis: 'constraint',
+    applicableSilos: ALL_SILOS,
+    label: {
+      fr: 'Locataire (sans perçage)',
+      en: 'Renter (no drilling)',
+      de: 'Mieter (ohne Bohren)',
+      es: 'Inquilino (sin taladrar)',
+      it: 'Inquilino (senza forare)',
+      nl: 'Huurder (zonder boren)',
+    },
+  },
+  {
+    slug: 'ecoresponsable',
+    axis: 'constraint',
+    applicableSilos: ALL_SILOS,
+    label: {
+      fr: 'Éco-responsable',
+      en: 'Eco-conscious',
+      de: 'Umweltbewusst',
+      es: 'Ecoconsciente',
+      it: 'Eco-consapevole',
+      nl: 'Milieubewust',
+    },
+  },
+  {
+    slug: 'premiere-maison',
+    axis: 'household',
+    applicableSilos: ALL_SILOS,
+    label: {
+      fr: 'Première maison',
+      en: 'First home',
+      de: 'Erstes Eigenheim',
+      es: 'Primera vivienda',
+      it: 'Prima casa',
+      nl: 'Eerste huis',
     },
   },
 ] as const
