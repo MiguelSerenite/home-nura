@@ -408,7 +408,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
   return (
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
       <Navbar currentLang={lang} />
-      <script type="application/ld+json" nonce={nonce} dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Hero */}
       <section className="relative px-6 py-20 lg:py-28 overflow-hidden">

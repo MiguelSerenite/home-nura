@@ -117,6 +117,7 @@ export default async function QuizPage({ params }: { params: Promise<{ lang: str
       <script
         type="application/ld+json"
         nonce={nonce}
+        suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <Navbar currentLang={safeLang} />

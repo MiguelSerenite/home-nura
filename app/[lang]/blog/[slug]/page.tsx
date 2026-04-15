@@ -123,8 +123,8 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
 
   return (
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
-      <script type="application/ld+json" nonce={nonce} dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <script type="application/ld+json" nonce={nonce} dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Navbar currentLang={lang} />
 
       <article className="max-w-3xl mx-auto px-6 py-12">

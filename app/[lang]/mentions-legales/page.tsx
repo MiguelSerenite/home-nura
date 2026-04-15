@@ -194,6 +194,7 @@ export default async function MentionsLegales({ params }: { params: Promise<{ la
       <script
         type="application/ld+json"
         nonce={nonce}
+        suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',

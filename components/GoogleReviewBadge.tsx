@@ -21,7 +21,7 @@ export default function GoogleReviewBadge({ asin, lang = 'fr', size = 'md' }: Go
   const starClass = size === 'sm' ? 'text-sm' : 'text-base'
 
   return (
-    <div className={`inline-flex items-center gap-1.5 ${textSize} whitespace-nowrap`}>
+    <div className={`flex flex-wrap items-center gap-x-1.5 gap-y-0.5 ${textSize} min-w-0`}>
       {/* Google G logo */}
       <svg
         width={logoSize}

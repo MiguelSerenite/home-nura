@@ -118,6 +118,7 @@ export default async function ComparateurPage({ params }: { params: Promise<{ la
       <script
         type="application/ld+json"
         nonce={nonce}
+        suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <Navbar currentLang={safeLang} />

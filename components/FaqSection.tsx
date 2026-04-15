@@ -33,6 +33,7 @@ export default function FaqSection({ faqs, title, nonce }: { faqs: FaqItem[]; ti
       <script
         type="application/ld+json"
         nonce={nonce}
+        suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 

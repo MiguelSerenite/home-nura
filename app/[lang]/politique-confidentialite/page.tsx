@@ -462,6 +462,7 @@ export default async function PolitiqueConfidentialite({ params }: { params: Pro
       <script
         type="application/ld+json"
         nonce={nonce}
+        suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
