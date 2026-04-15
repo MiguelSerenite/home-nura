@@ -26,9 +26,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/quiz', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/blog', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/a-propos', priority: 0.5, changeFrequency: 'monthly' as const, lastModified: '2026-04-10' },
-    { path: '/mentions-legales', priority: 0.3, changeFrequency: 'yearly' as const, lastModified: '2026-01-10' },
-    { path: '/politique-confidentialite', priority: 0.3, changeFrequency: 'yearly' as const, lastModified: '2026-01-10' },
-    { path: '/politique-cookies', priority: 0.3, changeFrequency: 'yearly' as const, lastModified: '2026-01-10' },
+    // Legal pages (mentions-legales, politique-confidentialite,
+    // politique-cookies) are intentionally omitted — they're noindex'd
+    // via per-page meta robots so there's no point pointing crawlers
+    // at them. They remain reachable via the site footer.
   ]
 
   const entries: MetadataRoute.Sitemap = []

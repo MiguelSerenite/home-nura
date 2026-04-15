@@ -444,6 +444,9 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     path: '/politique-confidentialite',
     title: `${c.title} | Home Nura`,
     description: c.intro.slice(0, 160),
+    // Legal compliance page — required by GDPR but not a search
+    // landing target. Noindex via meta robots.
+    index: false,
   })
 }
 

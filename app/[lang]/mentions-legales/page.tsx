@@ -24,6 +24,11 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     path: '/mentions-legales',
     title: `${l.title} | Home Nura`,
     description: metaDescriptions[safeLang] ?? metaDescriptions.fr,
+    // Legal boilerplate — required for compliance (LCEN art. 6, §5 TMG,
+    // etc.) but not useful in search results. Noindex via meta robots
+    // rather than robots.txt disallow so Google can still read the
+    // directive.
+    index: false,
   })
 }
 

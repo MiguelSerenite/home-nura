@@ -6,7 +6,7 @@ import ProductImageCarousel from '@/components/ProductImageCarousel'
 import AffiliateLink from '@/components/AffiliateLink'
 import { getStaticProducts } from '@/lib/products'
 import { getNonce } from '@/lib/nonce'
-import { buildPageMetadata } from '@/lib/seo'
+import { buildPageMetadata, buildArticleSchema, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
@@ -384,9 +384,28 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
     ],
   }
 
+  // Long-form comparison article — emit Article schema so Google can
+  // parse it as editorial content (eligible for Top Stories / rich
+  // article results, beyond what BreadcrumbList alone gives).
+  // Published date is the site baseline; dateModified tracks
+  // SITE_LAST_UPDATED_ISO for freshness signal.
+  const articleSchema = buildArticleSchema({
+    lang,
+    path: '/guides/airfryer-vs-four',
+    title: c.title,
+    description: c.intro,
+    image: '/og-image.png',
+    imageAlt: c.title,
+    datePublished: '2026-01-15',
+    dateModified: SITE_LAST_UPDATED_ISO,
+    articleType: 'Article',
+    articleSection: lang === 'fr' ? 'Guides' : 'Guides',
+  })
+
   return (
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
       <Navbar currentLang={lang} />
+      <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <main id="main">

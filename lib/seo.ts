@@ -240,6 +240,106 @@ function extractBrand(name: string): string {
   return 'Home Nura'
 }
 
+// ---------------------------------------------------------------------
+// Article schema builder (Phase T)
+//
+// Produces a schema.org Article / ReviewArticle / TechArticle JSON-LD
+// blob for long-form content (blog posts, comparison guides). Canonical
+// source for the author/publisher metadata — keeps /blog/[slug] and
+// /guides/airfryer-vs-four in sync without hand-copying the shape.
+// ---------------------------------------------------------------------
+
+export type ArticleType = 'Article' | 'ReviewArticle' | 'TechArticle'
+
+interface BuildArticleSchemaInput {
+  lang: string
+  /** Page path without lang prefix, e.g. '/blog/my-post' or '/guides/airfryer-vs-four'. */
+  path: string
+  title: string
+  description: string
+  /** Hero image URL. Resolved to absolute if it starts with '/'. */
+  image: string
+  imageAlt?: string
+  /** ISO date string, e.g. '2026-03-15'. */
+  datePublished: string
+  /** ISO date string. */
+  dateModified: string
+  /** schema.org type. Defaults to 'Article'. */
+  articleType?: ArticleType
+  /** Free-form category label (e.g. 'Guides', 'Comparatifs'). */
+  articleSection?: string
+  /** Word count of the body (stripped of HTML). */
+  wordCount?: number
+  /** Defaults to the site editor-in-chief. */
+  authorName?: string
+  authorJobTitle?: string
+}
+
+const DEFAULT_AUTHOR_NAME = 'Miguel Serenite'
+
+export function buildArticleSchema(input: BuildArticleSchemaInput) {
+  const {
+    lang,
+    path,
+    title,
+    description,
+    image,
+    imageAlt,
+    datePublished,
+    dateModified,
+    articleType = 'Article',
+    articleSection,
+    wordCount,
+    authorName = DEFAULT_AUTHOR_NAME,
+    authorJobTitle,
+  } = input
+
+  const safeLang: Lang = (LANGUAGES as readonly string[]).includes(lang) ? (lang as Lang) : 'fr'
+  const normalizedPath = path.startsWith('/') || path === '' ? path : `/${path}`
+  const pageUrl = `${BASE_URL}/${safeLang}${normalizedPath}`
+  const absoluteImage = image.startsWith('http') ? image : `${BASE_URL}${image}`
+  const resolvedJobTitle =
+    authorJobTitle ??
+    (safeLang === 'fr' ? 'Fondateur & Rédacteur en Chef' : 'Founder & Editor-in-Chief')
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': articleType,
+    headline: title,
+    description,
+    image: [
+      {
+        '@type': 'ImageObject',
+        url: absoluteImage,
+        caption: imageAlt ?? title,
+      },
+    ],
+    datePublished,
+    dateModified,
+    author: {
+      '@type': 'Person',
+      name: authorName,
+      jobTitle: resolvedJobTitle,
+      url: `${BASE_URL}/${safeLang}/a-propos`,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Home Nura',
+      url: BASE_URL,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${BASE_URL}/logo.png`,
+        width: 1400,
+        height: 400,
+      },
+    },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
+    inLanguage: safeLang,
+    ...(articleSection && { articleSection }),
+    ...(wordCount && { wordCount }),
+  }
+}
+
 export { BASE_URL }
 
 /**

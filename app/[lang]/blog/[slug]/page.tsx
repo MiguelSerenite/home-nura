@@ -12,7 +12,7 @@ import { notFound } from 'next/navigation'
 import { getNonce } from '@/lib/nonce'
 import type { Metadata } from 'next'
 import { SiteFooter } from '@/components/ui'
-import { buildPageMetadata } from '@/lib/seo'
+import { buildPageMetadata, buildArticleSchema } from '@/lib/seo'
 
 const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl']
 const BASE_URL = 'https://homenura.com'
@@ -88,42 +88,22 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
     : `${BASE_URL}/og-image.png`
   const heroImageAlt = article.images[0]?.alt[lang] || article.images[0]?.alt.fr || title
 
-  const articleSchema = {
-    '@context': 'https://schema.org',
-    '@type': article.category === 'tests' || article.category === 'comparatifs' ? 'ReviewArticle' : 'Article',
-    headline: title,
+  const articleSchema = buildArticleSchema({
+    lang,
+    path: `/blog/${slug}`,
+    title,
     description: excerpt,
-    image: [
-      {
-        '@type': 'ImageObject',
-        url: heroImage,
-        caption: heroImageAlt,
-      },
-    ],
+    image: heroImage,
+    imageAlt: heroImageAlt,
     datePublished: article.datePublished,
     dateModified: article.dateModified,
-    author: {
-      '@type': 'Person',
-      name: 'Miguel Serenite',
-      jobTitle: lang === 'fr' ? 'Fondateur & Rédacteur en Chef' : 'Founder & Editor-in-Chief',
-      url: `${BASE_URL}/${lang}/a-propos`,
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: 'Home Nura',
-      url: BASE_URL,
-      logo: {
-        '@type': 'ImageObject',
-        url: `${BASE_URL}/logo.png`,
-        width: 1400,
-        height: 400,
-      },
-    },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `${BASE_URL}/${lang}/blog/${slug}` },
-    inLanguage: lang,
+    articleType:
+      article.category === 'tests' || article.category === 'comparatifs'
+        ? 'ReviewArticle'
+        : 'Article',
     articleSection: categoryLabel,
     wordCount: content.replace(/<[^>]+>/g, '').split(/\s+/).length,
-  }
+  })
 
   const breadcrumbSchema = {
     '@context': 'https://schema.org',

@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest'
 import {
   buildPageMetadata,
   buildProductListSchema,
+  buildArticleSchema,
   getSocialProof,
   formatLastUpdated,
   SITE_LAST_UPDATED_ISO,
@@ -294,6 +295,117 @@ describe('getSocialProof', () => {
     const { rating } = getSocialProof('ANY_ASIN')
     // one decimal ⇒ rating * 10 must be an integer
     expect(rating * 10).toBe(Math.round(rating * 10))
+  })
+})
+
+describe('buildArticleSchema', () => {
+  const base = {
+    lang: 'fr',
+    path: '/blog/my-post',
+    title: 'Mon article',
+    description: 'Une description',
+    image: '/hero.jpg',
+    datePublished: '2026-01-15',
+    dateModified: '2026-04-01',
+  }
+
+  it('emits a valid schema.org Article by default', () => {
+    const s = buildArticleSchema(base)
+    expect(s['@context']).toBe('https://schema.org')
+    expect(s['@type']).toBe('Article')
+    expect(s.headline).toBe('Mon article')
+    expect(s.description).toBe('Une description')
+    expect(s.datePublished).toBe('2026-01-15')
+    expect(s.dateModified).toBe('2026-04-01')
+    expect(s.inLanguage).toBe('fr')
+  })
+
+  it('supports ReviewArticle and TechArticle type variants', () => {
+    const review = buildArticleSchema({ ...base, articleType: 'ReviewArticle' })
+    const tech = buildArticleSchema({ ...base, articleType: 'TechArticle' })
+    expect(review['@type']).toBe('ReviewArticle')
+    expect(tech['@type']).toBe('TechArticle')
+  })
+
+  it('resolves relative image URLs to absolute using BASE_URL', () => {
+    const s = buildArticleSchema(base)
+    expect(s.image).toHaveLength(1)
+    expect(s.image[0].url).toBe(`${BASE_URL}/hero.jpg`)
+  })
+
+  it('preserves already-absolute image URLs unchanged', () => {
+    const s = buildArticleSchema({ ...base, image: 'https://cdn.example.com/hero.png' })
+    expect(s.image[0].url).toBe('https://cdn.example.com/hero.png')
+  })
+
+  it('uses imageAlt as caption when provided, falling back to title', () => {
+    const withAlt = buildArticleSchema({ ...base, imageAlt: 'My custom alt' })
+    const withoutAlt = buildArticleSchema(base)
+    expect(withAlt.image[0].caption).toBe('My custom alt')
+    expect(withoutAlt.image[0].caption).toBe('Mon article')
+  })
+
+  it('builds mainEntityOfPage with canonical page URL from lang + path', () => {
+    const s = buildArticleSchema(base)
+    expect(s.mainEntityOfPage['@id']).toBe(`${BASE_URL}/fr/blog/my-post`)
+  })
+
+  it('normalizes path without leading slash', () => {
+    const s = buildArticleSchema({ ...base, path: 'blog/foo' })
+    expect(s.mainEntityOfPage['@id']).toBe(`${BASE_URL}/fr/blog/foo`)
+  })
+
+  it('falls back to French for unknown locales', () => {
+    const s = buildArticleSchema({ ...base, lang: 'xx' })
+    expect(s.inLanguage).toBe('fr')
+    expect(s.mainEntityOfPage['@id']).toBe(`${BASE_URL}/fr/blog/my-post`)
+  })
+
+  it('defaults author to Miguel Serenite with locale-specific job title', () => {
+    const fr = buildArticleSchema(base)
+    const en = buildArticleSchema({ ...base, lang: 'en' })
+    expect(fr.author.name).toBe('Miguel Serenite')
+    expect(fr.author.jobTitle).toBe('Fondateur & Rédacteur en Chef')
+    expect(fr.author.url).toBe(`${BASE_URL}/fr/a-propos`)
+    expect(en.author.jobTitle).toBe('Founder & Editor-in-Chief')
+    expect(en.author.url).toBe(`${BASE_URL}/en/a-propos`)
+  })
+
+  it('lets the caller override author name and job title', () => {
+    const s = buildArticleSchema({
+      ...base,
+      authorName: 'Jane Doe',
+      authorJobTitle: 'Senior Kitchen Writer',
+    })
+    expect(s.author.name).toBe('Jane Doe')
+    expect(s.author.jobTitle).toBe('Senior Kitchen Writer')
+  })
+
+  it('embeds the publisher organization with logo', () => {
+    const s = buildArticleSchema(base)
+    expect(s.publisher['@type']).toBe('Organization')
+    expect(s.publisher.name).toBe('Home Nura')
+    expect(s.publisher.url).toBe(BASE_URL)
+    expect(s.publisher.logo.url).toBe(`${BASE_URL}/logo.png`)
+    expect(s.publisher.logo.width).toBe(1400)
+    expect(s.publisher.logo.height).toBe(400)
+  })
+
+  it('only emits articleSection when provided', () => {
+    const without = buildArticleSchema(base) as Record<string, unknown>
+    const withSection = buildArticleSchema({ ...base, articleSection: 'Guides' }) as Record<
+      string,
+      unknown
+    >
+    expect('articleSection' in without).toBe(false)
+    expect(withSection.articleSection).toBe('Guides')
+  })
+
+  it('only emits wordCount when provided', () => {
+    const without = buildArticleSchema(base) as Record<string, unknown>
+    const withCount = buildArticleSchema({ ...base, wordCount: 1234 }) as Record<string, unknown>
+    expect('wordCount' in without).toBe(false)
+    expect(withCount.wordCount).toBe(1234)
   })
 })
 

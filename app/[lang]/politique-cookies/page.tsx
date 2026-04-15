@@ -24,6 +24,9 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     path: '/politique-cookies',
     title: `${c.title} | Home Nura`,
     description: metaDescriptions[safeLang] ?? metaDescriptions.fr,
+    // Cookie policy — ePrivacy compliance page, not a search target.
+    // Noindex via meta robots.
+    index: false,
   })
 }
 
