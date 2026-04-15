@@ -338,7 +338,7 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
               <Link
                 key={slug}
                 href={`/${safeLang}/cuisine-connectee/${slug}`}
-                className="group relative flex flex-col rounded-3xl border border-slate-200 bg-white p-6 transition-all hover:shadow-xl hover:-translate-y-1 hover:border-blue-200"
+                className="group relative flex flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition-all hover:shadow-md hover:-translate-y-1 hover:border-blue-200"
               >
                 <Kicker size="sm" className="mb-3">
                   {String(index + 1).padStart(2, '0')} · {c.categoryKicker}

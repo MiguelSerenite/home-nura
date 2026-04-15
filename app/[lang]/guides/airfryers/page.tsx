@@ -624,7 +624,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-600 uppercase bg-blue-50 rounded-full">
             Guide Expert 2026
           </span>
-          <h1 className="text-4xl md:text-6xl font-black tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-slate-900 to-slate-600">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-slate-900 to-slate-600">
             {dict.guide_title}
           </h1>
           <p className="text-xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
@@ -680,7 +680,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <section className="max-w-6xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {products.slice(0, 3).map((product, i) => (
-            <div key={i} className="bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-lg transition-shadow">
+            <div key={i} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="p-4">
                 <ProductImageCarousel
                   images={product.images}
@@ -752,7 +752,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
 
         <div className="grid gap-5 md:grid-cols-2">
           {content.mistakes.map((mistake, index) => (
-            <div key={index} className="relative overflow-hidden bg-white rounded-2xl border border-slate-200 p-7 md:p-8 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+            <div key={index} className="relative overflow-hidden bg-white rounded-2xl border border-slate-200 p-7 md:p-8 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300">
               <div className="absolute top-0 left-0 right-0 h-0.5 bg-amber-500"></div>
               <Kicker variant="amber" size="sm" className="mb-3 tabular-nums">
                 {String(index + 1).padStart(2, '0')}
@@ -788,7 +788,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
 
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {content.recipes.map((recipe, index) => (
-            <div key={index} className="group relative overflow-hidden bg-white rounded-2xl border border-slate-200 p-7 hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+            <div key={index} className="group relative overflow-hidden bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
               <div className="absolute top-0 left-0 right-0 h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></div>
               <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600/70 mb-3 tabular-nums">
                 N° {String(index + 1).padStart(2, '0')}
@@ -821,7 +821,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <section className="max-w-6xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map((product, i) => (
-            <div key={i} className="bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-lg transition-all">
+            <div key={i} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-all">
               <div className="aspect-square relative bg-slate-50 p-4">
                 <Image
                   src={product.image}
@@ -931,7 +931,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
             <Link
               key={item.href}
               href={item.href}
-              className="group relative block bg-white rounded-2xl border border-slate-200 p-7 hover:border-blue-600 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden"
+              className="group relative block bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:border-blue-600 hover:shadow-md hover:-translate-y-1 transition-all duration-300 overflow-hidden"
             >
               <div className="absolute top-0 left-0 right-0 h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></div>
               <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600/70 mb-3">{item.num}</div>

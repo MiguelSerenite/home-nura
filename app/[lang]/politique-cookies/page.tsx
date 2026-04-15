@@ -72,7 +72,7 @@ export default async function PolitiqueCookies({ params }: { params: Promise<{ l
       />
       <Navbar currentLang={lang} />
       <main className="max-w-3xl mx-auto px-6 py-16">
-        <h1 className="text-3xl font-black mb-8">{c.title}</h1>
+        <h1 className="text-3xl font-bold mb-8">{c.title}</h1>
         <div className="prose prose-slate max-w-none whitespace-pre-line text-slate-600 leading-relaxed">
           {c.body}
         </div>

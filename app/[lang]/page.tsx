@@ -128,7 +128,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-600 uppercase bg-blue-50 rounded-full">
             Europe 2026
           </span>
-          <h1 className="text-5xl md:text-7xl font-black tracking-tight mb-8 bg-clip-text text-transparent bg-gradient-to-b from-slate-900 to-slate-600">
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 bg-clip-text text-transparent bg-gradient-to-b from-slate-900 to-slate-600">
             {dict.welcome}
           </h1>
           <p className="text-xl md:text-2xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
@@ -180,7 +180,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {products.slice(0, 3).map((product, i) => (
-              <div key={i} className="group bg-white rounded-2xl border border-slate-200 overflow-hidden hover:shadow-xl transition-all hover:-translate-y-1">
+              <div key={i} className="group bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
                 <div className="p-4">
                   <ProductImageCarousel
                     images={product.images}
@@ -329,7 +329,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <section className="max-w-5xl mx-auto px-6 pb-24">
         <Link
           href={`/${lang}/cuisine-connectee`}
-          className="group block rounded-3xl border border-slate-200 bg-gradient-to-br from-blue-50 via-white to-amber-50 p-8 md:p-12 hover:shadow-xl transition-all"
+          className="group block rounded-3xl border border-slate-200 bg-gradient-to-br from-blue-50 via-white to-amber-50 p-8 md:p-12 shadow-sm hover:shadow-md transition-all"
         >
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div className="flex-1">

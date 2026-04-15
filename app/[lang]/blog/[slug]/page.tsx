@@ -160,7 +160,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
         {/* Header */}
         <header className="mb-10">
           <span className="inline-block px-3 py-1 mb-4 text-xs font-bold text-blue-600 bg-blue-50 rounded-full">{categoryLabel}</span>
-          <h1 className="text-4xl md:text-5xl font-black tracking-tight mb-6 leading-tight">{title}</h1>
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 leading-tight">{title}</h1>
           <p className="text-xl text-slate-500 leading-relaxed mb-6">{excerpt}</p>
 
           {/* Meta */}
@@ -243,7 +243,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
                 <Link
                   key={r.slug}
                   href={`/${lang}/blog/${r.slug}`}
-                  className="group flex gap-4 p-4 bg-white rounded-xl border border-slate-200 hover:shadow-lg hover:-translate-y-0.5 transition-all"
+                  className="group flex gap-4 p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all"
                 >
                   {r.images[0] && (
                     <div className="w-20 h-20 flex-shrink-0 relative rounded-lg overflow-hidden bg-slate-100">

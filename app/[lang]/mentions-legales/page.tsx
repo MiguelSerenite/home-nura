@@ -206,7 +206,7 @@ export default async function MentionsLegales({ params }: { params: Promise<{ la
       />
       <Navbar currentLang={lang} />
       <main className="max-w-3xl mx-auto px-6 py-16">
-        <h1 className="text-3xl md:text-4xl font-black mb-10 tracking-tight">{t.title}</h1>
+        <h1 className="text-3xl md:text-4xl font-bold mb-10 tracking-tight">{t.title}</h1>
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-900 mb-4 border-b border-slate-200 pb-2">{t.publisher}</h2>

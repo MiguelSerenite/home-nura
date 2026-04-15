@@ -353,7 +353,7 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
       <Navbar currentLang={lang} />
 
       <main className="max-w-3xl mx-auto px-6 py-16">
-        <h1 className="text-4xl font-black mb-12">{c.title}</h1>
+        <h1 className="text-4xl font-bold mb-12">{c.title}</h1>
 
         {/* Mission */}
         <section className="mb-12">
