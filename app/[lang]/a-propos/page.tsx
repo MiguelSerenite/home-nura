@@ -320,7 +320,18 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
             name: 'Home Nura',
             url: 'https://homenura.com',
           },
-          knowsAbout: ['Air Fryers', 'Kitchen Appliances', 'Product Testing', 'Consumer Electronics'],
+          knowsAbout: [
+            'Air Fryers',
+            'Smart Kitchen Appliances',
+            'Smart Multicookers',
+            'Coffee Machines',
+            'Smart Kitchen Scales',
+            'Cooking Thermometers',
+            'Smart Plugs',
+            'Kitchen Appliances',
+            'Product Testing',
+            'Consumer Electronics',
+          ],
         }) }}
       />
 

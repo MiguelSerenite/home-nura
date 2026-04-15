@@ -40,10 +40,20 @@ const comparatifLabel: Record<string, string> = {
   en: '2026 Comparison',
 }
 
+const smartKitchenLabel: Record<string, string> = {
+  fr: 'Cuisine connectée',
+  de: 'Smarte Küche',
+  es: 'Cocina conectada',
+  it: 'Cucina connessa',
+  nl: 'Slimme keuken',
+  en: 'Smart kitchen',
+}
+
 export default function Navbar({ currentLang }: { currentLang: string }) {
   const [isOpen, setIsOpen] = useState(false)
   const about = aboutLabel[currentLang] ?? 'About'
   const comparatif = comparatifLabel[currentLang] ?? '2026 Comparison'
+  const smartKitchen = smartKitchenLabel[currentLang] ?? 'Smart kitchen'
 
   // Build searchable product list once per lang (client-side static data)
   const searchProducts = useMemo(() => {
@@ -103,6 +113,9 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
             <Link href={`/${currentLang}/guides/airfryers`} className="hover:text-blue-600 transition-colors">Guide</Link>
             <Link href={`/${currentLang}/comparateur`} className="hover:text-blue-600 transition-colors">
               {comparatif}
+            </Link>
+            <Link href={`/${currentLang}/cuisine-connectee`} className="hover:text-blue-600 transition-colors">
+              {smartKitchen}
             </Link>
             <Link href={`/${currentLang}/quiz`} className="hover:text-blue-600 transition-colors">Quiz</Link>
             <Link href={`/${currentLang}/blog`} className="hover:text-blue-600 transition-colors">Blog</Link>
@@ -195,6 +208,14 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
                 className="flex items-center justify-between py-3 px-4 rounded-xl text-slate-900 font-semibold hover:bg-slate-50 transition-colors"
               >
                 <span>{comparatif}</span>
+                <svg className="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="m9 18 6-6-6-6"/></svg>
+              </Link>
+              <Link
+                href={`/${currentLang}/cuisine-connectee`}
+                onClick={close}
+                className="flex items-center justify-between py-3 px-4 rounded-xl text-slate-900 font-semibold hover:bg-slate-50 transition-colors"
+              >
+                <span>{smartKitchen}</span>
                 <svg className="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="m9 18 6-6-6-6"/></svg>
               </Link>
               <Link

@@ -898,7 +898,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           </h2>
           <div className="h-[2px] w-16 bg-blue-600 mx-auto"></div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
             {
               href: `/${lang}/guides/airfryer-vs-four`,
@@ -917,6 +917,12 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
               num: '03',
               title: lang === 'fr' ? 'Classement des meilleurs airfryers 2026' : lang === 'de' ? 'Ranking der besten Airfryer 2026' : lang === 'es' ? 'Ranking de las mejores freidoras 2026' : lang === 'it' ? 'Classifica delle migliori friggitrici 2026' : lang === 'nl' ? 'Ranking beste airfryers 2026' : 'Best Air Fryers 2026 Ranking',
               desc: lang === 'fr' ? 'Notre top 9 avec comparatif et prix.' : lang === 'de' ? 'Unsere Top 9 mit Vergleich und Preisen.' : lang === 'es' ? 'Nuestro top 9 con comparativa y precios.' : lang === 'it' ? 'La nostra top 9 con confronto e prezzi.' : lang === 'nl' ? 'Onze top 9 met vergelijking en prijzen.' : 'Our top 9 with comparison and prices.',
+            },
+            {
+              href: `/${lang}/cuisine-connectee/prises-connectees`,
+              num: '04',
+              title: lang === 'fr' ? 'Piloter son airfryer à distance' : lang === 'de' ? 'Heißluftfritteuse per Fernbedienung' : lang === 'es' ? 'Controla tu freidora a distancia' : lang === 'it' ? 'Controlla la friggitrice da remoto' : lang === 'nl' ? 'Airfryer op afstand bedienen' : 'Control your air fryer remotely',
+              desc: lang === 'fr' ? 'Les prises connectées compatibles avec votre airfryer.' : lang === 'de' ? 'Smarte Steckdosen, die zu Ihrer Heißluftfritteuse passen.' : lang === 'es' ? 'Los enchufes inteligentes compatibles con tu freidora.' : lang === 'it' ? 'Le prese smart compatibili con la tua friggitrice.' : lang === 'nl' ? 'Slimme stekkers die werken met uw airfryer.' : 'The smart plugs that work with your air fryer.',
             },
           ].map((item) => (
             <Link

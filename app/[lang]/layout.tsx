@@ -145,7 +145,17 @@ export default async function RootLayout({
       '@type': 'Country',
       name: l === 'fr' ? 'France' : l === 'de' ? 'Germany' : l === 'en' ? 'United Kingdom' : l === 'es' ? 'Spain' : l === 'it' ? 'Italy' : 'Netherlands',
     })),
-    knowsAbout: ['Air Fryers', 'Smart Kitchen Appliances', 'Home Cooking', 'Kitchen Reviews'],
+    knowsAbout: [
+      'Air Fryers',
+      'Smart Kitchen Appliances',
+      'Smart Multicookers',
+      'Coffee Machines',
+      'Smart Kitchen Scales',
+      'Cooking Thermometers',
+      'Smart Plugs',
+      'Home Cooking',
+      'Kitchen Reviews',
+    ],
   };
 
   return (

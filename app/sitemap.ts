@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next'
 import { getAllArticles } from '@/lib/blog'
+import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
 
 const BASE_URL = 'https://homenura.com'
 const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl']
@@ -12,6 +13,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/guides/airfryers', priority: 0.9, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/guides/airfryer-vs-four', priority: 0.8, changeFrequency: 'monthly' as const, lastModified: today },
     { path: '/comparateur', priority: 0.85, changeFrequency: 'weekly' as const, lastModified: today },
+    { path: '/cuisine-connectee', priority: 0.85, changeFrequency: 'weekly' as const, lastModified: today },
+    ...SMART_KITCHEN_CATEGORIES.map((cat) => ({
+      path: `/cuisine-connectee/${cat}`,
+      priority: 0.75,
+      changeFrequency: 'weekly' as const,
+      lastModified: today,
+    })),
     { path: '/quiz', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/blog', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/a-propos', priority: 0.5, changeFrequency: 'monthly' as const, lastModified: '2026-04-10' },
