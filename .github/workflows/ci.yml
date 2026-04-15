@@ -112,20 +112,14 @@ jobs:
       - name: Lighthouse CI
         run: npm run lhci
 
-      # Always upload artefacts so maintainers can triage failures
-      # without re-running the suite locally.
+      # Upload Playwright report only on failure — gives maintainers a
+      # trace.zip to replay the broken scenario locally.
+      # LHCI already uploads its reports to temporary-public-storage
+      # (URLs are printed in the job log), so no GHA artefact for it.
       - name: Upload Playwright report
         if: failure()
         uses: actions/upload-artifact@v4
         with:
           name: playwright-report
           path: playwright-report/
-          retention-days: 7
-
-      - name: Upload Lighthouse CI reports
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: lighthouseci-reports
-          path: .lighthouseci/
           retention-days: 7
