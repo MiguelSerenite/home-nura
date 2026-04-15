@@ -450,3 +450,304 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
 export function getPersonaGuideFaq(lang: Lang): CategoryFaqEntry[] {
   return personaFaqTemplates[lang]
 }
+
+// ---------------------------------------------------------------------
+// Problem / troubleshooting block — Moteur 3 page copy
+//
+// Phase FF: drives /[lang]/guides/probleme/[problem] pages. Each
+// Problem already carries a localized `query` (the exact search we
+// target); these helpers layer on severity-appropriate guidance,
+// category anchoring, and a derived FAQ so every troubleshooting
+// page ships with real body copy and FAQPage JSON-LD.
+//
+// Severity → CTA semantics:
+//   minor     → inline quick fix, no support escalation
+//   moderate  → step-by-step fix, with "still stuck?" fallback
+//   critical  → contact manufacturer first, never push affiliate
+// ---------------------------------------------------------------------
+
+import type { Problem, ProblemSeverity } from './types'
+
+export interface ProblemContent {
+  kicker: string
+  title: string
+  subtitle: string
+  severityLabel: string
+  diagnosis: string
+  quickFix: string
+  fallbackCta: string
+  backToCategoryLabel: string
+}
+
+interface ProblemUi {
+  kicker: string
+  subtitlePrefix: string
+  severityLabels: Record<ProblemSeverity, string>
+  diagnoses: Record<ProblemSeverity, string>
+  quickFixes: Record<ProblemSeverity, string>
+  fallbackCtas: Record<ProblemSeverity, string>
+  backToCategory: string
+  faq: (cat: string) => CategoryFaqEntry[]
+}
+
+const problemTemplates: Record<Lang, ProblemUi> = {
+  fr: {
+    kicker: 'Dépannage',
+    subtitlePrefix: 'Guide Home Nura — catégorie',
+    severityLabels: {
+      minor: 'Sévérité : mineure',
+      moderate: 'Sévérité : modérée',
+      critical: 'Sévérité : critique',
+    },
+    diagnoses: {
+      minor: `Ce symptôme est courant et généralement sans conséquence. Dans la plupart des cas, un nettoyage ciblé ou un ajustement d'utilisation résout le problème en moins de dix minutes.`,
+      moderate: `Ce symptôme n'est pas anodin mais reste réparable sans intervention professionnelle dans la majorité des cas. Suivez la procédure ci-dessous dans l'ordre et arrêtez-vous dès que le problème disparaît.`,
+      critical: `Attention : ce symptôme peut indiquer un défaut matériel sérieux. N'utilisez plus l'appareil tant que la cause n'est pas identifiée. Nous recommandons de contacter le fabricant ou un réparateur agréé avant toute tentative de remise en service.`,
+    },
+    quickFixes: {
+      minor: `Débranchez l'appareil, laissez-le refroidir, puis nettoyez l'élément concerné à l'eau tiède et au savon doux (jamais d'éponge abrasive sur les revêtements antiadhésifs). Remontez, rebranchez et testez un cycle court à vide.`,
+      moderate: `1. Débranchez et laissez refroidir. 2. Inspectez visuellement les composants accessibles. 3. Suivez la procédure constructeur (manuel ou site officiel). 4. Si la manipulation nécessite un démontage, arrêtez-vous et contactez le service client — garantie UE oblige.`,
+      critical: `Débranchez immédiatement et n'essayez pas de poursuivre l'utilisation. Documentez le symptôme (photo, vidéo, bruits), puis contactez le service client du fabricant. En Europe, la garantie légale de conformité couvre ce type de panne pendant au moins deux ans.`,
+    },
+    fallbackCtas: {
+      minor: 'Consulter notre méthodologie d\'achat',
+      moderate: 'Consulter la garantie et les pièces détachées',
+      critical: 'Contacter le fabricant',
+    },
+    backToCategory: 'Retour à la catégorie',
+    faq: (cat) => [
+      {
+        question: `Ce problème est-il couvert par la garantie européenne ?`,
+        answer: `En Europe, tout ${cat.toLowerCase()} acheté neuf chez un revendeur officiel bénéficie d'une garantie légale de conformité d'au moins deux ans (directive (UE) 2019/771). Cette garantie couvre les défauts présents à la livraison, quelle qu'en soit la manifestation ultérieure.`,
+      },
+      {
+        question: `Dois-je contacter le service après-vente ou retourner en magasin ?`,
+        answer: `Vous pouvez choisir : le droit européen met la garantie légale à la charge du vendeur, pas du fabricant. En pratique, un retour magasin est souvent plus rapide, mais le fabricant peut réparer si la casse est hors garantie. Gardez la preuve d'achat.`,
+      },
+      {
+        question: `Comment Home Nura intègre ces pannes dans ses tests ?`,
+        answer: `Notre méthodologie publique ajoute une pénalité Nura Score /10 pour tout ${cat.toLowerCase()} dont les pannes récurrentes sont documentées dans les retours utilisateurs européens. Un modèle qui tombe trop souvent en panne ne sort jamais en tête, quelle que soit sa marque.`,
+      },
+    ],
+  },
+  en: {
+    kicker: 'Troubleshooting',
+    subtitlePrefix: 'Home Nura guide — category',
+    severityLabels: {
+      minor: 'Severity: minor',
+      moderate: 'Severity: moderate',
+      critical: 'Severity: critical',
+    },
+    diagnoses: {
+      minor: `This symptom is common and usually harmless. In most cases, a targeted clean or a small change in usage fixes the problem in under ten minutes.`,
+      moderate: `This symptom isn't trivial but is still fixable without a professional in most cases. Work through the procedure below in order and stop as soon as the problem clears.`,
+      critical: `Warning: this symptom can indicate a serious hardware defect. Do not keep using the device until the cause is identified. We recommend contacting the manufacturer or an authorised repairer before any attempt to restart it.`,
+    },
+    quickFixes: {
+      minor: `Unplug the device, let it cool down, then clean the affected part with warm water and mild soap (never abrasive sponges on non-stick coatings). Reassemble, plug back in and run a short empty cycle to test.`,
+      moderate: `1. Unplug and let cool. 2. Visually inspect accessible components. 3. Follow the manufacturer procedure (manual or official site). 4. If the fix requires disassembly, stop and contact customer support — EU warranty obliges.`,
+      critical: `Unplug immediately and do not continue using the device. Document the symptom (photo, video, sounds), then contact the manufacturer's support. In Europe the legal conformity guarantee covers this type of failure for at least two years.`,
+    },
+    fallbackCtas: {
+      minor: 'See our buying methodology',
+      moderate: 'Check warranty and spare parts',
+      critical: 'Contact the manufacturer',
+    },
+    backToCategory: 'Back to category',
+    faq: (cat) => [
+      {
+        question: `Is this problem covered by the European warranty?`,
+        answer: `In Europe, any ${cat.toLowerCase()} bought new from an official reseller benefits from a legal conformity guarantee of at least two years (Directive (EU) 2019/771). This guarantee covers defects present at delivery, whenever they first manifest.`,
+      },
+      {
+        question: `Should I contact after-sales support or return to the store?`,
+        answer: `You can pick: European law puts the legal guarantee on the seller, not the manufacturer. In practice, a store return is usually faster, but the manufacturer can repair if the damage is out of warranty. Keep proof of purchase.`,
+      },
+      {
+        question: `How does Home Nura factor these failures into its reviews?`,
+        answer: `Our public methodology adds a Nura Score /10 penalty to any ${cat.toLowerCase()} whose recurring failures are documented in European user feedback. A model that breaks too often never tops our charts, brand notwithstanding.`,
+      },
+    ],
+  },
+  de: {
+    kicker: 'Fehlerbehebung',
+    subtitlePrefix: 'Home-Nura-Leitfaden — Kategorie',
+    severityLabels: {
+      minor: 'Schweregrad: gering',
+      moderate: 'Schweregrad: mittel',
+      critical: 'Schweregrad: kritisch',
+    },
+    diagnoses: {
+      minor: `Dieses Symptom ist häufig und meist harmlos. In den meisten Fällen löst eine gezielte Reinigung oder eine kleine Nutzungsanpassung das Problem in unter zehn Minuten.`,
+      moderate: `Dieses Symptom ist nicht trivial, lässt sich aber in den meisten Fällen ohne Fachkraft beheben. Arbeiten Sie die Schritte unten der Reihe nach ab und hören Sie auf, sobald das Problem weg ist.`,
+      critical: `Achtung: Dieses Symptom kann auf einen ernsten Hardwaredefekt hindeuten. Verwenden Sie das Gerät nicht weiter, bis die Ursache geklärt ist. Wir empfehlen, vor jedem Startversuch den Hersteller oder einen autorisierten Reparateur zu kontaktieren.`,
+    },
+    quickFixes: {
+      minor: `Gerät ausstecken, abkühlen lassen und das betroffene Bauteil mit warmem Wasser und mildem Spülmittel reinigen (niemals Scheuerschwämme auf Antihaft­beschichtungen). Wieder zusammenbauen, anschließen und einen kurzen Leerlauf testen.`,
+      moderate: `1. Ausstecken und abkühlen lassen. 2. Zugängliche Bauteile visuell prüfen. 3. Der Herstelleranleitung folgen (Handbuch oder offizielle Seite). 4. Wenn eine Demontage nötig ist, abbrechen und den Kundendienst kontaktieren — EU-Garantie zwingt dazu.`,
+      critical: `Sofort ausstecken und nicht weiter verwenden. Symptom dokumentieren (Foto, Video, Geräusche) und den Hersteller-Support kontaktieren. In Europa deckt die gesetzliche Konformitätsgarantie solche Fälle mindestens zwei Jahre ab.`,
+    },
+    fallbackCtas: {
+      minor: 'Zur Kaufmethodik',
+      moderate: 'Garantie und Ersatzteile prüfen',
+      critical: 'Hersteller kontaktieren',
+    },
+    backToCategory: 'Zurück zur Kategorie',
+    faq: (cat) => [
+      {
+        question: `Ist dieses Problem durch die europäische Garantie abgedeckt?`,
+        answer: `In Europa profitiert jede neu beim offiziellen Händler gekaufte ${cat} von einer gesetzlichen Konformitätsgarantie von mindestens zwei Jahren (Richtlinie (EU) 2019/771). Sie deckt Mängel, die bei Übergabe bestanden, unabhängig vom späteren Auftreten.`,
+      },
+      {
+        question: `Soll ich den Kundendienst kontaktieren oder das Gerät im Laden zurückgeben?`,
+        answer: `Sie haben die Wahl: EU-Recht legt die gesetzliche Garantie auf den Verkäufer, nicht den Hersteller. In der Praxis ist die Ladenrückgabe meist schneller, aber der Hersteller kann bei Schäden außerhalb der Garantie reparieren. Kaufnachweis aufbewahren.`,
+      },
+      {
+        question: `Wie fließen solche Defekte in die Home-Nura-Tests ein?`,
+        answer: `Unsere öffentliche Methodik zieht jedem ${cat}-Modell Nura-Score-Punkte ab, wenn wiederkehrende Defekte in europäischen Nutzerrückmeldungen dokumentiert sind. Ein Gerät, das zu oft ausfällt, landet nie oben — Marke hin oder her.`,
+      },
+    ],
+  },
+  es: {
+    kicker: 'Solución de problemas',
+    subtitlePrefix: 'Guía Home Nura — categoría',
+    severityLabels: {
+      minor: 'Gravedad: menor',
+      moderate: 'Gravedad: moderada',
+      critical: 'Gravedad: crítica',
+    },
+    diagnoses: {
+      minor: `Este síntoma es común y suele ser inofensivo. En la mayoría de los casos, una limpieza específica o un pequeño cambio de uso resuelve el problema en menos de diez minutos.`,
+      moderate: `Este síntoma no es trivial pero suele poder resolverse sin profesional. Siga el procedimiento a continuación en orden y deténgase en cuanto el problema desaparezca.`,
+      critical: `Atención: este síntoma puede indicar un defecto de hardware grave. No siga usando el aparato hasta identificar la causa. Recomendamos contactar con el fabricante o un reparador autorizado antes de cualquier intento de reutilizarlo.`,
+    },
+    quickFixes: {
+      minor: `Desenchufe el aparato, déjelo enfriar y limpie la pieza afectada con agua tibia y jabón suave (nunca esponjas abrasivas sobre revestimientos antiadherentes). Vuelva a montar, conecte y pruebe con un ciclo corto en vacío.`,
+      moderate: `1. Desconectar y dejar enfriar. 2. Inspeccionar visualmente los componentes accesibles. 3. Seguir el procedimiento del fabricante (manual o sitio oficial). 4. Si es necesario desmontar, detenerse y contactar con el servicio de atención — garantía UE obliga.`,
+      critical: `Desconéctelo inmediatamente y no siga utilizándolo. Documente el síntoma (foto, vídeo, ruidos) y contacte con el soporte del fabricante. En Europa, la garantía legal de conformidad cubre este tipo de fallo durante al menos dos años.`,
+    },
+    fallbackCtas: {
+      minor: 'Ver nuestra metodología de compra',
+      moderate: 'Revisar garantía y recambios',
+      critical: 'Contactar con el fabricante',
+    },
+    backToCategory: 'Volver a la categoría',
+    faq: (cat) => [
+      {
+        question: `¿Este problema está cubierto por la garantía europea?`,
+        answer: `En Europa, cualquier ${cat.toLowerCase()} comprada nueva en un distribuidor oficial se beneficia de una garantía legal de conformidad de al menos dos años (Directiva (UE) 2019/771). Cubre los defectos existentes en la entrega, se manifiesten cuando se manifiesten.`,
+      },
+      {
+        question: `¿Debo contactar con el servicio posventa o devolverlo a la tienda?`,
+        answer: `Puedes elegir: el derecho europeo pone la garantía legal sobre el vendedor, no sobre el fabricante. En la práctica, la devolución en tienda suele ser más rápida, pero el fabricante puede reparar si el daño está fuera de garantía. Guarda la prueba de compra.`,
+      },
+      {
+        question: `¿Cómo integra Home Nura estos fallos en sus análisis?`,
+        answer: `Nuestra metodología pública aplica una penalización al Nura Score /10 de toda ${cat.toLowerCase()} cuyas averías recurrentes estén documentadas en las opiniones europeas. Un modelo que falla demasiado no encabeza nunca nuestras listas, con marca o sin ella.`,
+      },
+    ],
+  },
+  it: {
+    kicker: 'Risoluzione problemi',
+    subtitlePrefix: 'Guida Home Nura — categoria',
+    severityLabels: {
+      minor: 'Gravità: minore',
+      moderate: 'Gravità: moderata',
+      critical: 'Gravità: critica',
+    },
+    diagnoses: {
+      minor: `Questo sintomo è comune e di solito innocuo. Nella maggior parte dei casi, una pulizia mirata o un piccolo cambiamento d'uso risolve il problema in meno di dieci minuti.`,
+      moderate: `Questo sintomo non è banale ma è solitamente risolvibile senza un professionista. Seguite la procedura in ordine e fermatevi appena il problema sparisce.`,
+      critical: `Attenzione: questo sintomo può indicare un difetto hardware grave. Non continuate a usare l'apparecchio finché la causa non è identificata. Consigliamo di contattare il produttore o un riparatore autorizzato prima di ogni tentativo di riavvio.`,
+    },
+    quickFixes: {
+      minor: `Staccate la spina, lasciate raffreddare, poi pulite la parte interessata con acqua tiepida e sapone delicato (mai spugne abrasive su rivestimenti antiaderenti). Rimontate, ricollegate e testate con un ciclo breve a vuoto.`,
+      moderate: `1. Staccare e lasciare raffreddare. 2. Controllare visivamente i componenti accessibili. 3. Seguire la procedura del produttore (manuale o sito ufficiale). 4. Se serve smontare, fermatevi e contattate l'assistenza — garanzia UE obbliga.`,
+      critical: `Staccate subito e non continuate a usarlo. Documentate il sintomo (foto, video, rumori) e contattate l'assistenza del produttore. In Europa la garanzia legale di conformità copre questo tipo di guasto per almeno due anni.`,
+    },
+    fallbackCtas: {
+      minor: 'Consulta la nostra metodologia',
+      moderate: 'Verifica garanzia e ricambi',
+      critical: 'Contattare il produttore',
+    },
+    backToCategory: 'Torna alla categoria',
+    faq: (cat) => [
+      {
+        question: `Questo problema è coperto dalla garanzia europea?`,
+        answer: `In Europa, ogni ${cat.toLowerCase()} acquistato nuovo presso un rivenditore ufficiale beneficia di una garanzia legale di conformità di almeno due anni (Direttiva (UE) 2019/771). Copre i difetti presenti alla consegna, indipendentemente da quando si manifestino.`,
+      },
+      {
+        question: `Devo contattare l'assistenza o restituire in negozio?`,
+        answer: `Potete scegliere: il diritto europeo pone la garanzia legale sul venditore, non sul produttore. In pratica, la restituzione in negozio è spesso più rapida, ma il produttore può riparare se il danno è fuori garanzia. Conservate la prova d'acquisto.`,
+      },
+      {
+        question: `Come integra Home Nura questi guasti nei suoi test?`,
+        answer: `La nostra metodologia pubblica applica una penalità al Nura Score /10 per ogni ${cat.toLowerCase()} con guasti ricorrenti documentati nei riscontri degli utenti europei. Un modello che si rompe troppo spesso non sale mai in cima, marchio a parte.`,
+      },
+    ],
+  },
+  nl: {
+    kicker: 'Probleemoplossing',
+    subtitlePrefix: 'Home Nura-gids — categorie',
+    severityLabels: {
+      minor: 'Ernst: klein',
+      moderate: 'Ernst: gemiddeld',
+      critical: 'Ernst: kritisch',
+    },
+    diagnoses: {
+      minor: `Dit symptoom komt vaak voor en is meestal onschuldig. In de meeste gevallen lost een gerichte reiniging of een kleine gebruiks­aanpassing het probleem in minder dan tien minuten op.`,
+      moderate: `Dit symptoom is niet triviaal, maar in de meeste gevallen oplosbaar zonder professional. Loop de procedure hieronder op volgorde door en stop zodra het probleem weg is.`,
+      critical: `Let op: dit symptoom kan wijzen op een ernstig hardwaredefect. Gebruik het apparaat niet verder tot de oorzaak bekend is. We raden aan om contact op te nemen met de fabrikant of een erkende reparateur voordat u het apparaat opnieuw gebruikt.`,
+    },
+    quickFixes: {
+      minor: `Haal de stekker eruit, laat het apparaat afkoelen en reinig het betreffende onderdeel met lauw water en milde zeep (nooit schuursponzen op antiaanbaklagen). Monteer het opnieuw, sluit aan en test met een korte lege cyclus.`,
+      moderate: `1. Stekker eruit en laten afkoelen. 2. Toegankelijke onderdelen visueel controleren. 3. Fabrikantsprocedure volgen (handleiding of officiële site). 4. Als demontage nodig is, stop en neem contact op met de klantenservice — EU-garantie verplicht.`,
+      critical: `Haal meteen de stekker eruit en gebruik het apparaat niet verder. Documenteer het symptoom (foto, video, geluiden) en neem contact op met de fabrieksservice. In Europa dekt de wettelijke conformiteitsgarantie dit soort gebreken minimaal twee jaar.`,
+    },
+    fallbackCtas: {
+      minor: 'Bekijk onze aankoopmethodiek',
+      moderate: 'Controleer garantie en onderdelen',
+      critical: 'Fabrikant contacteren',
+    },
+    backToCategory: 'Terug naar categorie',
+    faq: (cat) => [
+      {
+        question: `Valt dit probleem onder de Europese garantie?`,
+        answer: `In Europa geniet elke ${cat.toLowerCase()} die nieuw is gekocht bij een officiële verkoper een wettelijke conformiteitsgarantie van minstens twee jaar (Richtlijn (EU) 2019/771). Die dekt gebreken die bij levering aanwezig waren, ongeacht wanneer ze zichtbaar worden.`,
+      },
+      {
+        question: `Moet ik klantenservice bellen of terugbrengen naar de winkel?`,
+        answer: `U mag kiezen: het Europees recht legt de wettelijke garantie bij de verkoper, niet bij de fabrikant. In de praktijk is winkelretour vaak sneller, maar de fabrikant kan repareren als het buiten de garantie valt. Bewaar het aankoopbewijs.`,
+      },
+      {
+        question: `Hoe verwerkt Home Nura dit soort defecten in tests?`,
+        answer: `Onze publieke methodologie geeft een Nura Score /10-aftrek aan elke ${cat.toLowerCase()} waarvan terugkerende defecten zijn gedocumenteerd in Europese gebruikersfeedback. Een model dat te vaak stuk gaat, komt nooit bovenaan — merk of geen merk.`,
+      },
+    ],
+  },
+}
+
+export function getProblemContent(
+  lang: Lang,
+  problem: Problem,
+  category: Category
+): ProblemContent {
+  const tmpl = problemTemplates[lang]
+  return {
+    kicker: tmpl.kicker,
+    title: problem.query[lang],
+    subtitle: `${tmpl.subtitlePrefix} ${category.title[lang]}`,
+    severityLabel: tmpl.severityLabels[problem.severity],
+    diagnosis: tmpl.diagnoses[problem.severity],
+    quickFix: tmpl.quickFixes[problem.severity],
+    fallbackCta: tmpl.fallbackCtas[problem.severity],
+    backToCategoryLabel: tmpl.backToCategory,
+  }
+}
+
+export function getProblemFaq(
+  lang: Lang,
+  category: Category
+): CategoryFaqEntry[] {
+  return problemTemplates[lang].faq(category.title[lang])
+}

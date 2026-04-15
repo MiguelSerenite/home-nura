@@ -27,7 +27,10 @@ export {
   getCategoryFaq,
   getPersonaGuideHero,
   getPersonaGuideFaq,
+  getProblemContent,
+  getProblemFaq,
   type CategoryHero,
   type CategoryFaqEntry,
   type PersonaGuideHero,
+  type ProblemContent,
 } from './content'

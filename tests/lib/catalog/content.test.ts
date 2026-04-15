@@ -19,9 +19,13 @@ import {
   getCategoryFaq,
   getPersonaGuideHero,
   getPersonaGuideFaq,
+  getProblemContent,
+  getProblemFaq,
 } from '@/lib/catalog/content'
 import { getMetaSilo } from '@/lib/catalog/meta-silos'
 import { BUYER_PERSONAS } from '@/lib/catalog/buyer-personas'
+import { PROBLEMS } from '@/lib/catalog/problems'
+import { getCategory } from '@/lib/catalog/categories'
 
 const LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
@@ -181,6 +185,113 @@ describe('getPersonaGuideFaq', () => {
       for (const entry of faq) {
         expect(entry.question.trim().length).toBeGreaterThan(0)
         expect(entry.answer.trim().length).toBeGreaterThan(0)
+      }
+    }
+  })
+})
+
+describe('getProblemContent', () => {
+  it('every Problem resolves to a real Category (catalog integrity)', () => {
+    for (const p of PROBLEMS) {
+      const cat = getCategory(p.categorySlug)
+      expect(cat, `${p.slug}: parent category ${p.categorySlug} must exist`).toBeDefined()
+    }
+  })
+
+  it('returns populated content for every problem × locale', () => {
+    for (const p of PROBLEMS) {
+      const cat = getCategory(p.categorySlug)!
+      for (const lang of LANGS) {
+        const content = getProblemContent(lang, p, cat)
+        expect(content.kicker.trim().length, `${p.slug}.${lang}.kicker`).toBeGreaterThan(0)
+        expect(content.title.trim().length, `${p.slug}.${lang}.title`).toBeGreaterThan(0)
+        expect(content.subtitle.trim().length, `${p.slug}.${lang}.subtitle`).toBeGreaterThan(0)
+        expect(content.severityLabel.trim().length, `${p.slug}.${lang}.severityLabel`).toBeGreaterThan(0)
+        expect(content.diagnosis.trim().length, `${p.slug}.${lang}.diagnosis`).toBeGreaterThan(0)
+        expect(content.quickFix.trim().length, `${p.slug}.${lang}.quickFix`).toBeGreaterThan(0)
+        expect(content.fallbackCta.trim().length, `${p.slug}.${lang}.fallbackCta`).toBeGreaterThan(0)
+        expect(content.backToCategoryLabel.trim().length, `${p.slug}.${lang}.backToCategoryLabel`).toBeGreaterThan(0)
+      }
+    }
+  })
+
+  it('uses the localized problem query as the page title', () => {
+    for (const p of PROBLEMS) {
+      const cat = getCategory(p.categorySlug)!
+      for (const lang of LANGS) {
+        const content = getProblemContent(lang, p, cat)
+        expect(
+          content.title,
+          `${p.slug}.${lang}: title should equal problem.query[lang]`
+        ).toBe(p.query[lang])
+      }
+    }
+  })
+
+  it('embeds the category title inside the subtitle (topical anchor)', () => {
+    for (const p of PROBLEMS) {
+      const cat = getCategory(p.categorySlug)!
+      for (const lang of LANGS) {
+        const content = getProblemContent(lang, p, cat)
+        expect(
+          content.subtitle.toLowerCase().includes(cat.title[lang].toLowerCase()),
+          `${p.slug}.${lang}: subtitle should mention category title`
+        ).toBe(true)
+      }
+    }
+  })
+
+  it('severity label changes with problem severity (no wrong mapping)', () => {
+    // Pick a known critical problem and a known minor problem from the
+    // seed and check their labels differ. Guards against accidentally
+    // returning a constant severity label regardless of input.
+    const critical = PROBLEMS.find((p) => p.severity === 'critical')!
+    const minor = PROBLEMS.find((p) => p.severity === 'minor')!
+    const catCritical = getCategory(critical.categorySlug)!
+    const catMinor = getCategory(minor.categorySlug)!
+    for (const lang of LANGS) {
+      const c = getProblemContent(lang, critical, catCritical)
+      const m = getProblemContent(lang, minor, catMinor)
+      expect(
+        c.severityLabel,
+        `${lang}: critical vs minor severity labels must differ`
+      ).not.toBe(m.severityLabel)
+      expect(
+        c.diagnosis,
+        `${lang}: critical vs minor diagnoses must differ`
+      ).not.toBe(m.diagnosis)
+    }
+  })
+})
+
+describe('getProblemFaq', () => {
+  it('returns at least 3 entries for every problem × locale', () => {
+    for (const p of PROBLEMS) {
+      const cat = getCategory(p.categorySlug)!
+      for (const lang of LANGS) {
+        const faq = getProblemFaq(lang, cat)
+        expect(
+          faq.length,
+          `${p.slug}.${lang}: problem FAQ length`
+        ).toBeGreaterThanOrEqual(3)
+        for (const entry of faq) {
+          expect(entry.question.trim().length).toBeGreaterThan(0)
+          expect(entry.answer.trim().length).toBeGreaterThan(0)
+        }
+      }
+    }
+  })
+
+  it('FAQ references the category title in at least one answer (topical anchoring)', () => {
+    for (const p of PROBLEMS) {
+      const cat = getCategory(p.categorySlug)!
+      for (const lang of LANGS) {
+        const faq = getProblemFaq(lang, cat)
+        const blob = faq.map((e) => e.answer).join(' ').toLowerCase()
+        expect(
+          blob.includes(cat.title[lang].toLowerCase()),
+          `${p.slug}.${lang}: at least one FAQ answer should mention category title`
+        ).toBe(true)
       }
     }
   })
