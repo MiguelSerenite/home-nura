@@ -439,6 +439,7 @@ export default async function CategoryPage({
           <div className="mt-2 flex flex-wrap justify-center gap-6 text-xs font-medium text-slate-400">
             <Link href={`/${safeLang}`} className="hover:text-slate-600 transition-colors">Home</Link>
             <Link href={`/${safeLang}/cuisine-connectee`} className="hover:text-slate-600 transition-colors">{c.breadcrumbRoot}</Link>
+            <Link href={`/${safeLang}/cuisine-connectee/comparateur`} className="hover:text-slate-600 transition-colors">Comparator</Link>
             <Link href={`/${safeLang}/blog`} className="hover:text-slate-600 transition-colors">Blog</Link>
             <Link href={`/${safeLang}/a-propos`} className="hover:text-slate-600 transition-colors">About</Link>
           </div>

@@ -13,7 +13,10 @@ interface PillarContent {
   intro: string
   breadcrumb: string
   categoriesTitle: string
+  categoryKicker: string
   ctaCategory: string
+  comparatorCta: string
+  comparatorDesc: string
   categories: Record<SmartKitchenCategory, { name: string; tagline: string }>
 }
 
@@ -25,7 +28,10 @@ const pageContent: Record<string, PillarContent> = {
     intro: 'Après avoir passé au crible les airfryers, nous appliquons la même grille rigoureuse à l\'écosystème autour : appareils qui cuisent, pèsent, mesurent et pilotent à distance. Objectif : vous éviter les gadgets, garder ce qui simplifie réellement le quotidien.',
     breadcrumb: 'Cuisine connectée',
     categoriesTitle: 'Nos 5 catégories',
+    categoryKicker: 'Catégorie',
     ctaCategory: 'Voir la sélection',
+    comparatorCta: 'Ouvrir le comparateur',
+    comparatorDesc: 'Comparez jusqu\'à 3 modèles côte à côte, toutes catégories confondues.',
     categories: {
       multicuiseurs: {
         name: 'Multicuiseurs connectés',
@@ -56,7 +62,10 @@ const pageContent: Record<string, PillarContent> = {
     intro: 'After combing through air fryers, we apply the same rigorous grid to the wider ecosystem: devices that cook, weigh, measure and switch things on from across the room. The goal: cut out the gadgets, keep what actually makes daily life easier.',
     breadcrumb: 'Smart kitchen',
     categoriesTitle: 'Our 5 categories',
+    categoryKicker: 'Category',
     ctaCategory: 'See the shortlist',
+    comparatorCta: 'Open the comparator',
+    comparatorDesc: 'Compare up to 3 models side by side, across every category.',
     categories: {
       multicuiseurs: {
         name: 'Smart multicookers',
@@ -87,7 +96,10 @@ const pageContent: Record<string, PillarContent> = {
     intro: 'Nach dem Test der Heißluftfritteusen wenden wir dieselbe strenge Bewertung auf das gesamte Ökosystem an: Geräte zum Kochen, Wiegen, Messen und Fernsteuern. Ziel: Spielereien aussortieren, nur das behalten, was den Alltag wirklich erleichtert.',
     breadcrumb: 'Smarte Küche',
     categoriesTitle: 'Unsere 5 Kategorien',
+    categoryKicker: 'Kategorie',
     ctaCategory: 'Zur Auswahl',
+    comparatorCta: 'Vergleich öffnen',
+    comparatorDesc: 'Vergleichen Sie bis zu 3 Modelle direkt, kategorieübergreifend.',
     categories: {
       multicuiseurs: {
         name: 'Smarte Multikocher',
@@ -118,7 +130,10 @@ const pageContent: Record<string, PillarContent> = {
     intro: 'Tras analizar a fondo las freidoras de aire, aplicamos la misma rejilla rigurosa al ecosistema alrededor: aparatos que cocinan, pesan, miden y controlan a distancia. Objetivo: evitar los gadgets, conservar lo que simplifica de verdad el día a día.',
     breadcrumb: 'Cocina conectada',
     categoriesTitle: 'Nuestras 5 categorías',
+    categoryKicker: 'Categoría',
     ctaCategory: 'Ver la selección',
+    comparatorCta: 'Abrir el comparador',
+    comparatorDesc: 'Compara hasta 3 modelos lado a lado, en todas las categorías.',
     categories: {
       multicuiseurs: {
         name: 'Ollas multifunción conectadas',
@@ -149,7 +164,10 @@ const pageContent: Record<string, PillarContent> = {
     intro: 'Dopo aver passato al vaglio le friggitrici ad aria, applichiamo la stessa griglia rigorosa all\'ecosistema intorno: apparecchi che cuociono, pesano, misurano e si controllano da lontano. Obiettivo: evitare i gadget, tenere solo ciò che semplifica davvero la quotidianità.',
     breadcrumb: 'Cucina connessa',
     categoriesTitle: 'Le nostre 5 categorie',
+    categoryKicker: 'Categoria',
     ctaCategory: 'Vedi la selezione',
+    comparatorCta: 'Apri il comparatore',
+    comparatorDesc: 'Confronta fino a 3 modelli fianco a fianco, in tutte le categorie.',
     categories: {
       multicuiseurs: {
         name: 'Multicottura connesse',
@@ -180,7 +198,10 @@ const pageContent: Record<string, PillarContent> = {
     intro: 'Na het grondig testen van airfryers passen we dezelfde strikte methodologie toe op het hele ecosysteem eromheen: apparaten die koken, wegen, meten en op afstand bedienen. Doel: gadgets eruit, alleen houden wat het dagelijks leven echt makkelijker maakt.',
     breadcrumb: 'Slimme keuken',
     categoriesTitle: 'Onze 5 categorieën',
+    categoryKicker: 'Categorie',
     ctaCategory: 'Bekijk de selectie',
+    comparatorCta: 'Open de vergelijker',
+    comparatorDesc: 'Vergelijk tot 3 modellen naast elkaar, over alle categorieën heen.',
     categories: {
       multicuiseurs: {
         name: 'Slimme multicookers',
@@ -324,7 +345,7 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
                 className="group relative flex flex-col rounded-3xl border border-slate-200 bg-white p-6 transition-all hover:shadow-xl hover:-translate-y-1 hover:border-blue-200"
               >
                 <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600 mb-3">
-                  {String(index + 1).padStart(2, '0')} · Catégorie
+                  {String(index + 1).padStart(2, '0')} · {c.categoryKicker}
                 </div>
                 <h3 className="text-xl font-bold text-slate-900 leading-tight mb-3 group-hover:text-blue-700 transition-colors">
                   {cat.name}
@@ -338,6 +359,20 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
               </Link>
             )
           })}
+        </div>
+
+        {/* Comparator CTA */}
+        <div className="mt-12 rounded-3xl border border-blue-100 bg-gradient-to-br from-blue-50 to-white p-8 md:p-10 text-center">
+          <p className="text-base md:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto mb-6">
+            {c.comparatorDesc}
+          </p>
+          <Link
+            href={`/${safeLang}/cuisine-connectee/comparateur`}
+            className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-6 py-3 text-sm font-bold text-white transition-all hover:bg-blue-700 hover:shadow-lg"
+          >
+            <span>{c.comparatorCta}</span>
+            <span aria-hidden="true">→</span>
+          </Link>
         </div>
       </section>
 
