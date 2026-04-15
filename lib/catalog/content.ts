@@ -751,3 +751,444 @@ export function getProblemFaq(
 ): CategoryFaqEntry[] {
   return problemTemplates[lang].faq(category.title[lang])
 }
+
+// ---------------------------------------------------------------------
+// Best-for block — Moteur 4 page copy
+//
+// Phase HH: drives /[lang]/[silo]/[category]/meilleur-pour/[persona]
+// pages. These are the conversion layer: every URL answers the exact
+// long-tail query "best [category] for [persona]" — direct purchase
+// intent — so the templates are tuned per persona axis:
+//
+//   - household  → capacity / ergonomics / family-fit angle
+//   - budget     → price-tier-aware methodology angle
+//   - usage      → reliability-over-specs angle
+//   - constraint → hard-filter-first angle
+//
+// Only (category, persona) pairs where persona.applicableSilos
+// includes category.metaSilo are ever generated (enforced by the
+// route layer). That's what stops "best airfryer for RGPD strict"
+// from ever being prerendered.
+// ---------------------------------------------------------------------
+
+export interface BestForHero {
+  kicker: string
+  title: string
+  subtitle: string
+  intro: string
+  criteriaHeading: string
+  criteria: string[]
+}
+
+interface BestForTemplate {
+  kicker: string
+  title: (cat: string, persona: string) => string
+  subtitle: (cat: string, silo: string) => string
+  intros: Record<PersonaAxis, (cat: string, persona: string) => string>
+  criteriaHeading: string
+  criteria: Record<PersonaAxis, (cat: string, persona: string) => string[]>
+  faq: (cat: string, persona: string) => CategoryFaqEntry[]
+}
+
+const bestForTemplates: Record<Lang, BestForTemplate> = {
+  fr: {
+    kicker: 'Sélection ciblée',
+    title: (cat, persona) =>
+      `Le meilleur ${cat.toLowerCase()} pour ${persona.toLowerCase()} en 2026`,
+    subtitle: (cat, silo) =>
+      `Sélection Home Nura — ${cat} dans l'univers ${silo.toLowerCase()}`,
+    intros: {
+      household: (cat, persona) =>
+        `Vous cherchez le meilleur ${cat.toLowerCase()} pour ${persona.toLowerCase()} ? Notre sélection 2026 pondère d'abord la capacité, l'ergonomie quotidienne et la durabilité sur cinq ans — les trois critères qui comptent réellement pour ce type de foyer — puis arbitre sur le coût énergétique annuel en euros et la conformité européenne.`,
+      budget: (cat, persona) =>
+        `Pour un ${cat.toLowerCase()} adapté à un budget ${persona.toLowerCase()}, nous écartons d'abord tout modèle dont le coût total sur cinq ans (achat + énergie + pièces) sort de la tranche, puis nous classons sur la réparabilité et le service après-vente européen. Un bon produit de catégorie ${cat.toLowerCase()} doit rester rentable jusqu'au bout.`,
+      usage: (cat, persona) =>
+        `Pour un usage ${persona.toLowerCase()}, nos recommandations de ${cat.toLowerCase()} privilégient la fiabilité opérationnelle. Un modèle qui brille sur fiche technique mais dérive au bout de six mois n'entre jamais dans la short-list. Chaque entrée ci-dessous a été testée sur la durée, avec un coût énergétique annuel calculé pour le marché européen.`,
+      constraint: (cat, persona) =>
+        `La contrainte "${persona.toLowerCase()}" filtre drastiquement le marché du ${cat.toLowerCase()}. Notre méthodologie Home Nura applique ce filtre en premier, puis classe les modèles survivants sur les cinq critères européens habituels : étiquette énergie, coût annuel en euros, conformité RGPD, pièces détachées sur cinq ans, compatibilité Matter.`,
+    },
+    criteriaHeading: 'Les critères qui comptent pour ce profil',
+    criteria: {
+      household: (cat, persona) => [
+        `Capacité adaptée à ${persona.toLowerCase()} (ni sur-dimensionné, ni sous-dimensionné)`,
+        `Ergonomie d'usage quotidien — un ${cat.toLowerCase()} doit servir plusieurs fois par semaine sans friction`,
+        `Entretien simple (pièces démontables, compatibles lave-vaisselle quand pertinent)`,
+        `Coût énergétique annuel en euros — calculé sur base du tarif EU moyen 2026`,
+        `Durabilité cinq ans et disponibilité des pièces détachées`,
+      ],
+      budget: () => [
+        `Coût total sur cinq ans (achat + énergie + consommables) dans la tranche`,
+        `Réparabilité vérifiée — indice ≥ 7/10 quand le label existe`,
+        `Consommation déclarée cohérente avec la taille du produit`,
+        `Service après-vente européen joignable sans surcoût`,
+        `Pièces détachées disponibles pendant toute la garantie légale`,
+      ],
+      usage: (cat) => [
+        `Fiabilité mesurée sur 6 à 12 mois de retours utilisateurs européens`,
+        `Taux de panne faible sur la première année`,
+        `Support logiciel et firmware à jour — pas d'abandon prématuré`,
+        `Coût énergétique annuel réaliste pour un ${cat.toLowerCase()} sollicité régulièrement`,
+        `Compatibilité Matter et écosystèmes locaux si pertinent`,
+      ],
+      constraint: (cat, persona) => [
+        `Respect strict de la contrainte "${persona.toLowerCase()}" — aucun compromis`,
+        `Étiquette énergie EU visible et datée`,
+        `Conformité RGPD documentée (stockage local ou cloud européen)`,
+        `Coût énergétique annuel chiffré pour le ${cat.toLowerCase()}`,
+        `Pièces détachées garanties sur la durée de la garantie légale`,
+      ],
+    },
+    faq: (cat, persona) => [
+      {
+        question: `Pourquoi croiser ${cat.toLowerCase()} et ${persona.toLowerCase()} ?`,
+        answer: `Parce qu'acheter un ${cat.toLowerCase()} sans tenir compte de votre profil mène quatre fois sur cinq à un modèle mal dimensionné. La même catégorie produit n'a pas le même classement "meilleur" selon ${persona.toLowerCase()} : nos pondérations changent pour refléter ce qui compte vraiment dans votre situation.`,
+      },
+      {
+        question: `Vos sélections changent-elles entre les marchés européens ?`,
+        answer: `Oui, ponctuellement. Un modèle recommandé en France peut ne pas être le meilleur en Allemagne si son étiquette énergie locale diffère ou si son service après-vente n'est pas représenté. Chaque classement Home Nura vérifie la disponibilité et le tarif marché par marché pour le ${cat.toLowerCase()}.`,
+      },
+      {
+        question: `À quelle fréquence mettez-vous à jour cette sélection ?`,
+        answer: `Nos sélections sont revues tous les trimestres. Un ${cat.toLowerCase()} qui sort du top Home Nura 2026 est retiré sans délai, avec un lien de remplacement visible. La date de dernière mise à jour est affichée en haut de chaque page.`,
+      },
+    ],
+  },
+  en: {
+    kicker: 'Targeted pick',
+    title: (cat, persona) =>
+      `The best ${cat.toLowerCase()} for ${persona.toLowerCase()} in 2026`,
+    subtitle: (cat, silo) =>
+      `Home Nura selection — ${cat} within ${silo.toLowerCase()}`,
+    intros: {
+      household: (cat, persona) =>
+        `Looking for the best ${cat.toLowerCase()} for ${persona.toLowerCase()}? Our 2026 selection weights capacity, daily ergonomics and five-year durability first — the three criteria that actually matter for this household type — then sorts on annual energy cost in euros and European compliance.`,
+      budget: (cat, persona) =>
+        `For a ${cat.toLowerCase()} matched to a ${persona.toLowerCase()} budget, we first discard any model whose five-year total cost (purchase + energy + parts) lands out of range, then rank on repairability and European after-sales service. A good ${cat.toLowerCase()} has to stay profitable through the finish line.`,
+      usage: (cat, persona) =>
+        `For ${persona.toLowerCase()} use, our ${cat.toLowerCase()} picks privilege operational reliability. A model that shines on the spec sheet but drifts within six months never reaches our shortlist. Every entry below has been tested over time, with an annual energy cost calculated for the European market.`,
+      constraint: (cat, persona) =>
+        `The "${persona.toLowerCase()}" constraint filters the ${cat.toLowerCase()} market drastically. Our Home Nura methodology applies this filter first, then ranks survivors on the five usual European criteria: EU energy label, annual cost in euros, GDPR compliance, five-year spare parts, Matter support.`,
+    },
+    criteriaHeading: 'Criteria that matter for this profile',
+    criteria: {
+      household: (cat, persona) => [
+        `Capacity matched to ${persona.toLowerCase()} (neither over- nor under-sized)`,
+        `Everyday ergonomics — a ${cat.toLowerCase()} used multiple times a week must stay frictionless`,
+        `Simple maintenance (removable parts, dishwasher-safe where relevant)`,
+        `Annual energy cost in euros — based on the 2026 EU average tariff`,
+        `Five-year durability and spare-part availability`,
+      ],
+      budget: () => [
+        `Five-year total cost (purchase + energy + consumables) within the bracket`,
+        `Verified repairability — score ≥ 7/10 where a label exists`,
+        `Declared consumption consistent with product size`,
+        `European after-sales service reachable without surcharge`,
+        `Spare parts available throughout the statutory warranty`,
+      ],
+      usage: (cat) => [
+        `Reliability measured over 6 to 12 months of European user feedback`,
+        `Low failure rate in the first year`,
+        `Software and firmware support kept current — no early abandonment`,
+        `Realistic annual energy cost for a ${cat.toLowerCase()} under regular load`,
+        `Matter support and local ecosystem compatibility when relevant`,
+      ],
+      constraint: (cat, persona) => [
+        `Strict respect of the "${persona.toLowerCase()}" constraint — no compromise`,
+        `EU energy label visible and dated`,
+        `Documented GDPR compliance (local storage or European cloud)`,
+        `Annual energy cost stated for the ${cat.toLowerCase()}`,
+        `Spare parts guaranteed for the full statutory warranty period`,
+      ],
+    },
+    faq: (cat, persona) => [
+      {
+        question: `Why cross ${cat.toLowerCase()} with ${persona.toLowerCase()}?`,
+        answer: `Because buying a ${cat.toLowerCase()} without accounting for your profile leads to a wrong-sized model four times out of five. The same product category doesn't rank "best" the same way for ${persona.toLowerCase()}: our weights shift to reflect what actually matters in your situation.`,
+      },
+      {
+        question: `Do your picks change between European markets?`,
+        answer: `Yes, occasionally. A model recommended in France might not be the best in Germany if the local energy label differs or if its after-sales service isn't represented. Every Home Nura ranking checks availability and pricing market by market for the ${cat.toLowerCase()}.`,
+      },
+      {
+        question: `How often do you refresh this selection?`,
+        answer: `Our picks are reviewed every quarter. A ${cat.toLowerCase()} that drops out of the Home Nura 2026 top list is removed immediately, with a replacement link visible. The last updated stamp is shown at the top of every page.`,
+      },
+    ],
+  },
+  de: {
+    kicker: 'Gezielte Auswahl',
+    title: (cat, persona) => `Der beste ${cat} für ${persona} 2026`,
+    subtitle: (cat, silo) => `Home-Nura-Auswahl — ${cat} im Bereich ${silo}`,
+    intros: {
+      household: (cat, persona) =>
+        `Sie suchen den besten ${cat} für ${persona}? Unsere Auswahl 2026 gewichtet zuerst Kapazität, Alltagsergonomie und fünfjährige Langlebigkeit — die drei Kriterien, die für diesen Haushaltstyp wirklich zählen — und sortiert dann nach jährlichen Energiekosten in Euro und EU-Konformität.`,
+      budget: (cat, persona) =>
+        `Für einen ${cat}, der zum Budget "${persona}" passt, verwerfen wir zuerst jedes Modell, dessen Fünf-Jahres-Gesamtkosten (Kauf + Energie + Teile) außerhalb der Spanne liegen, und sortieren dann nach Reparierbarkeit und europäischem Kundendienst. Ein guter ${cat} muss bis zum Ende rentabel bleiben.`,
+      usage: (cat, persona) =>
+        `Für die Nutzung "${persona}" gewichten unsere ${cat}-Empfehlungen die Betriebszuverlässigkeit. Ein Modell, das auf dem Datenblatt glänzt, aber nach sechs Monaten abbaut, schafft es nicht in unsere Shortlist. Jeder Eintrag unten wurde über Zeit getestet, mit jährlichen Energiekosten für den europäischen Markt.`,
+      constraint: (cat, persona) =>
+        `Die Einschränkung "${persona}" filtert den ${cat}-Markt radikal. Unsere Home-Nura-Methodik wendet diesen Filter zuerst an und ordnet die Überlebenden nach den fünf üblichen europäischen Kriterien: EU-Energielabel, jährliche Kosten in Euro, DSGVO-Konformität, fünfjährige Ersatzteile, Matter-Unterstützung.`,
+    },
+    criteriaHeading: 'Kriterien, die für dieses Profil zählen',
+    criteria: {
+      household: (cat, persona) => [
+        `Kapazität passend zu ${persona} (weder über- noch unterdimensioniert)`,
+        `Alltagsergonomie — ein ${cat}, der mehrmals wöchentlich läuft, muss reibungslos bedienbar sein`,
+        `Einfache Wartung (entnehmbare Teile, spülmaschinengeeignet wo sinnvoll)`,
+        `Jährliche Energiekosten in Euro — basierend auf dem EU-Durchschnittstarif 2026`,
+        `Fünfjährige Langlebigkeit und Ersatzteilverfügbarkeit`,
+      ],
+      budget: () => [
+        `Fünf-Jahres-Gesamtkosten (Kauf + Energie + Verbrauchsmaterial) in der Spanne`,
+        `Verifizierte Reparierbarkeit — Score ≥ 7/10 bei existierendem Label`,
+        `Angegebener Verbrauch konsistent zur Produktgröße`,
+        `Europäischer Kundendienst ohne Zusatzkosten erreichbar`,
+        `Ersatzteile während der gesamten gesetzlichen Gewährleistung verfügbar`,
+      ],
+      usage: (cat) => [
+        `Zuverlässigkeit gemessen über 6 bis 12 Monate europäischer Rückmeldungen`,
+        `Niedrige Ausfallquote im ersten Jahr`,
+        `Software- und Firmware-Support aktuell — keine frühen Abbrüche`,
+        `Realistische jährliche Energiekosten für einen ${cat} unter regelmäßiger Last`,
+        `Matter-Unterstützung und lokale Ökosystem-Kompatibilität bei Bedarf`,
+      ],
+      constraint: (cat, persona) => [
+        `Strikte Einhaltung der Einschränkung "${persona}" — keine Kompromisse`,
+        `EU-Energielabel sichtbar und datiert`,
+        `Dokumentierte DSGVO-Konformität (lokale Speicherung oder europäische Cloud)`,
+        `Jährliche Energiekosten für den ${cat} beziffert`,
+        `Ersatzteile über die gesamte gesetzliche Gewährleistungsdauer garantiert`,
+      ],
+    },
+    faq: (cat, persona) => [
+      {
+        question: `Warum ${cat} und ${persona} kreuzen?`,
+        answer: `Weil der Kauf eines ${cat} ohne Rücksicht auf das eigene Profil in vier von fünf Fällen zu einem falsch dimensionierten Modell führt. Dieselbe Produktkategorie bekommt für ${persona} nicht dasselbe "Beste"-Ranking: unsere Gewichte verschieben sich, um zu spiegeln, was in Ihrer Situation wirklich zählt.`,
+      },
+      {
+        question: `Unterscheiden sich Ihre Empfehlungen zwischen europäischen Märkten?`,
+        answer: `Gelegentlich ja. Ein in Frankreich empfohlenes Modell ist in Deutschland nicht unbedingt das beste, wenn das lokale Energielabel abweicht oder der Kundendienst nicht vertreten ist. Jedes Home-Nura-Ranking prüft Verfügbarkeit und Preis Markt für Markt für den ${cat}.`,
+      },
+      {
+        question: `Wie oft aktualisieren Sie diese Auswahl?`,
+        answer: `Unsere Auswahl wird quartalsweise überprüft. Ein ${cat}, der aus der Home-Nura-Top-Liste 2026 herausfällt, wird sofort entfernt, mit einem sichtbaren Ersatzlink. Das „Zuletzt aktualisiert"-Datum steht oben auf jeder Seite.`,
+      },
+    ],
+  },
+  es: {
+    kicker: 'Selección dirigida',
+    title: (cat, persona) =>
+      `El mejor ${cat.toLowerCase()} para ${persona.toLowerCase()} en 2026`,
+    subtitle: (cat, silo) =>
+      `Selección Home Nura — ${cat} en el universo ${silo.toLowerCase()}`,
+    intros: {
+      household: (cat, persona) =>
+        `¿Busca el mejor ${cat.toLowerCase()} para ${persona.toLowerCase()}? Nuestra selección 2026 pondera primero la capacidad, la ergonomía diaria y la durabilidad a cinco años — los tres criterios que realmente cuentan para este tipo de hogar — y luego ordena por coste energético anual en euros y cumplimiento europeo.`,
+      budget: (cat, persona) =>
+        `Para un ${cat.toLowerCase()} ajustado a un presupuesto ${persona.toLowerCase()}, descartamos primero cualquier modelo cuyo coste total a cinco años (compra + energía + piezas) quede fuera del rango, luego clasificamos por reparabilidad y servicio postventa europeo. Un buen ${cat.toLowerCase()} tiene que seguir siendo rentable hasta el final.`,
+      usage: (cat, persona) =>
+        `Para un uso ${persona.toLowerCase()}, nuestras recomendaciones de ${cat.toLowerCase()} priorizan la fiabilidad operativa. Un modelo que brilla en la ficha técnica pero se deteriora a los seis meses no entra en la selección. Cada entrada ha sido probada en el tiempo, con un coste energético anual calculado para el mercado europeo.`,
+      constraint: (cat, persona) =>
+        `La restricción "${persona.toLowerCase()}" filtra drásticamente el mercado del ${cat.toLowerCase()}. Nuestra metodología Home Nura aplica este filtro primero y luego clasifica los supervivientes según los cinco criterios europeos habituales: etiqueta energética EU, coste anual en euros, conformidad RGPD, recambios a cinco años, soporte Matter.`,
+    },
+    criteriaHeading: 'Criterios que cuentan para este perfil',
+    criteria: {
+      household: (cat, persona) => [
+        `Capacidad adaptada a ${persona.toLowerCase()} (ni sobredimensionada ni insuficiente)`,
+        `Ergonomía de uso diario — un ${cat.toLowerCase()} usado varias veces por semana debe ser fluido`,
+        `Mantenimiento simple (piezas desmontables, aptas para lavavajillas cuando proceda)`,
+        `Coste energético anual en euros — basado en la tarifa media EU 2026`,
+        `Durabilidad a cinco años y disponibilidad de recambios`,
+      ],
+      budget: () => [
+        `Coste total a cinco años (compra + energía + consumibles) dentro del tramo`,
+        `Reparabilidad verificada — puntuación ≥ 7/10 cuando existe etiqueta`,
+        `Consumo declarado coherente con el tamaño del producto`,
+        `Servicio postventa europeo accesible sin recargo`,
+        `Recambios disponibles durante toda la garantía legal`,
+      ],
+      usage: (cat) => [
+        `Fiabilidad medida en 6-12 meses de opiniones europeas`,
+        `Baja tasa de fallos durante el primer año`,
+        `Soporte de software y firmware al día — sin abandono prematuro`,
+        `Coste energético anual realista para un ${cat.toLowerCase()} de uso regular`,
+        `Compatibilidad Matter y ecosistemas locales cuando proceda`,
+      ],
+      constraint: (cat, persona) => [
+        `Respeto estricto de la restricción "${persona.toLowerCase()}" — sin concesiones`,
+        `Etiqueta energética EU visible y fechada`,
+        `Conformidad RGPD documentada (almacenamiento local o nube europea)`,
+        `Coste energético anual del ${cat.toLowerCase()} cifrado`,
+        `Recambios garantizados durante toda la garantía legal`,
+      ],
+    },
+    faq: (cat, persona) => [
+      {
+        question: `¿Por qué cruzar ${cat.toLowerCase()} con ${persona.toLowerCase()}?`,
+        answer: `Porque comprar un ${cat.toLowerCase()} sin tener en cuenta su perfil lleva cuatro de cada cinco veces a un modelo mal dimensionado. La misma categoría de producto no se clasifica como "mejor" igual para ${persona.toLowerCase()}: nuestras ponderaciones cambian para reflejar lo que realmente cuenta en su situación.`,
+      },
+      {
+        question: `¿Varían sus selecciones entre los mercados europeos?`,
+        answer: `Sí, ocasionalmente. Un modelo recomendado en Francia puede no ser el mejor en Alemania si su etiqueta energética local difiere o si su servicio postventa no está representado. Cada ranking Home Nura verifica disponibilidad y precio mercado por mercado para el ${cat.toLowerCase()}.`,
+      },
+      {
+        question: `¿Con qué frecuencia actualizan esta selección?`,
+        answer: `Nuestras selecciones se revisan cada trimestre. Un ${cat.toLowerCase()} que abandona el top Home Nura 2026 se retira de inmediato, con un enlace de reemplazo visible. La fecha de la última actualización aparece en la parte superior de cada página.`,
+      },
+    ],
+  },
+  it: {
+    kicker: 'Selezione mirata',
+    title: (cat, persona) =>
+      `Il miglior ${cat.toLowerCase()} per ${persona.toLowerCase()} nel 2026`,
+    subtitle: (cat, silo) =>
+      `Selezione Home Nura — ${cat} nell'universo ${silo.toLowerCase()}`,
+    intros: {
+      household: (cat, persona) =>
+        `Cercate il miglior ${cat.toLowerCase()} per ${persona.toLowerCase()}? La nostra selezione 2026 pesa prima capacità, ergonomia quotidiana e durabilità su cinque anni — i tre criteri che contano davvero per questo tipo di famiglia — poi ordina su costo energetico annuo in euro e conformità europea.`,
+      budget: (cat, persona) =>
+        `Per un ${cat.toLowerCase()} adatto a un budget ${persona.toLowerCase()}, scartiamo prima ogni modello il cui costo totale su cinque anni (acquisto + energia + ricambi) esce dalla fascia, poi classifichiamo su riparabilità e assistenza europea. Un buon ${cat.toLowerCase()} deve restare conveniente fino in fondo.`,
+      usage: (cat, persona) =>
+        `Per un uso ${persona.toLowerCase()}, le nostre scelte di ${cat.toLowerCase()} privilegiano l'affidabilità operativa. Un modello che brilla sulla scheda tecnica ma si deteriora dopo sei mesi non entra nella short-list. Ogni voce è stata testata nel tempo, con un costo energetico annuo calcolato per il mercato europeo.`,
+      constraint: (cat, persona) =>
+        `Il vincolo "${persona.toLowerCase()}" filtra drasticamente il mercato dei ${cat.toLowerCase()}. La metodologia Home Nura applica questo filtro per primo, poi classifica i modelli sopravvissuti sui cinque criteri europei soliti: etichetta energetica EU, costo annuo in euro, conformità GDPR, ricambi su cinque anni, supporto Matter.`,
+    },
+    criteriaHeading: 'Criteri che contano per questo profilo',
+    criteria: {
+      household: (cat, persona) => [
+        `Capacità adatta a ${persona.toLowerCase()} (né sovra- né sottodimensionata)`,
+        `Ergonomia d'uso quotidiano — un ${cat.toLowerCase()} usato più volte a settimana deve essere senza attriti`,
+        `Manutenzione semplice (parti smontabili, lavabili in lavastoviglie quando rilevante)`,
+        `Costo energetico annuo in euro — basato sulla tariffa media EU 2026`,
+        `Durabilità quinquennale e disponibilità ricambi`,
+      ],
+      budget: () => [
+        `Costo totale su cinque anni (acquisto + energia + consumabili) nella fascia`,
+        `Riparabilità verificata — punteggio ≥ 7/10 dove esiste l'etichetta`,
+        `Consumo dichiarato coerente con la dimensione del prodotto`,
+        `Assistenza europea raggiungibile senza sovrapprezzo`,
+        `Ricambi disponibili per tutta la garanzia legale`,
+      ],
+      usage: (cat) => [
+        `Affidabilità misurata su 6-12 mesi di feedback utenti europei`,
+        `Basso tasso di guasti nel primo anno`,
+        `Supporto software e firmware aggiornato — niente abbandono prematuro`,
+        `Costo energetico annuo realistico per un ${cat.toLowerCase()} sotto carico regolare`,
+        `Supporto Matter e compatibilità ecosistemi locali quando rilevante`,
+      ],
+      constraint: (cat, persona) => [
+        `Rispetto stretto del vincolo "${persona.toLowerCase()}" — nessun compromesso`,
+        `Etichetta energetica EU visibile e datata`,
+        `Conformità GDPR documentata (archiviazione locale o cloud europeo)`,
+        `Costo energetico annuo del ${cat.toLowerCase()} dichiarato`,
+        `Ricambi garantiti per tutta la durata della garanzia legale`,
+      ],
+    },
+    faq: (cat, persona) => [
+      {
+        question: `Perché incrociare ${cat.toLowerCase()} e ${persona.toLowerCase()}?`,
+        answer: `Perché acquistare un ${cat.toLowerCase()} senza considerare il proprio profilo porta nel 80% dei casi a un modello mal dimensionato. La stessa categoria di prodotto non si classifica "migliore" allo stesso modo per ${persona.toLowerCase()}: i nostri pesi cambiano per riflettere ciò che conta davvero nella vostra situazione.`,
+      },
+      {
+        question: `Le vostre scelte cambiano tra i mercati europei?`,
+        answer: `Sì, occasionalmente. Un modello raccomandato in Francia potrebbe non essere il migliore in Germania se l'etichetta energetica locale differisce o se l'assistenza non è rappresentata. Ogni classifica Home Nura verifica disponibilità e prezzo mercato per mercato per il ${cat.toLowerCase()}.`,
+      },
+      {
+        question: `Con quale frequenza aggiornate questa selezione?`,
+        answer: `Le nostre selezioni vengono riviste ogni trimestre. Un ${cat.toLowerCase()} che esce dalla top Home Nura 2026 viene rimosso immediatamente, con un link sostitutivo visibile. La data dell'ultimo aggiornamento è mostrata in cima a ogni pagina.`,
+      },
+    ],
+  },
+  nl: {
+    kicker: 'Gerichte selectie',
+    title: (cat, persona) =>
+      `De beste ${cat.toLowerCase()} voor ${persona.toLowerCase()} in 2026`,
+    subtitle: (cat, silo) =>
+      `Home Nura-selectie — ${cat} binnen ${silo.toLowerCase()}`,
+    intros: {
+      household: (cat, persona) =>
+        `Zoekt u de beste ${cat.toLowerCase()} voor ${persona.toLowerCase()}? Onze selectie 2026 weegt eerst capaciteit, dagelijkse ergonomie en vijfjarige duurzaamheid — de drie criteria die echt tellen voor dit huishoudentype — en sorteert daarna op jaarlijkse energiekost in euro en Europese conformiteit.`,
+      budget: (cat, persona) =>
+        `Voor een ${cat.toLowerCase()} afgestemd op een ${persona.toLowerCase()}-budget schrappen we eerst elk model waarvan de totale vijfjarige kost (aankoop + energie + onderdelen) buiten het bereik valt, en ranken daarna op repareerbaarheid en Europese service. Een goede ${cat.toLowerCase()} moet tot het einde rendabel blijven.`,
+      usage: (cat, persona) =>
+        `Voor ${persona.toLowerCase()}-gebruik geven onze ${cat.toLowerCase()}-keuzes voorrang aan operationele betrouwbaarheid. Een model dat schittert op het specificatieblad maar na zes maanden verslechtert, haalt onze shortlist niet. Elke vermelding is in de tijd getest, met een jaarlijkse energiekost berekend voor de Europese markt.`,
+      constraint: (cat, persona) =>
+        `De beperking "${persona.toLowerCase()}" filtert de ${cat.toLowerCase()}-markt drastisch. Onze Home Nura-methodologie past deze filter eerst toe en rangschikt de overlevers daarna op de vijf gebruikelijke Europese criteria: EU-energielabel, jaarlijkse kost in euro, AVG-conformiteit, vijfjarige onderdelen, Matter-ondersteuning.`,
+    },
+    criteriaHeading: 'Criteria die tellen voor dit profiel',
+    criteria: {
+      household: (cat, persona) => [
+        `Capaciteit afgestemd op ${persona.toLowerCase()} (niet te groot, niet te klein)`,
+        `Dagelijks gebruiksgemak — een ${cat.toLowerCase()} die meermaals per week draait moet vlot werken`,
+        `Eenvoudig onderhoud (demonteerbare onderdelen, vaatwasserbestendig waar relevant)`,
+        `Jaarlijkse energiekost in euro — op basis van het gemiddelde EU-tarief 2026`,
+        `Vijfjarige duurzaamheid en beschikbaarheid van onderdelen`,
+      ],
+      budget: () => [
+        `Totale vijfjarige kost (aankoop + energie + verbruiksgoederen) binnen de marge`,
+        `Geverifieerde repareerbaarheid — score ≥ 7/10 waar een label bestaat`,
+        `Opgegeven verbruik in lijn met productgrootte`,
+        `Europese klantenservice zonder meerkost bereikbaar`,
+        `Onderdelen beschikbaar gedurende de wettelijke garantie`,
+      ],
+      usage: (cat) => [
+        `Betrouwbaarheid gemeten over 6 tot 12 maanden Europese gebruikersfeedback`,
+        `Laag uitvalpercentage in het eerste jaar`,
+        `Software- en firmware-ondersteuning actueel — geen vroege opgave`,
+        `Realistische jaarlijkse energiekost voor een ${cat.toLowerCase()} onder reguliere belasting`,
+        `Matter-ondersteuning en lokale ecosysteem-compatibiliteit waar relevant`,
+      ],
+      constraint: (cat, persona) => [
+        `Strikte naleving van de beperking "${persona.toLowerCase()}" — geen compromis`,
+        `EU-energielabel zichtbaar en gedateerd`,
+        `Gedocumenteerde AVG-conformiteit (lokale opslag of Europese cloud)`,
+        `Jaarlijkse energiekost voor de ${cat.toLowerCase()} vermeld`,
+        `Onderdelen gegarandeerd voor de volledige wettelijke garantie`,
+      ],
+    },
+    faq: (cat, persona) => [
+      {
+        question: `Waarom ${cat.toLowerCase()} kruisen met ${persona.toLowerCase()}?`,
+        answer: `Omdat een ${cat.toLowerCase()} kopen zonder rekening te houden met uw profiel vier op de vijf keer leidt tot een verkeerd gedimensioneerd model. Dezelfde productcategorie krijgt niet dezelfde "beste"-ranking voor ${persona.toLowerCase()}: onze wegingen verschuiven om te weerspiegelen wat in uw situatie echt telt.`,
+      },
+      {
+        question: `Veranderen jullie selecties tussen Europese markten?`,
+        answer: `Ja, af en toe. Een in Frankrijk aanbevolen model is niet per se het beste in Duitsland als het lokale energielabel afwijkt of de service niet vertegenwoordigd is. Elke Home Nura-ranking controleert beschikbaarheid en prijs markt per markt voor de ${cat.toLowerCase()}.`,
+      },
+      {
+        question: `Hoe vaak werken jullie deze selectie bij?`,
+        answer: `Onze selecties worden elk kwartaal herzien. Een ${cat.toLowerCase()} die uit de Home Nura 2026 top valt, wordt meteen verwijderd, met een zichtbare vervangingslink. De "laatst bijgewerkt"-datum staat bovenaan elke pagina.`,
+      },
+    ],
+  },
+}
+
+export function getBestForHero(
+  lang: Lang,
+  category: Category,
+  persona: BuyerPersona,
+  siloTitle: string
+): BestForHero {
+  const tmpl = bestForTemplates[lang]
+  const catLabel = category.title[lang]
+  const personaLabel = persona.label[lang]
+  return {
+    kicker: tmpl.kicker,
+    title: tmpl.title(catLabel, personaLabel),
+    subtitle: tmpl.subtitle(catLabel, siloTitle),
+    intro: tmpl.intros[persona.axis](catLabel, personaLabel),
+    criteriaHeading: tmpl.criteriaHeading,
+    criteria: tmpl.criteria[persona.axis](catLabel, personaLabel),
+  }
+}
+
+export function getBestForFaq(
+  lang: Lang,
+  category: Category,
+  persona: BuyerPersona
+): CategoryFaqEntry[] {
+  return bestForTemplates[lang].faq(
+    category.title[lang],
+    persona.label[lang]
+  )
+}

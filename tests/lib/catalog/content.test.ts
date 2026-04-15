@@ -21,11 +21,19 @@ import {
   getPersonaGuideFaq,
   getProblemContent,
   getProblemFaq,
+  getBestForHero,
+  getBestForFaq,
 } from '@/lib/catalog/content'
 import { getMetaSilo } from '@/lib/catalog/meta-silos'
-import { BUYER_PERSONAS } from '@/lib/catalog/buyer-personas'
+import {
+  BUYER_PERSONAS,
+  getPersonasForSilo,
+} from '@/lib/catalog/buyer-personas'
 import { PROBLEMS } from '@/lib/catalog/problems'
-import { getCategory } from '@/lib/catalog/categories'
+import {
+  getCategory,
+  getIndexableCategories,
+} from '@/lib/catalog/categories'
 
 const LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
@@ -292,6 +300,102 @@ describe('getProblemFaq', () => {
           blob.includes(cat.title[lang].toLowerCase()),
           `${p.slug}.${lang}: at least one FAQ answer should mention category title`
         ).toBe(true)
+      }
+    }
+  })
+})
+
+describe('getBestForHero', () => {
+  it('returns populated content for every (indexable cat × applicable persona × locale)', () => {
+    for (const cat of getIndexableCategories()) {
+      const silo = getMetaSilo(cat.metaSilo)!
+      const personas = getPersonasForSilo(cat.metaSilo)
+      for (const persona of personas) {
+        for (const lang of LANGS) {
+          const hero = getBestForHero(lang, cat, persona, silo.title[lang])
+          const scope = `${cat.slug}.${persona.slug}.${lang}`
+          expect(hero.kicker.trim().length, `${scope}.kicker`).toBeGreaterThan(0)
+          expect(hero.title.trim().length, `${scope}.title`).toBeGreaterThan(0)
+          expect(hero.subtitle.trim().length, `${scope}.subtitle`).toBeGreaterThan(0)
+          expect(hero.intro.trim().length, `${scope}.intro`).toBeGreaterThan(0)
+          expect(hero.criteriaHeading.trim().length, `${scope}.criteriaHeading`).toBeGreaterThan(0)
+          expect(hero.criteria.length, `${scope}.criteria`).toBeGreaterThanOrEqual(3)
+          for (const c of hero.criteria) {
+            expect(c.trim().length).toBeGreaterThan(0)
+          }
+        }
+      }
+    }
+  })
+
+  it('embeds both category title and persona label in the hero title', () => {
+    for (const cat of getIndexableCategories()) {
+      const silo = getMetaSilo(cat.metaSilo)!
+      const personas = getPersonasForSilo(cat.metaSilo)
+      for (const persona of personas) {
+        for (const lang of LANGS) {
+          const hero = getBestForHero(lang, cat, persona, silo.title[lang])
+          const titleLc = hero.title.toLowerCase()
+          expect(
+            titleLc.includes(cat.title[lang].toLowerCase()),
+            `${cat.slug}.${persona.slug}.${lang}: hero.title should mention category`
+          ).toBe(true)
+          expect(
+            titleLc.includes(persona.label[lang].toLowerCase()),
+            `${cat.slug}.${persona.slug}.${lang}: hero.title should mention persona label`
+          ).toBe(true)
+        }
+      }
+    }
+  })
+
+  it('intro references the persona label (axis-specific template rendered)', () => {
+    for (const cat of getIndexableCategories()) {
+      const silo = getMetaSilo(cat.metaSilo)!
+      const personas = getPersonasForSilo(cat.metaSilo)
+      for (const persona of personas) {
+        for (const lang of LANGS) {
+          const hero = getBestForHero(lang, cat, persona, silo.title[lang])
+          expect(
+            hero.intro.toLowerCase().includes(persona.label[lang].toLowerCase()),
+            `${cat.slug}.${persona.slug}.${lang}: intro should mention persona label`
+          ).toBe(true)
+        }
+      }
+    }
+  })
+
+  it('subtitle references the silo title (anchors the cluster)', () => {
+    for (const cat of getIndexableCategories()) {
+      const silo = getMetaSilo(cat.metaSilo)!
+      const personas = getPersonasForSilo(cat.metaSilo)
+      for (const persona of personas) {
+        for (const lang of LANGS) {
+          const hero = getBestForHero(lang, cat, persona, silo.title[lang])
+          expect(
+            hero.subtitle.toLowerCase().includes(silo.title[lang].toLowerCase()),
+            `${cat.slug}.${persona.slug}.${lang}: subtitle should mention silo title`
+          ).toBe(true)
+        }
+      }
+    }
+  })
+})
+
+describe('getBestForFaq', () => {
+  it('returns at least 3 entries for every (cat × persona × locale)', () => {
+    for (const cat of getIndexableCategories()) {
+      const personas = getPersonasForSilo(cat.metaSilo)
+      for (const persona of personas) {
+        for (const lang of LANGS) {
+          const faq = getBestForFaq(lang, cat, persona)
+          const scope = `${cat.slug}.${persona.slug}.${lang}`
+          expect(faq.length, `${scope}: best-for FAQ length`).toBeGreaterThanOrEqual(3)
+          for (const e of faq) {
+            expect(e.question.trim().length).toBeGreaterThan(0)
+            expect(e.answer.trim().length).toBeGreaterThan(0)
+          }
+        }
       }
     }
   })
