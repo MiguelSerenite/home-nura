@@ -61,7 +61,7 @@ export default function CookieBanner({ lang, dict }: CookieBannerProps) {
         <div className="flex gap-3 shrink-0">
           <button
             onClick={handleReject}
-            className="px-5 py-2.5 text-sm font-bold text-slate-500 bg-slate-100 rounded-full hover:bg-slate-200 transition-colors"
+            className="px-5 py-2.5 text-sm font-bold text-slate-700 bg-slate-100 rounded-full hover:bg-slate-200 transition-colors"
           >
             {dict.cookie_reject}
           </button>
