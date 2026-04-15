@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 
-type KickerVariant = 'blue' | 'slate' | 'emerald' | 'amber'
+type KickerVariant = 'blue' | 'blue-light' | 'slate' | 'emerald' | 'amber'
 type KickerSize = 'sm' | 'md'
 
 interface KickerProps {
@@ -13,6 +13,7 @@ interface KickerProps {
 
 const VARIANT_CLASSES: Record<KickerVariant, string> = {
   blue: 'text-blue-600',
+  'blue-light': 'text-blue-300',
   slate: 'text-slate-500',
   emerald: 'text-emerald-600',
   amber: 'text-amber-600',

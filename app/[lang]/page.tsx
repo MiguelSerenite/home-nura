@@ -10,6 +10,7 @@ import { getStaticProducts } from '@/lib/products'
 import { buildProductListSchema, formatLastUpdated, lastUpdatedLabel, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import { getNonce } from '@/lib/nonce'
 import Link from 'next/link'
+import { Kicker, SiteFooter, Button } from '@/components/ui'
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
@@ -210,9 +211,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       {/* Product Section — editorial header */}
       <section className="max-w-7xl mx-auto px-4 pb-20">
         <div className="text-center mb-14 md:mb-16 px-4">
-          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
+          <Kicker className="mb-5">
             {lang === 'fr' ? 'La Sélection' : lang === 'de' ? 'Die Auswahl' : lang === 'es' ? 'La Selección' : lang === 'it' ? 'La Selezione' : lang === 'nl' ? 'De Selectie' : 'The Selection'}
-          </div>
+          </Kicker>
           <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-4">{dict.section_title}</h2>
           <p className="text-base md:text-lg text-slate-500 max-w-xl mx-auto">{dict.section_subtitle}</p>
           <div className="h-[2px] w-16 bg-blue-600 mx-auto mt-6"></div>
@@ -249,9 +250,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       {/* SEO Content — editorial long-read with numbered chapters */}
       <section className="max-w-3xl mx-auto px-6 pt-24 md:pt-28">
         <div className="text-center mb-16">
-          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
+          <Kicker className="mb-5">
             {lang === 'fr' ? 'Le Dossier' : lang === 'de' ? 'Das Dossier' : lang === 'es' ? 'El Dossier' : lang === 'it' ? 'Il Dossier' : lang === 'nl' ? 'Het Dossier' : 'The Dossier'}
-          </div>
+          </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight text-slate-900 mb-5">
             {lang === 'fr' ? 'Tout savoir sur l\'airfryer en 2026' : lang === 'de' ? 'Alles über den Airfryer 2026' : lang === 'es' ? 'Todo sobre la freidora de aire en 2026' : lang === 'it' ? 'Tutto sulla friggitrice ad aria nel 2026' : lang === 'nl' ? 'Alles over de airfryer in 2026' : 'Everything About the Air Fryer in 2026'}
           </h2>
@@ -290,9 +291,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             },
           ].map((chapter, i) => (
             <article key={i} className="py-14 md:py-16 first:pt-10">
-              <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-4">
+              <Kicker className="mb-4">
                 Chapitre · {chapter.num}
-              </div>
+              </Kicker>
               <h3 className="text-2xl md:text-[1.875rem] font-bold tracking-tight leading-[1.2] text-slate-900 mb-5">
                 {chapter.title}
               </h3>
@@ -313,20 +314,14 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       {/* Guide CTA — refined twin buttons */}
       <section className="max-w-3xl mx-auto px-6 py-20 md:py-24 text-center">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link
-            href={`/${lang}/guides/airfryers`}
-            className="group inline-flex items-center gap-3 px-8 py-4 bg-slate-900 text-white font-bold rounded-full hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl"
-          >
+          <Button href={`/${lang}/guides/airfryers`} variant="secondary" size="lg">
             <span className="tracking-wide">{dict.guide_title}</span>
-            <span className="transition-transform group-hover:translate-x-1">&rarr;</span>
-          </Link>
-          <Link
-            href={`/${lang}/blog`}
-            className="group inline-flex items-center gap-3 px-8 py-4 bg-white text-slate-900 font-bold rounded-full border-2 border-slate-900 hover:bg-slate-900 hover:text-white transition-all duration-300"
-          >
+            <span aria-hidden="true">&rarr;</span>
+          </Button>
+          <Button href={`/${lang}/blog`} variant="ghost" size="lg">
             <span className="tracking-wide">{lang === 'fr' ? 'Nos articles & recettes' : lang === 'de' ? 'Artikel & Rezepte' : lang === 'es' ? 'Artículos y recetas' : lang === 'it' ? 'Articoli e ricette' : lang === 'nl' ? 'Artikelen & recepten' : 'Articles & recipes'}</span>
-            <span className="transition-transform group-hover:translate-x-1">&rarr;</span>
-          </Link>
+            <span aria-hidden="true">&rarr;</span>
+          </Button>
         </div>
       </section>
 
@@ -338,9 +333,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         >
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div className="flex-1">
-              <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-3">
+              <Kicker className="mb-3">
                 {lang === 'fr' ? 'Au-delà de l\'airfryer' : lang === 'de' ? 'Jenseits des Airfryers' : lang === 'es' ? 'Más allá de la freidora' : lang === 'it' ? 'Oltre la friggitrice ad aria' : lang === 'nl' ? 'Voorbij de airfryer' : 'Beyond the air fryer'}
-              </div>
+              </Kicker>
               <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-3">
                 {lang === 'fr' ? 'Découvrez la cuisine connectée' : lang === 'de' ? 'Entdecken Sie die smarte Küche' : lang === 'es' ? 'Descubre la cocina conectada' : lang === 'it' ? 'Scopri la cucina connessa' : lang === 'nl' ? 'Ontdek de slimme keuken' : 'Discover the smart kitchen'}
               </h2>
@@ -365,43 +360,30 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <NewsletterForm currentLang={lang} />
 
       {/* Footer with legal links */}
-      <footer className="bg-white border-t border-slate-100 py-12 px-6">
-        <div className="max-w-7xl mx-auto text-center">
-          <p className="text-sm text-slate-400">{dict.affiliate_disclaimer}</p>
-          <div className="mt-6 flex flex-wrap justify-center gap-6 text-xs font-medium text-slate-400">
-            <Link href={`/${lang}/guides/airfryers`} className="hover:text-slate-600 transition-colors">
-              Guide
-            </Link>
-            <Link href={`/${lang}/comparateur`} className="hover:text-slate-600 transition-colors">
-              Comparateur
-            </Link>
-            <Link href={`/${lang}/cuisine-connectee`} className="hover:text-slate-600 transition-colors">
-              {lang === 'fr' ? 'Cuisine connectée' : lang === 'de' ? 'Smarte Küche' : lang === 'es' ? 'Cocina conectada' : lang === 'it' ? 'Cucina connessa' : lang === 'nl' ? 'Slimme keuken' : 'Smart kitchen'}
-            </Link>
-            <Link href={`/${lang}/quiz`} className="hover:text-slate-600 transition-colors">
-              Quiz
-            </Link>
-            <Link href={`/${lang}/blog`} className="hover:text-slate-600 transition-colors">
-              Blog
-            </Link>
-            <Link href={`/${lang}/a-propos`} className="hover:text-slate-600 transition-colors">
-              {dict.about_link}
-            </Link>
-            <Link href={`/${lang}/mentions-legales`} className="hover:text-slate-600 transition-colors">
-              {dict.legal_notice}
-            </Link>
-            <Link href={`/${lang}/politique-confidentialite`} className="hover:text-slate-600 transition-colors">
-              {dict.privacy_policy}
-            </Link>
-            <Link href={`/${lang}/politique-cookies`} className="hover:text-slate-600 transition-colors">
-              {dict.cookie_policy}
-            </Link>
-          </div>
-          <div className="mt-4 flex justify-center gap-8 text-xs font-bold text-slate-300 uppercase tracking-widest">
-            <span>&copy; 2026 HOME NURA EUROPE</span>
-          </div>
-        </div>
-      </footer>
+      <SiteFooter
+        currentLang={lang}
+        topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
+        links={[
+          { href: `/${lang}/guides/airfryers`, label: 'Guide' },
+          { href: `/${lang}/comparateur`, label: 'Comparateur' },
+          {
+            href: `/${lang}/cuisine-connectee`,
+            label:
+              lang === 'fr' ? 'Cuisine connectée'
+              : lang === 'de' ? 'Smarte Küche'
+              : lang === 'es' ? 'Cocina conectada'
+              : lang === 'it' ? 'Cucina connessa'
+              : lang === 'nl' ? 'Slimme keuken'
+              : 'Smart kitchen',
+          },
+          { href: `/${lang}/quiz`, label: 'Quiz' },
+          { href: `/${lang}/blog`, label: 'Blog' },
+          { href: `/${lang}/a-propos`, label: dict.about_link },
+          { href: `/${lang}/mentions-legales`, label: dict.legal_notice },
+          { href: `/${lang}/politique-confidentialite`, label: dict.privacy_policy },
+          { href: `/${lang}/politique-cookies`, label: dict.cookie_policy },
+        ]}
+      />
 
       {/* Cookie Banner */}
       <CookieBanner

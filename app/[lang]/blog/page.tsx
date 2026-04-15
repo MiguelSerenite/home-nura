@@ -7,6 +7,7 @@ import { getArticleMetas, getArticlesByCategory } from '@/lib/blog'
 import { CATEGORIES } from '@/lib/blog/types'
 import { getNonce } from '@/lib/nonce'
 import type { Metadata } from 'next'
+import { SiteFooter, Button } from '@/components/ui'
 
 const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl']
 const BASE_URL = 'https://homenura.com'
@@ -208,34 +209,26 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
 
       {/* CTA to main comparatif + homepage */}
       <section className="max-w-3xl mx-auto px-6 py-16 text-center flex flex-col sm:flex-row items-center justify-center gap-4">
-        <Link
-          href={`/${lang}/guides/airfryers`}
-          className="inline-flex items-center gap-2 px-8 py-4 bg-slate-900 text-white font-bold rounded-full hover:bg-slate-800 transition-colors"
-        >
+        <Button href={`/${lang}/guides/airfryers`} variant="secondary" size="lg">
           {dict.guide_title || 'Guide Complet des Airfryers 2026'} &rarr;
-        </Link>
-        <Link
-          href={`/${lang}`}
-          className="inline-flex items-center gap-2 px-8 py-4 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition-colors"
-        >
+        </Button>
+        <Button href={`/${lang}`} size="lg">
           {lang === 'fr' ? 'Voir le comparatif' : lang === 'de' ? 'Zum Vergleich' : lang === 'es' ? 'Ver comparativa' : lang === 'it' ? 'Vedi confronto' : lang === 'nl' ? 'Bekijk vergelijking' : 'See comparison'} &rarr;
-        </Link>
+        </Button>
       </section>
 
       {/* Footer */}
-      <footer className="bg-white border-t border-slate-100 py-12 px-6">
-        <div className="max-w-7xl mx-auto text-center">
-          <p className="text-sm text-slate-400">{dict.affiliate_disclaimer}</p>
-          <div className="mt-6 flex flex-wrap justify-center gap-6 text-xs font-medium text-slate-400">
-            <Link href={`/${lang}`} className="hover:text-slate-600 transition-colors">{dict.breadcrumb_home || 'Accueil'}</Link>
-            <Link href={`/${lang}/a-propos`} className="hover:text-slate-600 transition-colors">{dict.about_link || 'À propos'}</Link>
-            <Link href={`/${lang}/guides/airfryers`} className="hover:text-slate-600 transition-colors">{dict.breadcrumb_guide || 'Guide'}</Link>
-            <Link href={`/${lang}/mentions-legales`} className="hover:text-slate-600 transition-colors">{dict.legal_notice}</Link>
-            <Link href={`/${lang}/politique-confidentialite`} className="hover:text-slate-600 transition-colors">{dict.privacy_policy}</Link>
-          </div>
-          <div className="mt-4 text-xs font-bold text-slate-300 uppercase tracking-widest">&copy; 2026 HOME NURA EUROPE</div>
-        </div>
-      </footer>
+      <SiteFooter
+        currentLang={lang}
+        topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
+        links={[
+          { href: `/${lang}`, label: dict.breadcrumb_home || 'Accueil' },
+          { href: `/${lang}/a-propos`, label: dict.about_link || 'À propos' },
+          { href: `/${lang}/guides/airfryers`, label: dict.breadcrumb_guide || 'Guide' },
+          { href: `/${lang}/mentions-legales`, label: dict.legal_notice },
+          { href: `/${lang}/politique-confidentialite`, label: dict.privacy_policy },
+        ]}
+      />
 
       <CookieBanner lang={lang} dict={{ cookie_banner_text: dict.cookie_banner_text, cookie_accept: dict.cookie_accept, cookie_reject: dict.cookie_reject, cookie_learn_more: dict.cookie_learn_more }} />
     </div>

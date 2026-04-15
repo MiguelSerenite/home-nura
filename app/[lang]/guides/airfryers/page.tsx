@@ -11,6 +11,7 @@ import { getNonce } from '@/lib/nonce'
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { Kicker, SiteFooter } from '@/components/ui'
 
 const guideContent: Record<string, {
   intro_title: string
@@ -665,9 +666,9 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
 
       {/* SEO Guide Content - Intro (editorial opening) */}
       <section className="max-w-3xl mx-auto px-6 pt-16 pb-16 md:pt-24 md:pb-20">
-        <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-6">
+        <Kicker className="mb-6">
           {lang === 'fr' ? 'L\'Édito' : lang === 'de' ? 'Editorial' : lang === 'es' ? 'Editorial' : lang === 'it' ? 'Editoriale' : lang === 'nl' ? 'Redactioneel' : 'Editorial'}
-        </div>
+        </Kicker>
         <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-6">{content.intro_title}</h2>
         <div className="h-[2px] w-16 bg-blue-600 mb-10"></div>
         <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85] [&::first-letter]:text-[5rem] [&::first-letter]:font-bold [&::first-letter]:text-blue-600 [&::first-letter]:float-left [&::first-letter]:mr-3 [&::first-letter]:leading-[0.85] [&::first-letter]:mt-2">
@@ -709,9 +710,9 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       {/* How to Choose — editorial dossier with 6 numbered chapters */}
       <section className="max-w-3xl mx-auto px-6 pt-16 md:pt-20 pb-10">
         <div className="text-center mb-14">
-          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
+          <Kicker className="mb-5">
             {lang === 'fr' ? 'Le Guide d\'Achat' : lang === 'de' ? 'Der Kaufratgeber' : lang === 'es' ? 'La Guía de Compra' : lang === 'it' ? 'La Guida all\'Acquisto' : lang === 'nl' ? 'De Koopgids' : 'The Buyer\'s Guide'}
-          </div>
+          </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">{content.how_to_choose_title}</h2>
           <div className="h-[2px] w-16 bg-blue-600 mx-auto mb-8"></div>
           <p className="text-base md:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">{content.how_to_choose_intro}</p>
@@ -727,9 +728,9 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
             { title: content.energy_title, body: content.energy_text },
           ].map((chap, i) => (
             <article key={i} className="py-12 md:py-14 first:pt-10">
-              <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-4">
+              <Kicker className="mb-4">
                 {['Critère · I', 'Critère · II', 'Critère · III', 'Critère · IV', 'Critère · V', 'Critère · VI'][i]}
-              </div>
+              </Kicker>
               <h3 className="text-2xl md:text-[1.75rem] font-bold tracking-tight leading-[1.2] text-slate-900 mb-5">{chap.title}</h3>
               <div className="h-px w-10 bg-blue-600 mb-6"></div>
               <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85]">{chap.body}</p>
@@ -741,9 +742,9 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       {/* Common Mistakes — editorial cards with numbered labels */}
       <section className="max-w-4xl mx-auto px-6 pt-16 pb-16 md:pt-20 md:pb-20">
         <div className="text-center mb-14">
-          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-amber-600 mb-5">
+          <Kicker variant="amber" className="mb-5">
             {lang === 'fr' ? 'Les Pièges' : lang === 'de' ? 'Die Fallen' : lang === 'es' ? 'Las Trampas' : lang === 'it' ? 'Le Insidie' : lang === 'nl' ? 'De Valkuilen' : 'The Pitfalls'}
-          </div>
+          </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">{content.mistakes_title}</h2>
           <div className="h-[2px] w-16 bg-amber-600 mx-auto mb-8"></div>
           <p className="text-base md:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">{content.mistakes_intro}</p>
@@ -753,9 +754,9 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           {content.mistakes.map((mistake, index) => (
             <div key={index} className="relative overflow-hidden bg-white rounded-2xl border border-slate-200 p-7 md:p-8 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
               <div className="absolute top-0 left-0 right-0 h-0.5 bg-amber-500"></div>
-              <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-amber-600 mb-3 tabular-nums">
+              <Kicker variant="amber" size="sm" className="mb-3 tabular-nums">
                 {String(index + 1).padStart(2, '0')}
-              </div>
+              </Kicker>
               <h3 className="text-lg font-bold text-slate-900 mb-4 leading-snug">{mistake.title}</h3>
               <div className="h-px w-8 bg-amber-500 mb-4"></div>
               <p className="text-sm text-slate-600 leading-[1.75]">{mistake.desc}</p>
@@ -766,9 +767,9 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
 
       {/* Maintenance Section — editorial feature */}
       <section className="max-w-3xl mx-auto px-6 pt-16 pb-16 md:pt-20 md:pb-20">
-        <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-6">
+        <Kicker className="mb-6">
           {lang === 'fr' ? 'L\'Entretien' : lang === 'de' ? 'Die Pflege' : lang === 'es' ? 'El Mantenimiento' : lang === 'it' ? 'La Manutenzione' : lang === 'nl' ? 'Het Onderhoud' : 'Maintenance'}
-        </div>
+        </Kicker>
         <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-6">{content.maintenance_title}</h2>
         <div className="h-[2px] w-16 bg-blue-600 mb-10"></div>
         <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85]">{content.maintenance_text}</p>
@@ -777,9 +778,9 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       {/* Recipes Section — editorial cookbook */}
       <section className="max-w-5xl mx-auto px-6 pt-16 pb-16 md:pt-20 md:pb-20">
         <div className="text-center mb-14">
-          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
+          <Kicker className="mb-5">
             {lang === 'fr' ? 'Le Cahier Recettes' : lang === 'de' ? 'Das Rezeptbuch' : lang === 'es' ? 'El Recetario' : lang === 'it' ? 'Il Ricettario' : lang === 'nl' ? 'Het Receptenboek' : 'The Recipe Book'}
-          </div>
+          </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">{content.recipes_title}</h2>
           <div className="h-[2px] w-16 bg-blue-600 mx-auto mb-8"></div>
           <p className="text-base md:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">{content.recipes_intro}</p>
@@ -806,9 +807,9 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           <div className="absolute top-0 left-0 h-[3px] w-24 bg-blue-400"></div>
           <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-blue-500/10 blur-3xl"></div>
           <div className="relative">
-            <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-300 mb-6">
+            <Kicker variant="blue-light" className="mb-6">
               {lang === 'fr' ? 'Verdict' : lang === 'de' ? 'Urteil' : lang === 'es' ? 'Veredicto' : lang === 'it' ? 'Verdetto' : lang === 'nl' ? 'Eindoordeel' : 'Verdict'}
-            </div>
+            </Kicker>
             <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] mb-6 max-w-2xl">{content.verdict_title}</h2>
             <div className="h-[2px] w-16 bg-blue-400 mb-8"></div>
             <p className="text-lg md:text-xl leading-[1.75] text-slate-200 max-w-2xl">{content.verdict_text}</p>
@@ -852,9 +853,9 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       {/* Product Comparison — editorial header */}
       <section className="max-w-5xl mx-auto px-6 py-16 md:py-20">
         <div className="text-center mb-14">
-          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
+          <Kicker className="mb-5">
             {lang === 'fr' ? 'La Sélection' : lang === 'de' ? 'Die Auswahl' : lang === 'es' ? 'La Selección' : lang === 'it' ? 'La Selezione' : lang === 'nl' ? 'De Selectie' : 'The Selection'}
-          </div>
+          </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-4">{dict.section_title}</h2>
           <p className="text-base md:text-lg text-slate-500 max-w-xl mx-auto">{dict.section_subtitle}</p>
           <div className="h-[2px] w-16 bg-blue-600 mx-auto mt-6"></div>
@@ -892,9 +893,9 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       {/* Internal Links Section — editorial "Also read" */}
       <section className="max-w-5xl mx-auto px-6 py-20 md:py-24 border-t border-slate-200">
         <div className="text-center mb-14">
-          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-4">
+          <Kicker className="mb-4">
             {lang === 'fr' ? 'À lire aussi' : lang === 'de' ? 'Auch lesen' : lang === 'es' ? 'Leer también' : lang === 'it' ? 'Leggi anche' : lang === 'nl' ? 'Lees ook' : 'Also read'}
-          </div>
+          </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight text-slate-900 mb-4">
             {lang === 'fr' ? 'Guides connexes' : lang === 'de' ? 'Verwandte Ratgeber' : lang === 'es' ? 'Guías relacionadas' : lang === 'it' ? 'Guide correlate' : lang === 'nl' ? 'Gerelateerde gidsen' : 'Related Guides'}
           </h2>
@@ -949,28 +950,16 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <FaqSection faqs={dict.faq} title={dict.faq_title} nonce={nonce} />
 
       {/* Footer with legal links */}
-      <footer className="bg-white border-t border-slate-100 py-12 px-6">
-        <div className="max-w-7xl mx-auto text-center">
-          <p className="text-sm text-slate-400">{dict.affiliate_disclaimer}</p>
-          <div className="mt-6 flex flex-wrap justify-center gap-6 text-xs font-medium text-slate-400">
-            <Link href={`/${lang}/a-propos`} className="hover:text-slate-600 transition-colors">
-              {dict.about_link}
-            </Link>
-            <Link href={`/${lang}/mentions-legales`} className="hover:text-slate-600 transition-colors">
-              {dict.legal_notice}
-            </Link>
-            <Link href={`/${lang}/politique-confidentialite`} className="hover:text-slate-600 transition-colors">
-              {dict.privacy_policy}
-            </Link>
-            <Link href={`/${lang}/politique-cookies`} className="hover:text-slate-600 transition-colors">
-              {dict.cookie_policy}
-            </Link>
-          </div>
-          <div className="mt-4 flex justify-center gap-8 text-xs font-bold text-slate-300 uppercase tracking-widest">
-            <span>&copy; 2026 HOME NURA EUROPE</span>
-          </div>
-        </div>
-      </footer>
+      <SiteFooter
+        currentLang={lang}
+        topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
+        links={[
+          { href: `/${lang}/a-propos`, label: dict.about_link },
+          { href: `/${lang}/mentions-legales`, label: dict.legal_notice },
+          { href: `/${lang}/politique-confidentialite`, label: dict.privacy_policy },
+          { href: `/${lang}/politique-cookies`, label: dict.cookie_policy },
+        ]}
+      />
 
       {/* Cookie Banner */}
       <CookieBanner
