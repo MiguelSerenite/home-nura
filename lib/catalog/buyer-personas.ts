@@ -16,6 +16,16 @@
  *
  * Adding a persona is cheap; removing one after it's been indexed
  * is a redirect migration. Be conservative.
+ *
+ * Phase CCC (Period 16) adds 4 ALL_SILOS personas — animaux-
+ * domestiques, famille-nombreuse, teletravail, bebe-enfant-bas-age
+ * — chosen for three properties: (1) real differentiated search
+ * intent, (2) full 6-silo applicability so the Moteur 4 cascade is
+ * maximal, (3) axes already handled by content.ts templates, so
+ * shipping is pure catalog work with zero code changes. Each new
+ * persona generates 54 indexable categories × 6 locales = 324 best-
+ * for pages + 6 persona buyer-guide pages. Phase CCC therefore adds
+ * 4 × 330 = 1320 new URLs to the production sitemap.
  */
 
 import type { BuyerPersona } from './types'
@@ -396,6 +406,63 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Ahorro de energía',
       it: 'Risparmio energetico',
       nl: 'Energiebesparend',
+    },
+  },
+
+  // ===================================================================
+  // Phase CCC — 4 ALL_SILOS personas for Moteur 2+4 expansion
+  // ===================================================================
+
+  {
+    slug: 'animaux-domestiques',
+    axis: 'constraint',
+    applicableSilos: ALL_SILOS,
+    label: {
+      fr: 'Propriétaires d\'animaux',
+      en: 'Pet owners',
+      de: 'Haustierbesitzer',
+      es: 'Propietarios de mascotas',
+      it: 'Proprietari di animali',
+      nl: 'Huisdiereigenaren',
+    },
+  },
+  {
+    slug: 'famille-nombreuse',
+    axis: 'household',
+    applicableSilos: ALL_SILOS,
+    label: {
+      fr: 'Famille nombreuse (5+ personnes)',
+      en: 'Large family (5+ people)',
+      de: 'Große Familie (5+ Personen)',
+      es: 'Familia numerosa (5+ personas)',
+      it: 'Famiglia numerosa (5+ persone)',
+      nl: 'Groot gezin (5+ personen)',
+    },
+  },
+  {
+    slug: 'teletravail',
+    axis: 'usage',
+    applicableSilos: ALL_SILOS,
+    label: {
+      fr: 'Télétravail à la maison',
+      en: 'Remote work from home',
+      de: 'Homeoffice',
+      es: 'Teletrabajo en casa',
+      it: 'Smart working da casa',
+      nl: 'Thuiswerken',
+    },
+  },
+  {
+    slug: 'bebe-enfant-bas-age',
+    axis: 'household',
+    applicableSilos: ALL_SILOS,
+    label: {
+      fr: 'Bébé et enfant en bas âge',
+      en: 'Baby and toddler',
+      de: 'Baby und Kleinkind',
+      es: 'Bebé y niño pequeño',
+      it: 'Neonato e bambino piccolo',
+      nl: 'Baby en peuter',
     },
   },
 ] as const
