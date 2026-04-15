@@ -16,9 +16,11 @@
  * still 100% pure content: adding a problem is one struct literal
  * with 6 locale strings, no code changes.
  *
- * Total after Phase XX: 63 problems × 6 locales = 378 troubleshooting
- * pages. Subsequent phases (YY, ZZ, …) mirror this pattern for
- * securite-maison, confort-air, entretien-maison and outdoor-connecte.
+ * Phase YY (Period 12) mirrors the same pattern for securite-maison:
+ * 10 indexable categories × 3 = 30 new problems. Running total hits
+ * 93 problems × 6 locales = 558 troubleshooting pages. Phases ZZ /
+ * AAA / BBB keep the same rhythm for confort-air, entretien-maison
+ * and outdoor-connecte respectively.
  *
  * Severity drives the call-to-action:
  *   - minor     → inline quick fix + "still not working?" fallback
@@ -895,6 +897,420 @@ export const PROBLEMS: readonly Problem[] = [
       es: '¿Cómo instalar un punto de recarga para VE en casa de forma segura?',
       it: 'Come installare in sicurezza una stazione di ricarica VE in casa?',
       nl: 'Hoe installeer ik veilig een EV-laadpaal thuis?',
+    },
+  },
+
+  // ===================================================================
+  // Phase YY — securite-maison seed (10 categories × 3 = 30 problems)
+  // ===================================================================
+
+  // ------- sonnettes-video -------
+  {
+    slug: 'sonnette-pas-notification',
+    categorySlug: 'sonnettes-video',
+    severity: 'moderate',
+    query: {
+      fr: 'Ma sonnette vidéo ne m\'envoie plus de notification',
+      en: 'My video doorbell is no longer sending notifications',
+      de: 'Meine Video-Türklingel sendet keine Benachrichtigungen mehr',
+      es: 'Mi videoportero ya no me envía notificaciones',
+      it: 'Il mio videocitofono non mi manda più notifiche',
+      nl: 'Mijn videodeurbel stuurt geen meldingen meer',
+    },
+  },
+  {
+    slug: 'sonnette-vision-nuit-grise',
+    categorySlug: 'sonnettes-video',
+    severity: 'minor',
+    query: {
+      fr: 'La vision nocturne de ma sonnette vidéo est grise et dégradée',
+      en: 'The night vision on my video doorbell is grey and washed out',
+      de: 'Die Nachtsicht meiner Video-Türklingel ist grau und unscharf',
+      es: 'La visión nocturna de mi videoportero se ve gris y desvaída',
+      it: 'La visione notturna del mio videocitofono è grigia e sbiadita',
+      nl: 'Het nachtzicht van mijn videodeurbel is grijs en vaag',
+    },
+  },
+  {
+    slug: 'sonnette-batterie-dure-pas',
+    categorySlug: 'sonnettes-video',
+    severity: 'moderate',
+    query: {
+      fr: 'La batterie de ma sonnette vidéo se décharge en quelques jours',
+      en: 'My video doorbell battery drains within a few days',
+      de: 'Der Akku meiner Video-Türklingel ist nach wenigen Tagen leer',
+      es: 'La batería de mi videoportero se descarga en pocos días',
+      it: 'La batteria del mio videocitofono si scarica in pochi giorni',
+      nl: 'De accu van mijn videodeurbel is binnen enkele dagen leeg',
+    },
+  },
+
+  // ------- cameras-interieur -------
+  {
+    slug: 'camera-int-flux-lent',
+    categorySlug: 'cameras-interieur',
+    severity: 'moderate',
+    query: {
+      fr: 'Le flux vidéo de ma caméra intérieure est très lent',
+      en: 'My indoor camera video stream is very laggy',
+      de: 'Der Videostream meiner Innenkamera ist sehr langsam',
+      es: 'La transmisión de video de mi cámara interior va muy lenta',
+      it: 'Il flusso video della mia telecamera interna è molto lento',
+      nl: 'De videostream van mijn binnencamera loopt erg traag',
+    },
+  },
+  {
+    slug: 'camera-int-fausse-detection',
+    categorySlug: 'cameras-interieur',
+    severity: 'minor',
+    query: {
+      fr: 'Ma caméra intérieure détecte des mouvements inexistants',
+      en: 'My indoor camera keeps detecting motion that is not there',
+      de: 'Meine Innenkamera erkennt Bewegungen, die es gar nicht gibt',
+      es: 'Mi cámara interior detecta movimientos que no existen',
+      it: 'La mia telecamera interna rileva movimenti inesistenti',
+      nl: 'Mijn binnencamera detecteert beweging die er niet is',
+    },
+  },
+  {
+    slug: 'camera-int-hors-ligne',
+    categorySlug: 'cameras-interieur',
+    severity: 'moderate',
+    query: {
+      fr: 'Ma caméra intérieure passe sans arrêt hors ligne',
+      en: 'My indoor camera keeps going offline',
+      de: 'Meine Innenkamera geht ständig offline',
+      es: 'Mi cámara interior se desconecta constantemente',
+      it: 'La mia telecamera interna va offline di continuo',
+      nl: 'Mijn binnencamera gaat voortdurend offline',
+    },
+  },
+
+  // ------- cameras-exterieur -------
+  {
+    slug: 'camera-ext-infrarouge-eblouie',
+    categorySlug: 'cameras-exterieur',
+    severity: 'minor',
+    query: {
+      fr: 'Les infrarouges de ma caméra extérieure éblouissent l\'image la nuit',
+      en: 'The infrared on my outdoor camera washes out the image at night',
+      de: 'Das Infrarot meiner Außenkamera überblendet das Bild nachts',
+      es: 'Los infrarrojos de mi cámara exterior deslumbran la imagen por la noche',
+      it: 'Gli infrarossi della mia telecamera esterna sovraesponongono l\'immagine di notte',
+      nl: 'De infraroodverlichting van mijn buitencamera overstraalt het beeld \'s nachts',
+    },
+  },
+  {
+    slug: 'camera-ext-etanche-cedee',
+    categorySlug: 'cameras-exterieur',
+    severity: 'critical',
+    query: {
+      fr: 'Ma caméra extérieure a pris l\'eau et ne s\'allume plus',
+      en: 'My outdoor camera got water inside and no longer powers on',
+      de: 'In meine Außenkamera ist Wasser eingedrungen — sie lässt sich nicht mehr einschalten',
+      es: 'Le ha entrado agua a mi cámara exterior y ya no enciende',
+      it: 'La mia telecamera esterna è entrata acqua e non si accende più',
+      nl: 'Er is water in mijn buitencamera gekomen en hij gaat niet meer aan',
+    },
+  },
+  {
+    slug: 'camera-ext-mouvement-rate',
+    categorySlug: 'cameras-exterieur',
+    severity: 'moderate',
+    query: {
+      fr: 'Ma caméra extérieure rate les passages importants',
+      en: 'My outdoor camera misses the important events',
+      de: 'Meine Außenkamera verpasst die wichtigen Vorfälle',
+      es: 'Mi cámara exterior se pierde los movimientos importantes',
+      it: 'La mia telecamera esterna si perde gli eventi importanti',
+      nl: 'Mijn buitencamera mist de belangrijke momenten',
+    },
+  },
+
+  // ------- serrures-connectees -------
+  {
+    slug: 'serrure-pile-vide-bloque-dehors',
+    categorySlug: 'serrures-connectees',
+    severity: 'critical',
+    query: {
+      fr: 'Ma serrure connectée est tombée en panne et je suis bloqué dehors',
+      en: 'My smart lock is dead and I am locked out',
+      de: 'Mein smartes Türschloss ist ausgefallen und ich stehe draußen',
+      es: 'Mi cerradura inteligente se ha averiado y me he quedado fuera',
+      it: 'La mia serratura intelligente è in avaria e sono rimasto fuori casa',
+      nl: 'Mijn slimme slot is uitgevallen en ik sta buitengesloten',
+    },
+  },
+  {
+    slug: 'serrure-code-pave-ne-repond',
+    categorySlug: 'serrures-connectees',
+    severity: 'moderate',
+    query: {
+      fr: 'Le pavé numérique de ma serrure connectée ne répond plus',
+      en: 'The keypad on my smart lock no longer responds',
+      de: 'Das Zahlenfeld meines smarten Schlosses reagiert nicht mehr',
+      es: 'El teclado de mi cerradura inteligente ya no responde',
+      it: 'Il tastierino della mia serratura intelligente non risponde più',
+      nl: 'Het toetsenblok van mijn slimme slot reageert niet meer',
+    },
+  },
+  {
+    slug: 'serrure-compatible-porte-epaisse',
+    categorySlug: 'serrures-connectees',
+    severity: 'minor',
+    query: {
+      fr: 'Comment choisir une serrure connectée pour une porte très épaisse ?',
+      en: 'How do I choose a smart lock for a very thick door?',
+      de: 'Wie wähle ich ein smartes Schloss für eine sehr dicke Tür?',
+      es: '¿Cómo elegir una cerradura inteligente para una puerta muy gruesa?',
+      it: 'Come scegliere una serratura intelligente per una porta molto spessa?',
+      nl: 'Hoe kies ik een slim slot voor een heel dikke deur?',
+    },
+  },
+
+  // ------- alarmes -------
+  {
+    slug: 'alarme-fausse-alerte-nuit',
+    categorySlug: 'alarmes',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon alarme connectée déclenche de fausses alertes la nuit',
+      en: 'My smart alarm keeps triggering false alerts at night',
+      de: 'Meine smarte Alarmanlage löst nachts ständig Fehlalarme aus',
+      es: 'Mi alarma inteligente lanza falsas alertas por la noche',
+      it: 'Il mio allarme intelligente dà falsi allarmi di notte',
+      nl: 'Mijn slimme alarm geeft \'s nachts valse meldingen',
+    },
+  },
+  {
+    slug: 'alarme-sirene-ne-sonne-plus',
+    categorySlug: 'alarmes',
+    severity: 'critical',
+    query: {
+      fr: 'La sirène de mon alarme connectée ne sonne plus',
+      en: 'The siren on my smart alarm no longer sounds',
+      de: 'Die Sirene meiner smarten Alarmanlage ertönt nicht mehr',
+      es: 'La sirena de mi alarma inteligente ya no suena',
+      it: 'La sirena del mio allarme intelligente non suona più',
+      nl: 'De sirene van mijn slimme alarm gaat niet meer af',
+    },
+  },
+  {
+    slug: 'alarme-rearmement-auto',
+    categorySlug: 'alarmes',
+    severity: 'minor',
+    query: {
+      fr: 'Comment régler le réarmement automatique d\'une alarme connectée ?',
+      en: 'How do I set up auto-rearm on a smart alarm?',
+      de: 'Wie stelle ich die automatische Wiederscharfschaltung einer smarten Alarmanlage ein?',
+      es: '¿Cómo configurar el rearme automático de una alarma inteligente?',
+      it: 'Come configurare il riarmo automatico di un allarme intelligente?',
+      nl: 'Hoe stel ik automatisch herinschakelen in op een slim alarm?',
+    },
+  },
+
+  // ------- detecteurs-fumee-co -------
+  {
+    slug: 'detecteur-fumee-bip-aleatoire',
+    categorySlug: 'detecteurs-fumee-co',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon détecteur de fumée connecté bipe à intervalles aléatoires',
+      en: 'My smart smoke detector beeps at random intervals',
+      de: 'Mein smarter Rauchmelder piept in zufälligen Abständen',
+      es: 'Mi detector de humo inteligente pita a intervalos aleatorios',
+      it: 'Il mio rilevatore di fumo intelligente emette bip a intervalli casuali',
+      nl: 'Mijn slimme rookmelder piept op willekeurige momenten',
+    },
+  },
+  {
+    slug: 'detecteur-co-fausse-alerte',
+    categorySlug: 'detecteurs-fumee-co',
+    severity: 'critical',
+    query: {
+      fr: 'Mon détecteur de CO déclenche une alerte sans raison apparente',
+      en: 'My CO detector triggers an alarm with no obvious cause',
+      de: 'Mein CO-Melder löst ohne erkennbaren Grund einen Alarm aus',
+      es: 'Mi detector de CO lanza una alerta sin razón aparente',
+      it: 'Il mio rilevatore di CO scatta senza un motivo apparente',
+      nl: 'Mijn CO-melder slaat alarm zonder duidelijke reden',
+    },
+  },
+  {
+    slug: 'detecteur-fumee-duree-vie',
+    categorySlug: 'detecteurs-fumee-co',
+    severity: 'minor',
+    query: {
+      fr: 'Quelle est la durée de vie d\'un détecteur de fumée connecté ?',
+      en: 'How long does a smart smoke detector actually last?',
+      de: 'Wie lange hält ein smarter Rauchmelder wirklich?',
+      es: '¿Cuánto dura realmente un detector de humo inteligente?',
+      it: 'Quanto dura davvero un rilevatore di fumo intelligente?',
+      nl: 'Hoe lang gaat een slimme rookmelder echt mee?',
+    },
+  },
+
+  // ------- detecteurs-mouvement -------
+  {
+    slug: 'mouvement-portee-faible',
+    categorySlug: 'detecteurs-mouvement',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon détecteur de mouvement a une portée beaucoup plus faible qu\'annoncé',
+      en: 'My motion detector has a much shorter range than advertised',
+      de: 'Mein Bewegungsmelder hat eine deutlich kürzere Reichweite als angegeben',
+      es: 'Mi detector de movimiento tiene un alcance mucho menor del anunciado',
+      it: 'Il mio rilevatore di movimento ha una portata molto inferiore a quella dichiarata',
+      nl: 'Mijn bewegingsmelder heeft veel minder bereik dan opgegeven',
+    },
+  },
+  {
+    slug: 'mouvement-animaux-immunite',
+    categorySlug: 'detecteurs-mouvement',
+    severity: 'minor',
+    query: {
+      fr: 'Comment régler un détecteur de mouvement pour ignorer les animaux ?',
+      en: 'How do I set a motion detector to ignore pets?',
+      de: 'Wie stelle ich einen Bewegungsmelder so ein, dass er Haustiere ignoriert?',
+      es: '¿Cómo configurar un detector de movimiento para ignorar a las mascotas?',
+      it: 'Come impostare un rilevatore di movimento per ignorare gli animali?',
+      nl: 'Hoe stel ik een bewegingsmelder zo in dat huisdieren worden genegeerd?',
+    },
+  },
+  {
+    slug: 'mouvement-temoin-clignote',
+    categorySlug: 'detecteurs-mouvement',
+    severity: 'minor',
+    query: {
+      fr: 'Le témoin de mon détecteur de mouvement clignote en permanence',
+      en: 'The indicator LED on my motion detector flashes constantly',
+      de: 'Die Kontroll-LED meines Bewegungsmelders blinkt ununterbrochen',
+      es: 'El indicador LED de mi detector de movimiento parpadea sin parar',
+      it: 'La spia LED del mio rilevatore di movimento lampeggia in continuazione',
+      nl: 'Het LED-lampje van mijn bewegingsmelder knippert constant',
+    },
+  },
+
+  // ------- trackers-objets -------
+  {
+    slug: 'tracker-perd-connexion',
+    categorySlug: 'trackers-objets',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon tracker d\'objets perd régulièrement sa connexion',
+      en: 'My object tracker keeps losing its connection',
+      de: 'Mein Objekt-Tracker verliert ständig die Verbindung',
+      es: 'Mi rastreador de objetos pierde la conexión con frecuencia',
+      it: 'Il mio tracker per oggetti perde spesso la connessione',
+      nl: 'Mijn objecttracker verliest steeds de verbinding',
+    },
+  },
+  {
+    slug: 'tracker-bluetooth-portee-reelle',
+    categorySlug: 'trackers-objets',
+    severity: 'minor',
+    query: {
+      fr: 'Quelle est la portée réelle du Bluetooth d\'un tracker d\'objets ?',
+      en: 'What is the real Bluetooth range of an object tracker?',
+      de: 'Wie groß ist die tatsächliche Bluetooth-Reichweite eines Objekt-Trackers?',
+      es: '¿Cuál es el alcance real de Bluetooth de un rastreador de objetos?',
+      it: 'Qual è la portata reale del Bluetooth di un tracker per oggetti?',
+      nl: 'Wat is het werkelijke Bluetooth-bereik van een objecttracker?',
+    },
+  },
+  {
+    slug: 'tracker-changer-pile',
+    categorySlug: 'trackers-objets',
+    severity: 'minor',
+    query: {
+      fr: 'Comment changer la pile d\'un tracker d\'objets ?',
+      en: 'How do I change the battery on an object tracker?',
+      de: 'Wie wechsle ich die Batterie eines Objekt-Trackers?',
+      es: '¿Cómo cambiar la pila de un rastreador de objetos?',
+      it: 'Come cambiare la pila di un tracker per oggetti?',
+      nl: 'Hoe vervang ik de batterij van een objecttracker?',
+    },
+  },
+
+  // ------- interphones -------
+  {
+    slug: 'interphone-audio-coupe',
+    categorySlug: 'interphones',
+    severity: 'moderate',
+    query: {
+      fr: 'L\'audio de mon interphone connecté coupe régulièrement',
+      en: 'The audio on my smart intercom keeps cutting out',
+      de: 'Der Ton meiner smarten Gegensprechanlage setzt ständig aus',
+      es: 'El audio de mi interfono inteligente se corta con frecuencia',
+      it: 'L\'audio del mio citofono intelligente si interrompe di continuo',
+      nl: 'Het geluid van mijn slimme intercom valt steeds weg',
+    },
+  },
+  {
+    slug: 'interphone-ne-sonne-pas',
+    categorySlug: 'interphones',
+    severity: 'critical',
+    query: {
+      fr: 'Mon interphone connecté ne sonne plus à l\'appel',
+      en: 'My smart intercom no longer rings when called',
+      de: 'Meine smarte Gegensprechanlage klingelt bei Anruf nicht mehr',
+      es: 'Mi interfono inteligente ya no suena al llamar',
+      it: 'Il mio citofono intelligente non suona più quando chiamano',
+      nl: 'Mijn slimme intercom gaat niet meer over bij een oproep',
+    },
+  },
+  {
+    slug: 'interphone-ouverture-retard',
+    categorySlug: 'interphones',
+    severity: 'minor',
+    query: {
+      fr: 'Le bouton d\'ouverture de porte de mon interphone connecté a du retard',
+      en: 'The door-release button on my smart intercom is laggy',
+      de: 'Der Türöffner-Knopf meiner smarten Gegensprechanlage reagiert verzögert',
+      es: 'El botón de apertura de mi interfono inteligente tarda en responder',
+      it: 'Il pulsante di apertura del mio citofono intelligente risponde in ritardo',
+      nl: 'De deuropenerknop van mijn slimme intercom reageert traag',
+    },
+  },
+
+  // ------- coffres-forts-connectes -------
+  {
+    slug: 'coffre-fort-pile-dechargee',
+    categorySlug: 'coffres-forts-connectes',
+    severity: 'critical',
+    query: {
+      fr: 'Mon coffre-fort connecté est verrouillé car les piles sont vides',
+      en: 'My smart safe is locked because the batteries are dead',
+      de: 'Mein smarter Safe ist verriegelt, weil die Batterien leer sind',
+      es: 'Mi caja fuerte inteligente está bloqueada porque las pilas se agotaron',
+      it: 'La mia cassaforte intelligente è bloccata perché le pile sono scariche',
+      nl: 'Mijn slimme kluis zit op slot omdat de batterijen leeg zijn',
+    },
+  },
+  {
+    slug: 'coffre-fort-code-oublie',
+    categorySlug: 'coffres-forts-connectes',
+    severity: 'moderate',
+    query: {
+      fr: 'J\'ai oublié le code maître de mon coffre-fort connecté',
+      en: 'I have forgotten the master code for my smart safe',
+      de: 'Ich habe den Master-Code meines smarten Safes vergessen',
+      es: 'He olvidado el código maestro de mi caja fuerte inteligente',
+      it: 'Ho dimenticato il codice master della mia cassaforte intelligente',
+      nl: 'Ik ben de mastercode van mijn slimme kluis vergeten',
+    },
+  },
+  {
+    slug: 'coffre-fort-ignifuge',
+    categorySlug: 'coffres-forts-connectes',
+    severity: 'minor',
+    query: {
+      fr: 'Un coffre-fort connecté est-il vraiment ignifuge ?',
+      en: 'Is a smart safe really fireproof?',
+      de: 'Ist ein smarter Safe wirklich feuerfest?',
+      es: '¿Una caja fuerte inteligente es realmente ignífuga?',
+      it: 'Una cassaforte intelligente è davvero ignifuga?',
+      nl: 'Is een slimme kluis echt brandwerend?',
     },
   },
 ] as const
