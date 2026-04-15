@@ -3,6 +3,12 @@ import { getAllArticles } from '@/lib/blog'
 import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
 import { LANGUAGES } from '@/lib/i18n'
 import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
+import {
+  getIndexableSilos,
+  getIndexableCategories,
+  BUYER_PERSONAS,
+  PROBLEMS,
+} from '@/lib/catalog'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Phase X: single source of truth for freshness. Bumping
@@ -32,6 +38,47 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // product review, comparator and best-for page links back to it,
     // so it accumulates internal link equity and anchors E-E-A-T.
     { path: '/methodologie', priority: 0.9, changeFrequency: 'monthly' as const, lastModified: today },
+    // Phase BB: non-flagship meta-silo hubs (cuisine-connectee is
+    // already listed above). Each one ships a real SiloHub page in
+    // every locale, so we emit them in the sitemap to push crawl
+    // into the hub-and-spoke graph.
+    ...getIndexableSilos()
+      .filter((s) => s.slug !== 'cuisine-connectee')
+      .map((s) => ({
+        path: `/${s.slug}`,
+        priority: 0.75,
+        changeFrequency: 'weekly' as const,
+        lastModified: today,
+      })),
+    // Phase DD: indexable categories served via the generic
+    // /[silo]/[category] route. We skip cuisine-connectee because
+    // those paths are already enumerated via SMART_KITCHEN_CATEGORIES
+    // above (flagship bespoke route).
+    ...getIndexableCategories()
+      .filter((c) => c.metaSilo !== 'cuisine-connectee')
+      .map((c) => ({
+        path: `/${c.metaSilo}/${c.slug}`,
+        priority: 0.7,
+        changeFrequency: 'weekly' as const,
+        lastModified: today,
+      })),
+    // Phase EE: persona buyer guides. 24 personas × 6 locales of
+    // axis-specific copy, each one cross-linking to real categories.
+    ...BUYER_PERSONAS.map((p) => ({
+      path: `/guides/acheteur/${p.slug}`,
+      priority: 0.65,
+      changeFrequency: 'monthly' as const,
+      lastModified: today,
+    })),
+    // Phase FF: troubleshooting pages (Moteur 3). Long-tail queries
+    // with severity-driven CTAs — higher priority than persona
+    // guides because they capture direct purchase-adjacent intent.
+    ...PROBLEMS.map((p) => ({
+      path: `/guides/probleme/${p.slug}`,
+      priority: 0.7,
+      changeFrequency: 'monthly' as const,
+      lastModified: today,
+    })),
     // Legal pages (mentions-legales, politique-confidentialite,
     // politique-cookies) are intentionally omitted — they're noindex'd
     // via per-page meta robots so there's no point pointing crawlers
