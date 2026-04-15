@@ -27,6 +27,8 @@ import { getNonce } from '@/lib/nonce'
 import {
   buildPageMetadata,
   buildBreadcrumbListSchema,
+  buildArticleSchema,
+  SITE_LAST_UPDATED_ISO,
 } from '@/lib/seo'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import FaqSection from '@/components/FaqSection'
@@ -169,6 +171,24 @@ export default async function PersonaGuidePage({
     { name: hero.title, path: `/guides/acheteur/${p.slug}` },
   ])
 
+  // Phase FFF: Article JSON-LD for Moteur 2 persona buyer guides.
+  // Same editorial-content signal as Phase EEE TechArticle on problem
+  // pages, but 'Article' type because persona guides are consumer
+  // content rather than technical repair guides. Covers all 186 pages
+  // (31 personas × 6 locales).
+  const articleSchema = buildArticleSchema({
+    lang: safeLang,
+    path: `/guides/acheteur/${p.slug}`,
+    title: hero.title,
+    description: hero.intro,
+    image: '/og-image.png',
+    imageAlt: hero.title,
+    datePublished: '2026-02-01',
+    dateModified: SITE_LAST_UPDATED_ISO,
+    articleType: 'Article',
+    articleSection: ui.guides,
+  })
+
   return (
     <div className="min-h-screen bg-white">
       <script
@@ -176,6 +196,12 @@ export default async function PersonaGuidePage({
         nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        nonce={nonce}
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
 
       <Navbar currentLang={safeLang} />

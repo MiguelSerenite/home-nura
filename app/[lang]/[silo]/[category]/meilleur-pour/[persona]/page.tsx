@@ -50,6 +50,8 @@ import {
   buildPageMetadata,
   buildBreadcrumbListSchema,
   buildBestForItemListSchema,
+  buildArticleSchema,
+  SITE_LAST_UPDATED_ISO,
 } from '@/lib/seo'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import FaqSection from '@/components/FaqSection'
@@ -263,6 +265,24 @@ export default async function BestForPage({
     criteria: hero.criteria,
   })
 
+  // Phase FFF: Article JSON-LD for Moteur 4 best-for pages.
+  // Reinforces the editorial nature of the ranking alongside the
+  // existing ItemList criterion schema. Covers thousands of pages
+  // (54 indexable cats × applicable personas × 6 locales) but stays
+  // purely additive — zero new URLs.
+  const articleSchema = buildArticleSchema({
+    lang: safeLang,
+    path: `/${silo}/${cat.slug}/meilleur-pour/${p.slug}`,
+    title: hero.title,
+    description: hero.intro,
+    image: '/og-image.png',
+    imageAlt: hero.title,
+    datePublished: '2026-02-01',
+    dateModified: SITE_LAST_UPDATED_ISO,
+    articleType: 'Article',
+    articleSection: ui.guides,
+  })
+
   return (
     <div className="min-h-screen bg-white">
       <script
@@ -276,6 +296,12 @@ export default async function BestForPage({
         nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        nonce={nonce}
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
 
       <Navbar currentLang={safeLang} />
