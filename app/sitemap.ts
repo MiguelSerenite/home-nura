@@ -1,12 +1,14 @@
 import type { MetadataRoute } from 'next'
 import { getAllArticles } from '@/lib/blog'
 import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
-
-const BASE_URL = 'https://homenura.com'
-const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl']
+import { LANGUAGES } from '@/lib/i18n'
+import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const today = '2026-04-14'
+  // Phase X: single source of truth for freshness. Bumping
+  // SITE_LAST_UPDATED_ISO in lib/seo.ts automatically refreshes
+  // every entry here + the "last updated" badge rendered in pages.
+  const today = SITE_LAST_UPDATED_ISO
 
   const pages = [
     { path: '', priority: 1.0, changeFrequency: 'weekly' as const, lastModified: today },
@@ -25,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     { path: '/quiz', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/blog', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: today },
-    { path: '/a-propos', priority: 0.5, changeFrequency: 'monthly' as const, lastModified: '2026-04-10' },
+    { path: '/a-propos', priority: 0.5, changeFrequency: 'monthly' as const, lastModified: today },
     // Legal pages (mentions-legales, politique-confidentialite,
     // politique-cookies) are intentionally omitted — they're noindex'd
     // via per-page meta robots so there's no point pointing crawlers

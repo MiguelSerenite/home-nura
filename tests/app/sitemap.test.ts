@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import sitemap from '@/app/sitemap'
-import { BASE_URL } from '@/lib/seo'
+import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 
 describe('app/sitemap.ts', () => {
   const entries = sitemap()
@@ -64,5 +64,48 @@ describe('app/sitemap.ts', () => {
   it('assigns home the highest priority (1.0)', () => {
     const homeFr = entries.find((e) => e.url === `${BASE_URL}/fr`)
     expect(homeFr?.priority).toBe(1.0)
+  })
+
+  // Phase X: freshness gate — if someone drifts sitemap lastMod
+  // more than ~180 days from the site-wide freshness anchor,
+  // Google demotes the recrawl cadence. We want CI to scream
+  // before that happens.
+  it('no content route lists a lastModified older than 180 days', () => {
+    const anchor = new Date(SITE_LAST_UPDATED_ISO).getTime()
+    const maxAgeMs = 180 * 24 * 60 * 60 * 1000
+    const contentRoutes = entries.filter((e) => !e.url.includes('/blog/'))
+    for (const e of contentRoutes) {
+      const lastMod = e.lastModified ? new Date(e.lastModified).getTime() : NaN
+      expect(
+        Number.isFinite(lastMod),
+        `${e.url}: missing or unparseable lastModified`
+      ).toBe(true)
+      expect(
+        anchor - lastMod,
+        `${e.url}: lastModified stale (> 180 days before SITE_LAST_UPDATED_ISO)`
+      ).toBeLessThan(maxAgeMs)
+    }
+  })
+
+  // Freshness gate for blog: each article should not be in the
+  // future, and dateModified stamped into the sitemap must be
+  // within the site anchor's window.
+  it('blog article entries are not future-dated', () => {
+    const anchorMs = new Date(SITE_LAST_UPDATED_ISO).getTime()
+    const graceMs = 2 * 24 * 60 * 60 * 1000
+    const blogEntries = entries.filter((e) => e.url.includes('/blog/'))
+    for (const e of blogEntries) {
+      const lastMod = e.lastModified ? new Date(e.lastModified).getTime() : NaN
+      expect(lastMod, `${e.url}: unparseable lastModified`).not.toBeNaN()
+      expect(lastMod, `${e.url}: lastModified is in the future`).toBeLessThanOrEqual(
+        anchorMs + graceMs
+      )
+    }
+  })
+
+  it('every entry has a lastModified populated', () => {
+    for (const e of entries) {
+      expect(e.lastModified, `${e.url}: missing lastModified`).toBeDefined()
+    }
   })
 })
