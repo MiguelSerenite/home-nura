@@ -128,7 +128,7 @@ export default async function ProductCard({ name, price, imageUrl, affiliateLink
   }
 
   return (
-    <div className="group relative flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition-all hover:shadow-md hover:-translate-y-1">
+    <div className="group relative flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition duration-200 hover:shadow-md hover:-translate-y-1">
       <script
         type="application/ld+json"
         nonce={nonce}

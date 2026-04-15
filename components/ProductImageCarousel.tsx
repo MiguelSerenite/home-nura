@@ -14,12 +14,28 @@ interface ProductImageCarouselProps {
   images: string[];
   alt: string;
   badge?: string;
+  /**
+   * Mark the first slide as LCP candidate (adds `priority` + `loading="eager"`).
+   * Only pass `true` on the very first carousel of the page (above the fold).
+   */
+  priority?: boolean;
+  /**
+   * Override the default responsive `sizes` attribute. Should match the card's
+   * actual rendered width at each breakpoint to avoid downloading oversized images.
+   * Default is tuned for a 3-column grid on desktop.
+   */
+  sizes?: string;
 }
+
+const DEFAULT_SIZES =
+  '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw';
 
 export function ProductImageCarousel({
   images,
   alt,
   badge,
+  priority = false,
+  sizes = DEFAULT_SIZES,
 }: ProductImageCarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isHovering, setIsHovering] = useState(false);
@@ -93,9 +109,9 @@ export function ProductImageCarousel({
                 alt={`${alt} - Image ${index + 1}`}
                 fill
                 className="object-contain p-4"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 60vw"
-                priority={index === 0}
-                loading={index === 0 ? 'eager' : 'lazy'}
+                sizes={sizes}
+                priority={priority && index === 0}
+                loading={priority && index === 0 ? 'eager' : 'lazy'}
               />
             </div>
           ))}
@@ -114,7 +130,7 @@ export function ProductImageCarousel({
             <button
               onClick={handlePrevSlide}
               aria-label="Previous"
-              className="absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-all opacity-0 hover:opacity-100 group-hover:opacity-100 md:opacity-50 md:hover:opacity-100"
+              className="absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition duration-200 opacity-0 hover:opacity-100 group-hover:opacity-100 md:opacity-50 md:hover:opacity-100"
             >
               <ChevronLeft className="w-5 h-5 md:w-6 md:h-6" />
             </button>
@@ -122,7 +138,7 @@ export function ProductImageCarousel({
             <button
               onClick={handleNextSlide}
               aria-label="Next"
-              className="absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-all opacity-0 hover:opacity-100 group-hover:opacity-100 md:opacity-50 md:hover:opacity-100"
+              className="absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition duration-200 opacity-0 hover:opacity-100 group-hover:opacity-100 md:opacity-50 md:hover:opacity-100"
             >
               <ChevronRight className="w-5 h-5 md:w-6 md:h-6" />
             </button>
@@ -144,7 +160,7 @@ export function ProductImageCarousel({
             <button
               key={index}
               onClick={() => handleThumbnailClick(index)}
-              className={`relative flex-shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-md overflow-hidden border-2 transition-all ${
+              className={`relative flex-shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-md overflow-hidden border-2 transition duration-200 ${
                 index === currentIndex
                   ? 'border-blue-500 opacity-100'
                   : 'border-gray-300 opacity-70 hover:opacity-100 hover:border-gray-400'

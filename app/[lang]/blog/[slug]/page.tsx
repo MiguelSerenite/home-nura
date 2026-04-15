@@ -243,7 +243,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
                 <Link
                   key={r.slug}
                   href={`/${lang}/blog/${r.slug}`}
-                  className="group flex gap-4 p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all"
+                  className="group flex gap-4 p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-200"
                 >
                   {r.images[0] && (
                     <div className="w-20 h-20 flex-shrink-0 relative rounded-lg overflow-hidden bg-slate-100">

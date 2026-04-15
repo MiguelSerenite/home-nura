@@ -164,7 +164,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
               key={c.code}
               href={`/${c.code}`}
               onClick={() => rememberLocale(c.code)}
-              className={`flex items-center gap-1 px-2 py-1 rounded-full transition-all text-xs font-bold ${
+              className={`flex items-center gap-1 px-2 py-1 rounded-full transition duration-200 text-xs font-bold ${
                 currentLang === c.code
                 ? 'bg-white shadow-sm text-blue-600 scale-105'
                 : 'text-slate-400 hover:text-slate-600 hover:bg-slate-100'
@@ -286,7 +286,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
                         rememberLocale(c.code)
                         close()
                       }}
-                      className={`flex items-center justify-center gap-2 py-3 rounded-xl border text-sm font-semibold transition-all ${
+                      className={`flex items-center justify-center gap-2 py-3 rounded-xl border text-sm font-semibold transition duration-200 ${
                         currentLang === c.code
                           ? 'bg-blue-50 border-blue-600 text-blue-700'
                           : 'border-slate-200 text-slate-600 hover:bg-slate-50'

@@ -686,7 +686,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
                   images={product.images}
                   alt={product.title}
                   badge={product.badge}
-
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
               <div className="px-5 pb-5">
@@ -752,7 +752,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
 
         <div className="grid gap-5 md:grid-cols-2">
           {content.mistakes.map((mistake, index) => (
-            <div key={index} className="relative overflow-hidden bg-white rounded-2xl border border-slate-200 p-7 md:p-8 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300">
+            <div key={index} className="relative overflow-hidden bg-white rounded-2xl border border-slate-200 p-7 md:p-8 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-300">
               <div className="absolute top-0 left-0 right-0 h-0.5 bg-amber-500"></div>
               <Kicker variant="amber" size="sm" className="mb-3 tabular-nums">
                 {String(index + 1).padStart(2, '0')}
@@ -788,7 +788,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
 
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {content.recipes.map((recipe, index) => (
-            <div key={index} className="group relative overflow-hidden bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+            <div key={index} className="group relative overflow-hidden bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:shadow-md hover:-translate-y-1 transition duration-300">
               <div className="absolute top-0 left-0 right-0 h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></div>
               <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600/70 mb-3 tabular-nums">
                 N° {String(index + 1).padStart(2, '0')}
@@ -821,7 +821,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <section className="max-w-6xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map((product, i) => (
-            <div key={i} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-all">
+            <div key={i} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition duration-200">
               <div className="aspect-square relative bg-slate-50 p-4">
                 <Image
                   src={product.image}
@@ -931,7 +931,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
             <Link
               key={item.href}
               href={item.href}
-              className="group relative block bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:border-blue-600 hover:shadow-md hover:-translate-y-1 transition-all duration-300 overflow-hidden"
+              className="group relative block bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:border-blue-600 hover:shadow-md hover:-translate-y-1 transition duration-300 overflow-hidden"
             >
               <div className="absolute top-0 left-0 right-0 h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></div>
               <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600/70 mb-3">{item.num}</div>

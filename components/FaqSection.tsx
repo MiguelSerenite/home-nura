@@ -74,7 +74,7 @@ export default function FaqSection({ faqs, title, nonce }: { faqs: FaqItem[]; ti
                   {faq.question}
                 </span>
                 <span
-                  className={`shrink-0 w-9 h-9 flex items-center justify-center rounded-full border transition-all duration-300 ${
+                  className={`shrink-0 w-9 h-9 flex items-center justify-center rounded-full border transition duration-300 ${
                     isOpen
                       ? 'bg-blue-600 border-blue-600 text-white rotate-45'
                       : 'border-slate-300 text-slate-500 group-hover:border-blue-600 group-hover:text-blue-600'

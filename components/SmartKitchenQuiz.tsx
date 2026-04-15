@@ -385,7 +385,7 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
                   ? pick<PainPoint>(setPainPoint, 2)(opt.value as PainPoint)
                   : pick<UseFrequency>(setFrequency, 3)(opt.value as UseFrequency)
               }
-              className={`flex items-center gap-4 p-5 rounded-2xl border-2 text-left transition-all ${
+              className={`flex items-center gap-4 p-5 rounded-2xl border-2 text-left transition duration-200 ${
                 isSelected
                   ? 'border-blue-600 bg-blue-50'
                   : 'border-slate-200 bg-white hover:border-blue-300 hover:bg-slate-50'

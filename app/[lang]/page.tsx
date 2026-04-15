@@ -180,13 +180,14 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {products.slice(0, 3).map((product, i) => (
-              <div key={i} className="group bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+              <div key={i} className="group bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition duration-200 hover:-translate-y-1">
                 <div className="p-4">
                   <ProductImageCarousel
                     images={product.images}
                     alt={product.title}
                     badge={product.badge}
-
+                    priority={i === 0}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                 </div>
                 <div className="px-6 pb-6">
@@ -329,7 +330,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <section className="max-w-5xl mx-auto px-6 pb-24">
         <Link
           href={`/${lang}/cuisine-connectee`}
-          className="group block rounded-3xl border border-slate-200 bg-gradient-to-br from-blue-50 via-white to-amber-50 p-8 md:p-12 shadow-sm hover:shadow-md transition-all"
+          className="group block rounded-3xl border border-slate-200 bg-gradient-to-br from-blue-50 via-white to-amber-50 p-8 md:p-12 shadow-sm hover:shadow-md transition duration-200"
         >
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div className="flex-1">

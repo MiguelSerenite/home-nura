@@ -92,7 +92,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
             <button
               key={opt.key}
               onClick={() => setSortBy(opt.key)}
-              className={`px-3 py-1.5 text-xs font-bold rounded-full transition-all ${
+              className={`px-3 py-1.5 text-xs font-bold rounded-full transition duration-200 ${
                 sortBy === opt.key
                   ? 'bg-blue-600 text-white'
                   : 'bg-slate-100 text-slate-500 hover:bg-slate-200'

@@ -478,7 +478,7 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
             <Link
               key={cat}
               href={`/${safeLang}/cuisine-connectee/${cat}`}
-              className="group block rounded-2xl border border-slate-200 bg-white p-6 hover:shadow-md hover:border-blue-300 transition-all"
+              className="group block rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md hover:border-blue-300 transition duration-200"
             >
               <Kicker size="sm" className="mb-3">
                 {String(idx + 1).padStart(2, '0')}

@@ -440,7 +440,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
                   images={product.images}
                   alt={product.title}
                   badge={product.badge}
-
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
               <div className="px-5 pb-5">
@@ -600,7 +600,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
       <section className="max-w-6xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map((product, i) => (
-            <div key={i} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-all">
+            <div key={i} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition duration-200">
               <div className="aspect-square relative bg-slate-50 p-4">
                 <Image
                   src={product.image}
@@ -648,14 +648,14 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
       {/* Choose sections — editorial dual card */}
       <section className="max-w-5xl mx-auto px-6 pb-20 md:pb-24">
         <div className="grid md:grid-cols-2 gap-6 md:gap-8">
-          <div className="relative overflow-hidden bg-white rounded-3xl border border-slate-200 p-8 md:p-10 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+          <div className="relative overflow-hidden bg-white rounded-3xl border border-slate-200 p-8 md:p-10 shadow-sm hover:shadow-md hover:-translate-y-1 transition duration-300">
             <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400"></div>
             <Kicker className="mb-5">Profil · 01</Kicker>
             <h3 className="text-xl md:text-2xl font-bold text-slate-900 mb-5 leading-snug">{c.choose_airfryer_title}</h3>
             <div className="h-px w-10 bg-blue-600 mb-6"></div>
             <p className="text-[15px] text-slate-600 leading-[1.8]">{c.choose_airfryer}</p>
           </div>
-          <div className="relative overflow-hidden bg-white rounded-3xl border border-slate-200 p-8 md:p-10 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+          <div className="relative overflow-hidden bg-white rounded-3xl border border-slate-200 p-8 md:p-10 shadow-sm hover:shadow-md hover:-translate-y-1 transition duration-300">
             <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-600 via-amber-500 to-amber-400"></div>
             <Kicker variant="amber" className="mb-5">Profil · 02</Kicker>
             <h3 className="text-xl md:text-2xl font-bold text-slate-900 mb-5 leading-snug">{c.choose_oven_title}</h3>
@@ -708,7 +708,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
             <Link
               key={item.href}
               href={item.href}
-              className="group relative block bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:border-blue-600 hover:shadow-md hover:-translate-y-1 transition-all duration-300 overflow-hidden"
+              className="group relative block bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:border-blue-600 hover:shadow-md hover:-translate-y-1 transition duration-300 overflow-hidden"
             >
               <div className="absolute top-0 left-0 right-0 h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></div>
               <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600/70 mb-3">{item.num}</div>

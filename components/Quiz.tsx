@@ -513,7 +513,7 @@ function QuestionBlock<T extends string>({
             key={opt.value}
             type="button"
             onClick={() => onPick(opt.value)}
-            className="group flex items-center gap-4 p-4 md:p-5 rounded-2xl border border-slate-200 bg-white hover:border-blue-600 hover:bg-blue-50/40 transition-all text-left"
+            className="group flex items-center gap-4 p-4 md:p-5 rounded-2xl border border-slate-200 bg-white hover:border-blue-600 hover:bg-blue-50/40 transition duration-200 text-left"
           >
             <div className="w-12 h-12 shrink-0 flex items-center justify-center rounded-full bg-slate-100 text-2xl group-hover:bg-blue-100 transition-colors">
               {opt.icon}

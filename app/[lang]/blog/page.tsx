@@ -110,7 +110,7 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
             <Link
               key={article.slug}
               href={`/${lang}/blog/${article.slug}`}
-              className="group bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all"
+              className="group bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition duration-200"
             >
               {article.images[0] && (
                 <div className="aspect-video relative bg-slate-100 overflow-hidden">
@@ -159,7 +159,7 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
                 <Link
                   key={article.slug}
                   href={`/${lang}/blog/${article.slug}`}
-                  className="group flex gap-4 p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all"
+                  className="group flex gap-4 p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-200"
                 >
                   {article.images[0] && (
                     <div className="w-24 h-24 flex-shrink-0 relative rounded-lg overflow-hidden bg-slate-100">
@@ -192,15 +192,15 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
           {lang === 'fr' ? 'Guides populaires' : lang === 'de' ? 'Beliebte Ratgeber' : lang === 'es' ? 'Guías populares' : lang === 'it' ? 'Guide popolari' : lang === 'nl' ? 'Populaire gidsen' : 'Popular Guides'}
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          <Link href={`/${lang}/guides/airfryers`} className="p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all">
+          <Link href={`/${lang}/guides/airfryers`} className="p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-200">
             <p className="text-sm font-bold text-slate-900">{lang === 'fr' ? 'Guide complet des airfryers 2026' : lang === 'de' ? 'Kompletter Airfryer-Ratgeber 2026' : lang === 'es' ? 'Guía completa de freidoras 2026' : lang === 'it' ? 'Guida completa airfryer 2026' : lang === 'nl' ? 'Complete airfryer-gids 2026' : 'Complete air fryer guide 2026'}</p>
             <p className="text-xs text-slate-400 mt-1">{lang === 'fr' ? 'Notre comparatif expert des 9 meilleurs modèles' : 'Our expert comparison of the 9 best models'}</p>
           </Link>
-          <Link href={`/${lang}/guides/airfryer-vs-four`} className="p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all">
+          <Link href={`/${lang}/guides/airfryer-vs-four`} className="p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-200">
             <p className="text-sm font-bold text-slate-900">{lang === 'fr' ? 'Airfryer vs four traditionnel' : lang === 'de' ? 'Airfryer vs Backofen' : lang === 'es' ? 'Freidora de aire vs horno' : lang === 'it' ? 'Airfryer vs forno' : lang === 'nl' ? 'Airfryer vs oven' : 'Air fryer vs oven'}</p>
             <p className="text-xs text-slate-400 mt-1">{lang === 'fr' ? 'Comparatif détaillé des performances' : 'Detailed performance comparison'}</p>
           </Link>
-          <Link href={`/${lang}`} className="p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all">
+          <Link href={`/${lang}`} className="p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-200">
             <p className="text-sm font-bold text-slate-900">{lang === 'fr' ? 'Nos meilleurs choix 2026' : lang === 'de' ? 'Unsere Top-Auswahl 2026' : lang === 'es' ? 'Nuestras mejores opciones 2026' : lang === 'it' ? 'Le nostre scelte migliori 2026' : lang === 'nl' ? 'Onze beste keuzes 2026' : 'Our top picks 2026'}</p>
             <p className="text-xs text-slate-400 mt-1">{lang === 'fr' ? 'Comparatif avec prix et scores Nura' : 'Comparison with prices and Nura scores'}</p>
           </Link>
