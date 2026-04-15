@@ -78,7 +78,6 @@ export function trackEvent(event: EventName, props: EventProps = {}): void {
   }
 
   if (process.env.NODE_ENV !== 'production') {
-    // eslint-disable-next-line no-console
     console.debug('[analytics]', event, cleanProps)
   }
 }

@@ -54,7 +54,6 @@ export async function POST(request: Request) {
 
   // Placeholder: wire up to a real ESP here (Mailchimp / Brevo / Resend etc).
   // For now we just log the subscription server-side so ops can see it.
-  // eslint-disable-next-line no-console
   console.log('[newsletter] subscribed', {
     email,
     lang: typeof lang === 'string' ? lang : 'unknown',
