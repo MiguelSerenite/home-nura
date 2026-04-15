@@ -1,5 +1,26 @@
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params
+  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const c = content[safeLang] || content.fr
+  const canonicalUrl = `https://homenura.com/${safeLang}/politique-cookies`
+  return {
+    title: `${c.title} | Home Nura`,
+    description: c.title,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: Object.fromEntries(
+        SUPPORTED_LANGS.map((l) => [l, `https://homenura.com/${l}/politique-cookies`])
+      ),
+    },
+    robots: { index: true, follow: true },
+  }
+}
 
 const content: Record<string, { title: string; body: string }> = {
   fr: {

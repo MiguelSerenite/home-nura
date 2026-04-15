@@ -144,11 +144,11 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           <p className="text-slate-600 text-sm text-center mb-8">{dict.expert_label}</p>
           <div className="grid grid-cols-3 gap-6">
             <div className="text-center">
-              <div className="text-3xl font-black text-blue-600 mb-1">50+</div>
+              <div className="text-3xl font-black text-blue-600 mb-1">12+</div>
               <p className="text-sm text-slate-600 font-medium">{dict.stat_models_tested}</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-black text-blue-600 mb-1">200h+</div>
+              <div className="text-3xl font-black text-blue-600 mb-1">5</div>
               <p className="text-sm text-slate-600 font-medium">{dict.stat_hours_testing}</p>
             </div>
             <div className="text-center">

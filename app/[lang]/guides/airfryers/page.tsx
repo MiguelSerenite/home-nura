@@ -485,16 +485,41 @@ const guideContent: Record<string, {
   }
 }
 
+const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
+
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
-  const dict = await getDictionary(lang)
+  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const dict = await getDictionary(safeLang)
+  const canonicalUrl = `https://homenura.com/${safeLang}/guides/airfryers`
   return {
     title: `${dict.guide_title} | Home Nura`,
     description: dict.guide_subtitle,
+    alternates: {
+      canonical: canonicalUrl,
+      languages: Object.fromEntries(
+        SUPPORTED_LANGS.map((l) => [l, `https://homenura.com/${l}/guides/airfryers`])
+      ),
+    },
     openGraph: {
       title: dict.guide_title,
       description: dict.guide_subtitle,
+      url: canonicalUrl,
       type: 'article',
+      images: [
+        {
+          url: 'https://homenura.com/og-image.png',
+          width: 1200,
+          height: 630,
+          alt: dict.guide_title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: dict.guide_title,
+      description: dict.guide_subtitle,
+      images: ['https://homenura.com/og-image.png'],
     },
   }
 }
@@ -617,11 +642,11 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           <h2 className="text-2xl font-bold mb-4 text-blue-900">{dict.why_trust}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
             <div className="text-center">
-              <div className="text-3xl font-black text-blue-600 mb-2">50+</div>
+              <div className="text-3xl font-black text-blue-600 mb-2">12+</div>
               <p className="text-sm text-slate-600 font-medium">{dict.stat_models_tested}</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-black text-blue-600 mb-2">200h+</div>
+              <div className="text-3xl font-black text-blue-600 mb-2">5</div>
               <p className="text-sm text-slate-600 font-medium">{dict.stat_hours_testing}</p>
             </div>
             <div className="text-center">

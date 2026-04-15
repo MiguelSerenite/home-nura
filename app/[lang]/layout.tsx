@@ -56,6 +56,14 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       siteName: 'Home Nura',
       locale: safeLang,
       type: 'website',
+      images: [
+        {
+          url: `${BASE_URL}/og-image.png`,
+          width: 1200,
+          height: 630,
+          alt: metaTitles[safeLang],
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
@@ -63,6 +71,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       description: metaDescriptions[safeLang],
       creator: '@homenura',
       site: '@homenura',
+      images: [`${BASE_URL}/og-image.png`],
     },
     robots: {
       index: true,
