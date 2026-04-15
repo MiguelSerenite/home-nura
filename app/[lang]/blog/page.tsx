@@ -8,6 +8,7 @@ import { CATEGORIES } from '@/lib/blog/types'
 import { getNonce } from '@/lib/nonce'
 import type { Metadata } from 'next'
 import { SiteFooter, Button } from '@/components/ui'
+import { buildPageMetadata } from '@/lib/seo'
 
 const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl']
 const BASE_URL = 'https://homenura.com'
@@ -33,14 +34,12 @@ const metaDescs: Record<string, string> = {
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
   const safeLang = LANGUAGES.includes(lang) ? lang : 'fr'
-  return {
+  return buildPageMetadata({
+    lang: safeLang,
+    path: '/blog',
     title: metaTitles[safeLang],
     description: metaDescs[safeLang],
-    alternates: {
-      canonical: `${BASE_URL}/${safeLang}/blog`,
-      languages: Object.fromEntries(LANGUAGES.map(l => [l, `${BASE_URL}/${l}/blog`])),
-    },
-  }
+  })
 }
 
 const blogIntro: Record<string, { title: string; subtitle: string }> = {

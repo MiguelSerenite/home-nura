@@ -12,6 +12,7 @@ import { notFound } from 'next/navigation'
 import { getNonce } from '@/lib/nonce'
 import type { Metadata } from 'next'
 import { SiteFooter } from '@/components/ui'
+import { buildPageMetadata } from '@/lib/seo'
 
 const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl']
 const BASE_URL = 'https://homenura.com'
@@ -34,25 +35,26 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const safeLang = LANGUAGES.includes(lang) ? lang : 'fr'
   const title = article.title[safeLang] || article.title.fr
   const description = article.excerpt[safeLang] || article.excerpt.fr
+  const heroRaw = article.images[0]?.src
+  const heroImage = heroRaw
+    ? heroRaw.startsWith('http')
+      ? heroRaw
+      : `${BASE_URL}${heroRaw}`
+    : undefined
+  const heroAlt = article.images[0]?.alt[safeLang] || article.images[0]?.alt.fr
 
-  return {
+  return buildPageMetadata({
+    lang: safeLang,
+    path: `/blog/${slug}`,
     title: `${title} | Home Nura`,
     description,
-    alternates: {
-      canonical: `${BASE_URL}/${safeLang}/blog/${slug}`,
-      languages: Object.fromEntries(LANGUAGES.map(l => [l, `${BASE_URL}/${l}/blog/${slug}`])),
-    },
-    openGraph: {
-      title,
-      description,
-      url: `${BASE_URL}/${safeLang}/blog/${slug}`,
-      type: 'article',
-      publishedTime: article.datePublished,
-      modifiedTime: article.dateModified,
-      authors: ['Home Nura'],
-      images: article.images[0] ? [{ url: article.images[0].src, alt: article.images[0].alt[safeLang] || article.images[0].alt.fr }] : [],
-    },
-  }
+    image: heroImage,
+    imageAlt: heroAlt,
+    type: 'article',
+    publishedTime: article.datePublished,
+    modifiedTime: article.dateModified,
+    authors: ['Miguel Serenite'],
+  })
 }
 
 export default async function BlogArticlePage({ params }: { params: Promise<{ lang: string; slug: string }> }) {

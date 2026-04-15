@@ -1,6 +1,129 @@
 // Shared SEO helpers: site-wide "last updated" date and schema builders.
 
+import type { Metadata } from 'next'
+
 const BASE_URL = 'https://homenura.com'
+
+const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
+type Lang = (typeof LANGUAGES)[number]
+
+const ogLocaleMap: Record<Lang, string> = {
+  fr: 'fr_FR',
+  en: 'en_GB',
+  de: 'de_DE',
+  es: 'es_ES',
+  it: 'it_IT',
+  nl: 'nl_NL',
+}
+
+interface BuildPageMetadataInput {
+  /** Current language segment (fr, en, de, …). Falls back to 'fr'. */
+  lang: string
+  /** Absolute path inside the lang prefix, starting with '/'. E.g. '/blog' or '/blog/my-article'. Empty string for home. */
+  path: string
+  title: string
+  description: string
+  /** Optional OG image URL. Defaults to /og-image.png. */
+  image?: string
+  /** Optional OG image alt text. Defaults to title. */
+  imageAlt?: string
+  /** 'website' (default) or 'article' for blog/guides. */
+  type?: 'website' | 'article'
+  /** Article only: ISO publish date. */
+  publishedTime?: string
+  /** Article only: ISO last modified date. */
+  modifiedTime?: string
+  /** Article only: list of authors. */
+  authors?: string[]
+  /** Set to false to noindex the page (e.g. search result pages). Defaults to true. */
+  index?: boolean
+}
+
+/**
+ * Canonical metadata builder. Returns a fully-populated Next.js Metadata
+ * object with canonical URL, hreflang alternates, complete OpenGraph
+ * (siteName, locale, type, images), Twitter card, and robots directives.
+ *
+ * Use this instead of hand-rolling `generateMetadata` — Next.js uses REPLACE
+ * semantics for openGraph/twitter objects, so missing fields in a child page
+ * silently drop the layout's defaults (siteName, locale, etc.).
+ */
+export function buildPageMetadata(input: BuildPageMetadataInput): Metadata {
+  const {
+    lang,
+    path,
+    title,
+    description,
+    image,
+    imageAlt,
+    type = 'website',
+    publishedTime,
+    modifiedTime,
+    authors,
+    index = true,
+  } = input
+
+  const safeLang: Lang = (LANGUAGES as readonly string[]).includes(lang) ? (lang as Lang) : 'fr'
+  const normalizedPath = path.startsWith('/') || path === '' ? path : `/${path}`
+  const url = `${BASE_URL}/${safeLang}${normalizedPath}`
+  const ogImage = image ?? `${BASE_URL}/og-image.png`
+  const ogImageAlt = imageAlt ?? title
+
+  // hreflang: map every locale to its equivalent URL at the same path
+  const languages = Object.fromEntries(
+    LANGUAGES.map((l) => [l, `${BASE_URL}/${l}${normalizedPath}`])
+  )
+
+  return {
+    title,
+    description,
+    metadataBase: new URL(BASE_URL),
+    alternates: {
+      canonical: url,
+      languages,
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'Home Nura',
+      locale: ogLocaleMap[safeLang],
+      type,
+      images: [
+        {
+          url: ogImage,
+          width: 1200,
+          height: 630,
+          alt: ogImageAlt,
+        },
+      ],
+      ...(type === 'article' && {
+        publishedTime,
+        modifiedTime,
+        authors: authors ?? ['Home Nura'],
+      }),
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      creator: '@homenura',
+      site: '@homenura',
+      images: [ogImage],
+    },
+    robots: {
+      index,
+      follow: true,
+      googleBot: {
+        index,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
+  }
+}
 
 /**
  * Single source of truth for the site-wide "last updated" signal.

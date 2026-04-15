@@ -6,7 +6,7 @@ import ProductImageCarousel from '@/components/ProductImageCarousel'
 import ComparisonTable from '@/components/ComparisonTable'
 import CookieBanner from '@/components/CookieBanner'
 import { getStaticProducts } from '@/lib/products'
-import { buildProductListSchema, formatLastUpdated, lastUpdatedLabel, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
+import { buildProductListSchema, formatLastUpdated, lastUpdatedLabel, SITE_LAST_UPDATED_ISO, buildPageMetadata } from '@/lib/seo'
 import { getNonce } from '@/lib/nonce'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -493,37 +493,14 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const { lang } = await params
   const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
   const dict = await getDictionary(safeLang)
-  const canonicalUrl = `https://homenura.com/${safeLang}/guides/airfryers`
-  return {
+  return buildPageMetadata({
+    lang: safeLang,
+    path: '/guides/airfryers',
     title: `${dict.guide_title} | Home Nura`,
     description: dict.guide_subtitle,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: Object.fromEntries(
-        SUPPORTED_LANGS.map((l) => [l, `https://homenura.com/${l}/guides/airfryers`])
-      ),
-    },
-    openGraph: {
-      title: dict.guide_title,
-      description: dict.guide_subtitle,
-      url: canonicalUrl,
-      type: 'article',
-      images: [
-        {
-          url: 'https://homenura.com/og-image.png',
-          width: 1200,
-          height: 630,
-          alt: dict.guide_title,
-        },
-      ],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: dict.guide_title,
-      description: dict.guide_subtitle,
-      images: ['https://homenura.com/og-image.png'],
-    },
-  }
+    type: 'article',
+    modifiedTime: `${SITE_LAST_UPDATED_ISO}T00:00:00Z`,
+  })
 }
 
 export default async function AirfryerGuide({ params }: { params: Promise<{ lang: string }> }) {

@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getNonce } from '@/lib/nonce'
+import { buildPageMetadata } from '@/lib/seo'
 import Comparator from '@/components/Comparator'
 import { getSmartKitchenProducts } from '@/lib/smart-kitchen-products'
 import { SectionHero, SiteFooter } from '@/components/ui'
@@ -70,32 +71,12 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const { lang } = await params
   const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
   const c = pageContent[safeLang] || pageContent.fr
-  const canonicalUrl = `https://homenura.com/${safeLang}/cuisine-connectee/comparateur`
-  return {
+  return buildPageMetadata({
+    lang: safeLang,
+    path: '/cuisine-connectee/comparateur',
     title: `${c.title} | Home Nura`,
     description: c.intro,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: Object.fromEntries(
-        SUPPORTED_LANGS.map((l) => [l, `https://homenura.com/${l}/cuisine-connectee/comparateur`])
-      ),
-    },
-    openGraph: {
-      title: c.title,
-      description: c.intro,
-      url: canonicalUrl,
-      type: 'website',
-      images: [
-        { url: 'https://homenura.com/og-image.png', width: 1200, height: 630, alt: c.title },
-      ],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: c.title,
-      description: c.intro,
-      images: ['https://homenura.com/og-image.png'],
-    },
-  }
+  })
 }
 
 export default async function SmartKitchenComparatorPage({ params }: { params: Promise<{ lang: string }> }) {

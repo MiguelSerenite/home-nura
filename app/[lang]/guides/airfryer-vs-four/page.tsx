@@ -5,6 +5,7 @@ import CookieBanner from '@/components/CookieBanner'
 import ProductImageCarousel from '@/components/ProductImageCarousel'
 import { getStaticProducts } from '@/lib/products'
 import { getNonce } from '@/lib/nonce'
+import { buildPageMetadata } from '@/lib/seo'
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
@@ -342,37 +343,13 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
   const c = pageContent[safeLang] || pageContent.fr
   const title = metaTitles[safeLang] || metaTitles.fr
-  const canonicalUrl = `https://homenura.com/${safeLang}/guides/airfryer-vs-four`
-  return {
+  return buildPageMetadata({
+    lang: safeLang,
+    path: '/guides/airfryer-vs-four',
     title,
     description: c.subtitle,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: Object.fromEntries(
-        SUPPORTED_LANGS.map((l) => [l, `https://homenura.com/${l}/guides/airfryer-vs-four`])
-      ),
-    },
-    openGraph: {
-      title,
-      description: c.subtitle,
-      url: canonicalUrl,
-      type: 'article',
-      images: [
-        {
-          url: 'https://homenura.com/og-image.png',
-          width: 1200,
-          height: 630,
-          alt: title,
-        },
-      ],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title,
-      description: c.subtitle,
-      images: ['https://homenura.com/og-image.png'],
-    },
-  }
+    type: 'article',
+  })
 }
 
 export default async function AirfryerVsFour({ params }: { params: Promise<{ lang: string }> }) {

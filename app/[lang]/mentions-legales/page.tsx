@@ -2,25 +2,29 @@ import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getNonce } from '@/lib/nonce'
+import { buildPageMetadata } from '@/lib/seo'
 
 const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
+
+const metaDescriptions: Record<string, string> = {
+  fr: 'Mentions légales de Home Nura : éditeur, hébergeur, programme d\'affiliation Amazon et propriété intellectuelle. Informations conformes à la LCEN.',
+  en: 'Home Nura legal notice: publisher, hosting, Amazon Associates disclosure and intellectual property terms. Complete legal information.',
+  de: 'Impressum von Home Nura: Herausgeber, Hosting, Amazon-Partnerprogramm und Urheberrechtsinformationen gemäß §5 TMG.',
+  es: 'Aviso legal de Home Nura: editor, alojamiento, programa de afiliados de Amazon y propiedad intelectual. Información completa conforme a la ley.',
+  it: 'Note legali di Home Nura: editore, hosting, programma di affiliazione Amazon e proprietà intellettuale. Informazioni complete ai sensi di legge.',
+  nl: 'Juridische kennisgeving van Home Nura: uitgever, hosting, Amazon-partnerprogramma en intellectueel eigendom. Volledige wettelijke informatie.',
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
   const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
   const l = labels[safeLang] || labels.fr
-  const canonicalUrl = `https://homenura.com/${safeLang}/mentions-legales`
-  return {
+  return buildPageMetadata({
+    lang: safeLang,
+    path: '/mentions-legales',
     title: `${l.title} | Home Nura`,
-    description: l.title,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: Object.fromEntries(
-        SUPPORTED_LANGS.map((ll) => [ll, `https://homenura.com/${ll}/mentions-legales`])
-      ),
-    },
-    robots: { index: true, follow: true },
-  }
+    description: metaDescriptions[safeLang] ?? metaDescriptions.fr,
+  })
 }
 
 // Single source of truth for legal entity info (LCEN article 6 compliance)

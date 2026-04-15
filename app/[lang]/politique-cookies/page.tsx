@@ -2,25 +2,29 @@ import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getNonce } from '@/lib/nonce'
+import { buildPageMetadata } from '@/lib/seo'
 
 const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
+
+const metaDescriptions: Record<string, string> = {
+  fr: 'Politique de cookies de Home Nura : cookies strictement nécessaires, cookies Amazon d\'affiliation, gestion et paramètres navigateur. Conforme RGPD.',
+  en: 'Home Nura cookie policy: strictly necessary cookies, Amazon affiliate cookies, how to manage cookie preferences in your browser. GDPR compliant.',
+  de: 'Cookie-Richtlinie von Home Nura: unbedingt erforderliche Cookies, Amazon-Partnercookies, Cookie-Verwaltung im Browser. DSGVO-konform.',
+  es: 'Política de cookies de Home Nura: cookies estrictamente necesarias, cookies de afiliación de Amazon y gestión desde tu navegador. Conforme al RGPD.',
+  it: 'Politica dei cookie di Home Nura: cookie strettamente necessari, cookie di affiliazione Amazon e gestione dal browser. Conforme al GDPR.',
+  nl: 'Cookiebeleid van Home Nura: strikt noodzakelijke cookies, Amazon-affiliate cookies en beheer via uw browser. AVG-conform.',
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
   const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
   const c = content[safeLang] || content.fr
-  const canonicalUrl = `https://homenura.com/${safeLang}/politique-cookies`
-  return {
+  return buildPageMetadata({
+    lang: safeLang,
+    path: '/politique-cookies',
     title: `${c.title} | Home Nura`,
-    description: c.title,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: Object.fromEntries(
-        SUPPORTED_LANGS.map((l) => [l, `https://homenura.com/${l}/politique-cookies`])
-      ),
-    },
-    robots: { index: true, follow: true },
-  }
+    description: metaDescriptions[safeLang] ?? metaDescriptions.fr,
+  })
 }
 
 const content: Record<string, { title: string; body: string }> = {

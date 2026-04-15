@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getNonce } from '@/lib/nonce'
+import { buildPageMetadata } from '@/lib/seo'
 
 const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
@@ -9,37 +10,12 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const { lang } = await params
   const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
   const c = content[safeLang] || content.fr
-  const canonicalUrl = `https://homenura.com/${safeLang}/a-propos`
-  return {
+  return buildPageMetadata({
+    lang: safeLang,
+    path: '/a-propos',
     title: `${c.title} | Home Nura`,
     description: c.mission,
-    alternates: {
-      canonical: canonicalUrl,
-      languages: Object.fromEntries(
-        SUPPORTED_LANGS.map((l) => [l, `https://homenura.com/${l}/a-propos`])
-      ),
-    },
-    openGraph: {
-      title: c.title,
-      description: c.mission,
-      url: canonicalUrl,
-      type: 'profile',
-      images: [
-        {
-          url: 'https://homenura.com/og-image.png',
-          width: 1200,
-          height: 630,
-          alt: c.title,
-        },
-      ],
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: c.title,
-      description: c.mission,
-      images: ['https://homenura.com/og-image.png'],
-    },
-  }
+  })
 }
 
 const content: Record<string, {
