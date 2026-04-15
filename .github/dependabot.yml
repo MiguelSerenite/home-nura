@@ -1,0 +1,85 @@
+version: 2
+
+# Dependabot configuration — Phase R
+#
+# Weekly dependency scans for both npm packages and GitHub Actions.
+# Bumps are grouped to keep the review load sane:
+#   - one PR for dev-deps (patch/minor)
+#   - one PR for prod-deps (patch/minor)
+#   - major bumps always get their own PR so they're reviewed in isolation
+#   - next/react/react-dom are grouped together — they need to move
+#     in lockstep and framework bumps deserve a dedicated review
+updates:
+  # ---------------------------------------------------------------
+  # npm packages (root package.json)
+  # ---------------------------------------------------------------
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Europe/Paris"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "chore(deps)"
+      prefix-development: "chore(deps-dev)"
+      include: "scope"
+    labels:
+      - "dependencies"
+    groups:
+      next-react:
+        patterns:
+          - "next"
+          - "react"
+          - "react-dom"
+          - "eslint-config-next"
+        update-types:
+          - "minor"
+          - "patch"
+      dev-dependencies:
+        dependency-type: "development"
+        exclude-patterns:
+          - "eslint-config-next"
+        update-types:
+          - "minor"
+          - "patch"
+      production-dependencies:
+        dependency-type: "production"
+        exclude-patterns:
+          - "next"
+          - "react"
+          - "react-dom"
+        update-types:
+          - "minor"
+          - "patch"
+    ignore:
+      # Pin Node types to the major we run in CI (Node 22).
+      - dependency-name: "@types/node"
+        update-types:
+          - "version-update:semver-major"
+
+  # ---------------------------------------------------------------
+  # GitHub Actions (workflow files)
+  # ---------------------------------------------------------------
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Europe/Paris"
+    open-pull-requests-limit: 3
+    commit-message:
+      prefix: "chore(ci)"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "ci"
+    groups:
+      actions:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
