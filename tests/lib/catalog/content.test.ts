@@ -116,8 +116,8 @@ describe('getCategoryFaq', () => {
         const faq = getCategoryFaq(lang, cat)
         expect(
           faq.length,
-          `${cat.slug}.${lang}: FAQ should have ≥ 3 entries`
-        ).toBeGreaterThanOrEqual(3)
+          `${cat.slug}.${lang}: FAQ should have ≥ 5 entries`
+        ).toBeGreaterThanOrEqual(5)
         for (const entry of faq) {
           expect(entry.question.trim().length).toBeGreaterThan(0)
           expect(entry.answer.trim().length).toBeGreaterThan(0)
@@ -189,7 +189,7 @@ describe('getPersonaGuideFaq', () => {
   it('returns at least 3 entries for every locale', () => {
     for (const lang of LANGS) {
       const faq = getPersonaGuideFaq(lang)
-      expect(faq.length, `${lang}: persona FAQ length`).toBeGreaterThanOrEqual(3)
+      expect(faq.length, `${lang}: persona FAQ length`).toBeGreaterThanOrEqual(5)
       for (const entry of faq) {
         expect(entry.question.trim().length).toBeGreaterThan(0)
         expect(entry.answer.trim().length).toBeGreaterThan(0)
@@ -273,7 +273,7 @@ describe('getProblemContent', () => {
 })
 
 describe('getProblemFaq', () => {
-  it('returns at least 3 entries for every problem × locale', () => {
+  it('returns at least 5 entries for every problem × locale', () => {
     for (const p of PROBLEMS) {
       const cat = getCategory(p.categorySlug)!
       for (const lang of LANGS) {
@@ -281,7 +281,7 @@ describe('getProblemFaq', () => {
         expect(
           faq.length,
           `${p.slug}.${lang}: problem FAQ length`
-        ).toBeGreaterThanOrEqual(3)
+        ).toBeGreaterThanOrEqual(5)
         for (const entry of faq) {
           expect(entry.question.trim().length).toBeGreaterThan(0)
           expect(entry.answer.trim().length).toBeGreaterThan(0)
@@ -390,7 +390,7 @@ describe('getBestForFaq', () => {
         for (const lang of LANGS) {
           const faq = getBestForFaq(lang, cat, persona)
           const scope = `${cat.slug}.${persona.slug}.${lang}`
-          expect(faq.length, `${scope}: best-for FAQ length`).toBeGreaterThanOrEqual(3)
+          expect(faq.length, `${scope}: best-for FAQ length`).toBeGreaterThanOrEqual(5)
           for (const e of faq) {
             expect(e.question.trim().length).toBeGreaterThan(0)
             expect(e.answer.trim().length).toBeGreaterThan(0)

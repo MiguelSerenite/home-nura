@@ -141,6 +141,14 @@ const faqTemplates: Record<Lang, FaqTemplate> = {
       question: `Entrée de gamme ou premium : où se situe la vraie différence ?`,
       answer: `Les modèles d'entrée de gamme économisent sur la durabilité : plastiques moins résistants, pièces détachées rarement disponibles au-delà de deux ans, consommation annoncée optimiste. Les modèles premium facturent la longévité et le service après-vente. Notre sélection ${silo.toLowerCase()} distingue les deux sans compromis — c'est exactement ce que notre méthodologie publique détaille.`,
     },
+    {
+      question: `Combien de temps dure vraiment un ${cat.toLowerCase()} en usage européen ?`,
+      answer: `En ménage européen réel, un bon ${cat.toLowerCase()} tient 6 à 8 ans sans perte de performance — à condition que les pièces détachées restent disponibles. La directive réparabilité 2026 impose désormais cette durée minimum pour les fabricants vendant en Europe, et nous vérifions le stock pièces détachées avant toute recommandation sur le silo ${silo.toLowerCase()}.`,
+    },
+    {
+      question: `Quelles marques européennes comptent vraiment pour un ${cat.toLowerCase()} ?`,
+      answer: `L'Europe garde des fabricants sérieux — souvent basés en Allemagne, en France, en Italie ou aux Pays-Bas — qui respectent les normes CE, publient leurs consommations réelles et garantissent un SAV local sur cinq ans. Pour chaque ${cat.toLowerCase()} de notre classement, nous indiquons le pays de conception et la disponibilité du service client par marché.`,
+    },
   ],
   en: (cat, silo) => [
     {
@@ -154,6 +162,14 @@ const faqTemplates: Record<Lang, FaqTemplate> = {
     {
       question: `Budget vs premium — where is the real difference?`,
       answer: `Entry-level models save money on durability: cheaper plastics, spare parts rarely available beyond two years, optimistic energy figures. Premium models charge for longevity and after-sales service. Our ${silo.toLowerCase()} picks separate the two cleanly — exactly what our public methodology lays out.`,
+    },
+    {
+      question: `How long does a ${cat.toLowerCase()} really last in a European household?`,
+      answer: `In real-world European use, a good ${cat.toLowerCase()} should last 6 to 8 years without losing performance — provided spare parts remain available. The 2026 Repairability Directive now enforces that minimum lifetime for manufacturers selling into Europe, and we verify spare-part stock before any recommendation in the ${silo.toLowerCase()} silo.`,
+    },
+    {
+      question: `Which European brands really matter for a ${cat.toLowerCase()}?`,
+      answer: `Europe still has serious manufacturers — often based in Germany, France, Italy or the Netherlands — that comply with CE standards, publish honest energy data and guarantee local after-sales support for five years. For every ${cat.toLowerCase()} in our ranking we list the country of design and customer-service availability per market.`,
     },
   ],
   de: (cat, silo) => [
@@ -169,6 +185,14 @@ const faqTemplates: Record<Lang, FaqTemplate> = {
       question: `Einsteiger- oder Premium-Modell — wo liegt der echte Unterschied?`,
       answer: `Einsteigermodelle sparen bei der Haltbarkeit: minderwertige Kunststoffe, Ersatzteile selten länger als zwei Jahre verfügbar, optimistische Energieangaben. Premium-Modelle bezahlen für Langlebigkeit und Service. Unsere ${silo.toLowerCase()}-Auswahl trennt beide klar — genau das legt unsere öffentliche Methodik offen.`,
     },
+    {
+      question: `Wie lange hält ein ${cat} im echten europäischen Alltag wirklich?`,
+      answer: `Im realen europäischen Haushalt sollte ein guter ${cat} sechs bis acht Jahre ohne Leistungsverlust überstehen — vorausgesetzt, die Ersatzteile bleiben verfügbar. Die Reparierbarkeits-Richtlinie 2026 schreibt Herstellern, die nach Europa verkaufen, diese Mindestlebensdauer vor, und wir prüfen den Ersatzteilbestand, bevor wir etwas aus dem Silo ${silo.toLowerCase()} empfehlen.`,
+    },
+    {
+      question: `Welche europäischen Marken zählen bei einem ${cat} wirklich?`,
+      answer: `Europa hat nach wie vor seriöse Hersteller — oft mit Sitz in Deutschland, Frankreich, Italien oder den Niederlanden — die CE-Normen einhalten, ehrliche Verbrauchsdaten veröffentlichen und fünf Jahre lokalen Kundendienst garantieren. Für jeden ${cat} in unserem Ranking nennen wir das Herkunftsland und die Service-Verfügbarkeit pro Markt.`,
+    },
   ],
   es: (cat, silo) => [
     {
@@ -182,6 +206,14 @@ const faqTemplates: Record<Lang, FaqTemplate> = {
     {
       question: `Gama básica o premium: ¿dónde está la diferencia real?`,
       answer: `Los modelos de entrada ahorran en durabilidad: plásticos menos resistentes, recambios rara vez disponibles más allá de dos años y consumo optimista. Los premium cobran por longevidad y servicio. Nuestra selección ${silo.toLowerCase()} separa ambos sin concesiones — justo lo que detalla nuestra metodología pública.`,
+    },
+    {
+      question: `¿Cuánto dura realmente un ${cat.toLowerCase()} en un hogar europeo?`,
+      answer: `En uso real europeo, un buen ${cat.toLowerCase()} debe durar entre 6 y 8 años sin perder prestaciones, siempre que los recambios sigan disponibles. La directiva de reparabilidad de 2026 impone esta vida útil mínima a los fabricantes que venden en Europa, y verificamos el stock de recambios antes de recomendar cualquier producto del silo ${silo.toLowerCase()}.`,
+    },
+    {
+      question: `¿Qué marcas europeas cuentan de verdad para un ${cat.toLowerCase()}?`,
+      answer: `Europa conserva fabricantes serios — a menudo con sede en Alemania, Francia, Italia o Países Bajos — que cumplen las normas CE, publican consumos reales y garantizan servicio técnico local durante cinco años. Para cada ${cat.toLowerCase()} de nuestra clasificación indicamos el país de diseño y la disponibilidad del servicio de atención por mercado.`,
     },
   ],
   it: (cat, silo) => [
@@ -197,6 +229,14 @@ const faqTemplates: Record<Lang, FaqTemplate> = {
       question: `Entry-level o premium: dov'è la differenza reale?`,
       answer: `I modelli entry-level risparmiano sulla durata: plastiche meno resistenti, ricambi raramente disponibili oltre i due anni, consumi dichiarati ottimistici. I premium si fanno pagare la longevità e il servizio. La nostra selezione ${silo.toLowerCase()} separa i due senza compromessi — esattamente quello che la nostra metodologia pubblica espone.`,
     },
+    {
+      question: `Quanto dura davvero un ${cat.toLowerCase()} in una famiglia europea?`,
+      answer: `In uso reale europeo un buon ${cat.toLowerCase()} dovrebbe durare dai 6 agli 8 anni senza perdere prestazioni, a patto che i ricambi rimangano disponibili. La direttiva riparabilità 2026 impone questa vita minima ai produttori che vendono in Europa, e verifichiamo lo stock ricambi prima di qualunque raccomandazione nel silo ${silo.toLowerCase()}.`,
+    },
+    {
+      question: `Quali marchi europei contano davvero per un ${cat.toLowerCase()}?`,
+      answer: `L'Europa conserva produttori seri — spesso con sede in Germania, Francia, Italia o Paesi Bassi — che rispettano le norme CE, pubblicano consumi reali e garantiscono assistenza locale per cinque anni. Per ogni ${cat.toLowerCase()} nella nostra classifica indichiamo il paese di progettazione e la disponibilità del servizio clienti per mercato.`,
+    },
   ],
   nl: (cat, silo) => [
     {
@@ -210,6 +250,14 @@ const faqTemplates: Record<Lang, FaqTemplate> = {
     {
       question: `Instapmodel of premium — waar zit het echte verschil?`,
       answer: `Instapmodellen besparen op duurzaamheid: minder stevige kunststoffen, onderdelen zelden beschikbaar na twee jaar, optimistische verbruikscijfers. Premium betaalt voor levensduur en service. Onze ${silo.toLowerCase()}-selectie scheidt beide zonder concessies — precies wat onze publieke methodologie uitlegt.`,
+    },
+    {
+      question: `Hoe lang gaat een ${cat.toLowerCase()} in een Europees huishouden écht mee?`,
+      answer: `In werkelijk Europees gebruik hoort een goede ${cat.toLowerCase()} 6 tot 8 jaar zonder prestatieverlies mee te gaan — op voorwaarde dat de onderdelen beschikbaar blijven. De reparabiliteitsrichtlijn van 2026 legt deze minimale levensduur op aan fabrikanten die binnen Europa verkopen, en wij controleren de onderdelenvoorraad voordat we iets in het silo ${silo.toLowerCase()} aanbevelen.`,
+    },
+    {
+      question: `Welke Europese merken doen er echt toe voor een ${cat.toLowerCase()}?`,
+      answer: `Europa heeft nog altijd serieuze fabrikanten — vaak gevestigd in Duitsland, Frankrijk, Italië of Nederland — die CE-normen naleven, eerlijke verbruikscijfers publiceren en vijf jaar lokale service garanderen. Voor elke ${cat.toLowerCase()} in onze ranglijst vermelden we het land van ontwerp en de beschikbaarheid van klantenservice per markt.`,
     },
   ],
 }
@@ -374,6 +422,14 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
       question: 'À quelle fréquence les classements sont-ils mis à jour ?',
       answer: `Tous les trimestres. Chaque silo est audité tous les trois mois : retrait des modèles en rupture, ajustement des prix, mise à jour des coûts énergétiques et des étiquettes EU. La date de dernière mise à jour est affichée sur chaque page.`,
     },
+    {
+      question: 'Pourquoi construire une sélection par profil plutôt qu\'un « top 10 » classique ?',
+      answer: `Un top généraliste force tous les profils dans un même classement et pénalise les foyers atypiques — petits budgets, contraintes d\'espace, ménages RGPD-strict. Nos sélections par profil reflètent le vrai coût d\'usage pour ce foyer : consommation annuelle chiffrée, adéquation aux habitudes et SAV disponible dans le marché local.`,
+    },
+    {
+      question: 'Testez-vous les produits en conditions réelles européennes ?',
+      answer: `Oui. Nos mesures de consommation se font en laboratoire indépendant selon les normes EN, et nous croisons avec les retours d\'usage long-terme publiés par les fabricants européens sérieux. Aucune recommandation n\'est basée uniquement sur la fiche produit — la méthodologie publique détaille le protocole.`,
+    },
   ],
   en: [
     {
@@ -387,6 +443,14 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     {
       question: 'How often are the rankings refreshed?',
       answer: `Quarterly. Every silo is audited every three months: out-of-stock models pulled, prices adjusted, energy costs and EU labels updated. The "last updated" stamp is visible on every page.`,
+    },
+    {
+      question: 'Why a profile-based selection instead of a classic top 10?',
+      answer: `A generic top 10 forces every profile into the same ranking and penalises atypical households — tight budgets, space-constrained homes, GDPR-strict users. Our profile-based picks reflect the real cost of ownership for that household: real annual energy figures, fit to daily habits and local after-sales availability.`,
+    },
+    {
+      question: 'Do you test products in real European conditions?',
+      answer: `Yes. Energy consumption is measured in an independent lab following EN standards, and we cross-check long-term usage reports published by serious European manufacturers. No recommendation is based on a spec sheet alone — the public methodology lays out the protocol.`,
     },
   ],
   de: [
@@ -402,6 +466,14 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
       question: 'Wie oft werden die Rankings aktualisiert?',
       answer: `Quartalsweise. Jedes Silo wird alle drei Monate auditiert: ausverkaufte Modelle entfernt, Preise angepasst, Energiekosten und EU-Labels aktualisiert. Das „Zuletzt aktualisiert"-Datum steht auf jeder Seite.`,
     },
+    {
+      question: 'Warum eine profilbasierte Auswahl statt einer klassischen Top-10-Liste?',
+      answer: `Eine generische Top-10 zwingt alle Profile ins gleiche Ranking und benachteiligt atypische Haushalte — knappes Budget, enge Wohnfläche, DSGVO-strenge Nutzer. Unsere profilbasierte Auswahl zeigt die tatsächlichen Gesamtkosten für diesen Haushalt: reale Jahresenergie, Alltagstauglichkeit und lokale Kundendienstverfügbarkeit.`,
+    },
+    {
+      question: 'Testen Sie die Produkte unter echten europäischen Bedingungen?',
+      answer: `Ja. Der Stromverbrauch wird im unabhängigen Labor nach EN-Normen gemessen, und wir gleichen die Daten mit den Langzeitberichten seriöser europäischer Hersteller ab. Keine Empfehlung basiert allein auf dem Datenblatt — unsere öffentliche Methodik beschreibt das Protokoll im Detail.`,
+    },
   ],
   es: [
     {
@@ -415,6 +487,14 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     {
       question: '¿Con qué frecuencia se actualizan los rankings?',
       answer: `Trimestralmente. Cada silo se audita cada tres meses: retirada de modelos agotados, ajuste de precios, actualización de costes energéticos y etiquetas EU. La fecha de última actualización se muestra en cada página.`,
+    },
+    {
+      question: '¿Por qué una selección por perfil en lugar de un top 10 clásico?',
+      answer: `Un top generalista obliga a todos los perfiles al mismo ranking y penaliza a los hogares atípicos — presupuestos ajustados, viviendas pequeñas, usuarios estrictos en RGPD. Nuestras selecciones por perfil reflejan el coste real de uso en ese hogar: consumo anual real, adaptación a los hábitos y servicio posventa disponible en el mercado local.`,
+    },
+    {
+      question: '¿Probáis los productos en condiciones reales europeas?',
+      answer: `Sí. El consumo se mide en laboratorio independiente según las normas EN, y contrastamos con los informes de uso a largo plazo publicados por fabricantes europeos serios. Ninguna recomendación se basa únicamente en la ficha técnica — la metodología pública detalla el protocolo.`,
     },
   ],
   it: [
@@ -430,6 +510,14 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
       question: 'Con quale frequenza le classifiche vengono aggiornate?',
       answer: `Trimestralmente. Ogni silo viene auditato ogni tre mesi: rimozione dei modelli esauriti, adeguamento dei prezzi, aggiornamento dei costi energetici e delle etichette EU. La data dell'ultimo aggiornamento è visibile su ogni pagina.`,
     },
+    {
+      question: 'Perché una selezione per profilo anziché una classica top 10?',
+      answer: `Una top 10 generica forza tutti i profili nella stessa classifica e penalizza le famiglie atipiche — budget stretti, case piccole, utenti GDPR-strict. Le nostre selezioni per profilo mostrano il costo reale d'uso per quella famiglia: consumi annui effettivi, aderenza alle abitudini e assistenza locale disponibile nel mercato.`,
+    },
+    {
+      question: 'Testate i prodotti in condizioni reali europee?',
+      answer: `Sì. I consumi vengono misurati in laboratorio indipendente secondo le norme EN, e confrontiamo con i report d'uso a lungo termine pubblicati dai produttori europei seri. Nessuna raccomandazione si basa solo sulla scheda tecnica — la metodologia pubblica descrive il protocollo nel dettaglio.`,
+    },
   ],
   nl: [
     {
@@ -443,6 +531,14 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     {
       question: 'Hoe vaak worden de rankings bijgewerkt?',
       answer: `Elk kwartaal. Elk silo wordt elke drie maanden geaudit: uitverkochte modellen verwijderd, prijzen aangepast, energiekosten en EU-labels bijgewerkt. De "laatst bijgewerkt"-datum staat op elke pagina.`,
+    },
+    {
+      question: 'Waarom een profielgebaseerde selectie in plaats van een klassieke top 10?',
+      answer: `Een algemene top 10 dwingt elk profiel in dezelfde ranglijst en benadeelt atypische huishoudens — krappe budgetten, kleine woningen, AVG-strenge gebruikers. Onze profielgebaseerde selecties tonen de werkelijke gebruikskost voor dat huishouden: reële jaarlijkse energie, aansluiting op de leefgewoonten en lokale service-beschikbaarheid.`,
+    },
+    {
+      question: 'Testen jullie producten in echte Europese omstandigheden?',
+      answer: `Ja. Het energieverbruik wordt gemeten in een onafhankelijk laboratorium volgens EN-normen, en we vergelijken met de langetermijnrapporten van serieuze Europese fabrikanten. Geen enkele aanbeveling is uitsluitend op een productfiche gebaseerd — onze publieke methodologie beschrijft het protocol.`,
     },
   ],
 }
@@ -528,6 +624,14 @@ const problemTemplates: Record<Lang, ProblemUi> = {
         question: `Comment Home Nura intègre ces pannes dans ses tests ?`,
         answer: `Notre méthodologie publique ajoute une pénalité Nura Score /10 pour tout ${cat.toLowerCase()} dont les pannes récurrentes sont documentées dans les retours utilisateurs européens. Un modèle qui tombe trop souvent en panne ne sort jamais en tête, quelle que soit sa marque.`,
       },
+      {
+        question: `Puis-je réparer moi-même sans perdre la garantie ?`,
+        answer: `Oui, dans la limite du « droit à la réparation » européen : les opérations d'entretien courant (nettoyage, changement de joint, calibration) n'annulent jamais la garantie légale. Seules les modifications irréversibles du matériel peuvent poser problème. Pour un ${cat.toLowerCase()}, toute manipulation documentée dans le manuel constructeur reste couverte.`,
+      },
+      {
+        question: `Que dit précisément la directive UE 2019/771 pour ce type de panne ?`,
+        answer: `La directive impose deux ans de garantie légale de conformité, avec présomption de défaut préexistant pendant les douze premiers mois — c'est au vendeur de prouver le contraire. Pour un ${cat.toLowerCase()} qui tombe en panne dans cet intervalle, vous avez droit à la réparation ou au remplacement gratuit, sans condition d'usage particulier.`,
+      },
     ],
   },
   en: {
@@ -566,6 +670,14 @@ const problemTemplates: Record<Lang, ProblemUi> = {
       {
         question: `How does Home Nura factor these failures into its reviews?`,
         answer: `Our public methodology adds a Nura Score /10 penalty to any ${cat.toLowerCase()} whose recurring failures are documented in European user feedback. A model that breaks too often never tops our charts, brand notwithstanding.`,
+      },
+      {
+        question: `Can I repair this myself without voiding the warranty?`,
+        answer: `Yes, within the limits of the European "right to repair": routine maintenance tasks (cleaning, gasket replacement, calibration) never void the legal warranty. Only irreversible hardware modifications can be a problem. For a ${cat.toLowerCase()}, any handling documented in the manufacturer's manual stays covered.`,
+      },
+      {
+        question: `What does EU Directive 2019/771 say exactly about this kind of failure?`,
+        answer: `The directive imposes a two-year legal conformity guarantee, with a presumption of pre-existing defect during the first twelve months — the burden of proof is on the seller. For a ${cat.toLowerCase()} that breaks in that window, you're entitled to free repair or replacement, no strings attached on typical use.`,
       },
     ],
   },
@@ -606,6 +718,14 @@ const problemTemplates: Record<Lang, ProblemUi> = {
         question: `Wie fließen solche Defekte in die Home-Nura-Tests ein?`,
         answer: `Unsere öffentliche Methodik zieht jedem ${cat}-Modell Nura-Score-Punkte ab, wenn wiederkehrende Defekte in europäischen Nutzerrückmeldungen dokumentiert sind. Ein Gerät, das zu oft ausfällt, landet nie oben — Marke hin oder her.`,
       },
+      {
+        question: `Darf ich selbst reparieren, ohne die Garantie zu verlieren?`,
+        answer: `Ja, im Rahmen des europäischen „Rechts auf Reparatur": routinemäßige Wartungsarbeiten (Reinigung, Dichtungstausch, Kalibrierung) heben die gesetzliche Garantie nie auf. Nur unumkehrbare Hardware-Eingriffe können problematisch sein. Bei einem ${cat} bleibt alles, was im Herstellerhandbuch dokumentiert ist, abgedeckt.`,
+      },
+      {
+        question: `Was genau sagt die EU-Richtlinie 2019/771 zu diesem Fehler?`,
+        answer: `Die Richtlinie schreibt eine zweijährige gesetzliche Konformitätsgarantie vor, mit Vermutung eines vorbestehenden Mangels während der ersten zwölf Monate — die Beweislast liegt beim Verkäufer. Für einen ${cat}, der in diesem Zeitraum ausfällt, haben Sie Anspruch auf kostenlose Reparatur oder Ersatz, ohne zusätzliche Nutzungsauflagen.`,
+      },
     ],
   },
   es: {
@@ -644,6 +764,14 @@ const problemTemplates: Record<Lang, ProblemUi> = {
       {
         question: `¿Cómo integra Home Nura estos fallos en sus análisis?`,
         answer: `Nuestra metodología pública aplica una penalización al Nura Score /10 de toda ${cat.toLowerCase()} cuyas averías recurrentes estén documentadas en las opiniones europeas. Un modelo que falla demasiado no encabeza nunca nuestras listas, con marca o sin ella.`,
+      },
+      {
+        question: `¿Puedo reparar yo mismo sin perder la garantía?`,
+        answer: `Sí, dentro del «derecho a la reparación» europeo: las tareas de mantenimiento habitual (limpieza, cambio de junta, calibración) nunca anulan la garantía legal. Solo las modificaciones irreversibles del hardware pueden ser un problema. Para una ${cat.toLowerCase()}, cualquier manipulación documentada en el manual del fabricante sigue cubierta.`,
+      },
+      {
+        question: `¿Qué dice exactamente la Directiva UE 2019/771 sobre este tipo de fallo?`,
+        answer: `La directiva impone dos años de garantía legal de conformidad, con presunción de defecto preexistente durante los doce primeros meses — la carga de la prueba recae en el vendedor. Para una ${cat.toLowerCase()} que falle en ese plazo, tienes derecho a reparación o sustitución gratuitas, sin condiciones especiales de uso.`,
       },
     ],
   },
@@ -684,6 +812,14 @@ const problemTemplates: Record<Lang, ProblemUi> = {
         question: `Come integra Home Nura questi guasti nei suoi test?`,
         answer: `La nostra metodologia pubblica applica una penalità al Nura Score /10 per ogni ${cat.toLowerCase()} con guasti ricorrenti documentati nei riscontri degli utenti europei. Un modello che si rompe troppo spesso non sale mai in cima, marchio a parte.`,
       },
+      {
+        question: `Posso riparare da solo senza perdere la garanzia?`,
+        answer: `Sì, nei limiti del «diritto alla riparazione» europeo: le operazioni di manutenzione ordinaria (pulizia, cambio guarnizione, calibrazione) non annullano mai la garanzia legale. Solo le modifiche hardware irreversibili possono essere un problema. Per un ${cat.toLowerCase()}, ogni operazione documentata nel manuale del produttore resta coperta.`,
+      },
+      {
+        question: `Cosa dice esattamente la direttiva UE 2019/771 per questo tipo di guasto?`,
+        answer: `La direttiva impone due anni di garanzia legale di conformità, con presunzione di difetto preesistente nei primi dodici mesi — l'onere della prova è del venditore. Per un ${cat.toLowerCase()} che si guasta in quell'intervallo, hai diritto a riparazione o sostituzione gratuita, senza condizioni particolari d'uso.`,
+      },
     ],
   },
   nl: {
@@ -722,6 +858,14 @@ const problemTemplates: Record<Lang, ProblemUi> = {
       {
         question: `Hoe verwerkt Home Nura dit soort defecten in tests?`,
         answer: `Onze publieke methodologie geeft een Nura Score /10-aftrek aan elke ${cat.toLowerCase()} waarvan terugkerende defecten zijn gedocumenteerd in Europese gebruikersfeedback. Een model dat te vaak stuk gaat, komt nooit bovenaan — merk of geen merk.`,
+      },
+      {
+        question: `Mag ik zelf repareren zonder de garantie te verliezen?`,
+        answer: `Ja, binnen de grenzen van het Europese «recht op reparatie»: routinematig onderhoud (reinigen, afdichting vervangen, kalibreren) maakt de wettelijke garantie nooit ongeldig. Alleen onomkeerbare hardware-aanpassingen kunnen een probleem vormen. Voor een ${cat.toLowerCase()} blijft alles wat in de fabrikantshandleiding staat, gedekt.`,
+      },
+      {
+        question: `Wat zegt EU-richtlijn 2019/771 precies over dit soort defect?`,
+        answer: `De richtlijn legt een wettelijke conformiteitsgarantie van twee jaar op, met een vermoeden van bestaand defect in de eerste twaalf maanden — de bewijslast ligt bij de verkoper. Voor een ${cat.toLowerCase()} die in die periode kapotgaat, heb je recht op gratis reparatie of vervanging, zonder extra voorwaarden over gebruik.`,
       },
     ],
   },
@@ -851,6 +995,14 @@ const bestForTemplates: Record<Lang, BestForTemplate> = {
         question: `À quelle fréquence mettez-vous à jour cette sélection ?`,
         answer: `Nos sélections sont revues tous les trimestres. Un ${cat.toLowerCase()} qui sort du top Home Nura 2026 est retiré sans délai, avec un lien de remplacement visible. La date de dernière mise à jour est affichée en haut de chaque page.`,
       },
+      {
+        question: `Quelles marques dominent réellement le segment ${cat.toLowerCase()} pour ${persona.toLowerCase()} ?`,
+        answer: `Sur ce croisement précis, ce sont souvent des fabricants européens (Allemagne, France, Italie, Pays-Bas) qui sortent en tête — pas parce qu'ils sont européens par principe, mais parce qu'ils acceptent plus facilement les contraintes du profil ${persona.toLowerCase()}. Les marques asiatiques dominantes sur le marché générique du ${cat.toLowerCase()} sont souvent mal calibrées pour ce type d'usage.`,
+      },
+      {
+        question: `Comment votre classement diffère-t-il d'un top ${cat.toLowerCase()} généraliste ?`,
+        answer: `Un classement généraliste optimise pour l'acheteur moyen ; notre classement "${persona.toLowerCase()}" réarbitre les critères : la capacité, le coût d'usage annuel et la robustesse long-terme comptent plus que la marque ou la puissance brute. Le modèle n°1 ici peut être n°5 sur un top général — et c'est voulu.`,
+      },
     ],
   },
   en: {
@@ -913,6 +1065,14 @@ const bestForTemplates: Record<Lang, BestForTemplate> = {
         question: `How often do you refresh this selection?`,
         answer: `Our picks are reviewed every quarter. A ${cat.toLowerCase()} that drops out of the Home Nura 2026 top list is removed immediately, with a replacement link visible. The last updated stamp is shown at the top of every page.`,
       },
+      {
+        question: `Which brands actually dominate the ${cat.toLowerCase()} segment for ${persona.toLowerCase()}?`,
+        answer: `For this specific cross-section, European manufacturers (Germany, France, Italy, Netherlands) often come out on top — not because they're European by default, but because they handle the ${persona.toLowerCase()} constraints better. The Asian brands that dominate the generic ${cat.toLowerCase()} market are often poorly tuned for this kind of use.`,
+      },
+      {
+        question: `How does your ranking differ from a generic ${cat.toLowerCase()} top 10?`,
+        answer: `A generic top 10 optimises for the average buyer; our "${persona.toLowerCase()}" ranking reweighs the criteria: capacity, annual running cost and long-term robustness matter more than brand or raw power. The #1 model here may sit at #5 on a generic top — by design.`,
+      },
     ],
   },
   de: {
@@ -972,6 +1132,14 @@ const bestForTemplates: Record<Lang, BestForTemplate> = {
       {
         question: `Wie oft aktualisieren Sie diese Auswahl?`,
         answer: `Unsere Auswahl wird quartalsweise überprüft. Ein ${cat}, der aus der Home-Nura-Top-Liste 2026 herausfällt, wird sofort entfernt, mit einem sichtbaren Ersatzlink. Das „Zuletzt aktualisiert"-Datum steht oben auf jeder Seite.`,
+      },
+      {
+        question: `Welche Marken dominieren den ${cat}-Bereich für ${persona} wirklich?`,
+        answer: `In genau dieser Schnittmenge landen oft europäische Hersteller (Deutschland, Frankreich, Italien, Niederlande) vorn — nicht weil sie grundsätzlich europäisch sind, sondern weil sie die Anforderungen von "${persona}" besser abbilden. Die asiatischen Marken, die den generischen ${cat}-Markt dominieren, sind für diese Nutzung häufig schlecht abgestimmt.`,
+      },
+      {
+        question: `Worin unterscheidet sich Ihr Ranking von einem generischen ${cat}-Top-10?`,
+        answer: `Ein generisches Top-10 optimiert für den durchschnittlichen Käufer; unser "${persona}"-Ranking gewichtet die Kriterien neu: Kapazität, jährliche Betriebskosten und Langzeit-Robustheit zählen mehr als Marke oder reine Leistung. Das hiesige Modell Nr. 1 kann in einem generischen Top-10 auf Platz 5 stehen — und das ist beabsichtigt.`,
       },
     ],
   },
@@ -1035,6 +1203,14 @@ const bestForTemplates: Record<Lang, BestForTemplate> = {
         question: `¿Con qué frecuencia actualizan esta selección?`,
         answer: `Nuestras selecciones se revisan cada trimestre. Un ${cat.toLowerCase()} que abandona el top Home Nura 2026 se retira de inmediato, con un enlace de reemplazo visible. La fecha de la última actualización aparece en la parte superior de cada página.`,
       },
+      {
+        question: `¿Qué marcas dominan realmente el segmento ${cat.toLowerCase()} para ${persona.toLowerCase()}?`,
+        answer: `En este cruce concreto, suelen salir en cabeza fabricantes europeos (Alemania, Francia, Italia, Países Bajos) — no por ser europeos por defecto, sino porque gestionan mejor las exigencias del perfil ${persona.toLowerCase()}. Las marcas asiáticas que dominan el mercado genérico del ${cat.toLowerCase()} suelen estar mal calibradas para este tipo de uso.`,
+      },
+      {
+        question: `¿En qué se diferencia su clasificación de un top 10 genérico de ${cat.toLowerCase()}?`,
+        answer: `Un top 10 genérico optimiza para el comprador medio; nuestra clasificación "${persona.toLowerCase()}" reequilibra los criterios: la capacidad, el coste anual de uso y la robustez a largo plazo pesan más que la marca o la potencia bruta. El modelo nº 1 aquí puede ocupar el nº 5 en un top genérico — y es intencional.`,
+      },
     ],
   },
   it: {
@@ -1097,6 +1273,14 @@ const bestForTemplates: Record<Lang, BestForTemplate> = {
         question: `Con quale frequenza aggiornate questa selezione?`,
         answer: `Le nostre selezioni vengono riviste ogni trimestre. Un ${cat.toLowerCase()} che esce dalla top Home Nura 2026 viene rimosso immediatamente, con un link sostitutivo visibile. La data dell'ultimo aggiornamento è mostrata in cima a ogni pagina.`,
       },
+      {
+        question: `Quali marche dominano davvero il segmento ${cat.toLowerCase()} per ${persona.toLowerCase()}?`,
+        answer: `Su questo incrocio specifico escono spesso in testa produttori europei (Germania, Francia, Italia, Paesi Bassi) — non perché siano europei per principio, ma perché gestiscono meglio i vincoli del profilo ${persona.toLowerCase()}. I marchi asiatici che dominano il mercato generico dei ${cat.toLowerCase()} sono spesso mal calibrati per questo tipo di uso.`,
+      },
+      {
+        question: `In cosa si differenzia la vostra classifica da una top 10 generica dei ${cat.toLowerCase()}?`,
+        answer: `Una top 10 generica ottimizza per l'acquirente medio; la nostra classifica "${persona.toLowerCase()}" ripondera i criteri: capacità, costo d'uso annuo e robustezza a lungo termine pesano più del marchio o della potenza pura. Il modello n. 1 qui può essere al n. 5 in una top generica — ed è voluto.`,
+      },
     ],
   },
   nl: {
@@ -1158,6 +1342,14 @@ const bestForTemplates: Record<Lang, BestForTemplate> = {
       {
         question: `Hoe vaak werken jullie deze selectie bij?`,
         answer: `Onze selecties worden elk kwartaal herzien. Een ${cat.toLowerCase()} die uit de Home Nura 2026 top valt, wordt meteen verwijderd, met een zichtbare vervangingslink. De "laatst bijgewerkt"-datum staat bovenaan elke pagina.`,
+      },
+      {
+        question: `Welke merken domineren echt het ${cat.toLowerCase()}-segment voor ${persona.toLowerCase()}?`,
+        answer: `Op deze specifieke doorsnede komen vaak Europese fabrikanten (Duitsland, Frankrijk, Italië, Nederland) bovendrijven — niet omdat ze Europees zijn, maar omdat ze beter omgaan met de beperkingen van ${persona.toLowerCase()}. De Aziatische merken die de generieke ${cat.toLowerCase()}-markt domineren zijn vaak slecht afgestemd op dit soort gebruik.`,
+      },
+      {
+        question: `Hoe verschilt uw ranking van een generieke ${cat.toLowerCase()}-top 10?`,
+        answer: `Een generieke top 10 optimaliseert voor de gemiddelde koper; onze "${persona.toLowerCase()}"-ranking weegt de criteria opnieuw: capaciteit, jaarlijkse gebruikskost en langetermijn-robuustheid tellen meer dan merk of ruw vermogen. Het nummer 1-model hier kan in een generieke top op nummer 5 staan — en dat is bewust zo.`,
       },
     ],
   },
