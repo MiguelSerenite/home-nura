@@ -239,6 +239,64 @@ function extractBrand(name: string): string {
 }
 
 // ---------------------------------------------------------------------
+// ItemList schema builder for editorial best-for pages (Phase NN)
+//
+// Unlike buildProductListSchema above — which embeds full Product
+// entries with price, image and AggregateRating — this helper produces
+// a lightweight ItemList for pages where the "ranking" is over
+// criteria, not over concrete SKUs. Each best-for page
+// (/[silo]/[category]/meilleur-pour/[persona]) declares a ranked
+// list of the five criteria that actually matter for that specific
+// (category × persona) cross-section. Emitting this as schema.org
+// ItemList turns the page from plain FAQ + BreadcrumbList into a
+// fully-structured editorial ranking — Google recognises these as
+// curated "buying guide" signals and LLM crawlers can cite the
+// individual criteria independently.
+//
+// Keep it cheap: no Product, no Review, no Offer. Just a ranked
+// list of Thing nodes. ItemList.itemListOrder = Descending matches
+// how the UI numbers the criteria (position 1 = most important).
+// ---------------------------------------------------------------------
+
+interface BuildBestForItemListInput {
+  lang: string
+  /** Path inside the lang prefix, e.g. /cuisine-connectee/airfryers/meilleur-pour/famille-4. */
+  path: string
+  /** The "best X for Y" headline — becomes ItemList.name. */
+  name: string
+  /** Short description — becomes ItemList.description for extra richness. */
+  description: string
+  /** Criteria list in ranked order (position 1..N). */
+  criteria: string[]
+}
+
+export function buildBestForItemListSchema(input: BuildBestForItemListInput) {
+  const { lang, path, name, description, criteria } = input
+  const safeLang: Lang = isValidLang(lang) ? lang : 'fr'
+  const normalizedPath = path.startsWith('/') ? path : `/${path}`
+  const pageUrl = `${BASE_URL}/${safeLang}${normalizedPath}`
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name,
+    description,
+    url: pageUrl,
+    numberOfItems: criteria.length,
+    itemListOrder: 'https://schema.org/ItemListOrderDescending',
+    dateModified: SITE_LAST_UPDATED_ISO,
+    itemListElement: criteria.map((text, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: {
+        '@type': 'Thing',
+        name: text,
+      },
+    })),
+  }
+}
+
+// ---------------------------------------------------------------------
 // Article schema builder (Phase T)
 //
 // Produces a schema.org Article / ReviewArticle / TechArticle JSON-LD

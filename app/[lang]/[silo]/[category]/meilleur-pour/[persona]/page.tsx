@@ -49,6 +49,7 @@ import { getNonce } from '@/lib/nonce'
 import {
   buildPageMetadata,
   buildBreadcrumbListSchema,
+  buildBestForItemListSchema,
 } from '@/lib/seo'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import FaqSection from '@/components/FaqSection'
@@ -249,6 +250,19 @@ export default async function BestForPage({
     },
   ])
 
+  // Phase NN: ItemList schema — declare the ranked criteria as
+  // structured data so Google / LLM crawlers can attribute citations
+  // to individual selection factors (capacity, annual energy cost,
+  // repairability, …) rather than treating the page as one opaque
+  // blob. Each best-for URL ships a 5-item ranking.
+  const itemListSchema = buildBestForItemListSchema({
+    lang: safeLang,
+    path: `/${silo}/${cat.slug}/meilleur-pour/${p.slug}`,
+    name: hero.title,
+    description: hero.intro,
+    criteria: hero.criteria,
+  })
+
   return (
     <div className="min-h-screen bg-white">
       <script
@@ -256,6 +270,12 @@ export default async function BestForPage({
         nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        nonce={nonce}
+        suppressHydrationWarning
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
 
       <Navbar currentLang={safeLang} />

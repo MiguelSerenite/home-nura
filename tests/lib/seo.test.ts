@@ -5,6 +5,7 @@ import {
   buildArticleSchema,
   buildBreadcrumbListSchema,
   buildFaqPageSchema,
+  buildBestForItemListSchema,
   getSocialProof,
   formatLastUpdated,
   SITE_LAST_UPDATED_ISO,
@@ -533,5 +534,77 @@ describe('buildFaqPageSchema', () => {
         { question: '   ', answer: '   ' },
       ])
     ).toBeUndefined()
+  })
+})
+
+describe('buildBestForItemListSchema', () => {
+  const baseInput = {
+    lang: 'fr',
+    path: '/cuisine-connectee/airfryers/meilleur-pour/famille-4-personnes',
+    name: 'Le meilleur airfryer pour famille 4 personnes en 2026',
+    description: 'Sélection Home Nura pondérée sur la capacité, le coût annuel et la durabilité cinq ans.',
+    criteria: [
+      'Capacité adaptée à une famille de quatre personnes',
+      'Ergonomie d\'usage quotidien',
+      'Maintenance simple',
+      'Coût énergétique annuel en euros',
+      'Durabilité cinq ans et pièces détachées',
+    ],
+  }
+
+  it('returns a well-formed ItemList with correct @type and order', () => {
+    const s = buildBestForItemListSchema(baseInput)
+    expect(s['@context']).toBe('https://schema.org')
+    expect(s['@type']).toBe('ItemList')
+    expect(s.itemListOrder).toBe('https://schema.org/ItemListOrderDescending')
+    expect(s.numberOfItems).toBe(5)
+    expect(s.itemListElement.length).toBe(5)
+  })
+
+  it('builds an absolute canonical URL from lang + path', () => {
+    const s = buildBestForItemListSchema(baseInput)
+    expect(s.url).toBe(
+      `${BASE_URL}/fr/cuisine-connectee/airfryers/meilleur-pour/famille-4-personnes`
+    )
+  })
+
+  it('normalises a leading-slash-missing path', () => {
+    const s = buildBestForItemListSchema({
+      ...baseInput,
+      path: 'cuisine-connectee/airfryers/meilleur-pour/famille-4-personnes',
+    })
+    expect(s.url).toContain(`${BASE_URL}/fr/cuisine-connectee/`)
+  })
+
+  it('numbers list items starting from 1 in input order (descending rank)', () => {
+    const s = buildBestForItemListSchema(baseInput)
+    s.itemListElement.forEach((el, i) => {
+      expect(el['@type']).toBe('ListItem')
+      expect(el.position).toBe(i + 1)
+      expect(el.item['@type']).toBe('Thing')
+      expect(el.item.name).toBe(baseInput.criteria[i])
+    })
+  })
+
+  it('emits dateModified from SITE_LAST_UPDATED_ISO for freshness signal', () => {
+    const s = buildBestForItemListSchema(baseInput)
+    expect(s.dateModified).toBe(SITE_LAST_UPDATED_ISO)
+  })
+
+  it('falls back to fr when given an unknown lang', () => {
+    const s = buildBestForItemListSchema({ ...baseInput, lang: 'xx' })
+    expect(s.url).toContain('/fr/')
+  })
+
+  it('propagates name and description verbatim', () => {
+    const s = buildBestForItemListSchema(baseInput)
+    expect(s.name).toBe(baseInput.name)
+    expect(s.description).toBe(baseInput.description)
+  })
+
+  it('handles an empty criteria list gracefully (numberOfItems = 0)', () => {
+    const s = buildBestForItemListSchema({ ...baseInput, criteria: [] })
+    expect(s.numberOfItems).toBe(0)
+    expect(s.itemListElement.length).toBe(0)
   })
 })
