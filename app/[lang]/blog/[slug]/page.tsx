@@ -78,28 +78,47 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
   const excerpt = article.excerpt[lang] || article.excerpt.fr
   const categoryLabel = CATEGORIES[article.category]?.[lang] || CATEGORIES[article.category]?.fr
 
+  // Normalize the hero image to an absolute URL (required for Article rich results).
+  const heroImageRaw = article.images[0]?.src
+  const heroImage = heroImageRaw
+    ? (heroImageRaw.startsWith('http') ? heroImageRaw : `${BASE_URL}${heroImageRaw}`)
+    : `${BASE_URL}/og-image.png`
+  const heroImageAlt = article.images[0]?.alt[lang] || article.images[0]?.alt.fr || title
+
   const articleSchema = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': article.category === 'tests' || article.category === 'comparatifs' ? 'ReviewArticle' : 'Article',
     headline: title,
     description: excerpt,
-    image: article.images[0]?.src,
+    image: [
+      {
+        '@type': 'ImageObject',
+        url: heroImage,
+        caption: heroImageAlt,
+      },
+    ],
     datePublished: article.datePublished,
     dateModified: article.dateModified,
     author: {
       '@type': 'Person',
       name: 'Miguel Serenite',
-      jobTitle: lang === 'fr' ? 'Fondateur & Redacteur en Chef' : 'Founder & Editor-in-Chief',
+      jobTitle: lang === 'fr' ? 'Fondateur & Rédacteur en Chef' : 'Founder & Editor-in-Chief',
       url: `${BASE_URL}/${lang}/a-propos`,
     },
     publisher: {
       '@type': 'Organization',
       name: 'Home Nura',
       url: BASE_URL,
-      logo: { '@type': 'ImageObject', url: `${BASE_URL}/favicon.ico` },
+      logo: {
+        '@type': 'ImageObject',
+        url: `${BASE_URL}/logo.png`,
+        width: 1400,
+        height: 400,
+      },
     },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${BASE_URL}/${lang}/blog/${slug}` },
     inLanguage: lang,
+    articleSection: categoryLabel,
     wordCount: content.replace(/<[^>]+>/g, '').split(/\s+/).length,
   }
 

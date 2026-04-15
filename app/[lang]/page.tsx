@@ -330,6 +330,34 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         </div>
       </section>
 
+      {/* Cross-silo discovery: Smart Kitchen pillar bridge */}
+      <section className="max-w-5xl mx-auto px-6 pb-24">
+        <Link
+          href={`/${lang}/cuisine-connectee`}
+          className="group block rounded-3xl border border-slate-200 bg-gradient-to-br from-blue-50 via-white to-amber-50 p-8 md:p-12 hover:shadow-xl transition-all"
+        >
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+            <div className="flex-1">
+              <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-3">
+                {lang === 'fr' ? 'Au-delà de l\'airfryer' : lang === 'de' ? 'Jenseits des Airfryers' : lang === 'es' ? 'Más allá de la freidora' : lang === 'it' ? 'Oltre la friggitrice ad aria' : lang === 'nl' ? 'Voorbij de airfryer' : 'Beyond the air fryer'}
+              </div>
+              <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-3">
+                {lang === 'fr' ? 'Découvrez la cuisine connectée' : lang === 'de' ? 'Entdecken Sie die smarte Küche' : lang === 'es' ? 'Descubre la cocina conectada' : lang === 'it' ? 'Scopri la cucina connessa' : lang === 'nl' ? 'Ontdek de slimme keuken' : 'Discover the smart kitchen'}
+              </h2>
+              <p className="text-base text-slate-600 leading-relaxed max-w-2xl">
+                {lang === 'fr' ? 'Multicuiseurs, cafetières intelligentes, balances, thermomètres, prises connectées — 15 modèles testés pour transformer votre cuisine.' : lang === 'de' ? 'Multikocher, smarte Kaffeemaschinen, Waagen, Thermometer, smarte Steckdosen — 15 getestete Modelle für Ihre Küche.' : lang === 'es' ? 'Ollas, cafeteras inteligentes, básculas, termómetros, enchufes conectados — 15 modelos probados para tu cocina.' : lang === 'it' ? 'Multicottura, macchine da caffè intelligenti, bilance, termometri, prese connesse — 15 modelli testati per la tua cucina.' : lang === 'nl' ? 'Multicookers, slimme koffiemachines, weegschalen, thermometers, slimme stekkers — 15 geteste modellen voor uw keuken.' : 'Multicookers, smart coffee machines, scales, thermometers, smart plugs — 15 tested models to upgrade your kitchen.'}
+              </p>
+            </div>
+            <div className="flex items-center gap-2 text-sm font-semibold text-blue-600 shrink-0">
+              <span className="uppercase tracking-[0.15em] text-[11px]">
+                {lang === 'fr' ? 'Explorer le silo' : lang === 'de' ? 'Silo erkunden' : lang === 'es' ? 'Explorar silo' : lang === 'it' ? 'Esplora silo' : lang === 'nl' ? 'Silo verkennen' : 'Explore silo'}
+              </span>
+              <span className="transition-transform group-hover:translate-x-1">&rarr;</span>
+            </div>
+          </div>
+        </Link>
+      </section>
+
       {/* FAQ Section with Schema */}
       <FaqSection faqs={dict.faq} title={dict.faq_title} nonce={nonce} />
 
@@ -346,6 +374,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             </Link>
             <Link href={`/${lang}/comparateur`} className="hover:text-slate-600 transition-colors">
               Comparateur
+            </Link>
+            <Link href={`/${lang}/cuisine-connectee`} className="hover:text-slate-600 transition-colors">
+              {lang === 'fr' ? 'Cuisine connectée' : lang === 'de' ? 'Smarte Küche' : lang === 'es' ? 'Cocina conectada' : lang === 'it' ? 'Cucina connessa' : lang === 'nl' ? 'Slimme keuken' : 'Smart kitchen'}
             </Link>
             <Link href={`/${lang}/quiz`} className="hover:text-slate-600 transition-colors">
               Quiz
