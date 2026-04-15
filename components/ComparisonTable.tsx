@@ -124,7 +124,11 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
             {sorted.map((p, i) => (
               <tr key={i} className="border-b border-slate-50 hover:bg-slate-50/50 transition-colors">
                 <td className="px-6 py-5">
-                  <span className="text-lg font-black text-slate-300">#{i + 1}</span>
+                  {/* Decorative rank display — slate-500 clears the
+                      4.5:1 WCAG AA floor while staying visually muted.
+                      aria-hidden because the row order already conveys
+                      the ranking to assistive tech. */}
+                  <span aria-hidden="true" className="text-lg font-black text-slate-500">#{i + 1}</span>
                 </td>
                 <td className="px-6 py-5">
                   <div className="flex items-center gap-4">
@@ -247,7 +251,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
             {expandedRow === i && (
               <div id={`comparison-details-${i}`} className="px-5 pb-5 grid grid-cols-2 gap-4">
                 <div>
-                  <h4 className="text-xs font-bold text-emerald-600 mb-2">{dict.col_pros}</h4>
+                  <h4 className="text-xs font-bold text-emerald-700 mb-2">{dict.col_pros}</h4>
                   <ul className="space-y-1">
                     {p.pros.map((pro, j) => (
                       <li key={j} className="text-xs text-slate-600 flex items-start gap-1.5">

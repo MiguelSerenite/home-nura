@@ -480,7 +480,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
           {c.how_oven_works_title}
         </h2>
         <div className="h-[2px] w-16 bg-amber-600 mb-10"></div>
-        <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85] [&::first-letter]:text-[5rem] [&::first-letter]:font-bold [&::first-letter]:text-amber-600 [&::first-letter]:float-left [&::first-letter]:mr-3 [&::first-letter]:leading-[0.85] [&::first-letter]:mt-2">
+        <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85] [&::first-letter]:text-[5rem] [&::first-letter]:font-bold [&::first-letter]:text-amber-700 [&::first-letter]:float-left [&::first-letter]:mr-3 [&::first-letter]:leading-[0.85] [&::first-letter]:mt-2">
           {c.how_oven_works}
         </p>
       </section>
@@ -510,7 +510,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
                     className="rounded-2xl border border-slate-200 bg-white shadow-sm ring-1 ring-black/[0.02] overflow-hidden"
                   >
                     <div className="px-5 pt-4 pb-3 bg-slate-50 border-b border-slate-100">
-                      <div className="text-[10px] font-bold tracking-[0.2em] uppercase text-slate-400 mb-1">
+                      <div className="text-[10px] font-bold tracking-[0.2em] uppercase text-slate-600 mb-1">
                         {criteriaLabel}
                       </div>
                       <div className="text-base font-bold text-slate-900 leading-snug">
@@ -527,7 +527,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
                         </div>
                       </div>
                       <div className="px-5 py-4 bg-amber-50/40">
-                        <div className="text-[10px] font-bold tracking-[0.2em] uppercase text-amber-600 mb-1.5">
+                        <div className="text-[10px] font-bold tracking-[0.2em] uppercase text-amber-700 mb-1.5">
                           {ovenLabel}
                         </div>
                         <div className="text-[15px] text-amber-900 leading-snug">
@@ -544,9 +544,9 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
                 <table className="w-full text-left">
                   <thead>
                     <tr className="border-b border-slate-100 bg-slate-50">
-                      <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-400">{criteriaLabel}</th>
+                      <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-600">{criteriaLabel}</th>
                       <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-blue-600">Airfryer</th>
-                      <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-amber-600">{ovenLabel}</th>
+                      <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-amber-700">{ovenLabel}</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -706,7 +706,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
               className="group relative block bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:border-blue-600 hover:shadow-md hover:-translate-y-1 transition duration-300 overflow-hidden"
             >
               <div className="absolute top-0 left-0 right-0 h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></div>
-              <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600/70 mb-3">{item.num}</div>
+              <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600 mb-3">{item.num}</div>
               <h3 className="font-bold text-slate-900 mb-3 leading-snug group-hover:text-blue-700 transition-colors">{item.title}</h3>
               <p className="text-sm text-slate-500 leading-relaxed">{item.desc}</p>
               <div className="mt-5 flex items-center text-sm font-semibold text-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300">

@@ -172,9 +172,13 @@ export default function Comparator({
                     </button>
                   </div>
                   <div className="p-5 flex-1 flex flex-col">
-                    <h3 className="text-sm md:text-base font-bold text-slate-900 leading-tight mb-3 line-clamp-2">
+                    {/* Each comparator card is a standalone section with
+                        the product name as its landmark heading — using
+                        h2 keeps the page hierarchy h1 (hero) → h2 (card)
+                        contiguous for screen readers. */}
+                    <h2 className="text-sm md:text-base font-bold text-slate-900 leading-tight mb-3 line-clamp-2">
                       {product.title}
-                    </h3>
+                    </h2>
                     <div className="space-y-2.5 text-xs md:text-sm flex-1">
                       <Row label={t.nuraScore}>
                         <span className="font-bold text-blue-600">{product.nuraScore}/10</span>
@@ -189,7 +193,7 @@ export default function Comparator({
                         <span className="font-bold text-slate-900">{product.price}</span>
                       </Row>
                       <div className="pt-3">
-                        <div className="text-[11px] font-bold tracking-[0.2em] uppercase text-emerald-600 mb-2">
+                        <div className="text-[11px] font-bold tracking-[0.2em] uppercase text-emerald-700 mb-2">
                           {t.pros}
                         </div>
                         <ul className="space-y-1 text-slate-600">
@@ -202,7 +206,7 @@ export default function Comparator({
                         </ul>
                       </div>
                       <div className="pt-2">
-                        <div className="text-[11px] font-bold tracking-[0.2em] uppercase text-amber-600 mb-2">
+                        <div className="text-[11px] font-bold tracking-[0.2em] uppercase text-amber-700 mb-2">
                           {t.cons}
                         </div>
                         <ul className="space-y-1 text-slate-600">
@@ -261,6 +265,7 @@ export default function Comparator({
           className="fixed inset-0 z-[100] flex items-start justify-center pt-16 md:pt-24 px-4"
           role="dialog"
           aria-modal="true"
+          aria-labelledby="comparator-picker-title"
         >
           <button
             type="button"
@@ -270,7 +275,9 @@ export default function Comparator({
           />
           <div className="relative w-full max-w-2xl bg-white rounded-2xl shadow-2xl overflow-hidden max-h-[80vh] flex flex-col">
             <div className="flex items-center justify-between px-5 py-4 border-b border-slate-100">
-              <h3 className="text-base font-bold text-slate-900">{t.pickProduct}</h3>
+              <h2 id="comparator-picker-title" className="text-base font-bold text-slate-900">
+                {t.pickProduct}
+              </h2>
               <button
                 type="button"
                 onClick={() => setPickerSlot(null)}

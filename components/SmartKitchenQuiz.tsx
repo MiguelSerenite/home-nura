@@ -383,7 +383,7 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
         </div>
 
         {frequency && (
-          <div className="mt-8 text-center text-[11px] font-bold tracking-[0.25em] uppercase text-slate-400">
+          <div className="mt-8 text-center text-[11px] font-bold tracking-[0.25em] uppercase text-slate-600">
             {dict.options2.find((o) => o.value === frequency)?.label}
           </div>
         )}
@@ -398,7 +398,7 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
   return (
     <div className="max-w-3xl mx-auto">
       <div className="text-center mb-8">
-        <div className="text-[11px] font-bold tracking-[0.25em] uppercase text-slate-400 mb-4">
+        <div className="text-[11px] font-bold tracking-[0.25em] uppercase text-slate-600 mb-4">
           {dict.step} {step} {dict.of} 2
         </div>
         <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-5 max-w-2xl mx-auto leading-tight">

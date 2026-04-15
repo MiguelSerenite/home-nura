@@ -477,9 +477,9 @@ export default function Quiz({ products, currentLang }: QuizProps) {
                 <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-3">
                   {t.ourPick}
                 </div>
-                <h3 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-2">
+                <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-2">
                   {t.recommend}
-                </h3>
+                </h2>
                 <div className="h-[2px] w-16 bg-blue-600 mx-auto mb-8"></div>
 
                 <div className="max-w-md mx-auto rounded-2xl border border-slate-200 overflow-hidden bg-white">
@@ -497,9 +497,9 @@ export default function Quiz({ products, currentLang }: QuizProps) {
                     <div className="text-xs font-bold tracking-wide uppercase text-blue-600 mb-2">
                       {recommendation.nuraScore}/10 · {recommendation.capacity}
                     </div>
-                    <h4 className="text-lg font-bold text-slate-900 leading-tight mb-2">
+                    <h3 className="text-lg font-bold text-slate-900 leading-tight mb-2">
                       {recommendation.title}
-                    </h4>
+                    </h3>
                     <p className="text-sm text-slate-500 mb-5">{recommendation.bestFor}</p>
                     <p className="text-2xl font-black text-slate-900 mb-5">{recommendation.price}</p>
                     <a
@@ -550,9 +550,9 @@ function QuestionBlock<T extends string>({
 }) {
   return (
     <div>
-      <h3 className="text-2xl md:text-[1.75rem] font-bold tracking-tight leading-tight text-slate-900 mb-8 text-center">
+      <h2 className="text-2xl md:text-[1.75rem] font-bold tracking-tight leading-tight text-slate-900 mb-8 text-center">
         {title}
-      </h3>
+      </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {options.map((opt) => (
           <button

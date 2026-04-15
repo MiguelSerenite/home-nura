@@ -61,7 +61,7 @@ export default function FaqSection({ faqs, title, nonce }: { faqs: FaqItem[]; ti
               >
                 <span
                   className={`shrink-0 text-[11px] font-bold tracking-[0.2em] mt-1.5 tabular-nums transition-colors ${
-                    isOpen ? 'text-blue-600' : 'text-slate-400'
+                    isOpen ? 'text-blue-600' : 'text-slate-600'
                   }`}
                 >
                   {String(index + 1).padStart(2, '0')}

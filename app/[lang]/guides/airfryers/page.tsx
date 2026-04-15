@@ -611,7 +611,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           </p>
           <time
             dateTime={SITE_LAST_UPDATED_ISO}
-            className="mt-8 inline-flex items-center gap-2 px-4 py-1.5 text-xs font-semibold text-slate-500 bg-slate-100/70 border border-slate-200 rounded-full"
+            className="mt-8 inline-flex items-center gap-2 px-4 py-1.5 text-xs font-semibold text-slate-600 bg-slate-100 border border-slate-200 rounded-full"
           >
             <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <path d="M12 8v4l3 2" />
@@ -777,7 +777,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           {content.recipes.map((recipe, index) => (
             <div key={index} className="group relative overflow-hidden bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:shadow-md hover:-translate-y-1 transition duration-300">
               <div className="absolute top-0 left-0 right-0 h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></div>
-              <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600/70 mb-3 tabular-nums">
+              <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600 mb-3 tabular-nums">
                 N° {String(index + 1).padStart(2, '0')}
               </div>
               <h3 className="text-base font-bold text-slate-900 mb-3 leading-snug group-hover:text-blue-700 transition-colors">{recipe.title}</h3>
@@ -929,7 +929,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
               className="group relative block bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:border-blue-600 hover:shadow-md hover:-translate-y-1 transition duration-300 overflow-hidden"
             >
               <div className="absolute top-0 left-0 right-0 h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></div>
-              <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600/70 mb-3">{item.num}</div>
+              <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600 mb-3">{item.num}</div>
               <h3 className="font-bold text-slate-900 mb-3 leading-snug group-hover:text-blue-700 transition-colors">{item.title}</h3>
               <p className="text-sm text-slate-500 leading-relaxed">{item.desc}</p>
               <div className="mt-5 flex items-center text-sm font-semibold text-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
