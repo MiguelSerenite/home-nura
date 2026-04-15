@@ -7,12 +7,12 @@ import SearchBar from './SearchBar'
 import { getStaticProducts } from '@/lib/products'
 
 const countries = [
-  { code: 'fr', flag: '🇫🇷', label: 'FR' },
-  { code: 'de', flag: '🇩🇪', label: 'DE' },
-  { code: 'en', flag: '🇬🇧', label: 'UK' },
-  { code: 'es', flag: '🇪🇸', label: 'ES' },
-  { code: 'it', flag: '🇮🇹', label: 'IT' },
-  { code: 'nl', flag: '🇳🇱', label: 'NL' },
+  { code: 'fr', flag: '🇫🇷', label: 'FR', name: 'Français' },
+  { code: 'de', flag: '🇩🇪', label: 'DE', name: 'Deutsch' },
+  { code: 'en', flag: '🇬🇧', label: 'UK', name: 'English' },
+  { code: 'es', flag: '🇪🇸', label: 'ES', name: 'Español' },
+  { code: 'it', flag: '🇮🇹', label: 'IT', name: 'Italiano' },
+  { code: 'nl', flag: '🇳🇱', label: 'NL', name: 'Nederlands' },
 ]
 
 // Persist the user's explicit locale choice so the middleware stops
@@ -139,17 +139,17 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
               className="h-20 md:h-24 w-auto"
             />
           </Link>
-          <div className="hidden lg:flex items-center gap-4 text-sm font-medium text-slate-500">
-            <Link href={`/${currentLang}/guides/airfryers`} className="hover:text-blue-600 transition-colors">Guide</Link>
-            <Link href={`/${currentLang}/comparateur`} className="hover:text-blue-600 transition-colors">
+          <div className="hidden lg:flex items-center gap-4 text-sm font-medium text-slate-600">
+            <Link href={`/${currentLang}/guides/airfryers`} className="hover:text-blue-600 transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">Guide</Link>
+            <Link href={`/${currentLang}/comparateur`} className="hover:text-blue-600 transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
               {comparatif}
             </Link>
-            <Link href={`/${currentLang}/cuisine-connectee`} className="hover:text-blue-600 transition-colors">
+            <Link href={`/${currentLang}/cuisine-connectee`} className="hover:text-blue-600 transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
               {smartKitchen}
             </Link>
-            <Link href={`/${currentLang}/quiz`} className="hover:text-blue-600 transition-colors">Quiz</Link>
-            <Link href={`/${currentLang}/blog`} className="hover:text-blue-600 transition-colors">Blog</Link>
-            <Link href={`/${currentLang}/a-propos`} className="hover:text-blue-600 transition-colors">
+            <Link href={`/${currentLang}/quiz`} className="hover:text-blue-600 transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">Quiz</Link>
+            <Link href={`/${currentLang}/blog`} className="hover:text-blue-600 transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">Blog</Link>
+            <Link href={`/${currentLang}/a-propos`} className="hover:text-blue-600 transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
               {about}
             </Link>
           </div>
@@ -164,13 +164,15 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
               key={c.code}
               href={`/${c.code}`}
               onClick={() => rememberLocale(c.code)}
-              className={`flex items-center gap-1 px-2 py-1 rounded-full transition duration-200 text-xs font-bold ${
+              aria-label={c.name}
+              aria-current={currentLang === c.code ? 'page' : undefined}
+              className={`flex items-center gap-1 px-2 py-1 rounded-full transition duration-200 text-xs font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
                 currentLang === c.code
                 ? 'bg-white shadow-sm text-blue-600 scale-105'
-                : 'text-slate-400 hover:text-slate-600 hover:bg-slate-100'
+                : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
               }`}
             >
-              <span className="text-base">{c.flag}</span>
+              <span className="text-base" aria-hidden="true">{c.flag}</span>
               <span className="hidden sm:inline">{c.label}</span>
             </Link>
           ))}
@@ -184,7 +186,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
           aria-label={isOpen ? closeMenu : openMenu}
           aria-expanded={isOpen}
           aria-controls="mobile-menu"
-          className="lg:hidden flex items-center justify-center w-10 h-10 rounded-full border border-slate-200 text-slate-700 hover:bg-slate-50 transition-colors"
+          className="lg:hidden flex items-center justify-center w-10 h-10 rounded-full border border-slate-200 text-slate-700 hover:bg-slate-50 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
             {isOpen ? (

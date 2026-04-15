@@ -149,9 +149,10 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
       <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Navbar currentLang={lang} />
 
+      <main id="main">
       <article className="max-w-3xl mx-auto px-6 py-12">
         {/* Breadcrumb */}
-        <nav className="flex items-center gap-2 text-sm text-slate-400 mb-8 flex-wrap">
+        <nav className="flex items-center gap-2 text-sm text-slate-500 mb-8 flex-wrap">
           <Link href={`/${lang}`} className="hover:text-blue-600 transition-colors">{dict.breadcrumb_home || 'Home'}</Link>
           <span>/</span>
           <Link href={`/${lang}/blog`} className="hover:text-blue-600 transition-colors">Blog</Link>
@@ -166,7 +167,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
           <p className="text-xl text-slate-500 leading-relaxed mb-6">{excerpt}</p>
 
           {/* Meta */}
-          <div className="flex flex-wrap items-center gap-4 text-sm text-slate-400 border-t border-b border-slate-100 py-4">
+          <div className="flex flex-wrap items-center gap-4 text-sm text-slate-500 border-t border-b border-slate-100 py-4">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-white text-xs font-bold">MS</div>
               <span className="font-medium text-slate-600">Miguel Serenite</span>
@@ -253,7 +254,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
                     </div>
                   )}
                   <div>
-                    <span className="text-xs text-slate-400">{r.readingTime} min</span>
+                    <span className="text-xs text-slate-500">{r.readingTime} min</span>
                     <h3 className="text-sm font-bold text-slate-900 mt-1 group-hover:text-blue-600 transition-colors line-clamp-2">
                       {r.title[lang] || r.title.fr}
                     </h3>
@@ -264,6 +265,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
           </section>
         )}
       </article>
+      </main>
 
       {/* Footer */}
       <SiteFooter

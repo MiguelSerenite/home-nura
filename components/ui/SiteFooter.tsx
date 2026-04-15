@@ -49,13 +49,13 @@ export default function SiteFooter({
             <Link
               key={link.href}
               href={link.href}
-              className="hover:text-slate-700 transition-colors"
+              className="hover:text-slate-700 transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
             >
               {link.label}
             </Link>
           ))}
         </div>
-        <div className="mt-4 text-xs font-bold text-slate-400 uppercase tracking-widest">
+        <div className="mt-4 text-xs font-bold text-slate-500 uppercase tracking-widest">
           &copy; 2026 HOME NURA EUROPE
         </div>
       </div>

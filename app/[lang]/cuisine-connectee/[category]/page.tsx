@@ -364,8 +364,9 @@ export default async function CategoryPage({
       />
       <Navbar currentLang={safeLang} />
 
+      <main id="main">
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-6 pt-10 text-xs text-slate-400" aria-label="Breadcrumb">
+      <nav className="max-w-6xl mx-auto px-6 pt-10 text-xs text-slate-500" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2 flex-wrap">
           <li>
             <Link href={`/${safeLang}`} className="hover:text-blue-600 transition-colors">
@@ -418,6 +419,7 @@ export default async function CategoryPage({
 
       {/* FAQ — category-specific, emits FAQPage JSON-LD */}
       <FaqSection faqs={faqs} title={faqTitle} nonce={nonce} />
+      </main>
 
       {/* Footer */}
       <SiteFooter

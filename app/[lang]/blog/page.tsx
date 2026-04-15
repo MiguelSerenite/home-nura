@@ -91,6 +91,7 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
       <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }} />
       <Navbar currentLang={lang} />
 
+      <main id="main">
       {/* Hero */}
       <section className="px-6 py-20 lg:py-28">
         <div className="max-w-4xl mx-auto text-center">
@@ -128,7 +129,7 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
                   <span className="text-xs font-bold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-full">
                     {CATEGORIES[article.category]?.[lang] || CATEGORIES[article.category]?.fr}
                   </span>
-                  <span className="text-xs text-slate-400">{article.readingTime} min</span>
+                  <span className="text-xs text-slate-500">{article.readingTime} min</span>
                 </div>
                 <h2 className="text-lg font-bold text-slate-900 mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors">
                   {article.title[lang] || article.title.fr}
@@ -173,7 +174,7 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
                     </div>
                   )}
                   <div className="flex-1 min-w-0">
-                    <span className="text-xs text-slate-400">{article.readingTime} min · {new Date(article.datePublished).toLocaleDateString(lang === 'en' ? 'en-GB' : lang, { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+                    <span className="text-xs text-slate-500">{article.readingTime} min · {new Date(article.datePublished).toLocaleDateString(lang === 'en' ? 'en-GB' : lang, { day: 'numeric', month: 'short', year: 'numeric' })}</span>
                     <h3 className="text-sm font-bold text-slate-900 mt-1 line-clamp-2 group-hover:text-blue-600 transition-colors">
                       {article.title[lang] || article.title.fr}
                     </h3>
@@ -193,15 +194,15 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <Link href={`/${lang}/guides/airfryers`} className="p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-200">
             <p className="text-sm font-bold text-slate-900">{lang === 'fr' ? 'Guide complet des airfryers 2026' : lang === 'de' ? 'Kompletter Airfryer-Ratgeber 2026' : lang === 'es' ? 'Guía completa de freidoras 2026' : lang === 'it' ? 'Guida completa airfryer 2026' : lang === 'nl' ? 'Complete airfryer-gids 2026' : 'Complete air fryer guide 2026'}</p>
-            <p className="text-xs text-slate-400 mt-1">{lang === 'fr' ? 'Notre comparatif expert des 9 meilleurs modèles' : 'Our expert comparison of the 9 best models'}</p>
+            <p className="text-xs text-slate-500 mt-1">{lang === 'fr' ? 'Notre comparatif expert des 9 meilleurs modèles' : 'Our expert comparison of the 9 best models'}</p>
           </Link>
           <Link href={`/${lang}/guides/airfryer-vs-four`} className="p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-200">
             <p className="text-sm font-bold text-slate-900">{lang === 'fr' ? 'Airfryer vs four traditionnel' : lang === 'de' ? 'Airfryer vs Backofen' : lang === 'es' ? 'Freidora de aire vs horno' : lang === 'it' ? 'Airfryer vs forno' : lang === 'nl' ? 'Airfryer vs oven' : 'Air fryer vs oven'}</p>
-            <p className="text-xs text-slate-400 mt-1">{lang === 'fr' ? 'Comparatif détaillé des performances' : 'Detailed performance comparison'}</p>
+            <p className="text-xs text-slate-500 mt-1">{lang === 'fr' ? 'Comparatif détaillé des performances' : 'Detailed performance comparison'}</p>
           </Link>
           <Link href={`/${lang}`} className="p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-200">
             <p className="text-sm font-bold text-slate-900">{lang === 'fr' ? 'Nos meilleurs choix 2026' : lang === 'de' ? 'Unsere Top-Auswahl 2026' : lang === 'es' ? 'Nuestras mejores opciones 2026' : lang === 'it' ? 'Le nostre scelte migliori 2026' : lang === 'nl' ? 'Onze beste keuzes 2026' : 'Our top picks 2026'}</p>
-            <p className="text-xs text-slate-400 mt-1">{lang === 'fr' ? 'Comparatif avec prix et scores Nura' : 'Comparison with prices and Nura scores'}</p>
+            <p className="text-xs text-slate-500 mt-1">{lang === 'fr' ? 'Comparatif avec prix et scores Nura' : 'Comparison with prices and Nura scores'}</p>
           </Link>
         </div>
       </section>
@@ -215,6 +216,7 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
           {lang === 'fr' ? 'Voir le comparatif' : lang === 'de' ? 'Zum Vergleich' : lang === 'es' ? 'Ver comparativa' : lang === 'it' ? 'Vedi confronto' : lang === 'nl' ? 'Bekijk vergelijking' : 'See comparison'} &rarr;
         </Button>
       </section>
+      </main>
 
       {/* Footer */}
       <SiteFooter

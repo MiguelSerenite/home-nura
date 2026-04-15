@@ -46,7 +46,7 @@ export default function GoogleReviewBadge({ asin, lang = 'fr', size = 'md' }: Go
           ★★★★★
         </span>
       </span>
-      <span className="text-slate-400">({countFormatted} {label})</span>
+      <span className="text-slate-500">({countFormatted} {label})</span>
     </div>
   )
 }

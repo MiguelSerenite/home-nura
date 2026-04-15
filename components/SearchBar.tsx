@@ -49,6 +49,15 @@ const searchLabel: Record<string, string> = {
   nl: 'Zoeken',
 }
 
+const closeLabel: Record<string, string> = {
+  fr: 'Fermer la recherche',
+  de: 'Suche schließen',
+  en: 'Close search',
+  es: 'Cerrar búsqueda',
+  it: 'Chiudi ricerca',
+  nl: 'Zoeken sluiten',
+}
+
 export default function SearchBar({
   products,
   currentLang,
@@ -68,6 +77,7 @@ export default function SearchBar({
   const emptyLabel = emptyLabels[currentLang] ?? emptyLabels.en
   const hintLabel = hintLabels[currentLang] ?? hintLabels.en
   const label = searchLabel[currentLang] ?? searchLabel.en
+  const closeText = closeLabel[currentLang] ?? closeLabel.en
 
   // Filter products client-side
   const results = useMemo(() => {
@@ -128,7 +138,7 @@ export default function SearchBar({
           type="button"
           onClick={handleOpen}
           aria-label={label}
-          className="flex items-center justify-center w-10 h-10 rounded-full border border-slate-200 text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors"
+          className="flex items-center justify-center w-10 h-10 rounded-full border border-slate-200 text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
             <circle cx="11" cy="11" r="8" />
@@ -139,7 +149,8 @@ export default function SearchBar({
         <button
           type="button"
           onClick={handleOpen}
-          className="flex items-center gap-3 w-full py-3 px-4 rounded-xl bg-slate-50 border border-slate-200 text-slate-500 hover:bg-slate-100 transition-colors"
+          aria-label={label}
+          className="flex items-center gap-3 w-full py-3 px-4 rounded-xl bg-slate-50 border border-slate-200 text-slate-600 hover:bg-slate-100 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
         >
           <svg className="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
             <circle cx="11" cy="11" r="8" />
@@ -159,7 +170,7 @@ export default function SearchBar({
           {/* Backdrop */}
           <button
             type="button"
-            aria-label="Close search"
+            aria-label={closeText}
             onClick={handleClose}
             className="absolute inset-0 bg-slate-900/50 backdrop-blur-sm"
           />
@@ -172,19 +183,24 @@ export default function SearchBar({
                 <circle cx="11" cy="11" r="8" />
                 <path d="m21 21-4.3-4.3" />
               </svg>
+              <label htmlFor="site-search-input" className="sr-only">
+                {label}
+              </label>
               <input
+                id="site-search-input"
                 ref={inputRef}
                 type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder={placeholder}
-                className="flex-1 bg-transparent outline-none text-base md:text-lg text-slate-900 placeholder:text-slate-400"
+                aria-label={label}
+                className="flex-1 bg-transparent outline-none text-base md:text-lg text-slate-900 placeholder:text-slate-500"
               />
               <button
                 type="button"
                 onClick={handleClose}
-                aria-label="Close"
-                className="shrink-0 w-8 h-8 flex items-center justify-center rounded-full text-slate-400 hover:bg-slate-100 hover:text-slate-700 transition-colors"
+                aria-label={closeText}
+                className="shrink-0 w-8 h-8 flex items-center justify-center rounded-full text-slate-500 hover:bg-slate-100 hover:text-slate-700 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
               >
                 <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" aria-hidden="true">
                   <path d="M18 6 6 18M6 6l12 12" />
@@ -197,7 +213,7 @@ export default function SearchBar({
               {results.length === 0 ? (
                 <div className="px-5 py-12 text-center">
                   <div className="text-slate-500 text-sm font-medium mb-1">{emptyLabel}</div>
-                  <div className="text-slate-400 text-xs">{hintLabel}</div>
+                  <div className="text-slate-500 text-xs">{hintLabel}</div>
                 </div>
               ) : (
                 <ul className="divide-y divide-slate-100">
@@ -206,7 +222,7 @@ export default function SearchBar({
                       <Link
                         href={`/${currentLang}/guides/airfryers#asin-${p.asin}`}
                         onClick={handleResultClick}
-                        className="flex items-center gap-4 px-5 py-3 hover:bg-slate-50 transition-colors"
+                        className="flex items-center gap-4 px-5 py-3 hover:bg-slate-50 transition-colors focus-visible:outline-none focus-visible:bg-blue-50 focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-blue-500"
                       >
                         <div className="w-14 h-14 shrink-0 rounded-lg bg-slate-100 overflow-hidden relative">
                           <Image

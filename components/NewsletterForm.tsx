@@ -6,6 +6,7 @@ interface Labels {
   title: string
   subtitle: string
   placeholder: string
+  emailLabel: string
   submit: string
   submitting: string
   success: string
@@ -20,6 +21,7 @@ const LABELS: Record<string, Labels> = {
     title: 'La newsletter Home Nura',
     subtitle: 'Les meilleurs tests, les vraies promos, zéro spam. Un email par mois.',
     placeholder: 'votre.email@exemple.com',
+    emailLabel: 'Adresse email',
     submit: "S'inscrire",
     submitting: 'Envoi…',
     success: 'Merci ! Vérifiez votre boîte mail pour confirmer.',
@@ -32,6 +34,7 @@ const LABELS: Record<string, Labels> = {
     title: 'The Home Nura newsletter',
     subtitle: 'Best tests, real deals, zero spam. One email a month.',
     placeholder: 'your.email@example.com',
+    emailLabel: 'Email address',
     submit: 'Subscribe',
     submitting: 'Sending…',
     success: 'Thanks! Check your inbox to confirm.',
@@ -44,6 +47,7 @@ const LABELS: Record<string, Labels> = {
     title: 'Der Home Nura Newsletter',
     subtitle: 'Die besten Tests, echte Angebote, kein Spam. Eine E-Mail pro Monat.',
     placeholder: 'ihre.email@beispiel.de',
+    emailLabel: 'E-Mail-Adresse',
     submit: 'Abonnieren',
     submitting: 'Wird gesendet…',
     success: 'Danke! Bitte prüfen Sie Ihren Posteingang.',
@@ -56,6 +60,7 @@ const LABELS: Record<string, Labels> = {
     title: 'La newsletter de Home Nura',
     subtitle: 'Las mejores pruebas, ofertas reales, cero spam. Un correo al mes.',
     placeholder: 'tu.email@ejemplo.com',
+    emailLabel: 'Dirección de correo',
     submit: 'Suscribirse',
     submitting: 'Enviando…',
     success: '¡Gracias! Revisa tu bandeja de entrada para confirmar.',
@@ -68,6 +73,7 @@ const LABELS: Record<string, Labels> = {
     title: 'La newsletter di Home Nura',
     subtitle: 'I migliori test, le vere offerte, zero spam. Una email al mese.',
     placeholder: 'la.tua.email@esempio.it',
+    emailLabel: 'Indirizzo email',
     submit: 'Iscriviti',
     submitting: 'Invio…',
     success: 'Grazie! Controlla la tua casella per confermare.',
@@ -80,6 +86,7 @@ const LABELS: Record<string, Labels> = {
     title: 'De Home Nura-nieuwsbrief',
     subtitle: 'De beste tests, echte deals, geen spam. Eén e-mail per maand.',
     placeholder: 'jouw.email@voorbeeld.nl',
+    emailLabel: 'E-mailadres',
     submit: 'Inschrijven',
     submitting: 'Verzenden…',
     success: 'Bedankt! Controleer uw inbox om te bevestigen.',
@@ -164,14 +171,20 @@ export default function NewsletterForm({ currentLang }: { currentLang: string })
               className="absolute opacity-0 pointer-events-none h-0 w-0 overflow-hidden"
             />
             <div className="flex flex-col sm:flex-row gap-3">
+              <label htmlFor="newsletter-email" className="sr-only">
+                {t.emailLabel}
+              </label>
               <input
+                id="newsletter-email"
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder={t.placeholder}
                 required
                 disabled={status === 'loading'}
-                className="flex-1 rounded-full bg-white/95 px-5 py-3 text-sm md:text-base text-slate-900 placeholder:text-slate-400 outline-none focus:ring-2 focus:ring-white disabled:opacity-60"
+                aria-label={t.emailLabel}
+                autoComplete="email"
+                className="flex-1 rounded-full bg-white/95 px-5 py-3 text-sm md:text-base text-slate-900 placeholder:text-slate-500 outline-none focus:ring-2 focus:ring-white disabled:opacity-60"
               />
               <button
                 type="submit"

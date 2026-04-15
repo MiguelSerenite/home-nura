@@ -388,6 +388,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
       <Navbar currentLang={lang} />
       <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
+      <main id="main">
       {/* Hero */}
       <section className="relative px-6 py-20 lg:py-28 overflow-hidden">
         <div className="max-w-4xl mx-auto text-center relative z-10">
@@ -702,6 +703,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
 
       {/* FAQ */}
       <FaqSection faqs={dict.faq} title={dict.faq_title} nonce={nonce} />
+      </main>
 
       {/* Footer */}
       <SiteFooter

@@ -284,8 +284,9 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
       />
       <Navbar currentLang={safeLang} />
 
+      <main id="main">
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-6 pt-10 text-xs text-slate-400" aria-label="Breadcrumb">
+      <nav className="max-w-6xl mx-auto px-6 pt-10 text-xs text-slate-500" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2">
           <li>
             <Link href={`/${safeLang}`} className="hover:text-blue-600 transition-colors">
@@ -349,6 +350,7 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
           </Button>
         </div>
       </section>
+      </main>
 
       {/* Footer */}
       <SiteFooter

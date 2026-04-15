@@ -92,10 +92,11 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
             <button
               key={opt.key}
               onClick={() => setSortBy(opt.key)}
-              className={`px-3 py-1.5 text-xs font-bold rounded-full transition duration-200 ${
+              aria-pressed={sortBy === opt.key}
+              className={`px-3 py-1.5 text-xs font-bold rounded-full transition duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
                 sortBy === opt.key
                   ? 'bg-blue-600 text-white'
-                  : 'bg-slate-100 text-slate-500 hover:bg-slate-200'
+                  : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
               }`}
             >
               {opt.label}
@@ -109,13 +110,13 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
         <table className="w-full text-left">
           <thead>
             <tr className="border-b border-slate-100 bg-slate-50">
-              <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-400">#</th>
-              <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-400">{dict.col_product}</th>
-              <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-400 text-center">{dict.col_nura_score}</th>
-              <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-400">{dict.col_capacity}</th>
-              <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-400">{dict.col_best_for}</th>
-              <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-400">{dict.col_price}</th>
-              <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-400">{dict.col_action}</th>
+              <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-500">#</th>
+              <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-500">{dict.col_product}</th>
+              <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-500 text-center">{dict.col_nura_score}</th>
+              <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-500">{dict.col_capacity}</th>
+              <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-500">{dict.col_best_for}</th>
+              <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-500">{dict.col_price}</th>
+              <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-500">{dict.col_action}</th>
             </tr>
           </thead>
           <tbody>
@@ -200,7 +201,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
               <div className="flex items-center justify-between mt-4 pt-4 border-t border-slate-100">
                 <div>
                   <span className="text-xl font-black text-slate-900">{p.price}</span>
-                  <span className="block text-xs text-slate-400 mt-0.5">{p.capacity}</span>
+                  <span className="block text-xs text-slate-500 mt-0.5">{p.capacity}</span>
                 </div>
                 <a
                   href={p.url}
@@ -216,12 +217,14 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
             {/* Expandable Details */}
             <button
               onClick={() => setExpandedRow(expandedRow === i ? null : i)}
-              className="w-full px-5 py-3 text-xs font-bold text-blue-600 bg-slate-50 hover:bg-slate-100 transition-colors border-t border-slate-100"
+              aria-expanded={expandedRow === i}
+              aria-controls={`comparison-details-${i}`}
+              className="w-full px-5 py-3 text-xs font-bold text-blue-600 bg-slate-50 hover:bg-slate-100 transition-colors border-t border-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-inset"
             >
               {expandedRow === i ? dict.hide_details : dict.show_details}
             </button>
             {expandedRow === i && (
-              <div className="px-5 pb-5 grid grid-cols-2 gap-4">
+              <div id={`comparison-details-${i}`} className="px-5 pb-5 grid grid-cols-2 gap-4">
                 <div>
                   <h4 className="text-xs font-bold text-emerald-600 mb-2">{dict.col_pros}</h4>
                   <ul className="space-y-1">

@@ -122,6 +122,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       />
       <Navbar currentLang={lang} />
 
+      <main id="main">
       {/* Hero Section */}
       <section className="relative px-6 py-20 lg:py-32 overflow-hidden">
         <div className="max-w-4xl mx-auto text-center relative z-10">
@@ -359,6 +360,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
       {/* Newsletter */}
       <NewsletterForm currentLang={lang} />
+      </main>
 
       {/* Footer with legal links */}
       <SiteFooter

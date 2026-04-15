@@ -26,6 +26,7 @@ interface Labels {
   price: string
   viewOnAmazon: string
   clearSlot: string
+  close: string
 }
 
 const LABELS: Record<string, Labels> = {
@@ -39,6 +40,7 @@ const LABELS: Record<string, Labels> = {
     price: 'Prix',
     viewOnAmazon: 'Voir sur Amazon',
     clearSlot: 'Retirer',
+    close: 'Fermer',
   },
   en: {
     pickProduct: 'Pick a model',
@@ -50,6 +52,7 @@ const LABELS: Record<string, Labels> = {
     price: 'Price',
     viewOnAmazon: 'View on Amazon',
     clearSlot: 'Remove',
+    close: 'Close',
   },
   de: {
     pickProduct: 'Modell wählen',
@@ -61,6 +64,7 @@ const LABELS: Record<string, Labels> = {
     price: 'Preis',
     viewOnAmazon: 'Auf Amazon ansehen',
     clearSlot: 'Entfernen',
+    close: 'Schließen',
   },
   es: {
     pickProduct: 'Elegir un modelo',
@@ -72,6 +76,7 @@ const LABELS: Record<string, Labels> = {
     price: 'Precio',
     viewOnAmazon: 'Ver en Amazon',
     clearSlot: 'Quitar',
+    close: 'Cerrar',
   },
   it: {
     pickProduct: 'Scegli un modello',
@@ -83,6 +88,7 @@ const LABELS: Record<string, Labels> = {
     price: 'Prezzo',
     viewOnAmazon: 'Vedi su Amazon',
     clearSlot: 'Rimuovere',
+    close: 'Chiudi',
   },
   nl: {
     pickProduct: 'Kies een model',
@@ -94,6 +100,7 @@ const LABELS: Record<string, Labels> = {
     price: 'Prijs',
     viewOnAmazon: 'Bekijk op Amazon',
     clearSlot: 'Verwijderen',
+    close: 'Sluiten',
   },
 }
 
@@ -214,7 +221,8 @@ export default function Comparator({
                 <button
                   type="button"
                   onClick={() => setPickerSlot(index)}
-                  className="flex-1 min-h-[22rem] flex flex-col items-center justify-center gap-4 p-8 text-slate-400 hover:text-blue-600 hover:bg-blue-50/50 transition-colors border-2 border-dashed border-slate-200 hover:border-blue-300 m-3 rounded-2xl"
+                  aria-label={t.pickProduct}
+                  className="flex-1 min-h-[22rem] flex flex-col items-center justify-center gap-4 p-8 text-slate-500 hover:text-blue-600 hover:bg-blue-50/50 transition-colors border-2 border-dashed border-slate-200 hover:border-blue-300 m-3 rounded-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                 >
                   <div className="w-14 h-14 rounded-full bg-slate-100 flex items-center justify-center">
                     <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
@@ -238,7 +246,7 @@ export default function Comparator({
         >
           <button
             type="button"
-            aria-label="Close"
+            aria-label={t.close}
             onClick={() => setPickerSlot(null)}
             className="absolute inset-0 bg-slate-900/50 backdrop-blur-sm"
           />
@@ -248,8 +256,8 @@ export default function Comparator({
               <button
                 type="button"
                 onClick={() => setPickerSlot(null)}
-                aria-label="Close"
-                className="w-8 h-8 flex items-center justify-center rounded-full text-slate-400 hover:bg-slate-100 hover:text-slate-700 transition-colors"
+                aria-label={t.close}
+                className="w-8 h-8 flex items-center justify-center rounded-full text-slate-500 hover:bg-slate-100 hover:text-slate-700 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
               >
                 <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" aria-hidden="true">
                   <path d="M18 6 6 18M6 6l12 12" />

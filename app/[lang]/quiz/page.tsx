@@ -104,8 +104,9 @@ export default async function QuizPage({ params }: { params: Promise<{ lang: str
       />
       <Navbar currentLang={safeLang} />
 
+      <main id="main">
       {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-6 pt-10 text-xs text-slate-400" aria-label="Breadcrumb">
+      <nav className="max-w-4xl mx-auto px-6 pt-10 text-xs text-slate-500" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2">
           <li>
             <Link href={`/${safeLang}`} className="hover:text-blue-600 transition-colors">
@@ -132,6 +133,7 @@ export default async function QuizPage({ params }: { params: Promise<{ lang: str
       <section className="px-4 md:px-6 pb-20">
         <Quiz products={products} currentLang={safeLang} />
       </section>
+      </main>
 
       {/* Footer */}
       <SiteFooter

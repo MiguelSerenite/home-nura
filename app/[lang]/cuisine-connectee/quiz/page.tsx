@@ -118,8 +118,9 @@ export default async function SmartKitchenQuizPage({ params }: { params: Promise
       />
       <Navbar currentLang={safeLang} />
 
+      <main id="main">
       {/* Breadcrumb */}
-      <nav className="max-w-4xl mx-auto px-6 pt-10 text-xs text-slate-400" aria-label="Breadcrumb">
+      <nav className="max-w-4xl mx-auto px-6 pt-10 text-xs text-slate-500" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2 flex-wrap">
           <li>
             <Link href={`/${safeLang}`} className="hover:text-blue-600 transition-colors">Home</Link>
@@ -147,6 +148,7 @@ export default async function SmartKitchenQuizPage({ params }: { params: Promise
       <section className="px-4 md:px-6 pb-20">
         <SmartKitchenQuiz productsByCategory={productsByCategory} currentLang={safeLang} />
       </section>
+      </main>
 
       {/* Footer */}
       <SiteFooter

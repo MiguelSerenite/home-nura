@@ -470,7 +470,7 @@ export default async function PolitiqueConfidentialite({ params }: { params: Pro
       <Navbar currentLang={lang} />
       <main className="max-w-3xl mx-auto px-6 py-16">
         <h1 className="text-3xl md:text-4xl font-bold mb-3">{c.title}</h1>
-        <p className="text-sm text-slate-400 mb-8">{c.lastUpdated}</p>
+        <p className="text-sm text-slate-500 mb-8">{c.lastUpdated}</p>
 
         <p className="text-slate-600 leading-relaxed mb-10">{c.intro}</p>
 
