@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { getNonce } from "@/lib/nonce";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -99,6 +100,7 @@ export default async function RootLayout({
   params: Promise<{ lang: string }>;
 }>) {
   const { lang } = await params;
+  const nonce = await getNonce();
 
   const organizationSchema = {
     '@context': 'https://schema.org',
@@ -147,6 +149,7 @@ export default async function RootLayout({
       <head>
         <script
           type="application/ld+json"
+          nonce={nonce}
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
       </head>

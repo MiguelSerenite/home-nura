@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import GoogleReviewBadge from './GoogleReviewBadge'
 import { getSocialProof } from '@/lib/seo'
+import { getNonce } from '@/lib/nonce'
 
 interface ProductProps {
   name: string;
@@ -27,7 +28,8 @@ const countryMap: Record<string, string> = {
   fr: 'FR', de: 'DE', en: 'GB', es: 'ES', it: 'IT', nl: 'NL',
 }
 
-export default function ProductCard({ name, price, imageUrl, affiliateLink, asin, buyButtonText, badge, lang = 'fr' }: ProductProps) {
+export default async function ProductCard({ name, price, imageUrl, affiliateLink, asin, buyButtonText, badge, lang = 'fr' }: ProductProps) {
+  const nonce = await getNonce()
   // Extract numeric price and currency for schema
   const numericPrice = price.replace(/[^0-9.,]/g, '').replace(',', '.')
   const currency = price.includes('£') ? 'GBP' : 'EUR'
@@ -124,6 +126,7 @@ export default function ProductCard({ name, price, imageUrl, affiliateLink, asin
     <div className="group relative flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white transition-all hover:shadow-xl hover:-translate-y-1">
       <script
         type="application/ld+json"
+        nonce={nonce}
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
       />
       {badge && (

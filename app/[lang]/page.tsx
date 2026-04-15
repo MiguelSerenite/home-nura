@@ -3,15 +3,18 @@ import ProductCard from '@/components/ProductCard'
 import ProductImageCarousel from '@/components/ProductImageCarousel'
 import Navbar from '@/components/Navbar'
 import FaqSection from '@/components/FaqSection'
+import NewsletterForm from '@/components/NewsletterForm'
 import ComparisonTable from '@/components/ComparisonTable'
 import CookieBanner from '@/components/CookieBanner'
 import { getStaticProducts } from '@/lib/products'
 import { buildProductListSchema, formatLastUpdated, lastUpdatedLabel, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
+import { getNonce } from '@/lib/nonce'
 import Link from 'next/link'
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   const dict = await getDictionary(lang);
+  const nonce = await getNonce();
 
   // Produits statiques avec liens affiliés
   const products = getStaticProducts(lang);
@@ -100,14 +103,17 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
       <script
         type="application/ld+json"
+        nonce={nonce}
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <script
         type="application/ld+json"
+        nonce={nonce}
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
       <script
         type="application/ld+json"
+        nonce={nonce}
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
       <Navbar currentLang={lang} />
@@ -320,13 +326,25 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       </section>
 
       {/* FAQ Section with Schema */}
-      <FaqSection faqs={dict.faq} title={dict.faq_title} />
+      <FaqSection faqs={dict.faq} title={dict.faq_title} nonce={nonce} />
+
+      {/* Newsletter */}
+      <NewsletterForm currentLang={lang} />
 
       {/* Footer with legal links */}
       <footer className="bg-white border-t border-slate-100 py-12 px-6">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-sm text-slate-400">{dict.affiliate_disclaimer}</p>
           <div className="mt-6 flex flex-wrap justify-center gap-6 text-xs font-medium text-slate-400">
+            <Link href={`/${lang}/guides/airfryers`} className="hover:text-slate-600 transition-colors">
+              Guide
+            </Link>
+            <Link href={`/${lang}/comparateur`} className="hover:text-slate-600 transition-colors">
+              Comparateur
+            </Link>
+            <Link href={`/${lang}/quiz`} className="hover:text-slate-600 transition-colors">
+              Quiz
+            </Link>
             <Link href={`/${lang}/blog`} className="hover:text-slate-600 transition-colors">
               Blog
             </Link>

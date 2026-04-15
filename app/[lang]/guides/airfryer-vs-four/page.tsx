@@ -4,6 +4,7 @@ import FaqSection from '@/components/FaqSection'
 import CookieBanner from '@/components/CookieBanner'
 import ProductImageCarousel from '@/components/ProductImageCarousel'
 import { getStaticProducts } from '@/lib/products'
+import { getNonce } from '@/lib/nonce'
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
@@ -378,6 +379,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
   const dict = await getDictionary(lang)
   const c = pageContent[lang] || pageContent.fr
   const products = getStaticProducts(lang)
+  const nonce = await getNonce()
 
   // Editorial chapter list for the post-table deep dive
   const chapters = [
@@ -406,7 +408,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
   return (
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
       <Navbar currentLang={lang} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" nonce={nonce} dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Hero */}
       <section className="relative px-6 py-20 lg:py-28 overflow-hidden">
@@ -732,7 +734,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
       </section>
 
       {/* FAQ */}
-      <FaqSection faqs={dict.faq} title={dict.faq_title} />
+      <FaqSection faqs={dict.faq} title={dict.faq_title} nonce={nonce} />
 
       {/* Footer */}
       <footer className="bg-white border-t border-slate-100 py-12 px-6">

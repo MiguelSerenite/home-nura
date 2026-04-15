@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { getNonce } from '@/lib/nonce'
 
 const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
@@ -454,11 +455,13 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 export default async function PolitiqueConfidentialite({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
   const c = content[lang] || content.fr
+  const nonce = await getNonce()
 
   return (
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
       <script
         type="application/ld+json"
+        nonce={nonce}
         dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',

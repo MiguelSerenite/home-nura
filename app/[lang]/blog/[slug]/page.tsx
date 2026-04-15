@@ -9,6 +9,7 @@ import { getStaticProducts } from '@/lib/products'
 import { enrichContentWithCTAs } from '@/lib/blog/enrichContent'
 import { CATEGORIES } from '@/lib/blog/types'
 import { notFound } from 'next/navigation'
+import { getNonce } from '@/lib/nonce'
 import type { Metadata } from 'next'
 
 const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl']
@@ -59,6 +60,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
   if (!article) notFound()
 
   const dict = await getDictionary(lang)
+  const nonce = await getNonce()
   const related = getRelatedArticles(article)
   const products = getStaticProducts(lang)
   const topProducts = products.slice(0, 3).map(p => ({
@@ -121,8 +123,8 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
 
   return (
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" nonce={nonce} dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" nonce={nonce} dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <Navbar currentLang={lang} />
 
       <article className="max-w-3xl mx-auto px-6 py-12">

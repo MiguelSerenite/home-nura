@@ -60,6 +60,16 @@ function negotiateLang(request: NextRequest): Lang {
   return DEFAULT_LANG
 }
 
+function generateNonce(): string {
+  // 16 random bytes → base64 (≈ 24 chars), enough entropy for CSP nonces
+  const bytes = new Uint8Array(16)
+  crypto.getRandomValues(bytes)
+  let binary = ''
+  for (let i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i])
+  // btoa is available in the Edge runtime
+  return btoa(binary)
+}
+
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
 
@@ -92,7 +102,50 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(url, 301)
   }
 
-  const response = NextResponse.next()
+  // Generate a per-request nonce so inline <script> tags we emit (JSON-LD
+  // schemas) and Next.js's own hydration scripts can be allow-listed
+  // without falling back to 'unsafe-inline'.
+  const nonce = generateNonce()
+  const isDev = process.env.NODE_ENV === 'development'
+
+  // strict-dynamic: trust anything loaded by a nonce'd script. This covers
+  // Next.js chunk loading. In dev we still need 'unsafe-eval' for HMR.
+  const scriptSrc = [
+    "'self'",
+    `'nonce-${nonce}'`,
+    "'strict-dynamic'",
+    isDev ? "'unsafe-eval'" : '',
+    // Older browsers that don't understand strict-dynamic fall back here.
+    // Modern browsers ignore these when strict-dynamic is present.
+    'https:',
+    "'unsafe-inline'",
+  ]
+    .filter(Boolean)
+    .join(' ')
+
+  const csp = [
+    "default-src 'self'",
+    `script-src ${scriptSrc}`,
+    "style-src 'self' 'unsafe-inline'",
+    "img-src 'self' data: https://m.media-amazon.com https://images-na.ssl-images-amazon.com https://img.youtube.com",
+    "font-src 'self' data:",
+    "connect-src 'self'",
+    "frame-src https://www.youtube.com https://www.youtube-nocookie.com",
+    "frame-ancestors 'none'",
+    "base-uri 'self'",
+    "form-action 'self'",
+  ].join('; ')
+
+  // Propagate nonce to request headers so server components can read it
+  // via `headers().get('x-nonce')` and attach it to inline <script> tags.
+  const requestHeaders = new Headers(request.headers)
+  requestHeaders.set('x-nonce', nonce)
+
+  const response = NextResponse.next({
+    request: {
+      headers: requestHeaders,
+    },
+  })
 
   // Security headers
   response.headers.set('X-Content-Type-Options', 'nosniff')
@@ -104,10 +157,8 @@ export function middleware(request: NextRequest) {
     'Strict-Transport-Security',
     'max-age=31536000; includeSubDomains; preload'
   )
-  response.headers.set(
-    'Content-Security-Policy',
-    "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://m.media-amazon.com https://images-na.ssl-images-amazon.com https://img.youtube.com; font-src 'self' data:; connect-src 'self'; frame-src https://www.youtube.com https://www.youtube-nocookie.com; frame-ancestors 'none'"
-  )
+  response.headers.set('Content-Security-Policy', csp)
+  response.headers.set('x-nonce', nonce)
 
   return response
 }

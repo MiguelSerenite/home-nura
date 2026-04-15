@@ -5,6 +5,7 @@ import CookieBanner from '@/components/CookieBanner'
 import { getDictionary } from '../dictionaries'
 import { getArticleMetas, getArticlesByCategory } from '@/lib/blog'
 import { CATEGORIES } from '@/lib/blog/types'
+import { getNonce } from '@/lib/nonce'
 import type { Metadata } from 'next'
 
 const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl']
@@ -53,6 +54,7 @@ const blogIntro: Record<string, { title: string; subtitle: string }> = {
 export default async function BlogIndex({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
   const dict = await getDictionary(lang)
+  const nonce = await getNonce()
   const intro = blogIntro[lang] || blogIntro.fr
   const allArticles = getArticleMetas()
   const categories = ['tests', 'guides', 'recettes', 'comparatifs', 'culture'] as const
@@ -85,8 +87,8 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
 
   return (
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }} />
+      <script type="application/ld+json" nonce={nonce} dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" nonce={nonce} dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }} />
       <Navbar currentLang={lang} />
 
       {/* Hero */}

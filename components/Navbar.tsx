@@ -2,7 +2,9 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
+import SearchBar from './SearchBar'
+import { getStaticProducts } from '@/lib/products'
 
 const countries = [
   { code: 'fr', flag: '🇫🇷', label: 'FR' },
@@ -42,6 +44,18 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
   const [isOpen, setIsOpen] = useState(false)
   const about = aboutLabel[currentLang] ?? 'About'
   const comparatif = comparatifLabel[currentLang] ?? '2026 Comparison'
+
+  // Build searchable product list once per lang (client-side static data)
+  const searchProducts = useMemo(() => {
+    return getStaticProducts(currentLang).map((p) => ({
+      title: p.title,
+      price: p.price,
+      image: p.image,
+      asin: p.asin,
+      capacity: p.capacity,
+      bestFor: p.bestFor,
+    }))
+  }, [currentLang])
 
   // Lock body scroll while the drawer is open
   useEffect(() => {
@@ -87,9 +101,10 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
           </Link>
           <div className="hidden md:flex items-center gap-4 text-sm font-medium text-slate-500">
             <Link href={`/${currentLang}/guides/airfryers`} className="hover:text-blue-600 transition-colors">Guide</Link>
-            <Link href={`/${currentLang}/guides/airfryers#comparatif-2026`} className="hover:text-blue-600 transition-colors">
+            <Link href={`/${currentLang}/comparateur`} className="hover:text-blue-600 transition-colors">
               {comparatif}
             </Link>
+            <Link href={`/${currentLang}/quiz`} className="hover:text-blue-600 transition-colors">Quiz</Link>
             <Link href={`/${currentLang}/blog`} className="hover:text-blue-600 transition-colors">Blog</Link>
             <Link href={`/${currentLang}/a-propos`} className="hover:text-blue-600 transition-colors">
               {about}
@@ -97,8 +112,10 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
           </div>
         </div>
 
-        {/* Desktop: Sélecteur de pays */}
-        <div className="hidden md:flex items-center gap-2 md:gap-4 bg-slate-50 p-1 rounded-full border border-slate-100">
+        {/* Desktop: Search + country selector */}
+        <div className="hidden md:flex items-center gap-3">
+          <SearchBar products={searchProducts} currentLang={currentLang} variant="desktop" />
+          <div className="flex items-center gap-2 md:gap-4 bg-slate-50 p-1 rounded-full border border-slate-100">
           {countries.map((c) => (
             <Link
               key={c.code}
@@ -114,6 +131,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
               <span className="hidden sm:inline">{c.label}</span>
             </Link>
           ))}
+          </div>
         </div>
 
         {/* Mobile: hamburger button */}
@@ -155,6 +173,14 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
             className="md:hidden absolute left-0 right-0 top-24 md:top-28 z-50 bg-white border-b border-slate-200 shadow-lg"
           >
             <div className="max-w-7xl mx-auto px-4 py-6 flex flex-col gap-2">
+              <div className="mb-2">
+                <SearchBar
+                  products={searchProducts}
+                  currentLang={currentLang}
+                  variant="mobile"
+                  onNavigate={close}
+                />
+              </div>
               <Link
                 href={`/${currentLang}/guides/airfryers`}
                 onClick={close}
@@ -164,11 +190,19 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
                 <svg className="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="m9 18 6-6-6-6"/></svg>
               </Link>
               <Link
-                href={`/${currentLang}/guides/airfryers#comparatif-2026`}
+                href={`/${currentLang}/comparateur`}
                 onClick={close}
                 className="flex items-center justify-between py-3 px-4 rounded-xl text-slate-900 font-semibold hover:bg-slate-50 transition-colors"
               >
                 <span>{comparatif}</span>
+                <svg className="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="m9 18 6-6-6-6"/></svg>
+              </Link>
+              <Link
+                href={`/${currentLang}/quiz`}
+                onClick={close}
+                className="flex items-center justify-between py-3 px-4 rounded-xl text-slate-900 font-semibold hover:bg-slate-50 transition-colors"
+              >
+                <span>Quiz</span>
                 <svg className="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="m9 18 6-6-6-6"/></svg>
               </Link>
               <Link

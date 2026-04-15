@@ -11,6 +11,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '', priority: 1.0, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/guides/airfryers', priority: 0.9, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/guides/airfryer-vs-four', priority: 0.8, changeFrequency: 'monthly' as const, lastModified: today },
+    { path: '/comparateur', priority: 0.85, changeFrequency: 'weekly' as const, lastModified: today },
+    { path: '/quiz', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/blog', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/a-propos', priority: 0.5, changeFrequency: 'monthly' as const, lastModified: '2026-04-10' },
     { path: '/mentions-legales', priority: 0.3, changeFrequency: 'yearly' as const, lastModified: '2026-01-10' },
