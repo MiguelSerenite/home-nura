@@ -427,6 +427,8 @@ export default async function CategoryPage({
                 badge={p.badge}
                 buyButtonText={c.buyButton}
                 lang={safeLang}
+                capacity={p.capacity}
+                bestFor={p.bestFor}
               />
             ))}
           </div>

@@ -230,6 +230,8 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               buyButtonText={dict.buy_button}
               badge={product.badge}
               lang={lang}
+              capacity={product.capacity}
+              bestFor={product.bestFor}
             />
           ))}
         </div>

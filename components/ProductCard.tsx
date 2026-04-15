@@ -12,6 +12,8 @@ interface ProductProps {
   buyButtonText?: string;
   badge?: string;
   lang?: string;
+  capacity?: string;
+  bestFor?: string;
 }
 
 // Extract brand from product name
@@ -28,7 +30,7 @@ const countryMap: Record<string, string> = {
   fr: 'FR', de: 'DE', en: 'GB', es: 'ES', it: 'IT', nl: 'NL',
 }
 
-export default async function ProductCard({ name, price, imageUrl, affiliateLink, asin, buyButtonText, badge, lang = 'fr' }: ProductProps) {
+export default async function ProductCard({ name, price, imageUrl, affiliateLink, asin, buyButtonText, badge, lang = 'fr', capacity, bestFor }: ProductProps) {
   const nonce = await getNonce()
   // Extract numeric price and currency for schema
   const numericPrice = price.replace(/[^0-9.,]/g, '').replace(',', '.')
@@ -37,6 +39,9 @@ export default async function ProductCard({ name, price, imageUrl, affiliateLink
   const country = countryMap[lang] || 'FR'
   // Google-style social proof: rating + review count (deterministic from ASIN)
   const { rating, count } = getSocialProof(asin, lang)
+
+  // Enriched alt for Google Images SEO — includes brand, capacity, usage context
+  const enrichedAlt = [name, capacity, bestFor].filter(Boolean).join(' — ')
 
   const productSchema = {
     '@context': 'https://schema.org',
@@ -138,7 +143,7 @@ export default async function ProductCard({ name, price, imageUrl, affiliateLink
       <div className="aspect-square overflow-hidden bg-slate-100 relative">
         <Image
           src={imageUrl}
-          alt={name}
+          alt={enrichedAlt}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="object-contain p-4 transition-transform duration-300 group-hover:scale-105"

@@ -49,11 +49,41 @@ const smartKitchenLabel: Record<string, string> = {
   en: 'Smart kitchen',
 }
 
+const openMenuLabel: Record<string, string> = {
+  fr: 'Ouvrir le menu',
+  de: 'Menü öffnen',
+  es: 'Abrir menú',
+  it: 'Apri menu',
+  nl: 'Menu openen',
+  en: 'Open menu',
+}
+
+const closeMenuLabel: Record<string, string> = {
+  fr: 'Fermer le menu',
+  de: 'Menü schließen',
+  es: 'Cerrar menú',
+  it: 'Chiudi menu',
+  nl: 'Menu sluiten',
+  en: 'Close menu',
+}
+
+const languageRegionLabel: Record<string, string> = {
+  fr: 'Langue / Région',
+  de: 'Sprache / Region',
+  es: 'Idioma / Región',
+  it: 'Lingua / Regione',
+  nl: 'Taal / Regio',
+  en: 'Language / Region',
+}
+
 export default function Navbar({ currentLang }: { currentLang: string }) {
   const [isOpen, setIsOpen] = useState(false)
   const about = aboutLabel[currentLang] ?? 'About'
   const comparatif = comparatifLabel[currentLang] ?? '2026 Comparison'
   const smartKitchen = smartKitchenLabel[currentLang] ?? 'Smart kitchen'
+  const openMenu = openMenuLabel[currentLang] ?? 'Open menu'
+  const closeMenu = closeMenuLabel[currentLang] ?? 'Close menu'
+  const languageRegion = languageRegionLabel[currentLang] ?? 'Language / Region'
 
   // Build searchable product list once per lang (client-side static data)
   const searchProducts = useMemo(() => {
@@ -79,7 +109,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
   // Close the drawer when the viewport grows into desktop territory
   useEffect(() => {
     if (typeof window === 'undefined') return
-    const mq = window.matchMedia('(min-width: 768px)')
+    const mq = window.matchMedia('(min-width: 1024px)')
     const handler = (e: MediaQueryListEvent) => {
       if (e.matches) setIsOpen(false)
     }
@@ -91,9 +121,9 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
 
   return (
     <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
-      <div className="max-w-7xl mx-auto px-4 h-24 md:h-28 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 h-24 lg:h-28 flex items-center justify-between">
         {/* Logo + Nav */}
-        <div className="flex items-center gap-4 md:gap-6 min-w-0">
+        <div className="flex items-center gap-4 lg:gap-6 min-w-0">
           <Link
             href={`/${currentLang}`}
             className="flex items-center shrink-0"
@@ -109,7 +139,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
               className="h-20 md:h-24 w-auto"
             />
           </Link>
-          <div className="hidden md:flex items-center gap-4 text-sm font-medium text-slate-500">
+          <div className="hidden lg:flex items-center gap-4 text-sm font-medium text-slate-500">
             <Link href={`/${currentLang}/guides/airfryers`} className="hover:text-blue-600 transition-colors">Guide</Link>
             <Link href={`/${currentLang}/comparateur`} className="hover:text-blue-600 transition-colors">
               {comparatif}
@@ -126,9 +156,9 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
         </div>
 
         {/* Desktop: Search + country selector */}
-        <div className="hidden md:flex items-center gap-3">
+        <div className="hidden lg:flex items-center gap-3">
           <SearchBar products={searchProducts} currentLang={currentLang} variant="desktop" />
-          <div className="flex items-center gap-2 md:gap-4 bg-slate-50 p-1 rounded-full border border-slate-100">
+          <div className="flex items-center gap-2 lg:gap-4 bg-slate-50 p-1 rounded-full border border-slate-100">
           {countries.map((c) => (
             <Link
               key={c.code}
@@ -151,10 +181,10 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
         <button
           type="button"
           onClick={() => setIsOpen((v) => !v)}
-          aria-label={isOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
+          aria-label={isOpen ? closeMenu : openMenu}
           aria-expanded={isOpen}
           aria-controls="mobile-menu"
-          className="md:hidden flex items-center justify-center w-10 h-10 rounded-full border border-slate-200 text-slate-700 hover:bg-slate-50 transition-colors"
+          className="lg:hidden flex items-center justify-center w-10 h-10 rounded-full border border-slate-200 text-slate-700 hover:bg-slate-50 transition-colors"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
             {isOpen ? (
@@ -176,14 +206,14 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
           {/* Backdrop */}
           <button
             type="button"
-            aria-label="Fermer le menu"
+            aria-label={closeMenu}
             onClick={close}
-            className="md:hidden fixed inset-0 top-24 md:top-28 bg-slate-900/30 backdrop-blur-sm z-40"
+            className="lg:hidden fixed inset-0 top-24 lg:top-28 bg-slate-900/30 backdrop-blur-sm z-40"
           />
           {/* Panel */}
           <div
             id="mobile-menu"
-            className="md:hidden absolute left-0 right-0 top-24 md:top-28 z-50 bg-white border-b border-slate-200 shadow-lg"
+            className="lg:hidden absolute left-0 right-0 top-24 lg:top-28 z-50 bg-white border-b border-slate-200 shadow-lg"
           >
             <div className="max-w-7xl mx-auto px-4 py-6 flex flex-col gap-2">
               <div className="mb-2">
@@ -244,8 +274,8 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
               </Link>
 
               <div className="mt-4 pt-4 border-t border-slate-100">
-                <div className="text-[11px] font-bold tracking-[0.25em] uppercase text-slate-400 mb-3 px-4">
-                  Langue / Region
+                <div className="text-[11px] font-bold tracking-[0.25em] uppercase text-slate-600 mb-3 px-4">
+                  {languageRegion}
                 </div>
                 <div className="grid grid-cols-3 gap-2">
                   {countries.map((c) => (

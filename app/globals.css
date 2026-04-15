@@ -51,3 +51,16 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
 }
+
+/* Accessibility: consistent keyboard focus ring using brand olive.
+   Only shown on keyboard navigation (not mouse clicks) thanks to :focus-visible. */
+*:focus-visible {
+  outline: 2px solid #6b7230;
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Remove default outline for mouse/touch — :focus-visible handles keyboard users */
+:focus:not(:focus-visible) {
+  outline: none;
+}
