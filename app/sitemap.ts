@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/comparateur', priority: 0.85, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/cuisine-connectee', priority: 0.85, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/cuisine-connectee/comparateur', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: today },
+    { path: '/cuisine-connectee/quiz', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: today },
     ...SMART_KITCHEN_CATEGORIES.map((cat) => ({
       path: `/cuisine-connectee/${cat}`,
       priority: 0.75,
