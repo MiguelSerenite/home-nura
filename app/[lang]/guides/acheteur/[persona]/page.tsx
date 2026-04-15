@@ -48,6 +48,7 @@ interface GuideUi {
   noRelated: string
   methodologyCta: string
   faqTitle: string
+  bestForPrefix: string
 }
 
 const uiStrings: Record<Lang, GuideUi> = {
@@ -55,55 +56,61 @@ const uiStrings: Record<Lang, GuideUi> = {
     home: 'Accueil',
     guides: 'Guides',
     applicableSilosTitle: 'Univers pertinents pour ce profil',
-    relatedCategoriesTitle: 'Catégories à explorer maintenant',
+    relatedCategoriesTitle: 'Sélections ciblées pour ce profil',
     noRelated: 'Les catégories dédiées à ce profil arrivent bientôt.',
     methodologyCta: 'Lire notre méthodologie',
     faqTitle: 'Questions fréquentes',
+    bestForPrefix: 'Le meilleur',
   },
   en: {
     home: 'Home',
     guides: 'Guides',
     applicableSilosTitle: 'Relevant silos for this profile',
-    relatedCategoriesTitle: 'Categories to explore now',
+    relatedCategoriesTitle: 'Targeted picks for this profile',
     noRelated: 'Dedicated categories for this profile are coming soon.',
     methodologyCta: 'Read our methodology',
     faqTitle: 'Frequently asked questions',
+    bestForPrefix: 'The best',
   },
   de: {
     home: 'Start',
     guides: 'Ratgeber',
     applicableSilosTitle: 'Relevante Silos für dieses Profil',
-    relatedCategoriesTitle: 'Kategorien, die Sie jetzt erkunden sollten',
+    relatedCategoriesTitle: 'Gezielte Auswahl für dieses Profil',
     noRelated: 'Eigene Kategorien für dieses Profil folgen bald.',
     methodologyCta: 'Zur Methodik',
     faqTitle: 'Häufige Fragen',
+    bestForPrefix: 'Das Beste',
   },
   es: {
     home: 'Inicio',
     guides: 'Guías',
     applicableSilosTitle: 'Silos relevantes para este perfil',
-    relatedCategoriesTitle: 'Categorías que explorar ahora',
+    relatedCategoriesTitle: 'Selecciones dirigidas para este perfil',
     noRelated: 'Las categorías dedicadas a este perfil llegan pronto.',
     methodologyCta: 'Leer nuestra metodología',
     faqTitle: 'Preguntas frecuentes',
+    bestForPrefix: 'El mejor',
   },
   it: {
     home: 'Home',
     guides: 'Guide',
     applicableSilosTitle: 'Silo rilevanti per questo profilo',
-    relatedCategoriesTitle: 'Categorie da esplorare ora',
+    relatedCategoriesTitle: 'Selezioni mirate per questo profilo',
     noRelated: 'Le categorie dedicate a questo profilo arrivano presto.',
     methodologyCta: 'Leggi la nostra metodologia',
     faqTitle: 'Domande frequenti',
+    bestForPrefix: 'Il migliore',
   },
   nl: {
     home: 'Home',
     guides: 'Gidsen',
     applicableSilosTitle: 'Relevante silo\'s voor dit profiel',
-    relatedCategoriesTitle: 'Categorieën om nu te verkennen',
+    relatedCategoriesTitle: 'Gerichte selecties voor dit profiel',
     noRelated: 'Specifieke categorieën voor dit profiel komen binnenkort.',
     methodologyCta: 'Lees onze methodologie',
     faqTitle: 'Veelgestelde vragen',
+    bestForPrefix: 'De beste',
   },
 }
 
@@ -232,18 +239,14 @@ export default async function PersonaGuidePage({
               {relatedCategories.map(({ silo, category }) => (
                 <li key={`${silo.slug}/${category.slug}`}>
                   <Link
-                    href={
-                      silo.slug === 'cuisine-connectee'
-                        ? `/${safeLang}/${silo.slug}/${category.slug}`
-                        : `/${safeLang}/${silo.slug}/${category.slug}`
-                    }
+                    href={`/${safeLang}/${silo.slug}/${category.slug}/meilleur-pour/${p.slug}`}
                     className="group flex flex-col rounded-2xl border border-slate-200 bg-white px-5 py-4 transition duration-200 hover:border-blue-200 hover:shadow-sm"
                   >
                     <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-blue-600 mb-1">
                       {silo.title[safeLang]}
                     </span>
                     <span className="text-base font-semibold text-slate-900 group-hover:text-blue-700 transition-colors">
-                      {category.title[safeLang]}
+                      {ui.bestForPrefix} {category.title[safeLang].toLowerCase()}
                     </span>
                   </Link>
                 </li>

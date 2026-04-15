@@ -36,6 +36,7 @@ import {
   getCategoriesBySilo,
   getCategoryHero,
   getCategoryFaq,
+  getPersonasForSilo,
 } from '@/lib/catalog'
 import type { MetaSiloSlug } from '@/lib/catalog'
 import { isValidLang, type Lang } from '@/lib/i18n'
@@ -46,6 +47,10 @@ interface CategoryHubUi {
   methodologyCta: string
   faqTitle: string
   noSiblings: string
+  /** Phase II: personalized "best for" cluster cross-links. */
+  bestForTitle: string
+  /** Phase II: H3 prefix for each persona card, e.g. "Meilleur [cat] pour". */
+  bestForPrefix: string
 }
 
 const uiStrings: Record<Lang, CategoryHubUi> = {
@@ -55,6 +60,8 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     methodologyCta: 'Lire notre méthodologie',
     faqTitle: 'Questions fréquentes',
     noSiblings: 'Les catégories voisines arrivent bientôt.',
+    bestForTitle: 'Trouvez le meilleur selon votre profil',
+    bestForPrefix: 'Le meilleur pour',
   },
   en: {
     home: 'Home',
@@ -62,6 +69,8 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     methodologyCta: 'Read our methodology',
     faqTitle: 'Frequently asked questions',
     noSiblings: 'Sibling categories are coming soon.',
+    bestForTitle: 'Find the best one for your profile',
+    bestForPrefix: 'The best for',
   },
   de: {
     home: 'Start',
@@ -69,6 +78,8 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     methodologyCta: 'Zur Methodik',
     faqTitle: 'Häufige Fragen',
     noSiblings: 'Weitere Kategorien folgen bald.',
+    bestForTitle: 'Finden Sie das Beste für Ihr Profil',
+    bestForPrefix: 'Das Beste für',
   },
   es: {
     home: 'Inicio',
@@ -76,6 +87,8 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     methodologyCta: 'Leer nuestra metodología',
     faqTitle: 'Preguntas frecuentes',
     noSiblings: 'Las categorías vecinas llegan pronto.',
+    bestForTitle: 'Encuentra el mejor según tu perfil',
+    bestForPrefix: 'El mejor para',
   },
   it: {
     home: 'Home',
@@ -83,6 +96,8 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     methodologyCta: 'Leggi la nostra metodologia',
     faqTitle: 'Domande frequenti',
     noSiblings: 'Le categorie vicine arrivano presto.',
+    bestForTitle: 'Trova il migliore secondo il tuo profilo',
+    bestForPrefix: 'Il migliore per',
   },
   nl: {
     home: 'Home',
@@ -90,6 +105,8 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     methodologyCta: 'Lees onze methodologie',
     faqTitle: 'Veelgestelde vragen',
     noSiblings: 'Naastgelegen categorieën komen binnenkort.',
+    bestForTitle: 'Vind de beste voor uw profiel',
+    bestForPrefix: 'De beste voor',
   },
 }
 
@@ -128,6 +145,16 @@ export default async function CategoryHub({
   const related = getCategoriesBySilo(siloSlug).filter(
     (c) => c.slug !== category.slug && c.indexable
   )
+
+  // Phase II: best-for cluster cross-links. Every indexable category
+  // surfaces up to 9 "best [category] for [persona]" entry points —
+  // one per persona applicable to the category's silo. This connects
+  // CategoryHub directly to the Moteur 4 conversion layer so a user
+  // who landed on the category page can self-select into the best-for
+  // bucket that matches their profile.
+  const bestForPersonas = category.indexable
+    ? getPersonasForSilo(siloSlug).slice(0, 9)
+    : []
 
   return (
     <div className="min-h-screen bg-white">
@@ -175,6 +202,32 @@ export default async function CategoryHub({
           subtitle={hero.subtitle}
           intro={hero.intro}
         />
+
+        {/* Phase II: best-for cluster — cross-links to Moteur 4 pages */}
+        {bestForPersonas.length > 0 && (
+          <section className="max-w-6xl mx-auto px-4 md:px-6 pb-12">
+            <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-6">
+              {ui.bestForTitle}
+            </h2>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {bestForPersonas.map((persona) => (
+                <li key={persona.slug}>
+                  <Link
+                    href={`/${safeLang}/${silo.slug}/${category.slug}/meilleur-pour/${persona.slug}`}
+                    className="group flex flex-col rounded-2xl border border-slate-200 bg-white px-5 py-4 transition duration-200 hover:border-blue-200 hover:shadow-sm"
+                  >
+                    <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-blue-600 mb-1">
+                      {ui.bestForPrefix} {categoryTitle.toLowerCase()}
+                    </span>
+                    <span className="text-base font-semibold text-slate-900 group-hover:text-blue-700 transition-colors">
+                      {persona.label[safeLang]}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {/* Related categories */}
         <section className="max-w-6xl mx-auto px-4 md:px-6 pb-12">
