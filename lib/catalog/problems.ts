@@ -19,10 +19,11 @@
  * Phase YY (Period 12) mirrors the same pattern for securite-maison:
  * 10 indexable categories × 3 = 30 new problems. Phase ZZ (Period 13)
  * does the same for confort-air: another 10 × 3 = 30. Phase AAA
- * (Period 14) ships entretien-maison: 8 indexable categories × 3 =
- * 24 new problems, running total 147 problems × 6 locales = 882
- * troubleshooting pages. Phase BBB finishes the sequence with
- * outdoor-connecte.
+ * (Period 14) ships entretien-maison: 8 × 3 = 24 new problems.
+ * Phase BBB (Period 15) closes the sequence with outdoor-connecte:
+ * 8 indexable categories × 3 = 24 new problems. Final running total:
+ * 171 problems × 6 locales = 1026 troubleshooting pages across all
+ * 6 silos. Every newly-indexable category now has Moteur 3 coverage.
  *
  * Severity drives the call-to-action:
  *   - minor     → inline quick fix + "still not working?" fallback
@@ -2059,6 +2060,338 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi lavadora ya no centrifuga y la ropa queda empapada',
       it: 'La mia lavatrice non centrifuga più e il bucato resta bagnato',
       nl: 'Mijn wasmachine centrifugeert niet meer en het wasgoed blijft drijfnat',
+    },
+  },
+
+  // ===================================================================
+  // Phase BBB — outdoor-connecte seed (8 categories × 3 = 24 problems)
+  // ===================================================================
+
+  // ------- tondeuses-robots -------
+  {
+    slug: 'tondeuse-robot-sort-jardin',
+    categorySlug: 'tondeuses-robots',
+    severity: 'critical',
+    query: {
+      fr: 'Ma tondeuse robot franchit le fil périmétrique et sort du jardin',
+      en: 'My robot mower crosses the boundary wire and leaves the garden',
+      de: 'Mein Mähroboter überquert den Begrenzungsdraht und verlässt den Garten',
+      es: 'Mi robot cortacésped cruza el cable perimetral y sale del jardín',
+      it: 'Il mio robot tagliaerba supera il filo perimetrale ed esce dal giardino',
+      nl: 'Mijn robotmaaier steekt de begrenzingsdraad over en verlaat de tuin',
+    },
+  },
+  {
+    slug: 'tondeuse-robot-lame-bloquee',
+    categorySlug: 'tondeuses-robots',
+    severity: 'moderate',
+    query: {
+      fr: 'Les lames de ma tondeuse robot se bloquent sur herbe haute',
+      en: 'The blades of my robot mower keep jamming on tall grass',
+      de: 'Die Messer meines Mähroboters blockieren im hohen Gras',
+      es: 'Las cuchillas de mi robot cortacésped se atascan en hierba alta',
+      it: 'Le lame del mio robot tagliaerba si bloccano sull\'erba alta',
+      nl: 'De messen van mijn robotmaaier lopen vast in lang gras',
+    },
+  },
+  {
+    slug: 'tondeuse-robot-station-hs',
+    categorySlug: 'tondeuses-robots',
+    severity: 'moderate',
+    query: {
+      fr: 'La station de charge de ma tondeuse robot ne recharge plus',
+      en: 'The charging base of my robot mower has stopped recharging',
+      de: 'Die Ladestation meines Mähroboters lädt nicht mehr',
+      es: 'La estación de carga de mi robot cortacésped ya no carga',
+      it: 'La base di ricarica del mio robot tagliaerba non carica più',
+      nl: 'Het laadstation van mijn robotmaaier laadt niet meer op',
+    },
+  },
+
+  // ------- arrosage-connecte -------
+  {
+    slug: 'arrosage-vanne-bloquee',
+    categorySlug: 'arrosage-connecte',
+    severity: 'critical',
+    query: {
+      fr: 'La vanne de mon système d\'arrosage reste ouverte en permanence',
+      en: 'The valve on my smart irrigation system is stuck in the open position',
+      de: 'Das Ventil meiner smarten Bewässerung bleibt dauerhaft offen',
+      es: 'La válvula de mi sistema de riego queda abierta permanentemente',
+      it: 'La valvola del mio impianto di irrigazione resta aperta in continuazione',
+      nl: 'De klep van mijn slimme irrigatie blijft permanent openstaan',
+    },
+  },
+  {
+    slug: 'arrosage-programmation-ignoree',
+    categorySlug: 'arrosage-connecte',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon programmateur d\'arrosage ignore la programmation de l\'application',
+      en: 'My irrigation controller ignores the schedule set in the app',
+      de: 'Meine Bewässerungssteuerung ignoriert den Zeitplan aus der App',
+      es: 'Mi programador de riego ignora la programación de la app',
+      it: 'La mia centralina di irrigazione ignora la programmazione dell\'app',
+      nl: 'Mijn irrigatiecomputer negeert het schema in de app',
+    },
+  },
+  {
+    slug: 'arrosage-capteur-pluie',
+    categorySlug: 'arrosage-connecte',
+    severity: 'minor',
+    query: {
+      fr: 'Mon arrosage connecté continue de fonctionner malgré le capteur de pluie',
+      en: 'My smart irrigation keeps running despite the rain sensor',
+      de: 'Meine smarte Bewässerung läuft trotz Regensensor weiter',
+      es: 'Mi riego conectado sigue funcionando a pesar del sensor de lluvia',
+      it: 'La mia irrigazione connessa continua nonostante il sensore pioggia',
+      nl: 'Mijn slimme irrigatie blijft lopen ondanks de regensensor',
+    },
+  },
+
+  // ------- eclairage-exterieur -------
+  {
+    slug: 'eclairage-ext-solaire-ne-charge',
+    categorySlug: 'eclairage-exterieur',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon éclairage extérieur solaire ne charge plus en pleine journée',
+      en: 'My solar outdoor lights no longer charge even in full daylight',
+      de: 'Meine Solar-Außenbeleuchtung lädt auch bei Sonnenschein nicht mehr',
+      es: 'Mi iluminación exterior solar ya no carga ni a pleno día',
+      it: 'La mia illuminazione esterna solare non si ricarica più in pieno giorno',
+      nl: 'Mijn solar buitenverlichting laadt overdag niet meer op',
+    },
+  },
+  {
+    slug: 'eclairage-ext-detecteur-declenche',
+    categorySlug: 'eclairage-exterieur',
+    severity: 'minor',
+    query: {
+      fr: 'Mon éclairage extérieur avec détecteur se déclenche sans raison la nuit',
+      en: 'My motion-sensor outdoor light keeps turning on at night for no reason',
+      de: 'Meine Bewegungsmelder-Außenleuchte schaltet sich nachts grundlos ein',
+      es: 'Mi luz exterior con detector se enciende sola por la noche',
+      it: 'La mia luce esterna con sensore si accende di notte senza motivo',
+      nl: 'Mijn buitenlamp met sensor gaat \'s nachts zomaar aan',
+    },
+  },
+  {
+    slug: 'eclairage-ext-infiltration-eau',
+    categorySlug: 'eclairage-exterieur',
+    severity: 'critical',
+    query: {
+      fr: 'De l\'eau s\'infiltre dans mon luminaire extérieur connecté',
+      en: 'Water is leaking into my smart outdoor light fixture',
+      de: 'In meine smarte Außenleuchte dringt Wasser ein',
+      es: 'Entra agua en mi luminaria exterior conectada',
+      it: 'Dell\'acqua si infiltra nel mio apparecchio esterno connesso',
+      nl: 'Er dringt water binnen in mijn slimme buitenverlichting',
+    },
+  },
+
+  // ------- portails-garages -------
+  {
+    slug: 'portail-ne-se-ferme-plus',
+    categorySlug: 'portails-garages',
+    severity: 'critical',
+    query: {
+      fr: 'Mon portail motorisé ne se ferme plus complètement',
+      en: 'My motorised gate no longer closes completely',
+      de: 'Mein motorisiertes Tor schließt nicht mehr vollständig',
+      es: 'Mi puerta motorizada ya no cierra del todo',
+      it: 'Il mio cancello motorizzato non si chiude più completamente',
+      nl: 'Mijn gemotoriseerde poort sluit niet meer volledig',
+    },
+  },
+  {
+    slug: 'garage-telecommande-portee',
+    categorySlug: 'portails-garages',
+    severity: 'minor',
+    query: {
+      fr: 'La télécommande de mon garage a perdu beaucoup de portée',
+      en: 'My garage door remote has lost a lot of its range',
+      de: 'Meine Garagentor-Fernbedienung hat deutlich an Reichweite verloren',
+      es: 'El mando de mi garaje ha perdido mucho alcance',
+      it: 'Il telecomando del mio garage ha perso molta portata',
+      nl: 'De afstandsbediening van mijn garage heeft veel bereik verloren',
+    },
+  },
+  {
+    slug: 'portail-cellule-photo',
+    categorySlug: 'portails-garages',
+    severity: 'moderate',
+    query: {
+      fr: 'Les cellules photoélectriques de mon portail déclenchent une réouverture',
+      en: 'The photocells on my gate keep triggering a reopening cycle',
+      de: 'Die Lichtschranken meines Tores lösen ständig ein erneutes Öffnen aus',
+      es: 'Las fotocélulas de mi puerta provocan una reapertura constante',
+      it: 'Le fotocellule del mio cancello fanno riaprire il cancello di continuo',
+      nl: 'De fotocellen van mijn poort activeren steeds een heropening',
+    },
+  },
+
+  // ------- robots-piscine -------
+  {
+    slug: 'robot-piscine-ne-plonge-pas',
+    categorySlug: 'robots-piscine',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon robot de piscine ne plonge plus et reste en surface',
+      en: 'My pool robot no longer sinks and stays on the surface',
+      de: 'Mein Poolroboter taucht nicht mehr ab und bleibt an der Oberfläche',
+      es: 'Mi robot de piscina ya no se sumerge y se queda en la superficie',
+      it: 'Il mio robot piscina non si immerge più e resta in superficie',
+      nl: 'Mijn zwembadrobot duikt niet meer onder en blijft aan het oppervlak',
+    },
+  },
+  {
+    slug: 'robot-piscine-helice-bloquee',
+    categorySlug: 'robots-piscine',
+    severity: 'moderate',
+    query: {
+      fr: 'L\'hélice de mon robot de piscine est bloquée par des feuilles',
+      en: 'The impeller on my pool robot is jammed with leaves',
+      de: 'Der Propeller meines Poolroboters ist durch Laub blockiert',
+      es: 'La hélice de mi robot de piscina está bloqueada por hojas',
+      it: 'L\'elica del mio robot piscina è bloccata dalle foglie',
+      nl: 'De impeller van mijn zwembadrobot zit vast door bladeren',
+    },
+  },
+  {
+    slug: 'robot-piscine-cable-emmele',
+    categorySlug: 'robots-piscine',
+    severity: 'minor',
+    query: {
+      fr: 'Le câble de mon robot de piscine s\'emmêle à chaque cycle',
+      en: 'The cable on my pool robot gets tangled on every cycle',
+      de: 'Das Kabel meines Poolroboters verheddert sich bei jedem Zyklus',
+      es: 'El cable de mi robot de piscina se enreda en cada ciclo',
+      it: 'Il cavo del mio robot piscina si aggroviglia a ogni ciclo',
+      nl: 'De kabel van mijn zwembadrobot raakt elke cyclus in de knoop',
+    },
+  },
+
+  // ------- barbecues-connectes -------
+  {
+    slug: 'barbecue-sonde-temperature-fausse',
+    categorySlug: 'barbecues-connectes',
+    severity: 'moderate',
+    query: {
+      fr: 'La sonde de température de mon barbecue connecté affiche une valeur fausse',
+      en: 'The temperature probe on my smart grill reports a wrong value',
+      de: 'Der Temperaturfühler meines smarten Grills zeigt einen falschen Wert an',
+      es: 'La sonda de temperatura de mi barbacoa inteligente da un valor erróneo',
+      it: 'La sonda temperatura del mio barbecue connesso mostra un valore errato',
+      nl: 'De temperatuurprobe van mijn slimme barbecue geeft een verkeerde waarde',
+    },
+  },
+  {
+    slug: 'barbecue-bluetooth-perdu',
+    categorySlug: 'barbecues-connectes',
+    severity: 'minor',
+    query: {
+      fr: 'Mon barbecue connecté perd la connexion Bluetooth en pleine cuisson',
+      en: 'My smart grill loses its Bluetooth connection mid-cook',
+      de: 'Mein smarter Grill verliert während des Garens die Bluetooth-Verbindung',
+      es: 'Mi barbacoa inteligente pierde la conexión Bluetooth a mitad de cocción',
+      it: 'Il mio barbecue connesso perde il Bluetooth a metà cottura',
+      nl: 'Mijn slimme barbecue verliest tijdens het grillen de Bluetooth-verbinding',
+    },
+  },
+  {
+    slug: 'barbecue-pellet-bourrage',
+    categorySlug: 'barbecues-connectes',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon barbecue à pellets connecté bourre la vis d\'alimentation',
+      en: 'My smart pellet grill keeps jamming the auger',
+      de: 'Mein smarter Pelletgrill verstopft die Förderschnecke',
+      es: 'Mi barbacoa de pellets inteligente atasca el sinfín de alimentación',
+      it: 'Il mio barbecue a pellet connesso inceppa la coclea di alimentazione',
+      nl: 'Mijn slimme pelletbarbecue laat de vulspiraal vastlopen',
+    },
+  },
+
+  // ------- stations-recharge-outdoor -------
+  {
+    slug: 'station-recharge-outdoor-humide',
+    categorySlug: 'stations-recharge-outdoor',
+    severity: 'critical',
+    query: {
+      fr: 'Ma station de recharge extérieure affiche une erreur d\'humidité',
+      en: 'My outdoor charging station shows a moisture error',
+      de: 'Meine Outdoor-Ladestation zeigt einen Feuchtigkeitsfehler',
+      es: 'Mi estación de carga exterior muestra un error de humedad',
+      it: 'La mia stazione di ricarica esterna segnala un errore di umidità',
+      nl: 'Mijn buitenlaadstation toont een vochtfout',
+    },
+  },
+  {
+    slug: 'station-recharge-outdoor-lente',
+    categorySlug: 'stations-recharge-outdoor',
+    severity: 'moderate',
+    query: {
+      fr: 'Ma station de recharge extérieure charge beaucoup plus lentement qu\'avant',
+      en: 'My outdoor charging station is charging much slower than it used to',
+      de: 'Meine Outdoor-Ladestation lädt deutlich langsamer als zuvor',
+      es: 'Mi estación de carga exterior carga mucho más lento que antes',
+      it: 'La mia stazione di ricarica esterna carica molto più lentamente di prima',
+      nl: 'Mijn buitenlaadstation laadt veel trager dan vroeger',
+    },
+  },
+  {
+    slug: 'station-recharge-outdoor-prise-lache',
+    categorySlug: 'stations-recharge-outdoor',
+    severity: 'minor',
+    query: {
+      fr: 'La prise de ma station de recharge extérieure est devenue lâche',
+      en: 'The socket on my outdoor charging station has become loose',
+      de: 'Die Steckdose meiner Outdoor-Ladestation sitzt locker',
+      es: 'El enchufe de mi estación de carga exterior se ha aflojado',
+      it: 'La presa della mia stazione di ricarica esterna si è allentata',
+      nl: 'Het stopcontact van mijn buitenlaadstation zit los',
+    },
+  },
+
+  // ------- alarmes-exterieures -------
+  {
+    slug: 'alarme-ext-fausses-alertes-animaux',
+    categorySlug: 'alarmes-exterieures',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon alarme extérieure se déclenche à cause des animaux du jardin',
+      en: 'My outdoor alarm keeps going off because of garden wildlife',
+      de: 'Mein Außenalarm löst wegen Tieren im Garten aus',
+      es: 'Mi alarma exterior se dispara por los animales del jardín',
+      it: 'Il mio allarme esterno suona per gli animali del giardino',
+      nl: 'Mijn buitenalarm gaat af door dieren in de tuin',
+    },
+  },
+  {
+    slug: 'alarme-ext-batterie-vide',
+    categorySlug: 'alarmes-exterieures',
+    severity: 'critical',
+    query: {
+      fr: 'La batterie de mon alarme extérieure se vide en quelques jours',
+      en: 'The battery on my outdoor alarm runs flat within days',
+      de: 'Der Akku meines Außenalarms ist innerhalb weniger Tage leer',
+      es: 'La batería de mi alarma exterior se agota en unos días',
+      it: 'La batteria del mio allarme esterno si scarica in pochi giorni',
+      nl: 'De accu van mijn buitenalarm is binnen enkele dagen leeg',
+    },
+  },
+  {
+    slug: 'alarme-ext-sirene-faible',
+    categorySlug: 'alarmes-exterieures',
+    severity: 'moderate',
+    query: {
+      fr: 'La sirène de mon alarme extérieure est devenue trop faible',
+      en: 'The siren on my outdoor alarm has become too quiet',
+      de: 'Die Sirene meines Außenalarms ist zu leise geworden',
+      es: 'La sirena de mi alarma exterior se ha vuelto demasiado débil',
+      it: 'La sirena del mio allarme esterno è diventata troppo debole',
+      nl: 'De sirene van mijn buitenalarm is te zwak geworden',
     },
   },
 ] as const
