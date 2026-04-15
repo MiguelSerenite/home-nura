@@ -49,6 +49,15 @@ const smartKitchenLabel: Record<string, string> = {
   en: 'Smart kitchen',
 }
 
+const methodologieLabel: Record<string, string> = {
+  fr: 'Méthodologie',
+  de: 'Methodik',
+  es: 'Metodología',
+  it: 'Metodologia',
+  nl: 'Methodologie',
+  en: 'Methodology',
+}
+
 const openMenuLabel: Record<string, string> = {
   fr: 'Ouvrir le menu',
   de: 'Menü öffnen',
@@ -81,6 +90,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
   const about = aboutLabel[currentLang] ?? 'About'
   const comparatif = comparatifLabel[currentLang] ?? '2026 Comparison'
   const smartKitchen = smartKitchenLabel[currentLang] ?? 'Smart kitchen'
+  const methodologie = methodologieLabel[currentLang] ?? 'Methodology'
   const openMenu = openMenuLabel[currentLang] ?? 'Open menu'
   const closeMenu = closeMenuLabel[currentLang] ?? 'Close menu'
   const languageRegion = languageRegionLabel[currentLang] ?? 'Language / Region'
@@ -149,6 +159,9 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
             </Link>
             <Link href={`/${currentLang}/quiz`} className="hover:text-blue-600 transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">Quiz</Link>
             <Link href={`/${currentLang}/blog`} className="hover:text-blue-600 transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">Blog</Link>
+            <Link href={`/${currentLang}/methodologie`} className="hover:text-blue-600 transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
+              {methodologie}
+            </Link>
             <Link href={`/${currentLang}/a-propos`} className="hover:text-blue-600 transition-colors rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2">
               {about}
             </Link>
@@ -264,6 +277,14 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
                 className="flex items-center justify-between py-3 px-4 rounded-xl text-slate-900 font-semibold hover:bg-slate-50 transition-colors"
               >
                 <span>Blog</span>
+                <svg className="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="m9 18 6-6-6-6"/></svg>
+              </Link>
+              <Link
+                href={`/${currentLang}/methodologie`}
+                onClick={close}
+                className="flex items-center justify-between py-3 px-4 rounded-xl text-slate-900 font-semibold hover:bg-slate-50 transition-colors"
+              >
+                <span>{methodologie}</span>
                 <svg className="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="m9 18 6-6-6-6"/></svg>
               </Link>
               <Link

@@ -22,6 +22,9 @@ interface SiteFooterProps {
 const DEFAULT_LINKS = (lang: string): FooterLink[] => [
   { href: `/${lang}`, label: 'Home' },
   { href: `/${lang}/blog`, label: 'Blog' },
+  // Phase Z: every footer links to the methodology cornerstone so
+  // the EEAT page accumulates site-wide internal link equity.
+  { href: `/${lang}/methodologie`, label: 'Méthodologie' },
   { href: `/${lang}/mentions-legales`, label: 'Mentions légales' },
   { href: `/${lang}/politique-confidentialite`, label: 'Confidentialité' },
   { href: `/${lang}/politique-cookies`, label: 'Cookies' },

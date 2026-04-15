@@ -61,6 +61,18 @@ describe('app/sitemap.ts', () => {
     }
   })
 
+  // Phase Z: methodology cornerstone must be indexable and present
+  // in every locale. Removing it would knife the whole EEAT strategy.
+  it('includes /methodologie for every locale', () => {
+    for (const lang of LANGS) {
+      const url = `${BASE_URL}/${lang}/methodologie`
+      const hit = entries.find((e) => e.url === url)
+      expect(hit, `missing methodologie entry for ${lang}`).toBeDefined()
+      // Cornerstone priority must be >= a-propos (0.5); we want 0.9.
+      expect(hit?.priority).toBeGreaterThanOrEqual(0.85)
+    }
+  })
+
   it('assigns home the highest priority (1.0)', () => {
     const homeFr = entries.find((e) => e.url === `${BASE_URL}/fr`)
     expect(homeFr?.priority).toBe(1.0)

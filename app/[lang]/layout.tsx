@@ -19,22 +19,25 @@ const geistMono = Geist_Mono({
   display: "swap",
 });
 
+// Phase Z: homepage meta now reflects the parent editorial theme
+// "La Maison Connectée Européenne". Airfryers stay in the copy as
+// the flagship category but no longer define the scope.
 const metaTitles: Record<Lang, string> = {
-  fr: 'Home Nura | Les Meilleurs Airfryers Connectés en Europe',
-  en: 'Home Nura | Best Smart Air Fryers in Europe',
-  de: 'Home Nura | Die besten Smart Airfryer in Europa',
-  es: 'Home Nura | Las Mejores Freidoras de Aire Conectadas en Europa',
-  it: 'Home Nura | Le Migliori Friggitrici ad Aria Smart in Europa',
-  nl: 'Home Nura | De Beste Smart Airfryers in Europa',
+  fr: 'Home Nura | La Maison Connectée, testée pour l\'Europe',
+  en: 'Home Nura | The Smart Home, tested for Europe',
+  de: 'Home Nura | Das Smart Home, getestet für Europa',
+  es: 'Home Nura | El Hogar Conectado, probado para Europa',
+  it: 'Home Nura | La Casa Connessa, testata per l\'Europa',
+  nl: 'Home Nura | Het Slimme Huis, getest voor Europa',
 };
 
 const metaDescriptions: Record<Lang, string> = {
-  fr: 'Comparatif expert des meilleurs airfryers 2026. Guides d\'achat, tests et avis pour la France, Allemagne, UK, Espagne, Italie et Pays-Bas.',
-  en: 'Expert comparison of the best air fryers 2026. Buying guides, reviews and tests for the UK, France, Germany, Spain, Italy and Netherlands.',
-  de: 'Experten-Vergleich der besten Heißluftfritteusen 2026. Kaufberatung, Tests und Bewertungen für Deutschland, Frankreich, UK, Spanien, Italien und Niederlande.',
-  es: 'Comparativa experta de las mejores freidoras de aire 2026. Guías de compra, pruebas y opiniones para España, Francia, Alemania, UK, Italia y Países Bajos.',
-  it: 'Confronto esperto delle migliori friggitrici ad aria 2026. Guide all\'acquisto, test e recensioni per Italia, Francia, Germania, UK, Spagna e Paesi Bassi.',
-  nl: 'Expert vergelijking van de beste airfryers 2026. Koopgidsen, tests en reviews voor Nederland, Frankrijk, Duitsland, UK, Spanje en Italië.',
+  fr: 'Comparatifs indépendants de la maison connectée européenne : cuisine, énergie, sécurité, confort, entretien et extérieur. 6 marchés, une seule méthode.',
+  en: 'Independent reviews of the European smart home: kitchen, energy, security, comfort, cleaning and outdoors. Six markets, one shared method.',
+  de: 'Unabhängige Tests des europäischen Smart Home: Küche, Energie, Sicherheit, Komfort, Reinigung und Außenbereich. Sechs Märkte, eine Methode.',
+  es: 'Comparativas independientes del hogar conectado europeo: cocina, energía, seguridad, confort, limpieza y exterior. Seis mercados, un mismo método.',
+  it: 'Confronti indipendenti della casa connessa europea: cucina, energia, sicurezza, comfort, pulizia ed esterno. Sei mercati, un solo metodo.',
+  nl: 'Onafhankelijke vergelijkingen van het Europese slimme huis: keuken, energie, beveiliging, comfort, schoonmaak en buitenruimte. Zes markten, één methode.',
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {

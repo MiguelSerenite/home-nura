@@ -2,7 +2,7 @@ import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getNonce } from '@/lib/nonce'
-import { buildPageMetadata } from '@/lib/seo'
+import { buildPageMetadata, buildBreadcrumbListSchema } from '@/lib/seo'
 import { SMART_KITCHEN_CATEGORIES, type SmartKitchenCategory } from '@/lib/smart-kitchen-products'
 import { Kicker, SectionHero, SiteFooter, Button } from '@/components/ui'
 
@@ -247,14 +247,13 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
   const c = pageContent[safeLang] || pageContent.fr
   const nonce = await getNonce()
 
-  const breadcrumbSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: `https://homenura.com/${safeLang}` },
-      { '@type': 'ListItem', position: 2, name: c.breadcrumb, item: `https://homenura.com/${safeLang}/cuisine-connectee` },
-    ],
-  }
+  // Phase Y introduced the single-source breadcrumb helper; use it so
+  // any future schema.org change to BreadcrumbList propagates to every
+  // hub route from one place.
+  const breadcrumbSchema = buildBreadcrumbListSchema(safeLang, [
+    { name: 'Home', path: '' },
+    { name: c.breadcrumb, path: '/cuisine-connectee' },
+  ])
 
   const itemListSchema = {
     '@context': 'https://schema.org',
