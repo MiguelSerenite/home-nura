@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Geist, Geist_Mono } from "next/font/google";
 import { getNonce } from "@/lib/nonce";
+import { WebVitalsReporter } from "@/components/WebVitalsReporter";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -171,7 +172,10 @@ export default async function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
       </head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <WebVitalsReporter />
+        {children}
+      </body>
     </html>
   );
 }

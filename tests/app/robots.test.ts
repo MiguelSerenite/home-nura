@@ -4,23 +4,51 @@ import { BASE_URL } from '@/lib/seo'
 
 describe('app/robots.ts', () => {
   const result = robots()
+  const rules = Array.isArray(result.rules) ? result.rules : [result.rules]
+  const wildcardRule = rules.find((r) => r.userAgent === '*')
+  const wildcardDisallow = (
+    Array.isArray(wildcardRule?.disallow)
+      ? wildcardRule?.disallow
+      : [wildcardRule?.disallow]
+  ) as string[]
 
-  it('returns a single rule block for all crawlers', () => {
-    const rules = Array.isArray(result.rules) ? result.rules : [result.rules]
-    expect(rules).toHaveLength(1)
-    expect(rules[0].userAgent).toBe('*')
+  it('ends with a catch-all wildcard rule', () => {
+    expect(rules.length).toBeGreaterThanOrEqual(2)
+    expect(rules[rules.length - 1].userAgent).toBe('*')
   })
 
-  it('allows the root path', () => {
-    const rules = Array.isArray(result.rules) ? result.rules : [result.rules]
-    expect(rules[0].allow).toBe('/')
+  it('includes explicit rules for major AI crawlers', () => {
+    const userAgents = rules.map((r) => r.userAgent)
+    for (const bot of [
+      'GPTBot',
+      'ClaudeBot',
+      'anthropic-ai',
+      'Google-Extended',
+      'PerplexityBot',
+      'CCBot',
+      'Amazonbot',
+    ]) {
+      expect(userAgents, `missing explicit rule for ${bot}`).toContain(bot)
+    }
   })
 
-  it('disallows internal /api routes', () => {
-    const rules = Array.isArray(result.rules) ? result.rules : [result.rules]
-    const disallow = rules[0].disallow
-    const list = Array.isArray(disallow) ? disallow : [disallow]
-    expect(list).toContain('/api/')
+  it('every rule allows the root path', () => {
+    for (const rule of rules) {
+      expect(rule.allow).toBe('/')
+    }
+  })
+
+  it('every rule disallows /api/, /admin/ and /_next/', () => {
+    for (const rule of rules) {
+      const disallow = Array.isArray(rule.disallow) ? rule.disallow : [rule.disallow]
+      expect(disallow, `rule for ${rule.userAgent}`).toEqual(
+        expect.arrayContaining(['/api/', '/admin/', '/_next/'])
+      )
+    }
+  })
+
+  it('wildcard rule disallows internal /api routes', () => {
+    expect(wildcardDisallow).toContain('/api/')
   })
 
   it('points to the sitemap on the canonical host', () => {
@@ -34,10 +62,10 @@ describe('app/robots.ts', () => {
   it('does NOT disallow legal pages — they use meta-robots noindex', () => {
     // Disallowing in robots.txt would prevent Google from reading the
     // noindex directive. Must remain crawlable even though indexed: false.
-    const rules = Array.isArray(result.rules) ? result.rules : [result.rules]
-    const disallow = rules[0].disallow
-    const list = Array.isArray(disallow) ? disallow : [disallow]
-    const asString = list.join(' ')
-    expect(asString).not.toMatch(/mentions-legales|politique-confidentialite|politique-cookies/)
+    for (const rule of rules) {
+      const disallow = Array.isArray(rule.disallow) ? rule.disallow : [rule.disallow]
+      const asString = disallow.join(' ')
+      expect(asString).not.toMatch(/mentions-legales|politique-confidentialite|politique-cookies/)
+    }
   })
 })

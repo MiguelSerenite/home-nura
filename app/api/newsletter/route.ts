@@ -1,25 +1,9 @@
 import { NextResponse } from 'next/server'
+import { rateLimited, getClientIp } from '@/lib/rate-limit'
 
 // Rudimentary email validation — good enough for client-submitted data
 // before we'd hand it off to a real ESP (Mailchimp/Brevo/etc.).
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/
-
-// In-memory rate-limit: per-IP, 5 submissions per hour. Resets on cold start,
-// which is fine for a low-traffic site and works on the Edge / Node runtimes.
-const buckets = new Map<string, { count: number; resetAt: number }>()
-const WINDOW_MS = 60 * 60 * 1000
-const MAX_PER_WINDOW = 5
-
-function rateLimited(ip: string): boolean {
-  const now = Date.now()
-  const bucket = buckets.get(ip)
-  if (!bucket || bucket.resetAt < now) {
-    buckets.set(ip, { count: 1, resetAt: now + WINDOW_MS })
-    return false
-  }
-  bucket.count += 1
-  return bucket.count > MAX_PER_WINDOW
-}
 
 export async function POST(request: Request) {
   let body: unknown
@@ -43,12 +27,9 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: false, error: 'invalid_email' }, { status: 400 })
   }
 
-  const ip =
-    request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ||
-    request.headers.get('x-real-ip') ||
-    'unknown'
+  const ip = getClientIp(request.headers)
 
-  if (rateLimited(ip)) {
+  if (rateLimited(ip, { namespace: 'newsletter', windowMs: 60 * 60 * 1000, max: 5 })) {
     return NextResponse.json({ ok: false, error: 'rate_limited' }, { status: 429 })
   }
 

@@ -1,13 +1,26 @@
 // Static product data with Amazon product images and affiliate links
 // Images are sourced from Amazon CDN (per-country marketplace images)
 
-const partnerTags: Record<string, string> = {
+// Default affiliate tags — used when the matching AMAZON_TAG_{LANG}
+// env var isn't set. Keeps preview deployments working out-of-the-box
+// while letting production override per-locale (so rotating a tag
+// after an affiliate account change doesn't need a code deploy).
+//
+// Resolution order per locale: process.env.AMAZON_TAG_{LANG} →
+// DEFAULT_PARTNER_TAGS[lang] → DEFAULT_PARTNER_TAGS.fr.
+const DEFAULT_PARTNER_TAGS: Record<string, string> = {
   fr: 'homenuraen05-21',
   de: 'homenuraen00-21',
   en: 'homenuraen-21',
   es: 'homenuraen0a-21',
   it: 'homenuraen010-21',
   nl: 'homenuranl-21',
+}
+
+function resolvePartnerTag(lang: string): string {
+  const envTag = process.env[`AMAZON_TAG_${lang.toUpperCase()}`]
+  if (envTag && envTag.length > 0) return envTag
+  return DEFAULT_PARTNER_TAGS[lang] || DEFAULT_PARTNER_TAGS.fr
 }
 
 const domains: Record<string, string> = {
@@ -474,7 +487,7 @@ function cleanImages(urls: string[]): string[] {
 }
 
 export function getStaticProducts(lang: string) {
-  const tag = partnerTags[lang] || partnerTags.fr
+  const tag = resolvePartnerTag(lang)
   const domain = domains[lang] || domains.fr
 
   return staticProducts.map((p) => {
