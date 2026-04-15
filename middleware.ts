@@ -60,6 +60,29 @@ function negotiateLang(request: NextRequest): Lang {
   return DEFAULT_LANG
 }
 
+// Friendly-slug aliases that the Manus audit hit as 404s (e.g. /en/guide,
+// /en/about, /en/privacy). We keep the canonical slugs localised and 301
+// these common shortcuts so they land on the right page in every locale.
+const SLUG_ALIASES: Record<string, string> = {
+  // English intuition → canonical paths
+  guide: '/guides/airfryers',
+  guides: '/guides/airfryers',
+  about: '/a-propos',
+  'about-us': '/a-propos',
+  privacy: '/politique-confidentialite',
+  'privacy-policy': '/politique-confidentialite',
+  cookies: '/politique-cookies',
+  'cookie-policy': '/politique-cookies',
+  legal: '/mentions-legales',
+  'legal-notice': '/mentions-legales',
+  comparator: '/comparateur',
+  comparison: '/comparateur',
+  // Cross-language canonical-slug shortcuts
+  'sobre': '/a-propos',
+  'ueber-uns': '/a-propos',
+  'chi-siamo': '/chi-siamo', // unused but reserved
+}
+
 function generateNonce(): string {
   // 16 random bytes → base64 (≈ 24 chars), enough entropy for CSP nonces
   const bytes = new Uint8Array(16)
@@ -99,6 +122,21 @@ export function middleware(request: NextRequest) {
   ) {
     const url = request.nextUrl.clone()
     url.pathname = `/${DEFAULT_LANG}` + pathname.slice(3)
+    return NextResponse.redirect(url, 301)
+  }
+
+  // Friendly-slug redirects: /en/guide → /en/guides/airfryers, etc.
+  // Only kicks in for paths of the shape /{lang}/{alias} where {alias} is a
+  // known shortcut. Two-segment paths keep the canonical URL as the target
+  // so every redirect stays inside the current locale.
+  if (
+    isValidLang(langSegment) &&
+    segments.length === 3 &&
+    segments[2] in SLUG_ALIASES
+  ) {
+    const canonical = SLUG_ALIASES[segments[2]]
+    const url = request.nextUrl.clone()
+    url.pathname = `/${langSegment}${canonical}`
     return NextResponse.redirect(url, 301)
   }
 

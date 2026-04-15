@@ -169,10 +169,10 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <section className="px-6 py-16 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-slate-900 mb-4">
-            {dict.top_picks_title || 'Our Top Picks'}
+            {dict.top_picks_title || "This month's podium"}
           </h2>
           <p className="text-lg text-slate-600 text-center mb-12 max-w-2xl mx-auto">
-            {dict.top_picks_subtitle || 'Hand-tested and reviewed by our team of experts'}
+            {dict.top_picks_subtitle || 'The top three, hand-tested by our team'}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {products.slice(0, 3).map((product, i) => (

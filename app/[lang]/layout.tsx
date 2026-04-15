@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import { Geist, Geist_Mono } from "next/font/google";
 import { getNonce } from "@/lib/nonce";
 import "../globals.css";
@@ -100,6 +101,12 @@ export default async function RootLayout({
   params: Promise<{ lang: string }>;
 }>) {
   const { lang } = await params;
+  // Unknown lang segment → proper 404. Without this, Next.js falls through
+  // to the default dictionary and returns HTTP 200 on e.g. /xyz, which
+  // Google can index as a thin duplicate of the homepage.
+  if (!LANGUAGES.includes(lang)) {
+    notFound();
+  }
   const nonce = await getNonce();
 
   const organizationSchema = {
