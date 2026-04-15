@@ -1100,7 +1100,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'purificateurs-air',
     metaSilo: 'confort-air',
     searchVolume: 'high',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Purificateurs d\'Air',
       en: 'Air Purifiers',
@@ -1130,7 +1130,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'humidificateurs',
     metaSilo: 'confort-air',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Humidificateurs Connectés',
       en: 'Smart Humidifiers',
@@ -1160,7 +1160,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'deshumidificateurs',
     metaSilo: 'confort-air',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Déshumidificateurs Connectés',
       en: 'Smart Dehumidifiers',
@@ -1190,7 +1190,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'climatiseurs-mobiles',
     metaSilo: 'confort-air',
     searchVolume: 'high',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Climatiseurs Mobiles Connectés',
       en: 'Smart Portable Air Conditioners',
@@ -1220,7 +1220,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'ventilateurs',
     metaSilo: 'confort-air',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Ventilateurs Connectés',
       en: 'Smart Fans',
@@ -1250,7 +1250,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'chauffages-appoint',
     metaSilo: 'confort-air',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Chauffages d\'Appoint Connectés',
       en: 'Smart Space Heaters',
@@ -1280,7 +1280,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'stations-meteo',
     metaSilo: 'confort-air',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Stations Météo Connectées',
       en: 'Smart Weather Stations',
@@ -1310,7 +1310,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'diffuseurs',
     metaSilo: 'confort-air',
     searchVolume: 'low',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Diffuseurs d\'Huiles Essentielles',
       en: 'Smart Essential Oil Diffusers',
@@ -1340,7 +1340,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'reveils-lumiere',
     metaSilo: 'confort-air',
     searchVolume: 'medium',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Réveils Lumière & Luminothérapie',
       en: 'Wake-Up Lights & Lightboxes',
@@ -1370,7 +1370,7 @@ export const CATEGORIES: readonly Category[] = [
     slug: 'rideaux-automatises',
     metaSilo: 'confort-air',
     searchVolume: 'low',
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Rideaux Automatisés',
       en: 'Smart Curtains',

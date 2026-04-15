@@ -95,7 +95,7 @@ export const META_SILOS: readonly MetaSilo[] = [
     icon: 'Wind',
     flagship: false,
     priority: 4,
-    indexable: false,
+    indexable: true,
     title: {
       fr: 'Confort & Qualité d\'Air',
       en: 'Comfort & Air Quality',
