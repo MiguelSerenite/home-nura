@@ -1,4 +1,12 @@
 import type { NextConfig } from "next";
+import withBundleAnalyzer from "@next/bundle-analyzer";
+
+// Phase W: opt-in bundle size introspection. Run `npm run analyze` to get
+// client + server treemaps under .next/analyze — a regression probe we
+// can diff between PRs when we suspect a dep has bloated the bundle.
+const analyzer = withBundleAnalyzer({
+  enabled: process.env.ANALYZE === "true",
+});
 
 const nextConfig: NextConfig = {
   serverExternalPackages: ['amazon-paapi'],
@@ -24,4 +32,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default analyzer(nextConfig);

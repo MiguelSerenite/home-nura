@@ -53,6 +53,13 @@ jobs:
       - name: Vitest
         run: npm run test
 
+      # Phase W: fail the build on high/critical CVEs in production deps.
+      # Dev deps are excluded so a transitive dev-only advisory (eslint,
+      # vitest, etc.) can't block a merge — those still surface via
+      # Dependabot grouped PRs.
+      - name: npm audit (production deps, high+)
+        run: npm run audit:prod
+
   e2e-perf:
     name: E2E (smoke + a11y) + Lighthouse
     runs-on: ubuntu-latest
