@@ -18,9 +18,11 @@
  *
  * Phase YY (Period 12) mirrors the same pattern for securite-maison:
  * 10 indexable categories × 3 = 30 new problems. Phase ZZ (Period 13)
- * does the same for confort-air: another 10 × 3 = 30, running total
- * 123 problems × 6 locales = 738 troubleshooting pages. Phases AAA /
- * BBB finish the sequence with entretien-maison and outdoor-connecte.
+ * does the same for confort-air: another 10 × 3 = 30. Phase AAA
+ * (Period 14) ships entretien-maison: 8 indexable categories × 3 =
+ * 24 new problems, running total 147 problems × 6 locales = 882
+ * troubleshooting pages. Phase BBB finishes the sequence with
+ * outdoor-connecte.
  *
  * Severity drives the call-to-action:
  *   - minor     → inline quick fix + "still not working?" fallback
@@ -1725,6 +1727,338 @@ export const PROBLEMS: readonly Problem[] = [
       es: '¿Cómo volver a emparejar una cortina automatizada con su hub?',
       it: 'Come riaccoppiare una tenda automatizzata all\'hub?',
       nl: 'Hoe koppel ik een gemotoriseerd gordijn opnieuw met zijn hub?',
+    },
+  },
+
+  // ===================================================================
+  // Phase AAA — entretien-maison seed (8 categories × 3 = 24 problems)
+  // ===================================================================
+
+  // ------- aspirateurs-robots -------
+  {
+    slug: 'robot-aspirateur-se-perd',
+    categorySlug: 'aspirateurs-robots',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon aspirateur robot se perd dans la maison et ne rentre pas à la base',
+      en: 'My robot vacuum gets lost in the house and cannot return to base',
+      de: 'Mein Saugroboter verliert sich in der Wohnung und findet nicht zurück zur Basis',
+      es: 'Mi robot aspirador se pierde en la casa y no vuelve a la base',
+      it: 'Il mio robot aspirapolvere si perde in casa e non torna alla base',
+      nl: 'Mijn robotstofzuiger verdwaalt in huis en vindt het basisstation niet terug',
+    },
+  },
+  {
+    slug: 'robot-aspirateur-brosse-bloquee',
+    categorySlug: 'aspirateurs-robots',
+    severity: 'minor',
+    query: {
+      fr: 'La brosse principale de mon robot aspirateur est bloquée par des cheveux',
+      en: 'The main brush of my robot vacuum is jammed with hair',
+      de: 'Die Hauptbürste meines Saugroboters ist durch Haare blockiert',
+      es: 'El cepillo principal de mi robot aspirador está bloqueado por pelos',
+      it: 'La spazzola principale del mio robot aspirapolvere è bloccata dai capelli',
+      nl: 'De hoofdborstel van mijn robotstofzuiger zit vast door haren',
+    },
+  },
+  {
+    slug: 'robot-aspirateur-batterie-faible',
+    categorySlug: 'aspirateurs-robots',
+    severity: 'moderate',
+    query: {
+      fr: 'La batterie de mon robot aspirateur ne tient plus une cartographie complète',
+      en: 'My robot vacuum\'s battery no longer lasts a full mapping cycle',
+      de: 'Der Akku meines Saugroboters hält keine komplette Kartierung mehr durch',
+      es: 'La batería de mi robot aspirador ya no dura un mapeo completo',
+      it: 'La batteria del mio robot aspirapolvere non regge più una mappatura completa',
+      nl: 'De accu van mijn robotstofzuiger haalt geen volledige kaart meer',
+    },
+  },
+
+  // ------- aspirateurs-laveurs -------
+  {
+    slug: 'laveur-serpilliere-seche',
+    categorySlug: 'aspirateurs-laveurs',
+    severity: 'minor',
+    query: {
+      fr: 'Mon aspirateur laveur ne mouille plus la serpillère',
+      en: 'My wet-and-dry vacuum no longer wets the mop pad',
+      de: 'Mein Nass-Trocken-Sauger befeuchtet das Wischpad nicht mehr',
+      es: 'Mi aspirador lavador ya no humedece la mopa',
+      it: 'La mia lavapavimenti aspirante non bagna più il panno',
+      nl: 'Mijn nat-droogzuiger maakt de mopdoek niet meer nat',
+    },
+  },
+  {
+    slug: 'laveur-odeur-eau-sale',
+    categorySlug: 'aspirateurs-laveurs',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon aspirateur laveur dégage une mauvaise odeur d\'eau sale',
+      en: 'My wet-and-dry vacuum gives off a foul dirty-water smell',
+      de: 'Mein Nass-Trocken-Sauger verbreitet einen Schmutzwassergeruch',
+      es: 'Mi aspirador lavador desprende mal olor a agua sucia',
+      it: 'La mia lavapavimenti aspirante emana cattivo odore di acqua sporca',
+      nl: 'Mijn nat-droogzuiger geeft een vieze vuilwaterlucht af',
+    },
+  },
+  {
+    slug: 'laveur-rouleau-ne-tourne-plus',
+    categorySlug: 'aspirateurs-laveurs',
+    severity: 'moderate',
+    query: {
+      fr: 'Le rouleau de mon aspirateur laveur ne tourne plus',
+      en: 'The roller on my wet-and-dry vacuum is no longer spinning',
+      de: 'Die Walze meines Nass-Trocken-Saugers dreht sich nicht mehr',
+      es: 'El rodillo de mi aspirador lavador ya no gira',
+      it: 'Il rullo della mia lavapavimenti aspirante non gira più',
+      nl: 'De rol van mijn nat-droogzuiger draait niet meer',
+    },
+  },
+
+  // ------- laveurs-vitres -------
+  {
+    slug: 'laveur-vitres-tombe',
+    categorySlug: 'laveurs-vitres',
+    severity: 'critical',
+    query: {
+      fr: 'Mon robot laveur de vitres décroche et risque de tomber',
+      en: 'My window-cleaning robot keeps losing grip and nearly falls',
+      de: 'Mein Fensterputzroboter verliert Halt und droht herunterzufallen',
+      es: 'Mi robot limpiacristales se despega y casi cae',
+      it: 'Il mio robot lavavetri perde aderenza e rischia di cadere',
+      nl: 'Mijn ruitenrobot verliest grip en dreigt te vallen',
+    },
+  },
+  {
+    slug: 'laveur-vitres-traces',
+    categorySlug: 'laveurs-vitres',
+    severity: 'minor',
+    query: {
+      fr: 'Mon robot laveur de vitres laisse des traces après chaque passage',
+      en: 'My window-cleaning robot leaves streaks after every pass',
+      de: 'Mein Fensterputzroboter hinterlässt nach jedem Durchgang Schlieren',
+      es: 'Mi robot limpiacristales deja rayas después de cada pasada',
+      it: 'Il mio robot lavavetri lascia aloni dopo ogni passata',
+      nl: 'Mijn ruitenrobot laat strepen achter na elke beurt',
+    },
+  },
+  {
+    slug: 'laveur-vitres-bip-aspiration',
+    categorySlug: 'laveurs-vitres',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon robot laveur de vitres bipe en continu et signale une aspiration faible',
+      en: 'My window-cleaning robot beeps non-stop and reports low suction',
+      de: 'Mein Fensterputzroboter piept dauerhaft und meldet schwachen Saugdruck',
+      es: 'Mi robot limpiacristales pita sin parar y avisa de succión baja',
+      it: 'Il mio robot lavavetri emette bip continui e segnala aspirazione bassa',
+      nl: 'Mijn ruitenrobot piept continu en meldt te weinig zuigkracht',
+    },
+  },
+
+  // ------- aspirateurs-balais -------
+  {
+    slug: 'aspirateur-balai-autonomie-chute',
+    categorySlug: 'aspirateurs-balais',
+    severity: 'moderate',
+    query: {
+      fr: 'L\'autonomie de mon aspirateur balai a fortement chuté',
+      en: 'My cordless stick vacuum\'s runtime has dropped sharply',
+      de: 'Die Laufzeit meines Akku-Stielstaubsaugers ist stark gesunken',
+      es: 'La autonomía de mi aspirador escoba ha bajado mucho',
+      it: 'L\'autonomia della mia scopa elettrica è crollata',
+      nl: 'De looptijd van mijn steelstofzuiger is sterk gedaald',
+    },
+  },
+  {
+    slug: 'aspirateur-balai-coupe',
+    categorySlug: 'aspirateurs-balais',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon aspirateur balai se coupe tout seul après quelques minutes',
+      en: 'My cordless stick vacuum shuts off on its own after a few minutes',
+      de: 'Mein Akku-Stielstaubsauger schaltet sich nach wenigen Minuten aus',
+      es: 'Mi aspirador escoba se apaga solo tras unos minutos',
+      it: 'La mia scopa elettrica si spegne da sola dopo pochi minuti',
+      nl: 'Mijn steelstofzuiger slaat vanzelf af na enkele minuten',
+    },
+  },
+  {
+    slug: 'aspirateur-balai-filtre-odeur',
+    categorySlug: 'aspirateurs-balais',
+    severity: 'minor',
+    query: {
+      fr: 'Le filtre de mon aspirateur balai dégage une odeur désagréable',
+      en: 'The filter on my cordless stick vacuum gives off an unpleasant smell',
+      de: 'Der Filter meines Akku-Stielstaubsaugers verströmt einen unangenehmen Geruch',
+      es: 'El filtro de mi aspirador escoba desprende mal olor',
+      it: 'Il filtro della mia scopa elettrica emana un cattivo odore',
+      nl: 'De filter van mijn steelstofzuiger verspreidt een vieze geur',
+    },
+  },
+
+  // ------- nettoyeurs-vapeur -------
+  {
+    slug: 'nettoyeur-vapeur-fuite',
+    categorySlug: 'nettoyeurs-vapeur',
+    severity: 'critical',
+    query: {
+      fr: 'Mon nettoyeur vapeur fuit par le bouchon pendant la chauffe',
+      en: 'My steam cleaner leaks from the cap while heating up',
+      de: 'Mein Dampfreiniger leckt während des Aufheizens am Verschluss',
+      es: 'Mi limpiador a vapor pierde agua por el tapón al calentar',
+      it: 'Il mio pulitore a vapore perde dal tappo durante il riscaldamento',
+      nl: 'Mijn stoomreiniger lekt bij het opwarmen via de dop',
+    },
+  },
+  {
+    slug: 'nettoyeur-vapeur-ne-projette-plus',
+    categorySlug: 'nettoyeurs-vapeur',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon nettoyeur vapeur ne projette plus de vapeur malgré un réservoir plein',
+      en: 'My steam cleaner no longer produces any steam despite a full tank',
+      de: 'Mein Dampfreiniger stößt trotz vollem Tank keinen Dampf mehr aus',
+      es: 'Mi limpiador a vapor ya no expulsa vapor aunque el depósito esté lleno',
+      it: 'Il mio pulitore a vapore non emette più vapore nonostante il serbatoio pieno',
+      nl: 'Mijn stoomreiniger geeft geen stoom meer ondanks een vol reservoir',
+    },
+  },
+  {
+    slug: 'nettoyeur-vapeur-detartrage',
+    categorySlug: 'nettoyeurs-vapeur',
+    severity: 'minor',
+    query: {
+      fr: 'Comment détartrer un nettoyeur vapeur qui perd en puissance ?',
+      en: 'How do I descale a steam cleaner that is losing power?',
+      de: 'Wie entkalke ich einen Dampfreiniger, der an Leistung verliert?',
+      es: '¿Cómo descalcificar un limpiador a vapor que pierde potencia?',
+      it: 'Come decalcificare un pulitore a vapore che perde potenza?',
+      nl: 'Hoe ontkalk ik een stoomreiniger die aan kracht verliest?',
+    },
+  },
+
+  // ------- fers-centrales-vapeur -------
+  {
+    slug: 'centrale-vapeur-crachote',
+    categorySlug: 'fers-centrales-vapeur',
+    severity: 'moderate',
+    query: {
+      fr: 'Ma centrale vapeur crachote de l\'eau sur le linge',
+      en: 'My steam generator iron spits water onto the laundry',
+      de: 'Meine Dampfbügelstation spuckt Wasser auf die Wäsche',
+      es: 'Mi centro de planchado escupe agua sobre la ropa',
+      it: 'La mia caldaia a vapore sputa acqua sul bucato',
+      nl: 'Mijn stoomgenerator spuugt water op het wasgoed',
+    },
+  },
+  {
+    slug: 'fer-semelle-accroche',
+    categorySlug: 'fers-centrales-vapeur',
+    severity: 'minor',
+    query: {
+      fr: 'La semelle de mon fer à repasser accroche le tissu',
+      en: 'The soleplate of my iron keeps snagging the fabric',
+      de: 'Die Sohle meines Bügeleisens bleibt am Stoff hängen',
+      es: 'La suela de mi plancha se engancha con la tela',
+      it: 'La piastra del mio ferro da stiro si attacca al tessuto',
+      nl: 'De zool van mijn strijkijzer blijft aan de stof plakken',
+    },
+  },
+  {
+    slug: 'centrale-vapeur-voyant-anti-calc',
+    categorySlug: 'fers-centrales-vapeur',
+    severity: 'minor',
+    query: {
+      fr: 'Le voyant anti-calcaire de ma centrale vapeur reste allumé après détartrage',
+      en: 'The anti-scale light on my steam generator stays on after descaling',
+      de: 'Die Entkalkungsanzeige meiner Dampfstation bleibt nach dem Entkalken an',
+      es: 'El indicador antical de mi central de vapor sigue encendido tras descalcificar',
+      it: 'La spia anticalcare della mia caldaia resta accesa dopo la decalcificazione',
+      nl: 'Het antikalklampje van mijn stoomgenerator blijft aan na ontkalken',
+    },
+  },
+
+  // ------- lave-vaisselle-connectes -------
+  {
+    slug: 'lave-vaisselle-ne-seche-pas',
+    categorySlug: 'lave-vaisselle-connectes',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon lave-vaisselle connecté ne sèche plus la vaisselle en fin de cycle',
+      en: 'My smart dishwasher no longer dries the dishes at the end of the cycle',
+      de: 'Mein smarter Geschirrspüler trocknet am Zyklusende nicht mehr',
+      es: 'Mi lavavajillas inteligente ya no seca la vajilla al final del ciclo',
+      it: 'La mia lavastoviglie connessa non asciuga più a fine ciclo',
+      nl: 'Mijn slimme vaatwasser droogt het vaatwerk niet meer aan het einde van de cyclus',
+    },
+  },
+  {
+    slug: 'lave-vaisselle-code-erreur-e15',
+    categorySlug: 'lave-vaisselle-connectes',
+    severity: 'critical',
+    query: {
+      fr: 'Mon lave-vaisselle affiche le code erreur E15 et coupe l\'arrivée d\'eau',
+      en: 'My dishwasher shows error code E15 and cuts off the water supply',
+      de: 'Mein Geschirrspüler zeigt den Fehlercode E15 und stoppt die Wasserzufuhr',
+      es: 'Mi lavavajillas muestra el código de error E15 y corta el agua',
+      it: 'La mia lavastoviglie mostra il codice errore E15 e blocca l\'acqua',
+      nl: 'Mijn vaatwasser toont foutcode E15 en blokkeert de watertoevoer',
+    },
+  },
+  {
+    slug: 'lave-vaisselle-app-deconnecte',
+    categorySlug: 'lave-vaisselle-connectes',
+    severity: 'minor',
+    query: {
+      fr: 'L\'application de mon lave-vaisselle se déconnecte sans arrêt',
+      en: 'The app for my smart dishwasher keeps disconnecting',
+      de: 'Die App meines smarten Geschirrspülers verliert ständig die Verbindung',
+      es: 'La aplicación de mi lavavajillas se desconecta constantemente',
+      it: 'L\'app della mia lavastoviglie si disconnette in continuazione',
+      nl: 'De app van mijn slimme vaatwasser valt steeds uit',
+    },
+  },
+
+  // ------- lave-linge-connectes -------
+  {
+    slug: 'lave-linge-vibre-fort',
+    categorySlug: 'lave-linge-connectes',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon lave-linge connecté vibre très fort pendant l\'essorage',
+      en: 'My smart washing machine vibrates violently during the spin cycle',
+      de: 'Meine smarte Waschmaschine vibriert im Schleudergang sehr stark',
+      es: 'Mi lavadora inteligente vibra mucho durante el centrifugado',
+      it: 'La mia lavatrice connessa vibra molto durante la centrifuga',
+      nl: 'Mijn slimme wasmachine trilt hevig tijdens het centrifugeren',
+    },
+  },
+  {
+    slug: 'lave-linge-odeur-tambour',
+    categorySlug: 'lave-linge-connectes',
+    severity: 'minor',
+    query: {
+      fr: 'Une mauvaise odeur s\'échappe du tambour de mon lave-linge',
+      en: 'A bad smell is coming from my washing machine drum',
+      de: 'Aus der Trommel meiner Waschmaschine kommt ein schlechter Geruch',
+      es: 'Sale mal olor del tambor de mi lavadora',
+      it: 'Dal cestello della mia lavatrice esce un cattivo odore',
+      nl: 'Uit de trommel van mijn wasmachine komt een vieze lucht',
+    },
+  },
+  {
+    slug: 'lave-linge-ne-essore-plus',
+    categorySlug: 'lave-linge-connectes',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon lave-linge n\'essore plus et le linge reste trempé',
+      en: 'My washing machine no longer spins and the laundry stays soaked',
+      de: 'Meine Waschmaschine schleudert nicht mehr und die Wäsche bleibt nass',
+      es: 'Mi lavadora ya no centrifuga y la ropa queda empapada',
+      it: 'La mia lavatrice non centrifuga più e il bucato resta bagnato',
+      nl: 'Mijn wasmachine centrifugeert niet meer en het wasgoed blijft drijfnat',
     },
   },
 ] as const
