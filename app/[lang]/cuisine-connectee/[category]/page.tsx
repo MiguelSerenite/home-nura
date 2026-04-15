@@ -4,11 +4,13 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getNonce } from '@/lib/nonce'
 import ProductCard from '@/components/ProductCard'
+import FaqSection from '@/components/FaqSection'
 import {
   SMART_KITCHEN_CATEGORIES,
   getSmartKitchenProductsByCategory,
   type SmartKitchenCategory,
 } from '@/lib/smart-kitchen-products'
+import { getSmartKitchenFaqs, faqSectionTitles } from '@/lib/smart-kitchen-faqs'
 
 const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
@@ -339,6 +341,8 @@ export default async function CategoryPage({
   const nonce = await getNonce()
 
   const products = getSmartKitchenProductsByCategory(safeLang, safeCat)
+  const faqs = getSmartKitchenFaqs(safeLang, safeCat)
+  const faqTitle = faqSectionTitles[safeLang] || faqSectionTitles.fr
 
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
@@ -434,6 +438,9 @@ export default async function CategoryPage({
           </div>
         )}
       </section>
+
+      {/* FAQ — category-specific, emits FAQPage JSON-LD */}
+      <FaqSection faqs={faqs} title={faqTitle} nonce={nonce} />
 
       {/* Footer */}
       <footer className="bg-white border-t border-slate-100 py-12 px-6">
