@@ -17,10 +17,10 @@
  * with 6 locale strings, no code changes.
  *
  * Phase YY (Period 12) mirrors the same pattern for securite-maison:
- * 10 indexable categories × 3 = 30 new problems. Running total hits
- * 93 problems × 6 locales = 558 troubleshooting pages. Phases ZZ /
- * AAA / BBB keep the same rhythm for confort-air, entretien-maison
- * and outdoor-connecte respectively.
+ * 10 indexable categories × 3 = 30 new problems. Phase ZZ (Period 13)
+ * does the same for confort-air: another 10 × 3 = 30, running total
+ * 123 problems × 6 locales = 738 troubleshooting pages. Phases AAA /
+ * BBB finish the sequence with entretien-maison and outdoor-connecte.
  *
  * Severity drives the call-to-action:
  *   - minor     → inline quick fix + "still not working?" fallback
@@ -1311,6 +1311,420 @@ export const PROBLEMS: readonly Problem[] = [
       es: '¿Una caja fuerte inteligente es realmente ignífuga?',
       it: 'Una cassaforte intelligente è davvero ignifuga?',
       nl: 'Is een slimme kluis echt brandwerend?',
+    },
+  },
+
+  // ===================================================================
+  // Phase ZZ — confort-air seed (10 categories × 3 = 30 problems)
+  // ===================================================================
+
+  // ------- purificateurs-air -------
+  {
+    slug: 'purificateur-bruit-fort',
+    categorySlug: 'purificateurs-air',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon purificateur d\'air fait trop de bruit',
+      en: 'My air purifier is much too loud',
+      de: 'Mein Luftreiniger ist viel zu laut',
+      es: 'Mi purificador de aire hace demasiado ruido',
+      it: 'Il mio purificatore d\'aria fa troppo rumore',
+      nl: 'Mijn luchtreiniger maakt veel te veel lawaai',
+    },
+  },
+  {
+    slug: 'purificateur-filtre-rapide',
+    categorySlug: 'purificateurs-air',
+    severity: 'minor',
+    query: {
+      fr: 'Le filtre de mon purificateur d\'air sature en quelques semaines',
+      en: 'The filter in my air purifier clogs up within a few weeks',
+      de: 'Der Filter meines Luftreinigers ist nach wenigen Wochen verstopft',
+      es: 'El filtro de mi purificador de aire se satura en pocas semanas',
+      it: 'Il filtro del mio purificatore d\'aria si satura in poche settimane',
+      nl: 'Het filter van mijn luchtreiniger raakt binnen enkele weken verzadigd',
+    },
+  },
+  {
+    slug: 'purificateur-voyant-rouge',
+    categorySlug: 'purificateurs-air',
+    severity: 'moderate',
+    query: {
+      fr: 'Le voyant rouge de mon purificateur d\'air reste allumé en permanence',
+      en: 'The red warning light on my air purifier stays on all the time',
+      de: 'Die rote Warnleuchte meines Luftreinigers leuchtet ständig',
+      es: 'La luz roja de mi purificador de aire queda encendida de forma permanente',
+      it: 'La spia rossa del mio purificatore d\'aria resta sempre accesa',
+      nl: 'Het rode waarschuwingslampje van mijn luchtreiniger blijft altijd branden',
+    },
+  },
+
+  // ------- humidificateurs -------
+  {
+    slug: 'humidificateur-depot-blanc',
+    categorySlug: 'humidificateurs',
+    severity: 'minor',
+    query: {
+      fr: 'Mon humidificateur laisse un dépôt blanc sur les meubles',
+      en: 'My humidifier leaves a white residue on nearby furniture',
+      de: 'Mein Luftbefeuchter hinterlässt weißen Belag auf den Möbeln',
+      es: 'Mi humidificador deja un polvo blanco sobre los muebles',
+      it: 'Il mio umidificatore lascia un deposito bianco sui mobili',
+      nl: 'Mijn luchtbevochtiger laat een witte aanslag achter op het meubilair',
+    },
+  },
+  {
+    slug: 'humidificateur-ne-diffuse-plus',
+    categorySlug: 'humidificateurs',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon humidificateur ne diffuse plus de vapeur',
+      en: 'My humidifier is no longer releasing any mist',
+      de: 'Mein Luftbefeuchter gibt keinen Nebel mehr ab',
+      es: 'Mi humidificador ya no emite vapor',
+      it: 'Il mio umidificatore non emette più vapore',
+      nl: 'Mijn luchtbevochtiger geeft geen nevel meer af',
+    },
+  },
+  {
+    slug: 'humidificateur-odeur',
+    categorySlug: 'humidificateurs',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon humidificateur dégage une odeur désagréable',
+      en: 'My humidifier gives off an unpleasant smell',
+      de: 'Mein Luftbefeuchter verströmt einen unangenehmen Geruch',
+      es: 'Mi humidificador desprende un olor desagradable',
+      it: 'Il mio umidificatore emana un odore sgradevole',
+      nl: 'Mijn luchtbevochtiger verspreidt een onaangename geur',
+    },
+  },
+
+  // ------- deshumidificateurs -------
+  {
+    slug: 'deshumidificateur-bac-ne-remplit',
+    categorySlug: 'deshumidificateurs',
+    severity: 'moderate',
+    query: {
+      fr: 'Le bac de mon déshumidificateur ne se remplit presque plus',
+      en: 'The tank on my dehumidifier barely fills up anymore',
+      de: 'Der Behälter meines Luftentfeuchters füllt sich kaum noch',
+      es: 'El depósito de mi deshumidificador ya casi no se llena',
+      it: 'La vaschetta del mio deumidificatore non si riempie quasi più',
+      nl: 'Het reservoir van mijn luchtontvochtiger wordt bijna niet meer vol',
+    },
+  },
+  {
+    slug: 'deshumidificateur-bruit-compresseur',
+    categorySlug: 'deshumidificateurs',
+    severity: 'moderate',
+    query: {
+      fr: 'Le compresseur de mon déshumidificateur fait un bruit très fort',
+      en: 'My dehumidifier compressor has become very noisy',
+      de: 'Der Kompressor meines Luftentfeuchters ist sehr laut geworden',
+      es: 'El compresor de mi deshumidificador hace mucho ruido',
+      it: 'Il compressore del mio deumidificatore fa molto rumore',
+      nl: 'De compressor van mijn luchtontvochtiger maakt veel lawaai',
+    },
+  },
+  {
+    slug: 'deshumidificateur-consommation',
+    categorySlug: 'deshumidificateurs',
+    severity: 'minor',
+    query: {
+      fr: 'Combien consomme un déshumidificateur en fonctionnement continu ?',
+      en: 'How much power does a dehumidifier use when running continuously?',
+      de: 'Wie viel Strom verbraucht ein Luftentfeuchter im Dauerbetrieb?',
+      es: '¿Cuánto consume un deshumidificador funcionando sin parar?',
+      it: 'Quanto consuma un deumidificatore in funzionamento continuo?',
+      nl: 'Hoeveel stroom verbruikt een luchtontvochtiger bij continu gebruik?',
+    },
+  },
+
+  // ------- climatiseurs-mobiles -------
+  {
+    slug: 'climatiseur-mobile-ne-refroidit-plus',
+    categorySlug: 'climatiseurs-mobiles',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon climatiseur mobile ne refroidit plus la pièce',
+      en: 'My portable air conditioner no longer cools the room',
+      de: 'Meine mobile Klimaanlage kühlt den Raum nicht mehr',
+      es: 'Mi aire acondicionado portátil ya no enfría la habitación',
+      it: 'Il mio condizionatore portatile non raffredda più la stanza',
+      nl: 'Mijn mobiele airco koelt de kamer niet meer',
+    },
+  },
+  {
+    slug: 'climatiseur-mobile-gaine-chaud',
+    categorySlug: 'climatiseurs-mobiles',
+    severity: 'minor',
+    query: {
+      fr: 'La gaine de mon climatiseur mobile réchauffe la pièce au lieu de l\'évacuer',
+      en: 'The exhaust hose on my portable AC heats up the room instead of venting outside',
+      de: 'Der Abluftschlauch meiner mobilen Klimaanlage heizt den Raum auf statt nach draußen zu führen',
+      es: 'La manguera de mi aire acondicionado portátil calienta la habitación en lugar de evacuar el aire',
+      it: 'Il tubo del mio condizionatore portatile scalda la stanza invece di evacuare l\'aria',
+      nl: 'De afvoerslang van mijn mobiele airco verwarmt de kamer in plaats van hem naar buiten te voeren',
+    },
+  },
+  {
+    slug: 'climatiseur-mobile-fuite-eau',
+    categorySlug: 'climatiseurs-mobiles',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon climatiseur mobile fuit de l\'eau',
+      en: 'My portable air conditioner is leaking water',
+      de: 'Meine mobile Klimaanlage verliert Wasser',
+      es: 'Mi aire acondicionado portátil gotea agua',
+      it: 'Il mio condizionatore portatile perde acqua',
+      nl: 'Mijn mobiele airco lekt water',
+    },
+  },
+
+  // ------- ventilateurs -------
+  {
+    slug: 'ventilateur-connecte-ne-tourne-plus',
+    categorySlug: 'ventilateurs',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon ventilateur connecté ne tourne plus',
+      en: 'My smart fan no longer spins',
+      de: 'Mein smarter Ventilator dreht sich nicht mehr',
+      es: 'Mi ventilador inteligente ya no gira',
+      it: 'Il mio ventilatore intelligente non gira più',
+      nl: 'Mijn slimme ventilator draait niet meer',
+    },
+  },
+  {
+    slug: 'ventilateur-connecte-vibre',
+    categorySlug: 'ventilateurs',
+    severity: 'minor',
+    query: {
+      fr: 'Mon ventilateur connecté vibre anormalement',
+      en: 'My smart fan vibrates abnormally',
+      de: 'Mein smarter Ventilator vibriert ungewöhnlich stark',
+      es: 'Mi ventilador inteligente vibra de forma anómala',
+      it: 'Il mio ventilatore intelligente vibra in modo anomalo',
+      nl: 'Mijn slimme ventilator trilt abnormaal',
+    },
+  },
+  {
+    slug: 'ventilateur-telecommande-perdue',
+    categorySlug: 'ventilateurs',
+    severity: 'minor',
+    query: {
+      fr: 'J\'ai perdu la télécommande de mon ventilateur connecté, que faire ?',
+      en: 'I lost the remote for my smart fan — what can I do?',
+      de: 'Ich habe die Fernbedienung meines smarten Ventilators verloren — was tun?',
+      es: 'He perdido el mando de mi ventilador inteligente, ¿qué hago?',
+      it: 'Ho perso il telecomando del mio ventilatore intelligente, cosa faccio?',
+      nl: 'Ik ben de afstandsbediening van mijn slimme ventilator kwijt — wat nu?',
+    },
+  },
+
+  // ------- chauffages-appoint -------
+  {
+    slug: 'chauffage-appoint-coupe',
+    categorySlug: 'chauffages-appoint',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon chauffage d\'appoint connecté se coupe tout seul',
+      en: 'My smart space heater keeps shutting itself off',
+      de: 'Mein smarter Heizlüfter schaltet sich von selbst ab',
+      es: 'Mi calefactor inteligente se apaga solo',
+      it: 'La mia stufetta intelligente si spegne da sola',
+      nl: 'Mijn slimme bijverwarming slaat vanzelf uit',
+    },
+  },
+  {
+    slug: 'chauffage-appoint-odeur-brulee',
+    categorySlug: 'chauffages-appoint',
+    severity: 'critical',
+    query: {
+      fr: 'Mon chauffage d\'appoint dégage une odeur de brûlé',
+      en: 'My space heater is giving off a burning smell',
+      de: 'Mein Heizlüfter verströmt einen Brandgeruch',
+      es: 'Mi calefactor desprende olor a quemado',
+      it: 'La mia stufetta emette un odore di bruciato',
+      nl: 'Mijn bijverwarming geeft een brandlucht af',
+    },
+  },
+  {
+    slug: 'chauffage-appoint-efficace-piece',
+    categorySlug: 'chauffages-appoint',
+    severity: 'minor',
+    query: {
+      fr: 'Pour quelle taille de pièce faut-il choisir un chauffage d\'appoint ?',
+      en: 'What room size should I consider when picking a space heater?',
+      de: 'Für welche Raumgröße sollte ich einen Heizlüfter wählen?',
+      es: '¿Para qué tamaño de habitación hay que elegir un calefactor?',
+      it: 'Per quale dimensione di stanza scegliere una stufetta?',
+      nl: 'Voor welke kamergrootte moet ik een bijverwarming kiezen?',
+    },
+  },
+
+  // ------- stations-meteo -------
+  {
+    slug: 'station-meteo-sonde-ext-hs',
+    categorySlug: 'stations-meteo',
+    severity: 'moderate',
+    query: {
+      fr: 'La sonde extérieure de ma station météo ne remonte plus les données',
+      en: 'The outdoor sensor on my weather station no longer reports data',
+      de: 'Der Außensensor meiner Wetterstation überträgt keine Daten mehr',
+      es: 'El sensor exterior de mi estación meteorológica ya no envía datos',
+      it: 'La sonda esterna della mia stazione meteo non invia più dati',
+      nl: 'De buitensensor van mijn weerstation stuurt geen data meer door',
+    },
+  },
+  {
+    slug: 'station-meteo-calibration-pression',
+    categorySlug: 'stations-meteo',
+    severity: 'minor',
+    query: {
+      fr: 'Comment calibrer la pression de ma station météo connectée ?',
+      en: 'How do I calibrate the pressure reading on my smart weather station?',
+      de: 'Wie kalibriere ich den Luftdruck meiner smarten Wetterstation?',
+      es: '¿Cómo calibrar la presión de mi estación meteorológica inteligente?',
+      it: 'Come calibrare la pressione della mia stazione meteo intelligente?',
+      nl: 'Hoe kalibreer ik de luchtdruk van mijn slimme weerstation?',
+    },
+  },
+  {
+    slug: 'station-meteo-ecran-clignote',
+    categorySlug: 'stations-meteo',
+    severity: 'minor',
+    query: {
+      fr: 'L\'écran de ma station météo connectée clignote',
+      en: 'The display on my smart weather station keeps flickering',
+      de: 'Das Display meiner smarten Wetterstation flackert',
+      es: 'La pantalla de mi estación meteorológica inteligente parpadea',
+      it: 'Lo schermo della mia stazione meteo intelligente lampeggia',
+      nl: 'Het scherm van mijn slimme weerstation knippert',
+    },
+  },
+
+  // ------- diffuseurs -------
+  {
+    slug: 'diffuseur-ne-vaporise-plus',
+    categorySlug: 'diffuseurs',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon diffuseur d\'huiles essentielles ne vaporise plus',
+      en: 'My essential-oil diffuser no longer mists anything',
+      de: 'Mein Aromadiffuser gibt keinen Nebel mehr ab',
+      es: 'Mi difusor de aceites esenciales ya no vaporiza',
+      it: 'Il mio diffusore di oli essenziali non nebulizza più',
+      nl: 'Mijn aromadiffuser verneveld niets meer',
+    },
+  },
+  {
+    slug: 'diffuseur-voyant-eteint',
+    categorySlug: 'diffuseurs',
+    severity: 'minor',
+    query: {
+      fr: 'Le voyant LED de mon diffuseur reste éteint',
+      en: 'The LED indicator on my diffuser stays off',
+      de: 'Die LED-Anzeige meines Aromadiffusers bleibt aus',
+      es: 'El indicador LED de mi difusor permanece apagado',
+      it: 'La spia LED del mio diffusore resta spenta',
+      nl: 'De LED-indicator van mijn diffuser blijft uit',
+    },
+  },
+  {
+    slug: 'diffuseur-nettoyage',
+    categorySlug: 'diffuseurs',
+    severity: 'minor',
+    query: {
+      fr: 'Comment nettoyer un diffuseur d\'huiles essentielles sans l\'abîmer ?',
+      en: 'How do I clean an essential-oil diffuser without damaging it?',
+      de: 'Wie reinige ich einen Aromadiffuser, ohne ihn zu beschädigen?',
+      es: '¿Cómo limpiar un difusor de aceites esenciales sin dañarlo?',
+      it: 'Come pulire un diffusore di oli essenziali senza rovinarlo?',
+      nl: 'Hoe maak ik een aromadiffuser schoon zonder hem te beschadigen?',
+    },
+  },
+
+  // ------- reveils-lumiere -------
+  {
+    slug: 'reveil-lumiere-intensite-faible',
+    categorySlug: 'reveils-lumiere',
+    severity: 'minor',
+    query: {
+      fr: 'L\'intensité lumineuse de mon réveil lumière est trop faible le matin',
+      en: 'The light on my wake-up light is too dim in the morning',
+      de: 'Die Helligkeit meines Lichtweckers ist morgens zu schwach',
+      es: 'La intensidad de luz de mi despertador de luz es demasiado baja por la mañana',
+      it: 'L\'intensità luminosa della mia sveglia luminosa è troppo bassa al mattino',
+      nl: 'De lichtsterkte van mijn wake-up light is te zwak in de ochtend',
+    },
+  },
+  {
+    slug: 'reveil-lumiere-alarme-ne-sonne-pas',
+    categorySlug: 'reveils-lumiere',
+    severity: 'moderate',
+    query: {
+      fr: 'L\'alarme sonore de mon réveil lumière ne sonne plus',
+      en: 'The sound alarm on my wake-up light no longer goes off',
+      de: 'Der Ton-Wecker meines Lichtweckers klingelt nicht mehr',
+      es: 'La alarma sonora de mi despertador de luz ya no suena',
+      it: 'La sveglia sonora della mia sveglia luminosa non suona più',
+      nl: 'Het geluidsalarm van mijn wake-up light gaat niet meer af',
+    },
+  },
+  {
+    slug: 'reveil-lumiere-horloge-derive',
+    categorySlug: 'reveils-lumiere',
+    severity: 'minor',
+    query: {
+      fr: 'L\'horloge de mon réveil lumière dérive de plusieurs minutes par semaine',
+      en: 'The clock on my wake-up light drifts by several minutes each week',
+      de: 'Die Uhr meines Lichtweckers geht pro Woche um mehrere Minuten nach',
+      es: 'El reloj de mi despertador de luz se adelanta o atrasa varios minutos por semana',
+      it: 'L\'orologio della mia sveglia luminosa si sfalsa di diversi minuti ogni settimana',
+      nl: 'De klok van mijn wake-up light loopt elke week enkele minuten uit de pas',
+    },
+  },
+
+  // ------- rideaux-automatises -------
+  {
+    slug: 'rideau-auto-arrete-milieu',
+    categorySlug: 'rideaux-automatises',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon rideau automatisé s\'arrête en cours de course',
+      en: 'My motorised curtain stops mid-travel',
+      de: 'Mein automatisierter Vorhang bleibt auf halber Strecke stehen',
+      es: 'Mi cortina automatizada se detiene a mitad de recorrido',
+      it: 'La mia tenda automatizzata si ferma a metà corsa',
+      nl: 'Mijn gemotoriseerde gordijn stopt halverwege',
+    },
+  },
+  {
+    slug: 'rideau-auto-bruit-moteur',
+    categorySlug: 'rideaux-automatises',
+    severity: 'minor',
+    query: {
+      fr: 'Le moteur de mon rideau automatisé fait beaucoup de bruit',
+      en: 'The motor on my motorised curtain has become noisy',
+      de: 'Der Motor meines automatisierten Vorhangs ist sehr laut geworden',
+      es: 'El motor de mi cortina automatizada hace mucho ruido',
+      it: 'Il motore della mia tenda automatizzata fa molto rumore',
+      nl: 'De motor van mijn gemotoriseerde gordijn maakt veel lawaai',
+    },
+  },
+  {
+    slug: 'rideau-auto-reapparier',
+    categorySlug: 'rideaux-automatises',
+    severity: 'minor',
+    query: {
+      fr: 'Comment réapparier un rideau automatisé à son hub ?',
+      en: 'How do I re-pair a motorised curtain with its hub?',
+      de: 'Wie koppele ich einen automatisierten Vorhang erneut mit seinem Hub?',
+      es: '¿Cómo volver a emparejar una cortina automatizada con su hub?',
+      it: 'Come riaccoppiare una tenda automatizzata all\'hub?',
+      nl: 'Hoe koppel ik een gemotoriseerd gordijn opnieuw met zijn hub?',
     },
   },
 ] as const
