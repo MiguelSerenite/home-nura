@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { getNonce } from '@/lib/nonce'
 import Comparator from '@/components/Comparator'
 import { getSmartKitchenProducts } from '@/lib/smart-kitchen-products'
+import { SectionHero, SiteFooter } from '@/components/ui'
 
 const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
@@ -157,17 +158,12 @@ export default async function SmartKitchenComparatorPage({ params }: { params: P
       </nav>
 
       {/* Hero */}
-      <section className="max-w-4xl mx-auto px-6 pt-10 pb-12 text-center">
-        <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
-          {c.kicker}
-        </div>
-        <h1 className="text-4xl md:text-5xl font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">
-          {c.title}
-        </h1>
-        <p className="text-lg md:text-xl text-slate-500 mb-4">{c.subtitle}</p>
-        <p className="text-base text-slate-500 max-w-2xl mx-auto leading-relaxed">{c.intro}</p>
-        <div className="h-[2px] w-16 bg-blue-600 mx-auto mt-8"></div>
-      </section>
+      <SectionHero
+        kicker={c.kicker}
+        title={c.title}
+        subtitle={c.subtitle}
+        intro={c.intro}
+      />
 
       {/* Comparator */}
       <section className="max-w-6xl mx-auto px-4 md:px-6 pb-20">
@@ -175,19 +171,15 @@ export default async function SmartKitchenComparatorPage({ params }: { params: P
       </section>
 
       {/* Footer */}
-      <footer className="bg-white border-t border-slate-100 py-12 px-6">
-        <div className="max-w-7xl mx-auto text-center">
-          <div className="mt-2 flex flex-wrap justify-center gap-6 text-xs font-medium text-slate-400">
-            <Link href={`/${safeLang}`} className="hover:text-slate-600 transition-colors">Home</Link>
-            <Link href={`/${safeLang}/cuisine-connectee`} className="hover:text-slate-600 transition-colors">{c.breadcrumbRoot}</Link>
-            <Link href={`/${safeLang}/blog`} className="hover:text-slate-600 transition-colors">Blog</Link>
-            <Link href={`/${safeLang}/a-propos`} className="hover:text-slate-600 transition-colors">About</Link>
-          </div>
-          <div className="mt-4 text-xs font-bold text-slate-300 uppercase tracking-widest">
-            &copy; 2026 HOME NURA EUROPE
-          </div>
-        </div>
-      </footer>
+      <SiteFooter
+        currentLang={safeLang}
+        links={[
+          { href: `/${safeLang}`, label: 'Home' },
+          { href: `/${safeLang}/cuisine-connectee`, label: c.breadcrumbRoot },
+          { href: `/${safeLang}/blog`, label: 'Blog' },
+          { href: `/${safeLang}/a-propos`, label: 'About' },
+        ]}
+      />
     </div>
   )
 }

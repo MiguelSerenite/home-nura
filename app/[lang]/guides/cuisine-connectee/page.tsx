@@ -3,6 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getNonce } from '@/lib/nonce'
 import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
+import { Kicker, SiteFooter } from '@/components/ui'
 
 const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
@@ -420,26 +421,20 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
 
       {/* Hero */}
       <section className="max-w-4xl mx-auto px-6 pt-10 pb-16 text-center">
-        <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
-          {c.kicker}
-        </div>
+        <Kicker className="mb-5">{c.kicker}</Kicker>
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-[1.1] text-slate-900 mb-6">
           {c.title}
         </h1>
         <p className="text-lg md:text-xl text-slate-500 mb-5">{c.subtitle}</p>
         <p className="text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">{c.intro}</p>
         <div className="h-[2px] w-16 bg-blue-600 mx-auto mt-10"></div>
-        <div className="mt-6 text-[11px] font-bold tracking-[0.25em] uppercase text-slate-400">
-          {c.lastUpdated}
-        </div>
+        <Kicker variant="slate" size="sm" className="mt-6">{c.lastUpdated}</Kicker>
       </section>
 
       {/* Editorial dossier — 4 chapters */}
       <section className="max-w-3xl mx-auto px-6 pt-10 pb-24">
         <div className="text-center mb-16">
-          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
-            {c.dossierKicker}
-          </div>
+          <Kicker className="mb-5">{c.dossierKicker}</Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight text-slate-900 mb-5">
             {c.dossierTitle}
           </h2>
@@ -449,9 +444,7 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
         <div className="divide-y divide-slate-200 border-t border-b border-slate-200">
           {c.chapters.map((chapter, i) => (
             <article key={i} className="py-14 md:py-16 first:pt-10">
-              <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-4">
-                {chapter.num}
-              </div>
+              <Kicker className="mb-4">{chapter.num}</Kicker>
               <h3 className="text-2xl md:text-[1.875rem] font-bold tracking-tight leading-[1.2] text-slate-900 mb-5">
                 {chapter.title}
               </h3>
@@ -472,9 +465,7 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
       {/* 5 category cards */}
       <section className="max-w-6xl mx-auto px-6 pt-10 pb-24">
         <div className="text-center mb-14">
-          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
-            {c.categoriesKicker}
-          </div>
+          <Kicker className="mb-5">{c.categoriesKicker}</Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight text-slate-900 mb-5">
             {c.categoriesTitle}
           </h2>
@@ -489,9 +480,9 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
               href={`/${safeLang}/cuisine-connectee/${cat}`}
               className="group block rounded-2xl border border-slate-200 bg-white p-6 hover:shadow-md hover:border-blue-300 transition-all"
             >
-              <div className="text-[11px] font-bold tracking-[0.25em] uppercase text-blue-600 mb-3">
+              <Kicker size="sm" className="mb-3">
                 {String(idx + 1).padStart(2, '0')}
-              </div>
+              </Kicker>
               <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-700 transition-colors">
                 {categoryLabels[cat][safeLang] || categoryLabels[cat].fr}
               </h3>
@@ -505,19 +496,15 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
       </section>
 
       {/* Footer */}
-      <footer className="bg-white border-t border-slate-100 py-12 px-6">
-        <div className="max-w-7xl mx-auto text-center">
-          <div className="mt-2 flex flex-wrap justify-center gap-6 text-xs font-medium text-slate-500">
-            <Link href={`/${safeLang}`} className="hover:text-slate-700 transition-colors">Home</Link>
-            <Link href={`/${safeLang}/cuisine-connectee`} className="hover:text-slate-700 transition-colors">{c.breadcrumbRoot}</Link>
-            <Link href={`/${safeLang}/blog`} className="hover:text-slate-700 transition-colors">Blog</Link>
-            <Link href={`/${safeLang}/a-propos`} className="hover:text-slate-700 transition-colors">About</Link>
-          </div>
-          <div className="mt-4 text-xs font-bold text-slate-400 uppercase tracking-widest">
-            &copy; 2026 HOME NURA EUROPE
-          </div>
-        </div>
-      </footer>
+      <SiteFooter
+        currentLang={safeLang}
+        links={[
+          { href: `/${safeLang}`, label: 'Home' },
+          { href: `/${safeLang}/cuisine-connectee`, label: c.breadcrumbRoot },
+          { href: `/${safeLang}/blog`, label: 'Blog' },
+          { href: `/${safeLang}/a-propos`, label: 'About' },
+        ]}
+      />
     </div>
   )
 }

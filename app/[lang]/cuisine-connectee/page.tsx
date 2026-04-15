@@ -3,6 +3,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getNonce } from '@/lib/nonce'
 import { SMART_KITCHEN_CATEGORIES, type SmartKitchenCategory } from '@/lib/smart-kitchen-products'
+import { Kicker, SectionHero, SiteFooter, Button } from '@/components/ui'
 
 const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
@@ -316,17 +317,12 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
       </nav>
 
       {/* Hero */}
-      <section className="max-w-4xl mx-auto px-6 pt-10 pb-12 text-center">
-        <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
-          {c.kicker}
-        </div>
-        <h1 className="text-4xl md:text-5xl font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">
-          {c.title}
-        </h1>
-        <p className="text-lg md:text-xl text-slate-500 mb-4">{c.subtitle}</p>
-        <p className="text-base text-slate-500 max-w-2xl mx-auto leading-relaxed">{c.intro}</p>
-        <div className="h-[2px] w-16 bg-blue-600 mx-auto mt-8"></div>
-      </section>
+      <SectionHero
+        kicker={c.kicker}
+        title={c.title}
+        subtitle={c.subtitle}
+        intro={c.intro}
+      />
 
       {/* Categories grid */}
       <section className="max-w-6xl mx-auto px-4 md:px-6 pb-20">
@@ -344,9 +340,9 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
                 href={`/${safeLang}/cuisine-connectee/${slug}`}
                 className="group relative flex flex-col rounded-3xl border border-slate-200 bg-white p-6 transition-all hover:shadow-xl hover:-translate-y-1 hover:border-blue-200"
               >
-                <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600 mb-3">
+                <Kicker size="sm" className="mb-3">
                   {String(index + 1).padStart(2, '0')} · {c.categoryKicker}
-                </div>
+                </Kicker>
                 <h3 className="text-xl font-bold text-slate-900 leading-tight mb-3 group-hover:text-blue-700 transition-colors">
                   {cat.name}
                 </h3>
@@ -366,30 +362,23 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
           <p className="text-base md:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto mb-6">
             {c.comparatorDesc}
           </p>
-          <Link
-            href={`/${safeLang}/cuisine-connectee/comparateur`}
-            className="inline-flex items-center gap-2 rounded-full bg-blue-600 px-6 py-3 text-sm font-bold text-white transition-all hover:bg-blue-700 hover:shadow-lg"
-          >
+          <Button href={`/${safeLang}/cuisine-connectee/comparateur`}>
             <span>{c.comparatorCta}</span>
             <span aria-hidden="true">→</span>
-          </Link>
+          </Button>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-white border-t border-slate-100 py-12 px-6">
-        <div className="max-w-7xl mx-auto text-center">
-          <div className="mt-2 flex flex-wrap justify-center gap-6 text-xs font-medium text-slate-400">
-            <Link href={`/${safeLang}`} className="hover:text-slate-600 transition-colors">Home</Link>
-            <Link href={`/${safeLang}/guides/airfryers`} className="hover:text-slate-600 transition-colors">Guide</Link>
-            <Link href={`/${safeLang}/blog`} className="hover:text-slate-600 transition-colors">Blog</Link>
-            <Link href={`/${safeLang}/a-propos`} className="hover:text-slate-600 transition-colors">About</Link>
-          </div>
-          <div className="mt-4 text-xs font-bold text-slate-300 uppercase tracking-widest">
-            &copy; 2026 HOME NURA EUROPE
-          </div>
-        </div>
-      </footer>
+      <SiteFooter
+        currentLang={safeLang}
+        links={[
+          { href: `/${safeLang}`, label: 'Home' },
+          { href: `/${safeLang}/guides/airfryers`, label: 'Guide' },
+          { href: `/${safeLang}/blog`, label: 'Blog' },
+          { href: `/${safeLang}/a-propos`, label: 'About' },
+        ]}
+      />
     </div>
   )
 }
