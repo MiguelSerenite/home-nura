@@ -50,6 +50,38 @@ export interface StaticProduct {
   bestFor: Record<string, string>
   pros: Record<string, string[]>
   cons: Record<string, string[]>
+
+  // -------------------------------------------------------------------
+  // European differentiator fields — Phase Y scaffold.
+  //
+  // All optional. A product without any of these still renders
+  // correctly on every page (the surfaces that display them degrade
+  // gracefully). These get populated product-by-product as editorial
+  // reviews land, not in one big migration.
+  //
+  // Why these eight specifically: together they're the "only on a
+  // European smart-home site" moat. US-centric affiliate reviews
+  // don't talk about annual energy cost in euros, DSGVO posture,
+  // or whether the thing survives a cloud outage. We do. That's
+  // the EEAT argument.
+  // -------------------------------------------------------------------
+
+  /** Estimated annual energy cost in euros, at typical household usage. */
+  annualEnergyCostEur?: number
+  /** Official EU energy label class, where one exists (A, B, C, D, E, F, G). */
+  euEnergyLabel?: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G'
+  /** GDPR posture score 0-10 (10 = no cloud dependency, no tracking, EU data residency). */
+  gdprScore?: number
+  /** Free-text GDPR notes per locale (e.g. "cloud obligatoire, données hors UE"). */
+  gdprNotes?: Record<string, string>
+  /** Does the core product work if internet / cloud goes down? */
+  worksOffline?: boolean
+  /** Ships with EU-compatible plug (type C/E/F) out of the box? */
+  euPlugCompatible?: boolean
+  /** Which Amazon marketplaces currently list this ASIN. Used to hide "buy" on unsupported locales. */
+  availableMarketplaces?: readonly ('fr' | 'de' | 'en' | 'es' | 'it' | 'nl')[]
+  /** Certified Matter / Thread compatible (for relevant smart-home categories). */
+  matterCompatible?: boolean
 }
 
 export const staticProducts: StaticProduct[] = [

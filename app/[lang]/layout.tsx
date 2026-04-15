@@ -120,16 +120,27 @@ export default async function RootLayout({
       '@type': 'Country',
       name: COUNTRY_NAMES[l],
     })),
+    // Phase Y: knowsAbout reflects the 6 meta-silos under the parent
+    // editorial theme "The European Smart Home". Google uses knowsAbout
+    // to attribute entity authority — staying crisp about the pillars
+    // we own stops us from looking like a commodity review farm.
     knowsAbout: [
-      'Air Fryers',
+      'The European Smart Home',
       'Smart Kitchen Appliances',
+      'Energy & Home Automation',
+      'Home Security',
+      'Indoor Air Quality & Comfort',
+      'Smart Cleaning & Housekeeping',
+      'Smart Garden & Outdoor',
+      'Air Fryers',
       'Smart Multicookers',
       'Coffee Machines',
-      'Smart Kitchen Scales',
-      'Cooking Thermometers',
-      'Smart Plugs',
-      'Home Cooking',
-      'Kitchen Reviews',
+      'Smart Thermostats',
+      'Video Doorbells',
+      'Robot Vacuums',
+      'GDPR-Compliant Smart Home',
+      'Matter / Thread Compatibility',
+      'EU Energy Labels',
     ],
   };
 

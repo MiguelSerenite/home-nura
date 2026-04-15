@@ -3,6 +3,8 @@ import {
   buildPageMetadata,
   buildProductListSchema,
   buildArticleSchema,
+  buildBreadcrumbListSchema,
+  buildFaqPageSchema,
   getSocialProof,
   formatLastUpdated,
   SITE_LAST_UPDATED_ISO,
@@ -426,5 +428,110 @@ describe('formatLastUpdated', () => {
   it('falls back to French for unknown lang', () => {
     const out = formatLastUpdated('xx', '2026-04-14')
     expect(out.toLowerCase()).toMatch(/avril/)
+  })
+})
+
+// =====================================================================
+// Phase Y — BreadcrumbList schema builder
+// =====================================================================
+
+describe('buildBreadcrumbListSchema', () => {
+  it('emits a well-formed BreadcrumbList with 1-indexed positions', () => {
+    const schema = buildBreadcrumbListSchema('fr', [
+      { name: 'Accueil', path: '' },
+      { name: 'Cuisine Connectée', path: '/cuisine-connectee' },
+      { name: 'Airfryers', path: '/cuisine-connectee/airfryers' },
+    ])
+    expect(schema['@context']).toBe('https://schema.org')
+    expect(schema['@type']).toBe('BreadcrumbList')
+    expect(schema.itemListElement.length).toBe(3)
+    expect(schema.itemListElement[0].position).toBe(1)
+    expect(schema.itemListElement[2].position).toBe(3)
+  })
+
+  it('builds absolute URLs prefixed by BASE_URL/{lang}', () => {
+    const schema = buildBreadcrumbListSchema('en', [
+      { name: 'Home', path: '' },
+      { name: 'Smart Kitchen', path: '/cuisine-connectee' },
+    ])
+    expect(schema.itemListElement[0].item).toBe(`${BASE_URL}/en`)
+    expect(schema.itemListElement[1].item).toBe(
+      `${BASE_URL}/en/cuisine-connectee`
+    )
+  })
+
+  it('normalizes path="/" to the home URL (no trailing slash)', () => {
+    const schema = buildBreadcrumbListSchema('fr', [
+      { name: 'Accueil', path: '/' },
+    ])
+    expect(schema.itemListElement[0].item).toBe(`${BASE_URL}/fr`)
+  })
+
+  it('accepts paths without leading slash', () => {
+    const schema = buildBreadcrumbListSchema('de', [
+      { name: 'Start', path: '' },
+      { name: 'Küche', path: 'cuisine-connectee' },
+    ])
+    expect(schema.itemListElement[1].item).toBe(
+      `${BASE_URL}/de/cuisine-connectee`
+    )
+  })
+
+  it('falls back to fr when lang is unknown', () => {
+    const schema = buildBreadcrumbListSchema('xx', [
+      { name: 'Accueil', path: '' },
+    ])
+    expect(schema.itemListElement[0].item).toBe(`${BASE_URL}/fr`)
+  })
+})
+
+// =====================================================================
+// Phase Y — FAQPage schema builder
+// =====================================================================
+
+describe('buildFaqPageSchema', () => {
+  it('returns a well-formed FAQPage for a non-empty list', () => {
+    const schema = buildFaqPageSchema([
+      {
+        question: 'Quel airfryer choisir en 2026 ?',
+        answer:
+          'Notre choix dépend de la taille du foyer et du budget. Voir le comparatif complet.',
+      },
+      {
+        question: 'Un airfryer consomme-t-il beaucoup ?',
+        answer: 'Non, typiquement entre 0.7 et 1.2 kWh par cuisson.',
+      },
+    ])
+    expect(schema).toBeDefined()
+    expect(schema!['@context']).toBe('https://schema.org')
+    expect(schema!['@type']).toBe('FAQPage')
+    expect(schema!.mainEntity.length).toBe(2)
+    expect(schema!.mainEntity[0]['@type']).toBe('Question')
+    expect(schema!.mainEntity[0].acceptedAnswer['@type']).toBe('Answer')
+  })
+
+  it('returns undefined when the input list is empty', () => {
+    expect(buildFaqPageSchema([])).toBeUndefined()
+  })
+
+  it('filters out entries with empty question or answer', () => {
+    const schema = buildFaqPageSchema([
+      { question: '', answer: 'orphan answer' },
+      { question: 'orphan question', answer: '' },
+      { question: '   ', answer: '   ' },
+      { question: 'Real Q?', answer: 'Real A.' },
+    ])
+    expect(schema).toBeDefined()
+    expect(schema!.mainEntity.length).toBe(1)
+    expect(schema!.mainEntity[0].name).toBe('Real Q?')
+  })
+
+  it('returns undefined if every entry is filtered out', () => {
+    expect(
+      buildFaqPageSchema([
+        { question: '', answer: '' },
+        { question: '   ', answer: '   ' },
+      ])
+    ).toBeUndefined()
   })
 })

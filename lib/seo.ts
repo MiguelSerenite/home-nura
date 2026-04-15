@@ -338,6 +338,104 @@ export function buildArticleSchema(input: BuildArticleSchemaInput) {
   }
 }
 
+// ---------------------------------------------------------------------
+// BreadcrumbList schema builder (Phase Y)
+//
+// Every generated hub / category / review / best-for / troubleshooting
+// page ships a BreadcrumbList so the SERP shows the topical hierarchy
+// instead of a raw URL. Takes an ordered list of {name, path} items
+// starting from home (position 1) and walking down to the leaf page.
+//
+// Position is 1-indexed per schema.org spec. Path is language-relative
+// ('' = home, '/cuisine-connectee', '/cuisine-connectee/airfryers', …).
+// The builder prepends BASE_URL/{lang} automatically.
+// ---------------------------------------------------------------------
+
+export interface BreadcrumbItem {
+  /** Display label shown in the breadcrumb (already localized). */
+  name: string
+  /** Language-relative path. Empty string or '/' for the home node. */
+  path: string
+}
+
+export function buildBreadcrumbListSchema(
+  lang: string,
+  items: readonly BreadcrumbItem[]
+) {
+  const safeLang: Lang = isValidLang(lang) ? lang : 'fr'
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, i) => {
+      const normalizedPath =
+        item.path === '' || item.path === '/'
+          ? ''
+          : item.path.startsWith('/')
+            ? item.path
+            : `/${item.path}`
+      return {
+        '@type': 'ListItem',
+        position: i + 1,
+        name: item.name,
+        item: `${BASE_URL}/${safeLang}${normalizedPath}`,
+      }
+    }),
+  }
+}
+
+// ---------------------------------------------------------------------
+// FAQPage schema builder (Phase Y)
+//
+// Hub pages, category pages and troubleshooting pages (Moteur 4) all
+// ship a FAQ block near the bottom. This builder turns a simple
+// question/answer list into a schema.org FAQPage JSON-LD payload,
+// which Google surfaces as rich "People Also Ask" style snippets in
+// 2026 for French, English and German SERPs.
+//
+// Rules enforced by tests:
+//   - `question` must be non-empty
+//   - `answer` must be non-empty
+//   - a builder call with zero items returns undefined so consumers
+//     can skip the <script> tag entirely (Google demotes pages that
+//     emit empty FAQPage shells).
+// ---------------------------------------------------------------------
+
+export interface FaqItem {
+  question: string
+  answer: string
+}
+
+export function buildFaqPageSchema(
+  items: readonly FaqItem[]
+):
+  | {
+      '@context': 'https://schema.org'
+      '@type': 'FAQPage'
+      mainEntity: Array<{
+        '@type': 'Question'
+        name: string
+        acceptedAnswer: { '@type': 'Answer'; text: string }
+      }>
+    }
+  | undefined {
+  const clean = items.filter(
+    (it) => it.question.trim().length > 0 && it.answer.trim().length > 0
+  )
+  if (clean.length === 0) return undefined
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: clean.map((it) => ({
+      '@type': 'Question',
+      name: it.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: it.answer,
+      },
+    })),
+  }
+}
+
 export { BASE_URL }
 
 /**
