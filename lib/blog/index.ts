@@ -26,6 +26,15 @@ import { article as comparatifConnecte } from './articles/comparatif-airfryer-co
 import { article as ninjaVsPhilips } from './articles/ninja-vs-philips-quel-choisir'
 import { article as xxlGrandeFamille } from './articles/meilleur-airfryer-xxl-grande-famille'
 import { article as histoireAirfryer } from './articles/histoire-evolution-airfryer'
+import { article as guideRobotAspirateur } from './articles/guide-robot-aspirateur-2026'
+import { article as guideSecuriteMaison } from './articles/guide-securite-maison-connectee-2026'
+import { article as guideDomotiqueEnergie } from './articles/guide-domotique-economie-energie-2026'
+import { article as comparatifRobotLaveur } from './articles/comparatif-robot-aspirateur-laveur'
+import { article as robotPoilsAnimaux } from './articles/robot-aspirateur-poils-animaux'
+import { article as thermostatPompeChaleur } from './articles/thermostat-connecte-pompe-chaleur'
+import { article as comparatifSmartPlugs } from './articles/comparatif-smart-plugs-mesure-energie'
+import { article as comparatifCameraSurveillance } from './articles/comparatif-camera-surveillance-exterieure'
+import { article as sonnetteVideoSansAbo } from './articles/sonnette-video-sans-abonnement'
 
 const ALL_ARTICLES: BlogArticle[] = [
   testNinjaFoodiMax,
@@ -53,6 +62,15 @@ const ALL_ARTICLES: BlogArticle[] = [
   ninjaVsPhilips,
   xxlGrandeFamille,
   histoireAirfryer,
+  guideRobotAspirateur,
+  guideSecuriteMaison,
+  guideDomotiqueEnergie,
+  comparatifRobotLaveur,
+  robotPoilsAnimaux,
+  thermostatPompeChaleur,
+  comparatifSmartPlugs,
+  comparatifCameraSurveillance,
+  sonnetteVideoSansAbo,
 ]
 
 export function getAllArticles(): BlogArticle[] {

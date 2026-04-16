@@ -1,3 +1,8 @@
+export interface FAQItem {
+  question: Record<string, string>
+  answer: Record<string, string>
+}
+
 export interface BlogArticle {
   slug: string
   category: 'tests' | 'guides' | 'recettes' | 'comparatifs' | 'culture'
@@ -13,6 +18,7 @@ export interface BlogArticle {
   title: Record<string, string>
   excerpt: Record<string, string>
   content: Record<string, string> // HTML content per language
+  faq?: FAQItem[] // 5-8 FAQ items for FAQPage schema + on-page display
 }
 
 export interface ArticleMeta {

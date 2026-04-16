@@ -7,7 +7,7 @@ import { getDictionary } from '../../dictionaries'
 import { getArticleBySlug, getRelatedArticles, getAllSlugs } from '@/lib/blog'
 import { getStaticProducts } from '@/lib/products'
 import { enrichContentWithCTAs } from '@/lib/blog/enrichContent'
-import { CATEGORIES } from '@/lib/blog/types'
+import { CATEGORIES, type FAQItem } from '@/lib/blog/types'
 import { notFound } from 'next/navigation'
 import { getNonce } from '@/lib/nonce'
 import type { Metadata } from 'next'
@@ -116,6 +116,32 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
     ],
   }
 
+  // FAQ schema — only emitted when the article carries FAQ items.
+  // Google deprecated FAQ rich results for most sites (Aug 2023) but
+  // the structured data still boosts AI search visibility by ~3x
+  // (AI Overviews, Perplexity, ChatGPT citations).
+  const faqSchema = article.faq && article.faq.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: article.faq.map((faq: FAQItem) => ({
+      '@type': 'Question',
+      name: faq.question[lang] || faq.question.fr,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer[lang] || faq.answer.fr,
+      },
+    })),
+  } : null
+
+  const faqTitle: Record<string, string> = {
+    fr: 'Questions fréquentes',
+    en: 'Frequently Asked Questions',
+    de: 'Häufig gestellte Fragen',
+    es: 'Preguntas frecuentes',
+    it: 'Domande frequenti',
+    nl: 'Veelgestelde vragen',
+  }
+
   const dateFormatted = new Date(article.datePublished).toLocaleDateString(
     lang === 'en' ? 'en-GB' : lang, { day: 'numeric', month: 'long', year: 'numeric' }
   )
@@ -127,6 +153,9 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
       <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      {faqSchema && (
+        <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      )}
       <Navbar currentLang={lang} />
 
       <main id="main">
@@ -198,6 +227,24 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
           "
           dangerouslySetInnerHTML={{ __html: content }}
         />
+
+        {/* FAQ Section */}
+        {article.faq && article.faq.length > 0 && (
+          <section className="mt-12 mb-8">
+            <h2 className="text-2xl font-bold text-slate-900 mb-6">{faqTitle[lang] || faqTitle.fr}</h2>
+            <div className="space-y-4">
+              {article.faq.map((faq: FAQItem, idx: number) => (
+                <details key={idx} className="group bg-white border border-slate-200 rounded-xl shadow-sm" open={idx === 0}>
+                  <summary className="flex items-center justify-between cursor-pointer p-5 text-left font-semibold text-slate-900 hover:text-blue-600 transition-colors">
+                    <span>{faq.question[lang] || faq.question.fr}</span>
+                    <svg className="w-5 h-5 flex-shrink-0 ml-4 text-slate-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+                  </summary>
+                  <div className="px-5 pb-5 text-slate-600 leading-relaxed border-t border-slate-100 pt-4">{faq.answer[lang] || faq.answer.fr}</div>
+                </details>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Inline Product CTA - top pick */}
         <ArticleProductCTA products={topProducts.slice(0, 1)} lang={lang} variant="inline" />
