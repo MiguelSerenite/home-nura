@@ -21,9 +21,15 @@
  * does the same for confort-air: another 10 × 3 = 30. Phase AAA
  * (Period 14) ships entretien-maison: 8 × 3 = 24 new problems.
  * Phase BBB (Period 15) closes the sequence with outdoor-connecte:
- * 8 indexable categories × 3 = 24 new problems. Final running total:
- * 171 problems × 6 locales = 1026 troubleshooting pages across all
- * 6 silos. Every newly-indexable category now has Moteur 3 coverage.
+ * 8 indexable categories × 3 = 24 new problems. Running total after
+ * BBB: 171 problems × 6 locales = 1026 troubleshooting pages across
+ * all 6 silos.
+ *
+ * Phase GGG (Period 18) densifies the two lightest silos: entretien-
+ * maison and outdoor-connecte move from 3→5 problems per category,
+ * matching the cuisine-connectee flagship density from Phase KK.
+ * 2 × 8 categories × 2 new problems = 32 new entries, +192 URLs.
+ * Final running total: 203 problems × 6 locales = 1218 pages.
  *
  * Severity drives the call-to-action:
  *   - minor     → inline quick fix + "still not working?" fallback
@@ -2392,6 +2398,462 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La sirena de mi alarma exterior se ha vuelto demasiado débil',
       it: 'La sirena del mio allarme esterno è diventata troppo debole',
       nl: 'De sirene van mijn buitenalarm is te zwak geworden',
+    },
+  },
+
+  // ===================================================================
+  // Phase GGG — entretien-maison densification (8 cats × 2 = 16 new)
+  // ===================================================================
+
+  // ------- aspirateurs-robots (4th & 5th) -------
+  {
+    slug: 'robot-aspirateur-capteur-falaise-bloque',
+    categorySlug: 'aspirateurs-robots',
+    severity: 'minor',
+    query: {
+      fr: 'Mon aspirateur robot refuse de passer les seuils de porte à cause du capteur anti-chute',
+      en: 'My robot vacuum refuses to cross door thresholds because of the cliff sensor',
+      de: 'Mein Saugroboter weigert sich wegen des Absturzsensors Türschwellen zu überqueren',
+      es: 'Mi robot aspirador se niega a cruzar umbrales por el sensor anticaída',
+      it: 'Il mio robot aspirapolvere rifiuta di superare le soglie a causa del sensore anti-caduta',
+      nl: 'Mijn robotstofzuiger weigert drempels over te steken vanwege de valsensor',
+    },
+  },
+  {
+    slug: 'robot-aspirateur-wifi-deconnexion',
+    categorySlug: 'aspirateurs-robots',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon aspirateur robot se déconnecte du Wi-Fi toutes les quelques heures',
+      en: 'My robot vacuum keeps disconnecting from Wi-Fi every few hours',
+      de: 'Mein Saugroboter trennt sich alle paar Stunden vom WLAN',
+      es: 'Mi robot aspirador se desconecta del Wi-Fi cada pocas horas',
+      it: 'Il mio robot aspirapolvere si disconnette dal Wi-Fi ogni poche ore',
+      nl: 'Mijn robotstofzuiger verliest elke paar uur de Wi-Fi-verbinding',
+    },
+  },
+
+  // ------- aspirateurs-laveurs (4th & 5th) -------
+  {
+    slug: 'laveur-traces-blanches-sol',
+    categorySlug: 'aspirateurs-laveurs',
+    severity: 'minor',
+    query: {
+      fr: 'Mon aspirateur laveur laisse des traces blanches sur le carrelage après le passage',
+      en: 'My wet-and-dry vacuum leaves white streaks on tiles after cleaning',
+      de: 'Mein Nass-Trocken-Sauger hinterlässt weiße Streifen auf den Fliesen',
+      es: 'Mi aspirador lavador deja marcas blancas en las baldosas tras pasar',
+      it: 'La mia lavapavimenti aspirante lascia aloni bianchi sulle piastrelle',
+      nl: 'Mijn nat-droogzuiger laat witte strepen achter op de tegels',
+    },
+  },
+  {
+    slug: 'laveur-reservoir-eau-fuit',
+    categorySlug: 'aspirateurs-laveurs',
+    severity: 'moderate',
+    query: {
+      fr: 'Le réservoir d\'eau propre de mon aspirateur laveur fuit quand il est en charge',
+      en: 'The clean water tank of my wet-and-dry vacuum leaks while docked',
+      de: 'Der Frischwassertank meines Nass-Trocken-Saugers leckt beim Laden',
+      es: 'El depósito de agua limpia de mi aspirador lavador gotea al cargar',
+      it: 'Il serbatoio dell\'acqua pulita della mia lavapavimenti perde durante la ricarica',
+      nl: 'Het schoonwatertank van mijn nat-droogzuiger lekt tijdens het laden',
+    },
+  },
+
+  // ------- laveurs-vitres (4th & 5th) -------
+  {
+    slug: 'laveur-vitres-trace-centrale',
+    categorySlug: 'laveurs-vitres',
+    severity: 'minor',
+    query: {
+      fr: 'Mon robot laveur de vitres laisse une trace au centre de la vitre à chaque passage',
+      en: 'My window-cleaning robot leaves a streak in the centre of the glass every pass',
+      de: 'Mein Fensterputzroboter hinterlässt bei jedem Durchgang einen Streifen in der Glasmitte',
+      es: 'Mi robot limpiacristales deja una marca en el centro del cristal en cada pasada',
+      it: 'Il mio robot lavavetri lascia un alone al centro del vetro a ogni passata',
+      nl: 'Mijn raamreinigingsrobot laat elke keer een streep in het midden van het glas achter',
+    },
+  },
+  {
+    slug: 'laveur-vitres-ventouse-faiblit',
+    categorySlug: 'laveurs-vitres',
+    severity: 'critical',
+    query: {
+      fr: 'La ventouse de mon robot laveur de vitres perd de l\'aspiration et l\'appareil glisse',
+      en: 'The suction pad on my window-cleaning robot is losing grip and the unit slides',
+      de: 'Der Saugnapf meines Fensterputzroboters verliert Halt und das Gerät rutscht ab',
+      es: 'La ventosa de mi robot limpiacristales pierde agarre y el aparato se desliza',
+      it: 'La ventosa del mio robot lavavetri perde aderenza e il dispositivo scivola',
+      nl: 'De zuignap van mijn raamrobot verliest grip en het apparaat glijdt weg',
+    },
+  },
+
+  // ------- aspirateurs-balais (4th & 5th) -------
+  {
+    slug: 'balai-aspirateur-bruit-aigu',
+    categorySlug: 'aspirateurs-balais',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon aspirateur balai émet un sifflement aigu en mode puissance maximale',
+      en: 'My cordless stick vacuum makes a high-pitched whistle on max power',
+      de: 'Mein Akku-Staubsauger pfeift im Maximalmodus schrill',
+      es: 'Mi aspirador escoba emite un silbido agudo en potencia máxima',
+      it: 'La mia scopa elettrica emette un fischio acuto in modalità massima potenza',
+      nl: 'Mijn snoerloze steelstofzuiger fluit schril op maximaal vermogen',
+    },
+  },
+  {
+    slug: 'balai-aspirateur-led-clignote',
+    categorySlug: 'aspirateurs-balais',
+    severity: 'minor',
+    query: {
+      fr: 'Le voyant LED de mon aspirateur balai clignote rouge et l\'appareil ne démarre plus',
+      en: 'The LED indicator on my stick vacuum flashes red and the unit will not start',
+      de: 'Die LED meines Akku-Staubsaugers blinkt rot und das Gerät startet nicht mehr',
+      es: 'El indicador LED de mi aspirador escoba parpadea en rojo y no arranca',
+      it: 'Il LED della mia scopa elettrica lampeggia rosso e il dispositivo non si accende',
+      nl: 'De LED van mijn steelstofzuiger knippert rood en het apparaat start niet meer',
+    },
+  },
+
+  // ------- nettoyeurs-vapeur (4th & 5th) -------
+  {
+    slug: 'nettoyeur-vapeur-crachotement',
+    categorySlug: 'nettoyeurs-vapeur',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon nettoyeur vapeur crache de l\'eau au lieu de la vapeur sèche',
+      en: 'My steam cleaner spits water instead of dry steam',
+      de: 'Mein Dampfreiniger spuckt Wasser statt Trockendampf',
+      es: 'Mi limpiador a vapor escupe agua en lugar de vapor seco',
+      it: 'Il mio pulitore a vapore sputa acqua al posto del vapore secco',
+      nl: 'Mijn stoomreiniger spuugt water in plaats van droge stoom',
+    },
+  },
+  {
+    slug: 'nettoyeur-vapeur-calcaire-buse',
+    categorySlug: 'nettoyeurs-vapeur',
+    severity: 'minor',
+    query: {
+      fr: 'La buse de mon nettoyeur vapeur est bouchée par le calcaire',
+      en: 'The nozzle on my steam cleaner is blocked by limescale',
+      de: 'Die Düse meines Dampfreinigers ist durch Kalk verstopft',
+      es: 'La boquilla de mi limpiador a vapor está obstruida por la cal',
+      it: 'L\'ugello del mio pulitore a vapore è ostruito dal calcare',
+      nl: 'De nozzle van mijn stoomreiniger zit verstopt door kalk',
+    },
+  },
+
+  // ------- fers-centrales-vapeur (4th & 5th) -------
+  {
+    slug: 'centrale-vapeur-goutte-marron',
+    categorySlug: 'fers-centrales-vapeur',
+    severity: 'moderate',
+    query: {
+      fr: 'Ma centrale vapeur crache des gouttes marron qui tachent le linge',
+      en: 'My steam generator iron spits brown drops that stain clothes',
+      de: 'Meine Dampfbügelstation spritzt braune Tropfen, die Wäsche verfärben',
+      es: 'Mi centro de planchado escupe gotas marrones que manchan la ropa',
+      it: 'La mia caldaia a vapore sputa gocce marroni che macchiano i tessuti',
+      nl: 'Mijn stoomgenerator spuugt bruine druppels die vlekken op kleding achterlaten',
+    },
+  },
+  {
+    slug: 'centrale-vapeur-semelle-colle',
+    categorySlug: 'fers-centrales-vapeur',
+    severity: 'minor',
+    query: {
+      fr: 'La semelle de ma centrale vapeur colle au tissu et laisse des traces brillantes',
+      en: 'The soleplate of my steam generator iron sticks to fabric and leaves shiny marks',
+      de: 'Die Sohle meiner Dampfbügelstation klebt am Stoff und hinterlässt glänzende Spuren',
+      es: 'La suela de mi centro de planchado se pega a la tela y deja marcas brillantes',
+      it: 'La piastra della mia caldaia a vapore si attacca al tessuto e lascia segni lucidi',
+      nl: 'De zoolplaat van mijn stoomgenerator plakt aan de stof en laat glimmende afdrukken achter',
+    },
+  },
+
+  // ------- lave-vaisselle-connectes (4th & 5th) -------
+  {
+    slug: 'lave-vaisselle-vaisselle-humide',
+    categorySlug: 'lave-vaisselle-connectes',
+    severity: 'minor',
+    query: {
+      fr: 'Mon lave-vaisselle connecté laisse la vaisselle trempée à la fin du cycle de séchage',
+      en: 'My smart dishwasher leaves dishes soaking wet after the drying cycle',
+      de: 'Mein vernetzter Geschirrspüler lässt das Geschirr nach dem Trocknen noch nass',
+      es: 'Mi lavavajillas conectado deja la vajilla empapada tras el ciclo de secado',
+      it: 'La mia lavastoviglie smart lascia i piatti bagnati dopo il ciclo di asciugatura',
+      nl: 'Mijn slimme vaatwasser laat de vaat drijfnat achter na het droogprogramma',
+    },
+  },
+  {
+    slug: 'lave-vaisselle-pastille-intacte',
+    categorySlug: 'lave-vaisselle-connectes',
+    severity: 'moderate',
+    query: {
+      fr: 'La pastille de mon lave-vaisselle connecté ne se dissout pas et reste intacte',
+      en: 'The detergent tablet in my smart dishwasher does not dissolve and stays intact',
+      de: 'Die Spülmaschinentablette in meinem vernetzten Geschirrspüler löst sich nicht auf',
+      es: 'La pastilla de mi lavavajillas conectado no se disuelve y queda intacta',
+      it: 'La pastiglia della mia lavastoviglie smart non si scioglie e resta intatta',
+      nl: 'De vaatwastablet in mijn slimme vaatwasser lost niet op en blijft heel',
+    },
+  },
+
+  // ------- lave-linge-connectes (4th & 5th) -------
+  {
+    slug: 'lave-linge-vibrations-excessives',
+    categorySlug: 'lave-linge-connectes',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon lave-linge connecté vibre excessivement et se déplace pendant l\'essorage',
+      en: 'My smart washing machine vibrates excessively and walks during the spin cycle',
+      de: 'Meine vernetzte Waschmaschine vibriert stark und wandert beim Schleudern',
+      es: 'Mi lavadora conectada vibra excesivamente y se desplaza durante el centrifugado',
+      it: 'La mia lavatrice smart vibra eccessivamente e si sposta durante la centrifuga',
+      nl: 'Mijn slimme wasmachine trilt hevig en loopt weg tijdens het centrifugeren',
+    },
+  },
+  {
+    slug: 'lave-linge-odeur-moisi-joint',
+    categorySlug: 'lave-linge-connectes',
+    severity: 'minor',
+    query: {
+      fr: 'Le joint de hublot de mon lave-linge connecté dégage une odeur de moisi persistante',
+      en: 'The door seal on my smart washing machine gives off a persistent musty smell',
+      de: 'Die Türmanschette meiner vernetzten Waschmaschine riecht dauerhaft muffig',
+      es: 'La goma de la puerta de mi lavadora conectada desprende un olor a humedad persistente',
+      it: 'La guarnizione dell\'oblò della mia lavatrice smart emana un persistente odore di muffa',
+      nl: 'De deurrubber van mijn slimme wasmachine geeft een aanhoudende muffe geur af',
+    },
+  },
+
+  // ===================================================================
+  // Phase GGG — outdoor-connecte densification (8 cats × 2 = 16 new)
+  // ===================================================================
+
+  // ------- tondeuses-robots (4th & 5th) -------
+  {
+    slug: 'tondeuse-robot-hauteur-coupe-irreguliere',
+    categorySlug: 'tondeuses-robots',
+    severity: 'minor',
+    query: {
+      fr: 'Ma tondeuse robot coupe l\'herbe de manière irrégulière avec des bandes plus hautes',
+      en: 'My robot mower cuts the grass unevenly leaving higher strips',
+      de: 'Mein Mähroboter mäht ungleichmäßig und lässt höhere Streifen stehen',
+      es: 'Mi robot cortacésped corta el césped de forma irregular dejando franjas más altas',
+      it: 'Il mio robot tagliaerba taglia l\'erba in modo irregolare lasciando strisce più alte',
+      nl: 'Mijn robotmaaier maait ongelijkmatig en laat hogere stroken staan',
+    },
+  },
+  {
+    slug: 'tondeuse-robot-lame-usee-vite',
+    categorySlug: 'tondeuses-robots',
+    severity: 'moderate',
+    query: {
+      fr: 'Les lames de ma tondeuse robot s\'usent anormalement vite et l\'herbe est arrachée',
+      en: 'The blades on my robot mower wear out abnormally fast and tear the grass',
+      de: 'Die Klingen meines Mähroboters verschleißen ungewöhnlich schnell und reißen das Gras',
+      es: 'Las cuchillas de mi robot cortacésped se desgastan anormalmente rápido y arrancan el césped',
+      it: 'Le lame del mio robot tagliaerba si consumano troppo in fretta e strappano l\'erba',
+      nl: 'De messen van mijn robotmaaier slijten abnormaal snel en scheuren het gras',
+    },
+  },
+
+  // ------- arrosage-connecte (4th & 5th) -------
+  {
+    slug: 'arrosage-programmation-decalee',
+    categorySlug: 'arrosage-connecte',
+    severity: 'minor',
+    query: {
+      fr: 'Mon système d\'arrosage connecté se déclenche à la mauvaise heure malgré la programmation',
+      en: 'My smart irrigation system triggers at the wrong time despite the schedule',
+      de: 'Mein smartes Bewässerungssystem startet trotz Programmierung zur falschen Uhrzeit',
+      es: 'Mi sistema de riego conectado se activa a la hora equivocada pese a la programación',
+      it: 'Il mio sistema di irrigazione smart si attiva all\'ora sbagliata nonostante la programmazione',
+      nl: 'Mijn slim irrigatiesysteem gaat op het verkeerde tijdstip aan ondanks de planning',
+    },
+  },
+  {
+    slug: 'arrosage-capteur-humidite-faux',
+    categorySlug: 'arrosage-connecte',
+    severity: 'moderate',
+    query: {
+      fr: 'Le capteur d\'humidité de mon arrosage connecté donne des valeurs aberrantes',
+      en: 'The soil moisture sensor of my smart irrigation gives wildly wrong readings',
+      de: 'Der Feuchtigkeitssensor meiner smarten Bewässerung liefert völlig falsche Werte',
+      es: 'El sensor de humedad de mi riego conectado da valores absurdos',
+      it: 'Il sensore di umidità del mio irrigatore smart fornisce valori completamente errati',
+      nl: 'De vochtigheidssensor van mijn slimme irrigatie geeft compleet foute waarden',
+    },
+  },
+
+  // ------- eclairage-exterieur (4th & 5th) -------
+  {
+    slug: 'eclairage-ext-detecteur-reste-allume',
+    categorySlug: 'eclairage-exterieur',
+    severity: 'minor',
+    query: {
+      fr: 'Mon éclairage extérieur connecté reste allumé en permanence malgré le détecteur de mouvement',
+      en: 'My smart outdoor light stays on permanently despite the motion sensor',
+      de: 'Meine smarte Außenbeleuchtung bleibt trotz Bewegungsmelder dauerhaft an',
+      es: 'Mi iluminación exterior conectada se queda encendida pese al detector de movimiento',
+      it: 'La mia illuminazione esterna smart resta accesa nonostante il sensore di movimento',
+      nl: 'Mijn slimme buitenverlichting blijft continu aan ondanks de bewegingssensor',
+    },
+  },
+  {
+    slug: 'eclairage-ext-panneau-solaire-faible',
+    categorySlug: 'eclairage-exterieur',
+    severity: 'moderate',
+    query: {
+      fr: 'Le panneau solaire de mon éclairage extérieur ne charge plus assez la batterie',
+      en: 'The solar panel on my outdoor light no longer charges the battery enough',
+      de: 'Das Solarpanel meiner Außenlampe lädt den Akku nicht mehr ausreichend',
+      es: 'El panel solar de mi iluminación exterior ya no carga suficiente la batería',
+      it: 'Il pannello solare della mia lampada esterna non carica più abbastanza la batteria',
+      nl: 'Het zonnepaneel van mijn buitenlamp laadt de accu niet meer genoeg op',
+    },
+  },
+
+  // ------- portails-garages (4th & 5th) -------
+  {
+    slug: 'portail-telecommande-portee-reduite',
+    categorySlug: 'portails-garages',
+    severity: 'minor',
+    query: {
+      fr: 'La télécommande de mon portail connecté a une portée qui a fortement diminué',
+      en: 'The remote for my smart gate has lost most of its operating range',
+      de: 'Die Fernbedienung meines smarten Tors hat stark an Reichweite verloren',
+      es: 'El mando de mi portón conectado ha perdido mucho alcance',
+      it: 'Il telecomando del mio cancello smart ha perso notevolmente portata',
+      nl: 'De afstandsbediening van mijn slimme poort heeft sterk aan bereik verloren',
+    },
+  },
+  {
+    slug: 'portail-moteur-force-effort',
+    categorySlug: 'portails-garages',
+    severity: 'critical',
+    query: {
+      fr: 'Le moteur de mon portail connecté force et émet un bruit de grincement métallique',
+      en: 'The motor on my smart gate strains and makes a metallic grinding noise',
+      de: 'Der Motor meines smarten Tors zwingt und gibt ein metallisches Schleifgeräusch ab',
+      es: 'El motor de mi portón conectado fuerza y emite un ruido metálico chirriante',
+      it: 'Il motore del mio cancello smart forza ed emette un rumore metallico stridente',
+      nl: 'De motor van mijn slimme poort forceert en maakt een schurend metaalgeluid',
+    },
+  },
+
+  // ------- robots-piscine (4th & 5th) -------
+  {
+    slug: 'robot-piscine-flotte-surface',
+    categorySlug: 'robots-piscine',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon robot de piscine remonte à la surface et ne reste plus au fond du bassin',
+      en: 'My pool robot floats to the surface and no longer stays at the bottom',
+      de: 'Mein Poolroboter treibt an die Oberfläche und bleibt nicht mehr am Boden',
+      es: 'Mi robot de piscina sube a la superficie y ya no se queda en el fondo',
+      it: 'Il mio robot piscina sale in superficie e non resta più sul fondo',
+      nl: 'Mijn zwembadrobot drijft naar het oppervlak en blijft niet meer op de bodem',
+    },
+  },
+  {
+    slug: 'robot-piscine-filtre-colmate',
+    categorySlug: 'robots-piscine',
+    severity: 'minor',
+    query: {
+      fr: 'Le filtre de mon robot de piscine se colmate en moins de dix minutes de cycle',
+      en: 'The filter on my pool robot clogs within ten minutes of a cycle',
+      de: 'Der Filter meines Poolroboters verstopft sich innerhalb von zehn Minuten',
+      es: 'El filtro de mi robot de piscina se obstruye en menos de diez minutos de ciclo',
+      it: 'Il filtro del mio robot piscina si intasa in meno di dieci minuti di ciclo',
+      nl: 'Het filter van mijn zwembadrobot raakt binnen tien minuten verstopt',
+    },
+  },
+
+  // ------- barbecues-connectes (4th & 5th) -------
+  {
+    slug: 'barbecue-flamme-irreguliere',
+    categorySlug: 'barbecues-connectes',
+    severity: 'moderate',
+    query: {
+      fr: 'La flamme de mon barbecue connecté est irrégulière et provoque des points chauds',
+      en: 'The flame on my smart BBQ is uneven and causes hot spots',
+      de: 'Die Flamme meines smarten Grills brennt ungleichmäßig und erzeugt Hitzeinseln',
+      es: 'La llama de mi barbacoa conectada es irregular y causa puntos calientes',
+      it: 'La fiamma del mio barbecue smart è irregolare e provoca punti caldi',
+      nl: 'De vlam van mijn slimme barbecue brandt ongelijkmatig en veroorzaakt hete plekken',
+    },
+  },
+  {
+    slug: 'barbecue-allumage-ne-declenche-pas',
+    categorySlug: 'barbecues-connectes',
+    severity: 'moderate',
+    query: {
+      fr: 'L\'allumage électronique de mon barbecue connecté ne déclenche plus la flamme',
+      en: 'The electronic ignition on my smart BBQ no longer triggers the flame',
+      de: 'Die elektronische Zündung meines smarten Grills löst keine Flamme mehr aus',
+      es: 'El encendido electrónico de mi barbacoa conectada ya no enciende la llama',
+      it: 'L\'accensione elettronica del mio barbecue smart non innesca più la fiamma',
+      nl: 'De elektronische ontsteking van mijn slimme barbecue ontsteekt de vlam niet meer',
+    },
+  },
+
+  // ------- stations-recharge-outdoor (4th & 5th) -------
+  {
+    slug: 'station-recharge-ext-voyant-erreur',
+    categorySlug: 'stations-recharge-outdoor',
+    severity: 'moderate',
+    query: {
+      fr: 'Ma station de recharge extérieure affiche un voyant d\'erreur permanent',
+      en: 'My outdoor charging station shows a permanent error indicator',
+      de: 'Meine Outdoor-Ladestation zeigt eine permanente Fehleranzeige',
+      es: 'Mi estación de carga exterior muestra un indicador de error permanente',
+      it: 'La mia stazione di ricarica esterna mostra una spia di errore permanente',
+      nl: 'Mijn buitenlaadstation toont een permanent foutsignaal',
+    },
+  },
+  {
+    slug: 'station-recharge-ext-charge-lente',
+    categorySlug: 'stations-recharge-outdoor',
+    severity: 'minor',
+    query: {
+      fr: 'Ma station de recharge extérieure met deux fois plus de temps que prévu pour charger',
+      en: 'My outdoor charging station takes twice as long as expected to charge',
+      de: 'Meine Outdoor-Ladestation braucht doppelt so lang zum Laden wie angegeben',
+      es: 'Mi estación de carga exterior tarda el doble de lo previsto en cargar',
+      it: 'La mia stazione di ricarica esterna impiega il doppio del tempo previsto',
+      nl: 'Mijn buitenlaadstation doet er twee keer zo lang over als verwacht',
+    },
+  },
+
+  // ------- alarmes-exterieures (4th & 5th) -------
+  {
+    slug: 'alarme-ext-connexion-hub-perdue',
+    categorySlug: 'alarmes-exterieures',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon alarme extérieure perd la connexion avec le hub domotique toutes les nuits',
+      en: 'My outdoor alarm loses its connection to the smart home hub every night',
+      de: 'Mein Außenalarm verliert jede Nacht die Verbindung zum Smart-Home-Hub',
+      es: 'Mi alarma exterior pierde la conexión con el hub domótico todas las noches',
+      it: 'Il mio allarme esterno perde ogni notte la connessione con l\'hub domotico',
+      nl: 'Mijn buitenalarm verliest elke nacht de verbinding met de domotica-hub',
+    },
+  },
+  {
+    slug: 'alarme-ext-fausse-alerte-vent',
+    categorySlug: 'alarmes-exterieures',
+    severity: 'minor',
+    query: {
+      fr: 'Mon alarme extérieure se déclenche en fausse alerte dès que le vent souffle fort',
+      en: 'My outdoor alarm triggers a false alert whenever the wind picks up',
+      de: 'Mein Außenalarm löst bei starkem Wind ständig Fehlalarme aus',
+      es: 'Mi alarma exterior se dispara en falsa alerta cada vez que sopla fuerte el viento',
+      it: 'Il mio allarme esterno scatta in falso allarme ogni volta che tira forte vento',
+      nl: 'Mijn buitenalarm gaat af als vals alarm zodra het hard waait',
     },
   },
 ] as const
