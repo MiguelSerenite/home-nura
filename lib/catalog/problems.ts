@@ -34,6 +34,10 @@
  * domotique (11 cats × 2 = 22 new) and securite-maison (10 × 2 = 20
  * new). +42 problems, +252 URLs. Running total: 245 × 6 = 1470 pages.
  *
+ * Phase III (Period 20) densifies confort-air (10 cats × 2 = 20 new).
+ * All non-flagship silos are now at 5/cat density. Running total:
+ * 265 × 6 = 1590 troubleshooting pages.
+ *
  * Severity drives the call-to-action:
  *   - minor     → inline quick fix + "still not working?" fallback
  *   - moderate  → step-by-step + related-products upsell
@@ -3453,6 +3457,290 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La bisagra de mi caja fuerte conectada chirría y ofrece resistencia al abrir',
       it: 'La cerniera della mia cassaforte smart cigola e oppone resistenza all\'apertura',
       nl: 'Het scharnier van mijn slimme kluis piept en biedt weerstand bij het openen',
+    },
+  },
+
+  // ===================================================================
+  // Phase III — confort-air densification (10 cats × 2 = 20 new)
+  // ===================================================================
+
+  // ------- purificateurs-air (4th & 5th) -------
+  {
+    slug: 'purificateur-air-odeur-persiste',
+    categorySlug: 'purificateurs-air',
+    severity: 'minor',
+    query: {
+      fr: 'Mon purificateur d\'air ne supprime pas les odeurs de cuisine malgré le mode turbo',
+      en: 'My air purifier does not remove cooking odours despite turbo mode',
+      de: 'Mein Luftreiniger beseitigt Kochgerüche trotz Turbomodus nicht',
+      es: 'Mi purificador de aire no elimina los olores de cocina pese al modo turbo',
+      it: 'Il mio purificatore d\'aria non elimina gli odori di cucina nonostante la modalità turbo',
+      nl: 'Mijn luchtreiniger verwijdert kookluchtjes niet ondanks de turbomodus',
+    },
+  },
+  {
+    slug: 'purificateur-air-capteur-pm25-derive',
+    categorySlug: 'purificateurs-air',
+    severity: 'moderate',
+    query: {
+      fr: 'Le capteur PM2.5 de mon purificateur d\'air affiche des valeurs qui dérivent avec le temps',
+      en: 'The PM2.5 sensor on my air purifier shows readings that drift over time',
+      de: 'Der PM2.5-Sensor meines Luftreinigers zeigt Werte die mit der Zeit abdriften',
+      es: 'El sensor PM2.5 de mi purificador de aire muestra valores que derivan con el tiempo',
+      it: 'Il sensore PM2.5 del mio purificatore d\'aria mostra valori che derivano col tempo',
+      nl: 'De PM2.5-sensor van mijn luchtreiniger toont waarden die mettertijd afdrijven',
+    },
+  },
+
+  // ------- humidificateurs (4th & 5th) -------
+  {
+    slug: 'humidificateur-flaque-sous-appareil',
+    categorySlug: 'humidificateurs',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon humidificateur connecté crée une flaque d\'eau sous l\'appareil chaque nuit',
+      en: 'My smart humidifier creates a puddle of water under the unit every night',
+      de: 'Mein smarter Luftbefeuchter erzeugt jede Nacht eine Pfütze unter dem Gerät',
+      es: 'Mi humidificador conectado crea un charco de agua debajo del aparato cada noche',
+      it: 'Il mio umidificatore smart crea una pozza d\'acqua sotto l\'apparecchio ogni notte',
+      nl: 'Mijn slimme luchtbevochtiger vormt elke nacht een plas water onder het apparaat',
+    },
+  },
+  {
+    slug: 'humidificateur-hygrostat-imprecis',
+    categorySlug: 'humidificateurs',
+    severity: 'minor',
+    query: {
+      fr: 'L\'hygrostat de mon humidificateur connecté affiche une humidité 15 % plus haute que la réalité',
+      en: 'The hygrostat on my smart humidifier reads 15% higher humidity than reality',
+      de: 'Das Hygrostat meines smarten Luftbefeuchters zeigt 15 % zu hohe Luftfeuchtigkeit an',
+      es: 'El higróstato de mi humidificador conectado indica una humedad un 15 % más alta que la real',
+      it: 'L\'igrostato del mio umidificatore smart indica un\'umidità del 15 % superiore alla realtà',
+      nl: 'De hygrosstaat van mijn slimme luchtbevochtiger geeft 15 % te hoge luchtvochtigheid aan',
+    },
+  },
+
+  // ------- deshumidificateurs (4th & 5th) -------
+  {
+    slug: 'deshumidificateur-givre-echangeur',
+    categorySlug: 'deshumidificateurs',
+    severity: 'moderate',
+    query: {
+      fr: 'L\'échangeur de mon déshumidificateur connecté givre et l\'appareil s\'arrête',
+      en: 'The heat exchanger on my smart dehumidifier frosts over and the unit stops',
+      de: 'Der Wärmetauscher meines smarten Entfeuchters vereist und das Gerät stoppt',
+      es: 'El intercambiador de mi deshumidificador conectado se escarcha y el aparato se detiene',
+      it: 'Lo scambiatore del mio deumidificatore smart si ghiaccia e l\'apparecchio si ferma',
+      nl: 'De warmtewisselaar van mijn slimme ontvochtiger bevriest en het apparaat stopt',
+    },
+  },
+  {
+    slug: 'deshumidificateur-alarme-bac-plein-fausse',
+    categorySlug: 'deshumidificateurs',
+    severity: 'minor',
+    query: {
+      fr: 'Mon déshumidificateur connecté affiche l\'alarme bac plein alors que le bac est vide',
+      en: 'My smart dehumidifier shows the full-tank alarm even though the tank is empty',
+      de: 'Mein smarter Entfeuchter zeigt die Behälter-voll-Warnung obwohl der Behälter leer ist',
+      es: 'Mi deshumidificador conectado muestra la alarma de depósito lleno aunque está vacío',
+      it: 'Il mio deumidificatore smart mostra l\'allarme serbatoio pieno anche se è vuoto',
+      nl: 'Mijn slimme ontvochtiger toont het bak-vol-alarm terwijl de bak leeg is',
+    },
+  },
+
+  // ------- climatiseurs-mobiles (4th & 5th) -------
+  {
+    slug: 'climatiseur-mobile-compresseur-cycle-court',
+    categorySlug: 'climatiseurs-mobiles',
+    severity: 'moderate',
+    query: {
+      fr: 'Le compresseur de mon climatiseur mobile se coupe et redémarre toutes les deux minutes',
+      en: 'The compressor on my portable AC cuts out and restarts every two minutes',
+      de: 'Der Kompressor meiner mobilen Klimaanlage schaltet sich alle zwei Minuten ab und startet neu',
+      es: 'El compresor de mi aire acondicionado portátil se corta y reinicia cada dos minutos',
+      it: 'Il compressore del mio condizionatore portatile si spegne e riavvia ogni due minuti',
+      nl: 'De compressor van mijn mobiele airco slaat elke twee minuten af en start opnieuw',
+    },
+  },
+  {
+    slug: 'climatiseur-mobile-telecommande-hs',
+    categorySlug: 'climatiseurs-mobiles',
+    severity: 'minor',
+    query: {
+      fr: 'La télécommande de mon climatiseur mobile connecté ne fonctionne plus du tout',
+      en: 'The remote control for my smart portable AC has stopped working entirely',
+      de: 'Die Fernbedienung meiner smarten mobilen Klimaanlage funktioniert überhaupt nicht mehr',
+      es: 'El mando a distancia de mi aire acondicionado portátil conectado ya no funciona en absoluto',
+      it: 'Il telecomando del mio condizionatore portatile smart non funziona più per niente',
+      nl: 'De afstandsbediening van mijn slimme mobiele airco werkt helemaal niet meer',
+    },
+  },
+
+  // ------- ventilateurs (4th & 5th) -------
+  {
+    slug: 'ventilateur-oscillation-bloquee',
+    categorySlug: 'ventilateurs',
+    severity: 'minor',
+    query: {
+      fr: 'La fonction d\'oscillation de mon ventilateur connecté est bloquée sur un côté',
+      en: 'The oscillation function on my smart fan is stuck on one side',
+      de: 'Die Schwenkfunktion meines smarten Ventilators klemmt auf einer Seite',
+      es: 'La función de oscilación de mi ventilador conectado se ha quedado bloqueada a un lado',
+      it: 'La funzione di oscillazione del mio ventilatore smart è bloccata da un lato',
+      nl: 'De oscillatiefunctie van mijn slimme ventilator zit vast aan één kant',
+    },
+  },
+  {
+    slug: 'ventilateur-vitesse-max-bruyant',
+    categorySlug: 'ventilateurs',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon ventilateur connecté émet un bourdonnement sourd en vitesse maximale',
+      en: 'My smart fan produces a low hum on maximum speed',
+      de: 'Mein smarter Ventilator brummt bei maximaler Geschwindigkeit tief',
+      es: 'Mi ventilador conectado emite un zumbido grave a velocidad máxima',
+      it: 'Il mio ventilatore smart produce un ronzio sordo alla velocità massima',
+      nl: 'Mijn slimme ventilator produceert een laag gebrom op maximale snelheid',
+    },
+  },
+
+  // ------- chauffages-appoint (4th & 5th) -------
+  {
+    slug: 'chauffage-appoint-thermostat-decale',
+    categorySlug: 'chauffages-appoint',
+    severity: 'minor',
+    query: {
+      fr: 'Mon chauffage d\'appoint connecté chauffe trois degrés au-dessus de la consigne affichée',
+      en: 'My smart space heater heats three degrees above the displayed setpoint',
+      de: 'Meine smarte Zusatzheizung heizt drei Grad über dem angezeigten Sollwert',
+      es: 'Mi calefactor de apoyo conectado calienta tres grados por encima de la consigna',
+      it: 'Il mio riscaldatore ausiliario smart scalda tre gradi sopra la temperatura impostata',
+      nl: 'Mijn slimme bijverwarming verwarmt drie graden boven het ingestelde punt',
+    },
+  },
+  {
+    slug: 'chauffage-appoint-ventilateur-tourne-pas',
+    categorySlug: 'chauffages-appoint',
+    severity: 'critical',
+    query: {
+      fr: 'Le ventilateur de mon chauffage d\'appoint connecté ne tourne plus et l\'appareil surchauffe',
+      en: 'The fan on my smart space heater no longer spins and the unit overheats',
+      de: 'Der Lüfter meiner smarten Zusatzheizung dreht sich nicht mehr und das Gerät überhitzt',
+      es: 'El ventilador de mi calefactor conectado ya no gira y el aparato se sobrecalienta',
+      it: 'La ventola del mio riscaldatore smart non gira più e il dispositivo si surriscalda',
+      nl: 'De ventilator van mijn slimme bijverwarming draait niet meer en het apparaat wordt oververhit',
+    },
+  },
+
+  // ------- stations-meteo (4th & 5th) -------
+  {
+    slug: 'station-meteo-pluviometre-bouche',
+    categorySlug: 'stations-meteo',
+    severity: 'minor',
+    query: {
+      fr: 'Le pluviomètre de ma station météo connectée est bouché et n\'enregistre plus la pluie',
+      en: 'The rain gauge on my smart weather station is clogged and no longer records rainfall',
+      de: 'Der Regenmesser meiner smarten Wetterstation ist verstopft und zeichnet keinen Regen mehr auf',
+      es: 'El pluviómetro de mi estación meteorológica conectada está obstruido y no registra la lluvia',
+      it: 'Il pluviometro della mia stazione meteo smart è intasato e non registra più la pioggia',
+      nl: 'De regenmeter van mijn slim weerstation is verstopt en registreert geen regen meer',
+    },
+  },
+  {
+    slug: 'station-meteo-anemometre-bloque',
+    categorySlug: 'stations-meteo',
+    severity: 'moderate',
+    query: {
+      fr: 'L\'anémomètre de ma station météo connectée est bloqué et affiche toujours 0 km/h',
+      en: 'The anemometer on my smart weather station is stuck and always reads 0 km/h',
+      de: 'Der Windmesser meiner smarten Wetterstation ist blockiert und zeigt immer 0 km/h',
+      es: 'El anemómetro de mi estación meteorológica conectada está bloqueado y marca siempre 0 km/h',
+      it: 'L\'anemometro della mia stazione meteo smart è bloccato e segna sempre 0 km/h',
+      nl: 'De windmeter van mijn slim weerstation zit vast en toont altijd 0 km/u',
+    },
+  },
+
+  // ------- diffuseurs (4th & 5th) -------
+  {
+    slug: 'diffuseur-reservoir-fuit-base',
+    categorySlug: 'diffuseurs',
+    severity: 'moderate',
+    query: {
+      fr: 'Le réservoir de mon diffuseur connecté fuit par la base et tache le meuble',
+      en: 'The tank on my smart diffuser leaks from the base and stains the furniture',
+      de: 'Der Tank meines smarten Diffusors leckt an der Unterseite und hinterlässt Flecken auf dem Möbel',
+      es: 'El depósito de mi difusor conectado gotea por la base y mancha el mueble',
+      it: 'Il serbatoio del mio diffusore smart perde dalla base e macchia il mobile',
+      nl: 'Het reservoir van mijn slimme diffuser lekt bij de basis en vlekt het meubel',
+    },
+  },
+  {
+    slug: 'diffuseur-minuterie-ne-coupe-pas',
+    categorySlug: 'diffuseurs',
+    severity: 'minor',
+    query: {
+      fr: 'La minuterie de mon diffuseur connecté ne coupe pas l\'appareil à l\'heure prévue',
+      en: 'The timer on my smart diffuser does not turn off the unit at the scheduled time',
+      de: 'Der Timer meines smarten Diffusors schaltet das Gerät nicht zur geplanten Zeit ab',
+      es: 'El temporizador de mi difusor conectado no apaga el aparato a la hora prevista',
+      it: 'Il timer del mio diffusore smart non spegne l\'apparecchio all\'ora prevista',
+      nl: 'De timer van mijn slimme diffuser schakelt het apparaat niet uit op het geplande tijdstip',
+    },
+  },
+
+  // ------- reveils-lumiere (4th & 5th) -------
+  {
+    slug: 'reveil-lumiere-simulation-aube-trop-rapide',
+    categorySlug: 'reveils-lumiere',
+    severity: 'minor',
+    query: {
+      fr: 'La simulation d\'aube de mon réveil lumineux passe de 0 à 100 % en quelques secondes au lieu de trente minutes',
+      en: 'The sunrise simulation on my wake-up light jumps from 0 to 100% in seconds instead of thirty minutes',
+      de: 'Die Sonnenaufgangssimulation meines Lichtweckers springt in Sekunden von 0 auf 100 % statt in dreißig Minuten',
+      es: 'La simulación de amanecer de mi despertador de luz pasa de 0 a 100 % en segundos en lugar de treinta minutos',
+      it: 'La simulazione dell\'alba della mia sveglia luminosa passa da 0 a 100 % in pochi secondi anziché trenta minuti',
+      nl: 'De zonsopgangsimulatie van mijn lichtwekker springt in seconden van 0 naar 100 % in plaats van dertig minuten',
+    },
+  },
+  {
+    slug: 'reveil-lumiere-radio-fm-gresille',
+    categorySlug: 'reveils-lumiere',
+    severity: 'minor',
+    query: {
+      fr: 'La radio FM de mon réveil lumineux connecté grésille et perd la fréquence',
+      en: 'The FM radio on my smart wake-up light crackles and loses the frequency',
+      de: 'Das FM-Radio meines smarten Lichtweckers knistert und verliert die Frequenz',
+      es: 'La radio FM de mi despertador de luz conectado crepita y pierde la frecuencia',
+      it: 'La radio FM della mia sveglia luminosa smart gracchia e perde la frequenza',
+      nl: 'De FM-radio van mijn slimme lichtwekker kraakt en verliest de frequentie',
+    },
+  },
+
+  // ------- rideaux-automatises (4th & 5th) -------
+  {
+    slug: 'rideau-auto-decroche-rail',
+    categorySlug: 'rideaux-automatises',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon rideau automatisé se décroche du rail après quelques semaines d\'utilisation',
+      en: 'My motorised curtain detaches from the rail after a few weeks of use',
+      de: 'Mein automatisierter Vorhang löst sich nach einigen Wochen Benutzung von der Schiene',
+      es: 'Mi cortina automatizada se descuelga del riel tras unas semanas de uso',
+      it: 'La mia tenda automatizzata si stacca dalla guida dopo poche settimane di utilizzo',
+      nl: 'Mijn gemotoriseerd gordijn laat na een paar weken gebruik los van de rail',
+    },
+  },
+  {
+    slug: 'rideau-auto-fermeture-incomplete',
+    categorySlug: 'rideaux-automatises',
+    severity: 'minor',
+    query: {
+      fr: 'Mon rideau automatisé ne se ferme pas complètement et laisse un écart de dix centimètres',
+      en: 'My motorised curtain does not fully close and leaves a ten-centimetre gap',
+      de: 'Mein automatisierter Vorhang schließt nicht vollständig und lässt einen zehn Zentimeter breiten Spalt',
+      es: 'Mi cortina automatizada no se cierra del todo y deja un hueco de diez centímetros',
+      it: 'La mia tenda automatizzata non si chiude completamente e lascia un\'apertura di dieci centimetri',
+      nl: 'Mijn gemotoriseerd gordijn sluit niet helemaal en laat een opening van tien centimeter',
     },
   },
 ] as const
