@@ -560,4 +560,96 @@ export const article: BlogArticle = {
 
 <p>Voor premium modellen boven 100 €, bekijk onze <a href="/nl/blog/comment-choisir-airfryer-famille">gezinsaankoopgids</a>. Complete gids: <a href="/nl/guides/airfryers">airfryers</a> en <a href="/nl/guides/airfryer-vs-four">airfryer vs oven</a>.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Quel est le meilleur airfryer à moins de 50 € ?',
+        en: 'What is the best air fryer under 50 euros?',
+        de: 'Welche ist die beste Heißluftfritteuse unter 50 Euro?',
+        es: '¿Cuál es la mejor freidora de aire por menos de 50 euros?',
+        it: 'Qual è la migliore friggitrice ad aria sotto i 50 euro?',
+        nl: 'Wat is de beste airfryer onder 50 euro?',
+      },
+      answer: {
+        fr: 'Le Moulinex Easy Fry Compact est notre meilleur choix sous 50 €. Il offre 3 litres de capacité, une puissance correcte de 1 300 W et un panier antiadhésif de bonne qualité. Pour ce prix, vous sacrifiez l\'écran digital et les programmes automatiques, mais la cuisson reste très satisfaisante pour 1 à 2 personnes.',
+        en: 'The Moulinex Easy Fry Compact is our top pick under 50 euros. It offers 3 litres capacity, decent 1,300 W power, and a good quality non-stick basket. At this price you sacrifice the digital display and automatic programs, but cooking performance remains very satisfying for 1 to 2 people.',
+        de: 'Die Moulinex Easy Fry Compact ist unsere Top-Empfehlung unter 50 Euro. Sie bietet 3 Liter Fassungsvermögen, solide 1.300 W Leistung und einen hochwertigen Antihaftkorb. Für diesen Preis verzichten Sie auf Digitalanzeige und Programme, aber die Kochleistung ist für 1-2 Personen sehr zufriedenstellend.',
+        es: 'La Moulinex Easy Fry Compact es nuestra mejor elección por menos de 50 euros. Ofrece 3 litros de capacidad, 1.300 W de potencia y una cesta antiadherente de buena calidad. A este precio renuncias a pantalla digital y programas, pero la cocción es muy satisfactoria para 1-2 personas.',
+        it: 'La Moulinex Easy Fry Compact è la nostra scelta migliore sotto i 50 euro. Offre 3 litri di capacità, 1.300 W di potenza e un cestello antiaderente di buona qualità. A questo prezzo rinunci al display digitale e ai programmi, ma la cottura resta molto soddisfacente per 1-2 persone.',
+        nl: 'De Moulinex Easy Fry Compact is onze topkeuze onder 50 euro. Hij biedt 3 liter capaciteit, degelijke 1.300 W kracht en een antiaanbakman van goede kwaliteit. Voor deze prijs mis je het digitale scherm en programma\'s, maar de kookprestatie is zeer bevredigend voor 1-2 personen.',
+      },
+    },
+    {
+      question: {
+        fr: 'Les airfryers pas chers sont-ils de bonne qualité ?',
+        en: 'Are cheap air fryers good quality?',
+        de: 'Sind günstige Heißluftfritteusen von guter Qualität?',
+        es: '¿Las freidoras de aire baratas son de buena calidad?',
+        it: 'Le friggitrici ad aria economiche sono di buona qualità?',
+        nl: 'Zijn goedkope airfryers van goede kwaliteit?',
+      },
+      answer: {
+        fr: 'Les airfryers de marques reconnues (Moulinex, Xiaomi, Cosori) à moins de 100 € offrent une qualité très correcte. Ils cuisent aussi bien que les modèles premium pour les recettes courantes. Ce que vous sacrifiez : écran tactile, connectivité WiFi, programmes avancés et double panier. La cuisson de base reste excellente.',
+        en: 'Budget air fryers from recognized brands like Moulinex, Xiaomi, and Cosori under 100 euros offer very decent quality. They cook just as well as premium models for common recipes. What you sacrifice: touchscreen, WiFi connectivity, advanced programs, and dual baskets. Basic cooking performance remains excellent.',
+        de: 'Günstige Heißluftfritteusen von bekannten Marken (Moulinex, Xiaomi, Cosori) unter 100 Euro bieten sehr ordentliche Qualität. Sie garen genauso gut wie Premiummodelle für gängige Rezepte. Was fehlt: Touchscreen, WiFi, erweiterte Programme und Doppelkorb. Die grundlegende Kochleistung bleibt ausgezeichnet.',
+        es: 'Las freidoras de marcas reconocidas (Moulinex, Xiaomi, Cosori) por menos de 100 euros ofrecen una calidad muy correcta. Cocinan igual de bien que los modelos premium para las recetas comunes. Lo que sacrificas: pantalla táctil, WiFi, programas avanzados y doble cesta. La cocción básica sigue siendo excelente.',
+        it: 'Le friggitrici ad aria di marchi riconosciuti (Moulinex, Xiaomi, Cosori) sotto i 100 euro offrono una qualità molto buona. Cucinano bene quanto i modelli premium per le ricette comuni. Quello che sacrifichi: touchscreen, WiFi, programmi avanzati e doppio cestello. La cottura di base resta eccellente.',
+        nl: 'Budget airfryers van bekende merken (Moulinex, Xiaomi, Cosori) onder 100 euro bieden zeer degelijke kwaliteit. Ze koken net zo goed als premiummodellen voor gangbare recepten. Wat je mist: touchscreen, WiFi, geavanceerde programma\'s en dubbele mand. De basiskookprestatie blijft uitstekend.',
+      },
+    },
+    {
+      question: {
+        fr: 'Peut-on acheter un airfryer reconditionné en toute confiance ?',
+        en: 'Can you buy a refurbished air fryer with confidence?',
+        de: 'Kann man eine generalüberholte Heißluftfritteuse bedenkenlos kaufen?',
+        es: '¿Se puede comprar una freidora de aire reacondicionada con confianza?',
+        it: 'Si può comprare una friggitrice ad aria ricondizionata con fiducia?',
+        nl: 'Kun je met vertrouwen een refurbished airfryer kopen?',
+      },
+      answer: {
+        fr: 'Oui, à condition de choisir le programme Amazon Renewed ou le reconditionné certifié du fabricant. Vous économisez 20 à 40 % sur le prix neuf avec une garantie de 6 à 12 mois. Vérifiez l\'état du revêtement antiadhésif et que tous les accessoires sont inclus. Évitez les vendeurs tiers sans politique de retour.',
+        en: 'Yes, provided you choose Amazon Renewed or manufacturer-certified refurbished programs. You save 20 to 40 percent off the new price with a 6 to 12 month warranty. Check the condition of the non-stick coating and that all accessories are included. Avoid third-party sellers without a return policy.',
+        de: 'Ja, wenn Sie Amazon Renewed oder vom Hersteller zertifizierte Programme wählen. Sie sparen 20-40 Prozent mit 6-12 Monaten Garantie. Prüfen Sie den Zustand der Antihaftbeschichtung und ob alles Zubehör enthalten ist. Vermeiden Sie Drittanbieter ohne Rückgaberecht.',
+        es: 'Sí, siempre que elijas el programa Amazon Renewed o el reacondicionado certificado del fabricante. Ahorras entre un 20 y 40 % con garantía de 6 a 12 meses. Verifica el estado del antiadherente y que incluya todos los accesorios. Evita vendedores terceros sin política de devolución.',
+        it: 'Sì, a patto di scegliere il programma Amazon Renewed o il ricondizionato certificato dal produttore. Risparmi dal 20 al 40% con garanzia di 6-12 mesi. Verifica lo stato del rivestimento antiaderente e che tutti gli accessori siano inclusi. Evita venditori terzi senza politica di reso.',
+        nl: 'Ja, mits je kiest voor Amazon Renewed of door de fabrikant gecertificeerde refurbished programma\'s. Je bespaart 20 tot 40 procent met 6-12 maanden garantie. Controleer de staat van de antiaanbaklaag en of alle accessoires zijn bijgesloten. Vermijd derden zonder retourbeleid.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quand acheter un airfryer pour avoir le meilleur prix ?',
+        en: 'When is the best time to buy an air fryer for the best price?',
+        de: 'Wann ist der beste Zeitpunkt, eine Heißluftfritteuse zum besten Preis zu kaufen?',
+        es: '¿Cuándo comprar una freidora de aire para conseguir el mejor precio?',
+        it: 'Quando comprare una friggitrice ad aria per il miglior prezzo?',
+        nl: 'Wanneer kun je het beste een airfryer kopen voor de beste prijs?',
+      },
+      answer: {
+        fr: 'Le Black Friday (fin novembre) offre les meilleures remises : 30 à 50 % sur les modèles populaires. Les soldes d\'été et le Prime Day (juillet) sont aussi d\'excellents moments. Surveillez aussi les ventes flash Amazon toute l\'année. Utilisez des comparateurs de prix pour suivre l\'historique des prix.',
+        en: 'Black Friday in late November offers the best discounts of 30 to 50 percent on popular models. Summer sales and Prime Day in July are also excellent times. Watch for Amazon flash sales throughout the year. Use price comparison tools to track price history and spot the lowest point before buying.',
+        de: 'Black Friday Ende November bietet die besten Rabatte von 30-50 Prozent auf beliebte Modelle. Sommerschlussverkauf und Prime Day im Juli sind ebenfalls hervorragend. Achten Sie auf Amazon-Blitzangebote das ganze Jahr über. Nutzen Sie Preisvergleichstools zur Preisverfolgung.',
+        es: 'El Black Friday (finales de noviembre) ofrece los mejores descuentos: 30-50 % en modelos populares. Las rebajas de verano y el Prime Day (julio) también son excelentes. Vigila las ofertas flash de Amazon todo el año. Usa comparadores de precios para seguir el historial de precios.',
+        it: 'Il Black Friday (fine novembre) offre i migliori sconti: 30-50% sui modelli popolari. I saldi estivi e il Prime Day (luglio) sono altrettanto ottimi. Tieni d\'occhio le offerte lampo di Amazon tutto l\'anno. Usa comparatori di prezzi per monitorare lo storico prezzi prima dell\'acquisto.',
+        nl: 'Black Friday eind november biedt de beste kortingen van 30-50 procent op populaire modellen. Zomeruitverkoop en Prime Day in juli zijn ook uitstekende momenten. Let het hele jaar op Amazon bliksemdeals. Gebruik prijsvergelijkers om de prijsgeschiedenis te volgen voordat je koopt.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quelle garantie attendre d\'un airfryer pas cher ?',
+        en: 'What warranty should you expect from a budget air fryer?',
+        de: 'Welche Garantie kann man bei einer günstigen Heißluftfritteuse erwarten?',
+        es: '¿Qué garantía esperar de una freidora de aire barata?',
+        it: 'Che garanzia aspettarsi da una friggitrice ad aria economica?',
+        nl: 'Welke garantie kun je verwachten van een goedkope airfryer?',
+      },
+      answer: {
+        fr: 'La garantie légale en Europe est de 2 ans minimum, même sur les modèles pas chers. Les grandes marques (Philips, Moulinex, Ninja) offrent souvent un service après-vente réactif. Xiaomi propose aussi 2 ans de garantie via Amazon. Gardez toujours votre facture et enregistrez le produit sur le site du fabricant.',
+        en: 'The legal warranty in Europe is a minimum of 2 years, even on budget models. Major brands like Philips, Moulinex, and Ninja often provide responsive after-sales service. Xiaomi also offers 2 years warranty via Amazon. Always keep your receipt and register the product on the manufacturer\'s website for faster claims.',
+        de: 'Die gesetzliche Garantie in Europa beträgt mindestens 2 Jahre, auch bei günstigen Modellen. Große Marken (Philips, Moulinex, Ninja) bieten oft reaktionsschnellen Kundenservice. Xiaomi bietet ebenfalls 2 Jahre Garantie über Amazon. Bewahren Sie die Rechnung auf und registrieren Sie das Produkt beim Hersteller.',
+        es: 'La garantía legal en Europa es de 2 años mínimo, incluso en modelos baratos. Las grandes marcas (Philips, Moulinex, Ninja) ofrecen un servicio posventa reactivo. Xiaomi también ofrece 2 años de garantía vía Amazon. Guarda siempre el ticket y registra el producto en la web del fabricante.',
+        it: 'La garanzia legale in Europa è di minimo 2 anni, anche sui modelli economici. I grandi marchi (Philips, Moulinex, Ninja) offrono spesso un servizio post-vendita reattivo. Anche Xiaomi offre 2 anni di garanzia tramite Amazon. Conserva sempre lo scontrino e registra il prodotto sul sito del produttore.',
+        nl: 'De wettelijke garantie in Europa is minimaal 2 jaar, zelfs op budgetmodellen. Grote merken (Philips, Moulinex, Ninja) bieden vaak responsieve klantenservice. Xiaomi biedt ook 2 jaar garantie via Amazon. Bewaar altijd je bon en registreer het product op de website van de fabrikant voor snellere claims.',
+      },
+    },
+  ],
 }

@@ -492,4 +492,96 @@ export const article: BlogArticle = {
 <h2>Verdict</h2>
 <p>De Xiaomi Smart Air Fryer Pro 4L is <strong>de beste budget connected airfryer van 2026</strong>. Voor gezinnen: <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> of <a href="/nl/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a>. Meer budgetopties in <a href="/nl/blog/meilleur-airfryer-petit-budget">beste budget airfryers</a> en de <a href="/nl/guides/airfryers">complete gids 2026</a>.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Quelles sont les fonctionnalités smart du Xiaomi Smart Air Fryer Pro ?',
+        en: 'What are the smart features of the Xiaomi Smart Air Fryer Pro?',
+        de: 'Welche Smart-Funktionen bietet der Xiaomi Smart Air Fryer Pro?',
+        es: '¿Cuáles son las funciones inteligentes del Xiaomi Smart Air Fryer Pro?',
+        it: 'Quali sono le funzionalità smart del Xiaomi Smart Air Fryer Pro?',
+        nl: 'Wat zijn de slimme functies van de Xiaomi Smart Air Fryer Pro?',
+      },
+      answer: {
+        fr: 'Le Xiaomi Smart Air Fryer Pro se connecte via Wi-Fi à l\'application Mi Home et s\'intègre aux écosystèmes Google Home et Alexa. Vous pouvez le contrôler par commande vocale, créer des automatisations domotiques, programmer des cuissons à l\'avance et recevoir des notifications. Les mises à jour firmware se font automatiquement via Wi-Fi.',
+        en: 'The Xiaomi Smart Air Fryer Pro connects via Wi-Fi to the Mi Home app and integrates with Google Home and Alexa ecosystems. You can control it by voice command, create smart home automations, schedule cooking in advance, and receive notifications. Firmware updates happen automatically over Wi-Fi.',
+        de: 'Der Xiaomi Smart Air Fryer Pro verbindet sich per Wi-Fi mit der Mi Home-App und integriert sich in Google Home und Alexa. Steuerung per Sprachbefehl, Smart-Home-Automatisierungen, vorprogrammiertes Garen und Benachrichtigungen sind möglich. Firmware-Updates erfolgen automatisch über Wi-Fi.',
+        es: 'El Xiaomi Smart Air Fryer Pro se conecta por Wi-Fi a la app Mi Home y se integra con Google Home y Alexa. Permite control por voz, automatizaciones domóticas, programación anticipada de cocciones y notificaciones. Las actualizaciones de firmware se realizan automáticamente por Wi-Fi.',
+        it: 'Il Xiaomi Smart Air Fryer Pro si connette tramite Wi-Fi all\'app Mi Home e si integra con Google Home e Alexa. Permette controllo vocale, automazioni domotiche, programmazione anticipata delle cotture e notifiche. Gli aggiornamenti firmware avvengono automaticamente via Wi-Fi.',
+        nl: 'De Xiaomi Smart Air Fryer Pro verbindt via Wi-Fi met de Mi Home-app en integreert met Google Home en Alexa. Je kunt hem met spraak bedienen, smart home-automatiseringen maken, het koken vooraf plannen en meldingen ontvangen. Firmware-updates gebeuren automatisch via Wi-Fi.',
+      },
+    },
+    {
+      question: {
+        fr: 'L\'application Mi Home pour le Xiaomi Air Fryer est-elle fiable ?',
+        en: 'Is the Mi Home app for the Xiaomi Air Fryer reliable?',
+        de: 'Ist die Mi Home-App für den Xiaomi Air Fryer zuverlässig?',
+        es: '¿Es fiable la app Mi Home para la Xiaomi Air Fryer?',
+        it: 'L\'app Mi Home per la Xiaomi Air Fryer è affidabile?',
+        nl: 'Is de Mi Home-app voor de Xiaomi Air Fryer betrouwbaar?',
+      },
+      answer: {
+        fr: 'L\'application Mi Home est bien conçue et stable, testée sur iOS et Android pendant 4 semaines. Elle propose environ 100 recettes adaptées à la capacité de 4 litres, avec des photos et instructions claires. La commande vocale via Google Assistant et Alexa fonctionne réellement, ce qui est impressionnant pour un appareil à 79,99 euros.',
+        en: 'The Mi Home app is well designed and stable, tested on both iOS and Android for 4 weeks. It offers approximately 100 recipes tailored to the 4-litre capacity, with photos and clear instructions. Voice control via Google Assistant and Alexa genuinely works, which is impressive for a 79.99 euro appliance.',
+        de: 'Die Mi Home-App ist gut gestaltet und stabil, getestet auf iOS und Android über 4 Wochen. Sie bietet etwa 100 auf die 4-Liter-Kapazität abgestimmte Rezepte mit Fotos und klaren Anleitungen. Die Sprachsteuerung über Google Assistant und Alexa funktioniert tatsächlich — beeindruckend für ein 79,99-Euro-Gerät.',
+        es: 'La app Mi Home está bien diseñada y es estable, probada en iOS y Android durante 4 semanas. Ofrece unas 100 recetas adaptadas a la capacidad de 4 litros, con fotos e instrucciones claras. El control por voz con Google Assistant y Alexa funciona realmente, impresionante para un aparato de 79,99 euros.',
+        it: 'L\'app Mi Home è ben progettata e stabile, testata su iOS e Android per 4 settimane. Offre circa 100 ricette adattate alla capacità di 4 litri, con foto e istruzioni chiare. Il controllo vocale tramite Google Assistant e Alexa funziona davvero, impressionante per un apparecchio da 79,99 euro.',
+        nl: 'De Mi Home-app is goed ontworpen en stabiel, getest op iOS en Android gedurende 4 weken. Hij biedt ongeveer 100 recepten afgestemd op de 4-liter capaciteit, met foto\'s en duidelijke instructies. Spraakbesturing via Google Assistant en Alexa werkt echt, indrukwekkend voor een apparaat van 79,99 euro.',
+      },
+    },
+    {
+      question: {
+        fr: 'Le Xiaomi Smart Air Fryer Pro est-il assez grand pour une famille ?',
+        en: 'Is the Xiaomi Smart Air Fryer Pro large enough for a family?',
+        de: 'Ist der Xiaomi Smart Air Fryer Pro groß genug für eine Familie?',
+        es: '¿Es lo suficientemente grande el Xiaomi Smart Air Fryer Pro para una familia?',
+        it: 'Il Xiaomi Smart Air Fryer Pro è abbastanza grande per una famiglia?',
+        nl: 'Is de Xiaomi Smart Air Fryer Pro groot genoeg voor een gezin?',
+      },
+      answer: {
+        fr: 'Avec seulement 4 litres de capacité, le Xiaomi Smart Air Fryer Pro est conçu pour 1 à 2 personnes maximum. La quantité optimale est d\'environ 350 g de frites ou 3 pilons de poulet par fournée. Pour une famille de 3 personnes et plus, un modèle plus grand comme le Philips 3000 XL à 6,2 litres serait plus adapté.',
+        en: 'With only 4 litres of capacity, the Xiaomi Smart Air Fryer Pro is designed for 1 to 2 people maximum. The optimal quantity is approximately 350 g of fries or 3 chicken drumsticks per batch. For a family of 3 or more, a larger model like the Philips 3000 XL at 6.2 litres would be more suitable.',
+        de: 'Mit nur 4 Litern Fassungsvermögen ist der Xiaomi Smart Air Fryer Pro für maximal 1-2 Personen ausgelegt. Die optimale Menge beträgt etwa 350 g Pommes oder 3 Hähnchenschenkel pro Charge. Für Familien ab 3 Personen wäre ein größeres Modell wie der Philips 3000 XL mit 6,2 Litern besser geeignet.',
+        es: 'Con solo 4 litros de capacidad, el Xiaomi Smart Air Fryer Pro está diseñado para 1-2 personas máximo. La cantidad óptima es unos 350 g de patatas o 3 muslos de pollo por tanda. Para familias de 3 o más personas, un modelo más grande como el Philips 3000 XL de 6,2 litros sería más adecuado.',
+        it: 'Con soli 4 litri di capacità, il Xiaomi Smart Air Fryer Pro è progettato per 1-2 persone al massimo. La quantità ottimale è circa 350 g di patatine o 3 cosce di pollo per infornata. Per famiglie di 3 o più persone, un modello più grande come il Philips 3000 XL da 6,2 litri sarebbe più adatto.',
+        nl: 'Met slechts 4 liter capaciteit is de Xiaomi Smart Air Fryer Pro ontworpen voor maximaal 1-2 personen. De optimale hoeveelheid is ongeveer 350 g friet of 3 kippenpoten per batch. Voor een gezin van 3 of meer is een groter model zoals de Philips 3000 XL met 6,2 liter beter geschikt.',
+      },
+    },
+    {
+      question: {
+        fr: 'La qualité de fabrication du Xiaomi Air Fryer est-elle suffisante ?',
+        en: 'Is the build quality of the Xiaomi Air Fryer adequate?',
+        de: 'Ist die Verarbeitungsqualität des Xiaomi Air Fryer ausreichend?',
+        es: '¿Es suficiente la calidad de fabricación del Xiaomi Air Fryer?',
+        it: 'La qualità costruttiva del Xiaomi Air Fryer è sufficiente?',
+        nl: 'Is de bouwkwaliteit van de Xiaomi Air Fryer voldoende?',
+      },
+      answer: {
+        fr: 'La qualité de fabrication est honnête pour le prix de 79,99 euros. Le design blanc mat est élégant mais les rails du tiroir sont en plastique plutôt qu\'en métal, ce qui les rend moins fluides que chez Philips ou Ninja. Le panier en métal avec revêtement antiadhésif est de bonne facture et passe au lave-vaisselle.',
+        en: 'Build quality is honest for the 79.99 euro price point. The matte white design is elegant but the drawer rails are plastic rather than metal, making them less smooth than Philips or Ninja. The metal basket with non-stick coating is well made and dishwasher safe.',
+        de: 'Die Verarbeitungsqualität ist ehrlich für den Preis von 79,99 Euro. Das matteweiße Design ist elegant, aber die Schubladenführungen sind aus Kunststoff statt Metall, was sie weniger geschmeidig macht als bei Philips oder Ninja. Der Metallkorb mit Antihaftbeschichtung ist gut verarbeitet und spülmaschinenfest.',
+        es: 'La calidad de fabricación es honesta para el precio de 79,99 euros. El diseño blanco mate es elegante pero los rieles del cajón son de plástico en vez de metal, haciéndolos menos suaves que los de Philips o Ninja. La cesta metálica con recubrimiento antiadherente está bien hecha y es apta para lavavajillas.',
+        it: 'La qualità costruttiva è onesta per il prezzo di 79,99 euro. Il design bianco opaco è elegante ma le guide del cassetto sono in plastica anziché metallo, rendendole meno fluide rispetto a Philips o Ninja. Il cestello in metallo con rivestimento antiaderente è ben fatto e lavabile in lavastoviglie.',
+        nl: 'De bouwkwaliteit is eerlijk voor de prijs van 79,99 euro. Het matte witte ontwerp is elegant maar de laderails zijn van kunststof in plaats van metaal, waardoor ze minder soepel lopen dan bij Philips of Ninja. De metalen mand met antiaanbaklaag is goed gemaakt en vaatwasmachinebestendig.',
+      },
+    },
+    {
+      question: {
+        fr: 'Comment le Xiaomi Air Fryer Pro se compare-t-il au Cosori Dual Blaze ?',
+        en: 'How does the Xiaomi Air Fryer Pro compare to the Cosori Dual Blaze?',
+        de: 'Wie schneidet der Xiaomi Air Fryer Pro im Vergleich zum Cosori Dual Blaze ab?',
+        es: '¿Cómo se compara el Xiaomi Air Fryer Pro con el Cosori Dual Blaze?',
+        it: 'Come si confronta il Xiaomi Air Fryer Pro con il Cosori Dual Blaze?',
+        nl: 'Hoe verhoudt de Xiaomi Air Fryer Pro zich tot de Cosori Dual Blaze?',
+      },
+      answer: {
+        fr: 'Le Xiaomi est moins cher (79,99 contre 139,99 euros) avec une meilleure intégration domotique, mais le Cosori offre une capacité supérieure (6,4 contre 4 litres), une meilleure cuisson grâce au Dual Blaze et une température max plus élevée (230 contre 200°C). Le Xiaomi convient aux couples, le Cosori aux familles de 3-4 personnes.',
+        en: 'The Xiaomi is cheaper (79.99 vs 139.99 euros) with better smart home integration, but the Cosori offers greater capacity (6.4 vs 4 litres), superior cooking thanks to Dual Blaze, and higher max temperature (230 vs 200°C). The Xiaomi suits couples, the Cosori suits families of 3-4.',
+        de: 'Der Xiaomi ist günstiger (79,99 vs. 139,99 Euro) mit besserer Smart-Home-Integration, aber der Cosori bietet mehr Kapazität (6,4 vs. 4 Liter), besseres Garen dank Dual Blaze und höhere Maximaltemperatur (230 vs. 200°C). Der Xiaomi eignet sich für Paare, der Cosori für Familien von 3-4 Personen.',
+        es: 'El Xiaomi es más barato (79,99 vs 139,99 euros) con mejor integración domótica, pero el Cosori ofrece mayor capacidad (6,4 vs 4 litros), mejor cocción gracias al Dual Blaze y temperatura máxima superior (230 vs 200°C). El Xiaomi conviene a parejas, el Cosori a familias de 3-4 personas.',
+        it: 'Il Xiaomi è più economico (79,99 vs 139,99 euro) con migliore integrazione domotica, ma il Cosori offre capacità superiore (6,4 vs 4 litri), cottura migliore grazie al Dual Blaze e temperatura max più alta (230 vs 200°C). Il Xiaomi è adatto alle coppie, il Cosori alle famiglie di 3-4 persone.',
+        nl: 'De Xiaomi is goedkoper (79,99 vs 139,99 euro) met betere smart home-integratie, maar de Cosori biedt meer capaciteit (6,4 vs 4 liter), beter bakresultaat dankzij Dual Blaze en hogere maximumtemperatuur (230 vs 200°C). De Xiaomi past bij stellen, de Cosori bij gezinnen van 3-4 personen.',
+      },
+    },
+  ],
 }

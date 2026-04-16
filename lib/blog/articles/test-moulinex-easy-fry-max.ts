@@ -504,4 +504,96 @@ export const article: BlogArticle = {
 <h2>Verdict</h2>
 <p>De Moulinex Easy Fry Max 5L is <strong>de verstandige airfryer</strong>. Perfect voor gezinnen die iets betrouwbaars willen zonder poespas. Voor meer prestaties: <a href="/nl/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a> voor €50 meer. Budgetopties in <a href="/nl/blog/meilleur-airfryer-petit-budget">beste budget airfryers</a> en de <a href="/nl/guides/airfryers">complete gids 2026</a>.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Quels sont les avantages d\'une marque française comme Moulinex pour un airfryer ?',
+        en: 'What are the advantages of a French brand like Moulinex for an air fryer?',
+        de: 'Welche Vorteile hat eine französische Marke wie Moulinex bei einer Heißluftfritteuse?',
+        es: '¿Cuáles son las ventajas de una marca francesa como Moulinex para una freidora de aire?',
+        it: 'Quali sono i vantaggi di un marchio francese come Moulinex per una friggitrice ad aria?',
+        nl: 'Wat zijn de voordelen van een Frans merk als Moulinex voor een airfryer?',
+      },
+      answer: {
+        fr: 'Moulinex offre un service après-vente accessible en France, une garantie de 2 ans et surtout un indice de réparabilité de 8,2/10 avec 15 ans de disponibilité des pièces détachées. En cas de panne après plusieurs années, vous pouvez remplacer une pièce sans jeter l\'appareil, un engagement responsable et économique rare dans ce secteur.',
+        en: 'Moulinex offers accessible after-sales service in France, a 2-year warranty, and most importantly a repairability index of 8.2/10 with 15 years of spare parts availability. If a part fails after several years, you can replace it without discarding the appliance — a responsible and economical commitment rare in this sector.',
+        de: 'Moulinex bietet zugänglichen Kundendienst in Frankreich, 2 Jahre Garantie und vor allem einen Reparierbarkeitsindex von 8,2/10 mit 15 Jahren Ersatzteilversorgung. Bei einem Defekt nach Jahren können Sie ein Teil ersetzen, statt das Gerät wegzuwerfen — ein verantwortungsvolles und sparsames Engagement, das in der Branche selten ist.',
+        es: 'Moulinex ofrece servicio posventa accesible en Francia, garantía de 2 años y sobre todo un índice de reparabilidad de 8,2/10 con 15 años de disponibilidad de repuestos. Si se avería tras varios años, puedes reemplazar la pieza sin desechar el aparato, un compromiso responsable y económico poco frecuente en el sector.',
+        it: 'Moulinex offre assistenza post-vendita accessibile in Francia, garanzia di 2 anni e soprattutto un indice di riparabilità di 8,2/10 con 15 anni di disponibilità ricambi. In caso di guasto dopo anni, si può sostituire il pezzo senza buttare l\'apparecchio, un impegno responsabile ed economico raro nel settore.',
+        nl: 'Moulinex biedt toegankelijke klantenservice in Frankrijk, 2 jaar garantie en vooral een repareerbaarheidsindex van 8,2/10 met 15 jaar beschikbaarheid van reserveonderdelen. Bij een defect na jaren kun je een onderdeel vervangen zonder het apparaat weg te gooien, een verantwoordelijk en zuinig engagement dat zeldzaam is in deze sector.',
+      },
+    },
+    {
+      question: {
+        fr: 'Le Moulinex Easy Fry Max 5L est-il assez grand pour une famille de 4 personnes ?',
+        en: 'Is the Moulinex Easy Fry Max 5L large enough for a family of 4?',
+        de: 'Ist der Moulinex Easy Fry Max 5L groß genug für eine 4-köpfige Familie?',
+        es: '¿Es suficiente el Moulinex Easy Fry Max 5L para una familia de 4 personas?',
+        it: 'Il Moulinex Easy Fry Max 5L è abbastanza grande per una famiglia di 4 persone?',
+        nl: 'Is de Moulinex Easy Fry Max 5L groot genoeg voor een gezin van 4 personen?',
+      },
+      answer: {
+        fr: 'Le Moulinex Easy Fry Max offre 5 litres de capacité, ce qui convient pour 2 à 4 personnes. Vous pouvez cuire 500 g de frites fraîches ou 4 pilons de poulet en une fournée. Pour une famille de 4, c\'est juste suffisant mais des fournées multiples seront nécessaires pour les repas copieux. Une famille de 5 et plus devrait choisir un modèle plus grand.',
+        en: 'The Moulinex Easy Fry Max offers 5 litres of capacity, suitable for 2 to 4 people. You can cook 500 g of fresh fries or 4 chicken drumsticks in one batch. For a family of 4, it is just sufficient but multiple batches will be needed for larger meals. A family of 5 or more should choose a larger model.',
+        de: 'Der Moulinex Easy Fry Max bietet 5 Liter Fassungsvermögen, geeignet für 2 bis 4 Personen. Sie können 500 g frische Pommes oder 4 Hähnchenschenkel in einer Charge garen. Für eine 4-köpfige Familie reicht es knapp, aber für größere Mahlzeiten sind mehrere Chargen nötig. Familien ab 5 Personen sollten ein größeres Modell wählen.',
+        es: 'El Moulinex Easy Fry Max ofrece 5 litros de capacidad, adecuado para 2 a 4 personas. Permite cocinar 500 g de patatas frescas o 4 muslos de pollo de una vez. Para 4 personas es justo, pero se necesitarán varias tandas para comidas abundantes. Familias de 5 o más deberían elegir un modelo más grande.',
+        it: 'Il Moulinex Easy Fry Max offre 5 litri di capacità, adatto per 2-4 persone. Si possono cuocere 500 g di patatine fresche o 4 cosce di pollo in una volta. Per 4 persone è appena sufficiente ma saranno necessarie più infornate per pasti abbondanti. Famiglie di 5 o più dovrebbero scegliere un modello più grande.',
+        nl: 'De Moulinex Easy Fry Max biedt 5 liter capaciteit, geschikt voor 2 tot 4 personen. Je kunt 500 g verse friet of 4 kippenpoten in één keer bereiden. Voor een gezin van 4 is het net voldoende, maar voor grotere maaltijden zijn meerdere batches nodig. Een gezin van 5 of meer zou een groter model moeten kiezen.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quelle est la plage de température du Moulinex Easy Fry Max ?',
+        en: 'What is the temperature range of the Moulinex Easy Fry Max?',
+        de: 'Welchen Temperaturbereich hat der Moulinex Easy Fry Max?',
+        es: '¿Cuál es el rango de temperatura del Moulinex Easy Fry Max?',
+        it: 'Qual è il range di temperatura del Moulinex Easy Fry Max?',
+        nl: 'Wat is het temperatuurbereik van de Moulinex Easy Fry Max?',
+      },
+      answer: {
+        fr: 'Le Moulinex Easy Fry Max offre une plage de température de 80°C à 200°C. Cette plage est suffisante pour la majorité des cuissons quotidiennes comme les frites, le poulet et les légumes. La limite de 200°C est cependant un handicap pour saisir les viandes rouges où une température de 230°C ou plus serait préférable pour une croûte optimale.',
+        en: 'The Moulinex Easy Fry Max offers a temperature range from 80°C to 200°C. This range is sufficient for most everyday cooking like fries, chicken and vegetables. The 200°C limit is however a drawback for searing red meat, where 230°C or higher would be preferable for an optimal crust.',
+        de: 'Der Moulinex Easy Fry Max bietet einen Temperaturbereich von 80°C bis 200°C. Dieser Bereich reicht für die meisten Alltagsgerichte wie Pommes, Hähnchen und Gemüse. Die 200°C-Grenze ist allerdings ein Nachteil beim Anbraten von rotem Fleisch, wo 230°C oder mehr für eine optimale Kruste vorzuziehen wären.',
+        es: 'El Moulinex Easy Fry Max ofrece un rango de temperatura de 80°C a 200°C. Este rango es suficiente para la mayoría de cocciones diarias como patatas, pollo y verduras. El límite de 200°C es sin embargo una desventaja para sellar carnes rojas, donde 230°C o más serían preferibles para una costra óptima.',
+        it: 'Il Moulinex Easy Fry Max offre un range di temperatura da 80°C a 200°C. Questo range è sufficiente per la maggior parte delle cotture quotidiane come patatine, pollo e verdure. Il limite di 200°C è però uno svantaggio per scottare le carni rosse, dove 230°C o più sarebbero preferibili per una crosta ottimale.',
+        nl: 'De Moulinex Easy Fry Max biedt een temperatuurbereik van 80°C tot 200°C. Dit bereik is voldoende voor de meeste dagelijkse bereidingen zoals friet, kip en groenten. De 200°C-limiet is wel een nadeel voor het aanbraden van rood vlees, waar 230°C of hoger wenselijk zou zijn voor een optimale korst.',
+      },
+    },
+    {
+      question: {
+        fr: 'Le Moulinex Easy Fry Max est-il facile à nettoyer ?',
+        en: 'Is the Moulinex Easy Fry Max easy to clean?',
+        de: 'Ist der Moulinex Easy Fry Max leicht zu reinigen?',
+        es: '¿Es fácil de limpiar el Moulinex Easy Fry Max?',
+        it: 'Il Moulinex Easy Fry Max è facile da pulire?',
+        nl: 'Is de Moulinex Easy Fry Max makkelijk schoon te maken?',
+      },
+      answer: {
+        fr: 'Le nettoyage est un point fort du Moulinex Easy Fry Max grâce au revêtement EZ Clean légèrement texturé. Le panier et le tiroir passent au lave-vaisselle. Les résidus alimentaires se décollent avec un simple trempage de 5 minutes. C\'est l\'un des airfryers les plus faciles à nettoyer de notre sélection, avec un score de 9,5/10 dans cette catégorie.',
+        en: 'Cleaning is a strong point of the Moulinex Easy Fry Max thanks to the slightly textured EZ Clean coating. The basket and drawer are dishwasher safe. Food residue comes off with a simple 5-minute soak. It is one of the easiest air fryers to clean in our selection, scoring 9.5/10 in this category.',
+        de: 'Die Reinigung ist eine Stärke des Moulinex Easy Fry Max dank der leicht texturierten EZ-Clean-Beschichtung. Korb und Schublade sind spülmaschinenfest. Essensreste lösen sich nach 5 Minuten Einweichen. Er gehört zu den am leichtesten zu reinigenden Heißluftfritteusen in unserer Auswahl, mit 9,5/10 in dieser Kategorie.',
+        es: 'La limpieza es un punto fuerte del Moulinex Easy Fry Max gracias al recubrimiento EZ Clean ligeramente texturizado. La cesta y el cajón son aptos para lavavajillas. Los restos se despegan con un remojo de 5 minutos. Es una de las freidoras más fáciles de limpiar de nuestra selección, con 9,5/10 en esta categoría.',
+        it: 'La pulizia è un punto di forza del Moulinex Easy Fry Max grazie al rivestimento EZ Clean leggermente testurizzato. Cestello e cassetto sono lavabili in lavastoviglie. I residui si staccano con un semplice ammollo di 5 minuti. È una delle friggitrici più facili da pulire nella nostra selezione, con 9,5/10 in questa categoria.',
+        nl: 'Reiniging is een sterk punt van de Moulinex Easy Fry Max dankzij de licht getextureerde EZ Clean-coating. Mand en lade zijn vaatwasmachinebestendig. Etensresten komen los met een eenvoudige 5 minuten weken. Het is een van de makkelijkst schoon te maken airfryers in onze selectie, met 9,5/10 in deze categorie.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quels accessoires sont compatibles avec le Moulinex Easy Fry Max ?',
+        en: 'What accessories are compatible with the Moulinex Easy Fry Max?',
+        de: 'Welches Zubehör ist mit dem Moulinex Easy Fry Max kompatibel?',
+        es: '¿Qué accesorios son compatibles con el Moulinex Easy Fry Max?',
+        it: 'Quali accessori sono compatibili con il Moulinex Easy Fry Max?',
+        nl: 'Welke accessoires zijn compatibel met de Moulinex Easy Fry Max?',
+      },
+      answer: {
+        fr: 'Le Moulinex Easy Fry Max est livré avec son panier amovible doté du revêtement EZ Clean. Moulinex propose des accessoires optionnels compatibles, notamment des moules et grilles adaptés au format du tiroir. L\'appareil inclut 10 programmes prédéfinis couvrant frites, poulet, poisson, pizza, légumes, dessert et autres préparations courantes.',
+        en: 'The Moulinex Easy Fry Max comes with its removable basket featuring the EZ Clean coating. Moulinex offers optional compatible accessories, including moulds and grids sized for the drawer. The appliance includes 10 preset programmes covering fries, chicken, fish, pizza, vegetables, dessert, and other common preparations.',
+        de: 'Der Moulinex Easy Fry Max wird mit seinem herausnehmbaren Korb mit EZ-Clean-Beschichtung geliefert. Moulinex bietet optionales kompatibles Zubehör an, darunter Formen und Roste passend zur Schubladengröße. Das Gerät umfasst 10 voreingestellte Programme für Pommes, Hähnchen, Fisch, Pizza, Gemüse, Dessert und andere Alltagsgerichte.',
+        es: 'El Moulinex Easy Fry Max incluye su cesta extraíble con recubrimiento EZ Clean. Moulinex ofrece accesorios opcionales compatibles, incluyendo moldes y rejillas adaptados al cajón. El aparato incluye 10 programas predefinidos que cubren patatas, pollo, pescado, pizza, verduras, postre y otras preparaciones comunes.',
+        it: 'Il Moulinex Easy Fry Max include il cestello rimovibile con rivestimento EZ Clean. Moulinex offre accessori opzionali compatibili, tra cui stampi e griglie adatti al cassetto. L\'apparecchio include 10 programmi preimpostati che coprono patatine, pollo, pesce, pizza, verdure, dolce e altre preparazioni comuni.',
+        nl: 'De Moulinex Easy Fry Max wordt geleverd met zijn uitneembare mand met EZ Clean-coating. Moulinex biedt optionele compatibele accessoires aan, waaronder vormen en roosters die passen in de lade. Het apparaat bevat 10 voorgeprogrammeerde programma\'s voor friet, kip, vis, pizza, groenten, dessert en andere veelvoorkomende bereidingen.',
+      },
+    },
+  ],
 }

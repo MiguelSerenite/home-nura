@@ -525,4 +525,96 @@ export const article: BlogArticle = {
 
 <p>Meer in onze <a href="/nl/blog/airfryer-vs-friteuse-traditionnelle">vergelijking airfryer vs frituur</a>. Budgetmodellen: <a href="/nl/blog/meilleur-airfryer-petit-budget">beste goedkope airfryers</a>. Complete gids: <a href="/nl/guides/airfryers">airfryers</a> en <a href="/nl/guides/airfryer-vs-four">airfryer vs oven</a>.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Combien de kWh consomme un airfryer par utilisation ?',
+        en: 'How many kWh does an air fryer use per session?',
+        de: 'Wie viele kWh verbraucht eine Heißluftfritteuse pro Nutzung?',
+        es: '¿Cuántos kWh consume una freidora de aire por uso?',
+        it: 'Quanti kWh consuma una friggitrice ad aria per utilizzo?',
+        nl: 'Hoeveel kWh verbruikt een airfryer per keer?',
+      },
+      answer: {
+        fr: 'Un airfryer standard de 1 500 à 1 800 W consomme entre 0,3 et 0,6 kWh par utilisation de 20 minutes. Cela représente environ 5 à 15 centimes d\'électricité selon votre tarif. Par comparaison, un four traditionnel consomme 1 à 2 kWh pour la même cuisson, soit 3 à 4 fois plus.',
+        en: 'A standard 1,500 to 1,800 W air fryer uses between 0.3 and 0.6 kWh per 20-minute session. This costs roughly 5 to 15 cents in electricity depending on your rate. By comparison, a traditional oven uses 1 to 2 kWh for the same cooking task, which is 3 to 4 times more energy.',
+        de: 'Eine Standard-Heißluftfritteuse mit 1.500 bis 1.800 W verbraucht 0,3 bis 0,6 kWh pro 20-minütiger Nutzung. Das kostet etwa 5 bis 15 Cent Strom je nach Tarif. Im Vergleich verbraucht ein herkömmlicher Backofen 1 bis 2 kWh für denselben Garvorgang — 3- bis 4-mal mehr.',
+        es: 'Una freidora estándar de 1.500 a 1.800 W consume entre 0,3 y 0,6 kWh por uso de 20 minutos. Esto supone unos 5 a 15 céntimos de electricidad según tu tarifa. En comparación, un horno tradicional consume 1 a 2 kWh para la misma cocción, es decir 3 a 4 veces más.',
+        it: 'Una friggitrice ad aria standard da 1.500 a 1.800 W consuma tra 0,3 e 0,6 kWh per utilizzo di 20 minuti. Costa circa 5-15 centesimi di elettricità secondo la tariffa. Per confronto, un forno tradizionale consuma 1-2 kWh per la stessa cottura, ovvero 3-4 volte di più.',
+        nl: 'Een standaard airfryer van 1.500 tot 1.800 W verbruikt tussen 0,3 en 0,6 kWh per gebruik van 20 minuten. Dit kost ongeveer 5 tot 15 cent elektriciteit afhankelijk van je tarief. Ter vergelijking: een traditionele oven verbruikt 1 tot 2 kWh voor dezelfde bereiding, 3 tot 4 keer meer.',
+      },
+    },
+    {
+      question: {
+        fr: 'Combien peut-on économiser par an en utilisant un airfryer au lieu d\'un four ?',
+        en: 'How much can you save per year using an air fryer instead of an oven?',
+        de: 'Wie viel kann man pro Jahr sparen, wenn man eine Heißluftfritteuse statt eines Backofens nutzt?',
+        es: '¿Cuánto se puede ahorrar al año usando una freidora de aire en lugar de un horno?',
+        it: 'Quanto si può risparmiare all\'anno usando una friggitrice ad aria al posto del forno?',
+        nl: 'Hoeveel kun je per jaar besparen door een airfryer te gebruiken in plaats van een oven?',
+      },
+      answer: {
+        fr: 'En utilisant l\'airfryer 5 fois par semaine au lieu du four, l\'économie annuelle se situe entre 40 et 80 € selon votre tarif électrique et vos habitudes. En France, avec un tarif moyen de 0,25 €/kWh, un foyer économise environ 60 € par an. L\'airfryer se rentabilise en 1 à 2 ans par les économies d\'énergie seules.',
+        en: 'Using the air fryer 5 times per week instead of the oven, annual savings range from 40 to 80 euros depending on your electricity rate and habits. In Europe, with an average rate of 0.25 euros per kWh, a household saves about 60 euros per year. The air fryer pays for itself in 1 to 2 years.',
+        de: 'Bei 5-maliger wöchentlicher Nutzung der Heißluftfritteuse statt des Backofens liegen die jährlichen Ersparnisse bei 40 bis 80 Euro, je nach Stromtarif. In Deutschland spart ein Haushalt bei durchschnittlich 0,35 €/kWh etwa 70-80 Euro pro Jahr. Das Gerät amortisiert sich in 1-2 Jahren.',
+        es: 'Usando la freidora 5 veces por semana en lugar del horno, el ahorro anual es de 40 a 80 euros según tu tarifa eléctrica. En España, con una tarifa media de 0,20 €/kWh, un hogar ahorra unos 50 euros al año. La freidora se amortiza en 1 a 2 años solo con el ahorro energético.',
+        it: 'Usando la friggitrice ad aria 5 volte a settimana al posto del forno, il risparmio annuale va da 40 a 80 euro secondo la tariffa elettrica. In Italia, con una tariffa media di 0,25 €/kWh, una famiglia risparmia circa 60 euro all\'anno. La friggitrice si ripaga in 1-2 anni.',
+        nl: 'Bij 5 keer per week de airfryer gebruiken in plaats van de oven bespaar je jaarlijks 40 tot 80 euro, afhankelijk van je stroomtarief. In Nederland bespaar je met een gemiddeld tarief van 0,30 €/kWh ongeveer 70 euro per jaar. De airfryer verdient zichzelf in 1-2 jaar terug.',
+      },
+    },
+    {
+      question: {
+        fr: 'L\'airfryer consomme-t-il plus ou moins qu\'un micro-ondes ?',
+        en: 'Does an air fryer use more or less energy than a microwave?',
+        de: 'Verbraucht eine Heißluftfritteuse mehr oder weniger Energie als eine Mikrowelle?',
+        es: '¿La freidora de aire consume más o menos que un microondas?',
+        it: 'La friggitrice ad aria consuma più o meno di un microonde?',
+        nl: 'Verbruikt een airfryer meer of minder dan een magnetron?',
+      },
+      answer: {
+        fr: 'Le micro-ondes consomme légèrement moins (environ 0,2 kWh pour 10 minutes) car il chauffe plus directement les aliments. Cependant, le micro-ondes ne peut pas rendre les aliments croustillants. Pour le réchauffage simple, le micro-ondes est plus économe. Pour la cuisson avec texture, l\'airfryer reste le meilleur compromis.',
+        en: 'A microwave uses slightly less energy (about 0.2 kWh for 10 minutes) because it heats food more directly. However, a microwave cannot make food crispy. For simple reheating, the microwave is more efficient. For cooking with texture and browning, the air fryer is the best compromise between energy and results.',
+        de: 'Die Mikrowelle verbraucht etwas weniger (etwa 0,2 kWh für 10 Minuten), da sie Lebensmittel direkter erhitzt. Allerdings kann die Mikrowelle keine knusprigen Ergebnisse liefern. Zum einfachen Aufwärmen ist die Mikrowelle sparsamer. Für Kochen mit Textur ist die Heißluftfritteuse der beste Kompromiss.',
+        es: 'El microondas consume ligeramente menos (unos 0,2 kWh por 10 minutos) porque calienta los alimentos más directamente. Sin embargo, no puede hacer los alimentos crujientes. Para recalentar, el microondas es más eficiente. Para cocinar con textura, la freidora de aire es el mejor compromiso.',
+        it: 'Il microonde consuma leggermente meno (circa 0,2 kWh per 10 minuti) perché riscalda il cibo più direttamente. Tuttavia, il microonde non può rendere il cibo croccante. Per il semplice riscaldamento, il microonde è più efficiente. Per la cottura con texture, la friggitrice ad aria è il miglior compromesso.',
+        nl: 'De magnetron verbruikt iets minder (ongeveer 0,2 kWh voor 10 minuten) omdat het eten directer verwarmt. Een magnetron kan eten echter niet krokant maken. Voor simpel opwarmen is de magnetron zuiniger. Voor koken met textuur en bruining is de airfryer het beste compromis.',
+      },
+    },
+    {
+      question: {
+        fr: 'Un airfryer consomme-t-il de l\'énergie en veille ?',
+        en: 'Does an air fryer consume energy on standby?',
+        de: 'Verbraucht eine Heißluftfritteuse Strom im Standby-Modus?',
+        es: '¿Una freidora de aire consume energía en modo espera?',
+        it: 'Una friggitrice ad aria consuma energia in standby?',
+        nl: 'Verbruikt een airfryer energie in standby?',
+      },
+      answer: {
+        fr: 'Oui, les modèles connectés avec écran digital consomment 1 à 3 watts en veille, soit environ 1 à 2 € par an. Les modèles à boutons mécaniques ne consomment rien une fois éteints. Pour éliminer toute consommation, débranchez l\'appareil ou utilisez une multiprise à interrupteur après chaque utilisation.',
+        en: 'Yes, connected models with digital displays consume 1 to 3 watts on standby, costing about 1 to 2 euros per year. Models with mechanical dials consume nothing when turned off. To eliminate all standby consumption, unplug the appliance or use a power strip with a switch after each use.',
+        de: 'Ja, vernetzte Modelle mit Digitalanzeige verbrauchen 1 bis 3 Watt im Standby, etwa 1-2 Euro pro Jahr. Modelle mit mechanischen Drehknöpfen verbrauchen im ausgeschalteten Zustand nichts. Um jeglichen Standby-Verbrauch zu vermeiden, trennen Sie das Gerät oder nutzen Sie eine schaltbare Steckdosenleiste.',
+        es: 'Sí, los modelos conectados con pantalla digital consumen 1 a 3 vatios en espera, unos 1-2 euros al año. Los modelos con mandos mecánicos no consumen nada apagados. Para eliminar todo consumo en espera, desenchúfalo o usa una regleta con interruptor después de cada uso.',
+        it: 'Sì, i modelli connessi con display digitale consumano 1-3 watt in standby, circa 1-2 euro all\'anno. I modelli con manopole meccaniche non consumano nulla da spenti. Per eliminare qualsiasi consumo in standby, scollega l\'apparecchio o usa una ciabatta con interruttore dopo ogni utilizzo.',
+        nl: 'Ja, connected modellen met digitaal scherm verbruiken 1 tot 3 watt in standby, ongeveer 1-2 euro per jaar. Modellen met mechanische knoppen verbruiken niets wanneer uitgeschakeld. Om elk standbyverbruik te elimineren, haal de stekker eruit of gebruik een stekkerdoos met schakelaar.',
+      },
+    },
+    {
+      question: {
+        fr: 'Peut-on alimenter un airfryer avec des panneaux solaires ?',
+        en: 'Can you power an air fryer with solar panels?',
+        de: 'Kann man eine Heißluftfritteuse mit Solarpaneelen betreiben?',
+        es: '¿Se puede alimentar una freidora de aire con paneles solares?',
+        it: 'Si può alimentare una friggitrice ad aria con pannelli solari?',
+        nl: 'Kun je een airfryer voeden met zonnepanelen?',
+      },
+      answer: {
+        fr: 'Oui, un airfryer est parfaitement compatible avec une installation solaire domestique. Sa consommation modérée (0,3-0,6 kWh par utilisation) est facilement couverte par des panneaux solaires. Cuisinez en journée pour maximiser l\'autoconsommation. Avec 3 kWc de panneaux, votre airfryer ne coûte rien en électricité.',
+        en: 'Yes, an air fryer is perfectly compatible with a home solar installation. Its moderate consumption of 0.3-0.6 kWh per use is easily covered by solar panels. Cook during daytime to maximize self-consumption. With a 3 kWp panel system, your air fryer effectively costs nothing in electricity.',
+        de: 'Ja, eine Heißluftfritteuse ist perfekt mit einer häuslichen Solaranlage kompatibel. Ihr moderater Verbrauch von 0,3-0,6 kWh pro Nutzung wird leicht von Solarpaneelen abgedeckt. Kochen Sie tagsüber für maximalen Eigenverbrauch. Mit einer 3-kWp-Anlage kostet Ihre Heißluftfritteuse keinen Strom.',
+        es: 'Sí, una freidora de aire es perfectamente compatible con una instalación solar doméstica. Su consumo moderado (0,3-0,6 kWh por uso) se cubre fácilmente con paneles solares. Cocina durante el día para maximizar el autoconsumo. Con 3 kWp de paneles, tu freidora no cuesta nada en electricidad.',
+        it: 'Sì, una friggitrice ad aria è perfettamente compatibile con un impianto solare domestico. Il suo consumo moderato (0,3-0,6 kWh per utilizzo) è facilmente coperto dai pannelli solari. Cucina di giorno per massimizzare l\'autoconsumo. Con 3 kWp di pannelli, la friggitrice non costa nulla in elettricità.',
+        nl: 'Ja, een airfryer is perfect compatibel met een thuiszonne-installatie. Het gematigde verbruik van 0,3-0,6 kWh per gebruik wordt gemakkelijk gedekt door zonnepanelen. Kook overdag om eigen verbruik te maximaliseren. Met 3 kWp aan panelen kost je airfryer effectief niets aan stroom.',
+      },
+    },
+  ],
 }

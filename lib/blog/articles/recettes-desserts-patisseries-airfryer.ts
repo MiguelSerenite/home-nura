@@ -971,4 +971,96 @@ export const article: BlogArticle = {
 </ul>
 <p>Bekijk ons artikel over <a href="/nl/blog/erreurs-courantes-airfryer">veelgemaakte airfryer-fouten</a>.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Peut-on vraiment faire de la pâtisserie dans un airfryer ?',
+        en: 'Can you really bake pastries in an air fryer?',
+        de: 'Kann man wirklich Gebäck in der Heißluftfritteuse backen?',
+        es: '¿Se puede realmente hacer repostería en una freidora de aire?',
+        it: 'Si possono davvero fare dolci nella friggitrice ad aria?',
+        nl: 'Kun je echt gebak maken in een airfryer?',
+      },
+      answer: {
+        fr: 'Oui, l\'airfryer est un excellent mini-four pour la pâtisserie. Il excelle pour les brownies, muffins, cookies, banana bread et petits gâteaux. La chaleur circulante produit une cuisson uniforme et rapide. Réduisez la température de 10-20°C par rapport aux recettes de four classique et surveillez la cuisson attentivement.',
+        en: 'Yes, the air fryer is an excellent mini oven for baking. It excels at brownies, muffins, cookies, banana bread, and small cakes. The circulating heat produces even and fast baking. Reduce the temperature by 10-20°C compared to traditional oven recipes and monitor baking closely for best results.',
+        de: 'Ja, die Heißluftfritteuse ist ein ausgezeichneter Mini-Backofen. Sie eignet sich hervorragend für Brownies, Muffins, Cookies, Bananenbrot und kleine Kuchen. Die zirkulierende Hitze erzeugt gleichmäßiges und schnelles Backen. Reduzieren Sie die Temperatur um 10-20°C gegenüber klassischen Ofenrezepten.',
+        es: 'Sí, la freidora de aire es un excelente mini horno para repostería. Destaca en brownies, muffins, cookies, banana bread y bizcochos pequeños. El calor circulante produce una cocción uniforme y rápida. Reduce la temperatura 10-20°C respecto a recetas de horno clásico y vigila la cocción.',
+        it: 'Sì, la friggitrice ad aria è un eccellente mini forno per la pasticceria. Eccelle con brownies, muffin, cookies, banana bread e piccole torte. Il calore circolante produce una cottura uniforme e rapida. Riduci la temperatura di 10-20°C rispetto alle ricette da forno classiche e monitora attentamente.',
+        nl: 'Ja, de airfryer is een uitstekende mini-oven voor gebak. Hij blinkt uit bij brownies, muffins, koekjes, bananenbrood en kleine cakes. De circulerende warmte zorgt voor gelijkmatig en snel bakken. Verlaag de temperatuur 10-20°C ten opzichte van traditionele ovenrecepten en houd het goed in de gaten.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quels moules utiliser pour les desserts à l\'airfryer ?',
+        en: 'What moulds should you use for air fryer desserts?',
+        de: 'Welche Formen eignen sich für Desserts in der Heißluftfritteuse?',
+        es: '¿Qué moldes usar para los postres en la freidora de aire?',
+        it: 'Quali stampi usare per i dolci nella friggitrice ad aria?',
+        nl: 'Welke vormen gebruik je voor desserts in de airfryer?',
+      },
+      answer: {
+        fr: 'Privilégiez les moules en silicone résistants jusqu\'à 230°C : ils sont souples, antiadhésifs et faciles à démouler. Les ramequins en céramique conviennent aussi pour les lava cakes et crèmes. Assurez-vous que le moule laisse au moins 1 cm d\'espace autour pour la circulation d\'air. Évitez les moules trop hauts.',
+        en: 'Choose silicone moulds rated up to 230°C: they are flexible, non-stick, and easy to unmould. Ceramic ramekins also work well for lava cakes and custards. Ensure the mould leaves at least 1 cm clearance around it for air circulation. Avoid moulds that are too tall for the basket.',
+        de: 'Bevorzugen Sie Silikonformen, die bis 230°C hitzebeständig sind: flexibel, antihaftbeschichtet und leicht zu lösen. Keramik-Förmchen eignen sich auch für Lava Cakes und Cremes. Lassen Sie mindestens 1 cm Abstand um die Form für die Luftzirkulation. Vermeiden Sie zu hohe Formen.',
+        es: 'Elige moldes de silicona resistentes hasta 230°C: son flexibles, antiadherentes y fáciles de desmoldar. Los ramequines de cerámica también sirven para lava cakes y cremas. Asegúrate de dejar al menos 1 cm de espacio alrededor para la circulación de aire. Evita moldes demasiado altos.',
+        it: 'Scegli stampi in silicone resistenti fino a 230°C: sono flessibili, antiaderenti e facili da sformare. I ramequin in ceramica vanno bene per lava cake e creme. Assicurati che lo stampo lasci almeno 1 cm di spazio intorno per la circolazione dell\'aria. Evita stampi troppo alti.',
+        nl: 'Kies siliconenvormen bestand tot 230°C: flexibel, antiaanbak en makkelijk los te maken. Keramische ramekins werken ook goed voor lava cakes en crèmes. Zorg dat de vorm minstens 1 cm ruimte overlaat voor luchtcirculatie. Vermijd te hoge vormen voor de mand.',
+      },
+    },
+    {
+      question: {
+        fr: 'Peut-on faire un vrai gâteau dans un airfryer ?',
+        en: 'Can you bake a real cake in an air fryer?',
+        de: 'Kann man einen richtigen Kuchen in der Heißluftfritteuse backen?',
+        es: '¿Se puede hacer un pastel de verdad en la freidora de aire?',
+        it: 'Si può fare una vera torta nella friggitrice ad aria?',
+        nl: 'Kun je een echte cake bakken in de airfryer?',
+      },
+      answer: {
+        fr: 'Oui, pour les gâteaux de petite taille. Un moule rond de 15-18 cm entre dans la plupart des airfryers. Réglez à 160°C et prévoyez 25-35 minutes selon la recette. Couvrez le dessus de papier aluminium si le gâteau dore trop vite. Le résultat est moelleux et bien levé, parfait pour un dessert rapide.',
+        en: 'Yes, for small-sized cakes. A 15-18 cm round tin fits in most air fryers. Set to 160°C and allow 25-35 minutes depending on the recipe. Cover the top with aluminium foil if the cake browns too quickly. The result is moist and well-risen, perfect for a quick dessert without preheating a full oven.',
+        de: 'Ja, für kleine Kuchen. Eine runde 15-18 cm Form passt in die meisten Heißluftfritteusen. Stellen Sie 160°C ein und rechnen Sie mit 25-35 Minuten je nach Rezept. Decken Sie die Oberseite mit Alufolie ab, wenn der Kuchen zu schnell bräunt. Das Ergebnis ist saftig und gut aufgegangen.',
+        es: 'Sí, para pasteles pequeños. Un molde redondo de 15-18 cm cabe en la mayoría de freidoras. Pon a 160°C y calcula 25-35 minutos según la receta. Cubre la parte superior con papel de aluminio si se dora demasiado rápido. El resultado es esponjoso y bien subido, perfecto para un postre rápido.',
+        it: 'Sì, per torte di piccole dimensioni. Uno stampo rotondo da 15-18 cm entra nella maggior parte delle friggitrici. Imposta a 160°C e prevedi 25-35 minuti secondo la ricetta. Copri la parte superiore con foglio di alluminio se la torta dora troppo in fretta. Il risultato è morbido e ben lievitato.',
+        nl: 'Ja, voor kleine cakes. Een ronde bakvorm van 15-18 cm past in de meeste airfryers. Stel in op 160°C en reken op 25-35 minuten afhankelijk van het recept. Bedek de bovenkant met aluminiumfolie als de cake te snel bruint. Het resultaat is luchtig en goed gerezen, perfect voor een snel dessert.',
+      },
+    },
+    {
+      question: {
+        fr: 'Les cookies cuisent-ils bien dans un airfryer ?',
+        en: 'Do cookies bake well in an air fryer?',
+        de: 'Gelingen Cookies gut in der Heißluftfritteuse?',
+        es: '¿Las galletas se cocinan bien en la freidora de aire?',
+        it: 'I cookies vengono bene nella friggitrice ad aria?',
+        nl: 'Bakken koekjes goed in de airfryer?',
+      },
+      answer: {
+        fr: 'Oui, les cookies à l\'airfryer sont même supérieurs au four pour les petites quantités. Réglez à 160°C pendant 8-10 minutes. Utilisez un papier perforé ou un moule en silicone pour éviter que la pâte ne coule. Espérez les cookies de 3 cm minimum. Ils sont croustillants à l\'extérieur et moelleux au centre.',
+        en: 'Yes, air fryer cookies are even better than oven-baked for small batches. Set to 160°C for 8-10 minutes. Use a perforated liner or silicone mat to prevent dough from dripping through. Space cookies at least 3 cm apart. They come out crispy on the outside and chewy in the centre.',
+        de: 'Ja, Cookies aus der Heißluftfritteuse sind für kleine Mengen sogar besser als aus dem Backofen. Stellen Sie 160°C für 8-10 Minuten ein. Verwenden Sie perforiertes Papier oder eine Silikonmatte. Lassen Sie mindestens 3 cm Abstand. Sie werden außen knusprig und innen weich.',
+        es: 'Sí, las galletas en freidora de aire son incluso mejores que al horno para cantidades pequeñas. Pon a 160°C durante 8-10 minutos. Usa papel perforado o base de silicona para evitar que la masa gotee. Separa las galletas 3 cm mínimo. Quedan crujientes por fuera y tiernas por dentro.',
+        it: 'Sì, i cookies nella friggitrice ad aria sono anche migliori del forno per piccole quantità. Imposta a 160°C per 8-10 minuti. Usa un foglio perforato o un tappetino in silicone per evitare che l\'impasto coli. Distanzia i cookies di almeno 3 cm. Risultano croccanti fuori e morbidi dentro.',
+        nl: 'Ja, koekjes uit de airfryer zijn voor kleine hoeveelheden zelfs beter dan uit de oven. Stel in op 160°C voor 8-10 minuten. Gebruik een geperforeerd vel of siliconenmat om te voorkomen dat deeg erdoor druipt. Houd minstens 3 cm afstand. Ze worden krokant van buiten en zacht van binnen.',
+      },
+    },
+    {
+      question: {
+        fr: 'À quelle température cuire les desserts dans un airfryer ?',
+        en: 'What temperature should you bake desserts at in an air fryer?',
+        de: 'Bei welcher Temperatur backt man Desserts in der Heißluftfritteuse?',
+        es: '¿A qué temperatura cocinar los postres en la freidora de aire?',
+        it: 'A quale temperatura cuocere i dolci nella friggitrice ad aria?',
+        nl: 'Op welke temperatuur bak je desserts in de airfryer?',
+      },
+      answer: {
+        fr: 'La plage idéale est de 150 à 170°C pour la plupart des desserts. Les cookies et churros supportent 160°C, les brownies et muffins 165°C, et les lava cakes 190°C. Réduisez toujours de 10-20°C par rapport au four traditionnel car l\'airfryer concentre la chaleur dans un espace réduit et cuit plus rapidement.',
+        en: 'The ideal range is 150 to 170°C for most desserts. Cookies and churros work well at 160°C, brownies and muffins at 165°C, and lava cakes at 190°C. Always reduce by 10-20°C compared to traditional oven because the air fryer concentrates heat in a smaller space and bakes faster.',
+        de: 'Der ideale Bereich liegt bei 150-170°C für die meisten Desserts. Cookies und Churros bei 160°C, Brownies und Muffins bei 165°C, Lava Cakes bei 190°C. Reduzieren Sie immer um 10-20°C gegenüber dem herkömmlichen Backofen, da die Heißluftfritteuse die Hitze auf kleinerem Raum konzentriert.',
+        es: 'El rango ideal es de 150 a 170°C para la mayoría de postres. Galletas y churros a 160°C, brownies y muffins a 165°C, lava cakes a 190°C. Reduce siempre 10-20°C respecto al horno tradicional porque la freidora concentra el calor en un espacio más pequeño y hornea más rápido.',
+        it: 'L\'intervallo ideale è 150-170°C per la maggior parte dei dolci. Cookies e churros a 160°C, brownies e muffin a 165°C, lava cake a 190°C. Riduci sempre di 10-20°C rispetto al forno tradizionale perché la friggitrice concentra il calore in uno spazio ridotto e cuoce più velocemente.',
+        nl: 'Het ideale bereik is 150 tot 170°C voor de meeste desserts. Koekjes en churros op 160°C, brownies en muffins op 165°C, lava cakes op 190°C. Verlaag altijd 10-20°C ten opzichte van de traditionele oven omdat de airfryer warmte in een kleinere ruimte concentreert en sneller bakt.',
+      },
+    },
+  ],
 }

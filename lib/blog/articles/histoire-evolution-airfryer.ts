@@ -454,4 +454,96 @@ export const article: BlogArticle = {
 <p><strong>Predictieve AI</strong> zal individuele voorkeuren leren. <strong>Ecodesign</strong> brengt gerecyclede materialen en PFAS-vrije coatings. De grenzen tussen airfryer, oven, droogapparaat en grill blijven vervagen. De keukenrevolutie die Philips in 2010 begon, staat nog maar aan het begin.</p>
 </article>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Qui a invente l\'airfryer ?',
+        en: 'Who invented the air fryer?',
+        de: 'Wer hat die Heissluftfritteuse erfunden?',
+        es: 'Quien invento la freidora de aire?',
+        it: 'Chi ha inventato la friggitrice ad aria?',
+        nl: 'Wie heeft de airfryer uitgevonden?',
+      },
+      answer: {
+        fr: 'L\'airfryer a ete invente par Philips, le geant neerlandais de l\'electronique. La technologie Rapid Air a ete developpee par leurs ingenieurs en collaboration avec des designers industriels. Les premiers prototypes ont ete testes des 2006, et le brevet a ete depose en 2009. Le premier modele commercial, le Philips HD9220, est sorti en 2010.',
+        en: 'The air fryer was invented by Philips, the Dutch electronics giant. Rapid Air technology was developed by their engineers in collaboration with industrial designers. Early prototypes were tested from 2006, and the patent was filed in 2009. The first commercial model, the Philips HD9220, launched in 2010.',
+        de: 'Die Heissluftfritteuse wurde von Philips erfunden, dem niederlaendischen Elektronikkonzern. Die Rapid-Air-Technologie wurde von ihren Ingenieuren in Zusammenarbeit mit Industriedesignern entwickelt. Erste Prototypen wurden ab 2006 getestet, das Patent wurde 2009 eingereicht. Das erste kommerzielle Modell, die Philips HD9220, kam 2010 auf den Markt.',
+        es: 'La freidora de aire fue inventada por Philips, el gigante neerlandes de la electronica. La tecnologia Rapid Air fue desarrollada por sus ingenieros en colaboracion con disenadores industriales. Los primeros prototipos se probaron desde 2006 y la patente se registro en 2009. El primer modelo comercial, la Philips HD9220, salio en 2010.',
+        it: 'La friggitrice ad aria e stata inventata da Philips, il colosso olandese dell\'elettronica. La tecnologia Rapid Air e stata sviluppata dai loro ingegneri in collaborazione con designer industriali. I primi prototipi sono stati testati dal 2006 e il brevetto depositato nel 2009. Il primo modello commerciale, la Philips HD9220, e uscito nel 2010.',
+        nl: 'De airfryer is uitgevonden door Philips, de Nederlandse elektronicagigant. De Rapid Air-technologie werd ontwikkeld door hun ingenieurs in samenwerking met industrieel ontwerpers. De eerste prototypes werden getest vanaf 2006 en het patent werd ingediend in 2009. Het eerste commerciele model, de Philips HD9220, kwam uit in 2010.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quand l\'airfryer a-t-il ete lance en Europe ?',
+        en: 'When was the air fryer launched in Europe?',
+        de: 'Wann wurde die Heissluftfritteuse in Europa eingefuehrt?',
+        es: 'Cuando se lanzo la freidora de aire en Europa?',
+        it: 'Quando e stata lanciata la friggitrice ad aria in Europa?',
+        nl: 'Wanneer werd de airfryer in Europa gelanceerd?',
+      },
+      answer: {
+        fr: 'L\'airfryer a ete presente pour la premiere fois a l\'IFA de Berlin en 2010, le plus grand salon mondial de l\'electronique grand public. Le premier modele, le Philips HD9220, a ete commercialise fin 2010 en Europe au prix d\'environ 230 euros. Le succes a ete immediat avec plus de 100 000 unites vendues aux Pays-Bas et en Allemagne en quelques mois.',
+        en: 'The air fryer was first presented at the IFA consumer electronics show in Berlin in 2010. The first model, the Philips HD9220, went on sale in late 2010 across Europe at approximately 230 euros. Success was immediate, with over 100,000 units sold in the Netherlands and Germany alone within months.',
+        de: 'Die Heissluftfritteuse wurde erstmals auf der IFA in Berlin 2010 vorgestellt. Das erste Modell, die Philips HD9220, kam Ende 2010 fuer etwa 230 Euro in den europaeischen Handel. Der Erfolg war sofort: ueber 100.000 verkaufte Einheiten in den Niederlanden und Deutschland innerhalb weniger Monate.',
+        es: 'La freidora de aire se presento por primera vez en la IFA de Berlin en 2010. El primer modelo, la Philips HD9220, se comercializo a finales de 2010 en Europa por unos 230 euros. El exito fue inmediato: mas de 100.000 unidades vendidas en los Paises Bajos y Alemania en pocos meses.',
+        it: 'La friggitrice ad aria e stata presentata per la prima volta all\'IFA di Berlino nel 2010. Il primo modello, la Philips HD9220, e stato commercializzato alla fine del 2010 in Europa a circa 230 euro. Il successo e stato immediato: oltre 100.000 unita vendute nei Paesi Bassi e in Germania in pochi mesi.',
+        nl: 'De airfryer werd voor het eerst gepresenteerd op de IFA in Berlijn in 2010. Het eerste model, de Philips HD9220, ging eind 2010 in de verkoop in Europa voor ongeveer 230 euro. Het succes was onmiddellijk: meer dan 100.000 verkochte exemplaren in Nederland en Duitsland binnen enkele maanden.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quelle est l\'histoire du brevet de l\'airfryer ?',
+        en: 'What is the story behind the air fryer patent?',
+        de: 'Was ist die Geschichte hinter dem Heissluftfritteusen-Patent?',
+        es: 'Cual es la historia de la patente de la freidora de aire?',
+        it: 'Qual e la storia del brevetto della friggitrice ad aria?',
+        nl: 'Wat is het verhaal achter het airfryer-patent?',
+      },
+      answer: {
+        fr: 'Philips a depose le brevet de la technologie Rapid Air en 2009, decrivant un appareil de cuisson utilisant un flux d\'air chaud a circulation forcee. Ce brevet a declenche une guerre juridique intense entre 2012 et 2014, Philips poursuivant plusieurs fabricants pour contrefacon. Ces batailles ont paradoxalement mediatise le concept et accelere l\'interet du public pour la categorie.',
+        en: 'Philips filed the Rapid Air technology patent in 2009, describing a cooking device using forced circulating hot air flow. This patent triggered an intense legal war between 2012 and 2014, with Philips suing several manufacturers for infringement. These battles paradoxically generated media attention and accelerated public interest in the category.',
+        de: 'Philips reichte das Rapid-Air-Patent 2009 ein und beschrieb ein Kochgeraet mit erzwungener Heissluftzirkulation. Dieses Patent loeste einen intensiven Rechtsstreit zwischen 2012 und 2014 aus, wobei Philips mehrere Hersteller wegen Patentverletzung verklagte. Diese Kaempfe erzeugten paradoxerweise Medienaufmerksamkeit und beschleunigten das oeffentliche Interesse.',
+        es: 'Philips registro la patente de la tecnologia Rapid Air en 2009, describiendo un aparato de coccion con flujo de aire caliente forzado. Esta patente desencadeno una intensa guerra legal entre 2012 y 2014. Estas batallas juridicas paradojicamente generaron atencion mediatica y aceleraron el interes publico por la categoria.',
+        it: 'Philips ha depositato il brevetto della tecnologia Rapid Air nel 2009, descrivendo un apparecchio di cottura a circolazione forzata di aria calda. Questo brevetto ha scatenato un\'intensa guerra legale tra il 2012 e il 2014. Queste battaglie hanno paradossalmente generato attenzione mediatica e accelerato l\'interesse pubblico per la categoria.',
+        nl: 'Philips diende het Rapid Air-patent in 2009 in, waarin een kookapparaat met geforceerde heteluchtcirculatie werd beschreven. Dit patent veroorzaakte een intense juridische strijd tussen 2012 en 2014, waarbij Philips meerdere fabrikanten aanklaagde. Deze gevechten genereerden paradoxaal genoeg media-aandacht en versnelden de publieke interesse.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quelle est la taille du marche mondial des airfryers en 2026 ?',
+        en: 'How big is the global air fryer market in 2026?',
+        de: 'Wie gross ist der weltweite Heissluftfritteusen-Markt 2026?',
+        es: 'Cual es el tamano del mercado mundial de freidoras de aire en 2026?',
+        it: 'Quanto e grande il mercato mondiale delle friggitrici ad aria nel 2026?',
+        nl: 'Hoe groot is de wereldwijde airfryermarkt in 2026?',
+      },
+      answer: {
+        fr: 'Le marche mondial des airfryers est estime a plus de 3,5 milliards de dollars en 2026, avec une croissance annuelle de 12%. Plus de 45% des foyers europeens et 50% des foyers americains possedent au moins un airfryer. Plus de 120 marques sont actives dans le monde. Le prix moyen a chute de 200 EUR en 2010 a 85 EUR en 2026.',
+        en: 'The global air fryer market is estimated at over $3.5 billion in 2026, growing at 12% annually. Over 45% of European households and 50% of American households own at least one air fryer. More than 120 brands are active worldwide. The average price has dropped from 200 EUR in 2010 to 85 EUR in 2026.',
+        de: 'Der weltweite Heissluftfritteusen-Markt wird auf ueber 3,5 Milliarden Dollar geschaetzt mit 12% jaehrlichem Wachstum. Ueber 45% der europaeischen und 50% der amerikanischen Haushalte besitzen mindestens eine Heissluftfritteuse. Mehr als 120 Marken sind weltweit aktiv. Der Durchschnittspreis sank von 200 EUR (2010) auf 85 EUR (2026).',
+        es: 'El mercado mundial de freidoras de aire se estima en mas de 3.500 millones de dolares en 2026, con un crecimiento anual del 12%. Mas del 45% de los hogares europeos y el 50% de los estadounidenses poseen al menos una. Mas de 120 marcas estan activas. El precio medio bajo de 200 EUR en 2010 a 85 EUR en 2026.',
+        it: 'Il mercato mondiale delle friggitrici ad aria e stimato a oltre 3,5 miliardi di dollari nel 2026, con una crescita annua del 12%. Oltre il 45% delle famiglie europee e il 50% di quelle americane ne possiede almeno una. Piu di 120 marchi sono attivi nel mondo. Il prezzo medio e sceso da 200 EUR nel 2010 a 85 EUR nel 2026.',
+        nl: 'De wereldwijde airfryermarkt wordt geschat op meer dan 3,5 miljard dollar in 2026, met 12% jaarlijkse groei. Meer dan 45% van de Europese en 50% van de Amerikaanse huishoudens bezit minstens een airfryer. Meer dan 120 merken zijn actief wereldwijd. De gemiddelde prijs daalde van 200 EUR in 2010 naar 85 EUR in 2026.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quelles sont les tendances futures pour les airfryers ?',
+        en: 'What are the future trends for air fryers?',
+        de: 'Welche Zukunftstrends gibt es bei Heissluftfritteusen?',
+        es: 'Cuales son las tendencias futuras para las freidoras de aire?',
+        it: 'Quali sono le tendenze future per le friggitrici ad aria?',
+        nl: 'Wat zijn de toekomstige trends voor airfryers?',
+      },
+      answer: {
+        fr: 'Trois tendances majeures se dessinent : l\'IA predictive qui apprendra les preferences de chaque membre du foyer pour personnaliser automatiquement la cuisson, l\'ecoconception avec materiaux recycles et revetements sans PFAS, et la convergence des appareils ou l\'airfryer fusionne avec le four, le deshydrateur et le grill en un seul appareil compact.',
+        en: 'Three major trends are emerging: predictive AI that will learn each household member\'s preferences to automatically personalize cooking, eco-design with recycled materials and PFAS-free coatings, and appliance convergence where the air fryer merges with oven, dehydrator, and grill into one compact multi-function device.',
+        de: 'Drei grosse Trends zeichnen sich ab: praediktive KI, die individuelle Vorlieben jedes Haushaltsmitglieds lernt und automatisch anpasst, Oekodesign mit recycelten Materialien und PFAS-freien Beschichtungen sowie Geraetekonvergenz, bei der Heissluftfritteuse, Backofen, Doerrautomat und Grill zu einem kompakten Multifunktionsgeraet verschmelzen.',
+        es: 'Tres tendencias principales se perfilan: IA predictiva que aprendera las preferencias de cada miembro del hogar para personalizar automaticamente la coccion, ecodiseno con materiales reciclados y recubrimientos sin PFAS, y convergencia de aparatos donde la freidora se fusiona con horno, deshidratador y parrilla en un solo dispositivo compacto.',
+        it: 'Tre tendenze principali si delineano: IA predittiva che imparera le preferenze di ogni membro della famiglia per personalizzare automaticamente la cottura, ecodesign con materiali riciclati e rivestimenti senza PFAS, e convergenza degli apparecchi dove la friggitrice si fonde con forno, essiccatore e griglia in un unico dispositivo compatto.',
+        nl: 'Drie grote trends tekenen zich af: predictieve AI die de voorkeuren van elk gezinslid leert om het koken automatisch te personaliseren, ecodesign met gerecyclede materialen en PFAS-vrije coatings, en apparaatconvergentie waarbij de airfryer samensmelt met oven, droogapparaat en grill in een compact multifunctioneel apparaat.',
+      },
+    },
+  ],
 }

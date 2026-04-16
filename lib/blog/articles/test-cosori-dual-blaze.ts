@@ -501,4 +501,96 @@ export const article: BlogArticle = {
 <h2>Verdict</h2>
 <p>De Cosori Dual Blaze Smart 6,4L is <strong>de beste connected airfryer in het middensegment van 2026</strong>. Voor dubbel koken: <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a>. Eenvoudiger zonder Wi-Fi: <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>. Alle aanbevelingen in onze <a href="/nl/guides/airfryers">complete gids 2026</a>.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Que signifie la technologie Dual Blaze du Cosori et comment fonctionne-t-elle ?',
+        en: 'What does Cosori Dual Blaze technology mean and how does it work?',
+        de: 'Was bedeutet die Dual-Blaze-Technologie von Cosori und wie funktioniert sie?',
+        es: '¿Qué significa la tecnología Dual Blaze de Cosori y cómo funciona?',
+        it: 'Cosa significa la tecnologia Dual Blaze di Cosori e come funziona?',
+        nl: 'Wat betekent de Dual Blaze-technologie van Cosori en hoe werkt het?',
+      },
+      answer: {
+        fr: 'La technologie Dual Blaze utilise deux résistances chauffantes : une en haut et une en bas du panier. Contrairement aux airfryers classiques qui ne chauffent que par le haut, cette double chauffe assure une cuisson plus uniforme sans avoir besoin de retourner ou secouer les aliments à mi-cuisson dans la plupart des cas.',
+        en: 'Dual Blaze technology uses two heating elements: one above and one below the basket. Unlike standard air fryers that only heat from above, this dual heating ensures more even cooking without needing to flip or shake food halfway through in most cases.',
+        de: 'Die Dual-Blaze-Technologie nutzt zwei Heizelemente: eines oben und eines unter dem Korb. Im Gegensatz zu herkömmlichen Heißluftfritteusen, die nur von oben heizen, sorgt diese Doppelheizung für gleichmäßigeres Garen ohne Wenden oder Schütteln in den meisten Fällen.',
+        es: 'La tecnología Dual Blaze utiliza dos resistencias calefactoras: una arriba y otra debajo de la cesta. A diferencia de las freidoras convencionales que solo calientan desde arriba, este doble calentamiento asegura una cocción más uniforme sin necesidad de voltear o agitar los alimentos en la mayoría de casos.',
+        it: 'La tecnologia Dual Blaze utilizza due resistenze riscaldanti: una sopra e una sotto il cestello. A differenza delle friggitrici standard che riscaldano solo dall\'alto, questo doppio riscaldamento assicura una cottura più uniforme senza dover girare o scuotere gli alimenti nella maggior parte dei casi.',
+        nl: 'Dual Blaze-technologie gebruikt twee verwarmingselementen: een boven en een onder de mand. In tegenstelling tot standaard airfryers die alleen van boven verwarmen, zorgt deze dubbele verwarming voor gelijkmatiger bakken zonder in de meeste gevallen te hoeven keren of schudden.',
+      },
+    },
+    {
+      question: {
+        fr: 'Le Cosori Dual Blaze nécessite-t-il un préchauffage ?',
+        en: 'Does the Cosori Dual Blaze require preheating?',
+        de: 'Muss der Cosori Dual Blaze vorgeheizt werden?',
+        es: '¿Necesita precalentamiento el Cosori Dual Blaze?',
+        it: 'Il Cosori Dual Blaze richiede preriscaldamento?',
+        nl: 'Heeft de Cosori Dual Blaze voorverwarming nodig?',
+      },
+      answer: {
+        fr: 'Le Cosori Dual Blaze nécessite un préchauffage minimal grâce à sa double résistance qui atteint la température cible plus rapidement. En pratique, le préchauffage est intégré dans les programmes prédéfinis et se fait automatiquement. La consommation énergétique réduite de 20 % par rapport au Philips 3000 XL est en partie due à cette efficacité.',
+        en: 'The Cosori Dual Blaze requires minimal preheating thanks to its dual heating elements that reach the target temperature faster. In practice, preheating is built into the preset programmes and happens automatically. The 20% lower energy consumption compared to the Philips 3000 XL is partly due to this efficiency.',
+        de: 'Der Cosori Dual Blaze benötigt dank seiner doppelten Heizelemente, die die Zieltemperatur schneller erreichen, nur minimales Vorheizen. In der Praxis ist das Vorheizen in die voreingestellten Programme integriert und erfolgt automatisch. Der um 20 % geringere Energieverbrauch gegenüber dem Philips 3000 XL ist teilweise dieser Effizienz zu verdanken.',
+        es: 'El Cosori Dual Blaze necesita un precalentamiento mínimo gracias a su doble resistencia que alcanza la temperatura objetivo más rápido. En la práctica, el precalentamiento está integrado en los programas predefinidos y se realiza automáticamente. El consumo energético un 20 % menor que el Philips 3000 XL se debe en parte a esta eficiencia.',
+        it: 'Il Cosori Dual Blaze richiede un preriscaldamento minimo grazie alla doppia resistenza che raggiunge la temperatura target più velocemente. In pratica, il preriscaldamento è integrato nei programmi preimpostati e avviene automaticamente. Il consumo energetico inferiore del 20% rispetto al Philips 3000 XL è in parte dovuto a questa efficienza.',
+        nl: 'De Cosori Dual Blaze heeft minimale voorverwarming nodig dankzij de dubbele verwarmingselementen die de doeltemperatuur sneller bereiken. In de praktijk is het opwarmen ingebouwd in de voorgeprogrammeerde programma\'s en gebeurt automatisch. Het 20% lagere energieverbruik vergeleken met de Philips 3000 XL is deels te danken aan deze efficiëntie.',
+      },
+    },
+    {
+      question: {
+        fr: 'Le Cosori Dual Blaze est-il adapté pour une famille de 4 personnes ?',
+        en: 'Is the Cosori Dual Blaze suitable for a family of 4?',
+        de: 'Eignet sich der Cosori Dual Blaze für eine 4-köpfige Familie?',
+        es: '¿Es adecuado el Cosori Dual Blaze para una familia de 4 personas?',
+        it: 'Il Cosori Dual Blaze è adatto per una famiglia di 4 persone?',
+        nl: 'Is de Cosori Dual Blaze geschikt voor een gezin van 4 personen?',
+      },
+      answer: {
+        fr: 'Avec ses 6,4 litres de capacité, le Cosori Dual Blaze convient pour une famille de 3 à 4 personnes. Vous pouvez y cuire environ 500 g de frites fraîches ou 5 pilons de poulet en une fournée. Pour les familles de 5 personnes et plus, un modèle plus grand comme le Ninja FlexDrawer 10,4L serait plus adapté.',
+        en: 'With its 6.4-litre capacity, the Cosori Dual Blaze suits a family of 3 to 4 people. You can cook approximately 500 g of fresh fries or 5 chicken drumsticks in a single batch. For families of 5 or more, a larger model like the Ninja FlexDrawer 10.4L would be more suitable.',
+        de: 'Mit seinen 6,4 Litern Fassungsvermögen eignet sich der Cosori Dual Blaze für eine Familie von 3 bis 4 Personen. Sie können etwa 500 g frische Pommes oder 5 Hähnchenschenkel in einer Charge garen. Für Familien ab 5 Personen wäre ein größeres Modell wie der Ninja FlexDrawer 10,4L besser geeignet.',
+        es: 'Con sus 6,4 litros de capacidad, el Cosori Dual Blaze es adecuado para familias de 3 a 4 personas. Permite cocinar unos 500 g de patatas frescas o 5 muslos de pollo de una vez. Para familias de 5 o más personas, un modelo más grande como el Ninja FlexDrawer 10,4L sería más apropiado.',
+        it: 'Con i suoi 6,4 litri di capacità, il Cosori Dual Blaze è adatto per famiglie di 3-4 persone. Si possono cuocere circa 500 g di patatine fresche o 5 cosce di pollo in una volta. Per famiglie di 5 o più persone, un modello più grande come il Ninja FlexDrawer 10,4L sarebbe più adatto.',
+        nl: 'Met zijn 6,4 liter capaciteit is de Cosori Dual Blaze geschikt voor een gezin van 3 tot 4 personen. Je kunt ongeveer 500 g verse friet of 5 kippenpoten in één keer bereiden. Voor gezinnen van 5 of meer is een groter model zoals de Ninja FlexDrawer 10,4L beter geschikt.',
+      },
+    },
+    {
+      question: {
+        fr: 'La fonction rappel de secouage du Cosori Dual Blaze est-elle utile ?',
+        en: 'Is the shake reminder function of the Cosori Dual Blaze useful?',
+        de: 'Ist die Schüttel-Erinnerung des Cosori Dual Blaze nützlich?',
+        es: '¿Es útil la función de recordatorio de agitado del Cosori Dual Blaze?',
+        it: 'La funzione promemoria di scuotimento del Cosori Dual Blaze è utile?',
+        nl: 'Is de schudherinnering van de Cosori Dual Blaze nuttig?',
+      },
+      answer: {
+        fr: 'Grâce à la technologie Dual Blaze, le secouage est devenu largement superflu pour les portions normales. La cuisson est uniforme des deux côtés sans retournement dans 90 % des cas. Un secouage reste bénéfique uniquement quand le panier est très chargé. L\'appareil émet un bip discret, que certains utilisateurs trouvent un peu trop faible.',
+        en: 'Thanks to Dual Blaze technology, shaking has become largely unnecessary for normal portions. Cooking is even on both sides without flipping in 90% of cases. Shaking only remains beneficial when the basket is very heavily loaded. The appliance emits a discreet beep that some users find slightly too quiet.',
+        de: 'Dank der Dual-Blaze-Technologie ist das Schütteln bei normalen Portionen weitgehend überflüssig. Die Garung ist in 90 % der Fälle beidseitig gleichmäßig ohne Wenden. Schütteln bleibt nur bei sehr voll beladenem Korb sinnvoll. Das Gerät gibt einen dezenten Piepton, den manche Nutzer als etwas zu leise empfinden.',
+        es: 'Gracias a la tecnología Dual Blaze, agitar se ha vuelto innecesario para porciones normales. La cocción es uniforme por ambos lados sin voltear en el 90 % de los casos. Solo resulta beneficioso agitar cuando la cesta está muy cargada. El aparato emite un pitido discreto que algunos usuarios consideran demasiado suave.',
+        it: 'Grazie alla tecnologia Dual Blaze, scuotere è diventato largamente superfluo per porzioni normali. La cottura è uniforme su entrambi i lati senza girare nel 90% dei casi. Scuotere resta utile solo quando il cestello è molto carico. L\'apparecchio emette un bip discreto che alcuni utenti trovano un po\' troppo debole.',
+        nl: 'Dankzij de Dual Blaze-technologie is schudden grotendeels overbodig voor normale porties. Het bakresultaat is aan beide kanten gelijkmatig zonder keren in 90% van de gevallen. Schudden blijft alleen nuttig bij een zeer volle mand. Het apparaat geeft een discreet piepje dat sommige gebruikers iets te zacht vinden.',
+      },
+    },
+    {
+      question: {
+        fr: 'Le Cosori Dual Blaze offre-t-il un bon rapport qualité-prix ?',
+        en: 'Does the Cosori Dual Blaze offer good value for money?',
+        de: 'Bietet der Cosori Dual Blaze ein gutes Preis-Leistungs-Verhältnis?',
+        es: '¿Ofrece el Cosori Dual Blaze una buena relación calidad-precio?',
+        it: 'Il Cosori Dual Blaze offre un buon rapporto qualità-prezzo?',
+        nl: 'Biedt de Cosori Dual Blaze een goede prijs-kwaliteitverhouding?',
+      },
+      answer: {
+        fr: 'À 139,99 euros, le Cosori Dual Blaze offre un rapport qualité-prix exceptionnel avec un score de 9,5/10 dans cette catégorie. Il inclut la connectivité Wi-Fi, 12 programmes, la technologie Dual Blaze et un design en acier inoxydable. Ces fonctionnalités ne se trouvent habituellement que dans des modèles à 200 euros et plus.',
+        en: 'At 139.99 euros, the Cosori Dual Blaze offers exceptional value for money with a 9.5/10 score in this category. It includes Wi-Fi connectivity, 12 programmes, Dual Blaze technology and a brushed stainless steel design. These features are typically found only in models costing 200 euros and above.',
+        de: 'Für 139,99 Euro bietet der Cosori Dual Blaze ein außergewöhnliches Preis-Leistungs-Verhältnis mit 9,5/10 in dieser Kategorie. Er umfasst Wi-Fi, 12 Programme, Dual-Blaze-Technologie und ein Edelstahlgehäuse. Diese Funktionen finden sich normalerweise erst bei Modellen ab 200 Euro.',
+        es: 'A 139,99 euros, el Cosori Dual Blaze ofrece una relación calidad-precio excepcional con 9,5/10 en esta categoría. Incluye Wi-Fi, 12 programas, tecnología Dual Blaze y diseño en acero inoxidable cepillado. Estas prestaciones normalmente solo se encuentran en modelos de 200 euros o más.',
+        it: 'A 139,99 euro, il Cosori Dual Blaze offre un rapporto qualità-prezzo eccezionale con 9,5/10 in questa categoria. Include Wi-Fi, 12 programmi, tecnologia Dual Blaze e design in acciaio inossidabile spazzolato. Queste caratteristiche si trovano normalmente solo in modelli da 200 euro in su.',
+        nl: 'Voor 139,99 euro biedt de Cosori Dual Blaze een uitzonderlijke prijs-kwaliteitverhouding met 9,5/10 in deze categorie. Hij bevat Wi-Fi, 12 programma\'s, Dual Blaze-technologie en een design in geborsteld roestvrij staal. Deze functies vind je normaal alleen bij modellen van 200 euro of meer.',
+      },
+    },
+  ],
 }

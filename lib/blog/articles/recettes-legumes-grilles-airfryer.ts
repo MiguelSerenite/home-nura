@@ -943,4 +943,96 @@ export const article: BlogArticle = {
 </ul>
 <p>Deze groenten zijn de perfecte basis voor een <a href="/nl/blog/meal-prep-airfryer-semaine">wekelijkse meal prep</a>. Combineer met <a href="/nl/blog/recettes-frites-parfaites-airfryer">frietjes</a> en <a href="/nl/blog/recettes-poulet-croustillant-airfryer">krokante kip</a> voor complete maaltijden.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Quels légumes sont les meilleurs à cuire dans un airfryer ?',
+        en: 'Which vegetables are best for cooking in an air fryer?',
+        de: 'Welches Gemüse eignet sich am besten für die Heißluftfritteuse?',
+        es: '¿Qué verduras son las mejores para cocinar en la freidora de aire?',
+        it: 'Quali verdure sono le migliori da cuocere nella friggitrice ad aria?',
+        nl: 'Welke groenten zijn het beste om te bereiden in de airfryer?',
+      },
+      answer: {
+        fr: 'Les légumes qui caramélisent bien sont les meilleurs : brocoli, chou-fleur, choux de Bruxelles, courgettes, poivrons et carottes. Ils développent une croûte dorée et savoureuse. Les légumes à haute teneur en eau comme le concombre et la laitue ne conviennent pas. Les champignons et asperges sont aussi d\'excellents choix.',
+        en: 'Vegetables that caramelize well work best: broccoli, cauliflower, Brussels sprouts, zucchini, peppers, and carrots. They develop a golden, flavourful crust. High-water-content vegetables like cucumber and lettuce are not suitable. Mushrooms and asparagus are also excellent choices for air frying.',
+        de: 'Gemüse, das gut karamellisiert, eignet sich am besten: Brokkoli, Blumenkohl, Rosenkohl, Zucchini, Paprika und Karotten. Sie bilden eine goldene, aromatische Kruste. Wasserreiches Gemüse wie Gurke und Salat ist ungeeignet. Pilze und Spargel sind ebenfalls ausgezeichnete Optionen.',
+        es: 'Las verduras que caramelizan bien funcionan mejor: brócoli, coliflor, coles de Bruselas, calabacín, pimientos y zanahorias. Desarrollan una costra dorada y sabrosa. Las verduras con mucha agua como pepino y lechuga no son adecuadas. Los champiñones y espárragos también son excelentes opciones.',
+        it: 'Le verdure che caramellizzano bene funzionano meglio: broccoli, cavolfiore, cavolini di Bruxelles, zucchine, peperoni e carote. Sviluppano una crosta dorata e saporita. Le verdure ad alto contenuto d\'acqua come cetriolo e lattuga non sono adatte. Funghi e asparagi sono ottime scelte.',
+        nl: 'Groenten die goed karamelliseren werken het best: broccoli, bloemkool, spruitjes, courgette, paprika en wortels. Ze ontwikkelen een gouden, smaakvolle korst. Groenten met veel water zoals komkommer en sla zijn niet geschikt. Champignons en asperges zijn ook uitstekende keuzes.',
+      },
+    },
+    {
+      question: {
+        fr: 'Peut-on cuire des légumes surgelés dans l\'airfryer ?',
+        en: 'Can you cook frozen vegetables in the air fryer?',
+        de: 'Kann man gefrorenes Gemüse in der Heißluftfritteuse zubereiten?',
+        es: '¿Se pueden cocinar verduras congeladas en la freidora de aire?',
+        it: 'Si possono cuocere verdure surgelate nella friggitrice ad aria?',
+        nl: 'Kun je diepvriesgroenten bereiden in de airfryer?',
+      },
+      answer: {
+        fr: 'Oui, les légumes surgelés cuisent très bien à l\'airfryer. Mettez-les directement sans décongélation. Ajoutez 2 à 3 minutes au temps de cuisson habituel. Les brocolis, haricots verts et choux-fleur surgelés donnent d\'excellents résultats. Évitez les mélanges avec des légumes à eau comme les épinards qui deviennent pâteux.',
+        en: 'Yes, frozen vegetables cook very well in the air fryer. Place them directly without thawing. Add 2 to 3 extra minutes to the usual cooking time. Frozen broccoli, green beans, and cauliflower give excellent results. Avoid mixes containing high-water vegetables like spinach that become mushy.',
+        de: 'Ja, gefrorenes Gemüse gart sehr gut in der Heißluftfritteuse. Geben Sie es direkt ohne Auftauen hinein. Fügen Sie 2-3 Minuten zur üblichen Garzeit hinzu. Gefrorener Brokkoli, grüne Bohnen und Blumenkohl liefern ausgezeichnete Ergebnisse. Vermeiden Sie Mischungen mit wasserreichem Gemüse wie Spinat.',
+        es: 'Sí, las verduras congeladas se cocinan muy bien en la freidora de aire. Ponlas directamente sin descongelar. Añade 2-3 minutos al tiempo habitual. El brócoli, las judías verdes y la coliflor congelados dan excelentes resultados. Evita mezclas con verduras acuosas como las espinacas que quedan pastosas.',
+        it: 'Sì, le verdure surgelate cuociono molto bene nella friggitrice ad aria. Mettile direttamente senza scongelare. Aggiungi 2-3 minuti al tempo di cottura abituale. Broccoli, fagiolini e cavolfiore surgelati danno ottimi risultati. Evita miscele con verdure acquose come gli spinaci che diventano molli.',
+        nl: 'Ja, diepvriesgroenten bereid je prima in de airfryer. Doe ze er direct in zonder ontdooien. Voeg 2-3 minuten toe aan de gebruikelijke baktijd. Diepvries broccoli, sperziebonen en bloemkool geven uitstekende resultaten. Vermijd mengsels met waterige groenten zoals spinazie die papperig worden.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quel assaisonnement utiliser pour les légumes à l\'airfryer ?',
+        en: 'What seasoning should you use for air fryer vegetables?',
+        de: 'Welche Gewürze eignen sich für Gemüse aus der Heißluftfritteuse?',
+        es: '¿Qué condimentos usar para las verduras en la freidora de aire?',
+        it: 'Quali condimenti usare per le verdure nella friggitrice ad aria?',
+        nl: 'Welke kruiden gebruik je voor groenten in de airfryer?',
+      },
+      answer: {
+        fr: 'Assaisonnez avant cuisson pour que les épices adhèrent à l\'huile. Le trio de base : sel, poivre et ail en poudre. Pour varier : paprika fumé, cumin, herbes de Provence, ou parmesan râpé ajouté en fin de cuisson. Un filet de jus de citron après cuisson rehausse toutes les saveurs des légumes grillés.',
+        en: 'Season before cooking so spices stick to the oil. The basic trio: salt, pepper, and garlic powder. For variety, try smoked paprika, cumin, Provencal herbs, or grated Parmesan added in the last 2 minutes. A squeeze of lemon juice after cooking enhances all the flavours of grilled vegetables.',
+        de: 'Würzen Sie vor dem Garen, damit die Gewürze am Öl haften. Das Basis-Trio: Salz, Pfeffer und Knoblauchpulver. Zur Abwechslung: Rauchpaprika, Kreuzkümmel, Kräuter der Provence oder geriebener Parmesan in den letzten 2 Minuten. Ein Spritzer Zitronensaft nach dem Garen hebt alle Aromen hervor.',
+        es: 'Sazona antes de cocinar para que las especias se adhieran al aceite. El trío básico: sal, pimienta y ajo en polvo. Para variar: pimentón ahumado, comino, hierbas provenzales o parmesano rallado añadido al final. Un chorrito de limón después de cocinar realza todos los sabores.',
+        it: 'Condisci prima della cottura affinché le spezie aderiscano all\'olio. Il trio base: sale, pepe e aglio in polvere. Per variare: paprika affumicata, cumino, erbe di Provenza o parmigiano grattugiato aggiunto negli ultimi 2 minuti. Un filo di limone dopo la cottura esalta tutti i sapori.',
+        nl: 'Kruid voor het bakken zodat de specerijen aan de olie hechten. Het basistrio: zout, peper en knoflookpoeder. Voor variatie: gerookte paprika, komijn, Provençaalse kruiden of geraspte Parmezaan in de laatste 2 minuten. Een scheutje citroensap na het bakken versterkt alle smaken.',
+      },
+    },
+    {
+      question: {
+        fr: 'Combien de temps cuire chaque légume dans l\'airfryer ?',
+        en: 'How long does each vegetable take to cook in the air fryer?',
+        de: 'Wie lange braucht jedes Gemüse in der Heißluftfritteuse?',
+        es: '¿Cuánto tiempo tarda cada verdura en la freidora de aire?',
+        it: 'Quanto tempo ci vuole per ogni verdura nella friggitrice ad aria?',
+        nl: 'Hoe lang duurt elke groente in de airfryer?',
+      },
+      answer: {
+        fr: 'À 200°C : asperges et champignons 8-10 min, courgettes et poivrons 10-12 min, brocoli et chou-fleur 12-15 min, choux de Bruxelles 15-18 min, carottes 15-20 min. Les légumes coupés finement cuisent plus vite. Secouez le panier à mi-cuisson. Les temps varient légèrement selon la taille des morceaux.',
+        en: 'At 200°C: asparagus and mushrooms 8-10 min, zucchini and peppers 10-12 min, broccoli and cauliflower 12-15 min, Brussels sprouts 15-18 min, carrots 15-20 min. Thinly cut vegetables cook faster. Shake the basket halfway through. Times vary slightly depending on the size of the pieces.',
+        de: 'Bei 200°C: Spargel und Pilze 8-10 Min, Zucchini und Paprika 10-12 Min, Brokkoli und Blumenkohl 12-15 Min, Rosenkohl 15-18 Min, Karotten 15-20 Min. Dünn geschnittenes Gemüse gart schneller. Korb zur Halbzeit schütteln. Zeiten variieren je nach Stückgröße leicht.',
+        es: 'A 200°C: espárragos y champiñones 8-10 min, calabacín y pimientos 10-12 min, brócoli y coliflor 12-15 min, coles de Bruselas 15-18 min, zanahorias 15-20 min. Las verduras cortadas finas se cocinan más rápido. Agita la cesta a mitad de cocción. Los tiempos varían según el tamaño.',
+        it: 'A 200°C: asparagi e funghi 8-10 min, zucchine e peperoni 10-12 min, broccoli e cavolfiore 12-15 min, cavolini di Bruxelles 15-18 min, carote 15-20 min. Le verdure tagliate fini cuociono prima. Scuoti il cestello a metà cottura. I tempi variano leggermente in base alla dimensione dei pezzi.',
+        nl: 'Op 200°C: asperges en champignons 8-10 min, courgette en paprika 10-12 min, broccoli en bloemkool 12-15 min, spruitjes 15-18 min, wortels 15-20 min. Dun gesneden groenten worden sneller gaar. Schud de mand halverwege. Tijden variëren licht afhankelijk van de grootte van de stukken.',
+      },
+    },
+    {
+      question: {
+        fr: 'Comment éviter que les légumes soient mous dans l\'airfryer ?',
+        en: 'How do you prevent vegetables from getting soggy in the air fryer?',
+        de: 'Wie verhindert man, dass Gemüse in der Heißluftfritteuse matschig wird?',
+        es: '¿Cómo evitar que las verduras queden blandas en la freidora de aire?',
+        it: 'Come evitare che le verdure diventino molli nella friggitrice ad aria?',
+        nl: 'Hoe voorkom je dat groenten slap worden in de airfryer?',
+      },
+      answer: {
+        fr: 'Trois règles essentielles : séchez parfaitement les légumes après lavage, ne surchargez pas le panier pour que l\'air circule librement, et utilisez une température suffisamment élevée (190-200°C). Une fine couche d\'huile favorise la caramélisation. Coupez les morceaux en taille régulière pour une cuisson uniforme.',
+        en: 'Three essential rules: dry vegetables perfectly after washing, do not overcrowd the basket so air circulates freely, and use a sufficiently high temperature of 190-200°C. A thin coat of oil promotes caramelization. Cut pieces to a uniform size for even cooking and better browning across all surfaces.',
+        de: 'Drei wesentliche Regeln: Gemüse nach dem Waschen perfekt trocknen, Korb nicht überfüllen damit die Luft frei zirkuliert, und ausreichend hohe Temperatur verwenden (190-200°C). Eine dünne Ölschicht fördert die Karamellisierung. Stücke gleichmäßig schneiden für einheitliches Garen.',
+        es: 'Tres reglas esenciales: seca las verduras perfectamente después de lavarlas, no sobrecargues la cesta para que el aire circule libremente, y usa una temperatura suficientemente alta (190-200°C). Una fina capa de aceite favorece la caramelización. Corta los trozos de tamaño uniforme.',
+        it: 'Tre regole essenziali: asciuga perfettamente le verdure dopo il lavaggio, non sovraffollare il cestello perché l\'aria circoli liberamente, e usa una temperatura abbastanza alta (190-200°C). Un sottile strato d\'olio favorisce la caramellizzazione. Taglia i pezzi di dimensione uniforme.',
+        nl: 'Drie essentiële regels: droog groenten perfect na het wassen, overlaad de mand niet zodat lucht vrij kan circuleren, en gebruik een voldoende hoge temperatuur (190-200°C). Een dunne laag olie bevordert karamellisatie. Snijd stukken op gelijkmatige grootte voor uniforme bereiding.',
+      },
+    },
+  ],
 }

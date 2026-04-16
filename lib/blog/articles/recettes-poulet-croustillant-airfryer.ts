@@ -862,4 +862,96 @@ export const article: BlogArticle = {
 </ul>
 <p>Serveer met <a href="/nl/blog/recettes-frites-parfaites-airfryer">perfecte airfryer-frietjes</a> of <a href="/nl/blog/recettes-legumes-grilles-airfryer">gegrilde groenten</a>.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'À quelle température interne le poulet est-il cuit de manière sûre ?',
+        en: 'What internal temperature indicates chicken is safely cooked?',
+        de: 'Bei welcher Kerntemperatur ist Hähnchen sicher durchgegart?',
+        es: '¿A qué temperatura interna está el pollo cocinado de forma segura?',
+        it: 'A quale temperatura interna il pollo è cotto in modo sicuro?',
+        nl: 'Bij welke kerntemperatuur is kip veilig gaar?',
+      },
+      answer: {
+        fr: 'Le poulet doit atteindre une température interne de 74°C à coeur pour être consommé en toute sécurité. Utilisez un thermomètre de cuisine inséré dans la partie la plus épaisse, sans toucher l\'os. Après cuisson, laissez reposer 5 minutes car la température continue de monter de 2 à 3°C.',
+        en: 'Chicken must reach an internal temperature of 74°C (165°F) at the thickest part to be safely consumed. Use a kitchen thermometer inserted into the thickest section without touching bone. After cooking, let it rest for 5 minutes as the temperature continues to rise by 2 to 3 degrees.',
+        de: 'Hähnchen muss eine Kerntemperatur von 74°C an der dicksten Stelle erreichen. Verwenden Sie ein Küchenthermometer, das in die dickste Stelle eingeführt wird, ohne den Knochen zu berühren. Nach dem Garen 5 Minuten ruhen lassen, da die Temperatur noch um 2-3°C weiter steigt.',
+        es: 'El pollo debe alcanzar una temperatura interna de 74°C en la parte más gruesa. Usa un termómetro de cocina insertado en la zona más gruesa sin tocar el hueso. Después de la cocción, deja reposar 5 minutos ya que la temperatura sigue subiendo 2-3°C.',
+        it: 'Il pollo deve raggiungere una temperatura interna di 74°C nel punto più spesso per essere consumato in sicurezza. Usa un termometro da cucina inserito nella parte più spessa senza toccare l\'osso. Dopo la cottura, lascia riposare 5 minuti perché la temperatura sale ancora di 2-3°C.',
+        nl: 'Kip moet een kerntemperatuur van 74°C bereiken op het dikste punt om veilig te eten. Gebruik een keukentherometer in het dikste gedeelte zonder het bot te raken. Laat na het bakken 5 minuten rusten, want de temperatuur stijgt nog 2-3°C door.',
+      },
+    },
+    {
+      question: {
+        fr: 'Combien de temps faut-il mariner le poulet pour l\'airfryer ?',
+        en: 'How long should you marinate chicken for the air fryer?',
+        de: 'Wie lange sollte man Hähnchen für die Heißluftfritteuse marinieren?',
+        es: '¿Cuánto tiempo hay que marinar el pollo para la freidora de aire?',
+        it: 'Quanto tempo bisogna marinare il pollo per la friggitrice ad aria?',
+        nl: 'Hoe lang moet je kip marineren voor de airfryer?',
+      },
+      answer: {
+        fr: 'Un minimum de 30 minutes apporte déjà du goût, mais 2 à 4 heures au réfrigérateur donnent les meilleurs résultats. Pour les marinades acides (citron, vinaigre), ne dépassez pas 4 heures car l\'acide peut décomposer la texture de la viande. Sortez le poulet 15 minutes avant cuisson pour une température homogène.',
+        en: 'A minimum of 30 minutes adds flavour, but 2 to 4 hours in the refrigerator gives the best results. For acidic marinades containing lemon or vinegar, do not exceed 4 hours as acid can break down the meat texture. Remove chicken 15 minutes before cooking to ensure even temperature throughout.',
+        de: 'Mindestens 30 Minuten bringen bereits Geschmack, aber 2-4 Stunden im Kühlschrank liefern die besten Ergebnisse. Bei sauren Marinaden (Zitrone, Essig) nicht länger als 4 Stunden, da die Säure die Fleischtextur zersetzen kann. Nehmen Sie das Hähnchen 15 Minuten vor dem Garen heraus.',
+        es: 'Un mínimo de 30 minutos ya aporta sabor, pero 2-4 horas en el refrigerador dan los mejores resultados. Para marinados ácidos (limón, vinagre), no superes las 4 horas porque el ácido puede descomponer la textura de la carne. Saca el pollo 15 minutos antes de cocinar.',
+        it: 'Un minimo di 30 minuti aggiunge già sapore, ma 2-4 ore in frigorifero danno i migliori risultati. Per marinature acide (limone, aceto), non superare le 4 ore perché l\'acido può rovinare la texture della carne. Togli il pollo 15 minuti prima della cottura per una temperatura uniforme.',
+        nl: 'Minimaal 30 minuten voegt al smaak toe, maar 2-4 uur in de koelkast geeft de beste resultaten. Bij zure marinades (citroen, azijn) niet langer dan 4 uur, want zuur kan de vleestextuur afbreken. Haal de kip 15 minuten voor het bakken uit de koelkast voor een gelijkmatige temperatuur.',
+      },
+    },
+    {
+      question: {
+        fr: 'Peut-on cuire un poulet entier dans un airfryer ?',
+        en: 'Can you cook a whole chicken in an air fryer?',
+        de: 'Kann man ein ganzes Hähnchen in der Heißluftfritteuse zubereiten?',
+        es: '¿Se puede cocinar un pollo entero en una freidora de aire?',
+        it: 'Si può cuocere un pollo intero nella friggitrice ad aria?',
+        nl: 'Kun je een hele kip bereiden in de airfryer?',
+      },
+      answer: {
+        fr: 'Oui, dans un airfryer de 6 litres ou plus. Un poulet de 1,2 à 1,5 kg cuit en 50 à 60 minutes à 180°C. Commencez poitrine vers le bas pendant 30 minutes, retournez et terminez à 200°C pendant 20 minutes pour dorer la peau. Vérifiez toujours la température interne de 74°C avant de servir.',
+        en: 'Yes, in an air fryer of 6 litres or larger. A chicken weighing 1.2 to 1.5 kg cooks in 50 to 60 minutes at 180°C. Start breast-side down for 30 minutes, flip and finish at 200°C for 20 minutes to brown the skin. Always verify the internal temperature of 74°C before serving.',
+        de: 'Ja, in einer Heißluftfritteuse ab 6 Litern. Ein Hähnchen von 1,2-1,5 kg gart in 50-60 Minuten bei 180°C. Beginnen Sie mit der Brust nach unten für 30 Minuten, wenden und bei 200°C 20 Minuten fertiggaren für knusprige Haut. Prüfen Sie immer die Kerntemperatur von 74°C.',
+        es: 'Sí, en una freidora de 6 litros o más. Un pollo de 1,2-1,5 kg se cocina en 50-60 minutos a 180°C. Empieza con la pechuga hacia abajo durante 30 minutos, voltea y termina a 200°C 20 minutos para dorar la piel. Verifica siempre la temperatura interna de 74°C antes de servir.',
+        it: 'Sì, in una friggitrice ad aria da 6 litri o più. Un pollo di 1,2-1,5 kg cuoce in 50-60 minuti a 180°C. Inizia con il petto verso il basso per 30 minuti, gira e finisci a 200°C per 20 minuti per dorare la pelle. Verifica sempre la temperatura interna di 74°C prima di servire.',
+        nl: 'Ja, in een airfryer van 6 liter of groter. Een kip van 1,2-1,5 kg is gaar in 50-60 minuten op 180°C. Begin met de borst naar beneden voor 30 minuten, draai om en eindig op 200°C voor 20 minuten voor een bruin velletje. Controleer altijd de kerntemperatuur van 74°C.',
+      },
+    },
+    {
+      question: {
+        fr: 'Comment obtenir une peau de poulet croustillante à l\'airfryer ?',
+        en: 'How do you get crispy chicken skin in the air fryer?',
+        de: 'Wie bekommt man knusprige Hähnchenhaut in der Heißluftfritteuse?',
+        es: '¿Cómo conseguir la piel del pollo crujiente en la freidora de aire?',
+        it: 'Come ottenere la pelle di pollo croccante nella friggitrice ad aria?',
+        nl: 'Hoe krijg je een krokant kippenvelletje in de airfryer?',
+      },
+      answer: {
+        fr: 'Le secret est de sécher parfaitement la peau avec du papier absorbant avant cuisson. Frottez légèrement d\'huile et de sel. Vous pouvez ajouter un peu de levure chimique (1 cuillère à café) mélangée au sel pour un résultat encore plus croustillant. Terminez à 200°C pendant les 5 dernières minutes.',
+        en: 'The secret is to perfectly dry the skin with paper towels before cooking. Lightly rub with oil and salt. You can add a small amount of baking powder (1 teaspoon) mixed with salt for an even crispier result. Finish at 200°C for the last 5 minutes to maximize browning and crunch.',
+        de: 'Das Geheimnis ist, die Haut vor dem Garen mit Küchenpapier perfekt zu trocknen. Leicht mit Öl und Salz einreiben. Für extra Knusprigkeit können Sie etwas Backpulver (1 TL) mit Salz mischen und einreiben. Die letzten 5 Minuten bei 200°C fertiggaren für maximale Bräunung.',
+        es: 'El secreto es secar perfectamente la piel con papel absorbente antes de cocinar. Frota ligeramente con aceite y sal. Puedes añadir un poco de levadura química (1 cucharadita) mezclada con sal para un resultado aún más crujiente. Termina a 200°C los últimos 5 minutos.',
+        it: 'Il segreto è asciugare perfettamente la pelle con carta assorbente prima della cottura. Strofina leggermente con olio e sale. Puoi aggiungere un po\' di lievito chimico (1 cucchiaino) mescolato al sale per un risultato ancora più croccante. Finisci a 200°C per gli ultimi 5 minuti.',
+        nl: 'Het geheim is het vel perfect droog te deppen met keukenpapier voor het bakken. Wrijf licht in met olie en zout. Je kunt een beetje bakpoeder (1 theelepel) gemengd met zout toevoegen voor een nog krokanter resultaat. Eindig op 200°C voor de laatste 5 minuten voor maximale bruining.',
+      },
+    },
+    {
+      question: {
+        fr: 'Le poulet cru est-il dangereux si mal cuit dans l\'airfryer ?',
+        en: 'Is undercooked chicken from an air fryer dangerous?',
+        de: 'Ist nicht durchgegartes Hähnchen aus der Heißluftfritteuse gefährlich?',
+        es: '¿Es peligroso el pollo poco hecho de la freidora de aire?',
+        it: 'Il pollo poco cotto dalla friggitrice ad aria è pericoloso?',
+        nl: 'Is onvoldoende gaar kip uit de airfryer gevaarlijk?',
+      },
+      answer: {
+        fr: 'Oui, le poulet insuffisamment cuit peut contenir des bactéries dangereuses comme la salmonelle. C\'est pourquoi un thermomètre de cuisine est essentiel. Le poulet doit atteindre 74°C à coeur. Ne vous fiez pas uniquement à la couleur extérieure : un poulet peut être doré dehors et encore rose dedans.',
+        en: 'Yes, undercooked chicken can contain dangerous bacteria like salmonella. This is why a kitchen thermometer is essential. Chicken must reach 74°C (165°F) internally. Do not rely solely on external colour: chicken can appear golden brown on the outside while still being pink and raw inside.',
+        de: 'Ja, nicht durchgegartes Hähnchen kann gefährliche Bakterien wie Salmonellen enthalten. Deshalb ist ein Küchenthermometer unverzichtbar. Hähnchen muss 74°C Kerntemperatur erreichen. Verlassen Sie sich nicht nur auf die Farbe: Hähnchen kann außen goldbraun und innen noch rosa sein.',
+        es: 'Sí, el pollo poco hecho puede contener bacterias peligrosas como la salmonela. Por eso un termómetro de cocina es esencial. El pollo debe alcanzar 74°C internamente. No confíes solo en el color exterior: un pollo puede estar dorado por fuera y todavía rosa por dentro.',
+        it: 'Sì, il pollo poco cotto può contenere batteri pericolosi come la salmonella. Per questo un termometro da cucina è essenziale. Il pollo deve raggiungere 74°C internamente. Non fidarti solo del colore esterno: un pollo può essere dorato fuori e ancora rosa dentro.',
+        nl: 'Ja, onvoldoende gaar kip kan gevaarlijke bacteriën bevatten zoals salmonella. Daarom is een keukentherometer essentieel. Kip moet intern 74°C bereiken. Vertrouw niet alleen op de kleur aan de buitenkant: kip kan goudbruin zijn van buiten en nog roze van binnen.',
+      },
+    },
+  ],
 }

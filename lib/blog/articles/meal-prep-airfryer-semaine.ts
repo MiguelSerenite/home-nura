@@ -763,4 +763,96 @@ export const article: BlogArticle = {
 </ul>
 <p>Ontdek onze <a href="/nl/blog/recettes-legumes-grilles-airfryer">10 groenterecepten</a> en <a href="/nl/blog/recettes-poulet-croustillant-airfryer">krokante kiprecepten</a> voor meer inspiratie.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Combien de temps peut-on conserver les plats préparés au meal prep ?',
+        en: 'How long can meal prep dishes be stored?',
+        de: 'Wie lange kann man Meal-Prep-Gerichte aufbewahren?',
+        es: '¿Cuánto tiempo se pueden conservar los platos del meal prep?',
+        it: 'Quanto tempo si possono conservare i piatti del meal prep?',
+        nl: 'Hoe lang kun je meal prep-gerechten bewaren?',
+      },
+      answer: {
+        fr: 'Au réfrigérateur, les viandes cuites se conservent 3-4 jours, les légumes grillés 4-5 jours, et le riz ou les féculents 3 jours. Utilisez des contenants hermétiques en verre de préférence. Au congélateur, la plupart des plats se conservent jusqu\'à 3 mois. Étiquetez chaque contenant avec la date de préparation.',
+        en: 'In the refrigerator, cooked meats keep for 3-4 days, grilled vegetables for 4-5 days, and rice or starches for 3 days. Use airtight containers, preferably glass. In the freezer, most dishes keep for up to 3 months. Label each container with the preparation date for easy tracking.',
+        de: 'Im Kühlschrank halten sich gekochtes Fleisch 3-4 Tage, gegrilltes Gemüse 4-5 Tage und Reis oder Beilagen 3 Tage. Verwenden Sie luftdichte Behälter, vorzugsweise aus Glas. Im Gefrierfach halten die meisten Gerichte bis zu 3 Monate. Beschriften Sie jeden Behälter mit dem Zubereitungsdatum.',
+        es: 'En el refrigerador, las carnes cocidas se conservan 3-4 días, las verduras asadas 4-5 días y el arroz o almidones 3 días. Usa recipientes herméticos, preferiblemente de cristal. En el congelador, la mayoría de platos se conservan hasta 3 meses. Etiqueta cada recipiente con la fecha de preparación.',
+        it: 'In frigorifero, le carni cotte si conservano 3-4 giorni, le verdure grigliate 4-5 giorni, il riso e i carboidrati 3 giorni. Usa contenitori ermetici, preferibilmente in vetro. Nel congelatore, la maggior parte dei piatti si conserva fino a 3 mesi. Etichetta ogni contenitore con la data di preparazione.',
+        nl: 'In de koelkast houdt gekookt vlees 3-4 dagen, gegrilde groenten 4-5 dagen en rijst of zetmeel 3 dagen. Gebruik luchtdichte bakken, bij voorkeur van glas. In de vriezer houden de meeste gerechten tot 3 maanden. Label elke bak met de bereidingsdatum voor makkelijk bijhouden.',
+      },
+    },
+    {
+      question: {
+        fr: 'Comment réchauffer les plats meal prep à l\'airfryer ?',
+        en: 'How do you reheat meal prep dishes in the air fryer?',
+        de: 'Wie wärmt man Meal-Prep-Gerichte in der Heißluftfritteuse auf?',
+        es: '¿Cómo recalentar los platos del meal prep en la freidora de aire?',
+        it: 'Come riscaldare i piatti del meal prep nella friggitrice ad aria?',
+        nl: 'Hoe warm je meal prep-gerechten op in de airfryer?',
+      },
+      answer: {
+        fr: 'Réglez l\'airfryer à 160-170°C pendant 5 à 8 minutes pour la plupart des plats. Les viandes et légumes retrouvent leur croustillant, contrairement au micro-ondes. Pour le riz et les pâtes, ajoutez quelques gouttes d\'eau et couvrez de papier aluminium. Le réchauffage à l\'airfryer est rapide et redonne la texture d\'origine.',
+        en: 'Set the air fryer to 160-170°C for 5 to 8 minutes for most dishes. Meats and vegetables regain their crispiness, unlike in a microwave. For rice and pasta, add a few drops of water and cover with aluminium foil. Air fryer reheating is fast and restores the original texture beautifully.',
+        de: 'Stellen Sie die Heißluftfritteuse auf 160-170°C für 5-8 Minuten für die meisten Gerichte ein. Fleisch und Gemüse werden wieder knusprig, anders als in der Mikrowelle. Für Reis und Nudeln einige Tropfen Wasser hinzufügen und mit Alufolie abdecken. Das Aufwärmen stellt die ursprüngliche Textur wieder her.',
+        es: 'Pon la freidora a 160-170°C durante 5-8 minutos para la mayoría de platos. Las carnes y verduras recuperan su crujiente, a diferencia del microondas. Para arroz y pasta, añade unas gotas de agua y cubre con papel de aluminio. El recalentamiento en freidora es rápido y devuelve la textura original.',
+        it: 'Imposta la friggitrice a 160-170°C per 5-8 minuti per la maggior parte dei piatti. Carni e verdure ritrovano la loro croccantezza, a differenza del microonde. Per riso e pasta, aggiungi qualche goccia d\'acqua e copri con foglio di alluminio. Il riscaldamento è rapido e ridona la texture originale.',
+        nl: 'Stel de airfryer in op 160-170°C voor 5-8 minuten voor de meeste gerechten. Vlees en groenten worden weer krokant, in tegenstelling tot de magnetron. Voor rijst en pasta voeg je een paar druppels water toe en dek je af met aluminiumfolie. Opwarmen in de airfryer is snel en herstelt de originele textuur.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quels contenants utiliser pour le meal prep à l\'airfryer ?',
+        en: 'What containers should you use for air fryer meal prep?',
+        de: 'Welche Behälter eignen sich für Meal Prep mit der Heißluftfritteuse?',
+        es: '¿Qué recipientes usar para el meal prep con freidora de aire?',
+        it: 'Quali contenitori usare per il meal prep con la friggitrice ad aria?',
+        nl: 'Welke bakjes gebruik je voor meal prep met de airfryer?',
+      },
+      answer: {
+        fr: 'Choisissez des contenants en verre avec couvercle hermétique : ils passent au réfrigérateur, congélateur et micro-ondes. Les contenants compartimentés permettent de séparer protéines, légumes et féculents. Évitez le plastique pour le réchauffage. Investissez dans 10-12 contenants de 700 ml pour une semaine complète.',
+        en: 'Choose glass containers with airtight lids: they are safe for refrigerator, freezer, and microwave. Compartmentalized containers let you separate proteins, vegetables, and starches. Avoid plastic for reheating. Invest in 10-12 containers of 700 ml capacity for a complete week of meal prep.',
+        de: 'Wählen Sie Glasbehälter mit luftdichtem Deckel: kühlschrank-, gefrier- und mikrowellentauglich. Behälter mit Fächern trennen Proteine, Gemüse und Beilagen. Vermeiden Sie Plastik zum Aufwärmen. Investieren Sie in 10-12 Behälter à 700 ml für eine komplette Woche Meal Prep.',
+        es: 'Elige recipientes de cristal con tapa hermética: aptos para refrigerador, congelador y microondas. Los recipientes con compartimentos permiten separar proteínas, verduras y almidones. Evita el plástico para recalentar. Invierte en 10-12 recipientes de 700 ml para una semana completa.',
+        it: 'Scegli contenitori in vetro con coperchio ermetico: adatti a frigorifero, congelatore e microonde. I contenitori con scomparti permettono di separare proteine, verdure e carboidrati. Evita la plastica per riscaldare. Investi in 10-12 contenitori da 700 ml per una settimana completa.',
+        nl: 'Kies glazen bakken met luchtdichte deksel: geschikt voor koelkast, vriezer en magnetron. Bakken met compartimenten laten je eiwitten, groenten en zetmeel scheiden. Vermijd plastic voor opwarmen. Investeer in 10-12 bakken van 700 ml voor een complete week meal prep.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quels sont les meilleurs conseils pour le batch cooking à l\'airfryer ?',
+        en: 'What are the best batch cooking tips for the air fryer?',
+        de: 'Was sind die besten Batch-Cooking-Tipps für die Heißluftfritteuse?',
+        es: '¿Cuáles son los mejores consejos para batch cooking en la freidora de aire?',
+        it: 'Quali sono i migliori consigli per il batch cooking nella friggitrice ad aria?',
+        nl: 'Wat zijn de beste batch cooking-tips voor de airfryer?',
+      },
+      answer: {
+        fr: 'Organisez par température : commencez par les aliments à haute température (200°C : légumes), puis baissez pour les protéines (180°C), et terminez par les féculents. Avec un airfryer double panier, cuisez viande et légumes simultanément. Préparez tous les ingrédients avant de commencer pour un enchaînement fluide.',
+        en: 'Organize by temperature: start with high-temperature foods (200°C for vegetables), then lower for proteins (180°C), and finish with starches. With a dual-basket air fryer, cook meat and vegetables simultaneously. Prepare all ingredients before starting for a smooth workflow during the batch cooking session.',
+        de: 'Organisieren Sie nach Temperatur: beginnen Sie mit Hochtemperatur-Lebensmitteln (200°C: Gemüse), dann senken für Proteine (180°C), und enden mit Beilagen. Mit einem Doppelkorb-Airfryer garen Sie Fleisch und Gemüse gleichzeitig. Bereiten Sie alle Zutaten vor dem Start vor.',
+        es: 'Organiza por temperatura: empieza con alimentos a alta temperatura (200°C: verduras), luego baja para proteínas (180°C), y termina con almidones. Con una freidora de doble cesta, cocina carne y verduras simultáneamente. Prepara todos los ingredientes antes de empezar para un flujo de trabajo eficiente.',
+        it: 'Organizza per temperatura: inizia con alimenti ad alta temperatura (200°C: verdure), poi abbassa per le proteine (180°C) e finisci con i carboidrati. Con una friggitrice a doppio cestello, cuoci carne e verdure contemporaneamente. Prepara tutti gli ingredienti prima di iniziare per un flusso efficiente.',
+        nl: 'Organiseer op temperatuur: begin met hoge temperatuur (200°C: groenten), verlaag dan voor eiwitten (180°C) en eindig met zetmeel. Met een dubbele mand airfryer kook je vlees en groenten tegelijk. Bereid alle ingrediënten voor je begint voor een soepele workflow.',
+      },
+    },
+    {
+      question: {
+        fr: 'Peut-on congeler les plats préparés à l\'airfryer ?',
+        en: 'Can you freeze air fryer meal prep dishes?',
+        de: 'Kann man Meal-Prep-Gerichte aus der Heißluftfritteuse einfrieren?',
+        es: '¿Se pueden congelar los platos preparados en la freidora de aire?',
+        it: 'Si possono congelare i piatti preparati nella friggitrice ad aria?',
+        nl: 'Kun je meal prep-gerechten uit de airfryer invriezen?',
+      },
+      answer: {
+        fr: 'Oui, la plupart des plats à l\'airfryer se congèlent très bien pour 2 à 3 mois. Laissez refroidir complètement avant de congeler. Les viandes grillées, les boulettes et les légumes rôtis se congèlent excellemment. Évitez de congeler les aliments panés croustillants qui perdent leur texture. Décongelez au réfrigérateur la veille.',
+        en: 'Yes, most air fryer dishes freeze very well for 2 to 3 months. Let them cool completely before freezing. Grilled meats, meatballs, and roasted vegetables freeze excellently. Avoid freezing crispy breaded items as they lose their texture. Thaw in the refrigerator the night before for best results.',
+        de: 'Ja, die meisten Heißluftfritteusen-Gerichte lassen sich 2-3 Monate sehr gut einfrieren. Lassen Sie sie vollständig abkühlen. Gegrilltes Fleisch, Frikadellen und geröstetes Gemüse frieren ausgezeichnet ein. Vermeiden Sie das Einfrieren knuspriger panierter Gerichte. Tauen Sie im Kühlschrank über Nacht auf.',
+        es: 'Sí, la mayoría de platos de freidora se congelan muy bien durante 2-3 meses. Deja enfriar completamente antes de congelar. Las carnes a la parrilla, albóndigas y verduras asadas se congelan excelentemente. Evita congelar alimentos crujientes empanados que pierden su textura. Descongela en el refrigerador la víspera.',
+        it: 'Sì, la maggior parte dei piatti della friggitrice ad aria si congela molto bene per 2-3 mesi. Lascia raffreddare completamente prima di congelare. Carni grigliate, polpette e verdure arrosto si congelano benissimo. Evita di congelare alimenti impanati croccanti che perdono la texture. Scongela in frigo la sera prima.',
+        nl: 'Ja, de meeste airfryer-gerechten vriezen prima in voor 2-3 maanden. Laat ze volledig afkoelen voor het invriezen. Gegrild vlees, gehaktballen en geroosterde groenten vriezen uitstekend in. Vermijd het invriezen van krokante gepaneerde gerechten die hun textuur verliezen. Ontdooi in de koelkast de avond tevoren.',
+      },
+    },
+  ],
 }

@@ -492,4 +492,96 @@ export const article: BlogArticle = {
 <h2>Verdict</h2>
 <p>De Ninja Foodi FlexDrawer 10,4L is <strong>de meest veelzijdige airfryer van 2026</strong>. Bij beperkte ruimte is de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> beter. Alle aanbevelingen in onze <a href="/nl/guides/airfryers">complete gids 2026</a> en de <a href="/nl/blog/meilleur-airfryer-xxl-grande-famille">beste XXL airfryers voor grote gezinnen</a>.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Comment fonctionne le tiroir flexible du Ninja FlexDrawer ?',
+        en: 'How does the flexible drawer of the Ninja FlexDrawer work?',
+        de: 'Wie funktioniert die flexible Schublade des Ninja FlexDrawer?',
+        es: '¿Cómo funciona el cajón flexible del Ninja FlexDrawer?',
+        it: 'Come funziona il cassetto flessibile del Ninja FlexDrawer?',
+        nl: 'Hoe werkt de flexibele lade van de Ninja FlexDrawer?',
+      },
+      answer: {
+        fr: 'Le Ninja FlexDrawer dispose d\'un séparateur amovible au centre du tiroir. En le plaçant, vous créez deux zones indépendantes de 5,2 litres chacune avec des réglages distincts. En le retirant, vous libérez une méga-zone unique de 10,4 litres capable d\'accueillir un poulet entier de 2 kg. Le changement prend 5 secondes.',
+        en: 'The Ninja FlexDrawer features a removable divider in the centre of the drawer. By placing it, you create two independent 5.2-litre zones with separate settings. By removing it, you free up a single 10.4-litre mega-zone capable of holding a whole 2 kg chicken. The switch takes 5 seconds.',
+        de: 'Der Ninja FlexDrawer hat einen herausnehmbaren Teiler in der Mitte der Schublade. Eingesetzt entstehen zwei unabhängige 5,2-Liter-Zonen mit separaten Einstellungen. Entfernt ergibt sich eine 10,4-Liter-Mega-Zone für ein ganzes 2-kg-Hähnchen. Der Wechsel dauert 5 Sekunden.',
+        es: 'El Ninja FlexDrawer tiene un separador extraíble en el centro del cajón. Al colocarlo, se crean dos zonas independientes de 5,2 litros con ajustes distintos. Al retirarlo, se libera una mega-zona única de 10,4 litros para un pollo entero de 2 kg. El cambio tarda 5 segundos.',
+        it: 'Il Ninja FlexDrawer ha un divisore rimovibile al centro del cassetto. Inserendolo, si creano due zone indipendenti da 5,2 litri con impostazioni separate. Rimuovendolo, si ottiene una mega-zona unica da 10,4 litri per un pollo intero da 2 kg. Il cambio richiede 5 secondi.',
+        nl: 'De Ninja FlexDrawer heeft een verwijderbaar schot in het midden van de lade. Door het te plaatsen creëer je twee onafhankelijke zones van 5,2 liter met aparte instellingen. Door het te verwijderen krijg je één mega-zone van 10,4 liter voor een hele kip van 2 kg. De wissel duurt 5 seconden.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quelle quantité de nourriture peut contenir le Ninja FlexDrawer ?',
+        en: 'How much food can the Ninja FlexDrawer hold?',
+        de: 'Wie viel Essen passt in den Ninja FlexDrawer?',
+        es: '¿Cuánta comida cabe en el Ninja FlexDrawer?',
+        it: 'Quanta pietanza può contenere il Ninja FlexDrawer?',
+        nl: 'Hoeveel eten past er in de Ninja FlexDrawer?',
+      },
+      answer: {
+        fr: 'En mode Mega Zone, le Ninja FlexDrawer accepte jusqu\'à 1,2 kg de frites fraîches en une seule fournée ou un poulet entier de 1,8 kg. C\'est la plus grande capacité de notre sélection avec 10,4 litres au total. En mode Dual Zone, chaque compartiment de 5,2 litres accueille confortablement des portions pour 2-3 personnes.',
+        en: 'In Mega Zone mode, the Ninja FlexDrawer holds up to 1.2 kg of fresh fries in a single batch or a whole 1.8 kg chicken. It has the largest capacity in our selection at 10.4 litres total. In Dual Zone mode, each 5.2-litre compartment comfortably accommodates portions for 2-3 people.',
+        de: 'Im Mega-Zone-Modus fasst der Ninja FlexDrawer bis zu 1,2 kg frische Pommes in einer Charge oder ein ganzes 1,8-kg-Hähnchen. Mit 10,4 Litern ist er der größte in unserer Auswahl. Im Dual-Zone-Modus bietet jedes 5,2-Liter-Fach bequem Platz für Portionen für 2-3 Personen.',
+        es: 'En modo Mega Zone, el Ninja FlexDrawer acepta hasta 1,2 kg de patatas frescas de una vez o un pollo entero de 1,8 kg. Es la mayor capacidad de nuestra selección con 10,4 litros totales. En modo Dual Zone, cada compartimento de 5,2 litros aloja cómodamente porciones para 2-3 personas.',
+        it: 'In modalità Mega Zone, il Ninja FlexDrawer accoglie fino a 1,2 kg di patatine fresche in una volta o un pollo intero da 1,8 kg. Ha la capacità più grande della nostra selezione con 10,4 litri totali. In Dual Zone, ogni scomparto da 5,2 litri ospita comodamente porzioni per 2-3 persone.',
+        nl: 'In Mega Zone-modus past de Ninja FlexDrawer tot 1,2 kg verse friet in één keer of een hele kip van 1,8 kg. Het is de grootste capaciteit in onze selectie met 10,4 liter totaal. In Dual Zone-modus biedt elk vak van 5,2 liter comfortabel ruimte voor porties voor 2-3 personen.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quels accessoires sont inclus avec le Ninja FlexDrawer ?',
+        en: 'What accessories are included with the Ninja FlexDrawer?',
+        de: 'Welches Zubehör ist beim Ninja FlexDrawer enthalten?',
+        es: '¿Qué accesorios incluye el Ninja FlexDrawer?',
+        it: 'Quali accessori sono inclusi con il Ninja FlexDrawer?',
+        nl: 'Welke accessoires worden meegeleverd met de Ninja FlexDrawer?',
+      },
+      answer: {
+        fr: 'Le Ninja FlexDrawer est livré avec le séparateur amovible pour passer du mode Mega Zone au mode Dual Zone, ainsi que des paniers métalliques avec revêtement antiadhésif céramique. Les paniers sont compatibles lave-vaisselle. Le séparateur se nettoie facilement à la main en quelques secondes.',
+        en: 'The Ninja FlexDrawer comes with the removable divider for switching between Mega Zone and Dual Zone modes, along with ceramic non-stick coated metal baskets. The baskets are dishwasher safe. The divider cleans easily by hand in a few seconds.',
+        de: 'Der Ninja FlexDrawer wird mit dem herausnehmbaren Teiler zum Umschalten zwischen Mega- und Dual-Zone-Modus geliefert, zusammen mit Metallkörben mit Keramik-Antihaftbeschichtung. Die Körbe sind spülmaschinenfest. Der Teiler lässt sich in Sekunden von Hand reinigen.',
+        es: 'El Ninja FlexDrawer incluye el separador extraíble para cambiar entre los modos Mega Zone y Dual Zone, junto con cestas metálicas con recubrimiento antiadherente cerámico. Las cestas son aptas para lavavajillas. El separador se limpia fácilmente a mano en segundos.',
+        it: 'Il Ninja FlexDrawer include il divisore rimovibile per passare dalla Mega Zone alla Dual Zone, insieme a cestelli metallici con rivestimento antiaderente in ceramica. I cestelli sono lavabili in lavastoviglie. Il divisore si pulisce facilmente a mano in pochi secondi.',
+        nl: 'De Ninja FlexDrawer wordt geleverd met het verwijderbare schot om te wisselen tussen Mega Zone en Dual Zone, samen met metalen manden met keramische antiaanbaklaag. De manden zijn vaatwasmachinebestendig. Het schot is in enkele seconden met de hand schoon te maken.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quelle est la plage de température du Ninja FlexDrawer ?',
+        en: 'What is the temperature range of the Ninja FlexDrawer?',
+        de: 'Welchen Temperaturbereich hat der Ninja FlexDrawer?',
+        es: '¿Cuál es el rango de temperatura del Ninja FlexDrawer?',
+        it: 'Qual è il range di temperatura del Ninja FlexDrawer?',
+        nl: 'Wat is het temperatuurbereik van de Ninja FlexDrawer?',
+      },
+      answer: {
+        fr: 'Le Ninja FlexDrawer offre une plage de température de 40°C à 240°C. La température basse de 40°C permet la déshydratation d\'aliments avec une minuterie jusqu\'à 24 heures. La température haute de 240°C est suffisante pour saisir les viandes et obtenir une croûte de Maillard satisfaisante sur les steaks.',
+        en: 'The Ninja FlexDrawer offers a temperature range from 40°C to 240°C. The low 40°C setting enables food dehydration with a timer up to 24 hours. The high 240°C is sufficient for searing meats and achieving a satisfying Maillard crust on steaks.',
+        de: 'Der Ninja FlexDrawer bietet einen Temperaturbereich von 40°C bis 240°C. Die niedrige Einstellung von 40°C ermöglicht das Dörren von Lebensmitteln mit einem Timer bis 24 Stunden. Die hohe Temperatur von 240°C reicht zum Anbraten von Fleisch und für eine gute Maillard-Kruste bei Steaks.',
+        es: 'El Ninja FlexDrawer ofrece un rango de temperatura de 40°C a 240°C. La temperatura baja de 40°C permite deshidratar alimentos con temporizador hasta 24 horas. Los 240°C son suficientes para sellar carnes y lograr una costra de Maillard satisfactoria en los filetes.',
+        it: 'Il Ninja FlexDrawer offre un range di temperatura da 40°C a 240°C. La temperatura bassa di 40°C permette l\'essiccazione degli alimenti con timer fino a 24 ore. I 240°C sono sufficienti per scottare le carni e ottenere una crosta di Maillard soddisfacente sulle bistecche.',
+        nl: 'De Ninja FlexDrawer biedt een temperatuurbereik van 40°C tot 240°C. De lage instelling van 40°C maakt het drogen van voedsel mogelijk met een timer tot 24 uur. De hoge temperatuur van 240°C is voldoende om vlees aan te braden en een goede Maillard-korst te vormen op steaks.',
+      },
+    },
+    {
+      question: {
+        fr: 'Les paniers du Ninja FlexDrawer passent-ils au lave-vaisselle ?',
+        en: 'Are the Ninja FlexDrawer baskets dishwasher safe?',
+        de: 'Sind die Körbe des Ninja FlexDrawer spülmaschinenfest?',
+        es: '¿Las cestas del Ninja FlexDrawer son aptas para lavavajillas?',
+        it: 'I cestelli del Ninja FlexDrawer sono lavabili in lavastoviglie?',
+        nl: 'Zijn de manden van de Ninja FlexDrawer vaatwasmachinebestendig?',
+      },
+      answer: {
+        fr: 'Oui, les paniers du Ninja FlexDrawer sont compatibles lave-vaisselle avec un revêtement antiadhésif céramique durable. Attention cependant à leur grande taille qui peut poser problème dans certains lave-vaisselle standards. Le format large du tiroir facilite le nettoyage manuel car toutes les surfaces sont facilement accessibles.',
+        en: 'Yes, the Ninja FlexDrawer baskets are dishwasher safe with a durable ceramic non-stick coating. However, their large size may be an issue in some standard dishwashers. The wide drawer format makes manual cleaning easy since all surfaces are readily accessible.',
+        de: 'Ja, die Körbe des Ninja FlexDrawer sind spülmaschinenfest mit haltbarer Keramik-Antihaftbeschichtung. Ihre Größe kann jedoch in manchen Standard-Spülmaschinen problematisch sein. Das breite Schubladenformat erleichtert die manuelle Reinigung, da alle Oberflächen leicht zugänglich sind.',
+        es: 'Sí, las cestas del Ninja FlexDrawer son aptas para lavavajillas con recubrimiento antiadherente cerámico duradero. Sin embargo, su gran tamaño puede ser un problema en algunos lavavajillas estándar. El formato ancho del cajón facilita la limpieza manual ya que todas las superficies son accesibles.',
+        it: 'Sì, i cestelli del Ninja FlexDrawer sono lavabili in lavastoviglie con rivestimento antiaderente ceramico durevole. Tuttavia, le loro grandi dimensioni possono creare problemi in alcune lavastoviglie standard. Il formato largo del cassetto facilita la pulizia manuale poiché tutte le superfici sono facilmente accessibili.',
+        nl: 'Ja, de manden van de Ninja FlexDrawer zijn vaatwasmachinebestendig met duurzame keramische antiaanbaklaag. Let wel op hun grote formaat dat in sommige standaard vaatwassers problematisch kan zijn. Het brede ladeformaat maakt handmatig schoonmaken makkelijk omdat alle oppervlakken goed bereikbaar zijn.',
+      },
+    },
+  ],
 }

@@ -426,4 +426,96 @@ export const article: BlogArticle = {
 <h2>Ons oordeel</h2>
 <p>Er is geen verkeerde keuze tussen Ninja en Philips in 2026. <strong>Kies Philips</strong> voor de beste gaarkwaliteit en elegant design. <strong>Kies Ninja</strong> voor maximale capaciteit en dubbele mand. Onze favoriet: de <a href="/nl/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>, maar de <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> blijft onze topaanbeveling voor het beste enkele mandje.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Quelle marque a la meilleure qualite de fabrication : Ninja ou Philips ?',
+        en: 'Which brand has better build quality: Ninja or Philips?',
+        de: 'Welche Marke hat die bessere Verarbeitungsqualitaet: Ninja oder Philips?',
+        es: 'Que marca tiene mejor calidad de construccion: Ninja o Philips?',
+        it: 'Quale marca ha la migliore qualita costruttiva: Ninja o Philips?',
+        nl: 'Welk merk heeft de betere bouwkwaliteit: Ninja of Philips?',
+      },
+      answer: {
+        fr: 'Philips a un leger avantage en finition et design. Ses plastiques sont plus haut de gamme et son revetement antiadhesif dure plus longtemps. Ninja est plus robuste et utilitaire mais moins raffine. Le revetement Ninja peut montrer des signes d\'usure apres 12-18 mois d\'usage intensif. Les deux marques ont un taux de panne comparable de 3-4%.',
+        en: 'Philips has a slight edge in finish and design. Its plastics are more premium and its non-stick coating lasts longer. Ninja is more robust and utilitarian but less refined. Ninja coating may show wear after 12-18 months of intensive use. Both brands have comparable failure rates of around 3-4%.',
+        de: 'Philips hat einen leichten Vorteil bei Verarbeitung und Design. Die Kunststoffe sind hochwertiger und die Antihaftbeschichtung haelt laenger. Ninja ist robuster und funktionaler, aber weniger raffiniert. Die Ninja-Beschichtung kann nach 12-18 Monaten intensiver Nutzung Verschleiss zeigen. Beide Marken haben vergleichbare Ausfallraten von 3-4%.',
+        es: 'Philips tiene una ligera ventaja en acabado y diseno. Sus plasticos son mas premium y su recubrimiento antiadherente dura mas. Ninja es mas robusto y funcional pero menos refinado. El recubrimiento Ninja puede mostrar desgaste tras 12-18 meses de uso intensivo. Ambas marcas tienen tasas de fallo comparables del 3-4%.',
+        it: 'Philips ha un leggero vantaggio in finitura e design. Le sue plastiche sono piu premium e il rivestimento antiaderente dura di piu. Ninja e piu robusto e funzionale ma meno raffinato. Il rivestimento Ninja puo mostrare usura dopo 12-18 mesi di uso intensivo. Entrambi i marchi hanno tassi di guasto comparabili del 3-4%.',
+        nl: 'Philips heeft een licht voordeel in afwerking en design. De kunststoffen zijn hoogwaardiger en de antiaanbaklaag gaat langer mee. Ninja is robuuster en functioneler maar minder verfijnd. De Ninja-coating kan slijtage tonen na 12-18 maanden intensief gebruik. Beide merken hebben vergelijkbare uitvalpercentages van 3-4%.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quels accessoires sont inclus avec les airfryers Ninja et Philips ?',
+        en: 'What accessories are included with Ninja and Philips air fryers?',
+        de: 'Welches Zubehoer ist bei Ninja und Philips Heissluftfritteusen enthalten?',
+        es: 'Que accesorios incluyen las freidoras Ninja y Philips?',
+        it: 'Quali accessori sono inclusi con le friggitrici Ninja e Philips?',
+        nl: 'Welke accessoires worden meegeleverd met Ninja en Philips airfryers?',
+      },
+      answer: {
+        fr: 'Philips fournit generalement le panier, un separateur et parfois une grille de cuisson. La gamme d\'accessoires en option est large : moules, grilles supplementaires, brochettes. Ninja inclut les paniers, le separateur FlexDrawer sur les modeles compatibles et un guide de demarrage. Philips offre davantage d\'accessoires en option.',
+        en: 'Philips typically includes the basket, a divider, and sometimes a cooking rack. Their optional accessory range is extensive: baking molds, extra racks, and skewers. Ninja includes baskets, the FlexDrawer divider on compatible models, and a starter guide. Philips offers more optional accessories overall.',
+        de: 'Philips liefert in der Regel den Korb, einen Trenner und manchmal ein Gargitter mit. Das optionale Zubehoersortiment ist gross: Backformen, Zusatzgitter, Spiesse. Ninja liefert Koerbe, den FlexDrawer-Trenner bei kompatiblen Modellen und eine Kurzanleitung. Philips bietet insgesamt mehr optionales Zubehoer.',
+        es: 'Philips suele incluir la cesta, un separador y a veces una rejilla. Su gama de accesorios opcionales es amplia: moldes, rejillas extra, brochetas. Ninja incluye las cestas, el separador FlexDrawer en modelos compatibles y una guia de inicio. Philips ofrece mas accesorios opcionales en general.',
+        it: 'Philips include generalmente il cestello, un divisore e a volte una griglia di cottura. La gamma di accessori opzionali e ampia: stampi, griglie extra, spiedini. Ninja include i cestelli, il divisore FlexDrawer sui modelli compatibili e una guida rapida. Philips offre piu accessori opzionali complessivamente.',
+        nl: 'Philips levert doorgaans het mandje, een verdeler en soms een bakrek. Het optionele accessoire-aanbod is uitgebreid: bakvormen, extra rekken, spiezen. Ninja levert mandjes, de FlexDrawer-verdeler bij compatibele modellen en een startgids. Philips biedt over het geheel meer optionele accessoires.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quel est le service apres-vente en Europe pour Ninja et Philips ?',
+        en: 'What is the customer service like in Europe for Ninja and Philips?',
+        de: 'Wie ist der Kundendienst in Europa fuer Ninja und Philips?',
+        es: 'Como es el servicio posventa en Europa de Ninja y Philips?',
+        it: 'Come e l\'assistenza clienti in Europa per Ninja e Philips?',
+        nl: 'Hoe is de klantenservice in Europa voor Ninja en Philips?',
+      },
+      answer: {
+        fr: 'Philips a un SAV superieur en Europe : centre d\'appel francophone, pieces detachees disponibles 7 ans, extension de garantie gratuite a 3 ans par enregistrement et remplacement en 5-7 jours. Ninja offre un SAV correct via centre d\'appel UK/FR, pieces disponibles 5 ans et remplacement en 7-14 jours. Pas d\'extension de garantie chez Ninja.',
+        en: 'Philips has superior European support: local call centers, spare parts available for 7 years, free warranty extension to 3 years via registration, and replacement in 5-7 days. Ninja offers decent support via UK/FR call centers, parts for 5 years, and replacement in 7-14 days. No warranty extension available from Ninja.',
+        de: 'Philips hat den besseren europaeischen Kundendienst: lokale Callcenter, Ersatzteile 7 Jahre verfuegbar, kostenlose Garantieverlaengerung auf 3 Jahre durch Registrierung und Austausch in 5-7 Tagen. Ninja bietet ordentlichen Service ueber UK/FR-Callcenter, Teile fuer 5 Jahre und Austausch in 7-14 Tagen. Keine Garantieverlaengerung bei Ninja.',
+        es: 'Philips tiene un servicio posventa superior en Europa: centros de llamadas locales, recambios disponibles 7 anos, extension de garantia gratuita a 3 anos por registro y sustitucion en 5-7 dias. Ninja ofrece un servicio correcto via centros UK/FR, recambios 5 anos y sustitucion en 7-14 dias. Sin extension de garantia en Ninja.',
+        it: 'Philips ha un\'assistenza superiore in Europa: call center locali, ricambi disponibili per 7 anni, estensione garanzia gratuita a 3 anni tramite registrazione e sostituzione in 5-7 giorni. Ninja offre un servizio discreto tramite call center UK/FR, ricambi per 5 anni e sostituzione in 7-14 giorni. Nessuna estensione garanzia per Ninja.',
+        nl: 'Philips heeft betere Europese klantenservice: lokale callcenters, onderdelen 7 jaar beschikbaar, gratis garantieverlenging tot 3 jaar via registratie en vervanging in 5-7 dagen. Ninja biedt fatsoenlijke service via UK/NL callcenters, onderdelen voor 5 jaar en vervanging in 7-14 dagen. Geen garantieverlenging bij Ninja.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quel airfryer a la meilleure valeur de revente : Ninja ou Philips ?',
+        en: 'Which air fryer has better resale value: Ninja or Philips?',
+        de: 'Welche Heissluftfritteuse hat den besseren Wiederverkaufswert: Ninja oder Philips?',
+        es: 'Que freidora tiene mejor valor de reventa: Ninja o Philips?',
+        it: 'Quale friggitrice ha un miglior valore di rivendita: Ninja o Philips?',
+        nl: 'Welke airfryer heeft de betere doorverkoopwaarde: Ninja of Philips?',
+      },
+      answer: {
+        fr: 'Philips conserve generalement une meilleure valeur de revente grace a sa reputation de marque premium et a la durabilite de ses appareils. Un Philips d\'occasion se revend a environ 50-60% du prix neuf apres un an. Ninja conserve environ 40-50% de sa valeur. La plus grande disponibilite de pieces chez Philips rassure les acheteurs d\'occasion.',
+        en: 'Philips generally retains better resale value thanks to its premium brand reputation and appliance durability. A used Philips sells for about 50-60% of its new price after one year. Ninja retains about 40-50% of its value. Philips\' longer spare parts availability also reassures second-hand buyers.',
+        de: 'Philips behaelt generell einen besseren Wiederverkaufswert dank Premium-Markenimage und Geraetehaltbarkeit. Ein gebrauchter Philips bringt nach einem Jahr etwa 50-60% des Neupreises. Ninja behaelt etwa 40-50% seines Wertes. Die laengere Ersatzteilversorgung bei Philips beruhigt Gebrauchtkaufer.',
+        es: 'Philips conserva generalmente mejor valor de reventa gracias a su reputacion premium y durabilidad. Un Philips usado se vende a un 50-60% del precio nuevo tras un ano. Ninja conserva un 40-50%. La mayor disponibilidad de recambios de Philips tranquiliza a los compradores de segunda mano.',
+        it: 'Philips mantiene generalmente un miglior valore di rivendita grazie alla reputazione premium e alla durabilita. Un Philips usato si rivende a circa il 50-60% del prezzo nuovo dopo un anno. Ninja mantiene circa il 40-50% del valore. La maggiore disponibilita di ricambi Philips rassicura gli acquirenti dell\'usato.',
+        nl: 'Philips behoudt over het algemeen een betere doorverkoopwaarde dankzij het premium merkimago en de duurzaamheid. Een tweedehands Philips brengt na een jaar ongeveer 50-60% van de nieuwprijs op. Ninja behoudt ongeveer 40-50% van zijn waarde. De langere beschikbaarheid van onderdelen bij Philips stelt tweedehandskopers gerust.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quel airfryer choisir quand on est debutant : Ninja ou Philips ?',
+        en: 'Which air fryer should beginners choose: Ninja or Philips?',
+        de: 'Welche Heissluftfritteuse sollten Anfaenger waehlen: Ninja oder Philips?',
+        es: 'Que freidora deben elegir los principiantes: Ninja o Philips?',
+        it: 'Quale friggitrice dovrebbero scegliere i principianti: Ninja o Philips?',
+        nl: 'Welke airfryer moeten beginners kiezen: Ninja of Philips?',
+      },
+      answer: {
+        fr: 'Pour les debutants, nous recommandons le Philips 3000 XL. Son fonctionnement simple panier est intuitif, la qualite de cuisson pardonne les erreurs de reglage, et l\'application HomeID guide pas a pas. A 110 EUR, c\'est le meilleur point d\'entree. Le Ninja Dual Zone est plus complexe a maitriser au debut avec ses deux zones independantes.',
+        en: 'For beginners, we recommend the Philips 3000 XL. Its single basket operation is intuitive, the cooking quality forgives setting mistakes, and the HomeID app provides step-by-step guidance. At 110 EUR, it is the best entry point. The Ninja Dual Zone is more complex to master initially with its two independent zones.',
+        de: 'Fuer Anfaenger empfehlen wir die Philips 3000 XL. Ihr Einzelkorb-Betrieb ist intuitiv, die Garqualitaet verzeiht Einstellungsfehler und die HomeID-App fuehrt Schritt fuer Schritt. Fuer 110 EUR ist sie der beste Einstieg. Der Ninja Dual Zone ist mit seinen zwei unabhaengigen Zonen anfangs komplexer zu beherrschen.',
+        es: 'Para principiantes recomendamos la Philips 3000 XL. Su funcionamiento de cesta simple es intuitivo, la calidad de coccion perdona errores de ajuste y la app HomeID guia paso a paso. A 110 EUR es el mejor punto de entrada. La Ninja Dual Zone es mas compleja de dominar al principio con sus dos zonas independientes.',
+        it: 'Per i principianti consigliamo la Philips 3000 XL. Il funzionamento a cestello singolo e intuitivo, la qualita di cottura perdona gli errori di impostazione e l\'app HomeID guida passo passo. A 110 EUR e il miglior punto d\'ingresso. La Ninja Dual Zone e piu complessa da padroneggiare inizialmente con le sue due zone indipendenti.',
+        nl: 'Voor beginners raden we de Philips 3000 XL aan. De bediening met enkel mandje is intuitief, de gaarkwaliteit vergeeft instellingsfouten en de HomeID-app begeleidt stap voor stap. Voor 110 EUR is het de beste instap. De Ninja Dual Zone is in het begin complexer om te beheersen met twee onafhankelijke zones.',
+      },
+    },
+  ],
 }

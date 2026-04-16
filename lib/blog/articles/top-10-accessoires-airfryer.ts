@@ -632,4 +632,96 @@ export const article: BlogArticle = {
 
 <p>Starterkit voor minder dan 45 €: vellen, siliconenvorm, oliespray, tangen en borstels. Vermijd de meest voorkomende <a href="/nl/blog/erreurs-courantes-airfryer">beginnerfouten</a>. Alle tips in onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en de <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Quels sont les accessoires vraiment indispensables pour un airfryer ?',
+        en: 'What accessories are truly essential for an air fryer?',
+        de: 'Welches Zubehör ist wirklich unverzichtbar für eine Heißluftfritteuse?',
+        es: '¿Qué accesorios son realmente indispensables para una freidora de aire?',
+        it: 'Quali accessori sono davvero indispensabili per una friggitrice ad aria?',
+        nl: 'Welke accessoires zijn echt onmisbaar voor een airfryer?',
+      },
+      answer: {
+        fr: 'Les trois accessoires indispensables sont les papiers perforés (facilitent le nettoyage), les moules en silicone (permettent gâteaux et gratins) et un spray à huile (contrôle précis de la matière grasse). Ces trois coûtent moins de 30 € et transforment votre utilisation quotidienne de l\'airfryer.',
+        en: 'The three essential accessories are perforated liners (ease cleaning), silicone moulds (enable cakes and gratins), and an oil sprayer (precise fat control). These three cost under 30 euros combined and transform your daily air fryer usage. Everything else is optional and can be added later.',
+        de: 'Die drei unverzichtbaren Zubehörteile sind perforierte Backpapiere (erleichtern die Reinigung), Silikonformen (ermöglichen Kuchen und Gratins) und ein Ölsprüher (präzise Fettkontrolle). Diese drei kosten zusammen unter 30 Euro und verändern den täglichen Gebrauch Ihrer Heißluftfritteuse.',
+        es: 'Los tres accesorios indispensables son los papeles perforados (facilitan la limpieza), los moldes de silicona (permiten bizcochos y gratinados) y un spray de aceite (control preciso de grasa). Estos tres cuestan menos de 30 euros y transforman tu uso diario de la freidora.',
+        it: 'I tre accessori indispensabili sono i fogli perforati (facilitano la pulizia), gli stampi in silicone (permettono torte e gratinati) e uno spray per olio (controllo preciso dei grassi). Questi tre costano meno di 30 euro e trasformano l\'uso quotidiano della friggitrice ad aria.',
+        nl: 'De drie onmisbare accessoires zijn geperforeerde vellen (vergemakkelijken reiniging), siliconenvormen (maken gebak en gratins mogelijk) en een oliespray (nauwkeurige vetcontrole). Deze drie kosten samen minder dan 30 euro en veranderen je dagelijks airfryergebruik.',
+      },
+    },
+    {
+      question: {
+        fr: 'Les accessoires d\'airfryer sont-ils universels ou spécifiques à chaque marque ?',
+        en: 'Are air fryer accessories universal or brand-specific?',
+        de: 'Sind Heißluftfritteusen-Zubehörteile universell oder markenspezifisch?',
+        es: '¿Los accesorios de freidora de aire son universales o específicos de cada marca?',
+        it: 'Gli accessori per friggitrice ad aria sono universali o specifici per marca?',
+        nl: 'Zijn airfryer-accessoires universeel of merkgebonden?',
+      },
+      answer: {
+        fr: 'La plupart des accessoires sont universels, à condition de choisir la bonne taille. Mesurez le diamètre intérieur de votre panier et laissez 1 cm de marge. Les papiers perforés existent en tailles rondes et carrées. Les moules en silicone doivent entrer librement avec un espace pour la circulation d\'air.',
+        en: 'Most accessories are universal as long as you choose the right size. Measure the inner diameter of your basket and leave 1 cm clearance. Perforated liners come in round and square sizes. Silicone moulds must fit freely with space around them for proper air circulation inside the basket.',
+        de: 'Die meisten Zubehörteile sind universell, solange Sie die richtige Größe wählen. Messen Sie den Innendurchmesser Ihres Korbs und lassen Sie 1 cm Abstand. Perforierte Papiere gibt es in runden und eckigen Größen. Silikonformen müssen frei passen mit Platz für die Luftzirkulation.',
+        es: 'La mayoría de los accesorios son universales si eliges el tamaño correcto. Mide el diámetro interior de tu cesta y deja 1 cm de margen. Los papeles perforados existen en tamaños redondos y cuadrados. Los moldes de silicona deben caber libremente con espacio para la circulación del aire.',
+        it: 'La maggior parte degli accessori è universale, a patto di scegliere la dimensione giusta. Misura il diametro interno del cestello e lascia 1 cm di margine. I fogli perforati esistono in formati rotondi e quadrati. Gli stampi in silicone devono entrare liberamente con spazio per il flusso d\'aria.',
+        nl: 'De meeste accessoires zijn universeel, mits je de juiste maat kiest. Meet de binnendiameter van je mand en laat 1 cm ruimte. Geperforeerde vellen zijn er in ronde en vierkante maten. Siliconenvormen moeten vrij passen met ruimte eromheen voor luchtstroom.',
+      },
+    },
+    {
+      question: {
+        fr: 'Moules en silicone ou en métal : lesquels choisir pour l\'airfryer ?',
+        en: 'Silicone or metal moulds: which are better for air fryers?',
+        de: 'Silikon- oder Metallformen: Welche sind besser für Heißluftfritteusen?',
+        es: '¿Moldes de silicona o de metal: cuáles son mejores para la freidora de aire?',
+        it: 'Stampi in silicone o in metallo: quali sono migliori per la friggitrice ad aria?',
+        nl: 'Siliconenvormen of metalen vormen: welke zijn beter voor de airfryer?',
+      },
+      answer: {
+        fr: 'Les moules en silicone sont préférables pour l\'airfryer : ils sont souples (démoulage facile), résistants jusqu\'à 230°C, compatibles lave-vaisselle et n\'endommagent pas le revêtement antiadhésif. Les moules en métal chauffent plus vite et donnent un meilleur brunissement, mais risquent de rayer le panier.',
+        en: 'Silicone moulds are preferable for air fryers: they are flexible (easy unmoulding), heat-resistant up to 230°C, dishwasher-safe, and won\'t damage the non-stick coating. Metal moulds heat faster and give better browning, but can scratch the basket. Use metal only with a protective liner underneath.',
+        de: 'Silikonformen sind für Heißluftfritteusen vorzuziehen: flexibel (leichtes Lösen), hitzebeständig bis 230°C, spülmaschinenfest und schonen die Antihaftbeschichtung. Metallformen heizen schneller und bräunen besser, können aber den Korb verkratzen. Verwenden Sie Metall nur mit einer Schutzunterlage.',
+        es: 'Los moldes de silicona son preferibles para la freidora de aire: son flexibles (desmoldeo fácil), resistentes hasta 230°C, aptos para lavavajillas y no dañan el antiadherente. Los moldes de metal calientan más rápido y doran mejor, pero pueden rayar la cesta. Usa metal solo con protección.',
+        it: 'Gli stampi in silicone sono preferibili per la friggitrice ad aria: flessibili (facile sformatura), resistenti fino a 230°C, lavabili in lavastoviglie e non danneggiano il rivestimento antiaderente. Gli stampi in metallo scaldano prima e dorano meglio, ma possono graffiare il cestello.',
+        nl: 'Siliconenvormen zijn de voorkeur voor airfryers: flexibel (makkelijk loskomen), hittebestendig tot 230°C, vaatwasmachinebestendig en beschadigen de antiaanbaklaag niet. Metalen vormen verwarmen sneller en geven betere bruining, maar kunnen de mand bekrassen. Gebruik metaal alleen met bescherming.',
+      },
+    },
+    {
+      question: {
+        fr: 'Où acheter des accessoires pour airfryer au meilleur prix ?',
+        en: 'Where can I buy air fryer accessories at the best price?',
+        de: 'Wo kann man Heißluftfritteusen-Zubehör zum besten Preis kaufen?',
+        es: '¿Dónde comprar accesorios para freidora de aire al mejor precio?',
+        it: 'Dove comprare accessori per friggitrice ad aria al miglior prezzo?',
+        nl: 'Waar kun je airfryer-accessoires kopen voor de beste prijs?',
+      },
+      answer: {
+        fr: 'Amazon offre le meilleur choix et les prix les plus compétitifs, avec des kits complets de 10 à 30 €. Les magasins spécialisés cuisine (Darty, Boulanger) proposent des marques premium. Évitez les kits trop bon marché avec des dizaines de pièces : la qualité est souvent médiocre.',
+        en: 'Amazon offers the best selection and most competitive prices, with complete kits from 10 to 30 euros. Specialist kitchen stores stock premium brands. Avoid suspiciously cheap kits with dozens of pieces, as quality is often poor. Focus on buying three to five high-quality essentials instead.',
+        de: 'Amazon bietet die beste Auswahl und wettbewerbsfähigste Preise, mit Komplettsets ab 10 bis 30 Euro. Fachgeschäfte für Küchengeräte führen Premiummarken. Vermeiden Sie zu billige Sets mit Dutzenden Teilen — die Qualität ist oft mangelhaft. Konzentrieren Sie sich auf drei bis fünf hochwertige Basics.',
+        es: 'Amazon ofrece la mejor selección y precios más competitivos, con kits completos de 10 a 30 euros. Las tiendas especializadas tienen marcas premium. Evita los kits demasiado baratos con decenas de piezas: la calidad suele ser mediocre. Mejor comprar tres a cinco accesorios esenciales de calidad.',
+        it: 'Amazon offre la migliore selezione e i prezzi più competitivi, con kit completi da 10 a 30 euro. I negozi specializzati di cucina hanno marchi premium. Evita kit troppo economici con decine di pezzi: la qualità è spesso scarsa. Meglio comprare tre-cinque accessori essenziali di qualità.',
+        nl: 'Amazon biedt de beste selectie en meest concurrerende prijzen, met complete kits van 10 tot 30 euro. Gespecialiseerde keukenwinkels hebben premiummerken. Vermijd te goedkope kits met tientallen stukken: de kwaliteit is vaak ondermaats. Focus op drie tot vijf essentiële accessoires van goede kwaliteit.',
+      },
+    },
+    {
+      question: {
+        fr: 'Comment nettoyer les accessoires d\'airfryer ?',
+        en: 'How do you clean air fryer accessories?',
+        de: 'Wie reinigt man Heißluftfritteusen-Zubehör?',
+        es: '¿Cómo limpiar los accesorios de la freidora de aire?',
+        it: 'Come si puliscono gli accessori della friggitrice ad aria?',
+        nl: 'Hoe maak je airfryer-accessoires schoon?',
+      },
+      answer: {
+        fr: 'Les moules en silicone et les grilles en acier inoxydable passent au lave-vaisselle. Pour les résidus tenaces, faites tremper 15 minutes dans de l\'eau chaude savonneuse. Les papiers perforés sont jetables. Nettoyez le spray à huile en le remplissant d\'eau chaude et en pulvérisant plusieurs fois.',
+        en: 'Silicone moulds and stainless steel racks are dishwasher-safe. For stubborn residue, soak for 15 minutes in hot soapy water. Perforated liners are disposable, so simply discard after use. Clean the oil sprayer by filling it with hot water and spraying several times to flush the nozzle.',
+        de: 'Silikonformen und Edelstahlgitter sind spülmaschinenfest. Bei hartnäckigen Rückständen 15 Minuten in heißem Seifenwasser einweichen. Perforierte Papiere sind Einwegartikel. Reinigen Sie den Ölsprüher, indem Sie heißes Wasser einfüllen und mehrmals sprühen, um die Düse zu spülen.',
+        es: 'Los moldes de silicona y las rejillas de acero inoxidable son aptos para lavavajillas. Para residuos difíciles, remoja 15 minutos en agua caliente jabonosa. Los papeles perforados son desechables. Limpia el spray de aceite llenándolo con agua caliente y pulverizando varias veces para limpiar la boquilla.',
+        it: 'Gli stampi in silicone e le griglie in acciaio inossidabile sono lavabili in lavastoviglie. Per i residui ostinati, ammollo di 15 minuti in acqua calda e sapone. I fogli perforati sono usa e getta. Pulisci lo spray per olio riempiendolo di acqua calda e spruzzando più volte per liberare l\'ugello.',
+        nl: 'Siliconenvormen en roestvrijstalen rekjes zijn vaatwasmachinebestendig. Laat hardnekkige resten 15 minuten weken in warm sop. Geperforeerde vellen zijn wegwerpbaar. Maak de oliespray schoon door heet water te vullen en meerdere keren te sprayen om het mondstuk door te spoelen.',
+      },
+    },
+  ],
 }

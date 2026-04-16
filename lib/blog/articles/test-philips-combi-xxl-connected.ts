@@ -507,4 +507,96 @@ export const article: BlogArticle = {
 <h2>Verdict</h2>
 <p>De Philips Combi XXL Connected is <strong>de technologisch meest geavanceerde airfryer van 2026</strong>. Voor de meesten biedt de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack voor €229,99</a> betere totale waarde. Meer in onze <a href="/nl/blog/ninja-vs-philips-quel-choisir">Ninja vs Philips vergelijking</a> en de <a href="/nl/guides/airfryers">complete gids 2026</a>.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Quelles sont les fonctionnalités Wi-Fi du Philips Combi XXL Connected ?',
+        en: 'What are the Wi-Fi features of the Philips Combi XXL Connected?',
+        de: 'Welche Wi-Fi-Funktionen bietet der Philips Combi XXL Connected?',
+        es: '¿Qué funciones Wi-Fi ofrece el Philips Combi XXL Connected?',
+        it: 'Quali funzionalità Wi-Fi offre il Philips Combi XXL Connected?',
+        nl: 'Welke Wi-Fi-functies biedt de Philips Combi XXL Connected?',
+      },
+      answer: {
+        fr: 'Le Philips Combi XXL Connected se connecte en Wi-Fi 2,4 et 5 GHz via l\'application Philips HomeID. L\'app offre plus de 500 recettes, le contrôle à distance, des notifications de fin de cuisson, l\'historique des cuissons et la possibilité de créer des programmes personnalisés. La configuration prend environ 2 minutes.',
+        en: 'The Philips Combi XXL Connected offers Wi-Fi on both 2.4 and 5 GHz bands via the Philips HomeID app. The app provides over 500 recipes, remote control, cooking completion notifications, cooking history, and the ability to create custom programmes. Setup takes approximately 2 minutes.',
+        de: 'Der Philips Combi XXL Connected verbindet sich über Wi-Fi 2,4 und 5 GHz mit der Philips HomeID-App. Die App bietet über 500 Rezepte, Fernsteuerung, Benachrichtigungen bei Garende, Kochhistorie und die Möglichkeit, eigene Programme zu erstellen. Die Einrichtung dauert etwa 2 Minuten.',
+        es: 'El Philips Combi XXL Connected se conecta por Wi-Fi 2,4 y 5 GHz a través de la app Philips HomeID. La app ofrece más de 500 recetas, control remoto, notificaciones de fin de cocción, historial de cocciones y la posibilidad de crear programas personalizados. La configuración tarda unos 2 minutos.',
+        it: 'Il Philips Combi XXL Connected si connette tramite Wi-Fi 2,4 e 5 GHz con l\'app Philips HomeID. L\'app offre oltre 500 ricette, controllo remoto, notifiche di fine cottura, cronologia delle cotture e la possibilità di creare programmi personalizzati. La configurazione richiede circa 2 minuti.',
+        nl: 'De Philips Combi XXL Connected verbindt via Wi-Fi 2,4 en 5 GHz met de Philips HomeID-app. De app biedt meer dan 500 recepten, afstandsbediening, meldingen bij het einde van de bereiding, kookgeschiedenis en de mogelijkheid om eigen programma\'s te maken. Instellen duurt ongeveer 2 minuten.',
+      },
+    },
+    {
+      question: {
+        fr: 'Le Philips Combi XXL Connected est-il trop grand pour une cuisine standard ?',
+        en: 'Is the Philips Combi XXL Connected too large for a standard kitchen?',
+        de: 'Ist der Philips Combi XXL Connected zu groß für eine Standardküche?',
+        es: '¿Es demasiado grande el Philips Combi XXL Connected para una cocina estándar?',
+        it: 'Il Philips Combi XXL Connected è troppo grande per una cucina standard?',
+        nl: 'Is de Philips Combi XXL Connected te groot voor een standaard keuken?',
+      },
+      answer: {
+        fr: 'Le Philips Combi XXL occupe 35,5 x 43,4 cm au sol avec une hauteur de 37,2 cm. C\'est un appareil imposant qui nécessite un grand plan de travail. Il pèse 8,7 kg et n\'est pas facile à déplacer. Si votre espace est limité, un modèle plus compact comme le Philips 3000 XL serait plus adapté.',
+        en: 'The Philips Combi XXL has a footprint of 35.5 x 43.4 cm with a height of 37.2 cm. It is a substantial appliance that requires a large countertop. At 8.7 kg, it is not easy to move. If your space is limited, a more compact model like the Philips 3000 XL would be better suited.',
+        de: 'Der Philips Combi XXL benötigt 35,5 x 43,4 cm Stellfläche bei 37,2 cm Höhe. Er ist ein imposantes Gerät, das eine große Arbeitsfläche erfordert. Mit 8,7 kg ist er nicht leicht zu bewegen. Bei begrenztem Platz wäre ein kompakteres Modell wie der Philips 3000 XL besser geeignet.',
+        es: 'El Philips Combi XXL ocupa 35,5 x 43,4 cm de base con 37,2 cm de altura. Es un aparato grande que requiere una encimera amplia. Con 8,7 kg no es fácil de mover. Si tu espacio es limitado, un modelo más compacto como el Philips 3000 XL sería más adecuado.',
+        it: 'Il Philips Combi XXL occupa 35,5 x 43,4 cm di base con 37,2 cm di altezza. È un apparecchio imponente che richiede un grande piano di lavoro. Con 8,7 kg non è facile da spostare. Se lo spazio è limitato, un modello più compatto come il Philips 3000 XL sarebbe più adatto.',
+        nl: 'De Philips Combi XXL heeft een voetafdruk van 35,5 x 43,4 cm met een hoogte van 37,2 cm. Het is een fors apparaat dat een groot werkblad vereist. Met 8,7 kg is het niet makkelijk te verplaatsen. Bij beperkte ruimte is een compacter model zoals de Philips 3000 XL beter geschikt.',
+      },
+    },
+    {
+      question: {
+        fr: 'Peut-on faire de la pâtisserie avec le Philips Combi XXL Connected ?',
+        en: 'Can you bake with the Philips Combi XXL Connected?',
+        de: 'Kann man mit dem Philips Combi XXL Connected backen?',
+        es: '¿Se puede hornear con el Philips Combi XXL Connected?',
+        it: 'Si può fare pasticceria con il Philips Combi XXL Connected?',
+        nl: 'Kun je bakken met de Philips Combi XXL Connected?',
+      },
+      answer: {
+        fr: 'Oui, le Philips Combi XXL est particulièrement adapté à la pâtisserie grâce à sa plaque de cuisson incluse et sa technologie RapidAir Combi combinant air chaud et infrarouge. La plage de température descend jusqu\'à 40°C pour les levées de pâte. L\'application HomeID propose des dizaines de recettes de gâteaux et desserts.',
+        en: 'Yes, the Philips Combi XXL is particularly well suited for baking thanks to its included baking tray and RapidAir Combi technology combining hot air and infrared. The temperature range goes down to 40°C for dough proofing. The HomeID app offers dozens of cake and dessert recipes.',
+        de: 'Ja, der Philips Combi XXL eignet sich besonders gut zum Backen dank des mitgelieferten Backblechs und der RapidAir-Combi-Technologie mit Heißluft und Infrarot. Der Temperaturbereich reicht bis 40°C für Teigführung. Die HomeID-App bietet dutzende Kuchen- und Dessertrezepte.',
+        es: 'Sí, el Philips Combi XXL es especialmente apto para repostería gracias a su bandeja incluida y la tecnología RapidAir Combi que combina aire caliente e infrarrojo. El rango de temperatura baja hasta 40°C para fermentación de masas. La app HomeID ofrece decenas de recetas de tartas y postres.',
+        it: 'Sì, il Philips Combi XXL è particolarmente adatto alla pasticceria grazie alla teglia inclusa e alla tecnologia RapidAir Combi che combina aria calda e infrarosso. La temperatura scende fino a 40°C per la lievitazione. L\'app HomeID offre decine di ricette di torte e dolci.',
+        nl: 'Ja, de Philips Combi XXL is bijzonder geschikt voor bakken dankzij de meegeleverde bakplaat en RapidAir Combi-technologie die hete lucht en infrarood combineert. Het temperatuurbereik gaat omlaag tot 40°C voor deegrijzing. De HomeID-app biedt tientallen taart- en dessertrecepten.',
+      },
+    },
+    {
+      question: {
+        fr: 'L\'application Philips HomeID est-elle fiable et facile à utiliser ?',
+        en: 'Is the Philips HomeID app reliable and easy to use?',
+        de: 'Ist die Philips HomeID-App zuverlässig und einfach zu bedienen?',
+        es: '¿Es fiable y fácil de usar la app Philips HomeID?',
+        it: 'L\'app Philips HomeID è affidabile e facile da usare?',
+        nl: 'Is de Philips HomeID-app betrouwbaar en gebruiksvriendelijk?',
+      },
+      answer: {
+        fr: 'L\'application Philips HomeID est fluide, réactive et bien conçue. Elle détecte automatiquement le modèle, synchronise les recettes avec l\'écran de l\'appareil et permet le contrôle à distance. Plus de 500 recettes sont disponibles avec des instructions pas à pas et des vidéos. La configuration Wi-Fi est simple et rapide.',
+        en: 'The Philips HomeID app is smooth, responsive, and well designed. It automatically detects the model, synchronises recipes with the appliance screen, and enables remote control. Over 500 recipes are available with step-by-step instructions and videos. Wi-Fi setup is simple and quick.',
+        de: 'Die Philips HomeID-App ist flüssig, reaktionsschnell und gut gestaltet. Sie erkennt das Modell automatisch, synchronisiert Rezepte mit dem Gerätebildschirm und ermöglicht Fernsteuerung. Über 500 Rezepte sind mit Schritt-für-Schritt-Anleitungen und Videos verfügbar. Die Wi-Fi-Einrichtung ist einfach und schnell.',
+        es: 'La app Philips HomeID es fluida, rápida y bien diseñada. Detecta automáticamente el modelo, sincroniza las recetas con la pantalla del aparato y permite el control remoto. Más de 500 recetas están disponibles con instrucciones paso a paso y vídeos. La configuración Wi-Fi es sencilla y rápida.',
+        it: 'L\'app Philips HomeID è fluida, reattiva e ben progettata. Rileva automaticamente il modello, sincronizza le ricette con lo schermo dell\'apparecchio e consente il controllo remoto. Oltre 500 ricette sono disponibili con istruzioni passo-passo e video. La configurazione Wi-Fi è semplice e veloce.',
+        nl: 'De Philips HomeID-app is vloeiend, responsief en goed ontworpen. Hij detecteert automatisch het model, synchroniseert recepten met het scherm van het apparaat en maakt afstandsbediening mogelijk. Meer dan 500 recepten zijn beschikbaar met stapsgewijze instructies en video\'s. Wi-Fi-instelling is eenvoudig en snel.',
+      },
+    },
+    {
+      question: {
+        fr: 'Le Philips Combi XXL Connected consomme-t-il beaucoup d\'énergie ?',
+        en: 'Does the Philips Combi XXL Connected consume a lot of energy?',
+        de: 'Verbraucht der Philips Combi XXL Connected viel Energie?',
+        es: '¿Consume mucha energía el Philips Combi XXL Connected?',
+        it: 'Il Philips Combi XXL Connected consuma molta energia?',
+        nl: 'Verbruikt de Philips Combi XXL Connected veel energie?',
+      },
+      answer: {
+        fr: 'Non, malgré ses 2 200 W, le Philips Combi XXL est efficace grâce à sa technologie infrarouge qui accélère la cuisson de 10-15 %. Une session de frites consomme 0,59 kWh et un poulet entier 1,42 kWh, contre 2,5 kWh pour un four traditionnel. Le coût mensuel estimé est d\'environ 4,80 euros en utilisation quotidienne.',
+        en: 'No, despite its 2,200 W rating, the Philips Combi XXL is efficient thanks to its infrared technology which speeds up cooking by 10-15%. A fries session uses 0.59 kWh and a whole chicken 1.42 kWh, compared to 2.5 kWh for a traditional oven. Estimated monthly cost is around 4.80 euros with daily use.',
+        de: 'Nein, trotz 2.200 W ist der Philips Combi XXL dank Infrarot-Technologie effizient, die das Garen um 10-15 % beschleunigt. Eine Pommes-Session verbraucht 0,59 kWh, ein ganzes Hähnchen 1,42 kWh, gegenüber 2,5 kWh im Backofen. Die monatlichen Kosten betragen bei täglicher Nutzung etwa 4,80 Euro.',
+        es: 'No, a pesar de sus 2.200 W, el Philips Combi XXL es eficiente gracias a su tecnología infrarroja que acelera la cocción un 10-15 %. Una sesión de patatas consume 0,59 kWh y un pollo entero 1,42 kWh, frente a 2,5 kWh de un horno tradicional. El coste mensual estimado es de unos 4,80 euros con uso diario.',
+        it: 'No, nonostante i 2.200 W, il Philips Combi XXL è efficiente grazie alla tecnologia a infrarosso che accelera la cottura del 10-15%. Una sessione di patatine consuma 0,59 kWh e un pollo intero 1,42 kWh, contro 2,5 kWh di un forno tradizionale. Il costo mensile stimato è circa 4,80 euro con uso quotidiano.',
+        nl: 'Nee, ondanks de 2.200 W is de Philips Combi XXL efficiënt dankzij infraroodtechnologie die het koken 10-15% versnelt. Een frietsessie verbruikt 0,59 kWh en een hele kip 1,42 kWh, tegenover 2,5 kWh voor een traditionele oven. De geschatte maandelijkse kosten zijn ongeveer 4,80 euro bij dagelijks gebruik.',
+      },
+    },
+  ],
 }

@@ -487,4 +487,96 @@ export const article: BlogArticle = {
 <h2>Ons oordeel</h2>
 <p>De keuze tussen enkel en dubbel mandje gaat niet over kwaliteit, maar over <strong>werkelijke behoeften</strong>. Wie regelmatig voor 3+ personen kookt, verdient het dubbele mandje snel terug. Voor stellen en alleenstaanden blijft het enkele mandje de verstandigste keuze. Onze topaanbevelingen: de <a href="/nl/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> voor gezinnen en de <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> voor kleine huishoudens.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Quelle est la difference de prix entre un airfryer simple et double panier ?',
+        en: 'What is the price difference between a single and dual basket air fryer?',
+        de: 'Wie gross ist der Preisunterschied zwischen Einzelkorb- und Doppelkorb-Heissluftfritteuse?',
+        es: 'Cual es la diferencia de precio entre una freidora de aire de cesta simple y doble?',
+        it: 'Qual e la differenza di prezzo tra una friggitrice a cestello singolo e doppio?',
+        nl: 'Wat is het prijsverschil tussen een airfryer met enkel en dubbel mandje?',
+      },
+      answer: {
+        fr: 'Un airfryer double panier coute en moyenne 70 a 130 EUR de plus qu\'un simple panier de qualite equivalente. Les prix vont de 60-150 EUR pour un simple panier a 130-280 EUR pour un double. Cependant, sur 3 ans, le surcout ne represente que 0,09 EUR par heure de temps gagnee.',
+        en: 'A dual basket air fryer costs on average 70-130 EUR more than an equivalent single basket. Prices range from 60-150 EUR for single to 130-280 EUR for dual. However, over 3 years the extra cost works out to just 0.09 EUR per hour of time saved, making it a worthwhile investment.',
+        de: 'Eine Doppelkorb-Heissluftfritteuse kostet durchschnittlich 70-130 EUR mehr als ein gleichwertiger Einzelkorb. Die Preise reichen von 60-150 EUR fuer Einzelkoerbe bis 130-280 EUR fuer Doppelkoerbe. Ueber 3 Jahre betragen die Mehrkosten nur 0,09 EUR pro gesparter Stunde.',
+        es: 'Una freidora de doble cesta cuesta en promedio 70-130 EUR mas que una de cesta simple equivalente. Los precios van de 60-150 EUR para simple a 130-280 EUR para doble. Sin embargo, en 3 anos el sobrecoste representa solo 0,09 EUR por hora de tiempo ahorrado.',
+        it: 'Una friggitrice a doppio cestello costa in media 70-130 EUR in piu di una a cestello singolo equivalente. I prezzi vanno da 60-150 EUR per il singolo a 130-280 EUR per il doppio. In 3 anni il costo aggiuntivo e di soli 0,09 EUR per ora di tempo risparmiato.',
+        nl: 'Een dubbele mand airfryer kost gemiddeld 70-130 EUR meer dan een vergelijkbaar enkel mandje. Prijzen lopen van 60-150 EUR voor enkel tot 130-280 EUR voor dubbel. Over 3 jaar bedragen de meerkosten slechts 0,09 EUR per bespaard uur.',
+      },
+    },
+    {
+      question: {
+        fr: 'Un airfryer simple panier suffit-il pour un couple ?',
+        en: 'Is a single basket air fryer enough for a couple?',
+        de: 'Reicht eine Einzelkorb-Heissluftfritteuse fuer ein Paar?',
+        es: 'Es suficiente una freidora de cesta simple para una pareja?',
+        it: 'Una friggitrice a cestello singolo e sufficiente per una coppia?',
+        nl: 'Is een airfryer met enkel mandje genoeg voor een stel?',
+      },
+      answer: {
+        fr: 'Oui, absolument. Un airfryer simple panier de 4 a 6 litres est parfait pour un couple. Vous n\'utiliserez pratiquement jamais les deux paniers simultanement. Le Philips 3000 XL (5,6L) est notre recommandation pour les petits foyers : excellent rapport qualite-prix et capacite largement suffisante.',
+        en: 'Yes, absolutely. A single basket air fryer of 4-6 litres is perfect for a couple. You will rarely need simultaneous cooking for just two people. The Philips 3000 XL (5.6L) is our recommendation for small households: excellent value and more than enough capacity for two.',
+        de: 'Ja, absolut. Ein Einzelkorb-Airfryer mit 4-6 Litern ist perfekt fuer ein Paar. Sie werden das gleichzeitige Kochen fuer nur zwei Personen kaum brauchen. Die Philips 3000 XL (5,6L) ist unsere Empfehlung fuer kleine Haushalte: hervorragendes Preis-Leistungs-Verhaeltnis.',
+        es: 'Si, absolutamente. Una freidora de cesta simple de 4-6 litros es perfecta para una pareja. Rara vez necesitaras coccion simultanea para dos personas. La Philips 3000 XL (5,6L) es nuestra recomendacion para hogares pequenos: excelente relacion calidad-precio.',
+        it: 'Si, assolutamente. Una friggitrice a cestello singolo da 4-6 litri e perfetta per una coppia. Raramente avrete bisogno della cottura simultanea per due persone. La Philips 3000 XL (5,6L) e la nostra raccomandazione per i nuclei piccoli: ottimo rapporto qualita-prezzo.',
+        nl: 'Ja, absoluut. Een airfryer met enkel mandje van 4-6 liter is perfect voor een stel. Je zult zelden gelijktijdig koken nodig hebben voor twee personen. De Philips 3000 XL (5,6L) is onze aanbeveling voor kleine huishoudens: uitstekende prijs-kwaliteitverhouding.',
+      },
+    },
+    {
+      question: {
+        fr: 'Comment fonctionne la fonction Sync Finish sur un airfryer double panier ?',
+        en: 'How does the Sync Finish function work on a dual basket air fryer?',
+        de: 'Wie funktioniert die Sync Finish Funktion bei einer Doppelkorb-Heissluftfritteuse?',
+        es: 'Como funciona la funcion Sync Finish en una freidora de doble cesta?',
+        it: 'Come funziona la funzione Sync Finish su una friggitrice a doppio cestello?',
+        nl: 'Hoe werkt de Sync Finish functie op een dubbele mand airfryer?',
+      },
+      answer: {
+        fr: 'La fonction Sync Finish ajuste automatiquement le demarrage de chaque panier pour que les deux cuissons se terminent au meme moment. Si vos frites prennent 20 minutes et votre poulet 15 minutes, le panier du poulet demarrera 5 minutes apres les frites. Resultat : tout est pret simultanement, plus de plat qui refroidit.',
+        en: 'Sync Finish automatically adjusts the start time of each basket so both finish cooking at the same moment. If your fries take 20 minutes and chicken takes 15 minutes, the chicken basket starts 5 minutes after the fries. Result: everything is ready simultaneously, no dish left cooling.',
+        de: 'Sync Finish passt automatisch die Startzeit jedes Korbs an, sodass beide gleichzeitig fertig werden. Wenn Pommes 20 Minuten und Haehnchen 15 Minuten brauchen, startet der Haehnchen-Korb 5 Minuten nach den Pommes. Ergebnis: alles ist gleichzeitig fertig.',
+        es: 'Sync Finish ajusta automaticamente el inicio de cada cesta para que ambas terminen al mismo tiempo. Si las patatas tardan 20 minutos y el pollo 15, la cesta del pollo arranca 5 minutos despues. Resultado: todo listo simultaneamente, sin platos que se enfrien.',
+        it: 'Sync Finish regola automaticamente l\'avvio di ogni cestello affinche entrambe le cotture finiscano contemporaneamente. Se le patatine richiedono 20 minuti e il pollo 15, il cestello del pollo parte 5 minuti dopo. Risultato: tutto pronto in simultanea.',
+        nl: 'Sync Finish past automatisch de starttijd van elk mandje aan zodat beide tegelijk klaar zijn. Als frietjes 20 minuten duren en kip 15 minuten, start het kipmandje 5 minuten na de frietjes. Resultaat: alles tegelijk klaar, geen gerecht dat afkoelt.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quelle est la capacite ideale pour une famille de 4 personnes ?',
+        en: 'What is the ideal capacity for a family of 4?',
+        de: 'Welche Kapazitaet ist ideal fuer eine 4-koepfige Familie?',
+        es: 'Cual es la capacidad ideal para una familia de 4 personas?',
+        it: 'Qual e la capacita ideale per una famiglia di 4 persone?',
+        nl: 'Wat is de ideale capaciteit voor een gezin van 4 personen?',
+      },
+      answer: {
+        fr: 'Pour 4 personnes, nous recommandons un airfryer double panier de 8 a 10 litres au total, soit deux paniers de 4 a 5 litres chacun. Le Ninja Foodi Max Dual Zone (9,5L) est le choix ideal. Avec un simple panier, il faudrait au minimum 6 litres, mais la cuisson sequentielle doublerait le temps de preparation.',
+        en: 'For 4 people, we recommend a dual basket air fryer with 8-10 litres total, meaning two baskets of 4-5 litres each. The Ninja Foodi Max Dual Zone (9.5L) is the ideal choice. With a single basket, you would need at least 6 litres, but sequential cooking would double preparation time.',
+        de: 'Fuer 4 Personen empfehlen wir eine Doppelkorb-Heissluftfritteuse mit 8-10 Litern gesamt, also zwei Koerbe mit je 4-5 Litern. Der Ninja Foodi Max Dual Zone (9,5L) ist ideal. Mit einem Einzelkorb brauchten Sie mindestens 6 Liter, aber das sequentielle Kochen verdoppelt die Zubereitungszeit.',
+        es: 'Para 4 personas recomendamos una freidora de doble cesta de 8-10 litros totales, con dos cestas de 4-5 litros cada una. El Ninja Foodi Max Dual Zone (9,5L) es la eleccion ideal. Con cesta simple se necesitaria minimo 6 litros, pero la coccion secuencial duplicaria el tiempo.',
+        it: 'Per 4 persone consigliamo una friggitrice a doppio cestello da 8-10 litri totali, con due cestelli da 4-5 litri ciascuno. Il Ninja Foodi Max Dual Zone (9,5L) e la scelta ideale. Con cestello singolo servirebbero almeno 6 litri, ma la cottura sequenziale raddoppierebbe i tempi.',
+        nl: 'Voor 4 personen raden we een dubbele mand airfryer aan met 8-10 liter totaal, dus twee mandjes van 4-5 liter elk. De Ninja Foodi Max Dual Zone (9,5L) is ideaal. Met een enkel mandje heb je minstens 6 liter nodig, maar sequentieel koken verdubbelt de bereidingstijd.',
+      },
+    },
+    {
+      question: {
+        fr: 'Un airfryer double panier fait-il plus de bruit qu\'un simple panier ?',
+        en: 'Is a dual basket air fryer noisier than a single basket?',
+        de: 'Ist eine Doppelkorb-Heissluftfritteuse lauter als eine Einzelkorb-Fritteuse?',
+        es: 'Es mas ruidosa una freidora de doble cesta que una de cesta simple?',
+        it: 'Una friggitrice a doppio cestello e piu rumorosa di una a cestello singolo?',
+        nl: 'Maakt een dubbele mand airfryer meer lawaai dan een enkel mandje?',
+      },
+      answer: {
+        fr: 'Legerement, car les modeles double panier sont plus puissants (1700-2400W vs 1200-1800W). En pratique, la difference est de 2 a 4 decibels, a peine perceptible. Les deux types produisent un bruit de ventilateur comparable a une hotte de cuisine. Les modeles Ninja et Philips sont les plus silencieux de leurs categories respectives.',
+        en: 'Slightly, since dual basket models are more powerful (1700-2400W vs 1200-1800W). In practice, the difference is 2-4 decibels, barely noticeable. Both types produce fan noise comparable to a kitchen extractor hood. Ninja and Philips models are the quietest in their respective categories.',
+        de: 'Leicht, da Doppelkorb-Modelle leistungsstaerker sind (1700-2400W vs. 1200-1800W). In der Praxis betraegt der Unterschied 2-4 Dezibel, kaum wahrnehmbar. Beide Typen erzeugen ein Ventilatorgeraeusch vergleichbar mit einer Dunstabzugshaube. Ninja und Philips sind die leisesten ihrer Kategorie.',
+        es: 'Ligeramente, ya que los modelos de doble cesta son mas potentes (1700-2400W vs 1200-1800W). En la practica, la diferencia es de 2-4 decibelios, apenas perceptible. Ambos tipos producen un ruido de ventilador similar a una campana extractora. Los modelos Ninja y Philips son los mas silenciosos.',
+        it: 'Leggermente, poiche i modelli a doppio cestello sono piu potenti (1700-2400W vs 1200-1800W). In pratica, la differenza e di 2-4 decibel, appena percettibile. Entrambi i tipi producono un rumore di ventola paragonabile a una cappa da cucina. I modelli Ninja e Philips sono i piu silenziosi.',
+        nl: 'Iets meer, omdat dubbele mand-modellen krachtiger zijn (1700-2400W vs 1200-1800W). In de praktijk is het verschil 2-4 decibel, nauwelijks merkbaar. Beide typen produceren ventilatorgeluid vergelijkbaar met een afzuigkap. Ninja en Philips zijn de stilste in hun categorie.',
+      },
+    },
+  ],
 }

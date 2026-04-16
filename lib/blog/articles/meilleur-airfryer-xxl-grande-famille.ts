@@ -505,4 +505,96 @@ export const article: BlogArticle = {
 <h2>Ons oordeel</h2>
 <p>Voor grote gezinnen in 2026 is de <strong><a href="/nl/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> de onbetwiste koning van de XXL-airfryers</strong>. Voor krappere budgetten blijft de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> voor 200 EUR een bewezen keuze.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Quelle capacite minimale faut-il pour une famille de 6 personnes ?',
+        en: 'What is the minimum capacity needed for a family of 6?',
+        de: 'Welche Mindestkapazitaet braucht man fuer eine 6-koepfige Familie?',
+        es: 'Cual es la capacidad minima necesaria para una familia de 6 personas?',
+        it: 'Qual e la capacita minima necessaria per una famiglia di 6 persone?',
+        nl: 'Welke minimale capaciteit heb je nodig voor een gezin van 6 personen?',
+      },
+      answer: {
+        fr: 'Pour 6 personnes, nous recommandons au minimum 7 a 8 litres de capacite utile reelle. Attention : la capacite utile est 15 a 25% inferieure a la capacite annoncee. Seul le Ninja FlexDrawer (8,5L utiles) permet de tout preparer en une seule fournee. Les autres modeles XXL necessiteront deux fournees pour les grandes quantites.',
+        en: 'For 6 people, we recommend at least 7-8 litres of real usable capacity. Note that usable capacity is 15-25% less than the stated figure. Only the Ninja FlexDrawer (8.5L usable) can prepare everything in a single batch. Other XXL models will need two batches for large quantities.',
+        de: 'Fuer 6 Personen empfehlen wir mindestens 7-8 Liter reale Nutzkapazitaet. Achtung: Die Nutzkapazitaet liegt 15-25% unter der Herstellerangabe. Nur der Ninja FlexDrawer (8,5L nutzbar) kann alles in einer Ladung zubereiten. Andere XXL-Modelle benoetigen zwei Ladungen fuer grosse Mengen.',
+        es: 'Para 6 personas recomendamos un minimo de 7-8 litros de capacidad util real. Atencion: la capacidad util es un 15-25% inferior a la anunciada. Solo el Ninja FlexDrawer (8,5L utiles) permite preparar todo en una sola tanda. Los demas modelos XXL necesitaran dos tandas para grandes cantidades.',
+        it: 'Per 6 persone consigliamo almeno 7-8 litri di capacita utile reale. Attenzione: la capacita utile e del 15-25% inferiore a quella dichiarata. Solo il Ninja FlexDrawer (8,5L utili) permette di preparare tutto in una sola volta. Gli altri modelli XXL necessiteranno due carichi per grandi quantita.',
+        nl: 'Voor 6 personen raden we minimaal 7-8 liter werkelijke bruikbare capaciteit aan. Let op: de bruikbare capaciteit is 15-25% lager dan opgegeven. Alleen de Ninja FlexDrawer (8,5L bruikbaar) kan alles in een keer bereiden. Andere XXL-modellen hebben twee ladingen nodig voor grote hoeveelheden.',
+      },
+    },
+    {
+      question: {
+        fr: 'Combien d\'espace faut-il sur le plan de travail pour un airfryer XXL ?',
+        en: 'How much counter space does an XXL air fryer need?',
+        de: 'Wie viel Arbeitsflaeche braucht eine XXL-Heissluftfritteuse?',
+        es: 'Cuanto espacio de encimera necesita una freidora XXL?',
+        it: 'Quanto spazio sul piano di lavoro serve per una friggitrice XXL?',
+        nl: 'Hoeveel werkbladruimte heeft een XXL airfryer nodig?',
+      },
+      answer: {
+        fr: 'Prevoyez au minimum 50x45 cm sur votre plan de travail, incluant l\'espace de ventilation. Les modeles XXL mesurent 38 a 42 cm de large et 31 a 37 cm de profondeur. En hauteur, prevoyez 40 cm pour ouvrir les tiroirs confortablement. Laissez 10 cm d\'espace derriere pour l\'evacuation de l\'air chaud. Pesant 6,5 a 8,5 kg, un emplacement permanent est conseille.',
+        en: 'Plan for at least 50x45 cm of counter space, including ventilation clearance. XXL models measure 38-42 cm wide and 31-37 cm deep. Allow 40 cm height to open drawers comfortably. Leave 10 cm behind the unit for hot air exhaust. At 6.5-8.5 kg, a permanent placement is recommended.',
+        de: 'Planen Sie mindestens 50x45 cm Arbeitsflaeche ein, einschliesslich Belueftung. XXL-Modelle messen 38-42 cm Breite und 31-37 cm Tiefe. Fuer komfortables Oeffnen der Schubladen brauchen Sie 40 cm Hoehe. Lassen Sie 10 cm hinten frei fuer die Abluft. Bei 6,5-8,5 kg ist ein fester Stellplatz ratsam.',
+        es: 'Prevea al menos 50x45 cm de encimera incluyendo ventilacion. Los modelos XXL miden 38-42 cm de ancho y 31-37 cm de fondo. Reserve 40 cm de alto para abrir los cajones comodamente. Deje 10 cm detras para la salida de aire caliente. Con 6,5-8,5 kg de peso, se recomienda una ubicacion permanente.',
+        it: 'Prevedete almeno 50x45 cm sul piano di lavoro, inclusa la ventilazione. I modelli XXL misurano 38-42 cm di larghezza e 31-37 cm di profondita. Lasciate 40 cm di altezza per aprire i cassetti comodamente. Lasciate 10 cm dietro per lo scarico dell\'aria calda. Con 6,5-8,5 kg, e consigliata una posizione fissa.',
+        nl: 'Reken op minimaal 50x45 cm werkblad, inclusief ventilatie. XXL-modellen meten 38-42 cm breed en 31-37 cm diep. Reken op 40 cm hoogte om de laden comfortabel te openen. Laat 10 cm ruimte achter voor de afvoer van hete lucht. Met 6,5-8,5 kg is een vaste plek aan te raden.',
+      },
+    },
+    {
+      question: {
+        fr: 'Un airfryer XXL consomme-t-il beaucoup d\'electricite ?',
+        en: 'Does an XXL air fryer consume a lot of electricity?',
+        de: 'Verbraucht eine XXL-Heissluftfritteuse viel Strom?',
+        es: 'Consume mucha electricidad una freidora XXL?',
+        it: 'Una friggitrice XXL consuma molta elettricita?',
+        nl: 'Verbruikt een XXL airfryer veel stroom?',
+      },
+      answer: {
+        fr: 'Les modeles XXL consomment 1830 a 2470W, soit plus qu\'un airfryer standard. Cependant, grace au double panier et aux grandes capacites, vous cuisez tout en une seule session au lieu de deux ou trois, ce qui compense largement. Un repas complet pour 6 personnes coute environ 0,15 a 0,20 EUR en electricite, moins qu\'un four classique.',
+        en: 'XXL models draw 1830-2470W, more than a standard air fryer. However, thanks to dual baskets and large capacity, you cook everything in one session instead of two or three, which more than compensates. A complete meal for 6 people costs roughly 0.15-0.20 EUR in electricity, less than a conventional oven.',
+        de: 'XXL-Modelle verbrauchen 1830-2470W, mehr als ein Standard-Airfryer. Dank Doppelkorb und grosser Kapazitaet kochen Sie aber alles in einer Sitzung statt zwei oder drei, was dies mehr als ausgleicht. Eine komplette Mahlzeit fuer 6 Personen kostet etwa 0,15-0,20 EUR an Strom, weniger als ein herkoemmlicher Backofen.',
+        es: 'Los modelos XXL consumen 1830-2470W, mas que una freidora estandar. Sin embargo, gracias a la doble cesta y gran capacidad, cocinas todo en una sola sesion en vez de dos o tres, lo que compensa con creces. Una comida completa para 6 personas cuesta unos 0,15-0,20 EUR en electricidad, menos que un horno convencional.',
+        it: 'I modelli XXL consumano 1830-2470W, piu di una friggitrice standard. Tuttavia, grazie al doppio cestello e alla grande capacita, si cucina tutto in una sessione invece di due o tre, compensando ampiamente. Un pasto completo per 6 persone costa circa 0,15-0,20 EUR di elettricita, meno di un forno tradizionale.',
+        nl: 'XXL-modellen verbruiken 1830-2470W, meer dan een standaard airfryer. Maar dankzij dubbele mand en grote capaciteit kook je alles in een sessie in plaats van twee of drie, wat ruimschoots compenseert. Een complete maaltijd voor 6 personen kost ongeveer 0,15-0,20 EUR aan stroom, minder dan een gewone oven.',
+      },
+    },
+    {
+      question: {
+        fr: 'Faut-il prechauffer un airfryer XXL ?',
+        en: 'Do you need to preheat an XXL air fryer?',
+        de: 'Muss man eine XXL-Heissluftfritteuse vorheizen?',
+        es: 'Hay que precalentar una freidora XXL?',
+        it: 'Bisogna preriscaldare una friggitrice XXL?',
+        nl: 'Moet je een XXL airfryer voorverwarmen?',
+      },
+      answer: {
+        fr: 'Le prechauffage de 3 a 5 minutes est recommande pour les modeles XXL, surtout pour les frites et les viandes. Les grands volumes d\'air necessitent un peu plus de temps pour atteindre la temperature optimale. Les modeles Ninja et Philips disposent d\'une fonction de prechauffage automatique qui signale quand l\'appareil est pret.',
+        en: 'Preheating for 3-5 minutes is recommended for XXL models, especially for fries and meats. The larger air volume needs slightly more time to reach optimal temperature. Ninja and Philips models feature automatic preheat functions that signal when the unit is ready to cook.',
+        de: 'Ein Vorheizen von 3-5 Minuten wird fuer XXL-Modelle empfohlen, besonders fuer Pommes und Fleisch. Das groessere Luftvolumen braucht etwas mehr Zeit bis zur optimalen Temperatur. Ninja und Philips haben automatische Vorheizfunktionen, die anzeigen, wann das Geraet bereit ist.',
+        es: 'Se recomienda precalentar 3-5 minutos en modelos XXL, especialmente para patatas y carnes. El mayor volumen de aire necesita algo mas de tiempo para alcanzar la temperatura optima. Los modelos Ninja y Philips tienen funcion de precalentamiento automatico que avisa cuando esta listo.',
+        it: 'Si consiglia un preriscaldamento di 3-5 minuti per i modelli XXL, soprattutto per patatine e carni. Il volume d\'aria maggiore richiede un po\' piu di tempo per raggiungere la temperatura ottimale. I modelli Ninja e Philips hanno una funzione di preriscaldamento automatico che segnala quando l\'apparecchio e pronto.',
+        nl: 'Voorverwarmen van 3-5 minuten wordt aanbevolen voor XXL-modellen, vooral voor frietjes en vlees. Het grotere luchtvolume heeft iets meer tijd nodig om de optimale temperatuur te bereiken. Ninja en Philips modellen hebben automatische voorverwarmfuncties die aangeven wanneer het apparaat klaar is.',
+      },
+    },
+    {
+      question: {
+        fr: 'Peut-on faire du batch cooking avec un airfryer XXL ?',
+        en: 'Can you do batch cooking with an XXL air fryer?',
+        de: 'Kann man mit einer XXL-Heissluftfritteuse Meal Prep machen?',
+        es: 'Se puede hacer batch cooking con una freidora XXL?',
+        it: 'Si puo fare batch cooking con una friggitrice XXL?',
+        nl: 'Kun je batch cooking doen met een XXL airfryer?',
+      },
+      answer: {
+        fr: 'Oui, c\'est l\'un des grands atouts des airfryers XXL. Avec un double panier, vous pouvez preparer 4 a 6 portions de deux plats differents en une seule session de 20-25 minutes. Le Ninja FlexDrawer en mode FlexZone permet meme de cuire 1,5 kg de frites d\'un coup. C\'est ideal pour le meal prep de la semaine.',
+        en: 'Yes, it is one of the great strengths of XXL air fryers. With a dual basket, you can prepare 4-6 portions of two different dishes in a single 20-25 minute session. The Ninja FlexDrawer in FlexZone mode can even cook 1.5 kg of fries at once. It is ideal for weekly meal prep.',
+        de: 'Ja, das ist eine der grossen Staerken der XXL-Heissluftfritteusen. Mit dem Doppelkorb koennen Sie 4-6 Portionen zweier verschiedener Gerichte in einer einzigen 20-25-minuetigen Sitzung zubereiten. Der Ninja FlexDrawer kann im FlexZone-Modus sogar 1,5 kg Pommes auf einmal garen. Ideal fuer den Wochenvorrat.',
+        es: 'Si, es una de las grandes ventajas de las freidoras XXL. Con doble cesta puedes preparar 4-6 raciones de dos platos diferentes en una sola sesion de 20-25 minutos. El Ninja FlexDrawer en modo FlexZone permite cocinar incluso 1,5 kg de patatas de una vez. Ideal para la planificacion semanal de comidas.',
+        it: 'Si, e uno dei grandi punti di forza delle friggitrici XXL. Con il doppio cestello si possono preparare 4-6 porzioni di due piatti diversi in una singola sessione di 20-25 minuti. Il Ninja FlexDrawer in modalita FlexZone puo cuocere anche 1,5 kg di patatine alla volta. Ideale per il meal prep settimanale.',
+        nl: 'Ja, het is een van de grote voordelen van XXL-airfryers. Met een dubbele mand kun je 4-6 porties van twee verschillende gerechten bereiden in een enkele sessie van 20-25 minuten. De Ninja FlexDrawer kan in FlexZone-modus zelfs 1,5 kg friet in een keer bakken. Ideaal voor wekelijkse maaltijdvoorbereiding.',
+      },
+    },
+  ],
 }

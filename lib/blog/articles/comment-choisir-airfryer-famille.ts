@@ -635,4 +635,96 @@ export const article: BlogArticle = {
 
 <p>Bezoek onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en onze <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>. Vergeet de <a href="/nl/blog/top-10-accessoires-airfryer">essentiële accessoires</a> niet.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Quelle capacité d\'airfryer choisir pour une famille de 4 personnes ?',
+        en: 'What air fryer capacity should I choose for a family of 4?',
+        de: 'Welche Heißluftfritteusen-Kapazität sollte ich für eine 4-köpfige Familie wählen?',
+        es: '¿Qué capacidad de freidora de aire elegir para una familia de 4 personas?',
+        it: 'Quale capacità di friggitrice ad aria scegliere per una famiglia di 4 persone?',
+        nl: 'Welke capaciteit airfryer moet ik kiezen voor een gezin van 4 personen?',
+      },
+      answer: {
+        fr: 'Pour une famille de 4 personnes, optez pour un airfryer de 5 à 6 litres. Cette capacité permet de cuire suffisamment de nourriture en une seule fournée pour tout le monde. Les modèles à double panier de 4,75 L par zone sont aussi une excellente option pour préparer deux plats simultanément.',
+        en: 'For a family of 4, choose an air fryer with 5 to 6 litres capacity. This size cooks enough food in a single batch for everyone. Dual-basket models with 4.75 L per zone are also an excellent option, letting you prepare two dishes simultaneously without extra cooking time.',
+        de: 'Für eine 4-köpfige Familie wählen Sie eine Heißluftfritteuse mit 5 bis 6 Litern Fassungsvermögen. Diese Größe gart genug für alle in einem Durchgang. Doppelkorb-Modelle mit 4,75 L pro Zone sind ebenfalls eine hervorragende Option für zwei gleichzeitige Gerichte.',
+        es: 'Para una familia de 4 personas, elige una freidora de aire de 5 a 6 litros. Esta capacidad permite cocinar suficiente comida en una sola tanda para todos. Los modelos de doble cesta con 4,75 L por zona también son excelentes para preparar dos platos simultáneamente.',
+        it: 'Per una famiglia di 4 persone, scegli una friggitrice ad aria da 5 a 6 litri. Questa capacità permette di cuocere cibo sufficiente per tutti in un solo ciclo. I modelli a doppio cestello da 4,75 L per zona sono un\'ottima opzione per preparare due piatti contemporaneamente.',
+        nl: 'Voor een gezin van 4 personen kies je een airfryer van 5 tot 6 liter. Dit formaat kookt genoeg eten in één keer voor iedereen. Dubbele mandmodellen met 4,75 L per zone zijn ook uitstekend om twee gerechten tegelijk te bereiden zonder extra kooktijd.',
+      },
+    },
+    {
+      question: {
+        fr: 'Un airfryer est-il sûr pour les enfants ?',
+        en: 'Is an air fryer safe for households with children?',
+        de: 'Ist eine Heißluftfritteuse sicher für Haushalte mit Kindern?',
+        es: '¿Es segura una freidora de aire en hogares con niños?',
+        it: 'Una friggitrice ad aria è sicura nelle case con bambini?',
+        nl: 'Is een airfryer veilig in huishoudens met kinderen?',
+      },
+      answer: {
+        fr: 'Oui, l\'airfryer est bien plus sûr qu\'une friteuse à huile. Recherchez des modèles avec paroi extérieure froide, arrêt automatique à l\'ouverture et verrouillage enfant. Placez toujours l\'appareil hors de portée des enfants et veillez à ce que la vapeur chaude ne soit pas accessible.',
+        en: 'Yes, air fryers are much safer than deep fryers. Look for models with cool-touch exterior walls, automatic shut-off when opened, and child lock features. Always place the appliance out of children\'s reach and ensure hot steam vents are not accessible to small hands.',
+        de: 'Ja, Heißluftfritteusen sind viel sicherer als herkömmliche Fritteusen. Achten Sie auf Modelle mit kühlen Außenwänden, automatischer Abschaltung beim Öffnen und Kindersicherung. Stellen Sie das Gerät immer außerhalb der Reichweite von Kindern auf.',
+        es: 'Sí, las freidoras de aire son mucho más seguras que las freidoras de aceite. Busca modelos con paredes exteriores frías al tacto, apagado automático al abrir y bloqueo infantil. Coloca siempre el aparato fuera del alcance de los niños y vigila las salidas de vapor.',
+        it: 'Sì, le friggitrici ad aria sono molto più sicure delle friggitrici a olio. Cerca modelli con pareti esterne fredde al tatto, spegnimento automatico all\'apertura e blocco bambini. Posiziona sempre l\'apparecchio fuori dalla portata dei bambini e controlla le uscite del vapore.',
+        nl: 'Ja, airfryers zijn veel veiliger dan traditionele frituurpannen. Zoek modellen met koele buitenwanden, automatische stop bij openen en kinderslot. Plaats het apparaat altijd buiten bereik van kinderen en zorg dat hete stoomuitlaten niet toegankelijk zijn.',
+      },
+    },
+    {
+      question: {
+        fr: 'Peut-on cuisiner plusieurs plats en même temps dans un airfryer ?',
+        en: 'Can you cook multiple dishes at the same time in an air fryer?',
+        de: 'Kann man mehrere Gerichte gleichzeitig in der Heißluftfritteuse zubereiten?',
+        es: '¿Se pueden cocinar varios platos al mismo tiempo en una freidora de aire?',
+        it: 'Si possono cucinare più piatti contemporaneamente nella friggitrice ad aria?',
+        nl: 'Kun je meerdere gerechten tegelijk koken in een airfryer?',
+      },
+      answer: {
+        fr: 'Oui, avec un modèle à double panier comme le Ninja Dual Zone. Chaque zone a sa propre température et minuterie, permettant de cuire viande et légumes simultanément. Avec un airfryer simple, vous pouvez utiliser des séparateurs de panier ou empiler des grilles pour cuire deux aliments.',
+        en: 'Yes, with a dual-basket model like the Ninja Dual Zone. Each zone has its own temperature and timer, letting you cook meat and vegetables simultaneously. With a single-basket air fryer, you can use basket dividers or stackable racks to cook two foods at once.',
+        de: 'Ja, mit einem Doppelkorb-Modell wie dem Ninja Dual Zone. Jede Zone hat eigene Temperatur und Timer, sodass Sie Fleisch und Gemüse gleichzeitig garen können. Bei einem Einzelkorb können Sie Korbteiler oder stapelbare Gitter verwenden, um zwei Speisen gleichzeitig zuzubereiten.',
+        es: 'Sí, con un modelo de doble cesta como el Ninja Dual Zone. Cada zona tiene su propia temperatura y temporizador, permitiendo cocinar carne y verduras simultáneamente. Con una freidora de cesta única, puedes usar divisores o rejillas apilables para cocinar dos alimentos.',
+        it: 'Sì, con un modello a doppio cestello come il Ninja Dual Zone. Ogni zona ha temperatura e timer propri, permettendo di cuocere carne e verdure contemporaneamente. Con un cestello singolo, puoi usare divisori o griglie impilabili per cuocere due alimenti insieme.',
+        nl: 'Ja, met een dubbele mandmodel zoals de Ninja Dual Zone. Elke zone heeft een eigen temperatuur en timer, zodat je vlees en groenten tegelijk kunt bereiden. Met een enkele mand kun je mandverdelers of stapelbare rekjes gebruiken om twee gerechten tegelijk te maken.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quelles recettes simples peut-on faire dans un airfryer pour les enfants ?',
+        en: 'What simple air fryer recipes can you make for kids?',
+        de: 'Welche einfachen Rezepte kann man in der Heißluftfritteuse für Kinder machen?',
+        es: '¿Qué recetas sencillas se pueden hacer en freidora de aire para niños?',
+        it: 'Quali ricette semplici si possono fare nella friggitrice ad aria per i bambini?',
+        nl: 'Welke eenvoudige recepten kun je in de airfryer maken voor kinderen?',
+      },
+      answer: {
+        fr: 'Les enfants adorent les nuggets de poulet maison (200°C, 10 min), les bâtonnets de poisson (180°C, 12 min), les frites de patate douce (190°C, 15 min) et les mini-pizzas sur tortilla (200°C, 5 min). Ces recettes sont rapides, saines et permettent d\'impliquer les enfants dans la préparation.',
+        en: 'Kids love homemade chicken nuggets (200°C, 10 min), fish sticks (180°C, 12 min), sweet potato fries (190°C, 15 min) and mini tortilla pizzas (200°C, 5 min). These recipes are quick, healthy, and let children get involved in the preparation, making mealtime more fun.',
+        de: 'Kinder lieben selbstgemachte Hähnchen-Nuggets (200°C, 10 Min), Fischstäbchen (180°C, 12 Min), Süßkartoffel-Pommes (190°C, 15 Min) und Mini-Tortilla-Pizzen (200°C, 5 Min). Diese Rezepte sind schnell, gesund und lassen Kinder bei der Zubereitung mithelfen.',
+        es: 'A los niños les encantan los nuggets de pollo caseros (200°C, 10 min), palitos de pescado (180°C, 12 min), patatas fritas de boniato (190°C, 15 min) y mini pizzas en tortilla (200°C, 5 min). Estas recetas son rápidas, saludables y permiten involucrar a los niños.',
+        it: 'I bambini adorano i nuggets di pollo fatti in casa (200°C, 10 min), bastoncini di pesce (180°C, 12 min), patatine di patata dolce (190°C, 15 min) e mini pizze su tortilla (200°C, 5 min). Queste ricette sono veloci, sane e coinvolgono i bambini nella preparazione.',
+        nl: 'Kinderen zijn dol op zelfgemaakte kipnuggets (200°C, 10 min), vissticks (180°C, 12 min), zoete aardappelfrietjes (190°C, 15 min) en mini tortillapizza\'s (200°C, 5 min). Deze recepten zijn snel, gezond en laten kinderen meehelpen bij de bereiding.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quel budget prévoir pour un bon airfryer familial ?',
+        en: 'What budget should I plan for a good family air fryer?',
+        de: 'Welches Budget sollte ich für eine gute Familien-Heißluftfritteuse einplanen?',
+        es: '¿Qué presupuesto prever para una buena freidora de aire familiar?',
+        it: 'Quale budget prevedere per una buona friggitrice ad aria familiare?',
+        nl: 'Welk budget moet ik voorzien voor een goede gezins-airfryer?',
+      },
+      answer: {
+        fr: 'Comptez entre 100 et 200 € pour un bon airfryer familial. Les modèles d\'entrée de gamme à 60-80 € conviennent aux couples. Pour une famille de 4+, les modèles à 130-200 € offrent la capacité et les fonctionnalités nécessaires. Au-delà de 250 €, vous accédez aux modèles premium multifonctions.',
+        en: 'Budget between 100 and 200 euros for a good family air fryer. Entry-level models at 60-80 euros suit couples. For families of 4 or more, models at 130-200 euros offer the capacity and features needed. Above 250 euros, you access premium multi-function models with advanced cooking modes.',
+        de: 'Rechnen Sie mit 100 bis 200 Euro für eine gute Familien-Heißluftfritteuse. Einstiegsmodelle für 60-80 Euro eignen sich für Paare. Für Familien ab 4 Personen bieten Modelle zwischen 130-200 Euro die nötige Kapazität und Funktionen. Ab 250 Euro erreichen Sie Premium-Multifunktionsgeräte.',
+        es: 'Prevé entre 100 y 200 euros para una buena freidora familiar. Los modelos básicos de 60-80 euros sirven para parejas. Para familias de 4 o más, los modelos de 130-200 euros ofrecen la capacidad y funciones necesarias. Por encima de 250 euros accedes a modelos premium multifunción.',
+        it: 'Prevedi tra 100 e 200 euro per una buona friggitrice ad aria familiare. I modelli base da 60-80 euro vanno bene per coppie. Per famiglie di 4 o più persone, i modelli da 130-200 euro offrono capacità e funzionalità necessarie. Oltre 250 euro si accede ai modelli premium multifunzione.',
+        nl: 'Reken op 100 tot 200 euro voor een goede gezins-airfryer. Instapmodellen van 60-80 euro zijn geschikt voor koppels. Voor gezinnen van 4 of meer bieden modellen van 130-200 euro de benodigde capaciteit en functies. Boven 250 euro krijg je premium multifunctionele modellen.',
+      },
+    },
+  ],
 }

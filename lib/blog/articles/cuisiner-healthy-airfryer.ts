@@ -600,4 +600,96 @@ export const article: BlogArticle = {
 
 <p>Bezoek onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en onze <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a> voor meer informatie.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'L\'airfryer est-il vraiment plus sain que la friture traditionnelle ?',
+        en: 'Is an air fryer really healthier than traditional deep frying?',
+        de: 'Ist die Heißluftfritteuse wirklich gesünder als herkömmliches Frittieren?',
+        es: '¿La freidora de aire es realmente más saludable que la fritura tradicional?',
+        it: 'La friggitrice ad aria è davvero più sana della frittura tradizionale?',
+        nl: 'Is de airfryer echt gezonder dan traditioneel frituren?',
+      },
+      answer: {
+        fr: 'Oui, les études confirment que l\'airfryer réduit la teneur en graisses de 70 à 80 % par rapport à la friture dans l\'huile. Une portion de frites contient environ 8 g de lipides à l\'airfryer contre 35 g en friture classique. La réduction calorique est significative sur chaque repas.',
+        en: 'Yes, studies confirm that air frying reduces fat content by 70 to 80 percent compared to deep frying. A serving of fries contains about 8 g of fat from an air fryer versus 35 g from deep frying. The calorie reduction is significant for every meal, making it a genuinely healthier cooking method.',
+        de: 'Ja, Studien bestätigen, dass die Heißluftfritteuse den Fettgehalt um 70 bis 80 Prozent reduziert. Eine Portion Pommes enthält etwa 8 g Fett aus der Heißluftfritteuse gegenüber 35 g aus der Fritteuse. Die Kalorienreduktion ist bei jeder Mahlzeit erheblich und macht sie gesünder.',
+        es: 'Sí, los estudios confirman que la freidora de aire reduce el contenido de grasa entre un 70 y 80 % respecto a la fritura en aceite. Una ración de patatas contiene unos 8 g de grasa en airfryer frente a 35 g en fritura clásica. La reducción calórica es significativa en cada comida.',
+        it: 'Sì, gli studi confermano che la friggitrice ad aria riduce il contenuto di grassi del 70-80% rispetto alla frittura in olio. Una porzione di patatine contiene circa 8 g di grassi con l\'airfryer contro 35 g con la frittura classica. La riduzione calorica è significativa per ogni pasto.',
+        nl: 'Ja, studies bevestigen dat de airfryer het vetgehalte met 70 tot 80 procent vermindert vergeleken met frituren. Een portie frietjes bevat circa 8 g vet uit de airfryer versus 35 g uit de frituur. De calorische reductie is significant bij elke maaltijd en maakt het echt gezonder.',
+      },
+    },
+    {
+      question: {
+        fr: 'Faut-il utiliser de l\'huile dans un airfryer ?',
+        en: 'Do you need to use oil in an air fryer?',
+        de: 'Muss man Öl in der Heißluftfritteuse verwenden?',
+        es: '¿Hay que usar aceite en una freidora de aire?',
+        it: 'Bisogna usare olio nella friggitrice ad aria?',
+        nl: 'Moet je olie gebruiken in een airfryer?',
+      },
+      answer: {
+        fr: 'Ce n\'est pas obligatoire mais recommandé en petite quantité. Un spray de 2 à 3 pulvérisations (environ 2 ml) suffit pour obtenir un résultat croustillant, soit seulement 18 kcal. Sans huile, certains aliments peuvent être secs ou ne pas dorer. Choisissez une huile à haut point de fumée comme l\'huile d\'avocat.',
+        en: 'It is not mandatory but recommended in small amounts. A spray of 2 to 3 pumps (about 2 ml) is enough for crispy results, adding only 18 calories. Without oil, some foods may be dry or fail to brown. Choose an oil with a high smoke point like avocado oil for best results.',
+        de: 'Es ist nicht zwingend, aber in kleinen Mengen empfohlen. Ein Spray mit 2-3 Stößen (ca. 2 ml) reicht für knusprige Ergebnisse und fügt nur 18 kcal hinzu. Ohne Öl können manche Lebensmittel trocken werden oder nicht bräunen. Wählen Sie ein Öl mit hohem Rauchpunkt wie Avocadoöl.',
+        es: 'No es obligatorio pero se recomienda en pequeñas cantidades. Un spray de 2-3 pulverizaciones (unos 2 ml) basta para un resultado crujiente, aportando solo 18 kcal. Sin aceite, algunos alimentos pueden quedar secos o no dorarse. Elige un aceite con alto punto de humo como el de aguacate.',
+        it: 'Non è obbligatorio ma consigliato in piccole quantità. Uno spray di 2-3 spruzzate (circa 2 ml) basta per risultati croccanti, aggiungendo solo 18 kcal. Senza olio, alcuni alimenti possono risultare secchi o non dorarsi. Scegli un olio con alto punto di fumo come quello di avocado.',
+        nl: 'Het is niet verplicht maar aanbevolen in kleine hoeveelheden. Een spray van 2-3 keer pompen (circa 2 ml) is genoeg voor krokante resultaten en voegt slechts 18 kcal toe. Zonder olie kunnen sommige gerechten droog worden of niet bruinen. Kies olie met een hoog rookpunt zoals avocado-olie.',
+      },
+    },
+    {
+      question: {
+        fr: 'Combien de calories économise-t-on avec un airfryer ?',
+        en: 'How many calories do you save with an air fryer?',
+        de: 'Wie viele Kalorien spart man mit einer Heißluftfritteuse?',
+        es: '¿Cuántas calorías se ahorran con una freidora de aire?',
+        it: 'Quante calorie si risparmiano con una friggitrice ad aria?',
+        nl: 'Hoeveel calorieën bespaar je met een airfryer?',
+      },
+      answer: {
+        fr: 'En moyenne, l\'airfryer permet d\'économiser 100 à 200 calories par portion selon l\'aliment. Des frites passent de 312 à 180 kcal pour 100 g, un poulet pané de 280 à 190 kcal. Sur une année complète, en utilisant l\'airfryer quotidiennement, cela peut représenter une réduction calorique très significative.',
+        en: 'On average, air frying saves 100 to 200 calories per serving depending on the food. Fries go from 312 to 180 kcal per 100 g, breaded chicken from 280 to 190 kcal. Over a full year of daily use, this can represent a very significant calorie reduction without sacrificing taste or enjoyment.',
+        de: 'Im Durchschnitt spart die Heißluftfritteuse 100 bis 200 Kalorien pro Portion. Pommes sinken von 312 auf 180 kcal pro 100 g, paniertes Hähnchen von 280 auf 190 kcal. Über ein ganzes Jahr täglicher Nutzung kann dies eine sehr erhebliche Kalorienreduktion ohne Geschmacksverlust bedeuten.',
+        es: 'En promedio, la freidora de aire ahorra de 100 a 200 calorías por ración. Las patatas pasan de 312 a 180 kcal por 100 g, el pollo empanado de 280 a 190 kcal. A lo largo de un año de uso diario, esto puede representar una reducción calórica muy significativa sin sacrificar el sabor.',
+        it: 'In media, la friggitrice ad aria fa risparmiare da 100 a 200 calorie per porzione. Le patatine passano da 312 a 180 kcal per 100 g, il pollo impanato da 280 a 190 kcal. In un anno intero di uso quotidiano, questo può rappresentare una riduzione calorica molto significativa senza rinunciare al gusto.',
+        nl: 'Gemiddeld bespaart de airfryer 100 tot 200 calorieën per portie. Frietjes gaan van 312 naar 180 kcal per 100 g, gepaneerde kip van 280 naar 190 kcal. Over een heel jaar dagelijks gebruik kan dit een zeer aanzienlijke calorische reductie opleveren zonder smaak op te offeren.',
+      },
+    },
+    {
+      question: {
+        fr: 'L\'airfryer préserve-t-il les nutriments des aliments ?',
+        en: 'Does an air fryer preserve nutrients in food?',
+        de: 'Erhält die Heißluftfritteuse die Nährstoffe in Lebensmitteln?',
+        es: '¿La freidora de aire conserva los nutrientes de los alimentos?',
+        it: 'La friggitrice ad aria preserva i nutrienti degli alimenti?',
+        nl: 'Behoudt de airfryer de voedingsstoffen in voedsel?',
+      },
+      answer: {
+        fr: 'Oui, l\'airfryer préserve mieux les nutriments que la friture ou la cuisson à l\'eau bouillante. La cuisson rapide à l\'air chaud limite la dégradation des vitamines sensibles à la chaleur. Les vitamines C et B sont mieux conservées qu\'en friture. Les antioxydants des légumes sont préservés à 85-90 %.',
+        en: 'Yes, air frying preserves nutrients better than deep frying or boiling. The rapid hot air cooking limits degradation of heat-sensitive vitamins. Vitamins C and B are better retained than in deep frying. Vegetable antioxidants are preserved at 85-90 percent, much higher than with boiling water.',
+        de: 'Ja, die Heißluftfritteuse bewahrt Nährstoffe besser als Frittieren oder Kochen in Wasser. Das schnelle Garen mit heißer Luft begrenzt den Abbau hitzeempfindlicher Vitamine. Vitamin C und B werden besser erhalten als beim Frittieren. Gemüse-Antioxidantien bleiben zu 85-90 Prozent erhalten.',
+        es: 'Sí, la freidora de aire conserva mejor los nutrientes que la fritura o la cocción en agua. La cocción rápida con aire caliente limita la degradación de vitaminas sensibles al calor. Las vitaminas C y B se conservan mejor que en fritura. Los antioxidantes de las verduras se preservan al 85-90 %.',
+        it: 'Sì, la friggitrice ad aria preserva meglio i nutrienti rispetto alla frittura o alla bollitura. La cottura rapida ad aria calda limita la degradazione delle vitamine sensibili al calore. Le vitamine C e B sono meglio conservate. Gli antiossidanti delle verdure sono preservati all\'85-90 percento.',
+        nl: 'Ja, de airfryer behoudt voedingsstoffen beter dan frituren of koken in water. Het snelle koken met hete lucht beperkt de afbraak van hittegevoelige vitaminen. Vitamine C en B worden beter behouden dan bij frituren. Antioxidanten in groenten worden voor 85-90 procent bewaard.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quels sont les meilleurs aliments à cuisiner dans un airfryer pour manger sain ?',
+        en: 'What are the best foods to cook in an air fryer for healthy eating?',
+        de: 'Welche Lebensmittel eignen sich am besten für gesundes Kochen in der Heißluftfritteuse?',
+        es: '¿Cuáles son los mejores alimentos para cocinar en freidora de aire para comer sano?',
+        it: 'Quali sono i migliori alimenti da cucinare nella friggitrice ad aria per mangiare sano?',
+        nl: 'Wat zijn de beste voedingsmiddelen om gezond te koken in de airfryer?',
+      },
+      answer: {
+        fr: 'Les légumes (brocoli, courgettes, poivrons, chou-fleur) sont excellents grillés à l\'airfryer. Le poulet et le poisson blancs cuisent parfaitement avec un minimum d\'huile. Les patates douces offrent un substitut sain aux frites classiques. Évitez les aliments déjà frits surgelés qui restent caloriques.',
+        en: 'Vegetables like broccoli, zucchini, peppers, and cauliflower are excellent grilled in the air fryer. Chicken and white fish cook perfectly with minimal oil. Sweet potatoes offer a healthy substitute for classic fries. Avoid pre-fried frozen foods, which remain calorie-dense despite air frying.',
+        de: 'Gemüse wie Brokkoli, Zucchini, Paprika und Blumenkohl sind hervorragend gegrillt in der Heißluftfritteuse. Hähnchen und weißer Fisch garen perfekt mit minimalem Öl. Süßkartoffeln sind ein gesunder Ersatz für klassische Pommes. Meiden Sie vorfrittierte Tiefkühlkost, die trotzdem kalorienreich bleibt.',
+        es: 'Las verduras como brócoli, calabacín, pimientos y coliflor quedan excelentes a la parrilla en la freidora. El pollo y el pescado blanco se cocinan perfectamente con mínimo aceite. El boniato ofrece un sustituto sano de las patatas clásicas. Evita los alimentos prefritos congelados que siguen siendo calóricos.',
+        it: 'Le verdure come broccoli, zucchine, peperoni e cavolfiore sono eccellenti grigliate nella friggitrice. Il pollo e il pesce bianco cuociono perfettamente con poco olio. Le patate dolci sono un sostituto sano delle classiche patatine. Evita i cibi surgelati pre-fritti che restano calorici.',
+        nl: 'Groenten zoals broccoli, courgette, paprika en bloemkool zijn uitstekend gegrild in de airfryer. Kip en witte vis worden perfect gaar met minimale olie. Zoete aardappelen zijn een gezond alternatief voor klassieke frietjes. Vermijd voorgefrituurde diepvriesproducten die calorierijk blijven.',
+      },
+    },
+  ],
 }

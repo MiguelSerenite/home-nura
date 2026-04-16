@@ -530,4 +530,96 @@ export const article: BlogArticle = {
 
 <p>Vermijd veelvoorkomende <a href="/nl/blog/erreurs-courantes-airfryer">gebruiksfouten</a>. Bekijk onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en de <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'À quelle fréquence faut-il nettoyer son airfryer ?',
+        en: 'How often should you clean your air fryer?',
+        de: 'Wie oft sollte man seine Heißluftfritteuse reinigen?',
+        es: '¿Con qué frecuencia hay que limpiar la freidora de aire?',
+        it: 'Con quale frequenza bisogna pulire la friggitrice ad aria?',
+        nl: 'Hoe vaak moet je je airfryer schoonmaken?',
+      },
+      answer: {
+        fr: 'Nettoyez le panier et le tiroir après chaque utilisation avec une éponge douce et de l\'eau savonneuse (5 minutes). Faites un nettoyage hebdomadaire de la résistance avec une brosse douce. Un nettoyage profond mensuel du boîtier entier et des grilles est recommandé pour maintenir les performances optimales.',
+        en: 'Clean the basket and drawer after every use with a soft sponge and soapy water, which takes about 5 minutes. Do a weekly cleaning of the heating element with a soft brush. A monthly deep clean of the entire housing and racks is recommended to maintain optimal performance.',
+        de: 'Reinigen Sie Korb und Schublade nach jeder Nutzung mit einem weichen Schwamm und Seifenwasser (5 Minuten). Wöchentliche Reinigung des Heizelements mit einer weichen Bürste. Eine monatliche Tiefenreinigung des gesamten Gehäuses und der Gitter wird empfohlen, um optimale Leistung zu erhalten.',
+        es: 'Limpia la cesta y el cajón después de cada uso con una esponja suave y agua jabonosa (5 minutos). Haz una limpieza semanal de la resistencia con un cepillo suave. Se recomienda una limpieza profunda mensual de toda la carcasa y las rejillas para mantener un rendimiento óptimo.',
+        it: 'Pulisci il cestello e il cassetto dopo ogni utilizzo con una spugna morbida e acqua saponata (5 minuti). Fai una pulizia settimanale della resistenza con una spazzola morbida. Una pulizia profonda mensile dell\'intero alloggiamento e delle griglie è consigliata per prestazioni ottimali.',
+        nl: 'Maak de mand en lade na elk gebruik schoon met een zachte spons en sop (5 minuten). Doe wekelijks een reiniging van het verwarmingselement met een zachte borstel. Een maandelijkse grondige reiniging van de hele behuizing en rekjes wordt aanbevolen voor optimale prestaties.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quelles parties de l\'airfryer passent au lave-vaisselle ?',
+        en: 'Which air fryer parts are dishwasher safe?',
+        de: 'Welche Teile der Heißluftfritteuse sind spülmaschinenfest?',
+        es: '¿Qué partes de la freidora de aire son aptas para lavavajillas?',
+        it: 'Quali parti della friggitrice ad aria sono lavabili in lavastoviglie?',
+        nl: 'Welke onderdelen van de airfryer zijn vaatwasmachinebestendig?',
+      },
+      answer: {
+        fr: 'Le panier amovible et le tiroir sont généralement compatibles lave-vaisselle sur la plupart des modèles. Vérifiez le manuel de votre modèle. N\'y mettez jamais le boîtier principal ni les composants électriques. Attention : le lave-vaisselle peut accélérer l\'usure du revêtement antiadhésif sur le long terme.',
+        en: 'The removable basket and drawer are generally dishwasher-safe on most models. Always check your specific model\'s manual. Never put the main housing or electrical components in the dishwasher. Note that frequent dishwasher use can accelerate wear on the non-stick coating over time.',
+        de: 'Der herausnehmbare Korb und die Schublade sind bei den meisten Modellen spülmaschinenfest. Prüfen Sie Ihre Bedienungsanleitung. Geben Sie nie das Hauptgehäuse oder elektrische Komponenten in die Spülmaschine. Häufiges Spülen in der Maschine kann die Antihaftbeschichtung langfristig schneller abnutzen.',
+        es: 'La cesta extraíble y el cajón son generalmente aptos para lavavajillas en la mayoría de modelos. Consulta el manual de tu modelo específico. Nunca pongas la carcasa principal ni los componentes eléctricos. El lavavajillas puede acelerar el desgaste del antiadherente a largo plazo.',
+        it: 'Il cestello estraibile e il cassetto sono generalmente lavabili in lavastoviglie nella maggior parte dei modelli. Controlla il manuale del tuo modello. Non mettere mai il corpo principale o i componenti elettrici in lavastoviglie. L\'uso frequente della lavastoviglie può accelerare l\'usura del rivestimento antiaderente.',
+        nl: 'De uitneembare mand en lade zijn bij de meeste modellen vaatwasmachinebestendig. Controleer altijd de handleiding van jouw model. Zet nooit de hoofdbehuizing of elektrische onderdelen in de vaatwasser. Frequente vaatwasser kan de slijtage van de antiaanbaklaag op den duur versnellen.',
+      },
+    },
+    {
+      question: {
+        fr: 'Comment éliminer les mauvaises odeurs de mon airfryer ?',
+        en: 'How do I remove bad smells from my air fryer?',
+        de: 'Wie entferne ich schlechte Gerüche aus meiner Heißluftfritteuse?',
+        es: '¿Cómo eliminar los malos olores de mi freidora de aire?',
+        it: 'Come eliminare i cattivi odori dalla mia friggitrice ad aria?',
+        nl: 'Hoe verwijder ik nare geurtjes uit mijn airfryer?',
+      },
+      answer: {
+        fr: 'Placez un mélange de jus de citron et vinaigre blanc dans un ramequin résistant à la chaleur dans le panier. Faites tourner l\'airfryer à 180°C pendant 5 minutes. Vous pouvez aussi frotter l\'intérieur avec une pâte de bicarbonate de soude. Pour les odeurs persistantes, laissez du marc de café dans le panier fermé toute une nuit.',
+        en: 'Place a mixture of lemon juice and white vinegar in a heat-safe ramekin inside the basket. Run the air fryer at 180°C for 5 minutes. You can also scrub the interior with a baking soda paste. For persistent odours, leave coffee grounds in the closed basket overnight to absorb remaining smells.',
+        de: 'Stellen Sie eine Mischung aus Zitronensaft und weißem Essig in einem hitzebeständigen Förmchen in den Korb. Lassen Sie die Heißluftfritteuse bei 180°C 5 Minuten laufen. Sie können auch das Innere mit einer Natronpaste reinigen. Bei hartnäckigen Gerüchen Kaffeesatz über Nacht im geschlossenen Korb lassen.',
+        es: 'Coloca una mezcla de zumo de limón y vinagre blanco en un ramequín resistente al calor dentro de la cesta. Pon la freidora a 180°C durante 5 minutos. También puedes frotar el interior con pasta de bicarbonato. Para olores persistentes, deja posos de café en la cesta cerrada toda la noche.',
+        it: 'Metti un mix di succo di limone e aceto bianco in un ramequin resistente al calore nel cestello. Fai funzionare la friggitrice a 180°C per 5 minuti. Puoi anche strofinare l\'interno con una pasta di bicarbonato. Per odori persistenti, lascia fondi di caffè nel cestello chiuso tutta la notte.',
+        nl: 'Zet een mix van citroensap en witte azijn in een hittebestendig schaaltje in de mand. Laat de airfryer 5 minuten op 180°C draaien. Je kunt de binnenkant ook schrobben met een pasta van baking soda. Voor hardnekkige geuren laat je koffiedik een nacht in de gesloten mand staan.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quelle est la durée de vie moyenne d\'un airfryer ?',
+        en: 'What is the average lifespan of an air fryer?',
+        de: 'Wie lange hält eine Heißluftfritteuse im Durchschnitt?',
+        es: '¿Cuál es la vida útil media de una freidora de aire?',
+        it: 'Qual è la durata media di una friggitrice ad aria?',
+        nl: 'Wat is de gemiddelde levensduur van een airfryer?',
+      },
+      answer: {
+        fr: 'Un airfryer bien entretenu dure 5 à 8 ans. Le revêtement antiadhésif est le premier composant à s\'user (3-5 ans avec un entretien correct). Le moteur du ventilateur et la résistance durent généralement plus longtemps. Un entretien régulier peut doubler la durée de vie par rapport à un appareil jamais nettoyé.',
+        en: 'A well-maintained air fryer lasts 5 to 8 years. The non-stick coating is the first component to wear out, lasting 3-5 years with proper care. The fan motor and heating element typically last longer. Regular maintenance can double the lifespan compared to an appliance that is never properly cleaned.',
+        de: 'Eine gut gepflegte Heißluftfritteuse hält 5 bis 8 Jahre. Die Antihaftbeschichtung verschleißt zuerst (3-5 Jahre bei richtiger Pflege). Ventilatormotor und Heizelement halten in der Regel länger. Regelmäßige Wartung kann die Lebensdauer im Vergleich zu einem nie gereinigten Gerät verdoppeln.',
+        es: 'Una freidora bien mantenida dura de 5 a 8 años. El antiadherente es el primer componente en desgastarse (3-5 años con cuidado correcto). El motor del ventilador y la resistencia suelen durar más. Un mantenimiento regular puede duplicar la vida útil respecto a un aparato nunca limpiado.',
+        it: 'Una friggitrice ad aria ben mantenuta dura da 5 a 8 anni. Il rivestimento antiaderente è il primo componente a consumarsi (3-5 anni con cura adeguata). Il motore della ventola e la resistenza durano generalmente di più. La manutenzione regolare può raddoppiare la durata rispetto a un apparecchio mai pulito.',
+        nl: 'Een goed onderhouden airfryer gaat 5 tot 8 jaar mee. De antiaanbaklaag is het eerste onderdeel dat slijt (3-5 jaar bij goed onderhoud). De ventilatormotor en het verwarmingselement gaan doorgaans langer mee. Regelmatig onderhoud kan de levensduur verdubbelen ten opzichte van een nooit gereinigd apparaat.',
+      },
+    },
+    {
+      question: {
+        fr: 'Où trouver des pièces de rechange pour un airfryer ?',
+        en: 'Where can I find replacement parts for an air fryer?',
+        de: 'Wo finde ich Ersatzteile für eine Heißluftfritteuse?',
+        es: '¿Dónde encontrar piezas de repuesto para una freidora de aire?',
+        it: 'Dove trovare pezzi di ricambio per una friggitrice ad aria?',
+        nl: 'Waar vind je vervangende onderdelen voor een airfryer?',
+      },
+      answer: {
+        fr: 'Contactez d\'abord le service après-vente du fabricant : Philips, Ninja et Moulinex proposent des paniers et grilles de remplacement. Amazon vend aussi des pièces compatibles pour les modèles populaires. Pour les marques moins connues, vérifiez la disponibilité des pièces avant l\'achat : c\'est un critère souvent négligé.',
+        en: 'First contact the manufacturer\'s customer service: Philips, Ninja, and Moulinex offer replacement baskets and racks. Amazon also sells compatible parts for popular models. For lesser-known brands, check parts availability before buying, as this is an often-overlooked criterion when choosing an air fryer.',
+        de: 'Kontaktieren Sie zuerst den Kundenservice des Herstellers: Philips, Ninja und Moulinex bieten Ersatzkörbe und -gitter an. Amazon verkauft auch kompatible Teile für beliebte Modelle. Bei weniger bekannten Marken prüfen Sie die Teileverfügbarkeit vor dem Kauf — ein oft übersehenes Kriterium.',
+        es: 'Contacta primero con el servicio posventa del fabricante: Philips, Ninja y Moulinex ofrecen cestas y rejillas de repuesto. Amazon también vende piezas compatibles para modelos populares. Para marcas menos conocidas, verifica la disponibilidad de repuestos antes de comprar.',
+        it: 'Contatta prima il servizio clienti del produttore: Philips, Ninja e Moulinex offrono cestelli e griglie di ricambio. Amazon vende anche parti compatibili per i modelli più diffusi. Per marchi meno noti, verifica la disponibilità dei ricambi prima dell\'acquisto: è un criterio spesso trascurato.',
+        nl: 'Neem eerst contact op met de klantenservice van de fabrikant: Philips, Ninja en Moulinex bieden vervangende manden en rekjes aan. Amazon verkoopt ook compatibele onderdelen voor populaire modellen. Controleer voor minder bekende merken de beschikbaarheid van onderdelen vóór aankoop.',
+      },
+    },
+  ],
 }

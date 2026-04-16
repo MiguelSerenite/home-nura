@@ -990,4 +990,96 @@ export const article: BlogArticle = {
 </ul>
 <p>Ontdek ook onze <a href="/nl/blog/recettes-poulet-croustillant-airfryer">krokante kiprecepten</a> en onze gids om <a href="/nl/blog/cuisiner-healthy-airfryer">gezond te koken met de airfryer</a>.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Vaut-il mieux utiliser des frites surgelées ou fraîches dans l\'airfryer ?',
+        en: 'Is it better to use frozen or fresh fries in the air fryer?',
+        de: 'Sind gefrorene oder frische Pommes besser in der Heißluftfritteuse?',
+        es: '¿Es mejor usar patatas congeladas o frescas en la freidora de aire?',
+        it: 'È meglio usare patatine surgelate o fresche nella friggitrice ad aria?',
+        nl: 'Is het beter om diepvriesfrietjes of verse frietjes te gebruiken in de airfryer?',
+      },
+      answer: {
+        fr: 'Les deux fonctionnent très bien. Les frites fraîches offrent un meilleur goût et une texture supérieure, surtout après trempage dans l\'eau. Les surgelées sont plus pratiques et cuisent directement sans préparation. Ajoutez 2-3 minutes au temps de cuisson pour les surgelées et secouez le panier à mi-cuisson.',
+        en: 'Both work very well. Fresh fries offer better taste and superior texture, especially after soaking in water. Frozen fries are more convenient and cook directly without preparation. Add 2-3 extra minutes to cooking time for frozen fries and shake the basket halfway through for even crispiness.',
+        de: 'Beides funktioniert hervorragend. Frische Pommes bieten besseren Geschmack und überlegene Textur, besonders nach dem Einweichen. Gefrorene sind praktischer und garen direkt ohne Vorbereitung. Fügen Sie 2-3 Minuten zur Garzeit hinzu und schütteln Sie den Korb zur Halbzeit für gleichmäßige Knusprigkeit.',
+        es: 'Ambas funcionan muy bien. Las frescas ofrecen mejor sabor y textura superior, especialmente tras remojarlas. Las congeladas son más prácticas y se cocinan directamente sin preparación. Añade 2-3 minutos al tiempo de cocción para las congeladas y agita la cesta a mitad de cocción.',
+        it: 'Entrambe funzionano molto bene. Le patatine fresche offrono gusto migliore e texture superiore, soprattutto dopo ammollo in acqua. Le surgelate sono più pratiche e cuociono direttamente senza preparazione. Aggiungi 2-3 minuti al tempo di cottura per le surgelate e scuoti il cestello a metà.',
+        nl: 'Beide werken prima. Verse frietjes bieden betere smaak en superieure textuur, vooral na weken in water. Diepvriesfrietjes zijn praktischer en bereid je direct zonder voorbereiding. Voeg 2-3 minuten toe aan de baktijd voor diepvries en schud de mand halverwege voor gelijkmatige krokant.',
+      },
+    },
+    {
+      question: {
+        fr: 'Combien de temps faut-il tremper les pommes de terre avant de les cuire ?',
+        en: 'How long should you soak potatoes before air frying?',
+        de: 'Wie lange sollte man Kartoffeln vor dem Frittieren einweichen?',
+        es: '¿Cuánto tiempo hay que remojar las patatas antes de freírlas?',
+        it: 'Quanto tempo bisogna mettere a bagno le patate prima di cuocerle?',
+        nl: 'Hoe lang moet je aardappelen weken voordat je ze bakt?',
+      },
+      answer: {
+        fr: 'Trempez les frites coupées dans l\'eau froide pendant 30 minutes minimum, idéalement 1 à 2 heures. Cela élimine l\'amidon de surface qui empêche le croustillant. Pour un résultat optimal, changez l\'eau quand elle devient trouble. Séchez soigneusement les frites avant de les huiler et de les enfourner.',
+        en: 'Soak cut fries in cold water for a minimum of 30 minutes, ideally 1 to 2 hours. This removes surface starch that prevents crispiness. For optimal results, change the water when it becomes cloudy. Thoroughly pat dry the fries before adding oil and placing them in the air fryer basket.',
+        de: 'Weichen Sie geschnittene Pommes mindestens 30 Minuten in kaltem Wasser ein, idealerweise 1-2 Stunden. Das entfernt die Oberflächenstärke, die Knusprigkeit verhindert. Für optimale Ergebnisse wechseln Sie das Wasser, wenn es trüb wird. Trocknen Sie die Pommes gründlich, bevor Sie sie ölen.',
+        es: 'Remoja las patatas cortadas en agua fría durante 30 minutos mínimo, idealmente 1-2 horas. Esto elimina el almidón superficial que impide lo crujiente. Para un resultado óptimo, cambia el agua cuando se enturbie. Seca las patatas cuidadosamente antes de aceitarlas y meterlas en la cesta.',
+        it: 'Metti a bagno le patatine tagliate in acqua fredda per almeno 30 minuti, idealmente 1-2 ore. Questo rimuove l\'amido superficiale che impedisce la croccantezza. Per risultati ottimali, cambia l\'acqua quando diventa torbida. Asciuga accuratamente le patatine prima di oliarle e infornarle.',
+        nl: 'Week gesneden frietjes minimaal 30 minuten in koud water, idealiter 1-2 uur. Dit verwijdert het oppervlaktezetmeel dat krokant worden verhindert. Voor optimaal resultaat vervang je het water als het troebel wordt. Dep de frietjes grondig droog voordat je ze oliet en in de mand legt.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quelles variétés de pommes de terre sont les meilleures pour les frites à l\'airfryer ?',
+        en: 'Which potato varieties are best for air fryer fries?',
+        de: 'Welche Kartoffelsorten eignen sich am besten für Pommes aus der Heißluftfritteuse?',
+        es: '¿Qué variedades de patata son mejores para las fritas en freidora de aire?',
+        it: 'Quali varietà di patate sono migliori per le patatine nella friggitrice ad aria?',
+        nl: 'Welke aardappelrassen zijn het beste voor frietjes uit de airfryer?',
+      },
+      answer: {
+        fr: 'Les variétés à chair ferme comme la Bintje et l\'Agria sont idéales : elles restent croquantes à l\'extérieur et fondantes à l\'intérieur. La Maris Piper fonctionne aussi très bien. Évitez les pommes de terre à chair farineuse qui se désagrègent. Pour les frites de patate douce, choisissez des tubercules fermes et réguliers.',
+        en: 'Firm-fleshed varieties like Bintje and Agria are ideal: they stay crispy outside and fluffy inside. Maris Piper also works very well. Avoid floury potatoes that fall apart. For sweet potato fries, choose firm, regular-shaped tubers. Yukon Gold is another excellent option with a good balance of starch.',
+        de: 'Festkochende Sorten wie Bintje und Agria sind ideal: außen knusprig, innen weich. Maris Piper funktioniert ebenfalls sehr gut. Vermeiden Sie mehlige Kartoffeln, die zerfallen. Für Süßkartoffel-Pommes wählen Sie feste, gleichmäßig geformte Knollen. Yukon Gold ist eine weitere ausgezeichnete Option.',
+        es: 'Las variedades de carne firme como Bintje y Agria son ideales: quedan crujientes por fuera y tiernas por dentro. La Maris Piper también funciona muy bien. Evita las patatas harinosas que se deshacen. Para las de boniato, elige tubérculos firmes y regulares.',
+        it: 'Le varietà a pasta soda come Bintje e Agria sono ideali: restano croccanti fuori e morbide dentro. La Maris Piper funziona molto bene. Evita le patate farinose che si sfaldano. Per le patatine di patata dolce, scegli tuberi sodi e regolari.',
+        nl: 'Vastkokende rassen zoals Bintje en Agria zijn ideaal: krokant van buiten en zacht van binnen. Maris Piper werkt ook uitstekend. Vermijd melige aardappelen die uit elkaar vallen. Voor zoete aardappelfrietjes kies je stevige, regelmatig gevormde knollen.',
+      },
+    },
+    {
+      question: {
+        fr: 'Comment obtenir des frites ultra croustillantes à l\'airfryer ?',
+        en: 'How do you get ultra-crispy fries in the air fryer?',
+        de: 'Wie bekommt man ultra-knusprige Pommes in der Heißluftfritteuse?',
+        es: '¿Cómo conseguir patatas ultra crujientes en la freidora de aire?',
+        it: 'Come ottenere patatine ultra croccanti nella friggitrice ad aria?',
+        nl: 'Hoe krijg je ultra krokante frietjes in de airfryer?',
+      },
+      answer: {
+        fr: 'Cinq secrets pour des frites ultra croustillantes : trempage d\'au moins 30 minutes, séchage parfait, fine couche d\'huile au spray, cuisson en deux temps (160°C puis 200°C), et panier jamais rempli à plus des deux tiers. La double cuisson est la technique qui fait la plus grande différence dans le résultat final.',
+        en: 'Five secrets for ultra-crispy fries: soak for at least 30 minutes, dry perfectly, apply a thin coat of oil spray, cook in two stages (160°C then 200°C), and never fill the basket more than two-thirds. The double-cooking technique makes the biggest difference in the final crispiness result.',
+        de: 'Fünf Geheimnisse für ultra-knusprige Pommes: mindestens 30 Minuten einweichen, perfekt trocknen, dünne Schicht Ölspray, Zwei-Stufen-Garen (160°C dann 200°C) und Korb nie mehr als zwei Drittel füllen. Die Doppelgar-Technik macht den größten Unterschied im Endergebnis.',
+        es: 'Cinco secretos para patatas ultra crujientes: remojo de al menos 30 minutos, secado perfecto, fina capa de spray de aceite, cocción en dos tiempos (160°C luego 200°C) y cesta nunca más de dos tercios llena. La doble cocción marca la mayor diferencia en el resultado final.',
+        it: 'Cinque segreti per patatine ultra croccanti: ammollo di almeno 30 minuti, asciugatura perfetta, sottile strato di spray d\'olio, cottura in due fasi (160°C poi 200°C) e cestello mai riempito oltre i due terzi. La doppia cottura fa la differenza più grande nel risultato finale.',
+        nl: 'Vijf geheimen voor ultra krokante frietjes: minstens 30 minuten weken, perfect drogen, dunne laag oliespray, bakken in twee fasen (160°C dan 200°C) en de mand nooit meer dan tweederde vullen. De dubbele baktechniek maakt het grootste verschil in het eindresultaat.',
+      },
+    },
+    {
+      question: {
+        fr: 'Peut-on réchauffer des frites à l\'airfryer ?',
+        en: 'Can you reheat fries in the air fryer?',
+        de: 'Kann man Pommes in der Heißluftfritteuse aufwärmen?',
+        es: '¿Se pueden recalentar patatas fritas en la freidora de aire?',
+        it: 'Si possono riscaldare le patatine nella friggitrice ad aria?',
+        nl: 'Kun je frietjes opwarmen in de airfryer?',
+      },
+      answer: {
+        fr: 'Oui, l\'airfryer est la meilleure méthode pour réchauffer des frites. Réglez à 180°C pendant 3 à 5 minutes. Les frites retrouvent leur croustillant comme si elles venaient d\'être cuites, contrairement au micro-ondes qui les ramollit. Pas besoin d\'ajouter d\'huile. Cette technique fonctionne aussi pour les restes de restaurant.',
+        en: 'Yes, the air fryer is the best method for reheating fries. Set to 180°C for 3 to 5 minutes. The fries regain their crispiness as if freshly cooked, unlike the microwave which makes them soggy. No need to add oil. This technique also works perfectly for restaurant leftovers brought home.',
+        de: 'Ja, die Heißluftfritteuse ist die beste Methode zum Aufwärmen von Pommes. Stellen Sie 180°C für 3-5 Minuten ein. Die Pommes werden wieder knusprig wie frisch zubereitet, anders als in der Mikrowelle. Kein Öl nötig. Diese Technik funktioniert auch perfekt für Restaurant-Reste.',
+        es: 'Sí, la freidora de aire es el mejor método para recalentar patatas. Pon a 180°C durante 3-5 minutos. Las patatas recuperan su crujiente como recién hechas, a diferencia del microondas que las ablanda. No hace falta añadir aceite. También funciona perfectamente con sobras de restaurante.',
+        it: 'Sì, la friggitrice ad aria è il metodo migliore per riscaldare le patatine. Imposta a 180°C per 3-5 minuti. Le patatine ritrovano la loro croccantezza come appena cotte, a differenza del microonde che le ammorbidisce. Non serve aggiungere olio. Funziona perfettamente anche con gli avanzi del ristorante.',
+        nl: 'Ja, de airfryer is de beste methode om frietjes op te warmen. Stel in op 180°C voor 3-5 minuten. De frietjes worden weer krokant alsof ze net gebakken zijn, in tegenstelling tot de magnetron die ze slap maakt. Geen olie nodig. Dit werkt ook perfect voor restjes van het restaurant.',
+      },
+    },
+  ],
 }

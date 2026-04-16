@@ -501,4 +501,96 @@ export const article: BlogArticle = {
 <h2>Verdict</h2>
 <p>De Philips Airfryer 3000 Series XL 6,2L is <strong>de beste airfryer qua prijs-kwaliteit van 2026</strong>. Ideaal voor gezinnen van 3-4 personen. Voor dubbel koken of hogere temperaturen, bekijk de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a>. Meer opties in onze <a href="/nl/guides/airfryers">complete gids 2026</a>.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Le Philips Airfryer 3000 XL vaut-il le coup face aux modèles premium ?',
+        en: 'Is the Philips Airfryer 3000 XL worth it compared to premium models?',
+        de: 'Lohnt sich der Philips Airfryer 3000 XL gegenüber Premium-Modellen?',
+        es: '¿Merece la pena el Philips Airfryer 3000 XL frente a modelos premium?',
+        it: 'Vale la pena il Philips Airfryer 3000 XL rispetto ai modelli premium?',
+        nl: 'Is de Philips Airfryer 3000 XL de moeite waard vergeleken met premium modellen?',
+      },
+      answer: {
+        fr: 'Pour 119,99 euros, le Philips 3000 XL offre la technologie RapidAir éprouvée et une fiabilité exemplaire. Il excelle sur les frites et les légumes. Les modèles premium apportent la connectivité, des températures plus élevées ou la double zone, mais pour un usage quotidien simple et efficace, le 3000 XL est difficile à battre dans sa catégorie.',
+        en: 'At 119.99 euros, the Philips 3000 XL offers proven RapidAir technology and exemplary reliability. It excels at fries and vegetables. Premium models add connectivity, higher temperatures or dual zones, but for simple, effective daily use, the 3000 XL is hard to beat in its category.',
+        de: 'Für 119,99 Euro bietet der Philips 3000 XL bewährte RapidAir-Technologie und vorbildliche Zuverlässigkeit. Er glänzt bei Pommes und Gemüse. Premium-Modelle bieten Konnektivität, höhere Temperaturen oder Doppelzonen, aber für einfachen, effektiven Alltagsgebrauch ist der 3000 XL in seiner Klasse kaum zu schlagen.',
+        es: 'Por 119,99 euros, el Philips 3000 XL ofrece la probada tecnología RapidAir y una fiabilidad ejemplar. Destaca en patatas fritas y verduras. Los modelos premium añaden conectividad, temperaturas más altas o doble zona, pero para un uso diario sencillo y eficaz, el 3000 XL es difícil de superar en su categoría.',
+        it: 'A 119,99 euro, il Philips 3000 XL offre la collaudata tecnologia RapidAir e un\'affidabilità esemplare. Eccelle con patatine e verdure. I modelli premium aggiungono connettività, temperature più alte o doppia zona, ma per un uso quotidiano semplice ed efficace, il 3000 XL è difficile da battere nella sua categoria.',
+        nl: 'Voor 119,99 euro biedt de Philips 3000 XL bewezen RapidAir-technologie en voorbeeldige betrouwbaarheid. Hij blinkt uit bij friet en groenten. Premium modellen voegen connectiviteit, hogere temperaturen of dubbele zones toe, maar voor eenvoudig, effectief dagelijks gebruik is de 3000 XL moeilijk te verslaan in zijn klasse.',
+      },
+    },
+    {
+      question: {
+        fr: 'Quelle quantité de nourriture peut-on cuire dans le Philips 3000 XL ?',
+        en: 'How much food can the Philips 3000 XL cook at once?',
+        de: 'Wie viel Essen passt in den Philips 3000 XL?',
+        es: '¿Cuánta comida cabe en el Philips 3000 XL?',
+        it: 'Quanta pietanza si può cuocere nel Philips 3000 XL?',
+        nl: 'Hoeveel eten kan de Philips 3000 XL tegelijk bereiden?',
+      },
+      answer: {
+        fr: 'Le Philips 3000 XL a une capacité de 6,2 litres, idéale pour 3 à 4 personnes. Vous pouvez y cuire 600 g de frites fraîches, 4 pilons de poulet ou 500 g de frites surgelées en une seule fournée. Pour les familles de 5 personnes et plus, un modèle plus grand serait recommandé pour éviter les fournées multiples.',
+        en: 'The Philips 3000 XL has a 6.2-litre capacity, ideal for 3 to 4 people. You can cook 600 g of fresh fries, 4 chicken drumsticks, or 500 g of frozen fries in a single batch. For families of 5 or more, a larger model would be recommended to avoid multiple batches.',
+        de: 'Der Philips 3000 XL hat 6,2 Liter Fassungsvermögen, ideal für 3 bis 4 Personen. Sie können 600 g frische Pommes, 4 Hähnchenschenkel oder 500 g Tiefkühlpommes in einer Charge garen. Für Familien ab 5 Personen empfiehlt sich ein größeres Modell, um mehrere Chargen zu vermeiden.',
+        es: 'El Philips 3000 XL tiene 6,2 litros de capacidad, ideal para 3 a 4 personas. Permite cocinar 600 g de patatas frescas, 4 muslos de pollo o 500 g de patatas congeladas de una vez. Para familias de 5 o más, se recomienda un modelo más grande para evitar varias tandas.',
+        it: 'Il Philips 3000 XL ha una capacità di 6,2 litri, ideale per 3-4 persone. Si possono cuocere 600 g di patatine fresche, 4 cosce di pollo o 500 g di patatine surgelate in una volta. Per famiglie di 5 o più persone, si consiglia un modello più grande per evitare più infornate.',
+        nl: 'De Philips 3000 XL heeft een capaciteit van 6,2 liter, ideaal voor 3 tot 4 personen. Je kunt 600 g verse friet, 4 kippenpoten of 500 g diepvriesfriet in één keer bereiden. Voor gezinnen van 5 of meer is een groter model aan te raden om meerdere batches te vermijden.',
+      },
+    },
+    {
+      question: {
+        fr: 'Le Philips 3000 XL est-il bruyant pendant la cuisson ?',
+        en: 'Is the Philips 3000 XL noisy during cooking?',
+        de: 'Ist der Philips 3000 XL während des Garens laut?',
+        es: '¿Es ruidoso el Philips 3000 XL durante la cocción?',
+        it: 'Il Philips 3000 XL è rumoroso durante la cottura?',
+        nl: 'Is de Philips 3000 XL luidruchtig tijdens het koken?',
+      },
+      answer: {
+        fr: 'Le Philips 3000 XL produit environ 58 dB pendant la cuisson, ce qui correspond à une bonne moyenne parmi les airfryers testés. Ce niveau sonore est comparable au bruit d\'une conversation calme et ne devrait pas gêner dans un salon ouvert sur la cuisine. Il est plus silencieux que le Ninja Double Stack à 65 dB.',
+        en: 'The Philips 3000 XL produces approximately 58 dB during cooking, which is a good average among the air fryers we tested. This noise level is comparable to a quiet conversation and should not be bothersome in a living room open to the kitchen. It is quieter than the Ninja Double Stack at 65 dB.',
+        de: 'Der Philips 3000 XL erzeugt etwa 58 dB während des Garens, ein guter Durchschnitt unter den getesteten Heißluftfritteusen. Diese Lautstärke ist vergleichbar mit einem ruhigen Gespräch und sollte in einem offenen Wohn-/Küchenbereich nicht stören. Er ist leiser als der Ninja Double Stack mit 65 dB.',
+        es: 'El Philips 3000 XL produce aproximadamente 58 dB durante la cocción, una buena media entre las freidoras probadas. Este nivel de ruido es comparable a una conversación tranquila y no debería molestar en un salón abierto a la cocina. Es más silencioso que el Ninja Double Stack con 65 dB.',
+        it: 'Il Philips 3000 XL produce circa 58 dB durante la cottura, una buona media tra le friggitrici testate. Questo livello di rumore è paragonabile a una conversazione tranquilla e non dovrebbe disturbare in un soggiorno aperto sulla cucina. È più silenzioso del Ninja Double Stack a 65 dB.',
+        nl: 'De Philips 3000 XL produceert ongeveer 58 dB tijdens het koken, een goed gemiddelde onder de geteste airfryers. Dit geluidsniveau is vergelijkbaar met een rustig gesprek en zou niet storend moeten zijn in een woonkamer die openstaat naar de keuken. Hij is stiller dan de Ninja Double Stack met 65 dB.',
+      },
+    },
+    {
+      question: {
+        fr: 'Existe-t-il des accessoires compatibles avec le Philips 3000 XL ?',
+        en: 'Are there compatible accessories for the Philips 3000 XL?',
+        de: 'Gibt es kompatibles Zubehör für den Philips 3000 XL?',
+        es: '¿Existen accesorios compatibles con el Philips 3000 XL?',
+        it: 'Esistono accessori compatibili con il Philips 3000 XL?',
+        nl: 'Zijn er compatibele accessoires voor de Philips 3000 XL?',
+      },
+      answer: {
+        fr: 'Philips propose des accessoires optionnels compatibles avec la gamme 3000 Series, notamment un moule à gâteau, une grille de cuisson et un kit de cuisson pour pizza. Ces accessoires sont vendus séparément. Le modèle de base est livré avec le panier Starfish breveté qui optimise la circulation d\'air pour des résultats uniformes.',
+        en: 'Philips offers optional accessories compatible with the 3000 Series range, including a baking tin, cooking grid, and pizza cooking kit. These accessories are sold separately. The base model comes with the patented Starfish basket that optimises air circulation for even results.',
+        de: 'Philips bietet optionales Zubehör für die 3000er Serie an, darunter eine Backform, einen Grillrost und ein Pizza-Set. Diese sind separat erhältlich. Das Basismodell wird mit dem patentierten Starfish-Korb geliefert, der die Luftzirkulation für gleichmäßige Ergebnisse optimiert.',
+        es: 'Philips ofrece accesorios opcionales compatibles con la Serie 3000, incluyendo un molde para tartas, una rejilla de cocción y un kit para pizza. Se venden por separado. El modelo básico incluye la cesta Starfish patentada que optimiza la circulación del aire para resultados uniformes.',
+        it: 'Philips offre accessori opzionali compatibili con la Serie 3000, tra cui uno stampo per torte, una griglia di cottura e un kit per pizza. Sono venduti separatamente. Il modello base include il cestello Starfish brevettato che ottimizza la circolazione dell\'aria per risultati uniformi.',
+        nl: 'Philips biedt optionele accessoires voor de 3000 Serie, waaronder een bakvorm, bakrooster en pizzabereidingsset. Deze worden apart verkocht. Het basismodel wordt geleverd met de gepatenteerde Starfish-mand die de luchtcirculatie optimaliseert voor gelijkmatige resultaten.',
+      },
+    },
+    {
+      question: {
+        fr: 'Les aliments cuits dans le Philips 3000 XL ont-ils le même goût qu\'en friture ?',
+        en: 'Does food cooked in the Philips 3000 XL taste the same as deep-fried?',
+        de: 'Schmeckt Essen aus dem Philips 3000 XL wie frittiert?',
+        es: '¿Los alimentos del Philips 3000 XL saben igual que fritos?',
+        it: 'Il cibo cotto nel Philips 3000 XL ha lo stesso sapore del fritto?',
+        nl: 'Smaakt eten uit de Philips 3000 XL hetzelfde als gefrituurd?',
+      },
+      answer: {
+        fr: 'Les aliments cuits dans le Philips 3000 XL sont croustillants à l\'extérieur et tendres à l\'intérieur, mais le goût diffère légèrement d\'une friture traditionnelle car l\'airfryer utilise 85 % moins de matières grasses. Les frites sont excellentes et les légumes développent une caramélisation délicieuse. Le résultat est plus léger et plus sain.',
+        en: 'Food cooked in the Philips 3000 XL is crispy outside and tender inside, but the taste differs slightly from traditional deep frying as the air fryer uses 85% less fat. Fries are excellent and vegetables develop a delicious caramelisation. The result is lighter and healthier.',
+        de: 'Essen aus dem Philips 3000 XL ist außen knusprig und innen zart, schmeckt aber etwas anders als traditionell Frittiertes, da die Heißluftfritteuse 85 % weniger Fett verwendet. Pommes sind ausgezeichnet und Gemüse entwickelt eine köstliche Karamellisierung. Das Ergebnis ist leichter und gesünder.',
+        es: 'Los alimentos cocinados en el Philips 3000 XL son crujientes por fuera y tiernos por dentro, pero el sabor difiere ligeramente del frito tradicional ya que la freidora de aire usa un 85 % menos de grasa. Las patatas fritas son excelentes y las verduras desarrollan una caramelización deliciosa. El resultado es más ligero y saludable.',
+        it: 'Il cibo cotto nel Philips 3000 XL è croccante fuori e tenero dentro, ma il sapore differisce leggermente dalla frittura tradizionale poiché la friggitrice usa l\'85% di grassi in meno. Le patatine sono eccellenti e le verdure sviluppano una deliziosa caramellizzazione. Il risultato è più leggero e salutare.',
+        nl: 'Eten uit de Philips 3000 XL is krokant van buiten en zacht van binnen, maar de smaak verschilt licht van traditioneel frituren omdat de airfryer 85% minder vet gebruikt. Friet is uitstekend en groenten ontwikkelen een heerlijke karamelisatie. Het resultaat is lichter en gezonder.',
+      },
+    },
+  ],
 }

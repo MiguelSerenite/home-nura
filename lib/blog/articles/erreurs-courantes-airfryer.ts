@@ -576,4 +576,96 @@ export const article: BlogArticle = {
 
 <p>Meer tips in onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en de <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Pourquoi mes aliments sont-ils mous au lieu d\'être croustillants dans l\'airfryer ?',
+        en: 'Why is my food soggy instead of crispy in the air fryer?',
+        de: 'Warum wird mein Essen in der Heißluftfritteuse matschig statt knusprig?',
+        es: '¿Por qué mis alimentos quedan blandos en vez de crujientes en la freidora de aire?',
+        it: 'Perché il mio cibo è molle invece che croccante nella friggitrice ad aria?',
+        nl: 'Waarom is mijn eten slap in plaats van krokant in de airfryer?',
+      },
+      answer: {
+        fr: 'La cause principale est un panier surchargé qui empêche l\'air de circuler. Ne remplissez jamais au-delà des deux tiers. Autres causes : aliments trop humides non séchés, absence de matière grasse, et température trop basse. Séchez toujours vos aliments, ajoutez un spray d\'huile et préchauffez l\'appareil.',
+        en: 'The main cause is an overcrowded basket that blocks air circulation. Never fill beyond two-thirds capacity. Other causes include wet food that was not patted dry, no oil at all, and temperature set too low. Always dry your food, add a light oil spray, and preheat the appliance for 3 minutes.',
+        de: 'Die Hauptursache ist ein überfüllter Korb, der die Luftzirkulation blockiert. Füllen Sie nie mehr als zwei Drittel. Weitere Ursachen: feuchte, nicht abgetrocknete Lebensmittel, kein Öl und zu niedrige Temperatur. Trocknen Sie Ihre Lebensmittel, sprühen Sie etwas Öl und heizen Sie das Gerät vor.',
+        es: 'La causa principal es una cesta sobrecargada que impide la circulación del aire. Nunca llenes más de dos tercios. Otras causas: alimentos húmedos sin secar, ausencia de aceite y temperatura demasiado baja. Siempre seca tus alimentos, añade un spray de aceite y precalienta el aparato.',
+        it: 'La causa principale è un cestello sovraffollato che blocca la circolazione dell\'aria. Non riempire mai oltre i due terzi. Altre cause: alimenti umidi non asciugati, assenza di olio e temperatura troppo bassa. Asciuga sempre gli alimenti, aggiungi un po\' di spray di olio e preriscalda l\'apparecchio.',
+        nl: 'De hoofdoorzaak is een overvolle mand die de luchtcirculatie blokkeert. Vul nooit meer dan tweederde. Andere oorzaken: nat voedsel dat niet is drooggedept, geen olie en te lage temperatuur. Droog je eten altijd, voeg een lichte oliespray toe en verwarm het apparaat 3 minuten voor.',
+      },
+    },
+    {
+      question: {
+        fr: 'À quelle température faut-il régler l\'airfryer pour chaque type d\'aliment ?',
+        en: 'What temperature should I set the air fryer to for each type of food?',
+        de: 'Auf welche Temperatur sollte ich die Heißluftfritteuse für jede Speise einstellen?',
+        es: '¿A qué temperatura hay que poner la freidora de aire para cada tipo de alimento?',
+        it: 'A quale temperatura impostare la friggitrice ad aria per ogni tipo di alimento?',
+        nl: 'Op welke temperatuur moet ik de airfryer instellen voor elk type voedsel?',
+      },
+      answer: {
+        fr: 'Règle générale : légumes fins à 200°C (10 min), frites à 190-200°C (18-22 min), poulet à 180-200°C (15-25 min selon le morceau), poisson à 180°C (10-12 min), pâtisseries à 160-170°C. Réduisez toujours de 10 à 20°C par rapport aux recettes de four traditionnel car l\'airfryer chauffe plus efficacement.',
+        en: 'General rule: thin vegetables at 200°C for 10 minutes, fries at 190-200°C for 18-22 minutes, chicken at 180-200°C for 15-25 minutes depending on the cut, fish at 180°C for 10-12 minutes, pastries at 160-170°C. Always reduce by 10-20°C compared to traditional oven recipes.',
+        de: 'Faustregel: dünnes Gemüse bei 200°C (10 Min), Pommes bei 190-200°C (18-22 Min), Hähnchen bei 180-200°C (15-25 Min je nach Stück), Fisch bei 180°C (10-12 Min), Gebäck bei 160-170°C. Reduzieren Sie immer um 10-20°C gegenüber herkömmlichen Ofenrezepten.',
+        es: 'Regla general: verduras finas a 200°C (10 min), patatas a 190-200°C (18-22 min), pollo a 180-200°C (15-25 min según el corte), pescado a 180°C (10-12 min), repostería a 160-170°C. Reduce siempre 10-20°C respecto a las recetas de horno convencional.',
+        it: 'Regola generale: verdure sottili a 200°C (10 min), patatine a 190-200°C (18-22 min), pollo a 180-200°C (15-25 min a seconda del taglio), pesce a 180°C (10-12 min), pasticceria a 160-170°C. Riduci sempre di 10-20°C rispetto alle ricette da forno tradizionale.',
+        nl: 'Vuistregel: dunne groenten op 200°C (10 min), frietjes op 190-200°C (18-22 min), kip op 180-200°C (15-25 min afhankelijk van het stuk), vis op 180°C (10-12 min), gebak op 160-170°C. Verlaag altijd 10-20°C ten opzichte van traditionele ovenrecepten.',
+      },
+    },
+    {
+      question: {
+        fr: 'Peut-on utiliser du papier sulfurisé classique dans un airfryer ?',
+        en: 'Can you use regular parchment paper in an air fryer?',
+        de: 'Kann man normales Backpapier in der Heißluftfritteuse verwenden?',
+        es: '¿Se puede usar papel de horno normal en una freidora de aire?',
+        it: 'Si può usare carta da forno normale nella friggitrice ad aria?',
+        nl: 'Kun je gewoon bakpapier gebruiken in een airfryer?',
+      },
+      answer: {
+        fr: 'Oui, mais avec précautions. Utilisez des papiers perforés spéciaux airfryer de préférence. Si vous utilisez du papier sulfurisé classique, percez des trous pour la circulation d\'air. Ne placez jamais de papier sans aliments dessus car il peut s\'envoler et toucher la résistance, ce qui crée un risque d\'incendie.',
+        en: 'Yes, but with caution. Prefer perforated liners designed for air fryers. If using regular parchment, punch holes for air circulation. Never place paper without food on top to weigh it down, as it can fly up and touch the heating element, creating a fire hazard. Always keep paper below food.',
+        de: 'Ja, aber mit Vorsicht. Bevorzugen Sie perforierte Papiere für Heißluftfritteusen. Bei normalem Backpapier stanzen Sie Löcher für die Luftzirkulation. Legen Sie nie Papier ohne Lebensmittel darauf, da es hochfliegen und das Heizelement berühren kann, was ein Brandrisiko darstellt.',
+        es: 'Sí, pero con precaución. Prefiere los papeles perforados especiales para freidora. Si usas papel de horno normal, haz agujeros para la circulación del aire. Nunca pongas papel sin alimentos encima, ya que puede volar y tocar la resistencia, creando riesgo de incendio.',
+        it: 'Sì, ma con cautela. Preferisci i fogli perforati specifici per friggitrice ad aria. Se usi carta da forno normale, fai dei buchi per la circolazione dell\'aria. Non mettere mai la carta senza cibo sopra, perché può volare e toccare la resistenza, creando rischio di incendio.',
+        nl: 'Ja, maar met voorzichtigheid. Gebruik bij voorkeur geperforeerde vellen voor airfryers. Bij gewoon bakpapier maak je gaatjes voor de luchtcirculatie. Leg nooit papier zonder eten erop, want het kan omhoog waaien en het verwarmingselement raken, wat brandgevaar oplevert.',
+      },
+    },
+    {
+      question: {
+        fr: 'Peut-on cuire des aliments surgelés directement dans l\'airfryer ?',
+        en: 'Can you cook frozen food directly in the air fryer?',
+        de: 'Kann man gefrorene Lebensmittel direkt in der Heißluftfritteuse zubereiten?',
+        es: '¿Se pueden cocinar alimentos congelados directamente en la freidora de aire?',
+        it: 'Si possono cuocere alimenti surgelati direttamente nella friggitrice ad aria?',
+        nl: 'Kun je diepvriesproducten direct in de airfryer bereiden?',
+      },
+      answer: {
+        fr: 'Oui, c\'est même l\'un des meilleurs usages de l\'airfryer. Les nuggets, frites et beignets surgelés cuisent directement sans décongélation. Ajoutez 2 à 3 minutes de cuisson en plus et réduisez la température de 10°C par rapport aux instructions du four. Secouez le panier à mi-cuisson pour un résultat uniforme.',
+        en: 'Yes, this is one of the best uses for an air fryer. Frozen nuggets, fries, and battered items cook directly without thawing. Add 2 to 3 extra minutes and reduce the temperature by 10°C compared to oven instructions on the package. Shake the basket halfway through for even results.',
+        de: 'Ja, das ist sogar eine der besten Anwendungen der Heißluftfritteuse. Gefrorene Nuggets, Pommes und panierte Produkte garen direkt ohne Auftauen. Fügen Sie 2-3 Minuten hinzu und reduzieren Sie die Temperatur um 10°C gegenüber den Ofen-Anweisungen. Schütteln Sie den Korb zur Halbzeit.',
+        es: 'Sí, es uno de los mejores usos de la freidora de aire. Los nuggets, patatas y rebozados congelados se cocinan directamente sin descongelar. Añade 2-3 minutos más y reduce la temperatura 10°C respecto a las instrucciones del horno. Agita la cesta a mitad de cocción para un resultado uniforme.',
+        it: 'Sì, è uno dei migliori utilizzi della friggitrice ad aria. Nuggets, patatine e prodotti impanati surgelati si cuociono direttamente senza scongelare. Aggiungi 2-3 minuti in più e riduci la temperatura di 10°C rispetto alle istruzioni del forno. Scuoti il cestello a metà cottura per risultati uniformi.',
+        nl: 'Ja, dit is een van de beste toepassingen van de airfryer. Bevroren nuggets, frietjes en gefrituurde producten bereid je direct zonder ontdooien. Voeg 2-3 minuten extra toe en verlaag de temperatuur 10°C ten opzichte van de oveninstructies. Schud de mand halverwege voor een gelijkmatig resultaat.',
+      },
+    },
+    {
+      question: {
+        fr: 'Pourquoi mon airfryer produit-il de la fumée ?',
+        en: 'Why is my air fryer producing smoke?',
+        de: 'Warum raucht meine Heißluftfritteuse?',
+        es: '¿Por qué mi freidora de aire produce humo?',
+        it: 'Perché la mia friggitrice ad aria produce fumo?',
+        nl: 'Waarom produceert mijn airfryer rook?',
+      },
+      answer: {
+        fr: 'La fumée provient généralement de résidus de graisse brûlés sur la résistance ou d\'une huile avec un point de fumée trop bas. Nettoyez l\'appareil après chaque utilisation. Utilisez des huiles résistantes à la chaleur (avocat, pépins de raisin). Ajoutez un peu d\'eau au fond du tiroir pour capter les graisses.',
+        en: 'Smoke usually comes from burnt grease residue on the heating element or from using oil with a low smoke point. Clean the appliance after every use. Use heat-resistant oils like avocado or grapeseed oil. Adding a small amount of water to the bottom of the drawer helps catch dripping grease.',
+        de: 'Rauch entsteht meist durch verbrannte Fettreste am Heizelement oder durch Öl mit niedrigem Rauchpunkt. Reinigen Sie das Gerät nach jedem Gebrauch. Verwenden Sie hitzebeständige Öle wie Avocado- oder Traubenkernöl. Etwas Wasser im Boden der Schublade fängt abtropfendes Fett auf.',
+        es: 'El humo suele provenir de residuos de grasa quemados en la resistencia o de un aceite con punto de humo demasiado bajo. Limpia el aparato después de cada uso. Usa aceites resistentes al calor como aguacate o semilla de uva. Añade un poco de agua al fondo del cajón para captar la grasa.',
+        it: 'Il fumo proviene solitamente da residui di grasso bruciati sulla resistenza o da un olio con punto di fumo troppo basso. Pulisci l\'apparecchio dopo ogni utilizzo. Usa oli resistenti al calore come avocado o vinaccioli. Aggiungi un po\' d\'acqua sul fondo del cassetto per catturare i grassi.',
+        nl: 'Rook komt meestal van verbrande vetresten op het verwarmingselement of van olie met een te laag rookpunt. Maak het apparaat na elk gebruik schoon. Gebruik hittebestendige oliën zoals avocado- of druivenpitolie. Een beetje water op de bodem van de lade helpt druipend vet opvangen.',
+      },
+    },
+  ],
 }

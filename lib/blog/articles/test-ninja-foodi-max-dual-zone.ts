@@ -513,4 +513,96 @@ export const article: BlogArticle = {
 <p>De Ninja Foodi MAX Double Stack XL 9,5L is simpelweg <strong>de beste dual-zone airfryer die we in 2026 hebben getest</strong>. Het gestapelde ladeconcept lost het ruimteprobleem van conventionele dubbele modellen op en levert kookprestaties van topniveau.</p>
 <p>Voor €229,99 is het een redelijke investering voor een gezin van 4-6 personen. Voor meer opties, bekijk onze <a href="/nl/guides/airfryers">complete gids van de beste airfryers 2026</a> of onze <a href="/nl/blog/ninja-vs-philips-quel-choisir">Ninja vs Philips vergelijking</a>.</p>`,
   },
+  faq: [
+    {
+      question: {
+        fr: 'Quelle est la capacité totale du Ninja Foodi MAX Double Stack XL ?',
+        en: 'What is the total capacity of the Ninja Foodi MAX Double Stack XL?',
+        de: 'Wie groß ist das Gesamtfassungsvermögen des Ninja Foodi MAX Double Stack XL?',
+        es: '¿Cuál es la capacidad total del Ninja Foodi MAX Double Stack XL?',
+        it: 'Qual è la capacità totale del Ninja Foodi MAX Double Stack XL?',
+        nl: 'Wat is de totale capaciteit van de Ninja Foodi MAX Double Stack XL?',
+      },
+      answer: {
+        fr: 'Le Ninja Foodi MAX Double Stack XL offre une capacité totale de 9,5 litres, répartie en deux tiroirs empilés de 4,75 litres chacun. Cette capacité convient parfaitement pour préparer des repas pour 4 à 6 personnes. Les deux tiroirs fonctionnent indépendamment avec des températures et durées distinctes.',
+        en: 'The Ninja Foodi MAX Double Stack XL offers a total capacity of 9.5 litres, split across two stacked drawers of 4.75 litres each. This capacity is ideal for preparing meals for 4 to 6 people. Both drawers operate independently with separate temperature and time settings.',
+        de: 'Der Ninja Foodi MAX Double Stack XL bietet eine Gesamtkapazität von 9,5 Litern, aufgeteilt auf zwei gestapelte Schubladen mit je 4,75 Litern. Diese Kapazität eignet sich ideal für 4 bis 6 Personen. Beide Schubladen arbeiten unabhängig mit separaten Temperatur- und Zeiteinstellungen.',
+        es: 'El Ninja Foodi MAX Double Stack XL ofrece una capacidad total de 9,5 litros, repartida en dos cajones apilados de 4,75 litros cada uno. Esta capacidad es ideal para preparar comidas para 4 a 6 personas. Ambos cajones funcionan de forma independiente con temperaturas y tiempos distintos.',
+        it: 'Il Ninja Foodi MAX Double Stack XL offre una capacità totale di 9,5 litri, suddivisa in due cassetti impilati da 4,75 litri ciascuno. Questa capacità è ideale per preparare pasti per 4-6 persone. Entrambi i cassetti funzionano in modo indipendente con temperature e tempi separati.',
+        nl: 'De Ninja Foodi MAX Double Stack XL biedt een totale capaciteit van 9,5 liter, verdeeld over twee gestapelde laden van elk 4,75 liter. Deze capaciteit is ideaal voor maaltijden voor 4 tot 6 personen. Beide laden werken onafhankelijk met aparte temperatuur- en tijdinstellingen.',
+      },
+    },
+    {
+      question: {
+        fr: 'Comment fonctionne la cuisson double zone du Ninja Double Stack ?',
+        en: 'How does dual zone cooking work on the Ninja Double Stack?',
+        de: 'Wie funktioniert das Dual-Zone-Garen beim Ninja Double Stack?',
+        es: '¿Cómo funciona la cocción de doble zona en el Ninja Double Stack?',
+        it: 'Come funziona la cottura a doppia zona del Ninja Double Stack?',
+        nl: 'Hoe werkt het dubbele zone koken op de Ninja Double Stack?',
+      },
+      answer: {
+        fr: 'Chaque tiroir possède ses propres commandes de température et de durée. La fonction Match Cook copie les réglages d\'un tiroir vers l\'autre, tandis que Smart Finish synchronise automatiquement les temps de démarrage pour que les deux tiroirs terminent en même temps, même avec des durées différentes.',
+        en: 'Each drawer has its own temperature and time controls. The Match Cook function copies settings from one drawer to the other, while Smart Finish automatically staggers start times so both drawers finish simultaneously, even with different cooking durations.',
+        de: 'Jede Schublade hat eigene Temperatur- und Zeitregler. Die Match-Cook-Funktion kopiert Einstellungen von einer Schublade zur anderen, während Smart Finish die Startzeiten automatisch versetzt, damit beide Schubladen gleichzeitig fertig werden, auch bei unterschiedlichen Garzeiten.',
+        es: 'Cada cajón tiene sus propios controles de temperatura y tiempo. La función Match Cook copia los ajustes de un cajón al otro, mientras que Smart Finish sincroniza automáticamente los tiempos de inicio para que ambos cajones terminen simultáneamente, incluso con duraciones diferentes.',
+        it: 'Ogni cassetto ha i propri controlli di temperatura e tempo. La funzione Match Cook copia le impostazioni da un cassetto all\'altro, mentre Smart Finish sincronizza automaticamente i tempi di avvio affinché entrambi i cassetti finiscano contemporaneamente, anche con durate diverse.',
+        nl: 'Elke lade heeft eigen temperatuur- en tijdinstellingen. De Match Cook-functie kopieert instellingen van de ene lade naar de andere, terwijl Smart Finish automatisch de starttijden verspreidt zodat beide laden tegelijk klaar zijn, zelfs met verschillende bereidingstijden.',
+      },
+    },
+    {
+      question: {
+        fr: 'Le Ninja Foodi MAX Double Stack est-il bruyant ?',
+        en: 'Is the Ninja Foodi MAX Double Stack noisy?',
+        de: 'Ist der Ninja Foodi MAX Double Stack laut?',
+        es: '¿Es ruidoso el Ninja Foodi MAX Double Stack?',
+        it: 'Il Ninja Foodi MAX Double Stack è rumoroso?',
+        nl: 'Is de Ninja Foodi MAX Double Stack luidruchtig?',
+      },
+      answer: {
+        fr: 'Le Ninja Double Stack produit environ 65 dB en fonctionnement, ce qui est légèrement au-dessus de la moyenne des airfryers testés. Ce niveau sonore est comparable à une conversation normale et reste tout à fait supportable dans une cuisine ouverte. Il ne gêne pas la conversation pendant la cuisson.',
+        en: 'The Ninja Double Stack produces approximately 65 dB during operation, slightly above the average for air fryers we tested. This noise level is comparable to a normal conversation and remains perfectly tolerable in an open kitchen. It does not interfere with conversation while cooking.',
+        de: 'Der Ninja Double Stack erzeugt im Betrieb etwa 65 dB, leicht über dem Durchschnitt der getesteten Heißluftfritteusen. Diese Lautstärke ist vergleichbar mit einem normalen Gespräch und in einer offenen Küche absolut erträglich. Er stört nicht beim Unterhalten während des Garens.',
+        es: 'El Ninja Double Stack produce aproximadamente 65 dB en funcionamiento, ligeramente por encima de la media de las freidoras probadas. Este nivel de ruido es comparable a una conversación normal y es perfectamente tolerable en una cocina abierta. No interfiere con la conversación.',
+        it: 'Il Ninja Double Stack produce circa 65 dB durante il funzionamento, leggermente sopra la media delle friggitrici ad aria testate. Questo livello di rumore è paragonabile a una conversazione normale e resta perfettamente tollerabile in una cucina aperta. Non disturba la conversazione.',
+        nl: 'De Ninja Double Stack produceert ongeveer 65 dB tijdens gebruik, iets boven het gemiddelde van de geteste airfryers. Dit geluidsniveau is vergelijkbaar met een normaal gesprek en blijft perfect draaglijk in een open keuken. Het verstoort het gesprek niet tijdens het koken.',
+      },
+    },
+    {
+      question: {
+        fr: 'Les paniers du Ninja Double Stack passent-ils au lave-vaisselle ?',
+        en: 'Are the Ninja Double Stack baskets dishwasher safe?',
+        de: 'Sind die Körbe des Ninja Double Stack spülmaschinenfest?',
+        es: '¿Las cestas del Ninja Double Stack son aptas para lavavajillas?',
+        it: 'I cestelli del Ninja Double Stack sono lavabili in lavastoviglie?',
+        nl: 'Zijn de manden van de Ninja Double Stack vaatwasmachinebestendig?',
+      },
+      answer: {
+        fr: 'Oui, les deux paniers amovibles du Ninja Double Stack sont compatibles lave-vaisselle. Ils disposent d\'un revêtement antiadhésif céramique qui facilite le nettoyage. Après 6 semaines de tests intensifs, le revêtement ne montrait aucun signe d\'usure. Les tiroirs eux-mêmes se nettoient facilement à l\'éponge.',
+        en: 'Yes, both removable baskets of the Ninja Double Stack are dishwasher safe. They feature a ceramic non-stick coating that makes cleaning easy. After 6 weeks of intensive testing, the coating showed no signs of wear. The drawers themselves wipe clean easily with a sponge.',
+        de: 'Ja, beide herausnehmbaren Körbe des Ninja Double Stack sind spülmaschinenfest. Sie verfügen über eine Keramik-Antihaftbeschichtung, die die Reinigung erleichtert. Nach 6 Wochen intensiver Nutzung zeigte die Beschichtung keinerlei Abnutzungserscheinungen. Die Schubladen lassen sich leicht abwischen.',
+        es: 'Sí, las dos cestas extraíbles del Ninja Double Stack son aptas para lavavajillas. Cuentan con un recubrimiento antiadherente cerámico que facilita la limpieza. Tras 6 semanas de pruebas intensivas, el recubrimiento no mostraba signos de desgaste. Los cajones se limpian fácilmente con una esponja.',
+        it: 'Sì, entrambi i cestelli rimovibili del Ninja Double Stack sono lavabili in lavastoviglie. Dispongono di un rivestimento antiaderente in ceramica che facilita la pulizia. Dopo 6 settimane di test intensivi, il rivestimento non mostrava segni di usura. I cassetti si puliscono facilmente con una spugna.',
+        nl: 'Ja, beide uitneembare manden van de Ninja Double Stack zijn vaatwasmachinebestendig. Ze hebben een keramische antiaanbaklaag die het schoonmaken vergemakkelijkt. Na 6 weken intensief testen vertoonde de coating geen slijtage. De laden zelf zijn makkelijk schoon te vegen met een spons.',
+      },
+    },
+    {
+      question: {
+        fr: 'Le Ninja Foodi MAX Double Stack est-il couvert par une garantie ?',
+        en: 'Does the Ninja Foodi MAX Double Stack come with a warranty?',
+        de: 'Hat der Ninja Foodi MAX Double Stack eine Garantie?',
+        es: '¿El Ninja Foodi MAX Double Stack tiene garantía?',
+        it: 'Il Ninja Foodi MAX Double Stack ha una garanzia?',
+        nl: 'Heeft de Ninja Foodi MAX Double Stack garantie?',
+      },
+      answer: {
+        fr: 'Oui, le Ninja Foodi MAX Double Stack bénéficie de la garantie légale de 2 ans en Europe. Ninja propose également un service après-vente réactif avec des pièces de rechange disponibles. L\'appareil est vendu à 229,99 euros, ce qui représente un excellent rapport qualité-prix dans le segment premium double zone.',
+        en: 'Yes, the Ninja Foodi MAX Double Stack comes with the standard 2-year legal warranty in Europe. Ninja also offers responsive after-sales service with spare parts available. The appliance is priced at 229.99 euros, representing excellent value in the premium dual-zone air fryer segment.',
+        de: 'Ja, der Ninja Foodi MAX Double Stack hat die gesetzliche 2-Jahres-Garantie in Europa. Ninja bietet zudem einen reaktionsschnellen Kundendienst mit verfügbaren Ersatzteilen. Das Gerät kostet 229,99 Euro und bietet ein ausgezeichnetes Preis-Leistungs-Verhältnis im Premium-Dual-Zone-Segment.',
+        es: 'Sí, el Ninja Foodi MAX Double Stack cuenta con la garantía legal de 2 años en Europa. Ninja también ofrece un servicio posventa eficiente con piezas de repuesto disponibles. El aparato cuesta 229,99 euros, una excelente relación calidad-precio en el segmento premium de doble zona.',
+        it: 'Sì, il Ninja Foodi MAX Double Stack ha la garanzia legale di 2 anni in Europa. Ninja offre anche un servizio post-vendita reattivo con ricambi disponibili. L\'apparecchio costa 229,99 euro, un eccellente rapporto qualità-prezzo nel segmento premium dual-zone.',
+        nl: 'Ja, de Ninja Foodi MAX Double Stack heeft de wettelijke garantie van 2 jaar in Europa. Ninja biedt ook een responsieve klantenservice met beschikbare reserveonderdelen. Het apparaat kost 229,99 euro, een uitstekende prijs-kwaliteitverhouding in het premium dual-zone segment.',
+      },
+    },
+  ],
 }
