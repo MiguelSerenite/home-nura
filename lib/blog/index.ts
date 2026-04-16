@@ -58,6 +58,20 @@ import { article as balanceCuisineConnectee } from './articles/balance-cuisine-c
 import { article as cookeoVsThermomixVsAirfryer } from './articles/cookeo-vs-thermomix-vs-airfryer'
 import { article as maisonConnecteeMatterThread } from './articles/maison-connectee-matter-thread-2026'
 import { article as tendancesMaisonConnectee } from './articles/tendances-maison-connectee-2026'
+import { article as cameraInterieureSansAbo } from './articles/camera-interieure-sans-abonnement'
+import { article as detecteurFumeeConnecte } from './articles/detecteur-fumee-connecte-comparatif'
+import { article as interphoneVideoConnecte } from './articles/interphone-video-connecte'
+import { article as aspirateurSansFil } from './articles/aspirateur-sans-fil-comparatif-2026'
+import { article as nettoyeurVapeurConnecte } from './articles/nettoyeur-vapeur-connecte'
+import { article as capteurSolHumidite } from './articles/capteur-sol-humidite-jardin'
+import { article as piscineConnectee } from './articles/piscine-connectee-guide'
+import { article as voletsRoulants } from './articles/volets-roulants-connectes-guide'
+import { article as radiateurElectrique } from './articles/radiateur-electrique-connecte-guide'
+import { article as detectionFuiteEau } from './articles/detection-fuite-eau-connectee'
+import { article as ventilateurConnecte } from './articles/ventilateur-connecte-comparatif'
+import { article as qualiteAirInterieur } from './articles/qualite-air-interieur-capteurs'
+import { article as robotCuiseurConnecte } from './articles/robot-cuiseur-connecte-comparatif'
+import { article as caveVinConnectee } from './articles/cave-vin-connectee-guide'
 
 const ALL_ARTICLES: BlogArticle[] = [
   testNinjaFoodiMax,
@@ -117,6 +131,20 @@ const ALL_ARTICLES: BlogArticle[] = [
   cookeoVsThermomixVsAirfryer,
   maisonConnecteeMatterThread,
   tendancesMaisonConnectee,
+  cameraInterieureSansAbo,
+  detecteurFumeeConnecte,
+  interphoneVideoConnecte,
+  aspirateurSansFil,
+  nettoyeurVapeurConnecte,
+  capteurSolHumidite,
+  piscineConnectee,
+  voletsRoulants,
+  radiateurElectrique,
+  detectionFuiteEau,
+  ventilateurConnecte,
+  qualiteAirInterieur,
+  robotCuiseurConnecte,
+  caveVinConnectee,
 ]
 
 export function getAllArticles(): BlogArticle[] {
