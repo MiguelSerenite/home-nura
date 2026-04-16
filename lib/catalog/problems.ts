@@ -29,7 +29,10 @@
  * maison and outdoor-connecte move from 3→5 problems per category,
  * matching the cuisine-connectee flagship density from Phase KK.
  * 2 × 8 categories × 2 new problems = 32 new entries, +192 URLs.
- * Final running total: 203 problems × 6 locales = 1218 pages.
+ *
+ * Phase HHH (Period 19) densifies the two mid-weight silos: energie-
+ * domotique (11 cats × 2 = 22 new) and securite-maison (10 × 2 = 20
+ * new). +42 problems, +252 URLs. Running total: 245 × 6 = 1470 pages.
  *
  * Severity drives the call-to-action:
  *   - minor     → inline quick fix + "still not working?" fallback
@@ -2854,6 +2857,602 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi alarma exterior se dispara en falsa alerta cada vez que sopla fuerte el viento',
       it: 'Il mio allarme esterno scatta in falso allarme ogni volta che tira forte vento',
       nl: 'Mijn buitenalarm gaat af als vals alarm zodra het hard waait',
+    },
+  },
+
+  // ===================================================================
+  // Phase HHH — energie-domotique densification (11 cats × 2 = 22 new)
+  // ===================================================================
+
+  // ------- thermostats (4th & 5th) -------
+  {
+    slug: 'thermostat-ecran-fige',
+    categorySlug: 'thermostats',
+    severity: 'moderate',
+    query: {
+      fr: 'L\'écran de mon thermostat connecté est figé et ne réagit plus au toucher',
+      en: 'The screen on my smart thermostat is frozen and no longer responds to touch',
+      de: 'Das Display meines smarten Thermostats ist eingefroren und reagiert nicht mehr auf Berührung',
+      es: 'La pantalla de mi termostato conectado se ha quedado congelada y no responde al tacto',
+      it: 'Lo schermo del mio termostato smart è bloccato e non risponde più al tocco',
+      nl: 'Het scherm van mijn slimme thermostaat is bevroren en reageert niet meer op aanraking',
+    },
+  },
+  {
+    slug: 'thermostat-chauffage-coupe-nuit',
+    categorySlug: 'thermostats',
+    severity: 'minor',
+    query: {
+      fr: 'Mon thermostat connecté coupe le chauffage la nuit malgré le programme nocturne',
+      en: 'My smart thermostat cuts heating at night despite the night schedule',
+      de: 'Mein smartes Thermostat schaltet nachts die Heizung ab trotz Nachtprogramm',
+      es: 'Mi termostato conectado corta la calefacción por la noche pese al programa nocturno',
+      it: 'Il mio termostato smart spegne il riscaldamento di notte nonostante il programma notturno',
+      nl: 'Mijn slimme thermostaat schakelt \'s nachts de verwarming uit ondanks het nachtprogramma',
+    },
+  },
+
+  // ------- compteurs-energie (4th & 5th) -------
+  {
+    slug: 'compteur-pics-consommation-fantome',
+    categorySlug: 'compteurs-energie',
+    severity: 'minor',
+    query: {
+      fr: 'Mon compteur d\'énergie connecté affiche des pics de consommation fantômes la nuit',
+      en: 'My smart energy monitor shows phantom consumption spikes at night',
+      de: 'Mein smarter Energiezähler zeigt nachts Phantomverbrauchsspitzen an',
+      es: 'Mi contador de energía conectado muestra picos fantasma de consumo por la noche',
+      it: 'Il mio contatore smart mostra picchi fantasma di consumo durante la notte',
+      nl: 'Mijn slimme energiemeter toont \'s nachts fantoompieken in het verbruik',
+    },
+  },
+  {
+    slug: 'compteur-historique-efface',
+    categorySlug: 'compteurs-energie',
+    severity: 'moderate',
+    query: {
+      fr: 'L\'historique de consommation de mon compteur connecté s\'efface après chaque mise à jour',
+      en: 'The consumption history on my smart meter erases after every firmware update',
+      de: 'Der Verbrauchsverlauf meines smarten Zählers wird nach jedem Update gelöscht',
+      es: 'El historial de consumo de mi contador conectado se borra tras cada actualización',
+      it: 'Lo storico dei consumi del mio contatore smart si cancella dopo ogni aggiornamento',
+      nl: 'De verbruikshistorie van mijn slimme meter wist zich na elke firmware-update',
+    },
+  },
+
+  // ------- solaire-balcon (4th & 5th) -------
+  {
+    slug: 'solaire-balcon-micro-onduleur-bip',
+    categorySlug: 'solaire-balcon',
+    severity: 'minor',
+    query: {
+      fr: 'Le micro-onduleur de mon kit solaire de balcon émet un bip continu',
+      en: 'The micro-inverter on my balcony solar kit emits a continuous beep',
+      de: 'Der Mikrowechselrichter meines Balkonkraftwerks piept ununterbrochen',
+      es: 'El micro-inversor de mi kit solar de balcón emite un pitido continuo',
+      it: 'Il micro-inverter del mio kit solare da balcone emette un bip continuo',
+      nl: 'De micro-omvormer van mijn balkonzonnepaneel piept continu',
+    },
+  },
+  {
+    slug: 'solaire-balcon-app-zero-watt',
+    categorySlug: 'solaire-balcon',
+    severity: 'moderate',
+    query: {
+      fr: 'L\'application de mon kit solaire de balcon affiche 0 W malgré le plein soleil',
+      en: 'The app for my balcony solar kit reads 0 W despite full sunshine',
+      de: 'Die App meines Balkonkraftwerks zeigt trotz vollem Sonnenschein 0 W an',
+      es: 'La app de mi kit solar de balcón muestra 0 W pese al pleno sol',
+      it: 'L\'app del mio kit solare da balcone segna 0 W nonostante il pieno sole',
+      nl: 'De app van mijn balkonzonnepaneel toont 0 W ondanks volle zon',
+    },
+  },
+
+  // ------- batteries-domestiques (4th & 5th) -------
+  {
+    slug: 'batterie-domestique-ventilateur-bruyant',
+    categorySlug: 'batteries-domestiques',
+    severity: 'minor',
+    query: {
+      fr: 'Le ventilateur de ma batterie domestique tourne bruyamment même à charge faible',
+      en: 'The fan on my home battery runs noisily even at low charge',
+      de: 'Der Lüfter meines Heimspeichers läuft auch bei niedriger Ladung laut',
+      es: 'El ventilador de mi batería doméstica funciona ruidosamente incluso a baja carga',
+      it: 'La ventola della mia batteria domestica funziona rumorosamente anche a bassa carica',
+      nl: 'De ventilator van mijn thuisbatterij draait luidruchtig zelfs bij lage lading',
+    },
+  },
+  {
+    slug: 'batterie-domestique-pas-injection',
+    categorySlug: 'batteries-domestiques',
+    severity: 'moderate',
+    query: {
+      fr: 'Ma batterie domestique ne réinjecte pas l\'énergie stockée dans le réseau de la maison',
+      en: 'My home battery does not feed stored energy back into the house grid',
+      de: 'Mein Heimspeicher speist die gespeicherte Energie nicht ins Hausnetz zurück',
+      es: 'Mi batería doméstica no reinyecta la energía almacenada en la red de la casa',
+      it: 'La mia batteria domestica non reimmette l\'energia immagazzinata nella rete di casa',
+      nl: 'Mijn thuisbatterij voert de opgeslagen energie niet terug naar het huisnet',
+    },
+  },
+
+  // ------- eclairage-connecte (4th & 5th) -------
+  {
+    slug: 'eclairage-retard-allumage',
+    categorySlug: 'eclairage-connecte',
+    severity: 'minor',
+    query: {
+      fr: 'Mes ampoules connectées mettent plusieurs secondes à s\'allumer après la commande',
+      en: 'My smart bulbs take several seconds to turn on after the command',
+      de: 'Meine smarten Glühbirnen brauchen nach dem Befehl mehrere Sekunden zum Einschalten',
+      es: 'Mis bombillas conectadas tardan varios segundos en encenderse tras la orden',
+      it: 'Le mie lampadine smart impiegano diversi secondi ad accendersi dopo il comando',
+      nl: 'Mijn slimme lampen doen er seconden over om aan te gaan na het commando',
+    },
+  },
+  {
+    slug: 'eclairage-scene-ne-fonctionne-plus',
+    categorySlug: 'eclairage-connecte',
+    severity: 'moderate',
+    query: {
+      fr: 'Les scènes d\'éclairage enregistrées sur mon app ne se déclenchent plus',
+      en: 'The lighting scenes saved in my app no longer trigger',
+      de: 'Die in meiner App gespeicherten Lichtszenen lösen nicht mehr aus',
+      es: 'Las escenas de iluminación guardadas en mi app ya no se activan',
+      it: 'Le scene di illuminazione salvate nella mia app non si attivano più',
+      nl: 'De verlichtingsscènes opgeslagen in mijn app worden niet meer geactiveerd',
+    },
+  },
+
+  // ------- interrupteurs (4th & 5th) -------
+  {
+    slug: 'interrupteur-delai-reponse',
+    categorySlug: 'interrupteurs',
+    severity: 'minor',
+    query: {
+      fr: 'Mon interrupteur connecté a un délai de réponse de deux à trois secondes',
+      en: 'My smart switch has a two-to-three-second response delay',
+      de: 'Mein smarter Schalter hat eine Reaktionsverzögerung von zwei bis drei Sekunden',
+      es: 'Mi interruptor conectado tiene un retraso de respuesta de dos a tres segundos',
+      it: 'Il mio interruttore smart ha un ritardo di risposta di due-tre secondi',
+      nl: 'Mijn slimme schakelaar heeft een reactievertraging van twee tot drie seconden',
+    },
+  },
+  {
+    slug: 'interrupteur-reset-coupure-courant',
+    categorySlug: 'interrupteurs',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon interrupteur connecté se réinitialise à chaque coupure de courant',
+      en: 'My smart switch resets to factory defaults after every power cut',
+      de: 'Mein smarter Schalter setzt sich bei jedem Stromausfall auf Werkseinstellungen zurück',
+      es: 'Mi interruptor conectado se restablece de fábrica tras cada corte de luz',
+      it: 'Il mio interruttore smart si resetta alle impostazioni di fabbrica a ogni blackout',
+      nl: 'Mijn slimme schakelaar reset naar fabrieksinstellingen bij elke stroomonderbreking',
+    },
+  },
+
+  // ------- volets-stores (4th & 5th) -------
+  {
+    slug: 'volet-course-change-seul',
+    categorySlug: 'volets-stores',
+    severity: 'minor',
+    query: {
+      fr: 'Mon volet connecté modifie ses fins de course tout seul après quelques semaines',
+      en: 'My smart shutter changes its travel limits on its own after a few weeks',
+      de: 'Mein smarter Rollladen ändert nach ein paar Wochen seine Endpunkte von allein',
+      es: 'Mi persiana conectada cambia los topes de recorrido por sí sola tras unas semanas',
+      it: 'La mia tapparella smart modifica i finecorsa da sola dopo qualche settimana',
+      nl: 'Mijn slim rolluik wijzigt na een paar weken zelf de eindposities',
+    },
+  },
+  {
+    slug: 'volet-bruit-vibration-fermeture',
+    categorySlug: 'volets-stores',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon volet connecté vibre et fait un bruit anormal lors de la fermeture',
+      en: 'My smart shutter vibrates and makes an abnormal noise when closing',
+      de: 'Mein smarter Rollladen vibriert und macht beim Schließen ein ungewöhnliches Geräusch',
+      es: 'Mi persiana conectada vibra y hace un ruido anormal al cerrarse',
+      it: 'La mia tapparella smart vibra e fa un rumore anomalo alla chiusura',
+      nl: 'Mijn slim rolluik trilt en maakt een abnormaal geluid bij het sluiten',
+    },
+  },
+
+  // ------- capteurs-qualite-air (4th & 5th) -------
+  {
+    slug: 'capteur-air-co2-toujours-eleve',
+    categorySlug: 'capteurs-qualite-air',
+    severity: 'minor',
+    query: {
+      fr: 'Mon capteur de qualité d\'air affiche un taux de CO2 toujours élevé même fenêtres ouvertes',
+      en: 'My air quality sensor shows constantly high CO2 levels even with windows open',
+      de: 'Mein Luftqualitätssensor zeigt selbst bei offenen Fenstern dauerhaft hohe CO2-Werte',
+      es: 'Mi sensor de calidad del aire muestra un CO2 siempre alto incluso con ventanas abiertas',
+      it: 'Il mio sensore di qualità dell\'aria mostra CO2 sempre alto anche a finestre aperte',
+      nl: 'Mijn luchtkwaliteitssensor toont constant hoog CO2 zelfs met open ramen',
+    },
+  },
+  {
+    slug: 'capteur-air-historique-incomplet',
+    categorySlug: 'capteurs-qualite-air',
+    severity: 'moderate',
+    query: {
+      fr: 'L\'historique de mesures de mon capteur d\'air connecté présente des trous de données',
+      en: 'The measurement history on my smart air sensor has data gaps',
+      de: 'Der Messverlauf meines smarten Luftsensors weist Datenlücken auf',
+      es: 'El historial de mediciones de mi sensor de aire conectado tiene huecos de datos',
+      it: 'Lo storico delle misurazioni del mio sensore d\'aria smart presenta lacune nei dati',
+      nl: 'De meetgeschiedenis van mijn slimme luchtsensor vertoont datagaten',
+    },
+  },
+
+  // ------- detecteurs-fuite-eau (4th & 5th) -------
+  {
+    slug: 'detecteur-fuite-sirene-muette',
+    categorySlug: 'detecteurs-fuite-eau',
+    severity: 'critical',
+    query: {
+      fr: 'Mon détecteur de fuite d\'eau ne déclenche plus l\'alerte sonore malgré la présence d\'eau',
+      en: 'My water leak detector no longer triggers the audible alarm despite water being present',
+      de: 'Mein Wasserlecksensor löst trotz Wasser keinen akustischen Alarm mehr aus',
+      es: 'Mi detector de fugas de agua ya no activa la alerta sonora pese a la presencia de agua',
+      it: 'Il mio rilevatore di perdite d\'acqua non attiva più l\'allarme acustico nonostante l\'acqua',
+      nl: 'Mijn waterlekkagesensor activeert het geluidssignaal niet meer ondanks de aanwezigheid van water',
+    },
+  },
+  {
+    slug: 'detecteur-fuite-notification-retard',
+    categorySlug: 'detecteurs-fuite-eau',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon détecteur de fuite d\'eau envoie la notification avec plusieurs minutes de retard',
+      en: 'My water leak detector sends the notification with a delay of several minutes',
+      de: 'Mein Wasserlecksensor sendet die Benachrichtigung mit mehreren Minuten Verzögerung',
+      es: 'Mi detector de fugas de agua envía la notificación con varios minutos de retraso',
+      it: 'Il mio rilevatore di perdite d\'acqua invia la notifica con diversi minuti di ritardo',
+      nl: 'Mijn waterlekkagesensor stuurt de melding pas na meerdere minuten vertraging',
+    },
+  },
+
+  // ------- hubs-domotique (4th & 5th) -------
+  {
+    slug: 'hub-zigbee-portee-faible',
+    categorySlug: 'hubs-domotique',
+    severity: 'minor',
+    query: {
+      fr: 'Mon hub domotique ne voit pas les appareils Zigbee au-delà de cinq mètres',
+      en: 'My smart home hub cannot see Zigbee devices beyond five metres',
+      de: 'Mein Smart-Home-Hub sieht Zigbee-Geräte nicht weiter als fünf Meter',
+      es: 'Mi hub domótico no detecta los dispositivos Zigbee a más de cinco metros',
+      it: 'Il mio hub domotico non rileva i dispositivi Zigbee oltre cinque metri',
+      nl: 'Mijn domotica-hub ziet Zigbee-apparaten niet verder dan vijf meter',
+    },
+  },
+  {
+    slug: 'hub-automatisation-ne-se-lance-pas',
+    categorySlug: 'hubs-domotique',
+    severity: 'moderate',
+    query: {
+      fr: 'Les automatisations programmées sur mon hub domotique ne se déclenchent plus',
+      en: 'The automations scheduled on my smart home hub no longer trigger',
+      de: 'Die auf meinem Smart-Home-Hub geplanten Automatisierungen lösen nicht mehr aus',
+      es: 'Las automatizaciones programadas en mi hub domótico ya no se ejecutan',
+      it: 'Le automazioni programmate sul mio hub domotico non si attivano più',
+      nl: 'De geprogrammeerde automatiseringen op mijn domotica-hub worden niet meer geactiveerd',
+    },
+  },
+
+  // ------- bornes-recharge-ve (4th & 5th) -------
+  {
+    slug: 'borne-ve-disjoncteur-saute',
+    categorySlug: 'bornes-recharge-ve',
+    severity: 'critical',
+    query: {
+      fr: 'Ma borne de recharge fait disjoncter le tableau électrique dès le branchement',
+      en: 'My EV charging station trips the circuit breaker as soon as it is plugged in',
+      de: 'Meine Ladestation löst sofort den Sicherungskasten aus wenn sie angeschlossen wird',
+      es: 'Mi punto de carga hace saltar el diferencial en cuanto se conecta',
+      it: 'La mia wallbox fa scattare il quadro elettrico appena viene collegata',
+      nl: 'Mijn laadpaal laat de zekeringkast springen zodra hij wordt aangesloten',
+    },
+  },
+  {
+    slug: 'borne-ve-app-session-fantome',
+    categorySlug: 'bornes-recharge-ve',
+    severity: 'minor',
+    query: {
+      fr: 'L\'application de ma borne de recharge affiche des sessions de charge fantômes',
+      en: 'The app for my EV charging station shows phantom charging sessions',
+      de: 'Die App meiner Ladestation zeigt Phantomladevorgänge an',
+      es: 'La app de mi punto de carga muestra sesiones de carga fantasma',
+      it: 'L\'app della mia wallbox mostra sessioni di ricarica fantasma',
+      nl: 'De app van mijn laadpaal toont fantoomlaadbeurten',
+    },
+  },
+
+  // ===================================================================
+  // Phase HHH — securite-maison densification (10 cats × 2 = 20 new)
+  // ===================================================================
+
+  // ------- sonnettes-video (4th & 5th) -------
+  {
+    slug: 'sonnette-micro-gresille',
+    categorySlug: 'sonnettes-video',
+    severity: 'minor',
+    query: {
+      fr: 'Le micro de ma sonnette vidéo grésille et rend la conversation inaudible',
+      en: 'The microphone on my video doorbell crackles making conversation inaudible',
+      de: 'Das Mikrofon meiner Video-Türklingel knistert und macht Gespräche unhörbar',
+      es: 'El micrófono de mi videoportero crepita y la conversación es inaudible',
+      it: 'Il microfono del mio videocitofono gracchia e rende la conversazione inudibile',
+      nl: 'De microfoon van mijn videodeurbel kraakt waardoor het gesprek onhoorbaar is',
+    },
+  },
+  {
+    slug: 'sonnette-champ-vision-reduit',
+    categorySlug: 'sonnettes-video',
+    severity: 'moderate',
+    query: {
+      fr: 'Le champ de vision de ma sonnette vidéo ne couvre pas l\'intégralité du palier',
+      en: 'The field of view on my video doorbell does not cover the entire landing',
+      de: 'Das Sichtfeld meiner Video-Türklingel erfasst nicht den gesamten Flur',
+      es: 'El campo de visión de mi videoportero no cubre todo el rellano',
+      it: 'Il campo visivo del mio videocitofono non copre tutto il pianerottolo',
+      nl: 'Het gezichtsveld van mijn videodeurbel dekt niet de hele overloop',
+    },
+  },
+
+  // ------- cameras-interieur (4th & 5th) -------
+  {
+    slug: 'camera-int-led-infrarouge-reflet',
+    categorySlug: 'cameras-interieur',
+    severity: 'minor',
+    query: {
+      fr: 'Les LED infrarouges de ma caméra intérieure provoquent un reflet blanc sur la vitre',
+      en: 'The infrared LEDs on my indoor camera cause a white reflection on the window',
+      de: 'Die Infrarot-LEDs meiner Innenkamera erzeugen einen weißen Reflex auf der Scheibe',
+      es: 'Los LED infrarrojos de mi cámara interior provocan un reflejo blanco en el cristal',
+      it: 'I LED infrarossi della mia telecamera interna causano un riflesso bianco sul vetro',
+      nl: 'De infrarood-LED\'s van mijn binnencamera veroorzaken een witte reflectie op het raam',
+    },
+  },
+  {
+    slug: 'camera-int-enregistrement-boucle-courte',
+    categorySlug: 'cameras-interieur',
+    severity: 'moderate',
+    query: {
+      fr: 'Ma caméra intérieure n\'enregistre que les dix dernières minutes en boucle',
+      en: 'My indoor camera only records the last ten minutes on a rolling loop',
+      de: 'Meine Innenkamera zeichnet nur die letzten zehn Minuten in Dauerschleife auf',
+      es: 'Mi cámara interior solo graba los últimos diez minutos en bucle',
+      it: 'La mia telecamera interna registra solo gli ultimi dieci minuti in loop',
+      nl: 'Mijn binnencamera neemt slechts de laatste tien minuten op in een lus',
+    },
+  },
+
+  // ------- cameras-exterieur (4th & 5th) -------
+  {
+    slug: 'camera-ext-buee-objectif',
+    categorySlug: 'cameras-exterieur',
+    severity: 'minor',
+    query: {
+      fr: 'L\'objectif de ma caméra extérieure est embué le matin et l\'image est floue',
+      en: 'The lens on my outdoor camera fogs up in the morning leaving a blurry image',
+      de: 'Das Objektiv meiner Außenkamera beschlägt morgens und das Bild ist unscharf',
+      es: 'El objetivo de mi cámara exterior se empaña por la mañana y la imagen es borrosa',
+      it: 'L\'obiettivo della mia telecamera esterna si appanna al mattino e l\'immagine è sfocata',
+      nl: 'De lens van mijn buitencamera beslaat \'s ochtends en het beeld is wazig',
+    },
+  },
+  {
+    slug: 'camera-ext-alerte-retardee',
+    categorySlug: 'cameras-exterieur',
+    severity: 'moderate',
+    query: {
+      fr: 'Ma caméra extérieure envoie l\'alerte de mouvement avec trente secondes de retard',
+      en: 'My outdoor camera sends the motion alert thirty seconds late',
+      de: 'Meine Außenkamera sendet die Bewegungswarnung mit dreißig Sekunden Verzögerung',
+      es: 'Mi cámara exterior envía la alerta de movimiento con treinta segundos de retraso',
+      it: 'La mia telecamera esterna invia l\'avviso di movimento con trenta secondi di ritardo',
+      nl: 'Mijn buitencamera stuurt de bewegingsmelding dertig seconden te laat',
+    },
+  },
+
+  // ------- serrures-connectees (4th & 5th) -------
+  {
+    slug: 'serrure-bruit-moteur-anormal',
+    categorySlug: 'serrures-connectees',
+    severity: 'moderate',
+    query: {
+      fr: 'Ma serrure connectée émet un bruit de moteur anormal à chaque ouverture',
+      en: 'My smart lock makes an abnormal motor noise every time it opens',
+      de: 'Mein smartes Schloss macht bei jeder Öffnung ein ungewöhnliches Motorgeräusch',
+      es: 'Mi cerradura inteligente emite un ruido anormal de motor en cada apertura',
+      it: 'La mia serratura smart emette un rumore anomalo del motore a ogni apertura',
+      nl: 'Mijn slim slot maakt bij elke opening een abnormaal motorgeluid',
+    },
+  },
+  {
+    slug: 'serrure-auto-lock-ne-verrouille-pas',
+    categorySlug: 'serrures-connectees',
+    severity: 'critical',
+    query: {
+      fr: 'La fonction de verrouillage automatique de ma serrure connectée ne se déclenche plus',
+      en: 'The auto-lock feature on my smart lock no longer engages',
+      de: 'Die automatische Verriegelungsfunktion meines smarten Schlosses greift nicht mehr',
+      es: 'La función de cierre automático de mi cerradura inteligente ya no se activa',
+      it: 'La funzione di blocco automatico della mia serratura smart non si attiva più',
+      nl: 'De automatische vergrendelingsfunctie van mijn slim slot werkt niet meer',
+    },
+  },
+
+  // ------- alarmes (4th & 5th) -------
+  {
+    slug: 'alarme-delai-armement-trop-court',
+    categorySlug: 'alarmes',
+    severity: 'minor',
+    query: {
+      fr: 'Le délai d\'armement de mon alarme connectée est trop court et se déclenche en sortant',
+      en: 'The arming delay on my smart alarm is too short and it triggers while I leave',
+      de: 'Die Aktivierungsverzögerung meiner smarten Alarmanlage ist zu kurz und löst beim Verlassen aus',
+      es: 'El retardo de armado de mi alarma conectada es demasiado corto y salta al salir',
+      it: 'Il ritardo di attivazione del mio allarme smart è troppo breve e scatta mentre esco',
+      nl: 'De inschakelvertraging van mijn slim alarm is te kort en het gaat af terwijl ik vertrek',
+    },
+  },
+  {
+    slug: 'alarme-historique-evenements-vide',
+    categorySlug: 'alarmes',
+    severity: 'moderate',
+    query: {
+      fr: 'L\'historique des événements de mon alarme connectée s\'affiche vide depuis la dernière mise à jour',
+      en: 'The event history on my smart alarm shows empty since the last update',
+      de: 'Der Ereignisverlauf meiner smarten Alarmanlage ist seit dem letzten Update leer',
+      es: 'El historial de eventos de mi alarma conectada aparece vacío desde la última actualización',
+      it: 'Lo storico degli eventi del mio allarme smart risulta vuoto dall\'ultimo aggiornamento',
+      nl: 'De gebeurtenisgeschiedenis van mijn slim alarm is leeg sinds de laatste update',
+    },
+  },
+
+  // ------- detecteurs-fumee-co (4th & 5th) -------
+  {
+    slug: 'detecteur-fumee-test-echoue',
+    categorySlug: 'detecteurs-fumee-co',
+    severity: 'critical',
+    query: {
+      fr: 'Le test mensuel de mon détecteur de fumée connecté échoue sans message d\'erreur',
+      en: 'The monthly test on my smart smoke detector fails without an error message',
+      de: 'Der Monatstest meines smarten Rauchmelders schlägt ohne Fehlermeldung fehl',
+      es: 'La prueba mensual de mi detector de humo conectado falla sin mensaje de error',
+      it: 'Il test mensile del mio rilevatore di fumo smart fallisce senza messaggio di errore',
+      nl: 'De maandelijkse test van mijn slimme rookmelder mislukt zonder foutmelding',
+    },
+  },
+  {
+    slug: 'detecteur-co-affichage-ppm-eleve',
+    categorySlug: 'detecteurs-fumee-co',
+    severity: 'moderate',
+    query: {
+      fr: 'Mon détecteur de CO connecté affiche un taux de ppm élevé alors que la chaudière est éteinte',
+      en: 'My smart CO detector shows high ppm readings even though the boiler is off',
+      de: 'Mein smarter CO-Melder zeigt hohe ppm-Werte an obwohl die Heizung aus ist',
+      es: 'Mi detector de CO conectado muestra ppm altos aunque la caldera está apagada',
+      it: 'Il mio rilevatore di CO smart mostra ppm alti anche se la caldaia è spenta',
+      nl: 'Mijn slimme CO-melder toont hoge ppm-waarden terwijl de ketel uit staat',
+    },
+  },
+
+  // ------- detecteurs-mouvement (4th & 5th) -------
+  {
+    slug: 'mouvement-detecte-zone-morte',
+    categorySlug: 'detecteurs-mouvement',
+    severity: 'minor',
+    query: {
+      fr: 'Mon détecteur de mouvement connecté a une zone morte juste en dessous de lui',
+      en: 'My smart motion sensor has a dead zone directly below it',
+      de: 'Mein smarter Bewegungsmelder hat eine tote Zone direkt unter sich',
+      es: 'Mi detector de movimiento conectado tiene una zona muerta justo debajo',
+      it: 'Il mio sensore di movimento smart ha una zona morta proprio sotto di sé',
+      nl: 'Mijn slimme bewegingssensor heeft een dode zone direct eronder',
+    },
+  },
+  {
+    slug: 'mouvement-notification-doublon',
+    categorySlug: 'detecteurs-mouvement',
+    severity: 'minor',
+    query: {
+      fr: 'Mon détecteur de mouvement m\'envoie deux notifications pour chaque déclenchement',
+      en: 'My motion sensor sends two notifications for every single trigger',
+      de: 'Mein Bewegungsmelder sendet für jede Auslösung zwei Benachrichtigungen',
+      es: 'Mi detector de movimiento me envía dos notificaciones por cada activación',
+      it: 'Il mio sensore di movimento invia due notifiche per ogni singola attivazione',
+      nl: 'Mijn bewegingssensor stuurt twee meldingen voor elke activering',
+    },
+  },
+
+  // ------- trackers-objets (4th & 5th) -------
+  {
+    slug: 'tracker-localisation-imprecise',
+    categorySlug: 'trackers-objets',
+    severity: 'minor',
+    query: {
+      fr: 'Mon tracker d\'objets indique un emplacement à plusieurs centaines de mètres de la réalité',
+      en: 'My object tracker shows a location hundreds of metres from the actual position',
+      de: 'Mein Objekt-Tracker zeigt einen Standort mehrere hundert Meter vom tatsächlichen Ort entfernt',
+      es: 'Mi rastreador de objetos indica una ubicación a cientos de metros de la realidad',
+      it: 'Il mio tracker oggetti indica una posizione a centinaia di metri da quella reale',
+      nl: 'Mijn objecttracker toont een locatie honderden meters van de werkelijke positie',
+    },
+  },
+  {
+    slug: 'tracker-sonnerie-trop-faible',
+    categorySlug: 'trackers-objets',
+    severity: 'minor',
+    query: {
+      fr: 'La sonnerie de localisation de mon tracker est trop faible pour l\'entendre dans une autre pièce',
+      en: 'The locator ring on my tracker is too quiet to hear from another room',
+      de: 'Der Ortungston meines Trackers ist zu leise um ihn in einem anderen Raum zu hören',
+      es: 'El tono de localización de mi rastreador es demasiado débil para oírlo desde otra habitación',
+      it: 'La suoneria di localizzazione del mio tracker è troppo debole per sentirla da un\'altra stanza',
+      nl: 'De lokalisatietoon van mijn tracker is te zwak om in een andere kamer te horen',
+    },
+  },
+
+  // ------- interphones (4th & 5th) -------
+  {
+    slug: 'interphone-video-pixelise',
+    categorySlug: 'interphones',
+    severity: 'minor',
+    query: {
+      fr: 'L\'image vidéo de mon interphone connecté est pixelisée et saccadée',
+      en: 'The video feed on my smart intercom is pixelated and choppy',
+      de: 'Das Videobild meiner smarten Gegensprechanlage ist verpixelt und ruckelt',
+      es: 'La imagen de vídeo de mi interfono conectado está pixelada y entrecortada',
+      it: 'L\'immagine video del mio citofono smart è pixelata e a scatti',
+      nl: 'Het videobeeld van mijn slimme intercom is gepixeld en schokkerig',
+    },
+  },
+  {
+    slug: 'interphone-gache-ne-declenche-pas',
+    categorySlug: 'interphones',
+    severity: 'critical',
+    query: {
+      fr: 'La gâche électrique commandée par mon interphone connecté ne s\'ouvre plus à distance',
+      en: 'The electric strike controlled by my smart intercom no longer opens remotely',
+      de: 'Der von meiner smarten Gegensprechanlage gesteuerte Türöffner öffnet nicht mehr aus der Ferne',
+      es: 'La cerradura eléctrica controlada por mi interfono conectado ya no abre a distancia',
+      it: 'L\'apriporta elettrico comandato dal mio citofono smart non si apre più a distanza',
+      nl: 'De elektrische deuropener bestuurd door mijn slimme intercom opent niet meer op afstand',
+    },
+  },
+
+  // ------- coffres-forts-connectes (4th & 5th) -------
+  {
+    slug: 'coffre-fort-empreinte-non-reconnue',
+    categorySlug: 'coffres-forts-connectes',
+    severity: 'moderate',
+    query: {
+      fr: 'Le lecteur d\'empreintes de mon coffre-fort connecté ne reconnaît plus mon doigt',
+      en: 'The fingerprint reader on my smart safe no longer recognises my finger',
+      de: 'Der Fingerabdruckleser meines smarten Tresors erkennt meinen Finger nicht mehr',
+      es: 'El lector de huellas de mi caja fuerte conectada ya no reconoce mi dedo',
+      it: 'Il lettore di impronte della mia cassaforte smart non riconosce più il mio dito',
+      nl: 'De vingerafdruklezer van mijn slimme kluis herkent mijn vinger niet meer',
+    },
+  },
+  {
+    slug: 'coffre-fort-charniere-grince',
+    categorySlug: 'coffres-forts-connectes',
+    severity: 'minor',
+    query: {
+      fr: 'La charnière de mon coffre-fort connecté grince et résiste à l\'ouverture',
+      en: 'The hinge on my smart safe squeaks and resists opening',
+      de: 'Das Scharnier meines smarten Tresors quietscht und sperrt sich beim Öffnen',
+      es: 'La bisagra de mi caja fuerte conectada chirría y ofrece resistencia al abrir',
+      it: 'La cerniera della mia cassaforte smart cigola e oppone resistenza all\'apertura',
+      nl: 'Het scharnier van mijn slimme kluis piept en biedt weerstand bij het openen',
     },
   },
 ] as const
