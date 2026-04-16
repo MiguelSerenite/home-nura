@@ -67,10 +67,12 @@ export function buildPageMetadata(input: BuildPageMetadataInput): Metadata {
   const ogImage = image ?? `${BASE_URL}/og-image.png`
   const ogImageAlt = imageAlt ?? title
 
-  // hreflang: map every locale to its equivalent URL at the same path
-  const languages = Object.fromEntries(
+  // hreflang: map every locale to its equivalent URL at the same path.
+  // x-default points to the French variant (site default language).
+  const languages: Record<string, string> = Object.fromEntries(
     LANGUAGES.map((l) => [l, `${BASE_URL}/${l}${normalizedPath}`])
   )
+  languages['x-default'] = `${BASE_URL}/fr${normalizedPath}`
 
   return {
     title,
@@ -189,8 +191,6 @@ export function buildProductListSchema(
     numberOfItems: products.length,
     dateModified: SITE_LAST_UPDATED_ISO,
     itemListElement: products.map((p, i) => {
-      const ratingValue = Math.round((p.nuraScore / 2) * 10) / 10 // 0–10 → 0–5
-      const ratingCount = Math.floor(p.nuraScore * 28 + 12)
       const priceNumeric = p.priceNumeric.toString()
       return {
         '@type': 'ListItem',
@@ -205,14 +205,9 @@ export function buildProductListSchema(
             '@type': 'Brand',
             name: extractBrand(p.title),
           },
-          aggregateRating: {
-            '@type': 'AggregateRating',
-            ratingValue,
-            bestRating: 5,
-            worstRating: 1,
-            ratingCount,
-            reviewCount: ratingCount,
-          },
+          // aggregateRating intentionally omitted — Google's structured
+          // data policy prohibits fabricated review data. Ratings will
+          // be added when real review data is available via an API.
           offers: {
             '@type': 'Offer',
             url: p.url,

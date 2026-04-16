@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { Geist, Geist_Mono } from "next/font/google";
 import { getNonce } from "@/lib/nonce";
@@ -6,6 +6,12 @@ import { WebVitalsReporter } from "@/components/WebVitalsReporter";
 import { LANGUAGES, isValidLang, type Lang } from "@/lib/i18n";
 import { buildPageMetadata, BASE_URL } from "@/lib/seo";
 import "../globals.css";
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#2563eb', // blue-600 — matches the site's primary brand color
+};
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -147,6 +153,25 @@ export default async function RootLayout({
     ],
   };
 
+  // WebSite schema with SearchAction — enables the Google sitelinks
+  // search box so users can search directly from the SERP.
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Home Nura',
+    alternateName: 'HomeNura',
+    url: BASE_URL,
+    inLanguage: LANGUAGES.map((l) => l),
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${BASE_URL}/${lang}/comparateur?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  };
+
   return (
     <html
       lang={lang}
@@ -158,6 +183,12 @@ export default async function RootLayout({
           nonce={nonce}
           suppressHydrationWarning
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          nonce={nonce}
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
       </head>
       <body className="min-h-full flex flex-col">

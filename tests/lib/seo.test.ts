@@ -32,7 +32,7 @@ describe('buildPageMetadata', () => {
       description: 'Desc',
     })
     const langs = m.alternates?.languages ?? {}
-    expect(Object.keys(langs).sort()).toEqual(['de', 'en', 'es', 'fr', 'it', 'nl'])
+    expect(Object.keys(langs).sort()).toEqual(['de', 'en', 'es', 'fr', 'it', 'nl', 'x-default'])
     expect(langs.fr).toBe(`${BASE_URL}/fr/guides/airfryers`)
     expect(langs.en).toBe(`${BASE_URL}/en/guides/airfryers`)
     expect(langs.de).toBe(`${BASE_URL}/de/guides/airfryers`)
@@ -248,11 +248,10 @@ describe('buildProductListSchema', () => {
     expect(getCurrency(de)).toBe('EUR')
   })
 
-  it('maps nuraScore (0-10) to ratingValue (0-5) with one decimal', () => {
+  it('does not include aggregateRating (no fabricated review data)', () => {
     const s = buildProductListSchema(products, 'fr', 'L', 'url')
-    const rating = (s.itemListElement[0].item as { aggregateRating: { ratingValue: number } }).aggregateRating
-    // nuraScore 9.2 → 9.2/2 = 4.6
-    expect(rating.ratingValue).toBe(4.6)
+    const item = s.itemListElement[0].item as Record<string, unknown>
+    expect(item).not.toHaveProperty('aggregateRating')
   })
 
   it('sets availability to InStock and includes the affiliate URL', () => {

@@ -28,7 +28,7 @@ describe('app/sitemap.ts', () => {
   it('every entry ships hreflang alternates for all 6 locales', () => {
     for (const e of entries) {
       const langs = e.alternates?.languages ?? {}
-      expect(Object.keys(langs).sort()).toEqual([...LANGS].sort())
+      expect(Object.keys(langs).sort()).toEqual([...LANGS, 'x-default'].sort())
     }
   })
 

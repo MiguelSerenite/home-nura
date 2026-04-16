@@ -109,9 +109,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: page.changeFrequency,
         priority: page.priority,
         alternates: {
-          languages: Object.fromEntries(
-            LANGUAGES.map(l => [l, `${BASE_URL}/${l}${page.path}`])
-          ),
+          languages: {
+            ...Object.fromEntries(
+              LANGUAGES.map(l => [l, `${BASE_URL}/${l}${page.path}`])
+            ),
+            'x-default': `${BASE_URL}/fr${page.path}`,
+          },
         },
       })
     }
@@ -133,9 +136,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'monthly',
         priority,
         alternates: {
-          languages: Object.fromEntries(
-            LANGUAGES.map(l => [l, `${BASE_URL}/${l}/blog/${article.slug}`])
-          ),
+          languages: {
+            ...Object.fromEntries(
+              LANGUAGES.map(l => [l, `${BASE_URL}/${l}/blog/${article.slug}`])
+            ),
+            'x-default': `${BASE_URL}/fr/blog/${article.slug}`,
+          },
         },
       })
     }
