@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 16,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71x2a1WyIML._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Robot aspirateur ramassant des poils d\'animaux sur un tapis avec un chien à côté',
         en: 'Robot vacuum picking up pet hair on carpet with a dog nearby',

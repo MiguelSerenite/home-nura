@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 18,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71bfPjOLWUL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1536147116438-62679a5e01f2?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Caméra intérieure sans abonnement avec stockage local sur carte SD',
         en: 'Indoor security camera without subscription with local SD card storage',

@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 18,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71qlJXuSa6L._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Tondeuse robot sans fil p\u00e9rim\u00e9trique en action sur une pelouse verte',
         en: 'Cable-free robot mower in action on a green lawn',

@@ -165,7 +165,27 @@ export const article: BlogArticle = {
 <h2>Notre verdict</h2>
 <p>Le choix entre simple et double panier n'est pas une question de qualite, mais de <strong>besoins reels</strong>. Si vous cuisinez pour 3 personnes ou plus et que vous utilisez votre airfryer regulierement, le double panier est un investissement qui se rentabilise rapidement en temps et en confort.</p>
 <p>Pour les couples et les personnes seules, le simple panier reste le choix le plus pertinent et le plus economique. Ne payez pas pour une fonctionnalite dont vous n'aurez pas l'usage.</p>
-<p>Notre recommandation numero un ? Le <a href="/fr/blog/test-ninja-foodi-flexdrawer">Ninja Foodi FlexDrawer</a> pour les familles (meilleur double panier du marche), et le <a href="/fr/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> pour les petits foyers (meilleur rapport qualite-prix en simple panier). Consultez notre <a href="/fr/guides/airfryer-vs-four">guide complet</a> et notre article pour <a href="/fr/blog/comment-choisir-airfryer-famille">choisir l'airfryer ideal pour votre famille</a>.</p>`,
+<p>Notre recommandation numero un ? Le <a href="/fr/blog/test-ninja-foodi-flexdrawer">Ninja Foodi FlexDrawer</a> pour les familles (meilleur double panier du marche), et le <a href="/fr/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> pour les petits foyers (meilleur rapport qualite-prix en simple panier). Consultez notre <a href="/fr/guides/airfryer-vs-four">guide complet</a> et notre article pour <a href="/fr/blog/comment-choisir-airfryer-famille">choisir l'airfryer ideal pour votre famille</a>.</p>
+
+<h2>Tableau comparatif des meilleurs modeles simple et double panier 2026</h2>
+<table>
+<thead><tr><th>Modele</th><th>Type</th><th>Capacite</th><th>Prix</th><th>Synchronisation</th><th>Ideal pour</th></tr></thead>
+<tbody>
+<tr><td>Philips 3000 XL</td><td>Simple panier</td><td>6,2 L</td><td>130 €</td><td>N/A</td><td>Couple, 2-3 personnes</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone</td><td>Double panier</td><td>2x4,75 L</td><td>230 €</td><td>Oui</td><td>Famille 3-5 personnes</td></tr>
+<tr><td>Ninja FlexDrawer</td><td>Double panier</td><td>10,4 L</td><td>280 €</td><td>Oui</td><td>Grandes familles 5+</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>Double panier</td><td>2x3,8 L</td><td>190 €</td><td>Oui</td><td>Famille 3-4</td></tr>
+<tr><td>Xiaomi Smart Pro 4L</td><td>Simple panier</td><td>4 L</td><td>69 €</td><td>N/A</td><td>1-2 personnes, connecte</td></tr>
+</tbody>
+</table>
+
+<h2>La double zone vaut-elle le surcoût ? Le calcul concret</h2>
+<ul>
+<li><strong>Surcoût moyen :</strong> 80-120 € de plus qu'un simple panier equivalant.</li>
+<li><strong>Gain de temps :</strong> 20-30 min/repas pour les familles (2 plats simultanement).</li>
+<li><strong>Sur un an (300 repas) :</strong> environ 100 heures de cuisine economisees pour une famille de 4.</li>
+<li><strong>Conclusion :</strong> si vous cuisinez pour 3+ personnes plus de 3 fois/semaine, le double panier se rentabilise en 6 mois.</li>
+</ul>`,
 
     en: `<h2>Introduction</h2>
 <p>The dual basket air fryer is the big trend of 2025-2026. Popularized by Ninja with their Dual Zone range, this concept has been adopted by most major brands. But is it a genuine improvement, or just a marketing gimmick? After testing 8 single basket and 6 dual basket models for several weeks, we have the answers.</p>
@@ -245,7 +265,27 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Our verdict</h2>
-<p>The choice between single and dual basket is not about quality but about <strong>real needs</strong>. If you cook for 3+ people regularly, the dual basket pays for itself quickly in time and convenience. For couples and solo cooks, the single basket remains the most sensible and economical option. Our top picks: the <a href="/en/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> for families and the <a href="/en/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> for smaller households.</p>`,
+<p>The choice between single and dual basket is not about quality but about <strong>real needs</strong>. If you cook for 3+ people regularly, the dual basket pays for itself quickly in time and convenience. For couples and solo cooks, the single basket remains the most sensible and economical option. Our top picks: the <a href="/en/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> for families and the <a href="/en/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> for smaller households.</p>
+
+<h2>Comparison of best single and dual basket models 2026</h2>
+<table>
+<thead><tr><th>Model</th><th>Type</th><th>Capacity</th><th>Price</th><th>Sync</th><th>Ideal for</th></tr></thead>
+<tbody>
+<tr><td>Philips 3000 XL</td><td>Single basket</td><td>6.2 L</td><td>130 euros</td><td>N/A</td><td>Couples, 2-3 people</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone</td><td>Dual basket</td><td>2x4.75 L</td><td>230 euros</td><td>Yes</td><td>Family 3-5 people</td></tr>
+<tr><td>Ninja FlexDrawer</td><td>Dual basket</td><td>10.4 L</td><td>280 euros</td><td>Yes</td><td>Large families 5+</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>Dual basket</td><td>2x3.8 L</td><td>190 euros</td><td>Yes</td><td>Family 3-4</td></tr>
+<tr><td>Xiaomi Smart Pro 4L</td><td>Single basket</td><td>4 L</td><td>69 euros</td><td>N/A</td><td>1-2 people, connected</td></tr>
+</tbody>
+</table>
+
+<h2>Is the dual zone worth the extra cost? The real calculation</h2>
+<ul>
+<li><strong>Average extra cost:</strong> €80-120 more than an equivalent single basket.</li>
+<li><strong>Time saving:</strong> 20-30 min/meal for families (2 dishes simultaneously).</li>
+<li><strong>Over a year (300 meals):</strong> approximately 100 hours of cooking saved for a family of 4.</li>
+<li><strong>Conclusion:</strong> if you cook for 3+ people more than 3 times per week, the dual basket pays for itself within 6 months.</li>
+</ul>`,
 
     de: `<h2>Einleitung</h2>
 <p>Die Doppelkorb-Heissluftfritteuse ist der grosse Trend 2025-2026. Von Ninja mit der Dual Zone-Reihe populaer gemacht, wurde dieses Konzept von den meisten grossen Marken uebernommen. Doch ist es eine echte Verbesserung oder nur Marketing? Nach wochenlangen Tests von 8 Einzelkorb- und 6 Doppelkorb-Modellen haben wir die Antworten.</p>
@@ -305,7 +345,27 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Unser Fazit</h2>
-<p>Die Wahl zwischen Einzel- und Doppelkorb ist keine Frage der Qualitaet, sondern der <strong>tatsaechlichen Beduerfnisse</strong>. Wer regelmaessig fuer 3+ Personen kocht, fuer den rentiert sich der Doppelkorb schnell. Fuer Paare und Singles bleibt der Einzelkorb die sinnvollste Wahl. Unsere Top-Empfehlungen: der <a href="/de/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> fuer Familien und die <a href="/de/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> fuer kleine Haushalte.</p>`,
+<p>Die Wahl zwischen Einzel- und Doppelkorb ist keine Frage der Qualitaet, sondern der <strong>tatsaechlichen Beduerfnisse</strong>. Wer regelmaessig fuer 3+ Personen kocht, fuer den rentiert sich der Doppelkorb schnell. Fuer Paare und Singles bleibt der Einzelkorb die sinnvollste Wahl. Unsere Top-Empfehlungen: der <a href="/de/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> fuer Familien und die <a href="/de/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> fuer kleine Haushalte.</p>
+
+<h2>Vergleich der besten Einzel- und Doppelkorb-Modelle 2026</h2>
+<table>
+<thead><tr><th>Modell</th><th>Typ</th><th>Kapazitaet</th><th>Preis</th><th>Sync</th><th>Ideal fuer</th></tr></thead>
+<tbody>
+<tr><td>Philips 3000 XL</td><td>Einzelkorb</td><td>6,2 L</td><td>130 €</td><td>Nein</td><td>Paare, 2-3 Personen</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone</td><td>Doppelkorb</td><td>2x4,75 L</td><td>230 €</td><td>Ja</td><td>Familie 3-5</td></tr>
+<tr><td>Ninja FlexDrawer</td><td>Doppelkorb</td><td>10,4 L</td><td>280 €</td><td>Ja</td><td>Grossfamilien 5+</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>Doppelkorb</td><td>2x3,8 L</td><td>190 €</td><td>Ja</td><td>Familie 3-4</td></tr>
+<tr><td>Xiaomi Smart Pro 4L</td><td>Einzelkorb</td><td>4 L</td><td>69 €</td><td>Nein</td><td>1-2 Personen, vernetzt</td></tr>
+</tbody>
+</table>
+
+<h2>Lohnt sich der Mehrpreis fuer den Doppelkorb? Die konkrete Rechnung</h2>
+<ul>
+<li><strong>Durchschnittlicher Mehrpreis:</strong> 80-120 € mehr als ein vergleichbarer Einzelkorb.</li>
+<li><strong>Zeitersparnis:</strong> 20-30 Min./Mahlzeit fuer Familien (2 Gerichte gleichzeitig).</li>
+<li><strong>Ueber ein Jahr (300 Mahlzeiten):</strong> ca. 100 Stunden Kochzeit fuer eine 4-koepfige Familie gespart.</li>
+<li><strong>Fazit:</strong> wenn Sie mehr als 3-mal pro Woche fuer 3+ Personen kochen, amortisiert sich der Doppelkorb in 6 Monaten.</li>
+</ul>`,
 
     es: `<h2>Introduccion</h2>
 <p>La freidora de aire de doble cesta es la gran tendencia de 2025-2026. Popularizada por Ninja con su gama Dual Zone, este concepto ha sido adoptado por la mayoria de grandes marcas. Pero es realmente una mejora o solo marketing? Tras probar 8 modelos de cesta simple y 6 de doble cesta durante varias semanas, tenemos las respuestas.</p>
@@ -365,7 +425,27 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Nuestro veredicto</h2>
-<p>La eleccion entre cesta simple y doble no es cuestion de calidad, sino de <strong>necesidades reales</strong>. Si cocinas regularmente para 3+ personas, la doble cesta se rentabiliza rapidamente. Para parejas y solteros, la cesta simple sigue siendo la opcion mas sensata. Nuestras recomendaciones: el <a href="/es/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> para familias y la <a href="/es/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> para hogares pequenos.</p>`,
+<p>La eleccion entre cesta simple y doble no es cuestion de calidad, sino de <strong>necesidades reales</strong>. Si cocinas regularmente para 3+ personas, la doble cesta se rentabiliza rapidamente. Para parejas y solteros, la cesta simple sigue siendo la opcion mas sensata. Nuestras recomendaciones: el <a href="/es/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> para familias y la <a href="/es/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> para hogares pequenos.</p>
+
+<h2>Comparativa de los mejores modelos de cesta simple y doble 2026</h2>
+<table>
+<thead><tr><th>Modelo</th><th>Tipo</th><th>Capacidad</th><th>Precio</th><th>Sincronizacion</th><th>Ideal para</th></tr></thead>
+<tbody>
+<tr><td>Philips 3000 XL</td><td>Cesta simple</td><td>6,2 L</td><td>130 €</td><td>No</td><td>Parejas, 2-3 personas</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone</td><td>Doble cesta</td><td>2x4,75 L</td><td>230 €</td><td>Si</td><td>Familia 3-5</td></tr>
+<tr><td>Ninja FlexDrawer</td><td>Doble cesta</td><td>10,4 L</td><td>280 €</td><td>Si</td><td>Familias grandes 5+</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>Doble cesta</td><td>2x3,8 L</td><td>190 €</td><td>Si</td><td>Familia 3-4</td></tr>
+<tr><td>Xiaomi Smart Pro 4L</td><td>Cesta simple</td><td>4 L</td><td>69 €</td><td>No</td><td>1-2 personas, conectada</td></tr>
+</tbody>
+</table>
+
+<h2>Vale la pena el sobrecoste de la doble cesta? El calculo real</h2>
+<ul>
+<li><strong>Sobrecoste medio:</strong> 80-120 € mas que una cesta simple equivalente.</li>
+<li><strong>Ahorro de tiempo:</strong> 20-30 min/comida para familias (2 platos simultaneamente).</li>
+<li><strong>En un ano (300 comidas):</strong> aproximadamente 100 horas de cocina ahorradas para una familia de 4.</li>
+<li><strong>Conclusion:</strong> si cocinas para 3+ personas mas de 3 veces/semana, la doble cesta se amortiza en 6 meses.</li>
+</ul>`,
 
     it: `<h2>Introduzione</h2>
 <p>La friggitrice ad aria a doppio cestello e la grande tendenza del 2025-2026. Resa popolare da Ninja con la gamma Dual Zone, questo concetto e stato adottato dalla maggior parte dei grandi marchi. Ma e davvero un miglioramento o solo marketing? Dopo aver testato 8 modelli a cestello singolo e 6 a doppio cestello per diverse settimane, abbiamo le risposte.</p>
@@ -425,7 +505,27 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Il nostro verdetto</h2>
-<p>La scelta tra cestello singolo e doppio non e questione di qualita, ma di <strong>esigenze reali</strong>. Chi cucina regolarmente per 3+ persone trovera il doppio cestello rapidamente ammortizzato. Per coppie e single, il cestello singolo resta la scelta piu sensata. Le nostre raccomandazioni: il <a href="/it/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> per le famiglie e la <a href="/it/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> per i nuclei piccoli.</p>`,
+<p>La scelta tra cestello singolo e doppio non e questione di qualita, ma di <strong>esigenze reali</strong>. Chi cucina regolarmente per 3+ persone trovera il doppio cestello rapidamente ammortizzato. Per coppie e single, il cestello singolo resta la scelta piu sensata. Le nostre raccomandazioni: il <a href="/it/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> per le famiglie e la <a href="/it/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> per i nuclei piccoli.</p>
+
+<h2>Confronto tra i migliori modelli a cestello singolo e doppio 2026</h2>
+<table>
+<thead><tr><th>Modello</th><th>Tipo</th><th>Capacita</th><th>Prezzo</th><th>Sincronizzazione</th><th>Ideale per</th></tr></thead>
+<tbody>
+<tr><td>Philips 3000 XL</td><td>Cestello singolo</td><td>6,2 L</td><td>130 €</td><td>No</td><td>Coppie, 2-3 persone</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone</td><td>Doppio cestello</td><td>2x4,75 L</td><td>230 €</td><td>Si</td><td>Famiglia 3-5</td></tr>
+<tr><td>Ninja FlexDrawer</td><td>Doppio cestello</td><td>10,4 L</td><td>280 €</td><td>Si</td><td>Grandi famiglie 5+</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>Doppio cestello</td><td>2x3,8 L</td><td>190 €</td><td>Si</td><td>Famiglia 3-4</td></tr>
+<tr><td>Xiaomi Smart Pro 4L</td><td>Cestello singolo</td><td>4 L</td><td>69 €</td><td>No</td><td>1-2 persone, connessa</td></tr>
+</tbody>
+</table>
+
+<h2>Vale la pena il costo aggiuntivo del doppio cestello? Il calcolo concreto</h2>
+<ul>
+<li><strong>Costo aggiuntivo medio:</strong> 80-120 € in piu rispetto a un cestello singolo equivalente.</li>
+<li><strong>Risparmio di tempo:</strong> 20-30 min/pasto per le famiglie (2 piatti simultaneamente).</li>
+<li><strong>In un anno (300 pasti):</strong> circa 100 ore di cucina risparmiate per una famiglia di 4.</li>
+<li><strong>Conclusione:</strong> se cucinate per 3+ persone piu di 3 volte a settimana, il doppio cestello si ripaga in 6 mesi.</li>
+</ul>`,
 
     nl: `<h2>Inleiding</h2>
 <p>De dubbele mand airfryer is de grote trend van 2025-2026. Door Ninja gepopulariseerd met hun Dual Zone-reeks, is dit concept overgenomen door de meeste grote merken. Maar is het een echte verbetering of alleen marketing? Na wekenlange tests van 8 enkele en 6 dubbele mand-modellen hebben we de antwoorden.</p>
@@ -485,7 +585,27 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Ons oordeel</h2>
-<p>De keuze tussen enkel en dubbel mandje gaat niet over kwaliteit, maar over <strong>werkelijke behoeften</strong>. Wie regelmatig voor 3+ personen kookt, verdient het dubbele mandje snel terug. Voor stellen en alleenstaanden blijft het enkele mandje de verstandigste keuze. Onze topaanbevelingen: de <a href="/nl/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> voor gezinnen en de <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> voor kleine huishoudens.</p>`,
+<p>De keuze tussen enkel en dubbel mandje gaat niet over kwaliteit, maar over <strong>werkelijke behoeften</strong>. Wie regelmatig voor 3+ personen kookt, verdient het dubbele mandje snel terug. Voor stellen en alleenstaanden blijft het enkele mandje de verstandigste keuze. Onze topaanbevelingen: de <a href="/nl/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> voor gezinnen en de <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> voor kleine huishoudens.</p>
+
+<h2>Vergelijking van de beste modellen met enkel en dubbel mandje 2026</h2>
+<table>
+<thead><tr><th>Model</th><th>Type</th><th>Capaciteit</th><th>Prijs</th><th>Synchronisatie</th><th>Ideaal voor</th></tr></thead>
+<tbody>
+<tr><td>Philips 3000 XL</td><td>Enkel mandje</td><td>6,2 L</td><td>130 €</td><td>Nee</td><td>Stellen, 2-3 personen</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone</td><td>Dubbel mandje</td><td>2x4,75 L</td><td>230 €</td><td>Ja</td><td>Gezin 3-5</td></tr>
+<tr><td>Ninja FlexDrawer</td><td>Dubbel mandje</td><td>10,4 L</td><td>280 €</td><td>Ja</td><td>Grote gezinnen 5+</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>Dubbel mandje</td><td>2x3,8 L</td><td>190 €</td><td>Ja</td><td>Gezin 3-4</td></tr>
+<tr><td>Xiaomi Smart Pro 4L</td><td>Enkel mandje</td><td>4 L</td><td>69 €</td><td>Nee</td><td>1-2 personen, connected</td></tr>
+</tbody>
+</table>
+
+<h2>Is de meerprijs voor het dubbele mandje de moeite waard? De concrete berekening</h2>
+<ul>
+<li><strong>Gemiddelde meerprijs:</strong> €80-120 meer dan een vergelijkbaar enkel mandje.</li>
+<li><strong>Tijdsbesparing:</strong> 20-30 min/maaltijd voor gezinnen (2 gerechten tegelijk).</li>
+<li><strong>Over een jaar (300 maaltijden):</strong> circa 100 uur kooktijd bespaard voor een gezin van 4.</li>
+<li><strong>Conclusie:</strong> als je meer dan 3 keer per week voor 3+ personen kookt, verdient het dubbele mandje zichzelf terug in 6 maanden.</li>
+</ul>`,
   },
   faq: [
     {

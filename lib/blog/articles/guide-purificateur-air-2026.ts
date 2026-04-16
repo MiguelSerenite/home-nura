@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 22,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71YWz0TDEBL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Purificateur d\'air moderne HEPA H13 dans un salon lumineux avec indicateur de qualité de l\'air',
         en: 'Modern HEPA H13 air purifier in a bright living room with air quality indicator',

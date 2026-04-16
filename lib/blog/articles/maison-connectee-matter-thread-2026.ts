@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 18,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/61JhLmP7O6L._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Appareils compatibles Matter et Thread pour maison connectee 2026',
         en: 'Matter and Thread compatible smart home devices 2026',

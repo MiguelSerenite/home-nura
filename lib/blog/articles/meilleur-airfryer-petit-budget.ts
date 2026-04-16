@@ -197,7 +197,31 @@ export const article: BlogArticle = {
 
 <h2>Conclusion : notre verdict</h2>
 <p>Le <strong>Xiaomi Smart Air Fryer Pro à 69 €</strong> est notre coup de cœur incontestable dans cette gamme de prix. Il offre des fonctionnalités que l'on ne trouve habituellement qu'à partir de 130 € (connectivité, application riche, performances de cuisson élevées). Si vous préférez une marque européenne traditionnelle, le <strong>Philips Essential à 89 €</strong> est le choix le plus sûr.</p>
-<p>Pour aller au-delà du budget de 100 € et découvrir ce que proposent les modèles premium, consultez notre <a href="/fr/blog/comment-choisir-airfryer-famille">guide de choix d'airfryer pour la famille</a>. Explorez aussi notre <a href="/fr/guides/airfryers">guide complet des airfryers</a> et le <a href="/fr/guides/airfryer-vs-four">comparatif airfryer vs four</a> pour faire le meilleur choix.</p>`,
+<p>Pour aller au-delà du budget de 100 € et découvrir ce que proposent les modèles premium, consultez notre <a href="/fr/blog/comment-choisir-airfryer-famille">guide de choix d'airfryer pour la famille</a>. Explorez aussi notre <a href="/fr/guides/airfryers">guide complet des airfryers</a> et le <a href="/fr/guides/airfryer-vs-four">comparatif airfryer vs four</a> pour faire le meilleur choix.</p>
+
+<h2>À quoi renoncer sous 100 € ? (et ce que vous aurez quand même)</h2>
+<table>
+<thead><tr><th>Fonctionnalité</th><th>Airfryer petit budget (&lt;100 €)</th><th>Airfryer gamme supérieure (100-200 €)</th></tr></thead>
+<tbody>
+<tr><td>Capacité</td><td>3-5L (1-3 personnes)</td><td>5-10L (2-6 personnes)</td></tr>
+<tr><td>Température max</td><td>200°C généralement</td><td>200-230°C</td></tr>
+<tr><td>Puissance</td><td>1 400-1 600 W</td><td>1 700-2 500 W</td></tr>
+<tr><td>Connectivité Wi-Fi</td><td>Parfois (Xiaomi uniquement)</td><td>Souvent disponible</td></tr>
+<tr><td>Qualité des matériaux</td><td>Plastique avec rails plastique</td><td>Plastique avec rails métal</td></tr>
+<tr><td>Performance cuisson</td><td>Correcte pour usage quotidien</td><td>Meilleure croustillance</td></tr>
+<tr><td>Durabilité estimée</td><td>2-5 ans</td><td>4-8 ans</td></tr>
+</tbody>
+</table>
+<p>Un airfryer à petit budget répond parfaitement aux besoins d'une personne seule ou d'un couple. Les limitations deviennent réelles pour les familles de 3+ personnes.</p>
+
+<h2>5 questions à se poser avant d'acheter un airfryer à moins de 100 €</h2>
+<ul>
+<li><strong>Pour combien de personnes ?</strong> Si vous cuisinez régulièrement pour plus de 2 personnes, un 4L sera souvent insuffisant. Visez un 5L minimum.</li>
+<li><strong>Quelle utilisation principale ?</strong> Légumes et frites : n'importe quel modèle. Viandes : privilégiez 200°C minimum et bonne puissance.</li>
+<li><strong>Avez-vous une petite cuisine ?</strong> Le Xiaomi à 25 x 28 cm est l'un des plus compacts. Mesurez votre espace avant.</li>
+<li><strong>Êtes-vous sensible à la connectivité ?</strong> Seul le Xiaomi offre Wi-Fi et domotique sous 100 €. Les autres sont classiques.</li>
+<li><strong>Avez-vous un budget accessoires ?</strong> Prévoyez 20-30 € supplémentaires pour les feuilles de cuisson et accessoires essentiels.</li>
+</ul>`,
 
     en: `<h2>Can a cheap air fryer be a good air fryer?</h2>
 <p>The short answer is yes, provided you know what you're buying. The air fryer market has matured considerably in 2026, and entry-level models now deliver perfectly decent performance for daily use. We bought and tested 8 air fryers under 100 euros over 3 months to identify the 5 that truly deserve your money.</p>
@@ -286,7 +310,31 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>For premium models beyond 100 euros, see our <a href="/en/blog/comment-choisir-airfryer-famille">family air fryer buying guide</a>. Explore our <a href="/en/guides/airfryers">complete guide</a> and <a href="/en/guides/airfryer-vs-four">air fryer vs oven comparison</a>.</p>`,
+<p>For premium models beyond 100 euros, see our <a href="/en/blog/comment-choisir-airfryer-famille">family air fryer buying guide</a>. Explore our <a href="/en/guides/airfryers">complete guide</a> and <a href="/en/guides/airfryer-vs-four">air fryer vs oven comparison</a>.</p>
+
+<h2>What do you give up under 100 euros? (and what you still get)</h2>
+<table>
+<thead><tr><th>Feature</th><th>Budget air fryer (&lt;100 euros)</th><th>Higher-end air fryer (100-200 euros)</th></tr></thead>
+<tbody>
+<tr><td>Capacity</td><td>3-5L (1-3 people)</td><td>5-10L (2-6 people)</td></tr>
+<tr><td>Max temperature</td><td>200°C typically</td><td>200-230°C</td></tr>
+<tr><td>Power</td><td>1,400-1,600 W</td><td>1,700-2,500 W</td></tr>
+<tr><td>Wi-Fi connectivity</td><td>Sometimes (Xiaomi only)</td><td>Often available</td></tr>
+<tr><td>Material quality</td><td>Plastic with plastic rails</td><td>Plastic with metal rails</td></tr>
+<tr><td>Cooking performance</td><td>Good for everyday use</td><td>Better crispiness</td></tr>
+<tr><td>Estimated durability</td><td>2-5 years</td><td>4-8 years</td></tr>
+</tbody>
+</table>
+<p>A budget air fryer perfectly meets the needs of one person or a couple. Limitations become real for families of 3 or more.</p>
+
+<h2>5 questions to ask yourself before buying an air fryer under 100 euros</h2>
+<ul>
+<li><strong>How many people are you cooking for?</strong> If you regularly cook for more than 2 people, 4L will often be insufficient. Aim for at least 5L.</li>
+<li><strong>What's your main use?</strong> Vegetables and chips: any model will do. Meats: prioritise at least 200°C and good wattage.</li>
+<li><strong>Do you have a small kitchen?</strong> The Xiaomi at 25x28 cm is one of the most compact. Measure your worktop space first.</li>
+<li><strong>Do you care about connectivity?</strong> Only the Xiaomi offers Wi-Fi and smart home integration under 100 euros. The others are classic manual models.</li>
+<li><strong>Have you budgeted for accessories?</strong> Plan an extra 20-30 euros for perforated liners and essential accessories to protect the coating.</li>
+</ul>`,
 
     de: `<h2>Kann eine gunstige Heißluftfritteuse gut sein?</h2>
 <p>Die kurze Antwort: Ja, vorausgesetzt Sie wissen, was Sie kaufen. Der Markt hat sich 2026 erheblich weiterentwickelt, und Einsteigermodelle bieten heute sehr ordentliche Leistungen fur den taglichen Gebrauch. Wir haben 8 Heißluftfritteusen unter 100 € drei Monate lang getestet, um die 5 besten zu identifizieren.</p>
@@ -360,7 +408,31 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Fur Premium-Modelle uber 100 €, siehe unseren <a href="/de/blog/comment-choisir-airfryer-famille">Familien-Kaufratgeber</a>. Alle Infos im <a href="/de/guides/airfryers">Ratgeber</a> und <a href="/de/guides/airfryer-vs-four">Vergleich mit dem Backofen</a>.</p>`,
+<p>Fur Premium-Modelle uber 100 €, siehe unseren <a href="/de/blog/comment-choisir-airfryer-famille">Familien-Kaufratgeber</a>. Alle Infos im <a href="/de/guides/airfryers">Ratgeber</a> und <a href="/de/guides/airfryer-vs-four">Vergleich mit dem Backofen</a>.</p>
+
+<h2>Worauf verzichten Sie unter 100 €? (und was Sie trotzdem bekommen)</h2>
+<table>
+<thead><tr><th>Funktion</th><th>Gunstige Heißluftfritteuse (&lt;100 €)</th><th>Hoherwertige Heißluftfritteuse (100-200 €)</th></tr></thead>
+<tbody>
+<tr><td>Kapazitat</td><td>3-5L (1-3 Personen)</td><td>5-10L (2-6 Personen)</td></tr>
+<tr><td>Max. Temperatur</td><td>200°C ublich</td><td>200-230°C</td></tr>
+<tr><td>Leistung</td><td>1.400-1.600 W</td><td>1.700-2.500 W</td></tr>
+<tr><td>WLAN-Konnektivitat</td><td>Manchmal (nur Xiaomi)</td><td>Oft verfugbar</td></tr>
+<tr><td>Materialqualitat</td><td>Kunststoff mit Kunststoffschienen</td><td>Kunststoff mit Metallschienen</td></tr>
+<tr><td>Garleistung</td><td>Gut fur den Alltag</td><td>Bessere Knusprigkeit</td></tr>
+<tr><td>Gesch. Lebensdauer</td><td>2-5 Jahre</td><td>4-8 Jahre</td></tr>
+</tbody>
+</table>
+<p>Eine gunstige Heißluftfritteuse erfullt die Bedurfnisse einer Einzelperson oder eines Paares vollkommen. Einschrankungen werden fur Familien ab 3 Personen spurbar.</p>
+
+<h2>5 Fragen vor dem Kauf einer Heißluftfritteuse unter 100 €</h2>
+<ul>
+<li><strong>Fur wie viele Personen kochen Sie?</strong> Wenn Sie regelmaßig fur mehr als 2 Personen kochen, ist 4L oft unzureichend. Visieren Sie mindestens 5L an.</li>
+<li><strong>Was ist Ihr Haupteinsatzzweck?</strong> Gemuse und Pommes: jedes Modell. Fleisch: bevorzugen Sie mindestens 200°C und gute Wattzahl.</li>
+<li><strong>Haben Sie eine kleine Kuche?</strong> Das Xiaomi mit 25x28 cm ist eines der kompaktesten. Messen Sie Ihren Platz vorab.</li>
+<li><strong>Ist Ihnen Konnektivitat wichtig?</strong> Nur das Xiaomi bietet WLAN und Smart-Home unter 100 €. Andere sind klassische Modelle.</li>
+<li><strong>Haben Sie ein Zubehorbudget eingeplant?</strong> Planen Sie 20-30 € extra fur perforierte Einlagen und wesentliches Zubehör zum Schutz der Beschichtung.</li>
+</ul>`,
 
     es: `<h2>Puede una freidora de aire barata ser buena?</h2>
 <p>La respuesta corta es si, siempre que sepas lo que compras. El mercado ha madurado considerablemente en 2026, y los modelos de entrada ofrecen prestaciones muy correctas para uso diario. Hemos comprado y probado 8 freidoras por menos de 100 € durante 3 meses para identificar las 5 que realmente merecen tu dinero.</p>
@@ -426,7 +498,31 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Para modelos premium sobre 100 €, consulta nuestra <a href="/es/blog/comment-choisir-airfryer-famille">guia de compra familiar</a>. Mas en la <a href="/es/guides/airfryers">guia completa</a> y el <a href="/es/guides/airfryer-vs-four">comparativo freidora vs horno</a>.</p>`,
+<p>Para modelos premium sobre 100 €, consulta nuestra <a href="/es/blog/comment-choisir-airfryer-famille">guia de compra familiar</a>. Mas en la <a href="/es/guides/airfryers">guia completa</a> y el <a href="/es/guides/airfryer-vs-four">comparativo freidora vs horno</a>.</p>
+
+<h2>A que renuncias por menos de 100 €? (y que conservas de todos modos)</h2>
+<table>
+<thead><tr><th>Funcion</th><th>Freidora economica (&lt;100 €)</th><th>Freidora de gama superior (100-200 €)</th></tr></thead>
+<tbody>
+<tr><td>Capacidad</td><td>3-5L (1-3 personas)</td><td>5-10L (2-6 personas)</td></tr>
+<tr><td>Temperatura max.</td><td>200°C generalmente</td><td>200-230°C</td></tr>
+<tr><td>Potencia</td><td>1.400-1.600 W</td><td>1.700-2.500 W</td></tr>
+<tr><td>Conectividad Wi-Fi</td><td>A veces (solo Xiaomi)</td><td>Frecuentemente disponible</td></tr>
+<tr><td>Calidad de materiales</td><td>Plastico con railes plasticos</td><td>Plastico con railes metalicos</td></tr>
+<tr><td>Rendimiento de coccion</td><td>Correcto para uso diario</td><td>Mejor crujiente</td></tr>
+<tr><td>Durabilidad estimada</td><td>2-5 anos</td><td>4-8 anos</td></tr>
+</tbody>
+</table>
+<p>Una freidora economica satisface perfectamente las necesidades de una persona o pareja. Las limitaciones se hacen reales para familias de 3 o mas personas.</p>
+
+<h2>5 preguntas que hacerse antes de comprar una freidora por menos de 100 €</h2>
+<ul>
+<li><strong>Para cuantas personas cocinas?</strong> Si cocinas regularmente para mas de 2 personas, 4L suele ser insuficiente. Busca al menos 5L.</li>
+<li><strong>Cual es tu uso principal?</strong> Verduras y patatas fritas: cualquier modelo. Carnes: prioriza 200°C minimo y buena potencia.</li>
+<li><strong>Tienes una cocina pequena?</strong> El Xiaomi con 25x28 cm es uno de los mas compactos. Mide tu espacio de trabajo antes de comprar.</li>
+<li><strong>Te importa la conectividad?</strong> Solo el Xiaomi ofrece Wi-Fi e integracion domótica por menos de 100 €. Los demas son modelos clasicos.</li>
+<li><strong>Tienes presupuesto para accesorios?</strong> Prevé 20-30 € adicionales para papeles perforados y accesorios esenciales para proteger el revestimiento.</li>
+</ul>`,
 
     it: `<h2>Una friggitrice ad aria economica puo essere buona?</h2>
 <p>La risposta breve e si, a patto di sapere cosa si acquista. Il mercato si e evoluto considerevolmente nel 2026 e i modelli entry-level offrono prestazioni del tutto adeguate per l'uso quotidiano. Abbiamo acquistato e testato 8 friggitrici sotto 100 € per 3 mesi per identificare le 5 che meritano davvero i vostri soldi.</p>
@@ -492,7 +588,31 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Per modelli premium oltre 100 €, consultate la <a href="/it/blog/comment-choisir-airfryer-famille">guida all'acquisto familiare</a>. Guida completa: <a href="/it/guides/airfryers">friggitrici ad aria</a> e <a href="/it/guides/airfryer-vs-four">friggitrice vs forno</a>.</p>`,
+<p>Per modelli premium oltre 100 €, consultate la <a href="/it/blog/comment-choisir-airfryer-famille">guida all'acquisto familiare</a>. Guida completa: <a href="/it/guides/airfryers">friggitrici ad aria</a> e <a href="/it/guides/airfryer-vs-four">friggitrice vs forno</a>.</p>
+
+<h2>A cosa rinunciate sotto 100 €? (e cosa avete comunque)</h2>
+<table>
+<thead><tr><th>Funzione</th><th>Friggitrice economica (&lt;100 €)</th><th>Friggitrice di fascia superiore (100-200 €)</th></tr></thead>
+<tbody>
+<tr><td>Capacita</td><td>3-5L (1-3 persone)</td><td>5-10L (2-6 persone)</td></tr>
+<tr><td>Temperatura max.</td><td>200°C generalmente</td><td>200-230°C</td></tr>
+<tr><td>Potenza</td><td>1.400-1.600 W</td><td>1.700-2.500 W</td></tr>
+<tr><td>Connettivita Wi-Fi</td><td>A volte (solo Xiaomi)</td><td>Spesso disponibile</td></tr>
+<tr><td>Qualita dei materiali</td><td>Plastica con binari in plastica</td><td>Plastica con binari in metallo</td></tr>
+<tr><td>Prestazioni di cottura</td><td>Adeguate per uso quotidiano</td><td>Migliore croccantezza</td></tr>
+<tr><td>Durata stimata</td><td>2-5 anni</td><td>4-8 anni</td></tr>
+</tbody>
+</table>
+<p>Una friggitrice economica soddisfa perfettamente le esigenze di una persona o di una coppia. Le limitazioni diventano concrete per famiglie di 3 o piu persone.</p>
+
+<h2>5 domande da porsi prima di acquistare una friggitrice ad aria sotto 100 €</h2>
+<ul>
+<li><strong>Per quante persone cucinate?</strong> Se cucinate regolarmente per piu di 2 persone, 4L sara spesso insufficiente. Puntate ad almeno 5L.</li>
+<li><strong>Qual e il vostro uso principale?</strong> Verdure e patatine: qualsiasi modello va bene. Carni: privilegiate almeno 200°C e buona potenza.</li>
+<li><strong>Avete una cucina piccola?</strong> Lo Xiaomi con 25x28 cm e uno dei piu compatti. Misurate il vostro spazio prima dell'acquisto.</li>
+<li><strong>Vi interessa la connettivita?</strong> Solo lo Xiaomi offre Wi-Fi e integrazione domotica sotto 100 €. Gli altri sono modelli classici.</li>
+<li><strong>Avete un budget per gli accessori?</strong> Prevedete 20-30 € extra per fogli perforati e accessori essenziali per proteggere il rivestimento.</li>
+</ul>`,
 
     nl: `<h2>Kan een goedkope airfryer goed zijn?</h2>
 <p>Het korte antwoord: ja, mits je weet wat je koopt. De markt is in 2026 flink gerijpt en instapmodellen bieden tegenwoordig prima prestaties voor dagelijks gebruik. We kochten en testten 8 airfryers onder 100 € gedurende 3 maanden om de 5 beste te identificeren.</p>
@@ -558,7 +678,31 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Voor premium modellen boven 100 €, bekijk onze <a href="/nl/blog/comment-choisir-airfryer-famille">gezinsaankoopgids</a>. Complete gids: <a href="/nl/guides/airfryers">airfryers</a> en <a href="/nl/guides/airfryer-vs-four">airfryer vs oven</a>.</p>`,
+<p>Voor premium modellen boven 100 €, bekijk onze <a href="/nl/blog/comment-choisir-airfryer-famille">gezinsaankoopgids</a>. Complete gids: <a href="/nl/guides/airfryers">airfryers</a> en <a href="/nl/guides/airfryer-vs-four">airfryer vs oven</a>.</p>
+
+<h2>Waar doe je afstand van onder 100 €? (en wat je toch krijgt)</h2>
+<table>
+<thead><tr><th>Functie</th><th>Budget airfryer (&lt;100 €)</th><th>Hogere klasse airfryer (100-200 €)</th></tr></thead>
+<tbody>
+<tr><td>Capaciteit</td><td>3-5L (1-3 personen)</td><td>5-10L (2-6 personen)</td></tr>
+<tr><td>Max. temperatuur</td><td>200°C doorgaans</td><td>200-230°C</td></tr>
+<tr><td>Vermogen</td><td>1.400-1.600 W</td><td>1.700-2.500 W</td></tr>
+<tr><td>Wi-Fi connectiviteit</td><td>Soms (alleen Xiaomi)</td><td>Vaak beschikbaar</td></tr>
+<tr><td>Materiaalkwaliteit</td><td>Kunststof met plastic geleiders</td><td>Kunststof met metalen geleiders</td></tr>
+<tr><td>Kookprestatie</td><td>Goed voor dagelijks gebruik</td><td>Betere knapperigheid</td></tr>
+<tr><td>Geschatte levensduur</td><td>2-5 jaar</td><td>4-8 jaar</td></tr>
+</tbody>
+</table>
+<p>Een budget airfryer voldoet perfect aan de behoeften van een alleenstaande of een stel. De beperkingen worden merkbaar voor gezinnen van 3 of meer personen.</p>
+
+<h2>5 vragen om jezelf te stellen voor je een airfryer onder 100 € koopt</h2>
+<ul>
+<li><strong>Voor hoeveel personen kook je?</strong> Als je regelmatig voor meer dan 2 personen kookt, is 4L vaak onvoldoende. Streef naar minimaal 5L.</li>
+<li><strong>Wat is je voornaamste gebruik?</strong> Groenten en friet: elk model volstaat. Vlees: geef de voorkeur aan minimaal 200°C en goed vermogen.</li>
+<li><strong>Heb je een kleine keuken?</strong> De Xiaomi met 25x28 cm is een van de compactste. Meet je werkblad vooraf.</li>
+<li><strong>Hecht je waarde aan connectiviteit?</strong> Alleen de Xiaomi biedt Wi-Fi en slimme thuisintegratie onder 100 €. De andere zijn klassieke modellen.</li>
+<li><strong>Heb je budget voor accessoires?</strong> Plan 20-30 € extra voor geperforeerde bakpapieren en essentieel accessoires om de coating te beschermen.</li>
+</ul>`,
   },
   faq: [
     {

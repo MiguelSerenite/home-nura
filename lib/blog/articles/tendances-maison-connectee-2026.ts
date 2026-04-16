@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 20,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71YWz0TDEBL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Maison connectee moderne avec appareils intelligents tendances 2026',
         en: 'Modern smart home with intelligent devices trends 2026',

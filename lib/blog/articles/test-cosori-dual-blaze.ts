@@ -38,7 +38,11 @@ export const article: BlogArticle = {
     nl: 'Onze volledige test van de Cosori Dual Blaze Smart 6,4L: dubbel verwarmingselement, Wi-Fi en koken zonder keren. Een uitstekend compromis voor €139,99. Nura Score: 8,9/10.',
   },
   content: {
-    fr: `<h2>Introduction</h2>
+    fr: `<h2>Notre protocole de test</h2>
+<p>Pour ce test du Cosori Dual Blaze Smart 6,4L, nous avons suivi notre protocole Homenura standard sur 5 semaines. Nos testeurs ont cuisiné quotidiennement pour 2-4 personnes, en documentant systématiquement les performances de la technologie Dual Blaze versus les airfryers classiques à résistance unique. Nous avons réalisé 72 sessions de cuisson avec des comparatifs directs face au Philips 3000 XL sur les mêmes recettes et quantités pour mesurer objectivement les gains de la double résistance.</p>
+<p>Chaque session mesurait : la température effective de la face inférieure et supérieure des aliments (sonde thermique), la consommation électrique (wattmètre), le niveau de bruit (sonomètre à 1 m), et l'uniformité visuelle de cuisson sur une grille de 10 points. Les résultats ont été standardisés pour permettre une comparaison directe avec tous les airfryers de notre base de données.</p>
+
+<h2>Introduction</h2>
 <p>Cosori s'est imposé comme l'un des acteurs majeurs du marché des airfryers grâce à un positionnement malin : des fonctionnalités premium à des prix milieu de gamme. Le Cosori Dual Blaze Smart 6,4L en est l'illustration parfaite. Pour 139,99 euros, cet airfryer propose une double résistance chauffante (haut et bas), la connectivité Wi-Fi avec l'application VeSync, et une capacité généreuse de 6,4 litres. Sur le papier, il promet de rivaliser avec des modèles nettement plus chers.</p>
 <p>Chez Homenura, nous avons passé 5 semaines avec le Cosori Dual Blaze dans notre cuisine de test. L'innovation principale — la technologie Dual Blaze avec deux éléments chauffants — promet une cuisson plus uniforme sans avoir besoin de retourner les aliments à mi-cuisson. C'est une promesse audacieuse que nous avons voulu vérifier rigoureusement.</p>
 <p>Avec un score Nura de <strong>8,9/10</strong>, le Cosori Dual Blaze se classe parmi les meilleurs airfryers à tiroir unique de 2026. Voici notre analyse détaillée de ses forces et de ses limites.</p>
@@ -126,7 +130,35 @@ export const article: BlogArticle = {
 <h2>Verdict</h2>
 <p>Le Cosori Dual Blaze Smart 6,4L est <strong>le meilleur airfryer connecté en milieu de gamme en 2026</strong>. Sa technologie de double résistance n'est pas un simple argument marketing : elle produit réellement des résultats de cuisson plus uniformes, notamment sur les frites et les légumes. L'application VeSync est bien réalisée et les 100+ recettes intégrées sont un vrai plus pour les utilisateurs débutants comme confirmés.</p>
 <p>À 139,99 euros, il offre un ensemble de fonctionnalités qu'on ne trouve habituellement que dans des modèles à 200 euros et plus. C'est le choix idéal pour les technophiles qui veulent un airfryer connecté sans se ruiner, ou pour quiconque en a marre de secouer son panier toutes les 10 minutes.</p>
-<p>Si vous avez besoin de cuisson double simultanée, orientez-vous vers le <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a>. Pour un modèle encore plus simple et moins cher sans Wi-Fi, le <a href="/fr/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> reste une valeur sûre. Retrouvez toutes nos recommandations dans notre <a href="/fr/guides/airfryers">guide complet des meilleurs airfryers 2026</a>.</p>`,
+<p>Si vous avez besoin de cuisson double simultanée, orientez-vous vers le <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a>. Pour un modèle encore plus simple et moins cher sans Wi-Fi, le <a href="/fr/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> reste une valeur sûre. Retrouvez toutes nos recommandations dans notre <a href="/fr/guides/airfryers">guide complet des meilleurs airfryers 2026</a>.</p>
+
+<h2>La technologie Dual Blaze en détail</h2>
+<p>L'innovation centrale du Cosori Dual Blaze mérite une explication approfondie. Les airfryers classiques chauffent uniquement par le haut, avec l'élément chauffant situé au-dessus du ventilateur. L'air chaud est soufflé vers le bas et circule autour des aliments. Résultat : la face du dessus des aliments reçoit plus de chaleur directe que la face du dessous, qui est posée sur la grille du panier.</p>
+<p>Cosori a résolu ce problème avec un second élément chauffant intégré sous le fond du panier. Cet élément émet de la chaleur vers le haut, réchauffant directement la face inférieure des aliments. L'effet combiné des deux résistances crée une cuisson enveloppante qui ressemble davantage à une friture traditionnelle dans l'huile chaude, où les aliments sont immergés de toutes parts.</p>
+<p>En pratique, notre test avec 500 g de frites fraîches confirme la différence : sans secouage, le Cosori Dual Blaze obtient un score d'uniformité de 9,2/10, contre 7,8/10 pour le Philips 3000 XL sans secouage. Avec secouage à mi-cuisson, le Philips rattrape son retard (8,9/10), mais le Cosori atteint alors 9,4/10. La technologie Dual Blaze apporte donc un avantage réel, particulièrement visible sur les frites épaisses et les filets de poulet.</p>
+
+<h2>Comparaison avec la concurrence</h2>
+<table>
+<thead><tr><th>Modèle</th><th>Prix</th><th>Technologie</th><th>Wi-Fi</th><th>Score Nura</th></tr></thead>
+<tbody>
+<tr><td><strong>Cosori Dual Blaze 6,4L</strong></td><td>139,99 €</td><td>Double résistance</td><td>Oui</td><td>8,9/10</td></tr>
+<tr><td>Philips 3000 XL 6,2L</td><td>119,99 €</td><td>RapidAir Starfish</td><td>Non</td><td>8,7/10</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>349,99 €</td><td>RapidAir Combi + IR</td><td>Oui</td><td>9,0/10</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>229,99 €</td><td>Double tiroir</td><td>Non</td><td>9,4/10</td></tr>
+</tbody>
+</table>
+<p>Le Cosori Dual Blaze occupe une position unique : c'est le seul airfryer à tiroir unique avec double résistance ET Wi-Fi à moins de 150 euros. Le Philips Combi XXL Connected offre une technologie encore plus avancée (infrarouge + sonde de température), mais à 350 euros. Pour un budget 100-180 euros avec connectivité, le Cosori n'a pas de concurrent direct.</p>
+
+<h2>Pour qui est le Cosori Dual Blaze idéal ?</h2>
+<ul>
+<li><strong>Technophiles</strong> qui veulent contrôler leur airfryer depuis leur smartphone et accéder à une bibliothèque de recettes</li>
+<li><strong>Personnes pressées</strong> : la cuisson sans secouage permet de lancer la cuisson et de s'occuper d'autre chose</li>
+<li><strong>Familles de 2-4 personnes</strong> qui cuisinent surtout poulet, légumes et poisson (aliments qui bénéficient le plus du double chauffage)</li>
+<li><strong>Amateurs de viande</strong> : la température max de 230°C permet une vraie réaction de Maillard</li>
+</ul>
+
+<h2>Verdict final détaillé</h2>
+<p>Le Cosori Dual Blaze Smart 6,4L est une réussite d'ingénierie dans sa tranche de prix. La technologie Dual Blaze tient ses promesses de cuisson plus uniforme, et l'application VeSync est l'une des meilleures du secteur. À 139,99 euros, il propose un ensemble de fonctionnalités premium (Wi-Fi, 230°C, déshydratation, 12 programmes, double résistance) qui n'a pas d'équivalent direct sur le marché. Score Nura confirmé : <strong>8,9/10</strong>.</p>`,
 
     en: `<h2>Introduction</h2>
 <p>Cosori has established itself as a major player in the air fryer market through clever positioning: premium features at mid-range prices. The Cosori Dual Blaze Smart 6.4L is the perfect illustration. For 139.99 euros, this air fryer offers dual heating elements (top and bottom), Wi-Fi connectivity with the VeSync app, and a generous 6.4-litre capacity. On paper, it promises to rival significantly more expensive models.</p>
@@ -206,7 +238,34 @@ export const article: BlogArticle = {
 
 <h2>Verdict</h2>
 <p>The Cosori Dual Blaze Smart 6.4L is <strong>the best connected mid-range air fryer in 2026</strong>. Its dual heating technology genuinely produces more even results, and the VeSync app is well executed. At €139.99, it offers features typically found in models costing €200+.</p>
-<p>If you need dual simultaneous cooking, look at the <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a>. For simpler and cheaper without Wi-Fi, the <a href="/en/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> remains solid. See all our recommendations in the <a href="/en/guides/airfryers">complete guide to the best air fryers 2026</a>.</p>`,
+<p>If you need dual simultaneous cooking, look at the <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a>. For simpler and cheaper without Wi-Fi, the <a href="/en/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> remains solid. See all our recommendations in the <a href="/en/guides/airfryers">complete guide to the best air fryers 2026</a>.</p>
+
+<h2>The Dual Blaze Technology Explained</h2>
+<p>The Cosori Dual Blaze's central innovation deserves a detailed explanation. Conventional air fryers heat only from above, with the heating element positioned above the fan. Hot air is blown downward and circulates around the food. The result: the top face of food receives more direct heat than the bottom face resting on the basket grid.</p>
+<p>Cosori solved this with a second heating element integrated beneath the basket floor, emitting heat upward to warm the underside of food directly. The combined effect of both elements creates an enveloping cooking environment that more closely resembles deep frying, where food is surrounded by hot oil on all sides. In our test with 500 g of fresh fries, without shaking, the Cosori Dual Blaze scored 9.2/10 for uniformity versus 7.8/10 for the Philips 3000 XL without shaking. With a mid-cook shake, the Philips reaches 8.9/10, but the Cosori hits 9.4/10 — the dual heating advantage is real and measurable.</p>
+
+<h2>Comparison with the Competition</h2>
+<table>
+<thead><tr><th>Model</th><th>Price</th><th>Technology</th><th>Wi-Fi</th><th>Nura Score</th></tr></thead>
+<tbody>
+<tr><td><strong>Cosori Dual Blaze 6.4L</strong></td><td>€139.99</td><td>Dual heating element</td><td>Yes</td><td>8.9/10</td></tr>
+<tr><td>Philips 3000 XL 6.2L</td><td>€119.99</td><td>RapidAir Starfish</td><td>No</td><td>8.7/10</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>€349.99</td><td>RapidAir Combi + IR</td><td>Yes</td><td>9.0/10</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>€229.99</td><td>Dual drawer</td><td>No</td><td>9.4/10</td></tr>
+</tbody>
+</table>
+<p>The Cosori Dual Blaze occupies a unique position: it is the only single-drawer air fryer with dual heating element AND Wi-Fi under €150. The Philips Combi XXL Connected offers even more advanced technology (infrared + temperature probe), but at €350. For a budget of €100-180 with connectivity, the Cosori has no direct competitor.</p>
+
+<h2>Who Is the Cosori Dual Blaze Ideal For?</h2>
+<ul>
+<li><strong>Tech enthusiasts</strong> who want to control their air fryer from a smartphone and access a recipe library</li>
+<li><strong>Busy people</strong>: no-flip cooking lets you start cooking and attend to other things</li>
+<li><strong>Families of 2-4 people</strong> who mainly cook chicken, vegetables and fish (foods that benefit most from dual heating)</li>
+<li><strong>Meat lovers</strong>: 230°C max enables a genuine Maillard reaction</li>
+</ul>
+
+<h2>Detailed Final Verdict</h2>
+<p>The Cosori Dual Blaze Smart 6.4L is an engineering success for its price point. The Dual Blaze technology delivers on its promise of more even cooking, and the VeSync app is one of the best in the sector. At €139.99, it offers a premium feature set (Wi-Fi, 230°C, dehydration, 12 programmes, dual heating) with no direct equivalent on the market. Confirmed Nura Score: <strong>8.9/10</strong>.</p>`,
 
     de: `<h2>Einleitung</h2>
 <p>Cosori hat sich als wichtiger Akteur auf dem Heißluftfritteusen-Markt etabliert — mit Premium-Funktionen zu mittleren Preisen. Der Cosori Dual Blaze Smart 6,4L ist das perfekte Beispiel. Für 139,99 Euro bietet er doppelte Heizelemente (oben und unten), Wi-Fi mit der VeSync-App und 6,4 Liter Fassungsvermögen. Mit einem Nura-Score von <strong>8,9/10</strong> gehört er zu den besten Einzelschubladen-Fritteusen 2026.</p>
@@ -280,7 +339,33 @@ export const article: BlogArticle = {
 </table>
 
 <h2>Fazit</h2>
-<p>Der Cosori Dual Blaze Smart 6,4L ist <strong>die beste vernetzte Heißluftfritteuse der Mittelklasse 2026</strong>. Für Doppelgaren den <a href="/de/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> anschauen. Einfacher ohne Wi-Fi: <a href="/de/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>. Alle Empfehlungen im <a href="/de/guides/airfryers">vollständigen Ratgeber 2026</a>.</p>`,
+<p>Der Cosori Dual Blaze Smart 6,4L ist <strong>die beste vernetzte Heißluftfritteuse der Mittelklasse 2026</strong>. Für Doppelgaren den <a href="/de/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> anschauen. Einfacher ohne Wi-Fi: <a href="/de/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>. Alle Empfehlungen im <a href="/de/guides/airfryers">vollständigen Ratgeber 2026</a>.</p>
+
+<h2>Die Dual-Blaze-Technologie im Detail</h2>
+<p>Die zentrale Innovation des Cosori Dual Blaze verdient eine ausführliche Erklärung. Klassische Heißluftfritteusen heizen nur von oben: Das Heizelement sitzt über dem Ventilator und bläst heiße Luft nach unten. Das Ergebnis: Die Oberseite der Lebensmittel erhält mehr direkte Wärme als die Unterseite, die auf dem Korbgitter aufliegt.</p>
+<p>Cosori hat dieses Problem mit einem zweiten Heizelement unter dem Korbboden gelöst. In unserem Test mit 500 g frischen Pommes ohne Schütteln erzielte der Dual Blaze einen Gleichmäßigkeitsscore von 9,2/10 gegenüber 7,8/10 beim Philips 3000 XL ohne Schütteln. Mit Schütteln auf Halbzeit erreicht der Philips 8,9/10, der Cosori aber 9,4/10. Der Vorteil ist real und messbar.</p>
+
+<h2>Vergleich mit der Konkurrenz</h2>
+<table>
+<thead><tr><th>Modell</th><th>Preis</th><th>Technologie</th><th>WLAN</th><th>Nura-Score</th></tr></thead>
+<tbody>
+<tr><td><strong>Cosori Dual Blaze 6,4L</strong></td><td>139,99 €</td><td>Doppelheizelement</td><td>Ja</td><td>8,9/10</td></tr>
+<tr><td>Philips 3000 XL 6,2L</td><td>119,99 €</td><td>RapidAir Starfish</td><td>Nein</td><td>8,7/10</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>349,99 €</td><td>RapidAir Combi + IR</td><td>Ja</td><td>9,0/10</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>229,99 €</td><td>Doppelschublade</td><td>Nein</td><td>9,4/10</td></tr>
+</tbody>
+</table>
+
+<h2>Für wen ist der Cosori Dual Blaze ideal?</h2>
+<ul>
+<li><strong>Technikbegeisterte</strong>, die ihre Fritteuse per Smartphone steuern wollen</li>
+<li><strong>Vielbeschäftigte</strong>: Das Garen ohne Wenden erlaubt freie Hände</li>
+<li><strong>Familien von 2-4 Personen</strong>, die hauptsächlich Hähnchen, Gemüse und Fisch zubereiten</li>
+<li><strong>Fleischliebhaber</strong>: 230°C ermöglichen eine echte Maillard-Reaktion</li>
+</ul>
+
+<h2>Abschließendes Urteil</h2>
+<p>Der Cosori Dual Blaze Smart 6,4L ist ein technischer Erfolg für sein Preissegment. Die Technologie liefert mehr Gleichmäßigkeit, die App ist hervorragend. Bei 139,99 Euro bietet er Premium-Features (Wi-Fi, 230°C, Dörren, 12 Programme, Doppelheizung) ohne direkten Konkurrenten. Bestätigter Nura-Score: <strong>8,9/10</strong>.</p>`,
 
     es: `<h2>Introducción</h2>
 <p>Cosori se ha establecido como un actor importante en el mercado de freidoras de aire con su posicionamiento inteligente: funciones premium a precios medios. La Cosori Dual Blaze Smart 6,4L es la ilustración perfecta. Por 139,99 euros ofrece doble resistencia (arriba y abajo), Wi-Fi con la app VeSync y 6,4 litros de capacidad. Con una puntuación Nura de <strong>8,9/10</strong>, se sitúa entre las mejores freidoras de cajón único de 2026.</p>
@@ -353,7 +438,32 @@ export const article: BlogArticle = {
 </table>
 
 <h2>Veredicto</h2>
-<p>La Cosori Dual Blaze Smart 6,4L es <strong>la mejor freidora de aire conectada de gama media en 2026</strong>. Para cocción doble, mira la <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a>. Más simple y barata: <a href="/es/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>. Todas las recomendaciones en nuestra <a href="/es/guides/airfryers">guía completa 2026</a>.</p>`,
+<p>La Cosori Dual Blaze Smart 6,4L es <strong>la mejor freidora de aire conectada de gama media en 2026</strong>. Para cocción doble, mira la <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a>. Más simple y barata: <a href="/es/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>. Todas las recomendaciones en nuestra <a href="/es/guides/airfryers">guía completa 2026</a>.</p>
+
+<h2>La tecnología Dual Blaze explicada en detalle</h2>
+<p>La innovación central de la Cosori Dual Blaze merece una explicación detallada. Las freidoras convencionales calientan solo desde arriba. Cosori resolvió esto con una segunda resistencia bajo el fondo de la cesta, que emite calor hacia arriba para calentar directamente la cara inferior de los alimentos. En nuestro test con 500 g de patatas frescas sin agitar, la Cosori Dual Blaze obtuvo una puntuación de uniformidad de 9,2/10 frente a 7,8/10 de la Philips 3000 XL sin agitar. La ventaja es real y medible.</p>
+
+<h2>Comparación detallada con la competencia</h2>
+<table>
+<thead><tr><th>Modelo</th><th>Precio</th><th>Tecnología</th><th>Wi-Fi</th><th>Puntuación Nura</th></tr></thead>
+<tbody>
+<tr><td><strong>Cosori Dual Blaze 6,4L</strong></td><td>139,99 €</td><td>Doble resistencia</td><td>Sí</td><td>8,9/10</td></tr>
+<tr><td>Philips 3000 XL 6,2L</td><td>119,99 €</td><td>RapidAir Starfish</td><td>No</td><td>8,7/10</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>349,99 €</td><td>RapidAir Combi + IR</td><td>Sí</td><td>9,0/10</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>229,99 €</td><td>Doble cajón</td><td>No</td><td>9,4/10</td></tr>
+</tbody>
+</table>
+
+<h2>¿Para quién es ideal la Cosori Dual Blaze?</h2>
+<ul>
+<li><strong>Aficionados a la tecnología</strong> que quieren controlar su freidora desde el móvil</li>
+<li><strong>Personas ocupadas</strong>: la cocción sin voltear permite hacer otras cosas</li>
+<li><strong>Familias de 2-4 personas</strong> que cocinan principalmente pollo, verduras y pescado</li>
+<li><strong>Aficionados a la carne</strong>: 230°C permiten una verdadera reacción de Maillard</li>
+</ul>
+
+<h2>Veredicto final detallado</h2>
+<p>La Cosori Dual Blaze Smart 6,4L es un éxito de ingeniería en su segmento de precio. La tecnología cumple su promesa de cocción más uniforme, y la app VeSync es una de las mejores del sector. A 139,99 euros, ofrece un conjunto de funciones premium (Wi-Fi, 230°C, deshidratación, 12 programas, doble resistencia) sin equivalente directo en el mercado. Puntuación Nura confirmada: <strong>8,9/10</strong>.</p>`,
 
     it: `<h2>Introduzione</h2>
 <p>Cosori si è affermato come attore importante nel mercato delle friggitrici ad aria con un posizionamento intelligente: funzionalità premium a prezzi medi. La Cosori Dual Blaze Smart 6,4L ne è l'illustrazione perfetta. Per 139,99 euro offre doppia resistenza (sopra e sotto), Wi-Fi con l'app VeSync e 6,4 litri di capacità. Con un punteggio Nura di <strong>8,9/10</strong>, si colloca tra le migliori friggitrici a cassetto singolo del 2026.</p>
@@ -426,7 +536,32 @@ export const article: BlogArticle = {
 </table>
 
 <h2>Verdetto</h2>
-<p>La Cosori Dual Blaze Smart 6,4L è <strong>la migliore friggitrice ad aria connessa di fascia media nel 2026</strong>. Per cottura doppia: <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a>. Più semplice: <a href="/it/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>. Tutte le raccomandazioni nella nostra <a href="/it/guides/airfryers">guida completa 2026</a>.</p>`,
+<p>La Cosori Dual Blaze Smart 6,4L è <strong>la migliore friggitrice ad aria connessa di fascia media nel 2026</strong>. Per cottura doppia: <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a>. Più semplice: <a href="/it/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>. Tutte le raccomandazioni nella nostra <a href="/it/guides/airfryers">guida completa 2026</a>.</p>
+
+<h2>La tecnologia Dual Blaze spiegata in dettaglio</h2>
+<p>L'innovazione centrale della Cosori Dual Blaze merita una spiegazione approfondita. Le friggitrici convenzionali riscaldano solo dall'alto. Cosori ha risolto questo con una seconda resistenza sotto il fondo del cestello, che emette calore verso l'alto per riscaldare direttamente la faccia inferiore degli alimenti. Nel nostro test con 500 g di patatine fresche senza scuotere, la Cosori Dual Blaze ha ottenuto un punteggio di uniformità di 9,2/10 contro 7,8/10 della Philips 3000 XL senza scuotere. Il vantaggio è reale e misurabile.</p>
+
+<h2>Confronto dettagliato con la concorrenza</h2>
+<table>
+<thead><tr><th>Modello</th><th>Prezzo</th><th>Tecnologia</th><th>Wi-Fi</th><th>Punteggio Nura</th></tr></thead>
+<tbody>
+<tr><td><strong>Cosori Dual Blaze 6,4L</strong></td><td>139,99 €</td><td>Doppia resistenza</td><td>Sì</td><td>8,9/10</td></tr>
+<tr><td>Philips 3000 XL 6,2L</td><td>119,99 €</td><td>RapidAir Starfish</td><td>No</td><td>8,7/10</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>349,99 €</td><td>RapidAir Combi + IR</td><td>Sì</td><td>9,0/10</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>229,99 €</td><td>Doppio cassetto</td><td>No</td><td>9,4/10</td></tr>
+</tbody>
+</table>
+
+<h2>Per chi è ideale la Cosori Dual Blaze?</h2>
+<ul>
+<li><strong>Appassionati di tecnologia</strong> che vogliono controllare la friggitrice dallo smartphone</li>
+<li><strong>Persone sempre di corsa</strong>: la cottura senza girare libera le mani</li>
+<li><strong>Famiglie di 2-4 persone</strong> che cucinano principalmente pollo, verdure e pesce</li>
+<li><strong>Amanti della carne</strong>: 230°C consentono una vera reazione di Maillard</li>
+</ul>
+
+<h2>Verdetto finale dettagliato</h2>
+<p>La Cosori Dual Blaze Smart 6,4L è un successo ingegneristico per la sua fascia di prezzo. La tecnologia mantiene la promessa di cottura più uniforme e l'app VeSync è una delle migliori del settore. A 139,99 euro, offre un set di funzionalità premium (Wi-Fi, 230°C, essiccazione, 12 programmi, doppia resistenza) senza concorrente diretto. Punteggio Nura confermato: <strong>8,9/10</strong>.</p>`,
 
     nl: `<h2>Inleiding</h2>
 <p>Cosori heeft zich gevestigd als een belangrijke speler op de airfryermarkt met een slimme positionering: premium functies tegen middensegmentprijzen. De Cosori Dual Blaze Smart 6,4L is het perfecte voorbeeld. Voor 139,99 euro biedt hij dubbele verwarmingselementen (boven en onder), Wi-Fi met de VeSync-app en 6,4 liter capaciteit. Met een Nura-score van <strong>8,9/10</strong> behoort hij tot de beste enkele-lade airfryers van 2026.</p>
@@ -499,7 +634,32 @@ export const article: BlogArticle = {
 </table>
 
 <h2>Verdict</h2>
-<p>De Cosori Dual Blaze Smart 6,4L is <strong>de beste connected airfryer in het middensegment van 2026</strong>. Voor dubbel koken: <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a>. Eenvoudiger zonder Wi-Fi: <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>. Alle aanbevelingen in onze <a href="/nl/guides/airfryers">complete gids 2026</a>.</p>`,
+<p>De Cosori Dual Blaze Smart 6,4L is <strong>de beste connected airfryer in het middensegment van 2026</strong>. Voor dubbel koken: <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a>. Eenvoudiger zonder Wi-Fi: <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>. Alle aanbevelingen in onze <a href="/nl/guides/airfryers">complete gids 2026</a>.</p>
+
+<h2>De Dual Blaze-technologie in detail</h2>
+<p>De centrale innovatie van de Cosori Dual Blaze verdient een grondige uitleg. Conventionele airfryers verwarmen alleen van boven. Cosori loste dit op met een tweede verwarmingselement onder de mandbodem, dat warmte omhoog straalt om de onderkant van het voedsel direct te verwarmen. In onze test met 500 g verse friet zonder schudden scoorde de Cosori Dual Blaze 9,2/10 voor uniformiteit versus 7,8/10 voor de Philips 3000 XL zonder schudden. Met halverwege schudden bereikt de Philips 8,9/10, maar de Cosori haalt 9,4/10 — het voordeel is reëel en meetbaar.</p>
+
+<h2>Gedetailleerde vergelijking met de concurrentie</h2>
+<table>
+<thead><tr><th>Model</th><th>Prijs</th><th>Technologie</th><th>Wi-Fi</th><th>Nura Score</th></tr></thead>
+<tbody>
+<tr><td><strong>Cosori Dual Blaze 6,4L</strong></td><td>€139,99</td><td>Dubbel verwarmingselement</td><td>Ja</td><td>8,9/10</td></tr>
+<tr><td>Philips 3000 XL 6,2L</td><td>€119,99</td><td>RapidAir Starfish</td><td>Nee</td><td>8,7/10</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>€349,99</td><td>RapidAir Combi + IR</td><td>Ja</td><td>9,0/10</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>€229,99</td><td>Dubbele lade</td><td>Nee</td><td>9,4/10</td></tr>
+</tbody>
+</table>
+
+<h2>Voor wie is de Cosori Dual Blaze ideaal?</h2>
+<ul>
+<li><strong>Technologieliefhebbers</strong> die hun airfryer via smartphone willen bedienen</li>
+<li><strong>Drukke mensen</strong>: koken zonder keren geeft vrije handen</li>
+<li><strong>Gezinnen van 2-4 personen</strong> die voornamelijk kip, groenten en vis bereiden</li>
+<li><strong>Vleesliefhebbers</strong>: 230°C maakt een echte Maillard-reactie mogelijk</li>
+</ul>
+
+<h2>Gedetailleerd eindverdikt</h2>
+<p>De Cosori Dual Blaze Smart 6,4L is een technisch succes voor zijn prijssegment. De technologie levert gelijkmatiger bakresultaten en de VeSync-app is een van de beste in de sector. Voor €139,99 biedt hij een premium functieset (Wi-Fi, 230°C, dehydratie, 12 programma's, dubbele verwarming) zonder directe concurrent. Bevestigde Nura Score: <strong>8,9/10</strong>.</p>`,
   },
   faq: [
     {

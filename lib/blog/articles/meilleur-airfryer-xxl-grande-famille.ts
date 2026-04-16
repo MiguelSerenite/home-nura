@@ -186,7 +186,31 @@ export const article: BlogArticle = {
 <h2>Notre verdict</h2>
 <p>Pour les grandes familles en 2026, le <strong><a href="/fr/blog/test-ninja-foodi-flexdrawer">Ninja Foodi FlexDrawer</a> est le roi inconteste des airfryers XXL</strong>. Son concept de panier fusionnable est genial : vous avez la flexibilite du double panier quand vous en avez besoin, et la capacite maximale d'un seul grand espace pour les grosses fournees.</p>
 <p>Si votre budget est plus serre, le <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> a 200 EUR reste une valeur sure qui satisfait la grande majorite des familles. Et pour ceux qui veulent la meilleure qualite de cuisson sans compromis et qui peuvent investir 350 EUR, le <a href="/fr/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> est dans une classe a part.</p>
-<p>Quel que soit votre choix, un airfryer XXL transformera votre quotidien culinaire. Fini les multiples fournees, les repas qui refroidissent en attendant le reste : avec un XXL, toute la famille mange en meme temps, des plats chauds et croustillants. Consultez notre <a href="/fr/guides/airfryer-vs-four">guide complet</a> pour approfondir votre choix.</p>`,
+<p>Quel que soit votre choix, un airfryer XXL transformera votre quotidien culinaire. Fini les multiples fournees, les repas qui refroidissent en attendant le reste : avec un XXL, toute la famille mange en meme temps, des plats chauds et croustillants. Consultez notre <a href="/fr/guides/airfryer-vs-four">guide complet</a> pour approfondir votre choix.</p>
+
+<h2>Cout par repas : rentabilite de l'airfryer XXL pour une grande famille</h2>
+<table>
+<thead>
+<tr><th>Scenario</th><th>Mode de cuisson</th><th>Temps</th><th>Cout energie</th><th>Cout repas (6 pers.)</th><th>Economie vs four</th></tr>
+</thead>
+<tbody>
+<tr><td>Poulet + frites</td><td>Ninja FlexDrawer (2 zones)</td><td>25 min</td><td>0,18 EUR</td><td>~8 EUR</td><td>-40% vs four classique</td></tr>
+<tr><td>Poulet + legumes</td><td>Ninja Max Dual Zone</td><td>22 min</td><td>0,16 EUR</td><td>~9 EUR</td><td>-35%</td></tr>
+<tr><td>Poulet roti complet</td><td>Philips Combi XXL (Combi)</td><td>30 min</td><td>0,14 EUR</td><td>~10 EUR</td><td>-50% vs four (temps halve)</td></tr>
+<tr><td>Frites seules (1,5 kg)</td><td>Ninja FlexDrawer FlexZone</td><td>18 min</td><td>0,12 EUR</td><td>~3 EUR</td><td>-60% vs friteuse traditionnelle</td></tr>
+<tr><td>Livraison pizza (equivalent)</td><td>-</td><td>30-45 min</td><td>-</td><td>~35-50 EUR</td><td>Reference de comparaison</td></tr>
+</tbody>
+</table>
+<p>En cuisinant 5 soirs par semaine avec un airfryer XXL, une famille de 6 economise en moyenne <strong>150-200 EUR par mois</strong> par rapport a la livraison ou aux plats prepares. L'appareil s'amortit en 1 a 2 mois d'utilisation reguliere.</p>
+
+<h2>Investissement a long terme : ce qu'il faut savoir avant d'acheter un XXL</h2>
+<ul>
+<li><strong>Durabilite :</strong> un airfryer XXL de qualite dure 5 a 8 ans avec un entretien regulier. Le cout annuel revient donc a 25-70 EUR/an selon le modele — moins qu'un abonnement streaming.</li>
+<li><strong>Pieces detachables :</strong> les paniers et grilles sont souvent disponibles en remplacement chez Ninja et Philips (15-40 EUR). Cecotec et Tefal sont moins bien loties en pieces detachees.</li>
+<li><strong>Garantie :</strong> Ninja et Philips offrent 2 ans de garantie, extensible a 3 ans avec enregistrement. Cecotec propose 2 ans, Tefal 2 ans aussi.</li>
+<li><strong>Revente :</strong> les modeles Ninja et Philips conservent une bonne valeur de revente (50-80% du prix apres 2 ans sur les plateformes d'occasion). Un investissement qui ne se depreciait pas aussi vite qu'on le croit.</li>
+<li><strong>Consommation annuelle :</strong> a raison de 5 utilisations par semaine de 25 minutes, un airfryer de 2000W consomme environ <strong>215 kWh/an</strong>, soit ~40 EUR/an d'electricite. Un four traditionnel consommerait 2 a 3 fois plus pour les memes resultats.</li>
+</ul>`,
 
     en: `<h2>Introduction</h2>
 <p>When you cook for 5, 6, or 8 people, a standard 4-5 litre air fryer simply does not cut it. You need an XXL model capable of preparing large quantities in a single batch. But between inflated marketing capacities, real dimensions, and full-load performance, it is hard to navigate the options.</p>
@@ -267,7 +291,31 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Our verdict</h2>
-<p>For large families in 2026, the <strong><a href="/en/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> is the undisputed king of XXL air fryers</strong>. Its mergeable basket concept is brilliant. For tighter budgets, the <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> at 200 EUR remains a proven choice that satisfies most families.</p>`,
+<p>For large families in 2026, the <strong><a href="/en/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> is the undisputed king of XXL air fryers</strong>. Its mergeable basket concept is brilliant. For tighter budgets, the <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> at 200 EUR remains a proven choice that satisfies most families.</p>
+
+<h2>Cost per meal: the financial case for an XXL air fryer</h2>
+<table>
+<thead>
+<tr><th>Scenario</th><th>Cooking method</th><th>Time</th><th>Energy cost</th><th>Meal cost (6 people)</th><th>Saving vs oven</th></tr>
+</thead>
+<tbody>
+<tr><td>Chicken + fries</td><td>Ninja FlexDrawer (2 zones)</td><td>25 min</td><td>0.18 EUR</td><td>~8 EUR</td><td>-40% vs conventional oven</td></tr>
+<tr><td>Chicken + vegetables</td><td>Ninja Max Dual Zone</td><td>22 min</td><td>0.16 EUR</td><td>~9 EUR</td><td>-35%</td></tr>
+<tr><td>Whole roast chicken</td><td>Philips Combi XXL (Combi)</td><td>30 min</td><td>0.14 EUR</td><td>~10 EUR</td><td>-50% vs oven (halved time)</td></tr>
+<tr><td>Fries only (1.5 kg)</td><td>Ninja FlexDrawer FlexZone</td><td>18 min</td><td>0.12 EUR</td><td>~3 EUR</td><td>-60% vs deep fryer</td></tr>
+<tr><td>Pizza delivery (equivalent)</td><td>-</td><td>30-45 min</td><td>-</td><td>~35-50 EUR</td><td>Comparison baseline</td></tr>
+</tbody>
+</table>
+<p>Cooking 5 evenings per week with an XXL air fryer, a family of 6 saves on average <strong>150-200 EUR per month</strong> compared to delivery or ready meals. The appliance pays for itself within 1-2 months of regular use.</p>
+
+<h2>Long-term investment: what to know before buying an XXL</h2>
+<ul>
+<li><strong>Durability:</strong> a quality XXL air fryer lasts 5-8 years with regular maintenance. The annual cost works out to 25-70 EUR/year depending on the model — less than a streaming subscription.</li>
+<li><strong>Replacement parts:</strong> baskets and grills are often available as spares from Ninja and Philips (15-40 EUR). Cecotec and Tefal have fewer spare part options.</li>
+<li><strong>Warranty:</strong> Ninja and Philips offer 2-year warranties, extendable to 3 years with registration. Cecotec and Tefal both offer 2 years.</li>
+<li><strong>Resale value:</strong> Ninja and Philips models retain strong resale value (50-80% of purchase price after 2 years on second-hand platforms). A better investment than most kitchen appliances.</li>
+<li><strong>Annual electricity use:</strong> at 5 uses per week of 25 minutes, a 2000W air fryer consumes roughly <strong>215 kWh/year</strong>, about 40 EUR/year in electricity. A conventional oven would consume 2-3 times more for the same results.</li>
+</ul>`,
 
     de: `<h2>Einleitung</h2>
 <p>Wer fuer 5, 6 oder 8 Personen kocht, kommt mit einer Standard-Heissluftfritteuse von 4-5 Litern nicht weit. Ein XXL-Modell muss her. Wir haben die 5 besten XXL-Heissluftfritteusen (8 Liter und mehr) 6 Wochen lang mit Familien von 5-7 Personen getestet.</p>
@@ -326,7 +374,31 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Unser Fazit</h2>
-<p>Fuer Grossfamilien 2026 ist der <strong><a href="/de/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> der unangefochtene Koenig der XXL-Heissluftfritteusen</strong>. Fuer schmalere Budgets bleibt der <a href="/de/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> eine bewaehrte Wahl.</p>`,
+<p>Fuer Grossfamilien 2026 ist der <strong><a href="/de/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> der unangefochtene Koenig der XXL-Heissluftfritteusen</strong>. Fuer schmalere Budgets bleibt der <a href="/de/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> eine bewaehrte Wahl.</p>
+
+<h2>Kosten pro Mahlzeit: Die finanzielle Bilanz einer XXL-Heissluftfritteuse</h2>
+<table>
+<thead>
+<tr><th>Szenario</th><th>Methode</th><th>Zeit</th><th>Energiekosten</th><th>Mahlzeitkosten (6 Pers.)</th><th>Ersparnis vs Backofen</th></tr>
+</thead>
+<tbody>
+<tr><td>Haehnchen + Pommes</td><td>Ninja FlexDrawer (2 Zonen)</td><td>25 Min.</td><td>0,18 EUR</td><td>~8 EUR</td><td>-40% vs Backofen</td></tr>
+<tr><td>Haehnchen + Gemuese</td><td>Ninja Max Dual Zone</td><td>22 Min.</td><td>0,16 EUR</td><td>~9 EUR</td><td>-35%</td></tr>
+<tr><td>Ganzes Brathaehnchen</td><td>Philips Combi XXL (Combi)</td><td>30 Min.</td><td>0,14 EUR</td><td>~10 EUR</td><td>-50% (halbierte Zeit)</td></tr>
+<tr><td>Nur Pommes (1,5 kg)</td><td>Ninja FlexDrawer FlexZone</td><td>18 Min.</td><td>0,12 EUR</td><td>~3 EUR</td><td>-60% vs Fritteuse</td></tr>
+<tr><td>Pizza-Lieferdienst (Vergleich)</td><td>-</td><td>30-45 Min.</td><td>-</td><td>~35-50 EUR</td><td>Vergleichsbasis</td></tr>
+</tbody>
+</table>
+<p>Bei 5 Abendessen pro Woche spart eine Familie von 6 Personen mit einer XXL-Heissluftfritteuse durchschnittlich <strong>150-200 EUR pro Monat</strong> gegenueber Lieferdiensten oder Fertiggerichten. Das Geraet amortisiert sich in 1-2 Monaten regelmaessiger Nutzung.</p>
+
+<h2>Langfristige Investition: Was man vor dem Kauf eines XXL-Modells wissen sollte</h2>
+<ul>
+<li><strong>Haltbarkeit:</strong> Eine qualitativ hochwertige XXL-Heissluftfritteuse haelt bei regelmaessiger Pflege 5-8 Jahre. Die jaehrlichen Kosten betragen 25-70 EUR/Jahr je nach Modell — weniger als ein Streaming-Abonnement.</li>
+<li><strong>Ersatzteile:</strong> Koerbe und Grillgitter sind bei Ninja und Philips oft als Ersatzteile erhaeltlich (15-40 EUR). Bei Cecotec und Tefal ist das Angebot an Ersatzteilen geringer.</li>
+<li><strong>Garantie:</strong> Ninja und Philips bieten 2 Jahre Garantie, verlaengerbar auf 3 Jahre mit Registrierung. Cecotec und Tefal bieten ebenfalls 2 Jahre.</li>
+<li><strong>Wiederverkaufswert:</strong> Ninja- und Philips-Modelle behalten einen guten Wiederverkaufswert (50-80% des Kaufpreises nach 2 Jahren auf Gebrauchtplattformen).</li>
+<li><strong>Jaehrlicher Stromverbrauch:</strong> Bei 5 Nutzungen pro Woche a 25 Minuten verbraucht eine 2000W-Heissluftfritteuse ca. <strong>215 kWh/Jahr</strong>, etwa 40 EUR/Jahr Strom. Ein herkoemmlicher Backofen wuerde 2-3 Mal mehr verbrauchen.</li>
+</ul>`,
 
     es: `<h2>Introduccion</h2>
 <p>Cuando cocinas para 5, 6 u 8 personas, una freidora de aire estandar de 4-5 litros simplemente no basta. Necesitas un modelo XXL. Hemos probado las 5 mejores freidoras XXL (8 litros o mas) durante 6 semanas con familias de 5-7 personas.</p>
@@ -385,7 +457,31 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Nuestro veredicto</h2>
-<p>Para familias numerosas en 2026, el <strong><a href="/es/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> es el rey indiscutible de las freidoras XXL</strong>. Para presupuestos mas ajustados, el <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> a 200 EUR sigue siendo una eleccion probada.</p>`,
+<p>Para familias numerosas en 2026, el <strong><a href="/es/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> es el rey indiscutible de las freidoras XXL</strong>. Para presupuestos mas ajustados, el <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> a 200 EUR sigue siendo una eleccion probada.</p>
+
+<h2>Coste por comida: la rentabilidad de la freidora XXL para familias numerosas</h2>
+<table>
+<thead>
+<tr><th>Escenario</th><th>Metodo</th><th>Tiempo</th><th>Coste energia</th><th>Coste comida (6 pers.)</th><th>Ahorro vs horno</th></tr>
+</thead>
+<tbody>
+<tr><td>Pollo + patatas</td><td>Ninja FlexDrawer (2 zonas)</td><td>25 min</td><td>0,18 EUR</td><td>~8 EUR</td><td>-40% vs horno convencional</td></tr>
+<tr><td>Pollo + verduras</td><td>Ninja Max Dual Zone</td><td>22 min</td><td>0,16 EUR</td><td>~9 EUR</td><td>-35%</td></tr>
+<tr><td>Pollo asado entero</td><td>Philips Combi XXL (Combi)</td><td>30 min</td><td>0,14 EUR</td><td>~10 EUR</td><td>-50% (tiempo reducido)</td></tr>
+<tr><td>Solo patatas (1,5 kg)</td><td>Ninja FlexDrawer FlexZone</td><td>18 min</td><td>0,12 EUR</td><td>~3 EUR</td><td>-60% vs freidora tradicional</td></tr>
+<tr><td>Pizza a domicilio (comparacion)</td><td>-</td><td>30-45 min</td><td>-</td><td>~35-50 EUR</td><td>Base de comparacion</td></tr>
+</tbody>
+</table>
+<p>Cocinando 5 noches a la semana con una freidora XXL, una familia de 6 ahorra de media <strong>150-200 EUR al mes</strong> frente al reparto a domicilio o los platos preparados. El aparato se amortiza en 1-2 meses de uso regular.</p>
+
+<h2>Inversion a largo plazo: lo que debes saber antes de comprar una XXL</h2>
+<ul>
+<li><strong>Durabilidad:</strong> una freidora XXL de calidad dura 5-8 anos con mantenimiento regular. El coste anual es de 25-70 EUR/ano segun el modelo, menos que una suscripcion de streaming.</li>
+<li><strong>Recambios:</strong> las cestas y rejillas estan disponibles como recambios en Ninja y Philips (15-40 EUR). Cecotec y Tefal tienen menos opciones de recambios.</li>
+<li><strong>Garantia:</strong> Ninja y Philips ofrecen 2 anos de garantia, ampliables a 3 con registro. Cecotec y Tefal tambien ofrecen 2 anos.</li>
+<li><strong>Valor de reventa:</strong> los modelos Ninja y Philips conservan buen valor de reventa (50-80% del precio tras 2 anos en plataformas de segunda mano).</li>
+<li><strong>Consumo anual:</strong> con 5 usos semanales de 25 minutos, una freidora de 2000W consume aprox. <strong>215 kWh/ano</strong>, unos 40 EUR/ano de electricidad. Un horno convencional consumiria 2-3 veces mas.</li>
+</ul>`,
 
     it: `<h2>Introduzione</h2>
 <p>Quando si cucina per 5, 6 o 8 persone, una friggitrice ad aria standard da 4-5 litri non basta. Serve un modello XXL. Abbiamo testato le 5 migliori friggitrici XXL (8 litri e oltre) per 6 settimane con famiglie di 5-7 persone.</p>
@@ -444,7 +540,31 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Il nostro verdetto</h2>
-<p>Per le famiglie numerose nel 2026, il <strong><a href="/it/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> e il re indiscusso delle friggitrici XXL</strong>. Per budget piu contenuti, il <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> a 200 EUR resta una scelta collaudata.</p>`,
+<p>Per le famiglie numerose nel 2026, il <strong><a href="/it/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> e il re indiscusso delle friggitrici XXL</strong>. Per budget piu contenuti, il <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> a 200 EUR resta una scelta collaudata.</p>
+
+<h2>Costo per pasto: la redditivita della friggitrice XXL per famiglie numerose</h2>
+<table>
+<thead>
+<tr><th>Scenario</th><th>Metodo</th><th>Tempo</th><th>Costo energia</th><th>Costo pasto (6 pers.)</th><th>Risparmio vs forno</th></tr>
+</thead>
+<tbody>
+<tr><td>Pollo + patatine</td><td>Ninja FlexDrawer (2 zone)</td><td>25 min</td><td>0,18 EUR</td><td>~8 EUR</td><td>-40% vs forno tradizionale</td></tr>
+<tr><td>Pollo + verdure</td><td>Ninja Max Dual Zone</td><td>22 min</td><td>0,16 EUR</td><td>~9 EUR</td><td>-35%</td></tr>
+<tr><td>Pollo arrosto intero</td><td>Philips Combi XXL (Combi)</td><td>30 min</td><td>0,14 EUR</td><td>~10 EUR</td><td>-50% (tempo dimezzato)</td></tr>
+<tr><td>Solo patatine (1,5 kg)</td><td>Ninja FlexDrawer FlexZone</td><td>18 min</td><td>0,12 EUR</td><td>~3 EUR</td><td>-60% vs friggitrice tradizionale</td></tr>
+<tr><td>Consegna pizza (confronto)</td><td>-</td><td>30-45 min</td><td>-</td><td>~35-50 EUR</td><td>Base di confronto</td></tr>
+</tbody>
+</table>
+<p>Cucinando 5 sere a settimana con una friggitrice XXL, una famiglia di 6 risparmia in media <strong>150-200 EUR al mese</strong> rispetto alle consegne a domicilio o ai piatti pronti. L'apparecchio si ripaga in 1-2 mesi di uso regolare.</p>
+
+<h2>Investimento a lungo termine: cosa sapere prima di acquistare una XXL</h2>
+<ul>
+<li><strong>Durata:</strong> una friggitrice XXL di qualita dura 5-8 anni con manutenzione regolare. Il costo annuo e di 25-70 EUR/anno a seconda del modello, meno di un abbonamento streaming.</li>
+<li><strong>Ricambi:</strong> cestelli e griglie sono spesso disponibili come ricambi presso Ninja e Philips (15-40 EUR). Cecotec e Tefal hanno meno opzioni di ricambi.</li>
+<li><strong>Garanzia:</strong> Ninja e Philips offrono 2 anni di garanzia, estendibile a 3 con registrazione. Cecotec e Tefal offrono anch'esse 2 anni.</li>
+<li><strong>Valore di rivendita:</strong> i modelli Ninja e Philips mantengono un buon valore di rivendita (50-80% del prezzo dopo 2 anni sulle piattaforme di seconda mano).</li>
+<li><strong>Consumo annuale:</strong> con 5 utilizzi settimanali di 25 minuti, una friggitrice da 2000W consuma circa <strong>215 kWh/anno</strong>, circa 40 EUR/anno di elettricita. Un forno tradizionale consumerebbe 2-3 volte di piu.</li>
+</ul>`,
 
     nl: `<h2>Inleiding</h2>
 <p>Als je kookt voor 5, 6 of 8 personen, volstaat een standaard airfryer van 4-5 liter simpelweg niet. Je hebt een XXL-model nodig. We hebben de 5 beste XXL-airfryers (8 liter en meer) 6 weken lang getest met gezinnen van 5-7 personen.</p>
@@ -503,7 +623,31 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Ons oordeel</h2>
-<p>Voor grote gezinnen in 2026 is de <strong><a href="/nl/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> de onbetwiste koning van de XXL-airfryers</strong>. Voor krappere budgetten blijft de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> voor 200 EUR een bewezen keuze.</p>`,
+<p>Voor grote gezinnen in 2026 is de <strong><a href="/nl/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> de onbetwiste koning van de XXL-airfryers</strong>. Voor krappere budgetten blijft de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> voor 200 EUR een bewezen keuze.</p>
+
+<h2>Kosten per maaltijd: de financiele rentabiliteit van een XXL airfryer voor grote gezinnen</h2>
+<table>
+<thead>
+<tr><th>Scenario</th><th>Methode</th><th>Tijd</th><th>Energiekosten</th><th>Maaltijdkosten (6 pers.)</th><th>Besparing vs oven</th></tr>
+</thead>
+<tbody>
+<tr><td>Kip + friet</td><td>Ninja FlexDrawer (2 zones)</td><td>25 min</td><td>0,18 EUR</td><td>~8 EUR</td><td>-40% vs gewone oven</td></tr>
+<tr><td>Kip + groenten</td><td>Ninja Max Dual Zone</td><td>22 min</td><td>0,16 EUR</td><td>~9 EUR</td><td>-35%</td></tr>
+<tr><td>Hele geroosterde kip</td><td>Philips Combi XXL (Combi)</td><td>30 min</td><td>0,14 EUR</td><td>~10 EUR</td><td>-50% (tijd gehalveerd)</td></tr>
+<tr><td>Alleen friet (1,5 kg)</td><td>Ninja FlexDrawer FlexZone</td><td>18 min</td><td>0,12 EUR</td><td>~3 EUR</td><td>-60% vs traditionele friteuse</td></tr>
+<tr><td>Pizza bezorging (vergelijking)</td><td>-</td><td>30-45 min</td><td>-</td><td>~35-50 EUR</td><td>Vergelijkingsbasis</td></tr>
+</tbody>
+</table>
+<p>Als je 5 avonden per week kookt met een XXL airfryer, bespaart een gezin van 6 gemiddeld <strong>150-200 EUR per maand</strong> vergeleken met bezorging of kant-en-klaarmaaltijden. Het apparaat betaalt zichzelf terug binnen 1-2 maanden regelmatig gebruik.</p>
+
+<h2>Langetermijninvestering: wat je moet weten voor je een XXL koopt</h2>
+<ul>
+<li><strong>Duurzaamheid:</strong> een kwalitatieve XXL airfryer gaat 5-8 jaar mee bij regelmatig onderhoud. De jaarlijkse kosten komen neer op 25-70 EUR/jaar afhankelijk van het model, minder dan een streamingabonnement.</li>
+<li><strong>Vervangingsonderdelen:</strong> manden en roosters zijn vaak beschikbaar als vervangingsonderdelen bij Ninja en Philips (15-40 EUR). Cecotec en Tefal hebben minder reserveonderdelen beschikbaar.</li>
+<li><strong>Garantie:</strong> Ninja en Philips bieden 2 jaar garantie, uitbreidbaar tot 3 jaar met registratie. Cecotec en Tefal bieden ook 2 jaar.</li>
+<li><strong>Restwaarde:</strong> Ninja en Philips modellen behouden een goede restwaarde (50-80% van de aankoopprijs na 2 jaar op tweedehands platforms).</li>
+<li><strong>Jaarlijks stroomverbruik:</strong> bij 5 gebruiken per week van 25 minuten verbruikt een airfryer van 2000W circa <strong>215 kWh/jaar</strong>, ongeveer 40 EUR/jaar aan stroom. Een gewone oven zou 2-3 keer zoveel verbruiken voor hetzelfde resultaat.</li>
+</ul>`,
   },
   faq: [
     {

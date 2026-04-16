@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 15,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71oqTPrGJeL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Nettoyeur vapeur sol multi-surfaces écologique sans produits chimiques',
         en: 'Steam cleaner floor multi-surface ecological without chemicals',

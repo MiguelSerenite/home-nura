@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 16,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71YV3bW9TyL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Ampoules connectees de differentes marques dans un salon moderne',
         en: 'Smart bulbs from different brands in a modern living room',

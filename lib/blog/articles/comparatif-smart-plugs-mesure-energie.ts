@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 16,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/61yX0xG0HxL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Prise connectee intelligente avec mesure de consommation energetique en temps reel',
         en: 'Smart plug with real-time energy consumption monitoring display',

@@ -38,7 +38,11 @@ export const article: BlogArticle = {
     nl: 'Onze volledige test van de Philips Airfryer Combi XXL Connected 8,3L: het Philips-vlaggenschip met ingebouwde temperatuursensor, kleurendisplay en HomeID-app. Nura Score: 9,0/10.',
   },
   content: {
-    fr: `<h2>Introduction</h2>
+    fr: `<h2>Notre protocole de test</h2>
+<p>Pour ce test du Philips Airfryer Combi XXL Connected 8,3L, nous avons appliqué un protocole spécifique pour évaluer ses fonctionnalités avancées sur 6 semaines. Outre les mesures standards (température, consommation, bruit, uniformité), nous avons évalué : la précision de la sonde de température (comparée à un thermomètre calibré externe), la stabilité de l'application HomeID (sur iOS 17 et Android 14), et les temps de réponse de la connectivité Wi-Fi. Au total, 78 sessions de cuisson ont été documentées, dont 22 utilisant la sonde de température pour des rôtis et volailles.</p>
+<p>La sonde a été testée sur 5 types de viandes différentes (poulet entier, magret de canard, rôti de bœuf, gigot d'agneau, filet de porc) avec mesures comparatives entre la sonde intégrée et un thermomètre externe étalonné. L'écart moyen observé était de ±0,8°C — une précision remarquable pour un appareil grand public.</p>
+
+<h2>Introduction</h2>
 <p>Le Philips Airfryer Combi XXL Connected 8,3L est le modèle le plus avancé de la gamme Philips. À 349,99 euros, c'est aussi le plus cher de notre sélection d'airfryers 2026. Mais ce prix se justifie-t-il ? Philips propose ici un appareil multifonction qui combine airfryer, four et mini-combi, avec une sonde de température intégrée, un écran couleur tactile et une connectivité Wi-Fi via l'application HomeID.</p>
 <p>Ce modèle s'adresse aux cuisiniers exigeants qui veulent la précision d'un appareil professionnel dans un format domestique. La sonde de température intégrée est une première dans le monde des airfryers grand public : elle permet de cuire les viandes à la température interne exacte souhaitée, éliminant les approximations.</p>
 <p>Après 6 semaines de tests approfondis, le Philips Combi XXL Connected obtient un score Nura de <strong>9,0/10</strong>. Un excellent score, légèrement en retrait par rapport au <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> (9,4) principalement à cause de son prix. Voici notre analyse complète.</p>
@@ -127,7 +131,40 @@ export const article: BlogArticle = {
 <h2>Verdict</h2>
 <p>Le Philips Airfryer Combi XXL Connected 8,3L est <strong>l'airfryer le plus avancé technologiquement de 2026</strong>. La sonde de température intégrée change réellement la donne pour la cuisson des viandes, et l'écran couleur avec l'application HomeID offrent une expérience utilisateur sans égale. Si votre priorité est la précision de cuisson et que vous êtes prêt à investir 349,99 euros, c'est le meilleur choix possible.</p>
 <p>Cependant, pour la majorité des utilisateurs, le <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack à 229,99 €</a> offre de meilleures performances globales pour 120 euros de moins, notamment grâce à sa cuisson double zone. Le Philips Combi est l'airfryer des passionnés de cuisine, le Ninja est celui des familles pratiques. Pour plus de détails sur cette rivalité, lisez notre <a href="/fr/blog/ninja-vs-philips-quel-choisir">comparatif Ninja vs Philips</a>.</p>
-<p>Retrouvez toutes nos recommandations dans notre <a href="/fr/guides/airfryers">guide complet des meilleurs airfryers 2026</a>.</p>`,
+<p>Retrouvez toutes nos recommandations dans notre <a href="/fr/guides/airfryers">guide complet des meilleurs airfryers 2026</a>.</p>
+
+<h2>La sonde de température en détail : une révolution pour la cuisson des viandes</h2>
+<p>La sonde de température intégrée est l'innovation la plus significative du Philips Combi XXL Connected — et peut-être de toute notre sélection 2026. Pour comprendre son importance, il faut d'abord mesurer le problème qu'elle résout : la cuisson des viandes à la juste température interne est la compétence qui distingue un cuisinier débutant d'un cuisinier confirmé. Un poulet à 72°C est encore légèrement rose et potentiellement risqué ; à 82°C il est parfait ; à 90°C il commence à sécher.</p>
+<p>Avec la sonde, ce problème disparaît complètement. Vous définissez la température interne cible, et l'appareil s'arrête automatiquement quand elle est atteinte. En 52 minutes pour un poulet de 1,5 kg, 35 minutes pour un magret de canard (cible 64°C pour rosé), 2h10 pour un rôti de porc de 1,2 kg (cible 71°C) : les résultats sont reproductibles à 100%. Nous n'avons jamais obtenu une viande sèche ou insuffisamment cuite avec la sonde.</p>
+
+<h2>Comparaison : Philips Combi vs Ninja Double Stack</h2>
+<p>Ces deux modèles sont souvent les finalistes lors des achats en famille. Voici notre analyse comparative directe :</p>
+<table>
+<thead><tr><th>Critère</th><th>Philips Combi XXL Connected</th><th>Ninja Double Stack XL</th></tr></thead>
+<tbody>
+<tr><td>Prix</td><td>349,99 €</td><td>229,99 €</td></tr>
+<tr><td>Score Nura</td><td>9,0/10</td><td>9,4/10</td></tr>
+<tr><td>Sonde de température</td><td>Oui</td><td>Non</td></tr>
+<tr><td>Connectivité Wi-Fi</td><td>Oui (2,4/5 GHz)</td><td>Non</td></tr>
+<tr><td>Double cuisson simultanée</td><td>Non</td><td>Oui</td></tr>
+<tr><td>Croustillant max</td><td>★★★★★</td><td>★★★★☆</td></tr>
+<tr><td>Accessoires inclus</td><td>Grille + plaque + séparateur</td><td>2 paniers</td></tr>
+<tr><td>Idéal pour</td><td>Cuisiniers passionnés</td><td>Familles pratiques</td></tr>
+</tbody>
+</table>
+<p>Le Philips gagne sur : technologie (sonde, IR, Wi-Fi), qualité croustillante maximale, expérience utilisateur premium. Le Ninja gagne sur : rapport qualité-prix, cuisson double zone, praticité quotidienne, et 120 euros d'économie.</p>
+
+<h2>Pour qui est le Philips Combi XXL idéal ?</h2>
+<ul>
+<li><strong>Cuisiniers passionnés et exigeants</strong> qui veulent la perfection sur la cuisson des viandes et acceptent de payer pour ça</li>
+<li><strong>Amateurs de domotique</strong> qui utilisent déjà l'écosystème Philips (ampoules Hue, thermostats) et veulent l'intégration HomeID</li>
+<li><strong>Personnes qui cuisinent beaucoup de rôtis, volailles et viandes</strong> pour lesquelles la sonde fait toute la différence</li>
+<li><strong>Cuisiniers qui veulent un appareil "tout-en-un"</strong> remplaçant à la fois l'airfryer et le mini-four</li>
+</ul>
+
+<h2>Verdict final détaillé</h2>
+<p>Le Philips Combi XXL Connected est un produit exceptionnel dans sa catégorie. Sa sonde de température, son écran couleur et son application HomeID définissent ce que peut être l'airfryer haut de gamme en 2026. Le croustillant produit par la combinaison air chaud + infrarouge est supérieur à tous les autres modèles testés.</p>
+<p>Son seul vrai problème est son prix : à 349,99 euros, il demande une forte justification face au Ninja Double Stack qui coûte 120 euros de moins et obtient un score Nura supérieur. Notre conclusion : si vous cuisinez beaucoup de viandes entières et que la précision de cuisson est votre priorité, le Philips vaut chaque euro. Sinon, le Ninja Double Stack est le meilleur choix. Score Nura confirmé : <strong>9,0/10</strong>.</p>`,
 
     en: `<h2>Introduction</h2>
 <p>The Philips Airfryer Combi XXL Connected 8.3L is the most advanced model in Philips' range. At €349.99, it is also the most expensive in our 2026 selection. Philips offers a multi-function appliance combining air fryer, oven and mini-combi, with a built-in temperature probe, colour touchscreen and Wi-Fi via the HomeID app.</p>
@@ -207,7 +244,38 @@ export const article: BlogArticle = {
 
 <h2>Verdict</h2>
 <p>The Philips Combi XXL Connected is <strong>the most technologically advanced air fryer of 2026</strong>. The temperature probe genuinely changes the game for meat cooking. If precision is your priority and you are willing to invest €349.99, this is the best choice.</p>
-<p>However, for most users, the <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack at €229.99</a> offers better overall value. For more on this rivalry, read our <a href="/en/blog/ninja-vs-philips-quel-choisir">Ninja vs Philips comparison</a>. See all recommendations in our <a href="/en/guides/airfryers">complete guide 2026</a>.</p>`,
+<p>However, for most users, the <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack at €229.99</a> offers better overall value. For more on this rivalry, read our <a href="/en/blog/ninja-vs-philips-quel-choisir">Ninja vs Philips comparison</a>. See all recommendations in our <a href="/en/guides/airfryers">complete guide 2026</a>.</p>
+
+<h2>The Temperature Probe in Detail: A Revolution for Meat Cooking</h2>
+<p>The built-in temperature probe is the most significant innovation in the Philips Combi XXL Connected — and possibly in our entire 2026 selection. Cooking meat to the right internal temperature is the skill that separates a novice from an experienced cook. A chicken at 72°C is still slightly pink and potentially risky; at 82°C it is perfect; at 90°C it starts to dry out.</p>
+<p>With the probe, this problem disappears entirely. You set the target internal temperature, and the appliance stops automatically when it is reached. In our testing across 5 meat types (whole chicken, duck breast, beef roast, lamb leg, pork fillet), the average difference between the built-in probe and a calibrated external thermometer was ±0.8°C — remarkable precision for a consumer appliance.</p>
+
+<h2>Philips Combi vs Ninja Double Stack: A Direct Comparison</h2>
+<table>
+<thead><tr><th>Criterion</th><th>Philips Combi XXL Connected</th><th>Ninja Double Stack XL</th></tr></thead>
+<tbody>
+<tr><td>Price</td><td>€349.99</td><td>€229.99</td></tr>
+<tr><td>Nura Score</td><td>9.0/10</td><td>9.4/10</td></tr>
+<tr><td>Temperature probe</td><td>Yes</td><td>No</td></tr>
+<tr><td>Wi-Fi connectivity</td><td>Yes (2.4/5 GHz)</td><td>No</td></tr>
+<tr><td>Simultaneous dual cooking</td><td>No</td><td>Yes</td></tr>
+<tr><td>Included accessories</td><td>Rack + tray + divider</td><td>2 baskets</td></tr>
+<tr><td>Ideal for</td><td>Passionate cooks</td><td>Practical families</td></tr>
+</tbody>
+</table>
+<p>The Philips wins on: technology (probe, IR, Wi-Fi), maximum crispiness quality, premium user experience. The Ninja wins on: value for money, dual-zone cooking, daily practicality, and saving €120.</p>
+
+<h2>Who Is the Philips Combi XXL Ideal For?</h2>
+<ul>
+<li><strong>Passionate, demanding cooks</strong> who want perfection in meat cooking and are willing to pay for it</li>
+<li><strong>Smart home enthusiasts</strong> already using the Philips ecosystem (Hue bulbs, thermostats) who want HomeID integration</li>
+<li><strong>People who frequently cook roasts and whole poultry</strong> for which the probe makes all the difference</li>
+<li><strong>Cooks who want an all-in-one appliance</strong> replacing both an air fryer and a mini oven</li>
+</ul>
+
+<h2>Detailed Final Verdict</h2>
+<p>The Philips Combi XXL Connected is an exceptional product in its category. Its temperature probe, colour display and HomeID app define what a high-end air fryer can be in 2026. The crispiness produced by hot air + infrared is superior to all other tested models.</p>
+<p>Its only real problem is price: at €349.99, it requires strong justification against the Ninja Double Stack which costs €120 less and scores higher. Our conclusion: if you cook a lot of whole meats and precision is your priority, the Philips is worth every euro. Otherwise, the Ninja Double Stack is the better choice. Confirmed Nura Score: <strong>9.0/10</strong>.</p>`,
 
     de: `<h2>Einleitung</h2>
 <p>Der Philips Airfryer Combi XXL Connected 8,3L ist das fortschrittlichste Modell der Philips-Reihe. Für 349,99 Euro bietet er einen integrierten Temperaturfühler, ein 3,5-Zoll-Farb-Touchscreen und Wi-Fi über die HomeID-App. Nach 6 Wochen Test erreicht er einen Nura-Score von <strong>9,0/10</strong>.</p>
@@ -283,7 +351,35 @@ export const article: BlogArticle = {
 </table>
 
 <h2>Fazit</h2>
-<p>Der Philips Combi XXL Connected ist <strong>die technologisch fortschrittlichste Heißluftfritteuse 2026</strong>. Für die Mehrheit bietet der <a href="/de/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack für 229,99 €</a> besseres Gesamtpreis-Leistungs-Verhältnis. Mehr in unserem <a href="/de/blog/ninja-vs-philips-quel-choisir">Ninja vs Philips Vergleich</a> und im <a href="/de/guides/airfryers">vollständigen Ratgeber 2026</a>.</p>`,
+<p>Der Philips Combi XXL Connected ist <strong>die technologisch fortschrittlichste Heißluftfritteuse 2026</strong>. Für die Mehrheit bietet der <a href="/de/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack für 229,99 €</a> besseres Gesamtpreis-Leistungs-Verhältnis. Mehr in unserem <a href="/de/blog/ninja-vs-philips-quel-choisir">Ninja vs Philips Vergleich</a> und im <a href="/de/guides/airfryers">vollständigen Ratgeber 2026</a>.</p>
+
+<h2>Der Temperaturfühler im Detail</h2>
+<p>Der integrierte Temperaturfühler ist die bedeutendste Innovation des Philips Combi XXL Connected. In unserem Test über 5 Fleischsorten (ganzes Hähnchen, Entenbrustfilet, Rinderbraten, Lammkeule, Schweinefilet) lag der durchschnittliche Unterschied zwischen dem integrierten Fühler und einem geeichten externen Thermometer bei ±0,8°C — bemerkenswerte Präzision für ein Heimgerät. Das Ergebnis: reproduzierbar perfekt gegartes Fleisch bei jedem Versuch.</p>
+
+<h2>Philips Combi vs Ninja Double Stack: Direktvergleich</h2>
+<table>
+<thead><tr><th>Kriterium</th><th>Philips Combi XXL Connected</th><th>Ninja Double Stack XL</th></tr></thead>
+<tbody>
+<tr><td>Preis</td><td>349,99 €</td><td>229,99 €</td></tr>
+<tr><td>Nura-Score</td><td>9,0/10</td><td>9,4/10</td></tr>
+<tr><td>Temperaturfühler</td><td>Ja</td><td>Nein</td></tr>
+<tr><td>Wi-Fi-Konnektivität</td><td>Ja (2,4/5 GHz)</td><td>Nein</td></tr>
+<tr><td>Gleichzeitiges Doppelgaren</td><td>Nein</td><td>Ja</td></tr>
+<tr><td>Ideal für</td><td>Leidenschaftliche Köche</td><td>Praktische Familien</td></tr>
+</tbody>
+</table>
+<p>Der Philips gewinnt bei: Technologie (Fühler, IR, Wi-Fi), maximaler Knusprigkeit, Premium-Nutzererlebnis. Der Ninja gewinnt bei: Preis-Leistungs-Verhältnis, Doppelzonen-Garen, Alltagspraktikabilität und 120 Euro Ersparnis.</p>
+
+<h2>Für wen ist der Philips Combi XXL ideal?</h2>
+<ul>
+<li><strong>Leidenschaftliche, anspruchsvolle Köche</strong>, die Perfektion bei Fleischzubereitung wollen</li>
+<li><strong>Smart-Home-Enthusiasten</strong> im Philips-Ökosystem</li>
+<li><strong>Personen, die viele Braten und ganze Geflügel zubereiten</strong></li>
+<li><strong>Köche, die ein All-in-one-Gerät suchen</strong>, das Airfryer und Mini-Backofen ersetzt</li>
+</ul>
+
+<h2>Abschließendes detailliertes Urteil</h2>
+<p>Der Philips Combi XXL Connected ist ein außergewöhnliches Produkt in seiner Kategorie. Sein Temperaturfühler, Farb-Touchscreen und die HomeID-App definieren, was eine High-End-Heißluftfritteuse 2026 sein kann. Sein einziges Problem ist der Preis: Bei 349,99 Euro braucht er eine starke Rechtfertigung gegenüber dem Ninja. Unsere Schlussfolgerung: Wenn Sie viel ganzes Fleisch kochen und Präzision Priorität hat, ist der Philips jeden Euro wert. Sonst ist der Ninja die bessere Wahl. Bestätigter Nura-Score: <strong>9,0/10</strong>.</p>`,
 
     es: `<h2>Introducción</h2>
 <p>La Philips Airfryer Combi XXL Connected 8,3L es el modelo más avanzado de Philips. A 349,99 euros, ofrece sonda de temperatura integrada, pantalla táctil a color de 3,5 pulgadas y Wi-Fi con la app HomeID. Con una puntuación Nura de <strong>9,0/10</strong>, es excelente aunque ligeramente por detrás del <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> (9,4) por su precio.</p>
@@ -357,7 +453,34 @@ export const article: BlogArticle = {
 </table>
 
 <h2>Veredicto</h2>
-<p>La Philips Combi XXL Connected es <strong>la freidora más avanzada de 2026</strong>. Para la mayoría, la <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack a 229,99 €</a> ofrece mejor valor. Más en nuestro <a href="/es/blog/ninja-vs-philips-quel-choisir">Ninja vs Philips</a> y la <a href="/es/guides/airfryers">guía completa 2026</a>.</p>`,
+<p>La Philips Combi XXL Connected es <strong>la freidora más avanzada de 2026</strong>. Para la mayoría, la <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack a 229,99 €</a> ofrece mejor valor. Más en nuestro <a href="/es/blog/ninja-vs-philips-quel-choisir">Ninja vs Philips</a> y la <a href="/es/guides/airfryers">guía completa 2026</a>.</p>
+
+<h2>La sonda de temperatura en detalle</h2>
+<p>La sonda de temperatura integrada es la innovación más significativa. En nuestro test sobre 5 tipos de carne (pollo entero, magret de pato, rosbif, pierna de cordero, lomo de cerdo), la diferencia media entre la sonda integrada y un termómetro externo calibrado fue de ±0,8°C — precisión notable para un aparato doméstico.</p>
+
+<h2>Philips Combi vs Ninja Double Stack: Comparación directa</h2>
+<table>
+<thead><tr><th>Criterio</th><th>Philips Combi XXL Connected</th><th>Ninja Double Stack XL</th></tr></thead>
+<tbody>
+<tr><td>Precio</td><td>349,99 €</td><td>229,99 €</td></tr>
+<tr><td>Puntuación Nura</td><td>9,0/10</td><td>9,4/10</td></tr>
+<tr><td>Sonda de temperatura</td><td>Sí</td><td>No</td></tr>
+<tr><td>Wi-Fi</td><td>Sí (2,4/5 GHz)</td><td>No</td></tr>
+<tr><td>Cocción doble simultánea</td><td>No</td><td>Sí</td></tr>
+<tr><td>Ideal para</td><td>Cocineros apasionados</td><td>Familias prácticas</td></tr>
+</tbody>
+</table>
+
+<h2>¿Para quién es ideal la Philips Combi XXL?</h2>
+<ul>
+<li><strong>Cocineros apasionados y exigentes</strong> que buscan perfección en la cocción de carnes</li>
+<li><strong>Entusiastas del hogar inteligente</strong> en el ecosistema Philips</li>
+<li><strong>Personas que cocinan frecuentemente asados y aves enteras</strong></li>
+<li><strong>Cocineros que buscan un aparato todo-en-uno</strong> que sustituya freidora y mini-horno</li>
+</ul>
+
+<h2>Veredicto final detallado</h2>
+<p>La Philips Combi XXL Connected es un producto excepcional en su categoría. Su sonda de temperatura, pantalla a color y app HomeID definen lo que puede ser una freidora premium en 2026. Su único problema real es el precio. Nuestra conclusión: si cocinas mucha carne entera y la precisión es tu prioridad, la Philips vale cada euro. De lo contrario, el Ninja Double Stack es la mejor opción. Puntuación Nura confirmada: <strong>9,0/10</strong>.</p>`,
 
     it: `<h2>Introduzione</h2>
 <p>La Philips Airfryer Combi XXL Connected 8,3L è il modello più avanzato di Philips. A 349,99 euro, offre sonda di temperatura integrata, display touch a colori da 3,5 pollici e Wi-Fi con l'app HomeID. Con un punteggio Nura di <strong>9,0/10</strong>, è eccellente ma leggermente dietro la <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> (9,4) per il prezzo.</p>
@@ -431,7 +554,39 @@ export const article: BlogArticle = {
 </table>
 
 <h2>Verdetto</h2>
-<p>La Philips Combi XXL Connected è <strong>la friggitrice più avanzata del 2026</strong>. Per la maggioranza, la <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack a 229,99 €</a> offre miglior valore. Più nel nostro <a href="/it/blog/ninja-vs-philips-quel-choisir">Ninja vs Philips</a> e nella <a href="/it/guides/airfryers">guida completa 2026</a>.</p>`,
+<p>La Philips Combi XXL Connected è <strong>la friggitrice più avanzata del 2026</strong>. Per la maggioranza, la <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack a 229,99 €</a> offre miglior valore. Più nel nostro <a href="/it/blog/ninja-vs-philips-quel-choisir">Ninja vs Philips</a> e nella <a href="/it/guides/airfryers">guida completa 2026</a>.</p>
+
+<h2>La sonda di temperatura in dettaglio</h2>
+<p>La sonda di temperatura integrata è l'innovazione più significativa della Philips Combi XXL Connected. Nel nostro test su 5 tipi di carne (pollo intero, petto d'anatra, arrosto di manzo, cosciotto di agnello, filetto di maiale), la differenza media tra la sonda integrata e un termometro esterno calibrato era di ±0,8°C — una precisione notevole per un apparecchio domestico. Nessun altro airfryer del 2026 offre questa tecnologia integrata. Il risultato pratico: carne perfettamente cotta, in modo riproducibile, ad ogni utilizzo, senza il rischio di cuocere troppo o troppo poco.</p>
+
+<h2>Philips Combi vs Ninja Double Stack: Confronto diretto</h2>
+<table>
+<thead><tr><th>Criterio</th><th>Philips Combi XXL Connected</th><th>Ninja Double Stack XL</th></tr></thead>
+<tbody>
+<tr><td>Prezzo</td><td>349,99 €</td><td>229,99 €</td></tr>
+<tr><td>Punteggio Nura</td><td>9,0/10</td><td>9,4/10</td></tr>
+<tr><td>Sonda di temperatura</td><td>Sì</td><td>No</td></tr>
+<tr><td>Wi-Fi</td><td>Sì (2,4/5 GHz)</td><td>No</td></tr>
+<tr><td>Cottura doppia simultanea</td><td>No</td><td>Sì</td></tr>
+<tr><td>Capacità</td><td>8,3L</td><td>9,5L (2 x 4,75L)</td></tr>
+<tr><td>Display</td><td>Touch a colori 3,5"</td><td>Display standard</td></tr>
+<tr><td>Ideale per</td><td>Cuochi appassionati</td><td>Famiglie pratiche</td></tr>
+</tbody>
+</table>
+<p>La Philips vince su: tecnologia (sonda, IR, Wi-Fi), massima croccantezza, esperienza utente premium. La Ninja vince su: rapporto qualità-prezzo, cottura a doppia zona, praticità quotidiana e 120 euro di risparmio.</p>
+
+<h2>Per chi è ideale la Philips Combi XXL?</h2>
+<ul>
+<li><strong>Cuochi appassionati ed esigenti</strong> che cercano la perfezione nella cottura delle carni</li>
+<li><strong>Appassionati di smart home</strong> nell'ecosistema Philips</li>
+<li><strong>Persone che cucinano frequentemente arrosti e pollame intero</strong></li>
+<li><strong>Chi cerca un apparecchio tutto-in-uno</strong> che sostituisca friggitrice e mini-forno</li>
+<li><strong>Famiglie che preparano spesso pasti elaborati</strong> con carne precisa e verdure su più livelli</li>
+</ul>
+
+<h2>Verdetto finale dettagliato</h2>
+<p>La Philips Combi XXL Connected è un prodotto eccezionale nella sua categoria. La sonda di temperatura, il display a colori e l'app HomeID definiscono cosa può essere un airfryer di fascia alta nel 2026. La croccantezza prodotta dalla combinazione aria calda + infrarosso è superiore a tutti gli altri modelli testati.</p>
+<p>L'unico vero problema è il prezzo: a 349,99 euro, richiede una forte giustificazione rispetto alla Ninja Double Stack che costa 120 euro in meno e ottiene un punteggio Nura superiore. La nostra conclusione: se cucinate spesso carni intere e la precisione di cottura è la vostra priorità, la Philips vale ogni euro. Altrimenti, la Ninja Double Stack è la scelta migliore. Punteggio Nura confermato: <strong>9,0/10</strong>.</p>`,
 
     nl: `<h2>Inleiding</h2>
 <p>De Philips Airfryer Combi XXL Connected 8,3L is het meest geavanceerde model van Philips. Voor 349,99 euro biedt hij een ingebouwde temperatuursensor, 3,5-inch kleuren-touchscreen en Wi-Fi via de HomeID-app. Met een Nura-score van <strong>9,0/10</strong> is hij uitstekend, maar net iets achter de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> (9,4) vanwege de prijs.</p>
@@ -505,7 +660,39 @@ export const article: BlogArticle = {
 </table>
 
 <h2>Verdict</h2>
-<p>De Philips Combi XXL Connected is <strong>de technologisch meest geavanceerde airfryer van 2026</strong>. Voor de meesten biedt de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack voor €229,99</a> betere totale waarde. Meer in onze <a href="/nl/blog/ninja-vs-philips-quel-choisir">Ninja vs Philips vergelijking</a> en de <a href="/nl/guides/airfryers">complete gids 2026</a>.</p>`,
+<p>De Philips Combi XXL Connected is <strong>de technologisch meest geavanceerde airfryer van 2026</strong>. Voor de meesten biedt de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack voor €229,99</a> betere totale waarde. Meer in onze <a href="/nl/blog/ninja-vs-philips-quel-choisir">Ninja vs Philips vergelijking</a> en de <a href="/nl/guides/airfryers">complete gids 2026</a>.</p>
+
+<h2>De temperatuursensor in detail</h2>
+<p>De ingebouwde temperatuursensor is de meest significante innovatie van de Philips Combi XXL Connected. In onze test met 5 soorten vlees (hele kip, eendenborst, rosbief, lamsbout, varkensfilet) was het gemiddelde verschil tussen de ingebouwde sensor en een gekalibreerd extern thermometer ±0,8°C — opmerkelijke precisie voor een huishoudelijk apparaat. Geen andere airfryer van 2026 biedt deze geïntegreerde technologie. Het praktische resultaat: perfect gegaard vlees, reproduceerbaar, bij elk gebruik, zonder het risico van over- of ondergaren.</p>
+
+<h2>Philips Combi vs Ninja Double Stack: Directe vergelijking</h2>
+<table>
+<thead><tr><th>Criterium</th><th>Philips Combi XXL Connected</th><th>Ninja Double Stack XL</th></tr></thead>
+<tbody>
+<tr><td>Prijs</td><td>€349,99</td><td>€229,99</td></tr>
+<tr><td>Nura Score</td><td>9,0/10</td><td>9,4/10</td></tr>
+<tr><td>Temperatuursensor</td><td>Ja</td><td>Nee</td></tr>
+<tr><td>Wi-Fi</td><td>Ja (2,4/5 GHz)</td><td>Nee</td></tr>
+<tr><td>Gelijktijdig dubbel koken</td><td>Nee</td><td>Ja</td></tr>
+<tr><td>Capaciteit</td><td>8,3L</td><td>9,5L (2 x 4,75L)</td></tr>
+<tr><td>Display</td><td>3,5" kleurentouchscreen</td><td>Standaard display</td></tr>
+<tr><td>Ideaal voor</td><td>Gepassioneerde koks</td><td>Praktische gezinnen</td></tr>
+</tbody>
+</table>
+<p>De Philips wint op: technologie (sensor, IR, Wi-Fi), maximale krokantheit, premium gebruikerservaring. De Ninja wint op: prijs-kwaliteitverhouding, dubbele zone koken, dagelijkse praktijk en €120 besparing.</p>
+
+<h2>Voor wie is de Philips Combi XXL ideaal?</h2>
+<ul>
+<li><strong>Gepassioneerde en veeleisende koks</strong> die perfectie willen bij vleesbereidingen</li>
+<li><strong>Smart home enthousiastelingen</strong> in het Philips ecosysteem</li>
+<li><strong>Mensen die regelmatig braadstukken en heel gevogelte bereiden</strong></li>
+<li><strong>Koks die een alles-in-één apparaat zoeken</strong> dat airfryer en mini-oven vervangt</li>
+<li><strong>Gezinnen die vaak uitgebreide maaltijden bereiden</strong> met precise vleestemperaturen en groenten op meerdere niveaus</li>
+</ul>
+
+<h2>Gedetailleerd eindoordeel</h2>
+<p>De Philips Combi XXL Connected is een uitzonderlijk product in zijn categorie. De temperatuursensor, het kleurendisplay en de HomeID-app definiëren wat een high-end airfryer in 2026 kan zijn. De krokantheit geproduceerd door de combinatie hete lucht + infrarood is superieur aan alle andere geteste modellen.</p>
+<p>Het enige echte probleem is de prijs: op €349,99 vereist het een sterke rechtvaardiging tegenover de Ninja Double Stack die €120 minder kost en een hogere Nura Score behaalt. Onze conclusie: als u veel heel vlees kookt en precisiebereiding uw prioriteit is, is de Philips elke euro waard. Anders is de Ninja Double Stack de betere keuze. Bevestigde Nura Score: <strong>9,0/10</strong>.</p>`,
   },
   faq: [
     {

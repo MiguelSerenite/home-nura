@@ -269,7 +269,28 @@ export const article: BlogArticle = {
 <li><strong>Utilisez des accessoires</strong> — consultez notre guide des <a href="/fr/blog/top-10-accessoires-airfryer">10 meilleurs accessoires pour airfryer</a> pour optimiser vos cuissons.</li>
 <li><strong>Les légumes surgelés fonctionnent aussi</strong> — ajoutez simplement 2 à 3 minutes au temps de cuisson, sans décongeler au préalable.</li>
 </ul>
-<p>Ces légumes grillés sont la base idéale pour un <a href="/fr/blog/meal-prep-airfryer-semaine">meal prep de la semaine</a>. Préparez plusieurs variétés le dimanche et assemblez vos repas en quelques minutes chaque jour. Associez-les à nos <a href="/fr/blog/recettes-frites-parfaites-airfryer">recettes de frites</a> et <a href="/fr/blog/recettes-poulet-croustillant-airfryer">recettes de poulet</a> pour des repas complets et équilibrés.</p>`,
+<p>Ces légumes grillés sont la base idéale pour un <a href="/fr/blog/meal-prep-airfryer-semaine">meal prep de la semaine</a>. Préparez plusieurs variétés le dimanche et assemblez vos repas en quelques minutes chaque jour. Associez-les à nos <a href="/fr/blog/recettes-frites-parfaites-airfryer">recettes de frites</a> et <a href="/fr/blog/recettes-poulet-croustillant-airfryer">recettes de poulet</a> pour des repas complets et équilibrés.</p>
+
+<h2>Apport nutritionnel de vos légumes grillés (pour 200 g cuits)</h2>
+<table>
+<thead><tr><th>Légume</th><th>Calories</th><th>Fibres</th><th>Vitamine C</th><th>Potassium</th><th>Bénéfice santé principal</th></tr></thead>
+<tbody>
+<tr><td>Brocoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (197% AJR)</td><td>460 mg</td><td>Antioxydants, prévention cancer</td></tr>
+<tr><td>Chou-fleur</td><td>52 kcal</td><td>4 g</td><td>96 mg (128% AJR)</td><td>400 mg</td><td>Anti-inflammatoire, digestion</td></tr>
+<tr><td>Courgette</td><td>38 kcal</td><td>2,5 g</td><td>34 mg</td><td>512 mg</td><td>Hydratation, pauvre en calories</td></tr>
+<tr><td>Poivron</td><td>50 kcal</td><td>3 g</td><td>204 mg (272% AJR)</td><td>420 mg</td><td>Vitamine C maximale, vision</td></tr>
+<tr><td>Asperges</td><td>44 kcal</td><td>3,5 g</td><td>14 mg</td><td>468 mg</td><td>Acide folique, diurétique</td></tr>
+</tbody>
+</table>
+
+<h2>5 mélanges de légumes express pour toute la semaine</h2>
+<ul>
+<li><strong>Mélange méditerranéen :</strong> courgettes + poivrons + aubergines + tomates cerises. 180°C, 15 min. Parfait avec du poulet.</li>
+<li><strong>Mélange crucifères :</strong> brocoli + chou-fleur + choux de Bruxelles. 190°C, 16 min. Idéal pour le meal prep.</li>
+<li><strong>Mélange printanier :</strong> asperges + champignons + haricots verts. 200°C, 8 min. Délicat et rapide.</li>
+<li><strong>Mélange automnal :</strong> carottes + courge + oignons rouges. 180°C, 20 min. Saveurs sucrées-salées.</li>
+<li><strong>Mélange asiatique :</strong> pak choi + edamame + champignons shitake + sésame. 190°C, 10 min. Sauce soja en finition.</li>
+</ul>`,
 
     en: `<h2>Introduction</h2>
 <p>The air fryer is an extraordinary tool for cooking vegetables. High-temperature hot air circulation creates <strong>surface caramelization</strong> that intensifies natural flavours while preserving nutrients far better than boiling. In just 10-20 minutes, you get roasted vegetables as delicious as oven-roasted, with virtually no preheating time and reduced energy consumption.</p>
@@ -459,7 +480,28 @@ export const article: BlogArticle = {
 <li><strong>Combine vegetables of similar density</strong> — match cooking times when mixing.</li>
 <li><strong>Frozen vegetables work too</strong> — add 2-3 minutes, no thawing needed.</li>
 </ul>
-<p>These grilled vegetables are the perfect base for a <a href="/en/blog/meal-prep-airfryer-semaine">weekly meal prep</a>. Pair with <a href="/en/blog/recettes-frites-parfaites-airfryer">fries recipes</a> and <a href="/en/blog/recettes-poulet-croustillant-airfryer">chicken recipes</a> for complete meals.</p>`,
+<p>These grilled vegetables are the perfect base for a <a href="/en/blog/meal-prep-airfryer-semaine">weekly meal prep</a>. Pair with <a href="/en/blog/recettes-frites-parfaites-airfryer">fries recipes</a> and <a href="/en/blog/recettes-poulet-croustillant-airfryer">chicken recipes</a> for complete meals.</p>
+
+<h2>Nutritional values of your grilled vegetables (per 200 g cooked)</h2>
+<table>
+<thead><tr><th>Vegetable</th><th>Calories</th><th>Fibre</th><th>Vitamin C</th><th>Potassium</th><th>Main health benefit</th></tr></thead>
+<tbody>
+<tr><td>Broccoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (197% RDA)</td><td>460 mg</td><td>Antioxidants, cancer prevention</td></tr>
+<tr><td>Cauliflower</td><td>52 kcal</td><td>4 g</td><td>96 mg (128% RDA)</td><td>400 mg</td><td>Anti-inflammatory, digestion</td></tr>
+<tr><td>Zucchini</td><td>38 kcal</td><td>2.5 g</td><td>34 mg</td><td>512 mg</td><td>Hydration, very low calories</td></tr>
+<tr><td>Bell pepper</td><td>50 kcal</td><td>3 g</td><td>204 mg (272% RDA)</td><td>420 mg</td><td>Maximum vitamin C, eye health</td></tr>
+<tr><td>Asparagus</td><td>44 kcal</td><td>3.5 g</td><td>14 mg</td><td>468 mg</td><td>Folate, diuretic properties</td></tr>
+</tbody>
+</table>
+
+<h2>5 express vegetable mixes for the whole week</h2>
+<ul>
+<li><strong>Mediterranean mix:</strong> zucchini + bell peppers + eggplant + cherry tomatoes. 180°C, 15 min. Perfect with chicken.</li>
+<li><strong>Cruciferous mix:</strong> broccoli + cauliflower + Brussels sprouts. 190°C, 16 min. Ideal for meal prep.</li>
+<li><strong>Spring mix:</strong> asparagus + mushrooms + green beans. 200°C, 8 min. Delicate and quick.</li>
+<li><strong>Autumn mix:</strong> carrots + squash + red onions. 180°C, 20 min. Sweet-savoury flavours.</li>
+<li><strong>Asian mix:</strong> pak choi + edamame + shiitake mushrooms + sesame. 190°C, 10 min. Drizzle with soy sauce to finish.</li>
+</ul>`,
 
     de: `<h2>Einleitung</h2>
 <p>Die Heißluftfritteuse ist ein hervorragendes Werkzeug zum Gemüsegaren. Die Heißluftzirkulation bei hoher Temperatur erzeugt eine <strong>Karamellisierung der Oberfläche</strong>, die natürliche Aromen intensiviert und Nährstoffe weit besser bewahrt als Kochen in Wasser. In nur 10-20 Minuten erhalten Sie geröstetes Gemüse, das genauso köstlich schmeckt wie aus dem Backofen.</p>
@@ -584,7 +626,28 @@ export const article: BlogArticle = {
 <li><strong>Dichtes Gemüse braucht länger</strong> — Karotten und Rosenkohl brauchen mehr Zeit als Zucchini.</li>
 <li><strong>Tiefkühlgemüse geht auch</strong> — einfach 2-3 Minuten mehr, ohne Auftauen.</li>
 </ul>
-<p>Diese Gemüse sind die perfekte Basis für ein <a href="/de/blog/meal-prep-airfryer-semaine">Wochenplan-Meal-Prep</a>. Kombinieren Sie mit <a href="/de/blog/recettes-frites-parfaites-airfryer">Pommes</a> und <a href="/de/blog/recettes-poulet-croustillant-airfryer">Hähnchen</a> für komplette Mahlzeiten.</p>`,
+<p>Diese Gemüse sind die perfekte Basis für ein <a href="/de/blog/meal-prep-airfryer-semaine">Wochenplan-Meal-Prep</a>. Kombinieren Sie mit <a href="/de/blog/recettes-frites-parfaites-airfryer">Pommes</a> und <a href="/de/blog/recettes-poulet-croustillant-airfryer">Hähnchen</a> für komplette Mahlzeiten.</p>
+
+<h2>Nährwerte Ihres gegrillten Gemüses (pro 200 g gegart)</h2>
+<table>
+<thead><tr><th>Gemüse</th><th>Kalorien</th><th>Ballaststoffe</th><th>Vitamin C</th><th>Kalium</th><th>Hauptgesundheitsvorteil</th></tr></thead>
+<tbody>
+<tr><td>Brokkoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (197% RI)</td><td>460 mg</td><td>Antioxidantien, Krebsprävention</td></tr>
+<tr><td>Blumenkohl</td><td>52 kcal</td><td>4 g</td><td>96 mg (128% RI)</td><td>400 mg</td><td>Entzündungshemmend, Verdauung</td></tr>
+<tr><td>Zucchini</td><td>38 kcal</td><td>2,5 g</td><td>34 mg</td><td>512 mg</td><td>Hydratation, sehr kalorienarm</td></tr>
+<tr><td>Paprika</td><td>50 kcal</td><td>3 g</td><td>204 mg (272% RI)</td><td>420 mg</td><td>Maximales Vitamin C, Augengesundheit</td></tr>
+<tr><td>Spargel</td><td>44 kcal</td><td>3,5 g</td><td>14 mg</td><td>468 mg</td><td>Folsäure, entwässernd</td></tr>
+</tbody>
+</table>
+
+<h2>5 schnelle Gemüsemischungen für die ganze Woche</h2>
+<ul>
+<li><strong>Mediterrane Mischung:</strong> Zucchini + Paprika + Aubergine + Kirschtomaten. 180°C, 15 Min. Perfekt mit Hähnchen.</li>
+<li><strong>Kreuzblütler-Mischung:</strong> Brokkoli + Blumenkohl + Rosenkohl. 190°C, 16 Min. Ideal für Meal Prep.</li>
+<li><strong>Frühlings-Mischung:</strong> Spargel + Pilze + grüne Bohnen. 200°C, 8 Min. Zart und schnell.</li>
+<li><strong>Herbst-Mischung:</strong> Karotten + Kürbis + rote Zwiebeln. 180°C, 20 Min. Süß-herzhafte Aromen.</li>
+<li><strong>Asia-Mischung:</strong> Pak Choi + Edamame + Shiitake + Sesam. 190°C, 10 Min. Mit Sojasoße abschließen.</li>
+</ul>`,
 
     es: `<h2>Introducción</h2>
 <p>La freidora de aire es una herramienta extraordinaria para cocinar verduras. La circulación de aire caliente a alta temperatura crea una <strong>caramelización en superficie</strong> que intensifica los sabores naturales, preservando los nutrientes mucho mejor que la cocción en agua. En solo 10-20 minutos obtendrás verduras asadas tan deliciosas como las del horno.</p>
@@ -703,7 +766,28 @@ export const article: BlogArticle = {
 <li><strong>Las verduras densas tardan más</strong> — zanahorias y coles de Bruselas necesitan más tiempo.</li>
 <li><strong>Las verduras congeladas también funcionan</strong> — añade 2-3 minutos extra.</li>
 </ul>
-<p>Estas verduras son la base perfecta para un <a href="/es/blog/meal-prep-airfryer-semaine">meal prep semanal</a>. Combina con <a href="/es/blog/recettes-frites-parfaites-airfryer">patatas fritas</a> y <a href="/es/blog/recettes-poulet-croustillant-airfryer">pollo crujiente</a>.</p>`,
+<p>Estas verduras son la base perfecta para un <a href="/es/blog/meal-prep-airfryer-semaine">meal prep semanal</a>. Combina con <a href="/es/blog/recettes-frites-parfaites-airfryer">patatas fritas</a> y <a href="/es/blog/recettes-poulet-croustillant-airfryer">pollo crujiente</a>.</p>
+
+<h2>Valores nutricionales de tus verduras asadas (por 200 g cocinadas)</h2>
+<table>
+<thead><tr><th>Verdura</th><th>Calorías</th><th>Fibra</th><th>Vitamina C</th><th>Potasio</th><th>Beneficio principal</th></tr></thead>
+<tbody>
+<tr><td>Brócoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (197% IDR)</td><td>460 mg</td><td>Antioxidantes, prevención del cáncer</td></tr>
+<tr><td>Coliflor</td><td>52 kcal</td><td>4 g</td><td>96 mg (128% IDR)</td><td>400 mg</td><td>Antiinflamatorio, digestión</td></tr>
+<tr><td>Calabacín</td><td>38 kcal</td><td>2,5 g</td><td>34 mg</td><td>512 mg</td><td>Hidratación, muy pocas calorías</td></tr>
+<tr><td>Pimiento</td><td>50 kcal</td><td>3 g</td><td>204 mg (272% IDR)</td><td>420 mg</td><td>Máxima vitamina C, salud ocular</td></tr>
+<tr><td>Espárragos</td><td>44 kcal</td><td>3,5 g</td><td>14 mg</td><td>468 mg</td><td>Ácido fólico, diurético</td></tr>
+</tbody>
+</table>
+
+<h2>5 mezclas de verduras express para toda la semana</h2>
+<ul>
+<li><strong>Mezcla mediterránea:</strong> calabacín + pimientos + berenjena + tomates cherry. 180°C, 15 min. Perfecta con pollo.</li>
+<li><strong>Mezcla crucífera:</strong> brócoli + coliflor + coles de Bruselas. 190°C, 16 min. Ideal para meal prep.</li>
+<li><strong>Mezcla primaveral:</strong> espárragos + champiñones + judías verdes. 200°C, 8 min. Delicada y rápida.</li>
+<li><strong>Mezcla otoñal:</strong> zanahorias + calabaza + cebollas rojas. 180°C, 20 min. Sabores dulce-salados.</li>
+<li><strong>Mezcla asiática:</strong> pak choi + edamame + shiitake + sésamo. 190°C, 10 min. Termina con salsa de soja.</li>
+</ul>`,
 
     it: `<h2>Introduzione</h2>
 <p>La friggitrice ad aria è uno strumento straordinario per cuocere le verdure. La circolazione di aria calda ad alta temperatura crea una <strong>caramellizzazione in superficie</strong> che intensifica i sapori naturali, preservando i nutrienti molto meglio della bollitura. In soli 10-20 minuti otterrete verdure grigliate deliziose come quelle del forno.</p>
@@ -822,7 +906,28 @@ export const article: BlogArticle = {
 <li><strong>Le verdure dense richiedono più tempo</strong> — carote e cavolini più di zucchine.</li>
 <li><strong>Le verdure surgelate funzionano</strong> — aggiungete 2-3 minuti.</li>
 </ul>
-<p>Queste verdure sono la base perfetta per un <a href="/it/blog/meal-prep-airfryer-semaine">meal prep settimanale</a>. Combinatele con <a href="/it/blog/recettes-frites-parfaites-airfryer">patatine</a> e <a href="/it/blog/recettes-poulet-croustillant-airfryer">pollo croccante</a>.</p>`,
+<p>Queste verdure sono la base perfetta per un <a href="/it/blog/meal-prep-airfryer-semaine">meal prep settimanale</a>. Combinatele con <a href="/it/blog/recettes-frites-parfaites-airfryer">patatine</a> e <a href="/it/blog/recettes-poulet-croustillant-airfryer">pollo croccante</a>.</p>
+
+<h2>Valori nutrizionali delle vostre verdure grigliate (per 200 g cotte)</h2>
+<table>
+<thead><tr><th>Verdura</th><th>Calorie</th><th>Fibre</th><th>Vitamina C</th><th>Potassio</th><th>Beneficio principale</th></tr></thead>
+<tbody>
+<tr><td>Broccoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (197% RDA)</td><td>460 mg</td><td>Antiossidanti, prevenzione tumori</td></tr>
+<tr><td>Cavolfiore</td><td>52 kcal</td><td>4 g</td><td>96 mg (128% RDA)</td><td>400 mg</td><td>Antinfiammatorio, digestione</td></tr>
+<tr><td>Zucchine</td><td>38 kcal</td><td>2,5 g</td><td>34 mg</td><td>512 mg</td><td>Idratazione, pochissime calorie</td></tr>
+<tr><td>Peperone</td><td>50 kcal</td><td>3 g</td><td>204 mg (272% RDA)</td><td>420 mg</td><td>Massima vitamina C, salute visiva</td></tr>
+<tr><td>Asparagi</td><td>44 kcal</td><td>3,5 g</td><td>14 mg</td><td>468 mg</td><td>Acido folico, diuretico</td></tr>
+</tbody>
+</table>
+
+<h2>5 misti di verdure express per tutta la settimana</h2>
+<ul>
+<li><strong>Misto mediterraneo:</strong> zucchine + peperoni + melanzane + pomodorini. 180°C, 15 min. Perfetto con il pollo.</li>
+<li><strong>Misto crucifere:</strong> broccoli + cavolfiore + cavolini di Bruxelles. 190°C, 16 min. Ideale per il meal prep.</li>
+<li><strong>Misto primaverile:</strong> asparagi + funghi + fagiolini. 200°C, 8 min. Delicato e rapido.</li>
+<li><strong>Misto autunnale:</strong> carote + zucca + cipolle rosse. 180°C, 20 min. Sapori dolce-salati.</li>
+<li><strong>Misto asiatico:</strong> pak choi + edamame + shiitake + sesamo. 190°C, 10 min. Finire con salsa di soia.</li>
+</ul>`,
 
     nl: `<h2>Inleiding</h2>
 <p>De airfryer is een buitengewoon hulpmiddel voor het bereiden van groenten. De heteluchtcirculatie bij hoge temperatuur creëert een <strong>karamellisering aan het oppervlak</strong> die de natuurlijke smaken versterkt, terwijl voedingsstoffen veel beter behouden blijven dan bij koken in water. In slechts 10-20 minuten krijg je geroosterde groenten die net zo lekker zijn als uit de oven.</p>
@@ -941,7 +1046,28 @@ export const article: BlogArticle = {
 <li><strong>Dichte groenten duren langer</strong> — wortels en spruitjes meer dan courgette.</li>
 <li><strong>Diepvriesgroenten werken ook</strong> — voeg 2-3 minuten extra toe.</li>
 </ul>
-<p>Deze groenten zijn de perfecte basis voor een <a href="/nl/blog/meal-prep-airfryer-semaine">wekelijkse meal prep</a>. Combineer met <a href="/nl/blog/recettes-frites-parfaites-airfryer">frietjes</a> en <a href="/nl/blog/recettes-poulet-croustillant-airfryer">krokante kip</a> voor complete maaltijden.</p>`,
+<p>Deze groenten zijn de perfecte basis voor een <a href="/nl/blog/meal-prep-airfryer-semaine">wekelijkse meal prep</a>. Combineer met <a href="/nl/blog/recettes-frites-parfaites-airfryer">frietjes</a> en <a href="/nl/blog/recettes-poulet-croustillant-airfryer">krokante kip</a> voor complete maaltijden.</p>
+
+<h2>Voedingswaarden van gegrilde groenten (per 200 g gegaard)</h2>
+<table>
+<thead><tr><th>Groente</th><th>Calorieën</th><th>Vezels</th><th>Vitamine C</th><th>Kalium</th><th>Voornaamste gezondheidsbaat</th></tr></thead>
+<tbody>
+<tr><td>Broccoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (197% ADH)</td><td>460 mg</td><td>Antioxidanten, kankerpreventie</td></tr>
+<tr><td>Bloemkool</td><td>52 kcal</td><td>4 g</td><td>96 mg (128% ADH)</td><td>400 mg</td><td>Ontstekingsremmend, spijsvertering</td></tr>
+<tr><td>Courgette</td><td>38 kcal</td><td>2,5 g</td><td>34 mg</td><td>512 mg</td><td>Hydratatie, zeer weinig calorieën</td></tr>
+<tr><td>Paprika</td><td>50 kcal</td><td>3 g</td><td>204 mg (272% ADH)</td><td>420 mg</td><td>Maximale vitamine C, oogezondheid</td></tr>
+<tr><td>Asperges</td><td>44 kcal</td><td>3,5 g</td><td>14 mg</td><td>468 mg</td><td>Foliumzuur, vochtafdrijvend</td></tr>
+</tbody>
+</table>
+
+<h2>5 express groentemixen voor de hele week</h2>
+<ul>
+<li><strong>Mediterrane mix:</strong> courgette + paprika + aubergine + kerstomaatjes. 180°C, 15 min. Perfect bij kip.</li>
+<li><strong>Kruisbloemige mix:</strong> broccoli + bloemkool + spruitjes. 190°C, 16 min. Ideaal voor meal prep.</li>
+<li><strong>Lente mix:</strong> asperges + champignons + sperziebonen. 200°C, 8 min. Delicaat en snel.</li>
+<li><strong>Herfst mix:</strong> wortels + pompoen + rode uien. 180°C, 20 min. Zoet-hartige smaken.</li>
+<li><strong>Aziatische mix:</strong> pak choi + edamame + shiitake + sesam. 190°C, 10 min. Afmaken met sojasaus.</li>
+</ul>`,
   },
   faq: [
     {

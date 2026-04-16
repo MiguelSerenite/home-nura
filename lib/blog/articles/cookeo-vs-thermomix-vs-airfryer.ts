@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 19,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71ek+zKbz5L._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Cookeo Thermomix et Airfryer cote a cote comparatif cuisine 2026',
         en: 'Cookeo Thermomix and Airfryer side by side kitchen comparison 2026',

@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 17,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71+d0sNCSqL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Purificateur d\'air pour allergies avec filtre HEPA dans une chambre moderne',
         en: 'Air purifier for allergies with HEPA filter in a modern bedroom',

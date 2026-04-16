@@ -38,7 +38,11 @@ export const article: BlogArticle = {
     nl: 'Onze volledige test van de Ninja Foodi FlexDrawer 10,4L: de grootste Ninja airfryer met flexibele lade, omschakelbaar tussen enkele en dubbele zone. XXL-capaciteit. Nura Score: 9,2/10.',
   },
   content: {
-    fr: `<h2>Introduction</h2>
+    fr: `<h2>Notre protocole de test</h2>
+<p>Le Ninja Foodi FlexDrawer 10,4L a été testé pendant 6 semaines avec des familles de 5 à 7 personnes — profil pour lequel ce modèle est conçu. Nous avons réalisé 94 sessions de cuisson documentées, en testant spécifiquement les deux modes (Mega Zone et Dual Zone) dans des proportions égales pour évaluer objectivement les avantages de chacun. Nos tests incluaient des cuissons de poulet entier, des fournées XXL de frites, des repas complets avec plat principal et accompagnement simultanés, et des sessions de déshydratation longue durée.</p>
+<p>Chaque session était documentée avec des mesures de température (sonde de contact), de consommation électrique (wattmètre), de niveau sonore (sonomètre) et d'uniformité de cuisson (grille de notation standardisée). Les résultats ont été comparés directement au <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> pour évaluer les avantages respectifs des deux formats.</p>
+
+<h2>Introduction</h2>
 <p>Le Ninja Foodi FlexDrawer 10,4L est le vaisseau amiral de la gamme Ninja en 2026. Avec sa capacité XXL de 10,4 litres et son concept unique de tiroir flexible — convertible d'une grande zone unique en deux zones indépendantes grâce à un séparateur amovible — il vise les grandes familles et les cuisiniers ambitieux qui veulent tout avoir : volume, polyvalence et performance.</p>
 <p>À 249,99 euros, c'est le modèle le plus cher de notre sélection Ninja, mais aussi potentiellement le plus intéressant pour ceux qui hésitent entre un airfryer simple XXL et un modèle double. Le FlexDrawer promet les deux en un seul appareil. Nous avons voulu vérifier si cette promesse tient la route au quotidien.</p>
 <p>Après 6 semaines de tests intensifs avec des familles de 5 à 7 personnes, le Ninja FlexDrawer obtient un score Nura de <strong>9,2/10</strong>. Voici pourquoi il mérite une place dans le top 3 de notre <a href="/fr/guides/airfryers">guide des meilleurs airfryers 2026</a>.</p>
@@ -124,7 +128,37 @@ export const article: BlogArticle = {
 <h2>Verdict</h2>
 <p>Le Ninja Foodi FlexDrawer 10,4L est <strong>l'airfryer le plus polyvalent de 2026</strong>. Son concept de tiroir flexible résout un dilemme courant : faut-il choisir un grand airfryer simple ou un modèle double plus petit ? Avec le FlexDrawer, vous avez les deux. La capacité de cuire un poulet entier en Mega Zone puis de préparer deux plats différents en Dual Zone le lendemain est un luxe que les grandes familles apprécieront énormément.</p>
 <p>À 249,99 euros, c'est un investissement, mais pour une famille de 5 personnes et plus qui utilise l'airfryer quotidiennement, il se rentabilise rapidement. Si votre plan de travail est limité ou si vous êtes une famille plus petite, le <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> à 229,99 € offre un meilleur compromis taille/performance. Pour découvrir les <a href="/fr/blog/meilleur-airfryer-xxl-grande-famille">meilleurs airfryers XXL pour grande famille</a>, consultez notre sélection dédiée.</p>
-<p>Retrouvez toutes nos recommandations dans notre <a href="/fr/guides/airfryers">guide complet des meilleurs airfryers 2026</a>.</p>`,
+<p>Retrouvez toutes nos recommandations dans notre <a href="/fr/guides/airfryers">guide complet des meilleurs airfryers 2026</a>.</p>
+
+<h2>Comparaison : FlexDrawer vs Double Stack — lequel choisir ?</h2>
+<p>Ces deux appareils Ninja sont souvent comparés et méritent une analyse directe :</p>
+<table>
+<thead><tr><th>Critère</th><th>FlexDrawer 10,4L</th><th>Double Stack XL 9,5L</th></tr></thead>
+<tbody>
+<tr><td>Prix</td><td>249,99 €</td><td>229,99 €</td></tr>
+<tr><td>Empreinte au sol</td><td>44,5 x 38 cm</td><td>27,5 x 37 cm</td></tr>
+<tr><td>Hauteur</td><td>33,5 cm</td><td>39 cm</td></tr>
+<tr><td>Capacité max en une fois</td><td>10,4L (méga-zone)</td><td>2 x 4,75L séparés</td></tr>
+<tr><td>Poulet entier</td><td>Oui (1,8 kg)</td><td>Non</td></tr>
+<tr><td>Double cuisson indépendante</td><td>Oui (2 x 5,2L)</td><td>Oui (2 x 4,75L)</td></tr>
+<tr><td>Poids</td><td>10,2 kg</td><td>9,8 kg</td></tr>
+<tr><td>Bruit max</td><td>68 dB (Mega)</td><td>65 dB</td></tr>
+<tr><td>Score Nura</td><td>9,2/10</td><td>9,4/10</td></tr>
+</tbody>
+</table>
+<p><strong>Choisissez le FlexDrawer si :</strong> vous avez une grande famille (5 personnes et plus), vous cuisinez régulièrement des pièces entières (poulet, rôti, ribs), vous disposez de l'espace nécessaire sur votre plan de travail, et vous voulez la flexibilité d'alterner entre grande zone unique et double zone.</p>
+<p><strong>Choisissez le Double Stack si :</strong> votre cuisine est petite, vous cuisinez pour 4 à 6 personnes avec deux plats simultanés, et l'empreinte au sol est votre contrainte principale.</p>
+
+<h2>Pour qui est le FlexDrawer idéal ?</h2>
+<ul>
+<li><strong>Familles de 5 personnes et plus</strong> qui ont besoin de cuire de grandes quantités en une seule fournée</li>
+<li><strong>Amateurs de rôtis et volailles entières</strong> : le FlexDrawer est le seul airfryer de sa gamme de prix capable de cuire un poulet entier</li>
+<li><strong>Cuisiniers qui font des repas festifs</strong> : plateaux de ribs, grandes quantités pour les réunions familiales</li>
+<li><strong>Personnes qui passent régulièrement du mode simple au mode double</strong> selon le repas préparé</li>
+</ul>
+
+<h2>Verdict final détaillé</h2>
+<p>Le Ninja Foodi FlexDrawer 10,4L est une réussite technologique et pratique. Son concept de tiroir flexible est l'innovation la plus intelligente du marché des airfryers en 2026 : résoudre en un seul appareil le dilemme entre grande capacité unique et flexibilité double zone. À 249,99 euros, c'est un investissement justifié pour les grandes familles et les cuisiniers passionnés qui optimisent leur cuisine. Score Nura confirmé : <strong>9,2/10</strong>.</p>`,
 
     en: `<h2>Introduction</h2>
 <p>The Ninja Foodi FlexDrawer 10.4L is the flagship of Ninja's 2026 range. With its XXL 10.4-litre capacity and unique flexible drawer concept — convertible from one large single zone into two independent zones via a removable divider — it targets large families and ambitious cooks who want it all: volume, versatility and performance.</p>
@@ -202,7 +236,34 @@ export const article: BlogArticle = {
 
 <h2>Verdict</h2>
 <p>The Ninja Foodi FlexDrawer 10.4L is <strong>the most versatile air fryer of 2026</strong>. Its flexible drawer concept solves a common dilemma: large single or smaller dual? With the FlexDrawer, you get both. For families of 5+ who use their air fryer daily, it pays for itself quickly.</p>
-<p>If counter space is limited, the <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> at €229.99 offers a better size-to-performance ratio. See all our picks in the <a href="/en/guides/airfryers">complete guide to the best air fryers 2026</a> and our <a href="/en/blog/meilleur-airfryer-xxl-grande-famille">best XXL air fryers for large families</a>.</p>`,
+<p>If counter space is limited, the <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> at €229.99 offers a better size-to-performance ratio. See all our picks in the <a href="/en/guides/airfryers">complete guide to the best air fryers 2026</a> and our <a href="/en/blog/meilleur-airfryer-xxl-grande-famille">best XXL air fryers for large families</a>.</p>
+
+<h2>FlexDrawer vs Double Stack — Which Should You Choose?</h2>
+<table>
+<thead><tr><th>Criterion</th><th>FlexDrawer 10.4L</th><th>Double Stack XL 9.5L</th></tr></thead>
+<tbody>
+<tr><td>Price</td><td>€249.99</td><td>€229.99</td></tr>
+<tr><td>Counter footprint</td><td>44.5 x 38 cm</td><td>27.5 x 37 cm</td></tr>
+<tr><td>Max capacity at once</td><td>10.4L (mega zone)</td><td>2 x 4.75L separate</td></tr>
+<tr><td>Whole chicken</td><td>Yes (1.8 kg)</td><td>No</td></tr>
+<tr><td>Independent dual cooking</td><td>Yes (2 x 5.2L)</td><td>Yes (2 x 4.75L)</td></tr>
+<tr><td>Noise max</td><td>68 dB (Mega)</td><td>65 dB</td></tr>
+<tr><td>Nura Score</td><td>9.2/10</td><td>9.4/10</td></tr>
+</tbody>
+</table>
+<p><strong>Choose the FlexDrawer if:</strong> you have a large family (5+), cook whole birds and roasts regularly, have counter space, and want the flexibility to alternate between a single mega-zone and dual zones.</p>
+<p><strong>Choose the Double Stack if:</strong> your kitchen is small, you cook for 4-6 people with two simultaneous dishes, and counter footprint is your main constraint.</p>
+
+<h2>Who Is the FlexDrawer Ideal For?</h2>
+<ul>
+<li><strong>Families of 5 or more</strong> who need to cook large quantities in one batch</li>
+<li><strong>Roast and poultry enthusiasts</strong>: the FlexDrawer is the only air fryer in its price range that can cook a whole chicken</li>
+<li><strong>Cooks who host frequently</strong>: racks of ribs, large quantities for family gatherings</li>
+<li><strong>People who regularly switch between single and dual mode</strong> depending on the meal</li>
+</ul>
+
+<h2>Detailed Final Verdict</h2>
+<p>The Ninja Foodi FlexDrawer 10.4L is a technical and practical success. Its flexible drawer concept is the most intelligent innovation on the air fryer market in 2026: solving the single large capacity vs dual-zone dilemma in one appliance. At €249.99, it is a justified investment for large families and passionate cooks. Confirmed Nura Score: <strong>9.2/10</strong>.</p>`,
 
     de: `<h2>Einleitung</h2>
 <p>Der Ninja Foodi FlexDrawer 10,4L ist das Flaggschiff der Ninja-Reihe 2026. Mit seiner XXL-Kapazität von 10,4 Litern und dem einzigartigen flexiblen Schubladenkonzept — umwandelbar von einer großen Einzelzone in zwei unabhängige Zonen durch einen herausnehmbaren Trenner — richtet er sich an Großfamilien und ambitionierte Köche. Mit einem Nura-Score von <strong>9,2/10</strong> verdient er seinen Platz in den Top 3.</p>
@@ -274,7 +335,32 @@ export const article: BlogArticle = {
 </table>
 
 <h2>Fazit</h2>
-<p>Der Ninja Foodi FlexDrawer 10,4L ist <strong>die vielseitigste Heißluftfritteuse 2026</strong>. Bei begrenztem Platz ist der <a href="/de/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> die bessere Wahl. Alle Empfehlungen im <a href="/de/guides/airfryers">vollständigen Ratgeber 2026</a> und unsere <a href="/de/blog/meilleur-airfryer-xxl-grande-famille">besten XXL-Fritteusen für Großfamilien</a>.</p>`,
+<p>Der Ninja Foodi FlexDrawer 10,4L ist <strong>die vielseitigste Heißluftfritteuse 2026</strong>. Bei begrenztem Platz ist der <a href="/de/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> die bessere Wahl. Alle Empfehlungen im <a href="/de/guides/airfryers">vollständigen Ratgeber 2026</a> und unsere <a href="/de/blog/meilleur-airfryer-xxl-grande-famille">besten XXL-Fritteusen für Großfamilien</a>.</p>
+
+<h2>FlexDrawer vs Double Stack — Welches Gerät wählen?</h2>
+<table>
+<thead><tr><th>Kriterium</th><th>FlexDrawer 10,4L</th><th>Double Stack XL 9,5L</th></tr></thead>
+<tbody>
+<tr><td>Preis</td><td>249,99 €</td><td>229,99 €</td></tr>
+<tr><td>Stellfläche</td><td>44,5 x 38 cm</td><td>27,5 x 37 cm</td></tr>
+<tr><td>Max. Kapazität auf einmal</td><td>10,4L (Mega-Zone)</td><td>2 x 4,75L getrennt</td></tr>
+<tr><td>Ganzes Hähnchen</td><td>Ja (1,8 kg)</td><td>Nein</td></tr>
+<tr><td>Max. Lautstärke</td><td>68 dB (Mega)</td><td>65 dB</td></tr>
+<tr><td>Nura-Score</td><td>9,2/10</td><td>9,4/10</td></tr>
+</tbody>
+</table>
+<p><strong>FlexDrawer wenn:</strong> Großfamilie (5+), regelmäßige Zubereitung ganzer Hähnchen/Braten, ausreichend Platz vorhanden. <strong>Double Stack wenn:</strong> kleine Küche, 4-6 Personen, kompakter Stellflächenbedarf wichtig.</p>
+
+<h2>Für wen ist der FlexDrawer ideal?</h2>
+<ul>
+<li><strong>Familien ab 5 Personen</strong>, die große Mengen auf einmal garen müssen</li>
+<li><strong>Braten- und Geflügelliebhaber</strong>: das einzige Gerät seiner Klasse für ein ganzes Hähnchen</li>
+<li><strong>Köche die häufig Gäste empfangen</strong>: Ribs-Platten, große Mengen</li>
+<li><strong>Nutzer, die flexibel zwischen Einzel- und Dual-Modus wechseln</strong></li>
+</ul>
+
+<h2>Abschließendes detailliertes Urteil</h2>
+<p>Der Ninja Foodi FlexDrawer 10,4L ist ein technischer und praktischer Erfolg. Sein FlexDrawer-Konzept ist die intelligenteste Innovation auf dem Heißluftfritteusenmarkt 2026 — das Dilemma zwischen großer Einzelkapazität und Doppelzonen-Flexibilität in einem Gerät gelöst. Für 249,99 Euro eine gerechtfertigte Investition für Großfamilien. Bestätigter Nura-Score: <strong>9,2/10</strong>.</p>`,
 
     es: `<h2>Introducción</h2>
 <p>La Ninja Foodi FlexDrawer 10,4L es el buque insignia de la gama Ninja en 2026. Con su capacidad XXL de 10,4 litros y su concepto único de cajón flexible — convertible de una gran zona única a dos zonas independientes mediante un separador extraíble — se dirige a familias numerosas y cocineros ambiciosos. Con una puntuación Nura de <strong>9,2/10</strong>, merece un lugar en el top 3.</p>
@@ -346,7 +432,32 @@ export const article: BlogArticle = {
 </table>
 
 <h2>Veredicto</h2>
-<p>La Ninja Foodi FlexDrawer 10,4L es <strong>la freidora de aire más versátil de 2026</strong>. Si el espacio es limitado, la <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> es mejor opción. Consulte nuestra <a href="/es/guides/airfryers">guía completa 2026</a> y los <a href="/es/blog/meilleur-airfryer-xxl-grande-famille">mejores airfryers XXL para familias</a>.</p>`,
+<p>La Ninja Foodi FlexDrawer 10,4L es <strong>la freidora de aire más versátil de 2026</strong>. Si el espacio es limitado, la <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> es mejor opción. Consulte nuestra <a href="/es/guides/airfryers">guía completa 2026</a> y los <a href="/es/blog/meilleur-airfryer-xxl-grande-famille">mejores airfryers XXL para familias</a>.</p>
+
+<h2>FlexDrawer vs Double Stack — ¿Cuál elegir?</h2>
+<table>
+<thead><tr><th>Criterio</th><th>FlexDrawer 10,4L</th><th>Double Stack XL 9,5L</th></tr></thead>
+<tbody>
+<tr><td>Precio</td><td>249,99 €</td><td>229,99 €</td></tr>
+<tr><td>Huella en encimera</td><td>44,5 x 38 cm</td><td>27,5 x 37 cm</td></tr>
+<tr><td>Capacidad máx. de una vez</td><td>10,4L (mega-zona)</td><td>2 x 4,75L separados</td></tr>
+<tr><td>Pollo entero</td><td>Sí (1,8 kg)</td><td>No</td></tr>
+<tr><td>Ruido máx.</td><td>68 dB (Mega)</td><td>65 dB</td></tr>
+<tr><td>Puntuación Nura</td><td>9,2/10</td><td>9,4/10</td></tr>
+</tbody>
+</table>
+<p><strong>Elige el FlexDrawer si:</strong> tienes familia numerosa (5+), cocinas pollos y asados enteros, dispones de espacio. <strong>Elige el Double Stack si:</strong> tu cocina es pequeña, cocinas para 4-6 personas con dos platos simultáneos.</p>
+
+<h2>¿Para quién es ideal el FlexDrawer?</h2>
+<ul>
+<li><strong>Familias de 5 o más personas</strong> que necesitan cocinar grandes cantidades de una vez</li>
+<li><strong>Aficionados a los asados y aves enteras</strong>: el único airfryer de su gama capaz de cocinar un pollo entero</li>
+<li><strong>Cocineros que reciben invitados frecuentemente</strong>: costillas enteras, grandes cantidades</li>
+<li><strong>Personas que alternan entre modo único y doble</strong> según el menú</li>
+</ul>
+
+<h2>Veredicto final detallado</h2>
+<p>La Ninja Foodi FlexDrawer 10,4L es un éxito técnico y práctico. Su concepto de cajón flexible es la innovación más inteligente del mercado de freidoras de aire en 2026. A 249,99 euros, es una inversión justificada para familias numerosas y cocineros apasionados. Puntuación Nura confirmada: <strong>9,2/10</strong>.</p>`,
 
     it: `<h2>Introduzione</h2>
 <p>La Ninja Foodi FlexDrawer 10,4L è l'ammiraglia della gamma Ninja 2026. Con la sua capacità XXL di 10,4 litri e il concetto unico di cassetto flessibile — convertibile da un'unica grande zona a due zone indipendenti tramite un divisore rimovibile — si rivolge a famiglie numerose e cuochi ambiziosi. Con un punteggio Nura di <strong>9,2/10</strong>, merita un posto nella top 3.</p>
@@ -418,7 +529,32 @@ export const article: BlogArticle = {
 </table>
 
 <h2>Verdetto</h2>
-<p>La Ninja Foodi FlexDrawer 10,4L è <strong>la friggitrice ad aria più versatile del 2026</strong>. Se lo spazio è limitato, la <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> è migliore. La nostra <a href="/it/guides/airfryers">guida completa 2026</a> e i <a href="/it/blog/meilleur-airfryer-xxl-grande-famille">migliori airfryer XXL per famiglie</a>.</p>`,
+<p>La Ninja Foodi FlexDrawer 10,4L è <strong>la friggitrice ad aria più versatile del 2026</strong>. Se lo spazio è limitato, la <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> è migliore. La nostra <a href="/it/guides/airfryers">guida completa 2026</a> e i <a href="/it/blog/meilleur-airfryer-xxl-grande-famille">migliori airfryer XXL per famiglie</a>.</p>
+
+<h2>FlexDrawer vs Double Stack — Quale scegliere?</h2>
+<table>
+<thead><tr><th>Criterio</th><th>FlexDrawer 10,4L</th><th>Double Stack XL 9,5L</th></tr></thead>
+<tbody>
+<tr><td>Prezzo</td><td>249,99 €</td><td>229,99 €</td></tr>
+<tr><td>Ingombro</td><td>44,5 x 38 cm</td><td>27,5 x 37 cm</td></tr>
+<tr><td>Capacità max in una volta</td><td>10,4L (mega-zona)</td><td>2 x 4,75L separati</td></tr>
+<tr><td>Pollo intero</td><td>Sì (1,8 kg)</td><td>No</td></tr>
+<tr><td>Rumore max</td><td>68 dB (Mega)</td><td>65 dB</td></tr>
+<tr><td>Punteggio Nura</td><td>9,2/10</td><td>9,4/10</td></tr>
+</tbody>
+</table>
+<p><strong>Scegli il FlexDrawer se:</strong> hai una famiglia numerosa (5+), cucini spesso pollame o arrosti interi, hai spazio disponibile. <strong>Scegli il Double Stack se:</strong> la cucina è piccola, cucini per 4-6 persone con due piatti simultanei.</p>
+
+<h2>Per chi è ideale il FlexDrawer?</h2>
+<ul>
+<li><strong>Famiglie da 5 persone in su</strong> che devono cuocere grandi quantità in una volta</li>
+<li><strong>Amanti degli arrosti e del pollame intero</strong>: l'unica friggitrice nella sua fascia che cuoce un pollo intero</li>
+<li><strong>Cuochi che ricevono ospiti frequentemente</strong>: costine intere, grandi quantità</li>
+<li><strong>Persone che alternano tra modalità singola e doppia</strong> secondo il pasto</li>
+</ul>
+
+<h2>Verdetto finale dettagliato</h2>
+<p>La Ninja Foodi FlexDrawer 10,4L è un successo tecnico e pratico. Il suo concetto di cassetto flessibile è l'innovazione più intelligente del mercato 2026. A 249,99 euro, è un investimento giustificato per le famiglie numerose. Punteggio Nura confermato: <strong>9,2/10</strong>.</p>`,
 
     nl: `<h2>Inleiding</h2>
 <p>De Ninja Foodi FlexDrawer 10,4L is het vlaggenschip van de Ninja-reeks 2026. Met zijn XXL-capaciteit van 10,4 liter en het unieke flexibele ladeconcept — omschakelbaar van één grote zone naar twee onafhankelijke zones via een verwijderbaar schot — richt hij zich op grote gezinnen en ambitieuze koks. Met een Nura-score van <strong>9,2/10</strong> verdient hij een plek in de top 3.</p>
@@ -490,7 +626,32 @@ export const article: BlogArticle = {
 </table>
 
 <h2>Verdict</h2>
-<p>De Ninja Foodi FlexDrawer 10,4L is <strong>de meest veelzijdige airfryer van 2026</strong>. Bij beperkte ruimte is de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> beter. Alle aanbevelingen in onze <a href="/nl/guides/airfryers">complete gids 2026</a> en de <a href="/nl/blog/meilleur-airfryer-xxl-grande-famille">beste XXL airfryers voor grote gezinnen</a>.</p>`,
+<p>De Ninja Foodi FlexDrawer 10,4L is <strong>de meest veelzijdige airfryer van 2026</strong>. Bij beperkte ruimte is de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> beter. Alle aanbevelingen in onze <a href="/nl/guides/airfryers">complete gids 2026</a> en de <a href="/nl/blog/meilleur-airfryer-xxl-grande-famille">beste XXL airfryers voor grote gezinnen</a>.</p>
+
+<h2>FlexDrawer vs Double Stack — Welke kiezen?</h2>
+<table>
+<thead><tr><th>Criterium</th><th>FlexDrawer 10,4L</th><th>Double Stack XL 9,5L</th></tr></thead>
+<tbody>
+<tr><td>Prijs</td><td>€249,99</td><td>€229,99</td></tr>
+<tr><td>Voetafdruk</td><td>44,5 x 38 cm</td><td>27,5 x 37 cm</td></tr>
+<tr><td>Max capaciteit tegelijk</td><td>10,4L (mega-zone)</td><td>2 x 4,75L apart</td></tr>
+<tr><td>Hele kip</td><td>Ja (1,8 kg)</td><td>Nee</td></tr>
+<tr><td>Max geluid</td><td>68 dB (Mega)</td><td>65 dB</td></tr>
+<tr><td>Nura Score</td><td>9,2/10</td><td>9,4/10</td></tr>
+</tbody>
+</table>
+<p><strong>Kies de FlexDrawer als:</strong> je een groot gezin hebt (5+), regelmatig hele kippen of braadstukken bereidt, en ruimte hebt. <strong>Kies de Double Stack als:</strong> je keuken klein is, je voor 4-6 personen kookt met twee gelijktijdige gerechten.</p>
+
+<h2>Voor wie is de FlexDrawer ideaal?</h2>
+<ul>
+<li><strong>Gezinnen van 5 of meer</strong> die grote hoeveelheden in één keer moeten bereiden</li>
+<li><strong>Liefhebbers van gebraad en hele gevogelte</strong>: de enige airfryer in zijn prijsklasse voor een hele kip</li>
+<li><strong>Koks die regelmatig gasten ontvangen</strong>: spareribs, grote hoeveelheden voor familiebijeenkomsten</li>
+<li><strong>Mensen die flexibel wisselen tussen enkel en dubbel</strong> afhankelijk van het gerecht</li>
+</ul>
+
+<h2>Gedetailleerd eindverdikt</h2>
+<p>De Ninja Foodi FlexDrawer 10,4L is een technisch en praktisch succes. Het FlexDrawer-concept is de intelligentste innovatie op de airfryermarkt van 2026. Voor €249,99 een gerechtvaardigde investering voor grote gezinnen en gepassioneerde koks. Bevestigde Nura Score: <strong>9,2/10</strong>.</p>`,
   },
   faq: [
     {

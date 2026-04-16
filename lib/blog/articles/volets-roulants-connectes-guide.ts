@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 18,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71bfPjOLWUL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Volet roulant connecte motorise Somfy avec application smartphone',
         en: 'Somfy connected motorised roller shutter controlled by smartphone app',

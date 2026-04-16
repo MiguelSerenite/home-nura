@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 16,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/61hg8ZvEXsL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Detecteur de fuite d\'eau connecte Aqara installe sous un evier de cuisine',
         en: 'Aqara smart water leak sensor installed under a kitchen sink',

@@ -167,7 +167,29 @@ export const article: BlogArticle = {
 <h2>Notre verdict</h2>
 <p>En 2026, <strong>l'airfryer l'emporte dans 10 des 13 criteres</strong> de notre comparatif. La friteuse traditionnelle ne conserve un avantage que sur le prix d'achat, le croustillant des frites et l'encombrement. Pour tout le reste — sante, energie, securite, entretien, polyvalence, cout total — l'airfryer domine.</p>
 <p>Notre recommandation est sans equivoque : <strong>pour la grande majorite des foyers, l'airfryer est le meilleur choix en 2026</strong>. Les progres technologiques ont considerablement reduit l'ecart gustatif, tandis que les avantages en termes de sante et de praticite restent incontestables.</p>
-<p>Si vous etes convaincu, consultez notre <a href="/fr/guides/airfryer-vs-four">guide complet airfryer vs four</a> pour aller plus loin, ou decouvrez les meilleurs modeles dans nos tests detailles du <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> et du <a href="/fr/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>.</p>`,
+<p>Si vous etes convaincu, consultez notre <a href="/fr/guides/airfryer-vs-four">guide complet airfryer vs four</a> pour aller plus loin, ou decouvrez les meilleurs modeles dans nos tests detailles du <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> et du <a href="/fr/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>.</p>
+
+<h2>Tableau pros/cons detaille par situation d'usage</h2>
+<table>
+<thead><tr><th>Situation</th><th>Airfryer</th><th>Friteuse traditionnelle</th><th>Notre conseil</th></tr></thead>
+<tbody>
+<tr><td>Frites pour 2 personnes au quotidien</td><td>Ideal : 20 min, 1 c.s. d'huile</td><td>Possible mais gaspillage d'huile</td><td>Airfryer</td></tr>
+<tr><td>Frites pour 6+ personnes</td><td>Cuisson en plusieurs fournees</td><td>Plus efficace en volume</td><td>Friteuse si &gt;6 personnes frequemment</td></tr>
+<tr><td>Cuisine varie (poulet, legumes, desserts)</td><td>Polyvalent par excellence</td><td>Uniquement friture</td><td>Airfryer</td></tr>
+<tr><td>Budget serré</td><td>69-89 € pour un bon modele</td><td>30-60 € pour une friteuse basique</td><td>Friteuse si budget &lt;50€</td></tr>
+<tr><td>Santé et alimentation équilibrée</td><td>-80% de graisses, sans odeur</td><td>Trempage dans huile, odeurs</td><td>Airfryer</td></tr>
+<tr><td>Facilite de nettoyage</td><td>Panier amovible, lave-vaisselle</td><td>Vidange huile, degraissage</td><td>Airfryer</td></tr>
+<tr><td>Goût authentique friterie belge</td><td>Tres bon mais pas identique</td><td>Croustillant superieur</td><td>Friteuse pour puristes</td></tr>
+</tbody>
+</table>
+
+<h2>Qui devrait garder sa friteuse traditionnelle ?</h2>
+<ul>
+<li><strong>Les amateurs de frites belges authentiques :</strong> le trempage dans l'huile de palme ou de friture donne une texture et un goût irreproductibles.</li>
+<li><strong>Les restaurateurs ou grandes tablees :</strong> une friteuse professionnelle peut traiter plusieurs kilos en une seule cuisson.</li>
+<li><strong>Les budgets tres serres :</strong> une friteuse basique coute 30-40 €, deux fois moins qu'un bon airfryer.</li>
+<li><strong>Ceux qui cuisinent uniquement des fritures :</strong> si vous ne faites que des frites et beignets, la friteuse reste specialisee.</li>
+</ul>`,
 
     en: `<h2>Introduction</h2>
 <p>The debate between the air fryer and the traditional deep fryer has been raging for years, but in 2026, the data is clearer than ever. With rapidly evolving hot air cooking technology and growing health awareness, it is time to definitively settle this debate. In this comprehensive comparison, we tested both types of appliances side by side for 3 months, measuring everything from residual fat content to real electricity consumption to blind taste tests.</p>
@@ -245,7 +267,29 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Our verdict</h2>
-<p>In 2026, <strong>the air fryer wins 10 of 13 criteria</strong> in our comparison. The deep fryer retains an advantage only in purchase price, fry crispiness, and footprint. For everything else — health, energy, safety, maintenance, versatility, total cost — the air fryer dominates. Our recommendation is clear: <strong>for the vast majority of households, the air fryer is the best choice in 2026</strong>.</p>`,
+<p>In 2026, <strong>the air fryer wins 10 of 13 criteria</strong> in our comparison. The deep fryer retains an advantage only in purchase price, fry crispiness, and footprint. For everything else — health, energy, safety, maintenance, versatility, total cost — the air fryer dominates. Our recommendation is clear: <strong>for the vast majority of households, the air fryer is the best choice in 2026</strong>.</p>
+
+<h2>Detailed pros/cons by use case</h2>
+<table>
+<thead><tr><th>Situation</th><th>Air fryer</th><th>Deep fryer</th><th>Our advice</th></tr></thead>
+<tbody>
+<tr><td>Daily fries for 2 people</td><td>Ideal: 20 min, 1 tbsp oil</td><td>Possible but oil waste</td><td>Air fryer</td></tr>
+<tr><td>Fries for 6+ people</td><td>Multiple batches needed</td><td>More efficient in volume</td><td>Deep fryer if &gt;6 people often</td></tr>
+<tr><td>Varied cooking (chicken, veg, desserts)</td><td>Versatile by nature</td><td>Frying only</td><td>Air fryer</td></tr>
+<tr><td>Tight budget</td><td>€69-89 for a good model</td><td>€30-60 for a basic fryer</td><td>Deep fryer if budget &lt;€50</td></tr>
+<tr><td>Health and balanced diet</td><td>-80% fat, no smell</td><td>Oil immersion, strong odours</td><td>Air fryer</td></tr>
+<tr><td>Ease of cleaning</td><td>Removable basket, dishwasher</td><td>Oil draining, degreasing</td><td>Air fryer</td></tr>
+<tr><td>Authentic Belgian-style fries</td><td>Very good but not identical</td><td>Superior crunch</td><td>Deep fryer for purists</td></tr>
+</tbody>
+</table>
+
+<h2>Who should keep their deep fryer?</h2>
+<ul>
+<li><strong>Authentic Belgian fries lovers:</strong> immersion in palm or frying oil produces an irreproducible texture and flavour.</li>
+<li><strong>Restaurants or large groups:</strong> a professional fryer can handle several kilos in a single cook.</li>
+<li><strong>Very tight budgets:</strong> a basic deep fryer costs €30-40, half the price of a good air fryer.</li>
+<li><strong>Those who only fry food:</strong> if you only make chips and doughnuts, the fryer remains the specialist tool.</li>
+</ul>`,
 
     de: `<h2>Einleitung</h2>
 <p>Die Debatte zwischen Heissluftfritteuse und klassischer Fritteuse tobt seit Jahren, doch 2026 sind die Daten klarer denn je. In diesem umfassenden Vergleich haben wir beide Geraetetypen 3 Monate lang Seite an Seite getestet — vom Restfettgehalt ueber den realen Stromverbrauch bis hin zu Blindverkostungen.</p>
@@ -305,7 +349,29 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Unser Fazit</h2>
-<p>2026 gewinnt <strong>die Heissluftfritteuse 10 von 13 Kriterien</strong>. Die Fritteuse behaelt Vorteile nur beim Kaufpreis, bei der Pommes-Knusprigkeit und beim Platzbedarf. Fuer alles andere dominiert die Heissluftfritteuse. Unsere Empfehlung: <strong>Fuer die grosse Mehrheit der Haushalte ist die Heissluftfritteuse 2026 die beste Wahl</strong>.</p>`,
+<p>2026 gewinnt <strong>die Heissluftfritteuse 10 von 13 Kriterien</strong>. Die Fritteuse behaelt Vorteile nur beim Kaufpreis, bei der Pommes-Knusprigkeit und beim Platzbedarf. Fuer alles andere dominiert die Heissluftfritteuse. Unsere Empfehlung: <strong>Fuer die grosse Mehrheit der Haushalte ist die Heissluftfritteuse 2026 die beste Wahl</strong>.</p>
+
+<h2>Detaillierter Vor-/Nachteil-Vergleich nach Anwendungsfall</h2>
+<table>
+<thead><tr><th>Situation</th><th>Heissluftfritteuse</th><th>Klassische Fritteuse</th><th>Unser Rat</th></tr></thead>
+<tbody>
+<tr><td>Taegliche Pommes fuer 2 Personen</td><td>Ideal: 20 Min., 1 EL Oel</td><td>Moeglich, aber Oelverschwendung</td><td>Heissluftfritteuse</td></tr>
+<tr><td>Pommes fuer 6+ Personen</td><td>Mehrere Durchgaenge noetig</td><td>Effizienter bei grossem Volumen</td><td>Fritteuse bei &gt;6 Personen oft</td></tr>
+<tr><td>Abwechslungsreiches Kochen</td><td>Vielseitig von Natur aus</td><td>Nur Frittieren</td><td>Heissluftfritteuse</td></tr>
+<tr><td>Knappes Budget</td><td>69-89 € fuer gutes Modell</td><td>30-60 € fuer einfache Fritteuse</td><td>Fritteuse bei Budget &lt;50€</td></tr>
+<tr><td>Gesundheit und ausgew. Ernaehrung</td><td>-80% Fett, kein Geruch</td><td>Oelbadbad, starke Geruche</td><td>Heissluftfritteuse</td></tr>
+<tr><td>Reinigungskomfort</td><td>Herausnehmbarer Korb, Spuelmaschine</td><td>Oelablassen, Entfetten</td><td>Heissluftfritteuse</td></tr>
+<tr><td>Authentische belgische Pommes</td><td>Sehr gut aber nicht identisch</td><td>Ueberlegene Knusprigkeit</td><td>Fritteuse fuer Puristen</td></tr>
+</tbody>
+</table>
+
+<h2>Wer sollte seine klassische Fritteuse behalten?</h2>
+<ul>
+<li><strong>Liebhaber authentischer belgischer Pommes:</strong> das Oelbad gibt eine unuebertreffliche Textur und Geschmack.</li>
+<li><strong>Restaurants oder grosse Gesellschaften:</strong> eine Profifritteuse verarbeitet mehrere Kilo in einem Durchgang.</li>
+<li><strong>Sehr knappes Budget:</strong> eine einfache Fritteuse kostet 30-40 €, die Haelfte eines guten Airfryers.</li>
+<li><strong>Wer nur frittiert:</strong> wenn Sie nur Pommes und Krapfen machen, bleibt die Fritteuse das Spezialistenargeraet.</li>
+</ul>`,
 
     es: `<h2>Introduccion</h2>
 <p>El debate entre la freidora de aire y la freidora tradicional lleva anos, pero en 2026 los datos son mas claros que nunca. En esta comparativa exhaustiva, hemos probado ambos tipos de aparatos lado a lado durante 3 meses, midiendo todo: desde el contenido de grasa residual hasta el consumo electrico real, pasando por pruebas de sabor a ciegas.</p>
@@ -360,7 +426,29 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Nuestro veredicto</h2>
-<p>En 2026, <strong>la freidora de aire gana en 10 de 13 criterios</strong>. Para la gran mayoria de hogares, <strong>la freidora de aire es la mejor opcion en 2026</strong>. Consulta nuestros tests detallados del <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> y el <a href="/es/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>.</p>`,
+<p>En 2026, <strong>la freidora de aire gana en 10 de 13 criterios</strong>. Para la gran mayoria de hogares, <strong>la freidora de aire es la mejor opcion en 2026</strong>. Consulta nuestros tests detallados del <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> y el <a href="/es/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>.</p>
+
+<h2>Tabla detallada de pros/contras por caso de uso</h2>
+<table>
+<thead><tr><th>Situacion</th><th>Freidora de aire</th><th>Freidora tradicional</th><th>Nuestro consejo</th></tr></thead>
+<tbody>
+<tr><td>Patatas diarias para 2 personas</td><td>Ideal: 20 min, 1 c.s. aceite</td><td>Posible pero desperdicio aceite</td><td>Freidora de aire</td></tr>
+<tr><td>Patatas para 6+ personas</td><td>Varias tandas necesarias</td><td>Mas eficiente en volumen</td><td>Freidora trad. si &gt;6 personas</td></tr>
+<tr><td>Cocina variada</td><td>Versatil por naturaleza</td><td>Solo fritura</td><td>Freidora de aire</td></tr>
+<tr><td>Presupuesto ajustado</td><td>69-89 € buen modelo</td><td>30-60 € freidora basica</td><td>Freidora trad. si &lt;50€</td></tr>
+<tr><td>Salud y dieta equilibrada</td><td>-80% grasa, sin olor</td><td>Bano de aceite, fuertes olores</td><td>Freidora de aire</td></tr>
+<tr><td>Facilidad de limpieza</td><td>Cesta extraible, lavavajillas</td><td>Vaciado aceite, desengrasado</td><td>Freidora de aire</td></tr>
+<tr><td>Sabor autentico estilo belga</td><td>Muy bueno pero no identico</td><td>Crujiente superior</td><td>Freidora trad. para puristas</td></tr>
+</tbody>
+</table>
+
+<h2>Quien deberia mantener su freidora tradicional?</h2>
+<ul>
+<li><strong>Amantes de las patatas belgas autenticas:</strong> el bano de aceite da una textura e irrepetible sabor.</li>
+<li><strong>Restaurantes o grandes grupos:</strong> una freidora profesional puede procesar varios kilos en una sola carga.</li>
+<li><strong>Presupuestos muy ajustados:</strong> una freidora basica cuesta 30-40 €, la mitad de un buen airfryer.</li>
+<li><strong>Quienes solo frien:</strong> si solo haces patatas fritas y buñuelos, la freidora sigue siendo la herramienta especializada.</li>
+</ul>`,
 
     it: `<h2>Introduzione</h2>
 <p>Il dibattito tra friggitrice ad aria e friggitrice tradizionale va avanti da anni, ma nel 2026 i dati sono piu chiari che mai. In questo confronto completo, abbiamo testato entrambi i tipi di apparecchi fianco a fianco per 3 mesi, misurando tutto: dal contenuto di grassi residui al consumo elettrico reale, fino a test gustativi alla cieca.</p>
@@ -415,7 +503,29 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Il nostro verdetto</h2>
-<p>Nel 2026, <strong>la friggitrice ad aria vince in 10 criteri su 13</strong>. Per la grande maggioranza delle famiglie, <strong>la friggitrice ad aria e la scelta migliore nel 2026</strong>. Consultate i nostri test dettagliati del <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> e del <a href="/it/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>.</p>`,
+<p>Nel 2026, <strong>la friggitrice ad aria vince in 10 criteri su 13</strong>. Per la grande maggioranza delle famiglie, <strong>la friggitrice ad aria e la scelta migliore nel 2026</strong>. Consultate i nostri test dettagliati del <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> e del <a href="/it/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>.</p>
+
+<h2>Tabella dettagliata pro/contro per caso d'uso</h2>
+<table>
+<thead><tr><th>Situazione</th><th>Friggitrice ad aria</th><th>Friggitrice tradizionale</th><th>Il nostro consiglio</th></tr></thead>
+<tbody>
+<tr><td>Patatine quotidiane per 2 persone</td><td>Ideale: 20 min, 1 cucchiaio olio</td><td>Possibile ma spreco olio</td><td>Friggitrice ad aria</td></tr>
+<tr><td>Patatine per 6+ persone</td><td>Piu infornate necessarie</td><td>Piu efficiente in volume</td><td>Friggitrice trad. se &gt;6 spesso</td></tr>
+<tr><td>Cucina variata</td><td>Versatile per natura</td><td>Solo frittura</td><td>Friggitrice ad aria</td></tr>
+<tr><td>Budget ridotto</td><td>69-89 € buon modello</td><td>30-60 € friggitrice base</td><td>Friggitrice trad. se &lt;50€</td></tr>
+<tr><td>Salute e dieta equilibrata</td><td>-80% grassi, senza odori</td><td>Bagno nell'olio, odori forti</td><td>Friggitrice ad aria</td></tr>
+<tr><td>Facilita di pulizia</td><td>Cestello rimovibile, lavastoviglie</td><td>Svuotamento olio, sgrassaggio</td><td>Friggitrice ad aria</td></tr>
+<tr><td>Gusto autentico stile belga</td><td>Molto buono ma non identico</td><td>Croccantezza superiore</td><td>Friggitrice trad. per puristi</td></tr>
+</tbody>
+</table>
+
+<h2>Chi dovrebbe tenere la friggitrice tradizionale?</h2>
+<ul>
+<li><strong>Amanti delle vere patatine belghe:</strong> il bagno nell'olio di palma da una texture e un sapore irriproducibili.</li>
+<li><strong>Ristoranti o grandi tavolate:</strong> una friggitrice professionale tratta piu chili in una sola cottura.</li>
+<li><strong>Budget molto ridotti:</strong> una friggitrice base costa 30-40 €, la meta di una buona friggitrice ad aria.</li>
+<li><strong>Chi frigge solo:</strong> se fate solo patatine e fritti, la friggitrice resta l'attrezzo specializzato.</li>
+</ul>`,
 
     nl: `<h2>Inleiding</h2>
 <p>Het debat tussen de airfryer en de traditionele frituurpan woedt al jaren, maar in 2026 zijn de gegevens duidelijker dan ooit. In deze uitgebreide vergelijking hebben we beide typen apparaten 3 maanden lang naast elkaar getest — van het restvetgehalte tot het werkelijke stroomverbruik tot blinde smaaktesten.</p>
@@ -470,7 +580,29 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Ons oordeel</h2>
-<p>In 2026 wint <strong>de airfryer 10 van de 13 criteria</strong>. Voor de overgrote meerderheid van huishoudens is <strong>de airfryer de beste keuze in 2026</strong>. Bekijk onze gedetailleerde tests van de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> en de <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>.</p>`,
+<p>In 2026 wint <strong>de airfryer 10 van de 13 criteria</strong>. Voor de overgrote meerderheid van huishoudens is <strong>de airfryer de beste keuze in 2026</strong>. Bekijk onze gedetailleerde tests van de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> en de <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>.</p>
+
+<h2>Gedetailleerde voor-/nadelen tabel per gebruikssituatie</h2>
+<table>
+<thead><tr><th>Situatie</th><th>Airfryer</th><th>Traditionele frituurpan</th><th>Ons advies</th></tr></thead>
+<tbody>
+<tr><td>Dagelijkse frietjes voor 2 personen</td><td>Ideaal: 20 min, 1 el olie</td><td>Mogelijk maar olie-verspilling</td><td>Airfryer</td></tr>
+<tr><td>Frietjes voor 6+ personen</td><td>Meerdere batches nodig</td><td>Efficienter in volume</td><td>Frituurpan bij &gt;6 personen vaak</td></tr>
+<tr><td>Gevarieerd koken</td><td>Veelzijdig van nature</td><td>Alleen frituren</td><td>Airfryer</td></tr>
+<tr><td>Krap budget</td><td>€69-89 voor goed model</td><td>€30-60 voor basis friteuse</td><td>Frituurpan bij budget &lt;€50</td></tr>
+<tr><td>Gezondheid en gebalanceerd eten</td><td>-80% vet, geen geur</td><td>Ondergedompeld in olie, sterke geuren</td><td>Airfryer</td></tr>
+<tr><td>Gemak van reinigen</td><td>Uitneembare mand, vaatwasser</td><td>Olie afvoeren, ontvetten</td><td>Airfryer</td></tr>
+<tr><td>Authentieke Belgische frietjes</td><td>Zeer goed maar niet identiek</td><td>Superieure knapperigheid</td><td>Frituurpan voor puristen</td></tr>
+</tbody>
+</table>
+
+<h2>Wie zou zijn traditionele frituurpan moeten houden?</h2>
+<ul>
+<li><strong>Liefhebbers van echte Belgische frietjes:</strong> onderdompeling in palmvet of frituurolie geeft een onnavolgbare textuur en smaak.</li>
+<li><strong>Restaurants of grote gezelschappen:</strong> een professionele friteuse kan meerdere kilo's in één keer verwerken.</li>
+<li><strong>Zeer krap budget:</strong> een eenvoudige frituurpan kost €30-40, de helft van een goede airfryer.</li>
+<li><strong>Wie alleen frituurt:</strong> als je alleen frietjes en beignets maakt, blijft de frituurpan het gespecialiseerde gereedschap.</li>
+</ul>`,
   },
   faq: [
     {

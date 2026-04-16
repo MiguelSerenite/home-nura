@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 25,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71RJn1fHtnL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Robot aspirateur intelligent avec station de vidage automatique en action sur un sol en bois',
         en: 'Smart robot vacuum with auto-empty station in action on hardwood floor',

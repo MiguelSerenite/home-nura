@@ -301,7 +301,28 @@ export const article: BlogArticle = {
 
 <h2>Conclusion</h2>
 <p>Le meal prep à l'airfryer est la combinaison gagnante pour une alimentation saine, économique et savoureuse tout au long de la semaine. En investissant 2 heures le dimanche, vous économisez au minimum <strong>5 heures de cuisine en semaine</strong> et vous évitez la tentation des plats préparés industriels ou de la livraison à domicile.</p>
-<p>L'airfryer excelle dans le réchauffage — là où le micro-ondes ramollit les textures, l'airfryer redonne du croustillant à chaque plat. C'est un avantage décisif pour le meal prep. Pour aller plus loin, explorez nos <a href="/fr/blog/recettes-legumes-grilles-airfryer">10 recettes de légumes grillés</a>, nos <a href="/fr/blog/recettes-poulet-croustillant-airfryer">recettes de poulet croustillant</a> et notre guide pour <a href="/fr/blog/cuisiner-healthy-airfryer">cuisiner healthy à l'airfryer</a>.</p>`,
+<p>L'airfryer excelle dans le réchauffage — là où le micro-ondes ramollit les textures, l'airfryer redonne du croustillant à chaque plat. C'est un avantage décisif pour le meal prep. Pour aller plus loin, explorez nos <a href="/fr/blog/recettes-legumes-grilles-airfryer">10 recettes de légumes grillés</a>, nos <a href="/fr/blog/recettes-poulet-croustillant-airfryer">recettes de poulet croustillant</a> et notre guide pour <a href="/fr/blog/cuisiner-healthy-airfryer">cuisiner healthy à l'airfryer</a>.</p>
+
+<h2>Tableau de conservation : durées et méthodes de réchauffage</h2>
+<table>
+<thead><tr><th>Aliment préparé</th><th>Frigo (max)</th><th>Congélateur</th><th>Réchauffage airfryer</th><th>Temp/Temps</th></tr></thead>
+<tbody>
+<tr><td>Blancs de poulet cuits</td><td>4 jours</td><td>3 mois</td><td>Oui — humidifier légèrement</td><td>160°C / 6-8 min</td></tr>
+<tr><td>Cuisses / pilons</td><td>4 jours</td><td>3 mois</td><td>Oui — excellent résultat</td><td>180°C / 8-10 min</td></tr>
+<tr><td>Légumes grillés</td><td>5 jours</td><td>2 mois</td><td>Oui — redonne le croustillant</td><td>180°C / 4-5 min</td></tr>
+<tr><td>Frites maison</td><td>3 jours</td><td>2 mois</td><td>Oui — résultat quasi parfait</td><td>180°C / 3-5 min</td></tr>
+<tr><td>Saumons / poissons</td><td>3 jours</td><td>2 mois</td><td>Oui — couvrir avec papier alu</td><td>160°C / 5-7 min</td></tr>
+<tr><td>Tofu / protéines végé</td><td>5 jours</td><td>3 mois</td><td>Oui — excellent résultat</td><td>180°C / 5-6 min</td></tr>
+</tbody>
+</table>
+
+<h2>Calcul des économies réelles du meal prep à l'airfryer</h2>
+<ul>
+<li><strong>Économie de temps :</strong> 2h le dimanche vs 30-45 min/jour en semaine = économie de 2,5 à 3h sur la semaine.</li>
+<li><strong>Économie financière :</strong> cuisiner chez soi coûte en moyenne 3-5 €/repas vs 10-15 € pour la livraison. Sur 5 déjeuners, c'est 35-50 € économisés par semaine.</li>
+<li><strong>Économie d'énergie :</strong> l'airfryer consomme 0,38-0,59 kWh par session vs 0,9-1,2 kWh pour un four. Sur 10 sessions/semaine : 5-8 € d'économie électrique/mois.</li>
+<li><strong>Réduction du gaspillage :</strong> une liste de courses ciblée réduit les pertes alimentaires de 30-40 % en moyenne.</li>
+</ul>`,
 
     en: `<h2>Introduction</h2>
 <p>Meal prep — preparing your meals in advance — is the ideal strategy for eating healthily, saving time during the week, and reducing food waste. The air fryer is the perfect tool for this approach: quick cooking, minimal washing up, and delicious results even after reheating. This complete guide offers a <strong>Monday-to-Friday plan</strong> with a Sunday batch cooking session, a single shopping list, and all storage and reheating tips.</p>
@@ -429,7 +450,28 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Conclusion</h2>
-<p>Air fryer meal prep is the winning combination for healthy, economical, and tasty eating throughout the week. By investing 2 hours on Sunday, you save at least <strong>5 hours of cooking during the week</strong>. Explore our <a href="/en/blog/recettes-legumes-grilles-airfryer">10 grilled vegetable recipes</a> and <a href="/en/blog/cuisiner-healthy-airfryer">healthy cooking guide</a> for more inspiration.</p>`,
+<p>Air fryer meal prep is the winning combination for healthy, economical, and tasty eating throughout the week. By investing 2 hours on Sunday, you save at least <strong>5 hours of cooking during the week</strong>. Explore our <a href="/en/blog/recettes-legumes-grilles-airfryer">10 grilled vegetable recipes</a> and <a href="/en/blog/cuisiner-healthy-airfryer">healthy cooking guide</a> for more inspiration.</p>
+
+<h2>Storage guide: shelf life and reheating methods</h2>
+<table>
+<thead><tr><th>Prepared food</th><th>Fridge (max)</th><th>Freezer</th><th>Air fryer reheat</th><th>Temp/Time</th></tr></thead>
+<tbody>
+<tr><td>Cooked chicken breasts</td><td>4 days</td><td>3 months</td><td>Yes — lightly moisten first</td><td>160°C / 6-8 min</td></tr>
+<tr><td>Thighs / drumsticks</td><td>4 days</td><td>3 months</td><td>Yes — excellent result</td><td>180°C / 8-10 min</td></tr>
+<tr><td>Roasted vegetables</td><td>5 days</td><td>2 months</td><td>Yes — restores crispiness</td><td>180°C / 4-5 min</td></tr>
+<tr><td>Homemade fries</td><td>3 days</td><td>2 months</td><td>Yes — nearly perfect result</td><td>180°C / 3-5 min</td></tr>
+<tr><td>Salmon / fish</td><td>3 days</td><td>2 months</td><td>Yes — cover with foil</td><td>160°C / 5-7 min</td></tr>
+<tr><td>Tofu / plant protein</td><td>5 days</td><td>3 months</td><td>Yes — excellent result</td><td>180°C / 5-6 min</td></tr>
+</tbody>
+</table>
+
+<h2>Real savings from air fryer meal prep</h2>
+<ul>
+<li><strong>Time saving:</strong> 2h on Sunday vs 30-45 min/day on weekdays = saving 2.5 to 3 hours over the week.</li>
+<li><strong>Financial saving:</strong> home cooking averages €3-5/meal vs €10-15 for delivery. Over 5 lunches, that's €35-50 saved per week.</li>
+<li><strong>Energy saving:</strong> the air fryer uses 0.38-0.59 kWh per session vs 0.9-1.2 kWh for an oven. Over 10 sessions/week: €5-8 electricity saving per month.</li>
+<li><strong>Waste reduction:</strong> a targeted shopping list reduces food waste by 30-40% on average.</li>
+</ul>`,
 
     de: `<h2>Einleitung</h2>
 <p>Meal Prep — Mahlzeiten im Voraus zubereiten — ist die ideale Strategie für gesunde Ernährung, Zeitersparnis unter der Woche und weniger Lebensmittelverschwendung. Die Heißluftfritteuse ist das perfekte Werkzeug: schnelle Zubereitung, wenig Abwasch und köstliche Ergebnisse auch nach dem Aufwärmen. Dieser Guide bietet einen <strong>Wochenplan von Montag bis Freitag</strong> mit einer Sonntagssession, einer Einkaufsliste und allen Aufbewahrungs- und Aufwärmtipps.</p>
@@ -512,7 +554,28 @@ export const article: BlogArticle = {
 <li><strong>Sportler:</strong> Protein-Portionen um 50 % erhöhen.</li>
 <li><strong>Sparfüchse:</strong> Lachs durch Seelachs ersetzen (180 °C, 10-12 Min.).</li>
 </ul>
-<p>Entdecken Sie unsere <a href="/de/blog/recettes-legumes-grilles-airfryer">10 Gemüse-Rezepte</a> und <a href="/de/blog/recettes-poulet-croustillant-airfryer">Hähnchen-Rezepte</a> für weitere Inspiration.</p>`,
+<p>Entdecken Sie unsere <a href="/de/blog/recettes-legumes-grilles-airfryer">10 Gemüse-Rezepte</a> und <a href="/de/blog/recettes-poulet-croustillant-airfryer">Hähnchen-Rezepte</a> für weitere Inspiration.</p>
+
+<h2>Aufbewahrungsguide: Haltbarkeit und Aufwärmmethoden</h2>
+<table>
+<thead><tr><th>Zubereitetes Lebensmittel</th><th>Kühlschrank (max)</th><th>Gefrierschrank</th><th>Airfryer-Aufwärmen</th><th>Temp/Zeit</th></tr></thead>
+<tbody>
+<tr><td>Gebratene Hähnchenbrust</td><td>4 Tage</td><td>3 Monate</td><td>Ja — leicht befeuchten</td><td>160°C / 6-8 Min.</td></tr>
+<tr><td>Schenkel / Trommelstöcke</td><td>4 Tage</td><td>3 Monate</td><td>Ja — hervorragendes Ergebnis</td><td>180°C / 8-10 Min.</td></tr>
+<tr><td>Gegrilltes Gemüse</td><td>5 Tage</td><td>2 Monate</td><td>Ja — stellt Knusprigkeit wieder her</td><td>180°C / 4-5 Min.</td></tr>
+<tr><td>Selbst gemachte Pommes</td><td>3 Tage</td><td>2 Monate</td><td>Ja — fast perfektes Ergebnis</td><td>180°C / 3-5 Min.</td></tr>
+<tr><td>Lachs / Fisch</td><td>3 Tage</td><td>2 Monate</td><td>Ja — mit Alufolie abdecken</td><td>160°C / 5-7 Min.</td></tr>
+<tr><td>Tofu / pflanzliches Eiweiß</td><td>5 Tage</td><td>3 Monate</td><td>Ja — hervorragendes Ergebnis</td><td>180°C / 5-6 Min.</td></tr>
+</tbody>
+</table>
+
+<h2>Echte Ersparnisse durch Airfryer Meal Prep</h2>
+<ul>
+<li><strong>Zeitersparnis:</strong> 2 Stunden sonntags vs 30-45 Min./Tag wochentags = 2,5-3 Stunden Ersparnis pro Woche.</li>
+<li><strong>Finanzielle Ersparnis:</strong> Heimkochen kostet im Schnitt 3-5 €/Mahlzeit vs 10-15 € Lieferservice. Über 5 Mittagessen: 35-50 € pro Woche gespart.</li>
+<li><strong>Energieersparnis:</strong> der Airfryer verbraucht 0,38-0,59 kWh pro Sitzung vs 0,9-1,2 kWh für den Backofen. Bei 10 Sitzungen/Woche: 5-8 € Stromersparnis pro Monat.</li>
+<li><strong>Abfallreduzierung:</strong> eine gezielte Einkaufsliste reduziert Lebensmittelverschwendung um durchschnittlich 30-40 %.</li>
+</ul>`,
 
     es: `<h2>Introducción</h2>
 <p>El meal prep — preparar las comidas con antelación — es la estrategia ideal para comer sano, ahorrar tiempo entre semana y reducir el desperdicio alimentario. La freidora de aire es la herramienta perfecta: cocción rápida, pocos platos que lavar y resultados deliciosos incluso después de recalentar. Esta guía ofrece un <strong>plan de lunes a viernes</strong> con una sesión de batch cooking el domingo, una lista de compras única y todos los consejos de conservación y recalentamiento.</p>
@@ -595,7 +658,28 @@ export const article: BlogArticle = {
 <li><strong>Deportistas:</strong> aumenta las proteínas un 50 %.</li>
 <li><strong>Presupuesto ajustado:</strong> sustituye el salmón por merluza (180 °C, 10-12 min).</li>
 </ul>
-<p>Explora nuestras <a href="/es/blog/recettes-legumes-grilles-airfryer">10 recetas de verduras</a> y <a href="/es/blog/recettes-poulet-croustillant-airfryer">recetas de pollo crujiente</a> para más variedad.</p>`,
+<p>Explora nuestras <a href="/es/blog/recettes-legumes-grilles-airfryer">10 recetas de verduras</a> y <a href="/es/blog/recettes-poulet-croustillant-airfryer">recetas de pollo crujiente</a> para más variedad.</p>
+
+<h2>Guía de conservación: duraciones y métodos de recalentamiento</h2>
+<table>
+<thead><tr><th>Alimento preparado</th><th>Nevera (max)</th><th>Congelador</th><th>Recalentamiento freidora</th><th>Temp/Tiempo</th></tr></thead>
+<tbody>
+<tr><td>Pechugas de pollo cocinadas</td><td>4 días</td><td>3 meses</td><td>Sí — humedecer ligeramente</td><td>160°C / 6-8 min</td></tr>
+<tr><td>Muslos / contramuslos</td><td>4 días</td><td>3 meses</td><td>Sí — excelente resultado</td><td>180°C / 8-10 min</td></tr>
+<tr><td>Verduras asadas</td><td>5 días</td><td>2 meses</td><td>Sí — recupera el crujiente</td><td>180°C / 4-5 min</td></tr>
+<tr><td>Patatas fritas caseras</td><td>3 días</td><td>2 meses</td><td>Sí — resultado casi perfecto</td><td>180°C / 3-5 min</td></tr>
+<tr><td>Salmón / pescado</td><td>3 días</td><td>2 meses</td><td>Sí — cubrir con papel aluminio</td><td>160°C / 5-7 min</td></tr>
+<tr><td>Tofu / proteína vegetal</td><td>5 días</td><td>3 meses</td><td>Sí — excelente resultado</td><td>180°C / 5-6 min</td></tr>
+</tbody>
+</table>
+
+<h2>Ahorro real del meal prep con freidora de aire</h2>
+<ul>
+<li><strong>Ahorro de tiempo:</strong> 2h el domingo vs 30-45 min/día en semana = ahorro de 2,5-3 horas por semana.</li>
+<li><strong>Ahorro económico:</strong> cocinar en casa cuesta de media 3-5 €/comida vs 10-15 € de pedido a domicilio. En 5 almuerzos: 35-50 € ahorrados por semana.</li>
+<li><strong>Ahorro energético:</strong> la freidora consume 0,38-0,59 kWh por sesión vs 0,9-1,2 kWh del horno. En 10 sesiones/semana: 5-8 € de ahorro eléctrico al mes.</li>
+<li><strong>Reducción de desperdicio:</strong> una lista de la compra específica reduce el desperdicio alimentario un 30-40% de media.</li>
+</ul>`,
 
     it: `<h2>Introduzione</h2>
 <p>Il meal prep — preparare i pasti in anticipo — è la strategia ideale per mangiare sano, risparmiare tempo durante la settimana e ridurre gli sprechi alimentari. La friggitrice ad aria è lo strumento perfetto: cottura rapida, pochi piatti da lavare e risultati deliziosi anche dopo il riscaldamento. Questa guida offre un <strong>piano dal lunedì al venerdì</strong> con una sessione di batch cooking domenicale, una lista della spesa unica e tutti i consigli di conservazione.</p>
@@ -678,7 +762,28 @@ export const article: BlogArticle = {
 <li><strong>Sportivi:</strong> aumentate le proteine del 50 %.</li>
 <li><strong>Budget ridotto:</strong> sostituite il salmone con nasello (180 °C, 10-12 min).</li>
 </ul>
-<p>Scoprite le nostre <a href="/it/blog/recettes-legumes-grilles-airfryer">10 ricette di verdure</a> e le <a href="/it/blog/recettes-poulet-croustillant-airfryer">ricette di pollo croccante</a>.</p>`,
+<p>Scoprite le nostre <a href="/it/blog/recettes-legumes-grilles-airfryer">10 ricette di verdure</a> e le <a href="/it/blog/recettes-poulet-croustillant-airfryer">ricette di pollo croccante</a>.</p>
+
+<h2>Guida alla conservazione: durata e metodi di riscaldamento</h2>
+<table>
+<thead><tr><th>Alimento preparato</th><th>Frigo (max)</th><th>Congelatore</th><th>Riscaldamento friggitrice</th><th>Temp/Tempo</th></tr></thead>
+<tbody>
+<tr><td>Petti di pollo cotti</td><td>4 giorni</td><td>3 mesi</td><td>Sì — inumidire leggermente</td><td>160°C / 6-8 min</td></tr>
+<tr><td>Cosce / sovracosce</td><td>4 giorni</td><td>3 mesi</td><td>Sì — risultato eccellente</td><td>180°C / 8-10 min</td></tr>
+<tr><td>Verdure grigliate</td><td>5 giorni</td><td>2 mesi</td><td>Sì — ripristina la croccantezza</td><td>180°C / 4-5 min</td></tr>
+<tr><td>Patatine fritte fatte in casa</td><td>3 giorni</td><td>2 mesi</td><td>Sì — risultato quasi perfetto</td><td>180°C / 3-5 min</td></tr>
+<tr><td>Salmone / pesce</td><td>3 giorni</td><td>2 mesi</td><td>Sì — coprire con alluminio</td><td>160°C / 5-7 min</td></tr>
+<tr><td>Tofu / proteine vegetali</td><td>5 giorni</td><td>3 mesi</td><td>Sì — risultato eccellente</td><td>180°C / 5-6 min</td></tr>
+</tbody>
+</table>
+
+<h2>Risparmio reale del meal prep con la friggitrice ad aria</h2>
+<ul>
+<li><strong>Risparmio di tempo:</strong> 2 ore la domenica vs 30-45 min/giorno nei giorni feriali = 2,5-3 ore risparmiate a settimana.</li>
+<li><strong>Risparmio economico:</strong> cucinare a casa costa in media 3-5 €/pasto vs 10-15 € per le consegne. Su 5 pranzi: 35-50 € risparmiati a settimana.</li>
+<li><strong>Risparmio energetico:</strong> la friggitrice ad aria consuma 0,38-0,59 kWh per sessione vs 0,9-1,2 kWh del forno. Su 10 sessioni/settimana: 5-8 € di risparmio elettrico al mese.</li>
+<li><strong>Riduzione degli sprechi:</strong> una lista della spesa mirata riduce gli sprechi alimentari del 30-40% in media.</li>
+</ul>`,
 
     nl: `<h2>Inleiding</h2>
 <p>Meal prep — maaltijden vooruit bereiden — is de ideale strategie om gezond te eten, tijd te besparen doordeweeks en voedselverspilling te verminderen. De airfryer is het perfecte hulpmiddel: snel koken, weinig afwas en heerlijke resultaten ook na het opwarmen. Deze gids biedt een <strong>plan van maandag tot vrijdag</strong> met een zondagse batch cooking sessie, een boodschappenlijst en alle bewaar- en opwarmtips.</p>
@@ -761,7 +866,28 @@ export const article: BlogArticle = {
 <li><strong>Sporters:</strong> verhoog eiwitporties met 50 %.</li>
 <li><strong>Klein budget:</strong> vervang zalm door kabeljauw (180 °C, 10-12 min).</li>
 </ul>
-<p>Ontdek onze <a href="/nl/blog/recettes-legumes-grilles-airfryer">10 groenterecepten</a> en <a href="/nl/blog/recettes-poulet-croustillant-airfryer">krokante kiprecepten</a> voor meer inspiratie.</p>`,
+<p>Ontdek onze <a href="/nl/blog/recettes-legumes-grilles-airfryer">10 groenterecepten</a> en <a href="/nl/blog/recettes-poulet-croustillant-airfryer">krokante kiprecepten</a> voor meer inspiratie.</p>
+
+<h2>Bewaaroverzicht: houdbaarheid en opwarmmethoden</h2>
+<table>
+<thead><tr><th>Bereid voedsel</th><th>Koelkast (max)</th><th>Vriezer</th><th>Airfryer opwarmen</th><th>Temp/Tijd</th></tr></thead>
+<tbody>
+<tr><td>Gekookte kipfilets</td><td>4 dagen</td><td>3 maanden</td><td>Ja — licht bevochtigen</td><td>160°C / 6-8 min</td></tr>
+<tr><td>Dijen / drumsticks</td><td>4 dagen</td><td>3 maanden</td><td>Ja — uitstekend resultaat</td><td>180°C / 8-10 min</td></tr>
+<tr><td>Gegrilde groenten</td><td>5 dagen</td><td>2 maanden</td><td>Ja — herstelt knapperigheid</td><td>180°C / 4-5 min</td></tr>
+<tr><td>Zelfgemaakte frietjes</td><td>3 dagen</td><td>2 maanden</td><td>Ja — bijna perfect resultaat</td><td>180°C / 3-5 min</td></tr>
+<tr><td>Zalm / vis</td><td>3 dagen</td><td>2 maanden</td><td>Ja — afdekken met folie</td><td>160°C / 5-7 min</td></tr>
+<tr><td>Tofu / plantaardig eiwit</td><td>5 dagen</td><td>3 maanden</td><td>Ja — uitstekend resultaat</td><td>180°C / 5-6 min</td></tr>
+</tbody>
+</table>
+
+<h2>Echte besparingen met airfryer meal prep</h2>
+<ul>
+<li><strong>Tijdsbesparing:</strong> 2 uur op zondag vs 30-45 min/dag door de week = 2,5-3 uur bespaard per week.</li>
+<li><strong>Financiële besparing:</strong> thuis koken kost gemiddeld €3-5/maaltijd vs €10-15 voor bezorging. Over 5 lunches: €35-50 per week bespaard.</li>
+<li><strong>Energiebesparing:</strong> de airfryer verbruikt 0,38-0,59 kWh per sessie vs 0,9-1,2 kWh voor een oven. Bij 10 sessies/week: €5-8 elektriciteitsbesparing per maand.</li>
+<li><strong>Voedselverspilling vermindering:</strong> een gerichte boodschappenlijst vermindert voedselverspilling met gemiddeld 30-40%.</li>
+</ul>`,
   },
   faq: [
     {

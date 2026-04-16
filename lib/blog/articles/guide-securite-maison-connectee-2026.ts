@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 22,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/61Iy2w3BQRL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1536147116438-62679a5e01f2?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Camera de surveillance connectee pour securite maison intelligente',
         en: 'Smart security camera for connected home security system',

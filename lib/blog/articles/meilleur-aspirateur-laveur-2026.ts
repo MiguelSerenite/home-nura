@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 17,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71bfPjOLWUL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Meilleur aspirateur laveur 2026 comparatif Dreame Tineco Roborock Bissell',
         en: 'Best wet dry vacuum 2026 comparison Dreame Tineco Roborock Bissell',

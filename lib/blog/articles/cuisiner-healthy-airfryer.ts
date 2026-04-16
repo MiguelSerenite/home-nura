@@ -160,6 +160,27 @@ export const article: BlogArticle = {
 <h3>Diabète de type 2</h3>
 <p>Les aliments cuits à l'airfryer ont généralement un index glycémique similaire ou légèrement inférieur aux mêmes aliments cuits au four, et nettement inférieur aux aliments frits. Les frites d'airfryer ont un IG d'environ 72, contre 82 pour les frites frites.</p>
 
+<h2>Tableau de comparaison nutritionnelle détaillée</h2>
+<table>
+<thead><tr><th>Aliment (100 g)</th><th>Fritteuse traditionnelle</th><th>Airfryer</th><th>Économie calories</th><th>Économie graisses</th></tr></thead>
+<tbody>
+<tr><td>Frites pomme de terre</td><td>340 kcal / 17 g graisses</td><td>180 kcal / 4 g graisses</td><td>-47 %</td><td>-76 %</td></tr>
+<tr><td>Ailes de poulet</td><td>290 kcal / 20 g graisses</td><td>210 kcal / 12 g graisses</td><td>-28 %</td><td>-40 %</td></tr>
+<tr><td>Nuggets poulet maison</td><td>280 kcal / 15 g graisses</td><td>195 kcal / 7 g graisses</td><td>-30 %</td><td>-53 %</td></tr>
+<tr><td>Beignets de légumes</td><td>250 kcal / 16 g graisses</td><td>130 kcal / 3 g graisses</td><td>-48 %</td><td>-81 %</td></tr>
+<tr><td>Mozzarella en croûte</td><td>320 kcal / 22 g graisses</td><td>220 kcal / 11 g graisses</td><td>-31 %</td><td>-50 %</td></tr>
+</tbody>
+</table>
+
+<h2>5 recettes healthy faciles à réaliser à l'airfryer</h2>
+<ul>
+<li><strong>Frites de courgettes au parmesan</strong> : courgettes en bâtonnets, enrobées d'une fine couche de chapelure et de parmesan. 160°C, 14 minutes. 120 kcal / 100 g vs 280 kcal en friture.</li>
+<li><strong>Pois chiches croustillants aux épices</strong> : pois chiches égouttés, 1 cuillère à café d'huile, cumin, paprika fumé. 200°C, 15 minutes. Snack protéiné à 170 kcal / 100 g.</li>
+<li><strong>Saumon à la croûte d'herbes</strong> : filet de saumon + chapelure + herbes fraîches. 190°C, 12 minutes. 200 kcal / 100 g, 23 g de protéines, riche en oméga-3.</li>
+<li><strong>Aubergines façon chips</strong> : tranches fines, 1 spray d'huile, sel, thym. 180°C, 10 minutes. 45 kcal / 100 g.</li>
+<li><strong>Poulet tikka mariné</strong> : blancs de poulet marinés au yaourt et aux épices. 190°C, 18 minutes. 170 kcal / 100 g, 31 g protéines.</li>
+</ul>
+
 <h2>Conclusion : un outil santé au quotidien</h2>
 <p>L'airfryer ne fait pas de miracles diététiques — il ne transforme pas un donut en aliment santé. Mais utilisé intelligemment avec des ingrédients frais et de bonnes habitudes, il facilite considérablement une alimentation équilibrée au quotidien. La réduction de 30 à 50 % des calories et de 70 à 80 % des graisses par rapport à la friture traditionnelle est un avantage tangible et mesuré.</p>
 <p>Pour aller plus loin, explorez notre <a href="/fr/guides/airfryers">guide complet des airfryers</a> et notre <a href="/fr/guides/airfryer-vs-four">comparatif airfryer vs four traditionnel</a>.</p>`,
@@ -255,6 +276,27 @@ export const article: BlogArticle = {
 <li><strong>Don't overload the basket:</strong> overfilling causes uneven cooking. Fill to two-thirds maximum.</li>
 </ul>
 
+<h2>Detailed Nutritional Comparison Table</h2>
+<table>
+<thead><tr><th>Food (100 g)</th><th>Traditional deep fryer</th><th>Air fryer</th><th>Calorie saving</th><th>Fat saving</th></tr></thead>
+<tbody>
+<tr><td>Potato fries</td><td>340 kcal / 17 g fat</td><td>180 kcal / 4 g fat</td><td>-47%</td><td>-76%</td></tr>
+<tr><td>Chicken wings</td><td>290 kcal / 20 g fat</td><td>210 kcal / 12 g fat</td><td>-28%</td><td>-40%</td></tr>
+<tr><td>Homemade chicken nuggets</td><td>280 kcal / 15 g fat</td><td>195 kcal / 7 g fat</td><td>-30%</td><td>-53%</td></tr>
+<tr><td>Vegetable fritters</td><td>250 kcal / 16 g fat</td><td>130 kcal / 3 g fat</td><td>-48%</td><td>-81%</td></tr>
+<tr><td>Breaded mozzarella</td><td>320 kcal / 22 g fat</td><td>220 kcal / 11 g fat</td><td>-31%</td><td>-50%</td></tr>
+</tbody>
+</table>
+
+<h2>5 Easy Healthy Recipes for the Air Fryer</h2>
+<ul>
+<li><strong>Parmesan courgette fries</strong>: courgettes in sticks, coated in a thin layer of breadcrumbs and parmesan. 160°C, 14 minutes. 120 kcal/100 g vs 280 kcal fried.</li>
+<li><strong>Crispy spiced chickpeas</strong>: drained chickpeas, 1 tsp oil, cumin, smoked paprika. 200°C, 15 minutes. Protein snack at 170 kcal/100 g.</li>
+<li><strong>Herb-crusted salmon</strong>: salmon fillet + breadcrumbs + fresh herbs. 190°C, 12 minutes. 200 kcal/100 g, 23 g protein, rich in omega-3.</li>
+<li><strong>Aubergine chips</strong>: thin slices, 1 oil spray, salt, thyme. 180°C, 10 minutes. 45 kcal/100 g — the best healthy crisp alternative.</li>
+<li><strong>Marinated tikka chicken</strong>: chicken breast marinated in yoghurt and spices. 190°C, 18 minutes. 170 kcal/100 g, 31 g protein, zero added fat.</li>
+</ul>
+
 <h2>Conclusion</h2>
 <p>The air fryer won't turn a doughnut into health food. But used wisely with fresh ingredients, it facilitates a balanced daily diet with 30-50% fewer calories and 70-80% less fat compared to deep frying. For more, explore our <a href="/en/guides/airfryers">complete air fryer guide</a> and our <a href="/en/guides/airfryer-vs-four">air fryer vs oven comparison</a>.</p>`,
 
@@ -342,7 +384,28 @@ export const article: BlogArticle = {
 <li><strong>Korb nicht überladen:</strong> maximal zwei Drittel füllen für gleichmäßige Ergebnisse.</li>
 </ul>
 
-<p>Für mehr Informationen besuchen Sie unseren <a href="/de/guides/airfryers">kompletten Heißluftfritteusen-Ratgeber</a> und unseren <a href="/de/guides/airfryer-vs-four">Vergleich Heißluftfritteuse vs. Backofen</a>.</p>`,
+<p>Für mehr Informationen besuchen Sie unseren <a href="/de/guides/airfryers">kompletten Heißluftfritteusen-Ratgeber</a> und unseren <a href="/de/guides/airfryer-vs-four">Vergleich Heißluftfritteuse vs. Backofen</a>.</p>
+
+<h2>Detaillierte Nährwerttabelle</h2>
+<table>
+<thead><tr><th>Lebensmittel (100 g)</th><th>Traditionelle Fritteuse</th><th>Heißluftfritteuse</th><th>Kalorienersparnis</th><th>Fettersparnisnis</th></tr></thead>
+<tbody>
+<tr><td>Pommes frites</td><td>340 kcal / 17 g Fett</td><td>180 kcal / 4 g Fett</td><td>-47 %</td><td>-76 %</td></tr>
+<tr><td>Hähnchenflügel</td><td>290 kcal / 20 g Fett</td><td>210 kcal / 12 g Fett</td><td>-28 %</td><td>-40 %</td></tr>
+<tr><td>Selbstgemachte Nuggets</td><td>280 kcal / 15 g Fett</td><td>195 kcal / 7 g Fett</td><td>-30 %</td><td>-53 %</td></tr>
+<tr><td>Gemüsefritter</td><td>250 kcal / 16 g Fett</td><td>130 kcal / 3 g Fett</td><td>-48 %</td><td>-81 %</td></tr>
+<tr><td>Panierte Mozzarella</td><td>320 kcal / 22 g Fett</td><td>220 kcal / 11 g Fett</td><td>-31 %</td><td>-50 %</td></tr>
+</tbody>
+</table>
+
+<h2>5 einfache gesunde Rezepte für die Heißluftfritteuse</h2>
+<ul>
+<li><strong>Zucchini-Pommes mit Parmesan</strong>: Zucchini in Stäbchen, dünn mit Semmelbröseln und Parmesan ummantelt. 160°C, 14 Minuten. 120 kcal/100 g.</li>
+<li><strong>Knusprige Gewürzkichererbsen</strong>: abgetropfte Kichererbsen, 1 TL Öl, Kreuzkümmel, geräucherter Paprika. 200°C, 15 Minuten. 170 kcal/100 g.</li>
+<li><strong>Lachs mit Kräuterkruste</strong>: Lachsfilet + Semmelbrösel + frische Kräuter. 190°C, 12 Minuten. 200 kcal/100 g, 23 g Eiweiß.</li>
+<li><strong>Auberginen-Chips</strong>: dünne Scheiben, 1 Ölspray, Salz, Thymian. 180°C, 10 Minuten. 45 kcal/100 g.</li>
+<li><strong>Tikka-Hähnchen</strong>: in Joghurt und Gewürzen marinierte Hähnchenbrust. 190°C, 18 Minuten. 170 kcal/100 g, 31 g Eiweiß.</li>
+</ul>`,
 
     es: `<h2>La freidora de aire, realmente mas saludable? Los numeros hablan</h2>
 <p>La salud es uno de los principales argumentos de venta de las freidoras de aire. Pero, que dicen realmente los datos? Los estudios cientificos y nuestras propias mediciones confirman ventajas nutricionales significativas frente a la fritura tradicional.</p>
@@ -428,7 +491,28 @@ export const article: BlogArticle = {
 <li><strong>No sobrecargues la cesta:</strong> dos tercios de capacidad como maximo.</li>
 </ul>
 
-<p>Para mas informacion, visita nuestra <a href="/es/guides/airfryers">guia completa de freidoras de aire</a> y nuestro <a href="/es/guides/airfryer-vs-four">comparativo freidora vs horno</a>.</p>`,
+<p>Para mas informacion, visita nuestra <a href="/es/guides/airfryers">guia completa de freidoras de aire</a> y nuestro <a href="/es/guides/airfryer-vs-four">comparativo freidora vs horno</a>.</p>
+
+<h2>Tabla de comparación nutricional detallada</h2>
+<table>
+<thead><tr><th>Alimento (100 g)</th><th>Freidora tradicional</th><th>Freidora de aire</th><th>Ahorro calorías</th><th>Ahorro grasas</th></tr></thead>
+<tbody>
+<tr><td>Patatas fritas</td><td>340 kcal / 17 g grasa</td><td>180 kcal / 4 g grasa</td><td>-47 %</td><td>-76 %</td></tr>
+<tr><td>Alitas de pollo</td><td>290 kcal / 20 g grasa</td><td>210 kcal / 12 g grasa</td><td>-28 %</td><td>-40 %</td></tr>
+<tr><td>Nuggets caseros</td><td>280 kcal / 15 g grasa</td><td>195 kcal / 7 g grasa</td><td>-30 %</td><td>-53 %</td></tr>
+<tr><td>Buñuelos de verduras</td><td>250 kcal / 16 g grasa</td><td>130 kcal / 3 g grasa</td><td>-48 %</td><td>-81 %</td></tr>
+<tr><td>Mozzarella empanada</td><td>320 kcal / 22 g grasa</td><td>220 kcal / 11 g grasa</td><td>-31 %</td><td>-50 %</td></tr>
+</tbody>
+</table>
+
+<h2>5 recetas saludables fáciles con freidora de aire</h2>
+<ul>
+<li><strong>Bastoncillos de calabacín con parmesano</strong>: calabacín en tiras, recubiertos de pan rallado y parmesano. 160°C, 14 minutos. 120 kcal/100 g.</li>
+<li><strong>Garbanzos crujientes especiados</strong>: garbanzos escurridos, 1 cdta aceite, comino, pimentón ahumado. 200°C, 15 minutos. 170 kcal/100 g.</li>
+<li><strong>Salmón con costra de hierbas</strong>: filete + pan rallado + hierbas frescas. 190°C, 12 minutos. 200 kcal/100 g, 23 g proteínas.</li>
+<li><strong>Chips de berenjena</strong>: rodajas finas, 1 spray aceite, sal, tomillo. 180°C, 10 minutos. 45 kcal/100 g.</li>
+<li><strong>Pollo tikka marinado</strong>: pechuga marinada en yogur y especias. 190°C, 18 minutos. 170 kcal/100 g, 31 g proteínas.</li>
+</ul>`,
 
     it: `<h2>La friggitrice ad aria e davvero piu sana? I numeri parlano</h2>
 <p>La salute e uno dei principali argomenti di vendita delle friggitrici ad aria. Ma cosa dicono realmente i dati? Studi scientifici e le nostre misurazioni confermano vantaggi nutrizionali significativi rispetto alla frittura tradizionale.</p>
@@ -513,7 +597,28 @@ export const article: BlogArticle = {
 <li><strong>Non sovraccaricate il cestello:</strong> massimo due terzi di capacita.</li>
 </ul>
 
-<p>Per approfondire, visitate la nostra <a href="/it/guides/airfryers">guida completa alle friggitrici ad aria</a> e il nostro <a href="/it/guides/airfryer-vs-four">confronto friggitrice vs forno</a>.</p>`,
+<p>Per approfondire, visitate la nostra <a href="/it/guides/airfryers">guida completa alle friggitrici ad aria</a> e il nostro <a href="/it/guides/airfryer-vs-four">confronto friggitrice vs forno</a>.</p>
+
+<h2>Tabella di confronto nutrizionale dettagliata</h2>
+<table>
+<thead><tr><th>Alimento (100 g)</th><th>Friggitrice tradizionale</th><th>Friggitrice ad aria</th><th>Risparmio calorie</th><th>Risparmio grassi</th></tr></thead>
+<tbody>
+<tr><td>Patatine fritte</td><td>340 kcal / 17 g grassi</td><td>180 kcal / 4 g grassi</td><td>-47 %</td><td>-76 %</td></tr>
+<tr><td>Ali di pollo</td><td>290 kcal / 20 g grassi</td><td>210 kcal / 12 g grassi</td><td>-28 %</td><td>-40 %</td></tr>
+<tr><td>Nuggets casalinghi</td><td>280 kcal / 15 g grassi</td><td>195 kcal / 7 g grassi</td><td>-30 %</td><td>-53 %</td></tr>
+<tr><td>Frittelle di verdure</td><td>250 kcal / 16 g grassi</td><td>130 kcal / 3 g grassi</td><td>-48 %</td><td>-81 %</td></tr>
+<tr><td>Mozzarella in carrozza</td><td>320 kcal / 22 g grassi</td><td>220 kcal / 11 g grassi</td><td>-31 %</td><td>-50 %</td></tr>
+</tbody>
+</table>
+
+<h2>5 ricette sane e facili con la friggitrice ad aria</h2>
+<ul>
+<li><strong>Bastoncini di zucchine al parmigiano</strong>: zucchine a bastoncino, rivestite di pangrattato e parmigiano. 160°C, 14 minuti. 120 kcal/100 g.</li>
+<li><strong>Ceci croccanti speziati</strong>: ceci scolati, 1 cucchiaino d'olio, cumino, paprica affumicata. 200°C, 15 minuti. 170 kcal/100 g.</li>
+<li><strong>Salmone con crosta di erbe</strong>: filetto + pangrattato + erbe fresche. 190°C, 12 minuti. 200 kcal/100 g, 23 g proteine.</li>
+<li><strong>Chips di melanzane</strong>: fettine sottili, 1 spray d'olio, sale, timo. 180°C, 10 minuti. 45 kcal/100 g.</li>
+<li><strong>Pollo tikka marinato</strong>: petto marinato in yogurt e spezie. 190°C, 18 minuti. 170 kcal/100 g, 31 g proteine.</li>
+</ul>`,
 
     nl: `<h2>Is de airfryer echt gezonder? De cijfers spreken</h2>
 <p>Gezondheid is een van de belangrijkste verkoopargumenten van airfryers. Maar wat tonen de gegevens werkelijk aan? Wetenschappelijke studies en onze eigen metingen bevestigen aanzienlijke voedingsvoordelen ten opzichte van traditioneel frituren.</p>
@@ -598,7 +703,28 @@ export const article: BlogArticle = {
 <li><strong>Overlaad de mand niet:</strong> maximaal tweederde vullen voor gelijkmatige resultaten.</li>
 </ul>
 
-<p>Bezoek onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en onze <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a> voor meer informatie.</p>`,
+<p>Bezoek onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en onze <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a> voor meer informatie.</p>
+
+<h2>Gedetailleerde voedingswaardenvergelijking</h2>
+<table>
+<thead><tr><th>Voedingsmiddel (100 g)</th><th>Traditionele friteuse</th><th>Airfryer</th><th>Caloriebesparing</th><th>Vetbesparing</th></tr></thead>
+<tbody>
+<tr><td>Patat</td><td>340 kcal / 17 g vet</td><td>180 kcal / 4 g vet</td><td>-47%</td><td>-76%</td></tr>
+<tr><td>Kippenvleugels</td><td>290 kcal / 20 g vet</td><td>210 kcal / 12 g vet</td><td>-28%</td><td>-40%</td></tr>
+<tr><td>Zelfgemaakte nuggets</td><td>280 kcal / 15 g vet</td><td>195 kcal / 7 g vet</td><td>-30%</td><td>-53%</td></tr>
+<tr><td>Groentebeignets</td><td>250 kcal / 16 g vet</td><td>130 kcal / 3 g vet</td><td>-48%</td><td>-81%</td></tr>
+<tr><td>Gepaneerde mozzarella</td><td>320 kcal / 22 g vet</td><td>220 kcal / 11 g vet</td><td>-31%</td><td>-50%</td></tr>
+</tbody>
+</table>
+
+<h2>5 gemakkelijke gezonde recepten voor de airfryer</h2>
+<ul>
+<li><strong>Courgette frietjes met parmezaan</strong>: courgette in stokjes, bedekt met paneermeel en parmezaan. 160°C, 14 minuten. 120 kcal/100 g.</li>
+<li><strong>Krokante gekruide kikkererwten</strong>: uitgelekte kikkererwten, 1 tl olie, komijn, gerookt paprikapoeder. 200°C, 15 minuten. 170 kcal/100 g.</li>
+<li><strong>Zalm met kruidenkorst</strong>: zalmfilet + paneermeel + verse kruiden. 190°C, 12 minuten. 200 kcal/100 g, 23 g eiwit.</li>
+<li><strong>Auberginechips</strong>: dunne plakjes, 1 oliespray, zout, tijm. 180°C, 10 minuten. 45 kcal/100 g.</li>
+<li><strong>Gemarineerde tikka kip</strong>: kipfilet gemarineerd in yoghurt en kruiden. 190°C, 18 minuten. 170 kcal/100 g, 31 g eiwit.</li>
+</ul>`,
   },
   faq: [
     {

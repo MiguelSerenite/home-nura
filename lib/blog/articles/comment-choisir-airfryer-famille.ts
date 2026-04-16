@@ -175,6 +175,29 @@ export const article: BlogArticle = {
 <h3>Pour 6+ personnes : Philips Combi XXL Connected</h3>
 <p>Le haut de gamme absolu avec sa capacité de 8,3 litres, ses fonctions four, gril et déshydrateur, et sa connectivité. Autour de 350 €, c'est un investissement qui remplace plusieurs appareils.</p>
 
+<h2>6 erreurs fréquentes lors du choix d'un airfryer familial</h2>
+<ul>
+<li><strong>Choisir trop petit par souci d'économie</strong> : un 4L pour 4 personnes obligera à cuire en 2-3 fournées, ce qui prend plus de temps qu'un four traditionnel. Passez directement au 6-7L.</li>
+<li><strong>Négliger la puissance</strong> : en dessous de 1 500 W, la montée en température est lente et le croustillant limité. Visez 1 800-2 000 W pour les familles de 4+.</li>
+<li><strong>Ignorer l'empreinte au sol</strong> : un Ninja FlexDrawer 10,4L mesure 44,5 cm de profondeur. Mesurez avant d'acheter.</li>
+<li><strong>Oublier les accessoires</strong> : grille supplémentaire, insert diviseur, papier sulfurisé adapté — comptez 20-40 € supplémentaires. Voir notre <a href="/fr/blog/top-10-accessoires-airfryer">top 10 accessoires airfryer</a>.</li>
+<li><strong>Acheter uniquement sur la capacité annoncée</strong> : la capacité utile réelle est souvent 15-20 % inférieure à la capacité théorique. Un 10L accueille environ 800 g de frites pour une cuisson optimale.</li>
+<li><strong>Ignorer le SAV et la durabilité</strong> : préférez les marques avec réseau de réparation et disponibilité des pièces. Moulinex garantit 15 ans de pièces disponibles.</li>
+</ul>
+
+<h2>Tableau de décision rapide : quel airfryer pour votre famille ?</h2>
+<table>
+<thead><tr><th>Taille famille</th><th>Capacité recommandée</th><th>Puissance min.</th><th>Modèle conseillé</th><th>Budget</th></tr></thead>
+<tbody>
+<tr><td>1-2 personnes</td><td>3-4L</td><td>1 400 W</td><td>Xiaomi Smart Pro 4L</td><td>70-90 €</td></tr>
+<tr><td>2-3 personnes</td><td>5-6L</td><td>1 500 W</td><td>Moulinex Easy Fry Max 5L / Philips 3000 XL</td><td>90-130 €</td></tr>
+<tr><td>3-4 personnes</td><td>6-7L</td><td>1 700 W</td><td>Cosori Dual Blaze 6,4L</td><td>130-160 €</td></tr>
+<tr><td>4-5 personnes</td><td>8-10L</td><td>1 900 W</td><td>Ninja Double Stack 9,5L</td><td>200-250 €</td></tr>
+<tr><td>5-6 personnes</td><td>10L+</td><td>2 000 W</td><td>Ninja FlexDrawer 10,4L</td><td>230-270 €</td></tr>
+<tr><td>6+ personnes</td><td>8,3L + four</td><td>2 200 W</td><td>Philips Combi XXL Connected</td><td>320-370 €</td></tr>
+</tbody>
+</table>
+
 <h2>Conclusion : la méthode en 3 questions</h2>
 <p>Pour résumer, posez-vous ces trois questions avant d'acheter :</p>
 <ul>
@@ -283,6 +306,29 @@ export const article: BlogArticle = {
 <li><strong>6+ people:</strong> Philips Combi XXL Connected — 8.3L with oven, grill, dehydrator, and connectivity, around 350 euros.</li>
 </ul>
 
+<h2>6 Common Mistakes When Choosing a Family Air Fryer</h2>
+<ul>
+<li><strong>Choosing too small to save money</strong>: a 4L for 4 people means cooking in 2-3 batches, taking longer than a traditional oven. Go straight to 6-7L.</li>
+<li><strong>Neglecting power</strong>: below 1,500 W, preheating is slow and crispiness is limited. Aim for 1,800-2,000 W for families of 4+.</li>
+<li><strong>Ignoring the footprint</strong>: a Ninja FlexDrawer 10.4L is 44.5 cm deep. Measure before buying.</li>
+<li><strong>Forgetting accessories</strong>: extra rack, divider insert, parchment liners — budget an extra €20-40. See our <a href="/en/blog/top-10-accessoires-airfryer">top 10 air fryer accessories</a>.</li>
+<li><strong>Buying on stated capacity alone</strong>: actual usable capacity is often 15-20% less than the stated figure. A 10L holds about 800 g of fries for optimal cooking.</li>
+<li><strong>Ignoring after-sales service</strong>: prefer brands with repair networks and parts availability. Moulinex guarantees 15 years of parts availability.</li>
+</ul>
+
+<h2>Quick Decision Table: Which Air Fryer for Your Family?</h2>
+<table>
+<thead><tr><th>Family Size</th><th>Recommended Capacity</th><th>Min. Power</th><th>Recommended Model</th><th>Budget</th></tr></thead>
+<tbody>
+<tr><td>1-2 people</td><td>3-4L</td><td>1,400 W</td><td>Xiaomi Smart Pro 4L</td><td>€70-90</td></tr>
+<tr><td>2-3 people</td><td>5-6L</td><td>1,500 W</td><td>Moulinex Easy Fry Max 5L / Philips 3000 XL</td><td>€90-130</td></tr>
+<tr><td>3-4 people</td><td>6-7L</td><td>1,700 W</td><td>Cosori Dual Blaze 6.4L</td><td>€130-160</td></tr>
+<tr><td>4-5 people</td><td>8-10L</td><td>1,900 W</td><td>Ninja Double Stack 9.5L</td><td>€200-250</td></tr>
+<tr><td>5-6 people</td><td>10L+</td><td>2,000 W</td><td>Ninja FlexDrawer 10.4L</td><td>€230-270</td></tr>
+<tr><td>6+ people</td><td>8.3L + oven</td><td>2,200 W</td><td>Philips Combi XXL Connected</td><td>€320-370</td></tr>
+</tbody>
+</table>
+
 <h2>Conclusion: the 3-question method</h2>
 <p>Before buying, ask yourself three questions: how many people eat at home regularly (determines minimum capacity), how often you'll use the air fryer (justifies a higher-end model), and what your realistic budget is (don't forget <a href="/en/blog/top-10-accessoires-airfryer">essential accessories</a>). For more guidance, explore our <a href="/en/guides/airfryers">complete air fryer guide</a> and our <a href="/en/guides/airfryer-vs-four">air fryer vs conventional oven comparison</a>.</p>`,
 
@@ -372,7 +418,30 @@ export const article: BlogArticle = {
 <li><strong>6+ Personen:</strong> Philips Combi XXL Connected — 8,3 L mit Ofen, Grill und App, ca. 350 €.</li>
 </ul>
 
-<p>Besuchen Sie unseren <a href="/de/guides/airfryers">kompletten Heißluftfritteusen-Ratgeber</a> und unseren <a href="/de/guides/airfryer-vs-four">Vergleich Heißluftfritteuse vs. Backofen</a> für weitere Informationen. Vergessen Sie nicht die <a href="/de/blog/top-10-accessoires-airfryer">wichtigsten Zubehörteile</a>.</p>`,
+<p>Besuchen Sie unseren <a href="/de/guides/airfryers">kompletten Heißluftfritteusen-Ratgeber</a> und unseren <a href="/de/guides/airfryer-vs-four">Vergleich Heißluftfritteuse vs. Backofen</a> für weitere Informationen. Vergessen Sie nicht die <a href="/de/blog/top-10-accessoires-airfryer">wichtigsten Zubehörteile</a>.</p>
+
+<h2>6 häufige Fehler bei der Wahl einer Familien-Heißluftfritteuse</h2>
+<ul>
+<li><strong>Zu klein wählen aus Sparsamkeit</strong>: ein 4-Liter-Modell für 4 Personen bedeutet 2-3 Chargen kochen, was länger dauert als ein traditioneller Backofen. Greifen Sie direkt zu 6-7 Litern.</li>
+<li><strong>Leistung vernachlässigen</strong>: unter 1.500 W ist die Aufheizzeit langsam und die Knusprigkeit begrenzt. Für Familien ab 4 Personen: 1.800-2.000 W anstreben.</li>
+<li><strong>Stellfläche ignorieren</strong>: ein Ninja FlexDrawer 10,4L ist 44,5 cm tief. Messen Sie, bevor Sie kaufen.</li>
+<li><strong>Zubehör vergessen</strong>: Extra-Gitter, Trennaufsatz, passendes Backpapier — 20-40 € Zusatzkosten einplanen.</li>
+<li><strong>Nur auf die angegebene Kapazität achten</strong>: die tatsächliche Nutzkapazität ist oft 15-20 % geringer. Ein 10L-Modell fasst optimale 800 g Pommes.</li>
+<li><strong>Kundendienst und Langlebigkeit ignorieren</strong>: Moulinex garantiert 15 Jahre Ersatzteilversorgung.</li>
+</ul>
+
+<h2>Schnell-Entscheidungstabelle: Welche Heißluftfritteuse für Ihre Familie?</h2>
+<table>
+<thead><tr><th>Familiengröße</th><th>Empfohlene Kapazität</th><th>Min. Leistung</th><th>Empfohlenes Modell</th><th>Budget</th></tr></thead>
+<tbody>
+<tr><td>1-2 Personen</td><td>3-4L</td><td>1.400 W</td><td>Xiaomi Smart Pro 4L</td><td>70-90 €</td></tr>
+<tr><td>2-3 Personen</td><td>5-6L</td><td>1.500 W</td><td>Moulinex Easy Fry Max 5L / Philips 3000 XL</td><td>90-130 €</td></tr>
+<tr><td>3-4 Personen</td><td>6-7L</td><td>1.700 W</td><td>Cosori Dual Blaze 6,4L</td><td>130-160 €</td></tr>
+<tr><td>4-5 Personen</td><td>8-10L</td><td>1.900 W</td><td>Ninja Double Stack 9,5L</td><td>200-250 €</td></tr>
+<tr><td>5-6 Personen</td><td>10L+</td><td>2.000 W</td><td>Ninja FlexDrawer 10,4L</td><td>230-270 €</td></tr>
+<tr><td>6+ Personen</td><td>8,3L + Ofen</td><td>2.200 W</td><td>Philips Combi XXL Connected</td><td>320-370 €</td></tr>
+</tbody>
+</table>`,
 
     es: `<h2>Por qué elegir una freidora de aire familiar requiere reflexión</h2>
 <p>Comprar una freidora de aire para una familia de cuatro personas y para una pareja son decisiones completamente distintas. La capacidad de la cesta, la potencia, las funcionalidades y el presupuesto varían enormemente según tus necesidades reales. En 2026, el mercado ofrece más de 150 modelos diferentes, y es fácil equivocarse sin saber exactamente qué buscar.</p>
@@ -459,7 +528,30 @@ export const article: BlogArticle = {
 <li><strong>6+ personas:</strong> Philips Combi XXL Connected — 8,3 L multifunción, unos 350 €.</li>
 </ul>
 
-<p>Consulta nuestra <a href="/es/guides/airfryers">guía completa de freidoras de aire</a> y nuestro <a href="/es/guides/airfryer-vs-four">comparativo freidora de aire vs horno</a>. No olvides los <a href="/es/blog/top-10-accessoires-airfryer">accesorios esenciales</a>.</p>`,
+<p>Consulta nuestra <a href="/es/guides/airfryers">guía completa de freidoras de aire</a> y nuestro <a href="/es/guides/airfryer-vs-four">comparativo freidora de aire vs horno</a>. No olvides los <a href="/es/blog/top-10-accessoires-airfryer">accesorios esenciales</a>.</p>
+
+<h2>6 errores frecuentes al elegir una freidora de aire familiar</h2>
+<ul>
+<li><strong>Elegir demasiado pequeña para ahorrar</strong>: una de 4L para 4 personas obliga a cocinar en 2-3 tandas, tardando más que un horno. Pasa directamente a 6-7L.</li>
+<li><strong>Descuidar la potencia</strong>: por debajo de 1.500 W, el precalentamiento es lento y el crujiente limitado. Apunta a 1.800-2.000 W para familias de 4+.</li>
+<li><strong>Ignorar la huella en la encimera</strong>: el Ninja FlexDrawer 10,4L mide 44,5 cm de fondo. Mide antes de comprar.</li>
+<li><strong>Olvidar los accesorios</strong>: rejilla extra, separador, papel pergamino — cuenta 20-40 € adicionales.</li>
+<li><strong>Comprar solo por la capacidad declarada</strong>: la capacidad útil real es un 15-20% menor. Un 10L admite unos 800 g de patatas para cocción óptima.</li>
+<li><strong>Ignorar el SAT y la durabilidad</strong>: Moulinex garantiza disponibilidad de piezas 15 años.</li>
+</ul>
+
+<h2>Tabla de decisión rápida: ¿qué freidora de aire para tu familia?</h2>
+<table>
+<thead><tr><th>Tamaño familia</th><th>Capacidad recomendada</th><th>Potencia mín.</th><th>Modelo recomendado</th><th>Presupuesto</th></tr></thead>
+<tbody>
+<tr><td>1-2 personas</td><td>3-4L</td><td>1.400 W</td><td>Xiaomi Smart Pro 4L</td><td>70-90 €</td></tr>
+<tr><td>2-3 personas</td><td>5-6L</td><td>1.500 W</td><td>Moulinex Easy Fry Max 5L / Philips 3000 XL</td><td>90-130 €</td></tr>
+<tr><td>3-4 personas</td><td>6-7L</td><td>1.700 W</td><td>Cosori Dual Blaze 6,4L</td><td>130-160 €</td></tr>
+<tr><td>4-5 personas</td><td>8-10L</td><td>1.900 W</td><td>Ninja Double Stack 9,5L</td><td>200-250 €</td></tr>
+<tr><td>5-6 personas</td><td>10L+</td><td>2.000 W</td><td>Ninja FlexDrawer 10,4L</td><td>230-270 €</td></tr>
+<tr><td>6+ personas</td><td>8,3L + horno</td><td>2.200 W</td><td>Philips Combi XXL Connected</td><td>320-370 €</td></tr>
+</tbody>
+</table>`,
 
     it: `<h2>Perché scegliere una friggitrice ad aria familiare richiede attenzione</h2>
 <p>Acquistare una friggitrice ad aria per una famiglia di quattro persone e per una coppia sono decisioni completamente diverse. Capacità del cestello, potenza, funzionalità e budget variano considerevolmente in base alle reali esigenze. Nel 2026, il mercato offre oltre 150 modelli diversi ed è facile sbagliare senza sapere esattamente cosa cercare.</p>
@@ -546,7 +638,30 @@ export const article: BlogArticle = {
 <li><strong>6+ persone:</strong> Philips Combi XXL Connected — 8,3 L multifunzione, circa 350 €.</li>
 </ul>
 
-<p>Visitate la nostra <a href="/it/guides/airfryers">guida completa alle friggitrici ad aria</a> e il nostro <a href="/it/guides/airfryer-vs-four">confronto friggitrice ad aria vs forno</a>. Non dimenticate gli <a href="/it/blog/top-10-accessoires-airfryer">accessori essenziali</a>.</p>`,
+<p>Visitate la nostra <a href="/it/guides/airfryers">guida completa alle friggitrici ad aria</a> e il nostro <a href="/it/guides/airfryer-vs-four">confronto friggitrice ad aria vs forno</a>. Non dimenticate gli <a href="/it/blog/top-10-accessoires-airfryer">accessori essenziali</a>.</p>
+
+<h2>6 errori frequenti nella scelta di una friggitrice ad aria familiare</h2>
+<ul>
+<li><strong>Scegliere troppo piccola per risparmiare</strong>: una da 4L per 4 persone obbliga a cuocere in 2-3 infornate, impiegando più tempo di un forno tradizionale. Passate direttamente a 6-7L.</li>
+<li><strong>Trascurare la potenza</strong>: sotto i 1.500 W, il preriscaldamento è lento e la croccantezza limitata. Per famiglie di 4+, puntate a 1.800-2.000 W.</li>
+<li><strong>Ignorare l'ingombro</strong>: il Ninja FlexDrawer 10,4L è profondo 44,5 cm. Misurate prima di acquistare.</li>
+<li><strong>Dimenticare gli accessori</strong>: griglia extra, divisore, carta da forno — prevedete 20-40 € aggiuntivi.</li>
+<li><strong>Acquistare solo in base alla capacità dichiarata</strong>: la capacità utile reale è spesso del 15-20% inferiore.</li>
+<li><strong>Ignorare assistenza e durabilità</strong>: Moulinex garantisce disponibilità ricambi 15 anni.</li>
+</ul>
+
+<h2>Tabella decisionale rapida: quale friggitrice ad aria per la tua famiglia?</h2>
+<table>
+<thead><tr><th>Dimensione famiglia</th><th>Capacità raccomandata</th><th>Potenza min.</th><th>Modello consigliato</th><th>Budget</th></tr></thead>
+<tbody>
+<tr><td>1-2 persone</td><td>3-4L</td><td>1.400 W</td><td>Xiaomi Smart Pro 4L</td><td>70-90 €</td></tr>
+<tr><td>2-3 persone</td><td>5-6L</td><td>1.500 W</td><td>Moulinex Easy Fry Max 5L / Philips 3000 XL</td><td>90-130 €</td></tr>
+<tr><td>3-4 persone</td><td>6-7L</td><td>1.700 W</td><td>Cosori Dual Blaze 6,4L</td><td>130-160 €</td></tr>
+<tr><td>4-5 persone</td><td>8-10L</td><td>1.900 W</td><td>Ninja Double Stack 9,5L</td><td>200-250 €</td></tr>
+<tr><td>5-6 persone</td><td>10L+</td><td>2.000 W</td><td>Ninja FlexDrawer 10,4L</td><td>230-270 €</td></tr>
+<tr><td>6+ persone</td><td>8,3L + forno</td><td>2.200 W</td><td>Philips Combi XXL Connected</td><td>320-370 €</td></tr>
+</tbody>
+</table>`,
 
     nl: `<h2>Waarom de keuze van een gezins-airfryer niet vanzelf spreekt</h2>
 <p>Een airfryer kopen voor een gezin van vier personen en voor een stel zijn totaal verschillende beslissingen. De mandcapaciteit, het vermogen, de functies en het budget variëren aanzienlijk afhankelijk van je werkelijke behoeften. In 2026 biedt de markt meer dan 150 verschillende modellen aan, en zonder de juiste kennis is een verkeerde keuze snel gemaakt.</p>
@@ -633,7 +748,30 @@ export const article: BlogArticle = {
 <li><strong>6+ personen:</strong> Philips Combi XXL Connected — 8,3 L multifunctie, ca. 350 €.</li>
 </ul>
 
-<p>Bezoek onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en onze <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>. Vergeet de <a href="/nl/blog/top-10-accessoires-airfryer">essentiële accessoires</a> niet.</p>`,
+<p>Bezoek onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en onze <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>. Vergeet de <a href="/nl/blog/top-10-accessoires-airfryer">essentiële accessoires</a> niet.</p>
+
+<h2>6 veelgemaakte fouten bij het kiezen van een gezins-airfryer</h2>
+<ul>
+<li><strong>Te klein kiezen om te besparen</strong>: een 4L voor 4 personen betekent koken in 2-3 batches, wat langer duurt dan een traditionele oven. Ga meteen voor 6-7L.</li>
+<li><strong>Vermogen verwaarlozen</strong>: onder 1.500 W is opwarmen traag en krokantheit beperkt. Voor gezinnen van 4+: mik op 1.800-2.000 W.</li>
+<li><strong>Voetafdruk negeren</strong>: de Ninja FlexDrawer 10,4L is 44,5 cm diep. Meet voor het kopen.</li>
+<li><strong>Accessoires vergeten</strong>: extra rooster, verdeler, geschikt bakpapier — reken €20-40 extra.</li>
+<li><strong>Alleen op aangegeven capaciteit kopen</strong>: werkelijke bruikbare capaciteit is vaak 15-20% minder.</li>
+<li><strong>After-sales en duurzaamheid negeren</strong>: Moulinex garandeert 15 jaar beschikbaarheid van onderdelen.</li>
+</ul>
+
+<h2>Snelle beslissingstabel: welke airfryer voor jouw gezin?</h2>
+<table>
+<thead><tr><th>Gezinsgrootte</th><th>Aanbevolen capaciteit</th><th>Min. vermogen</th><th>Aanbevolen model</th><th>Budget</th></tr></thead>
+<tbody>
+<tr><td>1-2 personen</td><td>3-4L</td><td>1.400 W</td><td>Xiaomi Smart Pro 4L</td><td>€70-90</td></tr>
+<tr><td>2-3 personen</td><td>5-6L</td><td>1.500 W</td><td>Moulinex Easy Fry Max 5L / Philips 3000 XL</td><td>€90-130</td></tr>
+<tr><td>3-4 personen</td><td>6-7L</td><td>1.700 W</td><td>Cosori Dual Blaze 6,4L</td><td>€130-160</td></tr>
+<tr><td>4-5 personen</td><td>8-10L</td><td>1.900 W</td><td>Ninja Double Stack 9,5L</td><td>€200-250</td></tr>
+<tr><td>5-6 personen</td><td>10L+</td><td>2.000 W</td><td>Ninja FlexDrawer 10,4L</td><td>€230-270</td></tr>
+<tr><td>6+ personen</td><td>8,3L + oven</td><td>2.200 W</td><td>Philips Combi XXL Connected</td><td>€320-370</td></tr>
+</tbody>
+</table>`,
   },
   faq: [
     {

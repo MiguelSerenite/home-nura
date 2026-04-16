@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 16,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/61v7vFbEOIL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Deshumidificateur connecte dans un salon avec affichage du taux d\'humidite',
         en: 'Smart dehumidifier in a living room showing humidity level display',

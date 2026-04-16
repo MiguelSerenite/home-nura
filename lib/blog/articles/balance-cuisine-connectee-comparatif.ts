@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 15,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71dqOiK1JGL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Balance de cuisine connectée avec affichage nutritionnel et application smartphone',
         en: 'Smart kitchen scale with nutritional display and smartphone app',

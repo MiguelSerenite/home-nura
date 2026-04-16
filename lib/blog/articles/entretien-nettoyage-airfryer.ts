@@ -168,7 +168,29 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Un airfryer bien entretenu dure facilement 5 à 8 ans et maintient ses performances de cuisson tout au long de sa vie. L'investissement en temps est minimal : 5 minutes par jour, 10 minutes par semaine. Évitez les <a href="/fr/blog/erreurs-courantes-airfryer">erreurs courantes d'utilisation</a> et consultez notre <a href="/fr/guides/airfryers">guide complet des airfryers</a> ainsi que le <a href="/fr/guides/airfryer-vs-four">comparatif airfryer vs four</a> pour tirer le meilleur de votre appareil.</p>`,
+<p>Un airfryer bien entretenu dure facilement 5 à 8 ans et maintient ses performances de cuisson tout au long de sa vie. L'investissement en temps est minimal : 5 minutes par jour, 10 minutes par semaine. Évitez les <a href="/fr/blog/erreurs-courantes-airfryer">erreurs courantes d'utilisation</a> et consultez notre <a href="/fr/guides/airfryers">guide complet des airfryers</a> ainsi que le <a href="/fr/guides/airfryer-vs-four">comparatif airfryer vs four</a> pour tirer le meilleur de votre appareil.</p>
+
+<h2>Les 5 zones les plus oubliées lors du nettoyage</h2>
+<ul>
+<li><strong>Le dessous du panier extérieur</strong> : la graisse s'accumule entre le panier interne et le tiroir externe. Cette zone est souvent ignorée pendant des semaines. Résultat : odeurs persistantes et fumée à la prochaine cuisson grasse. Solution : nettoyer le tiroir complet (pas seulement le panier) après chaque cuisson de viande.</li>
+<li><strong>La résistance (élément chauffant)</strong> : visible en retournant l'appareil, elle accumule des projections grasses. Ne jamais la plonger dans l'eau. La nettoyer délicatement avec une brosse sèche ou un chiffon légèrement humide une fois par mois.</li>
+<li><strong>Le ventilateur (accessible via l'orifice arrière)</strong> : la poussière et les particules de cuisson s'accumulent sur les pales. Utiliser une petite brosse douce ou de l'air comprimé tous les 3 mois.</li>
+<li><strong>Les joints d'étanchéité</strong> : pour les modèles avec couvercle ou joint de tiroir, la graisse s'infiltre dans les rainures. Nettoyer avec un cure-dent ou un outil fin trempé dans du liquide vaisselle.</li>
+<li><strong>Le fond de l'enceinte (sous le panier)</strong> : les graisses et jus coulent là et carbonisent à la prochaine utilisation. Essuyer après chaque session avec un essuie-tout légèrement humide quand l'appareil est refroidi.</li>
+</ul>
+
+<h2>Produits de nettoyage : que faut-il utiliser (et éviter) ?</h2>
+<table>
+<thead><tr><th>Produit</th><th>Usage</th><th>Efficacité</th><th>Compatibilité revêtement</th></tr></thead>
+<tbody>
+<tr><td>Liquide vaisselle classique + éponge douce</td><td>Nettoyage quotidien</td><td>Excellente</td><td>Compatible tous revêtements</td></tr>
+<tr><td>Bicarbonate de soude + eau chaude</td><td>Taches tenaces, trempage 20 min</td><td>Très bonne</td><td>Compatible, non abrasif</td></tr>
+<tr><td>Vinaigre blanc dilué (50/50)</td><td>Élimination odeurs et calcaire</td><td>Bonne</td><td>Compatible, rincer abondamment</td></tr>
+<tr><td>Spray dégraissant cuisine</td><td>Résistance et extérieur</td><td>Excellente</td><td>NE PAS utiliser sur l'intérieur du panier</td></tr>
+<tr><td>Éponge abrasive / laine d'acier</td><td>À ÉVITER absolument</td><td>—</td><td>INCOMPATIBLE — raye le revêtement</td></tr>
+<tr><td>Lave-vaisselle (programme doux)</td><td>Panier et tiroir</td><td>Bonne</td><td>Vérifier la notice — certains modèles seulement</td></tr>
+</tbody>
+</table>`,
 
     en: `<h2>Why cleaning your air fryer matters</h2>
 <p>A poorly maintained air fryer doesn't just smell bad — it cooks less efficiently, uses more energy, and can even pose a fire risk. Carbonised grease on the heating element reduces efficiency by 15-20% over a few months. And the non-stick coating, damaged by aggressive cleaning, can degrade within a year instead of lasting 3-5 years.</p>
@@ -260,7 +282,29 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>A well-maintained air fryer easily lasts 5-8 years. Avoid common <a href="/en/blog/erreurs-courantes-airfryer">usage mistakes</a> and see our <a href="/en/guides/airfryers">complete air fryer guide</a> and <a href="/en/guides/airfryer-vs-four">air fryer vs oven comparison</a>.</p>`,
+<p>A well-maintained air fryer easily lasts 5-8 years. Avoid common <a href="/en/blog/erreurs-courantes-airfryer">usage mistakes</a> and see our <a href="/en/guides/airfryers">complete air fryer guide</a> and <a href="/en/guides/airfryer-vs-four">air fryer vs oven comparison</a>.</p>
+
+<h2>The 5 Most Forgotten Cleaning Zones</h2>
+<ul>
+<li><strong>The underside of the outer basket</strong>: grease builds up between the inner basket and outer drawer. Often ignored for weeks. Result: persistent odours and smoke at the next fatty cooking session. Solution: clean the full drawer after every meat session.</li>
+<li><strong>The heating element</strong>: visible when you flip the appliance over, it collects grease splashes. Never submerge it in water. Clean gently with a dry brush or slightly damp cloth once a month.</li>
+<li><strong>The fan (accessible via the rear vent)</strong>: dust and cooking particles build up on the blades. Use a soft brush or compressed air every 3 months.</li>
+<li><strong>The sealing gaskets</strong>: on models with lids or drawer seals, grease seeps into the grooves. Clean with a toothpick or narrow tool dipped in washing-up liquid.</li>
+<li><strong>The cavity floor (under the basket)</strong>: fats and juices drip here and carbonise at the next use. Wipe after each session with a slightly damp kitchen towel once cooled.</li>
+</ul>
+
+<h2>Cleaning Products: What to Use (and Avoid)?</h2>
+<table>
+<thead><tr><th>Product</th><th>Use</th><th>Effectiveness</th><th>Coating Compatibility</th></tr></thead>
+<tbody>
+<tr><td>Washing-up liquid + soft sponge</td><td>Daily cleaning</td><td>Excellent</td><td>Compatible with all coatings</td></tr>
+<tr><td>Bicarbonate of soda + hot water</td><td>Stubborn stains, 20 min soak</td><td>Very good</td><td>Compatible, non-abrasive</td></tr>
+<tr><td>White vinegar diluted (50/50)</td><td>Odour and limescale removal</td><td>Good</td><td>Compatible, rinse thoroughly</td></tr>
+<tr><td>Kitchen degreaser spray</td><td>Heating element and exterior</td><td>Excellent</td><td>Do NOT use inside the basket</td></tr>
+<tr><td>Abrasive sponge / steel wool</td><td>AVOID completely</td><td>—</td><td>INCOMPATIBLE — scratches coating</td></tr>
+<tr><td>Dishwasher (gentle cycle)</td><td>Basket and drawer</td><td>Good</td><td>Check manual — some models only</td></tr>
+</tbody>
+</table>`,
 
     de: `<h2>Warum die Reinigung Ihrer Heißluftfritteuse entscheidend ist</h2>
 <p>Eine schlecht gepflegte Heißluftfritteuse riecht nicht nur schlecht — sie kocht weniger effizient, verbraucht mehr Energie und kann sogar ein Brandrisiko darstellen. Karbonisierte Fettreste am Heizelement reduzieren die Effizienz um 15-20 % innerhalb weniger Monate. Und die Antihaftbeschichtung kann bei aggressiver Reinigung in weniger als einem Jahr statt 3-5 Jahren versagen.</p>
@@ -339,7 +383,29 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Vermeiden Sie häufige <a href="/de/blog/erreurs-courantes-airfryer">Nutzungsfehler</a>. Mehr in unserem <a href="/de/guides/airfryers">Heißluftfritteusen-Ratgeber</a> und dem <a href="/de/guides/airfryer-vs-four">Vergleich Heißluftfritteuse vs. Backofen</a>.</p>`,
+<p>Vermeiden Sie häufige <a href="/de/blog/erreurs-courantes-airfryer">Nutzungsfehler</a>. Mehr in unserem <a href="/de/guides/airfryers">Heißluftfritteusen-Ratgeber</a> und dem <a href="/de/guides/airfryer-vs-four">Vergleich Heißluftfritteuse vs. Backofen</a>.</p>
+
+<h2>Die 5 am häufigsten vergessenen Reinigungszonen</h2>
+<ul>
+<li><strong>Unterseite des äußeren Korbs</strong>: Fett sammelt sich zwischen innerem Korb und äußerer Schublade. Oft wochenlang ignoriert. Folge: anhaltende Gerüche und Rauch. Lösung: nach jeder Fleischzubereitung vollständig reinigen.</li>
+<li><strong>Das Heizelement</strong>: sichtbar wenn das Gerät umgedreht wird. Niemals in Wasser tauchen. Einmal monatlich sanft mit trockenem Pinsel reinigen.</li>
+<li><strong>Der Lüfter</strong>: Staub und Kochteilchen sammeln sich an den Schaufeln. Alle 3 Monate mit weicher Bürste oder Druckluft reinigen.</li>
+<li><strong>Die Dichtungen</strong>: Fett dringt in die Rillen ein. Mit Zahnstocher oder schmalem Werkzeug und Spülmittel reinigen.</li>
+<li><strong>Gehäuseboden</strong>: Fette und Säfte tropfen hierhin und karbonisieren. Nach jeder Session mit leicht feuchtem Küchenpapier wischen.</li>
+</ul>
+
+<h2>Reinigungsmittel: Was verwenden (und vermeiden)?</h2>
+<table>
+<thead><tr><th>Produkt</th><th>Verwendung</th><th>Wirksamkeit</th><th>Beschichtungsverträglichkeit</th></tr></thead>
+<tbody>
+<tr><td>Spülmittel + weicher Schwamm</td><td>Tägliche Reinigung</td><td>Ausgezeichnet</td><td>Alle Beschichtungen</td></tr>
+<tr><td>Natron + heißes Wasser</td><td>Hartnäckige Flecken, 20 Min. einweichen</td><td>Sehr gut</td><td>Kompatibel, nicht abrasiv</td></tr>
+<tr><td>Weißer Essig verdünnt (50/50)</td><td>Geruchs- und Kalkentfernung</td><td>Gut</td><td>Kompatibel, gut spülen</td></tr>
+<tr><td>Küchenentfetter-Spray</td><td>Heizelement und Außen</td><td>Ausgezeichnet</td><td>NICHT innen im Korb verwenden</td></tr>
+<tr><td>Scheuerschwamm / Stahlwolle</td><td>UNBEDINGT VERMEIDEN</td><td>—</td><td>INKOMPATIBEL — zerkratzt</td></tr>
+<tr><td>Geschirrspüler (Schonprogramm)</td><td>Korb und Schublade</td><td>Gut</td><td>Anleitung prüfen</td></tr>
+</tbody>
+</table>`,
 
     es: `<h2>Por que la limpieza de tu freidora de aire es crucial</h2>
 <p>Una freidora de aire mal mantenida no solo huele mal: cocina peor, consume mas energia y puede suponer un riesgo de incendio. Los residuos de grasa carbonizados en la resistencia reducen la eficiencia del aparato un 15-20% en pocos meses. Y el revestimiento antiadherente, maltratado por limpiezas agresivas, puede degradarse en menos de un año en lugar de durar 3-5 años.</p>
@@ -402,7 +468,29 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Evita los <a href="/es/blog/erreurs-courantes-airfryer">errores comunes de uso</a>. Consulta nuestra <a href="/es/guides/airfryers">guia completa de freidoras</a> y el <a href="/es/guides/airfryer-vs-four">comparativo freidora vs horno</a>.</p>`,
+<p>Evita los <a href="/es/blog/erreurs-courantes-airfryer">errores comunes de uso</a>. Consulta nuestra <a href="/es/guides/airfryers">guia completa de freidoras</a> y el <a href="/es/guides/airfryer-vs-four">comparativo freidora vs horno</a>.</p>
+
+<h2>Las 5 zonas de limpieza más olvidadas</h2>
+<ul>
+<li><strong>La parte inferior de la cesta exterior</strong>: la grasa se acumula entre la cesta interior y el cajón. Ignorada durante semanas. Resultado: olores persistentes y humo. Solución: limpiar el cajón completo después de cada cocción de carnes.</li>
+<li><strong>La resistencia (elemento calefactor)</strong>: visible al voltear el aparato. Nunca sumergir en agua. Limpiar suavemente con un cepillo seco una vez al mes.</li>
+<li><strong>El ventilador</strong>: el polvo y partículas de cocción se acumulan. Usar un cepillo suave o aire comprimido cada 3 meses.</li>
+<li><strong>Las juntas de estanqueidad</strong>: la grasa se infiltra en las ranuras. Limpiar con palillo de dientes o herramienta fina con detergente.</li>
+<li><strong>El fondo de la cavidad</strong>: las grasas caen aquí y se carbonizan. Limpiar tras cada sesión con papel de cocina ligeramente húmedo.</li>
+</ul>
+
+<h2>Productos de limpieza: ¿qué usar (y evitar)?</h2>
+<table>
+<thead><tr><th>Producto</th><th>Uso</th><th>Eficacia</th><th>Compatibilidad recubrimiento</th></tr></thead>
+<tbody>
+<tr><td>Lavavajillas + esponja suave</td><td>Limpieza diaria</td><td>Excelente</td><td>Compatible todos los recubrimientos</td></tr>
+<tr><td>Bicarbonato + agua caliente</td><td>Manchas difíciles, remojo 20 min</td><td>Muy buena</td><td>Compatible, no abrasivo</td></tr>
+<tr><td>Vinagre blanco diluido (50/50)</td><td>Eliminar olores y cal</td><td>Buena</td><td>Compatible, aclarar bien</td></tr>
+<tr><td>Spray desengrasante cocina</td><td>Resistencia y exterior</td><td>Excelente</td><td>NO usar dentro de la cesta</td></tr>
+<tr><td>Estropajo abrasivo / lana de acero</td><td>EVITAR absolutamente</td><td>—</td><td>INCOMPATIBLE — raya el recubrimiento</td></tr>
+<tr><td>Lavavajillas (programa suave)</td><td>Cesta y cajón</td><td>Buena</td><td>Verificar manual del modelo</td></tr>
+</tbody>
+</table>`,
 
     it: `<h2>Perche la pulizia della friggitrice ad aria e fondamentale</h2>
 <p>Una friggitrice ad aria mal curata non solo puzza — cuoce meno bene, consuma piu energia e puo persino presentare un rischio di incendio. I residui di grasso carbonizzati sulla resistenza riducono l'efficienza del 15-20% in pochi mesi. E il rivestimento antiaderente, maltrattato da pulizie aggressive, puo degradarsi in meno di un anno invece di durare 3-5 anni.</p>
@@ -465,7 +553,29 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Evitate gli <a href="/it/blog/erreurs-courantes-airfryer">errori comuni di utilizzo</a>. Consultate la nostra <a href="/it/guides/airfryers">guida completa alle friggitrici</a> e il <a href="/it/guides/airfryer-vs-four">confronto friggitrice vs forno</a>.</p>`,
+<p>Evitate gli <a href="/it/blog/erreurs-courantes-airfryer">errori comuni di utilizzo</a>. Consultate la nostra <a href="/it/guides/airfryers">guida completa alle friggitrici</a> e il <a href="/it/guides/airfryer-vs-four">confronto friggitrice vs forno</a>.</p>
+
+<h2>Le 5 zone di pulizia più dimenticate</h2>
+<ul>
+<li><strong>La parte inferiore del cestello esterno</strong>: il grasso si accumula tra il cestello interno e il cassetto. Ignorata per settimane. Risultato: odori persistenti e fumo. Soluzione: pulire il cassetto completo dopo ogni cottura di carni.</li>
+<li><strong>La resistenza (elemento riscaldante)</strong>: visibile capovolgendo l'apparecchio. Non immergere mai in acqua. Pulire delicatamente con un pennello asciutto una volta al mese.</li>
+<li><strong>Il ventilatore</strong>: polvere e particelle si accumulano sulle pale. Usare un pennello morbido o aria compressa ogni 3 mesi.</li>
+<li><strong>Le guarnizioni</strong>: il grasso si infiltra nelle scanalature. Pulire con uno stuzzicadenti o strumento sottile con detersivo.</li>
+<li><strong>Il fondo della cavità</strong>: i grassi colano qui e si carbonizzano. Pulire dopo ogni sessione con carta da cucina leggermente umida.</li>
+</ul>
+
+<h2>Prodotti per la pulizia: cosa usare (ed evitare)?</h2>
+<table>
+<thead><tr><th>Prodotto</th><th>Uso</th><th>Efficacia</th><th>Compatibilità rivestimento</th></tr></thead>
+<tbody>
+<tr><td>Detersivo per piatti + spugna morbida</td><td>Pulizia quotidiana</td><td>Eccellente</td><td>Compatibile tutti i rivestimenti</td></tr>
+<tr><td>Bicarbonato + acqua calda</td><td>Macchie ostinate, ammollo 20 min</td><td>Molto buona</td><td>Compatibile, non abrasivo</td></tr>
+<tr><td>Aceto bianco diluito (50/50)</td><td>Eliminazione odori e calcare</td><td>Buona</td><td>Compatibile, sciacquare bene</td></tr>
+<tr><td>Spray sgrassante cucina</td><td>Resistenza ed esterno</td><td>Eccellente</td><td>NON usare dentro il cestello</td></tr>
+<tr><td>Spugna abrasiva / paglietta d'acciaio</td><td>DA EVITARE assolutamente</td><td>—</td><td>INCOMPATIBILE — graffia il rivestimento</td></tr>
+<tr><td>Lavastoviglie (programma delicato)</td><td>Cestello e cassetto</td><td>Buona</td><td>Verificare il manuale</td></tr>
+</tbody>
+</table>`,
 
     nl: `<h2>Waarom het schoonmaken van je airfryer cruciaal is</h2>
 <p>Een slecht onderhouden airfryer ruikt niet alleen slecht — hij bakt minder goed, verbruikt meer energie en kan zelfs brandgevaar opleveren. Verbrande vetresten op het verwarmingselement verminderen de efficientie met 15-20% binnen enkele maanden. En de antiaanbaklaag, beschadigd door agressief schoonmaken, kan binnen een jaar verslechteren in plaats van 3-5 jaar mee te gaan.</p>
@@ -528,7 +638,29 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Vermijd veelvoorkomende <a href="/nl/blog/erreurs-courantes-airfryer">gebruiksfouten</a>. Bekijk onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en de <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>.</p>`,
+<p>Vermijd veelvoorkomende <a href="/nl/blog/erreurs-courantes-airfryer">gebruiksfouten</a>. Bekijk onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en de <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>.</p>
+
+<h2>De 5 meest vergeten reinigingszones</h2>
+<ul>
+<li><strong>De onderkant van de buitenmand</strong>: vet stapelt zich op tussen binnenmand en buitenlade. Weken genegeerd. Gevolg: aanhoudende geuren en rook. Oplossing: reinig de volledige lade na elke vleessessie.</li>
+<li><strong>Het verwarmingselement</strong>: zichtbaar als je het apparaat omdraait. Nooit in water onderdompelen. Eén keer per maand voorzichtig reinigen met droge borstel.</li>
+<li><strong>De ventilator</strong>: stof en kookdeeltjes stapelen zich op de bladen. Gebruik een zachte borstel of perslucht elke 3 maanden.</li>
+<li><strong>De afdichtingen</strong>: vet dringt in de groeven. Reinig met een tandenstoker of smal gereedschap met afwasmiddel.</li>
+<li><strong>De bodem van de behuizing</strong>: vetten druppelen hiernaartoe en verbranden. Veeg na elke sessie met licht vochtig keukenpapier af als het is afgekoeld.</li>
+</ul>
+
+<h2>Reinigingsproducten: wat gebruiken (en vermijden)?</h2>
+<table>
+<thead><tr><th>Product</th><th>Gebruik</th><th>Effectiviteit</th><th>Coating compatibiliteit</th></tr></thead>
+<tbody>
+<tr><td>Afwasmiddel + zachte spons</td><td>Dagelijkse reiniging</td><td>Uitstekend</td><td>Compatibel met alle coatings</td></tr>
+<tr><td>Baking soda + heet water</td><td>Hardnekkige vlekken, 20 min weken</td><td>Zeer goed</td><td>Compatibel, niet abrasief</td></tr>
+<tr><td>Witte azijn verdund (50/50)</td><td>Geur- en kalkreiniging</td><td>Goed</td><td>Compatibel, goed naspoelen</td></tr>
+<tr><td>Keukenontvettersspray</td><td>Verwarmingselement en buitenkant</td><td>Uitstekend</td><td>NIET gebruiken in de mand</td></tr>
+<tr><td>Schurende spons / staalwol</td><td>ABSOLUUT VERMIJDEN</td><td>—</td><td>INCOMPATIBEL — krast coating</td></tr>
+<tr><td>Vaatwasser (zachte stand)</td><td>Mand en lade</td><td>Goed</td><td>Controleer de handleiding</td></tr>
+</tbody>
+</table>`,
   },
   faq: [
     {

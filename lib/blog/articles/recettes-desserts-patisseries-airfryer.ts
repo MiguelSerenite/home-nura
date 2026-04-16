@@ -290,7 +290,31 @@ export const article: BlogArticle = {
 <li><strong>Surveillez la cuisson</strong> — les premières fois, vérifiez régulièrement car les temps varient d'un airfryer à l'autre.</li>
 <li><strong>Ne remplissez pas trop les moules</strong> — les pâtisseries gonflent à la cuisson. Remplissez aux ¾ maximum.</li>
 </ul>
-<p>Pour éviter les erreurs de débutant, consultez notre article sur les <a href="/fr/blog/erreurs-courantes-airfryer">erreurs courantes à l'airfryer</a>. Et pour accompagner vos desserts, pourquoi ne pas préparer de délicieuses <a href="/fr/blog/recettes-frites-parfaites-airfryer">frites de patate douce à la cannelle</a> en entrée ?</p>`,
+<p>Pour éviter les erreurs de débutant, consultez notre article sur les <a href="/fr/blog/erreurs-courantes-airfryer">erreurs courantes à l'airfryer</a>. Et pour accompagner vos desserts, pourquoi ne pas préparer de délicieuses <a href="/fr/blog/recettes-frites-parfaites-airfryer">frites de patate douce à la cannelle</a> en entrée ?</p>
+
+<h2>Tableau récapitulatif : temps, températures et calories</h2>
+<table>
+<thead><tr><th>Dessert</th><th>Température</th><th>Temps total</th><th>Calories (par portion)</th><th>Difficulté</th></tr></thead>
+<tbody>
+<tr><td>Brownies fondants</td><td>160°C</td><td>18-20 min</td><td>285 kcal</td><td>Facile</td></tr>
+<tr><td>Muffins aux myrtilles</td><td>170°C</td><td>14-16 min</td><td>220 kcal</td><td>Facile</td></tr>
+<tr><td>Chips de pomme</td><td>150°C</td><td>15-20 min</td><td>45 kcal</td><td>Très facile</td></tr>
+<tr><td>Churros</td><td>200°C</td><td>10-12 min</td><td>195 kcal</td><td>Moyen</td></tr>
+<tr><td>Cookies moelleux</td><td>170°C</td><td>8-10 min</td><td>185 kcal</td><td>Facile</td></tr>
+<tr><td>Banana bread</td><td>160°C</td><td>30-35 min</td><td>195 kcal</td><td>Facile</td></tr>
+<tr><td>Cinnamon rolls</td><td>170°C</td><td>12-15 min</td><td>265 kcal</td><td>Moyen</td></tr>
+<tr><td>Lava cake</td><td>180°C</td><td>8-10 min</td><td>310 kcal</td><td>Moyen</td></tr>
+</tbody>
+</table>
+
+<h2>5 astuces pour des desserts parfaits à l'airfryer</h2>
+<ul>
+<li><strong>Réduisez la température de 10-20°C</strong> par rapport aux recettes four traditionnel — l'airfryer chauffe plus intensément.</li>
+<li><strong>Utilisez des moules adaptés</strong> — moules silicone ou aluminium fins laissant 1 cm d'espace tout autour pour la circulation d'air.</li>
+<li><strong>Couvrez si nécessaire</strong> — une feuille d'aluminium posée sur le dessus évite un brunissement excessif.</li>
+<li><strong>Remplissez les moules aux ¾ max</strong> — les pâtes lèvent davantage qu'au four.</li>
+<li><strong>Testez la cuisson avec un cure-dent</strong> — l'extérieur peut sembler cuit alors que l'intérieur est encore liquide.</li>
+</ul>`,
 
     en: `<h2>Introduction</h2>
 <p>The air fryer isn't just for fries and chicken — it's also a fantastic baking tool. Thanks to its circulating heat and compact space, it bakes desserts faster than a traditional oven, with <strong>near-instant preheating</strong> and more even cooking. From fudgy brownies to crispy churros, these 8 indulgent recipes prove your air fryer is the ultimate sweet-tooth companion.</p>
@@ -469,7 +493,31 @@ export const article: BlogArticle = {
 <li><strong>Cover if needed</strong> — foil prevents over-browning on top.</li>
 <li><strong>Don't overfill moulds</strong> — fill to ¾ maximum as batter rises.</li>
 </ul>
-<p>Check our <a href="/en/blog/erreurs-courantes-airfryer">common air fryer mistakes</a> article to avoid beginner errors.</p>`,
+<p>Check our <a href="/en/blog/erreurs-courantes-airfryer">common air fryer mistakes</a> article to avoid beginner errors.</p>
+
+<h2>Summary table: times, temperatures and calories</h2>
+<table>
+<thead><tr><th>Dessert</th><th>Temperature</th><th>Total time</th><th>Calories (per serving)</th><th>Difficulty</th></tr></thead>
+<tbody>
+<tr><td>Fudgy brownies</td><td>160°C</td><td>18-20 min</td><td>285 kcal</td><td>Easy</td></tr>
+<tr><td>Blueberry muffins</td><td>170°C</td><td>14-16 min</td><td>220 kcal</td><td>Easy</td></tr>
+<tr><td>Apple chips</td><td>150°C</td><td>15-20 min</td><td>45 kcal</td><td>Very easy</td></tr>
+<tr><td>Churros</td><td>200°C</td><td>10-12 min</td><td>195 kcal</td><td>Medium</td></tr>
+<tr><td>Soft cookies</td><td>170°C</td><td>8-10 min</td><td>185 kcal</td><td>Easy</td></tr>
+<tr><td>Banana bread</td><td>160°C</td><td>30-35 min</td><td>195 kcal</td><td>Easy</td></tr>
+<tr><td>Cinnamon rolls</td><td>170°C</td><td>12-15 min</td><td>265 kcal</td><td>Medium</td></tr>
+<tr><td>Lava cake</td><td>180°C</td><td>8-10 min</td><td>310 kcal</td><td>Medium</td></tr>
+</tbody>
+</table>
+
+<h2>5 tips for perfect air fryer desserts</h2>
+<ul>
+<li><strong>Reduce temperature by 10-20°C</strong> compared to traditional oven recipes — the air fryer heats more intensely.</li>
+<li><strong>Use appropriate moulds</strong> — silicone or thin aluminium moulds leaving 1 cm clearance on all sides for air circulation.</li>
+<li><strong>Cover if needed</strong> — a sheet of foil on top prevents excessive browning.</li>
+<li><strong>Fill moulds at most ¾ full</strong> — batters rise more than in a conventional oven.</li>
+<li><strong>Test with a toothpick</strong> — the outside may look done while the inside is still liquid.</li>
+</ul>`,
 
     de: `<h2>Einleitung</h2>
 <p>Die Heißluftfritteuse eignet sich nicht nur für Pommes und Hähnchen — sie ist auch ein fantastisches Backgerät. Dank der zirkulierenden Hitze und des kompakten Raums backt sie Desserts schneller als ein traditioneller Ofen, mit <strong>nahezu sofortigem Vorheizen</strong> und gleichmäßigerer Garung.</p>
@@ -598,6 +646,30 @@ export const article: BlogArticle = {
 <li><strong>Passende Formen verwenden</strong> — 1 cm Abstand zum Korb für Luftzirkulation. Siehe unsere <a href="/de/blog/top-10-accessoires-airfryer">besten Zubehör-Tipps</a>.</li>
 <li><strong>Bei Bedarf abdecken</strong> — Alufolie gegen zu schnelles Bräunen.</li>
 <li><strong>Formen maximal zu ¾ füllen</strong> — der Teig geht auf.</li>
+</ul>
+
+<h2>Übersichtstabelle: Zeiten, Temperaturen und Kalorien</h2>
+<table>
+<thead><tr><th>Dessert</th><th>Temperatur</th><th>Gesamtzeit</th><th>Kalorien (pro Portion)</th><th>Schwierigkeit</th></tr></thead>
+<tbody>
+<tr><td>Schokoladen-Brownies</td><td>160°C</td><td>18-20 Min.</td><td>285 kcal</td><td>Einfach</td></tr>
+<tr><td>Heidelbeer-Muffins</td><td>170°C</td><td>14-16 Min.</td><td>220 kcal</td><td>Einfach</td></tr>
+<tr><td>Apfelchips</td><td>150°C</td><td>15-20 Min.</td><td>45 kcal</td><td>Sehr einfach</td></tr>
+<tr><td>Churros</td><td>200°C</td><td>10-12 Min.</td><td>195 kcal</td><td>Mittel</td></tr>
+<tr><td>Weiche Cookies</td><td>170°C</td><td>8-10 Min.</td><td>185 kcal</td><td>Einfach</td></tr>
+<tr><td>Bananenbrot</td><td>160°C</td><td>30-35 Min.</td><td>195 kcal</td><td>Einfach</td></tr>
+<tr><td>Zimtschnecken</td><td>170°C</td><td>12-15 Min.</td><td>265 kcal</td><td>Mittel</td></tr>
+<tr><td>Lava Cake</td><td>180°C</td><td>8-10 Min.</td><td>310 kcal</td><td>Mittel</td></tr>
+</tbody>
+</table>
+
+<h2>5 Tipps für perfekte Airfryer-Desserts</h2>
+<ul>
+<li><strong>Temperatur 10-20°C reduzieren</strong> gegenüber klassischen Ofenrezepten — der Airfryer heizt intensiver.</li>
+<li><strong>Geeignete Formen verwenden</strong> — Silikon- oder dünne Aluminiumformen mit 1 cm Abstand rundum für die Luftzirkulation.</li>
+<li><strong>Abdecken bei Bedarf</strong> — Alufolie auf der Oberfläche verhindert übermäßiges Bräunen.</li>
+<li><strong>Formen maximal ¾ füllen</strong> — Teige gehen stärker auf als im Backofen.</li>
+<li><strong>Stäbchenprobe machen</strong> — außen kann fertig wirken, während innen noch flüssig ist.</li>
 </ul>`,
 
     es: `<h2>Introducción</h2>
@@ -722,7 +794,31 @@ export const article: BlogArticle = {
 <li><strong>Cubre con aluminio</strong> si se dora demasiado rápido.</li>
 <li><strong>Llena los moldes solo a ¾</strong> — la masa sube al cocinarse.</li>
 </ul>
-<p>Consulta nuestro artículo sobre <a href="/es/blog/erreurs-courantes-airfryer">errores comunes con la freidora de aire</a>.</p>`,
+<p>Consulta nuestro artículo sobre <a href="/es/blog/erreurs-courantes-airfryer">errores comunes con la freidora de aire</a>.</p>
+
+<h2>Tabla resumen: tiempos, temperaturas y calorías</h2>
+<table>
+<thead><tr><th>Postre</th><th>Temperatura</th><th>Tiempo total</th><th>Calorías (por ración)</th><th>Dificultad</th></tr></thead>
+<tbody>
+<tr><td>Brownies de chocolate</td><td>160°C</td><td>18-20 min</td><td>285 kcal</td><td>Fácil</td></tr>
+<tr><td>Muffins de arándanos</td><td>170°C</td><td>14-16 min</td><td>220 kcal</td><td>Fácil</td></tr>
+<tr><td>Chips de manzana</td><td>150°C</td><td>15-20 min</td><td>45 kcal</td><td>Muy fácil</td></tr>
+<tr><td>Churros</td><td>200°C</td><td>10-12 min</td><td>195 kcal</td><td>Medio</td></tr>
+<tr><td>Cookies blandas</td><td>170°C</td><td>8-10 min</td><td>185 kcal</td><td>Fácil</td></tr>
+<tr><td>Banana bread</td><td>160°C</td><td>30-35 min</td><td>195 kcal</td><td>Fácil</td></tr>
+<tr><td>Rollitos de canela</td><td>170°C</td><td>12-15 min</td><td>265 kcal</td><td>Medio</td></tr>
+<tr><td>Lava cake</td><td>180°C</td><td>8-10 min</td><td>310 kcal</td><td>Medio</td></tr>
+</tbody>
+</table>
+
+<h2>5 trucos para postres perfectos en la freidora de aire</h2>
+<ul>
+<li><strong>Reduce la temperatura 10-20°C</strong> respecto a recetas de horno tradicional — la freidora de aire calienta más intensamente.</li>
+<li><strong>Usa moldes adecuados</strong> — moldes de silicona o aluminio fino con 1 cm de separación en todos los lados.</li>
+<li><strong>Cubre si es necesario</strong> — papel aluminio en la superficie evita un dorado excesivo.</li>
+<li><strong>Llena los moldes ¾ como máximo</strong> — las masas suben más que en el horno.</li>
+<li><strong>Prueba con un palillo</strong> — el exterior puede parecer hecho mientras el interior aún está líquido.</li>
+</ul>`,
 
     it: `<h2>Introduzione</h2>
 <p>La friggitrice ad aria non serve solo per patatine e pollo — è anche un fantastico strumento di pasticceria. Grazie al calore circolante e allo spazio compatto, cuoce i dolci più velocemente di un forno tradizionale, con <strong>preriscaldamento quasi istantaneo</strong> e cottura più uniforme.</p>
@@ -845,7 +941,31 @@ export const article: BlogArticle = {
 <li><strong>Coprite se necessario</strong> con alluminio.</li>
 <li><strong>Riempite gli stampi solo a ¾.</strong></li>
 </ul>
-<p>Consultate il nostro articolo sugli <a href="/it/blog/erreurs-courantes-airfryer">errori comuni con la friggitrice ad aria</a>.</p>`,
+<p>Consultate il nostro articolo sugli <a href="/it/blog/erreurs-courantes-airfryer">errori comuni con la friggitrice ad aria</a>.</p>
+
+<h2>Tabella riepilogativa: tempi, temperature e calorie</h2>
+<table>
+<thead><tr><th>Dolce</th><th>Temperatura</th><th>Tempo totale</th><th>Calorie (per porzione)</th><th>Difficoltà</th></tr></thead>
+<tbody>
+<tr><td>Brownies al cioccolato</td><td>160°C</td><td>18-20 min</td><td>285 kcal</td><td>Facile</td></tr>
+<tr><td>Muffin ai mirtilli</td><td>170°C</td><td>14-16 min</td><td>220 kcal</td><td>Facile</td></tr>
+<tr><td>Chips di mela</td><td>150°C</td><td>15-20 min</td><td>45 kcal</td><td>Molto facile</td></tr>
+<tr><td>Churros</td><td>200°C</td><td>10-12 min</td><td>195 kcal</td><td>Medio</td></tr>
+<tr><td>Cookies morbidi</td><td>170°C</td><td>8-10 min</td><td>185 kcal</td><td>Facile</td></tr>
+<tr><td>Banana bread</td><td>160°C</td><td>30-35 min</td><td>195 kcal</td><td>Facile</td></tr>
+<tr><td>Rotoli alla cannella</td><td>170°C</td><td>12-15 min</td><td>265 kcal</td><td>Medio</td></tr>
+<tr><td>Lava cake</td><td>180°C</td><td>8-10 min</td><td>310 kcal</td><td>Medio</td></tr>
+</tbody>
+</table>
+
+<h2>5 consigli per dolci perfetti nella friggitrice ad aria</h2>
+<ul>
+<li><strong>Riducete la temperatura di 10-20°C</strong> rispetto alle ricette per forno tradizionale — la friggitrice ad aria scalda più intensamente.</li>
+<li><strong>Usate stampi adatti</strong> — stampi in silicone o alluminio sottile con 1 cm di spazio tutto intorno.</li>
+<li><strong>Coprite se necessario</strong> — un foglio di alluminio sulla superficie evita una doratura eccessiva.</li>
+<li><strong>Riempite gli stampi al massimo a ¾</strong> — i composti lievitano più che in forno.</li>
+<li><strong>Fate la prova stecchino</strong> — l'esterno può sembrare cotto mentre l'interno è ancora liquido.</li>
+</ul>`,
 
     nl: `<h2>Inleiding</h2>
 <p>De airfryer is niet alleen voor frietjes en kip — het is ook een fantastisch baktoestel. Dankzij de circulerende hitte en compacte ruimte bakt het desserts sneller dan een traditionele oven, met <strong>bijna direct voorverwarmen</strong> en een gelijkmatigere garing.</p>
@@ -969,7 +1089,31 @@ export const article: BlogArticle = {
 <li><strong>Dek af indien nodig</strong> met folie tegen te snel bruinen.</li>
 <li><strong>Vul vormen maximaal tot ¾</strong> — beslag rijst bij het bakken.</li>
 </ul>
-<p>Bekijk ons artikel over <a href="/nl/blog/erreurs-courantes-airfryer">veelgemaakte airfryer-fouten</a>.</p>`,
+<p>Bekijk ons artikel over <a href="/nl/blog/erreurs-courantes-airfryer">veelgemaakte airfryer-fouten</a>.</p>
+
+<h2>Overzichtstabel: tijden, temperaturen en calorieën</h2>
+<table>
+<thead><tr><th>Dessert</th><th>Temperatuur</th><th>Totale tijd</th><th>Calorieën (per portie)</th><th>Moeilijkheidsgraad</th></tr></thead>
+<tbody>
+<tr><td>Chocolade brownies</td><td>160°C</td><td>18-20 min</td><td>285 kcal</td><td>Makkelijk</td></tr>
+<tr><td>Bosbes muffins</td><td>170°C</td><td>14-16 min</td><td>220 kcal</td><td>Makkelijk</td></tr>
+<tr><td>Appelchips</td><td>150°C</td><td>15-20 min</td><td>45 kcal</td><td>Heel makkelijk</td></tr>
+<tr><td>Churros</td><td>200°C</td><td>10-12 min</td><td>195 kcal</td><td>Gemiddeld</td></tr>
+<tr><td>Zachte koekjes</td><td>170°C</td><td>8-10 min</td><td>185 kcal</td><td>Makkelijk</td></tr>
+<tr><td>Bananenbrood</td><td>160°C</td><td>30-35 min</td><td>195 kcal</td><td>Makkelijk</td></tr>
+<tr><td>Kaneelbroodjes</td><td>170°C</td><td>12-15 min</td><td>265 kcal</td><td>Gemiddeld</td></tr>
+<tr><td>Lava cake</td><td>180°C</td><td>8-10 min</td><td>310 kcal</td><td>Gemiddeld</td></tr>
+</tbody>
+</table>
+
+<h2>5 tips voor perfecte airfryer-desserts</h2>
+<ul>
+<li><strong>Verlaag de temperatuur met 10-20°C</strong> ten opzichte van traditionele ovenrecepten — de airfryer verwarmt intenser.</li>
+<li><strong>Gebruik geschikte vormen</strong> — siliconen of dunne aluminium vormen met 1 cm ruimte rondom voor luchtcirculatie.</li>
+<li><strong>Bedek indien nodig</strong> — aluminiumfolie bovenop voorkomt te snel bruinen.</li>
+<li><strong>Vul vormen maximaal ¾</strong> — beslag rijst meer dan in een gewone oven.</li>
+<li><strong>Test met een prikker</strong> — de buitenkant kan gaar lijken terwijl de binnenkant nog vloeibaar is.</li>
+</ul>`,
   },
   faq: [
     {

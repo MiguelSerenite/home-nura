@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 15,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71t-Y4BFXWL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Syst\u00e8me d\'arrosage connect\u00e9 intelligent avec programmateur et capteur d\'humidit\u00e9',
         en: 'Smart connected irrigation system with controller and soil moisture sensor',

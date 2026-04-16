@@ -135,6 +135,45 @@ export const article: BlogArticle = {
 <p>En quinze ans, l'airfryer est passé d'une simple innovation technologique à un véritable <strong>phénomène de société</strong>. Plus qu'un simple appareil de cuisine, il a transformé notre rapport à l'alimentation, rendant la cuisine saine accessible, rapide et agréable. L'histoire de l'airfryer est celle d'une convergence réussie entre technologie, santé et praticité, une combinaison qui explique son succès planétaire.</p>
 
 <p>Alors que nous regardons vers l'avenir, une chose est certaine : l'airfryer n'a pas fini de nous surprendre. Avec l'intégration de l'IA, de l'IoT et des matériaux innovants, les prochaines générations d'airfryers promettent de repousser encore les limites de ce qui est possible dans nos cuisines. La révolution culinaire initiée par Philips en 2010 n'en est qu'à ses débuts.</p>
+
+<h2>Chronologie complète : les jalons clés de l'airfryer (2006-2026)</h2>
+<table>
+<thead>
+<tr><th>Année</th><th>Événement</th><th>Impact</th></tr>
+</thead>
+<tbody>
+<tr><td>2006</td><td>Premiers prototypes Philips Rapid Air testés en laboratoire</td><td>Naissance du concept, technologie non encore commercialisable</td></tr>
+<tr><td>2009</td><td>Dépôt du brevet Rapid Air par Philips</td><td>Protection juridique et fondation de la catégorie</td></tr>
+<tr><td>2010</td><td>Présentation à l'IFA Berlin — lancement du Philips HD9220 (~230 EUR)</td><td>Naissance officielle de la catégorie airfryer</td></tr>
+<tr><td>2011-2014</td><td>Entrée de Tefal, De'Longhi, Cosori — guerre des brevets</td><td>Démocratisation progressive, prix en baisse</td></tr>
+<tr><td>2016</td><td>Premiers modèles XXL (capacité 1+ kg)</td><td>Airfryer devient viable pour familles nombreuses</td></tr>
+<tr><td>2018</td><td>Ninja Foodi Dual Zone — premier double panier</td><td>Révolution pour les repas complets en simultané</td></tr>
+<tr><td>2019</td><td>Philips Connected + app NutriU — premier airfryer Wi-Fi grand public</td><td>Naissance de l'airfryer connecté</td></tr>
+<tr><td>2020-2021</td><td>Explosion COVID-19 — ventes +137% en France</td><td>Mainstream : l'airfryer entre dans tous les foyers</td></tr>
+<tr><td>2022</td><td>TikTok #airfryer atteint des milliards de vues</td><td>Phénomène culturel mondial</td></tr>
+<tr><td>2023</td><td>Ninja FlexDrawer — panier fusionnable 10,4L</td><td>Flexibilité maximale pour grandes familles</td></tr>
+<tr><td>2024</td><td>Philips Combi XXL — air chaud + micro-ondes</td><td>Réduction du temps de cuisson de 50%</td></tr>
+<tr><td>2026</td><td>IA, reconnaissance visuelle, IoT généralisé</td><td>L'airfryer devient un appareil intelligent apprenant</td></tr>
+</tbody>
+</table>
+
+<h2>Statistiques d'adoption par pays : qui utilise l'airfryer en 2026 ?</h2>
+<table>
+<thead>
+<tr><th>Pays</th><th>Taux d'équipement 2026</th><th>Taux 2019</th><th>Croissance</th><th>Modèle le plus vendu</th></tr>
+</thead>
+<tbody>
+<tr><td>Pays-Bas</td><td>72%</td><td>38%</td><td>+34 pts</td><td>Philips (berceau de la marque)</td></tr>
+<tr><td>Royaume-Uni</td><td>65%</td><td>28%</td><td>+37 pts</td><td>Ninja (leader incontesté)</td></tr>
+<tr><td>États-Unis</td><td>50%</td><td>12%</td><td>+38 pts</td><td>Cosori / Ninja</td></tr>
+<tr><td>Allemagne</td><td>48%</td><td>22%</td><td>+26 pts</td><td>Philips / Tefal</td></tr>
+<tr><td>France</td><td>45%</td><td>18%</td><td>+27 pts</td><td>Tefal / Ninja</td></tr>
+<tr><td>Espagne</td><td>42%</td><td>15%</td><td>+27 pts</td><td>Cosori / Cecotec</td></tr>
+<tr><td>Italie</td><td>38%</td><td>12%</td><td>+26 pts</td><td>Philips / De'Longhi</td></tr>
+<tr><td>Belgique</td><td>44%</td><td>20%</td><td>+24 pts</td><td>Philips / Ninja</td></tr>
+</tbody>
+</table>
+<p>Le Royaume-Uni est le marché européen où l'airfryer a connu la plus forte adoption, porté notamment par l'essor de Ninja sur le marché anglophone. Aux Pays-Bas, la fidélité à Philips — marque nationale — reste forte malgré la concurrence internationale.</p>
 </article>`,
 
     en: `<article>
@@ -217,6 +256,45 @@ export const article: BlogArticle = {
 <h2>Conclusion: A Lasting Kitchen Revolution</h2>
 
 <p>In fifteen years, the air fryer has gone from a simple technological innovation to a genuine <strong>cultural phenomenon</strong>. More than just a kitchen appliance, it has transformed our relationship with food, making healthy cooking accessible, fast, and enjoyable. With AI, IoT, and innovative materials on the horizon, the next generations of air fryers promise to push the boundaries of what's possible in our kitchens. The culinary revolution started by Philips in 2010 is only just beginning.</p>
+
+<h2>Complete timeline: key milestones in air fryer history (2006-2026)</h2>
+<table>
+<thead>
+<tr><th>Year</th><th>Event</th><th>Impact</th></tr>
+</thead>
+<tbody>
+<tr><td>2006</td><td>First Philips Rapid Air prototypes tested in lab</td><td>Birth of the concept, not yet commercially viable</td></tr>
+<tr><td>2009</td><td>Philips files Rapid Air patent</td><td>Legal protection and foundation of the category</td></tr>
+<tr><td>2010</td><td>IFA Berlin launch — Philips HD9220 (~€230)</td><td>Official birth of the air fryer category</td></tr>
+<tr><td>2011-2014</td><td>Tefal, De'Longhi, Cosori enter — patent wars</td><td>Gradual democratisation, prices fall</td></tr>
+<tr><td>2016</td><td>First XXL models (1+ kg capacity)</td><td>Air fryer becomes viable for larger families</td></tr>
+<tr><td>2018</td><td>Ninja Foodi Dual Zone — first dual basket</td><td>Revolution for simultaneous complete meals</td></tr>
+<tr><td>2019</td><td>Philips Connected + NutriU app — first mainstream Wi-Fi air fryer</td><td>Birth of the connected air fryer</td></tr>
+<tr><td>2020-2021</td><td>COVID-19 explosion — sales +137% in major markets</td><td>Mainstream: air fryer enters every home</td></tr>
+<tr><td>2022</td><td>TikTok #airfryer reaches billions of views</td><td>Global cultural phenomenon</td></tr>
+<tr><td>2023</td><td>Ninja FlexDrawer — mergeable 10.4L basket</td><td>Maximum flexibility for large families</td></tr>
+<tr><td>2024</td><td>Philips Combi XXL — hot air + microwave</td><td>50% reduction in cooking time</td></tr>
+<tr><td>2026</td><td>AI, visual recognition, widespread IoT</td><td>Air fryer becomes a learning smart appliance</td></tr>
+</tbody>
+</table>
+
+<h2>Adoption statistics by country: who uses the air fryer in 2026?</h2>
+<table>
+<thead>
+<tr><th>Country</th><th>Adoption rate 2026</th><th>Rate 2019</th><th>Growth</th><th>Best-selling model</th></tr>
+</thead>
+<tbody>
+<tr><td>Netherlands</td><td>72%</td><td>38%</td><td>+34 pts</td><td>Philips (home brand)</td></tr>
+<tr><td>United Kingdom</td><td>65%</td><td>28%</td><td>+37 pts</td><td>Ninja (undisputed leader)</td></tr>
+<tr><td>United States</td><td>50%</td><td>12%</td><td>+38 pts</td><td>Cosori / Ninja</td></tr>
+<tr><td>Germany</td><td>48%</td><td>22%</td><td>+26 pts</td><td>Philips / Tefal</td></tr>
+<tr><td>France</td><td>45%</td><td>18%</td><td>+27 pts</td><td>Tefal / Ninja</td></tr>
+<tr><td>Spain</td><td>42%</td><td>15%</td><td>+27 pts</td><td>Cosori / Cecotec</td></tr>
+<tr><td>Italy</td><td>38%</td><td>12%</td><td>+26 pts</td><td>Philips / De'Longhi</td></tr>
+<tr><td>Belgium</td><td>44%</td><td>20%</td><td>+24 pts</td><td>Philips / Ninja</td></tr>
+</tbody>
+</table>
+<p>The UK is the European market with the highest air fryer adoption, driven largely by Ninja's dominance in English-speaking markets. In the Netherlands, loyalty to Philips — a national brand — remains strong despite international competition.</p>
 </article>`,
 
     de: `<article>
@@ -278,6 +356,45 @@ export const article: BlogArticle = {
 <h2>Zukunftstrends</h2>
 
 <p><strong>Prädiktive KI</strong> wird individuelle Vorlieben lernen. <strong>Ökodesign</strong> bringt recycelte Materialien und PFAS-freie Beschichtungen. Die Grenzen zwischen Heißluftfritteuse, Backofen, Dörrautomat und Grill verschwimmen weiter. Die von Philips 2010 eingeleitete Küchenrevolution steht erst am Anfang.</p>
+
+<h2>Vollständige Chronologie: wichtige Meilensteine der Heißluftfritteuse (2006-2026)</h2>
+<table>
+<thead>
+<tr><th>Jahr</th><th>Ereignis</th><th>Auswirkung</th></tr>
+</thead>
+<tbody>
+<tr><td>2006</td><td>Erste Philips Rapid-Air-Prototypen im Labor getestet</td><td>Geburt des Konzepts, noch nicht kommerzialisierbar</td></tr>
+<tr><td>2009</td><td>Philips meldet Rapid-Air-Patent an</td><td>Rechtlicher Schutz und Grundlage der Kategorie</td></tr>
+<tr><td>2010</td><td>IFA Berlin — Philips HD9220 (~230 EUR)</td><td>Offizielle Geburt der Kategorie</td></tr>
+<tr><td>2011-2014</td><td>Tefal, De'Longhi, Cosori — Patentkriege</td><td>Schrittweise Demokratisierung, Preise sinken</td></tr>
+<tr><td>2016</td><td>Erste XXL-Modelle (1+ kg Kapazität)</td><td>Geeignet für Großfamilien</td></tr>
+<tr><td>2018</td><td>Ninja Foodi Dual Zone — erster Doppelkorb</td><td>Revolution für gleichzeitige Mahlzeiten</td></tr>
+<tr><td>2019</td><td>Philips Connected + NutriU-App</td><td>Geburt der vernetzten Heißluftfritteuse</td></tr>
+<tr><td>2020-2021</td><td>COVID-19-Explosion — Verkäufe +137%</td><td>Mainstream: in jedem Haushalt</td></tr>
+<tr><td>2022</td><td>TikTok #airfryer — Milliarden Aufrufe</td><td>Weltweites Kulturphänomen</td></tr>
+<tr><td>2023</td><td>Ninja FlexDrawer 10,4L</td><td>Maximale Flexibilität für Großfamilien</td></tr>
+<tr><td>2024</td><td>Philips Combi XXL</td><td>50% Reduktion der Garzeit</td></tr>
+<tr><td>2026</td><td>KI, visuelle Erkennung, IoT</td><td>Lernendes Smart-Gerät</td></tr>
+</tbody>
+</table>
+
+<h2>Ausstattungsrate nach Land 2026</h2>
+<table>
+<thead>
+<tr><th>Land</th><th>Ausstattungsrate 2026</th><th>Rate 2019</th><th>Wachstum</th><th>Meistverkauftes Modell</th></tr>
+</thead>
+<tbody>
+<tr><td>Niederlande</td><td>72%</td><td>38%</td><td>+34 Pkt.</td><td>Philips (Heimmarke)</td></tr>
+<tr><td>Vereinigtes Königreich</td><td>65%</td><td>28%</td><td>+37 Pkt.</td><td>Ninja (Marktführer)</td></tr>
+<tr><td>USA</td><td>50%</td><td>12%</td><td>+38 Pkt.</td><td>Cosori / Ninja</td></tr>
+<tr><td>Deutschland</td><td>48%</td><td>22%</td><td>+26 Pkt.</td><td>Philips / Tefal</td></tr>
+<tr><td>Frankreich</td><td>45%</td><td>18%</td><td>+27 Pkt.</td><td>Tefal / Ninja</td></tr>
+<tr><td>Spanien</td><td>42%</td><td>15%</td><td>+27 Pkt.</td><td>Cosori / Cecotec</td></tr>
+<tr><td>Italien</td><td>38%</td><td>12%</td><td>+26 Pkt.</td><td>Philips / De'Longhi</td></tr>
+<tr><td>Belgien</td><td>44%</td><td>20%</td><td>+24 Pkt.</td><td>Philips / Ninja</td></tr>
+</tbody>
+</table>
+<p>Das Vereinigte Königreich ist der europäische Markt mit der höchsten Adoptionsrate, angetrieben durch Ninjas Dominanz in englischsprachigen Märkten. In den Niederlanden bleibt die Markentreue gegenüber Philips stark.</p>
 </article>`,
 
     es: `<article>
@@ -336,6 +453,45 @@ export const article: BlogArticle = {
 <h2>Tendencias Futuras</h2>
 
 <p>La <strong>IA predictiva</strong> aprenderá las preferencias individuales. El <strong>ecodiseño</strong> traerá materiales reciclados y recubrimientos sin PFAS. Los límites entre freidora de aire, horno, deshidratador y parrilla seguirán difuminándose. La revolución culinaria iniciada por Philips en 2010 apenas comienza.</p>
+
+<h2>Cronología completa: hitos clave de la freidora de aire (2006-2026)</h2>
+<table>
+<thead>
+<tr><th>Año</th><th>Evento</th><th>Impacto</th></tr>
+</thead>
+<tbody>
+<tr><td>2006</td><td>Primeros prototipos Philips Rapid Air probados en laboratorio</td><td>Nacimiento del concepto, aún no comercializable</td></tr>
+<tr><td>2009</td><td>Philips registra la patente Rapid Air</td><td>Protección legal y fundación de la categoría</td></tr>
+<tr><td>2010</td><td>IFA Berlín — Philips HD9220 (~230 EUR)</td><td>Nacimiento oficial de la categoría</td></tr>
+<tr><td>2011-2014</td><td>Tefal, De'Longhi, Cosori — guerra de patentes</td><td>Democratización progresiva, precios a la baja</td></tr>
+<tr><td>2016</td><td>Primeros modelos XXL (capacidad 1+ kg)</td><td>Viable para familias numerosas</td></tr>
+<tr><td>2018</td><td>Ninja Foodi Dual Zone — primera doble cesta</td><td>Revolución para comidas simultáneas completas</td></tr>
+<tr><td>2019</td><td>Philips Connected + app NutriU</td><td>Nacimiento de la freidora de aire conectada</td></tr>
+<tr><td>2020-2021</td><td>Explosión COVID-19 — ventas +137%</td><td>Mainstream: en todos los hogares</td></tr>
+<tr><td>2022</td><td>TikTok #airfryer — miles de millones de vistas</td><td>Fenómeno cultural mundial</td></tr>
+<tr><td>2023</td><td>Ninja FlexDrawer 10,4L</td><td>Máxima flexibilidad para familias grandes</td></tr>
+<tr><td>2024</td><td>Philips Combi XXL</td><td>Reducción del 50% en tiempo de cocción</td></tr>
+<tr><td>2026</td><td>IA, reconocimiento visual, IoT generalizado</td><td>Aparato inteligente y adaptativo</td></tr>
+</tbody>
+</table>
+
+<h2>Estadísticas de adopción por país en 2026</h2>
+<table>
+<thead>
+<tr><th>País</th><th>Tasa de adopción 2026</th><th>Tasa 2019</th><th>Crecimiento</th><th>Modelo más vendido</th></tr>
+</thead>
+<tbody>
+<tr><td>Países Bajos</td><td>72%</td><td>38%</td><td>+34 ptos.</td><td>Philips (marca nacional)</td></tr>
+<tr><td>Reino Unido</td><td>65%</td><td>28%</td><td>+37 ptos.</td><td>Ninja (líder indiscutible)</td></tr>
+<tr><td>EE.UU.</td><td>50%</td><td>12%</td><td>+38 ptos.</td><td>Cosori / Ninja</td></tr>
+<tr><td>Alemania</td><td>48%</td><td>22%</td><td>+26 ptos.</td><td>Philips / Tefal</td></tr>
+<tr><td>Francia</td><td>45%</td><td>18%</td><td>+27 ptos.</td><td>Tefal / Ninja</td></tr>
+<tr><td>España</td><td>42%</td><td>15%</td><td>+27 ptos.</td><td>Cosori / Cecotec</td></tr>
+<tr><td>Italia</td><td>38%</td><td>12%</td><td>+26 ptos.</td><td>Philips / De'Longhi</td></tr>
+<tr><td>Bélgica</td><td>44%</td><td>20%</td><td>+24 ptos.</td><td>Philips / Ninja</td></tr>
+</tbody>
+</table>
+<p>El Reino Unido es el mercado europeo con mayor adopción, impulsado por el dominio de Ninja en mercados angloparlantes. En los Países Bajos, la fidelidad a Philips sigue siendo fuerte pese a la competencia internacional.</p>
 </article>`,
 
     it: `<article>
@@ -394,6 +550,45 @@ export const article: BlogArticle = {
 <h2>Tendenze Future</h2>
 
 <p>L'<strong>IA predittiva</strong> imparerà le preferenze individuali. L'<strong>ecodesign</strong> porterà materiali riciclati e rivestimenti senza PFAS. I confini tra friggitrice ad aria, forno, essiccatore e griglia continueranno a sfumare. La rivoluzione culinaria avviata da Philips nel 2010 è appena iniziata.</p>
+
+<h2>Cronologia completa: le tappe fondamentali della friggitrice ad aria (2006-2026)</h2>
+<table>
+<thead>
+<tr><th>Anno</th><th>Evento</th><th>Impatto</th></tr>
+</thead>
+<tbody>
+<tr><td>2006</td><td>Primi prototipi Philips Rapid Air testati in laboratorio</td><td>Nascita del concetto, non ancora commercializzabile</td></tr>
+<tr><td>2009</td><td>Philips deposita il brevetto Rapid Air</td><td>Protezione legale e fondamento della categoria</td></tr>
+<tr><td>2010</td><td>IFA Berlino — Philips HD9220 (~230 EUR)</td><td>Nascita ufficiale della categoria</td></tr>
+<tr><td>2011-2014</td><td>Tefal, De'Longhi, Cosori — guerra dei brevetti</td><td>Democratizzazione progressiva, prezzi in calo</td></tr>
+<tr><td>2016</td><td>Primi modelli XXL (capacità 1+ kg)</td><td>Adatto a famiglie numerose</td></tr>
+<tr><td>2018</td><td>Ninja Foodi Dual Zone — primo doppio cestello</td><td>Rivoluzione per pasti simultanei completi</td></tr>
+<tr><td>2019</td><td>Philips Connected + app NutriU</td><td>Nascita della friggitrice ad aria connessa</td></tr>
+<tr><td>2020-2021</td><td>Esplosione COVID-19 — vendite +137%</td><td>Mainstream: in ogni casa</td></tr>
+<tr><td>2022</td><td>TikTok #airfryer — miliardi di visualizzazioni</td><td>Fenomeno culturale mondiale</td></tr>
+<tr><td>2023</td><td>Ninja FlexDrawer 10,4L</td><td>Massima flessibilità per famiglie numerose</td></tr>
+<tr><td>2024</td><td>Philips Combi XXL</td><td>Riduzione del 50% del tempo di cottura</td></tr>
+<tr><td>2026</td><td>IA, riconoscimento visivo, IoT diffuso</td><td>Dispositivo intelligente e adattivo</td></tr>
+</tbody>
+</table>
+
+<h2>Statistiche di adozione per paese nel 2026</h2>
+<table>
+<thead>
+<tr><th>Paese</th><th>Tasso di adozione 2026</th><th>Tasso 2019</th><th>Crescita</th><th>Modello più venduto</th></tr>
+</thead>
+<tbody>
+<tr><td>Paesi Bassi</td><td>72%</td><td>38%</td><td>+34 pti.</td><td>Philips (marchio nazionale)</td></tr>
+<tr><td>Regno Unito</td><td>65%</td><td>28%</td><td>+37 pti.</td><td>Ninja (leader indiscusso)</td></tr>
+<tr><td>USA</td><td>50%</td><td>12%</td><td>+38 pti.</td><td>Cosori / Ninja</td></tr>
+<tr><td>Germania</td><td>48%</td><td>22%</td><td>+26 pti.</td><td>Philips / Tefal</td></tr>
+<tr><td>Francia</td><td>45%</td><td>18%</td><td>+27 pti.</td><td>Tefal / Ninja</td></tr>
+<tr><td>Spagna</td><td>42%</td><td>15%</td><td>+27 pti.</td><td>Cosori / Cecotec</td></tr>
+<tr><td>Italia</td><td>38%</td><td>12%</td><td>+26 pti.</td><td>Philips / De'Longhi</td></tr>
+<tr><td>Belgio</td><td>44%</td><td>20%</td><td>+24 pti.</td><td>Philips / Ninja</td></tr>
+</tbody>
+</table>
+<p>Il Regno Unito è il mercato europeo con il tasso di adozione più alto, trainato dal dominio di Ninja nei mercati anglofoni. Nei Paesi Bassi, la fedeltà a Philips rimane forte nonostante la concorrenza internazionale.</p>
 </article>`,
 
     nl: `<article>
@@ -452,6 +647,45 @@ export const article: BlogArticle = {
 <h2>Toekomstige Trends</h2>
 
 <p><strong>Predictieve AI</strong> zal individuele voorkeuren leren. <strong>Ecodesign</strong> brengt gerecyclede materialen en PFAS-vrije coatings. De grenzen tussen airfryer, oven, droogapparaat en grill blijven vervagen. De keukenrevolutie die Philips in 2010 begon, staat nog maar aan het begin.</p>
+
+<h2>Volledige tijdlijn: belangrijke mijlpalen van de airfryer (2006-2026)</h2>
+<table>
+<thead>
+<tr><th>Jaar</th><th>Gebeurtenis</th><th>Impact</th></tr>
+</thead>
+<tbody>
+<tr><td>2006</td><td>Eerste Philips Rapid Air-prototypes getest in laboratorium</td><td>Geboorte van het concept, nog niet commercialiseerbaar</td></tr>
+<tr><td>2009</td><td>Philips dient Rapid Air-patent in</td><td>Juridische bescherming en fundament van de categorie</td></tr>
+<tr><td>2010</td><td>IFA Berlijn — Philips HD9220 (~€230)</td><td>Officiële geboorte van de airfryer-categorie</td></tr>
+<tr><td>2011-2014</td><td>Tefal, De'Longhi, Cosori — patentoorlogen</td><td>Geleidelijke democratisering, prijzen dalen</td></tr>
+<tr><td>2016</td><td>Eerste XXL-modellen (capaciteit 1+ kg)</td><td>Geschikt voor grote gezinnen</td></tr>
+<tr><td>2018</td><td>Ninja Foodi Dual Zone — eerste dubbele mand</td><td>Revolutie voor gelijktijdige complete maaltijden</td></tr>
+<tr><td>2019</td><td>Philips Connected + NutriU-app</td><td>Geboorte van de connected airfryer</td></tr>
+<tr><td>2020-2021</td><td>COVID-19-explosie — verkoop +137%</td><td>Mainstream: in elk huishouden</td></tr>
+<tr><td>2022</td><td>TikTok #airfryer — miljarden weergaven</td><td>Wereldwijd cultureel fenomeen</td></tr>
+<tr><td>2023</td><td>Ninja FlexDrawer 10,4L</td><td>Maximale flexibiliteit voor grote gezinnen</td></tr>
+<tr><td>2024</td><td>Philips Combi XXL</td><td>50% reductie in kooktijd</td></tr>
+<tr><td>2026</td><td>AI, visuele herkenning, wijdverbreid IoT</td><td>Lerend smart-apparaat</td></tr>
+</tbody>
+</table>
+
+<h2>Adoptiestatistieken per land in 2026</h2>
+<table>
+<thead>
+<tr><th>Land</th><th>Adoptiegraad 2026</th><th>Graad 2019</th><th>Groei</th><th>Bestverkocht model</th></tr>
+</thead>
+<tbody>
+<tr><td>Nederland</td><td>72%</td><td>38%</td><td>+34 ptn.</td><td>Philips (nationaal merk)</td></tr>
+<tr><td>Verenigd Koninkrijk</td><td>65%</td><td>28%</td><td>+37 ptn.</td><td>Ninja (onbetwiste leider)</td></tr>
+<tr><td>Verenigde Staten</td><td>50%</td><td>12%</td><td>+38 ptn.</td><td>Cosori / Ninja</td></tr>
+<tr><td>Duitsland</td><td>48%</td><td>22%</td><td>+26 ptn.</td><td>Philips / Tefal</td></tr>
+<tr><td>Frankrijk</td><td>45%</td><td>18%</td><td>+27 ptn.</td><td>Tefal / Ninja</td></tr>
+<tr><td>Spanje</td><td>42%</td><td>15%</td><td>+27 ptn.</td><td>Cosori / Cecotec</td></tr>
+<tr><td>Italië</td><td>38%</td><td>12%</td><td>+26 ptn.</td><td>Philips / De'Longhi</td></tr>
+<tr><td>België</td><td>44%</td><td>20%</td><td>+24 ptn.</td><td>Philips / Ninja</td></tr>
+</tbody>
+</table>
+<p>Het Verenigd Koninkrijk is de Europese markt met de hoogste adoptiegraad, gedreven door Ninja's dominantie in Engelstalige markten. In Nederland blijft de merkloyaliteit voor Philips sterk ondanks internationale concurrentie.</p>
 </article>`,
   },
   faq: [

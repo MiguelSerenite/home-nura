@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 19,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71sCaXqnHIL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Panneau solaire de balcon installe sur une rambarde avec micro-onduleur',
         en: 'Balcony solar panel installed on a railing with micro-inverter',

@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 16,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/61P8zKAEFZL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Interphone vidéo connecté pour appartement et maison avec accès smartphone',
         en: 'Connected video intercom for apartment and house with smartphone access',

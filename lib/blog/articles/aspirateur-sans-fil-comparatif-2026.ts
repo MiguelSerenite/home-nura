@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 20,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71TFt7ZXHLL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Comparatif aspirateurs sans fil balais électriques 2026 Dyson Samsung Miele',
         en: 'Comparison cordless stick vacuum cleaners 2026 Dyson Samsung Miele',

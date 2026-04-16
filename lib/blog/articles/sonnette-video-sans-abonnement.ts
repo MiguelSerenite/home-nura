@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 17,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/61vQ8CDm2UL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1536147116438-62679a5e01f2?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Sonnette video connectee sans abonnement pour securite maison',
         en: 'Smart video doorbell without subscription for home security',

@@ -170,7 +170,28 @@ export const article: BlogArticle = {
 <li>Une paire de pinces silicone (8 €)</li>
 <li>Un kit de brosses de nettoyage (10 €)</li>
 </ul>
-<p>Ce kit couvre 90 % de vos besoins quotidiens. Ajoutez ensuite les grilles empilables et le thermomètre selon votre pratique. Pour éviter les <a href="/fr/blog/erreurs-courantes-airfryer">erreurs de débutant les plus courantes</a>, consultez aussi notre guide dédié. Et retrouvez tous nos conseils dans le <a href="/fr/guides/airfryers">guide complet des airfryers</a> et le <a href="/fr/guides/airfryer-vs-four">comparatif airfryer vs four</a>.</p>`,
+<p>Ce kit couvre 90 % de vos besoins quotidiens. Ajoutez ensuite les grilles empilables et le thermomètre selon votre pratique. Pour éviter les <a href="/fr/blog/erreurs-courantes-airfryer">erreurs de débutant les plus courantes</a>, consultez aussi notre guide dédié. Et retrouvez tous nos conseils dans le <a href="/fr/guides/airfryers">guide complet des airfryers</a> et le <a href="/fr/guides/airfryer-vs-four">comparatif airfryer vs four</a>.</p>
+
+<h2>Quels accessoires privilégier selon votre usage ?</h2>
+<table>
+<thead><tr><th>Usage principal</th><th>Accessoires prioritaires</th><th>Budget estimé</th></tr></thead>
+<tbody>
+<tr><td>Cuisson quotidienne (frites, légumes)</td><td>Feuilles perforées + spray huile</td><td>15-20 €</td></tr>
+<tr><td>Pâtisserie et desserts</td><td>Moule silicone + moule à cake + thermomètre</td><td>25-35 €</td></tr>
+<tr><td>Viandes et grillades</td><td>Grille surélevée + thermomètre sonde + pinces</td><td>30-40 €</td></tr>
+<tr><td>Famille nombreuse</td><td>Double grille empilable + diviseur de tiroir</td><td>20-30 €</td></tr>
+<tr><td>Déshydratation fruits/légumes</td><td>Grilles perforées fines + feuilles silicone</td><td>15-25 €</td></tr>
+</tbody>
+</table>
+
+<h2>5 conseils pour prolonger la durée de vie de vos accessoires</h2>
+<ul>
+<li><strong>Ne jamais utiliser d'ustensiles métalliques</strong> sur les surfaces antiadhésives — ils rayent le revêtement. Privilégiez le silicone ou le bois.</li>
+<li><strong>Laisser refroidir avant de nettoyer</strong> : le choc thermique détériore les revêtements antiadhésifs. Patientez 10 minutes après la fin de cuisson.</li>
+<li><strong>Éviter les éponges abrasives</strong> même pour les taches tenaces. Une nuit de trempage dans de l'eau chaude savonneuse suffit dans 95 % des cas.</li>
+<li><strong>Vérifier la compatibilité lave-vaisselle</strong> pour chaque accessoire. Les grilles en métal sont généralement compatibles, certains revêtements spéciaux résistent mieux au lavage à la main.</li>
+<li><strong>Remplacer les feuilles de cuisson dès qu'elles brunissent</strong> : une feuille dégradée peut libérer des composés à haute température. Durée de vie : 20-30 utilisations par feuille réutilisable.</li>
+</ul>`,
 
     en: `<h2>Why invest in air fryer accessories?</h2>
 <p>Your air fryer is powerful on its own, but the right accessories unlock its full potential. From perforated liners that slash cleaning time to silicone moulds that open up new recipes, each well-chosen accessory improves your daily experience. We tested dozens of products over 6 months to select the 10 most useful.</p>
@@ -269,7 +290,28 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Our recommended starter kit for under 45 euros: liners, silicone mould, oil sprayer, tongs, and cleaning brushes. This covers 90% of daily needs. To avoid the most <a href="/en/blog/erreurs-courantes-airfryer">common beginner mistakes</a>, check our dedicated guide. Find all our advice in the <a href="/en/guides/airfryers">complete air fryer guide</a> and the <a href="/en/guides/airfryer-vs-four">air fryer vs oven comparison</a>.</p>`,
+<p>Our recommended starter kit for under 45 euros: liners, silicone mould, oil sprayer, tongs, and cleaning brushes. This covers 90% of daily needs. To avoid the most <a href="/en/blog/erreurs-courantes-airfryer">common beginner mistakes</a>, check our dedicated guide. Find all our advice in the <a href="/en/guides/airfryers">complete air fryer guide</a> and the <a href="/en/guides/airfryer-vs-four">air fryer vs oven comparison</a>.</p>
+
+<h2>Which Accessories to Prioritise by Use Case?</h2>
+<table>
+<thead><tr><th>Primary Use</th><th>Priority Accessories</th><th>Estimated Budget</th></tr></thead>
+<tbody>
+<tr><td>Daily cooking (fries, vegetables)</td><td>Perforated liners + oil sprayer</td><td>€15-20</td></tr>
+<tr><td>Baking and desserts</td><td>Silicone mould + loaf tin + thermometer</td><td>€25-35</td></tr>
+<tr><td>Meats and grilling</td><td>Elevated rack + probe thermometer + tongs</td><td>€30-40</td></tr>
+<tr><td>Large family (fast cooking)</td><td>Double stacking rack + drawer divider</td><td>€20-30</td></tr>
+<tr><td>Fruit/vegetable dehydration</td><td>Fine perforated racks + silicone sheets</td><td>€15-25</td></tr>
+</tbody>
+</table>
+
+<h2>5 Tips to Extend the Life of Your Accessories</h2>
+<ul>
+<li><strong>Never use metal utensils</strong> on non-stick surfaces — they scratch the coating. Use silicone or wood.</li>
+<li><strong>Let it cool before cleaning</strong>: thermal shock damages non-stick coatings. Wait 10 minutes after cooking ends.</li>
+<li><strong>Avoid abrasive sponges</strong> even for stubborn stains. An overnight soak in hot soapy water resolves 95% of cases.</li>
+<li><strong>Check dishwasher compatibility</strong> for each accessory. Metal racks are generally safe; some special coatings last longer with hand washing.</li>
+<li><strong>Replace liners when they brown</strong>: a degraded liner can release compounds at high temperatures. Expect 20-30 uses per reusable liner.</li>
+</ul>`,
 
     de: `<h2>Warum in Heißluftfritteusen-Zubehör investieren?</h2>
 <p>Ihre Heißluftfritteuse ist schon für sich leistungsstark, aber mit dem richtigen Zubehör wird sie wirklich vielseitig. Von perforierten Einlagen, die die Reinigungszeit um 80 % verkürzen, bis zu Silikonformen, die neue Rezepte ermöglichen — jedes gut gewählte Zubehörteil verbessert Ihr tägliches Kocherlebnis. Wir haben über 6 Monate Dutzende Produkte getestet.</p>
@@ -359,7 +401,28 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Starter-Kit für unter 45 €: Einlagen, Silikonform, Ölsprüher, Zangen und Reinigungsbürsten. Vermeiden Sie die häufigsten <a href="/de/blog/erreurs-courantes-airfryer">Anfängerfehler</a>. Alle Tipps in unserem <a href="/de/guides/airfryers">kompletten Heißluftfritteusen-Ratgeber</a> und dem <a href="/de/guides/airfryer-vs-four">Vergleich Heißluftfritteuse vs. Backofen</a>.</p>`,
+<p>Starter-Kit für unter 45 €: Einlagen, Silikonform, Ölsprüher, Zangen und Reinigungsbürsten. Vermeiden Sie die häufigsten <a href="/de/blog/erreurs-courantes-airfryer">Anfängerfehler</a>. Alle Tipps in unserem <a href="/de/guides/airfryers">kompletten Heißluftfritteusen-Ratgeber</a> und dem <a href="/de/guides/airfryer-vs-four">Vergleich Heißluftfritteuse vs. Backofen</a>.</p>
+
+<h2>Welches Zubehör nach Verwendungszweck priorisieren?</h2>
+<table>
+<thead><tr><th>Hauptverwendung</th><th>Prioritätszubehör</th><th>Geschätztes Budget</th></tr></thead>
+<tbody>
+<tr><td>Tägliches Kochen (Pommes, Gemüse)</td><td>Perforierte Einlagen + Ölsprüher</td><td>15-20 €</td></tr>
+<tr><td>Backen und Desserts</td><td>Silikonform + Kastenform + Thermometer</td><td>25-35 €</td></tr>
+<tr><td>Fleisch und Grillen</td><td>Erhöhter Rost + Stichthermometer + Zangen</td><td>30-40 €</td></tr>
+<tr><td>Große Familie</td><td>Doppelter Stapelrost + Schubladentrenner</td><td>20-30 €</td></tr>
+<tr><td>Dehydrierung Obst/Gemüse</td><td>Feine perforierte Roste + Silikonmatten</td><td>15-25 €</td></tr>
+</tbody>
+</table>
+
+<h2>5 Tipps zur Verlängerung der Lebensdauer Ihres Zubehörs</h2>
+<ul>
+<li><strong>Keine Metallutensilien</strong> auf Antihaftflächen — sie zerkratzen die Beschichtung. Silikon oder Holz bevorzugen.</li>
+<li><strong>Vor dem Reinigen abkühlen lassen</strong>: Temperaturschock schädigt Antihaftbeschichtungen. 10 Minuten warten.</li>
+<li><strong>Keine Scheuerschwämme</strong> selbst bei hartnäckigen Flecken. Einweichen in heißem Seifenwasser über Nacht löst 95 % der Fälle.</li>
+<li><strong>Spülmaschinentauglichkeit prüfen</strong>: Metallroste meist ja, manche Spezialböden besser per Hand.</li>
+<li><strong>Einlagen bei Braunverfärbung ersetzen</strong>: Lebenserwartung 20-30 Nutzungen pro wiederverwendbarer Einlage.</li>
+</ul>`,
 
     es: `<h2>Por qué invertir en accesorios para freidora de aire</h2>
 <p>Tu freidora de aire es potente por sí sola, pero con los accesorios adecuados se vuelve verdaderamente versátil. Desde papeles perforados que reducen el tiempo de limpieza en un 80% hasta moldes de silicona que abren nuevas posibilidades culinarias, cada accesorio bien elegido mejora tu experiencia diaria. Hemos probado decenas de productos durante 6 meses para seleccionar los 10 más útiles.</p>
@@ -450,7 +513,28 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Kit de inicio por menos de 45 €: papeles, molde de silicona, spray, pinzas y cepillos. Evita los <a href="/es/blog/erreurs-courantes-airfryer">errores más comunes de principiante</a>. Encuentra todos los consejos en nuestra <a href="/es/guides/airfryers">guía completa de freidoras de aire</a> y el <a href="/es/guides/airfryer-vs-four">comparativo freidora vs horno</a>.</p>`,
+<p>Kit de inicio por menos de 45 €: papeles, molde de silicona, spray, pinzas y cepillos. Evita los <a href="/es/blog/erreurs-courantes-airfryer">errores más comunes de principiante</a>. Encuentra todos los consejos en nuestra <a href="/es/guides/airfryers">guía completa de freidoras de aire</a> y el <a href="/es/guides/airfryer-vs-four">comparativo freidora vs horno</a>.</p>
+
+<h2>¿Qué accesorios priorizar según el uso?</h2>
+<table>
+<thead><tr><th>Uso principal</th><th>Accesorios prioritarios</th><th>Presupuesto estimado</th></tr></thead>
+<tbody>
+<tr><td>Cocina diaria (patatas, verduras)</td><td>Papeles perforados + spray aceite</td><td>15-20 €</td></tr>
+<tr><td>Repostería y postres</td><td>Molde silicona + molde plum cake + termómetro</td><td>25-35 €</td></tr>
+<tr><td>Carnes y parrilla</td><td>Rejilla elevada + termómetro sonda + pinzas</td><td>30-40 €</td></tr>
+<tr><td>Familia numerosa</td><td>Doble rejilla apilable + divisor de cajón</td><td>20-30 €</td></tr>
+<tr><td>Deshidratación frutas/verduras</td><td>Rejillas perforadas finas + láminas silicona</td><td>15-25 €</td></tr>
+</tbody>
+</table>
+
+<h2>5 consejos para prolongar la vida de tus accesorios</h2>
+<ul>
+<li><strong>Nunca utensilios metálicos</strong> sobre superficies antiadherentes — rayan el recubrimiento. Usa silicona o madera.</li>
+<li><strong>Dejar enfriar antes de limpiar</strong>: el choque térmico daña los recubrimientos. Espera 10 minutos.</li>
+<li><strong>Evitar esponjas abrasivas</strong>: remojo en agua jabonosa caliente durante la noche resuelve el 95% de los casos.</li>
+<li><strong>Verificar compatibilidad con lavavajillas</strong> por cada accesorio. Las rejillas metálicas suelen ser compatibles.</li>
+<li><strong>Sustituir los papeles cuando se oscurezcan</strong>: vida útil de 20-30 usos por papel reutilizable.</li>
+</ul>`,
 
     it: `<h2>Perché investire in accessori per friggitrice ad aria?</h2>
 <p>La vostra friggitrice ad aria è potente da sola, ma con gli accessori giusti diventa davvero versatile. Dai fogli perforati che riducono il tempo di pulizia dell'80% agli stampi in silicone che aprono nuove possibilità culinarie, ogni accessorio ben scelto migliora l'esperienza quotidiana. Abbiamo testato decine di prodotti per 6 mesi per selezionare i 10 più utili.</p>
@@ -540,7 +624,28 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Kit di partenza sotto 45 €: fogli, stampo silicone, spray, pinze e spazzole. Evitate gli <a href="/it/blog/erreurs-courantes-airfryer">errori più comuni da principianti</a>. Tutti i consigli nella nostra <a href="/it/guides/airfryers">guida completa alle friggitrici ad aria</a> e nel <a href="/it/guides/airfryer-vs-four">confronto friggitrice vs forno</a>.</p>`,
+<p>Kit di partenza sotto 45 €: fogli, stampo silicone, spray, pinze e spazzole. Evitate gli <a href="/it/blog/erreurs-courantes-airfryer">errori più comuni da principianti</a>. Tutti i consigli nella nostra <a href="/it/guides/airfryers">guida completa alle friggitrici ad aria</a> e nel <a href="/it/guides/airfryer-vs-four">confronto friggitrice vs forno</a>.</p>
+
+<h2>Quali accessori prioritizzare in base all'uso?</h2>
+<table>
+<thead><tr><th>Uso principale</th><th>Accessori prioritari</th><th>Budget stimato</th></tr></thead>
+<tbody>
+<tr><td>Cottura quotidiana (patatine, verdure)</td><td>Fogli perforati + spray olio</td><td>15-20 €</td></tr>
+<tr><td>Pasticceria e dessert</td><td>Stampo silicone + stampo plum cake + termometro</td><td>25-35 €</td></tr>
+<tr><td>Carni e grigliate</td><td>Griglia rialzata + termometro sonda + pinze</td><td>30-40 €</td></tr>
+<tr><td>Famiglia numerosa</td><td>Doppia griglia impilabile + divisore cassetto</td><td>20-30 €</td></tr>
+<tr><td>Disidratazione frutta/verdura</td><td>Griglie perforate sottili + fogli silicone</td><td>15-25 €</td></tr>
+</tbody>
+</table>
+
+<h2>5 consigli per prolungare la vita degli accessori</h2>
+<ul>
+<li><strong>Mai utensili metallici</strong> sulle superfici antiaderenti — rigano il rivestimento. Usate silicone o legno.</li>
+<li><strong>Lasciar raffreddare prima di pulire</strong>: lo shock termico danneggia i rivestimenti antiaderenti. Aspettate 10 minuti.</li>
+<li><strong>Evitare spugne abrasive</strong>: un ammollo in acqua calda saponata durante la notte risolve il 95% dei casi.</li>
+<li><strong>Verificare la compatibilità lavastoviglie</strong> per ogni accessorio. Le griglie metalliche di solito sì.</li>
+<li><strong>Sostituire i fogli quando si scuriscono</strong>: durata di vita 20-30 utilizzi per foglio riutilizzabile.</li>
+</ul>`,
 
     nl: `<h2>Waarom investeren in airfryer accessoires?</h2>
 <p>Je airfryer is op zich al krachtig, maar met de juiste accessoires wordt hij pas echt veelzijdig. Van geperforeerde vellen die de schoonmaaktijd met 80% verkorten tot siliconenvormen die nieuwe recepten mogelijk maken — elk goed gekozen accessoire verbetert je dagelijkse kookervaring. We hebben 6 maanden lang tientallen producten getest om de 10 nuttigste te selecteren.</p>
@@ -630,7 +735,28 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Starterkit voor minder dan 45 €: vellen, siliconenvorm, oliespray, tangen en borstels. Vermijd de meest voorkomende <a href="/nl/blog/erreurs-courantes-airfryer">beginnerfouten</a>. Alle tips in onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en de <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>.</p>`,
+<p>Starterkit voor minder dan 45 €: vellen, siliconenvorm, oliespray, tangen en borstels. Vermijd de meest voorkomende <a href="/nl/blog/erreurs-courantes-airfryer">beginnerfouten</a>. Alle tips in onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en de <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>.</p>
+
+<h2>Welke accessoires prioriteren op gebruik?</h2>
+<table>
+<thead><tr><th>Primair gebruik</th><th>Prioriteitsaccessoires</th><th>Geschat budget</th></tr></thead>
+<tbody>
+<tr><td>Dagelijks koken (friet, groenten)</td><td>Geperforeerde vellen + oliespray</td><td>€15-20</td></tr>
+<tr><td>Bakken en desserts</td><td>Siliconenvorm + broodvorm + thermometer</td><td>€25-35</td></tr>
+<tr><td>Vlees en grillen</td><td>Verhoogd rooster + sondetemperatuurmeter + tangen</td><td>€30-40</td></tr>
+<tr><td>Groot gezin</td><td>Dubbel stapelrooster + ladeoverdeler</td><td>€20-30</td></tr>
+<tr><td>Dehydratie fruit/groenten</td><td>Fijne geperforeerde roosters + siliconenmatten</td><td>€15-25</td></tr>
+</tbody>
+</table>
+
+<h2>5 tips om je accessoires langer mee te laten gaan</h2>
+<ul>
+<li><strong>Nooit metalen keukengerei</strong> op antiaanbakoppervlakken — ze krassen de coating. Gebruik siliconen of hout.</li>
+<li><strong>Laat afkoelen voor het schoonmaken</strong>: thermische schok beschadigt antiaanbakcoatings. Wacht 10 minuten.</li>
+<li><strong>Vermijd schurende sponzen</strong>: een nacht weken in heet zeepwater lost 95% van de gevallen op.</li>
+<li><strong>Controleer vaatwasserbestendigheid</strong> per accessoire. Metalen roosters zijn meestal geschikt.</li>
+<li><strong>Vervang vellen als ze bruin worden</strong>: levensduur 20-30 gebruiken per herbruikbaar vel.</li>
+</ul>`,
   },
   faq: [
     {

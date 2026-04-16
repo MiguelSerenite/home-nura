@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 18,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71XvMyhDmEL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Radiateur electrique connecte a inertie avec application de programmation sur smartphone',
         en: 'Smart electric inertia heater with programming app on smartphone',

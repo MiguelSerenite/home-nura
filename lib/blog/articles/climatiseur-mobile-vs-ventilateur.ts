@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 16,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71Tl4W3n8FL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Climatiseur mobile et ventilateur colonne dans un salon moderne en ete',
         en: 'Portable air conditioner and tower fan in a modern living room in summer',

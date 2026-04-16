@@ -163,7 +163,28 @@ export const article: BlogArticle = {
 <p>Il n'y a pas de mauvais choix entre Ninja et Philips en 2026. Les deux marques produisent d'excellents airfryers. La question est : <strong>qu'est-ce qui compte le plus pour vous ?</strong></p>
 <p><strong>Choisissez Philips si :</strong> la qualite de cuisson est votre priorite absolue, vous preferez un design elegant, vous voulez la meilleure application connectee, ou vous cherchez le meilleur SAV.</p>
 <p><strong>Choisissez Ninja si :</strong> vous cuisinez pour une famille nombreuse, vous voulez la flexibilite du double panier, vous cherchez le maximum de capacite et de polyvalence pour votre budget.</p>
-<p>Notre coup de coeur absolu ? Le <a href="/fr/blog/test-ninja-foodi-flexdrawer">Ninja Foodi FlexDrawer</a> pour son concept revolutionnaire de panier fusionnable. Mais le <a href="/fr/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> reste notre recommandation pour ceux qui cherchent simplement le meilleur airfryer simple panier du marche. Consultez notre <a href="/fr/guides/airfryer-vs-four">guide complet</a> pour approfondir votre choix.</p>`,
+<p>Notre coup de coeur absolu ? Le <a href="/fr/blog/test-ninja-foodi-flexdrawer">Ninja Foodi FlexDrawer</a> pour son concept revolutionnaire de panier fusionnable. Mais le <a href="/fr/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> reste notre recommandation pour ceux qui cherchent simplement le meilleur airfryer simple panier du marche. Consultez notre <a href="/fr/guides/airfryer-vs-four">guide complet</a> pour approfondir votre choix.</p>
+
+<h2>Tableau comparatif detaille : Ninja vs Philips modele par modele</h2>
+<table>
+<thead><tr><th>Modele</th><th>Marque</th><th>Capacite</th><th>Prix</th><th>Connecte</th><th>Double panier</th><th>Note globale</th></tr></thead>
+<tbody>
+<tr><td>Philips 3000 XL</td><td>Philips</td><td>6,2 L</td><td>~130 €</td><td>Non</td><td>Non</td><td>9,2/10</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>Philips</td><td>8,3 L</td><td>~350 €</td><td>Oui</td><td>Non</td><td>9,5/10</td></tr>
+<tr><td>Ninja Foodi Max Dual Zone</td><td>Ninja</td><td>9,5 L</td><td>~200 €</td><td>Non</td><td>Oui</td><td>9,3/10</td></tr>
+<tr><td>Ninja FlexDrawer</td><td>Ninja</td><td>10,4 L</td><td>~280 €</td><td>Non</td><td>Oui (fusionnable)</td><td>9,6/10</td></tr>
+<tr><td>Ninja Speedi 10-en-1</td><td>Ninja</td><td>7,5 L</td><td>~180 €</td><td>Non</td><td>Non</td><td>9,0/10</td></tr>
+</tbody>
+</table>
+
+<h2>Dans quel cas precise choisir Philips plutot que Ninja ?</h2>
+<ul>
+<li><strong>Qualite de cuisson :</strong> la technologie RapidAir de Philips produit une croustillance plus uniforme et constante dans nos tests a l'aveugle.</li>
+<li><strong>Connectivite avancee :</strong> l'application HomeID de Philips (200+ recettes guidees, sonde de temperature) est superieure aux apps Ninja.</li>
+<li><strong>Design et finitions :</strong> les Philips ont un aspect plus premium et s'integrent mieux dans une cuisine moderne.</li>
+<li><strong>SAV et durabilite :</strong> Philips excelle sur le service apres-vente europeen et la disponibilite des pieces.</li>
+<li><strong>Couple ou petite famille :</strong> pour 1-3 personnes, le rapport qualite-prix du Philips 3000 XL est imbattable.</li>
+</ul>`,
 
     en: `<h2>Introduction</h2>
 <p>Ninja and Philips dominate the air fryer market in 2026, together accounting for over 55% of European sales. But these two brands have radically different philosophies: Philips, the Dutch pioneer that invented the air fryer in 2010, focuses on technology and innovation; Ninja, the American challenger that surged since 2020, focuses on capacity and versatility. Which one is right for you?</p>
@@ -248,7 +269,28 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Our verdict</h2>
-<p>There is no wrong choice between Ninja and Philips in 2026. <strong>Choose Philips</strong> if cooking quality is your absolute priority, you prefer elegant design, or you want the best connected app. <strong>Choose Ninja</strong> if you cook for a large family, want dual basket flexibility, or seek maximum capacity for your budget. Our overall favourite is the <a href="/en/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> for its revolutionary concept, but the <a href="/en/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> remains our top pick for the best single-basket air fryer.</p>`,
+<p>There is no wrong choice between Ninja and Philips in 2026. <strong>Choose Philips</strong> if cooking quality is your absolute priority, you prefer elegant design, or you want the best connected app. <strong>Choose Ninja</strong> if you cook for a large family, want dual basket flexibility, or seek maximum capacity for your budget. Our overall favourite is the <a href="/en/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> for its revolutionary concept, but the <a href="/en/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> remains our top pick for the best single-basket air fryer.</p>
+
+<h2>Detailed model-by-model comparison: Ninja vs Philips 2026</h2>
+<table>
+<thead><tr><th>Model</th><th>Brand</th><th>Capacity</th><th>Price</th><th>Connected</th><th>Dual basket</th><th>Score</th></tr></thead>
+<tbody>
+<tr><td>Philips 3000 XL</td><td>Philips</td><td>6.2 L</td><td>~130 euros</td><td>No</td><td>No</td><td>9.2/10</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>Philips</td><td>8.3 L</td><td>~350 euros</td><td>Yes</td><td>No</td><td>9.5/10</td></tr>
+<tr><td>Ninja Foodi Max Dual Zone</td><td>Ninja</td><td>9.5 L</td><td>~200 euros</td><td>No</td><td>Yes</td><td>9.3/10</td></tr>
+<tr><td>Ninja FlexDrawer</td><td>Ninja</td><td>10.4 L</td><td>~280 euros</td><td>No</td><td>Yes (mergeable)</td><td>9.6/10</td></tr>
+<tr><td>Ninja Speedi 10-in-1</td><td>Ninja</td><td>7.5 L</td><td>~180 euros</td><td>No</td><td>No</td><td>9.0/10</td></tr>
+</tbody>
+</table>
+
+<h2>When exactly should you choose Philips over Ninja?</h2>
+<ul>
+<li><strong>Cooking quality:</strong> Philips RapidAir technology produces more uniform and consistent crispiness in our blind taste tests.</li>
+<li><strong>Advanced connectivity:</strong> the Philips HomeID app (200+ guided recipes, temperature probe) is superior to Ninja's apps.</li>
+<li><strong>Design and finish:</strong> Philips models have a more premium look and integrate better in a modern kitchen.</li>
+<li><strong>After-sales service and durability:</strong> Philips excels at European after-sales and spare parts availability (7 years).</li>
+<li><strong>Couple or small family:</strong> for 1-3 people, the Philips 3000 XL value proposition is unbeatable.</li>
+</ul>`,
 
     de: `<h2>Einleitung</h2>
 <p>Ninja und Philips dominieren den Heissluftfritteusen-Markt 2026 und machen zusammen ueber 55% der europaeischen Verkaeufe aus. Doch die beiden Marken verfolgen grundverschiedene Philosophien: Philips, der niederlaendische Pionier, setzt auf Technologie und Innovation; Ninja, der amerikanische Herausforderer, auf Kapazitaet und Vielseitigkeit. Wir haben 4 Ninja- und 3 Philips-Modelle 8 Wochen lang getestet.</p>
@@ -295,7 +337,28 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Unser Fazit</h2>
-<p>Es gibt keine falsche Wahl zwischen Ninja und Philips 2026. <strong>Waehlen Sie Philips</strong> fuer beste Garqualitaet und elegantes Design. <strong>Waehlen Sie Ninja</strong> fuer maximale Kapazitaet und Doppelkorb-Flexibilitaet. Unser Favorit: der <a href="/de/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> fuer sein revolutionaeres Konzept, aber die <a href="/de/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> bleibt die Top-Empfehlung fuer den besten Einzelkorb.</p>`,
+<p>Es gibt keine falsche Wahl zwischen Ninja und Philips 2026. <strong>Waehlen Sie Philips</strong> fuer beste Garqualitaet und elegantes Design. <strong>Waehlen Sie Ninja</strong> fuer maximale Kapazitaet und Doppelkorb-Flexibilitaet. Unser Favorit: der <a href="/de/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> fuer sein revolutionaeres Konzept, aber die <a href="/de/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> bleibt die Top-Empfehlung fuer den besten Einzelkorb.</p>
+
+<h2>Modell-fuer-Modell-Vergleich: Ninja vs Philips 2026</h2>
+<table>
+<thead><tr><th>Modell</th><th>Marke</th><th>Kapazitaet</th><th>Preis</th><th>Vernetzt</th><th>Doppelkorb</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td>Philips 3000 XL</td><td>Philips</td><td>6,2 L</td><td>~130 €</td><td>Nein</td><td>Nein</td><td>9,2/10</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>Philips</td><td>8,3 L</td><td>~350 €</td><td>Ja</td><td>Nein</td><td>9,5/10</td></tr>
+<tr><td>Ninja Foodi Max Dual Zone</td><td>Ninja</td><td>9,5 L</td><td>~200 €</td><td>Nein</td><td>Ja</td><td>9,3/10</td></tr>
+<tr><td>Ninja FlexDrawer</td><td>Ninja</td><td>10,4 L</td><td>~280 €</td><td>Nein</td><td>Ja (zusammenfuehrbar)</td><td>9,6/10</td></tr>
+<tr><td>Ninja Speedi 10-in-1</td><td>Ninja</td><td>7,5 L</td><td>~180 €</td><td>Nein</td><td>Nein</td><td>9,0/10</td></tr>
+</tbody>
+</table>
+
+<h2>Wann genau sollten Sie Philips statt Ninja waehlen?</h2>
+<ul>
+<li><strong>Garqualitaet:</strong> Philips RapidAir-Technologie liefert in unseren Blindtests gleichmaessigere und konstantere Knusprigkeit.</li>
+<li><strong>Fortschrittliche Konnektivitaet:</strong> die Philips HomeID-App (200+ gefuehrte Rezepte, Temperatursonde) ist den Ninja-Apps ueberlegen.</li>
+<li><strong>Design und Verarbeitung:</strong> Philips-Modelle haben ein hochwertigeres Aussehen und integrieren sich besser in eine moderne Kueche.</li>
+<li><strong>Kundendienst und Haltbarkeit:</strong> Philips ueberzeugt beim europaeischen Service und Ersatzteilversorung (7 Jahre).</li>
+<li><strong>Paare oder kleine Familien:</strong> fuer 1-3 Personen ist das Preis-Leistungs-Verhaeltnis der Philips 3000 XL unschlagbar.</li>
+</ul>`,
 
     es: `<h2>Introduccion</h2>
 <p>Ninja y Philips dominan el mercado de freidoras de aire en 2026, representando juntos mas del 55% de las ventas en Europa. Pero estas dos marcas tienen filosofias radicalmente diferentes: Philips, el pionero holandes que invento la freidora de aire en 2010, apuesta por la tecnologia; Ninja, el retador americano, por la capacidad y versatilidad. Hemos probado 4 modelos Ninja y 3 Philips durante 8 semanas.</p>
@@ -338,7 +401,28 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Nuestro veredicto</h2>
-<p>No hay eleccion equivocada entre Ninja y Philips en 2026. <strong>Elige Philips</strong> si la calidad de coccion es tu prioridad. <strong>Elige Ninja</strong> si cocinas para una familia numerosa y quieres doble cesta. Nuestro favorito: el <a href="/es/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>, pero la <a href="/es/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> sigue siendo nuestra recomendacion para la mejor cesta simple.</p>`,
+<p>No hay eleccion equivocada entre Ninja y Philips en 2026. <strong>Elige Philips</strong> si la calidad de coccion es tu prioridad. <strong>Elige Ninja</strong> si cocinas para una familia numerosa y quieres doble cesta. Nuestro favorito: el <a href="/es/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>, pero la <a href="/es/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> sigue siendo nuestra recomendacion para la mejor cesta simple.</p>
+
+<h2>Comparativa detallada modelo a modelo: Ninja vs Philips 2026</h2>
+<table>
+<thead><tr><th>Modelo</th><th>Marca</th><th>Capacidad</th><th>Precio</th><th>Conectada</th><th>Doble cesta</th><th>Nota</th></tr></thead>
+<tbody>
+<tr><td>Philips 3000 XL</td><td>Philips</td><td>6,2 L</td><td>~130 €</td><td>No</td><td>No</td><td>9,2/10</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>Philips</td><td>8,3 L</td><td>~350 €</td><td>Si</td><td>No</td><td>9,5/10</td></tr>
+<tr><td>Ninja Foodi Max Dual Zone</td><td>Ninja</td><td>9,5 L</td><td>~200 €</td><td>No</td><td>Si</td><td>9,3/10</td></tr>
+<tr><td>Ninja FlexDrawer</td><td>Ninja</td><td>10,4 L</td><td>~280 €</td><td>No</td><td>Si (fusionable)</td><td>9,6/10</td></tr>
+<tr><td>Ninja Speedi 10-en-1</td><td>Ninja</td><td>7,5 L</td><td>~180 €</td><td>No</td><td>No</td><td>9,0/10</td></tr>
+</tbody>
+</table>
+
+<h2>Cuando elegir exactamente Philips sobre Ninja?</h2>
+<ul>
+<li><strong>Calidad de coccion:</strong> la tecnologia RapidAir de Philips produce una crujientez mas uniforme y constante en nuestras pruebas ciegas.</li>
+<li><strong>Conectividad avanzada:</strong> la app HomeID de Philips (200+ recetas guiadas, sonda de temperatura) es superior a las apps de Ninja.</li>
+<li><strong>Diseno y acabados:</strong> los modelos Philips tienen un aspecto mas premium y se integran mejor en una cocina moderna.</li>
+<li><strong>Servicio posventa y durabilidad:</strong> Philips destaca en el servicio europeo y disponibilidad de repuestos (7 anos).</li>
+<li><strong>Parejas o familias pequenas:</strong> para 1-3 personas, la relacion calidad-precio de la Philips 3000 XL es insuperable.</li>
+</ul>`,
 
     it: `<h2>Introduzione</h2>
 <p>Ninja e Philips dominano il mercato delle friggitrici ad aria nel 2026, rappresentando insieme oltre il 55% delle vendite europee. Ma i due marchi hanno filosofie radicalmente diverse: Philips, il pioniere olandese che ha inventato la friggitrice ad aria nel 2010, punta sulla tecnologia; Ninja, lo sfidante americano, sulla capacita e versatilita. Abbiamo testato 4 modelli Ninja e 3 Philips per 8 settimane.</p>
@@ -381,7 +465,28 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Il nostro verdetto</h2>
-<p>Non c'e scelta sbagliata tra Ninja e Philips nel 2026. <strong>Scegliete Philips</strong> per la migliore qualita di cottura. <strong>Scegliete Ninja</strong> per la massima capacita e il doppio cestello. Il nostro favorito: il <a href="/it/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>, ma la <a href="/it/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> resta la nostra raccomandazione per il miglior cestello singolo.</p>`,
+<p>Non c'e scelta sbagliata tra Ninja e Philips nel 2026. <strong>Scegliete Philips</strong> per la migliore qualita di cottura. <strong>Scegliete Ninja</strong> per la massima capacita e il doppio cestello. Il nostro favorito: il <a href="/it/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>, ma la <a href="/it/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> resta la nostra raccomandazione per il miglior cestello singolo.</p>
+
+<h2>Confronto dettagliato modello per modello: Ninja vs Philips 2026</h2>
+<table>
+<thead><tr><th>Modello</th><th>Marchio</th><th>Capacita</th><th>Prezzo</th><th>Connessa</th><th>Doppio cestello</th><th>Voto</th></tr></thead>
+<tbody>
+<tr><td>Philips 3000 XL</td><td>Philips</td><td>6,2 L</td><td>~130 €</td><td>No</td><td>No</td><td>9,2/10</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>Philips</td><td>8,3 L</td><td>~350 €</td><td>Si</td><td>No</td><td>9,5/10</td></tr>
+<tr><td>Ninja Foodi Max Dual Zone</td><td>Ninja</td><td>9,5 L</td><td>~200 €</td><td>No</td><td>Si</td><td>9,3/10</td></tr>
+<tr><td>Ninja FlexDrawer</td><td>Ninja</td><td>10,4 L</td><td>~280 €</td><td>No</td><td>Si (unibile)</td><td>9,6/10</td></tr>
+<tr><td>Ninja Speedi 10-in-1</td><td>Ninja</td><td>7,5 L</td><td>~180 €</td><td>No</td><td>No</td><td>9,0/10</td></tr>
+</tbody>
+</table>
+
+<h2>Quando scegliere Philips invece di Ninja?</h2>
+<ul>
+<li><strong>Qualita di cottura:</strong> la tecnologia RapidAir di Philips produce una croccantezza piu uniforme e costante nei nostri test alla cieca.</li>
+<li><strong>Connettivita avanzata:</strong> l'app HomeID di Philips (200+ ricette guidate, sonda di temperatura) e superiore alle app Ninja.</li>
+<li><strong>Design e finiture:</strong> i modelli Philips hanno un aspetto piu premium e si integrano meglio in una cucina moderna.</li>
+<li><strong>Assistenza e durata:</strong> Philips eccelle nel servizio europeo post-vendita e disponibilita dei ricambi (7 anni).</li>
+<li><strong>Coppie o famiglie piccole:</strong> per 1-3 persone, il rapporto qualita-prezzo della Philips 3000 XL e imbattibile.</li>
+</ul>`,
 
     nl: `<h2>Inleiding</h2>
 <p>Ninja en Philips domineren de airfryermarkt in 2026 en zijn samen goed voor meer dan 55% van de Europese verkoop. Maar deze twee merken hebben radicaal verschillende filosofieen: Philips, de Nederlandse pionier die de airfryer in 2010 uitvond, zet in op technologie; Ninja, de Amerikaanse uitdager, op capaciteit en veelzijdigheid. We hebben 4 Ninja- en 3 Philips-modellen 8 weken lang getest.</p>
@@ -424,7 +529,28 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Ons oordeel</h2>
-<p>Er is geen verkeerde keuze tussen Ninja en Philips in 2026. <strong>Kies Philips</strong> voor de beste gaarkwaliteit en elegant design. <strong>Kies Ninja</strong> voor maximale capaciteit en dubbele mand. Onze favoriet: de <a href="/nl/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>, maar de <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> blijft onze topaanbeveling voor het beste enkele mandje.</p>`,
+<p>Er is geen verkeerde keuze tussen Ninja en Philips in 2026. <strong>Kies Philips</strong> voor de beste gaarkwaliteit en elegant design. <strong>Kies Ninja</strong> voor maximale capaciteit en dubbele mand. Onze favoriet: de <a href="/nl/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>, maar de <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> blijft onze topaanbeveling voor het beste enkele mandje.</p>
+
+<h2>Gedetailleerd model-voor-model vergelijking: Ninja vs Philips 2026</h2>
+<table>
+<thead><tr><th>Model</th><th>Merk</th><th>Capaciteit</th><th>Prijs</th><th>Connected</th><th>Dubbele mand</th><th>Score</th></tr></thead>
+<tbody>
+<tr><td>Philips 3000 XL</td><td>Philips</td><td>6,2 L</td><td>~130 €</td><td>Nee</td><td>Nee</td><td>9,2/10</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>Philips</td><td>8,3 L</td><td>~350 €</td><td>Ja</td><td>Nee</td><td>9,5/10</td></tr>
+<tr><td>Ninja Foodi Max Dual Zone</td><td>Ninja</td><td>9,5 L</td><td>~200 €</td><td>Nee</td><td>Ja</td><td>9,3/10</td></tr>
+<tr><td>Ninja FlexDrawer</td><td>Ninja</td><td>10,4 L</td><td>~280 €</td><td>Nee</td><td>Ja (samenvoegbaar)</td><td>9,6/10</td></tr>
+<tr><td>Ninja Speedi 10-in-1</td><td>Ninja</td><td>7,5 L</td><td>~180 €</td><td>Nee</td><td>Nee</td><td>9,0/10</td></tr>
+</tbody>
+</table>
+
+<h2>Wanneer kies je Philips boven Ninja?</h2>
+<ul>
+<li><strong>Gaarkwaliteit:</strong> Philips RapidAir-technologie produceert uniformere en consistentere knapperigheid in onze blinde smaaktests.</li>
+<li><strong>Geavanceerde connectiviteit:</strong> de Philips HomeID-app (200+ begeleide recepten, temperatuurprobe) is superieur aan de Ninja-apps.</li>
+<li><strong>Design en afwerking:</strong> Philips-modellen hebben een meer premium uitstraling en passen beter in een moderne keuken.</li>
+<li><strong>Klantenservice en duurzaamheid:</strong> Philips blinkt uit in Europese service en beschikbaarheid van reserveonderdelen (7 jaar).</li>
+<li><strong>Stellen of kleine gezinnen:</strong> voor 1-3 personen is de prijs-kwaliteitverhouding van de Philips 3000 XL onverslaanbaar.</li>
+</ul>`,
   },
   faq: [
     {

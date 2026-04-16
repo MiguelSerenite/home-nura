@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 24,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/61kQ1oSgsaL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Thermostat connecte pour economie d\'energie dans une maison intelligente 2026',
         en: 'Smart thermostat for energy savings in a smart home 2026',

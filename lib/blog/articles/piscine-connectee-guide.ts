@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 19,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/71hDcNxBnQL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Piscine connectée domotique capteur pH chlore robot nettoyeur automatique',
         en: 'Smart connected pool automation pH chlorine sensor robot cleaner automatic',

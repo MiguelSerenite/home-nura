@@ -252,7 +252,29 @@ export const article: BlogArticle = {
 <li><strong>Temps de repos</strong> — laissez toujours reposer le poulet 5 minutes après cuisson pour redistribuer les jus.</li>
 <li><strong>Marinage</strong> — un minimum de 2 heures fait toute la différence. Les marinades au yaourt sont particulièrement efficaces pour attendrir la viande.</li>
 </ul>
-<p>Pour un repas complet, accompagnez ces recettes de <a href="/fr/blog/recettes-frites-parfaites-airfryer">frites parfaites à l'airfryer</a> ou de <a href="/fr/blog/recettes-legumes-grilles-airfryer">légumes grillés</a>. Et n'hésitez pas à consulter notre guide pour <a href="/fr/blog/cuisiner-healthy-airfryer">cuisiner healthy à l'airfryer</a> afin de composer des menus équilibrés au quotidien.</p>`,
+<p>Pour un repas complet, accompagnez ces recettes de <a href="/fr/blog/recettes-frites-parfaites-airfryer">frites parfaites à l'airfryer</a> ou de <a href="/fr/blog/recettes-legumes-grilles-airfryer">légumes grillés</a>. Et n'hésitez pas à consulter notre guide pour <a href="/fr/blog/cuisiner-healthy-airfryer">cuisiner healthy à l'airfryer</a> afin de composer des menus équilibrés au quotidien.</p>
+
+<h2>Tableau récapitulatif : temps, températures et apport nutritionnel</h2>
+<table>
+<thead><tr><th>Recette (150 g)</th><th>Température</th><th>Temps total</th><th>Calories</th><th>Protéines</th><th>Graisses</th></tr></thead>
+<tbody>
+<tr><td>Ailes Buffalo</td><td>200°C</td><td>22-25 min</td><td>265 kcal</td><td>22 g</td><td>16 g</td></tr>
+<tr><td>Tenders croustillants</td><td>200°C</td><td>14-16 min</td><td>245 kcal</td><td>28 g</td><td>9 g</td></tr>
+<tr><td>Cuisses tandoori</td><td>185-200°C</td><td>28-32 min</td><td>285 kcal</td><td>26 g</td><td>14 g</td></tr>
+<tr><td>Blancs croustillants</td><td>190-200°C</td><td>18-22 min</td><td>220 kcal</td><td>31 g</td><td>8 g</td></tr>
+<tr><td>Nuggets maison</td><td>200°C</td><td>12-14 min</td><td>255 kcal</td><td>24 g</td><td>10 g</td></tr>
+<tr><td>Brochettes satay</td><td>195°C</td><td>12-14 min</td><td>275 kcal</td><td>27 g</td><td>13 g</td></tr>
+</tbody>
+</table>
+
+<h2>5 marinades express qui changent tout</h2>
+<ul>
+<li><strong>Marinade citron-herbes (30 min) :</strong> jus de 2 citrons + origan + ail + huile d'olive. Pour les blancs de poulet.</li>
+<li><strong>Marinade soja-sésame (2h) :</strong> sauce soja + miel + gingembre râpé + huile de sésame. Pour les ailes et les tenders.</li>
+<li><strong>Marinade yaourt-épices (4h) :</strong> yaourt grec + cumin + paprika + curcuma + ail. Pour les cuisses et pilons.</li>
+<li><strong>Marinade BBQ fumée (2h) :</strong> sauce BBQ + chipotle + miel + jus de citron. Pour toutes les pièces.</li>
+<li><strong>Marinade harissa-citron (1h) :</strong> harissa + jus de citron + huile d'olive + coriandre. Pour les brochettes.</li>
+</ul>`,
 
     en: `<h2>Introduction</h2>
 <p>Air fryer chicken is arguably one of the most satisfying things you can cook. The hot air circulation creates <strong>crispy, golden skin</strong> while keeping the meat juicy inside, all with minimal oil. Whether preparing a quick weeknight meal or a dinner party dish, these 6 tested recipes cover every cut of chicken and every occasion.</p>
@@ -405,7 +427,29 @@ export const article: BlogArticle = {
 <li><strong>Rest after cooking</strong> — 5 minutes lets juices redistribute.</li>
 <li><strong>Marinate properly</strong> — 2 hours minimum makes all the difference.</li>
 </ul>
-<p>For complete meals, pair with <a href="/en/blog/recettes-frites-parfaites-airfryer">perfect air fryer fries</a> or <a href="/en/blog/recettes-legumes-grilles-airfryer">grilled vegetables</a>.</p>`,
+<p>For complete meals, pair with <a href="/en/blog/recettes-frites-parfaites-airfryer">perfect air fryer fries</a> or <a href="/en/blog/recettes-legumes-grilles-airfryer">grilled vegetables</a>.</p>
+
+<h2>Summary table: times, temperatures and nutritional values</h2>
+<table>
+<thead><tr><th>Recipe (150 g)</th><th>Temperature</th><th>Total time</th><th>Calories</th><th>Protein</th><th>Fat</th></tr></thead>
+<tbody>
+<tr><td>Buffalo wings</td><td>200°C</td><td>22-25 min</td><td>265 kcal</td><td>22 g</td><td>16 g</td></tr>
+<tr><td>Crispy tenders</td><td>200°C</td><td>14-16 min</td><td>245 kcal</td><td>28 g</td><td>9 g</td></tr>
+<tr><td>Tandoori thighs</td><td>185-200°C</td><td>28-32 min</td><td>285 kcal</td><td>26 g</td><td>14 g</td></tr>
+<tr><td>Crispy breast</td><td>190-200°C</td><td>18-22 min</td><td>220 kcal</td><td>31 g</td><td>8 g</td></tr>
+<tr><td>Homemade nuggets</td><td>200°C</td><td>12-14 min</td><td>255 kcal</td><td>24 g</td><td>10 g</td></tr>
+<tr><td>Satay skewers</td><td>195°C</td><td>12-14 min</td><td>275 kcal</td><td>27 g</td><td>13 g</td></tr>
+</tbody>
+</table>
+
+<h2>5 quick marinades that make all the difference</h2>
+<ul>
+<li><strong>Lemon-herb marinade (30 min):</strong> juice of 2 lemons + oregano + garlic + olive oil. For chicken breasts.</li>
+<li><strong>Soy-sesame marinade (2h):</strong> soy sauce + honey + grated ginger + sesame oil. For wings and tenders.</li>
+<li><strong>Yogurt-spice marinade (4h):</strong> Greek yogurt + cumin + paprika + turmeric + garlic. For thighs and drumsticks.</li>
+<li><strong>Smoky BBQ marinade (2h):</strong> BBQ sauce + chipotle + honey + lemon juice. For all cuts.</li>
+<li><strong>Harissa-lemon marinade (1h):</strong> harissa + lemon juice + olive oil + coriander. For skewers.</li>
+</ul>`,
 
     de: `<h2>Einleitung</h2>
 <p>Hähnchen aus der Heißluftfritteuse gehört zu den befriedigendsten Gerichten, die man zubereiten kann. Die Heißluftzirkulation erzeugt eine <strong>knusprige, goldbraune Haut</strong>, während das Fleisch innen saftig bleibt — und das mit minimalem Ölverbrauch. Diese 6 getesteten Rezepte decken alle Hähnchenteile und Anlässe ab.</p>
@@ -523,7 +567,29 @@ export const article: BlogArticle = {
 <li><strong>Korb nicht überladen.</strong></li>
 <li><strong>5 Minuten ruhen lassen</strong> nach dem Garen.</li>
 </ul>
-<p>Servieren Sie mit <a href="/de/blog/recettes-frites-parfaites-airfryer">perfekten Airfryer-Pommes</a> oder <a href="/de/blog/recettes-legumes-grilles-airfryer">gegrilltem Gemüse</a>.</p>`,
+<p>Servieren Sie mit <a href="/de/blog/recettes-frites-parfaites-airfryer">perfekten Airfryer-Pommes</a> oder <a href="/de/blog/recettes-legumes-grilles-airfryer">gegrilltem Gemüse</a>.</p>
+
+<h2>Übersichtstabelle: Zeiten, Temperaturen und Nährwerte</h2>
+<table>
+<thead><tr><th>Rezept (150 g)</th><th>Temperatur</th><th>Gesamtzeit</th><th>Kalorien</th><th>Protein</th><th>Fett</th></tr></thead>
+<tbody>
+<tr><td>Buffalo-Flügel</td><td>200°C</td><td>22-25 Min.</td><td>265 kcal</td><td>22 g</td><td>16 g</td></tr>
+<tr><td>Knusprige Tenders</td><td>200°C</td><td>14-16 Min.</td><td>245 kcal</td><td>28 g</td><td>9 g</td></tr>
+<tr><td>Tandoori-Schenkel</td><td>185-200°C</td><td>28-32 Min.</td><td>285 kcal</td><td>26 g</td><td>14 g</td></tr>
+<tr><td>Knusprige Brust</td><td>190-200°C</td><td>18-22 Min.</td><td>220 kcal</td><td>31 g</td><td>8 g</td></tr>
+<tr><td>Hausgemachte Nuggets</td><td>200°C</td><td>12-14 Min.</td><td>255 kcal</td><td>24 g</td><td>10 g</td></tr>
+<tr><td>Satay-Spieße</td><td>195°C</td><td>12-14 Min.</td><td>275 kcal</td><td>27 g</td><td>13 g</td></tr>
+</tbody>
+</table>
+
+<h2>5 schnelle Marinaden, die alles verändern</h2>
+<ul>
+<li><strong>Zitronen-Kräuter-Marinade (30 Min.):</strong> Saft von 2 Zitronen + Oregano + Knoblauch + Olivenöl. Für Hähnchenbrust.</li>
+<li><strong>Soja-Sesam-Marinade (2 Std.):</strong> Sojasoße + Honig + geriebener Ingwer + Sesamöl. Für Flügel und Tenders.</li>
+<li><strong>Joghurt-Gewürz-Marinade (4 Std.):</strong> griechischer Joghurt + Kreuzkümmel + Paprika + Kurkuma + Knoblauch. Für Schenkel.</li>
+<li><strong>Rauchige BBQ-Marinade (2 Std.):</strong> BBQ-Soße + Chipotle + Honig + Zitronensaft. Für alle Stücke.</li>
+<li><strong>Harissa-Zitronen-Marinade (1 Std.):</strong> Harissa + Zitronensaft + Olivenöl + Koriander. Für Spieße.</li>
+</ul>`,
 
     es: `<h2>Introducción</h2>
 <p>El pollo en la freidora de aire es probablemente una de las preparaciones más satisfactorias que puedes hacer. La circulación de aire caliente crea una <strong>piel crujiente y dorada</strong> manteniendo la carne jugosa por dentro, todo con una cantidad mínima de aceite. Estas 6 recetas probadas cubren todos los cortes de pollo y todas las ocasiones.</p>
@@ -636,7 +702,29 @@ export const article: BlogArticle = {
 <li><strong>No sobrecargues la cesta.</strong></li>
 <li><strong>Deja reposar 5 minutos</strong> antes de cortar.</li>
 </ul>
-<p>Acompaña con <a href="/es/blog/recettes-frites-parfaites-airfryer">patatas fritas perfectas</a> o <a href="/es/blog/recettes-legumes-grilles-airfryer">verduras a la parrilla</a>.</p>`,
+<p>Acompaña con <a href="/es/blog/recettes-frites-parfaites-airfryer">patatas fritas perfectas</a> o <a href="/es/blog/recettes-legumes-grilles-airfryer">verduras a la parrilla</a>.</p>
+
+<h2>Tabla resumen: tiempos, temperaturas y valores nutricionales</h2>
+<table>
+<thead><tr><th>Receta (150 g)</th><th>Temperatura</th><th>Tiempo total</th><th>Calorías</th><th>Proteínas</th><th>Grasas</th></tr></thead>
+<tbody>
+<tr><td>Alitas Buffalo</td><td>200°C</td><td>22-25 min</td><td>265 kcal</td><td>22 g</td><td>16 g</td></tr>
+<tr><td>Tenders crujientes</td><td>200°C</td><td>14-16 min</td><td>245 kcal</td><td>28 g</td><td>9 g</td></tr>
+<tr><td>Muslos tandoori</td><td>185-200°C</td><td>28-32 min</td><td>285 kcal</td><td>26 g</td><td>14 g</td></tr>
+<tr><td>Pechuga crujiente</td><td>190-200°C</td><td>18-22 min</td><td>220 kcal</td><td>31 g</td><td>8 g</td></tr>
+<tr><td>Nuggets caseros</td><td>200°C</td><td>12-14 min</td><td>255 kcal</td><td>24 g</td><td>10 g</td></tr>
+<tr><td>Brochetas satay</td><td>195°C</td><td>12-14 min</td><td>275 kcal</td><td>27 g</td><td>13 g</td></tr>
+</tbody>
+</table>
+
+<h2>5 marinadas express que lo cambian todo</h2>
+<ul>
+<li><strong>Marinada limón-hierbas (30 min):</strong> zumo de 2 limones + orégano + ajo + aceite de oliva. Para pechugas.</li>
+<li><strong>Marinada soja-sésamo (2h):</strong> salsa de soja + miel + jengibre rallado + aceite de sésamo. Para alitas y tenders.</li>
+<li><strong>Marinada yogur-especias (4h):</strong> yogur griego + comino + pimentón + cúrcuma + ajo. Para muslos y contramuslos.</li>
+<li><strong>Marinada BBQ ahumada (2h):</strong> salsa BBQ + chipotle + miel + zumo de limón. Para todas las piezas.</li>
+<li><strong>Marinada harissa-limón (1h):</strong> harissa + zumo de limón + aceite de oliva + cilantro. Para brochetas.</li>
+</ul>`,
 
     it: `<h2>Introduzione</h2>
 <p>Il pollo nella friggitrice ad aria è probabilmente una delle preparazioni più soddisfacenti che possiate realizzare. La circolazione di aria calda crea una <strong>pelle croccante e dorata</strong> mantenendo la carne succosa all'interno, il tutto con una quantità minima di olio. Queste 6 ricette testate coprono tutti i tagli di pollo e tutte le occasioni.</p>
@@ -748,7 +836,29 @@ export const article: BlogArticle = {
 <li><strong>Non riempite troppo il cestello.</strong></li>
 <li><strong>Lasciate riposare 5 minuti</strong> dopo la cottura.</li>
 </ul>
-<p>Accompagnate con <a href="/it/blog/recettes-frites-parfaites-airfryer">patatine fritte perfette</a> o <a href="/it/blog/recettes-legumes-grilles-airfryer">verdure grigliate</a>.</p>`,
+<p>Accompagnate con <a href="/it/blog/recettes-frites-parfaites-airfryer">patatine fritte perfette</a> o <a href="/it/blog/recettes-legumes-grilles-airfryer">verdure grigliate</a>.</p>
+
+<h2>Tabella riepilogativa: tempi, temperature e valori nutrizionali</h2>
+<table>
+<thead><tr><th>Ricetta (150 g)</th><th>Temperatura</th><th>Tempo totale</th><th>Calorie</th><th>Proteine</th><th>Grassi</th></tr></thead>
+<tbody>
+<tr><td>Ali Buffalo</td><td>200°C</td><td>22-25 min</td><td>265 kcal</td><td>22 g</td><td>16 g</td></tr>
+<tr><td>Tenders croccanti</td><td>200°C</td><td>14-16 min</td><td>245 kcal</td><td>28 g</td><td>9 g</td></tr>
+<tr><td>Cosce tandoori</td><td>185-200°C</td><td>28-32 min</td><td>285 kcal</td><td>26 g</td><td>14 g</td></tr>
+<tr><td>Petto croccante</td><td>190-200°C</td><td>18-22 min</td><td>220 kcal</td><td>31 g</td><td>8 g</td></tr>
+<tr><td>Nuggets fatti in casa</td><td>200°C</td><td>12-14 min</td><td>255 kcal</td><td>24 g</td><td>10 g</td></tr>
+<tr><td>Spiedini satay</td><td>195°C</td><td>12-14 min</td><td>275 kcal</td><td>27 g</td><td>13 g</td></tr>
+</tbody>
+</table>
+
+<h2>5 marinature express che cambiano tutto</h2>
+<ul>
+<li><strong>Marinatura limone-erbe (30 min):</strong> succo di 2 limoni + origano + aglio + olio d'oliva. Per il petto di pollo.</li>
+<li><strong>Marinatura soia-sesamo (2h):</strong> salsa di soia + miele + zenzero grattugiato + olio di sesamo. Per ali e tenders.</li>
+<li><strong>Marinatura yogurt-spezie (4h):</strong> yogurt greco + cumino + paprika + curcuma + aglio. Per cosce e sovracosce.</li>
+<li><strong>Marinatura BBQ affumicata (2h):</strong> salsa BBQ + chipotle + miele + succo di limone. Per tutti i tagli.</li>
+<li><strong>Marinatura harissa-limone (1h):</strong> harissa + succo di limone + olio d'oliva + coriandolo. Per gli spiedini.</li>
+</ul>`,
 
     nl: `<h2>Inleiding</h2>
 <p>Kip uit de airfryer is misschien wel een van de meest bevredigende gerechten die je kunt bereiden. De heteluchtcirculatie creëert een <strong>krokant, goudbruin vel</strong> terwijl het vlees van binnen sappig blijft — en dat met een minimum aan olie. Deze 6 geteste recepten dekken alle kipdelen en alle gelegenheden.</p>
@@ -860,7 +970,29 @@ export const article: BlogArticle = {
 <li><strong>Overlaad de mand niet.</strong></li>
 <li><strong>Laat 5 minuten rusten</strong> na het bakken.</li>
 </ul>
-<p>Serveer met <a href="/nl/blog/recettes-frites-parfaites-airfryer">perfecte airfryer-frietjes</a> of <a href="/nl/blog/recettes-legumes-grilles-airfryer">gegrilde groenten</a>.</p>`,
+<p>Serveer met <a href="/nl/blog/recettes-frites-parfaites-airfryer">perfecte airfryer-frietjes</a> of <a href="/nl/blog/recettes-legumes-grilles-airfryer">gegrilde groenten</a>.</p>
+
+<h2>Overzichtstabel: tijden, temperaturen en voedingswaarden</h2>
+<table>
+<thead><tr><th>Recept (150 g)</th><th>Temperatuur</th><th>Totale tijd</th><th>Calorieën</th><th>Eiwitten</th><th>Vetten</th></tr></thead>
+<tbody>
+<tr><td>Buffalo vleugels</td><td>200°C</td><td>22-25 min</td><td>265 kcal</td><td>22 g</td><td>16 g</td></tr>
+<tr><td>Krokante tenders</td><td>200°C</td><td>14-16 min</td><td>245 kcal</td><td>28 g</td><td>9 g</td></tr>
+<tr><td>Tandoori dijen</td><td>185-200°C</td><td>28-32 min</td><td>285 kcal</td><td>26 g</td><td>14 g</td></tr>
+<tr><td>Krokante kipfilet</td><td>190-200°C</td><td>18-22 min</td><td>220 kcal</td><td>31 g</td><td>8 g</td></tr>
+<tr><td>Zelfgemaakte nuggets</td><td>200°C</td><td>12-14 min</td><td>255 kcal</td><td>24 g</td><td>10 g</td></tr>
+<tr><td>Satay-spiesjes</td><td>195°C</td><td>12-14 min</td><td>275 kcal</td><td>27 g</td><td>13 g</td></tr>
+</tbody>
+</table>
+
+<h2>5 snelle marinades die alles veranderen</h2>
+<ul>
+<li><strong>Citroen-kruidenmarinade (30 min):</strong> sap van 2 citroenen + oregano + knoflook + olijfolie. Voor kipfilet.</li>
+<li><strong>Soja-sesam marinade (2u):</strong> sojasaus + honing + geraspte gember + sesamolie. Voor vleugels en tenders.</li>
+<li><strong>Yoghurt-specerijen marinade (4u):</strong> Griekse yoghurt + komijn + paprika + kurkuma + knoflook. Voor dijen en drumsticks.</li>
+<li><strong>Rokerige BBQ-marinade (2u):</strong> BBQ-saus + chipotle + honing + citroensap. Voor alle stukken.</li>
+<li><strong>Harissa-citroen marinade (1u):</strong> harissa + citroensap + olijfolie + koriander. Voor spiesjes.</li>
+</ul>`,
   },
   faq: [
     {

@@ -228,7 +228,28 @@ export const article: BlogArticle = {
 <li><strong>Préchauffez toujours votre airfryer</strong> — 3 minutes suffisent généralement.</li>
 <li><strong>Utilisez peu d'huile</strong> — 1 cuillère à soupe pour 500 g est suffisant. Un spray d'huile permet une répartition plus uniforme.</li>
 </ul>
-<p>Pour aller plus loin, découvrez nos <a href="/fr/blog/recettes-poulet-croustillant-airfryer">recettes de poulet croustillant à l'airfryer</a> qui se marient parfaitement avec ces frites, ou consultez notre guide pour <a href="/fr/blog/cuisiner-healthy-airfryer">cuisiner healthy à l'airfryer</a>. Vous pouvez aussi retrouver les <a href="/fr/blog/top-10-accessoires-airfryer">10 meilleurs accessoires pour airfryer</a> pour optimiser vos préparations.</p>`,
+<p>Pour aller plus loin, découvrez nos <a href="/fr/blog/recettes-poulet-croustillant-airfryer">recettes de poulet croustillant à l'airfryer</a> qui se marient parfaitement avec ces frites, ou consultez notre guide pour <a href="/fr/blog/cuisiner-healthy-airfryer">cuisiner healthy à l'airfryer</a>. Vous pouvez aussi retrouver les <a href="/fr/blog/top-10-accessoires-airfryer">10 meilleurs accessoires pour airfryer</a> pour optimiser vos préparations.</p>
+
+<h2>Comparatif nutritionnel : airfryer vs friteuse traditionnelle</h2>
+<table>
+<thead><tr><th>Recette (200 g)</th><th>Calories airfryer</th><th>Calories fritteuse</th><th>Graisses airfryer</th><th>Graisses fritteuse</th><th>Économie calories</th></tr></thead>
+<tbody>
+<tr><td>Frites classiques</td><td>180 kcal</td><td>340 kcal</td><td>4 g</td><td>17 g</td><td>-47 %</td></tr>
+<tr><td>Patate douce</td><td>160 kcal</td><td>290 kcal</td><td>3 g</td><td>14 g</td><td>-45 %</td></tr>
+<tr><td>Courgettes panées</td><td>175 kcal</td><td>310 kcal</td><td>6 g</td><td>18 g</td><td>-44 %</td></tr>
+<tr><td>Frites truffées</td><td>195 kcal</td><td>360 kcal</td><td>7 g</td><td>19 g</td><td>-46 %</td></tr>
+<tr><td>Frites belges</td><td>190 kcal</td><td>350 kcal</td><td>5 g</td><td>18 g</td><td>-46 %</td></tr>
+</tbody>
+</table>
+
+<h2>Sauces maison en 5 minutes : les meilleurs accompagnements</h2>
+<ul>
+<li><strong>Aïoli légère :</strong> 2 cuillères à soupe de yaourt grec + 1 gousse d'ail râpée + sel. Parfaite avec les frites classiques.</li>
+<li><strong>Sauce chipotle :</strong> mayo légère + piment chipotle en poudre + jus de citron vert. Idéale avec les frites de patate douce.</li>
+<li><strong>Sauce truffe-parmesan :</strong> crème fraîche + quelques gouttes d'huile de truffe + parmesan râpé. Pour les frites truffées uniquement.</li>
+<li><strong>Sauce wasabi-sésame :</strong> fromage blanc + wasabi + graines de sésame grillées. Accompagne parfaitement les frites d'avocat.</li>
+<li><strong>Sauce tomate épicée :</strong> passata de tomates + flocons de piment + basilic frais. Classique avec les frites de courgette.</li>
+</ul>`,
 
     en: `<h2>Introduction</h2>
 <p>Air fryer fries are a true culinary revolution. With <strong>up to 80% less fat</strong> than a traditional deep fryer, you get fries that are crispy on the outside and tender on the inside. Whether you use a <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> or a <a href="/en/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>, these 7 fries recipes will bring variety to your meals.</p>
@@ -419,7 +440,28 @@ export const article: BlogArticle = {
 <li><strong>Always preheat your air fryer</strong> — 3 minutes is usually enough.</li>
 <li><strong>Use minimal oil</strong> — 1 tablespoon per 500 g is sufficient.</li>
 </ul>
-<p>To go further, discover our <a href="/en/blog/recettes-poulet-croustillant-airfryer">crispy chicken air fryer recipes</a> that pair perfectly with these fries, or check our guide to <a href="/en/blog/cuisiner-healthy-airfryer">healthy air fryer cooking</a>.</p>`,
+<p>To go further, discover our <a href="/en/blog/recettes-poulet-croustillant-airfryer">crispy chicken air fryer recipes</a> that pair perfectly with these fries, or check our guide to <a href="/en/blog/cuisiner-healthy-airfryer">healthy air fryer cooking</a>.</p>
+
+<h2>Nutritional comparison: air fryer vs traditional deep fryer</h2>
+<table>
+<thead><tr><th>Recipe (200 g)</th><th>Air fryer calories</th><th>Deep fryer calories</th><th>Air fryer fat</th><th>Deep fryer fat</th><th>Calorie saving</th></tr></thead>
+<tbody>
+<tr><td>Classic fries</td><td>180 kcal</td><td>340 kcal</td><td>4 g</td><td>17 g</td><td>-47%</td></tr>
+<tr><td>Sweet potato</td><td>160 kcal</td><td>290 kcal</td><td>3 g</td><td>14 g</td><td>-45%</td></tr>
+<tr><td>Zucchini breaded</td><td>175 kcal</td><td>310 kcal</td><td>6 g</td><td>18 g</td><td>-44%</td></tr>
+<tr><td>Truffle fries</td><td>195 kcal</td><td>360 kcal</td><td>7 g</td><td>19 g</td><td>-46%</td></tr>
+<tr><td>Belgian-style</td><td>190 kcal</td><td>350 kcal</td><td>5 g</td><td>18 g</td><td>-46%</td></tr>
+</tbody>
+</table>
+
+<h2>5-minute homemade dipping sauces: the best pairings</h2>
+<ul>
+<li><strong>Light aioli:</strong> 2 tbsp Greek yogurt + 1 grated garlic clove + salt. Perfect with classic fries.</li>
+<li><strong>Chipotle sauce:</strong> light mayo + chipotle powder + lime juice. Ideal with sweet potato fries.</li>
+<li><strong>Truffle-Parmesan sauce:</strong> sour cream + a few drops of truffle oil + grated Parmesan. For truffle fries only.</li>
+<li><strong>Wasabi-sesame sauce:</strong> plain yogurt + wasabi + toasted sesame seeds. Pairs perfectly with avocado fries.</li>
+<li><strong>Spicy tomato sauce:</strong> passata + chili flakes + fresh basil. Classic with zucchini fries.</li>
+</ul>`,
 
     de: `<h2>Einleitung</h2>
 <p>Pommes aus der Heißluftfritteuse sind eine wahre kulinarische Revolution. Mit <strong>bis zu 80 % weniger Fett</strong> als eine herkömmliche Fritteuse erhalten Sie Pommes, die außen knusprig und innen zart sind. Ob Sie einen <a href="/de/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> oder einen <a href="/de/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> verwenden — diese 7 Pommes-Rezepte bringen Abwechslung auf Ihren Tisch.</p>
@@ -571,7 +613,28 @@ export const article: BlogArticle = {
 <li><strong>Korb zwischendurch schütteln</strong> — für gleichmäßiges Ergebnis.</li>
 <li><strong>Immer vorheizen</strong> — 3 Minuten genügen.</li>
 </ul>
-<p>Entdecken Sie auch unsere <a href="/de/blog/recettes-poulet-croustillant-airfryer">knusprigen Hähnchen-Rezepte</a> und unseren <a href="/de/blog/cuisiner-healthy-airfryer">Leitfaden für gesundes Kochen mit dem Airfryer</a>.</p>`,
+<p>Entdecken Sie auch unsere <a href="/de/blog/recettes-poulet-croustillant-airfryer">knusprigen Hähnchen-Rezepte</a> und unseren <a href="/de/blog/cuisiner-healthy-airfryer">Leitfaden für gesundes Kochen mit dem Airfryer</a>.</p>
+
+<h2>Nährwertvergleich: Heißluftfritteuse vs traditionelle Fritteuse</h2>
+<table>
+<thead><tr><th>Rezept (200 g)</th><th>Kalorien Airfryer</th><th>Kalorien Fritteuse</th><th>Fett Airfryer</th><th>Fett Fritteuse</th><th>Kalorienersparnis</th></tr></thead>
+<tbody>
+<tr><td>Klassische Pommes</td><td>180 kcal</td><td>340 kcal</td><td>4 g</td><td>17 g</td><td>-47%</td></tr>
+<tr><td>Süßkartoffel</td><td>160 kcal</td><td>290 kcal</td><td>3 g</td><td>14 g</td><td>-45%</td></tr>
+<tr><td>Zucchini paniert</td><td>175 kcal</td><td>310 kcal</td><td>6 g</td><td>18 g</td><td>-44%</td></tr>
+<tr><td>Trüffel-Pommes</td><td>195 kcal</td><td>360 kcal</td><td>7 g</td><td>19 g</td><td>-46%</td></tr>
+<tr><td>Belgische Pommes</td><td>190 kcal</td><td>350 kcal</td><td>5 g</td><td>18 g</td><td>-46%</td></tr>
+</tbody>
+</table>
+
+<h2>Hausgemachte Dipsaucen in 5 Minuten</h2>
+<ul>
+<li><strong>Leichte Aioli:</strong> 2 EL griechischer Joghurt + 1 geriebene Knoblauchzehe + Salz. Perfekt zu klassischen Pommes.</li>
+<li><strong>Chipotle-Sauce:</strong> leichte Mayo + Chipotle-Pulver + Limettensaft. Ideal zu Süßkartoffel-Pommes.</li>
+<li><strong>Trüffel-Parmesan-Sauce:</strong> Sauerrahm + einige Tropfen Trüffelöl + geriebener Parmesan. Nur für Trüffel-Pommes.</li>
+<li><strong>Wasabi-Sesam-Sauce:</strong> Naturjoghurt + Wasabi + geröstete Sesamkörner. Perfekt zu Avocado-Pommes.</li>
+<li><strong>Pikante Tomatensauce:</strong> Passata + Chiliflocken + frisches Basilikum. Klassisch zu Zucchini-Pommes.</li>
+</ul>`,
 
     es: `<h2>Introducción</h2>
 <p>Las patatas fritas en freidora de aire son una auténtica revolución culinaria. Con <strong>hasta un 80 % menos de grasa</strong> que una freidora tradicional, obtendrás patatas crujientes por fuera y tiernas por dentro. Ya utilices una <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> o una <a href="/es/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>, estas 7 recetas de patatas fritas darán variedad a tus comidas.</p>
@@ -710,7 +773,28 @@ export const article: BlogArticle = {
 <li><strong>Agita la cesta a mitad de cocción</strong> — para un resultado uniforme.</li>
 <li><strong>Precalienta siempre</strong> — 3 minutos bastan.</li>
 </ul>
-<p>Descubre también nuestras <a href="/es/blog/recettes-poulet-croustillant-airfryer">recetas de pollo crujiente</a> y nuestra guía para <a href="/es/blog/cuisiner-healthy-airfryer">cocinar saludable con la freidora de aire</a>.</p>`,
+<p>Descubre también nuestras <a href="/es/blog/recettes-poulet-croustillant-airfryer">recetas de pollo crujiente</a> y nuestra guía para <a href="/es/blog/cuisiner-healthy-airfryer">cocinar saludable con la freidora de aire</a>.</p>
+
+<h2>Comparativa nutricional: freidora de aire vs freidora tradicional</h2>
+<table>
+<thead><tr><th>Receta (200 g)</th><th>Calorías freidora aire</th><th>Calorías freidora trad.</th><th>Grasas aire</th><th>Grasas trad.</th><th>Ahorro calórico</th></tr></thead>
+<tbody>
+<tr><td>Patatas clásicas</td><td>180 kcal</td><td>340 kcal</td><td>4 g</td><td>17 g</td><td>-47%</td></tr>
+<tr><td>Boniato</td><td>160 kcal</td><td>290 kcal</td><td>3 g</td><td>14 g</td><td>-45%</td></tr>
+<tr><td>Calabacín rebozado</td><td>175 kcal</td><td>310 kcal</td><td>6 g</td><td>18 g</td><td>-44%</td></tr>
+<tr><td>Patatas trufadas</td><td>195 kcal</td><td>360 kcal</td><td>7 g</td><td>19 g</td><td>-46%</td></tr>
+<tr><td>Estilo belga</td><td>190 kcal</td><td>350 kcal</td><td>5 g</td><td>18 g</td><td>-46%</td></tr>
+</tbody>
+</table>
+
+<h2>Salsas caseras en 5 minutos: los mejores acompañamientos</h2>
+<ul>
+<li><strong>Alioli ligero:</strong> 2 cucharadas de yogur griego + 1 diente de ajo rallado + sal. Perfecto con patatas clásicas.</li>
+<li><strong>Salsa chipotle:</strong> mayonesa ligera + chipotle en polvo + zumo de lima. Ideal con patatas de boniato.</li>
+<li><strong>Salsa trufa-parmesano:</strong> crema agria + unas gotas de aceite de trufa + parmesano rallado. Solo para patatas trufadas.</li>
+<li><strong>Salsa wasabi-sésamo:</strong> yogur natural + wasabi + semillas de sésamo tostadas. Perfecta con bastones de aguacate.</li>
+<li><strong>Salsa tomate picante:</strong> passata + copos de chile + albahaca fresca. Clásica con bastones de calabacín.</li>
+</ul>`,
 
     it: `<h2>Introduzione</h2>
 <p>Le patatine fritte nella friggitrice ad aria sono una vera rivoluzione culinaria. Con <strong>fino all'80% in meno di grassi</strong> rispetto alla frittura tradizionale, si ottengono patatine croccanti fuori e morbide dentro. Che si utilizzi una <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> o una <a href="/it/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>, queste 7 ricette porteranno varietà ai vostri pasti.</p>
@@ -849,7 +933,28 @@ export const article: BlogArticle = {
 <li><strong>Agitate il cestello a metà cottura</strong> — per un risultato uniforme.</li>
 <li><strong>Preriscaldate sempre</strong> — bastano 3 minuti.</li>
 </ul>
-<p>Scoprite anche le nostre <a href="/it/blog/recettes-poulet-croustillant-airfryer">ricette di pollo croccante</a> e la nostra guida per <a href="/it/blog/cuisiner-healthy-airfryer">cucinare in modo sano con la friggitrice ad aria</a>.</p>`,
+<p>Scoprite anche le nostre <a href="/it/blog/recettes-poulet-croustillant-airfryer">ricette di pollo croccante</a> e la nostra guida per <a href="/it/blog/cuisiner-healthy-airfryer">cucinare in modo sano con la friggitrice ad aria</a>.</p>
+
+<h2>Confronto nutrizionale: friggitrice ad aria vs frittura tradizionale</h2>
+<table>
+<thead><tr><th>Ricetta (200 g)</th><th>Calorie ad aria</th><th>Calorie frittura trad.</th><th>Grassi ad aria</th><th>Grassi frittura</th><th>Risparmio calorico</th></tr></thead>
+<tbody>
+<tr><td>Patatine classiche</td><td>180 kcal</td><td>340 kcal</td><td>4 g</td><td>17 g</td><td>-47%</td></tr>
+<tr><td>Patata dolce</td><td>160 kcal</td><td>290 kcal</td><td>3 g</td><td>14 g</td><td>-45%</td></tr>
+<tr><td>Zucchine impanate</td><td>175 kcal</td><td>310 kcal</td><td>6 g</td><td>18 g</td><td>-44%</td></tr>
+<tr><td>Patatine al tartufo</td><td>195 kcal</td><td>360 kcal</td><td>7 g</td><td>19 g</td><td>-46%</td></tr>
+<tr><td>Stile belga</td><td>190 kcal</td><td>350 kcal</td><td>5 g</td><td>18 g</td><td>-46%</td></tr>
+</tbody>
+</table>
+
+<h2>Salse fatte in casa in 5 minuti: i migliori abbinamenti</h2>
+<ul>
+<li><strong>Aioli leggero:</strong> 2 cucchiai di yogurt greco + 1 spicchio d'aglio grattugiato + sale. Perfetto con le patatine classiche.</li>
+<li><strong>Salsa chipotle:</strong> mayo leggera + chipotle in polvere + succo di lime. Ideale con le patatine di patata dolce.</li>
+<li><strong>Salsa tartufo-parmigiano:</strong> panna acida + qualche goccia di olio al tartufo + parmigiano grattugiato. Solo per patatine al tartufo.</li>
+<li><strong>Salsa wasabi-sesamo:</strong> yogurt bianco + wasabi + semi di sesamo tostati. Si abbina perfettamente ai bastoncini di avocado.</li>
+<li><strong>Salsa di pomodoro piccante:</strong> passata + fiocchi di peperoncino + basilico fresco. Classica con i bastoncini di zucchine.</li>
+</ul>`,
 
     nl: `<h2>Inleiding</h2>
 <p>Frietjes uit de airfryer zijn een ware culinaire revolutie. Met <strong>tot 80% minder vet</strong> dan een traditionele frituur krijg je frietjes die krokant zijn van buiten en zacht van binnen. Of je nu een <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> of een <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> gebruikt, deze 7 recepten brengen variatie in je maaltijden.</p>
@@ -988,7 +1093,28 @@ export const article: BlogArticle = {
 <li><strong>Schud de mand halverwege</strong> — voor een gelijkmatig resultaat.</li>
 <li><strong>Altijd voorverwarmen</strong> — 3 minuten volstaat.</li>
 </ul>
-<p>Ontdek ook onze <a href="/nl/blog/recettes-poulet-croustillant-airfryer">krokante kiprecepten</a> en onze gids om <a href="/nl/blog/cuisiner-healthy-airfryer">gezond te koken met de airfryer</a>.</p>`,
+<p>Ontdek ook onze <a href="/nl/blog/recettes-poulet-croustillant-airfryer">krokante kiprecepten</a> en onze gids om <a href="/nl/blog/cuisiner-healthy-airfryer">gezond te koken met de airfryer</a>.</p>
+
+<h2>Voedingswaardenvergelijking: airfryer vs traditionele frituur</h2>
+<table>
+<thead><tr><th>Recept (200 g)</th><th>Calorieën airfryer</th><th>Calorieën frituur</th><th>Vetten airfryer</th><th>Vetten frituur</th><th>Caloriebesparing</th></tr></thead>
+<tbody>
+<tr><td>Klassieke frietjes</td><td>180 kcal</td><td>340 kcal</td><td>4 g</td><td>17 g</td><td>-47%</td></tr>
+<tr><td>Zoete aardappel</td><td>160 kcal</td><td>290 kcal</td><td>3 g</td><td>14 g</td><td>-45%</td></tr>
+<tr><td>Courgette gepaneerd</td><td>175 kcal</td><td>310 kcal</td><td>6 g</td><td>18 g</td><td>-44%</td></tr>
+<tr><td>Truffelfrietjes</td><td>195 kcal</td><td>360 kcal</td><td>7 g</td><td>19 g</td><td>-46%</td></tr>
+<tr><td>Belgische stijl</td><td>190 kcal</td><td>350 kcal</td><td>5 g</td><td>18 g</td><td>-46%</td></tr>
+</tbody>
+</table>
+
+<h2>Zelfgemaakte dipssauzen in 5 minuten: de beste combinaties</h2>
+<ul>
+<li><strong>Lichte aioli:</strong> 2 el Griekse yoghurt + 1 geraspte knoflookteen + zout. Perfect bij klassieke frietjes.</li>
+<li><strong>Chipotlesaus:</strong> lichte mayo + chipotle poeder + limoensap. Ideaal bij zoete aardappelfrietjes.</li>
+<li><strong>Truffel-Parmezaansaus:</strong> zure room + enkele druppels truffelolie + geraspte Parmezaan. Alleen voor truffelfrietjes.</li>
+<li><strong>Wasabi-sesamnsaus:</strong> natuurlijke yoghurt + wasabi + geroosterde sesamzaadjes. Perfect bij avocadofrietjes.</li>
+<li><strong>Pittige tomatensaus:</strong> passata + chilivlokken + verse basilicum. Klassiek bij courgettefrietjes.</li>
+</ul>`,
   },
   faq: [
     {

@@ -174,7 +174,33 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>En corrigeant ces 10 erreurs, vous constaterez une amélioration spectaculaire de vos résultats. Pour aller plus loin, découvrez nos <a href="/fr/blog/recettes-frites-parfaites-airfryer">recettes de frites parfaites</a> et notre <a href="/fr/guides/airfryers">guide complet des airfryers</a>. Consultez aussi le <a href="/fr/guides/airfryer-vs-four">comparatif airfryer vs four</a> pour mieux comprendre comment adapter vos recettes.</p>`,
+<p>En corrigeant ces 10 erreurs, vous constaterez une amélioration spectaculaire de vos résultats. Pour aller plus loin, découvrez nos <a href="/fr/blog/recettes-frites-parfaites-airfryer">recettes de frites parfaites</a> et notre <a href="/fr/guides/airfryers">guide complet des airfryers</a>. Consultez aussi le <a href="/fr/guides/airfryer-vs-four">comparatif airfryer vs four</a> pour mieux comprendre comment adapter vos recettes.</p>
+
+<h2>Guide de dépannage : que faire quand ça ne marche pas ?</h2>
+<table>
+<thead><tr><th>Problème observé</th><th>Cause la plus probable</th><th>Solution immédiate</th></tr></thead>
+<tbody>
+<tr><td>Frites molles</td><td>Panier surchargé ou pas de préchauffage</td><td>Réduire la quantité à 2/3 du panier, préchauffer 3 min à 200°C, secouer à mi-cuisson</td></tr>
+<tr><td>Poulet cru au centre</td><td>Morceaux trop épais ou température trop basse</td><td>Ouvrir et vérifier à mi-cuisson, couper les morceaux épais, utiliser un thermomètre</td></tr>
+<tr><td>Fumée pendant la cuisson</td><td>Résidus graisseux dans le fond ou huile inadaptée</td><td>Nettoyer le fond du panier, ajouter 2 cuillères d'eau sous le panier pour les aliments gras</td></tr>
+<tr><td>Cuisson inégale</td><td>Aliments non retournés ou panier mal rempli</td><td>Retourner à mi-cuisson, utiliser une grille pour surélever</td></tr>
+<tr><td>Goût de plastique</td><td>Appareil neuf ou résidus de fabrication</td><td>Passer à vide à 200°C pendant 15 minutes avant la première utilisation</td></tr>
+<tr><td>Revêtement qui s'écaille</td><td>Utilisation d'ustensiles métalliques ou lavage abrasif</td><td>Utiliser uniquement silicone/bois, remplacer le panier</td></tr>
+</tbody>
+</table>
+
+<h2>Réglages optimaux selon les aliments les plus courants</h2>
+<table>
+<thead><tr><th>Aliment</th><th>Température</th><th>Durée</th><th>Astuce clé</th></tr></thead>
+<tbody>
+<tr><td>Frites fraîches (500 g)</td><td>200°C</td><td>20-22 min</td><td>Secouer à 10 min, 1 cuillère d'huile seulement</td></tr>
+<tr><td>Frites surgelées (400 g)</td><td>200°C</td><td>16-18 min</td><td>Préchauffer, ne pas décongeler avant</td></tr>
+<tr><td>Pilons de poulet (4 pièces)</td><td>185°C</td><td>25-28 min</td><td>Retourner à mi-cuisson, vérifier 75°C interne</td></tr>
+<tr><td>Légumes mélangés (400 g)</td><td>180°C</td><td>14-16 min</td><td>Couper en morceaux égaux, 1 spray d'huile</td></tr>
+<tr><td>Filet de saumon</td><td>190°C</td><td>10-12 min</td><td>Papier sulfurisé perforé sous le filet</td></tr>
+<tr><td>Pommes de terre au four (4 pièces)</td><td>200°C</td><td>35-40 min</td><td>Piquer avec une fourchette, badigeonner d'huile</td></tr>
+</tbody>
+</table>`,
 
     en: `<h2>Why so many air fryer disappointments?</h2>
 <p>You bought an air fryer excited about crispy chips with little oil. But your first results are disappointing: soggy chips, dry chicken, uneven cooking. Don't panic. In 90% of cases, the problem isn't the appliance but easily fixable bad habits.</p>
@@ -282,7 +308,33 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Fix these 10 mistakes and you'll see dramatic improvement. For more, see our <a href="/en/blog/recettes-frites-parfaites-airfryer">perfect chips recipes</a>, our <a href="/en/guides/airfryers">complete air fryer guide</a>, and the <a href="/en/guides/airfryer-vs-four">air fryer vs oven comparison</a>.</p>`,
+<p>Fix these 10 mistakes and you'll see dramatic improvement. For more, see our <a href="/en/blog/recettes-frites-parfaites-airfryer">perfect chips recipes</a>, our <a href="/en/guides/airfryers">complete air fryer guide</a>, and the <a href="/en/guides/airfryer-vs-four">air fryer vs oven comparison</a>.</p>
+
+<h2>Troubleshooting Guide: What to Do When It Doesn't Work</h2>
+<table>
+<thead><tr><th>Observed Problem</th><th>Most Likely Cause</th><th>Immediate Solution</th></tr></thead>
+<tbody>
+<tr><td>Soggy fries</td><td>Overcrowded basket or no preheating</td><td>Reduce to 2/3 basket, preheat 3 min at 200°C, shake halfway</td></tr>
+<tr><td>Raw chicken inside</td><td>Too thick or temperature too low</td><td>Check at halfway, cut thick pieces, use a thermometer</td></tr>
+<tr><td>Smoke during cooking</td><td>Grease residue or wrong oil</td><td>Clean the basket bottom, add 2 tbsp water under basket for fatty foods</td></tr>
+<tr><td>Uneven cooking</td><td>Food not flipped or basket poorly loaded</td><td>Flip halfway, use a rack to elevate</td></tr>
+<tr><td>Plastic smell</td><td>New appliance or manufacturing residue</td><td>Run empty at 200°C for 15 minutes before first use</td></tr>
+<tr><td>Coating flaking</td><td>Metal utensils or abrasive cleaning</td><td>Use silicone/wood only, replace basket</td></tr>
+</tbody>
+</table>
+
+<h2>Optimal Settings for the Most Common Foods</h2>
+<table>
+<thead><tr><th>Food</th><th>Temperature</th><th>Time</th><th>Key Tip</th></tr></thead>
+<tbody>
+<tr><td>Fresh fries (500 g)</td><td>200°C</td><td>20-22 min</td><td>Shake at 10 min, 1 tbsp oil only</td></tr>
+<tr><td>Frozen fries (400 g)</td><td>200°C</td><td>16-18 min</td><td>Preheat, do not thaw first</td></tr>
+<tr><td>Chicken drumsticks (4 pieces)</td><td>185°C</td><td>25-28 min</td><td>Flip halfway, check 75°C internal</td></tr>
+<tr><td>Mixed vegetables (400 g)</td><td>180°C</td><td>14-16 min</td><td>Cut in equal pieces, 1 oil spray</td></tr>
+<tr><td>Salmon fillet</td><td>190°C</td><td>10-12 min</td><td>Perforated parchment liner under fillet</td></tr>
+<tr><td>Jacket potatoes (4 pieces)</td><td>200°C</td><td>35-40 min</td><td>Pierce with fork, brush with oil</td></tr>
+</tbody>
+</table>`,
 
     de: `<h2>Warum so viele Enttäuschungen mit der Heißluftfritteuse?</h2>
 <p>Sie haben eine Heißluftfritteuse gekauft, begeistert von knusprigen Pommes mit wenig Fett. Aber die ersten Ergebnisse sind enttäuschend: weiche Pommes, trockenes Hähnchen, ungleichmäßige Bräunung. Keine Panik. In 90 % der Fälle liegt das Problem nicht am Gerät, sondern an leicht korrigierbaren Gewohnheiten.</p>
@@ -355,7 +407,33 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Mehr Tipps in unserem <a href="/de/guides/airfryers">kompletten Heißluftfritteusen-Ratgeber</a> und dem <a href="/de/guides/airfryer-vs-four">Vergleich Heißluftfritteuse vs. Backofen</a>.</p>`,
+<p>Mehr Tipps in unserem <a href="/de/guides/airfryers">kompletten Heißluftfritteusen-Ratgeber</a> und dem <a href="/de/guides/airfryer-vs-four">Vergleich Heißluftfritteuse vs. Backofen</a>.</p>
+
+<h2>Fehlerbehebung: Was tun, wenn es nicht funktioniert?</h2>
+<table>
+<thead><tr><th>Beobachtetes Problem</th><th>Wahrscheinlichste Ursache</th><th>Sofortlösung</th></tr></thead>
+<tbody>
+<tr><td>Weiche Pommes</td><td>Überfüllter Korb oder kein Vorheizen</td><td>2/3-Füllung, 3 Min. bei 200°C vorheizen, zur Halbzeit schütteln</td></tr>
+<tr><td>Hähnchen innen roh</td><td>Zu dicke Stücke oder zu niedrige Temperatur</td><td>Zur Halbzeit prüfen, dicke Stücke aufschneiden, Thermometer verwenden</td></tr>
+<tr><td>Rauch beim Garen</td><td>Fettrückstände oder falsches Öl</td><td>Korbunterseite reinigen, 2 EL Wasser unter den Korb bei fettigen Speisen</td></tr>
+<tr><td>Ungleichmäßige Garung</td><td>Speisen nicht gewendet</td><td>Zur Halbzeit wenden, Gitterrost verwenden</td></tr>
+<tr><td>Plastikgeruch</td><td>Neues Gerät oder Produktionsrückstände</td><td>15 Minuten bei 200°C leer betreiben</td></tr>
+<tr><td>Abblätternde Beschichtung</td><td>Metallwerkzeuge oder Scheuermittel</td><td>Nur Silikon/Holz, Korb ersetzen</td></tr>
+</tbody>
+</table>
+
+<h2>Optimale Einstellungen für die häufigsten Lebensmittel</h2>
+<table>
+<thead><tr><th>Lebensmittel</th><th>Temperatur</th><th>Zeit</th><th>Haupttipp</th></tr></thead>
+<tbody>
+<tr><td>Frische Pommes (500 g)</td><td>200°C</td><td>20-22 Min.</td><td>Bei 10 Min. schütteln, nur 1 EL Öl</td></tr>
+<tr><td>Tiefkühlpommes (400 g)</td><td>200°C</td><td>16-18 Min.</td><td>Vorheizen, nicht auftauen</td></tr>
+<tr><td>Hähnchenschenkel (4 Stück)</td><td>185°C</td><td>25-28 Min.</td><td>Wenden, 75°C Kerntemperatur</td></tr>
+<tr><td>Gemischtes Gemüse (400 g)</td><td>180°C</td><td>14-16 Min.</td><td>Gleichmäßige Stücke, 1 Ölspray</td></tr>
+<tr><td>Lachsfilet</td><td>190°C</td><td>10-12 Min.</td><td>Perforiertes Backpapier darunter</td></tr>
+<tr><td>Ofenkartoffeln (4 Stück)</td><td>200°C</td><td>35-40 Min.</td><td>Mit Gabel einstechen, mit Öl einpinseln</td></tr>
+</tbody>
+</table>`,
 
     es: `<h2>Por que tantas decepciones con la freidora de aire?</h2>
 <p>Compraste una freidora de aire entusiasmado con patatas crujientes con poca grasa. Pero los primeros resultados son decepcionantes: patatas blandas, pollo seco, coccion desigual. No te preocupes. En el 90% de los casos, el problema no es el aparato sino malos habitos facilmente corregibles.</p>
@@ -428,7 +506,33 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Mas consejos en nuestra <a href="/es/guides/airfryers">guia completa de freidoras de aire</a> y el <a href="/es/guides/airfryer-vs-four">comparativo freidora vs horno</a>.</p>`,
+<p>Mas consejos en nuestra <a href="/es/guides/airfryers">guia completa de freidoras de aire</a> y el <a href="/es/guides/airfryer-vs-four">comparativo freidora vs horno</a>.</p>
+
+<h2>Guía de resolución de problemas: ¿qué hacer cuando no funciona?</h2>
+<table>
+<thead><tr><th>Problema observado</th><th>Causa más probable</th><th>Solución inmediata</th></tr></thead>
+<tbody>
+<tr><td>Patatas blandas</td><td>Cesta sobrecargada o sin precalentar</td><td>Reducir a 2/3, precalentar 3 min a 200°C, agitar a mitad</td></tr>
+<tr><td>Pollo crudo por dentro</td><td>Trozos muy gruesos o temperatura baja</td><td>Revisar a mitad, cortar trozos gruesos, usar termómetro</td></tr>
+<tr><td>Humo durante la cocción</td><td>Restos de grasa o aceite inadecuado</td><td>Limpiar el fondo, añadir 2 cdas de agua bajo la cesta</td></tr>
+<tr><td>Cocción desigual</td><td>Sin voltear o cesta mal cargada</td><td>Voltear a mitad, usar rejilla para elevar</td></tr>
+<tr><td>Olor a plástico</td><td>Aparato nuevo o residuos de fabricación</td><td>Funcionar en vacío 15 minutos a 200°C antes del primer uso</td></tr>
+<tr><td>Recubrimiento despegándose</td><td>Utensilios metálicos o limpieza abrasiva</td><td>Solo silicona/madera, sustituir la cesta</td></tr>
+</tbody>
+</table>
+
+<h2>Ajustes óptimos para los alimentos más habituales</h2>
+<table>
+<thead><tr><th>Alimento</th><th>Temperatura</th><th>Tiempo</th><th>Consejo clave</th></tr></thead>
+<tbody>
+<tr><td>Patatas frescas (500 g)</td><td>200°C</td><td>20-22 min</td><td>Agitar a 10 min, solo 1 cda de aceite</td></tr>
+<tr><td>Patatas congeladas (400 g)</td><td>200°C</td><td>16-18 min</td><td>Precalentar, no descongelar antes</td></tr>
+<tr><td>Muslos de pollo (4 piezas)</td><td>185°C</td><td>25-28 min</td><td>Voltear a mitad, comprobar 75°C interno</td></tr>
+<tr><td>Verduras mixtas (400 g)</td><td>180°C</td><td>14-16 min</td><td>Trozos iguales, 1 spray de aceite</td></tr>
+<tr><td>Filete de salmón</td><td>190°C</td><td>10-12 min</td><td>Papel de horno perforado bajo el filete</td></tr>
+<tr><td>Patatas asadas (4 piezas)</td><td>200°C</td><td>35-40 min</td><td>Pinchar con tenedor, pintar con aceite</td></tr>
+</tbody>
+</table>`,
 
     it: `<h2>Perche tante delusioni con la friggitrice ad aria?</h2>
 <p>Avete comprato una friggitrice ad aria entusiasti delle patatine croccanti con poco olio. Ma i primi risultati sono deludenti: patatine molli, pollo secco, cottura irregolare. Niente panico. Nel 90% dei casi il problema non e l'apparecchio ma cattive abitudini facilmente correggibili.</p>
@@ -501,7 +605,33 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Altri consigli nella nostra <a href="/it/guides/airfryers">guida completa alle friggitrici ad aria</a> e nel <a href="/it/guides/airfryer-vs-four">confronto friggitrice vs forno</a>.</p>`,
+<p>Altri consigli nella nostra <a href="/it/guides/airfryers">guida completa alle friggitrici ad aria</a> e nel <a href="/it/guides/airfryer-vs-four">confronto friggitrice vs forno</a>.</p>
+
+<h2>Guida alla risoluzione dei problemi: cosa fare quando non funziona?</h2>
+<table>
+<thead><tr><th>Problema osservato</th><th>Causa più probabile</th><th>Soluzione immediata</th></tr></thead>
+<tbody>
+<tr><td>Patatine molli</td><td>Cestello sovraccarico o senza preriscaldamento</td><td>Ridurre a 2/3, preriscaldare 3 min a 200°C, scuotere a metà</td></tr>
+<tr><td>Pollo crudo all'interno</td><td>Pezzi troppo spessi o temperatura troppo bassa</td><td>Controllare a metà, tagliare i pezzi spessi, usare termometro</td></tr>
+<tr><td>Fumo durante la cottura</td><td>Residui di grasso o olio inadatto</td><td>Pulire il fondo, aggiungere 2 cucchiai d'acqua sotto il cestello</td></tr>
+<tr><td>Cottura irregolare</td><td>Alimenti non girati o cestello mal caricato</td><td>Girare a metà cottura, usare una griglia per sollevare</td></tr>
+<tr><td>Odore di plastica</td><td>Apparecchio nuovo o residui di produzione</td><td>Far girare vuoto 15 minuti a 200°C prima del primo utilizzo</td></tr>
+<tr><td>Rivestimento che si stacca</td><td>Utensili metallici o pulizia abrasiva</td><td>Solo silicone/legno, sostituire il cestello</td></tr>
+</tbody>
+</table>
+
+<h2>Impostazioni ottimali per gli alimenti più comuni</h2>
+<table>
+<thead><tr><th>Alimento</th><th>Temperatura</th><th>Tempo</th><th>Consiglio chiave</th></tr></thead>
+<tbody>
+<tr><td>Patatine fresche (500 g)</td><td>200°C</td><td>20-22 min</td><td>Scuotere a 10 min, solo 1 cucchiaio d'olio</td></tr>
+<tr><td>Patatine surgelate (400 g)</td><td>200°C</td><td>16-18 min</td><td>Preriscaldare, non scongelare prima</td></tr>
+<tr><td>Cosce di pollo (4 pezzi)</td><td>185°C</td><td>25-28 min</td><td>Girare a metà, controllare 75°C interno</td></tr>
+<tr><td>Verdure miste (400 g)</td><td>180°C</td><td>14-16 min</td><td>Pezzi uguali, 1 spray d'olio</td></tr>
+<tr><td>Filetto di salmone</td><td>190°C</td><td>10-12 min</td><td>Carta da forno perforata sotto il filetto</td></tr>
+<tr><td>Patate al forno (4 pezzi)</td><td>200°C</td><td>35-40 min</td><td>Bucare con forchetta, spennellare con olio</td></tr>
+</tbody>
+</table>`,
 
     nl: `<h2>Waarom zoveel teleurstellingen met de airfryer?</h2>
 <p>Je kocht een airfryer, enthousiast over knapperige frietjes met weinig olie. Maar de eerste resultaten zijn teleurstellend: slappe friet, droge kip, ongelijkmatige garing. Geen paniek. In 90% van de gevallen ligt het probleem niet bij het apparaat maar bij makkelijk te corrigeren gewoonten.</p>
@@ -574,7 +704,33 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 
-<p>Meer tips in onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en de <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>.</p>`,
+<p>Meer tips in onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en de <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>.</p>
+
+<h2>Probleemoplossingsgids: wat te doen als het niet werkt?</h2>
+<table>
+<thead><tr><th>Waargenomen probleem</th><th>Meest waarschijnlijke oorzaak</th><th>Directe oplossing</th></tr></thead>
+<tbody>
+<tr><td>Slappe friet</td><td>Overvolle mand of geen voorverwarmen</td><td>Reduceer tot 2/3, voorverwarm 3 min op 200°C, schud halverwege</td></tr>
+<tr><td>Kip rauw van binnen</td><td>Te dikke stukken of te lage temperatuur</td><td>Controleer halverwege, snijd dikke stukken, gebruik thermometer</td></tr>
+<tr><td>Rook tijdens het koken</td><td>Vetresidu of verkeerde olie</td><td>Reinig de mandbodem, voeg 2 el water toe onder de mand bij vet voedsel</td></tr>
+<tr><td>Ongelijkmatige garing</td><td>Voedsel niet omgedraaid</td><td>Halverwege omdraaien, rooster gebruiken om te verhogen</td></tr>
+<tr><td>Plasticgeur</td><td>Nieuw apparaat of productieresten</td><td>15 minuten leeg draaien op 200°C voor eerste gebruik</td></tr>
+<tr><td>Coating loslaten</td><td>Metalen keukengerei of schurende reiniging</td><td>Alleen siliconen/hout, mand vervangen</td></tr>
+</tbody>
+</table>
+
+<h2>Optimale instellingen voor de meest voorkomende gerechten</h2>
+<table>
+<thead><tr><th>Voedingsmiddel</th><th>Temperatuur</th><th>Tijd</th><th>Sleuteltip</th></tr></thead>
+<tbody>
+<tr><td>Verse friet (500 g)</td><td>200°C</td><td>20-22 min</td><td>Schud op 10 min, slechts 1 el olie</td></tr>
+<tr><td>Diepvriesfriet (400 g)</td><td>200°C</td><td>16-18 min</td><td>Voorverwarm, niet eerst ontdooien</td></tr>
+<tr><td>Kippenpoten (4 stuks)</td><td>185°C</td><td>25-28 min</td><td>Halverwege omdraaien, 75°C kerntemperatuur</td></tr>
+<tr><td>Gemengde groenten (400 g)</td><td>180°C</td><td>14-16 min</td><td>Gelijke stukken, 1 oliespray</td></tr>
+<tr><td>Zalmfilet</td><td>190°C</td><td>10-12 min</td><td>Geperforeerd bakpapier onder de filet</td></tr>
+<tr><td>Aardappelen in de schil (4 stuks)</td><td>200°C</td><td>35-40 min</td><td>Prik met vork, bestrijk met olie</td></tr>
+</tbody>
+</table>`,
   },
   faq: [
     {

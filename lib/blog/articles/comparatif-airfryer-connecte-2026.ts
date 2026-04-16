@@ -169,7 +169,27 @@ export const article: BlogArticle = {
 <h2>Notre verdict</h2>
 <p>Les airfryers connectes de 2026 ont atteint un niveau de maturite impressionnant. L'epoque des gadgets inutiles est revolue : le WiFi apporte une reelle valeur ajoutee, en particulier grace aux recettes guidees et au controle a distance.</p>
 <p>Notre recommandation principale est le <a href="/fr/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> pour ceux qui veulent le meilleur, et le <a href="/fr/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro</a> pour ceux qui veulent le meilleur rapport qualite-prix. Pour les familles, le <a href="/fr/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer WiFi</a> est la combinaison ultime de capacite et de connectivite.</p>
-<p>Consultez notre <a href="/fr/guides/airfryer-vs-four">guide complet</a> pour approfondir votre choix.</p>`,
+<p>Consultez notre <a href="/fr/guides/airfryer-vs-four">guide complet</a> pour approfondir votre choix.</p>
+
+<h2>Comparatif de compatibilite avec les ecosystemes de maison connectee</h2>
+<table>
+<thead><tr><th>Modele</th><th>Apple HomeKit</th><th>Google Home</th><th>Amazon Alexa</th><th>Samsung SmartThings</th><th>Mise a jour OTA</th></tr></thead>
+<tbody>
+<tr><td>Philips Combi XXL Connected</td><td>Non</td><td>Oui</td><td>Oui</td><td>Non</td><td>Oui</td></tr>
+<tr><td>Xiaomi Smart Pro</td><td>Non</td><td>Oui (Mi Home)</td><td>Oui</td><td>Non</td><td>Oui</td></tr>
+<tr><td>Ninja FlexDrawer WiFi</td><td>Non</td><td>Oui</td><td>Oui</td><td>Non</td><td>Oui</td></tr>
+<tr><td>Cosori Dual Blaze Smart</td><td>Non</td><td>Oui</td><td>Oui</td><td>Non</td><td>Oui</td></tr>
+<tr><td>Proscenic T22</td><td>Non</td><td>Oui</td><td>Oui</td><td>Non</td><td>Partiel</td></tr>
+</tbody>
+</table>
+
+<h2>La connectivite vaut-elle l'investissement ? Notre analyse franche</h2>
+<ul>
+<li><strong>OUI si</strong> vous utilisez deja un ecosysteme domotique (Google Home, Alexa) et si vous cuisinez avec des recettes guidees — la valeur ajoutee est immediate.</li>
+<li><strong>OUI si</strong> vous debutez et voulez etre guide : les librairies de recettes des apps Philips et Cosori sont exceptionnelles (200+ recettes avec videos).</li>
+<li><strong>NON si</strong> vous ne voulez pas dependre d'une application — les mises a jour peuvent modifier l'interface, et certaines apps necesitent des comptes obligatoires.</li>
+<li><strong>NON si</strong> votre budget est serre : un airfryer classique performant coute 2 fois moins. La connectivite n'ameliore pas la cuisson elle-meme.</li>
+</ul>`,
 
     en: `<h2>Introduction</h2>
 <p>In 2026, WiFi connectivity is no longer a gimmick — it has become a genuine selection criterion for premium air fryers. Remote control, guided recipe libraries, voice assistant integration, firmware updates... Connected air fryers deliver a transformed cooking experience. But not all are equal.</p>
@@ -246,7 +266,27 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Our verdict</h2>
-<p>Connected air fryers in 2026 have reached impressive maturity. WiFi adds real value through guided recipes and remote control. Our top pick is the <a href="/en/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> for the ultimate experience, and the <a href="/en/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro</a> for the best value proposition.</p>`,
+<p>Connected air fryers in 2026 have reached impressive maturity. WiFi adds real value through guided recipes and remote control. Our top pick is the <a href="/en/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> for the ultimate experience, and the <a href="/en/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro</a> for the best value proposition.</p>
+
+<h2>Smart home ecosystem compatibility comparison</h2>
+<table>
+<thead><tr><th>Model</th><th>Apple HomeKit</th><th>Google Home</th><th>Amazon Alexa</th><th>Samsung SmartThings</th><th>OTA updates</th></tr></thead>
+<tbody>
+<tr><td>Philips Combi XXL Connected</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td></tr>
+<tr><td>Xiaomi Smart Pro</td><td>No</td><td>Yes (Mi Home)</td><td>Yes</td><td>No</td><td>Yes</td></tr>
+<tr><td>Ninja FlexDrawer WiFi</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td></tr>
+<tr><td>Cosori Dual Blaze Smart</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td></tr>
+<tr><td>Proscenic T22</td><td>No</td><td>Yes</td><td>Yes</td><td>No</td><td>Partial</td></tr>
+</tbody>
+</table>
+
+<h2>Is connectivity worth the investment? Our honest analysis</h2>
+<ul>
+<li><strong>YES if</strong> you already use a smart home ecosystem (Google Home, Alexa) and cook with guided recipes — the added value is immediate.</li>
+<li><strong>YES if</strong> you're a beginner and want guidance: the Philips and Cosori app recipe libraries are exceptional (200+ recipes with videos).</li>
+<li><strong>NO if</strong> you don't want to depend on an app — updates can change the interface, and some apps require mandatory accounts.</li>
+<li><strong>NO if</strong> your budget is tight: a classic high-performance air fryer costs half as much. Connectivity does not improve cooking itself.</li>
+</ul>`,
 
     de: `<h2>Einleitung</h2>
 <p>2026 ist WiFi-Konnektivitaet kein Spielzeug mehr — sie ist zu einem echten Auswahlkriterium fuer Premium-Heissluftfritteusen geworden. Fernsteuerung, gefuehrte Rezeptbibliotheken, Sprachassistenten-Integration, Firmware-Updates... Wir haben die 5 wichtigsten vernetzten Heissluftfritteusen 6 Wochen lang getestet.</p>
@@ -304,7 +344,27 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Unser Fazit</h2>
-<p>Vernetzte Heissluftfritteusen haben 2026 eine beeindruckende Reife erreicht. WiFi bringt echten Mehrwert durch gefuehrte Rezepte und Fernsteuerung. Unsere Top-Empfehlung ist der <a href="/de/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> fuer das Beste vom Besten, und der <a href="/de/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro</a> fuer das beste Preis-Leistungs-Verhaeltnis.</p>`,
+<p>Vernetzte Heissluftfritteusen haben 2026 eine beeindruckende Reife erreicht. WiFi bringt echten Mehrwert durch gefuehrte Rezepte und Fernsteuerung. Unsere Top-Empfehlung ist der <a href="/de/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> fuer das Beste vom Besten, und der <a href="/de/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro</a> fuer das beste Preis-Leistungs-Verhaeltnis.</p>
+
+<h2>Kompatibilitaet mit Smart-Home-Oekosystemen</h2>
+<table>
+<thead><tr><th>Modell</th><th>Apple HomeKit</th><th>Google Home</th><th>Amazon Alexa</th><th>Samsung SmartThings</th><th>OTA-Updates</th></tr></thead>
+<tbody>
+<tr><td>Philips Combi XXL Connected</td><td>Nein</td><td>Ja</td><td>Ja</td><td>Nein</td><td>Ja</td></tr>
+<tr><td>Xiaomi Smart Pro</td><td>Nein</td><td>Ja (Mi Home)</td><td>Ja</td><td>Nein</td><td>Ja</td></tr>
+<tr><td>Ninja FlexDrawer WiFi</td><td>Nein</td><td>Ja</td><td>Ja</td><td>Nein</td><td>Ja</td></tr>
+<tr><td>Cosori Dual Blaze Smart</td><td>Nein</td><td>Ja</td><td>Ja</td><td>Nein</td><td>Ja</td></tr>
+<tr><td>Proscenic T22</td><td>Nein</td><td>Ja</td><td>Ja</td><td>Nein</td><td>Teilweise</td></tr>
+</tbody>
+</table>
+
+<h2>Lohnt sich Konnektivitaet? Unsere ehrliche Analyse</h2>
+<ul>
+<li><strong>JA wenn</strong> Sie bereits ein Smart-Home-Oekosystem (Google Home, Alexa) nutzen und mit gefuehrten Rezepten kochen — der Mehrwert ist sofort spuerbar.</li>
+<li><strong>JA wenn</strong> Sie Anfaenger sind: Die Rezeptbibliotheken der Philips und Cosori Apps sind hervorragend (200+ Rezepte mit Videos).</li>
+<li><strong>NEIN wenn</strong> Sie keine App-Abhaengigkeit wollen — Updates koennen die Oberflaeche aendern, und einige Apps erfordern obligatorische Konten.</li>
+<li><strong>NEIN wenn</strong> Ihr Budget knapp ist: Eine klassische leistungsstarke Heissluftfritteuse kostet halb so viel. Konnektivitaet verbessert das Garen selbst nicht.</li>
+</ul>`,
 
     es: `<h2>Introduccion</h2>
 <p>En 2026, la conectividad WiFi ya no es un capricho: se ha convertido en un criterio real de seleccion para freidoras de aire premium. Control remoto, recetas guiadas, integracion con asistentes de voz, actualizaciones de firmware... Hemos probado las 5 principales freidoras de aire conectadas del mercado durante 6 semanas.</p>
@@ -358,7 +418,27 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Nuestro veredicto</h2>
-<p>Las freidoras conectadas de 2026 han alcanzado una madurez impresionante. El WiFi aporta valor real a traves de recetas guiadas y control remoto. Nuestra recomendacion principal es el <a href="/es/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> y el <a href="/es/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro</a> para la mejor relacion calidad-precio.</p>`,
+<p>Las freidoras conectadas de 2026 han alcanzado una madurez impresionante. El WiFi aporta valor real a traves de recetas guiadas y control remoto. Nuestra recomendacion principal es el <a href="/es/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> y el <a href="/es/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro</a> para la mejor relacion calidad-precio.</p>
+
+<h2>Compatibilidad con ecosistemas de hogar inteligente</h2>
+<table>
+<thead><tr><th>Modelo</th><th>Apple HomeKit</th><th>Google Home</th><th>Amazon Alexa</th><th>Samsung SmartThings</th><th>Actualizaciones OTA</th></tr></thead>
+<tbody>
+<tr><td>Philips Combi XXL Connected</td><td>No</td><td>Si</td><td>Si</td><td>No</td><td>Si</td></tr>
+<tr><td>Xiaomi Smart Pro</td><td>No</td><td>Si (Mi Home)</td><td>Si</td><td>No</td><td>Si</td></tr>
+<tr><td>Ninja FlexDrawer WiFi</td><td>No</td><td>Si</td><td>Si</td><td>No</td><td>Si</td></tr>
+<tr><td>Cosori Dual Blaze Smart</td><td>No</td><td>Si</td><td>Si</td><td>No</td><td>Si</td></tr>
+<tr><td>Proscenic T22</td><td>No</td><td>Si</td><td>Si</td><td>No</td><td>Parcial</td></tr>
+</tbody>
+</table>
+
+<h2>Vale la pena la conectividad? Nuestro analisis honesto</h2>
+<ul>
+<li><strong>SI si</strong> ya usas un ecosistema de hogar inteligente (Google Home, Alexa) y cocinas con recetas guiadas — el valor anadido es inmediato.</li>
+<li><strong>SI si</strong> eres principiante y quieres guia: las bibliotecas de recetas de Philips y Cosori son excepcionales (200+ recetas con videos).</li>
+<li><strong>NO si</strong> no quieres depender de una app — las actualizaciones pueden cambiar la interfaz y algunas apps requieren cuentas obligatorias.</li>
+<li><strong>NO si</strong> tu presupuesto es ajustado: una freidora clasica de alto rendimiento cuesta la mitad. La conectividad no mejora la coccion en si.</li>
+</ul>`,
 
     it: `<h2>Introduzione</h2>
 <p>Nel 2026, la connettivita WiFi non e piu un gadget: e diventata un vero criterio di scelta per le friggitrici ad aria premium. Controllo remoto, ricette guidate, integrazione con assistenti vocali, aggiornamenti firmware... Abbiamo testato le 5 principali friggitrici ad aria connesse per 6 settimane.</p>
@@ -412,7 +492,27 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Il nostro verdetto</h2>
-<p>Le friggitrici connesse del 2026 hanno raggiunto una maturita impressionante. Il WiFi aggiunge valore reale grazie a ricette guidate e controllo remoto. La nostra raccomandazione principale e il <a href="/it/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> e lo <a href="/it/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro</a> per il miglior rapporto qualita-prezzo.</p>`,
+<p>Le friggitrici connesse del 2026 hanno raggiunto una maturita impressionante. Il WiFi aggiunge valore reale grazie a ricette guidate e controllo remoto. La nostra raccomandazione principale e il <a href="/it/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> e lo <a href="/it/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro</a> per il miglior rapporto qualita-prezzo.</p>
+
+<h2>Compatibilita con gli ecosistemi smart home</h2>
+<table>
+<thead><tr><th>Modello</th><th>Apple HomeKit</th><th>Google Home</th><th>Amazon Alexa</th><th>Samsung SmartThings</th><th>Aggiornamenti OTA</th></tr></thead>
+<tbody>
+<tr><td>Philips Combi XXL Connected</td><td>No</td><td>Si</td><td>Si</td><td>No</td><td>Si</td></tr>
+<tr><td>Xiaomi Smart Pro</td><td>No</td><td>Si (Mi Home)</td><td>Si</td><td>No</td><td>Si</td></tr>
+<tr><td>Ninja FlexDrawer WiFi</td><td>No</td><td>Si</td><td>Si</td><td>No</td><td>Si</td></tr>
+<tr><td>Cosori Dual Blaze Smart</td><td>No</td><td>Si</td><td>Si</td><td>No</td><td>Si</td></tr>
+<tr><td>Proscenic T22</td><td>No</td><td>Si</td><td>Si</td><td>No</td><td>Parziale</td></tr>
+</tbody>
+</table>
+
+<h2>Vale la pena la connettivita? La nostra analisi onesta</h2>
+<ul>
+<li><strong>SI se</strong> usate gia un ecosistema domotico (Google Home, Alexa) e cucinate con ricette guidate — il valore aggiunto e immediato.</li>
+<li><strong>SI se</strong> siete principianti e volete essere guidati: le librerie di ricette di Philips e Cosori sono eccezionali (200+ ricette con video).</li>
+<li><strong>NO se</strong> non volete dipendere da un'app — gli aggiornamenti possono modificare l'interfaccia e alcune app richiedono account obbligatori.</li>
+<li><strong>NO se</strong> il vostro budget e ridotto: una friggitrice classica ad alte prestazioni costa la meta. La connettivita non migliora la cottura in se.</li>
+</ul>`,
 
     nl: `<h2>Inleiding</h2>
 <p>In 2026 is WiFi-connectiviteit geen speeltje meer — het is een echt selectiecriterium geworden voor premium airfryers. Afstandsbediening, begeleide receptenbibliotheken, spraakassistentintegratie, firmware-updates... We hebben de 5 belangrijkste verbonden airfryers 6 weken lang getest.</p>
@@ -466,7 +566,27 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Ons oordeel</h2>
-<p>Verbonden airfryers hebben in 2026 een indrukwekkende volwassenheid bereikt. WiFi voegt echte waarde toe via begeleide recepten en afstandsbediening. Onze topaanbeveling is de <a href="/nl/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> en de <a href="/nl/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro</a> voor de beste prijs-kwaliteitverhouding.</p>`,
+<p>Verbonden airfryers hebben in 2026 een indrukwekkende volwassenheid bereikt. WiFi voegt echte waarde toe via begeleide recepten en afstandsbediening. Onze topaanbeveling is de <a href="/nl/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> en de <a href="/nl/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro</a> voor de beste prijs-kwaliteitverhouding.</p>
+
+<h2>Compatibiliteit met smart home-ecosystemen</h2>
+<table>
+<thead><tr><th>Model</th><th>Apple HomeKit</th><th>Google Home</th><th>Amazon Alexa</th><th>Samsung SmartThings</th><th>OTA-updates</th></tr></thead>
+<tbody>
+<tr><td>Philips Combi XXL Connected</td><td>Nee</td><td>Ja</td><td>Ja</td><td>Nee</td><td>Ja</td></tr>
+<tr><td>Xiaomi Smart Pro</td><td>Nee</td><td>Ja (Mi Home)</td><td>Ja</td><td>Nee</td><td>Ja</td></tr>
+<tr><td>Ninja FlexDrawer WiFi</td><td>Nee</td><td>Ja</td><td>Ja</td><td>Nee</td><td>Ja</td></tr>
+<tr><td>Cosori Dual Blaze Smart</td><td>Nee</td><td>Ja</td><td>Ja</td><td>Nee</td><td>Ja</td></tr>
+<tr><td>Proscenic T22</td><td>Nee</td><td>Ja</td><td>Ja</td><td>Nee</td><td>Gedeeltelijk</td></tr>
+</tbody>
+</table>
+
+<h2>Is connectiviteit de investering waard? Onze eerlijke analyse</h2>
+<ul>
+<li><strong>JA als</strong> je al een smart home-ecosysteem (Google Home, Alexa) gebruikt en kookt met begeleide recepten — de toegevoegde waarde is direct merkbaar.</li>
+<li><strong>JA als</strong> je beginner bent en begeleiding wilt: de receptbibliotheken van Philips en Cosori zijn uitzonderlijk (200+ recepten met video's).</li>
+<li><strong>NEE als</strong> je niet app-afhankelijk wilt zijn — updates kunnen de interface wijzigen en sommige apps vereisen verplichte accounts.</li>
+<li><strong>NEE als</strong> je budget krap is: een klassieke krachtige airfryer kost de helft. Connectiviteit verbetert het koken zelf niet.</li>
+</ul>`,
   },
   faq: [
     {
