@@ -44,6 +44,20 @@ import { article as cafetiereConnectee } from './articles/cafetiere-connectee-gu
 import { article as guideJardinConnecte } from './articles/guide-jardin-connecte-2026'
 import { article as tondeuseRobotSansFil } from './articles/tondeuse-robot-sans-fil-perimetrique'
 import { article as arrosageConnecte } from './articles/arrosage-connecte-intelligent'
+import { article as robotVsBalai } from './articles/robot-aspirateur-vs-balai'
+import { article as aspirateurLaveur2026 } from './articles/meilleur-aspirateur-laveur-2026'
+import { article as serrureConnectee } from './articles/serrure-connectee-guide'
+import { article as alarmeSansAbo } from './articles/alarme-maison-sans-abonnement'
+import { article as balkonkraftwerk } from './articles/balkonkraftwerk-panneau-solaire-balcon'
+import { article as eclairageConnecteComparatif } from './articles/eclairage-connecte-comparatif'
+import { article as deshumidificateurConnecte } from './articles/deshumidificateur-connecte-guide'
+import { article as stationMeteoConnectee } from './articles/station-meteo-connectee-comparatif'
+import { article as barbecueConnecte } from './articles/barbecue-connecte-thermometre-guide'
+import { article as eclairageExterieurSolaire } from './articles/eclairage-exterieur-solaire-connecte'
+import { article as balanceCuisineConnectee } from './articles/balance-cuisine-connectee-comparatif'
+import { article as cookeoVsThermomixVsAirfryer } from './articles/cookeo-vs-thermomix-vs-airfryer'
+import { article as maisonConnecteeMatterThread } from './articles/maison-connectee-matter-thread-2026'
+import { article as tendancesMaisonConnectee } from './articles/tendances-maison-connectee-2026'
 
 const ALL_ARTICLES: BlogArticle[] = [
   testNinjaFoodiMax,
@@ -89,6 +103,20 @@ const ALL_ARTICLES: BlogArticle[] = [
   guideJardinConnecte,
   tondeuseRobotSansFil,
   arrosageConnecte,
+  robotVsBalai,
+  aspirateurLaveur2026,
+  serrureConnectee,
+  alarmeSansAbo,
+  balkonkraftwerk,
+  eclairageConnecteComparatif,
+  deshumidificateurConnecte,
+  stationMeteoConnectee,
+  barbecueConnecte,
+  eclairageExterieurSolaire,
+  balanceCuisineConnectee,
+  cookeoVsThermomixVsAirfryer,
+  maisonConnecteeMatterThread,
+  tendancesMaisonConnectee,
 ]
 
 export function getAllArticles(): BlogArticle[] {
