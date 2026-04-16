@@ -1,14 +1,12 @@
 // Static product data with Amazon product images and affiliate links
 // Images are sourced from Amazon CDN (per-country marketplace images)
 
-// Default affiliate tags — used when the matching AMAZON_TAG_{LANG}
-// env var isn't set. Keeps preview deployments working out-of-the-box
-// while letting production override per-locale (so rotating a tag
-// after an affiliate account change doesn't need a code deploy).
-//
-// Resolution order per locale: process.env.AMAZON_TAG_{LANG} →
-// DEFAULT_PARTNER_TAGS[lang] → DEFAULT_PARTNER_TAGS.fr.
-const DEFAULT_PARTNER_TAGS: Record<string, string> = {
+// Canonical affiliate tags — single source of truth.
+// Matches the partner tags in smart-kitchen-products.ts.
+// env var overrides removed: stale AMAZON_TAG_FR / AMAZON_TAG_DE
+// values on Vercel were silently routing commissions to the wrong
+// affiliate account. Tags should only change via code + review.
+const PARTNER_TAGS: Record<string, string> = {
   fr: 'homenuraen05-21',
   de: 'homenuraen00-21',
   en: 'homenuraen-21',
@@ -18,9 +16,7 @@ const DEFAULT_PARTNER_TAGS: Record<string, string> = {
 }
 
 function resolvePartnerTag(lang: string): string {
-  const envTag = process.env[`AMAZON_TAG_${lang.toUpperCase()}`]
-  if (envTag && envTag.length > 0) return envTag
-  return DEFAULT_PARTNER_TAGS[lang] || DEFAULT_PARTNER_TAGS.fr
+  return PARTNER_TAGS[lang] || PARTNER_TAGS.fr
 }
 
 const domains: Record<string, string> = {

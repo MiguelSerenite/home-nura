@@ -123,20 +123,23 @@ describe('outbound URL per locale', () => {
   }
 })
 
-describe('partner tag env override', () => {
-  it('respects AMAZON_TAG_FR when set', () => {
-    const OVERRIDE = 'homenuraoverride-21'
-    const original = process.env.AMAZON_TAG_FR
-    process.env.AMAZON_TAG_FR = OVERRIDE
-    try {
-      const products = getStaticProducts('fr')
+describe('canonical partner tags', () => {
+  const expectedTags: Record<string, string> = {
+    fr: 'homenuraen05-21',
+    de: 'homenuraen00-21',
+    en: 'homenuraen-21',
+    es: 'homenuraen0a-21',
+    it: 'homenuraen010-21',
+    nl: 'homenuranl-21',
+  }
+
+  for (const [lang, expectedTag] of Object.entries(expectedTags)) {
+    it(`uses correct partner tag for ${lang}`, () => {
+      const products = getStaticProducts(lang)
       for (const p of products) {
         const tag = new URL(p.url).searchParams.get('tag')
-        expect(tag).toBe(OVERRIDE)
+        expect(tag).toBe(expectedTag)
       }
-    } finally {
-      if (original === undefined) delete process.env.AMAZON_TAG_FR
-      else process.env.AMAZON_TAG_FR = original
-    }
-  })
+    })
+  }
 })
