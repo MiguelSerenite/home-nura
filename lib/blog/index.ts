@@ -35,6 +35,15 @@ import { article as thermostatPompeChaleur } from './articles/thermostat-connect
 import { article as comparatifSmartPlugs } from './articles/comparatif-smart-plugs-mesure-energie'
 import { article as comparatifCameraSurveillance } from './articles/comparatif-camera-surveillance-exterieure'
 import { article as sonnetteVideoSansAbo } from './articles/sonnette-video-sans-abonnement'
+import { article as guidePurificateurAir } from './articles/guide-purificateur-air-2026'
+import { article as comparatifPurificateurAllergie } from './articles/comparatif-purificateur-air-allergie'
+import { article as climatiseurMobileVsVentilateur } from './articles/climatiseur-mobile-vs-ventilateur'
+import { article as guideCuisineConnectee } from './articles/guide-cuisine-connectee-2026'
+import { article as comparatifMulticuiseur } from './articles/comparatif-multicuiseur-connecte'
+import { article as cafetiereConnectee } from './articles/cafetiere-connectee-guide'
+import { article as guideJardinConnecte } from './articles/guide-jardin-connecte-2026'
+import { article as tondeuseRobotSansFil } from './articles/tondeuse-robot-sans-fil-perimetrique'
+import { article as arrosageConnecte } from './articles/arrosage-connecte-intelligent'
 
 const ALL_ARTICLES: BlogArticle[] = [
   testNinjaFoodiMax,
@@ -71,6 +80,15 @@ const ALL_ARTICLES: BlogArticle[] = [
   comparatifSmartPlugs,
   comparatifCameraSurveillance,
   sonnetteVideoSansAbo,
+  guidePurificateurAir,
+  comparatifPurificateurAllergie,
+  climatiseurMobileVsVentilateur,
+  guideCuisineConnectee,
+  comparatifMulticuiseur,
+  cafetiereConnectee,
+  guideJardinConnecte,
+  tondeuseRobotSansFil,
+  arrosageConnecte,
 ]
 
 export function getAllArticles(): BlogArticle[] {
