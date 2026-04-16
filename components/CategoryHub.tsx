@@ -27,7 +27,7 @@ import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getNonce } from '@/lib/nonce'
-import { buildBreadcrumbListSchema, buildClusterItemListSchema } from '@/lib/seo'
+import { buildBreadcrumbListSchema, buildClusterItemListSchema, buildArticleSchema, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import FaqSection from '@/components/FaqSection'
 import {
@@ -175,6 +175,25 @@ export default async function CategoryHub({
         })
       : null
 
+  // Phase JJJ: Article JSON-LD for Moteur 1 category hub pages.
+  // Completes the Article schema coverage across all 4 moteurs.
+  // Only indexable categories emit the payload — no Article on
+  // stub pages that aren't meant for search engines.
+  const articleSchema = category.indexable
+    ? buildArticleSchema({
+        lang: safeLang,
+        path: `/${silo.slug}/${category.slug}`,
+        title: hero.title,
+        description: hero.subtitle,
+        image: '/og-image.png',
+        imageAlt: hero.title,
+        datePublished: '2026-02-01',
+        dateModified: SITE_LAST_UPDATED_ISO,
+        articleType: 'Article',
+        articleSection: siloTitle,
+      })
+    : null
+
   return (
     <div className="min-h-screen bg-white">
       <script
@@ -183,6 +202,14 @@ export default async function CategoryHub({
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {articleSchema && (
+        <script
+          type="application/ld+json"
+          nonce={nonce}
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
+      )}
       {clusterItemListSchema && (
         <script
           type="application/ld+json"
