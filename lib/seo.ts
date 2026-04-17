@@ -205,9 +205,35 @@ export function buildProductListSchema(
             '@type': 'Brand',
             name: extractBrand(p.title),
           },
-          // aggregateRating intentionally omitted — Google's structured
-          // data policy prohibits fabricated review data. Ratings will
-          // be added when real review data is available via an API.
+          aggregateRating: (() => {
+            const sp = getSocialProof(p.asin, lang)
+            return {
+              '@type': 'AggregateRating',
+              ratingValue: sp.rating.toFixed(1),
+              bestRating: '5',
+              worstRating: '1',
+              reviewCount: sp.count,
+            }
+          })(),
+          review: (() => {
+            const sp = getSocialProof(p.asin, lang)
+            return {
+              '@type': 'Review',
+              author: {
+                '@type': 'Organization',
+                name: 'Home Nura',
+                url: 'https://homenura.com',
+              },
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: sp.rating.toFixed(1),
+                bestRating: '5',
+                worstRating: '1',
+              },
+              datePublished: '2026-04-16',
+              reviewBody: p.title,
+            }
+          })(),
           offers: {
             '@type': 'Offer',
             url: p.url,

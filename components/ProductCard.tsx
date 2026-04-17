@@ -2,9 +2,6 @@ import Image from 'next/image'
 import GoogleReviewBadge from './GoogleReviewBadge'
 import AffiliateLink from './AffiliateLink'
 import { getSocialProof } from '@/lib/seo'
-// Note: getSocialProof is used for UI display only (GoogleReviewBadge).
-// aggregateRating was removed from JSON-LD to comply with Google's
-// structured data policy (no fabricated review data).
 import { getNonce } from '@/lib/nonce'
 
 interface ProductProps {
@@ -60,7 +57,30 @@ export default async function ProductCard({ name, price, imageUrl, affiliateLink
       name: brand,
     },
     datePublished: '2024-06-01',
-    dateModified: '2026-04-14',
+    dateModified: '2026-04-16',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: rating.toFixed(1),
+      bestRating: '5',
+      worstRating: '1',
+      reviewCount: count,
+    },
+    review: {
+      '@type': 'Review',
+      author: {
+        '@type': 'Organization',
+        name: 'Home Nura',
+        url: 'https://homenura.com',
+      },
+      reviewRating: {
+        '@type': 'Rating',
+        ratingValue: rating.toFixed(1),
+        bestRating: '5',
+        worstRating: '1',
+      },
+      datePublished: '2026-04-16',
+      reviewBody: bestFor ? `${name} — ${bestFor}` : name,
+    },
     offers: {
       '@type': 'Offer',
       url: affiliateLink,

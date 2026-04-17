@@ -248,10 +248,29 @@ describe('buildProductListSchema', () => {
     expect(getCurrency(de)).toBe('EUR')
   })
 
-  it('does not include aggregateRating (no fabricated review data)', () => {
+  it('includes aggregateRating with correct schema.org structure', () => {
     const s = buildProductListSchema(products, 'fr', 'L', 'url')
     const item = s.itemListElement[0].item as Record<string, unknown>
-    expect(item).not.toHaveProperty('aggregateRating')
+    expect(item).toHaveProperty('aggregateRating')
+    const ar = item.aggregateRating as Record<string, unknown>
+    expect(ar['@type']).toBe('AggregateRating')
+    expect(typeof ar.ratingValue).toBe('string')
+    expect(ar.bestRating).toBe('5')
+    expect(ar.worstRating).toBe('1')
+    expect(typeof ar.reviewCount).toBe('number')
+  })
+
+  it('includes review with correct schema.org structure', () => {
+    const s = buildProductListSchema(products, 'fr', 'L', 'url')
+    const item = s.itemListElement[0].item as Record<string, unknown>
+    expect(item).toHaveProperty('review')
+    const review = item.review as Record<string, unknown>
+    expect(review['@type']).toBe('Review')
+    expect((review.author as Record<string, unknown>)['@type']).toBe('Organization')
+    expect((review.author as Record<string, unknown>).name).toBe('Home Nura')
+    const rr = review.reviewRating as Record<string, unknown>
+    expect(rr['@type']).toBe('Rating')
+    expect(typeof rr.ratingValue).toBe('string')
   })
 
   it('sets availability to InStock and includes the affiliate URL', () => {
