@@ -100,7 +100,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
 
   return (
     <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-3">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-20 grid grid-cols-[auto_1fr_auto] items-center gap-3">
 
         {/* ── Logo ── */}
         <Link
@@ -115,12 +115,12 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
             width={1400}
             height={400}
             priority
-            className="h-9 md:h-10 w-auto"
+            className="h-14 md:h-16 w-auto"
           />
         </Link>
 
         {/* ── Desktop nav ── */}
-        <div className="hidden lg:flex items-center gap-0.5 flex-1">
+        <div className="hidden lg:flex items-center justify-center gap-0.5">
           <Link href={`/${lang}/guides/airfryers`} className={navLinkCls}>
             {l('guide', lang)}
           </Link>
@@ -236,11 +236,11 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
             type="button"
             aria-label={l('closeMenu', lang)}
             onClick={close}
-            className="lg:hidden fixed inset-0 top-16 bg-slate-900/30 backdrop-blur-sm z-40"
+            className="lg:hidden fixed inset-0 top-20 bg-slate-900/30 backdrop-blur-sm z-40"
           />
           <div
             id="mobile-menu"
-            className="lg:hidden absolute left-0 right-0 top-16 z-50 bg-white border-b border-slate-200 shadow-xl max-h-[80vh] overflow-y-auto"
+            className="lg:hidden absolute left-0 right-0 top-20 z-50 bg-white border-b border-slate-200 shadow-xl max-h-[80vh] overflow-y-auto"
           >
             <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-1">
 
