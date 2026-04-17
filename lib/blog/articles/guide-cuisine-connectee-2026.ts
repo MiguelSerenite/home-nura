@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 23,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1546552696-e1f48b70ad26?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Cuisine connectée moderne avec multicuiseur, cafetière et balance intelligente',
         en: 'Modern smart kitchen with multicooker, coffee machine and smart scale',

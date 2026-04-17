@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 21,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1558462192-f9a70c31a945?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Jardin connecte avec tondeuse robot et arrosage intelligent en action',
         en: 'Smart garden with robot mower and intelligent irrigation system in action',

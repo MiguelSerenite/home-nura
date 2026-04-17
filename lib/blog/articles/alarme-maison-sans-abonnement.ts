@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 18,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1536147116438-62679a5e01f2?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1549884784-d66096288100?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Alarme maison sans abonnement comparatif Ajax Eufy Ring Somfy 2026',
         en: 'Home alarm no subscription comparison Ajax Eufy Ring Somfy 2026',

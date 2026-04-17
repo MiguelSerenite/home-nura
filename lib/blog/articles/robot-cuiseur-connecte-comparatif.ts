@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 19,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1546552696-e1f48b70ad26?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Thermomix TM7 robot cuiseur connecte avec ecran tactile et application Cookidoo',
         en: 'Thermomix TM7 connected cooking robot with touchscreen and Cookidoo app',

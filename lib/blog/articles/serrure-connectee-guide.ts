@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 17,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1561756719-55231c95c511?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Serrure connectee guide comparatif Nuki Yale Tedee SwitchBot pour maison europeenne',
         en: 'Smart lock guide comparison Nuki Yale Tedee SwitchBot for European homes',

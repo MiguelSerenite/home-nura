@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 19,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1536147116438-62679a5e01f2?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1561508808-8ee2063a41c5?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Camera de surveillance exterieure sans abonnement pour securite maison',
         en: 'Outdoor security camera without subscription for home security',

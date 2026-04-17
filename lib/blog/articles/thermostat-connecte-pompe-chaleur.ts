@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 18,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1545259741-2ea3ebf61fa3?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Thermostat connecte pour pompe a chaleur avec ecran affichant la temperature et le COP',
         en: 'Smart thermostat for heat pump displaying temperature and COP efficiency',

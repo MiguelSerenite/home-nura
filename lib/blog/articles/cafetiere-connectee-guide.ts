@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 16,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1556206035-4f568d4e86f0?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Cafetière connectée automatique avec broyeur intégré et système lait',
         en: 'Connected automatic coffee machine with built-in grinder and milk system',

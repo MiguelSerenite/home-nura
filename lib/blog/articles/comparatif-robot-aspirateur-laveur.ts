@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 18,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1551178232-55adaceefee1?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Robot aspirateur laveur haut de gamme avec station de nettoyage automatique',
         en: 'Premium robot vacuum mop combo with automatic cleaning station',

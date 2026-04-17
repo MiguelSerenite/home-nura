@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 17,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1549884784-d66096288100?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Détecteur de fumée connecté avec alerte smartphone et norme NF EN 14604',
         en: 'Smart smoke detector with smartphone alert and EN 14604 certification',

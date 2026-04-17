@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 14,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1558462192-f9a70c31a945?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Capteur humidité sol connecté jardin intelligent économie eau arrosage',
         en: 'Connected soil moisture sensor smart garden water saving irrigation',

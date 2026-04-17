@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 16,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1555475384-a0aefc775412?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Robot aspirateur vs aspirateur balai comparatif performance nettoyage 2026',
         en: 'Robot vacuum vs stick vacuum cleaning performance comparison 2026',

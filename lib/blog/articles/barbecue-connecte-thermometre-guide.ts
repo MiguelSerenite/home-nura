@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 16,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1556206035-4f568d4e86f0?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Thermometre a viande connecte MEATER insere dans un steak sur un barbecue',
         en: 'MEATER smart meat thermometer inserted in a steak on a barbecue grill',

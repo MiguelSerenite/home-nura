@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 15,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1549298916-f52d724204b4?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1561712202-a34c0a136566?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Station meteo connectee avec capteurs interieurs et exterieurs sur une etagere',
         en: 'Smart weather station with indoor and outdoor sensors on a shelf',

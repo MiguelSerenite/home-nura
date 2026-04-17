@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 17,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1504194104404-433180773017?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1561668137-58955d51a5fb?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Cave a vin connectee EuroCave avec application de controle de temperature sur smartphone',
         en: 'EuroCave connected wine cellar with temperature control app on smartphone',

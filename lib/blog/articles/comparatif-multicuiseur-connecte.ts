@@ -10,7 +10,7 @@ export const article: BlogArticle = {
   readingTime: 18,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1555893016-5a4ac9fae95a?w=800&q=80&auto=format&fit=crop',
       alt: {
         fr: 'Multicuiseur connecté Moulinex Cookeo Touch WiFi avec écran tactile',
         en: 'Connected multicooker Moulinex Cookeo Touch WiFi with touchscreen',
