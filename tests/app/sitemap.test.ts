@@ -6,10 +6,10 @@ describe('app/sitemap.ts', () => {
   const entries = sitemap()
   const LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
-  it('returns at least one entry per language × core route', () => {
-    // 6 locales × (home + at least 8 content routes) = 54+ entries
-    // Plus blog articles. Sanity floor.
-    expect(entries.length).toBeGreaterThan(54)
+  it('returns at least one entry per core route', () => {
+    // Crawl-budget strategy: 1 FR-canonical entry per page (not 6).
+    // Core routes (home + 8+ content + blog articles) = 10+ entries.
+    expect(entries.length).toBeGreaterThan(10)
   })
 
   it('every entry URL starts with the canonical host', () => {
@@ -44,32 +44,42 @@ describe('app/sitemap.ts', () => {
     }
   })
 
-  it('includes the home route for every locale', () => {
-    for (const lang of LANGS) {
-      const homeUrl = `${BASE_URL}/${lang}`
-      const hit = entries.find((e) => e.url === homeUrl)
-      expect(hit, `missing home entry for ${lang}`).toBeDefined()
+  // Crawl-budget strategy: sitemap emits the FR canonical only.
+  // Other locales are discovered via <link rel="alternate" hreflang>
+  // already present in every page's <head> (buildPageMetadata).
+  it('includes the home route as FR canonical', () => {
+    const homeUrl = `${BASE_URL}/fr`
+    const hit = entries.find((e) => e.url === homeUrl)
+    expect(hit, 'missing FR home entry').toBeDefined()
+    // Non-FR home URLs must NOT be direct sitemap entries
+    for (const lang of LANGS.filter(l => l !== 'fr')) {
+      const nonFrUrl = `${BASE_URL}/${lang}`
+      expect(entries.find((e) => e.url === nonFrUrl), `${lang} home should not be a direct entry`).toBeUndefined()
     }
   })
 
-  it('includes comparateur + quiz + blog for every locale', () => {
+  it('includes comparateur + quiz + blog as FR canonicals with hreflang for all locales', () => {
     for (const path of ['/comparateur', '/quiz', '/blog']) {
+      const frUrl = `${BASE_URL}/fr${path}`
+      const hit = entries.find((e) => e.url === frUrl)
+      expect(hit, `missing FR entry for ${path}`).toBeDefined()
+      // All 6 language alternates must be present in hreflang
       for (const lang of LANGS) {
-        const url = `${BASE_URL}/${lang}${path}`
-        expect(entries.find((e) => e.url === url), `missing ${url}`).toBeDefined()
+        expect(hit?.alternates?.languages?.[lang], `missing hreflang ${lang} for ${path}`)
+          .toBe(`${BASE_URL}/${lang}${path}`)
       }
     }
   })
 
-  // Phase Z: methodology cornerstone must be indexable and present
-  // in every locale. Removing it would knife the whole EEAT strategy.
-  it('includes /methodologie for every locale', () => {
+  // Phase Z: methodology cornerstone — FR canonical + all hreflang.
+  it('includes /methodologie as FR canonical with correct priority and hreflang', () => {
+    const url = `${BASE_URL}/fr/methodologie`
+    const hit = entries.find((e) => e.url === url)
+    expect(hit, 'missing FR methodologie entry').toBeDefined()
+    expect(hit?.priority).toBeGreaterThanOrEqual(0.85)
     for (const lang of LANGS) {
-      const url = `${BASE_URL}/${lang}/methodologie`
-      const hit = entries.find((e) => e.url === url)
-      expect(hit, `missing methodologie entry for ${lang}`).toBeDefined()
-      // Cornerstone priority must be >= a-propos (0.5); we want 0.9.
-      expect(hit?.priority).toBeGreaterThanOrEqual(0.85)
+      expect(hit?.alternates?.languages?.[lang], `missing hreflang ${lang} for /methodologie`)
+        .toBe(`${BASE_URL}/${lang}/methodologie`)
     }
   })
 
