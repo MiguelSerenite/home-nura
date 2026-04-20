@@ -1,5 +1,6 @@
-import { redirect } from "next/navigation";
+import { permanentRedirect } from "next/navigation";
 
 export default function RootPage() {
-  redirect("/fr");
+  // 308 permanent redirect → Google treats /fr as canonical, not the root URL
+  permanentRedirect("/fr");
 }
