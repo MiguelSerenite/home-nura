@@ -4,7 +4,7 @@ export const article: BlogArticle = {
   slug: 'meilleur-aspirateur-laveur-2026',
   category: 'guides',
   pillar: 'entretien-maison',
-  relatedSlugs: ['guide-robot-aspirateur-2026', 'robot-aspirateur-vs-balai', 'comparatif-robot-aspirateur-laveur'],
+  relatedSlugs: ['guide-robot-aspirateur-2026', 'robot-aspirateur-vs-balai', 'comparatif-robot-aspirateur-laveur', 'saugroboter-tierhaare-test'],
   datePublished: '2026-04-16',
   dateModified: '2026-04-16',
   readingTime: 17,

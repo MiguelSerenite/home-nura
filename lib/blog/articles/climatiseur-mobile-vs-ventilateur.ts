@@ -4,7 +4,7 @@ export const article: BlogArticle = {
   slug: 'climatiseur-mobile-vs-ventilateur',
   category: 'comparatifs',
   pillar: 'confort-air',
-  relatedSlugs: ['guide-purificateur-air-2026', 'comparatif-purificateur-air-allergie', 'guide-domotique-economie-energie-2026'],
+  relatedSlugs: ['guide-purificateur-air-2026', 'comparatif-purificateur-air-allergie', 'guide-domotique-economie-energie-2026', 'aire-acondicionado-portatil-sin-tubo', 'aire-acondicionado-portatil-no-enfria', 'mejor-aire-acondicionado-bajo-consumo'],
   datePublished: '2026-04-16',
   dateModified: '2026-04-16',
   readingTime: 16,

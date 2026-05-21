@@ -4,7 +4,7 @@ export const article: BlogArticle = {
   slug: 'entretien-nettoyage-airfryer',
   category: 'guides',
   pillar: 'guides/airfryers',
-  relatedSlugs: ['erreurs-courantes-airfryer', 'top-10-accessoires-airfryer', 'comment-choisir-airfryer-famille'],
+  relatedSlugs: ['erreurs-courantes-airfryer', 'top-10-accessoires-airfryer', 'comment-choisir-airfryer-famille', 'heissluftfritteuse-riecht-nach-plastik'],
   datePublished: '2026-01-30',
   dateModified: '2026-03-20',
   readingTime: 9,

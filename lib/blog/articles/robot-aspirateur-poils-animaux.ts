@@ -4,7 +4,7 @@ export const article: BlogArticle = {
   slug: 'robot-aspirateur-poils-animaux',
   category: 'guides',
   pillar: 'entretien-maison',
-  relatedSlugs: ['guide-robot-aspirateur-2026', 'comparatif-robot-aspirateur-laveur', 'guide-securite-maison-connectee-2026'],
+  relatedSlugs: ['guide-robot-aspirateur-2026', 'comparatif-robot-aspirateur-laveur', 'guide-securite-maison-connectee-2026', 'saugroboter-tierhaare-test'],
   datePublished: '2026-04-16',
   dateModified: '2026-04-16',
   readingTime: 16,

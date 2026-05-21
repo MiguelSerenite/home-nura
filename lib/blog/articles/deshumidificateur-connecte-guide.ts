@@ -4,7 +4,7 @@ export const article: BlogArticle = {
   slug: 'deshumidificateur-connecte-guide',
   category: 'guides',
   pillar: 'confort-air',
-  relatedSlugs: ['guide-purificateur-air-2026', 'comparatif-purificateur-air-allergie', 'climatiseur-mobile-vs-ventilateur'],
+  relatedSlugs: ['guide-purificateur-air-2026', 'comparatif-purificateur-air-allergie', 'climatiseur-mobile-vs-ventilateur', 'aire-acondicionado-portatil-no-enfria'],
   datePublished: '2026-04-16',
   dateModified: '2026-04-16',
   readingTime: 16,

@@ -4,7 +4,7 @@ export const article: BlogArticle = {
   slug: 'erreurs-courantes-airfryer',
   category: 'guides',
   pillar: 'guides/airfryers',
-  relatedSlugs: ['entretien-nettoyage-airfryer', 'recettes-frites-parfaites-airfryer', 'top-10-accessoires-airfryer'],
+  relatedSlugs: ['entretien-nettoyage-airfryer', 'recettes-frites-parfaites-airfryer', 'top-10-accessoires-airfryer', 'heissluftfritteuse-riecht-nach-plastik'],
   datePublished: '2026-02-25',
   dateModified: '2026-04-05',
   readingTime: 10,

@@ -4,7 +4,7 @@ export const article: BlogArticle = {
   slug: 'robot-aspirateur-vs-balai',
   category: 'comparatifs',
   pillar: 'entretien-maison',
-  relatedSlugs: ['guide-robot-aspirateur-2026', 'comparatif-robot-aspirateur-laveur', 'robot-aspirateur-poils-animaux'],
+  relatedSlugs: ['guide-robot-aspirateur-2026', 'comparatif-robot-aspirateur-laveur', 'robot-aspirateur-poils-animaux', 'robot-aspirador-piso-pequeno'],
   datePublished: '2026-04-16',
   dateModified: '2026-04-16',
   readingTime: 16,

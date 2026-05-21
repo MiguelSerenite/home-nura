@@ -4,7 +4,7 @@ export const article: BlogArticle = {
   slug: 'guide-robot-aspirateur-2026',
   category: 'guides',
   pillar: 'entretien-maison',
-  relatedSlugs: ['comparatif-robot-aspirateur-laveur', 'robot-aspirateur-poils-animaux', 'guide-securite-maison-connectee-2026'],
+  relatedSlugs: ['comparatif-robot-aspirateur-laveur', 'robot-aspirateur-poils-animaux', 'guide-securite-maison-connectee-2026', 'saugroboter-tierhaare-test', 'robot-aspirador-piso-pequeno'],
   datePublished: '2026-04-16',
   dateModified: '2026-04-16',
   readingTime: 25,

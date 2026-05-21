@@ -4,7 +4,7 @@ export const article: BlogArticle = {
   slug: 'comment-choisir-airfryer-famille',
   category: 'guides',
   pillar: 'guides/airfryers',
-  relatedSlugs: ['meilleur-airfryer-xxl-grande-famille', 'test-ninja-foodi-max-dual-zone', 'airfryer-simple-vs-double-panier'],
+  relatedSlugs: ['meilleur-airfryer-xxl-grande-famille', 'test-ninja-foodi-max-dual-zone', 'airfryer-simple-vs-double-panier', 'heissluftfritteuse-fuer-2-personen'],
   datePublished: '2026-01-05',
   dateModified: '2026-04-10',
   readingTime: 14,

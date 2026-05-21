@@ -4,7 +4,7 @@ export const article: BlogArticle = {
   slug: 'ventilateur-connecte-comparatif',
   category: 'comparatifs',
   pillar: 'confort-air',
-  relatedSlugs: ['guide-purificateur-air-2026', 'climatiseur-mobile-vs-ventilateur', 'deshumidificateur-connecte-guide'],
+  relatedSlugs: ['guide-purificateur-air-2026', 'climatiseur-mobile-vs-ventilateur', 'deshumidificateur-connecte-guide', 'ventilador-silencioso-dormitorio'],
   datePublished: '2026-04-16',
   dateModified: '2026-04-16',
   readingTime: 16,

@@ -4,7 +4,7 @@ export const article: BlogArticle = {
   slug: 'meilleur-airfryer-petit-budget',
   category: 'guides',
   pillar: 'guides/airfryers',
-  relatedSlugs: ['test-xiaomi-smart-air-fryer-pro', 'test-moulinex-easy-fry-max', 'comment-choisir-airfryer-famille'],
+  relatedSlugs: ['test-xiaomi-smart-air-fryer-pro', 'test-moulinex-easy-fry-max', 'comment-choisir-airfryer-famille', 'heissluftfritteuse-fuer-2-personen', 'heissluftfritteuse-stromverbrauch-kosten'],
   datePublished: '2026-03-20',
   dateModified: '2026-04-14',
   readingTime: 11,

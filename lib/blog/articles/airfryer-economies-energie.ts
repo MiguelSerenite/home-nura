@@ -4,7 +4,7 @@ export const article: BlogArticle = {
   slug: 'airfryer-economies-energie',
   category: 'guides',
   pillar: 'guides/airfryers',
-  relatedSlugs: ['airfryer-vs-friteuse-traditionnelle', 'test-xiaomi-smart-air-fryer-pro', 'meilleur-airfryer-petit-budget'],
+  relatedSlugs: ['airfryer-vs-friteuse-traditionnelle', 'test-xiaomi-smart-air-fryer-pro', 'meilleur-airfryer-petit-budget', 'heissluftfritteuse-stromverbrauch-kosten'],
   datePublished: '2026-03-15',
   dateModified: '2026-04-14',
   readingTime: 12,
