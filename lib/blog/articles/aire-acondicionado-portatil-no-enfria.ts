@@ -158,7 +158,16 @@ export const article: BlogArticle = {
 <p>Con estos gestos, el equipo trabaja menos para conseguir el mismo confort, lo que se nota tanto en la temperatura como en la factura de la luz.</p>
 
 <h2>Conclusión</h2>
-<p>Que un <strong>aire acondicionado portátil no enfríe</strong> casi nunca es el final del aparato. En orden de probabilidad, revisa el modo de funcionamiento, el tubo de evacuación, el sellado de la ventana, el filtro y el depósito de condensación, y asegúrate de que la potencia en BTU corresponde a los metros cuadrados de la habitación. Con estos pasos resolverás la inmensa mayoría de los casos. Solo cuando todo esto esté descartado tiene sentido pensar en una fuga de gas y recurrir a un técnico certificado.</p>`,
+<p>Que un <strong>aire acondicionado portátil no enfríe</strong> casi nunca es el final del aparato. En orden de probabilidad, revisa el modo de funcionamiento, el tubo de evacuación, el sellado de la ventana, el filtro y el depósito de condensación, y asegúrate de que la potencia en BTU corresponde a los metros cuadrados de la habitación. Con estos pasos resolverás la inmensa mayoría de los casos. Solo cuando todo esto esté descartado tiene sentido pensar en una fuga de gas y recurrir a un técnico certificado.</p>
+
+<h2>Disponibilidad y precios en España</h2>
+<p>Si tras revisar todo decides renovar tu equipo, en España tienes amplia disponibilidad de aires acondicionados portátiles en Amazon.es, con envío rápido y stock reforzado durante las olas de calor. También se encuentran en grandes superficies físicas, donde puedes consultar la potencia en BTU adecuada a tu habitación. Cualquier aparato nuevo está respaldado por la garantía legal española.</p>
+<ul>
+<li><strong>Disponibilidad:</strong> gran oferta en Amazon.es y en cadenas como MediaMarkt o El Corte Inglés, con entrega habitual en 24-48 horas.</li>
+<li><strong>Rango de precios:</strong> un aire acondicionado portátil con buena capacidad de refrigeración suele costar entre 200 y 500 €, según los BTU y las funciones.</li>
+<li><strong>Garantía:</strong> 3 años de garantía legal en España (Ley de Garantías desde 2022), útil precisamente cuando un equipo deja de enfriar por defecto de fábrica.</li>
+<li><strong>Qué valoran los compradores españoles:</strong> que enfríe de verdad en plena ola de calor, la eficiencia energética por el precio de la luz y un mantenimiento sencillo de filtros.</li>
+</ul>`,
 
     fr: `<h2>Mon climatiseur portable ne refroidit pas : par ou commencer</h2>
 <p>C'est l'une des pannes les plus frustrantes de l'ete : vous branchez l'appareil, vous le reglez sur 18 degres, vous le laissez tourner des heures et la piece reste tout aussi chaude. La bonne nouvelle, c'est que dans la grande majorite des cas, lorsqu'un climatiseur portable ne refroidit pas, le probleme n'est pas une panne grave mais un defaut d'installation, d'entretien ou de dimensionnement que vous pouvez resoudre vous-meme en quelques minutes.</p>

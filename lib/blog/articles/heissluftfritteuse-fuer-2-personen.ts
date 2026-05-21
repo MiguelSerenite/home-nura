@@ -169,7 +169,16 @@ export const article: BlogArticle = {
 <p>Wer diese sechs Punkte berücksichtigt, findet praktisch garantiert die passende <strong>kleine Heißluftfritteuse</strong> für den eigenen Haushalt.</p>
 
 <h2>Fazit: Die beste Heißluftfritteuse für 2 Personen</h2>
-<p>Für die meisten Paare und kleinen Haushalte ist eine <strong>kleine Heißluftfritteuse</strong> mit 4 Litern, rund 1.500 Watt und einfachem Einzelkorb die ideale Wahl. Die Xiaomi Smart Air Fryer Pro überzeugt mit smarten Funktionen zum kleinen Preis, während Cosori Lite, Philips Essential und Ninja AF100 solide, langlebige Alternativen ohne App sind. Achten Sie auf einen niedrigen <strong>Stromverbrauch</strong>, eine kompakte Stellfläche und eine pflegeleichte Schublade – dann werden Sie mit Ihrer <strong>Heißluftfritteuse für 2 Personen</strong> jahrelang Freude haben.</p>`,
+<p>Für die meisten Paare und kleinen Haushalte ist eine <strong>kleine Heißluftfritteuse</strong> mit 4 Litern, rund 1.500 Watt und einfachem Einzelkorb die ideale Wahl. Die Xiaomi Smart Air Fryer Pro überzeugt mit smarten Funktionen zum kleinen Preis, während Cosori Lite, Philips Essential und Ninja AF100 solide, langlebige Alternativen ohne App sind. Achten Sie auf einen niedrigen <strong>Stromverbrauch</strong>, eine kompakte Stellfläche und eine pflegeleichte Schublade – dann werden Sie mit Ihrer <strong>Heißluftfritteuse für 2 Personen</strong> jahrelang Freude haben.</p>
+
+<h2>Verfügbarkeit & Preise im deutschsprachigen Raum</h2>
+<p>Kompakte Heißluftfritteusen für zwei Personen sind im deutschsprachigen Raum problemlos erhältlich – sowohl bei Amazon.de mit schneller Lieferung als auch im stationären Handel in Deutschland, Österreich und der Schweiz. Für ein 3- bis 4,5-Liter-Modell sollten Sie je nach Marke und Ausstattung mit einer realistischen Preisspanne rechnen. Beim Kauf in der EU gilt zudem die gesetzliche Gewährleistung von zwei Jahren.</p>
+<ul>
+<li><strong>Verfügbarkeit:</strong> Bei Amazon.de meist sofort lieferbar; daneben bei lokalen Händlern wie MediaMarkt, Saturn oder Otto sowie in Österreich und der Schweiz über die jeweiligen Landesshops.</li>
+<li><strong>Preisspanne:</strong> Einstiegsmodelle ab rund 50 €, solide Markengeräte etwa 80–120 €, smarte Premium-Varianten bis rund 150 €.</li>
+<li><strong>Garantie:</strong> 2 Jahre gesetzliche Gewährleistung in Deutschland, Österreich und der Schweiz, oft ergänzt durch eine freiwillige Herstellergarantie.</li>
+<li><strong>Worauf deutsche Käufer achten:</strong> niedrige Wattzahl bei ausreichendem Volumen, geringe Lautstärke und gute Testergebnisse – der Blick auf Stiftung Warentest ist hierzulande fast schon Reflex.</li>
+</ul>`,
     fr: `<h2>Quel airfryer pour 2 personnes : le bon réflexe avant d'acheter</h2>
 <p>Choisir un airfryer pour un couple ou un petit foyer n'a rien à voir avec l'achat d'un modèle familial. Inutile de viser un appareil de 8 litres qui encombre tout le plan de travail et consomme trop d'énergie : pour deux personnes, l'objectif est de trouver un modèle compact, économe et suffisamment puissant pour faire des frites, des légumes, des cuisses de poulet ou un pavé de saumon bien croustillants.</p>
 <p>Dans ce guide, on répond à la question centrale – quelle capacité choisir – et on présente les meilleurs modèles compacts de 2026. Nous comparons le volume, la consommation, l'encombrement et la question du simple ou double panier.</p>

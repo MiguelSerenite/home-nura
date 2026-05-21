@@ -112,7 +112,16 @@ export const article: BlogArticle = {
 
 <h2>Conclusión: el mejor robot aspirador para tu piso pequeño</h2>
 <p>En un piso pequeño, un estudio o cualquier vivienda de menos de 60 m2, el robot ideal no es el más potente ni el más caro, sino el más <strong>compacto</strong>, de <strong>bajo perfil</strong> y con buena <strong>navegación</strong>. Si el presupuesto manda y el hueco bajo los muebles es mínimo, un Xiaomi de la serie E es imbatible. Si tu piso tiene muchos rincones, un Roborock Q o un Dreame compacto con LiDAR limpiará mejor. Y si el suelo está lleno de cables y objetos, un Ecovacs Deebot con evitación de obstáculos te dará tranquilidad.</p>
-<p>Olvida la base de autovaciado salvo necesidad real: en un espacio reducido, el confort de no vaciar el depósito rara vez compensa el metro cuadrado que ocupa. Mide la altura bajo tus muebles, elige un perfil bajo y prioriza la agilidad sobre la fuerza bruta. Así tendrás un piso pequeño siempre limpio sin que el robot te quite espacio para vivir.</p>`,
+<p>Olvida la base de autovaciado salvo necesidad real: en un espacio reducido, el confort de no vaciar el depósito rara vez compensa el metro cuadrado que ocupa. Mide la altura bajo tus muebles, elige un perfil bajo y prioriza la agilidad sobre la fuerza bruta. Así tendrás un piso pequeño siempre limpio sin que el robot te quite espacio para vivir.</p>
+
+<h2>Disponibilidad y precios en España</h2>
+<p>En España los robots aspiradores son muy fáciles de encontrar: Amazon.es ofrece toda la gama de Xiaomi, Roborock, Dreame y Ecovacs con envío en 24-48 horas y descuentos frecuentes. Marcas como Cecotec o Xiaomi están además en grandes superficies físicas, donde puedes comprobar el perfil bajo y el tamaño antes de comprar. Todas las compras cuentan con la garantía legal española.</p>
+<ul>
+<li><strong>Disponibilidad:</strong> catálogo muy amplio en Amazon.es y en cadenas como MediaMarkt o El Corte Inglés, con ofertas habituales en campañas como el Prime Day.</li>
+<li><strong>Rango de precios:</strong> desde unos 150 € un modelo compacto de la serie Xiaomi E hasta 350-500 € un Roborock o Dreame con navegación LiDAR.</li>
+<li><strong>Garantía:</strong> 3 años de garantía legal en España (Ley de Garantías desde 2022) frente a defectos de fabricación.</li>
+<li><strong>Qué valoran los compradores españoles:</strong> el perfil bajo para pasar bajo los muebles, la agilidad en pisos pequeños y un consumo de consumibles contenido.</li>
+</ul>`,
     fr: `<h2>Robot aspirateur pour petit appartement : pourquoi la taille change tout</h2>
 <p>Vivre dans un petit appartement, un studio ou un logement de moins de 60 m2 ne signifie pas renoncer au nettoyage automatique. Au contraire : un bon robot aspirateur compact peut garder un espace reduit impeccable avec tres peu d'effort. Mais les regles du jeu changent. Dans un loft de 120 m2, ce qui compte c'est l'autonomie et la couverture ; dans un petit appartement, ce qui compte vraiment c'est l'<strong>agilite dans les espaces exigus</strong>, le <strong>profil bas</strong> pour passer sous les meubles et la place qu'occupe la station.</p>
 <p>L'erreur la plus frequente est d'acheter le modele haut de gamme avec sa station d'auto-vidage geante, de la poser au milieu d'un salon de 18 m2 et de decouvrir que cette armoire robotisee vole un metre carre precieux. Dans ce guide, nous analysons les criteres qui comptent vraiment quand chaque centimetre compte, et nous recommandons les robots aspirateurs compacts les plus efficaces pour les petits logements en 2026.</p>

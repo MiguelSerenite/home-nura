@@ -154,7 +154,16 @@ export const article: BlogArticle = {
 
 <h2>Fazit</h2>
 <p>Wenn Ihre Heißluftfritteuse nach Plastik riecht, ist das bei der ersten Inbetriebnahme fast immer normal und harmlos. Reinigen Sie das Gerät, brennen Sie es 15 bis 20 Minuten leer bei 200 °C ein, sorgen Sie für gute Belüftung und setzen Sie bei Bedarf Zitrone oder Essig ein – in den meisten Fällen ist der Geruch danach verschwunden. Bleibt er stark und anhaltend oder wird er beißend, sollten Sie das Gerät nicht weiter nutzen und den Kundendienst kontaktieren. Mit der richtigen ersten Inbetriebnahme und einem hochwertigen, möglichst PFAS-freien Modell genießen Sie schon bald geruchsfreie, knusprige Ergebnisse.</p>
-<p>Zusammengefasst gilt: Geben Sie Ihrem neuen Gerät die Chance, sich „freizubrennen“, beobachten Sie die ersten Anwendungen aufmerksam und vertrauen Sie auf Ihr Gefühl, wenn etwas nicht stimmt. So treffen Sie die richtige Entscheidung zwischen „völlig normal“ und „besser zurückgeben“ – und holen das Beste aus Ihrer Heißluftfritteuse heraus, ganz ohne lästigen Plastikgeruch.</p>`,
+<p>Zusammengefasst gilt: Geben Sie Ihrem neuen Gerät die Chance, sich „freizubrennen“, beobachten Sie die ersten Anwendungen aufmerksam und vertrauen Sie auf Ihr Gefühl, wenn etwas nicht stimmt. So treffen Sie die richtige Entscheidung zwischen „völlig normal“ und „besser zurückgeben“ – und holen das Beste aus Ihrer Heißluftfritteuse heraus, ganz ohne lästigen Plastikgeruch.</p>
+
+<h2>Verfügbarkeit & Preise im deutschsprachigen Raum</h2>
+<p>Hochwertige, geruchsarme Heißluftfritteusen sind im deutschsprachigen Raum überall erhältlich – bei Amazon.de mit schneller Lieferung sowie im Fachhandel in Deutschland, Österreich und der Schweiz. Wer Plastikgeruch von vornherein vermeiden möchte, greift zu Modellen mit Keramik- oder Edelstahlkorb; diese liegen preislich meist etwas höher. Beim Kauf in der EU gilt die gesetzliche Gewährleistung von zwei Jahren, sodass Sie ein Gerät mit auffälligem Dauergeruch problemlos reklamieren können.</p>
+<ul>
+<li><strong>Verfügbarkeit:</strong> Bei Amazon.de meist sofort lieferbar; ebenso bei MediaMarkt, Saturn oder Otto und über die jeweiligen Landesshops in Österreich und der Schweiz.</li>
+<li><strong>Preisspanne:</strong> einfache Modelle ab rund 50 €, hochwertige Geräte mit Keramik- oder Edelstahlbeschichtung etwa 90–130 €, Premium-Varianten bis rund 150 €.</li>
+<li><strong>Garantie:</strong> 2 Jahre gesetzliche Gewährleistung in Deutschland, Österreich und der Schweiz – ein Rückgabe- oder Umtauschrecht bei anhaltend starkem Geruch ist damit abgesichert.</li>
+<li><strong>Worauf deutsche Käufer achten:</strong> möglichst PFAS-freie Beschichtung, verarbeitungsfreundliche Materialien, geringe Geruchsbildung und gute Testergebnisse – der Blick auf Stiftung Warentest ist hierzulande fast schon Reflex.</li>
+</ul>`,
 
     fr: `<h2>Airfryer qui sent le plastique : pas de panique à la première utilisation</h2>
 <p>Vous venez de déballer un airfryer tout neuf, impatient de préparer des frites croustillantes avec peu de matière grasse, et dès la première chauffe une odeur de plastique envahit votre cuisine. C\'est compréhensiblement inquiétant, mais dans la très grande majorité des cas, c\'est parfaitement normal. Presque tous les appareils dotés d\'une résistance et d\'un boîtier en plastique dégagent une odeur de plastique ou légèrement chimique lors des premières utilisations.</p>

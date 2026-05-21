@@ -130,7 +130,16 @@ export const article: BlogArticle = {
 <p>Si dudas entre comprar un ventilador o dar el salto a la refrigeración activa, te interesa nuestro artículo <a href="/es/blog/climatiseur-mobile-vs-ventilateur">aire acondicionado portátil frente a ventilador</a>, donde comparamos consumo, coste y eficacia real de ambas soluciones.</p>
 
 <h2>Conclusión: cuál elegir</h2>
-<p>Para dormir fresco y en silencio durante el verano español, prioriza siempre estos tres criterios: un <strong>nivel de ruido por debajo de 35 dB</strong> en modo noche, un <strong>motor DC</strong> (más silencioso y eficiente) y la presencia de <strong>temporizador y modo noche</strong>. Con un presupuesto ajustado, un Cecotec EnergySilence cumple de sobra; si quieres conectividad, el Xiaomi Smart Fan es la apuesta inteligente; y si el dinero no es problema y valoras el silencio absoluto, el Dyson sin aspas sigue siendo el rey del dormitorio.</p>`,
+<p>Para dormir fresco y en silencio durante el verano español, prioriza siempre estos tres criterios: un <strong>nivel de ruido por debajo de 35 dB</strong> en modo noche, un <strong>motor DC</strong> (más silencioso y eficiente) y la presencia de <strong>temporizador y modo noche</strong>. Con un presupuesto ajustado, un Cecotec EnergySilence cumple de sobra; si quieres conectividad, el Xiaomi Smart Fan es la apuesta inteligente; y si el dinero no es problema y valoras el silencio absoluto, el Dyson sin aspas sigue siendo el rey del dormitorio.</p>
+
+<h2>Disponibilidad y precios en España</h2>
+<p>Los ventiladores silenciosos para dormitorio son uno de los productos más fáciles de conseguir en España: Amazon.es tiene un catálogo enorme con envío en 24-48 horas y stock abundante en verano. Marcas como Cecotec, Xiaomi o Rowenta también están en grandes superficies físicas, donde puedes comprobar el tamaño y el nivel de ruido. Toda compra incluye la garantía legal española.</p>
+<ul>
+<li><strong>Disponibilidad:</strong> amplísima oferta en Amazon.es y en cadenas como MediaMarkt o El Corte Inglés, con entrega rápida durante toda la temporada cálida.</li>
+<li><strong>Rango de precios:</strong> desde unos 30 € un modelo básico hasta 100-120 € un ventilador con motor DC y mando, y bastante más los Dyson sin aspas.</li>
+<li><strong>Garantía:</strong> 3 años de garantía legal en España (Ley de Garantías desde 2022) frente a defectos de fabricación.</li>
+<li><strong>Qué valoran los compradores españoles:</strong> un nivel sonoro bajo (por debajo de 35 dB) para dormir, el bajo consumo del motor DC por el precio de la luz y un tamaño adecuado a dormitorios pequeños.</li>
+</ul>`,
 
     fr: `<h2>Pourquoi le bruit est le premier critere d'un ventilateur pour dormir</h2>
 <p>Quand arrive l'ete et ses nuits a 28 ou 30 degres, dormir devient un veritable calvaire. Un <strong>ventilateur silencieux pour chambre</strong> est, pour beaucoup de foyers, la solution la plus economique et efficace : il rafraichit, brasse l'air et ne fait pas exploser la facture d'electricite comme la climatisation. Mais un detail souvent neglige a l'achat ruine ensuite des nuits entieres : le <strong>niveau sonore</strong>.</p>

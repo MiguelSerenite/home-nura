@@ -155,7 +155,16 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Conclusión</h2>
-<p>El <strong>mejor aire acondicionado bajo consumo</strong> de 2026 es un split con <strong>tecnología Inverter</strong>, clase A++ o A+++ y un SEER lo más alto posible. Modelos como el Mitsubishi MSZ-AP, el Haier Flexis Plus o el LG Dualcool ofrecen una <strong>eficiencia energética</strong> excelente que se traduce en facturas de verano de apenas 25 a 80 EUR. Si tu presupuesto es ajustado, un Cecotec ForceClima cumple, y si buscas fiabilidad, Daikin es un valor seguro. Combina un buen equipo con los 26 grados, el mantenimiento de filtros y la programación, y disfrutarás de un verano fresco sin sustos en la factura.</p>`,
+<p>El <strong>mejor aire acondicionado bajo consumo</strong> de 2026 es un split con <strong>tecnología Inverter</strong>, clase A++ o A+++ y un SEER lo más alto posible. Modelos como el Mitsubishi MSZ-AP, el Haier Flexis Plus o el LG Dualcool ofrecen una <strong>eficiencia energética</strong> excelente que se traduce en facturas de verano de apenas 25 a 80 EUR. Si tu presupuesto es ajustado, un Cecotec ForceClima cumple, y si buscas fiabilidad, Daikin es un valor seguro. Combina un buen equipo con los 26 grados, el mantenimiento de filtros y la programación, y disfrutarás de un verano fresco sin sustos en la factura.</p>
+
+<h2>Disponibilidad y precios en España</h2>
+<p>Los aires acondicionados de bajo consumo tienen amplia disponibilidad en España, tanto en Amazon.es como en grandes superficies, donde encontrarás los splits Inverter de Mitsubishi, Daikin, LG o Haier. Ten en cuenta que un split de pared requiere instalación por un profesional certificado, mientras que los portátiles eficientes se entregan listos para usar. Cualquier equipo está cubierto por la garantía legal española.</p>
+<ul>
+<li><strong>Disponibilidad:</strong> gran oferta en Amazon.es y en cadenas como MediaMarkt o El Corte Inglés, con servicio de instalación opcional para los splits.</li>
+<li><strong>Rango de precios:</strong> un split Inverter de calidad ronda los 400-900 € más instalación, y un portátil eficiente se mueve entre 250 y 500 €.</li>
+<li><strong>Garantía:</strong> 3 años de garantía legal en España (Ley de Garantías desde 2022), a menudo ampliada por el fabricante en el compresor.</li>
+<li><strong>Qué valoran los compradores españoles:</strong> la eficiencia energética (clase A++/A+++ y SEER alto) por el precio de la luz, el bajo nivel sonoro y un consumo real ajustado en verano.</li>
+</ul>`,
     fr: `<h2>Pourquoi viser un climatiseur basse consommation</h2>
 <p>Avec des etes de plus en plus chauds et des prix de l'electricite eleves, rafraichir son logement sans faire exploser la facture est devenu une priorite. Un climatiseur bien choisi, dote de la <strong>technologie Inverter</strong> et d'une bonne <strong>classe energetique</strong>, peut consommer 30 a 50 % de moins qu'un appareil ancien de type on/off pour le meme confort.</p>
 <p>Ce comparatif vous explique quoi regarder, vous propose un tableau des meilleurs modeles de 2026 et calcule le cout annuel reel selon votre usage. Si vous hesitez entre un appareil fixe et un appareil mobile, lisez d'abord notre <a href="/fr/blog/climatiseur-mobile-vs-ventilateur">comparatif climatiseur mobile vs ventilateur</a>.</p>
