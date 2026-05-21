@@ -72,6 +72,12 @@ import { article as ventilateurConnecte } from './articles/ventilateur-connecte-
 import { article as qualiteAirInterieur } from './articles/qualite-air-interieur-capteurs'
 import { article as robotCuiseurConnecte } from './articles/robot-cuiseur-connecte-comparatif'
 import { article as caveVinConnectee } from './articles/cave-vin-connectee-guide'
+// Batch DE long-tail (stratégie italienne répliquée pour le marché allemand)
+import { article as heissluftfritteuse2Personen } from './articles/heissluftfritteuse-fuer-2-personen'
+import { article as heissluftfritteuseStromverbrauch } from './articles/heissluftfritteuse-stromverbrauch-kosten'
+import { article as saugroboterTierhaare } from './articles/saugroboter-tierhaare-test'
+import { article as waermepumpentrockner } from './articles/waermepumpentrockner-vergleich'
+import { article as heissluftfritteusePlastik } from './articles/heissluftfritteuse-riecht-nach-plastik'
 
 const ALL_ARTICLES: BlogArticle[] = [
   testNinjaFoodiMax,
@@ -145,6 +151,11 @@ const ALL_ARTICLES: BlogArticle[] = [
   qualiteAirInterieur,
   robotCuiseurConnecte,
   caveVinConnectee,
+  heissluftfritteuse2Personen,
+  heissluftfritteuseStromverbrauch,
+  saugroboterTierhaare,
+  waermepumpentrockner,
+  heissluftfritteusePlastik,
 ]
 
 export function getAllArticles(): BlogArticle[] {
