@@ -78,6 +78,12 @@ import { article as heissluftfritteuseStromverbrauch } from './articles/heissluf
 import { article as saugroboterTierhaare } from './articles/saugroboter-tierhaare-test'
 import { article as waermepumpentrockner } from './articles/waermepumpentrockner-vergleich'
 import { article as heissluftfritteusePlastik } from './articles/heissluftfritteuse-riecht-nach-plastik'
+// Batch ES long-tail (niches spécifiques marché espagnol : climat chaud, petits logements)
+import { article as aireAcondicionadoSinTubo } from './articles/aire-acondicionado-portatil-sin-tubo'
+import { article as aireAcondicionadoNoEnfria } from './articles/aire-acondicionado-portatil-no-enfria'
+import { article as ventiladorSilenciosoDormitorio } from './articles/ventilador-silencioso-dormitorio'
+import { article as robotAspiradorPisoPequeno } from './articles/robot-aspirador-piso-pequeno'
+import { article as aireAcondicionadoBajoConsumo } from './articles/mejor-aire-acondicionado-bajo-consumo'
 
 const ALL_ARTICLES: BlogArticle[] = [
   testNinjaFoodiMax,
@@ -156,6 +162,11 @@ const ALL_ARTICLES: BlogArticle[] = [
   saugroboterTierhaare,
   waermepumpentrockner,
   heissluftfritteusePlastik,
+  aireAcondicionadoSinTubo,
+  aireAcondicionadoNoEnfria,
+  ventiladorSilenciosoDormitorio,
+  robotAspiradorPisoPequeno,
+  aireAcondicionadoBajoConsumo,
 ]
 
 export function getAllArticles(): BlogArticle[] {
