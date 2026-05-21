@@ -13,6 +13,10 @@ const PARTNER_TAGS: Record<string, string> = {
   es: 'homenuraen0a-21',
   it: 'homenuraen010-21',
   nl: 'homenuranl-21',
+  // Belgium: amazon.be launched 2023 — separate affiliate tag needed.
+  // Action required: create tag at https://partenaires.amazon.fr (choose amazon.be)
+  // then replace 'homenuraen05-21' below with your actual .be tag.
+  be: 'homenuraen05-21', // ← TODO: replace with real amazon.be tag
 }
 
 function resolvePartnerTag(lang: string): string {
@@ -26,6 +30,7 @@ const domains: Record<string, string> = {
   es: 'www.amazon.es',
   it: 'www.amazon.it',
   nl: 'www.amazon.nl',
+  be: 'www.amazon.com.be', // amazon.be (launched 2023 for Belgian market)
 }
 
 // Helper to build image URLs from Amazon image IDs

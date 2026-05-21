@@ -67,15 +67,15 @@ const heroTemplates: Record<Lang, HeroTemplate> = {
     buyCtaLabel: 'Check price on Amazon',
   },
   de: {
-    title: (cat) => `Die besten ${cat} 2026`,
-    subtitle: (silo) => `Für Europa getestet — ${silo.toLowerCase()}`,
+    title: (cat) => `${cat} Vergleich 2026 — Testsieger & Tipps`,
+    subtitle: (silo) => `Getestet & verglichen für Europa — ${silo.toLowerCase()}`,
     intro: (cat, silo, keyword) =>
       `Unsere Auswahl an ${cat} aus der Kategorie ${silo.toLowerCase()}, bewertet nach den Kriterien, die in Europa wirklich zählen: jährliche Energiekosten, EU-Energielabel, DSGVO-Konformität, Ersatzteil­verfügbarkeit über fünf Jahre und Matter-Unterstützung. Modelle mit reinem Marketing fliegen raus, Geräte mit Langlebigkeit bleiben. Zielanfrage: ${keyword}.`,
     buyCtaLabel: 'Preis bei Amazon prüfen',
   },
   es: {
-    title: (cat) => `Los mejores ${cat.toLowerCase()} 2026`,
-    subtitle: (silo) => `Probados para Europa — ${silo.toLowerCase()}`,
+    title: (cat) => `Comparativa ${cat.toLowerCase()} 2026 — Análisis y mejores modelos`,
+    subtitle: (silo) => `Analizados y comparados para Europa — ${silo.toLowerCase()}`,
     intro: (cat, silo, keyword) =>
       `Nuestra selección de ${cat.toLowerCase()} en la categoría ${silo.toLowerCase()}, evaluada con los criterios que importan en Europa: coste energético anual, etiqueta energética EU, cumplimiento RGPD, disponibilidad de recambios a cinco años y compatibilidad Matter. Descartamos los modelos que sobre-venden el marketing y conservamos los que aguantan. Búsqueda objetivo: ${keyword}.`,
     buyCtaLabel: 'Ver precio en Amazon',
@@ -330,8 +330,8 @@ const personaGuideTemplates: Record<Lang, PersonaGuideTemplate> = {
   },
   de: {
     kicker: 'Kaufberatung',
-    title: (label) => `Die besten Produkte für ${label}`,
-    subtitle: (label) => `Home-Nura-Auswahl für ${label} in Europa 2026`,
+    title: (label) => `Testsieger für ${label} — Vergleich 2026`,
+    subtitle: (label) => `Home-Nura-Empfehlungen: ${label} im Test 2026`,
     intros: {
       household: (label) =>
         `Für ${label} gewichten unsere Empfehlungen die Kriterien, die im Alltag wirklich zählen: passende Kapazität, Ergonomie, einfache Wartung und Langlebigkeit über fünf Jahre. Jedes Produkt wird zudem anhand seiner jährlichen Energiekosten in Euro und seiner Konformität mit den europäischen Vorschriften 2026 bewertet.`,
@@ -345,8 +345,8 @@ const personaGuideTemplates: Record<Lang, PersonaGuideTemplate> = {
   },
   es: {
     kicker: 'Guía de compra',
-    title: (label) => `Los mejores productos para ${label.toLowerCase()}`,
-    subtitle: (label) => `Selección Home Nura para ${label.toLowerCase()} en Europa 2026`,
+    title: (label) => `Mejores productos para ${label.toLowerCase()} — Comparativa 2026`,
+    subtitle: (label) => `Análisis Home Nura: ${label.toLowerCase()} en Europa 2026`,
     intros: {
       household: (label) =>
         `Para ${label.toLowerCase()}, nuestras selecciones ponderan los criterios que realmente cuentan en el día a día: capacidad adecuada, ergonomía, facilidad de mantenimiento y durabilidad a cinco años. Cada producto se evalúa también por su coste energético anual en euros y su cumplimiento con las regulaciones europeas 2026.`,
