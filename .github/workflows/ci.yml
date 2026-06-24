@@ -106,7 +106,7 @@ jobs:
       # bundled stable build rather than pointing LHCI at Playwright's
       # chromium (avoids version drift surprises).
       - name: Setup Chrome for Lighthouse
-        uses: browser-actions/setup-chrome@v1
+        uses: browser-actions/setup-chrome@v2
         with:
           chrome-version: stable
 
