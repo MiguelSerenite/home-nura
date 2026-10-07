@@ -56,7 +56,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
   },
   "alarme-maison-sans-abonnement": {
     fr: { title: "Alarme maison sans abonnement 2026 : comparatif", description: "Ajax StarterKit, Eufy HomeBase S380, Ring Alarm et Somfy Home Alarm Advanced : auto-surveillance, backup cellulaire, immunité animaux et verdict détaillé." },
-    en: { title: "Best Home Alarm Systems Without Subscription UK 2026", description: "Four home alarm systems without subscription compared: Ajax StarterKit, Eufy HomeBase S380, Ring Alarm and Somfy, with self-monitoring and pet sensors." },
+    en: { title: "Home Alarm Systems Without Subscription: 2026 Guide", description: "Four home alarm systems without subscription compared: Ajax StarterKit, Eufy HomeBase S380, Ring Alarm and Somfy, with self-monitoring and pet sensors." },
     de: { title: "Alarmanlage ohne Abo 2026: Ajax, Eufy, Ring, Somfy", description: "Alarmanlage ohne Abo 2026: Ajax StarterKit, Eufy HomeBase S380, Ring Alarm und Somfy Home Alarm im Vergleich mit Selbstüberwachung und Mobilfunk-Backup." },
     es: { title: "Alarmas para casa sin cuotas 2026: Ajax, Eufy, Ring, Somfy", description: "Comparativa de las 4 mejores alarmas para casa sin cuotas en 2026: Ajax StarterKit, Eufy HomeBase S380, Ring Alarm y Somfy Home Alarm Advanced." },
     it: { title: "Allarmi casa senza abbonamento 2026: i migliori", description: "Confronto dei 4 migliori allarmi casa senza abbonamento 2026: Ajax, Eufy HomeBase S380, Ring Alarm e Somfy. Autosorveglianza, backup cellulare e verdetto." },
@@ -80,7 +80,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
   },
   "balance-cuisine-connectee-comparatif": {
     fr: { title: "Balance de cuisine connectée 2026 : comparatif des 4", description: "Etekcity Nutrition, Renpho Smart, Drop Scale et Yummly Smart Scale comparées : précision 0,1 g, suivi nutritionnel, recettes, Bluetooth/WiFi, applications." },
-    en: { title: "Best Smart Kitchen Scales 2026: Top 4 Connected Scales UK", description: "Smart kitchen scales compared for 2026: Etekcity, Renpho, Drop and Yummly on 0.1g accuracy, nutrition tracking, recipe integration and apps." },
+    en: { title: "Smart Kitchen Scales 2026: Top 4 Compared", description: "Smart kitchen scales compared for 2026: Etekcity, Renpho, Drop and Yummly on 0.1g accuracy, nutrition tracking, recipe integration and apps." },
     de: { title: "Smarte Küchenwaage Vergleich 2026: Die 4 besten", description: "Smarte Küchenwaagen 2026: Etekcity Nutrition, Renpho Smart, Drop Scale und Yummly mit 0,1 g Genauigkeit, Nährwert-Tracking, Rezepten und App im Vergleich." },
     es: { title: "Báscula de cocina inteligente 2026: las 4 mejores", description: "Comparativa de básculas de cocina inteligentes 2026: Etekcity Nutrition, Renpho Smart, Drop Scale y Yummly Smart Scale. Precisión de 0,1 g y seguimiento." },
     it: { title: "Bilancia da cucina smart 2026: le 4 migliori", description: "Confronto delle migliori bilance da cucina smart 2026: Etekcity Nutrition, Renpho Smart, Drop Scale e Yummly. Precisione 0,1 g, nutrizione, ricette e app." },
@@ -160,7 +160,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
   },
   "comparatif-camera-surveillance-exterieure": {
     fr: { title: "Caméra de surveillance extérieure sans abonnement 2026", description: "Eufy S330, Reolink RLC-833A, Arlo Pro 5S et Tapo C520WS comparées : résolution, vision nocturne, stockage local et conformité RGPD, sans abonnement." },
-    en: { title: "Best Outdoor Security Cameras No Subscription UK 2026", description: "Four outdoor security cameras without subscription compared: Eufy S330, Reolink RLC-833A, Arlo Pro 5S and Tapo C520WS on resolution and night vision." },
+    en: { title: "Outdoor Security Cameras Without Subscription 2026", description: "Four outdoor security cameras without subscription compared: Eufy S330, Reolink RLC-833A, Arlo Pro 5S and Tapo C520WS on resolution and night vision." },
     de: { title: "Sicherheitskamera außen ohne Abo 2026: 4 im Vergleich", description: "Die besten Außenkameras ohne Abo 2026: Eufy S330, Reolink RLC-833A, Arlo Pro 5S und Tapo C520WS mit Auflösung, Nachtsicht, lokalem Speicher und DSGVO." },
     es: { title: "Cámaras de vigilancia exterior sin cuotas 2026: 4 modelos", description: "Comparativa de las 4 mejores cámaras de vigilancia exterior sin cuotas en 2026: Eufy S330, Reolink RLC-833A, Arlo Pro 5S y TP-Link Tapo C520WS." },
     it: { title: "Videocamere sorveglianza esterna senza abbonamento", description: "Le 4 migliori videocamere di sorveglianza esterna senza abbonamento 2026: Eufy S330, Reolink RLC-833A, Arlo Pro 5S e Tapo C520WS. Con GDPR e archivio." },
@@ -528,7 +528,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
   },
   "sonnette-video-sans-abonnement": {
     fr: { title: "Sonnette vidéo sans abonnement 2026 : comparatif", description: "Eufy E340, Ring Battery Doorbell Plus, Reolink et Google Nest Doorbell comparées : installation, stockage local, RGPD et verdict détaillé pour 2026." },
-    en: { title: "Best Video Doorbells No Subscription UK 2026: 4 Compared", description: "Four video doorbells without subscription compared: Eufy E340, Ring Battery Doorbell Plus, Reolink and Google Nest, with local storage and GDPR." },
+    en: { title: "Video Doorbells Without Subscription: 4 Compared", description: "Four video doorbells without subscription compared: Eufy E340, Ring Battery Doorbell Plus, Reolink and Google Nest, with local storage and GDPR." },
     de: { title: "Video-Türklingel ohne Abo 2026: Eufy, Ring, Reolink, Nest", description: "Video-Türklingel ohne Abo 2026: Eufy E340, Ring Battery Doorbell Plus, Reolink und Google Nest im Vergleich mit Installation, lokalem Speicher und DSGVO." },
     es: { title: "Videoporteros sin cuotas 2026: Eufy, Ring, Reolink y Nest", description: "Comparativa de los 4 mejores videoporteros sin cuotas en 2026: Eufy E340, Ring Battery Doorbell Plus, Reolink WiFi Doorbell y Google Nest Doorbell." },
     it: { title: "Videocitofoni smart senza abbonamento 2026: confronto", description: "Confronto dei 4 migliori videocitofoni smart senza abbonamento 2026: Eufy E340, Ring, Reolink e Google Nest. Installazione, archiviazione locale e GDPR." },
@@ -544,7 +544,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
   },
   "tendances-maison-connectee-2026": {
     fr: { title: "8 tendances maison connectée 2026 : ce qui change", description: "IA embarquée, edge computing, solaire et batterie, robots domestiques, Matter, assistants vocaux, sécurité sans abonnement : les 8 tendances de 2026." },
-    en: { title: "Top 8 Smart Home Trends 2026 UK: What Is Changing", description: "The 8 smart home trends of 2026: on-device AI, edge computing, solar and home batteries, domestic robots, Matter, AI voice and subscription-free security." },
+    en: { title: "8 Smart Home Trends for 2026: What Is Changing", description: "The 8 smart home trends of 2026: on-device AI, edge computing, solar and home batteries, domestic robots, Matter, AI voice and subscription-free security." },
     de: { title: "Die 8 großen Smart-Home-Trends 2026 im Überblick", description: "Die 8 Smart-Home-Trends 2026: On-Device-KI, Edge Computing, Solar mit Hausbatterie, Haushaltsroboter, Matter, KI-Sprachassistenten und Sicherheit ohne Abo." },
     es: { title: "8 tendencias del hogar inteligente 2026: qué cambia", description: "Las 8 tendencias del hogar inteligente en 2026: IA en el dispositivo, edge computing, solar con batería, robots domésticos, Matter y asistentes de voz." },
     it: { title: "Le 8 tendenze casa smart 2026: cosa cambia", description: "Le 8 tendenze della casa smart 2026: IA on-device, edge computing, solare con batteria, robot domestici, Matter, sicurezza senza abbonamento e altro." },
