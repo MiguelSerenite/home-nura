@@ -314,13 +314,13 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
     return (
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-10">
-          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
+          <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-brand-600 mb-5">
             {dict.resultKicker}
           </div>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-slate-900 mb-5">
             {dict.resultTitle(categoryLabel)}
           </h2>
-          <div className="h-[2px] w-16 bg-blue-600 mx-auto mb-6"></div>
+          <div className="h-[2px] w-16 bg-brand-600 mx-auto mb-6"></div>
           <p className="text-base text-slate-600 leading-relaxed max-w-2xl mx-auto">{why}</p>
         </div>
 
@@ -357,7 +357,7 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
                     lang: currentLang,
                   })
                 }
-                className="mt-auto block w-full rounded-full bg-blue-600 px-3 py-2.5 text-center text-xs font-bold text-white hover:bg-blue-700 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                className="mt-auto block w-full rounded-full bg-brand-600 px-3 py-2.5 text-center text-xs font-bold text-white hover:bg-brand-700 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2"
               >
                 {dict.ctaBuy}
               </a>
@@ -368,7 +368,7 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
             href={`/${currentLang}/cuisine-connectee/${category}`}
-            className="inline-flex items-center gap-2 px-6 py-3 bg-slate-900 text-white text-sm font-bold rounded-full hover:bg-blue-700 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-slate-900 text-white text-sm font-bold rounded-full hover:bg-brand-700 transition-colors"
           >
             <span className="uppercase tracking-[0.15em] text-[11px]">{dict.ctaSeeAll}</span>
             <span>&rarr;</span>
@@ -404,7 +404,7 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
         <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-5 max-w-2xl mx-auto leading-tight">
           {questionText}
         </h2>
-        <div className="h-[2px] w-12 bg-blue-600 mx-auto"></div>
+        <div className="h-[2px] w-12 bg-brand-600 mx-auto"></div>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
@@ -423,8 +423,8 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
               }
               className={`flex items-center gap-4 p-5 rounded-2xl border-2 text-left transition duration-200 ${
                 isSelected
-                  ? 'border-blue-600 bg-blue-50'
-                  : 'border-slate-200 bg-white hover:border-blue-300 hover:bg-slate-50'
+                  ? 'border-brand-600 bg-brand-50'
+                  : 'border-slate-200 bg-white hover:border-brand-300 hover:bg-slate-50'
               }`}
             >
               <span className="text-2xl shrink-0" aria-hidden="true">
@@ -443,7 +443,7 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
           <button
             type="button"
             onClick={() => setStep(3)}
-            className="text-xs font-bold tracking-[0.2em] uppercase text-slate-500 hover:text-blue-600 transition-colors"
+            className="text-xs font-bold tracking-[0.2em] uppercase text-slate-500 hover:text-brand-600 transition-colors"
           >
             {dict.skip} &rarr;
           </button>

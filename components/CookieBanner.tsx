@@ -58,7 +58,7 @@ export default function CookieBanner({ lang, dict }: CookieBannerProps) {
             {dict.cookie_banner_text}{' '}
             <Link
               href={`/${lang}/politique-cookies`}
-              className="text-blue-600 font-semibold hover:underline"
+              className="text-brand-600 font-semibold hover:underline"
             >
               {dict.cookie_learn_more}
             </Link>
@@ -73,7 +73,7 @@ export default function CookieBanner({ lang, dict }: CookieBannerProps) {
           </button>
           <button
             onClick={handleAccept}
-            className="px-5 py-2.5 text-sm font-bold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-colors"
+            className="px-5 py-2.5 text-sm font-bold text-white bg-brand-600 rounded-full hover:bg-brand-700 transition-colors"
           >
             {dict.cookie_accept}
           </button>

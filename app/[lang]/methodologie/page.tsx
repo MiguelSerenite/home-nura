@@ -530,7 +530,7 @@ export default async function MethodologiePage({
             <li>
               <Link
                 href={`/${safeLang}`}
-                className="hover:text-blue-600 transition-colors"
+                className="hover:text-brand-600 transition-colors"
               >
                 {c.breadcrumbHome}
               </Link>
@@ -607,7 +607,7 @@ export default async function MethodologiePage({
           <div className="mt-12 text-center">
             <Link
               href={`/${safeLang}${c.ctaHref}`}
-              className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-6 py-3 text-sm font-semibold text-blue-700 hover:bg-blue-100 transition-colors"
+              className="inline-flex items-center gap-2 rounded-full border border-brand-200 bg-brand-50 px-6 py-3 text-sm font-semibold text-brand-700 hover:bg-brand-100 transition-colors"
             >
               <span>{c.ctaLabel}</span>
               <span aria-hidden="true">→</span>

@@ -74,7 +74,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom' }
     const p = displayProducts[0]
     if (!p) return null
     return (
-      <div className="not-prose my-8 rounded-2xl border-2 border-blue-100 bg-gradient-to-r from-blue-50 to-indigo-50 p-4 flex flex-col sm:flex-row items-center gap-4">
+      <div className="not-prose my-8 rounded-2xl border-2 border-brand-100 bg-gradient-to-r from-brand-50 to-accent-50 p-4 flex flex-col sm:flex-row items-center gap-4">
         <div className="w-20 h-20 flex-shrink-0 relative rounded-xl overflow-hidden bg-white">
           <Image src={p.image} alt={p.title} fill sizes="80px" className="object-contain p-1" loading="lazy" />
         </div>
@@ -99,7 +99,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom' }
               lang,
             })
           }
-          className="flex-shrink-0 px-5 py-2.5 bg-blue-600 text-white text-sm font-bold rounded-full hover:bg-blue-700 transition-colors whitespace-nowrap"
+          className="flex-shrink-0 px-5 py-2.5 bg-brand-600 text-white text-sm font-bold rounded-full hover:bg-brand-700 transition-colors whitespace-nowrap"
         >
           {labels.button} →
         </a>
@@ -108,7 +108,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom' }
   }
 
   return (
-    <div className="not-prose mt-12 mb-8 rounded-2xl border-2 border-blue-100 bg-gradient-to-br from-blue-50 to-indigo-50 p-6 md:p-8">
+    <div className="not-prose mt-12 mb-8 rounded-2xl border-2 border-brand-100 bg-gradient-to-br from-brand-50 to-accent-50 p-6 md:p-8">
       <h3 className="text-xl font-bold text-slate-900 mb-1">{labels.title}</h3>
       <p className="text-sm text-slate-500 mb-6">{labels.subtitle}</p>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -120,7 +120,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom' }
             <p className="text-sm font-bold text-slate-900 line-clamp-2 mb-1">{p.title}</p>
             <div className="flex items-center gap-2 mb-3">
               <span className="text-lg font-black text-slate-900">{p.price}</span>
-              <span className={`px-1.5 py-0.5 text-xs font-bold rounded-full ${p.nuraScore >= 9 ? 'bg-emerald-100 text-emerald-700' : 'bg-blue-100 text-blue-700'}`}>
+              <span className={`px-1.5 py-0.5 text-xs font-bold rounded-full ${p.nuraScore >= 9 ? 'bg-emerald-100 text-emerald-700' : 'bg-brand-100 text-brand-700'}`}>
                 {p.nuraScore}/10
               </span>
             </div>
@@ -138,7 +138,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom' }
                   lang,
                 })
               }
-              className="w-full px-4 py-2.5 bg-blue-600 text-white text-sm font-bold rounded-full hover:bg-blue-700 transition-colors text-center block"
+              className="w-full px-4 py-2.5 bg-brand-600 text-white text-sm font-bold rounded-full hover:bg-brand-700 transition-colors text-center block"
             >
               {labels.button} →
             </a>
@@ -148,7 +148,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom' }
       <div className="mt-6 text-center">
         <Link
           href={`/${lang}/guides/airfryers`}
-          className="text-blue-600 font-bold text-sm hover:underline"
+          className="text-brand-600 font-bold text-sm hover:underline"
         >
           {labels.seeAll} →
         </Link>

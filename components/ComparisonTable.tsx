@@ -62,14 +62,14 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
 
   const getScoreColor = (score: number) => {
     if (score >= 9) return 'bg-emerald-500'
-    if (score >= 8) return 'bg-blue-500'
+    if (score >= 8) return 'bg-brand-500'
     if (score >= 7) return 'bg-amber-500'
     return 'bg-slate-400'
   }
 
   const getScoreBg = (score: number) => {
     if (score >= 9) return 'bg-emerald-50 border-emerald-200'
-    if (score >= 8) return 'bg-blue-50 border-blue-200'
+    if (score >= 8) return 'bg-brand-50 border-brand-200'
     if (score >= 7) return 'bg-amber-50 border-amber-200'
     return 'bg-slate-50 border-slate-200'
   }
@@ -94,9 +94,9 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
               key={opt.key}
               onClick={() => setSortBy(opt.key)}
               aria-pressed={sortBy === opt.key}
-              className={`px-3 py-1.5 text-xs font-bold rounded-full transition duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
+              className={`px-3 py-1.5 text-xs font-bold rounded-full transition duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 ${
                 sortBy === opt.key
-                  ? 'bg-blue-600 text-white'
+                  ? 'bg-brand-600 text-white'
                   : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
               }`}
             >
@@ -153,7 +153,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                 </td>
                 <td className="px-6 py-5 text-sm font-medium text-slate-600">{p.capacity}</td>
                 <td className="px-6 py-5">
-                  <span className="text-xs font-bold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-full">{p.bestFor}</span>
+                  <span className="text-xs font-bold text-brand-600 bg-brand-50 px-2.5 py-1 rounded-full">{p.bestFor}</span>
                 </td>
                 <td className="px-6 py-5">
                   <span className="text-lg font-black text-slate-900">{p.price}</span>
@@ -173,7 +173,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                         lang,
                       })
                     }
-                    className="inline-flex px-5 py-2 bg-blue-600 text-white text-xs font-bold rounded-full hover:bg-blue-700 transition-colors"
+                    className="inline-flex px-5 py-2 bg-brand-600 text-white text-xs font-bold rounded-full hover:bg-brand-700 transition-colors"
                   >
                     {dict.buy_button}
                   </a>
@@ -201,7 +201,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                       <div className={`w-2 h-2 rounded-full ${getScoreColor(p.nuraScore)}`} />
                       <span className="font-black">{p.nuraScore}/10</span>
                     </div>
-                    <span className="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded-full">{p.bestFor}</span>
+                    <span className="text-xs font-bold text-brand-600 bg-brand-50 px-2 py-1 rounded-full">{p.bestFor}</span>
                   </div>
                 </div>
               </div>
@@ -224,7 +224,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                       lang,
                     })
                   }
-                  className="px-5 py-2.5 bg-blue-600 text-white text-xs font-bold rounded-full hover:bg-blue-700 transition-colors"
+                  className="px-5 py-2.5 bg-brand-600 text-white text-xs font-bold rounded-full hover:bg-brand-700 transition-colors"
                 >
                   {dict.buy_button}
                 </a>
@@ -236,7 +236,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
               onClick={() => setExpandedRow(expandedRow === i ? null : i)}
               aria-expanded={expandedRow === i}
               aria-controls={`comparison-details-${i}`}
-              className="w-full px-5 py-3 text-xs font-bold text-blue-600 bg-slate-50 hover:bg-slate-100 transition-colors border-t border-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-inset"
+              className="w-full px-5 py-3 text-xs font-bold text-brand-600 bg-slate-50 hover:bg-slate-100 transition-colors border-t border-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-inset"
             >
               {expandedRow === i ? dict.hide_details : dict.show_details}
             </button>

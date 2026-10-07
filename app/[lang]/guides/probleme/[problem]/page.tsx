@@ -274,7 +274,7 @@ export default async function ProblemGuidePage({
         >
           <ol className="flex items-center gap-2 flex-wrap">
             <li>
-              <Link href={`/${safeLang}`} className="hover:text-blue-600 transition-colors">
+              <Link href={`/${safeLang}`} className="hover:text-brand-600 transition-colors">
                 {ui.home}
               </Link>
             </li>
@@ -324,7 +324,7 @@ export default async function ProblemGuidePage({
             <div className="mt-6">
               <Link
                 href={categoryHref}
-                className="inline-flex items-center gap-2 rounded-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 text-sm font-semibold transition-colors"
+                className="inline-flex items-center gap-2 rounded-full bg-brand-600 hover:bg-brand-700 text-white px-6 py-3 text-sm font-semibold transition-colors"
               >
                 <span>{content.fallbackCta}</span>
                 <span aria-hidden="true">→</span>
@@ -337,7 +337,7 @@ export default async function ProblemGuidePage({
         <section className="max-w-3xl mx-auto px-6 pb-12">
           <Link
             href={categoryHref}
-            className="inline-flex items-center gap-2 text-sm font-semibold text-blue-700 hover:text-blue-800"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-brand-700 hover:text-brand-800"
           >
             <span aria-hidden="true">←</span>
             <span>
@@ -360,12 +360,12 @@ export default async function ProblemGuidePage({
                 <li key={sibling.slug}>
                   <Link
                     href={`/${safeLang}/guides/probleme/${sibling.slug}`}
-                    className="group flex flex-col rounded-2xl border border-slate-200 bg-white px-5 py-4 transition duration-200 hover:border-blue-200 hover:shadow-sm"
+                    className="group flex flex-col rounded-2xl border border-slate-200 bg-white px-5 py-4 transition duration-200 hover:border-brand-200 hover:shadow-sm"
                   >
-                    <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-blue-600 mb-1">
+                    <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-brand-600 mb-1">
                       {category.title[safeLang]}
                     </span>
-                    <span className="text-base font-semibold text-slate-900 group-hover:text-blue-700 transition-colors">
+                    <span className="text-base font-semibold text-slate-900 group-hover:text-brand-700 transition-colors">
                       {sibling.query[safeLang]}
                     </span>
                   </Link>
@@ -380,10 +380,10 @@ export default async function ProblemGuidePage({
 
         {/* Methodology CTA */}
         <div className="max-w-6xl mx-auto px-6 pb-20">
-          <div className="rounded-3xl border border-blue-100 bg-gradient-to-br from-blue-50 to-white p-8 md:p-10 text-center">
+          <div className="rounded-3xl border border-brand-100 bg-gradient-to-br from-brand-50 to-white p-8 md:p-10 text-center">
             <Link
               href={`/${safeLang}/methodologie`}
-              className="inline-flex items-center gap-2 rounded-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 text-sm font-semibold transition-colors"
+              className="inline-flex items-center gap-2 rounded-full bg-brand-600 hover:bg-brand-700 text-white px-6 py-3 text-sm font-semibold transition-colors"
             >
               <span>{ui.methodologyCta}</span>
               <span aria-hidden="true">→</span>

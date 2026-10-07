@@ -162,7 +162,7 @@ export function ProductImageCarousel({
               onClick={() => handleThumbnailClick(index)}
               className={`relative flex-shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-md overflow-hidden border-2 transition duration-200 ${
                 index === currentIndex
-                  ? 'border-blue-500 opacity-100'
+                  ? 'border-brand-500 opacity-100'
                   : 'border-gray-300 opacity-70 hover:opacity-100 hover:border-gray-400'
               }`}
               aria-label={`View image ${index + 1}`}

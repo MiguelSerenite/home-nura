@@ -39,13 +39,13 @@ export default function FaqSection({ faqs, title, nonce }: { faqs: FaqItem[]; ti
 
       {/* Editorial header */}
       <div className="text-center mb-14">
-        <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
+        <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-brand-600 mb-5">
           F · A · Q
         </div>
         <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">
           {title}
         </h2>
-        <div className="h-[2px] w-16 bg-blue-600 mx-auto"></div>
+        <div className="h-[2px] w-16 bg-brand-600 mx-auto"></div>
       </div>
 
       {/* FAQ list */}
@@ -61,14 +61,14 @@ export default function FaqSection({ faqs, title, nonce }: { faqs: FaqItem[]; ti
               >
                 <span
                   className={`shrink-0 text-[11px] font-bold tracking-[0.2em] mt-1.5 tabular-nums transition-colors ${
-                    isOpen ? 'text-blue-600' : 'text-slate-600'
+                    isOpen ? 'text-brand-600' : 'text-slate-600'
                   }`}
                 >
                   {String(index + 1).padStart(2, '0')}
                 </span>
                 <span
                   className={`flex-1 text-base md:text-lg font-semibold leading-snug transition-colors ${
-                    isOpen ? 'text-blue-700' : 'text-slate-900 group-hover:text-blue-700'
+                    isOpen ? 'text-brand-700' : 'text-slate-900 group-hover:text-brand-700'
                   }`}
                 >
                   {faq.question}
@@ -76,8 +76,8 @@ export default function FaqSection({ faqs, title, nonce }: { faqs: FaqItem[]; ti
                 <span
                   className={`shrink-0 w-9 h-9 flex items-center justify-center rounded-full border transition duration-300 ${
                     isOpen
-                      ? 'bg-blue-600 border-blue-600 text-white rotate-45'
-                      : 'border-slate-300 text-slate-500 group-hover:border-blue-600 group-hover:text-blue-600'
+                      ? 'bg-brand-600 border-brand-600 text-white rotate-45'
+                      : 'border-slate-300 text-slate-500 group-hover:border-brand-600 group-hover:text-brand-600'
                   }`}
                   aria-hidden="true"
                 >
@@ -99,7 +99,7 @@ export default function FaqSection({ faqs, title, nonce }: { faqs: FaqItem[]; ti
                 }`}
               >
                 <div className="overflow-hidden">
-                  <div className="ml-9 md:ml-11 pr-4 md:pr-14 border-l-2 border-blue-600/30 pl-5 md:pl-6">
+                  <div className="ml-9 md:ml-11 pr-4 md:pr-14 border-l-2 border-brand-600/30 pl-5 md:pl-6">
                     <p className="text-[15px] md:text-base text-slate-600 leading-[1.8]">
                       {faq.answer}
                     </p>

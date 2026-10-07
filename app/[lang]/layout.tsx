@@ -10,8 +10,17 @@ import "../globals.css";
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#2563eb', // blue-600 — matches the site's primary brand color
+  themeColor: '#6b7230', // brand-600 (olive) — matches the logo
 };
+
+const SKIP_LINK_LABEL: Record<Lang, string> = {
+  fr: 'Aller au contenu',
+  en: 'Skip to content',
+  de: 'Zum Inhalt springen',
+  es: 'Ir al contenido',
+  it: 'Vai al contenuto',
+  nl: 'Naar de inhoud',
+}
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -181,6 +190,12 @@ export default async function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col">
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:rounded-full focus:bg-brand-600 focus:px-5 focus:py-2.5 focus:text-sm focus:font-bold focus:text-white"
+        >
+          {SKIP_LINK_LABEL[lang]}
+        </a>
         <WebVitalsReporter />
         {children}
       </body>

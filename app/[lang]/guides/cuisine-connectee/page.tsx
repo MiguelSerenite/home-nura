@@ -391,11 +391,11 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
       <nav className="max-w-6xl mx-auto px-6 pt-10 text-xs text-slate-500" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2 flex-wrap">
           <li>
-            <Link href={`/${safeLang}`} className="hover:text-blue-600 transition-colors">Home</Link>
+            <Link href={`/${safeLang}`} className="hover:text-brand-600 transition-colors">Home</Link>
           </li>
           <li aria-hidden="true">/</li>
           <li>
-            <Link href={`/${safeLang}/cuisine-connectee`} className="hover:text-blue-600 transition-colors">{c.breadcrumbRoot}</Link>
+            <Link href={`/${safeLang}/cuisine-connectee`} className="hover:text-brand-600 transition-colors">{c.breadcrumbRoot}</Link>
           </li>
           <li aria-hidden="true">/</li>
           <li className="text-slate-600 font-medium">{c.breadcrumb}</li>
@@ -410,7 +410,7 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
         </h1>
         <p className="text-lg md:text-xl text-slate-500 mb-5">{c.subtitle}</p>
         <p className="text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">{c.intro}</p>
-        <div className="h-[2px] w-16 bg-blue-600 mx-auto mt-10"></div>
+        <div className="h-[2px] w-16 bg-brand-600 mx-auto mt-10"></div>
         <Kicker variant="slate" size="sm" className="mt-6">{c.lastUpdated}</Kicker>
       </section>
 
@@ -421,7 +421,7 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight text-slate-900 mb-5">
             {c.dossierTitle}
           </h2>
-          <div className="h-[2px] w-16 bg-blue-600 mx-auto"></div>
+          <div className="h-[2px] w-16 bg-brand-600 mx-auto"></div>
         </div>
 
         <div className="divide-y divide-slate-200 border-t border-b border-slate-200">
@@ -431,11 +431,11 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
               <h3 className="text-2xl md:text-[1.875rem] font-bold tracking-tight leading-[1.2] text-slate-900 mb-5">
                 {chapter.title}
               </h3>
-              <div className="h-px w-10 bg-blue-600 mb-6"></div>
+              <div className="h-px w-10 bg-brand-600 mb-6"></div>
               <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85] mb-6">{chapter.body}</p>
               <Link
                 href={`/${safeLang}${chapter.href}`}
-                className="group inline-flex items-center gap-2 text-sm font-semibold text-blue-600 hover:text-blue-700 transition-colors"
+                className="group inline-flex items-center gap-2 text-sm font-semibold text-brand-600 hover:text-brand-700 transition-colors"
               >
                 <span className="uppercase tracking-[0.15em] text-[11px]">{chapter.cta}</span>
                 <span className="transition-transform group-hover:translate-x-1">&rarr;</span>
@@ -453,7 +453,7 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
             {c.categoriesTitle}
           </h2>
           <p className="text-base text-slate-600 max-w-2xl mx-auto leading-relaxed">{c.categoriesIntro}</p>
-          <div className="h-[2px] w-16 bg-blue-600 mx-auto mt-8"></div>
+          <div className="h-[2px] w-16 bg-brand-600 mx-auto mt-8"></div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -461,15 +461,15 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
             <Link
               key={cat}
               href={`/${safeLang}/cuisine-connectee/${cat}`}
-              className="group block rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md hover:border-blue-300 transition duration-200"
+              className="group block rounded-2xl border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md hover:border-brand-300 transition duration-200"
             >
               <Kicker size="sm" className="mb-3">
                 {String(idx + 1).padStart(2, '0')}
               </Kicker>
-              <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-blue-700 transition-colors">
+              <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-brand-700 transition-colors">
                 {categoryLabels[cat][safeLang] || categoryLabels[cat].fr}
               </h3>
-              <div className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-blue-600">
+              <div className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-brand-600">
                 <span className="uppercase tracking-[0.15em] text-[11px]">{c.seeAllButton}</span>
                 <span className="transition-transform group-hover:translate-x-1">&rarr;</span>
               </div>

@@ -25,7 +25,7 @@ export default function NotFound() {
         <p className="text-slate-500 mb-8 max-w-md mx-auto">{t.desc}</p>
         <Link
           href={`/${langFromPath}`}
-          className="inline-flex items-center gap-2 px-8 py-3 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transition-colors"
+          className="inline-flex items-center gap-2 px-8 py-3 bg-brand-600 text-white font-bold rounded-full hover:bg-brand-700 transition-colors"
         >
           {t.button}
         </Link>

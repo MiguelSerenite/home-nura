@@ -125,13 +125,13 @@ export default async function SmartKitchenComparatorPage({ params }: { params: P
       <nav className="max-w-6xl mx-auto px-6 pt-10 text-xs text-slate-500" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2 flex-wrap">
           <li>
-            <Link href={`/${safeLang}`} className="hover:text-blue-600 transition-colors">
+            <Link href={`/${safeLang}`} className="hover:text-brand-600 transition-colors">
               Home
             </Link>
           </li>
           <li aria-hidden="true">/</li>
           <li>
-            <Link href={`/${safeLang}/cuisine-connectee`} className="hover:text-blue-600 transition-colors">
+            <Link href={`/${safeLang}/cuisine-connectee`} className="hover:text-brand-600 transition-colors">
               {c.breadcrumbRoot}
             </Link>
           </li>

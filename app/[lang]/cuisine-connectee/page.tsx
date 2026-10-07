@@ -290,7 +290,7 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
       <nav className="max-w-6xl mx-auto px-6 pt-10 text-xs text-slate-500" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2">
           <li>
-            <Link href={`/${safeLang}`} className="hover:text-blue-600 transition-colors">
+            <Link href={`/${safeLang}`} className="hover:text-brand-600 transition-colors">
               Home
             </Link>
           </li>
@@ -321,18 +321,18 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
               <Link
                 key={slug}
                 href={`/${safeLang}/cuisine-connectee/${slug}`}
-                className="group relative flex flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition duration-200 hover:shadow-md hover:-translate-y-1 hover:border-blue-200"
+                className="group relative flex flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition duration-200 hover:shadow-md hover:-translate-y-1 hover:border-brand-200"
               >
                 <Kicker size="sm" className="mb-3">
                   {String(index + 1).padStart(2, '0')} · {c.categoryKicker}
                 </Kicker>
-                <h3 className="text-xl font-bold text-slate-900 leading-tight mb-3 group-hover:text-blue-700 transition-colors">
+                <h3 className="text-xl font-bold text-slate-900 leading-tight mb-3 group-hover:text-brand-700 transition-colors">
                   {cat.name}
                 </h3>
                 <p className="text-sm text-slate-500 leading-relaxed flex-1">
                   {cat.tagline}
                 </p>
-                <div className="mt-5 text-sm font-semibold text-blue-600 group-hover:translate-x-1 transition-transform">
+                <div className="mt-5 text-sm font-semibold text-brand-600 group-hover:translate-x-1 transition-transform">
                   {c.ctaCategory} →
                 </div>
               </Link>
@@ -341,7 +341,7 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
         </div>
 
         {/* Comparator CTA */}
-        <div className="mt-12 rounded-3xl border border-blue-100 bg-gradient-to-br from-blue-50 to-white p-8 md:p-10 text-center">
+        <div className="mt-12 rounded-3xl border border-brand-100 bg-gradient-to-br from-brand-50 to-white p-8 md:p-10 text-center">
           <p className="text-base md:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto mb-6">
             {c.comparatorDesc}
           </p>

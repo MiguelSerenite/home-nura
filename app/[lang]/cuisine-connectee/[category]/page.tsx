@@ -448,13 +448,13 @@ export default async function CategoryPage({
       <nav className="max-w-6xl mx-auto px-6 pt-10 text-xs text-slate-500" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2 flex-wrap">
           <li>
-            <Link href={`/${safeLang}`} className="hover:text-blue-600 transition-colors">
+            <Link href={`/${safeLang}`} className="hover:text-brand-600 transition-colors">
               Home
             </Link>
           </li>
           <li aria-hidden="true">/</li>
           <li>
-            <Link href={`/${safeLang}/cuisine-connectee`} className="hover:text-blue-600 transition-colors">
+            <Link href={`/${safeLang}/cuisine-connectee`} className="hover:text-brand-600 transition-colors">
               {c.breadcrumbRoot}
             </Link>
           </li>
@@ -510,12 +510,12 @@ export default async function CategoryPage({
               <li key={persona.slug}>
                 <Link
                   href={`/${safeLang}/cuisine-connectee/${safeCat}/meilleur-pour/${persona.slug}`}
-                  className="group flex flex-col rounded-2xl border border-slate-200 bg-white px-5 py-4 transition duration-200 hover:border-blue-200 hover:shadow-sm"
+                  className="group flex flex-col rounded-2xl border border-slate-200 bg-white px-5 py-4 transition duration-200 hover:border-brand-200 hover:shadow-sm"
                 >
-                  <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-blue-600 mb-1">
+                  <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-brand-600 mb-1">
                     {bestForUi.prefix} {c.kicker.toLowerCase()}
                   </span>
-                  <span className="text-base font-semibold text-slate-900 group-hover:text-blue-700 transition-colors">
+                  <span className="text-base font-semibold text-slate-900 group-hover:text-brand-700 transition-colors">
                     {persona.label[safeLang]}
                   </span>
                 </Link>

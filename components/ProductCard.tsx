@@ -92,7 +92,7 @@ export default async function ProductCard({ name, price, imageUrl, affiliateLink
           position={position}
           location="product_card"
           lang={lang}
-          className="mt-6 block w-full rounded-full bg-blue-600 px-4 py-3 text-center text-sm font-bold text-white transition-colors hover:bg-blue-700"
+          className="mt-6 block w-full rounded-full bg-brand-600 px-4 py-3 text-center text-sm font-bold text-white transition-colors hover:bg-brand-700"
         >
           {buyButtonText || 'Vérifier le prix sur Amazon'}
         </AffiliateLink>
