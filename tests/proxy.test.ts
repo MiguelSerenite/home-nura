@@ -21,7 +21,7 @@
 
 import { describe, it, expect } from 'vitest'
 import { NextRequest } from 'next/server'
-import { middleware } from '@/middleware'
+import { proxy as middleware } from '@/proxy'
 
 function invoke(pathname: string = '/fr/guides/airfryers'): Response {
   const request = new NextRequest(new URL(`http://localhost${pathname}`), {
@@ -111,6 +111,31 @@ describe('middleware security headers', () => {
     expect(a).toBeTruthy()
     expect(b).toBeTruthy()
     expect(a).not.toBe(b)
+  })
+})
+
+describe('middleware hardened CSP (refonte lot 3)', () => {
+  const response = invoke()
+  const csp = response.headers.get('Content-Security-Policy') ?? ''
+  const scriptSrc = csp.split(';').map((d) => d.trim()).find((d) => d.startsWith('script-src')) ?? ''
+
+  it('does not weaken script-src with https: or unsafe-inline fallbacks', () => {
+    expect(scriptSrc).not.toContain("'unsafe-inline'")
+    expect(scriptSrc).not.toMatch(/\shttps:(\s|$)/)
+  })
+
+  it('blocks plugins and upgrades insecure requests', () => {
+    expect(csp).toContain("object-src 'none'")
+    expect(csp).toContain('upgrade-insecure-requests')
+  })
+
+  it('isolates the browsing context and resources', () => {
+    expect(response.headers.get('Cross-Origin-Opener-Policy')).toBe('same-origin')
+    expect(response.headers.get('Cross-Origin-Resource-Policy')).toBe('same-origin')
+  })
+
+  it('drops the deprecated X-XSS-Protection header', () => {
+    expect(response.headers.get('X-XSS-Protection')).toBeNull()
   })
 })
 

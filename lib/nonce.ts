@@ -1,7 +1,7 @@
 import { headers } from 'next/headers'
 
 /**
- * Read the per-request CSP nonce injected by middleware.ts.
+ * Read the per-request CSP nonce injected by proxy.ts.
  * Use in server components to attach `nonce={...}` to inline <script> tags
  * (JSON-LD schemas, etc.) so they pass the strict CSP policy.
  *

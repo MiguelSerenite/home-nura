@@ -94,7 +94,7 @@ function generateNonce(): string {
   return btoa(binary)
 }
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl
 
   // Root path: negotiate a language and 302 to /{lang}
@@ -154,10 +154,6 @@ export function middleware(request: NextRequest) {
     `'nonce-${nonce}'`,
     "'strict-dynamic'",
     isDev ? "'unsafe-eval'" : '',
-    // Older browsers that don't understand strict-dynamic fall back here.
-    // Modern browsers ignore these when strict-dynamic is present.
-    'https:',
-    "'unsafe-inline'",
   ]
     .filter(Boolean)
     .join(' ')
@@ -173,6 +169,8 @@ export function middleware(request: NextRequest) {
     "frame-ancestors 'none'",
     "base-uri 'self'",
     "form-action 'self'",
+    "object-src 'none'",
+    'upgrade-insecure-requests',
   ].join('; ')
 
   // Propagate nonce to request headers so server components can read it
@@ -189,7 +187,8 @@ export function middleware(request: NextRequest) {
   // Security headers
   response.headers.set('X-Content-Type-Options', 'nosniff')
   response.headers.set('X-Frame-Options', 'DENY')
-  response.headers.set('X-XSS-Protection', '1; mode=block')
+  response.headers.set('Cross-Origin-Opener-Policy', 'same-origin')
+  response.headers.set('Cross-Origin-Resource-Policy', 'same-origin')
   response.headers.set('Referrer-Policy', 'strict-origin-when-cross-origin')
   response.headers.set('Permissions-Policy', 'camera=(), microphone=(), geolocation=()')
   response.headers.set(
