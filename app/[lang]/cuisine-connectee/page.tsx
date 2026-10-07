@@ -6,6 +6,8 @@ import { buildPageMetadata, buildBreadcrumbListSchema } from '@/lib/seo'
 import { SMART_KITCHEN_CATEGORIES, type SmartKitchenCategory } from '@/lib/smart-kitchen-products'
 import { Kicker, SectionHero, SiteFooter, Button } from '@/components/ui'
 import { resolveLang } from '@/lib/i18n'
+import FaqSection from '@/components/FaqSection'
+import { getSiloFaq, SILO_FAQ_TITLE } from '@/lib/catalog/silo-faqs'
 
 
 interface PillarContent {
@@ -352,6 +354,8 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
       </main>
 
       {/* Footer */}
+      <FaqSection faqs={[...getSiloFaq(safeLang, 'cuisine-connectee')]} title={SILO_FAQ_TITLE[safeLang]} nonce={nonce} />
+
       <SiteFooter
         currentLang={safeLang}
       />

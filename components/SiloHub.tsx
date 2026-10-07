@@ -23,6 +23,8 @@ import { Kicker, SectionHero, SiteFooter } from '@/components/ui'
 import { getMetaSilo, getCategoriesBySilo } from '@/lib/catalog'
 import type { MetaSiloSlug } from '@/lib/catalog'
 import { isValidLang, type Lang } from '@/lib/i18n'
+import FaqSection from '@/components/FaqSection'
+import { getSiloFaq, SILO_FAQ_TITLE } from '@/lib/catalog/silo-faqs'
 
 const uiStrings: Record<Lang, { home: string; comingSoon: string; categoriesTitle: string; methodologyCta: string }> = {
   fr: {
@@ -219,6 +221,8 @@ export default async function SiloHub({ siloSlug, lang }: SiloHubProps) {
           </div>
         </section>
       </main>
+
+      <FaqSection faqs={[...getSiloFaq(safeLang, silo.slug)]} title={SILO_FAQ_TITLE[safeLang]} nonce={nonce} />
 
       <SiteFooter currentLang={safeLang} />
     </div>
