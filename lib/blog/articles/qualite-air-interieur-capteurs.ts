@@ -164,10 +164,10 @@ export const article: BlogArticle = {
 </table>
 
 <h3>Airthings Wave Plus: premium choice with radon</h3>
-<p>The only affordable consumer monitor measuring radon. Also measures CO2, VOCs, humidity, temperature and atmospheric pressure. Bluetooth + app, compatible SmartThings, Alexa, Google Assistant and Home Assistant open API. 2-year battery. <a href="https://www.amazon.fr/dp/B07JB8QWH7?tag=homenuraen-21" rel="nofollow sponsored">Airthings Wave Plus on Amazon</a></p>
+<p>The only affordable consumer monitor measuring radon. Also measures CO2, VOCs, humidity, temperature and atmospheric pressure. Bluetooth + app, compatible SmartThings, Alexa, Google Assistant and Home Assistant open API. 2-year battery. <a href="https://www.amazon.fr/dp/B07JB8QWH7?tag=homenuraen05-21" rel="nofollow sponsored">Airthings Wave Plus on Amazon</a></p>
 
 <h3>Govee Life H5106: best value for money</h3>
-<p>At £70, measures PM2.5, CO2, VOCs, humidity and temperature — parameters only £150-200 devices measured 2 years ago. Direct WiFi, Govee Home app, colour LCD screen. <a href="https://www.amazon.fr/dp/B0BXQVFMYS?tag=homenuraen-21" rel="nofollow sponsored">Govee Life H5106 on Amazon</a></p>
+<p>At £70, measures PM2.5, CO2, VOCs, humidity and temperature — parameters only £150-200 devices measured 2 years ago. Direct WiFi, Govee Home app, colour LCD screen. <a href="https://www.amazon.fr/dp/B0BXQVFMYS?tag=homenuraen05-21" rel="nofollow sponsored">Govee Life H5106 on Amazon</a></p>
 
 <h2>More vulnerable populations</h2>
 <p>Children breathe 2-3x more air relative to body weight than adults. Their respiratory and nervous systems are still developing — pollutant effects are proportionally greater. Elderly people spend even more time indoors (often 95%) and have reduced respiratory capacity. The WHO and <strong>Which?</strong> both recommend monitoring indoor air quality especially in homes with children or elderly residents.</p>
@@ -207,9 +207,9 @@ export const article: BlogArticle = {
 </table>
 <p><strong>Stiftung Warentest</strong> empfiehlt fur Radon-gefahrdete Regionen (Bayern, Sachsen, Thüringen) den Airthings Wave Plus als einzigen zuverlassigen Verbrauchermesser fur Radon.</p>
 
-<h3>Airthings Wave Plus: <a href="https://www.amazon.fr/dp/B07JB8QWH7?tag=homenuraen00-21" rel="nofollow sponsored">auf Amazon ansehen</a></h3>
-<h3>Govee Life H5106: <a href="https://www.amazon.fr/dp/B0BXQVFMYS?tag=homenuraen00-21" rel="nofollow sponsored">auf Amazon ansehen</a></h3>
-<h3>Netatmo Smart Indoor: <a href="https://www.amazon.fr/dp/B07S6DFJCK?tag=homenuraen00-21" rel="nofollow sponsored">auf Amazon ansehen</a></h3>`,
+<h3>Airthings Wave Plus: <a href="https://www.amazon.fr/dp/B07JB8QWH7?tag=homenuraen05-21" rel="nofollow sponsored">auf Amazon ansehen</a></h3>
+<h3>Govee Life H5106: <a href="https://www.amazon.fr/dp/B0BXQVFMYS?tag=homenuraen05-21" rel="nofollow sponsored">auf Amazon ansehen</a></h3>
+<h3>Netatmo Smart Indoor: <a href="https://www.amazon.fr/dp/B07S6DFJCK?tag=homenuraen05-21" rel="nofollow sponsored">auf Amazon ansehen</a></h3>`,
 
     es: `<h2>El aire interior: ¿mas contaminado que el exterior?</h2>
 <p>El aire interior suele estar <strong>5 a 10 veces mas contaminado que el exterior</strong>. Pasamos una media del <strong>90% de nuestro tiempo en interiores</strong>. Consulta tambien nuestra <a href="/es/blog/guide-purificateur-air-2026">guia de purificador de aire</a> y nuestro <a href="/es/blog/station-meteo-connectee-comparatif">comparativo de estaciones meteorologicas conectadas</a>.</p>
@@ -235,9 +235,9 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 <p>La OCU recomienda a los residentes en zonas de riesgo de radon (Galicia, Extremadura) instalar al menos un monitor de radon certificado, siendo el Airthings Wave Plus la mejor opcion para el consumidor.</p>
-<p><strong>Airthings Wave Plus:</strong> <a href="https://www.amazon.fr/dp/B07JB8QWH7?tag=homenuraen0a-21" rel="nofollow sponsored">ver en Amazon</a><br>
-<strong>Govee Life H5106:</strong> <a href="https://www.amazon.fr/dp/B0BXQVFMYS?tag=homenuraen0a-21" rel="nofollow sponsored">ver en Amazon</a><br>
-<strong>Netatmo Smart Indoor:</strong> <a href="https://www.amazon.fr/dp/B07S6DFJCK?tag=homenuraen0a-21" rel="nofollow sponsored">ver en Amazon</a></p>`,
+<p><strong>Airthings Wave Plus:</strong> <a href="https://www.amazon.fr/dp/B07JB8QWH7?tag=homenuraen05-21" rel="nofollow sponsored">ver en Amazon</a><br>
+<strong>Govee Life H5106:</strong> <a href="https://www.amazon.fr/dp/B0BXQVFMYS?tag=homenuraen05-21" rel="nofollow sponsored">ver en Amazon</a><br>
+<strong>Netatmo Smart Indoor:</strong> <a href="https://www.amazon.fr/dp/B07S6DFJCK?tag=homenuraen05-21" rel="nofollow sponsored">ver en Amazon</a></p>`,
 
     it: `<h2>L'aria interna: piu inquinata di quella esterna?</h2>
 <p>L'aria interna e spesso <strong>da 5 a 10 volte piu inquinata di quella esterna</strong>. Passiamo in media il <strong>90% del tempo in ambienti chiusi</strong>. Consulta anche la nostra <a href="/it/blog/guide-purificateur-air-2026">guida purificatore d'aria</a> e il nostro <a href="/it/blog/station-meteo-connectee-comparatif">confronto stazioni meteo connesse</a>.</p>
@@ -263,9 +263,9 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 <p>Altroconsumo raccomanda agli abitanti delle zone a rischio radon (Lazio, Friuli) di installare almeno un monitor radon certificato. L'Airthings Wave Plus e la migliore opzione per i consumatori.</p>
-<p><strong>Airthings Wave Plus:</strong> <a href="https://www.amazon.fr/dp/B07JB8QWH7?tag=homenuraen010-21" rel="nofollow sponsored">vedi su Amazon</a><br>
-<strong>Govee Life H5106:</strong> <a href="https://www.amazon.fr/dp/B0BXQVFMYS?tag=homenuraen010-21" rel="nofollow sponsored">vedi su Amazon</a><br>
-<strong>Netatmo Smart Indoor:</strong> <a href="https://www.amazon.fr/dp/B07S6DFJCK?tag=homenuraen010-21" rel="nofollow sponsored">vedi su Amazon</a></p>`,
+<p><strong>Airthings Wave Plus:</strong> <a href="https://www.amazon.fr/dp/B07JB8QWH7?tag=homenuraen05-21" rel="nofollow sponsored">vedi su Amazon</a><br>
+<strong>Govee Life H5106:</strong> <a href="https://www.amazon.fr/dp/B0BXQVFMYS?tag=homenuraen05-21" rel="nofollow sponsored">vedi su Amazon</a><br>
+<strong>Netatmo Smart Indoor:</strong> <a href="https://www.amazon.fr/dp/B07S6DFJCK?tag=homenuraen05-21" rel="nofollow sponsored">vedi su Amazon</a></p>`,
 
     nl: `<h2>Binnenlucht: meer vervuild dan buitenlucht?</h2>
 <p>Binnenlucht is vaak <strong>5 tot 10 keer meer vervuild dan buitenlucht</strong>. We brengen gemiddeld <strong>90% van onze tijd binnenshuis</strong> door. Zie ook onze <a href="/nl/blog/guide-purificateur-air-2026">luchtreiniger gids</a> en onze <a href="/nl/blog/station-meteo-connectee-comparatif">verbonden weerstation vergelijking</a>.</p>
@@ -291,9 +291,9 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 <p>De <strong>Consumentenbond</strong> beveelt bewoners in radon-risicogebieden (Brabant, Limburg) aan minimaal een gecertificeerde radonmonitor te installeren. De Airthings Wave Plus is de beste consumentenoptie.</p>
-<p><strong>Airthings Wave Plus:</strong> <a href="https://www.amazon.fr/dp/B07JB8QWH7?tag=homenuranl-21" rel="nofollow sponsored">bekijk op Amazon</a><br>
-<strong>Govee Life H5106:</strong> <a href="https://www.amazon.fr/dp/B0BXQVFMYS?tag=homenuranl-21" rel="nofollow sponsored">bekijk op Amazon</a><br>
-<strong>Netatmo Smart Indoor:</strong> <a href="https://www.amazon.fr/dp/B07S6DFJCK?tag=homenuranl-21" rel="nofollow sponsored">bekijk op Amazon</a></p>`,
+<p><strong>Airthings Wave Plus:</strong> <a href="https://www.amazon.fr/dp/B07JB8QWH7?tag=homenuraen05-21" rel="nofollow sponsored">bekijk op Amazon</a><br>
+<strong>Govee Life H5106:</strong> <a href="https://www.amazon.fr/dp/B0BXQVFMYS?tag=homenuraen05-21" rel="nofollow sponsored">bekijk op Amazon</a><br>
+<strong>Netatmo Smart Indoor:</strong> <a href="https://www.amazon.fr/dp/B07S6DFJCK?tag=homenuraen05-21" rel="nofollow sponsored">bekijk op Amazon</a></p>`,
   },
   faq: [
     {

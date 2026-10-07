@@ -166,16 +166,16 @@ export const article: BlogArticle = {
 </table>
 
 <h3>EuroCave Pure Connect: the French reference</h3>
-<p>EuroCave is the French founding brand of residential wine cellars. The <strong>Pure Connect</strong> series features the <strong>My EuroCave</strong> app (iOS/Android) with real-time temperature monitoring, 30-day history, thermal drift alerts and multi-user sharing. Exceptional thermal stability: ±0.5°C via static evaporative cooling. <a href="https://www.amazon.fr/dp/B09QD3C4TX?tag=homenuraen-21" rel="nofollow sponsored">EuroCave Pure on Amazon</a></p>
+<p>EuroCave is the French founding brand of residential wine cellars. The <strong>Pure Connect</strong> series features the <strong>My EuroCave</strong> app (iOS/Android) with real-time temperature monitoring, 30-day history, thermal drift alerts and multi-user sharing. Exceptional thermal stability: ±0.5°C via static evaporative cooling. <a href="https://www.amazon.fr/dp/B09QD3C4TX?tag=homenuraen05-21" rel="nofollow sponsored">EuroCave Pure on Amazon</a></p>
 
 <h3>Liebherr WTb1812: German excellence</h3>
-<p>Record thermal stability: ±0.3°C (the most precise in this comparison). 178 bottles in 2 independent zones. SmartDevice app with remote control, temperature history, alerts, wine-type presets. <a href="https://www.amazon.fr/dp/B09SMQZ1FS?tag=homenuraen-21" rel="nofollow sponsored">Liebherr WTb1812 on Amazon</a></p>
+<p>Record thermal stability: ±0.3°C (the most precise in this comparison). 178 bottles in 2 independent zones. SmartDevice app with remote control, temperature history, alerts, wine-type presets. <a href="https://www.amazon.fr/dp/B09SMQZ1FS?tag=homenuraen05-21" rel="nofollow sponsored">Liebherr WTb1812 on Amazon</a></p>
 
 <h3>Dunavox DAW-72: the connected multi-purpose</h3>
-<p>Native WiFi without additional module, 2 independent zones, brushed stainless design, Dunavox app with real-time monitoring and push alerts. <a href="https://www.amazon.fr/dp/B09X8V3NCZ?tag=homenuraen-21" rel="nofollow sponsored">Dunavox DAW-72 on Amazon</a></p>
+<p>Native WiFi without additional module, 2 independent zones, brushed stainless design, Dunavox app with real-time monitoring and push alerts. <a href="https://www.amazon.fr/dp/B09X8V3NCZ?tag=homenuraen05-21" rel="nofollow sponsored">Dunavox DAW-72 on Amazon</a></p>
 
 <h3>Swisscave WLB-230FL: Swiss premium</h3>
-<p>Thermoelectric cooling (no compressor = zero vibrations), ±0.2°C stability, 365-day temperature/humidity history, food-grade stainless steel construction. Best choice for very old bottles and investment wines. <a href="https://www.amazon.fr/dp/B0BL73MFSQ?tag=homenuraen-21" rel="nofollow sponsored">Swisscave WLB-230FL on Amazon</a></p>
+<p>Thermoelectric cooling (no compressor = zero vibrations), ±0.2°C stability, 365-day temperature/humidity history, food-grade stainless steel construction. Best choice for very old bottles and investment wines. <a href="https://www.amazon.fr/dp/B0BL73MFSQ?tag=homenuraen05-21" rel="nofollow sponsored">Swisscave WLB-230FL on Amazon</a></p>
 
 <h2>The science of wine conservation</h2>
 <p>Ideal long-term storage temperature: <strong>12-14°C</strong>. More than the absolute level, <strong>thermal stability</strong> is crucial — repeated daily variations tire the cork and gradually oxidise the wine. Vibrations disturb sediment in old red wines and can crack corks long-term. Humidity of 50-70% keeps cork stoppers supple and airtight. UV light degrades tannins and alters wine taste. According to <strong>Which?</strong> wine experts, temperature stability matters more than any other factor for wines stored over 5 years.</p>
@@ -218,10 +218,10 @@ export const article: BlogArticle = {
 </table>
 <p><strong>Stiftung Warentest</strong> empfiehlt fur die langfristige Weinlagerung Modelle mit einer Temperaturstabilitat von ±0,5°C oder besser. Die EuroCave Pure und Liebherr WTb1812 erfullen diese Anforderung zuverlassig.</p>
 
-<p><strong>EuroCave Pure:</strong> <a href="https://www.amazon.fr/dp/B09QD3C4TX?tag=homenuraen00-21" rel="nofollow sponsored">Auf Amazon ansehen</a><br>
-<strong>Liebherr WTb1812:</strong> <a href="https://www.amazon.fr/dp/B09SMQZ1FS?tag=homenuraen00-21" rel="nofollow sponsored">Auf Amazon ansehen</a><br>
-<strong>Dunavox DAW-72:</strong> <a href="https://www.amazon.fr/dp/B09X8V3NCZ?tag=homenuraen00-21" rel="nofollow sponsored">Auf Amazon ansehen</a><br>
-<strong>Swisscave WLB-230FL:</strong> <a href="https://www.amazon.fr/dp/B0BL73MFSQ?tag=homenuraen00-21" rel="nofollow sponsored">Auf Amazon ansehen</a></p>`,
+<p><strong>EuroCave Pure:</strong> <a href="https://www.amazon.fr/dp/B09QD3C4TX?tag=homenuraen05-21" rel="nofollow sponsored">Auf Amazon ansehen</a><br>
+<strong>Liebherr WTb1812:</strong> <a href="https://www.amazon.fr/dp/B09SMQZ1FS?tag=homenuraen05-21" rel="nofollow sponsored">Auf Amazon ansehen</a><br>
+<strong>Dunavox DAW-72:</strong> <a href="https://www.amazon.fr/dp/B09X8V3NCZ?tag=homenuraen05-21" rel="nofollow sponsored">Auf Amazon ansehen</a><br>
+<strong>Swisscave WLB-230FL:</strong> <a href="https://www.amazon.fr/dp/B0BL73MFSQ?tag=homenuraen05-21" rel="nofollow sponsored">Auf Amazon ansehen</a></p>`,
 
     es: `<h2>Por que invertir en una vinoteca inteligente?</h2>
 <p>El vino es una bebida viva. Un buen vino correctamente conservado puede mejorar durante decadas. Por el contrario, un vino mal conservado puede arruinarse en pocos meses. Una vinoteca conectada resuelve dos problemas fundamentales: condiciones de conservacion optimas y visibilidad en tiempo real via app. Consulta tambien nuestra <a href="/es/blog/guide-cuisine-connectee-2026">guia cocina conectada 2026</a>.</p>
@@ -248,9 +248,9 @@ export const article: BlogArticle = {
 </table>
 <p>La OCU recomienda para la conservacion de vinos de guarda optar por modelos con estabilidad termica de ±0,5°C o mejor, señalando la EuroCave Pure y Liebherr WTb1812 como las mejores opciones del mercado.</p>
 
-<p><strong>EuroCave Pure:</strong> <a href="https://www.amazon.fr/dp/B09QD3C4TX?tag=homenuraen0a-21" rel="nofollow sponsored">Ver en Amazon</a> |
-<strong>Dunavox DAW-72:</strong> <a href="https://www.amazon.fr/dp/B09X8V3NCZ?tag=homenuraen0a-21" rel="nofollow sponsored">Ver en Amazon</a> |
-<strong>Swisscave:</strong> <a href="https://www.amazon.fr/dp/B0BL73MFSQ?tag=homenuraen0a-21" rel="nofollow sponsored">Ver en Amazon</a></p>`,
+<p><strong>EuroCave Pure:</strong> <a href="https://www.amazon.fr/dp/B09QD3C4TX?tag=homenuraen05-21" rel="nofollow sponsored">Ver en Amazon</a> |
+<strong>Dunavox DAW-72:</strong> <a href="https://www.amazon.fr/dp/B09X8V3NCZ?tag=homenuraen05-21" rel="nofollow sponsored">Ver en Amazon</a> |
+<strong>Swisscave:</strong> <a href="https://www.amazon.fr/dp/B0BL73MFSQ?tag=homenuraen05-21" rel="nofollow sponsored">Ver en Amazon</a></p>`,
 
     it: `<h2>Perche investire in una cantinetta vino smart?</h2>
 <p>Il vino e una bevanda viva. Un buon vino conservato correttamente puo migliorare per decenni. Al contrario, un vino mal conservato puo rovinarsi in pochi mesi. Una cantinetta connessa risolve due problemi fondamentali: condizioni di conservazione ottimali e visibilita in tempo reale tramite app. Consulta anche la nostra <a href="/it/blog/guide-cuisine-connectee-2026">guida cucina connessa 2026</a>.</p>
@@ -277,9 +277,9 @@ export const article: BlogArticle = {
 </table>
 <p>Altroconsumo raccomanda per la conservazione dei vini da invecchiamento modelli con stabilita termica di ±0,5°C o migliore. L'EuroCave Pure e la Liebherr WTb1812 soddisfano questo requisito in modo affidabile.</p>
 
-<p><strong>EuroCave Pure:</strong> <a href="https://www.amazon.fr/dp/B09QD3C4TX?tag=homenuraen010-21" rel="nofollow sponsored">Vedi su Amazon</a> |
-<strong>Dunavox DAW-72:</strong> <a href="https://www.amazon.fr/dp/B09X8V3NCZ?tag=homenuraen010-21" rel="nofollow sponsored">Vedi su Amazon</a> |
-<strong>Swisscave:</strong> <a href="https://www.amazon.fr/dp/B0BL73MFSQ?tag=homenuraen010-21" rel="nofollow sponsored">Vedi su Amazon</a></p>`,
+<p><strong>EuroCave Pure:</strong> <a href="https://www.amazon.fr/dp/B09QD3C4TX?tag=homenuraen05-21" rel="nofollow sponsored">Vedi su Amazon</a> |
+<strong>Dunavox DAW-72:</strong> <a href="https://www.amazon.fr/dp/B09X8V3NCZ?tag=homenuraen05-21" rel="nofollow sponsored">Vedi su Amazon</a> |
+<strong>Swisscave:</strong> <a href="https://www.amazon.fr/dp/B0BL73MFSQ?tag=homenuraen05-21" rel="nofollow sponsored">Vedi su Amazon</a></p>`,
 
     nl: `<h2>Waarom investeren in een slimme wijnkast?</h2>
 <p>Wijn is een levende drank. Een goede wijn die goed bewaard wordt kan tientallen jaren verbeteren. Omgekeerd kan slecht bewaarde wijn in enkele maanden onomkeerbaar bedorven raken. Een verbonden wijnkast lost twee fundamentele problemen op: optimale bewaarcondities en realtime zichtbaarheid via een smartphone-app. Zie ook onze <a href="/nl/blog/guide-cuisine-connectee-2026">verbonden keuken gids 2026</a>.</p>
@@ -306,9 +306,9 @@ export const article: BlogArticle = {
 </table>
 <p>De <strong>Consumentenbond</strong> beveelt voor de bewaring van rijpingswijn modellen aan met een thermische stabiliteit van ±0,5°C of beter. De EuroCave Pure en Liebherr WTb1812 voldoen betrouwbaar aan dit criterium.</p>
 
-<p><strong>EuroCave Pure:</strong> <a href="https://www.amazon.fr/dp/B09QD3C4TX?tag=homenuranl-21" rel="nofollow sponsored">Bekijk op Amazon</a> |
-<strong>Dunavox DAW-72:</strong> <a href="https://www.amazon.fr/dp/B09X8V3NCZ?tag=homenuranl-21" rel="nofollow sponsored">Bekijk op Amazon</a> |
-<strong>Swisscave:</strong> <a href="https://www.amazon.fr/dp/B0BL73MFSQ?tag=homenuranl-21" rel="nofollow sponsored">Bekijk op Amazon</a></p>`,
+<p><strong>EuroCave Pure:</strong> <a href="https://www.amazon.fr/dp/B09QD3C4TX?tag=homenuraen05-21" rel="nofollow sponsored">Bekijk op Amazon</a> |
+<strong>Dunavox DAW-72:</strong> <a href="https://www.amazon.fr/dp/B09X8V3NCZ?tag=homenuraen05-21" rel="nofollow sponsored">Bekijk op Amazon</a> |
+<strong>Swisscave:</strong> <a href="https://www.amazon.fr/dp/B0BL73MFSQ?tag=homenuraen05-21" rel="nofollow sponsored">Bekijk op Amazon</a></p>`,
   },
   faq: [
     {
