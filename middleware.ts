@@ -43,10 +43,16 @@ function negotiateLang(request: NextRequest): Lang {
   if (isValidLang(cookie)) return cookie
 
   // 2. Browser preference (Accept-Language)
-  const fromHeader = pickFromAcceptLanguage(request.headers.get('accept-language'))
+  const acceptLanguage = request.headers.get('accept-language')
+  const fromHeader = pickFromAcceptLanguage(acceptLanguage)
   if (fromHeader) return fromHeader
 
-  // 3. Geo-IP (Vercel) — only a hint when the browser gives no language info
+  // No Accept-Language at all = crawler (Googlebot crawls from US IPs).
+  // Send it to the x-default locale so the redirect agrees with hreflang
+  // and the sitemap instead of following the crawler's geo-IP.
+  if (!acceptLanguage) return DEFAULT_LANG
+
+  // 3. Geo-IP (Vercel) — only when the browser's languages are all unsupported
   const country = request.headers.get('x-vercel-ip-country')?.toUpperCase()
   if (country && COUNTRY_TO_LANG[country]) return COUNTRY_TO_LANG[country]
 
@@ -74,7 +80,8 @@ const SLUG_ALIASES: Record<string, string> = {
   // Cross-language canonical-slug shortcuts
   'sobre': '/a-propos',
   'ueber-uns': '/a-propos',
-  'chi-siamo': '/chi-siamo', // unused but reserved
+  'chi-siamo': '/a-propos',
+  'over-ons': '/a-propos',
 }
 
 function generateNonce(): string {
@@ -126,7 +133,7 @@ export function middleware(request: NextRequest) {
   if (
     isValidLang(langSegment) &&
     segments.length === 3 &&
-    segments[2] in SLUG_ALIASES
+    Object.hasOwn(SLUG_ALIASES, segments[2])
   ) {
     const canonical = SLUG_ALIASES[segments[2]]
     const url = request.nextUrl.clone()

@@ -139,4 +139,38 @@ describe('middleware locale routing', () => {
     expect(res.status).toBe(301)
     expect(res.headers.get('location')).toMatch(/\/en\/guides\/airfryers$/)
   })
+
+  it('sends crawlers without Accept-Language to the x-default locale, not the geo-IP one', () => {
+    // Googlebot sends no Accept-Language and crawls from US IPs; x-default
+    // and the sitemap point to /fr, so the root redirect must agree.
+    const request = new NextRequest(new URL('http://localhost/'), {
+      headers: { 'x-vercel-ip-country': 'US' },
+    })
+    const res = middleware(request) as Response
+    expect(res.status).toBe(302)
+    expect(res.headers.get('location')).toMatch(/\/fr$/)
+  })
+
+  it('uses geo-IP only when Accept-Language names no supported language', () => {
+    const request = new NextRequest(new URL('http://localhost/'), {
+      headers: { 'accept-language': 'pt-BR,pt;q=0.9', 'x-vercel-ip-country': 'DE' },
+    })
+    const res = middleware(request) as Response
+    expect(res.headers.get('location')).toMatch(/\/de$/)
+  })
+
+  it('redirects /it/chi-siamo to the about page instead of looping on itself', () => {
+    const request = new NextRequest(new URL('http://localhost/it/chi-siamo'))
+    const res = middleware(request) as Response
+    expect(res.status).toBe(301)
+    expect(res.headers.get('location')).toMatch(/\/it\/a-propos$/)
+  })
+
+  it('ignores Object prototype keys in the slug alias table', () => {
+    for (const key of ['constructor', 'toString', 'hasOwnProperty']) {
+      const request = new NextRequest(new URL(`http://localhost/fr/${key}`))
+      const res = middleware(request) as Response
+      expect(res.status, key).not.toBe(301)
+    }
+  })
 })
