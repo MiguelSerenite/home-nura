@@ -66,6 +66,21 @@ dynamique, pas de cache CDN)**. LHCI doit gagner un run mobile (Lot 3).
 | **4 — Design system & a11y** | `refonte/design` | P2.1 tokens, P2.2 dark mode, P2.3 skip link, P2.4 reduced-motion, P2.5 primitives, P2.7 menus ARIA, P2.17, P2.20 | a11y-architect + design-critique, captures avant/après |
 | Reporté | — | P2.11 strict++, P2.12 cacheComponents, P2.13 découpage catalog, P2.14 MDX, P2.16 | chantiers dédiés |
 
+## Avancement (2026-10-07)
+
+| Lot | PR | Statut |
+|---|---|---|
+| 0 — Sécurité | #18 | ✅ fusionnée, en prod (AVIF servi, 0 vuln) |
+| 1 — Conformité & SEO critique | #19 | PR ouverte |
+| 2 — SEO on-page & i18n | #20 (empilée sur #19) | PR ouverte — 486 méta blog, footer traduit |
+| 3 — Perf, CSP & hygiène | #21 (empilée) | PR ouverte — −7 Ko gzip JS/page, CSP durcie, proxy.ts |
+| GEO — Visibilité IA & Bing | #22 (empilée) | PR ouverte — robots IA, /llms.txt, IndexNow, FAQ hubs |
+| 4a — Tokens & a11y | #23 (empilée) | PR ouverte — 0 changement visuel (39/39 couleurs), skip link |
+| 4b — Dark mode, primitives, icônes | — | à valider visuellement avant de coder |
+
+Après merge : `npm run indexnow -- --all` (soumission initiale Bing) + import du site dans Bing Webmaster Tools.
+Date éditoriale `SITE_LAST_UPDATED_ISO` (2026-04-20) : à avancer à chaque revue réelle du catalogue, jamais artificiellement.
+
 ## Règles du chantier
 
 - Chaque lot : tests d'abord pour toute logique (middleware, JSON-LD, sitemap), puis `lint + test + build + e2e`, puis revue agent ECC, puis PR. Pas de PR > ~50 fichiers.
