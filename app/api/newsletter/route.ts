@@ -33,14 +33,17 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: false, error: 'rate_limited' }, { status: 429 })
   }
 
-  // Placeholder: wire up to a real ESP here (Mailchimp / Brevo / Resend etc).
-  // For now we just log the subscription server-side so ops can see it.
-  console.log('[newsletter] subscribed', {
-    email,
-    lang: typeof lang === 'string' ? lang : 'unknown',
-    ip,
-    at: new Date().toISOString(),
-  })
+  // TODO(refonte lot 3): no ESP is wired yet, so the address is not stored.
+  // Logs carry no personal data (GDPR): only the email domain and locale.
+  console.log(
+    JSON.stringify({
+      level: 'info',
+      msg: 'newsletter_subscribe',
+      emailDomain: email.split('@')[1]?.toLowerCase(),
+      lang: typeof lang === 'string' ? lang : 'unknown',
+      ts: new Date().toISOString(),
+    }),
+  )
 
   return NextResponse.json({ ok: true }, { status: 200 })
 }
