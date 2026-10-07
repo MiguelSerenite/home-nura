@@ -2,9 +2,8 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { useState, useEffect, useRef, useMemo } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import SearchBar from './SearchBar'
-import { getStaticProducts } from '@/lib/products'
 
 const countries = [
   { code: 'fr', flag: '🇫🇷', label: 'FR', name: 'Français' },
@@ -60,12 +59,6 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
   const maisonRef = useRef<HTMLDivElement>(null)
   const langRef = useRef<HTMLDivElement>(null)
 
-  const searchProducts = useMemo(() => {
-    return getStaticProducts(lang).map((p) => ({
-      title: p.title, price: p.price, image: p.image,
-      asin: p.asin, capacity: p.capacity, bestFor: p.bestFor,
-    }))
-  }, [lang])
 
   // Lock body scroll on mobile drawer
   useEffect(() => {
@@ -114,6 +107,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
             alt="Home Nura"
             width={1400}
             height={400}
+            sizes="224px"
             priority
             className="h-14 md:h-16 w-auto"
           />
@@ -167,7 +161,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
 
         {/* ── Desktop right: Search + Lang ── */}
         <div className="hidden lg:flex items-center gap-2 shrink-0">
-          <SearchBar products={searchProducts} currentLang={lang} variant="desktop" />
+          <SearchBar currentLang={lang} variant="desktop" />
 
           {/* Language dropdown */}
           <div ref={langRef} className="relative">
@@ -213,7 +207,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
 
         {/* ── Mobile right: Search icon + hamburger ── */}
         <div className="flex lg:hidden items-center gap-2">
-          <SearchBar products={searchProducts} currentLang={lang} variant="mobile" onNavigate={close} />
+          <SearchBar currentLang={lang} variant="mobile" onNavigate={close} />
           <button
             type="button"
             onClick={() => setIsOpen(v => !v)}

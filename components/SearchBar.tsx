@@ -60,18 +60,17 @@ const closeLabel: Record<string, string> = {
 }
 
 export default function SearchBar({
-  products,
   currentLang,
   variant = 'desktop',
   onNavigate,
 }: {
-  products: SearchableProduct[]
   currentLang: string
   variant?: 'desktop' | 'mobile'
   onNavigate?: () => void
 }) {
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
+  const [products, setProducts] = useState<SearchableProduct[] | null>(null)
   const inputRef = useRef<HTMLInputElement>(null)
 
   const placeholder = placeholders[currentLang] ?? placeholders.en
@@ -83,6 +82,7 @@ export default function SearchBar({
   // Filter products client-side
   const results = useMemo(() => {
     const q = query.trim().toLowerCase()
+    if (!products) return []
     if (!q) return products.slice(0, 8)
     return products
       .filter((p) => {
@@ -123,6 +123,11 @@ export default function SearchBar({
 
   const handleOpen = () => {
     setOpen(true)
+    if (!products) {
+      import('@/lib/search-index')
+        .then(({ getSearchIndex }) => setProducts(getSearchIndex(currentLang)))
+        .catch(() => setProducts([]))
+    }
     trackEvent(EVENTS.SEARCH_OPEN, { lang: currentLang, variant })
   }
   const handleClose = () => {
@@ -231,7 +236,7 @@ export default function SearchBar({
 
             {/* Results */}
             <div className="flex-1 overflow-y-auto">
-              {results.length === 0 ? (
+              {products === null ? null : results.length === 0 ? (
                 <div className="px-5 py-12 text-center">
                   <div className="text-slate-500 text-sm font-medium mb-1">{emptyLabel}</div>
                   <div className="text-slate-500 text-xs">{hintLabel}</div>
