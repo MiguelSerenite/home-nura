@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useState, useMemo } from 'react'
 import { trackAffiliateClick } from '@/lib/analytics'
 
@@ -131,9 +132,8 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                 </td>
                 <td className="px-6 py-5">
                   <div className="flex items-center gap-4">
-                    <div className="w-16 h-16 rounded-xl bg-slate-100 overflow-hidden shrink-0">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={p.image} alt="" className="w-full h-full object-contain p-2" />
+                    <div className="relative w-16 h-16 rounded-xl bg-slate-100 overflow-hidden shrink-0">
+                      <Image src={p.image} alt="" fill sizes="64px" className="object-contain p-2" />
                     </div>
                     <div>
                       <h3 className="font-bold text-slate-900 text-sm leading-tight">{p.name}</h3>
@@ -191,9 +191,8 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
             <div className="p-5">
               <div className="flex items-start gap-4">
                 <span className="text-2xl font-black text-slate-200">#{i + 1}</span>
-                <div className="w-16 h-16 rounded-xl bg-slate-100 overflow-hidden shrink-0">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={p.image} alt="" className="w-full h-full object-contain p-2" />
+                <div className="relative w-16 h-16 rounded-xl bg-slate-100 overflow-hidden shrink-0">
+                  <Image src={p.image} alt="" fill sizes="64px" className="object-contain p-2" />
                 </div>
                 <div className="flex-1 min-w-0">
                   <h3 className="font-bold text-slate-900 text-sm leading-tight">{p.name}</h3>

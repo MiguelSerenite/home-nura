@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist } from "next/font/google";
 import { getNonce } from "@/lib/nonce";
 import { WebVitalsReporter } from "@/components/WebVitalsReporter";
 import { LANGUAGES, isValidLang, type Lang } from "@/lib/i18n";
@@ -16,12 +16,6 @@ export const viewport: Viewport = {
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin", "latin-ext"],
-  display: "swap",
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
   display: "swap",
 });
 
@@ -170,7 +164,7 @@ export default async function RootLayout({
   return (
     <html
       lang={lang}
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} h-full antialiased`}
     >
       <head>
         <script

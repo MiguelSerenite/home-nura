@@ -14,7 +14,7 @@ html {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 
   /* Brand palette: olive/gold harmonized with the logo (#646e32).
      We remap Tailwind's blue and indigo scales so that every existing
