@@ -1,7 +1,6 @@
 import Image from 'next/image'
-import GoogleReviewBadge from './GoogleReviewBadge'
 import AffiliateLink from './AffiliateLink'
-import { getSocialProof } from '@/lib/seo'
+import { extractBrand } from '@/lib/brand'
 import { getNonce } from '@/lib/nonce'
 
 interface ProductProps {
@@ -16,127 +15,53 @@ interface ProductProps {
   capacity?: string;
   bestFor?: string;
   position?: number;
+  /** Emit a per-card Product JSON-LD. Disable on pages whose ItemList already describes the products. */
+  withSchema?: boolean;
 }
 
-// Extract brand from product name
-const knownBrands = ['Ninja', 'Philips', 'Cosori', 'Tefal', 'Xiaomi', 'Moulinex']
-function extractBrand(name: string): string {
-  for (const brand of knownBrands) {
-    if (name.toLowerCase().includes(brand.toLowerCase())) return brand
-  }
-  return 'Generic'
-}
-
-// Country code to schema.org country mapping
-const countryMap: Record<string, string> = {
-  fr: 'FR', de: 'DE', en: 'GB', es: 'ES', it: 'IT', nl: 'NL',
-}
-
-export default async function ProductCard({ name, price, imageUrl, affiliateLink, asin, buyButtonText, badge, lang = 'fr', capacity, bestFor, position }: ProductProps) {
+export default async function ProductCard({ name, price, imageUrl, affiliateLink, asin, buyButtonText, badge, lang = 'fr', capacity, bestFor, position, withSchema = true }: ProductProps) {
   const nonce = await getNonce()
   // Extract numeric price and currency for schema
   const numericPrice = price.replace(/[^0-9.,]/g, '').replace(',', '.')
   const priceForTracking = parseFloat(numericPrice)
   const currency = price.includes('£') ? 'GBP' : 'EUR'
   const brand = extractBrand(name)
-  const country = countryMap[lang] || 'FR'
-  // Google-style social proof: rating + review count (deterministic from ASIN)
-  const { rating, count } = getSocialProof(asin, lang)
 
   // Enriched alt for Google Images SEO — includes brand, capacity, usage context
   const enrichedAlt = [name, capacity, bestFor].filter(Boolean).join(' — ')
 
+  // Only facts we actually know: no ratings, stock, shipping or return
+  // policy — those belong to Amazon and change without notice.
   const productSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name,
     image: imageUrl.startsWith('/') ? `https://homenura.com${imageUrl}` : imageUrl,
     description: name,
-    brand: {
-      '@type': 'Brand',
-      name: brand,
-    },
-    datePublished: '2024-06-01',
-    dateModified: '2026-04-16',
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: rating.toFixed(1),
-      bestRating: '5',
-      worstRating: '1',
-      reviewCount: count,
-    },
-    review: {
-      '@type': 'Review',
-      author: {
-        '@type': 'Organization',
-        name: 'Home Nura',
-        url: 'https://homenura.com',
-      },
-      reviewRating: {
-        '@type': 'Rating',
-        ratingValue: rating.toFixed(1),
-        bestRating: '5',
-        worstRating: '1',
-      },
-      datePublished: '2026-04-16',
-      reviewBody: bestFor ? `${name} — ${bestFor}` : name,
-    },
+    sku: asin,
+    ...(brand ? { brand: { '@type': 'Brand', name: brand } } : {}),
     offers: {
       '@type': 'Offer',
       url: affiliateLink,
       priceCurrency: currency,
       price: numericPrice,
-      availability: 'https://schema.org/InStock',
       seller: {
         '@type': 'Organization',
         name: 'Amazon',
-      },
-      shippingDetails: {
-        '@type': 'OfferShippingDetails',
-        shippingDestination: {
-          '@type': 'DefinedRegion',
-          addressCountry: country,
-        },
-        deliveryTime: {
-          '@type': 'ShippingDeliveryTime',
-          handlingTime: {
-            '@type': 'QuantitativeValue',
-            minValue: 0,
-            maxValue: 1,
-            unitCode: 'DAY',
-          },
-          transitTime: {
-            '@type': 'QuantitativeValue',
-            minValue: 1,
-            maxValue: 5,
-            unitCode: 'DAY',
-          },
-        },
-        shippingRate: {
-          '@type': 'MonetaryAmount',
-          value: 0,
-          currency: currency,
-        },
-      },
-      hasMerchantReturnPolicy: {
-        '@type': 'MerchantReturnPolicy',
-        applicableCountry: country,
-        returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
-        merchantReturnDays: 30,
-        returnMethod: 'https://schema.org/ReturnByMail',
-        returnFees: 'https://schema.org/FreeReturn',
       },
     },
   }
 
   return (
     <div className="group relative flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition duration-200 hover:shadow-md hover:-translate-y-1">
-      <script
-        type="application/ld+json"
-        nonce={nonce}
-        suppressHydrationWarning
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
-      />
+      {withSchema && (
+        <script
+          type="application/ld+json"
+          nonce={nonce}
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
+        />
+      )}
       {badge && (
         <div className="absolute top-4 left-4 z-10 px-3 py-1 bg-amber-400 text-amber-900 text-xs font-bold rounded-full">
           {badge}
@@ -153,9 +78,6 @@ export default async function ProductCard({ name, price, imageUrl, affiliateLink
         />
       </div>
       <div className="flex flex-1 flex-col p-6">
-        <div className="mb-2">
-          <GoogleReviewBadge asin={asin} lang={lang} size="sm" />
-        </div>
         <h3 className="text-lg font-bold text-slate-900 line-clamp-2 leading-tight">
           {name}
         </h3>

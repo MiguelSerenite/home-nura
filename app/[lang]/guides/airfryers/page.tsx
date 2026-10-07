@@ -533,7 +533,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
     ],
   }
 
-  // ItemList Schema with embedded Product + AggregateRating
+  // ItemList Schema with embedded Product entries
   const itemListSchema = buildProductListSchema(
     products,
     lang,
@@ -870,6 +870,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
                 lang={lang}
                 capacity={product.capacity}
                 bestFor={product.bestFor}
+                withSchema={false}
               />
             </div>
           ))}

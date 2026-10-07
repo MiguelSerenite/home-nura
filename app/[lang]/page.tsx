@@ -52,7 +52,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     },
   }
 
-  // ItemList Schema — exposes each comparison product with AggregateRating
+  // ItemList Schema — exposes each comparison product (no ratings: we have no real reviews)
   // so LLM crawlers can cite individual models instead of just the page.
   const itemListSchema = buildProductListSchema(
     products,
@@ -244,6 +244,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               lang={lang}
               capacity={product.capacity}
               bestFor={product.bestFor}
+              withSchema={false}
             />
           ))}
         </div>

@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useMemo } from 'react'
-import GoogleReviewBadge from './GoogleReviewBadge'
 import { trackAffiliateClick } from '@/lib/analytics'
 
 interface ComparisonProduct {
@@ -134,13 +133,10 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                   <div className="flex items-center gap-4">
                     <div className="w-16 h-16 rounded-xl bg-slate-100 overflow-hidden shrink-0">
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={p.image} alt={p.name} className="w-full h-full object-contain p-2" />
+                      <img src={p.image} alt="" className="w-full h-full object-contain p-2" />
                     </div>
                     <div>
                       <h3 className="font-bold text-slate-900 text-sm leading-tight">{p.name}</h3>
-                      <div className="mt-1">
-                        <GoogleReviewBadge asin={p.asin} lang={lang} size="sm" />
-                      </div>
                       {p.badge && (
                         <span className="inline-block mt-1 px-2 py-0.5 text-[10px] font-bold bg-amber-100 text-amber-700 rounded-full">
                           {p.badge}
@@ -166,7 +162,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                   <a
                     href={p.url}
                     target="_blank"
-                    rel="nofollow noopener noreferrer"
+                    rel="sponsored nofollow noopener noreferrer"
                     onClick={() =>
                       trackAffiliateClick({
                         asin: p.asin,
@@ -197,13 +193,10 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                 <span className="text-2xl font-black text-slate-200">#{i + 1}</span>
                 <div className="w-16 h-16 rounded-xl bg-slate-100 overflow-hidden shrink-0">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={p.image} alt={p.name} className="w-full h-full object-contain p-2" />
+                  <img src={p.image} alt="" className="w-full h-full object-contain p-2" />
                 </div>
                 <div className="flex-1 min-w-0">
                   <h3 className="font-bold text-slate-900 text-sm leading-tight">{p.name}</h3>
-                  <div className="mt-1.5">
-                    <GoogleReviewBadge asin={p.asin} lang={lang} size="sm" />
-                  </div>
                   <div className="flex items-center gap-2 mt-2">
                     <div className={`inline-flex items-center gap-1 px-2 py-1 rounded-full border text-xs ${getScoreBg(p.nuraScore)}`}>
                       <div className={`w-2 h-2 rounded-full ${getScoreColor(p.nuraScore)}`} />
@@ -221,7 +214,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                 <a
                   href={p.url}
                   target="_blank"
-                  rel="nofollow noopener noreferrer"
+                  rel="sponsored nofollow noopener noreferrer"
                   onClick={() =>
                     trackAffiliateClick({
                       asin: p.asin,

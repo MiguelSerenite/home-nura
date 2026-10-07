@@ -7,7 +7,6 @@ import {
   buildFaqPageSchema,
   buildBestForItemListSchema,
   buildClusterItemListSchema,
-  getSocialProof,
   formatLastUpdated,
   SITE_LAST_UPDATED_ISO,
   BASE_URL,
@@ -226,15 +225,15 @@ describe('buildProductListSchema', () => {
     expect(second.brand.name).toBe('Philips')
   })
 
-  it('falls back to "Home Nura" brand for unknown manufacturers', () => {
+  it('omits brand for unknown manufacturers rather than inventing one', () => {
     const s = buildProductListSchema(
       [{ ...products[0], title: 'UnknownBrand Fryer 5L' }],
       'fr',
       'L',
       'url',
     )
-    const item = s.itemListElement[0].item as { brand: { name: string } }
-    expect(item.brand.name).toBe('Home Nura')
+    const item = s.itemListElement[0].item as Record<string, unknown>
+    expect(item).not.toHaveProperty('brand')
   })
 
   it('uses GBP currency for English locale and EUR elsewhere', () => {
@@ -248,75 +247,20 @@ describe('buildProductListSchema', () => {
     expect(getCurrency(de)).toBe('EUR')
   })
 
-  it('includes aggregateRating with correct schema.org structure', () => {
+  it('never emits synthetic ratings or reviews (Google review-spam policy)', () => {
     const s = buildProductListSchema(products, 'fr', 'L', 'url')
-    const item = s.itemListElement[0].item as Record<string, unknown>
-    expect(item).toHaveProperty('aggregateRating')
-    const ar = item.aggregateRating as Record<string, unknown>
-    expect(ar['@type']).toBe('AggregateRating')
-    expect(typeof ar.ratingValue).toBe('string')
-    expect(ar.bestRating).toBe('5')
-    expect(ar.worstRating).toBe('1')
-    expect(typeof ar.reviewCount).toBe('number')
+    const json = JSON.stringify(s)
+    expect(json).not.toContain('aggregateRating')
+    expect(json).not.toContain('"review"')
+    expect(json).not.toContain('ratingValue')
   })
 
-  it('includes review with correct schema.org structure', () => {
-    const s = buildProductListSchema(products, 'fr', 'L', 'url')
-    const item = s.itemListElement[0].item as Record<string, unknown>
-    expect(item).toHaveProperty('review')
-    const review = item.review as Record<string, unknown>
-    expect(review['@type']).toBe('Review')
-    expect((review.author as Record<string, unknown>)['@type']).toBe('Organization')
-    expect((review.author as Record<string, unknown>).name).toBe('Home Nura')
-    const rr = review.reviewRating as Record<string, unknown>
-    expect(rr['@type']).toBe('Rating')
-    expect(typeof rr.ratingValue).toBe('string')
-  })
-
-  it('sets availability to InStock and includes the affiliate URL', () => {
+  it('does not assert stock availability and includes the affiliate URL', () => {
     const s = buildProductListSchema(products, 'fr', 'L', 'url')
     const offers = (s.itemListElement[0].item as { offers: Record<string, unknown> }).offers
-    expect(offers.availability).toBe('https://schema.org/InStock')
+    expect(offers).not.toHaveProperty('availability')
     expect(offers.url).toBe('https://amzn.to/ninja')
     expect(offers.price).toBe('229')
-  })
-})
-
-describe('getSocialProof', () => {
-  it('returns a rating in the 4.3–4.8 range', () => {
-    for (const asin of ['B001', 'B002', 'B123XYZ', 'B09ABCDEF']) {
-      const { rating } = getSocialProof(asin)
-      expect(rating).toBeGreaterThanOrEqual(4.3)
-      expect(rating).toBeLessThanOrEqual(4.8)
-    }
-  })
-
-  it('returns a count in the 847–4821 range', () => {
-    for (const asin of ['B001', 'B002', 'B123XYZ', 'B09ABCDEF']) {
-      const { count } = getSocialProof(asin)
-      expect(count).toBeGreaterThanOrEqual(847)
-      expect(count).toBeLessThanOrEqual(4821)
-    }
-  })
-
-  it('is deterministic — same ASIN yields the same proof', () => {
-    const a = getSocialProof('B09XYZ1234')
-    const b = getSocialProof('B09XYZ1234')
-    expect(a.rating).toBe(b.rating)
-    expect(a.count).toBe(b.count)
-  })
-
-  it('formats count per locale (English uses comma thousands separator)', () => {
-    const { count, countFormatted } = getSocialProof('B09XYZ1234', 'en')
-    if (count >= 1000) {
-      expect(countFormatted).toContain(',')
-    }
-  })
-
-  it('rounds rating to one decimal', () => {
-    const { rating } = getSocialProof('ANY_ASIN')
-    // one decimal ⇒ rating * 10 must be an integer
-    expect(rating * 10).toBe(Math.round(rating * 10))
   })
 })
 
