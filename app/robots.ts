@@ -32,16 +32,29 @@ const INTERNAL_PATHS = ['/admin/', '/_next/', '/api/']
 // than letting them fall through to the `*` rule) makes the intent legible
 // and lets us tighten or relax per-bot rules in the future without a rewrite.
 const ALLOWED_AI_CRAWLERS = [
-  // OpenAI
+  // OpenAI — GPTBot (training), OAI-SearchBot (ChatGPT search index),
+  // ChatGPT-User (live fetch when a user asks about a page)
   'GPTBot',
+  'OAI-SearchBot',
   'ChatGPT-User',
-  // Anthropic (Claude)
+  // Anthropic (Claude) — training, search index and live user fetch
   'ClaudeBot',
+  'Claude-SearchBot',
+  'Claude-User',
   'anthropic-ai',
   // Google (Gemini, Bard, and other generative products)
   'Google-Extended',
-  // Perplexity
+  // Perplexity — index + live user fetch
   'PerplexityBot',
+  'Perplexity-User',
+  // Microsoft Bing — powers Copilot and is a retrieval source for
+  // ChatGPT search; listed explicitly to document the intent
+  'bingbot',
+  // Apple Intelligence, DuckDuckGo AI answers, Meta AI, Mistral Le Chat
+  'Applebot-Extended',
+  'DuckAssistBot',
+  'Meta-ExternalAgent',
+  'MistralAI-User',
   // Common Crawl (feeds many LLM training sets)
   'CCBot',
   // Amazon

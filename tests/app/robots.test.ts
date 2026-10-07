@@ -27,6 +27,12 @@ describe('app/robots.ts', () => {
       'PerplexityBot',
       'CCBot',
       'Amazonbot',
+      // AI *search* agents — they fetch pages live to cite them in answers
+      'OAI-SearchBot',
+      'Claude-SearchBot',
+      'Claude-User',
+      'Perplexity-User',
+      'bingbot',
     ]) {
       expect(userAgents, `missing explicit rule for ${bot}`).toContain(bot)
     }
