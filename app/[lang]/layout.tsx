@@ -96,6 +96,7 @@ export default async function RootLayout({
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
+    '@id': `${BASE_URL}/#organization`,
     name: 'Home Nura',
     alternateName: 'HomeNura',
     url: BASE_URL,
@@ -153,23 +154,17 @@ export default async function RootLayout({
     ],
   };
 
-  // WebSite schema with SearchAction — enables the Google sitelinks
-  // search box so users can search directly from the SERP.
+  // WebSite schema — site-name entity. No SearchAction: Google retired the
+  // sitelinks search box (Nov 2024) and the site has no search results page.
   const websiteSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
+    '@id': `${BASE_URL}/#website`,
     name: 'Home Nura',
     alternateName: 'HomeNura',
     url: BASE_URL,
-    inLanguage: LANGUAGES.map((l) => l),
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: `${BASE_URL}/${lang}/comparateur?q={search_term_string}`,
-      },
-      'query-input': 'required name=search_term_string',
-    },
+    inLanguage: lang,
+    publisher: { '@id': `${BASE_URL}/#organization` },
   };
 
   return (

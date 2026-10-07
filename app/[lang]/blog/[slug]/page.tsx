@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar'
 import CookieBanner from '@/components/CookieBanner'
 import ArticleProductCTA from '@/components/ArticleProductCTA'
 import { getDictionary } from '../../dictionaries'
-import { getArticleBySlug, getRelatedArticles, getAllSlugs } from '@/lib/blog'
+import { getArticleBySlug, getRelatedArticles, getAllArticles } from '@/lib/blog'
 import { getStaticProducts } from '@/lib/products'
 import { enrichContentWithCTAs } from '@/lib/blog/enrichContent'
 import { CATEGORIES, type FAQItem } from '@/lib/blog/types'
@@ -13,38 +13,36 @@ import { getNonce } from '@/lib/nonce'
 import type { Metadata } from 'next'
 import { SiteFooter } from '@/components/ui'
 import { buildPageMetadata, buildArticleSchema } from '@/lib/seo'
+import { LANGUAGES, isValidLang } from '@/lib/i18n'
 
-const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl']
 const BASE_URL = 'https://homenura.com'
 
 export async function generateStaticParams() {
-  const slugs = getAllSlugs()
-  const params: { lang: string; slug: string }[] = []
-  for (const lang of LANGUAGES) {
-    for (const slug of slugs) {
-      params.push({ lang, slug })
-    }
-  }
-  return params
+  // Only locales the article is actually translated into.
+  return LANGUAGES.flatMap((lang) =>
+    getAllArticles()
+      .filter((article) => article.content[lang])
+      .map((article) => ({ lang, slug: article.slug })),
+  )
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string; slug: string }> }): Promise<Metadata> {
   const { lang, slug } = await params
   const article = getArticleBySlug(slug)
-  if (!article) return {}
-  const safeLang = LANGUAGES.includes(lang) ? lang : 'fr'
-  const title = article.title[safeLang] || article.title.fr
-  const description = article.excerpt[safeLang] || article.excerpt.fr
+  // Untranslated article in this locale: the page 404s (see below).
+  if (!article || !isValidLang(lang) || !article.content[lang]) return {}
+  const title = article.title[lang] || article.title.fr
+  const description = article.excerpt[lang] || article.excerpt.fr
   const heroRaw = article.images[0]?.src
   const heroImage = heroRaw
     ? heroRaw.startsWith('http')
       ? heroRaw
       : `${BASE_URL}${heroRaw}`
     : undefined
-  const heroAlt = article.images[0]?.alt[safeLang] || article.images[0]?.alt.fr
+  const heroAlt = article.images[0]?.alt[lang] || article.images[0]?.alt.fr
 
   return buildPageMetadata({
-    lang: safeLang,
+    lang: lang,
     path: `/blog/${slug}`,
     title: `${title} | Home Nura`,
     description,
@@ -60,7 +58,9 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 export default async function BlogArticlePage({ params }: { params: Promise<{ lang: string; slug: string }> }) {
   const { lang, slug } = await params
   const article = getArticleBySlug(slug)
-  if (!article) notFound()
+  // Never serve the French text under another locale's URL: that would be a
+  // cross-locale duplicate indexed with a self-canonical.
+  if (!article || !isValidLang(lang) || !article.content[lang]) notFound()
 
   const dict = await getDictionary(lang)
   const nonce = await getNonce()
@@ -70,7 +70,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
     asin: p.asin, title: p.title, price: p.price, priceNumeric: p.priceNumeric, image: p.image, url: p.url, nuraScore: p.nuraScore, capacity: p.capacity,
   }))
   const title = article.title[lang] || article.title.fr
-  const rawContent = article.content[lang] || article.content.fr
+  const rawContent = article.content[lang]
   // Wrap tables in a scrollable container so they scroll horizontally on mobile
   // without breaking the table layout algorithm (`display: block` shrinks cells).
   const enrichedContent = enrichContentWithCTAs(rawContent, lang)
@@ -97,10 +97,8 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
     imageAlt: heroImageAlt,
     datePublished: article.datePublished,
     dateModified: article.dateModified,
-    articleType:
-      article.category === 'tests' || article.category === 'comparatifs'
-        ? 'ReviewArticle'
-        : 'Article',
+    // Not ReviewArticle: that type requires an itemReviewed we don't model.
+    articleType: 'Article',
     articleSection: categoryLabel,
     wordCount: content.replace(/<[^>]+>/g, '').split(/\s+/).length,
   })
@@ -111,8 +109,8 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: dict.breadcrumb_home || 'Home', item: `${BASE_URL}/${lang}` },
       { '@type': 'ListItem', position: 2, name: 'Blog', item: `${BASE_URL}/${lang}/blog` },
-      { '@type': 'ListItem', position: 3, name: categoryLabel, item: `${BASE_URL}/${lang}/blog` },
-      { '@type': 'ListItem', position: 4, name: title, item: `${BASE_URL}/${lang}/blog/${slug}` },
+      // No category level: categories have no URL of their own.
+      { '@type': 'ListItem', position: 3, name: title, item: `${BASE_URL}/${lang}/blog/${slug}` },
     ],
   }
 
