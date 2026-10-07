@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useSyncExternalStore } from 'react'
 import Link from 'next/link'
 
 const COOKIE_NAME = 'homenura_cookie_consent'
@@ -11,6 +11,14 @@ function getCookie(name: string): string | null {
   const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'))
   return match ? decodeURIComponent(match[2]) : null
 }
+
+// The consent cookie only changes through this banner, so there is nothing
+// to subscribe to; useSyncExternalStore is used for its server snapshot,
+// which keeps the server HTML and the first client render identical
+// (reading document.cookie in a useState initializer caused React #418).
+const noopSubscribe = () => () => {}
+const hasConsentOnClient = () => getCookie(COOKIE_NAME) !== null
+const hasConsentOnServer = () => true
 
 function setCookie(name: string, value: string, maxAge: number) {
   document.cookie = `${name}=${encodeURIComponent(value)};path=/;max-age=${maxAge};SameSite=Lax`
@@ -27,22 +35,20 @@ interface CookieBannerProps {
 }
 
 export default function CookieBanner({ lang, dict }: CookieBannerProps) {
-  const [visible, setVisible] = useState(() => {
-    if (typeof document === 'undefined') return false
-    return !getCookie(COOKIE_NAME)
-  })
+  const hasConsent = useSyncExternalStore(noopSubscribe, hasConsentOnClient, hasConsentOnServer)
+  const [dismissed, setDismissed] = useState(false)
 
   function handleAccept() {
     setCookie(COOKIE_NAME, 'accepted', COOKIE_MAX_AGE)
-    setVisible(false)
+    setDismissed(true)
   }
 
   function handleReject() {
     setCookie(COOKIE_NAME, 'rejected', COOKIE_MAX_AGE)
-    setVisible(false)
+    setDismissed(true)
   }
 
-  if (!visible) return null
+  if (hasConsent || dismissed) return null
 
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 p-4 md:p-6">
