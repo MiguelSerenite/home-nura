@@ -15,7 +15,8 @@
     "lhci:collect": "lhci collect --config=./lighthouserc.js",
     "lhci:assert": "lhci assert --config=./lighthouserc.js",
     "analyze": "ANALYZE=true next build",
-    "audit:prod": "npm audit --audit-level=high --omit=dev"
+    "audit:prod": "npm audit --audit-level=high --omit=dev",
+    "indexnow": "tsx scripts/indexnow.ts"
   },
   "dependencies": {
     "next": "^16.3.8",
@@ -35,6 +36,7 @@
     "eslint": "^9",
     "eslint-config-next": "^16.3.8",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5",
     "vitest": "^4.1.4"
   }
