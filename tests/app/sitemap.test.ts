@@ -1,3 +1,4 @@
+import { getAllArticles } from '@/lib/blog'
 import { describe, it, expect } from 'vitest'
 import sitemap from '@/app/sitemap'
 import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
@@ -129,5 +130,14 @@ describe('app/sitemap.ts', () => {
     for (const e of entries) {
       expect(e.lastModified, `${e.url}: missing lastModified`).toBeDefined()
     }
+  })
+
+  it('dates /blog with the most recent article modification', () => {
+    const latest = getAllArticles()
+      .map((a) => a.dateModified)
+      .sort()
+      .at(-1)
+    const blog = sitemap().find((e) => e.url === `${BASE_URL}/fr/blog`)
+    expect(blog?.lastModified).toEqual(new Date(latest!))
   })
 })

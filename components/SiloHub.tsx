@@ -149,12 +149,7 @@ export default async function SiloHub({ siloSlug, lang }: SiloHubProps) {
           </ol>
         </nav>
 
-        <SectionHero
-          kicker={title}
-          title={title}
-          subtitle={description}
-          intro={description}
-        />
+        <SectionHero title={title} subtitle={description} />
 
         {/* Categories grid */}
         <section className="max-w-6xl mx-auto px-4 md:px-6 pb-16">
