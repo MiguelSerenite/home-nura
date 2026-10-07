@@ -14,6 +14,7 @@ import type { Metadata } from 'next'
 import { SiteFooter } from '@/components/ui'
 import { buildPageMetadata, buildArticleSchema } from '@/lib/seo'
 import { LANGUAGES, isValidLang } from '@/lib/i18n'
+import { BLOG_SEO_META } from '@/lib/blog/seo-meta'
 
 const BASE_URL = 'https://homenura.com'
 
@@ -31,8 +32,11 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const article = getArticleBySlug(slug)
   // Untranslated article in this locale: the page 404s (see below).
   if (!article || !isValidLang(lang) || !article.content[lang]) return {}
-  const title = article.title[lang] || article.title.fr
-  const description = article.excerpt[lang] || article.excerpt.fr
+  // SERP-sized title/description (≤58 / ≤155 chars) — the on-page H1 and
+  // excerpt stay as written.
+  const seo = BLOG_SEO_META[slug]?.[lang]
+  const title = seo?.title ?? `${article.title[lang]} | Home Nura`
+  const description = seo?.description ?? article.excerpt[lang]
   const heroRaw = article.images[0]?.src
   const heroImage = heroRaw
     ? heroRaw.startsWith('http')
@@ -44,7 +48,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   return buildPageMetadata({
     lang: lang,
     path: `/blog/${slug}`,
-    title: `${title} | Home Nura`,
+    title,
     description,
     image: heroImage,
     imageAlt: heroAlt,
@@ -297,12 +301,6 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
         currentLang={lang}
         variant="compact"
         topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
-        links={[
-          { href: `/${lang}`, label: dict.breadcrumb_home || 'Accueil' },
-          { href: `/${lang}/blog`, label: 'Blog' },
-          { href: `/${lang}/a-propos`, label: dict.about_link || 'À propos' },
-          { href: `/${lang}/mentions-legales`, label: dict.legal_notice },
-        ]}
       />
 
       <CookieBanner lang={lang} dict={{ cookie_banner_text: dict.cookie_banner_text, cookie_accept: dict.cookie_accept, cookie_reject: dict.cookie_reject, cookie_learn_more: dict.cookie_learn_more }} />
