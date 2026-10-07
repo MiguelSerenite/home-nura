@@ -5,6 +5,7 @@ import { getNonce } from '@/lib/nonce'
 import { buildPageMetadata } from '@/lib/seo'
 import SmartKitchenQuiz from '@/components/SmartKitchenQuiz'
 import { SectionHero, SiteFooter } from '@/components/ui'
+import { resolveLang } from '@/lib/i18n'
 import {
   SMART_KITCHEN_CATEGORIES,
   getSmartKitchenProductsByCategory,
@@ -12,7 +13,6 @@ import {
   type SmartKitchenProduct,
 } from '@/lib/smart-kitchen-products'
 
-const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
 interface QuizPageContent {
   kicker: string
@@ -76,7 +76,7 @@ const pageContent: Record<string, QuizPageContent> = {
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
   return buildPageMetadata({
     lang: safeLang,
@@ -88,7 +88,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 
 export default async function SmartKitchenQuizPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
   const nonce = await getNonce()
 
@@ -153,12 +153,6 @@ export default async function SmartKitchenQuizPage({ params }: { params: Promise
       {/* Footer */}
       <SiteFooter
         currentLang={safeLang}
-        links={[
-          { href: `/${safeLang}`, label: 'Home' },
-          { href: `/${safeLang}/cuisine-connectee`, label: c.breadcrumbRoot },
-          { href: `/${safeLang}/guides/cuisine-connectee`, label: 'Guide' },
-          { href: `/${safeLang}/blog`, label: 'Blog' },
-        ]}
       />
     </div>
   )

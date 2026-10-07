@@ -6,8 +6,8 @@ import { buildPageMetadata } from '@/lib/seo'
 import { getStaticProducts } from '@/lib/products'
 import Quiz from '@/components/Quiz'
 import { SectionHero, SiteFooter } from '@/components/ui'
+import { resolveLang } from '@/lib/i18n'
 
-const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
 const pageContent: Record<string, { title: string; subtitle: string; intro: string; kicker: string; breadcrumb: string }> = {
   fr: {
@@ -56,7 +56,7 @@ const pageContent: Record<string, { title: string; subtitle: string; intro: stri
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
   return buildPageMetadata({
     lang: safeLang,
@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 
 export default async function QuizPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
   const nonce = await getNonce()
 
@@ -138,13 +138,6 @@ export default async function QuizPage({ params }: { params: Promise<{ lang: str
       {/* Footer */}
       <SiteFooter
         currentLang={safeLang}
-        links={[
-          { href: `/${safeLang}`, label: 'Home' },
-          { href: `/${safeLang}/guides/airfryers`, label: 'Guide' },
-          { href: `/${safeLang}/comparateur`, label: 'Comparateur' },
-          { href: `/${safeLang}/blog`, label: 'Blog' },
-          { href: `/${safeLang}/a-propos`, label: 'About' },
-        ]}
       />
     </div>
   )

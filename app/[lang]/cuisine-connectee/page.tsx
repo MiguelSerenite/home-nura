@@ -5,8 +5,8 @@ import { getNonce } from '@/lib/nonce'
 import { buildPageMetadata, buildBreadcrumbListSchema } from '@/lib/seo'
 import { SMART_KITCHEN_CATEGORIES, type SmartKitchenCategory } from '@/lib/smart-kitchen-products'
 import { Kicker, SectionHero, SiteFooter, Button } from '@/components/ui'
+import { resolveLang } from '@/lib/i18n'
 
-const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
 interface PillarContent {
   kicker: string
@@ -231,7 +231,7 @@ const pageContent: Record<string, PillarContent> = {
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
   return buildPageMetadata({
     lang: safeLang,
@@ -243,7 +243,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 
 export default async function CuisineConnecteePage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
   const nonce = await getNonce()
 
@@ -354,12 +354,6 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
       {/* Footer */}
       <SiteFooter
         currentLang={safeLang}
-        links={[
-          { href: `/${safeLang}`, label: 'Home' },
-          { href: `/${safeLang}/guides/airfryers`, label: 'Guide' },
-          { href: `/${safeLang}/blog`, label: 'Blog' },
-          { href: `/${safeLang}/a-propos`, label: 'About' },
-        ]}
       />
     </div>
   )

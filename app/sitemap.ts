@@ -16,6 +16,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // SITE_LAST_UPDATED_ISO in lib/seo.ts automatically refreshes
   // every entry here + the "last updated" badge rendered in pages.
   const today = SITE_LAST_UPDATED_ISO
+  const articles = getAllArticles()
+  // The blog index changes whenever an article does.
+  const latestArticleUpdate = articles.map((a) => a.dateModified).sort().at(-1) ?? today
 
   const pages = [
     { path: '', priority: 1.0, changeFrequency: 'weekly' as const, lastModified: today },
@@ -33,7 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: today,
     })),
     { path: '/quiz', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: today },
-    { path: '/blog', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: today },
+    { path: '/blog', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: latestArticleUpdate },
     { path: '/a-propos', priority: 0.5, changeFrequency: 'monthly' as const, lastModified: today },
     // Phase Z: cornerstone EEAT page — priority 0.9 because every
     // product review, comparator and best-for page links back to it,
@@ -123,7 +126,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   // Blog articles — FR canonical + hreflang alternates
-  const articles = getAllArticles()
   for (const article of articles) {
     const priority = article.category === 'tests' ? 0.7
       : article.category === 'comparatifs' ? 0.7

@@ -13,6 +13,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { Kicker, SiteFooter } from '@/components/ui'
+import { resolveLang } from '@/lib/i18n'
 
 const guideContent: Record<string, {
   intro_title: string
@@ -488,11 +489,10 @@ const guideContent: Record<string, {
   }
 }
 
-const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const dict = await getDictionary(safeLang)
   return buildPageMetadata({
     lang: safeLang,
@@ -950,12 +950,6 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <SiteFooter
         currentLang={lang}
         topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
-        links={[
-          { href: `/${lang}/a-propos`, label: dict.about_link },
-          { href: `/${lang}/mentions-legales`, label: dict.legal_notice },
-          { href: `/${lang}/politique-confidentialite`, label: dict.privacy_policy },
-          { href: `/${lang}/politique-cookies`, label: dict.cookie_policy },
-        ]}
       />
 
       {/* Cookie Banner */}

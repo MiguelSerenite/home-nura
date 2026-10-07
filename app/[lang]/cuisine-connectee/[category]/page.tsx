@@ -18,8 +18,8 @@ import {
 } from '@/lib/smart-kitchen-products'
 import { getSmartKitchenFaqs, faqSectionTitles } from '@/lib/smart-kitchen-faqs'
 import { SectionHero, SiteFooter } from '@/components/ui'
+import { resolveLang, LANGUAGES } from '@/lib/i18n'
 
-const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
 interface CategoryContent {
   kicker: string
@@ -326,7 +326,7 @@ const bestForUiStrings: Record<string, { title: string; prefix: string; subtitle
 
 export function generateStaticParams() {
   return SMART_KITCHEN_CATEGORIES.flatMap((category) =>
-    SUPPORTED_LANGS.map((lang) => ({ lang, category }))
+    LANGUAGES.map((lang) => ({ lang, category }))
   )
 }
 
@@ -336,7 +336,7 @@ export async function generateMetadata({
   params: Promise<{ lang: string; category: string }>
 }): Promise<Metadata> {
   const { lang, category } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   if (!(SMART_KITCHEN_CATEGORIES as readonly string[]).includes(category)) {
     return {}
   }
@@ -356,9 +356,7 @@ export default async function CategoryPage({
   params: Promise<{ lang: string; category: string }>
 }) {
   const { lang, category } = await params
-  const safeLang: Lang = (SUPPORTED_LANGS as readonly string[]).includes(lang)
-    ? (lang as Lang)
-    : 'fr'
+  const safeLang: Lang = resolveLang(lang)
   if (!(SMART_KITCHEN_CATEGORIES as readonly string[]).includes(category)) {
     notFound()
   }
@@ -534,13 +532,6 @@ export default async function CategoryPage({
       {/* Footer */}
       <SiteFooter
         currentLang={safeLang}
-        links={[
-          { href: `/${safeLang}`, label: 'Home' },
-          { href: `/${safeLang}/cuisine-connectee`, label: c.breadcrumbRoot },
-          { href: `/${safeLang}/cuisine-connectee/comparateur`, label: 'Comparator' },
-          { href: `/${safeLang}/blog`, label: 'Blog' },
-          { href: `/${safeLang}/a-propos`, label: 'About' },
-        ]}
       />
     </div>
   )

@@ -9,8 +9,8 @@ import { getNonce } from '@/lib/nonce'
 import type { Metadata } from 'next'
 import { SiteFooter, Button } from '@/components/ui'
 import { buildPageMetadata } from '@/lib/seo'
+import { resolveLang } from '@/lib/i18n'
 
-const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl']
 const BASE_URL = 'https://homenura.com'
 
 const metaTitles: Record<string, string> = {
@@ -33,7 +33,7 @@ const metaDescs: Record<string, string> = {
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
-  const safeLang = LANGUAGES.includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   return buildPageMetadata({
     lang: safeLang,
     path: '/blog',
@@ -222,13 +222,6 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
       <SiteFooter
         currentLang={lang}
         topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
-        links={[
-          { href: `/${lang}`, label: dict.breadcrumb_home || 'Accueil' },
-          { href: `/${lang}/a-propos`, label: dict.about_link || 'À propos' },
-          { href: `/${lang}/guides/airfryers`, label: dict.breadcrumb_guide || 'Guide' },
-          { href: `/${lang}/mentions-legales`, label: dict.legal_notice },
-          { href: `/${lang}/politique-confidentialite`, label: dict.privacy_policy },
-        ]}
       />
 
       <CookieBanner lang={lang} dict={{ cookie_banner_text: dict.cookie_banner_text, cookie_accept: dict.cookie_accept, cookie_reject: dict.cookie_reject, cookie_learn_more: dict.cookie_learn_more }} />

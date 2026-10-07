@@ -5,8 +5,8 @@ import { getNonce } from '@/lib/nonce'
 import { buildPageMetadata } from '@/lib/seo'
 import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
 import { Kicker, SiteFooter } from '@/components/ui'
+import { resolveLang } from '@/lib/i18n'
 
-const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
 interface Chapter {
   num: string
@@ -331,7 +331,7 @@ const pageContent: Record<string, PillarContent> = {
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
   return buildPageMetadata({
     lang: safeLang,
@@ -344,7 +344,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 
 export default async function SmartKitchenPillarGuidePage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
   const nonce = await getNonce()
 
@@ -482,12 +482,6 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
       {/* Footer */}
       <SiteFooter
         currentLang={safeLang}
-        links={[
-          { href: `/${safeLang}`, label: 'Home' },
-          { href: `/${safeLang}/cuisine-connectee`, label: c.breadcrumbRoot },
-          { href: `/${safeLang}/blog`, label: 'Blog' },
-          { href: `/${safeLang}/a-propos`, label: 'About' },
-        ]}
       />
     </div>
   )

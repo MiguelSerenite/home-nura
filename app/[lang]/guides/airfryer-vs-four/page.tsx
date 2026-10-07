@@ -11,6 +11,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { Kicker, SiteFooter, Button } from '@/components/ui'
+import { resolveLang } from '@/lib/i18n'
 
 const pageContent: Record<string, {
   title: string
@@ -337,11 +338,10 @@ const metaTitles: Record<string, string> = {
   nl: 'Airfryer vs Oven: Wat is Beter? | Home Nura',
 }
 
-const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
   const title = metaTitles[safeLang] || metaTitles.fr
   return buildPageMetadata({
@@ -745,12 +745,6 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
       <SiteFooter
         currentLang={lang}
         topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
-        links={[
-          { href: `/${lang}/mentions-legales`, label: dict.legal_notice },
-          { href: `/${lang}/politique-confidentialite`, label: dict.privacy_policy },
-          { href: `/${lang}/politique-cookies`, label: dict.cookie_policy },
-          { href: `/${lang}/a-propos`, label: dict.about_link },
-        ]}
       />
 
       <CookieBanner lang={lang} dict={{ cookie_banner_text: dict.cookie_banner_text, cookie_accept: dict.cookie_accept, cookie_reject: dict.cookie_reject, cookie_learn_more: dict.cookie_learn_more }} />

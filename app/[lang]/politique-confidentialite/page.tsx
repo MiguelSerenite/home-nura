@@ -3,8 +3,8 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getNonce } from '@/lib/nonce'
 import { buildPageMetadata } from '@/lib/seo'
+import { resolveLang } from '@/lib/i18n'
 
-const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
 interface CookieRow {
   name: string
@@ -437,7 +437,7 @@ const content: Record<string, PrivacyContent> = {
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const c = content[safeLang] || content.fr
   return buildPageMetadata({
     lang: safeLang,

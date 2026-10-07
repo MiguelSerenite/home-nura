@@ -376,26 +376,6 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <SiteFooter
         currentLang={lang}
         topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
-        links={[
-          { href: `/${lang}/guides/airfryers`, label: 'Guide' },
-          { href: `/${lang}/comparateur`, label: 'Comparateur' },
-          {
-            href: `/${lang}/cuisine-connectee`,
-            label:
-              lang === 'fr' ? 'Cuisine connectée'
-              : lang === 'de' ? 'Smarte Küche'
-              : lang === 'es' ? 'Cocina conectada'
-              : lang === 'it' ? 'Cucina connessa'
-              : lang === 'nl' ? 'Slimme keuken'
-              : 'Smart kitchen',
-          },
-          { href: `/${lang}/quiz`, label: 'Quiz' },
-          { href: `/${lang}/blog`, label: 'Blog' },
-          { href: `/${lang}/a-propos`, label: dict.about_link },
-          { href: `/${lang}/mentions-legales`, label: dict.legal_notice },
-          { href: `/${lang}/politique-confidentialite`, label: dict.privacy_policy },
-          { href: `/${lang}/politique-cookies`, label: dict.cookie_policy },
-        ]}
       />
 
       {/* Cookie Banner */}
