@@ -505,7 +505,7 @@ export default function Quiz({ products, currentLang }: QuizProps) {
                     <a
                       href={recommendation.url}
                       target="_blank"
-                      rel="nofollow noopener noreferrer"
+                      rel="sponsored nofollow noopener noreferrer"
                       onClick={() =>
                         trackAffiliateClick({
                           asin: recommendation.asin,

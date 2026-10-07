@@ -346,7 +346,7 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
               <a
                 href={p.url}
                 target="_blank"
-                rel="nofollow noopener noreferrer"
+                rel="sponsored nofollow noopener noreferrer"
                 onClick={() =>
                   trackAffiliateClick({
                     asin: p.asin,

@@ -222,7 +222,7 @@ export default function Comparator({
                     <a
                       href={product.url}
                       target="_blank"
-                      rel="nofollow noopener noreferrer"
+                      rel="sponsored nofollow noopener noreferrer"
                       onClick={() =>
                         trackAffiliateClick({
                           asin: product.asin,

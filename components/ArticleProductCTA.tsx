@@ -88,7 +88,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom' }
         <a
           href={p.url}
           target="_blank"
-          rel="nofollow noopener noreferrer"
+          rel="sponsored nofollow noopener noreferrer"
           onClick={() =>
             trackAffiliateClick({
               asin: p.asin,
@@ -127,7 +127,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom' }
             <a
               href={p.url}
               target="_blank"
-              rel="nofollow noopener noreferrer"
+              rel="sponsored nofollow noopener noreferrer"
               onClick={() =>
                 trackAffiliateClick({
                   asin: p.asin,
