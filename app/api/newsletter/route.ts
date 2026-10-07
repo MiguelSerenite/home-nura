@@ -1,8 +1,8 @@
 import { NextResponse } from 'next/server'
 import { rateLimited, getClientIp } from '@/lib/rate-limit'
+import { subscribeToNewsletter } from '@/lib/brevo'
 
-// Rudimentary email validation — good enough for client-submitted data
-// before we'd hand it off to a real ESP (Mailchimp/Brevo/etc.).
+// Rudimentary email validation before handing the address to Brevo.
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/
 
 export async function POST(request: Request) {
@@ -33,18 +33,26 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: false, error: 'rate_limited' }, { status: 429 })
   }
 
-  // TODO(refonte lot 3): no ESP is wired yet, so the address is not stored.
+  const locale = typeof lang === 'string' ? lang : 'unknown'
+  const result = await subscribeToNewsletter(email, locale)
   // Logs carry no personal data (GDPR): only the email domain and locale.
   console.log(
     JSON.stringify({
       level: 'info',
       msg: 'newsletter_subscribe',
+      result,
       emailDomain: email.split('@')[1]?.toLowerCase(),
-      lang: typeof lang === 'string' ? lang : 'unknown',
+      lang: locale,
       ts: new Date().toISOString(),
     }),
   )
 
+  if (result === 'not_configured') {
+    return NextResponse.json({ ok: false, error: 'unavailable' }, { status: 503 })
+  }
+  if (result === 'failed') {
+    return NextResponse.json({ ok: false, error: 'upstream_error' }, { status: 502 })
+  }
   return NextResponse.json({ ok: true }, { status: 200 })
 }
 
