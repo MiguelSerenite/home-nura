@@ -63,3 +63,16 @@ for (const route of ROUTES) {
     ).toEqual([])
   })
 }
+
+test.describe('keyboard navigation', () => {
+  for (const route of ROUTES) {
+    test(`skip link is the first tab stop and targets #main: ${route.name}`, async ({ page }) => {
+      await page.goto(route.path)
+      await page.keyboard.press('Tab')
+      const focused = page.locator(':focus')
+      await expect(focused).toHaveAttribute('href', '#main')
+      await expect(focused).toBeVisible()
+      await expect(page.locator('#main')).toHaveCount(1)
+    })
+  }
+})

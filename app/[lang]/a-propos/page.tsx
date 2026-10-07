@@ -328,35 +328,35 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
 
       <Navbar currentLang={lang} />
 
-      <main className="max-w-3xl mx-auto px-6 py-16">
+      <main id="main" className="max-w-3xl mx-auto px-6 py-16">
         <h1 className="text-4xl font-bold mb-12">{c.title}</h1>
 
         {/* Mission */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-4 text-blue-900">{c.mission_title}</h2>
+          <h2 className="text-2xl font-bold mb-4 text-brand-900">{c.mission_title}</h2>
           <p className="text-slate-600 leading-relaxed">{c.mission}</p>
         </section>
 
         {/* Methodology */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-4 text-blue-900">{c.methodology_title}</h2>
+          <h2 className="text-2xl font-bold mb-4 text-brand-900">{c.methodology_title}</h2>
           <p className="text-slate-600 leading-relaxed">{c.methodology}</p>
         </section>
 
         {/* Criteria */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-blue-900">{c.criteria_title}</h2>
+          <h2 className="text-2xl font-bold mb-6 text-brand-900">{c.criteria_title}</h2>
           <div className="space-y-4">
             {c.criteria.map((criterion, i) => (
               <div key={i} className="bg-white rounded-2xl border border-slate-200 p-5">
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="font-bold text-slate-900">{criterion.name}</h3>
-                  <span className="text-sm font-black text-blue-600 bg-blue-50 px-3 py-1 rounded-full">{criterion.weight}</span>
+                  <span className="text-sm font-black text-brand-600 bg-brand-50 px-3 py-1 rounded-full">{criterion.weight}</span>
                 </div>
                 <p className="text-sm text-slate-500">{criterion.desc}</p>
                 <div className="mt-3 h-2 bg-slate-100 rounded-full overflow-hidden">
                   <div
-                    className="h-full bg-gradient-to-r from-blue-500 to-blue-600 rounded-full"
+                    className="h-full bg-gradient-to-r from-brand-500 to-brand-600 rounded-full"
                     style={{ width: criterion.weight }}
                   />
                 </div>
@@ -367,29 +367,29 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
 
         {/* Team */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-4 text-blue-900">{c.team_title}</h2>
+          <h2 className="text-2xl font-bold mb-4 text-brand-900">{c.team_title}</h2>
           <p className="text-slate-600 leading-relaxed">{c.team}</p>
         </section>
 
         {/* Independence */}
-        <section className="mb-12 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 border border-blue-100">
-          <h2 className="text-2xl font-bold mb-4 text-blue-900">{c.independence_title}</h2>
+        <section className="mb-12 bg-gradient-to-br from-brand-50 to-accent-50 rounded-3xl p-8 border border-brand-100">
+          <h2 className="text-2xl font-bold mb-4 text-brand-900">{c.independence_title}</h2>
           <p className="text-slate-600 leading-relaxed">{c.independence}</p>
         </section>
 
         {/* Contact */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-4 text-blue-900">{c.contact_title}</h2>
+          <h2 className="text-2xl font-bold mb-4 text-brand-900">{c.contact_title}</h2>
           <p className="text-slate-600 leading-relaxed">{c.contact}</p>
         </section>
 
         {/* Stats */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6 text-blue-900">{c.stats_title}</h2>
+          <h2 className="text-2xl font-bold mb-6 text-brand-900">{c.stats_title}</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {c.stats.map((stat, i) => (
               <div key={i} className="bg-white rounded-2xl border border-slate-200 p-5 text-center">
-                <p className="text-3xl font-black text-blue-600 mb-2">{stat.value}</p>
+                <p className="text-3xl font-black text-brand-600 mb-2">{stat.value}</p>
                 <p className="text-sm text-slate-500">{stat.label}</p>
               </div>
             ))}
@@ -397,8 +397,8 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
         </section>
 
         {/* E-E-A-T */}
-        <section className="mb-12 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 border border-blue-100">
-          <h2 className="text-2xl font-bold mb-6 text-blue-900">{c.eeat_title}</h2>
+        <section className="mb-12 bg-gradient-to-br from-brand-50 to-accent-50 rounded-3xl p-8 border border-brand-100">
+          <h2 className="text-2xl font-bold mb-6 text-brand-900">{c.eeat_title}</h2>
           <div className="space-y-4">
             <p className="text-slate-600 leading-relaxed">{c.eeat_experience}</p>
             <p className="text-slate-600 leading-relaxed">{c.eeat_expertise}</p>
@@ -410,17 +410,17 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
         {/* Founder */}
         <section className="mb-12 bg-white rounded-2xl border border-slate-200 p-8">
           <div className="flex flex-col items-center text-center">
-            <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mb-4">
+            <div className="w-20 h-20 bg-gradient-to-br from-brand-500 to-accent-600 rounded-full flex items-center justify-center mb-4">
               <span className="text-2xl font-black text-white">{c.founder_name.split(' ').map(n => n[0]).join('')}</span>
             </div>
             <h3 className="text-xl font-bold text-slate-900 mb-1">{c.founder_name}</h3>
-            <p className="text-sm font-semibold text-blue-600 mb-4">{c.founder_title}</p>
+            <p className="text-sm font-semibold text-brand-600 mb-4">{c.founder_title}</p>
             <p className="text-slate-600 leading-relaxed max-w-2xl">{c.founder_bio}</p>
           </div>
         </section>
 
         <div className="mt-8">
-          <Link href={`/${lang}`} className="text-blue-600 font-bold hover:underline">
+          <Link href={`/${lang}`} className="text-brand-600 font-bold hover:underline">
             &larr; {lang === 'fr' ? 'Retour à l\'accueil' : lang === 'de' ? 'Zurück zur Startseite' : lang === 'es' ? 'Volver al inicio' : lang === 'it' ? 'Torna alla home' : lang === 'nl' ? 'Terug naar home' : 'Back to home'}
           </Link>
         </div>

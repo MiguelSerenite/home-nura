@@ -78,13 +78,13 @@ export default async function PolitiqueCookies({ params }: { params: Promise<{ l
         }) }}
       />
       <Navbar currentLang={lang} />
-      <main className="max-w-3xl mx-auto px-6 py-16">
+      <main id="main" className="max-w-3xl mx-auto px-6 py-16">
         <h1 className="text-3xl font-bold mb-8">{c.title}</h1>
         <div className="prose prose-slate max-w-none whitespace-pre-line text-slate-600 leading-relaxed">
           {c.body}
         </div>
         <div className="mt-12">
-          <Link href={`/${lang}`} className="text-blue-600 font-bold hover:underline">
+          <Link href={`/${lang}`} className="text-brand-600 font-bold hover:underline">
             &larr; {lang === 'fr' ? 'Retour à l\'accueil' : lang === 'de' ? 'Zurück zur Startseite' : lang === 'es' ? 'Volver al inicio' : lang === 'it' ? 'Torna alla home' : lang === 'nl' ? 'Terug naar home' : 'Back to home'}
           </Link>
         </div>

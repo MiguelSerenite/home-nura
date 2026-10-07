@@ -214,7 +214,7 @@ export default async function MentionsLegales({ params }: { params: Promise<{ la
         }) }}
       />
       <Navbar currentLang={lang} />
-      <main className="max-w-3xl mx-auto px-6 py-16">
+      <main id="main" className="max-w-3xl mx-auto px-6 py-16">
         <h1 className="text-3xl md:text-4xl font-bold mb-10 tracking-tight">{t.title}</h1>
 
         <section className="mb-10">
@@ -245,13 +245,13 @@ export default async function MentionsLegales({ params }: { params: Promise<{ la
             <dd>{publisher.publicationDirector}</dd>
 
             <dt className="font-semibold text-slate-900">{t.phone}</dt>
-            <dd><a href={`tel:${publisher.phone.replace(/\s+/g, '')}`} className="text-blue-600 hover:underline">{publisher.phone}</a></dd>
+            <dd><a href={`tel:${publisher.phone.replace(/\s+/g, '')}`} className="text-brand-600 hover:underline">{publisher.phone}</a></dd>
 
             <dt className="font-semibold text-slate-900">{t.email}</dt>
-            <dd><a href={`mailto:${publisher.email}`} className="text-blue-600 hover:underline">{publisher.email}</a></dd>
+            <dd><a href={`mailto:${publisher.email}`} className="text-brand-600 hover:underline">{publisher.email}</a></dd>
 
             <dt className="font-semibold text-slate-900">{t.website}</dt>
-            <dd><a href={publisher.website} className="text-blue-600 hover:underline">{publisher.website}</a></dd>
+            <dd><a href={publisher.website} className="text-brand-600 hover:underline">{publisher.website}</a></dd>
           </dl>
         </section>
 
@@ -279,7 +279,7 @@ export default async function MentionsLegales({ params }: { params: Promise<{ la
         </section>
 
         <div className="mt-12">
-          <Link href={`/${lang}`} className="text-blue-600 font-bold hover:underline">
+          <Link href={`/${lang}`} className="text-brand-600 font-bold hover:underline">
             &larr; {t.back}
           </Link>
         </div>

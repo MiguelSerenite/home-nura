@@ -471,7 +471,7 @@ export default async function PolitiqueConfidentialite({ params }: { params: Pro
         }) }}
       />
       <Navbar currentLang={lang} />
-      <main className="max-w-3xl mx-auto px-6 py-16">
+      <main id="main" className="max-w-3xl mx-auto px-6 py-16">
         <h1 className="text-3xl md:text-4xl font-bold mb-3">{c.title}</h1>
         <p className="text-sm text-slate-500 mb-8">{c.lastUpdated}</p>
 
@@ -532,7 +532,7 @@ export default async function PolitiqueConfidentialite({ params }: { params: Pro
         </section>
 
         <div className="mt-12">
-          <Link href={`/${lang}`} className="text-blue-600 font-bold hover:underline">
+          <Link href={`/${lang}`} className="text-brand-600 font-bold hover:underline">
             &larr; {c.backLink}
           </Link>
         </div>

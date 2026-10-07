@@ -164,23 +164,23 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
       <article className="max-w-3xl mx-auto px-6 py-12">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-sm text-slate-500 mb-8 flex-wrap">
-          <Link href={`/${lang}`} className="hover:text-blue-600 transition-colors">{dict.breadcrumb_home || 'Home'}</Link>
-          <span>/</span>
-          <Link href={`/${lang}/blog`} className="hover:text-blue-600 transition-colors">Blog</Link>
-          <span>/</span>
+          <Link href={`/${lang}`} className="hover:text-brand-600 transition-colors">{dict.breadcrumb_home || 'Home'}</Link>
+          <span aria-hidden="true">/</span>
+          <Link href={`/${lang}/blog`} className="hover:text-brand-600 transition-colors">Blog</Link>
+          <span aria-hidden="true">/</span>
           <span className="text-slate-600">{categoryLabel}</span>
         </nav>
 
         {/* Header */}
         <header className="mb-10">
-          <span className="inline-block px-3 py-1 mb-4 text-xs font-bold text-blue-600 bg-blue-50 rounded-full">{categoryLabel}</span>
+          <span className="inline-block px-3 py-1 mb-4 text-xs font-bold text-brand-600 bg-brand-50 rounded-full">{categoryLabel}</span>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 leading-tight">{title}</h1>
           <p className="text-xl text-slate-500 leading-relaxed mb-6">{excerpt}</p>
 
           {/* Meta */}
           <div className="flex flex-wrap items-center gap-4 text-sm text-slate-500 border-t border-b border-slate-100 py-4">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-white text-xs font-bold">MS</div>
+              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-brand-500 to-accent-600 flex items-center justify-center text-white text-xs font-bold">MS</div>
               <span className="font-medium text-slate-600">Miguel Serenite</span>
             </div>
             <span>{lang === 'fr' ? 'Publié le' : lang === 'de' ? 'Veröffentlicht am' : lang === 'es' ? 'Publicado el' : lang === 'it' ? 'Pubblicato il' : lang === 'nl' ? 'Gepubliceerd op' : 'Published'} {dateFormatted}</span>
@@ -214,7 +214,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
             prose-p:text-slate-600 prose-p:leading-relaxed prose-p:mb-4
             prose-li:text-slate-600
             prose-strong:text-slate-900
-            prose-a:text-blue-600 prose-a:font-semibold prose-a:no-underline hover:prose-a:underline
+            prose-a:text-brand-600 prose-a:font-semibold prose-a:no-underline hover:prose-a:underline
             prose-img:rounded-xl prose-img:shadow-md
             [&_.blog-table-wrap]:my-6 [&_.blog-table-wrap]:-mx-4 md:[&_.blog-table-wrap]:mx-0 [&_.blog-table-wrap]:overflow-x-auto [&_.blog-table-wrap]:rounded-xl md:[&_.blog-table-wrap]:border md:[&_.blog-table-wrap]:border-slate-200 md:[&_.blog-table-wrap]:bg-white md:[&_.blog-table-wrap]:shadow-sm
             [&_.blog-table-wrap]:px-4 md:[&_.blog-table-wrap]:px-0
@@ -237,7 +237,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
             <div className="space-y-4">
               {article.faq.map((faq: FAQItem, idx: number) => (
                 <details key={idx} className="group bg-white border border-slate-200 rounded-xl shadow-sm" open={idx === 0}>
-                  <summary className="flex items-center justify-between cursor-pointer p-5 text-left font-semibold text-slate-900 hover:text-blue-600 transition-colors">
+                  <summary className="flex items-center justify-between cursor-pointer p-5 text-left font-semibold text-slate-900 hover:text-brand-600 transition-colors">
                     <span>{faq.question[lang] || faq.question.fr}</span>
                     <svg className="w-5 h-5 flex-shrink-0 ml-4 text-slate-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                   </summary>
@@ -252,11 +252,11 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
         <ArticleProductCTA products={topProducts.slice(0, 1)} lang={lang} variant="inline" />
 
         {/* Pillar Link */}
-        <div className="mt-12 p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl border border-blue-100">
-          <p className="text-sm font-bold text-blue-900 mb-2">
+        <div className="mt-12 p-6 bg-gradient-to-br from-brand-50 to-accent-50 rounded-2xl border border-brand-100">
+          <p className="text-sm font-bold text-brand-900 mb-2">
             {lang === 'fr' ? 'Article issu de notre guide complet' : lang === 'de' ? 'Artikel aus unserem umfassenden Ratgeber' : lang === 'es' ? 'Artículo de nuestra guía completa' : lang === 'it' ? 'Articolo dalla nostra guida completa' : lang === 'nl' ? 'Artikel uit onze complete gids' : 'Article from our comprehensive guide'}
           </p>
-          <Link href={`/${lang}/${article.pillar}`} className="text-blue-600 font-bold hover:underline text-lg">
+          <Link href={`/${lang}/${article.pillar}`} className="text-brand-600 font-bold hover:underline text-lg">
             {lang === 'fr' ? 'Voir le guide complet des airfryers 2026 →' : lang === 'de' ? 'Zum kompletten Airfryer-Ratgeber 2026 →' : lang === 'es' ? 'Ver la guía completa de freidoras 2026 →' : lang === 'it' ? 'Vai alla guida completa 2026 →' : lang === 'nl' ? 'Naar de complete airfryer-gids 2026 →' : 'See the complete air fryer guide 2026 →'}
           </Link>
         </div>
@@ -284,7 +284,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
                   )}
                   <div>
                     <span className="text-xs text-slate-500">{r.readingTime} min</span>
-                    <h3 className="text-sm font-bold text-slate-900 mt-1 group-hover:text-blue-600 transition-colors line-clamp-2">
+                    <h3 className="text-sm font-bold text-slate-900 mt-1 group-hover:text-brand-600 transition-colors line-clamp-2">
                       {r.title[lang] || r.title.fr}
                     </h3>
                   </div>
