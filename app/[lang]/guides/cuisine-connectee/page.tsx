@@ -6,6 +6,7 @@ import { buildPageMetadata } from '@/lib/seo'
 import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
 import { Kicker, SiteFooter } from '@/components/ui'
 import { resolveLang } from '@/lib/i18n'
+import { ChevronRight } from 'lucide-react'
 
 
 interface Chapter {
@@ -393,11 +394,11 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
           <li>
             <Link href={`/${safeLang}`} className="hover:text-brand-600 transition-colors">Home</Link>
           </li>
-          <li aria-hidden="true">/</li>
+          <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
           <li>
             <Link href={`/${safeLang}/cuisine-connectee`} className="hover:text-brand-600 transition-colors">{c.breadcrumbRoot}</Link>
           </li>
-          <li aria-hidden="true">/</li>
+          <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
           <li className="text-slate-600 font-medium">{c.breadcrumb}</li>
         </ol>
       </nav>

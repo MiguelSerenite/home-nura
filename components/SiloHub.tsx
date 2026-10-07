@@ -25,6 +25,7 @@ import type { MetaSiloSlug } from '@/lib/catalog'
 import { isValidLang, type Lang } from '@/lib/i18n'
 import FaqSection from '@/components/FaqSection'
 import { getSiloFaq, SILO_FAQ_TITLE } from '@/lib/catalog/silo-faqs'
+import { ChevronRight } from 'lucide-react'
 
 const uiStrings: Record<Lang, { home: string; comingSoon: string; categoriesTitle: string; methodologyCta: string }> = {
   fr: {
@@ -146,7 +147,7 @@ export default async function SiloHub({ siloSlug, lang }: SiloHubProps) {
                 {ui.home}
               </Link>
             </li>
-            <li aria-hidden="true">/</li>
+            <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
             <li className="text-slate-600 font-medium">{title}</li>
           </ol>
         </nav>

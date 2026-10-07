@@ -7,6 +7,7 @@ import { getStaticProducts } from '@/lib/products'
 import Comparator from '@/components/Comparator'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import { resolveLang } from '@/lib/i18n'
+import { ChevronRight } from 'lucide-react'
 
 
 const pageContent: Record<string, { title: string; subtitle: string; intro: string; kicker: string; breadcrumb: string }> = {
@@ -115,7 +116,7 @@ export default async function ComparateurPage({ params }: { params: Promise<{ la
               Home
             </Link>
           </li>
-          <li aria-hidden="true">/</li>
+          <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
           <li className="text-slate-600 font-medium">{c.breadcrumb}</li>
         </ol>
       </nav>

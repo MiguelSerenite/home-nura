@@ -8,6 +8,7 @@ import { Kicker, SectionHero, SiteFooter, Button } from '@/components/ui'
 import { resolveLang } from '@/lib/i18n'
 import FaqSection from '@/components/FaqSection'
 import { getSiloFaq, SILO_FAQ_TITLE } from '@/lib/catalog/silo-faqs'
+import { ChevronRight } from 'lucide-react'
 
 
 interface PillarContent {
@@ -294,7 +295,7 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
               Home
             </Link>
           </li>
-          <li aria-hidden="true">/</li>
+          <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
           <li className="text-slate-600 font-medium">{c.breadcrumb}</li>
         </ol>
       </nav>

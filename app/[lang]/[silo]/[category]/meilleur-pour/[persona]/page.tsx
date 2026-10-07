@@ -66,6 +66,7 @@ import {
   type MetaSiloSlug,
 } from '@/lib/catalog'
 import { LANGUAGES, isValidLang, type Lang } from '@/lib/i18n'
+import { ChevronRight } from 'lucide-react'
 
 const KNOWN_SILOS: readonly MetaSiloSlug[] = [
   'cuisine-connectee',
@@ -318,7 +319,7 @@ export default async function BestForPage({
                 {ui.home}
               </Link>
             </li>
-            <li aria-hidden="true">/</li>
+            <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
             <li>
               <Link
                 href={`/${safeLang}/${silo}`}
@@ -327,7 +328,7 @@ export default async function BestForPage({
                 {siloMeta.title[safeLang]}
               </Link>
             </li>
-            <li aria-hidden="true">/</li>
+            <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
             <li>
               <Link
                 href={categoryHref}
@@ -336,7 +337,7 @@ export default async function BestForPage({
                 {cat.title[safeLang]}
               </Link>
             </li>
-            <li aria-hidden="true">/</li>
+            <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
             <li className="text-slate-600 font-medium">
               {p.label[safeLang]}
             </li>

@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useState, useEffect, useRef } from 'react'
 import SearchBar from './SearchBar'
+import { Shield, Sparkles, Trees, Wind, Zap } from 'lucide-react'
 
 const countries = [
   { code: 'fr', flag: '🇫🇷', label: 'FR', name: 'Français' },
@@ -44,11 +45,13 @@ const l = (key: string, lang: string) => t[key]?.[lang] ?? t[key]?.en ?? key
 
 /* ── Silos dropdown data ──────────────────────────────────── */
 const silos = [
-  { key: 'securite',  path: 'securite-maison',    icon: '🔒' },
-  { key: 'energie',   path: 'energie-domotique',  icon: '⚡' },
-  { key: 'confort',   path: 'confort-air',         icon: '💨' },
-  { key: 'entretien', path: 'entretien-maison',    icon: '🧹' },
-  { key: 'outdoor',   path: 'outdoor-connecte',   icon: '🌿' },
+  // Same Lucide icons as META_SILOS (lib/catalog/meta-silos.ts):
+  // consistent rendering across OS, unlike emoji.
+  { key: 'securite',  path: 'securite-maison',    Icon: Shield },
+  { key: 'energie',   path: 'energie-domotique',  Icon: Zap },
+  { key: 'confort',   path: 'confort-air',         Icon: Wind },
+  { key: 'entretien', path: 'entretien-maison',    Icon: Sparkles },
+  { key: 'outdoor',   path: 'outdoor-connecte',   Icon: Trees },
 ]
 
 export default function Navbar({ currentLang }: { currentLang: string }) {
@@ -147,7 +150,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
                     onClick={() => setMaisonOpen(false)}
                     className="flex items-center gap-2.5 px-4 py-2.5 text-[13px] text-slate-700 hover:bg-slate-50 hover:text-slate-900 transition-colors"
                   >
-                    <span className="text-base">{s.icon}</span>
+                    <s.Icon className="h-4 w-4 text-brand-600" aria-hidden="true" />
                     {l(s.key, lang)}
                   </Link>
                 ))}
@@ -263,7 +266,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
                       onClick={close}
                       className="flex items-center gap-2 py-2.5 px-3 rounded-lg text-slate-700 hover:bg-slate-50 transition-colors text-sm"
                     >
-                      <span>{s.icon}</span>
+                      <s.Icon className="h-4 w-4 text-brand-600" aria-hidden="true" />
                       <span className="font-medium leading-tight">{l(s.key, lang)}</span>
                     </Link>
                   ))}

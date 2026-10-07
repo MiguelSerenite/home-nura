@@ -27,6 +27,7 @@ import {
 } from '@/lib/seo'
 import { LANGUAGES, isValidLang, type Lang } from '@/lib/i18n'
 import { Kicker, SectionHero, SiteFooter } from '@/components/ui'
+import { ChevronRight } from 'lucide-react'
 
 interface Pillar {
   title: string
@@ -535,7 +536,7 @@ export default async function MethodologiePage({
                 {c.breadcrumbHome}
               </Link>
             </li>
-            <li aria-hidden="true">/</li>
+            <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
             <li className="text-slate-600 font-medium">{c.breadcrumbCurrent}</li>
           </ol>
         </nav>

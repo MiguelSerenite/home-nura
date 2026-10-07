@@ -15,6 +15,7 @@ import { SiteFooter } from '@/components/ui'
 import { buildPageMetadata, buildArticleSchema } from '@/lib/seo'
 import { LANGUAGES, isValidLang } from '@/lib/i18n'
 import { BLOG_SEO_META } from '@/lib/blog/seo-meta'
+import { ChevronRight } from 'lucide-react'
 
 const BASE_URL = 'https://homenura.com'
 
@@ -165,9 +166,9 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-sm text-slate-500 mb-8 flex-wrap">
           <Link href={`/${lang}`} className="hover:text-brand-600 transition-colors">{dict.breadcrumb_home || 'Home'}</Link>
-          <span aria-hidden="true">/</span>
+          <span aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></span>
           <Link href={`/${lang}/blog`} className="hover:text-brand-600 transition-colors">Blog</Link>
-          <span aria-hidden="true">/</span>
+          <span aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></span>
           <span className="text-slate-600">{categoryLabel}</span>
         </nav>
 

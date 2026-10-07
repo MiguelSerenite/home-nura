@@ -50,6 +50,7 @@ import {
   getProblemFaq,
 } from '@/lib/catalog'
 import { LANGUAGES, isValidLang, type Lang } from '@/lib/i18n'
+import { ChevronRight } from 'lucide-react'
 
 interface ProblemUi {
   home: string
@@ -278,11 +279,11 @@ export default async function ProblemGuidePage({
                 {ui.home}
               </Link>
             </li>
-            <li aria-hidden="true">/</li>
+            <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
             <li className="text-slate-600">{ui.guides}</li>
-            <li aria-hidden="true">/</li>
+            <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
             <li className="text-slate-600">{ui.troubleshooting}</li>
-            <li aria-hidden="true">/</li>
+            <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
             <li className="text-slate-600 font-medium">{category.title[safeLang]}</li>
           </ol>
         </nav>

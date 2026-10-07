@@ -7,6 +7,7 @@ import Comparator from '@/components/Comparator'
 import { getSmartKitchenProducts } from '@/lib/smart-kitchen-products'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import { resolveLang } from '@/lib/i18n'
+import { ChevronRight } from 'lucide-react'
 
 
 const pageContent: Record<string, {
@@ -129,13 +130,13 @@ export default async function SmartKitchenComparatorPage({ params }: { params: P
               Home
             </Link>
           </li>
-          <li aria-hidden="true">/</li>
+          <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
           <li>
             <Link href={`/${safeLang}/cuisine-connectee`} className="hover:text-brand-600 transition-colors">
               {c.breadcrumbRoot}
             </Link>
           </li>
-          <li aria-hidden="true">/</li>
+          <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
           <li className="text-slate-600 font-medium">{c.breadcrumb}</li>
         </ol>
       </nav>

@@ -12,6 +12,7 @@ import {
   type SmartKitchenCategory,
   type SmartKitchenProduct,
 } from '@/lib/smart-kitchen-products'
+import { ChevronRight } from 'lucide-react'
 
 
 interface QuizPageContent {
@@ -125,11 +126,11 @@ export default async function SmartKitchenQuizPage({ params }: { params: Promise
           <li>
             <Link href={`/${safeLang}`} className="hover:text-brand-600 transition-colors">Home</Link>
           </li>
-          <li aria-hidden="true">/</li>
+          <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
           <li>
             <Link href={`/${safeLang}/cuisine-connectee`} className="hover:text-brand-600 transition-colors">{c.breadcrumbRoot}</Link>
           </li>
-          <li aria-hidden="true">/</li>
+          <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
           <li className="text-slate-600 font-medium">{c.breadcrumb}</li>
         </ol>
       </nav>
