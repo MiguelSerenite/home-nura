@@ -94,7 +94,7 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
       <section className="px-6 py-20 lg:py-28">
         <div className="max-w-4xl mx-auto text-center">
           <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-brand-600 uppercase bg-brand-50 rounded-full">Blog</span>
-          <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-slate-900 to-slate-600">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight mb-6 text-slate-900">
             {intro.title}
           </h1>
           <p className="text-xl text-slate-500 max-w-2xl mx-auto">{intro.subtitle}</p>

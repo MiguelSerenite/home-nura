@@ -443,7 +443,7 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
           <button
             type="button"
             onClick={() => setStep(3)}
-            className="text-xs font-bold tracking-[0.2em] uppercase text-slate-500 hover:text-brand-600 transition-colors"
+            className="inline-flex min-h-11 items-center px-3 text-xs font-bold tracking-[0.2em] uppercase text-slate-600 hover:text-brand-700 transition-colors"
           >
             {dict.skip} &rarr;
           </button>

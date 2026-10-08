@@ -130,7 +130,7 @@ export function ProductImageCarousel({
             <button
               onClick={handlePrevSlide}
               aria-label="Previous"
-              className="absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition duration-200 opacity-0 hover:opacity-100 group-hover:opacity-100 md:opacity-50 md:hover:opacity-100"
+              className="absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition duration-200 opacity-80 hover:opacity-100 group-hover:opacity-100 md:opacity-50 md:hover:opacity-100"
             >
               <ChevronLeft className="w-5 h-5 md:w-6 md:h-6" />
             </button>
@@ -138,7 +138,7 @@ export function ProductImageCarousel({
             <button
               onClick={handleNextSlide}
               aria-label="Next"
-              className="absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition duration-200 opacity-0 hover:opacity-100 group-hover:opacity-100 md:opacity-50 md:hover:opacity-100"
+              className="absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition duration-200 opacity-80 hover:opacity-100 group-hover:opacity-100 md:opacity-50 md:hover:opacity-100"
             >
               <ChevronRight className="w-5 h-5 md:w-6 md:h-6" />
             </button>
