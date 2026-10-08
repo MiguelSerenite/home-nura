@@ -56,42 +56,42 @@ const heroTemplates: Record<Lang, HeroTemplate> = {
     title: (cat) => `Les meilleurs ${cat.toLowerCase()} 2026`,
     subtitle: (silo) => `Testés pour l'Europe — ${silo.toLowerCase()}`,
     intro: (cat, silo, keyword) =>
-      `Notre sélection de ${cat.toLowerCase()} dans la catégorie ${silo.toLowerCase()}, évaluée sur les critères qui comptent en Europe : coût énergétique annuel, étiquette énergie EU, conformité RGPD, disponibilité des pièces détachées sur cinq ans et compatibilité Matter. Nous écartons les modèles qui sur-vendent le marketing et retenons ceux qui tiennent sur la durée. Requête cible : ${keyword}.`,
+      `Guide « ${keyword} » : notre sélection de ${cat.toLowerCase()} dans la catégorie ${silo.toLowerCase()}, évaluée sur les critères qui comptent en Europe : coût énergétique annuel, étiquette énergie EU, conformité RGPD, disponibilité des pièces détachées sur cinq ans et compatibilité Matter. Nous écartons les modèles qui sur-vendent le marketing et retenons ceux qui tiennent sur la durée.`,
     buyCtaLabel: 'Vérifier le prix sur Amazon',
   },
   en: {
     title: (cat) => `Best ${cat.toLowerCase()} 2026`,
     subtitle: (silo) => `Tested for Europe — ${silo.toLowerCase()}`,
     intro: (cat, silo, keyword) =>
-      `Our curated ${cat.toLowerCase()} picks from the ${silo.toLowerCase()} category, graded on what really matters in Europe: annual energy cost, EU energy label, GDPR compliance, spare-part availability over five years and Matter support. We drop models that over-sell marketing and keep the ones that go the distance. Target query: ${keyword}.`,
+      `Your “${keyword}” guide: our curated ${cat.toLowerCase()} picks from the ${silo.toLowerCase()} category, graded on what really matters in Europe: annual energy cost, EU energy label, GDPR compliance, spare-part availability over five years and Matter support. We drop models that over-sell marketing and keep the ones that go the distance.`,
     buyCtaLabel: 'Check price on Amazon',
   },
   de: {
     title: (cat) => `${cat} Vergleich 2026 — Testsieger & Tipps`,
     subtitle: (silo) => `Getestet & verglichen für Europa — ${silo.toLowerCase()}`,
     intro: (cat, silo, keyword) =>
-      `Unsere Auswahl an ${cat} aus der Kategorie ${silo.toLowerCase()}, bewertet nach den Kriterien, die in Europa wirklich zählen: jährliche Energiekosten, EU-Energielabel, DSGVO-Konformität, Ersatzteil­verfügbarkeit über fünf Jahre und Matter-Unterstützung. Modelle mit reinem Marketing fliegen raus, Geräte mit Langlebigkeit bleiben. Zielanfrage: ${keyword}.`,
+      `Ratgeber „${keyword}“: unsere Auswahl an ${cat} aus der Kategorie ${silo.toLowerCase()}, bewertet nach den Kriterien, die in Europa wirklich zählen: jährliche Energiekosten, EU-Energielabel, DSGVO-Konformität, Ersatzteil­verfügbarkeit über fünf Jahre und Matter-Unterstützung. Modelle mit reinem Marketing fliegen raus, Geräte mit Langlebigkeit bleiben.`,
     buyCtaLabel: 'Preis bei Amazon prüfen',
   },
   es: {
     title: (cat) => `Comparativa ${cat.toLowerCase()} 2026 — Análisis y mejores modelos`,
     subtitle: (silo) => `Analizados y comparados para Europa — ${silo.toLowerCase()}`,
     intro: (cat, silo, keyword) =>
-      `Nuestra selección de ${cat.toLowerCase()} en la categoría ${silo.toLowerCase()}, evaluada con los criterios que importan en Europa: coste energético anual, etiqueta energética EU, cumplimiento RGPD, disponibilidad de recambios a cinco años y compatibilidad Matter. Descartamos los modelos que sobre-venden el marketing y conservamos los que aguantan. Búsqueda objetivo: ${keyword}.`,
+      `Guía «${keyword}»: nuestra selección de ${cat.toLowerCase()} en la categoría ${silo.toLowerCase()}, evaluada con los criterios que importan en Europa: coste energético anual, etiqueta energética EU, cumplimiento RGPD, disponibilidad de recambios a cinco años y compatibilidad Matter. Descartamos los modelos que sobre-venden el marketing y conservamos los que aguantan.`,
     buyCtaLabel: 'Ver precio en Amazon',
   },
   it: {
     title: (cat) => `I migliori ${cat.toLowerCase()} 2026`,
     subtitle: (silo) => `Testati per l'Europa — ${silo.toLowerCase()}`,
     intro: (cat, silo, keyword) =>
-      `La nostra selezione di ${cat.toLowerCase()} nella categoria ${silo.toLowerCase()}, valutata sui criteri che contano davvero in Europa: costo energetico annuo, etichetta energetica EU, conformità GDPR, disponibilità dei ricambi su cinque anni e supporto Matter. Scartiamo i modelli che sopravvalutano il marketing e teniamo quelli che durano. Query target: ${keyword}.`,
+      `Guida «${keyword}»: la nostra selezione di ${cat.toLowerCase()} nella categoria ${silo.toLowerCase()}, valutata sui criteri che contano davvero in Europa: costo energetico annuo, etichetta energetica EU, conformità GDPR, disponibilità dei ricambi su cinque anni e supporto Matter. Scartiamo i modelli che sopravvalutano il marketing e teniamo quelli che durano.`,
     buyCtaLabel: 'Verifica prezzo su Amazon',
   },
   nl: {
     title: (cat) => `De beste ${cat.toLowerCase()} 2026`,
     subtitle: (silo) => `Getest voor Europa — ${silo.toLowerCase()}`,
     intro: (cat, silo, keyword) =>
-      `Onze selectie van ${cat.toLowerCase()} in de categorie ${silo.toLowerCase()}, beoordeeld op wat in Europa écht telt: jaarlijkse energiekosten, EU-energielabel, AVG-conformiteit, beschikbaarheid van onderdelen over vijf jaar en Matter-ondersteuning. We laten modellen vallen die teveel op marketing leunen en houden de apparaten die het volhouden. Doelzoekopdracht: ${keyword}.`,
+      `Gids ‘${keyword}’: onze selectie van ${cat.toLowerCase()} in de categorie ${silo.toLowerCase()}, beoordeeld op wat in Europa écht telt: jaarlijkse energiekosten, EU-energielabel, AVG-conformiteit, beschikbaarheid van onderdelen over vijf jaar en Matter-ondersteuning. We laten modellen vallen die teveel op marketing leunen en houden de apparaten die het volhouden.`,
     buyCtaLabel: 'Bekijk prijs op Amazon',
   },
 }

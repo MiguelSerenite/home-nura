@@ -137,6 +137,8 @@ export async function generateMetadata({
     path: `/guides/acheteur/${p.slug}`,
     title: `${hero.title} | Home Nura`,
     description: hero.intro,
+    // Templated copy shared across pages: noindex until hand-written.
+    index: false,
   })
 }
 

@@ -99,3 +99,16 @@ Date éditoriale `SITE_LAST_UPDATED_ISO` (2026-04-20) : à avancer à chaque rev
 2. Newsletter : quel ESP (Brevo est déjà connecté) ?
 3. Tags Amazon : lesquels sont valides ?
 4. Lot 3 : accepter de retirer le nonce CSP (CSP statique) pour rendre les pages statiques/ISR ? Pas de contenu utilisateur sur le site → risque XSS faible, gain TTFB/coût Vercel important.
+
+## Phase 2 (2026-10-08) — audits mobile, SEO Google/Bing, conversion
+
+Lighthouse **mobile** (Moto G, 4G lente) : Perf 90–98, A11y 96–100, SEO 100, LCP 2,5–3,7 s, CLS 0.
+Échecs a11y récurrents : `label-content-name-mismatch` (toutes pages), `color-contrast` (/fr, guides).
+
+| Lot | Contenu | Statut |
+|---|---|---|
+| 5 — Contenu à grande échelle | noindex + hors sitemap : best-for (~6,6 k URL), guides acheteur, pages problème ; fuite « Requête cible » retirée (mot-clé réintégré en « Guide « … » ») ; titres ≤ 60 / descriptions ≤ 155 ; sameAs/@homenura inexistants retirés | PR |
+| 6 — Revenus & conformité | produits du bon thème par article (aujourd'hui : 3 airfryers partout), mention affiliée près des boutons, CTA après le 2ᵉ H2 + barre d'achat mobile, statistiques (aucun événement n'est envoyé), prix statiques (règle Amazon 24 h) | à faire |
+| 7 — Mobile & design | boutons ≥ 44 px, en-tête h-14 mobile, hero sans dégradé + podium plus haut, contrastes, sommaire articles, tableaux lisibles | à faire |
+
+Décisions Miguel : offre Vercel Pro (Hobby = non commercial ; requis pour les événements Analytics), affichage des prix, profils sociaux réels à déclarer.
