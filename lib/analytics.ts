@@ -101,7 +101,7 @@ export function trackAffiliateClick(input: {
   productName: string
   priceNumeric?: number
   position?: number
-  location: 'comparison_table' | 'article_inline' | 'article_bottom' | 'article_sticky' | 'article_models' | 'comparator' | 'product_card' | 'smart_kitchen'
+  location: 'comparison_table' | 'article_inline' | 'article_bottom' | 'article_sticky' | 'article_models' | 'article_quick_answer' | 'comparator' | 'product_card' | 'smart_kitchen'
   lang: string
 }): void {
   trackEvent(EVENTS.CLICK_AFFILIATE, {
