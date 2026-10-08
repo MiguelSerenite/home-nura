@@ -17,7 +17,6 @@
 
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
-import { getNonce } from '@/lib/nonce'
 import { buildBreadcrumbListSchema, BASE_URL } from '@/lib/seo'
 import { Kicker, SectionHero, SiteFooter } from '@/components/ui'
 import { getMetaSilo, getCategoriesBySilo } from '@/lib/catalog'
@@ -82,8 +81,6 @@ export default async function SiloHub({ siloSlug, lang }: SiloHubProps) {
 
   const categories = getCategoriesBySilo(siloSlug)
   const ui = uiStrings[safeLang]
-  const nonce = await getNonce()
-
   const title = silo.title[safeLang]
   const description = silo.description[safeLang]
 
@@ -115,14 +112,12 @@ export default async function SiloHub({ siloSlug, lang }: SiloHubProps) {
     <div className="min-h-screen bg-white">
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       {itemListSchema && (
         <script
           type="application/ld+json"
-          nonce={nonce}
           suppressHydrationWarning
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(itemListSchema),
@@ -223,7 +218,7 @@ export default async function SiloHub({ siloSlug, lang }: SiloHubProps) {
         </section>
       </main>
 
-      <FaqSection faqs={[...getSiloFaq(safeLang, silo.slug)]} title={SILO_FAQ_TITLE[safeLang]} nonce={nonce} />
+      <FaqSection faqs={[...getSiloFaq(safeLang, silo.slug)]} title={SILO_FAQ_TITLE[safeLang]} />
 
       <SiteFooter currentLang={safeLang} />
     </div>

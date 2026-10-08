@@ -9,14 +9,12 @@ import ComparisonTable from '@/components/ComparisonTable'
 import CookieBanner from '@/components/CookieBanner'
 import { getStaticProducts } from '@/lib/products'
 import { buildProductListSchema, formatLastUpdated, lastUpdatedLabel, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
-import { getNonce } from '@/lib/nonce'
 import Link from 'next/link'
 import { Kicker, SiteFooter, Button } from '@/components/ui'
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   const dict = await getDictionary(lang);
-  const nonce = await getNonce();
 
   // Produits statiques avec liens affiliés
   const products = getStaticProducts(lang);
@@ -105,19 +103,16 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
@@ -366,7 +361,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       </section>
 
       {/* FAQ Section with Schema */}
-      <FaqSection faqs={dict.faq} title={dict.faq_title} nonce={nonce} />
+      <FaqSection faqs={dict.faq} title={dict.faq_title} />
 
       {/* Newsletter */}
       <NewsletterForm currentLang={lang} />

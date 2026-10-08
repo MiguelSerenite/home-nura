@@ -45,7 +45,6 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import Navbar from '@/components/Navbar'
-import { getNonce } from '@/lib/nonce'
 import {
   buildPageMetadata,
   buildBreadcrumbListSchema,
@@ -232,8 +231,6 @@ export default async function BestForPage({
   const hero = getBestForHero(safeLang, cat, p, siloMeta.title[safeLang])
   const faqEntries = getBestForFaq(safeLang, cat, p)
   const ui = uiStrings[safeLang]
-  const nonce = await getNonce()
-
   // Other personas relevant to this category — top 6 excluding the
   // current one. Keeps the cluster internally linked so every
   // best-for page sits inside the link graph on day 1.
@@ -288,19 +285,16 @@ export default async function BestForPage({
     <div className="min-h-screen bg-white">
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
@@ -425,7 +419,7 @@ export default async function BestForPage({
         </section>
 
         {/* FAQ (emits FAQPage JSON-LD) */}
-        <FaqSection faqs={faqEntries} title={ui.faqTitle} nonce={nonce} />
+        <FaqSection faqs={faqEntries} title={ui.faqTitle} />
 
         {/* Methodology CTA */}
         <div className="max-w-6xl mx-auto px-6 pb-20">

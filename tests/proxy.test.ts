@@ -1,20 +1,18 @@
 /**
- * Phase W — middleware security header enforcement.
+ * Phase W — middleware security header enforcement (refonte/static).
  *
- * The CSP + HSTS + nonce pipeline in middleware.ts is the single
- * most important security boundary on the site: it's what makes
- * script-src actually mean something and what keeps a hypothetical
- * XSS from auto-loading a third-party payload. A silent regression
- * here would not show up on any user-visible page until an attacker
+ * The CSP + HSTS pipeline in middleware.ts is the single most
+ * important security boundary on the site. A silent regression here
+ * would not show up on any user-visible page until an attacker
  * exploited it.
  *
- * These tests exercise the middleware with a synthetic NextRequest
- * for a normal "inside locale" path (avoiding the root-redirect and
- * invalid-lang branches) and assert the security contract:
+ * Since the site has no visitor-authored content, we trade the
+ * per-request nonce for a static CSP so every route can be
+ * prerendered. The remaining contract is still asserted:
  *
  *   1. Every security header is present and correctly valued
- *   2. The CSP contains a nonce and strict-dynamic
- *   3. The nonce is echoed to `x-nonce` for server components to read
+ *   2. The CSP is static with script-src 'self' 'unsafe-inline'
+ *   3. No nonce is emitted (x-nonce header is gone)
  *   4. The Permissions-Policy locks down camera/mic/geolocation
  *   5. HSTS includes preload + subdomains and a year-long max-age
  */
@@ -72,12 +70,14 @@ describe('middleware security headers', () => {
     expect(hsts).toMatch(/preload/)
   })
 
-  it('sets a Content-Security-Policy with strict-dynamic and a nonce', () => {
+  it('sets a static Content-Security-Policy with unsafe-inline scripts', () => {
     const csp = response.headers.get('Content-Security-Policy')
     expect(csp).toBeTruthy()
     expect(csp).toMatch(/default-src 'self'/)
-    expect(csp).toMatch(/script-src[^;]*'strict-dynamic'/)
-    expect(csp).toMatch(/script-src[^;]*'nonce-[A-Za-z0-9+/=]{20,}'/)
+    expect(csp).toMatch(/script-src[^;]*'self'/)
+    expect(csp).toMatch(/script-src[^;]*'unsafe-inline'/)
+    expect(csp).not.toMatch(/'nonce-/)
+    expect(csp).not.toMatch(/'strict-dynamic'/)
     expect(csp).toMatch(/frame-ancestors 'none'/)
     expect(csp).toMatch(/base-uri 'self'/)
     expect(csp).toMatch(/form-action 'self'/)
@@ -96,32 +96,33 @@ describe('middleware security headers', () => {
     expect(csp).toMatch(/frame-src[^;]*youtube-nocookie\.com/)
   })
 
-  it('echoes the per-request nonce on x-nonce for server components', () => {
-    const nonce = response.headers.get('x-nonce')
-    expect(nonce).toBeTruthy()
-    expect(nonce!.length).toBeGreaterThanOrEqual(20)
-
-    const csp = response.headers.get('Content-Security-Policy') ?? ''
-    expect(csp).toContain(`'nonce-${nonce}'`)
+  it('does not emit the deprecated x-nonce header', () => {
+    expect(response.headers.get('x-nonce')).toBeNull()
   })
 
-  it('generates a fresh nonce per request', () => {
-    const a = invoke('/fr').headers.get('x-nonce')
-    const b = invoke('/fr').headers.get('x-nonce')
+  it('emits a stable CSP across requests (no per-request nonce)', () => {
+    const a = invoke('/fr').headers.get('Content-Security-Policy')
+    const b = invoke('/fr').headers.get('Content-Security-Policy')
     expect(a).toBeTruthy()
     expect(b).toBeTruthy()
-    expect(a).not.toBe(b)
+    expect(a).toBe(b)
   })
 })
 
-describe('middleware hardened CSP (refonte lot 3)', () => {
+describe('middleware static CSP (refonte/static)', () => {
   const response = invoke()
   const csp = response.headers.get('Content-Security-Policy') ?? ''
   const scriptSrc = csp.split(';').map((d) => d.trim()).find((d) => d.startsWith('script-src')) ?? ''
 
-  it('does not weaken script-src with https: or unsafe-inline fallbacks', () => {
-    expect(scriptSrc).not.toContain("'unsafe-inline'")
+  it('restricts script-src to self + unsafe-inline (no https: wildcard)', () => {
+    expect(scriptSrc).toContain("'self'")
+    expect(scriptSrc).toContain("'unsafe-inline'")
     expect(scriptSrc).not.toMatch(/\shttps:(\s|$)/)
+  })
+
+  it('does not emit unsafe-eval outside development builds', () => {
+    // Vitest runs with NODE_ENV=test, so 'unsafe-eval' should be absent.
+    expect(scriptSrc).not.toContain("'unsafe-eval'")
   })
 
   it('blocks plugins and upgrades insecure requests', () => {

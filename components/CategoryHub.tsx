@@ -26,7 +26,6 @@
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { getNonce } from '@/lib/nonce'
 import { buildBreadcrumbListSchema, buildClusterItemListSchema, buildArticleSchema, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import FaqSection from '@/components/FaqSection'
@@ -132,8 +131,6 @@ export default async function CategoryHub({
   const hero = getCategoryHero(safeLang, category)
   const faqEntries = getCategoryFaq(safeLang, category)
   const ui = uiStrings[safeLang]
-  const nonce = await getNonce()
-
   const siloTitle = silo.title[safeLang]
   const categoryTitle = category.title[safeLang]
 
@@ -199,14 +196,12 @@ export default async function CategoryHub({
     <div className="min-h-screen bg-white">
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       {articleSchema && (
         <script
           type="application/ld+json"
-          nonce={nonce}
           suppressHydrationWarning
           dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
         />
@@ -214,7 +209,6 @@ export default async function CategoryHub({
       {clusterItemListSchema && (
         <script
           type="application/ld+json"
-          nonce={nonce}
           suppressHydrationWarning
           dangerouslySetInnerHTML={{ __html: JSON.stringify(clusterItemListSchema) }}
         />
@@ -315,7 +309,6 @@ export default async function CategoryHub({
         <FaqSection
           faqs={faqEntries}
           title={ui.faqTitle}
-          nonce={nonce}
         />
 
         {/* Methodology CTA — every category page links the cornerstone */}

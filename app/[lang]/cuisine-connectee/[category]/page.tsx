@@ -2,7 +2,6 @@ import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { getNonce } from '@/lib/nonce'
 import { buildPageMetadata, buildClusterItemListSchema } from '@/lib/seo'
 import {
   getCategory,
@@ -363,8 +362,6 @@ export default async function CategoryPage({
   }
   const safeCat = category as SmartKitchenCategory
   const c = (categoryContent[safeLang] || categoryContent.fr)[safeCat]
-  const nonce = await getNonce()
-
   const products = getSmartKitchenProductsByCategory(safeLang, safeCat)
   const faqs = getSmartKitchenFaqs(safeLang, safeCat)
   const faqTitle = faqSectionTitles[safeLang] || faqSectionTitles.fr
@@ -424,20 +421,17 @@ export default async function CategoryPage({
     <div className="min-h-screen bg-white">
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
       {bestForClusterSchema && (
         <script
           type="application/ld+json"
-          nonce={nonce}
           suppressHydrationWarning
           dangerouslySetInnerHTML={{ __html: JSON.stringify(bestForClusterSchema) }}
         />
@@ -527,7 +521,7 @@ export default async function CategoryPage({
       )}
 
       {/* FAQ — category-specific, emits FAQPage JSON-LD */}
-      <FaqSection faqs={faqs} title={faqTitle} nonce={nonce} />
+      <FaqSection faqs={faqs} title={faqTitle} />
       </main>
 
       {/* Footer */}

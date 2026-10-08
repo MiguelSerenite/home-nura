@@ -1,7 +1,6 @@
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import { getNonce } from '@/lib/nonce'
 import { buildPageMetadata } from '@/lib/seo'
 import { getStaticProducts } from '@/lib/products'
 import Quiz from '@/components/Quiz'
@@ -71,8 +70,6 @@ export default async function QuizPage({ params }: { params: Promise<{ lang: str
   const { lang } = await params
   const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
-  const nonce = await getNonce()
-
   const rawProducts = getStaticProducts(safeLang)
   const products = rawProducts.map((p) => ({
     asin: p.asin,
@@ -99,7 +96,6 @@ export default async function QuizPage({ params }: { params: Promise<{ lang: str
     <div className="min-h-screen bg-white">
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />

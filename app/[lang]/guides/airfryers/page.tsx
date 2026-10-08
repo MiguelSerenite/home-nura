@@ -8,7 +8,6 @@ import AffiliateLink from '@/components/AffiliateLink'
 import CookieBanner from '@/components/CookieBanner'
 import { getStaticProducts } from '@/lib/products'
 import { buildProductListSchema, formatLastUpdated, lastUpdatedLabel, SITE_LAST_UPDATED_ISO, buildPageMetadata } from '@/lib/seo'
-import { getNonce } from '@/lib/nonce'
 import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
@@ -508,8 +507,6 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
   const { lang } = await params
   const dict = await getDictionary(lang)
   const content = guideContent[lang] || guideContent.fr
-  const nonce = await getNonce()
-
   // Produits statiques avec liens affiliés
   const products = getStaticProducts(lang)
 
@@ -584,13 +581,11 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
@@ -943,7 +938,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       </section>
 
       {/* FAQ Section with Schema */}
-      <FaqSection faqs={dict.faq} title={dict.faq_title} nonce={nonce} />
+      <FaqSection faqs={dict.faq} title={dict.faq_title} />
       </main>
 
       {/* Footer with legal links */}

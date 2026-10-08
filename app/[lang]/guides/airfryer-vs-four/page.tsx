@@ -5,7 +5,6 @@ import CookieBanner from '@/components/CookieBanner'
 import ProductImageCarousel from '@/components/ProductImageCarousel'
 import AffiliateLink from '@/components/AffiliateLink'
 import { getStaticProducts } from '@/lib/products'
-import { getNonce } from '@/lib/nonce'
 import { buildPageMetadata, buildArticleSchema, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -358,8 +357,6 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
   const dict = await getDictionary(lang)
   const c = pageContent[lang] || pageContent.fr
   const products = getStaticProducts(lang)
-  const nonce = await getNonce()
-
   // Editorial chapter list for the post-table deep dive
   const chapters = [
     { title: c.cooking_time_title, body: c.cooking_time },
@@ -405,8 +402,8 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
   return (
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
       <Navbar currentLang={lang} />
-      <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       <main id="main">
       {/* Hero */}
@@ -738,7 +735,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
       </section>
 
       {/* FAQ */}
-      <FaqSection faqs={dict.faq} title={dict.faq_title} nonce={nonce} />
+      <FaqSection faqs={dict.faq} title={dict.faq_title} />
       </main>
 
       {/* Footer */}

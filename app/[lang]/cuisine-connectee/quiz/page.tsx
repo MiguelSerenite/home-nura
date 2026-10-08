@@ -1,7 +1,6 @@
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import { getNonce } from '@/lib/nonce'
 import { buildPageMetadata } from '@/lib/seo'
 import SmartKitchenQuiz from '@/components/SmartKitchenQuiz'
 import { SectionHero, SiteFooter } from '@/components/ui'
@@ -91,8 +90,6 @@ export default async function SmartKitchenQuizPage({ params }: { params: Promise
   const { lang } = await params
   const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
-  const nonce = await getNonce()
-
   // Preload products per category so the client component has everything it needs
   const productsByCategory = SMART_KITCHEN_CATEGORIES.reduce((acc, cat) => {
     acc[cat] = getSmartKitchenProductsByCategory(safeLang, cat)
@@ -113,7 +110,6 @@ export default async function SmartKitchenQuizPage({ params }: { params: Promise
     <div className="min-h-screen bg-white">
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
