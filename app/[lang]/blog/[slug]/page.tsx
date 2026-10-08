@@ -7,6 +7,8 @@ import { getDictionary } from '../../dictionaries'
 import { getArticleBySlug, getRelatedArticles, getAllArticles } from '@/lib/blog'
 import { getArticleRecommendations } from '@/lib/blog/article-products'
 import ArticleModelLinks from '@/components/ArticleModelLinks'
+import QuickAnswer from '@/components/QuickAnswer'
+import { getQuickAnswer } from '@/lib/blog/quick-answers'
 import { splitBeforeNthH2 } from '@/lib/blog/split-content'
 import { getMetaSilo } from '@/lib/catalog'
 import ArticleStickyBuyBar from '@/components/ArticleStickyBuyBar'
@@ -93,6 +95,15 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
   const dict = await getDictionary(lang)
   const related = getRelatedArticles(article)
   const recommendations = getArticleRecommendations(article, lang)
+  const quickAnswer = getQuickAnswer(article, lang)
+  // Ranked verdict as an ItemList so engines and AI assistants can lift it.
+  const quickAnswerSchema = quickAnswer && {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: quickAnswer.question,
+    itemListOrder: 'https://schema.org/ItemListOrderAscending',
+    itemListElement: quickAnswer.picks.map((pick, i) => ({ '@type': 'ListItem', position: i + 1, name: `${pick.model} — ${pick.role}` })),
+  }
   const topProducts = recommendations?.kind === 'catalog' ? recommendations.products : []
   const citedModels = recommendations?.kind === 'models' ? recommendations.models : []
   const seeAllHref = recommendations?.kind !== 'catalog' || recommendations.source === 'airfryers'
@@ -231,6 +242,13 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
               priority
             />
           </div>
+        )}
+
+        {quickAnswer && (
+          <>
+            <script type="application/ld+json" suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(quickAnswerSchema) }} />
+            <QuickAnswer question={quickAnswer.question} picks={quickAnswer.picks} lang={lang} />
+          </>
         )}
 
         {/* Article Content — product block after the 2nd h2, not after the FAQ */}

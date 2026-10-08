@@ -2,6 +2,7 @@ import { getAllArticles } from '@/lib/blog'
 import { BLOG_SEO_META } from '@/lib/blog/seo-meta'
 import { getIndexableSilos } from '@/lib/catalog'
 import { LANGUAGES } from '@/lib/i18n'
+import { getQuickAnswer } from '@/lib/blog/quick-answers'
 import { BASE_URL } from '@/lib/seo'
 
 /**
@@ -45,6 +46,14 @@ export function buildLlmsTxt(): string {
       const title = meta?.fr?.title ?? article.title.fr
       const note = meta?.en?.description ?? article.excerpt.en ?? ''
       return link(title, `/fr/blog/${article.slug}`, note)
+    }),
+    '',
+    '## Quick answers (European buyers, 2026)',
+    ...getAllArticles().flatMap((article) => {
+      const qa = getQuickAnswer(article, 'en')
+      if (!qa) return []
+      const picks = qa.picks.map((p) => `${p.role}: ${p.model} — ${p.why}`).join(' ')
+      return [`- [${qa.question}](${BASE_URL}/en/blog/${article.slug}): ${picks}`]
     }),
     '',
     '## Optional',
