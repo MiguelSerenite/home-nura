@@ -5,7 +5,8 @@ import CookieBanner from '@/components/CookieBanner'
 import ArticleProductCTA from '@/components/ArticleProductCTA'
 import { getDictionary } from '../../dictionaries'
 import { getArticleBySlug, getRelatedArticles, getAllArticles } from '@/lib/blog'
-import { getArticleProducts } from '@/lib/blog/article-products'
+import { getArticleRecommendations } from '@/lib/blog/article-products'
+import ArticleModelLinks from '@/components/ArticleModelLinks'
 import { splitBeforeNthH2 } from '@/lib/blog/split-content'
 import { getMetaSilo } from '@/lib/catalog'
 import ArticleStickyBuyBar from '@/components/ArticleStickyBuyBar'
@@ -91,10 +92,13 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
 
   const dict = await getDictionary(lang)
   const related = getRelatedArticles(article)
-  const { source: productSource, products: topProducts } = getArticleProducts(article, lang)
-  const seeAllHref = productSource === 'airfryers'
+  const recommendations = getArticleRecommendations(article, lang)
+  const topProducts = recommendations?.kind === 'catalog' ? recommendations.products : []
+  const citedModels = recommendations?.kind === 'models' ? recommendations.models : []
+  const seeAllHref = recommendations?.kind !== 'catalog' || recommendations.source === 'airfryers'
     ? `/${lang}/guides/airfryers`
-    : `/${lang}/cuisine-connectee/${productSource}`
+    : `/${lang}/cuisine-connectee/${recommendations.source}`
+  const stickyProduct = topProducts[0] ?? (citedModels[0] && { asin: '', title: citedModels[0].name, url: citedModels[0].url })
   const pillarSilo = getMetaSilo(article.pillar)
   const title = article.title[lang] || article.title.fr
   const rawContent = article.content[lang]
@@ -231,6 +235,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
 
         {/* Article Content — product block after the 2nd h2, not after the FAQ */}
         <div className={PROSE_CLASSES} dangerouslySetInnerHTML={{ __html: contentBeforeCta }} />
+        <ArticleModelLinks models={citedModels} lang={lang} id="article-products" />
         {topProducts.length > 0 && (
           <ArticleProductCTA products={topProducts.slice(0, 1)} lang={lang} variant="inline" seeAllHref={seeAllHref} />
         )}
@@ -270,7 +275,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
         {topProducts.length > 0 && (
           <ArticleProductCTA products={topProducts} lang={lang} variant="bottom" seeAllHref={seeAllHref} />
         )}
-        {topProducts[0] && <ArticleStickyBuyBar product={topProducts[0]} lang={lang} />}
+        {stickyProduct && <ArticleStickyBuyBar product={stickyProduct} lang={lang} />}
 
         {/* Related Articles */}
         {related.length > 0 && (

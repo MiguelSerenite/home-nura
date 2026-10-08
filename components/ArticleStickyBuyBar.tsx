@@ -4,10 +4,10 @@ import { useEffect, useState } from 'react'
 import { trackAffiliateClick } from '@/lib/analytics'
 
 interface StickyProduct {
+  /** Empty for models linked through an Amazon search (no catalog ASIN). */
   asin: string
   title: string
-  price: string
-  priceNumeric: number
+  priceNumeric?: number
   url: string
 }
 
