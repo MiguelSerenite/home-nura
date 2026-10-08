@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Geist } from "next/font/google";
 import { WebVitalsReporter } from "@/components/WebVitalsReporter";
 import { Analytics } from "@vercel/analytics/next";
+import GeoLocaleSuggestion from "@/components/GeoLocaleSuggestion";
 import { LANGUAGES, isValidLang, type Lang } from "@/lib/i18n";
 import { buildPageMetadata, BASE_URL } from "@/lib/seo";
 import "../globals.css";
@@ -190,6 +191,7 @@ export default async function RootLayout({
         >
           {SKIP_LINK_LABEL[lang]}
         </a>
+        <GeoLocaleSuggestion lang={lang} />
         <WebVitalsReporter />
         {/* Cookieless, same-origin (/_vercel/insights). Always rendered: the
             build-time VERCEL env guard turned out to be falsy on Vercel. */}
