@@ -464,7 +464,7 @@ export default function Quiz({ products, currentLang }: QuizProps) {
                   <button
                     type="button"
                     onClick={goBack}
-                    className="text-xs font-semibold text-slate-500 hover:text-brand-600 transition-colors"
+                    className="inline-flex min-h-11 items-center px-3 -mx-3 text-sm font-semibold text-slate-600 hover:text-brand-700 transition-colors"
                   >
                     ← {t.back}
                   </button>
@@ -526,7 +526,7 @@ export default function Quiz({ products, currentLang }: QuizProps) {
                 <button
                   type="button"
                   onClick={restart}
-                  className="mt-8 text-xs font-semibold text-slate-500 hover:text-brand-600 transition-colors"
+                  className="mt-8 inline-flex min-h-11 items-center px-3 text-sm font-semibold text-slate-600 hover:text-brand-700 transition-colors"
                 >
                   ↻ {t.restart}
                 </button>

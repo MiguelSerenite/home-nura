@@ -12,6 +12,15 @@ import { buildProductListSchema, formatLastUpdated, lastUpdatedLabel, SITE_LAST_
 import Link from 'next/link'
 import { Kicker, SiteFooter, Button } from '@/components/ui'
 
+const HERO_CTA: Record<string, { primary: string; secondary: string }> = {
+  fr: { primary: 'Voir notre top 3', secondary: 'Trouver mon airfryer en 1 min' },
+  en: { primary: 'See our top 3', secondary: 'Find my air fryer in 1 min' },
+  de: { primary: 'Unsere Top 3 ansehen', secondary: 'Meine Heißluftfritteuse in 1 Min. finden' },
+  es: { primary: 'Ver nuestro top 3', secondary: 'Encontrar mi freidora en 1 min' },
+  it: { primary: 'Vedi la nostra top 3', secondary: 'Trova la mia friggitrice in 1 min' },
+  nl: { primary: 'Bekijk onze top 3', secondary: 'Vind mijn airfryer in 1 min' },
+}
+
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   const dict = await getDictionary(lang);
@@ -120,17 +129,25 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
       <main id="main">
       {/* Hero Section */}
-      <section className="relative px-6 py-20 lg:py-32 overflow-hidden">
+      <section className="relative px-4 sm:px-6 py-12 sm:py-20 lg:py-28 overflow-hidden">
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-brand-600 uppercase bg-brand-50 rounded-full">
             Europe 2026
           </span>
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 bg-clip-text text-transparent bg-gradient-to-b from-slate-900 to-slate-600">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-6 text-slate-900">
             {dict.welcome}
           </h1>
-          <p className="text-xl md:text-2xl text-slate-500 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-2xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
             {dict.description}
           </p>
+          <div className="mt-8 flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3">
+            <a href="#top-picks" className="inline-flex min-h-12 items-center justify-center rounded-full bg-brand-600 px-7 text-base font-bold text-white hover:bg-brand-700 active:bg-brand-700 transition-colors">
+              {(HERO_CTA[lang] ?? HERO_CTA.fr).primary}
+            </a>
+            <Link href={`/${lang}/quiz`} className="inline-flex min-h-12 items-center justify-center rounded-full border border-slate-300 bg-white px-7 text-base font-bold text-slate-800 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+              {(HERO_CTA[lang] ?? HERO_CTA.fr).secondary}
+            </Link>
+          </div>
           <time
             dateTime={SITE_LAST_UPDATED_ISO}
             className="mt-8 inline-flex items-center gap-2 px-4 py-1.5 text-xs font-semibold text-slate-600 bg-slate-100 border border-slate-200 rounded-full"
@@ -144,30 +161,8 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         </div>
       </section>
 
-      {/* Why Trust Us - Enhanced with stats */}
-      <section className="max-w-3xl mx-auto px-6 pb-16">
-        <div className="bg-gradient-to-br from-brand-50 to-accent-50 rounded-3xl p-8 md:p-12 border border-brand-100">
-          <h2 className="text-2xl font-bold text-brand-900 mb-2 text-center">{dict.why_trust}</h2>
-          <p className="text-slate-600 text-sm text-center mb-8">{dict.expert_label}</p>
-          <div className="grid grid-cols-3 gap-6">
-            <div className="text-center">
-              <div className="text-3xl font-black text-brand-600 mb-1">12+</div>
-              <p className="text-sm text-slate-600 font-medium">{dict.stat_models_tested}</p>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-black text-brand-600 mb-1">5</div>
-              <p className="text-sm text-slate-600 font-medium">{dict.stat_hours_testing}</p>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-black text-brand-600 mb-1">6</div>
-              <p className="text-sm text-slate-600 font-medium">{dict.stat_european_markets}</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Top Products Showcase with Real Images */}
-      <section className="px-6 py-16 bg-white">
+      <section id="top-picks" className="scroll-mt-20 px-4 sm:px-6 py-12 md:py-16 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-slate-900 mb-4">
             {dict.top_picks_title || "This month's podium"}
@@ -210,6 +205,28 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Why Trust Us - Enhanced with stats */}
+      <section className="max-w-3xl mx-auto px-6 pb-16">
+        <div className="bg-gradient-to-br from-brand-50 to-accent-50 rounded-3xl p-8 md:p-12 border border-brand-100">
+          <h2 className="text-2xl font-bold text-brand-900 mb-2 text-center">{dict.why_trust}</h2>
+          <p className="text-slate-600 text-sm text-center mb-8">{dict.expert_label}</p>
+          <div className="grid grid-cols-3 gap-6">
+            <div className="text-center">
+              <div className="text-3xl font-black text-brand-600 mb-1">12+</div>
+              <p className="text-sm text-slate-600 font-medium">{dict.stat_models_tested}</p>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-black text-brand-600 mb-1">5</div>
+              <p className="text-sm text-slate-600 font-medium">{dict.stat_hours_testing}</p>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-black text-brand-600 mb-1">6</div>
+              <p className="text-sm text-slate-600 font-medium">{dict.stat_european_markets}</p>
+            </div>
           </div>
         </div>
       </section>
@@ -308,7 +325,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85] mb-6">{chapter.body}</p>
               <Link
                 href={chapter.href}
-                className="group inline-flex items-center gap-2 text-sm font-semibold text-brand-600 hover:text-brand-700 transition-colors"
+                className="group inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-brand-600 hover:text-brand-700 transition-colors"
               >
                 <span className="uppercase tracking-[0.15em] text-[11px]">{chapter.cta}</span>
                 <span className="transition-transform group-hover:translate-x-1">&rarr;</span>

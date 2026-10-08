@@ -70,6 +70,14 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
     return () => { document.body.style.overflow = '' }
   }, [isOpen])
 
+  // Escape closes the mobile drawer (keyboard users, WCAG 2.1.2)
+  useEffect(() => {
+    if (!isOpen) return
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setIsOpen(false) }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [isOpen])
+
   // Close mobile drawer at desktop breakpoint
   useEffect(() => {
     if (typeof window === 'undefined') return
@@ -96,7 +104,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
 
   return (
     <nav className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-20 grid grid-cols-[auto_1fr_auto] items-center gap-3">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 md:h-20 grid grid-cols-[auto_1fr_auto] items-center gap-3">
 
         {/* ── Logo ── */}
         <Link
@@ -112,7 +120,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
             height={400}
             sizes="224px"
             priority
-            className="h-14 md:h-16 w-auto"
+            className="h-11 md:h-16 w-auto"
           />
         </Link>
 
@@ -218,7 +226,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
             aria-label={isOpen ? l('closeMenu', lang) : l('openMenu', lang)}
             aria-expanded={isOpen}
             aria-controls="mobile-menu"
-            className="flex items-center justify-center w-9 h-9 rounded-full border border-slate-200 text-slate-700 hover:bg-slate-100 transition-colors"
+            className="flex shrink-0 items-center justify-center w-11 h-11 min-w-11 rounded-full border border-slate-200 text-slate-700 hover:bg-slate-100 transition-colors"
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               {isOpen ? <path d="M18 6 6 18M6 6l12 12" /> : <><path d="M3 6h18"/><path d="M3 12h18"/><path d="M3 18h18"/></>}
@@ -238,26 +246,26 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
           />
           <div
             id="mobile-menu"
-            className="lg:hidden absolute left-0 right-0 top-20 z-50 bg-white border-b border-slate-200 shadow-xl max-h-[80vh] overflow-y-auto"
+            className="lg:hidden absolute left-0 right-0 top-16 md:top-20 z-50 bg-white border-b border-slate-200 shadow-xl max-h-[calc(100dvh-4rem)] overflow-y-auto overscroll-contain"
           >
             <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-1">
 
-              <Link href={`/${lang}/guides/airfryers`} onClick={close} className="flex items-center justify-between py-2.5 px-3 rounded-lg text-slate-800 font-medium hover:bg-slate-50 transition-colors text-sm">
+              <Link href={`/${lang}/guides/airfryers`} onClick={close} className="flex items-center justify-between py-3.5 px-3 rounded-lg text-slate-800 font-medium hover:bg-slate-50 active:bg-slate-100 transition-colors text-base">
                 <span>{l('guide', lang)}</span>
                 <svg className="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m9 18 6-6-6-6"/></svg>
               </Link>
-              <Link href={`/${lang}/comparateur`} onClick={close} className="flex items-center justify-between py-2.5 px-3 rounded-lg text-slate-800 font-medium hover:bg-slate-50 transition-colors text-sm">
+              <Link href={`/${lang}/comparateur`} onClick={close} className="flex items-center justify-between py-3.5 px-3 rounded-lg text-slate-800 font-medium hover:bg-slate-50 active:bg-slate-100 transition-colors text-base">
                 <span>{l('comparatif', lang)}</span>
                 <svg className="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m9 18 6-6-6-6"/></svg>
               </Link>
-              <Link href={`/${lang}/cuisine-connectee`} onClick={close} className="flex items-center justify-between py-2.5 px-3 rounded-lg text-slate-800 font-medium hover:bg-slate-50 transition-colors text-sm">
+              <Link href={`/${lang}/cuisine-connectee`} onClick={close} className="flex items-center justify-between py-3.5 px-3 rounded-lg text-slate-800 font-medium hover:bg-slate-50 active:bg-slate-100 transition-colors text-base">
                 <span>{l('smartKitchen', lang)}</span>
                 <svg className="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m9 18 6-6-6-6"/></svg>
               </Link>
 
               {/* Maison connectée – inline section */}
               <div className="py-1">
-                <div className="text-[11px] font-bold tracking-widest uppercase text-slate-400 px-3 mb-1">{l('maison', lang)}</div>
+                <div className="text-xs font-bold tracking-widest uppercase text-slate-500 px-3 mb-1">{l('maison', lang)}</div>
                 <div className="grid grid-cols-2 gap-1">
                   {silos.map(s => (
                     <Link
@@ -273,26 +281,26 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
                 </div>
               </div>
 
-              <Link href={`/${lang}/quiz`} onClick={close} className="flex items-center justify-between py-2.5 px-3 rounded-lg text-slate-800 font-medium hover:bg-slate-50 transition-colors text-sm">
+              <Link href={`/${lang}/quiz`} onClick={close} className="flex items-center justify-between py-3.5 px-3 rounded-lg text-slate-800 font-medium hover:bg-slate-50 active:bg-slate-100 transition-colors text-base">
                 <span>Quiz</span>
                 <svg className="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m9 18 6-6-6-6"/></svg>
               </Link>
-              <Link href={`/${lang}/blog`} onClick={close} className="flex items-center justify-between py-2.5 px-3 rounded-lg text-slate-800 font-medium hover:bg-slate-50 transition-colors text-sm">
+              <Link href={`/${lang}/blog`} onClick={close} className="flex items-center justify-between py-3.5 px-3 rounded-lg text-slate-800 font-medium hover:bg-slate-50 active:bg-slate-100 transition-colors text-base">
                 <span>Blog</span>
                 <svg className="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m9 18 6-6-6-6"/></svg>
               </Link>
-              <Link href={`/${lang}/methodologie`} onClick={close} className="flex items-center justify-between py-2.5 px-3 rounded-lg text-slate-800 font-medium hover:bg-slate-50 transition-colors text-sm">
+              <Link href={`/${lang}/methodologie`} onClick={close} className="flex items-center justify-between py-3.5 px-3 rounded-lg text-slate-800 font-medium hover:bg-slate-50 active:bg-slate-100 transition-colors text-base">
                 <span>{l('methodologie', lang)}</span>
                 <svg className="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m9 18 6-6-6-6"/></svg>
               </Link>
-              <Link href={`/${lang}/a-propos`} onClick={close} className="flex items-center justify-between py-2.5 px-3 rounded-lg text-slate-800 font-medium hover:bg-slate-50 transition-colors text-sm">
+              <Link href={`/${lang}/a-propos`} onClick={close} className="flex items-center justify-between py-3.5 px-3 rounded-lg text-slate-800 font-medium hover:bg-slate-50 active:bg-slate-100 transition-colors text-base">
                 <span>{l('about', lang)}</span>
                 <svg className="w-4 h-4 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m9 18 6-6-6-6"/></svg>
               </Link>
 
               {/* Language grid */}
               <div className="mt-3 pt-3 border-t border-slate-100">
-                <div className="text-[11px] font-bold tracking-widest uppercase text-slate-400 mb-2 px-1">{l('langue', lang)}</div>
+                <div className="text-xs font-bold tracking-widest uppercase text-slate-500 mb-2 px-1">{l('langue', lang)}</div>
                 <div className="grid grid-cols-3 gap-1.5">
                   {countries.map((c) => (
                     <Link

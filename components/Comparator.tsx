@@ -164,7 +164,7 @@ export default function Comparator({
                       type="button"
                       onClick={() => setSlot(index, null)}
                       aria-label={t.clearSlot}
-                      className="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/90 backdrop-blur border border-slate-200 flex items-center justify-center text-slate-500 hover:text-red-600 hover:border-red-300 transition-colors"
+                      className="absolute top-3 right-3 w-11 h-11 rounded-full bg-white/90 backdrop-blur border border-slate-200 flex items-center justify-center text-slate-500 hover:text-red-600 hover:border-red-300 transition-colors"
                     >
                       <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" aria-hidden="true">
                         <path d="M18 6 6 18M6 6l12 12" />

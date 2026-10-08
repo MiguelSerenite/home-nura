@@ -21,7 +21,7 @@ import { ChevronRight } from 'lucide-react'
 
 const BASE_URL = 'https://homenura.com'
 
-const PROSE_CLASSES = `prose prose-lg prose-slate max-w-none
+const PROSE_CLASSES = `prose md:prose-lg prose-slate max-w-none
             prose-headings:font-bold prose-headings:tracking-tight
             prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4 prose-h2:text-slate-900
             prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-h3:text-slate-800
@@ -188,9 +188,9 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
       <article className="max-w-3xl mx-auto px-6 py-12">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-sm text-slate-500 mb-8 flex-wrap">
-          <Link href={`/${lang}`} className="hover:text-brand-600 transition-colors">{dict.breadcrumb_home || 'Home'}</Link>
+          <Link href={`/${lang}`} className="inline-flex min-h-11 items-center hover:text-brand-600 transition-colors">{dict.breadcrumb_home || 'Home'}</Link>
           <span aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></span>
-          <Link href={`/${lang}/blog`} className="hover:text-brand-600 transition-colors">Blog</Link>
+          <Link href={`/${lang}/blog`} className="inline-flex min-h-11 items-center hover:text-brand-600 transition-colors">Blog</Link>
           <span aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></span>
           <span className="text-slate-600">{categoryLabel}</span>
         </nav>
@@ -198,8 +198,8 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
         {/* Header */}
         <header className="mb-10">
           <span className="inline-block px-3 py-1 mb-4 text-xs font-bold text-brand-600 bg-brand-50 rounded-full">{categoryLabel}</span>
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 leading-tight">{title}</h1>
-          <p className="text-xl text-slate-500 leading-relaxed mb-6">{excerpt}</p>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-5 leading-tight">{title}</h1>
+          <p className="text-lg sm:text-xl text-slate-600 leading-relaxed mb-6">{excerpt}</p>
 
           {/* Meta */}
           <div className="flex flex-wrap items-center gap-4 text-sm text-slate-500 border-t border-b border-slate-100 py-4">
@@ -259,7 +259,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
           <p className="text-sm font-bold text-brand-900 mb-2">
             {lang === 'fr' ? 'Article issu de notre guide complet' : lang === 'de' ? 'Artikel aus unserem umfassenden Ratgeber' : lang === 'es' ? 'Artículo de nuestra guía completa' : lang === 'it' ? 'Articolo dalla nostra guida completa' : lang === 'nl' ? 'Artikel uit onze complete gids' : 'Article from our comprehensive guide'}
           </p>
-          <Link href={`/${lang}/${article.pillar}`} className="text-brand-600 font-bold hover:underline text-lg">
+          <Link href={`/${lang}/${article.pillar}`} className="inline-flex min-h-11 items-center text-brand-700 font-bold hover:underline text-lg">
             {pillarSilo
               ? `${pillarSilo.title[lang] ?? pillarSilo.title.fr} →`
               : lang === 'fr' ? 'Voir le guide complet des airfryers 2026 →' : lang === 'de' ? 'Zum kompletten Airfryer-Ratgeber 2026 →' : lang === 'es' ? 'Ver la guía completa de freidoras 2026 →' : lang === 'it' ? 'Vai alla guida completa 2026 →' : lang === 'nl' ? 'Naar de complete airfryer-gids 2026 →' : 'See the complete air fryer guide 2026 →'}

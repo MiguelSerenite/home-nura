@@ -433,7 +433,7 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
               <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85] mb-6">{chapter.body}</p>
               <Link
                 href={`/${safeLang}${chapter.href}`}
-                className="group inline-flex items-center gap-2 text-sm font-semibold text-brand-600 hover:text-brand-700 transition-colors"
+                className="group inline-flex min-h-11 items-center gap-2 text-sm font-semibold text-brand-600 hover:text-brand-700 transition-colors"
               >
                 <span className="uppercase tracking-[0.15em] text-[11px]">{chapter.cta}</span>
                 <span className="transition-transform group-hover:translate-x-1">&rarr;</span>

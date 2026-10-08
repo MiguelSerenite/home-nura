@@ -1,4 +1,6 @@
 @import "tailwindcss";
+/* Powers the prose-* classes of blog articles (headings, lists, tables). */
+@plugin "@tailwindcss/typography";
 
 :root {
   --background: #ffffff;

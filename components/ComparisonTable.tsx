@@ -94,7 +94,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
               key={opt.key}
               onClick={() => setSortBy(opt.key)}
               aria-pressed={sortBy === opt.key}
-              className={`px-3 py-1.5 text-xs font-bold rounded-full transition duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 ${
+              className={`min-h-11 px-4 text-sm font-bold rounded-full transition duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 ${
                 sortBy === opt.key
                   ? 'bg-brand-600 text-white'
                   : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
@@ -190,13 +190,16 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
           <div key={i} className="rounded-2xl border border-slate-200 bg-white overflow-hidden">
             <div className="p-5">
               <div className="flex items-start gap-4">
-                <span className="text-2xl font-black text-slate-200">#{i + 1}</span>
+                <span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-black ${i === 0 ? 'bg-brand-600 text-white' : 'bg-slate-100 text-slate-700'}`}>{i + 1}</span>
                 <div className="relative w-16 h-16 rounded-xl bg-slate-100 overflow-hidden shrink-0">
                   <Image src={p.image} alt="" fill sizes="64px" className="object-contain p-2" />
                 </div>
                 <div className="flex-1 min-w-0">
+                  {p.badge && (
+                    <span className="mb-1 inline-block rounded-full bg-amber-100 px-2 py-0.5 text-xs font-bold text-amber-800">{p.badge}</span>
+                  )}
                   <h3 className="font-bold text-slate-900 text-sm leading-tight">{p.name}</h3>
-                  <div className="flex items-center gap-2 mt-2">
+                  <div className="flex flex-wrap items-center gap-2 mt-2">
                     <div className={`inline-flex items-center gap-1 px-2 py-1 rounded-full border text-xs ${getScoreBg(p.nuraScore)}`}>
                       <div className={`w-2 h-2 rounded-full ${getScoreColor(p.nuraScore)}`} />
                       <span className="font-black">{p.nuraScore}/10</span>
@@ -224,7 +227,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                       lang,
                     })
                   }
-                  className="px-5 py-2.5 bg-brand-600 text-white text-xs font-bold rounded-full hover:bg-brand-700 transition-colors"
+                  className="inline-flex min-h-12 items-center px-5 bg-brand-600 text-white text-sm font-bold rounded-full hover:bg-brand-700 active:bg-brand-700 transition-colors"
                 >
                   {dict.buy_button}
                 </a>
@@ -236,7 +239,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
               onClick={() => setExpandedRow(expandedRow === i ? null : i)}
               aria-expanded={expandedRow === i}
               aria-controls={`comparison-details-${i}`}
-              className="w-full px-5 py-3 text-xs font-bold text-brand-600 bg-slate-50 hover:bg-slate-100 transition-colors border-t border-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-inset"
+              className="w-full min-h-11 px-5 py-3 text-sm font-bold text-brand-700 bg-slate-50 hover:bg-slate-100 transition-colors border-t border-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-inset"
             >
               {expandedRow === i ? dict.hide_details : dict.show_details}
             </button>
@@ -246,7 +249,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                   <h4 className="text-xs font-bold text-emerald-700 mb-2">{dict.col_pros}</h4>
                   <ul className="space-y-1">
                     {p.pros.map((pro, j) => (
-                      <li key={j} className="text-xs text-slate-600 flex items-start gap-1.5">
+                      <li key={j} className="text-sm text-slate-700 flex items-start gap-1.5">
                         <span className="text-emerald-500 mt-0.5 shrink-0">+</span>
                         {pro}
                       </li>
@@ -257,7 +260,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                   <h4 className="text-xs font-bold text-red-500 mb-2">{dict.col_cons}</h4>
                   <ul className="space-y-1">
                     {p.cons.map((con, j) => (
-                      <li key={j} className="text-xs text-slate-600 flex items-start gap-1.5">
+                      <li key={j} className="text-sm text-slate-700 flex items-start gap-1.5">
                         <span className="text-red-400 mt-0.5 shrink-0">-</span>
                         {con}
                       </li>
