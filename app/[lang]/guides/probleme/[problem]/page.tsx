@@ -178,8 +178,6 @@ export async function generateMetadata({
     path: `/guides/probleme/${prob.slug}`,
     title: `${content.title} | Home Nura`,
     description: guide?.intro ?? content.diagnosis,
-    // Templated copy shared across pages: noindex until hand-written.
-    index: false,
   })
 }
 

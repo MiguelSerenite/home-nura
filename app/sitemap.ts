@@ -6,6 +6,7 @@ import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import {
   getIndexableSilos,
   getIndexableCategories,
+  PROBLEMS,
 } from '@/lib/catalog'
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -63,8 +64,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'weekly' as const,
         lastModified: today,
       })),
-    // Persona buyer guides, problem pages and best-for pages are built
-    // from shared templates (near-duplicate copy at scale, no products):
+    // Troubleshooting pages: indexed — about 30% of Search Console clicks
+    // (Jul–Oct 2026) for only ~10 topics.
+    ...PROBLEMS.map((p) => ({
+      path: `/guides/probleme/${p.slug}`,
+      priority: 0.7,
+      changeFrequency: 'monthly' as const,
+      lastModified: today,
+    })),
+    // Persona buyer guides and best-for pages are built
+    // from shared templates (near-duplicate copy at scale, no products,
+    // best-for: 0.5% CTR spread over 771 URLs):
     // they are noindexed and kept out of the sitemap until each page has
     // its own substance. See docs/refonte-oct26/PLAN.md (lot 5).
     // Legal pages (mentions-legales, politique-confidentialite,
