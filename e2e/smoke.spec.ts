@@ -184,3 +184,25 @@ test.describe('Blog index', () => {
     expect(await articleLinks.count()).toBeGreaterThan(0)
   })
 })
+
+test.describe('Geo locale suggestion', () => {
+  test('a visitor in Spain on the English site is offered the Spanish site', async ({ page, context, baseURL }) => {
+    const { hostname } = new URL(baseURL ?? 'http://127.0.0.1:3000')
+    await context.addCookies([{ name: 'hn_country', value: 'ES', domain: hostname, path: '/' }])
+    await page.goto('/en/blog')
+    const cta = page.getByRole('link', { name: 'Ver en español' })
+    await expect(cta).toBeVisible()
+    await expect(cta).toHaveAttribute('href', '/es/blog')
+    await page.getByRole('button', { name: 'Cerrar' }).click()
+    await expect(cta).toHaveCount(0)
+    await page.reload()
+    await expect(page.getByRole('link', { name: 'Ver en español' })).toHaveCount(0)
+  })
+
+  test('no suggestion when the page already matches the country', async ({ page, context, baseURL }) => {
+    const { hostname } = new URL(baseURL ?? 'http://127.0.0.1:3000')
+    await context.addCookies([{ name: 'hn_country', value: 'ES', domain: hostname, path: '/' }])
+    await page.goto('/es/blog')
+    await expect(page.getByRole('link', { name: 'Ver en español' })).toHaveCount(0)
+  })
+})

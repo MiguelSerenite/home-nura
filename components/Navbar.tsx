@@ -218,8 +218,8 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
         </div>
 
         {/* ── Mobile right: Search icon + hamburger ── */}
-        <div className="flex lg:hidden items-center gap-2">
-          <SearchBar currentLang={lang} variant="mobile" onNavigate={close} />
+        <div className="flex lg:hidden items-center gap-2 justify-self-end col-start-3">
+          <SearchBar currentLang={lang} variant="desktop" onNavigate={close} />
           <button
             type="button"
             onClick={() => setIsOpen(v => !v)}

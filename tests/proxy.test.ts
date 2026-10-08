@@ -200,3 +200,18 @@ describe('middleware locale routing', () => {
     }
   })
 })
+
+describe('proxy geo country cookie', () => {
+  it('exposes the visitor country to the client for the locale suggestion banner', () => {
+    const request = new NextRequest(new URL('http://localhost/en/blog'), {
+      headers: { 'x-vercel-ip-country': 'ES', 'accept-language': 'en-US' },
+    })
+    const res = middleware(request) as Response
+    expect(res.headers.get('set-cookie') ?? '').toMatch(/hn_country=ES/)
+  })
+
+  it('sets no country cookie when the platform gives no country', () => {
+    const res = middleware(new NextRequest(new URL('http://localhost/en/blog'))) as Response
+    expect(res.headers.get('set-cookie') ?? '').not.toMatch(/hn_country=/)
+  })
+})
