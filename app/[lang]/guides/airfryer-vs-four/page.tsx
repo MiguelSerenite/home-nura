@@ -441,7 +441,6 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
               <div className="px-5 pb-5">
                 <h3 className="text-base font-bold text-slate-900 mb-1 line-clamp-2">{product.title}</h3>
                 <div className="flex items-center justify-between mb-3">
-                  <span className="text-xl font-black text-slate-900">{product.price}</span>
                   <span className={`px-2 py-0.5 text-xs font-bold rounded-full ${product.nuraScore >= 9 ? 'bg-emerald-100 text-emerald-700' : 'bg-brand-100 text-brand-700'}`}>
                     {product.nuraScore}/10
                   </span>
@@ -620,7 +619,6 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
               <div className="p-4">
                 <h3 className="text-sm font-bold text-slate-900 mb-1 line-clamp-2">{product.title}</h3>
                 <div className="flex items-center justify-between">
-                  <span className="text-lg font-black">{product.price}</span>
                   <AffiliateLink
                     href={product.url}
                     asin={product.asin}

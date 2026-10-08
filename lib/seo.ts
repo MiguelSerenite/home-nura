@@ -2,7 +2,6 @@
 
 import type { Metadata } from 'next'
 import { LANGUAGES, type Lang, isValidLang } from './i18n'
-import { extractBrand } from './brand'
 
 const BASE_URL = 'https://homenura.com'
 
@@ -188,17 +187,16 @@ interface ProductLike {
 
 /**
  * Build an ItemList JSON-LD schema for a ranked comparison of products.
- * Each entry embeds a full Product with aggregateRating so Google and
- * LLM crawlers can attribute citations to individual products.
+ * Names only: Product/Offer markup would need live prices (Amazon Associates
+ * allows only PA-API prices refreshed within 24h) and Product without
+ * offers/review/rating is invalid for Google.
  */
 export function buildProductListSchema(
   products: ProductLike[],
-  lang: string,
+  _lang: string,
   listName: string,
   listUrl: string
 ) {
-  const currency = lang === 'en' ? 'GBP' : 'EUR'
-
   return {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
@@ -206,37 +204,12 @@ export function buildProductListSchema(
     url: listUrl,
     numberOfItems: products.length,
     dateModified: SITE_LAST_UPDATED_ISO,
-    itemListElement: products.map((p, i) => {
-      const priceNumeric = p.priceNumeric.toString()
-      return {
-        '@type': 'ListItem',
-        position: i + 1,
-        item: {
-          '@type': 'Product',
-          name: p.title,
-          image: p.image,
-          sku: p.asin,
-          mpn: p.asin,
-          ...brandSchema(p.title),
-          offers: {
-            '@type': 'Offer',
-            url: p.url,
-            priceCurrency: currency,
-            price: priceNumeric,
-            seller: {
-              '@type': 'Organization',
-              name: 'Amazon',
-            },
-          },
-        },
-      }
-    }),
+    itemListElement: products.map((p, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: p.title,
+    })),
   }
-}
-
-function brandSchema(title: string) {
-  const name = extractBrand(title)
-  return name ? { brand: { '@type': 'Brand', name } } : {}
 }
 
 // ---------------------------------------------------------------------

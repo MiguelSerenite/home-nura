@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import AffiliateLink from './AffiliateLink'
-import { extractBrand } from '@/lib/brand'
+
 interface ProductProps {
   name: string;
   price: string;
@@ -13,51 +13,18 @@ interface ProductProps {
   capacity?: string;
   bestFor?: string;
   position?: number;
-  /** Emit a per-card Product JSON-LD. Disable on pages whose ItemList already describes the products. */
-  withSchema?: boolean;
 }
 
-export default async function ProductCard({ name, price, imageUrl, affiliateLink, asin, buyButtonText, badge, lang = 'fr', capacity, bestFor, position, withSchema = true }: ProductProps) {
-  // Extract numeric price and currency for schema
-  const numericPrice = price.replace(/[^0-9.,]/g, '').replace(',', '.')
-  const priceForTracking = parseFloat(numericPrice)
-  const currency = price.includes('£') ? 'GBP' : 'EUR'
-  const brand = extractBrand(name)
+export default async function ProductCard({ name, price, imageUrl, affiliateLink, asin, buyButtonText, badge, lang = 'fr', capacity, bestFor, position }: ProductProps) {
+  // Numeric price is only used for click analytics, never displayed:
+  // Amazon Associates allows displayed prices only via PA-API (24h max).
+  const priceForTracking = parseFloat(price.replace(/[^0-9.,]/g, '').replace(',', '.'))
 
   // Enriched alt for Google Images SEO — includes brand, capacity, usage context
   const enrichedAlt = [name, capacity, bestFor].filter(Boolean).join(' — ')
 
-  // Only facts we actually know: no ratings, stock, shipping or return
-  // policy — those belong to Amazon and change without notice.
-  const productSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    name,
-    image: imageUrl.startsWith('/') ? `https://homenura.com${imageUrl}` : imageUrl,
-    description: name,
-    sku: asin,
-    ...(brand ? { brand: { '@type': 'Brand', name: brand } } : {}),
-    offers: {
-      '@type': 'Offer',
-      url: affiliateLink,
-      priceCurrency: currency,
-      price: numericPrice,
-      seller: {
-        '@type': 'Organization',
-        name: 'Amazon',
-      },
-    },
-  }
-
   return (
     <div className="group relative flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition duration-200 hover:shadow-md hover:-translate-y-1">
-      {withSchema && (
-        <script
-          type="application/ld+json"
-          suppressHydrationWarning
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
-        />
-      )}
       {badge && (
         <div className="absolute top-4 left-4 z-10 px-3 py-1 bg-amber-400 text-amber-900 text-xs font-bold rounded-full">
           {badge}
@@ -77,9 +44,6 @@ export default async function ProductCard({ name, price, imageUrl, affiliateLink
         <h3 className="text-lg font-bold text-slate-900 line-clamp-2 leading-tight">
           {name}
         </h3>
-        <p className="mt-4 text-2xl font-black text-slate-900">
-          {price}
-        </p>
         <AffiliateLink
           href={affiliateLink}
           asin={asin}

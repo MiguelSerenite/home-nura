@@ -116,7 +116,6 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
               <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-500 text-center">{dict.col_nura_score}</th>
               <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-500">{dict.col_capacity}</th>
               <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-500">{dict.col_best_for}</th>
-              <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-500">{dict.col_price}</th>
               <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-500">{dict.col_action}</th>
             </tr>
           </thead>
@@ -154,9 +153,6 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                 <td className="px-6 py-5 text-sm font-medium text-slate-600">{p.capacity}</td>
                 <td className="px-6 py-5">
                   <span className="text-xs font-bold text-brand-600 bg-brand-50 px-2.5 py-1 rounded-full">{p.bestFor}</span>
-                </td>
-                <td className="px-6 py-5">
-                  <span className="text-lg font-black text-slate-900">{p.price}</span>
                 </td>
                 <td className="px-6 py-5">
                   <a
@@ -210,8 +206,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
               </div>
               <div className="flex items-center justify-between mt-4 pt-4 border-t border-slate-100">
                 <div>
-                  <span className="text-xl font-black text-slate-900">{p.price}</span>
-                  <span className="block text-xs text-slate-500 mt-0.5">{p.capacity}</span>
+                  <span className="block text-sm font-semibold text-slate-700">{p.capacity}</span>
                 </div>
                 <a
                   href={p.url}

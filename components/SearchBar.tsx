@@ -265,7 +265,6 @@ export default function SearchBar({
                             {p.capacity} · {p.bestFor}
                           </div>
                         </div>
-                        <div className="text-sm font-bold text-slate-900 shrink-0">{p.price}</div>
                       </Link>
                     </li>
                   ))}

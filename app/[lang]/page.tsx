@@ -185,7 +185,6 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                 <div className="px-6 pb-6">
                   <h3 className="text-lg font-bold text-slate-900 mb-2 line-clamp-2">{product.title}</h3>
                   <div className="flex items-center gap-2 mb-3">
-                    <span className="text-2xl font-black text-slate-900">{product.price}</span>
                     <span className={`px-2 py-0.5 text-xs font-bold rounded-full ${product.nuraScore >= 9 ? 'bg-emerald-100 text-emerald-700' : 'bg-brand-100 text-brand-700'}`}>
                       {product.nuraScore}/10
                     </span>
@@ -256,7 +255,6 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               lang={lang}
               capacity={product.capacity}
               bestFor={product.bestFor}
-              withSchema={false}
             />
           ))}
         </div>

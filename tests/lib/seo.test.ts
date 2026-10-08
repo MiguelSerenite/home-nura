@@ -218,50 +218,21 @@ describe('buildProductListSchema', () => {
     expect(s.itemListElement[1].position).toBe(2)
   })
 
-  it('extracts brand from product title', () => {
+  it('lists products by name only: no Product/Offer markup without live prices', () => {
+    // Amazon Associates forbids prices not refreshed via PA-API within 24h,
+    // and Product markup without offers/review/rating is invalid for Google.
     const s = buildProductListSchema(products, 'fr', 'L', 'url')
-    const first = s.itemListElement[0].item as { brand: { name: string } }
-    const second = s.itemListElement[1].item as { brand: { name: string } }
-    expect(first.brand.name).toBe('Ninja')
-    expect(second.brand.name).toBe('Philips')
-  })
-
-  it('omits brand for unknown manufacturers rather than inventing one', () => {
-    const s = buildProductListSchema(
-      [{ ...products[0], title: 'UnknownBrand Fryer 5L' }],
-      'fr',
-      'L',
-      'url',
-    )
-    const item = s.itemListElement[0].item as Record<string, unknown>
-    expect(item).not.toHaveProperty('brand')
-  })
-
-  it('uses GBP currency for English locale and EUR elsewhere', () => {
-    const fr = buildProductListSchema(products, 'fr', 'L', 'url')
-    const en = buildProductListSchema(products, 'en', 'L', 'url')
-    const de = buildProductListSchema(products, 'de', 'L', 'url')
-    const getCurrency = (s: ReturnType<typeof buildProductListSchema>) =>
-      (s.itemListElement[0].item as { offers: { priceCurrency: string } }).offers.priceCurrency
-    expect(getCurrency(fr)).toBe('EUR')
-    expect(getCurrency(en)).toBe('GBP')
-    expect(getCurrency(de)).toBe('EUR')
+    const json = JSON.stringify(s)
+    expect(json).not.toContain('"Product"')
+    expect(json).not.toContain('"Offer"')
+    expect(json).not.toContain('price')
+    expect(s.itemListElement[0]).toEqual({ '@type': 'ListItem', position: 1, name: 'Ninja Foodi Max Dual Zone' })
   })
 
   it('never emits synthetic ratings or reviews (Google review-spam policy)', () => {
-    const s = buildProductListSchema(products, 'fr', 'L', 'url')
-    const json = JSON.stringify(s)
+    const json = JSON.stringify(buildProductListSchema(products, 'fr', 'L', 'url'))
     expect(json).not.toContain('aggregateRating')
-    expect(json).not.toContain('"review"')
     expect(json).not.toContain('ratingValue')
-  })
-
-  it('does not assert stock availability and includes the affiliate URL', () => {
-    const s = buildProductListSchema(products, 'fr', 'L', 'url')
-    const offers = (s.itemListElement[0].item as { offers: Record<string, unknown> }).offers
-    expect(offers).not.toHaveProperty('availability')
-    expect(offers.url).toBe('https://amzn.to/ninja')
-    expect(offers.price).toBe('229')
   })
 })
 

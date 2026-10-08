@@ -77,14 +77,17 @@ test.describe('Home page (fr)', () => {
     expect(rel).toContain('nofollow')
     expect(rel).toContain('noopener')
 
-    // Product JSON-LD is present but carries no synthetic ratings/reviews
+    // JSON-LD carries no synthetic ratings/reviews
     // (Google review-spam policy) and no fake "Google reviews" badge is shown.
     const jsonLd = await page
       .locator('script[type="application/ld+json"]')
       .allTextContents()
     expect(jsonLd.length).toBeGreaterThan(0)
     const allJsonLd = jsonLd.join('\n')
-    expect(allJsonLd).toContain('"Product"')
+    // Ranked list by name; no Product/Offer/price markup without live prices.
+    expect(allJsonLd).toContain('"ItemList"')
+    expect(allJsonLd).not.toContain('"Offer"')
+    expect(allJsonLd).not.toContain('priceCurrency')
     expect(allJsonLd).not.toContain('aggregateRating')
     expect(allJsonLd).not.toContain('ratingValue')
     await expect(page.getByText(/avis Google/i)).toHaveCount(0)
