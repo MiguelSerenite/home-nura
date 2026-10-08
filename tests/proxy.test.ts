@@ -21,7 +21,7 @@
 
 import { describe, it, expect } from 'vitest'
 import { NextRequest } from 'next/server'
-import { middleware } from '@/middleware'
+import { proxy as middleware } from '@/proxy'
 
 function invoke(pathname: string = '/fr/guides/airfryers'): Response {
   const request = new NextRequest(new URL(`http://localhost${pathname}`), {
@@ -114,6 +114,31 @@ describe('middleware security headers', () => {
   })
 })
 
+describe('middleware hardened CSP (refonte lot 3)', () => {
+  const response = invoke()
+  const csp = response.headers.get('Content-Security-Policy') ?? ''
+  const scriptSrc = csp.split(';').map((d) => d.trim()).find((d) => d.startsWith('script-src')) ?? ''
+
+  it('does not weaken script-src with https: or unsafe-inline fallbacks', () => {
+    expect(scriptSrc).not.toContain("'unsafe-inline'")
+    expect(scriptSrc).not.toMatch(/\shttps:(\s|$)/)
+  })
+
+  it('blocks plugins and upgrades insecure requests', () => {
+    expect(csp).toContain("object-src 'none'")
+    expect(csp).toContain('upgrade-insecure-requests')
+  })
+
+  it('isolates the browsing context and resources', () => {
+    expect(response.headers.get('Cross-Origin-Opener-Policy')).toBe('same-origin')
+    expect(response.headers.get('Cross-Origin-Resource-Policy')).toBe('same-origin')
+  })
+
+  it('drops the deprecated X-XSS-Protection header', () => {
+    expect(response.headers.get('X-XSS-Protection')).toBeNull()
+  })
+})
+
 describe('middleware locale routing', () => {
   it('redirects the root path to the negotiated locale', () => {
     const request = new NextRequest(new URL('http://localhost/'), {
@@ -138,5 +163,39 @@ describe('middleware locale routing', () => {
     const res = middleware(request) as Response
     expect(res.status).toBe(301)
     expect(res.headers.get('location')).toMatch(/\/en\/guides\/airfryers$/)
+  })
+
+  it('sends crawlers without Accept-Language to the x-default locale, not the geo-IP one', () => {
+    // Googlebot sends no Accept-Language and crawls from US IPs; x-default
+    // and the sitemap point to /fr, so the root redirect must agree.
+    const request = new NextRequest(new URL('http://localhost/'), {
+      headers: { 'x-vercel-ip-country': 'US' },
+    })
+    const res = middleware(request) as Response
+    expect(res.status).toBe(302)
+    expect(res.headers.get('location')).toMatch(/\/fr$/)
+  })
+
+  it('uses geo-IP only when Accept-Language names no supported language', () => {
+    const request = new NextRequest(new URL('http://localhost/'), {
+      headers: { 'accept-language': 'pt-BR,pt;q=0.9', 'x-vercel-ip-country': 'DE' },
+    })
+    const res = middleware(request) as Response
+    expect(res.headers.get('location')).toMatch(/\/de$/)
+  })
+
+  it('redirects /it/chi-siamo to the about page instead of looping on itself', () => {
+    const request = new NextRequest(new URL('http://localhost/it/chi-siamo'))
+    const res = middleware(request) as Response
+    expect(res.status).toBe(301)
+    expect(res.headers.get('location')).toMatch(/\/it\/a-propos$/)
+  })
+
+  it('ignores Object prototype keys in the slug alias table', () => {
+    for (const key of ['constructor', 'toString', 'hasOwnProperty']) {
+      const request = new NextRequest(new URL(`http://localhost/fr/${key}`))
+      const res = middleware(request) as Response
+      expect(res.status, key).not.toBe(301)
+    }
   })
 })

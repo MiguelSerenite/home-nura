@@ -52,7 +52,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     },
   }
 
-  // ItemList Schema — exposes each comparison product with AggregateRating
+  // ItemList Schema — exposes each comparison product (no ratings: we have no real reviews)
   // so LLM crawlers can cite individual models instead of just the page.
   const itemListSchema = buildProductListSchema(
     products,
@@ -127,7 +127,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       {/* Hero Section */}
       <section className="relative px-6 py-20 lg:py-32 overflow-hidden">
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-600 uppercase bg-blue-50 rounded-full">
+          <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-brand-600 uppercase bg-brand-50 rounded-full">
             Europe 2026
           </span>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 bg-clip-text text-transparent bg-gradient-to-b from-slate-900 to-slate-600">
@@ -151,20 +151,20 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
       {/* Why Trust Us - Enhanced with stats */}
       <section className="max-w-3xl mx-auto px-6 pb-16">
-        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 md:p-12 border border-blue-100">
-          <h2 className="text-2xl font-bold text-blue-900 mb-2 text-center">{dict.why_trust}</h2>
+        <div className="bg-gradient-to-br from-brand-50 to-accent-50 rounded-3xl p-8 md:p-12 border border-brand-100">
+          <h2 className="text-2xl font-bold text-brand-900 mb-2 text-center">{dict.why_trust}</h2>
           <p className="text-slate-600 text-sm text-center mb-8">{dict.expert_label}</p>
           <div className="grid grid-cols-3 gap-6">
             <div className="text-center">
-              <div className="text-3xl font-black text-blue-600 mb-1">12+</div>
+              <div className="text-3xl font-black text-brand-600 mb-1">12+</div>
               <p className="text-sm text-slate-600 font-medium">{dict.stat_models_tested}</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-black text-blue-600 mb-1">5</div>
+              <div className="text-3xl font-black text-brand-600 mb-1">5</div>
               <p className="text-sm text-slate-600 font-medium">{dict.stat_hours_testing}</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-black text-blue-600 mb-1">6</div>
+              <div className="text-3xl font-black text-brand-600 mb-1">6</div>
               <p className="text-sm text-slate-600 font-medium">{dict.stat_european_markets}</p>
             </div>
           </div>
@@ -196,7 +196,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                   <h3 className="text-lg font-bold text-slate-900 mb-2 line-clamp-2">{product.title}</h3>
                   <div className="flex items-center gap-2 mb-3">
                     <span className="text-2xl font-black text-slate-900">{product.price}</span>
-                    <span className={`px-2 py-0.5 text-xs font-bold rounded-full ${product.nuraScore >= 9 ? 'bg-emerald-100 text-emerald-700' : 'bg-blue-100 text-blue-700'}`}>
+                    <span className={`px-2 py-0.5 text-xs font-bold rounded-full ${product.nuraScore >= 9 ? 'bg-emerald-100 text-emerald-700' : 'bg-brand-100 text-brand-700'}`}>
                       {product.nuraScore}/10
                     </span>
                   </div>
@@ -208,7 +208,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                     position={i + 1}
                     location="product_card"
                     lang={lang}
-                    className="block w-full rounded-full bg-blue-600 px-4 py-3 text-center text-sm font-bold text-white transition-colors hover:bg-blue-700"
+                    className="block w-full rounded-full bg-brand-600 px-4 py-3 text-center text-sm font-bold text-white transition-colors hover:bg-brand-700"
                   >
                     {dict.buy_button}
                   </AffiliateLink>
@@ -227,7 +227,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           </Kicker>
           <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-4">{dict.section_title}</h2>
           <p className="text-base md:text-lg text-slate-500 max-w-xl mx-auto">{dict.section_subtitle}</p>
-          <div className="h-[2px] w-16 bg-blue-600 mx-auto mt-6"></div>
+          <div className="h-[2px] w-16 bg-brand-600 mx-auto mt-6"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -244,6 +244,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               lang={lang}
               capacity={product.capacity}
               bestFor={product.bestFor}
+              withSchema={false}
             />
           ))}
         </div>
@@ -267,7 +268,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight text-slate-900 mb-5">
             {lang === 'fr' ? 'Tout savoir sur l\'airfryer en 2026' : lang === 'de' ? 'Alles über den Airfryer 2026' : lang === 'es' ? 'Todo sobre la freidora de aire en 2026' : lang === 'it' ? 'Tutto sulla friggitrice ad aria nel 2026' : lang === 'nl' ? 'Alles over de airfryer in 2026' : 'Everything About the Air Fryer in 2026'}
           </h2>
-          <div className="h-[2px] w-16 bg-blue-600 mx-auto"></div>
+          <div className="h-[2px] w-16 bg-brand-600 mx-auto"></div>
         </div>
 
         <div className="divide-y divide-slate-200 border-t border-b border-slate-200">
@@ -308,11 +309,11 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               <h3 className="text-2xl md:text-[1.875rem] font-bold tracking-tight leading-[1.2] text-slate-900 mb-5">
                 {chapter.title}
               </h3>
-              <div className="h-px w-10 bg-blue-600 mb-6"></div>
+              <div className="h-px w-10 bg-brand-600 mb-6"></div>
               <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85] mb-6">{chapter.body}</p>
               <Link
                 href={chapter.href}
-                className="group inline-flex items-center gap-2 text-sm font-semibold text-blue-600 hover:text-blue-700 transition-colors"
+                className="group inline-flex items-center gap-2 text-sm font-semibold text-brand-600 hover:text-brand-700 transition-colors"
               >
                 <span className="uppercase tracking-[0.15em] text-[11px]">{chapter.cta}</span>
                 <span className="transition-transform group-hover:translate-x-1">&rarr;</span>
@@ -340,7 +341,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <section className="max-w-5xl mx-auto px-6 pb-24">
         <Link
           href={`/${lang}/cuisine-connectee`}
-          className="group block rounded-3xl border border-slate-200 bg-gradient-to-br from-blue-50 via-white to-amber-50 p-8 md:p-12 shadow-sm hover:shadow-md transition duration-200"
+          className="group block rounded-3xl border border-slate-200 bg-gradient-to-br from-brand-50 via-white to-amber-50 p-8 md:p-12 shadow-sm hover:shadow-md transition duration-200"
         >
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
             <div className="flex-1">
@@ -354,7 +355,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                 {lang === 'fr' ? 'Multicuiseurs, cafetières intelligentes, balances, thermomètres, prises connectées — 15 modèles testés pour transformer votre cuisine.' : lang === 'de' ? 'Multikocher, smarte Kaffeemaschinen, Waagen, Thermometer, smarte Steckdosen — 15 getestete Modelle für Ihre Küche.' : lang === 'es' ? 'Ollas, cafeteras inteligentes, básculas, termómetros, enchufes conectados — 15 modelos probados para tu cocina.' : lang === 'it' ? 'Multicottura, macchine da caffè intelligenti, bilance, termometri, prese connesse — 15 modelli testati per la tua cucina.' : lang === 'nl' ? 'Multicookers, slimme koffiemachines, weegschalen, thermometers, slimme stekkers — 15 geteste modellen voor uw keuken.' : 'Multicookers, smart coffee machines, scales, thermometers, smart plugs — 15 tested models to upgrade your kitchen.'}
               </p>
             </div>
-            <div className="flex items-center gap-2 text-sm font-semibold text-blue-600 shrink-0">
+            <div className="flex items-center gap-2 text-sm font-semibold text-brand-600 shrink-0">
               <span className="uppercase tracking-[0.15em] text-[11px]">
                 {lang === 'fr' ? 'Explorer le silo' : lang === 'de' ? 'Silo erkunden' : lang === 'es' ? 'Explorar silo' : lang === 'it' ? 'Esplora silo' : lang === 'nl' ? 'Silo verkennen' : 'Explore silo'}
               </span>
@@ -375,26 +376,6 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <SiteFooter
         currentLang={lang}
         topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
-        links={[
-          { href: `/${lang}/guides/airfryers`, label: 'Guide' },
-          { href: `/${lang}/comparateur`, label: 'Comparateur' },
-          {
-            href: `/${lang}/cuisine-connectee`,
-            label:
-              lang === 'fr' ? 'Cuisine connectée'
-              : lang === 'de' ? 'Smarte Küche'
-              : lang === 'es' ? 'Cocina conectada'
-              : lang === 'it' ? 'Cucina connessa'
-              : lang === 'nl' ? 'Slimme keuken'
-              : 'Smart kitchen',
-          },
-          { href: `/${lang}/quiz`, label: 'Quiz' },
-          { href: `/${lang}/blog`, label: 'Blog' },
-          { href: `/${lang}/a-propos`, label: dict.about_link },
-          { href: `/${lang}/mentions-legales`, label: dict.legal_notice },
-          { href: `/${lang}/politique-confidentialite`, label: dict.privacy_policy },
-          { href: `/${lang}/politique-cookies`, label: dict.cookie_policy },
-        ]}
       />
 
       {/* Cookie Banner */}

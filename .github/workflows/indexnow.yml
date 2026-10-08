@@ -1,0 +1,33 @@
+name: IndexNow
+
+# After each successful Vercel *production* deployment, push the URLs that
+# changed in the deployed commit to IndexNow (Bing, Yandex, Seznam, Naver).
+# The key file (public/<key>.txt) ships with the deployment itself.
+# Two Vercel projects deploy this repo; only `home-nura` serves homenura.com
+# (GitHub environment names: "Production – <project>").
+
+on:
+  deployment_status:
+
+jobs:
+  submit:
+    if: >-
+      github.event.deployment_status.state == 'success' &&
+      github.event.deployment.environment == 'Production – home-nura'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.deployment.sha }}
+          fetch-depth: 2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - run: npm ci
+
+      - name: Submit changed URLs
+        run: npx tsx scripts/indexnow.ts --changed-since HEAD~1

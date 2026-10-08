@@ -11,6 +11,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { Kicker, SiteFooter, Button } from '@/components/ui'
+import { resolveLang } from '@/lib/i18n'
 
 const pageContent: Record<string, {
   title: string
@@ -337,11 +338,10 @@ const metaTitles: Record<string, string> = {
   nl: 'Airfryer vs Oven: Wat is Beter? | Home Nura',
 }
 
-const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
   const title = metaTitles[safeLang] || metaTitles.fr
   return buildPageMetadata({
@@ -412,7 +412,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
       {/* Hero */}
       <section className="relative px-6 py-20 lg:py-28 overflow-hidden">
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-600 uppercase bg-blue-50 rounded-full">
+          <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-brand-600 uppercase bg-brand-50 rounded-full">
             VS 2026
           </span>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-slate-900 to-slate-600">
@@ -445,7 +445,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
                 <h3 className="text-base font-bold text-slate-900 mb-1 line-clamp-2">{product.title}</h3>
                 <div className="flex items-center justify-between mb-3">
                   <span className="text-xl font-black text-slate-900">{product.price}</span>
-                  <span className={`px-2 py-0.5 text-xs font-bold rounded-full ${product.nuraScore >= 9 ? 'bg-emerald-100 text-emerald-700' : 'bg-blue-100 text-blue-700'}`}>
+                  <span className={`px-2 py-0.5 text-xs font-bold rounded-full ${product.nuraScore >= 9 ? 'bg-emerald-100 text-emerald-700' : 'bg-brand-100 text-brand-700'}`}>
                     {product.nuraScore}/10
                   </span>
                 </div>
@@ -457,7 +457,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
                   position={i + 1}
                   location="article_inline"
                   lang={lang}
-                  className="block w-full rounded-full bg-blue-600 px-4 py-2.5 text-center text-sm font-bold text-white hover:bg-blue-700 transition-colors"
+                  className="block w-full rounded-full bg-brand-600 px-4 py-2.5 text-center text-sm font-bold text-white hover:bg-brand-700 transition-colors"
                 >
                   Voir sur Amazon
                 </AffiliateLink>
@@ -475,8 +475,8 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
         <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-6">
           {c.how_airfryer_works_title}
         </h2>
-        <div className="h-[2px] w-16 bg-blue-600 mb-10"></div>
-        <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85] [&::first-letter]:text-[5rem] [&::first-letter]:font-bold [&::first-letter]:text-blue-600 [&::first-letter]:float-left [&::first-letter]:mr-3 [&::first-letter]:leading-[0.85] [&::first-letter]:mt-2">
+        <div className="h-[2px] w-16 bg-brand-600 mb-10"></div>
+        <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85] [&::first-letter]:text-[5rem] [&::first-letter]:font-bold [&::first-letter]:text-brand-600 [&::first-letter]:float-left [&::first-letter]:mr-3 [&::first-letter]:leading-[0.85] [&::first-letter]:mt-2">
           {c.how_airfryer_works}
         </p>
       </section>
@@ -485,7 +485,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
       <div className="max-w-3xl mx-auto px-6">
         <div className="flex items-center gap-4">
           <div className="h-px flex-1 bg-slate-200"></div>
-          <div className="w-1.5 h-1.5 rounded-full bg-blue-600/70"></div>
+          <div className="w-1.5 h-1.5 rounded-full bg-brand-600/70"></div>
           <div className="h-px flex-1 bg-slate-200"></div>
         </div>
       </div>
@@ -537,11 +537,11 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
                       </div>
                     </div>
                     <div className="divide-y divide-slate-100">
-                      <div className="px-5 py-4 bg-blue-50/40">
-                        <div className="text-[10px] font-bold tracking-[0.2em] uppercase text-blue-600 mb-1.5">
+                      <div className="px-5 py-4 bg-brand-50/40">
+                        <div className="text-[10px] font-bold tracking-[0.2em] uppercase text-brand-600 mb-1.5">
                           Airfryer
                         </div>
-                        <div className="text-[15px] text-blue-900 leading-snug">
+                        <div className="text-[15px] text-brand-900 leading-snug">
                           {row.airfryer}
                         </div>
                       </div>
@@ -564,7 +564,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
                   <thead>
                     <tr className="border-b border-slate-100 bg-slate-50">
                       <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-600">{criteriaLabel}</th>
-                      <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-blue-600">Airfryer</th>
+                      <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-brand-600">Airfryer</th>
                       <th className="px-6 py-4 text-xs font-bold uppercase tracking-wider text-amber-700">{ovenLabel}</th>
                     </tr>
                   </thead>
@@ -572,7 +572,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
                     {c.rows.map((row, i) => (
                       <tr key={i} className="border-b border-slate-50 hover:bg-slate-50/50">
                         <td className="px-6 py-4 text-sm font-semibold text-slate-700">{row.criteria}</td>
-                        <td className="px-6 py-4 text-sm text-blue-700 bg-blue-50/30">{row.airfryer}</td>
+                        <td className="px-6 py-4 text-sm text-brand-700 bg-brand-50/30">{row.airfryer}</td>
                         <td className="px-6 py-4 text-sm text-amber-700 bg-amber-50/30">{row.oven}</td>
                       </tr>
                     ))}
@@ -593,7 +593,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
               <h3 className="text-2xl md:text-[1.875rem] font-bold tracking-tight leading-[1.2] text-slate-900 mb-5">
                 {chapter.title}
               </h3>
-              <div className="h-px w-10 bg-blue-600 mb-6"></div>
+              <div className="h-px w-10 bg-brand-600 mb-6"></div>
               <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85]">
                 {chapter.body}
               </p>
@@ -632,7 +632,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
                     position={i + 1}
                     location="article_bottom"
                     lang={lang}
-                    className="px-4 py-1.5 bg-blue-600 text-white text-xs font-bold rounded-full hover:bg-blue-700 transition-colors"
+                    className="px-4 py-1.5 bg-brand-600 text-white text-xs font-bold rounded-full hover:bg-brand-700 transition-colors"
                   >
                     Amazon
                   </AffiliateLink>
@@ -646,14 +646,14 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
       {/* Final Verdict — dark editorial panel */}
       <section className="max-w-4xl mx-auto px-6 py-20 md:py-24">
         <div className="relative overflow-hidden rounded-3xl bg-slate-900 p-10 md:p-16 text-white shadow-2xl">
-          <div className="absolute top-0 left-0 h-[3px] w-24 bg-blue-400"></div>
-          <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-blue-500/10 blur-3xl"></div>
+          <div className="absolute top-0 left-0 h-[3px] w-24 bg-brand-400"></div>
+          <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-brand-500/10 blur-3xl"></div>
           <div className="relative">
             <Kicker variant="blue-light" className="mb-6">
               {lang === 'fr' ? 'Verdict' : lang === 'de' ? 'Urteil' : lang === 'es' ? 'Veredicto' : lang === 'it' ? 'Verdetto' : lang === 'nl' ? 'Eindoordeel' : 'Verdict'}
             </Kicker>
             <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] mb-6 max-w-2xl">{c.verdict_title}</h2>
-            <div className="h-[2px] w-16 bg-blue-400 mb-8"></div>
+            <div className="h-[2px] w-16 bg-brand-400 mb-8"></div>
             <p className="text-lg md:text-xl leading-[1.75] text-slate-200 max-w-2xl">{c.verdict}</p>
           </div>
         </div>
@@ -663,10 +663,10 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
       <section className="max-w-5xl mx-auto px-6 pb-20 md:pb-24">
         <div className="grid md:grid-cols-2 gap-6 md:gap-8">
           <div className="relative overflow-hidden bg-white rounded-3xl border border-slate-200 p-8 md:p-10 shadow-sm hover:shadow-md hover:-translate-y-1 transition duration-300">
-            <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400"></div>
+            <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-600 via-brand-500 to-brand-400"></div>
             <Kicker className="mb-5">Profil · 01</Kicker>
             <h3 className="text-xl md:text-2xl font-bold text-slate-900 mb-5 leading-snug">{c.choose_airfryer_title}</h3>
-            <div className="h-px w-10 bg-blue-600 mb-6"></div>
+            <div className="h-px w-10 bg-brand-600 mb-6"></div>
             <p className="text-[15px] text-slate-600 leading-[1.8]">{c.choose_airfryer}</p>
           </div>
           <div className="relative overflow-hidden bg-white rounded-3xl border border-slate-200 p-8 md:p-10 shadow-sm hover:shadow-md hover:-translate-y-1 transition duration-300">
@@ -696,7 +696,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight text-slate-900 mb-4">
             {lang === 'fr' ? 'Guides connexes' : lang === 'de' ? 'Verwandte Ratgeber' : lang === 'es' ? 'Guías relacionadas' : lang === 'it' ? 'Guide correlate' : lang === 'nl' ? 'Gerelateerde gidsen' : 'Related Guides'}
           </h2>
-          <div className="h-[2px] w-16 bg-blue-600 mx-auto"></div>
+          <div className="h-[2px] w-16 bg-brand-600 mx-auto"></div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
@@ -722,13 +722,13 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
             <Link
               key={item.href}
               href={item.href}
-              className="group relative block bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:border-blue-600 hover:shadow-md hover:-translate-y-1 transition duration-300 overflow-hidden"
+              className="group relative block bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:border-brand-600 hover:shadow-md hover:-translate-y-1 transition duration-300 overflow-hidden"
             >
-              <div className="absolute top-0 left-0 right-0 h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></div>
-              <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600 mb-3">{item.num}</div>
-              <h3 className="font-bold text-slate-900 mb-3 leading-snug group-hover:text-blue-700 transition-colors">{item.title}</h3>
+              <div className="absolute top-0 left-0 right-0 h-0.5 bg-brand-600 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></div>
+              <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-brand-600 mb-3">{item.num}</div>
+              <h3 className="font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition-colors">{item.title}</h3>
               <p className="text-sm text-slate-500 leading-relaxed">{item.desc}</p>
-              <div className="mt-5 flex items-center text-sm font-semibold text-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="mt-5 flex items-center text-sm font-semibold text-brand-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <span>{lang === 'fr' ? 'Lire' : lang === 'de' ? 'Lesen' : lang === 'es' ? 'Leer' : lang === 'it' ? 'Leggi' : lang === 'nl' ? 'Lezen' : 'Read'}</span>
                 <span className="ml-2 transition-transform group-hover:translate-x-1">&rarr;</span>
               </div>
@@ -745,12 +745,6 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
       <SiteFooter
         currentLang={lang}
         topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
-        links={[
-          { href: `/${lang}/mentions-legales`, label: dict.legal_notice },
-          { href: `/${lang}/politique-confidentialite`, label: dict.privacy_policy },
-          { href: `/${lang}/politique-cookies`, label: dict.cookie_policy },
-          { href: `/${lang}/a-propos`, label: dict.about_link },
-        ]}
       />
 
       <CookieBanner lang={lang} dict={{ cookie_banner_text: dict.cookie_banner_text, cookie_accept: dict.cookie_accept, cookie_reject: dict.cookie_reject, cookie_learn_more: dict.cookie_learn_more }} />

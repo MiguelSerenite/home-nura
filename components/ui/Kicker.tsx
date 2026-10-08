@@ -15,8 +15,8 @@ interface KickerProps {
 // both clear the 4.5:1 WCAG AA floor for small text. Avoid -600 variants
 // at small sizes — they hit axe color-contrast at ~3.1:1.
 const VARIANT_CLASSES: Record<KickerVariant, string> = {
-  blue: 'text-blue-600',
-  'blue-light': 'text-blue-300',
+  blue: 'text-brand-600',
+  'blue-light': 'text-brand-300',
   slate: 'text-slate-600',
   emerald: 'text-emerald-700',
   amber: 'text-amber-700',

@@ -185,8 +185,8 @@ export const article: BlogArticle = {
 <h3>Retrofit: the tubular motor</h3>
 <p>To motorise an existing roller shutter, the most common solution is the <strong>tubular motor</strong>. It inserts directly into the winding tube of your existing shutter, replacing the mechanical brake. Installation takes under an hour with no major building work. Leading motors on the market:</p>
 <ul>
-<li><strong>Somfy Oximo io:</strong> premium tubular motor, io-homecontrol protocol, Somfy's 25-year motor guarantee. From £160. Compatible with TaHoma Switch. <a href="https://www.amazon.fr/dp/B07RVMFXZQ?tag=homenuraen-21" rel="nofollow sponsored">See price on Amazon</a></li>
-<li><strong>Somfy Oximo RTS:</strong> radio frequency version, excellent compatibility, slightly cheaper. From £110. <a href="https://www.amazon.fr/dp/B00GHOBXBI?tag=homenuraen-21" rel="nofollow sponsored">See on Amazon</a></li>
+<li><strong>Somfy Oximo io:</strong> premium tubular motor, io-homecontrol protocol, Somfy's 25-year motor guarantee. From £160. Compatible with TaHoma Switch. <a href="https://www.amazon.fr/dp/B07RVMFXZQ?tag=homenuraen05-21" rel="nofollow sponsored">See price on Amazon</a></li>
+<li><strong>Somfy Oximo RTS:</strong> radio frequency version, excellent compatibility, slightly cheaper. From £110. <a href="https://www.amazon.fr/dp/B00GHOBXBI?tag=homenuraen05-21" rel="nofollow sponsored">See on Amazon</a></li>
 <li><strong>Nice Era MQ:</strong> renowned Italian motor, BiDi protocol, slim and quiet. From £95.</li>
 <li><strong>CAME Stylo:</strong> robust motor, 5-year warranty, good Zigbee compatibility with additional module.</li>
 </ul>
@@ -225,8 +225,8 @@ export const article: BlogArticle = {
 <h3>Nachrustung: der Rohrmotor</h3>
 <p>Fur die Motorisierung vorhandener Rolladen ist der <strong>Rohrmotor</strong> die gangigste Losung. Er wird direkt in das Wickelrohr eingesetzt. Einbau in unter einer Stunde ohne große Baumaßnahmen. Marktfuhrende Motoren:</p>
 <ul>
-<li><strong>Somfy Oximo io:</strong> Premium-Rohrmotor, io-homecontrol-Protokoll, 25 Jahre Motorgarantie. Ab 180 EUR. <a href="https://www.amazon.fr/dp/B07RVMFXZQ?tag=homenuraen00-21" rel="nofollow sponsored">Preis auf Amazon ansehen</a></li>
-<li><strong>Somfy Oximo RTS:</strong> Funkvariante, ausgezeichnete Kompatibilitat. Ab 130 EUR. <a href="https://www.amazon.fr/dp/B00GHOBXBI?tag=homenuraen00-21" rel="nofollow sponsored">Auf Amazon ansehen</a></li>
+<li><strong>Somfy Oximo io:</strong> Premium-Rohrmotor, io-homecontrol-Protokoll, 25 Jahre Motorgarantie. Ab 180 EUR. <a href="https://www.amazon.fr/dp/B07RVMFXZQ?tag=homenuraen05-21" rel="nofollow sponsored">Preis auf Amazon ansehen</a></li>
+<li><strong>Somfy Oximo RTS:</strong> Funkvariante, ausgezeichnete Kompatibilitat. Ab 130 EUR. <a href="https://www.amazon.fr/dp/B00GHOBXBI?tag=homenuraen05-21" rel="nofollow sponsored">Auf Amazon ansehen</a></li>
 <li><strong>Nice Era MQ:</strong> Renommierter italienischer Motor, BiDi-Protokoll. Ab 110 EUR.</li>
 </ul>
 
@@ -262,7 +262,7 @@ export const article: BlogArticle = {
 <h3>Retrofit: el motor tubular</h3>
 <p>Para motorizar una persiana existente, la solucion mas habitual es el <strong>motor tubular</strong>. Se inserta directamente en el tubo enrollador de la persiana actual. Instalacion en menos de una hora sin obras. Motores lideres:</p>
 <ul>
-<li><strong>Somfy Oximo io:</strong> motor tubular premium, protocolo io-homecontrol, 25 anos de garantia. Desde 180 EUR. <a href="https://www.amazon.fr/dp/B07RVMFXZQ?tag=homenuraen0a-21" rel="nofollow sponsored">Ver precio en Amazon</a></li>
+<li><strong>Somfy Oximo io:</strong> motor tubular premium, protocolo io-homecontrol, 25 anos de garantia. Desde 180 EUR. <a href="https://www.amazon.fr/dp/B07RVMFXZQ?tag=homenuraen05-21" rel="nofollow sponsored">Ver precio en Amazon</a></li>
 <li><strong>Nice Era MQ:</strong> motor italiano reconocido, protocolo BiDi. Desde 110 EUR.</li>
 <li><strong>CAME Stylo:</strong> motor robusto, 5 anos de garantia. Desde 90 EUR.</li>
 </ul>
@@ -284,7 +284,7 @@ export const article: BlogArticle = {
 <h3>Retrofit: il motore tubolare</h3>
 <p>Per motorizzare una tapparella esistente, la soluzione piu diffusa e il <strong>motore tubolare</strong>. Si inserisce direttamente nel tubo di avvolgimento. Installazione in meno di un'ora senza lavori edili. I motori leader:</p>
 <ul>
-<li><strong>Somfy Oximo io:</strong> motore tubolare premium, protocollo io-homecontrol, 25 anni di garanzia. Da 180 EUR. <a href="https://www.amazon.fr/dp/B07RVMFXZQ?tag=homenuraen010-21" rel="nofollow sponsored">Vedi prezzo su Amazon</a></li>
+<li><strong>Somfy Oximo io:</strong> motore tubolare premium, protocollo io-homecontrol, 25 anni di garanzia. Da 180 EUR. <a href="https://www.amazon.fr/dp/B07RVMFXZQ?tag=homenuraen05-21" rel="nofollow sponsored">Vedi prezzo su Amazon</a></li>
 <li><strong>Nice Era MQ:</strong> motore italiano rinomato, protocollo BiDi. Da 110 EUR.</li>
 <li><strong>CAME Stylo:</strong> motore robusto, 5 anni di garanzia. Da 90 EUR.</li>
 </ul>
@@ -306,7 +306,7 @@ export const article: BlogArticle = {
 <h3>Retrofit: de buismotor</h3>
 <p>Voor het motoriseren van bestaande rolluiken is de <strong>buismotor</strong> de meest gebruikte oplossing. Hij wordt direct in de oprolbuis geplaatst. Installatie in minder dan een uur zonder grote bouwwerkzaamheden. Toonaangevende motoren:</p>
 <ul>
-<li><strong>Somfy Oximo io:</strong> premium buismotor, io-homecontrol protocol, 25 jaar motorgarantie. Vanaf €180. <a href="https://www.amazon.fr/dp/B07RVMFXZQ?tag=homenuranl-21" rel="nofollow sponsored">Zie prijs op Amazon</a></li>
+<li><strong>Somfy Oximo io:</strong> premium buismotor, io-homecontrol protocol, 25 jaar motorgarantie. Vanaf €180. <a href="https://www.amazon.fr/dp/B07RVMFXZQ?tag=homenuraen05-21" rel="nofollow sponsored">Zie prijs op Amazon</a></li>
 <li><strong>Nice Era MQ:</strong> gerenommeerde Italiaanse motor, BiDi protocol. Vanaf €110.</li>
 </ul>
 

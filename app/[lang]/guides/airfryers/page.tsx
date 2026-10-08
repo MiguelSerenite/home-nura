@@ -13,6 +13,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { Kicker, SiteFooter } from '@/components/ui'
+import { resolveLang } from '@/lib/i18n'
 
 const guideContent: Record<string, {
   intro_title: string
@@ -488,11 +489,10 @@ const guideContent: Record<string, {
   }
 }
 
-const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const dict = await getDictionary(safeLang)
   return buildPageMetadata({
     lang: safeLang,
@@ -533,7 +533,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
     ],
   }
 
-  // ItemList Schema with embedded Product + AggregateRating
+  // ItemList Schema with embedded Product entries
   const itemListSchema = buildProductListSchema(
     products,
     lang,
@@ -600,7 +600,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       {/* Hero */}
       <section className="relative px-6 py-20 lg:py-28 overflow-hidden">
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-600 uppercase bg-blue-50 rounded-full">
+          <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-brand-600 uppercase bg-brand-50 rounded-full">
             Guide Expert 2026
           </span>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-slate-900 to-slate-600">
@@ -624,19 +624,19 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
 
       {/* Trust Section */}
       <section className="max-w-3xl mx-auto px-6 py-12">
-        <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-8 md:p-12 border border-blue-100">
-          <h2 className="text-2xl font-bold mb-4 text-blue-900">{dict.why_trust}</h2>
+        <div className="bg-gradient-to-br from-brand-50 to-accent-50 rounded-3xl p-8 md:p-12 border border-brand-100">
+          <h2 className="text-2xl font-bold mb-4 text-brand-900">{dict.why_trust}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
             <div className="text-center">
-              <div className="text-3xl font-black text-blue-600 mb-2">12+</div>
+              <div className="text-3xl font-black text-brand-600 mb-2">12+</div>
               <p className="text-sm text-slate-600 font-medium">{dict.stat_models_tested}</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-black text-blue-600 mb-2">5</div>
+              <div className="text-3xl font-black text-brand-600 mb-2">5</div>
               <p className="text-sm text-slate-600 font-medium">{dict.stat_hours_testing}</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-black text-blue-600 mb-2">6</div>
+              <div className="text-3xl font-black text-brand-600 mb-2">6</div>
               <p className="text-sm text-slate-600 font-medium">{dict.stat_european_markets}</p>
             </div>
           </div>
@@ -649,8 +649,8 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           {lang === 'fr' ? 'L\'Édito' : lang === 'de' ? 'Editorial' : lang === 'es' ? 'Editorial' : lang === 'it' ? 'Editoriale' : lang === 'nl' ? 'Redactioneel' : 'Editorial'}
         </Kicker>
         <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-6">{content.intro_title}</h2>
-        <div className="h-[2px] w-16 bg-blue-600 mb-10"></div>
-        <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85] [&::first-letter]:text-[5rem] [&::first-letter]:font-bold [&::first-letter]:text-blue-600 [&::first-letter]:float-left [&::first-letter]:mr-3 [&::first-letter]:leading-[0.85] [&::first-letter]:mt-2">
+        <div className="h-[2px] w-16 bg-brand-600 mb-10"></div>
+        <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85] [&::first-letter]:text-[5rem] [&::first-letter]:font-bold [&::first-letter]:text-brand-600 [&::first-letter]:float-left [&::first-letter]:mr-3 [&::first-letter]:leading-[0.85] [&::first-letter]:mt-2">
           {content.intro_text}
         </p>
       </section>
@@ -672,7 +672,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
                 <h3 className="text-base font-bold text-slate-900 mb-1 line-clamp-2">{product.title}</h3>
                 <div className="flex items-center justify-between mb-3">
                   <span className="text-xl font-black text-slate-900">{product.price}</span>
-                  <span className={`px-2 py-0.5 text-xs font-bold rounded-full ${product.nuraScore >= 9 ? 'bg-emerald-100 text-emerald-700' : 'bg-blue-100 text-blue-700'}`}>
+                  <span className={`px-2 py-0.5 text-xs font-bold rounded-full ${product.nuraScore >= 9 ? 'bg-emerald-100 text-emerald-700' : 'bg-brand-100 text-brand-700'}`}>
                     {product.nuraScore}/10
                   </span>
                 </div>
@@ -684,7 +684,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
                   position={i + 1}
                   location="product_card"
                   lang={lang}
-                  className="block w-full rounded-full bg-blue-600 px-4 py-2.5 text-center text-sm font-bold text-white hover:bg-blue-700 transition-colors"
+                  className="block w-full rounded-full bg-brand-600 px-4 py-2.5 text-center text-sm font-bold text-white hover:bg-brand-700 transition-colors"
                 >
                   {content.verdict_title ? dict?.buy_button || 'Voir sur Amazon' : 'Voir sur Amazon'}
                 </AffiliateLink>
@@ -701,7 +701,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
             {lang === 'fr' ? 'Le Guide d\'Achat' : lang === 'de' ? 'Der Kaufratgeber' : lang === 'es' ? 'La Guía de Compra' : lang === 'it' ? 'La Guida all\'Acquisto' : lang === 'nl' ? 'De Koopgids' : 'The Buyer\'s Guide'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">{content.how_to_choose_title}</h2>
-          <div className="h-[2px] w-16 bg-blue-600 mx-auto mb-8"></div>
+          <div className="h-[2px] w-16 bg-brand-600 mx-auto mb-8"></div>
           <p className="text-base md:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">{content.how_to_choose_intro}</p>
         </div>
 
@@ -719,7 +719,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
                 {['Critère · I', 'Critère · II', 'Critère · III', 'Critère · IV', 'Critère · V', 'Critère · VI'][i]}
               </Kicker>
               <h3 className="text-2xl md:text-[1.75rem] font-bold tracking-tight leading-[1.2] text-slate-900 mb-5">{chap.title}</h3>
-              <div className="h-px w-10 bg-blue-600 mb-6"></div>
+              <div className="h-px w-10 bg-brand-600 mb-6"></div>
               <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85]">{chap.body}</p>
             </article>
           ))}
@@ -758,7 +758,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           {lang === 'fr' ? 'L\'Entretien' : lang === 'de' ? 'Die Pflege' : lang === 'es' ? 'El Mantenimiento' : lang === 'it' ? 'La Manutenzione' : lang === 'nl' ? 'Het Onderhoud' : 'Maintenance'}
         </Kicker>
         <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-6">{content.maintenance_title}</h2>
-        <div className="h-[2px] w-16 bg-blue-600 mb-10"></div>
+        <div className="h-[2px] w-16 bg-brand-600 mb-10"></div>
         <p className="text-[17px] md:text-lg text-slate-700 leading-[1.85]">{content.maintenance_text}</p>
       </section>
 
@@ -769,19 +769,19 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
             {lang === 'fr' ? 'Le Cahier Recettes' : lang === 'de' ? 'Das Rezeptbuch' : lang === 'es' ? 'El Recetario' : lang === 'it' ? 'Il Ricettario' : lang === 'nl' ? 'Het Receptenboek' : 'The Recipe Book'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">{content.recipes_title}</h2>
-          <div className="h-[2px] w-16 bg-blue-600 mx-auto mb-8"></div>
+          <div className="h-[2px] w-16 bg-brand-600 mx-auto mb-8"></div>
           <p className="text-base md:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto">{content.recipes_intro}</p>
         </div>
 
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {content.recipes.map((recipe, index) => (
             <div key={index} className="group relative overflow-hidden bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:shadow-md hover:-translate-y-1 transition duration-300">
-              <div className="absolute top-0 left-0 right-0 h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></div>
-              <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600 mb-3 tabular-nums">
+              <div className="absolute top-0 left-0 right-0 h-0.5 bg-brand-600 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></div>
+              <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-brand-600 mb-3 tabular-nums">
                 N° {String(index + 1).padStart(2, '0')}
               </div>
-              <h3 className="text-base font-bold text-slate-900 mb-3 leading-snug group-hover:text-blue-700 transition-colors">{recipe.title}</h3>
-              <div className="h-px w-8 bg-blue-600 mb-4"></div>
+              <h3 className="text-base font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition-colors">{recipe.title}</h3>
+              <div className="h-px w-8 bg-brand-600 mb-4"></div>
               <p className="text-[13px] text-slate-600 leading-[1.75]">{recipe.desc}</p>
             </div>
           ))}
@@ -791,14 +791,14 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       {/* Verdict — dark editorial panel */}
       <section className="max-w-4xl mx-auto px-6 pt-16 pb-20 md:pt-20 md:pb-24">
         <div className="relative overflow-hidden rounded-3xl bg-slate-900 p-10 md:p-16 text-white shadow-2xl">
-          <div className="absolute top-0 left-0 h-[3px] w-24 bg-blue-400"></div>
-          <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-blue-500/10 blur-3xl"></div>
+          <div className="absolute top-0 left-0 h-[3px] w-24 bg-brand-400"></div>
+          <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-brand-500/10 blur-3xl"></div>
           <div className="relative">
             <Kicker variant="blue-light" className="mb-6">
               {lang === 'fr' ? 'Verdict' : lang === 'de' ? 'Urteil' : lang === 'es' ? 'Veredicto' : lang === 'it' ? 'Verdetto' : lang === 'nl' ? 'Eindoordeel' : 'Verdict'}
             </Kicker>
             <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] mb-6 max-w-2xl">{content.verdict_title}</h2>
-            <div className="h-[2px] w-16 bg-blue-400 mb-8"></div>
+            <div className="h-[2px] w-16 bg-brand-400 mb-8"></div>
             <p className="text-lg md:text-xl leading-[1.75] text-slate-200 max-w-2xl">{content.verdict_text}</p>
           </div>
         </div>
@@ -834,7 +834,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
                     position={i + 1}
                     location="article_bottom"
                     lang={lang}
-                    className="px-4 py-1.5 bg-blue-600 text-white text-xs font-bold rounded-full hover:bg-blue-700 transition-colors"
+                    className="px-4 py-1.5 bg-brand-600 text-white text-xs font-bold rounded-full hover:bg-brand-700 transition-colors"
                   >
                     Amazon
                   </AffiliateLink>
@@ -853,7 +853,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-4">{dict.section_title}</h2>
           <p className="text-base md:text-lg text-slate-500 max-w-xl mx-auto">{dict.section_subtitle}</p>
-          <div className="h-[2px] w-16 bg-blue-600 mx-auto mt-6"></div>
+          <div className="h-[2px] w-16 bg-brand-600 mx-auto mt-6"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -870,6 +870,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
                 lang={lang}
                 capacity={product.capacity}
                 bestFor={product.bestFor}
+                withSchema={false}
               />
             </div>
           ))}
@@ -894,7 +895,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight text-slate-900 mb-4">
             {lang === 'fr' ? 'Guides connexes' : lang === 'de' ? 'Verwandte Ratgeber' : lang === 'es' ? 'Guías relacionadas' : lang === 'it' ? 'Guide correlate' : lang === 'nl' ? 'Gerelateerde gidsen' : 'Related Guides'}
           </h2>
-          <div className="h-[2px] w-16 bg-blue-600 mx-auto"></div>
+          <div className="h-[2px] w-16 bg-brand-600 mx-auto"></div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
@@ -926,13 +927,13 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
             <Link
               key={item.href}
               href={item.href}
-              className="group relative block bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:border-blue-600 hover:shadow-md hover:-translate-y-1 transition duration-300 overflow-hidden"
+              className="group relative block bg-white rounded-2xl border border-slate-200 p-7 shadow-sm hover:border-brand-600 hover:shadow-md hover:-translate-y-1 transition duration-300 overflow-hidden"
             >
-              <div className="absolute top-0 left-0 right-0 h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></div>
-              <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-blue-600 mb-3">{item.num}</div>
-              <h3 className="font-bold text-slate-900 mb-3 leading-snug group-hover:text-blue-700 transition-colors">{item.title}</h3>
+              <div className="absolute top-0 left-0 right-0 h-0.5 bg-brand-600 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></div>
+              <div className="text-[10px] font-bold tracking-[0.3em] uppercase text-brand-600 mb-3">{item.num}</div>
+              <h3 className="font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition-colors">{item.title}</h3>
               <p className="text-sm text-slate-500 leading-relaxed">{item.desc}</p>
-              <div className="mt-5 flex items-center text-sm font-semibold text-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <div className="mt-5 flex items-center text-sm font-semibold text-brand-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <span>{lang === 'fr' ? 'Lire' : lang === 'de' ? 'Lesen' : lang === 'es' ? 'Leer' : lang === 'it' ? 'Leggi' : lang === 'nl' ? 'Lezen' : 'Read'}</span>
                 <span className="ml-2 transition-transform group-hover:translate-x-1">&rarr;</span>
               </div>
@@ -949,12 +950,6 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <SiteFooter
         currentLang={lang}
         topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
-        links={[
-          { href: `/${lang}/a-propos`, label: dict.about_link },
-          { href: `/${lang}/mentions-legales`, label: dict.legal_notice },
-          { href: `/${lang}/politique-confidentialite`, label: dict.privacy_policy },
-          { href: `/${lang}/politique-cookies`, label: dict.cookie_policy },
-        ]}
       />
 
       {/* Cookie Banner */}

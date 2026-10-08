@@ -23,6 +23,9 @@ import { Kicker, SectionHero, SiteFooter } from '@/components/ui'
 import { getMetaSilo, getCategoriesBySilo } from '@/lib/catalog'
 import type { MetaSiloSlug } from '@/lib/catalog'
 import { isValidLang, type Lang } from '@/lib/i18n'
+import FaqSection from '@/components/FaqSection'
+import { getSiloFaq, SILO_FAQ_TITLE } from '@/lib/catalog/silo-faqs'
+import { ChevronRight } from 'lucide-react'
 
 const uiStrings: Record<Lang, { home: string; comingSoon: string; categoriesTitle: string; methodologyCta: string }> = {
   fr: {
@@ -139,22 +142,17 @@ export default async function SiloHub({ siloSlug, lang }: SiloHubProps) {
             <li>
               <Link
                 href={`/${safeLang}`}
-                className="hover:text-blue-600 transition-colors"
+                className="hover:text-brand-600 transition-colors"
               >
                 {ui.home}
               </Link>
             </li>
-            <li aria-hidden="true">/</li>
+            <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
             <li className="text-slate-600 font-medium">{title}</li>
           </ol>
         </nav>
 
-        <SectionHero
-          kicker={title}
-          title={title}
-          subtitle={description}
-          intro={description}
-        />
+        <SectionHero title={title} subtitle={description} />
 
         {/* Categories grid */}
         <section className="max-w-6xl mx-auto px-4 md:px-6 pb-16">
@@ -175,12 +173,12 @@ export default async function SiloHub({ siloSlug, lang }: SiloHubProps) {
                   <Link
                     key={cat.slug}
                     href={`/${safeLang}/${silo.slug}/${cat.slug}`}
-                    className="group relative flex flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition duration-200 hover:shadow-md hover:-translate-y-1 hover:border-blue-200"
+                    className="group relative flex flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition duration-200 hover:shadow-md hover:-translate-y-1 hover:border-brand-200"
                   >
                     <Kicker size="sm" className="mb-3">
                       {String(index + 1).padStart(2, '0')}
                     </Kicker>
-                    <h3 className="text-xl font-bold text-slate-900 leading-tight mb-3 group-hover:text-blue-700 transition-colors">
+                    <h3 className="text-xl font-bold text-slate-900 leading-tight mb-3 group-hover:text-brand-700 transition-colors">
                       {catTitle}
                     </h3>
                     <p className="text-sm text-slate-500 leading-relaxed flex-1">
@@ -213,10 +211,10 @@ export default async function SiloHub({ siloSlug, lang }: SiloHubProps) {
           </div>
 
           {/* Methodology CTA — every silo links to the cornerstone */}
-          <div className="mt-12 rounded-3xl border border-blue-100 bg-gradient-to-br from-blue-50 to-white p-8 md:p-10 text-center">
+          <div className="mt-12 rounded-3xl border border-brand-100 bg-gradient-to-br from-brand-50 to-white p-8 md:p-10 text-center">
             <Link
               href={`/${safeLang}/methodologie`}
-              className="inline-flex items-center gap-2 rounded-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 text-sm font-semibold transition-colors"
+              className="inline-flex items-center gap-2 rounded-full bg-brand-600 hover:bg-brand-700 text-white px-6 py-3 text-sm font-semibold transition-colors"
             >
               <span>{ui.methodologyCta}</span>
               <span aria-hidden="true">→</span>
@@ -224,6 +222,8 @@ export default async function SiloHub({ siloSlug, lang }: SiloHubProps) {
           </div>
         </section>
       </main>
+
+      <FaqSection faqs={[...getSiloFaq(safeLang, silo.slug)]} title={SILO_FAQ_TITLE[safeLang]} nonce={nonce} />
 
       <SiteFooter currentLang={safeLang} />
     </div>

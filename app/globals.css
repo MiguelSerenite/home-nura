@@ -14,34 +14,35 @@ html {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 
   /* Brand palette: olive/gold harmonized with the logo (#646e32).
-     We remap Tailwind's blue and indigo scales so that every existing
-     blue/indigo utility instantly picks up the brand color. */
-  --color-blue-50: #f8f8ef;
-  --color-blue-100: #eeefd7;
-  --color-blue-200: #dcdfae;
-  --color-blue-300: #c2c67c;
-  --color-blue-400: #a5aa54;
-  --color-blue-500: #878c3c;
-  --color-blue-600: #6b7230;
-  --color-blue-700: #545929;
-  --color-blue-800: #3f4221;
-  --color-blue-900: #2f321b;
-  --color-blue-950: #1a1b0c;
+     Semantic scales: `brand-*` (primary olive) and `accent-*` (deeper
+     olive). Tailwind's own blue/indigo are no longer remapped —
+     tests/design-tokens.test.ts forbids using them. */
+  --color-brand-50: #f8f8ef;
+  --color-brand-100: #eeefd7;
+  --color-brand-200: #dcdfae;
+  --color-brand-300: #c2c67c;
+  --color-brand-400: #a5aa54;
+  --color-brand-500: #878c3c;
+  --color-brand-600: #6b7230;
+  --color-brand-700: #545929;
+  --color-brand-800: #3f4221;
+  --color-brand-900: #2f321b;
+  --color-brand-950: #1a1b0c;
 
-  --color-indigo-50: #f6f6ed;
-  --color-indigo-100: #ebecce;
-  --color-indigo-200: #d7d8a0;
-  --color-indigo-300: #b8ba68;
-  --color-indigo-400: #9a9c45;
-  --color-indigo-500: #7c7e32;
-  --color-indigo-600: #5f6125;
-  --color-indigo-700: #474920;
-  --color-indigo-800: #33351a;
-  --color-indigo-900: #242511;
-  --color-indigo-950: #101008;
+  --color-accent-50: #f6f6ed;
+  --color-accent-100: #ebecce;
+  --color-accent-200: #d7d8a0;
+  --color-accent-300: #b8ba68;
+  --color-accent-400: #9a9c45;
+  --color-accent-500: #7c7e32;
+  --color-accent-600: #5f6125;
+  --color-accent-700: #474920;
+  --color-accent-800: #33351a;
+  --color-accent-900: #242511;
+  --color-accent-950: #101008;
 }
 
 /* Dark mode disabled - site uses light theme only */
@@ -63,4 +64,17 @@ body {
 /* Remove default outline for mouse/touch — :focus-visible handles keyboard users */
 :focus:not(:focus-visible) {
   outline: none;
+}
+
+/* Accessibility: honour the OS "reduce motion" setting (hover lifts,
+   transitions, smooth scrolling, animated spinners). */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

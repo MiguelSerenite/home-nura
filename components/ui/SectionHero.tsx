@@ -52,7 +52,7 @@ export default function SectionHero({
         <p className="text-sm text-slate-500 max-w-xl mx-auto">{intro}</p>
       )}
       {children}
-      {showAccent && <div className="h-[2px] w-16 bg-blue-600 mx-auto mt-8" />}
+      {showAccent && <div className="h-[2px] w-16 bg-brand-600 mx-auto mt-8" />}
     </section>
   )
 }

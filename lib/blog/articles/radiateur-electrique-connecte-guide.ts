@@ -179,7 +179,7 @@ export const article: BlogArticle = {
 </table>
 
 <h3>Thermor Equateur 4: our top pick</h3>
-<p>The <strong>Thermor Equateur 4</strong> is the best-selling connected heater in France. Its Cozytouch app is one of the best on the market: clear interface, intuitive programming, Google Home and Alexa compatibility, open API for Home Assistant. Open window detection included. <a href="https://www.amazon.fr/dp/B07XK9VZGF?tag=homenuraen-21" rel="nofollow sponsored">See Thermor Equateur 4 on Amazon</a></p>
+<p>The <strong>Thermor Equateur 4</strong> is the best-selling connected heater in France. Its Cozytouch app is one of the best on the market: clear interface, intuitive programming, Google Home and Alexa compatibility, open API for Home Assistant. Open window detection included. <a href="https://www.amazon.fr/dp/B07XK9VZGF?tag=homenuraen05-21" rel="nofollow sponsored">See Thermor Equateur 4 on Amazon</a></p>
 
 <h2>Real savings: the numbers</h2>
 <p>A 2024 consumer study covering 500 households who installed connected heaters found an average saving of <strong>32% on the electric heating bill</strong> in the first year. Households that best optimised programming (zone-based, with window detection and off-peak management) achieved up to 45% savings.</p>

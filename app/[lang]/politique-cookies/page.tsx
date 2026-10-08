@@ -3,8 +3,8 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getNonce } from '@/lib/nonce'
 import { buildPageMetadata } from '@/lib/seo'
+import { resolveLang } from '@/lib/i18n'
 
-const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
 const metaDescriptions: Record<string, string> = {
   fr: 'Politique de cookies de Home Nura : cookies strictement nécessaires, cookies Amazon d\'affiliation, gestion et paramètres navigateur. Conforme RGPD.',
@@ -17,7 +17,7 @@ const metaDescriptions: Record<string, string> = {
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const c = content[safeLang] || content.fr
   return buildPageMetadata({
     lang: safeLang,
@@ -78,13 +78,13 @@ export default async function PolitiqueCookies({ params }: { params: Promise<{ l
         }) }}
       />
       <Navbar currentLang={lang} />
-      <main className="max-w-3xl mx-auto px-6 py-16">
+      <main id="main" className="max-w-3xl mx-auto px-6 py-16">
         <h1 className="text-3xl font-bold mb-8">{c.title}</h1>
         <div className="prose prose-slate max-w-none whitespace-pre-line text-slate-600 leading-relaxed">
           {c.body}
         </div>
         <div className="mt-12">
-          <Link href={`/${lang}`} className="text-blue-600 font-bold hover:underline">
+          <Link href={`/${lang}`} className="text-brand-600 font-bold hover:underline">
             &larr; {lang === 'fr' ? 'Retour à l\'accueil' : lang === 'de' ? 'Zurück zur Startseite' : lang === 'es' ? 'Volver al inicio' : lang === 'it' ? 'Torna alla home' : lang === 'nl' ? 'Terug naar home' : 'Back to home'}
           </Link>
         </div>

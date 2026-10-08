@@ -426,7 +426,7 @@ export default function Quiz({ products, currentLang }: QuizProps) {
         {/* Progress bar */}
         <div className="h-1.5 bg-slate-100">
           <div
-            className="h-full bg-blue-600 transition-all duration-500"
+            className="h-full bg-brand-600 transition-all duration-500"
             style={{ width: `${progressPct}%` }}
           />
         </div>
@@ -434,7 +434,7 @@ export default function Quiz({ products, currentLang }: QuizProps) {
         <div className="p-6 md:p-10">
           {step < totalSteps ? (
             <div>
-              <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-5">
+              <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-brand-600 mb-5">
                 {t.progress} {step + 1} / {totalSteps}
               </div>
               {step === 0 && (
@@ -464,7 +464,7 @@ export default function Quiz({ products, currentLang }: QuizProps) {
                   <button
                     type="button"
                     onClick={goBack}
-                    className="text-xs font-semibold text-slate-500 hover:text-blue-600 transition-colors"
+                    className="text-xs font-semibold text-slate-500 hover:text-brand-600 transition-colors"
                   >
                     ← {t.back}
                   </button>
@@ -474,13 +474,13 @@ export default function Quiz({ products, currentLang }: QuizProps) {
           ) : (
             recommendation && (
               <div className="text-center">
-                <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-600 mb-3">
+                <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-brand-600 mb-3">
                   {t.ourPick}
                 </div>
                 <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-2">
                   {t.recommend}
                 </h2>
-                <div className="h-[2px] w-16 bg-blue-600 mx-auto mb-8"></div>
+                <div className="h-[2px] w-16 bg-brand-600 mx-auto mb-8"></div>
 
                 <div className="max-w-md mx-auto rounded-2xl border border-slate-200 overflow-hidden bg-white">
                   <div className="relative aspect-square bg-slate-100">
@@ -494,7 +494,7 @@ export default function Quiz({ products, currentLang }: QuizProps) {
                     />
                   </div>
                   <div className="p-6">
-                    <div className="text-xs font-bold tracking-wide uppercase text-blue-600 mb-2">
+                    <div className="text-xs font-bold tracking-wide uppercase text-brand-600 mb-2">
                       {recommendation.nuraScore}/10 · {recommendation.capacity}
                     </div>
                     <h3 className="text-lg font-bold text-slate-900 leading-tight mb-2">
@@ -505,7 +505,7 @@ export default function Quiz({ products, currentLang }: QuizProps) {
                     <a
                       href={recommendation.url}
                       target="_blank"
-                      rel="nofollow noopener noreferrer"
+                      rel="sponsored nofollow noopener noreferrer"
                       onClick={() =>
                         trackAffiliateClick({
                           asin: recommendation.asin,
@@ -516,7 +516,7 @@ export default function Quiz({ products, currentLang }: QuizProps) {
                           lang: currentLang,
                         })
                       }
-                      className="block w-full rounded-full bg-blue-600 px-5 py-3 text-sm font-bold text-white hover:bg-blue-700 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2"
+                      className="block w-full rounded-full bg-brand-600 px-5 py-3 text-sm font-bold text-white hover:bg-brand-700 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2"
                     >
                       {t.seePrice}
                     </a>
@@ -526,7 +526,7 @@ export default function Quiz({ products, currentLang }: QuizProps) {
                 <button
                   type="button"
                   onClick={restart}
-                  className="mt-8 text-xs font-semibold text-slate-500 hover:text-blue-600 transition-colors"
+                  className="mt-8 text-xs font-semibold text-slate-500 hover:text-brand-600 transition-colors"
                 >
                   ↻ {t.restart}
                 </button>
@@ -559,13 +559,13 @@ function QuestionBlock<T extends string>({
             key={opt.value}
             type="button"
             onClick={() => onPick(opt.value)}
-            className="group flex items-center gap-4 p-4 md:p-5 rounded-2xl border border-slate-200 bg-white hover:border-blue-600 hover:bg-blue-50/40 transition duration-200 text-left"
+            className="group flex items-center gap-4 p-4 md:p-5 rounded-2xl border border-slate-200 bg-white hover:border-brand-600 hover:bg-brand-50/40 transition duration-200 text-left"
           >
-            <div className="w-12 h-12 shrink-0 flex items-center justify-center rounded-full bg-slate-100 text-2xl group-hover:bg-blue-100 transition-colors">
+            <div className="w-12 h-12 shrink-0 flex items-center justify-center rounded-full bg-slate-100 text-2xl group-hover:bg-brand-100 transition-colors">
               {opt.icon}
             </div>
             <div className="flex-1 min-w-0">
-              <div className="text-sm md:text-base font-bold text-slate-900 group-hover:text-blue-700">
+              <div className="text-sm md:text-base font-bold text-slate-900 group-hover:text-brand-700">
                 {opt.label}
               </div>
               {opt.desc && (
@@ -573,7 +573,7 @@ function QuestionBlock<T extends string>({
               )}
             </div>
             <svg
-              className="w-4 h-4 text-slate-300 group-hover:text-blue-600 shrink-0 transition-colors"
+              className="w-4 h-4 text-slate-300 group-hover:text-brand-600 shrink-0 transition-colors"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"

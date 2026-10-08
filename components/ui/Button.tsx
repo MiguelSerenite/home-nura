@@ -6,7 +6,7 @@ type Size = 'sm' | 'md' | 'lg'
 
 const VARIANT_CLASSES: Record<Variant, string> = {
   primary:
-    'bg-blue-600 text-white hover:bg-blue-700 focus-visible:ring-blue-600 shadow-sm hover:shadow-md',
+    'bg-brand-600 text-white hover:bg-brand-700 focus-visible:ring-brand-600 shadow-sm hover:shadow-md',
   secondary:
     'bg-slate-900 text-white hover:bg-slate-800 focus-visible:ring-slate-900 shadow-sm hover:shadow-md',
   ghost:
@@ -44,7 +44,7 @@ type Props = LinkProps | ButtonProps
  *
  * Variants:
  * - primary: blue background (default CTAs)
- * - secondary: slate-900 bg, blue-700 hover (big hero CTAs)
+ * - secondary: slate-900 bg, brand-700 hover (big hero CTAs)
  * - ghost: white bg with border (secondary CTAs)
  */
 export default function Button(props: Props) {

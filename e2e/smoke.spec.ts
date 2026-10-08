@@ -70,14 +70,21 @@ test.describe('Home page (fr)', () => {
     const firstLink = affiliateLinks.first()
     await expect(firstLink).toHaveAttribute('target', '_blank')
     const rel = await firstLink.getAttribute('rel')
+    expect(rel).toContain('sponsored')
     expect(rel).toContain('nofollow')
     expect(rel).toContain('noopener')
 
-    // At least one Product JSON-LD blob should be injected by ProductCard.
-    const jsonLdCount = await page
+    // Product JSON-LD is present but carries no synthetic ratings/reviews
+    // (Google review-spam policy) and no fake "Google reviews" badge is shown.
+    const jsonLd = await page
       .locator('script[type="application/ld+json"]')
-      .count()
-    expect(jsonLdCount).toBeGreaterThan(0)
+      .allTextContents()
+    expect(jsonLd.length).toBeGreaterThan(0)
+    const allJsonLd = jsonLd.join('\n')
+    expect(allJsonLd).toContain('"Product"')
+    expect(allJsonLd).not.toContain('aggregateRating')
+    expect(allJsonLd).not.toContain('ratingValue')
+    await expect(page.getByText(/avis Google/i)).toHaveCount(0)
 
     expect(errors, `Unexpected console errors:\n${errors.join('\n')}`).toEqual([])
   })

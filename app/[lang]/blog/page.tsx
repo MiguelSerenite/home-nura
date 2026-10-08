@@ -9,8 +9,8 @@ import { getNonce } from '@/lib/nonce'
 import type { Metadata } from 'next'
 import { SiteFooter, Button } from '@/components/ui'
 import { buildPageMetadata } from '@/lib/seo'
+import { resolveLang } from '@/lib/i18n'
 
-const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl']
 const BASE_URL = 'https://homenura.com'
 
 const metaTitles: Record<string, string> = {
@@ -33,7 +33,7 @@ const metaDescs: Record<string, string> = {
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
-  const safeLang = LANGUAGES.includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   return buildPageMetadata({
     lang: safeLang,
     path: '/blog',
@@ -95,7 +95,7 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
       {/* Hero */}
       <section className="px-6 py-20 lg:py-28">
         <div className="max-w-4xl mx-auto text-center">
-          <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-600 uppercase bg-blue-50 rounded-full">Blog</span>
+          <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-brand-600 uppercase bg-brand-50 rounded-full">Blog</span>
           <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-b from-slate-900 to-slate-600">
             {intro.title}
           </h1>
@@ -126,16 +126,16 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
               )}
               <div className="p-6">
                 <div className="flex items-center gap-3 mb-3">
-                  <span className="text-xs font-bold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-full">
+                  <span className="text-xs font-bold text-brand-600 bg-brand-50 px-2.5 py-1 rounded-full">
                     {CATEGORIES[article.category]?.[lang] || CATEGORIES[article.category]?.fr}
                   </span>
                   <span className="text-xs text-slate-500">{article.readingTime} min</span>
                 </div>
-                <h2 className="text-lg font-bold text-slate-900 mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors">
+                <h2 className="text-lg font-bold text-slate-900 mb-2 line-clamp-2 group-hover:text-brand-600 transition-colors">
                   {article.title[lang] || article.title.fr}
                 </h2>
                 <p className="text-sm text-slate-500 line-clamp-3">{article.excerpt[lang] || article.excerpt.fr}</p>
-                <p className="mt-4 text-sm font-semibold text-blue-600">
+                <p className="mt-4 text-sm font-semibold text-brand-600">
                   {lang === 'fr' ? 'Lire l\'article →' : lang === 'de' ? 'Artikel lesen →' : lang === 'es' ? 'Leer artículo →' : lang === 'it' ? 'Leggi l\'articolo →' : lang === 'nl' ? 'Lees artikel →' : 'Read article →'}
                 </p>
               </div>
@@ -175,7 +175,7 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
                   )}
                   <div className="flex-1 min-w-0">
                     <span className="text-xs text-slate-500">{article.readingTime} min · {new Date(article.datePublished).toLocaleDateString(lang === 'en' ? 'en-GB' : lang, { day: 'numeric', month: 'short', year: 'numeric' })}</span>
-                    <h3 className="text-sm font-bold text-slate-900 mt-1 line-clamp-2 group-hover:text-blue-600 transition-colors">
+                    <h3 className="text-sm font-bold text-slate-900 mt-1 line-clamp-2 group-hover:text-brand-600 transition-colors">
                       {article.title[lang] || article.title.fr}
                     </h3>
                   </div>
@@ -222,13 +222,6 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
       <SiteFooter
         currentLang={lang}
         topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
-        links={[
-          { href: `/${lang}`, label: dict.breadcrumb_home || 'Accueil' },
-          { href: `/${lang}/a-propos`, label: dict.about_link || 'À propos' },
-          { href: `/${lang}/guides/airfryers`, label: dict.breadcrumb_guide || 'Guide' },
-          { href: `/${lang}/mentions-legales`, label: dict.legal_notice },
-          { href: `/${lang}/politique-confidentialite`, label: dict.privacy_policy },
-        ]}
       />
 
       <CookieBanner lang={lang} dict={{ cookie_banner_text: dict.cookie_banner_text, cookie_accept: dict.cookie_accept, cookie_reject: dict.cookie_reject, cookie_learn_more: dict.cookie_learn_more }} />

@@ -40,6 +40,7 @@ import {
 } from '@/lib/catalog'
 import type { MetaSiloSlug } from '@/lib/catalog'
 import { isValidLang, type Lang } from '@/lib/i18n'
+import { ChevronRight } from 'lucide-react'
 
 interface CategoryHubUi {
   home: string
@@ -231,21 +232,21 @@ export default async function CategoryHub({
             <li>
               <Link
                 href={`/${safeLang}`}
-                className="hover:text-blue-600 transition-colors"
+                className="hover:text-brand-600 transition-colors"
               >
                 {ui.home}
               </Link>
             </li>
-            <li aria-hidden="true">/</li>
+            <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
             <li>
               <Link
                 href={`/${safeLang}/${silo.slug}`}
-                className="hover:text-blue-600 transition-colors"
+                className="hover:text-brand-600 transition-colors"
               >
                 {siloTitle}
               </Link>
             </li>
-            <li aria-hidden="true">/</li>
+            <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
             <li className="text-slate-600 font-medium">{categoryTitle}</li>
           </ol>
         </nav>
@@ -268,12 +269,12 @@ export default async function CategoryHub({
                 <li key={persona.slug}>
                   <Link
                     href={`/${safeLang}/${silo.slug}/${category.slug}/meilleur-pour/${persona.slug}`}
-                    className="group flex flex-col rounded-2xl border border-slate-200 bg-white px-5 py-4 transition duration-200 hover:border-blue-200 hover:shadow-sm"
+                    className="group flex flex-col rounded-2xl border border-slate-200 bg-white px-5 py-4 transition duration-200 hover:border-brand-200 hover:shadow-sm"
                   >
-                    <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-blue-600 mb-1">
+                    <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-brand-600 mb-1">
                       {ui.bestForPrefix} {categoryTitle.toLowerCase()}
                     </span>
-                    <span className="text-base font-semibold text-slate-900 group-hover:text-blue-700 transition-colors">
+                    <span className="text-base font-semibold text-slate-900 group-hover:text-brand-700 transition-colors">
                       {persona.label[safeLang]}
                     </span>
                   </Link>
@@ -294,9 +295,9 @@ export default async function CategoryHub({
                 <Link
                   key={cat.slug}
                   href={`/${safeLang}/${silo.slug}/${cat.slug}`}
-                  className="group relative flex flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition duration-200 hover:shadow-md hover:-translate-y-1 hover:border-blue-200"
+                  className="group relative flex flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition duration-200 hover:shadow-md hover:-translate-y-1 hover:border-brand-200"
                 >
-                  <h3 className="text-xl font-bold text-slate-900 leading-tight mb-2 group-hover:text-blue-700 transition-colors">
+                  <h3 className="text-xl font-bold text-slate-900 leading-tight mb-2 group-hover:text-brand-700 transition-colors">
                     {cat.title[safeLang]}
                   </h3>
                   <p className="text-sm text-slate-500 leading-relaxed flex-1">
@@ -319,10 +320,10 @@ export default async function CategoryHub({
 
         {/* Methodology CTA — every category page links the cornerstone */}
         <div className="max-w-6xl mx-auto px-6 pb-20">
-          <div className="rounded-3xl border border-blue-100 bg-gradient-to-br from-blue-50 to-white p-8 md:p-10 text-center">
+          <div className="rounded-3xl border border-brand-100 bg-gradient-to-br from-brand-50 to-white p-8 md:p-10 text-center">
             <Link
               href={`/${safeLang}/methodologie`}
-              className="inline-flex items-center gap-2 rounded-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 text-sm font-semibold transition-colors"
+              className="inline-flex items-center gap-2 rounded-full bg-brand-600 hover:bg-brand-700 text-white px-6 py-3 text-sm font-semibold transition-colors"
             >
               <span>{ui.methodologyCta}</span>
               <span aria-hidden="true">→</span>

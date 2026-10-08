@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar'
 import CookieBanner from '@/components/CookieBanner'
 import ArticleProductCTA from '@/components/ArticleProductCTA'
 import { getDictionary } from '../../dictionaries'
-import { getArticleBySlug, getRelatedArticles, getAllSlugs } from '@/lib/blog'
+import { getArticleBySlug, getRelatedArticles, getAllArticles } from '@/lib/blog'
 import { getStaticProducts } from '@/lib/products'
 import { enrichContentWithCTAs } from '@/lib/blog/enrichContent'
 import { CATEGORIES, type FAQItem } from '@/lib/blog/types'
@@ -13,40 +13,43 @@ import { getNonce } from '@/lib/nonce'
 import type { Metadata } from 'next'
 import { SiteFooter } from '@/components/ui'
 import { buildPageMetadata, buildArticleSchema } from '@/lib/seo'
+import { LANGUAGES, isValidLang } from '@/lib/i18n'
+import { BLOG_SEO_META } from '@/lib/blog/seo-meta'
+import { ChevronRight } from 'lucide-react'
 
-const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl']
 const BASE_URL = 'https://homenura.com'
 
 export async function generateStaticParams() {
-  const slugs = getAllSlugs()
-  const params: { lang: string; slug: string }[] = []
-  for (const lang of LANGUAGES) {
-    for (const slug of slugs) {
-      params.push({ lang, slug })
-    }
-  }
-  return params
+  // Only locales the article is actually translated into.
+  return LANGUAGES.flatMap((lang) =>
+    getAllArticles()
+      .filter((article) => article.content[lang])
+      .map((article) => ({ lang, slug: article.slug })),
+  )
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string; slug: string }> }): Promise<Metadata> {
   const { lang, slug } = await params
   const article = getArticleBySlug(slug)
-  if (!article) return {}
-  const safeLang = LANGUAGES.includes(lang) ? lang : 'fr'
-  const title = article.title[safeLang] || article.title.fr
-  const description = article.excerpt[safeLang] || article.excerpt.fr
+  // Untranslated article in this locale: the page 404s (see below).
+  if (!article || !isValidLang(lang) || !article.content[lang]) return {}
+  // SERP-sized title/description (≤58 / ≤155 chars) — the on-page H1 and
+  // excerpt stay as written.
+  const seo = BLOG_SEO_META[slug]?.[lang]
+  const title = seo?.title ?? `${article.title[lang]} | Home Nura`
+  const description = seo?.description ?? article.excerpt[lang]
   const heroRaw = article.images[0]?.src
   const heroImage = heroRaw
     ? heroRaw.startsWith('http')
       ? heroRaw
       : `${BASE_URL}${heroRaw}`
     : undefined
-  const heroAlt = article.images[0]?.alt[safeLang] || article.images[0]?.alt.fr
+  const heroAlt = article.images[0]?.alt[lang] || article.images[0]?.alt.fr
 
   return buildPageMetadata({
-    lang: safeLang,
+    lang: lang,
     path: `/blog/${slug}`,
-    title: `${title} | Home Nura`,
+    title,
     description,
     image: heroImage,
     imageAlt: heroAlt,
@@ -60,7 +63,9 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 export default async function BlogArticlePage({ params }: { params: Promise<{ lang: string; slug: string }> }) {
   const { lang, slug } = await params
   const article = getArticleBySlug(slug)
-  if (!article) notFound()
+  // Never serve the French text under another locale's URL: that would be a
+  // cross-locale duplicate indexed with a self-canonical.
+  if (!article || !isValidLang(lang) || !article.content[lang]) notFound()
 
   const dict = await getDictionary(lang)
   const nonce = await getNonce()
@@ -70,7 +75,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
     asin: p.asin, title: p.title, price: p.price, priceNumeric: p.priceNumeric, image: p.image, url: p.url, nuraScore: p.nuraScore, capacity: p.capacity,
   }))
   const title = article.title[lang] || article.title.fr
-  const rawContent = article.content[lang] || article.content.fr
+  const rawContent = article.content[lang]
   // Wrap tables in a scrollable container so they scroll horizontally on mobile
   // without breaking the table layout algorithm (`display: block` shrinks cells).
   const enrichedContent = enrichContentWithCTAs(rawContent, lang)
@@ -97,10 +102,8 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
     imageAlt: heroImageAlt,
     datePublished: article.datePublished,
     dateModified: article.dateModified,
-    articleType:
-      article.category === 'tests' || article.category === 'comparatifs'
-        ? 'ReviewArticle'
-        : 'Article',
+    // Not ReviewArticle: that type requires an itemReviewed we don't model.
+    articleType: 'Article',
     articleSection: categoryLabel,
     wordCount: content.replace(/<[^>]+>/g, '').split(/\s+/).length,
   })
@@ -111,8 +114,8 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: dict.breadcrumb_home || 'Home', item: `${BASE_URL}/${lang}` },
       { '@type': 'ListItem', position: 2, name: 'Blog', item: `${BASE_URL}/${lang}/blog` },
-      { '@type': 'ListItem', position: 3, name: categoryLabel, item: `${BASE_URL}/${lang}/blog` },
-      { '@type': 'ListItem', position: 4, name: title, item: `${BASE_URL}/${lang}/blog/${slug}` },
+      // No category level: categories have no URL of their own.
+      { '@type': 'ListItem', position: 3, name: title, item: `${BASE_URL}/${lang}/blog/${slug}` },
     ],
   }
 
@@ -162,23 +165,23 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
       <article className="max-w-3xl mx-auto px-6 py-12">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-sm text-slate-500 mb-8 flex-wrap">
-          <Link href={`/${lang}`} className="hover:text-blue-600 transition-colors">{dict.breadcrumb_home || 'Home'}</Link>
-          <span>/</span>
-          <Link href={`/${lang}/blog`} className="hover:text-blue-600 transition-colors">Blog</Link>
-          <span>/</span>
+          <Link href={`/${lang}`} className="hover:text-brand-600 transition-colors">{dict.breadcrumb_home || 'Home'}</Link>
+          <span aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></span>
+          <Link href={`/${lang}/blog`} className="hover:text-brand-600 transition-colors">Blog</Link>
+          <span aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></span>
           <span className="text-slate-600">{categoryLabel}</span>
         </nav>
 
         {/* Header */}
         <header className="mb-10">
-          <span className="inline-block px-3 py-1 mb-4 text-xs font-bold text-blue-600 bg-blue-50 rounded-full">{categoryLabel}</span>
+          <span className="inline-block px-3 py-1 mb-4 text-xs font-bold text-brand-600 bg-brand-50 rounded-full">{categoryLabel}</span>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 leading-tight">{title}</h1>
           <p className="text-xl text-slate-500 leading-relaxed mb-6">{excerpt}</p>
 
           {/* Meta */}
           <div className="flex flex-wrap items-center gap-4 text-sm text-slate-500 border-t border-b border-slate-100 py-4">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-white text-xs font-bold">MS</div>
+              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-brand-500 to-accent-600 flex items-center justify-center text-white text-xs font-bold">MS</div>
               <span className="font-medium text-slate-600">Miguel Serenite</span>
             </div>
             <span>{lang === 'fr' ? 'Publié le' : lang === 'de' ? 'Veröffentlicht am' : lang === 'es' ? 'Publicado el' : lang === 'it' ? 'Pubblicato il' : lang === 'nl' ? 'Gepubliceerd op' : 'Published'} {dateFormatted}</span>
@@ -212,7 +215,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
             prose-p:text-slate-600 prose-p:leading-relaxed prose-p:mb-4
             prose-li:text-slate-600
             prose-strong:text-slate-900
-            prose-a:text-blue-600 prose-a:font-semibold prose-a:no-underline hover:prose-a:underline
+            prose-a:text-brand-600 prose-a:font-semibold prose-a:no-underline hover:prose-a:underline
             prose-img:rounded-xl prose-img:shadow-md
             [&_.blog-table-wrap]:my-6 [&_.blog-table-wrap]:-mx-4 md:[&_.blog-table-wrap]:mx-0 [&_.blog-table-wrap]:overflow-x-auto [&_.blog-table-wrap]:rounded-xl md:[&_.blog-table-wrap]:border md:[&_.blog-table-wrap]:border-slate-200 md:[&_.blog-table-wrap]:bg-white md:[&_.blog-table-wrap]:shadow-sm
             [&_.blog-table-wrap]:px-4 md:[&_.blog-table-wrap]:px-0
@@ -235,7 +238,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
             <div className="space-y-4">
               {article.faq.map((faq: FAQItem, idx: number) => (
                 <details key={idx} className="group bg-white border border-slate-200 rounded-xl shadow-sm" open={idx === 0}>
-                  <summary className="flex items-center justify-between cursor-pointer p-5 text-left font-semibold text-slate-900 hover:text-blue-600 transition-colors">
+                  <summary className="flex items-center justify-between cursor-pointer p-5 text-left font-semibold text-slate-900 hover:text-brand-600 transition-colors">
                     <span>{faq.question[lang] || faq.question.fr}</span>
                     <svg className="w-5 h-5 flex-shrink-0 ml-4 text-slate-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                   </summary>
@@ -250,11 +253,11 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
         <ArticleProductCTA products={topProducts.slice(0, 1)} lang={lang} variant="inline" />
 
         {/* Pillar Link */}
-        <div className="mt-12 p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl border border-blue-100">
-          <p className="text-sm font-bold text-blue-900 mb-2">
+        <div className="mt-12 p-6 bg-gradient-to-br from-brand-50 to-accent-50 rounded-2xl border border-brand-100">
+          <p className="text-sm font-bold text-brand-900 mb-2">
             {lang === 'fr' ? 'Article issu de notre guide complet' : lang === 'de' ? 'Artikel aus unserem umfassenden Ratgeber' : lang === 'es' ? 'Artículo de nuestra guía completa' : lang === 'it' ? 'Articolo dalla nostra guida completa' : lang === 'nl' ? 'Artikel uit onze complete gids' : 'Article from our comprehensive guide'}
           </p>
-          <Link href={`/${lang}/${article.pillar}`} className="text-blue-600 font-bold hover:underline text-lg">
+          <Link href={`/${lang}/${article.pillar}`} className="text-brand-600 font-bold hover:underline text-lg">
             {lang === 'fr' ? 'Voir le guide complet des airfryers 2026 →' : lang === 'de' ? 'Zum kompletten Airfryer-Ratgeber 2026 →' : lang === 'es' ? 'Ver la guía completa de freidoras 2026 →' : lang === 'it' ? 'Vai alla guida completa 2026 →' : lang === 'nl' ? 'Naar de complete airfryer-gids 2026 →' : 'See the complete air fryer guide 2026 →'}
           </Link>
         </div>
@@ -282,7 +285,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
                   )}
                   <div>
                     <span className="text-xs text-slate-500">{r.readingTime} min</span>
-                    <h3 className="text-sm font-bold text-slate-900 mt-1 group-hover:text-blue-600 transition-colors line-clamp-2">
+                    <h3 className="text-sm font-bold text-slate-900 mt-1 group-hover:text-brand-600 transition-colors line-clamp-2">
                       {r.title[lang] || r.title.fr}
                     </h3>
                   </div>
@@ -299,12 +302,6 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
         currentLang={lang}
         variant="compact"
         topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
-        links={[
-          { href: `/${lang}`, label: dict.breadcrumb_home || 'Accueil' },
-          { href: `/${lang}/blog`, label: 'Blog' },
-          { href: `/${lang}/a-propos`, label: dict.about_link || 'À propos' },
-          { href: `/${lang}/mentions-legales`, label: dict.legal_notice },
-        ]}
       />
 
       <CookieBanner lang={lang} dict={{ cookie_banner_text: dict.cookie_banner_text, cookie_accept: dict.cookie_accept, cookie_reject: dict.cookie_reject, cookie_learn_more: dict.cookie_learn_more }} />

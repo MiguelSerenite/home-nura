@@ -150,16 +150,16 @@ export const article: BlogArticle = {
 <p>The <strong>Thermomix TM7</strong> retains its market dominance with the unbeatable <strong>Cookidoo platform</strong>: 80,000+ guided recipes in 35 languages, updated monthly. WiFi connected, 6.8" touchscreen, ±1°C temperature precision (37-130°C), 2.2L bowl, built-in scale. Price: £1,349. Not available on Amazon — direct Vorwerk sales only.</p>
 
 <h3>2. Kenwood Cooking Chef XL Connect: the professional choice</h3>
-<p>The <strong>Kenwood Cooking Chef XL Connect</strong> uniquely combines a professional-grade mixer motor (1400W, 7L bowl) with induction heating. Best for pastry and large quantities. WiFi app with 2,000+ recipes. Price: £720. <a href="https://www.amazon.fr/dp/B086L6GS5K?tag=homenuraen-21" rel="nofollow sponsored">Kenwood Cooking Chef XL Connect on Amazon</a></p>
+<p>The <strong>Kenwood Cooking Chef XL Connect</strong> uniquely combines a professional-grade mixer motor (1400W, 7L bowl) with induction heating. Best for pastry and large quantities. WiFi app with 2,000+ recipes. Price: £720. <a href="https://www.amazon.fr/dp/B086L6GS5K?tag=homenuraen05-21" rel="nofollow sponsored">Kenwood Cooking Chef XL Connect on Amazon</a></p>
 
 <h3>3. Moulinex i-Companion Touch XL: accessible premium</h3>
-<p>7" touchscreen, WiFi, 1500W, 3L + 1L bowls, 12 auto programmes, 3,000+ guided recipes. Best value for intermediate users. Price: £585. <a href="https://www.amazon.fr/dp/B0CHGW9L3V?tag=homenuraen-21" rel="nofollow sponsored">Moulinex i-Companion Touch XL on Amazon</a></p>
+<p>7" touchscreen, WiFi, 1500W, 3L + 1L bowls, 12 auto programmes, 3,000+ guided recipes. Best value for intermediate users. Price: £585. <a href="https://www.amazon.fr/dp/B0CHGW9L3V?tag=homenuraen05-21" rel="nofollow sponsored">Moulinex i-Companion Touch XL on Amazon</a></p>
 
 <h3>4. Magimix Cook Expert Premium XL: French premium durability</h3>
-<p>1100W continuous power, 3 included bowls (3.7L + 1.3L + 1.3L), WiFi app with 400+ tested recipes, <strong>30-year motor warranty</strong>, made in France. Price: £765. <a href="https://www.amazon.fr/dp/B07DZFQ3W3?tag=homenuraen-21" rel="nofollow sponsored">Magimix Cook Expert on Amazon</a></p>
+<p>1100W continuous power, 3 included bowls (3.7L + 1.3L + 1.3L), WiFi app with 400+ tested recipes, <strong>30-year motor warranty</strong>, made in France. Price: £765. <a href="https://www.amazon.fr/dp/B07DZFQ3W3?tag=homenuraen05-21" rel="nofollow sponsored">Magimix Cook Expert on Amazon</a></p>
 
 <h3>5. Cecotec Mambo 12090: the budget challenger</h3>
-<p>The only sub-£360 connected cooking robot worth considering. 1700W peak, 3.3L bowl, WiFi app with 1,000+ recipes, 5" LCD screen. ±3°C precision (vs ±1°C for Thermomix). Price: £325. <a href="https://www.amazon.fr/dp/B09YJNMQGR?tag=homenuraen-21" rel="nofollow sponsored">Cecotec Mambo 12090 on Amazon</a></p>
+<p>The only sub-£360 connected cooking robot worth considering. 1700W peak, 3.3L bowl, WiFi app with 1,000+ recipes, 5" LCD screen. ±3°C precision (vs ±1°C for Thermomix). Price: £325. <a href="https://www.amazon.fr/dp/B09YJNMQGR?tag=homenuraen05-21" rel="nofollow sponsored">Cecotec Mambo 12090 on Amazon</a></p>
 
 <h2>Full comparison table</h2>
 <table>
@@ -192,10 +192,10 @@ export const article: BlogArticle = {
 <h2>Die 5 Roboter im Vergleich</h2>
 <ul>
 <li><strong>Thermomix TM7:</strong> Cookidoo (80.000+ Rezepte), WLAN, 6,8" Touchscreen, ±1°C Prazision. 1.499 EUR.</li>
-<li><strong>Kenwood Cooking Chef XL Connect:</strong> 7L-Schussel, Induktionsheizung, 1.400W, ideal fur Backbegeisterte. 799 EUR. <a href="https://www.amazon.fr/dp/B086L6GS5K?tag=homenuraen00-21" rel="nofollow sponsored">Auf Amazon ansehen</a></li>
-<li><strong>Moulinex i-Companion Touch XL:</strong> 7"-Touchscreen, WLAN, 1.500W, 3.000+ Rezepte. 649 EUR. <a href="https://www.amazon.fr/dp/B0CHGW9L3V?tag=homenuraen00-21" rel="nofollow sponsored">Auf Amazon ansehen</a></li>
-<li><strong>Magimix Cook Expert Premium XL:</strong> 30 Jahre Motorgarantie, hergestellt in Frankreich, 3 Schussel. 849 EUR. <a href="https://www.amazon.fr/dp/B07DZFQ3W3?tag=homenuraen00-21" rel="nofollow sponsored">Auf Amazon ansehen</a></li>
-<li><strong>Cecotec Mambo 12090:</strong> Einziger vernetzter Kuchenprozessor unter 400 EUR. 359 EUR. <a href="https://www.amazon.fr/dp/B09YJNMQGR?tag=homenuraen00-21" rel="nofollow sponsored">Auf Amazon ansehen</a></li>
+<li><strong>Kenwood Cooking Chef XL Connect:</strong> 7L-Schussel, Induktionsheizung, 1.400W, ideal fur Backbegeisterte. 799 EUR. <a href="https://www.amazon.fr/dp/B086L6GS5K?tag=homenuraen05-21" rel="nofollow sponsored">Auf Amazon ansehen</a></li>
+<li><strong>Moulinex i-Companion Touch XL:</strong> 7"-Touchscreen, WLAN, 1.500W, 3.000+ Rezepte. 649 EUR. <a href="https://www.amazon.fr/dp/B0CHGW9L3V?tag=homenuraen05-21" rel="nofollow sponsored">Auf Amazon ansehen</a></li>
+<li><strong>Magimix Cook Expert Premium XL:</strong> 30 Jahre Motorgarantie, hergestellt in Frankreich, 3 Schussel. 849 EUR. <a href="https://www.amazon.fr/dp/B07DZFQ3W3?tag=homenuraen05-21" rel="nofollow sponsored">Auf Amazon ansehen</a></li>
+<li><strong>Cecotec Mambo 12090:</strong> Einziger vernetzter Kuchenprozessor unter 400 EUR. 359 EUR. <a href="https://www.amazon.fr/dp/B09YJNMQGR?tag=homenuraen05-21" rel="nofollow sponsored">Auf Amazon ansehen</a></li>
 </ul>
 
 <h2>Vollstandige Vergleichstabelle</h2>
@@ -220,10 +220,10 @@ export const article: BlogArticle = {
 <h2>Los 5 robots en competencia</h2>
 <ul>
 <li><strong>Thermomix TM7:</strong> Cookidoo (80.000+ recetas), WiFi, pantalla 6,8", precision ±1°C. 1.499 EUR.</li>
-<li><strong>Kenwood Cooking Chef XL Connect:</strong> Bol de 7L, calefaccion por induccion, 1.400W. 799 EUR. <a href="https://www.amazon.fr/dp/B086L6GS5K?tag=homenuraen0a-21" rel="nofollow sponsored">Ver en Amazon</a></li>
-<li><strong>Moulinex i-Companion Touch XL:</strong> Pantalla tactil 7", WiFi, 1.500W, 3.000+ recetas. 649 EUR. <a href="https://www.amazon.fr/dp/B0CHGW9L3V?tag=homenuraen0a-21" rel="nofollow sponsored">Ver en Amazon</a></li>
-<li><strong>Magimix Cook Expert Premium XL:</strong> 30 años de garantia motor, fabricado en Francia. 849 EUR. <a href="https://www.amazon.fr/dp/B07DZFQ3W3?tag=homenuraen0a-21" rel="nofollow sponsored">Ver en Amazon</a></li>
-<li><strong>Cecotec Mambo 12090:</strong> Unico robot conectado por menos de 400 EUR. 359 EUR. <a href="https://www.amazon.fr/dp/B09YJNMQGR?tag=homenuraen0a-21" rel="nofollow sponsored">Ver en Amazon</a></li>
+<li><strong>Kenwood Cooking Chef XL Connect:</strong> Bol de 7L, calefaccion por induccion, 1.400W. 799 EUR. <a href="https://www.amazon.fr/dp/B086L6GS5K?tag=homenuraen05-21" rel="nofollow sponsored">Ver en Amazon</a></li>
+<li><strong>Moulinex i-Companion Touch XL:</strong> Pantalla tactil 7", WiFi, 1.500W, 3.000+ recetas. 649 EUR. <a href="https://www.amazon.fr/dp/B0CHGW9L3V?tag=homenuraen05-21" rel="nofollow sponsored">Ver en Amazon</a></li>
+<li><strong>Magimix Cook Expert Premium XL:</strong> 30 años de garantia motor, fabricado en Francia. 849 EUR. <a href="https://www.amazon.fr/dp/B07DZFQ3W3?tag=homenuraen05-21" rel="nofollow sponsored">Ver en Amazon</a></li>
+<li><strong>Cecotec Mambo 12090:</strong> Unico robot conectado por menos de 400 EUR. 359 EUR. <a href="https://www.amazon.fr/dp/B09YJNMQGR?tag=homenuraen05-21" rel="nofollow sponsored">Ver en Amazon</a></li>
 </ul>
 
 <h2>Tabla comparativa completa</h2>
@@ -247,10 +247,10 @@ export const article: BlogArticle = {
 <h2>I 5 robot a confronto</h2>
 <ul>
 <li><strong>Thermomix TM7:</strong> Cookidoo (80.000+ ricette), WiFi, schermo 6,8", precisione ±1°C. 1.499 EUR.</li>
-<li><strong>Kenwood Cooking Chef XL Connect:</strong> Ciotola da 7L, riscaldamento a induzione, 1.400W. 799 EUR. <a href="https://www.amazon.fr/dp/B086L6GS5K?tag=homenuraen010-21" rel="nofollow sponsored">Vedi su Amazon</a></li>
-<li><strong>Moulinex i-Companion Touch XL:</strong> Schermo touch 7", WiFi, 1.500W, 3.000+ ricette. 649 EUR. <a href="https://www.amazon.fr/dp/B0CHGW9L3V?tag=homenuraen010-21" rel="nofollow sponsored">Vedi su Amazon</a></li>
-<li><strong>Magimix Cook Expert Premium XL:</strong> 30 anni di garanzia motore, prodotto in Francia. 849 EUR. <a href="https://www.amazon.fr/dp/B07DZFQ3W3?tag=homenuraen010-21" rel="nofollow sponsored">Vedi su Amazon</a></li>
-<li><strong>Cecotec Mambo 12090:</strong> L'unico robot connesso sotto i 400 EUR. 359 EUR. <a href="https://www.amazon.fr/dp/B09YJNMQGR?tag=homenuraen010-21" rel="nofollow sponsored">Vedi su Amazon</a></li>
+<li><strong>Kenwood Cooking Chef XL Connect:</strong> Ciotola da 7L, riscaldamento a induzione, 1.400W. 799 EUR. <a href="https://www.amazon.fr/dp/B086L6GS5K?tag=homenuraen05-21" rel="nofollow sponsored">Vedi su Amazon</a></li>
+<li><strong>Moulinex i-Companion Touch XL:</strong> Schermo touch 7", WiFi, 1.500W, 3.000+ ricette. 649 EUR. <a href="https://www.amazon.fr/dp/B0CHGW9L3V?tag=homenuraen05-21" rel="nofollow sponsored">Vedi su Amazon</a></li>
+<li><strong>Magimix Cook Expert Premium XL:</strong> 30 anni di garanzia motore, prodotto in Francia. 849 EUR. <a href="https://www.amazon.fr/dp/B07DZFQ3W3?tag=homenuraen05-21" rel="nofollow sponsored">Vedi su Amazon</a></li>
+<li><strong>Cecotec Mambo 12090:</strong> L'unico robot connesso sotto i 400 EUR. 359 EUR. <a href="https://www.amazon.fr/dp/B09YJNMQGR?tag=homenuraen05-21" rel="nofollow sponsored">Vedi su Amazon</a></li>
 </ul>
 
 <h2>Tabella comparativa completa</h2>
@@ -274,10 +274,10 @@ export const article: BlogArticle = {
 <h2>De 5 robots vergeleken</h2>
 <ul>
 <li><strong>Thermomix TM7:</strong> Cookidoo (80.000+ recepten), WiFi, 6,8" touchscreen, ±1°C precisie. €1.499.</li>
-<li><strong>Kenwood Cooking Chef XL Connect:</strong> 7L kom, inductieverwarming, 1.400W. €799. <a href="https://www.amazon.fr/dp/B086L6GS5K?tag=homenuranl-21" rel="nofollow sponsored">Bekijk op Amazon</a></li>
-<li><strong>Moulinex i-Companion Touch XL:</strong> 7" touchscreen, WiFi, 1.500W, 3.000+ recepten. €649. <a href="https://www.amazon.fr/dp/B0CHGW9L3V?tag=homenuranl-21" rel="nofollow sponsored">Bekijk op Amazon</a></li>
-<li><strong>Magimix Cook Expert Premium XL:</strong> 30 jaar motorgarantie, gemaakt in Frankrijk. €849. <a href="https://www.amazon.fr/dp/B07DZFQ3W3?tag=homenuranl-21" rel="nofollow sponsored">Bekijk op Amazon</a></li>
-<li><strong>Cecotec Mambo 12090:</strong> De enige verbonden keukenrobot onder de €400. €359. <a href="https://www.amazon.fr/dp/B09YJNMQGR?tag=homenuranl-21" rel="nofollow sponsored">Bekijk op Amazon</a></li>
+<li><strong>Kenwood Cooking Chef XL Connect:</strong> 7L kom, inductieverwarming, 1.400W. €799. <a href="https://www.amazon.fr/dp/B086L6GS5K?tag=homenuraen05-21" rel="nofollow sponsored">Bekijk op Amazon</a></li>
+<li><strong>Moulinex i-Companion Touch XL:</strong> 7" touchscreen, WiFi, 1.500W, 3.000+ recepten. €649. <a href="https://www.amazon.fr/dp/B0CHGW9L3V?tag=homenuraen05-21" rel="nofollow sponsored">Bekijk op Amazon</a></li>
+<li><strong>Magimix Cook Expert Premium XL:</strong> 30 jaar motorgarantie, gemaakt in Frankrijk. €849. <a href="https://www.amazon.fr/dp/B07DZFQ3W3?tag=homenuraen05-21" rel="nofollow sponsored">Bekijk op Amazon</a></li>
+<li><strong>Cecotec Mambo 12090:</strong> De enige verbonden keukenrobot onder de €400. €359. <a href="https://www.amazon.fr/dp/B09YJNMQGR?tag=homenuraen05-21" rel="nofollow sponsored">Bekijk op Amazon</a></li>
 </ul>
 
 <h2>Volledige vergelijkingstabel</h2>

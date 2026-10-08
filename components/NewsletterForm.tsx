@@ -152,14 +152,14 @@ export default function NewsletterForm({ currentLang }: { currentLang: string })
 
   return (
     <section className="max-w-3xl mx-auto px-6 py-20 md:py-24">
-      <div className="rounded-3xl bg-gradient-to-br from-blue-600 to-indigo-700 p-8 md:p-12 text-center shadow-xl">
-        <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-blue-100 mb-4">
+      <div className="rounded-3xl bg-gradient-to-br from-brand-600 to-accent-700 p-8 md:p-12 text-center shadow-xl">
+        <div className="text-[11px] font-bold tracking-[0.35em] uppercase text-brand-100 mb-4">
           NEWSLETTER
         </div>
         <h2 className="text-3xl md:text-[2.25rem] font-bold tracking-tight leading-[1.15] text-white mb-3">
           {t.title}
         </h2>
-        <p className="text-base md:text-lg text-blue-100 mb-8 max-w-xl mx-auto">{t.subtitle}</p>
+        <p className="text-base md:text-lg text-brand-100 mb-8 max-w-xl mx-auto">{t.subtitle}</p>
 
         {status === 'success' ? (
           <div
@@ -200,7 +200,7 @@ export default function NewsletterForm({ currentLang }: { currentLang: string })
               <button
                 type="submit"
                 disabled={status === 'loading'}
-                className="rounded-full bg-white px-6 py-3 text-sm md:text-base font-bold text-blue-700 hover:bg-blue-50 transition-colors disabled:opacity-60"
+                className="rounded-full bg-white px-6 py-3 text-sm md:text-base font-bold text-brand-700 hover:bg-brand-50 transition-colors disabled:opacity-60"
               >
                 {status === 'loading' ? t.submitting : t.submit}
               </button>
@@ -210,7 +210,7 @@ export default function NewsletterForm({ currentLang }: { currentLang: string })
                 {errorMsg}
               </div>
             )}
-            <p className="mt-4 text-[11px] text-blue-100/80 max-w-sm mx-auto leading-relaxed">
+            <p className="mt-4 text-[11px] text-brand-100/80 max-w-sm mx-auto leading-relaxed">
               {t.consent}
             </p>
           </form>

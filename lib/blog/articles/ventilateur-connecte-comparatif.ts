@@ -167,19 +167,19 @@ export const article: BlogArticle = {
 
 <h2>The 5 candidates in detail</h2>
 <h3>1. Dyson Pure Cool TP09 — The reference purifier-fan</h3>
-<p>The <strong>Dyson Pure Cool TP09</strong> combines HEPA H13 filtration (captures 99.97% of particles ≥0.1 μm), real-time PM2.5/PM10/VOC/humidity air quality monitoring, auto purification mode, WiFi + Dyson Link app, Google Home/Alexa/Siri compatibility, 350° oscillation, up to 290 L/s airflow, 25 dB in night mode. Price: £540. <a href="https://www.amazon.fr/dp/B097YL7GWZ?tag=homenuraen-21" rel="nofollow sponsored">Dyson Pure Cool TP09 on Amazon</a></p>
+<p>The <strong>Dyson Pure Cool TP09</strong> combines HEPA H13 filtration (captures 99.97% of particles ≥0.1 μm), real-time PM2.5/PM10/VOC/humidity air quality monitoring, auto purification mode, WiFi + Dyson Link app, Google Home/Alexa/Siri compatibility, 350° oscillation, up to 290 L/s airflow, 25 dB in night mode. Price: £540. <a href="https://www.amazon.fr/dp/B097YL7GWZ?tag=homenuraen05-21" rel="nofollow sponsored">Dyson Pure Cool TP09 on Amazon</a></p>
 
 <h3>2. Dyson Hot+Cool Formaldehyde HP09 — The 3-in-1 heater</h3>
-<p>Adds to the TP09: heating to 37°C (heats a 20m² room in 15 min) and a specific formaldehyde catalytic sensor (destroys formaldehyde continuously). Price: £630. <a href="https://www.amazon.fr/dp/B09HZQRBTN?tag=homenuraen-21" rel="nofollow sponsored">Dyson HP09 on Amazon</a></p>
+<p>Adds to the TP09: heating to 37°C (heats a 20m² room in 15 min) and a specific formaldehyde catalytic sensor (destroys formaldehyde continuously). Price: £630. <a href="https://www.amazon.fr/dp/B09HZQRBTN?tag=homenuraen05-21" rel="nofollow sponsored">Dyson HP09 on Amazon</a></p>
 
 <h3>3. Xiaomi Smart Standing Fan 2 Pro — Excellent value for money</h3>
-<p>100 speed levels, nature mode, WiFi (Mi Home, Google Home, Alexa), 28 dB minimum noise, 22W consumption — the best connected fan value under £100. <a href="https://www.amazon.fr/dp/B09QDKLFHP?tag=homenuraen-21" rel="nofollow sponsored">Xiaomi Smart Fan 2 Pro on Amazon</a>. Price: £80.</p>
+<p>100 speed levels, nature mode, WiFi (Mi Home, Google Home, Alexa), 28 dB minimum noise, 22W consumption — the best connected fan value under £100. <a href="https://www.amazon.fr/dp/B09QDKLFHP?tag=homenuraen05-21" rel="nofollow sponsored">Xiaomi Smart Fan 2 Pro on Amazon</a>. Price: £80.</p>
 
 <h3>4. De'Longhi Capsule Crisp — The elegant European</h3>
-<p>Award-winning design, WiFi + De'Longhi Climate app, Google Home/Alexa, 12 speeds, 38 dB max, Eco mode, 90° oscillation. Price: £180. <a href="https://www.amazon.fr/dp/B0B9GLPXVV?tag=homenuraen-21" rel="nofollow sponsored">De'Longhi Capsule Crisp on Amazon</a></p>
+<p>Award-winning design, WiFi + De'Longhi Climate app, Google Home/Alexa, 12 speeds, 38 dB max, Eco mode, 90° oscillation. Price: £180. <a href="https://www.amazon.fr/dp/B0B9GLPXVV?tag=homenuraen05-21" rel="nofollow sponsored">De'Longhi Capsule Crisp on Amazon</a></p>
 
 <h3>5. Stadler Form Peter — The ultra-quiet Swiss</h3>
-<p>Record 26 dB minimum noise, WiFi + Bluetooth, Alexa compatible, brushed aluminium finish, 12W consumption — the most premium desk fan. Price: £135. <a href="https://www.amazon.fr/dp/B09FQ4YNRB?tag=homenuraen-21" rel="nofollow sponsored">Stadler Form Peter on Amazon</a></p>
+<p>Record 26 dB minimum noise, WiFi + Bluetooth, Alexa compatible, brushed aluminium finish, 12W consumption — the most premium desk fan. Price: £135. <a href="https://www.amazon.fr/dp/B09FQ4YNRB?tag=homenuraen05-21" rel="nofollow sponsored">Stadler Form Peter on Amazon</a></p>
 
 <h2>Full comparison table</h2>
 <table>
@@ -217,11 +217,11 @@ export const article: BlogArticle = {
 
 <h2>Die 5 Kandidaten im Detail</h2>
 <ul>
-<li><strong>Dyson Pure Cool TP09:</strong> HEPA H13-Filtration, PM2.5/COV-Sensor, WiFi, 290 L/s, 25 dB Nachtmodus. 599 EUR. <a href="https://www.amazon.fr/dp/B097YL7GWZ?tag=homenuraen00-21" rel="nofollow sponsored">Dyson TP09 auf Amazon</a></li>
-<li><strong>Dyson Hot+Cool HP09:</strong> Wie TP09 + Heizfunktion bis 37°C + Formaldehyd-Sensor. 699 EUR. <a href="https://www.amazon.fr/dp/B09HZQRBTN?tag=homenuraen00-21" rel="nofollow sponsored">Dyson HP09 auf Amazon</a></li>
-<li><strong>Xiaomi Smart Standing Fan 2 Pro:</strong> 100 Geschwindigkeitsstufen, 28 dB min, WiFi (Mi Home), 22W. 89 EUR. <a href="https://www.amazon.fr/dp/B09QDKLFHP?tag=homenuraen00-21" rel="nofollow sponsored">Xiaomi SF 2 Pro auf Amazon</a></li>
-<li><strong>De'Longhi Capsule Crisp:</strong> Designpreis, WiFi, 38 dB max. 199 EUR. <a href="https://www.amazon.fr/dp/B0B9GLPXVV?tag=homenuraen00-21" rel="nofollow sponsored">De'Longhi Crisp auf Amazon</a></li>
-<li><strong>Stadler Form Peter:</strong> 26 dB Mindestlautstarke (leiseste Gerat), WiFi + Bluetooth. 149 EUR. <a href="https://www.amazon.fr/dp/B09FQ4YNRB?tag=homenuraen00-21" rel="nofollow sponsored">Stadler Form Peter auf Amazon</a></li>
+<li><strong>Dyson Pure Cool TP09:</strong> HEPA H13-Filtration, PM2.5/COV-Sensor, WiFi, 290 L/s, 25 dB Nachtmodus. 599 EUR. <a href="https://www.amazon.fr/dp/B097YL7GWZ?tag=homenuraen05-21" rel="nofollow sponsored">Dyson TP09 auf Amazon</a></li>
+<li><strong>Dyson Hot+Cool HP09:</strong> Wie TP09 + Heizfunktion bis 37°C + Formaldehyd-Sensor. 699 EUR. <a href="https://www.amazon.fr/dp/B09HZQRBTN?tag=homenuraen05-21" rel="nofollow sponsored">Dyson HP09 auf Amazon</a></li>
+<li><strong>Xiaomi Smart Standing Fan 2 Pro:</strong> 100 Geschwindigkeitsstufen, 28 dB min, WiFi (Mi Home), 22W. 89 EUR. <a href="https://www.amazon.fr/dp/B09QDKLFHP?tag=homenuraen05-21" rel="nofollow sponsored">Xiaomi SF 2 Pro auf Amazon</a></li>
+<li><strong>De'Longhi Capsule Crisp:</strong> Designpreis, WiFi, 38 dB max. 199 EUR. <a href="https://www.amazon.fr/dp/B0B9GLPXVV?tag=homenuraen05-21" rel="nofollow sponsored">De'Longhi Crisp auf Amazon</a></li>
+<li><strong>Stadler Form Peter:</strong> 26 dB Mindestlautstarke (leiseste Gerat), WiFi + Bluetooth. 149 EUR. <a href="https://www.amazon.fr/dp/B09FQ4YNRB?tag=homenuraen05-21" rel="nofollow sponsored">Stadler Form Peter auf Amazon</a></li>
 </ul>
 
 <h2>Vollstandige Vergleichstabelle</h2>
@@ -244,11 +244,11 @@ export const article: BlogArticle = {
 
 <h2>Los 5 candidatos en detalle</h2>
 <ul>
-<li><strong>Dyson Pure Cool TP09:</strong> Filtracion HEPA H13, sensor PM2.5/COV, WiFi, 290 L/s, 25 dB modo noche. 599 EUR. <a href="https://www.amazon.fr/dp/B097YL7GWZ?tag=homenuraen0a-21" rel="nofollow sponsored">Dyson TP09 en Amazon</a></li>
-<li><strong>Dyson Hot+Cool HP09:</strong> Como TP09 + calefaccion hasta 37°C + sensor formaldehido. 699 EUR. <a href="https://www.amazon.fr/dp/B09HZQRBTN?tag=homenuraen0a-21" rel="nofollow sponsored">Dyson HP09 en Amazon</a></li>
-<li><strong>Xiaomi Smart Standing Fan 2 Pro:</strong> 100 velocidades, 28 dB min, WiFi, 22W. 89 EUR. <a href="https://www.amazon.fr/dp/B09QDKLFHP?tag=homenuraen0a-21" rel="nofollow sponsored">Xiaomi SF 2 Pro en Amazon</a></li>
-<li><strong>De'Longhi Capsule Crisp:</strong> Diseno premiado, WiFi, 38 dB max. 199 EUR. <a href="https://www.amazon.fr/dp/B0B9GLPXVV?tag=homenuraen0a-21" rel="nofollow sponsored">De'Longhi Crisp en Amazon</a></li>
-<li><strong>Stadler Form Peter:</strong> 26 dB min (el mas silencioso), WiFi + Bluetooth. 149 EUR. <a href="https://www.amazon.fr/dp/B09FQ4YNRB?tag=homenuraen0a-21" rel="nofollow sponsored">Stadler Form Peter en Amazon</a></li>
+<li><strong>Dyson Pure Cool TP09:</strong> Filtracion HEPA H13, sensor PM2.5/COV, WiFi, 290 L/s, 25 dB modo noche. 599 EUR. <a href="https://www.amazon.fr/dp/B097YL7GWZ?tag=homenuraen05-21" rel="nofollow sponsored">Dyson TP09 en Amazon</a></li>
+<li><strong>Dyson Hot+Cool HP09:</strong> Como TP09 + calefaccion hasta 37°C + sensor formaldehido. 699 EUR. <a href="https://www.amazon.fr/dp/B09HZQRBTN?tag=homenuraen05-21" rel="nofollow sponsored">Dyson HP09 en Amazon</a></li>
+<li><strong>Xiaomi Smart Standing Fan 2 Pro:</strong> 100 velocidades, 28 dB min, WiFi, 22W. 89 EUR. <a href="https://www.amazon.fr/dp/B09QDKLFHP?tag=homenuraen05-21" rel="nofollow sponsored">Xiaomi SF 2 Pro en Amazon</a></li>
+<li><strong>De'Longhi Capsule Crisp:</strong> Diseno premiado, WiFi, 38 dB max. 199 EUR. <a href="https://www.amazon.fr/dp/B0B9GLPXVV?tag=homenuraen05-21" rel="nofollow sponsored">De'Longhi Crisp en Amazon</a></li>
+<li><strong>Stadler Form Peter:</strong> 26 dB min (el mas silencioso), WiFi + Bluetooth. 149 EUR. <a href="https://www.amazon.fr/dp/B09FQ4YNRB?tag=homenuraen05-21" rel="nofollow sponsored">Stadler Form Peter en Amazon</a></li>
 </ul>
 
 <h2>Tabla comparativa completa</h2>
@@ -271,11 +271,11 @@ export const article: BlogArticle = {
 
 <h2>I 5 candidati in dettaglio</h2>
 <ul>
-<li><strong>Dyson Pure Cool TP09:</strong> Filtrazione HEPA H13, sensore PM2.5/COV, WiFi, 290 L/s, 25 dB modo notte. 599 EUR. <a href="https://www.amazon.fr/dp/B097YL7GWZ?tag=homenuraen010-21" rel="nofollow sponsored">Dyson TP09 su Amazon</a></li>
-<li><strong>Dyson Hot+Cool HP09:</strong> Come TP09 + riscaldamento fino a 37°C + sensore formaldeide. 699 EUR. <a href="https://www.amazon.fr/dp/B09HZQRBTN?tag=homenuraen010-21" rel="nofollow sponsored">Dyson HP09 su Amazon</a></li>
-<li><strong>Xiaomi Smart Standing Fan 2 Pro:</strong> 100 velocita, 28 dB min, WiFi, 22W. 89 EUR. <a href="https://www.amazon.fr/dp/B09QDKLFHP?tag=homenuraen010-21" rel="nofollow sponsored">Xiaomi SF 2 Pro su Amazon</a></li>
-<li><strong>De'Longhi Capsule Crisp:</strong> Design premiato, WiFi, 38 dB max. 199 EUR. <a href="https://www.amazon.fr/dp/B0B9GLPXVV?tag=homenuraen010-21" rel="nofollow sponsored">De'Longhi Crisp su Amazon</a></li>
-<li><strong>Stadler Form Peter:</strong> 26 dB min (il piu silenzioso), WiFi + Bluetooth. 149 EUR. <a href="https://www.amazon.fr/dp/B09FQ4YNRB?tag=homenuraen010-21" rel="nofollow sponsored">Stadler Form Peter su Amazon</a></li>
+<li><strong>Dyson Pure Cool TP09:</strong> Filtrazione HEPA H13, sensore PM2.5/COV, WiFi, 290 L/s, 25 dB modo notte. 599 EUR. <a href="https://www.amazon.fr/dp/B097YL7GWZ?tag=homenuraen05-21" rel="nofollow sponsored">Dyson TP09 su Amazon</a></li>
+<li><strong>Dyson Hot+Cool HP09:</strong> Come TP09 + riscaldamento fino a 37°C + sensore formaldeide. 699 EUR. <a href="https://www.amazon.fr/dp/B09HZQRBTN?tag=homenuraen05-21" rel="nofollow sponsored">Dyson HP09 su Amazon</a></li>
+<li><strong>Xiaomi Smart Standing Fan 2 Pro:</strong> 100 velocita, 28 dB min, WiFi, 22W. 89 EUR. <a href="https://www.amazon.fr/dp/B09QDKLFHP?tag=homenuraen05-21" rel="nofollow sponsored">Xiaomi SF 2 Pro su Amazon</a></li>
+<li><strong>De'Longhi Capsule Crisp:</strong> Design premiato, WiFi, 38 dB max. 199 EUR. <a href="https://www.amazon.fr/dp/B0B9GLPXVV?tag=homenuraen05-21" rel="nofollow sponsored">De'Longhi Crisp su Amazon</a></li>
+<li><strong>Stadler Form Peter:</strong> 26 dB min (il piu silenzioso), WiFi + Bluetooth. 149 EUR. <a href="https://www.amazon.fr/dp/B09FQ4YNRB?tag=homenuraen05-21" rel="nofollow sponsored">Stadler Form Peter su Amazon</a></li>
 </ul>
 
 <h2>Tabella comparativa completa</h2>
@@ -298,11 +298,11 @@ export const article: BlogArticle = {
 
 <h2>De 5 kandidaten in detail</h2>
 <ul>
-<li><strong>Dyson Pure Cool TP09:</strong> HEPA H13-filtratie, PM2.5/VOS-sensor, WiFi, 290 L/s, 25 dB nachtmodus. €599. <a href="https://www.amazon.fr/dp/B097YL7GWZ?tag=homenuranl-21" rel="nofollow sponsored">Dyson TP09 op Amazon</a></li>
-<li><strong>Dyson Hot+Cool HP09:</strong> Als TP09 + verwarming tot 37°C + formaldehydesensor. €699. <a href="https://www.amazon.fr/dp/B09HZQRBTN?tag=homenuranl-21" rel="nofollow sponsored">Dyson HP09 op Amazon</a></li>
-<tr><td><strong>Xiaomi Smart Standing Fan 2 Pro:</strong> 100 snelheden, 28 dB min, WiFi, 22W. €89. <a href="https://www.amazon.fr/dp/B09QDKLFHP?tag=homenuranl-21" rel="nofollow sponsored">Xiaomi SF 2 Pro op Amazon</a></li>
-<li><strong>De'Longhi Capsule Crisp:</strong> Prijswinnend ontwerp, WiFi, 38 dB max. €199. <a href="https://www.amazon.fr/dp/B0B9GLPXVV?tag=homenuranl-21" rel="nofollow sponsored">De'Longhi Crisp op Amazon</a></li>
-<li><strong>Stadler Form Peter:</strong> 26 dB min (de stilste), WiFi + Bluetooth. €149. <a href="https://www.amazon.fr/dp/B09FQ4YNRB?tag=homenuranl-21" rel="nofollow sponsored">Stadler Form Peter op Amazon</a></li>
+<li><strong>Dyson Pure Cool TP09:</strong> HEPA H13-filtratie, PM2.5/VOS-sensor, WiFi, 290 L/s, 25 dB nachtmodus. €599. <a href="https://www.amazon.fr/dp/B097YL7GWZ?tag=homenuraen05-21" rel="nofollow sponsored">Dyson TP09 op Amazon</a></li>
+<li><strong>Dyson Hot+Cool HP09:</strong> Als TP09 + verwarming tot 37°C + formaldehydesensor. €699. <a href="https://www.amazon.fr/dp/B09HZQRBTN?tag=homenuraen05-21" rel="nofollow sponsored">Dyson HP09 op Amazon</a></li>
+<tr><td><strong>Xiaomi Smart Standing Fan 2 Pro:</strong> 100 snelheden, 28 dB min, WiFi, 22W. €89. <a href="https://www.amazon.fr/dp/B09QDKLFHP?tag=homenuraen05-21" rel="nofollow sponsored">Xiaomi SF 2 Pro op Amazon</a></li>
+<li><strong>De'Longhi Capsule Crisp:</strong> Prijswinnend ontwerp, WiFi, 38 dB max. €199. <a href="https://www.amazon.fr/dp/B0B9GLPXVV?tag=homenuraen05-21" rel="nofollow sponsored">De'Longhi Crisp op Amazon</a></li>
+<li><strong>Stadler Form Peter:</strong> 26 dB min (de stilste), WiFi + Bluetooth. €149. <a href="https://www.amazon.fr/dp/B09FQ4YNRB?tag=homenuraen05-21" rel="nofollow sponsored">Stadler Form Peter op Amazon</a></li>
 </ul>
 
 <h2>Vergelijkingstabel</h2>

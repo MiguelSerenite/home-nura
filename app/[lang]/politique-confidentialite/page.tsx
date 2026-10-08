@@ -3,8 +3,8 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getNonce } from '@/lib/nonce'
 import { buildPageMetadata } from '@/lib/seo'
+import { resolveLang } from '@/lib/i18n'
 
-const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
 interface CookieRow {
   name: string
@@ -437,7 +437,7 @@ const content: Record<string, PrivacyContent> = {
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const c = content[safeLang] || content.fr
   return buildPageMetadata({
     lang: safeLang,
@@ -471,7 +471,7 @@ export default async function PolitiqueConfidentialite({ params }: { params: Pro
         }) }}
       />
       <Navbar currentLang={lang} />
-      <main className="max-w-3xl mx-auto px-6 py-16">
+      <main id="main" className="max-w-3xl mx-auto px-6 py-16">
         <h1 className="text-3xl md:text-4xl font-bold mb-3">{c.title}</h1>
         <p className="text-sm text-slate-500 mb-8">{c.lastUpdated}</p>
 
@@ -532,7 +532,7 @@ export default async function PolitiqueConfidentialite({ params }: { params: Pro
         </section>
 
         <div className="mt-12">
-          <Link href={`/${lang}`} className="text-blue-600 font-bold hover:underline">
+          <Link href={`/${lang}`} className="text-brand-600 font-bold hover:underline">
             &larr; {c.backLink}
           </Link>
         </div>

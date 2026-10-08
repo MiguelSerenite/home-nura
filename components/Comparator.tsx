@@ -181,7 +181,7 @@ export default function Comparator({
                     </h2>
                     <div className="space-y-2.5 text-xs md:text-sm flex-1">
                       <Row label={t.nuraScore}>
-                        <span className="font-bold text-blue-600">{product.nuraScore}/10</span>
+                        <span className="font-bold text-brand-600">{product.nuraScore}/10</span>
                       </Row>
                       <Row label={t.capacity}>
                         <span className="font-semibold text-slate-900">{product.capacity}</span>
@@ -222,7 +222,7 @@ export default function Comparator({
                     <a
                       href={product.url}
                       target="_blank"
-                      rel="nofollow noopener noreferrer"
+                      rel="sponsored nofollow noopener noreferrer"
                       onClick={() =>
                         trackAffiliateClick({
                           asin: product.asin,
@@ -233,7 +233,7 @@ export default function Comparator({
                           lang: currentLang,
                         })
                       }
-                      className="mt-5 block w-full rounded-full bg-blue-600 px-4 py-3 text-center text-xs md:text-sm font-bold text-white hover:bg-blue-700 transition-colors"
+                      className="mt-5 block w-full rounded-full bg-brand-600 px-4 py-3 text-center text-xs md:text-sm font-bold text-white hover:bg-brand-700 transition-colors"
                     >
                       {t.viewOnAmazon}
                     </a>
@@ -244,7 +244,7 @@ export default function Comparator({
                   type="button"
                   onClick={() => setPickerSlot(index)}
                   aria-label={t.pickProduct}
-                  className="flex-1 min-h-[22rem] flex flex-col items-center justify-center gap-4 p-8 text-slate-500 hover:text-blue-600 hover:bg-blue-50/50 transition-colors border-2 border-dashed border-slate-200 hover:border-blue-300 m-3 rounded-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                  className="flex-1 min-h-[22rem] flex flex-col items-center justify-center gap-4 p-8 text-slate-500 hover:text-brand-600 hover:bg-brand-50/50 transition-colors border-2 border-dashed border-slate-200 hover:border-brand-300 m-3 rounded-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2"
                 >
                   <div className="w-14 h-14 rounded-full bg-slate-100 flex items-center justify-center">
                     <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
@@ -282,7 +282,7 @@ export default function Comparator({
                 type="button"
                 onClick={() => setPickerSlot(null)}
                 aria-label={t.close}
-                className="w-8 h-8 flex items-center justify-center rounded-full text-slate-500 hover:bg-slate-100 hover:text-slate-700 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                className="w-8 h-8 flex items-center justify-center rounded-full text-slate-500 hover:bg-slate-100 hover:text-slate-700 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2"
               >
                 <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" aria-hidden="true">
                   <path d="M18 6 6 18M6 6l12 12" />

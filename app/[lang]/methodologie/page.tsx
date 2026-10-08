@@ -27,6 +27,7 @@ import {
 } from '@/lib/seo'
 import { LANGUAGES, isValidLang, type Lang } from '@/lib/i18n'
 import { Kicker, SectionHero, SiteFooter } from '@/components/ui'
+import { ChevronRight } from 'lucide-react'
 
 interface Pillar {
   title: string
@@ -530,12 +531,12 @@ export default async function MethodologiePage({
             <li>
               <Link
                 href={`/${safeLang}`}
-                className="hover:text-blue-600 transition-colors"
+                className="hover:text-brand-600 transition-colors"
               >
                 {c.breadcrumbHome}
               </Link>
             </li>
-            <li aria-hidden="true">/</li>
+            <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
             <li className="text-slate-600 font-medium">{c.breadcrumbCurrent}</li>
           </ol>
         </nav>
@@ -607,7 +608,7 @@ export default async function MethodologiePage({
           <div className="mt-12 text-center">
             <Link
               href={`/${safeLang}${c.ctaHref}`}
-              className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-6 py-3 text-sm font-semibold text-blue-700 hover:bg-blue-100 transition-colors"
+              className="inline-flex items-center gap-2 rounded-full border border-brand-200 bg-brand-50 px-6 py-3 text-sm font-semibold text-brand-700 hover:bg-brand-100 transition-colors"
             >
               <span>{c.ctaLabel}</span>
               <span aria-hidden="true">→</span>

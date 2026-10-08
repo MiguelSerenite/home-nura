@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist } from "next/font/google";
 import { getNonce } from "@/lib/nonce";
 import { WebVitalsReporter } from "@/components/WebVitalsReporter";
 import { LANGUAGES, isValidLang, type Lang } from "@/lib/i18n";
@@ -10,18 +10,21 @@ import "../globals.css";
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#2563eb', // blue-600 — matches the site's primary brand color
+  themeColor: '#6b7230', // brand-600 (olive) — matches the logo
 };
+
+const SKIP_LINK_LABEL: Record<Lang, string> = {
+  fr: 'Aller au contenu',
+  en: 'Skip to content',
+  de: 'Zum Inhalt springen',
+  es: 'Ir al contenido',
+  it: 'Vai al contenuto',
+  nl: 'Naar de inhoud',
+}
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin", "latin-ext"],
-  display: "swap",
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
   display: "swap",
 });
 
@@ -96,6 +99,7 @@ export default async function RootLayout({
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
+    '@id': `${BASE_URL}/#organization`,
     name: 'Home Nura',
     alternateName: 'HomeNura',
     url: BASE_URL,
@@ -153,29 +157,23 @@ export default async function RootLayout({
     ],
   };
 
-  // WebSite schema with SearchAction — enables the Google sitelinks
-  // search box so users can search directly from the SERP.
+  // WebSite schema — site-name entity. No SearchAction: Google retired the
+  // sitelinks search box (Nov 2024) and the site has no search results page.
   const websiteSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
+    '@id': `${BASE_URL}/#website`,
     name: 'Home Nura',
     alternateName: 'HomeNura',
     url: BASE_URL,
-    inLanguage: LANGUAGES.map((l) => l),
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: `${BASE_URL}/${lang}/comparateur?q={search_term_string}`,
-      },
-      'query-input': 'required name=search_term_string',
-    },
+    inLanguage: lang,
+    publisher: { '@id': `${BASE_URL}/#organization` },
   };
 
   return (
     <html
       lang={lang}
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} h-full antialiased`}
     >
       <head>
         <script
@@ -192,6 +190,12 @@ export default async function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col">
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:rounded-full focus:bg-brand-600 focus:px-5 focus:py-2.5 focus:text-sm focus:font-bold focus:text-white"
+        >
+          {SKIP_LINK_LABEL[lang]}
+        </a>
         <WebVitalsReporter />
         {children}
       </body>

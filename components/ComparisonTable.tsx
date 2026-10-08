@@ -1,7 +1,7 @@
 'use client'
 
+import Image from 'next/image'
 import { useState, useMemo } from 'react'
-import GoogleReviewBadge from './GoogleReviewBadge'
 import { trackAffiliateClick } from '@/lib/analytics'
 
 interface ComparisonProduct {
@@ -62,14 +62,14 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
 
   const getScoreColor = (score: number) => {
     if (score >= 9) return 'bg-emerald-500'
-    if (score >= 8) return 'bg-blue-500'
+    if (score >= 8) return 'bg-brand-500'
     if (score >= 7) return 'bg-amber-500'
     return 'bg-slate-400'
   }
 
   const getScoreBg = (score: number) => {
     if (score >= 9) return 'bg-emerald-50 border-emerald-200'
-    if (score >= 8) return 'bg-blue-50 border-blue-200'
+    if (score >= 8) return 'bg-brand-50 border-brand-200'
     if (score >= 7) return 'bg-amber-50 border-amber-200'
     return 'bg-slate-50 border-slate-200'
   }
@@ -94,9 +94,9 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
               key={opt.key}
               onClick={() => setSortBy(opt.key)}
               aria-pressed={sortBy === opt.key}
-              className={`px-3 py-1.5 text-xs font-bold rounded-full transition duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 ${
+              className={`px-3 py-1.5 text-xs font-bold rounded-full transition duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 ${
                 sortBy === opt.key
-                  ? 'bg-blue-600 text-white'
+                  ? 'bg-brand-600 text-white'
                   : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
               }`}
             >
@@ -132,15 +132,11 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                 </td>
                 <td className="px-6 py-5">
                   <div className="flex items-center gap-4">
-                    <div className="w-16 h-16 rounded-xl bg-slate-100 overflow-hidden shrink-0">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={p.image} alt={p.name} className="w-full h-full object-contain p-2" />
+                    <div className="relative w-16 h-16 rounded-xl bg-slate-100 overflow-hidden shrink-0">
+                      <Image src={p.image} alt="" fill sizes="64px" className="object-contain p-2" />
                     </div>
                     <div>
                       <h3 className="font-bold text-slate-900 text-sm leading-tight">{p.name}</h3>
-                      <div className="mt-1">
-                        <GoogleReviewBadge asin={p.asin} lang={lang} size="sm" />
-                      </div>
                       {p.badge && (
                         <span className="inline-block mt-1 px-2 py-0.5 text-[10px] font-bold bg-amber-100 text-amber-700 rounded-full">
                           {p.badge}
@@ -157,7 +153,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                 </td>
                 <td className="px-6 py-5 text-sm font-medium text-slate-600">{p.capacity}</td>
                 <td className="px-6 py-5">
-                  <span className="text-xs font-bold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-full">{p.bestFor}</span>
+                  <span className="text-xs font-bold text-brand-600 bg-brand-50 px-2.5 py-1 rounded-full">{p.bestFor}</span>
                 </td>
                 <td className="px-6 py-5">
                   <span className="text-lg font-black text-slate-900">{p.price}</span>
@@ -166,7 +162,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                   <a
                     href={p.url}
                     target="_blank"
-                    rel="nofollow noopener noreferrer"
+                    rel="sponsored nofollow noopener noreferrer"
                     onClick={() =>
                       trackAffiliateClick({
                         asin: p.asin,
@@ -177,7 +173,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                         lang,
                       })
                     }
-                    className="inline-flex px-5 py-2 bg-blue-600 text-white text-xs font-bold rounded-full hover:bg-blue-700 transition-colors"
+                    className="inline-flex px-5 py-2 bg-brand-600 text-white text-xs font-bold rounded-full hover:bg-brand-700 transition-colors"
                   >
                     {dict.buy_button}
                   </a>
@@ -195,21 +191,17 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
             <div className="p-5">
               <div className="flex items-start gap-4">
                 <span className="text-2xl font-black text-slate-200">#{i + 1}</span>
-                <div className="w-16 h-16 rounded-xl bg-slate-100 overflow-hidden shrink-0">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={p.image} alt={p.name} className="w-full h-full object-contain p-2" />
+                <div className="relative w-16 h-16 rounded-xl bg-slate-100 overflow-hidden shrink-0">
+                  <Image src={p.image} alt="" fill sizes="64px" className="object-contain p-2" />
                 </div>
                 <div className="flex-1 min-w-0">
                   <h3 className="font-bold text-slate-900 text-sm leading-tight">{p.name}</h3>
-                  <div className="mt-1.5">
-                    <GoogleReviewBadge asin={p.asin} lang={lang} size="sm" />
-                  </div>
                   <div className="flex items-center gap-2 mt-2">
                     <div className={`inline-flex items-center gap-1 px-2 py-1 rounded-full border text-xs ${getScoreBg(p.nuraScore)}`}>
                       <div className={`w-2 h-2 rounded-full ${getScoreColor(p.nuraScore)}`} />
                       <span className="font-black">{p.nuraScore}/10</span>
                     </div>
-                    <span className="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded-full">{p.bestFor}</span>
+                    <span className="text-xs font-bold text-brand-600 bg-brand-50 px-2 py-1 rounded-full">{p.bestFor}</span>
                   </div>
                 </div>
               </div>
@@ -221,7 +213,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                 <a
                   href={p.url}
                   target="_blank"
-                  rel="nofollow noopener noreferrer"
+                  rel="sponsored nofollow noopener noreferrer"
                   onClick={() =>
                     trackAffiliateClick({
                       asin: p.asin,
@@ -232,7 +224,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                       lang,
                     })
                   }
-                  className="px-5 py-2.5 bg-blue-600 text-white text-xs font-bold rounded-full hover:bg-blue-700 transition-colors"
+                  className="px-5 py-2.5 bg-brand-600 text-white text-xs font-bold rounded-full hover:bg-brand-700 transition-colors"
                 >
                   {dict.buy_button}
                 </a>
@@ -244,7 +236,7 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
               onClick={() => setExpandedRow(expandedRow === i ? null : i)}
               aria-expanded={expandedRow === i}
               aria-controls={`comparison-details-${i}`}
-              className="w-full px-5 py-3 text-xs font-bold text-blue-600 bg-slate-50 hover:bg-slate-100 transition-colors border-t border-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-inset"
+              className="w-full px-5 py-3 text-xs font-bold text-brand-600 bg-slate-50 hover:bg-slate-100 transition-colors border-t border-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-inset"
             >
               {expandedRow === i ? dict.hide_details : dict.show_details}
             </button>

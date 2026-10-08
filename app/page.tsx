@@ -1,6 +1,8 @@
 import { permanentRedirect } from "next/navigation";
 
 export default function RootPage() {
-  // 308 permanent redirect → Google treats /fr as canonical, not the root URL
+  // Safety net only: proxy.ts answers `/` with a language-negotiated
+  // 302 before this page renders. Reached only if the middleware matcher
+  // stops covering `/`.
   permanentRedirect("/fr");
 }

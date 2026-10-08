@@ -6,8 +6,9 @@ import { buildPageMetadata } from '@/lib/seo'
 import { getStaticProducts } from '@/lib/products'
 import Comparator from '@/components/Comparator'
 import { SectionHero, SiteFooter } from '@/components/ui'
+import { resolveLang } from '@/lib/i18n'
+import { ChevronRight } from 'lucide-react'
 
-const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
 const pageContent: Record<string, { title: string; subtitle: string; intro: string; kicker: string; breadcrumb: string }> = {
   fr: {
@@ -56,7 +57,7 @@ const pageContent: Record<string, { title: string; subtitle: string; intro: stri
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
   return buildPageMetadata({
     lang: safeLang,
@@ -68,7 +69,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 
 export default async function ComparateurPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
   const nonce = await getNonce()
 
@@ -111,11 +112,11 @@ export default async function ComparateurPage({ params }: { params: Promise<{ la
       <nav className="max-w-6xl mx-auto px-6 pt-10 text-xs text-slate-500" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2">
           <li>
-            <Link href={`/${safeLang}`} className="hover:text-blue-600 transition-colors">
+            <Link href={`/${safeLang}`} className="hover:text-brand-600 transition-colors">
               Home
             </Link>
           </li>
-          <li aria-hidden="true">/</li>
+          <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
           <li className="text-slate-600 font-medium">{c.breadcrumb}</li>
         </ol>
       </nav>
@@ -137,12 +138,6 @@ export default async function ComparateurPage({ params }: { params: Promise<{ la
       {/* Footer */}
       <SiteFooter
         currentLang={safeLang}
-        links={[
-          { href: `/${safeLang}`, label: 'Home' },
-          { href: `/${safeLang}/guides/airfryers`, label: 'Guide' },
-          { href: `/${safeLang}/blog`, label: 'Blog' },
-          { href: `/${safeLang}/a-propos`, label: 'About' },
-        ]}
       />
     </div>
   )

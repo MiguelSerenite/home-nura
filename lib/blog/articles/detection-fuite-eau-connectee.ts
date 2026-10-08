@@ -149,14 +149,14 @@ export const article: BlogArticle = {
 
 <h2>Types of detectors: from basic to ultra-smart</h2>
 <h3>Level 1: simple water presence sensors</h3>
-<p>These small floor sensors detect water contact via two electrodes and trigger a sound alarm plus smartphone notification. Best-value option: <strong>Aqara Water Sensor E1</strong> — Zigbee 3.0, 2-year battery, 80 dB alert, native Home Assistant integration. Price: €19. <a href="https://www.amazon.fr/dp/B09MFPQ3Y8?tag=homenuraen-21" rel="nofollow sponsored">Aqara Water Sensor on Amazon</a></p>
-<p>Also excellent: <strong>Govee H5054</strong> — very flat format, direct WiFi without hub, 3-year battery. 4 sensors for €50. <a href="https://www.amazon.fr/dp/B09QDRNVQX?tag=homenuraen-21" rel="nofollow sponsored">Govee H5054 on Amazon</a></p>
+<p>These small floor sensors detect water contact via two electrodes and trigger a sound alarm plus smartphone notification. Best-value option: <strong>Aqara Water Sensor E1</strong> — Zigbee 3.0, 2-year battery, 80 dB alert, native Home Assistant integration. Price: €19. <a href="https://www.amazon.fr/dp/B09MFPQ3Y8?tag=homenuraen05-21" rel="nofollow sponsored">Aqara Water Sensor on Amazon</a></p>
+<p>Also excellent: <strong>Govee H5054</strong> — very flat format, direct WiFi without hub, 3-year battery. 4 sensors for €50. <a href="https://www.amazon.fr/dp/B09QDRNVQX?tag=homenuraen05-21" rel="nofollow sponsored">Govee H5054 on Amazon</a></p>
 
 <h3>Level 2: intelligent flow meters with automatic shut-off</h3>
 <p>These devices install on the main water supply pipe and analyse water flow in real time. They detect anomalies and can automatically cut the water supply.</p>
 <ul>
-<li><strong>Grohe Sense Guard:</strong> European premium standard. Detects macro-leaks (auto shut-off in &lt;60s), micro-leaks, abnormal pressure. Compatible Google Home, Alexa. Price: €450-550. <a href="https://www.amazon.fr/dp/B07N2X3LZV?tag=homenuraen-21" rel="nofollow sponsored">Grohe Sense Guard on Amazon</a></li>
-<li><strong>Phyn Plus:</strong> AI-powered, learns household consumption patterns, identifies each tap, detects pipe freezing. Price: €699. <a href="https://www.amazon.fr/dp/B07GLNBWMD?tag=homenuraen-21" rel="nofollow sponsored">Phyn Plus on Amazon</a></li>
+<li><strong>Grohe Sense Guard:</strong> European premium standard. Detects macro-leaks (auto shut-off in &lt;60s), micro-leaks, abnormal pressure. Compatible Google Home, Alexa. Price: €450-550. <a href="https://www.amazon.fr/dp/B07N2X3LZV?tag=homenuraen05-21" rel="nofollow sponsored">Grohe Sense Guard on Amazon</a></li>
+<li><strong>Phyn Plus:</strong> AI-powered, learns household consumption patterns, identifies each tap, detects pipe freezing. Price: €699. <a href="https://www.amazon.fr/dp/B07GLNBWMD?tag=homenuraen05-21" rel="nofollow sponsored">Phyn Plus on Amazon</a></li>
 </ul>
 
 <h2>Comparison table 2026</h2>
@@ -186,11 +186,11 @@ export const article: BlogArticle = {
 
 <h2>Detektortypen: von einfach bis hochintelligent</h2>
 <h3>Einfache Wassersensoren</h3>
-<p><strong>Aqara Water Sensor E1:</strong> Zigbee 3.0, 2-Jahres-Batterie, 80 dB-Alarm, native Home-Assistant-Integration. Preis: 19 EUR. <a href="https://www.amazon.fr/dp/B09MFPQ3Y8?tag=homenuraen00-21" rel="nofollow sponsored">Aqara Water Sensor auf Amazon</a></p>
-<p><strong>Govee H5054:</strong> Sehr flaches Format, direktes WLAN ohne Hub, 3-Jahres-Batterie. 4 Sensoren fur 50 EUR. <a href="https://www.amazon.fr/dp/B09QDRNVQX?tag=homenuraen00-21" rel="nofollow sponsored">Govee H5054 auf Amazon</a></p>
+<p><strong>Aqara Water Sensor E1:</strong> Zigbee 3.0, 2-Jahres-Batterie, 80 dB-Alarm, native Home-Assistant-Integration. Preis: 19 EUR. <a href="https://www.amazon.fr/dp/B09MFPQ3Y8?tag=homenuraen05-21" rel="nofollow sponsored">Aqara Water Sensor auf Amazon</a></p>
+<p><strong>Govee H5054:</strong> Sehr flaches Format, direktes WLAN ohne Hub, 3-Jahres-Batterie. 4 Sensoren fur 50 EUR. <a href="https://www.amazon.fr/dp/B09QDRNVQX?tag=homenuraen05-21" rel="nofollow sponsored">Govee H5054 auf Amazon</a></p>
 
 <h3>Intelligente Durchflussmesser mit automatischer Absperrung</h3>
-<p><strong>Grohe Sense Guard:</strong> Europaischer Premium-Standard. Erkennt Makro-Undichtigkeiten (automatische Absperrung in &lt;60s), Mikro-Undichtigkeiten, abnormalen Druck. Kompatibel mit Google Home, Alexa. Preis: 450-550 EUR. <a href="https://www.amazon.fr/dp/B07N2X3LZV?tag=homenuraen00-21" rel="nofollow sponsored">Grohe Sense Guard auf Amazon</a></p>
+<p><strong>Grohe Sense Guard:</strong> Europaischer Premium-Standard. Erkennt Makro-Undichtigkeiten (automatische Absperrung in &lt;60s), Mikro-Undichtigkeiten, abnormalen Druck. Kompatibel mit Google Home, Alexa. Preis: 450-550 EUR. <a href="https://www.amazon.fr/dp/B07N2X3LZV?tag=homenuraen05-21" rel="nofollow sponsored">Grohe Sense Guard auf Amazon</a></p>
 <p><strong>Phyn Plus:</strong> KI-gestutzt, lernt haushaltstypische Verbrauchsmuster, identifiziert jeden Wasserhahn. Preis: 699 EUR.</p>
 
 <h2>Strategische Sensorplatzierung</h2>
@@ -206,11 +206,11 @@ export const article: BlogArticle = {
 
 <h2>Tipos de detectores</h2>
 <h3>Sensores simples de presencia de agua</h3>
-<p><strong>Aqara Water Sensor E1:</strong> Zigbee 3.0, bateria 2 años, alarma 80 dB, integracion nativa Home Assistant. Precio: 19 EUR. <a href="https://www.amazon.fr/dp/B09MFPQ3Y8?tag=homenuraen0a-21" rel="nofollow sponsored">Aqara Water Sensor en Amazon</a></p>
-<p><strong>Govee H5054:</strong> Formato muy plano, WiFi directo sin hub, bateria 3 años. 4 sensores por 50 EUR. <a href="https://www.amazon.fr/dp/B09QDRNVQX?tag=homenuraen0a-21" rel="nofollow sponsored">Govee H5054 en Amazon</a></p>
+<p><strong>Aqara Water Sensor E1:</strong> Zigbee 3.0, bateria 2 años, alarma 80 dB, integracion nativa Home Assistant. Precio: 19 EUR. <a href="https://www.amazon.fr/dp/B09MFPQ3Y8?tag=homenuraen05-21" rel="nofollow sponsored">Aqara Water Sensor en Amazon</a></p>
+<p><strong>Govee H5054:</strong> Formato muy plano, WiFi directo sin hub, bateria 3 años. 4 sensores por 50 EUR. <a href="https://www.amazon.fr/dp/B09QDRNVQX?tag=homenuraen05-21" rel="nofollow sponsored">Govee H5054 en Amazon</a></p>
 
 <h3>Caudalimetros inteligentes con corte automatico</h3>
-<p><strong>Grohe Sense Guard:</strong> Estandar europeo premium. Detecta macro-fugas (corte automatico en &lt;60s), micro-fugas, presion anormal. Compatible con Google Home, Alexa. Precio: 450-550 EUR. <a href="https://www.amazon.fr/dp/B07N2X3LZV?tag=homenuraen0a-21" rel="nofollow sponsored">Grohe Sense Guard en Amazon</a></p>
+<p><strong>Grohe Sense Guard:</strong> Estandar europeo premium. Detecta macro-fugas (corte automatico en &lt;60s), micro-fugas, presion anormal. Compatible con Google Home, Alexa. Precio: 450-550 EUR. <a href="https://www.amazon.fr/dp/B07N2X3LZV?tag=homenuraen05-21" rel="nofollow sponsored">Grohe Sense Guard en Amazon</a></p>
 <p><strong>Phyn Plus:</strong> IA, aprende patrones de consumo del hogar, identifica cada grifo. Precio: 699 EUR.</p>
 
 <h2>Tabla comparativa 2026</h2>
@@ -232,11 +232,11 @@ export const article: BlogArticle = {
 
 <h2>Tipi di rilevatori</h2>
 <h3>Sensori semplici di presenza d'acqua</h3>
-<p><strong>Aqara Water Sensor E1:</strong> Zigbee 3.0, batteria 2 anni, allarme 80 dB, integrazione nativa Home Assistant. Prezzo: 19 EUR. <a href="https://www.amazon.fr/dp/B09MFPQ3Y8?tag=homenuraen010-21" rel="nofollow sponsored">Aqara Water Sensor su Amazon</a></p>
-<p><strong>Govee H5054:</strong> Formato molto piatto, WiFi diretto senza hub, batteria 3 anni. 4 sensori per 50 EUR. <a href="https://www.amazon.fr/dp/B09QDRNVQX?tag=homenuraen010-21" rel="nofollow sponsored">Govee H5054 su Amazon</a></p>
+<p><strong>Aqara Water Sensor E1:</strong> Zigbee 3.0, batteria 2 anni, allarme 80 dB, integrazione nativa Home Assistant. Prezzo: 19 EUR. <a href="https://www.amazon.fr/dp/B09MFPQ3Y8?tag=homenuraen05-21" rel="nofollow sponsored">Aqara Water Sensor su Amazon</a></p>
+<p><strong>Govee H5054:</strong> Formato molto piatto, WiFi diretto senza hub, batteria 3 anni. 4 sensori per 50 EUR. <a href="https://www.amazon.fr/dp/B09QDRNVQX?tag=homenuraen05-21" rel="nofollow sponsored">Govee H5054 su Amazon</a></p>
 
 <h3>Misuratori di portata intelligenti con chiusura automatica</h3>
-<p><strong>Grohe Sense Guard:</strong> Standard europeo premium. Rileva macro-perdite (chiusura automatica in &lt;60s), micro-perdite, pressione anomala. Compatibile con Google Home, Alexa. Prezzo: 450-550 EUR. <a href="https://www.amazon.fr/dp/B07N2X3LZV?tag=homenuraen010-21" rel="nofollow sponsored">Grohe Sense Guard su Amazon</a></p>
+<p><strong>Grohe Sense Guard:</strong> Standard europeo premium. Rileva macro-perdite (chiusura automatica in &lt;60s), micro-perdite, pressione anomala. Compatibile con Google Home, Alexa. Prezzo: 450-550 EUR. <a href="https://www.amazon.fr/dp/B07N2X3LZV?tag=homenuraen05-21" rel="nofollow sponsored">Grohe Sense Guard su Amazon</a></p>
 <p><strong>Phyn Plus:</strong> IA, impara i pattern di consumo del nucleo familiare, identifica ogni rubinetto. Prezzo: 699 EUR.</p>
 
 <h2>Impatto sull'assicurazione</h2>
@@ -247,11 +247,11 @@ export const article: BlogArticle = {
 
 <h2>Soorten detectoren</h2>
 <h3>Eenvoudige wateraanwezigheidssensoren</h3>
-<p><strong>Aqara Water Sensor E1:</strong> Zigbee 3.0, 2-jaar batterij, 80 dB alarm, native Home Assistant integratie. Prijs: €19. <a href="https://www.amazon.fr/dp/B09MFPQ3Y8?tag=homenuranl-21" rel="nofollow sponsored">Aqara Water Sensor op Amazon</a></p>
-<p><strong>Govee H5054:</strong> Zeer plat formaat, directe WiFi zonder hub, 3-jaar batterij. 4 sensoren voor €50. <a href="https://www.amazon.fr/dp/B09QDRNVQX?tag=homenuranl-21" rel="nofollow sponsored">Govee H5054 op Amazon</a></p>
+<p><strong>Aqara Water Sensor E1:</strong> Zigbee 3.0, 2-jaar batterij, 80 dB alarm, native Home Assistant integratie. Prijs: €19. <a href="https://www.amazon.fr/dp/B09MFPQ3Y8?tag=homenuraen05-21" rel="nofollow sponsored">Aqara Water Sensor op Amazon</a></p>
+<p><strong>Govee H5054:</strong> Zeer plat formaat, directe WiFi zonder hub, 3-jaar batterij. 4 sensoren voor €50. <a href="https://www.amazon.fr/dp/B09QDRNVQX?tag=homenuraen05-21" rel="nofollow sponsored">Govee H5054 op Amazon</a></p>
 
 <h3>Intelligente debietmeters met automatische afsluiting</h3>
-<p><strong>Grohe Sense Guard:</strong> Europees premium standaard. Detecteert macro-lekken (automatische afsluiting in &lt;60s), micro-lekken, abnormale druk. Compatibel met Google Home, Alexa. Prijs: €450-550. <a href="https://www.amazon.fr/dp/B07N2X3LZV?tag=homenuranl-21" rel="nofollow sponsored">Grohe Sense Guard op Amazon</a></p>
+<p><strong>Grohe Sense Guard:</strong> Europees premium standaard. Detecteert macro-lekken (automatische afsluiting in &lt;60s), micro-lekken, abnormale druk. Compatibel met Google Home, Alexa. Prijs: €450-550. <a href="https://www.amazon.fr/dp/B07N2X3LZV?tag=homenuraen05-21" rel="nofollow sponsored">Grohe Sense Guard op Amazon</a></p>
 
 <h2>Strategische sensorplaatsing</h2>
 <p>Prioriteitsvolgorde: (1) onder de wasmachine, (2) onder de vaatwasser, (3) onder de keukenwastafel, (4) naast de boiler, (5) onder wastafel/douche, (6) onder het toiletreservoir. Budget voor een 3-kamer appartement: 6-8 Aqara-sensoren = €115-150.</p>

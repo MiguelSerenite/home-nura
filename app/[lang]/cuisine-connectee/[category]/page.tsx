@@ -18,8 +18,9 @@ import {
 } from '@/lib/smart-kitchen-products'
 import { getSmartKitchenFaqs, faqSectionTitles } from '@/lib/smart-kitchen-faqs'
 import { SectionHero, SiteFooter } from '@/components/ui'
+import { resolveLang, LANGUAGES } from '@/lib/i18n'
+import { ChevronRight } from 'lucide-react'
 
-const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
 interface CategoryContent {
   kicker: string
@@ -326,7 +327,7 @@ const bestForUiStrings: Record<string, { title: string; prefix: string; subtitle
 
 export function generateStaticParams() {
   return SMART_KITCHEN_CATEGORIES.flatMap((category) =>
-    SUPPORTED_LANGS.map((lang) => ({ lang, category }))
+    LANGUAGES.map((lang) => ({ lang, category }))
   )
 }
 
@@ -336,7 +337,7 @@ export async function generateMetadata({
   params: Promise<{ lang: string; category: string }>
 }): Promise<Metadata> {
   const { lang, category } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   if (!(SMART_KITCHEN_CATEGORIES as readonly string[]).includes(category)) {
     return {}
   }
@@ -356,9 +357,7 @@ export default async function CategoryPage({
   params: Promise<{ lang: string; category: string }>
 }) {
   const { lang, category } = await params
-  const safeLang: Lang = (SUPPORTED_LANGS as readonly string[]).includes(lang)
-    ? (lang as Lang)
-    : 'fr'
+  const safeLang: Lang = resolveLang(lang)
   if (!(SMART_KITCHEN_CATEGORIES as readonly string[]).includes(category)) {
     notFound()
   }
@@ -450,17 +449,17 @@ export default async function CategoryPage({
       <nav className="max-w-6xl mx-auto px-6 pt-10 text-xs text-slate-500" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2 flex-wrap">
           <li>
-            <Link href={`/${safeLang}`} className="hover:text-blue-600 transition-colors">
+            <Link href={`/${safeLang}`} className="hover:text-brand-600 transition-colors">
               Home
             </Link>
           </li>
-          <li aria-hidden="true">/</li>
+          <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
           <li>
-            <Link href={`/${safeLang}/cuisine-connectee`} className="hover:text-blue-600 transition-colors">
+            <Link href={`/${safeLang}/cuisine-connectee`} className="hover:text-brand-600 transition-colors">
               {c.breadcrumbRoot}
             </Link>
           </li>
-          <li aria-hidden="true">/</li>
+          <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
           <li className="text-slate-600 font-medium">{c.kicker}</li>
         </ol>
       </nav>
@@ -512,12 +511,12 @@ export default async function CategoryPage({
               <li key={persona.slug}>
                 <Link
                   href={`/${safeLang}/cuisine-connectee/${safeCat}/meilleur-pour/${persona.slug}`}
-                  className="group flex flex-col rounded-2xl border border-slate-200 bg-white px-5 py-4 transition duration-200 hover:border-blue-200 hover:shadow-sm"
+                  className="group flex flex-col rounded-2xl border border-slate-200 bg-white px-5 py-4 transition duration-200 hover:border-brand-200 hover:shadow-sm"
                 >
-                  <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-blue-600 mb-1">
+                  <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-brand-600 mb-1">
                     {bestForUi.prefix} {c.kicker.toLowerCase()}
                   </span>
-                  <span className="text-base font-semibold text-slate-900 group-hover:text-blue-700 transition-colors">
+                  <span className="text-base font-semibold text-slate-900 group-hover:text-brand-700 transition-colors">
                     {persona.label[safeLang]}
                   </span>
                 </Link>
@@ -534,13 +533,6 @@ export default async function CategoryPage({
       {/* Footer */}
       <SiteFooter
         currentLang={safeLang}
-        links={[
-          { href: `/${safeLang}`, label: 'Home' },
-          { href: `/${safeLang}/cuisine-connectee`, label: c.breadcrumbRoot },
-          { href: `/${safeLang}/cuisine-connectee/comparateur`, label: 'Comparator' },
-          { href: `/${safeLang}/blog`, label: 'Blog' },
-          { href: `/${safeLang}/a-propos`, label: 'About' },
-        ]}
       />
     </div>
   )

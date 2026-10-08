@@ -24,7 +24,7 @@ interface AffiliateLinkProps {
  * Next.js will hydrate just this subtree on the client while the rest
  * of the parent (including async JSON-LD) stays on the server.
  *
- * Always renders `target="_blank" rel="nofollow noopener noreferrer"`
+ * Always renders `target="_blank" rel="sponsored nofollow noopener noreferrer"`
  * so Amazon affiliate compliance and security are baked in — callers
  * just pass the href, tracking metadata, and presentation classes.
  */
@@ -44,7 +44,7 @@ export default function AffiliateLink({
     <a
       href={href}
       target="_blank"
-      rel="nofollow noopener noreferrer"
+      rel="sponsored nofollow noopener noreferrer"
       aria-label={ariaLabel}
       onClick={() =>
         trackAffiliateClick({

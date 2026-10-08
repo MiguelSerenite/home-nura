@@ -5,14 +5,15 @@ import { getNonce } from '@/lib/nonce'
 import { buildPageMetadata } from '@/lib/seo'
 import SmartKitchenQuiz from '@/components/SmartKitchenQuiz'
 import { SectionHero, SiteFooter } from '@/components/ui'
+import { resolveLang } from '@/lib/i18n'
 import {
   SMART_KITCHEN_CATEGORIES,
   getSmartKitchenProductsByCategory,
   type SmartKitchenCategory,
   type SmartKitchenProduct,
 } from '@/lib/smart-kitchen-products'
+import { ChevronRight } from 'lucide-react'
 
-const SUPPORTED_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 
 interface QuizPageContent {
   kicker: string
@@ -76,7 +77,7 @@ const pageContent: Record<string, QuizPageContent> = {
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
   return buildPageMetadata({
     lang: safeLang,
@@ -88,7 +89,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 
 export default async function SmartKitchenQuizPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
-  const safeLang = (SUPPORTED_LANGS as readonly string[]).includes(lang) ? lang : 'fr'
+  const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
   const nonce = await getNonce()
 
@@ -123,13 +124,13 @@ export default async function SmartKitchenQuizPage({ params }: { params: Promise
       <nav className="max-w-4xl mx-auto px-6 pt-10 text-xs text-slate-500" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2 flex-wrap">
           <li>
-            <Link href={`/${safeLang}`} className="hover:text-blue-600 transition-colors">Home</Link>
+            <Link href={`/${safeLang}`} className="hover:text-brand-600 transition-colors">Home</Link>
           </li>
-          <li aria-hidden="true">/</li>
+          <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
           <li>
-            <Link href={`/${safeLang}/cuisine-connectee`} className="hover:text-blue-600 transition-colors">{c.breadcrumbRoot}</Link>
+            <Link href={`/${safeLang}/cuisine-connectee`} className="hover:text-brand-600 transition-colors">{c.breadcrumbRoot}</Link>
           </li>
-          <li aria-hidden="true">/</li>
+          <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
           <li className="text-slate-600 font-medium">{c.breadcrumb}</li>
         </ol>
       </nav>
@@ -153,12 +154,6 @@ export default async function SmartKitchenQuizPage({ params }: { params: Promise
       {/* Footer */}
       <SiteFooter
         currentLang={safeLang}
-        links={[
-          { href: `/${safeLang}`, label: 'Home' },
-          { href: `/${safeLang}/cuisine-connectee`, label: c.breadcrumbRoot },
-          { href: `/${safeLang}/guides/cuisine-connectee`, label: 'Guide' },
-          { href: `/${safeLang}/blog`, label: 'Blog' },
-        ]}
       />
     </div>
   )
