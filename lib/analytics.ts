@@ -16,6 +16,8 @@
  * first, then use the constant at the call site — never typed strings.
  */
 
+import { track as trackVercel } from '@vercel/analytics'
+
 export const EVENTS = {
   CLICK_AFFILIATE: 'click_affiliate',
   NEWSLETTER_SUBMIT: 'newsletter_submit',
@@ -67,6 +69,14 @@ export function trackEvent(event: EventName, props: EventProps = {}): void {
     window.dataLayer.push({ event, ...cleanProps })
   }
 
+  // Vercel Web Analytics (cookieless, same-origin script). Custom events
+  // are only recorded on Vercel Pro; on Hobby the call is a harmless no-op.
+  try {
+    trackVercel(event, cleanProps as Record<string, string | number | boolean>)
+  } catch {
+    // Blocked by an extension or not loaded yet: never block the click.
+  }
+
   // Plausible — optional. Signature is plausible('EventName', { props }).
   if (typeof window.plausible === 'function') {
     try {
@@ -91,7 +101,7 @@ export function trackAffiliateClick(input: {
   productName: string
   priceNumeric?: number
   position?: number
-  location: 'comparison_table' | 'article_inline' | 'article_bottom' | 'comparator' | 'product_card' | 'smart_kitchen'
+  location: 'comparison_table' | 'article_inline' | 'article_bottom' | 'article_sticky' | 'comparator' | 'product_card' | 'smart_kitchen'
   lang: string
 }): void {
   trackEvent(EVENTS.CLICK_AFFILIATE, {

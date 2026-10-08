@@ -5,7 +5,10 @@ import CookieBanner from '@/components/CookieBanner'
 import ArticleProductCTA from '@/components/ArticleProductCTA'
 import { getDictionary } from '../../dictionaries'
 import { getArticleBySlug, getRelatedArticles, getAllArticles } from '@/lib/blog'
-import { getStaticProducts } from '@/lib/products'
+import { getArticleProducts } from '@/lib/blog/article-products'
+import { splitBeforeNthH2 } from '@/lib/blog/split-content'
+import { getMetaSilo } from '@/lib/catalog'
+import ArticleStickyBuyBar from '@/components/ArticleStickyBuyBar'
 import { enrichContentWithCTAs } from '@/lib/blog/enrichContent'
 import { CATEGORIES, type FAQItem } from '@/lib/blog/types'
 import { notFound } from 'next/navigation'
@@ -17,6 +20,26 @@ import { BLOG_SEO_META } from '@/lib/blog/seo-meta'
 import { ChevronRight } from 'lucide-react'
 
 const BASE_URL = 'https://homenura.com'
+
+const PROSE_CLASSES = `prose prose-lg prose-slate max-w-none
+            prose-headings:font-bold prose-headings:tracking-tight
+            prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4 prose-h2:text-slate-900
+            prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-h3:text-slate-800
+            prose-p:text-slate-600 prose-p:leading-relaxed prose-p:mb-4
+            prose-li:text-slate-600
+            prose-strong:text-slate-900
+            prose-a:text-brand-600 prose-a:font-semibold prose-a:no-underline hover:prose-a:underline
+            prose-img:rounded-xl prose-img:shadow-md
+            [&_.blog-table-wrap]:my-6 [&_.blog-table-wrap]:-mx-4 md:[&_.blog-table-wrap]:mx-0 [&_.blog-table-wrap]:overflow-x-auto [&_.blog-table-wrap]:rounded-xl md:[&_.blog-table-wrap]:border md:[&_.blog-table-wrap]:border-slate-200 md:[&_.blog-table-wrap]:bg-white md:[&_.blog-table-wrap]:shadow-sm
+            [&_.blog-table-wrap]:px-4 md:[&_.blog-table-wrap]:px-0
+            [&_.blog-table-wrap_table]:min-w-[560px] [&_.blog-table-wrap_table]:w-full [&_.blog-table-wrap_table]:border-collapse [&_.blog-table-wrap_table]:text-sm
+            [&_.blog-table-wrap_thead]:bg-slate-50
+            [&_.blog-table-wrap_th]:p-3 [&_.blog-table-wrap_th]:text-left [&_.blog-table-wrap_th]:font-bold [&_.blog-table-wrap_th]:text-slate-900 [&_.blog-table-wrap_th]:text-xs [&_.blog-table-wrap_th]:uppercase [&_.blog-table-wrap_th]:tracking-wider [&_.blog-table-wrap_th]:border-b-2 [&_.blog-table-wrap_th]:border-slate-200 [&_.blog-table-wrap_th]:whitespace-nowrap
+            [&_.blog-table-wrap_td]:p-3 [&_.blog-table-wrap_td]:align-top [&_.blog-table-wrap_td]:border-b [&_.blog-table-wrap_td]:border-slate-100 [&_.blog-table-wrap_td]:text-slate-700
+            [&_.blog-table-wrap_tr:last-child_td]:border-b-0
+            [&_.blog-table-wrap_tbody_tr]:transition-colors hover:[&_.blog-table-wrap_tbody_tr]:bg-slate-50/60
+            [&_img]:max-w-full [&_img]:h-auto
+            [&_pre]:overflow-x-auto [&_pre]:max-w-full`
 
 export async function generateStaticParams() {
   // Only locales the article is actually translated into.
@@ -68,10 +91,11 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
 
   const dict = await getDictionary(lang)
   const related = getRelatedArticles(article)
-  const products = getStaticProducts(lang)
-  const topProducts = products.slice(0, 3).map(p => ({
-    asin: p.asin, title: p.title, price: p.price, priceNumeric: p.priceNumeric, image: p.image, url: p.url, nuraScore: p.nuraScore, capacity: p.capacity,
-  }))
+  const { source: productSource, products: topProducts } = getArticleProducts(article, lang)
+  const seeAllHref = productSource === 'airfryers'
+    ? `/${lang}/guides/airfryers`
+    : `/${lang}/cuisine-connectee/${productSource}`
+  const pillarSilo = getMetaSilo(article.pillar)
   const title = article.title[lang] || article.title.fr
   const rawContent = article.content[lang]
   // Wrap tables in a scrollable container so they scroll horizontally on mobile
@@ -81,6 +105,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
     /<table(\s[^>]*)?>/gi,
     '<div class="blog-table-wrap"><table$1>'
   ).replace(/<\/table>/gi, '</table></div>')
+  const [contentBeforeCta, contentAfterCta] = splitBeforeNthH2(content, 2)
   const excerpt = article.excerpt[lang] || article.excerpt.fr
   const categoryLabel = CATEGORIES[article.category]?.[lang] || CATEGORIES[article.category]?.fr
 
@@ -204,30 +229,12 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
           </div>
         )}
 
-        {/* Article Content */}
-        <div
-          className="prose prose-lg prose-slate max-w-none
-            prose-headings:font-bold prose-headings:tracking-tight
-            prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4 prose-h2:text-slate-900
-            prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3 prose-h3:text-slate-800
-            prose-p:text-slate-600 prose-p:leading-relaxed prose-p:mb-4
-            prose-li:text-slate-600
-            prose-strong:text-slate-900
-            prose-a:text-brand-600 prose-a:font-semibold prose-a:no-underline hover:prose-a:underline
-            prose-img:rounded-xl prose-img:shadow-md
-            [&_.blog-table-wrap]:my-6 [&_.blog-table-wrap]:-mx-4 md:[&_.blog-table-wrap]:mx-0 [&_.blog-table-wrap]:overflow-x-auto [&_.blog-table-wrap]:rounded-xl md:[&_.blog-table-wrap]:border md:[&_.blog-table-wrap]:border-slate-200 md:[&_.blog-table-wrap]:bg-white md:[&_.blog-table-wrap]:shadow-sm
-            [&_.blog-table-wrap]:px-4 md:[&_.blog-table-wrap]:px-0
-            [&_.blog-table-wrap_table]:min-w-[560px] [&_.blog-table-wrap_table]:w-full [&_.blog-table-wrap_table]:border-collapse [&_.blog-table-wrap_table]:text-sm
-            [&_.blog-table-wrap_thead]:bg-slate-50
-            [&_.blog-table-wrap_th]:p-3 [&_.blog-table-wrap_th]:text-left [&_.blog-table-wrap_th]:font-bold [&_.blog-table-wrap_th]:text-slate-900 [&_.blog-table-wrap_th]:text-[11px] [&_.blog-table-wrap_th]:uppercase [&_.blog-table-wrap_th]:tracking-wider [&_.blog-table-wrap_th]:border-b-2 [&_.blog-table-wrap_th]:border-slate-200 [&_.blog-table-wrap_th]:whitespace-nowrap
-            [&_.blog-table-wrap_td]:p-3 [&_.blog-table-wrap_td]:align-top [&_.blog-table-wrap_td]:border-b [&_.blog-table-wrap_td]:border-slate-100 [&_.blog-table-wrap_td]:text-slate-700
-            [&_.blog-table-wrap_tr:last-child_td]:border-b-0
-            [&_.blog-table-wrap_tbody_tr]:transition-colors hover:[&_.blog-table-wrap_tbody_tr]:bg-slate-50/60
-            [&_img]:max-w-full [&_img]:h-auto
-            [&_pre]:overflow-x-auto [&_pre]:max-w-full
-          "
-          dangerouslySetInnerHTML={{ __html: content }}
-        />
+        {/* Article Content — product block after the 2nd h2, not after the FAQ */}
+        <div className={PROSE_CLASSES} dangerouslySetInnerHTML={{ __html: contentBeforeCta }} />
+        {topProducts.length > 0 && (
+          <ArticleProductCTA products={topProducts.slice(0, 1)} lang={lang} variant="inline" seeAllHref={seeAllHref} />
+        )}
+        {contentAfterCta && <div className={PROSE_CLASSES} dangerouslySetInnerHTML={{ __html: contentAfterCta }} />}
 
         {/* FAQ Section */}
         {article.faq && article.faq.length > 0 && (
@@ -247,21 +254,23 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
           </section>
         )}
 
-        {/* Inline Product CTA - top pick */}
-        <ArticleProductCTA products={topProducts.slice(0, 1)} lang={lang} variant="inline" />
-
         {/* Pillar Link */}
         <div className="mt-12 p-6 bg-gradient-to-br from-brand-50 to-accent-50 rounded-2xl border border-brand-100">
           <p className="text-sm font-bold text-brand-900 mb-2">
             {lang === 'fr' ? 'Article issu de notre guide complet' : lang === 'de' ? 'Artikel aus unserem umfassenden Ratgeber' : lang === 'es' ? 'Artículo de nuestra guía completa' : lang === 'it' ? 'Articolo dalla nostra guida completa' : lang === 'nl' ? 'Artikel uit onze complete gids' : 'Article from our comprehensive guide'}
           </p>
           <Link href={`/${lang}/${article.pillar}`} className="text-brand-600 font-bold hover:underline text-lg">
-            {lang === 'fr' ? 'Voir le guide complet des airfryers 2026 →' : lang === 'de' ? 'Zum kompletten Airfryer-Ratgeber 2026 →' : lang === 'es' ? 'Ver la guía completa de freidoras 2026 →' : lang === 'it' ? 'Vai alla guida completa 2026 →' : lang === 'nl' ? 'Naar de complete airfryer-gids 2026 →' : 'See the complete air fryer guide 2026 →'}
+            {pillarSilo
+              ? `${pillarSilo.title[lang] ?? pillarSilo.title.fr} →`
+              : lang === 'fr' ? 'Voir le guide complet des airfryers 2026 →' : lang === 'de' ? 'Zum kompletten Airfryer-Ratgeber 2026 →' : lang === 'es' ? 'Ver la guía completa de freidoras 2026 →' : lang === 'it' ? 'Vai alla guida completa 2026 →' : lang === 'nl' ? 'Naar de complete airfryer-gids 2026 →' : 'See the complete air fryer guide 2026 →'}
           </Link>
         </div>
 
         {/* Product Recommendations CTA */}
-        <ArticleProductCTA products={topProducts} lang={lang} variant="bottom" />
+        {topProducts.length > 0 && (
+          <ArticleProductCTA products={topProducts} lang={lang} variant="bottom" seeAllHref={seeAllHref} />
+        )}
+        {topProducts[0] && <ArticleStickyBuyBar product={topProducts[0]} lang={lang} />}
 
         {/* Related Articles */}
         {related.length > 0 && (
