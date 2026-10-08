@@ -1,7 +1,6 @@
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import { getNonce } from '@/lib/nonce'
 import { buildPageMetadata } from '@/lib/seo'
 import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
 import { Kicker, SiteFooter } from '@/components/ui'
@@ -347,8 +346,6 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
   const { lang } = await params
   const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
-  const nonce = await getNonce()
-
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -383,8 +380,8 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
 
   return (
     <div className="min-h-screen bg-white">
-      <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <Navbar currentLang={safeLang} />
 
       <main id="main">

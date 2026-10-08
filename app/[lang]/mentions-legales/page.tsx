@@ -1,7 +1,6 @@
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import { getNonce } from '@/lib/nonce'
 import { buildPageMetadata } from '@/lib/seo'
 import { resolveLang } from '@/lib/i18n'
 
@@ -196,13 +195,10 @@ const labels: Record<string, Record<string, string>> = {
 export default async function MentionsLegales({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params
   const t = labels[lang] || labels.fr
-  const nonce = await getNonce()
-
   return (
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',

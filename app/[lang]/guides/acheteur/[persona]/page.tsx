@@ -23,7 +23,6 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import Navbar from '@/components/Navbar'
-import { getNonce } from '@/lib/nonce'
 import {
   buildPageMetadata,
   buildBreadcrumbListSchema,
@@ -154,8 +153,6 @@ export default async function PersonaGuidePage({
   const hero = getPersonaGuideHero(safeLang, p)
   const faqEntries = getPersonaGuideFaq(safeLang)
   const ui = uiStrings[safeLang]
-  const nonce = await getNonce()
-
   // Applicable silos — full MetaSilo objects for card rendering
   const silos = p.applicableSilos
     .map((slug) => getMetaSilo(slug))
@@ -194,13 +191,11 @@ export default async function PersonaGuidePage({
     <div className="min-h-screen bg-white">
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
@@ -285,7 +280,7 @@ export default async function PersonaGuidePage({
         </section>
 
         {/* FAQ (emits FAQPage JSON-LD) */}
-        <FaqSection faqs={faqEntries} title={ui.faqTitle} nonce={nonce} />
+        <FaqSection faqs={faqEntries} title={ui.faqTitle} />
 
         {/* Methodology CTA */}
         <div className="max-w-6xl mx-auto px-6 pb-20">

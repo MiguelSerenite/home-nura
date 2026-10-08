@@ -19,7 +19,6 @@
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import { getNonce } from '@/lib/nonce'
 import {
   buildPageMetadata,
   buildBreadcrumbListSchema,
@@ -493,8 +492,6 @@ export default async function MethodologiePage({
   const { lang } = await params
   const safeLang: Lang = isValidLang(lang) ? lang : 'fr'
   const c = content[safeLang]
-  const nonce = await getNonce()
-
   const breadcrumbSchema = buildBreadcrumbListSchema(safeLang, [
     { name: c.breadcrumbHome, path: '' },
     { name: c.breadcrumbCurrent, path: '/methodologie' },
@@ -506,14 +503,12 @@ export default async function MethodologiePage({
     <div className="min-h-screen bg-white">
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       {faqSchema && (
         <script
           type="application/ld+json"
-          nonce={nonce}
           suppressHydrationWarning
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />

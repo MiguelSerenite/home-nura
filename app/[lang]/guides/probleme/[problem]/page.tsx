@@ -30,7 +30,6 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import Navbar from '@/components/Navbar'
-import { getNonce } from '@/lib/nonce'
 import {
   buildPageMetadata,
   buildBreadcrumbListSchema,
@@ -185,8 +184,6 @@ export default async function ProblemGuidePage({
   const content = getProblemContent(safeLang, prob, category)
   const faqEntries = getProblemFaq(safeLang, category)
   const ui = uiStrings[safeLang]
-  const nonce = await getNonce()
-
   const categoryHref = `/${safeLang}/${silo.slug}/${category.slug}`
 
   // Phase OO: sibling-problem cluster. Every problem on a given
@@ -246,20 +243,17 @@ export default async function ProblemGuidePage({
     <div className="min-h-screen bg-white">
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
       {siblingClusterSchema && (
         <script
           type="application/ld+json"
-          nonce={nonce}
           suppressHydrationWarning
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siblingClusterSchema) }}
         />
@@ -377,7 +371,7 @@ export default async function ProblemGuidePage({
         )}
 
         {/* FAQ (emits FAQPage JSON-LD) */}
-        <FaqSection faqs={faqEntries} title={ui.faqTitle} nonce={nonce} />
+        <FaqSection faqs={faqEntries} title={ui.faqTitle} />
 
         {/* Methodology CTA */}
         <div className="max-w-6xl mx-auto px-6 pb-20">

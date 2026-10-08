@@ -1,7 +1,6 @@
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import { getNonce } from '@/lib/nonce'
 import { buildPageMetadata } from '@/lib/seo'
 import Comparator from '@/components/Comparator'
 import { getSmartKitchenProducts } from '@/lib/smart-kitchen-products'
@@ -84,8 +83,6 @@ export default async function SmartKitchenComparatorPage({ params }: { params: P
   const { lang } = await params
   const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
-  const nonce = await getNonce()
-
   const rawProducts = getSmartKitchenProducts(safeLang)
   const products = rawProducts.map((p) => ({
     asin: p.asin,
@@ -115,7 +112,6 @@ export default async function SmartKitchenComparatorPage({ params }: { params: P
     <div className="min-h-screen bg-white">
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />

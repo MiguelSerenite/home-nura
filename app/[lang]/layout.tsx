@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { Geist } from "next/font/google";
-import { getNonce } from "@/lib/nonce";
 import { WebVitalsReporter } from "@/components/WebVitalsReporter";
 import { LANGUAGES, isValidLang, type Lang } from "@/lib/i18n";
 import { buildPageMetadata, BASE_URL } from "@/lib/seo";
@@ -94,7 +93,6 @@ export default async function RootLayout({
     notFound();
   }
   const lang: Lang = rawLang;
-  const nonce = await getNonce();
 
   const organizationSchema = {
     '@context': 'https://schema.org',
@@ -178,13 +176,11 @@ export default async function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          nonce={nonce}
           suppressHydrationWarning
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
         <script
           type="application/ld+json"
-          nonce={nonce}
           suppressHydrationWarning
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />

@@ -1,8 +1,6 @@
 import Image from 'next/image'
 import AffiliateLink from './AffiliateLink'
 import { extractBrand } from '@/lib/brand'
-import { getNonce } from '@/lib/nonce'
-
 interface ProductProps {
   name: string;
   price: string;
@@ -20,7 +18,6 @@ interface ProductProps {
 }
 
 export default async function ProductCard({ name, price, imageUrl, affiliateLink, asin, buyButtonText, badge, lang = 'fr', capacity, bestFor, position, withSchema = true }: ProductProps) {
-  const nonce = await getNonce()
   // Extract numeric price and currency for schema
   const numericPrice = price.replace(/[^0-9.,]/g, '').replace(',', '.')
   const priceForTracking = parseFloat(numericPrice)
@@ -57,7 +54,6 @@ export default async function ProductCard({ name, price, imageUrl, affiliateLink
       {withSchema && (
         <script
           type="application/ld+json"
-          nonce={nonce}
           suppressHydrationWarning
           dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }}
         />

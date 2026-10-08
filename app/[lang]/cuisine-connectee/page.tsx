@@ -1,7 +1,6 @@
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import { getNonce } from '@/lib/nonce'
 import { buildPageMetadata, buildBreadcrumbListSchema } from '@/lib/seo'
 import { SMART_KITCHEN_CATEGORIES, type SmartKitchenCategory } from '@/lib/smart-kitchen-products'
 import { Kicker, SectionHero, SiteFooter, Button } from '@/components/ui'
@@ -248,8 +247,6 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
   const { lang } = await params
   const safeLang = resolveLang(lang)
   const c = pageContent[safeLang] || pageContent.fr
-  const nonce = await getNonce()
-
   // Phase Y introduced the single-source breadcrumb helper; use it so
   // any future schema.org change to BreadcrumbList propagates to every
   // hub route from one place.
@@ -274,13 +271,11 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
     <div className="min-h-screen bg-white">
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
@@ -355,7 +350,7 @@ export default async function CuisineConnecteePage({ params }: { params: Promise
       </main>
 
       {/* Footer */}
-      <FaqSection faqs={[...getSiloFaq(safeLang, 'cuisine-connectee')]} title={SILO_FAQ_TITLE[safeLang]} nonce={nonce} />
+      <FaqSection faqs={[...getSiloFaq(safeLang, 'cuisine-connectee')]} title={SILO_FAQ_TITLE[safeLang]} />
 
       <SiteFooter
         currentLang={safeLang}

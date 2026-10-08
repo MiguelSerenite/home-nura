@@ -9,7 +9,6 @@ import { getStaticProducts } from '@/lib/products'
 import { enrichContentWithCTAs } from '@/lib/blog/enrichContent'
 import { CATEGORIES, type FAQItem } from '@/lib/blog/types'
 import { notFound } from 'next/navigation'
-import { getNonce } from '@/lib/nonce'
 import type { Metadata } from 'next'
 import { SiteFooter } from '@/components/ui'
 import { buildPageMetadata, buildArticleSchema } from '@/lib/seo'
@@ -68,7 +67,6 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
   if (!article || !isValidLang(lang) || !article.content[lang]) notFound()
 
   const dict = await getDictionary(lang)
-  const nonce = await getNonce()
   const related = getRelatedArticles(article)
   const products = getStaticProducts(lang)
   const topProducts = products.slice(0, 3).map(p => ({
@@ -154,10 +152,10 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
 
   return (
     <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
-      <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-      <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       {faqSchema && (
-        <script type="application/ld+json" nonce={nonce} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+        <script type="application/ld+json" suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       )}
       <Navbar currentLang={lang} />
 

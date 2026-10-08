@@ -84,16 +84,6 @@ const SLUG_ALIASES: Record<string, string> = {
   'over-ons': '/a-propos',
 }
 
-function generateNonce(): string {
-  // 16 random bytes → base64 (≈ 24 chars), enough entropy for CSP nonces
-  const bytes = new Uint8Array(16)
-  crypto.getRandomValues(bytes)
-  let binary = ''
-  for (let i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i])
-  // btoa is available in the Edge runtime
-  return btoa(binary)
-}
-
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl
 
@@ -141,20 +131,14 @@ export function proxy(request: NextRequest) {
     return NextResponse.redirect(url, 301)
   }
 
-  // Generate a per-request nonce so inline <script> tags we emit (JSON-LD
-  // schemas) and Next.js's own hydration scripts can be allow-listed
-  // without falling back to 'unsafe-inline'.
-  const nonce = generateNonce()
+  // Static CSP: the site has no visitor-authored content, so inline <script>
+  // tags we emit (JSON-LD schemas) and Next.js's own hydration scripts are
+  // covered by 'unsafe-inline'. In dev we also need 'unsafe-eval' for HMR.
+  // Keeping the CSP static lets every route be prerendered — removing the
+  // per-request nonce was the last thing forcing dynamic rendering.
   const isDev = process.env.NODE_ENV === 'development'
 
-  // strict-dynamic: trust anything loaded by a nonce'd script. This covers
-  // Next.js chunk loading. In dev we still need 'unsafe-eval' for HMR.
-  const scriptSrc = [
-    "'self'",
-    `'nonce-${nonce}'`,
-    "'strict-dynamic'",
-    isDev ? "'unsafe-eval'" : '',
-  ]
+  const scriptSrc = ["'self'", "'unsafe-inline'", isDev ? "'unsafe-eval'" : '']
     .filter(Boolean)
     .join(' ')
 
@@ -173,16 +157,7 @@ export function proxy(request: NextRequest) {
     'upgrade-insecure-requests',
   ].join('; ')
 
-  // Propagate nonce to request headers so server components can read it
-  // via `headers().get('x-nonce')` and attach it to inline <script> tags.
-  const requestHeaders = new Headers(request.headers)
-  requestHeaders.set('x-nonce', nonce)
-
-  const response = NextResponse.next({
-    request: {
-      headers: requestHeaders,
-    },
-  })
+  const response = NextResponse.next()
 
   // Security headers
   response.headers.set('X-Content-Type-Options', 'nosniff')
@@ -196,7 +171,6 @@ export function proxy(request: NextRequest) {
     'max-age=31536000; includeSubDomains; preload'
   )
   response.headers.set('Content-Security-Policy', csp)
-  response.headers.set('x-nonce', nonce)
 
   return response
 }

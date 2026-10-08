@@ -7,7 +7,7 @@ interface FaqItem {
   answer: string
 }
 
-export default function FaqSection({ faqs, title, nonce }: { faqs: FaqItem[]; title: string; nonce?: string }) {
+export default function FaqSection({ faqs, title }: { faqs: FaqItem[]; title: string }) {
   const [openIndex, setOpenIndex] = useState<number | null>(null)
 
   const toggle = (index: number) => {
@@ -32,7 +32,6 @@ export default function FaqSection({ faqs, title, nonce }: { faqs: FaqItem[]; ti
     <section className="max-w-3xl mx-auto px-6 py-20 md:py-24">
       <script
         type="application/ld+json"
-        nonce={nonce}
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
