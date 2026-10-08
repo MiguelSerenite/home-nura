@@ -8,10 +8,13 @@ import { LANGUAGES } from '@/lib/i18n'
 describe('scaled templated pages stay out of the index', () => {
   const urls = sitemap().map((e) => e.url)
 
-  it('does not list best-for, buyer-persona or problem template pages', () => {
+  it('does not list best-for or buyer-persona template pages', () => {
     expect(urls.filter((u) => u.includes('/meilleur-pour/'))).toEqual([])
     expect(urls.filter((u) => u.includes('/guides/acheteur/'))).toEqual([])
-    expect(urls.filter((u) => u.includes('/guides/probleme/'))).toEqual([])
+  })
+
+  it('keeps problem guides indexed: ~30% of Search Console clicks (Jul–Oct 2026)', () => {
+    expect(urls.filter((u) => u.includes('/guides/probleme/')).length).toBeGreaterThan(0)
   })
 })
 
