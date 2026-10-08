@@ -63,7 +63,7 @@ export default function ArticleStickyBuyBar({ product, lang }: { product: Sticky
         <div className="min-w-0 flex-1">
           <p className="truncate text-sm font-bold text-slate-900">{product.title}</p>
           <p className="text-xs text-slate-600">
-            {product.price} · {AFFILIATE_NOTE[lang] ?? AFFILIATE_NOTE.fr}
+            {AFFILIATE_NOTE[lang] ?? AFFILIATE_NOTE.fr}
           </p>
         </div>
         <a

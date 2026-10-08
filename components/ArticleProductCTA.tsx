@@ -84,7 +84,6 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
           <div className="flex-1 min-w-0">
             <p className="text-sm font-bold text-slate-900 line-clamp-2">{p.title}</p>
             <div className="flex items-center gap-2 mt-1">
-              <span className="text-lg font-black text-slate-900">{p.price}</span>
               <span className="px-2 py-0.5 text-xs font-bold rounded-full bg-emerald-100 text-emerald-800">{p.nuraScore}/10</span>
             </div>
           </div>
@@ -142,7 +141,6 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
             </div>
             <p className="text-sm font-bold text-slate-900 line-clamp-2 mb-1">{p.title}</p>
             <div className="flex items-center gap-2 mb-3">
-              <span className="text-lg font-black text-slate-900">{p.price}</span>
               <span className={`px-1.5 py-0.5 text-xs font-bold rounded-full ${p.nuraScore >= 9 ? 'bg-emerald-100 text-emerald-700' : 'bg-brand-100 text-brand-700'}`}>
                 {p.nuraScore}/10
               </span>

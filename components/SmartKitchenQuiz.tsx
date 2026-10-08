@@ -342,7 +342,6 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
               <h3 className="text-base font-bold text-slate-900 leading-tight line-clamp-2 mb-2">
                 {p.title}
               </h3>
-              <p className="text-xl font-black text-slate-900 mb-3">{p.price}</p>
               <a
                 href={p.url}
                 target="_blank"

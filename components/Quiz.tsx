@@ -501,7 +501,6 @@ export default function Quiz({ products, currentLang }: QuizProps) {
                       {recommendation.title}
                     </h3>
                     <p className="text-sm text-slate-500 mb-5">{recommendation.bestFor}</p>
-                    <p className="text-2xl font-black text-slate-900 mb-5">{recommendation.price}</p>
                     <a
                       href={recommendation.url}
                       target="_blank"

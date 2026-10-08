@@ -189,9 +189,6 @@ export default function Comparator({
                       <Row label={t.bestFor}>
                         <span className="font-semibold text-slate-900">{product.bestFor}</span>
                       </Row>
-                      <Row label={t.price}>
-                        <span className="font-bold text-slate-900">{product.price}</span>
-                      </Row>
                       <div className="pt-3">
                         <div className="text-[11px] font-bold tracking-[0.2em] uppercase text-emerald-700 mb-2">
                           {t.pros}
@@ -323,7 +320,6 @@ export default function Comparator({
                           {p.capacity} · {p.nuraScore}/10
                         </div>
                       </div>
-                      <div className="text-sm font-bold text-slate-900 shrink-0">{p.price}</div>
                     </button>
                   </li>
                 )
