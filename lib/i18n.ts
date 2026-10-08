@@ -39,3 +39,25 @@ export function isValidLang(value: string | undefined | null): value is Lang {
 export function resolveLang(value: string | undefined | null): Lang {
   return isValidLang(value) ? value : DEFAULT_LANG
 }
+
+/** Vercel geo country (ISO 3166-1 alpha-2) → the locale whose Amazon store serves it. */
+export const COUNTRY_TO_LANG: Record<string, Lang> = {
+  FR: 'fr', BE: 'fr', LU: 'fr', MC: 'fr', CH: 'fr',
+  DE: 'de', AT: 'de',
+  ES: 'es',
+  IT: 'it',
+  NL: 'nl',
+  GB: 'en', IE: 'en', US: 'en', CA: 'en', AU: 'en', NZ: 'en',
+}
+
+/** Cookie set by proxy.ts with the visitor's country, read by GeoLocaleSuggestion. */
+export const COUNTRY_COOKIE = 'hn_country'
+
+/**
+ * Locale to suggest to a visitor reading `currentLang` from `country`, or
+ * null when it already matches or the country has no locale of its own.
+ */
+export function suggestLocaleForCountry(country: string | undefined | null, currentLang: string): Lang | null {
+  const lang = country ? COUNTRY_TO_LANG[country.toUpperCase()] : undefined
+  return lang && lang !== currentLang ? lang : null
+}
