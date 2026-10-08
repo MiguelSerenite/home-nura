@@ -109,7 +109,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   }
 
   return (
-    <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
+    <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-clip">
       <script
         type="application/ld+json"
         suppressHydrationWarning

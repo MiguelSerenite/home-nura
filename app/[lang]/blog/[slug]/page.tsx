@@ -191,7 +191,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
   )
 
   return (
-    <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
+    <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-clip">
       <script type="application/ld+json" suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       {faqSchema && (

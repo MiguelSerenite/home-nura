@@ -196,7 +196,7 @@ export default async function MentionsLegales({ params }: { params: Promise<{ la
   const { lang } = await params
   const t = labels[lang] || labels.fr
   return (
-    <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
+    <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-clip">
       <script
         type="application/ld+json"
         suppressHydrationWarning

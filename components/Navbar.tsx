@@ -113,14 +113,16 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
           aria-label="Home Nura"
           onClick={close}
         >
+          {/* Tightly cropped logo: /logo.png has ~75% transparent margin, which
+              made the wordmark tiny in the header. */}
           <Image
-            src="/logo.png"
+            src="/logo-header.png"
             alt="Home Nura"
-            width={1400}
-            height={400}
-            sizes="224px"
+            width={735}
+            height={112}
+            sizes="(min-width: 768px) 263px, 210px"
             priority
-            className="h-11 md:h-16 w-auto"
+            className="h-8 md:h-10 w-auto"
           />
         </Link>
 

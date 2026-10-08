@@ -400,7 +400,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
   })
 
   return (
-    <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-hidden">
+    <div className="min-h-screen bg-[#FBFBFD] text-slate-900 font-sans overflow-x-clip">
       <Navbar currentLang={lang} />
       <script type="application/ld+json" suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" suppressHydrationWarning dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
