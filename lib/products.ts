@@ -544,3 +544,15 @@ export function getStaticProducts(lang: string) {
     }
   })
 }
+
+/**
+ * Amazon search-results link on the reader's store, carrying that store's
+ * partner tag. Used for models cited in articles that have no catalog
+ * entry (no ASIN/images to maintain; Amazon credits purchases from search).
+ */
+export function amazonSearchUrl(query: string, lang: string): string {
+  const domain = domains[lang] || domains.fr
+  const tag = resolvePartnerTag(lang)
+  const params = new URLSearchParams({ k: query, tag })
+  return `https://${domain}/s?${params.toString()}`
+}

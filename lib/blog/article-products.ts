@@ -1,4 +1,5 @@
-import { getStaticProducts } from '@/lib/products'
+import { amazonSearchUrl, getStaticProducts } from '@/lib/products'
+import { getArticleModels } from '@/lib/blog/article-models'
 import { getSmartKitchenProductsByCategory, type SmartKitchenCategory } from '@/lib/smart-kitchen-products'
 
 /**
@@ -52,4 +53,23 @@ export function getArticleProducts(
       asin, title, price, priceNumeric, image, url, nuraScore, capacity,
     }))
   return { source, products }
+}
+
+export type ArticleRecommendations =
+  | { kind: 'catalog'; source: Exclude<ArticleProductSource, null>; products: ArticleProduct[] }
+  | { kind: 'models'; models: { name: string; url: string }[] }
+
+/**
+ * What an article recommends: catalog products (images, scores) when the
+ * catalog covers the topic, else the models the article cites, linked to
+ * an Amazon search on the reader's store. null when neither exists.
+ */
+export function getArticleRecommendations(
+  article: { slug: string; pillar: string },
+  lang: string,
+): ArticleRecommendations | null {
+  const { source, products } = getArticleProducts(article, lang)
+  if (source !== null && products.length > 0) return { kind: 'catalog', source, products }
+  const models = getArticleModels(article.slug).map((name) => ({ name, url: amazonSearchUrl(name, lang) }))
+  return models.length > 0 ? { kind: 'models', models } : null
 }
