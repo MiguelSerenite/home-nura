@@ -191,8 +191,9 @@ export default async function RootLayout({
           {SKIP_LINK_LABEL[lang]}
         </a>
         <WebVitalsReporter />
-        {/* The insights script only exists on Vercel deployments. */}
-        {process.env.VERCEL && <Analytics />}
+        {/* Cookieless, same-origin (/_vercel/insights). Always rendered: the
+            build-time VERCEL env guard turned out to be falsy on Vercel. */}
+        <Analytics />
         {children}
       </body>
     </html>

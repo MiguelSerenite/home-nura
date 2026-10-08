@@ -36,6 +36,9 @@ function collectConsoleErrors(page: Page): string[] {
     const text = msg.text()
     if (text.includes('Hydration')) return
     if (text.includes('Extension')) return
+    // Vercel Web Analytics script only exists on Vercel deployments; the
+    // local `next start` used by e2e answers 404 for it.
+    if (text.includes('/_vercel/insights') || msg.location().url.includes('/_vercel/insights')) return
     if (DEV_MODE_NOISE.some((needle) => text.includes(needle))) return
     errors.push(text)
   })
