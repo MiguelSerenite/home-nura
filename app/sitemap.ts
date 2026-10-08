@@ -6,9 +6,6 @@ import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import {
   getIndexableSilos,
   getIndexableCategories,
-  getPersonasForSilo,
-  BUYER_PERSONAS,
-  PROBLEMS,
 } from '@/lib/catalog'
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -66,36 +63,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'weekly' as const,
         lastModified: today,
       })),
-    // Phase EE: persona buyer guides. 24 personas × 6 locales of
-    // axis-specific copy, each one cross-linking to real categories.
-    ...BUYER_PERSONAS.map((p) => ({
-      path: `/guides/acheteur/${p.slug}`,
-      priority: 0.65,
-      changeFrequency: 'monthly' as const,
-      lastModified: today,
-    })),
-    // Phase FF: troubleshooting pages (Moteur 3). Long-tail queries
-    // with severity-driven CTAs — higher priority than persona
-    // guides because they capture direct purchase-adjacent intent.
-    ...PROBLEMS.map((p) => ({
-      path: `/guides/probleme/${p.slug}`,
-      priority: 0.7,
-      changeFrequency: 'monthly' as const,
-      lastModified: today,
-    })),
-    // Phase HH: Moteur 4 — "meilleur X pour Y" best-for pages. Every
-    // (indexable category × applicable persona) pair answers a direct
-    // purchase-intent query, so these get the highest non-cornerstone
-    // priority in the sitemap. Personas are filtered per silo so we
-    // never emit nonsense pairs like "best alarm for vegan family".
-    ...getIndexableCategories().flatMap((cat) =>
-      getPersonasForSilo(cat.metaSilo).map((persona) => ({
-        path: `/${cat.metaSilo}/${cat.slug}/meilleur-pour/${persona.slug}`,
-        priority: 0.8,
-        changeFrequency: 'weekly' as const,
-        lastModified: today,
-      }))
-    ),
+    // Persona buyer guides, problem pages and best-for pages are built
+    // from shared templates (near-duplicate copy at scale, no products):
+    // they are noindexed and kept out of the sitemap until each page has
+    // its own substance. See docs/refonte-oct26/PLAN.md (lot 5).
     // Legal pages (mentions-legales, politique-confidentialite,
     // politique-cookies) are intentionally omitted — they're noindex'd
     // via per-page meta robots so there's no point pointing crawlers

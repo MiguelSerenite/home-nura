@@ -117,11 +117,8 @@ export default async function RootLayout({
       jobTitle: lang === 'fr' ? 'Fondateur & Rédacteur en Chef' : 'Founder & Editor-in-Chief',
       url: `${BASE_URL}/${lang}/a-propos`,
     },
-    sameAs: [
-      'https://twitter.com/homenura',
-      'https://www.instagram.com/homenura',
-      'https://www.linkedin.com/company/homenura',
-    ],
+    // sameAs intentionally omitted: list only social profiles that exist
+    // and link back to homenura.com (twitter/linkedin URLs returned 404).
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer support',

@@ -202,7 +202,8 @@ export async function generateMetadata({
     path: `/${silo}/${cat.slug}/meilleur-pour/${p.slug}`,
     title: `${hero.title} | Home Nura`,
     description: hero.intro,
-    index: cat.indexable,
+    // Templated near-duplicate copy at scale: noindex until hand-written.
+    index: false,
   })
 }
 

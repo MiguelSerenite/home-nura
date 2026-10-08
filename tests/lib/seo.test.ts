@@ -136,7 +136,7 @@ describe('buildPageMetadata', () => {
     expect(og.authors).toEqual(['Home Nura'])
   })
 
-  it('sets Twitter summary_large_image with the brand handles', () => {
+  it('sets Twitter summary_large_image without unverified handles', () => {
     const m = buildPageMetadata({
       lang: 'fr',
       path: '/blog',
@@ -145,8 +145,9 @@ describe('buildPageMetadata', () => {
     })
     const tw = m.twitter as Record<string, unknown>
     expect(tw.card).toBe('summary_large_image')
-    expect(tw.site).toBe('@homenura')
-    expect(tw.creator).toBe('@homenura')
+    // No @homenura handle: the X/Twitter account does not exist (404).
+    expect(tw).not.toHaveProperty('site')
+    expect(tw).not.toHaveProperty('creator')
   })
 
   it('honors index: false by producing noindex robots directive', () => {

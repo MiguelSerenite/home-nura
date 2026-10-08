@@ -47,12 +47,27 @@ interface BuildPageMetadataInput {
  * semantics for openGraph/twitter objects, so missing fields in a child page
  * silently drop the layout's defaults (siteName, locale, etc.).
  */
+const TITLE_MAX = 60
+const DESCRIPTION_MAX = 155
+const BRAND_SUFFIX = ' | Home Nura'
+
+/** Drop the brand suffix when it would push the title past what SERPs show. */
+function fitTitle(title: string): string {
+  if (title.length <= TITLE_MAX || !title.endsWith(BRAND_SUFFIX)) return title
+  return title.slice(0, -BRAND_SUFFIX.length)
+}
+
+/** Cut long descriptions on a word boundary so SERPs don't truncate mid-word. */
+function fitDescription(description: string): string {
+  if (description.length <= DESCRIPTION_MAX) return description
+  const cut = description.slice(0, DESCRIPTION_MAX - 1)
+  return `${cut.slice(0, cut.lastIndexOf(' ')).replace(/[\s,;:.—-]+$/, '')}…`
+}
+
 export function buildPageMetadata(input: BuildPageMetadataInput): Metadata {
   const {
     lang,
     path,
-    title,
-    description,
     image,
     imageAlt,
     type = 'website',
@@ -63,6 +78,8 @@ export function buildPageMetadata(input: BuildPageMetadataInput): Metadata {
   } = input
 
   const safeLang: Lang = isValidLang(lang) ? lang : 'fr'
+  const title = fitTitle(input.title)
+  const description = fitDescription(input.description)
   const normalizedPath = path.startsWith('/') || path === '' ? path : `/${path}`
   const url = `${BASE_URL}/${safeLang}${normalizedPath}`
   const ogImage = image ?? `${BASE_URL}/og-image.png`
@@ -108,8 +125,6 @@ export function buildPageMetadata(input: BuildPageMetadataInput): Metadata {
       card: 'summary_large_image',
       title,
       description,
-      creator: '@homenura',
-      site: '@homenura',
       images: [ogImage],
     },
     robots: {
