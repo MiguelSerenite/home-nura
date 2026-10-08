@@ -39,6 +39,7 @@ import {
 } from '@/lib/seo'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import FaqSection from '@/components/FaqSection'
+import { getProblemGuide } from '@/lib/catalog/problem-guides'
 import {
   PROBLEMS,
   getProblem,
@@ -57,6 +58,8 @@ interface ProblemUi {
   troubleshooting: string
   diagnosisTitle: string
   quickFixTitle: string
+  causesTitle: string
+  repairOrReplaceTitle: string
   faqTitle: string
   methodologyCta: string
   /** Phase OO: sibling-problem cluster heading. */
@@ -71,6 +74,8 @@ const uiStrings: Record<Lang, ProblemUi> = {
     troubleshooting: 'Dépannage',
     diagnosisTitle: 'Diagnostic',
     quickFixTitle: 'Procédure recommandée',
+    causesTitle: 'Causes possibles',
+    repairOrReplaceTitle: 'Réparer ou remplacer ?',
     faqTitle: 'Questions fréquentes',
     methodologyCta: 'Lire notre méthodologie',
     relatedProblemsTitle: 'Autres pannes fréquentes sur cette catégorie',
@@ -82,6 +87,8 @@ const uiStrings: Record<Lang, ProblemUi> = {
     troubleshooting: 'Troubleshooting',
     diagnosisTitle: 'Diagnosis',
     quickFixTitle: 'Recommended procedure',
+    causesTitle: 'Possible causes',
+    repairOrReplaceTitle: 'Repair or replace?',
     faqTitle: 'Frequently asked questions',
     methodologyCta: 'Read our methodology',
     relatedProblemsTitle: 'Other common failures on this category',
@@ -93,6 +100,8 @@ const uiStrings: Record<Lang, ProblemUi> = {
     troubleshooting: 'Fehlerbehebung',
     diagnosisTitle: 'Diagnose',
     quickFixTitle: 'Empfohlene Vorgehensweise',
+    causesTitle: 'Mögliche Ursachen',
+    repairOrReplaceTitle: 'Reparieren oder ersetzen?',
     faqTitle: 'Häufige Fragen',
     methodologyCta: 'Zur Methodik',
     relatedProblemsTitle: 'Weitere häufige Störungen dieser Kategorie',
@@ -104,6 +113,8 @@ const uiStrings: Record<Lang, ProblemUi> = {
     troubleshooting: 'Solución de problemas',
     diagnosisTitle: 'Diagnóstico',
     quickFixTitle: 'Procedimiento recomendado',
+    causesTitle: 'Causas posibles',
+    repairOrReplaceTitle: '¿Reparar o sustituir?',
     faqTitle: 'Preguntas frecuentes',
     methodologyCta: 'Leer nuestra metodología',
     relatedProblemsTitle: 'Otras averías frecuentes en esta categoría',
@@ -115,6 +126,8 @@ const uiStrings: Record<Lang, ProblemUi> = {
     troubleshooting: 'Risoluzione problemi',
     diagnosisTitle: 'Diagnosi',
     quickFixTitle: 'Procedura consigliata',
+    causesTitle: 'Cause possibili',
+    repairOrReplaceTitle: 'Riparare o sostituire?',
     faqTitle: 'Domande frequenti',
     methodologyCta: 'Leggi la nostra metodologia',
     relatedProblemsTitle: 'Altri guasti frequenti su questa categoria',
@@ -126,6 +139,8 @@ const uiStrings: Record<Lang, ProblemUi> = {
     troubleshooting: 'Probleemoplossing',
     diagnosisTitle: 'Diagnose',
     quickFixTitle: 'Aanbevolen procedure',
+    causesTitle: 'Mogelijke oorzaken',
+    repairOrReplaceTitle: 'Repareren of vervangen?',
     faqTitle: 'Veelgestelde vragen',
     methodologyCta: 'Lees onze methodologie',
     relatedProblemsTitle: 'Andere veelvoorkomende storingen in deze categorie',
@@ -157,11 +172,12 @@ export async function generateMetadata({
   const category = getCategory(prob.categorySlug)
   if (!category) return {}
   const content = getProblemContent(safeLang, prob, category)
+  const guide = getProblemGuide(safeLang, prob.slug)
   return buildPageMetadata({
     lang: safeLang,
     path: `/guides/probleme/${prob.slug}`,
     title: `${content.title} | Home Nura`,
-    description: content.diagnosis,
+    description: guide?.intro ?? content.diagnosis,
   })
 }
 
@@ -182,6 +198,7 @@ export default async function ProblemGuidePage({
   if (!silo) notFound()
 
   const content = getProblemContent(safeLang, prob, category)
+  const guide = getProblemGuide(safeLang, prob.slug)
   const faqEntries = getProblemFaq(safeLang, category)
   const ui = uiStrings[safeLang]
   const categoryHref = `/${safeLang}/${silo.slug}/${category.slug}`
@@ -303,8 +320,21 @@ export default async function ProblemGuidePage({
             {ui.diagnosisTitle}
           </h2>
           <p className="text-base text-slate-700 leading-relaxed">
-            {content.diagnosis}
+            {guide?.intro ?? content.diagnosis}
           </p>
+          {guide && (
+            <>
+              <h3 className="mt-8 text-lg font-bold text-slate-900">{ui.causesTitle}</h3>
+              <ul className="mt-3 space-y-2">
+                {guide.causes.map((cause) => (
+                  <li key={cause} className="flex gap-3 text-base text-slate-700 leading-relaxed">
+                    <span aria-hidden="true" className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-600" />
+                    <span>{cause}</span>
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
         </section>
 
         {/* Quick fix / procedure */}
@@ -313,9 +343,20 @@ export default async function ProblemGuidePage({
             {ui.quickFixTitle}
           </h2>
           <div className="rounded-3xl border border-slate-200 bg-slate-50 p-6 md:p-8">
-            <p className="text-base text-slate-800 leading-relaxed whitespace-pre-line">
-              {content.quickFix}
-            </p>
+            {guide ? (
+              <ol className="space-y-4">
+                {guide.steps.map((step, i) => (
+                  <li key={step} className="flex gap-4 text-base text-slate-800 leading-relaxed">
+                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-brand-600 text-sm font-bold text-white">{i + 1}</span>
+                    <span>{step}</span>
+                  </li>
+                ))}
+              </ol>
+            ) : (
+              <p className="text-base text-slate-800 leading-relaxed whitespace-pre-line">
+                {content.quickFix}
+              </p>
+            )}
             <div className="mt-6">
               <Link
                 href={categoryHref}
@@ -327,6 +368,15 @@ export default async function ProblemGuidePage({
             </div>
           </div>
         </section>
+
+        {guide && (
+          <section className="max-w-3xl mx-auto px-6 pb-10">
+            <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-4">
+              {ui.repairOrReplaceTitle}
+            </h2>
+            <p className="text-base text-slate-700 leading-relaxed">{guide.replaceWhen}</p>
+          </section>
+        )}
 
         {/* Back to category — reinforces internal link graph */}
         <section className="max-w-3xl mx-auto px-6 pb-12">
