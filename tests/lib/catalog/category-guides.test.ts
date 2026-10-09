@@ -73,3 +73,17 @@ describe('category SEO honesty', () => {
     expect(title).toBe('Best Motion Sensors 2026: Comparison')
   })
 })
+
+describe('category picks match the category', () => {
+  it('shows no borrowed picks where the article verdict mixes product types', () => {
+    for (const slug of ['climatiseurs-mobiles', 'hubs-domotique', 'eclairage-connecte', 'barbecues-connectes', 'compteurs-energie']) {
+      expect(getCategoryGuides(slug, 'en').picks, slug).toEqual([])
+    }
+  })
+
+  it('reads naturally when the keyword carries a qualifier (alarm without subscription)', () => {
+    const { description } = buildCategorySeo(getCategory('alarmes')!, 'en', ['Ajax StarterKit', 'Eufy HomeBase S380'])
+    expect(description).not.toMatch(/no subscription to buy/)
+    expect(description).toMatch(/^Our 2026 picks: Ajax StarterKit/)
+  })
+})
