@@ -5,7 +5,7 @@
   "why_trust": "Why Trust Home Nura?",
   "expert_label": "Nura Expert Review",
   "section_title": "Our Top Picks",
-  "section_subtitle": "Best value for money tested by our experts.",
+  "section_subtitle": "Best value for money, selected by our experts.",
   "affiliate_disclaimer": "As an Amazon Associate, Home Nura earns from qualifying purchases.",
   "legal_notice": "Legal notice",
   "privacy_policy": "Privacy",
@@ -13,7 +13,7 @@
   "guide_title": "Complete Air Fryer Guide 2026",
   "guide_subtitle": "Everything you need to know before buying an air fryer",
   "table_title": "Complete Air Fryer Comparison 2026",
-  "table_subtitle": "Rankings based on our lab tests. Nura Score calculated across 5 weighted criteria.",
+  "table_subtitle": "Rankings based on manufacturer specs, verified reviews and specialist press tests. Nura Score calculated across 5 weighted criteria.",
   "col_product": "Product",
   "col_nura_score": "Nura Score",
   "col_capacity": "Capacity",
@@ -33,7 +33,7 @@
   "cookie_reject": "Reject",
   "cookie_learn_more": "Read our cookie policy",
   "top_picks_title": "This month's podium",
-  "top_picks_subtitle": "The top three, hand-tested by our team",
+  "top_picks_subtitle": "The top three, selected by our team",
   "about_link": "About",
   "breadcrumb_home": "Home",
   "breadcrumb_guide": "Air Fryer Guide",
@@ -46,8 +46,8 @@
   "trust_section_content": "Home Nura is an independent European guide dedicated to air fryers, launched in 2024. Our methodology rests on five transparent criteria: cooking quality, value for money, ease of use, energy consumption, and design. Each shortlisted model is evaluated using manufacturer specifications, cross-checked verified user reviews (Amazon, Google), and tests published by specialised press. The Nura Score /10 aggregates these criteria in a weighted way. Our only revenue source is the Amazon EU Partner Program, disclosed on every link: no manufacturer can buy a better score, and our rankings remain strictly independent.",
   "market_section_title": "The UK Air Fryer Market in 2026",
   "market_section_content": "The United Kingdom is experiencing explosive growth in the air fryer market. In 2026, over 41% of British households own at least one air fryer, up from just 16% in 2022. The sector generates over £650 million annually. Leading brands include Philips (28% market share), Ninja (24%), Cosori (16%), Tefal (12%), Sage (11%), and others (9%). Prices range from £39 for entry-level models to over £600 for premium smart variants. However, the majority of British consumers concentrate purchases in the £120-300 range where quality is consistently strong. Current trends show robust demand for WiFi-connected models (45% of sales), XXL capacity units for larger households (38% annual growth), and dual-basket designs (31% uptake). The British preference for convenient, energy-efficient cooking solutions has made air fryers mainstream across all demographic groups, from young professionals to multi-generational family homes.",
-  "testing_section_title": "How We Test",
-  "testing_section_content": "Our testing protocol covers five critical dimensions. First, thermal performance: we measure actual temperature across multiple chamber points and compare against displayed settings using calibrated infrared sensors. Second, cooking consistency: each model prepares identical portions of standard test foods (potato wedges, chicken cutlets, broccoli) with visual assessment and colour analysis for browning uniformity. Third, actual energy consumption: we measure real-world power draw during 50 complete cooking cycles at a wall socket. Fourth, usability: control ergonomics, display readability, smartphone app functionality where applicable, and ease of cleaning. Fifth, longevity: mechanical reliability testing, gasket integrity after 500 cycles, thermal stability over extended use periods. The Nura Score synthesises all data into a 0-100 rating enabling objective comparison of every model we test.",
+  "testing_section_title": "How We Compare",
+  "testing_section_content": "We do not test products ourselves. Each air fryer is compared using three sources: manufacturer specification sheets, cross-checked verified buyer reviews (Amazon, Google), and tests published by the specialist press. We review this data against five criteria: cooking quality, value for money, ease of use, energy consumption, and design. The Nura Score /10 aggregates these criteria in a weighted way so every model is compared on the same basis. No manufacturer can buy a better score.",
   "recommendation_section_title": "Quick Guide: Which Air Fryer for You?",
   "recommendation_section_content": "Starting out and want budget-friendly? The Cosori Lite (2.6L) and Tefal Compact (4L) deliver excellent value under £120, with solid performance and intuitive controls perfect for first-time buyers. Large household (5+ people)? Invest in XXL models like the Ninja AF500 (5.2L) or Philips 6L XL that handle family meals efficiently, with dual-basket options if you need simultaneous cooking. Tech-savvy and want app control? The Ninja Foodi Smart (WiFi-enabled) and Philips Connected range offer full smartphone control, intelligent presets, and cooking history tracking. Energy conscious and want to cut bills? Cosori Pro (1500W) and Tefal Precision (1400W) consume 15-20% less power than average models while maintaining top-tier thermal performance. Noise sensitive? Philips Compact (under 70dB) and Ninja Whisper Series operate quietly, ideal for open-plan kitchens. On a tight budget under £80? Cecotec Compact (2L) and Costway Ultra (1.8L) deliver no-compromise frying performance without premium pricing. Active cooks wanting menu variety? Philips Premium Series includes 200+ recipes; Ninja Foodi offers 101 preset programmes covering everything from appetisers to desserts.",
   "guide_intro_title": "How to choose the best air fryer in 2026?",
@@ -91,15 +91,15 @@
     },
     {
       "question": "What is the actual electricity consumption of an air fryer?",
-      "answer": "An air fryer's electricity consumption is significantly lower than a traditional oven. A standard air fryer draws between 800W and 1800W, averaging around 1400W for mid-range models. By comparison, a conventional oven uses 2000W to 3000W. According to our lab tests, an air fryer uses roughly 0.7 kWh to prepare a full meal (chips and chicken for four people), compared with 1.8 kWh for the same meal in an oven. With regular use (4-5 times per week over a year), savings amount to approximately £40-60 on your electricity bill. The most efficient models in our comparison are the Xiaomi Smart Air Fryer Pro (800W) and the Cosori Lite (900W) for smaller portions."
+      "answer": "An air fryer's electricity consumption is significantly lower than a traditional oven. A standard air fryer draws between 800W and 1800W, averaging around 1400W for mid-range models. By comparison, a conventional oven uses 2000W to 3000W. Based on manufacturers' rated power, an air fryer uses roughly 0.7 kWh to prepare a full meal (chips and chicken for four people), compared with 1.8 kWh for the same meal in an oven. With regular use (4-5 times per week over a year), savings amount to approximately £40-60 on your electricity bill. The most efficient models in our comparison are the Xiaomi Smart Air Fryer Pro (800W) and the Cosori Lite (900W) for smaller portions."
     },
     {
       "question": "Can you bake cakes and pastries in an air fryer?",
-      "answer": "Yes, air fryers are surprisingly versatile for baking! You can make muffins, brownies, cookies, small cakes, and even bread. The trick is to reduce the temperature by about 20°C compared to standard oven recipes and monitor the bake more closely, as the circulating hot air speeds up the process. Use silicone or paper moulds that fit your basket. Models with a flat base, such as the Philips Combi XXL, are best suited for baking. Our tested recipes: brownies at 150°C for 15 minutes, muffins at 160°C for 12 minutes, biscuits at 160°C for 8 minutes. The result: soft and moist inside, crispy outside, with virtually no preheating time."
+      "answer": "Yes, air fryers are surprisingly versatile for baking! You can make muffins, brownies, cookies, small cakes, and even bread. The trick is to reduce the temperature by about 20°C compared to standard oven recipes and monitor the bake more closely, as the circulating hot air speeds up the process. Use silicone or paper moulds that fit your basket. Models with a flat base, such as the Philips Combi XXL, are best suited for baking. Common cooking guidelines: brownies at 150°C for 15 minutes, muffins at 160°C for 12 minutes, biscuits at 160°C for 8 minutes. The result: soft and moist inside, crispy outside, with virtually no preheating time."
     },
     {
       "question": "Air fryer vs deep fat fryer: what are the differences?",
-      "answer": "The fundamental difference is the cooking method. A traditional deep fryer submerges food in 2-3 litres of hot oil (around 175°C), while an air fryer rapidly circulates very hot air instead. In our side-by-side tests, air-fried chips were slightly less crispy than deep-fried ones but contained 80% less fat. Health-wise, air frying dramatically reduces acrylamide, a potentially harmful compound that forms during high-temperature frying. Air fryers are also safer to use (no risk of hot oil splashing), much easier to clean, and far more versatile — you can roast, grill, and reheat as well. However, for an authentic deep-fried experience like traditional fish and chips, a conventional fryer still wins."
+      "answer": "The fundamental difference is the cooking method. A traditional deep fryer submerges food in 2-3 litres of hot oil (around 175°C), while an air fryer rapidly circulates very hot air instead. In practice, air-fried chips are slightly less crispy than deep-fried ones but contain up to 80% less fat. Health-wise, air frying dramatically reduces acrylamide, a potentially harmful compound that forms during high-temperature frying. Air fryers are also safer to use (no risk of hot oil splashing), much easier to clean, and far more versatile — you can roast, grill, and reheat as well. However, for an authentic deep-fried experience like traditional fish and chips, a conventional fryer still wins."
     },
     {
       "question": "Are air fryers really healthier?",
@@ -107,7 +107,7 @@
     },
     {
       "question": "How long does an air fryer last?",
-      "answer": "Based on our long-term durability testing, a quality air fryer lasts an average of 5 to 8 years with regular maintenance. The key factors that affect longevity are: the quality of the non-stick coating (ceramic models tend to outlast Teflon), the robustness of the drawer mechanism, and the quality of the heating element. In our comparisons, Philips and Ninja consistently score highest for durability, with appliances still performing well after 1,000+ cooking cycles in our lab. To maximise lifespan: clean after every use, avoid metal utensils on the non-stick surface, and never overload the basket beyond its recommended capacity."
+      "answer": "Based on verified buyer feedback and published tests, a quality air fryer lasts an average of 5 to 8 years with regular maintenance. The key factors that affect longevity are: the quality of the non-stick coating (ceramic models tend to outlast Teflon), the robustness of the drawer mechanism, and the quality of the heating element. In our comparisons, Philips and Ninja consistently score highest for durability, according to buyer feedback over several years of use. To maximise lifespan: clean after every use, avoid metal utensils on the non-stick surface, and never overload the basket beyond its recommended capacity."
     },
     {
       "question": "What is the best budget air fryer in 2026?",
@@ -115,7 +115,7 @@
     },
     {
       "question": "How is the Nura Score calculated?",
-      "answer": "The Nura Score is our proprietary rating system, calculated out of 10 across 5 rigorously lab-tested weighted criteria. Cooking quality (30%): we assess crispiness, browning uniformity, and versatility across 15 standardised recipes. Value for money (25%): we compare real-world performance against the price in each European market. Ease of use (15%): interface, automatic programmes, cleaning, basket ergonomics, and display readability. Energy efficiency (15%): power draw measured at the wall over 50 complete cycles, preheating time, and actual thermal efficiency. Design and build quality (15%): materials used, fit and finish, footprint, and mechanical durability testing over 500+ cycles. Every air fryer undergoes a minimum of 40 hours of testing before receiving its final score. The Nura Score is updated quarterly to reflect long-term user feedback."
+      "answer": "The Nura Score is our rating system, calculated out of 10 across 5 weighted criteria. We do not test products ourselves: each score draws on manufacturer specification sheets, cross-checked verified buyer reviews (Amazon, Google), and tests published by the specialist press. Cooking quality (30%): crispiness, browning uniformity, and versatility, as reported in verified reviews and published tests. Value for money (25%): reported performance against the price in each European market. Ease of use (15%): interface, automatic programmes, cleaning, basket ergonomics, and display readability. Energy consumption (15%): rated power, preheating time, and published consumption data. Design (15%): materials, fit and finish, footprint, and durability as reported by buyers. The Nura Score is updated quarterly to reflect long-term user feedback."
     }
   ]
 }

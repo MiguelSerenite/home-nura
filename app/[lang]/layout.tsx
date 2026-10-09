@@ -33,18 +33,18 @@ const geistSans = Geist({
 // "La Maison Connectée Européenne". Airfryers stay in the copy as
 // the flagship category but no longer define the scope.
 const metaTitles: Record<Lang, string> = {
-  fr: 'Home Nura | La Maison Connectée, testée pour l\'Europe',
-  en: 'Home Nura | The Smart Home, tested for Europe',
-  de: 'Home Nura | Das Smart Home, getestet für Europa',
-  es: 'Home Nura | El Hogar Conectado, probado para Europa',
-  it: 'Home Nura | La Casa Connessa, testata per l\'Europa',
-  nl: 'Home Nura | Het Slimme Huis, getest voor Europa',
+  fr: 'Home Nura | La Maison Connectée, comparée pour l\'Europe',
+  en: 'Home Nura | The Smart Home, compared for Europe',
+  de: 'Home Nura | Das Smart Home, verglichen für Europa',
+  es: 'Home Nura | El Hogar Conectado, comparado para Europa',
+  it: 'Home Nura | La Casa Connessa, confrontata per l\'Europa',
+  nl: 'Home Nura | Het Slimme Huis, vergeleken voor Europa',
 };
 
 const metaDescriptions: Record<Lang, string> = {
   fr: 'Comparatifs indépendants de la maison connectée européenne : cuisine, énergie, sécurité, confort, entretien et extérieur. 6 marchés, une seule méthode.',
   en: 'Independent reviews of the European smart home: kitchen, energy, security, comfort, cleaning and outdoors. Six markets, one shared method.',
-  de: 'Unabhängige Tests des europäischen Smart Home: Küche, Energie, Sicherheit, Komfort, Reinigung und Außenbereich. Sechs Märkte, eine Methode.',
+  de: 'Unabhängige Vergleiche des europäischen Smart Home: Küche, Energie, Sicherheit, Komfort, Reinigung und Außenbereich. Sechs Märkte, eine Methode.',
   es: 'Comparativas independientes del hogar conectado europeo: cocina, energía, seguridad, confort, limpieza y exterior. Seis mercados, un mismo método.',
   it: 'Confronti indipendenti della casa connessa europea: cucina, energia, sicurezza, comfort, pulizia ed esterno. Sei mercati, un solo metodo.',
   nl: 'Onafhankelijke vergelijkingen van het Europese slimme huis: keuken, energie, beveiliging, comfort, schoonmaak en buitenruimte. Zes markten, één methode.',

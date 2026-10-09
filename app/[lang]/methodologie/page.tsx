@@ -56,7 +56,7 @@ interface Content {
 const content: Record<Lang, Content> = {
   fr: {
     kicker: 'Méthodologie',
-    title: 'Comment Home Nura teste et note',
+    title: 'Comment Home Nura compare et note',
     subtitle:
       'La grille complète — sources, pondérations, mises à jour, indépendance. Rien d\'opaque.',
     intro:
@@ -124,7 +124,7 @@ const content: Record<Lang, Content> = {
   },
   en: {
     kicker: 'Methodology',
-    title: 'How Home Nura tests and rates',
+    title: 'How Home Nura compares and rates',
     subtitle:
       'The full grid — sources, weighting, refresh cadence, independence. Nothing opaque.',
     intro:
@@ -192,7 +192,7 @@ const content: Record<Lang, Content> = {
   },
   de: {
     kicker: 'Methodik',
-    title: 'Wie Home Nura testet und bewertet',
+    title: 'Wie Home Nura vergleicht und bewertet',
     subtitle:
       'Das komplette Raster — Quellen, Gewichtung, Aktualisierungen, Unabhängigkeit. Nichts Undurchsichtiges.',
     intro:
@@ -260,7 +260,7 @@ const content: Record<Lang, Content> = {
   },
   es: {
     kicker: 'Metodología',
-    title: 'Cómo Home Nura prueba y puntúa',
+    title: 'Cómo Home Nura compara y puntúa',
     subtitle:
       'La rejilla completa — fuentes, ponderación, actualizaciones, independencia. Sin zonas opacas.',
     intro:
@@ -328,7 +328,7 @@ const content: Record<Lang, Content> = {
   },
   it: {
     kicker: 'Metodologia',
-    title: 'Come Home Nura testa e valuta',
+    title: 'Come Home Nura confronta e valuta',
     subtitle:
       'La griglia completa — fonti, ponderazione, aggiornamenti, indipendenza. Niente di opaco.',
     intro:
@@ -396,7 +396,7 @@ const content: Record<Lang, Content> = {
   },
   nl: {
     kicker: 'Methodologie',
-    title: 'Hoe Home Nura test en beoordeelt',
+    title: 'Hoe Home Nura vergelijkt en beoordeelt',
     subtitle:
       'Het volledige raster — bronnen, weging, updates, onafhankelijkheid. Niets ondoorzichtigs.',
     intro:

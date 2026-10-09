@@ -900,8 +900,8 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
             {
               href: `/${lang}/a-propos`,
               num: '02',
-              title: lang === 'fr' ? 'Notre méthodologie de test' : lang === 'de' ? 'Unsere Testmethodik' : lang === 'es' ? 'Nuestra metodología de pruebas' : lang === 'it' ? 'La nostra metodologia di test' : lang === 'nl' ? 'Onze testmethodologie' : 'Our Testing Methodology',
-              desc: lang === 'fr' ? 'Comment nous testons et notons chaque airfryer.' : lang === 'de' ? 'Wie wir jede Heißluftfritteuse testen und bewerten.' : lang === 'es' ? 'Cómo probamos y calificamos cada freidora.' : lang === 'it' ? 'Come testiamo e valutiamo ogni friggitrice.' : lang === 'nl' ? 'Hoe we elke airfryer testen en beoordelen.' : 'How we test and rate every air fryer.',
+              title: lang === 'fr' ? 'Notre méthodologie' : lang === 'de' ? 'Unsere Methodik' : lang === 'es' ? 'Nuestra metodología' : lang === 'it' ? 'La nostra metodologia' : lang === 'nl' ? 'Onze methodologie' : 'Our Methodology',
+              desc: lang === 'fr' ? 'Comment nous comparons et notons chaque airfryer.' : lang === 'de' ? 'Wie wir jede Heißluftfritteuse vergleichen und bewerten.' : lang === 'es' ? 'Cómo comparamos y calificamos cada freidora.' : lang === 'it' ? 'Come confrontiamo e valutiamo ogni friggitrice.' : lang === 'nl' ? 'Hoe we elke airfryer vergelijken en beoordelen.' : 'How we compare and rate every air fryer.',
             },
             {
               href: `/${lang}`,

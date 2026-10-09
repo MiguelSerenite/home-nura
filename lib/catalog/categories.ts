@@ -1110,12 +1110,12 @@ export const CATEGORIES: readonly Category[] = [
       nl: 'Luchtreinigers',
     },
     description: {
-      fr: 'Purificateurs Dyson, Philips, Xiaomi, Levoit testés sur les particules fines et les allergènes.',
-      en: 'Dyson, Philips, Xiaomi, Levoit purifiers tested for particulates and allergens.',
-      de: 'Luftreiniger von Dyson, Philips, Xiaomi, Levoit im Test gegen Feinstaub und Allergene.',
-      es: 'Purificadores Dyson, Philips, Xiaomi, Levoit probados frente a partículas y alérgenos.',
-      it: 'Purificatori Dyson, Philips, Xiaomi, Levoit testati su polveri sottili e allergeni.',
-      nl: 'Luchtreinigers van Dyson, Philips, Xiaomi, Levoit getest op fijnstof en allergenen.',
+      fr: 'Purificateurs Dyson, Philips, Xiaomi, Levoit comparés sur les particules fines et les allergènes.',
+      en: 'Dyson, Philips, Xiaomi, Levoit purifiers compared for particulates and allergens.',
+      de: 'Luftreiniger von Dyson, Philips, Xiaomi, Levoit im Vergleich bei Feinstaub und Allergenen.',
+      es: 'Purificadores Dyson, Philips, Xiaomi, Levoit comparados frente a partículas y alérgenos.',
+      it: 'Purificatori Dyson, Philips, Xiaomi, Levoit confrontati su polveri sottili e allergeni.',
+      nl: 'Luchtreinigers van Dyson, Philips, Xiaomi, Levoit vergeleken op fijnstof en allergenen.',
     },
     primaryKeyword: {
       fr: 'meilleur purificateur d\'air',
