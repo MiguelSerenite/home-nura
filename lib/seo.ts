@@ -145,7 +145,7 @@ export function buildPageMetadata(input: BuildPageMetadataInput): Metadata {
  * Bump this whenever the comparison/selection is refreshed so crawlers
  * (and LLM summarizers) pick up the freshness signal.
  */
-export const SITE_LAST_UPDATED_ISO = '2026-04-20'
+export const SITE_LAST_UPDATED_ISO = '2026-10-09'
 
 const localeMap: Record<string, string> = {
   fr: 'fr-FR',

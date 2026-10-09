@@ -55,6 +55,17 @@ export const CATEGORY_GUIDES: Record<string, { primary?: string; related: readon
   'eclairage-exterieur': { primary: 'eclairage-exterieur-solaire-connecte', related: ['guide-jardin-connecte-2026'] },
   'robots-piscine': { primary: 'piscine-connectee-guide', related: [] },
   'barbecues-connectes': { related: ['barbecue-connecte-thermometre-guide'] },
+  'fers-centrales-vapeur': { primary: 'centrale-vapeur-comparatif', related: [] },
+  'reveils-lumiere': { primary: 'reveil-lumiere-simulateur-aube-comparatif', related: [] },
+  'laveurs-vitres': { primary: 'robot-lave-vitre-comparatif', related: [] },
+  'bornes-recharge-ve': { primary: 'borne-recharge-voiture-electrique-maison', related: [] },
+  'trackers-objets': { primary: 'traceur-objets-connecte-comparatif', related: [] },
+  'lave-vaisselle-connectes': { primary: 'lave-vaisselle-connecte-guide', related: [] },
+  'stations-recharge-outdoor': { primary: 'station-electrique-portable-comparatif', related: [] },
+  'portails-garages': { primary: 'motorisation-portail-garage-connecte', related: [] },
+  diffuseurs: { primary: 'diffuseur-huiles-essentielles-connecte', related: [] },
+  'coffres-forts-connectes': { primary: 'coffre-fort-connecte-guide', related: [] },
+  'lave-linge-connectes': { primary: 'lave-linge-connecte-guide', related: [] },
 }
 
 const MAX_PICKS = 3

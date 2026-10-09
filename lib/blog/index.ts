@@ -84,6 +84,17 @@ import { article as aireAcondicionadoNoEnfria } from './articles/aire-acondicion
 import { article as ventiladorSilenciosoDormitorio } from './articles/ventilador-silencioso-dormitorio'
 import { article as robotAspiradorPisoPequeno } from './articles/robot-aspirador-piso-pequeno'
 import { article as aireAcondicionadoBajoConsumo } from './articles/mejor-aire-acondicionado-bajo-consumo'
+import { article as nwCentraleVapeurComparatif } from './articles/centrale-vapeur-comparatif'
+import { article as nwReveilLumiereSimulateurAubeComparatif } from './articles/reveil-lumiere-simulateur-aube-comparatif'
+import { article as nwRobotLaveVitreComparatif } from './articles/robot-lave-vitre-comparatif'
+import { article as nwBorneRechargeVoitureElectriqueMaison } from './articles/borne-recharge-voiture-electrique-maison'
+import { article as nwTraceurObjetsConnecteComparatif } from './articles/traceur-objets-connecte-comparatif'
+import { article as nwLaveVaisselleConnecteGuide } from './articles/lave-vaisselle-connecte-guide'
+import { article as nwStationElectriquePortableComparatif } from './articles/station-electrique-portable-comparatif'
+import { article as nwMotorisationPortailGarageConnecte } from './articles/motorisation-portail-garage-connecte'
+import { article as nwDiffuseurHuilesEssentiellesConnecte } from './articles/diffuseur-huiles-essentielles-connecte'
+import { article as nwCoffreFortConnecteGuide } from './articles/coffre-fort-connecte-guide'
+import { article as nwLaveLingeConnecteGuide } from './articles/lave-linge-connecte-guide'
 
 const ALL_ARTICLES: BlogArticle[] = [
   testNinjaFoodiMax,
@@ -167,6 +178,17 @@ const ALL_ARTICLES: BlogArticle[] = [
   ventiladorSilenciosoDormitorio,
   robotAspiradorPisoPequeno,
   aireAcondicionadoBajoConsumo,
+  nwCentraleVapeurComparatif,
+  nwReveilLumiereSimulateurAubeComparatif,
+  nwRobotLaveVitreComparatif,
+  nwBorneRechargeVoitureElectriqueMaison,
+  nwTraceurObjetsConnecteComparatif,
+  nwLaveVaisselleConnecteGuide,
+  nwStationElectriquePortableComparatif,
+  nwMotorisationPortailGarageConnecte,
+  nwDiffuseurHuilesEssentiellesConnecte,
+  nwCoffreFortConnecteGuide,
+  nwLaveLingeConnecteGuide,
 ]
 
 export function getAllArticles(): BlogArticle[] {
