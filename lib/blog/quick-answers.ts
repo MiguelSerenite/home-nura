@@ -2287,56 +2287,6 @@ export const QUICK_ANSWERS: Record<string, QuickAnswerData> = {
       }
     ]
   },
-  "eclairage-connecte-comparatif": {
-    "question": {
-      "fr": "Quel est le meilleur éclairage connecté en 2026 ?",
-      "en": "What is the best smart lighting system in 2026?",
-      "de": "Welches ist die beste smarte Beleuchtung 2026?",
-      "es": "¿Cuál es el mejor sistema de iluminación inteligente en 2026?",
-      "it": "Qual è il miglior sistema di illuminazione smart nel 2026?",
-      "nl": "Wat is de beste slimme verlichting in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Philips Hue Bridge",
-        "role": {
-          "fr": "Haut de gamme",
-          "en": "Premium pick",
-          "de": "Premium-Wahl",
-          "es": "Gama alta",
-          "it": "Fascia alta",
-          "nl": "Premiumkeuze"
-        },
-        "why": {
-          "fr": "La référence absolue : qualité de lumière supérieure, écosystème le plus riche et Zigbee fiable, pour les automatisations avancées, à un prix plus élevé.",
-          "en": "The absolute benchmark: superior light quality, the richest ecosystem and reliable Zigbee, suited to advanced automations, at a higher price.",
-          "de": "Der absolute Maßstab: überlegene Lichtqualität, das reichhaltigste Ökosystem und zuverlässiges Zigbee für fortgeschrittene Automatisierungen, zu einem höheren Preis.",
-          "es": "La referencia absoluta: calidad de luz superior, el ecosistema más rico y Zigbee fiable, pensado para automatizaciones avanzadas, a un precio más alto.",
-          "it": "Il riferimento assoluto: qualità della luce superiore, l'ecosistema più ricco e Zigbee affidabile, adatto ad automazioni avanzate, a un prezzo più alto.",
-          "nl": "De absolute maatstaf: superieure lichtkwaliteit, het rijkste ecosysteem en betrouwbare Zigbee, geschikt voor geavanceerde automatiseringen, tegen een hogere prijs."
-        }
-      },
-      {
-        "model": "IKEA Dirigera",
-        "role": {
-          "fr": "Meilleur rapport qualité-prix",
-          "en": "Best value",
-          "de": "Bestes Preis-Leistungs-Verhältnis",
-          "es": "Mejor relación calidad-precio",
-          "it": "Miglior rapporto qualità-prezzo",
-          "nl": "Beste prijs-kwaliteitverhouding"
-        },
-        "why": {
-          "fr": "Hub fiable compatible Zigbee et Matter avec des ampoules deux à trois fois moins chères que Hue, idéal pour équiper toute la maison à petit budget.",
-          "en": "A reliable Zigbee and Matter hub with bulbs two to three times cheaper than Hue, ideal for equipping a whole home on a small budget.",
-          "de": "Ein zuverlässiger Hub mit Zigbee und Matter, dessen Lampen zwei- bis dreimal günstiger sind als Hue, ideal, um das ganze Haus günstig auszustatten.",
-          "es": "Un hub fiable con Zigbee y Matter y bombillas dos o tres veces más baratas que Hue, ideal para equipar toda la casa con poco presupuesto.",
-          "it": "Un hub affidabile con Zigbee e Matter e lampadine da due a tre volte più economiche di Hue, ideale per equipaggiare tutta la casa con poco budget.",
-          "nl": "Een betrouwbare hub met Zigbee en Matter en lampen die twee tot drie keer goedkoper zijn dan Hue, ideaal om het hele huis voordelig uit te rusten."
-        }
-      }
-    ]
-  },
   "deshumidificateur-connecte-guide": {
     "question": {
       "fr": "Quel est le meilleur déshumidificateur connecté en 2026 ?",
@@ -3825,6 +3775,1524 @@ export const QUICK_ANSWERS: Record<string, QuickAnswerData> = {
           "es": "Lava 11 kg y seca 6 kg en un solo hueco, con motor AI DD, vapor y app LG ThinQ.",
           "it": "Lava 11 kg e asciuga 6 kg in un solo ingombro, con motore AI DD, vapore e app LG ThinQ.",
           "nl": "Wast 11 kg en droogt 6 kg op één plek, met AI DD-motor, stoom en de LG ThinQ-app."
+        }
+      }
+    ]
+  },
+  "interrupteur-connecte-comparatif": {
+    "question": {
+      "fr": "Quel est le meilleur interrupteur connecté en 2026 ?",
+      "en": "What is the best smart light switch in 2026?",
+      "de": "Was ist der beste smarte Lichtschalter 2026?",
+      "es": "¿Cuál es el mejor interruptor inteligente en 2026?",
+      "it": "Qual è il miglior interruttore smart nel 2026?",
+      "nl": "Wat is de beste slimme lichtschakelaar in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Aqara Light Switch H2 EU",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore in assoluto",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Fonctionne avec ou sans neutre, compatible Zigbee et Matter over Thread, et ouvert à Apple Home, Google Home, Alexa et Home Assistant.",
+          "en": "Works with or without a neutral, supports Zigbee and Matter over Thread, and joins Apple Home, Google Home, Alexa and Home Assistant.",
+          "de": "Funktioniert mit und ohne Neutralleiter, unterstützt Zigbee und Matter over Thread und passt zu Apple Home, Google Home, Alexa und Home Assistant.",
+          "es": "Funciona con o sin neutro, admite Zigbee y Matter over Thread y se integra en Apple Home, Google Home, Alexa y Home Assistant.",
+          "it": "Funziona con o senza neutro, supporta Zigbee e Matter over Thread e si integra con Apple Home, Google Home, Alexa e Home Assistant.",
+          "nl": "Werkt met of zonder nuldraad, ondersteunt Zigbee en Matter over Thread en werkt met Apple Home, Google Home, Alexa en Home Assistant."
+        }
+      },
+      {
+        "model": "Shelly 1PM Gen4",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "Module 16 A caché derrière vos interrupteurs actuels, avec mesure de consommation, Wi-Fi, Zigbee et Matter sans passerelle (neutre requis).",
+          "en": "A 16 A relay hidden behind your existing switches, with energy monitoring, Wi-Fi, Zigbee and Matter and no hub needed (neutral required).",
+          "de": "16-A-Relais hinter Ihren vorhandenen Schaltern, mit Verbrauchsmessung, WLAN, Zigbee und Matter ohne Bridge (Neutralleiter nötig).",
+          "es": "Relé de 16 A oculto tras tus interruptores actuales, con medición de consumo, Wi-Fi, Zigbee y Matter sin pasarela (requiere neutro).",
+          "it": "Relè da 16 A nascosto dietro gli interruttori esistenti, con misura dei consumi, Wi-Fi, Zigbee e Matter senza gateway (neutro richiesto).",
+          "nl": "16 A-relais achter je bestaande schakelaars, met verbruiksmeting, wifi, Zigbee en Matter zonder hub (nuldraad vereist)."
+        }
+      },
+      {
+        "model": "Philips Hue Tap Dial Switch",
+        "role": {
+          "fr": "Idéal pour ampoules connectées",
+          "en": "Best for smart bulbs",
+          "de": "Ideal für smarte Lampen",
+          "es": "Ideal para bombillas inteligentes",
+          "it": "Ideale per lampadine smart",
+          "nl": "Ideaal voor slimme lampen"
+        },
+        "why": {
+          "fr": "Commande sur pile sans câblage, avec quatre boutons de scènes et une molette de variation pour piloter vos ampoules Hue.",
+          "en": "Battery-powered control with no wiring, four scene buttons and a dimming dial to run your Hue bulbs.",
+          "de": "Batteriebetriebener Schalter ohne Verkabelung, mit vier Szenentasten und Drehrad zum Dimmen Ihrer Hue-Lampen.",
+          "es": "Mando a pilas sin cableado, con cuatro botones de escenas y una rueda de regulación para controlar tus bombillas Hue.",
+          "it": "Comando a batteria senza cablaggio, con quattro tasti per le scene e una ghiera per regolare le lampadine Hue.",
+          "nl": "Bediening op batterij zonder bekabeling, met vier scèneknoppen en een draaiknop om je Hue-lampen te dimmen."
+        }
+      }
+    ]
+  },
+  "box-domotique-hub-comparatif": {
+    "question": {
+      "fr": "Quelle est la meilleure box domotique en 2026 ?",
+      "en": "What is the best smart home hub in 2026?",
+      "de": "Was ist die beste Smart-Home-Zentrale 2026?",
+      "es": "¿Cuál es el mejor hub domótico en 2026?",
+      "it": "Qual è il miglior hub domotico nel 2026?",
+      "nl": "Wat is de beste smart-home-hub in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Homey Pro (Early 2023)",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta assoluta",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Zigbee, Z-Wave, Thread, Matter, infrarouge et 433 MHz intégrés, automatisations locales et application simple.",
+          "en": "Built-in Zigbee, Z-Wave, Thread, Matter, infrared and 433 MHz, local automations and a simple app.",
+          "de": "Zigbee, Z-Wave, Thread, Matter, Infrarot und 433 MHz integriert, lokale Automationen und einfache App.",
+          "es": "Zigbee, Z-Wave, Thread, Matter, infrarrojos y 433 MHz integrados, automatizaciones locales y app sencilla.",
+          "it": "Zigbee, Z-Wave, Thread, Matter, infrarossi e 433 MHz integrati, automazioni locali e app semplice.",
+          "nl": "Zigbee, Z-Wave, Thread, Matter, infrarood en 433 MHz ingebouwd, lokale automatiseringen en een eenvoudige app."
+        }
+      },
+      {
+        "model": "Aqara Hub M3",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Contrôleur Matter, routeur Thread, Zigbee, infrarouge 360° et PoE, avec automatisations exécutées en local.",
+          "en": "Matter controller, Thread border router, Zigbee, 360° infrared and PoE, with locally executed automations.",
+          "de": "Matter-Controller, Thread-Border-Router, Zigbee, 360°-Infrarot und PoE, mit lokal ausgeführten Automationen.",
+          "es": "Controlador Matter, router de borde Thread, Zigbee, infrarrojos de 360° y PoE, con automatizaciones en local.",
+          "it": "Controller Matter, border router Thread, Zigbee, infrarossi a 360° e PoE, con automazioni eseguite in locale.",
+          "nl": "Matter-controller, Thread-border-router, Zigbee, 360°-infrarood en PoE, met lokaal uitgevoerde automatiseringen."
+        }
+      },
+      {
+        "model": "Home Assistant Green",
+        "role": {
+          "fr": "Idéal pour les passionnés",
+          "en": "Best for power users",
+          "de": "Ideal für Enthusiasten",
+          "es": "Ideal para usuarios avanzados",
+          "it": "Ideale per utenti esperti",
+          "nl": "Ideaal voor gevorderden"
+        },
+        "why": {
+          "fr": "Logiciel libre 100 % local, plus de 2 000 intégrations ; radios Zigbee/Thread et Z-Wave via adaptateurs ZBT-2 et ZWA-2.",
+          "en": "Fully local open-source software with 2,000+ integrations; Zigbee/Thread and Z-Wave via ZBT-2 and ZWA-2 adapters.",
+          "de": "Vollständig lokale Open-Source-Software mit über 2.000 Integrationen; Zigbee/Thread und Z-Wave per ZBT-2 und ZWA-2.",
+          "es": "Software libre totalmente local con más de 2.000 integraciones; Zigbee/Thread y Z-Wave con adaptadores ZBT-2 y ZWA-2.",
+          "it": "Software open source tutto locale con oltre 2.000 integrazioni; Zigbee/Thread e Z-Wave con adattatori ZBT-2 e ZWA-2.",
+          "nl": "Volledig lokale opensourcesoftware met 2.000+ integraties; Zigbee/Thread en Z-Wave via ZBT-2- en ZWA-2-adapters."
+        }
+      }
+    ]
+  },
+  "alarme-exterieure-detecteur-jardin": {
+    "question": {
+      "fr": "Quel est le meilleur détecteur ou la meilleure sirène extérieure pour jardin en 2026 ?",
+      "en": "What is the best outdoor alarm sensor or siren for a garden in 2026?",
+      "de": "Welcher Außenmelder oder welche Außensirene ist 2026 die beste für den Garten?",
+      "es": "¿Cuál es el mejor detector o sirena exterior para jardín en 2026?",
+      "it": "Qual è il miglior rilevatore o la migliore sirena da esterno per il giardino nel 2026?",
+      "nl": "Wat is de beste buitensensor of buitensirene voor de tuin in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Ajax MotionProtect Outdoor",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Double capteur PIR, portée réglable de 3 à 15 m et immunité aux animaux jusqu'à 80 cm pour limiter les fausses alarmes.",
+          "en": "Dual PIR sensors, 3 to 15 m adjustable range and pet immunity up to 80 cm to keep false alarms down.",
+          "de": "Doppel-PIR, einstellbare Reichweite von 3 bis 15 m und Haustierimmunität bis 80 cm gegen Fehlalarme.",
+          "es": "Doble sensor PIR, alcance ajustable de 3 a 15 m e inmunidad a mascotas hasta 80 cm para evitar falsas alarmas.",
+          "it": "Doppio sensore PIR, portata regolabile da 3 a 15 m e immunità agli animali fino a 80 cm contro i falsi allarmi.",
+          "nl": "Dubbele PIR-sensor, instelbaar bereik van 3 tot 15 m en huisdierimmuniteit tot 80 cm tegen vals alarm."
+        }
+      },
+      {
+        "model": "Ring Alarm Outdoor Siren",
+        "role": {
+          "fr": "Idéal pour l'écosystème Ring",
+          "en": "Best for Ring users",
+          "de": "Ideal für Ring-Nutzer",
+          "es": "Ideal para usuarios de Ring",
+          "it": "Ideale per chi usa Ring",
+          "nl": "Ideaal voor Ring-gebruikers"
+        },
+        "why": {
+          "fr": "Sirène IP66 de plus de 100 dB avec stroboscope, volume réglable et recharge solaire possible via le Ring Solar Panel.",
+          "en": "IP66 siren rated over 100 dB with a strobe, adjustable volume and optional solar charging via the Ring Solar Panel.",
+          "de": "IP66-Sirene mit über 100 dB, Stroboskop, einstellbarer Lautstärke und optionaler Solarladung über das Ring Solar Panel.",
+          "es": "Sirena IP66 de más de 100 dB con estroboscópica, volumen ajustable y recarga solar opcional con el Ring Solar Panel.",
+          "it": "Sirena IP66 oltre i 100 dB con strobo, volume regolabile e ricarica solare opzionale tramite il Ring Solar Panel.",
+          "nl": "IP66-sirene van meer dan 100 dB met stroboscoop, instelbaar volume en optioneel zonneladen via het Ring Solar Panel."
+        }
+      },
+      {
+        "model": "Philips Hue Outdoor Motion Sensor",
+        "role": {
+          "fr": "Meilleur pour l'éclairage automatique",
+          "en": "Best for automatic lighting",
+          "de": "Beste Wahl für automatisches Licht",
+          "es": "Mejor para iluminación automática",
+          "it": "Migliore per l'illuminazione automatica",
+          "nl": "Beste voor automatische verlichting"
+        },
+        "why": {
+          "fr": "Allume vos lampes Hue extérieures dès un passage : 12 m sur 160°, IP54, capteur de luminosité. Un complément, pas une alarme.",
+          "en": "Turns on your outdoor Hue lights as someone passes: 12 m over 160°, IP54, daylight sensor. A complement, not an alarm.",
+          "de": "Schaltet Hue-Außenleuchten bei Bewegung ein: 12 m auf 160°, IP54, Tageslichtsensor. Eine Ergänzung, keine Alarmanlage.",
+          "es": "Enciende tus luces Hue exteriores al paso: 12 m en 160°, IP54, sensor de luz. Un complemento, no una alarma.",
+          "it": "Accende le luci Hue da esterno al passaggio: 12 m su 160°, IP54, sensore di luminosità. Un complemento, non un allarme.",
+          "nl": "Zet je Hue-buitenlampen aan bij beweging: 12 m over 160°, IP54, daglichtsensor. Een aanvulling, geen alarm."
+        }
+      }
+    ]
+  },
+  "rideau-motorise-connecte-guide": {
+    "question": {
+      "fr": "Quel est le meilleur rideau motorisé connecté en 2026 ?",
+      "en": "What is the best smart motorised curtain in 2026?",
+      "de": "Welcher ist der beste smarte Vorhangantrieb 2026?",
+      "es": "¿Cuál es la mejor cortina motorizada inteligente en 2026?",
+      "it": "Qual è la migliore tenda motorizzata smart nel 2026?",
+      "nl": "Wat is het beste slimme gemotoriseerde gordijn in 2026?"
+    },
+    "picks": [
+      {
+        "model": "SwitchBot Curtain 3",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Versions tringle, rail en U et rail en I, jusqu'à 15 kg, mode silencieux et Matter via hub SwitchBot : le robot le plus polyvalent.",
+          "en": "Rod, U-rail and I-rail versions, up to 15 kg, quiet mode and Matter via a SwitchBot hub: the most versatile curtain robot.",
+          "de": "Versionen für Stange, U- und I-Schiene, bis 15 kg, Leisemodus und Matter über SwitchBot Hub: der vielseitigste Vorhangroboter.",
+          "es": "Versiones para barra, riel en U y riel en I, hasta 15 kg, modo silencioso y Matter con hub SwitchBot: el robot más versátil.",
+          "it": "Versioni per bastone, binario a U e a I, fino a 15 kg, modalità silenziosa e Matter con hub SwitchBot: il robot più versatile.",
+          "nl": "Versies voor roede, U-rail en I-rail, tot 15 kg, stille modus en Matter via SwitchBot-hub: de veelzijdigste gordijnrobot."
+        }
+      },
+      {
+        "model": "Aqara Curtain Driver E1",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Batterie de 6 000 mAh jusqu'à 12 mois, capteur de luminosité intégré et Zigbee 3.0 : idéal si vous avez déjà un hub Aqara.",
+          "en": "6,000 mAh battery lasting up to 12 months, built-in light sensor and Zigbee 3.0: ideal if you already own an Aqara hub.",
+          "de": "6.000-mAh-Akku mit bis zu 12 Monaten Laufzeit, Lichtsensor und Zigbee 3.0: ideal, wenn Sie bereits einen Aqara Hub haben.",
+          "es": "Batería de 6.000 mAh de hasta 12 meses, sensor de luz integrado y Zigbee 3.0: ideal si ya tienes un hub Aqara.",
+          "it": "Batteria da 6.000 mAh fino a 12 mesi, sensore di luce integrato e Zigbee 3.0: ideale se hai già un hub Aqara.",
+          "nl": "Batterij van 6.000 mAh tot 12 maanden, ingebouwde lichtsensor en Zigbee 3.0: ideaal als u al een Aqara-hub hebt."
+        }
+      },
+      {
+        "model": "Eve MotionBlinds Upgrade Kit",
+        "role": {
+          "fr": "Idéal pour stores enrouleurs Matter",
+          "en": "Best for Matter roller blinds",
+          "de": "Ideal für Rollos mit Matter",
+          "es": "Ideal para estores enrollables con Matter",
+          "it": "Ideale per tende a rullo Matter",
+          "nl": "Ideaal voor rolgordijnen met Matter"
+        },
+        "why": {
+          "fr": "Moteur à glisser dans le tube d'un store existant, Thread et Matter natifs, jusqu'à un an d'autonomie et ombrage adaptatif sur iPhone.",
+          "en": "A motor that slides into an existing blind's tube, native Thread and Matter, up to a year of battery life and Adaptive Shading on iPhone.",
+          "de": "Motor für die Welle eines vorhandenen Rollos, Thread und Matter nativ, bis zu ein Jahr Akkulaufzeit und adaptive Beschattung am iPhone.",
+          "es": "Motor que se introduce en el tubo de un estor existente, Thread y Matter nativos, hasta un año de batería y sombreado adaptativo en iPhone.",
+          "it": "Motore da inserire nel tubo di una tenda esistente, Thread e Matter nativi, fino a un anno di autonomia e ombreggiatura adattiva su iPhone.",
+          "nl": "Motor die in de buis van een bestaand rolgordijn schuift, native Thread en Matter, tot een jaar batterijduur en adaptieve zonwering op iPhone."
+        }
+      }
+    ]
+  },
+  "batterie-domestique-stockage-solaire": {
+    "question": {
+      "fr": "Quelle est la meilleure batterie domestique pour panneaux solaires en 2026 ?",
+      "en": "What is the best home battery for solar panels in 2026?",
+      "de": "Welcher ist der beste Batteriespeicher für Solaranlagen 2026?",
+      "es": "¿Cuál es la mejor batería doméstica para placas solares en 2026?",
+      "it": "Qual è la migliore batteria domestica per pannelli solari nel 2026?",
+      "nl": "Wat is de beste thuisbatterij voor zonnepanelen in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Anker SOLIX Solarbank 3 E2700 Pro",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Batterie plug-in tout-en-un de 2,7 kWh avec entrées solaires, pilotage par compteur intelligent et extensions au-delà de 10 kWh.",
+          "en": "All-in-one 2.7 kWh plug-in battery with solar inputs, smart meter control and expansion beyond 10 kWh.",
+          "de": "All-in-one-Steckerspeicher mit 2,7 kWh, Solareingängen, Smart-Meter-Steuerung und Erweiterung über 10 kWh.",
+          "es": "Batería enchufable todo en uno de 2,7 kWh con entradas solares, control por contador inteligente y ampliación a más de 10 kWh.",
+          "it": "Batteria plug-in tutto in uno da 2,7 kWh con ingressi solari, controllo da contatore intelligente ed espansione oltre 10 kWh.",
+          "nl": "Alles-in-één plug-in batterij van 2,7 kWh met zonne-ingangen, aansturing via slimme meter en uitbreiding tot boven 10 kWh."
+        }
+      },
+      {
+        "model": "Marstek Venus E 3.0",
+        "role": {
+          "fr": "Meilleur rapport capacité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "5,12 kWh en LiFePO4 dans un seul boîtier couplé en AC, compatible avec toute installation et dotée d'une prise de secours.",
+          "en": "5.12 kWh of LiFePO4 in a single AC-coupled unit that works with any solar system and includes a backup socket.",
+          "de": "5,12 kWh LiFePO4 in einem AC-gekoppelten Gerät, passend zu jeder Anlage und mit Notstromsteckdose.",
+          "es": "5,12 kWh LiFePO4 en un solo equipo acoplado en AC, compatible con cualquier instalación y con enchufe de emergencia.",
+          "it": "5,12 kWh LiFePO4 in un'unica unità accoppiata in AC, compatibile con qualsiasi impianto e con presa di emergenza.",
+          "nl": "5,12 kWh LiFePO4 in één AC-gekoppeld toestel, geschikt voor elke installatie en met noodstroomstopcontact."
+        }
+      },
+      {
+        "model": "Tesla Powerwall 3",
+        "role": {
+          "fr": "Idéale pour secourir toute la maison",
+          "en": "Best for whole-home backup",
+          "de": "Ideal für Notstrom im ganzen Haus",
+          "es": "Ideal para respaldar toda la casa",
+          "it": "Ideale per il backup di tutta la casa",
+          "nl": "Ideaal voor noodstroom in het hele huis"
+        },
+        "why": {
+          "fr": "13,5 kWh utilisables, onduleur solaire intégré et jusqu'à 11,04 kW de puissance, posée par un installateur certifié.",
+          "en": "13.5 kWh usable, built-in solar inverter and up to 11.04 kW of output, fitted by a certified installer.",
+          "de": "13,5 kWh nutzbar, integrierter Solarwechselrichter und bis zu 11,04 kW Leistung, montiert vom zertifizierten Installateur.",
+          "es": "13,5 kWh útiles, inversor solar integrado y hasta 11,04 kW de potencia, instalada por un instalador certificado.",
+          "it": "13,5 kWh utilizzabili, inverter solare integrato e fino a 11,04 kW di potenza, installata da un installatore certificato.",
+          "nl": "13,5 kWh bruikbaar, ingebouwde zonne-omvormer en tot 11,04 kW vermogen, geplaatst door een gecertificeerde installateur."
+        }
+      }
+    ]
+  },
+  "humidificateur-connecte-comparatif": {
+    "question": {
+      "fr": "Quel est le meilleur humidificateur connecté en 2026 ?",
+      "en": "What is the best smart humidifier in 2026?",
+      "de": "Welcher ist der beste smarte Luftbefeuchter 2026?",
+      "es": "¿Cuál es el mejor humidificador inteligente en 2026?",
+      "it": "Qual è il miglior umidificatore smart nel 2026?",
+      "nl": "Wat is de beste slimme luchtbevochtiger in 2026?"
+    },
+    "picks": [
+      {
+        "model": "BONECO H700 SMART",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Humidification par évaporation sans poussière blanche, purification HEPA intégrée et pilotage Wi-Fi pour les grandes pièces.",
+          "en": "Evaporative humidification with no white dust, built-in HEPA purification and Wi-Fi control for large rooms.",
+          "de": "Verdunstung ohne weißen Staub, integrierte HEPA-Luftreinigung und WLAN-Steuerung für große Räume.",
+          "es": "Humidificación evaporativa sin polvo blanco, purificación HEPA integrada y control por wifi para estancias grandes.",
+          "it": "Umidificazione evaporativa senza polvere bianca, purificazione HEPA integrata e controllo Wi-Fi per ambienti ampi.",
+          "nl": "Verdampingsbevochtiging zonder wit stof, ingebouwde HEPA-zuivering en wifibediening voor grote ruimtes."
+        }
+      },
+      {
+        "model": "Levoit Classic 300S",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Ultrasons 6 L à remplissage par le haut, mode automatique, app VeSync et compatibilité Alexa et Google à prix d'entrée de gamme.",
+          "en": "6 L top-fill ultrasonic unit with auto mode, VeSync app and Alexa and Google support at an entry-level tier.",
+          "de": "6-Liter-Ultraschallgerät mit Befüllung von oben, Automatik, VeSync-App sowie Alexa und Google im Einstiegssegment.",
+          "es": "Ultrasónico de 6 L con llenado superior, modo automático, app VeSync y compatibilidad con Alexa y Google en gama de entrada.",
+          "it": "Ultrasuoni da 6 L con riempimento dall'alto, modalità auto, app VeSync e compatibilità Alexa e Google in fascia d'ingresso.",
+          "nl": "Ultrasone 6 L-bevochtiger met vullen via de bovenkant, automatische stand, VeSync-app en Alexa en Google, instapsegment."
+        }
+      },
+      {
+        "model": "Dyson Purifier Humidify+Cool Formaldehyde PH04",
+        "role": {
+          "fr": "Idéal pour les allergiques",
+          "en": "Best for allergy sufferers",
+          "de": "Ideal für Allergiker",
+          "es": "Ideal para alérgicos",
+          "it": "Ideale per chi soffre di allergie",
+          "nl": "Ideaal bij allergieën"
+        },
+        "why": {
+          "fr": "Purificateur HEPA H13, humidificateur par évaporation avec eau traitée aux UV-C et ventilateur réunis dans un seul appareil connecté.",
+          "en": "HEPA H13 purifier, evaporative humidifier with UV-C treated water and fan combined in one connected device.",
+          "de": "HEPA-H13-Luftreiniger, Verdunster mit UV-C-behandeltem Wasser und Ventilator in einem vernetzten Gerät.",
+          "es": "Purificador HEPA H13, humidificador evaporativo con agua tratada por UV-C y ventilador en un solo aparato conectado.",
+          "it": "Purificatore HEPA H13, umidificatore evaporativo con acqua trattata UV-C e ventilatore in un unico apparecchio connesso.",
+          "nl": "HEPA H13-luchtreiniger, verdampingsbevochtiger met UV-C-behandeld water en ventilator in één verbonden toestel."
+        }
+      }
+    ]
+  },
+  "detecteur-mouvement-connecte-comparatif": {
+    "question": {
+      "fr": "Quel est le meilleur détecteur de mouvement connecté en 2026 ?",
+      "en": "What is the best smart motion sensor in 2026?",
+      "de": "Welcher ist der beste smarte Bewegungsmelder 2026?",
+      "es": "¿Cuál es el mejor sensor de movimiento inteligente en 2026?",
+      "it": "Qual è il miglior sensore di movimento smart nel 2026?",
+      "nl": "Wat is de beste slimme bewegingssensor in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Aqara Motion and Light Sensor P2",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Gesamtwahl",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Capteur PIR 170° compatible Matter over Thread, avec capteur de luminosité et jusqu'à deux ans d'autonomie annoncée.",
+          "en": "A 170° PIR sensor on Matter over Thread, with a light sensor and up to two years of rated battery life.",
+          "de": "PIR-Sensor mit 170°, Matter over Thread, Helligkeitssensor und bis zu zwei Jahren angegebener Batterielaufzeit.",
+          "es": "Sensor PIR de 170° con Matter over Thread, sensor de luz y hasta dos años de autonomía anunciada.",
+          "it": "Sensore PIR a 170° con Matter over Thread, sensore di luce e fino a due anni di autonomia dichiarata.",
+          "nl": "PIR-sensor van 170° met Matter over Thread, lichtsensor en tot twee jaar opgegeven batterijduur."
+        }
+      },
+      {
+        "model": "IKEA MYGGSPRAY",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Entrée de gamme, Matter over Thread, IP67 pour l'intérieur comme l'extérieur, piles AAA rechargeables.",
+          "en": "Entry-level, Matter over Thread, IP67 for indoor and outdoor use, rechargeable AAA batteries.",
+          "de": "Einstiegsklasse, Matter over Thread, IP67 für drinnen und draußen, wiederaufladbare AAA-Akkus.",
+          "es": "Gama de entrada, Matter over Thread, IP67 para interior y exterior, pilas AAA recargables.",
+          "it": "Fascia d'ingresso, Matter over Thread, IP67 per interno ed esterno, pile AAA ricaricabili.",
+          "nl": "Instapklasse, Matter over Thread, IP67 voor binnen en buiten, oplaadbare AAA-batterijen."
+        }
+      },
+      {
+        "model": "Aqara Presence Sensor FP2",
+        "role": {
+          "fr": "Meilleur capteur de présence",
+          "en": "Best presence sensor",
+          "de": "Bester Präsenzmelder",
+          "es": "Mejor sensor de presencia",
+          "it": "Miglior sensore di presenza",
+          "nl": "Beste aanwezigheidssensor"
+        },
+        "why": {
+          "fr": "Radar mmWave qui détecte une personne immobile, jusqu'à 30 zones et cinq personnes, sans pile à changer.",
+          "en": "mmWave radar that detects people sitting still, with up to 30 zones and five people, and no batteries to change.",
+          "de": "mmWave-Radar erkennt auch ruhende Personen, bis zu 30 Zonen und fünf Personen, kein Batteriewechsel.",
+          "es": "Radar mmWave que detecta a personas inmóviles, hasta 30 zonas y cinco personas, sin pilas que cambiar.",
+          "it": "Radar mmWave che rileva anche persone immobili, fino a 30 zone e cinque persone, senza pile da cambiare.",
+          "nl": "mmWave-radar die ook stilzittende personen ziet, tot 30 zones en vijf personen, geen batterijen te vervangen."
+        }
+      }
+    ]
+  },
+  "compteur-energie-connecte-comparatif": {
+    "question": {
+      "fr": "Quel est le meilleur compteur d'énergie connecté en 2026 ?",
+      "en": "What is the best home energy monitor in 2026?",
+      "de": "Welcher ist der beste Energiemonitor 2026?",
+      "es": "¿Cuál es el mejor medidor de energía conectado en 2026?",
+      "it": "Qual è il miglior misuratore di energia connesso nel 2026?",
+      "nl": "Wat is de beste energiemonitor in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Shelly Pro 3EM",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Trois pinces, triphasé, mesure bidirectionnelle pour le solaire et intégration locale à Home Assistant.",
+          "en": "Three clamps, three-phase, two-way metering for solar and local Home Assistant integration.",
+          "de": "Drei Klemmen, dreiphasig, bidirektionale Messung für PV und lokale Home-Assistant-Integration.",
+          "es": "Tres pinzas, trifásico, medición bidireccional para solar e integración local con Home Assistant.",
+          "it": "Tre pinze, trifase, misura bidirezionale per il fotovoltaico e integrazione locale con Home Assistant.",
+          "nl": "Drie stroomtangen, driefase, meting in twee richtingen voor zonnepanelen en lokale Home Assistant-integratie."
+        }
+      },
+      {
+        "model": "Shelly EM Gen3",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Module compact à deux canaux pour le monophasé : consommation générale et un second circuit, en Wi-Fi.",
+          "en": "Compact two-channel single-phase monitor: whole-home use plus a second circuit, over Wi-Fi.",
+          "de": "Kompakter Zweikanal-Monitor für einphasige Anschlüsse: Gesamtverbrauch plus ein zweiter Stromkreis per WLAN.",
+          "es": "Módulo compacto de dos canales para monofásico: consumo general y un segundo circuito, por Wi-Fi.",
+          "it": "Modulo compatto a due canali per il monofase: consumo generale e un secondo circuito, via Wi-Fi.",
+          "nl": "Compacte tweekanaals-module voor eenfase: totaalverbruik plus een tweede groep, via wifi."
+        }
+      },
+      {
+        "model": "Lixee ZLinky_TIC",
+        "role": {
+          "fr": "Idéal avec un Linky",
+          "en": "Best for Linky meters",
+          "de": "Ideal für Linky-Zähler",
+          "es": "Ideal para contadores Linky",
+          "it": "Ideale per contatori Linky",
+          "nl": "Ideaal voor Linky-meters"
+        },
+        "why": {
+          "fr": "Se branche sur la prise TIC du Linky, alimenté par le compteur, en Zigbee 3.0 et sans électricien.",
+          "en": "Plugs into the Linky TIC terminals, powered by the meter, Zigbee 3.0, no electrician needed.",
+          "de": "Wird an die TIC-Klemmen des Linky gesteckt, vom Zähler versorgt, Zigbee 3.0, ohne Elektriker.",
+          "es": "Se conecta a la toma TIC del Linky, se alimenta del contador, Zigbee 3.0 y sin electricista.",
+          "it": "Si collega alla presa TIC del Linky, alimentato dal contatore, Zigbee 3.0 e senza elettricista.",
+          "nl": "Sluit aan op de TIC-klemmen van de Linky, gevoed door de meter, Zigbee 3.0, zonder installateur."
+        }
+      }
+    ]
+  },
+  "climatiseur-mobile-connecte-comparatif": {
+    "question": {
+      "fr": "Quel est le meilleur climatiseur mobile connecté en 2026 ?",
+      "en": "What is the best smart portable air conditioner in 2026?",
+      "de": "Welches ist das beste smarte mobile Klimagerät 2026?",
+      "es": "¿Cuál es el mejor aire acondicionado portátil conectado en 2026?",
+      "it": "Qual è il miglior condizionatore portatile connesso nel 2026?",
+      "nl": "Wat is de beste slimme mobiele airco in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Midea PortaSplit",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste totaalkeuze"
+        },
+        "why": {
+          "fr": "Split mobile 3,5 kW installable sans frigoriste : compresseur dehors, 39 dB(A) à l'intérieur en mode silence, classe A++ et chauffage.",
+          "en": "A 3.5 kW portable split you install yourself: compressor outside, 39 dB(A) indoors in silent mode, A++ class and heating too.",
+          "de": "Mobiles 3,5-kW-Split ohne Kältetechniker: Kompressor draußen, innen 39 dB(A) im Silent-Modus, Klasse A++ und Heizfunktion.",
+          "es": "Split portátil de 3,5 kW sin frigorista: compresor fuera, 39 dB(A) dentro en modo silencio, clase A++ y también calefacción.",
+          "it": "Split portatile da 3,5 kW senza frigorista: compressore all'esterno, 39 dB(A) in casa in modalità silenziosa, classe A++ e riscaldamento.",
+          "nl": "Mobiele split van 3,5 kW zonder koeltechnicus: compressor buiten, binnen 39 dB(A) in stille stand, klasse A++ en ook verwarming."
+        }
+      },
+      {
+        "model": "Midea Silent Cool 26 Pro WF",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "Monobloc 2,6 kW classe A (EER 2,6) pour 31 m², discret pour sa catégorie, avec app, Alexa, Google Assistant et capteur Follow Me.",
+          "en": "A 2.6 kW class A monoblock (EER 2.6) for 31 m², quiet for its type, with app, Alexa, Google Assistant and a Follow Me sensor.",
+          "de": "Monoblock mit 2,6 kW, Klasse A (EER 2,6) für 31 m², leise für seine Klasse, mit App, Alexa, Google Assistant und Follow-Me-Sensor.",
+          "es": "Monobloque de 2,6 kW clase A (EER 2,6) para 31 m², discreto para su tipo, con app, Alexa, Google Assistant y sensor Follow Me.",
+          "it": "Monoblocco da 2,6 kW in classe A (EER 2,6) per 31 m², silenzioso per la categoria, con app, Alexa, Google Assistant e sensore Follow Me.",
+          "nl": "Monoblok van 2,6 kW, klasse A (EER 2,6) voor 31 m², stil voor zijn type, met app, Alexa, Google Assistant en Follow Me-sensor."
+        }
+      },
+      {
+        "model": "Trotec PAC 3910 X WiFi",
+        "role": {
+          "fr": "Idéal pour les grandes pièces",
+          "en": "Best for large rooms",
+          "de": "Ideal für große Räume",
+          "es": "Ideal para estancias grandes",
+          "it": "Ideale per ambienti grandi",
+          "nl": "Ideaal voor grote ruimtes"
+        },
+        "why": {
+          "fr": "4,1 kW (14 000 BTU) pour des pièces jusqu'à 52 m², classe A, pilotage par app Wi-Fi, mode nuit et fonction Follow Me.",
+          "en": "4.1 kW (14,000 BTU) for rooms up to 52 m², class A, Wi-Fi app control, night mode and a Follow Me function.",
+          "de": "4,1 kW (14.000 BTU) für Räume bis 52 m², Klasse A, Steuerung per WLAN-App, Nachtmodus und Follow-Me-Funktion.",
+          "es": "4,1 kW (14.000 BTU) para estancias de hasta 52 m², clase A, control por app Wi-Fi, modo noche y función Follow Me.",
+          "it": "4,1 kW (14.000 BTU) per ambienti fino a 52 m², classe A, controllo via app Wi-Fi, modalità notte e funzione Follow Me.",
+          "nl": "4,1 kW (14.000 BTU) voor ruimtes tot 52 m², klasse A, bediening via wifi-app, nachtstand en Follow Me-functie."
+        }
+      }
+    ]
+  },
+  "robot-piscine-comparatif": {
+    "question": {
+      "fr": "Quel est le meilleur robot de piscine en 2026 ?",
+      "en": "What is the best pool cleaning robot in 2026?",
+      "de": "Welcher ist der beste Poolroboter 2026?",
+      "es": "¿Cuál es el mejor robot limpiafondos en 2026?",
+      "it": "Qual è il miglior robot piscina nel 2026?",
+      "nl": "Wat is de beste zwembadrobot in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Dolphin S300i",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Gesamtwahl",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta assoluta",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Fond, parois et ligne d’eau jusqu’à 12 m, sans limite de batterie, avec un filtre fin ou ultrafin retiré par le dessus.",
+          "en": "Cleans floor, walls and waterline in pools up to 12 m with no battery limit, and its fine or ultra-fine filter lifts out from the top.",
+          "de": "Reinigt Boden, Wände und Wasserlinie in Becken bis 12 m ohne Akkulimit; der feine oder ultrafeine Filter wird von oben entnommen.",
+          "es": "Limpia fondo, paredes y línea de flotación hasta 12 m sin límite de batería, con filtro fino o ultrafino que se saca por arriba.",
+          "it": "Pulisce fondo, pareti e linea d’acqua fino a 12 m senza limiti di batteria, con filtro fine o ultrafine estraibile dall’alto.",
+          "nl": "Reinigt bodem, wanden en waterlijn tot 12 m zonder accubeperking, met een fijn of ultrafijn filter dat je van bovenaf uitneemt."
+        }
+      },
+      {
+        "model": "Dolphin E35i",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "L’essentiel du S300i (12 m, ligne d’eau, appli MyDolphin Plus) avec chariot de transport et filtre ultrafin inclus.",
+          "en": "Most of the S300i’s features (12 m, waterline, MyDolphin Plus app) with a transport caddy and ultra-fine filter included.",
+          "de": "Das Wesentliche des S300i (12 m, Wasserlinie, App MyDolphin Plus) mit Transportcaddy und Ultrafeinfilter im Lieferumfang.",
+          "es": "Lo esencial del S300i (12 m, línea de flotación, app MyDolphin Plus) con carro de transporte y filtro ultrafino incluidos.",
+          "it": "L’essenziale del S300i (12 m, linea d’acqua, app MyDolphin Plus) con carrello di trasporto e filtro ultrafine inclusi.",
+          "nl": "Het belangrijkste van de S300i (12 m, waterlijn, app MyDolphin Plus) met transporttrolley en ultrafijn filter inbegrepen."
+        }
+      },
+      {
+        "model": "Beatbot AquaSense 2 Pro",
+        "role": {
+          "fr": "Meilleur sans fil",
+          "en": "Best cordless",
+          "de": "Bester kabelloser Roboter",
+          "es": "Mejor sin cable",
+          "it": "Miglior senza fili",
+          "nl": "Beste snoerloze robot"
+        },
+        "why": {
+          "fr": "Sans câble, il nettoie aussi la surface, couvre jusqu’à 360 m² et annonce jusqu’à 5 h d’autonomie sur fond et parois.",
+          "en": "Cable-free, it also skims the surface, covers up to 360 m² and is rated for up to 5 hours on floor and walls.",
+          "de": "Ohne Kabel, reinigt auch die Oberfläche, deckt bis 360 m² ab und ist für bis zu 5 Stunden auf Boden und Wänden angegeben.",
+          "es": "Sin cable, también limpia la superficie, cubre hasta 360 m² y anuncia hasta 5 horas de autonomía en fondo y paredes.",
+          "it": "Senza cavo, pulisce anche la superficie, copre fino a 360 m² e dichiara fino a 5 ore di autonomia su fondo e pareti.",
+          "nl": "Zonder snoer, reinigt ook het oppervlak, dekt tot 360 m² en is opgegeven voor tot 5 uur op bodem en wanden."
+        }
+      }
+    ]
+  },
+  "grill-pellet-plancha-connecte-comparatif": {
+    "question": {
+      "fr": "Quel est le meilleur barbecue connecté en 2026 ?",
+      "en": "What is the best smart grill in 2026?",
+      "de": "Welcher ist der beste smarte Grill 2026?",
+      "es": "¿Cuál es la mejor barbacoa inteligente en 2026?",
+      "it": "Qual è il miglior barbecue smart nel 2026?",
+      "nl": "Wat is de beste slimme barbecue in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Weber Searwood 600",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore in assoluto",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Barbecue à pellets de 80 à 315 °C qui fume et saisit, piloté en Wi-Fi et Bluetooth via Weber Connect, avec deux sondes fournies.",
+          "en": "Pellet grill from 80 to 315 °C that both smokes and sears, controlled over Wi-Fi and Bluetooth via Weber Connect, with two probes included.",
+          "de": "Pelletgrill von 80 bis 315 °C, der smokt und scharf angrillt, per WLAN und Bluetooth über Weber Connect steuerbar, mit zwei Fühlern.",
+          "es": "Barbacoa de pellets de 80 a 315 °C que ahúma y sella, controlada por Wi-Fi y Bluetooth con Weber Connect, con dos sondas incluidas.",
+          "it": "Barbecue a pellet da 80 a 315 °C che affumica e scotta, controllabile via Wi-Fi e Bluetooth con Weber Connect, con due sonde incluse.",
+          "nl": "Pelletbarbecue van 80 tot 315 °C die rookt én dichtschroeit, bediend via wifi en bluetooth met Weber Connect, met twee sondes."
+        }
+      },
+      {
+        "model": "Ninja Woodfire Pro Connect XL",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix et balcon",
+          "en": "Best value and for balconies",
+          "de": "Preis-Leistungs-Tipp für den Balkon",
+          "es": "Mejor relación calidad-precio y balcón",
+          "it": "Miglior rapporto qualità-prezzo e balcone",
+          "nl": "Beste prijs-kwaliteit en voor balkons"
+        },
+        "why": {
+          "fr": "Compact et électrique, sept fonctions dont fumoir, réglage de 65 à 260 °C via l'application et sonde intégrée.",
+          "en": "Compact and electric, seven functions including smoker, 65–260 °C set from the app and a built-in probe.",
+          "de": "Kompakt und elektrisch, sieben Funktionen inklusive Smoker, 65–260 °C per App einstellbar und integrierter Fühler.",
+          "es": "Compacta y eléctrica, siete funciones con ahumador, de 65 a 260 °C desde la app y sonda integrada.",
+          "it": "Compatto ed elettrico, sette funzioni tra cui affumicatore, da 65 a 260 °C dall'app e sonda integrata.",
+          "nl": "Compact en elektrisch, zeven functies inclusief roken, 65–260 °C via de app en een ingebouwde sonde."
+        }
+      },
+      {
+        "model": "Weber Genesis EPX-335 Smart",
+        "role": {
+          "fr": "Meilleur barbecue gaz connecté",
+          "en": "Best smart gas grill",
+          "de": "Bester smarter Gasgrill",
+          "es": "Mejor barbacoa de gas inteligente",
+          "it": "Miglior barbecue a gas smart",
+          "nl": "Beste slimme gasbarbecue"
+        },
+        "why": {
+          "fr": "Trois brûleurs, zone de saisie puissante et thermomètre Wi-Fi avec alertes Weber Connect ; la flamme reste réglée à la main.",
+          "en": "Three burners, powerful sear zone and a Wi-Fi thermometer with Weber Connect alerts; the flame is still adjusted by hand.",
+          "de": "Drei Brenner, starke Sear Zone und WLAN-Thermometer mit Weber-Connect-Alarmen; die Flamme wird weiter von Hand geregelt.",
+          "es": "Tres quemadores, potente zona de sellado y termómetro Wi-Fi con alertas Weber Connect; la llama se regula a mano.",
+          "it": "Tre bruciatori, potente zona di scottatura e termometro Wi-Fi con avvisi Weber Connect; la fiamma si regola a mano.",
+          "nl": "Drie branders, krachtige sear zone en wifi-thermometer met Weber Connect-meldingen; de vlam regelt u nog met de hand."
+        }
+      }
+    ]
+  },
+  "eclairage-connecte-comparatif": {
+    "question": {
+      "fr": "Quel est le meilleur éclairage connecté en 2026 ?",
+      "en": "What is the best smart lighting in 2026?",
+      "de": "Welche ist die beste smarte Beleuchtung 2026?",
+      "es": "¿Cuál es la mejor iluminación inteligente en 2026?",
+      "it": "Qual è la migliore illuminazione smart nel 2026?",
+      "nl": "Wat is de beste slimme verlichting in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Philips Hue White and Color Ambiance E27",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Jusqu'à 1 100 lm, millions de couleurs et l'écosystème Hue le plus complet : avec le Hue Bridge, automatisations avancées et Matter vers Apple, Google et Alexa.",
+          "en": "Up to 1,100 lm, millions of colours and the most complete Hue ecosystem: with the Hue Bridge you get advanced automations and Matter for Apple, Google and Alexa.",
+          "de": "Bis zu 1.100 lm, Millionen Farben und das umfassendste Hue-Ökosystem: Mit der Hue Bridge gibt es erweiterte Automationen und Matter für Apple, Google und Alexa.",
+          "es": "Hasta 1100 lm, millones de colores y el ecosistema Hue más completo: con el Hue Bridge, automatizaciones avanzadas y Matter para Apple, Google y Alexa.",
+          "it": "Fino a 1.100 lm, milioni di colori e l'ecosistema Hue più completo: con l'Hue Bridge, automazioni avanzate e Matter per Apple, Google e Alexa.",
+          "nl": "Tot 1.100 lm, miljoenen kleuren en het meest complete Hue-ecosysteem: met de Hue Bridge krijgt u geavanceerde automatiseringen en Matter voor Apple, Google en Alexa."
+        }
+      },
+      {
+        "model": "TP-Link Tapo L535E",
+        "role": {
+          "fr": "Meilleur choix sans hub",
+          "en": "Best without a hub",
+          "de": "Beste Wahl ohne Hub",
+          "es": "Mejor opción sin hub",
+          "it": "Miglior scelta senza hub",
+          "nl": "Beste keuze zonder hub"
+        },
+        "why": {
+          "fr": "Ampoule E27 couleur de 1 055 lm en WiFi direct et compatible Matter : la façon la plus simple et abordable de connecter quelques lampes sans hub.",
+          "en": "A 1,055 lm colour E27 bulb on direct Wi-Fi with Matter support: the simplest, most affordable way to connect a few lamps without a hub.",
+          "de": "Eine farbige E27-Lampe mit 1.055 lm, direktem WLAN und Matter: der einfachste und günstigste Weg, ein paar Leuchten ohne Hub zu vernetzen.",
+          "es": "Bombilla E27 de color de 1055 lm con wifi directo y compatible con Matter: la forma más sencilla y asequible de conectar unas pocas lámparas sin hub.",
+          "it": "Lampadina E27 a colori da 1.055 lm in Wi-Fi diretto e compatibile Matter: il modo più semplice ed economico per collegare qualche lampada senza hub.",
+          "nl": "Een gekleurde E27-lamp van 1.055 lm met direct wifi en Matter: de eenvoudigste en voordeligste manier om een paar lampen zonder hub te verbinden."
+        }
+      },
+      {
+        "model": "Govee RGBIC LED Strip H619A",
+        "role": {
+          "fr": "Idéal pour l'ambiance RGB",
+          "en": "Best for RGB ambience",
+          "de": "Ideal für RGB-Ambiente",
+          "es": "Ideal para ambiente RGB",
+          "it": "Ideale per l'atmosfera RGB",
+          "nl": "Ideaal voor RGB-sfeer"
+        },
+        "why": {
+          "fr": "Bandeau RGBIC de 5 m à segments de couleurs indépendants, en WiFi et Bluetooth, compatible Alexa et Google : le plus spectaculaire pour le gaming ou la déco.",
+          "en": "A 5 m RGBIC strip with independently coloured segments, Wi-Fi and Bluetooth, and Alexa and Google support: the most spectacular for gaming or decor.",
+          "de": "Ein 5-m-RGBIC-Streifen mit unabhängig farbigen Segmenten, WLAN und Bluetooth sowie Alexa und Google: am spektakulärsten für Gaming oder Deko.",
+          "es": "Tira RGBIC de 5 m con segmentos de color independientes, wifi y Bluetooth, compatible con Alexa y Google: la más espectacular para gaming o decoración.",
+          "it": "Striscia RGBIC da 5 m con segmenti a colori indipendenti, Wi-Fi e Bluetooth, compatibile con Alexa e Google: la più spettacolare per gaming o arredo.",
+          "nl": "Een RGBIC-strip van 5 m met onafhankelijk gekleurde segmenten, wifi en Bluetooth, met Alexa en Google: het meest spectaculair voor gaming of decoratie."
+        }
+      }
+    ]
+  },
+  "ventilateur-connecte-comparatif": {
+    "question": {
+      "fr": "Quel est le meilleur ventilateur connecté en 2026 ?",
+      "en": "What is the best smart fan in 2026?",
+      "de": "Welcher ist der beste smarte Ventilator 2026?",
+      "es": "¿Cuál es el mejor ventilador inteligente en 2026?",
+      "it": "Qual è il miglior ventilatore smart nel 2026?",
+      "nl": "Wat is de beste slimme ventilator in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Dyson Purifier Cool Formaldehyde TP09",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore in assoluto",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Ventilateur sans pales et purificateur à la fois : filtres HEPA H13 et charbon actif, capteurs de qualité d'air, oscillation 350° et pilotage par appli ou assistant vocal.",
+          "en": "A bladeless fan and purifier in one: HEPA H13 and activated carbon filters, air quality sensors, 350° oscillation and control via app or voice assistant.",
+          "de": "Flügelloser Ventilator und Luftreiniger in einem: HEPA-H13- und Aktivkohlefilter, Luftqualitätssensoren, 350° Oszillation und Steuerung per App oder Sprachassistent.",
+          "es": "Ventilador sin aspas y purificador a la vez: filtros HEPA H13 y de carbón activo, sensores de calidad del aire, oscilación de 350° y control por app o asistente de voz.",
+          "it": "Ventilatore senza pale e purificatore insieme: filtri HEPA H13 e a carboni attivi, sensori di qualità dell'aria, oscillazione a 350° e controllo da app o assistente vocale.",
+          "nl": "Bladloze ventilator en luchtreiniger in één: HEPA H13- en actief koolfilter, luchtkwaliteitssensoren, 350° oscillatie en bediening via app of spraakassistent."
+        }
+      },
+      {
+        "model": "Xiaomi Smart Standing Fan 2 Pro",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Ventilateur sur pied Wi-Fi piloté par l'appli Xiaomi Home, compatible Google Home et Alexa, avec mode brise naturelle et fonctionnement discret adapté à la chambre.",
+          "en": "A Wi-Fi standing fan run from the Xiaomi Home app, compatible with Google Home and Alexa, with a natural breeze mode and quiet running suited to bedrooms.",
+          "de": "WLAN-Standventilator mit Xiaomi-Home-App, kompatibel mit Google Home und Alexa, mit Naturwind-Modus und leisem Betrieb, ideal fürs Schlafzimmer.",
+          "es": "Ventilador de pie con Wi-Fi controlado desde la app Xiaomi Home, compatible con Google Home y Alexa, con modo brisa natural y funcionamiento silencioso para el dormitorio.",
+          "it": "Ventilatore a piantana Wi-Fi gestito dall'app Xiaomi Home, compatibile con Google Home e Alexa, con modalità brezza naturale e funzionamento silenzioso adatto alla camera.",
+          "nl": "Wifi-staande ventilator via de Xiaomi Home-app, compatibel met Google Home en Alexa, met natuurlijke-briesmodus en stille werking, geschikt voor de slaapkamer."
+        }
+      },
+      {
+        "model": "Dyson Purifier Hot+Cool Formaldehyde HP09",
+        "role": {
+          "fr": "Idéal toute l'année (3-en-1)",
+          "en": "Best for year-round use (3-in-1)",
+          "de": "Ideal fürs ganze Jahr (3-in-1)",
+          "es": "Ideal todo el año (3 en 1)",
+          "it": "Ideale tutto l'anno (3 in 1)",
+          "nl": "Ideaal voor het hele jaar (3-in-1)"
+        },
+        "why": {
+          "fr": "Rafraîchit en été, chauffe en hiver et purifie l'air, avec un capteur et un filtre catalytique qui détruit en continu le formaldéhyde.",
+          "en": "Cools in summer, heats in winter and purifies the air, with a sensor and catalytic filter that continuously destroys formaldehyde.",
+          "de": "Kühlt im Sommer, heizt im Winter und reinigt die Luft – mit Sensor und Katalysatorfilter, der Formaldehyd kontinuierlich zerstört.",
+          "es": "Refresca en verano, calienta en invierno y purifica el aire, con un sensor y un filtro catalítico que destruye el formaldehído de forma continua.",
+          "it": "Rinfresca d'estate, riscalda d'inverno e purifica l'aria, con un sensore e un filtro catalitico che distrugge continuamente la formaldeide.",
+          "nl": "Koelt in de zomer, verwarmt in de winter en zuivert de lucht, met een sensor en katalytisch filter dat formaldehyde continu afbreekt."
+        }
+      }
+    ]
+  },
+  "volets-roulants-connectes-guide": {
+    "question": {
+      "fr": "Quel est le meilleur volet roulant connecté en 2026 ?",
+      "en": "What is the best smart roller shutter in 2026?",
+      "de": "Welcher smarte Rollladen ist 2026 der beste?",
+      "es": "¿Cuál es la mejor persiana enrollable inteligente en 2026?",
+      "it": "Qual è la migliore tapparella smart nel 2026?",
+      "nl": "Wat is het beste slimme rolluik in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Somfy Oximo io",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore in assoluto",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Moteur tubulaire io-homecontrol bidirectionnel : la position de chaque volet s'affiche dans l'application, avec pilotage et scénarios via la TaHoma Switch.",
+          "en": "Two-way io-homecontrol tubular motor: every shutter's position shows in the app, with control and scenes through the TaHoma Switch.",
+          "de": "Bidirektionaler io-homecontrol-Rohrmotor: Die Position jedes Rollladens erscheint in der App, Steuerung und Szenen laufen über die TaHoma Switch.",
+          "es": "Motor tubular io-homecontrol bidireccional: la posición de cada persiana aparece en la app, con control y escenas a través de la TaHoma Switch.",
+          "it": "Motore tubolare io-homecontrol bidirezionale: la posizione di ogni tapparella compare nell'app, con comandi e scene tramite la TaHoma Switch.",
+          "nl": "Tweerichtings io-homecontrol buismotor: de stand van elk rolluik verschijnt in de app, met bediening en scènes via de TaHoma Switch."
+        }
+      },
+      {
+        "model": "Somfy Oximo RTS",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "Même principe que l'Oximo io en radio RTS, plus abordable et simple à installer, pilotable par la TaHoma Switch, mais sans retour d'état.",
+          "en": "Same principle as the Oximo io with RTS radio, more affordable and easy to install, controllable via TaHoma Switch, but without position feedback.",
+          "de": "Gleiches Prinzip wie der Oximo io mit RTS-Funk, günstiger und einfach einzubauen, über TaHoma Switch steuerbar, aber ohne Positionsrückmeldung.",
+          "es": "Mismo principio que el Oximo io con radio RTS, más asequible y fácil de instalar, controlable con TaHoma Switch, pero sin confirmación de estado.",
+          "it": "Stesso principio dell'Oximo io con radio RTS, più accessibile e facile da installare, gestibile con TaHoma Switch, ma senza ritorno di stato.",
+          "nl": "Zelfde principe als de Oximo io met RTS-radio, voordeliger en eenvoudig te plaatsen, te bedienen via TaHoma Switch, maar zonder terugmelding."
+        }
+      },
+      {
+        "model": "VELUX INTEGRA Solar Roller Shutter",
+        "role": {
+          "fr": "Idéal pour fenêtres de toit",
+          "en": "Best for roof windows",
+          "de": "Ideal für Dachfenster",
+          "es": "Ideal para ventanas de tejado",
+          "it": "Ideale per finestre da tetto",
+          "nl": "Ideaal voor dakramen"
+        },
+        "why": {
+          "fr": "Volet extérieur pour fenêtre de toit, alimenté par panneau solaire et piloté en io-homecontrol, sans câblage à prévoir.",
+          "en": "External roller shutter for roof windows, solar-powered and controlled via io-homecontrol, with no wiring to run.",
+          "de": "Außenrollladen für Dachfenster, solarbetrieben und per io-homecontrol gesteuert, ohne Verkabelung.",
+          "es": "Persiana exterior para ventanas de tejado, alimentada por energía solar y controlada por io-homecontrol, sin cableado.",
+          "it": "Tapparella esterna per finestre da tetto, alimentata a energia solare e gestita via io-homecontrol, senza cablaggio.",
+          "nl": "Buitenrolluik voor dakramen, op zonne-energie en bediend via io-homecontrol, zonder bekabeling."
+        }
+      }
+    ]
+  },
+  "camera-interieure-sans-abonnement": {
+    "question": {
+      "fr": "Quelle est la meilleure caméra intérieure sans abonnement en 2026 ?",
+      "en": "What is the best indoor security camera without a subscription in 2026?",
+      "de": "Welche ist die beste Innenkamera ohne Abo im Jahr 2026?",
+      "es": "¿Cuál es la mejor cámara de interior sin suscripción en 2026?",
+      "it": "Qual è la migliore videocamera per interni senza abbonamento nel 2026?",
+      "nl": "Wat is de beste binnencamera zonder abonnement in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Eufy Indoor Cam E220",
+        "role": {
+          "fr": "Meilleure globale",
+          "en": "Best overall",
+          "de": "Beste insgesamt",
+          "es": "La mejor en general",
+          "it": "La migliore in assoluto",
+          "nl": "Beste overall"
+        },
+        "why": {
+          "fr": "Image 2K, rotation 360°, détection des personnes, animaux et pleurs de bébé, microSD jusqu'à 128 Go et compatibilité HomeKit, Google et Alexa.",
+          "en": "2K video, 360° pan/tilt, person, pet and baby-crying detection, microSD up to 128 GB, and HomeKit, Google and Alexa support.",
+          "de": "2K-Bild, 360°-Schwenk, Erkennung von Personen, Haustieren und Babyweinen, microSD bis 128 GB sowie HomeKit, Google und Alexa.",
+          "es": "Imagen 2K, giro de 360°, detección de personas, mascotas y llanto de bebé, microSD de hasta 128 GB y compatibilidad con HomeKit, Google y Alexa.",
+          "it": "Immagine 2K, rotazione a 360°, rilevamento di persone, animali e pianto, microSD fino a 128 GB e compatibilità HomeKit, Google e Alexa.",
+          "nl": "2K-beeld, 360° draaien, detectie van personen, huisdieren en babygehuil, microSD tot 128 GB en ondersteuning voor HomeKit, Google en Alexa."
+        }
+      },
+      {
+        "model": "TP-Link Tapo C220",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Une caméra d'entrée de gamme très complète : 2K QHD, rotation 360°, détection variée et cartes microSD jusqu'à 512 Go.",
+          "en": "A very complete entry-level camera: 2K QHD, 360° pan/tilt, varied smart detection and microSD cards up to 512 GB.",
+          "de": "Eine sehr gut ausgestattete Einsteigerkamera: 2K QHD, 360°-Schwenk, vielseitige Erkennung und microSD-Karten bis 512 GB.",
+          "es": "Una cámara de gama de entrada muy completa: 2K QHD, giro de 360°, detección variada y tarjetas microSD de hasta 512 GB.",
+          "it": "Una videocamera entry-level molto completa: 2K QHD, rotazione a 360°, rilevamento vario e schede microSD fino a 512 GB.",
+          "nl": "Een zeer complete instapcamera: 2K QHD, 360° draaien, gevarieerde detectie en microSD-kaarten tot 512 GB."
+        }
+      },
+      {
+        "model": "Reolink E1 Pro",
+        "role": {
+          "fr": "Idéale pour le stockage NAS",
+          "en": "Best for NAS storage",
+          "de": "Ideal für NAS-Speicherung",
+          "es": "La mejor para almacenamiento NAS",
+          "it": "La migliore per l'archiviazione NAS",
+          "nl": "Beste voor NAS-opslag"
+        },
+        "why": {
+          "fr": "Image 5 MP, Wi-Fi bi-bande et, en plus de la microSD, envoi des vidéos vers un NAS par FTP ou vers un enregistreur Reolink.",
+          "en": "5 MP video, dual-band Wi-Fi and, beyond microSD, footage upload to a NAS over FTP or to a Reolink recorder.",
+          "de": "5-MP-Bild, Dualband-WLAN und neben microSD Übertragung der Aufnahmen per FTP auf ein NAS oder an einen Reolink-Rekorder.",
+          "es": "Imagen de 5 MP, Wi-Fi de doble banda y, además de microSD, envío de vídeos a un NAS por FTP o a un grabador Reolink.",
+          "it": "Immagine 5 MP, Wi-Fi dual band e, oltre alla microSD, invio dei video a un NAS via FTP o a un registratore Reolink.",
+          "nl": "5 MP-beeld, dualband-wifi en naast microSD upload van beelden naar een NAS via FTP of naar een Reolink-recorder."
+        }
+      }
+    ]
+  },
+  "aspirateur-sans-fil-comparatif-2026": {
+    "question": {
+      "fr": "Quel est le meilleur aspirateur balai sans fil en 2026 ?",
+      "en": "What is the best cordless stick vacuum in 2026?",
+      "de": "Welcher ist der beste Akku-Stielstaubsauger 2026?",
+      "es": "¿Cuál es la mejor aspiradora escoba sin cable en 2026?",
+      "it": "Qual è la migliore scopa elettrica senza filo nel 2026?",
+      "nl": "Wat is de beste draadloze steelstofzuiger in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Dyson V15 Detect",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore in assoluto",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Puissance d'aspiration de référence, laser qui révèle la poussière fine, capteur de particules qui ajuste la puissance et filtration HEPA scellée.",
+          "en": "Benchmark suction power, a laser that reveals fine dust, a particle sensor that adjusts power automatically and sealed HEPA filtration.",
+          "de": "Referenz bei der Saugkraft, Laser macht feinen Staub sichtbar, Partikelsensor passt die Leistung an, dazu versiegelte HEPA-Filterung.",
+          "es": "Potencia de aspiración de referencia, láser que revela el polvo fino, sensor de partículas que ajusta la potencia y filtración HEPA sellada.",
+          "it": "Potenza di aspirazione di riferimento, laser che rivela la polvere fine, sensore di particelle che regola la potenza e filtrazione HEPA sigillata.",
+          "nl": "Referentie qua zuigkracht, laser die fijn stof zichtbaar maakt, deeltjessensor die het vermogen aanpast en afgedichte HEPA-filtratie."
+        }
+      },
+      {
+        "model": "Rowenta X-Force Flex 15.60",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Tube Flex qui se plie pour passer sous les meubles bas, grand bac de 0,9 L et filtre lavable : un excellent choix pour un appartement.",
+          "en": "A Flex tube that bends to reach under low furniture, a large 0.9 L bin and a washable filter: an excellent choice for a flat.",
+          "de": "Biegbares Flex-Rohr für niedrige Möbel, großer 0,9-L-Behälter und waschbarer Filter: eine sehr gute Wahl für die Wohnung.",
+          "es": "Tubo Flex que se dobla para llegar bajo muebles bajos, depósito grande de 0,9 L y filtro lavable: una excelente opción para un piso.",
+          "it": "Tubo Flex che si piega per passare sotto i mobili bassi, ampio contenitore da 0,9 L e filtro lavabile: ottima scelta per un appartamento.",
+          "nl": "Buigbare Flex-buis om onder lage meubels te komen, grote stofbak van 0,9 L en wasbaar filter: een uitstekende keuze voor een appartement."
+        }
+      },
+      {
+        "model": "Samsung Bespoke Jet AI",
+        "role": {
+          "fr": "Idéal pour l'autonomie et le vidage automatique",
+          "en": "Best for battery life and auto-emptying",
+          "de": "Ideal für Akkulaufzeit und automatische Entleerung",
+          "es": "Ideal por autonomía y vaciado automático",
+          "it": "Ideale per autonomia e svuotamento automatico",
+          "nl": "Ideaal voor batterijduur en automatisch legen"
+        },
+        "why": {
+          "fr": "Jusqu'à 100 minutes d'autonomie, IA qui adapte la puissance au sol et station Clean Station qui vide le bac automatiquement.",
+          "en": "Up to 100 minutes of runtime, AI that adapts power to the floor type and a Clean Station that empties the bin automatically.",
+          "de": "Bis zu 100 Minuten Laufzeit, KI passt die Leistung an den Boden an, und die Clean Station entleert den Behälter automatisch.",
+          "es": "Hasta 100 minutos de autonomía, IA que adapta la potencia al suelo y Clean Station que vacía el depósito automáticamente.",
+          "it": "Fino a 100 minuti di autonomia, IA che adatta la potenza al pavimento e Clean Station che svuota il contenitore automaticamente.",
+          "nl": "Tot 100 minuten gebruiksduur, AI die het vermogen aan de vloer aanpast en een Clean Station die de stofbak automatisch leegt."
+        }
+      }
+    ]
+  },
+  "interphone-video-connecte": {
+    "question": {
+      "fr": "Quel est le meilleur interphone vidéo connecté en 2026 ?",
+      "en": "What is the best smart video intercom in 2026?",
+      "de": "Welche ist die beste vernetzte Video-Türsprechanlage 2026?",
+      "es": "¿Cuál es el mejor videoportero inteligente en 2026?",
+      "it": "Qual è il miglior videocitofono connesso nel 2026?",
+      "nl": "Wat is de beste slimme video-intercom in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Philips WelcomeEye Connect 3",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Écran tactile 7 pouces, caméra 3K, badges RFID et appli sur câblage 2 fils : le kit le plus complet pour une maison ou un petit immeuble.",
+          "en": "7-inch touchscreen, 3K camera, RFID badges and an app over 2-wire cabling: the most complete kit for a house or small building.",
+          "de": "7-Zoll-Touchscreen, 3K-Kamera, RFID-Transponder und App über 2-Draht-Verkabelung: das vollständigste Set für Haus oder kleines Gebäude.",
+          "es": "Pantalla táctil de 7 pulgadas, cámara 3K, llaves RFID y app sobre cableado de 2 hilos: el kit más completo para una casa o un edificio pequeño.",
+          "it": "Schermo touch da 7 pollici, telecamera 3K, badge RFID e app su cablaggio a 2 fili: il kit più completo per una casa o un piccolo edificio.",
+          "nl": "7-inch touchscreen, 3K-camera, RFID-badges en een app via 2-draadsbekabeling: de meest complete set voor een huis of klein gebouw."
+        }
+      },
+      {
+        "model": "BTicino Classe 100X",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Poste connecté de la gamme standard BTicino : écran 5 pouces, Wi-Fi et appli Home + Security sur le bus 2 fils BTicino.",
+          "en": "BTicino’s standard-range connected unit: 5-inch screen, Wi-Fi and the Home + Security app on the BTicino 2-wire bus.",
+          "de": "Vernetzte Innenstation der BTicino-Standardserie: 5-Zoll-Bildschirm, WLAN und App Home + Security am BTicino-2-Draht-Bus.",
+          "es": "Monitor conectado de la gama estándar de BTicino: pantalla de 5 pulgadas, Wi-Fi y app Home + Security sobre el bus de 2 hilos de BTicino.",
+          "it": "Posto interno connesso della gamma standard BTicino: schermo da 5 pollici, Wi-Fi e app Home + Security sul bus a 2 fili BTicino.",
+          "nl": "Verbonden binnenpost uit de standaardreeks van BTicino: 5-inch scherm, wifi en de app Home + Security op de BTicino-2-draadsbus."
+        }
+      },
+      {
+        "model": "Ring Intercom Video",
+        "role": {
+          "fr": "Idéal en appartement sans travaux",
+          "en": "Best for flats, no works",
+          "de": "Ideal für Wohnungen ohne Umbau",
+          "es": "Ideal para pisos sin obras",
+          "it": "Ideale in appartamento senza lavori",
+          "nl": "Ideaal voor appartementen zonder verbouwing"
+        },
+        "why": {
+          "fr": "Se raccorde au combiné existant et transfère les appels de l’interphone de l’immeuble vers l’appli Ring, sans toucher à la platine commune.",
+          "en": "Wires into your existing handset and forwards building intercom calls to the Ring app, without touching the shared panel.",
+          "de": "Wird an die vorhandene Innenstation angeschlossen und leitet Anrufe der Hausanlage an die Ring-App weiter, ohne die Außenstation anzutasten.",
+          "es": "Se conecta al telefonillo existente y desvía las llamadas del portero del edificio a la app Ring, sin tocar la placa común.",
+          "it": "Si collega al citofono esistente e trasferisce le chiamate del citofono condominiale all’app Ring, senza toccare la pulsantiera comune.",
+          "nl": "Wordt op je bestaande binnenpost aangesloten en stuurt oproepen van de gebouwintercom door naar de Ring-app, zonder het gemeenschappelijke paneel aan te raken."
+        }
+      }
+    ]
+  },
+  "nettoyeur-vapeur-connecte": {
+    "question": {
+      "fr": "Quel est le meilleur nettoyeur vapeur en 2026 ?",
+      "en": "What is the best steam cleaner in 2026?",
+      "de": "Welcher ist der beste Dampfreiniger 2026?",
+      "es": "¿Cuál es el mejor limpiador a vapor en 2026?",
+      "it": "Qual è il miglior pulitore a vapore nel 2026?",
+      "nl": "Wat is de beste stoomreiniger in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Kärcher SC 5 EasyFix",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Insgesamt die beste Wahl",
+          "es": "Mejor opción global",
+          "it": "Migliore in assoluto",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Chaudière 4,2 bars, fonction VapoHydro et réservoir de 1,5 L remplissable en continu : le plus polyvalent pour sols, joints, cuisine et salle de bain.",
+          "en": "4.2-bar boiler, VapoHydro function and a 1.5 L continuously refillable tank: the most versatile for floors, grout, kitchen and bathroom.",
+          "de": "4,2-bar-Kessel, VapoHydro-Funktion und permanent nachfüllbarer 1,5-L-Tank: der vielseitigste für Böden, Fugen, Küche und Bad.",
+          "es": "Caldera de 4,2 bar, función VapoHydro y depósito de 1,5 L recargable en continuo: el más versátil para suelos, juntas, cocina y baño.",
+          "it": "Caldaia da 4,2 bar, funzione VapoHydro e serbatoio da 1,5 L ricaricabile in continuo: il più versatile per pavimenti, fughe, cucina e bagno.",
+          "nl": "Ketel van 4,2 bar, VapoHydro-functie en continu bijvulbare tank van 1,5 L: de meest veelzijdige voor vloeren, voegen, keuken en badkamer."
+        }
+      },
+      {
+        "model": "Black+Decker BHSM1610DSM",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Balai vapeur 2-en-1 prêt en 20 secondes, avec nettoyeur à main détachable et 15 accessoires : l’entrée de gamme la plus polyvalente.",
+          "en": "2-in-1 steam mop ready in 20 seconds, with a detachable handheld unit and 15 accessories: the most versatile entry-level choice.",
+          "de": "2-in-1-Dampfmopp, in 20 Sekunden bereit, mit abnehmbarem Handgerät und 15 Zubehörteilen: das vielseitigste Einstiegsgerät.",
+          "es": "Mopa de vapor 2 en 1 lista en 20 segundos, con unidad de mano extraíble y 15 accesorios: la opción de entrada más versátil.",
+          "it": "Scopa a vapore 2 in 1 pronta in 20 secondi, con unità portatile staccabile e 15 accessori: la scelta entry-level più versatile.",
+          "nl": "2-in-1-stoomzwabber die in 20 seconden klaar is, met afneembare handunit en 15 accessoires: het meest veelzijdige instapmodel."
+        }
+      },
+      {
+        "model": "Bissell PowerFresh Slim Steam",
+        "role": {
+          "fr": "Idéal pour les appartements",
+          "en": "Best for apartments",
+          "de": "Ideal für Wohnungen",
+          "es": "Ideal para pisos",
+          "it": "Ideale per appartamenti",
+          "nl": "Ideaal voor appartementen"
+        },
+        "why": {
+          "fr": "Balai vapeur à tête basse et pivotante, prêt en 30 secondes, qui se glisse sous les meubles : idéal pour studios et appartements.",
+          "en": "Steam mop with a low, swivelling head, ready in 30 seconds, that slides under furniture: ideal for studios and flats.",
+          "de": "Dampfmopp mit flachem, schwenkbarem Kopf, in 30 Sekunden bereit, gleitet unter Möbel: ideal für Apartments und Wohnungen.",
+          "es": "Mopa de vapor con cabezal bajo y giratorio, lista en 30 segundos, que pasa bajo los muebles: ideal para estudios y pisos.",
+          "it": "Scopa a vapore con testa bassa e snodata, pronta in 30 secondi, che scivola sotto i mobili: ideale per monolocali e appartamenti.",
+          "nl": "Stoomzwabber met lage, draaibare kop, klaar in 30 seconden, die onder meubels glijdt: ideaal voor studio’s en appartementen."
+        }
+      }
+    ]
+  },
+  "detection-fuite-eau-connectee": {
+    "question": {
+      "fr": "Quel est le meilleur détecteur de fuite d'eau connecté en 2026 ?",
+      "en": "What is the best smart water leak detector in 2026?",
+      "de": "Welcher ist der beste smarte Wassermelder 2026?",
+      "es": "¿Cuál es el mejor detector de fugas de agua inteligente en 2026?",
+      "it": "Qual è il miglior rilevatore di perdite d'acqua smart nel 2026?",
+      "nl": "Wat is de beste slimme waterlekkagesensor in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Aqara Water Leak Sensor T1",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción en general",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Capteur Zigbee compact et IP67 à poser sous chaque appareil à risque, avec alerte smartphone et pile CR2032 qui dure environ deux ans.",
+          "en": "A compact IP67 Zigbee sensor to place under every at-risk appliance, with smartphone alerts and a CR2032 cell lasting around two years.",
+          "de": "Kompakter IP67-Zigbee-Sensor für jedes gefährdete Gerät, mit Smartphone-Alarm und einer CR2032-Zelle, die rund zwei Jahre hält.",
+          "es": "Sensor Zigbee compacto e IP67 para colocar bajo cada aparato de riesgo, con alerta en el móvil y pila CR2032 que dura unos dos años.",
+          "it": "Sensore Zigbee compatto e IP67 da posare sotto ogni elettrodomestico a rischio, con avviso sullo smartphone e pila CR2032 che dura circa due anni.",
+          "nl": "Compacte IP67-Zigbee-sensor voor onder elk risicotoestel, met smartphonemelding en een CR2032-cel die ongeveer twee jaar meegaat."
+        }
+      },
+      {
+        "model": "Shelly Flood Gen4",
+        "role": {
+          "fr": "Meilleur sans hub",
+          "en": "Best without a hub",
+          "de": "Beste Wahl ohne Hub",
+          "es": "Mejor sin hub",
+          "it": "Miglior scelta senza hub",
+          "nl": "Beste zonder hub"
+        },
+        "why": {
+          "fr": "Fonctionne en Wi-Fi sans hub, compatible Matter, avec buzzer intégré et câble de détection de 2 m extensible pour couvrir une zone entière.",
+          "en": "Works over Wi-Fi with no hub, supports Matter, and has a built-in buzzer plus an extendable 2 m sensing cable to cover a whole area.",
+          "de": "Funktioniert per WLAN ohne Hub, unterstützt Matter und bietet einen eingebauten Summer sowie ein erweiterbares 2-m-Sensorkabel für ganze Zonen.",
+          "es": "Funciona por Wi-Fi sin hub, es compatible con Matter e incluye zumbador y un cable de detección de 2 m ampliable para cubrir toda una zona.",
+          "it": "Funziona in Wi-Fi senza hub, è compatibile Matter e ha un cicalino integrato con cavo di rilevamento da 2 m estendibile per coprire un'intera zona.",
+          "nl": "Werkt via wifi zonder hub, ondersteunt Matter en heeft een ingebouwde zoemer plus een uitbreidbare detectiekabel van 2 m voor een hele zone."
+        }
+      },
+      {
+        "model": "Aqara Valve Controller T1",
+        "role": {
+          "fr": "Idéal pour la coupure automatique",
+          "en": "Best for automatic shut-off",
+          "de": "Ideal für automatische Absperrung",
+          "es": "Ideal para el corte automático",
+          "it": "Ideale per la chiusura automatica",
+          "nl": "Ideaal voor automatische afsluiting"
+        },
+        "why": {
+          "fr": "Se fixe sur une vanne quart de tour existante (DN15 à DN25) et la ferme automatiquement dès qu'un capteur Aqara détecte une fuite.",
+          "en": "Clamps onto an existing quarter-turn valve (DN15 to DN25) and closes it automatically as soon as an Aqara sensor detects a leak.",
+          "de": "Wird auf ein vorhandenes Vierteldrehungs-Ventil (DN15 bis DN25) gesetzt und schließt es automatisch, sobald ein Aqara-Sensor ein Leck erkennt.",
+          "es": "Se acopla a una llave de cuarto de vuelta existente (DN15 a DN25) y la cierra automáticamente en cuanto un sensor Aqara detecta una fuga.",
+          "it": "Si fissa su una valvola a quarto di giro esistente (da DN15 a DN25) e la chiude automaticamente appena un sensore Aqara rileva una perdita.",
+          "nl": "Wordt op een bestaande kwartslagkraan (DN15 tot DN25) gezet en sluit die automatisch zodra een Aqara-sensor een lek detecteert."
+        }
+      }
+    ]
+  },
+  "qualite-air-interieur-capteurs": {
+    "question": {
+      "fr": "Quel est le meilleur capteur de qualité de l'air intérieur en 2026 ?",
+      "en": "What is the best indoor air quality monitor in 2026?",
+      "de": "Welcher ist der beste Luftqualitätsmonitor für Innenräume 2026?",
+      "es": "¿Cuál es el mejor medidor de calidad del aire interior en 2026?",
+      "it": "Qual è il miglior monitor della qualità dell'aria interna nel 2026?",
+      "nl": "Wat is de beste binnenluchtkwaliteitsmeter in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Airthings View Plus",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Bester insgesamt",
+          "es": "Mejor en general",
+          "it": "Migliore in assoluto",
+          "nl": "Beste algemeen"
+        },
+        "why": {
+          "fr": "Il réunit radon, PM1, PM2.5, CO2, COV, humidité, température et pression, sur piles ou secteur : le plus complet de la sélection.",
+          "en": "It combines radon, PM1, PM2.5, CO2, VOCs, humidity, temperature and pressure on battery or mains power: the most complete pick here.",
+          "de": "Er vereint Radon, PM1, PM2.5, CO2, VOC, Feuchte, Temperatur und Luftdruck, mit Batterie oder Netz – das umfassendste Gerät der Auswahl.",
+          "es": "Reúne radón, PM1, PM2.5, CO2, COV, humedad, temperatura y presión, a pilas o enchufado: el más completo de la selección.",
+          "it": "Riunisce radon, PM1, PM2.5, CO2, COV, umidità, temperatura e pressione, a batteria o a rete: il più completo della selezione.",
+          "nl": "Combineert radon, PM1, PM2.5, CO2, VOS, vochtigheid, temperatuur en luchtdruk, op batterijen of netstroom: de meest complete keuze."
+        }
+      },
+      {
+        "model": "Netatmo Smart Indoor Air Quality Monitor",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Il suit CO2, humidité, température et bruit en Wi-Fi, sans abonnement et avec Apple HomeKit, pour savoir simplement quand aérer.",
+          "en": "It tracks CO2, humidity, temperature and noise over Wi-Fi, with no subscription and Apple HomeKit support, so you simply know when to ventilate.",
+          "de": "Er erfasst CO2, Feuchte, Temperatur und Lärm per WLAN, ohne Abo und mit Apple HomeKit – so wissen Sie einfach, wann gelüftet werden sollte.",
+          "es": "Controla CO2, humedad, temperatura y ruido por wifi, sin suscripción y con Apple HomeKit, para saber fácilmente cuándo ventilar.",
+          "it": "Rileva CO2, umidità, temperatura e rumore via Wi-Fi, senza abbonamento e con Apple HomeKit, per sapere semplicemente quando arieggiare.",
+          "nl": "Volgt CO2, vochtigheid, temperatuur en geluid via wifi, zonder abonnement en met Apple HomeKit, zodat je simpel weet wanneer je moet luchten."
+        }
+      },
+      {
+        "model": "Aranet4 Home",
+        "role": {
+          "fr": "Idéal pour un CO2 fiable et mobile",
+          "en": "Best for reliable, portable CO2",
+          "de": "Ideal für zuverlässiges, mobiles CO2",
+          "es": "Ideal para un CO2 fiable y portátil",
+          "it": "Ideale per una CO2 affidabile e portatile",
+          "nl": "Ideaal voor betrouwbare, draagbare CO2-meting"
+        },
+        "why": {
+          "fr": "Son capteur NDIR et son écran e-ink sur piles affichent le CO2 en permanence pendant des années, et il se déplace de pièce en pièce.",
+          "en": "Its NDIR sensor and battery-powered e-ink screen show CO2 at a glance for years, and it moves easily from room to room.",
+          "de": "NDIR-Sensor und batteriebetriebenes E-Ink-Display zeigen CO2 jahrelang auf einen Blick, und das Gerät wandert leicht von Raum zu Raum.",
+          "es": "Su sensor NDIR y su pantalla de tinta electrónica a pilas muestran el CO2 de un vistazo durante años, y se lleva fácilmente de una estancia a otra.",
+          "it": "Il sensore NDIR e il display e-ink a batteria mostrano la CO2 a colpo d'occhio per anni, e si sposta facilmente da una stanza all'altra.",
+          "nl": "De NDIR-sensor en het e-inkscherm op batterijen tonen CO2 jarenlang in één oogopslag, en hij verhuist makkelijk van kamer naar kamer."
+        }
+      }
+    ]
+  },
+  "radiateur-electrique-connecte-guide": {
+    "question": {
+      "fr": "Quel est le meilleur radiateur électrique connecté en 2026 ?",
+      "en": "What is the best smart electric heater in 2026?",
+      "de": "Welcher ist der beste smarte Elektroheizkörper 2026?",
+      "es": "¿Cuál es el mejor radiador eléctrico inteligente en 2026?",
+      "it": "Qual è il miglior radiatore elettrico smart nel 2026?",
+      "nl": "Wat is de beste slimme elektrische radiator in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Thermor Equateur 4",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Inertie fonte et façade chauffante, détections de fenêtre ouverte et de présence, pilotage par l'application Cozytouch.",
+          "en": "Cast-iron inertia with a heating front, open window and presence detection, and control through the Cozytouch app.",
+          "de": "Gussspeicher mit Heizfront, Fenster-offen- und Anwesenheitserkennung sowie Steuerung über die Cozytouch-App.",
+          "es": "Inercia de fundición con fachada calefactora, detección de ventana abierta y de presencia, y control con la app Cozytouch.",
+          "it": "Inerzia in ghisa con facciata scaldante, rilevamento finestra aperta e presenza, controllo tramite l'app Cozytouch.",
+          "nl": "Gietijzeren traagheid met verwarmd front, open-raam- en aanwezigheidsdetectie en bediening via de Cozytouch-app."
+        }
+      },
+      {
+        "model": "Sauter Orosi 2",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Inertie fluide, détections de présence et de fenêtre ouverte, pilotage à distance via un boîtier Cozytouch, en entrée de gamme.",
+          "en": "Fluid inertia, presence and open window detection, and remote control via a Cozytouch box, at an entry-level budget.",
+          "de": "Fluidspeicher, Anwesenheits- und Fenster-offen-Erkennung sowie Fernsteuerung über eine Cozytouch-Box, zum Einstiegspreis.",
+          "es": "Inercia fluida, detección de presencia y de ventana abierta, y control remoto mediante una caja Cozytouch, en gama de entrada.",
+          "it": "Inerzia fluida, rilevamento di presenza e finestra aperta, controllo a distanza tramite box Cozytouch, in fascia d'ingresso.",
+          "nl": "Vloeistoftraagheid, aanwezigheids- en open-raamdetectie en bediening op afstand via een Cozytouch-box, in het instapsegment."
+        }
+      },
+      {
+        "model": "Mill Gentle Air WiFi",
+        "role": {
+          "fr": "Idéal sans travaux",
+          "en": "Best with no installation",
+          "de": "Ideal ohne Montage",
+          "es": "Ideal sin obras",
+          "it": "Ideale senza lavori",
+          "nl": "Ideaal zonder installatie"
+        },
+        "why": {
+          "fr": "Radiateur bain d'huile mobile à brancher, Wi-Fi intégré avec l'application Millheat, fonction fenêtre ouverte et anti-basculement.",
+          "en": "Portable plug-in oil-filled radiator with built-in Wi-Fi and the Millheat app, an open window function and tip-over protection.",
+          "de": "Mobiler Ölradiator für die Steckdose, integriertes WLAN mit Millheat-App, Fenster-offen-Funktion und Kippschutz.",
+          "es": "Radiador de aceite portátil para enchufar, Wi-Fi integrado con la app Millheat, función de ventana abierta y antivuelco.",
+          "it": "Radiatore a olio portatile da collegare alla presa, Wi-Fi integrato con app Millheat, funzione finestra aperta e antiribaltamento.",
+          "nl": "Mobiele olieradiator voor het stopcontact, ingebouwde wifi met de Millheat-app, open-raamfunctie en kantelbeveiliging."
+        }
+      }
+    ]
+  },
+  "detecteur-fumee-connecte-comparatif": {
+    "question": {
+      "fr": "Quel est le meilleur détecteur de fumée connecté en 2026 ?",
+      "en": "What is the best smart smoke detector in 2026?",
+      "de": "Welcher ist der beste vernetzte Rauchmelder 2026?",
+      "es": "¿Cuál es el mejor detector de humo inteligente en 2026?",
+      "it": "Qual è il miglior rilevatore di fumo smart nel 2026?",
+      "nl": "Wat is de beste slimme rookmelder in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Netatmo Smart Smoke Alarm",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Certifié EN 14604, sans hub et doté d’une pile de 10 ans, il sonne même sans internet et fonctionne avec Apple Maison et Google Home.",
+          "en": "EN 14604 certified, hub-free and fitted with a 10-year battery, it sounds even without internet and works with Apple Home and Google Home.",
+          "de": "Nach EN 14604 zertifiziert, ohne Hub und mit 10-Jahres-Batterie: Er alarmiert auch ohne Internet und funktioniert mit Apple Home und Google Home.",
+          "es": "Certificado EN 14604, sin hub y con batería de 10 años, suena incluso sin internet y funciona con Apple Casa y Google Home.",
+          "it": "Certificato EN 14604, senza hub e con batteria da 10 anni, suona anche senza internet e funziona con Apple Casa e Google Home.",
+          "nl": "EN 14604-gecertificeerd, zonder hub en met een 10-jaarsbatterij: hij gaat ook zonder internet af en werkt met Apple Woning en Google Home."
+        }
+      },
+      {
+        "model": "X-Sense XS01-WX",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Ce modèle Wi-Fi d’entrée de gamme certifié EN 14604 envoie les alertes sur smartphone sans hub, idéal pour équiper plusieurs pièces.",
+          "en": "An entry-level EN 14604 certified Wi-Fi alarm that sends smartphone alerts without a hub, ideal for covering several rooms.",
+          "de": "Ein WLAN-Einstiegsmodell nach EN 14604, das ohne Hub aufs Smartphone meldet – ideal, um mehrere Räume auszustatten.",
+          "es": "Un modelo Wi-Fi de gama de entrada certificado EN 14604 que avisa al móvil sin hub, ideal para equipar varias habitaciones.",
+          "it": "Un modello Wi-Fi entry level certificato EN 14604 che invia avvisi allo smartphone senza hub, ideale per coprire più stanze.",
+          "nl": "Een instapmodel met wifi en EN 14604-certificering dat zonder hub meldingen stuurt, ideaal om meerdere kamers uit te rusten."
+        }
+      },
+      {
+        "model": "Netatmo Smart Carbon Monoxide Alarm",
+        "role": {
+          "fr": "Idéal contre le monoxyde de carbone",
+          "en": "Best for carbon monoxide",
+          "de": "Ideal gegen Kohlenmonoxid",
+          "es": "Ideal contra el monóxido de carbono",
+          "it": "Ideale contro il monossido di carbonio",
+          "nl": "Ideaal tegen koolmonoxide"
+        },
+        "why": {
+          "fr": "Certifié EN 50291, il surveille le CO avec une pile de 10 ans et vous alerte sur smartphone : le complément indispensable avec chaudière ou poêle.",
+          "en": "Certified to EN 50291, it monitors CO with a 10-year battery and alerts your phone: the essential add-on if you have a boiler or stove.",
+          "de": "Nach EN 50291 zertifiziert, überwacht er CO mit 10-Jahres-Batterie und meldet aufs Handy – die wichtige Ergänzung bei Therme oder Ofen.",
+          "es": "Certificado EN 50291, vigila el CO con una batería de 10 años y avisa al móvil: el complemento imprescindible si tienes caldera o estufa.",
+          "it": "Certificato EN 50291, controlla il CO con batteria da 10 anni e avvisa lo smartphone: il complemento indispensabile con caldaia o stufa.",
+          "nl": "Gecertificeerd volgens EN 50291 bewaakt hij CO met een 10-jaarsbatterij en waarschuwt je telefoon: onmisbaar bij een cv-ketel of kachel."
         }
       }
     ]

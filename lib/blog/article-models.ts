@@ -117,13 +117,6 @@ export const ARTICLE_MODELS: Record<string, readonly string[]> = {
     "Comfee MDDN-10DEN7",
     "De'Longhi DEX216F"
   ],
-  "eclairage-connecte-comparatif": [
-    "Philips Hue Bridge",
-    "IKEA Dirigera",
-    "TP-Link Tapo L630",
-    "TP-Link Tapo L900-5",
-    "Govee E27 RGBIC"
-  ],
   "eclairage-exterieur-solaire-connecte": [
     "LITOM 120 LED Solaire",
     "Ring Solar Floodlight",
@@ -405,6 +398,158 @@ export const ARTICLE_MODELS: Record<string, readonly string[]> = {
     "LG W4WR70E6Y",
     "Siemens iQ700 WG44B2A40",
     "Miele WWR 860 WPS"
+  ],
+  "interrupteur-connecte-comparatif": [
+    "Aqara Light Switch H2 EU",
+    "Shelly 1PM Gen4",
+    "Philips Hue Tap Dial Switch",
+    "Legrand Céliane with Netatmo",
+    "BTicino Living Now with Netatmo"
+  ],
+  "box-domotique-hub-comparatif": [
+    "Homey Pro (Early 2023)",
+    "Aqara Hub M3",
+    "Home Assistant Green",
+    "IKEA Dirigera",
+    "Philips Hue Bridge Pro"
+  ],
+  "alarme-exterieure-detecteur-jardin": [
+    "Ajax MotionProtect Outdoor",
+    "Ring Alarm Outdoor Siren",
+    "Philips Hue Outdoor Motion Sensor",
+    "Ajax StreetSiren",
+    "Ring Alarm Outdoor Contact Sensor"
+  ],
+  "rideau-motorise-connecte-guide": [
+    "SwitchBot Curtain 3",
+    "Aqara Curtain Driver E1",
+    "Eve MotionBlinds Upgrade Kit",
+    "Aqara Roller Shade Driver E1",
+    "Somfy Glydea Ultra 35"
+  ],
+  "batterie-domestique-stockage-solaire": [
+    "Anker SOLIX Solarbank 3 E2700 Pro",
+    "Marstek Venus E 3.0",
+    "Tesla Powerwall 3",
+    "Zendure SolarFlow 2400 AC",
+    "EcoFlow STREAM Ultra"
+  ],
+  "humidificateur-connecte-comparatif": [
+    "BONECO H700 SMART",
+    "Levoit Classic 300S",
+    "Dyson Purifier Humidify+Cool Formaldehyde PH04",
+    "Levoit OasisMist 1000S",
+    "Xiaomi Smart Humidifier 2"
+  ],
+  "detecteur-mouvement-connecte-comparatif": [
+    "Aqara Motion and Light Sensor P2",
+    "IKEA MYGGSPRAY",
+    "Aqara Presence Sensor FP2",
+    "Philips Hue Motion Sensor",
+    "Eve Motion"
+  ],
+  "compteur-energie-connecte-comparatif": [
+    "Shelly Pro 3EM",
+    "Shelly EM Gen3",
+    "Lixee ZLinky_TIC",
+    "Ecojoko",
+    "Tibber Pulse P1"
+  ],
+  "climatiseur-mobile-connecte-comparatif": [
+    "Midea PortaSplit",
+    "Midea Silent Cool 26 Pro WF",
+    "Trotec PAC 3910 X WiFi",
+    "De'Longhi Pinguino PAC EL112 CST WiFi",
+    "Olimpia Splendid Dolceclima Air Pro 14 HP WiFi"
+  ],
+  "robot-piscine-comparatif": [
+    "Dolphin S300i",
+    "Dolphin E35i",
+    "Beatbot AquaSense 2 Pro",
+    "Aiper Scuba X1",
+    "Dolphin Liberty 400"
+  ],
+  "grill-pellet-plancha-connecte-comparatif": [
+    "Weber Searwood 600",
+    "Ninja Woodfire Pro Connect XL",
+    "Weber Genesis EPX-335 Smart",
+    "Traeger Woodridge Pro",
+    "Traeger Ironwood XL"
+  ],
+  "eclairage-connecte-comparatif": [
+    "Philips Hue White and Color Ambiance E27",
+    "TP-Link Tapo L535E",
+    "Govee RGBIC LED Strip H619A",
+    "IKEA KAJPLATS E27 CWS globe 1055lm",
+    "Philips Hue Ambiance Gradient Lightstrip 2m"
+  ],
+  "ventilateur-connecte-comparatif": [
+    "Dyson Purifier Cool Formaldehyde TP09",
+    "Xiaomi Smart Standing Fan 2 Pro",
+    "Dyson Purifier Hot+Cool Formaldehyde HP09",
+    "Duux Whisper Flex 2 Smart",
+    "SwitchBot Battery Circulator Fan 2 Pro"
+  ],
+  "volets-roulants-connectes-guide": [
+    "Somfy Oximo io",
+    "Somfy Oximo RTS",
+    "VELUX INTEGRA Solar Roller Shutter",
+    "Somfy TaHoma Switch",
+    "Shelly 2PM Gen4"
+  ],
+  "camera-interieure-sans-abonnement": [
+    "Eufy Indoor Cam E220",
+    "TP-Link Tapo C220",
+    "Reolink E1 Pro",
+    "Aqara Camera Hub G3",
+    "Xiaomi Mi 360° Camera (1080p)"
+  ],
+  "aspirateur-sans-fil-comparatif-2026": [
+    "Dyson V15 Detect",
+    "Rowenta X-Force Flex 15.60",
+    "Samsung Bespoke Jet AI",
+    "LG CordZero A9K"
+  ],
+  "interphone-video-connecte": [
+    "Philips WelcomeEye Connect 3",
+    "BTicino Classe 100X",
+    "Ring Intercom Video",
+    "BTicino Classe 300EOS with Netatmo",
+    "Comelit Visto Wi-Fi KVV8101"
+  ],
+  "nettoyeur-vapeur-connecte": [
+    "Kärcher SC 5 EasyFix",
+    "Black+Decker BHSM1610DSM",
+    "Bissell PowerFresh Slim Steam",
+    "Kärcher SC 3 EasyFix",
+    "Polti Vaporetto Smart 100_T"
+  ],
+  "detection-fuite-eau-connectee": [
+    "Aqara Water Leak Sensor T1",
+    "Shelly Flood Gen4",
+    "Aqara Valve Controller T1",
+    "Eve Water Guard"
+  ],
+  "qualite-air-interieur-capteurs": [
+    "Airthings View Plus",
+    "Netatmo Smart Indoor Air Quality Monitor",
+    "Aranet4 Home",
+    "Awair Element",
+    "Airthings Wave Plus"
+  ],
+  "radiateur-electrique-connecte-guide": [
+    "Thermor Equateur 4",
+    "Sauter Orosi 2",
+    "Mill Gentle Air WiFi",
+    "Atlantic Oniris",
+    "Rointe Kyros WiFi"
+  ],
+  "detecteur-fumee-connecte-comparatif": [
+    "Netatmo Smart Smoke Alarm",
+    "X-Sense XS01-WX",
+    "Netatmo Smart Carbon Monoxide Alarm",
+    "Bosch Smart Home Twinguard",
+    "Aqara Smoke Detector"
   ]
 }
 

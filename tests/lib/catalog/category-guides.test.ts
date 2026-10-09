@@ -15,10 +15,11 @@ describe('category guides', () => {
     }
   })
 
-  it('gives the motion sensor page guides but no verdict borrowed from alarm kits', () => {
+  it('takes motion sensor picks from the motion sensor guide, never from alarm kits', () => {
     const guides = getCategoryGuides('detecteurs-mouvement', 'en')
-    expect(guides.picks).toEqual([])
-    expect(guides.articles.length).toBeGreaterThan(0)
+    expect(CATEGORY_GUIDES['detecteurs-mouvement'].primary).toBe('detecteur-mouvement-connecte-comparatif')
+    expect(guides.picks.map((p) => p.model)).not.toContain('Ajax StarterKit')
+    expect(guides.articles.length).toBeGreaterThan(1)
   })
 
   it('surfaces the air purifier verdict with Amazon links in every locale', () => {
@@ -75,9 +76,15 @@ describe('category SEO honesty', () => {
 })
 
 describe('category picks match the category', () => {
-  it('shows no borrowed picks where the article verdict mixes product types', () => {
-    for (const slug of ['climatiseurs-mobiles', 'hubs-domotique', 'eclairage-connecte', 'barbecues-connectes', 'compteurs-energie']) {
-      expect(getCategoryGuides(slug, 'en').picks, slug).toEqual([])
+  it('never uses an article whose verdict mixes product types as a primary guide', () => {
+    const mixed: Record<string, string> = {
+      'climatiseurs-mobiles': 'climatiseur-mobile-vs-ventilateur',
+      'hubs-domotique': 'maison-connectee-matter-thread-2026',
+      'barbecues-connectes': 'barbecue-connecte-thermometre-guide',
+      'compteurs-energie': 'comparatif-smart-plugs-mesure-energie',
+    }
+    for (const [category, article] of Object.entries(mixed)) {
+      expect(CATEGORY_GUIDES[category]?.primary, category).not.toBe(article)
     }
   })
 

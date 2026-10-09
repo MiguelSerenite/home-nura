@@ -95,6 +95,17 @@ import { article as nwMotorisationPortailGarageConnecte } from './articles/motor
 import { article as nwDiffuseurHuilesEssentiellesConnecte } from './articles/diffuseur-huiles-essentielles-connecte'
 import { article as nwCoffreFortConnecteGuide } from './articles/coffre-fort-connecte-guide'
 import { article as nwLaveLingeConnecteGuide } from './articles/lave-linge-connecte-guide'
+import { article as nwInterrupteurConnecteComparatif } from './articles/interrupteur-connecte-comparatif'
+import { article as nwBoxDomotiqueHubComparatif } from './articles/box-domotique-hub-comparatif'
+import { article as nwAlarmeExterieureDetecteurJardin } from './articles/alarme-exterieure-detecteur-jardin'
+import { article as nwRideauMotoriseConnecteGuide } from './articles/rideau-motorise-connecte-guide'
+import { article as nwBatterieDomestiqueStockageSolaire } from './articles/batterie-domestique-stockage-solaire'
+import { article as nwHumidificateurConnecteComparatif } from './articles/humidificateur-connecte-comparatif'
+import { article as nwDetecteurMouvementConnecteComparatif } from './articles/detecteur-mouvement-connecte-comparatif'
+import { article as nwCompteurEnergieConnecteComparatif } from './articles/compteur-energie-connecte-comparatif'
+import { article as nwClimatiseurMobileConnecteComparatif } from './articles/climatiseur-mobile-connecte-comparatif'
+import { article as nwRobotPiscineComparatif } from './articles/robot-piscine-comparatif'
+import { article as nwGrillPelletPlanchaConnecteComparatif } from './articles/grill-pellet-plancha-connecte-comparatif'
 
 const ALL_ARTICLES: BlogArticle[] = [
   testNinjaFoodiMax,
@@ -189,6 +200,17 @@ const ALL_ARTICLES: BlogArticle[] = [
   nwDiffuseurHuilesEssentiellesConnecte,
   nwCoffreFortConnecteGuide,
   nwLaveLingeConnecteGuide,
+  nwInterrupteurConnecteComparatif,
+  nwBoxDomotiqueHubComparatif,
+  nwAlarmeExterieureDetecteurJardin,
+  nwRideauMotoriseConnecteGuide,
+  nwBatterieDomestiqueStockageSolaire,
+  nwHumidificateurConnecteComparatif,
+  nwDetecteurMouvementConnecteComparatif,
+  nwCompteurEnergieConnecteComparatif,
+  nwClimatiseurMobileConnecteComparatif,
+  nwRobotPiscineComparatif,
+  nwGrillPelletPlanchaConnecteComparatif,
 ]
 
 export function getAllArticles(): BlogArticle[] {
