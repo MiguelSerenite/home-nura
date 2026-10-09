@@ -52,7 +52,7 @@ const pageContent: Record<string, {
 }> = {
   fr: {
     title: 'Airfryer vs Four Traditionnel : Le Comparatif Définitif 2026',
-    subtitle: 'Friteuse sans huile ou four classique ? On a testé les deux pour vous aider à choisir.',
+    subtitle: 'Friteuse sans huile ou four classique ? On a comparé les deux pour vous aider à choisir.',
     intro: 'L\'airfryer (friteuse à air chaud) et le four traditionnel sont deux appareils de cuisson essentiels. Mais lequel est le plus adapté à vos besoins ? Nous avons comparé ces deux technologies sur 7 critères clés pour vous aider à faire le bon choix.',
     intro_long: 'En 2026, face à la hausse continue des tarifs EDF et la prise de conscience environnementale croissante, le choix entre un airfryer et un four traditionnel devient une décision majeure pour des millions de foyers français. L\'airfryer, autrefois gadget exotique, représente aujourd\'hui une véritable révolution culinaire qui transforme la façon dont nous préparons nos repas. Avec une consommation énergétique jusqu\'à 50% inférieure à celle d\'un four classique et des temps de cuisson réduits de moitié, cet appareil fait la une des débats dans les cuisines françaises. Mais peut-il vraiment remplacer votre four ? Est-ce un investissement judicieux ou une simple tendance passagère ? Ce guide complet explore chaque aspect de cette comparaison, en s\'appuyant sur des données concrètes et des scénarios réalistes pour vous aider à prendre la meilleure décision possible.',
     how_airfryer_works_title: 'Comment fonctionne un airfryer ?',
@@ -98,7 +98,7 @@ const pageContent: Record<string, {
   },
   en: {
     title: 'Air Fryer vs Oven: The Definitive Comparison 2026',
-    subtitle: 'Air fryer or traditional oven? We tested both to help you choose.',
+    subtitle: 'Air fryer or traditional oven? We compared both to help you choose.',
     intro: 'The air fryer and the traditional oven are two essential cooking appliances. But which one is best suited to your needs? We compared these two technologies across 7 key criteria to help you make the right choice.',
     intro_long: 'In 2026, as British households grapple with rising energy bills following the Ofgem price cap increases and growing environmental consciousness, the choice between an air fryer and a traditional oven becomes increasingly important. The air fryer, once considered a novelty gadget, has now proven itself a genuine culinary revolution that transforms how we prepare daily meals. With energy consumption up to 50% lower than conventional ovens and cooking times cut in half, this device has sparked heated debates in UK kitchens nationwide. But can it truly replace your oven? Is it a smart investment or just a passing trend? This comprehensive guide explores every aspect of this comparison, drawing on concrete data and real-world scenarios to help you make the best possible decision for your household and budget.',
     how_airfryer_works_title: 'How Does an Air Fryer Work?',
@@ -144,7 +144,7 @@ const pageContent: Record<string, {
   },
   de: {
     title: 'Airfryer vs Backofen: Der Ultimative Vergleich 2026',
-    subtitle: 'Heißluftfritteuse oder klassischer Backofen? Wir haben beide getestet.',
+    subtitle: 'Heißluftfritteuse oder klassischer Backofen? Wir haben beide verglichen.',
     intro: 'Die Heißluftfritteuse (Airfryer) und der traditionelle Backofen sind zwei unverzichtbare Küchengeräte. Aber welches passt besser zu Ihren Bedürfnissen? Wir haben beide Technologien anhand von 7 Schlüsselkriterien verglichen.',
     intro_long: 'Im Jahr 2026, während deutsche Haushalte mit steigenden Strompreisen und wachsendem Umweltbewusstsein kämpfen, wird die Wahl zwischen einer Heißluftfritteuse und einem traditionellen Backofen zu einer zunehmend wichtigen Entscheidung. Der Airfryer, einst als exotisches Gadget angesehen, hat sich zu einer echten kulinarischen Revolution entwickelt, die unsere tägliche Kochweise transformiert. Mit einer Energieverbrauch bis zu 50% niedriger als bei konventionellen Backöfen und um die Hälfte reduzierten Garheiten, hat dieses Gerät heftige Debatten in deutschen Küchen ausgelöst. Aber kann es wirklich den Backofen ersetzen? Ist es eine kluge Investition oder nur ein vorübergehender Trend? Dieser umfassende Leitfaden untersucht jeden Aspekt dieses Vergleichs und bietet konkrete Daten sowie realistische Szenarien, um Ihnen bei der besten Entscheidung für Ihren Haushalt zu helfen.',
     how_airfryer_works_title: 'Wie funktioniert ein Airfryer?',
@@ -190,7 +190,7 @@ const pageContent: Record<string, {
   },
   es: {
     title: 'Freidora de Aire vs Horno: La Comparativa Definitiva 2026',
-    subtitle: 'Freidora sin aceite o horno tradicional? Hemos probado ambos para ayudarte a elegir.',
+    subtitle: 'Freidora sin aceite o horno tradicional? Hemos comparado ambos para ayudarte a elegir.',
     intro: 'La freidora de aire (airfryer) y el horno tradicional son dos electrodomésticos de cocina esenciales. Pero, ¿cuál se adapta mejor a tus necesidades? Hemos comparado ambas tecnologías en 7 criterios clave para ayudarte a tomar la mejor decisión.',
     intro_long: 'En 2026, mientras los hogares españoles luchan contra el aumento de las facturas de electricidad y la creciente consciencia ambiental, la elección entre una freidora de aire y un horno tradicional se convierte en una decisión cada vez más importante. La freidora de aire, antaño considerada un gadget exótico, se ha demostrado ser una verdadera revolución culinaria que transforma la forma en que preparamos nuestras comidas diarias. Con un consumo energético hasta un 50% inferior al de los hornos convencionales y tiempos de cocción reducidos a la mitad, este aparato ha generado debates apasionados en las cocinas españolas. ¿Pero puede realmente sustituir al horno? ¿Es una inversión inteligente o solo una moda pasajera? Esta guía completa examina cada aspecto de esta comparación, proporcionando datos concretos y escenarios realistas para ayudarte a tomar la mejor decisión posible para tu hogar.',
     how_airfryer_works_title: '¿Cómo funciona una freidora de aire?',
@@ -236,7 +236,7 @@ const pageContent: Record<string, {
   },
   it: {
     title: 'Friggitrice ad Aria vs Forno: Il Confronto Definitivo 2026',
-    subtitle: 'Friggitrice ad aria o forno tradizionale? Li abbiamo testati entrambi per aiutarti a scegliere.',
+    subtitle: 'Friggitrice ad aria o forno tradizionale? Li abbiamo confrontati entrambi per aiutarti a scegliere.',
     intro: 'La friggitrice ad aria (airfryer) e il forno tradizionale sono due elettrodomestici essenziali in cucina. Ma quale è più adatto alle tue esigenze? Abbiamo confrontato queste due tecnologie su 7 criteri chiave per aiutarti a fare la scelta giusta.',
     intro_long: 'Nel 2026, mentre le famiglie italiane affrontano bollette energetiche in continuo aumento e una crescente consapevolezza ambientale, la scelta tra una friggitrice ad aria e un forno tradizionale diventa una decisione sempre più importante. La friggitrice ad aria, un tempo considerata un gadget esotico, si è dimostrata essere una vera rivoluzione culinaria che trasforma il modo in cui prepariamo i nostri pasti quotidiani. Con un consumo energetico fino al 50% inferiore rispetto ai forni convenzionali e tempi di cottura dimezzati, questo apparecchio ha scatenato dibattiti appassionati nelle cucine italiane. Ma può davvero sostituire il forno? È un investimento intelligente o solo una moda passeggera? Questa guida completa esamina ogni aspetto di questo confronto, fornendo dati concreti e scenari realistici per aiutarti a prendere la migliore decisione possibile per la tua casa.',
     how_airfryer_works_title: 'Come funziona una friggitrice ad aria?',
@@ -282,7 +282,7 @@ const pageContent: Record<string, {
   },
   nl: {
     title: 'Airfryer vs Oven: De Definitieve Vergelijking 2026',
-    subtitle: 'Airfryer of traditionele oven? We hebben beide getest om je te helpen kiezen.',
+    subtitle: 'Airfryer of traditionele oven? We hebben beide vergeleken om je te helpen kiezen.',
     intro: 'De airfryer en de traditionele oven zijn twee essentiële keukenapparaten. Maar welke past het best bij jouw behoeften? We hebben beide technologieën vergeleken op 7 belangrijke criteria om je te helpen de juiste keuze te maken.',
     intro_long: 'In 2026, terwijl Nederlandse huishoudens worstelen met stijgende energiefacturen en groeiend milieubesef, wordt de keuze tussen een airfryer en een traditionele oven steeds belangrijker. De airfryer, ooit beschouwd als een exotisch gadget, heeft zich bewezen als een echte culinaire revolutie die verandert hoe we onze dagelijkse maaltijden bereiden. Met een energieverbruik tot 50% lager dan bij conventionele ovens en gartijden die gehalveerd zijn, heeft dit apparaat hartstochtelijke debatten in Nederlandse keukens uitgelokt. Maar kan het werkelijk de oven vervangen? Is het een slimme investering of alleen een voorbijgaande trend? Deze uitgebreide gids onderzoekt elk aspect van deze vergelijking, voorzien van concrete gegevens en realistische scenario\'s om je de beste mogelijke beslissing voor je huishouden te helpen nemen.',
     how_airfryer_works_title: 'Hoe werkt een airfryer?',
@@ -704,8 +704,8 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
             {
               href: `/${lang}/a-propos`,
               num: '02',
-              title: lang === 'fr' ? 'Notre méthodologie de test' : lang === 'de' ? 'Unsere Testmethodik' : lang === 'es' ? 'Nuestra metodología de pruebas' : lang === 'it' ? 'La nostra metodologia di test' : lang === 'nl' ? 'Onze testmethodologie' : 'Our Testing Methodology',
-              desc: lang === 'fr' ? 'Comment nous testons et notons chaque airfryer.' : lang === 'de' ? 'Wie wir jede Heißluftfritteuse testen und bewerten.' : lang === 'es' ? 'Cómo probamos y calificamos cada freidora.' : lang === 'it' ? 'Come testiamo e valutiamo ogni friggitrice.' : lang === 'nl' ? 'Hoe we elke airfryer testen en beoordelen.' : 'How we test and rate every air fryer.',
+              title: lang === 'fr' ? 'Notre méthodologie' : lang === 'de' ? 'Unsere Methodik' : lang === 'es' ? 'Nuestra metodología' : lang === 'it' ? 'La nostra metodologia' : lang === 'nl' ? 'Onze methodologie' : 'Our Methodology',
+              desc: lang === 'fr' ? 'Comment nous comparons et notons chaque airfryer.' : lang === 'de' ? 'Wie wir jede Heißluftfritteuse vergleichen und bewerten.' : lang === 'es' ? 'Cómo comparamos y calificamos cada freidora.' : lang === 'it' ? 'Come confrontiamo e valutiamo ogni friggitrice.' : lang === 'nl' ? 'Hoe we elke airfryer vergelijken en beoordelen.' : 'How we compare and rate every air fryer.',
             },
             {
               href: `/${lang}`,

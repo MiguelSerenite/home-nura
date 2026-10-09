@@ -54,21 +54,21 @@ interface HeroTemplate {
 const heroTemplates: Record<Lang, HeroTemplate> = {
   fr: {
     title: (cat) => `Les meilleurs ${cat.toLowerCase()} 2026`,
-    subtitle: (silo) => `Testés pour l'Europe — ${silo.toLowerCase()}`,
+    subtitle: (silo) => `Comparés pour l'Europe — ${silo.toLowerCase()}`,
     intro: (cat, silo, keyword) =>
       `Guide « ${keyword} » : notre sélection de ${cat.toLowerCase()} dans la catégorie ${silo.toLowerCase()}, évaluée sur les critères qui comptent en Europe : coût énergétique annuel, étiquette énergie EU, conformité RGPD, disponibilité des pièces détachées sur cinq ans et compatibilité Matter. Nous écartons les modèles qui sur-vendent le marketing et retenons ceux qui tiennent sur la durée.`,
     buyCtaLabel: 'Vérifier le prix sur Amazon',
   },
   en: {
     title: (cat) => `Best ${cat.toLowerCase()} 2026`,
-    subtitle: (silo) => `Tested for Europe — ${silo.toLowerCase()}`,
+    subtitle: (silo) => `Compared for Europe — ${silo.toLowerCase()}`,
     intro: (cat, silo, keyword) =>
       `Your “${keyword}” guide: our curated ${cat.toLowerCase()} picks from the ${silo.toLowerCase()} category, graded on what really matters in Europe: annual energy cost, EU energy label, GDPR compliance, spare-part availability over five years and Matter support. We drop models that over-sell marketing and keep the ones that go the distance.`,
     buyCtaLabel: 'Check price on Amazon',
   },
   de: {
     title: (cat) => `${cat} Vergleich 2026 — Testsieger & Tipps`,
-    subtitle: (silo) => `Getestet & verglichen für Europa — ${silo.toLowerCase()}`,
+    subtitle: (silo) => `Ausgewählt & verglichen für Europa — ${silo.toLowerCase()}`,
     intro: (cat, silo, keyword) =>
       `Ratgeber „${keyword}“: unsere Auswahl an ${cat} aus der Kategorie ${silo.toLowerCase()}, bewertet nach den Kriterien, die in Europa wirklich zählen: jährliche Energiekosten, EU-Energielabel, DSGVO-Konformität, Ersatzteil­verfügbarkeit über fünf Jahre und Matter-Unterstützung. Modelle mit reinem Marketing fliegen raus, Geräte mit Langlebigkeit bleiben.`,
     buyCtaLabel: 'Preis bei Amazon prüfen',
@@ -82,14 +82,14 @@ const heroTemplates: Record<Lang, HeroTemplate> = {
   },
   it: {
     title: (cat) => `I migliori ${cat.toLowerCase()} 2026`,
-    subtitle: (silo) => `Testati per l'Europa — ${silo.toLowerCase()}`,
+    subtitle: (silo) => `Confrontati per l'Europa — ${silo.toLowerCase()}`,
     intro: (cat, silo, keyword) =>
       `Guida «${keyword}»: la nostra selezione di ${cat.toLowerCase()} nella categoria ${silo.toLowerCase()}, valutata sui criteri che contano davvero in Europa: costo energetico annuo, etichetta energetica EU, conformità GDPR, disponibilità dei ricambi su cinque anni e supporto Matter. Scartiamo i modelli che sopravvalutano il marketing e teniamo quelli che durano.`,
     buyCtaLabel: 'Verifica prezzo su Amazon',
   },
   nl: {
     title: (cat) => `De beste ${cat.toLowerCase()} 2026`,
-    subtitle: (silo) => `Getest voor Europa — ${silo.toLowerCase()}`,
+    subtitle: (silo) => `Vergeleken voor Europa — ${silo.toLowerCase()}`,
     intro: (cat, silo, keyword) =>
       `Gids ‘${keyword}’: onze selectie van ${cat.toLowerCase()} in de categorie ${silo.toLowerCase()}, beoordeeld op wat in Europa écht telt: jaarlijkse energiekosten, EU-energielabel, AVG-conformiteit, beschikbaarheid van onderdelen over vijf jaar en Matter-ondersteuning. We laten modellen vallen die teveel op marketing leunen en houden de apparaten die het volhouden.`,
     buyCtaLabel: 'Bekijk prijs op Amazon',
@@ -331,7 +331,7 @@ const personaGuideTemplates: Record<Lang, PersonaGuideTemplate> = {
   de: {
     kicker: 'Kaufberatung',
     title: (label) => `Testsieger für ${label} — Vergleich 2026`,
-    subtitle: (label) => `Home-Nura-Empfehlungen: ${label} im Test 2026`,
+    subtitle: (label) => `Home-Nura-Empfehlungen: ${label} im Vergleich 2026`,
     intros: {
       household: (label) =>
         `Für ${label} gewichten unsere Empfehlungen die Kriterien, die im Alltag wirklich zählen: passende Kapazität, Ergonomie, einfache Wartung und Langlebigkeit über fünf Jahre. Jedes Produkt wird zudem anhand seiner jährlichen Energiekosten in Euro und seiner Konformität mit den europäischen Vorschriften 2026 bewertet.`,
@@ -427,8 +427,8 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
       answer: `Un top généraliste force tous les profils dans un même classement et pénalise les foyers atypiques — petits budgets, contraintes d\'espace, ménages RGPD-strict. Nos sélections par profil reflètent le vrai coût d\'usage pour ce foyer : consommation annuelle chiffrée, adéquation aux habitudes et SAV disponible dans le marché local.`,
     },
     {
-      question: 'Testez-vous les produits en conditions réelles européennes ?',
-      answer: `Oui. Nos mesures de consommation se font en laboratoire indépendant selon les normes EN, et nous croisons avec les retours d\'usage long-terme publiés par les fabricants européens sérieux. Aucune recommandation n\'est basée uniquement sur la fiche produit — la méthodologie publique détaille le protocole.`,
+      question: 'Comment évaluez-vous les produits pour les conditions européennes ?',
+      answer: `Nous ne testons pas les produits nous-mêmes. Nous comparons les consommations annoncées selon les normes EN, les tests indépendants publiés et les retours d\'acheteurs vérifiés. Aucune recommandation n\'est basée uniquement sur la fiche produit — la méthodologie publique détaille le protocole.`,
     },
   ],
   en: [
@@ -449,8 +449,8 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
       answer: `A generic top 10 forces every profile into the same ranking and penalises atypical households — tight budgets, space-constrained homes, GDPR-strict users. Our profile-based picks reflect the real cost of ownership for that household: real annual energy figures, fit to daily habits and local after-sales availability.`,
     },
     {
-      question: 'Do you test products in real European conditions?',
-      answer: `Yes. Energy consumption is measured in an independent lab following EN standards, and we cross-check long-term usage reports published by serious European manufacturers. No recommendation is based on a spec sheet alone — the public methodology lays out the protocol.`,
+      question: 'How do you assess products for European conditions?',
+      answer: `We do not test products ourselves. We compare energy figures declared under EN standards, published independent tests and verified buyer feedback. No recommendation is based on a spec sheet alone — the public methodology lays out the protocol.`,
     },
   ],
   de: [
@@ -471,8 +471,8 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
       answer: `Eine generische Top-10 zwingt alle Profile ins gleiche Ranking und benachteiligt atypische Haushalte — knappes Budget, enge Wohnfläche, DSGVO-strenge Nutzer. Unsere profilbasierte Auswahl zeigt die tatsächlichen Gesamtkosten für diesen Haushalt: reale Jahresenergie, Alltagstauglichkeit und lokale Kundendienstverfügbarkeit.`,
     },
     {
-      question: 'Testen Sie die Produkte unter echten europäischen Bedingungen?',
-      answer: `Ja. Der Stromverbrauch wird im unabhängigen Labor nach EN-Normen gemessen, und wir gleichen die Daten mit den Langzeitberichten seriöser europäischer Hersteller ab. Keine Empfehlung basiert allein auf dem Datenblatt — unsere öffentliche Methodik beschreibt das Protokoll im Detail.`,
+      question: 'Wie bewerten Sie die Produkte für europäische Bedingungen?',
+      answer: `Wir testen die Produkte nicht selbst. Wir vergleichen die nach EN-Normen angegebenen Verbrauchswerte, veröffentlichte unabhängige Tests und verifizierte Käuferbewertungen. Keine Empfehlung basiert allein auf dem Datenblatt — unsere öffentliche Methodik beschreibt das Protokoll im Detail.`,
     },
   ],
   es: [
@@ -493,8 +493,8 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
       answer: `Un top generalista obliga a todos los perfiles al mismo ranking y penaliza a los hogares atípicos — presupuestos ajustados, viviendas pequeñas, usuarios estrictos en RGPD. Nuestras selecciones por perfil reflejan el coste real de uso en ese hogar: consumo anual real, adaptación a los hábitos y servicio posventa disponible en el mercado local.`,
     },
     {
-      question: '¿Probáis los productos en condiciones reales europeas?',
-      answer: `Sí. El consumo se mide en laboratorio independiente según las normas EN, y contrastamos con los informes de uso a largo plazo publicados por fabricantes europeos serios. Ninguna recomendación se basa únicamente en la ficha técnica — la metodología pública detalla el protocolo.`,
+      question: '¿Cómo evaluáis los productos para las condiciones europeas?',
+      answer: `No probamos los productos nosotros mismos. Comparamos los consumos declarados según las normas EN, las pruebas independientes publicadas y las opiniones de compradores verificados. Ninguna recomendación se basa únicamente en la ficha técnica — la metodología pública detalla el protocolo.`,
     },
   ],
   it: [
@@ -515,8 +515,8 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
       answer: `Una top 10 generica forza tutti i profili nella stessa classifica e penalizza le famiglie atipiche — budget stretti, case piccole, utenti GDPR-strict. Le nostre selezioni per profilo mostrano il costo reale d'uso per quella famiglia: consumi annui effettivi, aderenza alle abitudini e assistenza locale disponibile nel mercato.`,
     },
     {
-      question: 'Testate i prodotti in condizioni reali europee?',
-      answer: `Sì. I consumi vengono misurati in laboratorio indipendente secondo le norme EN, e confrontiamo con i report d'uso a lungo termine pubblicati dai produttori europei seri. Nessuna raccomandazione si basa solo sulla scheda tecnica — la metodologia pubblica descrive il protocollo nel dettaglio.`,
+      question: 'Come valutate i prodotti per le condizioni europee?',
+      answer: `Non testiamo i prodotti direttamente. Confrontiamo i consumi dichiarati secondo le norme EN, i test indipendenti pubblicati e le recensioni di acquirenti verificati. Nessuna raccomandazione si basa solo sulla scheda tecnica — la metodologia pubblica descrive il protocollo nel dettaglio.`,
     },
   ],
   nl: [
@@ -537,8 +537,8 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
       answer: `Een algemene top 10 dwingt elk profiel in dezelfde ranglijst en benadeelt atypische huishoudens — krappe budgetten, kleine woningen, AVG-strenge gebruikers. Onze profielgebaseerde selecties tonen de werkelijke gebruikskost voor dat huishouden: reële jaarlijkse energie, aansluiting op de leefgewoonten en lokale service-beschikbaarheid.`,
     },
     {
-      question: 'Testen jullie producten in echte Europese omstandigheden?',
-      answer: `Ja. Het energieverbruik wordt gemeten in een onafhankelijk laboratorium volgens EN-normen, en we vergelijken met de langetermijnrapporten van serieuze Europese fabrikanten. Geen enkele aanbeveling is uitsluitend op een productfiche gebaseerd — onze publieke methodologie beschrijft het protocol.`,
+      question: 'Hoe beoordelen jullie producten voor Europese omstandigheden?',
+      answer: `We testen de producten niet zelf. We vergelijken het opgegeven verbruik volgens EN-normen, gepubliceerde onafhankelijke tests en geverifieerde kopersbeoordelingen. Geen enkele aanbeveling is uitsluitend op een productfiche gebaseerd — onze publieke methodologie beschrijft het protocol.`,
     },
   ],
 }
@@ -947,7 +947,7 @@ const bestForTemplates: Record<Lang, BestForTemplate> = {
       budget: (cat, persona) =>
         `Pour un ${cat.toLowerCase()} adapté à un budget ${persona.toLowerCase()}, nous écartons d'abord tout modèle dont le coût total sur cinq ans (achat + énergie + pièces) sort de la tranche, puis nous classons sur la réparabilité et le service après-vente européen. Un bon produit de catégorie ${cat.toLowerCase()} doit rester rentable jusqu'au bout.`,
       usage: (cat, persona) =>
-        `Pour un usage ${persona.toLowerCase()}, nos recommandations de ${cat.toLowerCase()} privilégient la fiabilité opérationnelle. Un modèle qui brille sur fiche technique mais dérive au bout de six mois n'entre jamais dans la short-list. Chaque entrée ci-dessous a été testée sur la durée, avec un coût énergétique annuel calculé pour le marché européen.`,
+        `Pour un usage ${persona.toLowerCase()}, nos recommandations de ${cat.toLowerCase()} privilégient la fiabilité opérationnelle. Un modèle qui brille sur fiche technique mais dérive au bout de six mois n'entre jamais dans la short-list. Chaque entrée ci-dessous a été sélectionnée sur sa fiabilité dans la durée, avec un coût énergétique annuel calculé pour le marché européen.`,
       constraint: (cat, persona) =>
         `La contrainte "${persona.toLowerCase()}" filtre drastiquement le marché du ${cat.toLowerCase()}. Notre méthodologie Home Nura applique ce filtre en premier, puis classe les modèles survivants sur les cinq critères européens habituels : étiquette énergie, coût annuel en euros, conformité RGPD, pièces détachées sur cinq ans, compatibilité Matter.`,
     },
@@ -1017,7 +1017,7 @@ const bestForTemplates: Record<Lang, BestForTemplate> = {
       budget: (cat, persona) =>
         `For a ${cat.toLowerCase()} matched to a ${persona.toLowerCase()} budget, we first discard any model whose five-year total cost (purchase + energy + parts) lands out of range, then rank on repairability and European after-sales service. A good ${cat.toLowerCase()} has to stay profitable through the finish line.`,
       usage: (cat, persona) =>
-        `For ${persona.toLowerCase()} use, our ${cat.toLowerCase()} picks privilege operational reliability. A model that shines on the spec sheet but drifts within six months never reaches our shortlist. Every entry below has been tested over time, with an annual energy cost calculated for the European market.`,
+        `For ${persona.toLowerCase()} use, our ${cat.toLowerCase()} picks privilege operational reliability. A model that shines on the spec sheet but drifts within six months never reaches our shortlist. Every entry below has been selected for its long-term reliability, with an annual energy cost calculated for the European market.`,
       constraint: (cat, persona) =>
         `The "${persona.toLowerCase()}" constraint filters the ${cat.toLowerCase()} market drastically. Our Home Nura methodology applies this filter first, then ranks survivors on the five usual European criteria: EU energy label, annual cost in euros, GDPR compliance, five-year spare parts, Matter support.`,
     },
@@ -1085,7 +1085,7 @@ const bestForTemplates: Record<Lang, BestForTemplate> = {
       budget: (cat, persona) =>
         `Für einen ${cat}, der zum Budget "${persona}" passt, verwerfen wir zuerst jedes Modell, dessen Fünf-Jahres-Gesamtkosten (Kauf + Energie + Teile) außerhalb der Spanne liegen, und sortieren dann nach Reparierbarkeit und europäischem Kundendienst. Ein guter ${cat} muss bis zum Ende rentabel bleiben.`,
       usage: (cat, persona) =>
-        `Für die Nutzung "${persona}" gewichten unsere ${cat}-Empfehlungen die Betriebszuverlässigkeit. Ein Modell, das auf dem Datenblatt glänzt, aber nach sechs Monaten abbaut, schafft es nicht in unsere Shortlist. Jeder Eintrag unten wurde über Zeit getestet, mit jährlichen Energiekosten für den europäischen Markt.`,
+        `Für die Nutzung "${persona}" gewichten unsere ${cat}-Empfehlungen die Betriebszuverlässigkeit. Ein Modell, das auf dem Datenblatt glänzt, aber nach sechs Monaten abbaut, schafft es nicht in unsere Shortlist. Jeder Eintrag unten wurde nach ihrer Langzeit-Zuverlässigkeit ausgewählt, mit jährlichen Energiekosten für den europäischen Markt.`,
       constraint: (cat, persona) =>
         `Die Einschränkung "${persona}" filtert den ${cat}-Markt radikal. Unsere Home-Nura-Methodik wendet diesen Filter zuerst an und ordnet die Überlebenden nach den fünf üblichen europäischen Kriterien: EU-Energielabel, jährliche Kosten in Euro, DSGVO-Konformität, fünfjährige Ersatzteile, Matter-Unterstützung.`,
     },
@@ -1155,7 +1155,7 @@ const bestForTemplates: Record<Lang, BestForTemplate> = {
       budget: (cat, persona) =>
         `Para un ${cat.toLowerCase()} ajustado a un presupuesto ${persona.toLowerCase()}, descartamos primero cualquier modelo cuyo coste total a cinco años (compra + energía + piezas) quede fuera del rango, luego clasificamos por reparabilidad y servicio postventa europeo. Un buen ${cat.toLowerCase()} tiene que seguir siendo rentable hasta el final.`,
       usage: (cat, persona) =>
-        `Para un uso ${persona.toLowerCase()}, nuestras recomendaciones de ${cat.toLowerCase()} priorizan la fiabilidad operativa. Un modelo que brilla en la ficha técnica pero se deteriora a los seis meses no entra en la selección. Cada entrada ha sido probada en el tiempo, con un coste energético anual calculado para el mercado europeo.`,
+        `Para un uso ${persona.toLowerCase()}, nuestras recomendaciones de ${cat.toLowerCase()} priorizan la fiabilidad operativa. Un modelo que brilla en la ficha técnica pero se deteriora a los seis meses no entra en la selección. Cada entrada ha sido seleccionada por su fiabilidad en el tiempo, con un coste energético anual calculado para el mercado europeo.`,
       constraint: (cat, persona) =>
         `La restricción "${persona.toLowerCase()}" filtra drásticamente el mercado del ${cat.toLowerCase()}. Nuestra metodología Home Nura aplica este filtro primero y luego clasifica los supervivientes según los cinco criterios europeos habituales: etiqueta energética EU, coste anual en euros, conformidad RGPD, recambios a cinco años, soporte Matter.`,
     },
@@ -1225,7 +1225,7 @@ const bestForTemplates: Record<Lang, BestForTemplate> = {
       budget: (cat, persona) =>
         `Per un ${cat.toLowerCase()} adatto a un budget ${persona.toLowerCase()}, scartiamo prima ogni modello il cui costo totale su cinque anni (acquisto + energia + ricambi) esce dalla fascia, poi classifichiamo su riparabilità e assistenza europea. Un buon ${cat.toLowerCase()} deve restare conveniente fino in fondo.`,
       usage: (cat, persona) =>
-        `Per un uso ${persona.toLowerCase()}, le nostre scelte di ${cat.toLowerCase()} privilegiano l'affidabilità operativa. Un modello che brilla sulla scheda tecnica ma si deteriora dopo sei mesi non entra nella short-list. Ogni voce è stata testata nel tempo, con un costo energetico annuo calcolato per il mercato europeo.`,
+        `Per un uso ${persona.toLowerCase()}, le nostre scelte di ${cat.toLowerCase()} privilegiano l'affidabilità operativa. Un modello che brilla sulla scheda tecnica ma si deteriora dopo sei mesi non entra nella short-list. Ogni voce è stata selezionata per la sua affidabilità nel tempo, con un costo energetico annuo calcolato per il mercato europeo.`,
       constraint: (cat, persona) =>
         `Il vincolo "${persona.toLowerCase()}" filtra drasticamente il mercato dei ${cat.toLowerCase()}. La metodologia Home Nura applica questo filtro per primo, poi classifica i modelli sopravvissuti sui cinque criteri europei soliti: etichetta energetica EU, costo annuo in euro, conformità GDPR, ricambi su cinque anni, supporto Matter.`,
     },
@@ -1295,7 +1295,7 @@ const bestForTemplates: Record<Lang, BestForTemplate> = {
       budget: (cat, persona) =>
         `Voor een ${cat.toLowerCase()} afgestemd op een ${persona.toLowerCase()}-budget schrappen we eerst elk model waarvan de totale vijfjarige kost (aankoop + energie + onderdelen) buiten het bereik valt, en ranken daarna op repareerbaarheid en Europese service. Een goede ${cat.toLowerCase()} moet tot het einde rendabel blijven.`,
       usage: (cat, persona) =>
-        `Voor ${persona.toLowerCase()}-gebruik geven onze ${cat.toLowerCase()}-keuzes voorrang aan operationele betrouwbaarheid. Een model dat schittert op het specificatieblad maar na zes maanden verslechtert, haalt onze shortlist niet. Elke vermelding is in de tijd getest, met een jaarlijkse energiekost berekend voor de Europese markt.`,
+        `Voor ${persona.toLowerCase()}-gebruik geven onze ${cat.toLowerCase()}-keuzes voorrang aan operationele betrouwbaarheid. Een model dat schittert op het specificatieblad maar na zes maanden verslechtert, haalt onze shortlist niet. Elke vermelding is geselecteerd op betrouwbaarheid op lange termijn, met een jaarlijkse energiekost berekend voor de Europese markt.`,
       constraint: (cat, persona) =>
         `De beperking "${persona.toLowerCase()}" filtert de ${cat.toLowerCase()}-markt drastisch. Onze Home Nura-methodologie past deze filter eerst toe en rangschikt de overlevers daarna op de vijf gebruikelijke Europese criteria: EU-energielabel, jaarlijkse kost in euro, AVG-conformiteit, vijfjarige onderdelen, Matter-ondersteuning.`,
     },

@@ -301,7 +301,7 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
             'Cooking Thermometers',
             'Smart Plugs',
             'Kitchen Appliances',
-            'Product Testing',
+            'Product Comparison',
             'Consumer Electronics',
           ],
         }) }}

@@ -168,7 +168,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             {dict.top_picks_title || "This month's podium"}
           </h2>
           <p className="text-lg text-slate-600 text-center mb-12 max-w-2xl mx-auto">
-            {dict.top_picks_subtitle || 'The top three, hand-tested by our team'}
+            {dict.top_picks_subtitle || 'The top three, selected by our team'}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {products.slice(0, 3).map((product, i) => (
@@ -362,7 +362,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                 {lang === 'fr' ? 'Découvrez la cuisine connectée' : lang === 'de' ? 'Entdecken Sie die smarte Küche' : lang === 'es' ? 'Descubre la cocina conectada' : lang === 'it' ? 'Scopri la cucina connessa' : lang === 'nl' ? 'Ontdek de slimme keuken' : 'Discover the smart kitchen'}
               </h2>
               <p className="text-base text-slate-600 leading-relaxed max-w-2xl">
-                {lang === 'fr' ? 'Multicuiseurs, cafetières intelligentes, balances, thermomètres, prises connectées — 15 modèles testés pour transformer votre cuisine.' : lang === 'de' ? 'Multikocher, smarte Kaffeemaschinen, Waagen, Thermometer, smarte Steckdosen — 15 getestete Modelle für Ihre Küche.' : lang === 'es' ? 'Ollas, cafeteras inteligentes, básculas, termómetros, enchufes conectados — 15 modelos probados para tu cocina.' : lang === 'it' ? 'Multicottura, macchine da caffè intelligenti, bilance, termometri, prese connesse — 15 modelli testati per la tua cucina.' : lang === 'nl' ? 'Multicookers, slimme koffiemachines, weegschalen, thermometers, slimme stekkers — 15 geteste modellen voor uw keuken.' : 'Multicookers, smart coffee machines, scales, thermometers, smart plugs — 15 tested models to upgrade your kitchen.'}
+                {lang === 'fr' ? 'Multicuiseurs, cafetières intelligentes, balances, thermomètres, prises connectées — 15 modèles comparés pour transformer votre cuisine.' : lang === 'de' ? 'Multikocher, smarte Kaffeemaschinen, Waagen, Thermometer, smarte Steckdosen — 15 verglichene Modelle für Ihre Küche.' : lang === 'es' ? 'Ollas, cafeteras inteligentes, básculas, termómetros, enchufes conectados — 15 modelos comparados para tu cocina.' : lang === 'it' ? 'Multicottura, macchine da caffè intelligenti, bilance, termometri, prese connesse — 15 modelli confrontati per la tua cucina.' : lang === 'nl' ? 'Multicookers, slimme koffiemachines, weegschalen, thermometers, slimme stekkers — 15 vergeleken modellen voor uw keuken.' : 'Multicookers, smart coffee machines, scales, thermometers, smart plugs — 15 compared models to upgrade your kitchen.'}
               </p>
             </div>
             <div className="flex items-center gap-2 text-sm font-semibold text-brand-600 shrink-0">

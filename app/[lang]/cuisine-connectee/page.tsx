@@ -27,7 +27,7 @@ interface PillarContent {
 const pageContent: Record<string, PillarContent> = {
   fr: {
     kicker: 'Cuisine connectée',
-    title: 'La cuisine connectée testée comme un airfryer',
+    title: 'La cuisine connectée comparée comme un airfryer',
     subtitle: 'Multicuiseurs, cafetières, balances, thermomètres, prises — même méthode, mêmes exigences.',
     intro: 'Après avoir passé au crible les airfryers, nous appliquons la même grille rigoureuse à l\'écosystème autour : appareils qui cuisent, pèsent, mesurent et pilotent à distance. Objectif : vous éviter les gadgets, garder ce qui simplifie réellement le quotidien.',
     breadcrumb: 'Cuisine connectée',
@@ -61,7 +61,7 @@ const pageContent: Record<string, PillarContent> = {
   },
   en: {
     kicker: 'Smart kitchen',
-    title: 'Smart kitchen, tested like an air fryer',
+    title: 'Smart kitchen, compared like an air fryer',
     subtitle: 'Multicookers, coffee machines, scales, thermometers, smart plugs — one method, one bar.',
     intro: 'After combing through air fryers, we apply the same rigorous grid to the wider ecosystem: devices that cook, weigh, measure and switch things on from across the room. The goal: cut out the gadgets, keep what actually makes daily life easier.',
     breadcrumb: 'Smart kitchen',
@@ -95,9 +95,9 @@ const pageContent: Record<string, PillarContent> = {
   },
   de: {
     kicker: 'Smarte Küche',
-    title: 'Smarte Küche, getestet wie eine Heißluftfritteuse',
+    title: 'Smarte Küche, verglichen wie eine Heißluftfritteuse',
     subtitle: 'Multikocher, Kaffeemaschinen, Waagen, Thermometer, Steckdosen — gleiche Methode, gleiche Ansprüche.',
-    intro: 'Nach dem Test der Heißluftfritteusen wenden wir dieselbe strenge Bewertung auf das gesamte Ökosystem an: Geräte zum Kochen, Wiegen, Messen und Fernsteuern. Ziel: Spielereien aussortieren, nur das behalten, was den Alltag wirklich erleichtert.',
+    intro: 'Nach dem Vergleich der Heißluftfritteusen wenden wir dieselbe strenge Bewertung auf das gesamte Ökosystem an: Geräte zum Kochen, Wiegen, Messen und Fernsteuern. Ziel: Spielereien aussortieren, nur das behalten, was den Alltag wirklich erleichtert.',
     breadcrumb: 'Smarte Küche',
     categoriesTitle: 'Unsere 5 Kategorien',
     categoryKicker: 'Kategorie',
@@ -129,7 +129,7 @@ const pageContent: Record<string, PillarContent> = {
   },
   es: {
     kicker: 'Cocina conectada',
-    title: 'La cocina conectada testada como una freidora de aire',
+    title: 'La cocina conectada comparada como una freidora de aire',
     subtitle: 'Ollas, cafeteras, básculas, termómetros, enchufes — misma metodología, mismas exigencias.',
     intro: 'Tras analizar a fondo las freidoras de aire, aplicamos la misma rejilla rigurosa al ecosistema alrededor: aparatos que cocinan, pesan, miden y controlan a distancia. Objetivo: evitar los gadgets, conservar lo que simplifica de verdad el día a día.',
     breadcrumb: 'Cocina conectada',
@@ -163,7 +163,7 @@ const pageContent: Record<string, PillarContent> = {
   },
   it: {
     kicker: 'Cucina connessa',
-    title: 'La cucina connessa testata come una friggitrice ad aria',
+    title: 'La cucina connessa confrontata come una friggitrice ad aria',
     subtitle: 'Multicottura, caffè, bilance, termometri, prese — stessa metodologia, stesse esigenze.',
     intro: 'Dopo aver passato al vaglio le friggitrici ad aria, applichiamo la stessa griglia rigorosa all\'ecosistema intorno: apparecchi che cuociono, pesano, misurano e si controllano da lontano. Obiettivo: evitare i gadget, tenere solo ciò che semplifica davvero la quotidianità.',
     breadcrumb: 'Cucina connessa',
@@ -197,9 +197,9 @@ const pageContent: Record<string, PillarContent> = {
   },
   nl: {
     kicker: 'Slimme keuken',
-    title: 'De slimme keuken, getest als een airfryer',
+    title: 'De slimme keuken, vergeleken als een airfryer',
     subtitle: 'Multicookers, koffiemachines, weegschalen, thermometers, stekkers — één methode, één lat.',
-    intro: 'Na het grondig testen van airfryers passen we dezelfde strikte methodologie toe op het hele ecosysteem eromheen: apparaten die koken, wegen, meten en op afstand bedienen. Doel: gadgets eruit, alleen houden wat het dagelijks leven echt makkelijker maakt.',
+    intro: 'Na het grondig vergelijken van airfryers passen we dezelfde strikte methodologie toe op het hele ecosysteem eromheen: apparaten die koken, wegen, meten en op afstand bedienen. Doel: gadgets eruit, alleen houden wat het dagelijks leven echt makkelijker maakt.',
     breadcrumb: 'Slimme keuken',
     categoriesTitle: 'Onze 5 categorieën',
     categoryKicker: 'Categorie',

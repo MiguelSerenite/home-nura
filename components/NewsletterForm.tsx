@@ -20,7 +20,7 @@ interface Labels {
 const LABELS: Record<string, Labels> = {
   fr: {
     title: 'La newsletter Home Nura',
-    subtitle: 'Les meilleurs tests, les vraies promos, zéro spam. Un email par mois.',
+    subtitle: 'Les meilleurs comparatifs, les vraies promos, zéro spam. Un email par mois.',
     placeholder: 'votre.email@exemple.com',
     emailLabel: 'Adresse email',
     submit: "S'inscrire",
@@ -33,7 +33,7 @@ const LABELS: Record<string, Labels> = {
   },
   en: {
     title: 'The Home Nura newsletter',
-    subtitle: 'Best tests, real deals, zero spam. One email a month.',
+    subtitle: 'Best comparisons, real deals, zero spam. One email a month.',
     placeholder: 'your.email@example.com',
     emailLabel: 'Email address',
     submit: 'Subscribe',
@@ -46,7 +46,7 @@ const LABELS: Record<string, Labels> = {
   },
   de: {
     title: 'Der Home Nura Newsletter',
-    subtitle: 'Die besten Tests, echte Angebote, kein Spam. Eine E-Mail pro Monat.',
+    subtitle: 'Die besten Vergleiche, echte Angebote, kein Spam. Eine E-Mail pro Monat.',
     placeholder: 'ihre.email@beispiel.de',
     emailLabel: 'E-Mail-Adresse',
     submit: 'Abonnieren',
@@ -59,7 +59,7 @@ const LABELS: Record<string, Labels> = {
   },
   es: {
     title: 'La newsletter de Home Nura',
-    subtitle: 'Las mejores pruebas, ofertas reales, cero spam. Un correo al mes.',
+    subtitle: 'Las mejores comparativas, ofertas reales, cero spam. Un correo al mes.',
     placeholder: 'tu.email@ejemplo.com',
     emailLabel: 'Dirección de correo',
     submit: 'Suscribirse',
@@ -72,7 +72,7 @@ const LABELS: Record<string, Labels> = {
   },
   it: {
     title: 'La newsletter di Home Nura',
-    subtitle: 'I migliori test, le vere offerte, zero spam. Una email al mese.',
+    subtitle: 'I migliori confronti, le vere offerte, zero spam. Una email al mese.',
     placeholder: 'la.tua.email@esempio.it',
     emailLabel: 'Indirizzo email',
     submit: 'Iscriviti',
@@ -85,7 +85,7 @@ const LABELS: Record<string, Labels> = {
   },
   nl: {
     title: 'De Home Nura-nieuwsbrief',
-    subtitle: 'De beste tests, echte deals, geen spam. Eén e-mail per maand.',
+    subtitle: 'De beste vergelijkingen, echte deals, geen spam. Eén e-mail per maand.',
     placeholder: 'jouw.email@voorbeeld.nl',
     emailLabel: 'E-mailadres',
     submit: 'Inschrijven',
