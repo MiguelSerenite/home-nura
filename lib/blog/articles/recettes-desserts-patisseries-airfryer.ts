@@ -6,7 +6,7 @@ export const article: BlogArticle = {
   pillar: 'guides/airfryers',
   relatedSlugs: ['top-10-accessoires-airfryer', 'erreurs-courantes-airfryer', 'recettes-frites-parfaites-airfryer'],
   datePublished: '2026-03-10',
-  dateModified: '2026-04-10',
+  dateModified: '2026-10-09',
   readingTime: 12,
   images: [
     {
@@ -294,16 +294,16 @@ export const article: BlogArticle = {
 
 <h2>Tableau récapitulatif : temps, températures et calories</h2>
 <table>
-<thead><tr><th>Dessert</th><th>Température</th><th>Temps total</th><th>Calories (par portion)</th><th>Difficulté</th></tr></thead>
+<thead><tr><th>Dessert</th><th>Température</th><th>Temps de cuisson</th><th>Calories (env. par portion)</th><th>Difficulté</th></tr></thead>
 <tbody>
-<tr><td>Brownies fondants</td><td>160°C</td><td>18-20 min</td><td>285 kcal</td><td>Facile</td></tr>
-<tr><td>Muffins aux myrtilles</td><td>170°C</td><td>14-16 min</td><td>220 kcal</td><td>Facile</td></tr>
-<tr><td>Chips de pomme</td><td>150°C</td><td>15-20 min</td><td>45 kcal</td><td>Très facile</td></tr>
-<tr><td>Churros</td><td>200°C</td><td>10-12 min</td><td>195 kcal</td><td>Moyen</td></tr>
-<tr><td>Cookies moelleux</td><td>170°C</td><td>8-10 min</td><td>185 kcal</td><td>Facile</td></tr>
-<tr><td>Banana bread</td><td>160°C</td><td>30-35 min</td><td>195 kcal</td><td>Facile</td></tr>
-<tr><td>Cinnamon rolls</td><td>170°C</td><td>12-15 min</td><td>265 kcal</td><td>Moyen</td></tr>
-<tr><td>Lava cake</td><td>180°C</td><td>8-10 min</td><td>310 kcal</td><td>Moyen</td></tr>
+<tr><td>Brownies fondants</td><td>160°C</td><td>18-22 min</td><td>~285 kcal</td><td>Facile</td></tr>
+<tr><td>Muffins aux myrtilles</td><td>170°C</td><td>12-15 min</td><td>~220 kcal</td><td>Facile</td></tr>
+<tr><td>Chips de pomme</td><td>150°C</td><td>10-12 min</td><td>~45 kcal</td><td>Très facile</td></tr>
+<tr><td>Churros</td><td>190°C</td><td>8-10 min</td><td>~195 kcal</td><td>Moyen</td></tr>
+<tr><td>Cookies moelleux</td><td>170°C</td><td>8-10 min</td><td>~140 kcal</td><td>Facile</td></tr>
+<tr><td>Banana bread</td><td>160°C</td><td>35-40 min</td><td>~210 kcal</td><td>Facile</td></tr>
+<tr><td>Cinnamon rolls</td><td>170°C</td><td>12-15 min</td><td>~315 kcal</td><td>Moyen</td></tr>
+<tr><td>Lava cake</td><td>190°C</td><td>8-10 min</td><td>~450 kcal</td><td>Moyen</td></tr>
 </tbody>
 </table>
 
@@ -497,16 +497,16 @@ export const article: BlogArticle = {
 
 <h2>Summary table: times, temperatures and calories</h2>
 <table>
-<thead><tr><th>Dessert</th><th>Temperature</th><th>Total time</th><th>Calories (per serving)</th><th>Difficulty</th></tr></thead>
+<thead><tr><th>Dessert</th><th>Temperature</th><th>Cooking time</th><th>Calories (approx. per serving)</th><th>Difficulty</th></tr></thead>
 <tbody>
-<tr><td>Fudgy brownies</td><td>160°C</td><td>18-20 min</td><td>285 kcal</td><td>Easy</td></tr>
-<tr><td>Blueberry muffins</td><td>170°C</td><td>14-16 min</td><td>220 kcal</td><td>Easy</td></tr>
-<tr><td>Apple chips</td><td>150°C</td><td>15-20 min</td><td>45 kcal</td><td>Very easy</td></tr>
-<tr><td>Churros</td><td>200°C</td><td>10-12 min</td><td>195 kcal</td><td>Medium</td></tr>
-<tr><td>Soft cookies</td><td>170°C</td><td>8-10 min</td><td>185 kcal</td><td>Easy</td></tr>
-<tr><td>Banana bread</td><td>160°C</td><td>30-35 min</td><td>195 kcal</td><td>Easy</td></tr>
-<tr><td>Cinnamon rolls</td><td>170°C</td><td>12-15 min</td><td>265 kcal</td><td>Medium</td></tr>
-<tr><td>Lava cake</td><td>180°C</td><td>8-10 min</td><td>310 kcal</td><td>Medium</td></tr>
+<tr><td>Fudgy brownies</td><td>160°C</td><td>18-22 min</td><td>~285 kcal</td><td>Easy</td></tr>
+<tr><td>Blueberry muffins</td><td>170°C</td><td>12-15 min</td><td>~220 kcal</td><td>Easy</td></tr>
+<tr><td>Apple chips</td><td>150°C</td><td>10-12 min</td><td>~45 kcal</td><td>Very easy</td></tr>
+<tr><td>Churros</td><td>190°C</td><td>8-10 min</td><td>~195 kcal</td><td>Medium</td></tr>
+<tr><td>Soft cookies</td><td>170°C</td><td>8-10 min</td><td>~140 kcal</td><td>Easy</td></tr>
+<tr><td>Banana bread</td><td>160°C</td><td>35-40 min</td><td>~210 kcal</td><td>Easy</td></tr>
+<tr><td>Cinnamon rolls</td><td>170°C</td><td>12-15 min</td><td>~315 kcal</td><td>Medium</td></tr>
+<tr><td>Lava cake</td><td>190°C</td><td>8-10 min</td><td>~450 kcal</td><td>Medium</td></tr>
 </tbody>
 </table>
 
@@ -650,16 +650,16 @@ export const article: BlogArticle = {
 
 <h2>Übersichtstabelle: Zeiten, Temperaturen und Kalorien</h2>
 <table>
-<thead><tr><th>Dessert</th><th>Temperatur</th><th>Gesamtzeit</th><th>Kalorien (pro Portion)</th><th>Schwierigkeit</th></tr></thead>
+<thead><tr><th>Dessert</th><th>Temperatur</th><th>Garzeit</th><th>Kalorien (ca. pro Portion)</th><th>Schwierigkeit</th></tr></thead>
 <tbody>
-<tr><td>Schokoladen-Brownies</td><td>160°C</td><td>18-20 Min.</td><td>285 kcal</td><td>Einfach</td></tr>
-<tr><td>Heidelbeer-Muffins</td><td>170°C</td><td>14-16 Min.</td><td>220 kcal</td><td>Einfach</td></tr>
-<tr><td>Apfelchips</td><td>150°C</td><td>15-20 Min.</td><td>45 kcal</td><td>Sehr einfach</td></tr>
-<tr><td>Churros</td><td>200°C</td><td>10-12 Min.</td><td>195 kcal</td><td>Mittel</td></tr>
-<tr><td>Weiche Cookies</td><td>170°C</td><td>8-10 Min.</td><td>185 kcal</td><td>Einfach</td></tr>
-<tr><td>Bananenbrot</td><td>160°C</td><td>30-35 Min.</td><td>195 kcal</td><td>Einfach</td></tr>
-<tr><td>Zimtschnecken</td><td>170°C</td><td>12-15 Min.</td><td>265 kcal</td><td>Mittel</td></tr>
-<tr><td>Lava Cake</td><td>180°C</td><td>8-10 Min.</td><td>310 kcal</td><td>Mittel</td></tr>
+<tr><td>Schokoladen-Brownies</td><td>160°C</td><td>18-22 Min.</td><td>~285 kcal</td><td>Einfach</td></tr>
+<tr><td>Heidelbeer-Muffins</td><td>170°C</td><td>12-15 Min.</td><td>~220 kcal</td><td>Einfach</td></tr>
+<tr><td>Apfelchips</td><td>150°C</td><td>10-12 Min.</td><td>~45 kcal</td><td>Sehr einfach</td></tr>
+<tr><td>Churros</td><td>190°C</td><td>8-10 Min.</td><td>~195 kcal</td><td>Mittel</td></tr>
+<tr><td>Weiche Cookies</td><td>170°C</td><td>8-10 Min.</td><td>~140 kcal</td><td>Einfach</td></tr>
+<tr><td>Bananenbrot</td><td>160°C</td><td>35-40 Min.</td><td>~210 kcal</td><td>Einfach</td></tr>
+<tr><td>Zimtschnecken</td><td>170°C</td><td>12-15 Min.</td><td>~315 kcal</td><td>Mittel</td></tr>
+<tr><td>Lava Cake</td><td>190°C</td><td>8-10 Min.</td><td>~450 kcal</td><td>Mittel</td></tr>
 </tbody>
 </table>
 
@@ -798,16 +798,16 @@ export const article: BlogArticle = {
 
 <h2>Tabla resumen: tiempos, temperaturas y calorías</h2>
 <table>
-<thead><tr><th>Postre</th><th>Temperatura</th><th>Tiempo total</th><th>Calorías (por ración)</th><th>Dificultad</th></tr></thead>
+<thead><tr><th>Postre</th><th>Temperatura</th><th>Tiempo de cocción</th><th>Calorías (aprox. por ración)</th><th>Dificultad</th></tr></thead>
 <tbody>
-<tr><td>Brownies de chocolate</td><td>160°C</td><td>18-20 min</td><td>285 kcal</td><td>Fácil</td></tr>
-<tr><td>Muffins de arándanos</td><td>170°C</td><td>14-16 min</td><td>220 kcal</td><td>Fácil</td></tr>
-<tr><td>Chips de manzana</td><td>150°C</td><td>15-20 min</td><td>45 kcal</td><td>Muy fácil</td></tr>
-<tr><td>Churros</td><td>200°C</td><td>10-12 min</td><td>195 kcal</td><td>Medio</td></tr>
-<tr><td>Cookies blandas</td><td>170°C</td><td>8-10 min</td><td>185 kcal</td><td>Fácil</td></tr>
-<tr><td>Banana bread</td><td>160°C</td><td>30-35 min</td><td>195 kcal</td><td>Fácil</td></tr>
-<tr><td>Rollitos de canela</td><td>170°C</td><td>12-15 min</td><td>265 kcal</td><td>Medio</td></tr>
-<tr><td>Lava cake</td><td>180°C</td><td>8-10 min</td><td>310 kcal</td><td>Medio</td></tr>
+<tr><td>Brownies de chocolate</td><td>160°C</td><td>18-22 min</td><td>~285 kcal</td><td>Fácil</td></tr>
+<tr><td>Muffins de arándanos</td><td>170°C</td><td>12-15 min</td><td>~220 kcal</td><td>Fácil</td></tr>
+<tr><td>Chips de manzana</td><td>150°C</td><td>10-12 min</td><td>~45 kcal</td><td>Muy fácil</td></tr>
+<tr><td>Churros</td><td>190°C</td><td>8-10 min</td><td>~195 kcal</td><td>Medio</td></tr>
+<tr><td>Cookies blandas</td><td>170°C</td><td>8-10 min</td><td>~140 kcal</td><td>Fácil</td></tr>
+<tr><td>Banana bread</td><td>160°C</td><td>35-40 min</td><td>~210 kcal</td><td>Fácil</td></tr>
+<tr><td>Rollitos de canela</td><td>170°C</td><td>12-15 min</td><td>~315 kcal</td><td>Medio</td></tr>
+<tr><td>Lava cake</td><td>190°C</td><td>8-10 min</td><td>~450 kcal</td><td>Medio</td></tr>
 </tbody>
 </table>
 
@@ -945,16 +945,16 @@ export const article: BlogArticle = {
 
 <h2>Tabella riepilogativa: tempi, temperature e calorie</h2>
 <table>
-<thead><tr><th>Dolce</th><th>Temperatura</th><th>Tempo totale</th><th>Calorie (per porzione)</th><th>Difficoltà</th></tr></thead>
+<thead><tr><th>Dolce</th><th>Temperatura</th><th>Tempo di cottura</th><th>Calorie (circa per porzione)</th><th>Difficoltà</th></tr></thead>
 <tbody>
-<tr><td>Brownies al cioccolato</td><td>160°C</td><td>18-20 min</td><td>285 kcal</td><td>Facile</td></tr>
-<tr><td>Muffin ai mirtilli</td><td>170°C</td><td>14-16 min</td><td>220 kcal</td><td>Facile</td></tr>
-<tr><td>Chips di mela</td><td>150°C</td><td>15-20 min</td><td>45 kcal</td><td>Molto facile</td></tr>
-<tr><td>Churros</td><td>200°C</td><td>10-12 min</td><td>195 kcal</td><td>Medio</td></tr>
-<tr><td>Cookies morbidi</td><td>170°C</td><td>8-10 min</td><td>185 kcal</td><td>Facile</td></tr>
-<tr><td>Banana bread</td><td>160°C</td><td>30-35 min</td><td>195 kcal</td><td>Facile</td></tr>
-<tr><td>Rotoli alla cannella</td><td>170°C</td><td>12-15 min</td><td>265 kcal</td><td>Medio</td></tr>
-<tr><td>Lava cake</td><td>180°C</td><td>8-10 min</td><td>310 kcal</td><td>Medio</td></tr>
+<tr><td>Brownies al cioccolato</td><td>160°C</td><td>18-22 min</td><td>~285 kcal</td><td>Facile</td></tr>
+<tr><td>Muffin ai mirtilli</td><td>170°C</td><td>12-15 min</td><td>~220 kcal</td><td>Facile</td></tr>
+<tr><td>Chips di mela</td><td>150°C</td><td>10-12 min</td><td>~45 kcal</td><td>Molto facile</td></tr>
+<tr><td>Churros</td><td>190°C</td><td>8-10 min</td><td>~195 kcal</td><td>Medio</td></tr>
+<tr><td>Cookies morbidi</td><td>170°C</td><td>8-10 min</td><td>~140 kcal</td><td>Facile</td></tr>
+<tr><td>Banana bread</td><td>160°C</td><td>35-40 min</td><td>~210 kcal</td><td>Facile</td></tr>
+<tr><td>Rotoli alla cannella</td><td>170°C</td><td>12-15 min</td><td>~315 kcal</td><td>Medio</td></tr>
+<tr><td>Lava cake</td><td>190°C</td><td>8-10 min</td><td>~450 kcal</td><td>Medio</td></tr>
 </tbody>
 </table>
 
@@ -1093,16 +1093,16 @@ export const article: BlogArticle = {
 
 <h2>Overzichtstabel: tijden, temperaturen en calorieën</h2>
 <table>
-<thead><tr><th>Dessert</th><th>Temperatuur</th><th>Totale tijd</th><th>Calorieën (per portie)</th><th>Moeilijkheidsgraad</th></tr></thead>
+<thead><tr><th>Dessert</th><th>Temperatuur</th><th>Baktijd</th><th>Calorieën (ca. per portie)</th><th>Moeilijkheidsgraad</th></tr></thead>
 <tbody>
-<tr><td>Chocolade brownies</td><td>160°C</td><td>18-20 min</td><td>285 kcal</td><td>Makkelijk</td></tr>
-<tr><td>Bosbes muffins</td><td>170°C</td><td>14-16 min</td><td>220 kcal</td><td>Makkelijk</td></tr>
-<tr><td>Appelchips</td><td>150°C</td><td>15-20 min</td><td>45 kcal</td><td>Heel makkelijk</td></tr>
-<tr><td>Churros</td><td>200°C</td><td>10-12 min</td><td>195 kcal</td><td>Gemiddeld</td></tr>
-<tr><td>Zachte koekjes</td><td>170°C</td><td>8-10 min</td><td>185 kcal</td><td>Makkelijk</td></tr>
-<tr><td>Bananenbrood</td><td>160°C</td><td>30-35 min</td><td>195 kcal</td><td>Makkelijk</td></tr>
-<tr><td>Kaneelbroodjes</td><td>170°C</td><td>12-15 min</td><td>265 kcal</td><td>Gemiddeld</td></tr>
-<tr><td>Lava cake</td><td>180°C</td><td>8-10 min</td><td>310 kcal</td><td>Gemiddeld</td></tr>
+<tr><td>Chocolade brownies</td><td>160°C</td><td>18-22 min</td><td>~285 kcal</td><td>Makkelijk</td></tr>
+<tr><td>Bosbes muffins</td><td>170°C</td><td>12-15 min</td><td>~220 kcal</td><td>Makkelijk</td></tr>
+<tr><td>Appelchips</td><td>150°C</td><td>10-12 min</td><td>~45 kcal</td><td>Heel makkelijk</td></tr>
+<tr><td>Churros</td><td>190°C</td><td>8-10 min</td><td>~195 kcal</td><td>Gemiddeld</td></tr>
+<tr><td>Zachte koekjes</td><td>170°C</td><td>8-10 min</td><td>~140 kcal</td><td>Makkelijk</td></tr>
+<tr><td>Bananenbrood</td><td>160°C</td><td>35-40 min</td><td>~210 kcal</td><td>Makkelijk</td></tr>
+<tr><td>Kaneelbroodjes</td><td>170°C</td><td>12-15 min</td><td>~315 kcal</td><td>Gemiddeld</td></tr>
+<tr><td>Lava cake</td><td>190°C</td><td>8-10 min</td><td>~450 kcal</td><td>Gemiddeld</td></tr>
 </tbody>
 </table>
 
@@ -1180,12 +1180,12 @@ export const article: BlogArticle = {
         nl: 'Bakken koekjes goed in de airfryer?',
       },
       answer: {
-        fr: 'Oui, les cookies à l\'airfryer sont même supérieurs au four pour les petites quantités. Réglez à 160°C pendant 8-10 minutes. Utilisez un papier perforé ou un moule en silicone pour éviter que la pâte ne coule. Espérez les cookies de 3 cm minimum. Ils sont croustillants à l\'extérieur et moelleux au centre.',
-        en: 'Yes, air fryer cookies are even better than oven-baked for small batches. Set to 160°C for 8-10 minutes. Use a perforated liner or silicone mat to prevent dough from dripping through. Space cookies at least 3 cm apart. They come out crispy on the outside and chewy in the centre.',
-        de: 'Ja, Cookies aus der Heißluftfritteuse sind für kleine Mengen sogar besser als aus dem Backofen. Stellen Sie 160°C für 8-10 Minuten ein. Verwenden Sie perforiertes Papier oder eine Silikonmatte. Lassen Sie mindestens 3 cm Abstand. Sie werden außen knusprig und innen weich.',
-        es: 'Sí, las galletas en freidora de aire son incluso mejores que al horno para cantidades pequeñas. Pon a 160°C durante 8-10 minutos. Usa papel perforado o base de silicona para evitar que la masa gotee. Separa las galletas 3 cm mínimo. Quedan crujientes por fuera y tiernas por dentro.',
-        it: 'Sì, i cookies nella friggitrice ad aria sono anche migliori del forno per piccole quantità. Imposta a 160°C per 8-10 minuti. Usa un foglio perforato o un tappetino in silicone per evitare che l\'impasto coli. Distanzia i cookies di almeno 3 cm. Risultano croccanti fuori e morbidi dentro.',
-        nl: 'Ja, koekjes uit de airfryer zijn voor kleine hoeveelheden zelfs beter dan uit de oven. Stel in op 160°C voor 8-10 minuten. Gebruik een geperforeerd vel of siliconenmat om te voorkomen dat deeg erdoor druipt. Houd minstens 3 cm afstand. Ze worden krokant van buiten en zacht van binnen.',
+        fr: 'Oui, les cookies à l\'airfryer sont même supérieurs au four pour les petites quantités. Réglez à 170°C pendant 8-10 minutes. Utilisez un papier perforé ou un moule en silicone pour éviter que la pâte ne coule. Espacez les cookies de 3 cm minimum. Ils sont croustillants à l\'extérieur et moelleux au centre.',
+        en: 'Yes, air fryer cookies are even better than oven-baked for small batches. Set to 170°C for 8-10 minutes. Use a perforated liner or silicone mat to prevent dough from dripping through. Space cookies at least 3 cm apart. They come out crispy on the outside and chewy in the centre.',
+        de: 'Ja, Cookies aus der Heißluftfritteuse sind für kleine Mengen sogar besser als aus dem Backofen. Stellen Sie 170°C für 8-10 Minuten ein. Verwenden Sie perforiertes Papier oder eine Silikonmatte. Lassen Sie mindestens 3 cm Abstand. Sie werden außen knusprig und innen weich.',
+        es: 'Sí, las galletas en freidora de aire son incluso mejores que al horno para cantidades pequeñas. Pon a 170°C durante 8-10 minutos. Usa papel perforado o base de silicona para evitar que la masa gotee. Separa las galletas 3 cm mínimo. Quedan crujientes por fuera y tiernas por dentro.',
+        it: 'Sì, i cookies nella friggitrice ad aria sono anche migliori del forno per piccole quantità. Imposta a 170°C per 8-10 minuti. Usa un foglio perforato o un tappetino in silicone per evitare che l\'impasto coli. Distanzia i cookies di almeno 3 cm. Risultano croccanti fuori e morbidi dentro.',
+        nl: 'Ja, koekjes uit de airfryer zijn voor kleine hoeveelheden zelfs beter dan uit de oven. Stel in op 170°C voor 8-10 minuten. Gebruik een geperforeerd vel of siliconenmat om te voorkomen dat deeg erdoor druipt. Houd minstens 3 cm afstand. Ze worden krokant van buiten en zacht van binnen.',
       },
     },
     {
@@ -1198,12 +1198,12 @@ export const article: BlogArticle = {
         nl: 'Op welke temperatuur bak je desserts in de airfryer?',
       },
       answer: {
-        fr: 'La plage idéale est de 150 à 170°C pour la plupart des desserts. Les cookies et churros supportent 160°C, les brownies et muffins 165°C, et les lava cakes 190°C. Réduisez toujours de 10-20°C par rapport au four traditionnel car l\'airfryer concentre la chaleur dans un espace réduit et cuit plus rapidement.',
-        en: 'The ideal range is 150 to 170°C for most desserts. Cookies and churros work well at 160°C, brownies and muffins at 165°C, and lava cakes at 190°C. Always reduce by 10-20°C compared to traditional oven because the air fryer concentrates heat in a smaller space and bakes faster.',
-        de: 'Der ideale Bereich liegt bei 150-170°C für die meisten Desserts. Cookies und Churros bei 160°C, Brownies und Muffins bei 165°C, Lava Cakes bei 190°C. Reduzieren Sie immer um 10-20°C gegenüber dem herkömmlichen Backofen, da die Heißluftfritteuse die Hitze auf kleinerem Raum konzentriert.',
-        es: 'El rango ideal es de 150 a 170°C para la mayoría de postres. Galletas y churros a 160°C, brownies y muffins a 165°C, lava cakes a 190°C. Reduce siempre 10-20°C respecto al horno tradicional porque la freidora concentra el calor en un espacio más pequeño y hornea más rápido.',
-        it: 'L\'intervallo ideale è 150-170°C per la maggior parte dei dolci. Cookies e churros a 160°C, brownies e muffin a 165°C, lava cake a 190°C. Riduci sempre di 10-20°C rispetto al forno tradizionale perché la friggitrice concentra il calore in uno spazio ridotto e cuoce più velocemente.',
-        nl: 'Het ideale bereik is 150 tot 170°C voor de meeste desserts. Koekjes en churros op 160°C, brownies en muffins op 165°C, lava cakes op 190°C. Verlaag altijd 10-20°C ten opzichte van de traditionele oven omdat de airfryer warmte in een kleinere ruimte concentreert en sneller bakt.',
+        fr: 'La plage idéale est de 150 à 170°C pour la plupart des desserts. Les brownies et le banana bread cuisent à 160°C, les muffins, cookies et cinnamon rolls à 170°C, tandis que les churros et les lava cakes demandent 190°C. Réduisez toujours de 10-20°C par rapport au four traditionnel car l\'airfryer concentre la chaleur dans un espace réduit et cuit plus rapidement.',
+        en: 'The ideal range is 150 to 170°C for most desserts. Brownies and banana bread bake at 160°C, muffins, cookies and cinnamon rolls at 170°C, while churros and lava cakes need 190°C. Always reduce by 10-20°C compared to traditional oven because the air fryer concentrates heat in a smaller space and bakes faster.',
+        de: 'Der ideale Bereich liegt bei 150-170°C für die meisten Desserts. Brownies und Bananenbrot bei 160°C, Muffins, Cookies und Zimtschnecken bei 170°C, Churros und Lava Cakes bei 190°C. Reduzieren Sie immer um 10-20°C gegenüber dem herkömmlichen Backofen, da die Heißluftfritteuse die Hitze auf kleinerem Raum konzentriert.',
+        es: 'El rango ideal es de 150 a 170°C para la mayoría de postres. Brownies y banana bread a 160°C, muffins, galletas y rollitos de canela a 170°C, churros y lava cakes a 190°C. Reduce siempre 10-20°C respecto al horno tradicional porque la freidora concentra el calor en un espacio más pequeño y hornea más rápido.',
+        it: 'L\'intervallo ideale è 150-170°C per la maggior parte dei dolci. Brownies e banana bread a 160°C, muffin, cookies e rotoli alla cannella a 170°C, churros e lava cake a 190°C. Riduci sempre di 10-20°C rispetto al forno tradizionale perché la friggitrice concentra il calore in uno spazio ridotto e cuoce più velocemente.',
+        nl: 'Het ideale bereik is 150 tot 170°C voor de meeste desserts. Brownies en bananenbrood op 160°C, muffins, koekjes en kaneelbroodjes op 170°C, churros en lava cakes op 190°C. Verlaag altijd 10-20°C ten opzichte van de traditionele oven omdat de airfryer warmte in een kleinere ruimte concentreert en sneller bakt.',
       },
     },
   ],

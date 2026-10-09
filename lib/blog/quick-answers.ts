@@ -13,741 +13,6 @@ interface QuickAnswerData {
 }
 
 export const QUICK_ANSWERS: Record<string, QuickAnswerData> = {
-  "saugroboter-tierhaare-test": {
-    "question": {
-      "fr": "Quel est le meilleur robot aspirateur pour poils d'animaux en 2026 ?",
-      "en": "What is the best robot vacuum for pet hair in 2026?",
-      "de": "Welcher ist der beste Saugroboter für Tierhaare 2026?",
-      "es": "¿Cuál es el mejor robot aspirador para pelo de mascotas en 2026?",
-      "it": "Qual è il miglior robot aspirapolvere per peli di animali nel 2026?",
-      "nl": "Wat is de beste robotstofzuiger voor dierenharen in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Roborock S8 MaxV Ultra",
-        "role": {
-          "fr": "Meilleur choix global",
-          "en": "Best overall",
-          "de": "Beste Wahl insgesamt",
-          "es": "Mejor opción global",
-          "it": "Miglior scelta complessiva",
-          "nl": "Beste keuze overall"
-        },
-        "why": {
-          "fr": "Sa brosse DuoRoller en caoutchouc évite l'emmêlement des poils, et son filtre HEPA E12 et sa station d'auto-vidage conviennent aux foyers avec chien ou chat.",
-          "en": "Its rubber DuoRoller brush prevents hair tangling, and the HEPA E12 filter plus auto-empty station suit homes with a dog or cat.",
-          "de": "Die Gummi-DuoRoller-Bürste verhindert das Verheddern der Haare, und HEPA-Filter E12 samt Absaugstation passen zu Haushalten mit Hund oder Katze.",
-          "es": "Su cepillo DuoRoller de goma evita que se enreden los pelos, y el filtro HEPA E12 con la estación de autovaciado encaja en hogares con perro o gato.",
-          "it": "La spazzola DuoRoller in gomma evita l'aggrovigliamento dei peli e il filtro HEPA E12 con la stazione di autosvuotamento si adatta alle case con cani o gatti.",
-          "nl": "De rubberen DuoRoller-borstel voorkomt klitten van haren, en het HEPA E12-filter met zelfleegstation past bij huishoudens met hond of kat."
-        }
-      },
-      {
-        "model": "Dreame X40 Ultra",
-        "role": {
-          "fr": "Aspiration maximale",
-          "en": "Maximum suction",
-          "de": "Maximale Saugkraft",
-          "es": "Máxima succión",
-          "it": "Massima aspirazione",
-          "nl": "Maximale zuigkracht"
-        },
-        "why": {
-          "fr": "Avec sa forte aspiration et sa brosse anti-emmêlement en caoutchouc, il convient aux races à poils longs, et sa brosse latérale extensible atteint coins et bords.",
-          "en": "With strong suction and a rubber anti-tangle brush, it suits long-haired breeds, and its extendable side brush reaches corners and edges.",
-          "de": "Mit starker Saugkraft und Anti-Verheddern-Gummibürste passt er zu langhaarigen Rassen, und die ausfahrbare Seitenbürste erreicht Ecken und Kanten.",
-          "es": "Con gran succión y cepillo antienredos de goma, va bien con razas de pelo largo, y su cepillo lateral extensible llega a rincones y bordes.",
-          "it": "Con forte aspirazione e spazzola antigroviglio in gomma si adatta alle razze a pelo lungo, e la spazzola laterale estensibile raggiunge angoli e bordi.",
-          "nl": "Met sterke zuigkracht en een rubberen anti-klitborstel past hij bij langharige rassen, en de uitschuifbare zijborstel bereikt hoeken en randen."
-        }
-      },
-      {
-        "model": "Ecovacs Deebot T30 Pro",
-        "role": {
-          "fr": "Meilleur rapport qualité-prix",
-          "en": "Best value",
-          "de": "Bestes Preis-Leistungs-Verhältnis",
-          "es": "Mejor relación calidad-precio",
-          "it": "Miglior rapporto qualità-prezzo",
-          "nl": "Beste prijs-kwaliteit"
-        },
-        "why": {
-          "fr": "Il offre une forte aspiration, une brosse ZeroTangle et une station d'auto-vidage à un prix nettement plus accessible, le choix malin pour les propriétaires soucieux du budget.",
-          "en": "It offers strong suction, a ZeroTangle brush and an auto-empty station at a much more accessible price, the smart pick for budget-conscious pet owners.",
-          "de": "Er bietet kräftige Saugkraft, eine ZeroTangle-Bürste und eine Absaugstation zu einem deutlich günstigeren Preis, die clevere Wahl für preisbewusste Tierhalter.",
-          "es": "Ofrece buena succión, cepillo ZeroTangle y estación de autovaciado a un precio mucho más accesible, la opción inteligente para dueños de mascotas con presupuesto ajustado.",
-          "it": "Offre forte aspirazione, spazzola ZeroTangle e stazione di autosvuotamento a un prezzo molto più accessibile, la scelta furba per chi ha animali e un budget limitato.",
-          "nl": "Hij biedt sterke zuigkracht, een ZeroTangle-borstel en een zelfleegstation tegen een veel lagere prijs, de slimme keuze voor dierenbezitters met een beperkt budget."
-        }
-      },
-      {
-        "model": "iRobot Roomba j9+",
-        "role": {
-          "fr": "Brosse la plus robuste",
-          "en": "Most robust brush",
-          "de": "Robusteste Bürste",
-          "es": "Cepillo más resistente",
-          "it": "Spazzola più robusta",
-          "nl": "Meest robuuste borstel"
-        },
-        "why": {
-          "fr": "Ses deux rouleaux en caoutchouc et sa station Clean Base en font la référence anti-emmêlement, la valeur sûre pour les chiens à poils longs.",
-          "en": "Its two rubber rollers and Clean Base station make it the anti-tangle reference, the safe bet for long-haired dogs.",
-          "de": "Seine zwei Gummiwalzen und die Clean-Base-Station machen ihn zur Referenz gegen Verheddern, die sichere Wahl für langhaarige Hunde.",
-          "es": "Sus dos rodillos de goma y la estación Clean Base lo convierten en la referencia antienredos, la apuesta segura para perros de pelo largo.",
-          "it": "I due rulli in gomma e la stazione Clean Base lo rendono il riferimento anti-groviglio, la scelta sicura per i cani a pelo lungo.",
-          "nl": "Zijn twee rubberen rollen en het Clean Base-station maken hem de anti-klitreferentie, de veilige keuze voor langharige honden."
-        }
-      }
-    ]
-  },
-  "waermepumpentrockner-vergleich": {
-    "question": {
-      "fr": "Quel est le meilleur sèche-linge à pompe à chaleur en 2026 ?",
-      "en": "What is the best heat pump dryer in 2026?",
-      "de": "Welcher ist der beste Wärmepumpentrockner 2026?",
-      "es": "¿Cuál es la mejor secadora de bomba de calor en 2026?",
-      "it": "Qual è la migliore asciugatrice a pompa di calore nel 2026?",
-      "nl": "Wat is de beste warmtepompdroger in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Bosch Serie 8",
-        "role": {
-          "fr": "Meilleur polyvalent",
-          "en": "Best all-rounder",
-          "de": "Bester Allrounder",
-          "es": "Mejor opción polivalente",
-          "it": "Miglior tuttofare",
-          "nl": "Beste allrounder"
-        },
-        "why": {
-          "fr": "Elle ajoute à la Serie 6 la classe A+++, une plus grande capacité et la fonction anti-froissage, ce qui en fait le meilleur polyvalent du comparatif.",
-          "en": "It adds A+++ energy class, a larger capacity and an anti-crease function over the Serie 6, making it the best all-rounder in the comparison.",
-          "de": "Gegenüber der Serie 6 bietet sie Klasse A+++, mehr Fassungsvermögen und eine Knitterschutzfunktion und ist damit der beste Allrounder im Vergleich.",
-          "es": "Añade a la Serie 6 la clase A+++, mayor capacidad y la función antiarrugas, lo que la convierte en la mejor polivalente de la comparativa.",
-          "it": "Rispetto alla Serie 6 aggiunge la classe A+++, una capacità maggiore e la funzione antipiega, ed è la miglior tuttofare del confronto.",
-          "nl": "Ze voegt aan de Serie 6 klasse A+++, meer capaciteit en een antikreukfunctie toe en is zo de beste allrounder in de vergelijking."
-        }
-      },
-      {
-        "model": "Bosch Serie 6",
-        "role": {
-          "fr": "Pour économiser",
-          "en": "Best for saving money",
-          "de": "Zum Sparen",
-          "es": "Para ahorrar",
-          "it": "Per risparmiare",
-          "nl": "Om te besparen"
-        },
-        "why": {
-          "fr": "C'est l'entrée de gamme idéale avec sonde AutoDry et un prix juste, recommandée pour limiter le budget d'achat.",
-          "en": "It is the ideal entry-level pick with an AutoDry sensor and a fair price, recommended for keeping the purchase budget down.",
-          "de": "Sie ist das ideale Einstiegsmodell mit AutoDry-Sensor und fairem Preis, empfohlen, wenn man das Anschaffungsbudget niedrig halten will.",
-          "es": "Es la gama de entrada ideal, con sonda AutoDry y un precio ajustado, recomendada para contener el presupuesto de compra.",
-          "it": "È l'entry level ideale, con sonda AutoDry e un prezzo giusto, consigliata per contenere il budget d'acquisto.",
-          "nl": "Het is het ideale instapmodel met AutoDry-sensor en een faire prijs, aanbevolen om het aankoopbudget laag te houden."
-        }
-      },
-      {
-        "model": "Miele TWR780WP",
-        "role": {
-          "fr": "Longévité maximale",
-          "en": "Maximum longevity",
-          "de": "Maximale Langlebigkeit",
-          "es": "Máxima longevidad",
-          "it": "Massima longevità",
-          "nl": "Maximale levensduur"
-        },
-        "why": {
-          "fr": "Miele est la référence en longévité, testé pour environ vingt ans d'usage, et son prix élevé se justifie par la durée de vie et la qualité de fabrication.",
-          "en": "Miele is the longevity reference, tested for about twenty years of use, and its high price is justified by lifespan and build quality.",
-          "de": "Miele ist die Referenz bei der Langlebigkeit, auf etwa zwanzig Jahre Nutzung getestet, und der hohe Preis ist durch Lebensdauer und Verarbeitung gerechtfertigt.",
-          "es": "Miele es la referencia en longevidad, probada para unos veinte años de uso, y su alto precio se justifica por la vida útil y la calidad de fabricación.",
-          "it": "Miele è il riferimento per la longevità, testata per circa vent'anni di utilizzo, e il prezzo elevato è giustificato da durata e qualità costruttiva.",
-          "nl": "Miele is de referentie qua levensduur, getest op ongeveer twintig jaar gebruik, en de hoge prijs wordt gerechtvaardigd door levensduur en bouwkwaliteit."
-        }
-      },
-      {
-        "model": "Samsung DV90BB",
-        "role": {
-          "fr": "Meilleur rapport qualité-prix",
-          "en": "Best value",
-          "de": "Bestes Preis-Leistungs-Verhältnis",
-          "es": "Mejor relación calidad-precio",
-          "it": "Miglior rapporto qualità-prezzo",
-          "nl": "Beste prijs-kwaliteit"
-        },
-        "why": {
-          "fr": "Samsung offre beaucoup d'équipement pour le prix, avec des capteurs OptimalDry et une application SmartThings aboutie.",
-          "en": "Samsung packs a lot of equipment for the price, with OptimalDry sensors and a well-developed SmartThings app.",
-          "de": "Samsung bietet viel Ausstattung für den Preis, mit OptimalDry-Sensoren und einer ausgereiften SmartThings-App.",
-          "es": "Samsung ofrece mucho equipamiento por el precio, con sensores OptimalDry y una aplicación SmartThings muy lograda.",
-          "it": "Samsung offre molte dotazioni per il prezzo, con sensori OptimalDry e un'app SmartThings ben riuscita.",
-          "nl": "Samsung biedt veel uitrusting voor de prijs, met OptimalDry-sensoren en een goed uitgewerkte SmartThings-app."
-        }
-      }
-    ]
-  },
-  "ventilador-silencioso-dormitorio": {
-    "question": {
-      "fr": "Quel est le ventilateur le plus silencieux pour une chambre en 2026 ?",
-      "en": "What is the quietest bedroom fan in 2026?",
-      "de": "Welcher ist der leiseste Ventilator fürs Schlafzimmer 2026?",
-      "es": "¿Cuál es el ventilador más silencioso para el dormitorio en 2026?",
-      "it": "Qual è il ventilatore più silenzioso per la camera da letto nel 2026?",
-      "nl": "Wat is de stilste ventilator voor de slaapkamer in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Dyson Pure Cool",
-        "role": {
-          "fr": "Silence absolu",
-          "en": "Absolute silence",
-          "de": "Absolute Ruhe",
-          "es": "Silencio absoluto",
-          "it": "Silenzio assoluto",
-          "nl": "Absolute stilte"
-        },
-        "why": {
-          "fr": "Ce ventilateur sans pales de référence reste très discret en mode nuit, avec oscillation, application et parfois filtration HEPA, mais à un prix élevé.",
-          "en": "This reference bladeless fan stays very quiet in night mode, with oscillation, an app and sometimes HEPA filtration, but at a high price.",
-          "de": "Dieser Referenz-Ventilator ohne Rotorblätter bleibt im Nachtmodus sehr leise, mit Oszillation, App und teils HEPA-Filterung, aber zu hohem Preis.",
-          "es": "Este ventilador sin aspas de referencia es muy discreto en modo noche, con oscilación, app y a veces filtración HEPA, pero a un precio elevado.",
-          "it": "Questo ventilatore senza pale di riferimento resta molto silenzioso in modalità notte, con oscillazione, app e talvolta filtrazione HEPA, ma a un prezzo elevato.",
-          "nl": "Deze bladloze referentieventilator blijft in nachtmodus erg stil, met oscillatie, app en soms HEPA-filtratie, maar tegen een hoge prijs."
-        }
-      },
-      {
-        "model": "Rowenta Turbo Silence Extreme+",
-        "role": {
-          "fr": "Meilleur équilibre silence-prix",
-          "en": "Best balance of quiet and price",
-          "de": "Beste Balance aus Ruhe und Preis",
-          "es": "Mejor equilibrio silencio-precio",
-          "it": "Miglior equilibrio silenzio-prezzo",
-          "nl": "Beste balans stilte en prijs"
-        },
-        "why": {
-          "fr": "Il offre l'équilibre parfait entre silence et prix, avec un mode nuit très discret, et existe sur pied et en tour.",
-          "en": "It strikes the perfect balance between quiet and price, with a very discreet night mode, and comes as a pedestal or tower model.",
-          "de": "Er bietet die perfekte Balance aus Ruhe und Preis mit sehr dezentem Nachtmodus und ist als Standventilator und als Turm erhältlich.",
-          "es": "Ofrece el equilibrio perfecto entre silencio y precio, con un modo noche muy discreto, y existe en versión de pie y de torre.",
-          "it": "Offre l'equilibrio perfetto tra silenzio e prezzo, con una modalità notte molto discreta, ed è disponibile a piantana e a torre.",
-          "nl": "Hij biedt de perfecte balans tussen stilte en prijs, met een zeer discrete nachtmodus, en is er als statief- en torenmodel."
-        }
-      },
-      {
-        "model": "Cecotec EnergySilence",
-        "role": {
-          "fr": "Petit budget",
-          "en": "Best on a budget",
-          "de": "Für kleines Budget",
-          "es": "Para presupuesto ajustado",
-          "it": "Per budget ridotto",
-          "nl": "Voor een klein budget"
-        },
-        "why": {
-          "fr": "C'est la meilleure option pas chère avec moteur DC, mode nuit, minuterie et télécommande.",
-          "en": "It is the best cheap option with a DC motor, night mode, timer and remote control.",
-          "de": "Er ist die beste günstige Option mit DC-Motor, Nachtmodus, Timer und Fernbedienung.",
-          "es": "Es la mejor opción económica con motor DC, modo noche, temporizador y mando a distancia.",
-          "it": "È la migliore opzione economica con motore DC, modalità notte, timer e telecomando.",
-          "nl": "Het is de beste goedkope optie met DC-motor, nachtmodus, timer en afstandsbediening."
-        }
-      },
-      {
-        "model": "Xiaomi Smart Fan",
-        "role": {
-          "fr": "Idéal pour la connectivité",
-          "en": "Best for smart control",
-          "de": "Ideal für Vernetzung",
-          "es": "Ideal para la conectividad",
-          "it": "Ideale per la connettività",
-          "nl": "Ideaal voor connectiviteit"
-        },
-        "why": {
-          "fr": "Il combine moteur DC, mode brise naturelle et WiFi compatible Google Home et Alexa, avec une très faible consommation.",
-          "en": "It combines a DC motor, natural breeze mode and WiFi that works with Google Home and Alexa, with very low power consumption.",
-          "de": "Er kombiniert DC-Motor, natürlichen Brisenmodus und WLAN mit Google Home und Alexa bei sehr geringem Stromverbrauch.",
-          "es": "Combina motor DC, modo brisa natural y WiFi compatible con Google Home y Alexa, con un consumo muy bajo.",
-          "it": "Combina motore DC, modalità brezza naturale e WiFi compatibile con Google Home e Alexa, con consumi molto bassi.",
-          "nl": "Hij combineert een DC-motor, natuurlijke briesmodus en wifi met Google Home en Alexa, met een zeer laag verbruik."
-        }
-      }
-    ]
-  },
-  "robot-aspirador-piso-pequeno": {
-    "question": {
-      "fr": "Quel est le meilleur robot aspirateur pour un petit appartement en 2026 ?",
-      "en": "What is the best robot vacuum for a small apartment in 2026?",
-      "de": "Welcher ist der beste Saugroboter für eine kleine Wohnung 2026?",
-      "es": "¿Cuál es el mejor robot aspirador para un piso pequeño en 2026?",
-      "it": "Qual è il miglior robot aspirapolvere per un piccolo appartamento nel 2026?",
-      "nl": "Wat is de beste robotstofzuiger voor een klein appartement in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Xiaomi Robot Vacuum E10",
-        "role": {
-          "fr": "Meilleur budget, profil bas",
-          "en": "Best low-profile budget pick",
-          "de": "Bestes Budget-Flachmodell",
-          "es": "Mejor opción económica y de perfil bajo",
-          "it": "Miglior scelta economica e sottile",
-          "nl": "Beste budgetkeuze, laag profiel"
-        },
-        "why": {
-          "fr": "Avec environ 8 cm de hauteur, il passe sous presque tous les canapés et lits, reste léger et agile, et son budget serré est difficile à battre.",
-          "en": "At about 8 cm tall it slips under almost every sofa and bed, stays light and agile, and is hard to beat on a tight budget.",
-          "de": "Mit etwa 8 cm Höhe passt er unter fast jedes Sofa und Bett, bleibt leicht und wendig und ist bei knappem Budget kaum zu schlagen.",
-          "es": "Con unos 8 cm de altura pasa bajo casi todos los sofás y camas, es ligero y ágil, y es difícil de superar con un presupuesto ajustado.",
-          "it": "Alto circa 8 cm passa sotto quasi tutti i divani e letti, è leggero e agile, ed è difficile da battere con un budget ridotto.",
-          "nl": "Met ongeveer 8 cm hoogte past hij onder bijna elke bank en elk bed, blijft licht en wendbaar en is bij een krap budget moeilijk te verslaan."
-        }
-      },
-      {
-        "model": "Xiaomi Robot Vacuum E12",
-        "role": {
-          "fr": "Idéal pour les studios",
-          "en": "Ideal for studios",
-          "de": "Ideal für Studios",
-          "es": "Ideal para estudios",
-          "it": "Ideale per i monolocali",
-          "nl": "Ideaal voor studio's"
-        },
-        "why": {
-          "fr": "Dans un studio carré sans station encombrante, cette série E suffit : navigation plus basique, mais un robot compact, bas et très économique.",
-          "en": "In a square studio without a bulky station, this E series is enough: basic navigation, but a compact, low and very affordable robot.",
-          "de": "In einem quadratischen Studio ohne sperrige Station reicht diese E-Serie: eher einfache Navigation, aber ein kompakter, flacher und sehr günstiger Roboter.",
-          "es": "En un estudio cuadrado sin una estación voluminosa, esta serie E basta: navegación más básica, pero un robot compacto, bajo y muy económico.",
-          "it": "In un monolocale quadrato senza ingombrante stazione questa serie E basta: navigazione più semplice, ma un robot compatto, basso e molto economico.",
-          "nl": "In een vierkante studio zonder grote station volstaat deze E-serie: eenvoudiger navigatie, maar een compacte, lage en zeer voordelige robot."
-        }
-      }
-    ]
-  },
-  "mejor-aire-acondicionado-bajo-consumo": {
-    "question": {
-      "fr": "Quel est le meilleur climatiseur basse consommation en 2026 ?",
-      "en": "What is the best low-energy air conditioner in 2026?",
-      "de": "Welche ist die beste sparsame Klimaanlage 2026?",
-      "es": "¿Cuál es el mejor aire acondicionado de bajo consumo en 2026?",
-      "it": "Qual è il miglior condizionatore a basso consumo nel 2026?",
-      "nl": "Wat is de zuinigste airconditioner in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Mitsubishi MSZ-AP",
-        "role": {
-          "fr": "Meilleure efficacité",
-          "en": "Best efficiency",
-          "de": "Beste Effizienz",
-          "es": "Mayor eficiencia",
-          "it": "Massima efficienza",
-          "nl": "Beste efficiëntie"
-        },
-        "why": {
-          "fr": "Ce split Inverter de classe A+++ affiche l'une des consommations annuelles les plus basses du comparatif, pour une facture d'été réduite.",
-          "en": "This A+++ Inverter split shows one of the lowest annual consumption figures in the comparison, for a reduced summer bill.",
-          "de": "Dieses Inverter-Split-Gerät der Klasse A+++ hat einen der niedrigsten Jahresverbräuche im Vergleich und senkt die Sommerrechnung.",
-          "es": "Este split Inverter de clase A+++ muestra uno de los consumos anuales más bajos de la comparativa, para una factura de verano reducida.",
-          "it": "Questo split Inverter di classe A+++ mostra uno dei consumi annui più bassi del confronto, per una bolletta estiva ridotta.",
-          "nl": "Deze Inverter-split van klasse A+++ heeft een van de laagste jaarverbruiken in de vergelijking, voor een lagere zomerrekening."
-        }
-      },
-      {
-        "model": "Haier Flexis Plus",
-        "role": {
-          "fr": "SEER le plus élevé",
-          "en": "Highest SEER",
-          "de": "Höchster SEER",
-          "es": "SEER más alto",
-          "it": "SEER più alto",
-          "nl": "Hoogste SEER"
-        },
-        "why": {
-          "fr": "Il combine la classe A+++ en froid comme en chauffage avec le meilleur SEER de la sélection et la consommation annuelle la plus basse.",
-          "en": "It pairs A+++ class for both cooling and heating with the highest SEER in the selection and the lowest annual consumption.",
-          "de": "Er verbindet Klasse A+++ bei Kühlen und Heizen mit dem höchsten SEER der Auswahl und dem niedrigsten Jahresverbrauch.",
-          "es": "Combina la clase A+++ en frío y calor con el mejor SEER de la selección y el consumo anual más bajo.",
-          "it": "Abbina la classe A+++ in raffrescamento e riscaldamento al SEER più alto della selezione e al consumo annuo più basso.",
-          "nl": "Hij combineert klasse A+++ voor koelen en verwarmen met de hoogste SEER van de selectie en het laagste jaarverbruik."
-        }
-      },
-      {
-        "model": "LG Dualcool",
-        "role": {
-          "fr": "Efficacité et budget équilibrés",
-          "en": "Balanced efficiency and price",
-          "de": "Ausgewogen bei Effizienz und Preis",
-          "es": "Eficiencia y precio equilibrados",
-          "it": "Efficienza e prezzo equilibrati",
-          "nl": "Evenwicht tussen efficiëntie en prijs"
-        },
-        "why": {
-          "fr": "Ce split Inverter offre une efficacité excellente, au même niveau que le Mitsubishi, pour un prix d'achat inférieur dans le tableau comparatif.",
-          "en": "This Inverter split delivers excellent efficiency, on par with the Mitsubishi, at a lower purchase price in the comparison table.",
-          "de": "Dieses Inverter-Split-Gerät bietet hervorragende Effizienz auf Augenhöhe mit dem Mitsubishi zu einem niedrigeren Kaufpreis in der Vergleichstabelle.",
-          "es": "Este split Inverter ofrece una eficiencia excelente, al nivel del Mitsubishi, con un precio de compra inferior en la tabla comparativa.",
-          "it": "Questo split Inverter offre un'efficienza eccellente, al livello del Mitsubishi, con un prezzo d'acquisto inferiore nella tabella comparativa.",
-          "nl": "Deze Inverter-split levert uitstekende efficiëntie, vergelijkbaar met de Mitsubishi, tegen een lagere aanschafprijs in de vergelijkingstabel."
-        }
-      },
-      {
-        "model": "Cecotec ForceClima",
-        "role": {
-          "fr": "Le moins cher",
-          "en": "Cheapest option",
-          "de": "Günstigste Option",
-          "es": "La opción más barata",
-          "it": "L'opzione più economica",
-          "nl": "Goedkoopste optie"
-        },
-        "why": {
-          "fr": "C'est le modèle le moins cher de la sélection, avec en contrepartie une efficacité et une consommation annuelle moins favorables.",
-          "en": "It is the cheapest model in the selection, with less favourable efficiency and annual consumption as the trade-off.",
-          "de": "Es ist das günstigste Modell der Auswahl, dafür sind Effizienz und Jahresverbrauch weniger vorteilhaft.",
-          "es": "Es el modelo más barato de la selección, a cambio de una eficiencia y un consumo anual menos favorables.",
-          "it": "È il modello più economico della selezione, con in cambio un'efficienza e un consumo annuo meno favorevoli.",
-          "nl": "Het is het goedkoopste model van de selectie, met als nadeel een minder gunstige efficiëntie en jaarverbruik."
-        }
-      }
-    ]
-  },
-  "guide-robot-aspirateur-2026": {
-    "question": {
-      "fr": "Quel est le meilleur robot aspirateur en 2026 ?",
-      "en": "What is the best robot vacuum in 2026?",
-      "de": "Welcher ist der beste Saugroboter 2026?",
-      "es": "¿Cuál es el mejor robot aspirador en 2026?",
-      "it": "Qual è il miglior robot aspirapolvere nel 2026?",
-      "nl": "Wat is de beste robotstofzuiger in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Ecovacs Deebot T30 Pro",
-        "role": {
-          "fr": "Meilleur rapport qualité-prix",
-          "en": "Best value",
-          "de": "Bestes Preis-Leistungs-Verhältnis",
-          "es": "Mejor relación calidad-precio",
-          "it": "Miglior rapporto qualità-prezzo",
-          "nl": "Beste prijs-kwaliteit"
-        },
-        "why": {
-          "fr": "Dans la tranche la plus intéressante en 2026, il associe forte aspiration et serpillère rétractable pour un budget bien inférieur au haut de gamme.",
-          "en": "In the most interesting price bracket of 2026, it pairs strong suction with a retractable mop at a budget well below the high end.",
-          "de": "In der interessantesten Preisklasse 2026 vereint er kräftige Saugkraft mit einem einfahrbaren Wischmopp zu einem Budget deutlich unter der Oberklasse.",
-          "es": "En el tramo de precio más interesante de 2026, combina buena succión y mopa retráctil con un presupuesto muy inferior a la gama alta.",
-          "it": "Nella fascia di prezzo più interessante del 2026 abbina forte aspirazione e mocio retrattile a un budget ben inferiore all'alto di gamma.",
-          "nl": "In de interessantste prijsklasse van 2026 combineert hij sterke zuigkracht met een intrekbare mop voor een budget ruim onder het topsegment."
-        }
-      },
-      {
-        "model": "Dreame X30 Ultra",
-        "role": {
-          "fr": "Haut de gamme complet",
-          "en": "Complete high-end pick",
-          "de": "Komplette Oberklasse",
-          "es": "Gama alta completa",
-          "it": "Alto di gamma completo",
-          "nl": "Complete topklasse"
-        },
-        "why": {
-          "fr": "Ce modèle haut de gamme complet offre un bras extensible et un lavage à eau chaude, des atouts typiques de la tranche 500 à 1 000 euros.",
-          "en": "This complete high-end model offers an extendable arm and hot-water mopping, typical strengths of the 500 to 1,000 euro bracket.",
-          "de": "Dieses komplette Oberklassemodell bietet einen ausfahrbaren Arm und Wischen mit heißem Wasser, typische Stärken der Preisklasse von 500 bis 1.000 Euro.",
-          "es": "Este modelo de gama alta completo ofrece un brazo extensible y fregado con agua caliente, puntos fuertes típicos del tramo de 500 a 1.000 euros.",
-          "it": "Questo modello di alto di gamma completo offre un braccio estensibile e lavaggio ad acqua calda, punti di forza tipici della fascia da 500 a 1.000 euro.",
-          "nl": "Dit complete topmodel biedt een uitschuifbare arm en dweilen met heet water, typische pluspunten van het segment van 500 tot 1.000 euro."
-        }
-      },
-      {
-        "model": "Ecovacs X2 Omni",
-        "role": {
-          "fr": "Design carré",
-          "en": "Square design",
-          "de": "Quadratisches Design",
-          "es": "Diseño cuadrado",
-          "it": "Design squadrato",
-          "nl": "Vierkant ontwerp"
-        },
-        "why": {
-          "fr": "Son design carré et sa serpillère rotative en font un robot haut de gamme soigné, avec une application parfois instable selon le guide.",
-          "en": "Its square design and rotating mop make it a polished high-end robot, though the guide notes the app can be unstable at times.",
-          "de": "Sein quadratisches Design und der rotierende Mopp machen ihn zu einem gelungenen Oberklasse-Roboter, wobei die App laut Ratgeber mitunter instabil ist.",
-          "es": "Su diseño cuadrado y su mopa rotativa lo hacen un robot de gama alta cuidado, aunque la guía señala que la app a veces es inestable.",
-          "it": "Il design squadrato e il mocio rotante ne fanno un robot di alta gamma curato, anche se la guida segnala un'app talvolta instabile.",
-          "nl": "Zijn vierkante ontwerp en roterende mop maken hem een verzorgde topper, al noemt de gids de app soms onstabiel."
-        }
-      },
-      {
-        "model": "Dreame D10s Plus",
-        "role": {
-          "fr": "Entrée de gamme",
-          "en": "Entry-level pick",
-          "de": "Einstiegsmodell",
-          "es": "Gama de entrada",
-          "it": "Entry level",
-          "nl": "Instapmodel"
-        },
-        "why": {
-          "fr": "À moins de 200 euros, il propose la navigation LiDAR et une station de vidage basique, suffisant pour un studio ou un petit appartement sur sols durs.",
-          "en": "Under 200 euros it offers LiDAR navigation and a basic emptying station, enough for a studio or small apartment with hard floors.",
-          "de": "Für unter 200 Euro bietet er LiDAR-Navigation und eine einfache Absaugstation, ausreichend für ein Studio oder eine kleine Wohnung mit Hartböden.",
-          "es": "Por menos de 200 euros ofrece navegación LiDAR y una estación de vaciado básica, suficiente para un estudio o piso pequeño con suelos duros.",
-          "it": "Sotto i 200 euro offre navigazione LiDAR e una stazione di svuotamento base, sufficiente per un monolocale o un piccolo appartamento con pavimenti duri.",
-          "nl": "Voor minder dan 200 euro biedt hij LiDAR-navigatie en een eenvoudig leegstation, genoeg voor een studio of klein appartement met harde vloeren."
-        }
-      }
-    ]
-  },
-  "guide-securite-maison-connectee-2026": {
-    "question": {
-      "fr": "Quel équipement choisir pour sécuriser sa maison connectée en 2026 ?",
-      "en": "What is the best smart home security equipment in 2026?",
-      "de": "Welche Geräte sind 2026 die besten für die Sicherheit im Smart Home?",
-      "es": "¿Qué equipo elegir para la seguridad de una casa conectada en 2026?",
-      "it": "Quali dispositivi scegliere per la sicurezza della casa connessa nel 2026?",
-      "nl": "Welke apparatuur is in 2026 het beste voor de beveiliging van een slim huis?"
-    },
-    "picks": [
-      {
-        "model": "Eufy Video Doorbell E340",
-        "role": {
-          "fr": "Meilleure sonnette sans abonnement",
-          "en": "Best subscription-free doorbell",
-          "de": "Beste Türklingel ohne Abo",
-          "es": "Mejor timbre sin suscripción",
-          "it": "Miglior campanello senza abbonamento",
-          "nl": "Beste deurbel zonder abonnement"
-        },
-        "why": {
-          "fr": "Elle stocke les enregistrements localement sans frais mensuels et fait partie des solutions Eufy au meilleur rapport qualité-prix sans abonnement.",
-          "en": "It stores recordings locally with no monthly fees and belongs to the Eufy range that offers the best value without a subscription.",
-          "de": "Sie speichert Aufnahmen lokal ohne monatliche Gebühren und gehört zu den Eufy-Lösungen mit dem besten Preis-Leistungs-Verhältnis ohne Abo.",
-          "es": "Guarda las grabaciones en local sin cuotas mensuales y forma parte de las soluciones de Eufy con mejor relación calidad-precio sin suscripción.",
-          "it": "Salva le registrazioni in locale senza costi mensili e fa parte delle soluzioni Eufy con il miglior rapporto qualità-prezzo senza abbonamento.",
-          "nl": "Ze slaat opnames lokaal op zonder maandelijkse kosten en hoort bij de Eufy-oplossingen met de beste prijs-kwaliteit zonder abonnement."
-        }
-      },
-      {
-        "model": "Ajax StarterKit",
-        "role": {
-          "fr": "Meilleure alarme",
-          "en": "Best alarm system",
-          "de": "Beste Alarmanlage",
-          "es": "Mejor alarma",
-          "it": "Miglior allarme",
-          "nl": "Beste alarmsysteem"
-        },
-        "why": {
-          "fr": "Il fonctionne sans abonnement avec capteurs de mouvement, d'ouverture et sirène, et le guide le juge imbattable pour l'alarme pure, avec une fiabilité professionnelle.",
-          "en": "It works without a subscription with motion and door sensors plus a siren, and the guide calls it unbeatable for pure alarm duty with professional-grade reliability.",
-          "de": "Es funktioniert ohne Abo mit Bewegungs- und Öffnungsmeldern samt Sirene, und der Ratgeber hält es für die reine Alarmfunktion für unschlagbar, mit professioneller Zuverlässigkeit.",
-          "es": "Funciona sin suscripción con sensores de movimiento, apertura y sirena, y la guía lo considera imbatible como alarma pura, con fiabilidad de grado profesional.",
-          "it": "Funziona senza abbonamento con sensori di movimento, apertura e sirena, e la guida lo giudica imbattibile come allarme puro, con affidabilità di livello professionale.",
-          "nl": "Het werkt zonder abonnement met bewegings- en deursensoren plus sirene, en de gids noemt het onverslaanbaar als pure alarmoplossing met professionele betrouwbaarheid."
-        }
-      },
-      {
-        "model": "Nuki Smart Lock 4.0",
-        "role": {
-          "fr": "Meilleure serrure connectée",
-          "en": "Best smart lock",
-          "de": "Bestes Smart Lock",
-          "es": "Mejor cerradura inteligente",
-          "it": "Miglior serratura smart",
-          "nl": "Beste slimme deurslot"
-        },
-        "why": {
-          "fr": "Cette serrure européenne s'adapte aux cylindres de porte standards sans remplacement et supprime le risque de clés perdues ou copiées.",
-          "en": "This European lock fits standard door cylinders without replacement and removes the risk of lost or copied keys.",
-          "de": "Dieses europäische Schloss passt auf Standardzylinder ohne Austausch und beseitigt das Risiko verlorener oder kopierter Schlüssel.",
-          "es": "Esta cerradura europea se adapta a los bombines estándar sin sustituirlos y elimina el riesgo de llaves perdidas o copiadas.",
-          "it": "Questa serratura europea si adatta ai cilindri standard senza sostituzione ed elimina il rischio di chiavi perse o copiate.",
-          "nl": "Dit Europese slot past op standaardcilinders zonder vervanging en neemt het risico van verloren of gekopieerde sleutels weg."
-        }
-      },
-      {
-        "model": "Netatmo Smart Smoke Alarm",
-        "role": {
-          "fr": "Détecteur de fumée connecté",
-          "en": "Best connected smoke alarm",
-          "de": "Vernetzter Rauchmelder",
-          "es": "Detector de humo conectado",
-          "it": "Rilevatore di fumo connesso",
-          "nl": "Slimme rookmelder"
-        },
-        "why": {
-          "fr": "Il envoie des alertes sur le téléphone même en votre absence et ajoute de la tranquillité à l'obligation légale du détecteur de fumée.",
-          "en": "It sends alerts to your phone even when you are away and adds peace of mind to the legal smoke detector requirement.",
-          "de": "Er sendet Warnungen aufs Handy, auch wenn man abwesend ist, und ergänzt die gesetzliche Rauchmelderpflicht um zusätzliche Sicherheit.",
-          "es": "Envía alertas al teléfono incluso cuando está ausente y añade tranquilidad a la obligación legal del detector de humo.",
-          "it": "Invia avvisi sullo smartphone anche quando si è assenti e aggiunge tranquillità all'obbligo di legge del rilevatore di fumo.",
-          "nl": "Hij stuurt meldingen naar je telefoon, ook als je weg bent, en voegt gemoedsrust toe aan de wettelijke rookmelderplicht."
-        }
-      }
-    ]
-  },
-  "guide-domotique-economie-energie-2026": {
-    "question": {
-      "fr": "Quel est le meilleur équipement domotique pour économiser l'énergie en 2026 ?",
-      "en": "What is the best smart home equipment to save energy in 2026?",
-      "de": "Welche Smart-Home-Geräte sparen 2026 am besten Energie?",
-      "es": "¿Cuál es el mejor equipo domótico para ahorrar energía en 2026?",
-      "it": "Qual è la migliore dotazione domotica per risparmiare energia nel 2026?",
-      "nl": "Wat is de beste domotica om in 2026 energie te besparen?"
-    },
-    "picks": [
-      {
-        "model": "Tado X",
-        "role": {
-          "fr": "Meilleur choix global",
-          "en": "Best overall",
-          "de": "Beste Wahl insgesamt",
-          "es": "Mejor opción global",
-          "it": "Miglior scelta complessiva",
-          "nl": "Beste keuze overall"
-        },
-        "why": {
-          "fr": "C'est la recommandation principale pour l'Europe : compatible Thread et Matter, apprentissage adaptatif, géolocalisation et prise en charge des pompes à chaleur via OpenTherm.",
-          "en": "It is the top recommendation for Europe: Thread and Matter compatible, with adaptive learning, geofencing and heat pump support via OpenTherm.",
-          "de": "Es ist die Hauptempfehlung für Europa: kompatibel mit Thread und Matter, mit lernendem Algorithmus, Geofencing und Wärmepumpen-Unterstützung über OpenTherm.",
-          "es": "Es la recomendación principal para Europa: compatible con Thread y Matter, con aprendizaje adaptativo, geolocalización y soporte de bombas de calor mediante OpenTherm.",
-          "it": "È la raccomandazione principale per l'Europa: compatibile con Thread e Matter, con apprendimento adattivo, geofencing e supporto alle pompe di calore via OpenTherm.",
-          "nl": "Het is de belangrijkste aanbeveling voor Europa: compatibel met Thread en Matter, met adaptief leren, geofencing en warmtepompondersteuning via OpenTherm."
-        }
-      },
-      {
-        "model": "Netatmo Thermostat Intelligent V3",
-        "role": {
-          "fr": "Valeur sûre au design soigné",
-          "en": "Reliable, well-designed pick",
-          "de": "Bewährte Wahl mit schönem Design",
-          "es": "Opción segura y de buen diseño",
-          "it": "Scelta affidabile dal design curato",
-          "nl": "Betrouwbare keuze met mooi ontwerp"
-        },
-        "why": {
-          "fr": "Ce thermostat reste une valeur sûre : design signé Philippe Starck, support Matter et algorithme Auto-Adapt qui tient compte de l'isolation et de la météo prévue.",
-          "en": "This thermostat remains a safe bet: a Philippe Starck design, Matter support and an Auto-Adapt algorithm that factors in insulation and forecast weather.",
-          "de": "Dieses Thermostat bleibt eine sichere Wahl: Design von Philippe Starck, Matter-Unterstützung und ein Auto-Adapt-Algorithmus, der Dämmung und Wettervorhersage berücksichtigt.",
-          "es": "Este termostato sigue siendo una apuesta segura: diseño de Philippe Starck, soporte Matter y un algoritmo Auto-Adapt que considera el aislamiento y el tiempo previsto.",
-          "it": "Questo termostato resta una scelta sicura: design di Philippe Starck, supporto Matter e algoritmo Auto-Adapt che tiene conto di isolamento e meteo previsto.",
-          "nl": "Deze thermostaat blijft een veilige keuze: ontwerp van Philippe Starck, Matter-ondersteuning en een Auto-Adapt-algoritme dat rekening houdt met isolatie en het verwachte weer."
-        }
-      },
-      {
-        "model": "IKEA Dirigera",
-        "role": {
-          "fr": "Idéal pour petits budgets",
-          "en": "Best for tight budgets",
-          "de": "Ideal für kleine Budgets",
-          "es": "Ideal para presupuestos ajustados",
-          "it": "Ideale per budget ridotti",
-          "nl": "Ideaal voor een klein budget"
-        },
-        "why": {
-          "fr": "Pour l'éclairage connecté, il est recommandé aux budgets serrés, car ses ampoules TRADFRI coûtent bien moins cher que Hue pour des performances acceptables.",
-          "en": "For smart lighting it is recommended on tight budgets, as its TRADFRI bulbs cost far less than Hue for acceptable performance.",
-          "de": "Für vernetzte Beleuchtung wird er bei knappem Budget empfohlen, da die TRADFRI-Lampen deutlich günstiger sind als Hue bei akzeptabler Leistung.",
-          "es": "Para iluminación conectada se recomienda con presupuesto ajustado, porque sus bombillas TRADFRI cuestan mucho menos que Hue con un rendimiento aceptable.",
-          "it": "Per l'illuminazione connessa è consigliato con budget ridotti, perché le lampadine TRADFRI costano molto meno di Hue con prestazioni accettabili.",
-          "nl": "Voor slimme verlichting wordt hij aanbevolen bij een krap budget, omdat de TRADFRI-lampen veel goedkoper zijn dan Hue bij acceptabele prestaties."
-        }
-      }
-    ]
-  },
-  "comparatif-robot-aspirateur-laveur": {
-    "question": {
-      "fr": "Quel est le meilleur robot aspirateur laveur en 2026 ?",
-      "en": "What is the best robot vacuum and mop in 2026?",
-      "de": "Welcher ist der beste Saug-Wischroboter 2026?",
-      "es": "¿Cuál es el mejor robot aspirador y fregona en 2026?",
-      "it": "Qual è il miglior robot aspirapolvere con lavaggio nel 2026?",
-      "nl": "Wat is de beste zuig-dweilrobot in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Dreame X40 Ultra",
-        "role": {
-          "fr": "Meilleur global",
-          "en": "Best overall",
-          "de": "Beste Wahl insgesamt",
-          "es": "Mejor opción global",
-          "it": "Miglior scelta complessiva",
-          "nl": "Beste keuze overall"
-        },
-        "why": {
-          "fr": "Le plus puissant et le plus innovant du comparatif, avec un bras extensible qui lave plinthes et angles, à choisir si le budget le permet.",
-          "en": "The most powerful and innovative in the comparison, with an extendable arm that mops baseboards and corners, worth choosing if budget allows.",
-          "de": "Der stärkste und innovativste im Vergleich, mit ausfahrbarem Arm, der Sockelleisten und Ecken wischt, die Wahl, wenn das Budget es zulässt.",
-          "es": "El más potente e innovador de la comparativa, con un brazo extensible que friega rodapiés y esquinas, a elegir si el presupuesto lo permite.",
-          "it": "Il più potente e innovativo del confronto, con un braccio estensibile che lava battiscopa e angoli, da scegliere se il budget lo consente.",
-          "nl": "De krachtigste en meest innovatieve in de vergelijking, met een uitschuifbare arm die plinten en hoeken dweilt, te kiezen als het budget het toelaat."
-        }
-      },
-      {
-        "model": "Roborock S8 MaxV Ultra",
-        "role": {
-          "fr": "Meilleur haut de gamme équilibré",
-          "en": "Best balanced high-end",
-          "de": "Beste ausgewogene Oberklasse",
-          "es": "Mejor gama alta equilibrada",
-          "it": "Miglior alto di gamma equilibrato",
-          "nl": "Beste evenwichtige topklasse"
-        },
-        "why": {
-          "fr": "Le plus fiable de la sélection, avec la meilleure application et le meilleur SAV, un excellent compromis haut de gamme sans dépasser un budget raisonnable.",
-          "en": "The most reliable in the selection, with the best app and customer service, an excellent high-end compromise without an excessive budget.",
-          "de": "Der zuverlässigste der Auswahl, mit der besten App und dem besten Kundenservice, ein ausgezeichneter Oberklasse-Kompromiss ohne übermäßiges Budget.",
-          "es": "El más fiable de la selección, con la mejor app y el mejor servicio posventa, un excelente compromiso de gama alta sin un presupuesto excesivo.",
-          "it": "Il più affidabile della selezione, con la migliore app e la migliore assistenza, un ottimo compromesso di alta gamma senza budget eccessivo.",
-          "nl": "De betrouwbaarste van de selectie, met de beste app en klantenservice, een uitstekend topcompromis zonder buitensporig budget."
-        }
-      },
-      {
-        "model": "Ecovacs X5 Omni",
-        "role": {
-          "fr": "Meilleur design",
-          "en": "Best design",
-          "de": "Bestes Design",
-          "es": "Mejor diseño",
-          "it": "Miglior design",
-          "nl": "Beste ontwerp"
-        },
-        "why": {
-          "fr": "Son format carré lui permet d'atteindre les angles plus efficacement que les robots ronds, mais l'absence de Matter est regrettable.",
-          "en": "Its square shape reaches corners more effectively than round robots, though the lack of Matter support is a pity.",
-          "de": "Seine quadratische Form erreicht Ecken effektiver als runde Roboter, allerdings ist das Fehlen von Matter bedauerlich.",
-          "es": "Su formato cuadrado alcanza las esquinas con más eficacia que los robots redondos, aunque la falta de Matter es lamentable.",
-          "it": "La forma squadrata raggiunge gli angoli più efficacemente dei robot rotondi, anche se l'assenza di Matter è un peccato.",
-          "nl": "Zijn vierkante vorm bereikt hoeken effectiever dan ronde robots, al is het ontbreken van Matter jammer."
-        }
-      },
-      {
-        "model": "Xiaomi X20 Max",
-        "role": {
-          "fr": "Meilleur budget",
-          "en": "Best budget pick",
-          "de": "Bestes Budget-Modell",
-          "es": "Mejor opción económica",
-          "it": "Miglior scelta economica",
-          "nl": "Beste budgetkeuze"
-        },
-        "why": {
-          "fr": "Il offre des performances solides à petit prix, avec navigation LiDAR plus caméra et Matter, parfait pour un premier robot laveur sur sols durs.",
-          "en": "It delivers solid performance at a low price, with LiDAR plus camera navigation and Matter, ideal as a first mopping robot on hard floors.",
-          "de": "Er liefert solide Leistung zu kleinem Preis, mit LiDAR-plus-Kamera-Navigation und Matter, ideal als erster Wischroboter auf Hartböden.",
-          "es": "Ofrece un rendimiento sólido a bajo precio, con navegación LiDAR más cámara y Matter, ideal como primer robot de fregado en suelos duros.",
-          "it": "Offre prestazioni solide a basso prezzo, con navigazione LiDAR più telecamera e Matter, ideale come primo robot lavapavimenti su pavimenti duri.",
-          "nl": "Hij levert solide prestaties tegen een lage prijs, met LiDAR plus camera en Matter, ideaal als eerste dweilrobot op harde vloeren."
-        }
-      }
-    ]
-  },
   "robot-aspirateur-poils-animaux": {
     "question": {
       "fr": "Quel est le meilleur robot aspirateur pour poils d'animaux en 2026 ?",
@@ -832,2121 +97,6 @@ export const QUICK_ANSWERS: Record<string, QuickAnswerData> = {
           "es": "Su gran succión extrae el pelo de alfombras gruesas y moquetas, perfecto para dos o más mascotas y casas grandes, con aspirado y fregado en una pasada.",
           "it": "La forte aspirazione estrae i peli da tappeti spessi e moquette, adatto a due o più animali e case grandi, con aspirazione e lavaggio in un solo passaggio.",
           "nl": "Zijn sterke zuigkracht haalt haren uit dikke tapijten, geschikt voor twee of meer huisdieren en grote huizen, met zuigen en dweilen in één keer."
-        }
-      }
-    ]
-  },
-  "thermostat-connecte-pompe-chaleur": {
-    "question": {
-      "fr": "Quel est le meilleur thermostat connecté pour une pompe à chaleur en 2026 ?",
-      "en": "What is the best smart thermostat for a heat pump in 2026?",
-      "de": "Welches ist das beste smarte Thermostat für eine Wärmepumpe 2026?",
-      "es": "¿Cuál es el mejor termostato inteligente para una bomba de calor en 2026?",
-      "it": "Qual è il miglior termostato smart per una pompa di calore nel 2026?",
-      "nl": "Wat is de beste slimme thermostaat voor een warmtepomp in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Tado X",
-        "role": {
-          "fr": "Meilleur choix pour pompe à chaleur",
-          "en": "Best for heat pumps",
-          "de": "Beste Wahl für Wärmepumpen",
-          "es": "Mejor opción para bombas de calor",
-          "it": "Miglior scelta per pompe di calore",
-          "nl": "Beste keuze voor warmtepompen"
-        },
-        "why": {
-          "fr": "Sa compatibilité native OpenTherm lui permet d'ajuster en continu la température de départ et de calculer la courbe de chauffe optimale du logement.",
-          "en": "Its native OpenTherm compatibility lets it continuously adjust the flow temperature and calculate the home's optimal heating curve.",
-          "de": "Dank nativer OpenTherm-Kompatibilität passt es die Vorlauftemperatur laufend an und berechnet die optimale Heizkurve des Hauses.",
-          "es": "Su compatibilidad nativa con OpenTherm le permite ajustar de forma continua la temperatura de ida y calcular la curva de calefacción óptima de la vivienda.",
-          "it": "La compatibilità nativa OpenTherm gli permette di regolare di continuo la temperatura di mandata e di calcolare la curva di riscaldamento ottimale dell'abitazione.",
-          "nl": "Dankzij native OpenTherm-compatibiliteit past hij continu de aanvoertemperatuur aan en berekent hij de optimale stookcurve van de woning."
-        }
-      },
-      {
-        "model": "Google Nest Learning Thermostat",
-        "role": {
-          "fr": "Rival du Tado X",
-          "en": "Closest rival to Tado X",
-          "de": "Ebenbürtiger Konkurrent",
-          "es": "Rival del Tado X",
-          "it": "Rivale del Tado X",
-          "nl": "Evenknie van Tado X"
-        },
-        "why": {
-          "fr": "Avec Matter, Thread et un adaptateur Heat Link compatible OpenTherm, il rivalise avec le Tado X pour piloter une pompe à chaleur.",
-          "en": "With Matter, Thread and an OpenTherm-compatible Heat Link adapter, it rivals the Tado X for controlling a heat pump.",
-          "de": "Mit Matter, Thread und einem OpenTherm-kompatiblen Heat-Link-Adapter ist es beim Steuern einer Wärmepumpe ein Konkurrent zum Tado X.",
-          "es": "Con Matter, Thread y un adaptador Heat Link compatible con OpenTherm, rivaliza con el Tado X para controlar una bomba de calor.",
-          "it": "Con Matter, Thread e un adattatore Heat Link compatibile OpenTherm, rivaleggia con il Tado X nel controllo di una pompa di calore.",
-          "nl": "Met Matter, Thread en een OpenTherm-compatibele Heat Link-adapter is hij een rivaal van de Tado X voor het sturen van een warmtepomp."
-        }
-      },
-      {
-        "model": "Netatmo Thermostat Intelligent V3",
-        "role": {
-          "fr": "Si la PAC n'a pas OpenTherm",
-          "en": "If your heat pump lacks OpenTherm",
-          "de": "Falls die Wärmepumpe kein OpenTherm hat",
-          "es": "Si la bomba no tiene OpenTherm",
-          "it": "Se la pompa non ha OpenTherm",
-          "nl": "Als de warmtepomp geen OpenTherm heeft"
-        },
-        "why": {
-          "fr": "Sans OpenTherm il ne peut pas optimiser la température de départ, mais reste un bon choix si votre pompe à chaleur ne supporte pas ce protocole.",
-          "en": "Without OpenTherm it cannot optimise the flow temperature, but it remains a good choice if your heat pump does not support that protocol.",
-          "de": "Ohne OpenTherm kann es die Vorlauftemperatur nicht optimieren, bleibt aber eine gute Wahl, wenn Ihre Wärmepumpe dieses Protokoll nicht unterstützt.",
-          "es": "Sin OpenTherm no puede optimizar la temperatura de ida, pero sigue siendo una buena opción si su bomba de calor no admite ese protocolo.",
-          "it": "Senza OpenTherm non può ottimizzare la temperatura di mandata, ma resta una buona scelta se la pompa di calore non supporta quel protocollo.",
-          "nl": "Zonder OpenTherm kan hij de aanvoertemperatuur niet optimaliseren, maar blijft een goede keuze als je warmtepomp dat protocol niet ondersteunt."
-        }
-      }
-    ]
-  },
-  "comparatif-smart-plugs-mesure-energie": {
-    "question": {
-      "fr": "Quelle est la meilleure prise connectée avec mesure de consommation en 2026 ?",
-      "en": "What is the best smart plug with energy monitoring in 2026?",
-      "de": "Welche ist die beste smarte Steckdose mit Verbrauchsmessung 2026?",
-      "es": "¿Cuál es el mejor enchufe inteligente con medición de consumo en 2026?",
-      "it": "Qual è la migliore presa smart con misurazione dei consumi nel 2026?",
-      "nl": "Wat is de beste slimme stekker met verbruiksmeting in 2026?"
-    },
-    "picks": [
-      {
-        "model": "TP-Link Tapo P115 Prise Connectée avec Suivi Conso",
-        "role": {
-          "fr": "Meilleur choix global",
-          "en": "Best overall",
-          "de": "Beste Wahl insgesamt",
-          "es": "Mejor opción global",
-          "it": "Miglior scelta complessiva",
-          "nl": "Beste keuze overall"
-        },
-        "why": {
-          "fr": "Elle offre le meilleur rapport qualité-prix avec une mesure précise, une application complète et la compatibilité Matter, un choix idéal pour la grande majorité des utilisateurs.",
-          "en": "It delivers the best value with accurate measurement, a full-featured app and Matter compatibility, an ideal choice for the vast majority of users.",
-          "de": "Sie bietet das beste Preis-Leistungs-Verhältnis mit präziser Messung, umfangreicher App und Matter-Kompatibilität, eine ideale Wahl für die große Mehrheit der Nutzer.",
-          "es": "Ofrece la mejor relación calidad-precio con medición precisa, app completa y compatibilidad con Matter, una elección ideal para la gran mayoría de usuarios.",
-          "it": "Offre il miglior rapporto qualità-prezzo con misurazione precisa, app completa e compatibilità Matter, una scelta ideale per la grande maggioranza degli utenti.",
-          "nl": "Ze biedt de beste prijs-kwaliteit met nauwkeurige meting, een complete app en Matter-compatibiliteit, een ideale keuze voor de grote meerderheid van de gebruikers."
-        }
-      },
-      {
-        "model": "Meross MSS310 Prise Connectée HomeKit 16A",
-        "role": {
-          "fr": "Alternative économique",
-          "en": "Budget alternative",
-          "de": "Günstige Alternative",
-          "es": "Alternativa económica",
-          "it": "Alternativa economica",
-          "nl": "Voordelig alternatief"
-        },
-        "why": {
-          "fr": "C'est la prise avec mesure d'énergie la moins chère du comparatif, avec mesure en temps réel, programmation horaire et Matter, idéale pour équiper de nombreux appareils.",
-          "en": "It is the cheapest plug with energy monitoring in the comparison, with real-time measurement, scheduling and Matter, ideal for covering many devices.",
-          "de": "Sie ist die günstigste Steckdose mit Energiemessung im Vergleich, mit Echtzeitmessung, Zeitplanung und Matter, ideal für viele Geräte.",
-          "es": "Es el enchufe con medición de energía más barato de la comparativa, con medición en tiempo real, programación horaria y Matter, ideal para equipar muchos aparatos.",
-          "it": "È la presa con misurazione dell'energia più economica del confronto, con misura in tempo reale, programmazione oraria e Matter, ideale per coprire molti dispositivi.",
-          "nl": "Het is de goedkoopste stekker met energiemeting in de vergelijking, met realtime meting, tijdschema en Matter, ideaal om veel apparaten te dekken."
-        }
-      }
-    ]
-  },
-  "comparatif-camera-surveillance-exterieure": {
-    "question": {
-      "fr": "Quelle est la meilleure caméra de surveillance extérieure sans abonnement en 2026 ?",
-      "en": "What is the best outdoor security camera without a subscription in 2026?",
-      "de": "Welche ist die beste Außenkamera ohne Abo 2026?",
-      "es": "¿Cuál es la mejor cámara de vigilancia exterior sin suscripción en 2026?",
-      "it": "Qual è la migliore telecamera di sorveglianza esterna senza abbonamento nel 2026?",
-      "nl": "Wat is de beste buitencamera zonder abonnement in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Eufy S330 eufyCam 3",
-        "role": {
-          "fr": "Choix de la rédaction",
-          "en": "Editor's pick",
-          "de": "Empfehlung der Redaktion",
-          "es": "Elección de la redacción",
-          "it": "Scelta della redazione",
-          "nl": "Keuze van de redactie"
-        },
-        "why": {
-          "fr": "Elle remporte le comparatif avec la 4K, la vision nocturne couleur, la détection IA avancée, le stockage local sans abonnement et la compatibilité HomeKit.",
-          "en": "It wins the comparison with 4K, colour night vision, advanced AI detection, local storage without a subscription and HomeKit compatibility.",
-          "de": "Sie gewinnt den Vergleich mit 4K, Farb-Nachtsicht, fortgeschrittener KI-Erkennung, lokalem Speicher ohne Abo und HomeKit-Kompatibilität.",
-          "es": "Gana la comparativa con 4K, visión nocturna en color, detección IA avanzada, almacenamiento local sin suscripción y compatibilidad con HomeKit.",
-          "it": "Vince il confronto con 4K, visione notturna a colori, rilevamento IA avanzato, archiviazione locale senza abbonamento e compatibilità HomeKit.",
-          "nl": "Ze wint de vergelijking met 4K, nachtzicht in kleur, geavanceerde AI-detectie, lokale opslag zonder abonnement en HomeKit-compatibiliteit."
-        }
-      },
-      {
-        "model": "Reolink RLC-833A",
-        "role": {
-          "fr": "Meilleur système filaire PoE",
-          "en": "Best wired PoE option",
-          "de": "Beste kabelgebundene PoE-Lösung",
-          "es": "Mejor opción cableada PoE",
-          "it": "Migliore opzione cablata PoE",
-          "nl": "Beste bedrade PoE-optie"
-        },
-        "why": {
-          "fr": "C'est le meilleur choix pour une installation filaire fiable avec la résolution la plus élevée, idéale en multi-caméras avec NVR, au prix d'un câblage Ethernet.",
-          "en": "It is the best pick for a reliable wired setup with the highest resolution, ideal for multi-camera NVR systems, at the cost of Ethernet cabling.",
-          "de": "Sie ist die beste Wahl für eine zuverlässige kabelgebundene Installation mit höchster Auflösung, ideal für Mehrkamerasysteme mit NVR, allerdings mit Ethernet-Verkabelung.",
-          "es": "Es la mejor opción para una instalación cableada fiable con la mayor resolución, ideal en sistemas multicámara con NVR, a costa del cableado Ethernet.",
-          "it": "È la scelta migliore per un'installazione cablata affidabile con la risoluzione più alta, ideale in sistemi multi-camera con NVR, al prezzo del cablaggio Ethernet.",
-          "nl": "Het is de beste keuze voor een betrouwbare bedrade installatie met de hoogste resolutie, ideaal voor multicamerasystemen met NVR, ten koste van ethernetbekabeling."
-        }
-      },
-      {
-        "model": "Arlo Pro 5S",
-        "role": {
-          "fr": "Option premium",
-          "en": "Premium option",
-          "de": "Premium-Option",
-          "es": "Opción premium",
-          "it": "Opzione premium",
-          "nl": "Premiumoptie"
-        },
-        "why": {
-          "fr": "Elle brille par son HDR, sa détection IA la plus avancée et HomeKit Secure Video, mais son prix élevé et des fonctions payantes la rendent moins attractive.",
-          "en": "It shines with HDR, the most advanced AI detection and HomeKit Secure Video, but its high price and subscription-locked features make it less attractive.",
-          "de": "Sie überzeugt mit HDR, der fortschrittlichsten KI-Erkennung und HomeKit Secure Video, doch hoher Preis und kostenpflichtige Funktionen machen sie weniger attraktiv.",
-          "es": "Destaca por su HDR, la detección IA más avanzada y HomeKit Secure Video, pero su precio alto y las funciones de pago la hacen menos atractiva.",
-          "it": "Spicca per HDR, rilevamento IA più avanzato e HomeKit Secure Video, ma il prezzo elevato e le funzioni a pagamento la rendono meno interessante.",
-          "nl": "Ze blinkt uit met HDR, de meest geavanceerde AI-detectie en HomeKit Secure Video, maar de hoge prijs en betaalde functies maken haar minder aantrekkelijk."
-        }
-      },
-      {
-        "model": "TP-Link Tapo C520WS",
-        "role": {
-          "fr": "Petit budget",
-          "en": "Best on a budget",
-          "de": "Für kleines Budget",
-          "es": "Para presupuesto ajustado",
-          "it": "Per budget ridotto",
-          "nl": "Voor een klein budget"
-        },
-        "why": {
-          "fr": "Sa rotation à 360 degrés et son suivi automatique compensent largement son prix contenu, parfaite comme première caméra de surveillance.",
-          "en": "Its 360-degree rotation and auto-tracking more than make up for its low price, making it perfect as a first security camera.",
-          "de": "Die 360-Grad-Drehung und die automatische Verfolgung gleichen den günstigen Preis mehr als aus, perfekt als erste Überwachungskamera.",
-          "es": "Su rotación de 360 grados y su seguimiento automático compensan de sobra su precio contenido, perfecta como primera cámara de vigilancia.",
-          "it": "La rotazione a 360 gradi e il tracciamento automatico compensano ampiamente il prezzo contenuto, perfetta come prima telecamera di sorveglianza.",
-          "nl": "De 360-gradendraaiing en automatische tracking compenseren de lage prijs ruimschoots, perfect als eerste bewakingscamera."
-        }
-      }
-    ]
-  },
-  "sonnette-video-sans-abonnement": {
-    "question": {
-      "fr": "Quelle est la meilleure sonnette vidéo sans abonnement en 2026 ?",
-      "en": "What is the best video doorbell without a subscription in 2026?",
-      "de": "Welche ist die beste Video-Türklingel ohne Abo 2026?",
-      "es": "¿Cuál es el mejor timbre con vídeo sin suscripción en 2026?",
-      "it": "Qual è il miglior videocitofono senza abbonamento nel 2026?",
-      "nl": "Wat is de beste videodeurbel zonder abonnement in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Eufy Video Doorbell E340",
-        "role": {
-          "fr": "Meilleur choix global",
-          "en": "Best overall",
-          "de": "Beste Wahl insgesamt",
-          "es": "Mejor opción global",
-          "it": "Miglior scelta complessiva",
-          "nl": "Beste keuze overall"
-        },
-        "why": {
-          "fr": "Double caméra, stockage local intégré sans abonnement, détection IA précise et compatibilité HomeKit et Google Home en font la sonnette la plus complète du comparatif.",
-          "en": "A dual camera, built-in local storage with no subscription, precise AI detection and HomeKit and Google Home support make it the most complete doorbell in the comparison.",
-          "de": "Doppelkamera, integrierter lokaler Speicher ohne Abo, präzise KI-Erkennung sowie HomeKit- und Google-Home-Kompatibilität machen sie zur vollständigsten Türklingel im Vergleich.",
-          "es": "Doble cámara, almacenamiento local integrado sin suscripción, detección IA precisa y compatibilidad con HomeKit y Google Home la hacen el timbre más completo de la comparativa.",
-          "it": "Doppia telecamera, archiviazione locale integrata senza abbonamento, rilevamento IA preciso e compatibilità HomeKit e Google Home ne fanno il campanello più completo del confronto.",
-          "nl": "Een dubbele camera, ingebouwde lokale opslag zonder abonnement, precieze AI-detectie en HomeKit- en Google Home-ondersteuning maken haar de completste deurbel in de vergelijking."
-        }
-      },
-      {
-        "model": "Reolink WiFi Video Doorbell",
-        "role": {
-          "fr": "Meilleur petit prix",
-          "en": "Best budget pick",
-          "de": "Bestes Budget-Modell",
-          "es": "Mejor opción económica",
-          "it": "Miglior scelta economica",
-          "nl": "Beste budgetkeuze"
-        },
-        "why": {
-          "fr": "Elle convient aux petits budgets et aux maisons déjà câblées, avec stockage microSD, résolution 2K et excellent rapport qualité-prix, mais sans option batterie.",
-          "en": "It suits small budgets and homes with existing doorbell wiring, with microSD storage, 2K resolution and excellent value, though there is no battery option.",
-          "de": "Sie eignet sich für kleine Budgets und Häuser mit vorhandener Klingelverkabelung, mit microSD-Speicher, 2K-Auflösung und tollem Preis-Leistungs-Verhältnis, aber ohne Akku-Option.",
-          "es": "Encaja en presupuestos ajustados y casas ya cableadas, con almacenamiento microSD, resolución 2K y excelente relación calidad-precio, pero sin opción de batería.",
-          "it": "Si adatta a budget ridotti e case già cablate, con archiviazione microSD, risoluzione 2K e ottimo rapporto qualità-prezzo, ma senza opzione a batteria.",
-          "nl": "Ze past bij kleine budgetten en huizen met bestaande bedrading, met microSD-opslag, 2K-resolutie en uitstekende prijs-kwaliteit, maar zonder accuoptie."
-        }
-      },
-      {
-        "model": "Google Nest Doorbell",
-        "role": {
-          "fr": "Écosystème Google",
-          "en": "Best for Google Home",
-          "de": "Für Google-Home-Nutzer",
-          "es": "Para el ecosistema Google",
-          "it": "Per l'ecosistema Google",
-          "nl": "Voor het Google-ecosysteem"
-        },
-        "why": {
-          "fr": "Elle propose la meilleure détection IA et une intégration native à Google Home, mais résolution basse, autonomie limitée et prix élevé la rendent difficile à recommander.",
-          "en": "It offers the best AI detection and native Google Home integration, but low resolution, limited battery life and a high price make it hard to recommend.",
-          "de": "Sie bietet die beste KI-Erkennung und native Google-Home-Integration, doch niedrige Auflösung, begrenzte Akkulaufzeit und hoher Preis erschweren eine Empfehlung.",
-          "es": "Ofrece la mejor detección IA y una integración nativa con Google Home, pero su baja resolución, autonomía limitada y precio alto la hacen difícil de recomendar.",
-          "it": "Offre il miglior rilevamento IA e un'integrazione nativa con Google Home, ma risoluzione bassa, autonomia limitata e prezzo elevato la rendono difficile da consigliare.",
-          "nl": "Ze biedt de beste AI-detectie en native Google Home-integratie, maar lage resolutie, beperkte accuduur en hoge prijs maken haar lastig aan te raden."
-        }
-      },
-      {
-        "model": "Ring Battery Doorbell Plus",
-        "role": {
-          "fr": "Pour les utilisateurs Alexa",
-          "en": "For Alexa users",
-          "de": "Für Alexa-Nutzer",
-          "es": "Para usuarios de Alexa",
-          "it": "Per gli utenti Alexa",
-          "nl": "Voor Alexa-gebruikers"
-        },
-        "why": {
-          "fr": "Excellente qualité d'image et intégration Alexa irréprochable, mais sans stockage local et avec abonnement obligatoire pour l'historique vidéo.",
-          "en": "Excellent image quality and flawless Alexa integration, but with no local storage and a mandatory subscription for video history.",
-          "de": "Hervorragende Bildqualität und tadellose Alexa-Integration, aber ohne lokalen Speicher und mit Pflicht-Abo für den Videoverlauf.",
-          "es": "Excelente calidad de imagen e integración impecable con Alexa, pero sin almacenamiento local y con suscripción obligatoria para el historial de vídeo.",
-          "it": "Ottima qualità d'immagine e integrazione Alexa impeccabile, ma senza archiviazione locale e con abbonamento obbligatorio per lo storico video.",
-          "nl": "Uitstekende beeldkwaliteit en perfecte Alexa-integratie, maar zonder lokale opslag en met verplicht abonnement voor de videogeschiedenis."
-        }
-      }
-    ]
-  },
-  "guide-purificateur-air-2026": {
-    "question": {
-      "fr": "Quel est le meilleur purificateur d'air en 2026 ?",
-      "en": "What is the best air purifier in 2026?",
-      "de": "Welcher ist der beste Luftreiniger 2026?",
-      "es": "¿Cuál es el mejor purificador de aire en 2026?",
-      "it": "Qual è il miglior purificatore d'aria nel 2026?",
-      "nl": "Wat is de beste luchtreiniger in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Levoit Core 300S",
-        "role": {
-          "fr": "Meilleur rapport qualité-prix",
-          "en": "Best value",
-          "de": "Bestes Preis-Leistungs-Verhältnis",
-          "es": "Mejor relación calidad-precio",
-          "it": "Miglior rapporto qualità-prezzo",
-          "nl": "Beste prijs-kwaliteit"
-        },
-        "why": {
-          "fr": "Il offre un filtre HEPA H13, le Wi-Fi et la compatibilité Alexa et Google à petit prix, ce qui en fait le meilleur rapport qualité-prix du marché.",
-          "en": "It offers an H13 HEPA filter, Wi-Fi and Alexa and Google support at a low price, making it the best value on the market.",
-          "de": "Er bietet einen HEPA-H13-Filter, WLAN und Alexa- sowie Google-Unterstützung zum kleinen Preis und ist damit das beste Preis-Leistungs-Verhältnis am Markt.",
-          "es": "Ofrece filtro HEPA H13, Wi-Fi y compatibilidad con Alexa y Google a bajo precio, la mejor relación calidad-precio del mercado.",
-          "it": "Offre filtro HEPA H13, Wi-Fi e compatibilità con Alexa e Google a basso prezzo, il miglior rapporto qualità-prezzo del mercato.",
-          "nl": "Hij biedt een HEPA H13-filter, wifi en Alexa- en Google-ondersteuning tegen een lage prijs en is de beste prijs-kwaliteit op de markt."
-        }
-      },
-      {
-        "model": "Xiaomi Smart Air Purifier 4",
-        "role": {
-          "fr": "Meilleur compromis connecté",
-          "en": "Best smart mid-range",
-          "de": "Bester vernetzter Mittelklasse-Kompromiss",
-          "es": "Mejor compromiso conectado",
-          "it": "Miglior compromesso connesso",
-          "nl": "Beste slimme middenklasser"
-        },
-        "why": {
-          "fr": "Dans la gamme du meilleur compromis, il associe un capteur PM2.5 laser et un écran OLED à une forte capacité d'épuration, jugé imbattable.",
-          "en": "In the best-compromise price range, it pairs a laser PM2.5 sensor and OLED display with high air-cleaning capacity, and is judged unbeatable.",
-          "de": "In der Preisklasse des besten Kompromisses vereint er einen Laser-PM2.5-Sensor und OLED-Display mit hoher Reinigungsleistung und gilt als unschlagbar.",
-          "es": "En la gama del mejor compromiso, une un sensor PM2.5 láser y pantalla OLED con gran capacidad de purificación, y se considera imbatible.",
-          "it": "Nella fascia del miglior compromesso unisce sensore PM2.5 laser e display OLED a un'elevata capacità di purificazione ed è giudicato imbattibile.",
-          "nl": "In het segment van het beste compromis combineert hij een laser-PM2.5-sensor en OLED-scherm met een hoge zuiveringscapaciteit en geldt als onverslaanbaar."
-        }
-      },
-      {
-        "model": "Philips AC2939/10",
-        "role": {
-          "fr": "Idéal pour les grandes pièces",
-          "en": "Best for large rooms",
-          "de": "Ideal für große Räume",
-          "es": "Ideal para espacios grandes",
-          "it": "Ideale per ambienti ampi",
-          "nl": "Ideaal voor grote ruimtes"
-        },
-        "why": {
-          "fr": "Il couvre jusqu'à 98 m² avec une très forte capacité et des capteurs AeraSense 3-en-1, adapté aux grands séjours.",
-          "en": "It covers up to 98 m² with very high capacity and AeraSense 3-in-1 sensors, suited to large living rooms.",
-          "de": "Er deckt bis zu 98 m² mit sehr hoher Leistung und AeraSense-3-in-1-Sensoren ab und eignet sich für große Wohnzimmer.",
-          "es": "Cubre hasta 98 m² con una capacidad muy alta y sensores AeraSense 3 en 1, adecuado para salones grandes.",
-          "it": "Copre fino a 98 m² con altissima capacità e sensori AeraSense 3-in-1, adatto ai grandi soggiorni.",
-          "nl": "Hij bestrijkt tot 98 m² met zeer hoge capaciteit en AeraSense 3-in-1-sensoren, geschikt voor grote woonkamers."
-        }
-      },
-      {
-        "model": "Blueair Blue Pure 411i Max",
-        "role": {
-          "fr": "Idéal pour les chambres",
-          "en": "Best for bedrooms",
-          "de": "Ideal fürs Schlafzimmer",
-          "es": "Ideal para dormitorios",
-          "it": "Ideale per le camere da letto",
-          "nl": "Ideaal voor slaapkamers"
-        },
-        "why": {
-          "fr": "Ce modèle compact au design épuré, avec technologie HEPASilent, brille par son silence, mais ses filtres propriétaires coûtent cher.",
-          "en": "This compact model with a clean design and HEPASilent technology stands out for silence, though its proprietary filters are costly.",
-          "de": "Dieses kompakte Modell mit schlichtem Design und HEPASilent-Technologie überzeugt durch Ruhe, doch die herstellereigenen Filter sind teuer.",
-          "es": "Este modelo compacto de diseño depurado y tecnología HEPASilent destaca por su silencio, aunque sus filtros propietarios son caros.",
-          "it": "Questo modello compatto dal design pulito e tecnologia HEPASilent spicca per il silenzio, anche se i filtri proprietari sono costosi.",
-          "nl": "Dit compacte model met strak ontwerp en HEPASilent-technologie valt op door stilte, al zijn de eigen filters duur."
-        }
-      }
-    ]
-  },
-  "comparatif-purificateur-air-allergie": {
-    "question": {
-      "fr": "Quel est le meilleur purificateur d'air pour les allergies en 2026 ?",
-      "en": "What is the best air purifier for allergies in 2026?",
-      "de": "Welcher ist der beste Luftreiniger bei Allergien 2026?",
-      "es": "¿Cuál es el mejor purificador de aire para alergias en 2026?",
-      "it": "Qual è il miglior purificatore d'aria per le allergie nel 2026?",
-      "nl": "Wat is de beste luchtreiniger voor allergieën in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Levoit Core 300S",
-        "role": {
-          "fr": "Meilleur rapport qualité-prix",
-          "en": "Best value",
-          "de": "Bestes Preis-Leistungs-Verhältnis",
-          "es": "Mejor relación calidad-precio",
-          "it": "Miglior rapporto qualità-prezzo",
-          "nl": "Beste prijs-kwaliteit"
-        },
-        "why": {
-          "fr": "Son filtre HEPA H13 certifié capture pollens, acariens, poils et moisissures à petit prix, le choix idéal pour débuter ou équiper une chambre.",
-          "en": "Its certified H13 HEPA filter captures pollen, dust mites, pet hair and mould spores at a low price, the ideal choice to start or equip a bedroom.",
-          "de": "Der zertifizierte HEPA-H13-Filter fängt Pollen, Milben, Tierhaare und Schimmelsporen günstig ein, die ideale Wahl zum Einstieg oder fürs Schlafzimmer.",
-          "es": "Su filtro HEPA H13 certificado captura polen, ácaros, pelos y esporas de moho a bajo precio, la opción ideal para empezar o equipar un dormitorio.",
-          "it": "Il filtro HEPA H13 certificato cattura pollini, acari, peli e spore di muffa a basso prezzo, la scelta ideale per iniziare o per una camera.",
-          "nl": "Zijn gecertificeerde HEPA H13-filter vangt pollen, huisstofmijt, dierenhaar en schimmelsporen op voor weinig geld, ideaal om te beginnen of voor een slaapkamer."
-        }
-      },
-      {
-        "model": "Coway Airmega 250",
-        "role": {
-          "fr": "Pour allergies sévères",
-          "en": "Best for severe allergies",
-          "de": "Für schwere Allergien",
-          "es": "Para alergias graves",
-          "it": "Per allergie gravi",
-          "nl": "Voor ernstige allergieën"
-        },
-        "why": {
-          "fr": "Sa technologie Green HEPA, son capteur PM2.5 et son mode Eco en font le meilleur purificateur sans compromis pour les allergiques sévères.",
-          "en": "Its Green HEPA technology, PM2.5 sensor and Eco mode make it the best no-compromise purifier for severe allergy sufferers.",
-          "de": "Seine Green-HEPA-Technologie, der PM2.5-Sensor und der Eco-Modus machen ihn zum besten kompromisslosen Luftreiniger für schwere Allergiker.",
-          "es": "Su tecnología Green HEPA, su sensor PM2.5 y su modo Eco lo hacen el mejor purificador sin compromisos para alérgicos graves.",
-          "it": "La tecnologia Green HEPA, il sensore PM2.5 e la modalità Eco ne fanno il miglior purificatore senza compromessi per gli allergici gravi.",
-          "nl": "Zijn Green HEPA-technologie, PM2.5-sensor en Eco-modus maken hem de beste compromisloze luchtreiniger voor ernstige allergiepatiënten."
-        }
-      },
-      {
-        "model": "Blueair Blue Pure 411i Max",
-        "role": {
-          "fr": "Le plus silencieux",
-          "en": "Quietest pick",
-          "de": "Der leiseste",
-          "es": "El más silencioso",
-          "it": "Il più silenzioso",
-          "nl": "De stilste"
-        },
-        "why": {
-          "fr": "Sa technologie HEPASilent le rend presque inaudible, parfait pour les allergiques au sommeil léger qui veulent le silence absolu et se passent du connecté.",
-          "en": "Its HEPASilent technology makes it almost inaudible, perfect for light-sleeping allergy sufferers who want absolute silence and can skip smart features.",
-          "de": "Dank HEPASilent ist er fast unhörbar, perfekt für Allergiker mit leichtem Schlaf, die absolute Ruhe wollen und auf vernetzte Funktionen verzichten können.",
-          "es": "Su tecnología HEPASilent lo hace casi inaudible, perfecto para alérgicos de sueño ligero que quieren silencio absoluto y prescinden de funciones conectadas.",
-          "it": "La tecnologia HEPASilent lo rende quasi inudibile, perfetto per gli allergici dal sonno leggero che vogliono il silenzio assoluto e rinunciano alle funzioni connesse.",
-          "nl": "Dankzij HEPASilent is hij bijna onhoorbaar, perfect voor allergiepatiënten met een lichte slaap die absolute stilte willen en slimme functies kunnen missen."
-        }
-      },
-      {
-        "model": "Philips AC2939/10",
-        "role": {
-          "fr": "Pour grands espaces",
-          "en": "Best for large spaces",
-          "de": "Für große Räume",
-          "es": "Para espacios grandes",
-          "it": "Per grandi spazi",
-          "nl": "Voor grote ruimtes"
-        },
-        "why": {
-          "fr": "Le plus puissant du comparatif, il couvre jusqu'à 98 m² et s'impose pour les grands salons et open spaces, mais c'est aussi le plus cher.",
-          "en": "The most powerful in the comparison, it covers up to 98 m² and is the pick for large living rooms and open-plan spaces, but also the priciest.",
-          "de": "Der stärkste im Vergleich deckt bis zu 98 m² ab und ist die Wahl für große Wohnzimmer und offene Räume, aber auch der teuerste.",
-          "es": "El más potente de la comparativa cubre hasta 98 m² y se impone para salones grandes y espacios abiertos, aunque también es el más caro.",
-          "it": "Il più potente del confronto copre fino a 98 m² e si impone per grandi soggiorni e open space, ma è anche il più costoso.",
-          "nl": "De krachtigste in de vergelijking bestrijkt tot 98 m² en is de keuze voor grote woonkamers en open ruimtes, maar ook de duurste."
-        }
-      }
-    ]
-  },
-  "climatiseur-mobile-vs-ventilateur": {
-    "question": {
-      "fr": "Climatiseur mobile ou ventilateur : quel modèle choisir en 2026 ?",
-      "en": "Portable air conditioner or fan: which model to choose in 2026?",
-      "de": "Mobiles Klimagerät oder Ventilator: welches Modell 2026?",
-      "es": "Aire acondicionado portátil o ventilador: ¿qué modelo elegir en 2026?",
-      "it": "Condizionatore portatile o ventilatore: quale modello scegliere nel 2026?",
-      "nl": "Mobiele airco of ventilator: welk model kies je in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Xiaomi Smart Standing Fan 2",
-        "role": {
-          "fr": "Meilleur ventilateur économique",
-          "en": "Best budget fan",
-          "de": "Bester günstiger Ventilator",
-          "es": "Mejor ventilador económico",
-          "it": "Miglior ventilatore economico",
-          "nl": "Beste voordelige ventilator"
-        },
-        "why": {
-          "fr": "Pour un budget serré et des températures sous 35 °C, ce ventilateur colonne à moteur DC est la solution la plus raisonnable : silencieux, très sobre, sans installation.",
-          "en": "For a tight budget and temperatures below 35°C, this DC-motor tower fan is the most sensible solution: quiet, very low consumption and no installation.",
-          "de": "Bei knappem Budget und Temperaturen unter 35 °C ist dieser Turmventilator mit DC-Motor die vernünftigste Lösung: leise, sehr sparsam und ohne Installation.",
-          "es": "Con presupuesto ajustado y temperaturas por debajo de 35 °C, este ventilador de columna con motor DC es la solución más sensata: silencioso, muy sobrio y sin instalación.",
-          "it": "Con poco budget e meno di 35 °C, questo ventilatore a colonna con motore DC è la soluzione più sensata: silenzioso, molto sobrio e senza installazione.",
-          "nl": "Bij een krap budget en temperaturen onder 35 °C is deze torenventilator met DC-motor de verstandigste oplossing: stil, erg zuinig en zonder installatie."
-        }
-      },
-      {
-        "model": "De'Longhi Pinguino PAC EX130 ECO",
-        "role": {
-          "fr": "Pour les canicules",
-          "en": "Best for heatwaves",
-          "de": "Für Hitzewellen",
-          "es": "Para olas de calor",
-          "it": "Per le ondate di caldo",
-          "nl": "Voor hittegolven"
-        },
-        "why": {
-          "fr": "Au-delà de 35 °C seul le climatiseur mobile refroidit réellement, et ce modèle de classe A+ limite la facture d'électricité.",
-          "en": "Above 35°C only a portable air conditioner truly cools, and this A+ class model keeps the electricity bill down.",
-          "de": "Über 35 °C kühlt nur ein mobiles Klimagerät wirklich, und dieses Modell der Klasse A+ hält die Stromrechnung niedrig.",
-          "es": "Por encima de 35 °C solo el aire acondicionado portátil enfría de verdad, y este modelo de clase A+ limita la factura eléctrica.",
-          "it": "Oltre i 35 °C solo il condizionatore portatile raffredda davvero, e questo modello di classe A+ contiene la bolletta elettrica.",
-          "nl": "Boven 35 °C koelt alleen een mobiele airco echt, en dit model van klasse A+ houdt de stroomrekening beperkt."
-        }
-      },
-      {
-        "model": "Dyson Pure Cool TP07",
-        "role": {
-          "fr": "Meilleur 2-en-1",
-          "en": "Best 2-in-1",
-          "de": "Bestes 2-in-1-Gerät",
-          "es": "Mejor 2 en 1",
-          "it": "Miglior 2-in-1",
-          "nl": "Beste 2-in-1"
-        },
-        "why": {
-          "fr": "Il combine ventilateur et purificateur HEPA avec application et compatibilité Alexa et Google, le meilleur 2-en-1 de la sélection.",
-          "en": "It combines a fan and HEPA purifier with an app and Alexa and Google support, the best 2-in-1 in the selection.",
-          "de": "Er kombiniert Ventilator und HEPA-Luftreiniger mit App sowie Alexa- und Google-Unterstützung, das beste 2-in-1-Gerät der Auswahl.",
-          "es": "Combina ventilador y purificador HEPA con app y compatibilidad con Alexa y Google, el mejor 2 en 1 de la selección.",
-          "it": "Combina ventilatore e purificatore HEPA con app e compatibilità Alexa e Google, il miglior 2-in-1 della selezione.",
-          "nl": "Hij combineert ventilator en HEPA-luchtreiniger met app en Alexa- en Google-ondersteuning, de beste 2-in-1 van de selectie."
-        }
-      },
-      {
-        "model": "Rowenta Turbo Silence Extreme+",
-        "role": {
-          "fr": "Excellent rapport qualité-prix",
-          "en": "Great value",
-          "de": "Sehr gutes Preis-Leistungs-Verhältnis",
-          "es": "Excelente relación calidad-precio",
-          "it": "Ottimo rapporto qualità-prezzo",
-          "nl": "Uitstekende prijs-kwaliteit"
-        },
-        "why": {
-          "fr": "Ce ventilateur sur pied à cinq pales reste discret en mode nuit pour un prix modéré, un excellent rapport qualité-prix.",
-          "en": "This five-blade pedestal fan stays quiet in night mode at a moderate price, offering excellent value.",
-          "de": "Dieser Standventilator mit fünf Flügeln bleibt im Nachtmodus leise und kostet wenig, ein sehr gutes Preis-Leistungs-Verhältnis.",
-          "es": "Este ventilador de pie de cinco aspas es discreto en modo noche y de precio moderado, con una excelente relación calidad-precio.",
-          "it": "Questo ventilatore a piantana a cinque pale resta silenzioso in modalità notte a un prezzo moderato, con un ottimo rapporto qualità-prezzo.",
-          "nl": "Deze statiefventilator met vijf bladen blijft in nachtmodus stil tegen een gematigde prijs, met uitstekende prijs-kwaliteit."
-        }
-      }
-    ]
-  },
-  "guide-cuisine-connectee-2026": {
-    "question": {
-      "fr": "Quels sont les meilleurs appareils de cuisine connectée en 2026 ?",
-      "en": "What are the best smart kitchen appliances in 2026?",
-      "de": "Welche sind die besten smarten Küchengeräte 2026?",
-      "es": "¿Cuáles son los mejores electrodomésticos de cocina conectada en 2026?",
-      "it": "Quali sono i migliori elettrodomestici da cucina connessa nel 2026?",
-      "nl": "Wat zijn de beste slimme keukenapparaten in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Moulinex Cookeo Touch WiFi",
-        "role": {
-          "fr": "Meilleur rapport qualité-prix pour les familles",
-          "en": "Best value for families",
-          "de": "Bestes Preis-Leistungs-Verhältnis für Familien",
-          "es": "Mejor relación calidad-precio para familias",
-          "it": "Miglior rapporto qualità-prezzo per famiglie",
-          "nl": "Beste prijs-kwaliteit voor gezinnen"
-        },
-        "why": {
-          "fr": "La référence française propose plus de 2 500 recettes guidées avec liste de courses intégrée, ce qui en fait le meilleur rapport qualité-prix pour les familles francophones.",
-          "en": "The French reference offers over 2,500 guided recipes with a built-in shopping list, making it the best value for French-speaking families.",
-          "de": "Die französische Referenz bietet über 2.500 geführte Rezepte mit integrierter Einkaufsliste und ist das beste Preis-Leistungs-Verhältnis für französischsprachige Familien.",
-          "es": "La referencia francesa ofrece más de 2.500 recetas guiadas con lista de la compra integrada, la mejor relación calidad-precio para familias francófonas.",
-          "it": "Il riferimento francese offre oltre 2.500 ricette guidate con lista della spesa integrata, il miglior rapporto qualità-prezzo per le famiglie francofone.",
-          "nl": "De Franse referentie biedt meer dan 2.500 begeleide recepten met ingebouwde boodschappenlijst en is de beste prijs-kwaliteit voor Franstalige gezinnen."
-        }
-      },
-      {
-        "model": "Ninja Foodi MAX SmartLid",
-        "role": {
-          "fr": "Le tout-en-un connecté",
-          "en": "Best all-in-one",
-          "de": "Das vernetzte Allround-Gerät",
-          "es": "El todo en uno conectado",
-          "it": "Il tuttofare connesso",
-          "nl": "De slimme alleskunner"
-        },
-        "why": {
-          "fr": "Multicuiseur, air fryer et cuiseur vapeur sous un seul couvercle pivotant, avec grande capacité, il remplace un airfryer séparé et convient aux grandes familles.",
-          "en": "A multicooker, air fryer and steamer under one pivoting lid with large capacity, it replaces a separate air fryer and suits big families.",
-          "de": "Multikocher, Heißluftfritteuse und Dampfgarer unter einem Schwenkdeckel mit großem Fassungsvermögen, er ersetzt eine separate Heißluftfritteuse und passt zu großen Familien.",
-          "es": "Multicocedor, freidora de aire y cocedor al vapor bajo una sola tapa giratoria y con gran capacidad, sustituye una freidora aparte y encaja en familias grandes.",
-          "it": "Multicooker, friggitrice ad aria e cuocivapore sotto un unico coperchio girevole con grande capacità, sostituisce una friggitrice separata e si adatta alle famiglie numerose.",
-          "nl": "Multikoker, heteluchtfriteuse en stoomkoker onder één draaideksel met grote capaciteit, hij vervangt een aparte friteuse en past bij grote gezinnen."
-        }
-      },
-      {
-        "model": "Instant Pot Duo Plus WiFi",
-        "role": {
-          "fr": "Meilleur prix d'entrée",
-          "en": "Best entry price",
-          "de": "Günstigster Einstieg",
-          "es": "Mejor precio de entrada",
-          "it": "Miglior prezzo d'ingresso",
-          "nl": "Beste instapprijs"
-        },
-        "why": {
-          "fr": "Il ajoute le WiFi à la fiabilité légendaire de la marque et propose le meilleur prix d'entrée pour un multicuiseur connecté, avec planificateur de repas et compatibilité Alexa.",
-          "en": "It adds WiFi to the brand's legendary reliability and offers the best entry price for a connected multicooker, with a meal planner and Alexa support.",
-          "de": "Er ergänzt die legendäre Zuverlässigkeit der Marke um WLAN und bietet den besten Einstiegspreis für einen vernetzten Multikocher, mit Essensplaner und Alexa-Unterstützung.",
-          "es": "Añade WiFi a la fiabilidad legendaria de la marca y ofrece el mejor precio de entrada para un multicocedor conectado, con planificador de comidas y compatibilidad con Alexa.",
-          "it": "Aggiunge il WiFi alla leggendaria affidabilità del marchio e offre il miglior prezzo d'ingresso per un multicooker connesso, con pianificatore dei pasti e compatibilità Alexa.",
-          "nl": "Hij voegt wifi toe aan de legendarische betrouwbaarheid van het merk en biedt de beste instapprijs voor een slimme multikoker, met maaltijdplanner en Alexa-ondersteuning."
-        }
-      },
-      {
-        "model": "De'Longhi Magnifica Evo",
-        "role": {
-          "fr": "Meilleure qualité d'espresso",
-          "en": "Best espresso quality",
-          "de": "Beste Espresso-Qualität",
-          "es": "Mejor calidad de espresso",
-          "it": "Miglior qualità dell'espresso",
-          "nl": "Beste espressokwaliteit"
-        },
-        "why": {
-          "fr": "La référence italienne offre la meilleure qualité d'espresso, avec réglages de mouture, température et intensité pilotables depuis l'application.",
-          "en": "The Italian reference delivers the best espresso quality, with grind, temperature and strength settings controllable from the app.",
-          "de": "Die italienische Referenz liefert die beste Espresso-Qualität, mit Mahlgrad, Temperatur und Stärke per App einstellbar.",
-          "es": "La referencia italiana ofrece la mejor calidad de espresso, con molienda, temperatura e intensidad ajustables desde la aplicación.",
-          "it": "Il riferimento italiano offre la migliore qualità di espresso, con macinatura, temperatura e intensità regolabili dall'app.",
-          "nl": "De Italiaanse referentie levert de beste espressokwaliteit, met maling, temperatuur en sterkte instelbaar via de app."
-        }
-      }
-    ]
-  },
-  "comparatif-multicuiseur-connecte": {
-    "question": {
-      "fr": "Quel est le meilleur multicuiseur connecté en 2026 ?",
-      "en": "What is the best smart multicooker in 2026?",
-      "de": "Welcher ist der beste smarte Multikocher 2026?",
-      "es": "¿Cuál es el mejor multicocedor conectado en 2026?",
-      "it": "Qual è il miglior multicooker connesso nel 2026?",
-      "nl": "Wat is de beste slimme multikoker in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Moulinex Cookeo Touch WiFi - 6L",
-        "role": {
-          "fr": "Meilleur global",
-          "en": "Best overall",
-          "de": "Beste Wahl insgesamt",
-          "es": "Mejor opción global",
-          "it": "Miglior scelta complessiva",
-          "nl": "Beste keuze overall"
-        },
-        "why": {
-          "fr": "Le meilleur écran tactile, les 2 500 recettes guidées et l'application Moulinex en font le meilleur multicuiseur connecté, surtout si l'on possède déjà un airfryer.",
-          "en": "The best touchscreen, 2,500 guided recipes and the Moulinex app make it the best smart multicooker, especially if you already own an air fryer.",
-          "de": "Der beste Touchscreen, 2.500 geführte Rezepte und die Moulinex-App machen ihn zum besten smarten Multikocher, vor allem wenn bereits eine Heißluftfritteuse vorhanden ist.",
-          "es": "La mejor pantalla táctil, las 2.500 recetas guiadas y la app de Moulinex lo hacen el mejor multicocedor conectado, sobre todo con freidora de aire.",
-          "it": "Il miglior touchscreen, le 2.500 ricette guidate e l'app Moulinex ne fanno il miglior multicooker connesso, soprattutto se si ha già una friggitrice ad aria.",
-          "nl": "Het beste touchscreen, 2.500 begeleide recepten en de Moulinex-app maken hem de beste slimme multikoker, vooral als je al een heteluchtfriteuse hebt."
-        }
-      },
-      {
-        "model": "Ninja Foodi MAX 15-en-1 SmartLid OP500EU - 7.5L",
-        "role": {
-          "fr": "Le plus polyvalent",
-          "en": "Most versatile",
-          "de": "Der vielseitigste",
-          "es": "El más polivalente",
-          "it": "Il più versatile",
-          "nl": "De veelzijdigste"
-        },
-        "why": {
-          "fr": "Seul de la sélection à intégrer l'air frying, avec la plus grande capacité, il remplace plusieurs appareils et convient au batch cooking des grandes familles.",
-          "en": "The only one in the selection with built-in air frying and the largest capacity, it replaces several appliances and suits big-family batch cooking.",
-          "de": "Als einziger der Auswahl mit integriertem Air Frying und dem größten Fassungsvermögen ersetzt er mehrere Geräte und passt zum Vorkochen für große Familien.",
-          "es": "El único de la selección con air frying integrado y la mayor capacidad, sustituye varios aparatos y encaja en el batch cooking de familias grandes.",
-          "it": "L'unico della selezione con air frying integrato e la maggiore capacità, sostituisce più apparecchi e si adatta al batch cooking delle famiglie numerose.",
-          "nl": "De enige van de selectie met ingebouwde air frying en de grootste capaciteit, hij vervangt meerdere apparaten en past bij batchcooking voor grote gezinnen."
-        }
-      },
-      {
-        "model": "Instant Pot Duo Plus WhisperQuiet - 5.7L",
-        "role": {
-          "fr": "Meilleur budget",
-          "en": "Best budget pick",
-          "de": "Bestes Budget-Modell",
-          "es": "Mejor opción económica",
-          "it": "Miglior scelta economica",
-          "nl": "Beste budgetkeuze"
-        },
-        "why": {
-          "fr": "Fiable et bien plus abordable que le Cookeo, avec 9 fonctions et 1 900 recettes, c'est le choix malin pour les couples et petites familles.",
-          "en": "Reliable and far more affordable than the Cookeo, with 9 functions and 1,900 recipes, it is the smart choice for couples and small families.",
-          "de": "Zuverlässig und deutlich günstiger als der Cookeo, mit 9 Funktionen und 1.900 Rezepten, die clevere Wahl für Paare und kleine Familien.",
-          "es": "Fiable y mucho más asequible que el Cookeo, con 9 funciones y 1.900 recetas, es la opción inteligente para parejas y familias pequeñas.",
-          "it": "Affidabile e molto più economico del Cookeo, con 9 funzioni e 1.900 ricette, è la scelta furba per coppie e piccole famiglie.",
-          "nl": "Betrouwbaar en veel voordeliger dan de Cookeo, met 9 functies en 1.900 recepten, de slimme keuze voor stellen en kleine gezinnen."
-        }
-      }
-    ]
-  },
-  "cafetiere-connectee-guide": {
-    "question": {
-      "fr": "Quelle est la meilleure cafetière connectée en 2026 ?",
-      "en": "What is the best smart coffee machine in 2026?",
-      "de": "Welche ist die beste smarte Kaffeemaschine 2026?",
-      "es": "¿Cuál es la mejor cafetera inteligente en 2026?",
-      "it": "Qual è la migliore macchina da caffè smart nel 2026?",
-      "nl": "Wat is het beste slimme koffiezetapparaat in 2026?"
-    },
-    "picks": [
-      {
-        "model": "De'Longhi Magnifica Evo ECAM290.51.B",
-        "role": {
-          "fr": "Meilleur espresso",
-          "en": "Best espresso quality",
-          "de": "Beste Espressoqualität",
-          "es": "Mejor calidad de espresso",
-          "it": "Miglior espresso",
-          "nl": "Beste espressokwaliteit"
-        },
-        "why": {
-          "fr": "Son broyeur conique en acier à 13 niveaux et son système LatteCrema offrent la meilleure qualité d'espresso du comparatif, idéal pour les amateurs exigeants.",
-          "en": "Its 13-level conical steel grinder and LatteCrema milk system deliver the best espresso quality in the comparison, ideal for demanding coffee lovers.",
-          "de": "Das konische Stahlmahlwerk mit 13 Stufen und das LatteCrema-System liefern die beste Espressoqualität im Vergleich, ideal für anspruchsvolle Kaffeeliebhaber.",
-          "es": "Su molinillo cónico de acero de 13 niveles y el sistema LatteCrema ofrecen la mejor calidad de espresso de la comparativa, ideal para los más exigentes.",
-          "it": "Il macinacaffè conico in acciaio a 13 livelli e il sistema LatteCrema offrono la migliore qualità di espresso del confronto, ideale per i più esigenti.",
-          "nl": "De conische stalen molen met 13 standen en het LatteCrema-systeem leveren de beste espressokwaliteit van de vergelijking, ideaal voor veeleisende koffieliefhebbers."
-        }
-      },
-      {
-        "model": "Philips 5500 LatteGo Series EP5541/50",
-        "role": {
-          "fr": "Entretien le plus simple",
-          "en": "Easiest to maintain",
-          "de": "Am einfachsten zu reinigen",
-          "es": "El más fácil de mantener",
-          "it": "Manutenzione più semplice",
-          "nl": "Gemakkelijkst te onderhouden"
-        },
-        "why": {
-          "fr": "Le système lait LatteGo en deux pièces se rince en 15 secondes et le broyeur céramique est silencieux, mais la connexion se limite au Bluetooth.",
-          "en": "The two-piece LatteGo milk system rinses in 15 seconds and the ceramic grinder is quiet, but connectivity is limited to Bluetooth.",
-          "de": "Das zweiteilige LatteGo-Milchsystem ist in 15 Sekunden gespült und das Keramikmahlwerk ist leise, die Verbindung beschränkt sich aber auf Bluetooth.",
-          "es": "El sistema de leche LatteGo de dos piezas se enjuaga en 15 segundos y el molinillo cerámico es silencioso, aunque la conexión se limita a Bluetooth.",
-          "it": "Il sistema latte LatteGo in due pezzi si sciacqua in 15 secondi e il macinacaffè in ceramica è silenzioso, ma la connessione è solo Bluetooth.",
-          "nl": "Het tweedelige LatteGo-melksysteem spoel je in 15 seconden schoon en de keramische molen is stil, maar de verbinding beperkt zich tot Bluetooth."
-        }
-      },
-      {
-        "model": "Krups Evidence One EA895N10",
-        "role": {
-          "fr": "Le plus polyvalent",
-          "en": "Most versatile",
-          "de": "Am vielseitigsten",
-          "es": "La más versátil",
-          "it": "La più versatile",
-          "nl": "Meest veelzijdig"
-        },
-        "why": {
-          "fr": "Seule machine du comparatif à préparer nativement des boissons froides, dont un cold brew express, avec le plus grand réservoir, mais un broyeur moins précis.",
-          "en": "The only machine in the comparison that natively makes cold drinks, including express cold brew, with the largest water tank but a less precise grinder.",
-          "de": "Die einzige Maschine im Vergleich mit nativen Kaltgetränken, darunter Express-Cold-Brew, mit dem größten Wassertank, aber einem weniger präzisen Mahlwerk.",
-          "es": "Es la única máquina de la comparativa que prepara bebidas frías de serie, incluido cold brew exprés, con el mayor depósito pero un molinillo menos preciso.",
-          "it": "È l'unica macchina del confronto a preparare bevande fredde di serie, incluso il cold brew express, con il serbatoio più grande ma un macinacaffè meno preciso.",
-          "nl": "De enige machine in de vergelijking die standaard koude dranken maakt, waaronder snelle cold brew, met het grootste waterreservoir maar een minder nauwkeurige molen."
-        }
-      }
-    ]
-  },
-  "guide-jardin-connecte-2026": {
-    "question": {
-      "fr": "Quelle est la meilleure tondeuse robot pour un jardin connecté en 2026 ?",
-      "en": "What is the best robot mower for a smart garden in 2026?",
-      "de": "Welcher Mähroboter ist der beste für einen vernetzten Garten 2026?",
-      "es": "¿Cuál es el mejor robot cortacésped para un jardín inteligente en 2026?",
-      "it": "Qual è il miglior robot tagliaerba per un giardino smart nel 2026?",
-      "nl": "Wat is de beste robotmaaier voor een slimme tuin in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Mammotion LUBA 2 AWD",
-        "role": {
-          "fr": "Idéal pour les pentes",
-          "en": "Best for sloped lawns",
-          "de": "Beste für Hanglagen",
-          "es": "Ideal para pendientes",
-          "it": "Ideale per i pendii",
-          "nl": "Beste voor hellingen"
-        },
-        "why": {
-          "fr": "Le guide recommande ce modèle à quatre roues motrices pour les terrains dépassant 25 % de pente, avec navigation RTK et vision, jusqu'à 5 000 m².",
-          "en": "The guide recommends this four-wheel-drive model for lawns steeper than 25 percent, with RTK and vision navigation covering up to 5,000 square meters.",
-          "de": "Der Ratgeber empfiehlt dieses Allradmodell für Grundstücke mit mehr als 25 Prozent Steigung, mit RTK- und Kamera-Navigation für bis zu 5.000 Quadratmeter.",
-          "es": "La guía recomienda este modelo de tracción total para terrenos con más de un 25 % de pendiente, con navegación RTK y visión para hasta 5.000 metros cuadrados.",
-          "it": "La guida consiglia questo modello a trazione integrale per terreni con pendenze oltre il 25 percento, con navigazione RTK e visione fino a 5.000 metri quadrati.",
-          "nl": "De gids raadt dit vierwielaangedreven model aan voor terreinen met meer dan 25 procent helling, met RTK- en visionnavigatie voor maximaal 5.000 vierkante meter."
-        }
-      },
-      {
-        "model": "Husqvarna Automower NERA",
-        "role": {
-          "fr": "Haut de gamme",
-          "en": "Premium pick",
-          "de": "Premium-Wahl",
-          "es": "Gama alta",
-          "it": "Fascia alta",
-          "nl": "Premiumkeuze"
-        },
-        "why": {
-          "fr": "Modèle phare de Husqvarna : GPS RTK et EPOS, jusqu'à 5 000 m² et des pentes de 35 %, mais c'est le plus cher de la sélection.",
-          "en": "Husqvarna's flagship combines GPS RTK and EPOS to cover up to 5,000 square meters and 35 percent slopes, but it is the most expensive in the selection.",
-          "de": "Husqvarnas Flaggschiff kombiniert GPS-RTK und EPOS für bis zu 5.000 Quadratmeter und 35 Prozent Steigung, ist aber das teuerste Modell der Auswahl.",
-          "es": "Modelo estrella de Husqvarna: GPS RTK y EPOS, hasta 5.000 metros cuadrados y pendientes del 35 %, pero es el más caro de la selección.",
-          "it": "Modello di punta Husqvarna: GPS RTK ed EPOS, fino a 5.000 metri quadrati e pendenze del 35 percento, ma è il più costoso della selezione.",
-          "nl": "Het vlaggenschip van Husqvarna combineert GPS-RTK en EPOS voor maximaal 5.000 vierkante meter en 35 procent helling, maar is het duurste model van de selectie."
-        }
-      },
-      {
-        "model": "Gardena SILENO City 600",
-        "role": {
-          "fr": "Idéal pour petits jardins",
-          "en": "Best for small gardens",
-          "de": "Beste für kleine Gärten",
-          "es": "Ideal para jardines pequeños",
-          "it": "Ideale per piccoli giardini",
-          "nl": "Beste voor kleine tuinen"
-        },
-        "why": {
-          "fr": "Avec son fil périmétrique et une surface maximale de 600 m², c'est l'option la plus abordable de la sélection pour un petit jardin simple.",
-          "en": "With its perimeter wire and a maximum area of 600 square meters, it is the most affordable option in the selection for a small, simple garden.",
-          "de": "Mit Begrenzungskabel und maximal 600 Quadratmetern ist es die günstigste Option der Auswahl für einen kleinen, einfachen Garten.",
-          "es": "Con cable perimetral y una superficie máxima de 600 metros cuadrados, es la opción más económica de la selección para un jardín pequeño y sencillo.",
-          "it": "Con filo perimetrale e una superficie massima di 600 metri quadrati, è l'opzione più economica della selezione per un giardino piccolo e semplice.",
-          "nl": "Met begrenzingsdraad en maximaal 600 vierkante meter is dit de goedkoopste optie van de selectie voor een kleine, eenvoudige tuin."
-        }
-      }
-    ]
-  },
-  "tondeuse-robot-sans-fil-perimetrique": {
-    "question": {
-      "fr": "Quelle est la meilleure tondeuse robot sans fil périmétrique en 2026 ?",
-      "en": "What is the best cable-free robot mower in 2026?",
-      "de": "Welcher ist der beste Mähroboter ohne Begrenzungskabel 2026?",
-      "es": "¿Cuál es el mejor robot cortacésped sin cable perimetral en 2026?",
-      "it": "Qual è il miglior robot tagliaerba senza filo perimetrale nel 2026?",
-      "nl": "Wat is de beste robotmaaier zonder begrenzingsdraad in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Husqvarna Automower NERA",
-        "role": {
-          "fr": "Haut de gamme",
-          "en": "Premium pick",
-          "de": "Premium-Wahl",
-          "es": "Gama alta",
-          "it": "Fascia alta",
-          "nl": "Premiumkeuze"
-        },
-        "why": {
-          "fr": "Le système EPOS offre la précision la plus élevée du marché, une tonte en lignes parallèles et l'autonomie la plus longue, mais c'est le plus cher.",
-          "en": "The EPOS system gives the highest precision on the market, parallel-line mowing and the longest runtime, but it is also the most expensive model.",
-          "de": "Das EPOS-System bietet die höchste Präzision am Markt, Mähen in parallelen Bahnen und die längste Laufzeit, ist aber auch das teuerste Modell.",
-          "es": "El sistema EPOS ofrece la mayor precisión del mercado, corte en líneas paralelas y la mayor autonomía, pero también es el modelo más caro.",
-          "it": "Il sistema EPOS offre la massima precisione del mercato, taglio a linee parallele e la maggiore autonomia, ma è anche il modello più costoso.",
-          "nl": "Het EPOS-systeem biedt de hoogste precisie van de markt, maaien in parallelle banen en de langste looptijd, maar is ook het duurste model."
-        }
-      },
-      {
-        "model": "Mammotion LUBA 2 AWD",
-        "role": {
-          "fr": "Meilleur rapport qualité-prix",
-          "en": "Best value",
-          "de": "Bestes Preis-Leistungs-Verhältnis",
-          "es": "Mejor relación calidad-precio",
-          "it": "Miglior rapporto qualità-prezzo",
-          "nl": "Beste prijs-kwaliteitverhouding"
-        },
-        "why": {
-          "fr": "Sa traction intégrale gère les pentes jusqu'à 38 %, avec la plus grande largeur de coupe du comparatif et une double navigation RTK et caméra IA.",
-          "en": "Its all-wheel drive handles slopes up to 38 percent, with the widest cutting width in the comparison and dual RTK and AI camera navigation.",
-          "de": "Der Allradantrieb meistert Steigungen bis 38 Prozent, mit der größten Schnittbreite im Vergleich und doppelter Navigation aus RTK und KI-Kamera.",
-          "es": "Su tracción total supera pendientes de hasta el 38 %, con el mayor ancho de corte de la comparativa y doble navegación RTK y cámara con IA.",
-          "it": "La trazione integrale gestisce pendenze fino al 38 percento, con la maggiore larghezza di taglio del confronto e doppia navigazione RTK e telecamera IA.",
-          "nl": "De vierwielaandrijving verwerkt hellingen tot 38 procent, met de grootste maaibreedte van de vergelijking en dubbele navigatie met RTK en AI-camera."
-        }
-      },
-      {
-        "model": "Segway Navimow i105E",
-        "role": {
-          "fr": "Le plus sûr pour débuter",
-          "en": "Safest first purchase",
-          "de": "Sicherster Einstieg",
-          "es": "La opción más segura para empezar",
-          "it": "La più sicura per iniziare",
-          "nl": "Veiligste eerste aankoop"
-        },
-        "why": {
-          "fr": "Installation très simple avec un tour du jardin, précision RTK et app stable, mais pente limitée à 27 % et largeur de coupe réduite.",
-          "en": "Very easy setup by walking the lawn border, good RTK precision and a stable app, but slopes are limited to 27 percent and the cutting width is narrow.",
-          "de": "Sehr einfache Einrichtung durch Abschreiten des Gartens, gute RTK-Präzision und stabile App, aber Steigung auf 27 Prozent und Schnittbreite begrenzt.",
-          "es": "Instalación muy sencilla recorriendo el jardín, buena precisión RTK y app estable, pero con pendiente limitada al 27 % y un ancho de corte reducido.",
-          "it": "Installazione molto semplice percorrendo il giardino, buona precisione RTK e app stabile, ma pendenza limitata al 27 percento e larghezza di taglio ridotta.",
-          "nl": "Zeer eenvoudige installatie door de tuin af te lopen, goede RTK-precisie en stabiele app, maar de helling is beperkt tot 27 procent en de maaibreedte is smal."
-        }
-      },
-      {
-        "model": "ECOVACS GOAT GX-600",
-        "role": {
-          "fr": "Idéal pour petits jardins",
-          "en": "Best for small gardens",
-          "de": "Beste für kleine Gärten",
-          "es": "Ideal para jardines pequeños",
-          "it": "Ideale per piccoli giardini",
-          "nl": "Beste voor kleine tuinen"
-        },
-        "why": {
-          "fr": "Fonctionne par vision IA sans station de référence RTK et c'est le moins cher du comparatif, mais limité à 1 600 m² et moins précis.",
-          "en": "It works with AI vision without an RTK reference station and is the cheapest in the comparison, but is limited to 1,600 square meters and less precise.",
-          "de": "Es arbeitet mit KI-Kamera ohne RTK-Referenzstation und ist das günstigste Modell im Vergleich, aber auf 1.600 Quadratmeter begrenzt und weniger präzise.",
-          "es": "Funciona con visión por IA sin estación RTK y es el más barato de la comparativa, pero se limita a 1.600 metros cuadrados y es menos preciso.",
-          "it": "Funziona con visione IA senza stazione di riferimento RTK ed è il più economico del confronto, ma limitato a 1.600 metri quadrati e meno preciso.",
-          "nl": "Werkt met AI-vision zonder RTK-referentiestation en is de goedkoopste uit de vergelijking, maar beperkt tot 1.600 vierkante meter en minder nauwkeurig."
-        }
-      }
-    ]
-  },
-  "arrosage-connecte-intelligent": {
-    "question": {
-      "fr": "Quel est le meilleur système d'arrosage connecté en 2026 ?",
-      "en": "What is the best smart irrigation system in 2026?",
-      "de": "Welches ist das beste smarte Bewässerungssystem 2026?",
-      "es": "¿Cuál es el mejor sistema de riego inteligente en 2026?",
-      "it": "Qual è il miglior sistema di irrigazione smart nel 2026?",
-      "nl": "Wat is het beste slimme sproeisysteem in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Gardena Smart System",
-        "role": {
-          "fr": "Meilleur écosystème européen",
-          "en": "Best European ecosystem",
-          "de": "Bestes europäisches Ökosystem",
-          "es": "Mejor ecosistema europeo",
-          "it": "Miglior ecosistema europeo",
-          "nl": "Beste Europese ecosysteem"
-        },
-        "why": {
-          "fr": "Recommandé pour la plupart des jardins européens : l'écosystème le plus complet et le mieux intégré, avec capteurs d'humidité du sol et passerelle dédiée.",
-          "en": "Recommended for most European gardens: the most complete and best-integrated ecosystem, with soil moisture sensors and a dedicated gateway.",
-          "de": "Empfohlen für die meisten europäischen Gärten: das vollständigste und am besten integrierte Ökosystem, mit Bodenfeuchtesensoren und eigenem Gateway.",
-          "es": "Recomendado para la mayoría de los jardines europeos: el ecosistema más completo y mejor integrado, con sensores de humedad del suelo y puerta de enlace propia.",
-          "it": "Consigliato per la maggior parte dei giardini europei: l'ecosistema più completo e meglio integrato, con sensori di umidità del terreno e gateway dedicato.",
-          "nl": "Aanbevolen voor de meeste Europese tuinen: het meest complete en best geïntegreerde ecosysteem, met bodemvochtsensoren en een eigen gateway."
-        }
-      },
-      {
-        "model": "Rachio 3",
-        "role": {
-          "fr": "Le plus intelligent",
-          "en": "Smartest controller",
-          "de": "Intelligentester Controller",
-          "es": "El más inteligente",
-          "it": "Il più intelligente",
-          "nl": "Slimste controller"
-        },
-        "why": {
-          "fr": "Le plus intelligent du marché avec Weather Intelligence+, 8 ou 16 zones et compatibilité Apple HomeKit, adapté aux installations multi-zones et budgets plus généreux.",
-          "en": "The smartest on the market with Weather Intelligence+, 8 or 16 zones and Apple HomeKit support, suited to multi-zone setups and larger budgets.",
-          "de": "Der intelligenteste Controller am Markt mit Weather Intelligence+, 8 oder 16 Zonen und Apple-HomeKit-Unterstützung, passend für Mehrzonenanlagen und größere Budgets.",
-          "es": "El más inteligente del mercado con Weather Intelligence+, 8 o 16 zonas y compatibilidad con Apple HomeKit, adecuado para instalaciones multizona y presupuestos mayores.",
-          "it": "Il più intelligente sul mercato con Weather Intelligence+, 8 o 16 zone e compatibilità Apple HomeKit, adatto a impianti multizona e budget più generosi.",
-          "nl": "De slimste op de markt met Weather Intelligence+, 8 of 16 zones en Apple HomeKit-ondersteuning, geschikt voor meerzone-installaties en ruimere budgetten."
-        }
-      },
-      {
-        "model": "Orbit B-hyve",
-        "role": {
-          "fr": "Meilleur rapport qualité-prix",
-          "en": "Best value",
-          "de": "Bestes Preis-Leistungs-Verhältnis",
-          "es": "Mejor relación calidad-precio",
-          "it": "Miglior rapporto qualità-prezzo",
-          "nl": "Beste prijs-kwaliteitverhouding"
-        },
-        "why": {
-          "fr": "Idéal pour un premier système connecté, un jardin simple ou un budget serré, avec adaptation à la météo et jusqu'à 16 zones.",
-          "en": "Ideal for a first smart watering system, a simple garden or a tight budget, with weather-based adjustment and up to 16 zones.",
-          "de": "Ideal für ein erstes smartes Bewässerungssystem, einen einfachen Garten oder ein knappes Budget, mit Wetteranpassung und bis zu 16 Zonen.",
-          "es": "Ideal para un primer sistema de riego conectado, un jardín sencillo o un presupuesto ajustado, con adaptación al clima y hasta 16 zonas.",
-          "it": "Ideale per un primo sistema di irrigazione connesso, un giardino semplice o un budget ridotto, con adattamento al meteo e fino a 16 zone.",
-          "nl": "Ideaal voor een eerste slim sproeisysteem, een eenvoudige tuin of een krap budget, met weeraanpassing en maximaal 16 zones."
-        }
-      },
-      {
-        "model": "Eve Aqua",
-        "role": {
-          "fr": "Matter natif et confidentialité",
-          "en": "Native Matter and privacy",
-          "de": "Natives Matter und Datenschutz",
-          "es": "Matter nativo y privacidad",
-          "it": "Matter nativo e privacy",
-          "nl": "Native Matter en privacy"
-        },
-        "why": {
-          "fr": "Robinet connecté à une zone, natif Matter et HomeKit et sans dépendance au cloud, idéal pour les utilisateurs Apple Home soucieux de confidentialité.",
-          "en": "A single-zone smart tap that is natively Matter and HomeKit with no cloud dependency, ideal for privacy-minded Apple Home users.",
-          "de": "Ein smarter Wasserhahn für eine Zone, nativ mit Matter und HomeKit und ohne Cloud-Abhängigkeit, ideal für datenschutzbewusste Apple-Home-Nutzer.",
-          "es": "Un grifo conectado de una sola zona, nativo en Matter y HomeKit y sin depender de la nube, ideal para usuarios de Apple Home preocupados por la privacidad.",
-          "it": "Un rubinetto connesso a una zona, nativo Matter e HomeKit e senza dipendenza dal cloud, ideale per gli utenti Apple Home attenti alla privacy.",
-          "nl": "Een slimme kraan voor één zone, native Matter en HomeKit en zonder cloudafhankelijkheid, ideaal voor privacybewuste Apple Home-gebruikers."
-        }
-      }
-    ]
-  },
-  "robot-aspirateur-vs-balai": {
-    "question": {
-      "fr": "Robot aspirateur ou aspirateur balai : lequel choisir en 2026 ?",
-      "en": "Robot vacuum or stick vacuum: which should you choose in 2026?",
-      "de": "Saugroboter oder Stielsauger: Was solltest du 2026 wählen?",
-      "es": "¿Robot aspirador o aspiradora de mano: cuál elegir en 2026?",
-      "it": "Robot aspirapolvere o scopa elettrica: quale scegliere nel 2026?",
-      "nl": "Robotstofzuiger of steelstofzuiger: welke kies je in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Roborock S8 MaxV Ultra",
-        "role": {
-          "fr": "Meilleur pour sols durs",
-          "en": "Best for hard floors",
-          "de": "Beste für Hartböden",
-          "es": "Mejor para suelos duros",
-          "it": "Migliore per pavimenti duri",
-          "nl": "Beste voor harde vloeren"
-        },
-        "why": {
-          "fr": "Choix éditeur pour appartements et maisons à sols durs : nettoyage autonome au quotidien, aspiration et lavage, avec une station qui se vide et se lave seule.",
-          "en": "Editor's choice for hard-floor apartments and homes: autonomous daily cleaning with vacuuming and mopping, plus a station that empties and washes itself.",
-          "de": "Empfehlung der Redaktion für Wohnungen und Häuser mit Hartböden: autonome tägliche Reinigung mit Saugen und Wischen, samt Station, die sich selbst leert und wäscht.",
-          "es": "Elección del editor para pisos y casas con suelos duros: limpieza autónoma diaria con aspirado y fregado, y una estación que se vacía y se lava sola.",
-          "it": "Scelta della redazione per appartamenti e case con pavimenti duri: pulizia autonoma quotidiana con aspirazione e lavaggio, e una stazione che si svuota e si lava da sola.",
-          "nl": "Keuze van de redactie voor appartementen en huizen met harde vloeren: autonoom dagelijks reinigen met zuigen en dweilen, plus een station dat zichzelf leegt en wast."
-        }
-      },
-      {
-        "model": "Dyson V15 Detect Absolute",
-        "role": {
-          "fr": "Idéal pour tapis et moquettes",
-          "en": "Best for carpets and rugs",
-          "de": "Beste für Teppiche",
-          "es": "Ideal para alfombras y moquetas",
-          "it": "Ideale per tappeti e moquette",
-          "nl": "Beste voor tapijt"
-        },
-        "why": {
-          "fr": "Sa puissance d'extraction est imbattable sur les fibres, indispensable avec tapis, moquettes ou escaliers, mais sans navigation autonome ni fonction de lavage.",
-          "en": "Its extraction power is unbeatable on fibers, essential with rugs, carpets or stairs, but it has no autonomous navigation and no mopping function.",
-          "de": "Die Saugkraft auf Fasern ist unschlagbar und unverzichtbar bei Teppichen, Teppichboden oder Treppen, aber ohne autonome Navigation und ohne Wischfunktion.",
-          "es": "Su potencia de extracción es imbatible sobre las fibras, imprescindible con alfombras, moquetas o escaleras, pero sin navegación autónoma ni función de fregado.",
-          "it": "La sua potenza di estrazione è imbattibile sulle fibre, indispensabile con tappeti, moquette o scale, ma senza navigazione autonoma né funzione di lavaggio.",
-          "nl": "Zijn zuigkracht op vezels is ongeëvenaard, onmisbaar bij tapijt, vast tapijt of trappen, maar zonder autonome navigatie en zonder dweilfunctie."
-        }
-      },
-      {
-        "model": "Dreame H14",
-        "role": {
-          "fr": "Idéal pour sols durs tachés",
-          "en": "Best for stained hard floors",
-          "de": "Beste bei Flecken auf Hartböden",
-          "es": "Ideal para manchas en suelos duros",
-          "it": "Ideale per macchie su pavimenti duri",
-          "nl": "Beste voor vlekken op harde vloeren"
-        },
-        "why": {
-          "fr": "Le lavage à l'eau chaude combiné à l'aspiration est une révélation pour les sols durs souvent tachés, à un prix très inférieur au robot haut de gamme.",
-          "en": "Hot-water washing combined with suction is a revelation for hard floors with frequent stains, at a much lower price than the premium robot.",
-          "de": "Die Reinigung mit Heißwasser bei gleichzeitigem Saugen ist eine Offenbarung für Hartböden mit häufigen Flecken, zu einem deutlich niedrigeren Preis als der Premium-Roboter.",
-          "es": "Fregar con agua caliente mientras aspira es una revelación para suelos duros con manchas frecuentes, a un precio muy inferior al del robot de gama alta.",
-          "it": "Il lavaggio con acqua calda insieme all'aspirazione è una rivelazione per i pavimenti duri con macchie frequenti, a un prezzo molto inferiore al robot di fascia alta.",
-          "nl": "Dweilen met heet water gecombineerd met zuigen is een openbaring voor harde vloeren met veel vlekken, tegen een veel lagere prijs dan de premium robot."
-        }
-      }
-    ]
-  },
-  "meilleur-aspirateur-laveur-2026": {
-    "question": {
-      "fr": "Quel est le meilleur aspirateur laveur en 2026 ?",
-      "en": "What is the best wet-dry vacuum in 2026?",
-      "de": "Welcher ist der beste Nass-Trocken-Sauger 2026?",
-      "es": "¿Cuál es la mejor aspiradora friegasuelos en 2026?",
-      "it": "Qual è il miglior aspirapolvere lavapavimenti nel 2026?",
-      "nl": "Wat is de beste zuig-dweilmachine in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Dreame H14",
-        "role": {
-          "fr": "Choix éditeur",
-          "en": "Editor's choice",
-          "de": "Empfehlung der Redaktion",
-          "es": "Elección del editor",
-          "it": "Scelta della redazione",
-          "nl": "Keuze van de redactie"
-        },
-        "why": {
-          "fr": "L'eau chaude à 70 °C, le nettoyage zéro-bord, l'inclinaison à 180 degrés et l'autonettoyage avancé en font le modèle le plus complet du marché.",
-          "en": "Hot water at 70 degrees, zero-edge cleaning, 180-degree flat tilt and advanced self-cleaning make it the most complete model on the market.",
-          "de": "Heißwasser mit 70 Grad, Randreinigung bis null Millimeter, 180-Grad-Neigung und erweiterte Selbstreinigung machen es zum vollständigsten Modell am Markt.",
-          "es": "Agua caliente a 70 grados, limpieza hasta el borde, inclinación de 180 grados y autolimpieza avanzada: el modelo más completo del mercado.",
-          "it": "L'acqua calda a 70 gradi, la pulizia a zero bordo, l'inclinazione a 180 gradi e l'autopulizia avanzata ne fanno il modello più completo del mercato.",
-          "nl": "Heet water van 70 graden, randreiniging tot nul millimeter, 180 graden kantelen en geavanceerde zelfreiniging maken het tot het meest complete model."
-        }
-      },
-      {
-        "model": "Tineco Floor One S7 Pro",
-        "role": {
-          "fr": "Meilleur rapport qualité-prix",
-          "en": "Best value",
-          "de": "Bestes Preis-Leistungs-Verhältnis",
-          "es": "Mejor relación calidad-precio",
-          "it": "Miglior rapporto qualità-prezzo",
-          "nl": "Beste prijs-kwaliteitverhouding"
-        },
-        "why": {
-          "fr": "Offre l'essentiel des performances du Dreame H14 pour un prix moindre, avec détection de saleté par IA, si l'eau chaude n'est pas une priorité.",
-          "en": "Delivers most of the Dreame H14's performance for less, with AI dirt detection, as long as hot water is not a priority for you.",
-          "de": "Bietet einen Großteil der Leistung des Dreame H14 zu einem niedrigeren Preis, mit KI-Schmutzerkennung, solange Heißwasser keine Priorität hat.",
-          "es": "Ofrece buena parte del rendimiento del Dreame H14 por menos dinero, con detección de suciedad por IA, si el agua caliente no es una prioridad.",
-          "it": "Offre gran parte delle prestazioni del Dreame H14 a un prezzo inferiore, con rilevamento dello sporco tramite IA, se l'acqua calda non è una priorità.",
-          "nl": "Levert een groot deel van de prestaties van de Dreame H14 voor minder geld, met AI-vuildetectie, als heet water voor jou geen prioriteit is."
-        }
-      },
-      {
-        "model": "Roborock Flexi Pro",
-        "role": {
-          "fr": "Le plus compact et maniable",
-          "en": "Most compact and maneuverable",
-          "de": "Am handlichsten",
-          "es": "El más compacto y manejable",
-          "it": "Il più compatto e maneggevole",
-          "nl": "Meest compact en wendbaar"
-        },
-        "why": {
-          "fr": "Le plus léger du comparatif, idéal pour les appartements de 60 à 90 m² et pour ceux qui privilégient la maniabilité et la légèreté.",
-          "en": "The lightest in the comparison, ideal for apartments of 60 to 90 square meters and for anyone who values maneuverability and low weight.",
-          "de": "Das leichteste Modell im Vergleich, ideal für Wohnungen von 60 bis 90 Quadratmetern und alle, die Handlichkeit und geringes Gewicht schätzen.",
-          "es": "El más ligero de la comparativa, ideal para pisos de 60 a 90 metros cuadrados y para quienes priorizan la maniobrabilidad y la ligereza.",
-          "it": "Il più leggero del confronto, ideale per appartamenti da 60 a 90 metri quadrati e per chi privilegia maneggevolezza e leggerezza.",
-          "nl": "De lichtste uit de vergelijking, ideaal voor appartementen van 60 tot 90 vierkante meter en voor wie wendbaarheid en laag gewicht belangrijk vindt."
-        }
-      },
-      {
-        "model": "Bissell CrossWave HF3",
-        "role": {
-          "fr": "Petit budget",
-          "en": "Best budget pick",
-          "de": "Für kleines Budget",
-          "es": "Para presupuesto ajustado",
-          "it": "Per budget ridotto",
-          "nl": "Voor een klein budget"
-        },
-        "why": {
-          "fr": "Le choix petit budget fiable pour les petites surfaces, avec une aspiration plus faible et un poids plus élevé que les autres modèles.",
-          "en": "The reliable low-budget choice for small spaces, with weaker suction and a heavier body than the other models.",
-          "de": "Die zuverlässige Budget-Wahl für kleine Flächen, mit schwächerer Saugkraft und höherem Gewicht als die anderen Modelle.",
-          "es": "La opción fiable de presupuesto reducido para superficies pequeñas, con menos succión y más peso que los otros modelos.",
-          "it": "La scelta affidabile a basso budget per superfici ridotte, con aspirazione più debole e peso maggiore rispetto agli altri modelli.",
-          "nl": "De betrouwbare budgetkeuze voor kleine oppervlakken, met zwakkere zuigkracht en een hoger gewicht dan de andere modellen."
-        }
-      }
-    ]
-  },
-  "serrure-connectee-guide": {
-    "question": {
-      "fr": "Quelle est la meilleure serrure connectée en 2026 ?",
-      "en": "What is the best smart lock in 2026?",
-      "de": "Welches ist das beste smarte Türschloss 2026?",
-      "es": "¿Cuál es la mejor cerradura inteligente en 2026?",
-      "it": "Qual è la migliore serratura smart nel 2026?",
-      "nl": "Wat is het beste slimme slot in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Nuki Smart Lock 4.0",
-        "role": {
-          "fr": "Choix éditeur",
-          "en": "Editor's choice",
-          "de": "Empfehlung der Redaktion",
-          "es": "Elección del editor",
-          "it": "Scelta della redazione",
-          "nl": "Keuze van de redactie"
-        },
-        "why": {
-          "fr": "Matter, Thread et Wi-Fi, installation en trois minutes sans perçage, clé physique conservée, gestion d'accès complète et double certification de sécurité.",
-          "en": "Matter, Thread and Wi-Fi, three-minute installation without drilling, physical key kept, complete access management and dual security certification.",
-          "de": "Matter, Thread und WLAN, Installation in drei Minuten ohne Bohren, mechanischer Schlüssel bleibt nutzbar, umfassende Zugangsverwaltung und doppelte Sicherheitszertifizierung.",
-          "es": "Matter, Thread y Wi-Fi, instalación en tres minutos sin taladrar, conserva la llave física, gestión de accesos completa y doble certificación de seguridad.",
-          "it": "Matter, Thread e Wi-Fi, installazione in tre minuti senza forare, chiave fisica conservata, gestione completa degli accessi e doppia certificazione di sicurezza.",
-          "nl": "Matter, Thread en wifi, installatie in drie minuten zonder boren, fysieke sleutel blijft bruikbaar, uitgebreid toegangsbeheer en dubbele veiligheidscertificering."
-        }
-      },
-      {
-        "model": "Yale Linus L2",
-        "role": {
-          "fr": "Haut de gamme",
-          "en": "Premium pick",
-          "de": "Premium-Wahl",
-          "es": "Gama alta",
-          "it": "Fascia alta",
-          "nl": "Premiumkeuze"
-        },
-        "why": {
-          "fr": "Alternative premium pour qui valorise la marque, le design et l'écosystème Yale, avec DoorSense intégré, mais plus chère que le Nuki pour des fonctions équivalentes.",
-          "en": "A premium alternative for those who value the brand, design and Yale ecosystem, with built-in DoorSense, but pricier than the Nuki for equivalent features.",
-          "de": "Premium-Alternative für alle, die Marke, Design und das Yale-Ökosystem schätzen, mit integriertem DoorSense, aber teurer als das Nuki bei vergleichbaren Funktionen.",
-          "es": "Alternativa premium para quien valora la marca, el diseño y el ecosistema Yale, con DoorSense integrado, pero más cara que la Nuki con funciones equivalentes.",
-          "it": "Alternativa premium per chi apprezza il marchio, il design e l'ecosistema Yale, con DoorSense integrato, ma più costosa della Nuki a parità di funzioni.",
-          "nl": "Premium alternatief voor wie merk, design en het Yale-ecosysteem waardeert, met ingebouwde DoorSense, maar duurder dan de Nuki bij vergelijkbare functies."
-        }
-      },
-      {
-        "model": "Tedee GO",
-        "role": {
-          "fr": "Le plus discret",
-          "en": "Most discreet",
-          "de": "Am unauffälligsten",
-          "es": "La más discreta",
-          "it": "La più discreta",
-          "nl": "Meest discrete"
-        },
-        "why": {
-          "fr": "La plus compacte et silencieuse, parfaite en appartement pour une serrure presque invisible ; l'accès à distance et l'auto-unlock demandent un bridge.",
-          "en": "The most compact and quiet, perfect in an apartment for an almost invisible lock; remote access and auto-unlock require a bridge.",
-          "de": "Das kompakteste und leiseste Modell, perfekt in der Wohnung für ein nahezu unsichtbares Schloss; Fernzugriff und Auto-Unlock erfordern eine Bridge.",
-          "es": "La más compacta y silenciosa, perfecta en un piso para una cerradura casi invisible; el acceso remoto y el auto-unlock requieren un bridge.",
-          "it": "La più compatta e silenziosa, perfetta in appartamento per una serratura quasi invisibile; accesso remoto e auto-unlock richiedono un bridge.",
-          "nl": "Het meest compact en stil, perfect in een appartement voor een bijna onzichtbaar slot; toegang op afstand en auto-unlock vragen om een bridge."
-        }
-      },
-      {
-        "model": "SwitchBot Lock Pro",
-        "role": {
-          "fr": "Petit budget",
-          "en": "Best budget pick",
-          "de": "Für kleines Budget",
-          "es": "Para presupuesto ajustado",
-          "it": "Per budget ridotto",
-          "nl": "Voor een klein budget"
-        },
-        "why": {
-          "fr": "Excellent point d'entrée à petit prix pour découvrir les serrures connectées, mais sans Matter, sans HomeKit et sans certification de sécurité.",
-          "en": "An excellent low-cost entry point to smart locks, but without Matter, without HomeKit and without security certifications.",
-          "de": "Ein günstiger Einstieg in smarte Türschlösser, aber ohne Matter, ohne HomeKit und ohne Sicherheitszertifizierungen.",
-          "es": "Un excelente punto de entrada económico a las cerraduras inteligentes, pero sin Matter, sin HomeKit y sin certificaciones de seguridad.",
-          "it": "Un ottimo punto di ingresso economico alle serrature smart, ma senza Matter, senza HomeKit e senza certificazioni di sicurezza.",
-          "nl": "Een uitstekend goedkoop instapmodel voor slimme sloten, maar zonder Matter, zonder HomeKit en zonder veiligheidscertificeringen."
-        }
-      }
-    ]
-  },
-  "alarme-maison-sans-abonnement": {
-    "question": {
-      "fr": "Quelle est la meilleure alarme maison sans abonnement en 2026 ?",
-      "en": "What is the best home alarm with no subscription in 2026?",
-      "de": "Welche ist die beste Hausalarmanlage ohne Abo 2026?",
-      "es": "¿Cuál es la mejor alarma para el hogar sin cuotas en 2026?",
-      "it": "Qual è il miglior allarme per la casa senza abbonamento nel 2026?",
-      "nl": "Wat is het beste huisalarm zonder abonnement in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Ajax StarterKit",
-        "role": {
-          "fr": "Choix éditeur",
-          "en": "Editor's choice",
-          "de": "Empfehlung der Redaktion",
-          "es": "Elección del editor",
-          "it": "Scelta della redazione",
-          "nl": "Keuze van de redactie"
-        },
-        "why": {
-          "fr": "Détection duale PIR et micro-ondes, portée de 2 km, sauvegarde cellulaire 4G gratuite et certification Grade 2 : le plus fiable pour maisons et dépendances.",
-          "en": "Dual PIR and microwave detection, 2 km range, free 4G cellular backup and Grade 2 certification: the most reliable for houses and outbuildings.",
-          "de": "Duale PIR- und Mikrowellenerkennung, 2 km Reichweite, kostenlose 4G-Mobilfunk-Reserve und Grade-2-Zertifizierung: am zuverlässigsten für Häuser und Nebengebäude.",
-          "es": "Detección dual PIR y microondas, 2 km de alcance, respaldo celular 4G gratuito y certificación Grado 2: el más fiable para casas y dependencias.",
-          "it": "Rilevamento duale PIR e microonde, portata di 2 km, backup cellulare 4G gratuito e certificazione Grado 2: il più affidabile per case e dipendenze.",
-          "nl": "Dubbele PIR- en microgolfdetectie, 2 km bereik, gratis 4G-mobiele back-up en Grade 2-certificering: het betrouwbaarst voor huizen en bijgebouwen."
-        }
-      },
-      {
-        "model": "Eufy HomeBase S380",
-        "role": {
-          "fr": "Meilleur rapport qualité-prix",
-          "en": "Best value",
-          "de": "Bestes Preis-Leistungs-Verhältnis",
-          "es": "Mejor relación calidad-precio",
-          "it": "Miglior rapporto qualità-prezzo",
-          "nl": "Beste prijs-kwaliteitverhouding"
-        },
-        "why": {
-          "fr": "Idéal pour appartements et petites maisons grâce au stockage local, à la compatibilité HomeKit et à l'absence de frais, mais sans sauvegarde cellulaire.",
-          "en": "Ideal for apartments and small homes thanks to local storage, HomeKit compatibility and zero fees, though it lacks cellular backup.",
-          "de": "Ideal für Wohnungen und kleine Häuser dank lokaler Speicherung, HomeKit-Kompatibilität und ohne Gebühren, allerdings ohne Mobilfunk-Reserve.",
-          "es": "Ideal para pisos y casas pequeñas gracias al almacenamiento local, la compatibilidad con HomeKit y la ausencia de cuotas, aunque sin respaldo celular.",
-          "it": "Ideale per appartamenti e piccole case grazie all'archiviazione locale, alla compatibilità HomeKit e all'assenza di costi, ma senza backup cellulare.",
-          "nl": "Ideaal voor appartementen en kleine huizen dankzij lokale opslag, HomeKit-compatibiliteit en geen kosten, maar zonder mobiele back-up."
-        }
-      },
-      {
-        "model": "Somfy Home Alarm Advanced",
-        "role": {
-          "fr": "Meilleur avec des animaux",
-          "en": "Best with pets",
-          "de": "Beste mit Haustieren",
-          "es": "Mejor con mascotas",
-          "it": "Migliore con animali domestici",
-          "nl": "Beste met huisdieren"
-        },
-        "why": {
-          "fr": "Les capteurs IntelliTAG détectent les vibrations d'effraction et ignorent les animaux jusqu'à 25 kg, dans un système complet avec caméra, sirène et sauvegarde cellulaire.",
-          "en": "IntelliTAG sensors detect break-in vibrations and ignore pets up to 25 kg, in a complete system with camera, siren and cellular backup.",
-          "de": "IntelliTAG-Sensoren erkennen Einbruchsvibrationen und ignorieren Tiere bis 25 kg, in einem kompletten System mit Kamera, Sirene und Mobilfunk-Reserve.",
-          "es": "Los sensores IntelliTAG detectan las vibraciones de intrusión e ignoran mascotas de hasta 25 kg, en un sistema completo con cámara, sirena y respaldo celular.",
-          "it": "I sensori IntelliTAG rilevano le vibrazioni da effrazione e ignorano gli animali fino a 25 kg, in un sistema completo con telecamera, sirena e backup cellulare.",
-          "nl": "IntelliTAG-sensoren detecteren inbraaktrillingen en negeren huisdieren tot 25 kg, in een compleet systeem met camera, sirene en mobiele back-up."
-        }
-      },
-      {
-        "model": "Ring Alarm 2nd Gen",
-        "role": {
-          "fr": "Pour l'écosystème Amazon",
-          "en": "For Amazon households",
-          "de": "Für Amazon-Haushalte",
-          "es": "Para el ecosistema Amazon",
-          "it": "Per l'ecosistema Amazon",
-          "nl": "Voor het Amazon-ecosysteem"
-        },
-        "why": {
-          "fr": "Choix logique pour les foyers 100 % Alexa grâce à son intégration parfaite, mais sans sirène intégrée, avec des fausses alertes liées aux animaux.",
-          "en": "The logical choice for all-Alexa households thanks to its perfect integration, but with no built-in siren and false alerts caused by pets.",
-          "de": "Die logische Wahl für reine Alexa-Haushalte dank perfekter Integration, aber ohne integrierte Sirene und mit Fehlalarmen durch Haustiere.",
-          "es": "La opción lógica para hogares 100 % Alexa gracias a su integración perfecta, pero sin sirena integrada y con falsas alarmas por mascotas.",
-          "it": "La scelta logica per le case interamente Alexa grazie alla perfetta integrazione, ma senza sirena integrata e con falsi allarmi causati dagli animali.",
-          "nl": "De logische keuze voor huishoudens met alleen Alexa dankzij de perfecte integratie, maar zonder ingebouwde sirene en met valse alarmen door huisdieren."
-        }
-      }
-    ]
-  },
-  "balkonkraftwerk-panneau-solaire-balcon": {
-    "question": {
-      "fr": "Quel est le meilleur kit solaire de balcon en 2026 ?",
-      "en": "What is the best balcony solar kit in 2026?",
-      "de": "Welches ist das beste Balkonkraftwerk 2026?",
-      "es": "¿Cuál es el mejor kit solar de balcón en 2026?",
-      "it": "Qual è il miglior kit solare da balcone nel 2026?",
-      "nl": "Wat is de beste zonnepaneelset voor het balkon in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Priwatt priFlat Duo",
-        "role": {
-          "fr": "Meilleur rapport qualité-prix",
-          "en": "Best value",
-          "de": "Bestes Preis-Leistungs-Verhältnis",
-          "es": "Mejor relación calidad-precio",
-          "it": "Miglior rapporto qualità-prezzo",
-          "nl": "Beste prijs-kwaliteitverhouding"
-        },
-        "why": {
-          "fr": "Le kit le plus populaire de l'article : 820 Wc avec micro-onduleur Hoymiles fiable et support de balustrade inclus, idéal pour débuter sans se ruiner.",
-          "en": "The most popular kit in the article: 820 Wp with a reliable Hoymiles microinverter and a railing mount included, ideal to start without overspending.",
-          "de": "Das beliebteste Set im Artikel: 820 Wp mit zuverlässigem Hoymiles-Mikrowechselrichter und Geländerhalterung inklusive, ideal für den günstigen Einstieg.",
-          "es": "El kit más popular del artículo: 820 Wp con un microinversor Hoymiles fiable y soporte para barandilla incluido, ideal para empezar sin gastar de más.",
-          "it": "Il kit più popolare dell'articolo: 820 Wp con un affidabile microinverter Hoymiles e supporto per ringhiera incluso, ideale per iniziare senza spendere troppo.",
-          "nl": "De populairste set uit het artikel: 820 Wp met een betrouwbare Hoymiles-micro-omvormer en inbegrepen balustradesteun, ideaal om voordelig te beginnen."
-        }
-      },
-      {
-        "model": "Anker Solix RS50B",
-        "role": {
-          "fr": "Meilleur écosystème connecté",
-          "en": "Best connected ecosystem",
-          "de": "Bestes vernetztes Ökosystem",
-          "es": "Mejor ecosistema conectado",
-          "it": "Miglior ecosistema connesso",
-          "nl": "Beste verbonden ecosysteem"
-        },
-        "why": {
-          "fr": "Application complète, compatibilité avec la batterie Solarbank et rendement de 22,8 % : le choix des amateurs de technologie.",
-          "en": "A complete app, compatibility with the Solarbank battery and a 22.8 percent efficiency: the pick for tech enthusiasts.",
-          "de": "Umfassende App, Kompatibilität mit dem Solarbank-Speicher und 22,8 Prozent Wirkungsgrad: die Wahl für Technikbegeisterte.",
-          "es": "Aplicación completa, compatibilidad con la batería Solarbank y un rendimiento del 22,8 %: la elección de los aficionados a la tecnología.",
-          "it": "App completa, compatibilità con la batteria Solarbank e rendimento del 22,8 percento: la scelta degli appassionati di tecnologia.",
-          "nl": "Complete app, compatibiliteit met de Solarbank-accu en een rendement van 22,8 procent: de keuze voor techliefhebbers."
-        }
-      },
-      {
-        "model": "Anker Solix Solarbank 2 E1600 Pro",
-        "role": {
-          "fr": "Meilleure batterie de stockage",
-          "en": "Best storage battery",
-          "de": "Bester Stromspeicher",
-          "es": "Mejor batería de almacenamiento",
-          "it": "Miglior batteria di accumulo",
-          "nl": "Beste opslagaccu"
-        },
-        "why": {
-          "fr": "Batterie de 1,6 kWh avec application intégrée, compatible avec les kits Anker : le premier choix de l'article pour sa simplicité d'installation.",
-          "en": "A 1.6 kWh battery with an integrated app, compatible with Anker kits: the article's first choice for its simple installation.",
-          "de": "Ein 1,6-kWh-Speicher mit integrierter App, kompatibel mit Anker-Sets: die erste Wahl des Artikels wegen der einfachen Installation.",
-          "es": "Batería de 1,6 kWh con aplicación integrada, compatible con los kits Anker: la primera opción del artículo por su sencilla instalación.",
-          "it": "Batteria da 1,6 kWh con app integrata, compatibile con i kit Anker: la prima scelta dell'articolo per la semplicità di installazione.",
-          "nl": "Een accu van 1,6 kWh met geïntegreerde app, compatibel met Anker-sets: de eerste keuze van het artikel vanwege de eenvoudige installatie."
-        }
-      },
-      {
-        "model": "EcoFlow PowerStream 800W",
-        "role": {
-          "fr": "Stockage intégré",
-          "en": "Integrated storage",
-          "de": "Integrierter Speicher",
-          "es": "Almacenamiento integrado",
-          "it": "Accumulo integrato",
-          "nl": "Geïntegreerde opslag"
-        },
-        "why": {
-          "fr": "Offre la gestion la plus intelligente de la production, du stockage et de la consommation, pour les passionnés d'autoconsommation maximale.",
-          "en": "Offers the smartest management of production, storage and consumption, for enthusiasts of maximum self-consumption.",
-          "de": "Bietet das intelligenteste Management von Erzeugung, Speicherung und Verbrauch, für Fans maximaler Eigenverbrauchsquote.",
-          "es": "Ofrece la gestión más inteligente de producción, almacenamiento y consumo, para los entusiastas del máximo autoconsumo.",
-          "it": "Offre la gestione più intelligente di produzione, accumulo e consumo, per gli appassionati del massimo autoconsumo.",
-          "nl": "Biedt het slimste beheer van opwekking, opslag en verbruik, voor liefhebbers van maximaal eigen verbruik."
-        }
-      }
-    ]
-  },
-  "deshumidificateur-connecte-guide": {
-    "question": {
-      "fr": "Quel est le meilleur déshumidificateur connecté en 2026 ?",
-      "en": "What is the best smart dehumidifier in 2026?",
-      "de": "Welcher ist der beste smarte Luftentfeuchter 2026?",
-      "es": "¿Cuál es el mejor deshumidificador inteligente en 2026?",
-      "it": "Qual è il miglior deumidificatore smart nel 2026?",
-      "nl": "Wat is de beste slimme luchtontvochtiger in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Meaco Arete One 20L",
-        "role": {
-          "fr": "Meilleur choix global",
-          "en": "Best overall",
-          "de": "Beste Gesamtwahl",
-          "es": "Mejor opción global",
-          "it": "Miglior scelta complessiva",
-          "nl": "Beste algemene keuze"
-        },
-        "why": {
-          "fr": "Combine efficacité, silence à 37 dB, WiFi et faible consommation de 255 W : le plus silencieux et économe de sa catégorie.",
-          "en": "Combines efficiency, 37 dB quiet operation, WiFi and low 255 W consumption: the quietest and most economical in its category.",
-          "de": "Vereint Effizienz, leisen Betrieb mit 37 dB, WLAN und niedrigen Verbrauch von 255 W: der leiseste und sparsamste seiner Klasse.",
-          "es": "Combina eficacia, silencio de 37 dB, WiFi y un bajo consumo de 255 W: el más silencioso y económico de su categoría.",
-          "it": "Unisce efficacia, silenziosità a 37 dB, WiFi e un basso consumo di 255 W: il più silenzioso ed economico della sua categoria.",
-          "nl": "Combineert efficiëntie, stille werking van 37 dB, wifi en een laag verbruik van 255 W: de stilste en zuinigste in zijn categorie."
-        }
-      },
-      {
-        "model": "Comfee MDDN-10DEN7",
-        "role": {
-          "fr": "Meilleur rapport qualité-prix",
-          "en": "Best value",
-          "de": "Bestes Preis-Leistungs-Verhältnis",
-          "es": "Mejor relación calidad-precio",
-          "it": "Miglior rapporto qualità-prezzo",
-          "nl": "Beste prijs-kwaliteitverhouding"
-        },
-        "why": {
-          "fr": "Offre des performances solides et une application correcte pour environ 100 € de moins que le Meaco, avec une capacité de 16 litres.",
-          "en": "Offers solid performance and a decent app for about 100 euros less than the Meaco, with a 16-liter capacity.",
-          "de": "Bietet solide Leistung und eine brauchbare App für rund 100 Euro weniger als das Meaco, mit 16 Litern Kapazität.",
-          "es": "Ofrece un rendimiento sólido y una aplicación correcta por unos 100 euros menos que el Meaco, con una capacidad de 16 litros.",
-          "it": "Offre prestazioni solide e un'app discreta per circa 100 euro in meno rispetto al Meaco, con una capacità di 16 litri.",
-          "nl": "Biedt solide prestaties en een degelijke app voor ongeveer 100 euro minder dan de Meaco, met een capaciteit van 16 liter."
-        }
-      },
-      {
-        "model": "Midea Cube 20L Smart",
-        "role": {
-          "fr": "Meilleur design",
-          "en": "Best design",
-          "de": "Bestes Design",
-          "es": "Mejor diseño",
-          "it": "Miglior design",
-          "nl": "Beste design"
-        },
-        "why": {
-          "fr": "Se distingue par son format cube compact, son grand bac de 6 litres et son application complète.",
-          "en": "Stands out with its compact cube format, large 6-liter tank and full-featured app.",
-          "de": "Überzeugt mit seinem kompakten Würfeldesign, einem großen 6-Liter-Behälter und einer umfangreichen, vollständigen App.",
-          "es": "Destaca por su formato de cubo compacto, su gran depósito de 6 litros y su aplicación completa.",
-          "it": "Si distingue per il formato a cubo compatto, il grande serbatoio da 6 litri e l'app completa.",
-          "nl": "Valt op door het compacte kubusformaat, het grote reservoir van 6 liter en de uitgebreide app."
-        }
-      }
-    ]
-  },
-  "station-meteo-connectee-comparatif": {
-    "question": {
-      "fr": "Quelle est la meilleure station météo connectée en 2026 ?",
-      "en": "What is the best smart weather station in 2026?",
-      "de": "Welche ist die beste smarte Wetterstation 2026?",
-      "es": "¿Cuál es la mejor estación meteorológica conectada en 2026?",
-      "it": "Qual è la migliore stazione meteo connessa nel 2026?",
-      "nl": "Wat is het beste slimme weerstation in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Ecowitt HP2560",
-        "role": {
-          "fr": "Meilleur rapport qualité-prix",
-          "en": "Best value",
-          "de": "Bestes Preis-Leistungs-Verhältnis",
-          "es": "Mejor relación calidad-precio",
-          "it": "Miglior rapporto qualità-prezzo",
-          "nl": "Beste prijs-kwaliteitverhouding"
-        },
-        "why": {
-          "fr": "Tout est inclus (pluie, vent, UV), extensible jusqu'à 8 capteurs supplémentaires et intégrée en local à Home Assistant, pour un prix modéré.",
-          "en": "Everything is included (rain, wind, UV), expandable with up to 8 extra sensors and locally integrated with Home Assistant, at a moderate price.",
-          "de": "Alles inklusive (Regen, Wind, UV), mit bis zu 8 zusätzlichen Sensoren erweiterbar und lokal in Home Assistant integriert, zu einem moderaten Preis.",
-          "es": "Todo incluido (lluvia, viento, UV), ampliable con hasta 8 sensores adicionales e integrada en local con Home Assistant, a un precio moderado.",
-          "it": "Tutto incluso (pioggia, vento, UV), espandibile con fino a 8 sensori aggiuntivi e integrata in locale con Home Assistant, a un prezzo moderato.",
-          "nl": "Alles inbegrepen (regen, wind, UV), uitbreidbaar met maximaal 8 extra sensoren en lokaal geïntegreerd met Home Assistant, voor een gematigde prijs."
-        }
-      },
-      {
-        "model": "Netatmo Smart Weather Station",
-        "role": {
-          "fr": "Design et qualité de l'air",
-          "en": "Design and indoor air quality",
-          "de": "Design und Raumluftqualität",
-          "es": "Diseño y calidad del aire",
-          "it": "Design e qualità dell'aria",
-          "nl": "Design en luchtkwaliteit"
-        },
-        "why": {
-          "fr": "Capteur de CO2 unique, compatibilité HomeKit native et l'application la plus aboutie du marché, mais pluviomètre et anémomètre sont en option payante.",
-          "en": "A unique CO2 sensor, native HomeKit support and the best app on the market, but the rain gauge and anemometer are paid options.",
-          "de": "Einzigartiger CO2-Sensor, native HomeKit-Unterstützung und die beste App am Markt, aber Regenmesser und Windmesser sind kostenpflichtige Optionen.",
-          "es": "Sensor de CO2 único, compatibilidad nativa con HomeKit y la mejor aplicación del mercado, pero el pluviómetro y el anemómetro son opcionales de pago.",
-          "it": "Sensore di CO2 unico, compatibilità HomeKit nativa e la migliore app del mercato, ma pluviometro e anemometro sono opzioni a pagamento.",
-          "nl": "Unieke CO2-sensor, native HomeKit-ondersteuning en de beste app op de markt, maar regenmeter en windmeter zijn betaalde opties."
-        }
-      },
-      {
-        "model": "Davis Vantage Vue",
-        "role": {
-          "fr": "Précision professionnelle",
-          "en": "Professional precision",
-          "de": "Professionelle Präzision",
-          "es": "Precisión profesional",
-          "it": "Precisione professionale",
-          "nl": "Professionele precisie"
-        },
-        "why": {
-          "fr": "Référence professionnelle avec une précision de ±0,3 °C, une robustesse IP65 et une portée radio de 300 m, pour fermes et passionnés exigeants.",
-          "en": "A professional reference with ±0.3 °C accuracy, IP65 robustness and a 300 m radio range, for farms and demanding enthusiasts.",
-          "de": "Eine professionelle Referenz mit ±0,3 °C Genauigkeit, IP65-Robustheit und 300 m Funkreichweite, für Bauernhöfe und anspruchsvolle Enthusiasten.",
-          "es": "Referencia profesional con una precisión de ±0,3 °C, robustez IP65 y 300 m de alcance de radio, para granjas y aficionados exigentes.",
-          "it": "Riferimento professionale con precisione di ±0,3 °C, robustezza IP65 e portata radio di 300 m, per fattorie e appassionati esigenti.",
-          "nl": "Professionele referentie met ±0,3 °C nauwkeurigheid, IP65-robuustheid en 300 m radiobereik, voor boerderijen en veeleisende liefhebbers."
-        }
-      },
-      {
-        "model": "Bresser 7-in-1 WiFi",
-        "role": {
-          "fr": "Petit budget",
-          "en": "Best budget pick",
-          "de": "Für kleines Budget",
-          "es": "Para presupuesto ajustado",
-          "it": "Per budget ridotto",
-          "nl": "Voor een klein budget"
-        },
-        "why": {
-          "fr": "Le kit complet le moins cher avec pluie et vent, mais avec une intégration domotique plus limitée que Netatmo ou Ecowitt.",
-          "en": "The cheapest complete kit with rain and wind sensing, though with more limited smart home integration than Netatmo or Ecowitt.",
-          "de": "Das günstigste Komplettset mit Regen- und Windmessung, allerdings mit eingeschränkterer Smart-Home-Integration als Netatmo oder Ecowitt.",
-          "es": "El kit completo más barato con lluvia y viento, aunque con una integración domótica más limitada que Netatmo o Ecowitt.",
-          "it": "Il kit completo più economico con pioggia e vento, anche se con un'integrazione domotica più limitata rispetto a Netatmo o Ecowitt.",
-          "nl": "De goedkoopste complete set met regen en wind, al is de domoticaintegratie beperkter dan bij Netatmo of Ecowitt."
-        }
-      }
-    ]
-  },
-  "eclairage-exterieur-solaire-connecte": {
-    "question": {
-      "fr": "Quel est le meilleur éclairage extérieur solaire connecté en 2026 ?",
-      "en": "What is the best smart solar outdoor lighting in 2026?",
-      "de": "Welche ist die beste smarte Solar-Außenbeleuchtung 2026?",
-      "es": "¿Cuál es la mejor iluminación exterior solar inteligente en 2026?",
-      "it": "Qual è la migliore illuminazione esterna solare smart nel 2026?",
-      "nl": "Wat is de beste slimme zonne-energieverlichting voor buiten in 2026?"
-    },
-    "picks": [
-      {
-        "model": "LITOM 120 LED Solaire",
-        "role": {
-          "fr": "Sécurité solaire sans câblage",
-          "en": "Solar security, no wiring",
-          "de": "Solar-Sicherheit ohne Verkabelung",
-          "es": "Seguridad solar sin cableado",
-          "it": "Sicurezza solare senza cavi",
-          "nl": "Zonnebeveiliging zonder bedrading"
-        },
-        "why": {
-          "fr": "Projecteur solaire à détecteur de mouvement 270°, d'environ 1 000 lumens et IP67, au prix imbattable pour dissuader les intrus sans aucun câblage.",
-          "en": "A solar floodlight with 270-degree motion detection, about 1,000 lumens and IP67, at an unbeatable price to deter intruders with no wiring.",
-          "de": "Ein Solarstrahler mit 270-Grad-Bewegungsmelder, rund 1.000 Lumen und IP67, zu unschlagbarem Preis, um Eindringlinge ganz ohne Verkabelung abzuschrecken.",
-          "es": "Foco solar con detector de movimiento de 270 grados, unos 1.000 lúmenes e IP67, a un precio imbatible para disuadir intrusos sin ningún cableado.",
-          "it": "Faro solare con rilevatore di movimento a 270 gradi, circa 1.000 lumen e IP67, a un prezzo imbattibile per scoraggiare i ladri senza alcun cablaggio.",
-          "nl": "Een zonneschijnwerper met 270 graden bewegingsdetectie, circa 1.000 lumen en IP67, tegen een ongeëvenaarde prijs om indringers zonder bedrading af te schrikken."
-        }
-      },
-      {
-        "model": "Ring Solar Floodlight",
-        "role": {
-          "fr": "Sécurité connectée",
-          "en": "Connected security",
-          "de": "Vernetzte Sicherheit",
-          "es": "Seguridad conectada",
-          "it": "Sicurezza connessa",
-          "nl": "Verbonden beveiliging"
-        },
-        "why": {
-          "fr": "Projecteur solaire connecté en WiFi avec notifications et compatibilité Alexa, pour associer éclairage de sécurité et alertes sur smartphone.",
-          "en": "A WiFi-connected solar floodlight with notifications and Alexa support, combining security lighting with smartphone alerts.",
-          "de": "Ein WLAN-fähiger Solarstrahler mit Benachrichtigungen und Alexa-Unterstützung, der Sicherheitsbeleuchtung mit Smartphone-Warnungen verbindet.",
-          "es": "Foco solar conectado por WiFi con notificaciones y compatibilidad con Alexa, que une iluminación de seguridad y alertas en el móvil.",
-          "it": "Faro solare connesso via WiFi con notifiche e compatibilità Alexa, che unisce illuminazione di sicurezza e avvisi sullo smartphone.",
-          "nl": "Een zonneschijnwerper met wifi, meldingen en Alexa-ondersteuning die beveiligingsverlichting combineert met waarschuwingen op je smartphone."
-        }
-      },
-      {
-        "model": "Govee RGBIC Outdoor Strip 10m",
-        "role": {
-          "fr": "Ambiance festive petit prix",
-          "en": "Festive ambience on a budget",
-          "de": "Festliche Stimmung günstig",
-          "es": "Ambiente festivo económico",
-          "it": "Atmosfera festosa low cost",
-          "nl": "Feestsfeer voor weinig geld"
-        },
-        "why": {
-          "fr": "Bandeau LED extérieur de 10 m aux effets spectaculaires, piloté par application et classé IP65, pour animer terrasses et pergolas à prix modéré.",
-          "en": "A 10 m outdoor LED strip with spectacular effects, app control and an IP65 rating, to liven up terraces and pergolas at a moderate price.",
-          "de": "Ein 10 m langer Outdoor-LED-Streifen mit spektakulären Effekten, App-Steuerung und IP65, der Terrassen und Pergolen zu moderatem Preis in Szene setzt.",
-          "es": "Tira LED exterior de 10 m con efectos espectaculares, control por app y clasificación IP65, para animar terrazas y pérgolas a un precio moderado.",
-          "it": "Striscia LED da esterno da 10 m con effetti spettacolari, controllo da app e grado IP65, per animare terrazze e pergolati a un prezzo contenuto.",
-          "nl": "Een ledstrip van 10 m voor buiten met spectaculaire effecten, appbediening en IP65, om terrassen en pergola's voor een gematigde prijs op te fleuren."
-        }
-      }
-    ]
-  },
-  "balance-cuisine-connectee-comparatif": {
-    "question": {
-      "fr": "Quelle est la meilleure balance de cuisine connectée en 2026 ?",
-      "en": "What is the best smart kitchen scale in 2026?",
-      "de": "Welche ist die beste smarte Küchenwaage 2026?",
-      "es": "¿Cuál es la mejor báscula de cocina inteligente en 2026?",
-      "it": "Qual è la migliore bilancia da cucina smart nel 2026?",
-      "nl": "Wat is de beste slimme keukenweegschaal in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Etekcity Smart Nutrition Scale ESN00",
-        "role": {
-          "fr": "Meilleur rapport qualité-prix",
-          "en": "Best value and nutrition tracking",
-          "de": "Bestes Preis-Leistungs-Verhältnis",
-          "es": "Mejor relación calidad-precio",
-          "it": "Miglior rapporto qualità-prezzo",
-          "nl": "Beste prijs-kwaliteitverhouding"
-        },
-        "why": {
-          "fr": "Précision de 0,1 g, base de 900 000 aliments, scan de code-barres et mode repas : l'outil idéal pour compter les calories et suivre ses macros.",
-          "en": "0.1 g precision, a database of 900,000 foods, barcode scanning and a meal mode: the ideal tool for counting calories and tracking macros.",
-          "de": "0,1 g Genauigkeit, eine Datenbank mit 900.000 Lebensmitteln, Barcode-Scan und Mahlzeitenmodus: das ideale Werkzeug zum Kalorienzählen und Makro-Tracking.",
-          "es": "Precisión de 0,1 g, base de datos de 900.000 alimentos, escaneo de códigos de barras y modo comida: la herramienta ideal para contar calorías y seguir macros.",
-          "it": "Precisione di 0,1 g, database di 900.000 alimenti, scansione del codice a barre e modalità pasto: lo strumento ideale per contare le calorie e seguire i macro.",
-          "nl": "Nauwkeurigheid van 0,1 g, een database van 900.000 voedingsmiddelen, barcodescan en maaltijdmodus: het ideale hulpmiddel om calorieën en macro's te volgen."
-        }
-      },
-      {
-        "model": "Renpho ES-CS20M Balance Cuisine Connectée",
-        "role": {
-          "fr": "Rechargeable abordable",
-          "en": "Affordable rechargeable",
-          "de": "Günstig und wiederaufladbar",
-          "es": "Recargable y asequible",
-          "it": "Ricaricabile economica",
-          "nl": "Betaalbaar en oplaadbaar"
-        },
-        "why": {
-          "fr": "Balance rechargeable à petit prix avec mode café, évidente si vous êtes déjà dans l'écosystème Renpho pour centraliser vos données de santé.",
-          "en": "A low-cost rechargeable scale with a coffee mode, an obvious pick if you already use the Renpho ecosystem to centralize your health data.",
-          "de": "Eine günstige, wiederaufladbare Waage mit Kaffeemodus, naheliegend, wenn du bereits das Renpho-Ökosystem nutzt, um deine Gesundheitsdaten zu bündeln.",
-          "es": "Báscula recargable de bajo coste con modo café, una elección evidente si ya usas el ecosistema Renpho para centralizar tus datos de salud.",
-          "it": "Bilancia ricaricabile a basso costo con modalità caffè, scelta ovvia se usi già l'ecosistema Renpho per centralizzare i tuoi dati sulla salute.",
-          "nl": "Een goedkope oplaadbare weegschaal met koffiemodus, een logische keuze als je al het Renpho-ecosysteem gebruikt om je gezondheidsgegevens te bundelen."
-        }
-      }
-    ]
-  },
-  "meilleur-airfryer-xxl-grande-famille": {
-    "question": {
-      "fr": "Quel est le meilleur airfryer XXL pour une grande famille en 2026 ?",
-      "en": "What is the best XXL air fryer for a large family in 2026?",
-      "de": "Welche ist die beste XXL-Heißluftfritteuse für große Familien 2026?",
-      "es": "¿Cuál es la mejor freidora de aire XXL para una familia numerosa en 2026?",
-      "it": "Qual è la migliore friggitrice ad aria XXL per una famiglia numerosa nel 2026?",
-      "nl": "Wat is de beste XXL-airfryer voor een groot gezin in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Ninja Foodi FlexDrawer 10.4L Double Zone",
-        "role": {
-          "fr": "Meilleur choix global",
-          "en": "Best overall",
-          "de": "Beste Gesamtwahl",
-          "es": "Mejor opción global",
-          "it": "Miglior scelta complessiva",
-          "nl": "Beste algemene keuze"
-        },
-        "why": {
-          "fr": "Numéro 1 de l'article : seul modèle dont le mode FlexZone offre assez de capacité pour une famille de 6 personnes ou plus en une seule fournée.",
-          "en": "The article's number one: the only model whose FlexZone mode offers enough capacity for a family of six or more in a single batch.",
-          "de": "Platz eins im Artikel: das einzige Modell, dessen FlexZone-Modus genug Kapazität für eine Familie ab sechs Personen in einem Durchgang bietet.",
-          "es": "El número uno del artículo: el único modelo cuyo modo FlexZone ofrece capacidad suficiente para una familia de seis o más en una sola tanda.",
-          "it": "Il numero uno dell'articolo: l'unico modello la cui modalità FlexZone offre capacità sufficiente per una famiglia da sei persone o più in un'unica infornata.",
-          "nl": "Nummer één van het artikel: het enige model waarvan de FlexZone-modus genoeg capaciteit biedt voor een gezin van zes of meer in één keer."
-        }
-      },
-      {
-        "model": "Philips Airfryer Combi XXL Connecté - 8.3L",
-        "role": {
-          "fr": "Meilleure qualité de cuisson",
-          "en": "Best cooking quality",
-          "de": "Beste Garqualität",
-          "es": "Mejor calidad de cocción",
-          "it": "Migliore qualità di cottura",
-          "nl": "Beste kookkwaliteit"
-        },
-        "why": {
-          "fr": "Offre la meilleure qualité de cuisson du comparatif grâce à la fonction Combi, avec WiFi et application HomeID, mais à un prix nettement plus élevé.",
-          "en": "Delivers the best cooking quality in the comparison thanks to the Combi function, with WiFi and the HomeID app, but at a clearly higher price.",
-          "de": "Bietet dank der Combi-Funktion die beste Garqualität im Vergleich, mit WLAN und HomeID-App, aber zu einem deutlich höheren Preis.",
-          "es": "Ofrece la mejor calidad de cocción de la comparativa gracias a la función Combi, con WiFi y la app HomeID, pero a un precio claramente más alto.",
-          "it": "Offre la migliore qualità di cottura del confronto grazie alla funzione Combi, con WiFi e app HomeID, ma a un prezzo nettamente più alto.",
-          "nl": "Levert dankzij de Combi-functie de beste kookkwaliteit van de vergelijking, met wifi en de HomeID-app, maar tegen een duidelijk hogere prijs."
-        }
-      }
-    ]
-  },
-  "ninja-vs-philips-quel-choisir": {
-    "question": {
-      "fr": "Ninja ou Philips : quel airfryer choisir en 2026 ?",
-      "en": "Ninja or Philips: which air fryer should you choose in 2026?",
-      "de": "Ninja oder Philips: Welche Heißluftfritteuse sollte man 2026 wählen?",
-      "es": "Ninja o Philips: ¿qué freidora de aire elegir en 2026?",
-      "it": "Ninja o Philips: quale friggitrice ad aria scegliere nel 2026?",
-      "nl": "Ninja of Philips: welke airfryer kies je in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Ninja Foodi FlexDrawer 10.4L Double Zone",
-        "role": {
-          "fr": "Coup de cœur",
-          "en": "Editor's pick",
-          "de": "Redaktionsempfehlung",
-          "es": "Nuestra favorita",
-          "it": "Scelta della redazione",
-          "nl": "Redactiekeuze"
-        },
-        "why": {
-          "fr": "Son concept de panier fusionnable offre la plus grande capacité du marché, avec deux zones indépendantes ou un seul grand espace de cuisson.",
-          "en": "Its merge-able basket concept offers the largest capacity on the market, with either two independent zones or one single large cooking space.",
-          "de": "Das verschmelzbare Korbkonzept bietet das größte Fassungsvermögen am Markt, entweder als zwei unabhängige Zonen oder als ein einziger großer Garraum.",
-          "es": "Su concepto de cestas fusionables ofrece la mayor capacidad del mercado, con dos zonas independientes o un único espacio de cocción grande.",
-          "it": "Il suo concetto di cestelli unificabili offre la maggiore capacità sul mercato, con due zone indipendenti oppure un unico grande spazio di cottura.",
-          "nl": "Het samenvoegbare mandconcept biedt de grootste capaciteit van de markt, met twee onafhankelijke zones of één grote kookruimte."
-        }
-      },
-      {
-        "model": "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
-        "role": {
-          "fr": "Idéal pour les familles de 3 à 5 personnes",
-          "en": "Best for families of 3 to 5",
-          "de": "Ideal für Familien mit 3 bis 5 Personen",
-          "es": "Ideal para familias de 3 a 5 personas",
-          "it": "Ideale per famiglie di 3-5 persone",
-          "nl": "Ideaal voor gezinnen van 3 tot 5 personen"
-        },
-        "why": {
-          "fr": "Son double panier Dual Zone permet de cuire deux plats en même temps, ce qui change la vie au quotidien d'une famille de trois à cinq personnes.",
-          "en": "Its Dual Zone double basket cooks two dishes at the same time, which makes daily life easier for a family of three to five people.",
-          "de": "Der Dual-Zone-Doppelkorb gart zwei Gerichte gleichzeitig und erleichtert damit den Alltag einer Familie mit drei bis fünf Personen deutlich.",
-          "es": "Su doble cesta Dual Zone cocina dos platos a la vez, lo que cambia el día a día de una familia de tres a cinco personas.",
-          "it": "Il doppio cestello Dual Zone cuoce due piatti contemporaneamente, cambiando la vita quotidiana di una famiglia di tre-cinque persone.",
-          "nl": "De Dual Zone-dubbele mand bereidt twee gerechten tegelijk, wat het dagelijks leven van een gezin van drie tot vijf personen verandert."
-        }
-      },
-      {
-        "model": "Philips Airfryer Combi XXL Connecté - 8.3L",
-        "role": {
-          "fr": "Pour les passionnés de technologie",
-          "en": "Best for tech enthusiasts",
-          "de": "Für Technikbegeisterte",
-          "es": "Para los amantes de la tecnología",
-          "it": "Per gli appassionati di tecnologia",
-          "nl": "Voor techliefhebbers"
-        },
-        "why": {
-          "fr": "Sa combinaison unique d'air chaud et de micro-ondes et son application HomeID séduisent les amateurs de technologie, mais il coûte plus cher que le Ninja FlexDrawer.",
-          "en": "Its unique hot air plus microwave combination and HomeID app appeal to tech lovers, though it costs more than the Ninja FlexDrawer.",
-          "de": "Die einzigartige Kombination aus Heißluft und Mikrowelle sowie die HomeID-App überzeugen Technikfans, kosten aber mehr als beim Ninja FlexDrawer.",
-          "es": "Su combinación única de aire caliente y microondas y su app HomeID atraen a los amantes de la tecnología, aunque cuesta más que el Ninja FlexDrawer.",
-          "it": "La combinazione unica di aria calda e microonde e l'app HomeID conquistano gli appassionati di tecnologia, ma costa più del Ninja FlexDrawer.",
-          "nl": "De unieke combinatie van hete lucht en magnetron en de HomeID-app spreken techliefhebbers aan, maar hij is duurder dan de Ninja FlexDrawer."
-        }
-      }
-    ]
-  },
-  "comparatif-airfryer-connecte-2026": {
-    "question": {
-      "fr": "Quel est le meilleur airfryer connecté WiFi en 2026 ?",
-      "en": "What is the best connected WiFi air fryer in 2026?",
-      "de": "Was ist die beste vernetzte WLAN-Heißluftfritteuse 2026?",
-      "es": "¿Cuál es la mejor freidora de aire conectada WiFi en 2026?",
-      "it": "Qual è la migliore friggitrice ad aria connessa WiFi nel 2026?",
-      "nl": "Wat is de beste slimme wifi-airfryer in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Philips Airfryer Combi XXL Connecté - 8.3L",
-        "role": {
-          "fr": "Meilleur choix global",
-          "en": "Best overall",
-          "de": "Beste Gesamtwahl",
-          "es": "Mejor opción global",
-          "it": "Miglior scelta complessiva",
-          "nl": "Beste algemene keuze"
-        },
-        "why": {
-          "fr": "Son application HomeID est la meilleure du marché, avec plus de 500 recettes guidées, une connexion stable et la fonction Combi unique d'air chaud et micro-ondes.",
-          "en": "Its HomeID app is the best on the market, with over 500 guided recipes, a stable connection and the unique Combi function of hot air plus microwave.",
-          "de": "Die HomeID-App ist die beste am Markt, mit über 500 geführten Rezepten, stabiler Verbindung und der einzigartigen Combi-Funktion aus Heißluft und Mikrowelle.",
-          "es": "Su app HomeID es la mejor del mercado, con más de 500 recetas guiadas, conexión estable y la función Combi única de aire caliente y microondas.",
-          "it": "La sua app HomeID è la migliore sul mercato, con oltre 500 ricette guidate, connessione stabile e l'esclusiva funzione Combi di aria calda e microonde.",
-          "nl": "De HomeID-app is de beste van de markt, met meer dan 500 begeleide recepten, een stabiele verbinding en de unieke Combi-functie van hete lucht en magnetron."
-        }
-      },
-      {
-        "model": "Ninja Foodi FlexDrawer 10.4L Double Zone",
-        "role": {
-          "fr": "Meilleur choix pour les familles",
-          "en": "Best for families",
-          "de": "Beste Wahl für Familien",
-          "es": "Mejor opción para familias",
-          "it": "Migliore per le famiglie",
-          "nl": "Beste keuze voor gezinnen"
-        },
-        "why": {
-          "fr": "Il associe double panier fusionnable et WiFi, avec gestion indépendante des deux zones depuis l'application, la combinaison idéale de capacité et de connectivité pour les repas familiaux.",
-          "en": "It pairs a merge-able double basket with WiFi and independent control of both zones from the app, an ideal mix of capacity and connectivity for family meals.",
-          "de": "Er verbindet verschmelzbare Doppelkörbe mit WLAN und steuert beide Zonen unabhängig per App, eine ideale Mischung aus Kapazität und Vernetzung für Familienmahlzeiten.",
-          "es": "Combina cesta doble fusionable con WiFi y control independiente de las dos zonas desde la app, una mezcla ideal de capacidad y conectividad para comidas familiares.",
-          "it": "Unisce doppio cestello unificabile e WiFi, con gestione indipendente delle due zone dall'app: un mix ideale di capacità e connettività per i pasti in famiglia.",
-          "nl": "Hij combineert een samenvoegbare dubbele mand met wifi en onafhankelijke bediening van beide zones via de app, ideaal qua capaciteit en connectiviteit voor gezinsmaaltijden."
-        }
-      }
-    ]
-  },
-  "test-ninja-foodi-flexdrawer": {
-    "question": {
-      "fr": "Quel est le meilleur airfryer pour une grande famille en 2026 ?",
-      "en": "What is the best air fryer for a large family in 2026?",
-      "de": "Was ist die beste Heißluftfritteuse für eine große Familie 2026?",
-      "es": "¿Cuál es la mejor freidora de aire para una familia numerosa en 2026?",
-      "it": "Qual è la migliore friggitrice ad aria per una famiglia numerosa nel 2026?",
-      "nl": "Wat is de beste airfryer voor een groot gezin in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Ninja Foodi FlexDrawer 10.4L Double Zone",
-        "role": {
-          "fr": "Meilleur choix pour les grandes familles",
-          "en": "Best for large families",
-          "de": "Beste Wahl für große Familien",
-          "es": "Mejor opción para familias numerosas",
-          "it": "Migliore per famiglie numerose",
-          "nl": "Beste keuze voor grote gezinnen"
-        },
-        "why": {
-          "fr": "Il passe en quelques secondes d'une méga-zone de 10,4 litres à deux zones indépendantes et cuit un poulet entier, idéal pour cinq personnes et plus.",
-          "en": "It switches in seconds from one 10.4-litre mega zone to two independent zones and can cook a whole chicken, ideal for five people or more.",
-          "de": "Er wechselt in Sekunden von einer 10,4-Liter-Megazone auf zwei unabhängige Zonen und gart ein ganzes Hähnchen, ideal für fünf Personen und mehr.",
-          "es": "Pasa en segundos de una megazona de 10,4 litros a dos zonas independientes y cocina un pollo entero, ideal para cinco personas o más.",
-          "it": "Passa in pochi secondi da un'unica megazona da 10,4 litri a due zone indipendenti e cuoce un pollo intero, ideale per cinque persone o più.",
-          "nl": "Hij schakelt in seconden van één megazone van 10,4 liter naar twee onafhankelijke zones en bereidt een hele kip, ideaal voor vijf personen of meer."
-        }
-      },
-      {
-        "model": "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
-        "role": {
-          "fr": "Idéal pour les petites cuisines",
-          "en": "Best for smaller kitchens",
-          "de": "Ideal für kleinere Küchen",
-          "es": "Ideal para cocinas pequeñas",
-          "it": "Ideale per cucine piccole",
-          "nl": "Ideaal voor kleinere keukens"
-        },
-        "why": {
-          "fr": "Son format empilé occupe peu de place au sol et convient aux foyers de quatre à six personnes qui cuisinent deux plats simultanément.",
-          "en": "Its stacked format takes little counter footprint and suits households of four to six people who cook two dishes at once.",
-          "de": "Das gestapelte Format braucht wenig Stellfläche und passt zu Haushalten mit vier bis sechs Personen, die zwei Gerichte gleichzeitig zubereiten.",
-          "es": "Su formato apilado ocupa poco espacio en la encimera y se adapta a hogares de cuatro a seis personas que cocinan dos platos a la vez.",
-          "it": "Il formato impilato occupa poco spazio sul piano e si adatta a famiglie di quattro-sei persone che cucinano due piatti contemporaneamente.",
-          "nl": "Het gestapelde formaat neemt weinig werkblad in beslag en past bij huishoudens van vier tot zes personen die twee gerechten tegelijk bereiden."
-        }
-      }
-    ]
-  },
-  "test-philips-combi-xxl-connected": {
-    "question": {
-      "fr": "Quel est le meilleur airfryer haut de gamme connecté en 2026 ?",
-      "en": "What is the best premium connected air fryer in 2026?",
-      "de": "Was ist die beste vernetzte Premium-Heißluftfritteuse 2026?",
-      "es": "¿Cuál es la mejor freidora de aire premium conectada en 2026?",
-      "it": "Qual è la migliore friggitrice ad aria premium connessa nel 2026?",
-      "nl": "Wat is de beste premium slimme airfryer in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Philips Airfryer Combi XXL Connecté - 8.3L",
-        "role": {
-          "fr": "Meilleur choix pour la précision de cuisson",
-          "en": "Best for cooking precision",
-          "de": "Beste Wahl für präzises Garen",
-          "es": "Mejor opción para la precisión de cocción",
-          "it": "Migliore per la precisione di cottura",
-          "nl": "Beste voor kooknauwkeurigheid"
-        },
-        "why": {
-          "fr": "Sa sonde de température intégrée, son écran couleur et l'application HomeID garantissent une cuisson précise des viandes, ce qui justifie son prix pour les cuisiniers exigeants.",
-          "en": "Its built-in temperature probe, colour screen and HomeID app give precise meat cooking, which justifies its price for demanding home cooks.",
-          "de": "Die integrierte Temperatursonde, der Farbbildschirm und die HomeID-App sorgen für präzises Fleischgaren und rechtfertigen den Preis für anspruchsvolle Köche.",
-          "es": "Su sonda de temperatura integrada, su pantalla en color y la app HomeID garantizan una cocción precisa de las carnes, lo que justifica su precio para cocineros exigentes.",
-          "it": "La sonda di temperatura integrata, lo schermo a colori e l'app HomeID garantiscono cotture precise della carne, giustificando il prezzo per i cuochi esigenti.",
-          "nl": "De ingebouwde temperatuursonde, het kleurenscherm en de HomeID-app zorgen voor nauwkeurig vlees bereiden, wat de prijs rechtvaardigt voor veeleisende kokers."
-        }
-      },
-      {
-        "model": "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
-        "role": {
-          "fr": "Meilleur rapport qualité-prix",
-          "en": "Best value",
-          "de": "Bestes Preis-Leistungs-Verhältnis",
-          "es": "Mejor relación calidad-precio",
-          "it": "Miglior rapporto qualità-prezzo",
-          "nl": "Beste prijs-kwaliteitverhouding"
-        },
-        "why": {
-          "fr": "Il coûte moins cher que le Philips, obtient un meilleur score dans le test et cuit deux plats en même temps, un choix plus pratique pour les familles.",
-          "en": "It costs less than the Philips, scores higher in the test and cooks two dishes at once, making it the more practical choice for families.",
-          "de": "Er kostet weniger als der Philips, erzielt im Test eine bessere Bewertung und gart zwei Gerichte gleichzeitig, die praktischere Wahl für Familien.",
-          "es": "Cuesta menos que el Philips, obtiene mejor puntuación en la prueba y cocina dos platos a la vez, una opción más práctica para las familias.",
-          "it": "Costa meno del Philips, ottiene un punteggio migliore nel test e cuoce due piatti insieme, una scelta più pratica per le famiglie.",
-          "nl": "Hij is goedkoper dan de Philips, scoort hoger in de test en bereidt twee gerechten tegelijk, een praktischere keuze voor gezinnen."
-        }
-      }
-    ]
-  },
-  "airfryer-simple-vs-double-panier": {
-    "question": {
-      "fr": "Quel est le meilleur airfryer double panier en 2026 ?",
-      "en": "What is the best double-basket air fryer in 2026?",
-      "de": "Was ist die beste Doppelkorb-Heißluftfritteuse 2026?",
-      "es": "¿Cuál es la mejor freidora de aire de doble cesta en 2026?",
-      "it": "Qual è la migliore friggitrice ad aria a doppio cestello nel 2026?",
-      "nl": "Wat is de beste airfryer met dubbele mand in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Ninja Foodi FlexDrawer 10.4L Double Zone",
-        "role": {
-          "fr": "Idéal pour les grandes familles",
-          "en": "Best for large families",
-          "de": "Ideal für große Familien",
-          "es": "Ideal para familias numerosas",
-          "it": "Ideale per famiglie numerose",
-          "nl": "Ideaal voor grote gezinnen"
-        },
-        "why": {
-          "fr": "Sa capacité de 10,4 litres et ses paniers fusionnables conviennent aux foyers de cinq personnes et plus qui cuisinent un poulet entier ou de grandes quantités.",
-          "en": "Its 10.4-litre capacity and merge-able baskets suit households of five or more who cook a whole chicken or large quantities.",
-          "de": "Mit 10,4 Litern Fassungsvermögen und verschmelzbaren Körben passt er zu Haushalten ab fünf Personen, die ein ganzes Hähnchen oder große Mengen zubereiten.",
-          "es": "Su capacidad de 10,4 litros y sus cestas fusionables sirven a hogares de cinco o más personas que cocinan un pollo entero o grandes cantidades.",
-          "it": "La capacità di 10,4 litri e i cestelli unificabili sono adatti a famiglie di cinque o più persone che cuociono un pollo intero o grandi quantità.",
-          "nl": "De capaciteit van 10,4 liter en de samenvoegbare manden passen bij huishoudens van vijf of meer die een hele kip of grote hoeveelheden bereiden."
-        }
-      },
-      {
-        "model": "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
-        "role": {
-          "fr": "Idéal pour les familles de 3 à 4 personnes",
-          "en": "Best for families of 3 to 4",
-          "de": "Ideal für Familien mit 3 bis 4 Personen",
-          "es": "Ideal para familias de 3 a 4 personas",
-          "it": "Ideale per famiglie di 3-4 persone",
-          "nl": "Ideaal voor gezinnen van 3 tot 4 personen"
-        },
-        "why": {
-          "fr": "Son double panier fait gagner un temps considérable au quotidien en cuisant deux plats simultanément, ce qu'un airfryer simple panier ne permet pas.",
-          "en": "Its double basket saves a lot of time every day by cooking two dishes simultaneously, something a single-basket air fryer cannot do.",
-          "de": "Der Doppelkorb spart im Alltag viel Zeit, weil zwei Gerichte gleichzeitig garen, was eine Einzelkorb-Heißluftfritteuse nicht kann.",
-          "es": "Su doble cesta ahorra mucho tiempo a diario al cocinar dos platos simultáneamente, algo que una freidora de una sola cesta no permite.",
-          "it": "Il doppio cestello fa risparmiare molto tempo ogni giorno cuocendo due piatti contemporaneamente, cosa impossibile con una friggitrice a cestello singolo.",
-          "nl": "De dubbele mand bespaart dagelijks veel tijd door twee gerechten tegelijk te bereiden, iets wat een airfryer met één mand niet kan."
-        }
-      }
-    ]
-  },
-  "test-ninja-foodi-max-dual-zone": {
-    "question": {
-      "fr": "Quel est le meilleur airfryer double zone en 2026 ?",
-      "en": "What is the best dual-zone air fryer in 2026?",
-      "de": "Was ist die beste Dual-Zone-Heißluftfritteuse 2026?",
-      "es": "¿Cuál es la mejor freidora de aire de doble zona en 2026?",
-      "it": "Qual è la migliore friggitrice ad aria a doppia zona nel 2026?",
-      "nl": "Wat is de beste dual-zone airfryer in 2026?"
-    },
-    "picks": [
-      {
-        "model": "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
-        "role": {
-          "fr": "Meilleur choix global",
-          "en": "Best overall",
-          "de": "Beste Gesamtwahl",
-          "es": "Mejor opción global",
-          "it": "Miglior scelta complessiva",
-          "nl": "Beste algemene keuze"
-        },
-        "why": {
-          "fr": "Son format de tiroirs empilés limite l'encombrement et Smart Finish termine les deux cuissons en même temps, idéal pour une famille de quatre à six personnes.",
-          "en": "Its stacked drawer format limits counter space and Smart Finish ends both cooking zones together, ideal for a family of four to six people.",
-          "de": "Das Format mit gestapelten Schubladen spart Platz und Smart Finish beendet beide Garvorgänge gleichzeitig, ideal für eine Familie mit vier bis sechs Personen.",
-          "es": "Su formato de cajones apilados reduce el espacio ocupado y Smart Finish termina ambas cocciones a la vez, ideal para una familia de cuatro a seis personas.",
-          "it": "Il formato a cassetti impilati limita l'ingombro e Smart Finish termina entrambe le cotture insieme, ideale per una famiglia di quattro-sei persone.",
-          "nl": "Het formaat met gestapelde laden beperkt de ruimte en Smart Finish beëindigt beide bereidingen tegelijk, ideaal voor een gezin van vier tot zes personen."
-        }
-      },
-      {
-        "model": "Ninja Foodi FlexDrawer 10.4L Double Zone",
-        "role": {
-          "fr": "Idéal pour une méga-zone unique",
-          "en": "Best for a single mega zone",
-          "de": "Ideal für eine einzelne Megazone",
-          "es": "Ideal para una megazona única",
-          "it": "Ideale per un'unica megazona",
-          "nl": "Ideaal voor één megazone"
-        },
-        "why": {
-          "fr": "Il offre une méga-zone unique de 10,4 litres pour un poulet entier, ce que les tiroirs séparés du Ninja MAX ne permettent pas, mais il est plus encombrant.",
-          "en": "It offers a single 10.4-litre mega zone for a whole chicken, which the separate drawers of the Ninja MAX cannot, though it takes more space.",
-          "de": "Er bietet eine einzelne 10,4-Liter-Megazone für ein ganzes Hähnchen, was die getrennten Schubladen des Ninja MAX nicht können, braucht aber mehr Platz.",
-          "es": "Ofrece una megazona única de 10,4 litros para un pollo entero, algo que los cajones separados del Ninja MAX no permiten, aunque ocupa más espacio.",
-          "it": "Offre un'unica megazona da 10,4 litri per un pollo intero, impossibile con i cassetti separati del Ninja MAX, ma è più ingombrante.",
-          "nl": "Hij biedt één megazone van 10,4 liter voor een hele kip, wat de aparte laden van de Ninja MAX niet kunnen, maar neemt meer ruimte in."
-        }
-      },
-      {
-        "model": "Philips Airfryer Combi XXL Connecté - 8.3L",
-        "role": {
-          "fr": "Pour la connectivité et la précision",
-          "en": "Best for connectivity and precision",
-          "de": "Für Vernetzung und Präzision",
-          "es": "Para conectividad y precisión",
-          "it": "Per connettività e precisione",
-          "nl": "Voor connectiviteit en precisie"
-        },
-        "why": {
-          "fr": "Il convient mieux à ceux qui veulent le Wi-Fi et la précision de sa sonde de température, mais il coûte plus cher que le Ninja MAX.",
-          "en": "It suits those who want Wi-Fi and the precision of its temperature probe better, though it costs more than the Ninja MAX.",
-          "de": "Er passt besser, wenn man WLAN und die Präzision der Temperatursonde möchte, kostet aber mehr als der Ninja MAX.",
-          "es": "Encaja mejor con quienes quieren Wi-Fi y la precisión de su sonda de temperatura, aunque cuesta más que el Ninja MAX.",
-          "it": "È più adatto a chi vuole il Wi-Fi e la precisione della sonda di temperatura, ma costa più del Ninja MAX.",
-          "nl": "Hij past beter bij wie wifi en de precisie van de temperatuursonde wil, maar is duurder dan de Ninja MAX."
         }
       }
     ]
@@ -5293,6 +2443,3675 @@ export const QUICK_ANSWERS: Record<string, QuickAnswerData> = {
           "es": "Certificado EN 50291, vigila el CO con una batería de 10 años y avisa al móvil: el complemento imprescindible si tienes caldera o estufa.",
           "it": "Certificato EN 50291, controlla il CO con batteria da 10 anni e avvisa lo smartphone: il complemento indispensabile con caldaia o stufa.",
           "nl": "Gecertificeerd volgens EN 50291 bewaakt hij CO met een 10-jaarsbatterij en waarschuwt je telefoon: onmisbaar bij een cv-ketel of kachel."
+        }
+      }
+    ]
+  },
+  "airfryer-economies-energie": {
+    "question": {
+      "fr": "Quel airfryer choisir pour économiser de l’énergie en 2026 ?",
+      "en": "Which air fryer should you choose to save energy in 2026?",
+      "de": "Welche Heißluftfritteuse spart 2026 am meisten Energie?",
+      "es": "¿Qué freidora de aire elegir para ahorrar energía en 2026?",
+      "it": "Quale friggitrice ad aria scegliere per risparmiare energia nel 2026?",
+      "nl": "Welke airfryer kies je in 2026 om energie te besparen?"
+    },
+    "picks": [
+      {
+        "model": "Philips Airfryer Série 3000 XL - 6.2L",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "6,2 L dans un seul panier : de quoi cuisiner pour 3 à 5 personnes en une fournée et laisser le four éteint.",
+          "en": "6.2 L in a single basket: enough to cook for 3 to 5 people in one batch and leave the oven off.",
+          "de": "6,2 L in einem Korb: genug für 3 bis 5 Personen in einem Durchgang, der Backofen bleibt aus.",
+          "es": "6,2 L en una sola cesta: suficiente para 3 a 5 personas en una tanda, con el horno apagado.",
+          "it": "6,2 L in un unico cestello: abbastanza per 3-5 persone in un’infornata, con il forno spento.",
+          "nl": "6,2 L in één mand: genoeg voor 3 tot 5 personen in één ronde, terwijl de oven uit blijft."
+        }
+      },
+      {
+        "model": "Moulinex Easy Fry Max 5L",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "5 L et 1 500 W : une puissance modérée et assez de place pour 3 à 4 personnes, sans fonctions superflues.",
+          "en": "5 L and 1,500 W: moderate power and enough room for 3 to 4 people, with no unnecessary extras.",
+          "de": "5 L und 1.500 W: moderate Leistung und genug Platz für 3 bis 4 Personen, ohne überflüssige Extras.",
+          "es": "5 L y 1.500 W: potencia moderada y espacio para 3 o 4 personas, sin funciones superfluas.",
+          "it": "5 L e 1.500 W: potenza moderata e spazio per 3-4 persone, senza funzioni superflue.",
+          "nl": "5 L en 1.500 W: gematigd vermogen en ruimte voor 3 tot 4 personen, zonder overbodige extra’s."
+        }
+      },
+      {
+        "model": "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+        "role": {
+          "fr": "Idéal pour remplacer le four en famille",
+          "en": "Best for replacing the oven for families",
+          "de": "Ideal, um den Backofen für Familien zu ersetzen",
+          "es": "Ideal para sustituir el horno en familia",
+          "it": "Ideale per sostituire il forno in famiglia",
+          "nl": "Ideaal om de oven te vervangen voor gezinnen"
+        },
+        "why": {
+          "fr": "Deux tiroirs superposés de 4,75 L pour cuire plat et accompagnement en même temps, au lieu d’allumer le four.",
+          "en": "Two stacked 4.75 L drawers cook a main and a side at the same time instead of switching the oven on.",
+          "de": "Zwei übereinanderliegende 4,75-L-Körbe garen Hauptgericht und Beilage gleichzeitig, statt den Backofen anzuwerfen.",
+          "es": "Dos cestas apiladas de 4,75 L para cocinar plato y guarnición a la vez, en lugar de encender el horno.",
+          "it": "Due cestelli sovrapposti da 4,75 L per cuocere secondo e contorno insieme, invece di accendere il forno.",
+          "nl": "Twee gestapelde lades van 4,75 L voor hoofd- en bijgerecht tegelijk, in plaats van de oven aan te zetten."
+        }
+      }
+    ]
+  },
+  "airfryer-simple-vs-double-panier": {
+    "question": {
+      "fr": "Quel est le meilleur airfryer, simple ou double panier, en 2026 ?",
+      "en": "What is the best air fryer, single or dual basket, in 2026?",
+      "de": "Was ist die beste Heißluftfritteuse 2026, mit Einzel- oder Doppelkorb?",
+      "es": "¿Cuál es la mejor freidora de aire de una o dos cestas en 2026?",
+      "it": "Qual è la migliore friggitrice ad aria, a cestello singolo o doppio, nel 2026?",
+      "nl": "Wat is de beste airfryer met enkele of dubbele mand in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Gesamtwahl",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste algemene keuze"
+        },
+        "why": {
+          "fr": "Deux tiroirs empilés de 4,75 L sur environ 28 cm de large : deux plats en même temps sans monopoliser le plan de travail.",
+          "en": "Two stacked 4.75 L drawers in about 28 cm of width: two dishes at once without taking over the worktop.",
+          "de": "Zwei gestapelte Schubladen mit je 4,75 l auf rund 28 cm Breite: zwei Gerichte gleichzeitig, ohne die Arbeitsfläche zu blockieren.",
+          "es": "Dos cajones apilados de 4,75 L en unos 28 cm de ancho: dos platos a la vez sin acaparar la encimera.",
+          "it": "Due cassetti sovrapposti da 4,75 L in circa 28 cm di larghezza: due piatti insieme senza occupare tutto il piano.",
+          "nl": "Twee gestapelde lades van 4,75 l op zo’n 28 cm breedte: twee gerechten tegelijk zonder je aanrecht vol te zetten."
+        }
+      },
+      {
+        "model": "Ninja Foodi FlexDrawer 10.4L Double Zone",
+        "role": {
+          "fr": "Idéal pour les grandes familles",
+          "en": "Best for large families",
+          "de": "Ideal für große Familien",
+          "es": "Ideal para familias numerosas",
+          "it": "Ideale per famiglie numerose",
+          "nl": "Ideaal voor grote gezinnen"
+        },
+        "why": {
+          "fr": "Deux zones de 5,2 L ou, sans séparateur, une grande cuve de 10,4 L pour un poulet entier : le plus polyvalent pour cinq personnes et plus.",
+          "en": "Two 5.2 L zones or, without the divider, one 10.4 L drawer for a whole chicken: the most versatile for five or more people.",
+          "de": "Zwei Zonen mit 5,2 l oder ohne Trennwand ein 10,4-l-Garraum für ein ganzes Hähnchen: am vielseitigsten ab fünf Personen.",
+          "es": "Dos zonas de 5,2 L o, sin separador, una cubeta de 10,4 L para un pollo entero: la más versátil para cinco o más.",
+          "it": "Due zone da 5,2 L o, senza divisorio, una vasca da 10,4 L per un pollo intero: la più versatile da cinque persone in su.",
+          "nl": "Twee zones van 5,2 l of, zonder wand, één lade van 10,4 l voor een hele kip: het veelzijdigst voor vijf of meer personen."
+        }
+      },
+      {
+        "model": "Philips Airfryer Série 3000 XL - 6.2L",
+        "role": {
+          "fr": "Meilleur simple panier",
+          "en": "Best single basket",
+          "de": "Bester Einzelkorb",
+          "es": "Mejor cesta única",
+          "it": "Miglior cestello singolo",
+          "nl": "Beste enkele mand"
+        },
+        "why": {
+          "fr": "Un panier de 6,2 L, sept programmes et une utilisation très simple : suffisant et plus compact pour une à trois personnes.",
+          "en": "A 6.2 L basket, seven presets and very simple controls: enough, and more compact, for one to three people.",
+          "de": "Ein 6,2-l-Korb, sieben Programme und sehr einfache Bedienung: ausreichend und kompakter für ein bis drei Personen.",
+          "es": "Una cesta de 6,2 L, siete programas y un manejo muy sencillo: suficiente y más compacta para una a tres personas.",
+          "it": "Un cestello da 6,2 L, sette programmi e un uso semplicissimo: sufficiente e più compatto per una-tre persone.",
+          "nl": "Een mand van 6,2 l, zeven programma’s en heel eenvoudige bediening: genoeg en compacter voor één tot drie personen."
+        }
+      }
+    ]
+  },
+  "airfryer-vs-friteuse-traditionnelle": {
+    "question": {
+      "fr": "Quel est le meilleur airfryer pour remplacer une friteuse traditionnelle en 2026 ?",
+      "en": "What is the best air fryer to replace a traditional deep fryer in 2026?",
+      "de": "Was ist die beste Heißluftfritteuse als Ersatz für eine klassische Fritteuse 2026?",
+      "es": "¿Cuál es la mejor freidora de aire para sustituir una freidora tradicional en 2026?",
+      "it": "Qual è la migliore friggitrice ad aria per sostituire una friggitrice tradizionale nel 2026?",
+      "nl": "Wat is de beste airfryer om een traditionele frituurpan te vervangen in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Philips Airfryer Série 3000 XL - 6.2L",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Son tiroir de 6,2 litres (environ 1,2 kg de frites) et ses programmes prédéfinis couvrent les besoins d’une famille de quatre qui abandonne la friteuse.",
+          "en": "Its 6.2-litre drawer (about 1.2 kg of fries) and preset programmes cover the needs of a family of four giving up the deep fryer.",
+          "de": "Die 6,2-Liter-Schublade (rund 1,2 kg Pommes) und die Programme decken den Bedarf einer vierköpfigen Familie, die die Fritteuse aufgibt.",
+          "es": "Su cajón de 6,2 litros (unos 1,2 kg de patatas) y sus programas cubren las necesidades de una familia de cuatro que deja la freidora.",
+          "it": "Il cassetto da 6,2 litri (circa 1,2 kg di patatine) e i programmi preimpostati coprono le esigenze di una famiglia di quattro che lascia la friggitrice.",
+          "nl": "De lade van 6,2 liter (ongeveer 1,2 kg frietjes) en de programma’s dekken de behoeften van een gezin van vier dat de frituurpan opgeeft."
+        }
+      },
+      {
+        "model": "Tefal ActiFry Genius XL 2in1 - 1.7kg",
+        "role": {
+          "fr": "Idéal pour les amateurs de frites",
+          "en": "Best for fries lovers",
+          "de": "Ideal für Pommes-Fans",
+          "es": "Ideal para los amantes de las patatas fritas",
+          "it": "Ideale per chi ama le patatine",
+          "nl": "Ideaal voor frietliefhebbers"
+        },
+        "why": {
+          "fr": "Sa pale remue les frites pendant la cuisson : 1,7 kg avec une cuillère d’huile, sans secouer le panier.",
+          "en": "Its paddle stirs the fries while they cook: 1.7 kg with one spoonful of oil, no basket shaking needed.",
+          "de": "Der Rührarm wendet die Pommes beim Garen: 1,7 kg mit einem Löffel Öl, ohne den Korb zu schütteln.",
+          "es": "Su pala remueve las patatas durante la cocción: 1,7 kg con una cucharada de aceite, sin agitar la cesta.",
+          "it": "La pala mescola le patatine durante la cottura: 1,7 kg con un cucchiaio d’olio, senza scuotere il cestello.",
+          "nl": "De roerarm schept de frietjes om tijdens het bakken: 1,7 kg met één lepel olie, zonder de mand te schudden."
+        }
+      }
+    ]
+  },
+  "alarme-maison-sans-abonnement": {
+    "question": {
+      "fr": "Quelle est la meilleure alarme maison sans abonnement en 2026 ?",
+      "en": "What is the best home alarm with no subscription in 2026?",
+      "de": "Welche ist die beste Alarmanlage ohne Abo 2026?",
+      "es": "¿Cuál es la mejor alarma para casa sin cuotas en 2026?",
+      "it": "Qual è il miglior allarme casa senza abbonamento nel 2026?",
+      "nl": "Wat is het beste alarmsysteem zonder abonnement in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Ajax StarterKit 4G",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Centrale Ethernet et 4G (deux SIM), batterie jusqu’à 16 h, portée Jeweller étendue et certification Grade 2.",
+          "en": "Ethernet and 4G hub (two SIMs), battery up to 16 h, long Jeweller radio range and Grade 2 certification.",
+          "de": "Zentrale mit Ethernet und 4G (zwei SIM), Akku bis 16 h, große Jeweller-Funkreichweite und Grade-2-Zertifizierung.",
+          "es": "Central con Ethernet y 4G (dos SIM), batería de hasta 16 h, gran alcance Jeweller y certificación Grado 2.",
+          "it": "Centrale Ethernet e 4G (due SIM), batteria fino a 16 h, ampia portata Jeweller e certificazione Grado 2.",
+          "nl": "Centrale met ethernet en 4G (twee simkaarten), accu tot 16 u, groot Jeweller-bereik en Grade 2-certificering."
+        }
+      },
+      {
+        "model": "Somfy Home Alarm Advanced",
+        "role": {
+          "fr": "Meilleure détection anti-effraction",
+          "en": "Best break-in detection",
+          "de": "Beste Aufbrucherkennung",
+          "es": "Mejor detección antiforzado",
+          "it": "Miglior rilevamento anti-scasso",
+          "nl": "Beste inbraakdetectie"
+        },
+        "why": {
+          "fr": "Les IntelliTAG détectent les vibrations avant l’ouverture, avec sirène 110 dB et réseau GSM de secours offert cinq ans.",
+          "en": "IntelliTAG sensors detect vibrations before an opening moves, with a 110 dB siren and GSM backup included for five years.",
+          "de": "IntelliTAG erkennen Erschütterungen vor dem Öffnen, dazu 110-dB-Sirene und fünf Jahre inklusive GSM-Backup.",
+          "es": "Los IntelliTAG detectan vibraciones antes de la apertura, con sirena de 110 dB y respaldo GSM incluido cinco años.",
+          "it": "Gli IntelliTAG rilevano le vibrazioni prima dell’apertura, con sirena da 110 dB e backup GSM incluso per cinque anni.",
+          "nl": "IntelliTAG-sensoren detecteren trillingen vóór het openen, met 110 dB-sirene en vijf jaar gsm-back-up inbegrepen."
+        }
+      },
+      {
+        "model": "Ring Alarm Pack M (Gen 2)",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix pour Alexa",
+          "en": "Best value for Alexa homes",
+          "de": "Preis-Leistungs-Tipp für Alexa",
+          "es": "Mejor calidad-precio para Alexa",
+          "it": "Miglior rapporto qualità-prezzo per Alexa",
+          "nl": "Beste prijs-kwaliteit voor Alexa"
+        },
+        "why": {
+          "fr": "Entrée de gamme simple : sirène 104 dB intégrée, batterie 24 h, intégration Alexa. Secours cellulaire avec Ring Protect.",
+          "en": "Simple entry-level kit: built-in 104 dB siren, 24 h battery, Alexa integration. Cellular backup needs Ring Protect.",
+          "de": "Einfacher Einstieg: eingebaute 104-dB-Sirene, 24-h-Akku, Alexa-Einbindung. Mobilfunk-Backup nur mit Ring Protect.",
+          "es": "Entrada de gama sencilla: sirena de 104 dB integrada, batería de 24 h e integración Alexa. Respaldo móvil con Ring Protect.",
+          "it": "Ingresso di gamma semplice: sirena da 104 dB integrata, batteria 24 h, integrazione Alexa. Backup cellulare con Ring Protect.",
+          "nl": "Eenvoudige instapper: ingebouwde 104 dB-sirene, 24 u accu, Alexa-integratie. Mobiele back-up vereist Ring Protect."
+        }
+      }
+    ]
+  },
+  "arrosage-connecte-intelligent": {
+    "question": {
+      "fr": "Quel est le meilleur système d'arrosage connecté en 2026 ?",
+      "en": "What is the best smart irrigation system in 2026?",
+      "de": "Welches ist das beste smarte Bewässerungssystem 2026?",
+      "es": "¿Cuál es el mejor sistema de riego inteligente en 2026?",
+      "it": "Qual è il miglior sistema di irrigazione smart nel 2026?",
+      "nl": "Wat is het beste slimme besproeiingssysteem in 2026?"
+    },
+    "picks": [
+      {
+        "model": "GARDENA smart Water Control Set",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Se visse sur le robinet, adapte l'arrosage à la pluie annoncée et accepte un capteur d'humidité du sol ; compatible Apple Home, Alexa et Google via sa passerelle.",
+          "en": "Screws onto the tap, adapts watering to forecast rain and accepts a soil moisture sensor; works with Apple Home, Alexa and Google through its gateway.",
+          "de": "Wird auf den Hahn geschraubt, passt die Bewässerung an Regen an und nimmt einen Bodenfeuchtesensor auf; per Gateway mit Apple Home, Alexa und Google kompatibel.",
+          "es": "Se enrosca en el grifo, adapta el riego a la lluvia prevista y admite un sensor de humedad del suelo; compatible con Apple Home, Alexa y Google vía pasarela.",
+          "it": "Si avvita al rubinetto, adatta l'irrigazione alla pioggia prevista e accetta un sensore di umidità; compatibile con Apple Home, Alexa e Google tramite gateway.",
+          "nl": "Schroef je op de kraan, past het sproeien aan voorspelde regen aan en werkt met een bodemvochtsensor; via de gateway compatibel met Apple Home, Alexa en Google."
+        }
+      },
+      {
+        "model": "Eve Aqua",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix, sans passerelle",
+          "en": "Best value, no gateway",
+          "de": "Bestes Preis-Leistungs-Verhältnis, ohne Gateway",
+          "es": "Mejor relación calidad-precio, sin pasarela",
+          "it": "Miglior rapporto qualità-prezzo, senza gateway",
+          "nl": "Beste prijs-kwaliteit, zonder gateway"
+        },
+        "why": {
+          "fr": "Programmateur de robinet Thread et Matter qui fonctionne en local, sans passerelle ni cloud obligatoire, avec Apple Home, Google Home ou Alexa.",
+          "en": "A Thread and Matter tap timer that runs locally, with no gateway or mandatory cloud, in Apple Home, Google Home or Alexa.",
+          "de": "Thread- und Matter-Hahnsteuerung, die lokal arbeitet, ohne Gateway oder Cloud-Pflicht, mit Apple Home, Google Home oder Alexa.",
+          "es": "Programador de grifo Thread y Matter que funciona en local, sin pasarela ni nube obligatoria, con Apple Home, Google Home o Alexa.",
+          "it": "Programmatore da rubinetto Thread e Matter che funziona in locale, senza gateway né cloud obbligatorio, con Apple Home, Google Home o Alexa.",
+          "nl": "Thread- en Matter-kraancomputer die lokaal werkt, zonder gateway of verplichte cloud, met Apple Home, Google Home of Alexa."
+        }
+      },
+      {
+        "model": "GARDENA smart Irrigation Control",
+        "role": {
+          "fr": "Idéal pour un arrosage enterré",
+          "en": "Best for buried systems",
+          "de": "Ideal für unterirdische Anlagen",
+          "es": "Ideal para riego enterrado",
+          "it": "Ideale per impianti interrati",
+          "nl": "Ideaal voor ingegraven systemen"
+        },
+        "why": {
+          "fr": "Pilote jusqu'à six électrovannes 24 V de la plupart des marques et rend connectée une installation enterrée existante.",
+          "en": "Drives up to six 24 V solenoid valves from most brands and brings an existing buried system online.",
+          "de": "Steuert bis zu sechs 24-V-Magnetventile der meisten Marken und macht eine bestehende Erdanlage smart.",
+          "es": "Controla hasta seis electroválvulas de 24 V de la mayoría de marcas y conecta una instalación enterrada existente.",
+          "it": "Comanda fino a sei elettrovalvole da 24 V della maggior parte delle marche e rende smart un impianto interrato esistente.",
+          "nl": "Stuurt tot zes 24V-magneetventielen van de meeste merken aan en maakt een bestaand ingegraven systeem slim."
+        }
+      }
+    ]
+  },
+  "balance-cuisine-connectee-comparatif": {
+    "question": {
+      "fr": "Quelle est la meilleure balance de cuisine connectée en 2026 ?",
+      "en": "What is the best smart kitchen scale in 2026?",
+      "de": "Welche ist die beste smarte Küchenwaage 2026?",
+      "es": "¿Cuál es la mejor báscula de cocina inteligente en 2026?",
+      "it": "Qual è la migliore bilancia da cucina smart nel 2026?",
+      "nl": "Wat is de beste slimme keukenweegschaal in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Etekcity Smart Nutrition Scale",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "5 kg au gramme près, plateau inox et application VeSync qui suit jusqu’à 19 nutriments, avec rapports et synchronisation Apple Santé.",
+          "en": "5 kg in 1 g steps, a stainless steel platform and a VeSync app tracking up to 19 nutrients, with reports and Apple Health sync.",
+          "de": "5 kg grammgenau, Edelstahlfläche und VeSync-App mit bis zu 19 Nährstoffen, Berichten und Apple-Health-Synchronisation.",
+          "es": "5 kg al gramo, plataforma de acero inoxidable y app VeSync que registra hasta 19 nutrientes, con informes y sincronización con Apple Salud.",
+          "it": "5 kg al grammo, piatto in acciaio inox e app VeSync che monitora fino a 19 nutrienti, con report e sincronizzazione con Apple Salute.",
+          "nl": "5 kg op de gram, rvs-plateau en een VeSync-app die tot 19 voedingsstoffen bijhoudt, met overzichten en Apple Gezondheid-synchronisatie."
+        }
+      },
+      {
+        "model": "Renpho Balance Cuisine Connectée",
+        "role": {
+          "fr": "Meilleur petit budget",
+          "en": "Best budget pick",
+          "de": "Beste günstige Wahl",
+          "es": "Mejor opción económica",
+          "it": "Migliore scelta economica",
+          "nl": "Beste budgetkeuze"
+        },
+        "why": {
+          "fr": "Balance alimentaire Bluetooth d’entrée de gamme, avec scan de code-barres et l’application Renpho Health partagée avec les pèse-personnes de la marque.",
+          "en": "An entry-level Bluetooth food scale with barcode scanning and the Renpho Health app shared with the brand’s body scales.",
+          "de": "Günstige Bluetooth-Lebensmittelwaage mit Barcode-Scan und der Renpho-Health-App, die auch die Personenwaagen der Marke nutzen.",
+          "es": "Báscula de alimentos Bluetooth de gama de entrada, con escáner de códigos de barras y la app Renpho Health compartida con las básculas corporales.",
+          "it": "Bilancia per alimenti Bluetooth entry level, con scansione dei codici a barre e l’app Renpho Health condivisa con le pesapersone del marchio.",
+          "nl": "Betaalbare Bluetooth-voedingsweegschaal met barcodescanner en de Renpho Health-app die ook de personenweegschalen van het merk gebruiken."
+        }
+      },
+      {
+        "model": "Beurer KS 34 XL Balance Diététique",
+        "role": {
+          "fr": "Grande capacité sans application",
+          "en": "High capacity, no app",
+          "de": "Hohe Tragkraft ohne App",
+          "es": "Gran capacidad sin app",
+          "it": "Grande portata senza app",
+          "nl": "Groot draagvermogen zonder app"
+        },
+        "why": {
+          "fr": "Jusqu’à 15 kg au gramme près sur un grand plateau en verre, avec fonction hold : idéale pour les grandes préparations, sans application.",
+          "en": "Up to 15 kg in 1 g steps on a large glass platform with a hold function: ideal for big batches, no app involved.",
+          "de": "Bis 15 kg grammgenau auf großer Glasfläche mit Hold-Funktion: ideal für große Mengen, ganz ohne App.",
+          "es": "Hasta 15 kg al gramo sobre una amplia plataforma de vidrio con función hold: ideal para grandes preparaciones, sin app.",
+          "it": "Fino a 15 kg al grammo su un ampio piatto in vetro con funzione hold: ideale per grandi preparazioni, senza app.",
+          "nl": "Tot 15 kg op de gram op een groot glazen plateau met hold-functie: ideaal voor grote bereidingen, zonder app."
+        }
+      }
+    ]
+  },
+  "balkonkraftwerk-panneau-solaire-balcon": {
+    "question": {
+      "fr": "Quel est le meilleur kit solaire de balcon en 2026 ?",
+      "en": "What is the best balcony solar kit in 2026?",
+      "de": "Welches ist das beste Balkonkraftwerk 2026?",
+      "es": "¿Cuál es el mejor kit solar de balcón en 2026?",
+      "it": "Qual è il miglior kit solare da balcone nel 2026?",
+      "nl": "Wat is de beste balkonzonnepaneelset in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Hoymiles HMS-800W-2T",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Micro-onduleur 800 VA à deux entrées MPPT et Wi-Fi intégré, au cœur de nombreux kits : la solution la plus simple pour un foyer présent en journée.",
+          "en": "An 800 VA micro-inverter with two MPPT inputs and built-in Wi-Fi at the heart of many kits: the simplest option for households at home by day.",
+          "de": "800-VA-Mikrowechselrichter mit zwei MPPT-Eingängen und integriertem WLAN, Basis vieler Sets: die einfachste Lösung für Haushalte, die tagsüber zu Hause sind.",
+          "es": "Microinversor de 800 VA con dos entradas MPPT y wifi integrado, base de muchos kits: la opción más sencilla para hogares con gente en casa de día.",
+          "it": "Microinverter da 800 VA con due ingressi MPPT e Wi-Fi integrato, alla base di molti kit: la soluzione più semplice per chi è in casa di giorno.",
+          "nl": "Micro-omvormer van 800 VA met twee MPPT-ingangen en ingebouwde wifi, basis van veel sets: de eenvoudigste keuze als je overdag thuis bent."
+        }
+      },
+      {
+        "model": "Anker SOLIX Solarbank 3 E2700 Pro",
+        "role": {
+          "fr": "Meilleur avec batterie",
+          "en": "Best with battery",
+          "de": "Bester mit Speicher",
+          "es": "Mejor con batería",
+          "it": "Migliore con batteria",
+          "nl": "Beste met batterij"
+        },
+        "why": {
+          "fr": "2,688 kWh extensibles, quatre entrées MPPT et 800 W restitués sur prise : idéal si vous consommez surtout le soir.",
+          "en": "2.688 kWh expandable storage, four MPPT inputs and 800 W output through a socket: ideal if you use most of your power in the evening.",
+          "de": "2,688 kWh erweiterbarer Speicher, vier MPPT-Eingänge und 800 W über die Steckdose: ideal, wenn Sie vor allem abends Strom verbrauchen.",
+          "es": "2,688 kWh ampliables, cuatro entradas MPPT y 800 W a través de un enchufe: ideal si consumes sobre todo por la noche.",
+          "it": "2,688 kWh espandibili, quattro ingressi MPPT e 800 W tramite presa: ideale se consumi soprattutto la sera.",
+          "nl": "2,688 kWh uitbreidbare opslag, vier MPPT-ingangen en 800 W via een stopcontact: ideaal als je vooral 's avonds stroom gebruikt."
+        }
+      },
+      {
+        "model": "EcoFlow STREAM Ultra",
+        "role": {
+          "fr": "Meilleur pour petit balcon",
+          "en": "Best for small balconies",
+          "de": "Bester für kleine Balkone",
+          "es": "Mejor para balcones pequeños",
+          "it": "Migliore per balconi piccoli",
+          "nl": "Beste voor kleine balkons"
+        },
+        "why": {
+          "fr": "Tout-en-un compact IP65 avec batterie LiFePO4 de 1,92 kWh, quatre entrées MPPT et 800 W sur le réseau domestique.",
+          "en": "A compact IP65 all-in-one with a 1.92 kWh LiFePO4 battery, four MPPT inputs and 800 W into the home grid.",
+          "de": "Kompakter IP65-Alleskönner mit 1,92-kWh-LiFePO4-Akku, vier MPPT-Eingängen und 800 W Einspeisung ins Hausnetz.",
+          "es": "Todo en uno compacto IP65 con batería LiFePO4 de 1,92 kWh, cuatro entradas MPPT y 800 W a la red doméstica.",
+          "it": "Tutto-in-uno compatto IP65 con batteria LiFePO4 da 1,92 kWh, quattro ingressi MPPT e 800 W nell'impianto di casa.",
+          "nl": "Compacte IP65-alles-in-één met LiFePO4-batterij van 1,92 kWh, vier MPPT-ingangen en 800 W in het huisnet."
+        }
+      }
+    ]
+  },
+  "barbecue-connecte-thermometre-guide": {
+    "question": {
+      "fr": "Quel est le meilleur thermomètre à viande connecté en 2026 ?",
+      "en": "What is the best smart meat thermometer in 2026?",
+      "de": "Welches ist das beste smarte Grillthermometer 2026?",
+      "es": "¿Cuál es el mejor termómetro de carne inteligente en 2026?",
+      "it": "Qual è il miglior termometro per carne smart nel 2026?",
+      "nl": "Wat is de beste slimme vleesthermometer in 2026?"
+    },
+    "picks": [
+      {
+        "model": "MEATER Pro Thermomètre Sans Fil Longue Portée",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore in assoluto",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Sonde 100 % sans fil, étanche et lavable au lave-vaisselle, qui mesure cœur et température ambiante et supporte la saisie à feu vif.",
+          "en": "Fully wireless, waterproof, dishwasher-safe probe that reads core and ambient temperature and can handle searing over a hot fire.",
+          "de": "Komplett kabelloser, wasserdichter und spülmaschinenfester Fühler, misst Kern- und Umgebungstemperatur und verträgt scharfes Angrillen.",
+          "es": "Sonda totalmente inalámbrica, resistente al agua y apta para lavavajillas, que mide temperatura interna y ambiente y admite sellar a fuego vivo.",
+          "it": "Sonda completamente wireless, impermeabile e lavabile in lavastoviglie, misura cuore e temperatura ambiente e regge la scottatura a fiamma viva.",
+          "nl": "Volledig draadloze, waterdichte en vaatwasserbestendige sonde die kern- en omgevingstemperatuur meet en dichtschroeien aankan."
+        }
+      },
+      {
+        "model": "MEATER Plus Thermomètre Sans Fil Bluetooth 50m",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix sans fil",
+          "en": "Best-value wireless",
+          "de": "Bestes Preis-Leistungs-Verhältnis kabellos",
+          "es": "Mejor relación calidad-precio inalámbrica",
+          "it": "Miglior rapporto qualità-prezzo wireless",
+          "nl": "Beste prijs-kwaliteit draadloos"
+        },
+        "why": {
+          "fr": "Même application que le Pro, relais Bluetooth intégré au bloc de recharge pour 50 m annoncés : idéal pour débuter, couvercle fermé.",
+          "en": "Same app as the Pro, with a Bluetooth repeater built into the charging block for a stated 50 m: a great first wireless probe for closed-lid cooking.",
+          "de": "Dieselbe App wie der Pro, Bluetooth-Verstärker im Ladeblock für angegebene 50 m: idealer Einstieg für Grillen mit geschlossenem Deckel.",
+          "es": "Misma app que el Pro y repetidor Bluetooth en la base de carga para 50 m anunciados: ideal para empezar cocinando con la tapa cerrada.",
+          "it": "Stessa app del Pro, ripetitore Bluetooth nella base di ricarica per 50 m dichiarati: ideale per iniziare cucinando a coperchio chiuso.",
+          "nl": "Dezelfde app als de Pro, met Bluetooth-repeater in het laadblok voor opgegeven 50 m: ideale instap voor koken met gesloten deksel."
+        }
+      },
+      {
+        "model": "Inkbird IBT-4XS Thermomètre Bluetooth 4 Sondes",
+        "role": {
+          "fr": "Meilleur multi-sondes pour le fumage",
+          "en": "Best multi-probe for smoking",
+          "de": "Beste Mehrfühler-Lösung zum Smoken",
+          "es": "Mejor multisonda para ahumar",
+          "it": "Miglior multisonda per affumicare",
+          "nl": "Beste meersondemodel om te roken"
+        },
+        "why": {
+          "fr": "Quatre prises de sonde, écran et dos aimanté : suivez plusieurs pièces et la température du fumoir pour un budget réduit.",
+          "en": "Four probe sockets, a display and a magnetic back: track several cuts and the smoker temperature on a small budget.",
+          "de": "Vier Fühleranschlüsse, Display und Magnetrückseite: mehrere Stücke und die Smoker-Temperatur mit kleinem Budget überwachen.",
+          "es": "Cuatro tomas de sonda, pantalla y trasera imantada: controla varias piezas y la temperatura del ahumador con poco presupuesto.",
+          "it": "Quattro prese per sonde, display e retro magnetico: segui più pezzi e la temperatura dell’affumicatore con un budget ridotto.",
+          "nl": "Vier sondeaansluitingen, display en magnetische achterkant: volg meerdere stukken en de smokertemperatuur voor een klein budget."
+        }
+      }
+    ]
+  },
+  "cafetiere-connectee-guide": {
+    "question": {
+      "fr": "Quelle cafetière à grain choisir en 2026, connectée ou non ?",
+      "en": "Which bean-to-cup coffee machine should you choose in 2026, smart or not?",
+      "de": "Welchen Kaffeevollautomaten sollte man 2026 wählen, smart oder nicht?",
+      "es": "¿Qué cafetera superautomática elegir en 2026, inteligente o no?",
+      "it": "Quale macchina da caffè superautomatica scegliere nel 2026, smart o no?",
+      "nl": "Welke volautomatische koffiemachine kies je in 2026, slim of niet?"
+    },
+    "picks": [
+      {
+        "model": "De'Longhi Magnifica Evo ECAM290.51.B",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Gesamtwahl",
+          "es": "Mejor opción global",
+          "it": "Migliore in assoluto",
+          "nl": "Beste allround keuze"
+        },
+        "why": {
+          "fr": "Broyeur à 13 réglages, carafe LatteCrema Hot et 7 recettes directes : très simple au quotidien, mais sans application.",
+          "en": "13-setting grinder, LatteCrema Hot carafe and 7 one-touch recipes: very easy day to day, though it has no app.",
+          "de": "Mahlwerk mit 13 Stufen, LatteCrema-Hot-Karaffe und 7 Direktwahl-Rezepte: im Alltag sehr einfach, allerdings ohne App.",
+          "es": "Molinillo de 13 ajustes, jarra LatteCrema Hot y 7 recetas directas: muy sencilla en el día a día, aunque sin app.",
+          "it": "Macinacaffè a 13 livelli, caraffa LatteCrema Hot e 7 ricette dirette: semplicissima ogni giorno, ma senza app.",
+          "nl": "Molen met 13 standen, LatteCrema Hot-karaf en 7 directe recepten: heel eenvoudig in gebruik, maar zonder app."
+        }
+      },
+      {
+        "model": "Philips 5500 LatteGo Series EP5541/50",
+        "role": {
+          "fr": "Entretien le plus simple",
+          "en": "Easiest to maintain",
+          "de": "Am pflegeleichtesten",
+          "es": "La más fácil de mantener",
+          "it": "La più facile da pulire",
+          "nl": "Makkelijkst te onderhouden"
+        },
+        "why": {
+          "fr": "Système lait LatteGo en deux pièces sans tube, 20 boissons chaudes et glacées et 4 profils utilisateurs sur l'écran.",
+          "en": "Two-piece, tube-free LatteGo milk system, 20 hot and iced drinks and 4 user profiles on the display.",
+          "de": "Zweiteiliges LatteGo-Milchsystem ohne Schläuche, 20 heiße und eisgekühlte Getränke und 4 Benutzerprofile am Display.",
+          "es": "Sistema de leche LatteGo de dos piezas sin tubos, 20 bebidas calientes y frías y 4 perfiles de usuario en pantalla.",
+          "it": "Sistema latte LatteGo in due pezzi senza tubi, 20 bevande calde e fredde e 4 profili utente sul display.",
+          "nl": "Tweedelig LatteGo-melksysteem zonder slangetjes, 20 warme en ijskoude dranken en 4 gebruikersprofielen op het display."
+        }
+      },
+      {
+        "model": "Krups Evidence One EA895N10",
+        "role": {
+          "fr": "Idéale pour les familles",
+          "en": "Best for families",
+          "de": "Ideal für Familien",
+          "es": "Ideal para familias",
+          "it": "Ideale per le famiglie",
+          "nl": "Ideaal voor gezinnen"
+        },
+        "why": {
+          "fr": "Réservoir de 2,3 litres, 12 boissons dont l'eau chaude pour le thé et boissons lactées en double tasse.",
+          "en": "2.3-litre tank, 12 drinks including hot water for tea, and milk drinks two cups at a time.",
+          "de": "2,3-Liter-Tank, 12 Getränke inklusive Heißwasser für Tee und Milchgetränke für zwei Tassen gleichzeitig.",
+          "es": "Depósito de 2,3 litros, 12 bebidas con agua caliente para el té y bebidas con leche en doble taza.",
+          "it": "Serbatoio da 2,3 litri, 12 bevande con acqua calda per il tè e bevande al latte in doppia tazza.",
+          "nl": "Reservoir van 2,3 liter, 12 dranken inclusief heet water voor thee en melkdranken voor twee kopjes tegelijk."
+        }
+      }
+    ]
+  },
+  "capteur-sol-humidite-jardin": {
+    "question": {
+      "fr": "Quel est le meilleur capteur d'humidité du sol connecté en 2026 ?",
+      "en": "What is the best smart soil moisture sensor in 2026?",
+      "de": "Welcher ist der beste vernetzte Bodenfeuchtesensor 2026?",
+      "es": "¿Cuál es el mejor sensor de humedad del suelo conectado en 2026?",
+      "it": "Qual è il miglior sensore di umidità del suolo connesso nel 2026?",
+      "nl": "Wat is de beste slimme bodemvochtsensor in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Gardena smart Sensor",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Il mesure l'humidité au niveau des racines et suspend l'arrosage des programmateurs Gardena smart tant que la terre reste humide.",
+          "en": "It measures moisture at root level and holds back Gardena smart water timers while the soil is still damp.",
+          "de": "Er misst die Feuchte im Wurzelbereich und setzt Gardena-smart-Bewässerungscomputer aus, solange der Boden feucht ist.",
+          "es": "Mide la humedad a la altura de las raíces y suspende los programadores Gardena smart mientras la tierra sigue húmeda.",
+          "it": "Misura l'umidità all'altezza delle radici e sospende i programmatori Gardena smart finché la terra resta umida.",
+          "nl": "Hij meet het vocht in de wortelzone en stelt Gardena smart-watertimers uit zolang de grond vochtig is."
+        }
+      },
+      {
+        "model": "Ecowitt WH51",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Capteur radio IP66 sur pile AA, jusqu'à 16 par passerelle Ecowitt et compatible Home Assistant pour suivre plusieurs zones.",
+          "en": "An IP66 radio sensor on one AA battery, up to 16 per Ecowitt gateway and Home Assistant compatible for multi-zone gardens.",
+          "de": "IP66-Funksensor mit AA-Batterie, bis zu 16 pro Ecowitt-Gateway und Home-Assistant-kompatibel für mehrere Zonen.",
+          "es": "Sensor de radio IP66 con pila AA, hasta 16 por pasarela Ecowitt y compatible con Home Assistant para varias zonas.",
+          "it": "Sensore radio IP66 a batteria AA, fino a 16 per gateway Ecowitt e compatibile con Home Assistant per più zone.",
+          "nl": "IP66-radiosensor op één AA-batterij, tot 16 per Ecowitt-gateway en compatibel met Home Assistant voor meerdere zones."
+        }
+      },
+      {
+        "model": "ThirdReality Smart Soil Moisture Sensor Gen2",
+        "role": {
+          "fr": "Idéal pour la domotique Zigbee",
+          "en": "Best for Zigbee smart homes",
+          "de": "Ideal für Zigbee-Smart-Homes",
+          "es": "Ideal para domótica Zigbee",
+          "it": "Ideale per la domotica Zigbee",
+          "nl": "Ideaal voor Zigbee-smart-homes"
+        },
+        "why": {
+          "fr": "Capteur capacitif Zigbee 3.0 (humidité et température) qui rejoint Home Assistant, Hubitat, SmartThings ou Homey sans application dédiée.",
+          "en": "A capacitive Zigbee 3.0 sensor (moisture and temperature) that joins Home Assistant, Hubitat, SmartThings or Homey without a dedicated app.",
+          "de": "Kapazitiver Zigbee-3.0-Sensor (Feuchte und Temperatur) für Home Assistant, Hubitat, SmartThings oder Homey ohne eigene App.",
+          "es": "Sensor capacitivo Zigbee 3.0 (humedad y temperatura) que se une a Home Assistant, Hubitat, SmartThings u Homey sin app propia.",
+          "it": "Sensore capacitivo Zigbee 3.0 (umidità e temperatura) che si unisce a Home Assistant, Hubitat, SmartThings o Homey senza app dedicata.",
+          "nl": "Capacitieve Zigbee 3.0-sensor (vocht en temperatuur) die werkt met Home Assistant, Hubitat, SmartThings of Homey zonder eigen app."
+        }
+      }
+    ]
+  },
+  "cave-vin-connectee-guide": {
+    "question": {
+      "fr": "Quelle est la meilleure cave à vin connectée en 2026 ?",
+      "en": "What is the best smart wine cellar in 2026?",
+      "de": "Welcher ist der beste smarte Weinklimaschrank 2026?",
+      "es": "¿Cuál es la mejor vinoteca inteligente en 2026?",
+      "it": "Qual è la migliore cantinetta vino smart nel 2026?",
+      "nl": "Wat is de beste slimme wijnkast in 2026?"
+    },
+    "picks": [
+      {
+        "model": "La Sommelière ECELLAR185",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "185 bouteilles, deux zones et 14 clayettes connectées qui détectent chaque bouteille, avec inventaire automatique dans l’application Vinotag.",
+          "en": "185 bottles, two zones and 14 connected shelves that detect every bottle, with automatic inventory in the Vinotag app.",
+          "de": "185 Flaschen, zwei Zonen und 14 vernetzte Regalböden, die jede Flasche erkennen, mit automatischem Inventar in der App Vinotag.",
+          "es": "185 botellas, dos zonas y 14 baldas conectadas que detectan cada botella, con inventario automático en la aplicación Vinotag.",
+          "it": "185 bottiglie, due zone e 14 ripiani connessi che rilevano ogni bottiglia, con inventario automatico nell’app Vinotag.",
+          "nl": "185 flessen, twee zones en 14 verbonden legplanken die elke fles detecteren, met automatische inventaris in de app Vinotag."
+        }
+      },
+      {
+        "model": "Haier Wine Bank 50 HWS77GDAU1",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "77 bouteilles en deux zones (5-10 °C et 10-18 °C), humidité gérée, 37 dB et application hOn avec scan d’étiquettes Vivino.",
+          "en": "77 bottles in two zones (5-10 °C and 10-18 °C), humidity management, 37 dB and the hOn app with Vivino label scanning.",
+          "de": "77 Flaschen in zwei Zonen (5-10 °C und 10-18 °C), Feuchtigkeitsmanagement, 37 dB und hOn-App mit Vivino-Etikett-Scan.",
+          "es": "77 botellas en dos zonas (5-10 °C y 10-18 °C), gestión de la humedad, 37 dB y aplicación hOn con escaneo de etiquetas Vivino.",
+          "it": "77 bottiglie in due zone (5-10 °C e 10-18 °C), gestione dell’umidità, 37 dB e app hOn con scansione delle etichette Vivino.",
+          "nl": "77 flessen in twee zones (5-10 °C en 10-18 °C), vochtbeheer, 37 dB en de hOn-app met Vivino-etiketscan."
+        }
+      },
+      {
+        "model": "Liebherr WPbli 5231 GrandCru Selection",
+        "role": {
+          "fr": "Idéal pour une grande cave de garde",
+          "en": "Best for large ageing collections",
+          "de": "Ideal für große Lagersammlungen",
+          "es": "Ideal para grandes colecciones de guarda",
+          "it": "Ideale per grandi collezioni da invecchiamento",
+          "nl": "Ideaal voor grote bewaarcollecties"
+        },
+        "why": {
+          "fr": "229 bouteilles à température unique, VibrateSafe, HumidityControl et alarmes complètes (porte, température, coupure) via l’application SmartDevice.",
+          "en": "229 bottles at a single temperature, VibrateSafe, HumidityControl and full alarms (door, temperature, power cut) via the SmartDevice app.",
+          "de": "229 Flaschen bei einer Temperatur, VibrateSafe, HumidityControl und umfassende Alarme (Tür, Temperatur, Stromausfall) per SmartDevice-App.",
+          "es": "229 botellas a una sola temperatura, VibrateSafe, HumidityControl y alarmas completas (puerta, temperatura, corte) con la app SmartDevice.",
+          "it": "229 bottiglie a temperatura unica, VibrateSafe, HumidityControl e allarmi completi (porta, temperatura, blackout) con l’app SmartDevice.",
+          "nl": "229 flessen op één temperatuur, VibrateSafe, HumidityControl en volledige alarmen (deur, temperatuur, stroomuitval) via de SmartDevice-app."
+        }
+      }
+    ]
+  },
+  "climatiseur-mobile-vs-ventilateur": {
+    "question": {
+      "fr": "Climatiseur mobile ou ventilateur : quel modèle choisir en 2026 ?",
+      "en": "Portable air conditioner or fan: which model to choose in 2026?",
+      "de": "Mobiles Klimagerät oder Ventilator: welches Modell 2026?",
+      "es": "Aire acondicionado portátil o ventilador: ¿qué modelo elegir en 2026?",
+      "it": "Condizionatore portatile o ventilatore: quale modello scegliere nel 2026?",
+      "nl": "Mobiele airco of ventilator: welk model kies je in 2026?"
+    },
+    "picks": [
+      {
+        "model": "De'Longhi Pinguino PAC EL112 CST WiFi",
+        "role": {
+          "fr": "Meilleur choix pour les canicules",
+          "en": "Best for heatwaves",
+          "de": "Beste Wahl für Hitzewellen",
+          "es": "Mejor opción para olas de calor",
+          "it": "Miglior scelta per le ondate di caldo",
+          "nl": "Beste keuze voor hittegolven"
+        },
+        "why": {
+          "fr": "Seul un climatiseur fait vraiment baisser la température : ce monobloc de 11 000 BTU/h, classé A+, se pilote par application, Alexa ou Google.",
+          "en": "Only an air conditioner truly lowers the temperature: this 11,000 BTU/h, A+ rated monobloc can be run from an app, Alexa or Google.",
+          "de": "Nur eine Klimaanlage senkt die Temperatur wirklich: Dieses Monoblock-Gerät mit 11.000 BTU/h und Klasse A+ lässt sich per App, Alexa oder Google steuern.",
+          "es": "Solo un aire acondicionado baja de verdad la temperatura: este monobloque de 11.000 BTU/h y clase A+ se controla por app, Alexa o Google.",
+          "it": "Solo un climatizzatore abbassa davvero la temperatura: questo monoblocco da 11.000 BTU/h in classe A+ si controlla da app, Alexa o Google.",
+          "nl": "Alleen een airco verlaagt echt de temperatuur: deze monoblock van 11.000 BTU/h met klasse A+ bedien je via app, Alexa of Google."
+        }
+      },
+      {
+        "model": "Xiaomi Smart Standing Fan 2 Pro",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "Pour des étés modérés, ce ventilateur sur pied à moteur DC de 24 W reste discret, consomme très peu et se pilote par application, sans installation.",
+          "en": "For moderate summers, this 24 W DC pedestal fan stays quiet, uses very little power and is app-controlled, with no installation needed.",
+          "de": "Für gemäßigte Sommer: Dieser Standventilator mit 24-W-DC-Motor ist leise, sehr sparsam und per App steuerbar, ganz ohne Installation.",
+          "es": "Para veranos moderados, este ventilador de pie con motor DC de 24 W es silencioso, consume muy poco y se controla por app, sin instalación.",
+          "it": "Per estati moderate, questo ventilatore a piantana con motore DC da 24 W è silenzioso, consuma pochissimo e si controlla da app, senza installazione.",
+          "nl": "Voor gematigde zomers is deze statiefventilator met DC-motor van 24 W stil, zeer zuinig en via de app te bedienen, zonder installatie."
+        }
+      },
+      {
+        "model": "Midea PortaSplit",
+        "role": {
+          "fr": "Le plus silencieux pour une chambre",
+          "en": "Quietest for bedrooms",
+          "de": "Am leisesten fürs Schlafzimmer",
+          "es": "El más silencioso para el dormitorio",
+          "it": "Il più silenzioso per la camera",
+          "nl": "Stilst voor de slaapkamer"
+        },
+        "why": {
+          "fr": "Son compresseur reste dehors : il refroidit vraiment (12 000 BTU/h) avec un bruit intérieur annoncé dès 39 dB(A), et s'installe sans perçage.",
+          "en": "Its compressor stays outside, so it truly cools (12,000 BTU/h) with indoor noise quoted from 39 dB(A), and installs without drilling.",
+          "de": "Der Kompressor bleibt draußen: Es kühlt wirklich (12.000 BTU/h), innen ab 39 dB(A) laut Hersteller, und wird ohne Bohren montiert.",
+          "es": "Su compresor queda fuera: enfría de verdad (12.000 BTU/h) con un ruido interior declarado desde 39 dB(A) y se instala sin taladrar.",
+          "it": "Il compressore resta fuori: raffredda davvero (12.000 BTU/h) con rumore interno dichiarato da 39 dB(A) e si installa senza forare.",
+          "nl": "De compressor blijft buiten: hij koelt echt (12.000 BTU/h) met binnen opgegeven vanaf 39 dB(A) en wordt zonder boren geplaatst."
+        }
+      }
+    ]
+  },
+  "comparatif-airfryer-connecte-2026": {
+    "question": {
+      "fr": "Quel est le meilleur airfryer connecté WiFi en 2026 ?",
+      "en": "What is the best connected WiFi air fryer in 2026?",
+      "de": "Was ist die beste vernetzte WLAN-Heißluftfritteuse 2026?",
+      "es": "¿Cuál es la mejor freidora de aire conectada WiFi en 2026?",
+      "it": "Qual è la migliore friggitrice ad aria connessa WiFi nel 2026?",
+      "nl": "Wat is de beste slimme wifi-airfryer in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Philips Airfryer Combi XXL Connecté - 8.3L",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Gesamtwahl",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste algemene keuze"
+        },
+        "why": {
+          "fr": "8,3 L, 22 modes de cuisson, sonde de température intégrée et application HomeID qui envoie les réglages des recettes à l’appareil.",
+          "en": "8.3 L, 22 cooking functions, a built-in food thermometer and the HomeID app, which sends recipe settings to the appliance.",
+          "de": "8,3 L, 22 Garfunktionen, integriertes Speisethermometer und HomeID-App, die Rezepteinstellungen an das Gerät schickt.",
+          "es": "8,3 L, 22 funciones, sonda de temperatura integrada y app HomeID, que envía los ajustes de las recetas al aparato.",
+          "it": "8,3 L, 22 funzioni, sonda di temperatura integrata e app HomeID, che invia le impostazioni delle ricette all’apparecchio.",
+          "nl": "8,3 L, 22 functies, ingebouwde kernthermometer en de HomeID-app, die receptinstellingen naar het apparaat stuurt."
+        }
+      },
+      {
+        "model": "Xiaomi Smart Air Fryer Pro 4L",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Prix d’entrée de gamme, application Xiaomi Home avec plus de 100 recettes, programmation 24 h, fenêtre de contrôle et Google Assistant.",
+          "en": "Entry-level price, Xiaomi Home app with 100+ recipes, 24-hour scheduling, a viewing window and Google Assistant support.",
+          "de": "Einstiegspreis, Xiaomi-Home-App mit über 100 Rezepten, 24-Stunden-Zeitvorwahl, Sichtfenster und Google Assistant.",
+          "es": "Precio de entrada, app Xiaomi Home con más de 100 recetas, programación de 24 h, ventana de control y Google Assistant.",
+          "it": "Prezzo d’ingresso, app Xiaomi Home con oltre 100 ricette, programmazione 24 ore, finestra di controllo e Google Assistant.",
+          "nl": "Instapprijs, Xiaomi Home-app met meer dan 100 recepten, 24 uur uitgestelde start, kijkvenster en Google Assistant."
+        }
+      },
+      {
+        "model": "Cosori Dual Blaze Smart Air Fryer - 6.4L",
+        "role": {
+          "fr": "Meilleur pour une famille de 4",
+          "en": "Best for a family of four",
+          "de": "Beste Wahl für vier Personen",
+          "es": "Mejor para una familia de cuatro",
+          "it": "Migliore per una famiglia di quattro",
+          "nl": "Beste voor een gezin van vier"
+        },
+        "why": {
+          "fr": "Double résistance pour une cuisson homogène, 6,4 L pour 4 à 6 personnes, application VeSync et commande vocale Alexa ou Google.",
+          "en": "Dual heating elements for even cooking, 6.4 L for 4 to 6 people, the VeSync app and Alexa or Google voice control.",
+          "de": "Zwei Heizelemente für gleichmäßiges Garen, 6,4 L für 4 bis 6 Personen, VeSync-App und Sprachsteuerung per Alexa oder Google.",
+          "es": "Doble resistencia para una cocción uniforme, 6,4 L para 4 a 6 personas, app VeSync y control por voz con Alexa o Google.",
+          "it": "Doppia resistenza per una cottura uniforme, 6,4 L per 4-6 persone, app VeSync e controllo vocale con Alexa o Google.",
+          "nl": "Twee verwarmingselementen voor gelijkmatig garen, 6,4 L voor 4 tot 6 personen, VeSync-app en spraakbediening via Alexa of Google."
+        }
+      }
+    ]
+  },
+  "comparatif-camera-surveillance-exterieure": {
+    "question": {
+      "fr": "Quelle est la meilleure caméra de surveillance extérieure sans abonnement en 2026 ?",
+      "en": "What is the best outdoor security camera without a subscription in 2026?",
+      "de": "Welche ist die beste Außenkamera ohne Abo 2026?",
+      "es": "¿Cuál es la mejor cámara de vigilancia exterior sin suscripción en 2026?",
+      "it": "Qual è la migliore telecamera di sorveglianza esterna senza abbonamento nel 2026?",
+      "nl": "Wat is de beste buitencamera zonder abonnement in 2026?"
+    },
+    "picks": [
+      {
+        "model": "eufyCam S3 Pro",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Vidéo 4K, vision nocturne couleur, solaire intégré et stockage local sur la HomeBase S380, extensible jusqu’à 16 To, sans frais mensuels.",
+          "en": "4K video, colour night vision, built-in solar and local storage on the HomeBase S380, expandable to 16 TB, with no monthly fees.",
+          "de": "4K-Video, Farb-Nachtsicht, integriertes Solar und lokaler Speicher auf der HomeBase S380, bis 16 TB erweiterbar, ohne monatliche Kosten.",
+          "es": "Vídeo 4K, visión nocturna en color, solar integrado y almacenamiento local en la HomeBase S380, ampliable a 16 TB, sin cuotas mensuales.",
+          "it": "Video 4K, visione notturna a colori, solare integrato e archiviazione locale sulla HomeBase S380, espandibile a 16 TB, senza costi mensili.",
+          "nl": "4K-video, nachtzicht in kleur, ingebouwd zonnepaneel en lokale opslag op de HomeBase S380, uitbreidbaar tot 16 TB, zonder maandkosten."
+        }
+      },
+      {
+        "model": "TP-Link Tapo C520WS",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Caméra 2K motorisée qui couvre une cour entière depuis un seul point, avec suivi des mouvements et microSD jusqu’à 512 Go.",
+          "en": "A motorised 2K camera that covers a whole yard from one spot, with motion tracking and microSD up to 512 GB.",
+          "de": "Motorisierte 2K-Kamera, die einen ganzen Hof von einem Punkt aus abdeckt, mit Bewegungsverfolgung und microSD bis 512 GB.",
+          "es": "Cámara 2K motorizada que cubre un patio entero desde un solo punto, con seguimiento de movimiento y microSD de hasta 512 GB.",
+          "it": "Telecamera 2K motorizzata che copre un intero cortile da un solo punto, con tracciamento del movimento e microSD fino a 512 GB.",
+          "nl": "Gemotoriseerde 2K-camera die een hele binnenplaats vanaf één punt afdekt, met bewegingsvolging en microSD tot 512 GB."
+        }
+      },
+      {
+        "model": "Reolink RLC-833A",
+        "role": {
+          "fr": "Meilleure option filaire PoE",
+          "en": "Best wired PoE option",
+          "de": "Beste kabelgebundene PoE-Lösung",
+          "es": "Mejor opción cableada PoE",
+          "it": "Migliore opzione cablata PoE",
+          "nl": "Beste bedrade PoE-optie"
+        },
+        "why": {
+          "fr": "4K avec zoom optique 3x, alimentation et données par un seul câble Ethernet, et enregistrement continu possible sur un NVR Reolink.",
+          "en": "4K with 3x optical zoom, power and data over a single Ethernet cable, and continuous recording on a Reolink NVR.",
+          "de": "4K mit 3-fach optischem Zoom, Strom und Daten über ein Netzwerkkabel und Daueraufzeichnung auf einem Reolink-NVR.",
+          "es": "4K con zoom óptico 3x, corriente y datos por un solo cable Ethernet y grabación continua en un NVR de Reolink.",
+          "it": "4K con zoom ottico 3x, corrente e dati su un solo cavo Ethernet e registrazione continua su un NVR Reolink.",
+          "nl": "4K met 3x optische zoom, stroom en data via één netwerkkabel en continue opname op een Reolink-NVR."
+        }
+      }
+    ]
+  },
+  "comparatif-multicuiseur-connecte": {
+    "question": {
+      "fr": "Quel est le meilleur multicuiseur connecté en 2026 ?",
+      "en": "What is the best smart multicooker in 2026?",
+      "de": "Welcher ist der beste vernetzte Multikocher 2026?",
+      "es": "¿Cuál es la mejor olla multifunción conectada en 2026?",
+      "it": "Qual è il miglior multicooker connesso nel 2026?",
+      "nl": "Wat is de beste slimme multicooker in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Moulinex Cookeo Touch WiFi - 6L",
+        "role": {
+          "fr": "Meilleur choix connecté",
+          "en": "Best connected choice",
+          "de": "Beste vernetzte Wahl",
+          "es": "Mejor opción conectada",
+          "it": "Migliore scelta connessa",
+          "nl": "Beste verbonden keuze"
+        },
+        "why": {
+          "fr": "Vraiment connecté en Wi-Fi : 6 L, 13 programmes, écran tactile qui guide chaque recette et nouvelles recettes via l’application Moulinex.",
+          "en": "Genuinely Wi-Fi connected: 6 L, 13 programmes, a touchscreen that guides every recipe and new recipes through the Moulinex app.",
+          "de": "Wirklich per WLAN vernetzt: 6 L, 13 Programme, Touchscreen mit geführten Rezepten und neue Rezepte über die Moulinex-App.",
+          "es": "Conectada de verdad por wifi: 6 L, 13 programas, pantalla táctil que guía cada receta y recetas nuevas con la app de Moulinex.",
+          "it": "Davvero connesso via Wi-Fi: 6 L, 13 programmi, touchscreen che guida ogni ricetta e nuove ricette tramite l’app Moulinex.",
+          "nl": "Echt verbonden via wifi: 6 L, 13 programma’s, een touchscreen dat elk recept begeleidt en nieuwe recepten via de Moulinex-app."
+        }
+      },
+      {
+        "model": "Ninja Foodi MAX 15-en-1 SmartLid OP500EU - 7.5L",
+        "role": {
+          "fr": "Le plus polyvalent (non connecté)",
+          "en": "Most versatile (not connected)",
+          "de": "Am vielseitigsten (nicht vernetzt)",
+          "es": "La más versátil (sin conexión)",
+          "it": "Il più versatile (non connesso)",
+          "nl": "Veelzijdigste (niet verbonden)"
+        },
+        "why": {
+          "fr": "Autocuiseur et airfryer sous un seul couvercle, 7,5 L pour les grandes familles. Attention : ni Wi-Fi ni application.",
+          "en": "Pressure cooker and air fryer under one lid, 7.5 L for large families. Note: no Wi-Fi and no app.",
+          "de": "Schnellkochtopf und Heißluftfritteuse unter einem Deckel, 7,5 L für große Familien. Achtung: kein WLAN und keine App.",
+          "es": "Olla a presión y freidora de aire bajo una sola tapa, 7,5 L para familias numerosas. Ojo: sin wifi ni app.",
+          "it": "Pentola a pressione e friggitrice ad aria sotto un unico coperchio, 7,5 L per famiglie numerose. Attenzione: niente Wi-Fi né app.",
+          "nl": "Snelkookpan en airfryer onder één deksel, 7,5 L voor grote gezinnen. Let op: geen wifi en geen app."
+        }
+      },
+      {
+        "model": "Instant Pot Duo Plus WhisperQuiet - 5.7L",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix (non connecté)",
+          "en": "Best value (not connected)",
+          "de": "Bestes Preis-Leistungs-Verhältnis (nicht vernetzt)",
+          "es": "Mejor relación calidad-precio (sin conexión)",
+          "it": "Miglior rapporto qualità-prezzo (non connesso)",
+          "nl": "Beste prijs-kwaliteit (niet verbonden)"
+        },
+        "why": {
+          "fr": "Multicuiseur 9-en-1 simple et fiable, cuve inox et évacuation de vapeur silencieuse. Pas de Wi-Fi ni d’application.",
+          "en": "A simple, reliable 9-in-1 multicooker with a stainless steel pot and quiet steam release. No Wi-Fi and no app.",
+          "de": "Einfacher, zuverlässiger 9-in-1-Multikocher mit Edelstahltopf und leisem Dampfablass. Kein WLAN und keine App.",
+          "es": "Olla 9 en 1 sencilla y fiable, con cubeta de acero inoxidable y salida de vapor silenciosa. Sin wifi ni app.",
+          "it": "Multicooker 9-in-1 semplice e affidabile, con vasca inox e sfiato del vapore silenzioso. Niente Wi-Fi né app.",
+          "nl": "Eenvoudige, betrouwbare 9-in-1-multicooker met rvs-pan en stille stoomafvoer. Geen wifi en geen app."
+        }
+      }
+    ]
+  },
+  "comparatif-purificateur-air-allergie": {
+    "question": {
+      "fr": "Quel est le meilleur purificateur d'air pour les allergies en 2026 ?",
+      "en": "What is the best air purifier for allergies in 2026?",
+      "de": "Welcher ist der beste Luftreiniger für Allergiker 2026?",
+      "es": "¿Cuál es el mejor purificador de aire para alergias en 2026?",
+      "it": "Qual è il miglior purificatore d'aria per le allergie nel 2026?",
+      "nl": "Wat is de beste luchtreiniger voor allergie in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Levoit Core 400S",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Filtre HEPA, CADR annoncé de 400 m³/h, capteur laser PM2.5 et mode nuit : assez polyvalent pour un séjour le jour et une chambre la nuit.",
+          "en": "HEPA filter, a claimed 400 m³/h CADR, a laser PM2.5 sensor and sleep mode: versatile enough for a living room by day and a bedroom at night.",
+          "de": "HEPA-Filter, angegebener CADR von 400 m³/h, Laser-PM2,5-Sensor und Schlafmodus: vielseitig für Wohnzimmer am Tag und Schlafzimmer nachts.",
+          "es": "Filtro HEPA, CADR declarado de 400 m³/h, sensor láser PM2,5 y modo nocturno: versátil para el salón de día y el dormitorio de noche.",
+          "it": "Filtro HEPA, CADR dichiarato di 400 m³/h, sensore laser PM2,5 e modalità notte: versatile per il soggiorno di giorno e la camera di notte.",
+          "nl": "HEPA-filter, opgegeven CADR van 400 m³/u, laser-PM2,5-sensor en slaapstand: veelzijdig voor de woonkamer overdag en de slaapkamer 's nachts."
+        }
+      },
+      {
+        "model": "Levoit Core 300S",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "Compact, avec filtre HEPA, CADR annoncé de 240 m³/h, mode auto et environ 22 dB en veille : l'essentiel pour purifier une chambre.",
+          "en": "Compact, with a HEPA filter, a claimed 240 m³/h CADR, auto mode and about 22 dB in sleep mode: the essentials for a bedroom.",
+          "de": "Kompakt, mit HEPA-Filter, angegebenem CADR von 240 m³/h, Automatik und rund 22 dB im Schlafmodus: das Wesentliche fürs Schlafzimmer.",
+          "es": "Compacto, con filtro HEPA, CADR declarado de 240 m³/h, modo automático y unos 22 dB en modo nocturno: lo esencial para un dormitorio.",
+          "it": "Compatto, con filtro HEPA, CADR dichiarato di 240 m³/h, modalità auto e circa 22 dB in modalità notte: l'essenziale per la camera.",
+          "nl": "Compact, met HEPA-filter, opgegeven CADR van 240 m³/u, automatische stand en ongeveer 22 dB in slaapstand: het belangrijkste voor de slaapkamer."
+        }
+      },
+      {
+        "model": "Blueair Blue Pure 411i Max",
+        "role": {
+          "fr": "Le plus discret la nuit",
+          "en": "Quietest for sleeping",
+          "de": "Am leisesten zum Schlafen",
+          "es": "El más silencioso para dormir",
+          "it": "Il più silenzioso per dormire",
+          "nl": "Stilste om bij te slapen"
+        },
+        "why": {
+          "fr": "Plage sonore annoncée de 18 à 46 dB, préfiltre lavable, capteur PM2.5 et application : idéal pour les dormeurs sensibles au bruit.",
+          "en": "A claimed 18 to 46 dB noise range, washable pre-filter, PM2.5 sensor and app: ideal for noise-sensitive sleepers.",
+          "de": "Angegebener Geräuschbereich von 18 bis 46 dB, waschbarer Vorfilter, PM2,5-Sensor und App: ideal für geräuschempfindliche Schläfer.",
+          "es": "Rango de ruido declarado de 18 a 46 dB, prefiltro lavable, sensor PM2,5 y app: ideal para quienes son sensibles al ruido al dormir.",
+          "it": "Gamma di rumore dichiarata da 18 a 46 dB, prefiltro lavabile, sensore PM2,5 e app: ideale per chi dorme male con il rumore.",
+          "nl": "Opgegeven geluidsbereik van 18 tot 46 dB, wasbaar voorfilter, PM2,5-sensor en app: ideaal voor slapers die gevoelig zijn voor geluid."
+        }
+      }
+    ]
+  },
+  "comparatif-robot-aspirateur-laveur": {
+    "question": {
+      "fr": "Quel est le meilleur robot aspirateur laveur en 2026 ?",
+      "en": "What is the best robot vacuum mop combo in 2026?",
+      "de": "Welcher ist der beste Saugroboter mit Wischfunktion 2026?",
+      "es": "¿Cuál es el mejor robot aspirador y fregasuelos en 2026?",
+      "it": "Qual è il miglior robot aspirapolvere lavapavimenti nel 2026?",
+      "nl": "Wat is de beste robotstofzuiger met dweilfunctie in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Dreame X50 Ultra Complete",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "20 000 Pa annoncés, serpillère et brosse extensibles, lavage des serpillères à 80 °C et franchissement de seuils jusqu’à 6 cm.",
+          "en": "Claimed 20,000 Pa, extending mop and side brush, 80 °C mop washing and the ability to climb thresholds up to 6 cm.",
+          "de": "20.000 Pa laut Hersteller, ausfahrbarer Mopp und Seitenbürste, Moppwäsche mit 80 °C und Schwellen bis 6 cm.",
+          "es": "20.000 Pa anunciados, mopa y cepillo lateral extensibles, lavado de mopas a 80 °C y umbrales de hasta 6 cm.",
+          "it": "20.000 Pa dichiarati, panno e spazzola laterale estensibili, lavaggio dei panni a 80 °C e soglie fino a 6 cm.",
+          "nl": "20.000 Pa volgens de fabrikant, uitschuifbare dweil en zijborstel, dweilreiniging op 80 °C en drempels tot 6 cm."
+        }
+      },
+      {
+        "model": "Dreame L40 Ultra",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Une station complète avec lavage des serpillères à 65 °C, séchage et serpillère extensible, dans une gamme plus accessible.",
+          "en": "A full dock with 65 °C mop washing, warm-air drying and an extending mop, in a more accessible tier.",
+          "de": "Komplettstation mit Moppwäsche bei 65 °C, Warmlufttrocknung und ausfahrbarem Mopp in einer zugänglicheren Klasse.",
+          "es": "Base completa con lavado de mopas a 65 °C, secado con aire caliente y mopa extensible, en una gama más accesible.",
+          "it": "Stazione completa con lavaggio dei panni a 65 °C, asciugatura ad aria calda e panno estensibile, in una fascia più accessibile.",
+          "nl": "Volledig station met dweilreiniging op 65 °C, drogen met warme lucht en een uitschuifbare dweil, in een toegankelijker segment."
+        }
+      },
+      {
+        "model": "Roborock Qrevo Curv 2 Flow",
+        "role": {
+          "fr": "Idéal pour les grands sols durs",
+          "en": "Best for large hard floors",
+          "de": "Ideal für große Hartböden",
+          "es": "Ideal para grandes suelos duros",
+          "it": "Ideale per grandi pavimenti duri",
+          "nl": "Ideaal voor grote harde vloeren"
+        },
+        "why": {
+          "fr": "Son rouleau SpiraFlow est arrosé d’eau propre et raclé en continu, efficace sur les taches collantes ; compatible Matter.",
+          "en": "Its SpiraFlow roller is fed clean water and scraped continuously, effective on sticky spills; it also supports Matter.",
+          "de": "Die SpiraFlow-Walze wird laufend mit Frischwasser versorgt und abgestreift, stark bei klebrigen Flecken; mit Matter.",
+          "es": "Su rodillo SpiraFlow recibe agua limpia y se raspa en continuo, eficaz con manchas pegajosas; compatible con Matter.",
+          "it": "Il rullo SpiraFlow riceve acqua pulita ed è raschiato in continuo, efficace sulle macchie appiccicose; compatibile Matter.",
+          "nl": "De SpiraFlow-rol krijgt continu schoon water en wordt afgeschraapt, sterk bij plakkerige vlekken; met Matter."
+        }
+      }
+    ]
+  },
+  "comparatif-smart-plugs-mesure-energie": {
+    "question": {
+      "fr": "Quelle est la meilleure prise connectée avec mesure de consommation en 2026 ?",
+      "en": "What is the best smart plug with energy monitoring in 2026?",
+      "de": "Welche ist die beste smarte Steckdose mit Verbrauchsmessung 2026?",
+      "es": "¿Cuál es el mejor enchufe inteligente con medición de consumo en 2026?",
+      "it": "Qual è la migliore presa smart con misurazione dei consumi nel 2026?",
+      "nl": "Wat is de beste slimme stekker met energiemeting in 2026?"
+    },
+    "picks": [
+      {
+        "model": "TP-Link Tapo P115 Prise Connectée avec Suivi Conso",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Mini-prise 16 A / 3 680 W avec mesure en temps réel et historique, application Tapo claire et compatibilité Alexa et Google.",
+          "en": "A 16 A / 3,680 W mini plug (EU) with live and historical monitoring, a clear Tapo app and Alexa and Google support.",
+          "de": "Mini-Steckdose mit 16 A / 3.680 W, Echtzeitmessung mit Verlauf, übersichtlicher Tapo-App sowie Alexa und Google.",
+          "es": "Mini enchufe de 16 A / 3.680 W con medición en tiempo real e historial, app Tapo clara y compatibilidad con Alexa y Google.",
+          "it": "Mini presa da 16 A / 3.680 W con misura in tempo reale e storico, app Tapo chiara e compatibilità con Alexa e Google.",
+          "nl": "Mini-stekker van 16 A / 3.680 W met realtime meting en geschiedenis, een overzichtelijke Tapo-app en Alexa en Google."
+        }
+      },
+      {
+        "model": "Meross MSS210P Prise Connectée HomeKit 16A (lot de 2)",
+        "role": {
+          "fr": "Alternative pour Apple Maison",
+          "en": "Apple Home alternative",
+          "de": "Alternative für Apple Home",
+          "es": "Alternativa para Apple Casa",
+          "it": "Alternativa per Apple Casa",
+          "nl": "Alternatief voor Apple Woning"
+        },
+        "why": {
+          "fr": "Prise 16 A avec mesure de consommation, pilotable depuis Apple Maison et Siri dans sa version HomeKit, ainsi qu’Alexa et Google.",
+          "en": "A 16 A plug with energy monitoring that works with Apple Home and Siri in its HomeKit version, plus Alexa and Google.",
+          "de": "16-A-Steckdose mit Verbrauchsmessung, in der HomeKit-Version über Apple Home und Siri sowie Alexa und Google steuerbar.",
+          "es": "Enchufe de 16 A con medición de consumo, controlable desde Apple Casa y Siri en su versión HomeKit, además de Alexa y Google.",
+          "it": "Presa da 16 A con misura dei consumi, controllabile da Apple Casa e Siri nella versione HomeKit, oltre che con Alexa e Google.",
+          "nl": "16 A-stekker met energiemeting, te bedienen via Apple Woning en Siri in de HomeKit-versie, plus Alexa en Google."
+        }
+      },
+      {
+        "model": "TP-Link Tapo P100 Pack de 4 Prises Connectées",
+        "role": {
+          "fr": "Pour automatiser sans mesure",
+          "en": "Automation without monitoring",
+          "de": "Automatisieren ohne Messung",
+          "es": "Para automatizar sin medir",
+          "it": "Per automatizzare senza misurare",
+          "nl": "Automatiseren zonder meten"
+        },
+        "why": {
+          "fr": "Sans mesure d’énergie et limité à 10 A, ce pack complète une P115 pour programmer lampes, chargeurs et petits appareils.",
+          "en": "With no energy monitoring and a 10 A limit, this pack complements a P115 for scheduling lamps, chargers and small devices.",
+          "de": "Ohne Energiemessung und auf 10 A begrenzt ergänzt dieses Pack eine P115, um Lampen, Ladegeräte und Kleingeräte zu planen.",
+          "es": "Sin medición de energía y limitado a 10 A, este pack complementa un P115 para programar lámparas, cargadores y aparatos pequeños.",
+          "it": "Senza misura dei consumi e limitato a 10 A, questo pack completa una P115 per programmare lampade, caricatori e piccoli apparecchi.",
+          "nl": "Zonder energiemeting en beperkt tot 10 A vult dit pack een P115 aan om lampen, laders en kleine apparaten in te plannen."
+        }
+      }
+    ]
+  },
+  "cookeo-vs-thermomix-vs-airfryer": {
+    "question": {
+      "fr": "Cookeo, Thermomix ou airfryer : lequel choisir en 2026 ?",
+      "en": "Multicooker, Thermomix or air fryer: which should you choose in 2026?",
+      "de": "Multikocher, Thermomix oder Airfryer: Was sollten Sie 2026 wählen?",
+      "es": "Olla programable, Thermomix o freidora de aire: ¿cuál elegir en 2026?",
+      "it": "Multicooker, Bimby o friggitrice ad aria: quale scegliere nel 2026?",
+      "nl": "Multicooker, Thermomix of airfryer: welke kies je in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Moulinex Cookeo Touch WiFi - 6L",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Cuve de 6 L, cuisson sous pression et 250 recettes guidées : le plus utile au quotidien pour préparer vite des plats complets en famille.",
+          "en": "A 6 L pot, pressure cooking and 250 guided recipes: the most useful everyday choice for cooking complete family meals quickly.",
+          "de": "6-Liter-Topf, Druckgaren und 250 geführte Rezepte: im Familienalltag am nützlichsten, um schnell komplette Mahlzeiten zu kochen.",
+          "es": "Cubeta de 6 L, cocción a presión y 250 recetas guiadas: la más útil a diario para preparar rápido platos completos en familia.",
+          "it": "Vasca da 6 L, cottura a pressione e 250 ricette guidate: il più utile ogni giorno per preparare in fretta piatti completi in famiglia.",
+          "nl": "Pan van 6 liter, drukkoken en 250 begeleide recepten: het nuttigst in het dagelijks leven om snel complete gezinsmaaltijden te maken."
+        }
+      },
+      {
+        "model": "Philips Airfryer Série 3000 XL - 6.2L",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "6,2 L, 14 modes et application NutriU : un airfryer simple pour le croustillant au quotidien, idéal en complément d’un multicuiseur.",
+          "en": "6.2 L, 14 modes and the NutriU app: a simple air fryer for everyday crispy food, ideal alongside a multicooker.",
+          "de": "6,2 Liter, 14 Modi und NutriU-App: ein einfacher Airfryer für Knuspriges im Alltag, ideal als Ergänzung zum Multikocher.",
+          "es": "6,2 L, 14 modos y app NutriU: una freidora sencilla para el crujiente diario, ideal como complemento de una olla programable.",
+          "it": "6,2 L, 14 modalità e app NutriU: una friggitrice semplice per il croccante quotidiano, ideale accanto a un multicooker.",
+          "nl": "6,2 liter, 14 standen en de NutriU-app: een eenvoudige airfryer voor dagelijks krokant, ideaal naast een multicooker."
+        }
+      },
+      {
+        "model": "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+        "role": {
+          "fr": "Idéal grandes familles",
+          "en": "Best for large families",
+          "de": "Ideal für große Familien",
+          "es": "Ideal para familias numerosas",
+          "it": "Ideale per famiglie numerose",
+          "nl": "Ideaal voor grote gezinnen"
+        },
+        "why": {
+          "fr": "Deux tiroirs superposés de 4,75 L pour cuire plat et accompagnement en même temps, avec une emprise réduite sur le plan de travail.",
+          "en": "Two stacked 4.75 L drawers cook a main and a side at the same time while taking up less worktop width.",
+          "de": "Zwei übereinanderliegende 4,75-Liter-Schubladen garen Hauptgericht und Beilage gleichzeitig und brauchen weniger Platz in der Breite.",
+          "es": "Dos cajones superpuestos de 4,75 L cocinan plato principal y guarnición a la vez ocupando menos ancho en la encimera.",
+          "it": "Due cassetti sovrapposti da 4,75 L cuociono piatto principale e contorno insieme, occupando meno larghezza sul piano di lavoro.",
+          "nl": "Twee gestapelde lades van 4,75 liter garen hoofd- en bijgerecht tegelijk en nemen minder breedte in op het aanrecht."
+        }
+      }
+    ]
+  },
+  "guide-cuisine-connectee-2026": {
+    "question": {
+      "fr": "Quels sont les meilleurs appareils de cuisine connectée en 2026 ?",
+      "en": "What are the best smart kitchen appliances in 2026?",
+      "de": "Welche smarten Küchengeräte sind 2026 die besten?",
+      "es": "¿Cuáles son los mejores aparatos de cocina conectada en 2026?",
+      "it": "Quali sono i migliori apparecchi per la cucina connessa nel 2026?",
+      "nl": "Wat zijn de beste slimme keukenapparaten in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Moulinex Cookeo Touch WiFi - 6L",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Multicuiseur sous pression de 6 L avec 13 modes, écran tactile et recettes guidées téléchargeables en Wi-Fi : le plus utile au quotidien.",
+          "en": "A 6 L pressure multicooker with 13 modes, a touchscreen and guided recipes downloaded over Wi-Fi: the most useful for everyday meals.",
+          "de": "6-Liter-Schnellkoch-Multikocher mit 13 Modi, Touchscreen und geführten Rezepten per WLAN: im Alltag am nützlichsten.",
+          "es": "Olla a presión de 6 l con 13 modos, pantalla táctil y recetas guiadas descargables por wifi: la más útil en el día a día.",
+          "it": "Multicooker a pressione da 6 l con 13 modalità, touchscreen e ricette guidate scaricabili via Wi-Fi: il più utile ogni giorno.",
+          "nl": "Snelkook-multicooker van 6 l met 13 standen, touchscreen en begeleide recepten via wifi: het nuttigst in het dagelijks leven."
+        }
+      },
+      {
+        "model": "TP-Link Tapo P115 Prise Connectée avec Suivi Conso",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "Mini prise Wi-Fi sans hub qui pilote vos appareils existants et mesure leur consommation : l'entrée la plus simple dans la cuisine connectée.",
+          "en": "A hub-free mini Wi-Fi plug that controls your existing appliances and measures their consumption: the simplest way into a smart kitchen.",
+          "de": "WLAN-Mini-Steckdose ohne Hub, die vorhandene Geräte steuert und ihren Verbrauch misst: der einfachste Einstieg in die smarte Küche.",
+          "es": "Mini enchufe wifi sin hub que controla tus aparatos actuales y mide su consumo: la entrada más sencilla a la cocina conectada.",
+          "it": "Mini presa Wi-Fi senza hub che comanda gli apparecchi che hai già e ne misura i consumi: l'ingresso più semplice nella cucina connessa.",
+          "nl": "Mini-wifistekker zonder hub die je bestaande apparaten bedient en hun verbruik meet: de eenvoudigste instap in de slimme keuken."
+        }
+      },
+      {
+        "model": "MEATER Plus Thermomètre Sans Fil Bluetooth 50m",
+        "role": {
+          "fr": "Idéal pour les viandes",
+          "en": "Best for cooking meat",
+          "de": "Ideal für Fleisch",
+          "es": "Ideal para la carne",
+          "it": "Ideale per la carne",
+          "nl": "Ideaal voor vlees"
+        },
+        "why": {
+          "fr": "Sonde entièrement sans fil à double capteur, répéteur Bluetooth intégré au support et cuisson guidée dans l'application.",
+          "en": "A fully wireless dual-sensor probe with a Bluetooth repeater built into its block and guided cooking in the app.",
+          "de": "Komplett kabelloser Fühler mit Doppelsensor, Bluetooth-Repeater in der Ladestation und geführtem Garen in der App.",
+          "es": "Sonda totalmente inalámbrica con doble sensor, repetidor Bluetooth en la base y cocción guiada en la app.",
+          "it": "Sonda completamente senza fili a doppio sensore, ripetitore Bluetooth nella base e cottura guidata nell'app.",
+          "nl": "Volledig draadloze sonde met dubbele sensor, Bluetooth-repeater in het oplaadblok en begeleid garen in de app."
+        }
+      }
+    ]
+  },
+  "guide-domotique-economie-energie-2026": {
+    "question": {
+      "fr": "Quel est le meilleur équipement domotique pour économiser l’énergie en 2026 ?",
+      "en": "What is the best smart home equipment to save energy in 2026?",
+      "de": "Welche Smart-Home-Geräte sparen 2026 am besten Energie?",
+      "es": "¿Cuál es el mejor equipo domótico para ahorrar energía en 2026?",
+      "it": "Qual è la migliore dotazione domotica per risparmiare energia nel 2026?",
+      "nl": "Wat is de beste domotica om in 2026 energie te besparen?"
+    },
+    "picks": [
+      {
+        "model": "tado Smart Radiator Thermostat X Starter Kit",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Il agit sur le chauffage, premier poste de consommation : régulation pièce par pièce, Thread et Matter via le Bridge X, pose sans outil.",
+          "en": "It targets heating, the biggest consumption item: room-by-room control, Thread and Matter via the Bridge X, tool-free fitting.",
+          "de": "Es setzt bei der Heizung an, dem größten Verbrauchsposten: Regelung pro Raum, Thread und Matter über die Bridge X, Montage ohne Werkzeug.",
+          "es": "Actúa sobre la calefacción, la mayor partida de consumo: regulación por habitación, Thread y Matter mediante el Bridge X, montaje sin herramientas.",
+          "it": "Agisce sul riscaldamento, la prima voce di consumo: regolazione stanza per stanza, Thread e Matter tramite il Bridge X, montaggio senza attrezzi.",
+          "nl": "Pakt de verwarming aan, de grootste verbruikspost: regeling per kamer, Thread en Matter via de Bridge X, montage zonder gereedschap."
+        }
+      },
+      {
+        "model": "TP-Link Tapo P110M",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Prise Wi-Fi certifiée Matter qui mesure la consommation en kWh de chaque appareil : le moyen le plus simple de repérer les gaspillages.",
+          "en": "A Matter-certified Wi-Fi plug that meters each appliance in kWh: the simplest way to find where energy is wasted.",
+          "de": "Matter-zertifizierte WLAN-Steckdose, die jedes Gerät in kWh misst: der einfachste Weg, Verschwendung aufzuspüren.",
+          "es": "Enchufe Wi-Fi con certificación Matter que mide en kWh cada aparato: la forma más sencilla de detectar despilfarros.",
+          "it": "Presa Wi-Fi certificata Matter che misura in kWh ogni apparecchio: il modo più semplice per scovare gli sprechi.",
+          "nl": "Matter-gecertificeerde wifi-stekker die elk apparaat in kWh meet: de eenvoudigste manier om verspilling op te sporen."
+        }
+      },
+      {
+        "model": "Shelly Pro 3EM",
+        "role": {
+          "fr": "Idéal pour suivre toute la maison",
+          "en": "Best for whole-home monitoring",
+          "de": "Ideal für das ganze Haus",
+          "es": "Ideal para medir toda la vivienda",
+          "it": "Ideale per monitorare tutta la casa",
+          "nl": "Ideaal voor de hele woning"
+        },
+        "why": {
+          "fr": "Compteur sur rail DIN mono ou triphasé, mesure bidirectionnelle utile avec le solaire ; installation par un électricien qualifié.",
+          "en": "Single- or three-phase DIN-rail meter with two-way metering, useful with solar; installation by a qualified electrician.",
+          "de": "Ein- oder dreiphasiger Hutschienenzähler mit Messung in beide Richtungen, ideal mit Solaranlage; Einbau durch eine Elektrofachkraft.",
+          "es": "Medidor para carril DIN monofásico o trifásico, con medición bidireccional útil con placas solares; instalación por un electricista cualificado.",
+          "it": "Misuratore su guida DIN monofase o trifase, con misura bidirezionale utile con il fotovoltaico; installazione a cura di un elettricista qualificato.",
+          "nl": "Eenfase- of driefasemeter voor de DIN-rail met meting in twee richtingen, handig bij zonnepanelen; installatie door een erkende installateur."
+        }
+      }
+    ]
+  },
+  "guide-purificateur-air-2026": {
+    "question": {
+      "fr": "Quel est le meilleur purificateur d'air en 2026 ?",
+      "en": "What is the best air purifier in 2026?",
+      "de": "Welcher ist der beste Luftreiniger 2026?",
+      "es": "¿Cuál es el mejor purificador de aire en 2026?",
+      "it": "Qual è il miglior purificatore d'aria nel 2026?",
+      "nl": "Wat is de beste luchtreiniger in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Levoit Core 300S",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "Filtre HEPA H13, CADR d'environ 240 m³/h, Wi-Fi et compatibilité Alexa et Google, avec des filtres abordables : idéal pour une chambre.",
+          "en": "H13 HEPA filter, a CADR of around 240 m³/h, Wi-Fi and Alexa and Google support, with affordable filters: ideal for a bedroom.",
+          "de": "HEPA-H13-Filter, CADR von rund 240 m³/h, WLAN sowie Alexa- und Google-Unterstützung mit günstigen Filtern: ideal fürs Schlafzimmer.",
+          "es": "Filtro HEPA H13, CADR de unos 240 m³/h, wifi y compatibilidad con Alexa y Google, con filtros asequibles: ideal para un dormitorio.",
+          "it": "Filtro HEPA H13, CADR di circa 240 m³/h, Wi-Fi e compatibilità con Alexa e Google, con filtri economici: ideale per una camera.",
+          "nl": "HEPA H13-filter, CADR rond 240 m³/h, wifi en Alexa- en Google-ondersteuning, met betaalbare filters: ideaal voor een slaapkamer."
+        }
+      },
+      {
+        "model": "Xiaomi Smart Air Purifier 4",
+        "role": {
+          "fr": "Meilleur compromis connecté",
+          "en": "Best smart mid-range",
+          "de": "Bester vernetzter Mittelklasse-Kompromiss",
+          "es": "Mejor compromiso conectado",
+          "it": "Miglior compromesso connesso",
+          "nl": "Beste slimme middenklasser"
+        },
+        "why": {
+          "fr": "Un CADR de 400 m³/h, un capteur PM2.5 laser et un écran OLED, avec l'application Mi Home et la compatibilité Alexa et Google.",
+          "en": "A 400 m³/h CADR, a laser PM2.5 sensor and an OLED display, with the Mi Home app and Alexa and Google support.",
+          "de": "CADR von 400 m³/h, Laser-PM2.5-Sensor und OLED-Display, dazu die Mi-Home-App sowie Alexa- und Google-Unterstützung.",
+          "es": "CADR de 400 m³/h, sensor láser PM2.5 y pantalla OLED, con la app Mi Home y compatibilidad con Alexa y Google.",
+          "it": "CADR di 400 m³/h, sensore laser PM2.5 e display OLED, con app Mi Home e compatibilità con Alexa e Google.",
+          "nl": "CADR van 400 m³/h, laser-PM2.5-sensor en OLED-scherm, met de Mi Home-app en Alexa- en Google-ondersteuning."
+        }
+      },
+      {
+        "model": "Philips AC2939/10",
+        "role": {
+          "fr": "Idéal pour les grandes pièces",
+          "en": "Best for large rooms",
+          "de": "Ideal für große Räume",
+          "es": "Ideal para espacios grandes",
+          "it": "Ideale per ambienti ampi",
+          "nl": "Ideaal voor grote ruimtes"
+        },
+        "why": {
+          "fr": "Annoncé jusqu'à 98 m² avec un CADR de 380 m³/h, il ajuste sa vitesse grâce au capteur AeraSense et descend à 15 dB en mode veille.",
+          "en": "Rated for up to 98 m² with a 380 m³/h CADR, it adjusts its speed via the AeraSense sensor and drops to 15 dB in sleep mode.",
+          "de": "Für bis zu 98 m² mit 380 m³/h CADR ausgelegt, passt er die Stufe per AeraSense-Sensor an und erreicht im Schlafmodus 15 dB.",
+          "es": "Indicado hasta 98 m² con un CADR de 380 m³/h, ajusta su velocidad con el sensor AeraSense y baja a 15 dB en modo reposo.",
+          "it": "Indicato fino a 98 m² con CADR di 380 m³/h, regola la velocità tramite il sensore AeraSense e scende a 15 dB in modalità sleep.",
+          "nl": "Geschikt tot 98 m² met een CADR van 380 m³/h, past zijn stand aan via de AeraSense-sensor en haalt 15 dB in slaapmodus."
+        }
+      }
+    ]
+  },
+  "guide-robot-aspirateur-2026": {
+    "question": {
+      "fr": "Quel est le meilleur robot aspirateur en 2026 ?",
+      "en": "What is the best robot vacuum in 2026?",
+      "de": "Welcher ist der beste Saugroboter 2026?",
+      "es": "¿Cuál es el mejor robot aspirador en 2026?",
+      "it": "Qual è il miglior robot aspirapolvere nel 2026?",
+      "nl": "Wat is de beste robotstofzuiger in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Roborock Qrevo Curv",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta assoluta",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "18 500 Pa annoncés, LiDAR, serpillères rotatives qui atteignent les plinthes et station qui vide, lave à l’eau chaude et sèche.",
+          "en": "Rated at 18,500 Pa, with LiDAR, rotating mops that reach the skirting boards and a dock that empties, hot-washes and dries.",
+          "de": "Laut Hersteller 18.500 Pa, LiDAR, rotierende Mopps bis an die Sockelleisten und eine Station, die entleert, warm wäscht und trocknet.",
+          "es": "18.500 Pa anunciados, LiDAR, mopas giratorias que llegan a los rodapiés y base que vacía, lava con agua caliente y seca.",
+          "it": "18.500 Pa dichiarati, LiDAR, panni rotanti che arrivano ai battiscopa e base che svuota, lava con acqua calda e asciuga.",
+          "nl": "Opgegeven 18.500 Pa, LiDAR, roterende dweilen tot aan de plinten en een station dat leegt, warm wast en droogt."
+        }
+      },
+      {
+        "model": "Roborock Q7 M5+",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "L’essentiel en entrée de gamme : navigation LiDAR, 10 000 Pa annoncés, brosse anti-emmêlement et vidage automatique (sac de 2,7 L).",
+          "en": "The essentials at entry level: LiDAR navigation, a quoted 10,000 Pa, an anti-tangle brush and auto-emptying into a 2.7 L bag.",
+          "de": "Das Wesentliche im Einstieg: LiDAR-Navigation, angegebene 10.000 Pa, verhedderungsarme Bürste und Absaugstation mit 2,7-L-Beutel.",
+          "es": "Lo esencial en gama de entrada: navegación LiDAR, 10.000 Pa anunciados, cepillo antienredos y autovaciado en bolsa de 2,7 L.",
+          "it": "L’essenziale in fascia d’ingresso: navigazione LiDAR, 10.000 Pa dichiarati, spazzola anti-groviglio e svuotamento in sacchetto da 2,7 L.",
+          "nl": "De basis in het instapsegment: LiDAR-navigatie, opgegeven 10.000 Pa, antiklitborstel en automatisch legen in een zak van 2,7 l."
+        }
+      },
+      {
+        "model": "Dreame X50 Ultra Complete",
+        "role": {
+          "fr": "Idéal animaux et seuils",
+          "en": "Best for pets and thresholds",
+          "de": "Ideal für Haustiere und Schwellen",
+          "es": "Ideal para mascotas y umbrales",
+          "it": "Ideale per animali e soglie",
+          "nl": "Ideaal voor huisdieren en drempels"
+        },
+        "why": {
+          "fr": "20 000 Pa annoncés, double brosse anti-emmêlement et système ProLeap qui franchit jusqu’à 6 cm selon le fabricant.",
+          "en": "Rated at 20,000 Pa, with an anti-tangle twin brush and a ProLeap system that climbs up to 6 cm, according to the manufacturer.",
+          "de": "Laut Hersteller 20.000 Pa, verhedderungsfreie Doppelbürste und ProLeap-System, das bis zu 6 cm hohe Hindernisse überwindet.",
+          "es": "20.000 Pa anunciados, cepillo doble antienredos y sistema ProLeap que supera hasta 6 cm, según el fabricante.",
+          "it": "20.000 Pa dichiarati, doppia spazzola anti-groviglio e sistema ProLeap che supera fino a 6 cm, secondo il produttore.",
+          "nl": "Opgegeven 20.000 Pa, dubbele antiklitborstel en een ProLeap-systeem dat volgens de fabrikant tot 6 cm overwint."
+        }
+      }
+    ]
+  },
+  "histoire-evolution-airfryer": {
+    "question": {
+      "fr": "Quel airfryer choisir en 2026, après 15 ans d’évolution ?",
+      "en": "Which air fryer should you choose in 2026, after 15 years of evolution?",
+      "de": "Welche Heißluftfritteuse sollte man 2026 nach 15 Jahren Entwicklung wählen?",
+      "es": "¿Qué freidora de aire elegir en 2026, tras 15 años de evolución?",
+      "it": "Quale friggitrice ad aria scegliere nel 2026, dopo 15 anni di evoluzione?",
+      "nl": "Welke airfryer kies je in 2026, na 15 jaar evolutie?"
+    },
+    "picks": [
+      {
+        "model": "Ninja Foodi FlexDrawer 10.4L Double Zone",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "L’aboutissement de la double zone lancée par Ninja en 2020 : deux zones indépendantes ou un grand tiroir de 10,4 L pour un poulet entier.",
+          "en": "The culmination of the dual zone Ninja launched in 2020: two independent zones or one large 10.4 L drawer for a whole chicken.",
+          "de": "Die Weiterentwicklung der Dual-Zone-Idee von Ninja aus 2020: zwei unabhängige Zonen oder eine große 10,4-L-Schublade für ein ganzes Hähnchen.",
+          "es": "La culminación de la doble zona que Ninja lanzó en 2020: dos zonas independientes o un gran cajón de 10,4 L para un pollo entero.",
+          "it": "Il punto d’arrivo della doppia zona lanciata da Ninja nel 2020: due zone indipendenti o un grande cassetto da 10,4 L per un pollo intero.",
+          "nl": "Het sluitstuk van de dual zone die Ninja in 2020 lanceerde: twee onafhankelijke zones of één grote lade van 10,4 L voor een hele kip."
+        }
+      },
+      {
+        "model": "Philips Airfryer Série 3000 XL - 6.2L",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "L’héritier direct du premier Airfryer de 2010 : un panier unique de 6,2 L, la technologie Rapid Air et une utilisation très simple pour 2 à 4 personnes.",
+          "en": "The direct heir of the first 2010 Airfryer: a single 6.2 L basket, Rapid Air technology and very simple use for 2 to 4 people.",
+          "de": "Der direkte Erbe des ersten Airfryers von 2010: ein 6,2-L-Einzelkorb, Rapid-Air-Technologie und sehr einfache Bedienung für 2 bis 4 Personen.",
+          "es": "La heredera directa de la primera Airfryer de 2010: una cesta única de 6,2 L, tecnología Rapid Air y un uso muy sencillo para 2 a 4 personas.",
+          "it": "L’erede diretta della prima Airfryer del 2010: un cestello unico da 6,2 L, tecnologia Rapid Air e un uso semplicissimo per 2-4 persone.",
+          "nl": "De directe erfgenaam van de eerste Airfryer uit 2010: één mand van 6,2 L, Rapid Air-technologie en heel eenvoudig gebruik voor 2 tot 4 personen."
+        }
+      },
+      {
+        "model": "Tefal ActiFry Genius XL 2in1 - 1.7kg",
+        "role": {
+          "fr": "Idéal pour les frites sans secouer",
+          "en": "Best for chips without shaking",
+          "de": "Ideal für Pommes ohne Schütteln",
+          "es": "Ideal para patatas sin agitar",
+          "it": "Ideale per patatine senza scuotere",
+          "nl": "Ideaal voor friet zonder schudden"
+        },
+        "why": {
+          "fr": "La descendante de l’ActiFry de 2006 : la pale remue les aliments seule et la grille supérieure permet de cuire sur deux niveaux.",
+          "en": "The descendant of the 2006 ActiFry: the paddle stirs the food on its own and the upper grill tray lets you cook on two levels.",
+          "de": "Der Nachfahre des ActiFry von 2006: Der Rührarm wendet das Gargut selbst, und der obere Grilleinsatz ermöglicht zwei Ebenen.",
+          "es": "La descendiente de la ActiFry de 2006: la pala remueve sola los alimentos y la bandeja superior permite cocinar en dos niveles.",
+          "it": "La discendente dell’ActiFry del 2006: la pala mescola da sola il cibo e la griglia superiore permette di cuocere su due livelli.",
+          "nl": "De nazaat van de ActiFry uit 2006: de roerarm schept het eten zelf om en het bovenrooster maakt twee niveaus mogelijk."
+        }
+      }
+    ]
+  },
+  "meilleur-airfryer-petit-budget": {
+    "question": {
+      "fr": "Quel est le meilleur airfryer pas cher en 2026 ?",
+      "en": "What is the best budget air fryer in 2026?",
+      "de": "Welche ist die beste günstige Heißluftfritteuse 2026?",
+      "es": "¿Cuál es la mejor freidora de aire barata en 2026?",
+      "it": "Qual è la migliore friggitrice ad aria economica nel 2026?",
+      "nl": "Wat is de beste goedkope airfryer in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Moulinex Easy Fry Max 5L",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Le plus grand panier de l’entrée de gamme : 5 litres, 10 programmes et un écran tactile, assez pour une famille de trois ou quatre.",
+          "en": "The largest basket at entry level: 5 litres, 10 programmes and a touchscreen, enough for a family of three or four.",
+          "de": "Der größte Korb im Einstiegssegment: 5 Liter, 10 Programme und Touchscreen, genug für eine Familie mit drei oder vier Personen.",
+          "es": "La cesta más grande de la gama de entrada: 5 litros, 10 programas y pantalla táctil, suficiente para una familia de tres o cuatro.",
+          "it": "Il cestello più grande della fascia entry-level: 5 litri, 10 programmi e display touch, sufficiente per una famiglia di tre o quattro.",
+          "nl": "De grootste mand in de instapklasse: 5 liter, 10 programma’s en een touchscreen, genoeg voor een gezin van drie of vier."
+        }
+      },
+      {
+        "model": "Xiaomi Smart Air Fryer Pro 4L",
+        "role": {
+          "fr": "Meilleur connecté petit budget",
+          "en": "Best budget smart pick",
+          "de": "Beste günstige vernetzte Wahl",
+          "es": "Mejor conectada económica",
+          "it": "Migliore connessa economica",
+          "nl": "Beste betaalbare slimme keuze"
+        },
+        "why": {
+          "fr": "Écran OLED, fenêtre de contrôle, 11 modes et application Xiaomi Home : des fonctions rares dans l’entrée de gamme.",
+          "en": "OLED screen, viewing window, 11 modes and the Xiaomi Home app: features that are rare at entry level.",
+          "de": "OLED-Display, Sichtfenster, 11 Modi und Xiaomi-Home-App: Funktionen, die im Einstiegssegment selten sind.",
+          "es": "Pantalla OLED, ventana, 11 modos y app Xiaomi Home: funciones poco habituales en la gama de entrada.",
+          "it": "Display OLED, finestra, 11 modalità e app Xiaomi Home: funzioni rare nella fascia entry-level.",
+          "nl": "OLED-scherm, kijkvenster, 11 standen en de Xiaomi Home-app: functies die zeldzaam zijn in de instapklasse."
+        }
+      }
+    ]
+  },
+  "ninja-vs-philips-quel-choisir": {
+    "question": {
+      "fr": "Ninja ou Philips : quel airfryer choisir en 2026 ?",
+      "en": "Ninja or Philips: which air fryer should you choose in 2026?",
+      "de": "Ninja oder Philips: Welche Heißluftfritteuse sollte man 2026 wählen?",
+      "es": "Ninja o Philips: ¿qué freidora de aire elegir en 2026?",
+      "it": "Ninja o Philips: quale friggitrice ad aria scegliere nel 2026?",
+      "nl": "Ninja of Philips: welke airfryer kies je in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Ninja Foodi FlexDrawer 10.4L Double Zone",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Gesamtwahl",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Ses 10,4 L se partagent en deux zones synchronisées ou en un seul grand tiroir MegaZone, idéal pour les familles de 4 personnes et plus.",
+          "en": "Its 10.4 L splits into two synced zones or one large MegaZone drawer, ideal for families of four or more.",
+          "de": "Die 10,4 L lassen sich in zwei synchronisierte Zonen oder eine große MegaZone-Schublade aufteilen, ideal für Familien ab vier Personen.",
+          "es": "Sus 10,4 L se dividen en dos zonas sincronizadas o en un gran cajón MegaZone, ideal para familias de cuatro o más personas.",
+          "it": "I suoi 10,4 L si dividono in due zone sincronizzate o in un unico grande cassetto MegaZone, ideale per famiglie da quattro persone in su.",
+          "nl": "De 10,4 L is te verdelen in twee gesynchroniseerde zones of één grote MegaZone-lade, ideaal voor gezinnen van vier of meer."
+        }
+      },
+      {
+        "model": "Philips Airfryer Série 3000 XL - 6.2L",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Panier unique de 6,2 L, technologie Rapid Air et 14 modes de cuisson : simple et compact, il suffit aux foyers de 1 à 4 personnes.",
+          "en": "A single 6.2 L basket, Rapid Air technology and 14 cooking modes: simple and compact, it is enough for households of one to four.",
+          "de": "Einzelkorb mit 6,2 L, Rapid-Air-Technologie und 14 Garmodi: einfach und kompakt, ideal für Haushalte mit ein bis vier Personen.",
+          "es": "Cesta única de 6,2 L, tecnología Rapid Air y 14 modos de cocción: sencilla y compacta, basta para hogares de una a cuatro personas.",
+          "it": "Cestello unico da 6,2 L, tecnologia Rapid Air e 14 modalità di cottura: semplice e compatta, basta per nuclei da una a quattro persone.",
+          "nl": "Eén mand van 6,2 L, Rapid Air-technologie en 14 bereidingswijzen: eenvoudig en compact, genoeg voor huishoudens van één tot vier personen."
+        }
+      },
+      {
+        "model": "Philips Airfryer Combi XXL Connecté - 8.3L",
+        "role": {
+          "fr": "Le plus connecté",
+          "en": "Best connected model",
+          "de": "Bestes vernetztes Modell",
+          "es": "La más conectada",
+          "it": "La più connessa",
+          "nl": "Beste verbonden model"
+        },
+        "why": {
+          "fr": "8,3 L, 22 fonctions, thermomètre à aliments intégré et pilotage Wi-Fi via l’application HomeID, pour ceux qui cuisinent un grand plat à la fois.",
+          "en": "8.3 L, 22 functions, a built-in food thermometer and Wi-Fi control via the HomeID app, for those who cook one large dish at a time.",
+          "de": "8,3 L, 22 Funktionen, integriertes Speisethermometer und WLAN-Steuerung per HomeID-App, für alle, die ein großes Gericht auf einmal zubereiten.",
+          "es": "8,3 L, 22 funciones, termómetro de alimentos integrado y control wifi con la app HomeID, para quien cocina un plato grande cada vez.",
+          "it": "8,3 L, 22 funzioni, termometro per alimenti integrato e controllo Wi-Fi tramite l’app HomeID, per chi cucina un grande piatto alla volta.",
+          "nl": "8,3 L, 22 functies, ingebouwde voedselthermometer en wifi-bediening via de HomeID-app, voor wie één groot gerecht tegelijk bereidt."
+        }
+      }
+    ]
+  },
+  "robot-cuiseur-connecte-comparatif": {
+    "question": {
+      "fr": "Quel est le meilleur robot cuiseur connecté en 2026 ?",
+      "en": "What is the best connected cooking robot in 2026?",
+      "de": "Welcher ist der beste vernetzte Küchenprozessor 2026?",
+      "es": "¿Cuál es el mejor robot de cocina conectado en 2026?",
+      "it": "Qual è il miglior robot da cucina connesso nel 2026?",
+      "nl": "Wat is de beste verbonden keukenrobot in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Moulinex i-Companion Touch XL",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Écran tactile, Wi-Fi, balance intégrée et bol de 4,5 L : l’alternative au Thermomix la plus complète, avec une application sans abonnement obligatoire.",
+          "en": "Touchscreen, Wi-Fi, built-in scale and a 4.5 L bowl: the most complete Thermomix alternative, with a recipe app that needs no subscription.",
+          "de": "Touchscreen, WLAN, integrierte Waage und 4,5-L-Topf: die vollständigste Thermomix-Alternative, mit Rezept-App ohne Abopflicht.",
+          "es": "Pantalla táctil, Wi-Fi, báscula integrada y vaso de 4,5 L: la alternativa al Thermomix más completa, con app de recetas sin suscripción obligatoria.",
+          "it": "Schermo touch, Wi-Fi, bilancia integrata e boccale da 4,5 L: l’alternativa al Thermomix più completa, con app di ricette senza abbonamento obbligatorio.",
+          "nl": "Touchscreen, wifi, ingebouwde weegschaal en kom van 4,5 L: het meest complete Thermomix-alternatief, met recepten-app zonder verplicht abonnement."
+        }
+      },
+      {
+        "model": "Cecotec Mambo Touch",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "Wi-Fi, écran tactile 5 pouces, balance et bol de 3,3 L en entrée de gamme ; limité à 120 °C, il convient surtout aux soupes, sauces et vapeur.",
+          "en": "Wi-Fi, 5-inch touchscreen, scale and 3.3 L bowl at entry level; capped at 120 °C, it suits soups, sauces and steaming best.",
+          "de": "WLAN, 5-Zoll-Touchscreen, Waage und 3,3-L-Topf im Einstiegssegment; mit maximal 120 °C ideal für Suppen, Saucen und Dampfgaren.",
+          "es": "Wi-Fi, pantalla táctil de 5 pulgadas, báscula y vaso de 3,3 L en gama de entrada; limitado a 120 °C, ideal para sopas, salsas y vapor.",
+          "it": "Wi-Fi, schermo touch da 5 pollici, bilancia e boccale da 3,3 L in fascia d’ingresso; limitato a 120 °C, ideale per zuppe, salse e vapore.",
+          "nl": "Wifi, touchscreen van 5 inch, weegschaal en kom van 3,3 L in het instapsegment; met maximaal 120 °C vooral voor soepen, sauzen en stomen."
+        }
+      },
+      {
+        "model": "Kenwood Cooking Chef XL KCL95.424SI",
+        "role": {
+          "fr": "Idéal pâtisserie et grandes quantités",
+          "en": "Best for baking and big batches",
+          "de": "Ideal zum Backen und für große Mengen",
+          "es": "Ideal para repostería y grandes cantidades",
+          "it": "Ideale per pasticceria e grandi quantità",
+          "nl": "Ideaal voor bakken en grote hoeveelheden"
+        },
+        "why": {
+          "fr": "Bol de 6,7 L chauffé par induction de 20 à 180 °C et application Kenwood World : le choix des pâtissiers et des grandes familles.",
+          "en": "A 6.7 L bowl heated by induction from 20 to 180 °C plus the Kenwood World app: the pick for keen bakers and large families.",
+          "de": "6,7-L-Schüssel mit Induktion von 20 bis 180 °C und Kenwood-World-App: die Wahl für Backfans und große Familien.",
+          "es": "Bol de 6,7 L calentado por inducción de 20 a 180 °C y app Kenwood World: la opción para reposteros y familias numerosas.",
+          "it": "Ciotola da 6,7 L riscaldata a induzione da 20 a 180 °C e app Kenwood World: la scelta per chi ama la pasticceria e le famiglie numerose.",
+          "nl": "Kom van 6,7 L met inductie van 20 tot 180 °C en de Kenwood World-app: de keuze voor bakliefhebbers en grote gezinnen."
+        }
+      }
+    ]
+  },
+  "serrure-connectee-guide": {
+    "question": {
+      "fr": "Quelle est la meilleure serrure connectée en 2026 ?",
+      "en": "What is the best smart lock in 2026?",
+      "de": "Welches ist das beste smarte Türschloss 2026?",
+      "es": "¿Cuál es la mejor cerradura inteligente en 2026?",
+      "it": "Qual è la migliore serratura smart nel 2026?",
+      "nl": "Wat is het beste slimme slot in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Nuki Smart Lock Pro (5th generation)",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Se pose sur le cylindre existant, Wi-Fi et Matter over Thread intégrés, batterie rechargeable et application très complète.",
+          "en": "Fits over your existing cylinder, with built-in Wi-Fi and Matter over Thread, a rechargeable battery and a very complete app.",
+          "de": "Sitzt auf dem vorhandenen Zylinder, mit integriertem WLAN und Matter over Thread, Akku und sehr umfangreicher App.",
+          "es": "Se coloca sobre el cilindro existente, con Wi-Fi y Matter over Thread integrados, batería recargable y una app muy completa.",
+          "it": "Si monta sul cilindro esistente, con Wi-Fi e Matter over Thread integrati, batteria ricaricabile e un’app molto completa.",
+          "nl": "Past op je bestaande cilinder, met ingebouwde wifi en Matter over Thread, een oplaadbare accu en een zeer complete app."
+        }
+      },
+      {
+        "model": "Nuki Smart Lock Go",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "L’entrée de gamme Nuki garde le Wi-Fi, Matter over Thread et la même application, sans bridge à acheter.",
+          "en": "Nuki’s entry model keeps Wi-Fi, Matter over Thread and the same app, with no bridge to buy.",
+          "de": "Nukis Einstiegsmodell behält WLAN, Matter over Thread und dieselbe App, ohne zusätzliche Bridge.",
+          "es": "El modelo de entrada de Nuki mantiene Wi-Fi, Matter over Thread y la misma app, sin puente que comprar.",
+          "it": "Il modello d’ingresso di Nuki mantiene Wi-Fi, Matter over Thread e la stessa app, senza bridge da acquistare.",
+          "nl": "Het instapmodel van Nuki houdt wifi, Matter over Thread en dezelfde app, zonder bridge erbij."
+        }
+      },
+      {
+        "model": "Aqara Smart Lock U200",
+        "role": {
+          "fr": "Idéale pour ouvrir sans téléphone",
+          "en": "Best for phone-free entry",
+          "de": "Ideal zum Öffnen ohne Smartphone",
+          "es": "Ideal para abrir sin móvil",
+          "it": "Ideale per aprire senza telefono",
+          "nl": "Ideaal om zonder telefoon te openen"
+        },
+        "why": {
+          "fr": "Clavier extérieur fourni avec empreinte, NFC et code, Matter over Thread et prise en charge d’Apple Home Key.",
+          "en": "Outdoor keypad included with fingerprint, NFC and PIN, plus Matter over Thread and Apple Home Key support.",
+          "de": "Außen-Keypad mit Fingerabdruck, NFC und PIN inklusive, dazu Matter over Thread und Apple Home Key.",
+          "es": "Teclado exterior incluido con huella, NFC y código, además de Matter over Thread y compatibilidad con Apple Home Key.",
+          "it": "Tastierino esterno incluso con impronta, NFC e codice, più Matter over Thread e supporto ad Apple Home Key.",
+          "nl": "Buitenklavier met vingerafdruk, NFC en pincode inbegrepen, plus Matter over Thread en Apple Home Key."
+        }
+      }
+    ]
+  },
+  "station-meteo-connectee-comparatif": {
+    "question": {
+      "fr": "Quelle est la meilleure station météo connectée en 2026 ?",
+      "en": "What is the best smart weather station in 2026?",
+      "de": "Welche ist die beste smarte Wetterstation 2026?",
+      "es": "¿Cuál es la mejor estación meteorológica conectada en 2026?",
+      "it": "Qual è la migliore stazione meteo connessa nel 2026?",
+      "nl": "Wat is het beste slimme weerstation in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Ecowitt HP2551",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Capteur 7-en-1 avec pluie, vent, UV et luminosité dès l'achat, grand écran couleur et intégration locale à Home Assistant.",
+          "en": "A 7-in-1 sensor with rain, wind, UV and light out of the box, a large colour screen and local Home Assistant integration.",
+          "de": "7-in-1-Sensor mit Regen, Wind, UV und Helligkeit ab Werk, großes Farbdisplay und lokale Home-Assistant-Integration.",
+          "es": "Sensor 7 en 1 con lluvia, viento, UV y luminosidad de serie, gran pantalla a color e integración local con Home Assistant.",
+          "it": "Sensore 7-in-1 con pioggia, vento, UV e luminosità inclusi, ampio schermo a colori e integrazione locale con Home Assistant.",
+          "nl": "7-in-1-sensor met regen, wind, uv en licht direct inbegrepen, groot kleurenscherm en lokale Home Assistant-integratie."
+        }
+      },
+      {
+        "model": "Bresser Wi-Fi ClearView Weather Station 7-in-1",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Station complète avec pluie, vent, UV et lumière, lisible sur un écran couleur de 21,3 cm, sans dépendre du smartphone.",
+          "en": "A complete station with rain, wind, UV and light, readable on a 21.3 cm colour screen without relying on a phone.",
+          "de": "Komplettstation mit Regen, Wind, UV und Licht, ablesbar auf einem 21,3-cm-Farbdisplay, ganz ohne Smartphone.",
+          "es": "Estación completa con lluvia, viento, UV y luz, legible en una pantalla a color de 21,3 cm sin depender del móvil.",
+          "it": "Stazione completa con pioggia, vento, UV e luce, leggibile su uno schermo a colori da 21,3 cm senza bisogno dello smartphone.",
+          "nl": "Compleet station met regen, wind, uv en licht, af te lezen op een kleurenscherm van 21,3 cm zonder smartphone."
+        }
+      },
+      {
+        "model": "Netatmo Smart Weather Station",
+        "role": {
+          "fr": "Air intérieur et Apple Maison",
+          "en": "Indoor air and Apple Home",
+          "de": "Raumluft und Apple Home",
+          "es": "Aire interior y Apple Casa",
+          "it": "Aria interna e Apple Casa",
+          "nl": "Binnenlucht en Apple Woning"
+        },
+        "why": {
+          "fr": "Seule du comparatif à mesurer le CO2 intérieur, compatible HomeKit, mais pluviomètre et anémomètre sont vendus séparément.",
+          "en": "The only one here that measures indoor CO2, HomeKit compatible, but the rain gauge and anemometer are sold separately.",
+          "de": "Als einzige im Vergleich misst sie CO2 in Innenräumen, HomeKit-kompatibel, Regen- und Windmesser gibt es aber nur separat.",
+          "es": "La única de la comparativa que mide el CO2 interior, compatible con HomeKit, pero pluviómetro y anemómetro se venden aparte.",
+          "it": "L'unica del confronto che misura la CO2 interna, compatibile HomeKit, ma pluviometro e anemometro sono venduti a parte.",
+          "nl": "De enige in deze vergelijking die CO2 binnenshuis meet, compatibel met HomeKit, maar regen- en windmeter zijn apart te koop."
+        }
+      }
+    ]
+  },
+  "test-cosori-dual-blaze": {
+    "question": {
+      "fr": "Le Cosori Dual Blaze Smart 6,4 L vaut-il le coup en 2026 ?",
+      "en": "Is the Cosori Dual Blaze Smart 6.4L worth buying in 2026?",
+      "de": "Lohnt sich die Cosori Dual Blaze Smart 6,4 L im Jahr 2026?",
+      "es": "¿Merece la pena la Cosori Dual Blaze Smart 6,4 L en 2026?",
+      "it": "Conviene la Cosori Dual Blaze Smart 6,4 L nel 2026?",
+      "nl": "Is de Cosori Dual Blaze Smart 6,4 L de moeite waard in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Cosori Dual Blaze Smart Air Fryer - 6.4L",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Sa double résistance haut et bas limite le secouage, et l’app VeSync ajoute recettes et suivi à distance sur 6,4 L.",
+          "en": "Top and bottom heating cuts down on shaking, and the VeSync app adds recipes and remote monitoring in a 6.4L basket.",
+          "de": "Ober- und Unterhitze ersparen meist das Schütteln, und die VeSync-App bietet Rezepte und Fernüberwachung bei 6,4 L.",
+          "es": "Su calor superior e inferior reduce la necesidad de agitar, y la app VeSync suma recetas y control remoto en 6,4 L.",
+          "it": "Il calore sopra e sotto riduce la necessità di scuotere, e l’app VeSync aggiunge ricette e controllo remoto su 6,4 L.",
+          "nl": "Boven- en onderwarmte maken schudden meestal overbodig, en de VeSync-app voegt recepten en bediening op afstand toe."
+        }
+      },
+      {
+        "model": "Philips Airfryer Série 3000 XL - 6.2L",
+        "role": {
+          "fr": "Alternative simple sans Wi-Fi",
+          "en": "Simple alternative without Wi-Fi",
+          "de": "Einfache Alternative ohne WLAN",
+          "es": "Alternativa sencilla sin Wi-Fi",
+          "it": "Alternativa semplice senza Wi-Fi",
+          "nl": "Eenvoudig alternatief zonder wifi"
+        },
+        "why": {
+          "fr": "Capacité comparable, commandes très simples et marque éprouvée, pour qui n’a besoin ni d’application ni de chauffe par le bas.",
+          "en": "Similar capacity, very simple controls and a proven brand, for anyone who needs neither an app nor bottom heating.",
+          "de": "Ähnliches Volumen, sehr einfache Bedienung und bewährte Marke für alle, die weder App noch Unterhitze brauchen.",
+          "es": "Capacidad similar, mandos muy sencillos y marca contrastada, para quien no necesita app ni calor inferior.",
+          "it": "Capacità simile, comandi semplicissimi e marchio collaudato, per chi non ha bisogno né di app né di calore dal basso.",
+          "nl": "Vergelijkbare inhoud, heel eenvoudige bediening en een beproefd merk, voor wie geen app of onderwarmte nodig heeft."
+        }
+      },
+      {
+        "model": "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+        "role": {
+          "fr": "Pour cuire deux plats à la fois",
+          "en": "Best for two dishes at once",
+          "de": "Für zwei Gerichte gleichzeitig",
+          "es": "Para dos platos a la vez",
+          "it": "Per due piatti insieme",
+          "nl": "Voor twee gerechten tegelijk"
+        },
+        "why": {
+          "fr": "Ses deux tiroirs superposés et indépendants permettent de préparer plat et accompagnement en même temps sur 9,5 L.",
+          "en": "Two independent stacked drawers let you cook a main and a side at the same time, with 9.5L in total.",
+          "de": "Zwei unabhängige, gestapelte Schubladen garen Hauptgericht und Beilage gleichzeitig, mit insgesamt 9,5 L.",
+          "es": "Sus dos cajones apilados e independientes permiten preparar plato principal y guarnición a la vez, con 9,5 L.",
+          "it": "I due cassetti sovrapposti e indipendenti permettono di cuocere insieme piatto principale e contorno, con 9,5 L.",
+          "nl": "Twee onafhankelijke, gestapelde lades bereiden hoofdgerecht en bijgerecht tegelijk, met in totaal 9,5 L."
+        }
+      }
+    ]
+  },
+  "test-moulinex-easy-fry-max": {
+    "question": {
+      "fr": "Le Moulinex Easy Fry Max 5L est-il un bon airfryer en 2026 ?",
+      "en": "Is the Moulinex Easy Fry Max 5L a good air fryer in 2026?",
+      "de": "Ist die Moulinex Easy Fry Max 5L 2026 eine gute Heißluftfritteuse?",
+      "es": "¿Es la Moulinex Easy Fry Max 5L una buena freidora de aire en 2026?",
+      "it": "La Moulinex Easy Fry Max 5L è una buona friggitrice ad aria nel 2026?",
+      "nl": "Is de Moulinex Easy Fry Max 5L in 2026 een goede airfryer?"
+    },
+    "picks": [
+      {
+        "model": "Moulinex Easy Fry Max 5L",
+        "role": {
+          "fr": "Meilleur choix simplicité",
+          "en": "Best for simplicity",
+          "de": "Beste Wahl für Einfachheit",
+          "es": "Mejor opción por sencillez",
+          "it": "Miglior scelta per semplicità",
+          "nl": "Beste keuze voor eenvoud"
+        },
+        "why": {
+          "fr": "5 L, 10 programmes, panier compatible lave-vaisselle et engagement « réparable 15 ans » : l’essentiel bien fait pour 2 à 4 personnes.",
+          "en": "5 L, 10 programmes, a dishwasher-safe basket and a 15-year repairability commitment: the essentials done well for 2 to 4 people.",
+          "de": "5 L, 10 Programme, spülmaschinenfester Korb und 15 Jahre Reparierbarkeit: das Wesentliche gut gemacht für 2 bis 4 Personen.",
+          "es": "5 L, 10 programas, cesta apta para lavavajillas y compromiso de reparabilidad de 15 años: lo esencial bien hecho para 2 a 4 personas.",
+          "it": "5 L, 10 programmi, cestello lavabile in lavastoviglie e riparabilità per 15 anni: l’essenziale fatto bene per 2-4 persone.",
+          "nl": "5 L, 10 programma’s, vaatwasserbestendige mand en 15 jaar repareerbaarheid: het belangrijkste goed gedaan voor 2 tot 4 personen."
+        }
+      },
+      {
+        "model": "Cosori Dual Blaze Smart Air Fryer - 6.4L",
+        "role": {
+          "fr": "Plus polyvalent",
+          "en": "Most versatile",
+          "de": "Am vielseitigsten",
+          "es": "La más versátil",
+          "it": "La più versatile",
+          "nl": "Meest veelzijdig"
+        },
+        "why": {
+          "fr": "Chauffe par le haut et par le bas jusqu’à 230 °C, avec application : meilleur pour saisir les viandes.",
+          "en": "Heats from top and bottom up to 230 °C, with an app: better for searing meat.",
+          "de": "Heizt von oben und unten bis 230 °C, mit App: besser zum Anbraten von Fleisch.",
+          "es": "Calienta por arriba y por abajo hasta 230 °C, con aplicación: mejor para sellar carne.",
+          "it": "Scalda dall’alto e dal basso fino a 230 °C, con app: migliore per rosolare la carne.",
+          "nl": "Verwarmt van boven en onder tot 230 °C, met app: beter om vlees dicht te schroeien."
+        }
+      },
+      {
+        "model": "Philips Airfryer Série 3000 XL - 6.2L",
+        "role": {
+          "fr": "Pour les familles",
+          "en": "Best for families",
+          "de": "Für Familien",
+          "es": "Para familias",
+          "it": "Per le famiglie",
+          "nl": "Voor gezinnen"
+        },
+        "why": {
+          "fr": "Un panier de 6,2 L plus confortable pour une famille de 4 quand 5 litres deviennent justes.",
+          "en": "A roomier 6.2 L basket for a family of four when 5 litres feels tight.",
+          "de": "Ein geräumigerer 6,2-L-Korb für vierköpfige Familien, wenn 5 Liter knapp werden.",
+          "es": "Una cesta de 6,2 L más cómoda para una familia de cuatro cuando 5 litros se quedan cortos.",
+          "it": "Un cestello da 6,2 L più comodo per una famiglia di quattro quando 5 litri sono pochi.",
+          "nl": "Een ruimere mand van 6,2 L voor een gezin van vier als 5 liter krap wordt."
+        }
+      }
+    ]
+  },
+  "test-ninja-foodi-flexdrawer": {
+    "question": {
+      "fr": "Quel est le meilleur airfryer pour une grande famille en 2026 ?",
+      "en": "What is the best air fryer for a large family in 2026?",
+      "de": "Was ist die beste Heißluftfritteuse für eine große Familie 2026?",
+      "es": "¿Cuál es la mejor freidora de aire para una familia numerosa en 2026?",
+      "it": "Qual è la migliore friggitrice ad aria per una famiglia numerosa nel 2026?",
+      "nl": "Wat is de beste airfryer voor een groot gezin in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Ninja Foodi FlexDrawer 10.4L Double Zone",
+        "role": {
+          "fr": "Meilleur choix pour les grandes familles",
+          "en": "Best for large families",
+          "de": "Beste Wahl für große Familien",
+          "es": "Mejor opción para familias numerosas",
+          "it": "Migliore per famiglie numerose",
+          "nl": "Beste keuze voor grote gezinnen"
+        },
+        "why": {
+          "fr": "Un tiroir de 10,4 L pour les grosses pièces, ou deux zones de 5,2 L réglables séparément grâce au séparateur, idéal à partir de cinq personnes.",
+          "en": "One 10.4L drawer for large cuts, or two separately controlled 5.2L zones with the divider, ideal for five people or more.",
+          "de": "Eine 10,4-L-Schublade für große Stücke oder mit Trenner zwei getrennt steuerbare 5,2-L-Zonen, ideal ab fünf Personen.",
+          "es": "Un cajón de 10,4 L para piezas grandes o, con el separador, dos zonas de 5,2 L independientes; ideal desde cinco personas.",
+          "it": "Un cassetto da 10,4 L per i pezzi grandi o, con il divisore, due zone da 5,2 L indipendenti; ideale da cinque persone in su.",
+          "nl": "Eén lade van 10,4 L voor grote stukken, of met het schot twee los bediende zones van 5,2 L; ideaal vanaf vijf personen."
+        }
+      },
+      {
+        "model": "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+        "role": {
+          "fr": "Idéal pour les petites cuisines",
+          "en": "Best for smaller kitchens",
+          "de": "Ideal für kleinere Küchen",
+          "es": "Ideal para cocinas pequeñas",
+          "it": "Ideale per cucine piccole",
+          "nl": "Ideaal voor kleinere keukens"
+        },
+        "why": {
+          "fr": "Ses deux tiroirs superposés de 4,75 L occupent peu de largeur et conviennent aux foyers de quatre à six personnes qui cuisinent deux plats à la fois.",
+          "en": "Its two stacked 4.75L drawers take little width and suit households of four to six who cook two dishes at once.",
+          "de": "Zwei übereinanderliegende 4,75-L-Schubladen brauchen wenig Breite und passen zu Haushalten mit vier bis sechs Personen.",
+          "es": "Sus dos cajones apilados de 4,75 L ocupan poco ancho y encajan en hogares de cuatro a seis personas que cocinan dos platos a la vez.",
+          "it": "I due cassetti sovrapposti da 4,75 L occupano poca larghezza e si adattano a famiglie di quattro-sei persone che cucinano due piatti insieme.",
+          "nl": "Twee gestapelde lades van 4,75 L nemen weinig breedte in en passen bij huishoudens van vier tot zes die twee gerechten tegelijk maken."
+        }
+      },
+      {
+        "model": "Philips Airfryer Combi XXL Connecté - 8.3L",
+        "role": {
+          "fr": "Meilleur choix connecté",
+          "en": "Best connected pick",
+          "de": "Beste vernetzte Wahl",
+          "es": "Mejor opción conectada",
+          "it": "Migliore scelta connessa",
+          "nl": "Beste slimme keuze"
+        },
+        "why": {
+          "fr": "Panier unique de 8,3 L avec sonde de température et application HomeID, pour cuire viandes et grandes portions avec précision.",
+          "en": "A single 8.3L basket with a temperature probe and the HomeID app, for cooking meat and large portions precisely.",
+          "de": "Ein 8,3-L-Korb mit Temperaturfühler und HomeID-App, um Fleisch und große Portionen präzise zu garen.",
+          "es": "Cesta única de 8,3 L con sonda de temperatura y app HomeID, para cocinar carnes y raciones grandes con precisión.",
+          "it": "Cestello unico da 8,3 L con sonda di temperatura e app HomeID, per cuocere con precisione carne e grandi porzioni.",
+          "nl": "Eén mand van 8,3 L met kernthermometer en HomeID-app, om vlees en grote porties nauwkeurig te garen."
+        }
+      }
+    ]
+  },
+  "test-ninja-foodi-max-dual-zone": {
+    "question": {
+      "fr": "Quel est le meilleur airfryer double zone en 2026 ?",
+      "en": "What is the best dual-zone air fryer in 2026?",
+      "de": "Was ist die beste Dual-Zone-Heißluftfritteuse 2026?",
+      "es": "¿Cuál es la mejor freidora de aire de doble zona en 2026?",
+      "it": "Qual è la migliore friggitrice ad aria a doppia zona nel 2026?",
+      "nl": "Wat is de beste dual-zone airfryer in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Gesamtwahl",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste algemene keuze"
+        },
+        "why": {
+          "fr": "Son format de tiroirs empilés limite l'encombrement et Smart Finish termine les deux cuissons en même temps, idéal pour une famille de quatre à six personnes.",
+          "en": "Its stacked drawer format limits counter space and Smart Finish ends both cooking zones together, ideal for a family of four to six people.",
+          "de": "Das Format mit gestapelten Schubladen spart Platz und Smart Finish beendet beide Garvorgänge gleichzeitig, ideal für eine Familie mit vier bis sechs Personen.",
+          "es": "Su formato de cajones apilados reduce el espacio ocupado y Smart Finish termina ambas cocciones a la vez, ideal para una familia de cuatro a seis personas.",
+          "it": "Il formato a cassetti impilati limita l'ingombro e Smart Finish termina entrambe le cotture insieme, ideale per una famiglia di quattro-sei persone.",
+          "nl": "Het formaat met gestapelde laden beperkt de ruimte en Smart Finish beëindigt beide bereidingen tegelijk, ideaal voor een gezin van vier tot zes personen."
+        }
+      },
+      {
+        "model": "Ninja Foodi FlexDrawer 10.4L Double Zone",
+        "role": {
+          "fr": "Idéal pour une méga-zone unique",
+          "en": "Best for a single mega zone",
+          "de": "Ideal für eine einzelne Megazone",
+          "es": "Ideal para una megazona única",
+          "it": "Ideale per un'unica megazona",
+          "nl": "Ideaal voor één megazone"
+        },
+        "why": {
+          "fr": "Il offre une méga-zone unique de 10,4 litres pour un poulet entier, ce que les tiroirs séparés du Ninja MAX ne permettent pas, mais il est plus encombrant.",
+          "en": "It offers a single 10.4-litre mega zone for a whole chicken, which the separate drawers of the Ninja MAX cannot, though it takes more space.",
+          "de": "Er bietet eine einzelne 10,4-Liter-Megazone für ein ganzes Hähnchen, was die getrennten Schubladen des Ninja MAX nicht können, braucht aber mehr Platz.",
+          "es": "Ofrece una megazona única de 10,4 litros para un pollo entero, algo que los cajones separados del Ninja MAX no permiten, aunque ocupa más espacio.",
+          "it": "Offre un'unica megazona da 10,4 litri per un pollo intero, impossibile con i cassetti separati del Ninja MAX, ma è più ingombrante.",
+          "nl": "Hij biedt één megazone van 10,4 liter voor een hele kip, wat de aparte laden van de Ninja MAX niet kunnen, maar neemt meer ruimte in."
+        }
+      },
+      {
+        "model": "Philips Airfryer Combi XXL Connecté - 8.3L",
+        "role": {
+          "fr": "Pour la connectivité et la précision",
+          "en": "Best for connectivity and precision",
+          "de": "Für Vernetzung und Präzision",
+          "es": "Para conectividad y precisión",
+          "it": "Per connettività e precisione",
+          "nl": "Voor connectiviteit en precisie"
+        },
+        "why": {
+          "fr": "Il convient mieux à ceux qui veulent le Wi-Fi et la précision de sa sonde de température, mais il coûte plus cher que le Ninja MAX.",
+          "en": "It suits those who want Wi-Fi and the precision of its temperature probe better, though it costs more than the Ninja MAX.",
+          "de": "Er passt besser, wenn man WLAN und die Präzision der Temperatursonde möchte, kostet aber mehr als der Ninja MAX.",
+          "es": "Encaja mejor con quienes quieren Wi-Fi y la precisión de su sonda de temperatura, aunque cuesta más que el Ninja MAX.",
+          "it": "È più adatto a chi vuole il Wi-Fi e la precisione della sonda di temperatura, ma costa più del Ninja MAX.",
+          "nl": "Hij past beter bij wie wifi en de precisie van de temperatuursonde wil, maar is duurder dan de Ninja MAX."
+        }
+      }
+    ]
+  },
+  "test-philips-airfryer-3000-xl": {
+    "question": {
+      "fr": "Le Philips Airfryer 3000 Series XL est-il un bon choix en 2026 ?",
+      "en": "Is the Philips Airfryer 3000 Series XL a good choice in 2026?",
+      "de": "Ist der Philips Airfryer 3000 Series XL 2026 eine gute Wahl?",
+      "es": "¿Es la Philips Airfryer 3000 Series XL una buena elección en 2026?",
+      "it": "La Philips Airfryer 3000 Series XL è una buona scelta nel 2026?",
+      "nl": "Is de Philips Airfryer 3000 Series XL in 2026 een goede keuze?"
+    },
+    "picks": [
+      {
+        "model": "Philips Airfryer Série 3000 XL - 6.2L",
+        "role": {
+          "fr": "Meilleur choix pour la simplicité",
+          "en": "Best for simplicity",
+          "de": "Beste Wahl für Einfachheit",
+          "es": "Mejor opción por sencillez",
+          "it": "Migliore per semplicità",
+          "nl": "Beste keuze voor eenvoud"
+        },
+        "why": {
+          "fr": "Cuve de 6,2 L pour 3 à 5 personnes, cuisson RapidAir régulière, 7 programmes et nettoyage facile, sans application à configurer.",
+          "en": "A 6.2L pan for 3 to 5 people, consistent RapidAir cooking, 7 presets and easy cleaning, with no app to set up.",
+          "de": "6,2-Liter-Garraum für 3 bis 5 Personen, gleichmäßiges RapidAir-Garen, 7 Programme und leichte Reinigung, ganz ohne App.",
+          "es": "Cubeta de 6,2 L para 3 a 5 personas, cocción RapidAir regular, 7 programas y limpieza fácil, sin aplicación que configurar.",
+          "it": "Vasca da 6,2 L per 3-5 persone, cottura RapidAir regolare, 7 programmi e pulizia facile, senza app da configurare.",
+          "nl": "Pan van 6,2 L voor 3 tot 5 personen, gelijkmatige RapidAir-bereiding, 7 programma's en makkelijk schoon te maken, zonder app."
+        }
+      },
+      {
+        "model": "Cosori Dual Blaze Smart Air Fryer - 6.4L",
+        "role": {
+          "fr": "Meilleure alternative connectée",
+          "en": "Best connected alternative",
+          "de": "Beste vernetzte Alternative",
+          "es": "Mejor alternativa conectada",
+          "it": "Migliore alternativa connessa",
+          "nl": "Beste slimme alternatief"
+        },
+        "why": {
+          "fr": "Double résistance haut et bas qui limite le besoin de retourner les aliments, et pilotage à distance via l'application VeSync.",
+          "en": "Top and bottom heating elements reduce the need to flip food, and the VeSync app lets you control cooking remotely.",
+          "de": "Heizelemente oben und unten machen Wenden seltener nötig, und die VeSync-App erlaubt die Steuerung aus der Ferne.",
+          "es": "Resistencias superior e inferior que reducen la necesidad de girar los alimentos, y control a distancia con la app VeSync.",
+          "it": "Resistenze superiore e inferiore che riducono la necessità di girare gli alimenti, e controllo a distanza con l'app VeSync.",
+          "nl": "Verwarmingselementen boven en onder, zodat je minder hoeft om te draaien, en bediening op afstand via de VeSync-app."
+        }
+      },
+      {
+        "model": "Ninja Foodi FlexDrawer 10.4L Double Zone",
+        "role": {
+          "fr": "Meilleur pour les grandes familles",
+          "en": "Best for large families",
+          "de": "Beste Wahl für große Familien",
+          "es": "Mejor para familias numerosas",
+          "it": "Migliore per famiglie numerose",
+          "nl": "Beste voor grote gezinnen"
+        },
+        "why": {
+          "fr": "Tiroir de 10,4 L divisible en deux zones de 5,2 L pilotées séparément, jusqu'à 240 °C, pour cuire deux plats à la fois.",
+          "en": "A 10.4L drawer that splits into two independently controlled 5.2L zones, up to 240 °C, to cook two dishes at once.",
+          "de": "10,4-Liter-Schublade, teilbar in zwei separat steuerbare 5,2-Liter-Zonen, bis 240 °C, für zwei Gerichte gleichzeitig.",
+          "es": "Cajón de 10,4 L divisible en dos zonas de 5,2 L con control independiente, hasta 240 °C, para cocinar dos platos a la vez.",
+          "it": "Cassetto da 10,4 L divisibile in due zone da 5,2 L gestite separatamente, fino a 240 °C, per cuocere due piatti insieme.",
+          "nl": "Lade van 10,4 L, deelbaar in twee apart te bedienen zones van 5,2 L, tot 240 °C, om twee gerechten tegelijk te bereiden."
+        }
+      }
+    ]
+  },
+  "test-xiaomi-smart-air-fryer-pro": {
+    "question": {
+      "fr": "Le Xiaomi Smart Air Fryer Pro 4L est-il un bon airfryer en 2026 ?",
+      "en": "Is the Xiaomi Smart Air Fryer Pro 4L a good air fryer in 2026?",
+      "de": "Ist der Xiaomi Smart Air Fryer Pro 4L 2026 eine gute Heißluftfritteuse?",
+      "es": "¿Es la Xiaomi Smart Air Fryer Pro 4L una buena freidora de aire en 2026?",
+      "it": "La Xiaomi Smart Air Fryer Pro 4L è una buona friggitrice ad aria nel 2026?",
+      "nl": "Is de Xiaomi Smart Air Fryer Pro 4L een goede airfryer in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Xiaomi Smart Air Fryer Pro 4L",
+        "role": {
+          "fr": "Meilleur choix pour 1 à 3 personnes",
+          "en": "Best for 1 to 3 people",
+          "de": "Beste Wahl für 1 bis 3 Personen",
+          "es": "Mejor opción para 1 a 3 personas",
+          "it": "Migliore per 1-3 persone",
+          "nl": "Beste keuze voor 1 tot 3 personen"
+        },
+        "why": {
+          "fr": "Compact et connecté, il offre un hublot éclairé, une plage de 40 à 200 °C et l’app Xiaomi Home, mais son panier de 4 litres reste limité.",
+          "en": "Compact and connected, it offers a lit window, a 40 to 200 °C range and the Xiaomi Home app, though its 4-litre basket is limited.",
+          "de": "Kompakt und vernetzt, mit beleuchtetem Sichtfenster, 40 bis 200 °C und Xiaomi-Home-App – der 4-Liter-Korb bleibt aber begrenzt.",
+          "es": "Compacta y conectada, ofrece ventana iluminada, de 40 a 200 °C y app Xiaomi Home, aunque su cesta de 4 litros es limitada.",
+          "it": "Compatta e connessa, offre oblò illuminato, da 40 a 200 °C e app Xiaomi Home, anche se il cestello da 4 litri è limitato.",
+          "nl": "Compact en connected, met verlicht kijkvenster, 40 tot 200 °C en de Xiaomi Home-app, al is de mand van 4 liter beperkt."
+        }
+      },
+      {
+        "model": "Philips Airfryer Série 3000 XL - 6.2L",
+        "role": {
+          "fr": "Meilleur choix pour 3 à 5 personnes",
+          "en": "Best for 3 to 5 people",
+          "de": "Beste Wahl für 3 bis 5 Personen",
+          "es": "Mejor opción para 3 a 5 personas",
+          "it": "Migliore per 3-5 persone",
+          "nl": "Beste keuze voor 3 tot 5 personen"
+        },
+        "why": {
+          "fr": "Avec 6,2 litres et 2 000 W, il prend le relais quand le Xiaomi devient trop petit, au prix de l’absence de pilotage Wi-Fi.",
+          "en": "With 6.2 litres and 2,000 W it takes over when the Xiaomi becomes too small, at the cost of no Wi-Fi remote control.",
+          "de": "Mit 6,2 Litern und 2.000 W übernimmt er, wenn der Xiaomi zu klein wird – allerdings ohne WLAN-Fernsteuerung.",
+          "es": "Con 6,2 litros y 2.000 W toma el relevo cuando la Xiaomi se queda pequeña, a cambio de no tener control remoto por Wi-Fi.",
+          "it": "Con 6,2 litri e 2.000 W subentra quando la Xiaomi diventa troppo piccola, ma senza controllo remoto via Wi-Fi.",
+          "nl": "Met 6,2 liter en 2.000 W neemt hij het over als de Xiaomi te klein wordt, wel zonder bediening op afstand via wifi."
+        }
+      }
+    ]
+  },
+  "saugroboter-tierhaare-test": {
+    "question": {
+      "fr": "Quel est le meilleur robot aspirateur pour poils d'animaux en 2026 ?",
+      "en": "What is the best robot vacuum for pet hair in 2026?",
+      "de": "Welcher ist der beste Saugroboter für Tierhaare 2026?",
+      "es": "¿Cuál es el mejor robot aspirador para pelo de mascotas en 2026?",
+      "it": "Qual è il miglior robot aspirapolvere per peli di animali nel 2026?",
+      "nl": "Wat is de beste robotstofzuiger voor dierenharen in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Roborock S8 MaxV Ultra",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Sa brosse DuoRoller en caoutchouc limite l'emmêlement, ses 10 000 Pa et sa station d'auto-vidage conviennent aux foyers avec chien ou chat.",
+          "en": "Its rubber DuoRoller brush limits tangling, and 10,000 Pa plus an auto-empty station suit homes with a dog or cat.",
+          "de": "Die DuoRoller-Gummiwalzen mindern das Verheddern, 10.000 Pa und Absaugstation passen zu Haushalten mit Hund oder Katze.",
+          "es": "Su cepillo DuoRoller de goma limita los enredos, y sus 10.000 Pa con estación de autovaciado encajan en hogares con perro o gato.",
+          "it": "La spazzola DuoRoller in gomma limita i grovigli, e 10.000 Pa con stazione di autosvuotamento si adattano a case con cani o gatti.",
+          "nl": "De rubberen DuoRoller-borstel beperkt klitten, en 10.000 Pa met zelfleegstation past bij huishoudens met hond of kat."
+        }
+      },
+      {
+        "model": "Dreame X40 Ultra",
+        "role": {
+          "fr": "Aspiration maximale",
+          "en": "Maximum suction",
+          "de": "Maximale Saugkraft",
+          "es": "Máxima succión",
+          "it": "Massima aspirazione",
+          "nl": "Maximale zuigkracht"
+        },
+        "why": {
+          "fr": "Avec 12 000 Pa et une brosse anti-emmêlement, il convient aux races à poils longs, et sa brosse latérale extensible atteint coins et bords.",
+          "en": "With 12,000 Pa and an anti-tangle brush, it suits long-haired breeds, and its extendable side brush reaches corners and edges.",
+          "de": "Mit 12.000 Pa und Anti-Verheddern-Bürste passt er zu langhaarigen Rassen, die ausfahrbare Seitenbürste erreicht Ecken und Kanten.",
+          "es": "Con 12.000 Pa y cepillo anti-enredo, va bien con razas de pelo largo, y su cepillo lateral extensible llega a rincones y bordes.",
+          "it": "Con 12.000 Pa e spazzola anti-groviglio si adatta alle razze a pelo lungo, e la spazzola laterale estensibile raggiunge angoli e bordi.",
+          "nl": "Met 12.000 Pa en een anti-klitborstel past hij bij langharige rassen, en de uitschuifbare zijborstel bereikt hoeken en randen."
+        }
+      },
+      {
+        "model": "Ecovacs Deebot T30 Pro Omni",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "Il réunit 11 000 Pa, une brosse ZeroTangle et une station d'auto-vidage en milieu de gamme, le choix malin pour un budget maîtrisé.",
+          "en": "It combines 11,000 Pa, a ZeroTangle brush and an auto-empty station in the mid-range, the smart pick for budget-conscious pet owners.",
+          "de": "Er vereint 11.000 Pa, ZeroTangle-Bürste und Absaugstation in der Mittelklasse, die clevere Wahl für preisbewusste Tierhalter.",
+          "es": "Reúne 11.000 Pa, cepillo ZeroTangle y estación de autovaciado en la gama media, la opción inteligente con presupuesto ajustado.",
+          "it": "Unisce 11.000 Pa, spazzola ZeroTangle e stazione di autosvuotamento nella fascia media, la scelta furba con un budget limitato.",
+          "nl": "Hij combineert 11.000 Pa, een ZeroTangle-borstel en een zelfleegstation in het middensegment, de slimme keuze bij een beperkt budget."
+        }
+      }
+    ]
+  },
+  "deshumidificateur-connecte-guide": {
+    "question": {
+      "fr": "Quel est le meilleur déshumidificateur connecté en 2026 ?",
+      "en": "What is the best smart dehumidifier in 2026?",
+      "de": "Welcher ist der beste smarte Luftentfeuchter 2026?",
+      "es": "¿Cuál es el mejor deshumidificador inteligente en 2026?",
+      "it": "Qual è il miglior deumidificatore smart nel 2026?",
+      "nl": "Wat is de beste slimme luchtontvochtiger in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Meaco Arete Two 20L",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Gesamtwahl",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste algemene keuze"
+        },
+        "why": {
+          "fr": "20 L par jour, bac de 4,8 L, filtre HEPA, Wi-Fi avec Alexa et Google Home, et une réputation de faible consommation et de discrétion.",
+          "en": "20 L a day, 4.8 L tank, HEPA filter, Wi-Fi with Alexa and Google Home, and a reputation for low energy use and quiet running.",
+          "de": "20 L pro Tag, 4,8-L-Tank, HEPA-Filter, WLAN mit Alexa und Google Home sowie der Ruf, sparsam und leise zu sein.",
+          "es": "20 L al día, depósito de 4,8 L, filtro HEPA, Wi-Fi con Alexa y Google Home, y fama de bajo consumo y funcionamiento silencioso.",
+          "it": "20 L al giorno, serbatoio da 4,8 L, filtro HEPA, Wi-Fi con Alexa e Google Home e fama di bassi consumi e silenziosità.",
+          "nl": "20 L per dag, reservoir van 4,8 L, HEPA-filter, wifi met Alexa en Google Home, en bekend om zijn lage verbruik en stille werking."
+        }
+      },
+      {
+        "model": "Comfee MDDF-16DEN7-WF",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "16 L par jour, Wi-Fi compatible Alexa, mode linge et drainage continu dans un format compact d’entrée de gamme.",
+          "en": "16 L a day, Wi-Fi with Alexa support, laundry mode and continuous drainage in a compact entry-level body.",
+          "de": "16 L pro Tag, WLAN mit Alexa, Wäschemodus und Dauerablauf in einem kompakten Einstiegsgerät.",
+          "es": "16 L al día, Wi-Fi compatible con Alexa, modo ropa y drenaje continuo en un formato compacto de gama de entrada.",
+          "it": "16 L al giorno, Wi-Fi compatibile con Alexa, modalità bucato e drenaggio continuo in un formato compatto entry-level.",
+          "nl": "16 L per dag, wifi met Alexa, wasmodus en continue afvoer in een compact instapmodel."
+        }
+      },
+      {
+        "model": "Xiaomi Smart Dehumidifier Lite",
+        "role": {
+          "fr": "Idéal pour une chambre",
+          "en": "Best for bedrooms",
+          "de": "Ideal fürs Schlafzimmer",
+          "es": "Ideal para el dormitorio",
+          "it": "Ideale per la camera da letto",
+          "nl": "Ideaal voor de slaapkamer"
+        },
+        "why": {
+          "fr": "Petit modèle de 13 L par jour avec mode nuit discret et pilotage dans l’application Xiaomi Home, parfait pour une chambre ou une salle de bain.",
+          "en": "A small 13 L/day unit with a quiet sleep mode and Xiaomi Home app control, ideal for a bedroom or bathroom.",
+          "de": "Kleines 13-L-Gerät mit leisem Schlafmodus und Steuerung per Xiaomi-Home-App, ideal für Schlafzimmer oder Bad.",
+          "es": "Modelo pequeño de 13 L al día con modo noche silencioso y control desde la app Xiaomi Home, ideal para dormitorio o baño.",
+          "it": "Modello compatto da 13 L al giorno con modalità notte silenziosa e controllo dall’app Xiaomi Home, ideale per camera o bagno.",
+          "nl": "Klein model van 13 L per dag met stille nachtmodus en bediening via de Xiaomi Home-app, ideaal voor slaapkamer of badkamer."
+        }
+      }
+    ]
+  },
+  "guide-jardin-connecte-2026": {
+    "question": {
+      "fr": "Quelle est la meilleure tondeuse robot pour un jardin connecté en 2026 ?",
+      "en": "What is the best robot mower for a smart garden in 2026?",
+      "de": "Welcher Mähroboter ist der beste für einen vernetzten Garten 2026?",
+      "es": "¿Cuál es el mejor robot cortacésped para un jardín inteligente en 2026?",
+      "it": "Qual è il miglior robot tagliaerba per un giardino smart nel 2026?",
+      "nl": "Wat is de beste robotmaaier voor een slimme tuin in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Mammotion LUBA 3 AWD 5000",
+        "role": {
+          "fr": "Idéal pour les pentes",
+          "en": "Best for sloped lawns",
+          "de": "Beste für Hanglagen",
+          "es": "Ideal para pendientes",
+          "it": "Ideale per i pendii",
+          "nl": "Beste voor hellingen"
+        },
+        "why": {
+          "fr": "Quatre roues motrices, pentes annoncées jusqu'à 80 % et navigation LiDAR, RTK réseau et vision, pour des pelouses jusqu'à 5 000 m².",
+          "en": "All-wheel drive, slopes rated up to 80 percent and LiDAR, network RTK and vision navigation for lawns up to 5,000 square meters.",
+          "de": "Allradantrieb, bis zu 80 Prozent Steigung laut Hersteller und Navigation per LiDAR, Netz-RTK und Kamera für bis zu 5.000 Quadratmeter.",
+          "es": "Tracción total, pendientes de hasta el 80 % según el fabricante y navegación LiDAR, RTK por red y visión para hasta 5.000 metros cuadrados.",
+          "it": "Trazione integrale, pendenze dichiarate fino all'80 percento e navigazione LiDAR, RTK di rete e visione per prati fino a 5.000 metri quadrati.",
+          "nl": "Vierwielaandrijving, hellingen tot 80 procent volgens de fabrikant en navigatie via LiDAR, netwerk-RTK en camera voor maximaal 5.000 vierkante meter."
+        }
+      },
+      {
+        "model": "Husqvarna Automower 450X NERA",
+        "role": {
+          "fr": "Haut de gamme",
+          "en": "Premium pick",
+          "de": "Premium-Wahl",
+          "es": "Gama alta",
+          "it": "Fascia alta",
+          "nl": "Premiumkeuze"
+        },
+        "why": {
+          "fr": "Modèle phare de Husqvarna, à fil ou sans fil avec le kit EPOS, pour 5 000 m² et 50 % de pente, mais c'est le plus cher de la sélection.",
+          "en": "Husqvarna's flagship works with a wire or wire-free with the EPOS kit, covering 5,000 square meters and 50 percent slopes, but it is the priciest pick.",
+          "de": "Husqvarnas Flaggschiff arbeitet mit Kabel oder mit EPOS-Kit kabellos, für 5.000 Quadratmeter und 50 Prozent Steigung, ist aber das teuerste Modell.",
+          "es": "Modelo estrella de Husqvarna, con cable o sin cable con el kit EPOS, para 5.000 metros cuadrados y pendientes del 50 %, pero es el más caro.",
+          "it": "Modello di punta Husqvarna, con filo o senza filo con il kit EPOS, per 5.000 metri quadrati e pendenze del 50 percento, ma è il più costoso.",
+          "nl": "Het vlaggenschip van Husqvarna werkt met draad of draadloos met de EPOS-kit, voor 5.000 vierkante meter en 50 procent helling, maar is het duurst."
+        }
+      },
+      {
+        "model": "Gardena SILENO City 600",
+        "role": {
+          "fr": "Idéal pour petits jardins",
+          "en": "Best for small gardens",
+          "de": "Beste für kleine Gärten",
+          "es": "Ideal para jardines pequeños",
+          "it": "Ideale per piccoli giardini",
+          "nl": "Beste voor kleine tuinen"
+        },
+        "why": {
+          "fr": "Avec son fil périmétrique et une surface maximale de 600 m², c'est l'option la plus abordable de la sélection pour un petit jardin simple.",
+          "en": "With its perimeter wire and a maximum area of 600 square meters, it is the most affordable option in the selection for a small, simple garden.",
+          "de": "Mit Begrenzungskabel und maximal 600 Quadratmetern ist es die günstigste Option der Auswahl für einen kleinen, einfachen Garten.",
+          "es": "Con cable perimetral y una superficie máxima de 600 metros cuadrados, es la opción más económica de la selección para un jardín pequeño y sencillo.",
+          "it": "Con filo perimetrale e una superficie massima di 600 metri quadrati, è l'opzione più economica della selezione per un giardino piccolo e semplice.",
+          "nl": "Met begrenzingsdraad en maximaal 600 vierkante meter is dit de goedkoopste optie van de selectie voor een kleine, eenvoudige tuin."
+        }
+      }
+    ]
+  },
+  "mejor-aire-acondicionado-bajo-consumo": {
+    "question": {
+      "fr": "Quel est le meilleur climatiseur basse consommation en 2026 ?",
+      "en": "What is the best low-energy air conditioner in 2026?",
+      "de": "Welche ist die beste stromsparende Klimaanlage 2026?",
+      "es": "¿Cuál es el mejor aire acondicionado de bajo consumo en 2026?",
+      "it": "Qual è il miglior condizionatore a basso consumo nel 2026?",
+      "nl": "Wat is de beste zuinige airco in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Mitsubishi Electric MSZ-AY35VGK",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Split Inverter classé A+++ en froid avec un SEER de 8,7, très silencieux (18 dB(A)) et réputé fiable pour un usage intensif l’été.",
+          "en": "An Inverter split rated A+++ for cooling with a SEER of 8.7, very quiet (18 dB(A)) and known for reliability under heavy summer use.",
+          "de": "Inverter-Splitgerät mit A+++ beim Kühlen und SEER 8,7, sehr leise (18 dB(A)) und für intensive Sommernutzung als zuverlässig bekannt.",
+          "es": "Split Inverter con clase A+++ en frío y SEER de 8,7, muy silencioso (18 dB(A)) y con fama de fiable para un uso intensivo en verano.",
+          "it": "Split Inverter in classe A+++ in raffrescamento con SEER 8,7, molto silenzioso (18 dB(A)) e noto per l’affidabilità con uso estivo intenso.",
+          "nl": "Inverter-splitunit met A+++ voor koelen en een SEER van 8,7, erg stil (18 dB(A)) en bekend om zijn betrouwbaarheid bij intensief zomergebruik."
+        }
+      },
+      {
+        "model": "Haier Flexis Plus 3,5 kW",
+        "role": {
+          "fr": "Meilleur rapport efficacité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación eficiencia-precio",
+          "it": "Miglior rapporto efficienza-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Il offre la classe A+++ en froid (SEER 8,5) et le Wi-Fi de série sur un segment de prix intermédiaire.",
+          "en": "It delivers A+++ cooling (SEER 8.5) and built-in Wi-Fi in the mid-price segment.",
+          "de": "Er bietet A+++ beim Kühlen (SEER 8,5) und serienmäßiges WLAN im mittleren Preissegment.",
+          "es": "Ofrece clase A+++ en frío (SEER 8,5) y wifi de serie en un segmento de precio medio.",
+          "it": "Offre la classe A+++ in raffrescamento (SEER 8,5) e il Wi-Fi di serie in una fascia di prezzo media.",
+          "nl": "Hij biedt A+++ voor koelen (SEER 8,5) en standaard wifi in het middensegment."
+        }
+      },
+      {
+        "model": "Daikin Perfera FTXM35R",
+        "role": {
+          "fr": "Idéal pour chauffer toute l’année",
+          "en": "Best for year-round heating",
+          "de": "Ideal zum ganzjährigen Heizen",
+          "es": "Ideal para calefacción todo el año",
+          "it": "Ideale per riscaldare tutto l’anno",
+          "nl": "Ideaal om het hele jaar te verwarmen"
+        },
+        "why": {
+          "fr": "Seul modèle de la sélection classé A+++ en froid et en chaud (SEER 8,65, SCOP 5,10), avec chauffage jusqu’à −20 °C.",
+          "en": "The only model in the selection rated A+++ for both cooling and heating (SEER 8.65, SCOP 5.10), heating down to −20 °C.",
+          "de": "Einziges Modell der Auswahl mit A+++ beim Kühlen und Heizen (SEER 8,65, SCOP 5,10), heizt bis −20 °C.",
+          "es": "El único de la selección con A+++ en frío y en calor (SEER 8,65, SCOP 5,10), con calefacción hasta −20 °C.",
+          "it": "L’unico della selezione in classe A+++ sia in freddo sia in caldo (SEER 8,65, SCOP 5,10), riscalda fino a −20 °C.",
+          "nl": "Het enige model in de selectie met A+++ voor koelen én verwarmen (SEER 8,65, SCOP 5,10), verwarmt tot −20 °C."
+        }
+      }
+    ]
+  },
+  "robot-aspirador-piso-pequeno": {
+    "question": {
+      "fr": "Quel est le meilleur robot aspirateur pour un petit appartement en 2026 ?",
+      "en": "What is the best robot vacuum for a small apartment in 2026?",
+      "de": "Welcher ist der beste Saugroboter für eine kleine Wohnung 2026?",
+      "es": "¿Cuál es el mejor robot aspirador para un piso pequeño en 2026?",
+      "it": "Qual è il miglior robot aspirapolvere per un piccolo appartamento nel 2026?",
+      "nl": "Wat is de beste robotstofzuiger voor een kleine woning in 2026?"
+    },
+    "picks": [
+      {
+        "model": "eufy Auto-Empty C10",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Seulement 7,2 cm de haut, navigation laser avec carte et zones interdites, et une station d’auto-vidage à sac de 3 L annoncée pour 60 jours.",
+          "en": "Only 7.2 cm tall, laser navigation with a map and no-go zones, and a self-emptying dock with a 3 L bag rated for up to 60 days.",
+          "de": "Nur 7,2 cm hoch, Lasernavigation mit Karte und Sperrzonen sowie eine Absaugstation mit 3-l-Beutel für bis zu 60 Tage laut Hersteller.",
+          "es": "Solo 7,2 cm de alto, navegación láser con mapa y zonas prohibidas, y base de autovaciado con bolsa de 3 L anunciada para 60 días.",
+          "it": "Alto solo 7,2 cm, navigazione laser con mappa e zone vietate, e base di svuotamento con sacchetto da 3 L dichiarato per 60 giorni.",
+          "nl": "Slechts 7,2 cm hoog, lasernavigatie met kaart en no-gozones, en een zelfleegstation met zak van 3 l die tot 60 dagen meegaat."
+        }
+      },
+      {
+        "model": "Xiaomi Robot Vacuum E5",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Le plus bas de la sélection avec 7 cm, il aspire et lave légèrement, et se contente d’une petite base de charge : idéal pour un studio.",
+          "en": "The lowest pick at 7 cm, it vacuums and lightly mops and only needs a small charging base: ideal for a one-room studio.",
+          "de": "Mit 7 cm der flachste der Auswahl, saugt und wischt leicht und braucht nur eine kleine Ladestation: ideal für ein Studio.",
+          "es": "El más bajo de la selección con 7 cm, aspira y friega ligeramente y solo necesita una base de carga pequeña: ideal para un estudio.",
+          "it": "Il più basso della selezione con 7 cm, aspira e lava leggermente e richiede solo una piccola base di ricarica: ideale per un monolocale.",
+          "nl": "Met 7 cm de laagste van de selectie, zuigt en dweilt licht en heeft alleen een klein laadstation nodig: ideaal voor een studio."
+        }
+      },
+      {
+        "model": "Roborock Q7 M5",
+        "role": {
+          "fr": "Idéal pour plusieurs pièces",
+          "en": "Best for multi-room flats",
+          "de": "Ideal für mehrere Zimmer",
+          "es": "Ideal para varias habitaciones",
+          "it": "Ideale per più stanze",
+          "nl": "Ideaal voor meerdere kamers"
+        },
+        "why": {
+          "fr": "Navigation LiDAR 360° pièce par pièce, 10 000 Pa annoncés et brosses anti-emmêlement, avec une simple base de charge peu encombrante.",
+          "en": "360° LiDAR room-by-room navigation, a claimed 10,000 Pa and anti-tangle brushes, with a simple, space-saving charging base.",
+          "de": "360°-LiDAR-Navigation Raum für Raum, 10.000 Pa laut Hersteller und Anti-Verheddern-Bürsten, mit platzsparender einfacher Ladestation.",
+          "es": "Navegación LiDAR 360° por habitaciones, 10.000 Pa anunciados y cepillos anti-enredos, con una base de carga simple que ocupa poco.",
+          "it": "Navigazione LiDAR a 360° stanza per stanza, 10.000 Pa dichiarati e spazzole anti-groviglio, con una base di ricarica semplice e compatta.",
+          "nl": "360°-LiDAR-navigatie per kamer, 10.000 Pa volgens de fabrikant en anti-klitborstels, met een eenvoudig, ruimtebesparend laadstation."
+        }
+      }
+    ]
+  },
+  "eclairage-exterieur-solaire-connecte": {
+    "question": {
+      "fr": "Quel est le meilleur éclairage extérieur solaire connecté en 2026 ?",
+      "en": "What is the best smart solar outdoor lighting in 2026?",
+      "de": "Welche ist die beste smarte Solar-Außenbeleuchtung 2026?",
+      "es": "¿Cuál es la mejor iluminación exterior solar inteligente en 2026?",
+      "it": "Qual è la migliore illuminazione esterna solare smart nel 2026?",
+      "nl": "Wat is de beste slimme buitenverlichting op zonne-energie in 2026?"
+    },
+    "picks": [
+      {
+        "model": "eufy Solar Wall Light Cam S120",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Applique solaire de 300 lumens avec caméra 2K, détecteur de mouvement et alertes Wi-Fi, IP65, sans aucun câble à tirer.",
+          "en": "A 300-lumen solar wall light with a 2K camera, motion sensor and Wi-Fi alerts, rated IP65, with no cable to run.",
+          "de": "Solar-Wandleuchte mit 300 Lumen, 2K-Kamera, Bewegungsmelder und WLAN-Warnungen, IP65, ganz ohne Kabel.",
+          "es": "Aplique solar de 300 lúmenes con cámara 2K, detector de movimiento y alertas wifi, IP65, sin ningún cable.",
+          "it": "Applique solare da 300 lumen con telecamera 2K, sensore di movimento e avvisi Wi-Fi, IP65, senza alcun cavo.",
+          "nl": "Solar wandlamp van 300 lumen met 2K-camera, bewegingssensor en wifimeldingen, IP65, zonder enige kabel."
+        }
+      },
+      {
+        "model": "Govee Outdoor Solar String Lights",
+        "role": {
+          "fr": "Ambiance solaire pilotable",
+          "en": "Controllable solar ambience",
+          "de": "Steuerbare Solar-Atmosphäre",
+          "es": "Ambiente solar controlable",
+          "it": "Atmosfera solare controllabile",
+          "nl": "Bedienbare solarsfeer"
+        },
+        "why": {
+          "fr": "Guirlande solaire de 10 m à ampoules RGBICW, pilotable en Bluetooth avec scènes et programmation, pour une terrasse sans prise.",
+          "en": "A 10 m solar string with RGBICW bulbs, controlled over Bluetooth with scenes and schedules, for a patio with no socket.",
+          "de": "10-m-Solar-Lichterkette mit RGBICW-Birnen, per Bluetooth mit Szenen und Zeitplänen steuerbar, für Terrassen ohne Steckdose.",
+          "es": "Guirnalda solar de 10 m con bombillas RGBICW, controlable por Bluetooth con escenas y horarios, para terrazas sin enchufe.",
+          "it": "Catena solare da 10 m con lampadine RGBICW, controllabile via Bluetooth con scene e programmazione, per terrazze senza presa.",
+          "nl": "Solar lichtsnoer van 10 m met RGBICW-lampen, via Bluetooth bedienbaar met scènes en schema's, voor een terras zonder stopcontact."
+        }
+      },
+      {
+        "model": "Philips Hue Lily Outdoor Spot Base Kit",
+        "role": {
+          "fr": "Mise en lumière premium (filaire)",
+          "en": "Premium landscape lighting (wired)",
+          "de": "Premium-Gartenbeleuchtung (kabelgebunden)",
+          "es": "Iluminación premium (cableada)",
+          "it": "Illuminazione premium (cablata)",
+          "nl": "Premium tuinverlichting (bekabeld)"
+        },
+        "why": {
+          "fr": "Trois spots 24 V de 600 lumens en couleurs, IP65, pilotés via le pont Hue avec Alexa, Google Home, Apple Home et Home Assistant.",
+          "en": "Three 24 V colour spotlights of 600 lumens each, IP65, controlled via the Hue Bridge with Alexa, Google Home, Apple Home and Home Assistant.",
+          "de": "Drei farbige 24-V-Spots mit je 600 Lumen, IP65, über die Hue Bridge mit Alexa, Google Home, Apple Home und Home Assistant steuerbar.",
+          "es": "Tres focos de color a 24 V de 600 lúmenes, IP65, controlados con el Hue Bridge desde Alexa, Google Home, Apple Home y Home Assistant.",
+          "it": "Tre faretti a colori a 24 V da 600 lumen, IP65, gestiti con l'Hue Bridge da Alexa, Google Home, Apple Home e Home Assistant.",
+          "nl": "Drie gekleurde 24 V-spots van 600 lumen, IP65, via de Hue Bridge te bedienen met Alexa, Google Home, Apple Home en Home Assistant."
+        }
+      }
+    ]
+  },
+  "sonnette-video-sans-abonnement": {
+    "question": {
+      "fr": "Quelle est la meilleure sonnette vidéo sans abonnement en 2026 ?",
+      "en": "What is the best video doorbell without a subscription in 2026?",
+      "de": "Welche ist die beste Video-Türklingel ohne Abo 2026?",
+      "es": "¿Cuál es el mejor timbre con vídeo sin suscripción en 2026?",
+      "it": "Qual è il miglior videocampanello senza abbonamento nel 2026?",
+      "nl": "Wat is de beste videodeurbel zonder abonnement in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Eufy Video Doorbell E340",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Double caméra pour visiteur et colis, 8 Go de stockage intégré sans abonnement, et alimentation sur batterie ou sur le câblage existant.",
+          "en": "A dual camera for visitors and parcels, 8 GB of built-in storage with no subscription, and battery or existing-wiring power.",
+          "de": "Doppelkamera für Besucher und Pakete, 8 GB interner Speicher ohne Abo sowie Betrieb per Akku oder vorhandener Klingelleitung.",
+          "es": "Doble cámara para visitantes y paquetes, 8 GB de almacenamiento integrado sin suscripción y alimentación por batería o cableado existente.",
+          "it": "Doppia telecamera per visitatori e pacchi, 8 GB di memoria integrata senza abbonamento e alimentazione a batteria o sul cablaggio esistente.",
+          "nl": "Dubbele camera voor bezoekers en pakketjes, 8 GB ingebouwde opslag zonder abonnement en voeding via accu of bestaande bedrading."
+        }
+      },
+      {
+        "model": "TP-Link Tapo D235",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "Image 2K de 5 mégapixels à 180°, microSD jusqu'à 512 Go, carillon fourni et détections gratuites, pour un tarif d'entrée de gamme.",
+          "en": "5 MP 2K video with a 180° view, microSD up to 512 GB, an included chime and free detection, at an entry-level price.",
+          "de": "2K-Bild mit 5 MP und 180°, microSD bis 512 GB, mitgelieferter Gong und kostenlose Erkennung zum Einstiegspreis.",
+          "es": "Imagen 2K de 5 MP a 180°, microSD de hasta 512 GB, carillón incluido y detecciones gratuitas, a precio de gama de entrada.",
+          "it": "Immagine 2K da 5 MP a 180°, microSD fino a 512 GB, campanello interno incluso e rilevamenti gratuiti, a prezzo da fascia d'ingresso.",
+          "nl": "2K-beeld van 5 MP met 180°, microSD tot 512 GB, meegeleverde gong en gratis detectie, voor een instapprijs."
+        }
+      },
+      {
+        "model": "Aqara Video Doorbell G4",
+        "role": {
+          "fr": "Pour Apple Home",
+          "en": "Best for Apple Home",
+          "de": "Für Apple Home",
+          "es": "Para Apple Home",
+          "it": "Per Apple Casa",
+          "nl": "Voor Apple Woning"
+        },
+        "why": {
+          "fr": "Compatible HomeKit Secure Video, elle enregistre aussi gratuitement sur la microSD de son carillon et fonctionne sur piles ou en filaire.",
+          "en": "It supports HomeKit Secure Video, also records for free to the microSD card in its chime, and runs on batteries or wiring.",
+          "de": "Unterstützt HomeKit Secure Video, zeichnet zusätzlich kostenlos auf die microSD-Karte im Gong auf und läuft mit Batterien oder Kabel.",
+          "es": "Compatible con HomeKit Secure Video, también graba gratis en la microSD de su carillón y funciona con pilas o cable.",
+          "it": "Compatibile con HomeKit Secure Video, registra anche gratis sulla microSD del ricevitore e funziona a pile o via cavo.",
+          "nl": "Ondersteunt HomeKit Secure Video, neemt ook gratis op de microSD-kaart in de gong op en werkt op batterijen of bedraad."
+        }
+      }
+    ]
+  },
+  "meilleur-airfryer-xxl-grande-famille": {
+    "question": {
+      "fr": "Quel est le meilleur airfryer XXL pour une grande famille en 2026 ?",
+      "en": "What is the best XXL air fryer for a large family in 2026?",
+      "de": "Welche ist die beste XXL-Heißluftfritteuse für große Familien 2026?",
+      "es": "¿Cuál es la mejor freidora de aire XXL para una familia numerosa en 2026?",
+      "it": "Qual è la migliore friggitrice ad aria XXL per una famiglia numerosa nel 2026?",
+      "nl": "Wat is de beste XXL-airfryer voor een groot gezin in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Ninja Foodi FlexDrawer 10.4L Double Zone",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Gesamtwahl",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste algemene keuze"
+        },
+        "why": {
+          "fr": "Deux zones indépendantes de 5,2 L ou un seul grand tiroir de 10,4 L (MegaZone) : la plus grande capacité et la plus polyvalente de la sélection.",
+          "en": "Two independent 5.2L zones or one large 10.4L drawer (MegaZone): the highest capacity and the most versatile model in the selection.",
+          "de": "Zwei unabhängige 5,2-L-Zonen oder eine große 10,4-L-Schublade (MegaZone): die höchste Kapazität und das vielseitigste Modell der Auswahl.",
+          "es": "Dos zonas independientes de 5,2 L o un único cajón grande de 10,4 L (MegaZone): la mayor capacidad y el modelo más versátil de la selección.",
+          "it": "Due zone indipendenti da 5,2 L o un unico grande cassetto da 10,4 L (MegaZone): la capacità più alta e il modello più versatile della selezione.",
+          "nl": "Twee onafhankelijke zones van 5,2 L of één grote lade van 10,4 L (MegaZone): de grootste capaciteit en het veelzijdigste model van de selectie."
+        }
+      },
+      {
+        "model": "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+        "role": {
+          "fr": "Idéal pour les cuisines étroites",
+          "en": "Best for narrow kitchens",
+          "de": "Ideal für schmale Küchen",
+          "es": "Ideal para cocinas estrechas",
+          "it": "Ideale per cucine strette",
+          "nl": "Ideaal voor smalle keukens"
+        },
+        "why": {
+          "fr": "Deux tiroirs indépendants de 4,75 L superposés : 9,5 L au total pour environ 28 cm de large, avec cuisson possible sur quatre niveaux.",
+          "en": "Two independent 4.75L drawers stacked vertically: 9.5L in total in a width of about 28 cm, with cooking on up to four levels.",
+          "de": "Zwei unabhängige 4,75-L-Schubladen übereinander: insgesamt 9,5 L auf nur etwa 28 cm Breite, mit Garen auf bis zu vier Ebenen.",
+          "es": "Dos cajones independientes de 4,75 L apilados: 9,5 L en total en unos 28 cm de ancho, con cocción en hasta cuatro niveles.",
+          "it": "Due cassetti indipendenti da 4,75 L sovrapposti: 9,5 L totali in circa 28 cm di larghezza, con cottura fino a quattro livelli.",
+          "nl": "Twee onafhankelijke lades van 4,75 L boven elkaar: 9,5 L in totaal op zo’n 28 cm breedte, met bakken op maximaal vier niveaus."
+        }
+      },
+      {
+        "model": "Philips Airfryer Combi XXL Connecté - 8.3L",
+        "role": {
+          "fr": "Meilleur airfryer connecté",
+          "en": "Best connected air fryer",
+          "de": "Beste vernetzte Heißluftfritteuse",
+          "es": "Mejor freidora de aire conectada",
+          "it": "Migliore friggitrice ad aria connessa",
+          "nl": "Beste verbonden airfryer"
+        },
+        "why": {
+          "fr": "Un grand panier de 8,3 L, le Wi-Fi avec l’app HomeID et un thermomètre de cuisson intégré : idéal pour les rôtis et les volailles entières.",
+          "en": "A large 8.3L basket, Wi-Fi with the HomeID app and a built-in food thermometer: ideal for roasts and whole poultry.",
+          "de": "Ein großer 8,3-L-Korb, WLAN mit der HomeID-App und ein integriertes Garthermometer: ideal für Braten und ganzes Geflügel.",
+          "es": "Una cesta grande de 8,3 L, wifi con la app HomeID y un termómetro de cocción integrado: ideal para asados y aves enteras.",
+          "it": "Un grande cestello da 8,3 L, Wi-Fi con l’app HomeID e un termometro di cottura integrato: ideale per arrosti e pollame intero.",
+          "nl": "Een grote mand van 8,3 L, wifi met de HomeID-app en een ingebouwde kerntemperatuurmeter: ideaal voor rollades en hele kippen."
+        }
+      }
+    ]
+  },
+  "robot-aspirateur-vs-balai": {
+    "question": {
+      "fr": "Robot aspirateur ou aspirateur balai : lequel choisir en 2026 ?",
+      "en": "Robot vacuum or stick vacuum: which should you choose in 2026?",
+      "de": "Saugroboter oder Stielsauger: Was solltest du 2026 wählen?",
+      "es": "¿Robot aspirador o aspiradora escoba: cuál elegir en 2026?",
+      "it": "Robot aspirapolvere o scopa elettrica: quale scegliere nel 2026?",
+      "nl": "Robotstofzuiger of steelstofzuiger: welke kies je in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Roborock Qrevo Curv",
+        "role": {
+          "fr": "Meilleur robot aspirateur",
+          "en": "Best robot vacuum",
+          "de": "Bester Saugroboter",
+          "es": "Mejor robot aspirador",
+          "it": "Miglior robot aspirapolvere",
+          "nl": "Beste robotstofzuiger"
+        },
+        "why": {
+          "fr": "Pour un entretien quotidien sans effort : 18 500 Pa annoncés, LiDAR, serpillères rotatives et station qui vide, lave à l’eau chaude et sèche.",
+          "en": "For effortless daily cleaning: rated at 18,500 Pa, with LiDAR, rotating mops and a dock that empties, hot-washes and dries.",
+          "de": "Für mühelose tägliche Pflege: laut Hersteller 18.500 Pa, LiDAR, rotierende Mopps und eine Station, die entleert, heiß wäscht und trocknet.",
+          "es": "Para un mantenimiento diario sin esfuerzo: 18.500 Pa anunciados, LiDAR, mopas giratorias y base que vacía, lava con agua caliente y seca.",
+          "it": "Per una pulizia quotidiana senza fatica: 18.500 Pa dichiarati, LiDAR, panni rotanti e base che svuota, lava con acqua calda e asciuga.",
+          "nl": "Voor moeiteloos dagelijks onderhoud: opgegeven 18.500 Pa, LiDAR, roterende dweilen en een station dat leegt, warm wast en droogt."
+        }
+      },
+      {
+        "model": "Dyson V15 Detect",
+        "role": {
+          "fr": "Meilleur aspirateur balai",
+          "en": "Best stick vacuum",
+          "de": "Bester Akku-Stielsauger",
+          "es": "Mejor aspiradora escoba",
+          "it": "Migliore scopa elettrica",
+          "nl": "Beste steelstofzuiger"
+        },
+        "why": {
+          "fr": "Indispensable pour escaliers, tapis et canapé : laser qui révèle la poussière fine, capteur qui ajuste la puissance et filtration scellée.",
+          "en": "Essential for stairs, rugs and the sofa: a laser that reveals fine dust, a sensor that adjusts power and sealed filtration.",
+          "de": "Unverzichtbar für Treppe, Teppiche und Sofa: Laser macht feinen Staub sichtbar, ein Sensor passt die Leistung an, dazu versiegelte Filterung.",
+          "es": "Imprescindible para escaleras, alfombras y sofá: láser que revela el polvo fino, sensor que ajusta la potencia y filtración sellada.",
+          "it": "Indispensabile per scale, tappeti e divano: laser che rivela la polvere fine, sensore che regola la potenza e filtrazione sigillata.",
+          "nl": "Onmisbaar voor trap, vloerkleden en bank: laser die fijn stof zichtbaar maakt, sensor die het vermogen aanpast en afgedichte filtering."
+        }
+      },
+      {
+        "model": "Roborock Q7 M5+",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "Robot d’entrée de gamme idéal en duo avec un balai : navigation LiDAR, 10 000 Pa annoncés et vidage automatique dans un sac de 2,7 L.",
+          "en": "An entry-level robot that pairs well with a stick vacuum: LiDAR navigation, a quoted 10,000 Pa and auto-emptying into a 2.7 L bag.",
+          "de": "Einsteigerroboter, ideal im Duo mit einem Stielsauger: LiDAR-Navigation, angegebene 10.000 Pa und Absaugstation mit 2,7-l-Beutel.",
+          "es": "Robot de entrada ideal en dúo con una escoba: navegación LiDAR, 10.000 Pa anunciados y autovaciado en una bolsa de 2,7 L.",
+          "it": "Robot d’ingresso ideale in coppia con una scopa: navigazione LiDAR, 10.000 Pa dichiarati e svuotamento in un sacchetto da 2,7 L.",
+          "nl": "Instaprobot die ideaal samengaat met een steelstofzuiger: LiDAR-navigatie, opgegeven 10.000 Pa en automatisch legen in een zak van 2,7 l."
+        }
+      }
+    ]
+  },
+  "guide-securite-maison-connectee-2026": {
+    "question": {
+      "fr": "Quel équipement choisir pour sécuriser sa maison connectée en 2026 ?",
+      "en": "What is the best smart home security equipment in 2026?",
+      "de": "Welche Geräte sind 2026 die besten für die Sicherheit im Smart Home?",
+      "es": "¿Qué equipo elegir para la seguridad de una casa conectada en 2026?",
+      "it": "Quali dispositivi scegliere per la sicurezza della casa connessa nel 2026?",
+      "nl": "Welke apparatuur is in 2026 het beste voor de beveiliging van een slim huis?"
+    },
+    "picks": [
+      {
+        "model": "Ajax StarterKit 4G",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta assoluta",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Centrale avec Ethernet et 4G, détecteurs de mouvement et d’ouverture, sans abonnement obligatoire : la base la plus fiable d’un système complet.",
+          "en": "A hub with Ethernet and 4G, motion and opening sensors and no mandatory subscription: the most reliable foundation for a complete system.",
+          "de": "Zentrale mit Ethernet und 4G, Bewegungs- und Öffnungsmelder, ohne Abo-Pflicht: die zuverlässigste Basis für ein komplettes System.",
+          "es": "Central con Ethernet y 4G, sensores de movimiento y apertura, sin suscripción obligatoria: la base más fiable de un sistema completo.",
+          "it": "Centrale con Ethernet e 4G, sensori di movimento e apertura, senza abbonamento obbligatorio: la base più affidabile di un sistema completo.",
+          "nl": "Centrale met ethernet en 4G, bewegings- en openingsmelder, zonder verplicht abonnement: de betrouwbaarste basis voor een compleet systeem."
+        }
+      },
+      {
+        "model": "Eufy Video Doorbell E340",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Double caméra pour les visiteurs et les colis, 8 Go de stockage intégré et aucun abonnement nécessaire pour l’historique vidéo.",
+          "en": "Dual camera for visitors and parcels, 8 GB of built-in storage and no subscription needed for video history.",
+          "de": "Doppelkamera für Besucher und Pakete, 8 GB interner Speicher und kein Abo für den Videoverlauf nötig.",
+          "es": "Doble cámara para visitas y paquetes, 8 GB de almacenamiento interno y sin suscripción para el historial de vídeo.",
+          "it": "Doppia telecamera per visitatori e pacchi, 8 GB di memoria integrata e nessun abbonamento per lo storico video.",
+          "nl": "Dubbele camera voor bezoekers en pakketten, 8 GB interne opslag en geen abonnement nodig voor de videogeschiedenis."
+        }
+      },
+      {
+        "model": "Nuki Smart Lock Pro (5th generation)",
+        "role": {
+          "fr": "Meilleure serrure connectée",
+          "en": "Best smart lock",
+          "de": "Bestes Smart Lock",
+          "es": "Mejor cerradura inteligente",
+          "it": "Miglior serratura smart",
+          "nl": "Beste slimme slot"
+        },
+        "why": {
+          "fr": "Se pose sur le cylindre existant, avec Wi-Fi et Matter over Thread intégrés et une batterie rechargeable, pour partager l’accès sans clé.",
+          "en": "Fits over the existing cylinder, with built-in Wi-Fi, Matter over Thread and a rechargeable battery, for keyless shared access.",
+          "de": "Sitzt auf dem vorhandenen Zylinder, mit integriertem WLAN, Matter over Thread und Akku – für schlüssellosen, teilbaren Zugang.",
+          "es": "Se monta sobre el bombín existente, con Wi-Fi y Matter over Thread integrados y batería recargable, para compartir accesos sin llave.",
+          "it": "Si monta sul cilindro esistente, con Wi-Fi e Matter over Thread integrati e batteria ricaricabile, per condividere accessi senza chiave.",
+          "nl": "Past op de bestaande cilinder, met ingebouwde wifi, Matter over Thread en oplaadbare accu, om sleutelloos toegang te delen."
+        }
+      }
+    ]
+  },
+  "tendances-maison-connectee-2026": {
+    "question": {
+      "fr": "Quels appareils connectés acheter en 2026 pour suivre les tendances ?",
+      "en": "Which smart home devices should you buy in 2026 to follow the trends?",
+      "de": "Welche Smart-Home-Geräte lohnen sich 2026, um den Trends zu folgen?",
+      "es": "¿Qué dispositivos inteligentes comprar en 2026 para seguir las tendencias?",
+      "it": "Quali dispositivi smart acquistare nel 2026 per seguire le tendenze?",
+      "nl": "Welke slimme apparaten koop je in 2026 om de trends te volgen?"
+    },
+    "picks": [
+      {
+        "model": "Aqara Hub M3",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Contrôleur Matter et routeur Thread avec Zigbee et infrarouge, il exécute les automatisations en local et pilote plusieurs marques.",
+          "en": "A Matter controller and Thread border router with Zigbee and IR that runs automations locally and controls several brands.",
+          "de": "Matter-Controller und Thread-Border-Router mit Zigbee und IR, führt Automationen lokal aus und steuert mehrere Marken.",
+          "es": "Controlador Matter y router Thread con Zigbee e IR que ejecuta automatizaciones en local y controla varias marcas.",
+          "it": "Controller Matter e border router Thread con Zigbee e IR, esegue le automazioni in locale e gestisce più marchi.",
+          "nl": "Matter-controller en Thread-borderrouter met Zigbee en IR die automatiseringen lokaal uitvoert en meerdere merken bedient."
+        }
+      },
+      {
+        "model": "Eve Thermo",
+        "role": {
+          "fr": "Meilleur pour économiser l’énergie",
+          "en": "Best for saving energy",
+          "de": "Am besten zum Energiesparen",
+          "es": "Mejor para ahorrar energía",
+          "it": "Migliore per risparmiare energia",
+          "nl": "Beste om energie te besparen"
+        },
+        "why": {
+          "fr": "Tête thermostatique Matter over Thread compatible avec tous les grands écosystèmes, pour chauffer pièce par pièce sans hub propriétaire.",
+          "en": "A Matter over Thread radiator valve that works with all major ecosystems, for room-by-room heating without a proprietary hub.",
+          "de": "Heizkörperthermostat mit Matter over Thread für alle großen Ökosysteme, für raumweises Heizen ohne proprietären Hub.",
+          "es": "Cabezal termostático Matter over Thread compatible con los grandes ecosistemas, para calentar por estancias sin hub propietario.",
+          "it": "Testa termostatica Matter over Thread compatibile con i principali ecosistemi, per scaldare stanza per stanza senza hub proprietario.",
+          "nl": "Radiatorknop met Matter over Thread voor alle grote ecosystemen, om per kamer te verwarmen zonder gesloten hub."
+        }
+      },
+      {
+        "model": "Reolink Argus 4 Pro",
+        "role": {
+          "fr": "Meilleure sécurité sans abonnement",
+          "en": "Best subscription-free security",
+          "de": "Beste Sicherheit ohne Abo",
+          "es": "Mejor seguridad sin suscripción",
+          "it": "Migliore sicurezza senza abbonamento",
+          "nl": "Beste beveiliging zonder abonnement"
+        },
+        "why": {
+          "fr": "Caméra sur batterie 4K à double objectif (180°), vision nocturne couleur et stockage microSD, sans abonnement pour la détection.",
+          "en": "A 4K dual-lens (180°) battery camera with colour night vision and microSD storage, with no subscription needed for detection.",
+          "de": "4K-Akkukamera mit Doppelobjektiv (180°), Farbnachtsicht und microSD-Speicher, ohne Abo für die Erkennung.",
+          "es": "Cámara de batería 4K con doble objetivo (180°), visión nocturna en color y microSD, sin suscripción para la detección.",
+          "it": "Telecamera a batteria 4K a doppio obiettivo (180°), visione notturna a colori e microSD, senza abbonamento per il rilevamento.",
+          "nl": "4K-accucamera met dubbele lens (180°), nachtzicht in kleur en microSD-opslag, zonder abonnement voor detectie."
+        }
+      }
+    ]
+  },
+  "meilleur-aspirateur-laveur-2026": {
+    "question": {
+      "fr": "Quel est le meilleur aspirateur laveur en 2026 ?",
+      "en": "What is the best wet dry vacuum in 2026?",
+      "de": "Welcher ist der beste Nass-Trocken-Sauger 2026?",
+      "es": "¿Cuál es el mejor aspirador fregasuelos en 2026?",
+      "it": "Qual è il miglior aspirapolvere lavapavimenti nel 2026?",
+      "nl": "Wat is de beste nat-droogzuiger in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Dreame H15 Pro",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Brosse lavée à 100 °C puis séchée à l’air chaud, bras pour nettoyer les bords et inclinaison à 180° sous les meubles.",
+          "en": "Brush washed at 100 °C then hot-air dried, an arm for edge cleaning and a 180° tilt to reach under furniture.",
+          "de": "Bürstenwäsche bei 100 °C mit Heißlufttrocknung, ein Arm für die Kantenreinigung und 180° Neigung unter Möbel.",
+          "es": "Cepillo lavado a 100 °C y secado con aire caliente, brazo para limpiar bordes e inclinación de 180° bajo los muebles.",
+          "it": "Spazzola lavata a 100 °C e asciugata ad aria calda, braccio per pulire i bordi e inclinazione a 180° sotto i mobili.",
+          "nl": "Borstel gewassen op 100 °C en gedroogd met hete lucht, een arm voor randreiniging en 180° kantelen onder meubels."
+        }
+      },
+      {
+        "model": "Dreame H14 Pro",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "18 000 Pa, lavage de la brosse à 60 °C, séchage à l’air chaud et passage à plat sous les meubles dans une gamme plus accessible.",
+          "en": "18,000 Pa, 60 °C brush washing, hot air drying and lie-flat reach under furniture at a more accessible tier.",
+          "de": "18.000 Pa, Bürstenwäsche bei 60 °C, Heißlufttrocknung und flache Reichweite unter Möbel in einer zugänglicheren Klasse.",
+          "es": "18.000 Pa, lavado del cepillo a 60 °C, secado con aire caliente y acceso en plano bajo los muebles en una gama más asequible.",
+          "it": "18.000 Pa, lavaggio della spazzola a 60 °C, asciugatura ad aria calda e accesso in piano sotto i mobili in una fascia più accessibile.",
+          "nl": "18.000 Pa, borstelwas op 60 °C, drogen met hete lucht en plat onder meubels in een toegankelijker segment."
+        }
+      },
+      {
+        "model": "Dyson WashG1",
+        "role": {
+          "fr": "Idéal cheveux et animaux",
+          "en": "Best for hair and pets",
+          "de": "Ideal bei Haaren und Haustieren",
+          "es": "Ideal para pelo y mascotas",
+          "it": "Ideale per capelli e animali",
+          "nl": "Ideaal bij haren en huisdieren"
+        },
+        "why": {
+          "fr": "Rouleaux sans aspiration qui séparent cheveux et débris, et réservoir d’eau propre de 1 litre pour les grandes surfaces.",
+          "en": "Suction-free rollers that separate hair and debris, plus a 1-litre clean water tank for large areas.",
+          "de": "Walzen ohne Saugkraft, die Haare und Schmutz abtrennen, dazu ein 1-Liter-Frischwassertank für große Flächen.",
+          "es": "Rodillos sin succión que separan el pelo y los residuos, y un depósito de agua limpia de 1 litro para grandes superficies.",
+          "it": "Rulli senza aspirazione che separano capelli e detriti, e un serbatoio dell’acqua pulita da 1 litro per le grandi superfici.",
+          "nl": "Rollen zonder zuigkracht die haren en vuil scheiden, plus een schoonwatertank van 1 liter voor grote oppervlakken."
+        }
+      }
+    ]
+  },
+  "maison-connectee-matter-thread-2026": {
+    "question": {
+      "fr": "Quel hub Matter et Thread choisir en 2026 ?",
+      "en": "Which Matter and Thread hub should you choose in 2026?",
+      "de": "Welchen Matter- und Thread-Hub sollte man 2026 wählen?",
+      "es": "¿Qué hub Matter y Thread elegir en 2026?",
+      "it": "Quale hub Matter e Thread scegliere nel 2026?",
+      "nl": "Welke Matter- en Thread-hub kies je in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Aqara Hub M3",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta assoluta",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Contrôleur Matter, border router Thread, hub Zigbee et Ethernet/PoE réunis, compatible avec tous les grands écosystèmes.",
+          "en": "Matter controller, Thread border router, Zigbee hub and Ethernet/PoE in one, compatible with every major ecosystem.",
+          "de": "Matter-Controller, Thread-Border-Router, Zigbee-Hub und Ethernet/PoE in einem, kompatibel mit allen großen Ökosystemen.",
+          "es": "Controlador Matter, border router Thread, hub Zigbee y Ethernet/PoE en uno, compatible con todos los grandes ecosistemas.",
+          "it": "Controller Matter, border router Thread, hub Zigbee ed Ethernet/PoE in uno, compatibile con tutti i grandi ecosistemi.",
+          "nl": "Matter-controller, Thread-borderrouter, Zigbee-hub en ethernet/PoE in één, compatibel met alle grote ecosystemen."
+        }
+      },
+      {
+        "model": "IKEA DIRIGERA",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Depuis sa mise à jour de juillet 2025, il est contrôleur Matter et border router Thread, en plus de gérer l’éclairage IKEA Zigbee.",
+          "en": "Since its July 2025 update it is a Matter controller and Thread border router, on top of running IKEA’s Zigbee lighting.",
+          "de": "Seit dem Update vom Juli 2025 ist er Matter-Controller und Thread-Border-Router und steuert weiterhin IKEAs Zigbee-Beleuchtung.",
+          "es": "Desde su actualización de julio de 2025 es controlador Matter y border router Thread, además de gestionar la iluminación Zigbee de IKEA.",
+          "it": "Dall’aggiornamento di luglio 2025 è controller Matter e border router Thread, oltre a gestire l’illuminazione Zigbee IKEA.",
+          "nl": "Sinds de update van juli 2025 is hij Matter-controller en Thread-borderrouter, naast het beheer van IKEA’s Zigbee-verlichting."
+        }
+      },
+      {
+        "model": "Apple HomePod mini",
+        "role": {
+          "fr": "Idéal pour les utilisateurs d’iPhone",
+          "en": "Best for iPhone users",
+          "de": "Ideal für iPhone-Nutzer",
+          "es": "Ideal para usuarios de iPhone",
+          "it": "Ideale per chi usa l’iPhone",
+          "nl": "Ideaal voor iPhone-gebruikers"
+        },
+        "why": {
+          "fr": "Enceinte Siri, concentrateur Apple Maison et border router Thread : la façon la plus simple de démarrer Matter chez Apple.",
+          "en": "Siri speaker, Apple Home hub and Thread border router: the simplest way to start with Matter in the Apple world.",
+          "de": "Siri-Lautsprecher, Apple-Home-Zentrale und Thread-Border-Router: der einfachste Matter-Einstieg in der Apple-Welt.",
+          "es": "Altavoz con Siri, concentrador de Apple Casa y border router Thread: la forma más sencilla de empezar con Matter en Apple.",
+          "it": "Altoparlante Siri, hub di Apple Casa e border router Thread: il modo più semplice per iniziare con Matter in casa Apple.",
+          "nl": "Siri-speaker, Apple Woning-hub en Thread-borderrouter: de eenvoudigste manier om met Matter te starten bij Apple."
+        }
+      }
+    ]
+  },
+  "piscine-connectee-guide": {
+    "question": {
+      "fr": "Quel équipement choisir pour une piscine connectée en 2026 ?",
+      "en": "What equipment should you choose for a smart pool in 2026?",
+      "de": "Welche Ausstattung lohnt sich 2026 für einen vernetzten Pool?",
+      "es": "¿Qué equipo elegir para una piscina conectada en 2026?",
+      "it": "Quale attrezzatura scegliere per una piscina connessa nel 2026?",
+      "nl": "Welke apparatuur kies je in 2026 voor een slim zwembad?"
+    },
+    "picks": [
+      {
+        "model": "Ondilo ICO Pool V2",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Analyseur flottant qui mesure pH, ORP et température chaque heure, avec une version dédiée aux piscines au sel et des conseils de dosage.",
+          "en": "Floating analyser measuring pH, ORP and temperature every hour, with a dedicated salt-pool version and dosing advice.",
+          "de": "Schwimmender Analysator, der stündlich pH, Redox und Temperatur misst, mit eigener Salzwasserversion und Dosierhinweisen.",
+          "es": "Analizador flotante que mide pH, ORP y temperatura cada hora, con versión específica para sal y consejos de dosificación.",
+          "it": "Analizzatore galleggiante che misura pH, ORP e temperatura ogni ora, con versione dedicata al sale e consigli di dosaggio.",
+          "nl": "Drijvende analyser die elk uur pH, ORP en temperatuur meet, met een aparte zoutversie en doseeradvies."
+        }
+      },
+      {
+        "model": "iopool EcO",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Capteur pH, ORP et température sans recharge ni calibrage pendant environ deux ans, avec passerelle Wi-Fi et application sans abonnement.",
+          "en": "pH, ORP and temperature sensor with no charging or calibration for about two years, plus a Wi-Fi gateway and subscription-free app.",
+          "de": "pH-, Redox- und Temperatursensor, rund zwei Jahre ohne Laden und Kalibrieren, mit WLAN-Gateway und App ohne Abo.",
+          "es": "Sensor de pH, ORP y temperatura sin carga ni calibración durante unos dos años, con pasarela wifi y app sin suscripción.",
+          "it": "Sensore di pH, ORP e temperatura senza ricarica né calibrazione per circa due anni, con gateway Wi-Fi e app senza abbonamento.",
+          "nl": "Sensor voor pH, ORP en temperatuur, ongeveer twee jaar zonder opladen of kalibreren, met wifi-gateway en app zonder abonnement."
+        }
+      },
+      {
+        "model": "Dolphin S300i",
+        "role": {
+          "fr": "Idéal pour automatiser le nettoyage",
+          "en": "Best for automated cleaning",
+          "de": "Ideal für automatische Reinigung",
+          "es": "Ideal para automatizar la limpieza",
+          "it": "Ideale per automatizzare la pulizia",
+          "nl": "Ideaal voor automatische reiniging"
+        },
+        "why": {
+          "fr": "Robot filaire pour bassins jusqu’à 12 m : fond, parois et ligne d’eau, filtre accessible par le dessus et programmation via MyDolphin Plus.",
+          "en": "Corded robot for pools up to 12 m: floor, walls and waterline, top-access filter and scheduling via MyDolphin Plus.",
+          "de": "Roboter mit Kabel für Becken bis 12 m: Boden, Wände und Wasserlinie, Filter von oben und Zeitpläne per MyDolphin Plus.",
+          "es": "Robot con cable para piscinas de hasta 12 m: fondo, paredes y línea de flotación, filtro superior y programación con MyDolphin Plus.",
+          "it": "Robot con cavo per vasche fino a 12 m: fondo, pareti e linea d’acqua, filtro dall’alto e programmazione con MyDolphin Plus.",
+          "nl": "Robot met snoer voor baden tot 12 m: bodem, wanden en waterlijn, filter van bovenaf en planning via MyDolphin Plus."
+        }
+      }
+    ]
+  },
+  "ventilador-silencioso-dormitorio": {
+    "question": {
+      "fr": "Quel est le ventilateur le plus silencieux pour une chambre en 2026 ?",
+      "en": "What is the quietest bedroom fan in 2026?",
+      "de": "Welcher ist der leiseste Ventilator fürs Schlafzimmer 2026?",
+      "es": "¿Cuál es el ventilador más silencioso para el dormitorio en 2026?",
+      "it": "Qual è il ventilatore più silenzioso per la camera da letto nel 2026?",
+      "nl": "Wat is de stilste ventilator voor de slaapkamer in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Duux Whisper Flex 2 Smart",
+        "role": {
+          "fr": "Meilleur choix pour dormir",
+          "en": "Best overall for sleeping",
+          "de": "Beste Wahl zum Schlafen",
+          "es": "Mejor opción para dormir",
+          "it": "Migliore per dormire",
+          "nl": "Beste keuze om bij te slapen"
+        },
+        "why": {
+          "fr": "Moteur DC, 30 vitesses et environ 13 dB à vitesse minimale selon Duux, avec mode nuit, brise naturelle et pilotage par appli ou voix.",
+          "en": "DC motor, 30 speeds and around 13 dB at minimum speed according to Duux, with night mode, natural breeze and app or voice control.",
+          "de": "DC-Motor, 30 Stufen und laut Duux rund 13 dB auf der kleinsten Stufe, mit Nachtmodus, Naturwind und Steuerung per App oder Sprache.",
+          "es": "Motor DC, 30 velocidades y unos 13 dB en velocidad mínima según Duux, con modo noche, brisa natural y control por app o voz.",
+          "it": "Motore DC, 30 velocità e circa 13 dB alla velocità minima secondo Duux, con modalità notte, brezza naturale e controllo da app o voce.",
+          "nl": "DC-motor, 30 snelheden en volgens Duux ongeveer 13 dB op de laagste stand, met nachtmodus, natuurlijke bries en bediening via app of stem."
+        }
+      },
+      {
+        "model": "Xiaomi Smart Standing Fan 2 Pro",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Moteur DC de 24 W, environ 28 dB à vitesse minimale selon Xiaomi, mode brise naturelle et pilotage via Xiaomi Home, Alexa ou Google.",
+          "en": "24 W DC motor, around 28 dB at minimum speed according to Xiaomi, natural breeze mode and control via Xiaomi Home, Alexa or Google.",
+          "de": "24-W-DC-Motor, laut Xiaomi rund 28 dB auf der kleinsten Stufe, Naturwindmodus und Steuerung über Xiaomi Home, Alexa oder Google.",
+          "es": "Motor DC de 24 W, unos 28 dB en velocidad mínima según Xiaomi, modo brisa natural y control con Xiaomi Home, Alexa o Google.",
+          "it": "Motore DC da 24 W, circa 28 dB alla velocità minima secondo Xiaomi, modalità brezza naturale e controllo con Xiaomi Home, Alexa o Google.",
+          "nl": "DC-motor van 24 W, volgens Xiaomi ongeveer 28 dB op de laagste stand, natuurlijke-briesmodus en bediening via Xiaomi Home, Alexa of Google."
+        }
+      },
+      {
+        "model": "Dyson Purifier Cool Formaldehyde TP09",
+        "role": {
+          "fr": "Idéal pour les allergiques",
+          "en": "Best for allergy sufferers",
+          "de": "Ideal für Allergiker",
+          "es": "Ideal para alérgicos",
+          "it": "Ideale per chi soffre di allergie",
+          "nl": "Ideaal bij allergie"
+        },
+        "why": {
+          "fr": "Ventilateur sans pales et purificateur HEPA H13 avec filtre catalytique anti-formaldéhyde, mode nuit qui limite le bruit et atténue l'écran.",
+          "en": "Bladeless fan and HEPA H13 purifier with a catalytic formaldehyde filter, plus a night mode that limits noise and dims the display.",
+          "de": "Rotorloser Ventilator und HEPA-H13-Luftreiniger mit Katalysatorfilter gegen Formaldehyd, dazu ein Nachtmodus, der Geräusch und Display reduziert.",
+          "es": "Ventilador sin aspas y purificador HEPA H13 con filtro catalítico contra el formaldehído, y un modo noche que limita el ruido y atenúa la pantalla.",
+          "it": "Ventilatore senza pale e purificatore HEPA H13 con filtro catalitico contro la formaldeide, e una modalità notte che limita il rumore e attenua il display.",
+          "nl": "Bladloze ventilator en HEPA H13-luchtreiniger met katalytisch formaldehydefilter, plus een nachtmodus die geluid beperkt en het display dimt."
+        }
+      }
+    ]
+  },
+  "test-philips-combi-xxl-connected": {
+    "question": {
+      "fr": "Quel est le meilleur airfryer haut de gamme connecté en 2026 ?",
+      "en": "What is the best premium connected air fryer in 2026?",
+      "de": "Was ist die beste vernetzte Premium-Heißluftfritteuse 2026?",
+      "es": "¿Cuál es la mejor freidora de aire premium conectada en 2026?",
+      "it": "Qual è la migliore friggitrice ad aria premium connessa nel 2026?",
+      "nl": "Wat is de beste premium slimme airfryer in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Philips Airfryer Combi XXL Connecté - 8.3L",
+        "role": {
+          "fr": "Meilleur choix pour la précision de cuisson",
+          "en": "Best for cooking precision",
+          "de": "Beste Wahl für präzises Garen",
+          "es": "Mejor opción para la precisión de cocción",
+          "it": "Migliore per la precisione di cottura",
+          "nl": "Beste voor nauwkeurig garen"
+        },
+        "why": {
+          "fr": "Sa sonde intégrée arrête la cuisson des viandes au bon degré, et l’app HomeID permet de suivre la cuisson à distance dans une cuve de 8,3 L.",
+          "en": "Its built-in probe stops meat at the right doneness, and the HomeID app lets you follow cooking remotely in a roomy 8.3L pan.",
+          "de": "Der integrierte Fühler beendet das Garen von Fleisch auf den Punkt, und die HomeID-App zeigt den Garverlauf im 8,3-Liter-Garraum aus der Ferne.",
+          "es": "Su sonda integrada detiene la carne en el punto justo y la app HomeID permite seguir la cocción a distancia en una cubeta de 8,3 L.",
+          "it": "La sonda integrata ferma la carne al punto giusto e l’app HomeID consente di seguire la cottura a distanza in un cestello da 8,3 L.",
+          "nl": "De ingebouwde sonde stopt vlees op de juiste garing, en met de HomeID-app volgt u de bereiding op afstand in een pan van 8,3 L."
+        }
+      },
+      {
+        "model": "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+        "role": {
+          "fr": "Meilleur pour cuire deux plats à la fois",
+          "en": "Best for cooking two dishes at once",
+          "de": "Beste Wahl für zwei Gerichte gleichzeitig",
+          "es": "Mejor para cocinar dos platos a la vez",
+          "it": "Migliore per cuocere due piatti insieme",
+          "nl": "Beste voor twee gerechten tegelijk"
+        },
+        "why": {
+          "fr": "Ses deux tiroirs superposés de 4,75 L se règlent séparément et finissent en même temps, idéal pour un plat et son accompagnement.",
+          "en": "Its two stacked 4.75L drawers are set independently and can finish together, ideal for a main and a side.",
+          "de": "Zwei übereinanderliegende 4,75-Liter-Schubladen lassen sich getrennt einstellen und gleichzeitig fertigstellen, ideal für Hauptgericht und Beilage.",
+          "es": "Sus dos cajones superpuestos de 4,75 L se ajustan por separado y terminan a la vez, ideal para un plato principal y su guarnición.",
+          "it": "I due cassetti sovrapposti da 4,75 L si regolano separatamente e finiscono insieme, ideali per piatto principale e contorno.",
+          "nl": "De twee gestapelde lades van 4,75 L stelt u apart in en ze zijn tegelijk klaar, ideaal voor hoofdgerecht en bijgerecht."
+        }
+      },
+      {
+        "model": "Cosori Dual Blaze Smart Air Fryer - 6.4L",
+        "role": {
+          "fr": "Meilleure alternative connectée plus compacte",
+          "en": "Best compact connected alternative",
+          "de": "Beste kompakte vernetzte Alternative",
+          "es": "Mejor alternativa conectada compacta",
+          "it": "Migliore alternativa connessa compatta",
+          "nl": "Beste compacte slimme alternatief"
+        },
+        "why": {
+          "fr": "Une résistance en haut et en bas dore les deux faces sans retourner, avec l’application VeSync, dans un format plus compact et plus abordable.",
+          "en": "Top and bottom heating elements brown both sides without flipping, with the VeSync app, in a more compact and affordable format.",
+          "de": "Heizelemente oben und unten bräunen beide Seiten ohne Wenden, mit VeSync-App, in einem kompakteren und günstigeren Format.",
+          "es": "Resistencias arriba y abajo doran ambas caras sin dar la vuelta, con app VeSync, en un formato más compacto y asequible.",
+          "it": "Resistenze sopra e sotto dorano entrambi i lati senza girare il cibo, con app VeSync, in un formato più compatto e accessibile.",
+          "nl": "Verwarmingselementen boven en onder bruinen beide kanten zonder omdraaien, met VeSync-app, in een compacter en betaalbaarder formaat."
+        }
+      }
+    ]
+  },
+  "thermostat-connecte-pompe-chaleur": {
+    "question": {
+      "fr": "Quel est le meilleur thermostat connecté pour une pompe à chaleur en 2026 ?",
+      "en": "What is the best smart thermostat for a heat pump in 2026?",
+      "de": "Welches ist das beste smarte Thermostat für eine Wärmepumpe 2026?",
+      "es": "¿Cuál es el mejor termostato inteligente para una bomba de calor en 2026?",
+      "it": "Qual è il miglior termostato smart per una pompa di calore nel 2026?",
+      "nl": "Wat is de beste slimme thermostaat voor een warmtepomp in 2026?"
+    },
+    "picks": [
+      {
+        "model": "tado Heat Pump Optimizer X",
+        "role": {
+          "fr": "Meilleur choix pour pompe à chaleur",
+          "en": "Best for heat pumps",
+          "de": "Beste Wahl für Wärmepumpen",
+          "es": "Mejor opción para bombas de calor",
+          "it": "Miglior scelta per pompe di calore",
+          "nl": "Beste keuze voor warmtepompen"
+        },
+        "why": {
+          "fr": "Il se connecte à la PAC (Daikin, Atlantic, Vaillant, Saunier Duval, Fujitsu, Panasonic) et module sa puissance selon la température des pièces.",
+          "en": "It connects to the heat pump itself (Daikin, Atlantic, Vaillant, Saunier Duval, Fujitsu, Panasonic) and adjusts its output to room temperatures.",
+          "de": "Er wird an die Wärmepumpe selbst angeschlossen (Daikin, Atlantic, Vaillant, Saunier Duval, Fujitsu, Panasonic) und passt die Leistung den Raumtemperaturen an.",
+          "es": "Se conecta a la propia bomba (Daikin, Atlantic, Vaillant, Saunier Duval, Fujitsu, Panasonic) y ajusta su potencia a la temperatura de las estancias.",
+          "it": "Si collega alla pompa stessa (Daikin, Atlantic, Vaillant, Saunier Duval, Fujitsu, Panasonic) e ne adatta la potenza alla temperatura delle stanze.",
+          "nl": "Hij wordt op de warmtepomp zelf aangesloten (Daikin, Atlantic, Vaillant, Saunier Duval, Fujitsu, Panasonic) en past het vermogen aan de kamertemperatuur aan."
+        }
+      },
+      {
+        "model": "Netatmo Thermostat Original",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Simple à installer, compatible avec la plupart des PAC air-eau en on/off, avec Auto-Adapt, Eco-Assist et Matter via le Thermo Hub.",
+          "en": "Easy to install, works with most on/off air-to-water heat pumps, with Auto-Adapt, Eco-Assist and Matter via the Thermo Hub.",
+          "de": "Einfach zu installieren, passt zu den meisten Luft-Wasser-Wärmepumpen mit Ein/Aus-Kontakt, mit Auto-Adapt, Eco-Assist und Matter über den Thermo Hub.",
+          "es": "Fácil de instalar, compatible con la mayoría de bombas aire-agua on/off, con Auto-Adapt, Eco-Assist y Matter mediante el Thermo Hub.",
+          "it": "Facile da installare, compatibile con la maggior parte delle pompe aria-acqua on/off, con Auto-Adapt, Eco-Assist e Matter tramite il Thermo Hub.",
+          "nl": "Eenvoudig te installeren, werkt met de meeste lucht-waterwarmtepompen met aan/uit-contact, met Auto-Adapt, Eco-Assist en Matter via de Thermo Hub."
+        }
+      },
+      {
+        "model": "Honeywell Home T6",
+        "role": {
+          "fr": "Idéal en OpenTherm sans hub",
+          "en": "Best for OpenTherm without a hub",
+          "de": "Ideal für OpenTherm ohne Hub",
+          "es": "Ideal en OpenTherm sin hub",
+          "it": "Ideale in OpenTherm senza hub",
+          "nl": "Ideaal voor OpenTherm zonder hub"
+        },
+        "why": {
+          "fr": "Compatible on/off et OpenTherm, dont les pompes à chaleur, il se connecte directement au Wi-Fi et se pilote depuis l’application Resideo.",
+          "en": "Compatible with on/off and OpenTherm systems, including heat pumps, it connects straight to Wi-Fi and is controlled from the Resideo app.",
+          "de": "Kompatibel mit Ein/Aus- und OpenTherm-Anlagen inklusive Wärmepumpen, verbindet sich direkt mit dem WLAN und wird über die Resideo-App gesteuert.",
+          "es": "Compatible con sistemas on/off y OpenTherm, incluidas bombas de calor, se conecta directamente al wifi y se controla desde la app Resideo.",
+          "it": "Compatibile con impianti on/off e OpenTherm, pompe di calore incluse, si collega direttamente al Wi-Fi e si controlla dall’app Resideo.",
+          "nl": "Compatibel met aan/uit- en OpenTherm-systemen, ook warmtepompen, maakt rechtstreeks verbinding met wifi en wordt bediend via de Resideo-app."
+        }
+      }
+    ]
+  },
+  "tondeuse-robot-sans-fil-perimetrique": {
+    "question": {
+      "fr": "Quelle est la meilleure tondeuse robot sans fil périmétrique en 2026 ?",
+      "en": "What is the best wire-free robot mower in 2026?",
+      "de": "Welcher ist der beste Mähroboter ohne Begrenzungskabel 2026?",
+      "es": "¿Cuál es el mejor robot cortacésped sin cable perimetral en 2026?",
+      "it": "Qual è il miglior robot tagliaerba senza filo perimetrale nel 2026?",
+      "nl": "Wat is de beste robotmaaier zonder begrenzingsdraad in 2026?"
+    },
+    "picks": [
+      {
+        "model": "ECOVACS GOAT A1600 RTK",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta assoluta",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "RTK et LiDAR combinés pour rester précis près des arbres, jusqu’à 1 600 m², 33 cm de coupe et des pentes jusqu’à 50 % selon ECOVACS.",
+          "en": "RTK and LiDAR combined to stay accurate near trees, up to 1,600 m², a 33 cm cut and slopes up to 50% according to ECOVACS.",
+          "de": "RTK und LiDAR kombiniert für präzise Ortung auch unter Bäumen, bis 1.600 m², 33 cm Schnittbreite und laut ECOVACS bis 50 % Steigung.",
+          "es": "RTK y LiDAR combinados para mantener la precisión cerca de árboles, hasta 1.600 m², 33 cm de corte y pendientes de hasta el 50 % según ECOVACS.",
+          "it": "RTK e LiDAR combinati per restare precisi vicino agli alberi, fino a 1.600 m², taglio da 33 cm e pendenze fino al 50% secondo ECOVACS.",
+          "nl": "RTK en LiDAR gecombineerd voor precisie bij bomen, tot 1.600 m², 33 cm maaibreedte en volgens ECOVACS hellingen tot 50%."
+        }
+      },
+      {
+        "model": "Segway Navimow i105E",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "RTK et caméra VisionFence sans câble pour les pelouses jusqu’à 500 m², avec une configuration guidée simple dans l’application.",
+          "en": "Wire-free RTK plus VisionFence camera for lawns up to 500 m², with a simple guided setup in the app.",
+          "de": "Kabelloses RTK plus VisionFence-Kamera für Rasenflächen bis 500 m², mit einfacher geführter Einrichtung in der App.",
+          "es": "RTK sin cable y cámara VisionFence para céspedes de hasta 500 m², con una configuración guiada sencilla en la app.",
+          "it": "RTK senza filo e telecamera VisionFence per prati fino a 500 m², con una semplice configurazione guidata nell’app.",
+          "nl": "Draadloze RTK plus VisionFence-camera voor gazons tot 500 m², met een eenvoudige begeleide installatie in de app."
+        }
+      },
+      {
+        "model": "Mammotion LUBA 2 AWD 3000X",
+        "role": {
+          "fr": "Idéal grands terrains en pente",
+          "en": "Best for large slopes",
+          "de": "Ideal für große Hanglagen",
+          "es": "Ideal para grandes pendientes",
+          "it": "Ideale per grandi pendenze",
+          "nl": "Beste voor grote hellingen"
+        },
+        "why": {
+          "fr": "Quatre roues motrices, pentes annoncées jusqu’à 80 %, 40 cm de coupe et RTK + vision IA pour des terrains jusqu’à 3 000 m².",
+          "en": "All-wheel drive, slopes rated up to 80%, a 40 cm cut and RTK plus AI vision for plots up to 3,000 m².",
+          "de": "Allradantrieb, laut Hersteller bis 80 % Steigung, 40 cm Schnittbreite und RTK plus KI-Kamera für Flächen bis 3.000 m².",
+          "es": "Tracción total, pendientes anunciadas de hasta el 80 %, 40 cm de corte y RTK con visión IA para terrenos de hasta 3.000 m².",
+          "it": "Trazione integrale, pendenze dichiarate fino all’80%, taglio da 40 cm e RTK con visione IA per terreni fino a 3.000 m².",
+          "nl": "Vierwielaandrijving, hellingen tot 80% volgens de fabrikant, 40 cm maaibreedte en RTK plus AI-camera voor percelen tot 3.000 m²."
+        }
+      }
+    ]
+  },
+  "waermepumpentrockner-vergleich": {
+    "question": {
+      "fr": "Quel est le meilleur sèche-linge à pompe à chaleur en 2026 ?",
+      "en": "What is the best heat pump tumble dryer in 2026?",
+      "de": "Welcher ist der beste Wärmepumpentrockner 2026?",
+      "es": "¿Cuál es la mejor secadora con bomba de calor en 2026?",
+      "it": "Qual è la migliore asciugatrice a pompa di calore nel 2026?",
+      "nl": "Wat is de beste warmtepompdroger in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Bosch Serie 8 WRB247C40",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Bester Allrounder",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Classe A sur la nouvelle étiquette (79 kWh/100 cycles), 57 dB, condensation A et condenseur autonettoyant : sobre, discret et presque sans entretien.",
+          "en": "Class A on the new label (79 kWh/100 cycles), 57 dB, condensation A and a self-cleaning condenser: efficient, quiet and nearly maintenance-free.",
+          "de": "Klasse A auf dem neuen Label (79 kWh/100 Zyklen), 57 dB, Kondensation A und selbstreinigender Kondensator: sparsam, leise und fast wartungsfrei.",
+          "es": "Clase A en la nueva etiqueta (79 kWh/100 ciclos), 57 dB, condensación A y condensador autolimpiante: eficiente, silenciosa y casi sin mantenimiento.",
+          "it": "Classe A sulla nuova etichetta (79 kWh/100 cicli), 57 dB, condensazione A e condensatore autopulente: efficiente, silenziosa e quasi senza manutenzione.",
+          "nl": "Klasse A op het nieuwe label (79 kWh/100 cycli), 57 dB, condensatie A en zelfreinigende condensor: zuinig, stil en nagenoeg onderhoudsvrij."
+        }
+      },
+      {
+        "model": "Beko B7T88209",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "Classe énergétique A et condensation A avec fonction vapeur SteamCure, sur un segment de prix bien plus accessible ; 8 kg pour couples et petites familles.",
+          "en": "Energy class A and condensation A with SteamCure steam, in a much more affordable price tier; 8 kg suits couples and small families.",
+          "de": "Energieklasse A und Kondensation A mit SteamCure-Dampf in einem deutlich günstigeren Preissegment; 8 kg für Paare und kleine Familien.",
+          "es": "Clase energética A y condensación A con vapor SteamCure, en un segmento de precio mucho más accesible; 8 kg para parejas y familias pequeñas.",
+          "it": "Classe energetica A e condensazione A con vapore SteamCure, in una fascia di prezzo molto più accessibile; 8 kg per coppie e piccole famiglie.",
+          "nl": "Energieklasse A en condensatie A met SteamCure-stoom, in een veel betaalbaarder prijssegment; 8 kg voor stellen en kleine gezinnen."
+        }
+      },
+      {
+        "model": "Miele TQ 1000 WP Nova Edition",
+        "role": {
+          "fr": "Idéal pour la longévité",
+          "en": "Best for longevity",
+          "de": "Ideal für Langlebigkeit",
+          "es": "Ideal para la durabilidad",
+          "it": "Ideale per la durata",
+          "nl": "Ideaal voor een lange levensduur"
+        },
+        "why": {
+          "fr": "Classe B mais bruit et condensation A, vapeur SteamCare, WoolDry et finition Miele, conçue selon la marque pour 20 ans d'utilisation.",
+          "en": "Class B but noise and condensation A, SteamCare steam, WoolDry and Miele build quality, designed by the brand for 20 years of use.",
+          "de": "Klasse B, aber Geräusch und Kondensation A, SteamCare-Dampf, WoolDry und Miele-Verarbeitung, laut Hersteller auf 20 Jahre Nutzung ausgelegt.",
+          "es": "Clase B, pero ruido y condensación A, vapor SteamCare, WoolDry y calidad Miele, diseñada según la marca para 20 años de uso.",
+          "it": "Classe B ma rumore e condensazione A, vapore SteamCare, WoolDry e qualità Miele, progettata secondo il marchio per 20 anni di utilizzo.",
+          "nl": "Klasse B, maar geluid en condensatie A, SteamCare-stoom, WoolDry en Miele-kwaliteit, volgens het merk ontworpen voor 20 jaar gebruik."
         }
       }
     ]

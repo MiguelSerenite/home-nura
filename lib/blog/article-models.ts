@@ -4,324 +4,6 @@
  * editor's pick first. Extracted from the article copy (Oct 2026).
  */
 export const ARTICLE_MODELS: Record<string, readonly string[]> = {
-  "airfryer-economies-energie": [
-    "Philips Airfryer 3000 XL",
-    "Xiaomi Smart Air Fryer Pro 4L",
-    "Cosori Dual Blaze 6.4L",
-    "Moulinex Easy Fry Max",
-    "Ninja Foodi MAX Dual Zone"
-  ],
-  "airfryer-simple-vs-double-panier": [
-    "Philips Airfryer 3000 XL",
-    "Ninja Foodi FlexDrawer 10.4L",
-    "Ninja Foodi MAX Dual Zone AF400",
-    "Cosori Dual Blaze 6.4L",
-    "Moulinex Easy Fry Max"
-  ],
-  "alarme-maison-sans-abonnement": [
-    "Ajax StarterKit",
-    "Eufy HomeBase S380",
-    "Ring Alarm 2nd Gen",
-    "Somfy Home Alarm Advanced"
-  ],
-  "arrosage-connecte-intelligent": [
-    "Gardena Smart System",
-    "Rachio 3",
-    "Orbit B-hyve",
-    "Eve Aqua"
-  ],
-  "balance-cuisine-connectee-comparatif": [
-    "Etekcity Nutrition Scale",
-    "Renpho Smart Nutrition Scale",
-    "Drop Kitchen Scale",
-    "Yummly Smart Scale"
-  ],
-  "balkonkraftwerk-panneau-solaire-balcon": [
-    "Priwatt priFlat Duo",
-    "Anker Solix RS50B",
-    "EcoFlow PowerStream 800W",
-    "Anker Solix Solarbank 2 E1600 Pro",
-    "Tsun TSOL-MS800"
-  ],
-  "barbecue-connecte-thermometre-guide": [
-    "MEATER 2 Plus",
-    "Inkbird IBBQ-4BW",
-    "ThermoWorks Signals",
-    "MEATER Plus"
-  ],
-  "cafetiere-connectee-guide": [
-    "De'Longhi Magnifica Evo",
-    "Philips 5500 LatteGo",
-    "Krups Evidence Hot & Cold",
-    "Jura E8"
-  ],
-  "climatiseur-mobile-vs-ventilateur": [
-    "De'Longhi Pinguino PAC EX130 ECO",
-    "Dyson Pure Cool TP07",
-    "Rowenta Turbo Silence Extreme+",
-    "Xiaomi Smart Standing Fan 2"
-  ],
-  "comment-choisir-airfryer-famille": [
-    "Xiaomi Smart Air Fryer Pro 4L",
-    "Philips Airfryer 3000 XL",
-    "Ninja Foodi MAX Dual Zone",
-    "Ninja Foodi FlexDrawer",
-    "Philips Combi XXL Connected"
-  ],
-  "comparatif-airfryer-connecte-2026": [
-    "Philips Combi XXL Connected",
-    "Xiaomi Smart Air Fryer Pro 4L",
-    "Cosori Dual Blaze Smart 6.4L",
-    "Ninja Foodi FlexDrawer WiFi",
-    "Proscenic T22 Smart"
-  ],
-  "comparatif-camera-surveillance-exterieure": [
-    "Eufy S330 eufyCam 3",
-    "Reolink RLC-833A",
-    "Arlo Pro 5S",
-    "TP-Link Tapo C520WS"
-  ],
-  "comparatif-multicuiseur-connecte": [
-    "Moulinex Cookeo Touch WiFi",
-    "Ninja Foodi MAX SmartLid",
-    "Instant Pot Duo Plus WiFi",
-    "Tefal Cook4Me Touch"
-  ],
-  "comparatif-purificateur-air-allergie": [
-    "Levoit Core 300S",
-    "Coway Airmega 250",
-    "Blueair Blue Pure 411i Max",
-    "Philips AC2939/10",
-    "Xiaomi Smart Air Purifier 4"
-  ],
-  "comparatif-robot-aspirateur-laveur": [
-    "Roborock S8 MaxV Ultra",
-    "Dreame X40 Ultra",
-    "Ecovacs X5 Omni",
-    "Xiaomi X20 Max"
-  ],
-  "comparatif-smart-plugs-mesure-energie": [
-    "TP-Link Tapo P115",
-    "Shelly Plug S",
-    "Meross MSS310",
-    "Eve Energy"
-  ],
-  "cookeo-vs-thermomix-vs-airfryer": [
-    "Moulinex Cookeo Touch WiFi",
-    "Thermomix TM6"
-  ],
-  "deshumidificateur-connecte-guide": [
-    "Meaco Arete One 20L",
-    "Midea Cube 20L Smart",
-    "Inventor Eva II Pro 20L",
-    "Comfee MDDN-10DEN7",
-    "De'Longhi DEX216F"
-  ],
-  "eclairage-exterieur-solaire-connecte": [
-    "LITOM 120 LED Solaire",
-    "Ring Solar Floodlight",
-    "Philips Hue Appear",
-    "Govee RGBIC Outdoor Strip 10m",
-    "Innr Outdoor Spot"
-  ],
-  "guide-cuisine-connectee-2026": [
-    "Moulinex Cookeo Touch WiFi",
-    "Ninja Foodi MAX SmartLid",
-    "Instant Pot Duo Plus WiFi",
-    "De'Longhi Magnifica Evo",
-    "Philips 5500 LatteGo"
-  ],
-  "guide-domotique-economie-energie-2026": [
-    "Tado X",
-    "Netatmo Thermostat Intelligent V3",
-    "IKEA Dirigera"
-  ],
-  "guide-jardin-connecte-2026": [
-    "Husqvarna Automower NERA",
-    "Mammotion LUBA 2 AWD",
-    "Segway Navimow i105E",
-    "ECOVACS GOAT GX-600",
-    "Gardena SILENO City 600"
-  ],
-  "guide-purificateur-air-2026": [
-    "Levoit Core 300S",
-    "Coway Airmega 250",
-    "Blueair Blue Pure 411i Max",
-    "Philips AC2939/10",
-    "Xiaomi Smart Air Purifier 4"
-  ],
-  "guide-robot-aspirateur-2026": [
-    "Dreame D10s Plus",
-    "Ecovacs Deebot T30 Pro",
-    "Dreame X30 Ultra",
-    "Ecovacs X2 Omni"
-  ],
-  "guide-securite-maison-connectee-2026": [
-    "Eufy Video Doorbell E340",
-    "Nuki Smart Lock 4.0",
-    "Reolink Video Doorbell PoE",
-    "Ajax StarterKit",
-    "Netatmo Smart Smoke Alarm"
-  ],
-  "heissluftfritteuse-fuer-2-personen": [
-    "Xiaomi Smart Air Fryer Pro 4L",
-    "Cosori Lite 3.8L",
-    "Philips Essential Airfryer 4.1L",
-    "Ninja AF100"
-  ],
-  "maison-connectee-matter-thread-2026": [
-    "IKEA Dirigera",
-    "Eve Light Strip",
-    "Eve Thermo",
-    "Nuki Smart Lock 4.0",
-    "Eve Energy"
-  ],
-  "meilleur-airfryer-petit-budget": [
-    "Xiaomi Smart Air Fryer Pro 4L",
-    "Philips Essential Airfryer HD9200",
-    "Cosori Lite 3.8L",
-    "Tefal Easy Fry Classic+ EY2018",
-    "Moulinex Easy Fry Compact EZ1308"
-  ],
-  "meilleur-airfryer-xxl-grande-famille": [
-    "Ninja Foodi FlexDrawer 10.4L",
-    "Ninja Foodi MAX Dual Zone AF400",
-    "Philips Combi XXL Connected",
-    "Cecotec Cecofry Advance Double 9000",
-    "Tefal Easy Fry Dual Zone XXL"
-  ],
-  "meilleur-aspirateur-laveur-2026": [
-    "Dreame H14",
-    "Tineco Floor One S7 Pro",
-    "Roborock Flexi Pro",
-    "Bissell CrossWave HF3"
-  ],
-  "mejor-aire-acondicionado-bajo-consumo": [
-    "Daikin Sensira",
-    "Mitsubishi MSZ-AP",
-    "LG Dualcool",
-    "Haier Flexis Plus",
-    "Cecotec ForceClima"
-  ],
-  "ninja-vs-philips-quel-choisir": [
-    "Philips Airfryer 3000 XL",
-    "Philips Combi XXL Connected",
-    "Ninja Foodi MAX Dual Zone AF400",
-    "Ninja Foodi FlexDrawer 10.4L",
-    "Ninja Speedi 10-in-1"
-  ],
-  "robot-aspirador-piso-pequeno": [
-    "Xiaomi Robot Vacuum E10",
-    "Xiaomi Robot Vacuum E12"
-  ],
-  "robot-aspirateur-poils-animaux": [
-    "Roborock S8 MaxV Ultra",
-    "Dreame X40 Ultra",
-    "iRobot Roomba j9+",
-    "Roborock Saros Z70",
-    "Ecovacs Deebot T30 Pro"
-  ],
-  "robot-aspirateur-vs-balai": [
-    "Roborock S8 MaxV Ultra",
-    "Dyson V15 Detect Absolute",
-    "Dreame H14"
-  ],
-  "saugroboter-tierhaare-test": [
-    "Roborock S8 MaxV Ultra",
-    "Dreame X40 Ultra",
-    "Ecovacs Deebot T30 Pro",
-    "iRobot Roomba j9+",
-    "Roborock Saros Z70"
-  ],
-  "serrure-connectee-guide": [
-    "Nuki Smart Lock 4.0",
-    "Yale Linus L2",
-    "Tedee GO",
-    "SwitchBot Lock Pro",
-    "Nuki Keypad 2.0"
-  ],
-  "sonnette-video-sans-abonnement": [
-    "Eufy Video Doorbell E340",
-    "Ring Battery Doorbell Plus",
-    "Reolink WiFi Video Doorbell",
-    "Google Nest Doorbell"
-  ],
-  "station-meteo-connectee-comparatif": [
-    "Netatmo Smart Weather Station",
-    "Ecowitt HP2560",
-    "Davis Vantage Vue",
-    "Bresser 7-in-1 WiFi"
-  ],
-  "tendances-maison-connectee-2026": [
-    "Eve Thermo",
-    "Eufy S3 Pro",
-    "Reolink Argus 4 Pro",
-    "Roborock S8 MaxV Ultra",
-    "Dreame X40 Ultra"
-  ],
-  "test-cosori-dual-blaze": [
-    "Cosori Dual Blaze 6.4L",
-    "Philips Airfryer 3000 XL",
-    "Philips Combi XXL Connected",
-    "Ninja Double Stack XL"
-  ],
-  "test-moulinex-easy-fry-max": [
-    "Moulinex Easy Fry Max 5L",
-    "Philips Airfryer 3000 XL",
-    "Xiaomi Smart Air Fryer Pro 4L",
-    "Cosori Dual Blaze 6.4L"
-  ],
-  "test-ninja-foodi-flexdrawer": [
-    "Ninja Foodi FlexDrawer 10.4L",
-    "Ninja Double Stack XL"
-  ],
-  "test-ninja-foodi-max-dual-zone": [
-    "Ninja Foodi MAX Dual Zone AF400",
-    "Ninja Double Stack XL",
-    "Ninja Foodi FlexDrawer 10.4L",
-    "Philips Combi XXL Connected",
-    "Cosori Dual Blaze 6.4L"
-  ],
-  "test-philips-airfryer-3000-xl": [
-    "Philips Airfryer 3000 XL",
-    "Cosori Dual Blaze 6.4L",
-    "Xiaomi Smart Air Fryer Pro 5L",
-    "Moulinex Easy Fry Max 6.2L"
-  ],
-  "test-philips-combi-xxl-connected": [
-    "Philips Combi XXL Connected",
-    "Ninja Double Stack XL"
-  ],
-  "test-xiaomi-smart-air-fryer-pro": [
-    "Xiaomi Smart Air Fryer Pro 4L",
-    "Philips Airfryer 3000 XL",
-    "Cosori Dual Blaze 6.4L",
-    "Moulinex Easy Fry Max 5L"
-  ],
-  "thermostat-connecte-pompe-chaleur": [
-    "Tado X",
-    "Netatmo Thermostat Intelligent V3",
-    "Google Nest Learning Thermostat"
-  ],
-  "tondeuse-robot-sans-fil-perimetrique": [
-    "Husqvarna Automower NERA",
-    "Mammotion LUBA 2 AWD",
-    "Segway Navimow i105E",
-    "ECOVACS GOAT GX-600"
-  ],
-  "ventilador-silencioso-dormitorio": [
-    "Dyson Pure Cool",
-    "Rowenta Turbo Silence Extreme+",
-    "Cecotec EnergySilence",
-    "Xiaomi Smart Fan"
-  ],
-  "waermepumpentrockner-vergleich": [
-    "Bosch Serie 8",
-    "Bosch Serie 6",
-    "Siemens iQ500",
-    "Miele TWR780WP",
-    "Samsung DV90BB"
-  ],
   "centrale-vapeur-comparatif": [
     "Philips PerfectCare 8000 Series PSG8160/30",
     "Philips PerfectCare 7000 Series PSG7130/20",
@@ -550,6 +232,392 @@ export const ARTICLE_MODELS: Record<string, readonly string[]> = {
     "Netatmo Smart Carbon Monoxide Alarm",
     "Bosch Smart Home Twinguard",
     "Aqara Smoke Detector"
+  ],
+  "airfryer-economies-energie": [
+    "Philips Airfryer Série 3000 XL - 6.2L",
+    "Moulinex Easy Fry Max 5L",
+    "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+    "Xiaomi Smart Air Fryer Pro 4L",
+    "Cosori Dual Blaze Smart Air Fryer - 6.4L"
+  ],
+  "airfryer-simple-vs-double-panier": [
+    "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+    "Ninja Foodi FlexDrawer 10.4L Double Zone",
+    "Philips Airfryer Série 3000 XL - 6.2L",
+    "Cosori Dual Blaze Smart Air Fryer - 6.4L",
+    "Moulinex Easy Fry Max 5L"
+  ],
+  "airfryer-vs-friteuse-traditionnelle": [
+    "Philips Airfryer Série 3000 XL - 6.2L",
+    "Tefal ActiFry Genius XL 2in1 - 1.7kg",
+    "Ninja Foodi FlexDrawer 10.4L Double Zone"
+  ],
+  "alarme-maison-sans-abonnement": [
+    "Ajax StarterKit 4G",
+    "Somfy Home Alarm Advanced",
+    "Ring Alarm Pack M (Gen 2)",
+    "eufy HomeBase S380"
+  ],
+  "arrosage-connecte-intelligent": [
+    "GARDENA smart Water Control Set",
+    "Eve Aqua",
+    "GARDENA smart Irrigation Control",
+    "LinkTap G2S",
+    "Hunter Pro-HC"
+  ],
+  "balance-cuisine-connectee-comparatif": [
+    "Etekcity Smart Nutrition Scale",
+    "Renpho Balance Cuisine Connectée",
+    "Beurer KS 34 XL Balance Diététique",
+    "Acaia Pearl"
+  ],
+  "balkonkraftwerk-panneau-solaire-balcon": [
+    "Hoymiles HMS-800W-2T",
+    "Anker SOLIX Solarbank 3 E2700 Pro",
+    "EcoFlow STREAM Ultra",
+    "Anker SOLIX MI80",
+    "Zendure SolarFlow 800 Pro 2"
+  ],
+  "barbecue-connecte-thermometre-guide": [
+    "MEATER Pro Thermomètre Sans Fil Longue Portée",
+    "MEATER Plus Thermomètre Sans Fil Bluetooth 50m",
+    "Inkbird IBT-4XS Thermomètre Bluetooth 4 Sondes",
+    "Inkbird IBBQ-4BW",
+    "MEATER Pro XL"
+  ],
+  "cafetiere-connectee-guide": [
+    "De'Longhi Magnifica Evo ECAM290.51.B",
+    "Philips 5500 LatteGo Series EP5541/50",
+    "Krups Evidence One EA895N10",
+    "De'Longhi Rivelia EXAM440.55.B",
+    "Melitta Barista TS Smart F86/0-100"
+  ],
+  "capteur-sol-humidite-jardin": [
+    "Gardena smart Sensor",
+    "Ecowitt WH51",
+    "ThirdReality Smart Soil Moisture Sensor Gen2",
+    "Xiaomi Mi Flora"
+  ],
+  "cave-vin-connectee-guide": [
+    "La Sommelière ECELLAR185",
+    "Haier Wine Bank 50 HWS77GDAU1",
+    "Liebherr WPbli 5231 GrandCru Selection",
+    "Haier Wine Bank 50 HWS42GDAU1"
+  ],
+  "climatiseur-mobile-vs-ventilateur": [
+    "De'Longhi Pinguino PAC EL112 CST WiFi",
+    "Xiaomi Smart Standing Fan 2 Pro",
+    "Midea PortaSplit",
+    "Rowenta Turbo Silence Extreme+",
+    "Duux Whisper Flex 2 Smart"
+  ],
+  "comment-choisir-airfryer-famille": [
+    "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+    "Ninja Foodi FlexDrawer 10.4L Double Zone",
+    "Philips Airfryer Combi XXL Connecté - 8.3L",
+    "Philips Airfryer Série 3000 XL - 6.2L",
+    "Cosori Dual Blaze Smart Air Fryer - 6.4L"
+  ],
+  "comparatif-airfryer-connecte-2026": [
+    "Philips Airfryer Combi XXL Connecté - 8.3L",
+    "Xiaomi Smart Air Fryer Pro 4L",
+    "Cosori Dual Blaze Smart Air Fryer - 6.4L",
+    "Philips Airfryer 5000 Series XXL Connected HD9285",
+    "Xiaomi Smart Air Fryer 6.5L"
+  ],
+  "comparatif-camera-surveillance-exterieure": [
+    "eufyCam S3 Pro",
+    "TP-Link Tapo C520WS",
+    "Reolink RLC-833A",
+    "Reolink Argus 4 Pro",
+    "eufy SoloCam S340"
+  ],
+  "comparatif-multicuiseur-connecte": [
+    "Moulinex Cookeo Touch WiFi - 6L",
+    "Ninja Foodi MAX 15-en-1 SmartLid OP500EU - 7.5L",
+    "Instant Pot Duo Plus WhisperQuiet - 5.7L",
+    "Moulinex Cookeo Touch Pro WiFi",
+    "Tefal Cook4me Touch WiFi"
+  ],
+  "comparatif-purificateur-air-allergie": [
+    "Levoit Core 400S",
+    "Levoit Core 300S",
+    "Blueair Blue Pure 411i Max",
+    "Philips AC2939/10",
+    "Xiaomi Smart Air Purifier 4"
+  ],
+  "comparatif-robot-aspirateur-laveur": [
+    "Dreame X50 Ultra Complete",
+    "Dreame L40 Ultra",
+    "Roborock Qrevo Curv 2 Flow",
+    "Ecovacs Deebot X8 Pro Omni",
+    "Narwal Freo Z Ultra"
+  ],
+  "comparatif-smart-plugs-mesure-energie": [
+    "TP-Link Tapo P115 Prise Connectée avec Suivi Conso",
+    "Meross MSS210P Prise Connectée HomeKit 16A (lot de 2)",
+    "TP-Link Tapo P100 Pack de 4 Prises Connectées",
+    "Shelly Plug S Gen3",
+    "Eve Energy (Matter)"
+  ],
+  "cookeo-vs-thermomix-vs-airfryer": [
+    "Moulinex Cookeo Touch WiFi - 6L",
+    "Philips Airfryer Série 3000 XL - 6.2L",
+    "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+    "Instant Pot Duo Plus WhisperQuiet - 5.7L",
+    "Ninja Foodi MAX SmartLid OL750EU"
+  ],
+  "guide-cuisine-connectee-2026": [
+    "Moulinex Cookeo Touch WiFi - 6L",
+    "TP-Link Tapo P115 Prise Connectée avec Suivi Conso",
+    "MEATER Plus Thermomètre Sans Fil Bluetooth 50m",
+    "Etekcity Smart Nutrition Scale",
+    "Inkbird IBT-4XS Thermomètre Bluetooth 4 Sondes"
+  ],
+  "guide-domotique-economie-energie-2026": [
+    "tado Smart Radiator Thermostat X Starter Kit",
+    "TP-Link Tapo P110M",
+    "Shelly Pro 3EM",
+    "Netatmo Smart Thermostat",
+    "Shelly Plug S Gen3"
+  ],
+  "guide-purificateur-air-2026": [
+    "Levoit Core 300S",
+    "Xiaomi Smart Air Purifier 4",
+    "Philips AC2939/10",
+    "Levoit Core 400S",
+    "Blueair Blue Pure 411i Max"
+  ],
+  "guide-robot-aspirateur-2026": [
+    "Roborock Qrevo Curv",
+    "Roborock Q7 M5+",
+    "Dreame X50 Ultra Complete",
+    "Ecovacs Deebot T50 Omni",
+    "Roborock Saros 10R"
+  ],
+  "heissluftfritteuse-fuer-2-personen": [
+    "Xiaomi Smart Air Fryer Pro 4L",
+    "Philips Airfryer 3000 Series L HD9252",
+    "Ninja AF100"
+  ],
+  "heissluftfritteuse-stromverbrauch-kosten": [
+    "Xiaomi Smart Air Fryer Pro 4L",
+    "Philips Airfryer Série 3000 XL - 6.2L",
+    "Ninja Foodi FlexDrawer 10.4L Double Zone"
+  ],
+  "histoire-evolution-airfryer": [
+    "Ninja Foodi FlexDrawer 10.4L Double Zone",
+    "Philips Airfryer Série 3000 XL - 6.2L",
+    "Tefal ActiFry Genius XL 2in1 - 1.7kg",
+    "Philips Airfryer Combi XXL Connecté - 8.3L",
+    "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L"
+  ],
+  "meilleur-airfryer-petit-budget": [
+    "Moulinex Easy Fry Max 5L",
+    "Xiaomi Smart Air Fryer Pro 4L",
+    "Philips Airfryer Série 2000 4,2 L NA221/00",
+    "Ninja Air Fryer AF100EU"
+  ],
+  "ninja-vs-philips-quel-choisir": [
+    "Ninja Foodi FlexDrawer 10.4L Double Zone",
+    "Philips Airfryer Série 3000 XL - 6.2L",
+    "Philips Airfryer Combi XXL Connecté - 8.3L",
+    "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+    "Ninja Foodi MAX Dual Zone AF400EU 9.5L"
+  ],
+  "robot-aspirateur-poils-animaux": [
+    "Roborock S8 MaxV Ultra",
+    "Dreame X40 Ultra",
+    "iRobot Roomba j9+",
+    "Roborock Saros Z70",
+    "Ecovacs Deebot T30 Pro"
+  ],
+  "robot-cuiseur-connecte-comparatif": [
+    "Moulinex i-Companion Touch XL",
+    "Cecotec Mambo Touch",
+    "Kenwood Cooking Chef XL KCL95.424SI",
+    "Magimix Cook Expert Connect"
+  ],
+  "serrure-connectee-guide": [
+    "Nuki Smart Lock Pro (5th generation)",
+    "Nuki Smart Lock Go",
+    "Aqara Smart Lock U200",
+    "Tedee GO 2",
+    "Yale Linus Smart Lock L2"
+  ],
+  "station-meteo-connectee-comparatif": [
+    "Ecowitt HP2551",
+    "Bresser Wi-Fi ClearView Weather Station 7-in-1",
+    "Netatmo Smart Weather Station",
+    "Davis Vantage Vue",
+    "Ecowitt Wittboy Pro HP2564"
+  ],
+  "test-cosori-dual-blaze": [
+    "Cosori Dual Blaze Smart Air Fryer - 6.4L",
+    "Philips Airfryer Série 3000 XL - 6.2L",
+    "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+    "Philips Airfryer Combi XXL Connecté - 8.3L"
+  ],
+  "test-moulinex-easy-fry-max": [
+    "Moulinex Easy Fry Max 5L",
+    "Cosori Dual Blaze Smart Air Fryer - 6.4L",
+    "Philips Airfryer Série 3000 XL - 6.2L",
+    "Xiaomi Smart Air Fryer Pro 4L"
+  ],
+  "test-ninja-foodi-flexdrawer": [
+    "Ninja Foodi FlexDrawer 10.4L Double Zone",
+    "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+    "Philips Airfryer Combi XXL Connecté - 8.3L",
+    "Cosori Dual Blaze Smart Air Fryer - 6.4L"
+  ],
+  "test-ninja-foodi-max-dual-zone": [
+    "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+    "Ninja Foodi FlexDrawer 10.4L Double Zone",
+    "Philips Airfryer Combi XXL Connecté - 8.3L",
+    "Cosori Dual Blaze Smart Air Fryer - 6.4L"
+  ],
+  "test-philips-airfryer-3000-xl": [
+    "Philips Airfryer Série 3000 XL - 6.2L",
+    "Cosori Dual Blaze Smart Air Fryer - 6.4L",
+    "Ninja Foodi FlexDrawer 10.4L Double Zone",
+    "Moulinex Easy Fry Max 5L",
+    "Philips Airfryer Combi XXL Connecté - 8.3L"
+  ],
+  "test-xiaomi-smart-air-fryer-pro": [
+    "Xiaomi Smart Air Fryer Pro 4L",
+    "Philips Airfryer Série 3000 XL - 6.2L",
+    "Moulinex Easy Fry Max 5L",
+    "Cosori Dual Blaze Smart Air Fryer - 6.4L"
+  ],
+  "saugroboter-tierhaare-test": [
+    "Roborock S8 MaxV Ultra",
+    "Dreame X40 Ultra",
+    "Ecovacs Deebot T30 Pro Omni",
+    "iRobot Roomba Max 705 Vac",
+    "Roborock Saros Z70"
+  ],
+  "deshumidificateur-connecte-guide": [
+    "Meaco Arete Two 20L",
+    "Comfee MDDF-16DEN7-WF",
+    "Xiaomi Smart Dehumidifier Lite",
+    "De'Longhi Tasciugo AriaDry Multi DDSX220WF",
+    "Inventor EVA II PRO WiFi 20L"
+  ],
+  "guide-jardin-connecte-2026": [
+    "Mammotion LUBA 3 AWD 5000",
+    "Husqvarna Automower 450X NERA",
+    "Gardena SILENO City 600",
+    "Segway Navimow i208 AWD",
+    "ECOVACS GOAT O600 RTK"
+  ],
+  "mejor-aire-acondicionado-bajo-consumo": [
+    "Mitsubishi Electric MSZ-AY35VGK",
+    "Haier Flexis Plus 3,5 kW",
+    "Daikin Perfera FTXM35R",
+    "LG DUALCOOL AI Air 3,5 kW",
+    "Daikin Sensira FTXF35E"
+  ],
+  "robot-aspirador-piso-pequeno": [
+    "eufy Auto-Empty C10",
+    "Xiaomi Robot Vacuum E5",
+    "Roborock Q7 M5",
+    "Roborock Saros 10R"
+  ],
+  "eclairage-exterieur-solaire-connecte": [
+    "eufy Solar Wall Light Cam S120",
+    "Govee Outdoor Solar String Lights",
+    "Philips Hue Lily Outdoor Spot Base Kit",
+    "Philips Hue Calla Outdoor Pedestal",
+    "Steinel XSolar L-S ONE"
+  ],
+  "sonnette-video-sans-abonnement": [
+    "Eufy Video Doorbell E340",
+    "TP-Link Tapo D235",
+    "Aqara Video Doorbell G4",
+    "Reolink Video Doorbell WiFi",
+    "Reolink Battery Doorbell"
+  ],
+  "meilleur-airfryer-xxl-grande-famille": [
+    "Ninja Foodi FlexDrawer 10.4L Double Zone",
+    "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+    "Philips Airfryer Combi XXL Connecté - 8.3L",
+    "Ninja Foodi MAX Dual Zone AF400EU 9.5L",
+    "Tefal Dual Easy Fry EY9018 8.3L"
+  ],
+  "robot-aspirateur-vs-balai": [
+    "Roborock Qrevo Curv",
+    "Dyson V15 Detect",
+    "Roborock Q7 M5+",
+    "Rowenta X-Force Flex 15.60",
+    "Dreame X50 Ultra Complete"
+  ],
+  "guide-securite-maison-connectee-2026": [
+    "Ajax StarterKit 4G",
+    "Eufy Video Doorbell E340",
+    "Nuki Smart Lock Pro (5th generation)",
+    "eufyCam S3 Pro",
+    "Eufy Indoor Cam E220"
+  ],
+  "tendances-maison-connectee-2026": [
+    "Aqara Hub M3",
+    "Eve Thermo",
+    "Reolink Argus 4 Pro",
+    "eufyCam S3 Pro",
+    "Home Assistant Green"
+  ],
+  "meilleur-aspirateur-laveur-2026": [
+    "Dreame H15 Pro",
+    "Dreame H14 Pro",
+    "Dyson WashG1",
+    "Tineco Floor One S7 Pro",
+    "Roborock Flexi Pro"
+  ],
+  "maison-connectee-matter-thread-2026": [
+    "Aqara Hub M3",
+    "IKEA DIRIGERA",
+    "Apple HomePod mini",
+    "Amazon Echo Dot Max",
+    "Google Nest Hub (2nd gen)"
+  ],
+  "piscine-connectee-guide": [
+    "Ondilo ICO Pool V2",
+    "iopool EcO",
+    "Dolphin S300i",
+    "Zodiac eXO iQ",
+    "Beatbot AquaSense 2 Pro"
+  ],
+  "ventilador-silencioso-dormitorio": [
+    "Duux Whisper Flex 2 Smart",
+    "Xiaomi Smart Standing Fan 2 Pro",
+    "Dyson Purifier Cool Formaldehyde TP09",
+    "Cecotec EnergySilence 1040 SmartExtreme",
+    "Rowenta Turbo Silence Extreme+"
+  ],
+  "test-philips-combi-xxl-connected": [
+    "Philips Airfryer Combi XXL Connecté - 8.3L",
+    "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L",
+    "Cosori Dual Blaze Smart Air Fryer - 6.4L",
+    "Ninja Foodi FlexDrawer 10.4L Double Zone"
+  ],
+  "thermostat-connecte-pompe-chaleur": [
+    "tado Heat Pump Optimizer X",
+    "Netatmo Thermostat Original",
+    "Honeywell Home T6",
+    "tado Smart Thermostat X"
+  ],
+  "tondeuse-robot-sans-fil-perimetrique": [
+    "ECOVACS GOAT A1600 RTK",
+    "Segway Navimow i105E",
+    "Mammotion LUBA 2 AWD 3000X",
+    "Husqvarna Automower 310E NERA",
+    "Worx Landroid Vision M600"
+  ],
+  "waermepumpentrockner-vergleich": [
+    "Bosch Serie 8 WRB247C40",
+    "Beko B7T88209",
+    "Miele TQ 1000 WP Nova Edition",
+    "AEG 9000X TR9XW80890",
+    "Samsung DV90F09F4SU2"
   ]
 }
 

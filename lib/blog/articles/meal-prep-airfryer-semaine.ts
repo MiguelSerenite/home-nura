@@ -6,7 +6,7 @@ export const article: BlogArticle = {
   pillar: 'guides/airfryers',
   relatedSlugs: ['recettes-poulet-croustillant-airfryer', 'recettes-legumes-grilles-airfryer', 'cuisiner-healthy-airfryer'],
   datePublished: '2026-03-18',
-  dateModified: '2026-04-12',
+  dateModified: '2026-10-09',
   readingTime: 15,
   images: [
     {
@@ -189,7 +189,7 @@ export const article: BlogArticle = {
 
 <p><strong>Assemblage en contenants :</strong></p>
 <ol>
-<li>Laissez tous les aliments refroidir complètement à température ambiante (<strong>30 minutes maximum</strong>).</li>
+<li>Laissez tiédir les aliments étalés en petites portions (<strong>30 minutes maximum</strong> à température ambiante), puis réfrigérez-les aussitôt.</li>
 <li>Répartissez dans des contenants en verre hermétiques selon le planning de la semaine.</li>
 <li>Séparez les sauces et assaisonnements humides dans de petits contenants à part.</li>
 <li>Étiquetez chaque contenant avec le jour et le repas.</li>
@@ -198,11 +198,13 @@ export const article: BlogArticle = {
 <h2>Conseils de Conservation</h2>
 <ul>
 <li><strong>Au réfrigérateur</strong> : le poulet, le saumon et les boulettes se conservent <strong>3 à 4 jours</strong> maximum.</li>
-<li><strong>Les légumes grillés</strong> se conservent <strong>4 à 5 jours</strong> au réfrigérateur.</li>
-<li><strong>Le riz et le quinoa</strong> se conservent <strong>4 jours</strong> au réfrigérateur.</li>
+<li><strong>Les légumes grillés</strong> se conservent <strong>3 à 4 jours</strong> au réfrigérateur.</li>
+<li><strong>Le riz cuit</strong> est l'aliment le plus sensible (spores de <em>Bacillus cereus</em>) : refroidissez-le en moins d'une heure, gardez-le au réfrigérateur et consommez-le idéalement sous 24 heures, sinon congelez-le en portions. <strong>Le quinoa</strong> se garde 3 jours.</li>
 <li><strong>Les falafels</strong> se conservent <strong>4 jours</strong> au réfrigérateur ou <strong>1 mois</strong> au congélateur.</li>
 <li><strong>Contenants en verre</strong> : préférez-les au plastique pour une meilleure conservation et un réchauffage sain.</li>
-<li><strong>Ne réfrigérez jamais des aliments chauds</strong> — attendez qu'ils refroidissent pour éviter la condensation qui accélère le développement bactérien.</li>
+<li><strong>Réfrigérez dans les 2 heures après cuisson</strong> : répartissez les aliments en portions peu épaisses pour qu'ils refroidissent vite, et ne les laissez jamais plus longtemps à température ambiante.</li>
+<li><strong>Jeudi et vendredi</strong> : congelez dès le dimanche les portions prévues pour ces jours (cuisses de poulet, boulettes, riz, poulet de la pizza) et faites-les décongeler au réfrigérateur la veille au soir.</li>
+<li><strong>Réchauffez une seule fois</strong>, jusqu'à ce que le plat soit brûlant à cœur (74 °C).</li>
 </ul>
 
 <h2>Instructions de Réchauffage à l'Airfryer</h2>
@@ -221,6 +223,7 @@ export const article: BlogArticle = {
 <tr><td>Pizza tortilla</td><td>190 °C</td><td>3-4 min</td><td>Croustillant retrouvé</td></tr>
 </tbody>
 </table>
+<p>Ces temps sont indicatifs pour des portions sortant du réfrigérateur : le plat doit être brûlant à cœur (74 °C au thermomètre). Prolongez de quelques minutes si besoin, surtout pour les portions décongelées.</p>
 
 <h2>Les Recettes du Soir (Préparation Rapide)</h2>
 
@@ -272,7 +275,7 @@ export const article: BlogArticle = {
 
 <h2>Erreurs à Éviter</h2>
 <ul>
-<li><strong>Préparer trop d'avance</strong> — ne préparez pas plus de 5 jours de repas. Au-delà, la qualité et la sécurité alimentaire diminuent.</li>
+<li><strong>Garder trop longtemps au réfrigérateur</strong> — au-delà de 3 à 4 jours, la qualité et la sécurité alimentaire diminuent. Congelez les portions de fin de semaine.</li>
 <li><strong>Oublier de sécher les légumes</strong> avant la cuisson — consultez notre guide des <a href="/fr/blog/erreurs-courantes-airfryer">erreurs courantes à l'airfryer</a>.</li>
 <li><strong>Réchauffer au micro-ondes</strong> — l'airfryer préserve le croustillant, le micro-ondes le détruit.</li>
 <li><strong>Stocker les sauces avec les aliments</strong> — les sauces humides ramollissent les aliments panés ou grillés. Séparez toujours.</li>
@@ -300,7 +303,7 @@ export const article: BlogArticle = {
 </table>
 
 <h2>Conclusion</h2>
-<p>Le meal prep à l'airfryer est la combinaison gagnante pour une alimentation saine, économique et savoureuse tout au long de la semaine. En investissant 2 heures le dimanche, vous économisez au minimum <strong>5 heures de cuisine en semaine</strong> et vous évitez la tentation des plats préparés industriels ou de la livraison à domicile.</p>
+<p>Le meal prep à l'airfryer est la combinaison gagnante pour une alimentation saine, économique et savoureuse tout au long de la semaine. En investissant 2 heures le dimanche, vous libérez <strong>plusieurs heures de cuisine en semaine</strong> et vous évitez la tentation des plats préparés industriels ou de la livraison à domicile.</p>
 <p>L'airfryer excelle dans le réchauffage — là où le micro-ondes ramollit les textures, l'airfryer redonne du croustillant à chaque plat. C'est un avantage décisif pour le meal prep. Pour aller plus loin, explorez nos <a href="/fr/blog/recettes-legumes-grilles-airfryer">10 recettes de légumes grillés</a>, nos <a href="/fr/blog/recettes-poulet-croustillant-airfryer">recettes de poulet croustillant</a> et notre guide pour <a href="/fr/blog/cuisiner-healthy-airfryer">cuisiner healthy à l'airfryer</a>.</p>
 
 <h2>Tableau de conservation : durées et méthodes de réchauffage</h2>
@@ -309,19 +312,19 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Blancs de poulet cuits</td><td>4 jours</td><td>3 mois</td><td>Oui — humidifier légèrement</td><td>160°C / 6-8 min</td></tr>
 <tr><td>Cuisses / pilons</td><td>4 jours</td><td>3 mois</td><td>Oui — excellent résultat</td><td>180°C / 8-10 min</td></tr>
-<tr><td>Légumes grillés</td><td>5 jours</td><td>2 mois</td><td>Oui — redonne le croustillant</td><td>180°C / 4-5 min</td></tr>
+<tr><td>Légumes grillés</td><td>4 jours</td><td>2 mois</td><td>Oui — redonne le croustillant</td><td>180°C / 4-5 min</td></tr>
 <tr><td>Frites maison</td><td>3 jours</td><td>2 mois</td><td>Oui — résultat quasi parfait</td><td>180°C / 3-5 min</td></tr>
 <tr><td>Saumons / poissons</td><td>3 jours</td><td>2 mois</td><td>Oui — couvrir avec papier alu</td><td>160°C / 5-7 min</td></tr>
-<tr><td>Tofu / protéines végé</td><td>5 jours</td><td>3 mois</td><td>Oui — excellent résultat</td><td>180°C / 5-6 min</td></tr>
+<tr><td>Tofu / protéines végé</td><td>4 jours</td><td>3 mois</td><td>Oui — excellent résultat</td><td>180°C / 5-6 min</td></tr>
 </tbody>
 </table>
 
-<h2>Calcul des économies réelles du meal prep à l'airfryer</h2>
+<h2>Ce que le meal prep à l'airfryer vous fait gagner</h2>
 <ul>
-<li><strong>Économie de temps :</strong> 2h le dimanche vs 30-45 min/jour en semaine = économie de 2,5 à 3h sur la semaine.</li>
-<li><strong>Économie financière :</strong> cuisiner chez soi coûte en moyenne 3-5 €/repas vs 10-15 € pour la livraison. Sur 5 déjeuners, c'est 35-50 € économisés par semaine.</li>
-<li><strong>Économie d'énergie :</strong> l'airfryer consomme 0,38-0,59 kWh par session vs 0,9-1,2 kWh pour un four. Sur 10 sessions/semaine : 5-8 € d'économie électrique/mois.</li>
-<li><strong>Réduction du gaspillage :</strong> une liste de courses ciblée réduit les pertes alimentaires de 30-40 % en moyenne.</li>
+<li><strong>Du temps :</strong> une session de 2 heures le dimanche remplace la plupart des préparations quotidiennes ; en semaine, il ne reste qu'à réchauffer et assembler.</li>
+<li><strong>De l'argent :</strong> cuisiner soi-même revient généralement bien moins cher que la livraison ou les plats préparés, d'autant plus en achetant en plus grande quantité.</li>
+<li><strong>De l'énergie :</strong> pour de petites quantités, l'airfryer chauffe un volume réduit et préchauffe à peine, ce qui limite la consommation par rapport à un grand four.</li>
+<li><strong>Moins de gaspillage :</strong> une liste de courses calée sur le planning évite d'acheter ce qui ne sera pas cuisiné.</li>
 </ul>`,
 
     en: `<h2>Introduction</h2>
@@ -393,16 +396,18 @@ export const article: BlogArticle = {
 
 <h3>Phase 3: Falafels + Assembly (30 minutes)</h3>
 <p><strong>Homemade falafels:</strong> Drain chickpeas, blend with onion, garlic, cumin, coriander, flour. Form <strong>12 balls</strong>, flatten slightly. Cook at <strong>190 °C for 12-15 minutes</strong>.</p>
-<p><strong>Assembly:</strong> Let everything cool completely. Divide into glass containers by day. Keep sauces separate. Label each container.</p>
+<p><strong>Assembly:</strong> Let food cool for no more than 30 minutes at room temperature, spread out in small portions, then refrigerate straight away. Divide into glass containers by day. Keep sauces separate. Label each container.</p>
 
 <h2>Storage Tips</h2>
 <ul>
 <li><strong>Refrigerator:</strong> chicken, salmon and meatballs keep <strong>3-4 days</strong>.</li>
-<li><strong>Grilled vegetables</strong> keep <strong>4-5 days</strong> refrigerated.</li>
-<li><strong>Rice and quinoa</strong> keep <strong>4 days</strong> refrigerated.</li>
+<li><strong>Grilled vegetables</strong> keep <strong>3-4 days</strong> refrigerated.</li>
+<li><strong>Cooked rice</strong> is the most sensitive food (<em>Bacillus cereus</em> spores): cool it within an hour, keep it in the fridge and ideally eat it within 24 hours, otherwise freeze it in portions. <strong>Quinoa</strong> keeps 3 days.</li>
 <li><strong>Falafels</strong> keep <strong>4 days</strong> refrigerated or <strong>1 month</strong> frozen.</li>
 <li>Use <strong>glass containers</strong> over plastic for better preservation and healthier reheating.</li>
-<li><strong>Never refrigerate hot food</strong> — wait until cool to avoid condensation and bacterial growth.</li>
+<li><strong>Refrigerate within 2 hours of cooking</strong>: split food into shallow portions so it cools quickly, and never leave it out at room temperature for longer.</li>
+<li><strong>Thursday and Friday</strong>: freeze the portions for those days on Sunday (chicken thighs, meatballs, rice, chicken for the pizza) and thaw them in the fridge the night before.</li>
+<li><strong>Reheat only once</strong>, until the food is piping hot all the way through (74 °C).</li>
 </ul>
 
 <h2>Air Fryer Reheating Instructions</h2>
@@ -420,6 +425,7 @@ export const article: BlogArticle = {
 <tr><td>Tortilla pizza</td><td>190 °C</td><td>3-4 min</td><td>Restores crispiness</td></tr>
 </tbody>
 </table>
+<p>These times are a guide for portions straight from the fridge: food must be piping hot in the centre (74 °C on a thermometer). Add a few minutes if needed, especially for thawed portions.</p>
 
 <h2>Quick Evening Recipes</h2>
 <h3>Monday — Chicken Wraps</h3>
@@ -443,14 +449,14 @@ export const article: BlogArticle = {
 
 <h2>Mistakes to Avoid</h2>
 <ul>
-<li><strong>Preparing too far ahead</strong> — don't prep more than 5 days of meals.</li>
+<li><strong>Keeping food too long in the fridge</strong> — beyond 3-4 days, quality and food safety decline. Freeze the end-of-week portions.</li>
 <li><strong>Forgetting to dry vegetables</strong> — see our <a href="/en/blog/erreurs-courantes-airfryer">common air fryer mistakes</a> guide.</li>
 <li><strong>Reheating in the microwave</strong> — the air fryer preserves crispiness, the microwave destroys it.</li>
 <li><strong>Storing sauces with food</strong> — wet sauces make breaded or grilled food soggy. Always separate.</li>
 </ul>
 
 <h2>Conclusion</h2>
-<p>Air fryer meal prep is the winning combination for healthy, economical, and tasty eating throughout the week. By investing 2 hours on Sunday, you save at least <strong>5 hours of cooking during the week</strong>. Explore our <a href="/en/blog/recettes-legumes-grilles-airfryer">10 grilled vegetable recipes</a> and <a href="/en/blog/cuisiner-healthy-airfryer">healthy cooking guide</a> for more inspiration.</p>
+<p>Air fryer meal prep is the winning combination for healthy, economical, and tasty eating throughout the week. By investing 2 hours on Sunday, you free up <strong>several hours of cooking during the week</strong>. Explore our <a href="/en/blog/recettes-legumes-grilles-airfryer">10 grilled vegetable recipes</a> and <a href="/en/blog/cuisiner-healthy-airfryer">healthy cooking guide</a> for more inspiration.</p>
 
 <h2>Storage guide: shelf life and reheating methods</h2>
 <table>
@@ -458,19 +464,19 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Cooked chicken breasts</td><td>4 days</td><td>3 months</td><td>Yes — lightly moisten first</td><td>160°C / 6-8 min</td></tr>
 <tr><td>Thighs / drumsticks</td><td>4 days</td><td>3 months</td><td>Yes — excellent result</td><td>180°C / 8-10 min</td></tr>
-<tr><td>Roasted vegetables</td><td>5 days</td><td>2 months</td><td>Yes — restores crispiness</td><td>180°C / 4-5 min</td></tr>
+<tr><td>Roasted vegetables</td><td>4 days</td><td>2 months</td><td>Yes — restores crispiness</td><td>180°C / 4-5 min</td></tr>
 <tr><td>Homemade fries</td><td>3 days</td><td>2 months</td><td>Yes — nearly perfect result</td><td>180°C / 3-5 min</td></tr>
 <tr><td>Salmon / fish</td><td>3 days</td><td>2 months</td><td>Yes — cover with foil</td><td>160°C / 5-7 min</td></tr>
-<tr><td>Tofu / plant protein</td><td>5 days</td><td>3 months</td><td>Yes — excellent result</td><td>180°C / 5-6 min</td></tr>
+<tr><td>Tofu / plant protein</td><td>4 days</td><td>3 months</td><td>Yes — excellent result</td><td>180°C / 5-6 min</td></tr>
 </tbody>
 </table>
 
-<h2>Real savings from air fryer meal prep</h2>
+<h2>What air fryer meal prep saves you</h2>
 <ul>
-<li><strong>Time saving:</strong> 2h on Sunday vs 30-45 min/day on weekdays = saving 2.5 to 3 hours over the week.</li>
-<li><strong>Financial saving:</strong> home cooking averages €3-5/meal vs €10-15 for delivery. Over 5 lunches, that's €35-50 saved per week.</li>
-<li><strong>Energy saving:</strong> the air fryer uses 0.38-0.59 kWh per session vs 0.9-1.2 kWh for an oven. Over 10 sessions/week: €5-8 electricity saving per month.</li>
-<li><strong>Waste reduction:</strong> a targeted shopping list reduces food waste by 30-40% on average.</li>
+<li><strong>Time:</strong> one 2-hour session on Sunday replaces most daily cooking; on weekdays you only reheat and assemble.</li>
+<li><strong>Money:</strong> home cooking is usually much cheaper than delivery or ready meals, especially when you buy in larger quantities.</li>
+<li><strong>Energy:</strong> for small quantities, the air fryer heats a smaller space and barely needs preheating, so it uses less energy than a full-size oven.</li>
+<li><strong>Less waste:</strong> a shopping list built around the plan stops you buying food that never gets cooked.</li>
 </ul>`,
 
     de: `<h2>Einleitung</h2>
@@ -511,15 +517,17 @@ export const article: BlogArticle = {
 <p><strong>Durchgang 5:</strong> Gemüse nach <a href="/de/blog/recettes-legumes-grilles-airfryer">unserem Gemüse-Guide</a>.</p>
 <h3>Phase 3: Falafel + Zusammenstellung (30 Min.)</h3>
 <p>Falafel: Kichererbsen mit Zwiebel, Knoblauch, Kreuzkümmel, Koriander, Mehl mixen. <strong>12 Kugeln</strong> formen. Bei <strong>190 °C 12-15 Min.</strong></p>
-<p>Alles abkühlen lassen. In Glasbehälter nach Tagen aufteilen. Saucen separat.</p>
+<p>Höchstens 30 Minuten in kleinen Portionen bei Raumtemperatur abkühlen lassen, dann sofort in den Kühlschrank. In Glasbehälter nach Tagen aufteilen. Saucen separat.</p>
 
 <h2>Aufbewahrung</h2>
 <ul>
 <li>Hähnchen, Lachs, Frikadellen: <strong>3-4 Tage</strong> im Kühlschrank.</li>
-<li>Gegrilltes Gemüse: <strong>4-5 Tage</strong>.</li>
-<li>Reis/Quinoa: <strong>4 Tage</strong>.</li>
+<li>Gegrilltes Gemüse: <strong>3-4 Tage</strong>.</li>
+<li>Gekochter Reis ist am heikelsten (Sporen von <em>Bacillus cereus</em>): innerhalb einer Stunde abkühlen, kühl lagern und möglichst innerhalb von 24 Stunden essen, sonst portionsweise einfrieren. Quinoa: <strong>3 Tage</strong>.</li>
 <li>Falafel: <strong>4 Tage</strong> gekühlt oder <strong>1 Monat</strong> eingefroren.</li>
-<li>Glasbehälter bevorzugen. Nie heiß in den Kühlschrank.</li>
+<li>Glasbehälter bevorzugen. Innerhalb von 2 Stunden nach dem Garen in flachen Portionen kühlen, nie länger bei Raumtemperatur stehen lassen.</li>
+<li><strong>Donnerstag und Freitag:</strong> die Portionen für diese Tage (Schenkel, Frikadellen, Reis, Hähnchen für die Pizza) schon am Sonntag einfrieren und am Vorabend im Kühlschrank auftauen.</li>
+<li>Nur einmal aufwärmen, bis das Essen im Kern dampfend heiß ist (74 °C).</li>
 </ul>
 
 <h2>Aufwärmen im Airfryer</h2>
@@ -535,6 +543,7 @@ export const article: BlogArticle = {
 <tr><td>Tortilla-Pizza</td><td>190 °C</td><td>3-4 Min.</td></tr>
 </tbody>
 </table>
+<p>Richtwerte für Portionen direkt aus dem Kühlschrank: Das Essen muss im Kern dampfend heiß sein (74 °C mit dem Thermometer). Bei Bedarf, vor allem bei aufgetauten Portionen, einige Minuten verlängern.</p>
 
 <h2>Schnelle Abendgerichte</h2>
 <h3>Montag — Hähnchen-Wraps</h3>
@@ -562,19 +571,19 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Gebratene Hähnchenbrust</td><td>4 Tage</td><td>3 Monate</td><td>Ja — leicht befeuchten</td><td>160°C / 6-8 Min.</td></tr>
 <tr><td>Schenkel / Trommelstöcke</td><td>4 Tage</td><td>3 Monate</td><td>Ja — hervorragendes Ergebnis</td><td>180°C / 8-10 Min.</td></tr>
-<tr><td>Gegrilltes Gemüse</td><td>5 Tage</td><td>2 Monate</td><td>Ja — stellt Knusprigkeit wieder her</td><td>180°C / 4-5 Min.</td></tr>
+<tr><td>Gegrilltes Gemüse</td><td>4 Tage</td><td>2 Monate</td><td>Ja — stellt Knusprigkeit wieder her</td><td>180°C / 4-5 Min.</td></tr>
 <tr><td>Selbst gemachte Pommes</td><td>3 Tage</td><td>2 Monate</td><td>Ja — fast perfektes Ergebnis</td><td>180°C / 3-5 Min.</td></tr>
 <tr><td>Lachs / Fisch</td><td>3 Tage</td><td>2 Monate</td><td>Ja — mit Alufolie abdecken</td><td>160°C / 5-7 Min.</td></tr>
-<tr><td>Tofu / pflanzliches Eiweiß</td><td>5 Tage</td><td>3 Monate</td><td>Ja — hervorragendes Ergebnis</td><td>180°C / 5-6 Min.</td></tr>
+<tr><td>Tofu / pflanzliches Eiweiß</td><td>4 Tage</td><td>3 Monate</td><td>Ja — hervorragendes Ergebnis</td><td>180°C / 5-6 Min.</td></tr>
 </tbody>
 </table>
 
-<h2>Echte Ersparnisse durch Airfryer Meal Prep</h2>
+<h2>Was Meal Prep mit der Heißluftfritteuse bringt</h2>
 <ul>
-<li><strong>Zeitersparnis:</strong> 2 Stunden sonntags vs 30-45 Min./Tag wochentags = 2,5-3 Stunden Ersparnis pro Woche.</li>
-<li><strong>Finanzielle Ersparnis:</strong> Heimkochen kostet im Schnitt 3-5 €/Mahlzeit vs 10-15 € Lieferservice. Über 5 Mittagessen: 35-50 € pro Woche gespart.</li>
-<li><strong>Energieersparnis:</strong> der Airfryer verbraucht 0,38-0,59 kWh pro Sitzung vs 0,9-1,2 kWh für den Backofen. Bei 10 Sitzungen/Woche: 5-8 € Stromersparnis pro Monat.</li>
-<li><strong>Abfallreduzierung:</strong> eine gezielte Einkaufsliste reduziert Lebensmittelverschwendung um durchschnittlich 30-40 %.</li>
+<li><strong>Zeit:</strong> Eine zweistündige Session am Sonntag ersetzt den Großteil des täglichen Kochens; unter der Woche wird nur aufgewärmt und angerichtet.</li>
+<li><strong>Geld:</strong> Selbst kochen ist in der Regel deutlich günstiger als Lieferdienst oder Fertiggerichte, besonders beim Einkauf größerer Mengen.</li>
+<li><strong>Energie:</strong> Bei kleinen Mengen heizt die Heißluftfritteuse einen kleineren Garraum auf und braucht kaum Vorheizen, also weniger Strom als ein großer Backofen.</li>
+<li><strong>Weniger Verschwendung:</strong> Eine auf den Wochenplan abgestimmte Einkaufsliste verhindert, dass Sie Dinge kaufen, die nie gekocht werden.</li>
 </ul>`,
 
     es: `<h2>Introducción</h2>
@@ -615,15 +624,17 @@ export const article: BlogArticle = {
 <p><strong>Tanda 5:</strong> Verduras según nuestro <a href="/es/blog/recettes-legumes-grilles-airfryer">guía de verduras asadas</a>.</p>
 <h3>Fase 3: Falafel + Montaje (30 min)</h3>
 <p>Falafel: garbanzos con cebolla, ajo, comino, cilantro, harina. <strong>12 bolas</strong> a <strong>190 °C 12-15 min</strong>.</p>
-<p>Deja enfriar todo. Reparte en recipientes de cristal por día. Salsas aparte. Etiqueta.</p>
+<p>Deja templar los alimentos en porciones pequeñas (30 minutos como máximo a temperatura ambiente) y refrigéralos enseguida. Reparte en recipientes de cristal por día. Salsas aparte. Etiqueta.</p>
 
 <h2>Conservación</h2>
 <ul>
 <li>Pollo, salmón, albóndigas: <strong>3-4 días</strong> en nevera.</li>
-<li>Verduras asadas: <strong>4-5 días</strong>.</li>
-<li>Arroz/quinoa: <strong>4 días</strong>.</li>
+<li>Verduras asadas: <strong>3-4 días</strong>.</li>
+<li>El arroz cocido es el alimento más delicado (esporas de <em>Bacillus cereus</em>): enfríalo en menos de una hora, guárdalo en la nevera y consúmelo idealmente en 24 horas; si no, congélalo en porciones. Quinoa: <strong>3 días</strong>.</li>
 <li>Falafel: <strong>4 días</strong> en nevera o <strong>1 mes</strong> congelado.</li>
-<li>Usa recipientes de cristal. No refrigeres comida caliente.</li>
+<li>Usa recipientes de cristal. Refrigera en las 2 horas siguientes a la cocción, en porciones poco gruesas, y nunca dejes la comida más tiempo a temperatura ambiente.</li>
+<li><strong>Jueves y viernes:</strong> congela el domingo las porciones de esos días (muslos, albóndigas, arroz, pollo para la pizza) y descongélalas en la nevera la noche anterior.</li>
+<li>Recalienta una sola vez, hasta que esté muy caliente en el centro (74 °C).</li>
 </ul>
 
 <h2>Recalentamiento en la Freidora</h2>
@@ -639,6 +650,7 @@ export const article: BlogArticle = {
 <tr><td>Pizza tortilla</td><td>190 °C</td><td>3-4 min</td></tr>
 </tbody>
 </table>
+<p>Tiempos orientativos para porciones recién sacadas de la nevera: el plato debe estar muy caliente en el centro (74 °C con termómetro). Alarga unos minutos si hace falta, sobre todo con porciones descongeladas.</p>
 
 <h2>Cenas Rápidas</h2>
 <h3>Lunes — Wraps de Pollo</h3>
@@ -666,19 +678,19 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Pechugas de pollo cocinadas</td><td>4 días</td><td>3 meses</td><td>Sí — humedecer ligeramente</td><td>160°C / 6-8 min</td></tr>
 <tr><td>Muslos / contramuslos</td><td>4 días</td><td>3 meses</td><td>Sí — excelente resultado</td><td>180°C / 8-10 min</td></tr>
-<tr><td>Verduras asadas</td><td>5 días</td><td>2 meses</td><td>Sí — recupera el crujiente</td><td>180°C / 4-5 min</td></tr>
+<tr><td>Verduras asadas</td><td>4 días</td><td>2 meses</td><td>Sí — recupera el crujiente</td><td>180°C / 4-5 min</td></tr>
 <tr><td>Patatas fritas caseras</td><td>3 días</td><td>2 meses</td><td>Sí — resultado casi perfecto</td><td>180°C / 3-5 min</td></tr>
 <tr><td>Salmón / pescado</td><td>3 días</td><td>2 meses</td><td>Sí — cubrir con papel aluminio</td><td>160°C / 5-7 min</td></tr>
-<tr><td>Tofu / proteína vegetal</td><td>5 días</td><td>3 meses</td><td>Sí — excelente resultado</td><td>180°C / 5-6 min</td></tr>
+<tr><td>Tofu / proteína vegetal</td><td>4 días</td><td>3 meses</td><td>Sí — excelente resultado</td><td>180°C / 5-6 min</td></tr>
 </tbody>
 </table>
 
-<h2>Ahorro real del meal prep con freidora de aire</h2>
+<h2>Lo que te aporta el meal prep con freidora de aire</h2>
 <ul>
-<li><strong>Ahorro de tiempo:</strong> 2h el domingo vs 30-45 min/día en semana = ahorro de 2,5-3 horas por semana.</li>
-<li><strong>Ahorro económico:</strong> cocinar en casa cuesta de media 3-5 €/comida vs 10-15 € de pedido a domicilio. En 5 almuerzos: 35-50 € ahorrados por semana.</li>
-<li><strong>Ahorro energético:</strong> la freidora consume 0,38-0,59 kWh por sesión vs 0,9-1,2 kWh del horno. En 10 sesiones/semana: 5-8 € de ahorro eléctrico al mes.</li>
-<li><strong>Reducción de desperdicio:</strong> una lista de la compra específica reduce el desperdicio alimentario un 30-40% de media.</li>
+<li><strong>Tiempo:</strong> una sesión de 2 horas el domingo sustituye la mayor parte de la cocina diaria; entre semana solo recalientas y montas.</li>
+<li><strong>Dinero:</strong> cocinar en casa suele salir mucho más barato que pedir comida a domicilio o comprar platos preparados, sobre todo si compras en mayor cantidad.</li>
+<li><strong>Energía:</strong> para cantidades pequeñas, la freidora calienta un espacio reducido y apenas necesita precalentar, por lo que consume menos que un horno grande.</li>
+<li><strong>Menos desperdicio:</strong> una lista de la compra ajustada al plan evita comprar lo que nunca se cocinará.</li>
 </ul>`,
 
     it: `<h2>Introduzione</h2>
@@ -719,15 +731,17 @@ export const article: BlogArticle = {
 <p><strong>Lotto 5:</strong> Verdure secondo la nostra <a href="/it/blog/recettes-legumes-grilles-airfryer">guida alle verdure grigliate</a>.</p>
 <h3>Fase 3: Falafel + Assemblaggio (30 min)</h3>
 <p>Falafel: ceci con cipolla, aglio, cumino, coriandolo, farina. <strong>12 palline</strong> a <strong>190 °C 12-15 min</strong>.</p>
-<p>Raffreddate tutto. Dividete in contenitori di vetro per giorno. Salse separate. Etichettate.</p>
+<p>Lasciate intiepidire gli alimenti in piccole porzioni (al massimo 30 minuti a temperatura ambiente), poi metteteli subito in frigo. Dividete in contenitori di vetro per giorno. Salse separate. Etichettate.</p>
 
 <h2>Conservazione</h2>
 <ul>
 <li>Pollo, salmone, polpette: <strong>3-4 giorni</strong> in frigo.</li>
-<li>Verdure grigliate: <strong>4-5 giorni</strong>.</li>
-<li>Riso/quinoa: <strong>4 giorni</strong>.</li>
+<li>Verdure grigliate: <strong>3-4 giorni</strong>.</li>
+<li>Il riso cotto è l'alimento più delicato (spore di <em>Bacillus cereus</em>): raffreddatelo entro un'ora, tenetelo in frigo e consumatelo idealmente entro 24 ore, altrimenti congelatelo in porzioni. Quinoa: <strong>3 giorni</strong>.</li>
 <li>Falafel: <strong>4 giorni</strong> in frigo o <strong>1 mese</strong> in freezer.</li>
-<li>Usate contenitori di vetro. Non refrigerate cibi caldi.</li>
+<li>Usate contenitori di vetro. Mettete in frigo entro 2 ore dalla cottura, in porzioni poco spesse, e non lasciate mai il cibo più a lungo a temperatura ambiente.</li>
+<li><strong>Giovedì e venerdì:</strong> congelate già la domenica le porzioni di quei giorni (cosce, polpette, riso, pollo per la pizza) e scongelatele in frigo la sera prima.</li>
+<li>Riscaldate una sola volta, finché il cibo è bollente al cuore (74 °C).</li>
 </ul>
 
 <h2>Riscaldamento nella Friggitrice</h2>
@@ -743,6 +757,7 @@ export const article: BlogArticle = {
 <tr><td>Pizza tortilla</td><td>190 °C</td><td>3-4 min</td></tr>
 </tbody>
 </table>
+<p>Tempi indicativi per porzioni appena tolte dal frigo: il piatto deve essere bollente al cuore (74 °C con il termometro). Prolungate di qualche minuto se serve, soprattutto per le porzioni scongelate.</p>
 
 <h2>Cene Rapide</h2>
 <h3>Lunedì — Wrap di Pollo</h3>
@@ -770,19 +785,19 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Petti di pollo cotti</td><td>4 giorni</td><td>3 mesi</td><td>Sì — inumidire leggermente</td><td>160°C / 6-8 min</td></tr>
 <tr><td>Cosce / sovracosce</td><td>4 giorni</td><td>3 mesi</td><td>Sì — risultato eccellente</td><td>180°C / 8-10 min</td></tr>
-<tr><td>Verdure grigliate</td><td>5 giorni</td><td>2 mesi</td><td>Sì — ripristina la croccantezza</td><td>180°C / 4-5 min</td></tr>
+<tr><td>Verdure grigliate</td><td>4 giorni</td><td>2 mesi</td><td>Sì — ripristina la croccantezza</td><td>180°C / 4-5 min</td></tr>
 <tr><td>Patatine fritte fatte in casa</td><td>3 giorni</td><td>2 mesi</td><td>Sì — risultato quasi perfetto</td><td>180°C / 3-5 min</td></tr>
 <tr><td>Salmone / pesce</td><td>3 giorni</td><td>2 mesi</td><td>Sì — coprire con alluminio</td><td>160°C / 5-7 min</td></tr>
-<tr><td>Tofu / proteine vegetali</td><td>5 giorni</td><td>3 mesi</td><td>Sì — risultato eccellente</td><td>180°C / 5-6 min</td></tr>
+<tr><td>Tofu / proteine vegetali</td><td>4 giorni</td><td>3 mesi</td><td>Sì — risultato eccellente</td><td>180°C / 5-6 min</td></tr>
 </tbody>
 </table>
 
-<h2>Risparmio reale del meal prep con la friggitrice ad aria</h2>
+<h2>Cosa vi fa guadagnare il meal prep con la friggitrice ad aria</h2>
 <ul>
-<li><strong>Risparmio di tempo:</strong> 2 ore la domenica vs 30-45 min/giorno nei giorni feriali = 2,5-3 ore risparmiate a settimana.</li>
-<li><strong>Risparmio economico:</strong> cucinare a casa costa in media 3-5 €/pasto vs 10-15 € per le consegne. Su 5 pranzi: 35-50 € risparmiati a settimana.</li>
-<li><strong>Risparmio energetico:</strong> la friggitrice ad aria consuma 0,38-0,59 kWh per sessione vs 0,9-1,2 kWh del forno. Su 10 sessioni/settimana: 5-8 € di risparmio elettrico al mese.</li>
-<li><strong>Riduzione degli sprechi:</strong> una lista della spesa mirata riduce gli sprechi alimentari del 30-40% in media.</li>
+<li><strong>Tempo:</strong> una sessione di 2 ore la domenica sostituisce gran parte della cucina quotidiana; in settimana basta riscaldare e comporre.</li>
+<li><strong>Denaro:</strong> cucinare a casa costa di solito molto meno delle consegne o dei piatti pronti, soprattutto acquistando in quantità maggiori.</li>
+<li><strong>Energia:</strong> per piccole quantità la friggitrice scalda uno spazio ridotto e quasi non richiede preriscaldamento, quindi consuma meno di un forno grande.</li>
+<li><strong>Meno sprechi:</strong> una lista della spesa basata sul piano evita di comprare ciò che non verrà cucinato.</li>
 </ul>`,
 
     nl: `<h2>Inleiding</h2>
@@ -823,15 +838,17 @@ export const article: BlogArticle = {
 <p><strong>Ronde 5:</strong> Groenten volgens onze <a href="/nl/blog/recettes-legumes-grilles-airfryer">gids voor gegrilde groenten</a>.</p>
 <h3>Fase 3: Falafel + Samenstelling (30 min)</h3>
 <p>Falafel: kikkererwten met ui, knoflook, komijn, koriander, bloem. <strong>12 balletjes</strong> op <strong>190 °C 12-15 min</strong>.</p>
-<p>Laat alles afkoelen. Verdeel in glazen bakjes per dag. Sauzen apart. Labelen.</p>
+<p>Laat het eten in kleine porties hooguit 30 minuten op kamertemperatuur afkoelen en zet het daarna meteen in de koelkast. Verdeel in glazen bakjes per dag. Sauzen apart. Labelen.</p>
 
 <h2>Bewaring</h2>
 <ul>
 <li>Kip, zalm, gehaktballetjes: <strong>3-4 dagen</strong> in de koelkast.</li>
-<li>Gegrilde groenten: <strong>4-5 dagen</strong>.</li>
-<li>Rijst/quinoa: <strong>4 dagen</strong>.</li>
+<li>Gegrilde groenten: <strong>3-4 dagen</strong>.</li>
+<li>Gekookte rijst is het gevoeligst (sporen van <em>Bacillus cereus</em>): koel binnen een uur af, bewaar in de koelkast en eet bij voorkeur binnen 24 uur op, anders in porties invriezen. Quinoa: <strong>3 dagen</strong>.</li>
 <li>Falafel: <strong>4 dagen</strong> gekoeld of <strong>1 maand</strong> ingevroren.</li>
-<li>Gebruik glazen bakjes. Zet nooit warm eten in de koelkast.</li>
+<li>Gebruik glazen bakjes. Zet eten binnen 2 uur na het koken in ondiepe porties in de koelkast en laat het nooit langer op kamertemperatuur staan.</li>
+<li><strong>Donderdag en vrijdag:</strong> vries de porties voor die dagen (kippendijen, gehaktballetjes, rijst, kip voor de pizza) al op zondag in en laat ze de avond ervoor in de koelkast ontdooien.</li>
+<li>Warm maar één keer op, tot het eten tot in de kern gloeiend heet is (74 °C).</li>
 </ul>
 
 <h2>Opwarmen in de Airfryer</h2>
@@ -847,6 +864,7 @@ export const article: BlogArticle = {
 <tr><td>Tortilla-pizza</td><td>190 °C</td><td>3-4 min</td></tr>
 </tbody>
 </table>
+<p>Richttijden voor porties rechtstreeks uit de koelkast: het eten moet in de kern gloeiend heet zijn (74 °C met een thermometer). Verleng zo nodig met een paar minuten, vooral bij ontdooide porties.</p>
 
 <h2>Snelle Avondmaaltijden</h2>
 <h3>Maandag — Kipwraps</h3>
@@ -874,19 +892,19 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Gekookte kipfilets</td><td>4 dagen</td><td>3 maanden</td><td>Ja — licht bevochtigen</td><td>160°C / 6-8 min</td></tr>
 <tr><td>Dijen / drumsticks</td><td>4 dagen</td><td>3 maanden</td><td>Ja — uitstekend resultaat</td><td>180°C / 8-10 min</td></tr>
-<tr><td>Gegrilde groenten</td><td>5 dagen</td><td>2 maanden</td><td>Ja — herstelt knapperigheid</td><td>180°C / 4-5 min</td></tr>
+<tr><td>Gegrilde groenten</td><td>4 dagen</td><td>2 maanden</td><td>Ja — herstelt knapperigheid</td><td>180°C / 4-5 min</td></tr>
 <tr><td>Zelfgemaakte frietjes</td><td>3 dagen</td><td>2 maanden</td><td>Ja — bijna perfect resultaat</td><td>180°C / 3-5 min</td></tr>
 <tr><td>Zalm / vis</td><td>3 dagen</td><td>2 maanden</td><td>Ja — afdekken met folie</td><td>160°C / 5-7 min</td></tr>
-<tr><td>Tofu / plantaardig eiwit</td><td>5 dagen</td><td>3 maanden</td><td>Ja — uitstekend resultaat</td><td>180°C / 5-6 min</td></tr>
+<tr><td>Tofu / plantaardig eiwit</td><td>4 dagen</td><td>3 maanden</td><td>Ja — uitstekend resultaat</td><td>180°C / 5-6 min</td></tr>
 </tbody>
 </table>
 
-<h2>Echte besparingen met airfryer meal prep</h2>
+<h2>Wat airfryer meal prep je oplevert</h2>
 <ul>
-<li><strong>Tijdsbesparing:</strong> 2 uur op zondag vs 30-45 min/dag door de week = 2,5-3 uur bespaard per week.</li>
-<li><strong>Financiële besparing:</strong> thuis koken kost gemiddeld €3-5/maaltijd vs €10-15 voor bezorging. Over 5 lunches: €35-50 per week bespaard.</li>
-<li><strong>Energiebesparing:</strong> de airfryer verbruikt 0,38-0,59 kWh per sessie vs 0,9-1,2 kWh voor een oven. Bij 10 sessies/week: €5-8 elektriciteitsbesparing per maand.</li>
-<li><strong>Voedselverspilling vermindering:</strong> een gerichte boodschappenlijst vermindert voedselverspilling met gemiddeld 30-40%.</li>
+<li><strong>Tijd:</strong> één sessie van 2 uur op zondag vervangt het meeste dagelijkse koken; doordeweeks hoef je alleen op te warmen en samen te stellen.</li>
+<li><strong>Geld:</strong> zelf koken is meestal veel goedkoper dan bezorging of kant-en-klaarmaaltijden, zeker als je grotere hoeveelheden koopt.</li>
+<li><strong>Energie:</strong> voor kleine hoeveelheden verwarmt de airfryer een kleinere ruimte en hoeft hij nauwelijks voor te verwarmen, dus verbruikt hij minder dan een grote oven.</li>
+<li><strong>Minder verspilling:</strong> een boodschappenlijst op basis van het weekplan voorkomt dat je eten koopt dat nooit gekookt wordt.</li>
 </ul>`,
   },
   faq: [
@@ -900,12 +918,12 @@ export const article: BlogArticle = {
         nl: 'Hoe lang kun je meal prep-gerechten bewaren?',
       },
       answer: {
-        fr: 'Au réfrigérateur, les viandes cuites se conservent 3-4 jours, les légumes grillés 4-5 jours, et le riz ou les féculents 3 jours. Utilisez des contenants hermétiques en verre de préférence. Au congélateur, la plupart des plats se conservent jusqu\'à 3 mois. Étiquetez chaque contenant avec la date de préparation.',
-        en: 'In the refrigerator, cooked meats keep for 3-4 days, grilled vegetables for 4-5 days, and rice or starches for 3 days. Use airtight containers, preferably glass. In the freezer, most dishes keep for up to 3 months. Label each container with the preparation date for easy tracking.',
-        de: 'Im Kühlschrank halten sich gekochtes Fleisch 3-4 Tage, gegrilltes Gemüse 4-5 Tage und Reis oder Beilagen 3 Tage. Verwenden Sie luftdichte Behälter, vorzugsweise aus Glas. Im Gefrierfach halten die meisten Gerichte bis zu 3 Monate. Beschriften Sie jeden Behälter mit dem Zubereitungsdatum.',
-        es: 'En el refrigerador, las carnes cocidas se conservan 3-4 días, las verduras asadas 4-5 días y el arroz o almidones 3 días. Usa recipientes herméticos, preferiblemente de cristal. En el congelador, la mayoría de platos se conservan hasta 3 meses. Etiqueta cada recipiente con la fecha de preparación.',
-        it: 'In frigorifero, le carni cotte si conservano 3-4 giorni, le verdure grigliate 4-5 giorni, il riso e i carboidrati 3 giorni. Usa contenitori ermetici, preferibilmente in vetro. Nel congelatore, la maggior parte dei piatti si conserva fino a 3 mesi. Etichetta ogni contenitore con la data di preparazione.',
-        nl: 'In de koelkast houdt gekookt vlees 3-4 dagen, gegrilde groenten 4-5 dagen en rijst of zetmeel 3 dagen. Gebruik luchtdichte bakken, bij voorkeur van glas. In de vriezer houden de meeste gerechten tot 3 maanden. Label elke bak met de bereidingsdatum voor makkelijk bijhouden.',
+        fr: 'Au réfrigérateur, les viandes cuites et les légumes grillés se conservent 3-4 jours, le poisson 3 jours, et le riz cuit idéalement moins de 24 heures (congelez-le sinon). Utilisez des contenants hermétiques en verre de préférence. Au congélateur, la plupart des plats se conservent jusqu\'à 3 mois. Étiquetez chaque contenant avec la date de préparation.',
+        en: 'In the refrigerator, cooked meats and grilled vegetables keep for 3-4 days, fish for 3 days, and cooked rice ideally less than 24 hours (freeze it otherwise). Use airtight containers, preferably glass. In the freezer, most dishes keep for up to 3 months. Label each container with the preparation date for easy tracking.',
+        de: 'Im Kühlschrank halten sich gekochtes Fleisch und gegrilltes Gemüse 3-4 Tage, Fisch 3 Tage und gekochter Reis möglichst weniger als 24 Stunden (sonst einfrieren). Verwenden Sie luftdichte Behälter, vorzugsweise aus Glas. Im Gefrierfach halten die meisten Gerichte bis zu 3 Monate. Beschriften Sie jeden Behälter mit dem Zubereitungsdatum.',
+        es: 'En el refrigerador, las carnes cocidas y las verduras asadas se conservan 3-4 días, el pescado 3 días y el arroz cocido idealmente menos de 24 horas (si no, congélalo). Usa recipientes herméticos, preferiblemente de cristal. En el congelador, la mayoría de platos se conservan hasta 3 meses. Etiqueta cada recipiente con la fecha de preparación.',
+        it: 'In frigorifero, le carni cotte e le verdure grigliate si conservano 3-4 giorni, il pesce 3 giorni e il riso cotto idealmente meno di 24 ore (altrimenti congelatelo). Usa contenitori ermetici, preferibilmente in vetro. Nel congelatore, la maggior parte dei piatti si conserva fino a 3 mesi. Etichetta ogni contenitore con la data di preparazione.',
+        nl: 'In de koelkast houden gekookt vlees en gegrilde groenten 3-4 dagen, vis 3 dagen en gekookte rijst bij voorkeur minder dan 24 uur (anders invriezen). Gebruik luchtdichte bakken, bij voorkeur van glas. In de vriezer houden de meeste gerechten tot 3 maanden. Label elke bak met de bereidingsdatum voor makkelijk bijhouden.',
       },
     },
     {
@@ -918,12 +936,12 @@ export const article: BlogArticle = {
         nl: 'Hoe warm je meal prep-gerechten op in de airfryer?',
       },
       answer: {
-        fr: 'Réglez l\'airfryer à 160-170°C pendant 5 à 8 minutes pour la plupart des plats. Les viandes et légumes retrouvent leur croustillant, contrairement au micro-ondes. Pour le riz et les pâtes, ajoutez quelques gouttes d\'eau et couvrez de papier aluminium. Le réchauffage à l\'airfryer est rapide et redonne la texture d\'origine.',
-        en: 'Set the air fryer to 160-170°C for 5 to 8 minutes for most dishes. Meats and vegetables regain their crispiness, unlike in a microwave. For rice and pasta, add a few drops of water and cover with aluminium foil. Air fryer reheating is fast and restores the original texture beautifully.',
-        de: 'Stellen Sie die Heißluftfritteuse auf 160-170°C für 5-8 Minuten für die meisten Gerichte ein. Fleisch und Gemüse werden wieder knusprig, anders als in der Mikrowelle. Für Reis und Nudeln einige Tropfen Wasser hinzufügen und mit Alufolie abdecken. Das Aufwärmen stellt die ursprüngliche Textur wieder her.',
-        es: 'Pon la freidora a 160-170°C durante 5-8 minutos para la mayoría de platos. Las carnes y verduras recuperan su crujiente, a diferencia del microondas. Para arroz y pasta, añade unas gotas de agua y cubre con papel de aluminio. El recalentamiento en freidora es rápido y devuelve la textura original.',
-        it: 'Imposta la friggitrice a 160-170°C per 5-8 minuti per la maggior parte dei piatti. Carni e verdure ritrovano la loro croccantezza, a differenza del microonde. Per riso e pasta, aggiungi qualche goccia d\'acqua e copri con foglio di alluminio. Il riscaldamento è rapido e ridona la texture originale.',
-        nl: 'Stel de airfryer in op 160-170°C voor 5-8 minuten voor de meeste gerechten. Vlees en groenten worden weer krokant, in tegenstelling tot de magnetron. Voor rijst en pasta voeg je een paar druppels water toe en dek je af met aluminiumfolie. Opwarmen in de airfryer is snel en herstelt de originele textuur.',
+        fr: 'Réglez l\'airfryer à 160-170°C pendant 5 à 8 minutes pour la plupart des plats. Les viandes et légumes retrouvent leur croustillant, contrairement au micro-ondes. Pour le riz et les pâtes, ajoutez quelques gouttes d\'eau et couvrez de papier aluminium. Le plat doit être brûlant à cœur (74 °C) : prolongez si besoin et ne réchauffez qu\'une fois.',
+        en: 'Set the air fryer to 160-170°C for 5 to 8 minutes for most dishes. Meats and vegetables regain their crispiness, unlike in a microwave. For rice and pasta, add a few drops of water and cover with aluminium foil. Food must be piping hot in the centre (74 °C): add time if needed and reheat only once.',
+        de: 'Stellen Sie die Heißluftfritteuse auf 160-170°C für 5-8 Minuten für die meisten Gerichte ein. Fleisch und Gemüse werden wieder knusprig, anders als in der Mikrowelle. Für Reis und Nudeln einige Tropfen Wasser hinzufügen und mit Alufolie abdecken. Das Essen muss im Kern dampfend heiß sein (74 °C): bei Bedarf verlängern und nur einmal aufwärmen.',
+        es: 'Pon la freidora a 160-170°C durante 5-8 minutos para la mayoría de platos. Las carnes y verduras recuperan su crujiente, a diferencia del microondas. Para arroz y pasta, añade unas gotas de agua y cubre con papel de aluminio. El plato debe quedar muy caliente en el centro (74 °C): alarga si hace falta y recalienta una sola vez.',
+        it: 'Imposta la friggitrice a 160-170°C per 5-8 minuti per la maggior parte dei piatti. Carni e verdure ritrovano la loro croccantezza, a differenza del microonde. Per riso e pasta, aggiungi qualche goccia d\'acqua e copri con foglio di alluminio. Il piatto deve essere bollente al cuore (74 °C): prolungate se serve e riscaldate una sola volta.',
+        nl: 'Stel de airfryer in op 160-170°C voor 5-8 minuten voor de meeste gerechten. Vlees en groenten worden weer krokant, in tegenstelling tot de magnetron. Voor rijst en pasta voeg je een paar druppels water toe en dek je af met aluminiumfolie. Het eten moet in de kern gloeiend heet zijn (74 °C): verleng zo nodig en warm maar één keer op.',
       },
     },
     {
@@ -972,12 +990,12 @@ export const article: BlogArticle = {
         nl: 'Kun je meal prep-gerechten uit de airfryer invriezen?',
       },
       answer: {
-        fr: 'Oui, la plupart des plats à l\'airfryer se congèlent très bien pour 2 à 3 mois. Laissez refroidir complètement avant de congeler. Les viandes grillées, les boulettes et les légumes rôtis se congèlent excellemment. Évitez de congeler les aliments panés croustillants qui perdent leur texture. Décongelez au réfrigérateur la veille.',
-        en: 'Yes, most air fryer dishes freeze very well for 2 to 3 months. Let them cool completely before freezing. Grilled meats, meatballs, and roasted vegetables freeze excellently. Avoid freezing crispy breaded items as they lose their texture. Thaw in the refrigerator the night before for best results.',
-        de: 'Ja, die meisten Heißluftfritteusen-Gerichte lassen sich 2-3 Monate sehr gut einfrieren. Lassen Sie sie vollständig abkühlen. Gegrilltes Fleisch, Frikadellen und geröstetes Gemüse frieren ausgezeichnet ein. Vermeiden Sie das Einfrieren knuspriger panierter Gerichte. Tauen Sie im Kühlschrank über Nacht auf.',
-        es: 'Sí, la mayoría de platos de freidora se congelan muy bien durante 2-3 meses. Deja enfriar completamente antes de congelar. Las carnes a la parrilla, albóndigas y verduras asadas se congelan excelentemente. Evita congelar alimentos crujientes empanados que pierden su textura. Descongela en el refrigerador la víspera.',
-        it: 'Sì, la maggior parte dei piatti della friggitrice ad aria si congela molto bene per 2-3 mesi. Lascia raffreddare completamente prima di congelare. Carni grigliate, polpette e verdure arrosto si congelano benissimo. Evita di congelare alimenti impanati croccanti che perdono la texture. Scongela in frigo la sera prima.',
-        nl: 'Ja, de meeste airfryer-gerechten vriezen prima in voor 2-3 maanden. Laat ze volledig afkoelen voor het invriezen. Gegrild vlees, gehaktballen en geroosterde groenten vriezen uitstekend in. Vermijd het invriezen van krokante gepaneerde gerechten die hun textuur verliezen. Ontdooi in de koelkast de avond tevoren.',
+        fr: 'Oui, la plupart des plats à l\'airfryer se congèlent très bien pour 2 à 3 mois. Refroidissez-les rapidement (moins de 2 heures) avant de congeler. Les viandes grillées, les boulettes et les légumes rôtis se congèlent excellemment. Évitez de congeler les aliments panés croustillants qui perdent leur texture. Décongelez au réfrigérateur la veille.',
+        en: 'Yes, most air fryer dishes freeze very well for 2 to 3 months. Cool them quickly (within 2 hours) before freezing. Grilled meats, meatballs, and roasted vegetables freeze excellently. Avoid freezing crispy breaded items as they lose their texture. Thaw in the refrigerator the night before for best results.',
+        de: 'Ja, die meisten Heißluftfritteusen-Gerichte lassen sich 2-3 Monate sehr gut einfrieren. Lassen Sie sie zügig (innerhalb von 2 Stunden) abkühlen. Gegrilltes Fleisch, Frikadellen und geröstetes Gemüse frieren ausgezeichnet ein. Vermeiden Sie das Einfrieren knuspriger panierter Gerichte. Tauen Sie im Kühlschrank über Nacht auf.',
+        es: 'Sí, la mayoría de platos de freidora se congelan muy bien durante 2-3 meses. Enfríalos rápidamente (en menos de 2 horas) antes de congelar. Las carnes a la parrilla, albóndigas y verduras asadas se congelan excelentemente. Evita congelar alimentos crujientes empanados que pierden su textura. Descongela en el refrigerador la víspera.',
+        it: 'Sì, la maggior parte dei piatti della friggitrice ad aria si congela molto bene per 2-3 mesi. Raffreddali rapidamente (entro 2 ore) prima di congelare. Carni grigliate, polpette e verdure arrosto si congelano benissimo. Evita di congelare alimenti impanati croccanti che perdono la texture. Scongela in frigo la sera prima.',
+        nl: 'Ja, de meeste airfryer-gerechten vriezen prima in voor 2-3 maanden. Laat ze snel afkoelen (binnen 2 uur) voor het invriezen. Gegrild vlees, gehaktballen en geroosterde groenten vriezen uitstekend in. Vermijd het invriezen van krokante gepaneerde gerechten die hun textuur verliezen. Ontdooi in de koelkast de avond tevoren.',
       },
     },
   ],

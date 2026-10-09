@@ -6,756 +6,152 @@ export const article: BlogArticle = {
   pillar: 'guides/airfryers',
   relatedSlugs: ['test-cosori-dual-blaze', 'ninja-vs-philips-quel-choisir', 'comment-choisir-airfryer-famille'],
   datePublished: '2026-01-20',
-  dateModified: '2026-04-05',
-  readingTime: 12,
+  dateModified: '2026-10-09',
+  readingTime: 7,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/31upZSvSwjL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1695089028114-ce28248f0ab9?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Philips Airfryer 3000 Series XL 6,2L - vue de face sur plan de travail',
-        en: 'Philips Airfryer 3000 Series XL 6.2L - front view on kitchen counter',
-        de: 'Philips Airfryer 3000 Series XL 6,2L - Frontansicht auf der Arbeitsfläche',
-        es: 'Philips Airfryer 3000 Series XL 6,2L - vista frontal en encimera',
-        it: 'Philips Airfryer 3000 Series XL 6,2L - vista frontale sul piano di lavoro',
-        nl: 'Philips Airfryer 3000 Series XL 6,2L - vooraanzicht op het werkblad',
+        fr: "Airfryer Philips noir posé sur un plan de travail de cuisine",
+        en: "Black Philips air fryer on a kitchen worktop",
+        de: "Schwarze Philips-Heißluftfritteuse auf einer Küchenarbeitsplatte",
+        es: "Freidora de aire Philips negra sobre una encimera de cocina",
+        it: "Friggitrice ad aria Philips nera su un piano di lavoro in cucina",
+        nl: "Zwarte Philips-airfryer op een keukenaanrecht",
       },
     },
   ],
   title: {
-    fr: 'Test Philips Airfryer 3000 Series XL 6,2L : Avis Complet 2026',
-    en: 'Philips Airfryer 3000 Series XL 6.2L Review: Full 2026 Verdict',
-    de: 'Philips Airfryer 3000 Series XL 6,2L Test: Vollständige Bewertung 2026',
-    es: 'Test Philips Airfryer 3000 Series XL 6,2L: Opinión Completa 2026',
-    it: 'Test Philips Airfryer 3000 Series XL 6,2L: Recensione Completa 2026',
-    nl: 'Test Philips Airfryer 3000 Series XL 6,2L: Volledige Review 2026',
+    fr: "Avis Philips Airfryer 3000 Series XL 6,2 L : notre verdict 2026",
+    en: "Philips Airfryer 3000 Series XL 6.2L Review: 2026 Verdict",
+    de: "Philips Airfryer 3000 Series XL 6,2 L: Erfahrungen und Bewertung 2026",
+    es: "Philips Airfryer 3000 Series XL 6,2 L: opinión y análisis 2026",
+    it: "Philips Airfryer 3000 Series XL 6,2 L: recensione 2026",
+    nl: "Philips Airfryer 3000 Series XL 6,2 L: review en oordeel 2026",
   },
   excerpt: {
-    fr: 'Notre test complet du Philips Airfryer 3000 Series XL 6,2L : la technologie RapidAir brevetée dans un format familial accessible. Un excellent rapport qualité-prix à 119,99 €. Score Nura : 8.7/10.',
-    en: 'Our full review of the Philips Airfryer 3000 Series XL 6.2L: patented RapidAir technology in an accessible family format. Excellent value at €119.99. Nura Score: 8.7/10.',
-    de: 'Unser vollständiger Test des Philips Airfryer 3000 Series XL 6,2L: patentierte RapidAir-Technologie in einem zugänglichen Familienformat. Hervorragendes Preis-Leistungs-Verhältnis für 119,99 €. Nura-Score: 8,7/10.',
-    es: 'Nuestra prueba completa de la Philips Airfryer 3000 Series XL 6,2L: tecnología RapidAir patentada en un formato familiar accesible. Excelente relación calidad-precio a 119,99 €. Puntuación Nura: 8,7/10.',
-    it: 'Il nostro test completo della Philips Airfryer 3000 Series XL 6,2L: tecnologia RapidAir brevettata in un formato familiare accessibile. Eccellente rapporto qualità-prezzo a 119,99 €. Punteggio Nura: 8,7/10.',
-    nl: 'Onze volledige test van de Philips Airfryer 3000 Series XL 6,2L: gepatenteerde RapidAir-technologie in een toegankelijk familieformaat. Uitstekende prijs-kwaliteitverhouding voor €119,99. Nura Score: 8,7/10.',
+    fr: "Avis sur le Philips Airfryer 3000 Series XL 6,2 L : un airfryer simple et régulier pour 3 à 5 personnes. Points forts, limites et alternatives, d'après la fiche technique, les tests indépendants et les avis d'acheteurs.",
+    en: "Our review of the Philips Airfryer 3000 Series XL 6.2L: a simple, consistent air fryer for 3 to 5 people. Strengths, limits and alternatives, based on specs, independent tests and buyer reviews.",
+    de: "Philips Airfryer 3000 Series XL 6,2 L im Überblick: eine einfache, zuverlässige Heißluftfritteuse für 3 bis 5 Personen. Stärken, Grenzen und Alternativen auf Basis von Datenblatt, unabhängigen Tests und Käuferbewertungen.",
+    es: "Opinión sobre la Philips Airfryer 3000 Series XL 6,2 L: una freidora de aire sencilla y constante para 3 a 5 personas. Puntos fuertes, límites y alternativas según la ficha técnica, pruebas independientes y opiniones de compradores.",
+    it: "Recensione della Philips Airfryer 3000 Series XL 6,2 L: una friggitrice ad aria semplice e costante per 3-5 persone. Punti di forza, limiti e alternative in base a scheda tecnica, test indipendenti e recensioni degli acquirenti.",
+    nl: "Review van de Philips Airfryer 3000 Series XL 6,2 L: een eenvoudige, consistente airfryer voor 3 tot 5 personen. Sterke punten, beperkingen en alternatieven op basis van specificaties, onafhankelijke tests en kopersreviews.",
   },
   content: {
-    fr: `<h2>Notre protocole de test</h2>
-<p>Pour ce test du Philips Airfryer 3000 Series XL 6,2L, nous avons appliqué notre protocole Homenura standard : 5 semaines de tests intensifs en conditions réelles d'utilisation familiale. Nos testeurs ont cuisiné quotidiennement avec cet appareil pour 3-4 personnes, en réalisant des recettes variées représentatives de l'usage type d'une famille française ou européenne.</p>
-<p>Nous avons mesuré systématiquement : la température réelle atteinte par le panier (avec sonde de contact), la consommation électrique (wattmètre calibré type Brennenstuhl), le niveau sonore à 1 mètre (sonomètre), l'uniformité de cuisson (notation sur 10 points selon une grille standardisée), et les temps de préchauffage et de cuisson réels. Au total, 65 sessions de cuisson ont été documentées pour ce test.</p>
-
-<h2>Introduction</h2>
-<p>Philips est le pionnier incontesté de l'airfryer, ayant popularisé cette technologie dès 2010 avec sa technologie brevetée RapidAir. En 2026, la marque néerlandaise continue d'innover avec sa gamme 3000 Series, qui vise à démocratiser l'accès à la cuisson à air chaud de qualité. Le Philips Airfryer 3000 Series XL 6,2L, vendu à 119,99 euros, est la réponse de Philips aux consommateurs qui veulent la fiabilité de la marque sans le prix premium de la gamme 5000 ou Combi.</p>
-<p>Chez Homenura, nous avons testé ce modèle pendant 5 semaines en conditions réelles. Au quotidien, en famille de 3-4 personnes, avec des recettes variées allant des classiques frites maison aux légumes grillés en passant par le poulet rôti. Notre objectif : déterminer si ce modèle milieu de gamme peut vraiment rivaliser avec des concurrents plus chers comme le <a href="/fr/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a> ou les modèles Ninja.</p>
-<p>Avec un score Nura de <strong>8,7/10</strong>, le Philips 3000 XL se révèle être l'un des meilleurs choix dans sa tranche de prix. Voici notre analyse détaillée.</p>
-
-<h2>Fiche technique</h2>
-<table>
-<thead><tr><th>Caractéristique</th><th>Détail</th></tr></thead>
-<tbody>
-<tr><td>Capacité</td><td>6,2 litres</td></tr>
-<tr><td>Puissance</td><td>2 000 W</td></tr>
-<tr><td>Plage de température</td><td>80°C - 200°C</td></tr>
-<tr><td>Dimensions (L x P x H)</td><td>30,2 x 38,4 x 33 cm</td></tr>
-<tr><td>Poids</td><td>5,4 kg</td></tr>
-<tr><td>Technologie</td><td>RapidAir (circulation d'air brevetée)</td></tr>
-<tr><td>Programmes prédéfinis</td><td>7 (frites, poulet, poisson, légumes, steak, crevettes, gâteau)</td></tr>
-<tr><td>Connectivité</td><td>Non</td></tr>
-<tr><td>Revêtement</td><td>Starfish design, antiadhésif</td></tr>
-<tr><td>Minuterie</td><td>Jusqu'à 60 minutes</td></tr>
-<tr><td>Prix constaté</td><td>119,99 €</td></tr>
-</tbody>
-</table>
-
-<h2>Design et fabrication</h2>
-<p>Le Philips 3000 XL adopte le design sobre et arrondi caractéristique de la marque. Le boîtier blanc ou noir (selon la version) en plastique mat est agréable au toucher et résiste correctement aux traces de doigts. L'appareil est relativement compact pour sa capacité de 6,2 litres : 30,2 x 38,4 cm au sol, avec une hauteur de 33 cm qui passe sous la plupart des placards de cuisine.</p>
-<p>Le tiroir unique est solide et s'ouvre avec un mécanisme fluide. À l'intérieur, on retrouve le fameux design "Starfish" de Philips, une forme en étoile au fond du panier qui optimise la circulation de l'air chaud. Le panier amovible en métal avec revêtement antiadhésif est bien fini, sans bavures ni arêtes vives. Le tout pèse 5,4 kg, ce qui en fait un appareil facile à déplacer.</p>
-<p>Le panneau de commande est un écran tactile LED positionné sur le dessus de l'appareil. Il est simple, avec des icônes claires pour les 7 programmes et des touches +/- pour ajuster température et durée. Pas de fioriture, pas d'application connectée : Philips mise ici sur la simplicité d'utilisation. C'est un choix assumé qui conviendra parfaitement aux utilisateurs qui ne veulent pas de gadgets superflus.</p>
-
-<h2>Performance de cuisson</h2>
-<h3>Frites et pommes de terre</h3>
-<p>La technologie RapidAir de Philips fait ses preuves sur les frites. Avec 600 g de frites fraîches coupées en bâtonnets de 10 mm, nous avons obtenu d'excellents résultats à <strong>200°C pendant 20 minutes</strong>. La cuisson est remarquablement homogène grâce au design Starfish : même les frites du centre du panier sont bien dorées, là où d'autres airfryers laissent des zones pâles. Un seul secouage à 10 minutes suffit.</p>
-<p>Les frites surgelées (test avec Lutosa tradition, 500 g) sont prêtes en 16 minutes à 200°C, croustillantes et régulières. Les pommes de terre en quartiers donnent également d'excellents résultats à 190°C pendant 25 minutes. Comparé au <a href="/fr/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a>, le Philips est légèrement moins rapide (2-3 minutes de plus) mais le résultat final est tout aussi convaincant.</p>
-
-<h3>Poulet et viandes</h3>
-<p>Les pilons de poulet (4 pièces, car la capacité est moindre qu'un double tiroir) à 180°C pendant 28 minutes offrent une peau croustillante et une chair juteuse. La température interne atteint 76°C, largement au-dessus du seuil de sécurité. Les ailes de poulet sont excellentes à 200°C pendant 18 minutes.</p>
-<p>Pour un steak de bœuf (entrecôte de 200 g), la température maximale de 200°C est le principal handicap de ce modèle. La croûte de Maillard est moins prononcée que sur les airfryers atteignant 230-240°C. Le résultat reste honorable, mais les amateurs de viande grillée préféreront un modèle avec une plage de température étendue.</p>
-
-<h3>Légumes</h3>
-<p>Les légumes sont un point fort du Philips 3000 XL. Brocolis, choux de Bruxelles, carottes et courgettes à <strong>180°C pendant 15 minutes</strong> sortent parfaitement cuits, avec des pointes caramélisées et un cœur tendre. Le panier Starfish assure une cuisson uniforme même sans retourner les légumes. Pour les légumes racines plus denses (patates douces, betteraves), comptez 20-22 minutes à 190°C.</p>
-
-<h2>Facilité d'utilisation</h2>
-<p>La prise en main du Philips 3000 XL est immédiate. Même un utilisateur qui n'a jamais touché un airfryer comprendra l'interface en quelques secondes. On sélectionne un programme ou on ajuste manuellement la température et le temps, et c'est parti. Pas d'application à télécharger, pas de compte à créer, pas de Wi-Fi à configurer. Pour certains, c'est une limitation ; pour d'autres, c'est exactement ce qu'ils cherchent.</p>
-<p>Les 7 programmes prédéfinis sont bien calibrés et constituent un excellent point de départ. Le programme "Frites" à 200°C/20 min est particulièrement juste. L'appareil émet un bip à mi-cuisson pour rappeler de secouer le panier, un détail pratique souvent absent sur les modèles concurrents.</p>
-<p>Le nettoyage est l'un des points les plus forts de ce modèle. Le panier et le tiroir se retirent en un geste et passent au lave-vaisselle. Le revêtement antiadhésif est efficace : la plupart des résidus partent avec un simple passage d'éponge humide. Après 5 semaines de tests, aucune trace d'usure visible sur le revêtement.</p>
-
-<h2>Consommation énergétique</h2>
-<p>Avec une puissance de 2 000 W, le Philips 3000 XL est dans la moyenne des airfryers de sa catégorie. Pour une session de frites de 20 minutes à 200°C, nous avons mesuré une consommation de <strong>0,55 kWh</strong>. Un four classique pour la même quantité consomme environ 1,5 kWh (préchauffage de 10 minutes inclus).</p>
-<p>Sur un mois d'utilisation quotidienne, le coût estimé est d'environ <strong>4,15 euros</strong> au tarif EDF 2026. C'est une économie de 60 à 70 % par rapport à un four traditionnel. Pour en savoir plus sur les économies réalisables, consultez notre article dédié aux <a href="/fr/blog/airfryer-economies-energie">économies d'énergie avec un airfryer</a>.</p>
-
-<h2>Points forts et points faibles</h2>
-<h3>Points forts</h3>
-<ul>
-<li><strong>Technologie RapidAir éprouvée</strong> : cuisson homogène grâce au design Starfish</li>
-<li><strong>Prix attractif</strong> : 119,99 € pour une marque premium, excellent rapport qualité-prix</li>
-<li><strong>Simplicité d'utilisation</strong> : interface intuitive, prise en main immédiate</li>
-<li><strong>Nettoyage exemplaire</strong> : panier lave-vaisselle, antiadhésif très efficace</li>
-<li><strong>Compacité</strong> : encombrement raisonnable pour 6,2L de capacité</li>
-<li><strong>Fiabilité Philips</strong> : marque reconnue, SAV accessible, garantie 2 ans</li>
-<li><strong>Bip de mi-cuisson</strong> : rappel pratique pour secouer le panier</li>
-</ul>
-<h3>Points faibles</h3>
-<ul>
-<li><strong>Température max 200°C</strong> : insuffisant pour saisir les viandes de manière optimale</li>
-<li><strong>Pas de connectivité</strong> : pas d'application ni de suivi à distance</li>
-<li><strong>Tiroir unique</strong> : impossible de cuire deux plats simultanément</li>
-<li><strong>Minuterie limitée à 60 min</strong> : pas de mode déshydratation longue durée</li>
-<li><strong>Capacité moyenne</strong> : 6,2L correct pour 3-4 personnes, juste pour 5+</li>
-</ul>
-
-<h2>Score Nura détaillé</h2>
-<table>
-<thead><tr><th>Critère</th><th>Note</th><th>Commentaire</th></tr></thead>
-<tbody>
-<tr><td>Performance de cuisson</td><td>8,5/10</td><td>Excellente sur frites et légumes, limitée par le max 200°C</td></tr>
-<tr><td>Facilité d'utilisation</td><td>9,5/10</td><td>La plus simple du marché, prise en main immédiate</td></tr>
-<tr><td>Design et fabrication</td><td>8,5/10</td><td>Sobre, bien fini, compact pour sa capacité</td></tr>
-<tr><td>Polyvalence</td><td>7,5/10</td><td>Tiroir unique, pas de déshydratation, 200°C max</td></tr>
-<tr><td>Rapport qualité-prix</td><td>9,5/10</td><td>119,99 € pour la qualité Philips, imbattable</td></tr>
-<tr><td>Nettoyage</td><td>9,5/10</td><td>Le meilleur de notre sélection, Starfish facilitant</td></tr>
-<tr><td>Bruit</td><td>8,5/10</td><td>58 dB, dans la bonne moyenne</td></tr>
-<tr><td><strong>Score Nura global</strong></td><td><strong>8,7/10</strong></td><td><strong>Meilleur airfryer rapport qualité-prix 2026</strong></td></tr>
-</tbody>
-</table>
-
-<h2>Verdict</h2>
-<p>Le Philips Airfryer 3000 Series XL 6,2L est <strong>le meilleur airfryer en rapport qualité-prix de 2026</strong>. Il ne révolutionne pas le genre, mais il fait tout ce qu'on lui demande avec une fiabilité et une constance exemplaires. La technologie RapidAir avec le design Starfish assure une cuisson homogène que peu de concurrents à ce prix peuvent égaler.</p>
-<p>C'est le choix idéal pour une famille de 3-4 personnes qui débute avec un airfryer ou qui cherche un appareil fiable et sans chichi. Si vous avez besoin de cuisson double, de connectivité ou de températures supérieures à 200°C, orientez-vous plutôt vers le <a href="/fr/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> ou le <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a>.</p>
-<p>Pour aller plus loin, retrouvez notre <a href="/fr/guides/airfryers">guide complet des meilleurs airfryers 2026</a> et notre <a href="/fr/blog/ninja-vs-philips-quel-choisir">comparatif Ninja vs Philips</a> pour vous aider à faire le bon choix.</p>
-
-<h2>Comparaison avec la concurrence</h2>
-<p>Le Philips 3000 XL se retrouve en compétition directe avec plusieurs airfryers à tiroir unique dans la tranche 100-160 euros :</p>
-<table>
-<thead><tr><th>Modèle</th><th>Prix</th><th>Capacité</th><th>Temp. max</th><th>Score Nura</th></tr></thead>
-<tbody>
-<tr><td><strong>Philips 3000 Series XL</strong></td><td>119,99 €</td><td>6,2L</td><td>200°C</td><td>8,7/10</td></tr>
-<tr><td>Cosori Dual Blaze 6,4L</td><td>139,99 €</td><td>6,4L</td><td>230°C</td><td>8,9/10</td></tr>
-<tr><td>Xiaomi Smart Air Fryer Pro 5L</td><td>89,99 €</td><td>5L</td><td>200°C</td><td>8,2/10</td></tr>
-<tr><td>Moulinex Easy Fry Max 6,2L</td><td>109,99 €</td><td>6,2L</td><td>200°C</td><td>8,1/10</td></tr>
-</tbody>
-</table>
-<p>Face au <a href="/fr/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a>, le Philips 3000 XL est 20 euros moins cher et légèrement moins bien équipé (pas de Wi-Fi, pas de double résistance, température max 200°C vs 230°C). Cependant, la technologie RapidAir Starfish de Philips offre une homogénéité de cuisson légèrement supérieure sur les légumes et les frites. Pour les utilisateurs sans besoin de connectivité, le Philips reste le meilleur choix à ce prix.</p>
-<p>Face aux modèles moins chers comme le Xiaomi ou le Moulinex, le Philips justifie son surcoût par une qualité de fabrication supérieure, un service après-vente plus réactif, et une durabilité prouvée sur le long terme. La marque Philips a 15 ans d'expérience dans les airfryers — un avantage tangible en termes de fiabilité.</p>
-
-<h2>Pour qui est le Philips 3000 XL idéal ?</h2>
-<p>Après analyse de nos 65 sessions de test, voici le profil type de l'utilisateur pour lequel ce modèle est la meilleure option :</p>
-<ul>
-<li><strong>Familles de 3-4 personnes</strong> qui débutent avec les airfryers et cherchent un premier appareil fiable et simple</li>
-<li><strong>Cuisiniers débutants ou peu technophiles</strong> qui veulent appuyer sur un bouton et obtenir un résultat — pas de connexion Wi-Fi, pas d'application</li>
-<li><strong>Personnes sensibles à la marque Philips</strong> et à son service après-vente reconnu</li>
-<li><strong>Budgets contraints</strong> dans le segment premium : à 119,99 euros, c'est le Philips le moins cher avec une vraie capacité familiale</li>
-<li><strong>Cuisiniers végétariens ou health-conscious</strong> : la cuisson uniforme des légumes par le design Starfish est un vrai atout</li>
-</ul>
-<p>Il sera moins adapté si vous cherchez la double zone, des températures supérieures à 200°C pour saisir les viandes, ou la connectivité Wi-Fi pour contrôler à distance.</p>
-
-<h2>Verdict final détaillé</h2>
-<p>Le Philips Airfryer 3000 Series XL 6,2L est la preuve que les bonnes choses sont souvent simples. Il ne révolutionne pas le genre et n'essaie pas de faire trop. Mais ce qu'il fait — cuire les frites et légumes de manière homogène, proprement, facilement et de façon reproductible — il le fait mieux que presque tous ses concurrents à ce prix.</p>
-<p>La technologie RapidAir avec le design Starfish est un différenciateur réel que 15 ans de R&D ont affiné. Le nettoyage exemplaire et la fiabilité reconnue de la marque complètent un tableau très positif. À 119,99 euros, c'est notre recommandation numéro une pour un premier airfryer ou pour une personne qui veut la qualité Philips sans le prix premium des gammes supérieures. Score Nura confirmé : <strong>8,7/10</strong>.</p>`,
-
-    en: `<h2>Our Testing Protocol</h2>
-<p>For this test of the Philips Airfryer 3000 Series XL 6.2L, we applied our standard Homenura protocol: 5 weeks of intensive real-world testing. Our testers cooked daily for 3-4 people using varied recipes representative of typical family use. We systematically measured actual basket temperature, electricity consumption, noise level, cooking uniformity, and preheating times. A total of 65 cooking sessions were documented for this review.</p>
-
-<h2>Introduction</h2>
-<p>Philips is the undisputed pioneer of the air fryer, having popularised this technology since 2010 with its patented RapidAir system. In 2026, the Dutch brand continues to innovate with its 3000 Series, aimed at making quality hot air cooking accessible to everyone. The Philips Airfryer 3000 Series XL 6.2L, priced at 119.99 euros, is Philips' answer for consumers who want brand reliability without the premium price of the 5000 or Combi range.</p>
-<p>At Homenura, we tested this model for 5 weeks under real conditions with a family of 3-4 people. With a Nura score of <strong>8.7/10</strong>, the Philips 3000 XL proves to be one of the best choices in its price bracket.</p>
-
-<h2>Technical Specifications</h2>
-<table>
-<thead><tr><th>Feature</th><th>Detail</th></tr></thead>
-<tbody>
-<tr><td>Capacity</td><td>6.2 litres</td></tr>
-<tr><td>Power</td><td>2,000 W</td></tr>
-<tr><td>Temperature range</td><td>80°C - 200°C</td></tr>
-<tr><td>Dimensions (W x D x H)</td><td>30.2 x 38.4 x 33 cm</td></tr>
-<tr><td>Weight</td><td>5.4 kg</td></tr>
-<tr><td>Technology</td><td>RapidAir (patented air circulation)</td></tr>
-<tr><td>Preset programmes</td><td>7 (fries, chicken, fish, vegetables, steak, shrimp, cake)</td></tr>
-<tr><td>Connectivity</td><td>None</td></tr>
-<tr><td>Coating</td><td>Starfish design, non-stick</td></tr>
-<tr><td>Timer</td><td>Up to 60 minutes</td></tr>
-<tr><td>Price</td><td>€119.99</td></tr>
-</tbody>
-</table>
-
-<h2>Design and Build Quality</h2>
-<p>The Philips 3000 XL features the brand's characteristic understated, rounded design. The matte white or black plastic casing is pleasant to touch and resists fingerprints well. At 30.2 x 38.4 cm footprint with a height of 33 cm, it fits comfortably under most kitchen cabinets.</p>
-<p>The single drawer is solid and opens with a smooth mechanism. Inside, you find Philips' famous Starfish design — a star shape at the bottom of the basket that optimises hot air circulation. The removable metal basket with non-stick coating is well finished. The control panel is a simple LED touchscreen on top with clear icons for the 7 programmes.</p>
-
-<h2>Cooking Performance</h2>
-<h3>Fries and Potatoes</h3>
-<p>Philips' RapidAir technology proves its worth with fries. With 600 g of fresh-cut 10 mm fries, we achieved excellent results at <strong>200°C for 20 minutes</strong>. Cooking is remarkably even thanks to the Starfish design: even fries in the centre of the basket are well browned, where other air fryers leave pale spots. A single shake at 10 minutes is sufficient.</p>
-<p>Frozen fries (Lutosa tradition, 500 g) are ready in 16 minutes at 200°C, crispy and uniform. Compared to the <a href="/en/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a>, the Philips is slightly slower (2-3 minutes more) but the final result is equally convincing.</p>
-
-<h3>Chicken and Meats</h3>
-<p>Chicken drumsticks (4 pieces) at 180°C for 28 minutes deliver crispy skin and juicy meat. Internal temperature reaches 76°C, well above the safety threshold. For beef steak, the maximum temperature of 200°C is this model's main limitation — the Maillard crust is less pronounced than on air fryers reaching 230-240°C.</p>
-
-<h3>Vegetables</h3>
-<p>Vegetables are a strong point. Broccoli, Brussels sprouts, carrots and courgettes at <strong>180°C for 15 minutes</strong> come out perfectly cooked with caramelised tips and tender cores. The Starfish basket ensures even cooking without needing to turn the vegetables.</p>
-
-<h2>Ease of Use</h2>
-<p>Getting started with the Philips 3000 XL is immediate. The interface is self-explanatory with clear icons. No app to download, no account to create, no Wi-Fi to configure. The 7 preset programmes are well calibrated, and the mid-cooking beep reminder to shake the basket is a practical touch.</p>
-<p>Cleaning is one of this model's strongest points. The basket and drawer are dishwasher-safe, and the non-stick coating is highly effective. After 5 weeks of testing, no visible wear on the coating.</p>
-
-<h2>Energy Consumption</h2>
-<p>For a 20-minute fries session at 200°C, we measured consumption of <strong>0.55 kWh</strong>. A conventional oven for the same quantity uses approximately 1.5 kWh. Monthly savings with daily use amount to around 60-70% compared to a traditional oven.</p>
-
-<h2>Pros and Cons</h2>
-<h3>Pros</h3>
-<ul>
-<li><strong>Proven RapidAir technology</strong>: even cooking thanks to Starfish design</li>
-<li><strong>Attractive price</strong>: €119.99 for a premium brand, excellent value</li>
-<li><strong>Simplicity</strong>: intuitive interface, immediate familiarity</li>
-<li><strong>Exemplary cleaning</strong>: dishwasher-safe basket, very effective non-stick</li>
-<li><strong>Compact size</strong>: reasonable footprint for 6.2L capacity</li>
-<li><strong>Philips reliability</strong>: established brand, 2-year warranty</li>
-</ul>
-<h3>Cons</h3>
-<ul>
-<li><strong>Max temperature 200°C</strong>: insufficient for optimal meat searing</li>
-<li><strong>No connectivity</strong>: no app or remote monitoring</li>
-<li><strong>Single drawer</strong>: cannot cook two dishes simultaneously</li>
-<li><strong>Timer limited to 60 min</strong>: no long dehydration mode</li>
-</ul>
-
-<h2>Detailed Nura Score</h2>
-<table>
-<thead><tr><th>Criterion</th><th>Score</th><th>Comment</th></tr></thead>
-<tbody>
-<tr><td>Cooking performance</td><td>8.5/10</td><td>Excellent for fries and vegetables, limited by 200°C max</td></tr>
-<tr><td>Ease of use</td><td>9.5/10</td><td>Simplest on the market, immediate familiarity</td></tr>
-<tr><td>Design and build</td><td>8.5/10</td><td>Understated, well-finished, compact for its capacity</td></tr>
-<tr><td>Versatility</td><td>7.5/10</td><td>Single drawer, no dehydration, 200°C max</td></tr>
-<tr><td>Value for money</td><td>9.5/10</td><td>€119.99 for Philips quality, unbeatable</td></tr>
-<tr><td>Cleaning</td><td>9.5/10</td><td>Best in our selection, Starfish design helps</td></tr>
-<tr><td>Noise</td><td>8.5/10</td><td>58 dB, good average</td></tr>
-<tr><td><strong>Overall Nura Score</strong></td><td><strong>8.7/10</strong></td><td><strong>Best value air fryer 2026</strong></td></tr>
-</tbody>
-</table>
-
-<h2>Verdict</h2>
-<p>The Philips Airfryer 3000 Series XL 6.2L is <strong>the best value air fryer of 2026</strong>. It does not revolutionise the category, but it does everything asked of it with exemplary reliability. The ideal choice for a family of 3-4 looking for a dependable, no-fuss appliance.</p>
-<p>If you need dual cooking, connectivity or higher temperatures, consider the <a href="/en/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> or the <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a>. For more options, check our <a href="/en/guides/airfryers">complete guide to the best air fryers 2026</a>.</p>
-
-<h2>Comparison with the Competition</h2>
-<table>
-<thead><tr><th>Model</th><th>Price</th><th>Capacity</th><th>Max temp</th><th>Nura Score</th></tr></thead>
-<tbody>
-<tr><td><strong>Philips 3000 Series XL</strong></td><td>€119.99</td><td>6.2L</td><td>200°C</td><td>8.7/10</td></tr>
-<tr><td>Cosori Dual Blaze 6.4L</td><td>€139.99</td><td>6.4L</td><td>230°C</td><td>8.9/10</td></tr>
-<tr><td>Xiaomi Smart Air Fryer Pro 5L</td><td>€89.99</td><td>5L</td><td>200°C</td><td>8.2/10</td></tr>
-<tr><td>Moulinex Easy Fry Max 6.2L</td><td>€109.99</td><td>6.2L</td><td>200°C</td><td>8.1/10</td></tr>
-</tbody>
-</table>
-<p>Against the <a href="/en/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a>, the Philips 3000 XL is €20 cheaper and slightly less equipped (no Wi-Fi, no dual heating element, 200°C vs 230°C max). However, Philips' RapidAir Starfish technology delivers marginally superior uniformity on vegetables and fries. For users without connectivity needs, the Philips remains the better value choice.</p>
-<p>Against cheaper models like the Xiaomi or Moulinex, the Philips justifies its premium with superior build quality, more responsive after-sales service, and proven long-term reliability. Philips has 15 years of air fryer experience — a tangible advantage in terms of durability.</p>
-
-<h2>Who Is the Philips 3000 XL Ideal For?</h2>
-<ul>
-<li><strong>Families of 3-4 people</strong> starting out with air fryers who want a reliable, simple first appliance</li>
-<li><strong>Non-tech-savvy cooks</strong> who want to press a button and get results — no app, no Wi-Fi</li>
-<li><strong>Brand-conscious buyers</strong> who value Philips' after-sales service and reputation</li>
-<li><strong>Budget-conscious shoppers</strong> in the premium segment: at €119.99, it is the cheapest Philips with a genuine family capacity</li>
-<li><strong>Health-focused cooks</strong>: the Starfish's even vegetable cooking is a real advantage</li>
-</ul>
-
-<h2>Detailed Final Verdict</h2>
-<p>The Philips Airfryer 3000 Series XL 6.2L proves that the best things are often simple. It doesn't revolutionise the category, but what it does — cooking fries and vegetables evenly, cleanly and reproducibly — it does better than nearly every competitor at this price.</p>
-<p>The RapidAir technology with Starfish design is a real differentiator refined over 15 years of R&D. Exemplary cleaning and proven brand reliability complete a very positive picture. At €119.99, it is our number one recommendation for a first air fryer or for someone who wants Philips quality without the premium price of higher ranges. Confirmed Nura Score: <strong>8.7/10</strong>.</p>`,
-
-    de: `<h2>Unser Testprotokoll</h2>
-<p>Für diesen Test des Philips Airfryer 3000 Series XL 6,2L haben wir unser standardisiertes Homenura-Protokoll angewendet: 5 Wochen intensive Tests unter realen Bedingungen. Unsere Tester haben täglich für 3-4 Personen gekocht und dabei 65 Garsessions dokumentiert. Wir haben systematisch Temperatur, Stromverbrauch, Lautstärke und Garuniformität gemessen.</p>
-
-<h2>Einleitung</h2>
-<p>Philips ist der unbestrittene Pionier der Heißluftfritteuse und hat diese Technologie seit 2010 mit seinem patentierten RapidAir-System populär gemacht. 2026 setzt die niederländische Marke mit der 3000er Serie fort, die darauf abzielt, hochwertige Heißluftzubereitung für alle zugänglich zu machen. Der Philips Airfryer 3000 Series XL 6,2L zum Preis von 119,99 Euro ist die Antwort von Philips für Verbraucher, die Markenqualität ohne Premium-Preise suchen.</p>
-<p>Bei Homenura haben wir dieses Modell 5 Wochen lang unter realen Bedingungen mit einer Familie von 3-4 Personen getestet. Mit einem Nura-Score von <strong>8,7/10</strong> erweist sich der Philips 3000 XL als eine der besten Optionen in seiner Preisklasse.</p>
-
-<h2>Technische Daten</h2>
-<table>
-<thead><tr><th>Merkmal</th><th>Detail</th></tr></thead>
-<tbody>
-<tr><td>Kapazität</td><td>6,2 Liter</td></tr>
-<tr><td>Leistung</td><td>2.000 W</td></tr>
-<tr><td>Temperaturbereich</td><td>80°C - 200°C</td></tr>
-<tr><td>Abmessungen (B x T x H)</td><td>30,2 x 38,4 x 33 cm</td></tr>
-<tr><td>Gewicht</td><td>5,4 kg</td></tr>
-<tr><td>Technologie</td><td>RapidAir (patentierte Luftzirkulation)</td></tr>
-<tr><td>Programme</td><td>7 (Pommes, Hähnchen, Fisch, Gemüse, Steak, Garnelen, Kuchen)</td></tr>
-<tr><td>Beschichtung</td><td>Starfish-Design, Antihaft</td></tr>
-<tr><td>Preis</td><td>119,99 €</td></tr>
-</tbody>
-</table>
-
-<h2>Design und Verarbeitung</h2>
-<p>Der Philips 3000 XL präsentiert sich im typisch schlichten, abgerundeten Philips-Design. Das mattschwarze oder weiße Kunststoffgehäuse ist angenehm und fingerabdruckresistent. Mit einer Stellfläche von 30,2 x 38,4 cm und einer Höhe von 33 cm passt er unter die meisten Küchenschränke. Das berühmte Starfish-Design im Korbinneren optimiert die Heißluftverteilung.</p>
-
-<h2>Kochleistung</h2>
-<h3>Pommes und Kartoffeln</h3>
-<p>Mit 600 g frisch geschnittenen 10-mm-Pommes erzielten wir ausgezeichnete Ergebnisse bei <strong>200°C für 20 Minuten</strong>. Die Garung ist dank des Starfish-Designs bemerkenswert gleichmäßig. Tiefkühlpommes (500 g) sind in 16 Minuten bei 200°C fertig.</p>
-
-<h3>Hähnchen und Fleisch</h3>
-<p>Hähnchenschenkel (4 Stück) bei 180°C für 28 Minuten liefern knusprige Haut und saftiges Fleisch. Die maximale Temperatur von 200°C ist die Haupteinschränkung: Die Maillard-Kruste bei Steaks ist weniger ausgeprägt als bei Fritteusen mit 230-240°C.</p>
-
-<h3>Gemüse</h3>
-<p>Gemüse ist eine Stärke: Brokkoli, Rosenkohl, Karotten und Zucchini bei <strong>180°C für 15 Minuten</strong> kommen perfekt gegart mit karamellisierten Spitzen heraus.</p>
-
-<h2>Bedienungsfreundlichkeit</h2>
-<p>Die Inbetriebnahme ist sofort möglich. Die Oberfläche ist selbsterklärend. Keine App, kein WLAN nötig. Die 7 Programme sind gut kalibriert. Der Signalton zur Halbzeit erinnert ans Schütteln. Die Reinigung ist erstklassig: Korb und Schublade sind spülmaschinenfest.</p>
-
-<h2>Energieverbrauch</h2>
-<p>Für eine 20-minütige Pommes-Session bei 200°C: <strong>0,55 kWh</strong>. Ein Backofen verbraucht für die gleiche Menge ca. 1,5 kWh. Die Ersparnis beträgt 60-70 % gegenüber einem herkömmlichen Ofen.</p>
-
-<h2>Stärken und Schwächen</h2>
-<h3>Stärken</h3>
-<ul>
-<li><strong>Bewährte RapidAir-Technologie</strong>: gleichmäßiges Garen dank Starfish-Design</li>
-<li><strong>Attraktiver Preis</strong>: 119,99 € für eine Premium-Marke</li>
-<li><strong>Einfachheit</strong>: intuitive Bedienung, sofortige Vertrautheit</li>
-<li><strong>Vorbildliche Reinigung</strong>: spülmaschinenfester Korb</li>
-<li><strong>Kompakte Größe</strong>: angemessener Platzbedarf für 6,2L</li>
-</ul>
-<h3>Schwächen</h3>
-<ul>
-<li><strong>Max. Temperatur 200°C</strong>: unzureichend für optimales Anbraten</li>
-<li><strong>Keine Konnektivität</strong>: keine App</li>
-<li><strong>Einzelne Schublade</strong>: kein gleichzeitiges Doppelgaren</li>
-<li><strong>Timer auf 60 Min begrenzt</strong>: kein Dörrmodus</li>
-</ul>
-
-<h2>Detaillierter Nura-Score</h2>
-<table>
-<thead><tr><th>Kriterium</th><th>Note</th><th>Kommentar</th></tr></thead>
-<tbody>
-<tr><td>Kochleistung</td><td>8,5/10</td><td>Ausgezeichnet für Pommes und Gemüse, durch 200°C begrenzt</td></tr>
-<tr><td>Bedienung</td><td>9,5/10</td><td>Die einfachste am Markt</td></tr>
-<tr><td>Design</td><td>8,5/10</td><td>Schlicht, gut verarbeitet, kompakt</td></tr>
-<tr><td>Vielseitigkeit</td><td>7,5/10</td><td>Einzelschublade, kein Dörren, 200°C max</td></tr>
-<tr><td>Preis-Leistung</td><td>9,5/10</td><td>119,99 € für Philips-Qualität, unschlagbar</td></tr>
-<tr><td>Reinigung</td><td>9,5/10</td><td>Beste in unserem Test</td></tr>
-<tr><td>Lautstärke</td><td>8,5/10</td><td>58 dB, guter Durchschnitt</td></tr>
-<tr><td><strong>Nura-Gesamtscore</strong></td><td><strong>8,7/10</strong></td><td><strong>Bestes Preis-Leistungs-Verhältnis 2026</strong></td></tr>
-</tbody>
-</table>
-
-<h2>Fazit</h2>
-<p>Der Philips Airfryer 3000 Series XL 6,2L ist <strong>die beste Heißluftfritteuse im Preis-Leistungs-Verhältnis 2026</strong>. Die ideale Wahl für Familien von 3-4 Personen. Wer Doppelgaren oder höhere Temperaturen braucht, schaut sich den <a href="/de/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> an. Mehr Optionen in unserem <a href="/de/guides/airfryers">vollständigen Ratgeber 2026</a>.</p>
-
-<h2>Vergleich mit der Konkurrenz</h2>
-<table>
-<thead><tr><th>Modell</th><th>Preis</th><th>Kapazität</th><th>Max. Temp.</th><th>Nura-Score</th></tr></thead>
-<tbody>
-<tr><td><strong>Philips 3000 Series XL</strong></td><td>119,99 €</td><td>6,2L</td><td>200°C</td><td>8,7/10</td></tr>
-<tr><td>Cosori Dual Blaze 6,4L</td><td>139,99 €</td><td>6,4L</td><td>230°C</td><td>8,9/10</td></tr>
-<tr><td>Xiaomi Smart Air Fryer Pro 5L</td><td>89,99 €</td><td>5L</td><td>200°C</td><td>8,2/10</td></tr>
-<tr><td>Moulinex Easy Fry Max 6,2L</td><td>109,99 €</td><td>6,2L</td><td>200°C</td><td>8,1/10</td></tr>
-</tbody>
-</table>
-<p>Gegenüber dem <a href="/de/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a> ist der Philips 3000 XL 20 Euro günstiger und etwas weniger ausgestattet (kein WLAN, kein Doppelheizelement, max. 200°C vs. 230°C). Dafür liefert die RapidAir-Starfish-Technologie eine etwas bessere Gleichmäßigkeit bei Pommes und Gemüse. Für Nutzer ohne Konnektivitätsbedarf bleibt der Philips das beste Preis-Leistungs-Verhältnis.</p>
-
-<h2>Für wen ist der Philips 3000 XL ideal?</h2>
-<ul>
-<li><strong>Familien von 3-4 Personen</strong>, die mit Heißluftfritteusen beginnen und ein zuverlässiges Gerät suchen</li>
-<li><strong>Wenig technikaffine Köche</strong>, die einfach einen Knopf drücken wollen</li>
-<li><strong>Markenbewusste Käufer</strong>, die den Philips-Kundendienst schätzen</li>
-<li><strong>Gesundheitsbewusste Köche</strong>: das Starfish-Design sorgt für gleichmäßig gegarte Gemüsegerichte</li>
-</ul>
-
-<h2>Abschließendes Urteil</h2>
-<p>Der Philips Airfryer 3000 Series XL 6,2L beweist, dass die besten Dinge oft einfach sind. Er revolutioniert die Kategorie nicht, aber was er tut — Pommes und Gemüse gleichmäßig, sauber und reproduzierbar zubereiten — tut er besser als fast jeder Konkurrent in diesem Preisbereich. Bei 119,99 Euro ist er unsere Nummer-eins-Empfehlung für eine erste Heißluftfritteuse. Bestätigter Nura-Score: <strong>8,7/10</strong>.</p>`,
-
-    es: `<h2>Nuestro protocolo de prueba</h2>
-<p>Para este test de la Philips Airfryer 3000 Series XL 6,2L, aplicamos el protocolo estándar de Homenura: 5 semanas de pruebas intensivas en condiciones reales. Nuestros testers cocinaron diariamente para 3-4 personas, documentando 65 sesiones de cocción. Medimos sistemáticamente temperatura real, consumo eléctrico, nivel de ruido y uniformidad de cocción.</p>
-
-<h2>Introducción</h2>
-<p>Philips es el pionero indiscutible de la freidora de aire, habiendo popularizado esta tecnología desde 2010 con su sistema patentado RapidAir. En 2026, la marca holandesa continúa con su Serie 3000, dirigida a democratizar la cocción con aire caliente de calidad. La Philips Airfryer 3000 Series XL 6,2L, a 119,99 euros, es la respuesta de Philips para quienes buscan fiabilidad de marca sin precio premium.</p>
-<p>En Homenura, probamos este modelo durante 5 semanas con una familia de 3-4 personas. Con una puntuación Nura de <strong>8,7/10</strong>, el Philips 3000 XL demuestra ser una de las mejores opciones en su rango de precio.</p>
-
-<h2>Ficha técnica</h2>
-<table>
-<thead><tr><th>Característica</th><th>Detalle</th></tr></thead>
-<tbody>
-<tr><td>Capacidad</td><td>6,2 litros</td></tr>
-<tr><td>Potencia</td><td>2.000 W</td></tr>
-<tr><td>Rango de temperatura</td><td>80°C - 200°C</td></tr>
-<tr><td>Dimensiones (An x Pr x Al)</td><td>30,2 x 38,4 x 33 cm</td></tr>
-<tr><td>Peso</td><td>5,4 kg</td></tr>
-<tr><td>Tecnología</td><td>RapidAir (circulación de aire patentada)</td></tr>
-<tr><td>Programas</td><td>7 (patatas, pollo, pescado, verduras, steak, gambas, bizcocho)</td></tr>
-<tr><td>Precio</td><td>119,99 €</td></tr>
-</tbody>
-</table>
-
-<h2>Diseño y fabricación</h2>
-<p>El Philips 3000 XL presenta el diseño sobrio y redondeado característico de la marca. La carcasa de plástico mate es agradable al tacto y resistente a las huellas. Con 30,2 x 38,4 cm de base y 33 cm de altura, cabe cómodamente bajo la mayoría de muebles de cocina. El famoso diseño Starfish en el interior del cesto optimiza la circulación del aire caliente.</p>
-
-<h2>Rendimiento de cocción</h2>
-<h3>Patatas fritas</h3>
-<p>Con 600 g de patatas frescas cortadas en bastones de 10 mm, obtuvimos excelentes resultados a <strong>200°C durante 20 minutos</strong>. La cocción es notablemente uniforme gracias al diseño Starfish. Las patatas congeladas (500 g) están listas en 16 minutos a 200°C.</p>
-
-<h3>Pollo y carnes</h3>
-<p>Muslos de pollo (4 unidades) a 180°C durante 28 minutos ofrecen piel crujiente y carne jugosa. La temperatura máxima de 200°C es la principal limitación para carnes a la plancha, donde la costra de Maillard es menos pronunciada que en modelos que alcanzan 230-240°C.</p>
-
-<h3>Verduras</h3>
-<p>Las verduras son un punto fuerte: brócoli, coles de Bruselas, zanahorias y calabacines a <strong>180°C durante 15 minutos</strong> salen perfectamente cocinados con puntas caramelizadas.</p>
-
-<h2>Facilidad de uso</h2>
-<p>La puesta en marcha es inmediata. No hay app que descargar ni Wi-Fi que configurar. Los 7 programas están bien calibrados y el pitido a mitad de cocción para agitar el cesto es un detalle práctico. La limpieza es excelente: cesto apto para lavavajillas y antiadherente muy eficaz.</p>
-
-<h2>Consumo energético</h2>
-<p>Para una sesión de patatas de 20 minutos a 200°C: <strong>0,55 kWh</strong>. Un horno convencional consume aproximadamente 1,5 kWh para la misma cantidad. El ahorro es del 60-70 % respecto a un horno tradicional.</p>
-
-<h2>Puntos fuertes y débiles</h2>
-<h3>Puntos fuertes</h3>
-<ul>
-<li><strong>Tecnología RapidAir probada</strong>: cocción uniforme gracias al diseño Starfish</li>
-<li><strong>Precio atractivo</strong>: 119,99 € para una marca premium</li>
-<li><strong>Simplicidad</strong>: interfaz intuitiva, uso inmediato</li>
-<li><strong>Limpieza ejemplar</strong>: cesto apto para lavavajillas</li>
-<li><strong>Tamaño compacto</strong>: huella razonable para 6,2L</li>
-</ul>
-<h3>Puntos débiles</h3>
-<ul>
-<li><strong>Temperatura máx. 200°C</strong>: insuficiente para sellar carnes óptimamente</li>
-<li><strong>Sin conectividad</strong>: sin app</li>
-<li><strong>Cajón único</strong>: sin cocción doble simultánea</li>
-<li><strong>Temporizador limitado a 60 min</strong>: sin modo deshidratación</li>
-</ul>
-
-<h2>Puntuación Nura detallada</h2>
-<table>
-<thead><tr><th>Criterio</th><th>Nota</th><th>Comentario</th></tr></thead>
-<tbody>
-<tr><td>Rendimiento de cocción</td><td>8,5/10</td><td>Excelente en patatas y verduras, limitado a 200°C</td></tr>
-<tr><td>Facilidad de uso</td><td>9,5/10</td><td>La más simple del mercado</td></tr>
-<tr><td>Diseño</td><td>8,5/10</td><td>Sobrio, bien acabado, compacto</td></tr>
-<tr><td>Versatilidad</td><td>7,5/10</td><td>Cajón único, sin deshidratación, 200°C máx.</td></tr>
-<tr><td>Relación calidad-precio</td><td>9,5/10</td><td>119,99 € por calidad Philips, imbatible</td></tr>
-<tr><td>Limpieza</td><td>9,5/10</td><td>La mejor de nuestra selección</td></tr>
-<tr><td>Ruido</td><td>8,5/10</td><td>58 dB, buena media</td></tr>
-<tr><td><strong>Puntuación Nura global</strong></td><td><strong>8,7/10</strong></td><td><strong>Mejor relación calidad-precio 2026</strong></td></tr>
-</tbody>
-</table>
-
-<h2>Veredicto</h2>
-<p>La Philips Airfryer 3000 Series XL 6,2L es <strong>la mejor freidora de aire en relación calidad-precio de 2026</strong>. Ideal para familias de 3-4 personas. Si necesitas cocción doble o temperaturas superiores, mira la <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a>. Más opciones en nuestra <a href="/es/guides/airfryers">guía completa 2026</a>.</p>
-
-<h2>Comparación con la competencia</h2>
-<table>
-<thead><tr><th>Modelo</th><th>Precio</th><th>Capacidad</th><th>Temp. máx.</th><th>Puntuación Nura</th></tr></thead>
-<tbody>
-<tr><td><strong>Philips 3000 Series XL</strong></td><td>119,99 €</td><td>6,2L</td><td>200°C</td><td>8,7/10</td></tr>
-<tr><td>Cosori Dual Blaze 6,4L</td><td>139,99 €</td><td>6,4L</td><td>230°C</td><td>8,9/10</td></tr>
-<tr><td>Xiaomi Smart Air Fryer Pro 5L</td><td>89,99 €</td><td>5L</td><td>200°C</td><td>8,2/10</td></tr>
-<tr><td>Moulinex Easy Fry Max 6,2L</td><td>109,99 €</td><td>6,2L</td><td>200°C</td><td>8,1/10</td></tr>
-</tbody>
-</table>
-<p>Frente al <a href="/es/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a>, el Philips 3000 XL es 20 euros más barato y algo menos equipado (sin Wi-Fi, sin doble resistencia, máx. 200°C vs 230°C). Sin embargo, la tecnología RapidAir Starfish ofrece una uniformidad ligeramente superior en verduras y patatas fritas.</p>
-
-<h2>¿Para quién es ideal el Philips 3000 XL?</h2>
-<ul>
-<li><strong>Familias de 3-4 personas</strong> que se inician con freidoras de aire y buscan un primer aparato fiable</li>
-<li><strong>Cocineros poco tecnófilos</strong> que quieren pulsar un botón y obtener resultado</li>
-<li><strong>Compradores fieles a la marca Philips</strong> que valoran su servicio posventa</li>
-<li><strong>Cocineros orientados a la salud</strong>: la cocción uniforme de verduras con Starfish es una ventaja real</li>
-</ul>
-
-<h2>Veredicto final detallado</h2>
-<p>La Philips Airfryer 3000 Series XL 6,2L demuestra que lo mejor a menudo es lo más sencillo. No revoluciona la categoría, pero lo que hace — cocinar patatas fritas y verduras de forma uniforme, limpia y reproducible — lo hace mejor que casi todos sus competidores a este precio. A 119,99 euros, es nuestra recomendación número uno para una primera freidora de aire. Puntuación Nura confirmada: <strong>8,7/10</strong>.</p>`,
-
-    it: `<h2>Il nostro protocollo di test</h2>
-<p>Per questo test della Philips Airfryer 3000 Series XL 6,2L, abbiamo applicato il protocollo standard Homenura: 5 settimane di test intensivi in condizioni reali. I nostri tester hanno cucinato quotidianamente per 3-4 persone, documentando 65 sessioni di cottura e misurando sistematicamente temperatura, consumo elettrico, rumorosità e uniformità di cottura.</p>
-
-<h2>Introduzione</h2>
-<p>Philips è il pioniere indiscusso della friggitrice ad aria, avendo reso popolare questa tecnologia dal 2010 con il sistema brevettato RapidAir. Nel 2026, il marchio olandese continua con la Serie 3000, mirata a rendere accessibile a tutti la cottura ad aria calda di qualità. La Philips Airfryer 3000 Series XL 6,2L, al prezzo di 119,99 euro, è la risposta per chi cerca l'affidabilità del marchio senza il prezzo premium della gamma 5000 o Combi.</p>
-<p>Da Homenura, abbiamo testato questo modello per 5 settimane con una famiglia di 3-4 persone. Con un punteggio Nura di <strong>8,7/10</strong>, si rivela una delle migliori scelte nella sua fascia di prezzo.</p>
-
-<h2>Scheda tecnica</h2>
-<table>
-<thead><tr><th>Caratteristica</th><th>Dettaglio</th></tr></thead>
-<tbody>
-<tr><td>Capacità</td><td>6,2 litri</td></tr>
-<tr><td>Potenza</td><td>2.000 W</td></tr>
-<tr><td>Range di temperatura</td><td>80°C - 200°C</td></tr>
-<tr><td>Dimensioni (L x P x A)</td><td>30,2 x 38,4 x 33 cm</td></tr>
-<tr><td>Peso</td><td>5,4 kg</td></tr>
-<tr><td>Tecnologia</td><td>RapidAir (circolazione aria brevettata)</td></tr>
-<tr><td>Programmi</td><td>7 (patatine, pollo, pesce, verdure, bistecca, gamberetti, torta)</td></tr>
-<tr><td>Prezzo</td><td>119,99 €</td></tr>
-</tbody>
-</table>
-
-<h2>Design e qualità costruttiva</h2>
-<p>Il Philips 3000 XL presenta il design sobrio e arrotondato caratteristico del marchio. La scocca in plastica opaca è piacevole e resistente alle impronte. Con un ingombro di 30,2 x 38,4 cm e 33 cm di altezza, entra comodamente sotto la maggior parte dei pensili. Il famoso design Starfish all'interno del cestello ottimizza la circolazione dell'aria calda.</p>
-
-<h2>Prestazioni di cottura</h2>
-<h3>Patatine fritte e patate</h3>
-<p>Con 600 g di patatine fresche tagliate a 10 mm, abbiamo ottenuto eccellenti risultati a <strong>200°C per 20 minuti</strong>. La cottura è uniformemente dorata grazie allo Starfish. Patatine surgelate (500 g) pronte in 16 minuti a 200°C.</p>
-
-<h3>Pollo e carni</h3>
-<p>Cosce di pollo (4 pezzi) a 180°C per 28 minuti: pelle croccante e carne succosa. La temperatura massima di 200°C è il limite principale per le carni alla griglia, dove la crosta di Maillard è meno marcata.</p>
-
-<h3>Verdure</h3>
-<p>Le verdure sono un punto di forza: broccoli, cavolini di Bruxelles, carote e zucchine a <strong>180°C per 15 minuti</strong> escono perfettamente cotte con punte caramellate.</p>
-
-<h2>Facilità d'uso</h2>
-<p>L'avvio è immediato. Niente app da scaricare né Wi-Fi da configurare. I 7 programmi sono ben calibrati e il segnale acustico a metà cottura è un tocco pratico. La pulizia è eccellente: cestello lavabile in lavastoviglie e antiaderente molto efficace.</p>
-
-<h2>Consumo energetico</h2>
-<p>Per una sessione di patatine di 20 minuti a 200°C: <strong>0,55 kWh</strong>. Un forno tradizionale consuma circa 1,5 kWh. Il risparmio è del 60-70% rispetto al forno.</p>
-
-<h2>Punti di forza e debolezza</h2>
-<h3>Punti di forza</h3>
-<ul>
-<li><strong>Tecnologia RapidAir collaudata</strong>: cottura uniforme grazie allo Starfish</li>
-<li><strong>Prezzo attraente</strong>: 119,99 € per un marchio premium</li>
-<li><strong>Semplicità</strong>: interfaccia intuitiva, uso immediato</li>
-<li><strong>Pulizia esemplare</strong>: cestello lavastoviglie, antiaderente efficace</li>
-<li><strong>Dimensioni compatte</strong>: ingombro ragionevole per 6,2L</li>
-</ul>
-<h3>Punti deboli</h3>
-<ul>
-<li><strong>Temperatura max 200°C</strong>: insufficiente per scottare le carni</li>
-<li><strong>Nessuna connettività</strong>: niente app</li>
-<li><strong>Cassetto singolo</strong>: niente cottura doppia simultanea</li>
-<li><strong>Timer limitato a 60 min</strong>: niente essiccazione</li>
-</ul>
-
-<h2>Punteggio Nura dettagliato</h2>
-<table>
-<thead><tr><th>Criterio</th><th>Voto</th><th>Commento</th></tr></thead>
-<tbody>
-<tr><td>Prestazioni di cottura</td><td>8,5/10</td><td>Eccellente su patatine e verdure, limitata a 200°C</td></tr>
-<tr><td>Facilità d'uso</td><td>9,5/10</td><td>La più semplice sul mercato</td></tr>
-<tr><td>Design</td><td>8,5/10</td><td>Sobrio, ben rifinito, compatto</td></tr>
-<tr><td>Versatilità</td><td>7,5/10</td><td>Cassetto singolo, no essiccazione, 200°C max</td></tr>
-<tr><td>Rapporto qualità-prezzo</td><td>9,5/10</td><td>119,99 € per qualità Philips, imbattibile</td></tr>
-<tr><td>Pulizia</td><td>9,5/10</td><td>Migliore nella nostra selezione</td></tr>
-<tr><td>Rumore</td><td>8,5/10</td><td>58 dB, buona media</td></tr>
-<tr><td><strong>Punteggio Nura globale</strong></td><td><strong>8,7/10</strong></td><td><strong>Miglior rapporto qualità-prezzo 2026</strong></td></tr>
-</tbody>
-</table>
-
-<h2>Verdetto</h2>
-<p>La Philips Airfryer 3000 Series XL 6,2L è <strong>la migliore friggitrice ad aria per rapporto qualità-prezzo del 2026</strong>. Ideale per famiglie di 3-4 persone. Per cottura doppia o temperature più alte, guardate la <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a>. Più opzioni nella nostra <a href="/it/guides/airfryers">guida completa 2026</a>.</p>
-
-<h2>Confronto con la concorrenza</h2>
-<table>
-<thead><tr><th>Modello</th><th>Prezzo</th><th>Capacità</th><th>Temp. max</th><th>Punteggio Nura</th></tr></thead>
-<tbody>
-<tr><td><strong>Philips 3000 Series XL</strong></td><td>119,99 €</td><td>6,2L</td><td>200°C</td><td>8,7/10</td></tr>
-<tr><td>Cosori Dual Blaze 6,4L</td><td>139,99 €</td><td>6,4L</td><td>230°C</td><td>8,9/10</td></tr>
-<tr><td>Xiaomi Smart Air Fryer Pro 5L</td><td>89,99 €</td><td>5L</td><td>200°C</td><td>8,2/10</td></tr>
-<tr><td>Moulinex Easy Fry Max 6,2L</td><td>109,99 €</td><td>6,2L</td><td>200°C</td><td>8,1/10</td></tr>
-</tbody>
-</table>
-<p>Rispetto al <a href="/it/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a>, il Philips 3000 XL è 20 euro più economico e leggermente meno dotato (niente Wi-Fi, niente doppia resistenza, max 200°C vs 230°C). Tuttavia, la tecnologia RapidAir Starfish offre una uniformità leggermente superiore su verdure e patatine.</p>
-
-<h2>Per chi è ideale il Philips 3000 XL?</h2>
-<ul>
-<li><strong>Famiglie di 3-4 persone</strong> che si avvicinano per la prima volta alle friggitrici ad aria</li>
-<li><strong>Cuochi poco tecnologici</strong> che vogliono premere un tasto e ottenere un risultato</li>
-<li><strong>Acquirenti fedeli al marchio Philips</strong> che apprezzano il servizio post-vendita</li>
-<li><strong>Cuochi attenti alla salute</strong>: la cottura uniforme delle verdure con Starfish è un vero vantaggio</li>
-</ul>
-
-<h2>Verdetto finale dettagliato</h2>
-<p>La Philips Airfryer 3000 Series XL 6,2L dimostra che le cose migliori sono spesso semplici. Non rivoluziona la categoria, ma ciò che fa — cuocere patatine e verdure in modo uniforme, pulito e riproducibile — lo fa meglio di quasi tutti i concorrenti a questo prezzo. A 119,99 euro, è la nostra raccomandazione numero uno per una prima friggitrice ad aria. Punteggio Nura confermato: <strong>8,7/10</strong>.</p>`,
-
-    nl: `<h2>Ons testprotocol</h2>
-<p>Voor deze test van de Philips Airfryer 3000 Series XL 6,2L pasten we het standaard Homenura-protocol toe: 5 weken intensief testen onder echte omstandigheden. Onze testers kookten dagelijks voor 3-4 personen en documenteerden 65 kooksessies. We maten systematisch de werkelijke temperatuur, energieverbruik, geluidsniveau en garuniformiteit.</p>
-
-<h2>Inleiding</h2>
-<p>Philips is de onbetwiste pionier van de airfryer en heeft deze technologie sinds 2010 gepopulariseerd met het gepatenteerde RapidAir-systeem. In 2026 zet het Nederlandse merk door met de 3000 Serie, gericht op het toegankelijk maken van hoogwaardige hetelucht-bereiding. De Philips Airfryer 3000 Series XL 6,2L, geprijsd op 119,99 euro, is het antwoord van Philips voor wie merkbetrouwbaarheid zoekt zonder premium-prijs.</p>
-<p>Bij Homenura testten we dit model 5 weken lang met een gezin van 3-4 personen. Met een Nura-score van <strong>8,7/10</strong> blijkt de Philips 3000 XL een van de beste keuzes in zijn prijsklasse.</p>
-
-<h2>Technische specificaties</h2>
-<table>
-<thead><tr><th>Kenmerk</th><th>Detail</th></tr></thead>
-<tbody>
-<tr><td>Capaciteit</td><td>6,2 liter</td></tr>
-<tr><td>Vermogen</td><td>2.000 W</td></tr>
-<tr><td>Temperatuurbereik</td><td>80°C - 200°C</td></tr>
-<tr><td>Afmetingen (B x D x H)</td><td>30,2 x 38,4 x 33 cm</td></tr>
-<tr><td>Gewicht</td><td>5,4 kg</td></tr>
-<tr><td>Technologie</td><td>RapidAir (gepatenteerde luchtcirculatie)</td></tr>
-<tr><td>Programma's</td><td>7 (friet, kip, vis, groenten, steak, garnalen, cake)</td></tr>
-<tr><td>Prijs</td><td>€119,99</td></tr>
-</tbody>
-</table>
-
-<h2>Design en bouwkwaliteit</h2>
-<p>De Philips 3000 XL heeft het kenmerkende ingetogen, afgeronde Philips-design. De mat kunststof behuizing is prettig en vingerafdrukbestendig. Met een voetafdruk van 30,2 x 38,4 cm en 33 cm hoogte past hij onder de meeste keukenkasten. Het beroemde Starfish-design in de mand optimaliseert de heteluchtcirculatie.</p>
-
-<h2>Kookprestaties</h2>
-<h3>Friet en aardappelen</h3>
-<p>Met 600 g versgeknipte 10 mm friet behaalden we uitstekende resultaten bij <strong>200°C gedurende 20 minuten</strong>. De garing is opmerkelijk gelijkmatig dankzij het Starfish-design. Diepvriesfriet (500 g) is klaar in 16 minuten bij 200°C.</p>
-
-<h3>Kip en vlees</h3>
-<p>Kippenpoten (4 stuks) bij 180°C gedurende 28 minuten leveren krokante huid en sappig vlees. De maximale temperatuur van 200°C is de belangrijkste beperking voor vlees, waar de Maillard-korst minder uitgesproken is dan bij modellen die 230-240°C halen.</p>
-
-<h3>Groenten</h3>
-<p>Groenten zijn een sterk punt: broccoli, spruitjes, wortelen en courgette bij <strong>180°C gedurende 15 minuten</strong> komen er perfect gegart uit met gekarameliseerde puntjes.</p>
-
-<h2>Gebruiksgemak</h2>
-<p>De start is direct. Geen app nodig, geen Wi-Fi. De 7 programma's zijn goed afgesteld en het piepje halverwege herinnert je eraan om te schudden. De reiniging is uitstekend: vaatwasmachinebestendige mand en zeer effectieve antiaanbaklaag.</p>
-
-<h2>Energieverbruik</h2>
-<p>Voor een frietsessie van 20 minuten bij 200°C: <strong>0,55 kWh</strong>. Een conventionele oven verbruikt circa 1,5 kWh. De besparing bedraagt 60-70% ten opzichte van een traditionele oven.</p>
-
-<h2>Sterke en zwakke punten</h2>
-<h3>Sterke punten</h3>
-<ul>
-<li><strong>Bewezen RapidAir-technologie</strong>: gelijkmatig bakken dankzij Starfish-design</li>
-<li><strong>Aantrekkelijke prijs</strong>: €119,99 voor een premiummerk</li>
-<li><strong>Eenvoud</strong>: intuïtief interface, direct bruikbaar</li>
-<li><strong>Voorbeeldige reiniging</strong>: vaatwasmachinebestendige mand</li>
-<li><strong>Compact formaat</strong>: redelijke voetafdruk voor 6,2L</li>
-</ul>
-<h3>Zwakke punten</h3>
-<ul>
-<li><strong>Max. temperatuur 200°C</strong>: onvoldoende voor optimaal aanbraden</li>
-<li><strong>Geen connectiviteit</strong>: geen app</li>
-<li><strong>Enkele lade</strong>: geen dubbel gelijktijdig koken</li>
-<li><strong>Timer beperkt tot 60 min</strong>: geen droogmodus</li>
-</ul>
-
-<h2>Gedetailleerde Nura Score</h2>
-<table>
-<thead><tr><th>Criterium</th><th>Score</th><th>Commentaar</th></tr></thead>
-<tbody>
-<tr><td>Kookprestaties</td><td>8,5/10</td><td>Uitstekend voor friet en groenten, beperkt tot 200°C</td></tr>
-<tr><td>Gebruiksgemak</td><td>9,5/10</td><td>Eenvoudigste op de markt</td></tr>
-<tr><td>Design</td><td>8,5/10</td><td>Ingetogen, goed afgewerkt, compact</td></tr>
-<tr><td>Veelzijdigheid</td><td>7,5/10</td><td>Enkele lade, geen drogen, 200°C max</td></tr>
-<tr><td>Prijs-kwaliteit</td><td>9,5/10</td><td>€119,99 voor Philips-kwaliteit, onverslaanbaar</td></tr>
-<tr><td>Reiniging</td><td>9,5/10</td><td>Beste in onze selectie</td></tr>
-<tr><td>Geluid</td><td>8,5/10</td><td>58 dB, goed gemiddelde</td></tr>
-<tr><td><strong>Totale Nura Score</strong></td><td><strong>8,7/10</strong></td><td><strong>Beste prijs-kwaliteit airfryer 2026</strong></td></tr>
-</tbody>
-</table>
-
-<h2>Verdict</h2>
-<p>De Philips Airfryer 3000 Series XL 6,2L is <strong>de beste airfryer qua prijs-kwaliteit van 2026</strong>. Ideaal voor gezinnen van 3-4 personen. Voor dubbel koken of hogere temperaturen, bekijk de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a>. Meer opties in onze <a href="/nl/guides/airfryers">complete gids 2026</a>.</p>
-
-<h2>Vergelijking met de concurrentie</h2>
-<table>
-<thead><tr><th>Model</th><th>Prijs</th><th>Capaciteit</th><th>Max temp</th><th>Nura Score</th></tr></thead>
-<tbody>
-<tr><td><strong>Philips 3000 Series XL</strong></td><td>€119,99</td><td>6,2L</td><td>200°C</td><td>8,7/10</td></tr>
-<tr><td>Cosori Dual Blaze 6,4L</td><td>€139,99</td><td>6,4L</td><td>230°C</td><td>8,9/10</td></tr>
-<tr><td>Xiaomi Smart Air Fryer Pro 5L</td><td>€89,99</td><td>5L</td><td>200°C</td><td>8,2/10</td></tr>
-<tr><td>Moulinex Easy Fry Max 6,2L</td><td>€109,99</td><td>6,2L</td><td>200°C</td><td>8,1/10</td></tr>
-</tbody>
-</table>
-<p>Ten opzichte van de <a href="/nl/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a> is de Philips 3000 XL €20 goedkoper en iets minder uitgerust (geen Wi-Fi, geen dubbel verwarmingselement, max 200°C vs 230°C). De RapidAir Starfish-technologie levert echter iets betere gelijkmatigheid bij groenten en friet.</p>
-
-<h2>Voor wie is de Philips 3000 XL ideaal?</h2>
-<ul>
-<li><strong>Gezinnen van 3-4 personen</strong> die beginnen met airfryers en een betrouwbaar eerste apparaat zoeken</li>
-<li><strong>Niet-technische koks</strong> die gewoon een knop willen indrukken en resultaat willen</li>
-<li><strong>Merkloyale kopers</strong> die de klantenservice van Philips waarderen</li>
-<li><strong>Gezondheidsbewuste koks</strong>: de gelijkmatige groentebereiding met Starfish is een echt voordeel</li>
-</ul>
-
-<h2>Gedetailleerd eindverdikt</h2>
-<p>De Philips Airfryer 3000 Series XL 6,2L bewijst dat de beste dingen vaak eenvoudig zijn. Hij revolutioneert de categorie niet, maar wat hij doet — friet en groenten gelijkmatig, schoon en reproduceerbaar bereiden — doet hij beter dan vrijwel elke concurrent in dit prijssegment. Voor €119,99 is het onze aanbeveling nummer één voor een eerste airfryer. Bevestigde Nura Score: <strong>8,7/10</strong>.</p>`,
+    fr: "<p><strong>Le Philips Airfryer 3000 Series XL 6,2 L est un airfryer à tiroir unique simple, fiable et facile à nettoyer, bien dimensionné pour un foyer de 3 à 5 personnes.</strong> Il ne cherche pas à tout faire : pas de Wi-Fi, pas de double zone, une température plafonnée à 200 °C, mais une cuisson homogène grâce à la technologie RapidAir et une prise en main immédiate.</p>\n<p>Précision importante : Home Nura ne teste pas les appareils en cuisine. Cet avis s'appuie sur la fiche technique officielle de Philips, sur les tests publiés par des organismes et médias indépendants et sur la synthèse des avis d'acheteurs vérifiés. L'objectif est de vous dire clairement à qui ce modèle convient, et dans quels cas un concurrent sera plus adapté.</p>\n\n<h2>L'essentiel en bref</h2>\n<ul>\n<li><strong>Pour qui :</strong> les familles de 3 à 5 personnes qui veulent un premier airfryer sans complication, ou qui remplacent un petit modèle de 3 à 4 litres.</li>\n<li><strong>Points forts :</strong> grande cuve de 6,2 L (jusqu'à 1,2 kg d'aliments), cuisson régulière, écran tactile lisible, 7 programmes, fonction maintien au chaud, panier et tiroir compatibles lave-vaisselle.</li>\n<li><strong>Limites :</strong> un seul compartiment, 200 °C maximum, aucune application, encombrement notable en largeur.</li>\n<li><strong>Notre conclusion :</strong> un excellent choix « sans surprise » dans l'entrée du milieu de gamme, à condition de ne pas avoir besoin de cuire deux plats à la fois.</li>\n</ul>\n\n<h2>Fiche technique du Philips 3000 Series XL</h2>\n<p>Le modèle de référence en Europe est le Philips HD9270 (déclinaisons HD9270/70, /90, /96 selon la couleur), commercialisé sous le nom « Airfryer Série 3000 XL » ou « Essential XL » selon les pays. Voici les caractéristiques annoncées par le fabricant :</p>\n<table>\n<thead><tr><th>Caractéristique</th><th>Détail</th></tr></thead>\n<tbody>\n<tr><td>Capacité de la cuve</td><td>6,2 litres, jusqu'à 1,2 kg d'aliments</td></tr>\n<tr><td>Puissance</td><td>2 000 W</td></tr>\n<tr><td>Température maximale</td><td>200 °C</td></tr>\n<tr><td>Commandes</td><td>Écran tactile avec affichage LED</td></tr>\n<tr><td>Programmes</td><td>7 préréglages (snacks surgelés, frites fraîches, viande, poisson, pilons de poulet, gâteau, légumes grillés)</td></tr>\n<tr><td>Fonctions pratiques</td><td>Maintien au chaud jusqu'à 30 minutes, minuterie 60 minutes, arrêt automatique</td></tr>\n<tr><td>Dimensions</td><td>environ 40,3 × 31,5 × 30,7 cm</td></tr>\n<tr><td>Poids</td><td>environ 5,5 kg</td></tr>\n<tr><td>Entretien</td><td>Panier et tiroir amovibles, compatibles lave-vaisselle</td></tr>\n<tr><td>Connectivité</td><td>Aucune (pas de Wi-Fi ni de Bluetooth)</td></tr>\n</tbody>\n</table>\n<p>Selon les marchés, Philips propose aussi une version plus récente de la même capacité équipée d'un hublot de cuisson (référence NA231). Les grandes lignes restent identiques : 6,2 L, tiroir unique et technologie RapidAir. Vérifiez la référence exacte sur la fiche produit avant l'achat, car les programmes et la plage de température peuvent varier d'une version à l'autre.</p>\n\n<h2>Ce qui convainc</h2>\n<h3>Une cuisson régulière grâce à RapidAir</h3>\n<p>Philips a popularisé l'airfryer au début des années 2010 et la technologie RapidAir reste son argument principal : un flux d'air chaud puissant, guidé par le fond en forme d'étoile du panier, qui enveloppe les aliments. Les tests indépendants publiés et les retours d'acheteurs convergent sur ce point : frites, nuggets, légumes rôtis et pilons de poulet ressortent dorés de façon homogène, à condition de secouer le panier à mi-cuisson et de ne pas le remplir à ras bord.</p>\n<h3>Une capacité réellement familiale</h3>\n<p>Avec 6,2 litres et environ 1,2 kg d'aliments par fournée, ce modèle se situe dans la catégorie XL. C'est suffisant pour un plat principal de 3 à 4 personnes, ou un accompagnement pour 5. Les propriétaires qui passent d'un petit airfryer de 3 ou 4 litres soulignent souvent la fin des fournées successives pour une simple portion de frites familiale.</p>\n<h3>Une prise en main immédiate</h3>\n<p>L'interface tactile se limite à l'essentiel : les 7 programmes, le réglage de la température et du temps, et la mise en route. Pas de compte à créer, pas d'application à installer, pas de mise à jour. Pour un premier airfryer ou pour des utilisateurs peu attirés par la domotique, c'est un vrai avantage. La fonction maintien au chaud, jusqu'à 30 minutes, est pratique quand le reste du repas n'est pas encore prêt.</p>\n<h3>Un nettoyage simple</h3>\n<p>Le panier et le tiroir se retirent facilement et passent au lave-vaisselle. Le revêtement antiadhésif est apprécié dans les avis d'acheteurs. Pour le préserver dans la durée, un lavage à la main avec une éponge non abrasive reste préférable, comme pour tout revêtement de ce type.</p>\n\n<h2>Les limites à connaître</h2>\n<ul>\n<li><strong>Un seul compartiment :</strong> impossible de cuire viande et accompagnement séparément en même temps. Si c'est votre usage principal, un modèle double zone sera plus adapté (voir notre guide <a href=\"/fr/blog/airfryer-simple-vs-double-panier\">simple ou double panier</a>).</li>\n<li><strong>200 °C maximum :</strong> suffisant pour la grande majorité des préparations, mais un peu juste pour saisir fortement une pièce de viande. Certains concurrents montent à 240 °C.</li>\n<li><strong>Pas de connectivité :</strong> aucun suivi à distance ni recette envoyée depuis un smartphone. C'est un choix assumé, mais à savoir si vous comptez intégrer l'appareil à une cuisine connectée.</li>\n<li><strong>Encombrement :</strong> avec environ 40 cm de largeur, il demande une place dédiée sur le plan de travail. Mesurez avant d'acheter, en gardant de l'espace autour de la sortie d'air.</li>\n<li><strong>Revêtement à ménager :</strong> comme sur la plupart des airfryers, des ustensiles métalliques ou des éponges abrasives peuvent abîmer l'antiadhésif.</li>\n</ul>\n\n<h2>Ce qu'en disent les acheteurs</h2>\n<p>La synthèse des avis vérifiés est globalement très positive. Les éloges reviennent sur trois points : la régularité de cuisson, la simplicité d'utilisation et la facilité de nettoyage. Les remarques négatives concernent surtout la taille de l'appareil, l'absence de double compartiment et, pour une partie des utilisateurs, l'usure de l'antiadhésif après un usage intensif ou des lavages agressifs. Le bruit de la ventilation est généralement jugé normal pour un airfryer de cette puissance.</p>\n\n<h2>Face aux alternatives</h2>\n<p>Le Philips 3000 Series XL n'est pas le seul choix pertinent. Selon vos priorités, voici les modèles à comparer.</p>\n<h3>Cosori Dual Blaze 6,4 L : le connecté qui cuit sans retourner</h3>\n<p>Le Cosori Dual Blaze ajoute une seconde résistance en partie basse, ce qui limite le besoin de retourner les aliments, ainsi qu'une application (VeSync) pour lancer et suivre la cuisson à distance. Sa température maximale annoncée est de 205 °C. <strong>Pour qui :</strong> les foyers de 2 à 4 personnes qui veulent une cuisson plus uniforme sans manipulation et un pilotage depuis le smartphone. <strong>Limite :</strong> toujours un seul compartiment.</p>\n<h3>Ninja Foodi FlexDrawer 10,4 L : la grande famille</h3>\n<p>Le FlexDrawer propose un grand tiroir de 10,4 L qui peut être divisé en deux zones de 5,2 L pilotées indépendamment, avec une température maximale de 240 °C. <strong>Pour qui :</strong> les familles de 5 personnes et plus, ou ceux qui veulent cuire deux plats simultanément. <strong>Limite :</strong> un appareil nettement plus volumineux et plus gourmand en puissance.</p>\n<h3>Moulinex Easy Fry Max 5 L : le choix compact et économique</h3>\n<p>Plus petit (5 L), avec un thermostat de 80 à 200 °C et 10 programmes automatiques, l'Easy Fry Max vise les petits budgets et les cuisines où la place manque. <strong>Pour qui :</strong> les couples ou les foyers de 2 à 3 personnes. <strong>Limite :</strong> capacité plus juste pour une famille.</p>\n<h3>Philips Airfryer Combi XXL Connecté 8,3 L : le haut de gamme de la marque</h3>\n<p>Pour ceux qui aiment la philosophie Philips mais veulent davantage : grande capacité de 8,3 L, sonde de température intégrée, programmes automatiques nombreux et pilotage via l'application HomeID. <strong>Pour qui :</strong> les grandes familles et les cuisiniers qui veulent un contrôle précis des viandes. <strong>Limite :</strong> nettement plus haut de gamme et plus encombrant.</p>\n\n<h2>Tableau comparatif</h2>\n<table>\n<thead><tr><th>Modèle</th><th>Capacité</th><th>Temp. max</th><th>Connectivité</th><th>Idéal pour</th></tr></thead>\n<tbody>\n<tr><td><strong>Philips 3000 Series XL</strong></td><td>6,2 L, 1 tiroir</td><td>200 °C</td><td>Non</td><td>Famille de 3 à 5, simplicité</td></tr>\n<tr><td>Cosori Dual Blaze</td><td>6,4 L, 1 tiroir</td><td>205 °C</td><td>Wi-Fi (VeSync)</td><td>Cuisson sans retourner, pilotage mobile</td></tr>\n<tr><td>Ninja Foodi FlexDrawer</td><td>10,4 L, divisible en 2 × 5,2 L</td><td>240 °C</td><td>Non</td><td>Grande famille, deux plats à la fois</td></tr>\n<tr><td>Moulinex Easy Fry Max</td><td>5 L, 1 tiroir</td><td>200 °C</td><td>Non</td><td>Petit foyer, petit budget</td></tr>\n<tr><td>Philips Combi XXL Connecté</td><td>8,3 L, 1 tiroir</td><td>selon fiche fabricant</td><td>Wi-Fi (HomeID)</td><td>Grande famille, sonde de cuisson</td></tr>\n</tbody>\n</table>\n\n<h2>Les erreurs à éviter</h2>\n<ul>\n<li><strong>Remplir le panier à ras bord :</strong> l'air doit circuler. Au-delà d'une couche épaisse, la cuisson devient irrégulière. Mieux vaut deux fournées qu'un résultat mou.</li>\n<li><strong>Oublier de secouer :</strong> pour les frites et petits morceaux, un secouage à mi-cuisson fait une vraie différence.</li>\n<li><strong>Choisir trop petit… ou trop grand :</strong> 6,2 L convient à 3 à 5 personnes. Pour un couple, un 4 à 5 L suffit ; au-delà de 5 personnes, un 8 L ou un double tiroir sera plus confortable. Notre guide <a href=\"/fr/blog/comment-choisir-airfryer-famille\">comment choisir un airfryer pour la famille</a> détaille les bonnes tailles.</li>\n<li><strong>Abîmer le revêtement :</strong> évitez les pinces métalliques et les éponges grattantes.</li>\n<li><strong>Attendre une connectivité :</strong> ce modèle n'en a pas. Si l'application compte pour vous, orientez-vous vers le Cosori Dual Blaze ou le Philips Combi XXL Connecté.</li>\n</ul>\n\n<h2>Conseils d'utilisation et de sécurité</h2>\n<p>Comme tout airfryer, le Philips 3000 Series XL doit être posé sur une surface plane, stable et résistante à la chaleur, avec un dégagement suffisant à l'arrière et sur les côtés pour la sortie d'air chaud. Ne le placez pas sous un placard bas pendant la cuisson. N'utilisez pas de papier cuisson seul dans le panier pendant le préchauffage : sans aliments pour le maintenir, il peut être aspiré vers la résistance. Branchez l'appareil directement sur une prise murale plutôt que sur une multiprise déjà chargée, et laissez le tiroir refroidir avant de le nettoyer. Pour réduire votre consommation, pensez aussi à nos conseils sur les <a href=\"/fr/blog/airfryer-economies-energie\">économies d'énergie avec un airfryer</a>.</p>\n\n<h2>Verdict</h2>\n<p>Le Philips Airfryer 3000 Series XL 6,2 L est un choix sûr pour une famille qui veut un airfryer simple, régulier et facile à entretenir. Il ne brille pas par ses fonctions : pas de double zone, pas d'application, 200 °C maximum. Mais il fait l'essentiel avec constance, ce que confirment les tests indépendants et les avis d'acheteurs.</p>\n<p>Si vous voulez piloter la cuisson depuis votre téléphone, préférez le Cosori Dual Blaze. Si vous cuisinez pour 5 personnes ou plus, ou souhaitez deux plats en même temps, le Ninja Foodi FlexDrawer sera plus adapté. Pour comparer tous les modèles, consultez notre <a href=\"/fr/guides/airfryers\">guide des meilleurs airfryers</a> et notre <a href=\"/fr/blog/ninja-vs-philips-quel-choisir\">comparatif Ninja vs Philips</a>.</p>",
+    en: "<p><strong>The Philips Airfryer 3000 Series XL 6.2L is a simple, reliable and easy-to-clean single-drawer air fryer, well sized for a household of 3 to 5 people.</strong> It does not try to do everything: no Wi-Fi, no dual zone and a 200 °C ceiling, but even cooking thanks to RapidAir technology and controls you understand in seconds.</p>\n<p>An important note: Home Nura does not test appliances in a kitchen. This review is based on Philips' official specifications, on tests published by independent organisations and media, and on a synthesis of verified buyer reviews. The goal is to tell you clearly who this model suits, and when a competitor will be a better fit.</p>\n\n<h2>The short version</h2>\n<ul>\n<li><strong>Who it is for:</strong> families of 3 to 5 who want a hassle-free first air fryer, or who are replacing a small 3 to 4-litre model.</li>\n<li><strong>Strengths:</strong> large 6.2L pan (up to 1.2 kg of food), even cooking, clear touchscreen, 7 presets, keep-warm function, dishwasher-safe basket and drawer.</li>\n<li><strong>Limits:</strong> a single compartment, 200 °C maximum, no app, quite wide on the worktop.</li>\n<li><strong>Our take:</strong> an excellent \"no surprises\" choice at the lower end of the mid-range, as long as you do not need to cook two dishes at once.</li>\n</ul>\n\n<h2>Philips 3000 Series XL specifications</h2>\n<p>The reference model in Europe is the Philips HD9270 (HD9270/70, /90, /96 depending on colour), sold as \"Airfryer 3000 Series XL\" or \"Essential XL\" depending on the country. Here are the manufacturer's stated specifications:</p>\n<table>\n<thead><tr><th>Feature</th><th>Detail</th></tr></thead>\n<tbody>\n<tr><td>Pan capacity</td><td>6.2 litres, up to 1.2 kg of food</td></tr>\n<tr><td>Power</td><td>2,000 W</td></tr>\n<tr><td>Maximum temperature</td><td>200 °C</td></tr>\n<tr><td>Controls</td><td>Touchscreen with LED display</td></tr>\n<tr><td>Presets</td><td>7 programmes (frozen snacks, fresh fries, meat, fish, chicken drumsticks, cake, grilled vegetables)</td></tr>\n<tr><td>Handy functions</td><td>Keep warm for up to 30 minutes, 60-minute timer, automatic shut-off</td></tr>\n<tr><td>Dimensions</td><td>approx. 40.3 × 31.5 × 30.7 cm</td></tr>\n<tr><td>Weight</td><td>approx. 5.5 kg</td></tr>\n<tr><td>Cleaning</td><td>Removable basket and drawer, dishwasher safe</td></tr>\n<tr><td>Connectivity</td><td>None (no Wi-Fi or Bluetooth)</td></tr>\n</tbody>\n</table>\n<p>In some markets Philips also sells a newer version with the same capacity and a cooking window (model NA231). The essentials stay the same: 6.2L, a single drawer and RapidAir technology. Check the exact model number on the product page before buying, because presets and temperature range can differ between versions.</p>\n\n<h2>What works well</h2>\n<h3>Even cooking thanks to RapidAir</h3>\n<p>Philips popularised the air fryer in the early 2010s, and RapidAir remains its main selling point: a strong flow of hot air, guided by the star-shaped base of the basket, that wraps around the food. Published independent tests and buyer feedback agree on this: fries, nuggets, roasted vegetables and chicken drumsticks come out evenly browned, provided you shake the basket halfway and do not fill it to the brim.</p>\n<h3>Genuine family capacity</h3>\n<p>With 6.2 litres and around 1.2 kg of food per batch, this model sits firmly in the XL category. That is enough for a main dish for 3 to 4 people, or a side for 5. Owners moving up from a small 3 or 4-litre air fryer often mention that they no longer need several batches for a family portion of fries.</p>\n<h3>Instantly easy to use</h3>\n<p>The touch interface sticks to the essentials: the 7 presets, temperature and time settings, and start. No account to create, no app to install, no updates. For a first air fryer, or for people who are not interested in smart home gadgets, that is a real advantage. The keep-warm function, for up to 30 minutes, is handy when the rest of the meal is not ready yet.</p>\n<h3>Easy cleaning</h3>\n<p>The basket and drawer come out easily and go in the dishwasher. Buyers appreciate the non-stick coating. To keep it in good shape over time, hand washing with a non-abrasive sponge is still the better option, as with any coating of this kind.</p>\n\n<h2>Limits to be aware of</h2>\n<ul>\n<li><strong>A single compartment:</strong> you cannot cook meat and a side separately at the same time. If that is your main use, a dual-zone model will suit you better (see our guide to <a href=\"/en/blog/airfryer-simple-vs-double-panier\">single or dual basket</a>).</li>\n<li><strong>200 °C maximum:</strong> enough for the vast majority of dishes, but a little short for a hard sear on a piece of meat. Some competitors reach 240 °C.</li>\n<li><strong>No connectivity:</strong> no remote monitoring and no recipes sent from a smartphone. It is a deliberate choice, but worth knowing if you plan a connected kitchen.</li>\n<li><strong>Footprint:</strong> at around 40 cm wide, it needs a dedicated spot on the worktop. Measure before buying and leave room around the air outlet.</li>\n<li><strong>Coating needs care:</strong> as with most air fryers, metal utensils or abrasive sponges can damage the non-stick surface.</li>\n</ul>\n\n<h2>What buyers say</h2>\n<p>Verified reviews are very positive overall. Praise focuses on three points: consistent cooking, ease of use and easy cleaning. Negative comments are mostly about the size of the appliance, the lack of a second compartment and, for some users, wear of the non-stick coating after heavy use or harsh washing. Fan noise is generally considered normal for an air fryer of this power.</p>\n\n<h2>How it compares with the alternatives</h2>\n<p>The Philips 3000 Series XL is not the only sensible option. Depending on your priorities, these are the models to compare.</p>\n<h3>Cosori Dual Blaze 6.4L: the connected one that cooks without flipping</h3>\n<p>The Cosori Dual Blaze adds a second heating element at the bottom, which reduces the need to turn food, plus an app (VeSync) to start and monitor cooking remotely. Its stated maximum temperature is 205 °C. <strong>Who it is for:</strong> households of 2 to 4 who want more even cooking with less handling and control from a smartphone. <strong>Limit:</strong> still a single compartment.</p>\n<h3>Ninja Foodi FlexDrawer 10.4L: for large families</h3>\n<p>The FlexDrawer offers a large 10.4L drawer that can be split into two independently controlled 5.2L zones, with a maximum temperature of 240 °C. <strong>Who it is for:</strong> families of 5 or more, or anyone who wants to cook two dishes at once. <strong>Limit:</strong> a much bulkier appliance that draws more power.</p>\n<h3>Moulinex Easy Fry Max 5L: the compact, budget-friendly pick</h3>\n<p>Smaller (5L), with an 80 to 200 °C thermostat and 10 automatic programmes, the Easy Fry Max targets tighter budgets and kitchens short on space. <strong>Who it is for:</strong> couples or households of 2 to 3. <strong>Limit:</strong> capacity is tighter for a family.</p>\n<h3>Philips Airfryer Combi XXL Connected 8.3L: the brand's premium model</h3>\n<p>For those who like the Philips approach but want more: a large 8.3L capacity, a built-in temperature probe, many automatic programmes and control through the HomeID app. <strong>Who it is for:</strong> large families and cooks who want precise control over meat. <strong>Limit:</strong> clearly more premium and bulkier.</p>\n\n<h2>Comparison table</h2>\n<table>\n<thead><tr><th>Model</th><th>Capacity</th><th>Max temp.</th><th>Connectivity</th><th>Best for</th></tr></thead>\n<tbody>\n<tr><td><strong>Philips 3000 Series XL</strong></td><td>6.2L, 1 drawer</td><td>200 °C</td><td>No</td><td>Families of 3 to 5, simplicity</td></tr>\n<tr><td>Cosori Dual Blaze</td><td>6.4L, 1 drawer</td><td>205 °C</td><td>Wi-Fi (VeSync)</td><td>No-flip cooking, phone control</td></tr>\n<tr><td>Ninja Foodi FlexDrawer</td><td>10.4L, splits into 2 × 5.2L</td><td>240 °C</td><td>No</td><td>Large families, two dishes at once</td></tr>\n<tr><td>Moulinex Easy Fry Max</td><td>5L, 1 drawer</td><td>200 °C</td><td>No</td><td>Small households, tight budget</td></tr>\n<tr><td>Philips Combi XXL Connected</td><td>8.3L, 1 drawer</td><td>see manufacturer sheet</td><td>Wi-Fi (HomeID)</td><td>Large families, cooking probe</td></tr>\n</tbody>\n</table>\n\n<h2>Mistakes to avoid</h2>\n<ul>\n<li><strong>Filling the basket to the brim:</strong> air needs to circulate. Beyond a thick layer, cooking becomes uneven. Two batches beat a soggy result.</li>\n<li><strong>Forgetting to shake:</strong> for fries and small pieces, a shake halfway through makes a real difference.</li>\n<li><strong>Choosing too small… or too big:</strong> 6.2L suits 3 to 5 people. For a couple, 4 to 5L is enough; above 5 people, an 8L or dual-drawer model is more comfortable. Our guide on <a href=\"/en/blog/comment-choisir-airfryer-famille\">choosing an air fryer for a family</a> covers the right sizes.</li>\n<li><strong>Damaging the coating:</strong> avoid metal tongs and scouring pads.</li>\n<li><strong>Expecting connectivity:</strong> this model has none. If an app matters to you, look at the Cosori Dual Blaze or the Philips Combi XXL Connected.</li>\n</ul>\n\n<h2>Usage and safety tips</h2>\n<p>Like any air fryer, the Philips 3000 Series XL should stand on a flat, stable, heat-resistant surface, with enough clearance at the back and sides for the hot air outlet. Do not place it under a low wall cupboard while cooking. Never put baking paper alone in the basket during preheating: without food to hold it down, it can be drawn towards the heating element. Plug the appliance directly into a wall socket rather than an already loaded power strip, and let the drawer cool before cleaning it. To cut your energy use, see our tips on <a href=\"/en/blog/airfryer-economies-energie\">saving energy with an air fryer</a>.</p>\n\n<h2>Verdict</h2>\n<p>The Philips Airfryer 3000 Series XL 6.2L is a safe choice for a family that wants a simple, consistent and easy-to-maintain air fryer. It does not stand out for features: no dual zone, no app, 200 °C maximum. But it does the essentials reliably, as independent tests and buyer reviews confirm.</p>\n<p>If you want to control cooking from your phone, go for the Cosori Dual Blaze. If you cook for 5 or more, or want two dishes at the same time, the Ninja Foodi FlexDrawer is a better fit. To compare every model, see our <a href=\"/en/guides/airfryers\">guide to the best air fryers</a> and our <a href=\"/en/blog/ninja-vs-philips-quel-choisir\">Ninja vs Philips comparison</a>.</p>",
+    de: "<p><strong>Der Philips Airfryer 3000 Series XL 6,2 L ist eine einfache, zuverlässige und leicht zu reinigende Heißluftfritteuse mit einer Schublade, passend dimensioniert für einen Haushalt mit 3 bis 5 Personen.</strong> Er will nicht alles können: kein WLAN, keine Doppelzone, maximal 200 °C. Dafür gart er dank RapidAir-Technologie gleichmäßig und ist sofort verständlich zu bedienen.</p>\n<p>Wichtig vorab: Home Nura testet Geräte nicht selbst in der Küche. Diese Bewertung stützt sich auf das offizielle Datenblatt von Philips, auf veröffentlichte Tests unabhängiger Organisationen und Medien sowie auf eine Auswertung verifizierter Käuferbewertungen. Ziel ist es, klar zu sagen, für wen sich dieses Modell eignet und wann ein Konkurrent besser passt.</p>\n\n<h2>Das Wichtigste in Kürze</h2>\n<ul>\n<li><strong>Für wen:</strong> Familien mit 3 bis 5 Personen, die eine unkomplizierte erste Heißluftfritteuse suchen oder ein kleines 3- bis 4-Liter-Modell ersetzen.</li>\n<li><strong>Stärken:</strong> großer 6,2-Liter-Behälter (bis 1,2 kg Lebensmittel), gleichmäßiges Garen, gut lesbares Touch-Display, 7 Programme, Warmhaltefunktion, spülmaschinenfester Korb und Schublade.</li>\n<li><strong>Grenzen:</strong> nur ein Garraum, maximal 200 °C, keine App, recht breit auf der Arbeitsfläche.</li>\n<li><strong>Unser Fazit:</strong> eine hervorragende Wahl „ohne Überraschungen“ im unteren Mittelklassesegment, solange Sie nicht zwei Gerichte gleichzeitig zubereiten müssen.</li>\n</ul>\n\n<h2>Technische Daten des Philips 3000 Series XL</h2>\n<p>Das Referenzmodell in Europa ist der Philips HD9270 (Varianten HD9270/70, /90, /96 je nach Farbe), je nach Land als „Airfryer 3000 Series XL“ oder „Essential XL“ verkauft. Die Herstellerangaben im Überblick:</p>\n<table>\n<thead><tr><th>Merkmal</th><th>Detail</th></tr></thead>\n<tbody>\n<tr><td>Fassungsvermögen</td><td>6,2 Liter, bis 1,2 kg Lebensmittel</td></tr>\n<tr><td>Leistung</td><td>2.000 W</td></tr>\n<tr><td>Maximaltemperatur</td><td>200 °C</td></tr>\n<tr><td>Bedienung</td><td>Touch-Display mit LED-Anzeige</td></tr>\n<tr><td>Programme</td><td>7 Voreinstellungen (Tiefkühlsnacks, frische Pommes, Fleisch, Fisch, Hähnchenschenkel, Kuchen, gegrilltes Gemüse)</td></tr>\n<tr><td>Praktische Funktionen</td><td>Warmhalten bis zu 30 Minuten, 60-Minuten-Timer, automatische Abschaltung</td></tr>\n<tr><td>Abmessungen</td><td>ca. 40,3 × 31,5 × 30,7 cm</td></tr>\n<tr><td>Gewicht</td><td>ca. 5,5 kg</td></tr>\n<tr><td>Reinigung</td><td>Abnehmbarer Korb und Schublade, spülmaschinenfest</td></tr>\n<tr><td>Konnektivität</td><td>Keine (weder WLAN noch Bluetooth)</td></tr>\n</tbody>\n</table>\n<p>Je nach Markt bietet Philips auch eine neuere Version mit gleichem Volumen und Sichtfenster an (Modell NA231). Die Grundzüge bleiben gleich: 6,2 Liter, eine Schublade und RapidAir-Technologie. Prüfen Sie vor dem Kauf die genaue Modellnummer auf der Produktseite, denn Programme und Temperaturbereich können zwischen den Versionen abweichen.</p>\n\n<h2>Was überzeugt</h2>\n<h3>Gleichmäßiges Garen dank RapidAir</h3>\n<p>Philips hat die Heißluftfritteuse Anfang der 2010er-Jahre populär gemacht, und RapidAir bleibt das zentrale Argument: ein kräftiger Heißluftstrom, gelenkt durch den sternförmigen Boden des Korbs, der die Lebensmittel umströmt. Veröffentlichte unabhängige Tests und Käuferbewertungen sind sich hier einig: Pommes, Nuggets, Ofengemüse und Hähnchenschenkel werden gleichmäßig gebräunt, sofern man den Korb zur Hälfte der Garzeit schüttelt und ihn nicht bis zum Rand füllt.</p>\n<h3>Echte Familiengröße</h3>\n<p>Mit 6,2 Litern und rund 1,2 kg Lebensmitteln pro Durchgang gehört das Modell klar in die XL-Klasse. Das reicht für ein Hauptgericht für 3 bis 4 Personen oder eine Beilage für 5. Wer von einem kleinen 3- oder 4-Liter-Gerät umsteigt, betont oft, dass für eine Familienportion Pommes keine mehreren Durchgänge mehr nötig sind.</p>\n<h3>Sofort verständlich</h3>\n<p>Die Touch-Bedienung beschränkt sich aufs Wesentliche: die 7 Programme, Temperatur und Zeit, Start. Kein Konto, keine App, keine Updates. Für die erste Heißluftfritteuse oder für Menschen ohne Interesse an Smart-Home-Technik ist das ein echter Vorteil. Die Warmhaltefunktion für bis zu 30 Minuten ist praktisch, wenn der Rest des Essens noch nicht fertig ist.</p>\n<h3>Einfache Reinigung</h3>\n<p>Korb und Schublade lassen sich leicht entnehmen und sind spülmaschinenfest. Die Antihaftbeschichtung wird in den Käuferbewertungen gelobt. Damit sie lange hält, ist Handwäsche mit einem nicht kratzenden Schwamm dennoch die bessere Wahl, wie bei jeder Beschichtung dieser Art.</p>\n\n<h2>Grenzen, die man kennen sollte</h2>\n<ul>\n<li><strong>Nur ein Garraum:</strong> Fleisch und Beilage lassen sich nicht getrennt gleichzeitig zubereiten. Ist das Ihr Hauptanwendungsfall, passt ein Doppelzonen-Modell besser (siehe unseren Ratgeber <a href=\"/de/blog/airfryer-simple-vs-double-panier\">eine oder zwei Schubladen</a>).</li>\n<li><strong>Maximal 200 °C:</strong> genug für die allermeisten Gerichte, aber etwas knapp, um Fleisch kräftig anzubraten. Manche Konkurrenten erreichen 240 °C.</li>\n<li><strong>Keine Konnektivität:</strong> keine Fernüberwachung, keine Rezepte vom Smartphone. Eine bewusste Entscheidung, aber wichtig, wenn Sie eine vernetzte Küche planen.</li>\n<li><strong>Platzbedarf:</strong> Mit rund 40 cm Breite braucht das Gerät einen festen Platz auf der Arbeitsfläche. Messen Sie vor dem Kauf nach und lassen Sie Raum um den Luftauslass.</li>\n<li><strong>Beschichtung schonen:</strong> Wie bei den meisten Heißluftfritteusen können Metallutensilien oder kratzende Schwämme die Antihaftschicht beschädigen.</li>\n</ul>\n\n<h2>Was Käufer sagen</h2>\n<p>Die verifizierten Bewertungen fallen insgesamt sehr positiv aus. Gelobt werden vor allem drei Punkte: gleichmäßiges Garen, einfache Bedienung und leichte Reinigung. Kritik betrifft hauptsächlich die Gerätegröße, das Fehlen eines zweiten Garraums und bei einem Teil der Nutzer den Verschleiß der Antihaftbeschichtung nach intensiver Nutzung oder aggressiver Reinigung. Das Lüftergeräusch wird für eine Heißluftfritteuse dieser Leistung meist als normal empfunden.</p>\n\n<h2>Im Vergleich zu den Alternativen</h2>\n<p>Der Philips 3000 Series XL ist nicht die einzige sinnvolle Wahl. Je nach Prioritäten lohnt sich ein Blick auf diese Modelle.</p>\n<h3>Cosori Dual Blaze 6,4 L: vernetzt und ohne Wenden</h3>\n<p>Der Cosori Dual Blaze ergänzt ein zweites Heizelement unten, wodurch das Wenden seltener nötig ist, sowie eine App (VeSync), um das Garen aus der Ferne zu starten und zu verfolgen. Die angegebene Maximaltemperatur liegt bei 205 °C. <strong>Für wen:</strong> Haushalte mit 2 bis 4 Personen, die gleichmäßigeres Garen mit weniger Handgriffen und Steuerung per Smartphone wollen. <strong>Grenze:</strong> ebenfalls nur ein Garraum.</p>\n<h3>Ninja Foodi FlexDrawer 10,4 L: für große Familien</h3>\n<p>Der FlexDrawer bietet eine große 10,4-Liter-Schublade, die sich in zwei unabhängig steuerbare Zonen à 5,2 Liter teilen lässt, mit maximal 240 °C. <strong>Für wen:</strong> Familien ab 5 Personen oder alle, die zwei Gerichte gleichzeitig zubereiten wollen. <strong>Grenze:</strong> deutlich größer und mit höherer Leistungsaufnahme.</p>\n<h3>Moulinex Easy Fry Max 5 L: kompakt und günstig</h3>\n<p>Kleiner (5 Liter), mit Thermostat von 80 bis 200 °C und 10 Automatikprogrammen, richtet sich der Easy Fry Max an kleinere Budgets und Küchen mit wenig Platz. <strong>Für wen:</strong> Paare oder Haushalte mit 2 bis 3 Personen. <strong>Grenze:</strong> für eine Familie eher knapp bemessen.</p>\n<h3>Philips Airfryer Combi XXL Connected 8,3 L: das Spitzenmodell der Marke</h3>\n<p>Für alle, die das Philips-Konzept mögen, aber mehr wollen: großes Volumen von 8,3 Litern, integrierter Temperaturfühler, zahlreiche Automatikprogramme und Steuerung über die HomeID-App. <strong>Für wen:</strong> große Familien und Köche, die Fleisch präzise garen wollen. <strong>Grenze:</strong> klar im Premiumsegment und sperriger.</p>\n\n<h2>Vergleichstabelle</h2>\n<table>\n<thead><tr><th>Modell</th><th>Volumen</th><th>Max. Temp.</th><th>Konnektivität</th><th>Ideal für</th></tr></thead>\n<tbody>\n<tr><td><strong>Philips 3000 Series XL</strong></td><td>6,2 L, 1 Schublade</td><td>200 °C</td><td>Nein</td><td>Familie mit 3 bis 5, Einfachheit</td></tr>\n<tr><td>Cosori Dual Blaze</td><td>6,4 L, 1 Schublade</td><td>205 °C</td><td>WLAN (VeSync)</td><td>Garen ohne Wenden, Steuerung per App</td></tr>\n<tr><td>Ninja Foodi FlexDrawer</td><td>10,4 L, teilbar in 2 × 5,2 L</td><td>240 °C</td><td>Nein</td><td>Große Familie, zwei Gerichte gleichzeitig</td></tr>\n<tr><td>Moulinex Easy Fry Max</td><td>5 L, 1 Schublade</td><td>200 °C</td><td>Nein</td><td>Kleiner Haushalt, kleines Budget</td></tr>\n<tr><td>Philips Combi XXL Connected</td><td>8,3 L, 1 Schublade</td><td>laut Herstellerangabe</td><td>WLAN (HomeID)</td><td>Große Familie, Kerntemperaturfühler</td></tr>\n</tbody>\n</table>\n\n<h2>Fehler, die Sie vermeiden sollten</h2>\n<ul>\n<li><strong>Den Korb randvoll füllen:</strong> Die Luft muss zirkulieren können. Bei zu dicker Schicht gart das Essen ungleichmäßig. Lieber zwei Durchgänge als ein labbriges Ergebnis.</li>\n<li><strong>Das Schütteln vergessen:</strong> Bei Pommes und kleinen Stücken macht einmal Schütteln zur Halbzeit einen echten Unterschied.</li>\n<li><strong>Zu klein… oder zu groß wählen:</strong> 6,2 Liter passen für 3 bis 5 Personen. Für ein Paar reichen 4 bis 5 Liter; ab 5 Personen ist ein 8-Liter- oder Doppelschubladen-Modell komfortabler. Unser Ratgeber <a href=\"/de/blog/comment-choisir-airfryer-famille\">Heißluftfritteuse für die Familie wählen</a> erklärt die passenden Größen.</li>\n<li><strong>Die Beschichtung beschädigen:</strong> Verzichten Sie auf Metallzangen und Scheuerschwämme.</li>\n<li><strong>Konnektivität erwarten:</strong> Dieses Modell hat keine. Ist Ihnen eine App wichtig, schauen Sie sich den Cosori Dual Blaze oder den Philips Combi XXL Connected an.</li>\n</ul>\n\n<h2>Tipps zu Nutzung und Sicherheit</h2>\n<p>Wie jede Heißluftfritteuse sollte der Philips 3000 Series XL auf einer ebenen, stabilen und hitzebeständigen Fläche stehen, mit ausreichend Abstand nach hinten und zu den Seiten für den Heißluftauslass. Stellen Sie ihn während des Garens nicht unter einen tief hängenden Oberschrank. Legen Sie beim Vorheizen nie Backpapier allein in den Korb: Ohne Lebensmittel, die es beschweren, kann es zum Heizelement gesaugt werden. Schließen Sie das Gerät direkt an eine Wandsteckdose an statt an eine bereits stark belastete Mehrfachsteckdose, und lassen Sie die Schublade vor dem Reinigen abkühlen. Wie Sie Strom sparen, lesen Sie in unseren Tipps zum <a href=\"/de/blog/airfryer-economies-energie\">Energiesparen mit der Heißluftfritteuse</a>.</p>\n\n<h2>Fazit</h2>\n<p>Der Philips Airfryer 3000 Series XL 6,2 L ist eine sichere Wahl für Familien, die eine einfache, verlässliche und pflegeleichte Heißluftfritteuse suchen. Mit Funktionen glänzt er nicht: keine Doppelzone, keine App, maximal 200 °C. Aber er erledigt das Wesentliche zuverlässig, wie unabhängige Tests und Käuferbewertungen bestätigen.</p>\n<p>Wenn Sie das Garen per Smartphone steuern möchten, greifen Sie zum Cosori Dual Blaze. Kochen Sie für 5 oder mehr Personen oder wollen zwei Gerichte gleichzeitig zubereiten, passt der Ninja Foodi FlexDrawer besser. Einen Überblick über alle Modelle bieten unser <a href=\"/de/guides/airfryers\">Ratgeber zu den besten Heißluftfritteusen</a> und unser <a href=\"/de/blog/ninja-vs-philips-quel-choisir\">Vergleich Ninja vs. Philips</a>.</p>",
+    es: "<p><strong>La Philips Airfryer 3000 Series XL de 6,2 L es una freidora de aire de un solo cajón, sencilla, fiable y fácil de limpiar, bien dimensionada para un hogar de 3 a 5 personas.</strong> No pretende hacerlo todo: sin Wi-Fi, sin doble zona y con un máximo de 200 °C, pero cocina de forma uniforme gracias a la tecnología RapidAir y se entiende en segundos.</p>\n<p>Una aclaración importante: Home Nura no prueba los aparatos en cocina. Esta opinión se basa en la ficha técnica oficial de Philips, en las pruebas publicadas por organismos y medios independientes y en la síntesis de opiniones de compradores verificados. El objetivo es explicarte con claridad a quién le conviene este modelo y en qué casos encaja mejor un competidor.</p>\n\n<h2>Lo esencial en pocas líneas</h2>\n<ul>\n<li><strong>Para quién:</strong> familias de 3 a 5 personas que quieren una primera freidora de aire sin complicaciones o que sustituyen un modelo pequeño de 3 a 4 litros.</li>\n<li><strong>Puntos fuertes:</strong> cubeta grande de 6,2 L (hasta 1,2 kg de alimentos), cocción homogénea, pantalla táctil legible, 7 programas, función mantener caliente, cesta y cajón aptos para lavavajillas.</li>\n<li><strong>Límites:</strong> un solo compartimento, 200 °C como máximo, sin aplicación, bastante ancha sobre la encimera.</li>\n<li><strong>Nuestra conclusión:</strong> una opción excelente y «sin sorpresas» en la parte baja de la gama media, siempre que no necesites cocinar dos platos a la vez.</li>\n</ul>\n\n<h2>Ficha técnica de la Philips 3000 Series XL</h2>\n<p>El modelo de referencia en Europa es la Philips HD9270 (variantes HD9270/70, /90, /96 según el color), comercializada como «Airfryer Serie 3000 XL» o «Essential XL» según el país. Estas son las características que anuncia el fabricante:</p>\n<table>\n<thead><tr><th>Característica</th><th>Detalle</th></tr></thead>\n<tbody>\n<tr><td>Capacidad de la cubeta</td><td>6,2 litros, hasta 1,2 kg de alimentos</td></tr>\n<tr><td>Potencia</td><td>2.000 W</td></tr>\n<tr><td>Temperatura máxima</td><td>200 °C</td></tr>\n<tr><td>Controles</td><td>Pantalla táctil con indicador LED</td></tr>\n<tr><td>Programas</td><td>7 preajustes (aperitivos congelados, patatas frescas, carne, pescado, muslos de pollo, bizcocho, verduras a la parrilla)</td></tr>\n<tr><td>Funciones prácticas</td><td>Mantener caliente hasta 30 minutos, temporizador de 60 minutos, apagado automático</td></tr>\n<tr><td>Dimensiones</td><td>aprox. 40,3 × 31,5 × 30,7 cm</td></tr>\n<tr><td>Peso</td><td>aprox. 5,5 kg</td></tr>\n<tr><td>Limpieza</td><td>Cesta y cajón extraíbles, aptos para lavavajillas</td></tr>\n<tr><td>Conectividad</td><td>Ninguna (ni Wi-Fi ni Bluetooth)</td></tr>\n</tbody>\n</table>\n<p>Según el mercado, Philips también vende una versión más reciente con la misma capacidad y ventana de cocción (modelo NA231). Lo esencial no cambia: 6,2 L, un solo cajón y tecnología RapidAir. Comprueba la referencia exacta en la ficha del producto antes de comprar, porque los programas y el rango de temperatura pueden variar entre versiones.</p>\n\n<h2>Lo que convence</h2>\n<h3>Cocción uniforme gracias a RapidAir</h3>\n<p>Philips popularizó la freidora de aire a principios de la década de 2010 y RapidAir sigue siendo su gran argumento: un flujo potente de aire caliente, guiado por el fondo en forma de estrella de la cesta, que envuelve los alimentos. Las pruebas independientes publicadas y las opiniones de compradores coinciden: patatas fritas, nuggets, verduras asadas y muslos de pollo salen dorados de forma homogénea, siempre que se agite la cesta a media cocción y no se llene hasta arriba.</p>\n<h3>Una capacidad realmente familiar</h3>\n<p>Con 6,2 litros y unos 1,2 kg de alimentos por tanda, este modelo entra de lleno en la categoría XL. Basta para un plato principal de 3 a 4 personas o una guarnición para 5. Quienes vienen de una freidora pequeña de 3 o 4 litros suelen destacar que ya no necesitan varias tandas para una ración familiar de patatas.</p>\n<h3>Se maneja al instante</h3>\n<p>La interfaz táctil se limita a lo esencial: los 7 programas, el ajuste de temperatura y tiempo, y el inicio. Sin cuenta que crear, sin aplicación que instalar, sin actualizaciones. Para una primera freidora de aire o para quien no se interesa por la domótica, es una ventaja real. La función mantener caliente, hasta 30 minutos, resulta práctica cuando el resto de la comida aún no está listo.</p>\n<h3>Limpieza sencilla</h3>\n<p>La cesta y el cajón se extraen con facilidad y van al lavavajillas. Los compradores valoran el revestimiento antiadherente. Para conservarlo en el tiempo, sigue siendo preferible lavarlo a mano con una esponja no abrasiva, como cualquier revestimiento de este tipo.</p>\n\n<h2>Límites que conviene conocer</h2>\n<ul>\n<li><strong>Un solo compartimento:</strong> no se pueden cocinar carne y guarnición por separado al mismo tiempo. Si es tu uso principal, te convendrá más un modelo de doble zona (consulta nuestra guía <a href=\"/es/blog/airfryer-simple-vs-double-panier\">cesta simple o doble</a>).</li>\n<li><strong>200 °C como máximo:</strong> suficiente para la gran mayoría de recetas, pero algo justo para sellar con fuerza una pieza de carne. Algunos competidores llegan a 240 °C.</li>\n<li><strong>Sin conectividad:</strong> no hay seguimiento a distancia ni recetas enviadas desde el móvil. Es una decisión deliberada, pero conviene saberlo si planeas una cocina conectada.</li>\n<li><strong>Tamaño:</strong> con unos 40 cm de ancho, necesita un sitio fijo en la encimera. Mide antes de comprar y deja espacio alrededor de la salida de aire.</li>\n<li><strong>Revestimiento delicado:</strong> como en la mayoría de freidoras de aire, los utensilios metálicos o los estropajos pueden dañar el antiadherente.</li>\n</ul>\n\n<h2>Qué dicen los compradores</h2>\n<p>Las opiniones verificadas son, en conjunto, muy positivas. Los elogios se centran en tres puntos: la regularidad de la cocción, la facilidad de uso y la limpieza sencilla. Las críticas se refieren sobre todo al tamaño del aparato, a la falta de un segundo compartimento y, para parte de los usuarios, al desgaste del antiadherente tras un uso intensivo o lavados agresivos. El ruido del ventilador suele considerarse normal para una freidora de aire de esta potencia.</p>\n\n<h2>Frente a las alternativas</h2>\n<p>La Philips 3000 Series XL no es la única opción sensata. Según tus prioridades, estos son los modelos que conviene comparar.</p>\n<h3>Cosori Dual Blaze 6,4 L: la conectada que cocina sin dar la vuelta</h3>\n<p>La Cosori Dual Blaze añade una segunda resistencia en la parte inferior, lo que reduce la necesidad de girar los alimentos, además de una aplicación (VeSync) para iniciar y seguir la cocción a distancia. Su temperatura máxima anunciada es de 205 °C. <strong>Para quién:</strong> hogares de 2 a 4 personas que buscan una cocción más uniforme con menos manipulación y control desde el móvil. <strong>Límite:</strong> sigue teniendo un solo compartimento.</p>\n<h3>Ninja Foodi FlexDrawer 10,4 L: para familias numerosas</h3>\n<p>La FlexDrawer ofrece un gran cajón de 10,4 L que puede dividirse en dos zonas de 5,2 L con control independiente, y alcanza 240 °C. <strong>Para quién:</strong> familias de 5 personas o más, o quien quiera cocinar dos platos a la vez. <strong>Límite:</strong> un aparato bastante más voluminoso y con mayor consumo de potencia.</p>\n<h3>Moulinex Easy Fry Max 5 L: la opción compacta y económica</h3>\n<p>Más pequeña (5 L), con termostato de 80 a 200 °C y 10 programas automáticos, la Easy Fry Max se dirige a presupuestos ajustados y cocinas con poco espacio. <strong>Para quién:</strong> parejas u hogares de 2 a 3 personas. <strong>Límite:</strong> capacidad más justa para una familia.</p>\n<h3>Philips Airfryer Combi XXL Connected 8,3 L: la gama alta de la marca</h3>\n<p>Para quien aprecia el enfoque de Philips pero quiere más: gran capacidad de 8,3 L, sonda de temperatura integrada, numerosos programas automáticos y control mediante la aplicación HomeID. <strong>Para quién:</strong> familias numerosas y cocineros que quieren controlar con precisión la carne. <strong>Límite:</strong> claramente más premium y más voluminosa.</p>\n\n<h2>Tabla comparativa</h2>\n<table>\n<thead><tr><th>Modelo</th><th>Capacidad</th><th>Temp. máx.</th><th>Conectividad</th><th>Ideal para</th></tr></thead>\n<tbody>\n<tr><td><strong>Philips 3000 Series XL</strong></td><td>6,2 L, 1 cajón</td><td>200 °C</td><td>No</td><td>Familias de 3 a 5, sencillez</td></tr>\n<tr><td>Cosori Dual Blaze</td><td>6,4 L, 1 cajón</td><td>205 °C</td><td>Wi-Fi (VeSync)</td><td>Cocinar sin girar, control desde el móvil</td></tr>\n<tr><td>Ninja Foodi FlexDrawer</td><td>10,4 L, divisible en 2 × 5,2 L</td><td>240 °C</td><td>No</td><td>Familias numerosas, dos platos a la vez</td></tr>\n<tr><td>Moulinex Easy Fry Max</td><td>5 L, 1 cajón</td><td>200 °C</td><td>No</td><td>Hogares pequeños, presupuesto ajustado</td></tr>\n<tr><td>Philips Combi XXL Connected</td><td>8,3 L, 1 cajón</td><td>según ficha del fabricante</td><td>Wi-Fi (HomeID)</td><td>Familias numerosas, sonda de cocción</td></tr>\n</tbody>\n</table>\n\n<h2>Errores que debes evitar</h2>\n<ul>\n<li><strong>Llenar la cesta hasta arriba:</strong> el aire tiene que circular. Con una capa demasiado gruesa, la cocción se vuelve irregular. Mejor dos tandas que un resultado blando.</li>\n<li><strong>Olvidar agitar:</strong> con patatas y piezas pequeñas, agitar a media cocción marca una diferencia real.</li>\n<li><strong>Elegir demasiado pequeña… o demasiado grande:</strong> 6,2 L encaja con 3 a 5 personas. Para una pareja bastan 4 a 5 L; por encima de 5 personas, un modelo de 8 L o de doble cajón será más cómodo. Nuestra guía para <a href=\"/es/blog/comment-choisir-airfryer-famille\">elegir una freidora de aire familiar</a> detalla los tamaños adecuados.</li>\n<li><strong>Dañar el revestimiento:</strong> evita las pinzas metálicas y los estropajos.</li>\n<li><strong>Esperar conectividad:</strong> este modelo no la tiene. Si la aplicación te importa, fíjate en la Cosori Dual Blaze o en la Philips Combi XXL Connected.</li>\n</ul>\n\n<h2>Consejos de uso y seguridad</h2>\n<p>Como cualquier freidora de aire, la Philips 3000 Series XL debe colocarse sobre una superficie plana, estable y resistente al calor, con espacio suficiente detrás y a los lados para la salida de aire caliente. No la pongas bajo un mueble alto bajo durante la cocción. No coloques nunca papel de horno solo en la cesta durante el precalentamiento: sin alimentos que lo sujeten, puede ser aspirado hacia la resistencia. Enchufa el aparato directamente a una toma de pared en lugar de a una regleta ya cargada y deja que el cajón se enfríe antes de limpiarlo. Para reducir el consumo, consulta nuestros consejos sobre <a href=\"/es/blog/airfryer-economies-energie\">ahorro de energía con una freidora de aire</a>.</p>\n\n<h2>Veredicto</h2>\n<p>La Philips Airfryer 3000 Series XL de 6,2 L es una apuesta segura para una familia que quiere una freidora de aire sencilla, constante y fácil de mantener. No destaca por sus funciones: sin doble zona, sin aplicación, 200 °C como máximo. Pero cumple lo esencial con regularidad, como confirman las pruebas independientes y las opiniones de compradores.</p>\n<p>Si quieres controlar la cocción desde el móvil, elige la Cosori Dual Blaze. Si cocinas para 5 personas o más, o quieres dos platos a la vez, la Ninja Foodi FlexDrawer encajará mejor. Para comparar todos los modelos, consulta nuestra <a href=\"/es/guides/airfryers\">guía de las mejores freidoras de aire</a> y nuestra <a href=\"/es/blog/ninja-vs-philips-quel-choisir\">comparativa Ninja vs Philips</a>.</p>",
+    it: "<p><strong>La Philips Airfryer 3000 Series XL da 6,2 L è una friggitrice ad aria a cassetto singolo semplice, affidabile e facile da pulire, ben dimensionata per una famiglia di 3-5 persone.</strong> Non vuole fare tutto: niente Wi-Fi, niente doppia zona e un massimo di 200 °C, ma una cottura uniforme grazie alla tecnologia RapidAir e comandi che si capiscono in pochi secondi.</p>\n<p>Una precisazione importante: Home Nura non prova gli elettrodomestici in cucina. Questa recensione si basa sulla scheda tecnica ufficiale di Philips, sui test pubblicati da enti e testate indipendenti e sulla sintesi delle recensioni di acquirenti verificati. L'obiettivo è dirti con chiarezza a chi si adatta questo modello e quando un concorrente è più indicato.</p>\n\n<h2>In breve</h2>\n<ul>\n<li><strong>Per chi:</strong> famiglie di 3-5 persone che cercano una prima friggitrice ad aria senza complicazioni, o che sostituiscono un modello piccolo da 3-4 litri.</li>\n<li><strong>Punti di forza:</strong> grande vasca da 6,2 L (fino a 1,2 kg di alimenti), cottura uniforme, display touch leggibile, 7 programmi, funzione mantenimento in caldo, cestello e cassetto lavabili in lavastoviglie.</li>\n<li><strong>Limiti:</strong> un solo scomparto, massimo 200 °C, nessuna app, piuttosto larga sul piano di lavoro.</li>\n<li><strong>La nostra conclusione:</strong> un'ottima scelta «senza sorprese» nella fascia medio-bassa, purché non serva cuocere due piatti contemporaneamente.</li>\n</ul>\n\n<h2>Scheda tecnica della Philips 3000 Series XL</h2>\n<p>Il modello di riferimento in Europa è la Philips HD9270 (varianti HD9270/70, /90, /96 a seconda del colore), venduta come «Airfryer Serie 3000 XL» o «Essential XL» a seconda del paese. Ecco le caratteristiche dichiarate dal produttore:</p>\n<table>\n<thead><tr><th>Caratteristica</th><th>Dettaglio</th></tr></thead>\n<tbody>\n<tr><td>Capacità della vasca</td><td>6,2 litri, fino a 1,2 kg di alimenti</td></tr>\n<tr><td>Potenza</td><td>2.000 W</td></tr>\n<tr><td>Temperatura massima</td><td>200 °C</td></tr>\n<tr><td>Comandi</td><td>Display touch con indicatore LED</td></tr>\n<tr><td>Programmi</td><td>7 preimpostazioni (snack surgelati, patatine fresche, carne, pesce, cosce di pollo, torta, verdure grigliate)</td></tr>\n<tr><td>Funzioni pratiche</td><td>Mantenimento in caldo fino a 30 minuti, timer da 60 minuti, spegnimento automatico</td></tr>\n<tr><td>Dimensioni</td><td>circa 40,3 × 31,5 × 30,7 cm</td></tr>\n<tr><td>Peso</td><td>circa 5,5 kg</td></tr>\n<tr><td>Pulizia</td><td>Cestello e cassetto rimovibili, lavabili in lavastoviglie</td></tr>\n<tr><td>Connettività</td><td>Nessuna (né Wi-Fi né Bluetooth)</td></tr>\n</tbody>\n</table>\n<p>In alcuni mercati Philips propone anche una versione più recente con la stessa capacità e un oblò di cottura (modello NA231). I tratti essenziali restano gli stessi: 6,2 L, cassetto singolo e tecnologia RapidAir. Verifica il codice esatto nella scheda prodotto prima dell'acquisto, perché programmi e intervallo di temperatura possono variare da una versione all'altra.</p>\n\n<h2>Cosa convince</h2>\n<h3>Cottura uniforme grazie a RapidAir</h3>\n<p>Philips ha reso popolare la friggitrice ad aria all'inizio degli anni 2010 e RapidAir resta il suo argomento principale: un flusso potente di aria calda, guidato dal fondo a stella del cestello, che avvolge gli alimenti. I test indipendenti pubblicati e le recensioni degli acquirenti concordano: patatine, nuggets, verdure arrosto e cosce di pollo escono dorate in modo uniforme, a patto di scuotere il cestello a metà cottura e di non riempirlo fino all'orlo.</p>\n<h3>Una capacità davvero familiare</h3>\n<p>Con 6,2 litri e circa 1,2 kg di alimenti per ciclo, questo modello rientra a pieno titolo nella categoria XL. Basta per un piatto principale per 3-4 persone o un contorno per 5. Chi passa da una piccola friggitrice da 3 o 4 litri sottolinea spesso che non servono più più cicli per una porzione familiare di patatine.</p>\n<h3>Facile da usare fin da subito</h3>\n<p>L'interfaccia touch si limita all'essenziale: i 7 programmi, la regolazione di temperatura e tempo, l'avvio. Nessun account da creare, nessuna app da installare, nessun aggiornamento. Per una prima friggitrice ad aria o per chi non è interessato alla domotica, è un vantaggio reale. Il mantenimento in caldo, fino a 30 minuti, è comodo quando il resto del pasto non è ancora pronto.</p>\n<h3>Pulizia semplice</h3>\n<p>Cestello e cassetto si estraggono facilmente e vanno in lavastoviglie. Il rivestimento antiaderente è apprezzato nelle recensioni. Per preservarlo nel tempo, il lavaggio a mano con una spugna non abrasiva resta comunque preferibile, come per ogni rivestimento di questo tipo.</p>\n\n<h2>I limiti da conoscere</h2>\n<ul>\n<li><strong>Un solo scomparto:</strong> non si possono cuocere carne e contorno separatamente nello stesso momento. Se è il tuo uso principale, un modello a doppia zona sarà più adatto (vedi la nostra guida <a href=\"/it/blog/airfryer-simple-vs-double-panier\">cestello singolo o doppio</a>).</li>\n<li><strong>Massimo 200 °C:</strong> sufficiente per la grande maggioranza delle preparazioni, ma un po' poco per rosolare con decisione un pezzo di carne. Alcuni concorrenti arrivano a 240 °C.</li>\n<li><strong>Nessuna connettività:</strong> niente controllo a distanza né ricette inviate dallo smartphone. È una scelta precisa, ma da sapere se pensi a una cucina connessa.</li>\n<li><strong>Ingombro:</strong> con circa 40 cm di larghezza, richiede un posto dedicato sul piano di lavoro. Misura prima di acquistare e lascia spazio attorno all'uscita dell'aria.</li>\n<li><strong>Rivestimento da trattare con cura:</strong> come nella maggior parte delle friggitrici ad aria, utensili metallici o spugne abrasive possono danneggiare l'antiaderente.</li>\n</ul>\n\n<h2>Cosa dicono gli acquirenti</h2>\n<p>Le recensioni verificate sono nel complesso molto positive. Gli apprezzamenti si concentrano su tre punti: la regolarità della cottura, la semplicità d'uso e la facilità di pulizia. Le critiche riguardano soprattutto le dimensioni dell'apparecchio, l'assenza di un secondo scomparto e, per una parte degli utenti, l'usura dell'antiaderente dopo un uso intenso o lavaggi aggressivi. Il rumore della ventola è generalmente considerato normale per una friggitrice ad aria di questa potenza.</p>\n\n<h2>Il confronto con le alternative</h2>\n<p>La Philips 3000 Series XL non è l'unica scelta sensata. In base alle tue priorità, ecco i modelli da confrontare.</p>\n<h3>Cosori Dual Blaze 6,4 L: la connessa che cuoce senza girare</h3>\n<p>La Cosori Dual Blaze aggiunge una seconda resistenza nella parte inferiore, che riduce la necessità di girare gli alimenti, e un'app (VeSync) per avviare e seguire la cottura a distanza. La temperatura massima dichiarata è di 205 °C. <strong>Per chi:</strong> famiglie di 2-4 persone che vogliono una cottura più uniforme con meno interventi e il controllo dallo smartphone. <strong>Limite:</strong> sempre un solo scomparto.</p>\n<h3>Ninja Foodi FlexDrawer 10,4 L: per le famiglie numerose</h3>\n<p>La FlexDrawer offre un grande cassetto da 10,4 L divisibile in due zone da 5,2 L gestite in modo indipendente, con una temperatura massima di 240 °C. <strong>Per chi:</strong> famiglie di 5 persone o più, o chi vuole cuocere due piatti insieme. <strong>Limite:</strong> un apparecchio molto più voluminoso e con maggiore assorbimento di potenza.</p>\n<h3>Moulinex Easy Fry Max 5 L: la scelta compatta ed economica</h3>\n<p>Più piccola (5 L), con termostato da 80 a 200 °C e 10 programmi automatici, la Easy Fry Max punta sui budget contenuti e sulle cucine con poco spazio. <strong>Per chi:</strong> coppie o famiglie di 2-3 persone. <strong>Limite:</strong> capacità più stretta per una famiglia.</p>\n<h3>Philips Airfryer Combi XXL Connected 8,3 L: il top di gamma del marchio</h3>\n<p>Per chi apprezza l'approccio Philips ma vuole di più: grande capacità da 8,3 L, sonda di temperatura integrata, numerosi programmi automatici e controllo tramite l'app HomeID. <strong>Per chi:</strong> famiglie numerose e cuochi che vogliono un controllo preciso sulla carne. <strong>Limite:</strong> decisamente più premium e più ingombrante.</p>\n\n<h2>Tabella comparativa</h2>\n<table>\n<thead><tr><th>Modello</th><th>Capacità</th><th>Temp. max</th><th>Connettività</th><th>Ideale per</th></tr></thead>\n<tbody>\n<tr><td><strong>Philips 3000 Series XL</strong></td><td>6,2 L, 1 cassetto</td><td>200 °C</td><td>No</td><td>Famiglie di 3-5, semplicità</td></tr>\n<tr><td>Cosori Dual Blaze</td><td>6,4 L, 1 cassetto</td><td>205 °C</td><td>Wi-Fi (VeSync)</td><td>Cottura senza girare, controllo da app</td></tr>\n<tr><td>Ninja Foodi FlexDrawer</td><td>10,4 L, divisibile in 2 × 5,2 L</td><td>240 °C</td><td>No</td><td>Famiglie numerose, due piatti insieme</td></tr>\n<tr><td>Moulinex Easy Fry Max</td><td>5 L, 1 cassetto</td><td>200 °C</td><td>No</td><td>Piccoli nuclei, budget contenuto</td></tr>\n<tr><td>Philips Combi XXL Connected</td><td>8,3 L, 1 cassetto</td><td>secondo la scheda del produttore</td><td>Wi-Fi (HomeID)</td><td>Famiglie numerose, sonda di cottura</td></tr>\n</tbody>\n</table>\n\n<h2>Errori da evitare</h2>\n<ul>\n<li><strong>Riempire il cestello fino all'orlo:</strong> l'aria deve circolare. Con uno strato troppo spesso la cottura diventa irregolare. Meglio due cicli che un risultato molle.</li>\n<li><strong>Dimenticare di scuotere:</strong> con patatine e pezzi piccoli, scuotere a metà cottura fa davvero la differenza.</li>\n<li><strong>Sceglierla troppo piccola… o troppo grande:</strong> 6,2 L va bene per 3-5 persone. Per una coppia bastano 4-5 L; oltre 5 persone, un modello da 8 L o a doppio cassetto sarà più comodo. La nostra guida per <a href=\"/it/blog/comment-choisir-airfryer-famille\">scegliere una friggitrice ad aria per la famiglia</a> spiega le misure giuste.</li>\n<li><strong>Rovinare il rivestimento:</strong> evita pinze metalliche e spugne abrasive.</li>\n<li><strong>Aspettarsi la connettività:</strong> questo modello non ce l'ha. Se l'app è importante per te, guarda la Cosori Dual Blaze o la Philips Combi XXL Connected.</li>\n</ul>\n\n<h2>Consigli d'uso e sicurezza</h2>\n<p>Come ogni friggitrice ad aria, la Philips 3000 Series XL va posizionata su una superficie piana, stabile e resistente al calore, con spazio sufficiente dietro e ai lati per l'uscita dell'aria calda. Non metterla sotto un pensile basso durante la cottura. Non inserire mai carta forno da sola nel cestello durante il preriscaldamento: senza alimenti a tenerla ferma, può essere aspirata verso la resistenza. Collega l'apparecchio direttamente a una presa a muro anziché a una ciabatta già carica e lascia raffreddare il cassetto prima di pulirlo. Per ridurre i consumi, leggi i nostri consigli sul <a href=\"/it/blog/airfryer-economies-energie\">risparmio energetico con la friggitrice ad aria</a>.</p>\n\n<h2>Verdetto</h2>\n<p>La Philips Airfryer 3000 Series XL da 6,2 L è una scelta sicura per una famiglia che vuole una friggitrice ad aria semplice, costante e facile da mantenere. Non brilla per le funzioni: niente doppia zona, niente app, massimo 200 °C. Ma fa l'essenziale con regolarità, come confermano i test indipendenti e le recensioni degli acquirenti.</p>\n<p>Se vuoi controllare la cottura dallo smartphone, scegli la Cosori Dual Blaze. Se cucini per 5 persone o più, o vuoi due piatti contemporaneamente, la Ninja Foodi FlexDrawer è più adatta. Per confrontare tutti i modelli, consulta la nostra <a href=\"/it/guides/airfryers\">guida alle migliori friggitrici ad aria</a> e il nostro <a href=\"/it/blog/ninja-vs-philips-quel-choisir\">confronto Ninja vs Philips</a>.</p>",
+    nl: "<p><strong>De Philips Airfryer 3000 Series XL 6,2 L is een eenvoudige, betrouwbare en makkelijk te reinigen airfryer met één lade, goed afgestemd op een huishouden van 3 tot 5 personen.</strong> Hij wil niet alles kunnen: geen wifi, geen dubbele zone en maximaal 200 °C, maar wel een gelijkmatige bereiding dankzij RapidAir-technologie en een bediening die je binnen enkele seconden begrijpt.</p>\n<p>Belangrijk om te weten: Home Nura test apparaten niet zelf in de keuken. Deze review is gebaseerd op de officiële specificaties van Philips, op gepubliceerde tests van onafhankelijke organisaties en media en op een samenvatting van geverifieerde kopersreviews. Het doel is je duidelijk te vertellen voor wie dit model geschikt is en wanneer een concurrent beter past.</p>\n\n<h2>In het kort</h2>\n<ul>\n<li><strong>Voor wie:</strong> gezinnen van 3 tot 5 personen die een probleemloze eerste airfryer willen, of die een klein model van 3 tot 4 liter vervangen.</li>\n<li><strong>Sterke punten:</strong> grote pan van 6,2 L (tot 1,2 kg voedsel), gelijkmatige bereiding, duidelijk touchscreen, 7 programma's, warmhoudfunctie, mand en lade vaatwasserbestendig.</li>\n<li><strong>Beperkingen:</strong> één compartiment, maximaal 200 °C, geen app, vrij breed op het aanrecht.</li>\n<li><strong>Onze conclusie:</strong> een uitstekende keuze „zonder verrassingen” in het lagere middensegment, zolang je niet twee gerechten tegelijk hoeft te bereiden.</li>\n</ul>\n\n<h2>Specificaties van de Philips 3000 Series XL</h2>\n<p>Het referentiemodel in Europa is de Philips HD9270 (varianten HD9270/70, /90, /96 afhankelijk van de kleur), afhankelijk van het land verkocht als „Airfryer 3000 Series XL” of „Essential XL”. Dit zijn de specificaties volgens de fabrikant:</p>\n<table>\n<thead><tr><th>Kenmerk</th><th>Detail</th></tr></thead>\n<tbody>\n<tr><td>Inhoud van de pan</td><td>6,2 liter, tot 1,2 kg voedsel</td></tr>\n<tr><td>Vermogen</td><td>2.000 W</td></tr>\n<tr><td>Maximale temperatuur</td><td>200 °C</td></tr>\n<tr><td>Bediening</td><td>Touchscreen met ledweergave</td></tr>\n<tr><td>Programma's</td><td>7 voorinstellingen (diepvriessnacks, verse friet, vlees, vis, kippenpoten, cake, gegrilde groenten)</td></tr>\n<tr><td>Handige functies</td><td>Warmhouden tot 30 minuten, timer van 60 minuten, automatische uitschakeling</td></tr>\n<tr><td>Afmetingen</td><td>ca. 40,3 × 31,5 × 30,7 cm</td></tr>\n<tr><td>Gewicht</td><td>ca. 5,5 kg</td></tr>\n<tr><td>Schoonmaken</td><td>Uitneembare mand en lade, vaatwasserbestendig</td></tr>\n<tr><td>Connectiviteit</td><td>Geen (geen wifi of bluetooth)</td></tr>\n</tbody>\n</table>\n<p>Afhankelijk van de markt verkoopt Philips ook een nieuwere versie met dezelfde inhoud en een kijkvenster (model NA231). De basis blijft gelijk: 6,2 L, één lade en RapidAir-technologie. Controleer vóór aankoop het exacte modelnummer op de productpagina, want programma's en temperatuurbereik kunnen per versie verschillen.</p>\n\n<h2>Wat overtuigt</h2>\n<h3>Gelijkmatige bereiding dankzij RapidAir</h3>\n<p>Philips maakte de airfryer begin jaren 2010 populair en RapidAir blijft het belangrijkste argument: een krachtige heteluchtstroom, geleid door de stervormige bodem van de mand, die rond het voedsel circuleert. Gepubliceerde onafhankelijke tests en kopersreviews zijn het hierover eens: friet, nuggets, geroosterde groenten en kippenpoten worden gelijkmatig goudbruin, mits je de mand halverwege schudt en hem niet tot de rand vult.</p>\n<h3>Echte gezinsinhoud</h3>\n<p>Met 6,2 liter en zo'n 1,2 kg voedsel per ronde hoort dit model duidelijk in de XL-klasse. Dat is genoeg voor een hoofdgerecht voor 3 tot 4 personen of een bijgerecht voor 5. Wie overstapt van een kleine airfryer van 3 of 4 liter, merkt vaak op dat een gezinsportie friet niet meer in meerdere rondes hoeft.</p>\n<h3>Meteen eenvoudig in gebruik</h3>\n<p>De touchbediening beperkt zich tot het essentiële: de 7 programma's, temperatuur en tijd, en starten. Geen account, geen app, geen updates. Voor een eerste airfryer of voor wie niet geïnteresseerd is in smarthome-technologie is dat een echt voordeel. De warmhoudfunctie, tot 30 minuten, is handig als de rest van de maaltijd nog niet klaar is.</p>\n<h3>Eenvoudig schoon te maken</h3>\n<p>Mand en lade zijn makkelijk uit te nemen en kunnen in de vaatwasser. Kopers waarderen de antiaanbaklaag. Om die lang mooi te houden, blijft afwassen met de hand met een niet-schurende spons wel de beste keuze, zoals bij elke coating van dit type.</p>\n\n<h2>Beperkingen om rekening mee te houden</h2>\n<ul>\n<li><strong>Eén compartiment:</strong> vlees en bijgerecht kun je niet gescheiden tegelijk bereiden. Is dat je belangrijkste gebruik, dan past een model met dubbele zone beter (zie onze gids <a href=\"/nl/blog/airfryer-simple-vs-double-panier\">enkele of dubbele mand</a>).</li>\n<li><strong>Maximaal 200 °C:</strong> genoeg voor het overgrote deel van de gerechten, maar wat krap om een stuk vlees stevig dicht te schroeien. Sommige concurrenten halen 240 °C.</li>\n<li><strong>Geen connectiviteit:</strong> geen bediening op afstand en geen recepten vanaf je smartphone. Een bewuste keuze, maar goed om te weten als je een slimme keuken plant.</li>\n<li><strong>Afmetingen:</strong> met ongeveer 40 cm breedte heeft hij een vaste plek op het aanrecht nodig. Meet vóór aankoop en laat ruimte rond de luchtuitlaat.</li>\n<li><strong>Coating vraagt zorg:</strong> zoals bij de meeste airfryers kunnen metalen keukengerei of schuursponzen de antiaanbaklaag beschadigen.</li>\n</ul>\n\n<h2>Wat kopers zeggen</h2>\n<p>Geverifieerde reviews zijn over het geheel genomen zeer positief. De lof gaat vooral over drie punten: gelijkmatige bereiding, gebruiksgemak en eenvoudig schoonmaken. Kritiek gaat vooral over de grootte van het apparaat, het ontbreken van een tweede compartiment en, bij een deel van de gebruikers, slijtage van de antiaanbaklaag na intensief gebruik of agressief afwassen. Het ventilatorgeluid wordt meestal als normaal beschouwd voor een airfryer met dit vermogen.</p>\n\n<h2>Vergeleken met de alternatieven</h2>\n<p>De Philips 3000 Series XL is niet de enige verstandige keuze. Afhankelijk van je prioriteiten zijn dit de modellen om te vergelijken.</p>\n<h3>Cosori Dual Blaze 6,4 L: slim en zonder omdraaien</h3>\n<p>De Cosori Dual Blaze heeft een tweede verwarmingselement onderin, waardoor je het eten minder vaak hoeft om te draaien, plus een app (VeSync) om de bereiding op afstand te starten en te volgen. De opgegeven maximale temperatuur is 205 °C. <strong>Voor wie:</strong> huishoudens van 2 tot 4 personen die een gelijkmatigere bereiding willen met minder handelingen en bediening via de smartphone. <strong>Beperking:</strong> ook hier één compartiment.</p>\n<h3>Ninja Foodi FlexDrawer 10,4 L: voor grote gezinnen</h3>\n<p>De FlexDrawer heeft een grote lade van 10,4 L die je kunt opdelen in twee onafhankelijk te bedienen zones van 5,2 L, met een maximale temperatuur van 240 °C. <strong>Voor wie:</strong> gezinnen van 5 personen of meer, of wie twee gerechten tegelijk wil bereiden. <strong>Beperking:</strong> een veel groter apparaat met een hoger vermogen.</p>\n<h3>Moulinex Easy Fry Max 5 L: compact en voordelig</h3>\n<p>Kleiner (5 L), met een thermostaat van 80 tot 200 °C en 10 automatische programma's, richt de Easy Fry Max zich op kleinere budgetten en keukens met weinig ruimte. <strong>Voor wie:</strong> stellen of huishoudens van 2 tot 3 personen. <strong>Beperking:</strong> de inhoud is krapper voor een gezin.</p>\n<h3>Philips Airfryer Combi XXL Connected 8,3 L: het topmodel van het merk</h3>\n<p>Voor wie de aanpak van Philips waardeert maar meer wil: een grote inhoud van 8,3 L, een ingebouwde temperatuursensor, veel automatische programma's en bediening via de HomeID-app. <strong>Voor wie:</strong> grote gezinnen en koks die vlees nauwkeurig willen garen. <strong>Beperking:</strong> duidelijk premium en omvangrijker.</p>\n\n<h2>Vergelijkingstabel</h2>\n<table>\n<thead><tr><th>Model</th><th>Inhoud</th><th>Max. temp.</th><th>Connectiviteit</th><th>Ideaal voor</th></tr></thead>\n<tbody>\n<tr><td><strong>Philips 3000 Series XL</strong></td><td>6,2 L, 1 lade</td><td>200 °C</td><td>Nee</td><td>Gezin van 3 tot 5, eenvoud</td></tr>\n<tr><td>Cosori Dual Blaze</td><td>6,4 L, 1 lade</td><td>205 °C</td><td>Wifi (VeSync)</td><td>Bereiden zonder omdraaien, bediening via app</td></tr>\n<tr><td>Ninja Foodi FlexDrawer</td><td>10,4 L, deelbaar in 2 × 5,2 L</td><td>240 °C</td><td>Nee</td><td>Groot gezin, twee gerechten tegelijk</td></tr>\n<tr><td>Moulinex Easy Fry Max</td><td>5 L, 1 lade</td><td>200 °C</td><td>Nee</td><td>Klein huishouden, krap budget</td></tr>\n<tr><td>Philips Combi XXL Connected</td><td>8,3 L, 1 lade</td><td>volgens specificaties fabrikant</td><td>Wifi (HomeID)</td><td>Groot gezin, kerntemperatuursensor</td></tr>\n</tbody>\n</table>\n\n<h2>Fouten om te vermijden</h2>\n<ul>\n<li><strong>De mand tot de rand vullen:</strong> de lucht moet kunnen circuleren. Bij een te dikke laag wordt de bereiding ongelijkmatig. Liever twee rondes dan een slap resultaat.</li>\n<li><strong>Vergeten te schudden:</strong> bij friet en kleine stukjes maakt halverwege schudden echt verschil.</li>\n<li><strong>Te klein… of te groot kiezen:</strong> 6,2 L past bij 3 tot 5 personen. Voor een stel is 4 tot 5 L genoeg; boven de 5 personen is een model van 8 L of met dubbele lade comfortabeler. Onze gids <a href=\"/nl/blog/comment-choisir-airfryer-famille\">een airfryer voor het gezin kiezen</a> legt de juiste formaten uit.</li>\n<li><strong>De coating beschadigen:</strong> vermijd metalen tangen en schuursponzen.</li>\n<li><strong>Connectiviteit verwachten:</strong> dit model heeft die niet. Is een app belangrijk voor je, kijk dan naar de Cosori Dual Blaze of de Philips Combi XXL Connected.</li>\n</ul>\n\n<h2>Tips voor gebruik en veiligheid</h2>\n<p>Zoals elke airfryer moet de Philips 3000 Series XL op een vlakke, stabiele en hittebestendige ondergrond staan, met voldoende ruimte achter en naast het apparaat voor de hete-luchtuitlaat. Zet hem tijdens het bereiden niet onder een laag hangend keukenkastje. Leg tijdens het voorverwarmen nooit los bakpapier in de mand: zonder voedsel erop kan het naar het verwarmingselement worden gezogen. Sluit het apparaat rechtstreeks aan op een wandcontactdoos in plaats van op een al zwaar belaste stekkerdoos, en laat de lade afkoelen voordat je hem schoonmaakt. Wil je energie besparen, lees dan onze tips over <a href=\"/nl/blog/airfryer-economies-energie\">energie besparen met een airfryer</a>.</p>\n\n<h2>Eindoordeel</h2>\n<p>De Philips Airfryer 3000 Series XL 6,2 L is een veilige keuze voor een gezin dat een eenvoudige, consistente en onderhoudsvriendelijke airfryer zoekt. Met functies blinkt hij niet uit: geen dubbele zone, geen app, maximaal 200 °C. Maar hij doet het essentiële betrouwbaar, zoals onafhankelijke tests en kopersreviews bevestigen.</p>\n<p>Wil je de bereiding via je telefoon bedienen, kies dan de Cosori Dual Blaze. Kook je voor 5 personen of meer, of wil je twee gerechten tegelijk maken, dan past de Ninja Foodi FlexDrawer beter. Om alle modellen te vergelijken, bekijk onze <a href=\"/nl/guides/airfryers\">gids met de beste airfryers</a> en onze <a href=\"/nl/blog/ninja-vs-philips-quel-choisir\">vergelijking Ninja vs Philips</a>.</p>",
   },
   faq: [
     {
       question: {
-        fr: 'Le Philips Airfryer 3000 XL vaut-il le coup face aux modèles premium ?',
-        en: 'Is the Philips Airfryer 3000 XL worth it compared to premium models?',
-        de: 'Lohnt sich der Philips Airfryer 3000 XL gegenüber Premium-Modellen?',
-        es: '¿Merece la pena el Philips Airfryer 3000 XL frente a modelos premium?',
-        it: 'Vale la pena il Philips Airfryer 3000 XL rispetto ai modelli premium?',
-        nl: 'Is de Philips Airfryer 3000 XL de moeite waard vergeleken met premium modellen?',
+        fr: "Le Philips Airfryer 3000 Series XL convient-il à une famille de 4 personnes ?",
+        en: "Is the Philips Airfryer 3000 Series XL big enough for a family of 4?",
+        de: "Reicht der Philips Airfryer 3000 Series XL für eine vierköpfige Familie?",
+        es: "¿Es suficiente la Philips Airfryer 3000 Series XL para una familia de 4?",
+        it: "La Philips Airfryer 3000 Series XL va bene per una famiglia di 4 persone?",
+        nl: "Is de Philips Airfryer 3000 Series XL groot genoeg voor een gezin van 4?",
       },
       answer: {
-        fr: 'Pour 119,99 euros, le Philips 3000 XL offre la technologie RapidAir éprouvée et une fiabilité exemplaire. Il excelle sur les frites et les légumes. Les modèles premium apportent la connectivité, des températures plus élevées ou la double zone, mais pour un usage quotidien simple et efficace, le 3000 XL est difficile à battre dans sa catégorie.',
-        en: 'At 119.99 euros, the Philips 3000 XL offers proven RapidAir technology and exemplary reliability. It excels at fries and vegetables. Premium models add connectivity, higher temperatures or dual zones, but for simple, effective daily use, the 3000 XL is hard to beat in its category.',
-        de: 'Für 119,99 Euro bietet der Philips 3000 XL bewährte RapidAir-Technologie und vorbildliche Zuverlässigkeit. Er glänzt bei Pommes und Gemüse. Premium-Modelle bieten Konnektivität, höhere Temperaturen oder Doppelzonen, aber für einfachen, effektiven Alltagsgebrauch ist der 3000 XL in seiner Klasse kaum zu schlagen.',
-        es: 'Por 119,99 euros, el Philips 3000 XL ofrece la probada tecnología RapidAir y una fiabilidad ejemplar. Destaca en patatas fritas y verduras. Los modelos premium añaden conectividad, temperaturas más altas o doble zona, pero para un uso diario sencillo y eficaz, el 3000 XL es difícil de superar en su categoría.',
-        it: 'A 119,99 euro, il Philips 3000 XL offre la collaudata tecnologia RapidAir e un\'affidabilità esemplare. Eccelle con patatine e verdure. I modelli premium aggiungono connettività, temperature più alte o doppia zona, ma per un uso quotidiano semplice ed efficace, il 3000 XL è difficile da battere nella sua categoria.',
-        nl: 'Voor 119,99 euro biedt de Philips 3000 XL bewezen RapidAir-technologie en voorbeeldige betrouwbaarheid. Hij blinkt uit bij friet en groenten. Premium modellen voegen connectiviteit, hogere temperaturen of dubbele zones toe, maar voor eenvoudig, effectief dagelijks gebruik is de 3000 XL moeilijk te verslaan in zijn klasse.',
+        fr: "Oui. Avec 6,2 litres et jusqu'à 1,2 kg d'aliments par fournée, il permet de préparer un plat principal pour 3 à 4 personnes ou un accompagnement pour 5. Au-delà, un modèle de 8 L ou à double tiroir sera plus confortable.",
+        en: "Yes. With 6.2 litres and up to 1.2 kg of food per batch, it can cook a main dish for 3 to 4 people or a side for 5. Beyond that, an 8L or dual-drawer model is more comfortable.",
+        de: "Ja. Mit 6,2 Litern und bis zu 1,2 kg Lebensmitteln pro Durchgang reicht er für ein Hauptgericht für 3 bis 4 Personen oder eine Beilage für 5. Für größere Haushalte ist ein 8-Liter- oder Doppelschubladen-Modell komfortabler.",
+        es: "Sí. Con 6,2 litros y hasta 1,2 kg de alimentos por tanda, permite preparar un plato principal para 3 a 4 personas o una guarnición para 5. Para más personas, un modelo de 8 L o de doble cajón será más cómodo.",
+        it: "Sì. Con 6,2 litri e fino a 1,2 kg di alimenti per ciclo, permette di preparare un piatto principale per 3-4 persone o un contorno per 5. Oltre, un modello da 8 L o a doppio cassetto sarà più comodo.",
+        nl: "Ja. Met 6,2 liter en tot 1,2 kg voedsel per ronde maak je een hoofdgerecht voor 3 tot 4 personen of een bijgerecht voor 5. Voor grotere huishoudens is een model van 8 L of met dubbele lade comfortabeler.",
       },
     },
     {
       question: {
-        fr: 'Quelle quantité de nourriture peut-on cuire dans le Philips 3000 XL ?',
-        en: 'How much food can the Philips 3000 XL cook at once?',
-        de: 'Wie viel Essen passt in den Philips 3000 XL?',
-        es: '¿Cuánta comida cabe en el Philips 3000 XL?',
-        it: 'Quanta pietanza si può cuocere nel Philips 3000 XL?',
-        nl: 'Hoeveel eten kan de Philips 3000 XL tegelijk bereiden?',
+        fr: "Le Philips 3000 Series XL est-il connecté à une application ?",
+        en: "Does the Philips 3000 Series XL connect to an app?",
+        de: "Lässt sich der Philips 3000 Series XL mit einer App verbinden?",
+        es: "¿La Philips 3000 Series XL se conecta a una aplicación?",
+        it: "La Philips 3000 Series XL si collega a un'app?",
+        nl: "Werkt de Philips 3000 Series XL met een app?",
       },
       answer: {
-        fr: 'Le Philips 3000 XL a une capacité de 6,2 litres, idéale pour 3 à 4 personnes. Vous pouvez y cuire 600 g de frites fraîches, 4 pilons de poulet ou 500 g de frites surgelées en une seule fournée. Pour les familles de 5 personnes et plus, un modèle plus grand serait recommandé pour éviter les fournées multiples.',
-        en: 'The Philips 3000 XL has a 6.2-litre capacity, ideal for 3 to 4 people. You can cook 600 g of fresh fries, 4 chicken drumsticks, or 500 g of frozen fries in a single batch. For families of 5 or more, a larger model would be recommended to avoid multiple batches.',
-        de: 'Der Philips 3000 XL hat 6,2 Liter Fassungsvermögen, ideal für 3 bis 4 Personen. Sie können 600 g frische Pommes, 4 Hähnchenschenkel oder 500 g Tiefkühlpommes in einer Charge garen. Für Familien ab 5 Personen empfiehlt sich ein größeres Modell, um mehrere Chargen zu vermeiden.',
-        es: 'El Philips 3000 XL tiene 6,2 litros de capacidad, ideal para 3 a 4 personas. Permite cocinar 600 g de patatas frescas, 4 muslos de pollo o 500 g de patatas congeladas de una vez. Para familias de 5 o más, se recomienda un modelo más grande para evitar varias tandas.',
-        it: 'Il Philips 3000 XL ha una capacità di 6,2 litri, ideale per 3-4 persone. Si possono cuocere 600 g di patatine fresche, 4 cosce di pollo o 500 g di patatine surgelate in una volta. Per famiglie di 5 o più persone, si consiglia un modello più grande per evitare più infornate.',
-        nl: 'De Philips 3000 XL heeft een capaciteit van 6,2 liter, ideaal voor 3 tot 4 personen. Je kunt 600 g verse friet, 4 kippenpoten of 500 g diepvriesfriet in één keer bereiden. Voor gezinnen van 5 of meer is een groter model aan te raden om meerdere batches te vermijden.',
+        fr: "Non. Le modèle HD9270 n'a ni Wi-Fi ni Bluetooth : tout se règle depuis l'écran tactile. Si vous voulez piloter la cuisson depuis votre téléphone, regardez plutôt le Cosori Dual Blaze ou le Philips Combi XXL Connecté.",
+        en: "No. The HD9270 has neither Wi-Fi nor Bluetooth: everything is set on the touchscreen. If you want to control cooking from your phone, look at the Cosori Dual Blaze or the Philips Combi XXL Connected instead.",
+        de: "Nein. Das Modell HD9270 hat weder WLAN noch Bluetooth, alles wird über das Touch-Display eingestellt. Wer per Smartphone steuern möchte, sollte sich den Cosori Dual Blaze oder den Philips Combi XXL Connected ansehen.",
+        es: "No. El modelo HD9270 no tiene Wi-Fi ni Bluetooth: todo se ajusta desde la pantalla táctil. Si quieres controlar la cocción desde el móvil, fíjate mejor en la Cosori Dual Blaze o en la Philips Combi XXL Connected.",
+        it: "No. Il modello HD9270 non ha né Wi-Fi né Bluetooth: tutto si imposta dal display touch. Se vuoi controllare la cottura dallo smartphone, guarda piuttosto la Cosori Dual Blaze o la Philips Combi XXL Connected.",
+        nl: "Nee. De HD9270 heeft geen wifi of bluetooth: alles stel je in via het touchscreen. Wil je de bereiding via je telefoon bedienen, kijk dan naar de Cosori Dual Blaze of de Philips Combi XXL Connected.",
       },
     },
     {
       question: {
-        fr: 'Le Philips 3000 XL est-il bruyant pendant la cuisson ?',
-        en: 'Is the Philips 3000 XL noisy during cooking?',
-        de: 'Ist der Philips 3000 XL während des Garens laut?',
-        es: '¿Es ruidoso el Philips 3000 XL durante la cocción?',
-        it: 'Il Philips 3000 XL è rumoroso durante la cottura?',
-        nl: 'Is de Philips 3000 XL luidruchtig tijdens het koken?',
+        fr: "Quelle est la température maximale du Philips 3000 Series XL ?",
+        en: "What is the maximum temperature of the Philips 3000 Series XL?",
+        de: "Welche Maximaltemperatur erreicht der Philips 3000 Series XL?",
+        es: "¿Cuál es la temperatura máxima de la Philips 3000 Series XL?",
+        it: "Qual è la temperatura massima della Philips 3000 Series XL?",
+        nl: "Wat is de maximale temperatuur van de Philips 3000 Series XL?",
       },
       answer: {
-        fr: 'Le Philips 3000 XL produit environ 58 dB pendant la cuisson, ce qui correspond à une bonne moyenne parmi les airfryers testés. Ce niveau sonore est comparable au bruit d\'une conversation calme et ne devrait pas gêner dans un salon ouvert sur la cuisine. Il est plus silencieux que le Ninja Double Stack à 65 dB.',
-        en: 'The Philips 3000 XL produces approximately 58 dB during cooking, which is a good average among the air fryers we tested. This noise level is comparable to a quiet conversation and should not be bothersome in a living room open to the kitchen. It is quieter than the Ninja Double Stack at 65 dB.',
-        de: 'Der Philips 3000 XL erzeugt etwa 58 dB während des Garens, ein guter Durchschnitt unter den getesteten Heißluftfritteusen. Diese Lautstärke ist vergleichbar mit einem ruhigen Gespräch und sollte in einem offenen Wohn-/Küchenbereich nicht stören. Er ist leiser als der Ninja Double Stack mit 65 dB.',
-        es: 'El Philips 3000 XL produce aproximadamente 58 dB durante la cocción, una buena media entre las freidoras probadas. Este nivel de ruido es comparable a una conversación tranquila y no debería molestar en un salón abierto a la cocina. Es más silencioso que el Ninja Double Stack con 65 dB.',
-        it: 'Il Philips 3000 XL produce circa 58 dB durante la cottura, una buona media tra le friggitrici testate. Questo livello di rumore è paragonabile a una conversazione tranquilla e non dovrebbe disturbare in un soggiorno aperto sulla cucina. È più silenzioso del Ninja Double Stack a 65 dB.',
-        nl: 'De Philips 3000 XL produceert ongeveer 58 dB tijdens het koken, een goed gemiddelde onder de geteste airfryers. Dit geluidsniveau is vergelijkbaar met een rustig gesprek en zou niet storend moeten zijn in een woonkamer die openstaat naar de keuken. Hij is stiller dan de Ninja Double Stack met 65 dB.',
+        fr: "Elle est de 200 °C. C'est suffisant pour les frites, les légumes, le poulet ou les gâteaux, mais un peu juste pour saisir fortement une viande. Certains modèles concurrents, comme le Ninja Foodi FlexDrawer, montent à 240 °C.",
+        en: "It is 200 °C. That is enough for fries, vegetables, chicken or cakes, but a little short for a hard sear on meat. Some competitors, such as the Ninja Foodi FlexDrawer, reach 240 °C.",
+        de: "Sie liegt bei 200 °C. Das genügt für Pommes, Gemüse, Hähnchen oder Kuchen, ist aber etwas knapp, um Fleisch kräftig anzubraten. Manche Konkurrenten wie der Ninja Foodi FlexDrawer erreichen 240 °C.",
+        es: "Es de 200 °C. Basta para patatas fritas, verduras, pollo o bizcochos, pero se queda algo corta para sellar con fuerza la carne. Algunos competidores, como la Ninja Foodi FlexDrawer, llegan a 240 °C.",
+        it: "È di 200 °C. Basta per patatine, verdure, pollo o torte, ma è un po' poco per rosolare con decisione la carne. Alcuni concorrenti, come la Ninja Foodi FlexDrawer, arrivano a 240 °C.",
+        nl: "Die is 200 °C. Genoeg voor friet, groenten, kip of cake, maar wat krap om vlees stevig dicht te schroeien. Sommige concurrenten, zoals de Ninja Foodi FlexDrawer, halen 240 °C.",
       },
     },
     {
       question: {
-        fr: 'Existe-t-il des accessoires compatibles avec le Philips 3000 XL ?',
-        en: 'Are there compatible accessories for the Philips 3000 XL?',
-        de: 'Gibt es kompatibles Zubehör für den Philips 3000 XL?',
-        es: '¿Existen accesorios compatibles con el Philips 3000 XL?',
-        it: 'Esistono accessori compatibili con il Philips 3000 XL?',
-        nl: 'Zijn er compatibele accessoires voor de Philips 3000 XL?',
+        fr: "Le panier du Philips 3000 Series XL passe-t-il au lave-vaisselle ?",
+        en: "Is the basket of the Philips 3000 Series XL dishwasher safe?",
+        de: "Ist der Korb des Philips 3000 Series XL spülmaschinenfest?",
+        es: "¿La cesta de la Philips 3000 Series XL es apta para lavavajillas?",
+        it: "Il cestello della Philips 3000 Series XL va in lavastoviglie?",
+        nl: "Kan de mand van de Philips 3000 Series XL in de vaatwasser?",
       },
       answer: {
-        fr: 'Philips propose des accessoires optionnels compatibles avec la gamme 3000 Series, notamment un moule à gâteau, une grille de cuisson et un kit de cuisson pour pizza. Ces accessoires sont vendus séparément. Le modèle de base est livré avec le panier Starfish breveté qui optimise la circulation d\'air pour des résultats uniformes.',
-        en: 'Philips offers optional accessories compatible with the 3000 Series range, including a baking tin, cooking grid, and pizza cooking kit. These accessories are sold separately. The base model comes with the patented Starfish basket that optimises air circulation for even results.',
-        de: 'Philips bietet optionales Zubehör für die 3000er Serie an, darunter eine Backform, einen Grillrost und ein Pizza-Set. Diese sind separat erhältlich. Das Basismodell wird mit dem patentierten Starfish-Korb geliefert, der die Luftzirkulation für gleichmäßige Ergebnisse optimiert.',
-        es: 'Philips ofrece accesorios opcionales compatibles con la Serie 3000, incluyendo un molde para tartas, una rejilla de cocción y un kit para pizza. Se venden por separado. El modelo básico incluye la cesta Starfish patentada que optimiza la circulación del aire para resultados uniformes.',
-        it: 'Philips offre accessori opzionali compatibili con la Serie 3000, tra cui uno stampo per torte, una griglia di cottura e un kit per pizza. Sono venduti separatamente. Il modello base include il cestello Starfish brevettato che ottimizza la circolazione dell\'aria per risultati uniformi.',
-        nl: 'Philips biedt optionele accessoires voor de 3000 Serie, waaronder een bakvorm, bakrooster en pizzabereidingsset. Deze worden apart verkocht. Het basismodel wordt geleverd met de gepatenteerde Starfish-mand die de luchtcirculatie optimaliseert voor gelijkmatige resultaten.',
+        fr: "Oui, le panier et le tiroir sont amovibles et compatibles lave-vaisselle selon Philips. Pour préserver le revêtement antiadhésif dans la durée, un lavage à la main avec une éponge douce reste préférable.",
+        en: "Yes, according to Philips the basket and drawer are removable and dishwasher safe. To keep the non-stick coating in good shape over time, hand washing with a soft sponge is still the better option.",
+        de: "Ja, laut Philips sind Korb und Schublade abnehmbar und spülmaschinenfest. Damit die Antihaftbeschichtung lange hält, ist Handwäsche mit einem weichen Schwamm dennoch die bessere Wahl.",
+        es: "Sí, según Philips la cesta y el cajón son extraíbles y aptos para lavavajillas. Para conservar el antiadherente en el tiempo, sigue siendo preferible lavarlos a mano con una esponja suave.",
+        it: "Sì, secondo Philips cestello e cassetto sono rimovibili e lavabili in lavastoviglie. Per preservare l'antiaderente nel tempo, il lavaggio a mano con una spugna morbida resta preferibile.",
+        nl: "Ja, volgens Philips zijn mand en lade uitneembaar en vaatwasserbestendig. Om de antiaanbaklaag lang mooi te houden, blijft afwassen met de hand met een zachte spons de betere keuze.",
       },
     },
     {
       question: {
-        fr: 'Les aliments cuits dans le Philips 3000 XL ont-ils le même goût qu\'en friture ?',
-        en: 'Does food cooked in the Philips 3000 XL taste the same as deep-fried?',
-        de: 'Schmeckt Essen aus dem Philips 3000 XL wie frittiert?',
-        es: '¿Los alimentos del Philips 3000 XL saben igual que fritos?',
-        it: 'Il cibo cotto nel Philips 3000 XL ha lo stesso sapore del fritto?',
-        nl: 'Smaakt eten uit de Philips 3000 XL hetzelfde als gefrituurd?',
+        fr: "Philips 3000 Series XL ou Cosori Dual Blaze : lequel choisir ?",
+        en: "Philips 3000 Series XL or Cosori Dual Blaze: which should I choose?",
+        de: "Philips 3000 Series XL oder Cosori Dual Blaze: welcher ist besser?",
+        es: "¿Philips 3000 Series XL o Cosori Dual Blaze: cuál elegir?",
+        it: "Philips 3000 Series XL o Cosori Dual Blaze: quale scegliere?",
+        nl: "Philips 3000 Series XL of Cosori Dual Blaze: welke kiezen?",
       },
       answer: {
-        fr: 'Les aliments cuits dans le Philips 3000 XL sont croustillants à l\'extérieur et tendres à l\'intérieur, mais le goût diffère légèrement d\'une friture traditionnelle car l\'airfryer utilise 85 % moins de matières grasses. Les frites sont excellentes et les légumes développent une caramélisation délicieuse. Le résultat est plus léger et plus sain.',
-        en: 'Food cooked in the Philips 3000 XL is crispy outside and tender inside, but the taste differs slightly from traditional deep frying as the air fryer uses 85% less fat. Fries are excellent and vegetables develop a delicious caramelisation. The result is lighter and healthier.',
-        de: 'Essen aus dem Philips 3000 XL ist außen knusprig und innen zart, schmeckt aber etwas anders als traditionell Frittiertes, da die Heißluftfritteuse 85 % weniger Fett verwendet. Pommes sind ausgezeichnet und Gemüse entwickelt eine köstliche Karamellisierung. Das Ergebnis ist leichter und gesünder.',
-        es: 'Los alimentos cocinados en el Philips 3000 XL son crujientes por fuera y tiernos por dentro, pero el sabor difiere ligeramente del frito tradicional ya que la freidora de aire usa un 85 % menos de grasa. Las patatas fritas son excelentes y las verduras desarrollan una caramelización deliciosa. El resultado es más ligero y saludable.',
-        it: 'Il cibo cotto nel Philips 3000 XL è croccante fuori e tenero dentro, ma il sapore differisce leggermente dalla frittura tradizionale poiché la friggitrice usa l\'85% di grassi in meno. Le patatine sono eccellenti e le verdure sviluppano una deliziosa caramellizzazione. Il risultato è più leggero e salutare.',
-        nl: 'Eten uit de Philips 3000 XL is krokant van buiten en zacht van binnen, maar de smaak verschilt licht van traditioneel frituren omdat de airfryer 85% minder vet gebruikt. Friet is uitstekend en groenten ontwikkelen een heerlijke karamelisatie. Het resultaat is lichter en gezonder.',
+        fr: "Le Philips mise sur la simplicité et une cuve un peu plus adaptée aux familles. Le Cosori Dual Blaze ajoute une résistance en partie basse, qui limite le besoin de retourner les aliments, et une application de pilotage. Choisissez le Philips pour la facilité, le Cosori pour la connectivité.",
+        en: "The Philips focuses on simplicity and a pan well suited to families. The Cosori Dual Blaze adds a bottom heating element, which reduces the need to turn food, and a control app. Choose the Philips for ease of use and the Cosori for connectivity.",
+        de: "Der Philips setzt auf Einfachheit und einen familientauglichen Garraum. Der Cosori Dual Blaze ergänzt ein unteres Heizelement, das Wenden seltener nötig macht, und eine Steuerungs-App. Wählen Sie den Philips für einfache Bedienung, den Cosori für Konnektivität.",
+        es: "La Philips apuesta por la sencillez y una cubeta adecuada para familias. La Cosori Dual Blaze añade una resistencia inferior, que reduce la necesidad de girar los alimentos, y una aplicación de control. Elige la Philips por su facilidad y la Cosori por la conectividad.",
+        it: "La Philips punta sulla semplicità e su una vasca adatta alle famiglie. La Cosori Dual Blaze aggiunge una resistenza inferiore, che riduce la necessità di girare gli alimenti, e un'app di controllo. Scegli la Philips per la facilità d'uso, la Cosori per la connettività.",
+        nl: "De Philips zet in op eenvoud en een pan die goed past bij gezinnen. De Cosori Dual Blaze voegt een verwarmingselement onderin toe, waardoor je minder hoeft om te draaien, en een app voor bediening. Kies de Philips voor gebruiksgemak, de Cosori voor connectiviteit.",
+      },
+    },
+    {
+      question: {
+        fr: "Cet avis s'appuie-t-il sur un essai de l'appareil par Home Nura ?",
+        en: "Is this review based on hands-on use?",
+        de: "Beruht diese Bewertung auf einem eigenen Praxistest?",
+        es: "¿Esta opinión se basa en un uso propio del aparato?",
+        it: "Questa recensione si basa su una prova diretta?",
+        nl: "Is deze review gebaseerd op eigen gebruik?",
+      },
+      answer: {
+        fr: "Non. Home Nura ne teste pas les appareils lui-même. Cet avis s'appuie sur la fiche technique officielle de Philips, sur les tests publiés par des organismes et médias indépendants et sur la synthèse des avis d'acheteurs vérifiés.",
+        en: "No. Home Nura does not test appliances itself. This review is based on Philips' official specifications, on tests published by independent organisations and media, and on a synthesis of verified buyer reviews.",
+        de: "Nein. Home Nura testet Geräte nicht selbst. Diese Bewertung stützt sich auf das offizielle Philips-Datenblatt, auf veröffentlichte Tests unabhängiger Organisationen und Medien sowie auf verifizierte Käuferbewertungen.",
+        es: "No. Home Nura no prueba los aparatos por sí mismo. Esta opinión se basa en la ficha técnica oficial de Philips, en pruebas publicadas por organismos y medios independientes y en la síntesis de opiniones de compradores verificados.",
+        it: "No. Home Nura non prova direttamente gli apparecchi. Questa recensione si basa sulla scheda tecnica ufficiale di Philips, sui test pubblicati da enti e testate indipendenti e sulla sintesi delle recensioni di acquirenti verificati.",
+        nl: "Nee. Home Nura test apparaten niet zelf. Deze review is gebaseerd op de officiële specificaties van Philips, op gepubliceerde tests van onafhankelijke organisaties en media en op een samenvatting van geverifieerde kopersreviews.",
       },
     },
   ],

@@ -17,11 +17,11 @@ describe('article models', () => {
     expect(lock?.kind).toBe('models')
     if (lock?.kind === 'models') {
       expect(lock.models[0]).toEqual({
-        name: 'Nuki Smart Lock 4.0',
-        url: 'https://www.amazon.es/s?k=Nuki+Smart+Lock+4.0&tag=homenuraen0a-21',
+        name: 'Nuki Smart Lock Pro (5th generation)',
+        url: 'https://www.amazon.es/s?k=Nuki+Smart+Lock+Pro+%285th+generation%29&tag=homenuraen0a-21',
       })
     }
-    expect(getArticleRecommendations({ slug: 'histoire-evolution-airfryer', pillar: 'culture' }, 'fr')).toBeNull()
+    expect(getArticleRecommendations({ slug: 'meal-prep-airfryer-semaine', pillar: 'culture' }, 'fr')).toBeNull()
   })
 
   it('caps the list at 5 non-empty, unique model names', () => {
@@ -35,6 +35,6 @@ describe('article models', () => {
   })
 
   it('returns nothing for articles without cited models', () => {
-    expect(getArticleModels('histoire-evolution-airfryer')).toEqual([])
+    expect(getArticleModels('meal-prep-airfryer-semaine')).toEqual([])
   })
 })

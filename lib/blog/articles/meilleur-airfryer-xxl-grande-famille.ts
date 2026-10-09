@@ -4,740 +4,693 @@ export const article: BlogArticle = {
   slug: 'meilleur-airfryer-xxl-grande-famille',
   category: 'comparatifs',
   pillar: 'guides/airfryer-vs-four',
-  relatedSlugs: ['test-ninja-foodi-flexdrawer', 'test-ninja-foodi-max-dual-zone', 'comment-choisir-airfryer-famille'],
+  relatedSlugs: ['comment-choisir-airfryer-famille', 'airfryer-simple-vs-double-panier', 'test-ninja-foodi-flexdrawer'],
   datePublished: '2026-03-25',
-  dateModified: '2026-04-14',
-  readingTime: 13,
+  dateModified: '2026-10-09',
+  readingTime: 8,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/41sQIj0LwDL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1781737857663-f1f14a60ba46?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Les meilleurs airfryers XXL pour grande famille en 2026',
-        en: 'The best XXL air fryers for large families in 2026',
-        de: 'Die besten XXL-Heissluftfritteusen fuer grosse Familien 2026',
-        es: 'Las mejores freidoras de aire XXL para familias grandes 2026',
-        it: 'Le migliori friggitrici ad aria XXL per famiglie numerose 2026',
-        nl: 'De beste XXL airfryers voor grote gezinnen 2026',
+        fr: 'Grande fournée de morceaux de poulet croustillants sur la grille d’un airfryer',
+        en: 'A large batch of crispy chicken pieces on an air fryer rack',
+        de: 'Große Portion knuspriger Hähnchenstücke auf dem Rost einer Heißluftfritteuse',
+        es: 'Una gran tanda de trozos de pollo crujiente en la rejilla de una freidora de aire',
+        it: 'Una grande infornata di pezzi di pollo croccante sulla griglia di una friggitrice ad aria',
+        nl: 'Een grote portie krokante kipstukjes op het rooster van een airfryer',
       },
     },
   ],
   title: {
-    fr: 'Meilleur Airfryer XXL pour Grande Famille : Top 5 Modèles 2026',
-    en: 'Best XXL Air Fryer for Large Families: Top 5 Models 2026',
-    de: 'Beste XXL-Heissluftfritteuse fuer Grossfamilien: Top 5 Modelle 2026',
-    es: 'Mejor Freidora de Aire XXL para Familias Grandes: Top 5 Modelos 2026',
-    it: 'Migliore Friggitrice ad Aria XXL per Famiglie Numerose: Top 5 Modelli 2026',
-    nl: 'Beste XXL Airfryer voor Grote Gezinnen: Top 5 Modellen 2026',
+    fr: 'Meilleur airfryer XXL pour grande famille : les 5 modèles à choisir en 2026',
+    en: 'Best XXL Air Fryer for Large Families: 5 Models Worth Choosing in 2026',
+    de: 'Beste XXL-Heißluftfritteuse für Großfamilien: 5 empfehlenswerte Modelle 2026',
+    es: 'Mejor freidora de aire XXL para familias grandes: 5 modelos para elegir en 2026',
+    it: 'Migliore friggitrice ad aria XXL per famiglie numerose: 5 modelli da scegliere nel 2026',
+    nl: 'Beste XXL-airfryer voor grote gezinnen: 5 modellen om te kiezen in 2026',
   },
   excerpt: {
-    fr: 'Decouvrez les 5 meilleurs airfryers XXL (8L+) pour les grandes familles en 2026. Comparatif detaille avec capacites, dimensions, prix et performances.',
-    en: 'Discover the 5 best XXL air fryers (8L+) for large families in 2026. Detailed comparison with capacities, dimensions, prices and performance.',
-    de: 'Entdecken Sie die 5 besten XXL-Heissluftfritteusen (8L+) fuer Grossfamilien 2026. Detaillierter Vergleich mit Kapazitaeten, Abmessungen und Preisen.',
-    es: 'Descubre las 5 mejores freidoras de aire XXL (8L+) para familias grandes en 2026. Comparativa con capacidades, dimensiones y precios.',
-    it: 'Scopri le 5 migliori friggitrici ad aria XXL (8L+) per famiglie numerose nel 2026. Confronto con capacita, dimensioni e prezzi.',
-    nl: 'Ontdek de 5 beste XXL airfryers (8L+) voor grote gezinnen in 2026. Gedetailleerde vergelijking met capaciteiten, afmetingen en prijzen.',
+    fr: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone et Tefal Dual Easy Fry : quel airfryer de 8 litres et plus choisir pour nourrir 5 à 8 personnes en une fournée ?',
+    en: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone and Tefal Dual Easy Fry: which 8-litre-plus air fryer should you choose to feed 5 to 8 people in one batch?',
+    de: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone und Tefal Dual Easy Fry: Welche Heißluftfritteuse ab 8 Litern versorgt 5 bis 8 Personen in einem Durchgang?',
+    es: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone y Tefal Dual Easy Fry: ¿qué freidora de aire de 8 litros o más elegir para dar de comer a 5-8 personas de una vez?',
+    it: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone e Tefal Dual Easy Fry: quale friggitrice ad aria da 8 litri in su scegliere per sfamare 5-8 persone in un’unica cottura?',
+    nl: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone en Tefal Dual Easy Fry: welke airfryer van 8 liter of meer kies je om 5 tot 8 personen in één keer te voeden?',
   },
   content: {
-    fr: `<h2>Introduction</h2>
-<p>Quand on cuisine pour 5, 6 ou 8 personnes, un airfryer standard de 4-5 litres ne suffit tout simplement pas. Il faut un modele XXL, capable de preparer de grandes quantites en une seule fournee. Mais entre les differentes capacites annoncees (souvent gonflees par le marketing), les dimensions reelles et les performances a pleine charge, il est difficile de s'y retrouver.</p>
-<p>Nous avons teste les 5 meilleurs airfryers XXL (8 litres et plus) du marche pendant 6 semaines, en conditions reelles avec des familles de 5 a 7 personnes. Pour chaque modele, nous avons mesure la capacite utile reelle, les temps de cuisson a pleine charge, la qualite de cuisson quand le panier est rempli au maximum, et bien sur l'encombrement et le poids. Voici notre classement.</p>
+    fr: `<p><strong>Pour une grande famille en 2026, le meilleur airfryer XXL est le Ninja Foodi FlexDrawer 10.4L Double Zone</strong> : il fonctionne en deux zones indépendantes de 5,2 litres ou, une fois la cloison retirée, en un seul grand tiroir de 10,4 litres pour les grosses pièces. Si votre plan de travail est étroit, le Ninja Double Stack XL 9,5 L superpose ses deux tiroirs, et si vous préférez un seul grand panier connecté avec sonde de cuisson, le Philips Airfryer Combi XXL Connecté 8,3 L est l’alternative la plus complète.</p>
+<p>Ce comparatif s’appuie sur les fiches techniques des fabricants, des avis indépendants et les retours d’acheteurs vérifiés. Il ne retient que des modèles vendus en Europe en 2026. Retrouvez toute la sélection sur notre page <a href="/fr/cuisine-connectee/airfryers">airfryers</a>.</p>
 
-<h2>Tableau comparatif des 5 meilleurs airfryers XXL</h2>
+<h2>Les critères pour choisir un airfryer XXL</h2>
+<p>Un airfryer « XXL » désigne en général un appareil de 8 litres et plus. À ce niveau, la capacité affichée ne suffit plus à comparer : la façon dont ces litres sont organisés compte autant que leur nombre.</p>
+<ul>
+<li><strong>Un grand panier ou deux tiroirs</strong> : deux tiroirs indépendants permettent de cuire le plat et l’accompagnement en même temps, à des températures différentes. Un grand panier unique accueille mieux un poulet entier ou un rôti. Le FlexDrawer de Ninja combine les deux approches. Pour approfondir, lisez notre article <a href="/fr/blog/airfryer-simple-vs-double-panier">airfryer simple ou double panier</a>.</li>
+<li><strong>La surface de cuisson</strong> : pour des frites ou des nuggets, c’est la surface du fond du panier qui détermine le croustillant, pas le volume. Un panier haut mais étroit oblige à secouer plus souvent ou à cuire en deux fois.</li>
+<li><strong>L’encombrement</strong> : un modèle à deux tiroirs côte à côte prend de la largeur (souvent plus de 40 cm), un modèle à tiroirs superposés prend de la hauteur. Mesurez votre plan de travail et la hauteur sous vos meubles hauts.</li>
+<li><strong>La synchronisation</strong> : les fonctions de type Sync (fin de cuisson simultanée) et Match (mêmes réglages dans les deux tiroirs) sont précieuses quand tout le monde passe à table en même temps.</li>
+<li><strong>La puissance et la prise</strong> : les modèles XXL tournent autour de 2 200 à 2 700 W. Branchez-les directement sur une prise murale, jamais sur une multiprise déjà chargée.</li>
+<li><strong>L’entretien</strong> : vérifiez que les tiroirs et grilles passent au lave-vaisselle et que le revêtement antiadhésif est facile à nettoyer. Avec des fournées familiales, c’est un usage quasi quotidien.</li>
+</ul>
+
+<h2>Les 5 meilleurs airfryers XXL pour grande famille en 2026</h2>
+
+<h3>1. Ninja Foodi FlexDrawer 10.4L Double Zone (AF500EU) — le meilleur choix global</h3>
+<p>Le FlexDrawer est le modèle le plus polyvalent de cette sélection. Son unique tiroir de 10,4 litres peut être séparé par une cloison amovible en deux zones de 5,2 litres, chacune avec sa propre température et sa propre durée. Retirez la cloison et vous obtenez la <strong>MegaZone</strong>, un seul espace de 10,4 litres pour un grand poulet, un rôti ou une très grosse fournée de légumes. La puissance annoncée est de 2 470 W, avec six fonctions dont Air Fry et Max Crisp, et les fonctions Sync et Match propres à Ninja.</p>
+<p><strong>Points forts</strong> : la flexibilité entre deux zones et un grand volume unique, la capacité la plus élevée de ce comparatif, des retours d’acheteurs très positifs sur l’homogénéité de cuisson.</p>
+<p><strong>Limites</strong> : environ 45 cm de large et plus de 9 kg selon les fiches revendeurs, c’est un appareil qui demande une place dédiée. Il se situe dans le haut de gamme.</p>
+<p><strong>Pour qui</strong> : les familles de 5 à 8 personnes qui veulent pouvoir faire à la fois un repas complet en deux zones et de grosses pièces entières. Notre <a href="/fr/blog/test-ninja-foodi-flexdrawer">avis détaillé sur le Ninja FlexDrawer</a> complète cette fiche.</p>
+
+<h3>2. Ninja Double Stack XL 9,5 L (SL400EU) — le meilleur pour les cuisines étroites</h3>
+<p>Le Double Stack XL reprend le principe des deux tiroirs indépendants de 4,75 litres, mais les empile verticalement au lieu de les placer côte à côte. Résultat : environ 28 cm de large seulement pour 9,5 litres au total, avec une hauteur d’environ 38,5 cm pensée pour passer sous les meubles hauts. Des grilles d’étage fournies permettent de cuire sur quatre niveaux à la fois. On retrouve les six fonctions et la puissance de 2 470 W de la gamme, ainsi que la fin de cuisson synchronisée.</p>
+<p><strong>Points forts</strong> : la plus petite emprise au sol des modèles XXL, deux vraies zones indépendantes, la cuisson sur quatre niveaux pour multiplier la surface utile.</p>
+<p><strong>Limites</strong> : les tiroirs ne se fusionnent pas, donc pas de très grosse pièce unique ; la cuisson sur grilles superposées demande un peu d’habitude pour retourner les aliments.</p>
+<p><strong>Pour qui</strong> : les familles nombreuses qui manquent de largeur sur le plan de travail et cuisinent surtout des plats « portionnables » (frites, filets, légumes, nuggets).</p>
+
+<h3>3. Philips Airfryer Combi XXL Connecté 8,3 L (série 7000) — le meilleur airfryer connecté</h3>
+<p>Le Combi XXL de la série 7000 mise sur un seul grand panier de 8,3 litres, une puissance de 2 200 W et une connexion Wi-Fi avec l’application Philips HomeID, qui propose des programmes automatiques et des recettes guidées. Son atout distinctif est le <strong>thermomètre de cuisson intégré</strong> : il surveille la température à cœur de la viande ou du poisson et arrête la cuisson au bon moment. La technologie Rapid CombiAir associe chaleur et circulation d’air pour griller, rôtir ou cuire comme un petit four.</p>
+<p><strong>Points forts</strong> : le grand panier unique, la sonde de cuisson, l’application la plus aboutie de la sélection, une grande variété de programmes.</p>
+<p><strong>Limites</strong> : pas de double zone, donc l’accompagnement se cuit avant ou après le plat principal ; l’appareil est lourd et se place dans le très haut de gamme.</p>
+<p><strong>Pour qui</strong> : les familles qui cuisinent souvent des rôtis, des volailles entières ou du poisson et qui apprécient le pilotage depuis le smartphone.</p>
+
+<h3>4. Ninja Foodi MAX Dual Zone 9,5 L (AF400EU) — le classique éprouvé</h3>
+<p>C’est le modèle qui a popularisé les airfryers à deux tiroirs : deux tiroirs indépendants de 4,75 litres côte à côte, 2 470 W, six fonctions (Air Fry, Max Crisp, rôtir, cuire, réchauffer, déshydrater) et les fonctions Sync et Match. Ninja indique qu’un tiroir peut accueillir un poulet d’environ 2 kg. Sur le marché depuis plusieurs années, il bénéficie d’un très grand nombre d’avis d’acheteurs, globalement très favorables.</p>
+<p><strong>Points forts</strong> : la fiabilité reconnue, l’usage très simple, deux zones de taille égale, une large disponibilité des accessoires.</p>
+<p><strong>Limites</strong> : prend de la largeur sur le plan de travail ; tiroirs non fusionnables.</p>
+<p><strong>Pour qui</strong> : les familles de 4 à 6 personnes qui veulent un double tiroir sans fonctions superflues.</p>
+
+<h3>5. Tefal Dual Easy Fry 8,3 L (EY9018) — le double tiroir le plus accessible</h3>
+<p>Le Tefal Dual Easy Fry adopte une approche asymétrique : un grand tiroir de 5,2 litres et un petit de 3,1 litres, soit 8,3 litres au total, avec un écran tactile et sept programmes (frites, poulet, légumes, poisson, dessert, déshydratation et mode manuel). Le petit tiroir est pratique pour un accompagnement ou une petite portion, le grand pour le plat principal. Les éléments amovibles passent au lave-vaisselle.</p>
+<p><strong>Points forts</strong> : un positionnement plus abordable que les Ninja et Philips, une marque avec un service après-vente bien implanté en France, un grand tiroir confortable.</p>
+<p><strong>Limites</strong> : le petit tiroir de 3,1 litres limite la capacité réelle pour une famille de 6 ou plus ; plusieurs acheteurs regrettent l’absence de fonction maintien au chaud.</p>
+<p><strong>Pour qui</strong> : les familles de 4 à 5 personnes qui veulent un double tiroir à moindre coût.</p>
+
+<h2>Tableau comparatif</h2>
 <table>
 <thead>
-<tr><th>Rang</th><th>Modele</th><th>Capacite annoncee</th><th>Capacite utile reelle</th><th>Dimensions (LxPxH)</th><th>Poids</th><th>Puissance</th><th>Double panier</th><th>Prix</th><th>Note</th></tr>
+<tr><th>Modèle</th><th>Capacité</th><th>Configuration</th><th>Connectivité</th><th>Idéal pour</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td><strong>Ninja Foodi FlexDrawer 10.4L</strong></td><td>10,4L</td><td>~8,5L utiles</td><td>42x37x27 cm</td><td>8,2 kg</td><td>2470W</td><td>Oui (fusionnable)</td><td>~230 EUR</td><td><strong>9,5/10</strong></td></tr>
-<tr><td>2</td><td><strong>Ninja Foodi Max Dual Zone AF400</strong></td><td>9,5L</td><td>~7,5L utiles</td><td>40x33x27 cm</td><td>7,7 kg</td><td>2470W</td><td>Oui</td><td>~200 EUR</td><td><strong>9/10</strong></td></tr>
-<tr><td>3</td><td><strong>Philips Combi XXL Connected</strong></td><td>8,3L</td><td>~7L utiles</td><td>38x35x32 cm</td><td>8,5 kg</td><td>2200W</td><td>Non</td><td>~350 EUR</td><td><strong>9/10</strong></td></tr>
-<tr><td>4</td><td><strong>Cecotec Cecofry Advance Double 9000</strong></td><td>9L</td><td>~7L utiles</td><td>39x32x28 cm</td><td>6,8 kg</td><td>2200W</td><td>Oui</td><td>~130 EUR</td><td><strong>7,5/10</strong></td></tr>
-<tr><td>5</td><td><strong>Tefal Easy Fry Dual Zone XXL</strong></td><td>8,3L</td><td>~6,5L utiles</td><td>38x31x28 cm</td><td>6,5 kg</td><td>1830W</td><td>Oui</td><td>~170 EUR</td><td><strong>7,5/10</strong></td></tr>
+<tr><td>Ninja Foodi FlexDrawer 10.4L</td><td>10,4 L</td><td>1 tiroir, 2 zones de 5,2 L ou MegaZone</td><td>Non</td><td>Familles de 5 à 8, grosses pièces</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>9,5 L</td><td>2 tiroirs superposés de 4,75 L</td><td>Non</td><td>Plans de travail étroits</td></tr>
+<tr><td>Philips Combi XXL Connecté</td><td>8,3 L</td><td>1 grand panier, sonde intégrée</td><td>Wi-Fi, app HomeID</td><td>Rôtis, volailles, pilotage à distance</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone</td><td>9,5 L</td><td>2 tiroirs côte à côte de 4,75 L</td><td>Non</td><td>Repas complets au quotidien</td></tr>
+<tr><td>Tefal Dual Easy Fry EY9018</td><td>8,3 L</td><td>2 tiroirs de 5,2 L et 3,1 L</td><td>Non</td><td>Budget maîtrisé, 4 à 5 personnes</td></tr>
 </tbody>
 </table>
 
-<h2>N°1 : Ninja Foodi FlexDrawer 10.4L — Le meilleur airfryer XXL 2026</h2>
-<p>Le <a href="/fr/blog/test-ninja-foodi-flexdrawer">Ninja Foodi FlexDrawer</a> est notre numero un inconteste. Son concept unique de <strong>double panier fusionnable</strong> est une revolution pour les grandes familles :</p>
+<h2>Quelle capacité pour combien de personnes ?</h2>
+<p>Les capacités en litres sont des volumes de cuve : on ne remplit jamais un panier jusqu’en haut si l’on veut des aliments croustillants. En pratique, on peut retenir ces repères :</p>
 <ul>
-<li><strong>Mode double zone :</strong> 2 paniers de 5,2L chacun, avec temperatures et temps independants. Parfait pour cuire frites et poulet simultanement.</li>
-<li><strong>Mode FlexZone :</strong> retirez le separateur et obtenez un seul espace geant de 10,4L. Assez grand pour un poulet entier de 2,5 kg ou 1,5 kg de frites en une seule fournee.</li>
-<li><strong>Sync Finish :</strong> les deux zones terminent en meme temps pour un repas parfaitement synchronise.</li>
-<li><strong>6 modes de cuisson :</strong> Air Fry, Max Crisp, Rotir, Cuire, Deshydrater, Rechauffer.</li>
+<li><strong>4 personnes</strong> : 6 à 8 litres suffisent, un double tiroir aide à servir le plat et l’accompagnement ensemble.</li>
+<li><strong>5 à 6 personnes</strong> : visez 8 à 10 litres, idéalement en deux zones indépendantes.</li>
+<li><strong>7 à 8 personnes</strong> : un modèle d’environ 10 litres comme le FlexDrawer, ou acceptez de cuire certains aliments en deux fois.</li>
 </ul>
-<p><strong>Capacite reelle testee :</strong> en mode FlexZone, nous avons reussi a cuire <strong>1,5 kg de frites</strong> (8 portions genereuses) ou <strong>un poulet de 2,2 kg</strong> sans probleme. En mode double zone, chaque panier accueille confortablement 600-700g.</p>
-<p><strong>Points forts :</strong> concept FlexZone unique, tres grande capacite, Sync Finish, version WiFi disponible, qualite de cuisson excellente meme a pleine charge.</p>
-<p><strong>Points faibles :</strong> encombrant (42x37 cm au sol), consommation elevee (2470W), prix eleve pour Ninja.</p>
-<p><strong>Ideal pour :</strong> familles de 5-8 personnes, cuisiniers qui veulent de la flexibilite maximale.</p>
+<p>Pour les frites, comptez plutôt sur la surface du panier que sur son volume : une couche trop épaisse cuit à la vapeur au lieu de dorer. Notre guide <a href="/fr/blog/comment-choisir-airfryer-famille">pour choisir l’airfryer de sa famille</a> détaille ces repères selon vos habitudes.</p>
 
-<h2>N°2 : Ninja Foodi Max Dual Zone AF400 — Le classique familial</h2>
-<p>Le <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max Dual Zone</a> est l'airfryer double panier le plus vendu en Europe, et pour cause. Moins cher et moins encombrant que le FlexDrawer, il offre l'essentiel :</p>
+<h2>Les erreurs à éviter</h2>
 <ul>
-<li><strong>2 paniers de 4,75L :</strong> suffisants pour cuire le repas complet d'une famille de 4-6 personnes.</li>
-<li><strong>Sync Finish et Match Cook :</strong> les deux fonctions signature de Ninja pour synchroniser ou dupliquer les cuissons.</li>
-<li><strong>6 modes de cuisson :</strong> identiques au FlexDrawer.</li>
+<li><strong>Choisir uniquement sur les litres</strong> : deux tiroirs de 4,75 L et un panier de 8,3 L n’offrent pas les mêmes usages. Pensez d’abord à vos plats types.</li>
+<li><strong>Oublier la hauteur sous les meubles</strong> : un modèle à tiroirs superposés ou un grand panier haut peut ne pas tenir sous un meuble suspendu, et l’air chaud a besoin de s’évacuer.</li>
+<li><strong>Surcharger le panier</strong> : c’est la première cause de frites molles. Mieux vaut deux fournées réussies qu’une seule ratée.</li>
+<li><strong>Négliger le nettoyage</strong> : la graisse accumulée au fond du tiroir finit par fumer. Un nettoyage après chaque usage intensif prolonge la vie du revêtement.</li>
+<li><strong>Payer pour des fonctions inutiles</strong> : la connectivité est utile si vous suivez des recettes guidées ou cuisinez de la viande à cœur, beaucoup moins pour des frites et des légumes.</li>
 </ul>
-<p><strong>Capacite reelle testee :</strong> chaque panier accueille <strong>500-600g confortablement</strong>. Au total, nous avons cuit le repas complet (frites + poulet pane) pour 5 personnes en une seule session de 22 minutes.</p>
-<p><strong>Points forts :</strong> excellent rapport qualite-prix a ~200 EUR, encombrement raisonnable, Sync Finish, tres facile d'utilisation.</p>
-<p><strong>Points faibles :</strong> pas de mode FlexZone (les paniers ne se fusionnent pas), impossible de cuire un gros poulet entier.</p>
-<p><strong>Ideal pour :</strong> familles de 4-6 personnes qui veulent le meilleur rapport qualite-prix en double panier.</p>
 
-<h2>N°3 : Philips Combi XXL Connected — La technologie au service des familles</h2>
-<p>Le <a href="/fr/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> est l'airfryer simple panier le plus avance du marche. Sa <strong>technologie Combi unique</strong> (air chaud + micro-ondes) divise les temps de cuisson par deux :</p>
+<h2>Installation, utilisation et sécurité</h2>
 <ul>
-<li><strong>Cuisson Combi :</strong> un poulet rotit en 30 minutes au lieu de 60, des gratins en 15 minutes au lieu de 30. La combinaison air chaud + micro-ondes est une revolution.</li>
-<li><strong>Application HomeID :</strong> la meilleure app du marche avec 500+ recettes guidees.</li>
-<li><strong>Rapid Air 3.0 :</strong> la derniere generation de la technologie Philips pour une cuisson encore plus uniforme.</li>
-</ul>
-<p><strong>Capacite reelle testee :</strong> le panier unique de 8,3L accueille <strong>1,2 kg de frites</strong> ou un <strong>poulet de 2 kg</strong>. Suffisant pour 5-6 personnes en une fournee.</p>
-<p><strong>Points forts :</strong> meilleure qualite de cuisson du comparatif, fonction Combi revolutionnaire, app HomeID, WiFi integre.</p>
-<p><strong>Points faibles :</strong> prix tres eleve (350 EUR), pas de double panier (cuisson sequentielle obligatoire pour un repas complet), lourd (8,5 kg).</p>
-<p><strong>Ideal pour :</strong> familles de 4-6 personnes qui privilegient la qualite de cuisson et la technologie, et qui ont le budget.</p>
-
-<h2>N°4 : Cecotec Cecofry Advance Double 9000 — Le meilleur budget XXL</h2>
-<p>Le Cecotec Cecofry est une surprise a <strong>130 EUR seulement</strong>. Pour moins cher qu'un Philips 3000 XL, vous obtenez un double panier de 9 litres :</p>
-<ul>
-<li><strong>2 paniers de 4,5L :</strong> independants en temperature et en temps.</li>
-<li><strong>8 programmes predefinis :</strong> frites, poulet, poisson, legumes, viande, pizza, dessert, rechauffer.</li>
-<li><strong>Temperature reglable de 80 a 200 degres.</strong></li>
-</ul>
-<p><strong>Capacite reelle testee :</strong> les paniers sont un peu moins profonds que chez Ninja. Capacite utile reelle d'environ <strong>7L au total</strong> (2x3,5L utiles). Suffisant pour 4-5 personnes.</p>
-<p><strong>Points forts :</strong> prix imbattable, double panier, 8 programmes, leger (6,8 kg).</p>
-<p><strong>Points faibles :</strong> qualite de cuisson inferieure aux Ninja et Philips (uniformite 7/10), paniers moins profonds, revetement antiadhesif de qualite moyenne, pas de Sync Finish, pas de connectivite.</p>
-<p><strong>Ideal pour :</strong> familles avec un budget serre qui veulent absolument un double panier XXL.</p>
-
-<h2>N°5 : Tefal Easy Fry Dual Zone XXL — La marque francaise en XXL</h2>
-<p>Tefal, marque francaise bien connue, propose son premier double panier XXL a un prix raisonnable de 170 EUR :</p>
-<ul>
-<li><strong>2 paniers de 4,15L :</strong> avec cuisson independante.</li>
-<li><strong>Fonction Sync :</strong> equivalent du Sync Finish de Ninja.</li>
-<li><strong>10 programmes automatiques.</strong></li>
-<li><strong>Ecran tactile digital intuitif.</strong></li>
-</ul>
-<p><strong>Capacite reelle testee :</strong> environ <strong>6,5L utiles au total</strong>. Les paniers sont un peu plus petits que chez Ninja. Suffisant pour 4-5 personnes.</p>
-<p><strong>Points forts :</strong> marque francaise avec SAV local excellent, bon rapport qualite-prix, Sync, ecran tactile agreable.</p>
-<p><strong>Points faibles :</strong> capacite reelle inferieure a l'annonce (8,3L annonces, 6,5L utiles), puissance un peu juste (1830W), cuisson moins homogene que Ninja a pleine charge.</p>
-<p><strong>Ideal pour :</strong> familles de 4-5 personnes qui preferent une marque francaise avec un SAV fiable.</p>
-
-<h2>Capacite annoncee vs capacite reelle : attention au marketing</h2>
-<p>Un point crucial que beaucoup d'acheteurs ignorent : la <strong>capacite annoncee</strong> par les fabricants est souvent la capacite totale du panier, bords compris. La <strong>capacite utile reelle</strong> — celle que vous pouvez effectivement remplir pour une cuisson optimale — est toujours inferieure :</p>
-<table>
-<thead>
-<tr><th>Modele</th><th>Capacite annoncee</th><th>Capacite utile reelle</th><th>Ecart</th></tr>
-</thead>
-<tbody>
-<tr><td>Ninja FlexDrawer</td><td>10,4L</td><td>~8,5L</td><td>-18%</td></tr>
-<tr><td>Ninja Max Dual Zone</td><td>9,5L</td><td>~7,5L</td><td>-21%</td></tr>
-<tr><td>Philips Combi XXL</td><td>8,3L</td><td>~7L</td><td>-16%</td></tr>
-<tr><td>Cecotec Cecofry 9000</td><td>9L</td><td>~7L</td><td>-22%</td></tr>
-<tr><td>Tefal Easy Fry XXL</td><td>8,3L</td><td>~6,5L</td><td>-22%</td></tr>
-</tbody>
-</table>
-<p>Regle d'or : <strong>retirez 15 a 25% de la capacite annoncee</strong> pour obtenir la capacite utile reelle. Et ne remplissez jamais le panier a plus de 75% de sa capacite utile pour une cuisson optimale.</p>
-
-<h2>Quelle capacite pour combien de personnes ?</h2>
-<table>
-<thead>
-<tr><th>Nombre de personnes</th><th>Capacite utile recommandee</th><th>Modeles recommandes</th></tr>
-</thead>
-<tbody>
-<tr><td>4 personnes</td><td>5-6L</td><td>Tefal Easy Fry XXL, Cecotec Cecofry</td></tr>
-<tr><td>5 personnes</td><td>6-7L</td><td>Ninja Max Dual Zone, Philips Combi XXL</td></tr>
-<tr><td>6 personnes</td><td>7-8L</td><td>Ninja FlexDrawer, Philips Combi XXL</td></tr>
-<tr><td>7-8 personnes</td><td>8L+</td><td>Ninja FlexDrawer (mode FlexZone)</td></tr>
-</tbody>
-</table>
-<p>Pour une famille de 6+ personnes, seul le <a href="/fr/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> en mode FlexZone offre une capacite suffisante pour tout preparer en une seule fournee. Les autres modeles necessiteront 2 fournees pour les tres grandes quantites. Consultez aussi notre guide pour <a href="/fr/blog/comment-choisir-airfryer-famille">choisir l'airfryer ideal pour votre famille</a>.</p>
-
-<h2>L'espace necessaire dans votre cuisine</h2>
-<p>Un airfryer XXL est un appareil imposant. Voici ce qu'il faut prevoir :</p>
-<ul>
-<li><strong>Surface au sol :</strong> 38 a 42 cm de large et 31 a 37 cm de profondeur. Prevoyez au moins <strong>50x45 cm</strong> pour le poser confortablement avec l'espace de ventilation.</li>
-<li><strong>Hauteur :</strong> 27 a 32 cm. Attention si vous voulez le ranger sous un placard : prevoyez <strong>40 cm de hauteur</strong> pour pouvoir ouvrir le(s) tiroir(s) confortablement.</li>
-<li><strong>Ventilation :</strong> laissez au moins <strong>10 cm d'espace derriere l'appareil</strong> pour l'evacuation de l'air chaud.</li>
-<li><strong>Poids :</strong> 6,5 a 8,5 kg. Assez lourd pour ne pas le deplacer quotidiennement. Prevoyez un emplacement permanent.</li>
-</ul>
-<p>Conseil : avant d'acheter, mesurez l'espace disponible sur votre plan de travail. Un airfryer XXL est un investissement a long terme, il merite une place dediee dans votre cuisine.</p>
-
-<h2>Le meilleur rapport qualite-prix en XXL</h2>
-<p>Pour evaluer le rapport qualite-prix, nous avons calcule le <strong>cout par litre utile</strong> de chaque modele :</p>
-<table>
-<thead>
-<tr><th>Modele</th><th>Prix</th><th>Capacite utile</th><th>Cout par litre</th></tr>
-</thead>
-<tbody>
-<tr><td>Cecotec Cecofry 9000</td><td>~130 EUR</td><td>~7L</td><td><strong>18,6 EUR/L</strong></td></tr>
-<tr><td>Tefal Easy Fry XXL</td><td>~170 EUR</td><td>~6,5L</td><td>26,2 EUR/L</td></tr>
-<tr><td>Ninja Max Dual Zone</td><td>~200 EUR</td><td>~7,5L</td><td>26,7 EUR/L</td></tr>
-<tr><td>Ninja FlexDrawer</td><td>~230 EUR</td><td>~8,5L</td><td>27,1 EUR/L</td></tr>
-<tr><td>Philips Combi XXL</td><td>~350 EUR</td><td>~7L</td><td>50 EUR/L</td></tr>
-</tbody>
-</table>
-<p>Le Cecotec offre le meilleur cout par litre, mais la qualite de cuisson est nettement inferieure. Le <strong>meilleur rapport qualite-prix reel</strong> revient au <strong>Ninja Foodi Max Dual Zone</strong> a ~200 EUR : excellente qualite de cuisson, grande capacite, double panier avec Sync Finish.</p>
-
-<h2>Pour qui choisir quoi ?</h2>
-<ul>
-<li><strong>Famille de 5-8 personnes, flexibilite maximale :</strong> <a href="/fr/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> — le seul airfryer qui peut accueillir un poulet entier OU cuire 2 plats simultanement.</li>
-<li><strong>Famille de 4-6, meilleur rapport qualite-prix :</strong> <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> — le classique qui a conquis l'Europe.</li>
-<li><strong>Famille de 4-6, qualite avant tout :</strong> <a href="/fr/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> — la meilleure cuisson et la fonction Combi unique.</li>
-<li><strong>Budget serre, grande capacite :</strong> Cecotec Cecofry 9000 — un double panier XXL a 130 EUR, imbattable.</li>
-<li><strong>Marque francaise, SAV local :</strong> Tefal Easy Fry XXL — bon compromis avec la securite d'une marque hexagonale.</li>
+<li>Posez l’appareil sur une surface plane, stable et résistante à la chaleur, loin du bord du plan de travail.</li>
+<li>Laissez un espace libre tout autour, en particulier derrière la sortie d’air ; ne le placez pas directement sous un meuble mural. Respectez les distances indiquées dans la notice de votre modèle.</li>
+<li>Branchez-le sur une prise murale reliée à la terre, sans rallonge ni multiprise, car ces appareils appellent une forte puissance.</li>
+<li>Ne posez rien sur l’appareil pendant la cuisson et manipulez les tiroirs avec précaution : ils restent très chauds après l’arrêt.</li>
+<li>Avec des enfants, privilégiez un emplacement hors de leur portée et ne laissez pas le cordon pendre du plan de travail.</li>
 </ul>
 
 <h2>Notre verdict</h2>
-<p>Pour les grandes familles en 2026, le <strong><a href="/fr/blog/test-ninja-foodi-flexdrawer">Ninja Foodi FlexDrawer</a> est le roi inconteste des airfryers XXL</strong>. Son concept de panier fusionnable est genial : vous avez la flexibilite du double panier quand vous en avez besoin, et la capacite maximale d'un seul grand espace pour les grosses fournees.</p>
-<p>Si votre budget est plus serre, le <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> a 200 EUR reste une valeur sure qui satisfait la grande majorite des familles. Et pour ceux qui veulent la meilleure qualite de cuisson sans compromis et qui peuvent investir 350 EUR, le <a href="/fr/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> est dans une classe a part.</p>
-<p>Quel que soit votre choix, un airfryer XXL transformera votre quotidien culinaire. Fini les multiples fournees, les repas qui refroidissent en attendant le reste : avec un XXL, toute la famille mange en meme temps, des plats chauds et croustillants. Consultez notre <a href="/fr/guides/airfryer-vs-four">guide complet</a> pour approfondir votre choix.</p>
+<p>Pour la plupart des grandes familles, le <strong>Ninja Foodi FlexDrawer 10.4L Double Zone</strong> est le meilleur airfryer XXL en 2026 : c’est le seul de la sélection qui passe de deux zones indépendantes à un grand tiroir unique de 10,4 litres. Si la largeur vous manque, le <strong>Ninja Double Stack XL 9,5 L</strong> offre deux tiroirs indépendants dans une emprise très réduite. Et si vous cuisinez surtout des rôtis et des volailles et aimez piloter la cuisson depuis votre téléphone, le <strong>Philips Airfryer Combi XXL Connecté 8,3 L</strong> et sa sonde intégrée sont le choix le plus confortable. Le Ninja Foodi MAX Dual Zone reste une valeur sûre, et le Tefal Dual Easy Fry une option plus accessible pour 4 à 5 personnes.</p>
+<p>Pour comparer ces modèles avec un four classique, consultez notre <a href="/fr/guides/airfryer-vs-four">guide airfryer ou four</a>.</p>`,
 
-<h2>Cout par repas : rentabilite de l'airfryer XXL pour une grande famille</h2>
-<table>
-<thead>
-<tr><th>Scenario</th><th>Mode de cuisson</th><th>Temps</th><th>Cout energie</th><th>Cout repas (6 pers.)</th><th>Economie vs four</th></tr>
-</thead>
-<tbody>
-<tr><td>Poulet + frites</td><td>Ninja FlexDrawer (2 zones)</td><td>25 min</td><td>0,18 EUR</td><td>~8 EUR</td><td>-40% vs four classique</td></tr>
-<tr><td>Poulet + legumes</td><td>Ninja Max Dual Zone</td><td>22 min</td><td>0,16 EUR</td><td>~9 EUR</td><td>-35%</td></tr>
-<tr><td>Poulet roti complet</td><td>Philips Combi XXL (Combi)</td><td>30 min</td><td>0,14 EUR</td><td>~10 EUR</td><td>-50% vs four (temps halve)</td></tr>
-<tr><td>Frites seules (1,5 kg)</td><td>Ninja FlexDrawer FlexZone</td><td>18 min</td><td>0,12 EUR</td><td>~3 EUR</td><td>-60% vs friteuse traditionnelle</td></tr>
-<tr><td>Livraison pizza (equivalent)</td><td>-</td><td>30-45 min</td><td>-</td><td>~35-50 EUR</td><td>Reference de comparaison</td></tr>
-</tbody>
-</table>
-<p>En cuisinant 5 soirs par semaine avec un airfryer XXL, une famille de 6 economise en moyenne <strong>150-200 EUR par mois</strong> par rapport a la livraison ou aux plats prepares. L'appareil s'amortit en 1 a 2 mois d'utilisation reguliere.</p>
+    en: `<p><strong>For a large family in 2026, the best XXL air fryer is the Ninja Foodi FlexDrawer 10.4L Dual Zone</strong>: it runs as two independent 5.2-litre zones or, once the divider is removed, as one big 10.4-litre drawer for large cuts. If your worktop is narrow, the Ninja Double Stack XL 9.5L stacks its two drawers vertically, and if you would rather have one large connected basket with a food probe, the Philips Airfryer Combi XXL Connected 8.3L is the most complete alternative.</p>
+<p>This comparison is based on manufacturer specifications, independent reviews and verified buyer feedback. It only includes models sold in Europe in 2026. You will find the full selection on our <a href="/en/cuisine-connectee/airfryers">air fryers</a> page.</p>
 
-<h2>Investissement a long terme : ce qu'il faut savoir avant d'acheter un XXL</h2>
+<h2>How to choose an XXL air fryer</h2>
+<p>"XXL" usually means 8 litres and above. At that size, the headline capacity is no longer enough to compare models: how those litres are organised matters as much as how many there are.</p>
 <ul>
-<li><strong>Durabilite :</strong> un airfryer XXL de qualite dure 5 a 8 ans avec un entretien regulier. Le cout annuel revient donc a 25-70 EUR/an selon le modele — moins qu'un abonnement streaming.</li>
-<li><strong>Pieces detachables :</strong> les paniers et grilles sont souvent disponibles en remplacement chez Ninja et Philips (15-40 EUR). Cecotec et Tefal sont moins bien loties en pieces detachees.</li>
-<li><strong>Garantie :</strong> Ninja et Philips offrent 2 ans de garantie, extensible a 3 ans avec enregistrement. Cecotec propose 2 ans, Tefal 2 ans aussi.</li>
-<li><strong>Revente :</strong> les modeles Ninja et Philips conservent une bonne valeur de revente (50-80% du prix apres 2 ans sur les plateformes d'occasion). Un investissement qui ne se depreciait pas aussi vite qu'on le croit.</li>
-<li><strong>Consommation annuelle :</strong> a raison de 5 utilisations par semaine de 25 minutes, un airfryer de 2000W consomme environ <strong>215 kWh/an</strong>, soit ~40 EUR/an d'electricite. Un four traditionnel consommerait 2 a 3 fois plus pour les memes resultats.</li>
-</ul>`,
+<li><strong>One large basket or two drawers</strong>: two independent drawers let you cook the main and the side at the same time, at different temperatures. A single large basket is better for a whole chicken or a joint. Ninja's FlexDrawer combines both approaches. For more, read our article on <a href="/en/blog/airfryer-simple-vs-double-panier">single vs dual basket air fryers</a>.</li>
+<li><strong>Cooking surface</strong>: for chips or nuggets, crispness depends on the floor area of the basket, not its volume. A tall, narrow basket means more shaking or cooking in two rounds.</li>
+<li><strong>Footprint</strong>: side-by-side drawers take up width (often more than 40 cm), stacked drawers take up height. Measure your worktop and the clearance under your wall cabinets.</li>
+<li><strong>Synchronisation</strong>: Sync (both drawers finish together) and Match (same settings in both) are invaluable when everyone sits down at once.</li>
+<li><strong>Power and socket</strong>: XXL models draw roughly 2,200 to 2,700 W. Plug them straight into a wall socket, never into an already busy extension lead.</li>
+<li><strong>Cleaning</strong>: check that drawers and racks are dishwasher-safe and that the non-stick coating wipes clean easily. With family batches, this is close to daily use.</li>
+</ul>
 
-    en: `<h2>Introduction</h2>
-<p>When you cook for 5, 6, or 8 people, a standard 4-5 litre air fryer simply does not cut it. You need an XXL model capable of preparing large quantities in a single batch. But between inflated marketing capacities, real dimensions, and full-load performance, it is hard to navigate the options.</p>
-<p>We tested the 5 best XXL air fryers (8 litres and above) for 6 weeks with families of 5-7 people. For each model, we measured real usable capacity, full-load cooking times, cooking quality at maximum fill, footprint, and weight.</p>
+<h2>The 5 best XXL air fryers for large families in 2026</h2>
 
-<h2>Top 5 XXL air fryers comparison table</h2>
+<h3>1. Ninja Foodi FlexDrawer 10.4L Dual Zone (AF500EU) — best overall</h3>
+<p>The FlexDrawer is the most versatile model in this selection. Its single 10.4-litre drawer can be split by a removable divider into two 5.2-litre zones, each with its own temperature and time. Take the divider out and you get the <strong>MegaZone</strong>, one 10.4-litre space for a large chicken, a joint or a very big batch of vegetables. Rated power is 2,470 W, with six functions including Air Fry and Max Crisp, plus Ninja's Sync and Match features.</p>
+<p><strong>Strengths</strong>: switches between two zones and one large space, the highest capacity in this comparison, very positive owner feedback on even cooking.</p>
+<p><strong>Limits</strong>: around 45 cm wide and over 9 kg according to retailer listings, so it needs a dedicated spot. It sits at the premium end.</p>
+<p><strong>Who it's for</strong>: families of 5 to 8 who want both full two-zone meals and large whole cuts. Our <a href="/en/blog/test-ninja-foodi-flexdrawer">detailed Ninja FlexDrawer review</a> goes further.</p>
+
+<h3>2. Ninja Double Stack XL 9.5L (SL400EU) — best for narrow kitchens</h3>
+<p>The Double Stack XL keeps the idea of two independent 4.75-litre drawers but stacks them vertically instead of side by side. The result is a width of only about 28 cm for 9.5 litres in total, with a height of around 38.5 cm designed to fit under wall cabinets. Supplied stacking racks let you cook on four levels at once. You get the range's six functions, 2,470 W and synchronised finishing.</p>
+<p><strong>Strengths</strong>: the smallest footprint of any XXL model here, two genuine independent zones, four-level cooking to multiply usable surface.</p>
+<p><strong>Limits</strong>: the drawers cannot be merged, so no very large single cut; cooking on stacked racks takes a little practice when turning food.</p>
+<p><strong>Who it's for</strong>: large families short on worktop width who mostly cook portion-sized food (chips, fillets, vegetables, nuggets).</p>
+
+<h3>3. Philips Airfryer Combi XXL Connected 8.3L (7000 Series) — best connected air fryer</h3>
+<p>The 7000 Series Combi XXL goes for one large 8.3-litre basket, 2,200 W and Wi-Fi connectivity with the Philips HomeID app, which offers auto programmes and guided recipes. Its standout feature is the <strong>built-in food thermometer</strong>: it monitors the core temperature of meat or fish and stops cooking at the right moment. Rapid CombiAir technology combines heat and airflow to grill, roast or bake like a small oven.</p>
+<p><strong>Strengths</strong>: the large single basket, the food probe, the most polished app in this selection, a wide range of programmes.</p>
+<p><strong>Limits</strong>: no dual zone, so sides are cooked before or after the main; it is heavy and sits at the very top of the range.</p>
+<p><strong>Who it's for</strong>: families who often cook roasts, whole poultry or fish and like controlling cooking from their phone.</p>
+
+<h3>4. Ninja Foodi MAX Dual Zone 9.5L (AF400EU) — the proven classic</h3>
+<p>This is the model that made dual-drawer air fryers popular: two independent 4.75-litre drawers side by side, 2,470 W, six functions (Air Fry, Max Crisp, Roast, Bake, Reheat, Dehydrate) plus Sync and Match. Ninja states that one drawer can hold a chicken of around 2 kg. On sale for several years, it has a very large number of owner reviews, broadly very positive.</p>
+<p><strong>Strengths</strong>: well-established reliability, very easy to use, two equal-sized zones, wide availability of accessories.</p>
+<p><strong>Limits</strong>: takes up worktop width; drawers cannot be merged.</p>
+<p><strong>Who it's for</strong>: families of 4 to 6 who want a dual drawer without extra frills.</p>
+
+<h3>5. Tefal Dual Easy Fry 8.3L (EY9018) — the most affordable dual drawer</h3>
+<p>The Tefal Dual Easy Fry takes an asymmetric approach: one large 5.2-litre drawer and one small 3.1-litre drawer, 8.3 litres in total, with a touch display and seven programmes (chips, chicken, vegetables, fish, dessert, dehydrate and manual). The small drawer suits a side or a single portion, the large one the main dish. Removable parts are dishwasher-safe.</p>
+<p><strong>Strengths</strong>: more affordable than the Ninja and Philips models, a brand with a well-established service network in Europe, a roomy main drawer.</p>
+<p><strong>Limits</strong>: the 3.1-litre drawer limits real capacity for a family of 6 or more; several owners miss a keep-warm function.</p>
+<p><strong>Who it's for</strong>: families of 4 to 5 who want a dual drawer on a tighter budget.</p>
+
+<h2>Comparison table</h2>
 <table>
 <thead>
-<tr><th>Rank</th><th>Model</th><th>Stated capacity</th><th>Real usable capacity</th><th>Dimensions</th><th>Weight</th><th>Dual basket</th><th>Price</th><th>Score</th></tr>
+<tr><th>Model</th><th>Capacity</th><th>Layout</th><th>Connectivity</th><th>Best for</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td><strong>Ninja FlexDrawer 10.4L</strong></td><td>10.4L</td><td>~8.5L</td><td>42x37x27 cm</td><td>8.2 kg</td><td>Yes (mergeable)</td><td>~230 EUR</td><td><strong>9.5/10</strong></td></tr>
-<tr><td>2</td><td><strong>Ninja Max Dual Zone AF400</strong></td><td>9.5L</td><td>~7.5L</td><td>40x33x27 cm</td><td>7.7 kg</td><td>Yes</td><td>~200 EUR</td><td><strong>9/10</strong></td></tr>
-<tr><td>3</td><td><strong>Philips Combi XXL Connected</strong></td><td>8.3L</td><td>~7L</td><td>38x35x32 cm</td><td>8.5 kg</td><td>No</td><td>~350 EUR</td><td><strong>9/10</strong></td></tr>
-<tr><td>4</td><td><strong>Cecotec Cecofry Double 9000</strong></td><td>9L</td><td>~7L</td><td>39x32x28 cm</td><td>6.8 kg</td><td>Yes</td><td>~130 EUR</td><td><strong>7.5/10</strong></td></tr>
-<tr><td>5</td><td><strong>Tefal Easy Fry Dual XXL</strong></td><td>8.3L</td><td>~6.5L</td><td>38x31x28 cm</td><td>6.5 kg</td><td>Yes</td><td>~170 EUR</td><td><strong>7.5/10</strong></td></tr>
+<tr><td>Ninja Foodi FlexDrawer 10.4L</td><td>10.4 L</td><td>1 drawer, 2 × 5.2 L zones or MegaZone</td><td>No</td><td>Families of 5 to 8, large cuts</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>9.5 L</td><td>2 stacked 4.75 L drawers</td><td>No</td><td>Narrow worktops</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>8.3 L</td><td>1 large basket, built-in probe</td><td>Wi-Fi, HomeID app</td><td>Roasts, poultry, remote control</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone</td><td>9.5 L</td><td>2 side-by-side 4.75 L drawers</td><td>No</td><td>Everyday full meals</td></tr>
+<tr><td>Tefal Dual Easy Fry EY9018</td><td>8.3 L</td><td>2 drawers, 5.2 L and 3.1 L</td><td>No</td><td>Tighter budget, 4 to 5 people</td></tr>
 </tbody>
 </table>
-
-<h2>#1: Ninja FlexDrawer 10.4L — Best XXL air fryer 2026</h2>
-<p>The <a href="/en/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> is our undisputed number one. Its unique <strong>mergeable dual basket</strong> concept is revolutionary: use it as 2 independent 5.2L zones or remove the divider for one giant 10.4L space. We cooked <strong>1.5 kg of fries</strong> (8 generous servings) or a <strong>2.2 kg whole chicken</strong> in a single batch.</p>
-<p><strong>Strengths:</strong> unique FlexZone, largest capacity, Sync Finish, WiFi version available.</p>
-<p><strong>Weaknesses:</strong> bulky (42x37 cm footprint), high power draw (2470W).</p>
-
-<h2>#2: Ninja Max Dual Zone AF400 — The family classic</h2>
-<p>The <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> is Europe's best-selling dual basket air fryer. Two 4.75L baskets with Sync Finish cooked a complete meal for 5 people in 22 minutes. At ~200 EUR, it delivers the best value in dual basket XXL.</p>
-<p><strong>Strengths:</strong> excellent value, reasonable footprint, Sync Finish, very easy to use.</p>
-<p><strong>Weaknesses:</strong> baskets do not merge, cannot fit a whole large chicken.</p>
-
-<h2>#3: Philips Combi XXL Connected — Technology for families</h2>
-<p>The <a href="/en/blog/test-philips-combi-xxl-connected">Philips Combi XXL</a> features a unique <strong>Combi function</strong> (hot air + microwave) that halves cooking time. A roast chicken in 30 minutes instead of 60. Best cooking quality in our test, with 500+ guided recipes via the HomeID app.</p>
-<p><strong>Strengths:</strong> best cooking quality, revolutionary Combi function, best app.</p>
-<p><strong>Weaknesses:</strong> very expensive (350 EUR), no dual basket, heavy (8.5 kg).</p>
-
-<h2>#4: Cecotec Cecofry Double 9000 — Best budget XXL</h2>
-<p>At just <strong>130 EUR</strong>, the Cecotec offers dual baskets and 9L total capacity. Cooking quality is decent but noticeably below Ninja and Philips. The non-stick coating is average quality.</p>
-<p><strong>Best for:</strong> budget-conscious families who want XXL capacity above all else.</p>
-
-<h2>#5: Tefal Easy Fry Dual XXL</h2>
-<p>Tefal's first XXL dual basket at 170 EUR. Good Sync function and intuitive touchscreen. Real usable capacity is lower than advertised (~6.5L vs 8.3L stated).</p>
-<p><strong>Best for:</strong> families who prefer a trusted French brand with local support.</p>
-
-<h2>Stated vs real capacity: beware of marketing</h2>
-<table>
-<thead>
-<tr><th>Model</th><th>Stated</th><th>Real usable</th><th>Gap</th></tr>
-</thead>
-<tbody>
-<tr><td>Ninja FlexDrawer</td><td>10.4L</td><td>~8.5L</td><td>-18%</td></tr>
-<tr><td>Ninja Max Dual Zone</td><td>9.5L</td><td>~7.5L</td><td>-21%</td></tr>
-<tr><td>Philips Combi XXL</td><td>8.3L</td><td>~7L</td><td>-16%</td></tr>
-<tr><td>Cecotec Cecofry</td><td>9L</td><td>~7L</td><td>-22%</td></tr>
-<tr><td>Tefal Easy Fry XXL</td><td>8.3L</td><td>~6.5L</td><td>-22%</td></tr>
-</tbody>
-</table>
-<p>Rule of thumb: <strong>subtract 15-25% from stated capacity</strong> for real usable volume. Never fill above 75% of usable capacity for optimal cooking.</p>
 
 <h2>What capacity for how many people?</h2>
-<table>
-<thead>
-<tr><th>People</th><th>Recommended usable capacity</th><th>Recommended models</th></tr>
-</thead>
-<tbody>
-<tr><td>4</td><td>5-6L</td><td>Tefal, Cecotec</td></tr>
-<tr><td>5</td><td>6-7L</td><td>Ninja Dual Zone, Philips Combi</td></tr>
-<tr><td>6</td><td>7-8L</td><td>Ninja FlexDrawer, Philips Combi</td></tr>
-<tr><td>7-8</td><td>8L+</td><td>Ninja FlexDrawer (FlexZone mode)</td></tr>
-</tbody>
-</table>
-
-<h2>Who should choose what?</h2>
+<p>Capacities in litres describe the volume of the drawer: you never fill a basket to the top if you want crisp food. In practice, these guidelines work well:</p>
 <ul>
-<li><strong>Family of 5-8, maximum flexibility:</strong> <a href="/en/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>.</li>
-<li><strong>Family of 4-6, best value:</strong> <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a>.</li>
-<li><strong>Family of 4-6, quality first:</strong> <a href="/en/blog/test-philips-combi-xxl-connected">Philips Combi XXL</a>.</li>
-<li><strong>Tight budget:</strong> Cecotec Cecofry 9000 at 130 EUR.</li>
-<li><strong>French brand loyalty:</strong> Tefal Easy Fry XXL.</li>
+<li><strong>4 people</strong>: 6 to 8 litres is enough; a dual drawer helps serve main and side together.</li>
+<li><strong>5 to 6 people</strong>: aim for 8 to 10 litres, ideally in two independent zones.</li>
+<li><strong>7 to 8 people</strong>: a model of around 10 litres such as the FlexDrawer, or accept cooking some foods in two rounds.</li>
+</ul>
+<p>For chips, rely on basket surface rather than volume: a layer that is too thick steams instead of browning. Our guide on <a href="/en/blog/comment-choisir-airfryer-famille">choosing a family air fryer</a> goes through these guidelines in more detail.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Choosing on litres alone</strong>: two 4.75 L drawers and one 8.3 L basket serve different purposes. Start from the dishes you cook most.</li>
+<li><strong>Forgetting cabinet clearance</strong>: a stacked model or a tall basket may not fit under a wall cabinet, and hot air needs somewhere to go.</li>
+<li><strong>Overloading the basket</strong>: the number one cause of soggy chips. Two good batches beat one failed one.</li>
+<li><strong>Neglecting cleaning</strong>: grease building up in the drawer eventually smokes. Cleaning after each heavy use extends the life of the coating.</li>
+<li><strong>Paying for features you won't use</strong>: connectivity helps with guided recipes or core-temperature cooking, much less for chips and vegetables.</li>
+</ul>
+
+<h2>Installation, use and safety</h2>
+<ul>
+<li>Place the appliance on a flat, stable, heat-resistant surface, away from the edge of the worktop.</li>
+<li>Keep space free all around it, especially behind the air outlet; do not place it directly under a wall cabinet. Follow the clearances given in your model's manual.</li>
+<li>Plug it into an earthed wall socket, without an extension lead or multi-plug adapter, as these appliances draw a lot of power.</li>
+<li>Do not put anything on top while cooking and handle drawers with care: they stay very hot after switching off.</li>
+<li>With children around, choose a spot out of their reach and do not let the cord hang over the edge.</li>
 </ul>
 
 <h2>Our verdict</h2>
-<p>For large families in 2026, the <strong><a href="/en/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> is the undisputed king of XXL air fryers</strong>. Its mergeable basket concept is brilliant. For tighter budgets, the <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> at 200 EUR remains a proven choice that satisfies most families.</p>
+<p>For most large families, the <strong>Ninja Foodi FlexDrawer 10.4L Dual Zone</strong> is the best XXL air fryer in 2026: it is the only one in this selection that switches from two independent zones to one large 10.4-litre drawer. If you are short on width, the <strong>Ninja Double Stack XL 9.5L</strong> offers two independent drawers in a very small footprint. And if you mostly cook roasts and poultry and like to control cooking from your phone, the <strong>Philips Airfryer Combi XXL Connected 8.3L</strong> with its built-in probe is the most convenient choice. The Ninja Foodi MAX Dual Zone remains a safe bet, and the Tefal Dual Easy Fry a more affordable option for 4 to 5 people.</p>
+<p>To compare these models with a conventional oven, see our <a href="/en/guides/airfryer-vs-four">air fryer vs oven guide</a>.</p>`,
 
-<h2>Cost per meal: the financial case for an XXL air fryer</h2>
-<table>
-<thead>
-<tr><th>Scenario</th><th>Cooking method</th><th>Time</th><th>Energy cost</th><th>Meal cost (6 people)</th><th>Saving vs oven</th></tr>
-</thead>
-<tbody>
-<tr><td>Chicken + fries</td><td>Ninja FlexDrawer (2 zones)</td><td>25 min</td><td>0.18 EUR</td><td>~8 EUR</td><td>-40% vs conventional oven</td></tr>
-<tr><td>Chicken + vegetables</td><td>Ninja Max Dual Zone</td><td>22 min</td><td>0.16 EUR</td><td>~9 EUR</td><td>-35%</td></tr>
-<tr><td>Whole roast chicken</td><td>Philips Combi XXL (Combi)</td><td>30 min</td><td>0.14 EUR</td><td>~10 EUR</td><td>-50% vs oven (halved time)</td></tr>
-<tr><td>Fries only (1.5 kg)</td><td>Ninja FlexDrawer FlexZone</td><td>18 min</td><td>0.12 EUR</td><td>~3 EUR</td><td>-60% vs deep fryer</td></tr>
-<tr><td>Pizza delivery (equivalent)</td><td>-</td><td>30-45 min</td><td>-</td><td>~35-50 EUR</td><td>Comparison baseline</td></tr>
-</tbody>
-</table>
-<p>Cooking 5 evenings per week with an XXL air fryer, a family of 6 saves on average <strong>150-200 EUR per month</strong> compared to delivery or ready meals. The appliance pays for itself within 1-2 months of regular use.</p>
+    de: `<p><strong>Für eine Großfamilie ist 2026 der Ninja Foodi FlexDrawer 10.4L Doppelzone die beste XXL-Heißluftfritteuse</strong>: Er arbeitet mit zwei unabhängigen Zonen à 5,2 Liter oder, ohne Trennwand, als eine große 10,4-Liter-Schublade für große Fleischstücke. Ist Ihre Arbeitsfläche schmal, stapelt die Ninja Double Stack XL 9,5 L ihre zwei Schubladen übereinander, und wer lieber einen großen vernetzten Korb mit Kerntemperaturfühler möchte, findet in der Philips Airfryer Combi XXL Connected 8,3 L die umfassendste Alternative.</p>
+<p>Dieser Vergleich stützt sich auf Herstellerangaben, unabhängige Testberichte und verifizierte Käuferbewertungen. Er umfasst nur Modelle, die 2026 in Europa erhältlich sind. Die komplette Auswahl finden Sie auf unserer Seite <a href="/de/cuisine-connectee/airfryers">Heißluftfritteusen</a>.</p>
 
-<h2>Long-term investment: what to know before buying an XXL</h2>
+<h2>Worauf es bei einer XXL-Heißluftfritteuse ankommt</h2>
+<p>„XXL“ bezeichnet meist Geräte ab 8 Litern. In dieser Größe reicht die angegebene Literzahl zum Vergleich nicht mehr aus: Wie das Volumen aufgeteilt ist, zählt genauso viel wie seine Größe.</p>
 <ul>
-<li><strong>Durability:</strong> a quality XXL air fryer lasts 5-8 years with regular maintenance. The annual cost works out to 25-70 EUR/year depending on the model — less than a streaming subscription.</li>
-<li><strong>Replacement parts:</strong> baskets and grills are often available as spares from Ninja and Philips (15-40 EUR). Cecotec and Tefal have fewer spare part options.</li>
-<li><strong>Warranty:</strong> Ninja and Philips offer 2-year warranties, extendable to 3 years with registration. Cecotec and Tefal both offer 2 years.</li>
-<li><strong>Resale value:</strong> Ninja and Philips models retain strong resale value (50-80% of purchase price after 2 years on second-hand platforms). A better investment than most kitchen appliances.</li>
-<li><strong>Annual electricity use:</strong> at 5 uses per week of 25 minutes, a 2000W air fryer consumes roughly <strong>215 kWh/year</strong>, about 40 EUR/year in electricity. A conventional oven would consume 2-3 times more for the same results.</li>
-</ul>`,
+<li><strong>Ein großer Korb oder zwei Schubladen</strong>: Zwei unabhängige Schubladen garen Hauptgericht und Beilage gleichzeitig bei unterschiedlichen Temperaturen. Ein einzelner großer Korb eignet sich besser für ein ganzes Hähnchen oder einen Braten. Der Ninja FlexDrawer vereint beide Ansätze. Mehr dazu in unserem Artikel <a href="/de/blog/airfryer-simple-vs-double-panier">Einzelkorb oder Doppelkorb</a>.</li>
+<li><strong>Die Garfläche</strong>: Bei Pommes oder Nuggets entscheidet die Bodenfläche des Korbs über die Knusprigkeit, nicht das Volumen. Ein hoher, schmaler Korb bedeutet häufigeres Schütteln oder zwei Durchgänge.</li>
+<li><strong>Der Platzbedarf</strong>: Nebeneinanderliegende Schubladen brauchen Breite (oft über 40 cm), gestapelte Schubladen brauchen Höhe. Messen Sie Arbeitsfläche und Abstand zu den Hängeschränken.</li>
+<li><strong>Die Synchronisation</strong>: Funktionen wie Sync (gleichzeitiges Garende) und Match (gleiche Einstellungen in beiden Schubladen) sind Gold wert, wenn alle zur selben Zeit essen.</li>
+<li><strong>Leistung und Steckdose</strong>: XXL-Modelle liegen bei etwa 2.200 bis 2.700 W. Schließen Sie sie direkt an eine Wandsteckdose an, nie an eine bereits belegte Mehrfachsteckdose.</li>
+<li><strong>Die Reinigung</strong>: Achten Sie auf spülmaschinenfeste Schubladen und Roste sowie eine leicht zu reinigende Antihaftbeschichtung. Bei Familienportionen ist das fast täglicher Gebrauch.</li>
+</ul>
 
-    de: `<h2>Einleitung</h2>
-<p>Wer fuer 5, 6 oder 8 Personen kocht, kommt mit einer Standard-Heissluftfritteuse von 4-5 Litern nicht weit. Ein XXL-Modell muss her. Wir haben die 5 besten XXL-Heissluftfritteusen (8 Liter und mehr) 6 Wochen lang mit Familien von 5-7 Personen getestet.</p>
+<h2>Die 5 besten XXL-Heißluftfritteusen für Großfamilien 2026</h2>
 
-<h2>Vergleichstabelle der 5 besten XXL-Heissluftfritteusen</h2>
+<h3>1. Ninja Foodi FlexDrawer 10.4L Doppelzone (AF500EU) – die beste Gesamtwahl</h3>
+<p>Der FlexDrawer ist das vielseitigste Modell dieser Auswahl. Seine einzelne 10,4-Liter-Schublade lässt sich mit einer herausnehmbaren Trennwand in zwei Zonen à 5,2 Liter aufteilen, jede mit eigener Temperatur und Garzeit. Ohne Trennwand entsteht die <strong>MegaZone</strong>, ein einziger 10,4-Liter-Garraum für ein großes Hähnchen, einen Braten oder eine sehr große Portion Gemüse. Die Nennleistung beträgt 2.470 W, dazu kommen sechs Funktionen, darunter Air Fry und Max Crisp, sowie Ninjas Sync- und Match-Funktionen.</p>
+<p><strong>Stärken</strong>: Wechsel zwischen zwei Zonen und einem großen Garraum, die höchste Kapazität dieses Vergleichs, sehr positive Käuferbewertungen zur gleichmäßigen Garung.</p>
+<p><strong>Grenzen</strong>: laut Händlerangaben rund 45 cm breit und über 9 kg schwer, braucht also einen festen Platz. Es gehört zum Premiumsegment.</p>
+<p><strong>Für wen</strong>: Familien mit 5 bis 8 Personen, die sowohl komplette Mahlzeiten in zwei Zonen als auch große Stücke am Stück zubereiten wollen. Unsere <a href="/de/blog/test-ninja-foodi-flexdrawer">ausführliche Bewertung des Ninja FlexDrawer</a> geht weiter ins Detail.</p>
+
+<h3>2. Ninja Double Stack XL 9,5 L (SL400EU) – die beste Wahl für schmale Küchen</h3>
+<p>Die Double Stack XL behält das Prinzip zweier unabhängiger 4,75-Liter-Schubladen bei, stapelt sie aber übereinander statt nebeneinander. Das Ergebnis: nur etwa 28 cm Breite für insgesamt 9,5 Liter, bei rund 38,5 cm Höhe, damit das Gerät unter Hängeschränke passt. Mitgelieferte Etagenroste ermöglichen das Garen auf vier Ebenen gleichzeitig. Dazu kommen die sechs Funktionen der Serie, 2.470 W und das synchronisierte Garende.</p>
+<p><strong>Stärken</strong>: die kleinste Stellfläche aller XXL-Modelle hier, zwei echte unabhängige Zonen, Garen auf vier Ebenen für mehr nutzbare Fläche.</p>
+<p><strong>Grenzen</strong>: Die Schubladen lassen sich nicht verbinden, also kein sehr großes Einzelstück; das Wenden auf gestapelten Rosten braucht etwas Übung.</p>
+<p><strong>Für wen</strong>: Großfamilien mit wenig Breite auf der Arbeitsfläche, die vor allem portionierbare Speisen zubereiten (Pommes, Filets, Gemüse, Nuggets).</p>
+
+<h3>3. Philips Airfryer Combi XXL Connected 8,3 L (7000er-Serie) – die beste vernetzte Heißluftfritteuse</h3>
+<p>Die Combi XXL der 7000er-Serie setzt auf einen großen 8,3-Liter-Korb, 2.200 W und WLAN mit der Philips-HomeID-App, die Automatikprogramme und geführte Rezepte bietet. Ihr Alleinstellungsmerkmal ist das <strong>integrierte Garthermometer</strong>: Es überwacht die Kerntemperatur von Fleisch oder Fisch und beendet den Garvorgang im richtigen Moment. Die Rapid-CombiAir-Technologie kombiniert Hitze und Luftstrom zum Grillen, Braten oder Backen wie in einem kleinen Ofen.</p>
+<p><strong>Stärken</strong>: der große Einzelkorb, das Garthermometer, die ausgereifteste App dieser Auswahl, eine große Programmvielfalt.</p>
+<p><strong>Grenzen</strong>: keine Doppelzone, Beilagen werden also vor oder nach dem Hauptgericht gegart; das Gerät ist schwer und gehört zum obersten Preissegment.</p>
+<p><strong>Für wen</strong>: Familien, die oft Braten, ganzes Geflügel oder Fisch zubereiten und das Garen gern per Smartphone steuern.</p>
+
+<h3>4. Ninja Foodi MAX Dual Zone 9,5 L (AF400EU) – der bewährte Klassiker</h3>
+<p>Dieses Modell hat Heißluftfritteusen mit zwei Schubladen populär gemacht: zwei unabhängige 4,75-Liter-Schubladen nebeneinander, 2.470 W, sechs Funktionen (Air Fry, Max Crisp, Braten, Backen, Aufwärmen, Dörren) sowie Sync und Match. Laut Ninja passt in eine Schublade ein Hähnchen von etwa 2 kg. Seit mehreren Jahren auf dem Markt, hat es eine sehr große Zahl an überwiegend sehr positiven Käuferbewertungen.</p>
+<p><strong>Stärken</strong>: anerkannte Zuverlässigkeit, sehr einfache Bedienung, zwei gleich große Zonen, breites Zubehörangebot.</p>
+<p><strong>Grenzen</strong>: braucht viel Breite auf der Arbeitsfläche; Schubladen nicht verbindbar.</p>
+<p><strong>Für wen</strong>: Familien mit 4 bis 6 Personen, die eine Doppelschublade ohne überflüssige Extras wollen.</p>
+
+<h3>5. Tefal Dual Easy Fry 8,3 L (EY9018) – die günstigste Doppelschublade</h3>
+<p>Die Tefal Dual Easy Fry geht einen asymmetrischen Weg: eine große 5,2-Liter-Schublade und eine kleine mit 3,1 Litern, insgesamt 8,3 Liter, mit Touch-Display und sieben Programmen (Pommes, Hähnchen, Gemüse, Fisch, Dessert, Dörren und manueller Modus). Die kleine Schublade eignet sich für Beilagen oder Einzelportionen, die große für das Hauptgericht. Die abnehmbaren Teile sind spülmaschinenfest.</p>
+<p><strong>Stärken</strong>: günstiger als die Ninja- und Philips-Modelle, eine Marke mit gut ausgebautem Kundendienst in Europa, eine geräumige Hauptschublade.</p>
+<p><strong>Grenzen</strong>: Die 3,1-Liter-Schublade begrenzt die nutzbare Kapazität für Familien ab 6 Personen; mehrere Käufer vermissen eine Warmhaltefunktion.</p>
+<p><strong>Für wen</strong>: Familien mit 4 bis 5 Personen, die eine Doppelschublade mit kleinerem Budget suchen.</p>
+
+<h2>Vergleichstabelle</h2>
 <table>
 <thead>
-<tr><th>Rang</th><th>Modell</th><th>Angabe</th><th>Nutzbar</th><th>Abmessungen</th><th>Gewicht</th><th>Doppelkorb</th><th>Preis</th><th>Note</th></tr>
+<tr><th>Modell</th><th>Kapazität</th><th>Aufbau</th><th>Konnektivität</th><th>Ideal für</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td><strong>Ninja FlexDrawer 10.4L</strong></td><td>10,4L</td><td>~8,5L</td><td>42x37x27 cm</td><td>8,2 kg</td><td>Ja (zusammenlegbar)</td><td>~230 EUR</td><td><strong>9,5/10</strong></td></tr>
-<tr><td>2</td><td><strong>Ninja Max Dual Zone</strong></td><td>9,5L</td><td>~7,5L</td><td>40x33x27 cm</td><td>7,7 kg</td><td>Ja</td><td>~200 EUR</td><td><strong>9/10</strong></td></tr>
-<tr><td>3</td><td><strong>Philips Combi XXL</strong></td><td>8,3L</td><td>~7L</td><td>38x35x32 cm</td><td>8,5 kg</td><td>Nein</td><td>~350 EUR</td><td><strong>9/10</strong></td></tr>
-<tr><td>4</td><td><strong>Cecotec Cecofry 9000</strong></td><td>9L</td><td>~7L</td><td>39x32x28 cm</td><td>6,8 kg</td><td>Ja</td><td>~130 EUR</td><td><strong>7,5/10</strong></td></tr>
-<tr><td>5</td><td><strong>Tefal Easy Fry XXL</strong></td><td>8,3L</td><td>~6,5L</td><td>38x31x28 cm</td><td>6,5 kg</td><td>Ja</td><td>~170 EUR</td><td><strong>7,5/10</strong></td></tr>
+<tr><td>Ninja Foodi FlexDrawer 10.4L</td><td>10,4 L</td><td>1 Schublade, 2 Zonen à 5,2 L oder MegaZone</td><td>Nein</td><td>Familien mit 5 bis 8 Personen, große Stücke</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>9,5 L</td><td>2 gestapelte Schubladen à 4,75 L</td><td>Nein</td><td>Schmale Arbeitsflächen</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>8,3 L</td><td>1 großer Korb, integriertes Thermometer</td><td>WLAN, HomeID-App</td><td>Braten, Geflügel, Fernsteuerung</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone</td><td>9,5 L</td><td>2 Schubladen à 4,75 L nebeneinander</td><td>Nein</td><td>Komplette Alltagsmahlzeiten</td></tr>
+<tr><td>Tefal Dual Easy Fry EY9018</td><td>8,3 L</td><td>2 Schubladen, 5,2 L und 3,1 L</td><td>Nein</td><td>Kleineres Budget, 4 bis 5 Personen</td></tr>
 </tbody>
 </table>
 
-<h2>Nr. 1: Ninja FlexDrawer — Beste XXL-Heissluftfritteuse 2026</h2>
-<p>Der <a href="/de/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> ist unser unangefochtener Sieger. Sein einzigartiges Konzept des <strong>zusammenlegbaren Doppelkorbs</strong> bietet maximale Flexibilitaet: 2 unabhaengige 5,2L-Zonen oder ein Riesenraum von 10,4L. Wir haben <strong>1,5 kg Pommes</strong> oder ein <strong>2,2 kg Hahnchen</strong> in einer Ladung gegart.</p>
-
-<h2>Nr. 2: Ninja Max Dual Zone — Der Familienklassiker</h2>
-<p>Der <a href="/de/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> ist Europas meistverkaufte Doppelkorb-Heissluftfritteuse. Zwei 4,75L-Koerbe mit Sync Finish fuer ~200 EUR — das beste Preis-Leistungs-Verhaeltnis im XXL-Segment.</p>
-
-<h2>Nr. 3: Philips Combi XXL — Technologie fuer Familien</h2>
-<p>Der <a href="/de/blog/test-philips-combi-xxl-connected">Philips Combi XXL</a> bietet die einzigartige Combi-Funktion (Heissluft + Mikrowelle), die Garzeiten halbiert. Beste Garqualitaet im Test, aber teuer (350 EUR) und kein Doppelkorb.</p>
-
-<h2>Nr. 4: Cecotec Cecofry 9000 — Bestes Budget-XXL</h2>
-<p>Fuer nur <strong>130 EUR</strong> bietet der Cecotec Doppelkoerbe und 9L Gesamtkapazitaet. Garqualitaet ist ordentlich, aber deutlich unter Ninja und Philips.</p>
-
-<h2>Nr. 5: Tefal Easy Fry XXL</h2>
-<p>Tefals erster XXL-Doppelkorb fuer 170 EUR. Gute Sync-Funktion, aber tatsaechlich nutzbare Kapazitaet (6,5L) deutlich unter der Angabe (8,3L).</p>
-
-<h2>Angabe vs. reale Kapazitaet</h2>
-<p>Faustregel: <strong>15-25% von der Herstellerangabe abziehen</strong> fuer die reale Nutzkapazitaet. Den Korb nie ueber 75% der Nutzkapazitaet fuellen.</p>
-
-<h2>Welche Kapazitaet fuer wie viele Personen?</h2>
-<table>
-<thead>
-<tr><th>Personen</th><th>Empfohlene Nutzkapazitaet</th><th>Empfohlene Modelle</th></tr>
-</thead>
-<tbody>
-<tr><td>4</td><td>5-6L</td><td>Tefal, Cecotec</td></tr>
-<tr><td>5</td><td>6-7L</td><td>Ninja Dual Zone, Philips Combi</td></tr>
-<tr><td>6</td><td>7-8L</td><td>Ninja FlexDrawer</td></tr>
-<tr><td>7-8</td><td>8L+</td><td>Ninja FlexDrawer (FlexZone)</td></tr>
-</tbody>
-</table>
-
-<h2>Fuer wen was?</h2>
+<h2>Welche Kapazität für wie viele Personen?</h2>
+<p>Literangaben beschreiben das Volumen der Schublade: Wer knusprige Ergebnisse will, füllt einen Korb nie bis oben. In der Praxis haben sich diese Richtwerte bewährt:</p>
 <ul>
-<li><strong>Familie 5-8 Personen:</strong> <a href="/de/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>.</li>
-<li><strong>Familie 4-6, bestes Preis-Leistungs-Verhaeltnis:</strong> <a href="/de/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a>.</li>
-<li><strong>Familie 4-6, Qualitaet zuerst:</strong> <a href="/de/blog/test-philips-combi-xxl-connected">Philips Combi XXL</a>.</li>
-<li><strong>Kleines Budget:</strong> Cecotec Cecofry 9000 fuer 130 EUR.</li>
+<li><strong>4 Personen</strong>: 6 bis 8 Liter reichen; eine Doppelschublade hilft, Hauptgericht und Beilage zusammen zu servieren.</li>
+<li><strong>5 bis 6 Personen</strong>: 8 bis 10 Liter anpeilen, idealerweise in zwei unabhängigen Zonen.</li>
+<li><strong>7 bis 8 Personen</strong>: ein Modell um 10 Liter wie der FlexDrawer, oder manche Speisen in zwei Durchgängen garen.</li>
+</ul>
+<p>Bei Pommes zählt die Korbfläche mehr als das Volumen: Eine zu dicke Schicht dämpft, statt zu bräunen. Unser Ratgeber <a href="/de/blog/comment-choisir-airfryer-famille">zur Wahl der Familien-Heißluftfritteuse</a> erklärt diese Richtwerte ausführlicher.</p>
+
+<h2>Fehler, die Sie vermeiden sollten</h2>
+<ul>
+<li><strong>Nur nach Litern auswählen</strong>: Zwei 4,75-L-Schubladen und ein 8,3-L-Korb erfüllen unterschiedliche Zwecke. Gehen Sie von Ihren typischen Gerichten aus.</li>
+<li><strong>Den Abstand zu Hängeschränken vergessen</strong>: Ein gestapeltes Modell oder ein hoher Korb passt eventuell nicht darunter, und die heiße Luft muss entweichen können.</li>
+<li><strong>Den Korb überladen</strong>: die häufigste Ursache für labbrige Pommes. Zwei gelungene Durchgänge sind besser als ein misslungener.</li>
+<li><strong>Die Reinigung vernachlässigen</strong>: Angesammeltes Fett in der Schublade beginnt irgendwann zu qualmen. Reinigung nach jeder intensiven Nutzung schont die Beschichtung.</li>
+<li><strong>Für ungenutzte Funktionen bezahlen</strong>: Vernetzung hilft bei geführten Rezepten oder beim Garen auf Kerntemperatur, weit weniger bei Pommes und Gemüse.</li>
+</ul>
+
+<h2>Aufstellung, Nutzung und Sicherheit</h2>
+<ul>
+<li>Stellen Sie das Gerät auf eine ebene, stabile und hitzebeständige Fläche, nicht an die Kante der Arbeitsplatte.</li>
+<li>Lassen Sie rundherum Platz frei, besonders hinter dem Luftauslass; nicht direkt unter einen Hängeschrank stellen. Halten Sie die Abstände aus der Bedienungsanleitung Ihres Modells ein.</li>
+<li>Schließen Sie es an eine geerdete Wandsteckdose an, ohne Verlängerungskabel oder Mehrfachstecker, da diese Geräte viel Leistung ziehen.</li>
+<li>Legen Sie während des Garens nichts auf das Gerät und fassen Sie die Schubladen vorsichtig an: Sie bleiben nach dem Ausschalten sehr heiß.</li>
+<li>Mit Kindern im Haushalt einen Platz außerhalb ihrer Reichweite wählen und das Kabel nicht über die Kante hängen lassen.</li>
 </ul>
 
 <h2>Unser Fazit</h2>
-<p>Fuer Grossfamilien 2026 ist der <strong><a href="/de/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> der unangefochtene Koenig der XXL-Heissluftfritteusen</strong>. Fuer schmalere Budgets bleibt der <a href="/de/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> eine bewaehrte Wahl.</p>
+<p>Für die meisten Großfamilien ist der <strong>Ninja Foodi FlexDrawer 10.4L Doppelzone</strong> 2026 die beste XXL-Heißluftfritteuse: Als einziges Modell dieser Auswahl wechselt er von zwei unabhängigen Zonen zu einer großen 10,4-Liter-Schublade. Fehlt Ihnen die Breite, bietet die <strong>Ninja Double Stack XL 9,5 L</strong> zwei unabhängige Schubladen auf sehr kleiner Stellfläche. Und wenn Sie vor allem Braten und Geflügel zubereiten und das Garen gern per Smartphone steuern, ist die <strong>Philips Airfryer Combi XXL Connected 8,3 L</strong> mit integriertem Thermometer die komfortabelste Wahl. Die Ninja Foodi MAX Dual Zone bleibt eine sichere Bank, die Tefal Dual Easy Fry eine günstigere Option für 4 bis 5 Personen.</p>
+<p>Wie sich diese Modelle gegenüber einem klassischen Backofen schlagen, erfahren Sie in unserem <a href="/de/guides/airfryer-vs-four">Ratgeber Heißluftfritteuse oder Backofen</a>.</p>`,
 
-<h2>Kosten pro Mahlzeit: Die finanzielle Bilanz einer XXL-Heissluftfritteuse</h2>
-<table>
-<thead>
-<tr><th>Szenario</th><th>Methode</th><th>Zeit</th><th>Energiekosten</th><th>Mahlzeitkosten (6 Pers.)</th><th>Ersparnis vs Backofen</th></tr>
-</thead>
-<tbody>
-<tr><td>Haehnchen + Pommes</td><td>Ninja FlexDrawer (2 Zonen)</td><td>25 Min.</td><td>0,18 EUR</td><td>~8 EUR</td><td>-40% vs Backofen</td></tr>
-<tr><td>Haehnchen + Gemuese</td><td>Ninja Max Dual Zone</td><td>22 Min.</td><td>0,16 EUR</td><td>~9 EUR</td><td>-35%</td></tr>
-<tr><td>Ganzes Brathaehnchen</td><td>Philips Combi XXL (Combi)</td><td>30 Min.</td><td>0,14 EUR</td><td>~10 EUR</td><td>-50% (halbierte Zeit)</td></tr>
-<tr><td>Nur Pommes (1,5 kg)</td><td>Ninja FlexDrawer FlexZone</td><td>18 Min.</td><td>0,12 EUR</td><td>~3 EUR</td><td>-60% vs Fritteuse</td></tr>
-<tr><td>Pizza-Lieferdienst (Vergleich)</td><td>-</td><td>30-45 Min.</td><td>-</td><td>~35-50 EUR</td><td>Vergleichsbasis</td></tr>
-</tbody>
-</table>
-<p>Bei 5 Abendessen pro Woche spart eine Familie von 6 Personen mit einer XXL-Heissluftfritteuse durchschnittlich <strong>150-200 EUR pro Monat</strong> gegenueber Lieferdiensten oder Fertiggerichten. Das Geraet amortisiert sich in 1-2 Monaten regelmaessiger Nutzung.</p>
+    es: `<p><strong>Para una familia numerosa en 2026, la mejor freidora de aire XXL es la Ninja Foodi FlexDrawer 10.4L Doble Zona</strong>: funciona con dos zonas independientes de 5,2 litros o, al quitar el separador, como un único cajón grande de 10,4 litros para piezas grandes. Si tu encimera es estrecha, la Ninja Double Stack XL de 9,5 L apila sus dos cajones en vertical, y si prefieres una sola cesta grande conectada con sonda de cocción, la Philips Airfryer Combi XXL Conectada de 8,3 L es la alternativa más completa.</p>
+<p>Esta comparativa se basa en las fichas técnicas de los fabricantes, análisis independientes y opiniones de compradores verificados. Solo incluye modelos que se venden en Europa en 2026. Encontrarás toda la selección en nuestra página de <a href="/es/cuisine-connectee/airfryers">freidoras de aire</a>.</p>
 
-<h2>Langfristige Investition: Was man vor dem Kauf eines XXL-Modells wissen sollte</h2>
+<h2>Cómo elegir una freidora de aire XXL</h2>
+<p>«XXL» suele referirse a aparatos de 8 litros o más. A ese tamaño, la capacidad anunciada ya no basta para comparar: cómo se reparten esos litros importa tanto como su número.</p>
 <ul>
-<li><strong>Haltbarkeit:</strong> Eine qualitativ hochwertige XXL-Heissluftfritteuse haelt bei regelmaessiger Pflege 5-8 Jahre. Die jaehrlichen Kosten betragen 25-70 EUR/Jahr je nach Modell — weniger als ein Streaming-Abonnement.</li>
-<li><strong>Ersatzteile:</strong> Koerbe und Grillgitter sind bei Ninja und Philips oft als Ersatzteile erhaeltlich (15-40 EUR). Bei Cecotec und Tefal ist das Angebot an Ersatzteilen geringer.</li>
-<li><strong>Garantie:</strong> Ninja und Philips bieten 2 Jahre Garantie, verlaengerbar auf 3 Jahre mit Registrierung. Cecotec und Tefal bieten ebenfalls 2 Jahre.</li>
-<li><strong>Wiederverkaufswert:</strong> Ninja- und Philips-Modelle behalten einen guten Wiederverkaufswert (50-80% des Kaufpreises nach 2 Jahren auf Gebrauchtplattformen).</li>
-<li><strong>Jaehrlicher Stromverbrauch:</strong> Bei 5 Nutzungen pro Woche a 25 Minuten verbraucht eine 2000W-Heissluftfritteuse ca. <strong>215 kWh/Jahr</strong>, etwa 40 EUR/Jahr Strom. Ein herkoemmlicher Backofen wuerde 2-3 Mal mehr verbrauchen.</li>
-</ul>`,
+<li><strong>Una cesta grande o dos cajones</strong>: dos cajones independientes cocinan el plato principal y la guarnición a la vez, a temperaturas distintas. Una sola cesta grande es mejor para un pollo entero o un asado. La FlexDrawer de Ninja combina ambos enfoques. Para saber más, lee nuestro artículo sobre <a href="/es/blog/airfryer-simple-vs-double-panier">cesta simple o doble</a>.</li>
+<li><strong>La superficie de cocción</strong>: para patatas fritas o nuggets, lo que decide el crujiente es la superficie del fondo de la cesta, no el volumen. Una cesta alta y estrecha obliga a remover más a menudo o a cocinar en dos tandas.</li>
+<li><strong>El espacio que ocupa</strong>: los cajones uno al lado del otro ocupan anchura (a menudo más de 40 cm) y los apilados ocupan altura. Mide la encimera y la distancia hasta los muebles altos.</li>
+<li><strong>La sincronización</strong>: las funciones tipo Sync (terminan a la vez) y Match (mismos ajustes en ambos cajones) son muy útiles cuando todos se sientan a la mesa al mismo tiempo.</li>
+<li><strong>La potencia y el enchufe</strong>: los modelos XXL rondan los 2.200 a 2.700 W. Conéctalos directamente a un enchufe de pared, nunca a una regleta ya cargada.</li>
+<li><strong>La limpieza</strong>: comprueba que cajones y rejillas sean aptos para el lavavajillas y que el antiadherente se limpie con facilidad. Con raciones familiares, el uso es casi diario.</li>
+</ul>
 
-    es: `<h2>Introduccion</h2>
-<p>Cuando cocinas para 5, 6 u 8 personas, una freidora de aire estandar de 4-5 litros simplemente no basta. Necesitas un modelo XXL. Hemos probado las 5 mejores freidoras XXL (8 litros o mas) durante 6 semanas con familias de 5-7 personas.</p>
+<h2>Las 5 mejores freidoras de aire XXL para familias numerosas en 2026</h2>
 
-<h2>Tabla comparativa de las 5 mejores freidoras XXL</h2>
+<h3>1. Ninja Foodi FlexDrawer 10.4L Doble Zona (AF500EU): la mejor opción global</h3>
+<p>La FlexDrawer es el modelo más versátil de esta selección. Su único cajón de 10,4 litros se divide con un separador extraíble en dos zonas de 5,2 litros, cada una con su temperatura y su tiempo. Si quitas el separador obtienes la <strong>MegaZone</strong>, un único espacio de 10,4 litros para un pollo grande, un asado o una tanda muy grande de verduras. La potencia anunciada es de 2.470 W, con seis funciones, entre ellas Air Fry y Max Crisp, además de las funciones Sync y Match de Ninja.</p>
+<p><strong>Puntos fuertes</strong>: pasa de dos zonas a un gran espacio único, la mayor capacidad de esta comparativa, opiniones muy positivas de los compradores sobre la cocción uniforme.</p>
+<p><strong>Limitaciones</strong>: unos 45 cm de ancho y más de 9 kg según las fichas de los distribuidores, así que necesita un sitio fijo. Se sitúa en la gama alta.</p>
+<p><strong>Para quién</strong>: familias de 5 a 8 personas que quieren tanto menús completos en dos zonas como piezas grandes enteras. Nuestra <a href="/es/blog/test-ninja-foodi-flexdrawer">opinión detallada sobre la Ninja FlexDrawer</a> amplía esta ficha.</p>
+
+<h3>2. Ninja Double Stack XL 9,5 L (SL400EU): la mejor para cocinas estrechas</h3>
+<p>La Double Stack XL mantiene la idea de dos cajones independientes de 4,75 litros, pero los apila en vertical en lugar de colocarlos uno al lado del otro. El resultado: solo unos 28 cm de ancho para 9,5 litros en total, con una altura de unos 38,5 cm pensada para caber bajo los muebles altos. Las rejillas apilables incluidas permiten cocinar en cuatro niveles a la vez. Mantiene las seis funciones de la gama, 2.470 W y el final de cocción sincronizado.</p>
+<p><strong>Puntos fuertes</strong>: la menor superficie ocupada de los modelos XXL de esta lista, dos zonas realmente independientes, cocción en cuatro niveles para multiplicar la superficie útil.</p>
+<p><strong>Limitaciones</strong>: los cajones no se pueden unir, así que no admite piezas únicas muy grandes; cocinar en rejillas apiladas requiere algo de práctica al dar la vuelta a los alimentos.</p>
+<p><strong>Para quién</strong>: familias numerosas con poca anchura en la encimera que cocinan sobre todo alimentos en porciones (patatas, filetes, verduras, nuggets).</p>
+
+<h3>3. Philips Airfryer Combi XXL Conectada 8,3 L (Serie 7000): la mejor freidora conectada</h3>
+<p>La Combi XXL de la Serie 7000 apuesta por una sola cesta grande de 8,3 litros, 2.200 W y conexión wifi con la app Philips HomeID, que ofrece programas automáticos y recetas guiadas. Su punto diferencial es el <strong>termómetro de cocción integrado</strong>: controla la temperatura interior de la carne o el pescado y detiene la cocción en el momento justo. La tecnología Rapid CombiAir combina calor y flujo de aire para gratinar, asar u hornear como un pequeño horno.</p>
+<p><strong>Puntos fuertes</strong>: la gran cesta única, la sonda de cocción, la app más pulida de la selección, una gran variedad de programas.</p>
+<p><strong>Limitaciones</strong>: sin doble zona, la guarnición se cocina antes o después del plato principal; es pesada y se sitúa en lo más alto de la gama.</p>
+<p><strong>Para quién</strong>: familias que cocinan a menudo asados, aves enteras o pescado y que disfrutan controlando la cocción desde el móvil.</p>
+
+<h3>4. Ninja Foodi MAX Dual Zone 9,5 L (AF400EU): el clásico de confianza</h3>
+<p>Es el modelo que popularizó las freidoras de aire de dos cajones: dos cajones independientes de 4,75 litros uno al lado del otro, 2.470 W, seis funciones (Air Fry, Max Crisp, asar, hornear, recalentar, deshidratar) y las funciones Sync y Match. Ninja indica que en un cajón cabe un pollo de unos 2 kg. Lleva varios años a la venta y acumula una enorme cantidad de opiniones de compradores, en general muy favorables.</p>
+<p><strong>Puntos fuertes</strong>: fiabilidad contrastada, uso muy sencillo, dos zonas del mismo tamaño, amplia disponibilidad de accesorios.</p>
+<p><strong>Limitaciones</strong>: ocupa bastante anchura en la encimera; los cajones no se pueden unir.</p>
+<p><strong>Para quién</strong>: familias de 4 a 6 personas que quieren un doble cajón sin funciones superfluas.</p>
+
+<h3>5. Tefal Dual Easy Fry 8,3 L (EY9018): el doble cajón más asequible</h3>
+<p>La Tefal Dual Easy Fry opta por un diseño asimétrico: un cajón grande de 5,2 litros y uno pequeño de 3,1 litros, 8,3 litros en total, con pantalla táctil y siete programas (patatas fritas, pollo, verduras, pescado, postre, deshidratado y modo manual). El cajón pequeño sirve para una guarnición o una ración individual y el grande para el plato principal. Las piezas extraíbles van al lavavajillas.</p>
+<p><strong>Puntos fuertes</strong>: más asequible que los modelos de Ninja y Philips, una marca con un servicio técnico bien implantado en Europa, un cajón principal amplio.</p>
+<p><strong>Limitaciones</strong>: el cajón de 3,1 litros limita la capacidad real para familias de 6 o más; varios compradores echan de menos una función de mantener caliente.</p>
+<p><strong>Para quién</strong>: familias de 4 a 5 personas que buscan un doble cajón con un presupuesto más ajustado.</p>
+
+<h2>Tabla comparativa</h2>
 <table>
 <thead>
-<tr><th>Puesto</th><th>Modelo</th><th>Capacidad anunciada</th><th>Capacidad real</th><th>Dimensiones</th><th>Doble cesta</th><th>Precio</th><th>Nota</th></tr>
+<tr><th>Modelo</th><th>Capacidad</th><th>Configuración</th><th>Conectividad</th><th>Ideal para</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td><strong>Ninja FlexDrawer 10.4L</strong></td><td>10,4L</td><td>~8,5L</td><td>42x37x27 cm</td><td>Si (fusionable)</td><td>~230 EUR</td><td><strong>9,5/10</strong></td></tr>
-<tr><td>2</td><td><strong>Ninja Max Dual Zone</strong></td><td>9,5L</td><td>~7,5L</td><td>40x33x27 cm</td><td>Si</td><td>~200 EUR</td><td><strong>9/10</strong></td></tr>
-<tr><td>3</td><td><strong>Philips Combi XXL</strong></td><td>8,3L</td><td>~7L</td><td>38x35x32 cm</td><td>No</td><td>~350 EUR</td><td><strong>9/10</strong></td></tr>
-<tr><td>4</td><td><strong>Cecotec Cecofry 9000</strong></td><td>9L</td><td>~7L</td><td>39x32x28 cm</td><td>Si</td><td>~130 EUR</td><td><strong>7,5/10</strong></td></tr>
-<tr><td>5</td><td><strong>Tefal Easy Fry XXL</strong></td><td>8,3L</td><td>~6,5L</td><td>38x31x28 cm</td><td>Si</td><td>~170 EUR</td><td><strong>7,5/10</strong></td></tr>
+<tr><td>Ninja Foodi FlexDrawer 10.4L</td><td>10,4 L</td><td>1 cajón, 2 zonas de 5,2 L o MegaZone</td><td>No</td><td>Familias de 5 a 8, piezas grandes</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>9,5 L</td><td>2 cajones apilados de 4,75 L</td><td>No</td><td>Encimeras estrechas</td></tr>
+<tr><td>Philips Combi XXL Conectada</td><td>8,3 L</td><td>1 cesta grande, sonda integrada</td><td>Wifi, app HomeID</td><td>Asados, aves, control a distancia</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone</td><td>9,5 L</td><td>2 cajones de 4,75 L lado a lado</td><td>No</td><td>Menús completos a diario</td></tr>
+<tr><td>Tefal Dual Easy Fry EY9018</td><td>8,3 L</td><td>2 cajones de 5,2 L y 3,1 L</td><td>No</td><td>Presupuesto ajustado, 4 a 5 personas</td></tr>
 </tbody>
 </table>
 
-<h2>N.1: Ninja FlexDrawer — Mejor freidora XXL 2026</h2>
-<p>El <a href="/es/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> es nuestro numero uno indiscutible. Su concepto de <strong>doble cesta fusionable</strong> es revolucionario: 2 cestas independientes de 5,2L o un espacio gigante de 10,4L. Cocinamos <strong>1,5 kg de patatas</strong> o un <strong>pollo de 2,2 kg</strong> en una sola tanda.</p>
-
-<h2>N.2: Ninja Max Dual Zone — El clasico familiar</h2>
-<p>El <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> es la freidora doble cesta mas vendida de Europa. Dos cestas de 4,75L con Sync Finish por ~200 EUR.</p>
-
-<h2>N.3: Philips Combi XXL — Tecnologia para familias</h2>
-<p>El <a href="/es/blog/test-philips-combi-xxl-connected">Philips Combi XXL</a> ofrece la funcion Combi unica (aire + microondas) que reduce los tiempos a la mitad. Mejor calidad de coccion del test.</p>
-
-<h2>N.4: Cecotec Cecofry 9000 — Mejor XXL economica</h2>
-<p>Por solo <strong>130 EUR</strong>, doble cesta y 9L. Calidad de coccion decente pero inferior a Ninja y Philips.</p>
-
-<h2>N.5: Tefal Easy Fry XXL</h2>
-<p>Primera doble cesta XXL de Tefal por 170 EUR. Buena funcion Sync pero capacidad real inferior a la anunciada.</p>
-
-<h2>Capacidad anunciada vs real</h2>
-<p>Regla de oro: <strong>resta 15-25% de la capacidad anunciada</strong>. No llenes mas del 75% de la capacidad util.</p>
-
-<h2>Que capacidad para cuantas personas?</h2>
-<table>
-<thead>
-<tr><th>Personas</th><th>Capacidad recomendada</th><th>Modelos</th></tr>
-</thead>
-<tbody>
-<tr><td>4</td><td>5-6L</td><td>Tefal, Cecotec</td></tr>
-<tr><td>5</td><td>6-7L</td><td>Ninja Dual Zone, Philips Combi</td></tr>
-<tr><td>6</td><td>7-8L</td><td>Ninja FlexDrawer</td></tr>
-<tr><td>7-8</td><td>8L+</td><td>Ninja FlexDrawer (FlexZone)</td></tr>
-</tbody>
-</table>
-
-<h2>Para quien elegir que?</h2>
+<h2>¿Qué capacidad para cuántas personas?</h2>
+<p>Los litros indican el volumen del cajón: nunca se llena una cesta hasta arriba si se quiere un resultado crujiente. En la práctica, estas referencias funcionan bien:</p>
 <ul>
-<li><strong>Familia 5-8 personas:</strong> <a href="/es/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>.</li>
-<li><strong>Familia 4-6, mejor relacion calidad-precio:</strong> <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a>.</li>
-<li><strong>Familia 4-6, calidad ante todo:</strong> <a href="/es/blog/test-philips-combi-xxl-connected">Philips Combi XXL</a>.</li>
-<li><strong>Presupuesto ajustado:</strong> Cecotec Cecofry 9000 por 130 EUR.</li>
+<li><strong>4 personas</strong>: bastan de 6 a 8 litros; un doble cajón ayuda a servir el plato y la guarnición a la vez.</li>
+<li><strong>5 a 6 personas</strong>: apunta a 8-10 litros, idealmente en dos zonas independientes.</li>
+<li><strong>7 a 8 personas</strong>: un modelo de unos 10 litros como la FlexDrawer, o asumir que algunos alimentos se cocinarán en dos tandas.</li>
+</ul>
+<p>Para las patatas fritas, fíjate más en la superficie de la cesta que en su volumen: una capa demasiado gruesa se cuece al vapor en lugar de dorarse. Nuestra guía para <a href="/es/blog/comment-choisir-airfryer-famille">elegir la freidora de aire familiar</a> detalla estas referencias.</p>
+
+<h2>Errores que debes evitar</h2>
+<ul>
+<li><strong>Elegir solo por los litros</strong>: dos cajones de 4,75 L y una cesta de 8,3 L no sirven para lo mismo. Piensa primero en los platos que más cocinas.</li>
+<li><strong>Olvidar la altura bajo los muebles</strong>: un modelo apilado o una cesta alta puede no caber bajo un mueble colgado, y el aire caliente necesita salir.</li>
+<li><strong>Sobrecargar la cesta</strong>: es la primera causa de patatas blandas. Mejor dos tandas bien hechas que una fallida.</li>
+<li><strong>Descuidar la limpieza</strong>: la grasa acumulada en el fondo del cajón acaba echando humo. Limpiar tras cada uso intensivo alarga la vida del revestimiento.</li>
+<li><strong>Pagar por funciones que no usarás</strong>: la conectividad es útil con recetas guiadas o para cocinar carne al punto, mucho menos para patatas y verduras.</li>
+</ul>
+
+<h2>Instalación, uso y seguridad</h2>
+<ul>
+<li>Coloca el aparato sobre una superficie plana, estable y resistente al calor, lejos del borde de la encimera.</li>
+<li>Deja espacio libre alrededor, sobre todo detrás de la salida de aire; no lo pongas justo debajo de un mueble alto. Respeta las distancias indicadas en el manual de tu modelo.</li>
+<li>Enchúfalo a una toma de pared con toma de tierra, sin alargadores ni regletas, porque estos aparatos consumen mucha potencia.</li>
+<li>No pongas nada encima durante la cocción y manipula los cajones con cuidado: siguen muy calientes después de apagarlos.</li>
+<li>Si hay niños en casa, elige un lugar fuera de su alcance y no dejes el cable colgando de la encimera.</li>
 </ul>
 
 <h2>Nuestro veredicto</h2>
-<p>Para familias numerosas en 2026, el <strong><a href="/es/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> es el rey indiscutible de las freidoras XXL</strong>. Para presupuestos mas ajustados, el <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> a 200 EUR sigue siendo una eleccion probada.</p>
+<p>Para la mayoría de las familias numerosas, la <strong>Ninja Foodi FlexDrawer 10.4L Doble Zona</strong> es la mejor freidora de aire XXL en 2026: es la única de esta selección que pasa de dos zonas independientes a un gran cajón único de 10,4 litros. Si te falta anchura, la <strong>Ninja Double Stack XL de 9,5 L</strong> ofrece dos cajones independientes en muy poco espacio. Y si cocinas sobre todo asados y aves y te gusta controlar la cocción desde el móvil, la <strong>Philips Airfryer Combi XXL Conectada de 8,3 L</strong> con su sonda integrada es la opción más cómoda. La Ninja Foodi MAX Dual Zone sigue siendo un valor seguro, y la Tefal Dual Easy Fry una alternativa más asequible para 4 a 5 personas.</p>
+<p>Para comparar estos modelos con un horno convencional, consulta nuestra <a href="/es/guides/airfryer-vs-four">guía freidora de aire u horno</a>.</p>`,
 
-<h2>Coste por comida: la rentabilidad de la freidora XXL para familias numerosas</h2>
-<table>
-<thead>
-<tr><th>Escenario</th><th>Metodo</th><th>Tiempo</th><th>Coste energia</th><th>Coste comida (6 pers.)</th><th>Ahorro vs horno</th></tr>
-</thead>
-<tbody>
-<tr><td>Pollo + patatas</td><td>Ninja FlexDrawer (2 zonas)</td><td>25 min</td><td>0,18 EUR</td><td>~8 EUR</td><td>-40% vs horno convencional</td></tr>
-<tr><td>Pollo + verduras</td><td>Ninja Max Dual Zone</td><td>22 min</td><td>0,16 EUR</td><td>~9 EUR</td><td>-35%</td></tr>
-<tr><td>Pollo asado entero</td><td>Philips Combi XXL (Combi)</td><td>30 min</td><td>0,14 EUR</td><td>~10 EUR</td><td>-50% (tiempo reducido)</td></tr>
-<tr><td>Solo patatas (1,5 kg)</td><td>Ninja FlexDrawer FlexZone</td><td>18 min</td><td>0,12 EUR</td><td>~3 EUR</td><td>-60% vs freidora tradicional</td></tr>
-<tr><td>Pizza a domicilio (comparacion)</td><td>-</td><td>30-45 min</td><td>-</td><td>~35-50 EUR</td><td>Base de comparacion</td></tr>
-</tbody>
-</table>
-<p>Cocinando 5 noches a la semana con una freidora XXL, una familia de 6 ahorra de media <strong>150-200 EUR al mes</strong> frente al reparto a domicilio o los platos preparados. El aparato se amortiza en 1-2 meses de uso regular.</p>
+    it: `<p><strong>Per una famiglia numerosa nel 2026, la migliore friggitrice ad aria XXL è la Ninja Foodi FlexDrawer 10.4L Doppia Zona</strong>: funziona con due zone indipendenti da 5,2 litri oppure, tolto il divisorio, come un unico grande cassetto da 10,4 litri per i pezzi grandi. Se il piano di lavoro è stretto, la Ninja Double Stack XL da 9,5 L sovrappone i suoi due cassetti, mentre se preferisci un solo grande cestello connesso con sonda di cottura, la Philips Airfryer Combi XXL Connessa da 8,3 L è l’alternativa più completa.</p>
+<p>Questo confronto si basa sulle schede tecniche dei produttori, su recensioni indipendenti e sui feedback di acquirenti verificati. Include solo modelli venduti in Europa nel 2026. Trovi tutta la selezione nella nostra pagina dedicata alle <a href="/it/cuisine-connectee/airfryers">friggitrici ad aria</a>.</p>
 
-<h2>Inversion a largo plazo: lo que debes saber antes de comprar una XXL</h2>
+<h2>Come scegliere una friggitrice ad aria XXL</h2>
+<p>«XXL» indica di solito apparecchi da 8 litri in su. A queste dimensioni la capacità dichiarata non basta più per confrontare: conta tanto come sono organizzati i litri quanto il loro numero.</p>
 <ul>
-<li><strong>Durabilidad:</strong> una freidora XXL de calidad dura 5-8 anos con mantenimiento regular. El coste anual es de 25-70 EUR/ano segun el modelo, menos que una suscripcion de streaming.</li>
-<li><strong>Recambios:</strong> las cestas y rejillas estan disponibles como recambios en Ninja y Philips (15-40 EUR). Cecotec y Tefal tienen menos opciones de recambios.</li>
-<li><strong>Garantia:</strong> Ninja y Philips ofrecen 2 anos de garantia, ampliables a 3 con registro. Cecotec y Tefal tambien ofrecen 2 anos.</li>
-<li><strong>Valor de reventa:</strong> los modelos Ninja y Philips conservan buen valor de reventa (50-80% del precio tras 2 anos en plataformas de segunda mano).</li>
-<li><strong>Consumo anual:</strong> con 5 usos semanales de 25 minutos, una freidora de 2000W consume aprox. <strong>215 kWh/ano</strong>, unos 40 EUR/ano de electricidad. Un horno convencional consumiria 2-3 veces mas.</li>
-</ul>`,
+<li><strong>Un grande cestello o due cassetti</strong>: due cassetti indipendenti cuociono piatto principale e contorno insieme, a temperature diverse. Un unico grande cestello è più adatto a un pollo intero o a un arrosto. La FlexDrawer di Ninja unisce i due approcci. Per approfondire, leggi il nostro articolo su <a href="/it/blog/airfryer-simple-vs-double-panier">cestello singolo o doppio</a>.</li>
+<li><strong>La superficie di cottura</strong>: per patatine o nuggets la croccantezza dipende dalla superficie del fondo del cestello, non dal volume. Un cestello alto e stretto costringe a scuotere più spesso o a cuocere in due volte.</li>
+<li><strong>L’ingombro</strong>: i cassetti affiancati occupano larghezza (spesso oltre 40 cm), quelli sovrapposti occupano altezza. Misura il piano di lavoro e lo spazio sotto i pensili.</li>
+<li><strong>La sincronizzazione</strong>: funzioni come Sync (fine cottura simultanea) e Match (stesse impostazioni nei due cassetti) sono preziose quando tutti si siedono a tavola insieme.</li>
+<li><strong>Potenza e presa</strong>: i modelli XXL si collocano tra circa 2.200 e 2.700 W. Collegali direttamente a una presa a muro, mai a una ciabatta già carica.</li>
+<li><strong>La pulizia</strong>: verifica che cassetti e griglie siano lavabili in lavastoviglie e che il rivestimento antiaderente si pulisca facilmente. Con porzioni familiari l’uso è quasi quotidiano.</li>
+</ul>
 
-    it: `<h2>Introduzione</h2>
-<p>Quando si cucina per 5, 6 o 8 persone, una friggitrice ad aria standard da 4-5 litri non basta. Serve un modello XXL. Abbiamo testato le 5 migliori friggitrici XXL (8 litri e oltre) per 6 settimane con famiglie di 5-7 persone.</p>
+<h2>Le 5 migliori friggitrici ad aria XXL per famiglie numerose nel 2026</h2>
 
-<h2>Tabella comparativa delle 5 migliori friggitrici XXL</h2>
+<h3>1. Ninja Foodi FlexDrawer 10.4L Doppia Zona (AF500EU) – la miglior scelta complessiva</h3>
+<p>La FlexDrawer è il modello più versatile di questa selezione. Il suo unico cassetto da 10,4 litri si divide con un divisorio rimovibile in due zone da 5,2 litri, ognuna con temperatura e tempo propri. Togliendo il divisorio si ottiene la <strong>MegaZone</strong>, un solo spazio da 10,4 litri per un pollo grande, un arrosto o una grande quantità di verdure. La potenza dichiarata è di 2.470 W, con sei funzioni tra cui Air Fry e Max Crisp, oltre alle funzioni Sync e Match di Ninja.</p>
+<p><strong>Punti di forza</strong>: passa da due zone a un grande spazio unico, la capacità più alta del confronto, recensioni molto positive degli acquirenti sull’uniformità di cottura.</p>
+<p><strong>Limiti</strong>: circa 45 cm di larghezza e oltre 9 kg secondo le schede dei rivenditori, quindi richiede un posto fisso. Si colloca nella fascia alta.</p>
+<p><strong>Per chi</strong>: famiglie da 5 a 8 persone che vogliono sia pasti completi in due zone sia grandi pezzi interi. La nostra <a href="/it/blog/test-ninja-foodi-flexdrawer">recensione dettagliata della Ninja FlexDrawer</a> approfondisce.</p>
+
+<h3>2. Ninja Double Stack XL 9,5 L (SL400EU) – la migliore per cucine strette</h3>
+<p>La Double Stack XL mantiene l’idea dei due cassetti indipendenti da 4,75 litri, ma li impila in verticale invece di affiancarli. Risultato: solo circa 28 cm di larghezza per 9,5 litri totali, con un’altezza di circa 38,5 cm pensata per stare sotto i pensili. Le griglie a ripiani in dotazione permettono di cuocere su quattro livelli contemporaneamente. Restano le sei funzioni della gamma, i 2.470 W e la fine cottura sincronizzata.</p>
+<p><strong>Punti di forza</strong>: l’ingombro più ridotto tra i modelli XXL qui presentati, due vere zone indipendenti, cottura su quattro livelli per moltiplicare la superficie utile.</p>
+<p><strong>Limiti</strong>: i cassetti non si uniscono, quindi niente pezzi unici molto grandi; la cottura su griglie sovrapposte richiede un po’ di pratica per girare gli alimenti.</p>
+<p><strong>Per chi</strong>: famiglie numerose con poca larghezza sul piano di lavoro che cucinano soprattutto alimenti in porzioni (patatine, filetti, verdure, nuggets).</p>
+
+<h3>3. Philips Airfryer Combi XXL Connessa 8,3 L (Serie 7000) – la migliore friggitrice connessa</h3>
+<p>La Combi XXL della Serie 7000 punta su un solo grande cestello da 8,3 litri, 2.200 W e connessione Wi-Fi con l’app Philips HomeID, che offre programmi automatici e ricette guidate. Il suo elemento distintivo è il <strong>termometro di cottura integrato</strong>: controlla la temperatura al cuore di carne o pesce e ferma la cottura al momento giusto. La tecnologia Rapid CombiAir combina calore e flusso d’aria per grigliare, arrostire o cuocere come un piccolo forno.</p>
+<p><strong>Punti di forza</strong>: il grande cestello unico, la sonda di cottura, l’app più curata della selezione, un’ampia varietà di programmi.</p>
+<p><strong>Limiti</strong>: niente doppia zona, quindi il contorno si cuoce prima o dopo il piatto principale; è pesante e si colloca al vertice della gamma.</p>
+<p><strong>Per chi</strong>: famiglie che cucinano spesso arrosti, pollame intero o pesce e amano gestire la cottura dallo smartphone.</p>
+
+<h3>4. Ninja Foodi MAX Dual Zone 9,5 L (AF400EU) – il classico collaudato</h3>
+<p>È il modello che ha reso popolari le friggitrici ad aria a due cassetti: due cassetti indipendenti da 4,75 litri affiancati, 2.470 W, sei funzioni (Air Fry, Max Crisp, arrosto, cottura al forno, riscaldamento, essiccazione) e le funzioni Sync e Match. Ninja indica che un cassetto può contenere un pollo di circa 2 kg. In commercio da diversi anni, conta un numero enorme di recensioni degli acquirenti, nel complesso molto favorevoli.</p>
+<p><strong>Punti di forza</strong>: affidabilità riconosciuta, uso molto semplice, due zone di uguale dimensione, ampia disponibilità di accessori.</p>
+<p><strong>Limiti</strong>: occupa molta larghezza sul piano di lavoro; cassetti non unibili.</p>
+<p><strong>Per chi</strong>: famiglie da 4 a 6 persone che vogliono un doppio cassetto senza funzioni superflue.</p>
+
+<h3>5. Tefal Dual Easy Fry 8,3 L (EY9018) – il doppio cassetto più accessibile</h3>
+<p>La Tefal Dual Easy Fry sceglie un approccio asimmetrico: un cassetto grande da 5,2 litri e uno piccolo da 3,1 litri, 8,3 litri in totale, con display touch e sette programmi (patatine, pollo, verdure, pesce, dessert, essiccazione e modalità manuale). Il cassetto piccolo è comodo per un contorno o una porzione singola, quello grande per il piatto principale. Le parti rimovibili vanno in lavastoviglie.</p>
+<p><strong>Punti di forza</strong>: più accessibile dei modelli Ninja e Philips, un marchio con un’assistenza ben radicata in Europa, un cassetto principale capiente.</p>
+<p><strong>Limiti</strong>: il cassetto da 3,1 litri limita la capacità reale per famiglie da 6 persone in su; diversi acquirenti lamentano l’assenza della funzione mantenimento in caldo.</p>
+<p><strong>Per chi</strong>: famiglie da 4 a 5 persone che cercano un doppio cassetto con un budget più contenuto.</p>
+
+<h2>Tabella comparativa</h2>
 <table>
 <thead>
-<tr><th>Pos.</th><th>Modello</th><th>Capacita dichiarata</th><th>Capacita reale</th><th>Dimensioni</th><th>Doppio cestello</th><th>Prezzo</th><th>Voto</th></tr>
+<tr><th>Modello</th><th>Capacità</th><th>Configurazione</th><th>Connettività</th><th>Ideale per</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td><strong>Ninja FlexDrawer 10.4L</strong></td><td>10,4L</td><td>~8,5L</td><td>42x37x27 cm</td><td>Si (unibile)</td><td>~230 EUR</td><td><strong>9,5/10</strong></td></tr>
-<tr><td>2</td><td><strong>Ninja Max Dual Zone</strong></td><td>9,5L</td><td>~7,5L</td><td>40x33x27 cm</td><td>Si</td><td>~200 EUR</td><td><strong>9/10</strong></td></tr>
-<tr><td>3</td><td><strong>Philips Combi XXL</strong></td><td>8,3L</td><td>~7L</td><td>38x35x32 cm</td><td>No</td><td>~350 EUR</td><td><strong>9/10</strong></td></tr>
-<tr><td>4</td><td><strong>Cecotec Cecofry 9000</strong></td><td>9L</td><td>~7L</td><td>39x32x28 cm</td><td>Si</td><td>~130 EUR</td><td><strong>7,5/10</strong></td></tr>
-<tr><td>5</td><td><strong>Tefal Easy Fry XXL</strong></td><td>8,3L</td><td>~6,5L</td><td>38x31x28 cm</td><td>Si</td><td>~170 EUR</td><td><strong>7,5/10</strong></td></tr>
+<tr><td>Ninja Foodi FlexDrawer 10.4L</td><td>10,4 L</td><td>1 cassetto, 2 zone da 5,2 L o MegaZone</td><td>No</td><td>Famiglie da 5 a 8, pezzi grandi</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>9,5 L</td><td>2 cassetti sovrapposti da 4,75 L</td><td>No</td><td>Piani di lavoro stretti</td></tr>
+<tr><td>Philips Combi XXL Connessa</td><td>8,3 L</td><td>1 grande cestello, sonda integrata</td><td>Wi-Fi, app HomeID</td><td>Arrosti, pollame, controllo a distanza</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone</td><td>9,5 L</td><td>2 cassetti affiancati da 4,75 L</td><td>No</td><td>Pasti completi di tutti i giorni</td></tr>
+<tr><td>Tefal Dual Easy Fry EY9018</td><td>8,3 L</td><td>2 cassetti da 5,2 L e 3,1 L</td><td>No</td><td>Budget contenuto, 4-5 persone</td></tr>
 </tbody>
 </table>
 
-<h2>N.1: Ninja FlexDrawer — Migliore friggitrice XXL 2026</h2>
-<p>Il <a href="/it/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> e il nostro numero uno indiscusso. Il suo concetto di <strong>doppio cestello unibile</strong> e rivoluzionario: 2 cestelli indipendenti da 5,2L o un unico spazio da 10,4L. Abbiamo cucinato <strong>1,5 kg di patatine</strong> o un <strong>pollo da 2,2 kg</strong> in una sola volta.</p>
-
-<h2>N.2: Ninja Max Dual Zone — Il classico familiare</h2>
-<p>Il <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> e la friggitrice doppio cestello piu venduta in Europa. Due cestelli da 4,75L con Sync Finish per ~200 EUR.</p>
-
-<h2>N.3: Philips Combi XXL — Tecnologia per le famiglie</h2>
-<p>Il <a href="/it/blog/test-philips-combi-xxl-connected">Philips Combi XXL</a> offre la funzione Combi unica (aria + microonde) che dimezza i tempi. Migliore qualita di cottura nel test.</p>
-
-<h2>N.4: Cecotec Cecofry 9000 — Migliore XXL economica</h2>
-<p>A soli <strong>130 EUR</strong>, doppio cestello e 9L totali. Qualita di cottura decente ma inferiore a Ninja e Philips.</p>
-
-<h2>N.5: Tefal Easy Fry XXL</h2>
-<p>Primo doppio cestello XXL di Tefal a 170 EUR. Buona funzione Sync ma capacita reale inferiore al dichiarato.</p>
-
-<h2>Capacita dichiarata vs reale</h2>
-<p>Regola d'oro: <strong>sottrarre 15-25% dalla capacita dichiarata</strong>. Non riempire oltre il 75% della capacita utile.</p>
-
-<h2>Quale capacita per quante persone?</h2>
-<table>
-<thead>
-<tr><th>Persone</th><th>Capacita consigliata</th><th>Modelli</th></tr>
-</thead>
-<tbody>
-<tr><td>4</td><td>5-6L</td><td>Tefal, Cecotec</td></tr>
-<tr><td>5</td><td>6-7L</td><td>Ninja Dual Zone, Philips Combi</td></tr>
-<tr><td>6</td><td>7-8L</td><td>Ninja FlexDrawer</td></tr>
-<tr><td>7-8</td><td>8L+</td><td>Ninja FlexDrawer (FlexZone)</td></tr>
-</tbody>
-</table>
-
-<h2>Per chi scegliere cosa?</h2>
+<h2>Quale capacità per quante persone?</h2>
+<p>I litri indicano il volume del cassetto: un cestello non si riempie mai fino all’orlo se si vuole un risultato croccante. In pratica, questi riferimenti funzionano bene:</p>
 <ul>
-<li><strong>Famiglia 5-8 persone:</strong> <a href="/it/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>.</li>
-<li><strong>Famiglia 4-6, miglior rapporto qualita-prezzo:</strong> <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a>.</li>
-<li><strong>Famiglia 4-6, qualita prima di tutto:</strong> <a href="/it/blog/test-philips-combi-xxl-connected">Philips Combi XXL</a>.</li>
-<li><strong>Budget ridotto:</strong> Cecotec Cecofry 9000 a 130 EUR.</li>
+<li><strong>4 persone</strong>: bastano da 6 a 8 litri; un doppio cassetto aiuta a servire insieme piatto e contorno.</li>
+<li><strong>5-6 persone</strong>: punta a 8-10 litri, idealmente in due zone indipendenti.</li>
+<li><strong>7-8 persone</strong>: un modello da circa 10 litri come la FlexDrawer, oppure accetta di cuocere alcuni alimenti in due volte.</li>
+</ul>
+<p>Per le patatine conta più la superficie del cestello che il volume: uno strato troppo spesso cuoce al vapore invece di dorarsi. La nostra guida per <a href="/it/blog/comment-choisir-airfryer-famille">scegliere la friggitrice ad aria per la famiglia</a> approfondisce questi riferimenti.</p>
+
+<h2>Errori da evitare</h2>
+<ul>
+<li><strong>Scegliere solo in base ai litri</strong>: due cassetti da 4,75 L e un cestello da 8,3 L non servono agli stessi usi. Parti dai piatti che cucini più spesso.</li>
+<li><strong>Dimenticare l’altezza sotto i pensili</strong>: un modello sovrapposto o un cestello alto potrebbero non starci, e l’aria calda deve poter uscire.</li>
+<li><strong>Sovraccaricare il cestello</strong>: è la prima causa di patatine molli. Meglio due cotture riuscite che una sbagliata.</li>
+<li><strong>Trascurare la pulizia</strong>: il grasso accumulato sul fondo del cassetto finisce per fumare. Pulire dopo ogni uso intenso allunga la vita del rivestimento.</li>
+<li><strong>Pagare funzioni inutili</strong>: la connettività è utile con le ricette guidate o per cuocere la carne al punto giusto, molto meno per patatine e verdure.</li>
+</ul>
+
+<h2>Installazione, utilizzo e sicurezza</h2>
+<ul>
+<li>Appoggia l’apparecchio su una superficie piana, stabile e resistente al calore, lontano dal bordo del piano di lavoro.</li>
+<li>Lascia spazio libero tutt’intorno, soprattutto dietro l’uscita dell’aria; non metterlo direttamente sotto un pensile. Rispetta le distanze indicate nel manuale del tuo modello.</li>
+<li>Collegalo a una presa a muro con messa a terra, senza prolunghe né ciabatte, perché questi apparecchi assorbono molta potenza.</li>
+<li>Non appoggiare nulla sopra durante la cottura e maneggia i cassetti con attenzione: restano molto caldi anche dopo lo spegnimento.</li>
+<li>Con bambini in casa, scegli una posizione fuori dalla loro portata e non lasciare il cavo penzolare dal piano.</li>
 </ul>
 
 <h2>Il nostro verdetto</h2>
-<p>Per le famiglie numerose nel 2026, il <strong><a href="/it/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> e il re indiscusso delle friggitrici XXL</strong>. Per budget piu contenuti, il <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> a 200 EUR resta una scelta collaudata.</p>
+<p>Per la maggior parte delle famiglie numerose, la <strong>Ninja Foodi FlexDrawer 10.4L Doppia Zona</strong> è la migliore friggitrice ad aria XXL del 2026: è l’unica della selezione che passa da due zone indipendenti a un grande cassetto unico da 10,4 litri. Se manca larghezza, la <strong>Ninja Double Stack XL da 9,5 L</strong> offre due cassetti indipendenti in pochissimo spazio. E se cucini soprattutto arrosti e pollame e ami gestire la cottura dal telefono, la <strong>Philips Airfryer Combi XXL Connessa da 8,3 L</strong> con la sua sonda integrata è la scelta più comoda. La Ninja Foodi MAX Dual Zone resta una certezza, e la Tefal Dual Easy Fry un’opzione più accessibile per 4-5 persone.</p>
+<p>Per confrontare questi modelli con un forno tradizionale, consulta la nostra <a href="/it/guides/airfryer-vs-four">guida friggitrice ad aria o forno</a>.</p>`,
 
-<h2>Costo per pasto: la redditivita della friggitrice XXL per famiglie numerose</h2>
-<table>
-<thead>
-<tr><th>Scenario</th><th>Metodo</th><th>Tempo</th><th>Costo energia</th><th>Costo pasto (6 pers.)</th><th>Risparmio vs forno</th></tr>
-</thead>
-<tbody>
-<tr><td>Pollo + patatine</td><td>Ninja FlexDrawer (2 zone)</td><td>25 min</td><td>0,18 EUR</td><td>~8 EUR</td><td>-40% vs forno tradizionale</td></tr>
-<tr><td>Pollo + verdure</td><td>Ninja Max Dual Zone</td><td>22 min</td><td>0,16 EUR</td><td>~9 EUR</td><td>-35%</td></tr>
-<tr><td>Pollo arrosto intero</td><td>Philips Combi XXL (Combi)</td><td>30 min</td><td>0,14 EUR</td><td>~10 EUR</td><td>-50% (tempo dimezzato)</td></tr>
-<tr><td>Solo patatine (1,5 kg)</td><td>Ninja FlexDrawer FlexZone</td><td>18 min</td><td>0,12 EUR</td><td>~3 EUR</td><td>-60% vs friggitrice tradizionale</td></tr>
-<tr><td>Consegna pizza (confronto)</td><td>-</td><td>30-45 min</td><td>-</td><td>~35-50 EUR</td><td>Base di confronto</td></tr>
-</tbody>
-</table>
-<p>Cucinando 5 sere a settimana con una friggitrice XXL, una famiglia di 6 risparmia in media <strong>150-200 EUR al mese</strong> rispetto alle consegne a domicilio o ai piatti pronti. L'apparecchio si ripaga in 1-2 mesi di uso regolare.</p>
+    nl: `<p><strong>Voor een groot gezin is de Ninja Foodi FlexDrawer 10.4L Dubbele Zone in 2026 de beste XXL-airfryer</strong>: hij werkt met twee onafhankelijke zones van 5,2 liter of, zonder scheidingswand, als één grote lade van 10,4 liter voor grote stukken. Is je aanrecht smal, dan stapelt de Ninja Double Stack XL van 9,5 liter zijn twee lades boven elkaar, en wil je liever één grote verbonden mand met kerntemperatuurmeter, dan is de Philips Airfryer Combi XXL Connected van 8,3 liter het meest complete alternatief.</p>
+<p>Deze vergelijking is gebaseerd op specificaties van de fabrikanten, onafhankelijke reviews en geverifieerde kopersbeoordelingen. Ze bevat alleen modellen die in 2026 in Europa verkocht worden. De volledige selectie vind je op onze pagina <a href="/nl/cuisine-connectee/airfryers">airfryers</a>.</p>
 
-<h2>Investimento a lungo termine: cosa sapere prima di acquistare una XXL</h2>
+<h2>Waar let je op bij een XXL-airfryer?</h2>
+<p>‘XXL’ staat meestal voor apparaten vanaf 8 liter. Bij dat formaat volstaat de opgegeven inhoud niet meer om te vergelijken: hoe die liters verdeeld zijn, telt net zo zwaar als het aantal.</p>
 <ul>
-<li><strong>Durata:</strong> una friggitrice XXL di qualita dura 5-8 anni con manutenzione regolare. Il costo annuo e di 25-70 EUR/anno a seconda del modello, meno di un abbonamento streaming.</li>
-<li><strong>Ricambi:</strong> cestelli e griglie sono spesso disponibili come ricambi presso Ninja e Philips (15-40 EUR). Cecotec e Tefal hanno meno opzioni di ricambi.</li>
-<li><strong>Garanzia:</strong> Ninja e Philips offrono 2 anni di garanzia, estendibile a 3 con registrazione. Cecotec e Tefal offrono anch'esse 2 anni.</li>
-<li><strong>Valore di rivendita:</strong> i modelli Ninja e Philips mantengono un buon valore di rivendita (50-80% del prezzo dopo 2 anni sulle piattaforme di seconda mano).</li>
-<li><strong>Consumo annuale:</strong> con 5 utilizzi settimanali di 25 minuti, una friggitrice da 2000W consuma circa <strong>215 kWh/anno</strong>, circa 40 EUR/anno di elettricita. Un forno tradizionale consumerebbe 2-3 volte di piu.</li>
-</ul>`,
+<li><strong>Eén grote mand of twee lades</strong>: met twee onafhankelijke lades bereid je hoofdgerecht en bijgerecht tegelijk, op verschillende temperaturen. Eén grote mand is beter voor een hele kip of een rollade. De FlexDrawer van Ninja combineert beide. Lees meer in ons artikel over <a href="/nl/blog/airfryer-simple-vs-double-panier">enkele of dubbele mand</a>.</li>
+<li><strong>Het bakoppervlak</strong>: voor friet of nuggets bepaalt de bodemoppervlakte van de mand de krokantheid, niet het volume. Een hoge, smalle mand betekent vaker schudden of in twee rondes bakken.</li>
+<li><strong>De benodigde ruimte</strong>: lades naast elkaar nemen breedte in (vaak meer dan 40 cm), gestapelde lades nemen hoogte in. Meet je aanrecht en de ruimte onder je bovenkastjes.</li>
+<li><strong>Synchronisatie</strong>: functies als Sync (tegelijk klaar) en Match (dezelfde instellingen in beide lades) zijn ideaal als iedereen tegelijk aan tafel gaat.</li>
+<li><strong>Vermogen en stopcontact</strong>: XXL-modellen zitten rond 2.200 tot 2.700 W. Sluit ze direct aan op een wandcontactdoos, nooit op een al volle stekkerdoos.</li>
+<li><strong>Schoonmaken</strong>: controleer of lades en roosters vaatwasserbestendig zijn en of de antiaanbaklaag makkelijk schoon te maken is. Met gezinsporties gebruik je het apparaat bijna dagelijks.</li>
+</ul>
 
-    nl: `<h2>Inleiding</h2>
-<p>Als je kookt voor 5, 6 of 8 personen, volstaat een standaard airfryer van 4-5 liter simpelweg niet. Je hebt een XXL-model nodig. We hebben de 5 beste XXL-airfryers (8 liter en meer) 6 weken lang getest met gezinnen van 5-7 personen.</p>
+<h2>De 5 beste XXL-airfryers voor grote gezinnen in 2026</h2>
 
-<h2>Vergelijkingstabel van de 5 beste XXL-airfryers</h2>
+<h3>1. Ninja Foodi FlexDrawer 10.4L Dubbele Zone (AF500EU) – de beste algemene keuze</h3>
+<p>De FlexDrawer is het veelzijdigste model in deze selectie. De enkele lade van 10,4 liter kun je met een uitneembare scheidingswand opdelen in twee zones van 5,2 liter, elk met eigen temperatuur en tijd. Haal je de wand eruit, dan krijg je de <strong>MegaZone</strong>: één ruimte van 10,4 liter voor een grote kip, een rollade of een flinke portie groenten. Het opgegeven vermogen is 2.470 W, met zes functies waaronder Air Fry en Max Crisp, plus de Sync- en Match-functies van Ninja.</p>
+<p><strong>Sterke punten</strong>: wisselt tussen twee zones en één grote ruimte, de grootste capaciteit in deze vergelijking, zeer positieve kopersbeoordelingen over het gelijkmatige resultaat.</p>
+<p><strong>Beperkingen</strong>: volgens winkelgegevens zo’n 45 cm breed en ruim 9 kg zwaar, dus hij heeft een vaste plek nodig. Hij zit in het hogere segment.</p>
+<p><strong>Voor wie</strong>: gezinnen van 5 tot 8 personen die zowel complete maaltijden in twee zones als grote hele stukken willen bereiden. Onze <a href="/nl/blog/test-ninja-foodi-flexdrawer">uitgebreide review van de Ninja FlexDrawer</a> gaat dieper in op dit model.</p>
+
+<h3>2. Ninja Double Stack XL 9,5 L (SL400EU) – de beste voor smalle keukens</h3>
+<p>De Double Stack XL houdt vast aan twee onafhankelijke lades van 4,75 liter, maar stapelt ze verticaal in plaats van ze naast elkaar te zetten. Het resultaat: slechts ongeveer 28 cm breed voor 9,5 liter in totaal, met een hoogte van zo’n 38,5 cm zodat hij onder bovenkastjes past. Met de meegeleverde etagerekken bak je op vier niveaus tegelijk. Je krijgt de zes functies van de serie, 2.470 W en gesynchroniseerd klaar zijn.</p>
+<p><strong>Sterke punten</strong>: het kleinste vloeroppervlak van de XXL-modellen hier, twee echte onafhankelijke zones, bakken op vier niveaus voor meer bruikbaar oppervlak.</p>
+<p><strong>Beperkingen</strong>: de lades zijn niet samen te voegen, dus geen heel groot stuk in één keer; omdraaien op gestapelde rekken vraagt wat oefening.</p>
+<p><strong>Voor wie</strong>: grote gezinnen met weinig aanrechtbreedte die vooral porties bereiden (friet, filets, groenten, nuggets).</p>
+
+<h3>3. Philips Airfryer Combi XXL Connected 8,3 L (7000-serie) – de beste verbonden airfryer</h3>
+<p>De Combi XXL uit de 7000-serie kiest voor één grote mand van 8,3 liter, 2.200 W en wifi met de Philips HomeID-app, die automatische programma’s en begeleide recepten biedt. Het onderscheidende kenmerk is de <strong>ingebouwde kerntemperatuurmeter</strong>: die bewaakt de kerntemperatuur van vlees of vis en stopt het bereiden op het juiste moment. De Rapid CombiAir-technologie combineert hitte en luchtstroom om te grillen, braden of bakken zoals in een kleine oven.</p>
+<p><strong>Sterke punten</strong>: de grote enkele mand, de kerntemperatuurmeter, de meest doordachte app in deze selectie, een groot aantal programma’s.</p>
+<p><strong>Beperkingen</strong>: geen dubbele zone, dus het bijgerecht bereid je voor of na het hoofdgerecht; hij is zwaar en zit in het hoogste segment.</p>
+<p><strong>Voor wie</strong>: gezinnen die vaak rollades, hele kippen of vis bereiden en het koken graag via de smartphone regelen.</p>
+
+<h3>4. Ninja Foodi MAX Dual Zone 9,5 L (AF400EU) – de beproefde klassieker</h3>
+<p>Dit is het model dat airfryers met twee lades populair maakte: twee onafhankelijke lades van 4,75 liter naast elkaar, 2.470 W, zes functies (Air Fry, Max Crisp, braden, bakken, opwarmen, drogen) en de Sync- en Match-functies. Volgens Ninja past er in één lade een kip van ongeveer 2 kg. Hij is al jaren te koop en heeft een enorm aantal kopersbeoordelingen, overwegend zeer positief.</p>
+<p><strong>Sterke punten</strong>: bewezen betrouwbaarheid, heel eenvoudig in gebruik, twee even grote zones, ruim aanbod aan accessoires.</p>
+<p><strong>Beperkingen</strong>: neemt veel aanrechtbreedte in; lades niet samen te voegen.</p>
+<p><strong>Voor wie</strong>: gezinnen van 4 tot 6 personen die een dubbele lade willen zonder overbodige extra’s.</p>
+
+<h3>5. Tefal Dual Easy Fry 8,3 L (EY9018) – de meest betaalbare dubbele lade</h3>
+<p>De Tefal Dual Easy Fry kiest voor een asymmetrische opzet: een grote lade van 5,2 liter en een kleine van 3,1 liter, samen 8,3 liter, met een aanraakscherm en zeven programma’s (friet, kip, groenten, vis, dessert, drogen en handmatige stand). De kleine lade is handig voor een bijgerecht of een enkele portie, de grote voor het hoofdgerecht. De uitneembare onderdelen kunnen in de vaatwasser.</p>
+<p><strong>Sterke punten</strong>: betaalbaarder dan de modellen van Ninja en Philips, een merk met een goed uitgebouwde klantenservice in Europa, een ruime hoofdlade.</p>
+<p><strong>Beperkingen</strong>: de lade van 3,1 liter beperkt de werkelijke capaciteit voor gezinnen vanaf 6 personen; meerdere kopers missen een warmhoudfunctie.</p>
+<p><strong>Voor wie</strong>: gezinnen van 4 tot 5 personen die een dubbele lade zoeken met een kleiner budget.</p>
+
+<h2>Vergelijkingstabel</h2>
 <table>
 <thead>
-<tr><th>Rang</th><th>Model</th><th>Opgegeven capaciteit</th><th>Werkelijke capaciteit</th><th>Afmetingen</th><th>Dubbele mand</th><th>Prijs</th><th>Score</th></tr>
+<tr><th>Model</th><th>Inhoud</th><th>Opbouw</th><th>Connectiviteit</th><th>Ideaal voor</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td><strong>Ninja FlexDrawer 10.4L</strong></td><td>10,4L</td><td>~8,5L</td><td>42x37x27 cm</td><td>Ja (samenvoegbaar)</td><td>~230 EUR</td><td><strong>9,5/10</strong></td></tr>
-<tr><td>2</td><td><strong>Ninja Max Dual Zone</strong></td><td>9,5L</td><td>~7,5L</td><td>40x33x27 cm</td><td>Ja</td><td>~200 EUR</td><td><strong>9/10</strong></td></tr>
-<tr><td>3</td><td><strong>Philips Combi XXL</strong></td><td>8,3L</td><td>~7L</td><td>38x35x32 cm</td><td>Nee</td><td>~350 EUR</td><td><strong>9/10</strong></td></tr>
-<tr><td>4</td><td><strong>Cecotec Cecofry 9000</strong></td><td>9L</td><td>~7L</td><td>39x32x28 cm</td><td>Ja</td><td>~130 EUR</td><td><strong>7,5/10</strong></td></tr>
-<tr><td>5</td><td><strong>Tefal Easy Fry XXL</strong></td><td>8,3L</td><td>~6,5L</td><td>38x31x28 cm</td><td>Ja</td><td>~170 EUR</td><td><strong>7,5/10</strong></td></tr>
+<tr><td>Ninja Foodi FlexDrawer 10.4L</td><td>10,4 L</td><td>1 lade, 2 zones van 5,2 L of MegaZone</td><td>Nee</td><td>Gezinnen van 5 tot 8, grote stukken</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>9,5 L</td><td>2 gestapelde lades van 4,75 L</td><td>Nee</td><td>Smalle aanrechten</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>8,3 L</td><td>1 grote mand, ingebouwde meter</td><td>Wifi, HomeID-app</td><td>Rollades, gevogelte, bediening op afstand</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone</td><td>9,5 L</td><td>2 lades van 4,75 L naast elkaar</td><td>Nee</td><td>Complete dagelijkse maaltijden</td></tr>
+<tr><td>Tefal Dual Easy Fry EY9018</td><td>8,3 L</td><td>2 lades van 5,2 L en 3,1 L</td><td>Nee</td><td>Kleiner budget, 4 tot 5 personen</td></tr>
 </tbody>
 </table>
 
-<h2>Nr. 1: Ninja FlexDrawer — Beste XXL airfryer 2026</h2>
-<p>De <a href="/nl/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> is onze onbetwiste nummer een. Zijn unieke <strong>samenvoegbare dubbele mand</strong> is revolutionair: 2 onafhankelijke mandjes van 5,2L of een grote ruimte van 10,4L. We bakten <strong>1,5 kg friet</strong> of een <strong>kip van 2,2 kg</strong> in een keer.</p>
-
-<h2>Nr. 2: Ninja Max Dual Zone — De gezinsklassieker</h2>
-<p>De <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> is Europa's bestverkochte dubbele-mand airfryer. Twee mandjes van 4,75L met Sync Finish voor ~200 EUR.</p>
-
-<h2>Nr. 3: Philips Combi XXL — Technologie voor gezinnen</h2>
-<p>De <a href="/nl/blog/test-philips-combi-xxl-connected">Philips Combi XXL</a> biedt de unieke Combi-functie (hete lucht + magnetron) die gaartijden halveert. Beste gaarkwaliteit in de test.</p>
-
-<h2>Nr. 4: Cecotec Cecofry 9000 — Beste budget XXL</h2>
-<p>Voor slechts <strong>130 EUR</strong> dubbele mandjes en 9L totaal. Gaarkwaliteit is fatsoenlijk maar duidelijk onder Ninja en Philips.</p>
-
-<h2>Nr. 5: Tefal Easy Fry XXL</h2>
-<p>Tefals eerste XXL dubbele mand voor 170 EUR. Goede Sync-functie maar werkelijke capaciteit lager dan opgegeven.</p>
-
-<h2>Opgegeven vs werkelijke capaciteit</h2>
-<p>Vuistregel: <strong>trek 15-25% af van de opgegeven capaciteit</strong>. Vul nooit meer dan 75% van de bruikbare capaciteit.</p>
-
-<h2>Welke capaciteit voor hoeveel personen?</h2>
-<table>
-<thead>
-<tr><th>Personen</th><th>Aanbevolen capaciteit</th><th>Modellen</th></tr>
-</thead>
-<tbody>
-<tr><td>4</td><td>5-6L</td><td>Tefal, Cecotec</td></tr>
-<tr><td>5</td><td>6-7L</td><td>Ninja Dual Zone, Philips Combi</td></tr>
-<tr><td>6</td><td>7-8L</td><td>Ninja FlexDrawer</td></tr>
-<tr><td>7-8</td><td>8L+</td><td>Ninja FlexDrawer (FlexZone)</td></tr>
-</tbody>
-</table>
-
-<h2>Voor wie wat?</h2>
+<h2>Welke inhoud voor hoeveel personen?</h2>
+<p>Het aantal liters geeft het volume van de lade aan: wie krokant wil bakken, vult een mand nooit tot de rand. In de praktijk werken deze richtlijnen goed:</p>
 <ul>
-<li><strong>Gezin 5-8 personen:</strong> <a href="/nl/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>.</li>
-<li><strong>Gezin 4-6, beste prijs-kwaliteit:</strong> <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a>.</li>
-<li><strong>Gezin 4-6, kwaliteit eerst:</strong> <a href="/nl/blog/test-philips-combi-xxl-connected">Philips Combi XXL</a>.</li>
-<li><strong>Klein budget:</strong> Cecotec Cecofry 9000 voor 130 EUR.</li>
+<li><strong>4 personen</strong>: 6 tot 8 liter is genoeg; een dubbele lade helpt om hoofd- en bijgerecht samen op tafel te zetten.</li>
+<li><strong>5 tot 6 personen</strong>: mik op 8 tot 10 liter, het liefst in twee onafhankelijke zones.</li>
+<li><strong>7 tot 8 personen</strong>: een model van rond de 10 liter zoals de FlexDrawer, of accepteer dat je sommige gerechten in twee rondes bakt.</li>
+</ul>
+<p>Voor friet telt het mandoppervlak meer dan het volume: een te dikke laag stoomt in plaats van bruin te worden. Onze gids om <a href="/nl/blog/comment-choisir-airfryer-famille">de juiste gezinsairfryer te kiezen</a> werkt deze richtlijnen verder uit.</p>
+
+<h2>Fouten die je beter vermijdt</h2>
+<ul>
+<li><strong>Alleen op liters kiezen</strong>: twee lades van 4,75 L en één mand van 8,3 L dienen verschillende doelen. Ga uit van de gerechten die je het vaakst maakt.</li>
+<li><strong>De hoogte onder kastjes vergeten</strong>: een gestapeld model of een hoge mand past misschien niet onder een bovenkastje, en de hete lucht moet weg kunnen.</li>
+<li><strong>De mand overladen</strong>: de belangrijkste oorzaak van slappe friet. Twee geslaagde rondes zijn beter dan één mislukte.</li>
+<li><strong>Schoonmaken verwaarlozen</strong>: vet dat zich onderin de lade ophoopt, gaat op den duur roken. Schoonmaken na elk intensief gebruik verlengt de levensduur van de antiaanbaklaag.</li>
+<li><strong>Betalen voor functies die je niet gebruikt</strong>: connectiviteit is handig bij begeleide recepten of om vlees op kerntemperatuur te garen, veel minder bij friet en groenten.</li>
+</ul>
+
+<h2>Plaatsing, gebruik en veiligheid</h2>
+<ul>
+<li>Zet het apparaat op een vlakke, stabiele en hittebestendige ondergrond, niet aan de rand van het aanrecht.</li>
+<li>Laat rondom ruimte vrij, vooral achter de luchtuitlaat; zet hem niet direct onder een bovenkastje. Houd de afstanden uit de handleiding van je model aan.</li>
+<li>Sluit hem aan op een geaarde wandcontactdoos, zonder verlengsnoer of stekkerdoos, want deze apparaten trekken veel vermogen.</li>
+<li>Leg tijdens het bakken niets op het apparaat en ga voorzichtig om met de lades: ze blijven na het uitschakelen nog lang heet.</li>
+<li>Met kinderen in huis kies je een plek buiten hun bereik en laat je het snoer niet over de rand hangen.</li>
 </ul>
 
 <h2>Ons oordeel</h2>
-<p>Voor grote gezinnen in 2026 is de <strong><a href="/nl/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> de onbetwiste koning van de XXL-airfryers</strong>. Voor krappere budgetten blijft de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Max Dual Zone</a> voor 200 EUR een bewezen keuze.</p>
-
-<h2>Kosten per maaltijd: de financiele rentabiliteit van een XXL airfryer voor grote gezinnen</h2>
-<table>
-<thead>
-<tr><th>Scenario</th><th>Methode</th><th>Tijd</th><th>Energiekosten</th><th>Maaltijdkosten (6 pers.)</th><th>Besparing vs oven</th></tr>
-</thead>
-<tbody>
-<tr><td>Kip + friet</td><td>Ninja FlexDrawer (2 zones)</td><td>25 min</td><td>0,18 EUR</td><td>~8 EUR</td><td>-40% vs gewone oven</td></tr>
-<tr><td>Kip + groenten</td><td>Ninja Max Dual Zone</td><td>22 min</td><td>0,16 EUR</td><td>~9 EUR</td><td>-35%</td></tr>
-<tr><td>Hele geroosterde kip</td><td>Philips Combi XXL (Combi)</td><td>30 min</td><td>0,14 EUR</td><td>~10 EUR</td><td>-50% (tijd gehalveerd)</td></tr>
-<tr><td>Alleen friet (1,5 kg)</td><td>Ninja FlexDrawer FlexZone</td><td>18 min</td><td>0,12 EUR</td><td>~3 EUR</td><td>-60% vs traditionele friteuse</td></tr>
-<tr><td>Pizza bezorging (vergelijking)</td><td>-</td><td>30-45 min</td><td>-</td><td>~35-50 EUR</td><td>Vergelijkingsbasis</td></tr>
-</tbody>
-</table>
-<p>Als je 5 avonden per week kookt met een XXL airfryer, bespaart een gezin van 6 gemiddeld <strong>150-200 EUR per maand</strong> vergeleken met bezorging of kant-en-klaarmaaltijden. Het apparaat betaalt zichzelf terug binnen 1-2 maanden regelmatig gebruik.</p>
-
-<h2>Langetermijninvestering: wat je moet weten voor je een XXL koopt</h2>
-<ul>
-<li><strong>Duurzaamheid:</strong> een kwalitatieve XXL airfryer gaat 5-8 jaar mee bij regelmatig onderhoud. De jaarlijkse kosten komen neer op 25-70 EUR/jaar afhankelijk van het model, minder dan een streamingabonnement.</li>
-<li><strong>Vervangingsonderdelen:</strong> manden en roosters zijn vaak beschikbaar als vervangingsonderdelen bij Ninja en Philips (15-40 EUR). Cecotec en Tefal hebben minder reserveonderdelen beschikbaar.</li>
-<li><strong>Garantie:</strong> Ninja en Philips bieden 2 jaar garantie, uitbreidbaar tot 3 jaar met registratie. Cecotec en Tefal bieden ook 2 jaar.</li>
-<li><strong>Restwaarde:</strong> Ninja en Philips modellen behouden een goede restwaarde (50-80% van de aankoopprijs na 2 jaar op tweedehands platforms).</li>
-<li><strong>Jaarlijks stroomverbruik:</strong> bij 5 gebruiken per week van 25 minuten verbruikt een airfryer van 2000W circa <strong>215 kWh/jaar</strong>, ongeveer 40 EUR/jaar aan stroom. Een gewone oven zou 2-3 keer zoveel verbruiken voor hetzelfde resultaat.</li>
-</ul>`,
+<p>Voor de meeste grote gezinnen is de <strong>Ninja Foodi FlexDrawer 10.4L Dubbele Zone</strong> in 2026 de beste XXL-airfryer: als enige in deze selectie schakelt hij tussen twee onafhankelijke zones en één grote lade van 10,4 liter. Heb je weinig breedte, dan biedt de <strong>Ninja Double Stack XL van 9,5 liter</strong> twee onafhankelijke lades op een heel klein oppervlak. En bereid je vooral rollades en gevogelte en regel je het koken graag via je telefoon, dan is de <strong>Philips Airfryer Combi XXL Connected van 8,3 liter</strong> met ingebouwde kerntemperatuurmeter de meest comfortabele keuze. De Ninja Foodi MAX Dual Zone blijft een veilige keuze, en de Tefal Dual Easy Fry een betaalbaarder alternatief voor 4 tot 5 personen.</p>
+<p>Wil je deze modellen vergelijken met een gewone oven, lees dan onze <a href="/nl/guides/airfryer-vs-four">gids airfryer of oven</a>.</p>`,
   },
   faq: [
     {
       question: {
-        fr: 'Quelle capacite minimale faut-il pour une famille de 6 personnes ?',
-        en: 'What is the minimum capacity needed for a family of 6?',
-        de: 'Welche Mindestkapazitaet braucht man fuer eine 6-koepfige Familie?',
-        es: 'Cual es la capacidad minima necesaria para una familia de 6 personas?',
-        it: 'Qual e la capacita minima necessaria per una famiglia di 6 persone?',
-        nl: 'Welke minimale capaciteit heb je nodig voor een gezin van 6 personen?',
+        fr: 'Quelle capacité d’airfryer faut-il pour une famille de 6 personnes ?',
+        en: 'What air fryer capacity do you need for a family of 6?',
+        de: 'Welche Kapazität braucht eine Heißluftfritteuse für eine 6-köpfige Familie?',
+        es: '¿Qué capacidad de freidora de aire necesita una familia de 6 personas?',
+        it: 'Che capacità di friggitrice ad aria serve per una famiglia di 6 persone?',
+        nl: 'Welke inhoud heeft een airfryer nodig voor een gezin van 6 personen?',
       },
       answer: {
-        fr: 'Pour 6 personnes, nous recommandons au minimum 7 a 8 litres de capacite utile reelle. Attention : la capacite utile est 15 a 25% inferieure a la capacite annoncee. Seul le Ninja FlexDrawer (8,5L utiles) permet de tout preparer en une seule fournee. Les autres modeles XXL necessiteront deux fournees pour les grandes quantites.',
-        en: 'For 6 people, we recommend at least 7-8 litres of real usable capacity. Note that usable capacity is 15-25% less than the stated figure. Only the Ninja FlexDrawer (8.5L usable) can prepare everything in a single batch. Other XXL models will need two batches for large quantities.',
-        de: 'Fuer 6 Personen empfehlen wir mindestens 7-8 Liter reale Nutzkapazitaet. Achtung: Die Nutzkapazitaet liegt 15-25% unter der Herstellerangabe. Nur der Ninja FlexDrawer (8,5L nutzbar) kann alles in einer Ladung zubereiten. Andere XXL-Modelle benoetigen zwei Ladungen fuer grosse Mengen.',
-        es: 'Para 6 personas recomendamos un minimo de 7-8 litros de capacidad util real. Atencion: la capacidad util es un 15-25% inferior a la anunciada. Solo el Ninja FlexDrawer (8,5L utiles) permite preparar todo en una sola tanda. Los demas modelos XXL necesitaran dos tandas para grandes cantidades.',
-        it: 'Per 6 persone consigliamo almeno 7-8 litri di capacita utile reale. Attenzione: la capacita utile e del 15-25% inferiore a quella dichiarata. Solo il Ninja FlexDrawer (8,5L utili) permette di preparare tutto in una sola volta. Gli altri modelli XXL necessiteranno due carichi per grandi quantita.',
-        nl: 'Voor 6 personen raden we minimaal 7-8 liter werkelijke bruikbare capaciteit aan. Let op: de bruikbare capaciteit is 15-25% lager dan opgegeven. Alleen de Ninja FlexDrawer (8,5L bruikbaar) kan alles in een keer bereiden. Andere XXL-modellen hebben twee ladingen nodig voor grote hoeveelheden.',
+        fr: 'Visez 8 à 10 litres, idéalement répartis en deux zones indépendantes pour cuire le plat et l’accompagnement ensemble. Un modèle d’environ 10 litres comme le Ninja FlexDrawer laisse de la marge pour les grosses pièces.',
+        en: 'Aim for 8 to 10 litres, ideally split into two independent zones so you can cook the main and the side together. A model of around 10 litres such as the Ninja FlexDrawer leaves room for large cuts.',
+        de: 'Peilen Sie 8 bis 10 Liter an, idealerweise auf zwei unabhängige Zonen verteilt, damit Hauptgericht und Beilage gleichzeitig garen. Ein Modell um 10 Liter wie der Ninja FlexDrawer bietet Spielraum für große Stücke.',
+        es: 'Apunta a 8-10 litros, idealmente repartidos en dos zonas independientes para cocinar a la vez el plato y la guarnición. Un modelo de unos 10 litros como la Ninja FlexDrawer deja margen para piezas grandes.',
+        it: 'Punta a 8-10 litri, idealmente divisi in due zone indipendenti per cuocere insieme piatto e contorno. Un modello da circa 10 litri come la Ninja FlexDrawer lascia margine per i pezzi grandi.',
+        nl: 'Mik op 8 tot 10 liter, het liefst verdeeld over twee onafhankelijke zones zodat hoofd- en bijgerecht tegelijk klaar zijn. Een model van rond de 10 liter zoals de Ninja FlexDrawer biedt ruimte voor grote stukken.',
       },
     },
     {
       question: {
-        fr: 'Combien d\'espace faut-il sur le plan de travail pour un airfryer XXL ?',
-        en: 'How much counter space does an XXL air fryer need?',
-        de: 'Wie viel Arbeitsflaeche braucht eine XXL-Heissluftfritteuse?',
-        es: 'Cuanto espacio de encimera necesita una freidora XXL?',
-        it: 'Quanto spazio sul piano di lavoro serve per una friggitrice XXL?',
-        nl: 'Hoeveel werkbladruimte heeft een XXL airfryer nodig?',
+        fr: 'Vaut-il mieux un grand panier unique ou deux tiroirs ?',
+        en: 'Is one large basket or two drawers better?',
+        de: 'Ist ein großer Einzelkorb oder sind zwei Schubladen besser?',
+        es: '¿Es mejor una cesta grande o dos cajones?',
+        it: 'Meglio un grande cestello unico o due cassetti?',
+        nl: 'Is één grote mand of zijn twee lades beter?',
       },
       answer: {
-        fr: 'Prevoyez au minimum 50x45 cm sur votre plan de travail, incluant l\'espace de ventilation. Les modeles XXL mesurent 38 a 42 cm de large et 31 a 37 cm de profondeur. En hauteur, prevoyez 40 cm pour ouvrir les tiroirs confortablement. Laissez 10 cm d\'espace derriere pour l\'evacuation de l\'air chaud. Pesant 6,5 a 8,5 kg, un emplacement permanent est conseille.',
-        en: 'Plan for at least 50x45 cm of counter space, including ventilation clearance. XXL models measure 38-42 cm wide and 31-37 cm deep. Allow 40 cm height to open drawers comfortably. Leave 10 cm behind the unit for hot air exhaust. At 6.5-8.5 kg, a permanent placement is recommended.',
-        de: 'Planen Sie mindestens 50x45 cm Arbeitsflaeche ein, einschliesslich Belueftung. XXL-Modelle messen 38-42 cm Breite und 31-37 cm Tiefe. Fuer komfortables Oeffnen der Schubladen brauchen Sie 40 cm Hoehe. Lassen Sie 10 cm hinten frei fuer die Abluft. Bei 6,5-8,5 kg ist ein fester Stellplatz ratsam.',
-        es: 'Prevea al menos 50x45 cm de encimera incluyendo ventilacion. Los modelos XXL miden 38-42 cm de ancho y 31-37 cm de fondo. Reserve 40 cm de alto para abrir los cajones comodamente. Deje 10 cm detras para la salida de aire caliente. Con 6,5-8,5 kg de peso, se recomienda una ubicacion permanente.',
-        it: 'Prevedete almeno 50x45 cm sul piano di lavoro, inclusa la ventilazione. I modelli XXL misurano 38-42 cm di larghezza e 31-37 cm di profondita. Lasciate 40 cm di altezza per aprire i cassetti comodamente. Lasciate 10 cm dietro per lo scarico dell\'aria calda. Con 6,5-8,5 kg, e consigliata una posizione fissa.',
-        nl: 'Reken op minimaal 50x45 cm werkblad, inclusief ventilatie. XXL-modellen meten 38-42 cm breed en 31-37 cm diep. Reken op 40 cm hoogte om de laden comfortabel te openen. Laat 10 cm ruimte achter voor de afvoer van hete lucht. Met 6,5-8,5 kg is een vaste plek aan te raden.',
+        fr: 'Deux tiroirs conviennent mieux aux repas complets du quotidien (plat et accompagnement en même temps). Un grand panier unique est préférable pour les volailles entières et les rôtis. Le Ninja FlexDrawer offre les deux grâce à sa cloison amovible.',
+        en: 'Two drawers suit everyday full meals better (main and side at the same time). One large basket is better for whole poultry and roasts. The Ninja FlexDrawer offers both thanks to its removable divider.',
+        de: 'Zwei Schubladen eignen sich besser für komplette Alltagsmahlzeiten (Hauptgericht und Beilage gleichzeitig). Ein großer Einzelkorb ist besser für ganzes Geflügel und Braten. Der Ninja FlexDrawer bietet dank herausnehmbarer Trennwand beides.',
+        es: 'Dos cajones van mejor para los menús completos del día a día (plato y guarnición a la vez). Una cesta grande es preferible para aves enteras y asados. La Ninja FlexDrawer ofrece ambas opciones gracias a su separador extraíble.',
+        it: 'Due cassetti sono più adatti ai pasti completi di tutti i giorni (piatto e contorno insieme). Un grande cestello unico è preferibile per pollame intero e arrosti. La Ninja FlexDrawer offre entrambe le soluzioni grazie al divisorio rimovibile.',
+        nl: 'Twee lades zijn handiger voor complete dagelijkse maaltijden (hoofd- en bijgerecht tegelijk). Eén grote mand is beter voor hele kippen en rollades. De Ninja FlexDrawer biedt beide dankzij zijn uitneembare scheidingswand.',
       },
     },
     {
       question: {
-        fr: 'Un airfryer XXL consomme-t-il beaucoup d\'electricite ?',
-        en: 'Does an XXL air fryer consume a lot of electricity?',
-        de: 'Verbraucht eine XXL-Heissluftfritteuse viel Strom?',
-        es: 'Consume mucha electricidad una freidora XXL?',
-        it: 'Una friggitrice XXL consuma molta elettricita?',
-        nl: 'Verbruikt een XXL airfryer veel stroom?',
+        fr: 'Quel airfryer XXL choisir pour une petite cuisine ?',
+        en: 'Which XXL air fryer suits a small kitchen?',
+        de: 'Welche XXL-Heißluftfritteuse passt in eine kleine Küche?',
+        es: '¿Qué freidora de aire XXL elegir para una cocina pequeña?',
+        it: 'Quale friggitrice ad aria XXL scegliere per una cucina piccola?',
+        nl: 'Welke XXL-airfryer past in een kleine keuken?',
       },
       answer: {
-        fr: 'Les modeles XXL consomment 1830 a 2470W, soit plus qu\'un airfryer standard. Cependant, grace au double panier et aux grandes capacites, vous cuisez tout en une seule session au lieu de deux ou trois, ce qui compense largement. Un repas complet pour 6 personnes coute environ 0,15 a 0,20 EUR en electricite, moins qu\'un four classique.',
-        en: 'XXL models draw 1830-2470W, more than a standard air fryer. However, thanks to dual baskets and large capacity, you cook everything in one session instead of two or three, which more than compensates. A complete meal for 6 people costs roughly 0.15-0.20 EUR in electricity, less than a conventional oven.',
-        de: 'XXL-Modelle verbrauchen 1830-2470W, mehr als ein Standard-Airfryer. Dank Doppelkorb und grosser Kapazitaet kochen Sie aber alles in einer Sitzung statt zwei oder drei, was dies mehr als ausgleicht. Eine komplette Mahlzeit fuer 6 Personen kostet etwa 0,15-0,20 EUR an Strom, weniger als ein herkoemmlicher Backofen.',
-        es: 'Los modelos XXL consumen 1830-2470W, mas que una freidora estandar. Sin embargo, gracias a la doble cesta y gran capacidad, cocinas todo en una sola sesion en vez de dos o tres, lo que compensa con creces. Una comida completa para 6 personas cuesta unos 0,15-0,20 EUR en electricidad, menos que un horno convencional.',
-        it: 'I modelli XXL consumano 1830-2470W, piu di una friggitrice standard. Tuttavia, grazie al doppio cestello e alla grande capacita, si cucina tutto in una sessione invece di due o tre, compensando ampiamente. Un pasto completo per 6 persone costa circa 0,15-0,20 EUR di elettricita, meno di un forno tradizionale.',
-        nl: 'XXL-modellen verbruiken 1830-2470W, meer dan een standaard airfryer. Maar dankzij dubbele mand en grote capaciteit kook je alles in een sessie in plaats van twee of drie, wat ruimschoots compenseert. Een complete maaltijd voor 6 personen kost ongeveer 0,15-0,20 EUR aan stroom, minder dan een gewone oven.',
+        fr: 'Le Ninja Double Stack XL superpose ses deux tiroirs de 4,75 litres : il ne mesure qu’environ 28 cm de large pour 9,5 litres au total. Vérifiez seulement la hauteur disponible sous vos meubles hauts.',
+        en: 'The Ninja Double Stack XL stacks its two 4.75-litre drawers: it is only about 28 cm wide for 9.5 litres in total. Just check the height available under your wall cabinets.',
+        de: 'Die Ninja Double Stack XL stapelt ihre zwei 4,75-Liter-Schubladen: Sie ist nur etwa 28 cm breit bei insgesamt 9,5 Litern. Prüfen Sie lediglich die verfügbare Höhe unter Ihren Hängeschränken.',
+        es: 'La Ninja Double Stack XL apila sus dos cajones de 4,75 litros: mide solo unos 28 cm de ancho para 9,5 litros en total. Comprueba únicamente la altura disponible bajo los muebles altos.',
+        it: 'La Ninja Double Stack XL impila i suoi due cassetti da 4,75 litri: è larga solo circa 28 cm per 9,5 litri totali. Verifica solo l’altezza disponibile sotto i pensili.',
+        nl: 'De Ninja Double Stack XL stapelt zijn twee lades van 4,75 liter: hij is maar ongeveer 28 cm breed voor 9,5 liter in totaal. Controleer alleen de beschikbare hoogte onder je bovenkastjes.',
       },
     },
     {
       question: {
-        fr: 'Faut-il prechauffer un airfryer XXL ?',
-        en: 'Do you need to preheat an XXL air fryer?',
-        de: 'Muss man eine XXL-Heissluftfritteuse vorheizen?',
-        es: 'Hay que precalentar una freidora XXL?',
-        it: 'Bisogna preriscaldare una friggitrice XXL?',
-        nl: 'Moet je een XXL airfryer voorverwarmen?',
+        fr: 'Un airfryer XXL consomme-t-il beaucoup d’électricité ?',
+        en: 'Does an XXL air fryer use a lot of electricity?',
+        de: 'Verbraucht eine XXL-Heißluftfritteuse viel Strom?',
+        es: '¿Una freidora de aire XXL consume mucha electricidad?',
+        it: 'Una friggitrice ad aria XXL consuma molta elettricità?',
+        nl: 'Verbruikt een XXL-airfryer veel stroom?',
       },
       answer: {
-        fr: 'Le prechauffage de 3 a 5 minutes est recommande pour les modeles XXL, surtout pour les frites et les viandes. Les grands volumes d\'air necessitent un peu plus de temps pour atteindre la temperature optimale. Les modeles Ninja et Philips disposent d\'une fonction de prechauffage automatique qui signale quand l\'appareil est pret.',
-        en: 'Preheating for 3-5 minutes is recommended for XXL models, especially for fries and meats. The larger air volume needs slightly more time to reach optimal temperature. Ninja and Philips models feature automatic preheat functions that signal when the unit is ready to cook.',
-        de: 'Ein Vorheizen von 3-5 Minuten wird fuer XXL-Modelle empfohlen, besonders fuer Pommes und Fleisch. Das groessere Luftvolumen braucht etwas mehr Zeit bis zur optimalen Temperatur. Ninja und Philips haben automatische Vorheizfunktionen, die anzeigen, wann das Geraet bereit ist.',
-        es: 'Se recomienda precalentar 3-5 minutos en modelos XXL, especialmente para patatas y carnes. El mayor volumen de aire necesita algo mas de tiempo para alcanzar la temperatura optima. Los modelos Ninja y Philips tienen funcion de precalentamiento automatico que avisa cuando esta listo.',
-        it: 'Si consiglia un preriscaldamento di 3-5 minuti per i modelli XXL, soprattutto per patatine e carni. Il volume d\'aria maggiore richiede un po\' piu di tempo per raggiungere la temperatura ottimale. I modelli Ninja e Philips hanno una funzione di preriscaldamento automatico che segnala quando l\'apparecchio e pronto.',
-        nl: 'Voorverwarmen van 3-5 minuten wordt aanbevolen voor XXL-modellen, vooral voor frietjes en vlees. Het grotere luchtvolume heeft iets meer tijd nodig om de optimale temperatuur te bereiken. Ninja en Philips modellen hebben automatische voorverwarmfuncties die aangeven wanneer het apparaat klaar is.',
+        fr: 'Sa puissance est élevée (environ 2 200 à 2 700 W), mais elle chauffe un volume bien plus petit qu’un four et sans long préchauffage. Pour des portions familiales, elle reste généralement plus sobre qu’un four classique.',
+        en: 'Its power rating is high (around 2,200 to 2,700 W), but it heats a much smaller space than an oven and needs little or no preheating. For family portions it is generally more economical than a conventional oven.',
+        de: 'Die Leistung ist hoch (etwa 2.200 bis 2.700 W), doch das Gerät heizt einen viel kleineren Raum als ein Backofen und braucht kaum Vorheizzeit. Für Familienportionen ist es in der Regel sparsamer als ein klassischer Backofen.',
+        es: 'Su potencia es alta (unos 2.200 a 2.700 W), pero calienta un espacio mucho menor que un horno y apenas necesita precalentamiento. Para raciones familiares suele ser más eficiente que un horno convencional.',
+        it: 'La potenza è elevata (circa 2.200-2.700 W), ma riscalda uno spazio molto più piccolo di un forno e richiede poco o nessun preriscaldamento. Per porzioni familiari è in genere più efficiente di un forno tradizionale.',
+        nl: 'Het vermogen is hoog (ongeveer 2.200 tot 2.700 W), maar hij verwarmt een veel kleinere ruimte dan een oven en hoeft nauwelijks voor te verwarmen. Voor gezinsporties is hij doorgaans zuiniger dan een gewone oven.',
       },
     },
     {
       question: {
-        fr: 'Peut-on faire du batch cooking avec un airfryer XXL ?',
-        en: 'Can you do batch cooking with an XXL air fryer?',
-        de: 'Kann man mit einer XXL-Heissluftfritteuse Meal Prep machen?',
-        es: 'Se puede hacer batch cooking con una freidora XXL?',
-        it: 'Si puo fare batch cooking con una friggitrice XXL?',
-        nl: 'Kun je batch cooking doen met een XXL airfryer?',
+        fr: 'Peut-on cuire un poulet entier dans un airfryer XXL ?',
+        en: 'Can you cook a whole chicken in an XXL air fryer?',
+        de: 'Kann man ein ganzes Hähnchen in einer XXL-Heißluftfritteuse garen?',
+        es: '¿Se puede cocinar un pollo entero en una freidora de aire XXL?',
+        it: 'Si può cuocere un pollo intero in una friggitrice ad aria XXL?',
+        nl: 'Kun je een hele kip bereiden in een XXL-airfryer?',
       },
       answer: {
-        fr: 'Oui, c\'est l\'un des grands atouts des airfryers XXL. Avec un double panier, vous pouvez preparer 4 a 6 portions de deux plats differents en une seule session de 20-25 minutes. Le Ninja FlexDrawer en mode FlexZone permet meme de cuire 1,5 kg de frites d\'un coup. C\'est ideal pour le meal prep de la semaine.',
-        en: 'Yes, it is one of the great strengths of XXL air fryers. With a dual basket, you can prepare 4-6 portions of two different dishes in a single 20-25 minute session. The Ninja FlexDrawer in FlexZone mode can even cook 1.5 kg of fries at once. It is ideal for weekly meal prep.',
-        de: 'Ja, das ist eine der grossen Staerken der XXL-Heissluftfritteusen. Mit dem Doppelkorb koennen Sie 4-6 Portionen zweier verschiedener Gerichte in einer einzigen 20-25-minuetigen Sitzung zubereiten. Der Ninja FlexDrawer kann im FlexZone-Modus sogar 1,5 kg Pommes auf einmal garen. Ideal fuer den Wochenvorrat.',
-        es: 'Si, es una de las grandes ventajas de las freidoras XXL. Con doble cesta puedes preparar 4-6 raciones de dos platos diferentes en una sola sesion de 20-25 minutos. El Ninja FlexDrawer en modo FlexZone permite cocinar incluso 1,5 kg de patatas de una vez. Ideal para la planificacion semanal de comidas.',
-        it: 'Si, e uno dei grandi punti di forza delle friggitrici XXL. Con il doppio cestello si possono preparare 4-6 porzioni di due piatti diversi in una singola sessione di 20-25 minuti. Il Ninja FlexDrawer in modalita FlexZone puo cuocere anche 1,5 kg di patatine alla volta. Ideale per il meal prep settimanale.',
-        nl: 'Ja, het is een van de grote voordelen van XXL-airfryers. Met een dubbele mand kun je 4-6 porties van twee verschillende gerechten bereiden in een enkele sessie van 20-25 minuten. De Ninja FlexDrawer kan in FlexZone-modus zelfs 1,5 kg friet in een keer bakken. Ideaal voor wekelijkse maaltijdvoorbereiding.',
+        fr: 'Oui. Ninja indique qu’un tiroir de 4,75 litres accueille un poulet d’environ 2 kg sur le Foodi MAX Dual Zone. Pour les plus grosses volailles, un grand espace unique comme la MegaZone du FlexDrawer ou le panier de 8,3 litres du Philips Combi XXL est plus confortable.',
+        en: 'Yes. Ninja states that a 4.75-litre drawer on the Foodi MAX Dual Zone holds a chicken of around 2 kg. For larger birds, one large space such as the FlexDrawer MegaZone or the 8.3-litre basket of the Philips Combi XXL is more comfortable.',
+        de: 'Ja. Laut Ninja fasst eine 4,75-Liter-Schublade der Foodi MAX Dual Zone ein Hähnchen von etwa 2 kg. Für größeres Geflügel ist ein großer Garraum wie die MegaZone des FlexDrawer oder der 8,3-Liter-Korb der Philips Combi XXL bequemer.',
+        es: 'Sí. Ninja indica que un cajón de 4,75 litros de la Foodi MAX Dual Zone admite un pollo de unos 2 kg. Para aves más grandes, un único espacio amplio como la MegaZone de la FlexDrawer o la cesta de 8,3 litros de la Philips Combi XXL resulta más cómodo.',
+        it: 'Sì. Ninja indica che un cassetto da 4,75 litri della Foodi MAX Dual Zone contiene un pollo di circa 2 kg. Per volatili più grandi è più comodo un grande spazio unico come la MegaZone della FlexDrawer o il cestello da 8,3 litri della Philips Combi XXL.',
+        nl: 'Ja. Volgens Ninja past er in een lade van 4,75 liter van de Foodi MAX Dual Zone een kip van ongeveer 2 kg. Voor grotere vogels is één grote ruimte zoals de MegaZone van de FlexDrawer of de mand van 8,3 liter van de Philips Combi XXL comfortabeler.',
+      },
+    },
+    {
+      question: {
+        fr: 'Faut-il une prise particulière pour un airfryer XXL ?',
+        en: 'Does an XXL air fryer need a special socket?',
+        de: 'Braucht eine XXL-Heißluftfritteuse eine spezielle Steckdose?',
+        es: '¿Necesita una freidora de aire XXL un enchufe especial?',
+        it: 'Serve una presa particolare per una friggitrice ad aria XXL?',
+        nl: 'Heeft een XXL-airfryer een speciaal stopcontact nodig?',
+      },
+      answer: {
+        fr: 'Non, une prise murale standard avec terre suffit. En revanche, évitez les rallonges et multiprises, et ne faites pas tourner l’airfryer sur le même circuit qu’un autre gros appareil si votre installation disjoncte facilement.',
+        en: 'No, a standard earthed wall socket is enough. Avoid extension leads and multi-plug adapters, though, and do not run the air fryer on the same circuit as another high-power appliance if your installation trips easily.',
+        de: 'Nein, eine normale geerdete Wandsteckdose genügt. Vermeiden Sie aber Verlängerungskabel und Mehrfachstecker und betreiben Sie die Fritteuse nicht am selben Stromkreis wie ein anderes leistungsstarkes Gerät, wenn die Sicherung leicht auslöst.',
+        es: 'No, basta con un enchufe de pared estándar con toma de tierra. Eso sí, evita alargadores y regletas, y no uses la freidora en el mismo circuito que otro aparato potente si tu instalación salta con facilidad.',
+        it: 'No, basta una normale presa a muro con messa a terra. Evita però prolunghe e ciabatte e non usare la friggitrice sullo stesso circuito di un altro apparecchio potente se il tuo impianto scatta facilmente.',
+        nl: 'Nee, een gewoon geaard wandstopcontact volstaat. Vermijd wel verlengsnoeren en stekkerdozen, en gebruik de airfryer niet op dezelfde groep als een ander zwaar apparaat als je stoppen snel doorslaan.',
       },
     },
   ],

@@ -6,7 +6,7 @@ export const article: BlogArticle = {
   pillar: 'guides/airfryers',
   relatedSlugs: ['entretien-nettoyage-airfryer', 'erreurs-courantes-airfryer', 'meilleur-airfryer-petit-budget'],
   datePublished: '2026-04-19',
-  dateModified: '2026-04-20',
+  dateModified: '2026-10-09',
   readingTime: 9,
   images: [
     {
@@ -82,6 +82,7 @@ export const article: BlogArticle = {
 <ul>
 <li><strong>Korb leer lassen</strong> – keine Lebensmittel hineingeben.</li>
 <li><strong>Temperatur auf 200 °C einstellen</strong> und das Gerät <strong>15 bis 20 Minuten</strong> laufen lassen.</li>
+<li><strong>Bedienungsanleitung beachten:</strong> Gibt der Hersteller für den ersten Leerlauf eine andere Dauer oder Temperatur an, hat diese Vorrang.</li>
 <li><strong>Fenster öffnen</strong> oder die Dunstabzugshaube einschalten, da während dieser Phase Geruch entsteht.</li>
 <li><strong>Abkühlen lassen</strong> und den Korb anschließend noch einmal kurz abspülen.</li>
 <li>Bei Bedarf den Vorgang <strong>ein zweites Mal wiederholen</strong>, falls der Geruch noch deutlich wahrnehmbar ist.</li>
@@ -91,7 +92,7 @@ export const article: BlogArticle = {
 <p>Hält sich ein leichter Restgeruch, helfen einfache Hausmittel:</p>
 <ul>
 <li><strong>Zitrone:</strong> Geben Sie einige Zitronenscheiben oder etwas Zitronensaft in eine ofenfeste Form und lassen Sie das Gerät 5 bis 10 Minuten bei 180 °C laufen. Die Zitrussäure neutralisiert Gerüche.</li>
-<li><strong>Essig:</strong> Eine kleine hitzebeständige Schale mit einer Mischung aus Wasser und Weißweinessig (1:1) in den Korb stellen und kurz erhitzen. Anschließend gut auslüften lassen.</li>
+<li><strong>Essig:</strong> Eine kleine hitzebeständige Schale mit einer Mischung aus Wasser und Weißweinessig (1:1) in den Korb stellen und kurz erhitzen. Anschließend gut auslüften lassen. Nur anwenden, wenn die Bedienungsanleitung ofenfeste Formen im Korb erlaubt; füllen Sie niemals Flüssigkeit direkt in die Schublade.</li>
 <li><strong>Natron:</strong> Den ausgeschalteten, sauberen Korb über Nacht mit etwas Natron stehen lassen – es bindet Gerüche zuverlässig.</li>
 </ul>
 
@@ -105,6 +106,7 @@ export const article: BlogArticle = {
 <h2>Ist der Plastikgeruch gesundheitsschädlich?</h2>
 <p>Das ist die Frage, die sich verständlicherweise viele stellen. Die ehrliche Antwort: Ein kurzer, schwacher Geruch bei der ersten Inbetriebnahme gilt allgemein als unbedenklich und verflüchtigt sich nach wenigen Anwendungen. Wir geben hier keine medizinische Beratung – im Zweifel oder bei gesundheitlichen Beschwerden wenden Sie sich bitte an Fachpersonal. Wer empfindlich auf Gerüche reagiert, an Asthma leidet oder ein kleines Kind im Haushalt hat, kann beim Einbrennen einfach das Fenster öffnen und den Raum für die kurze Zeit verlassen.</p>
 <p>Wichtig zur Einordnung: Viele Antihaftbeschichtungen bestehen aus PTFE (oft unter dem Markennamen Teflon bekannt). Bei sachgemäßer Verwendung innerhalb der empfohlenen Temperaturen gilt PTFE nach gängiger Einschätzung als stabil. Problematisch wird es bei sehr starker Überhitzung weit über den normalen Garbereich hinaus. Der früher eingesetzte Hilfsstoff PFOA wird in modernen Geräten in der EU nicht mehr verwendet. Achten Sie deshalb darauf, die vom Hersteller angegebenen Höchsttemperaturen nicht zu überschreiten und den leeren Korb nicht unnötig lange überzuheizen.</p>
+<p>Ein zusätzlicher Vorsichtshinweis: Ziervögel reagieren sehr empfindlich auf Dämpfe überhitzter Antihaftbeschichtungen. Halten Sie Vögel während des Einbrennens und beim Betrieb des Geräts von der Küche fern.</p>
 <p>Der Begriff PFAS taucht in diesem Zusammenhang immer häufiger auf. Dabei handelt es sich um eine große Gruppe von per- und polyfluorierten Chemikalien, zu der auch PTFE zählt. Aus Vorsorgegründen entscheiden sich viele Verbraucherinnen und Verbraucher inzwischen bewusst für Geräte mit PFAS-freier Beschichtung, etwa aus Keramik, oder für Körbe aus Edelstahl. Das ist keine Pflicht, kann aber für alle interessant sein, die das Thema möglichst entspannt angehen möchten.</p>
 <p>Als praktische Faustregel gilt: Ein dezenter Geruch, der bei den ersten Anwendungen verschwindet, ist normal. Ein starker, beißender oder anhaltender Geruch ist ein Signal, das Sie nicht ignorieren sollten. Vertrauen Sie im Zweifel Ihrem Eindruck – riecht etwas nach „verschmortem“ Kunststoff statt nach einem dezenten Neugeruch, schalten Sie das Gerät lieber ab und gehen Sie der Sache nach.</p>
 
@@ -119,10 +121,10 @@ export const article: BlogArticle = {
 <tr><td>Geruch verschwindet nach einigen Anwendungen</td><td>Normal</td><td>Keine weiteren Maßnahmen nötig</td></tr>
 <tr><td>Starker Geruch auch nach 5 bis 6 Anwendungen</td><td>Auffällig</td><td>Hersteller bzw. Kundendienst kontaktieren</td></tr>
 <tr><td>Beißender, stechender oder „verschmorter“ Geruch</td><td>Warnzeichen</td><td>Sofort ausschalten, Stecker ziehen</td></tr>
-<tr><td>Geruch zusammen mit Rauch oder sichtbarem Schaden</td><td>Gefahr</td><td>Gerät nicht weiter nutzen, SAV kontaktieren</td></tr>
+<tr><td>Geruch zusammen mit Rauch oder sichtbarem Schaden</td><td>Gefahr</td><td>Gerät nicht weiter nutzen, Kundendienst kontaktieren</td></tr>
 </tbody>
 </table>
-<p>Bleibt der Plastikgeruch auch nach mehreren ordnungsgemäßen Anwendungen und nach dem Einbrennen deutlich bestehen, deutet das auf minderwertige Materialien oder einen Defekt hin. In diesem Fall sollten Sie das Gerät nicht weiter verwenden und sich an den Kundendienst (SAV) oder den Händler wenden – innerhalb der Gewährleistung haben Sie in der Regel Anspruch auf Umtausch oder Erstattung. Bei beißendem Geruch, möglicher Überhitzung oder Rauchentwicklung ziehen Sie aus Sicherheitsgründen sofort den Netzstecker.</p>
+<p>Bleibt der Plastikgeruch auch nach mehreren ordnungsgemäßen Anwendungen und nach dem Einbrennen deutlich bestehen, deutet das auf minderwertige Materialien oder einen Defekt hin. In diesem Fall sollten Sie das Gerät nicht weiter verwenden und sich an den Kundendienst oder den Händler wenden – innerhalb der Gewährleistung haben Sie in der Regel Anspruch auf Umtausch oder Erstattung. Bei beißendem Geruch, möglicher Überhitzung oder Rauchentwicklung ziehen Sie aus Sicherheitsgründen sofort den Netzstecker.</p>
 
 <h2>Plastikgeruch vorbeugen: so vermeiden Sie das Problem</h2>
 <p>Damit eine neue Heißluftfritteuse gar nicht erst stört, helfen ein paar einfache Gewohnheiten:</p>
@@ -156,13 +158,12 @@ export const article: BlogArticle = {
 <p>Wenn Ihre Heißluftfritteuse nach Plastik riecht, ist das bei der ersten Inbetriebnahme fast immer normal und harmlos. Reinigen Sie das Gerät, brennen Sie es 15 bis 20 Minuten leer bei 200 °C ein, sorgen Sie für gute Belüftung und setzen Sie bei Bedarf Zitrone oder Essig ein – in den meisten Fällen ist der Geruch danach verschwunden. Bleibt er stark und anhaltend oder wird er beißend, sollten Sie das Gerät nicht weiter nutzen und den Kundendienst kontaktieren. Mit der richtigen ersten Inbetriebnahme und einem hochwertigen, möglichst PFAS-freien Modell genießen Sie schon bald geruchsfreie, knusprige Ergebnisse.</p>
 <p>Zusammengefasst gilt: Geben Sie Ihrem neuen Gerät die Chance, sich „freizubrennen“, beobachten Sie die ersten Anwendungen aufmerksam und vertrauen Sie auf Ihr Gefühl, wenn etwas nicht stimmt. So treffen Sie die richtige Entscheidung zwischen „völlig normal“ und „besser zurückgeben“ – und holen das Beste aus Ihrer Heißluftfritteuse heraus, ganz ohne lästigen Plastikgeruch.</p>
 
-<h2>Verfügbarkeit & Preise im deutschsprachigen Raum</h2>
-<p>Hochwertige, geruchsarme Heißluftfritteusen sind im deutschsprachigen Raum überall erhältlich – bei Amazon.de mit schneller Lieferung sowie im Fachhandel in Deutschland, Österreich und der Schweiz. Wer Plastikgeruch von vornherein vermeiden möchte, greift zu Modellen mit Keramik- oder Edelstahlkorb; diese liegen preislich meist etwas höher. Beim Kauf in der EU gilt die gesetzliche Gewährleistung von zwei Jahren, sodass Sie ein Gerät mit auffälligem Dauergeruch problemlos reklamieren können.</p>
+<h2>Verfügbarkeit & Gewährleistung im deutschsprachigen Raum</h2>
+<p>Heißluftfritteusen mit Keramikbeschichtung oder Edelstahlkorb sind im deutschsprachigen Raum gut erhältlich – bei Amazon.de sowie im Fachhandel in Deutschland, Österreich und der Schweiz. Beim Kauf bei einem Händler in Deutschland oder Österreich gilt die gesetzliche Gewährleistung von zwei Jahren, sodass Sie ein Gerät mit auffälligem Dauergeruch reklamieren können; in der Schweiz gelten eigene Regeln, prüfen Sie dort die Garantiebedingungen des Händlers.</p>
 <ul>
-<li><strong>Verfügbarkeit:</strong> Bei Amazon.de meist sofort lieferbar; ebenso bei MediaMarkt, Saturn oder Otto und über die jeweiligen Landesshops in Österreich und der Schweiz.</li>
-<li><strong>Preisspanne:</strong> einfache Modelle ab rund 50 €, hochwertige Geräte mit Keramik- oder Edelstahlbeschichtung etwa 90–130 €, Premium-Varianten bis rund 150 €.</li>
-<li><strong>Garantie:</strong> 2 Jahre gesetzliche Gewährleistung in Deutschland, Österreich und der Schweiz – ein Rückgabe- oder Umtauschrecht bei anhaltend starkem Geruch ist damit abgesichert.</li>
-<li><strong>Worauf deutsche Käufer achten:</strong> möglichst PFAS-freie Beschichtung, verarbeitungsfreundliche Materialien, geringe Geruchsbildung und gute Testergebnisse – der Blick auf Stiftung Warentest ist hierzulande fast schon Reflex.</li>
+<li><strong>Verfügbarkeit:</strong> bei Amazon.de sowie bei MediaMarkt, Saturn oder Otto und über die jeweiligen Landesshops in Österreich und der Schweiz.</li>
+<li><strong>Gewährleistung:</strong> Bewahren Sie Kaufbeleg und Verpackung in den ersten Wochen auf, damit eine Rückgabe oder ein Umtausch bei anhaltend starkem Geruch unkompliziert bleibt.</li>
+<li><strong>Worauf Sie beim Kauf achten können:</strong> Angaben des Herstellers zur Beschichtung (PTFE, Keramik oder Edelstahl), temperaturbeständige Materialien und Erfahrungsberichte anderer Käuferinnen und Käufer zum Geruch bei den ersten Anwendungen.</li>
 </ul>`,
 
     fr: `<h2>Airfryer qui sent le plastique : pas de panique à la première utilisation</h2>
@@ -202,6 +203,7 @@ export const article: BlogArticle = {
 <ul>
 <li><strong>Laissez le panier vide</strong>, sans aliments.</li>
 <li><strong>Réglez sur 200 °C</strong> et faites tourner l\'appareil pendant <strong>15 à 20 minutes</strong>.</li>
+<li><strong>Suivez la notice :</strong> si le fabricant indique une autre durée ou température pour le premier passage à vide, c\'est elle qui prime.</li>
 <li><strong>Ouvrez une fenêtre</strong> ou allumez la hotte, car de l\'odeur se dégage durant cette phase.</li>
 <li><strong>Laissez refroidir</strong>, puis rincez de nouveau brièvement le panier.</li>
 <li>Si l\'odeur reste perceptible, <strong>recommencez l\'opération une deuxième fois</strong>.</li>
@@ -211,7 +213,7 @@ export const article: BlogArticle = {
 <p>Si une légère odeur résiduelle persiste, des astuces simples aident :</p>
 <ul>
 <li><strong>Citron :</strong> placez quelques rondelles ou un peu de jus de citron dans un récipient adapté et faites tourner 5 à 10 minutes à 180 °C. L\'acidité neutralise les odeurs.</li>
-<li><strong>Vinaigre :</strong> mettez un petit bol résistant à la chaleur rempli d\'un mélange eau et vinaigre blanc (1:1) dans le panier, chauffez brièvement, puis aérez bien.</li>
+<li><strong>Vinaigre :</strong> mettez un petit bol résistant à la chaleur rempli d\'un mélange eau et vinaigre blanc (1:1) dans le panier, chauffez brièvement, puis aérez bien. À faire uniquement si la notice autorise un récipient dans le panier ; ne versez jamais de liquide directement dans le tiroir.</li>
 <li><strong>Bicarbonate :</strong> laissez le panier propre et éteint avec un peu de bicarbonate toute une nuit, il capte efficacement les odeurs.</li>
 </ul>
 
@@ -225,6 +227,7 @@ export const article: BlogArticle = {
 <h2>L\'odeur de plastique est-elle dangereuse pour la santé ?</h2>
 <p>C\'est la question que beaucoup se posent. La réponse honnête : une odeur brève et faible lors de la première mise en service est généralement considérée comme sans danger et se dissipe après quelques utilisations. Nous ne donnons pas de conseil médical ici ; en cas de doute ou de gêne, adressez-vous à un professionnel de santé.</p>
 <p>Pour bien comprendre : de nombreux revêtements antiadhésifs sont en PTFE (souvent connu sous le nom de Téflon). Utilisé correctement dans les températures recommandées, le PTFE est considéré comme stable. Le problème survient en cas de très forte surchauffe bien au-delà de la plage de cuisson normale. L\'auxiliaire PFOA, utilisé autrefois, n\'est plus employé dans les appareils modernes vendus dans l\'UE. Veillez donc à ne pas dépasser les températures maximales indiquées et à ne pas faire chauffer le panier vide trop longtemps.</p>
+<p>Précaution supplémentaire : les oiseaux de compagnie sont très sensibles aux fumées des revêtements antiadhésifs surchauffés. Tenez-les éloignés de la cuisine pendant le passage à vide et l\'utilisation de l\'appareil.</p>
 <p>En règle pratique : une odeur discrète qui disparaît aux premières utilisations est normale. Une odeur forte, âcre ou persistante est un signal à ne pas ignorer.</p>
 
 <h2>Quand faut-il s\'inquiéter ?</h2>
@@ -253,11 +256,11 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Modèles réputés sans odeur et sans PFAS</h2>
-<p>Pour limiter d\'emblée les odeurs et privilégier des matériaux sains, surveillez le revêtement. De plus en plus de fabricants proposent des revêtements <strong>sans PFAS</strong>, par exemple en céramique, ou des paniers en inox. Ces matériaux dégagent moins d\'odeur chimique à la première chauffe.</p>
+<p>Pour limiter d\'emblée les odeurs et choisir des matériaux adaptés, surveillez le revêtement. De plus en plus de fabricants proposent des revêtements <strong>sans PFAS</strong>, par exemple en céramique, ou des paniers en inox. Ces matériaux dégagent moins d\'odeur chimique à la première chauffe.</p>
 <ul>
 <li><strong>Revêtement céramique :</strong> sans PTFE/PFAS, souvent moins odorant au rodage.</li>
 <li><strong>Panier en inox :</strong> robuste, durable et sans revêtement susceptible de dégazer.</li>
-<li><strong>Qualité de marque :</strong> les appareils de meilleure facture utilisent un plastique plus sain qui sent moins et moins longtemps.</li>
+<li><strong>Qualité de marque :</strong> les appareils de meilleure facture utilisent un plastique plus résistant à la chaleur qui sent moins et moins longtemps.</li>
 </ul>
 <p>Pour un modèle peu odorant au bon rapport qualité-prix, consultez notre <a href="/fr/blog/meilleur-airfryer-petit-budget">comparatif des meilleurs airfryers petit budget</a>.</p>
 
@@ -301,6 +304,7 @@ export const article: BlogArticle = {
 <ul>
 <li><strong>Leave the basket empty</strong>, with no food inside.</li>
 <li><strong>Set it to 200°C</strong> and run the appliance for <strong>15 to 20 minutes</strong>.</li>
+<li><strong>Follow your manual:</strong> if the manufacturer gives a different time or temperature for the first empty run, use theirs.</li>
 <li><strong>Open a window</strong> or turn on the extractor hood, as odour is released during this phase.</li>
 <li><strong>Let it cool</strong>, then briefly rinse the basket again.</li>
 <li>If the smell is still noticeable, <strong>repeat the process a second time</strong>.</li>
@@ -310,7 +314,7 @@ export const article: BlogArticle = {
 <p>If a slight residual smell remains, simple tricks help:</p>
 <ul>
 <li><strong>Lemon:</strong> place a few lemon slices or some lemon juice in a heatproof dish and run for 5 to 10 minutes at 180°C. The acidity neutralises odours.</li>
-<li><strong>Vinegar:</strong> put a small heat-resistant bowl with a 1:1 water and white vinegar mix in the basket, heat briefly, then air it out well.</li>
+<li><strong>Vinegar:</strong> put a small heat-resistant bowl with a 1:1 water and white vinegar mix in the basket, heat briefly, then air it out well. Only do this if your manual allows an ovenproof dish in the basket; never pour liquid directly into the drawer.</li>
 <li><strong>Baking soda:</strong> leave the clean, switched-off basket with a little baking soda overnight; it reliably absorbs odours.</li>
 </ul>
 
@@ -324,6 +328,7 @@ export const article: BlogArticle = {
 <h2>Is the plastic smell harmful to your health?</h2>
 <p>This is the question many people ask. The honest answer: a brief, faint smell on first use is generally considered harmless and dissipates after a few uses. We do not give medical advice here; if in doubt or if you feel unwell, please consult a healthcare professional.</p>
 <p>For context: many non-stick coatings are made of PTFE (often known by the brand name Teflon). Used correctly within the recommended temperatures, PTFE is considered stable. Problems arise only with severe overheating well beyond the normal cooking range. The processing aid PFOA, used in the past, is no longer used in modern appliances sold in the EU. So be sure not to exceed the stated maximum temperatures and not to overheat the empty basket for too long.</p>
+<p>An extra precaution: pet birds are very sensitive to fumes from overheated non-stick coatings. Keep them out of the kitchen during the empty run and whenever the appliance is in use.</p>
 <p>As a practical rule: a discreet smell that disappears during the first uses is normal. A strong, acrid or persistent smell is a signal you should not ignore.</p>
 
 <h2>When should you be concerned?</h2>
@@ -352,11 +357,11 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Models known for being odour-free and PFAS-free</h2>
-<p>To limit odours from the start and favour healthier materials, watch the coating. More and more brands offer <strong>PFAS-free</strong> coatings, such as ceramic, or stainless steel baskets. These materials give off less chemical smell on first heating.</p>
+<p>To limit odours from the start and choose suitable materials, watch the coating. More and more brands offer <strong>PFAS-free</strong> coatings, such as ceramic, or stainless steel baskets. These materials give off less chemical smell on first heating.</p>
 <ul>
 <li><strong>Ceramic coating:</strong> free of PTFE/PFAS, often less smelly during break-in.</li>
 <li><strong>Stainless steel basket:</strong> sturdy, durable and with no coating that could off-gas.</li>
-<li><strong>Brand quality:</strong> better-built appliances generally use healthier plastic that smells less and for less time.</li>
+<li><strong>Brand quality:</strong> better-built appliances generally use more heat-resistant plastic that smells less and for less time.</li>
 </ul>
 <p>For a low-odour model with good value, see our <a href="/en/blog/meilleur-airfryer-petit-budget">comparison of the best budget air fryers</a>.</p>
 
@@ -400,6 +405,7 @@ export const article: BlogArticle = {
 <ul>
 <li><strong>Deja la cesta vacía</strong>, sin alimentos.</li>
 <li><strong>Ajusta a 200 °C</strong> y deja funcionar el aparato durante <strong>15 a 20 minutos</strong>.</li>
+<li><strong>Sigue el manual:</strong> si el fabricante indica otra duración o temperatura para el primer funcionamiento en vacío, esa tiene prioridad.</li>
 <li><strong>Abre una ventana</strong> o enciende la campana, ya que se desprende olor en esta fase.</li>
 <li><strong>Deja enfriar</strong> y vuelve a enjuagar brevemente la cesta.</li>
 <li>Si el olor sigue siendo perceptible, <strong>repite la operación una segunda vez</strong>.</li>
@@ -409,7 +415,7 @@ export const article: BlogArticle = {
 <p>Si queda un ligero olor residual, ayudan trucos sencillos:</p>
 <ul>
 <li><strong>Limón:</strong> coloca unas rodajas o un poco de zumo de limón en un recipiente apto y deja funcionar 5 a 10 minutos a 180 °C. La acidez neutraliza los olores.</li>
-<li><strong>Vinagre:</strong> pon un cuenco pequeño resistente al calor con mezcla de agua y vinagre blanco (1:1) en la cesta, calienta brevemente y airea bien.</li>
+<li><strong>Vinagre:</strong> pon un cuenco pequeño resistente al calor con mezcla de agua y vinagre blanco (1:1) en la cesta, calienta brevemente y airea bien. Hazlo solo si el manual permite un recipiente en la cesta; nunca viertas líquido directamente en el cajón.</li>
 <li><strong>Bicarbonato:</strong> deja la cesta limpia y apagada con un poco de bicarbonato toda la noche; absorbe los olores de forma fiable.</li>
 </ul>
 
@@ -423,6 +429,7 @@ export const article: BlogArticle = {
 <h2>¿El olor a plástico es perjudicial para la salud?</h2>
 <p>Es la pregunta que muchos se hacen. La respuesta honesta: un olor breve y leve en el primer uso se considera por lo general inofensivo y se disipa tras unos usos. Aquí no damos consejo médico; en caso de duda o malestar, acude a un profesional sanitario.</p>
 <p>Para situarlo: muchos revestimientos antiadherentes son de PTFE (conocido a menudo como Teflón). Usado correctamente dentro de las temperaturas recomendadas, el PTFE se considera estable. El problema surge con un sobrecalentamiento severo muy por encima del rango normal de cocción. El auxiliar PFOA, usado en el pasado, ya no se emplea en los aparatos modernos vendidos en la UE. Por eso, no superes las temperaturas máximas indicadas ni calientes la cesta vacía demasiado tiempo.</p>
+<p>Una precaución adicional: las aves de compañía son muy sensibles a los humos de los revestimientos antiadherentes sobrecalentados. Mantenlas fuera de la cocina durante el funcionamiento en vacío y mientras uses el aparato.</p>
 <p>Como regla práctica: un olor discreto que desaparece en los primeros usos es normal. Un olor fuerte, acre o persistente es una señal que no debes ignorar.</p>
 
 <h2>¿Cuándo hay que preocuparse?</h2>
@@ -451,11 +458,11 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Modelos con buena fama: sin olor y sin PFAS</h2>
-<p>Para limitar los olores desde el principio y priorizar materiales sanos, fíjate en el revestimiento. Cada vez más fabricantes ofrecen revestimientos <strong>sin PFAS</strong>, por ejemplo de cerámica, o cestas de acero inoxidable. Estos materiales desprenden menos olor químico al calentarse por primera vez.</p>
+<p>Para limitar los olores desde el principio y elegir materiales adecuados, fíjate en el revestimiento. Cada vez más fabricantes ofrecen revestimientos <strong>sin PFAS</strong>, por ejemplo de cerámica, o cestas de acero inoxidable. Estos materiales desprenden menos olor químico al calentarse por primera vez.</p>
 <ul>
 <li><strong>Revestimiento cerámico:</strong> sin PTFE/PFAS, a menudo menos oloroso en el rodaje.</li>
 <li><strong>Cesta de acero inoxidable:</strong> robusta, duradera y sin revestimiento que pueda desgasificarse.</li>
-<li><strong>Calidad de marca:</strong> los aparatos mejor fabricados usan plástico más sano que huele menos y durante menos tiempo.</li>
+<li><strong>Calidad de marca:</strong> los aparatos mejor fabricados usan plástico más resistente al calor que huele menos y durante menos tiempo.</li>
 </ul>
 <p>Si buscas un modelo poco oloroso con buena relación calidad-precio, consulta nuestra <a href="/es/blog/meilleur-airfryer-petit-budget">comparativa de las mejores freidoras de aire baratas</a>.</p>
 
@@ -499,6 +506,7 @@ export const article: BlogArticle = {
 <ul>
 <li><strong>Lascia il cestello vuoto</strong>, senza alimenti.</li>
 <li><strong>Imposta a 200 °C</strong> e fai funzionare l\'apparecchio per <strong>15-20 minuti</strong>.</li>
+<li><strong>Segui il manuale:</strong> se il produttore indica una durata o una temperatura diversa per il primo funzionamento a vuoto, vale quella.</li>
 <li><strong>Apri una finestra</strong> o accendi la cappa, perché in questa fase si sprigiona odore.</li>
 <li><strong>Lascia raffreddare</strong> e risciacqua di nuovo brevemente il cestello.</li>
 <li>Se l\'odore è ancora percepibile, <strong>ripeti l\'operazione una seconda volta</strong>.</li>
@@ -508,7 +516,7 @@ export const article: BlogArticle = {
 <p>Se rimane un leggero odore residuo, aiutano trucchi semplici:</p>
 <ul>
 <li><strong>Limone:</strong> metti qualche fetta o un po\' di succo di limone in un contenitore adatto e fai funzionare 5-10 minuti a 180 °C. L\'acidità neutralizza gli odori.</li>
-<li><strong>Aceto:</strong> metti una ciotolina resistente al calore con una miscela di acqua e aceto bianco (1:1) nel cestello, scalda brevemente e poi areia bene.</li>
+<li><strong>Aceto:</strong> metti una ciotolina resistente al calore con una miscela di acqua e aceto bianco (1:1) nel cestello, scalda brevemente e poi areia bene. Fallo solo se il manuale consente un contenitore nel cestello; non versare mai liquidi direttamente nel cassetto.</li>
 <li><strong>Bicarbonato:</strong> lascia il cestello pulito e spento con un po\' di bicarbonato per tutta la notte; assorbe gli odori in modo affidabile.</li>
 </ul>
 
@@ -522,6 +530,7 @@ export const article: BlogArticle = {
 <h2>L\'odore di plastica è dannoso per la salute?</h2>
 <p>È la domanda che molti si pongono. La risposta onesta: un odore breve e debole al primo utilizzo è generalmente considerato innocuo e si dissipa dopo qualche uso. Qui non diamo consigli medici; in caso di dubbio o malessere, rivolgiti a un professionista sanitario.</p>
 <p>Per inquadrare il tema: molti rivestimenti antiaderenti sono in PTFE (spesso noto come Teflon). Usato correttamente entro le temperature consigliate, il PTFE è considerato stabile. Il problema sorge in caso di forte surriscaldamento ben oltre il normale intervallo di cottura. L\'ausiliario PFOA, usato in passato, non è più impiegato negli apparecchi moderni venduti nell\'UE. Fai quindi attenzione a non superare le temperature massime indicate e a non surriscaldare il cestello vuoto troppo a lungo.</p>
+<p>Una precauzione in più: gli uccelli domestici sono molto sensibili ai fumi dei rivestimenti antiaderenti surriscaldati. Tienili lontani dalla cucina durante il funzionamento a vuoto e mentre usi l\'apparecchio.</p>
 <p>Come regola pratica: un odore discreto che scompare ai primi utilizzi è normale. Un odore forte, acre o persistente è un segnale da non ignorare.</p>
 
 <h2>Quando bisogna preoccuparsi?</h2>
@@ -550,11 +559,11 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Modelli noti per essere senza odore e senza PFAS</h2>
-<p>Per limitare gli odori fin dall\'inizio e privilegiare materiali sani, osserva il rivestimento. Sempre più produttori offrono rivestimenti <strong>senza PFAS</strong>, ad esempio in ceramica, o cestelli in acciaio inox. Questi materiali emanano meno odore chimico al primo riscaldamento.</p>
+<p>Per limitare gli odori fin dall\'inizio e scegliere materiali adatti, osserva il rivestimento. Sempre più produttori offrono rivestimenti <strong>senza PFAS</strong>, ad esempio in ceramica, o cestelli in acciaio inox. Questi materiali emanano meno odore chimico al primo riscaldamento.</p>
 <ul>
 <li><strong>Rivestimento in ceramica:</strong> privo di PTFE/PFAS, spesso meno odoroso nel rodaggio.</li>
 <li><strong>Cestello in acciaio inox:</strong> robusto, durevole e senza rivestimento che possa rilasciare gas.</li>
-<li><strong>Qualità di marca:</strong> gli apparecchi meglio costruiti usano plastica più sana che odora meno e per meno tempo.</li>
+<li><strong>Qualità di marca:</strong> gli apparecchi meglio costruiti usano plastica più resistente al calore che odora meno e per meno tempo.</li>
 </ul>
 <p>Se cerchi un modello poco odoroso con un buon rapporto qualità-prezzo, consulta il nostro <a href="/it/blog/meilleur-airfryer-petit-budget">confronto delle migliori friggitrici ad aria economiche</a>.</p>
 
@@ -598,6 +607,7 @@ export const article: BlogArticle = {
 <ul>
 <li><strong>Laat de mand leeg</strong>, zonder voedsel.</li>
 <li><strong>Zet op 200 °C</strong> en laat het apparaat <strong>15 tot 20 minuten</strong> draaien.</li>
+<li><strong>Volg de handleiding:</strong> geeft de fabrikant een andere duur of temperatuur op voor het eerste lege gebruik, dan gaat die voor.</li>
 <li><strong>Open een raam</strong> of zet de afzuigkap aan, want tijdens deze fase komt geur vrij.</li>
 <li><strong>Laat afkoelen</strong> en spoel de mand daarna nog even af.</li>
 <li>Is de geur nog merkbaar, <strong>herhaal de procedure dan een tweede keer</strong>.</li>
@@ -607,7 +617,7 @@ export const article: BlogArticle = {
 <p>Blijft er een lichte restgeur hangen, dan helpen eenvoudige trucs:</p>
 <ul>
 <li><strong>Citroen:</strong> leg een paar schijfjes of wat citroensap in een hittebestendige schaal en laat 5 tot 10 minuten op 180 °C draaien. De zuren neutraliseren geuren.</li>
-<li><strong>Azijn:</strong> zet een klein hittebestendig bakje met een mengsel van water en witte azijn (1:1) in de mand, verwarm kort en lucht daarna goed.</li>
+<li><strong>Azijn:</strong> zet een klein hittebestendig bakje met een mengsel van water en witte azijn (1:1) in de mand, verwarm kort en lucht daarna goed. Doe dit alleen als de handleiding een ovenvaste schaal in de mand toestaat; giet nooit vloeistof rechtstreeks in de lade.</li>
 <li><strong>Baking soda:</strong> laat de schone, uitgeschakelde mand een nacht met wat baking soda staan; het neemt geuren betrouwbaar op.</li>
 </ul>
 
@@ -621,6 +631,7 @@ export const article: BlogArticle = {
 <h2>Is de plasticgeur schadelijk voor de gezondheid?</h2>
 <p>Dat is de vraag die velen zich stellen. Het eerlijke antwoord: een korte, zwakke geur bij het eerste gebruik geldt over het algemeen als onschadelijk en verdwijnt na een paar keer gebruik. We geven hier geen medisch advies; bij twijfel of klachten raadpleeg je een zorgprofessional.</p>
 <p>Ter duiding: veel antiaanbaklagen zijn van PTFE (vaak bekend onder de merknaam Teflon). Bij correct gebruik binnen de aanbevolen temperaturen wordt PTFE als stabiel beschouwd. Het wordt pas problematisch bij sterke oververhitting ver boven het normale kookbereik. De hulpstof PFOA, die vroeger werd gebruikt, wordt in moderne apparaten in de EU niet meer toegepast. Let er daarom op de aangegeven maximumtemperaturen niet te overschrijden en de lege mand niet onnodig lang te oververhitten.</p>
+<p>Een extra voorzorg: siervogels zijn erg gevoelig voor dampen van oververhitte antiaanbaklagen. Houd ze uit de keuken tijdens het leeg draaien en wanneer het apparaat in gebruik is.</p>
 <p>Als praktische vuistregel: een discrete geur die bij de eerste keren verdwijnt, is normaal. Een sterke, bijtende of aanhoudende geur is een signaal dat je niet moet negeren.</p>
 
 <h2>Wanneer moet je je zorgen maken?</h2>
@@ -649,11 +660,11 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Modellen bekend om geurvrij en PFAS-vrij te zijn</h2>
-<p>Wil je geuren vanaf het begin beperken en gezonde materialen verkiezen, let dan op de coating. Steeds meer fabrikanten bieden <strong>PFAS-vrije</strong> coatings, bijvoorbeeld van keramiek, of manden van roestvrij staal. Deze materialen geven minder chemische geur af bij het eerste opwarmen.</p>
+<p>Wil je geuren vanaf het begin beperken en geschikte materialen kiezen, let dan op de coating. Steeds meer fabrikanten bieden <strong>PFAS-vrije</strong> coatings, bijvoorbeeld van keramiek, of manden van roestvrij staal. Deze materialen geven minder chemische geur af bij het eerste opwarmen.</p>
 <ul>
 <li><strong>Keramische coating:</strong> vrij van PTFE/PFAS, vaak minder geurig tijdens het inbranden.</li>
 <li><strong>Roestvrijstalen mand:</strong> stevig, duurzaam en zonder coating die kan uitgassen.</li>
-<li><strong>Merkkwaliteit:</strong> beter gebouwde apparaten gebruiken gezondere kunststof die minder en korter ruikt.</li>
+<li><strong>Merkkwaliteit:</strong> beter gebouwde apparaten gebruiken hittebestendigere kunststof die minder en korter ruikt.</li>
 </ul>
 <p>Zoek je een geurarm model met een goede prijs-kwaliteitverhouding, bekijk dan onze <a href="/nl/blog/meilleur-airfryer-petit-budget">vergelijking van de beste budget-airfryers</a>.</p>
 
@@ -744,11 +755,11 @@ export const article: BlogArticle = {
       },
       answer: {
         de: 'Geräte mit PFAS-freier Beschichtung, etwa aus Keramik, oder mit Edelstahlkorb neigen weniger zu chemischem Geruch beim ersten Aufheizen, da keine klassische PTFE-Antihaftschicht ausgast. Auch hochwertige Markengeräte verwenden in der Regel besseren Kunststoff, der weniger und kürzer riecht. Empfehlungen mit gutem Preis-Leistungs-Verhältnis finden Sie in unserem Vergleich der besten Heißluftfritteusen für kleines Budget.',
-        fr: 'Les appareils à revêtement sans PFAS, par exemple en céramique, ou à panier en inox sont moins sujets à l\'odeur chimique à la première chauffe, car aucune couche antiadhésive PTFE classique ne dégaze. Les appareils de marque de qualité utilisent aussi un plastique plus sain qui sent moins et moins longtemps. Vous trouverez des recommandations au bon rapport qualité-prix dans notre comparatif des meilleurs airfryers petit budget.',
-        en: 'Appliances with a PFAS-free coating, such as ceramic, or with a stainless steel basket are less prone to chemical smell on first heating, since there is no classic PTFE non-stick layer to off-gas. Quality brand devices also generally use healthier plastic that smells less and for less time. You will find good-value recommendations in our comparison of the best budget air fryers.',
-        es: 'Los aparatos con revestimiento sin PFAS, por ejemplo de cerámica, o con cesta de acero inoxidable son menos propensos al olor químico al calentarse por primera vez, ya que no hay una capa antiadherente de PTFE clásica que desgasifique. Los aparatos de marca de calidad también usan plástico más sano que huele menos y durante menos tiempo. Encontrarás recomendaciones con buena relación calidad-precio en nuestra comparativa de las mejores freidoras de aire baratas.',
-        it: 'Gli apparecchi con rivestimento senza PFAS, ad esempio in ceramica, o con cestello in acciaio inox sono meno soggetti all\'odore chimico al primo riscaldamento, perché non c\'è uno strato antiaderente classico in PTFE che rilascia gas. Anche gli apparecchi di marca di qualità usano plastica più sana che odora meno e per meno tempo. Trovi consigli con un buon rapporto qualità-prezzo nel nostro confronto delle migliori friggitrici ad aria economiche.',
-        nl: 'Apparaten met een PFAS-vrije coating, bijvoorbeeld van keramiek, of met een roestvrijstalen mand zijn minder gevoelig voor chemische geur bij het eerste opwarmen, omdat er geen klassieke PTFE-antiaanbaklaag is die uitgast. Kwaliteitsmerken gebruiken doorgaans ook gezondere kunststof die minder en korter ruikt. Aanbevelingen met een goede prijs-kwaliteitverhouding vind je in onze vergelijking van de beste budget-airfryers.',
+        fr: 'Les appareils à revêtement sans PFAS, par exemple en céramique, ou à panier en inox sont moins sujets à l\'odeur chimique à la première chauffe, car aucune couche antiadhésive PTFE classique ne dégaze. Les appareils de marque de qualité utilisent aussi un plastique plus résistant à la chaleur qui sent moins et moins longtemps. Vous trouverez des recommandations au bon rapport qualité-prix dans notre comparatif des meilleurs airfryers petit budget.',
+        en: 'Appliances with a PFAS-free coating, such as ceramic, or with a stainless steel basket are less prone to chemical smell on first heating, since there is no classic PTFE non-stick layer to off-gas. Quality brand devices also generally use more heat-resistant plastic that smells less and for less time. You will find good-value recommendations in our comparison of the best budget air fryers.',
+        es: 'Los aparatos con revestimiento sin PFAS, por ejemplo de cerámica, o con cesta de acero inoxidable son menos propensos al olor químico al calentarse por primera vez, ya que no hay una capa antiadherente de PTFE clásica que desgasifique. Los aparatos de marca de calidad también usan plástico más resistente al calor que huele menos y durante menos tiempo. Encontrarás recomendaciones con buena relación calidad-precio en nuestra comparativa de las mejores freidoras de aire baratas.',
+        it: 'Gli apparecchi con rivestimento senza PFAS, ad esempio in ceramica, o con cestello in acciaio inox sono meno soggetti all\'odore chimico al primo riscaldamento, perché non c\'è uno strato antiaderente classico in PTFE che rilascia gas. Anche gli apparecchi di marca di qualità usano plastica più resistente al calore che odora meno e per meno tempo. Trovi consigli con un buon rapporto qualità-prezzo nel nostro confronto delle migliori friggitrici ad aria economiche.',
+        nl: 'Apparaten met een PFAS-vrije coating, bijvoorbeeld van keramiek, of met een roestvrijstalen mand zijn minder gevoelig voor chemische geur bij het eerste opwarmen, omdat er geen klassieke PTFE-antiaanbaklaag is die uitgast. Kwaliteitsmerken gebruiken doorgaans ook hittebestendigere kunststof die minder en korter ruikt. Aanbevelingen met een goede prijs-kwaliteitverhouding vind je in onze vergelijking van de beste budget-airfryers.',
       },
     },
   ],

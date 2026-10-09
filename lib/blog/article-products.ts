@@ -16,7 +16,7 @@ const SLUG_RULES: ReadonlyArray<[RegExp, SmartKitchenCategory]> = [
   [/balance/, 'balances'],
   [/barbecue|thermometre/, 'thermometres-viande'],
   [/cafetiere/, 'cafetieres'],
-  [/multicuiseur|robot-cuiseur|cookeo/, 'multicuiseurs'],
+  [/multicuiseur/, 'multicuiseurs'],
   [/smart-plugs|prise/, 'prises-connectees'],
 ]
 
@@ -45,9 +45,18 @@ export function getArticleProducts(
 ): { source: ArticleProductSource; products: ArticleProduct[] } {
   const source = articleProductSource(article)
   if (source === null) return { source, products: [] }
-  const catalog = source === 'airfryers' ? getStaticProducts(lang) : getSmartKitchenProductsByCategory(lang, source)
-  const products = [...catalog]
-    .sort((a, b) => b.nuraScore - a.nuraScore)
+  const catalogFor = (l: string) =>
+    source === 'airfryers' ? getStaticProducts(l) : getSmartKitchenProductsByCategory(l, source)
+  const catalog = catalogFor(lang)
+  // Products the article itself cites (by French catalog title) come first,
+  // so a Cosori review shows the Cosori; best Nura scores fill the rest.
+  const asinByFrTitle = new Map(catalogFor('fr').map((p) => [p.title, p.asin]))
+  const cited = getArticleModels(article.slug)
+    .map((name) => catalog.find((p) => p.asin === asinByFrTitle.get(name)))
+    .filter((p): p is (typeof catalog)[number] => p !== undefined)
+  const byScore = [...catalog].sort((a, b) => b.nuraScore - a.nuraScore)
+  const products = [...cited, ...byScore]
+    .filter((p, i, all) => all.findIndex((q) => q.asin === p.asin) === i)
     .slice(0, MAX_PRODUCTS)
     .map(({ asin, title, price, priceNumeric, image, url, nuraScore, capacity }) => ({
       asin, title, price, priceNumeric, image, url, nuraScore, capacity,

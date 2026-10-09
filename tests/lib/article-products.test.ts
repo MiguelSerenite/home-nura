@@ -13,12 +13,16 @@ describe('articleProductSource', () => {
     expect(articleProductSource({ slug: 'balance-cuisine-connectee-comparatif', pillar: 'cuisine-connectee' })).toBe('balances')
     expect(articleProductSource({ slug: 'barbecue-connecte-thermometre-guide', pillar: 'outdoor-connecte' })).toBe('thermometres-viande')
     expect(articleProductSource({ slug: 'comparatif-smart-plugs-mesure-energie', pillar: 'energie-domotique' })).toBe('prises-connectees')
-    expect(articleProductSource({ slug: 'robot-cuiseur-connecte-comparatif', pillar: 'cuisine-connectee' })).toBe('multicuiseurs')
+    expect(articleProductSource({ slug: 'comparatif-multicuiseur-connecte', pillar: 'cuisine-connectee' })).toBe('multicuiseurs')
   })
 
   it('shows no product block when the catalog has nothing on the topic', () => {
     expect(articleProductSource({ slug: 'camera-interieure-sans-abonnement', pillar: 'securite-maison' })).toBeNull()
     expect(articleProductSource({ slug: 'arrosage-connecte-intelligent', pillar: 'outdoor-connecte' })).toBeNull()
+    // Cooking robots (Thermomix-type) are not multicookers: their guide cites its own models.
+    expect(articleProductSource({ slug: 'robot-cuiseur-connecte-comparatif', pillar: 'cuisine-connectee' })).toBeNull()
+    // Cross-catalog comparisons (multicooker vs air fryer) link the models they cite.
+    expect(articleProductSource({ slug: 'cookeo-vs-thermomix-vs-airfryer', pillar: 'cuisine-connectee' })).toBeNull()
   })
 })
 
@@ -33,11 +37,16 @@ describe('getArticleProducts', () => {
     }
   })
 
-  it('returns at most three products, best Nura score first', () => {
-    const { products } = getArticleProducts({ slug: 'cafetiere-connectee-guide', pillar: 'cuisine-connectee' }, 'fr')
+  it('returns at most three products, best Nura score first when the article cites none', () => {
+    const { products } = getArticleProducts({ slug: 'top-10-accessoires-airfryer', pillar: 'guides/airfryers' }, 'fr')
     expect(products.length).toBeGreaterThan(0)
     expect(products.length).toBeLessThanOrEqual(3)
     const scores = products.map((p) => p.nuraScore)
     expect([...scores].sort((a, b) => b - a)).toEqual(scores)
+  })
+
+  it('shows the catalog products an article cites first (a Cosori review shows the Cosori)', () => {
+    const { products } = getArticleProducts({ slug: 'test-cosori-dual-blaze', pillar: 'guides/airfryers' }, 'fr')
+    expect(products[0].title).toBe('Cosori Dual Blaze Smart Air Fryer - 6.4L')
   })
 })

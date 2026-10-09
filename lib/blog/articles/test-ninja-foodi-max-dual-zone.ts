@@ -4,773 +4,687 @@ export const article: BlogArticle = {
   slug: 'test-ninja-foodi-max-dual-zone',
   category: 'tests',
   pillar: 'guides/airfryers',
-  relatedSlugs: ['test-ninja-foodi-flexdrawer', 'ninja-vs-philips-quel-choisir', 'meilleur-airfryer-xxl-grande-famille'],
+  relatedSlugs: ['test-ninja-foodi-flexdrawer', 'airfryer-simple-vs-double-panier', 'meilleur-airfryer-xxl-grande-famille'],
   datePublished: '2026-02-15',
-  dateModified: '2026-04-10',
-  readingTime: 14,
+  dateModified: '2026-10-09',
+  readingTime: 8,
   images: [
     {
       src: 'https://m.media-amazon.com/images/I/41CfTSLQprL._AC_SL1500_.jpg',
       alt: {
-        fr: 'Ninja Foodi MAX Double Stack XL 9,5L - vue de face avec les deux tiroirs ouverts',
-        en: 'Ninja Foodi MAX Double Stack XL 9.5L - front view with both drawers open',
-        de: 'Ninja Foodi MAX Double Stack XL 9,5L - Frontansicht mit beiden geöffneten Schubladen',
-        es: 'Ninja Foodi MAX Double Stack XL 9,5L - vista frontal con ambos cajones abiertos',
-        it: 'Ninja Foodi MAX Double Stack XL 9,5L - vista frontale con entrambi i cassetti aperti',
-        nl: 'Ninja Foodi MAX Double Stack XL 9,5L - vooraanzicht met beide laden open',
+        fr: 'Ninja Foodi MAX Double Stack XL 9,5 L vu de face, avec ses deux tiroirs empilés et son panneau de commande latéral',
+        en: 'Front view of the Ninja Foodi MAX Double Stack XL 9.5L with its two stacked drawers and side control panel',
+        de: 'Ninja Foodi MAX Double Stack XL 9,5 L von vorne mit zwei übereinanderliegenden Schubladen und seitlichem Bedienfeld',
+        es: 'Vista frontal del Ninja Foodi MAX Double Stack XL 9,5 L con sus dos cajones apilados y el panel de control lateral',
+        it: 'Vista frontale del Ninja Foodi MAX Double Stack XL 9,5 L con i due cassetti impilati e il pannello di controllo laterale',
+        nl: 'Vooraanzicht van de Ninja Foodi MAX Double Stack XL 9,5 L met twee gestapelde laden en een bedieningspaneel aan de zijkant',
       },
     },
   ],
   title: {
-    fr: 'Test Ninja Foodi MAX Double Stack XL 9,5L : Avis Complet 2026',
-    en: 'Ninja Foodi MAX Double Stack XL 9.5L Review: Full 2026 Verdict',
-    de: 'Ninja Foodi MAX Double Stack XL 9,5L Test: Vollständige Bewertung 2026',
-    es: 'Test Ninja Foodi MAX Double Stack XL 9,5L: Opinión Completa 2026',
-    it: 'Test Ninja Foodi MAX Double Stack XL 9,5L: Recensione Completa 2026',
-    nl: 'Test Ninja Foodi MAX Double Stack XL 9,5L: Volledige Review 2026',
+    fr: 'Ninja Foodi MAX Double Stack XL 9,5 L : avis complet 2026',
+    en: 'Ninja Foodi MAX Double Stack XL 9.5L Review 2026',
+    de: 'Ninja Foodi MAX Double Stack XL 9,5 L: Erfahrungen 2026',
+    es: 'Ninja Foodi MAX Double Stack XL 9,5 L: opinión 2026',
+    it: 'Ninja Foodi MAX Double Stack XL 9,5 L: recensione 2026',
+    nl: 'Ninja Foodi MAX Double Stack XL 9,5 L: review 2026',
   },
   excerpt: {
-    fr: 'Notre test complet du Ninja Foodi MAX Double Stack XL 9,5L : performances de cuisson exceptionnelles, double tiroir empilé innovant et rapport qualité-prix imbattable. Score Nura : 9.4/10.',
-    en: 'Our full review of the Ninja Foodi MAX Double Stack XL 9.5L: exceptional cooking performance, innovative stacked dual drawer and unbeatable value. Nura Score: 9.4/10.',
-    de: 'Unser vollständiger Test des Ninja Foodi MAX Double Stack XL 9,5L: außergewöhnliche Kochleistung, innovatives gestapeltes Doppelschubladen-Design und unschlagbares Preis-Leistungs-Verhältnis. Nura-Score: 9,4/10.',
-    es: 'Nuestra prueba completa del Ninja Foodi MAX Double Stack XL 9,5L: rendimiento de cocción excepcional, innovador cajón doble apilado y relación calidad-precio inmejorable. Puntuación Nura: 9,4/10.',
-    it: 'Il nostro test completo del Ninja Foodi MAX Double Stack XL 9,5L: prestazioni di cottura eccezionali, innovativo doppio cassetto impilato e rapporto qualità-prezzo imbattibile. Punteggio Nura: 9,4/10.',
-    nl: 'Onze volledige test van de Ninja Foodi MAX Double Stack XL 9,5L: uitzonderlijke kookprestaties, innovatief gestapeld dubbel ladesysteem en onverslaanbare prijs-kwaliteitverhouding. Nura Score: 9,4/10.',
+    fr: "Notre avis sur le Ninja Foodi MAX Double Stack XL (SL400EU) : deux tiroirs empilés de 4,75 L, Sync et Match, format étroit. Points forts, limites et profils adaptés, d'après les fiches du fabricant et les retours d'acheteurs.",
+    en: 'Our review of the Ninja Foodi MAX Double Stack XL (SL400EU): two stacked 4.75L drawers, Sync and Match, a narrow footprint. Strengths, limits and who it suits, based on manufacturer specs and verified owner feedback.',
+    de: 'Unsere Einschätzung zum Ninja Foodi MAX Double Stack XL (SL400EU): zwei gestapelte 4,75-L-Schubladen, Sync und Match, schmale Stellfläche. Stärken, Grenzen und Zielgruppen auf Basis von Herstellerangaben und Käuferbewertungen.',
+    es: 'Nuestra opinión sobre el Ninja Foodi MAX Double Stack XL (SL400EU): dos cajones apilados de 4,75 L, Sync y Match y un formato estrecho. Puntos fuertes, límites y perfiles ideales según las fichas del fabricante y las opiniones de compradores.',
+    it: 'La nostra recensione del Ninja Foodi MAX Double Stack XL (SL400EU): due cassetti impilati da 4,75 L, Sync e Match, ingombro ridotto in larghezza. Punti di forza, limiti e a chi conviene, in base alle schede del produttore e ai pareri degli acquirenti.',
+    nl: 'Onze review van de Ninja Foodi MAX Double Stack XL (SL400EU): twee gestapelde laden van 4,75 L, Sync en Match en een smal formaat. Sterke punten, beperkingen en voor wie hij geschikt is, op basis van fabrieksgegevens en ervaringen van kopers.',
   },
   content: {
-    fr: `<h2>Notre protocole de test</h2>
-<p>Avant de plonger dans les détails, voici comment nous avons évalué le Ninja Foodi MAX Double Stack XL 9,5L. Chez Homenura, chaque airfryer passe par un protocole de test standardisé de 6 semaines pour garantir l'objectivité de nos avis. Nos testeurs cuisinent avec l'appareil dans des conditions réelles : repas quotidiens pour 4 à 6 personnes, recettes variées représentatives de l'utilisation type.</p>
-<p>Nous mesurons systématiquement : la température réelle atteinte (avec thermomètre de contact), la consommation électrique (avec wattmètre calibré), le niveau sonore (sonomètre à 1 mètre), l'uniformité de cuisson (grille de notation visuelle et texturale), et le temps de préchauffage. Nos résultats sont comparés à une base de référence de 30+ airfryers testés depuis 2023. Cette rigueur nous permet d'attribuer des scores Nura comparables d'un modèle à l'autre.</p>
-<p>Pour ce test, nous avons réalisé 87 sessions de cuisson : 22 sessions de frites (fraîches et surgelées, quantités variables), 18 sessions de poulet (pilons, ailes, cuisses, poulet entier découpé), 14 sessions de légumes (8 variétés différentes), 12 sessions de poisson et fruits de mer, 8 sessions de viandes rouges, et 13 sessions de desserts et pain. Chaque session était documentée avec photos et mesures.</p>
-
-<h2>Introduction</h2>
-<p>Le Ninja Foodi MAX Double Stack XL 9,5L est l'un des airfryers les plus ambitieux du marché en 2026. Avec son design unique à double tiroir empilé verticalement, il promet de cuire deux plats différents simultanément tout en occupant moins d'espace sur le plan de travail qu'un airfryer double classique. Vendu à 229,99 euros, il se positionne dans le segment premium sans pour autant atteindre les prix des modèles haut de gamme connectés.</p>
-<p>Chez Homenura, nous avons testé cet appareil pendant 6 semaines dans des conditions réelles d'utilisation quotidienne. Frites, poulet rôti, légumes grillés, poisson, desserts : nous avons tout passé au crible pour vous donner un avis objectif et détaillé. Avec un score Nura de <strong>9,4/10</strong>, autant vous le dire d'emblée : ce Ninja nous a impressionnés.</p>
-<p>Dans ce test complet, nous analysons chaque aspect de cet airfryer : design, performances de cuisson, facilité d'utilisation, consommation énergétique et rapport qualité-prix. Si vous hésitez entre ce modèle et d'autres références comme le <a href="/fr/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer 10,4L</a> ou un <a href="/fr/blog/ninja-vs-philips-quel-choisir">Philips concurrent</a>, cette analyse devrait vous aider à trancher.</p>
+    fr: `<p><strong>Le Ninja Foodi MAX Double Stack XL 9,5 L (référence SL400EU) est l'un des airfryers double zone les plus logiques pour une famille qui manque de place : ses deux tiroirs de 4,75 L sont empilés l'un sur l'autre, ce qui lui donne la largeur d'un airfryer simple.</strong> En contrepartie, il est haut, ses tiroirs sont peu profonds pour les grosses pièces et il n'a ni application ni Wi-Fi.</p>
+<p>Cet avis s'appuie sur les caractéristiques publiées par Ninja, sur des essais publiés par la presse spécialisée et sur les retours d'acheteurs vérifiés. Nous ne l'avons pas utilisé nous-mêmes en cuisine : l'objectif est de vous dire clairement ce que l'appareil fait bien, ce qu'il fait moins bien, et à qui il convient. Pour situer ce modèle parmi les autres, consultez aussi notre <a href="/fr/guides/airfryers">guide des airfryers</a>.</p>
 
 <h2>Fiche technique</h2>
 <table>
-<thead><tr><th>Caractéristique</th><th>Détail</th></tr></thead>
+<thead><tr><th>Caractéristique</th><th>Valeur annoncée par Ninja</th></tr></thead>
 <tbody>
-<tr><td>Capacité totale</td><td>9,5 litres (2 tiroirs : 4,75L + 4,75L)</td></tr>
+<tr><td>Capacité</td><td>9,5 L au total (2 tiroirs de 4,75 L)</td></tr>
 <tr><td>Puissance</td><td>2 470 W</td></tr>
-<tr><td>Plage de température</td><td>40°C - 240°C</td></tr>
-<tr><td>Dimensions (L x P x H)</td><td>27,5 x 37 x 39 cm</td></tr>
-<tr><td>Poids</td><td>9,8 kg</td></tr>
-<tr><td>Programmes prédéfinis</td><td>8 (frites, poulet, poisson, légumes, steak, crevettes, bacon, déshydratation)</td></tr>
-<tr><td>Fonctions spéciales</td><td>Match Cook, Smart Finish, déshydratation</td></tr>
-<tr><td>Connectivité</td><td>Non</td></tr>
-<tr><td>Minuterie</td><td>Jusqu'à 24 heures</td></tr>
-<tr><td>Prix constaté</td><td>229,99 €</td></tr>
+<tr><td>Fonctions</td><td>Air Fry, Max Crisp, Roast, Bake, Reheat, Dehydrate</td></tr>
+<tr><td>Températures</td><td>De 40 °C (déshydratation) à 240 °C (Max Crisp), jusqu'à 210 °C pour les autres modes</td></tr>
+<tr><td>Dimensions (H x L x P)</td><td>38,5 x 28 x 47 cm</td></tr>
+<tr><td>Poids</td><td>Environ 10,3 kg</td></tr>
+<tr><td>Accessoires</td><td>2 plaques de cuisson antiadhésives, 2 grilles multi-niveaux</td></tr>
+<tr><td>Fonctions double zone</td><td>Sync (fin simultanée) et Match (réglages copiés)</td></tr>
+<tr><td>Connectivité</td><td>Aucune (ni application, ni Wi-Fi)</td></tr>
 </tbody>
 </table>
 
-<h2>Design et fabrication</h2>
-<p>Le premier élément qui frappe avec le Ninja Double Stack, c'est évidemment son format vertical. Contrairement aux airfryers double tiroir classiques qui s'étendent en largeur (comme le <a href="/fr/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>), celui-ci empile ses deux compartiments l'un sur l'autre. Le résultat : une empreinte au sol de seulement 27,5 x 37 cm, soit comparable à un airfryer simple, mais avec une hauteur de 39 cm qui nécessite un espace vertical suffisant sous les placards.</p>
-<p>La qualité de fabrication est au rendez-vous. Le boîtier en plastique mat noir résiste bien aux traces de doigts, et les tiroirs coulissent sur des rails métalliques solides. Chaque tiroir dispose de son propre panier amovible avec revêtement antiadhésif céramique, facilitant le nettoyage. Les poignées sont ergonomiques et restent froides pendant la cuisson, un point de sécurité appréciable.</p>
-<p>L'écran tactile central, positionné entre les deux tiroirs, est lumineux et réactif. Les icônes sont intuitives et chaque tiroir dispose de ses propres commandes de température et de durée. On apprécie la finition soignée des jointures et l'absence de jeu dans les mécanismes. Seul bémol esthétique : le câble d'alimentation (1,2 m) est un peu court pour certaines configurations de cuisine.</p>
+<h2>Le concept : deux zones empilées plutôt que côte à côte</h2>
+<p>La plupart des airfryers double panier placent leurs deux tiroirs côte à côte, ce qui donne des appareils larges de 40 cm ou plus. Le Double Stack XL prend le problème à l'envers : les deux tiroirs sont superposés et le panneau de commande se trouve sur le côté droit. Avec 28 cm de large, il occupe une largeur comparable à celle d'un airfryer simple. Ninja le présente d'ailleurs comme 30 % plus fin que son modèle double tiroir classique de capacité équivalente.</p>
+<p>Chaque tiroir dispose de sa propre résistance et de son propre ventilateur. Les deux zones sont donc réellement indépendantes : vous pouvez lancer des frites à 200 °C en haut et un filet de poisson à 180 °C en bas, avec des durées différentes. Si la différence entre un panier unique et deux zones vous semble floue, notre article <a href="/fr/blog/airfryer-simple-vs-double-panier">airfryer simple ou double panier</a> détaille les deux logiques.</p>
+<p>Point à vérifier avant l'achat : la hauteur. Avec 38,5 cm, l'appareil passe sous la plupart des meubles hauts, mais il faut garder de l'espace au-dessus pour l'évacuation de l'air chaud. Il est aussi profond (47 cm) et pèse environ 10 kg : ce n'est pas un appareil qu'on range dans un placard après chaque repas.</p>
 
-<h2>Performance de cuisson</h2>
-<h3>Frites et pommes de terre</h3>
-<p>Les frites maison sont le test incontournable de tout airfryer, et le Ninja Double Stack excelle dans cet exercice. Avec 500 g de frites fraîches coupées en bâtonnets de 8 mm par tiroir, nous avons obtenu des résultats optimaux à <strong>200°C pendant 18 minutes</strong> avec un secouage à mi-cuisson. L'extérieur est parfaitement doré et croustillant, tandis que l'intérieur reste moelleux. La circulation d'air dans chaque compartiment est suffisamment puissante pour assurer un résultat uniforme sur toute la surface du panier.</p>
-<p>Pour les frites surgelées (test avec McCain classiques, 400 g par tiroir), 14 minutes à 200°C suffisent. Le résultat rivalise avec une friteuse traditionnelle, avec une réduction de matières grasses de 85 %. Les pommes de terre en quartiers (wedges) à 190°C pendant 22 minutes sont également excellentes, avec une croûte dorée régulière.</p>
+<h2>Sync, Match et grilles multi-niveaux</h2>
+<p>Deux fonctions rendent la double zone vraiment pratique au quotidien :</p>
+<ul>
+<li><strong>Sync</strong> : vous réglez chaque tiroir avec sa température et sa durée, et l'appareil décale le démarrage du plus court pour que les deux se terminent en même temps. C'est l'outil idéal pour servir un plat et son accompagnement chauds ensemble.</li>
+<li><strong>Match</strong> : les réglages d'un tiroir sont copiés sur l'autre. Utile pour doubler une même préparation, par exemple deux fournées de frites ou de pilons.</li>
+</ul>
+<p>Ninja fournit aussi deux grilles en inox qui permettent de cuire sur deux niveaux dans chaque tiroir, soit jusqu'à quatre couches d'aliments selon le fabricant. En pratique, ces grilles conviennent surtout aux aliments plats (filets, brochettes, légumes en tranches) ; les aliments qu'il faut secouer cuisent mieux en une seule couche.</p>
 
-<h3>Poulet et viandes</h3>
-<p>Nous avons testé des pilons de poulet marinés (6 par tiroir) à 190°C pendant 25 minutes. La peau est croustillante et caramélisée, la chair juteuse jusqu'à l'os. La sonde thermique que nous avons utilisée en parallèle confirmait une température interne de 74°C, parfaitement sûre. Les ailes de poulet à 200°C pendant 20 minutes sont tout aussi convaincantes.</p>
-<p>Pour un steak de bœuf (entrecôte de 250 g, épaisseur 2,5 cm), le mode haute température à 230°C donne une croûte de Maillard satisfaisante en 12 minutes pour une cuisson à point. Ce n'est pas tout à fait au niveau d'une poêle en fonte, mais le résultat est bien meilleur que ce que proposent la plupart des airfryers concurrents.</p>
+<h2>Résultats de cuisson : ce qu'en disent les essais publiés et les acheteurs</h2>
+<p>Les essais publiés par des sites spécialisés et les avis d'acheteurs vérifiés convergent sur plusieurs points :</p>
+<ul>
+<li><strong>Frites et aliments surgelés</strong> : bon croustillant et dorage régulier, à condition de ne pas surcharger les tiroirs et de secouer à mi-cuisson. Le mode Max Crisp (jusqu'à 240 °C) est apprécié pour les produits surgelés.</li>
+<li><strong>Légumes et poisson</strong> : la puissance par zone permet de saisir rapidement, avec des résultats jugés homogènes.</li>
+<li><strong>Volailles et grosses pièces</strong> : c'est ici que le format montre ses limites. Les tiroirs sont plus bas que ceux d'un airfryer à panier unique de grande taille ; un poulet entier rentre difficilement selon la taille de la volaille, et plusieurs propriétaires conseillent de le découper.</li>
+<li><strong>Rapidité</strong> : Ninja annonce une cuisson jusqu'à 55 % plus rapide qu'un four à chaleur tournante sur certains aliments (mesure du fabricant). Sans préchauffage long, l'appareil consomme généralement moins qu'un grand four pour de petites quantités ; nous détaillons ce point dans notre article sur les <a href="/fr/blog/airfryer-economies-energie">économies d'énergie avec un airfryer</a>.</li>
+</ul>
 
-<h3>Légumes</h3>
-<p>Les légumes grillés sont un vrai point fort du Ninja Double Stack. Des courgettes, poivrons et oignons coupés en morceaux, légèrement huilés, à <strong>180°C pendant 12 minutes</strong> ressortent parfaitement caramélisés tout en conservant un léger croquant. Les brocolis à 185°C pendant 10 minutes développent des pointes croustillantes délicieuses sans devenir secs.</p>
-<p>La fonction Match Cook prend ici tout son sens : on peut cuire des frites dans le tiroir du bas pendant que des légumes cuisent dans celui du haut, avec des températures et durées indépendantes. La fonction Smart Finish synchronise la fin des deux cuissons pour que tout soit prêt en même temps.</p>
+<h2>Utilisation et entretien</h2>
+<p>Le panneau de commande vertical est jugé lisible et simple : on choisit le tiroir 1 ou 2, la fonction, puis la température et la durée. Il n'y a pas de programmes automatiques par aliment comme sur certains modèles connectés : il faut connaître (ou chercher) ses temps de cuisson.</p>
+<p>Les tiroirs et les plaques antiadhésives passent au lave-vaisselle d'après Ninja, qui recommande toutefois le lavage à la main pour préserver le revêtement. Évitez les éponges abrasives et les ustensiles métalliques au fond des tiroirs.</p>
+<p>Les remarques négatives les plus fréquentes chez les acheteurs portent sur l'ergonomie : le tiroir du bas est proche du plan de travail, il faut se pencher pour le surveiller, et l'appareil n'a pas de hublot. Aucun signal ne rappelle de secouer les aliments à mi-cuisson.</p>
 
-<h2>Facilité d'utilisation</h2>
-<p>L'interface tactile du Ninja Double Stack est l'une des plus intuitives que nous ayons testées. Sélectionner un programme, ajuster la température ou le temps de cuisson se fait en quelques tapotements. Les 8 programmes prédéfinis couvrent les usages les plus courants et constituent un bon point de départ, même si les utilisateurs expérimentés passeront rapidement en mode manuel.</p>
-<p>La fonction Match Cook est le vrai atout de cet appareil. En un seul bouton, elle copie les réglages d'un tiroir vers l'autre. Smart Finish calcule automatiquement le décalage de démarrage pour que les deux tiroirs finissent en même temps, même avec des durées différentes. En pratique, cela fonctionne parfaitement : on lance le tiroir le plus long en premier, et l'autre démarre automatiquement au bon moment.</p>
-<p>Le nettoyage est facilité par les paniers antiadhésifs amovibles, compatibles lave-vaisselle. Les tiroirs eux-mêmes se nettoient d'un coup d'éponge. Nous avons apprécié l'absence de recoins difficiles d'accès. Après 6 semaines d'utilisation intensive, le revêtement antiadhésif ne montre aucun signe d'usure.</p>
-
-<h2>Consommation énergétique</h2>
-<p>Nous avons mesuré la consommation du Ninja Double Stack avec un wattmètre sur plusieurs cycles de cuisson types. Pour une session de frites de 18 minutes à 200°C (deux tiroirs), la consommation s'élève à <strong>0,62 kWh</strong>. En comparaison, un four traditionnel pour la même quantité de frites consomme environ 1,8 kWh (préchauffage inclus).</p>
-<p>Sur un mois d'utilisation quotidienne (un repas par jour), nous estimons le coût en électricité à environ <strong>5,50 euros</strong> (tarif base EDF 2026 à 0,2516 €/kWh), contre 15 à 18 euros pour un four classique. L'économie annuelle dépasse les 120 euros, ce qui amortit partiellement le prix d'achat. Pour approfondir ce sujet, consultez notre article sur les <a href="/fr/blog/airfryer-economies-energie">économies d'énergie avec un airfryer</a>.</p>
-
-<h2>Points forts et points faibles</h2>
+<h2>Points forts et limites</h2>
 <h3>Points forts</h3>
 <ul>
-<li><strong>Design empilé compact</strong> : prend moins de place qu'un double tiroir classique</li>
-<li><strong>Cuisson excellente</strong> : résultats uniformes et croustillants dans tous nos tests</li>
-<li><strong>Smart Finish</strong> : synchronisation automatique parfaitement exécutée</li>
-<li><strong>Grande capacité</strong> : 9,5L au total, idéal pour 4-6 personnes</li>
-<li><strong>Nettoyage facile</strong> : paniers compatibles lave-vaisselle, revêtement durable</li>
-<li><strong>Rapport qualité-prix</strong> : 229,99 € pour cette capacité et ces performances</li>
-<li><strong>Mode déshydratation</strong> : polyvalence bienvenue jusqu'à 24 heures</li>
+<li>Deux vraies zones indépendantes dans la largeur d'un airfryer simple</li>
+<li>Sync et Match, simples et efficaces pour servir un repas complet</li>
+<li>Capacité totale de 9,5 L, adaptée à une famille de quatre à six personnes</li>
+<li>Grilles fournies pour cuire sur deux niveaux</li>
+<li>Six fonctions, dont la déshydratation à basse température</li>
 </ul>
-<h3>Points faibles</h3>
+<h3>Limites</h3>
 <ul>
-<li><strong>Hauteur importante</strong> : 39 cm, peut poser problème sous des placards bas</li>
-<li><strong>Pas de connectivité</strong> : pas d'app ni de Wi-Fi, contrairement aux Philips haut de gamme</li>
-<li><strong>Câble court</strong> : 1,2 m seulement, prévoir une rallonge éventuellement</li>
-<li><strong>Tiroirs non interchangeables</strong> : chaque tiroir est spécifique à sa position</li>
-<li><strong>Bruit notable</strong> : environ 65 dB en fonctionnement, légèrement au-dessus de la moyenne</li>
+<li>Appareil haut, profond et lourd</li>
+<li>Tiroirs peu adaptés aux grosses volailles entières</li>
+<li>Pas de hublot, pas d'application ni de Wi-Fi</li>
+<li>Tiroir du bas moins pratique à surveiller</li>
 </ul>
 
-<h2>Score Nura détaillé</h2>
+<h2>Comparaison avec les alternatives</h2>
 <table>
-<thead><tr><th>Critère</th><th>Note</th><th>Commentaire</th></tr></thead>
+<thead><tr><th>Modèle</th><th>Format</th><th>Capacité</th><th>Connectivité</th><th>Idéal pour</th></tr></thead>
 <tbody>
-<tr><td>Performance de cuisson</td><td>9,5/10</td><td>Résultats excellents sur tous les aliments testés</td></tr>
-<tr><td>Facilité d'utilisation</td><td>9,5/10</td><td>Interface intuitive, Smart Finish remarquable</td></tr>
-<tr><td>Design et fabrication</td><td>9,0/10</td><td>Qualité premium, format empilé ingénieux</td></tr>
-<tr><td>Polyvalence</td><td>9,5/10</td><td>Double cuisson simultanée + déshydratation</td></tr>
-<tr><td>Rapport qualité-prix</td><td>9,5/10</td><td>229,99 € pour ces prestations, excellent</td></tr>
-<tr><td>Nettoyage</td><td>9,5/10</td><td>Paniers lave-vaisselle, antiadhésif efficace</td></tr>
-<tr><td>Bruit</td><td>8,5/10</td><td>65 dB, légèrement au-dessus de la moyenne</td></tr>
-<tr><td><strong>Score Nura global</strong></td><td><strong>9,4/10</strong></td><td><strong>Notre meilleur airfryer double zone testé</strong></td></tr>
+<tr><td><strong>Ninja Foodi MAX Double Stack XL</strong></td><td>2 tiroirs empilés</td><td>9,5 L (2 x 4,75 L)</td><td>Non</td><td>Familles avec peu de largeur disponible</td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>1 grand tiroir avec séparateur amovible</td><td>10,4 L (ou 2 zones)</td><td>Non</td><td>Poulet entier et grosses pièces</td></tr>
+<tr><td>Philips Airfryer Combi XXL Connected</td><td>1 panier</td><td>8,3 L</td><td>Wi-Fi et application, sonde de température</td><td>Cuisson de viandes à cœur, amateurs d'appareils connectés</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>1 panier, chauffe haut et bas</td><td>6,4 L</td><td>Wi-Fi et application</td><td>Couples et petites familles, sans retournement</td></tr>
 </tbody>
 </table>
+<p>Face au <a href="/fr/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>, le Double Stack gagne nettement en largeur, mais le FlexDrawer permet de retirer le séparateur pour obtenir un seul grand compartiment, plus adapté à une volaille entière. Le Philips Combi XXL Connected n'est pas un double zone : il mise sur un grand panier unique, une sonde de température et une application. Le Cosori Dual Blaze, plus compact, chauffe par le haut et par le bas, ce qui limite le besoin de retourner les aliments.</p>
+
+<h2>Erreurs à éviter</h2>
+<ul>
+<li><strong>Remplir les tiroirs à ras bord</strong> : l'air circule moins bien et le croustillant en pâtit. Mieux vaut deux tiroirs moyennement remplis qu'un seul surchargé.</li>
+<li><strong>Coller l'appareil au mur ou sous un meuble bas</strong> : laissez de l'espace autour et au-dessus pour l'évacuation de l'air chaud, comme le précise la notice.</li>
+<li><strong>Oublier de secouer</strong> : l'appareil ne vous le rappelle pas. Programmez un minuteur à mi-cuisson pour les frites et les petits morceaux.</li>
+<li><strong>Ignorer le poids</strong> : environ 10 kg, prévoyez un emplacement fixe sur un plan de travail stable.</li>
+<li><strong>Utiliser une rallonge sous-dimensionnée</strong> : avec près de 2,5 kW, branchez-le de préférence directement sur une prise murale.</li>
+</ul>
+
+<h2>Pour qui ?</h2>
+<p>Le Double Stack XL convient bien aux familles de quatre à six personnes qui veulent cuire plat et accompagnement en même temps, dans une cuisine où la largeur de plan de travail est comptée. Il est moins pertinent si vous cuisinez seul ou à deux (un modèle de 4 à 6 L suffit), si vous rôtissez souvent des volailles entières, ou si vous tenez à piloter l'appareil depuis votre téléphone. Pour les très grandes tablées, notre sélection des <a href="/fr/blog/meilleur-airfryer-xxl-grande-famille">airfryers XXL pour grande famille</a> présente d'autres options.</p>
 
 <h2>Verdict</h2>
-<p>Le Ninja Foodi MAX Double Stack XL 9,5L est tout simplement <strong>le meilleur airfryer double zone que nous ayons testé en 2026</strong>. Son concept de tiroirs empilés résout le problème d'encombrement des airfryers double classiques, tout en offrant des performances de cuisson de premier ordre. La fonction Smart Finish est un vrai game-changer pour préparer des repas complets.</p>
-<p>À 229,99 euros, il représente un investissement raisonnable pour une famille de 4 à 6 personnes qui cuisine régulièrement. Si vous cherchez un airfryer grande capacité sans sacrifier l'espace sur votre plan de travail, c'est le choix évident. Seule l'absence de connectivité pourrait freiner les amateurs de domotique, qui préféreront alors le <a href="/fr/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a>.</p>
-<p>Pour aller plus loin, découvrez notre <a href="/fr/guides/airfryers">guide complet des meilleurs airfryers 2026</a>, notre <a href="/fr/blog/ninja-vs-philips-quel-choisir">comparatif Ninja vs Philips</a>, ou notre sélection des <a href="/fr/blog/meilleur-airfryer-xxl-grande-famille">meilleurs airfryers XXL pour grande famille</a>.</p>
+<p>Le Ninja Foodi MAX Double Stack XL 9,5 L est un excellent choix de double zone pour les familles : deux compartiments indépendants, des fonctions Sync et Match bien pensées et une largeur réduite qui le distingue de presque tous ses concurrents. Ses limites sont claires et assumées : hauteur, poids, tiroirs peu profonds pour les grosses pièces et absence de connectivité. Si ces points ne vous gênent pas, c'est notre choix de référence parmi les airfryers double zone pour une famille.</p>`,
 
-<h2>Comparaison avec la concurrence</h2>
-<p>Le Ninja Double Stack se retrouve en compétition directe avec trois alternatives sérieuses en 2026. Voici notre tableau comparatif basé sur les tests réels :</p>
+    en: `<p><strong>The Ninja Foodi MAX Double Stack XL 9.5L (model SL400EU) is one of the most sensible dual-zone air fryers for a family that is short on counter space: its two 4.75L drawers are stacked on top of each other, so it is only as wide as a single-basket air fryer.</strong> The trade-offs are its height, drawers that are shallow for large joints, and no app or Wi-Fi.</p>
+<p>This review is based on Ninja's published specifications, reviews from specialist publications and verified owner feedback. We have not used it in our own kitchen: the goal is to tell you plainly what it does well, where it falls short and who it suits. To see how it compares with other models, read our <a href="/en/guides/airfryers">air fryer guide</a>.</p>
+
+<h2>Specifications</h2>
 <table>
-<thead><tr><th>Modèle</th><th>Prix</th><th>Capacité</th><th>Score Nura</th><th>Atout principal</th></tr></thead>
+<thead><tr><th>Feature</th><th>Ninja's stated value</th></tr></thead>
 <tbody>
-<tr><td><strong>Ninja Double Stack XL</strong></td><td>229,99 €</td><td>9,5L</td><td>9,4/10</td><td>Design empilé compact + Smart Finish</td></tr>
-<tr><td>Ninja FlexDrawer 10,4L</td><td>249,99 €</td><td>10,4L</td><td>9,2/10</td><td>Méga-zone unique 10,4L possible</td></tr>
-<tr><td>Philips Combi XXL Connected</td><td>349,99 €</td><td>8,3L</td><td>9,0/10</td><td>Sonde de température intégrée</td></tr>
-<tr><td>Cosori Dual Blaze 6,4L</td><td>139,99 €</td><td>6,4L</td><td>8,9/10</td><td>Double résistance + Wi-Fi</td></tr>
-</tbody>
-</table>
-<p>Face au <a href="/fr/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>, le Double Stack offre un encombrement plus réduit (27,5 cm vs 44,5 cm de large) pour une capacité presque équivalente. Le FlexDrawer permet la méga-zone de 10,4L d'un seul tenant, ce que le Double Stack ne peut pas faire (ses tiroirs sont séparés). En revanche, l'empreinte verticale du Double Stack est un atout majeur pour les petites cuisines.</p>
-<p>Face au <a href="/fr/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a>, le Double Stack est 120 euros moins cher et obtient un score supérieur. Le Philips justifie son prix par la sonde de température, l'écran couleur et l'application HomeID. Pour les familles qui cuisinent beaucoup de viande et veulent la précision, le Philips reste pertinent. Pour les autres, le Double Stack est le meilleur rapport qualité-prix du segment.</p>
-
-<h2>Pour qui est ce Ninja Double Stack idéal ?</h2>
-<p>Après 6 semaines de test intensif, nous avons établi un profil précis des utilisateurs pour lesquels ce modèle est le meilleur choix :</p>
-<ul>
-<li><strong>Familles de 4 à 6 personnes</strong> qui cuisinent quotidiennement et ont besoin de préparer plat principal + accompagnement simultanément</li>
-<li><strong>Personnes avec peu d'espace</strong> sur le plan de travail mais qui veulent la fonctionnalité double zone — le format empilé est imbattable pour l'empreinte au sol</li>
-<li><strong>Cuisiniers pragmatiques</strong> qui veulent des performances excellent sans la complexité d'une application connectée</li>
-<li><strong>Utilisateurs qui font du meal prep</strong> le week-end : cuire deux types de protéines simultanément fait gagner un temps précieux</li>
-</ul>
-<p>En revanche, ce modèle est moins adapté si : vous cuisinez seul ou en couple (un airfryer 4-5L suffira), si vous cherchez absolument la connectivité Wi-Fi (le <a href="/fr/blog/comparatif-airfryer-connecte-2026">Cosori Dual Blaze ou le Philips Combi</a> seront mieux), ou si vous avez besoin d'une méga-zone unique de plus de 5L pour un poulet entier (le FlexDrawer est alors plus adapté).</p>
-
-<h2>Verdict final détaillé</h2>
-<p>Le Ninja Foodi MAX Double Stack XL 9,5L redéfinit ce qu'un airfryer double zone devrait être. Son concept d'empilement vertical est une vraie innovation qui résout élégamment le problème d'encombrement des appareils double zone classiques. La qualité de cuisson est au rendez-vous sur tous les aliments testés, et la fonction Smart Finish fonctionne exactement comme promis.</p>
-<p>À 229,99 euros, il représente le meilleur rapport qualité-prix de son segment en 2026. Il devance ses concurrents directs sur la quasi-totalité des critères qui comptent pour une utilisation familiale quotidienne. Les seules lacunes — absence de connectivité, bruit légèrement plus élevé que la moyenne — sont des compromis acceptables au regard de ses forces.</p>
-<p>Notre recommandation : si vous cherchez un airfryer double zone pour une famille de 4 à 6 personnes et que vous avez un budget de 200 à 250 euros, c'est l'achat le plus sensé du marché en 2026. Score Nura confirmé : <strong>9,4/10</strong>.</p>`,
-
-    en: `<h2>Our Testing Protocol</h2>
-<p>Before diving into the details, here is how we evaluated the Ninja Foodi MAX Double Stack XL 9.5L. At Homenura, every air fryer goes through a standardised 6-week testing protocol to ensure objectivity. Our testers cook with the appliance under real conditions: daily meals for 4 to 6 people, varied recipes representative of typical use.</p>
-<p>We systematically measure: actual temperature reached (with a contact thermometer), electricity consumption (with a calibrated power meter), noise level (sound meter at 1 metre), cooking uniformity (visual and textural scoring grid), and preheat time. Our results are compared against a reference base of 30+ air fryers tested since 2023. This rigour allows us to assign comparable Nura scores across models.</p>
-<p>For this test, we completed 87 cooking sessions: 22 fries sessions (fresh and frozen, varying quantities), 18 chicken sessions (drumsticks, wings, thighs, jointed whole chicken), 14 vegetable sessions (8 different varieties), 12 fish and seafood sessions, 8 red meat sessions, and 13 dessert and bread sessions. Each session was documented with photos and measurements.</p>
-
-<h2>Introduction</h2>
-<p>The Ninja Foodi MAX Double Stack XL 9.5L is one of the most ambitious air fryers on the market in 2026. With its unique vertically stacked dual drawer design, it promises to cook two different dishes simultaneously while taking up less counter space than a traditional dual-zone air fryer. Priced at 229.99 euros, it sits in the premium segment without reaching the heights of high-end connected models.</p>
-<p>At Homenura, we tested this appliance for 6 weeks under real daily-use conditions. Fries, roast chicken, grilled vegetables, fish, desserts: we put everything through its paces to give you an objective, detailed verdict. With a Nura score of <strong>9.4/10</strong>, we can say right away: this Ninja impressed us.</p>
-
-<h2>Technical Specifications</h2>
-<table>
-<thead><tr><th>Feature</th><th>Detail</th></tr></thead>
-<tbody>
-<tr><td>Total capacity</td><td>9.5 litres (2 drawers: 4.75L + 4.75L)</td></tr>
+<tr><td>Capacity</td><td>9.5L in total (2 drawers of 4.75L)</td></tr>
 <tr><td>Power</td><td>2,470 W</td></tr>
-<tr><td>Temperature range</td><td>40°C - 240°C</td></tr>
-<tr><td>Dimensions (W x D x H)</td><td>27.5 x 37 x 39 cm</td></tr>
-<tr><td>Weight</td><td>9.8 kg</td></tr>
-<tr><td>Preset programmes</td><td>8 (fries, chicken, fish, vegetables, steak, shrimp, bacon, dehydrate)</td></tr>
-<tr><td>Special functions</td><td>Match Cook, Smart Finish, dehydration</td></tr>
-<tr><td>Connectivity</td><td>None</td></tr>
-<tr><td>Timer</td><td>Up to 24 hours</td></tr>
-<tr><td>Price</td><td>€229.99</td></tr>
+<tr><td>Functions</td><td>Air Fry, Max Crisp, Roast, Bake, Reheat, Dehydrate</td></tr>
+<tr><td>Temperatures</td><td>From 40°C (Dehydrate) to 240°C (Max Crisp), up to 210°C in the other modes</td></tr>
+<tr><td>Dimensions (H x W x D)</td><td>38.5 x 28 x 47 cm</td></tr>
+<tr><td>Weight</td><td>About 10.3 kg</td></tr>
+<tr><td>Accessories</td><td>2 non-stick crisper plates, 2 multi-layer racks</td></tr>
+<tr><td>Dual-zone features</td><td>Sync (finish together) and Match (copy settings)</td></tr>
+<tr><td>Connectivity</td><td>None (no app, no Wi-Fi)</td></tr>
 </tbody>
 </table>
 
-<h2>Design and Build Quality</h2>
-<p>The first thing that strikes you about the Ninja Double Stack is obviously its vertical format. Unlike traditional dual-drawer air fryers that extend horizontally (such as the <a href="/en/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>), this one stacks its two compartments on top of each other. The result: a footprint of only 27.5 x 37 cm, comparable to a single air fryer, but with a height of 39 cm that requires sufficient clearance under overhead cabinets.</p>
-<p>Build quality is excellent. The matte black plastic casing resists fingerprints well, and the drawers slide on solid metal rails. Each drawer has its own removable basket with ceramic non-stick coating, making cleaning straightforward. The handles are ergonomic and stay cool during cooking. The only aesthetic drawback: the power cable (1.2 m) is somewhat short for some kitchen layouts.</p>
+<h2>The idea: two zones stacked, not side by side</h2>
+<p>Most dual-basket air fryers put their drawers side by side, which makes them 40 cm wide or more. The Double Stack XL turns that around: the drawers sit one above the other and the control panel runs down the right-hand side. At 28 cm wide, it takes up about the same width as a single-basket model. Ninja describes it as 30% slimmer than its classic dual-drawer model of similar capacity.</p>
+<p>Each drawer has its own heating element and fan, so the two zones are genuinely independent: you can run fries at 200°C on top and a fish fillet at 180°C below, with different times. If the difference between one basket and two zones is unclear, our article on <a href="/en/blog/airfryer-simple-vs-double-panier">single vs dual-basket air fryers</a> explains both approaches.</p>
+<p>Check the height before buying. At 38.5 cm it fits under most wall cabinets, but you need clearance above it for the hot air to escape. It is also deep (47 cm) and weighs about 10 kg, so it is not something you put away in a cupboard after every meal.</p>
 
-<h2>Cooking Performance</h2>
-<h3>Fries and Potatoes</h3>
-<p>Homemade fries are the essential test for any air fryer, and the Ninja Double Stack excels. With 500 g of fresh-cut 8 mm fries per drawer, we achieved optimal results at <strong>200°C for 18 minutes</strong> with a shake halfway through. The exterior is perfectly golden and crispy while the interior stays fluffy. Air circulation in each compartment is powerful enough to ensure even results across the entire basket.</p>
-<p>For frozen fries (tested with McCain classics, 400 g per drawer), 14 minutes at 200°C is sufficient. The result rivals a traditional deep fryer, with an 85% reduction in fat. Potato wedges at 190°C for 22 minutes are also excellent, with an even golden crust.</p>
-
-<h3>Chicken and Meats</h3>
-<p>We tested marinated chicken drumsticks (6 per drawer) at 190°C for 25 minutes. The skin is crispy and caramelised, the meat juicy right to the bone. Our probe thermometer confirmed an internal temperature of 74°C, perfectly safe. Chicken wings at 200°C for 20 minutes are equally convincing.</p>
-<p>For a beef steak (250 g ribeye, 2.5 cm thick), the high-temperature mode at 230°C produces a satisfying Maillard crust in 12 minutes for medium doneness. It does not quite match a cast-iron skillet, but the result is significantly better than most competing air fryers.</p>
-
-<h3>Vegetables</h3>
-<p>Grilled vegetables are a real strength of the Ninja Double Stack. Courgettes, peppers and onions cut into chunks, lightly oiled, at <strong>180°C for 12 minutes</strong> come out perfectly caramelised while retaining a slight crunch. Broccoli at 185°C for 10 minutes develops deliciously crispy tips without drying out.</p>
-
-<h2>Ease of Use</h2>
-<p>The touchscreen interface is one of the most intuitive we have tested. Selecting a programme, adjusting temperature or cooking time takes just a few taps. The Match Cook function copies settings from one drawer to the other, while Smart Finish automatically staggers start times so both drawers finish together. In practice, this works flawlessly.</p>
-<p>Cleaning is made easy by the removable dishwasher-safe baskets. After 6 weeks of intensive use, the non-stick coating shows no signs of wear.</p>
-
-<h2>Energy Consumption</h2>
-<p>We measured consumption with a power meter over several typical cooking cycles. For an 18-minute fries session at 200°C (both drawers), consumption totals <strong>0.62 kWh</strong>. A traditional oven for the same quantity uses approximately 1.8 kWh including preheating. The monthly savings with daily use exceed 10 euros.</p>
-
-<h2>Pros and Cons</h2>
-<h3>Pros</h3>
+<h2>Sync, Match and multi-layer racks</h2>
+<p>Two functions make the dual zones genuinely useful every day:</p>
 <ul>
-<li><strong>Compact stacked design</strong>: takes up less space than a standard dual-drawer air fryer</li>
-<li><strong>Excellent cooking</strong>: uniform, crispy results in all our tests</li>
-<li><strong>Smart Finish</strong>: perfectly executed automatic synchronisation</li>
-<li><strong>Large capacity</strong>: 9.5L total, ideal for 4-6 people</li>
-<li><strong>Easy cleaning</strong>: dishwasher-safe baskets, durable coating</li>
-<li><strong>Value for money</strong>: €229.99 for this capacity and performance</li>
+<li><strong>Sync</strong>: you set each drawer with its own temperature and time, and the appliance delays the shorter one so both finish together. It is the easiest way to serve a main and a side hot at the same time.</li>
+<li><strong>Match</strong>: copies one drawer's settings to the other. Handy for doubling a batch, such as two loads of fries or drumsticks.</li>
 </ul>
-<h3>Cons</h3>
+<p>Ninja also supplies two stainless steel racks for cooking on two levels in each drawer, which the manufacturer says allows up to four layers of food. In practice, the racks work best for flat foods (fillets, skewers, sliced vegetables); anything that needs shaking cooks better in a single layer.</p>
+
+<h2>Cooking results: what published reviews and owners say</h2>
+<p>Reviews from specialist sites and verified owner feedback agree on several points:</p>
 <ul>
-<li><strong>Significant height</strong>: 39 cm, may be problematic under low cabinets</li>
-<li><strong>No connectivity</strong>: no app or Wi-Fi</li>
-<li><strong>Short cable</strong>: only 1.2 m</li>
-<li><strong>Notable noise</strong>: approximately 65 dB, slightly above average</li>
+<li><strong>Fries and frozen foods</strong>: good crispness and even browning, as long as you do not overfill the drawers and you shake halfway. Max Crisp (up to 240°C) is popular for frozen products.</li>
+<li><strong>Vegetables and fish</strong>: the power in each zone browns food quickly, with results described as even.</li>
+<li><strong>Poultry and large joints</strong>: this is where the format shows its limits. The drawers are lower than those of a large single-basket air fryer; a whole chicken is a tight fit depending on its size, and several owners recommend jointing it.</li>
+<li><strong>Speed</strong>: Ninja claims cooking up to 55% faster than a fan oven for some foods (manufacturer's figure). With no long preheat, it generally uses less energy than a large oven for small quantities; see our article on <a href="/en/blog/airfryer-economies-energie">saving energy with an air fryer</a>.</li>
 </ul>
 
-<h2>Detailed Nura Score</h2>
+<h2>Everyday use and cleaning</h2>
+<p>Owners find the vertical control panel clear and simple: choose drawer 1 or 2, pick the function, then set temperature and time. There are no food-specific automatic programmes like on some connected models, so you need to know (or look up) your cooking times.</p>
+<p>According to Ninja, the drawers and non-stick plates are dishwasher safe, although hand washing is recommended to protect the coating. Avoid abrasive sponges and metal utensils in the drawers.</p>
+<p>The most common complaints from buyers are about ergonomics: the bottom drawer sits close to the worktop, so you have to bend down to check it, and there is no viewing window. Nothing reminds you to shake the food halfway through.</p>
+
+<h2>Strengths and limits</h2>
+<h3>Strengths</h3>
+<ul>
+<li>Two truly independent zones in the width of a single-basket air fryer</li>
+<li>Sync and Match are simple and effective for complete meals</li>
+<li>9.5L total capacity, suited to a family of four to six</li>
+<li>Racks included for cooking on two levels</li>
+<li>Six functions, including low-temperature dehydrating</li>
+</ul>
+<h3>Limits</h3>
+<ul>
+<li>Tall, deep and heavy</li>
+<li>Drawers not ideal for large whole birds</li>
+<li>No viewing window, no app or Wi-Fi</li>
+<li>Bottom drawer is less convenient to check</li>
+</ul>
+
+<h2>How it compares</h2>
 <table>
-<thead><tr><th>Criterion</th><th>Score</th><th>Comment</th></tr></thead>
+<thead><tr><th>Model</th><th>Format</th><th>Capacity</th><th>Connectivity</th><th>Best for</th></tr></thead>
 <tbody>
-<tr><td>Cooking performance</td><td>9.5/10</td><td>Excellent results on all foods tested</td></tr>
-<tr><td>Ease of use</td><td>9.5/10</td><td>Intuitive interface, remarkable Smart Finish</td></tr>
-<tr><td>Design and build</td><td>9.0/10</td><td>Premium quality, ingenious stacked format</td></tr>
-<tr><td>Versatility</td><td>9.5/10</td><td>Dual simultaneous cooking + dehydration</td></tr>
-<tr><td>Value for money</td><td>9.5/10</td><td>€229.99 for these features, excellent</td></tr>
-<tr><td>Cleaning</td><td>9.5/10</td><td>Dishwasher-safe, effective non-stick</td></tr>
-<tr><td>Noise</td><td>8.5/10</td><td>65 dB, slightly above average</td></tr>
-<tr><td><strong>Overall Nura Score</strong></td><td><strong>9.4/10</strong></td><td><strong>Our best dual-zone air fryer tested</strong></td></tr>
+<tr><td><strong>Ninja Foodi MAX Double Stack XL</strong></td><td>2 stacked drawers</td><td>9.5L (2 x 4.75L)</td><td>No</td><td>Families with limited counter width</td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>1 large drawer with removable divider</td><td>10.4L (or 2 zones)</td><td>No</td><td>Whole chicken and large joints</td></tr>
+<tr><td>Philips Airfryer Combi XXL Connected</td><td>1 basket</td><td>8.3L</td><td>Wi-Fi, app and temperature probe</td><td>Cooking meat to temperature, connected kitchens</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>1 basket, top and bottom heating</td><td>6.4L</td><td>Wi-Fi and app</td><td>Couples and small families, less flipping</td></tr>
 </tbody>
 </table>
+<p>Against the <a href="/en/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>, the Double Stack is much narrower, but the FlexDrawer lets you remove its divider for one large compartment, which suits a whole bird better. The Philips Combi XXL Connected is not a dual-zone model: it relies on one large basket, a temperature probe and an app. The more compact Cosori Dual Blaze heats from above and below, so food needs less turning.</p>
+
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Filling the drawers to the brim</strong>: air circulates less well and crispness suffers. Two half-full drawers beat one overloaded one.</li>
+<li><strong>Pushing it against a wall or under a low cabinet</strong>: leave space around and above it for hot air to escape, as the manual specifies.</li>
+<li><strong>Forgetting to shake</strong>: the appliance will not remind you. Set a halfway timer for fries and small pieces.</li>
+<li><strong>Underestimating the weight</strong>: at about 10 kg, give it a permanent spot on a stable worktop.</li>
+<li><strong>Using an undersized extension lead</strong>: at nearly 2.5 kW, plug it directly into a wall socket where possible.</li>
+</ul>
+
+<h2>Who is it for?</h2>
+<p>The Double Stack XL suits families of four to six who want to cook a main and a side at the same time in a kitchen where counter width is tight. It makes less sense if you cook for one or two (a 4 to 6L model is enough), if you often roast whole birds, or if you want to control your air fryer from your phone. For very large households, our pick of <a href="/en/blog/meilleur-airfryer-xxl-grande-famille">XXL air fryers for big families</a> covers other options.</p>
 
 <h2>Verdict</h2>
-<p>The Ninja Foodi MAX Double Stack XL 9.5L is simply <strong>the best dual-zone air fryer we tested in 2026</strong>. Its stacked drawer concept solves the footprint problem of conventional dual models while delivering top-tier cooking results. Smart Finish is a genuine game-changer for preparing complete meals.</p>
-<p>At €229.99, it represents a reasonable investment for a family of 4-6 who cook regularly. For more options, check our <a href="/en/guides/airfryers">complete guide to the best air fryers 2026</a> or our <a href="/en/blog/ninja-vs-philips-quel-choisir">Ninja vs Philips comparison</a>.</p>
+<p>The Ninja Foodi MAX Double Stack XL 9.5L is an excellent dual-zone choice for families: two independent compartments, well-designed Sync and Match functions and a narrow footprint that sets it apart from almost every rival. Its limits are clear: height, weight, shallow drawers for large joints and no connectivity. If those do not bother you, it is our reference pick among dual-zone air fryers for a family.</p>`,
 
-<h2>Comparison with the Competition</h2>
-<p>The Ninja Double Stack faces direct competition from three serious alternatives in 2026. Here is our comparison table based on real-world tests:</p>
-<table>
-<thead><tr><th>Model</th><th>Price</th><th>Capacity</th><th>Nura Score</th><th>Main advantage</th></tr></thead>
-<tbody>
-<tr><td><strong>Ninja Double Stack XL</strong></td><td>€229.99</td><td>9.5L</td><td>9.4/10</td><td>Compact stacked design + Smart Finish</td></tr>
-<tr><td>Ninja FlexDrawer 10.4L</td><td>€249.99</td><td>10.4L</td><td>9.2/10</td><td>Single mega-zone of 10.4L possible</td></tr>
-<tr><td>Philips Combi XXL Connected</td><td>€349.99</td><td>8.3L</td><td>9.0/10</td><td>Built-in temperature probe</td></tr>
-<tr><td>Cosori Dual Blaze 6.4L</td><td>€139.99</td><td>6.4L</td><td>8.9/10</td><td>Dual heating element + Wi-Fi</td></tr>
-</tbody>
-</table>
-<p>Against the <a href="/en/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>, the Double Stack offers a smaller footprint (27.5 cm vs 44.5 cm wide) for nearly equivalent capacity. The FlexDrawer allows a single 10.4L mega-zone, which the Double Stack cannot replicate with its separate drawers. However, the Double Stack's vertical format is a major advantage for small kitchens.</p>
-<p>Against the <a href="/en/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a>, the Double Stack is £120 cheaper and scores higher. The Philips justifies its price with the temperature probe, colour display and HomeID app. For families who cook a lot of meat and want precision, the Philips remains relevant. For everyone else, the Double Stack is the best value in the segment.</p>
-
-<h2>Who Is the Ninja Double Stack Ideal For?</h2>
-<p>After 6 weeks of intensive testing, we identified a clear profile of users for whom this model is the best choice:</p>
-<ul>
-<li><strong>Families of 4 to 6 people</strong> who cook daily and need to prepare a main dish and side dish simultaneously</li>
-<li><strong>People with limited counter space</strong> who want dual-zone functionality — the stacked format is unbeatable for floor footprint</li>
-<li><strong>Pragmatic cooks</strong> who want excellent performance without the complexity of a connected app</li>
-<li><strong>Meal preppers</strong> who batch cook at weekends: cooking two types of protein simultaneously saves valuable time</li>
-</ul>
-<p>The model is less suited if: you cook alone or as a couple (a 4-5L air fryer will suffice), if you absolutely need Wi-Fi connectivity (the Cosori Dual Blaze or Philips Combi will be better), or if you need a single mega-zone of more than 5L for a whole chicken (the FlexDrawer is more appropriate).</p>
-
-<h2>Detailed Final Verdict</h2>
-<p>The Ninja Foodi MAX Double Stack XL 9.5L redefines what a dual-zone air fryer should be. Its vertical stacking concept is a genuine innovation that elegantly solves the footprint problem of conventional dual-zone appliances. Cooking quality is excellent across all foods tested, and Smart Finish works exactly as promised.</p>
-<p>At €229.99, it represents the best value in its segment in 2026. It outperforms its direct competitors on virtually every criterion that matters for daily family use. The only shortcomings — no connectivity, slightly noisier than average — are acceptable trade-offs given its strengths.</p>
-<p>Our recommendation: if you are looking for a dual-zone air fryer for a family of 4 to 6 and have a budget of €200–250, this is the most sensible purchase on the market in 2026. Confirmed Nura Score: <strong>9.4/10</strong>.</p>`,
-
-    de: `<h2>Unser Testprotokoll</h2>
-<p>Bei Homenura durchläuft jede Heißluftfritteuse ein standardisiertes 6-wöchiges Testprotokoll. Unsere Tester kochen unter realen Bedingungen: tägliche Mahlzeiten für 4 bis 6 Personen mit abwechslungsreichen Rezepten. Wir messen systematisch: tatsächlich erreichte Temperatur, Stromverbrauch, Lautstärke, Garuniformität und Vorheizzeit. Für diesen Test haben wir 87 Garsessions durchgeführt — von Pommes und Hähnchen über Gemüse bis hin zu Desserts — und jeden Schritt mit Fotos und Messwerten dokumentiert.</p>
-
-<h2>Einleitung</h2>
-<p>Der Ninja Foodi MAX Double Stack XL 9,5L ist eine der ambitioniertesten Heißluftfritteusen auf dem Markt 2026. Mit seinem einzigartigen vertikal gestapelten Doppelschubladen-Design verspricht er, zwei verschiedene Gerichte gleichzeitig zu garen und dabei weniger Platz auf der Arbeitsfläche einzunehmen als eine klassische Dual-Zone-Fritteuse. Mit einem Preis von 229,99 Euro positioniert er sich im Premium-Segment, ohne die Preise der vernetzten High-End-Modelle zu erreichen.</p>
-<p>Bei Homenura haben wir dieses Gerät 6 Wochen lang unter realen Alltagsbedingungen getestet. Pommes, Brathähnchen, gegrilltes Gemüse, Fisch, Desserts: Wir haben alles auf den Prüfstand gestellt. Mit einem Nura-Score von <strong>9,4/10</strong> können wir vorab sagen: Dieser Ninja hat uns beeindruckt.</p>
+    de: `<p><strong>Der Ninja Foodi MAX Double Stack XL 9,5 L (Modell SL400EU) ist eine der durchdachtesten Dual-Zone-Heißluftfritteusen für Familien mit wenig Arbeitsfläche: Die beiden 4,75-Liter-Schubladen liegen übereinander, sodass das Gerät nur so breit ist wie eine Fritteuse mit einem Korb.</strong> Dafür ist es hoch, die Schubladen sind für große Stücke eher flach, und es gibt weder App noch WLAN.</p>
+<p>Diese Einschätzung beruht auf den Herstellerangaben von Ninja, auf veröffentlichten Berichten der Fachpresse und auf verifizierten Käuferbewertungen. Wir haben das Gerät nicht selbst in der Küche genutzt: Ziel ist eine klare Darstellung, was es gut kann, wo es schwächelt und für wen es passt. Eine Einordnung im Gesamtmarkt bietet unser <a href="/de/guides/airfryers">Ratgeber zu Heißluftfritteusen</a>.</p>
 
 <h2>Technische Daten</h2>
 <table>
-<thead><tr><th>Merkmal</th><th>Detail</th></tr></thead>
+<thead><tr><th>Merkmal</th><th>Herstellerangabe</th></tr></thead>
 <tbody>
-<tr><td>Gesamtkapazität</td><td>9,5 Liter (2 Schubladen: 4,75L + 4,75L)</td></tr>
+<tr><td>Fassungsvermögen</td><td>9,5 L gesamt (2 Schubladen à 4,75 L)</td></tr>
 <tr><td>Leistung</td><td>2.470 W</td></tr>
-<tr><td>Temperaturbereich</td><td>40°C - 240°C</td></tr>
-<tr><td>Abmessungen (B x T x H)</td><td>27,5 x 37 x 39 cm</td></tr>
-<tr><td>Gewicht</td><td>9,8 kg</td></tr>
-<tr><td>Voreingestellte Programme</td><td>8 (Pommes, Hähnchen, Fisch, Gemüse, Steak, Garnelen, Bacon, Dörren)</td></tr>
-<tr><td>Sonderfunktionen</td><td>Match Cook, Smart Finish, Dörren</td></tr>
-<tr><td>Konnektivität</td><td>Keine</td></tr>
-<tr><td>Preis</td><td>229,99 €</td></tr>
+<tr><td>Funktionen</td><td>Air Fry, Max Crisp, Roast, Bake, Reheat, Dehydrate</td></tr>
+<tr><td>Temperaturen</td><td>Von 40 °C (Dörren) bis 240 °C (Max Crisp), in den übrigen Modi bis 210 °C</td></tr>
+<tr><td>Maße (H x B x T)</td><td>38,5 x 28 x 47 cm</td></tr>
+<tr><td>Gewicht</td><td>Etwa 10,3 kg</td></tr>
+<tr><td>Zubehör</td><td>2 antihaftbeschichtete Crisper-Platten, 2 Etagengitter</td></tr>
+<tr><td>Dual-Zone-Funktionen</td><td>Sync (gleichzeitiges Ende) und Match (Einstellungen übernehmen)</td></tr>
+<tr><td>Vernetzung</td><td>Keine (weder App noch WLAN)</td></tr>
 </tbody>
 </table>
 
-<h2>Design und Verarbeitung</h2>
-<p>Das erste, was beim Ninja Double Stack auffällt, ist sein vertikales Format. Im Gegensatz zu klassischen Dual-Schubladen-Fritteusen, die sich in die Breite ausdehnen (wie die <a href="/de/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>), stapelt dieses Modell seine zwei Fächer übereinander. Das Ergebnis: eine Stellfläche von nur 27,5 x 37 cm, vergleichbar mit einer einfachen Heißluftfritteuse.</p>
-<p>Die Verarbeitungsqualität überzeugt. Das mattschwarze Kunststoffgehäuse ist fingerabdruckresistent, und die Schubladen gleiten auf soliden Metallschienen. Jede Schublade verfügt über einen herausnehmbaren Korb mit Keramik-Antihaftbeschichtung. Die Griffe sind ergonomisch und bleiben während des Garens kühl.</p>
+<h2>Das Konzept: zwei Zonen übereinander statt nebeneinander</h2>
+<p>Die meisten Doppelkorb-Fritteusen ordnen ihre Schubladen nebeneinander an und sind dadurch 40 cm breit oder mehr. Der Double Stack XL dreht das Prinzip um: Die Schubladen liegen übereinander, das Bedienfeld sitzt rechts an der Seite. Mit 28 cm Breite beansprucht er etwa so viel Platz wie ein Gerät mit einem Korb. Ninja beschreibt ihn als 30 % schmaler als das klassische Doppelschubladen-Modell mit ähnlichem Volumen.</p>
+<p>Jede Schublade hat ein eigenes Heizelement und einen eigenen Ventilator, die beiden Zonen arbeiten also wirklich unabhängig: oben Pommes bei 200 °C, unten ein Fischfilet bei 180 °C, jeweils mit eigener Garzeit. Wer den Unterschied zwischen einem Korb und zwei Zonen genauer verstehen möchte, findet ihn in unserem Artikel <a href="/de/blog/airfryer-simple-vs-double-panier">Einzelkorb oder Doppelkorb</a>.</p>
+<p>Vor dem Kauf die Höhe prüfen: Mit 38,5 cm passt das Gerät unter die meisten Hängeschränke, braucht aber Abstand nach oben, damit die heiße Luft entweichen kann. Es ist zudem tief (47 cm) und wiegt rund 10 kg, also kein Gerät, das man nach jeder Mahlzeit in den Schrank räumt.</p>
 
-<h2>Kochleistung</h2>
-<h3>Pommes und Kartoffeln</h3>
-<p>Selbstgemachte Pommes sind der ultimative Test für jede Heißluftfritteuse. Mit 500 g frisch geschnittenen 8-mm-Pommes pro Schublade erzielten wir optimale Ergebnisse bei <strong>200°C für 18 Minuten</strong> mit einmaligem Schütteln. Die Außenseite ist perfekt goldbraun und knusprig, das Innere bleibt fluffig.</p>
-<p>Tiefkühlpommes (McCain Klassik, 400 g pro Schublade) benötigen 14 Minuten bei 200°C. Das Ergebnis kann mit einer traditionellen Fritteuse mithalten, bei 85 % weniger Fett.</p>
+<h2>Sync, Match und Etagengitter</h2>
+<p>Zwei Funktionen machen die Doppelzone im Alltag wirklich praktisch:</p>
+<ul>
+<li><strong>Sync</strong>: Sie stellen für jede Schublade Temperatur und Zeit ein, und das Gerät startet die kürzere später, damit beide gleichzeitig fertig sind. So kommen Hauptgericht und Beilage heiß auf den Tisch.</li>
+<li><strong>Match</strong>: überträgt die Einstellungen einer Schublade auf die andere. Praktisch, um eine Portion zu verdoppeln, etwa zwei Ladungen Pommes oder Hähnchenschenkel.</li>
+</ul>
+<p>Ninja legt außerdem zwei Edelstahlgitter bei, mit denen sich in jeder Schublade auf zwei Ebenen garen lässt, laut Hersteller also bis zu vier Lagen. In der Praxis eignen sich die Gitter vor allem für flache Lebensmittel (Filets, Spieße, Gemüsescheiben); was geschüttelt werden muss, gart in einer Lage besser.</p>
 
-<h3>Hähnchen und Fleisch</h3>
-<p>Marinierte Hähnchenschenkel (6 pro Schublade) bei 190°C für 25 Minuten: Die Haut ist knusprig und karamellisiert, das Fleisch saftig bis zum Knochen. Unser Thermometer bestätigte eine Kerntemperatur von 74°C. Für ein Rindersteaks (250 g Ribeye, 2,5 cm dick) liefert der Hochtemperaturmodus bei 230°C in 12 Minuten eine zufriedenstellende Maillard-Kruste.</p>
+<h2>Garergebnisse: was Fachberichte und Käufer berichten</h2>
+<p>Veröffentlichte Berichte von Fachseiten und verifizierte Käuferbewertungen stimmen in mehreren Punkten überein:</p>
+<ul>
+<li><strong>Pommes und Tiefkühlware</strong>: gute Knusprigkeit und gleichmäßige Bräunung, sofern die Schubladen nicht überfüllt sind und zur Hälfte der Zeit geschüttelt wird. Max Crisp (bis 240 °C) ist bei Tiefkühlprodukten beliebt.</li>
+<li><strong>Gemüse und Fisch</strong>: Die Leistung pro Zone sorgt für schnelles Anbräunen mit als gleichmäßig beschriebenen Ergebnissen.</li>
+<li><strong>Geflügel und große Stücke</strong>: Hier zeigt das Format seine Grenzen. Die Schubladen sind niedriger als die einer großen Einzelkorb-Fritteuse; ein ganzes Hähnchen passt je nach Größe nur knapp hinein, viele Besitzer empfehlen, es zu zerteilen.</li>
+<li><strong>Tempo</strong>: Ninja gibt an, dass bestimmte Lebensmittel bis zu 55 % schneller garen als im Umluftbackofen (Herstellerangabe). Ohne langes Vorheizen braucht das Gerät bei kleinen Mengen meist weniger Strom als ein großer Ofen; mehr dazu in unserem Artikel über das <a href="/de/blog/airfryer-economies-energie">Energiesparen mit der Heißluftfritteuse</a>.</li>
+</ul>
 
-<h3>Gemüse</h3>
-<p>Gegrilltes Gemüse ist eine echte Stärke. Zucchini, Paprika und Zwiebeln bei <strong>180°C für 12 Minuten</strong> kommen perfekt karamellisiert heraus und behalten einen leichten Biss. Die Match-Cook-Funktion ermöglicht es, Pommes und Gemüse gleichzeitig mit unterschiedlichen Einstellungen zu garen.</p>
+<h2>Bedienung und Reinigung</h2>
+<p>Das senkrechte Bedienfeld gilt als übersichtlich: Schublade 1 oder 2 wählen, Funktion auswählen, dann Temperatur und Zeit einstellen. Automatikprogramme für einzelne Lebensmittel wie bei manchen vernetzten Modellen gibt es nicht, Garzeiten muss man also kennen oder nachschlagen.</p>
+<p>Laut Ninja sind Schubladen und Antihaftplatten spülmaschinengeeignet, Handwäsche wird aber empfohlen, um die Beschichtung zu schonen. Scheuerschwämme und Metallbesteck in den Schubladen besser vermeiden.</p>
+<p>Die häufigsten Kritikpunkte von Käufern betreffen die Ergonomie: Die untere Schublade liegt nah an der Arbeitsplatte, man muss sich zum Nachsehen bücken, und ein Sichtfenster fehlt. Eine Erinnerung zum Schütteln gibt es ebenfalls nicht.</p>
 
-<h2>Bedienungsfreundlichkeit</h2>
-<p>Das Touchscreen-Interface ist äußerst intuitiv. Die Match-Cook-Funktion kopiert Einstellungen von einer Schublade zur anderen, während Smart Finish die Startzeiten automatisch versetzt, damit beide Schubladen gleichzeitig fertig werden. Die spülmaschinenfesten Körbe und die leicht zu reinigende Oberfläche machen die Pflege zum Kinderspiel.</p>
-
-<h2>Energieverbrauch</h2>
-<p>Für eine 18-minütige Pommes-Session bei 200°C (beide Schubladen) beträgt der Verbrauch <strong>0,62 kWh</strong>. Ein herkömmlicher Backofen verbraucht für die gleiche Menge etwa 1,8 kWh inklusive Vorheizen. Die monatliche Ersparnis bei täglicher Nutzung beträgt über 10 Euro.</p>
-
-<h2>Stärken und Schwächen</h2>
+<h2>Stärken und Grenzen</h2>
 <h3>Stärken</h3>
 <ul>
-<li><strong>Kompaktes Stapeldesign</strong>: weniger Platz als eine Standard-Dual-Fritteuse</li>
-<li><strong>Ausgezeichnete Garergebnisse</strong>: gleichmäßig und knusprig in allen Tests</li>
-<li><strong>Smart Finish</strong>: perfekt umgesetzte automatische Synchronisation</li>
-<li><strong>Große Kapazität</strong>: 9,5L insgesamt, ideal für 4-6 Personen</li>
-<li><strong>Leichte Reinigung</strong>: spülmaschinenfeste Körbe, haltbare Beschichtung</li>
+<li>Zwei wirklich unabhängige Zonen auf der Breite einer Einzelkorb-Fritteuse</li>
+<li>Sync und Match: einfach und wirksam für komplette Mahlzeiten</li>
+<li>9,5 L Gesamtvolumen, passend für vier bis sechs Personen</li>
+<li>Gitter für zwei Ebenen im Lieferumfang</li>
+<li>Sechs Funktionen, darunter Dörren bei niedriger Temperatur</li>
 </ul>
-<h3>Schwächen</h3>
+<h3>Grenzen</h3>
 <ul>
-<li><strong>Beachtliche Höhe</strong>: 39 cm, kann unter niedrigen Schränken problematisch sein</li>
-<li><strong>Keine Konnektivität</strong>: keine App oder WLAN</li>
-<li><strong>Kurzes Kabel</strong>: nur 1,2 m</li>
-<li><strong>Merkbarer Lärm</strong>: ca. 65 dB, leicht über dem Durchschnitt</li>
+<li>Hoch, tief und schwer</li>
+<li>Schubladen wenig geeignet für große ganze Hähnchen</li>
+<li>Kein Sichtfenster, weder App noch WLAN</li>
+<li>Untere Schublade schlechter einzusehen</li>
 </ul>
 
-<h2>Detaillierter Nura-Score</h2>
+<h2>Vergleich mit den Alternativen</h2>
 <table>
-<thead><tr><th>Kriterium</th><th>Note</th><th>Kommentar</th></tr></thead>
+<thead><tr><th>Modell</th><th>Bauform</th><th>Volumen</th><th>Vernetzung</th><th>Ideal für</th></tr></thead>
 <tbody>
-<tr><td>Kochleistung</td><td>9,5/10</td><td>Ausgezeichnete Ergebnisse bei allen Lebensmitteln</td></tr>
-<tr><td>Bedienungsfreundlichkeit</td><td>9,5/10</td><td>Intuitives Interface, bemerkenswertes Smart Finish</td></tr>
-<tr><td>Design und Verarbeitung</td><td>9,0/10</td><td>Premium-Qualität, geniales Stapelformat</td></tr>
-<tr><td>Vielseitigkeit</td><td>9,5/10</td><td>Doppeltes gleichzeitiges Garen + Dörren</td></tr>
-<tr><td>Preis-Leistung</td><td>9,5/10</td><td>229,99 € für diese Leistung, ausgezeichnet</td></tr>
-<tr><td>Reinigung</td><td>9,5/10</td><td>Spülmaschinenfest, effektive Antihaftbeschichtung</td></tr>
-<tr><td>Lautstärke</td><td>8,5/10</td><td>65 dB, leicht über dem Durchschnitt</td></tr>
-<tr><td><strong>Nura-Gesamtscore</strong></td><td><strong>9,4/10</strong></td><td><strong>Unsere beste Dual-Zone-Fritteuse im Test</strong></td></tr>
+<tr><td><strong>Ninja Foodi MAX Double Stack XL</strong></td><td>2 gestapelte Schubladen</td><td>9,5 L (2 x 4,75 L)</td><td>Nein</td><td>Familien mit wenig Arbeitsflächenbreite</td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>1 große Schublade mit herausnehmbarem Trenner</td><td>10,4 L (oder 2 Zonen)</td><td>Nein</td><td>Ganzes Hähnchen und große Stücke</td></tr>
+<tr><td>Philips Airfryer Combi XXL Connected</td><td>1 Korb</td><td>8,3 L</td><td>WLAN, App und Temperaturfühler</td><td>Fleisch auf den Punkt, vernetzte Küche</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>1 Korb, Hitze von oben und unten</td><td>6,4 L</td><td>WLAN und App</td><td>Paare und kleine Familien, weniger Wenden</td></tr>
 </tbody>
 </table>
+<p>Gegenüber dem <a href="/de/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> ist der Double Stack deutlich schmaler, doch beim FlexDrawer lässt sich der Trenner entfernen, was einen großen Garraum für ein ganzes Hähnchen ergibt. Der Philips Combi XXL Connected ist kein Dual-Zone-Gerät: Er setzt auf einen großen Korb, einen Temperaturfühler und eine App. Der kompaktere Cosori Dual Blaze heizt von oben und unten, sodass weniger gewendet werden muss.</p>
+
+<h2>Fehler, die Sie vermeiden sollten</h2>
+<ul>
+<li><strong>Schubladen bis zum Rand füllen</strong>: Die Luft zirkuliert schlechter, die Knusprigkeit leidet. Zwei halb volle Schubladen sind besser als eine überladene.</li>
+<li><strong>Direkt an die Wand oder unter einen niedrigen Schrank stellen</strong>: Rundherum und nach oben Abstand für die heiße Abluft lassen, wie in der Anleitung angegeben.</li>
+<li><strong>Das Schütteln vergessen</strong>: Das Gerät erinnert nicht daran. Für Pommes und kleine Stücke einen Timer zur Halbzeit stellen.</li>
+<li><strong>Das Gewicht unterschätzen</strong>: Bei rund 10 kg einen festen Platz auf einer stabilen Arbeitsfläche einplanen.</li>
+<li><strong>Ein zu schwaches Verlängerungskabel nutzen</strong>: Bei fast 2,5 kW das Gerät möglichst direkt an eine Wandsteckdose anschließen.</li>
+</ul>
+
+<h2>Für wen eignet er sich?</h2>
+<p>Der Double Stack XL passt zu Familien mit vier bis sechs Personen, die Hauptgericht und Beilage gleichzeitig zubereiten möchten und in der Küche wenig Breite zur Verfügung haben. Weniger sinnvoll ist er, wenn Sie allein oder zu zweit kochen (ein Modell mit 4 bis 6 L reicht), oft ganze Hähnchen braten oder die Fritteuse per Smartphone steuern möchten. Für sehr große Haushalte zeigt unsere Auswahl der <a href="/de/blog/meilleur-airfryer-xxl-grande-famille">XXL-Heißluftfritteusen für große Familien</a> weitere Optionen.</p>
 
 <h2>Fazit</h2>
-<p>Der Ninja Foodi MAX Double Stack XL 9,5L ist schlichtweg <strong>die beste Dual-Zone-Heißluftfritteuse, die wir 2026 getestet haben</strong>. Sein gestapeltes Konzept löst das Platzproblem herkömmlicher Dual-Modelle und liefert erstklassige Garergebnisse. Für 229,99 Euro ist er eine vernünftige Investition für eine Familie von 4-6 Personen.</p>
-<p>Für weitere Optionen besuchen Sie unseren <a href="/de/guides/airfryers">vollständigen Ratgeber der besten Heißluftfritteusen 2026</a> oder unseren <a href="/de/blog/ninja-vs-philips-quel-choisir">Ninja vs Philips Vergleich</a>.</p>
+<p>Der Ninja Foodi MAX Double Stack XL 9,5 L ist eine ausgezeichnete Dual-Zone-Wahl für Familien: zwei unabhängige Garräume, gut durchdachte Sync- und Match-Funktionen und eine schmale Stellfläche, die ihn von fast allen Konkurrenten abhebt. Seine Grenzen sind klar: Höhe, Gewicht, flache Schubladen für große Stücke und fehlende Vernetzung. Wenn Sie damit leben können, ist er unsere Referenzempfehlung unter den Dual-Zone-Heißluftfritteusen für Familien.</p>`,
 
-<h2>Vergleich mit der Konkurrenz</h2>
-<p>Der Ninja Double Stack steht in direktem Wettbewerb mit drei ernsthaften Alternativen im Jahr 2026:</p>
-<table>
-<thead><tr><th>Modell</th><th>Preis</th><th>Kapazität</th><th>Nura-Score</th><th>Hauptvorteil</th></tr></thead>
-<tbody>
-<tr><td><strong>Ninja Double Stack XL</strong></td><td>229,99 €</td><td>9,5L</td><td>9,4/10</td><td>Kompaktes Stapeldesign + Smart Finish</td></tr>
-<tr><td>Ninja FlexDrawer 10,4L</td><td>249,99 €</td><td>10,4L</td><td>9,2/10</td><td>Einzel-Mega-Zone von 10,4L möglich</td></tr>
-<tr><td>Philips Combi XXL Connected</td><td>349,99 €</td><td>8,3L</td><td>9,0/10</td><td>Integrierter Temperaturfühler</td></tr>
-<tr><td>Cosori Dual Blaze 6,4L</td><td>139,99 €</td><td>6,4L</td><td>8,9/10</td><td>Doppelheizelement + WLAN</td></tr>
-</tbody>
-</table>
-<p>Im Vergleich zum <a href="/de/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> bietet der Double Stack einen kleineren Stellflächenbedarf (27,5 cm vs. 44,5 cm Breite) bei nahezu gleicher Kapazität. Gegenüber dem <a href="/de/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> ist er 120 Euro günstiger und erzielt einen höheren Score. Der Philips rechtfertigt seinen Preis mit dem Temperaturfühler und der HomeID-App — für Familien, die viel Fleisch kochen und Präzision wünschen, ist er relevant. Für alle anderen ist der Double Stack das beste Preis-Leistungs-Verhältnis im Segment.</p>
-
-<h2>Für wen ist der Ninja Double Stack ideal?</h2>
-<ul>
-<li><strong>Familien von 4 bis 6 Personen</strong>, die täglich kochen und gleichzeitig Haupt- und Beilagengerichte zubereiten möchten</li>
-<li><strong>Menschen mit wenig Platz</strong> auf der Arbeitsfläche, die dennoch Doppelzonen-Funktionalität wünschen — das Stapelformat ist unschlagbar</li>
-<li><strong>Pragmatische Köche</strong>, die hervorragende Leistung ohne App-Komplexität bevorzugen</li>
-<li><strong>Meal-Preppler</strong>, die am Wochenende vorkochen: gleichzeitiges Garen von zwei Proteinen spart wertvolle Zeit</li>
-</ul>
-<p>Das Modell ist weniger geeignet, wenn Sie allein oder zu zweit kochen (ein 4-5L-Gerät reicht), wenn Sie unbedingt WLAN-Konnektivität benötigen (dann lieber Cosori Dual Blaze oder Philips Combi), oder wenn Sie eine Einzel-Mega-Zone über 5L für ein ganzes Hähnchen benötigen (dann FlexDrawer).</p>
-
-<h2>Abschließendes detailliertes Urteil</h2>
-<p>Der Ninja Foodi MAX Double Stack XL 9,5L definiert neu, was eine Dual-Zone-Heißluftfritteuse sein sollte. Das vertikale Stapelkonzept ist eine echte Innovation, die das Platzproblem klassischer Doppelmodelle elegant löst. Die Garqualität ist bei allen getesteten Lebensmitteln hervorragend, und Smart Finish funktioniert genau wie versprochen.</p>
-<p>Bei 229,99 Euro bietet er das beste Preis-Leistungs-Verhältnis seines Segments in 2026. Er übertrifft seine direkten Konkurrenten bei nahezu allen Kriterien, die für den täglichen Familieneinsatz zählen. Die einzigen Schwächen — keine Konnektivität, etwas lauter als der Durchschnitt — sind akzeptable Kompromisse angesichts der Stärken. Bestätigter Nura-Score: <strong>9,4/10</strong>.</p>`,
-
-    es: `<h2>Introducción</h2>
-<p>La Ninja Foodi MAX Double Stack XL 9,5L es una de las freidoras de aire más ambiciosas del mercado en 2026. Con su exclusivo diseño de doble cajón apilado verticalmente, promete cocinar dos platos diferentes simultáneamente ocupando menos espacio en la encimera que una freidora de doble zona tradicional. Con un precio de 229,99 euros, se posiciona en el segmento premium sin alcanzar los precios de los modelos conectados de gama alta.</p>
-<p>En Homenura, probamos este aparato durante 6 semanas en condiciones reales de uso diario. Patatas fritas, pollo asado, verduras a la parrilla, pescado, postres: lo pusimos todo a prueba. Con una puntuación Nura de <strong>9,4/10</strong>, podemos decirlo de antemano: esta Ninja nos ha impresionado.</p>
+    es: `<p><strong>El Ninja Foodi MAX Double Stack XL 9,5 L (referencia SL400EU) es una de las freidoras de aire de doble zona más sensatas para una familia con poco espacio en la encimera: sus dos cajones de 4,75 L están apilados uno sobre otro, así que ocupa el mismo ancho que una freidora de una sola cesta.</strong> A cambio, es alta, sus cajones son poco profundos para piezas grandes y no tiene aplicación ni wifi.</p>
+<p>Esta opinión se basa en las especificaciones publicadas por Ninja, en análisis de la prensa especializada y en opiniones de compradores verificados. No lo hemos usado en nuestra propia cocina: el objetivo es explicarte con claridad qué hace bien, en qué flojea y a quién le conviene. Para compararlo con otros modelos, consulta nuestra <a href="/es/guides/airfryers">guía de freidoras de aire</a>.</p>
 
 <h2>Ficha técnica</h2>
 <table>
-<thead><tr><th>Característica</th><th>Detalle</th></tr></thead>
+<thead><tr><th>Característica</th><th>Valor indicado por Ninja</th></tr></thead>
 <tbody>
-<tr><td>Capacidad total</td><td>9,5 litros (2 cajones: 4,75L + 4,75L)</td></tr>
+<tr><td>Capacidad</td><td>9,5 L en total (2 cajones de 4,75 L)</td></tr>
 <tr><td>Potencia</td><td>2.470 W</td></tr>
-<tr><td>Rango de temperatura</td><td>40°C - 240°C</td></tr>
-<tr><td>Dimensiones (An x Pr x Al)</td><td>27,5 x 37 x 39 cm</td></tr>
-<tr><td>Peso</td><td>9,8 kg</td></tr>
-<tr><td>Programas predefinidos</td><td>8 (patatas, pollo, pescado, verduras, steak, gambas, bacon, deshidratar)</td></tr>
-<tr><td>Funciones especiales</td><td>Match Cook, Smart Finish, deshidratación</td></tr>
-<tr><td>Conectividad</td><td>No</td></tr>
-<tr><td>Precio</td><td>229,99 €</td></tr>
+<tr><td>Funciones</td><td>Air Fry, Max Crisp, Roast, Bake, Reheat, Dehydrate</td></tr>
+<tr><td>Temperaturas</td><td>De 40 °C (deshidratar) a 240 °C (Max Crisp), hasta 210 °C en los demás modos</td></tr>
+<tr><td>Dimensiones (Al x An x P)</td><td>38,5 x 28 x 47 cm</td></tr>
+<tr><td>Peso</td><td>Unos 10,3 kg</td></tr>
+<tr><td>Accesorios</td><td>2 bandejas antiadherentes, 2 rejillas multinivel</td></tr>
+<tr><td>Funciones de doble zona</td><td>Sync (final simultáneo) y Match (copiar ajustes)</td></tr>
+<tr><td>Conectividad</td><td>Ninguna (sin aplicación ni wifi)</td></tr>
 </tbody>
 </table>
 
-<h2>Diseño y fabricación</h2>
-<p>Lo primero que llama la atención del Ninja Double Stack es su formato vertical. A diferencia de las freidoras de doble cajón clásicas que se extienden a lo ancho (como la <a href="/es/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>), esta apila sus dos compartimentos uno encima del otro. El resultado: una huella de solo 27,5 x 37 cm, comparable a una freidora simple.</p>
-<p>La calidad de fabricación es excelente. La carcasa de plástico negro mate resiste bien las huellas dactilares y los cajones se deslizan sobre rieles metálicos sólidos. Cada cajón dispone de su propia cesta extraíble con recubrimiento antiadherente cerámico. Las asas son ergonómicas y se mantienen frías durante la cocción.</p>
+<h2>La idea: dos zonas apiladas en lugar de lado a lado</h2>
+<p>La mayoría de las freidoras de doble cesta colocan los cajones uno junto al otro, lo que da aparatos de 40 cm de ancho o más. El Double Stack XL hace lo contrario: los cajones están uno encima del otro y el panel de control va en el lateral derecho. Con 28 cm de ancho, ocupa más o menos lo mismo que un modelo de una cesta. Ninja lo presenta como un 30 % más estrecho que su modelo clásico de doble cajón de capacidad similar.</p>
+<p>Cada cajón tiene su propia resistencia y su propio ventilador, así que las dos zonas son realmente independientes: puedes hacer patatas a 200 °C arriba y un filete de pescado a 180 °C abajo, con tiempos distintos. Si no tienes clara la diferencia entre una cesta y dos zonas, nuestro artículo sobre <a href="/es/blog/airfryer-simple-vs-double-panier">freidora de una o dos cestas</a> explica ambos enfoques.</p>
+<p>Revisa la altura antes de comprar. Con 38,5 cm cabe bajo la mayoría de los muebles altos, pero necesita espacio por encima para que salga el aire caliente. También es profunda (47 cm) y pesa unos 10 kg: no es un aparato para guardar en un armario después de cada comida.</p>
 
-<h2>Rendimiento de cocción</h2>
-<h3>Patatas fritas</h3>
-<p>Con 500 g de patatas fritas frescas cortadas en bastones de 8 mm por cajón, obtuvimos resultados óptimos a <strong>200°C durante 18 minutos</strong> con una sacudida a mitad de cocción. El exterior queda perfectamente dorado y crujiente, mientras el interior permanece tierno. Para patatas congeladas (McCain clásicas, 400 g por cajón), 14 minutos a 200°C son suficientes.</p>
+<h2>Sync, Match y rejillas multinivel</h2>
+<p>Dos funciones hacen que la doble zona sea realmente útil en el día a día:</p>
+<ul>
+<li><strong>Sync</strong>: ajustas cada cajón con su temperatura y su tiempo, y el aparato retrasa el inicio del más corto para que ambos terminen a la vez. Es la forma más sencilla de servir el plato principal y la guarnición calientes al mismo tiempo.</li>
+<li><strong>Match</strong>: copia los ajustes de un cajón en el otro. Práctico para duplicar una misma receta, como dos tandas de patatas o de muslitos.</li>
+</ul>
+<p>Ninja incluye además dos rejillas de acero inoxidable para cocinar en dos niveles dentro de cada cajón, es decir, hasta cuatro capas de alimentos según el fabricante. En la práctica, las rejillas funcionan mejor con alimentos planos (filetes, brochetas, verduras en láminas); lo que hay que remover se cocina mejor en una sola capa.</p>
 
-<h3>Pollo y carnes</h3>
-<p>Probamos muslos de pollo marinados (6 por cajón) a 190°C durante 25 minutos. La piel queda crujiente y caramelizada, la carne jugosa hasta el hueso. Nuestro termómetro confirmó una temperatura interna de 74°C. Para un filete de ternera (250 g, 2,5 cm de grosor), el modo alta temperatura a 230°C produce una costra de Maillard satisfactoria en 12 minutos.</p>
+<h2>Resultados de cocción: lo que dicen los análisis publicados y los compradores</h2>
+<p>Los análisis de webs especializadas y las opiniones de compradores verificados coinciden en varios puntos:</p>
+<ul>
+<li><strong>Patatas fritas y congelados</strong>: buen crujiente y dorado uniforme, siempre que no se llenen demasiado los cajones y se agite a mitad de cocción. El modo Max Crisp (hasta 240 °C) es muy apreciado para los congelados.</li>
+<li><strong>Verduras y pescado</strong>: la potencia de cada zona dora rápido, con resultados descritos como homogéneos.</li>
+<li><strong>Aves y piezas grandes</strong>: aquí el formato muestra sus límites. Los cajones son más bajos que los de una freidora grande de una sola cesta; un pollo entero entra con dificultad según su tamaño, y varios propietarios aconsejan trocearlo.</li>
+<li><strong>Rapidez</strong>: Ninja asegura que algunos alimentos se cocinan hasta un 55 % más rápido que en un horno de convección (dato del fabricante). Sin precalentamiento largo, suele consumir menos que un horno grande para cantidades pequeñas; lo explicamos en nuestro artículo sobre el <a href="/es/blog/airfryer-economies-energie">ahorro de energía con una freidora de aire</a>.</li>
+</ul>
 
-<h3>Verduras</h3>
-<p>Las verduras a la parrilla son un punto fuerte. Calabacines, pimientos y cebollas a <strong>180°C durante 12 minutos</strong> salen perfectamente caramelizados conservando un ligero crujiente. La función Match Cook permite cocinar patatas fritas en un cajón y verduras en el otro simultáneamente.</p>
+<h2>Uso y limpieza</h2>
+<p>Los usuarios consideran el panel de control vertical claro y sencillo: eliges el cajón 1 o 2, la función y después la temperatura y el tiempo. No hay programas automáticos por alimento como en algunos modelos conectados, así que conviene conocer (o consultar) los tiempos de cocción.</p>
+<p>Según Ninja, los cajones y las bandejas antiadherentes pueden ir al lavavajillas, aunque recomienda lavarlos a mano para cuidar el revestimiento. Evita estropajos abrasivos y utensilios metálicos dentro de los cajones.</p>
+<p>Las críticas más habituales de los compradores tienen que ver con la ergonomía: el cajón inferior queda cerca de la encimera, hay que agacharse para vigilarlo y no tiene ventana. Tampoco hay ningún aviso para agitar los alimentos a mitad de cocción.</p>
 
-<h2>Facilidad de uso</h2>
-<p>La interfaz táctil es una de las más intuitivas que hemos probado. La función Smart Finish calcula automáticamente el desfase para que ambos cajones terminen al mismo tiempo. Las cestas aptas para lavavajillas y la superficie fácil de limpiar hacen que el mantenimiento sea sencillo.</p>
-
-<h2>Consumo energético</h2>
-<p>Para una sesión de patatas fritas de 18 minutos a 200°C (ambos cajones), el consumo es de <strong>0,62 kWh</strong>. Un horno tradicional consume aproximadamente 1,8 kWh para la misma cantidad. El ahorro mensual con uso diario supera los 10 euros.</p>
-
-<h2>Puntos fuertes y débiles</h2>
+<h2>Puntos fuertes y límites</h2>
 <h3>Puntos fuertes</h3>
 <ul>
-<li><strong>Diseño apilado compacto</strong>: ocupa menos espacio que una freidora doble estándar</li>
-<li><strong>Cocción excelente</strong>: resultados uniformes y crujientes en todas las pruebas</li>
-<li><strong>Smart Finish</strong>: sincronización automática perfecta</li>
-<li><strong>Gran capacidad</strong>: 9,5L total, ideal para 4-6 personas</li>
-<li><strong>Limpieza fácil</strong>: cestas aptas para lavavajillas</li>
+<li>Dos zonas realmente independientes en el ancho de una freidora de una cesta</li>
+<li>Sync y Match, sencillos y eficaces para comidas completas</li>
+<li>9,5 L de capacidad total, adecuada para familias de cuatro a seis personas</li>
+<li>Rejillas incluidas para cocinar en dos niveles</li>
+<li>Seis funciones, incluida la deshidratación a baja temperatura</li>
 </ul>
-<h3>Puntos débiles</h3>
+<h3>Límites</h3>
 <ul>
-<li><strong>Altura importante</strong>: 39 cm, puede ser problemático bajo muebles bajos</li>
-<li><strong>Sin conectividad</strong>: sin app ni Wi-Fi</li>
-<li><strong>Cable corto</strong>: solo 1,2 m</li>
-<li><strong>Ruido notable</strong>: aproximadamente 65 dB</li>
+<li>Alta, profunda y pesada</li>
+<li>Cajones poco adecuados para aves enteras grandes</li>
+<li>Sin ventana, sin aplicación ni wifi</li>
+<li>El cajón inferior es menos cómodo de vigilar</li>
 </ul>
 
-<h2>Puntuación Nura detallada</h2>
+<h2>Comparación con las alternativas</h2>
 <table>
-<thead><tr><th>Criterio</th><th>Nota</th><th>Comentario</th></tr></thead>
+<thead><tr><th>Modelo</th><th>Formato</th><th>Capacidad</th><th>Conectividad</th><th>Ideal para</th></tr></thead>
 <tbody>
-<tr><td>Rendimiento de cocción</td><td>9,5/10</td><td>Excelentes resultados en todos los alimentos</td></tr>
-<tr><td>Facilidad de uso</td><td>9,5/10</td><td>Interfaz intuitiva, Smart Finish notable</td></tr>
-<tr><td>Diseño y fabricación</td><td>9,0/10</td><td>Calidad premium, formato apilado ingenioso</td></tr>
-<tr><td>Versatilidad</td><td>9,5/10</td><td>Doble cocción simultánea + deshidratación</td></tr>
-<tr><td>Relación calidad-precio</td><td>9,5/10</td><td>229,99 € por estas prestaciones</td></tr>
-<tr><td>Limpieza</td><td>9,5/10</td><td>Apta para lavavajillas, antiadherente eficaz</td></tr>
-<tr><td>Ruido</td><td>8,5/10</td><td>65 dB, ligeramente por encima de la media</td></tr>
-<tr><td><strong>Puntuación Nura global</strong></td><td><strong>9,4/10</strong></td><td><strong>Nuestra mejor freidora de doble zona</strong></td></tr>
+<tr><td><strong>Ninja Foodi MAX Double Stack XL</strong></td><td>2 cajones apilados</td><td>9,5 L (2 x 4,75 L)</td><td>No</td><td>Familias con poca encimera a lo ancho</td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>1 cajón grande con separador extraíble</td><td>10,4 L (o 2 zonas)</td><td>No</td><td>Pollo entero y piezas grandes</td></tr>
+<tr><td>Philips Airfryer Combi XXL Connected</td><td>1 cesta</td><td>8,3 L</td><td>Wifi, aplicación y sonda de temperatura</td><td>Carnes en su punto, cocinas conectadas</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>1 cesta, calor arriba y abajo</td><td>6,4 L</td><td>Wifi y aplicación</td><td>Parejas y familias pequeñas, menos vueltas</td></tr>
 </tbody>
 </table>
+<p>Frente al <a href="/es/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>, el Double Stack es mucho más estrecho, pero el FlexDrawer permite quitar el separador para obtener un solo compartimento grande, más adecuado para un ave entera. El Philips Combi XXL Connected no es de doble zona: apuesta por una cesta grande, una sonda de temperatura y una aplicación. El Cosori Dual Blaze, más compacto, calienta por arriba y por abajo, por lo que hay que dar menos vueltas a los alimentos.</p>
+
+<h2>Errores que debes evitar</h2>
+<ul>
+<li><strong>Llenar los cajones hasta arriba</strong>: el aire circula peor y se pierde crujiente. Mejor dos cajones a media carga que uno sobrecargado.</li>
+<li><strong>Pegarla a la pared o colocarla bajo un mueble bajo</strong>: deja espacio alrededor y por encima para que salga el aire caliente, como indica el manual.</li>
+<li><strong>Olvidarse de agitar</strong>: el aparato no te lo recuerda. Pon un temporizador a mitad de cocción para las patatas y los trozos pequeños.</li>
+<li><strong>Subestimar el peso</strong>: con unos 10 kg, reserva un sitio fijo en una encimera estable.</li>
+<li><strong>Usar un alargador insuficiente</strong>: con casi 2,5 kW, conéctala preferiblemente directamente a un enchufe de pared.</li>
+</ul>
+
+<h2>¿Para quién es?</h2>
+<p>El Double Stack XL encaja con familias de cuatro a seis personas que quieren cocinar el plato principal y la guarnición a la vez en una cocina con poca encimera a lo ancho. Tiene menos sentido si cocinas para una o dos personas (basta un modelo de 4 a 6 L), si asas a menudo aves enteras o si quieres controlar la freidora desde el móvil. Para hogares muy numerosos, nuestra selección de <a href="/es/blog/meilleur-airfryer-xxl-grande-famille">freidoras de aire XXL para familias grandes</a> recoge otras opciones.</p>
 
 <h2>Veredicto</h2>
-<p>La Ninja Foodi MAX Double Stack XL 9,5L es simplemente <strong>la mejor freidora de aire de doble zona que hemos probado en 2026</strong>. Su concepto de cajones apilados resuelve el problema de espacio de los modelos dobles convencionales y ofrece un rendimiento de cocción de primer nivel.</p>
-<p>A 229,99 euros, representa una inversión razonable para una familia de 4-6 personas. Para más opciones, consulte nuestra <a href="/es/guides/airfryers">guía completa de las mejores freidoras de aire 2026</a> o nuestra <a href="/es/blog/ninja-vs-philips-quel-choisir">comparativa Ninja vs Philips</a>.</p>
+<p>El Ninja Foodi MAX Double Stack XL 9,5 L es una opción de doble zona excelente para familias: dos compartimentos independientes, funciones Sync y Match bien pensadas y un ancho reducido que lo distingue de casi todos sus rivales. Sus límites son claros: altura, peso, cajones poco profundos para piezas grandes y ausencia de conectividad. Si eso no te importa, es nuestra elección de referencia entre las freidoras de aire de doble zona para una familia.</p>`,
 
-<h2>Comparación con la competencia</h2>
-<table>
-<thead><tr><th>Modelo</th><th>Precio</th><th>Capacidad</th><th>Puntuación Nura</th><th>Ventaja principal</th></tr></thead>
-<tbody>
-<tr><td><strong>Ninja Double Stack XL</strong></td><td>229,99 €</td><td>9,5L</td><td>9,4/10</td><td>Diseño apilado compacto + Smart Finish</td></tr>
-<tr><td>Ninja FlexDrawer 10,4L</td><td>249,99 €</td><td>10,4L</td><td>9,2/10</td><td>Mega-zona única de 10,4L posible</td></tr>
-<tr><td>Philips Combi XXL Connected</td><td>349,99 €</td><td>8,3L</td><td>9,0/10</td><td>Sonda de temperatura integrada</td></tr>
-<tr><td>Cosori Dual Blaze 6,4L</td><td>139,99 €</td><td>6,4L</td><td>8,9/10</td><td>Doble resistencia + Wi-Fi</td></tr>
-</tbody>
-</table>
-<p>Frente al <a href="/es/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>, el Double Stack ofrece una huella más reducida (27,5 cm vs 44,5 cm de ancho) para una capacidad casi equivalente. Frente al <a href="/es/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a>, es 120 euros más barato y obtiene una puntuación superior. El Philips justifica su precio con la sonda de temperatura y la app HomeID, útil para quienes cocinan mucha carne y buscan precisión.</p>
-
-<h2>¿Para quién es ideal la Ninja Double Stack?</h2>
-<ul>
-<li><strong>Familias de 4 a 6 personas</strong> que cocinan a diario y necesitan preparar plato principal y guarnición simultáneamente</li>
-<li><strong>Personas con poco espacio</strong> en la encimera que quieren funcionalidad de doble zona — el formato apilado es insuperable</li>
-<li><strong>Cocineros pragmáticos</strong> que quieren un excelente rendimiento sin la complejidad de una app conectada</li>
-<li><strong>Aficionados al meal prep</strong> que cocinan en lote los fines de semana</li>
-</ul>
-
-<h2>Veredicto final detallado</h2>
-<p>La Ninja Foodi MAX Double Stack XL 9,5L redefine lo que debe ser una freidora de aire de doble zona. Su concepto de apilamiento vertical es una innovación genuina que resuelve elegantemente el problema de espacio de los modelos dobles convencionales. La calidad de cocción es excelente en todos los alimentos probados y Smart Finish funciona exactamente como se promete.</p>
-<p>A 229,99 euros, representa el mejor valor de su segmento en 2026. Supera a sus competidores directos en prácticamente todos los criterios que importan para el uso familiar diario. Las únicas carencias — sin conectividad, algo más ruidosa que la media — son compromisos aceptables dadas sus fortalezas. Puntuación Nura confirmada: <strong>9,4/10</strong>.</p>`,
-
-    it: `<h2>Introduzione</h2>
-<p>La Ninja Foodi MAX Double Stack XL 9,5L è una delle friggitrici ad aria più ambiziose sul mercato nel 2026. Con il suo esclusivo design a doppio cassetto impilato verticalmente, promette di cuocere due piatti diversi contemporaneamente occupando meno spazio sul piano di lavoro rispetto a una friggitrice dual-zone tradizionale. Con un prezzo di 229,99 euro, si posiziona nel segmento premium senza raggiungere i prezzi dei modelli connessi di fascia alta.</p>
-<p>Da Homenura, abbiamo testato questo apparecchio per 6 settimane in condizioni di utilizzo quotidiano reale. Patatine fritte, pollo arrosto, verdure grigliate, pesce, dolci: abbiamo messo tutto alla prova. Con un punteggio Nura di <strong>9,4/10</strong>, possiamo dirlo subito: questa Ninja ci ha impressionato.</p>
+    it: `<p><strong>Il Ninja Foodi MAX Double Stack XL 9,5 L (modello SL400EU) è una delle friggitrici ad aria a doppia zona più sensate per una famiglia con poco spazio sul piano di lavoro: i due cassetti da 4,75 L sono impilati uno sopra l'altro, quindi occupa la stessa larghezza di una friggitrice a cestello singolo.</strong> In cambio è alta, i cassetti sono poco profondi per i pezzi grandi e non ha né app né Wi-Fi.</p>
+<p>Questa recensione si basa sulle specifiche pubblicate da Ninja, sulle prove pubblicate dalla stampa specializzata e sui pareri di acquirenti verificati. Non l'abbiamo usata nella nostra cucina: l'obiettivo è dirti con chiarezza cosa fa bene, dove è carente e a chi conviene. Per confrontarla con altri modelli, leggi la nostra <a href="/it/guides/airfryers">guida alle friggitrici ad aria</a>.</p>
 
 <h2>Scheda tecnica</h2>
 <table>
-<thead><tr><th>Caratteristica</th><th>Dettaglio</th></tr></thead>
+<thead><tr><th>Caratteristica</th><th>Valore dichiarato da Ninja</th></tr></thead>
 <tbody>
-<tr><td>Capacità totale</td><td>9,5 litri (2 cassetti: 4,75L + 4,75L)</td></tr>
+<tr><td>Capacità</td><td>9,5 L in totale (2 cassetti da 4,75 L)</td></tr>
 <tr><td>Potenza</td><td>2.470 W</td></tr>
-<tr><td>Range di temperatura</td><td>40°C - 240°C</td></tr>
-<tr><td>Dimensioni (L x P x A)</td><td>27,5 x 37 x 39 cm</td></tr>
-<tr><td>Peso</td><td>9,8 kg</td></tr>
-<tr><td>Programmi preimpostati</td><td>8 (patatine, pollo, pesce, verdure, bistecca, gamberetti, bacon, essiccazione)</td></tr>
-<tr><td>Funzioni speciali</td><td>Match Cook, Smart Finish, essiccazione</td></tr>
-<tr><td>Connettività</td><td>Nessuna</td></tr>
-<tr><td>Prezzo</td><td>229,99 €</td></tr>
+<tr><td>Funzioni</td><td>Air Fry, Max Crisp, Roast, Bake, Reheat, Dehydrate</td></tr>
+<tr><td>Temperature</td><td>Da 40 °C (essiccazione) a 240 °C (Max Crisp), fino a 210 °C nelle altre modalità</td></tr>
+<tr><td>Dimensioni (A x L x P)</td><td>38,5 x 28 x 47 cm</td></tr>
+<tr><td>Peso</td><td>Circa 10,3 kg</td></tr>
+<tr><td>Accessori</td><td>2 piastre antiaderenti, 2 griglie multilivello</td></tr>
+<tr><td>Funzioni doppia zona</td><td>Sync (fine simultanea) e Match (copia delle impostazioni)</td></tr>
+<tr><td>Connettività</td><td>Nessuna (né app né Wi-Fi)</td></tr>
 </tbody>
 </table>
 
-<h2>Design e qualità costruttiva</h2>
-<p>Il primo elemento che colpisce del Ninja Double Stack è il formato verticale. A differenza delle friggitrici a doppio cassetto classiche che si estendono in larghezza (come la <a href="/it/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>), questo modello impila i due scomparti uno sopra l'altro. Il risultato: un ingombro di soli 27,5 x 37 cm, paragonabile a una friggitrice singola.</p>
-<p>La qualità costruttiva è convincente. La scocca in plastica nera opaca resiste bene alle impronte, e i cassetti scorrono su guide metalliche solide. Ogni cassetto dispone del proprio cestello rimovibile con rivestimento antiaderente in ceramica. Le impugnature sono ergonomiche e restano fredde durante la cottura.</p>
+<h2>L'idea: due zone impilate invece che affiancate</h2>
+<p>La maggior parte delle friggitrici a doppio cestello affianca i cassetti, con apparecchi larghi 40 cm o più. Il Double Stack XL ribalta il principio: i cassetti sono sovrapposti e il pannello di controllo si trova sul lato destro. Con 28 cm di larghezza, occupa più o meno lo spazio di un modello a cestello singolo. Ninja lo presenta come più sottile del 30 % rispetto al suo modello classico a doppio cassetto di capacità simile.</p>
+<p>Ogni cassetto ha la propria resistenza e la propria ventola, quindi le due zone sono davvero indipendenti: puoi cuocere patatine a 200 °C sopra e un filetto di pesce a 180 °C sotto, con tempi diversi. Se la differenza tra cestello singolo e doppia zona non ti è chiara, il nostro articolo su <a href="/it/blog/airfryer-simple-vs-double-panier">friggitrice a cestello singolo o doppio</a> spiega entrambi gli approcci.</p>
+<p>Controlla l'altezza prima di acquistarla. Con 38,5 cm passa sotto la maggior parte dei pensili, ma serve spazio sopra per l'uscita dell'aria calda. È anche profonda (47 cm) e pesa circa 10 kg: non è un apparecchio da riporre nell'armadio dopo ogni pasto.</p>
 
-<h2>Prestazioni di cottura</h2>
-<h3>Patatine fritte e patate</h3>
-<p>Con 500 g di patatine fresche tagliate a bastoncino da 8 mm per cassetto, abbiamo ottenuto risultati ottimali a <strong>200°C per 18 minuti</strong> con una scossa a metà cottura. L'esterno è perfettamente dorato e croccante, l'interno resta morbido. Per le patatine surgelate (McCain classiche, 400 g per cassetto), 14 minuti a 200°C sono sufficienti.</p>
+<h2>Sync, Match e griglie multilivello</h2>
+<p>Due funzioni rendono la doppia zona davvero utile ogni giorno:</p>
+<ul>
+<li><strong>Sync</strong>: imposti temperatura e tempo per ogni cassetto e l'apparecchio ritarda l'avvio di quello più breve, così entrambi finiscono insieme. È il modo più semplice per servire secondo e contorno caldi nello stesso momento.</li>
+<li><strong>Match</strong>: copia le impostazioni di un cassetto sull'altro. Comodo per raddoppiare una stessa preparazione, come due infornate di patatine o di fusi di pollo.</li>
+</ul>
+<p>Ninja fornisce anche due griglie in acciaio inox per cuocere su due livelli in ogni cassetto, cioè fino a quattro strati di cibo secondo il produttore. In pratica le griglie funzionano meglio con alimenti piatti (filetti, spiedini, verdure a fette); ciò che va scosso cuoce meglio in un solo strato.</p>
 
-<h3>Pollo e carni</h3>
-<p>Abbiamo testato cosce di pollo marinate (6 per cassetto) a 190°C per 25 minuti. La pelle è croccante e caramellata, la carne succosa fino all'osso. Il nostro termometro ha confermato una temperatura interna di 74°C. Per una bistecca di manzo (250 g, spessore 2,5 cm), la modalità alta temperatura a 230°C produce una crosta di Maillard soddisfacente in 12 minuti.</p>
+<h2>Risultati di cottura: cosa dicono le prove pubblicate e gli acquirenti</h2>
+<p>Le prove dei siti specializzati e i pareri degli acquirenti verificati concordano su diversi punti:</p>
+<ul>
+<li><strong>Patatine e surgelati</strong>: buona croccantezza e doratura uniforme, a patto di non riempire troppo i cassetti e di scuotere a metà cottura. La modalità Max Crisp (fino a 240 °C) è molto apprezzata per i surgelati.</li>
+<li><strong>Verdure e pesce</strong>: la potenza di ogni zona permette di rosolare in fretta, con risultati descritti come omogenei.</li>
+<li><strong>Pollame e pezzi grandi</strong>: qui il formato mostra i suoi limiti. I cassetti sono più bassi di quelli di una grande friggitrice a cestello singolo; un pollo intero entra a fatica a seconda delle dimensioni e diversi proprietari consigliano di tagliarlo a pezzi.</li>
+<li><strong>Rapidità</strong>: Ninja dichiara cotture fino al 55 % più rapide rispetto a un forno ventilato per alcuni alimenti (dato del produttore). Senza un lungo preriscaldamento, per piccole quantità consuma in genere meno di un grande forno; ne parliamo nel nostro articolo sul <a href="/it/blog/airfryer-economies-energie">risparmio energetico con la friggitrice ad aria</a>.</li>
+</ul>
 
-<h3>Verdure</h3>
-<p>Le verdure grigliate sono un vero punto di forza. Zucchine, peperoni e cipolle a <strong>180°C per 12 minuti</strong> escono perfettamente caramellate mantenendo un leggero croccante. La funzione Match Cook permette di cuocere patatine in un cassetto e verdure nell'altro contemporaneamente.</p>
+<h2>Uso quotidiano e pulizia</h2>
+<p>Gli utenti trovano il pannello di controllo verticale chiaro e semplice: si sceglie il cassetto 1 o 2, la funzione e poi temperatura e tempo. Non ci sono programmi automatici per alimento come su alcuni modelli connessi, quindi bisogna conoscere (o cercare) i tempi di cottura.</p>
+<p>Secondo Ninja, cassetti e piastre antiaderenti vanno in lavastoviglie, anche se il lavaggio a mano è consigliato per preservare il rivestimento. Evita spugne abrasive e utensili metallici all'interno dei cassetti.</p>
+<p>Le critiche più frequenti degli acquirenti riguardano l'ergonomia: il cassetto inferiore è vicino al piano di lavoro, bisogna chinarsi per controllarlo e manca un oblò. Non c'è nemmeno un avviso che ricordi di scuotere il cibo a metà cottura.</p>
 
-<h2>Facilità d'uso</h2>
-<p>L'interfaccia touchscreen è tra le più intuitive che abbiamo testato. La funzione Smart Finish calcola automaticamente lo sfasamento per far terminare entrambi i cassetti contemporaneamente. I cestelli lavabili in lavastoviglie e la superficie facile da pulire rendono la manutenzione semplice.</p>
-
-<h2>Consumo energetico</h2>
-<p>Per una sessione di patatine di 18 minuti a 200°C (entrambi i cassetti), il consumo è di <strong>0,62 kWh</strong>. Un forno tradizionale consuma circa 1,8 kWh per la stessa quantità. Il risparmio mensile con uso quotidiano supera i 10 euro.</p>
-
-<h2>Punti di forza e debolezza</h2>
+<h2>Punti di forza e limiti</h2>
 <h3>Punti di forza</h3>
 <ul>
-<li><strong>Design impilato compatto</strong>: occupa meno spazio di una doppia standard</li>
-<li><strong>Cottura eccellente</strong>: risultati uniformi e croccanti in tutti i test</li>
-<li><strong>Smart Finish</strong>: sincronizzazione automatica perfetta</li>
-<li><strong>Grande capacità</strong>: 9,5L totali, ideale per 4-6 persone</li>
-<li><strong>Pulizia facile</strong>: cestelli lavabili in lavastoviglie</li>
+<li>Due zone davvero indipendenti nella larghezza di una friggitrice a cestello singolo</li>
+<li>Sync e Match, semplici ed efficaci per pasti completi</li>
+<li>Capacità totale di 9,5 L, adatta a famiglie di quattro-sei persone</li>
+<li>Griglie incluse per cuocere su due livelli</li>
+<li>Sei funzioni, compresa l'essiccazione a bassa temperatura</li>
 </ul>
-<h3>Punti deboli</h3>
+<h3>Limiti</h3>
 <ul>
-<li><strong>Altezza importante</strong>: 39 cm, può essere problematico sotto pensili bassi</li>
-<li><strong>Nessuna connettività</strong>: niente app o Wi-Fi</li>
-<li><strong>Cavo corto</strong>: solo 1,2 m</li>
-<li><strong>Rumore notevole</strong>: circa 65 dB</li>
+<li>Alta, profonda e pesante</li>
+<li>Cassetti poco adatti a polli interi di grandi dimensioni</li>
+<li>Niente oblò, né app né Wi-Fi</li>
+<li>Cassetto inferiore meno comodo da controllare</li>
 </ul>
 
-<h2>Punteggio Nura dettagliato</h2>
+<h2>Confronto con le alternative</h2>
 <table>
-<thead><tr><th>Criterio</th><th>Voto</th><th>Commento</th></tr></thead>
+<thead><tr><th>Modello</th><th>Formato</th><th>Capacità</th><th>Connettività</th><th>Ideale per</th></tr></thead>
 <tbody>
-<tr><td>Prestazioni di cottura</td><td>9,5/10</td><td>Risultati eccellenti su tutti gli alimenti</td></tr>
-<tr><td>Facilità d'uso</td><td>9,5/10</td><td>Interfaccia intuitiva, Smart Finish notevole</td></tr>
-<tr><td>Design e costruzione</td><td>9,0/10</td><td>Qualità premium, formato impilato geniale</td></tr>
-<tr><td>Versatilità</td><td>9,5/10</td><td>Doppia cottura simultanea + essiccazione</td></tr>
-<tr><td>Rapporto qualità-prezzo</td><td>9,5/10</td><td>229,99 € per queste prestazioni</td></tr>
-<tr><td>Pulizia</td><td>9,5/10</td><td>Lavastoviglie, antiaderente efficace</td></tr>
-<tr><td>Rumore</td><td>8,5/10</td><td>65 dB, leggermente sopra la media</td></tr>
-<tr><td><strong>Punteggio Nura globale</strong></td><td><strong>9,4/10</strong></td><td><strong>La nostra migliore friggitrice dual-zone</strong></td></tr>
+<tr><td><strong>Ninja Foodi MAX Double Stack XL</strong></td><td>2 cassetti impilati</td><td>9,5 L (2 x 4,75 L)</td><td>No</td><td>Famiglie con poco spazio in larghezza</td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>1 grande cassetto con divisorio rimovibile</td><td>10,4 L (o 2 zone)</td><td>No</td><td>Pollo intero e pezzi grandi</td></tr>
+<tr><td>Philips Airfryer Combi XXL Connected</td><td>1 cestello</td><td>8,3 L</td><td>Wi-Fi, app e sonda di temperatura</td><td>Carni cotte al punto giusto, cucine connesse</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>1 cestello, calore sopra e sotto</td><td>6,4 L</td><td>Wi-Fi e app</td><td>Coppie e piccole famiglie, meno da girare</td></tr>
 </tbody>
 </table>
+<p>Rispetto al <a href="/it/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>, il Double Stack è molto più stretto, ma il FlexDrawer permette di togliere il divisorio per ottenere un unico grande scomparto, più adatto a un pollo intero. Il Philips Combi XXL Connected non è a doppia zona: punta su un grande cestello, una sonda di temperatura e un'app. Il Cosori Dual Blaze, più compatto, scalda dall'alto e dal basso, quindi il cibo va girato meno.</p>
+
+<h2>Errori da evitare</h2>
+<ul>
+<li><strong>Riempire i cassetti fino all'orlo</strong>: l'aria circola peggio e la croccantezza ne risente. Meglio due cassetti a metà che uno sovraccarico.</li>
+<li><strong>Addossarla al muro o metterla sotto un pensile basso</strong>: lascia spazio intorno e sopra per l'uscita dell'aria calda, come indicato nel manuale.</li>
+<li><strong>Dimenticare di scuotere</strong>: l'apparecchio non lo ricorda. Imposta un timer a metà cottura per patatine e pezzi piccoli.</li>
+<li><strong>Sottovalutare il peso</strong>: con circa 10 kg, prevedi una posizione fissa su un piano stabile.</li>
+<li><strong>Usare una prolunga sottodimensionata</strong>: con quasi 2,5 kW, collegala preferibilmente direttamente a una presa a muro.</li>
+</ul>
+
+<h2>A chi è adatta?</h2>
+<p>Il Double Stack XL è adatto a famiglie di quattro-sei persone che vogliono cuocere secondo e contorno insieme in una cucina con poco spazio in larghezza. Ha meno senso se cucini per una o due persone (basta un modello da 4 a 6 L), se arrostisci spesso polli interi o se vuoi controllare la friggitrice dallo smartphone. Per famiglie molto numerose, la nostra selezione di <a href="/it/blog/meilleur-airfryer-xxl-grande-famille">friggitrici ad aria XXL per famiglie numerose</a> presenta altre opzioni.</p>
 
 <h2>Verdetto</h2>
-<p>La Ninja Foodi MAX Double Stack XL 9,5L è semplicemente <strong>la migliore friggitrice ad aria dual-zone che abbiamo testato nel 2026</strong>. Il suo concetto di cassetti impilati risolve il problema dell'ingombro dei modelli doppi convenzionali offrendo prestazioni di cottura di primo livello.</p>
-<p>A 229,99 euro, rappresenta un investimento ragionevole per una famiglia di 4-6 persone. Per altre opzioni, consultate la nostra <a href="/it/guides/airfryers">guida completa alle migliori friggitrici ad aria 2026</a> o il nostro <a href="/it/blog/ninja-vs-philips-quel-choisir">confronto Ninja vs Philips</a>.</p>
+<p>Il Ninja Foodi MAX Double Stack XL 9,5 L è un'ottima scelta a doppia zona per le famiglie: due scomparti indipendenti, funzioni Sync e Match ben pensate e una larghezza ridotta che lo distingue da quasi tutti i concorrenti. I suoi limiti sono chiari: altezza, peso, cassetti poco profondi per i pezzi grandi e assenza di connettività. Se non ti pesano, è la nostra scelta di riferimento tra le friggitrici ad aria a doppia zona per una famiglia.</p>`,
 
-<h2>Confronto con la concorrenza</h2>
+    nl: `<p><strong>De Ninja Foodi MAX Double Stack XL 9,5 L (type SL400EU) is een van de verstandigste dual-zone airfryers voor een gezin met weinig aanrechtruimte: de twee laden van 4,75 L zitten boven elkaar, waardoor hij niet breder is dan een airfryer met één mand.</strong> Daar staat tegenover dat hij hoog is, dat de laden ondiep zijn voor grote stukken en dat er geen app of wifi is.</p>
+<p>Deze review is gebaseerd op de specificaties van Ninja, op gepubliceerde beoordelingen in de vakpers en op ervaringen van geverifieerde kopers. We hebben hem niet zelf in onze keuken gebruikt: het doel is helder uit te leggen wat hij goed doet, waar hij tekortschiet en voor wie hij geschikt is. Wil je hem vergelijken met andere modellen, lees dan onze <a href="/nl/guides/airfryers">airfryer-gids</a>.</p>
+
+<h2>Specificaties</h2>
 <table>
-<thead><tr><th>Modello</th><th>Prezzo</th><th>Capacità</th><th>Punteggio Nura</th><th>Vantaggio principale</th></tr></thead>
+<thead><tr><th>Kenmerk</th><th>Opgave van Ninja</th></tr></thead>
 <tbody>
-<tr><td><strong>Ninja Double Stack XL</strong></td><td>229,99 €</td><td>9,5L</td><td>9,4/10</td><td>Design impilato compatto + Smart Finish</td></tr>
-<tr><td>Ninja FlexDrawer 10,4L</td><td>249,99 €</td><td>10,4L</td><td>9,2/10</td><td>Mega-zona unica da 10,4L possibile</td></tr>
-<tr><td>Philips Combi XXL Connected</td><td>349,99 €</td><td>8,3L</td><td>9,0/10</td><td>Sonda di temperatura integrata</td></tr>
-<tr><td>Cosori Dual Blaze 6,4L</td><td>139,99 €</td><td>6,4L</td><td>8,9/10</td><td>Doppia resistenza + Wi-Fi</td></tr>
+<tr><td>Inhoud</td><td>9,5 L in totaal (2 laden van 4,75 L)</td></tr>
+<tr><td>Vermogen</td><td>2.470 W</td></tr>
+<tr><td>Functies</td><td>Air Fry, Max Crisp, Roast, Bake, Reheat, Dehydrate</td></tr>
+<tr><td>Temperaturen</td><td>Van 40 °C (drogen) tot 240 °C (Max Crisp), tot 210 °C in de andere standen</td></tr>
+<tr><td>Afmetingen (H x B x D)</td><td>38,5 x 28 x 47 cm</td></tr>
+<tr><td>Gewicht</td><td>Ongeveer 10,3 kg</td></tr>
+<tr><td>Accessoires</td><td>2 antiaanbakplaten, 2 roosters voor meerdere lagen</td></tr>
+<tr><td>Dual-zone-functies</td><td>Sync (tegelijk klaar) en Match (instellingen kopiëren)</td></tr>
+<tr><td>Connectiviteit</td><td>Geen (geen app, geen wifi)</td></tr>
 </tbody>
 </table>
-<p>Rispetto al <a href="/it/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>, il Double Stack offre un ingombro minore (27,5 cm vs 44,5 cm di larghezza) per una capacità quasi equivalente. Rispetto al <a href="/it/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a>, costa 120 euro in meno e ottiene un punteggio superiore.</p>
 
-<h2>Per chi è ideale il Ninja Double Stack?</h2>
+<h2>Het idee: twee zones boven elkaar in plaats van naast elkaar</h2>
+<p>De meeste airfryers met twee manden zetten de laden naast elkaar, waardoor ze 40 cm of breder worden. De Double Stack XL draait dat om: de laden zitten boven elkaar en het bedieningspaneel zit aan de rechterkant. Met 28 cm breedte neemt hij ongeveer evenveel ruimte in als een model met één mand. Ninja noemt hem 30% smaller dan zijn klassieke model met twee laden en een vergelijkbare inhoud.</p>
+<p>Elke lade heeft een eigen verwarmingselement en ventilator, dus de twee zones zijn echt onafhankelijk: frietjes op 200 °C boven en een visfilet op 180 °C onder, elk met een eigen tijd. Is het verschil tussen één mand en twee zones niet helemaal duidelijk, lees dan ons artikel over <a href="/nl/blog/airfryer-simple-vs-double-panier">een airfryer met één of twee manden</a>.</p>
+<p>Controleer vóór de aankoop de hoogte. Met 38,5 cm past hij onder de meeste bovenkastjes, maar er moet ruimte boven blijven zodat de hete lucht weg kan. Hij is ook diep (47 cm) en weegt ongeveer 10 kg: geen apparaat dat je na elke maaltijd in een kast zet.</p>
+
+<h2>Sync, Match en roosters voor meerdere lagen</h2>
+<p>Twee functies maken de dubbele zone in het dagelijks gebruik echt handig:</p>
 <ul>
-<li><strong>Famiglie da 4 a 6 persone</strong> che cucinano quotidianamente e hanno bisogno di preparare primo e contorno contemporaneamente</li>
-<li><strong>Persone con poco spazio</strong> sul piano di lavoro che vogliono la funzionalità dual-zone — il formato impilato è imbattibile</li>
-<li><strong>Cuochi pragmatici</strong> che vogliono ottime prestazioni senza la complessità di un'app connessa</li>
-<li><strong>Appassionati di meal prep</strong> che cucinano in anticipo nel weekend per risparmiare tempo</li>
+<li><strong>Sync</strong>: je stelt per lade een temperatuur en tijd in, en het apparaat start de kortste later zodat beide tegelijk klaar zijn. Zo komen hoofdgerecht en bijgerecht samen warm op tafel.</li>
+<li><strong>Match</strong>: kopieert de instellingen van de ene lade naar de andere. Handig om dezelfde bereiding te verdubbelen, zoals twee porties friet of drumsticks.</li>
+</ul>
+<p>Ninja levert ook twee roestvrijstalen roosters mee om in elke lade op twee niveaus te bereiden, volgens de fabrikant tot vier lagen voedsel. In de praktijk werken de roosters vooral goed voor platte producten (filets, spiesjes, plakjes groente); wat geschud moet worden, wordt beter in één laag bereid.</p>
+
+<h2>Bereidingsresultaten: wat gepubliceerde reviews en kopers zeggen</h2>
+<p>Reviews van gespecialiseerde sites en ervaringen van geverifieerde kopers komen op meerdere punten overeen:</p>
+<ul>
+<li><strong>Friet en diepvriesproducten</strong>: mooi knapperig en gelijkmatig bruin, zolang je de laden niet te vol doet en halverwege schudt. De stand Max Crisp (tot 240 °C) is populair voor diepvriesproducten.</li>
+<li><strong>Groente en vis</strong>: het vermogen per zone zorgt voor snel bruinen, met resultaten die als gelijkmatig worden omschreven.</li>
+<li><strong>Gevogelte en grote stukken</strong>: hier laat het formaat zijn grenzen zien. De laden zijn lager dan die van een grote airfryer met één mand; een hele kip past afhankelijk van de grootte maar net, en meerdere eigenaren raden aan hem in stukken te snijden.</li>
+<li><strong>Snelheid</strong>: Ninja claimt dat sommige gerechten tot 55% sneller klaar zijn dan in een heteluchtoven (opgave van de fabrikant). Zonder lang voorverwarmen verbruikt hij voor kleine hoeveelheden doorgaans minder dan een grote oven; meer daarover in ons artikel over <a href="/nl/blog/airfryer-economies-energie">energie besparen met een airfryer</a>.</li>
 </ul>
 
-<h2>Verdetto finale dettagliato</h2>
-<p>La Ninja Foodi MAX Double Stack XL 9,5L ridefinisce cosa debba essere una friggitrice dual-zone. Il concetto di impilamento verticale è una vera innovazione che risolve elegantemente il problema dell'ingombro dei modelli doppi convenzionali. La qualità di cottura è eccellente su tutti gli alimenti testati e Smart Finish funziona esattamente come promesso.</p>
-<p>A 229,99 euro, rappresenta il miglior rapporto qualità-prezzo del suo segmento nel 2026. Supera i concorrenti diretti su quasi tutti i criteri che contano per l'uso familiare quotidiano. Le uniche lacune — assenza di connettività, rumorosità leggermente superiore alla media — sono compromessi accettabili date le sue forze. Punteggio Nura confermato: <strong>9,4/10</strong>.</p>`,
+<h2>Gebruik en schoonmaak</h2>
+<p>Gebruikers vinden het verticale bedieningspaneel duidelijk en eenvoudig: kies lade 1 of 2, de functie en daarna temperatuur en tijd. Er zijn geen automatische programma's per gerecht zoals bij sommige connected modellen, dus je moet de bereidingstijden kennen of opzoeken.</p>
+<p>Volgens Ninja mogen de laden en antiaanbakplaten in de vaatwasser, al wordt afwassen met de hand aangeraden om de coating te sparen. Vermijd schuursponzen en metalen keukengerei in de laden.</p>
+<p>De meest gehoorde kritiek van kopers gaat over de ergonomie: de onderste lade zit dicht bij het aanrecht, je moet bukken om te kijken en er is geen kijkvenster. Er is ook geen signaal dat je eraan herinnert halverwege te schudden.</p>
 
-    nl: `<h2>Inleiding</h2>
-<p>De Ninja Foodi MAX Double Stack XL 9,5L is een van de meest ambitieuze airfryers op de markt in 2026. Met zijn unieke verticaal gestapeld dubbel ladesysteem belooft hij twee verschillende gerechten tegelijkertijd te bereiden terwijl hij minder werkbladruimte inneemt dan een traditionele dual-zone airfryer. Met een prijs van 229,99 euro positioneert hij zich in het premium segment zonder de prijzen van high-end connected modellen te bereiken.</p>
-<p>Bij Homenura hebben we dit apparaat 6 weken lang getest onder echte dagelijkse gebruiksomstandigheden. Friet, gebraden kip, gegrilde groenten, vis, desserts: we hebben alles op de proef gesteld. Met een Nura-score van <strong>9,4/10</strong> kunnen we meteen zeggen: deze Ninja heeft ons geïmponeerd.</p>
-
-<h2>Technische specificaties</h2>
-<table>
-<thead><tr><th>Kenmerk</th><th>Detail</th></tr></thead>
-<tbody>
-<tr><td>Totale capaciteit</td><td>9,5 liter (2 laden: 4,75L + 4,75L)</td></tr>
-<tr><td>Vermogen</td><td>2.470 W</td></tr>
-<tr><td>Temperatuurbereik</td><td>40°C - 240°C</td></tr>
-<tr><td>Afmetingen (B x D x H)</td><td>27,5 x 37 x 39 cm</td></tr>
-<tr><td>Gewicht</td><td>9,8 kg</td></tr>
-<tr><td>Voorgeprogrammeerde programma's</td><td>8 (friet, kip, vis, groenten, steak, garnalen, bacon, drogen)</td></tr>
-<tr><td>Speciale functies</td><td>Match Cook, Smart Finish, dehydratie</td></tr>
-<tr><td>Connectiviteit</td><td>Geen</td></tr>
-<tr><td>Prijs</td><td>€229,99</td></tr>
-</tbody>
-</table>
-
-<h2>Design en bouwkwaliteit</h2>
-<p>Het eerste dat opvalt aan de Ninja Double Stack is het verticale formaat. In tegenstelling tot klassieke dubbele lade-airfryers die zich in de breedte uitstrekken (zoals de <a href="/nl/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a>), stapelt dit model zijn twee compartimenten op elkaar. Het resultaat: een voetafdruk van slechts 27,5 x 37 cm, vergelijkbaar met een enkele airfryer.</p>
-<p>De bouwkwaliteit overtuigt. De mat zwarte kunststof behuizing is vingerafdrukbestendig en de laden glijden op stevige metalen rails. Elke lade heeft zijn eigen uitneembare mand met keramische antiaanbaklaag. De handgrepen zijn ergonomisch en blijven koel tijdens het bakken.</p>
-
-<h2>Kookprestaties</h2>
-<h3>Friet en aardappelen</h3>
-<p>Met 500 g versgeknipte 8 mm frieten per lade behaalden we optimale resultaten bij <strong>200°C gedurende 18 minuten</strong> met halverwege schudden. De buitenkant is perfect goudbruin en krokant, de binnenkant blijft luchtig. Voor diepvriesfriet (McCain klassiek, 400 g per lade) is 14 minuten bij 200°C voldoende.</p>
-
-<h3>Kip en vlees</h3>
-<p>Gemarineerde kippenpoten (6 per lade) bij 190°C gedurende 25 minuten: de huid is krokant en gekarameliseerd, het vlees sappig tot op het bot. Onze thermometer bevestigde een kerntemperatuur van 74°C. Voor een biefstuk (250 g ribeye, 2,5 cm dik) levert de hoge temperatuurstand bij 230°C een bevredigende Maillard-korst in 12 minuten.</p>
-
-<h3>Groenten</h3>
-<p>Gegrilde groenten zijn een echt sterk punt. Courgette, paprika en uien bij <strong>180°C gedurende 12 minuten</strong> komen er perfect gekarameliseerd uit met een lichte bite. De Match Cook-functie maakt het mogelijk om friet en groenten tegelijkertijd met verschillende instellingen te bereiden.</p>
-
-<h2>Gebruiksgemak</h2>
-<p>Het touchscreen-interface is een van de meest intuïtieve die we hebben getest. De Smart Finish-functie berekent automatisch het verschil zodat beide laden tegelijk klaar zijn. De vaatwasmachinebestendige manden en het makkelijk te reinigen oppervlak maken het onderhoud eenvoudig.</p>
-
-<h2>Energieverbruik</h2>
-<p>Voor een frietsessie van 18 minuten bij 200°C (beide laden) bedraagt het verbruik <strong>0,62 kWh</strong>. Een traditionele oven verbruikt circa 1,8 kWh voor dezelfde hoeveelheid. De maandelijkse besparing bij dagelijks gebruik bedraagt meer dan 10 euro.</p>
-
-<h2>Sterke en zwakke punten</h2>
+<h2>Sterke punten en beperkingen</h2>
 <h3>Sterke punten</h3>
 <ul>
-<li><strong>Compact gestapeld design</strong>: neemt minder ruimte in dan een standaard dubbele airfryer</li>
-<li><strong>Uitstekend bakresultaat</strong>: uniform en krokant in alle tests</li>
-<li><strong>Smart Finish</strong>: perfect uitgevoerde automatische synchronisatie</li>
-<li><strong>Grote capaciteit</strong>: 9,5L totaal, ideaal voor 4-6 personen</li>
-<li><strong>Makkelijk schoon te maken</strong>: vaatwasmachinebestendige manden</li>
+<li>Twee echt onafhankelijke zones op de breedte van een airfryer met één mand</li>
+<li>Sync en Match: eenvoudig en effectief voor complete maaltijden</li>
+<li>Totale inhoud van 9,5 L, geschikt voor een gezin van vier tot zes personen</li>
+<li>Roosters meegeleverd om op twee niveaus te bereiden</li>
+<li>Zes functies, waaronder drogen op lage temperatuur</li>
 </ul>
-<h3>Zwakke punten</h3>
+<h3>Beperkingen</h3>
 <ul>
-<li><strong>Aanzienlijke hoogte</strong>: 39 cm, kan problematisch zijn onder lage kasten</li>
-<li><strong>Geen connectiviteit</strong>: geen app of Wi-Fi</li>
-<li><strong>Kort snoer</strong>: slechts 1,2 m</li>
-<li><strong>Merkbaar geluid</strong>: circa 65 dB</li>
+<li>Hoog, diep en zwaar</li>
+<li>Laden minder geschikt voor grote hele kippen</li>
+<li>Geen kijkvenster, geen app of wifi</li>
+<li>Onderste lade is minder makkelijk te controleren</li>
 </ul>
 
-<h2>Gedetailleerde Nura Score</h2>
+<h2>Vergelijking met de alternatieven</h2>
 <table>
-<thead><tr><th>Criterium</th><th>Score</th><th>Commentaar</th></tr></thead>
+<thead><tr><th>Model</th><th>Vorm</th><th>Inhoud</th><th>Connectiviteit</th><th>Ideaal voor</th></tr></thead>
 <tbody>
-<tr><td>Kookprestaties</td><td>9,5/10</td><td>Uitstekende resultaten op alle geteste voedingsmiddelen</td></tr>
-<tr><td>Gebruiksgemak</td><td>9,5/10</td><td>Intuïtief interface, opmerkelijke Smart Finish</td></tr>
-<tr><td>Design en bouw</td><td>9,0/10</td><td>Premium kwaliteit, ingenieus gestapeld formaat</td></tr>
-<tr><td>Veelzijdigheid</td><td>9,5/10</td><td>Dubbel gelijktijdig koken + dehydratie</td></tr>
-<tr><td>Prijs-kwaliteit</td><td>9,5/10</td><td>€229,99 voor deze prestaties, uitstekend</td></tr>
-<tr><td>Reiniging</td><td>9,5/10</td><td>Vaatwasmachinebestendig, effectieve antiaanbaklaag</td></tr>
-<tr><td>Geluid</td><td>8,5/10</td><td>65 dB, iets boven het gemiddelde</td></tr>
-<tr><td><strong>Totale Nura Score</strong></td><td><strong>9,4/10</strong></td><td><strong>Onze beste dual-zone airfryer getest</strong></td></tr>
+<tr><td><strong>Ninja Foodi MAX Double Stack XL</strong></td><td>2 gestapelde laden</td><td>9,5 L (2 x 4,75 L)</td><td>Nee</td><td>Gezinnen met weinig aanrechtbreedte</td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>1 grote lade met uitneembare scheidingswand</td><td>10,4 L (of 2 zones)</td><td>Nee</td><td>Hele kip en grote stukken</td></tr>
+<tr><td>Philips Airfryer Combi XXL Connected</td><td>1 mand</td><td>8,3 L</td><td>Wifi, app en temperatuursonde</td><td>Vlees op kerntemperatuur, slimme keukens</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>1 mand, warmte van boven en onder</td><td>6,4 L</td><td>Wifi en app</td><td>Stellen en kleine gezinnen, minder omdraaien</td></tr>
 </tbody>
 </table>
+<p>Vergeleken met de <a href="/nl/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> is de Double Stack veel smaller, maar bij de FlexDrawer kun je de scheidingswand verwijderen voor één groot compartiment, wat beter past bij een hele kip. De Philips Combi XXL Connected is geen dual-zone-model: hij kiest voor één grote mand, een temperatuursonde en een app. De compactere Cosori Dual Blaze verwarmt van boven en van onder, waardoor je minder hoeft om te draaien.</p>
 
-<h2>Verdict</h2>
-<p>De Ninja Foodi MAX Double Stack XL 9,5L is simpelweg <strong>de beste dual-zone airfryer die we in 2026 hebben getest</strong>. Het gestapelde ladeconcept lost het ruimteprobleem van conventionele dubbele modellen op en levert kookprestaties van topniveau.</p>
-<p>Voor €229,99 is het een redelijke investering voor een gezin van 4-6 personen. Voor meer opties, bekijk onze <a href="/nl/guides/airfryers">complete gids van de beste airfryers 2026</a> of onze <a href="/nl/blog/ninja-vs-philips-quel-choisir">Ninja vs Philips vergelijking</a>.</p>
-
-<h2>Vergelijking met de concurrentie</h2>
-<table>
-<thead><tr><th>Model</th><th>Prijs</th><th>Capaciteit</th><th>Nura Score</th><th>Voornaamste voordeel</th></tr></thead>
-<tbody>
-<tr><td><strong>Ninja Double Stack XL</strong></td><td>€229,99</td><td>9,5L</td><td>9,4/10</td><td>Compact gestapeld design + Smart Finish</td></tr>
-<tr><td>Ninja FlexDrawer 10,4L</td><td>€249,99</td><td>10,4L</td><td>9,2/10</td><td>Enkele mega-zone van 10,4L mogelijk</td></tr>
-<tr><td>Philips Combi XXL Connected</td><td>€349,99</td><td>8,3L</td><td>9,0/10</td><td>Ingebouwde temperatuursensor</td></tr>
-<tr><td>Cosori Dual Blaze 6,4L</td><td>€139,99</td><td>6,4L</td><td>8,9/10</td><td>Dubbel verwarmingselement + Wi-Fi</td></tr>
-</tbody>
-</table>
-<p>Ten opzichte van de <a href="/nl/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> biedt de Double Stack een kleinere voetafdruk (27,5 cm vs 44,5 cm breed) voor bijna gelijke capaciteit. Ten opzichte van de <a href="/nl/blog/test-philips-combi-xxl-connected">Philips Combi XXL Connected</a> is hij €120 goedkoper en scoort hij hoger. De Philips rechtvaardigt zijn prijs met de temperatuursensor en de HomeID-app.</p>
-
-<h2>Voor wie is de Ninja Double Stack ideaal?</h2>
+<h2>Fouten om te vermijden</h2>
 <ul>
-<li><strong>Gezinnen van 4 tot 6 personen</strong> die dagelijks koken en tegelijkertijd hoofdgerecht en bijgerecht willen bereiden</li>
-<li><strong>Mensen met weinig aanrechtruimte</strong> die toch dual-zone functionaliteit willen — het gestapelde formaat is ongeëvenaard</li>
-<li><strong>Pragmatische koks</strong> die uitstekende prestaties willen zonder de complexiteit van een connected app</li>
-<li><strong>Meal preppers</strong> die in het weekend batches koken om tijd te besparen</li>
+<li><strong>De laden tot de rand vullen</strong>: de lucht circuleert slechter en het knapperige resultaat lijdt eronder. Twee half volle laden zijn beter dan één overvolle.</li>
+<li><strong>Hem tegen de muur of onder een laag kastje zetten</strong>: laat ruimte rondom en erboven voor de hete lucht, zoals de handleiding aangeeft.</li>
+<li><strong>Vergeten te schudden</strong>: het apparaat herinnert je er niet aan. Zet halverwege een timer voor friet en kleine stukjes.</li>
+<li><strong>Het gewicht onderschatten</strong>: met ongeveer 10 kg geef je hem het best een vaste plek op een stevig aanrecht.</li>
+<li><strong>Een te licht verlengsnoer gebruiken</strong>: met bijna 2,5 kW sluit je hem bij voorkeur direct aan op een stopcontact in de muur.</li>
 </ul>
 
-<h2>Gedetailleerd eindverdikt</h2>
-<p>De Ninja Foodi MAX Double Stack XL 9,5L herdefinieert wat een dual-zone airfryer zou moeten zijn. Het verticale stapelconcept is een echte innovatie die het ruimteprobleem van conventionele dubbele modellen elegant oplost. De kookprestaties zijn uitstekend op alle geteste voedingsmiddelen en Smart Finish werkt precies zoals beloofd.</p>
-<p>Voor €229,99 vertegenwoordigt het de beste prijs-kwaliteitverhouding in zijn segment in 2026. Het overtreft directe concurrenten op vrijwel alle criteria die voor dagelijks gezinsgebruik tellen. De enige tekortkomingen — geen connectiviteit, iets luider dan gemiddeld — zijn acceptabele compromissen gegeven de sterke punten. Bevestigde Nura Score: <strong>9,4/10</strong>.</p>`,
+<h2>Voor wie is hij geschikt?</h2>
+<p>De Double Stack XL past bij gezinnen van vier tot zes personen die hoofdgerecht en bijgerecht tegelijk willen bereiden in een keuken met weinig aanrechtbreedte. Hij is minder zinvol als je voor één of twee personen kookt (een model van 4 tot 6 L volstaat), als je vaak hele kippen braadt of als je de airfryer met je telefoon wilt bedienen. Voor zeer grote huishoudens vind je in onze selectie van <a href="/nl/blog/meilleur-airfryer-xxl-grande-famille">XXL-airfryers voor grote gezinnen</a> andere opties.</p>
+
+<h2>Eindoordeel</h2>
+<p>De Ninja Foodi MAX Double Stack XL 9,5 L is een uitstekende dual-zone-keuze voor gezinnen: twee onafhankelijke compartimenten, goed doordachte Sync- en Match-functies en een smal formaat dat hem onderscheidt van bijna alle concurrenten. Zijn beperkingen zijn duidelijk: hoogte, gewicht, ondiepe laden voor grote stukken en geen connectiviteit. Heb je daar geen last van, dan is dit onze referentiekeuze onder de dual-zone airfryers voor een gezin.</p>`,
   },
   faq: [
     {
       question: {
-        fr: 'Quelle est la capacité totale du Ninja Foodi MAX Double Stack XL ?',
-        en: 'What is the total capacity of the Ninja Foodi MAX Double Stack XL?',
-        de: 'Wie groß ist das Gesamtfassungsvermögen des Ninja Foodi MAX Double Stack XL?',
-        es: '¿Cuál es la capacidad total del Ninja Foodi MAX Double Stack XL?',
-        it: 'Qual è la capacità totale del Ninja Foodi MAX Double Stack XL?',
-        nl: 'Wat is de totale capaciteit van de Ninja Foodi MAX Double Stack XL?',
+        fr: 'Quelle est la capacité du Ninja Foodi MAX Double Stack XL ?',
+        en: 'What is the capacity of the Ninja Foodi MAX Double Stack XL?',
+        de: 'Wie groß ist das Fassungsvermögen des Ninja Foodi MAX Double Stack XL?',
+        es: '¿Qué capacidad tiene el Ninja Foodi MAX Double Stack XL?',
+        it: 'Qual è la capacità del Ninja Foodi MAX Double Stack XL?',
+        nl: 'Wat is de inhoud van de Ninja Foodi MAX Double Stack XL?',
       },
       answer: {
-        fr: 'Le Ninja Foodi MAX Double Stack XL offre une capacité totale de 9,5 litres, répartie en deux tiroirs empilés de 4,75 litres chacun. Cette capacité convient parfaitement pour préparer des repas pour 4 à 6 personnes. Les deux tiroirs fonctionnent indépendamment avec des températures et durées distinctes.',
-        en: 'The Ninja Foodi MAX Double Stack XL offers a total capacity of 9.5 litres, split across two stacked drawers of 4.75 litres each. This capacity is ideal for preparing meals for 4 to 6 people. Both drawers operate independently with separate temperature and time settings.',
-        de: 'Der Ninja Foodi MAX Double Stack XL bietet eine Gesamtkapazität von 9,5 Litern, aufgeteilt auf zwei gestapelte Schubladen mit je 4,75 Litern. Diese Kapazität eignet sich ideal für 4 bis 6 Personen. Beide Schubladen arbeiten unabhängig mit separaten Temperatur- und Zeiteinstellungen.',
-        es: 'El Ninja Foodi MAX Double Stack XL ofrece una capacidad total de 9,5 litros, repartida en dos cajones apilados de 4,75 litros cada uno. Esta capacidad es ideal para preparar comidas para 4 a 6 personas. Ambos cajones funcionan de forma independiente con temperaturas y tiempos distintos.',
-        it: 'Il Ninja Foodi MAX Double Stack XL offre una capacità totale di 9,5 litri, suddivisa in due cassetti impilati da 4,75 litri ciascuno. Questa capacità è ideale per preparare pasti per 4-6 persone. Entrambi i cassetti funzionano in modo indipendente con temperature e tempi separati.',
-        nl: 'De Ninja Foodi MAX Double Stack XL biedt een totale capaciteit van 9,5 liter, verdeeld over twee gestapelde laden van elk 4,75 liter. Deze capaciteit is ideaal voor maaltijden voor 4 tot 6 personen. Beide laden werken onafhankelijk met aparte temperatuur- en tijdinstellingen.',
+        fr: "9,5 litres au total, répartis en deux tiroirs empilés de 4,75 litres. Chaque tiroir a sa propre résistance et son propre ventilateur, avec des réglages indépendants. C'est un format adapté à une famille de quatre à six personnes.",
+        en: 'It holds 9.5 litres in total, split across two stacked 4.75-litre drawers. Each drawer has its own heating element and fan with independent settings. It suits a family of four to six.',
+        de: 'Insgesamt 9,5 Liter, verteilt auf zwei übereinanderliegende Schubladen mit je 4,75 Litern. Jede Schublade hat ein eigenes Heizelement und einen eigenen Ventilator mit unabhängigen Einstellungen. Das passt für vier bis sechs Personen.',
+        es: 'Tiene 9,5 litros en total, repartidos en dos cajones apilados de 4,75 litros. Cada cajón tiene su propia resistencia y su propio ventilador, con ajustes independientes. Es un formato adecuado para familias de cuatro a seis personas.',
+        it: 'In totale 9,5 litri, divisi in due cassetti impilati da 4,75 litri. Ogni cassetto ha la propria resistenza e la propria ventola, con impostazioni indipendenti. È un formato adatto a famiglie di quattro-sei persone.',
+        nl: 'In totaal 9,5 liter, verdeeld over twee gestapelde laden van 4,75 liter. Elke lade heeft een eigen verwarmingselement en ventilator met onafhankelijke instellingen. Dat past bij een gezin van vier tot zes personen.',
       },
     },
     {
       question: {
-        fr: 'Comment fonctionne la cuisson double zone du Ninja Double Stack ?',
-        en: 'How does dual zone cooking work on the Ninja Double Stack?',
-        de: 'Wie funktioniert das Dual-Zone-Garen beim Ninja Double Stack?',
-        es: '¿Cómo funciona la cocción de doble zona en el Ninja Double Stack?',
-        it: 'Come funziona la cottura a doppia zona del Ninja Double Stack?',
-        nl: 'Hoe werkt het dubbele zone koken op de Ninja Double Stack?',
+        fr: 'À quoi servent les fonctions Sync et Match ?',
+        en: 'What do the Sync and Match functions do?',
+        de: 'Wozu dienen die Funktionen Sync und Match?',
+        es: '¿Para qué sirven las funciones Sync y Match?',
+        it: 'A cosa servono le funzioni Sync e Match?',
+        nl: 'Waarvoor dienen de functies Sync en Match?',
       },
       answer: {
-        fr: 'Chaque tiroir possède ses propres commandes de température et de durée. La fonction Match Cook copie les réglages d\'un tiroir vers l\'autre, tandis que Smart Finish synchronise automatiquement les temps de démarrage pour que les deux tiroirs terminent en même temps, même avec des durées différentes.',
-        en: 'Each drawer has its own temperature and time controls. The Match Cook function copies settings from one drawer to the other, while Smart Finish automatically staggers start times so both drawers finish simultaneously, even with different cooking durations.',
-        de: 'Jede Schublade hat eigene Temperatur- und Zeitregler. Die Match-Cook-Funktion kopiert Einstellungen von einer Schublade zur anderen, während Smart Finish die Startzeiten automatisch versetzt, damit beide Schubladen gleichzeitig fertig werden, auch bei unterschiedlichen Garzeiten.',
-        es: 'Cada cajón tiene sus propios controles de temperatura y tiempo. La función Match Cook copia los ajustes de un cajón al otro, mientras que Smart Finish sincroniza automáticamente los tiempos de inicio para que ambos cajones terminen simultáneamente, incluso con duraciones diferentes.',
-        it: 'Ogni cassetto ha i propri controlli di temperatura e tempo. La funzione Match Cook copia le impostazioni da un cassetto all\'altro, mentre Smart Finish sincronizza automaticamente i tempi di avvio affinché entrambi i cassetti finiscano contemporaneamente, anche con durate diverse.',
-        nl: 'Elke lade heeft eigen temperatuur- en tijdinstellingen. De Match Cook-functie kopieert instellingen van de ene lade naar de andere, terwijl Smart Finish automatisch de starttijden verspreidt zodat beide laden tegelijk klaar zijn, zelfs met verschillende bereidingstijden.',
+        fr: "Sync décale le démarrage du tiroir le plus court pour que les deux cuissons se terminent en même temps, même avec des températures et des durées différentes. Match copie les réglages d'un tiroir sur l'autre pour doubler une même préparation.",
+        en: "Sync delays the shorter drawer so both finish together, even with different temperatures and times. Match copies one drawer's settings to the other to double a batch.",
+        de: 'Sync startet die kürzere Schublade später, damit beide gleichzeitig fertig sind, auch bei unterschiedlichen Temperaturen und Zeiten. Match überträgt die Einstellungen einer Schublade auf die andere, um eine Portion zu verdoppeln.',
+        es: 'Sync retrasa el inicio del cajón más corto para que ambos terminen a la vez, incluso con temperaturas y tiempos distintos. Match copia los ajustes de un cajón en el otro para duplicar una misma receta.',
+        it: "Sync ritarda l'avvio del cassetto più breve perché entrambi finiscano insieme, anche con temperature e tempi diversi. Match copia le impostazioni di un cassetto sull'altro per raddoppiare una preparazione.",
+        nl: 'Sync start de kortste lade later zodat beide tegelijk klaar zijn, ook bij verschillende temperaturen en tijden. Match kopieert de instellingen van de ene lade naar de andere om een bereiding te verdubbelen.',
       },
     },
     {
       question: {
-        fr: 'Le Ninja Foodi MAX Double Stack est-il bruyant ?',
-        en: 'Is the Ninja Foodi MAX Double Stack noisy?',
-        de: 'Ist der Ninja Foodi MAX Double Stack laut?',
-        es: '¿Es ruidoso el Ninja Foodi MAX Double Stack?',
-        it: 'Il Ninja Foodi MAX Double Stack è rumoroso?',
-        nl: 'Is de Ninja Foodi MAX Double Stack luidruchtig?',
+        fr: 'Peut-on cuire un poulet entier dans le Ninja Double Stack XL ?',
+        en: 'Can you cook a whole chicken in the Ninja Double Stack XL?',
+        de: 'Passt ein ganzes Hähnchen in den Ninja Double Stack XL?',
+        es: '¿Se puede cocinar un pollo entero en el Ninja Double Stack XL?',
+        it: 'Si può cuocere un pollo intero nel Ninja Double Stack XL?',
+        nl: 'Kun je een hele kip bereiden in de Ninja Double Stack XL?',
       },
       answer: {
-        fr: 'Le Ninja Double Stack produit environ 65 dB en fonctionnement, ce qui est légèrement au-dessus de la moyenne des airfryers testés. Ce niveau sonore est comparable à une conversation normale et reste tout à fait supportable dans une cuisine ouverte. Il ne gêne pas la conversation pendant la cuisson.',
-        en: 'The Ninja Double Stack produces approximately 65 dB during operation, slightly above the average for air fryers we tested. This noise level is comparable to a normal conversation and remains perfectly tolerable in an open kitchen. It does not interfere with conversation while cooking.',
-        de: 'Der Ninja Double Stack erzeugt im Betrieb etwa 65 dB, leicht über dem Durchschnitt der getesteten Heißluftfritteusen. Diese Lautstärke ist vergleichbar mit einem normalen Gespräch und in einer offenen Küche absolut erträglich. Er stört nicht beim Unterhalten während des Garens.',
-        es: 'El Ninja Double Stack produce aproximadamente 65 dB en funcionamiento, ligeramente por encima de la media de las freidoras probadas. Este nivel de ruido es comparable a una conversación normal y es perfectamente tolerable en una cocina abierta. No interfiere con la conversación.',
-        it: 'Il Ninja Double Stack produce circa 65 dB durante il funzionamento, leggermente sopra la media delle friggitrici ad aria testate. Questo livello di rumore è paragonabile a una conversazione normale e resta perfettamente tollerabile in una cucina aperta. Non disturba la conversazione.',
-        nl: 'De Ninja Double Stack produceert ongeveer 65 dB tijdens gebruik, iets boven het gemiddelde van de geteste airfryers. Dit geluidsniveau is vergelijkbaar met een normaal gesprek en blijft perfect draaglijk in een open keuken. Het verstoort het gesprek niet tijdens het koken.',
+        fr: "C'est possible avec une petite volaille, mais les tiroirs sont peu profonds et de nombreux propriétaires préfèrent la découper. Si vous rôtissez souvent des poulets entiers, un modèle à grand compartiment unique comme le Ninja FlexDrawer est plus pratique.",
+        en: 'It can work with a small bird, but the drawers are shallow and many owners prefer to joint it. If you often roast whole chickens, a model with one large compartment such as the Ninja FlexDrawer is more practical.',
+        de: 'Mit einem kleinen Hähnchen kann es klappen, doch die Schubladen sind flach, und viele Besitzer zerteilen es lieber. Wer oft ganze Hähnchen brät, ist mit einem Modell mit großem Einzelgarraum wie dem Ninja FlexDrawer besser bedient.',
+        es: 'Es posible con un ave pequeña, pero los cajones son poco profundos y muchos propietarios prefieren trocearla. Si asas pollos enteros a menudo, un modelo con un solo compartimento grande como el Ninja FlexDrawer resulta más práctico.',
+        it: 'È possibile con un pollo piccolo, ma i cassetti sono poco profondi e molti proprietari preferiscono tagliarlo a pezzi. Se arrostisci spesso polli interi, un modello con un unico grande scomparto come il Ninja FlexDrawer è più pratico.',
+        nl: 'Met een kleine kip kan het, maar de laden zijn ondiep en veel eigenaren snijden hem liever in stukken. Braad je vaak hele kippen, dan is een model met één groot compartiment zoals de Ninja FlexDrawer praktischer.',
       },
     },
     {
       question: {
-        fr: 'Les paniers du Ninja Double Stack passent-ils au lave-vaisselle ?',
-        en: 'Are the Ninja Double Stack baskets dishwasher safe?',
-        de: 'Sind die Körbe des Ninja Double Stack spülmaschinenfest?',
-        es: '¿Las cestas del Ninja Double Stack son aptas para lavavajillas?',
-        it: 'I cestelli del Ninja Double Stack sono lavabili in lavastoviglie?',
-        nl: 'Zijn de manden van de Ninja Double Stack vaatwasmachinebestendig?',
+        fr: 'Les tiroirs passent-ils au lave-vaisselle ?',
+        en: 'Are the drawers dishwasher safe?',
+        de: 'Sind die Schubladen spülmaschinengeeignet?',
+        es: '¿Los cajones se pueden meter en el lavavajillas?',
+        it: 'I cassetti vanno in lavastoviglie?',
+        nl: 'Mogen de laden in de vaatwasser?',
       },
       answer: {
-        fr: 'Oui, les deux paniers amovibles du Ninja Double Stack sont compatibles lave-vaisselle. Ils disposent d\'un revêtement antiadhésif céramique qui facilite le nettoyage. Après 6 semaines de tests intensifs, le revêtement ne montrait aucun signe d\'usure. Les tiroirs eux-mêmes se nettoient facilement à l\'éponge.',
-        en: 'Yes, both removable baskets of the Ninja Double Stack are dishwasher safe. They feature a ceramic non-stick coating that makes cleaning easy. After 6 weeks of intensive testing, the coating showed no signs of wear. The drawers themselves wipe clean easily with a sponge.',
-        de: 'Ja, beide herausnehmbaren Körbe des Ninja Double Stack sind spülmaschinenfest. Sie verfügen über eine Keramik-Antihaftbeschichtung, die die Reinigung erleichtert. Nach 6 Wochen intensiver Nutzung zeigte die Beschichtung keinerlei Abnutzungserscheinungen. Die Schubladen lassen sich leicht abwischen.',
-        es: 'Sí, las dos cestas extraíbles del Ninja Double Stack son aptas para lavavajillas. Cuentan con un recubrimiento antiadherente cerámico que facilita la limpieza. Tras 6 semanas de pruebas intensivas, el recubrimiento no mostraba signos de desgaste. Los cajones se limpian fácilmente con una esponja.',
-        it: 'Sì, entrambi i cestelli rimovibili del Ninja Double Stack sono lavabili in lavastoviglie. Dispongono di un rivestimento antiaderente in ceramica che facilita la pulizia. Dopo 6 settimane di test intensivi, il rivestimento non mostrava segni di usura. I cassetti si puliscono facilmente con una spugna.',
-        nl: 'Ja, beide uitneembare manden van de Ninja Double Stack zijn vaatwasmachinebestendig. Ze hebben een keramische antiaanbaklaag die het schoonmaken vergemakkelijkt. Na 6 weken intensief testen vertoonde de coating geen slijtage. De laden zelf zijn makkelijk schoon te vegen met een spons.',
+        fr: "Oui, d'après Ninja, les tiroirs et les plaques antiadhésives passent au lave-vaisselle. Le fabricant conseille toutefois le lavage à la main pour prolonger la durée de vie du revêtement, sans éponge abrasive.",
+        en: 'Yes, according to Ninja the drawers and non-stick plates are dishwasher safe. The manufacturer still recommends hand washing, without abrasive sponges, to extend the life of the coating.',
+        de: 'Ja, laut Ninja sind Schubladen und Antihaftplatten spülmaschinengeeignet. Der Hersteller empfiehlt dennoch Handwäsche ohne Scheuerschwamm, damit die Beschichtung länger hält.',
+        es: 'Sí, según Ninja los cajones y las bandejas antiadherentes van al lavavajillas. Aun así, el fabricante recomienda lavarlos a mano, sin estropajos abrasivos, para alargar la vida del revestimiento.',
+        it: 'Sì, secondo Ninja cassetti e piastre antiaderenti vanno in lavastoviglie. Il produttore consiglia comunque il lavaggio a mano, senza spugne abrasive, per prolungare la durata del rivestimento.',
+        nl: 'Ja, volgens Ninja mogen de laden en antiaanbakplaten in de vaatwasser. De fabrikant raadt toch afwassen met de hand aan, zonder schuurspons, zodat de coating langer meegaat.',
       },
     },
     {
       question: {
-        fr: 'Le Ninja Foodi MAX Double Stack est-il couvert par une garantie ?',
-        en: 'Does the Ninja Foodi MAX Double Stack come with a warranty?',
-        de: 'Hat der Ninja Foodi MAX Double Stack eine Garantie?',
-        es: '¿El Ninja Foodi MAX Double Stack tiene garantía?',
-        it: 'Il Ninja Foodi MAX Double Stack ha una garanzia?',
-        nl: 'Heeft de Ninja Foodi MAX Double Stack garantie?',
+        fr: 'Le Ninja Double Stack XL est-il connecté ?',
+        en: 'Is the Ninja Double Stack XL a smart air fryer?',
+        de: 'Ist der Ninja Double Stack XL vernetzt?',
+        es: '¿El Ninja Double Stack XL es conectado?',
+        it: 'Il Ninja Double Stack XL è connesso?',
+        nl: 'Is de Ninja Double Stack XL een slimme airfryer?',
       },
       answer: {
-        fr: 'Oui, le Ninja Foodi MAX Double Stack bénéficie de la garantie légale de 2 ans en Europe. Ninja propose également un service après-vente réactif avec des pièces de rechange disponibles. L\'appareil est vendu à 229,99 euros, ce qui représente un excellent rapport qualité-prix dans le segment premium double zone.',
-        en: 'Yes, the Ninja Foodi MAX Double Stack comes with the standard 2-year legal warranty in Europe. Ninja also offers responsive after-sales service with spare parts available. The appliance is priced at 229.99 euros, representing excellent value in the premium dual-zone air fryer segment.',
-        de: 'Ja, der Ninja Foodi MAX Double Stack hat die gesetzliche 2-Jahres-Garantie in Europa. Ninja bietet zudem einen reaktionsschnellen Kundendienst mit verfügbaren Ersatzteilen. Das Gerät kostet 229,99 Euro und bietet ein ausgezeichnetes Preis-Leistungs-Verhältnis im Premium-Dual-Zone-Segment.',
-        es: 'Sí, el Ninja Foodi MAX Double Stack cuenta con la garantía legal de 2 años en Europa. Ninja también ofrece un servicio posventa eficiente con piezas de repuesto disponibles. El aparato cuesta 229,99 euros, una excelente relación calidad-precio en el segmento premium de doble zona.',
-        it: 'Sì, il Ninja Foodi MAX Double Stack ha la garanzia legale di 2 anni in Europa. Ninja offre anche un servizio post-vendita reattivo con ricambi disponibili. L\'apparecchio costa 229,99 euro, un eccellente rapporto qualità-prezzo nel segmento premium dual-zone.',
-        nl: 'Ja, de Ninja Foodi MAX Double Stack heeft de wettelijke garantie van 2 jaar in Europa. Ninja biedt ook een responsieve klantenservice met beschikbare reserveonderdelen. Het apparaat kost 229,99 euro, een uitstekende prijs-kwaliteitverhouding in het premium dual-zone segment.',
+        fr: "Non, il n'a ni Wi-Fi ni application : tout se règle sur le panneau de commande. Si vous voulez piloter votre airfryer depuis un smartphone, regardez plutôt le Philips Airfryer Combi XXL Connected ou le Cosori Dual Blaze.",
+        en: 'No, it has no Wi-Fi or app: everything is set on the control panel. If you want to control your air fryer from a phone, look at the Philips Airfryer Combi XXL Connected or the Cosori Dual Blaze instead.',
+        de: 'Nein, er hat weder WLAN noch App: Alles wird am Bedienfeld eingestellt. Wer die Fritteuse per Smartphone steuern möchte, sollte sich eher den Philips Airfryer Combi XXL Connected oder den Cosori Dual Blaze ansehen.',
+        es: 'No, no tiene wifi ni aplicación: todo se ajusta en el panel de control. Si quieres manejar la freidora desde el móvil, fíjate mejor en el Philips Airfryer Combi XXL Connected o en el Cosori Dual Blaze.',
+        it: 'No, non ha né Wi-Fi né app: tutto si imposta dal pannello di controllo. Se vuoi gestire la friggitrice dallo smartphone, valuta piuttosto il Philips Airfryer Combi XXL Connected o il Cosori Dual Blaze.',
+        nl: 'Nee, hij heeft geen wifi of app: alles stel je in op het bedieningspaneel. Wil je je airfryer met je telefoon bedienen, kijk dan liever naar de Philips Airfryer Combi XXL Connected of de Cosori Dual Blaze.',
+      },
+    },
+    {
+      question: {
+        fr: "Quel espace prévoir pour l'installer ?",
+        en: 'How much space do you need for it?',
+        de: 'Wie viel Platz braucht das Gerät?',
+        es: '¿Cuánto espacio hace falta para instalarlo?',
+        it: 'Quanto spazio serve per installarlo?',
+        nl: 'Hoeveel ruimte heb je ervoor nodig?',
+      },
+      answer: {
+        fr: "Ninja annonce 38,5 cm de haut, 28 cm de large et 47 cm de profondeur, pour environ 10 kg. Laissez un dégagement autour et au-dessus de l'appareil pour l'évacuation de l'air chaud, et vérifiez la hauteur sous vos meubles hauts.",
+        en: 'Ninja lists it at 38.5 cm high, 28 cm wide and 47 cm deep, weighing about 10 kg. Leave clearance around and above it for hot air to escape, and check the height under your wall cabinets.',
+        de: 'Ninja gibt 38,5 cm Höhe, 28 cm Breite und 47 cm Tiefe bei rund 10 kg an. Lassen Sie rundherum und nach oben Abstand für die heiße Abluft und prüfen Sie die Höhe unter Ihren Hängeschränken.',
+        es: 'Ninja indica 38,5 cm de alto, 28 cm de ancho y 47 cm de fondo, con unos 10 kg de peso. Deja espacio alrededor y por encima para que salga el aire caliente, y comprueba la altura bajo tus muebles altos.',
+        it: "Ninja dichiara 38,5 cm di altezza, 28 cm di larghezza e 47 cm di profondità, per circa 10 kg. Lascia spazio intorno e sopra l'apparecchio per l'uscita dell'aria calda e verifica l'altezza sotto i pensili.",
+        nl: 'Ninja vermeldt 38,5 cm hoog, 28 cm breed en 47 cm diep, met een gewicht van ongeveer 10 kg. Laat ruimte rondom en erboven voor de hete lucht en controleer de hoogte onder je bovenkastjes.',
       },
     },
   ],

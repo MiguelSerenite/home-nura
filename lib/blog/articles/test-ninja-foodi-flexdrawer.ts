@@ -6,742 +6,631 @@ export const article: BlogArticle = {
   pillar: 'guides/airfryers',
   relatedSlugs: ['test-ninja-foodi-max-dual-zone', 'airfryer-simple-vs-double-panier', 'meilleur-airfryer-xxl-grande-famille'],
   datePublished: '2026-03-01',
-  dateModified: '2026-04-12',
-  readingTime: 13,
+  dateModified: '2026-10-09',
+  readingTime: 6,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/41sQIj0LwDL._AC_SL1500_.jpg',
+      src: 'https://m.media-amazon.com/images/I/31pr60oiZuL._AC_SL1500_.jpg',
       alt: {
-        fr: 'Ninja Foodi FlexDrawer 10,4L - vue de face avec le tiroir flexible ouvert',
-        en: 'Ninja Foodi FlexDrawer 10.4L - front view with flexible drawer open',
-        de: 'Ninja Foodi FlexDrawer 10,4L - Frontansicht mit geöffneter flexibler Schublade',
-        es: 'Ninja Foodi FlexDrawer 10,4L - vista frontal con cajón flexible abierto',
-        it: 'Ninja Foodi FlexDrawer 10,4L - vista frontale con cassetto flessibile aperto',
-        nl: 'Ninja Foodi FlexDrawer 10,4L - vooraanzicht met flexibele lade open',
+        fr: 'Ninja Foodi FlexDrawer AF500EU vu de face, avec son panneau de commande MegaZone et Dual Zone',
+        en: 'Front view of the Ninja Foodi FlexDrawer AF500EU, showing its MegaZone and Dual Zone control panel',
+        de: 'Ninja Foodi FlexDrawer AF500EU von vorne, mit dem Bedienfeld für MegaZone und Dual Zone',
+        es: 'Ninja Foodi FlexDrawer AF500EU visto de frente, con su panel de control MegaZone y Dual Zone',
+        it: 'Ninja Foodi FlexDrawer AF500EU visto di fronte, con il pannello di controllo MegaZone e Dual Zone',
+        nl: 'Ninja Foodi FlexDrawer AF500EU van voren, met het bedieningspaneel voor MegaZone en Dual Zone',
       },
     },
   ],
   title: {
-    fr: 'Test Ninja Foodi FlexDrawer 10,4L : Avis Complet 2026',
-    en: 'Ninja Foodi FlexDrawer 10.4L Review: Full 2026 Verdict',
-    de: 'Ninja Foodi FlexDrawer 10,4L Test: Vollständige Bewertung 2026',
-    es: 'Test Ninja Foodi FlexDrawer 10,4L: Opinión Completa 2026',
-    it: 'Test Ninja Foodi FlexDrawer 10,4L: Recensione Completa 2026',
-    nl: 'Test Ninja Foodi FlexDrawer 10,4L: Volledige Review 2026',
+    fr: 'Ninja Foodi FlexDrawer 10,4 L : avis complet 2026',
+    en: 'Ninja Foodi FlexDrawer 10.4L Review: 2026 Verdict',
+    de: 'Ninja Foodi FlexDrawer 10,4 L: Erfahrungen und Bewertung 2026',
+    es: 'Ninja Foodi FlexDrawer 10,4 L: opinión completa 2026',
+    it: 'Ninja Foodi FlexDrawer 10,4 L: recensione completa 2026',
+    nl: 'Ninja Foodi FlexDrawer 10,4 L: review en oordeel 2026',
   },
   excerpt: {
-    fr: 'Notre test complet du Ninja Foodi FlexDrawer 10,4L : le plus grand airfryer Ninja avec tiroir flexible convertible en zone unique ou double. Capacité XXL pour grandes familles. Score Nura : 9.2/10.',
-    en: 'Our full review of the Ninja Foodi FlexDrawer 10.4L: the largest Ninja air fryer with a flexible drawer convertible between single and dual zone. XXL capacity for large families. Nura Score: 9.2/10.',
-    de: 'Unser vollständiger Test des Ninja Foodi FlexDrawer 10,4L: die größte Ninja-Heißluftfritteuse mit flexibler Schublade, umwandelbar zwischen Einzel- und Doppelzone. XXL-Kapazität. Nura-Score: 9,2/10.',
-    es: 'Nuestra prueba completa del Ninja Foodi FlexDrawer 10,4L: la freidora Ninja más grande con cajón flexible convertible entre zona única y doble. Capacidad XXL. Puntuación Nura: 9,2/10.',
-    it: 'Il nostro test completo del Ninja Foodi FlexDrawer 10,4L: la più grande friggitrice Ninja con cassetto flessibile convertibile tra zona singola e doppia. Capacità XXL. Punteggio Nura: 9,2/10.',
-    nl: 'Onze volledige test van de Ninja Foodi FlexDrawer 10,4L: de grootste Ninja airfryer met flexibele lade, omschakelbaar tussen enkele en dubbele zone. XXL-capaciteit. Nura Score: 9,2/10.',
+    fr: 'Le Ninja Foodi FlexDrawer (AF500EU) réunit un grand tiroir de 10,4 L et deux zones de 5,2 L grâce à un séparateur amovible. Notre avis 2026, fondé sur la fiche technique, les avis indépendants et les retours d’acheteurs.',
+    en: 'The Ninja Foodi FlexDrawer (AF500EU) combines one 10.4L drawer and two 5.2L zones thanks to a removable divider. Our 2026 review, based on the spec sheet, independent reviews and verified buyer feedback.',
+    de: 'Der Ninja Foodi FlexDrawer (AF500EU) vereint eine 10,4-Liter-Schublade und zwei 5,2-Liter-Zonen dank herausnehmbarem Trenner. Unsere Bewertung 2026 auf Basis von Datenblatt, unabhängigen Testberichten und Käufererfahrungen.',
+    es: 'La Ninja Foodi FlexDrawer (AF500EU) combina un cajón de 10,4 L y dos zonas de 5,2 L gracias a un separador extraíble. Nuestra opinión 2026, basada en la ficha técnica, análisis independientes y opiniones de compradores.',
+    it: 'La Ninja Foodi FlexDrawer (AF500EU) unisce un cassetto da 10,4 L e due zone da 5,2 L grazie a un divisore rimovibile. La nostra recensione 2026, basata su scheda tecnica, recensioni indipendenti e opinioni degli acquirenti.',
+    nl: 'De Ninja Foodi FlexDrawer (AF500EU) combineert één lade van 10,4 liter en twee zones van 5,2 liter dankzij een uitneembaar schot. Onze review 2026, gebaseerd op specificaties, onafhankelijke reviews en ervaringen van kopers.',
   },
   content: {
-    fr: `<h2>Notre protocole de test</h2>
-<p>Le Ninja Foodi FlexDrawer 10,4L a été testé pendant 6 semaines avec des familles de 5 à 7 personnes — profil pour lequel ce modèle est conçu. Nous avons réalisé 94 sessions de cuisson documentées, en testant spécifiquement les deux modes (Mega Zone et Dual Zone) dans des proportions égales pour évaluer objectivement les avantages de chacun. Nos tests incluaient des cuissons de poulet entier, des fournées XXL de frites, des repas complets avec plat principal et accompagnement simultanés, et des sessions de déshydratation longue durée.</p>
-<p>Chaque session était documentée avec des mesures de température (sonde de contact), de consommation électrique (wattmètre), de niveau sonore (sonomètre) et d'uniformité de cuisson (grille de notation standardisée). Les résultats ont été comparés directement au <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> pour évaluer les avantages respectifs des deux formats.</p>
+    fr: `<p><strong>Le Ninja Foodi FlexDrawer 10,4 L (référence AF500EU) est l’un des airfryers les plus polyvalents pour une famille de cinq personnes et plus : un seul grand tiroir de 10,4 litres qui se divise, grâce à un séparateur amovible, en deux zones indépendantes de 5,2 litres.</strong> Ses vrais points faibles sont son encombrement, le poids et la taille du tiroir à laver, et l’absence de connectivité.</p>
+<p>Précision importante : Home Nura ne teste pas les appareils en laboratoire. Cet avis s’appuie sur la fiche technique officielle de Ninja, sur les tests publiés par la presse spécialisée et sur les retours d’acheteurs vérifiés. Pour une vue d’ensemble du marché, consultez notre <a href="/fr/guides/airfryers">guide des meilleurs airfryers 2026</a>.</p>
 
-<h2>Introduction</h2>
-<p>Le Ninja Foodi FlexDrawer 10,4L est le vaisseau amiral de la gamme Ninja en 2026. Avec sa capacité XXL de 10,4 litres et son concept unique de tiroir flexible — convertible d'une grande zone unique en deux zones indépendantes grâce à un séparateur amovible — il vise les grandes familles et les cuisiniers ambitieux qui veulent tout avoir : volume, polyvalence et performance.</p>
-<p>À 249,99 euros, c'est le modèle le plus cher de notre sélection Ninja, mais aussi potentiellement le plus intéressant pour ceux qui hésitent entre un airfryer simple XXL et un modèle double. Le FlexDrawer promet les deux en un seul appareil. Nous avons voulu vérifier si cette promesse tient la route au quotidien.</p>
-<p>Après 6 semaines de tests intensifs avec des familles de 5 à 7 personnes, le Ninja FlexDrawer obtient un score Nura de <strong>9,2/10</strong>. Voici pourquoi il mérite une place dans le top 3 de notre <a href="/fr/guides/airfryers">guide des meilleurs airfryers 2026</a>.</p>
-
-<h2>Fiche technique</h2>
+<h2>Fiche technique du Ninja Foodi FlexDrawer</h2>
 <table>
-<thead><tr><th>Caractéristique</th><th>Détail</th></tr></thead>
+<thead><tr><th>Caractéristique</th><th>Donnée constructeur</th></tr></thead>
 <tbody>
-<tr><td>Capacité totale</td><td>10,4 litres (zone unique) / 2 x 5,2L (mode double)</td></tr>
-<tr><td>Puissance</td><td>2 600 W</td></tr>
-<tr><td>Plage de température</td><td>40°C - 240°C</td></tr>
-<tr><td>Dimensions (L x P x H)</td><td>44,5 x 38 x 33,5 cm</td></tr>
-<tr><td>Poids</td><td>10,2 kg</td></tr>
-<tr><td>Programmes prédéfinis</td><td>8 (frites, poulet, poisson, légumes, steak, crevettes, bacon, déshydratation)</td></tr>
-<tr><td>Modes spéciaux</td><td>Mega Zone (10,4L), Dual Zone (2x5,2L), Match Cook, Smart Finish</td></tr>
-<tr><td>Connectivité</td><td>Non</td></tr>
-<tr><td>Minuterie</td><td>Jusqu'à 24 heures</td></tr>
-<tr><td>Prix constaté</td><td>249,99 €</td></tr>
+<tr><td>Référence</td><td>AF500EU</td></tr>
+<tr><td>Capacité</td><td>10,4 L en MegaZone, ou 2 zones de 5,2 L avec le séparateur</td></tr>
+<tr><td>Puissance</td><td>2 470 W</td></tr>
+<tr><td>Température</td><td>40 °C à 240 °C</td></tr>
+<tr><td>Fonctions</td><td>7 : Max Crisp, Air Fry, Rôtir, Cuire au four, Réchauffer, Déshydrater, Faire lever</td></tr>
+<tr><td>Modes à deux zones</td><td>Sync (fin de cuisson simultanée) et Match (mêmes réglages des deux côtés)</td></tr>
+<tr><td>Fournis</td><td>Tiroir antiadhésif de 10,4 L, séparateur, 2 plaques de cuisson antiadhésives</td></tr>
+<tr><td>Poids</td><td>Environ 9,4 kg</td></tr>
+<tr><td>Connectivité</td><td>Aucune (pas d’application ni de Wi-Fi)</td></tr>
 </tbody>
 </table>
 
-<h2>Design et fabrication</h2>
-<p>Le FlexDrawer est un appareil imposant. Avec 44,5 cm de large et 38 cm de profondeur, il faut prévoir un espace conséquent sur le plan de travail. En revanche, sa hauteur de 33,5 cm est raisonnable et passe sous la plupart des placards hauts. Le design reste fidèle à l'ADN Ninja : lignes anguleuses, plastique mat noir de qualité, écran tactile central lumineux.</p>
-<p>L'innovation majeure est le séparateur amovible au centre du tiroir. En place, il crée deux zones de 5,2L chacune avec des réglages indépendants. Retiré, il libère une méga-zone de 10,4L capable d'accueillir un poulet entier de 2 kg ou une plaque de ribs complète. Le mécanisme de mise en place du séparateur est solide et intuitif — un clic et c'est verrouillé.</p>
-<p>La qualité de fabrication est premium. Les paniers métalliques avec revêtement antiadhésif céramique sont robustes. Le tiroir unique (contrairement au <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Double Stack</a> qui a deux tiroirs séparés) coulisse sur des rails renforcés qui supportent le poids sans broncher. Les poignées cool-touch sont larges et confortables.</p>
+<h2>Le concept FlexDrawer : un tiroir, deux usages</h2>
+<p>La plupart des airfryers doubles, comme le <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi MAX Double Stack XL</a>, utilisent deux tiroirs séparés. Le FlexDrawer prend le chemin inverse : un tiroir unique et large, que l’on peut cloisonner au besoin.</p>
+<h3>Mode MegaZone (10,4 L)</h3>
+<p>Sans séparateur, tout le volume est disponible. C’est ce qui distingue vraiment cet appareil : Ninja annonce qu’il peut accueillir un gigot d’environ 2 kg avec ses légumes et préparer des repas pour huit personnes et plus. Les grosses pièces qu’on réservait au four (volaille entière, rôti, grandes fournées de légumes étalés sur une seule couche) deviennent possibles sans tout découper.</p>
+<h3>Mode Dual Zone (2 x 5,2 L)</h3>
+<p>Avec le séparateur, on obtient deux compartiments pilotés indépendamment : fonction, température et durée différentes de chaque côté. La fonction Sync décale le départ pour que les deux zones finissent en même temps, et Match recopie les réglages d’une zone sur l’autre. Selon Ninja, chaque zone de 5,2 L peut recevoir jusqu’à 1,5 kg de frites.</p>
+<p>Pour savoir si ce format vous convient mieux qu’un modèle à deux tiroirs ou à panier unique, notre article <a href="/fr/blog/airfryer-simple-vs-double-panier">airfryer simple ou double panier</a> détaille les avantages de chaque architecture.</p>
 
-<h2>Performance de cuisson</h2>
-<h3>Frites et pommes de terre</h3>
-<p>En mode Mega Zone, le FlexDrawer accepte jusqu'à <strong>1,2 kg de frites fraîches en une seule fournée</strong>, un record dans notre sélection. À 200°C pendant 22 minutes avec deux secouages (à 8 et 15 minutes), le résultat est excellent : croustillant homogène sur l'ensemble du panier malgré la grande quantité. La puissance de 2 600 W compense le volume important.</p>
-<p>En mode Dual Zone avec 500 g par côté, les frites sont prêtes en 17 minutes à 200°C. On peut simultanément cuire des frites classiques d'un côté et des patates douces en quartiers de l'autre, avec des durées différentes. Smart Finish synchronise la fin des deux cuissons — c'est impressionnant de praticité.</p>
-
-<h3>Poulet et viandes</h3>
-<p>Le mode Mega Zone prend toute sa dimension avec un <strong>poulet entier de 1,8 kg</strong> : à 185°C pendant 55 minutes, la peau est dorée et craquante sur toute la surface, et la chair est juteuse (température interne de 82°C au cœur de la cuisse). C'est le seul airfryer de notre sélection qui permet de cuire un poulet entier de cette taille sans le découper.</p>
-<p>En mode Dual Zone, nous avons testé des pilons d'un côté (190°C, 25 min) et des saucisses de l'autre (180°C, 15 min). Smart Finish lance le côté saucisses 10 minutes après les pilons pour que tout soit prêt en même temps. Parfait pour un repas complet sans effort. Pour les amateurs qui hésitent entre simple et double, notre article sur les <a href="/fr/blog/airfryer-simple-vs-double-panier">airfryers simple vs double panier</a> vous aidera.</p>
-
-<h3>Légumes</h3>
-<p>En mode Mega Zone avec 800 g de légumes variés (courgettes, poivrons, champignons, oignons) à <strong>185°C pendant 15 minutes</strong>, le résultat est excellent. La grande surface permet aux légumes de cuire en une seule couche, évitant l'empilement qui produit des zones mal cuites. C'est un avantage décisif du FlexDrawer par rapport aux modèles plus petits.</p>
-
-<h2>Facilité d'utilisation</h2>
-<p>L'écran tactile est identique à celui du Double Stack : intuitif, réactif, avec des icônes claires. On choisit d'abord le mode (Mega Zone ou Dual Zone), puis le programme ou les réglages manuels. En mode Dual, les commandes pour chaque zone sont clairement séparées à gauche et à droite de l'écran.</p>
-<p>Le séparateur amovible est le seul élément qui demande une manipulation : il faut l'insérer ou le retirer avant de lancer la cuisson. En pratique, cela prend 5 secondes et devient un réflexe très rapidement. Ninja a bien pensé le système avec un cran de verrouillage satisfaisant.</p>
-<p>Le nettoyage bénéficie du format large du tiroir : on accède facilement à toutes les surfaces. Les paniers sont compatibles lave-vaisselle, mais attention à leur taille — ils prennent beaucoup de place dans un lave-vaisselle standard. Le séparateur se nettoie à la main en quelques secondes. Après 6 semaines d'usage intensif, le revêtement céramique reste impeccable.</p>
-
-<h2>Consommation énergétique</h2>
-<p>La puissance de 2 600 W est la plus élevée de notre sélection, mais elle est justifiée par le volume. Pour une fournée de frites de 1,2 kg en Mega Zone (22 minutes à 200°C), la consommation est de <strong>0,85 kWh</strong>. Ramené au kilogramme de frites, c'est <strong>0,71 kWh/kg</strong>, ce qui est en fait comparable aux modèles plus petits qui cuisent en plusieurs fournées.</p>
-<p>En mode Dual Zone (deux cuissons de 17 minutes), la consommation est de <strong>0,65 kWh</strong>. Un four classique pour une quantité équivalente consommerait environ 2,2 kWh. L'économie est significative, surtout pour les grandes familles qui économisent des fournées supplémentaires. Consultez notre article dédié aux <a href="/fr/blog/airfryer-economies-energie">économies d'énergie</a> pour plus de détails.</p>
-
-<h2>Points forts et points faibles</h2>
-<h3>Points forts</h3>
+<h2>Ce qu’en disent la presse et les acheteurs</h2>
+<h3>Les points forts les plus cités</h3>
 <ul>
-<li><strong>Flexibilité unique</strong> : passe de 10,4L (zone unique) à 2x5,2L (double) en 5 secondes</li>
-<li><strong>Capacité XXL</strong> : peut cuire un poulet entier de 1,8 kg ou 1,2 kg de frites</li>
-<li><strong>Puissance 2 600 W</strong> : compense le grand volume, cuisson rapide</li>
-<li><strong>Smart Finish</strong> : synchronisation des deux zones, aussi efficace que sur le Double Stack</li>
-<li><strong>Qualité premium</strong> : revêtement céramique, rails renforcés, fabrication solide</li>
-<li><strong>Mode déshydratation</strong> : 40°C, minuterie 24h</li>
+<li><strong>La capacité réelle</strong> : les propriétaires de familles nombreuses soulignent surtout la possibilité de cuire en une fois ce qui demandait deux fournées sur un 5 ou 6 L.</li>
+<li><strong>La souplesse du séparateur</strong> : on passe d’un mode à l’autre en quelques secondes selon le repas, sans changer d’appareil.</li>
+<li><strong>Le mode Max Crisp</strong> : les tests de la presse britannique saluent le croustillant obtenu sur les frites surgelées et les galettes de pommes de terre.</li>
+<li><strong>La fonction Sync</strong> : très appréciée pour servir un plat et son accompagnement chauds en même temps.</li>
+<li><strong>Des commandes simples</strong> : boutons et molette clairs, avec un affichage séparé pour la zone 1, la MegaZone et la zone 2.</li>
 </ul>
-<h3>Points faibles</h3>
+<h3>Les limites qui reviennent</h3>
 <ul>
-<li><strong>Encombrement important</strong> : 44,5 cm de large, nécessite un grand plan de travail</li>
-<li><strong>Prix élevé</strong> : 249,99 €, le plus cher de la gamme Ninja</li>
-<li><strong>Poids conséquent</strong> : 10,2 kg, difficile à déplacer régulièrement</li>
-<li><strong>Pas de connectivité</strong> : pas d'app ni de Wi-Fi</li>
-<li><strong>Paniers grands pour le lave-vaisselle</strong> : peuvent ne pas rentrer dans tous les modèles</li>
-<li><strong>Bruit en mode Mega Zone</strong> : 68 dB, le ventilateur tourne plus fort</li>
+<li><strong>L’encombrement</strong> : l’appareil est nettement plus large qu’un airfryer classique. Mesurez votre plan de travail et l’espace sous les placards avant d’acheter.</li>
+<li><strong>Un tiroir lourd et volumineux</strong> : les pièces sont annoncées compatibles lave-vaisselle, mais plusieurs acheteurs notent que le grand tiroir y prend beaucoup de place.</li>
+<li><strong>Un séparateur qui n’isole pas totalement</strong> : un test publié au Royaume-Uni relève que la zone vide chauffe quand une seule zone fonctionne, sans conséquence visible sur la cuisson.</li>
+<li><strong>Un seul tiroir pour deux zones</strong> : ouvrir pour secouer les frites d’un côté expose aussi l’autre préparation.</li>
+<li><strong>Pas d’application</strong> : ceux qui veulent piloter ou suivre la cuisson depuis leur téléphone regarderont plutôt vers Philips ou Cosori.</li>
 </ul>
 
-<h2>Score Nura détaillé</h2>
+<h2>Comparaison avec les alternatives familiales</h2>
 <table>
-<thead><tr><th>Critère</th><th>Note</th><th>Commentaire</th></tr></thead>
+<thead><tr><th>Modèle</th><th>Capacité</th><th>Architecture</th><th>Connectivité</th><th>Idéal pour</th></tr></thead>
 <tbody>
-<tr><td>Performance de cuisson</td><td>9,5/10</td><td>Excellente dans les deux modes, poulet entier impressionnant</td></tr>
-<tr><td>Facilité d'utilisation</td><td>9,0/10</td><td>Interface Ninja éprouvée, séparateur simple à utiliser</td></tr>
-<tr><td>Design et fabrication</td><td>9,0/10</td><td>Premium, mais encombrant</td></tr>
-<tr><td>Polyvalence</td><td>9,5/10</td><td>Le plus polyvalent de notre sélection grâce au FlexDrawer</td></tr>
-<tr><td>Rapport qualité-prix</td><td>8,5/10</td><td>249,99 € justifié par la flexibilité, mais reste un investissement</td></tr>
-<tr><td>Nettoyage</td><td>9,0/10</td><td>Accès facile, lave-vaisselle, mais paniers volumineux</td></tr>
-<tr><td>Bruit</td><td>8,0/10</td><td>68 dB en Mega Zone, correct en Dual</td></tr>
-<tr><td><strong>Score Nura global</strong></td><td><strong>9,2/10</strong></td><td><strong>L'airfryer le plus polyvalent de 2026</strong></td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>10,4 L (2 x 5,2 L)</td><td>Tiroir unique avec séparateur</td><td>Non</td><td>Grandes familles, grosses pièces</td></tr>
+<tr><td>Ninja Foodi MAX Double Stack XL</td><td>9,5 L (2 x 4,75 L)</td><td>Deux tiroirs superposés</td><td>Non</td><td>Cuisines où la largeur manque</td></tr>
+<tr><td>Philips Airfryer Combi XXL Connecté</td><td>8,3 L</td><td>Panier unique avec sonde</td><td>Wi-Fi, application HomeID</td><td>Cuisson précise des viandes</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>6,4 L</td><td>Panier unique, chauffe haut et bas</td><td>Wi-Fi, application VeSync</td><td>Foyers de 3 à 4 personnes</td></tr>
 </tbody>
 </table>
+<p><strong>FlexDrawer ou Double Stack ?</strong> Le FlexDrawer l’emporte dès qu’il faut cuire de grosses pièces d’un seul tenant, ce que les deux tiroirs de 4,75 L du Double Stack ne permettent pas. Le Double Stack, plus haut mais moins large, convient mieux aux plans de travail étroits et aux repas « plat plus accompagnement » de quatre à six personnes.</p>
+<p><strong>FlexDrawer ou Philips Combi XXL Connecté ?</strong> Le Philips mise sur la précision (sonde de température, application, nombreux programmes) plutôt que sur la double zone. Si vous cuisinez souvent des viandes et aimez être guidé, il a l’avantage ; si vous voulez deux plats en parallèle, le Ninja reste plus pratique.</p>
+<p>Pour d’autres options de grande capacité, voyez notre sélection des <a href="/fr/blog/meilleur-airfryer-xxl-grande-famille">meilleurs airfryers XXL pour grande famille</a>.</p>
+
+<h2>Pour qui est-il fait ?</h2>
+<ul>
+<li><strong>Les foyers de cinq personnes et plus</strong> qui utilisent l’airfryer comme second four au quotidien.</li>
+<li><strong>Ceux qui cuisent des pièces entières</strong> : volaille, rôti, gigot, plaques de légumes.</li>
+<li><strong>Les cuisiniers qui alternent</strong> entre grandes fournées le week-end et deux plats différents en semaine.</li>
+</ul>
+<p>Il convient moins aux couples, aux petites cuisines et à ceux qui veulent un appareil connecté. Dans ces cas, un modèle de 4 à 6 L sera plus simple à ranger et à nettoyer.</p>
+
+<h2>Erreurs à éviter et conseils d’utilisation</h2>
+<ul>
+<li><strong>Sous-estimer la place</strong> : laissez un dégagement autour et au-dessus des sorties d’air, comme le recommande la notice, et ne placez pas l’appareil sous un placard bas pendant la cuisson.</li>
+<li><strong>Oublier le séparateur</strong> : en mode Dual Zone, vérifiez qu’il est bien enclenché avant de lancer deux cuissons différentes.</li>
+<li><strong>Surcharger la MegaZone</strong> : un grand volume ne dispense pas d’étaler les aliments ; empilés, ils cuisent de manière inégale.</li>
+<li><strong>Abîmer le revêtement</strong> : utilisez des ustensiles en silicone ou en bois et évitez les éponges abrasives.</li>
+<li><strong>Manipuler le tiroir chaud</strong> : il est large et lourd une fois rempli ; tenez-le par la poignée et posez-le sur une surface résistante à la chaleur.</li>
+<li><strong>Brancher sur une multiprise chargée</strong> : avec près de 2,5 kW, branchez-le de préférence directement sur une prise murale.</li>
+</ul>
 
 <h2>Verdict</h2>
-<p>Le Ninja Foodi FlexDrawer 10,4L est <strong>l'airfryer le plus polyvalent de 2026</strong>. Son concept de tiroir flexible résout un dilemme courant : faut-il choisir un grand airfryer simple ou un modèle double plus petit ? Avec le FlexDrawer, vous avez les deux. La capacité de cuire un poulet entier en Mega Zone puis de préparer deux plats différents en Dual Zone le lendemain est un luxe que les grandes familles apprécieront énormément.</p>
-<p>À 249,99 euros, c'est un investissement, mais pour une famille de 5 personnes et plus qui utilise l'airfryer quotidiennement, il se rentabilise rapidement. Si votre plan de travail est limité ou si vous êtes une famille plus petite, le <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> à 229,99 € offre un meilleur compromis taille/performance. Pour découvrir les <a href="/fr/blog/meilleur-airfryer-xxl-grande-famille">meilleurs airfryers XXL pour grande famille</a>, consultez notre sélection dédiée.</p>
-<p>Retrouvez toutes nos recommandations dans notre <a href="/fr/guides/airfryers">guide complet des meilleurs airfryers 2026</a>.</p>
+<p>Le Ninja Foodi FlexDrawer 10,4 L répond bien à un besoin précis : avoir dans un seul appareil un grand airfryer pour les grosses pièces et un modèle double zone pour les repas du quotidien. Les spécifications, les tests de la presse et les retours d’acheteurs convergent : capacité réelle, cuisson croustillante et fonction Sync pratique. En contrepartie, il demande de la place, son tiroir est encombrant à laver et il n’offre aucune connectivité.</p>
+<p>Pour une famille de cinq personnes et plus disposant d’un plan de travail généreux, c’est l’un des choix les plus cohérents de 2026. Si l’espace en largeur est compté, le Double Stack est l’alternative naturelle. Retrouvez tous nos conseils dans le <a href="/fr/guides/airfryers">guide des airfryers</a>.</p>`,
 
-<h2>Comparaison : FlexDrawer vs Double Stack — lequel choisir ?</h2>
-<p>Ces deux appareils Ninja sont souvent comparés et méritent une analyse directe :</p>
+    en: `<p><strong>The Ninja Foodi FlexDrawer 10.4L (model AF500EU) is one of the most versatile air fryers for a family of five or more: a single large 10.4-litre drawer that a removable divider splits into two independent 5.2-litre zones.</strong> Its real weak points are its size, a heavy drawer that is bulky to wash, and the lack of any connectivity.</p>
+<p>An important note: Home Nura does not test appliances in a lab. This review is based on Ninja’s official spec sheet, on tests published by specialist reviewers and on verified buyer feedback. For a wider view of the market, see our <a href="/en/guides/airfryers">guide to the best air fryers of 2026</a>.</p>
+
+<h2>Ninja Foodi FlexDrawer specifications</h2>
 <table>
-<thead><tr><th>Critère</th><th>FlexDrawer 10,4L</th><th>Double Stack XL 9,5L</th></tr></thead>
+<thead><tr><th>Feature</th><th>Manufacturer data</th></tr></thead>
 <tbody>
-<tr><td>Prix</td><td>249,99 €</td><td>229,99 €</td></tr>
-<tr><td>Empreinte au sol</td><td>44,5 x 38 cm</td><td>27,5 x 37 cm</td></tr>
-<tr><td>Hauteur</td><td>33,5 cm</td><td>39 cm</td></tr>
-<tr><td>Capacité max en une fois</td><td>10,4L (méga-zone)</td><td>2 x 4,75L séparés</td></tr>
-<tr><td>Poulet entier</td><td>Oui (1,8 kg)</td><td>Non</td></tr>
-<tr><td>Double cuisson indépendante</td><td>Oui (2 x 5,2L)</td><td>Oui (2 x 4,75L)</td></tr>
-<tr><td>Poids</td><td>10,2 kg</td><td>9,8 kg</td></tr>
-<tr><td>Bruit max</td><td>68 dB (Mega)</td><td>65 dB</td></tr>
-<tr><td>Score Nura</td><td>9,2/10</td><td>9,4/10</td></tr>
-</tbody>
-</table>
-<p><strong>Choisissez le FlexDrawer si :</strong> vous avez une grande famille (5 personnes et plus), vous cuisinez régulièrement des pièces entières (poulet, rôti, ribs), vous disposez de l'espace nécessaire sur votre plan de travail, et vous voulez la flexibilité d'alterner entre grande zone unique et double zone.</p>
-<p><strong>Choisissez le Double Stack si :</strong> votre cuisine est petite, vous cuisinez pour 4 à 6 personnes avec deux plats simultanés, et l'empreinte au sol est votre contrainte principale.</p>
-
-<h2>Pour qui est le FlexDrawer idéal ?</h2>
-<ul>
-<li><strong>Familles de 5 personnes et plus</strong> qui ont besoin de cuire de grandes quantités en une seule fournée</li>
-<li><strong>Amateurs de rôtis et volailles entières</strong> : le FlexDrawer est le seul airfryer de sa gamme de prix capable de cuire un poulet entier</li>
-<li><strong>Cuisiniers qui font des repas festifs</strong> : plateaux de ribs, grandes quantités pour les réunions familiales</li>
-<li><strong>Personnes qui passent régulièrement du mode simple au mode double</strong> selon le repas préparé</li>
-</ul>
-
-<h2>Verdict final détaillé</h2>
-<p>Le Ninja Foodi FlexDrawer 10,4L est une réussite technologique et pratique. Son concept de tiroir flexible est l'innovation la plus intelligente du marché des airfryers en 2026 : résoudre en un seul appareil le dilemme entre grande capacité unique et flexibilité double zone. À 249,99 euros, c'est un investissement justifié pour les grandes familles et les cuisiniers passionnés qui optimisent leur cuisine. Score Nura confirmé : <strong>9,2/10</strong>.</p>`,
-
-    en: `<h2>Introduction</h2>
-<p>The Ninja Foodi FlexDrawer 10.4L is the flagship of Ninja's 2026 range. With its XXL 10.4-litre capacity and unique flexible drawer concept — convertible from one large single zone into two independent zones via a removable divider — it targets large families and ambitious cooks who want it all: volume, versatility and performance.</p>
-<p>At €249.99, it is the most expensive model in our Ninja selection, but potentially the most compelling for those torn between a large single air fryer and a smaller dual model. After 6 weeks of intensive testing with families of 5-7, the Ninja FlexDrawer earns a Nura score of <strong>9.2/10</strong>.</p>
-
-<h2>Technical Specifications</h2>
-<table>
-<thead><tr><th>Feature</th><th>Detail</th></tr></thead>
-<tbody>
-<tr><td>Total capacity</td><td>10.4 litres (single zone) / 2 x 5.2L (dual mode)</td></tr>
-<tr><td>Power</td><td>2,600 W</td></tr>
-<tr><td>Temperature range</td><td>40°C - 240°C</td></tr>
-<tr><td>Dimensions (W x D x H)</td><td>44.5 x 38 x 33.5 cm</td></tr>
-<tr><td>Weight</td><td>10.2 kg</td></tr>
-<tr><td>Preset programmes</td><td>8 (fries, chicken, fish, vegetables, steak, shrimp, bacon, dehydrate)</td></tr>
-<tr><td>Special modes</td><td>Mega Zone (10.4L), Dual Zone (2x5.2L), Match Cook, Smart Finish</td></tr>
-<tr><td>Connectivity</td><td>None</td></tr>
-<tr><td>Price</td><td>€249.99</td></tr>
+<tr><td>Model</td><td>AF500EU</td></tr>
+<tr><td>Capacity</td><td>10.4L in MegaZone, or 2 zones of 5.2L with the divider</td></tr>
+<tr><td>Power</td><td>2,470 W</td></tr>
+<tr><td>Temperature</td><td>40°C to 240°C</td></tr>
+<tr><td>Functions</td><td>7: Max Crisp, Air Fry, Roast, Bake, Reheat, Dehydrate, Prove</td></tr>
+<tr><td>Dual-zone modes</td><td>Sync (both zones finish together) and Match (same settings on both sides)</td></tr>
+<tr><td>In the box</td><td>10.4L non-stick drawer, divider, 2 non-stick crisper plates</td></tr>
+<tr><td>Weight</td><td>About 9.4 kg</td></tr>
+<tr><td>Connectivity</td><td>None (no app, no Wi-Fi)</td></tr>
 </tbody>
 </table>
 
-<h2>Design and Build Quality</h2>
-<p>The FlexDrawer is a substantial appliance. At 44.5 cm wide and 38 cm deep, you need significant counter space. The major innovation is the removable centre divider: in place, it creates two 5.2L zones with independent settings; removed, it frees up a 10.4L mega-zone capable of holding a whole 2 kg chicken or a full rack of ribs.</p>
-<p>Build quality is premium. Ceramic non-stick metal baskets, reinforced drawer rails and cool-touch handles. Unlike the <a href="/en/blog/test-ninja-foodi-max-dual-zone">Double Stack</a> with two separate drawers, the FlexDrawer uses a single wide drawer with an optional divider — a fundamentally different approach. For more on this distinction, see our <a href="/en/blog/airfryer-simple-vs-double-panier">single vs dual drawer comparison</a>.</p>
+<h2>The FlexDrawer idea: one drawer, two ways to cook</h2>
+<p>Most dual air fryers, such as the <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi MAX Double Stack XL</a>, use two separate drawers. The FlexDrawer takes the opposite route: one wide drawer that you divide only when you need to.</p>
+<h3>MegaZone mode (10.4L)</h3>
+<p>Without the divider, the whole volume is available. This is what really sets the appliance apart: Ninja says it can hold a leg of lamb of around 2 kg with vegetables and cook meals for eight or more people. Large items you would normally put in the oven (a whole bird, a roast, big trays of vegetables spread in a single layer) become possible without cutting everything up.</p>
+<h3>Dual Zone mode (2 x 5.2L)</h3>
+<p>With the divider in place, you get two independently controlled compartments, each with its own function, temperature and time. Sync staggers the start so both zones finish together, and Match copies one zone’s settings to the other. According to Ninja, each 5.2L zone takes up to 1.5 kg of fries.</p>
+<p>To decide whether this layout suits you better than a two-drawer or single-basket model, our article on <a href="/en/blog/airfryer-simple-vs-double-panier">single vs dual basket air fryers</a> sets out the pros and cons of each design.</p>
 
-<h2>Cooking Performance</h2>
-<h3>Fries and Potatoes</h3>
-<p>In Mega Zone mode, the FlexDrawer handles up to <strong>1.2 kg of fresh fries in a single batch</strong> — a record in our selection. At 200°C for 22 minutes with two shakes (at 8 and 15 minutes), results are excellent: even crispiness throughout despite the large quantity. In Dual Zone with 500 g per side, fries are ready in 17 minutes.</p>
-
-<h3>Chicken and Meats</h3>
-<p>Mega Zone truly shines with a <strong>whole 1.8 kg chicken</strong>: at 185°C for 55 minutes, the skin is golden and crackling across the entire surface, meat juicy (82°C internal at the thickest part). This is the only air fryer in our selection that can cook a whole chicken of this size without cutting it up.</p>
-<p>In Dual Zone, we tested drumsticks on one side (190°C, 25 min) and sausages on the other (180°C, 15 min). Smart Finish starts the sausages 10 minutes after the drumsticks so everything finishes together.</p>
-
-<h3>Vegetables</h3>
-<p>In Mega Zone with 800 g of mixed vegetables at <strong>185°C for 15 minutes</strong>, the large surface allows vegetables to cook in a single layer, avoiding the stacking that produces uneven results. This is a decisive advantage over smaller models.</p>
-
-<h2>Ease of Use</h2>
-<p>The touchscreen is identical to the Double Stack: intuitive, responsive, with clear icons. You choose the mode first (Mega or Dual Zone), then the programme or manual settings. The removable divider takes 5 seconds to insert or remove and becomes second nature quickly. Cleaning benefits from the wide drawer format — easy access to all surfaces. Baskets are dishwasher-safe but large.</p>
-
-<h2>Energy Consumption</h2>
-<p>At 2,600 W (the highest in our selection), consumption for 1.2 kg of fries in Mega Zone (22 min at 200°C) is <strong>0.85 kWh</strong>. Per kilogram, that is 0.71 kWh/kg, comparable to smaller models needing multiple batches. A conventional oven for equivalent quantities would use about 2.2 kWh.</p>
-
-<h2>Pros and Cons</h2>
-<h3>Pros</h3>
+<h2>What reviewers and buyers say</h2>
+<h3>Most frequently praised</h3>
 <ul>
-<li><strong>Unique flexibility</strong>: switches from 10.4L single to 2x5.2L dual in 5 seconds</li>
-<li><strong>XXL capacity</strong>: whole 1.8 kg chicken or 1.2 kg of fries</li>
-<li><strong>2,600 W power</strong>: compensates for large volume</li>
-<li><strong>Smart Finish</strong>: effective dual-zone synchronisation</li>
-<li><strong>Premium build</strong>: ceramic coating, reinforced rails</li>
+<li><strong>Real-world capacity</strong>: owners with large families mostly highlight cooking in one go what used to take two batches in a 5 or 6L model.</li>
+<li><strong>A flexible divider</strong>: you switch modes in seconds depending on the meal, without changing appliance.</li>
+<li><strong>Max Crisp mode</strong>: UK reviewers praise the crispness it gives frozen fries and hash browns.</li>
+<li><strong>Sync</strong>: much appreciated for serving a main and a side hot at the same time.</li>
+<li><strong>Simple controls</strong>: clear buttons and dial, with separate indicators for zone 1, MegaZone and zone 2.</li>
 </ul>
-<h3>Cons</h3>
+<h3>Recurring drawbacks</h3>
 <ul>
-<li><strong>Large footprint</strong>: 44.5 cm wide, needs a big counter</li>
-<li><strong>High price</strong>: €249.99</li>
-<li><strong>Heavy</strong>: 10.2 kg, hard to move regularly</li>
-<li><strong>No connectivity</strong>: no app or Wi-Fi</li>
-<li><strong>Noise in Mega Zone</strong>: 68 dB, fan runs harder</li>
+<li><strong>Size</strong>: it is noticeably wider than a standard air fryer. Measure your worktop and the space under your wall cabinets before buying.</li>
+<li><strong>A heavy, bulky drawer</strong>: parts are listed as dishwasher safe, but several buyers note that the large drawer takes up a lot of room in the machine.</li>
+<li><strong>A divider that does not fully insulate</strong>: one UK review found the empty zone gets warm when only one side is running, with no visible effect on results.</li>
+<li><strong>One drawer for two zones</strong>: opening it to shake fries on one side also exposes the other dish.</li>
+<li><strong>No app</strong>: if you want to control or monitor cooking from your phone, look at Philips or Cosori instead.</li>
 </ul>
 
-<h2>Detailed Nura Score</h2>
+<h2>How it compares with other family air fryers</h2>
 <table>
-<thead><tr><th>Criterion</th><th>Score</th><th>Comment</th></tr></thead>
+<thead><tr><th>Model</th><th>Capacity</th><th>Design</th><th>Connectivity</th><th>Best for</th></tr></thead>
 <tbody>
-<tr><td>Cooking performance</td><td>9.5/10</td><td>Excellent in both modes, whole chicken impressive</td></tr>
-<tr><td>Ease of use</td><td>9.0/10</td><td>Proven Ninja interface, simple divider system</td></tr>
-<tr><td>Design and build</td><td>9.0/10</td><td>Premium but bulky</td></tr>
-<tr><td>Versatility</td><td>9.5/10</td><td>Most versatile in our selection thanks to FlexDrawer</td></tr>
-<tr><td>Value for money</td><td>8.5/10</td><td>€249.99 justified by flexibility, but still an investment</td></tr>
-<tr><td>Cleaning</td><td>9.0/10</td><td>Easy access, dishwasher-safe, large baskets</td></tr>
-<tr><td>Noise</td><td>8.0/10</td><td>68 dB in Mega Zone, fine in Dual</td></tr>
-<tr><td><strong>Overall Nura Score</strong></td><td><strong>9.2/10</strong></td><td><strong>Most versatile air fryer of 2026</strong></td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>10.4L (2 x 5.2L)</td><td>Single drawer with divider</td><td>No</td><td>Large families, big cuts</td></tr>
+<tr><td>Ninja Foodi MAX Double Stack XL</td><td>9.5L (2 x 4.75L)</td><td>Two stacked drawers</td><td>No</td><td>Kitchens short on width</td></tr>
+<tr><td>Philips Airfryer Combi XXL Connected</td><td>8.3L</td><td>Single basket with probe</td><td>Wi-Fi, HomeID app</td><td>Precise meat cooking</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>6.4L</td><td>Single basket, top and bottom heat</td><td>Wi-Fi, VeSync app</td><td>Households of 3 to 4</td></tr>
 </tbody>
 </table>
+<p><strong>FlexDrawer or Double Stack?</strong> The FlexDrawer wins whenever you need to cook large items whole, which the Double Stack’s two 4.75L drawers cannot do. The Double Stack is taller but narrower, so it suits tight worktops and main-plus-side meals for four to six people better.</p>
+<p><strong>FlexDrawer or Philips Combi XXL Connected?</strong> The Philips focuses on precision (temperature probe, app, many programmes) rather than dual zones. If you often cook meat and like guidance, it has the edge; if you want two dishes in parallel, the Ninja is more practical.</p>
+<p>For more large-capacity options, see our pick of the <a href="/en/blog/meilleur-airfryer-xxl-grande-famille">best XXL air fryers for large families</a>.</p>
+
+<h2>Who is it for?</h2>
+<ul>
+<li><strong>Households of five or more</strong> who use the air fryer as a second oven every day.</li>
+<li><strong>People who cook whole items</strong>: poultry, roasts, lamb, trays of vegetables.</li>
+<li><strong>Cooks who alternate</strong> between big weekend batches and two different dishes on weeknights.</li>
+</ul>
+<p>It is less suited to couples, small kitchens and anyone who wants a connected appliance. In those cases, a 4 to 6L model will be easier to store and clean.</p>
+
+<h2>Mistakes to avoid and usage tips</h2>
+<ul>
+<li><strong>Underestimating the space</strong>: leave clearance around and above the air vents, as the manual recommends, and do not run it under a low wall cabinet.</li>
+<li><strong>Forgetting the divider</strong>: in Dual Zone mode, make sure it is properly seated before starting two different programmes.</li>
+<li><strong>Overloading the MegaZone</strong>: a large drawer does not mean you can skip spreading food out; piled-up food cooks unevenly.</li>
+<li><strong>Damaging the coating</strong>: use silicone or wooden utensils and avoid abrasive scourers.</li>
+<li><strong>Handling the hot drawer</strong>: it is wide and heavy when full; hold it by the handle and set it on a heat-resistant surface.</li>
+<li><strong>Using a crowded extension lead</strong>: at almost 2.5 kW, plug it straight into a wall socket where possible.</li>
+</ul>
 
 <h2>Verdict</h2>
-<p>The Ninja Foodi FlexDrawer 10.4L is <strong>the most versatile air fryer of 2026</strong>. Its flexible drawer concept solves a common dilemma: large single or smaller dual? With the FlexDrawer, you get both. For families of 5+ who use their air fryer daily, it pays for itself quickly.</p>
-<p>If counter space is limited, the <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> at €229.99 offers a better size-to-performance ratio. See all our picks in the <a href="/en/guides/airfryers">complete guide to the best air fryers 2026</a> and our <a href="/en/blog/meilleur-airfryer-xxl-grande-famille">best XXL air fryers for large families</a>.</p>
+<p>The Ninja Foodi FlexDrawer 10.4L meets a specific need well: a large air fryer for big cuts and a dual-zone model for everyday meals, in one appliance. The specs, published reviews and buyer feedback agree on real capacity, crisp results and a handy Sync function. In return, it needs space, its drawer is bulky to wash and it has no connectivity.</p>
+<p>For a family of five or more with a generous worktop, it is one of the most sensible choices of 2026. If width is tight, the Double Stack is the natural alternative. Find all our advice in the <a href="/en/guides/airfryers">air fryer guide</a>.</p>`,
 
-<h2>FlexDrawer vs Double Stack — Which Should You Choose?</h2>
+    de: `<p><strong>Der Ninja Foodi FlexDrawer 10,4 L (Modell AF500EU) gehört zu den vielseitigsten Heißluftfritteusen für Familien ab fünf Personen: eine einzige große 10,4-Liter-Schublade, die sich mit einem herausnehmbaren Trenner in zwei unabhängige Zonen mit je 5,2 Litern teilen lässt.</strong> Seine echten Schwächen sind der Platzbedarf, die schwere und sperrige Schublade beim Spülen und die fehlende Vernetzung.</p>
+<p>Wichtig vorab: Home Nura prüft Geräte nicht im eigenen Labor. Diese Bewertung stützt sich auf das offizielle Datenblatt von Ninja, auf veröffentlichte Testberichte der Fachpresse und auf Erfahrungen verifizierter Käufer. Einen Marktüberblick bietet unser <a href="/de/guides/airfryers">Ratgeber zu den besten Heißluftfritteusen 2026</a>.</p>
+
+<h2>Technische Daten des Ninja Foodi FlexDrawer</h2>
 <table>
-<thead><tr><th>Criterion</th><th>FlexDrawer 10.4L</th><th>Double Stack XL 9.5L</th></tr></thead>
+<thead><tr><th>Merkmal</th><th>Herstellerangabe</th></tr></thead>
 <tbody>
-<tr><td>Price</td><td>€249.99</td><td>€229.99</td></tr>
-<tr><td>Counter footprint</td><td>44.5 x 38 cm</td><td>27.5 x 37 cm</td></tr>
-<tr><td>Max capacity at once</td><td>10.4L (mega zone)</td><td>2 x 4.75L separate</td></tr>
-<tr><td>Whole chicken</td><td>Yes (1.8 kg)</td><td>No</td></tr>
-<tr><td>Independent dual cooking</td><td>Yes (2 x 5.2L)</td><td>Yes (2 x 4.75L)</td></tr>
-<tr><td>Noise max</td><td>68 dB (Mega)</td><td>65 dB</td></tr>
-<tr><td>Nura Score</td><td>9.2/10</td><td>9.4/10</td></tr>
-</tbody>
-</table>
-<p><strong>Choose the FlexDrawer if:</strong> you have a large family (5+), cook whole birds and roasts regularly, have counter space, and want the flexibility to alternate between a single mega-zone and dual zones.</p>
-<p><strong>Choose the Double Stack if:</strong> your kitchen is small, you cook for 4-6 people with two simultaneous dishes, and counter footprint is your main constraint.</p>
-
-<h2>Who Is the FlexDrawer Ideal For?</h2>
-<ul>
-<li><strong>Families of 5 or more</strong> who need to cook large quantities in one batch</li>
-<li><strong>Roast and poultry enthusiasts</strong>: the FlexDrawer is the only air fryer in its price range that can cook a whole chicken</li>
-<li><strong>Cooks who host frequently</strong>: racks of ribs, large quantities for family gatherings</li>
-<li><strong>People who regularly switch between single and dual mode</strong> depending on the meal</li>
-</ul>
-
-<h2>Detailed Final Verdict</h2>
-<p>The Ninja Foodi FlexDrawer 10.4L is a technical and practical success. Its flexible drawer concept is the most intelligent innovation on the air fryer market in 2026: solving the single large capacity vs dual-zone dilemma in one appliance. At €249.99, it is a justified investment for large families and passionate cooks. Confirmed Nura Score: <strong>9.2/10</strong>.</p>`,
-
-    de: `<h2>Einleitung</h2>
-<p>Der Ninja Foodi FlexDrawer 10,4L ist das Flaggschiff der Ninja-Reihe 2026. Mit seiner XXL-Kapazität von 10,4 Litern und dem einzigartigen flexiblen Schubladenkonzept — umwandelbar von einer großen Einzelzone in zwei unabhängige Zonen durch einen herausnehmbaren Trenner — richtet er sich an Großfamilien und ambitionierte Köche. Mit einem Nura-Score von <strong>9,2/10</strong> verdient er seinen Platz in den Top 3.</p>
-
-<h2>Technische Daten</h2>
-<table>
-<thead><tr><th>Merkmal</th><th>Detail</th></tr></thead>
-<tbody>
-<tr><td>Gesamtkapazität</td><td>10,4 Liter (Einzelzone) / 2 x 5,2L (Dual)</td></tr>
-<tr><td>Leistung</td><td>2.600 W</td></tr>
-<tr><td>Temperaturbereich</td><td>40°C - 240°C</td></tr>
-<tr><td>Abmessungen (B x T x H)</td><td>44,5 x 38 x 33,5 cm</td></tr>
-<tr><td>Gewicht</td><td>10,2 kg</td></tr>
-<tr><td>Modi</td><td>Mega Zone (10,4L), Dual Zone (2x5,2L), Match Cook, Smart Finish</td></tr>
-<tr><td>Preis</td><td>249,99 €</td></tr>
+<tr><td>Modell</td><td>AF500EU</td></tr>
+<tr><td>Fassungsvermögen</td><td>10,4 L als MegaZone oder 2 Zonen mit je 5,2 L mit Trenner</td></tr>
+<tr><td>Leistung</td><td>2.470 W</td></tr>
+<tr><td>Temperatur</td><td>40 °C bis 240 °C</td></tr>
+<tr><td>Funktionen</td><td>7: Max Crisp, Air Fry, Braten, Backen, Aufwärmen, Dörren, Gärstufe</td></tr>
+<tr><td>Zwei-Zonen-Modi</td><td>Sync (beide Zonen werden gleichzeitig fertig) und Match (gleiche Einstellungen auf beiden Seiten)</td></tr>
+<tr><td>Lieferumfang</td><td>10,4-L-Antihaft-Schublade, Trenner, 2 antihaftbeschichtete Crisper-Platten</td></tr>
+<tr><td>Gewicht</td><td>Etwa 9,4 kg</td></tr>
+<tr><td>Vernetzung</td><td>Keine (keine App, kein WLAN)</td></tr>
 </tbody>
 </table>
 
-<h2>Design und Verarbeitung</h2>
-<p>Der FlexDrawer ist ein imposantes Gerät: 44,5 cm breit, aber nur 33,5 cm hoch. Die Innovation ist der herausnehmbare Mittelteiler: eingesetzt entstehen zwei 5,2L-Zonen, entfernt eine Mega-Zone von 10,4L für ein ganzes 2-kg-Hähnchen. Im Gegensatz zum <a href="/de/blog/test-ninja-foodi-max-dual-zone">Double Stack</a> mit zwei separaten Schubladen nutzt der FlexDrawer eine einzige breite Schublade. Mehr dazu in unserem <a href="/de/blog/airfryer-simple-vs-double-panier">Vergleich einfach vs. doppelt</a>.</p>
+<h2>Das FlexDrawer-Prinzip: eine Schublade, zwei Nutzungsarten</h2>
+<p>Die meisten Doppelzonen-Geräte, etwa der <a href="/de/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi MAX Double Stack XL</a>, arbeiten mit zwei getrennten Schubladen. Der FlexDrawer geht den umgekehrten Weg: eine einzige breite Schublade, die man nur bei Bedarf unterteilt.</p>
+<h3>MegaZone-Modus (10,4 L)</h3>
+<p>Ohne Trenner steht das gesamte Volumen zur Verfügung. Genau das hebt das Gerät ab: Laut Ninja passt eine Lammkeule von rund 2 kg samt Gemüse hinein, und es reicht für Mahlzeiten für acht Personen und mehr. Große Stücke, die sonst in den Backofen wandern (ganzes Geflügel, Braten, große Mengen Gemüse in einer Lage), lassen sich garen, ohne alles zu zerteilen.</p>
+<h3>Dual-Zone-Modus (2 x 5,2 L)</h3>
+<p>Mit eingesetztem Trenner erhält man zwei unabhängig gesteuerte Fächer mit eigener Funktion, Temperatur und Zeit. Sync verzögert den Start so, dass beide Zonen gleichzeitig fertig werden, Match überträgt die Einstellungen einer Zone auf die andere. Laut Ninja fasst jede 5,2-Liter-Zone bis zu 1,5 kg Pommes.</p>
+<p>Ob dieses Konzept besser zu Ihnen passt als ein Modell mit zwei Schubladen oder einem Korb, erklärt unser Beitrag <a href="/de/blog/airfryer-simple-vs-double-panier">Heißluftfritteuse mit einem oder zwei Körben</a>.</p>
 
-<h2>Kochleistung</h2>
-<h3>Pommes und Kartoffeln</h3>
-<p>Im Mega-Zone-Modus fasst der FlexDrawer bis zu <strong>1,2 kg frische Pommes in einer Charge</strong>. Bei 200°C für 22 Minuten mit zwei Schüttelvorgängen ist das Ergebnis ausgezeichnet. Im Dual-Modus mit 500 g pro Seite sind die Pommes in 17 Minuten fertig.</p>
-
-<h3>Hähnchen und Fleisch</h3>
-<p>Die Mega Zone glänzt mit einem <strong>ganzen 1,8-kg-Hähnchen</strong>: bei 185°C für 55 Minuten ist die Haut überall goldbraun und knusprig. Im Dual-Modus: Hähnchenschenkel auf einer Seite (190°C, 25 Min.) und Würstchen auf der anderen (180°C, 15 Min.). Smart Finish synchronisiert perfekt.</p>
-
-<h3>Gemüse</h3>
-<p>800 g gemischtes Gemüse in der Mega Zone bei <strong>185°C für 15 Minuten</strong>: die große Fläche ermöglicht einlagiges Garen ohne Stapeln — ein entscheidender Vorteil gegenüber kleineren Modellen.</p>
-
-<h2>Bedienungsfreundlichkeit</h2>
-<p>Der Touchscreen ist identisch mit dem Double Stack: intuitiv mit klaren Icons. Man wählt zuerst den Modus (Mega oder Dual), dann Programm oder manuelle Einstellungen. Der Teiler lässt sich in 5 Sekunden einsetzen oder entfernen. Reinigung profitiert vom breiten Format — leichter Zugang. Körbe sind spülmaschinenfest, aber groß.</p>
-
-<h2>Energieverbrauch</h2>
-<p>Mit 2.600 W für 1,2 kg Pommes in der Mega Zone: <strong>0,85 kWh</strong>. Pro Kilogramm 0,71 kWh/kg — vergleichbar mit kleineren Modellen, die mehrere Chargen brauchen. Ein Backofen verbraucht ca. 2,2 kWh für die gleiche Menge.</p>
-
-<h2>Stärken und Schwächen</h2>
-<h3>Stärken</h3>
+<h2>Was Fachpresse und Käufer berichten</h2>
+<h3>Am häufigsten gelobt</h3>
 <ul>
-<li><strong>Einzigartige Flexibilität</strong>: 10,4L Einzelzone oder 2x5,2L Dual in 5 Sekunden</li>
-<li><strong>XXL-Kapazität</strong>: ganzes 1,8-kg-Hähnchen oder 1,2 kg Pommes</li>
-<li><strong>2.600 W Leistung</strong>: kompensiert das große Volumen</li>
-<li><strong>Smart Finish</strong>: effektive Synchronisation</li>
-<li><strong>Premium-Verarbeitung</strong>: Keramikbeschichtung, verstärkte Schienen</li>
+<li><strong>Das echte Fassungsvermögen</strong>: Käufer mit großen Familien heben vor allem hervor, dass sie auf einmal garen, wofür ein 5- oder 6-Liter-Gerät zwei Durchgänge brauchte.</li>
+<li><strong>Der flexible Trenner</strong>: Je nach Gericht wechselt man in Sekunden den Modus, ohne ein zweites Gerät.</li>
+<li><strong>Der Max-Crisp-Modus</strong>: Britische Testberichte loben die Knusprigkeit bei Tiefkühl-Pommes und Kartoffelpuffern.</li>
+<li><strong>Die Sync-Funktion</strong>: Sehr geschätzt, um Hauptgericht und Beilage gleichzeitig heiß zu servieren.</li>
+<li><strong>Einfache Bedienung</strong>: Klare Tasten und Drehregler mit getrennten Anzeigen für Zone 1, MegaZone und Zone 2.</li>
 </ul>
-<h3>Schwächen</h3>
+<h3>Wiederkehrende Kritikpunkte</h3>
 <ul>
-<li><strong>Großer Platzbedarf</strong>: 44,5 cm breit</li>
-<li><strong>Hoher Preis</strong>: 249,99 €</li>
-<li><strong>Schwer</strong>: 10,2 kg</li>
-<li><strong>Keine Konnektivität</strong></li>
-<li><strong>Laut in Mega Zone</strong>: 68 dB</li>
+<li><strong>Platzbedarf</strong>: Das Gerät ist deutlich breiter als eine klassische Heißluftfritteuse. Messen Sie Arbeitsfläche und Höhe unter den Hängeschränken vor dem Kauf.</li>
+<li><strong>Schwere, sperrige Schublade</strong>: Die Teile gelten als spülmaschinengeeignet, doch mehrere Käufer merken an, dass die große Schublade viel Platz in der Maschine einnimmt.</li>
+<li><strong>Trenner isoliert nicht vollständig</strong>: Ein britischer Testbericht stellte fest, dass die leere Zone warm wird, wenn nur eine Seite läuft, ohne sichtbaren Einfluss auf das Ergebnis.</li>
+<li><strong>Eine Schublade für zwei Zonen</strong>: Wer die Pommes auf einer Seite schüttelt, öffnet auch die andere Seite.</li>
+<li><strong>Keine App</strong>: Wer per Smartphone steuern oder überwachen möchte, schaut besser bei Philips oder Cosori.</li>
 </ul>
 
-<h2>Detaillierter Nura-Score</h2>
+<h2>Vergleich mit anderen Familien-Heißluftfritteusen</h2>
 <table>
-<thead><tr><th>Kriterium</th><th>Note</th><th>Kommentar</th></tr></thead>
+<thead><tr><th>Modell</th><th>Fassungsvermögen</th><th>Aufbau</th><th>Vernetzung</th><th>Ideal für</th></tr></thead>
 <tbody>
-<tr><td>Kochleistung</td><td>9,5/10</td><td>Ausgezeichnet in beiden Modi</td></tr>
-<tr><td>Bedienung</td><td>9,0/10</td><td>Bewährtes Ninja-Interface</td></tr>
-<tr><td>Design</td><td>9,0/10</td><td>Premium, aber sperrig</td></tr>
-<tr><td>Vielseitigkeit</td><td>9,5/10</td><td>Die vielseitigste dank FlexDrawer</td></tr>
-<tr><td>Preis-Leistung</td><td>8,5/10</td><td>249,99 € gerechtfertigt, aber Investition</td></tr>
-<tr><td>Reinigung</td><td>9,0/10</td><td>Leichter Zugang, große Körbe</td></tr>
-<tr><td>Lautstärke</td><td>8,0/10</td><td>68 dB in Mega Zone</td></tr>
-<tr><td><strong>Nura-Gesamtscore</strong></td><td><strong>9,2/10</strong></td><td><strong>Vielseitigste Fritteuse 2026</strong></td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>10,4 L (2 x 5,2 L)</td><td>Eine Schublade mit Trenner</td><td>Nein</td><td>Große Familien, große Stücke</td></tr>
+<tr><td>Ninja Foodi MAX Double Stack XL</td><td>9,5 L (2 x 4,75 L)</td><td>Zwei übereinanderliegende Schubladen</td><td>Nein</td><td>Küchen mit wenig Breite</td></tr>
+<tr><td>Philips Airfryer Combi XXL Connected</td><td>8,3 L</td><td>Ein Korb mit Temperaturfühler</td><td>WLAN, HomeID-App</td><td>Präzises Garen von Fleisch</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>6,4 L</td><td>Ein Korb, Hitze von oben und unten</td><td>WLAN, VeSync-App</td><td>Haushalte mit 3 bis 4 Personen</td></tr>
 </tbody>
 </table>
+<p><strong>FlexDrawer oder Double Stack?</strong> Der FlexDrawer gewinnt, sobald große Stücke am Stück gegart werden sollen, was die zwei 4,75-Liter-Schubladen des Double Stack nicht erlauben. Der Double Stack ist höher, aber schmaler und passt daher besser zu engen Arbeitsflächen und Gerichten mit Beilage für vier bis sechs Personen.</p>
+<p><strong>FlexDrawer oder Philips Combi XXL Connected?</strong> Philips setzt auf Präzision (Temperaturfühler, App, viele Programme) statt auf zwei Zonen. Wer oft Fleisch zubereitet und gern angeleitet wird, ist dort besser aufgehoben; wer zwei Gerichte parallel möchte, fährt mit dem Ninja praktischer.</p>
+<p>Weitere Geräte mit großem Fassungsvermögen finden Sie in unserer Auswahl der <a href="/de/blog/meilleur-airfryer-xxl-grande-famille">besten XXL-Heißluftfritteusen für große Familien</a>.</p>
+
+<h2>Für wen eignet er sich?</h2>
+<ul>
+<li><strong>Haushalte ab fünf Personen</strong>, die die Heißluftfritteuse täglich als zweiten Backofen nutzen.</li>
+<li><strong>Wer ganze Stücke gart</strong>: Geflügel, Braten, Lamm, Bleche voller Gemüse.</li>
+<li><strong>Köche, die abwechseln</strong> zwischen großen Mengen am Wochenende und zwei verschiedenen Gerichten unter der Woche.</li>
+</ul>
+<p>Weniger geeignet ist er für Paare, kleine Küchen und alle, die ein vernetztes Gerät suchen. Dann ist ein Modell mit 4 bis 6 Litern leichter zu verstauen und zu reinigen.</p>
+
+<h2>Fehler vermeiden und Tipps zur Nutzung</h2>
+<ul>
+<li><strong>Den Platzbedarf unterschätzen</strong>: Halten Sie laut Bedienungsanleitung Abstand rund um die Luftauslässe und betreiben Sie das Gerät nicht unter einem niedrigen Hängeschrank.</li>
+<li><strong>Den Trenner vergessen</strong>: Im Dual-Zone-Modus prüfen, dass er richtig sitzt, bevor zwei verschiedene Programme starten.</li>
+<li><strong>Die MegaZone überladen</strong>: Auch eine große Schublade ersetzt nicht das Verteilen der Lebensmittel; gestapelt garen sie ungleichmäßig.</li>
+<li><strong>Die Beschichtung beschädigen</strong>: Silikon- oder Holzutensilien verwenden und keine Scheuerschwämme.</li>
+<li><strong>Die heiße Schublade handhaben</strong>: Sie ist voll beladen breit und schwer; am Griff halten und auf eine hitzebeständige Fläche stellen.</li>
+<li><strong>Eine überlastete Mehrfachsteckdose nutzen</strong>: Bei fast 2,5 kW das Gerät möglichst direkt an eine Wandsteckdose anschließen.</li>
+</ul>
 
 <h2>Fazit</h2>
-<p>Der Ninja Foodi FlexDrawer 10,4L ist <strong>die vielseitigste Heißluftfritteuse 2026</strong>. Bei begrenztem Platz ist der <a href="/de/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> die bessere Wahl. Alle Empfehlungen im <a href="/de/guides/airfryers">vollständigen Ratgeber 2026</a> und unsere <a href="/de/blog/meilleur-airfryer-xxl-grande-famille">besten XXL-Fritteusen für Großfamilien</a>.</p>
+<p>Der Ninja Foodi FlexDrawer 10,4 L erfüllt einen klaren Bedarf: eine große Heißluftfritteuse für große Stücke und ein Doppelzonen-Gerät für den Alltag in einem. Datenblatt, Testberichte und Käufererfahrungen stimmen überein: echtes Fassungsvermögen, knusprige Ergebnisse und eine praktische Sync-Funktion. Im Gegenzug braucht er Platz, die Schublade ist sperrig beim Spülen, und eine Vernetzung fehlt.</p>
+<p>Für Familien ab fünf Personen mit großzügiger Arbeitsfläche gehört er zu den stimmigsten Optionen 2026. Ist die Breite knapp, ist der Double Stack die naheliegende Alternative. Alle Tipps finden Sie im <a href="/de/guides/airfryers">Heißluftfritteusen-Ratgeber</a>.</p>`,
 
-<h2>FlexDrawer vs Double Stack — Welches Gerät wählen?</h2>
+    es: `<p><strong>La Ninja Foodi FlexDrawer 10,4 L (modelo AF500EU) es una de las freidoras de aire más versátiles para familias de cinco personas o más: un único cajón grande de 10,4 litros que, con un separador extraíble, se divide en dos zonas independientes de 5,2 litros.</strong> Sus verdaderos puntos débiles son el tamaño, un cajón pesado y voluminoso de lavar y la ausencia de conectividad.</p>
+<p>Aclaración importante: en Home Nura no evaluamos los aparatos en laboratorio. Esta opinión se basa en la ficha técnica oficial de Ninja, en los análisis publicados por la prensa especializada y en opiniones de compradores verificados. Para una visión global del mercado, consulta nuestra <a href="/es/guides/airfryers">guía de las mejores freidoras de aire 2026</a>.</p>
+
+<h2>Ficha técnica de la Ninja Foodi FlexDrawer</h2>
 <table>
-<thead><tr><th>Kriterium</th><th>FlexDrawer 10,4L</th><th>Double Stack XL 9,5L</th></tr></thead>
+<thead><tr><th>Característica</th><th>Dato del fabricante</th></tr></thead>
 <tbody>
-<tr><td>Preis</td><td>249,99 €</td><td>229,99 €</td></tr>
-<tr><td>Stellfläche</td><td>44,5 x 38 cm</td><td>27,5 x 37 cm</td></tr>
-<tr><td>Max. Kapazität auf einmal</td><td>10,4L (Mega-Zone)</td><td>2 x 4,75L getrennt</td></tr>
-<tr><td>Ganzes Hähnchen</td><td>Ja (1,8 kg)</td><td>Nein</td></tr>
-<tr><td>Max. Lautstärke</td><td>68 dB (Mega)</td><td>65 dB</td></tr>
-<tr><td>Nura-Score</td><td>9,2/10</td><td>9,4/10</td></tr>
-</tbody>
-</table>
-<p><strong>FlexDrawer wenn:</strong> Großfamilie (5+), regelmäßige Zubereitung ganzer Hähnchen/Braten, ausreichend Platz vorhanden. <strong>Double Stack wenn:</strong> kleine Küche, 4-6 Personen, kompakter Stellflächenbedarf wichtig.</p>
-
-<h2>Für wen ist der FlexDrawer ideal?</h2>
-<ul>
-<li><strong>Familien ab 5 Personen</strong>, die große Mengen auf einmal garen müssen</li>
-<li><strong>Braten- und Geflügelliebhaber</strong>: das einzige Gerät seiner Klasse für ein ganzes Hähnchen</li>
-<li><strong>Köche die häufig Gäste empfangen</strong>: Ribs-Platten, große Mengen</li>
-<li><strong>Nutzer, die flexibel zwischen Einzel- und Dual-Modus wechseln</strong></li>
-</ul>
-
-<h2>Abschließendes detailliertes Urteil</h2>
-<p>Der Ninja Foodi FlexDrawer 10,4L ist ein technischer und praktischer Erfolg. Sein FlexDrawer-Konzept ist die intelligenteste Innovation auf dem Heißluftfritteusenmarkt 2026 — das Dilemma zwischen großer Einzelkapazität und Doppelzonen-Flexibilität in einem Gerät gelöst. Für 249,99 Euro eine gerechtfertigte Investition für Großfamilien. Bestätigter Nura-Score: <strong>9,2/10</strong>.</p>`,
-
-    es: `<h2>Introducción</h2>
-<p>La Ninja Foodi FlexDrawer 10,4L es el buque insignia de la gama Ninja en 2026. Con su capacidad XXL de 10,4 litros y su concepto único de cajón flexible — convertible de una gran zona única a dos zonas independientes mediante un separador extraíble — se dirige a familias numerosas y cocineros ambiciosos. Con una puntuación Nura de <strong>9,2/10</strong>, merece un lugar en el top 3.</p>
-
-<h2>Ficha técnica</h2>
-<table>
-<thead><tr><th>Característica</th><th>Detalle</th></tr></thead>
-<tbody>
-<tr><td>Capacidad total</td><td>10,4 litros (zona única) / 2 x 5,2L (modo doble)</td></tr>
-<tr><td>Potencia</td><td>2.600 W</td></tr>
-<tr><td>Rango de temperatura</td><td>40°C - 240°C</td></tr>
-<tr><td>Dimensiones</td><td>44,5 x 38 x 33,5 cm</td></tr>
-<tr><td>Peso</td><td>10,2 kg</td></tr>
-<tr><td>Modos</td><td>Mega Zone (10,4L), Dual Zone (2x5,2L), Match Cook, Smart Finish</td></tr>
-<tr><td>Precio</td><td>249,99 €</td></tr>
+<tr><td>Modelo</td><td>AF500EU</td></tr>
+<tr><td>Capacidad</td><td>10,4 L en MegaZone, o 2 zonas de 5,2 L con el separador</td></tr>
+<tr><td>Potencia</td><td>2.470 W</td></tr>
+<tr><td>Temperatura</td><td>De 40 °C a 240 °C</td></tr>
+<tr><td>Funciones</td><td>7: Max Crisp, Air Fry, Asar, Hornear, Recalentar, Deshidratar, Fermentar</td></tr>
+<tr><td>Modos de doble zona</td><td>Sync (ambas zonas terminan a la vez) y Match (mismos ajustes en los dos lados)</td></tr>
+<tr><td>Incluye</td><td>Cajón antiadherente de 10,4 L, separador, 2 bandejas antiadherentes</td></tr>
+<tr><td>Peso</td><td>Unos 9,4 kg</td></tr>
+<tr><td>Conectividad</td><td>Ninguna (sin app ni wifi)</td></tr>
 </tbody>
 </table>
 
-<h2>Diseño y fabricación</h2>
-<p>El FlexDrawer es un aparato imponente: 44,5 cm de ancho. La innovación es el separador extraíble central: colocado, crea dos zonas de 5,2L; retirado, libera una mega-zona de 10,4L para un pollo entero de 2 kg. A diferencia del <a href="/es/blog/test-ninja-foodi-max-dual-zone">Double Stack</a> con cajones separados, el FlexDrawer usa un único cajón ancho. Más en nuestro <a href="/es/blog/airfryer-simple-vs-double-panier">artículo simple vs doble</a>.</p>
+<h2>El concepto FlexDrawer: un cajón, dos usos</h2>
+<p>La mayoría de las freidoras de doble zona, como la <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi MAX Double Stack XL</a>, usan dos cajones separados. La FlexDrawer hace lo contrario: un único cajón ancho que se divide solo cuando hace falta.</p>
+<h3>Modo MegaZone (10,4 L)</h3>
+<p>Sin separador, todo el volumen está disponible. Es lo que realmente distingue a este aparato: Ninja indica que cabe una pierna de cordero de unos 2 kg con verduras y que permite preparar comidas para ocho personas o más. Las piezas grandes que antes iban al horno (un ave entera, un asado, bandejas de verduras en una sola capa) se pueden cocinar sin trocearlo todo.</p>
+<h3>Modo Dual Zone (2 x 5,2 L)</h3>
+<p>Con el separador colocado se obtienen dos compartimentos controlados por separado, cada uno con su función, temperatura y tiempo. Sync retrasa el inicio para que ambas zonas terminen a la vez y Match copia los ajustes de una zona en la otra. Según Ninja, cada zona de 5,2 L admite hasta 1,5 kg de patatas fritas.</p>
+<p>Para saber si este formato te conviene más que uno de dos cajones o de cesta única, nuestro artículo sobre <a href="/es/blog/airfryer-simple-vs-double-panier">freidoras de una o dos cestas</a> explica las ventajas de cada diseño.</p>
 
-<h2>Rendimiento de cocción</h2>
-<h3>Patatas fritas</h3>
-<p>En modo Mega Zone acepta hasta <strong>1,2 kg de patatas frescas en una sola tanda</strong>. A 200°C durante 22 minutos: resultado excelente. En modo Dual con 500 g por lado, listas en 17 minutos.</p>
-
-<h3>Pollo y carnes</h3>
-<p>La Mega Zone brilla con un <strong>pollo entero de 1,8 kg</strong>: a 185°C durante 55 minutos, piel dorada y crujiente, carne jugosa (82°C internos). En modo Dual: muslos a un lado (190°C, 25 min) y salchichas al otro (180°C, 15 min) con Smart Finish sincronizando ambos.</p>
-
-<h3>Verduras</h3>
-<p>800 g de verduras variadas en Mega Zone a <strong>185°C durante 15 minutos</strong>: la gran superficie permite cocinar en una sola capa, evitando apilamiento y resultados desiguales.</p>
-
-<h2>Facilidad de uso</h2>
-<p>Pantalla táctil idéntica al Double Stack. Se elige modo (Mega o Dual), luego programa o ajustes manuales. El separador se instala en 5 segundos. Limpieza fácil gracias al formato ancho, cestas aptas para lavavajillas pero grandes.</p>
-
-<h2>Consumo energético</h2>
-<p>Con 2.600 W para 1,2 kg de patatas en Mega Zone: <strong>0,85 kWh</strong>. Por kg: 0,71 kWh/kg, comparable a modelos pequeños con varias tandas. Un horno consume ~2,2 kWh para la misma cantidad.</p>
-
-<h2>Puntos fuertes y débiles</h2>
-<h3>Puntos fuertes</h3>
+<h2>Qué dicen la prensa y los compradores</h2>
+<h3>Lo más elogiado</h3>
 <ul>
-<li><strong>Flexibilidad única</strong>: 10,4L o 2x5,2L en 5 segundos</li>
-<li><strong>Capacidad XXL</strong>: pollo entero de 1,8 kg</li>
-<li><strong>2.600 W</strong>: compensa el gran volumen</li>
-<li><strong>Smart Finish</strong>: sincronización efectiva</li>
-<li><strong>Calidad premium</strong>: cerámica, rieles reforzados</li>
+<li><strong>La capacidad real</strong>: los propietarios con familias numerosas destacan sobre todo poder cocinar de una vez lo que en un modelo de 5 o 6 L requería dos tandas.</li>
+<li><strong>La flexibilidad del separador</strong>: se cambia de modo en segundos según la comida, sin otro aparato.</li>
+<li><strong>El modo Max Crisp</strong>: los análisis británicos elogian lo crujientes que quedan las patatas congeladas y los rösti.</li>
+<li><strong>La función Sync</strong>: muy valorada para servir el plato principal y la guarnición calientes a la vez.</li>
+<li><strong>Controles sencillos</strong>: botones y rueda claros, con indicadores separados para la zona 1, la MegaZone y la zona 2.</li>
 </ul>
-<h3>Puntos débiles</h3>
+<h3>Las pegas más repetidas</h3>
 <ul>
-<li><strong>Gran tamaño</strong>: 44,5 cm de ancho</li>
-<li><strong>Precio alto</strong>: 249,99 €</li>
-<li><strong>Pesado</strong>: 10,2 kg</li>
-<li><strong>Sin conectividad</strong></li>
-<li><strong>Ruidoso en Mega Zone</strong>: 68 dB</li>
+<li><strong>El tamaño</strong>: es bastante más ancha que una freidora de aire convencional. Mide la encimera y el hueco bajo los muebles altos antes de comprar.</li>
+<li><strong>Un cajón pesado y voluminoso</strong>: las piezas se anuncian aptas para lavavajillas, pero varios compradores señalan que el cajón ocupa mucho sitio dentro.</li>
+<li><strong>Un separador que no aísla del todo</strong>: un análisis británico observó que la zona vacía se calienta cuando solo funciona un lado, sin efecto visible en el resultado.</li>
+<li><strong>Un solo cajón para dos zonas</strong>: al abrirlo para remover las patatas de un lado, también se abre el otro.</li>
+<li><strong>Sin app</strong>: si quieres controlar o seguir la cocción desde el móvil, mejor mirar Philips o Cosori.</li>
 </ul>
 
-<h2>Puntuación Nura detallada</h2>
+<h2>Comparación con otras freidoras familiares</h2>
 <table>
-<thead><tr><th>Criterio</th><th>Nota</th><th>Comentario</th></tr></thead>
+<thead><tr><th>Modelo</th><th>Capacidad</th><th>Diseño</th><th>Conectividad</th><th>Ideal para</th></tr></thead>
 <tbody>
-<tr><td>Rendimiento</td><td>9,5/10</td><td>Excelente en ambos modos</td></tr>
-<tr><td>Facilidad de uso</td><td>9,0/10</td><td>Interfaz Ninja probada</td></tr>
-<tr><td>Diseño</td><td>9,0/10</td><td>Premium pero voluminoso</td></tr>
-<tr><td>Versatilidad</td><td>9,5/10</td><td>La más versátil gracias al FlexDrawer</td></tr>
-<tr><td>Relación calidad-precio</td><td>8,5/10</td><td>249,99 € justificado pero inversión</td></tr>
-<tr><td>Limpieza</td><td>9,0/10</td><td>Fácil acceso, cestas grandes</td></tr>
-<tr><td>Ruido</td><td>8,0/10</td><td>68 dB en Mega Zone</td></tr>
-<tr><td><strong>Puntuación Nura global</strong></td><td><strong>9,2/10</strong></td><td><strong>La airfryer más versátil de 2026</strong></td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>10,4 L (2 x 5,2 L)</td><td>Cajón único con separador</td><td>No</td><td>Familias numerosas, piezas grandes</td></tr>
+<tr><td>Ninja Foodi MAX Double Stack XL</td><td>9,5 L (2 x 4,75 L)</td><td>Dos cajones apilados</td><td>No</td><td>Cocinas con poco ancho</td></tr>
+<tr><td>Philips Airfryer Combi XXL Connected</td><td>8,3 L</td><td>Cesta única con sonda</td><td>Wifi, app HomeID</td><td>Cocción precisa de carnes</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>6,4 L</td><td>Cesta única, calor arriba y abajo</td><td>Wifi, app VeSync</td><td>Hogares de 3 a 4 personas</td></tr>
 </tbody>
 </table>
+<p><strong>¿FlexDrawer o Double Stack?</strong> La FlexDrawer gana cuando hay que cocinar piezas grandes enteras, algo que no permiten los dos cajones de 4,75 L de la Double Stack. La Double Stack es más alta pero más estrecha, así que encaja mejor en encimeras justas y en comidas de plato y guarnición para cuatro a seis personas.</p>
+<p><strong>¿FlexDrawer o Philips Combi XXL Connected?</strong> Philips apuesta por la precisión (sonda de temperatura, app, muchos programas) en lugar de la doble zona. Si cocinas carne a menudo y te gusta que te guíen, tiene ventaja; si quieres dos platos en paralelo, la Ninja es más práctica.</p>
+<p>Para más opciones de gran capacidad, mira nuestra selección de las <a href="/es/blog/meilleur-airfryer-xxl-grande-famille">mejores freidoras XXL para familias numerosas</a>.</p>
+
+<h2>¿Para quién es?</h2>
+<ul>
+<li><strong>Hogares de cinco personas o más</strong> que usan la freidora como segundo horno a diario.</li>
+<li><strong>Quien cocina piezas enteras</strong>: aves, asados, cordero, bandejas de verduras.</li>
+<li><strong>Cocineros que alternan</strong> entre grandes tandas el fin de semana y dos platos distintos entre semana.</li>
+</ul>
+<p>Encaja peor con parejas, cocinas pequeñas y quien busque un aparato conectado. En esos casos, un modelo de 4 a 6 L será más fácil de guardar y limpiar.</p>
+
+<h2>Errores que evitar y consejos de uso</h2>
+<ul>
+<li><strong>Subestimar el espacio</strong>: deja margen alrededor y encima de las salidas de aire, como indica el manual, y no la uses bajo un mueble alto bajo.</li>
+<li><strong>Olvidar el separador</strong>: en modo Dual Zone, comprueba que está bien encajado antes de lanzar dos programas distintos.</li>
+<li><strong>Sobrecargar la MegaZone</strong>: un cajón grande no evita tener que repartir los alimentos; amontonados, se cocinan de forma desigual.</li>
+<li><strong>Dañar el recubrimiento</strong>: usa utensilios de silicona o madera y evita los estropajos abrasivos.</li>
+<li><strong>Manipular el cajón caliente</strong>: lleno es ancho y pesado; sujétalo por el asa y apóyalo en una superficie resistente al calor.</li>
+<li><strong>Usar una regleta cargada</strong>: con casi 2,5 kW, conéctala preferiblemente a un enchufe de pared.</li>
+</ul>
 
 <h2>Veredicto</h2>
-<p>La Ninja Foodi FlexDrawer 10,4L es <strong>la freidora de aire más versátil de 2026</strong>. Si el espacio es limitado, la <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> es mejor opción. Consulte nuestra <a href="/es/guides/airfryers">guía completa 2026</a> y los <a href="/es/blog/meilleur-airfryer-xxl-grande-famille">mejores airfryers XXL para familias</a>.</p>
+<p>La Ninja Foodi FlexDrawer 10,4 L cubre bien una necesidad concreta: tener en un solo aparato una freidora grande para piezas enteras y una de doble zona para el día a día. La ficha técnica, los análisis publicados y las opiniones de compradores coinciden: capacidad real, resultados crujientes y una función Sync práctica. A cambio, necesita espacio, su cajón es aparatoso de lavar y no ofrece conectividad.</p>
+<p>Para una familia de cinco personas o más con una encimera amplia, es una de las opciones más coherentes de 2026. Si el ancho escasea, la Double Stack es la alternativa natural. Encuentra todos nuestros consejos en la <a href="/es/guides/airfryers">guía de freidoras de aire</a>.</p>`,
 
-<h2>FlexDrawer vs Double Stack — ¿Cuál elegir?</h2>
+    it: `<p><strong>La Ninja Foodi FlexDrawer 10,4 L (modello AF500EU) è una delle friggitrici ad aria più versatili per famiglie da cinque persone in su: un unico grande cassetto da 10,4 litri che, grazie a un divisore rimovibile, si separa in due zone indipendenti da 5,2 litri.</strong> I suoi veri punti deboli sono l’ingombro, un cassetto pesante e voluminoso da lavare e l’assenza di connettività.</p>
+<p>Una precisazione importante: Home Nura non prova gli apparecchi in laboratorio. Questa recensione si basa sulla scheda tecnica ufficiale di Ninja, sulle prove pubblicate dalla stampa specializzata e sulle opinioni di acquirenti verificati. Per una panoramica del mercato, consulta la nostra <a href="/it/guides/airfryers">guida alle migliori friggitrici ad aria 2026</a>.</p>
+
+<h2>Scheda tecnica della Ninja Foodi FlexDrawer</h2>
 <table>
-<thead><tr><th>Criterio</th><th>FlexDrawer 10,4L</th><th>Double Stack XL 9,5L</th></tr></thead>
+<thead><tr><th>Caratteristica</th><th>Dato del produttore</th></tr></thead>
 <tbody>
-<tr><td>Precio</td><td>249,99 €</td><td>229,99 €</td></tr>
-<tr><td>Huella en encimera</td><td>44,5 x 38 cm</td><td>27,5 x 37 cm</td></tr>
-<tr><td>Capacidad máx. de una vez</td><td>10,4L (mega-zona)</td><td>2 x 4,75L separados</td></tr>
-<tr><td>Pollo entero</td><td>Sí (1,8 kg)</td><td>No</td></tr>
-<tr><td>Ruido máx.</td><td>68 dB (Mega)</td><td>65 dB</td></tr>
-<tr><td>Puntuación Nura</td><td>9,2/10</td><td>9,4/10</td></tr>
-</tbody>
-</table>
-<p><strong>Elige el FlexDrawer si:</strong> tienes familia numerosa (5+), cocinas pollos y asados enteros, dispones de espacio. <strong>Elige el Double Stack si:</strong> tu cocina es pequeña, cocinas para 4-6 personas con dos platos simultáneos.</p>
-
-<h2>¿Para quién es ideal el FlexDrawer?</h2>
-<ul>
-<li><strong>Familias de 5 o más personas</strong> que necesitan cocinar grandes cantidades de una vez</li>
-<li><strong>Aficionados a los asados y aves enteras</strong>: el único airfryer de su gama capaz de cocinar un pollo entero</li>
-<li><strong>Cocineros que reciben invitados frecuentemente</strong>: costillas enteras, grandes cantidades</li>
-<li><strong>Personas que alternan entre modo único y doble</strong> según el menú</li>
-</ul>
-
-<h2>Veredicto final detallado</h2>
-<p>La Ninja Foodi FlexDrawer 10,4L es un éxito técnico y práctico. Su concepto de cajón flexible es la innovación más inteligente del mercado de freidoras de aire en 2026. A 249,99 euros, es una inversión justificada para familias numerosas y cocineros apasionados. Puntuación Nura confirmada: <strong>9,2/10</strong>.</p>`,
-
-    it: `<h2>Introduzione</h2>
-<p>La Ninja Foodi FlexDrawer 10,4L è l'ammiraglia della gamma Ninja 2026. Con la sua capacità XXL di 10,4 litri e il concetto unico di cassetto flessibile — convertibile da un'unica grande zona a due zone indipendenti tramite un divisore rimovibile — si rivolge a famiglie numerose e cuochi ambiziosi. Con un punteggio Nura di <strong>9,2/10</strong>, merita un posto nella top 3.</p>
-
-<h2>Scheda tecnica</h2>
-<table>
-<thead><tr><th>Caratteristica</th><th>Dettaglio</th></tr></thead>
-<tbody>
-<tr><td>Capacità totale</td><td>10,4 litri (zona singola) / 2 x 5,2L (doppia)</td></tr>
-<tr><td>Potenza</td><td>2.600 W</td></tr>
-<tr><td>Range di temperatura</td><td>40°C - 240°C</td></tr>
-<tr><td>Dimensioni</td><td>44,5 x 38 x 33,5 cm</td></tr>
-<tr><td>Peso</td><td>10,2 kg</td></tr>
-<tr><td>Modi</td><td>Mega Zone (10,4L), Dual Zone (2x5,2L), Match Cook, Smart Finish</td></tr>
-<tr><td>Prezzo</td><td>249,99 €</td></tr>
+<tr><td>Modello</td><td>AF500EU</td></tr>
+<tr><td>Capacità</td><td>10,4 L in MegaZone, oppure 2 zone da 5,2 L con il divisore</td></tr>
+<tr><td>Potenza</td><td>2.470 W</td></tr>
+<tr><td>Temperatura</td><td>Da 40 °C a 240 °C</td></tr>
+<tr><td>Funzioni</td><td>7: Max Crisp, Air Fry, Arrostire, Cuocere al forno, Riscaldare, Essiccare, Lievitare</td></tr>
+<tr><td>Modalità a due zone</td><td>Sync (le due zone finiscono insieme) e Match (stesse impostazioni su entrambi i lati)</td></tr>
+<tr><td>In dotazione</td><td>Cassetto antiaderente da 10,4 L, divisore, 2 piastre antiaderenti</td></tr>
+<tr><td>Peso</td><td>Circa 9,4 kg</td></tr>
+<tr><td>Connettività</td><td>Nessuna (niente app né Wi-Fi)</td></tr>
 </tbody>
 </table>
 
-<h2>Design e qualità costruttiva</h2>
-<p>Il FlexDrawer è un apparecchio imponente: 44,5 cm di larghezza. L'innovazione è il divisore centrale rimovibile: inserito, crea due zone da 5,2L; rimosso, libera una mega-zona da 10,4L per un pollo intero da 2 kg. A differenza del <a href="/it/blog/test-ninja-foodi-max-dual-zone">Double Stack</a> con cassetti separati, il FlexDrawer usa un unico cassetto largo. Approfondimento nel nostro <a href="/it/blog/airfryer-simple-vs-double-panier">confronto singolo vs doppio</a>.</p>
+<h2>Il concetto FlexDrawer: un cassetto, due modi di cucinare</h2>
+<p>La maggior parte delle friggitrici a doppia zona, come la <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi MAX Double Stack XL</a>, usa due cassetti separati. La FlexDrawer fa il contrario: un unico cassetto largo, da dividere solo quando serve.</p>
+<h3>Modalità MegaZone (10,4 L)</h3>
+<p>Senza divisore è disponibile tutto il volume. È ciò che distingue davvero questo apparecchio: secondo Ninja ci sta un cosciotto d’agnello di circa 2 kg con le verdure e si possono preparare pasti per otto persone o più. I pezzi grandi che di solito finiscono in forno (un volatile intero, un arrosto, teglie di verdure in un solo strato) si cuociono senza doverli tagliare.</p>
+<h3>Modalità Dual Zone (2 x 5,2 L)</h3>
+<p>Con il divisore inserito si ottengono due scomparti controllati separatamente, ognuno con funzione, temperatura e tempo propri. Sync ritarda la partenza perché le due zone finiscano insieme, mentre Match copia le impostazioni da una zona all’altra. Secondo Ninja, ogni zona da 5,2 L accoglie fino a 1,5 kg di patatine.</p>
+<p>Per capire se questo formato fa per te più di un modello a due cassetti o a cestello singolo, il nostro articolo su <a href="/it/blog/airfryer-simple-vs-double-panier">friggitrici a uno o due cestelli</a> spiega i vantaggi di ciascuna soluzione.</p>
 
-<h2>Prestazioni di cottura</h2>
-<h3>Patatine fritte e patate</h3>
-<p>In modalità Mega Zone il FlexDrawer accoglie fino a <strong>1,2 kg di patatine fresche in una volta</strong>. A 200°C per 22 minuti: risultato eccellente. In Dual Zone con 500 g per lato, pronte in 17 minuti.</p>
-
-<h3>Pollo e carni</h3>
-<p>La Mega Zone brilla con un <strong>pollo intero da 1,8 kg</strong>: a 185°C per 55 minuti, pelle dorata e croccante ovunque, carne succosa (82°C interni). In Dual Zone: cosce da un lato (190°C, 25 min) e salsicce dall'altro (180°C, 15 min) con Smart Finish che sincronizza.</p>
-
-<h3>Verdure</h3>
-<p>800 g di verdure miste in Mega Zone a <strong>185°C per 15 minuti</strong>: la grande superficie permette la cottura in un singolo strato senza impilamento.</p>
-
-<h2>Facilità d'uso</h2>
-<p>Touchscreen identico al Double Stack. Si sceglie il modo (Mega o Dual), poi il programma. Il divisore si inserisce in 5 secondi. Pulizia agevolata dal formato largo; cestelli lavastoviglie ma ingombranti.</p>
-
-<h2>Consumo energetico</h2>
-<p>Con 2.600 W per 1,2 kg di patatine in Mega Zone: <strong>0,85 kWh</strong>. Per kg: 0,71 kWh/kg, paragonabile a modelli più piccoli con più infornate. Un forno consuma ~2,2 kWh per la stessa quantità.</p>
-
-<h2>Punti di forza e debolezza</h2>
-<h3>Punti di forza</h3>
+<h2>Cosa dicono stampa e acquirenti</h2>
+<h3>I pregi più citati</h3>
 <ul>
-<li><strong>Flessibilità unica</strong>: 10,4L o 2x5,2L in 5 secondi</li>
-<li><strong>Capacità XXL</strong>: pollo intero da 1,8 kg</li>
-<li><strong>2.600 W</strong>: compensa il grande volume</li>
-<li><strong>Smart Finish</strong>: sincronizzazione efficace</li>
-<li><strong>Qualità premium</strong>: ceramica, guide rinforzate</li>
+<li><strong>La capacità reale</strong>: chi ha una famiglia numerosa apprezza soprattutto il poter cuocere in una volta ciò che con un modello da 5 o 6 L richiedeva due infornate.</li>
+<li><strong>La flessibilità del divisore</strong>: si cambia modalità in pochi secondi a seconda del pasto, senza un secondo apparecchio.</li>
+<li><strong>La modalità Max Crisp</strong>: le prove della stampa britannica lodano la croccantezza di patatine surgelate e rösti.</li>
+<li><strong>La funzione Sync</strong>: molto apprezzata per servire caldi insieme piatto principale e contorno.</li>
+<li><strong>Comandi semplici</strong>: tasti e manopola chiari, con indicatori separati per zona 1, MegaZone e zona 2.</li>
 </ul>
-<h3>Punti deboli</h3>
+<h3>I limiti ricorrenti</h3>
 <ul>
-<li><strong>Ingombro importante</strong>: 44,5 cm di larghezza</li>
-<li><strong>Prezzo alto</strong>: 249,99 €</li>
-<li><strong>Pesante</strong>: 10,2 kg</li>
-<li><strong>Nessuna connettività</strong></li>
-<li><strong>Rumoroso in Mega Zone</strong>: 68 dB</li>
+<li><strong>L’ingombro</strong>: è sensibilmente più larga di una friggitrice ad aria tradizionale. Misura il piano di lavoro e lo spazio sotto i pensili prima dell’acquisto.</li>
+<li><strong>Un cassetto pesante e voluminoso</strong>: le parti sono indicate come lavabili in lavastoviglie, ma diversi acquirenti notano che il grande cassetto occupa molto spazio.</li>
+<li><strong>Un divisore che non isola del tutto</strong>: una prova britannica ha rilevato che la zona vuota si scalda quando funziona un solo lato, senza effetti visibili sul risultato.</li>
+<li><strong>Un solo cassetto per due zone</strong>: aprendolo per scuotere le patatine da un lato, si scopre anche l’altra preparazione.</li>
+<li><strong>Nessuna app</strong>: chi vuole controllare o seguire la cottura dallo smartphone farà meglio a guardare Philips o Cosori.</li>
 </ul>
 
-<h2>Punteggio Nura dettagliato</h2>
+<h2>Confronto con altre friggitrici per famiglie</h2>
 <table>
-<thead><tr><th>Criterio</th><th>Voto</th><th>Commento</th></tr></thead>
+<thead><tr><th>Modello</th><th>Capacità</th><th>Struttura</th><th>Connettività</th><th>Ideale per</th></tr></thead>
 <tbody>
-<tr><td>Prestazioni</td><td>9,5/10</td><td>Eccellente in entrambi i modi</td></tr>
-<tr><td>Facilità d'uso</td><td>9,0/10</td><td>Interfaccia Ninja collaudata</td></tr>
-<tr><td>Design</td><td>9,0/10</td><td>Premium ma ingombrante</td></tr>
-<tr><td>Versatilità</td><td>9,5/10</td><td>La più versatile grazie al FlexDrawer</td></tr>
-<tr><td>Rapporto qualità-prezzo</td><td>8,5/10</td><td>249,99 € giustificato ma investimento</td></tr>
-<tr><td>Pulizia</td><td>9,0/10</td><td>Accesso facile, cestelli grandi</td></tr>
-<tr><td>Rumore</td><td>8,0/10</td><td>68 dB in Mega Zone</td></tr>
-<tr><td><strong>Punteggio Nura globale</strong></td><td><strong>9,2/10</strong></td><td><strong>La friggitrice più versatile del 2026</strong></td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>10,4 L (2 x 5,2 L)</td><td>Cassetto unico con divisore</td><td>No</td><td>Famiglie numerose, pezzi grandi</td></tr>
+<tr><td>Ninja Foodi MAX Double Stack XL</td><td>9,5 L (2 x 4,75 L)</td><td>Due cassetti sovrapposti</td><td>No</td><td>Cucine con poca larghezza</td></tr>
+<tr><td>Philips Airfryer Combi XXL Connected</td><td>8,3 L</td><td>Cestello unico con sonda</td><td>Wi-Fi, app HomeID</td><td>Cottura precisa della carne</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>6,4 L</td><td>Cestello unico, calore sopra e sotto</td><td>Wi-Fi, app VeSync</td><td>Nuclei di 3-4 persone</td></tr>
 </tbody>
 </table>
+<p><strong>FlexDrawer o Double Stack?</strong> La FlexDrawer vince quando bisogna cuocere pezzi grandi interi, cosa che i due cassetti da 4,75 L della Double Stack non permettono. La Double Stack è più alta ma più stretta, quindi si adatta meglio a piani di lavoro ridotti e a pasti con piatto e contorno per quattro-sei persone.</p>
+<p><strong>FlexDrawer o Philips Combi XXL Connected?</strong> Philips punta sulla precisione (sonda di temperatura, app, molti programmi) più che sulla doppia zona. Se cucini spesso carne e ami essere guidato, è in vantaggio; se vuoi due piatti in parallelo, la Ninja è più pratica.</p>
+<p>Per altre opzioni di grande capacità, guarda la nostra selezione delle <a href="/it/blog/meilleur-airfryer-xxl-grande-famille">migliori friggitrici XXL per famiglie numerose</a>.</p>
+
+<h2>Per chi è adatta?</h2>
+<ul>
+<li><strong>Famiglie da cinque persone in su</strong> che usano la friggitrice ogni giorno come secondo forno.</li>
+<li><strong>Chi cuoce pezzi interi</strong>: pollame, arrosti, agnello, teglie di verdure.</li>
+<li><strong>Chi alterna</strong> grandi quantità nel fine settimana e due piatti diversi durante la settimana.</li>
+</ul>
+<p>È meno adatta a coppie, cucine piccole e a chi cerca un apparecchio connesso. In questi casi, un modello da 4 a 6 L sarà più facile da riporre e pulire.</p>
+
+<h2>Errori da evitare e consigli d’uso</h2>
+<ul>
+<li><strong>Sottovalutare lo spazio</strong>: lascia spazio libero attorno e sopra le uscite d’aria, come indica il manuale, e non usarla sotto un pensile basso.</li>
+<li><strong>Dimenticare il divisore</strong>: in modalità Dual Zone, verifica che sia ben inserito prima di avviare due programmi diversi.</li>
+<li><strong>Sovraccaricare la MegaZone</strong>: un cassetto grande non evita di distribuire bene il cibo; ammucchiato, cuoce in modo irregolare.</li>
+<li><strong>Rovinare il rivestimento</strong>: usa utensili in silicone o legno ed evita le spugne abrasive.</li>
+<li><strong>Maneggiare il cassetto caldo</strong>: pieno è largo e pesante; tienilo per la maniglia e appoggialo su una superficie resistente al calore.</li>
+<li><strong>Usare una ciabatta sovraccarica</strong>: con quasi 2,5 kW, collegala preferibilmente a una presa a muro.</li>
+</ul>
 
 <h2>Verdetto</h2>
-<p>La Ninja Foodi FlexDrawer 10,4L è <strong>la friggitrice ad aria più versatile del 2026</strong>. Se lo spazio è limitato, la <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> è migliore. La nostra <a href="/it/guides/airfryers">guida completa 2026</a> e i <a href="/it/blog/meilleur-airfryer-xxl-grande-famille">migliori airfryer XXL per famiglie</a>.</p>
+<p>La Ninja Foodi FlexDrawer 10,4 L risponde bene a un’esigenza precisa: avere in un solo apparecchio una grande friggitrice per i pezzi interi e una a doppia zona per i pasti di tutti i giorni. Scheda tecnica, prove pubblicate e opinioni degli acquirenti concordano: capacità reale, risultati croccanti e una funzione Sync comoda. In cambio richiede spazio, il cassetto è ingombrante da lavare e manca qualsiasi connettività.</p>
+<p>Per una famiglia da cinque persone in su con un piano di lavoro ampio, è una delle scelte più sensate del 2026. Se la larghezza è poca, la Double Stack è l’alternativa naturale. Trovi tutti i nostri consigli nella <a href="/it/guides/airfryers">guida alle friggitrici ad aria</a>.</p>`,
 
-<h2>FlexDrawer vs Double Stack — Quale scegliere?</h2>
+    nl: `<p><strong>De Ninja Foodi FlexDrawer 10,4 L (model AF500EU) is een van de veelzijdigste airfryers voor gezinnen van vijf personen of meer: één grote lade van 10,4 liter die je met een uitneembaar schot verdeelt in twee onafhankelijke zones van 5,2 liter.</strong> De echte zwakke punten zijn het formaat, een zware lade die omslachtig is om af te wassen en het ontbreken van connectiviteit.</p>
+<p>Belangrijk om te weten: Home Nura beoordeelt apparaten niet in een eigen lab. Deze review is gebaseerd op de officiële specificaties van Ninja, op gepubliceerde reviews van vakmedia en op ervaringen van geverifieerde kopers. Voor een overzicht van de markt, zie onze <a href="/nl/guides/airfryers">gids met de beste airfryers van 2026</a>.</p>
+
+<h2>Specificaties van de Ninja Foodi FlexDrawer</h2>
 <table>
-<thead><tr><th>Criterio</th><th>FlexDrawer 10,4L</th><th>Double Stack XL 9,5L</th></tr></thead>
+<thead><tr><th>Kenmerk</th><th>Fabrikantgegevens</th></tr></thead>
 <tbody>
-<tr><td>Prezzo</td><td>249,99 €</td><td>229,99 €</td></tr>
-<tr><td>Ingombro</td><td>44,5 x 38 cm</td><td>27,5 x 37 cm</td></tr>
-<tr><td>Capacità max in una volta</td><td>10,4L (mega-zona)</td><td>2 x 4,75L separati</td></tr>
-<tr><td>Pollo intero</td><td>Sì (1,8 kg)</td><td>No</td></tr>
-<tr><td>Rumore max</td><td>68 dB (Mega)</td><td>65 dB</td></tr>
-<tr><td>Punteggio Nura</td><td>9,2/10</td><td>9,4/10</td></tr>
-</tbody>
-</table>
-<p><strong>Scegli il FlexDrawer se:</strong> hai una famiglia numerosa (5+), cucini spesso pollame o arrosti interi, hai spazio disponibile. <strong>Scegli il Double Stack se:</strong> la cucina è piccola, cucini per 4-6 persone con due piatti simultanei.</p>
-
-<h2>Per chi è ideale il FlexDrawer?</h2>
-<ul>
-<li><strong>Famiglie da 5 persone in su</strong> che devono cuocere grandi quantità in una volta</li>
-<li><strong>Amanti degli arrosti e del pollame intero</strong>: l'unica friggitrice nella sua fascia che cuoce un pollo intero</li>
-<li><strong>Cuochi che ricevono ospiti frequentemente</strong>: costine intere, grandi quantità</li>
-<li><strong>Persone che alternano tra modalità singola e doppia</strong> secondo il pasto</li>
-</ul>
-
-<h2>Verdetto finale dettagliato</h2>
-<p>La Ninja Foodi FlexDrawer 10,4L è un successo tecnico e pratico. Il suo concetto di cassetto flessibile è l'innovazione più intelligente del mercato 2026. A 249,99 euro, è un investimento giustificato per le famiglie numerose. Punteggio Nura confermato: <strong>9,2/10</strong>.</p>`,
-
-    nl: `<h2>Inleiding</h2>
-<p>De Ninja Foodi FlexDrawer 10,4L is het vlaggenschip van de Ninja-reeks 2026. Met zijn XXL-capaciteit van 10,4 liter en het unieke flexibele ladeconcept — omschakelbaar van één grote zone naar twee onafhankelijke zones via een verwijderbaar schot — richt hij zich op grote gezinnen en ambitieuze koks. Met een Nura-score van <strong>9,2/10</strong> verdient hij een plek in de top 3.</p>
-
-<h2>Technische specificaties</h2>
-<table>
-<thead><tr><th>Kenmerk</th><th>Detail</th></tr></thead>
-<tbody>
-<tr><td>Totale capaciteit</td><td>10,4 liter (enkele zone) / 2 x 5,2L (dubbel)</td></tr>
-<tr><td>Vermogen</td><td>2.600 W</td></tr>
-<tr><td>Temperatuurbereik</td><td>40°C - 240°C</td></tr>
-<tr><td>Afmetingen</td><td>44,5 x 38 x 33,5 cm</td></tr>
-<tr><td>Gewicht</td><td>10,2 kg</td></tr>
-<tr><td>Modi</td><td>Mega Zone (10,4L), Dual Zone (2x5,2L), Match Cook, Smart Finish</td></tr>
-<tr><td>Prijs</td><td>€249,99</td></tr>
+<tr><td>Model</td><td>AF500EU</td></tr>
+<tr><td>Inhoud</td><td>10,4 L als MegaZone, of 2 zones van 5,2 L met het schot</td></tr>
+<tr><td>Vermogen</td><td>2.470 W</td></tr>
+<tr><td>Temperatuur</td><td>40 °C tot 240 °C</td></tr>
+<tr><td>Functies</td><td>7: Max Crisp, Air Fry, Roosteren, Bakken, Opwarmen, Drogen, Rijzen</td></tr>
+<tr><td>Modi met twee zones</td><td>Sync (beide zones zijn tegelijk klaar) en Match (dezelfde instellingen aan beide kanten)</td></tr>
+<tr><td>Meegeleverd</td><td>Antiaanbaklade van 10,4 L, schot, 2 antiaanbakroosters</td></tr>
+<tr><td>Gewicht</td><td>Ongeveer 9,4 kg</td></tr>
+<tr><td>Connectiviteit</td><td>Geen (geen app, geen wifi)</td></tr>
 </tbody>
 </table>
 
-<h2>Design en bouwkwaliteit</h2>
-<p>De FlexDrawer is een fors apparaat: 44,5 cm breed. De innovatie is het verwijderbare middenschot: geplaatst creëert het twee 5,2L-zones; verwijderd ontstaat een mega-zone van 10,4L voor een hele kip van 2 kg. Anders dan de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Double Stack</a> met twee aparte laden, gebruikt de FlexDrawer één brede lade. Meer hierover in ons <a href="/nl/blog/airfryer-simple-vs-double-panier">artikel enkel vs dubbel</a>.</p>
+<h2>Het FlexDrawer-idee: één lade, twee manieren van koken</h2>
+<p>De meeste airfryers met twee zones, zoals de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi MAX Double Stack XL</a>, gebruiken twee aparte lades. De FlexDrawer doet het omgekeerde: één brede lade die je alleen opdeelt wanneer dat nodig is.</p>
+<h3>MegaZone-modus (10,4 L)</h3>
+<p>Zonder schot is de volledige inhoud beschikbaar. Dat maakt dit apparaat echt anders: volgens Ninja past er een lamsbout van ongeveer 2 kg met groenten in en kun je maaltijden voor acht personen of meer bereiden. Grote stukken die je anders in de oven zet (een hele kip, een rollade, schalen groenten in één laag) lukken zonder alles te verdelen.</p>
+<h3>Dual Zone-modus (2 x 5,2 L)</h3>
+<p>Met het schot erin krijg je twee los bediende vakken, elk met een eigen functie, temperatuur en tijd. Sync stelt de start zo uit dat beide zones tegelijk klaar zijn, en Match kopieert de instellingen van de ene zone naar de andere. Volgens Ninja past in elke zone van 5,2 L tot 1,5 kg friet.</p>
+<p>Twijfel je of dit ontwerp beter bij je past dan een model met twee lades of één mand? Ons artikel over <a href="/nl/blog/airfryer-simple-vs-double-panier">airfryers met één of twee manden</a> zet de voordelen van elk op een rij.</p>
 
-<h2>Kookprestaties</h2>
-<h3>Friet en aardappelen</h3>
-<p>In Mega Zone-modus past de FlexDrawer tot <strong>1,2 kg verse friet in één keer</strong>. Bij 200°C gedurende 22 minuten: uitstekend resultaat. In Dual Zone met 500 g per kant, klaar in 17 minuten.</p>
-
-<h3>Kip en vlees</h3>
-<p>De Mega Zone schittert met een <strong>hele kip van 1,8 kg</strong>: bij 185°C gedurende 55 minuten, overal goudbruin en krokant vel, sappig vlees (82°C intern). In Dual Zone: kippenpoten aan één kant (190°C, 25 min) en worstjes aan de andere (180°C, 15 min) met Smart Finish synchronisatie.</p>
-
-<h3>Groenten</h3>
-<p>800 g gemengde groenten in Mega Zone bij <strong>185°C gedurende 15 minuten</strong>: het grote oppervlak maakt koken in één laag mogelijk zonder stapelen.</p>
-
-<h2>Gebruiksgemak</h2>
-<p>Touchscreen identiek aan de Double Stack. Kies eerst de modus (Mega of Dual), dan het programma. Het schot is in 5 seconden geplaatst of verwijderd. Reiniging profiteert van het brede formaat; manden zijn vaatwasmachinebestendig maar groot.</p>
-
-<h2>Energieverbruik</h2>
-<p>Met 2.600 W voor 1,2 kg friet in Mega Zone: <strong>0,85 kWh</strong>. Per kg: 0,71 kWh/kg, vergelijkbaar met kleinere modellen die meerdere batches nodig hebben. Een oven verbruikt ~2,2 kWh voor dezelfde hoeveelheid.</p>
-
-<h2>Sterke en zwakke punten</h2>
-<h3>Sterke punten</h3>
+<h2>Wat reviewers en kopers zeggen</h2>
+<h3>Meest genoemde sterke punten</h3>
 <ul>
-<li><strong>Unieke flexibiliteit</strong>: 10,4L of 2x5,2L in 5 seconden</li>
-<li><strong>XXL-capaciteit</strong>: hele kip van 1,8 kg</li>
-<li><strong>2.600 W vermogen</strong>: compenseert het grote volume</li>
-<li><strong>Smart Finish</strong>: effectieve synchronisatie</li>
-<li><strong>Premium bouw</strong>: keramische coating, versterkte rails</li>
+<li><strong>De echte capaciteit</strong>: eigenaars met grote gezinnen noemen vooral dat ze in één keer bereiden waarvoor een model van 5 of 6 L twee rondes nodig had.</li>
+<li><strong>Het flexibele schot</strong>: je wisselt in enkele seconden van modus, afhankelijk van de maaltijd, zonder tweede apparaat.</li>
+<li><strong>De Max Crisp-modus</strong>: Britse reviews prijzen de knapperigheid van diepvriesfriet en rösti.</li>
+<li><strong>De Sync-functie</strong>: erg gewaardeerd om hoofdgerecht en bijgerecht tegelijk warm op tafel te zetten.</li>
+<li><strong>Eenvoudige bediening</strong>: duidelijke knoppen en draaiknop, met aparte indicatoren voor zone 1, MegaZone en zone 2.</li>
 </ul>
-<h3>Zwakke punten</h3>
+<h3>Terugkerende minpunten</h3>
 <ul>
-<li><strong>Groot formaat</strong>: 44,5 cm breed</li>
-<li><strong>Hoge prijs</strong>: €249,99</li>
-<li><strong>Zwaar</strong>: 10,2 kg</li>
-<li><strong>Geen connectiviteit</strong></li>
-<li><strong>Luidruchtig in Mega Zone</strong>: 68 dB</li>
+<li><strong>Het formaat</strong>: hij is merkbaar breder dan een gewone airfryer. Meet je aanrecht en de ruimte onder de bovenkastjes voor je koopt.</li>
+<li><strong>Een zware, omvangrijke lade</strong>: de onderdelen zijn volgens Ninja vaatwasserbestendig, maar meerdere kopers merken op dat de grote lade veel ruimte inneemt in de vaatwasser.</li>
+<li><strong>Een schot dat niet volledig isoleert</strong>: een Britse review stelde vast dat de lege zone warm wordt als maar één kant werkt, zonder zichtbaar effect op het resultaat.</li>
+<li><strong>Eén lade voor twee zones</strong>: wie de friet aan één kant wil omschudden, opent ook de andere kant.</li>
+<li><strong>Geen app</strong>: wil je de bereiding via je telefoon bedienen of volgen, kijk dan eerder naar Philips of Cosori.</li>
 </ul>
 
-<h2>Gedetailleerde Nura Score</h2>
+<h2>Vergelijking met andere gezinsairfryers</h2>
 <table>
-<thead><tr><th>Criterium</th><th>Score</th><th>Commentaar</th></tr></thead>
+<thead><tr><th>Model</th><th>Inhoud</th><th>Ontwerp</th><th>Connectiviteit</th><th>Ideaal voor</th></tr></thead>
 <tbody>
-<tr><td>Kookprestaties</td><td>9,5/10</td><td>Uitstekend in beide modi</td></tr>
-<tr><td>Gebruiksgemak</td><td>9,0/10</td><td>Bewezen Ninja-interface</td></tr>
-<tr><td>Design</td><td>9,0/10</td><td>Premium maar fors</td></tr>
-<tr><td>Veelzijdigheid</td><td>9,5/10</td><td>Meest veelzijdig dankzij FlexDrawer</td></tr>
-<tr><td>Prijs-kwaliteit</td><td>8,5/10</td><td>€249,99 gerechtvaardigd maar investering</td></tr>
-<tr><td>Reiniging</td><td>9,0/10</td><td>Makkelijk bereikbaar, grote manden</td></tr>
-<tr><td>Geluid</td><td>8,0/10</td><td>68 dB in Mega Zone</td></tr>
-<tr><td><strong>Totale Nura Score</strong></td><td><strong>9,2/10</strong></td><td><strong>Meest veelzijdige airfryer van 2026</strong></td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>10,4 L (2 x 5,2 L)</td><td>Eén lade met schot</td><td>Nee</td><td>Grote gezinnen, grote stukken</td></tr>
+<tr><td>Ninja Foodi MAX Double Stack XL</td><td>9,5 L (2 x 4,75 L)</td><td>Twee gestapelde lades</td><td>Nee</td><td>Keukens met weinig breedte</td></tr>
+<tr><td>Philips Airfryer Combi XXL Connected</td><td>8,3 L</td><td>Eén mand met kernthermometer</td><td>Wifi, HomeID-app</td><td>Vlees nauwkeurig garen</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>6,4 L</td><td>Eén mand, hitte van boven en onder</td><td>Wifi, VeSync-app</td><td>Huishoudens van 3 tot 4 personen</td></tr>
 </tbody>
 </table>
+<p><strong>FlexDrawer of Double Stack?</strong> De FlexDrawer wint zodra je grote stukken in hun geheel wilt bereiden, wat met de twee lades van 4,75 L van de Double Stack niet lukt. De Double Stack is hoger maar smaller en past daardoor beter op een smal aanrecht en bij maaltijden met hoofd- en bijgerecht voor vier tot zes personen.</p>
+<p><strong>FlexDrawer of Philips Combi XXL Connected?</strong> Philips zet in op precisie (kernthermometer, app, veel programma’s) in plaats van twee zones. Bereid je vaak vlees en word je graag begeleid, dan heeft hij een streepje voor; wil je twee gerechten tegelijk, dan is de Ninja praktischer.</p>
+<p>Meer opties met grote inhoud vind je in onze selectie van de <a href="/nl/blog/meilleur-airfryer-xxl-grande-famille">beste XXL-airfryers voor grote gezinnen</a>.</p>
 
-<h2>Verdict</h2>
-<p>De Ninja Foodi FlexDrawer 10,4L is <strong>de meest veelzijdige airfryer van 2026</strong>. Bij beperkte ruimte is de <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Double Stack</a> beter. Alle aanbevelingen in onze <a href="/nl/guides/airfryers">complete gids 2026</a> en de <a href="/nl/blog/meilleur-airfryer-xxl-grande-famille">beste XXL airfryers voor grote gezinnen</a>.</p>
-
-<h2>FlexDrawer vs Double Stack — Welke kiezen?</h2>
-<table>
-<thead><tr><th>Criterium</th><th>FlexDrawer 10,4L</th><th>Double Stack XL 9,5L</th></tr></thead>
-<tbody>
-<tr><td>Prijs</td><td>€249,99</td><td>€229,99</td></tr>
-<tr><td>Voetafdruk</td><td>44,5 x 38 cm</td><td>27,5 x 37 cm</td></tr>
-<tr><td>Max capaciteit tegelijk</td><td>10,4L (mega-zone)</td><td>2 x 4,75L apart</td></tr>
-<tr><td>Hele kip</td><td>Ja (1,8 kg)</td><td>Nee</td></tr>
-<tr><td>Max geluid</td><td>68 dB (Mega)</td><td>65 dB</td></tr>
-<tr><td>Nura Score</td><td>9,2/10</td><td>9,4/10</td></tr>
-</tbody>
-</table>
-<p><strong>Kies de FlexDrawer als:</strong> je een groot gezin hebt (5+), regelmatig hele kippen of braadstukken bereidt, en ruimte hebt. <strong>Kies de Double Stack als:</strong> je keuken klein is, je voor 4-6 personen kookt met twee gelijktijdige gerechten.</p>
-
-<h2>Voor wie is de FlexDrawer ideaal?</h2>
+<h2>Voor wie is hij bedoeld?</h2>
 <ul>
-<li><strong>Gezinnen van 5 of meer</strong> die grote hoeveelheden in één keer moeten bereiden</li>
-<li><strong>Liefhebbers van gebraad en hele gevogelte</strong>: de enige airfryer in zijn prijsklasse voor een hele kip</li>
-<li><strong>Koks die regelmatig gasten ontvangen</strong>: spareribs, grote hoeveelheden voor familiebijeenkomsten</li>
-<li><strong>Mensen die flexibel wisselen tussen enkel en dubbel</strong> afhankelijk van het gerecht</li>
+<li><strong>Huishoudens van vijf personen of meer</strong> die de airfryer dagelijks als tweede oven gebruiken.</li>
+<li><strong>Wie hele stukken bereidt</strong>: gevogelte, rollades, lamsvlees, schalen groenten.</li>
+<li><strong>Koks die afwisselen</strong> tussen grote porties in het weekend en twee verschillende gerechten doordeweeks.</li>
+</ul>
+<p>Minder geschikt is hij voor stellen, kleine keukens en wie een slim apparaat zoekt. Dan is een model van 4 tot 6 L makkelijker op te bergen en schoon te maken.</p>
+
+<h2>Fouten om te vermijden en gebruikstips</h2>
+<ul>
+<li><strong>De benodigde ruimte onderschatten</strong>: laat zoals de handleiding aangeeft ruimte rond en boven de luchtuitlaten vrij en gebruik hem niet onder een laag bovenkastje.</li>
+<li><strong>Het schot vergeten</strong>: controleer in Dual Zone-modus of het goed vastzit voordat je twee verschillende programma’s start.</li>
+<li><strong>De MegaZone overladen</strong>: ook een grote lade vraagt om spreiden; opgestapeld eten gaart ongelijk.</li>
+<li><strong>De coating beschadigen</strong>: gebruik siliconen of houten keukengerei en geen schuursponsjes.</li>
+<li><strong>De hete lade hanteren</strong>: vol is hij breed en zwaar; houd hem bij het handvat vast en zet hem op een hittebestendig oppervlak.</li>
+<li><strong>Een overvolle stekkerdoos gebruiken</strong>: met bijna 2,5 kW sluit je hem bij voorkeur direct aan op een wandcontactdoos.</li>
 </ul>
 
-<h2>Gedetailleerd eindverdikt</h2>
-<p>De Ninja Foodi FlexDrawer 10,4L is een technisch en praktisch succes. Het FlexDrawer-concept is de intelligentste innovatie op de airfryermarkt van 2026. Voor €249,99 een gerechtvaardigde investering voor grote gezinnen en gepassioneerde koks. Bevestigde Nura Score: <strong>9,2/10</strong>.</p>`,
+<h2>Oordeel</h2>
+<p>De Ninja Foodi FlexDrawer 10,4 L vult een duidelijke behoefte in: een grote airfryer voor hele stukken en een model met twee zones voor dagelijkse maaltijden, in één apparaat. Specificaties, gepubliceerde reviews en ervaringen van kopers zijn het eens: echte capaciteit, knapperige resultaten en een handige Sync-functie. Daar staat tegenover dat hij ruimte vraagt, de lade omslachtig is om af te wassen en connectiviteit ontbreekt.</p>
+<p>Voor een gezin van vijf personen of meer met een ruim aanrecht is dit een van de meest logische keuzes van 2026. Is de breedte beperkt, dan is de Double Stack het voor de hand liggende alternatief. Al onze tips vind je in de <a href="/nl/guides/airfryers">airfryergids</a>.</p>`,
   },
   faq: [
     {
       question: {
-        fr: 'Comment fonctionne le tiroir flexible du Ninja FlexDrawer ?',
-        en: 'How does the flexible drawer of the Ninja FlexDrawer work?',
-        de: 'Wie funktioniert die flexible Schublade des Ninja FlexDrawer?',
-        es: '¿Cómo funciona el cajón flexible del Ninja FlexDrawer?',
-        it: 'Come funziona il cassetto flessibile del Ninja FlexDrawer?',
-        nl: 'Hoe werkt de flexibele lade van de Ninja FlexDrawer?',
+        fr: 'Quelle est la différence entre la MegaZone et le mode Dual Zone ?',
+        en: 'What is the difference between MegaZone and Dual Zone mode?',
+        de: 'Was ist der Unterschied zwischen MegaZone und Dual-Zone-Modus?',
+        es: '¿Qué diferencia hay entre la MegaZone y el modo Dual Zone?',
+        it: 'Qual è la differenza tra MegaZone e modalità Dual Zone?',
+        nl: 'Wat is het verschil tussen MegaZone en de Dual Zone-modus?',
       },
       answer: {
-        fr: 'Le Ninja FlexDrawer dispose d\'un séparateur amovible au centre du tiroir. En le plaçant, vous créez deux zones indépendantes de 5,2 litres chacune avec des réglages distincts. En le retirant, vous libérez une méga-zone unique de 10,4 litres capable d\'accueillir un poulet entier de 2 kg. Le changement prend 5 secondes.',
-        en: 'The Ninja FlexDrawer features a removable divider in the centre of the drawer. By placing it, you create two independent 5.2-litre zones with separate settings. By removing it, you free up a single 10.4-litre mega-zone capable of holding a whole 2 kg chicken. The switch takes 5 seconds.',
-        de: 'Der Ninja FlexDrawer hat einen herausnehmbaren Teiler in der Mitte der Schublade. Eingesetzt entstehen zwei unabhängige 5,2-Liter-Zonen mit separaten Einstellungen. Entfernt ergibt sich eine 10,4-Liter-Mega-Zone für ein ganzes 2-kg-Hähnchen. Der Wechsel dauert 5 Sekunden.',
-        es: 'El Ninja FlexDrawer tiene un separador extraíble en el centro del cajón. Al colocarlo, se crean dos zonas independientes de 5,2 litros con ajustes distintos. Al retirarlo, se libera una mega-zona única de 10,4 litros para un pollo entero de 2 kg. El cambio tarda 5 segundos.',
-        it: 'Il Ninja FlexDrawer ha un divisore rimovibile al centro del cassetto. Inserendolo, si creano due zone indipendenti da 5,2 litri con impostazioni separate. Rimuovendolo, si ottiene una mega-zona unica da 10,4 litri per un pollo intero da 2 kg. Il cambio richiede 5 secondi.',
-        nl: 'De Ninja FlexDrawer heeft een verwijderbaar schot in het midden van de lade. Door het te plaatsen creëer je twee onafhankelijke zones van 5,2 liter met aparte instellingen. Door het te verwijderen krijg je één mega-zone van 10,4 liter voor een hele kip van 2 kg. De wissel duurt 5 seconden.',
+        fr: 'Sans séparateur, le tiroir forme une seule MegaZone de 10,4 L pour les grosses pièces et les grandes fournées. Avec le séparateur, il devient deux zones de 5,2 L réglables indépendamment, avec les fonctions Sync et Match.',
+        en: 'Without the divider, the drawer is a single 10.4L MegaZone for large items and big batches. With the divider, it becomes two 5.2L zones with independent settings, plus the Sync and Match functions.',
+        de: 'Ohne Trenner bildet die Schublade eine einzige 10,4-Liter-MegaZone für große Stücke und Mengen. Mit Trenner entstehen zwei 5,2-Liter-Zonen mit eigenen Einstellungen sowie den Funktionen Sync und Match.',
+        es: 'Sin separador, el cajón forma una única MegaZone de 10,4 L para piezas grandes y tandas abundantes. Con el separador, se convierte en dos zonas de 5,2 L con ajustes independientes y las funciones Sync y Match.',
+        it: 'Senza divisore, il cassetto forma un’unica MegaZone da 10,4 L per pezzi grandi e grandi quantità. Con il divisore diventa due zone da 5,2 L regolabili separatamente, con le funzioni Sync e Match.',
+        nl: 'Zonder schot vormt de lade één MegaZone van 10,4 L voor grote stukken en grote porties. Met het schot krijg je twee zones van 5,2 L met eigen instellingen, plus de functies Sync en Match.',
       },
     },
     {
       question: {
-        fr: 'Quelle quantité de nourriture peut contenir le Ninja FlexDrawer ?',
-        en: 'How much food can the Ninja FlexDrawer hold?',
-        de: 'Wie viel Essen passt in den Ninja FlexDrawer?',
-        es: '¿Cuánta comida cabe en el Ninja FlexDrawer?',
-        it: 'Quanta pietanza può contenere il Ninja FlexDrawer?',
-        nl: 'Hoeveel eten past er in de Ninja FlexDrawer?',
+        fr: 'Pour combien de personnes le Ninja FlexDrawer convient-il ?',
+        en: 'How many people is the Ninja FlexDrawer suitable for?',
+        de: 'Für wie viele Personen eignet sich der Ninja FlexDrawer?',
+        es: '¿Para cuántas personas sirve la Ninja FlexDrawer?',
+        it: 'Per quante persone è adatta la Ninja FlexDrawer?',
+        nl: 'Voor hoeveel personen is de Ninja FlexDrawer geschikt?',
       },
       answer: {
-        fr: 'En mode Mega Zone, le Ninja FlexDrawer accepte jusqu\'à 1,2 kg de frites fraîches en une seule fournée ou un poulet entier de 1,8 kg. C\'est la plus grande capacité de notre sélection avec 10,4 litres au total. En mode Dual Zone, chaque compartiment de 5,2 litres accueille confortablement des portions pour 2-3 personnes.',
-        en: 'In Mega Zone mode, the Ninja FlexDrawer holds up to 1.2 kg of fresh fries in a single batch or a whole 1.8 kg chicken. It has the largest capacity in our selection at 10.4 litres total. In Dual Zone mode, each 5.2-litre compartment comfortably accommodates portions for 2-3 people.',
-        de: 'Im Mega-Zone-Modus fasst der Ninja FlexDrawer bis zu 1,2 kg frische Pommes in einer Charge oder ein ganzes 1,8-kg-Hähnchen. Mit 10,4 Litern ist er der größte in unserer Auswahl. Im Dual-Zone-Modus bietet jedes 5,2-Liter-Fach bequem Platz für Portionen für 2-3 Personen.',
-        es: 'En modo Mega Zone, el Ninja FlexDrawer acepta hasta 1,2 kg de patatas frescas de una vez o un pollo entero de 1,8 kg. Es la mayor capacidad de nuestra selección con 10,4 litros totales. En modo Dual Zone, cada compartimento de 5,2 litros aloja cómodamente porciones para 2-3 personas.',
-        it: 'In modalità Mega Zone, il Ninja FlexDrawer accoglie fino a 1,2 kg di patatine fresche in una volta o un pollo intero da 1,8 kg. Ha la capacità più grande della nostra selezione con 10,4 litri totali. In Dual Zone, ogni scomparto da 5,2 litri ospita comodamente porzioni per 2-3 persone.',
-        nl: 'In Mega Zone-modus past de Ninja FlexDrawer tot 1,2 kg verse friet in één keer of een hele kip van 1,8 kg. Het is de grootste capaciteit in onze selectie met 10,4 liter totaal. In Dual Zone-modus biedt elk vak van 5,2 liter comfortabel ruimte voor porties voor 2-3 personen.',
+        fr: 'Ninja le présente comme capable de préparer des repas pour huit personnes et plus en MegaZone. En pratique, il prend tout son sens à partir de cinq personnes ; pour un ou deux, un modèle de 4 à 6 L est plus adapté.',
+        en: 'Ninja says it can cook meals for eight or more people in MegaZone. In practice it makes most sense from five people up; for one or two, a 4 to 6L model is a better fit.',
+        de: 'Laut Ninja reicht die MegaZone für Mahlzeiten für acht Personen und mehr. In der Praxis lohnt er sich ab fünf Personen; für ein bis zwei Personen passt ein Modell mit 4 bis 6 Litern besser.',
+        es: 'Ninja indica que en MegaZone permite preparar comidas para ocho personas o más. En la práctica tiene sentido a partir de cinco personas; para una o dos, encaja mejor un modelo de 4 a 6 L.',
+        it: 'Secondo Ninja, in MegaZone permette di preparare pasti per otto persone o più. In pratica conviene da cinque persone in su; per una o due, è più adatto un modello da 4 a 6 L.',
+        nl: 'Volgens Ninja kun je in MegaZone maaltijden voor acht personen of meer bereiden. In de praktijk is hij vooral zinvol vanaf vijf personen; voor één of twee is een model van 4 tot 6 L handiger.',
       },
     },
     {
       question: {
-        fr: 'Quels accessoires sont inclus avec le Ninja FlexDrawer ?',
-        en: 'What accessories are included with the Ninja FlexDrawer?',
-        de: 'Welches Zubehör ist beim Ninja FlexDrawer enthalten?',
-        es: '¿Qué accesorios incluye el Ninja FlexDrawer?',
-        it: 'Quali accessori sono inclusi con il Ninja FlexDrawer?',
-        nl: 'Welke accessoires worden meegeleverd met de Ninja FlexDrawer?',
+        fr: 'Quelles sont les fonctions et la plage de température ?',
+        en: 'What functions and temperature range does it offer?',
+        de: 'Welche Funktionen und welchen Temperaturbereich bietet er?',
+        es: '¿Qué funciones y rango de temperatura ofrece?',
+        it: 'Quali funzioni e quale intervallo di temperatura offre?',
+        nl: 'Welke functies en welk temperatuurbereik heeft hij?',
       },
       answer: {
-        fr: 'Le Ninja FlexDrawer est livré avec le séparateur amovible pour passer du mode Mega Zone au mode Dual Zone, ainsi que des paniers métalliques avec revêtement antiadhésif céramique. Les paniers sont compatibles lave-vaisselle. Le séparateur se nettoie facilement à la main en quelques secondes.',
-        en: 'The Ninja FlexDrawer comes with the removable divider for switching between Mega Zone and Dual Zone modes, along with ceramic non-stick coated metal baskets. The baskets are dishwasher safe. The divider cleans easily by hand in a few seconds.',
-        de: 'Der Ninja FlexDrawer wird mit dem herausnehmbaren Teiler zum Umschalten zwischen Mega- und Dual-Zone-Modus geliefert, zusammen mit Metallkörben mit Keramik-Antihaftbeschichtung. Die Körbe sind spülmaschinenfest. Der Teiler lässt sich in Sekunden von Hand reinigen.',
-        es: 'El Ninja FlexDrawer incluye el separador extraíble para cambiar entre los modos Mega Zone y Dual Zone, junto con cestas metálicas con recubrimiento antiadherente cerámico. Las cestas son aptas para lavavajillas. El separador se limpia fácilmente a mano en segundos.',
-        it: 'Il Ninja FlexDrawer include il divisore rimovibile per passare dalla Mega Zone alla Dual Zone, insieme a cestelli metallici con rivestimento antiaderente in ceramica. I cestelli sono lavabili in lavastoviglie. Il divisore si pulisce facilmente a mano in pochi secondi.',
-        nl: 'De Ninja FlexDrawer wordt geleverd met het verwijderbare schot om te wisselen tussen Mega Zone en Dual Zone, samen met metalen manden met keramische antiaanbaklaag. De manden zijn vaatwasmachinebestendig. Het schot is in enkele seconden met de hand schoon te maken.',
+        fr: 'Il propose sept fonctions (Max Crisp, Air Fry, Rôtir, Cuire au four, Réchauffer, Déshydrater, Faire lever) et une plage de 40 °C à 240 °C, pour une puissance de 2 470 W selon Ninja.',
+        en: 'It offers seven functions (Max Crisp, Air Fry, Roast, Bake, Reheat, Dehydrate, Prove) and a range of 40°C to 240°C, with 2,470 W of power according to Ninja.',
+        de: 'Er bietet sieben Funktionen (Max Crisp, Air Fry, Braten, Backen, Aufwärmen, Dörren, Gärstufe) und einen Bereich von 40 °C bis 240 °C bei 2.470 W Leistung laut Ninja.',
+        es: 'Ofrece siete funciones (Max Crisp, Air Fry, Asar, Hornear, Recalentar, Deshidratar, Fermentar) y un rango de 40 °C a 240 °C, con 2.470 W de potencia según Ninja.',
+        it: 'Offre sette funzioni (Max Crisp, Air Fry, Arrostire, Cuocere al forno, Riscaldare, Essiccare, Lievitare) e un intervallo da 40 °C a 240 °C, con 2.470 W di potenza secondo Ninja.',
+        nl: 'Hij biedt zeven functies (Max Crisp, Air Fry, Roosteren, Bakken, Opwarmen, Drogen, Rijzen) en een bereik van 40 °C tot 240 °C, met 2.470 W vermogen volgens Ninja.',
       },
     },
     {
       question: {
-        fr: 'Quelle est la plage de température du Ninja FlexDrawer ?',
-        en: 'What is the temperature range of the Ninja FlexDrawer?',
-        de: 'Welchen Temperaturbereich hat der Ninja FlexDrawer?',
-        es: '¿Cuál es el rango de temperatura del Ninja FlexDrawer?',
-        it: 'Qual è il range di temperatura del Ninja FlexDrawer?',
-        nl: 'Wat is het temperatuurbereik van de Ninja FlexDrawer?',
+        fr: 'Le tiroir passe-t-il au lave-vaisselle ?',
+        en: 'Is the drawer dishwasher safe?',
+        de: 'Ist die Schublade spülmaschinenfest?',
+        es: '¿El cajón se puede lavar en el lavavajillas?',
+        it: 'Il cassetto si può lavare in lavastoviglie?',
+        nl: 'Mag de lade in de vaatwasser?',
       },
       answer: {
-        fr: 'Le Ninja FlexDrawer offre une plage de température de 40°C à 240°C. La température basse de 40°C permet la déshydratation d\'aliments avec une minuterie jusqu\'à 24 heures. La température haute de 240°C est suffisante pour saisir les viandes et obtenir une croûte de Maillard satisfaisante sur les steaks.',
-        en: 'The Ninja FlexDrawer offers a temperature range from 40°C to 240°C. The low 40°C setting enables food dehydration with a timer up to 24 hours. The high 240°C is sufficient for searing meats and achieving a satisfying Maillard crust on steaks.',
-        de: 'Der Ninja FlexDrawer bietet einen Temperaturbereich von 40°C bis 240°C. Die niedrige Einstellung von 40°C ermöglicht das Dörren von Lebensmitteln mit einem Timer bis 24 Stunden. Die hohe Temperatur von 240°C reicht zum Anbraten von Fleisch und für eine gute Maillard-Kruste bei Steaks.',
-        es: 'El Ninja FlexDrawer ofrece un rango de temperatura de 40°C a 240°C. La temperatura baja de 40°C permite deshidratar alimentos con temporizador hasta 24 horas. Los 240°C son suficientes para sellar carnes y lograr una costra de Maillard satisfactoria en los filetes.',
-        it: 'Il Ninja FlexDrawer offre un range di temperatura da 40°C a 240°C. La temperatura bassa di 40°C permette l\'essiccazione degli alimenti con timer fino a 24 ore. I 240°C sono sufficienti per scottare le carni e ottenere una crosta di Maillard soddisfacente sulle bistecche.',
-        nl: 'De Ninja FlexDrawer biedt een temperatuurbereik van 40°C tot 240°C. De lage instelling van 40°C maakt het drogen van voedsel mogelijk met een timer tot 24 uur. De hoge temperatuur van 240°C is voldoende om vlees aan te braden en een goede Maillard-korst te vormen op steaks.',
+        fr: 'Ninja indique que les pièces amovibles sont compatibles lave-vaisselle. Le tiroir de 10,4 L est toutefois volumineux : beaucoup d’acheteurs préfèrent le laver à la main à l’eau chaude savonneuse pour préserver le revêtement.',
+        en: 'Ninja states the removable parts are dishwasher safe. The 10.4L drawer is bulky, though, and many buyers prefer to wash it by hand in hot soapy water to protect the coating.',
+        de: 'Laut Ninja sind die abnehmbaren Teile spülmaschinengeeignet. Die 10,4-Liter-Schublade ist aber sperrig, und viele Käufer spülen sie lieber von Hand mit warmem Spülwasser, um die Beschichtung zu schonen.',
+        es: 'Ninja indica que las piezas extraíbles son aptas para lavavajillas. Aun así, el cajón de 10,4 L es voluminoso y muchos compradores prefieren lavarlo a mano con agua caliente y jabón para cuidar el recubrimiento.',
+        it: 'Ninja indica che le parti rimovibili sono lavabili in lavastoviglie. Il cassetto da 10,4 L è però voluminoso e molti acquirenti preferiscono lavarlo a mano con acqua calda e sapone per preservare il rivestimento.',
+        nl: 'Volgens Ninja zijn de uitneembare onderdelen vaatwasserbestendig. De lade van 10,4 L is wel groot, en veel kopers wassen hem liever met de hand in warm sop om de coating te sparen.',
       },
     },
     {
       question: {
-        fr: 'Les paniers du Ninja FlexDrawer passent-ils au lave-vaisselle ?',
-        en: 'Are the Ninja FlexDrawer baskets dishwasher safe?',
-        de: 'Sind die Körbe des Ninja FlexDrawer spülmaschinenfest?',
-        es: '¿Las cestas del Ninja FlexDrawer son aptas para lavavajillas?',
-        it: 'I cestelli del Ninja FlexDrawer sono lavabili in lavastoviglie?',
-        nl: 'Zijn de manden van de Ninja FlexDrawer vaatwasmachinebestendig?',
+        fr: 'Le Ninja FlexDrawer est-il connecté ?',
+        en: 'Is the Ninja FlexDrawer a smart, connected model?',
+        de: 'Ist der Ninja FlexDrawer vernetzt?',
+        es: '¿La Ninja FlexDrawer es conectada?',
+        it: 'La Ninja FlexDrawer è connessa?',
+        nl: 'Is de Ninja FlexDrawer slim of verbonden?',
       },
       answer: {
-        fr: 'Oui, les paniers du Ninja FlexDrawer sont compatibles lave-vaisselle avec un revêtement antiadhésif céramique durable. Attention cependant à leur grande taille qui peut poser problème dans certains lave-vaisselle standards. Le format large du tiroir facilite le nettoyage manuel car toutes les surfaces sont facilement accessibles.',
-        en: 'Yes, the Ninja FlexDrawer baskets are dishwasher safe with a durable ceramic non-stick coating. However, their large size may be an issue in some standard dishwashers. The wide drawer format makes manual cleaning easy since all surfaces are readily accessible.',
-        de: 'Ja, die Körbe des Ninja FlexDrawer sind spülmaschinenfest mit haltbarer Keramik-Antihaftbeschichtung. Ihre Größe kann jedoch in manchen Standard-Spülmaschinen problematisch sein. Das breite Schubladenformat erleichtert die manuelle Reinigung, da alle Oberflächen leicht zugänglich sind.',
-        es: 'Sí, las cestas del Ninja FlexDrawer son aptas para lavavajillas con recubrimiento antiadherente cerámico duradero. Sin embargo, su gran tamaño puede ser un problema en algunos lavavajillas estándar. El formato ancho del cajón facilita la limpieza manual ya que todas las superficies son accesibles.',
-        it: 'Sì, i cestelli del Ninja FlexDrawer sono lavabili in lavastoviglie con rivestimento antiaderente ceramico durevole. Tuttavia, le loro grandi dimensioni possono creare problemi in alcune lavastoviglie standard. Il formato largo del cassetto facilita la pulizia manuale poiché tutte le superfici sono facilmente accessibili.',
-        nl: 'Ja, de manden van de Ninja FlexDrawer zijn vaatwasmachinebestendig met duurzame keramische antiaanbaklaag. Let wel op hun grote formaat dat in sommige standaard vaatwassers problematisch kan zijn. Het brede ladeformaat maakt handmatig schoonmaken makkelijk omdat alle oppervlakken goed bereikbaar zijn.',
+        fr: 'Non, il n’a ni Wi-Fi ni application : tout se règle sur le panneau de commande. Si le pilotage à distance compte pour vous, regardez le Philips Airfryer Combi XXL Connecté ou le Cosori Dual Blaze.',
+        en: 'No, it has neither Wi-Fi nor an app: everything is set on the control panel. If remote control matters to you, look at the Philips Airfryer Combi XXL Connected or the Cosori Dual Blaze.',
+        de: 'Nein, er hat weder WLAN noch App: Alles wird am Bedienfeld eingestellt. Wenn Ihnen Fernsteuerung wichtig ist, schauen Sie sich den Philips Airfryer Combi XXL Connected oder den Cosori Dual Blaze an.',
+        es: 'No, no tiene wifi ni app: todo se ajusta en el panel de control. Si te importa el control a distancia, mira la Philips Airfryer Combi XXL Connected o la Cosori Dual Blaze.',
+        it: 'No, non ha né Wi-Fi né app: tutto si imposta dal pannello di controllo. Se il controllo a distanza è importante per te, guarda la Philips Airfryer Combi XXL Connected o la Cosori Dual Blaze.',
+        nl: 'Nee, hij heeft geen wifi en geen app: alles stel je in op het bedieningspaneel. Vind je bediening op afstand belangrijk, kijk dan naar de Philips Airfryer Combi XXL Connected of de Cosori Dual Blaze.',
+      },
+    },
+    {
+      question: {
+        fr: 'FlexDrawer ou Double Stack : lequel choisir ?',
+        en: 'FlexDrawer or Double Stack: which should you choose?',
+        de: 'FlexDrawer oder Double Stack: Welcher ist der richtige?',
+        es: '¿FlexDrawer o Double Stack: cuál elegir?',
+        it: 'FlexDrawer o Double Stack: quale scegliere?',
+        nl: 'FlexDrawer of Double Stack: welke kies je?',
+      },
+      answer: {
+        fr: 'Choisissez le FlexDrawer si vous cuisez souvent de grosses pièces entières et avez de la place en largeur. Le Double Stack, plus étroit et plus haut, convient mieux aux petits plans de travail et aux repas à deux plats.',
+        en: 'Choose the FlexDrawer if you often cook large whole items and have room in width. The narrower, taller Double Stack suits small worktops and two-dish meals better.',
+        de: 'Wählen Sie den FlexDrawer, wenn Sie oft große Stücke am Stück garen und genug Breite haben. Der schmalere, höhere Double Stack passt besser zu kleinen Arbeitsflächen und Mahlzeiten mit zwei Komponenten.',
+        es: 'Elige la FlexDrawer si cocinas a menudo piezas grandes enteras y tienes espacio a lo ancho. La Double Stack, más estrecha y alta, encaja mejor en encimeras pequeñas y comidas de dos platos.',
+        it: 'Scegli la FlexDrawer se cuoci spesso pezzi grandi interi e hai spazio in larghezza. La Double Stack, più stretta e più alta, è più adatta a piani piccoli e a pasti con due preparazioni.',
+        nl: 'Kies de FlexDrawer als je vaak grote stukken in hun geheel bereidt en ruimte in de breedte hebt. De smallere, hogere Double Stack past beter bij een klein aanrecht en maaltijden met twee gerechten.',
       },
     },
   ],

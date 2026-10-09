@@ -6,870 +6,661 @@ export const article: BlogArticle = {
   pillar: 'securite-maison',
   relatedSlugs: ['guide-securite-maison-connectee-2026', 'comparatif-camera-surveillance-exterieure', 'sonnette-video-sans-abonnement'],
   datePublished: '2026-04-16',
-  dateModified: '2026-04-16',
-  readingTime: 17,
+  dateModified: '2026-10-09',
+  readingTime: 9,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1561756719-55231c95c511?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1558002038-1055907df827?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Serrure connectee guide comparatif Nuki Yale Tedee SwitchBot pour maison europeenne',
-        en: 'Smart lock guide comparison Nuki Yale Tedee SwitchBot for European homes',
-        de: 'Smartes Tuerschloss Ratgeber Vergleich Nuki Yale Tedee SwitchBot fuer europaeische Haeuser',
-        es: 'Cerradura inteligente guia comparativa Nuki Yale Tedee SwitchBot para hogares europeos',
-        it: 'Serratura smart guida confronto Nuki Yale Tedee SwitchBot per case europee',
-        nl: 'Slim deurslot gids vergelijking Nuki Yale Tedee SwitchBot voor Europese woningen',
+        fr: 'Serrure connectée posée sur le cylindre intérieur d’une porte, pilotée depuis une application smartphone',
+        en: 'Smart lock fitted over the inside of a door cylinder and controlled from a smartphone app',
+        de: 'Smartes Türschloss auf dem Innenzylinder einer Tür, gesteuert über eine Smartphone-App',
+        es: 'Cerradura inteligente montada sobre el cilindro interior de una puerta y controlada desde una app del móvil',
+        it: 'Serratura smart montata sul cilindro interno di una porta e comandata da un’app per smartphone',
+        nl: 'Slim slot op de binnenkant van een deurcilinder, bediend via een smartphone-app',
       },
     },
   ],
   title: {
-    fr: 'Serrure Connectee : Guide Complet et Comparatif des 4 Meilleures pour l\'Europe (2026)',
-    en: 'Best Smart Locks for European Homes 2026 — Complete Guide and 4 Top Picks',
-    de: 'Smartes Tuerschloss 2026 — Kompletter Ratgeber und 4 Beste Modelle fuer Europa',
-    es: 'Cerradura Inteligente 2026 — Guia Completa y 4 Mejores Modelos para Europa',
-    it: 'Serratura Smart 2026 — Guida Completa e 4 Migliori Modelli per l\'Europa',
-    nl: 'Slim Deurslot 2026 — Complete Gids en 4 Beste Modellen voor Europa',
+    fr: 'Serrure connectée 2026 : guide complet et 6 meilleurs modèles pour l’Europe',
+    en: 'Smart Lock Guide 2026: How to Choose and the 6 Best Models for Europe',
+    de: 'Smartes Türschloss 2026: Ratgeber und die 6 besten Modelle für Europa',
+    es: 'Cerradura inteligente 2026: guía completa y los 6 mejores modelos para Europa',
+    it: 'Serratura smart 2026: guida completa e i 6 migliori modelli per l’Europa',
+    nl: 'Slim deurslot 2026: complete gids en de 6 beste modellen voor Europa',
   },
   excerpt: {
-    fr: 'Guide complet des serrures connectees pour l\'Europe en 2026. Nuki Smart Lock 4.0, Yale Linus L2, Tedee GO et SwitchBot Lock Pro compares : compatibilite euro-cylindre, auto-unlock, acces invite, Matter. Installation, securite et verdict.',
-    en: 'Complete guide to smart locks for European homes in 2026. Nuki Smart Lock 4.0, Yale Linus L2, Tedee GO and SwitchBot Lock Pro compared: Euro-cylinder compatibility, auto-unlock, guest access, Matter support. Installation, security and verdict.',
-    de: 'Kompletter Ratgeber fuer smarte Tuerschloesser in Europa 2026. Nuki Smart Lock 4.0, Yale Linus L2, Tedee GO und SwitchBot Lock Pro verglichen: Euro-Zylinder-Kompatibilitaet, Auto-Unlock, Gaestezugang, Matter. Installation, Sicherheit und Fazit.',
-    es: 'Guia completa de cerraduras inteligentes para Europa en 2026. Nuki Smart Lock 4.0, Yale Linus L2, Tedee GO y SwitchBot Lock Pro comparados: compatibilidad euro-cilindro, apertura automatica, acceso invitados, Matter. Instalacion, seguridad y veredicto.',
-    it: 'Guida completa alle serrature smart per l\'Europa nel 2026. Nuki Smart Lock 4.0, Yale Linus L2, Tedee GO e SwitchBot Lock Pro a confronto: compatibilita euro-cilindro, auto-unlock, accesso ospiti, Matter. Installazione, sicurezza e verdetto.',
-    nl: 'Complete gids voor slimme deursloten in Europa 2026. Nuki Smart Lock 4.0, Yale Linus L2, Tedee GO en SwitchBot Lock Pro vergeleken: Euro-cilinder compatibiliteit, auto-unlock, gasttoegang, Matter. Installatie, veiligheid en verdict.',
+    fr: 'Comment choisir une serrure connectée pour un cylindre européen en 2026 : compatibilité, Matter et Thread, alimentation, clavier à empreinte. Nuki, Tedee, Aqara, Yale et SwitchBot comparées sur fiches techniques et avis d’acheteurs.',
+    en: 'How to choose a smart lock for a Euro-profile cylinder in 2026: compatibility, Matter and Thread, power, fingerprint keypads. Nuki, Tedee, Aqara, Yale and SwitchBot compared on specifications and buyer feedback.',
+    de: 'So wählen Sie 2026 ein smartes Türschloss für den Euro-Profilzylinder: Kompatibilität, Matter und Thread, Stromversorgung, Fingerabdruck-Keypad. Nuki, Tedee, Aqara, Yale und SwitchBot im Vergleich nach Datenblatt und Käuferstimmen.',
+    es: 'Cómo elegir una cerradura inteligente para cilindro europeo en 2026: compatibilidad, Matter y Thread, alimentación, teclado con huella. Nuki, Tedee, Aqara, Yale y SwitchBot comparadas según fichas técnicas y opiniones de compradores.',
+    it: 'Come scegliere una serratura smart per cilindro europeo nel 2026: compatibilità, Matter e Thread, alimentazione, tastierino con impronta. Nuki, Tedee, Aqara, Yale e SwitchBot a confronto su schede tecniche e opinioni degli acquirenti.',
+    nl: 'Zo kies je in 2026 een slim slot voor een Europrofielcilinder: compatibiliteit, Matter en Thread, voeding, vingerafdrukklavier. Nuki, Tedee, Aqara, Yale en SwitchBot vergeleken op specificaties en ervaringen van kopers.',
   },
   content: {
-    fr: `<h2>Pourquoi installer une serrure connectee en 2026 ?</h2>
-<p>La serrure connectee (ou smart lock) est l'un des equipements domotiques les plus pratiques au quotidien. Fini les cles perdues, les doubles a faire pour la famille, les allers-retours pour ouvrir aux livreurs ou aux prestataires. En 2026, les serrures connectees europeennes ont atteint un niveau de maturite remarquable : compatibilite avec les cylindres europeens existants, protocole Matter pour l'interoperabilite, et securite renforcee avec chiffrement de bout en bout.</p>
-<p>Mais choisir la bonne serrure connectee en Europe est plus complexe qu'aux Etats-Unis : il faut verifier la compatibilite avec votre cylindre existant, l'epaisseur de votre porte, le type de serrure (a encastrer, en applique) et les normes de securite locales. Ce guide vous accompagne pas a pas dans le choix, l'installation et l'utilisation d'une serrure connectee adaptee a votre logement europeen.</p>
+    fr: `<p><strong>La meilleure serrure connectée pour la plupart des portes européennes en 2026 est la Nuki Smart Lock Pro (5e génération)</strong> : elle se pose sur votre cylindre existant sans le changer, combine Wi-Fi, Bluetooth et Matter over Thread, et fonctionne sur batterie rechargeable. Pour un budget plus serré, la Nuki Smart Lock Go garde Wi-Fi et Matter ; si vous voulez un clavier à empreinte fourni d’office, l’Aqara Smart Lock U200 est la plus complète.</p>
+<p>Ce guide s’appuie sur les fiches techniques des fabricants, des avis indépendants et les retours d’acheteurs vérifiés. Il ne retient que des modèles vendus en Europe en 2026, compatibles avec les cylindres à profil européen. Retrouvez toute la sélection sur notre page <a href="/fr/securite-maison/serrures-connectees">serrures connectées</a>.</p>
 
-<h2>Tableau comparatif des 4 meilleures serrures connectees 2026</h2>
+<h2>Serrure connectée : comment ça marche sur une porte européenne ?</h2>
+<p>En Europe continentale, la plupart des portes d’entrée utilisent une serrure à encastrer avec un <strong>cylindre à profil européen</strong>. Les serrures connectées présentées ici sont des modèles « à rétrofit » : un boîtier motorisé se fixe côté intérieur, par-dessus le cylindre, et tourne la clé ou un embout à votre place. Côté extérieur, rien ne change : votre clé reste utilisable.</p>
+<p>Certaines marques proposent aussi des modèles qui remplacent le cylindre (la Nuki Smart Lock Ultra, par exemple). Ils sont plus compacts et plus rapides, mais demandent de changer une pièce de la serrure : moins pratique en location.</p>
+
+<h2>Les critères pour bien choisir</h2>
+<ul>
+<li><strong>Un cylindre à fonction de secours</strong> : c’est le point le plus souvent oublié. La plupart des serrures à rétrofit exigent un cylindre qui s’ouvre de l’extérieur même quand une clé est engagée à l’intérieur (fonction « débrayable » ou « de secours »). Sans elle, vous risquez de ne pas pouvoir rentrer avec votre clé. Vérifiez auprès du fabricant de votre cylindre, ou faites-le remplacer par un serrurier.</li>
+<li><strong>La longueur du cylindre côté intérieur</strong> : il doit dépasser suffisamment de la porte pour que l’adaptateur s’y fixe. Chaque fabricant publie un outil ou un guide de compatibilité.</li>
+<li><strong>La connectivité</strong> : Bluetooth pour l’usage à proximité, Wi-Fi intégré ou pont (bridge) pour l’accès à distance, et <strong>Matter</strong> pour piloter la serrure depuis Apple Maison, Google Home, Alexa ou SmartThings. Matter over Thread demande un routeur de bordure Thread (certains Apple TV, HomePod mini, enceintes Google ou Amazon récentes).</li>
+<li><strong>L’alimentation</strong> : batterie rechargeable (à recharger tous les quelques mois) ou piles (CR123 ou alcalines). Une alerte de batterie faible dans l’application est indispensable.</li>
+<li><strong>Le clavier</strong> : un clavier à code ou à empreinte, fixé à l’extérieur, permet d’ouvrir sans téléphone. Il est fourni avec certains modèles, en option chez d’autres.</li>
+<li><strong>Les portes multipoints</strong> : sur une serrure 3 ou 5 points dure à manœuvrer, privilégiez un moteur puissant et vérifiez que la porte se ferme sans forcer.</li>
+</ul>
+
+<h2>Les 6 meilleures serrures connectées en 2026</h2>
+
+<h3>1. Nuki Smart Lock Pro (5e génération) — le meilleur choix global</h3>
+<p>Lancée en mars 2025, la cinquième génération de la Smart Lock Pro reprend les technologies de la Nuki Ultra dans un modèle qui se pose sur le cylindre existant. Elle intègre Wi-Fi, Bluetooth et Matter over Thread, sans pont supplémentaire. Son moteur sans balais propose trois modes, dont un mode rapide annoncé sous 1,5 seconde et un mode « Gentle » plus discret.</p>
+<p><strong>Points forts</strong> : accès à distance sans bridge ; compatible Apple Maison, Google Home, Alexa et Home Assistant via Matter ; batterie lithium rechargeable (environ deux heures de charge selon Nuki) ; application complète avec accès temporaires, récurrents ou permanents et historique ; nombreux accessoires (Keypad 2 avec empreinte, capteur de porte).</p>
+<p><strong>Limites</strong> : boîtier assez volumineux côté intérieur ; le clavier est vendu à part ; cylindre à fonction de secours nécessaire.</p>
+<p><strong>Pour qui</strong> : la plupart des foyers qui veulent une serrure durable, compatible avec tous les grands écosystèmes, sans toucher au cylindre.</p>
+
+<h3>2. Nuki Smart Lock Go — le meilleur rapport qualité-prix</h3>
+<p>La Smart Lock Go est l’entrée de gamme de Nuki, sortie en même temps que la Pro de 5e génération. Elle garde l’essentiel : Wi-Fi intégré, Bluetooth et Matter over Thread, avec la même application que les modèles plus chers.</p>
+<p><strong>Points forts</strong> : l’une des façons les plus accessibles d’obtenir une serrure Matter avec accès à distance ; pas de bridge à acheter ; écosystème Nuki complet (partage d’accès, clavier, historique).</p>
+<p><strong>Limites</strong> : fonctionne sur piles alcalines (un Power Pack rechargeable existe en option) ; motorisation moins avancée que la Pro ; finitions plus simples.</p>
+<p><strong>Pour qui</strong> : un premier achat, un appartement ou une location courte durée gérée à distance.</p>
+
+<h3>3. Aqara Smart Lock U200 — la plus complète avec clavier fourni</h3>
+<p>L’U200 associe un moteur à rétrofit côté intérieur et un <strong>clavier extérieur fourni</strong> avec lecteur d’empreinte, lecteur NFC et code. Elle communique en Bluetooth et en Thread, avec Matter over Thread, et fonctionne sans hub Aqara pour l’usage de base. Une version U200 Lite, sans clavier, existe pour les petits budgets.</p>
+<p><strong>Points forts</strong> : clavier inclus, avec empreinte et badge NFC ; prise en charge de la clé dans le Wallet d’Apple (Home Key) via le NFC du clavier ; batterie rechargeable USB-C pour le moteur ; compatible cylindres européens.</p>
+<p><strong>Limites</strong> : pour l’accès à distance et les automatisations avancées, il faut un routeur Thread ou un hub Aqara ; le clavier fonctionne sur piles AAA (ou alimentation filaire) ; installation un peu plus longue à cause du clavier.</p>
+<p><strong>Pour qui</strong> : les familles qui veulent ouvrir sans téléphone, et les utilisateurs d’iPhone qui veulent la clé Apple.</p>
+
+<h3>4. Tedee GO 2 — la plus compacte</h3>
+<p>Tedee, marque polonaise, est connue pour ses serrures très compactes. La GO 2 se fixe avec trois vis sur l’adaptateur du cylindre, fonctionne en Bluetooth et prend en charge Matter over Thread. Le Tedee Bridge reste utile pour les intégrations cloud et l’accès à distance hors Matter.</p>
+<p><strong>Points forts</strong> : format discret ; Matter over Thread sans bridge ; ouverture et fermeture automatiques, clés virtuelles et historique ; compatible avec le clavier Tedee Keypad PRO (empreinte et code).</p>
+<p><strong>Limites</strong> : trois piles CR123 à remplacer, pour une autonomie d’environ six mois selon Tedee (huit au maximum) ; uniquement pour cylindres européens à clé plate, avec fonction de secours.</p>
+<p><strong>Pour qui</strong> : les appartements et les portes où un boîtier imposant gênerait.</p>
+
+<h3>5. Yale Linus Smart Lock L2 — le choix de la marque historique</h3>
+<p>Le Linus L2 est la serrure à rétrofit de Yale pour les cylindres européens. Il intègre le Wi-Fi et prend en charge Matter over Wi-Fi depuis une mise à jour du micrologiciel : pas de pont ni de routeur Thread à prévoir. Le capteur DoorSense, fourni, indique si la porte est vraiment fermée.</p>
+<p><strong>Points forts</strong> : Wi-Fi intégré ; compatible Apple Maison, Google Home, Alexa et SmartThings via Matter ; DoorSense inclus ; batterie rechargeable par USB-C ; réseau de distribution et de service après-vente étendu.</p>
+<p><strong>Limites</strong> : autonomie annoncée jusqu’à six mois environ ; la batterie se retire pour la recharger ; la version L2 Lite, moins chère, n’a pas de Wi-Fi et demande un pont pour l’accès à distance.</p>
+<p><strong>Pour qui</strong> : ceux qui veulent une grande marque de serrurerie et une connexion Wi-Fi directe.</p>
+
+<h3>6. SwitchBot Lock Ultra — la plus endurante</h3>
+<p>La Lock Ultra est la serrure à rétrofit la plus récente de SwitchBot vendue en Europe. Elle est nettement plus fine que l’ancienne Lock Pro, embarque une batterie rechargeable de 4 200 mAh annoncée pour 9 à 12 mois, et une pile CR123A de secours si la batterie principale est vide ou en charge.</p>
+<p><strong>Points forts</strong> : très bonne autonomie annoncée ; moteur rapide et silencieux selon le fabricant ; nombreux modes d’ouverture avec les claviers SwitchBot (code, empreinte, NFC, reconnaissance faciale sur certains modèles) ; large compatibilité de cylindres.</p>
+<p><strong>Limites</strong> : Matter et Apple Maison passent obligatoirement par un hub SwitchBot compatible Matter ; pas de Thread natif.</p>
+<p><strong>Pour qui</strong> : les foyers déjà équipés SwitchBot, ou ceux qui veulent recharger le moins souvent possible.</p>
+
+<h2>Tableau comparatif</h2>
 <table>
 <thead>
-<tr><th>Critere</th><th>Nuki Smart Lock 4.0</th><th>Yale Linus L2</th><th>Tedee GO</th><th>SwitchBot Lock Pro</th></tr>
+<tr><th>Modèle</th><th>Connexion</th><th>Matter</th><th>Alimentation</th><th>Clavier</th><th>Idéal pour</th></tr>
 </thead>
 <tbody>
-<tr><td>Compatibilite cylindre</td><td>Euro-cylindre (adaptateur inclus)</td><td>Euro-cylindre (adaptateur Linus)</td><td>Euro-cylindre (adaptateur Tedee)</td><td>Euro-cylindre + poignee</td></tr>
-<tr><td>Installation</td><td>3 min, sans percer</td><td>5 min, sans percer</td><td>3 min, sans percer</td><td>5 min, sans percer</td></tr>
-<tr><td>Protocole</td><td>Matter + Thread + Wi-Fi + BLE</td><td>Matter + Thread + BLE</td><td>BLE + bridge Wi-Fi (option)</td><td>BLE + Wi-Fi (hub option)</td></tr>
-<tr><td>Auto-unlock</td><td>Oui (GPS + BLE)</td><td>Oui (GPS + BLE)</td><td>Oui (avec bridge)</td><td>Oui (avec hub)</td></tr>
-<tr><td>Acces invite</td><td>Oui (temporaire, recurrent, permanent)</td><td>Oui (via app Yale)</td><td>Oui (via app Tedee)</td><td>Oui (via app SwitchBot)</td></tr>
-<tr><td>Clavier a code (option)</td><td>Nuki Keypad 2.0 (~79 EUR)</td><td>Yale Keypad (~65 EUR)</td><td>Tedee Keypad (~69 EUR)</td><td>SwitchBot Keypad Touch (~35 EUR)</td></tr>
-<tr><td>Cle physique conservee</td><td>Oui</td><td>Oui</td><td>Oui</td><td>Oui</td></tr>
-<tr><td>Alimentation</td><td>4 piles AA (8-12 mois)</td><td>4 piles AA (6-9 mois)</td><td>3 piles CR123 (8-14 mois)</td><td>2 piles CR123A (6 mois) ou batterie</td></tr>
-<tr><td>Niveau sonore</td><td>~45 dB</td><td>~50 dB</td><td>~42 dB</td><td>~48 dB</td></tr>
-<tr><td>Domotique</td><td>Apple HomeKit, Google, Alexa, Home Assistant</td><td>Apple HomeKit, Google, Alexa</td><td>Apple HomeKit, Google, Alexa (via bridge)</td><td>Google, Alexa (pas HomeKit)</td></tr>
-<tr><td>Historique acces</td><td>Oui (illimite)</td><td>Oui</td><td>Oui</td><td>Oui</td></tr>
-<tr><td>Certifications</td><td>AV-TEST, SKG***</td><td>Yale Doorman, AV-TEST</td><td>AV-TEST</td><td>—</td></tr>
-<tr><td>Prix (avril 2026)</td><td>~199 EUR</td><td>~249 EUR</td><td>~189 EUR</td><td>~99 EUR</td></tr>
+<tr><td>Nuki Smart Lock Pro (5e gén.)</td><td>Wi-Fi + Bluetooth + Thread</td><td>Oui, natif (Thread)</td><td>Batterie rechargeable</td><td>En option</td><td>La plupart des foyers</td></tr>
+<tr><td>Nuki Smart Lock Go</td><td>Wi-Fi + Bluetooth + Thread</td><td>Oui, natif (Thread)</td><td>Piles alcalines (Power Pack en option)</td><td>En option</td><td>Budget maîtrisé</td></tr>
+<tr><td>Aqara Smart Lock U200</td><td>Bluetooth + Thread</td><td>Oui, natif (Thread)</td><td>Batterie rechargeable</td><td>Fourni (empreinte, NFC, code)</td><td>Ouvrir sans téléphone</td></tr>
+<tr><td>Tedee GO 2</td><td>Bluetooth + Thread</td><td>Oui, natif (Thread)</td><td>3 piles CR123</td><td>En option</td><td>Format compact</td></tr>
+<tr><td>Yale Linus Smart Lock L2</td><td>Wi-Fi + Bluetooth</td><td>Oui, via Wi-Fi</td><td>Batterie rechargeable</td><td>En option</td><td>Connexion Wi-Fi directe</td></tr>
+<tr><td>SwitchBot Lock Ultra</td><td>Bluetooth (+ hub)</td><td>Via hub SwitchBot</td><td>Batterie rechargeable + pile de secours</td><td>En option</td><td>Autonomie</td></tr>
 </tbody>
 </table>
 
-<h2>Nuki Smart Lock 4.0 : la reference europeenne (notre choix editeur)</h2>
-<h3>Points forts</h3>
+<h2>Les erreurs à éviter</h2>
 <ul>
-<li><strong>Matter + Thread natif :</strong> le Nuki 4.0 est l'une des premieres serrures connectees a supporter nativement Matter over Thread, garantissant une compatibilite future avec tous les ecosystemes domotiques. Plus besoin de bridge ou de hub — la communication est directe avec votre routeur Thread (Apple TV 4K, HomePod, Google Nest Hub).</li>
-<li><strong>Installation en 3 minutes :</strong> il suffit de retirer la cle de l'interieur, de poser l'adaptateur sur le cylindre et de fixer le Nuki avec l'adhesif 3M fourni. Aucun percage, aucune modification de la serrure existante. Nous l'avons installe sur 3 types de portes differents (bois, PVC, metal) sans probleme.</li>
-<li><strong>Auto-unlock intelligent :</strong> le Nuki detecte votre approche via GPS + Bluetooth et deverrouille automatiquement la porte quand vous arrivez a moins de 200 m. En 6 semaines de test, le taux de reussite est de 95 % — les 5 % d'echecs etaient lies a un signal GPS faible dans le parking souterrain.</li>
-<li><strong>Gestion des acces ultra-complete :</strong> invitations temporaires (plage horaire precise), recurrentes (femme de menage tous les mardis), permanentes (famille). L'historique d'acces est illimite et detaille — vous savez exactement qui est entre et a quelle heure.</li>
-<li><strong>Cle physique conservee :</strong> contrairement aux serrures americaines qui remplacent le cylindre, le Nuki se pose par-dessus. Votre cle physique fonctionne toujours — un backup essentiel en cas de panne de batterie.</li>
-<li><strong>Certification AV-TEST + SKG*** :</strong> le Nuki 4.0 a obtenu la certification de securite AV-TEST (reference en cybersecurite IoT) et la norme neerlandaise SKG*** (la plus haute pour les serrures en Europe).</li>
-</ul>
-<h3>Points faibles</h3>
-<ul>
-<li>Le design est fonctionnel mais volumineux — le boitier de 11 cm de diametre est visible de l'interieur. Moins elegant que le Tedee GO.</li>
-<li>Le moteur est legèrement plus bruyant que le Tedee GO (~45 dB vs ~42 dB).</li>
-<li>Le clavier a code Nuki Keypad 2.0 est vendu separement a 79 EUR — plus cher que les concurrents.</li>
-</ul>
-<h3>Notre verdict Nuki Smart Lock 4.0</h3>
-<p>Le Nuki Smart Lock 4.0 est notre choix editeur pour 2026. La combinaison Matter + Thread + Wi-Fi en fait la serrure la plus compatible et la plus evolutive du marche. L'installation en 3 minutes sans percage, la gestion d'acces ultra-complete et la double certification de securite en font la reference pour les foyers europeens. A 199 EUR, le rapport qualite-prix est excellent. Consultez notre <a href="/fr/blog/guide-securite-maison-connectee-2026">guide complet de la securite maison connectee 2026</a> pour l'integrer dans un systeme global.</p>
-
-<h2>Yale Linus L2 : la marque historique de la serrurerie</h2>
-<h3>Points forts</h3>
-<ul>
-<li><strong>Heritage Yale :</strong> Yale est le nom le plus ancien et le plus reconnu en serrurerie (fonde en 1840). Le Linus L2 beneficie de cette expertise en mecanique de precision.</li>
-<li><strong>Matter + Thread :</strong> comme le Nuki, le Linus L2 supporte Matter over Thread pour une integration domotique universelle.</li>
-<li><strong>Design premium :</strong> finition metal brosse, profil compact et elegant. Le Linus L2 est le plus esthetique de notre comparatif.</li>
-<li><strong>DoorSense integre :</strong> un capteur detecte si la porte est fermee (et pas juste verrouillee). Pratique pour recevoir une alerte si la porte est restee entrouverte.</li>
-<li><strong>Ecosysteme Yale complet :</strong> compatible avec les cylindres Yale existants, les serrures Yale, les alarmes Yale Sync et le clavier Yale Keypad.</li>
-</ul>
-<h3>Points faibles</h3>
-<ul>
-<li>Le prix de 249 EUR est le plus eleve du comparatif — 50 EUR de plus que le Nuki pour des fonctionnalites similaires.</li>
-<li>L'autonomie de 6-9 mois est inferieure au Nuki (8-12 mois) et au Tedee (8-14 mois).</li>
-<li>L'application Yale Access est parfois lente au demarrage (3-4 secondes pour se connecter en Bluetooth).</li>
-</ul>
-<h3>Notre verdict Yale Linus L2</h3>
-<p>Le Yale Linus L2 est le choix ideal si vous valorisez la marque, le design et l'ecosysteme Yale. La qualite de fabrication est irreprochable et le DoorSense integre est un plus appreciable. Cependant, le Nuki 4.0 offre des fonctionnalites equivalentes pour 50 EUR de moins, ce qui en fait un meilleur rapport qualite-prix.</p>
-
-<h2>Tedee GO : la plus compacte et la plus discrete</h2>
-<h3>Points forts</h3>
-<ul>
-<li><strong>Design ultra-compact :</strong> avec seulement 5,8 cm de diametre et 6,3 cm de hauteur, le Tedee GO est la serrure connectee la plus petite du marche. Elle se fond dans n'importe quelle porte sans attirer l'attention — personne ne sait que vous avez une serrure connectee.</li>
-<li><strong>La plus silencieuse (~42 dB) :</strong> le moteur est quasi inaudible. Parfait pour les appartements ou vous ne voulez pas reveiller les voisins en rentrant tard.</li>
-<li><strong>Excellente autonomie (8-14 mois) :</strong> les piles CR123 durent plus longtemps que les piles AA des concurrents.</li>
-<li><strong>Fabrication europeenne :</strong> Tedee est une entreprise polonaise — conception, developpement et fabrication en Europe. Un argument pour ceux qui privilegient la souverainete des donnees.</li>
-<li><strong>Prix attractif (189 EUR) :</strong> 10 EUR de moins que le Nuki, 60 EUR de moins que le Yale.</li>
-</ul>
-<h3>Points faibles</h3>
-<ul>
-<li>Pas de Matter natif — le Tedee GO utilise le Bluetooth seul. Pour l'acces distant (auto-unlock, controle hors domicile), il faut le bridge Tedee Wi-Fi (vendu separement a 69 EUR), ce qui porte le prix total a 258 EUR.</li>
-<li>L'integration HomeKit necessite le bridge — sans bridge, seul le Bluetooth est disponible.</li>
-<li>Le format compact implique un couple moteur plus faible — sur les serrures a points (3 ou 5 points), le Tedee peut manquer de force. A tester avant achat.</li>
-</ul>
-<h3>Notre verdict Tedee GO</h3>
-<p>Le Tedee GO est le choix parfait pour ceux qui veulent une serrure connectee invisible et silencieuse. Si vous n'avez pas besoin d'acces distant ou d'auto-unlock, le prix de 189 EUR sans bridge est imbattable. Pour une installation complete avec bridge, le Nuki 4.0 (199 EUR avec Matter + Thread inclus) est plus avantageux.</p>
-
-<h2>SwitchBot Lock Pro : le petit prix malin</h2>
-<h3>Points forts</h3>
-<ul>
-<li><strong>Prix imbattable a 99 EUR :</strong> deux fois moins cher que le Nuki et le Yale. C'est l'entree de gamme la plus interessante pour tester une serrure connectee sans gros investissement.</li>
-<li><strong>Clavier a code SwitchBot Keypad Touch a 35 EUR :</strong> le clavier le plus abordable du marche, avec lecteur d'empreinte digitale integre. Le combo serrure + clavier a 134 EUR est un excellent rapport qualite-prix.</li>
-<li><strong>Ecosysteme SwitchBot :</strong> si vous avez deja des produits SwitchBot (curtain, bot, hub), l'application unifiee est un avantage pour gerer tous vos appareils.</li>
-<li><strong>Double alimentation :</strong> piles CR123A ou batterie rechargeable en option. La batterie evite les achats de piles.</li>
-<li><strong>Compatibilite elargie :</strong> fonctionne avec les poignees europeennes en plus des cylindres, grace a l'adaptateur universel inclus.</li>
-</ul>
-<h3>Points faibles</h3>
-<ul>
-<li>Pas de support Apple HomeKit — problematique pour les utilisateurs Apple.</li>
-<li>Pas de Matter ni Thread — la serrure utilise Bluetooth + Wi-Fi via le hub optionnel SwitchBot. L'evolution vers les standards ouverts n'est pas garantie.</li>
-<li>L'autonomie de 6 mois avec les piles est la plus courte du comparatif.</li>
-<li>Pas de certification de securite independante (AV-TEST, SKG) — un point a considerer pour les utilisateurs soucieux de la cybersecurite.</li>
-<li>Le moteur est un peu bruyant (~48 dB).</li>
-</ul>
-<h3>Notre verdict SwitchBot Lock Pro</h3>
-<p>Le SwitchBot Lock Pro est le choix budget pour decouvrir les serrures connectees. A 99 EUR (ou 134 EUR avec clavier biometrique), c'est un excellent point d'entree. Cependant, l'absence de Matter, de HomeKit et de certifications de securite le reservent aux utilisateurs moins exigeants. Pour un investissement serieux a long terme, le Nuki 4.0 a 199 EUR reste plus pertinent.</p>
-
-<h2>Guide d'installation : comment poser une serrure connectee en Europe</h2>
-<h3>Verifier la compatibilite avant l'achat</h3>
-<p>Avant d'acheter, verifiez trois elements essentiels :</p>
-<ul>
-<li><strong>Le type de cylindre :</strong> les 4 serrures de ce comparatif sont compatibles avec les cylindres europeens (aussi appeles cylindres profil europeen ou DIN). C'est le standard dans 90 % des logements en France, Allemagne, Espagne, Italie, Belgique et Pays-Bas. Si vous avez un cylindre rond (courant au Royaume-Uni), verifiez la compatibilite specifique.</li>
-<li><strong>L'epaisseur de la porte :</strong> la plupart des serrures connectees acceptent des portes de 35 a 80 mm d'epaisseur. Mesurez l'epaisseur de votre porte au niveau de la serrure.</li>
-<li><strong>Le type de serrure :</strong> serrure a encastrer (la plus courante en Europe) ou serrure en applique. Les 4 modeles de ce comparatif sont compatibles avec les serrures a encastrer. Pour les serrures en applique, consultez les adaptateurs disponibles.</li>
+<li><strong>Acheter sans vérifier le cylindre</strong> : sans fonction de secours, la clé extérieure peut être bloquée par l’adaptateur. C’est la première cause de retour.</li>
+<li><strong>Compter sur Matter sans routeur Thread</strong> : les modèles Matter over Thread ont besoin d’un routeur de bordure compatible avec votre écosystème.</li>
+<li><strong>Oublier la recharge</strong> : activez les notifications de batterie faible et gardez votre clé physique sur vous ou chez un proche.</li>
+<li><strong>Coller sur une porte sale</strong> : pour les modèles à adhésif, nettoyez la surface avant la pose et respectez le temps de séchage indiqué.</li>
+<li><strong>Activer l’ouverture automatique sans réglage</strong> : l’ouverture à l’approche se règle finement ; commencez par une notification de confirmation.</li>
 </ul>
 
-<h3>Etapes d'installation (exemple Nuki 4.0)</h3>
-<ol>
-<li>Retirez la cle du cylindre cote interieur et laissez le cylindre en place.</li>
-<li>Placez l'adaptateur fourni sur le bout du cylindre (interieur).</li>
-<li>Nettoyez la surface de la porte a l'alcool isopropylique (fourni).</li>
-<li>Collez la plaque de montage 3M sur la porte.</li>
-<li>Fixez le Nuki sur la plaque et ajustez la position.</li>
-<li>Ouvrez l'application Nuki, suivez l'assistant de calibrage.</li>
-<li>Testez l'ouverture et la fermeture 5 fois pour valider le calibrage.</li>
-</ol>
-<p>Temps total : 3-5 minutes. Aucun outil necessaire. L'installation est 100 % reversible — vous pouvez retirer la serrure connectee en 30 secondes sans aucune trace.</p>
+<h2>Installation, location et sécurité</h2>
+<p>Les six modèles se posent côté intérieur, sans percer la porte pour la plupart, et se retirent sans laisser de trace : ils conviennent généralement à la location. Informez tout de même votre propriétaire ou votre syndic, surtout si un clavier extérieur doit être fixé.</p>
+<p>Côté sécurité, une serrure connectée ne renforce pas la résistance mécanique de la porte : c’est le cylindre et la serrure qui comptent face à l’effraction. Pour une porte d’entrée, un cylindre certifié (par exemple A2P en France) reste une bonne base. Côté numérique, choisissez une marque qui publie des mises à jour régulières, activez la double authentification sur votre compte et révoquez les accès invités dont vous n’avez plus besoin. Pour aller plus loin, lisez notre <a href="/fr/blog/guide-securite-maison-connectee-2026">guide de la sécurité de la maison connectée</a>.</p>
 
-<h2>Securite des serrures connectees : mythes et realites</h2>
-<h3>Mythe 1 : "Une serrure connectee est moins securisee qu'une serrure classique"</h3>
-<p>Faux. Une serrure connectee certifiee (Nuki AV-TEST, Yale) utilise un chiffrement AES-256 et une authentification TLS — le meme niveau de securite que votre banque en ligne. Le risque de piratage a distance est negligeable. En revanche, une serrure classique peut etre crochetee en 30 secondes par un serrurier ou un cambrioleur equipe. Le vrai risque en 2026 n'est pas numerique mais physique.</p>
+<h2>Notre verdict</h2>
+<p><strong>La Nuki Smart Lock Pro (5e génération) est la serrure connectée la plus équilibrée en 2026</strong> : pose sur le cylindre existant, Wi-Fi et Matter over Thread intégrés, batterie rechargeable et application complète. La <strong>Nuki Smart Lock Go</strong> offre les mêmes fondations à un tarif d’entrée de gamme. L’<strong>Aqara Smart Lock U200</strong> est la meilleure option si vous voulez un clavier à empreinte dès le départ, la <strong>Tedee GO 2</strong> la plus discrète, le <strong>Yale Linus L2</strong> la plus simple en Wi-Fi, et la <strong>SwitchBot Lock Ultra</strong> la plus endurante. Pour compléter votre entrée, consultez notre guide des <a href="/fr/blog/sonnette-video-sans-abonnement">sonnettes vidéo sans abonnement</a>.</p>`,
 
-<h3>Mythe 2 : "Si les piles sont vides, je suis bloque dehors"</h3>
-<p>Faux. Les 4 serrures de ce comparatif conservent la cle physique. Si les piles sont vides, vous utilisez simplement votre cle. De plus, toutes les serrures envoient des alertes de batterie faible 2-4 semaines avant epuisement. Le Nuki affiche egalement le niveau de batterie dans l'application et dans HomeKit/Google Home.</p>
+    en: `<p><strong>The best smart lock for most European doors in 2026 is the Nuki Smart Lock Pro (5th generation)</strong>: it fits over your existing cylinder without replacing it, combines Wi-Fi, Bluetooth and Matter over Thread, and runs on a rechargeable battery. On a tighter budget, the Nuki Smart Lock Go keeps Wi-Fi and Matter; if you want a fingerprint keypad in the box, the Aqara Smart Lock U200 is the most complete package.</p>
+<p>This guide is based on manufacturer specifications, independent reviews and verified buyer feedback. It only covers models sold in Europe in 2026 that work with Euro-profile cylinders. You will find the full selection on our <a href="/en/securite-maison/serrures-connectees">smart locks</a> page.</p>
 
-<h3>Mythe 3 : "N'importe qui peut ouvrir avec un telephone"</h3>
-<p>Faux. L'acces est strictement controle par l'application. Seules les personnes que vous avez explicitement invitees peuvent deverrouiller. Les invitations sont liees a un compte et chiffrees. Vous pouvez revoquer un acces instantanement a distance. L'historique enregistre chaque ouverture et fermeture avec l'heure exacte et l'identite de la personne.</p>
+<h2>How does a smart lock work on a European door?</h2>
+<p>In continental Europe, most front doors use a mortice lock with a <strong>Euro-profile cylinder</strong>. The locks in this guide are retrofit models: a motorised unit fits on the inside, over the cylinder, and turns the key or an adapter for you. Nothing changes on the outside, so your key still works.</p>
+<p>Some brands also sell models that replace the cylinder (the Nuki Smart Lock Ultra, for example). They are smaller and faster, but you have to swap part of the lock, which is less convenient when renting.</p>
 
-<h2>Quelle serrure connectee pour quelle situation ?</h2>
+<h2>How to choose</h2>
+<ul>
+<li><strong>A cylinder with an emergency function</strong>: this is the point most people miss. Most retrofit locks require a cylinder that can be opened from outside even when a key is inserted on the inside (often called an emergency or anti-blocking function). Without it, you may not be able to get in with your key. Check with the cylinder maker, or have a locksmith replace it.</li>
+<li><strong>Cylinder length on the inside</strong>: it must protrude enough for the adapter to grip. Every manufacturer publishes a compatibility checker or guide.</li>
+<li><strong>Connectivity</strong>: Bluetooth for nearby use, built-in Wi-Fi or a bridge for remote access, and <strong>Matter</strong> to control the lock from Apple Home, Google Home, Alexa or SmartThings. Matter over Thread needs a Thread border router (some Apple TV models, HomePod mini, recent Google or Amazon speakers and displays).</li>
+<li><strong>Power</strong>: a rechargeable battery (charged every few months) or replaceable batteries (CR123 or alkaline). A low-battery alert in the app is essential.</li>
+<li><strong>Keypad</strong>: a code or fingerprint keypad mounted outside lets you open the door without a phone. Some models include one, others sell it separately.</li>
+<li><strong>Multi-point doors</strong>: on a stiff 3- or 5-point lock, choose a strong motor and make sure the door closes without forcing.</li>
+</ul>
+
+<h2>The 6 best smart locks in 2026</h2>
+
+<h3>1. Nuki Smart Lock Pro (5th generation) — best overall</h3>
+<p>Launched in March 2025, the fifth-generation Smart Lock Pro brings the technology of the Nuki Ultra to a model that fits over your existing cylinder. It has built-in Wi-Fi, Bluetooth and Matter over Thread, with no extra bridge. Its brushless motor offers three modes, including a fast mode rated at under 1.5 seconds and a quieter "Gentle" mode.</p>
+<p><strong>Strengths</strong>: remote access without a bridge; works with Apple Home, Google Home, Alexa and Home Assistant through Matter; rechargeable lithium battery (around two hours to charge, according to Nuki); a mature app with temporary, recurring or permanent access and a full log; a wide range of accessories (Keypad 2 with fingerprint, door sensor).</p>
+<p><strong>Limitations</strong>: fairly bulky on the inside; the keypad is sold separately; needs a cylinder with an emergency function.</p>
+<p><strong>Best for</strong>: most households that want a long-lasting lock compatible with every major ecosystem, without touching the cylinder.</p>
+
+<h3>2. Nuki Smart Lock Go — best value</h3>
+<p>The Smart Lock Go is Nuki’s entry model, released alongside the fifth-generation Pro. It keeps the essentials: built-in Wi-Fi, Bluetooth and Matter over Thread, with the same app as the more expensive models.</p>
+<p><strong>Strengths</strong>: one of the most affordable ways to get a Matter lock with remote access; no bridge to buy; the full Nuki ecosystem (access sharing, keypad, activity log).</p>
+<p><strong>Limitations</strong>: runs on alkaline batteries (an optional rechargeable Power Pack is available); a less advanced motor than the Pro; simpler finish.</p>
+<p><strong>Best for</strong>: a first smart lock, a flat, or a short-term let managed remotely.</p>
+
+<h3>3. Aqara Smart Lock U200 — most complete, keypad included</h3>
+<p>The U200 pairs a retrofit motor on the inside with an <strong>outdoor keypad in the box</strong>, featuring a fingerprint reader, NFC and PIN codes. It uses Bluetooth and Thread, supports Matter over Thread and works without an Aqara hub for basic use. A U200 Lite version without the keypad is available for smaller budgets.</p>
+<p><strong>Strengths</strong>: keypad included, with fingerprint and NFC cards; Apple Home Key support through the keypad’s NFC reader; USB-C rechargeable battery for the motor unit; compatible with Euro cylinders.</p>
+<p><strong>Limitations</strong>: remote access and advanced automations need a Thread border router or an Aqara hub; the keypad runs on AAA batteries (or a wired supply); installation takes a little longer because of the keypad.</p>
+<p><strong>Best for</strong>: families who want to get in without a phone, and iPhone users who want Home Key.</p>
+
+<h3>4. Tedee GO 2 — most compact</h3>
+<p>Tedee, a Polish brand, is known for very compact locks. The GO 2 attaches with three screws to the cylinder adapter, uses Bluetooth and supports Matter over Thread. The Tedee Bridge is still useful for cloud integrations and remote access outside Matter.</p>
+<p><strong>Strengths</strong>: discreet design; Matter over Thread without a bridge; auto-lock and auto-unlock, virtual keys and an activity log; works with the Tedee Keypad PRO (fingerprint and PIN).</p>
+<p><strong>Limitations</strong>: three replaceable CR123 batteries, lasting around six months according to Tedee (eight at most); only for Euro cylinders with flat keys and an emergency function.</p>
+<p><strong>Best for</strong>: flats and doors where a bulky unit would be in the way.</p>
+
+<h3>5. Yale Linus Smart Lock L2 — the heritage brand</h3>
+<p>The Linus L2 is Yale’s retrofit lock for Euro cylinders. It has built-in Wi-Fi and has supported Matter over Wi-Fi since a firmware update, so you need neither a bridge nor a Thread router. The included DoorSense sensor tells you whether the door is actually closed.</p>
+<p><strong>Strengths</strong>: built-in Wi-Fi; works with Apple Home, Google Home, Alexa and SmartThings via Matter; DoorSense included; USB-C rechargeable battery; wide retail and after-sales network.</p>
+<p><strong>Limitations</strong>: battery life of up to about six months; the battery has to be removed to charge it; the cheaper L2 Lite has no Wi-Fi and needs a bridge for remote access.</p>
+<p><strong>Best for</strong>: buyers who want a major lock brand and a direct Wi-Fi connection.</p>
+
+<h3>6. SwitchBot Lock Ultra — longest battery life</h3>
+<p>The Lock Ultra is SwitchBot’s latest retrofit lock sold in Europe. It is much slimmer than the older Lock Pro, has a 4,200 mAh rechargeable battery rated for 9 to 12 months, and a backup CR123A cell for when the main battery is flat or charging.</p>
+<p><strong>Strengths</strong>: excellent rated battery life; fast, quiet motor according to the manufacturer; many ways to unlock with SwitchBot keypads (PIN, fingerprint, NFC, face recognition on some models); broad cylinder compatibility.</p>
+<p><strong>Limitations</strong>: Matter and Apple Home require a Matter-enabled SwitchBot hub; no native Thread.</p>
+<p><strong>Best for</strong>: homes already using SwitchBot, or anyone who wants to charge as rarely as possible.</p>
+
+<h2>Comparison table</h2>
 <table>
 <thead>
-<tr><th>Votre situation</th><th>Notre recommandation</th><th>Budget</th></tr>
+<tr><th>Model</th><th>Connectivity</th><th>Matter</th><th>Power</th><th>Keypad</th><th>Best for</th></tr>
 </thead>
 <tbody>
-<tr><td>Maison familiale, ecosysteme domotique</td><td>Nuki Smart Lock 4.0</td><td>199 EUR</td></tr>
-<tr><td>Design premium, ecosysteme Yale</td><td>Yale Linus L2</td><td>249 EUR</td></tr>
-<tr><td>Appartement, discretion maximale</td><td>Tedee GO</td><td>189 EUR (+ bridge 69 EUR)</td></tr>
-<tr><td>Premier achat, petit budget</td><td>SwitchBot Lock Pro</td><td>99 EUR (+ keypad 35 EUR)</td></tr>
-<tr><td>Location saisonniere / Airbnb</td><td>Nuki 4.0 + Keypad 2.0</td><td>278 EUR</td></tr>
-<tr><td>Utilisateurs Apple HomeKit</td><td>Nuki 4.0 ou Yale Linus L2</td><td>199-249 EUR</td></tr>
+<tr><td>Nuki Smart Lock Pro (5th gen)</td><td>Wi-Fi + Bluetooth + Thread</td><td>Yes, native (Thread)</td><td>Rechargeable battery</td><td>Optional</td><td>Most households</td></tr>
+<tr><td>Nuki Smart Lock Go</td><td>Wi-Fi + Bluetooth + Thread</td><td>Yes, native (Thread)</td><td>Alkaline batteries (Power Pack optional)</td><td>Optional</td><td>Tighter budgets</td></tr>
+<tr><td>Aqara Smart Lock U200</td><td>Bluetooth + Thread</td><td>Yes, native (Thread)</td><td>Rechargeable battery</td><td>Included (fingerprint, NFC, PIN)</td><td>Phone-free entry</td></tr>
+<tr><td>Tedee GO 2</td><td>Bluetooth + Thread</td><td>Yes, native (Thread)</td><td>3 × CR123</td><td>Optional</td><td>Compact size</td></tr>
+<tr><td>Yale Linus Smart Lock L2</td><td>Wi-Fi + Bluetooth</td><td>Yes, over Wi-Fi</td><td>Rechargeable battery</td><td>Optional</td><td>Direct Wi-Fi</td></tr>
+<tr><td>SwitchBot Lock Ultra</td><td>Bluetooth (+ hub)</td><td>Via SwitchBot hub</td><td>Rechargeable battery + backup cell</td><td>Optional</td><td>Battery life</td></tr>
 </tbody>
 </table>
 
-<h2>Notre verdict final</h2>
-<p><strong>Le Nuki Smart Lock 4.0 est la meilleure serrure connectee pour l'Europe en 2026.</strong> Support natif Matter + Thread, installation en 3 minutes, gestion d'acces complete, cle physique conservee et double certification de securite — le tout pour 199 EUR. C'est le choix le plus complet, le plus evolutif et le meilleur rapport qualite-prix pour les foyers europeens.</p>
-<p>Pour les utilisateurs soucieux du design, le <strong>Yale Linus L2</strong> (249 EUR) est l'alternative premium. Pour la discretion absolue, le <strong>Tedee GO</strong> (189 EUR + bridge) est imbattable. Et pour tester le concept a petit prix, le <strong>SwitchBot Lock Pro</strong> (99 EUR) est le point d'entree ideal. Consultez notre <a href="/fr/blog/comparatif-camera-surveillance-exterieure">comparatif des cameras de surveillance</a> et notre <a href="/fr/blog/sonnette-video-sans-abonnement">guide des sonnettes video</a> pour completer votre securite maison.</p>`,
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Buying without checking the cylinder</strong>: without an emergency function, the adapter can block the key from outside. It is the main reason for returns.</li>
+<li><strong>Counting on Matter without a Thread router</strong>: Matter over Thread models need a border router that matches your ecosystem.</li>
+<li><strong>Forgetting to charge</strong>: turn on low-battery notifications and keep your physical key with you or with someone nearby.</li>
+<li><strong>Sticking onto a dirty door</strong>: for adhesive mounts, clean the surface first and respect the curing time.</li>
+<li><strong>Turning on auto-unlock without tuning it</strong>: proximity unlocking needs fine-tuning; start with a confirmation notification.</li>
+</ul>
 
-    en: `<h2>Why install a smart lock in 2026?</h2>
-<p>The smart lock is one of the most practical smart home devices for daily life. No more lost keys, cutting spare keys for family members, or rushing home to let in delivery drivers or tradespeople. In 2026, European smart locks have reached remarkable maturity: compatibility with existing Euro-profile cylinders, Matter protocol for interoperability, and enhanced security with end-to-end encryption.</p>
-<p>Choosing the right smart lock in Europe is more complex than in the US: you need to verify compatibility with your existing cylinder, door thickness, lock type (mortice, rim) and local security standards. This guide walks you through choosing, installing and using a smart lock suited to your European home.</p>
+<h2>Installation, renting and security</h2>
+<p>All six models fit on the inside, mostly without drilling the door, and come off without leaving a mark, so they generally suit rented homes. Still, let your landlord or building management know, especially if an outdoor keypad has to be mounted.</p>
+<p>A smart lock does not make the door physically stronger: the cylinder and the lock itself are what resist a break-in. For a front door, a certified security cylinder remains a sound basis. On the digital side, choose a brand that ships regular updates, enable two-factor authentication on your account and revoke guest access you no longer need. To go further, read our <a href="/en/blog/guide-securite-maison-connectee-2026">smart home security guide</a>.</p>
 
-<h2>Comparison table: 4 best smart locks 2026</h2>
+<h2>Our verdict</h2>
+<p><strong>The Nuki Smart Lock Pro (5th generation) is the most balanced smart lock in 2026</strong>: it fits over your existing cylinder, has Wi-Fi and Matter over Thread built in, a rechargeable battery and a complete app. The <strong>Nuki Smart Lock Go</strong> offers the same foundations at entry-level. The <strong>Aqara Smart Lock U200</strong> is the best option if you want a fingerprint keypad from day one, the <strong>Tedee GO 2</strong> is the most discreet, the <strong>Yale Linus L2</strong> the simplest on Wi-Fi, and the <strong>SwitchBot Lock Ultra</strong> lasts longest between charges. To complete your entrance, see our guide to <a href="/en/blog/sonnette-video-sans-abonnement">video doorbells without a subscription</a>.</p>`,
+
+    de: `<p><strong>Das beste smarte Türschloss für die meisten europäischen Türen ist 2026 das Nuki Smart Lock Pro (5. Generation)</strong>: Es wird auf den vorhandenen Zylinder gesetzt, ohne ihn zu tauschen, vereint WLAN, Bluetooth und Matter over Thread und läuft mit einem Akku. Wer weniger ausgeben möchte, bekommt mit dem Nuki Smart Lock Go weiterhin WLAN und Matter; wer ein Fingerabdruck-Keypad gleich im Lieferumfang will, ist mit dem Aqara Smart Lock U200 am besten bedient.</p>
+<p>Dieser Ratgeber stützt sich auf Herstellerangaben, unabhängige Testberichte und verifizierte Käuferbewertungen. Er berücksichtigt nur Modelle, die 2026 in Europa erhältlich sind und mit Euro-Profilzylindern funktionieren. Die komplette Auswahl finden Sie auf unserer Seite <a href="/de/securite-maison/serrures-connectees">smarte Türschlösser</a>.</p>
+
+<h2>Wie funktioniert ein Smart Lock an einer europäischen Tür?</h2>
+<p>In Kontinentaleuropa haben die meisten Haustüren ein Einsteckschloss mit <strong>Euro-Profilzylinder</strong>. Die Modelle in diesem Ratgeber sind Nachrüstlösungen: Ein motorisiertes Gehäuse sitzt innen auf dem Zylinder und dreht Schlüssel oder Adapter für Sie. Außen ändert sich nichts, Ihr Schlüssel funktioniert weiter.</p>
+<p>Einige Marken bieten auch Modelle an, die den Zylinder ersetzen (etwa das Nuki Smart Lock Ultra). Sie sind kleiner und schneller, erfordern aber den Tausch eines Schlossteils – in einer Mietwohnung weniger praktisch.</p>
+
+<h2>Worauf Sie beim Kauf achten sollten</h2>
+<ul>
+<li><strong>Zylinder mit Not- und Gefahrenfunktion</strong>: der am häufigsten übersehene Punkt. Die meisten Nachrüstschlösser verlangen einen Zylinder, der sich von außen öffnen lässt, auch wenn innen ein Schlüssel steckt. Ohne diese Funktion kommen Sie mit Ihrem Schlüssel unter Umständen nicht hinein. Fragen Sie beim Zylinderhersteller nach oder lassen Sie den Zylinder vom Schlüsseldienst tauschen.</li>
+<li><strong>Überstand des Zylinders innen</strong>: Er muss weit genug herausragen, damit der Adapter greift. Jeder Hersteller bietet dafür einen Kompatibilitätscheck an.</li>
+<li><strong>Konnektivität</strong>: Bluetooth für die Bedienung in der Nähe, integriertes WLAN oder eine Bridge für den Fernzugriff, und <strong>Matter</strong> für die Steuerung über Apple Home, Google Home, Alexa oder SmartThings. Matter over Thread benötigt einen Thread-Border-Router (manche Apple-TV-Modelle, HomePod mini, aktuelle Lautsprecher und Displays von Google oder Amazon).</li>
+<li><strong>Stromversorgung</strong>: Akku (alle paar Monate laden) oder Batterien (CR123 oder Alkaline). Eine Warnung bei niedrigem Ladestand in der App ist Pflicht.</li>
+<li><strong>Keypad</strong>: Ein Code- oder Fingerabdruck-Keypad außen öffnet die Tür ohne Smartphone. Manche Modelle liefern es mit, bei anderen ist es optional.</li>
+<li><strong>Mehrfachverriegelung</strong>: Bei einem schwergängigen 3- oder 5-Punkt-Schloss auf einen kräftigen Motor achten und prüfen, ob die Tür ohne Kraftaufwand schließt.</li>
+</ul>
+
+<h2>Die 6 besten smarten Türschlösser 2026</h2>
+
+<h3>1. Nuki Smart Lock Pro (5. Generation) – die beste Wahl insgesamt</h3>
+<p>Die im März 2025 vorgestellte fünfte Generation des Smart Lock Pro übernimmt die Technik des Nuki Ultra in ein Modell, das auf den bestehenden Zylinder gesetzt wird. WLAN, Bluetooth und Matter over Thread sind integriert, eine zusätzliche Bridge ist nicht nötig. Der bürstenlose Motor bietet drei Modi, darunter einen schnellen Modus mit unter 1,5 Sekunden laut Hersteller und einen leiseren „Gentle“-Modus.</p>
+<p><strong>Stärken</strong>: Fernzugriff ohne Bridge; kompatibel mit Apple Home, Google Home, Alexa und Home Assistant über Matter; Lithium-Akku (laut Nuki rund zwei Stunden Ladezeit); ausgereifte App mit befristeten, wiederkehrenden oder dauerhaften Berechtigungen und Protokoll; breites Zubehör (Keypad 2 mit Fingerabdruck, Türsensor).</p>
+<p><strong>Schwächen</strong>: innen recht wuchtig; Keypad separat erhältlich; Zylinder mit Not- und Gefahrenfunktion erforderlich.</p>
+<p><strong>Für wen</strong>: die meisten Haushalte, die ein langlebiges Schloss für alle großen Ökosysteme wollen, ohne den Zylinder anzufassen.</p>
+
+<h3>2. Nuki Smart Lock Go – das beste Preis-Leistungs-Verhältnis</h3>
+<p>Das Smart Lock Go ist Nukis Einstiegsmodell und kam zusammen mit dem Pro der 5. Generation auf den Markt. Es behält das Wesentliche: integriertes WLAN, Bluetooth und Matter over Thread, mit derselben App wie die teureren Modelle.</p>
+<p><strong>Stärken</strong>: einer der günstigsten Wege zu einem Matter-Schloss mit Fernzugriff; keine Bridge nötig; volles Nuki-Ökosystem (Berechtigungen teilen, Keypad, Protokoll).</p>
+<p><strong>Schwächen</strong>: läuft mit Alkaline-Batterien (ein Power Pack ist optional erhältlich); weniger aufwendiger Antrieb als beim Pro; einfachere Verarbeitung.</p>
+<p><strong>Für wen</strong>: Einsteiger, Wohnungen oder eine aus der Ferne verwaltete Ferienwohnung.</p>
+
+<h3>3. Aqara Smart Lock U200 – am umfangreichsten, mit Keypad</h3>
+<p>Das U200 kombiniert einen Nachrüstantrieb innen mit einem <strong>mitgelieferten Außen-Keypad</strong> mit Fingerabdrucksensor, NFC und PIN-Code. Es nutzt Bluetooth und Thread, unterstützt Matter over Thread und funktioniert für die Grundfunktionen ohne Aqara-Hub. Als günstigere Variante ohne Keypad gibt es das U200 Lite.</p>
+<p><strong>Stärken</strong>: Keypad inklusive, mit Fingerabdruck und NFC-Karten; Unterstützung für Apple Home Key über den NFC-Leser des Keypads; per USB-C aufladbarer Akku im Antrieb; kompatibel mit Euro-Zylindern.</p>
+<p><strong>Schwächen</strong>: Fernzugriff und erweiterte Automationen brauchen einen Thread-Border-Router oder einen Aqara-Hub; das Keypad läuft mit AAA-Batterien (oder Kabelversorgung); die Montage dauert wegen des Keypads etwas länger.</p>
+<p><strong>Für wen</strong>: Familien, die ohne Smartphone ins Haus wollen, und iPhone-Nutzer, die Home Key möchten.</p>
+
+<h3>4. Tedee GO 2 – das kompakteste</h3>
+<p>Die polnische Marke Tedee ist für sehr kompakte Schlösser bekannt. Das GO 2 wird mit drei Schrauben am Zylinderadapter befestigt, kommuniziert per Bluetooth und unterstützt Matter over Thread. Die Tedee Bridge bleibt für Cloud-Integrationen und Fernzugriff außerhalb von Matter nützlich.</p>
+<p><strong>Stärken</strong>: unauffälliges Design; Matter over Thread ohne Bridge; automatisches Auf- und Zusperren, virtuelle Schlüssel und Protokoll; kompatibel mit dem Tedee Keypad PRO (Fingerabdruck und PIN).</p>
+<p><strong>Schwächen</strong>: drei austauschbare CR123-Batterien mit laut Tedee rund sechs Monaten Laufzeit (maximal acht); nur für Euro-Zylinder mit Flachschlüssel und Not- und Gefahrenfunktion.</p>
+<p><strong>Für wen</strong>: Wohnungen und Türen, an denen ein großes Gehäuse stören würde.</p>
+
+<h3>5. Yale Linus Smart Lock L2 – die Traditionsmarke</h3>
+<p>Das Linus L2 ist Yales Nachrüstschloss für Euro-Zylinder. Es hat WLAN an Bord und unterstützt seit einem Firmware-Update Matter over WLAN – weder Bridge noch Thread-Router sind nötig. Der mitgelieferte DoorSense-Sensor meldet, ob die Tür wirklich geschlossen ist.</p>
+<p><strong>Stärken</strong>: integriertes WLAN; kompatibel mit Apple Home, Google Home, Alexa und SmartThings über Matter; DoorSense inklusive; per USB-C aufladbarer Akku; großes Händler- und Servicenetz.</p>
+<p><strong>Schwächen</strong>: Akkulaufzeit bis etwa sechs Monate; der Akku muss zum Laden entnommen werden; das günstigere L2 Lite hat kein WLAN und braucht für den Fernzugriff eine Bridge.</p>
+<p><strong>Für wen</strong>: alle, die eine große Schlossmarke und eine direkte WLAN-Verbindung wollen.</p>
+
+<h3>6. SwitchBot Lock Ultra – die längste Laufzeit</h3>
+<p>Das Lock Ultra ist das neueste in Europa erhältliche Nachrüstschloss von SwitchBot. Es ist deutlich flacher als das ältere Lock Pro, hat einen 4.200-mAh-Akku mit angegebenen 9 bis 12 Monaten Laufzeit und eine CR123A-Reservebatterie, falls der Hauptakku leer ist oder lädt.</p>
+<p><strong>Stärken</strong>: sehr gute angegebene Laufzeit; laut Hersteller schneller, leiser Motor; viele Öffnungsarten mit SwitchBot-Keypads (PIN, Fingerabdruck, NFC, bei manchen Modellen Gesichtserkennung); breite Zylinderkompatibilität.</p>
+<p><strong>Schwächen</strong>: Matter und Apple Home nur über einen Matter-fähigen SwitchBot-Hub; kein natives Thread.</p>
+<p><strong>Für wen</strong>: Haushalte mit SwitchBot-Geräten oder alle, die möglichst selten laden wollen.</p>
+
+<h2>Vergleichstabelle</h2>
 <table>
 <thead>
-<tr><th>Criteria</th><th>Nuki Smart Lock 4.0</th><th>Yale Linus L2</th><th>Tedee GO</th><th>SwitchBot Lock Pro</th></tr>
+<tr><th>Modell</th><th>Verbindung</th><th>Matter</th><th>Stromversorgung</th><th>Keypad</th><th>Ideal für</th></tr>
 </thead>
 <tbody>
-<tr><td>Cylinder compatibility</td><td>Euro-cylinder (adapter included)</td><td>Euro-cylinder (Linus adapter)</td><td>Euro-cylinder (Tedee adapter)</td><td>Euro-cylinder + thumb turn</td></tr>
-<tr><td>Installation</td><td>3 min, no drilling</td><td>5 min, no drilling</td><td>3 min, no drilling</td><td>5 min, no drilling</td></tr>
-<tr><td>Protocol</td><td>Matter + Thread + Wi-Fi + BLE</td><td>Matter + Thread + BLE</td><td>BLE + Wi-Fi bridge (optional)</td><td>BLE + Wi-Fi (hub optional)</td></tr>
-<tr><td>Auto-unlock</td><td>Yes (GPS + BLE)</td><td>Yes (GPS + BLE)</td><td>Yes (with bridge)</td><td>Yes (with hub)</td></tr>
-<tr><td>Guest access</td><td>Yes (temporary, recurring, permanent)</td><td>Yes (via Yale app)</td><td>Yes (via Tedee app)</td><td>Yes (via SwitchBot app)</td></tr>
-<tr><td>Optional keypad</td><td>Nuki Keypad 2.0 (~69 GBP)</td><td>Yale Keypad (~55 GBP)</td><td>Tedee Keypad (~59 GBP)</td><td>SwitchBot Keypad Touch (~29 GBP)</td></tr>
-<tr><td>Physical key retained</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
-<tr><td>Power</td><td>4 AA batteries (8-12 months)</td><td>4 AA batteries (6-9 months)</td><td>3 CR123 batteries (8-14 months)</td><td>2 CR123A batteries (6 months) or rechargeable</td></tr>
-<tr><td>Noise level</td><td>~45 dB</td><td>~50 dB</td><td>~42 dB</td><td>~48 dB</td></tr>
-<tr><td>Smart home</td><td>Apple HomeKit, Google, Alexa, Home Assistant</td><td>Apple HomeKit, Google, Alexa</td><td>Apple HomeKit, Google, Alexa (via bridge)</td><td>Google, Alexa (no HomeKit)</td></tr>
-<tr><td>Access log</td><td>Yes (unlimited)</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
-<tr><td>Certifications</td><td>AV-TEST, SKG***</td><td>Yale Doorman, AV-TEST</td><td>AV-TEST</td><td>—</td></tr>
-<tr><td>Price (April 2026)</td><td>~169 GBP</td><td>~209 GBP</td><td>~159 GBP</td><td>~79 GBP</td></tr>
+<tr><td>Nuki Smart Lock Pro (5. Gen.)</td><td>WLAN + Bluetooth + Thread</td><td>Ja, nativ (Thread)</td><td>Akku</td><td>Optional</td><td>Die meisten Haushalte</td></tr>
+<tr><td>Nuki Smart Lock Go</td><td>WLAN + Bluetooth + Thread</td><td>Ja, nativ (Thread)</td><td>Alkaline-Batterien (Power Pack optional)</td><td>Optional</td><td>Kleineres Budget</td></tr>
+<tr><td>Aqara Smart Lock U200</td><td>Bluetooth + Thread</td><td>Ja, nativ (Thread)</td><td>Akku</td><td>Inklusive (Fingerabdruck, NFC, PIN)</td><td>Öffnen ohne Smartphone</td></tr>
+<tr><td>Tedee GO 2</td><td>Bluetooth + Thread</td><td>Ja, nativ (Thread)</td><td>3 × CR123</td><td>Optional</td><td>Kompakte Bauform</td></tr>
+<tr><td>Yale Linus Smart Lock L2</td><td>WLAN + Bluetooth</td><td>Ja, über WLAN</td><td>Akku</td><td>Optional</td><td>Direktes WLAN</td></tr>
+<tr><td>SwitchBot Lock Ultra</td><td>Bluetooth (+ Hub)</td><td>Über SwitchBot-Hub</td><td>Akku + Reservebatterie</td><td>Optional</td><td>Laufzeit</td></tr>
 </tbody>
 </table>
 
-<h2>Nuki Smart Lock 4.0: the European reference (editor's choice)</h2>
-<h3>Strengths</h3>
+<h2>Häufige Fehler</h2>
 <ul>
-<li><strong>Native Matter + Thread:</strong> the Nuki 4.0 is one of the first smart locks to natively support Matter over Thread, guaranteeing future compatibility with all smart home ecosystems. No bridge or hub needed — communication is direct with your Thread border router (Apple TV 4K, HomePod, Google Nest Hub).</li>
-<li><strong>3-minute installation:</strong> simply remove the key from the inside, place the adapter on the cylinder and fix the Nuki with the supplied 3M adhesive. No drilling, no modification to the existing lock. We installed it on 3 different door types (wood, PVC, metal) without issues.</li>
-<li><strong>Intelligent auto-unlock:</strong> the Nuki detects your approach via GPS + Bluetooth and automatically unlocks when you come within 200 m. Over 6 weeks of testing, the success rate was 95% — the 5% failures were linked to weak GPS signal in the underground car park.</li>
-<li><strong>Comprehensive access management:</strong> temporary invitations (precise time slots), recurring (cleaner every Tuesday), permanent (family). The access log is unlimited and detailed — you know exactly who entered and when.</li>
-<li><strong>Physical key retained:</strong> unlike American smart locks that replace the cylinder, the Nuki sits over the top. Your physical key still works — an essential backup if the battery dies.</li>
-<li><strong>AV-TEST + SKG*** certified:</strong> the Nuki 4.0 has achieved AV-TEST security certification (the IoT cybersecurity benchmark) and the Dutch SKG*** standard (the highest for locks in Europe).</li>
-</ul>
-<h3>Weaknesses</h3>
-<ul>
-<li>The design is functional but bulky — the 11 cm diameter housing is visible from inside. Less elegant than the Tedee GO.</li>
-<li>The motor is slightly louder than the Tedee GO (~45 dB vs ~42 dB).</li>
-<li>The Nuki Keypad 2.0 is sold separately at 69 GBP — more expensive than competitors.</li>
-</ul>
-<h3>Our verdict: Nuki Smart Lock 4.0</h3>
-<p>The Nuki Smart Lock 4.0 is our editor's choice for 2026. The combination of Matter + Thread + Wi-Fi makes it the most compatible and future-proof smart lock on the market. The 3-minute drill-free installation, comprehensive access management and dual security certification make it the benchmark for European households. At 169 GBP, the value is excellent. See our <a href="/en/blog/guide-securite-maison-connectee-2026">complete smart home security guide 2026</a> to integrate it into a full system.</p>
-
-<h2>Yale Linus L2: the heritage lock brand</h2>
-<h3>Strengths</h3>
-<ul>
-<li><strong>Yale heritage:</strong> Yale is the oldest and most recognised name in locks (founded 1840). The Linus L2 benefits from this expertise in precision mechanics.</li>
-<li><strong>Matter + Thread:</strong> like the Nuki, the Linus L2 supports Matter over Thread for universal smart home integration.</li>
-<li><strong>Premium design:</strong> brushed metal finish, compact and elegant profile. The Linus L2 is the most aesthetically pleasing in our comparison.</li>
-<li><strong>Integrated DoorSense:</strong> a sensor detects whether the door is closed (not just locked). Useful for receiving an alert if the door has been left ajar.</li>
-<li><strong>Complete Yale ecosystem:</strong> compatible with existing Yale cylinders, Yale locks, Yale Sync alarms and Yale Keypad.</li>
-</ul>
-<h3>Weaknesses</h3>
-<ul>
-<li>The 209 GBP price is the highest — 40 GBP more than the Nuki for similar features.</li>
-<li>Battery life of 6-9 months is shorter than the Nuki (8-12 months) and Tedee (8-14 months).</li>
-<li>The Yale Access app can be slow to start (3-4 seconds to connect via Bluetooth).</li>
-</ul>
-<h3>Our verdict: Yale Linus L2</h3>
-<p>The Yale Linus L2 is the ideal choice if you value brand heritage, design and the Yale ecosystem. Build quality is impeccable and the integrated DoorSense is a welcome addition. However, the Nuki 4.0 offers equivalent features for 40 GBP less.</p>
-
-<h2>Tedee GO: most compact and discreet</h2>
-<h3>Strengths</h3>
-<ul>
-<li><strong>Ultra-compact design:</strong> at just 5.8 cm diameter and 6.3 cm height, the Tedee GO is the smallest smart lock on the market. It blends into any door without drawing attention.</li>
-<li><strong>Quietest (~42 dB):</strong> the motor is virtually inaudible. Perfect for flats where you don't want to wake neighbours when coming home late.</li>
-<li><strong>Excellent battery life (8-14 months):</strong> the CR123 batteries last longer than competitors' AA batteries.</li>
-<li><strong>European manufacture:</strong> Tedee is a Polish company — designed, developed and manufactured in Europe. An argument for data sovereignty advocates.</li>
-<li><strong>Attractive price (159 GBP):</strong> 10 GBP less than the Nuki, 50 GBP less than the Yale.</li>
-</ul>
-<h3>Weaknesses</h3>
-<ul>
-<li>No native Matter — the Tedee GO uses Bluetooth only. For remote access (auto-unlock, away-from-home control), you need the Tedee Wi-Fi bridge (sold separately at 59 GBP), bringing the total to 218 GBP.</li>
-<li>HomeKit integration requires the bridge.</li>
-<li>The compact format means lower motor torque — on multi-point locks (3 or 5 point), the Tedee may lack force. Test before purchasing.</li>
-</ul>
-<h3>Our verdict: Tedee GO</h3>
-<p>The Tedee GO is the perfect choice for those wanting an invisible, silent smart lock. Without the bridge at 159 GBP, it is unbeatable. For a complete setup with bridge, the Nuki 4.0 (169 GBP with Matter + Thread built in) offers better value.</p>
-
-<h2>SwitchBot Lock Pro: the clever budget pick</h2>
-<h3>Strengths</h3>
-<ul>
-<li><strong>Unbeatable price at 79 GBP:</strong> half the price of the Nuki and Yale. The best entry point to test smart locks without a major investment.</li>
-<li><strong>SwitchBot Keypad Touch at 29 GBP:</strong> the most affordable keypad on the market, with integrated fingerprint reader. The lock + keypad combo at 108 GBP is excellent value.</li>
-<li><strong>SwitchBot ecosystem:</strong> if you already own SwitchBot products (Curtain, Bot, Hub), the unified app is a bonus.</li>
-<li><strong>Dual power:</strong> CR123A batteries or optional rechargeable battery.</li>
-<li><strong>Broad compatibility:</strong> works with European thumb turns as well as cylinders, thanks to the universal adapter included.</li>
-</ul>
-<h3>Weaknesses</h3>
-<ul>
-<li>No Apple HomeKit support — problematic for Apple users.</li>
-<li>No Matter or Thread — the lock uses Bluetooth + Wi-Fi via optional SwitchBot Hub.</li>
-<li>6-month battery life is the shortest in our comparison.</li>
-<li>No independent security certification (AV-TEST, SKG).</li>
-<li>Motor is somewhat noisy (~48 dB).</li>
-</ul>
-<h3>Our verdict: SwitchBot Lock Pro</h3>
-<p>The SwitchBot Lock Pro is the budget choice for discovering smart locks. At 79 GBP (or 108 GBP with biometric keypad), it is an excellent entry point. However, the lack of Matter, HomeKit and security certifications limits it to less demanding users. For a serious long-term investment, the Nuki 4.0 at 169 GBP remains more compelling.</p>
-
-<h2>Installation guide: fitting a smart lock in Europe</h2>
-<h3>Check compatibility before buying</h3>
-<p>Before purchasing, verify three essential elements:</p>
-<ul>
-<li><strong>Cylinder type:</strong> all 4 locks in this comparison are compatible with Euro-profile cylinders (also called DIN cylinders). This is the standard in 90% of homes in France, Germany, Spain, Italy, Belgium and the Netherlands. If you have a round cylinder (common in the UK), check specific compatibility.</li>
-<li><strong>Door thickness:</strong> most smart locks accept doors from 35 to 80 mm thick. Measure your door thickness at the lock point.</li>
-<li><strong>Lock type:</strong> mortice lock (most common in Europe) or rim lock. All 4 models in this comparison are compatible with mortice locks.</li>
+<li><strong>Ohne Zylinderprüfung kaufen</strong>: Ohne Not- und Gefahrenfunktion kann der Adapter den Schlüssel von außen blockieren. Das ist der häufigste Rücksendegrund.</li>
+<li><strong>Auf Matter setzen ohne Thread-Router</strong>: Modelle mit Matter over Thread brauchen einen passenden Border-Router für Ihr Ökosystem.</li>
+<li><strong>Das Laden vergessen</strong>: Aktivieren Sie Akku-Warnungen und haben Sie den mechanischen Schlüssel dabei oder bei einer Vertrauensperson.</li>
+<li><strong>Auf eine verschmutzte Tür kleben</strong>: Bei Klebemontage die Fläche vorher reinigen und die Aushärtezeit einhalten.</li>
+<li><strong>Auto-Unlock ungeprüft aktivieren</strong>: Das automatische Öffnen bei Annäherung muss fein eingestellt werden; starten Sie mit einer Bestätigungsmitteilung.</li>
 </ul>
 
-<h2>Smart lock security: myths debunked</h2>
-<h3>Myth 1: "A smart lock is less secure than a traditional lock"</h3>
-<p>False. A certified smart lock (Nuki AV-TEST, Yale) uses AES-256 encryption and TLS authentication — the same security level as your online banking. The risk of remote hacking is negligible. Meanwhile, a traditional lock can be picked in 30 seconds by a skilled burglar. The real risk in 2026 is physical, not digital.</p>
-
-<h3>Myth 2: "If the batteries die, I'm locked out"</h3>
-<p>False. All 4 locks in this comparison retain the physical key. If batteries die, you simply use your key. Additionally, all locks send low-battery alerts 2-4 weeks before depletion.</p>
-
-<h3>Myth 3: "Anyone can open it with a phone"</h3>
-<p>False. Access is strictly controlled through the app. Only people you have explicitly invited can unlock. Invitations are tied to an account and encrypted. You can revoke access instantly from anywhere. The log records every lock and unlock with exact time and person identity.</p>
-
-<h2>Which smart lock for your situation?</h2>
-<table>
-<thead>
-<tr><th>Your situation</th><th>Our recommendation</th><th>Budget</th></tr>
-</thead>
-<tbody>
-<tr><td>Family home, smart home ecosystem</td><td>Nuki Smart Lock 4.0</td><td>169 GBP</td></tr>
-<tr><td>Premium design, Yale ecosystem</td><td>Yale Linus L2</td><td>209 GBP</td></tr>
-<tr><td>Flat, maximum discretion</td><td>Tedee GO</td><td>159 GBP (+ bridge 59 GBP)</td></tr>
-<tr><td>First purchase, tight budget</td><td>SwitchBot Lock Pro</td><td>79 GBP (+ keypad 29 GBP)</td></tr>
-<tr><td>Holiday let / Airbnb</td><td>Nuki 4.0 + Keypad 2.0</td><td>238 GBP</td></tr>
-<tr><td>Apple HomeKit users</td><td>Nuki 4.0 or Yale Linus L2</td><td>169-209 GBP</td></tr>
-</tbody>
-</table>
-
-<h2>Our final verdict</h2>
-<p><strong>The Nuki Smart Lock 4.0 is the best smart lock for European homes in 2026.</strong> Native Matter + Thread support, 3-minute installation, comprehensive access management, retained physical key and dual security certification — all for 169 GBP. It is the most complete, most future-proof and best value choice for European households.</p>
-<p>For design-conscious buyers, the <strong>Yale Linus L2</strong> (209 GBP) is the premium alternative. For absolute discretion, the <strong>Tedee GO</strong> (159 GBP + bridge) is unbeatable. And to test the concept affordably, the <strong>SwitchBot Lock Pro</strong> (79 GBP) is the ideal entry point. See our <a href="/en/blog/comparatif-camera-surveillance-exterieure">outdoor security camera comparison</a> and <a href="/en/blog/sonnette-video-sans-abonnement">video doorbell guide</a> to complete your home security setup.</p>`,
-
-    de: `<h2>Warum ein smartes Tuerschloss 2026 installieren?</h2>
-<p>Das smarte Tuerschloss (Smart Lock) ist eines der praktischsten Smart-Home-Geraete im Alltag. Keine verlorenen Schluessel mehr, keine Ersatzschluessel fuer die Familie, kein Hin- und Herlaufen fuer Lieferanten oder Handwerker. 2026 haben europaeische Smart Locks eine bemerkenswerte Reife erreicht: Kompatibilitaet mit bestehenden Euro-Zylindern, Matter-Protokoll fuer Interoperabilitaet und verstaerkte Sicherheit mit Ende-zu-Ende-Verschluesselung.</p>
-<p>Die Wahl des richtigen Smart Locks in Europa ist komplexer als in den USA: Kompatibilitaet mit dem vorhandenen Zylinder, Tuerdicke, Schlosstyp (Einsteck-, Aufschraubschloss) und lokale Sicherheitsnormen muessen beruecksichtigt werden. Dieser Ratgeber begleitet Sie Schritt fuer Schritt.</p>
-
-<h2>Vergleichstabelle: 4 beste Smart Locks 2026</h2>
-<table>
-<thead>
-<tr><th>Kriterium</th><th>Nuki Smart Lock 4.0</th><th>Yale Linus L2</th><th>Tedee GO</th><th>SwitchBot Lock Pro</th></tr>
-</thead>
-<tbody>
-<tr><td>Zylinder-Kompatibilitaet</td><td>Euro-Zylinder (Adapter inklusive)</td><td>Euro-Zylinder (Linus-Adapter)</td><td>Euro-Zylinder (Tedee-Adapter)</td><td>Euro-Zylinder + Knauf</td></tr>
-<tr><td>Installation</td><td>3 Min., ohne Bohren</td><td>5 Min., ohne Bohren</td><td>3 Min., ohne Bohren</td><td>5 Min., ohne Bohren</td></tr>
-<tr><td>Protokoll</td><td>Matter + Thread + Wi-Fi + BLE</td><td>Matter + Thread + BLE</td><td>BLE + Wi-Fi-Bridge (optional)</td><td>BLE + Wi-Fi (Hub optional)</td></tr>
-<tr><td>Auto-Unlock</td><td>Ja (GPS + BLE)</td><td>Ja (GPS + BLE)</td><td>Ja (mit Bridge)</td><td>Ja (mit Hub)</td></tr>
-<tr><td>Gaestezugang</td><td>Ja (temporaer, wiederkehrend, permanent)</td><td>Ja (ueber Yale-App)</td><td>Ja (ueber Tedee-App)</td><td>Ja (ueber SwitchBot-App)</td></tr>
-<tr><td>Code-Tastatur (optional)</td><td>Nuki Keypad 2.0 (~79 EUR)</td><td>Yale Keypad (~65 EUR)</td><td>Tedee Keypad (~69 EUR)</td><td>SwitchBot Keypad Touch (~35 EUR)</td></tr>
-<tr><td>Physischer Schluessel erhalten</td><td>Ja</td><td>Ja</td><td>Ja</td><td>Ja</td></tr>
-<tr><td>Stromversorgung</td><td>4 AA-Batterien (8-12 Monate)</td><td>4 AA-Batterien (6-9 Monate)</td><td>3 CR123-Batterien (8-14 Monate)</td><td>2 CR123A (6 Monate) oder Akku</td></tr>
-<tr><td>Lautstaerke</td><td>~45 dB</td><td>~50 dB</td><td>~42 dB</td><td>~48 dB</td></tr>
-<tr><td>Smart Home</td><td>Apple HomeKit, Google, Alexa, Home Assistant</td><td>Apple HomeKit, Google, Alexa</td><td>Apple HomeKit, Google, Alexa (ueber Bridge)</td><td>Google, Alexa (kein HomeKit)</td></tr>
-<tr><td>Zugangsprotokoll</td><td>Ja (unbegrenzt)</td><td>Ja</td><td>Ja</td><td>Ja</td></tr>
-<tr><td>Zertifizierungen</td><td>AV-TEST, SKG***</td><td>Yale Doorman, AV-TEST</td><td>AV-TEST</td><td>—</td></tr>
-<tr><td>Preis (April 2026)</td><td>~199 EUR</td><td>~249 EUR</td><td>~189 EUR</td><td>~99 EUR</td></tr>
-</tbody>
-</table>
-
-<h2>Nuki Smart Lock 4.0: die europaeische Referenz (Redaktionsempfehlung)</h2>
-<h3>Staerken</h3>
-<ul>
-<li><strong>Natives Matter + Thread:</strong> Das Nuki 4.0 ist eines der ersten Smart Locks mit nativem Matter-over-Thread-Support. Keine Bridge noetig — direkte Kommunikation mit Ihrem Thread-Border-Router.</li>
-<li><strong>Installation in 3 Minuten:</strong> Schluessel innen abziehen, Adapter aufsetzen, Nuki mit 3M-Kleber befestigen. Kein Bohren, keine Modifikation am bestehenden Schloss.</li>
-<li><strong>Intelligentes Auto-Unlock:</strong> Erkennt Ihre Annaherung via GPS + Bluetooth. 95 % Erfolgsrate in unserem 6-Wochen-Test.</li>
-<li><strong>Umfassende Zugangsverwaltung:</strong> Temporaere, wiederkehrende und permanente Einladungen. Unbegrenztes Zugangsprotokoll.</li>
-<li><strong>Physischer Schluessel bleibt erhalten:</strong> Im Gegensatz zu amerikanischen Smart Locks sitzt das Nuki ueber dem Zylinder. Ihr Schluessel funktioniert weiterhin.</li>
-<li><strong>AV-TEST + SKG*** zertifiziert:</strong> Hoechste Sicherheitszertifizierung fuer IoT-Geraete und europaeische Schloesser.</li>
-</ul>
-<h3>Schwaechen</h3>
-<ul>
-<li>Funktionales aber voluminoeses Design — 11 cm Durchmesser innen sichtbar.</li>
-<li>Etwas lauter als das Tedee GO (~45 dB vs ~42 dB).</li>
-<li>Nuki Keypad 2.0 separat erhaeltlich fuer 79 EUR.</li>
-</ul>
-<h3>Unser Fazit: Nuki Smart Lock 4.0</h3>
-<p>Das Nuki Smart Lock 4.0 ist unsere Redaktionsempfehlung 2026. Matter + Thread + Wi-Fi machen es zum kompatibelsten Smart Lock auf dem Markt. Bei 199 EUR ausgezeichnetes Preis-Leistungs-Verhaeltnis. Lesen Sie unseren <a href="/de/blog/guide-securite-maison-connectee-2026">kompletten Smart-Home-Sicherheitsratgeber 2026</a>.</p>
-
-<h2>Yale Linus L2: die historische Schloss-Marke</h2>
-<h3>Staerken</h3>
-<ul>
-<li><strong>Yale-Erbe:</strong> Der aelteste und bekannteste Name in der Schlossindustrie (gegruendet 1840).</li>
-<li><strong>Matter + Thread</strong> fuer universelle Smart-Home-Integration.</li>
-<li><strong>Premium-Design:</strong> Gebuerstetes Metall, kompakt und elegant.</li>
-<li><strong>Integrierter DoorSense:</strong> Erkennt, ob die Tuer geschlossen ist (nicht nur verriegelt).</li>
-<li><strong>Komplettes Yale-Oekosystem:</strong> Kompatibel mit Yale-Zylindern, Yale Sync-Alarmanlagen und Yale Keypad.</li>
-</ul>
-<h3>Schwaechen</h3>
-<ul>
-<li>249 EUR ist der hoechste Preis — 50 EUR mehr als Nuki fuer aehnliche Funktionen.</li>
-<li>6-9 Monate Akkulaufzeit ist kuerzer als Nuki und Tedee.</li>
-<li>Yale-Access-App manchmal langsam beim Start.</li>
-</ul>
-
-<h2>Tedee GO: das kompakteste und diskreteste</h2>
-<h3>Staerken</h3>
-<ul>
-<li><strong>Ultra-kompaktes Design:</strong> Nur 5,8 cm Durchmesser und 6,3 cm Hoehe — das kleinste Smart Lock auf dem Markt.</li>
-<li><strong>Das leiseste (~42 dB):</strong> Motor quasi unhoerbar.</li>
-<li><strong>Hervorragende Akkulaufzeit (8-14 Monate).</strong></li>
-<li><strong>Europaeische Fertigung:</strong> Polnisches Unternehmen — Entwicklung und Produktion in Europa.</li>
-<li><strong>Attraktiver Preis (189 EUR).</strong></li>
-</ul>
-<h3>Schwaechen</h3>
-<ul>
-<li>Kein natives Matter — nur Bluetooth. Fuer Fernzugriff wird die Wi-Fi-Bridge (69 EUR extra) benoetigt.</li>
-<li>Bei Mehrpunktverriegelungen (3- oder 5-Punkt) kann das Drehmoment zu gering sein.</li>
-</ul>
-
-<h2>SwitchBot Lock Pro: der clevere Budget-Tipp</h2>
-<h3>Staerken</h3>
-<ul>
-<li><strong>Unschlagbarer Preis bei 99 EUR:</strong> Halb so teuer wie Nuki und Yale.</li>
-<li><strong>SwitchBot Keypad Touch fuer 35 EUR:</strong> Guenstigstes Keypad mit Fingerabdruckleser.</li>
-<li><strong>Doppelte Stromversorgung:</strong> Batterien oder optionaler Akku.</li>
-</ul>
-<h3>Schwaechen</h3>
-<ul>
-<li>Kein Apple HomeKit, kein Matter, kein Thread.</li>
-<li>Keine unabhaengige Sicherheitszertifizierung.</li>
-<li>6 Monate Akkulaufzeit ist die kuerzeste.</li>
-</ul>
-
-<h2>Sicherheit von Smart Locks: Mythen und Fakten</h2>
-<h3>Mythos 1: "Ein Smart Lock ist unsicherer als ein normales Schloss"</h3>
-<p>Falsch. Ein zertifiziertes Smart Lock (Nuki AV-TEST, Yale) verwendet AES-256-Verschluesselung und TLS-Authentifizierung — dasselbe Sicherheitsniveau wie Online-Banking. Das Risiko eines Remote-Hacks ist vernachlaessigbar. Ein herkoemmliches Schloss kann von einem erfahrenen Einbrecher in 30 Sekunden geknackt werden.</p>
-
-<h3>Mythos 2: "Bei leeren Batterien bin ich ausgesperrt"</h3>
-<p>Falsch. Alle 4 Smart Locks behalten den physischen Schluessel. Bei leeren Batterien verwenden Sie einfach Ihren Schluessel. Alle senden 2-4 Wochen vorher Warnungen.</p>
-
-<h2>Welches Smart Lock fuer welche Situation?</h2>
-<table>
-<thead>
-<tr><th>Ihre Situation</th><th>Unsere Empfehlung</th><th>Budget</th></tr>
-</thead>
-<tbody>
-<tr><td>Familienhaus, Smart-Home-Oekosystem</td><td>Nuki Smart Lock 4.0</td><td>199 EUR</td></tr>
-<tr><td>Premium-Design, Yale-Oekosystem</td><td>Yale Linus L2</td><td>249 EUR</td></tr>
-<tr><td>Wohnung, maximale Diskretion</td><td>Tedee GO</td><td>189 EUR (+ Bridge 69 EUR)</td></tr>
-<tr><td>Erster Kauf, kleines Budget</td><td>SwitchBot Lock Pro</td><td>99 EUR (+ Keypad 35 EUR)</td></tr>
-<tr><td>Ferienwohnung / Airbnb</td><td>Nuki 4.0 + Keypad 2.0</td><td>278 EUR</td></tr>
-<tr><td>Apple-HomeKit-Nutzer</td><td>Nuki 4.0 oder Yale Linus L2</td><td>199-249 EUR</td></tr>
-</tbody>
-</table>
+<h2>Montage, Mietwohnung und Sicherheit</h2>
+<p>Alle sechs Modelle werden innen montiert, meist ohne Bohren, und lassen sich spurlos entfernen – sie eignen sich daher in der Regel für Mietwohnungen. Informieren Sie dennoch Vermieter oder Hausverwaltung, vor allem wenn ein Außen-Keypad angebracht werden soll.</p>
+<p>Ein Smart Lock macht die Tür mechanisch nicht stabiler: Gegen Einbruch zählen Zylinder und Schloss. Für die Haustür ist ein zertifizierter Sicherheitszylinder eine gute Basis. Digital gilt: eine Marke mit regelmäßigen Updates wählen, Zwei-Faktor-Authentifizierung aktivieren und nicht mehr benötigte Gastzugänge widerrufen. Mehr dazu in unserem <a href="/de/blog/guide-securite-maison-connectee-2026">Ratgeber zur Sicherheit im Smart Home</a>.</p>
 
 <h2>Unser Fazit</h2>
-<p><strong>Das Nuki Smart Lock 4.0 ist das beste Smart Lock fuer Europa 2026.</strong> Natives Matter + Thread, 3-Minuten-Installation, umfassende Zugangsverwaltung, erhaltener physischer Schluessel und doppelte Sicherheitszertifizierung — alles fuer 199 EUR. Fuer Design-Bewusste ist das <strong>Yale Linus L2</strong> (249 EUR) die Premium-Alternative. Fuer absolute Diskretion ist das <strong>Tedee GO</strong> (189 EUR) unschlagbar. Und zum guenstigen Einstieg ist das <strong>SwitchBot Lock Pro</strong> (99 EUR) ideal. Lesen Sie auch unseren <a href="/de/blog/comparatif-camera-surveillance-exterieure">Vergleich der Aussenkameras</a> und unseren <a href="/de/blog/sonnette-video-sans-abonnement">Video-Tuerklingel-Ratgeber</a>.</p>`,
+<p><strong>Das Nuki Smart Lock Pro (5. Generation) ist 2026 das ausgewogenste smarte Türschloss</strong>: Montage auf dem vorhandenen Zylinder, WLAN und Matter over Thread integriert, Akku und eine vollständige App. Das <strong>Nuki Smart Lock Go</strong> bietet dieselbe Basis im Einstiegssegment. Das <strong>Aqara Smart Lock U200</strong> ist die beste Wahl, wenn Sie von Anfang an ein Fingerabdruck-Keypad möchten, das <strong>Tedee GO 2</strong> das unauffälligste, das <strong>Yale Linus L2</strong> das einfachste per WLAN und das <strong>SwitchBot Lock Ultra</strong> hält am längsten durch. Für einen kompletten Eingangsbereich lesen Sie unseren Ratgeber zu <a href="/de/blog/sonnette-video-sans-abonnement">Video-Türklingeln ohne Abo</a>.</p>`,
 
-    es: `<h2>Por que instalar una cerradura inteligente en 2026?</h2>
-<p>La cerradura inteligente (smart lock) es uno de los dispositivos domoticos mas practicos en el dia a dia. Se acabaron las llaves perdidas, las copias para la familia, las idas y venidas para abrir a los repartidores. En 2026, las cerraduras inteligentes europeas han alcanzado una madurez notable: compatibilidad con los cilindros europeos existentes, protocolo Matter para interoperabilidad y seguridad reforzada con cifrado de extremo a extremo.</p>
-<p>Elegir la cerradura inteligente adecuada en Europa es mas complejo que en Estados Unidos: hay que verificar la compatibilidad con tu cilindro actual, el grosor de tu puerta, el tipo de cerradura (embutida, sobrepuesta) y las normas de seguridad locales. Esta guia te acompana paso a paso.</p>
+    es: `<p><strong>La mejor cerradura inteligente para la mayoría de las puertas europeas en 2026 es la Nuki Smart Lock Pro (5.ª generación)</strong>: se coloca sobre tu cilindro actual sin cambiarlo, combina Wi-Fi, Bluetooth y Matter over Thread y funciona con batería recargable. Con un presupuesto más ajustado, la Nuki Smart Lock Go mantiene Wi-Fi y Matter; si quieres un teclado con huella incluido, la Aqara Smart Lock U200 es la opción más completa.</p>
+<p>Esta guía se basa en las fichas técnicas de los fabricantes, análisis independientes y opiniones de compradores verificados. Solo incluye modelos vendidos en Europa en 2026 y compatibles con cilindros de perfil europeo. Encontrarás toda la selección en nuestra página de <a href="/es/securite-maison/serrures-connectees">cerraduras inteligentes</a>.</p>
 
-<h2>Tabla comparativa: 4 mejores cerraduras inteligentes 2026</h2>
+<h2>¿Cómo funciona una cerradura inteligente en una puerta europea?</h2>
+<p>En la Europa continental, la mayoría de las puertas de entrada usan una cerradura embutida con <strong>cilindro de perfil europeo</strong>. Las cerraduras de esta guía son modelos de adaptación (retrofit): un módulo motorizado se fija por dentro, sobre el cilindro, y gira la llave o un adaptador por ti. Por fuera no cambia nada: tu llave sigue funcionando.</p>
+<p>Algunas marcas venden también modelos que sustituyen el cilindro (como la Nuki Smart Lock Ultra). Son más compactos y rápidos, pero obligan a cambiar una pieza de la cerradura, algo menos práctico si vives de alquiler.</p>
+
+<h2>Cómo elegir</h2>
+<ul>
+<li><strong>Un cilindro con función de emergencia</strong>: es el punto que más se olvida. La mayoría de las cerraduras de adaptación exigen un cilindro que se abra desde fuera aunque haya una llave puesta por dentro (función antibloqueo o de emergencia). Sin ella, quizá no puedas entrar con tu llave. Consulta al fabricante del cilindro o pide a un cerrajero que lo sustituya.</li>
+<li><strong>La longitud del cilindro por dentro</strong>: debe sobresalir lo suficiente para que el adaptador agarre. Cada fabricante publica una herramienta o guía de compatibilidad.</li>
+<li><strong>La conectividad</strong>: Bluetooth para el uso cercano, Wi-Fi integrado o puente (bridge) para el acceso remoto, y <strong>Matter</strong> para controlar la cerradura desde Apple Casa, Google Home, Alexa o SmartThings. Matter over Thread necesita un router de borde Thread (algunos Apple TV, HomePod mini, altavoces y pantallas recientes de Google o Amazon).</li>
+<li><strong>La alimentación</strong>: batería recargable (cada pocos meses) o pilas (CR123 o alcalinas). Un aviso de batería baja en la app es imprescindible.</li>
+<li><strong>El teclado</strong>: un teclado de código o de huella en el exterior permite abrir sin móvil. Algunos modelos lo incluyen; en otros es opcional.</li>
+<li><strong>Puertas multipunto</strong>: en una cerradura de 3 o 5 puntos dura, elige un motor potente y comprueba que la puerta cierra sin forzar.</li>
+</ul>
+
+<h2>Las 6 mejores cerraduras inteligentes de 2026</h2>
+
+<h3>1. Nuki Smart Lock Pro (5.ª generación): la mejor opción global</h3>
+<p>Presentada en marzo de 2025, la quinta generación de la Smart Lock Pro lleva la tecnología de la Nuki Ultra a un modelo que se coloca sobre el cilindro existente. Integra Wi-Fi, Bluetooth y Matter over Thread, sin puente adicional. Su motor sin escobillas ofrece tres modos, entre ellos uno rápido de menos de 1,5 segundos según el fabricante y un modo «Gentle» más silencioso.</p>
+<p><strong>Puntos fuertes</strong>: acceso remoto sin puente; compatible con Apple Casa, Google Home, Alexa y Home Assistant mediante Matter; batería de litio recargable (unas dos horas de carga según Nuki); app muy completa con accesos temporales, recurrentes o permanentes e historial; amplio catálogo de accesorios (Keypad 2 con huella, sensor de puerta).</p>
+<p><strong>Puntos débiles</strong>: bastante voluminosa por dentro; el teclado se vende aparte; requiere un cilindro con función de emergencia.</p>
+<p><strong>Para quién</strong>: la mayoría de los hogares que quieren una cerradura duradera, compatible con todos los grandes ecosistemas y sin tocar el cilindro.</p>
+
+<h3>2. Nuki Smart Lock Go: la mejor relación calidad-precio</h3>
+<p>La Smart Lock Go es el modelo de entrada de Nuki, lanzado junto a la Pro de 5.ª generación. Conserva lo esencial: Wi-Fi integrado, Bluetooth y Matter over Thread, con la misma app que los modelos más caros.</p>
+<p><strong>Puntos fuertes</strong>: una de las formas más asequibles de tener una cerradura Matter con acceso remoto; sin puente que comprar; todo el ecosistema Nuki (accesos compartidos, teclado, historial).</p>
+<p><strong>Puntos débiles</strong>: funciona con pilas alcalinas (hay un Power Pack recargable opcional); motorización menos avanzada que la Pro; acabados más sencillos.</p>
+<p><strong>Para quién</strong>: una primera compra, un piso o un alquiler vacacional gestionado a distancia.</p>
+
+<h3>3. Aqara Smart Lock U200: la más completa, con teclado incluido</h3>
+<p>La U200 combina un motor de adaptación por dentro con un <strong>teclado exterior incluido</strong> con lector de huella, NFC y código. Usa Bluetooth y Thread, es compatible con Matter over Thread y funciona sin hub Aqara para el uso básico. Existe una versión U200 Lite, sin teclado, para presupuestos más ajustados.</p>
+<p><strong>Puntos fuertes</strong>: teclado incluido, con huella y tarjetas NFC; compatible con la llave de casa de Apple (Home Key) gracias al NFC del teclado; batería recargable por USB-C en el motor; compatible con cilindros europeos.</p>
+<p><strong>Puntos débiles</strong>: el acceso remoto y las automatizaciones avanzadas requieren un router Thread o un hub Aqara; el teclado funciona con pilas AAA (o alimentación por cable); la instalación lleva algo más de tiempo por el teclado.</p>
+<p><strong>Para quién</strong>: familias que quieren entrar sin móvil y usuarios de iPhone que quieren Home Key.</p>
+
+<h3>4. Tedee GO 2: la más compacta</h3>
+<p>Tedee, marca polaca, es conocida por sus cerraduras muy compactas. La GO 2 se fija con tres tornillos al adaptador del cilindro, funciona por Bluetooth y es compatible con Matter over Thread. El Tedee Bridge sigue siendo útil para integraciones en la nube y acceso remoto fuera de Matter.</p>
+<p><strong>Puntos fuertes</strong>: diseño discreto; Matter over Thread sin puente; cierre y apertura automáticos, llaves virtuales e historial; compatible con el teclado Tedee Keypad PRO (huella y código).</p>
+<p><strong>Puntos débiles</strong>: tres pilas CR123 reemplazables, con unos seis meses de autonomía según Tedee (ocho como máximo); solo para cilindros europeos de llave plana con función de emergencia.</p>
+<p><strong>Para quién</strong>: pisos y puertas donde un módulo grande molestaría.</p>
+
+<h3>5. Yale Linus Smart Lock L2: la marca histórica</h3>
+<p>La Linus L2 es la cerradura de adaptación de Yale para cilindros europeos. Lleva Wi-Fi integrado y es compatible con Matter over Wi-Fi desde una actualización de firmware: no necesitas ni puente ni router Thread. El sensor DoorSense incluido indica si la puerta está realmente cerrada.</p>
+<p><strong>Puntos fuertes</strong>: Wi-Fi integrado; compatible con Apple Casa, Google Home, Alexa y SmartThings mediante Matter; DoorSense incluido; batería recargable por USB-C; amplia red de venta y posventa.</p>
+<p><strong>Puntos débiles</strong>: autonomía de hasta unos seis meses; hay que retirar la batería para cargarla; la L2 Lite, más barata, no tiene Wi-Fi y necesita un puente para el acceso remoto.</p>
+<p><strong>Para quién</strong>: quienes quieren una gran marca de cerrajería y una conexión Wi-Fi directa.</p>
+
+<h3>6. SwitchBot Lock Ultra: la de mayor autonomía</h3>
+<p>La Lock Ultra es la cerradura de adaptación más reciente de SwitchBot a la venta en Europa. Es mucho más fina que la antigua Lock Pro, incorpora una batería recargable de 4.200 mAh con una autonomía anunciada de 9 a 12 meses y una pila CR123A de respaldo para cuando la batería principal está vacía o cargándose.</p>
+<p><strong>Puntos fuertes</strong>: muy buena autonomía anunciada; motor rápido y silencioso según el fabricante; muchas formas de abrir con los teclados SwitchBot (código, huella, NFC y reconocimiento facial en algunos modelos); amplia compatibilidad de cilindros.</p>
+<p><strong>Puntos débiles</strong>: Matter y Apple Casa requieren un hub SwitchBot compatible con Matter; sin Thread nativo.</p>
+<p><strong>Para quién</strong>: hogares que ya usan SwitchBot o quien quiera cargar lo menos posible.</p>
+
+<h2>Tabla comparativa</h2>
 <table>
 <thead>
-<tr><th>Criterio</th><th>Nuki Smart Lock 4.0</th><th>Yale Linus L2</th><th>Tedee GO</th><th>SwitchBot Lock Pro</th></tr>
+<tr><th>Modelo</th><th>Conexión</th><th>Matter</th><th>Alimentación</th><th>Teclado</th><th>Ideal para</th></tr>
 </thead>
 <tbody>
-<tr><td>Compatibilidad cilindro</td><td>Euro-cilindro (adaptador incluido)</td><td>Euro-cilindro (adaptador Linus)</td><td>Euro-cilindro (adaptador Tedee)</td><td>Euro-cilindro + pomo</td></tr>
-<tr><td>Instalacion</td><td>3 min, sin taladrar</td><td>5 min, sin taladrar</td><td>3 min, sin taladrar</td><td>5 min, sin taladrar</td></tr>
-<tr><td>Protocolo</td><td>Matter + Thread + Wi-Fi + BLE</td><td>Matter + Thread + BLE</td><td>BLE + bridge Wi-Fi (opcional)</td><td>BLE + Wi-Fi (hub opcional)</td></tr>
-<tr><td>Apertura automatica</td><td>Si (GPS + BLE)</td><td>Si (GPS + BLE)</td><td>Si (con bridge)</td><td>Si (con hub)</td></tr>
-<tr><td>Acceso invitados</td><td>Si (temporal, recurrente, permanente)</td><td>Si (via app Yale)</td><td>Si (via app Tedee)</td><td>Si (via app SwitchBot)</td></tr>
-<tr><td>Teclado con codigo (opcional)</td><td>Nuki Keypad 2.0 (~79 EUR)</td><td>Yale Keypad (~65 EUR)</td><td>Tedee Keypad (~69 EUR)</td><td>SwitchBot Keypad Touch (~35 EUR)</td></tr>
-<tr><td>Llave fisica conservada</td><td>Si</td><td>Si</td><td>Si</td><td>Si</td></tr>
-<tr><td>Alimentacion</td><td>4 pilas AA (8-12 meses)</td><td>4 pilas AA (6-9 meses)</td><td>3 pilas CR123 (8-14 meses)</td><td>2 pilas CR123A (6 meses) o bateria</td></tr>
-<tr><td>Nivel de ruido</td><td>~45 dB</td><td>~50 dB</td><td>~42 dB</td><td>~48 dB</td></tr>
-<tr><td>Domotica</td><td>Apple HomeKit, Google, Alexa, Home Assistant</td><td>Apple HomeKit, Google, Alexa</td><td>Apple HomeKit, Google, Alexa (via bridge)</td><td>Google, Alexa (sin HomeKit)</td></tr>
-<tr><td>Certificaciones</td><td>AV-TEST, SKG***</td><td>Yale Doorman, AV-TEST</td><td>AV-TEST</td><td>—</td></tr>
-<tr><td>Precio (abril 2026)</td><td>~199 EUR</td><td>~249 EUR</td><td>~189 EUR</td><td>~99 EUR</td></tr>
+<tr><td>Nuki Smart Lock Pro (5.ª gen.)</td><td>Wi-Fi + Bluetooth + Thread</td><td>Sí, nativo (Thread)</td><td>Batería recargable</td><td>Opcional</td><td>La mayoría de hogares</td></tr>
+<tr><td>Nuki Smart Lock Go</td><td>Wi-Fi + Bluetooth + Thread</td><td>Sí, nativo (Thread)</td><td>Pilas alcalinas (Power Pack opcional)</td><td>Opcional</td><td>Presupuesto ajustado</td></tr>
+<tr><td>Aqara Smart Lock U200</td><td>Bluetooth + Thread</td><td>Sí, nativo (Thread)</td><td>Batería recargable</td><td>Incluido (huella, NFC, código)</td><td>Abrir sin móvil</td></tr>
+<tr><td>Tedee GO 2</td><td>Bluetooth + Thread</td><td>Sí, nativo (Thread)</td><td>3 pilas CR123</td><td>Opcional</td><td>Formato compacto</td></tr>
+<tr><td>Yale Linus Smart Lock L2</td><td>Wi-Fi + Bluetooth</td><td>Sí, por Wi-Fi</td><td>Batería recargable</td><td>Opcional</td><td>Wi-Fi directo</td></tr>
+<tr><td>SwitchBot Lock Ultra</td><td>Bluetooth (+ hub)</td><td>Mediante hub SwitchBot</td><td>Batería recargable + pila de respaldo</td><td>Opcional</td><td>Autonomía</td></tr>
 </tbody>
 </table>
 
-<h2>Nuki Smart Lock 4.0: la referencia europea (eleccion editorial)</h2>
-<h3>Puntos fuertes</h3>
+<h2>Errores que debes evitar</h2>
 <ul>
-<li><strong>Matter + Thread nativo:</strong> El Nuki 4.0 soporta Matter over Thread de forma nativa. Sin bridge ni hub — comunicacion directa con tu router Thread.</li>
-<li><strong>Instalacion en 3 minutos:</strong> Quitar la llave por dentro, colocar el adaptador, fijar con adhesivo 3M. Sin taladrar ni modificar la cerradura.</li>
-<li><strong>Auto-unlock inteligente:</strong> Detecta tu aproximacion via GPS + Bluetooth. 95 % de exito en 6 semanas de prueba.</li>
-<li><strong>Gestion de accesos completa:</strong> Invitaciones temporales, recurrentes y permanentes. Historial ilimitado.</li>
-<li><strong>Llave fisica conservada:</strong> El Nuki se coloca sobre el cilindro existente. Tu llave sigue funcionando.</li>
-<li><strong>Certificado AV-TEST + SKG***:</strong> Maxima certificacion de seguridad IoT y europea.</li>
-</ul>
-<h3>Puntos debiles</h3>
-<ul>
-<li>Diseno funcional pero voluminoso — 11 cm de diametro visible por dentro.</li>
-<li>Motor ligeramente mas ruidoso que el Tedee GO (~45 dB vs ~42 dB).</li>
-<li>Teclado Nuki Keypad 2.0 vendido por separado a 79 EUR.</li>
-</ul>
-<h3>Nuestro veredicto: Nuki Smart Lock 4.0</h3>
-<p>El Nuki Smart Lock 4.0 es nuestra eleccion editorial 2026. Matter + Thread + Wi-Fi lo hacen la cerradura mas compatible del mercado. A 199 EUR, excelente relacion calidad-precio. Consulta nuestra <a href="/es/blog/guide-securite-maison-connectee-2026">guia completa de seguridad del hogar conectado 2026</a>.</p>
-
-<h2>Yale Linus L2: la marca historica de cerrajeria</h2>
-<h3>Puntos fuertes</h3>
-<ul>
-<li><strong>Herencia Yale:</strong> La marca mas antigua y reconocida en cerrajeria (fundada en 1840).</li>
-<li><strong>Matter + Thread</strong> para integracion domotica universal.</li>
-<li><strong>Diseno premium:</strong> Acabado en metal cepillado, perfil compacto y elegante.</li>
-<li><strong>DoorSense integrado:</strong> Sensor que detecta si la puerta esta cerrada (no solo bloqueada).</li>
-<li><strong>Ecosistema Yale completo.</strong></li>
-</ul>
-<h3>Puntos debiles</h3>
-<ul>
-<li>249 EUR es el precio mas alto — 50 EUR mas que el Nuki.</li>
-<li>6-9 meses de autonomia, inferior al Nuki y Tedee.</li>
-<li>La app Yale Access a veces lenta al conectar.</li>
+<li><strong>Comprar sin revisar el cilindro</strong>: sin función de emergencia, el adaptador puede bloquear la llave desde fuera. Es el principal motivo de devolución.</li>
+<li><strong>Contar con Matter sin router Thread</strong>: los modelos Matter over Thread necesitan un router de borde compatible con tu ecosistema.</li>
+<li><strong>Olvidar la carga</strong>: activa los avisos de batería baja y lleva tu llave física o déjasela a alguien de confianza.</li>
+<li><strong>Pegar sobre una puerta sucia</strong>: en los montajes con adhesivo, limpia antes la superficie y respeta el tiempo de secado.</li>
+<li><strong>Activar la apertura automática sin ajustarla</strong>: la apertura por proximidad requiere ajuste fino; empieza con una notificación de confirmación.</li>
 </ul>
 
-<h2>Tedee GO: la mas compacta y discreta</h2>
-<h3>Puntos fuertes</h3>
-<ul>
-<li><strong>Diseno ultra-compacto:</strong> Solo 5,8 cm de diametro. La cerradura inteligente mas pequena del mercado.</li>
-<li><strong>La mas silenciosa (~42 dB).</strong></li>
-<li><strong>Excelente autonomia (8-14 meses).</strong></li>
-<li><strong>Fabricacion europea:</strong> Empresa polaca — diseno y produccion en Europa.</li>
-<li><strong>Precio atractivo (189 EUR).</strong></li>
-</ul>
-<h3>Puntos debiles</h3>
-<ul>
-<li>Sin Matter nativo — solo Bluetooth. Para acceso remoto, bridge Wi-Fi a 69 EUR extra.</li>
-<li>En cerraduras multipunto (3 o 5 puntos), el par motor puede ser insuficiente.</li>
-</ul>
+<h2>Instalación, alquiler y seguridad</h2>
+<p>Los seis modelos se colocan por dentro, en su mayoría sin taladrar la puerta, y se retiran sin dejar marcas, por lo que suelen ser aptos para pisos de alquiler. Aun así, avisa a tu casero o a la comunidad, sobre todo si hay que fijar un teclado en el exterior.</p>
+<p>Una cerradura inteligente no hace la puerta más resistente: frente a un robo cuentan el cilindro y la cerradura. Para la puerta principal, un cilindro de seguridad certificado sigue siendo una buena base. En el plano digital, elige una marca con actualizaciones regulares, activa la verificación en dos pasos y revoca los accesos de invitados que ya no necesites. Para saber más, lee nuestra <a href="/es/blog/guide-securite-maison-connectee-2026">guía de seguridad del hogar conectado</a>.</p>
 
-<h2>SwitchBot Lock Pro: el presupuesto inteligente</h2>
-<h3>Puntos fuertes</h3>
+<h2>Nuestro veredicto</h2>
+<p><strong>La Nuki Smart Lock Pro (5.ª generación) es la cerradura inteligente más equilibrada de 2026</strong>: se coloca sobre el cilindro existente, integra Wi-Fi y Matter over Thread, usa batería recargable y tiene una app completa. La <strong>Nuki Smart Lock Go</strong> ofrece la misma base en la gama de entrada. La <strong>Aqara Smart Lock U200</strong> es la mejor opción si quieres un teclado con huella desde el primer día, la <strong>Tedee GO 2</strong> la más discreta, la <strong>Yale Linus L2</strong> la más sencilla por Wi-Fi y la <strong>SwitchBot Lock Ultra</strong> la que más aguanta entre cargas. Para completar tu entrada, consulta nuestra guía de <a href="/es/blog/sonnette-video-sans-abonnement">videoporteros sin cuotas</a>.</p>`,
+
+    it: `<p><strong>La migliore serratura smart per la maggior parte delle porte europee nel 2026 è la Nuki Smart Lock Pro (5ª generazione)</strong>: si monta sul cilindro esistente senza sostituirlo, unisce Wi-Fi, Bluetooth e Matter over Thread e funziona con batteria ricaricabile. Con un budget più contenuto, la Nuki Smart Lock Go mantiene Wi-Fi e Matter; se volete un tastierino con impronta già in confezione, la Aqara Smart Lock U200 è la più completa.</p>
+<p>Questa guida si basa sulle schede tecniche dei produttori, su recensioni indipendenti e sulle opinioni di acquirenti verificati. Include solo modelli venduti in Europa nel 2026 e compatibili con i cilindri a profilo europeo. Trovate l’intera selezione nella nostra pagina <a href="/it/securite-maison/serrures-connectees">serrature smart</a>.</p>
+
+<h2>Come funziona una serratura smart su una porta europea?</h2>
+<p>Nell’Europa continentale la maggior parte delle porte d’ingresso usa una serratura da infilare con <strong>cilindro a profilo europeo</strong>. Le serrature di questa guida sono modelli retrofit: un modulo motorizzato si fissa all’interno, sopra il cilindro, e gira la chiave o un adattatore al posto vostro. All’esterno non cambia nulla: la chiave continua a funzionare.</p>
+<p>Alcuni marchi vendono anche modelli che sostituiscono il cilindro (per esempio la Nuki Smart Lock Ultra). Sono più compatti e rapidi, ma richiedono di cambiare un componente della serratura: meno pratico se siete in affitto.</p>
+
+<h2>Come scegliere</h2>
 <ul>
-<li><strong>Precio imbatible a 99 EUR:</strong> La mitad del Nuki y Yale.</li>
-<li><strong>SwitchBot Keypad Touch a 35 EUR:</strong> Teclado mas asequible con lector de huellas.</li>
-<li><strong>Doble alimentacion:</strong> Pilas o bateria recargable opcional.</li>
-</ul>
-<h3>Puntos debiles</h3>
-<ul>
-<li>Sin Apple HomeKit, sin Matter, sin Thread.</li>
-<li>Sin certificacion de seguridad independiente.</li>
-<li>6 meses de autonomia, la mas corta.</li>
+<li><strong>Un cilindro con funzione di emergenza</strong>: è il punto più trascurato. La maggior parte delle serrature retrofit richiede un cilindro che si apra dall’esterno anche con una chiave inserita all’interno (funzione antipanico o di emergenza). Senza, potreste non riuscire a entrare con la vostra chiave. Verificate con il produttore del cilindro o fatelo sostituire da un fabbro.</li>
+<li><strong>La sporgenza del cilindro all’interno</strong>: deve sporgere abbastanza perché l’adattatore faccia presa. Ogni produttore pubblica uno strumento o una guida di compatibilità.</li>
+<li><strong>La connettività</strong>: Bluetooth per l’uso da vicino, Wi-Fi integrato o bridge per l’accesso remoto e <strong>Matter</strong> per gestire la serratura da Apple Casa, Google Home, Alexa o SmartThings. Matter over Thread richiede un border router Thread (alcuni Apple TV, HomePod mini, altoparlanti e display recenti di Google o Amazon).</li>
+<li><strong>L’alimentazione</strong>: batteria ricaricabile (ogni qualche mese) o pile (CR123 o alcaline). Un avviso di batteria scarica nell’app è indispensabile.</li>
+<li><strong>Il tastierino</strong>: un tastierino a codice o a impronta all’esterno permette di aprire senza telefono. Alcuni modelli lo includono, per altri è opzionale.</li>
+<li><strong>Porte multipunto</strong>: su una serratura a 3 o 5 punti dura da manovrare, scegliete un motore potente e verificate che la porta si chiuda senza forzare.</li>
 </ul>
 
-<h2>Seguridad de las cerraduras inteligentes: mitos y realidades</h2>
-<h3>Mito 1: "Una cerradura inteligente es menos segura que una tradicional"</h3>
-<p>Falso. Una cerradura inteligente certificada (Nuki AV-TEST, Yale) usa cifrado AES-256 y autenticacion TLS — el mismo nivel que la banca online. Una cerradura tradicional puede ser forzada en 30 segundos por un cerrajero experto.</p>
+<h2>Le 6 migliori serrature smart del 2026</h2>
 
-<h3>Mito 2: "Si se agotan las pilas, me quedo fuera"</h3>
-<p>Falso. Las 4 cerraduras conservan la llave fisica. Si las pilas se agotan, usas tu llave. Todas envian alertas de bateria baja 2-4 semanas antes.</p>
+<h3>1. Nuki Smart Lock Pro (5ª generazione) – la scelta migliore</h3>
+<p>Presentata a marzo 2025, la quinta generazione della Smart Lock Pro porta la tecnologia della Nuki Ultra in un modello che si monta sul cilindro esistente. Integra Wi-Fi, Bluetooth e Matter over Thread, senza bridge aggiuntivo. Il motore brushless offre tre modalità, tra cui una rapida dichiarata sotto 1,5 secondi e una modalità «Gentle» più silenziosa.</p>
+<p><strong>Punti di forza</strong>: accesso remoto senza bridge; compatibile con Apple Casa, Google Home, Alexa e Home Assistant tramite Matter; batteria al litio ricaricabile (circa due ore di ricarica secondo Nuki); app completa con accessi temporanei, ricorrenti o permanenti e cronologia; ampia gamma di accessori (Keypad 2 con impronta, sensore porta).</p>
+<p><strong>Limiti</strong>: piuttosto ingombrante all’interno; tastierino venduto a parte; serve un cilindro con funzione di emergenza.</p>
+<p><strong>Per chi</strong>: la maggior parte delle famiglie che vogliono una serratura duratura, compatibile con tutti i grandi ecosistemi, senza toccare il cilindro.</p>
 
-<h2>Que cerradura inteligente para cada situacion?</h2>
+<h3>2. Nuki Smart Lock Go – il miglior rapporto qualità-prezzo</h3>
+<p>La Smart Lock Go è il modello d’ingresso di Nuki, uscito insieme alla Pro di 5ª generazione. Mantiene l’essenziale: Wi-Fi integrato, Bluetooth e Matter over Thread, con la stessa app dei modelli più costosi.</p>
+<p><strong>Punti di forza</strong>: uno dei modi più accessibili per avere una serratura Matter con accesso remoto; nessun bridge da acquistare; ecosistema Nuki completo (condivisione accessi, tastierino, cronologia).</p>
+<p><strong>Limiti</strong>: funziona con pile alcaline (è disponibile un Power Pack ricaricabile opzionale); motorizzazione meno evoluta della Pro; finiture più semplici.</p>
+<p><strong>Per chi</strong>: un primo acquisto, un appartamento o un affitto breve gestito a distanza.</p>
+
+<h3>3. Aqara Smart Lock U200 – la più completa, con tastierino incluso</h3>
+<p>La U200 abbina un motore retrofit interno a un <strong>tastierino esterno incluso</strong> con lettore di impronte, NFC e codice. Usa Bluetooth e Thread, supporta Matter over Thread e funziona senza hub Aqara per l’uso di base. Esiste anche la U200 Lite, senza tastierino, per budget più ridotti.</p>
+<p><strong>Punti di forza</strong>: tastierino incluso, con impronta e tessere NFC; supporto alla chiave di casa Apple (Home Key) tramite l’NFC del tastierino; batteria ricaricabile USB-C nel motore; compatibile con cilindri europei.</p>
+<p><strong>Limiti</strong>: accesso remoto e automazioni avanzate richiedono un border router Thread o un hub Aqara; il tastierino funziona a pile AAA (o con alimentazione cablata); l’installazione richiede un po’ più di tempo per via del tastierino.</p>
+<p><strong>Per chi</strong>: famiglie che vogliono entrare senza telefono e utenti iPhone che desiderano Home Key.</p>
+
+<h3>4. Tedee GO 2 – la più compatta</h3>
+<p>Tedee, marchio polacco, è nota per serrature molto compatte. La GO 2 si fissa con tre viti all’adattatore del cilindro, comunica in Bluetooth e supporta Matter over Thread. Il Tedee Bridge resta utile per le integrazioni cloud e l’accesso remoto al di fuori di Matter.</p>
+<p><strong>Punti di forza</strong>: design discreto; Matter over Thread senza bridge; chiusura e apertura automatiche, chiavi virtuali e cronologia; compatibile con il Tedee Keypad PRO (impronta e codice).</p>
+<p><strong>Limiti</strong>: tre pile CR123 sostituibili, con circa sei mesi di autonomia secondo Tedee (otto al massimo); solo per cilindri europei con chiave piatta e funzione di emergenza.</p>
+<p><strong>Per chi</strong>: appartamenti e porte dove un modulo ingombrante darebbe fastidio.</p>
+
+<h3>5. Yale Linus Smart Lock L2 – il marchio storico</h3>
+<p>La Linus L2 è la serratura retrofit di Yale per cilindri europei. Ha il Wi-Fi integrato e supporta Matter over Wi-Fi da un aggiornamento firmware: non servono né bridge né router Thread. Il sensore DoorSense incluso indica se la porta è davvero chiusa.</p>
+<p><strong>Punti di forza</strong>: Wi-Fi integrato; compatibile con Apple Casa, Google Home, Alexa e SmartThings tramite Matter; DoorSense incluso; batteria ricaricabile USB-C; ampia rete di vendita e assistenza.</p>
+<p><strong>Limiti</strong>: autonomia fino a circa sei mesi; la batteria va estratta per ricaricarla; la L2 Lite, più economica, non ha Wi-Fi e richiede un bridge per l’accesso remoto.</p>
+<p><strong>Per chi</strong>: chi vuole un grande marchio della serratura e una connessione Wi-Fi diretta.</p>
+
+<h3>6. SwitchBot Lock Ultra – la più autonoma</h3>
+<p>La Lock Ultra è la serratura retrofit più recente di SwitchBot in vendita in Europa. È molto più sottile della vecchia Lock Pro, monta una batteria ricaricabile da 4.200 mAh dichiarata per 9–12 mesi e una pila CR123A di riserva per quando la batteria principale è scarica o in carica.</p>
+<p><strong>Punti di forza</strong>: ottima autonomia dichiarata; motore rapido e silenzioso secondo il produttore; molti modi di apertura con i tastierini SwitchBot (codice, impronta, NFC, riconoscimento facciale su alcuni modelli); ampia compatibilità con i cilindri.</p>
+<p><strong>Limiti</strong>: Matter e Apple Casa richiedono un hub SwitchBot compatibile Matter; niente Thread nativo.</p>
+<p><strong>Per chi</strong>: case già equipaggiate SwitchBot o chi vuole ricaricare il meno possibile.</p>
+
+<h2>Tabella comparativa</h2>
 <table>
 <thead>
-<tr><th>Tu situacion</th><th>Nuestra recomendacion</th><th>Presupuesto</th></tr>
+<tr><th>Modello</th><th>Connessione</th><th>Matter</th><th>Alimentazione</th><th>Tastierino</th><th>Ideale per</th></tr>
 </thead>
 <tbody>
-<tr><td>Casa familiar, ecosistema domotico</td><td>Nuki Smart Lock 4.0</td><td>199 EUR</td></tr>
-<tr><td>Diseno premium, ecosistema Yale</td><td>Yale Linus L2</td><td>249 EUR</td></tr>
-<tr><td>Piso, maxima discrecion</td><td>Tedee GO</td><td>189 EUR (+ bridge 69 EUR)</td></tr>
-<tr><td>Primera compra, presupuesto ajustado</td><td>SwitchBot Lock Pro</td><td>99 EUR (+ keypad 35 EUR)</td></tr>
-<tr><td>Alquiler vacacional / Airbnb</td><td>Nuki 4.0 + Keypad 2.0</td><td>278 EUR</td></tr>
-<tr><td>Usuarios Apple HomeKit</td><td>Nuki 4.0 o Yale Linus L2</td><td>199-249 EUR</td></tr>
+<tr><td>Nuki Smart Lock Pro (5ª gen.)</td><td>Wi-Fi + Bluetooth + Thread</td><td>Sì, nativo (Thread)</td><td>Batteria ricaricabile</td><td>Opzionale</td><td>La maggior parte delle case</td></tr>
+<tr><td>Nuki Smart Lock Go</td><td>Wi-Fi + Bluetooth + Thread</td><td>Sì, nativo (Thread)</td><td>Pile alcaline (Power Pack opzionale)</td><td>Opzionale</td><td>Budget contenuto</td></tr>
+<tr><td>Aqara Smart Lock U200</td><td>Bluetooth + Thread</td><td>Sì, nativo (Thread)</td><td>Batteria ricaricabile</td><td>Incluso (impronta, NFC, codice)</td><td>Aprire senza telefono</td></tr>
+<tr><td>Tedee GO 2</td><td>Bluetooth + Thread</td><td>Sì, nativo (Thread)</td><td>3 pile CR123</td><td>Opzionale</td><td>Formato compatto</td></tr>
+<tr><td>Yale Linus Smart Lock L2</td><td>Wi-Fi + Bluetooth</td><td>Sì, via Wi-Fi</td><td>Batteria ricaricabile</td><td>Opzionale</td><td>Wi-Fi diretto</td></tr>
+<tr><td>SwitchBot Lock Ultra</td><td>Bluetooth (+ hub)</td><td>Tramite hub SwitchBot</td><td>Batteria ricaricabile + pila di riserva</td><td>Opzionale</td><td>Autonomia</td></tr>
 </tbody>
 </table>
 
-<h2>Nuestro veredicto final</h2>
-<p><strong>El Nuki Smart Lock 4.0 es la mejor cerradura inteligente para Europa en 2026.</strong> Matter + Thread nativo, instalacion en 3 minutos, gestion de accesos completa, llave fisica conservada y doble certificacion de seguridad — todo por 199 EUR. Para los amantes del diseno, el <strong>Yale Linus L2</strong> (249 EUR). Para maxima discrecion, el <strong>Tedee GO</strong> (189 EUR). Y para presupuesto ajustado, el <strong>SwitchBot Lock Pro</strong> (99 EUR). Consulta nuestra <a href="/es/blog/comparatif-camera-surveillance-exterieure">comparativa de camaras de vigilancia</a> y nuestra <a href="/es/blog/sonnette-video-sans-abonnement">guia de timbres con video</a>.</p>`,
+<h2>Errori da evitare</h2>
+<ul>
+<li><strong>Comprare senza controllare il cilindro</strong>: senza funzione di emergenza, l’adattatore può bloccare la chiave dall’esterno. È il primo motivo di reso.</li>
+<li><strong>Contare su Matter senza router Thread</strong>: i modelli Matter over Thread hanno bisogno di un border router compatibile con il vostro ecosistema.</li>
+<li><strong>Dimenticare la ricarica</strong>: attivate gli avvisi di batteria scarica e tenete con voi la chiave fisica, o lasciatela a una persona di fiducia.</li>
+<li><strong>Incollare su una porta sporca</strong>: per i montaggi adesivi, pulite la superficie e rispettate il tempo di presa indicato.</li>
+<li><strong>Attivare l’apertura automatica senza regolarla</strong>: l’apertura in prossimità va calibrata; iniziate con una notifica di conferma.</li>
+</ul>
 
-    it: `<h2>Perche installare una serratura smart nel 2026?</h2>
-<p>La serratura smart (smart lock) e uno dei dispositivi domotici piu pratici nella vita quotidiana. Basta con le chiavi perse, le copie per la famiglia, i viaggi per aprire ai corrieri. Nel 2026, le serrature smart europee hanno raggiunto una maturita notevole: compatibilita con i cilindri europei esistenti, protocollo Matter per l'interoperabilita e sicurezza rafforzata con crittografia end-to-end.</p>
-<p>Scegliere la serratura smart giusta in Europa e piu complesso che negli Stati Uniti: bisogna verificare la compatibilita con il cilindro esistente, lo spessore della porta, il tipo di serratura (da incasso, da applicare) e le normative di sicurezza locali. Questa guida vi accompagna passo dopo passo.</p>
+<h2>Installazione, affitto e sicurezza</h2>
+<p>Tutti e sei i modelli si montano all’interno, per lo più senza forare la porta, e si rimuovono senza lasciare segni: in genere sono adatti alle case in affitto. Informate comunque il proprietario o l’amministratore, soprattutto se va fissato un tastierino esterno.</p>
+<p>Una serratura smart non rende la porta più robusta: contro lo scasso contano cilindro e serratura. Per la porta d’ingresso, un cilindro di sicurezza certificato resta una buona base. Sul piano digitale scegliete un marchio che rilascia aggiornamenti regolari, attivate l’autenticazione a due fattori e revocate gli accessi ospite che non servono più. Per approfondire, leggete la nostra <a href="/it/blog/guide-securite-maison-connectee-2026">guida alla sicurezza della casa smart</a>.</p>
 
-<h2>Tabella comparativa: 4 migliori serrature smart 2026</h2>
+<h2>Il nostro verdetto</h2>
+<p><strong>La Nuki Smart Lock Pro (5ª generazione) è la serratura smart più equilibrata del 2026</strong>: si monta sul cilindro esistente, integra Wi-Fi e Matter over Thread, ha batteria ricaricabile e un’app completa. La <strong>Nuki Smart Lock Go</strong> offre le stesse basi nella fascia d’ingresso. La <strong>Aqara Smart Lock U200</strong> è l’opzione migliore se volete subito un tastierino con impronta, la <strong>Tedee GO 2</strong> la più discreta, la <strong>Yale Linus L2</strong> la più semplice in Wi-Fi e la <strong>SwitchBot Lock Ultra</strong> quella che dura di più tra una ricarica e l’altra. Per completare l’ingresso, consultate la nostra guida ai <a href="/it/blog/sonnette-video-sans-abonnement">videocitofoni senza abbonamento</a>.</p>`,
+
+    nl: `<p><strong>Het beste slimme slot voor de meeste Europese deuren in 2026 is de Nuki Smart Lock Pro (5e generatie)</strong>: hij komt op je bestaande cilinder zonder die te vervangen, combineert wifi, Bluetooth en Matter over Thread en werkt op een oplaadbare accu. Met een kleiner budget houdt de Nuki Smart Lock Go wifi en Matter; wil je meteen een vingerafdrukklavier in de doos, dan is de Aqara Smart Lock U200 het meest complete pakket.</p>
+<p>Deze gids is gebaseerd op specificaties van fabrikanten, onafhankelijke reviews en ervaringen van geverifieerde kopers. Hij bevat alleen modellen die in 2026 in Europa verkocht worden en geschikt zijn voor Europrofielcilinders. De volledige selectie vind je op onze pagina <a href="/nl/securite-maison/serrures-connectees">slimme sloten</a>.</p>
+
+<h2>Hoe werkt een slim slot op een Europese deur?</h2>
+<p>Op het Europese vasteland hebben de meeste voordeuren een insteekslot met een <strong>Europrofielcilinder</strong>. De sloten in deze gids zijn retrofitmodellen: een gemotoriseerde unit komt aan de binnenkant over de cilinder en draait de sleutel of een adapter voor je om. Aan de buitenkant verandert niets: je sleutel blijft werken.</p>
+<p>Sommige merken verkopen ook modellen die de cilinder vervangen (zoals de Nuki Smart Lock Ultra). Die zijn kleiner en sneller, maar je moet een onderdeel van het slot wisselen – minder handig in een huurwoning.</p>
+
+<h2>Zo kies je</h2>
+<ul>
+<li><strong>Een cilinder met noodfunctie</strong>: dit punt wordt het vaakst vergeten. De meeste retrofitsloten vereisen een cilinder die van buitenaf opengaat, ook als er binnen een sleutel in zit (nood- en gevarenfunctie). Zonder die functie kom je misschien niet binnen met je sleutel. Vraag het na bij de cilinderfabrikant of laat een slotenmaker de cilinder vervangen.</li>
+<li><strong>Uitsteeklengte van de cilinder binnen</strong>: hij moet ver genoeg uitsteken zodat de adapter grip heeft. Elke fabrikant biedt een compatibiliteitscheck of handleiding.</li>
+<li><strong>Connectiviteit</strong>: Bluetooth voor gebruik dichtbij, ingebouwde wifi of een bridge voor toegang op afstand, en <strong>Matter</strong> om het slot te bedienen via Apple Woning, Google Home, Alexa of SmartThings. Matter over Thread heeft een Thread-borderrouter nodig (sommige Apple TV’s, HomePod mini, recente speakers en schermen van Google of Amazon).</li>
+<li><strong>Voeding</strong>: een oplaadbare accu (om de paar maanden laden) of batterijen (CR123 of alkaline). Een melding bij een bijna lege batterij in de app is onmisbaar.</li>
+<li><strong>Klavier</strong>: een code- of vingerafdrukklavier buiten laat je binnen zonder telefoon. Sommige modellen leveren het mee, bij andere is het optioneel.</li>
+<li><strong>Meerpuntsdeuren</strong>: kies bij een stroef 3- of 5-puntsslot een krachtige motor en controleer of de deur zonder forceren sluit.</li>
+</ul>
+
+<h2>De 6 beste slimme sloten van 2026</h2>
+
+<h3>1. Nuki Smart Lock Pro (5e generatie) – beste keuze overall</h3>
+<p>De vijfde generatie van de Smart Lock Pro, gelanceerd in maart 2025, brengt de techniek van de Nuki Ultra naar een model dat op de bestaande cilinder komt. Wifi, Bluetooth en Matter over Thread zijn ingebouwd, zonder extra bridge. De borstelloze motor heeft drie standen, waaronder een snelle stand van minder dan 1,5 seconde volgens de fabrikant en een stillere „Gentle”-stand.</p>
+<p><strong>Sterke punten</strong>: toegang op afstand zonder bridge; werkt met Apple Woning, Google Home, Alexa en Home Assistant via Matter; oplaadbare lithiumaccu (volgens Nuki ongeveer twee uur laden); complete app met tijdelijke, terugkerende of permanente toegang en logboek; ruim aanbod accessoires (Keypad 2 met vingerafdruk, deursensor).</p>
+<p><strong>Zwakke punten</strong>: vrij groot aan de binnenkant; klavier apart verkrijgbaar; cilinder met noodfunctie vereist.</p>
+<p><strong>Voor wie</strong>: de meeste huishoudens die een duurzaam slot willen voor alle grote ecosystemen, zonder aan de cilinder te komen.</p>
+
+<h3>2. Nuki Smart Lock Go – beste prijs-kwaliteitverhouding</h3>
+<p>De Smart Lock Go is het instapmodel van Nuki, tegelijk met de Pro van de 5e generatie uitgebracht. Hij houdt de basis: ingebouwde wifi, Bluetooth en Matter over Thread, met dezelfde app als de duurdere modellen.</p>
+<p><strong>Sterke punten</strong>: een van de voordeligste manieren om een Matter-slot met toegang op afstand te krijgen; geen bridge nodig; het volledige Nuki-ecosysteem (toegang delen, klavier, logboek).</p>
+<p><strong>Zwakke punten</strong>: werkt op alkalinebatterijen (een oplaadbaar Power Pack is optioneel); eenvoudigere motor dan de Pro; sobere afwerking.</p>
+<p><strong>Voor wie</strong>: een eerste aankoop, een appartement of een vakantiewoning die je op afstand beheert.</p>
+
+<h3>3. Aqara Smart Lock U200 – het meest compleet, met klavier</h3>
+<p>De U200 combineert een retrofitmotor binnen met een <strong>meegeleverd buitenklavier</strong> met vingerafdruklezer, NFC en pincode. Hij gebruikt Bluetooth en Thread, ondersteunt Matter over Thread en werkt voor basisgebruik zonder Aqara-hub. Er is ook een U200 Lite zonder klavier voor een kleiner budget.</p>
+<p><strong>Sterke punten</strong>: klavier inbegrepen, met vingerafdruk en NFC-kaarten; ondersteuning voor Apple Home Key via de NFC-lezer van het klavier; via USB-C oplaadbare accu in de motorunit; geschikt voor Europrofielcilinders.</p>
+<p><strong>Zwakke punten</strong>: toegang op afstand en geavanceerde automatiseringen vragen een Thread-borderrouter of Aqara-hub; het klavier werkt op AAA-batterijen (of bedrade voeding); de montage duurt iets langer door het klavier.</p>
+<p><strong>Voor wie</strong>: gezinnen die zonder telefoon binnen willen en iPhone-gebruikers die Home Key willen.</p>
+
+<h3>4. Tedee GO 2 – het meest compact</h3>
+<p>Het Poolse merk Tedee staat bekend om zeer compacte sloten. De GO 2 wordt met drie schroeven op de cilinderadapter bevestigd, werkt via Bluetooth en ondersteunt Matter over Thread. De Tedee Bridge blijft nuttig voor cloudkoppelingen en toegang op afstand buiten Matter.</p>
+<p><strong>Sterke punten</strong>: discreet ontwerp; Matter over Thread zonder bridge; automatisch vergrendelen en ontgrendelen, virtuele sleutels en logboek; werkt met het Tedee Keypad PRO (vingerafdruk en pincode).</p>
+<p><strong>Zwakke punten</strong>: drie vervangbare CR123-batterijen, goed voor ongeveer zes maanden volgens Tedee (maximaal acht); alleen voor Europrofielcilinders met platte sleutel en noodfunctie.</p>
+<p><strong>Voor wie</strong>: appartementen en deuren waar een grote unit in de weg zit.</p>
+
+<h3>5. Yale Linus Smart Lock L2 – het traditionele slotenmerk</h3>
+<p>De Linus L2 is het retrofitslot van Yale voor Europrofielcilinders. Hij heeft ingebouwde wifi en ondersteunt sinds een firmware-update Matter over wifi: je hebt geen bridge of Thread-router nodig. De meegeleverde DoorSense-sensor laat zien of de deur echt dicht is.</p>
+<p><strong>Sterke punten</strong>: ingebouwde wifi; werkt met Apple Woning, Google Home, Alexa en SmartThings via Matter; DoorSense inbegrepen; via USB-C oplaadbare accu; groot verkoop- en servicenetwerk.</p>
+<p><strong>Zwakke punten</strong>: accuduur tot ongeveer zes maanden; de accu moet eruit om te laden; de goedkopere L2 Lite heeft geen wifi en heeft een bridge nodig voor toegang op afstand.</p>
+<p><strong>Voor wie</strong>: wie een groot slotenmerk en een directe wifiverbinding wil.</p>
+
+<h3>6. SwitchBot Lock Ultra – langste accuduur</h3>
+<p>De Lock Ultra is het nieuwste retrofitslot van SwitchBot dat in Europa verkrijgbaar is. Hij is veel slanker dan de oudere Lock Pro, heeft een oplaadbare accu van 4.200 mAh met een opgegeven gebruiksduur van 9 tot 12 maanden en een CR123A-reservebatterij voor als de hoofdaccu leeg is of laadt.</p>
+<p><strong>Sterke punten</strong>: zeer goede opgegeven accuduur; snelle, stille motor volgens de fabrikant; veel manieren om te openen met SwitchBot-klavieren (pincode, vingerafdruk, NFC, gezichtsherkenning bij sommige modellen); brede cilindercompatibiliteit.</p>
+<p><strong>Zwakke punten</strong>: Matter en Apple Woning alleen via een SwitchBot-hub met Matter; geen native Thread.</p>
+<p><strong>Voor wie</strong>: huishoudens met SwitchBot-apparaten of wie zo weinig mogelijk wil opladen.</p>
+
+<h2>Vergelijkingstabel</h2>
 <table>
 <thead>
-<tr><th>Criterio</th><th>Nuki Smart Lock 4.0</th><th>Yale Linus L2</th><th>Tedee GO</th><th>SwitchBot Lock Pro</th></tr>
+<tr><th>Model</th><th>Verbinding</th><th>Matter</th><th>Voeding</th><th>Klavier</th><th>Ideaal voor</th></tr>
 </thead>
 <tbody>
-<tr><td>Compatibilita cilindro</td><td>Euro-cilindro (adattatore incluso)</td><td>Euro-cilindro (adattatore Linus)</td><td>Euro-cilindro (adattatore Tedee)</td><td>Euro-cilindro + pomolo</td></tr>
-<tr><td>Installazione</td><td>3 min, senza forare</td><td>5 min, senza forare</td><td>3 min, senza forare</td><td>5 min, senza forare</td></tr>
-<tr><td>Protocollo</td><td>Matter + Thread + Wi-Fi + BLE</td><td>Matter + Thread + BLE</td><td>BLE + bridge Wi-Fi (opzionale)</td><td>BLE + Wi-Fi (hub opzionale)</td></tr>
-<tr><td>Auto-unlock</td><td>Si (GPS + BLE)</td><td>Si (GPS + BLE)</td><td>Si (con bridge)</td><td>Si (con hub)</td></tr>
-<tr><td>Accesso ospiti</td><td>Si (temporaneo, ricorrente, permanente)</td><td>Si (via app Yale)</td><td>Si (via app Tedee)</td><td>Si (via app SwitchBot)</td></tr>
-<tr><td>Tastierino codice (opzionale)</td><td>Nuki Keypad 2.0 (~79 EUR)</td><td>Yale Keypad (~65 EUR)</td><td>Tedee Keypad (~69 EUR)</td><td>SwitchBot Keypad Touch (~35 EUR)</td></tr>
-<tr><td>Chiave fisica mantenuta</td><td>Si</td><td>Si</td><td>Si</td><td>Si</td></tr>
-<tr><td>Alimentazione</td><td>4 pile AA (8-12 mesi)</td><td>4 pile AA (6-9 mesi)</td><td>3 pile CR123 (8-14 mesi)</td><td>2 pile CR123A (6 mesi) o batteria</td></tr>
-<tr><td>Livello sonoro</td><td>~45 dB</td><td>~50 dB</td><td>~42 dB</td><td>~48 dB</td></tr>
-<tr><td>Domotica</td><td>Apple HomeKit, Google, Alexa, Home Assistant</td><td>Apple HomeKit, Google, Alexa</td><td>Apple HomeKit, Google, Alexa (via bridge)</td><td>Google, Alexa (no HomeKit)</td></tr>
-<tr><td>Certificazioni</td><td>AV-TEST, SKG***</td><td>Yale Doorman, AV-TEST</td><td>AV-TEST</td><td>—</td></tr>
-<tr><td>Prezzo (aprile 2026)</td><td>~199 EUR</td><td>~249 EUR</td><td>~189 EUR</td><td>~99 EUR</td></tr>
+<tr><td>Nuki Smart Lock Pro (5e gen.)</td><td>Wifi + Bluetooth + Thread</td><td>Ja, native (Thread)</td><td>Oplaadbare accu</td><td>Optioneel</td><td>De meeste huishoudens</td></tr>
+<tr><td>Nuki Smart Lock Go</td><td>Wifi + Bluetooth + Thread</td><td>Ja, native (Thread)</td><td>Alkalinebatterijen (Power Pack optioneel)</td><td>Optioneel</td><td>Kleiner budget</td></tr>
+<tr><td>Aqara Smart Lock U200</td><td>Bluetooth + Thread</td><td>Ja, native (Thread)</td><td>Oplaadbare accu</td><td>Inbegrepen (vingerafdruk, NFC, pincode)</td><td>Openen zonder telefoon</td></tr>
+<tr><td>Tedee GO 2</td><td>Bluetooth + Thread</td><td>Ja, native (Thread)</td><td>3 × CR123</td><td>Optioneel</td><td>Compact formaat</td></tr>
+<tr><td>Yale Linus Smart Lock L2</td><td>Wifi + Bluetooth</td><td>Ja, via wifi</td><td>Oplaadbare accu</td><td>Optioneel</td><td>Directe wifi</td></tr>
+<tr><td>SwitchBot Lock Ultra</td><td>Bluetooth (+ hub)</td><td>Via SwitchBot-hub</td><td>Oplaadbare accu + reservebatterij</td><td>Optioneel</td><td>Accuduur</td></tr>
 </tbody>
 </table>
 
-<h2>Nuki Smart Lock 4.0: il riferimento europeo (scelta della redazione)</h2>
-<h3>Punti di forza</h3>
+<h2>Fouten om te vermijden</h2>
 <ul>
-<li><strong>Matter + Thread nativo:</strong> Comunicazione diretta senza bridge. La serratura piu compatibile e a prova di futuro.</li>
-<li><strong>Installazione in 3 minuti:</strong> Senza forare, senza modificare la serratura esistente.</li>
-<li><strong>Auto-unlock intelligente:</strong> 95 % di successo in 6 settimane di test.</li>
-<li><strong>Gestione accessi completa:</strong> Inviti temporanei, ricorrenti, permanenti. Storico illimitato.</li>
-<li><strong>Chiave fisica mantenuta:</strong> Il Nuki si installa sopra il cilindro. La chiave funziona sempre.</li>
-<li><strong>Certificato AV-TEST + SKG***:</strong> Massima certificazione di sicurezza IoT ed europea.</li>
-</ul>
-<h3>Punti deboli</h3>
-<ul>
-<li>Design funzionale ma voluminoso — 11 cm di diametro visibile dall'interno.</li>
-<li>Motore leggermente piu rumoroso del Tedee GO (~45 dB vs ~42 dB).</li>
-<li>Tastierino Nuki Keypad 2.0 venduto separatamente a 79 EUR.</li>
-</ul>
-<h3>Il nostro verdetto: Nuki Smart Lock 4.0</h3>
-<p>Il Nuki Smart Lock 4.0 e la nostra scelta editoriale 2026. A 199 EUR, eccellente rapporto qualita-prezzo. Consulta la nostra <a href="/it/blog/guide-securite-maison-connectee-2026">guida completa alla sicurezza domestica smart 2026</a>.</p>
-
-<h2>Yale Linus L2: il marchio storico della serratureria</h2>
-<h3>Punti di forza</h3>
-<ul>
-<li><strong>Eredita Yale:</strong> Il nome piu antico e riconosciuto nel settore (fondato nel 1840).</li>
-<li><strong>Matter + Thread</strong> per integrazione domotica universale.</li>
-<li><strong>Design premium:</strong> Finitura in metallo spazzolato, profilo compatto ed elegante.</li>
-<li><strong>DoorSense integrato:</strong> Sensore che rileva se la porta e chiusa.</li>
-</ul>
-<h3>Punti deboli</h3>
-<ul>
-<li>249 EUR e il prezzo piu alto — 50 EUR in piu del Nuki.</li>
-<li>6-9 mesi di autonomia, inferiore a Nuki e Tedee.</li>
+<li><strong>Kopen zonder de cilinder te controleren</strong>: zonder noodfunctie kan de adapter de sleutel van buitenaf blokkeren. Dat is de belangrijkste reden voor retouren.</li>
+<li><strong>Rekenen op Matter zonder Thread-router</strong>: modellen met Matter over Thread hebben een borderrouter nodig die bij je ecosysteem past.</li>
+<li><strong>Vergeten op te laden</strong>: zet meldingen voor een bijna lege batterij aan en houd je fysieke sleutel bij je of bij iemand in de buurt.</li>
+<li><strong>Op een vuile deur plakken</strong>: maak bij montage met tape het oppervlak eerst schoon en houd je aan de uithardingstijd.</li>
+<li><strong>Automatisch ontgrendelen aanzetten zonder af te stellen</strong>: ontgrendelen bij nadering vraagt fijnafstelling; begin met een bevestigingsmelding.</li>
 </ul>
 
-<h2>Tedee GO: la piu compatta e discreta</h2>
-<h3>Punti di forza</h3>
-<ul>
-<li><strong>Design ultra-compatto:</strong> Solo 5,8 cm di diametro — la serratura smart piu piccola sul mercato.</li>
-<li><strong>La piu silenziosa (~42 dB).</strong></li>
-<li><strong>Eccellente autonomia (8-14 mesi).</strong></li>
-<li><strong>Produzione europea:</strong> Azienda polacca — progettazione e produzione in Europa.</li>
-<li><strong>Prezzo interessante (189 EUR).</strong></li>
-</ul>
-<h3>Punti deboli</h3>
-<ul>
-<li>Niente Matter nativo — solo Bluetooth. Per l'accesso remoto, bridge Wi-Fi a 69 EUR extra.</li>
-<li>Nelle serrature multipunto, la coppia motore potrebbe essere insufficiente.</li>
-</ul>
+<h2>Montage, huurwoning en veiligheid</h2>
+<p>Alle zes modellen worden binnen gemonteerd, meestal zonder in de deur te boren, en zijn spoorloos te verwijderen. Ze zijn dus doorgaans geschikt voor huurwoningen. Laat het je verhuurder of VvE wel weten, zeker als er buiten een klavier moet komen.</p>
+<p>Een slim slot maakt de deur fysiek niet sterker: tegen inbraak tellen de cilinder en het slot. Voor de voordeur blijft een gecertificeerde veiligheidscilinder (bijvoorbeeld met SKG-keurmerk in Nederland) een goede basis. Kies digitaal een merk met regelmatige updates, zet tweestapsverificatie aan en trek gasttoegang in die je niet meer nodig hebt. Lees voor meer informatie onze <a href="/nl/blog/guide-securite-maison-connectee-2026">gids over slimme beveiliging thuis</a>.</p>
 
-<h2>SwitchBot Lock Pro: il budget intelligente</h2>
-<h3>Punti di forza</h3>
-<ul>
-<li><strong>Prezzo imbattibile a 99 EUR:</strong> La meta di Nuki e Yale.</li>
-<li><strong>SwitchBot Keypad Touch a 35 EUR:</strong> Tastierino piu economico con lettore di impronte.</li>
-<li><strong>Doppia alimentazione:</strong> Pile o batteria ricaricabile opzionale.</li>
-</ul>
-<h3>Punti deboli</h3>
-<ul>
-<li>Nessun Apple HomeKit, nessun Matter, nessun Thread.</li>
-<li>Nessuna certificazione di sicurezza indipendente.</li>
-<li>6 mesi di autonomia, la piu breve.</li>
-</ul>
-
-<h2>Sicurezza delle serrature smart: miti sfatati</h2>
-<h3>Mito 1: "Una serratura smart e meno sicura di una tradizionale"</h3>
-<p>Falso. Una serratura smart certificata usa crittografia AES-256 e autenticazione TLS — lo stesso livello della banca online. Una serratura tradizionale puo essere forzata in 30 secondi.</p>
-
-<h3>Mito 2: "Se le pile si scaricano, resto chiuso fuori"</h3>
-<p>Falso. Tutte e 4 le serrature mantengono la chiave fisica. Tutte inviano avvisi di batteria scarica 2-4 settimane prima.</p>
-
-<h2>Quale serratura smart per quale situazione?</h2>
-<table>
-<thead>
-<tr><th>La tua situazione</th><th>La nostra raccomandazione</th><th>Budget</th></tr>
-</thead>
-<tbody>
-<tr><td>Casa familiare, ecosistema domotico</td><td>Nuki Smart Lock 4.0</td><td>199 EUR</td></tr>
-<tr><td>Design premium, ecosistema Yale</td><td>Yale Linus L2</td><td>249 EUR</td></tr>
-<tr><td>Appartamento, massima discrezione</td><td>Tedee GO</td><td>189 EUR (+ bridge 69 EUR)</td></tr>
-<tr><td>Primo acquisto, budget limitato</td><td>SwitchBot Lock Pro</td><td>99 EUR (+ keypad 35 EUR)</td></tr>
-<tr><td>Affitto breve / Airbnb</td><td>Nuki 4.0 + Keypad 2.0</td><td>278 EUR</td></tr>
-<tr><td>Utenti Apple HomeKit</td><td>Nuki 4.0 o Yale Linus L2</td><td>199-249 EUR</td></tr>
-</tbody>
-</table>
-
-<h2>Il nostro verdetto finale</h2>
-<p><strong>Il Nuki Smart Lock 4.0 e la migliore serratura smart per l'Europa nel 2026.</strong> Support nativo Matter + Thread, installazione in 3 minuti, gestione accessi completa, chiave fisica mantenuta e doppia certificazione — tutto per 199 EUR. Per il design, il <strong>Yale Linus L2</strong> (249 EUR). Per la discrezione assoluta, il <strong>Tedee GO</strong> (189 EUR). Per il budget, il <strong>SwitchBot Lock Pro</strong> (99 EUR). Consulta il nostro <a href="/it/blog/comparatif-camera-surveillance-exterieure">confronto videocamere di sorveglianza</a> e la nostra <a href="/it/blog/sonnette-video-sans-abonnement">guida ai campanelli video</a>.</p>`,
-
-    nl: `<h2>Waarom een slim deurslot installeren in 2026?</h2>
-<p>Het slimme deurslot (smart lock) is een van de meest praktische smart home-apparaten in het dagelijks leven. Geen verloren sleutels meer, geen kopietjes voor de familie, geen heen-en-weer-gereis om bezorgers of vakmensen binnen te laten. In 2026 hebben Europese smart locks een opmerkelijke volwassenheid bereikt: compatibiliteit met bestaande Euro-cilinders, Matter-protocol voor interoperabiliteit en versterkte beveiliging met end-to-end-encryptie.</p>
-<p>Het kiezen van het juiste slimme deurslot in Europa is complexer dan in de VS: je moet de compatibiliteit controleren met je bestaande cilinder, deurdikte, slottype (inbouw, opleg) en lokale beveiligingsnormen. Deze gids begeleidt je stap voor stap.</p>
-
-<h2>Vergelijkingstabel: 4 beste slimme deursloten 2026</h2>
-<table>
-<thead>
-<tr><th>Criterium</th><th>Nuki Smart Lock 4.0</th><th>Yale Linus L2</th><th>Tedee GO</th><th>SwitchBot Lock Pro</th></tr>
-</thead>
-<tbody>
-<tr><td>Cilindercompatibiliteit</td><td>Euro-cilinder (adapter inbegrepen)</td><td>Euro-cilinder (Linus-adapter)</td><td>Euro-cilinder (Tedee-adapter)</td><td>Euro-cilinder + draaiknop</td></tr>
-<tr><td>Installatie</td><td>3 min, zonder boren</td><td>5 min, zonder boren</td><td>3 min, zonder boren</td><td>5 min, zonder boren</td></tr>
-<tr><td>Protocol</td><td>Matter + Thread + Wi-Fi + BLE</td><td>Matter + Thread + BLE</td><td>BLE + Wi-Fi-bridge (optioneel)</td><td>BLE + Wi-Fi (hub optioneel)</td></tr>
-<tr><td>Auto-unlock</td><td>Ja (GPS + BLE)</td><td>Ja (GPS + BLE)</td><td>Ja (met bridge)</td><td>Ja (met hub)</td></tr>
-<tr><td>Gasttoegang</td><td>Ja (tijdelijk, terugkerend, permanent)</td><td>Ja (via Yale-app)</td><td>Ja (via Tedee-app)</td><td>Ja (via SwitchBot-app)</td></tr>
-<tr><td>Codeklavier (optioneel)</td><td>Nuki Keypad 2.0 (~79 EUR)</td><td>Yale Keypad (~65 EUR)</td><td>Tedee Keypad (~69 EUR)</td><td>SwitchBot Keypad Touch (~35 EUR)</td></tr>
-<tr><td>Fysieke sleutel behouden</td><td>Ja</td><td>Ja</td><td>Ja</td><td>Ja</td></tr>
-<tr><td>Voeding</td><td>4 AA-batterijen (8-12 maanden)</td><td>4 AA-batterijen (6-9 maanden)</td><td>3 CR123-batterijen (8-14 maanden)</td><td>2 CR123A (6 maanden) of accu</td></tr>
-<tr><td>Geluidsniveau</td><td>~45 dB</td><td>~50 dB</td><td>~42 dB</td><td>~48 dB</td></tr>
-<tr><td>Smart home</td><td>Apple HomeKit, Google, Alexa, Home Assistant</td><td>Apple HomeKit, Google, Alexa</td><td>Apple HomeKit, Google, Alexa (via bridge)</td><td>Google, Alexa (geen HomeKit)</td></tr>
-<tr><td>Certificeringen</td><td>AV-TEST, SKG***</td><td>Yale Doorman, AV-TEST</td><td>AV-TEST</td><td>—</td></tr>
-<tr><td>Prijs (april 2026)</td><td>~199 EUR</td><td>~249 EUR</td><td>~189 EUR</td><td>~99 EUR</td></tr>
-</tbody>
-</table>
-
-<h2>Nuki Smart Lock 4.0: de Europese referentie (redactiekeuze)</h2>
-<h3>Sterke punten</h3>
-<ul>
-<li><strong>Natief Matter + Thread:</strong> Directe communicatie zonder bridge. Het meest compatibele en toekomstbestendige slimme slot.</li>
-<li><strong>Installatie in 3 minuten:</strong> Zonder boren, zonder wijziging aan het bestaande slot.</li>
-<li><strong>Intelligent auto-unlock:</strong> 95 % slagingspercentage in 6 weken testen.</li>
-<li><strong>Uitgebreid toegangsbeheer:</strong> Tijdelijke, terugkerende en permanente uitnodigingen. Onbeperkt toegangslogboek.</li>
-<li><strong>Fysieke sleutel behouden:</strong> De Nuki wordt over de cilinder geplaatst. Je sleutel blijft werken.</li>
-<li><strong>AV-TEST + SKG*** gecertificeerd:</strong> Hoogste beveiligingscertificering voor IoT-apparaten en Europese sloten.</li>
-</ul>
-<h3>Zwakke punten</h3>
-<ul>
-<li>Functioneel maar volumineus ontwerp — 11 cm diameter zichtbaar aan de binnenkant.</li>
-<li>Motor iets luider dan de Tedee GO (~45 dB vs ~42 dB).</li>
-<li>Nuki Keypad 2.0 apart verkrijgbaar voor 79 EUR.</li>
-</ul>
-<h3>Ons oordeel: Nuki Smart Lock 4.0</h3>
-<p>De Nuki Smart Lock 4.0 is onze redactiekeuze 2026. Op 199 EUR uitstekende prijs-kwaliteitverhouding. Bekijk onze <a href="/nl/blog/guide-securite-maison-connectee-2026">complete gids smart home-beveiliging 2026</a>.</p>
-
-<h2>Yale Linus L2: het historische slotmerk</h2>
-<h3>Sterke punten</h3>
-<ul>
-<li><strong>Yale-erfgoed:</strong> De oudste en meest erkende naam in sloten (opgericht 1840).</li>
-<li><strong>Matter + Thread</strong> voor universele smart home-integratie.</li>
-<li><strong>Premium ontwerp:</strong> Geborsteld metalen afwerking, compact en elegant profiel.</li>
-<li><strong>Geintegreerde DoorSense:</strong> Sensor die detecteert of de deur dicht is.</li>
-</ul>
-<h3>Zwakke punten</h3>
-<ul>
-<li>249 EUR is de hoogste prijs — 50 EUR meer dan de Nuki.</li>
-<li>6-9 maanden accuduur, korter dan Nuki en Tedee.</li>
-</ul>
-
-<h2>Tedee GO: het meest compact en discreet</h2>
-<h3>Sterke punten</h3>
-<ul>
-<li><strong>Ultra-compact ontwerp:</strong> Slechts 5,8 cm diameter — het kleinste slimme slot op de markt.</li>
-<li><strong>Het stilste (~42 dB).</strong></li>
-<li><strong>Uitstekende accuduur (8-14 maanden).</strong></li>
-<li><strong>Europese fabricage:</strong> Pools bedrijf — ontwerp en productie in Europa.</li>
-<li><strong>Aantrekkelijke prijs (189 EUR).</strong></li>
-</ul>
-<h3>Zwakke punten</h3>
-<ul>
-<li>Geen natief Matter — alleen Bluetooth. Voor toegang op afstand, Wi-Fi-bridge voor 69 EUR extra.</li>
-<li>Bij meerpuntsvergrendelingen kan het koppel onvoldoende zijn.</li>
-</ul>
-
-<h2>SwitchBot Lock Pro: de slimme budgetkeuze</h2>
-<h3>Sterke punten</h3>
-<ul>
-<li><strong>Onverslaanbare prijs op 99 EUR:</strong> De helft van Nuki en Yale.</li>
-<li><strong>SwitchBot Keypad Touch voor 35 EUR:</strong> Goedkoopste toetsenbord met vingerafdruklezer.</li>
-<li><strong>Dubbele voeding:</strong> Batterijen of optionele herlaadbare accu.</li>
-</ul>
-<h3>Zwakke punten</h3>
-<ul>
-<li>Geen Apple HomeKit, geen Matter, geen Thread.</li>
-<li>Geen onafhankelijke beveiligingscertificering.</li>
-<li>6 maanden accuduur, de kortste.</li>
-</ul>
-
-<h2>Beveiliging van slimme sloten: mythes ontkracht</h2>
-<h3>Mythe 1: "Een slim slot is minder veilig dan een traditioneel slot"</h3>
-<p>Onjuist. Een gecertificeerd slim slot (Nuki AV-TEST, Yale) gebruikt AES-256-encryptie en TLS-authenticatie — hetzelfde beveiligingsniveau als online bankieren. Een traditioneel slot kan in 30 seconden worden opengebroken.</p>
-
-<h3>Mythe 2: "Als de batterijen leeg zijn, sta ik buitengesloten"</h3>
-<p>Onjuist. Alle 4 sloten behouden de fysieke sleutel. Alle sturen 2-4 weken van tevoren waarschuwingen.</p>
-
-<h2>Welk slim deurslot voor welke situatie?</h2>
-<table>
-<thead>
-<tr><th>Jouw situatie</th><th>Onze aanbeveling</th><th>Budget</th></tr>
-</thead>
-<tbody>
-<tr><td>Gezinswoning, smart home-ecosysteem</td><td>Nuki Smart Lock 4.0</td><td>199 EUR</td></tr>
-<tr><td>Premium ontwerp, Yale-ecosysteem</td><td>Yale Linus L2</td><td>249 EUR</td></tr>
-<tr><td>Appartement, maximale discretie</td><td>Tedee GO</td><td>189 EUR (+ bridge 69 EUR)</td></tr>
-<tr><td>Eerste aankoop, krap budget</td><td>SwitchBot Lock Pro</td><td>99 EUR (+ keypad 35 EUR)</td></tr>
-<tr><td>Vakantieverhuur / Airbnb</td><td>Nuki 4.0 + Keypad 2.0</td><td>278 EUR</td></tr>
-<tr><td>Apple HomeKit-gebruikers</td><td>Nuki 4.0 of Yale Linus L2</td><td>199-249 EUR</td></tr>
-</tbody>
-</table>
-
-<h2>Ons eindoordeel</h2>
-<p><strong>De Nuki Smart Lock 4.0 is het beste slimme deurslot voor Europa in 2026.</strong> Natief Matter + Thread, 3 minuten installatie, uitgebreid toegangsbeheer, behouden fysieke sleutel en dubbele beveiligingscertificering — alles voor 199 EUR. Voor design, het <strong>Yale Linus L2</strong> (249 EUR). Voor absolute discretie, de <strong>Tedee GO</strong> (189 EUR). Voor budget, de <strong>SwitchBot Lock Pro</strong> (99 EUR). Bekijk ook onze <a href="/nl/blog/comparatif-camera-surveillance-exterieure">vergelijking beveiligingscamera's</a> en onze <a href="/nl/blog/sonnette-video-sans-abonnement">gids video-deurbellen</a>.</p>`,
+<h2>Ons oordeel</h2>
+<p><strong>De Nuki Smart Lock Pro (5e generatie) is in 2026 het meest evenwichtige slimme slot</strong>: montage op de bestaande cilinder, ingebouwde wifi en Matter over Thread, een oplaadbare accu en een complete app. De <strong>Nuki Smart Lock Go</strong> biedt dezelfde basis in het instapsegment. De <strong>Aqara Smart Lock U200</strong> is de beste keuze als je meteen een vingerafdrukklavier wilt, de <strong>Tedee GO 2</strong> de meest discrete, de <strong>Yale Linus L2</strong> de eenvoudigste via wifi en de <strong>SwitchBot Lock Ultra</strong> gaat het langst mee per lading. Maak je voordeur compleet met onze gids over <a href="/nl/blog/sonnette-video-sans-abonnement">videodeurbellen zonder abonnement</a>.</p>`,
   },
   faq: [
     {
       question: {
-        fr: 'Une serrure connectee est-elle compatible avec ma porte europeenne ?',
-        en: 'Is a smart lock compatible with my European door?',
-        de: 'Ist ein smartes Tuerschloss mit meiner europaeischen Tuer kompatibel?',
-        es: 'Es compatible una cerradura inteligente con mi puerta europea?',
-        it: 'Una serratura smart e compatibile con la mia porta europea?',
-        nl: 'Is een slim deurslot compatibel met mijn Europese deur?',
+        fr: 'Ma porte est-elle compatible avec une serrure connectée ?',
+        en: 'Is my door compatible with a smart lock?',
+        de: 'Ist meine Tür mit einem smarten Türschloss kompatibel?',
+        es: '¿Es compatible mi puerta con una cerradura inteligente?',
+        it: 'La mia porta è compatibile con una serratura smart?',
+        nl: 'Is mijn deur geschikt voor een slim slot?',
       },
       answer: {
-        fr: 'Oui, dans la grande majorite des cas. Les 4 serrures connectees de ce comparatif (Nuki, Yale, Tedee, SwitchBot) sont toutes compatibles avec les cylindres europeens (profil DIN), qui equipent environ 90 % des portes en France, Allemagne, Espagne, Italie, Belgique et Pays-Bas. Verifiez trois points : 1) Votre cylindre depasse d\'au moins 3 mm cote interieur de la porte. 2) L\'epaisseur de votre porte est entre 35 et 80 mm. 3) Votre serrure est de type a encastrer (la plus courante). En cas de doute, les sites de Nuki et Yale proposent des outils de compatibilite en ligne avec photo.',
-        en: 'Yes, in the vast majority of cases. All 4 smart locks in this comparison (Nuki, Yale, Tedee, SwitchBot) are compatible with Euro-profile cylinders (DIN standard), which are fitted in approximately 90% of doors in France, Germany, Spain, Italy, Belgium and the Netherlands. Check three points: 1) Your cylinder protrudes at least 3 mm on the inside of the door. 2) Your door thickness is between 35 and 80 mm. 3) Your lock is a mortice type (the most common). If in doubt, the Nuki and Yale websites offer online compatibility checkers with photo guides.',
-        de: 'Ja, in der ueberwiegenden Mehrheit der Faelle. Alle 4 Smart Locks in diesem Vergleich (Nuki, Yale, Tedee, SwitchBot) sind mit Euro-Profilzylindern (DIN-Standard) kompatibel, die in etwa 90 % der Tueren in Europa verbaut sind. Pruefen Sie drei Punkte: 1) Ihr Zylinder steht mindestens 3 mm auf der Innenseite der Tuer hervor. 2) Ihre Tuerdicke liegt zwischen 35 und 80 mm. 3) Ihr Schloss ist ein Einsteckschloss (am haeufigsten). Im Zweifel bieten Nuki und Yale Online-Kompatibilitaetschecks mit Fotos an.',
-        es: 'Si, en la gran mayoria de los casos. Las 4 cerraduras inteligentes de esta comparativa (Nuki, Yale, Tedee, SwitchBot) son compatibles con los cilindros europeos (perfil DIN), presentes en aproximadamente el 90 % de las puertas en Europa. Verifica tres puntos: 1) Tu cilindro sobresale al menos 3 mm por el interior. 2) El grosor de tu puerta esta entre 35 y 80 mm. 3) Tu cerradura es de tipo embutida (la mas comun). En caso de duda, las webs de Nuki y Yale ofrecen comprobadores de compatibilidad online con fotos.',
-        it: 'Si, nella stragrande maggioranza dei casi. Tutte e 4 le serrature smart di questo confronto (Nuki, Yale, Tedee, SwitchBot) sono compatibili con i cilindri europei (profilo DIN), presenti in circa il 90 % delle porte in Europa. Verifica tre punti: 1) Il tuo cilindro sporge di almeno 3 mm dal lato interno. 2) Lo spessore della tua porta e tra 35 e 80 mm. 3) La tua serratura e di tipo da incasso (la piu comune). In caso di dubbio, i siti Nuki e Yale offrono verificatori di compatibilita online con foto.',
-        nl: 'Ja, in de overgrote meerderheid van de gevallen. Alle 4 slimme sloten in deze vergelijking (Nuki, Yale, Tedee, SwitchBot) zijn compatibel met Euro-profielcilinders (DIN-standaard), die in ongeveer 90 % van de deuren in Europa zijn ingebouwd. Controleer drie punten: 1) Je cilinder steekt minstens 3 mm uit aan de binnenkant. 2) Je deurdikte is tussen 35 en 80 mm. 3) Je slot is een inbouwslot (meest voorkomend). Bij twijfel bieden Nuki en Yale online compatibiliteitscheckers met foto\'s.',
+        fr: 'Dans la plupart des cas, oui, si votre porte a un cylindre à profil européen. Vérifiez deux points : le cylindre doit dépasser assez côté intérieur, et il doit avoir une fonction de secours (ouverture possible de l’extérieur avec une clé engagée à l’intérieur). Les fabricants proposent des outils de compatibilité en ligne.',
+        en: 'In most cases, yes, if your door has a Euro-profile cylinder. Check two things: the cylinder must protrude enough on the inside, and it must have an emergency function (it opens from outside even with a key inserted inside). Manufacturers offer online compatibility checkers.',
+        de: 'In den meisten Fällen ja, sofern Ihre Tür einen Euro-Profilzylinder hat. Prüfen Sie zwei Punkte: Der Zylinder muss innen weit genug überstehen und eine Not- und Gefahrenfunktion haben (Öffnen von außen auch bei innen steckendem Schlüssel). Die Hersteller bieten Online-Kompatibilitätschecks an.',
+        es: 'En la mayoría de los casos, sí, si tu puerta tiene un cilindro de perfil europeo. Comprueba dos cosas: el cilindro debe sobresalir lo suficiente por dentro y tener función de emergencia (se abre desde fuera aunque haya una llave puesta por dentro). Los fabricantes ofrecen comprobadores de compatibilidad en línea.',
+        it: 'Nella maggior parte dei casi sì, se la porta ha un cilindro a profilo europeo. Verificate due cose: il cilindro deve sporgere abbastanza all’interno e avere la funzione di emergenza (si apre dall’esterno anche con una chiave inserita dentro). I produttori offrono strumenti di compatibilità online.',
+        nl: 'Meestal wel, als je deur een Europrofielcilinder heeft. Controleer twee dingen: de cilinder moet binnen ver genoeg uitsteken en een noodfunctie hebben (hij gaat van buitenaf open, ook als er binnen een sleutel in zit). Fabrikanten bieden online compatibiliteitschecks.',
       },
     },
     {
       question: {
-        fr: 'Peut-on installer une serrure connectee en location ?',
-        en: 'Can you install a smart lock in a rented property?',
-        de: 'Kann man ein Smart Lock in einer Mietwohnung installieren?',
-        es: 'Se puede instalar una cerradura inteligente en un piso de alquiler?',
-        it: 'Si puo installare una serratura smart in un appartamento in affitto?',
-        nl: 'Kun je een slim deurslot installeren in een huurwoning?',
+        fr: 'Peut-on installer une serrure connectée en location ?',
+        en: 'Can I fit a smart lock in a rented home?',
+        de: 'Kann ich ein Smart Lock in einer Mietwohnung montieren?',
+        es: '¿Puedo instalar una cerradura inteligente en un piso de alquiler?',
+        it: 'Posso installare una serratura smart in una casa in affitto?',
+        nl: 'Kan ik een slim slot plaatsen in een huurwoning?',
       },
       answer: {
-        fr: 'Oui, et c\'est l\'un des grands avantages des serrures connectees europeennes. Les 4 modeles de ce comparatif s\'installent sans percer et sans modifier la serrure existante — ils se posent par-dessus le cylindre avec un adhesif 3M. L\'installation est 100 % reversible : en quittant le logement, vous retirez la serrure connectee en 30 secondes et la porte retrouve son etat d\'origine. La cle physique d\'origine continue de fonctionner a tout moment. C\'est donc parfaitement adapte a la location. Conseil : informez votre proprietaire par courtoisie, meme si aucune modification permanente n\'est effectuee.',
-        en: 'Yes, and this is one of the great advantages of European smart locks. All 4 models in this comparison install without drilling and without modifying the existing lock — they sit over the cylinder with 3M adhesive. Installation is 100% reversible: when leaving the property, you remove the smart lock in 30 seconds and the door returns to its original state. The original physical key continues to work at all times. Perfectly suited for renting. Tip: inform your landlord as a courtesy, even though no permanent modification is made.',
-        de: 'Ja, und das ist einer der grossen Vorteile europaeischer Smart Locks. Alle 4 Modelle installieren sich ohne Bohren und ohne Modifikation am bestehenden Schloss — sie sitzen ueber dem Zylinder mit 3M-Kleber. Die Installation ist 100 % reversibel: Beim Auszug entfernen Sie das Smart Lock in 30 Sekunden. Der Original-Schluessel funktioniert jederzeit. Tipp: Informieren Sie Ihren Vermieter aus Hoeflichkeit.',
-        es: 'Si, y es una de las grandes ventajas de las cerraduras inteligentes europeas. Los 4 modelos se instalan sin taladrar y sin modificar la cerradura existente — se colocan sobre el cilindro con adhesivo 3M. La instalacion es 100 % reversible. La llave fisica original sigue funcionando en todo momento. Consejo: informa a tu casero por cortesia.',
-        it: 'Si, ed e uno dei grandi vantaggi delle serrature smart europee. Tutti e 4 i modelli si installano senza forare e senza modificare la serratura esistente — si posizionano sopra il cilindro con adesivo 3M. L\'installazione e 100 % reversibile. La chiave fisica originale continua a funzionare. Consiglio: informate il proprietario per cortesia.',
-        nl: 'Ja, en dit is een van de grote voordelen van Europese slimme sloten. Alle 4 modellen worden geinstalleerd zonder boren en zonder wijziging aan het bestaande slot — ze zitten over de cilinder met 3M-lijm. De installatie is 100 % omkeerbaar. De originele fysieke sleutel blijft werken. Tip: informeer je verhuurder uit beleefdheid.',
+        fr: 'Généralement oui. Les modèles à rétrofit se posent côté intérieur, sur le cylindre existant, souvent sans percer, et se retirent sans trace. Prévenez tout de même votre propriétaire, surtout si un clavier doit être fixé à l’extérieur. Les modèles qui remplacent le cylindre sont moins adaptés à la location.',
+        en: 'Usually, yes. Retrofit models fit on the inside, over the existing cylinder, often without drilling, and come off without leaving a mark. Still let your landlord know, especially if a keypad has to be mounted outside. Models that replace the cylinder are less suited to renting.',
+        de: 'In der Regel ja. Nachrüstmodelle werden innen auf den vorhandenen Zylinder gesetzt, oft ohne Bohren, und lassen sich spurlos entfernen. Informieren Sie trotzdem Ihren Vermieter, vor allem wenn außen ein Keypad montiert wird. Modelle, die den Zylinder ersetzen, eignen sich für Mieter weniger.',
+        es: 'Normalmente sí. Los modelos de adaptación se colocan por dentro, sobre el cilindro existente, a menudo sin taladrar, y se retiran sin dejar marcas. Aun así, avisa al casero, sobre todo si hay que fijar un teclado en el exterior. Los modelos que sustituyen el cilindro son menos adecuados para alquiler.',
+        it: 'In genere sì. I modelli retrofit si montano all’interno, sul cilindro esistente, spesso senza forare, e si rimuovono senza lasciare segni. Avvisate comunque il proprietario, soprattutto se va fissato un tastierino esterno. I modelli che sostituiscono il cilindro sono meno adatti all’affitto.',
+        nl: 'Meestal wel. Retrofitmodellen komen binnen op de bestaande cilinder, vaak zonder boren, en zijn spoorloos te verwijderen. Laat het je verhuurder wel weten, zeker als er buiten een klavier komt. Modellen die de cilinder vervangen zijn minder geschikt voor huurders.',
       },
     },
     {
       question: {
-        fr: 'Quelle est la duree de vie des piles d\'une serrure connectee ?',
-        en: 'How long do smart lock batteries last?',
-        de: 'Wie lange halten die Batterien eines Smart Locks?',
-        es: 'Cuanto duran las pilas de una cerradura inteligente?',
-        it: 'Quanto durano le pile di una serratura smart?',
-        nl: 'Hoe lang gaan de batterijen van een slim deurslot mee?',
+        fr: 'Que se passe-t-il si la batterie est vide ?',
+        en: 'What happens if the battery runs out?',
+        de: 'Was passiert, wenn der Akku leer ist?',
+        es: '¿Qué pasa si se agota la batería?',
+        it: 'Cosa succede se la batteria si scarica?',
+        nl: 'Wat gebeurt er als de batterij leeg is?',
       },
       answer: {
-        fr: 'La duree de vie des piles varie selon le modele et l\'utilisation : le Nuki Smart Lock 4.0 offre 8 a 12 mois avec 4 piles AA (environ 8 operations par jour). Le Tedee GO atteint 8 a 14 mois avec 3 piles CR123. Le Yale Linus L2 offre 6 a 9 mois. Le SwitchBot Lock Pro est le plus court avec 6 mois. Toutes les serrures envoient des alertes de batterie faible 2 a 4 semaines avant epuisement et la cle physique reste fonctionnelle en cas de panne. Cout annuel des piles : 5 a 15 EUR selon le modele. Le Nuki avec piles AA rechargeables est la solution la plus economique a long terme.',
-        en: 'Battery life varies by model and usage: the Nuki Smart Lock 4.0 offers 8 to 12 months with 4 AA batteries (approximately 8 operations per day). The Tedee GO achieves 8 to 14 months with 3 CR123 batteries. The Yale Linus L2 offers 6 to 9 months. The SwitchBot Lock Pro is shortest at 6 months. All locks send low-battery alerts 2 to 4 weeks before depletion and the physical key remains functional if batteries die. Annual battery cost: 4 to 12 GBP depending on model. The Nuki with rechargeable AA batteries is the most economical long-term solution.',
-        de: 'Die Batterielebensdauer variiert je nach Modell und Nutzung: Das Nuki Smart Lock 4.0 bietet 8 bis 12 Monate mit 4 AA-Batterien (ca. 8 Bedienungen pro Tag). Das Tedee GO erreicht 8 bis 14 Monate mit 3 CR123-Batterien. Das Yale Linus L2 bietet 6 bis 9 Monate. Das SwitchBot Lock Pro ist mit 6 Monaten am kuerzesten. Alle Schloesser senden Warnungen 2 bis 4 Wochen vor Entladung. Jaehrliche Batteriekosten: 5 bis 15 EUR. Nuki mit Akkus ist die wirtschaftlichste Loesung.',
-        es: 'La duracion de las pilas varia segun el modelo: el Nuki 4.0 ofrece 8-12 meses con 4 pilas AA. El Tedee GO alcanza 8-14 meses. El Yale Linus L2 ofrece 6-9 meses. El SwitchBot es el mas corto con 6 meses. Todas envian alertas de bateria baja 2-4 semanas antes. Coste anual de pilas: 5-15 EUR. El Nuki con pilas recargables es la solucion mas economica.',
-        it: 'La durata delle pile varia per modello: il Nuki 4.0 offre 8-12 mesi con 4 pile AA. Il Tedee GO raggiunge 8-14 mesi. Lo Yale Linus L2 offre 6-9 mesi. Lo SwitchBot e il piu breve con 6 mesi. Tutte inviano avvisi di batteria scarica 2-4 settimane prima. Costo annuale pile: 5-15 EUR. Il Nuki con pile ricaricabili e la soluzione piu economica.',
-        nl: 'De batterijduur varieert per model: de Nuki 4.0 biedt 8-12 maanden met 4 AA-batterijen. De Tedee GO bereikt 8-14 maanden. De Yale Linus L2 biedt 6-9 maanden. De SwitchBot is het kortst met 6 maanden. Alle sloten sturen waarschuwingen 2-4 weken voor ontlading. Jaarlijkse batterijkosten: 5-15 EUR. De Nuki met oplaadbare batterijen is de meest economische oplossing.',
+        fr: 'Vous ouvrez avec votre clé physique, qui reste utilisable de l’extérieur avec un cylindre à fonction de secours. Les applications préviennent bien avant que la batterie soit vide. La SwitchBot Lock Ultra ajoute une pile de secours CR123A.',
+        en: 'You open the door with your physical key, which still works from outside with an emergency-function cylinder. The apps warn you well before the battery is empty. The SwitchBot Lock Ultra adds a backup CR123A cell.',
+        de: 'Sie öffnen mit dem mechanischen Schlüssel, der mit einem Zylinder mit Not- und Gefahrenfunktion von außen nutzbar bleibt. Die Apps warnen rechtzeitig vor einem leeren Akku. Das SwitchBot Lock Ultra hat zusätzlich eine CR123A-Reservebatterie.',
+        es: 'Abres con tu llave física, que sigue funcionando desde fuera con un cilindro con función de emergencia. Las apps avisan con antelación antes de que se agote la batería. La SwitchBot Lock Ultra añade una pila CR123A de respaldo.',
+        it: 'Aprite con la chiave fisica, che resta utilizzabile dall’esterno con un cilindro dotato di funzione di emergenza. Le app avvisano con largo anticipo prima che la batteria si scarichi. La SwitchBot Lock Ultra aggiunge una pila CR123A di riserva.',
+        nl: 'Je opent met je fysieke sleutel, die met een cilinder met noodfunctie van buitenaf blijft werken. De apps waarschuwen ruim voordat de batterij leeg is. De SwitchBot Lock Ultra heeft daarnaast een CR123A-reservebatterij.',
       },
     },
     {
       question: {
-        fr: 'Une serrure connectee fonctionne-t-elle avec Apple HomeKit ?',
-        en: 'Does a smart lock work with Apple HomeKit?',
-        de: 'Funktioniert ein Smart Lock mit Apple HomeKit?',
-        es: 'Funciona una cerradura inteligente con Apple HomeKit?',
-        it: 'Una serratura smart funziona con Apple HomeKit?',
-        nl: 'Werkt een slim deurslot met Apple HomeKit?',
+        fr: 'Faut-il un routeur Thread pour utiliser Matter ?',
+        en: 'Do I need a Thread router to use Matter?',
+        de: 'Brauche ich einen Thread-Router für Matter?',
+        es: '¿Necesito un router Thread para usar Matter?',
+        it: 'Serve un router Thread per usare Matter?',
+        nl: 'Heb ik een Thread-router nodig voor Matter?',
       },
       answer: {
-        fr: 'Oui, mais pas toutes. Le Nuki Smart Lock 4.0 et le Yale Linus L2 supportent nativement Apple HomeKit — vous pouvez verrouiller/deverrouiller depuis l\'app Maison, avec Siri et dans les automatisations HomeKit. Le Tedee GO supporte HomeKit mais uniquement via le bridge Wi-Fi (69 EUR en option). Le SwitchBot Lock Pro ne supporte pas HomeKit du tout. Si vous etes dans l\'ecosysteme Apple, le Nuki 4.0 (199 EUR avec Matter + Thread + HomeKit natif) est le meilleur choix rapport qualite-prix.',
-        en: 'Yes, but not all of them. The Nuki Smart Lock 4.0 and Yale Linus L2 natively support Apple HomeKit — you can lock/unlock from the Home app, with Siri and in HomeKit automations. The Tedee GO supports HomeKit but only via the Wi-Fi bridge (59 GBP optional). The SwitchBot Lock Pro does not support HomeKit at all. If you are in the Apple ecosystem, the Nuki 4.0 (169 GBP with native Matter + Thread + HomeKit) is the best value choice.',
-        de: 'Ja, aber nicht alle. Nuki Smart Lock 4.0 und Yale Linus L2 unterstuetzen Apple HomeKit nativ — Steuerung ueber die Home-App, Siri und HomeKit-Automatisierungen. Das Tedee GO unterstuetzt HomeKit nur ueber die Wi-Fi-Bridge (69 EUR extra). Das SwitchBot Lock Pro unterstuetzt HomeKit gar nicht. Fuer Apple-Nutzer ist das Nuki 4.0 (199 EUR mit nativem Matter + Thread + HomeKit) die beste Wahl.',
-        es: 'Si, pero no todas. El Nuki 4.0 y el Yale Linus L2 soportan Apple HomeKit de forma nativa. El Tedee GO lo soporta pero solo con el bridge Wi-Fi (69 EUR extra). El SwitchBot Lock Pro no soporta HomeKit. Si estas en el ecosistema Apple, el Nuki 4.0 (199 EUR con Matter + Thread + HomeKit nativo) es la mejor opcion.',
-        it: 'Si, ma non tutte. Nuki Smart Lock 4.0 e Yale Linus L2 supportano Apple HomeKit nativamente. Il Tedee GO lo supporta ma solo tramite il bridge Wi-Fi (69 EUR extra). Lo SwitchBot Lock Pro non supporta HomeKit. Per gli utenti Apple, il Nuki 4.0 (199 EUR con Matter + Thread + HomeKit nativo) e la scelta migliore.',
-        nl: 'Ja, maar niet allemaal. De Nuki Smart Lock 4.0 en Yale Linus L2 ondersteunen Apple HomeKit natief. De Tedee GO ondersteunt HomeKit maar alleen via de Wi-Fi-bridge (69 EUR extra). De SwitchBot Lock Pro ondersteunt HomeKit helemaal niet. Voor Apple-gebruikers is de Nuki 4.0 (199 EUR met natief Matter + Thread + HomeKit) de beste keuze.',
+        fr: 'Pour les modèles Matter over Thread (Nuki Pro et Go, Tedee GO 2, Aqara U200), oui : un routeur de bordure Thread compatible avec votre écosystème est nécessaire. Le Yale Linus L2 passe par le Wi-Fi, et la SwitchBot Lock Ultra par un hub SwitchBot compatible Matter.',
+        en: 'For Matter over Thread models (Nuki Pro and Go, Tedee GO 2, Aqara U200), yes: you need a Thread border router that works with your ecosystem. The Yale Linus L2 uses Wi-Fi, and the SwitchBot Lock Ultra goes through a Matter-enabled SwitchBot hub.',
+        de: 'Bei Modellen mit Matter over Thread (Nuki Pro und Go, Tedee GO 2, Aqara U200) ja: Sie brauchen einen Thread-Border-Router, der zu Ihrem Ökosystem passt. Das Yale Linus L2 nutzt WLAN, das SwitchBot Lock Ultra einen Matter-fähigen SwitchBot-Hub.',
+        es: 'Para los modelos Matter over Thread (Nuki Pro y Go, Tedee GO 2, Aqara U200), sí: necesitas un router de borde Thread compatible con tu ecosistema. La Yale Linus L2 usa Wi-Fi y la SwitchBot Lock Ultra pasa por un hub SwitchBot compatible con Matter.',
+        it: 'Per i modelli Matter over Thread (Nuki Pro e Go, Tedee GO 2, Aqara U200) sì: serve un border router Thread compatibile con il vostro ecosistema. La Yale Linus L2 usa il Wi-Fi, mentre la SwitchBot Lock Ultra passa da un hub SwitchBot compatibile Matter.',
+        nl: 'Voor modellen met Matter over Thread (Nuki Pro en Go, Tedee GO 2, Aqara U200) wel: je hebt een Thread-borderrouter nodig die bij je ecosysteem past. De Yale Linus L2 werkt via wifi en de SwitchBot Lock Ultra via een SwitchBot-hub met Matter.',
       },
     },
     {
       question: {
-        fr: 'Que se passe-t-il si Internet est en panne avec une serrure connectee ?',
-        en: 'What happens if the internet goes down with a smart lock?',
-        de: 'Was passiert bei Internetausfall mit einem Smart Lock?',
-        es: 'Que pasa si se cae Internet con una cerradura inteligente?',
-        it: 'Cosa succede se cade Internet con una serratura smart?',
-        nl: 'Wat gebeurt er als het internet uitvalt bij een slim deurslot?',
+        fr: 'Une serrure connectée fonctionne-t-elle sans internet ?',
+        en: 'Does a smart lock work without internet?',
+        de: 'Funktioniert ein Smart Lock ohne Internet?',
+        es: '¿Funciona una cerradura inteligente sin internet?',
+        it: 'Una serratura smart funziona senza internet?',
+        nl: 'Werkt een slim slot zonder internet?',
       },
       answer: {
-        fr: 'Votre serrure connectee continue de fonctionner normalement. Toutes les serrures de ce comparatif utilisent le Bluetooth pour la communication locale avec votre smartphone — aucune connexion Internet n\'est necessaire pour verrouiller ou deverrouiller a proximite. La cle physique fonctionne egalement sans Internet ni Bluetooth. Les fonctionnalites qui necessitent Internet sont l\'acces a distance (deverrouiller quand vous n\'etes pas chez vous), les notifications push, l\'historique synchronise dans le cloud et les mises a jour firmware. Avec les serrures Matter + Thread (Nuki 4.0, Yale L2), la communication locale fonctionne meme sans Wi-Fi grâce au reseau Thread.',
-        en: 'Your smart lock continues to work normally. All locks in this comparison use Bluetooth for local communication with your smartphone — no internet connection is needed to lock or unlock when nearby. The physical key also works without internet or Bluetooth. Features that require internet are remote access (unlocking when you are not home), push notifications, cloud-synced access log and firmware updates. With Matter + Thread locks (Nuki 4.0, Yale L2), local communication works even without Wi-Fi thanks to the Thread mesh network.',
-        de: 'Ihr Smart Lock funktioniert normal weiter. Alle Schloesser verwenden Bluetooth fuer die lokale Kommunikation — kein Internet noetig zum Ver-/Entriegeln in der Naehe. Der physische Schluessel funktioniert ebenfalls ohne Internet. Funktionen die Internet benoetigen: Fernzugriff, Push-Benachrichtigungen, Cloud-Protokoll und Firmware-Updates. Mit Matter + Thread (Nuki 4.0, Yale L2) funktioniert die lokale Kommunikation auch ohne WLAN dank Thread-Mesh.',
-        es: 'Tu cerradura inteligente sigue funcionando normalmente. Todas usan Bluetooth para la comunicacion local — no se necesita Internet para bloquear o desbloquear cerca. La llave fisica tambien funciona sin Internet. Las funciones que necesitan Internet son: acceso remoto, notificaciones push, historial en la nube y actualizaciones. Con Matter + Thread (Nuki 4.0, Yale L2), la comunicacion local funciona incluso sin Wi-Fi.',
-        it: 'La tua serratura smart continua a funzionare normalmente. Tutte usano il Bluetooth per la comunicazione locale — non serve Internet per bloccare o sbloccare nelle vicinanze. La chiave fisica funziona anche senza Internet. Le funzioni che richiedono Internet sono: accesso remoto, notifiche push, storico cloud e aggiornamenti. Con Matter + Thread (Nuki 4.0, Yale L2), la comunicazione locale funziona anche senza Wi-Fi.',
-        nl: 'Je slimme slot blijft normaal werken. Alle sloten gebruiken Bluetooth voor lokale communicatie — geen internet nodig om te vergrendelen of ontgrendelen als je in de buurt bent. De fysieke sleutel werkt ook zonder internet. Functies die internet vereisen: toegang op afstand, pushmeldingen, cloudlogboek en firmware-updates. Met Matter + Thread (Nuki 4.0, Yale L2) werkt lokale communicatie ook zonder Wi-Fi dankzij het Thread-meshnetwerk.',
+        fr: 'Oui, en local. Le Bluetooth permet d’ouvrir avec votre téléphone à proximité, et les claviers fonctionnent sans connexion. Internet sert à l’accès à distance, aux notifications, à la synchronisation de l’historique et aux mises à jour.',
+        en: 'Yes, locally. Bluetooth lets you unlock with your phone nearby, and keypads work without a connection. The internet is needed for remote access, notifications, log syncing and updates.',
+        de: 'Ja, lokal. Per Bluetooth öffnen Sie in der Nähe mit dem Smartphone, und Keypads funktionieren ohne Verbindung. Das Internet braucht es für Fernzugriff, Benachrichtigungen, Protokollabgleich und Updates.',
+        es: 'Sí, en local. El Bluetooth permite abrir con el móvil cerca de la puerta y los teclados funcionan sin conexión. Internet se necesita para el acceso remoto, las notificaciones, la sincronización del historial y las actualizaciones.',
+        it: 'Sì, in locale. Il Bluetooth permette di aprire con il telefono nelle vicinanze e i tastierini funzionano senza connessione. Internet serve per l’accesso remoto, le notifiche, la sincronizzazione della cronologia e gli aggiornamenti.',
+        nl: 'Ja, lokaal. Via Bluetooth open je de deur met je telefoon in de buurt, en klavieren werken zonder verbinding. Internet is nodig voor toegang op afstand, meldingen, het synchroniseren van het logboek en updates.',
+      },
+    },
+    {
+      question: {
+        fr: 'Une serrure connectée est-elle plus facile à cambrioler ?',
+        en: 'Is a smart lock easier to break into?',
+        de: 'Ist ein Smart Lock leichter zu knacken?',
+        es: '¿Es más fácil forzar una cerradura inteligente?',
+        it: 'Una serratura smart è più facile da forzare?',
+        nl: 'Is een slim slot makkelijker te kraken?',
+      },
+      answer: {
+        fr: 'Non, la résistance à l’effraction dépend toujours du cylindre et de la serrure, que le module ne modifie pas. Côté numérique, choisissez une marque qui publie des mises à jour, protégez votre compte par double authentification et supprimez les accès inutiles.',
+        en: 'No. Resistance to break-ins still depends on the cylinder and the lock, which the motor unit does not change. On the digital side, pick a brand that ships updates, protect your account with two-factor authentication and remove access you no longer need.',
+        de: 'Nein. Der Einbruchschutz hängt weiterhin von Zylinder und Schloss ab, die der Antrieb nicht verändert. Digital gilt: Marke mit regelmäßigen Updates wählen, Konto per Zwei-Faktor-Authentifizierung schützen und unnötige Zugänge löschen.',
+        es: 'No. La resistencia al robo sigue dependiendo del cilindro y de la cerradura, que el módulo no modifica. En lo digital, elige una marca con actualizaciones, protege tu cuenta con verificación en dos pasos y elimina los accesos que ya no uses.',
+        it: 'No. La resistenza allo scasso dipende sempre da cilindro e serratura, che il modulo non modifica. Sul piano digitale scegliete un marchio che rilascia aggiornamenti, proteggete l’account con l’autenticazione a due fattori ed eliminate gli accessi inutili.',
+        nl: 'Nee. De inbraakwerendheid hangt nog steeds af van de cilinder en het slot, die de motorunit niet verandert. Kies digitaal een merk dat updates uitbrengt, beveilig je account met tweestapsverificatie en verwijder toegang die je niet meer nodig hebt.',
       },
     },
   ],

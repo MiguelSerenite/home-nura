@@ -1,757 +1,162 @@
 import type { BlogArticle } from '../types'
 
 export const article: BlogArticle = {
-  slug: 'tendances-maison-connectee-2026',
-  category: 'culture',
-  pillar: 'energie-domotique',
-  relatedSlugs: ['maison-connectee-matter-thread-2026', 'guide-domotique-economie-energie-2026', 'guide-cuisine-connectee-2026'],
-  datePublished: '2026-04-16',
-  dateModified: '2026-04-16',
-  readingTime: 20,
-  images: [
-    {
-      src: 'https://images.unsplash.com/photo-1561712202-a34c0a136566?w=800&q=80&auto=format&fit=crop',
-      alt: {
-        fr: 'Maison connectee moderne avec appareils intelligents tendances 2026',
-        en: 'Modern smart home with intelligent devices trends 2026',
-        de: 'Modernes Smart Home mit intelligenten Geraeten Trends 2026',
-        es: 'Hogar inteligente moderno con dispositivos inteligentes tendencias 2026',
-        it: 'Casa smart moderna con dispositivi intelligenti tendenze 2026',
-        nl: 'Modern slim huis met intelligente apparaten trends 2026',
-      },
-    },
+  "slug": "tendances-maison-connectee-2026",
+  "category": "culture",
+  "pillar": "energie-domotique",
+  "relatedSlugs": [
+    "maison-connectee-matter-thread-2026",
+    "box-domotique-hub-comparatif",
+    "guide-domotique-economie-energie-2026"
   ],
-  title: {
-    fr: 'Les 8 Grandes Tendances Maison Connectee 2026 : Ce Qui Change Vraiment',
-    en: 'Top 8 Smart Home Trends 2026 UK: What Is Actually Changing',
-    de: 'Die 8 Grossen Smart Home Trends 2026: Was Sich Wirklich Aendert',
-    es: 'Las 8 Grandes Tendencias Hogar Inteligente 2026: Lo Que Realmente Cambia',
-    it: 'Le 8 Grandi Tendenze Casa Smart 2026: Cosa Cambia Davvero',
-    nl: 'De 8 Grote Smart Home Trends 2026: Wat Er Echt Verandert',
-  },
-  excerpt: {
-    fr: 'Les 8 tendances maison connectee 2026 : IA embarquee, edge computing, solaire + batterie domestique, robots domestiques, Matter generalise, assistants vocaux IA, securite sans abonnement et durabilite. Donnees marche, predictions et quoi acheter maintenant.',
-    en: 'The 8 smart home trends 2026: on-device AI, edge computing, solar + home battery boom, domestic robots, Matter adoption, AI voice assistants, subscription-free security and sustainability. Market data, predictions and what to buy now.',
-    de: 'Die 8 Smart Home Trends 2026: On-Device-KI, Edge Computing, Solar + Hausbatterie-Boom, Haushaltsroboter, Matter-Adoption, KI-Sprachassistenten, Sicherheit ohne Abo und Nachhaltigkeit. Marktdaten, Prognosen und was jetzt kaufen.',
-    es: 'Las 8 tendencias hogar inteligente 2026: IA en el dispositivo, edge computing, solar + bateria domestica, robots domesticos, adopcion Matter, asistentes de voz IA, seguridad sin suscripcion y sostenibilidad. Datos de mercado, predicciones y que comprar ahora.',
-    it: 'Le 8 tendenze casa smart 2026: IA on-device, edge computing, solare + batteria domestica, robot domestici, adozione Matter, assistenti vocali IA, sicurezza senza abbonamento e sostenibilita. Dati di mercato, previsioni e cosa comprare ora.',
-    nl: 'De 8 smart home trends 2026: on-device AI, edge computing, zonne-energie + thuisbatterij-boom, huishoudrobots, Matter-adoptie, AI-stemassistenten, beveiliging zonder abonnement en duurzaamheid. Marktgegevens, voorspellingen en wat nu te kopen.',
-  },
-  content: {
-    fr: `<h2>Maison connectee 2026 : l'annee ou tout change</h2>
-<p>Le marche mondial de la maison connectee atteint <strong>180 milliards de dollars en 2026</strong> (source : Statista), avec une croissance de 12 % par an. Mais au-dela des chiffres, c'est la nature meme des appareils connectes qui se transforme. L'IA embarquee, les protocoles universels et l'energie verte convergent pour creer une maison veritablement intelligente — pas juste "connectee".</p>
-<p>Voici les 8 tendances qui redefinissent la maison connectee en 2026, avec des recommandations concretes : quoi acheter maintenant et quoi attendre. Pour les protocoles Matter et Thread, consultez notre <a href="/fr/blog/maison-connectee-matter-thread-2026">guide complet Matter et Thread 2026</a>. Pour les economies d'energie, notre <a href="/fr/blog/guide-domotique-economie-energie-2026">guide domotique et economie d'energie</a>.</p>
-
-<h2>Tendance 1 : L'IA embarquee — vos appareils deviennent vraiment intelligents</h2>
-<p>C'est LA revolution de 2026. L'intelligence artificielle ne tourne plus dans le cloud : elle s'execute <strong>directement sur vos appareils</strong>. Les consequences sont majeures :</p>
-<ul>
-<li><strong>Cameras de securite avec detection IA locale :</strong> les cameras Reolink, Eufy et Arlo de 2026 integrent des puces NPU (Neural Processing Unit) qui detectent les personnes, les animaux, les vehicules et les colis SANS envoyer vos images dans le cloud. Resultat : detection plus rapide (200 ms vs 2-5 s via cloud), aucun abonnement necessaire pour la detection intelligente, et respect total de la vie privee. Le cout energetique d'une camera avec NPU est identique a une camera classique.</li>
-<li><strong>Thermostats predictifs :</strong> les thermostats Google Nest et Tado de 2026 apprennent vos habitudes localement et anticipent vos besoins de chauffage. Ils analysent la meteo, votre planning (via calendrier), l'inertie thermique de votre logement et ajustent automatiquement la temperature. Economies constatees : <strong>15-25 % sur la facture de chauffage</strong> par rapport a un thermostat programmable classique.</li>
-<li><strong>Assistants vocaux contextuels :</strong> Alexa, Google Assistant et Siri traitent de plus en plus de requetes localement grace a l'IA embarquee dans les enceintes. Les reponses sont plus rapides, plus naturelles, et fonctionnent meme hors ligne pour les commandes basiques.</li>
-</ul>
-
-<h2>Tendance 2 : Edge computing — la fin de la dependance au cloud</h2>
-<p>Le edge computing est le prolongement logique de l'IA embarquee : au lieu de tout envoyer dans le cloud, le traitement se fait <strong>a la peripherie du reseau</strong>, c'est-a-dire chez vous. En 2026, cette tendance se concretise par :</p>
-<ul>
-<li><strong>Home Assistant sur mini-PC :</strong> Home Assistant (le systeme domotique open source le plus populaire) tourne sur des mini-PC a 80-150 EUR (Intel NUC, Beelink) et gere toute votre maison localement. Automatisations complexes, historique de donnees, tableaux de bord — tout sans cloud. La communaute depasse 1 million d'utilisateurs actifs en 2026.</li>
-<li><strong>Stockage video local :</strong> les NVR (Network Video Recorders) comme Reolink, Synology et Frigate (open source) permettent de stocker vos enregistrements de cameras chez vous sur un disque dur, sans abonnement cloud. Cout : un disque de 4 To a 100 EUR stocke 30 jours de 4 cameras en continu.</li>
-<li><strong>Traitement vocal local :</strong> les enceintes haut de gamme (HomePod 2, Echo Show 15) traitent les commandes vocales simples localement en moins de 200 ms, sans jamais envoyer l'audio au cloud.</li>
-</ul>
-
-<h2>Tendance 3 : Solaire + batterie domestique — l'independance energetique</h2>
-<p>Le combo panneaux solaires + batterie domestique explose en 2026. Les chiffres parlent d'eux-memes :</p>
-<table>
-<thead>
-<tr><th>Critere</th><th>2023</th><th>2026</th><th>Evolution</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>Prix panneaux (par kWc installe)</strong></td><td>2 000-2 500 EUR</td><td>1 400-1 800 EUR</td><td>-30 %</td></tr>
-<tr><td><strong>Prix batterie (par kWh)</strong></td><td>600-800 EUR</td><td>350-500 EUR</td><td>-40 %</td></tr>
-<tr><td><strong>Retour sur investissement</strong></td><td>8-12 ans</td><td>5-8 ans</td><td>-3 ans</td></tr>
-<tr><td><strong>Part autoconsommation avec batterie</strong></td><td>60-70 %</td><td>70-85 %</td><td>+15 pts</td></tr>
-<tr><td><strong>Installations residentielles en France</strong></td><td>200 000/an</td><td>450 000/an</td><td>+125 %</td></tr>
-</tbody>
-</table>
-<p>Les acteurs cles en 2026 : <strong>Tesla Powerwall 3</strong> (13,5 kWh, ~8 000 EUR installe), <strong>Enphase IQ Battery 5P</strong> (5 kWh modulaire, ~4 000 EUR), <strong>BYD HVS</strong> (5,1-12,8 kWh, ~4 500-9 000 EUR) et <strong>Huawei LUNA 2000</strong> (5-30 kWh, ~4 000-15 000 EUR). La gestion intelligente via l'app (heures creuses/pleines, meteo, consommation previsionnelle) maximise les economies.</p>
-
-<h2>Tendance 4 : Robot everything — l'automatisation physique</h2>
-<p>Les robots domestiques ne se limitent plus aux aspirateurs. En 2026, on assiste a une explosion de la robotique domestique :</p>
-<ul>
-<li><strong>Aspirateurs-laveurs autonomes :</strong> les Roborock S8 MaxV Ultra, Dreame X40 Ultra et Ecovacs Deebot X5 Omni aspirent ET lavent avec une station de base qui vide la poussiere, lave les serpillieres a l'eau chaude et seche a l'air chaud. Prix : 800-1 500 EUR. Ils gerent des maisons de 200 m2+ sans intervention humaine pendant des semaines.</li>
-<li><strong>Tondeuses robots sans fil perimetrique :</strong> les tondeuses Husqvarna CEORA, Segway Navimow et Mammotion Luba 2 utilisent le GPS RTK et la vision par camera (plus de fil perimetrique a enterrer). Elles tondent des terrains de 500 a 5 000 m2 de facon autonome, gerent les pentes et evitent les obstacles. Prix : 1 500-4 000 EUR.</li>
-<li><strong>Robots de piscine connectes :</strong> les Aiper Seagull Pro et Dolphin S300i nettoient fond, parois et ligne d'eau de facon autonome. Programmation via app, cartographie de la piscine. Prix : 800-1 500 EUR.</li>
-<li><strong>Robots compagnons :</strong> encore au stade experimental en 2026, mais Amazon Astro (2e gen.) et Samsung Ballie commencent a se concretiser. Surveillance, assistance aux personnes agees, transport d'objets dans la maison. Prix : 1 000-2 000 EUR.</li>
-</ul>
-
-<h2>Tendance 5 : Matter se generalise — la fin des ecosystemes fermes</h2>
-<p>2026 est l'annee ou Matter passe du statut de "promesse" a celui de "standard de facto". Les chiffres cles :</p>
-<ul>
-<li>Plus de <strong>3 000 produits</strong> certifies Matter en avril 2026 (vs 800 en 2024).</li>
-<li><strong>85 % des nouveaux appareils connectes</strong> vendus en Europe sont compatibles Matter.</li>
-<li>Thread est present dans <strong>60 %</strong> des foyers equipes d'une enceinte connectee (Apple TV, HomePod, Nest Hub, Echo servent de border router).</li>
-<li>Les prix des appareils Matter/Thread ont baisse de 15-20 % par rapport a 2024 grace a la standardisation des composants.</li>
-</ul>
-<p>Notre recommandation : en 2026, <strong>n'achetez plus aucun appareil connecte qui ne soit pas compatible Matter</strong>. C'est la garantie de perennite et d'interoperabilite. Pour tout comprendre, lisez notre <a href="/fr/blog/maison-connectee-matter-thread-2026">guide Matter et Thread 2026</a>.</p>
-
-<h2>Tendance 6 : Assistants vocaux IA — la conversation naturelle</h2>
-<p>Les assistants vocaux de 2026 ne sont plus des robots qui repondent a des commandes rigides. Grace a l'integration de modeles de langage (LLM), ils comprennent le contexte et le naturel :</p>
-<ul>
-<li><strong>Alexa+ (Amazon) :</strong> l'integration de Claude dans Alexa a transforme les interactions. Vous pouvez dire "Alexa, il fait froid ici" et l'assistant comprend qu'il faut monter le chauffage, sans commande explicite. Les conversations a plusieurs tours sont naturelles et l'assistant retient le contexte.</li>
-<li><strong>Google Assistant avec Gemini :</strong> l'integration de Gemini permet des raisonnements complexes. "Ok Google, prepare la maison pour la soiree de vendredi" et l'assistant ajuste eclairage, musique, thermostat et cree une liste de courses.</li>
-<li><strong>Apple Siri avec Apple Intelligence :</strong> Siri comprend enfin le contexte personnel. Il sait que "eteins la lumiere de la chambre des enfants" fait reference a la chambre de VOS enfants, pas a une commande generique. L'integration avec les donnees personnelles (calendrier, contacts, messages) rend les reponses hyper-pertinentes.</li>
-</ul>
-<p>Le revers de la medaille : ces assistants IA consomment plus d'energie et posent des questions de vie privee accrues. L'enjeu de 2026 est de trouver l'equilibre entre intelligence et respect de la vie privee.</p>
-
-<h2>Tendance 7 : Securite sans abonnement — la revolte des consommateurs</h2>
-<p>Les consommateurs en ont assez de payer des abonnements pour leurs cameras de securite. En 2026, la tendance est clairement a la securite sans abonnement :</p>
-<ul>
-<li><strong>Eufy :</strong> stockage local gratuit, detection IA locale, pas d'abonnement. La gamme eufyCam S3 Pro offre 4K, vision nocturne couleur et panneau solaire pour une autonomie illimitee. Prix : 150-350 EUR par camera.</li>
-<li><strong>Reolink :</strong> stockage sur carte SD ou NVR, detection IA locale avec puce NPU. La gamme Argus 4 Pro offre 4K, WiFi 6 et batterie longue duree. Prix : 100-250 EUR.</li>
-</ul>
-<table>
-<thead>
-<tr><th>Marque</th><th>Camera</th><th>Abonnement cloud</th><th>Cout total 3 ans (2 cameras)</th></tr>
-</thead>
-<tbody>
-<tr><td>Ring (Amazon)</td><td>~100 EUR x2</td><td>100 EUR/an (Ring Protect Plus)</td><td>200 + 300 = <strong>500 EUR</strong></td></tr>
-<tr><td>Arlo</td><td>~150 EUR x2</td><td>130 EUR/an (Arlo Secure)</td><td>300 + 390 = <strong>690 EUR</strong></td></tr>
-<tr><td>Eufy (sans abo)</td><td>~200 EUR x2</td><td>0 EUR</td><td><strong>400 EUR</strong></td></tr>
-<tr><td>Reolink (sans abo)</td><td>~130 EUR x2</td><td>0 EUR</td><td><strong>260 EUR</strong></td></tr>
-</tbody>
-</table>
-<p>Sur 3 ans avec 2 cameras, vous economisez <strong>100 a 430 EUR</strong> en choisissant une marque sans abonnement. Et vos donnees restent chez vous.</p>
-
-<h2>Tendance 8 : Durabilite et reparabilite — la tech responsable</h2>
-<p>La durabilite n'est plus un bonus marketing, c'est une exigence reglementaire et consommateur en 2026 :</p>
-<ul>
-<li><strong>Indice de reparabilite :</strong> obligatoire en France et en cours d'extension a l'UE, il force les fabricants a concevoir des appareils reparables. Les aspirateurs robots, thermostats et cameras doivent afficher un score de reparabilite.</li>
-<li><strong>Droit a la reparation UE :</strong> les fabricants doivent fournir des pieces detachees pendant 7-10 ans apres l'arret de la vente. Fini les appareils connectes qui deviennent des briques apres 3 ans quand le fabricant arrete le support cloud.</li>
-<li><strong>Matter et la perennite :</strong> Matter garantit que vos appareils continueront de fonctionner meme si le fabricant disparait, car le protocole est ouvert et independant du cloud proprietaire.</li>
-<li><strong>Energie grise :</strong> les consommateurs commencent a prendre en compte l'energie necessaire a la fabrication des appareils. Un thermostat connecte qui economise 200 EUR/an de chauffage compense son empreinte carbone de fabrication en 6-12 mois.</li>
-</ul>
-
-<h2>Quoi acheter maintenant vs quoi attendre</h2>
-<table>
-<thead>
-<tr><th>Categorie</th><th>Acheter maintenant (2026)</th><th>Attendre (2027+)</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>Eclairage</strong></td><td>Ampoules Matter/Thread (Philips Hue, Nanoleaf, IKEA)</td><td>Rien a attendre, le marche est mature</td></tr>
-<tr><td><strong>Thermostat</strong></td><td>Google Nest, Tado, Eve Thermo (tous Matter)</td><td>Rien, les modeles 2026 sont excellents</td></tr>
-<tr><td><strong>Cameras</strong></td><td>Eufy S3 Pro, Reolink Argus 4 Pro (sans abo, IA locale)</td><td>Cameras Matter natives (2027)</td></tr>
-<tr><td><strong>Aspirateur robot</strong></td><td>Roborock S8 MaxV Ultra, Dreame X40 Ultra</td><td>Modeles Matter natifs (fin 2026-2027)</td></tr>
-<tr><td><strong>Serrure</strong></td><td>Yale Assure Lock 2, Nuki 4.0 (Matter/Thread)</td><td>Rien, le marche est mature</td></tr>
-<tr><td><strong>Solaire + batterie</strong></td><td>Oui ! Les prix sont au plus bas, les aides au plus haut</td><td>Les prix continueront de baisser mais les aides aussi</td></tr>
-<tr><td><strong>Robot compagnon</strong></td><td>Non, trop cher et immature</td><td>2028+ pour un produit grand public viable</td></tr>
-</tbody>
-</table>
-
-<h2>Notre vision : la maison connectee en 2030</h2>
-<p>En regardant les tendances de 2026, voici a quoi ressemblera la maison connectee en 2030 :</p>
-<ul>
-<li><strong>Autonome energetiquement :</strong> panneaux solaires + batterie + vehicule electrique bidirectionnel (V2H) couvriront 80-95 % des besoins energetiques d'un foyer. Le reseau electrique servira de filet de securite, pas de source principale.</li>
-<li><strong>Geree par l'IA :</strong> plus aucune automatisation manuelle. L'IA locale anticipera vos besoins : chauffage, eclairage, securite, courses, maintenance — tout sera optimise automatiquement en fonction de vos habitudes, de la meteo et des tarifs energetiques.</li>
-<li><strong>Interoperable a 100 % :</strong> Matter 3.0+ couvrira toutes les categories d'appareils. Un seul ecosysteme pour tout, du frigo a la serrure en passant par la voiture.</li>
-<li><strong>Durable :</strong> reparabilite obligatoire, mises a jour garanties 10 ans, protocoles ouverts. Les appareils connectes ne seront plus du "jetable technologique".</li>
-</ul>
-<p>2026 est le meilleur moment pour investir dans la maison connectee : les protocoles sont matures (Matter), les prix sont competitifs, et les appareils sont enfin intelligents (IA embarquee). N'attendez plus — construisez votre maison connectee maintenant, et elle evoluera avec vous.</p>`,
-
-    en: `<h2>Smart Home 2026: The Year Everything Changes</h2>
-<p>The global smart home market reaches <strong>$180 billion in 2026</strong> (source: Statista), growing at 12% per year. But beyond the numbers, it is the very nature of smart devices that is transforming. On-device AI, universal protocols and green energy are converging to create a truly intelligent home — not just a "connected" one.</p>
-<p>Here are the 8 trends redefining the smart home in 2026, with practical recommendations: what to buy now and what to wait for. For Matter and Thread protocols, see our <a href="/en/blog/maison-connectee-matter-thread-2026">complete Matter and Thread guide 2026</a>. For energy savings, our <a href="/en/blog/guide-domotique-economie-energie-2026">home automation and energy saving guide</a>.</p>
-
-<h2>Trend 1: On-Device AI — Your Appliances Become Truly Smart</h2>
-<p>This is THE revolution of 2026. Artificial intelligence no longer runs in the cloud: it executes <strong>directly on your devices</strong>. The consequences are major:</p>
-<ul>
-<li><strong>Security cameras with local AI detection:</strong> 2026 cameras from Reolink, Eufy and Arlo integrate NPU (Neural Processing Unit) chips that detect people, animals, vehicles and parcels WITHOUT sending your images to the cloud. Result: faster detection (200 ms vs 2-5 s via cloud), no subscription needed for smart detection, and complete privacy. Energy consumption is identical to a standard camera.</li>
-<li><strong>Predictive thermostats:</strong> 2026 Google Nest and Tado thermostats learn your habits locally and anticipate your heating needs. They analyse weather, your schedule (via calendar), your home's thermal inertia and automatically adjust temperature. Documented savings: <strong>15-25% on heating bills</strong> compared to a standard programmable thermostat.</li>
-<li><strong>Contextual voice assistants:</strong> Alexa, Google Assistant and Siri process increasingly more requests locally thanks to on-device AI in speakers. Responses are faster, more natural, and work offline for basic commands.</li>
-</ul>
-
-<h2>Trend 2: Edge Computing — The End of Cloud Dependency</h2>
-<p>Edge computing is the logical extension of on-device AI: instead of sending everything to the cloud, processing happens <strong>at the network edge</strong> — in your home. In 2026:</p>
-<ul>
-<li><strong>Home Assistant on mini-PCs:</strong> Home Assistant (the most popular open-source home automation system) runs on £70-130 mini-PCs (Intel NUC, Beelink) and manages your entire home locally. Complex automations, data history, dashboards — all without cloud. The community exceeds 1 million active users in 2026.</li>
-<li><strong>Local video storage:</strong> NVRs (Network Video Recorders) from Reolink, Synology and Frigate (open source) store your camera recordings at home on a hard drive, with no cloud subscription. Cost: a 4 TB drive at £80 stores 30 days of 4 cameras continuously.</li>
-<li><strong>Local voice processing:</strong> premium speakers (HomePod 2, Echo Show 15) process simple voice commands locally in under 200 ms, never sending audio to the cloud.</li>
-</ul>
-
-<h2>Trend 3: Solar + Home Battery — Energy Independence</h2>
-<p>The solar panels + home battery combo is booming in 2026:</p>
-<table>
-<thead>
-<tr><th>Metric</th><th>2023</th><th>2026</th><th>Change</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>Panel price (per kWp installed)</strong></td><td>£1,700-2,200</td><td>£1,200-1,600</td><td>-30%</td></tr>
-<tr><td><strong>Battery price (per kWh)</strong></td><td>£500-700</td><td>£300-450</td><td>-40%</td></tr>
-<tr><td><strong>Return on investment</strong></td><td>8-12 years</td><td>5-8 years</td><td>-3 years</td></tr>
-<tr><td><strong>Self-consumption with battery</strong></td><td>60-70%</td><td>70-85%</td><td>+15 pts</td></tr>
-<tr><td><strong>UK residential installations</strong></td><td>180,000/year</td><td>400,000/year</td><td>+122%</td></tr>
-</tbody>
-</table>
-<p>Key players in 2026: <strong>Tesla Powerwall 3</strong> (13.5 kWh, ~£7,000 installed), <strong>Enphase IQ Battery 5P</strong> (5 kWh modular, ~£3,500), <strong>GivEnergy All-in-One</strong> (5-13.5 kWh, ~£3,000-7,000) and <strong>Huawei LUNA 2000</strong> (5-30 kWh, ~£3,500-13,000).</p>
-
-<h2>Trend 4: Robot Everything — Physical Automation</h2>
-<p>Domestic robots are no longer limited to vacuums. In 2026, domestic robotics is exploding:</p>
-<ul>
-<li><strong>Self-cleaning vacuum-mop robots:</strong> Roborock S8 MaxV Ultra, Dreame X40 Ultra and Ecovacs Deebot X5 Omni vacuum AND mop with base stations that empty dust, wash mops with hot water and dry with hot air. Price: £700-1,300. They manage 200 m2+ homes without human intervention for weeks.</li>
-<li><strong>Wire-free robotic mowers:</strong> Husqvarna CEORA, Segway Navimow and Mammotion Luba 2 use RTK GPS and camera vision (no perimeter wire to bury). They mow 500-5,000 m2 lawns autonomously. Price: £1,300-3,500.</li>
-<li><strong>Connected pool robots:</strong> Aiper Seagull Pro and Dolphin S300i clean floors, walls and waterline autonomously. App programming, pool mapping. Price: £700-1,300.</li>
-<li><strong>Companion robots:</strong> still experimental in 2026, but Amazon Astro (2nd gen) and Samsung Ballie are materialising. Surveillance, elderly assistance, object transport. Price: £800-1,800.</li>
-</ul>
-
-<h2>Trend 5: Matter Goes Mainstream — The End of Walled Gardens</h2>
-<p>2026 is the year Matter moves from "promise" to "de facto standard":</p>
-<ul>
-<li>Over <strong>3,000 products</strong> Matter-certified by April 2026 (vs 800 in 2024).</li>
-<li><strong>85% of new smart devices</strong> sold in Europe are Matter-compatible.</li>
-<li>Thread is present in <strong>60%</strong> of homes with a smart speaker (Apple TV, HomePod, Nest Hub, Echo serve as border routers).</li>
-<li>Matter/Thread device prices have dropped 15-20% vs 2024 thanks to component standardisation.</li>
-</ul>
-<p>Our recommendation: in 2026, <strong>do not buy any smart device that is not Matter-compatible</strong>. Read our <a href="/en/blog/maison-connectee-matter-thread-2026">Matter and Thread guide 2026</a>.</p>
-
-<h2>Trend 6: AI Voice Assistants — Natural Conversation</h2>
-<p>2026 voice assistants are no longer robots responding to rigid commands. Thanks to LLM integration, they understand context and nuance:</p>
-<ul>
-<li><strong>Alexa+ (Amazon):</strong> the integration of Claude into Alexa has transformed interactions. You can say "Alexa, it's cold in here" and the assistant understands it needs to raise the heating, without an explicit command.</li>
-<li><strong>Google Assistant with Gemini:</strong> Gemini integration enables complex reasoning. "Ok Google, prepare the house for Friday's party" and the assistant adjusts lighting, music, thermostat and creates a shopping list.</li>
-<li><strong>Apple Siri with Apple Intelligence:</strong> Siri finally understands personal context. It knows "turn off the children's bedroom light" refers to YOUR children's bedroom. Integration with personal data makes responses hyper-relevant.</li>
-</ul>
-
-<h2>Trend 7: Subscription-Free Security — The Consumer Revolt</h2>
-<p>Consumers are tired of paying subscriptions for security cameras. In 2026, the trend is clearly towards subscription-free security:</p>
-<table>
-<thead>
-<tr><th>Brand</th><th>Camera</th><th>Cloud subscription</th><th>3-year total (2 cameras)</th></tr>
-</thead>
-<tbody>
-<tr><td>Ring (Amazon)</td><td>~£90 x2</td><td>£80/year (Ring Protect Plus)</td><td>180 + 240 = <strong>£420</strong></td></tr>
-<tr><td>Arlo</td><td>~£130 x2</td><td>£110/year (Arlo Secure)</td><td>260 + 330 = <strong>£590</strong></td></tr>
-<tr><td>Eufy (no sub)</td><td>~£170 x2</td><td>£0</td><td><strong>£340</strong></td></tr>
-<tr><td>Reolink (no sub)</td><td>~£110 x2</td><td>£0</td><td><strong>£220</strong></td></tr>
-</tbody>
-</table>
-<p>Over 3 years with 2 cameras, you save <strong>£80-370</strong> by choosing a subscription-free brand. And your data stays at home.</p>
-
-<h2>Trend 8: Sustainability and Repairability — Responsible Tech</h2>
-<ul>
-<li><strong>Repairability index:</strong> mandatory in France and extending across the EU, forcing manufacturers to design repairable devices.</li>
-<li><strong>EU right to repair:</strong> manufacturers must provide spare parts for 7-10 years after end of sale. No more smart devices becoming bricks after 3 years when the manufacturer stops cloud support.</li>
-<li><strong>Matter and longevity:</strong> Matter guarantees your devices continue working even if the manufacturer disappears, as the protocol is open and cloud-independent.</li>
-<li><strong>Embodied energy:</strong> a smart thermostat saving £200/year on heating offsets its manufacturing carbon footprint in 6-12 months.</li>
-</ul>
-
-<h2>What to Buy Now vs What to Wait For</h2>
-<table>
-<thead>
-<tr><th>Category</th><th>Buy now (2026)</th><th>Wait (2027+)</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>Lighting</strong></td><td>Matter/Thread bulbs (Philips Hue, Nanoleaf, IKEA)</td><td>Nothing — market is mature</td></tr>
-<tr><td><strong>Thermostat</strong></td><td>Google Nest, Tado, Eve Thermo (all Matter)</td><td>Nothing — 2026 models are excellent</td></tr>
-<tr><td><strong>Cameras</strong></td><td>Eufy S3 Pro, Reolink Argus 4 Pro (no sub, local AI)</td><td>Native Matter cameras (2027)</td></tr>
-<tr><td><strong>Robot vacuum</strong></td><td>Roborock S8 MaxV Ultra, Dreame X40 Ultra</td><td>Native Matter models (late 2026-2027)</td></tr>
-<tr><td><strong>Smart lock</strong></td><td>Yale Assure Lock 2, Nuki 4.0 (Matter/Thread)</td><td>Nothing — market is mature</td></tr>
-<tr><td><strong>Solar + battery</strong></td><td>Yes! Prices at historic lows, incentives at highs</td><td>Prices will keep falling but so will incentives</td></tr>
-<tr><td><strong>Companion robot</strong></td><td>No — too expensive and immature</td><td>2028+ for a viable consumer product</td></tr>
-</tbody>
-</table>
-
-<h2>Our Vision: The Smart Home in 2030</h2>
-<ul>
-<li><strong>Energy autonomous:</strong> solar + battery + bidirectional EV (V2H) will cover 80-95% of a household's energy needs. The grid becomes a safety net, not the primary source.</li>
-<li><strong>AI-managed:</strong> no more manual automations. Local AI will anticipate your needs: heating, lighting, security, shopping, maintenance — all automatically optimised.</li>
-<li><strong>100% interoperable:</strong> Matter 3.0+ will cover all device categories. One ecosystem for everything.</li>
-<li><strong>Sustainable:</strong> mandatory repairability, guaranteed 10-year updates, open protocols. Smart devices will no longer be "disposable tech".</li>
-</ul>
-<p>2026 is the best time to invest in the smart home: protocols are mature (Matter), prices are competitive, and devices are finally intelligent (on-device AI). Do not wait — build your smart home now, and it will evolve with you.</p>`,
-
-    de: `<h2>Smart Home 2026: Das Jahr, in dem sich alles aendert</h2>
-<p>Der weltweite Smart Home Markt erreicht <strong>180 Milliarden Dollar im Jahr 2026</strong> (Quelle: Statista), mit 12 % Wachstum pro Jahr. Doch ueber die Zahlen hinaus veraendert sich die Natur der vernetzten Geraete grundlegend. On-Device-KI, universelle Protokolle und gruene Energie konvergieren zu einem wirklich intelligenten Zuhause.</p>
-<p>Hier sind die 8 Trends, die das Smart Home 2026 neu definieren. Fuer die Protokolle Matter und Thread lesen Sie unseren <a href="/de/blog/maison-connectee-matter-thread-2026">kompletten Matter und Thread Ratgeber 2026</a>. Fuer Energiesparen unseren <a href="/de/blog/guide-domotique-economie-energie-2026">Ratgeber Heimautomation und Energiesparen</a>.</p>
-
-<h2>Trend 1: On-Device-KI — Ihre Geraete werden wirklich intelligent</h2>
-<ul>
-<li><strong>Sicherheitskameras mit lokaler KI-Erkennung:</strong> 2026er Kameras von Reolink, Eufy und Arlo integrieren NPU-Chips, die Personen, Tiere, Fahrzeuge und Pakete OHNE Cloud erkennen. Erkennung in 200 ms statt 2-5 s, kein Abo noetig, voller Datenschutz.</li>
-<li><strong>Vorausschauende Thermostate:</strong> Google Nest und Tado 2026 lernen Ihre Gewohnheiten lokal. <strong>15-25 % Heizkostenersparnis</strong> gegenueber programmierbaren Thermostaten.</li>
-<li><strong>Kontextuelle Sprachassistenten:</strong> Alexa, Google Assistant und Siri verarbeiten immer mehr Anfragen lokal. Schnellere, natuerlichere Antworten, offline fuer Basisbefehle.</li>
-</ul>
-
-<h2>Trend 2: Edge Computing — Ende der Cloud-Abhaengigkeit</h2>
-<ul>
-<li><strong>Home Assistant auf Mini-PCs:</strong> Das beliebteste Open-Source-Heimautomationssystem laeuft auf Mini-PCs ab 80-150 EUR und verwaltet Ihr gesamtes Zuhause lokal.</li>
-<li><strong>Lokale Videospeicherung:</strong> NVRs von Reolink, Synology und Frigate speichern Kameraaufnahmen lokal ohne Cloud-Abo.</li>
-</ul>
-
-<h2>Trend 3: Solar + Hausbatterie — Energieunabhaengigkeit</h2>
-<table>
-<thead>
-<tr><th>Kennzahl</th><th>2023</th><th>2026</th><th>Veraenderung</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>Panelpreis (pro kWp)</strong></td><td>2.000-2.500 EUR</td><td>1.400-1.800 EUR</td><td>-30 %</td></tr>
-<tr><td><strong>Batteriepreis (pro kWh)</strong></td><td>600-800 EUR</td><td>350-500 EUR</td><td>-40 %</td></tr>
-<tr><td><strong>Amortisation</strong></td><td>8-12 Jahre</td><td>5-8 Jahre</td><td>-3 Jahre</td></tr>
-<tr><td><strong>Eigenverbrauch mit Batterie</strong></td><td>60-70 %</td><td>70-85 %</td><td>+15 Pkt.</td></tr>
-</tbody>
-</table>
-<p>Hauptakteure 2026: <strong>Tesla Powerwall 3</strong>, <strong>Enphase IQ Battery 5P</strong>, <strong>BYD HVS</strong> und <strong>Huawei LUNA 2000</strong>.</p>
-
-<h2>Trend 4: Robot Everything — Physische Automatisierung</h2>
-<ul>
-<li><strong>Saug-Wisch-Roboter:</strong> Roborock S8 MaxV Ultra, Dreame X40 Ultra — saugen UND wischen mit Basisstationen. 800-1.500 EUR.</li>
-<li><strong>Drahtlose Maehroboter:</strong> Husqvarna CEORA, Segway Navimow — RTK-GPS und Kameravision. 1.500-4.000 EUR.</li>
-<li><strong>Begleitroboter:</strong> Amazon Astro (2. Gen.) und Samsung Ballie — noch experimentell. 1.000-2.000 EUR.</li>
-</ul>
-
-<h2>Trend 5: Matter wird Mainstream</h2>
-<ul>
-<li>Ueber <strong>3.000 Produkte</strong> Matter-zertifiziert (April 2026).</li>
-<li><strong>85 % der neuen Smart-Geraete</strong> in Europa sind Matter-kompatibel.</li>
-<li>Preise 15-20 % niedriger als 2024 dank Standardisierung.</li>
-</ul>
-
-<h2>Trend 6: KI-Sprachassistenten — Natuerliche Konversation</h2>
-<ul>
-<li><strong>Alexa+:</strong> Claude-Integration ermoeglicht "Alexa, mir ist kalt" — der Assistent versteht, dass die Heizung hochgedreht werden soll.</li>
-<li><strong>Google Assistant mit Gemini:</strong> "Ok Google, bereite das Haus fuer die Freitagsparty vor."</li>
-<li><strong>Apple Siri mit Apple Intelligence:</strong> versteht endlich persoenlichen Kontext.</li>
-</ul>
-
-<h2>Trend 7: Sicherheit ohne Abonnement</h2>
-<table>
-<thead>
-<tr><th>Marke</th><th>Kamera</th><th>Cloud-Abo</th><th>3-Jahres-Kosten (2 Kameras)</th></tr>
-</thead>
-<tbody>
-<tr><td>Ring</td><td>~100 EUR x2</td><td>100 EUR/Jahr</td><td><strong>500 EUR</strong></td></tr>
-<tr><td>Arlo</td><td>~150 EUR x2</td><td>130 EUR/Jahr</td><td><strong>690 EUR</strong></td></tr>
-<tr><td>Eufy (ohne Abo)</td><td>~200 EUR x2</td><td>0 EUR</td><td><strong>400 EUR</strong></td></tr>
-<tr><td>Reolink (ohne Abo)</td><td>~130 EUR x2</td><td>0 EUR</td><td><strong>260 EUR</strong></td></tr>
-</tbody>
-</table>
-
-<h2>Trend 8: Nachhaltigkeit und Reparierbarkeit</h2>
-<ul>
-<li><strong>Reparierbarkeitsindex:</strong> in Frankreich Pflicht, EU-weit in Ausweitung.</li>
-<li><strong>EU-Recht auf Reparatur:</strong> Ersatzteile 7-10 Jahre nach Verkaufsende.</li>
-<li><strong>Matter und Langlebigkeit:</strong> Geraete funktionieren auch bei Herstellerinsolvenz weiter.</li>
-</ul>
-
-<h2>Jetzt kaufen vs. warten</h2>
-<table>
-<thead>
-<tr><th>Kategorie</th><th>Jetzt kaufen (2026)</th><th>Warten (2027+)</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>Beleuchtung</strong></td><td>Matter/Thread-Gluehbirnen</td><td>Nichts — Markt ist reif</td></tr>
-<tr><td><strong>Thermostat</strong></td><td>Google Nest, Tado, Eve Thermo</td><td>Nichts</td></tr>
-<tr><td><strong>Kameras</strong></td><td>Eufy S3 Pro, Reolink (ohne Abo)</td><td>Matter-native Kameras (2027)</td></tr>
-<tr><td><strong>Saugroboter</strong></td><td>Roborock S8 MaxV, Dreame X40</td><td>Matter-native Modelle</td></tr>
-<tr><td><strong>Solar + Batterie</strong></td><td>Ja! Preise auf Tiefsstand</td><td>Preise fallen weiter aber Foerderungen auch</td></tr>
-</tbody>
-</table>
-
-<h2>Unsere Vision: Smart Home 2030</h2>
-<ul>
-<li><strong>Energieautonom:</strong> Solar + Batterie + bidirektionales EV decken 80-95 % des Energiebedarfs.</li>
-<li><strong>KI-gesteuert:</strong> keine manuellen Automatisierungen mehr.</li>
-<li><strong>100 % interoperabel:</strong> Matter 3.0+ fuer alle Geraetekategorien.</li>
-<li><strong>Nachhaltig:</strong> Pflicht-Reparierbarkeit, 10 Jahre Update-Garantie, offene Protokolle.</li>
-</ul>
-<p>2026 ist der beste Zeitpunkt fuer Smart Home Investitionen. Warten Sie nicht — bauen Sie Ihr Smart Home jetzt.</p>`,
-
-    es: `<h2>Hogar inteligente 2026: el ano en que todo cambia</h2>
-<p>El mercado mundial del hogar inteligente alcanza los <strong>180.000 millones de dolares en 2026</strong> (fuente: Statista), con un crecimiento del 12 % anual. Pero mas alla de las cifras, es la propia naturaleza de los dispositivos conectados la que se transforma. La IA en el dispositivo, los protocolos universales y la energia verde convergen para crear un hogar verdaderamente inteligente.</p>
-<p>Estas son las 8 tendencias que redefinen el hogar inteligente en 2026. Para los protocolos Matter y Thread, consulta nuestra <a href="/es/blog/maison-connectee-matter-thread-2026">guia completa Matter y Thread 2026</a>. Para ahorro energetico, nuestra <a href="/es/blog/guide-domotique-economie-energie-2026">guia domotica y ahorro energetico</a>.</p>
-
-<h2>Tendencia 1: IA en el dispositivo</h2>
-<ul>
-<li><strong>Camaras con deteccion IA local:</strong> las camaras 2026 de Reolink, Eufy y Arlo integran chips NPU que detectan personas, animales, vehiculos y paquetes SIN enviar imagenes a la nube. Deteccion en 200 ms, sin suscripcion, privacidad total.</li>
-<li><strong>Termostatos predictivos:</strong> Google Nest y Tado 2026 aprenden tus habitos localmente. <strong>15-25 % de ahorro en calefaccion</strong>.</li>
-<li><strong>Asistentes de voz contextuales:</strong> procesan cada vez mas peticiones localmente.</li>
-</ul>
-
-<h2>Tendencia 2: Edge computing</h2>
-<ul>
-<li><strong>Home Assistant en mini-PCs:</strong> el sistema domotico open source mas popular funciona en mini-PCs de 80-150 EUR y gestiona toda tu casa localmente.</li>
-<li><strong>Almacenamiento de video local:</strong> NVRs de Reolink, Synology y Frigate almacenan grabaciones sin suscripcion.</li>
-</ul>
-
-<h2>Tendencia 3: Solar + bateria domestica</h2>
-<table>
-<thead>
-<tr><th>Metrica</th><th>2023</th><th>2026</th><th>Cambio</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>Precio paneles (por kWp)</strong></td><td>2.000-2.500 EUR</td><td>1.400-1.800 EUR</td><td>-30 %</td></tr>
-<tr><td><strong>Precio bateria (por kWh)</strong></td><td>600-800 EUR</td><td>350-500 EUR</td><td>-40 %</td></tr>
-<tr><td><strong>Retorno de inversion</strong></td><td>8-12 anos</td><td>5-8 anos</td><td>-3 anos</td></tr>
-<tr><td><strong>Autoconsumo con bateria</strong></td><td>60-70 %</td><td>70-85 %</td><td>+15 pts</td></tr>
-</tbody>
-</table>
-
-<h2>Tendencia 4: Robot everything</h2>
-<ul>
-<li><strong>Aspiradores-fregadores autonomos:</strong> Roborock S8 MaxV Ultra, Dreame X40 Ultra. 800-1.500 EUR.</li>
-<li><strong>Cortacesped robot sin cable perimetral:</strong> Husqvarna CEORA, Segway Navimow. 1.500-4.000 EUR.</li>
-<li><strong>Robots companeros:</strong> Amazon Astro, Samsung Ballie — aun experimentales. 1.000-2.000 EUR.</li>
-</ul>
-
-<h2>Tendencia 5: Matter se generaliza</h2>
-<ul>
-<li>Mas de <strong>3.000 productos</strong> certificados Matter (abril 2026).</li>
-<li><strong>85 % de los nuevos dispositivos</strong> en Europa son compatibles Matter.</li>
-<li>Precios 15-20 % mas bajos que en 2024.</li>
-</ul>
-
-<h2>Tendencia 6: Asistentes de voz IA</h2>
-<ul>
-<li><strong>Alexa+:</strong> la integracion de Claude permite "Alexa, tengo frio" — el asistente entiende que hay que subir la calefaccion.</li>
-<li><strong>Google Assistant con Gemini:</strong> "Ok Google, prepara la casa para la fiesta del viernes."</li>
-<li><strong>Apple Siri con Apple Intelligence:</strong> entiende contexto personal.</li>
-</ul>
-
-<h2>Tendencia 7: Seguridad sin suscripcion</h2>
-<table>
-<thead>
-<tr><th>Marca</th><th>Camara</th><th>Suscripcion cloud</th><th>Coste 3 anos (2 camaras)</th></tr>
-</thead>
-<tbody>
-<tr><td>Ring</td><td>~100 EUR x2</td><td>100 EUR/ano</td><td><strong>500 EUR</strong></td></tr>
-<tr><td>Arlo</td><td>~150 EUR x2</td><td>130 EUR/ano</td><td><strong>690 EUR</strong></td></tr>
-<tr><td>Eufy (sin abo)</td><td>~200 EUR x2</td><td>0 EUR</td><td><strong>400 EUR</strong></td></tr>
-<tr><td>Reolink (sin abo)</td><td>~130 EUR x2</td><td>0 EUR</td><td><strong>260 EUR</strong></td></tr>
-</tbody>
-</table>
-
-<h2>Tendencia 8: Sostenibilidad y reparabilidad</h2>
-<ul>
-<li><strong>Indice de reparabilidad:</strong> obligatorio en Francia, extendiendose a la UE.</li>
-<li><strong>Derecho a reparar UE:</strong> piezas de repuesto 7-10 anos tras fin de venta.</li>
-<li><strong>Matter y longevidad:</strong> los dispositivos siguen funcionando aunque el fabricante desaparezca.</li>
-</ul>
-
-<h2>Que comprar ahora vs que esperar</h2>
-<table>
-<thead>
-<tr><th>Categoria</th><th>Comprar ahora (2026)</th><th>Esperar (2027+)</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>Iluminacion</strong></td><td>Bombillas Matter/Thread</td><td>Nada — mercado maduro</td></tr>
-<tr><td><strong>Termostato</strong></td><td>Google Nest, Tado, Eve Thermo</td><td>Nada</td></tr>
-<tr><td><strong>Camaras</strong></td><td>Eufy S3 Pro, Reolink (sin abo)</td><td>Camaras Matter nativas (2027)</td></tr>
-<tr><td><strong>Robot aspirador</strong></td><td>Roborock S8 MaxV, Dreame X40</td><td>Modelos Matter nativos</td></tr>
-<tr><td><strong>Solar + bateria</strong></td><td>Si! Precios en minimos historicos</td><td>Los precios seguiran bajando pero las ayudas tambien</td></tr>
-</tbody>
-</table>
-
-<h2>Nuestra vision: el hogar inteligente en 2030</h2>
-<ul>
-<li><strong>Autonomo energeticamente:</strong> solar + bateria + vehiculo electrico bidireccional cubriran el 80-95 % de las necesidades.</li>
-<li><strong>Gestionado por IA:</strong> la IA local anticipara todas las necesidades automaticamente.</li>
-<li><strong>100 % interoperable:</strong> Matter 3.0+ cubrira todas las categorias.</li>
-<li><strong>Sostenible:</strong> reparabilidad obligatoria, actualizaciones garantizadas 10 anos.</li>
-</ul>
-<p>2026 es el mejor momento para invertir en el hogar inteligente. No esperes mas.</p>`,
-
-    it: `<h2>Casa smart 2026: l'anno in cui tutto cambia</h2>
-<p>Il mercato mondiale della casa smart raggiunge i <strong>180 miliardi di dollari nel 2026</strong> (fonte: Statista), con una crescita del 12% annuo. Ma al di la dei numeri, e la natura stessa dei dispositivi connessi a trasformarsi. L'IA on-device, i protocolli universali e l'energia verde convergono per creare una casa veramente intelligente.</p>
-<p>Ecco le 8 tendenze che ridefiniscono la casa smart nel 2026. Per i protocolli Matter e Thread, consulta la nostra <a href="/it/blog/maison-connectee-matter-thread-2026">guida completa Matter e Thread 2026</a>. Per il risparmio energetico, la nostra <a href="/it/blog/guide-domotique-economie-energie-2026">guida domotica e risparmio energetico</a>.</p>
-
-<h2>Tendenza 1: IA on-device</h2>
-<ul>
-<li><strong>Telecamere con rilevamento IA locale:</strong> le telecamere 2026 di Reolink, Eufy e Arlo integrano chip NPU. Rilevamento in 200 ms, nessun abbonamento, privacy totale.</li>
-<li><strong>Termostati predittivi:</strong> Google Nest e Tado 2026 imparano le tue abitudini localmente. <strong>15-25% di risparmio sul riscaldamento</strong>.</li>
-<li><strong>Assistenti vocali contestuali:</strong> elaborano sempre piu richieste localmente.</li>
-</ul>
-
-<h2>Tendenza 2: Edge computing</h2>
-<ul>
-<li><strong>Home Assistant su mini-PC:</strong> il sistema domotico open source piu popolare gira su mini-PC da 80-150 EUR e gestisce tutta la casa localmente.</li>
-<li><strong>Archiviazione video locale:</strong> NVR di Reolink, Synology e Frigate archiviano registrazioni senza abbonamento cloud.</li>
-</ul>
-
-<h2>Tendenza 3: Solare + batteria domestica</h2>
-<table>
-<thead>
-<tr><th>Metrica</th><th>2023</th><th>2026</th><th>Variazione</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>Prezzo pannelli (per kWp)</strong></td><td>2.000-2.500 EUR</td><td>1.400-1.800 EUR</td><td>-30%</td></tr>
-<tr><td><strong>Prezzo batteria (per kWh)</strong></td><td>600-800 EUR</td><td>350-500 EUR</td><td>-40%</td></tr>
-<tr><td><strong>Ritorno sull'investimento</strong></td><td>8-12 anni</td><td>5-8 anni</td><td>-3 anni</td></tr>
-<tr><td><strong>Autoconsumo con batteria</strong></td><td>60-70%</td><td>70-85%</td><td>+15 pti</td></tr>
-</tbody>
-</table>
-
-<h2>Tendenza 4: Robot everything</h2>
-<ul>
-<li><strong>Robot aspirapolvere-lavapavimenti:</strong> Roborock S8 MaxV Ultra, Dreame X40 Ultra. 800-1.500 EUR.</li>
-<li><strong>Tagliaerba robot senza filo perimetrale:</strong> Husqvarna CEORA, Segway Navimow. 1.500-4.000 EUR.</li>
-<li><strong>Robot compagni:</strong> Amazon Astro, Samsung Ballie — ancora sperimentali. 1.000-2.000 EUR.</li>
-</ul>
-
-<h2>Tendenza 5: Matter diventa mainstream</h2>
-<ul>
-<li>Oltre <strong>3.000 prodotti</strong> certificati Matter (aprile 2026).</li>
-<li><strong>85% dei nuovi dispositivi</strong> in Europa sono compatibili Matter.</li>
-<li>Prezzi 15-20% piu bassi rispetto al 2024.</li>
-</ul>
-
-<h2>Tendenza 6: Assistenti vocali IA</h2>
-<ul>
-<li><strong>Alexa+:</strong> l'integrazione di Claude permette "Alexa, ho freddo" — l'assistente capisce che deve alzare il riscaldamento.</li>
-<li><strong>Google Assistant con Gemini:</strong> "Ok Google, prepara la casa per la festa di venerdi."</li>
-<li><strong>Apple Siri con Apple Intelligence:</strong> capisce finalmente il contesto personale.</li>
-</ul>
-
-<h2>Tendenza 7: Sicurezza senza abbonamento</h2>
-<table>
-<thead>
-<tr><th>Marca</th><th>Telecamera</th><th>Abbonamento cloud</th><th>Costo 3 anni (2 telecamere)</th></tr>
-</thead>
-<tbody>
-<tr><td>Ring</td><td>~100 EUR x2</td><td>100 EUR/anno</td><td><strong>500 EUR</strong></td></tr>
-<tr><td>Arlo</td><td>~150 EUR x2</td><td>130 EUR/anno</td><td><strong>690 EUR</strong></td></tr>
-<tr><td>Eufy (senza abo)</td><td>~200 EUR x2</td><td>0 EUR</td><td><strong>400 EUR</strong></td></tr>
-<tr><td>Reolink (senza abo)</td><td>~130 EUR x2</td><td>0 EUR</td><td><strong>260 EUR</strong></td></tr>
-</tbody>
-</table>
-
-<h2>Tendenza 8: Sostenibilita e riparabilita</h2>
-<ul>
-<li><strong>Indice di riparabilita:</strong> obbligatorio in Francia, in estensione nell'UE.</li>
-<li><strong>Diritto alla riparazione UE:</strong> pezzi di ricambio 7-10 anni dopo fine vendita.</li>
-<li><strong>Matter e longevita:</strong> i dispositivi continuano a funzionare anche se il produttore scompare.</li>
-</ul>
-
-<h2>Cosa comprare ora vs cosa aspettare</h2>
-<table>
-<thead>
-<tr><th>Categoria</th><th>Comprare ora (2026)</th><th>Aspettare (2027+)</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>Illuminazione</strong></td><td>Lampadine Matter/Thread</td><td>Niente — mercato maturo</td></tr>
-<tr><td><strong>Termostato</strong></td><td>Google Nest, Tado, Eve Thermo</td><td>Niente</td></tr>
-<tr><td><strong>Telecamere</strong></td><td>Eufy S3 Pro, Reolink (senza abo)</td><td>Telecamere Matter native (2027)</td></tr>
-<tr><td><strong>Robot aspirapolvere</strong></td><td>Roborock S8 MaxV, Dreame X40</td><td>Modelli Matter nativi</td></tr>
-<tr><td><strong>Solare + batteria</strong></td><td>Si! Prezzi ai minimi storici</td><td>I prezzi continueranno a scendere ma anche gli incentivi</td></tr>
-</tbody>
-</table>
-
-<h2>La nostra visione: la casa smart nel 2030</h2>
-<ul>
-<li><strong>Autonoma energeticamente:</strong> solare + batteria + veicolo elettrico bidirezionale copriranno l'80-95% del fabbisogno.</li>
-<li><strong>Gestita dall'IA:</strong> l'IA locale anticipera tutti i bisogni automaticamente.</li>
-<li><strong>100% interoperabile:</strong> Matter 3.0+ coprira tutte le categorie.</li>
-<li><strong>Sostenibile:</strong> riparabilita obbligatoria, aggiornamenti garantiti 10 anni.</li>
-</ul>
-<p>Il 2026 e il momento migliore per investire nella casa smart. Non aspettare.</p>`,
-
-    nl: `<h2>Smart Home 2026: het jaar waarin alles verandert</h2>
-<p>De wereldwijde smart home markt bereikt <strong>180 miljard dollar in 2026</strong> (bron: Statista), met 12% groei per jaar. Maar voorbij de cijfers verandert de aard van verbonden apparaten fundamenteel. On-device AI, universele protocollen en groene energie convergeren naar een werkelijk intelligent huis.</p>
-<p>Hier zijn de 8 trends die het slimme huis in 2026 herdefinieren. Voor de Matter en Thread protocollen, lees onze <a href="/nl/blog/maison-connectee-matter-thread-2026">complete Matter en Thread gids 2026</a>. Voor energiebesparing, onze <a href="/nl/blog/guide-domotique-economie-energie-2026">gids domotica en energiebesparing</a>.</p>
-
-<h2>Trend 1: On-device AI</h2>
-<ul>
-<li><strong>Beveiligingscamera's met lokale AI-detectie:</strong> 2026 camera's van Reolink, Eufy en Arlo integreren NPU-chips. Detectie in 200 ms, geen abonnement nodig, volledige privacy.</li>
-<li><strong>Voorspellende thermostaten:</strong> Google Nest en Tado 2026 leren je gewoonten lokaal. <strong>15-25% besparing op verwarmingskosten</strong>.</li>
-<li><strong>Contextuele stemassistenten:</strong> verwerken steeds meer verzoeken lokaal.</li>
-</ul>
-
-<h2>Trend 2: Edge computing</h2>
-<ul>
-<li><strong>Home Assistant op mini-PC's:</strong> het populairste open-source domoticasysteem draait op mini-PC's van 80-150 EUR en beheert je hele huis lokaal.</li>
-<li><strong>Lokale video-opslag:</strong> NVR's van Reolink, Synology en Frigate slaan opnames thuis op zonder cloud-abonnement.</li>
-</ul>
-
-<h2>Trend 3: Zonne-energie + thuisbatterij</h2>
-<table>
-<thead>
-<tr><th>Kengetal</th><th>2023</th><th>2026</th><th>Verandering</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>Paneelprijs (per kWp)</strong></td><td>2.000-2.500 EUR</td><td>1.400-1.800 EUR</td><td>-30%</td></tr>
-<tr><td><strong>Batterijprijs (per kWh)</strong></td><td>600-800 EUR</td><td>350-500 EUR</td><td>-40%</td></tr>
-<tr><td><strong>Terugverdientijd</strong></td><td>8-12 jaar</td><td>5-8 jaar</td><td>-3 jaar</td></tr>
-<tr><td><strong>Zelfverbruik met batterij</strong></td><td>60-70%</td><td>70-85%</td><td>+15 ptn</td></tr>
-</tbody>
-</table>
-
-<h2>Trend 4: Robot everything</h2>
-<ul>
-<li><strong>Zuig-dweilrobots:</strong> Roborock S8 MaxV Ultra, Dreame X40 Ultra. 800-1.500 EUR.</li>
-<li><strong>Draadloze grasmaaierrobots:</strong> Husqvarna CEORA, Segway Navimow. 1.500-4.000 EUR.</li>
-<li><strong>Begeleidingsrobots:</strong> Amazon Astro, Samsung Ballie — nog experimenteel. 1.000-2.000 EUR.</li>
-</ul>
-
-<h2>Trend 5: Matter wordt mainstream</h2>
-<ul>
-<li>Meer dan <strong>3.000 producten</strong> Matter-gecertificeerd (april 2026).</li>
-<li><strong>85% van nieuwe smart apparaten</strong> in Europa is Matter-compatibel.</li>
-<li>Prijzen 15-20% lager dan in 2024.</li>
-</ul>
-
-<h2>Trend 6: AI-stemassistenten</h2>
-<ul>
-<li><strong>Alexa+:</strong> de integratie van Claude maakt "Alexa, het is koud hier" mogelijk — de assistent begrijpt dat de verwarming omhoog moet.</li>
-<li><strong>Google Assistant met Gemini:</strong> "Ok Google, bereid het huis voor op het feest van vrijdag."</li>
-<li><strong>Apple Siri met Apple Intelligence:</strong> begrijpt eindelijk persoonlijke context.</li>
-</ul>
-
-<h2>Trend 7: Beveiliging zonder abonnement</h2>
-<table>
-<thead>
-<tr><th>Merk</th><th>Camera</th><th>Cloud-abonnement</th><th>3-jaarskosten (2 camera's)</th></tr>
-</thead>
-<tbody>
-<tr><td>Ring</td><td>~100 EUR x2</td><td>100 EUR/jaar</td><td><strong>500 EUR</strong></td></tr>
-<tr><td>Arlo</td><td>~150 EUR x2</td><td>130 EUR/jaar</td><td><strong>690 EUR</strong></td></tr>
-<tr><td>Eufy (zonder abo)</td><td>~200 EUR x2</td><td>0 EUR</td><td><strong>400 EUR</strong></td></tr>
-<tr><td>Reolink (zonder abo)</td><td>~130 EUR x2</td><td>0 EUR</td><td><strong>260 EUR</strong></td></tr>
-</tbody>
-</table>
-
-<h2>Trend 8: Duurzaamheid en repareerbaarheid</h2>
-<ul>
-<li><strong>Repareerb​aarheidsindex:</strong> verplicht in Frankrijk, wordt uitgebreid in de EU.</li>
-<li><strong>EU-recht op reparatie:</strong> reserveonderdelen 7-10 jaar na einde verkoop.</li>
-<li><strong>Matter en levensduur:</strong> apparaten blijven werken ook als de fabrikant verdwijnt.</li>
-</ul>
-
-<h2>Nu kopen vs wachten</h2>
-<table>
-<thead>
-<tr><th>Categorie</th><th>Nu kopen (2026)</th><th>Wachten (2027+)</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>Verlichting</strong></td><td>Matter/Thread-lampen</td><td>Niets — markt is rijp</td></tr>
-<tr><td><strong>Thermostaat</strong></td><td>Google Nest, Tado, Eve Thermo</td><td>Niets</td></tr>
-<tr><td><strong>Camera's</strong></td><td>Eufy S3 Pro, Reolink (zonder abo)</td><td>Matter-natieve camera's (2027)</td></tr>
-<tr><td><strong>Robotstofzuiger</strong></td><td>Roborock S8 MaxV, Dreame X40</td><td>Matter-natieve modellen</td></tr>
-<tr><td><strong>Zonne-energie + batterij</strong></td><td>Ja! Prijzen op historisch dieptepunt</td><td>Prijzen dalen verder maar subsidies ook</td></tr>
-</tbody>
-</table>
-
-<h2>Onze visie: het slimme huis in 2030</h2>
-<ul>
-<li><strong>Energieautonoom:</strong> zonne-energie + batterij + bidirectionele EV dekken 80-95% van de energiebehoefte.</li>
-<li><strong>AI-gestuurd:</strong> geen handmatige automatiseringen meer.</li>
-<li><strong>100% interoperabel:</strong> Matter 3.0+ voor alle apparaatcategorieen.</li>
-<li><strong>Duurzaam:</strong> verplichte repareerbaarheid, 10 jaar gegarandeerde updates.</li>
-</ul>
-<p>2026 is het beste moment om te investeren in het slimme huis. Wacht niet — bouw je slimme huis nu.</p>`,
-  },
-  faq: [
+  "datePublished": "2026-04-16",
+  "dateModified": "2026-10-09",
+  "readingTime": 8,
+  "images": [
     {
-      question: {
-        fr: 'Quel budget prevoir pour une maison connectee en 2026 ?',
-        en: 'What budget should I plan for a smart home in 2026?',
-        de: 'Welches Budget sollte man 2026 fuer ein Smart Home einplanen?',
-        es: 'Que presupuesto prever para un hogar inteligente en 2026?',
-        it: 'Che budget prevedere per una casa smart nel 2026?',
-        nl: 'Welk budget moet ik plannen voor een slim huis in 2026?',
-      },
-      answer: {
-        fr: 'Tout depend de l\'ambition. Un kit de demarrage basique (4 ampoules connectees + 2 prises + 1 enceinte connectee) coute 150-250 EUR. Un equipement intermediaire (eclairage complet, thermostat, 2 cameras, serrure connectee) revient a 800-1 500 EUR. Un equipement complet (tout le precedent + aspirateur robot, panneau solaire, batterie domestique, automatisations avancees) peut atteindre 5 000-15 000 EUR. Notre conseil : commencez petit (eclairage Matter + enceinte) et ajoutez progressivement.',
-        en: 'It all depends on ambition. A basic starter kit (4 smart bulbs + 2 plugs + 1 smart speaker) costs £130-220. An intermediate setup (full lighting, thermostat, 2 cameras, smart lock) runs to £700-1,300. A complete setup (all the above + robot vacuum, solar panels, home battery, advanced automations) can reach £4,000-13,000. Our advice: start small (Matter lighting + speaker) and add gradually.',
-        de: 'Es haengt vom Anspruch ab. Ein Starter-Kit (4 smarte Gluehbirnen + 2 Steckdosen + 1 Smart Speaker) kostet 150-250 EUR. Eine mittlere Ausstattung liegt bei 800-1.500 EUR. Eine Vollausstattung kann 5.000-15.000 EUR erreichen. Unser Rat: klein anfangen und schrittweise erweitern.',
-        es: 'Depende de la ambicion. Un kit basico (4 bombillas + 2 enchufes + 1 altavoz) cuesta 150-250 EUR. Un equipamiento intermedio supone 800-1.500 EUR. Un equipamiento completo puede alcanzar 5.000-15.000 EUR. Nuestro consejo: empieza pequeno y anade progresivamente.',
-        it: 'Dipende dall\'ambizione. Un kit base (4 lampadine + 2 prese + 1 speaker) costa 150-250 EUR. Un equipaggiamento intermedio va da 800 a 1.500 EUR. Un equipaggiamento completo puo raggiungere 5.000-15.000 EUR. Il nostro consiglio: inizia in piccolo e aggiungi gradualmente.',
-        nl: 'Het hangt af van de ambitie. Een basisstartpakket (4 slimme lampen + 2 stekkers + 1 smart speaker) kost 150-250 EUR. Een gemiddelde uitrusting kost 800-1.500 EUR. Een volledige uitrusting kan 5.000-15.000 EUR bereiken. Ons advies: begin klein en breid geleidelijk uit.',
-      },
-    },
-    {
-      question: {
-        fr: 'La maison connectee est-elle securisee contre les pirates ?',
-        en: 'Is the smart home secure against hackers?',
-        de: 'Ist das Smart Home sicher gegen Hacker?',
-        es: 'Es el hogar inteligente seguro contra hackers?',
-        it: 'La casa smart e sicura contro gli hacker?',
-        nl: 'Is het slimme huis veilig tegen hackers?',
-      },
-      answer: {
-        fr: 'En 2026, la securite s\'est considerablement amelioree grace a Matter (chiffrement de bout en bout, authentification mutuelle) et au traitement local (vos donnees ne quittent pas votre maison). Les principales mesures a prendre : utilisez un mot de passe WiFi fort et unique, activez le WPA3 sur votre routeur, maintenez tous vos appareils a jour, privilegiez les appareils Matter et utilisez un reseau WiFi separe pour vos objets connectes.',
-        en: 'In 2026, security has considerably improved thanks to Matter (end-to-end encryption, mutual authentication) and local processing (your data does not leave your home). Key measures: use a strong, unique WiFi password, enable WPA3 on your router, keep all devices updated, prefer Matter devices, and use a separate WiFi network for smart devices if your router supports it.',
-        de: 'Die Sicherheit hat sich 2026 dank Matter (End-to-End-Verschluesselung) und lokaler Verarbeitung deutlich verbessert. Wichtige Massnahmen: starkes WLAN-Passwort, WPA3 aktivieren, alle Geraete aktuell halten, Matter-Geraete bevorzugen, separates WLAN fuer Smart-Geraete.',
-        es: 'La seguridad ha mejorado considerablemente en 2026 gracias a Matter (cifrado extremo a extremo) y al procesamiento local. Medidas clave: contrasena WiFi fuerte, WPA3 activado, dispositivos actualizados, preferir dispositivos Matter y red WiFi separada.',
-        it: 'La sicurezza e migliorata notevolmente nel 2026 grazie a Matter (crittografia end-to-end) e all\'elaborazione locale. Misure chiave: password WiFi forte, WPA3 attivato, dispositivi aggiornati, preferire dispositivi Matter e rete WiFi separata.',
-        nl: 'De beveiliging is in 2026 aanzienlijk verbeterd dankzij Matter (end-to-end encryptie) en lokale verwerking. Belangrijke maatregelen: sterk WiFi-wachtwoord, WPA3 activeren, alle apparaten bijgewerkt houden, Matter-apparaten verkiezen en apart WiFi-netwerk voor smart apparaten.',
-      },
-    },
-    {
-      question: {
-        fr: 'Les panneaux solaires + batterie sont-ils rentables en 2026 ?',
-        en: 'Are solar panels + home battery cost-effective in 2026?',
-        de: 'Sind Solarpanels + Hausbatterie 2026 rentabel?',
-        es: 'Son rentables los paneles solares + bateria domestica en 2026?',
-        it: 'I pannelli solari + batteria domestica sono redditizi nel 2026?',
-        nl: 'Zijn zonnepanelen + thuisbatterij rendabel in 2026?',
-      },
-      answer: {
-        fr: 'Oui, 2026 est un point de bascule. Les prix des panneaux ont baisse de 30 % et des batteries de 40 % depuis 2023. Le retour sur investissement est passe de 8-12 ans a 5-8 ans. Pour un foyer francais typique (3 kWc de panneaux + 5 kWh de batterie), l\'investissement est d\'environ 10 000-12 000 EUR, avec une economie annuelle de 1 200-1 800 EUR. Les aides couvrent 20-30 % du cout. Le taux d\'autoconsommation atteint 70-85 % avec batterie.',
-        en: 'Yes, 2026 is a tipping point. Panel prices have dropped 30% and battery prices 40% since 2023. Return on investment has gone from 8-12 years to 5-8 years. For a typical UK home (3 kWp panels + 5 kWh battery), the investment is approximately £8,000-10,000, with annual savings of £1,000-1,500 on electricity bills. Self-consumption reaches 70-85% with a battery.',
-        de: 'Ja, 2026 ist ein Wendepunkt. Panelpreise sind um 30 % und Batteriepreise um 40 % seit 2023 gefallen. Die Amortisation ist von 8-12 auf 5-8 Jahre gesunken. Es ist rentabel, oekologisch und schuetzt gegen zukuenftige Strompreiserhoehungen.',
-        es: 'Si, 2026 es un punto de inflexion. Los precios de los paneles han bajado un 30 % y los de las baterias un 40 % desde 2023. El retorno de inversion ha pasado de 8-12 anos a 5-8 anos. Es rentable, ecologico y protege contra futuras subidas del precio de la electricidad.',
-        it: 'Si, il 2026 e un punto di svolta. I prezzi dei pannelli sono scesi del 30% e delle batterie del 40% dal 2023. Il ritorno sull\'investimento e passato da 8-12 a 5-8 anni. E redditizio, ecologico e protegge contro futuri aumenti del prezzo dell\'elettricita.',
-        nl: 'Ja, 2026 is een kantelpunt. Paneelprijzen zijn 30% en batterijprijzen 40% gedaald sinds 2023. De terugverdientijd is van 8-12 naar 5-8 jaar gegaan. Het is rendabel, ecologisch en beschermt tegen toekomstige elektriciteitsprijsstijgingen.',
-      },
-    },
-    {
-      question: {
-        fr: 'Quel assistant vocal choisir en 2026 ?',
-        en: 'Which voice assistant should I choose in 2026?',
-        de: 'Welchen Sprachassistenten soll ich 2026 waehlen?',
-        es: 'Que asistente de voz elegir en 2026?',
-        it: 'Quale assistente vocale scegliere nel 2026?',
-        nl: 'Welke stemassistent moet ik kiezen in 2026?',
-      },
-      answer: {
-        fr: 'En 2026, les trois grands assistants se valent en qualite grace a l\'IA generative. Le choix depend de votre ecosysteme : Alexa+ si vous voulez le meilleur rapport qualite-prix (Echo a 30-60 EUR) et le plus grand catalogue de skills. Google Assistant avec Gemini si vous etes sur Android et voulez la meilleure comprehension contextuelle. Siri avec Apple Intelligence si vous etes dans l\'ecosysteme Apple et privilegiez la vie privee.',
-        en: 'In 2026, all three major assistants are comparable in quality thanks to generative AI. The choice depends on your ecosystem: Alexa+ for best value (Echo at £30-50) and the largest skills catalogue. Google Assistant with Gemini for Android users wanting the best contextual understanding. Siri with Apple Intelligence for Apple ecosystem users and the best privacy.',
-        de: 'Alle drei Assistenten sind 2026 dank generativer KI qualitativ vergleichbar. Die Wahl haengt vom Oekosystem ab: Alexa+ fuer bestes Preis-Leistungs-Verhaeltnis, Google Assistant mit Gemini fuer Android, Siri mit Apple Intelligence fuer Apple-Nutzer und besten Datenschutz.',
-        es: 'Los tres asistentes son comparables en calidad en 2026. La eleccion depende de tu ecosistema: Alexa+ para mejor relacion calidad-precio, Google Assistant con Gemini para Android, Siri con Apple Intelligence para usuarios Apple y mejor privacidad.',
-        it: 'Tutti e tre gli assistenti sono comparabili in qualita nel 2026. La scelta dipende dal tuo ecosistema: Alexa+ per il miglior rapporto qualita-prezzo, Google Assistant con Gemini per Android, Siri con Apple Intelligence per utenti Apple e migliore privacy.',
-        nl: 'Alle drie de assistenten zijn in 2026 vergelijkbaar in kwaliteit. De keuze hangt af van je ecosysteem: Alexa+ voor beste prijs-kwaliteit, Google Assistant met Gemini voor Android, Siri met Apple Intelligence voor Apple-gebruikers en beste privacy.',
-      },
-    },
-    {
-      question: {
-        fr: 'Les objets connectes espionnent-ils vraiment ?',
-        en: 'Do smart devices really spy on you?',
-        de: 'Spionieren Smart-Geraete wirklich?',
-        es: 'Los dispositivos inteligentes realmente espian?',
-        it: 'I dispositivi smart spiano davvero?',
-        nl: 'Spioneren slimme apparaten echt?',
-      },
-      answer: {
-        fr: 'La reponse nuancee : ca depend du fabricant et du protocole. Les appareils Matter traitent les commandes localement et n\'envoient pas de donnees au cloud par defaut. Les enceintes ecoutent le mot d\'activation mais n\'enregistrent qu\'apres activation. Les cameras locales (Eufy, Reolink) stockent sans cloud. Notre conseil : privilegiez les appareils Matter avec traitement local et desactivez le partage de donnees.',
-        en: 'The nuanced answer: it depends on the manufacturer and protocol. Matter devices process commands locally and do not send data to the cloud by default. Smart speakers listen for the wake word but only record after activation. Local cameras (Eufy, Reolink) store without cloud. Our advice: prefer Matter devices with local processing and disable data sharing.',
-        de: 'Die differenzierte Antwort: Es haengt vom Hersteller und Protokoll ab. Matter-Geraete verarbeiten Befehle lokal. Smart Speaker hoeren auf das Aktivierungswort, nehmen erst danach auf. Unser Rat: Matter-Geraete mit lokaler Verarbeitung bevorzugen.',
-        es: 'La respuesta matizada: depende del fabricante y protocolo. Los dispositivos Matter procesan comandos localmente. Los altavoces escuchan la palabra de activacion pero solo graban despues. Nuestro consejo: preferir dispositivos Matter con procesamiento local.',
-        it: 'La risposta sfumata: dipende dal produttore e dal protocollo. I dispositivi Matter elaborano i comandi localmente. Gli speaker ascoltano la parola di attivazione ma registrano solo dopo. Il nostro consiglio: preferire dispositivi Matter con elaborazione locale.',
-        nl: 'Het genuanceerde antwoord: het hangt af van de fabrikant en het protocol. Matter-apparaten verwerken commando\'s lokaal. Slimme speakers luisteren naar het activeringwoord maar nemen pas op na activering. Ons advies: geef de voorkeur aan Matter-apparaten met lokale verwerking.',
-      },
-    },
-    {
-      question: {
-        fr: 'La maison connectee augmente-t-elle la valeur immobiliere ?',
-        en: 'Does a smart home increase property value?',
-        de: 'Steigert ein Smart Home den Immobilienwert?',
-        es: 'El hogar inteligente aumenta el valor inmobiliario?',
-        it: 'La casa smart aumenta il valore immobiliare?',
-        nl: 'Verhoogt een slim huis de vastgoedwaarde?',
-      },
-      answer: {
-        fr: 'Oui, selon plusieurs etudes immobilieres, une maison equipee smart home se vend 3-5 % plus cher et se vend plus rapidement (12-18 jours de moins sur le marche). Les equipements les plus valorisants : thermostat intelligent, systeme de securite, eclairage intelligent et surtout panneaux solaires + batterie. Un bien equipe Matter est d\'autant plus valorise car l\'acheteur sait que les appareils sont perennes et interoperables.',
-        en: 'Yes, according to several property studies, a smart home-equipped property sells for 3-5% more and sells faster (12-18 fewer days on market). The most value-adding features: smart thermostat, connected security system, smart lighting and especially solar panels + battery. A Matter-equipped property is especially valued as buyers know the devices are future-proof and interoperable.',
-        de: 'Ja, laut mehreren Immobilienstudien verkauft sich ein Smart-Home-ausgestattetes Objekt 3-5 % teurer und schneller. Die wertvollsten Ausstattungen: smarter Thermostat, Sicherheitssystem, intelligente Beleuchtung und besonders Solarpanels + Batterie.',
-        es: 'Si, segun varios estudios inmobiliarios, un hogar smart se vende un 3-5 % mas caro y mas rapido. Los equipamientos mas valorados: termostato inteligente, sistema de seguridad, iluminacion inteligente y paneles solares + bateria.',
-        it: 'Si, secondo diversi studi immobiliari, una casa smart si vende al 3-5% in piu e piu velocemente. Le dotazioni piu valorizzanti: termostato smart, sistema di sicurezza, illuminazione intelligente e pannelli solari + batteria.',
-        nl: 'Ja, volgens verschillende vastgoedstudies verkoopt een smart home-uitgerust pand 3-5% duurder en sneller. De meest waardevolle uitrustingen: slimme thermostaat, beveiligingssysteem, slimme verlichting en zonnepanelen + batterij.',
-      },
-    },
+      "src": "https://images.unsplash.com/photo-1543512214-318c7553f230?w=800&q=80&auto=format&fit=crop",
+      "alt": {
+        "fr": "Enceinte connectée Amazon Echo posée à côté d’une plante, symbole des assistants vocaux de la maison connectée",
+        "en": "Amazon Echo smart speaker next to a plant, a symbol of voice assistants in the smart home",
+        "de": "Smarter Lautsprecher Amazon Echo neben einer Pflanze als Symbol für Sprachassistenten im Smart Home",
+        "es": "Altavoz inteligente Amazon Echo junto a una planta, símbolo de los asistentes de voz del hogar inteligente",
+        "it": "Speaker smart Amazon Echo accanto a una pianta, simbolo degli assistenti vocali della casa smart",
+        "nl": "Slimme speaker Amazon Echo naast een plant, symbool voor spraakassistenten in het slimme huis"
+      }
+    }
   ],
+  "title": {
+    "fr": "Tendances maison connectée 2026 : ce qui change vraiment",
+    "en": "Smart Home Trends 2026: What Is Really Changing",
+    "de": "Smart-Home-Trends 2026: Was sich wirklich ändert",
+    "es": "Tendencias del hogar inteligente 2026: lo que cambia de verdad",
+    "it": "Tendenze casa smart 2026: cosa cambia davvero",
+    "nl": "Smart home trends 2026: wat er echt verandert"
+  },
+  "excerpt": {
+    "fr": "Matter pour les caméras et l’énergie, Thread, Alexa+ et Gemini for Home en Europe, domotique locale, sécurité sans abonnement, nouvelles règles UE : les vraies tendances maison connectée 2026 et les produits qui les incarnent.",
+    "en": "Matter for cameras and energy, Thread, Alexa+ and Gemini for Home in Europe, local control, subscription-free security and new EU rules: the real smart home trends of 2026 and the products that embody them.",
+    "de": "Matter für Kameras und Energie, Thread, Alexa+ und Gemini for Home in Europa, lokale Steuerung, Sicherheit ohne Abo und neue EU-Regeln: die echten Smart-Home-Trends 2026 und die Produkte dazu.",
+    "es": "Matter para cámaras y energía, Thread, Alexa+ y Gemini for Home en Europa, control local, seguridad sin suscripción y nuevas normas de la UE: las tendencias reales del hogar inteligente en 2026 y sus productos.",
+    "it": "Matter per telecamere ed energia, Thread, Alexa+ e Gemini for Home in Europa, controllo locale, sicurezza senza abbonamento e nuove regole UE: le vere tendenze della casa smart 2026 e i prodotti che le incarnano.",
+    "nl": "Matter voor camera’s en energie, Thread, Alexa+ en Gemini for Home in Europa, lokale bediening, beveiliging zonder abonnement en nieuwe EU-regels: de echte smart home trends van 2026 en de bijbehorende producten."
+  },
+  "content": {
+    "fr": "<p>En 2026, la maison connectée change surtout sur trois points concrets : Matter couvre enfin les caméras et la gestion de l’énergie, les assistants vocaux passent à l’IA générative en Europe, et le contrôle local sans cloud devient un vrai critère d’achat. Le reste (robots plus autonomes, sécurité sans abonnement, nouvelles règles européennes de cybersécurité et de réparation) découle de ces mouvements de fond.</p>\n<p>Ce dossier distingue ce qui existe réellement et s’achète aujourd’hui de ce qui relève encore de l’effet d’annonce. Il s’appuie sur les spécifications publiées par les fabricants et la Connectivity Standards Alliance, sur des tests indépendants et sur les retours d’acheteurs vérifiés. Pour les bases techniques, lisez aussi notre <a href=\"/fr/blog/maison-connectee-matter-thread-2026\">guide Matter et Thread 2026</a>.</p>\n\n<h2>Comment reconnaître une vraie tendance</h2>\n<p>Chaque salon technologique annonce « la révolution » de la maison connectée. Pour faire le tri avant d’acheter, quatre critères simples suffisent :</p>\n<ul>\n<li><strong>Le produit est-il vendu en Europe ?</strong> Beaucoup de nouveautés sortent d’abord aux États-Unis. Une fonction réservée à un autre marché ne vous concerne pas encore.</li>\n<li><strong>Repose-t-il sur un standard ouvert ?</strong> Un appareil compatible Matter peut changer d’écosystème (Apple Home, Google Home, Alexa, SmartThings, Home Assistant). Un appareil propriétaire dépend d’une seule application.</li>\n<li><strong>Fonctionne-t-il sans cloud ?</strong> Le pilotage local continue quand Internet tombe et limite les données qui sortent de chez vous.</li>\n<li><strong>Le coût d’usage est-il clair ?</strong> Abonnement obligatoire pour l’historique vidéo, fonction IA payante après une période d’essai : lisez les conditions avant de choisir.</li>\n</ul>\n\n<h2>Les 8 tendances maison connectée 2026</h2>\n\n<h3>1. Matter couvre enfin les caméras et l’énergie</h3>\n<p>Matter 1.4, publié en novembre 2024, a ajouté des types d’appareils pour la gestion de l’énergie : onduleurs solaires, batteries domestiques, pompes à chaleur et chauffe-eau. Matter 1.5, publié le 20 novembre 2025, a introduit les caméras (intérieures, extérieures, sonnettes vidéo) avec flux vidéo via WebRTC, zones de détection et de confidentialité et enregistrement local ou cloud, puis Matter 1.5.1 a affiné ces fonctions. Concrètement, la norme est prête ; les produits certifiés arrivent progressivement. Vérifiez toujours la mention Matter sur la fiche produit plutôt que de supposer une mise à jour future.</p>\n\n<h3>2. Thread se généralise, jusque dans les ampoules d’entrée de gamme</h3>\n<p>Thread, le réseau maillé basse consommation utilisé par Matter, n’est plus réservé aux marques haut de gamme. IKEA a présenté au CES 2026 une gamme de 21 produits Matter over Thread, dont les ampoules KAJPLATS qui remplacent les TRÅDFRI. Côté chauffage, l’Eve Thermo de 5e génération (fin 2025) et les têtes thermostatiques tado X fonctionnent aussi en Thread. Il vous faut un routeur de bordure Thread : une enceinte ou un hub récent (HomePod mini, Apple TV 4K récente, Nest Hub de 2e génération, Aqara Hub M3, certains Echo) joue ce rôle.</p>\n\n<h3>3. Les assistants vocaux passent à l’IA générative en Europe</h3>\n<p>C’est le changement le plus visible de 2026. Amazon a lancé Alexa+ en accès anticipé au Royaume-Uni en mars 2026, puis en Allemagne et en France en mai 2026. L’assistant comprend des demandes formulées naturellement et enchaîne plusieurs actions ; il est annoncé comme inclus avec Prime après la phase d’accès anticipé. Google déploie de son côté Gemini for Home sur ses enceintes et écrans Nest, en accès anticipé dans de nombreux pays européens, dont la France, l’Italie, l’Espagne, la Belgique et les Pays-Bas. Ces assistants restent largement dépendants du cloud : la commande des appareils gagne en souplesse, pas en confidentialité.</p>\n\n<h3>4. Le contrôle local devient un argument d’achat</h3>\n<p>En réaction à ces assistants très connectés, une partie des utilisateurs mise sur le local. Home Assistant, plateforme domotique open source, s’installe sur un boîtier dédié comme le Home Assistant Green et fait tourner les automatisations chez vous. Son enceinte Voice Preview Edition (fin 2024) permet une commande vocale traitée localement, à condition d’avoir un matériel assez puissant pour la reconnaissance vocale complète. Les hubs comme l’Aqara Hub M3 exécutent aussi leurs automatisations sur l’appareil, ce qui réduit la latence et la dépendance au cloud.</p>\n\n<h3>5. La sécurité vidéo sans abonnement et avec détection embarquée</h3>\n<p>Les caméras à stockage local s’imposent comme alternative aux formules cloud. L’eufyCam S3 Pro enregistre sur la HomeBase S380, extensible par disque dur, sans abonnement, et combine détection radar et infrarouge passive. La Reolink Argus 4 Pro enregistre sur carte microSD et offre un champ panoramique de 180° grâce à deux objectifs. Dans les deux cas, la reconnaissance des personnes et des véhicules se fait sans formule payante. Avec Matter 1.5, ces caméras pourront à terme s’intégrer plus facilement aux écosystèmes, mais seulement si le fabricant certifie le modèle.</p>\n\n<h3>6. L’énergie pilotée pièce par pièce, et le solaire à brancher</h3>\n<p>Le chauffage représente la plus grande part de la consommation d’énergie des ménages européens, d’où l’intérêt des têtes thermostatiques connectées qui chauffent chaque pièce selon un planning et la présence. En Allemagne, les centrales solaires de balcon (Balkonkraftwerk) peuvent injecter jusqu’à 800 W depuis l’assouplissement de 2024, ce qui a popularisé le solaire « à brancher » et les petites batteries associées. Les règles diffèrent selon les pays : en France, en Belgique ou en Italie, renseignez-vous auprès de votre gestionnaire de réseau avant d’installer un kit. Pour aller plus loin, consultez notre <a href=\"/fr/blog/guide-domotique-economie-energie-2026\">guide domotique et économies d’énergie</a>.</p>\n\n<h3>7. Des robots plus autonomes, dedans comme dehors</h3>\n<p>Les robots aspirateurs-laveurs gagnent en autonomie : le Roborock Saros Z70, vendu en Europe depuis mai 2025, est équipé d’un bras articulé capable de déplacer de petits objets légers. Au jardin, les tondeuses sans fil périmétrique, comme la Mammotion LUBA 2 AWD, combinent RTK et caméras pour se repérer. Ces produits restent haut de gamme et leurs fonctions les plus spectaculaires ont des limites : un bras robotisé ne range pas une pièce encombrée.</p>\n\n<h3>8. De nouvelles règles européennes : cybersécurité et réparation</h3>\n<p>Depuis le 1er août 2025, les appareils radio connectés vendus dans l’Union européenne doivent respecter les exigences de cybersécurité de l’acte délégué de la directive RED (règlement délégué 2022/30), avec les normes harmonisées EN 18031 : protection du réseau, des données personnelles et contre la fraude. La directive européenne sur le droit à la réparation (2024/1799) devait être transposée par les États membres au plus tard le 31 juillet 2026. Elle vise d’abord certaines familles de produits (lave-linge, réfrigérateurs, smartphones…), pas tous les objets connectés. Bonne nouvelle pour l’acheteur, mais restez prudent : la durée de suivi logiciel d’un objet connecté dépend toujours de son fabricant.</p>\n\n<h2>Les produits qui incarnent ces tendances</h2>\n<p>Voici six appareils actuellement vendus en Europe qui illustrent concrètement les tendances ci-dessus. Retrouvez d’autres modèles dans notre catégorie <a href=\"/fr/energie-domotique/hubs-domotique\">hubs domotiques</a>.</p>\n\n<h3>Aqara Hub M3 : le hub Matter multi-protocole</h3>\n<p><strong>Points forts :</strong> contrôleur Matter et routeur de bordure Thread, compatible Zigbee, Wi-Fi, Bluetooth et infrarouge ; automatisations exécutées localement ; pilote aussi des appareils Matter d’autres marques.</p>\n<p><strong>Limites :</strong> l’application Aqara reste nécessaire pour tirer parti de toutes les fonctions ; la configuration multi-écosystème demande un peu de méthode.</p>\n<p><strong>Pour qui :</strong> ceux qui veulent un centre de commande unique, ouvert à Matter, sans dépendre d’un seul géant de la tech.</p>\n\n<h3>Home Assistant Green : la domotique 100 % locale</h3>\n<p><strong>Points forts :</strong> boîtier livré avec Home Assistant préinstallé ; des milliers d’intégrations ; automatisations, historiques et tableaux de bord sans cloud obligatoire.</p>\n<p><strong>Limites :</strong> courbe d’apprentissage réelle ; il faut ajouter une clé radio pour Zigbee ou Thread ; la reconnaissance vocale entièrement locale réclame un matériel plus puissant.</p>\n<p><strong>Pour qui :</strong> les utilisateurs curieux qui privilégient la confidentialité et la maîtrise de leur installation.</p>\n\n<h3>Eve Thermo : la tête thermostatique Matter over Thread</h3>\n<p><strong>Points forts :</strong> 5e génération plus compacte et silencieuse ; filetage M30 × 1,5 avec adaptateurs Danfoss fournis ; fonctionne avec Apple Home, Alexa, Google Home, SmartThings et Home Assistant ; piles AA.</p>\n<p><strong>Limites :</strong> nécessite un routeur de bordure Thread ; les fonctions avancées passent par l’application Eve.</p>\n<p><strong>Pour qui :</strong> les logements à radiateurs à eau chaude qui veulent chauffer pièce par pièce, sans hub propriétaire.</p>\n\n<h3>tado Smart Radiator Thermostat X : le chauffage piloté par l’application</h3>\n<p><strong>Points forts :</strong> écran tactile, batterie rechargeable en USB-C (environ un an d’autonomie annoncée) ; Thread et Matter ; application complète pour le planning et la présence.</p>\n<p><strong>Limites :</strong> incompatible avec les anciens produits tado V3+ ; certaines fonctions avancées de l’application sont payantes ; Bridge X ou routeur de bordure tiers requis.</p>\n<p><strong>Pour qui :</strong> ceux qui veulent un écosystème de chauffage complet et une application très aboutie.</p>\n\n<h3>eufyCam S3 Pro : la surveillance extérieure sans abonnement</h3>\n<p><strong>Points forts :</strong> vidéo 4K, vision nocturne couleur, panneau solaire intégré (SolarPlus 2.0) ; double détection radar et infrarouge passive ; stockage local sur HomeBase S380 extensible.</p>\n<p><strong>Limites :</strong> ne fonctionne qu’avec la HomeBase S380 ; système plus volumineux qu’une caméra autonome.</p>\n<p><strong>Pour qui :</strong> les maisons qui veulent plusieurs caméras extérieures sans frais récurrents.</p>\n\n<h3>Reolink Argus 4 Pro : la caméra sur batterie panoramique</h3>\n<p><strong>Points forts :</strong> deux objectifs pour un champ de 180° en 4K, vision nocturne couleur ColorX, Wi-Fi 6 ; stockage sur microSD jusqu’à 512 Go ; pas d’abonnement nécessaire pour la détection intelligente.</p>\n<p><strong>Limites :</strong> l’autonomie dépend fortement du nombre de détections ; le panneau solaire est conseillé pour un usage sans recharge.</p>\n<p><strong>Pour qui :</strong> les jardins et façades sans prise électrique à proximité.</p>\n\n<h2>Tableau comparatif</h2>\n<table>\n<thead>\n<tr><th>Modèle</th><th>Tendance illustrée</th><th>Connectivité</th><th>Idéal pour</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>Aqara Hub M3</strong></td><td>Matter, contrôle local</td><td>Matter, Thread, Zigbee, Wi-Fi, Bluetooth, IR</td><td>Centraliser plusieurs marques</td></tr>\n<tr><td><strong>Home Assistant Green</strong></td><td>Domotique sans cloud</td><td>Ethernet, radios via clés USB</td><td>Confidentialité et personnalisation</td></tr>\n<tr><td><strong>Eve Thermo</strong></td><td>Énergie, Thread</td><td>Matter over Thread</td><td>Chauffage pièce par pièce multi-écosystème</td></tr>\n<tr><td><strong>tado Smart Radiator Thermostat X</strong></td><td>Énergie, Thread</td><td>Thread, Matter</td><td>Application de chauffage complète</td></tr>\n<tr><td><strong>eufyCam S3 Pro</strong></td><td>Sécurité sans abonnement</td><td>Wi-Fi vers HomeBase S380</td><td>Plusieurs caméras extérieures</td></tr>\n<tr><td><strong>Reolink Argus 4 Pro</strong></td><td>Sécurité sans abonnement</td><td>Wi-Fi 6, microSD</td><td>Zones sans prise électrique</td></tr>\n</tbody>\n</table>\n\n<h2>Les erreurs à éviter en 2026</h2>\n<ul>\n<li><strong>Acheter sur la promesse d’une mise à jour.</strong> Une compatibilité Matter « prévue » n’est pas une compatibilité réelle. Achetez ce qui est certifié au moment de l’achat.</li>\n<li><strong>Oublier le routeur de bordure Thread.</strong> Sans lui, un appareil Matter over Thread ne rejoindra pas votre réseau.</li>\n<li><strong>Multiplier les applications.</strong> Choisissez un écosystème principal et ajoutez des appareils compatibles plutôt que cinq applications concurrentes.</li>\n<li><strong>Négliger les coûts d’usage.</strong> Abonnements vidéo, fonctions IA payantes : comparez avant d’acheter.</li>\n<li><strong>Confondre vitrine de salon et produit disponible.</strong> Robots compagnons et démonstrations futuristes ne sont pas encore des produits grand public en Europe.</li>\n</ul>\n\n<h2>Sécurité, vie privée et installation</h2>\n<p>Changez les mots de passe par défaut, activez la double authentification sur les comptes des fabricants et installez les mises à jour. Placez les objets connectés sur un réseau Wi-Fi invité si votre box le permet. Pour les caméras, respectez la vie privée des voisins et des passants : ne filmez pas la voie publique ni les propriétés voisines. Les installations électriques fixes (thermostat filaire, batterie domestique, onduleur solaire) doivent être confiées à un électricien qualifié, et les kits solaires à brancher doivent respecter les règles locales de raccordement.</p>\n\n<h2>Verdict</h2>\n<p>Les vraies tendances maison connectée 2026 sont moins spectaculaires que les démonstrations de salon, mais plus utiles : Matter s’étend aux caméras et à l’énergie, Thread arrive dans les produits abordables, les assistants vocaux deviennent conversationnels en Europe et le contrôle local gagne du terrain. Pour s’équiper sans regret, l’<strong>Aqara Hub M3</strong> offre une base ouverte et locale, l’<strong>Eve Thermo</strong> est la façon la plus directe de réduire le chauffage pièce par pièce, et la <strong>Reolink Argus 4 Pro</strong> assure une surveillance sans abonnement. Pour comparer les hubs en détail, voyez notre <a href=\"/fr/blog/box-domotique-hub-comparatif\">comparatif des box domotiques</a>.</p>",
+    "en": "<p>In 2026 the smart home is changing in three concrete ways: Matter finally covers cameras and energy management, voice assistants are switching to generative AI across Europe, and local control without the cloud has become a genuine buying criterion. Everything else (more autonomous robots, subscription-free security, new EU rules on cybersecurity and repair) follows from these underlying shifts.</p>\n<p>This guide separates what actually exists and can be bought today from what is still just a trade-show announcement. It draws on specifications published by manufacturers and the Connectivity Standards Alliance, independent reviews and verified buyer feedback. For the technical basics, see our <a href=\"/en/blog/maison-connectee-matter-thread-2026\">Matter and Thread guide 2026</a>.</p>\n\n<h2>How to spot a real trend</h2>\n<p>Every tech show promises a smart home \"revolution\". Four simple questions are enough to cut through the noise before you buy:</p>\n<ul>\n<li><strong>Is it sold in Europe?</strong> Many new products launch in the US first. A feature limited to another market does not concern you yet.</li>\n<li><strong>Is it built on an open standard?</strong> A Matter-compatible device can move between ecosystems (Apple Home, Google Home, Alexa, SmartThings, Home Assistant). A proprietary device depends on a single app.</li>\n<li><strong>Does it work without the cloud?</strong> Local control keeps running when the internet drops and limits the data leaving your home.</li>\n<li><strong>Are the running costs clear?</strong> Mandatory subscriptions for video history, AI features that become paid after a trial: read the terms before choosing.</li>\n</ul>\n\n<h2>The 8 smart home trends for 2026</h2>\n\n<h3>1. Matter finally covers cameras and energy</h3>\n<p>Matter 1.4, released in November 2024, added device types for energy management: solar inverters, home batteries, heat pumps and water heaters. Matter 1.5, released on 20 November 2025, introduced cameras (indoor, outdoor and video doorbells) with WebRTC streaming, detection and privacy zones, and local or cloud recording; Matter 1.5.1 then refined these features. In practice, the standard is ready and certified products are arriving gradually. Always check for the Matter logo on the product listing rather than counting on a future update.</p>\n\n<h3>2. Thread goes mainstream, even in entry-level bulbs</h3>\n<p>Thread, the low-power mesh network used by Matter, is no longer reserved for premium brands. At CES 2026 IKEA unveiled a range of 21 Matter over Thread products, including KAJPLATS bulbs that replace the TRÅDFRI line. For heating, the fifth-generation Eve Thermo (late 2025) and tado X radiator thermostats also run on Thread. You need a Thread border router: a recent speaker or hub (HomePod mini, recent Apple TV 4K, second-generation Nest Hub, Aqara Hub M3, some Echo models) fills that role.</p>\n\n<h3>3. Voice assistants switch to generative AI in Europe</h3>\n<p>This is the most visible change of 2026. Amazon launched Alexa+ in early access in the UK in March 2026, then in Germany and France in May 2026. The assistant understands naturally phrased requests and can chain several actions; Amazon says it will be included with Prime once early access ends. Google, meanwhile, is rolling out Gemini for Home on its Nest speakers and displays, in early access across many European countries including France, Italy, Spain, Belgium and the Netherlands. These assistants still rely heavily on the cloud: device control becomes more flexible, not more private.</p>\n\n<h3>4. Local control becomes a selling point</h3>\n<p>In response to these heavily connected assistants, some users are going local. Home Assistant, an open-source home automation platform, runs on a dedicated box such as Home Assistant Green and executes automations inside your home. Its Voice Preview Edition speaker (late 2024) enables locally processed voice control, provided your hardware is powerful enough for full speech recognition. Hubs such as the Aqara Hub M3 also run automations on the device itself, cutting latency and cloud dependency.</p>\n\n<h3>5. Subscription-free video security with on-device detection</h3>\n<p>Cameras with local storage are establishing themselves as an alternative to cloud plans. The eufyCam S3 Pro records to the HomeBase S380, expandable with a hard drive, with no subscription, and combines radar and passive infrared detection. The Reolink Argus 4 Pro records to a microSD card and offers a 180° panoramic view thanks to two lenses. In both cases, person and vehicle recognition works without a paid plan. With Matter 1.5, cameras like these can eventually integrate more easily into ecosystems, but only if the manufacturer certifies the model.</p>\n\n<h3>6. Room-by-room energy control, and plug-in solar</h3>\n<p>Heating accounts for the largest share of household energy use in Europe, which is why smart radiator thermostats that heat each room to a schedule and occupancy are so useful. In Germany, balcony solar systems (Balkonkraftwerk) may feed in up to 800 W since the 2024 rule changes, which has popularised plug-in solar and the small batteries that go with it. Rules differ from country to country: in the UK and elsewhere, check with your network operator before installing a kit. To go further, read our <a href=\"/en/blog/guide-domotique-economie-energie-2026\">home automation and energy saving guide</a>.</p>\n\n<h3>7. More autonomous robots, indoors and out</h3>\n<p>Robot vacuum-mops are becoming more autonomous: the Roborock Saros Z70, sold in Europe since May 2025, has an articulated arm that can move small, light objects. In the garden, wire-free robotic mowers such as the Mammotion LUBA 2 AWD combine RTK positioning and cameras to find their way. These products remain premium, and their most spectacular features have limits: a robotic arm will not tidy a cluttered room.</p>\n\n<h3>8. New EU rules on cybersecurity and repair</h3>\n<p>Since 1 August 2025, connected radio devices sold in the European Union must meet the cybersecurity requirements of the Radio Equipment Directive delegated act (Delegated Regulation 2022/30), with the harmonised EN 18031 standards covering network protection, personal data and fraud. The EU right-to-repair directive (2024/1799) had to be transposed by member states by 31 July 2026. It targets specific product groups first (washing machines, fridges, smartphones and others), not every smart device. Good news for buyers, but stay cautious: how long a smart device receives software support still depends on its manufacturer. The UK applies its own rules under the PSTI regime.</p>\n\n<h2>The products that embody these trends</h2>\n<p>Here are six devices currently sold in Europe that put the trends above into practice. Find more models in our <a href=\"/en/energie-domotique/hubs-domotique\">smart home hubs</a> category.</p>\n\n<h3>Aqara Hub M3: the multi-protocol Matter hub</h3>\n<p><strong>Strengths:</strong> Matter controller and Thread border router, with Zigbee, Wi-Fi, Bluetooth and infrared; automations run locally; also controls Matter devices from other brands.</p>\n<p><strong>Limitations:</strong> the Aqara app is still needed to use every feature; a multi-ecosystem setup takes a little method.</p>\n<p><strong>Best for:</strong> anyone who wants a single, Matter-ready control centre without relying on one tech giant.</p>\n\n<h3>Home Assistant Green: fully local home automation</h3>\n<p><strong>Strengths:</strong> box shipped with Home Assistant pre-installed; thousands of integrations; automations, history and dashboards with no mandatory cloud.</p>\n<p><strong>Limitations:</strong> a real learning curve; you need to add a radio dongle for Zigbee or Thread; fully local speech recognition needs more powerful hardware.</p>\n<p><strong>Best for:</strong> curious users who prioritise privacy and full control of their setup.</p>\n\n<h3>Eve Thermo: the Matter over Thread radiator valve</h3>\n<p><strong>Strengths:</strong> more compact, quieter fifth generation; M30 × 1.5 thread with Danfoss adapters included; works with Apple Home, Alexa, Google Home, SmartThings and Home Assistant; AA batteries.</p>\n<p><strong>Limitations:</strong> needs a Thread border router; advanced features go through the Eve app.</p>\n<p><strong>Best for:</strong> homes with wet radiators that want room-by-room heating without a proprietary hub.</p>\n\n<h3>tado Smart Radiator Thermostat X: app-driven heating</h3>\n<p><strong>Strengths:</strong> touch display, USB-C rechargeable battery (around one year of claimed runtime); Thread and Matter; comprehensive app for schedules and presence.</p>\n<p><strong>Limitations:</strong> not compatible with older tado V3+ products; some advanced app features are paid; requires Bridge X or a third-party border router.</p>\n<p><strong>Best for:</strong> anyone who wants a complete heating ecosystem and a very polished app.</p>\n\n<h3>eufyCam S3 Pro: subscription-free outdoor surveillance</h3>\n<p><strong>Strengths:</strong> 4K video, colour night vision, built-in solar panel (SolarPlus 2.0); dual radar and passive infrared detection; expandable local storage on the HomeBase S380.</p>\n<p><strong>Limitations:</strong> works only with the HomeBase S380; a bulkier system than a standalone camera.</p>\n<p><strong>Best for:</strong> houses that want several outdoor cameras with no recurring fees.</p>\n\n<h3>Reolink Argus 4 Pro: the panoramic battery camera</h3>\n<p><strong>Strengths:</strong> two lenses for a 180° view in 4K, ColorX colour night vision, Wi-Fi 6; microSD storage up to 512 GB; no subscription needed for smart detection.</p>\n<p><strong>Limitations:</strong> battery life depends heavily on the number of detections; the solar panel is recommended for charge-free use.</p>\n<p><strong>Best for:</strong> gardens and façades with no power socket nearby.</p>\n\n<h2>Comparison table</h2>\n<table>\n<thead>\n<tr><th>Model</th><th>Trend</th><th>Connectivity</th><th>Best for</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>Aqara Hub M3</strong></td><td>Matter, local control</td><td>Matter, Thread, Zigbee, Wi-Fi, Bluetooth, IR</td><td>Bringing several brands together</td></tr>\n<tr><td><strong>Home Assistant Green</strong></td><td>Cloud-free automation</td><td>Ethernet, radios via USB dongles</td><td>Privacy and customisation</td></tr>\n<tr><td><strong>Eve Thermo</strong></td><td>Energy, Thread</td><td>Matter over Thread</td><td>Multi-ecosystem room-by-room heating</td></tr>\n<tr><td><strong>tado Smart Radiator Thermostat X</strong></td><td>Energy, Thread</td><td>Thread, Matter</td><td>A complete heating app</td></tr>\n<tr><td><strong>eufyCam S3 Pro</strong></td><td>Subscription-free security</td><td>Wi-Fi to HomeBase S380</td><td>Several outdoor cameras</td></tr>\n<tr><td><strong>Reolink Argus 4 Pro</strong></td><td>Subscription-free security</td><td>Wi-Fi 6, microSD</td><td>Areas without a power socket</td></tr>\n</tbody>\n</table>\n\n<h2>Mistakes to avoid in 2026</h2>\n<ul>\n<li><strong>Buying on the promise of an update.</strong> \"Planned\" Matter support is not real support. Buy what is certified at the time of purchase.</li>\n<li><strong>Forgetting the Thread border router.</strong> Without one, a Matter over Thread device will not join your network.</li>\n<li><strong>Collecting apps.</strong> Pick one main ecosystem and add compatible devices rather than juggling five competing apps.</li>\n<li><strong>Ignoring running costs.</strong> Video subscriptions and paid AI features: compare before buying.</li>\n<li><strong>Confusing a trade-show showcase with an available product.</strong> Companion robots and futuristic demos are not yet consumer products in Europe.</li>\n</ul>\n\n<h2>Security, privacy and installation</h2>\n<p>Change default passwords, enable two-factor authentication on manufacturer accounts and install updates. Put smart devices on a guest Wi-Fi network if your router allows it. With cameras, respect the privacy of neighbours and passers-by: do not film public roads or neighbouring properties. Fixed electrical installations (wired thermostats, home batteries, solar inverters) should be carried out by a qualified electrician, and plug-in solar kits must comply with local connection rules.</p>\n\n<h2>Verdict</h2>\n<p>The real smart home trends of 2026 are less spectacular than trade-show demos, but more useful: Matter is expanding to cameras and energy, Thread is reaching affordable products, voice assistants are becoming conversational in Europe and local control is gaining ground. To equip your home without regrets, the <strong>Aqara Hub M3</strong> offers an open, local foundation, the <strong>Eve Thermo</strong> is the most direct way to cut heating room by room, and the <strong>Reolink Argus 4 Pro</strong> provides subscription-free surveillance. To compare hubs in detail, see our <a href=\"/en/blog/box-domotique-hub-comparatif\">smart home hub comparison</a>.</p>",
+    "de": "<p>2026 verändert sich das Smart Home vor allem in drei konkreten Punkten: Matter deckt endlich Kameras und Energiemanagement ab, Sprachassistenten wechseln in Europa zu generativer KI, und lokale Steuerung ohne Cloud ist zu einem echten Kaufkriterium geworden. Alles andere (autonomere Roboter, Sicherheit ohne Abo, neue EU-Regeln zu Cybersicherheit und Reparatur) folgt aus diesen grundlegenden Entwicklungen.</p>\n<p>Dieser Überblick trennt, was tatsächlich existiert und heute kaufbar ist, von dem, was noch reine Messeankündigung ist. Grundlage sind die Spezifikationen der Hersteller und der Connectivity Standards Alliance, unabhängige Testberichte und verifizierte Käuferbewertungen. Für die technischen Grundlagen lesen Sie auch unseren <a href=\"/de/blog/maison-connectee-matter-thread-2026\">Matter- und Thread-Ratgeber 2026</a>.</p>\n\n<h2>Woran man einen echten Trend erkennt</h2>\n<p>Jede Technikmesse verspricht die „Revolution“ im Smart Home. Vier einfache Fragen genügen, um vor dem Kauf auszusortieren:</p>\n<ul>\n<li><strong>Wird das Produkt in Europa verkauft?</strong> Viele Neuheiten erscheinen zuerst in den USA. Eine Funktion, die nur in einem anderen Markt verfügbar ist, betrifft Sie noch nicht.</li>\n<li><strong>Basiert es auf einem offenen Standard?</strong> Ein Matter-kompatibles Gerät kann das Ökosystem wechseln (Apple Home, Google Home, Alexa, SmartThings, Home Assistant). Ein proprietäres Gerät hängt an einer einzigen App.</li>\n<li><strong>Funktioniert es ohne Cloud?</strong> Lokale Steuerung läuft weiter, wenn das Internet ausfällt, und begrenzt die Daten, die Ihr Zuhause verlassen.</li>\n<li><strong>Sind die laufenden Kosten klar?</strong> Pflicht-Abo für den Videoverlauf, KI-Funktionen, die nach einer Testphase kostenpflichtig werden: Lesen Sie die Bedingungen vor der Wahl.</li>\n</ul>\n\n<h2>Die 8 Smart-Home-Trends 2026</h2>\n\n<h3>1. Matter deckt endlich Kameras und Energie ab</h3>\n<p>Matter 1.4, veröffentlicht im November 2024, brachte Gerätetypen für das Energiemanagement: Solarwechselrichter, Heimspeicher, Wärmepumpen und Warmwasserbereiter. Matter 1.5, veröffentlicht am 20. November 2025, führte Kameras ein (innen, außen, Videotürklingeln) mit Streaming über WebRTC, Erkennungs- und Privatsphärezonen sowie lokaler oder Cloud-Aufzeichnung; Matter 1.5.1 hat diese Funktionen anschließend verfeinert. Der Standard ist also bereit, zertifizierte Produkte kommen schrittweise. Prüfen Sie immer das Matter-Logo im Produktdatenblatt, statt auf ein künftiges Update zu setzen.</p>\n\n<h3>2. Thread setzt sich durch, bis hin zu Einsteiger-Lampen</h3>\n<p>Thread, das stromsparende Mesh-Netz von Matter, ist nicht mehr Premiummarken vorbehalten. IKEA hat auf der CES 2026 eine Reihe von 21 Matter-over-Thread-Produkten vorgestellt, darunter die KAJPLATS-Lampen, die die TRÅDFRI-Reihe ablösen. Beim Heizen arbeiten auch der Eve Thermo der fünften Generation (Ende 2025) und die tado-X-Heizkörperthermostate mit Thread. Sie brauchen einen Thread-Border-Router: Ein aktueller Lautsprecher oder Hub (HomePod mini, neueres Apple TV 4K, Nest Hub der 2. Generation, Aqara Hub M3, einige Echo-Modelle) übernimmt diese Rolle.</p>\n\n<h3>3. Sprachassistenten wechseln in Europa zu generativer KI</h3>\n<p>Das ist die sichtbarste Veränderung 2026. Amazon hat Alexa+ im März 2026 als Early Access in Großbritannien gestartet, im Mai 2026 dann in Deutschland und Frankreich. Der Assistent versteht natürlich formulierte Anfragen und verkettet mehrere Aktionen; nach der Early-Access-Phase soll er in Prime enthalten sein. Google rollt seinerseits Gemini for Home auf seinen Nest-Lautsprechern und -Displays aus, auch in Deutschland. Diese Assistenten hängen weiterhin stark von der Cloud ab: Die Gerätesteuerung wird flexibler, aber nicht privater.</p>\n\n<h3>4. Lokale Steuerung wird zum Kaufargument</h3>\n<p>Als Gegenbewegung zu diesen stark vernetzten Assistenten setzen manche Nutzer auf lokale Lösungen. Home Assistant, eine Open-Source-Plattform für Hausautomation, läuft auf einer eigenen Box wie dem Home Assistant Green und führt Automationen bei Ihnen zu Hause aus. Der Lautsprecher Voice Preview Edition (Ende 2024) ermöglicht lokal verarbeitete Sprachsteuerung, sofern die Hardware für vollständige Spracherkennung leistungsstark genug ist. Hubs wie der Aqara Hub M3 führen Automationen ebenfalls direkt auf dem Gerät aus, was Latenz und Cloud-Abhängigkeit verringert.</p>\n\n<h3>5. Videosicherheit ohne Abo und mit Erkennung auf dem Gerät</h3>\n<p>Kameras mit lokalem Speicher etablieren sich als Alternative zu Cloud-Tarifen. Die eufyCam S3 Pro zeichnet auf der HomeBase S380 auf, die sich per Festplatte erweitern lässt, ohne Abo, und kombiniert Radar- und Passiv-Infrarot-Erkennung. Die Reolink Argus 4 Pro speichert auf microSD-Karte und bietet dank zwei Objektiven ein 180°-Panoramabild. In beiden Fällen funktioniert die Personen- und Fahrzeugerkennung ohne kostenpflichtigen Tarif. Mit Matter 1.5 lassen sich solche Kameras künftig leichter in Ökosysteme einbinden, aber nur, wenn der Hersteller das Modell zertifiziert.</p>\n\n<h3>6. Energie Raum für Raum steuern, und Solarstrom zum Einstecken</h3>\n<p>Heizen macht den größten Teil des Energieverbrauchs europäischer Haushalte aus, deshalb sind smarte Heizkörperthermostate so sinnvoll, die jeden Raum nach Zeitplan und Anwesenheit beheizen. In Deutschland dürfen Balkonkraftwerke seit den Erleichterungen von 2024 bis zu 800 W einspeisen; das hat Steckersolar und die passenden kleinen Speicher populär gemacht. Die Anmeldung im Marktstammdatenregister bleibt Pflicht, und in Österreich oder der Schweiz gelten eigene Regeln. Mehr dazu in unserem <a href=\"/de/blog/guide-domotique-economie-energie-2026\">Ratgeber Heimautomation und Energiesparen</a>.</p>\n\n<h3>7. Autonomere Roboter, drinnen wie draußen</h3>\n<p>Saug-Wisch-Roboter werden selbstständiger: Der Roborock Saros Z70, seit Mai 2025 in Europa erhältlich, besitzt einen Greifarm, der kleine, leichte Gegenstände beiseiteräumen kann. Im Garten kombinieren Mähroboter ohne Begrenzungskabel wie der Mammotion LUBA 2 AWD RTK-Ortung und Kameras zur Orientierung. Diese Produkte bleiben im Premiumsegment, und ihre spektakulärsten Funktionen haben Grenzen: Ein Roboterarm räumt kein unordentliches Zimmer auf.</p>\n\n<h3>8. Neue EU-Regeln für Cybersicherheit und Reparatur</h3>\n<p>Seit dem 1. August 2025 müssen vernetzte Funkgeräte, die in der Europäischen Union verkauft werden, die Cybersicherheitsanforderungen des delegierten Rechtsakts zur Funkanlagenrichtlinie RED (Delegierte Verordnung 2022/30) erfüllen, mit den harmonisierten Normen EN 18031: Schutz des Netzes, personenbezogener Daten und vor Betrug. Die EU-Richtlinie zum Recht auf Reparatur (2024/1799) musste bis zum 31. Juli 2026 in nationales Recht umgesetzt werden. Sie betrifft zunächst bestimmte Produktgruppen (Waschmaschinen, Kühlschränke, Smartphones und weitere), nicht jedes Smart-Home-Gerät. Gut für Käufer, aber bleiben Sie vorsichtig: Wie lange ein vernetztes Gerät Software-Updates erhält, entscheidet weiterhin der Hersteller.</p>\n\n<h2>Die Produkte, die diese Trends verkörpern</h2>\n<p>Hier sind sechs derzeit in Europa erhältliche Geräte, die die Trends oben konkret umsetzen. Weitere Modelle finden Sie in unserer Kategorie <a href=\"/de/energie-domotique/hubs-domotique\">Smart-Home-Zentralen</a>.</p>\n\n<h3>Aqara Hub M3: der Multiprotokoll-Hub für Matter</h3>\n<p><strong>Stärken:</strong> Matter-Controller und Thread-Border-Router, dazu Zigbee, WLAN, Bluetooth und Infrarot; Automationen laufen lokal; steuert auch Matter-Geräte anderer Marken.</p>\n<p><strong>Schwächen:</strong> Für alle Funktionen bleibt die Aqara-App nötig; die Einrichtung über mehrere Ökosysteme erfordert etwas Sorgfalt.</p>\n<p><strong>Für wen:</strong> Wer eine zentrale, Matter-offene Steuerung möchte, ohne von einem einzigen Tech-Konzern abzuhängen.</p>\n\n<h3>Home Assistant Green: Hausautomation komplett lokal</h3>\n<p><strong>Stärken:</strong> Box mit vorinstalliertem Home Assistant; Tausende Integrationen; Automationen, Verlauf und Dashboards ohne Cloud-Zwang.</p>\n<p><strong>Schwächen:</strong> echte Lernkurve; für Zigbee oder Thread ist ein Funkstick nötig; vollständig lokale Spracherkennung braucht leistungsstärkere Hardware.</p>\n<p><strong>Für wen:</strong> Neugierige Nutzer, denen Datenschutz und volle Kontrolle wichtig sind.</p>\n\n<h3>Eve Thermo: das Heizkörperthermostat mit Matter over Thread</h3>\n<p><strong>Stärken:</strong> kompaktere, leisere fünfte Generation; Gewinde M30 × 1,5 mit beiliegenden Danfoss-Adaptern; funktioniert mit Apple Home, Alexa, Google Home, SmartThings und Home Assistant; AA-Batterien.</p>\n<p><strong>Schwächen:</strong> benötigt einen Thread-Border-Router; erweiterte Funktionen laufen über die Eve-App.</p>\n<p><strong>Für wen:</strong> Wohnungen mit Warmwasserheizkörpern, die Raum für Raum heizen möchten, ohne proprietären Hub.</p>\n\n<h3>tado Smart Radiator Thermostat X: Heizen per App</h3>\n<p><strong>Stärken:</strong> Touch-Display, per USB-C aufladbarer Akku (laut Hersteller rund ein Jahr Laufzeit); Thread und Matter; umfangreiche App für Zeitpläne und Anwesenheit.</p>\n<p><strong>Schwächen:</strong> nicht kompatibel mit älteren tado-V3+-Produkten; einige erweiterte App-Funktionen sind kostenpflichtig; Bridge X oder ein anderer Border-Router erforderlich.</p>\n<p><strong>Für wen:</strong> Wer ein komplettes Heizungs-Ökosystem und eine sehr ausgereifte App möchte.</p>\n\n<h3>eufyCam S3 Pro: Außenüberwachung ohne Abo</h3>\n<p><strong>Stärken:</strong> 4K-Video, Farbnachtsicht, integriertes Solarpanel (SolarPlus 2.0); doppelte Erkennung per Radar und Passiv-Infrarot; erweiterbarer lokaler Speicher auf der HomeBase S380.</p>\n<p><strong>Schwächen:</strong> funktioniert nur mit der HomeBase S380; umfangreicheres System als eine Einzelkamera.</p>\n<p><strong>Für wen:</strong> Häuser, die mehrere Außenkameras ohne laufende Kosten wollen.</p>\n\n<h3>Reolink Argus 4 Pro: die Panorama-Akkukamera</h3>\n<p><strong>Stärken:</strong> zwei Objektive für 180° in 4K, ColorX-Farbnachtsicht, Wi-Fi 6; microSD-Speicher bis 512 GB; kein Abo für die intelligente Erkennung nötig.</p>\n<p><strong>Schwächen:</strong> die Akkulaufzeit hängt stark von der Zahl der Erkennungen ab; für Betrieb ohne Nachladen ist das Solarpanel empfehlenswert.</p>\n<p><strong>Für wen:</strong> Gärten und Fassaden ohne Steckdose in der Nähe.</p>\n\n<h2>Vergleichstabelle</h2>\n<table>\n<thead>\n<tr><th>Modell</th><th>Trend</th><th>Konnektivität</th><th>Ideal für</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>Aqara Hub M3</strong></td><td>Matter, lokale Steuerung</td><td>Matter, Thread, Zigbee, WLAN, Bluetooth, IR</td><td>Mehrere Marken bündeln</td></tr>\n<tr><td><strong>Home Assistant Green</strong></td><td>Automation ohne Cloud</td><td>Ethernet, Funk über USB-Sticks</td><td>Datenschutz und Anpassung</td></tr>\n<tr><td><strong>Eve Thermo</strong></td><td>Energie, Thread</td><td>Matter over Thread</td><td>Raumweise Heizung über mehrere Ökosysteme</td></tr>\n<tr><td><strong>tado Smart Radiator Thermostat X</strong></td><td>Energie, Thread</td><td>Thread, Matter</td><td>Komplette Heizungs-App</td></tr>\n<tr><td><strong>eufyCam S3 Pro</strong></td><td>Sicherheit ohne Abo</td><td>WLAN zur HomeBase S380</td><td>Mehrere Außenkameras</td></tr>\n<tr><td><strong>Reolink Argus 4 Pro</strong></td><td>Sicherheit ohne Abo</td><td>Wi-Fi 6, microSD</td><td>Bereiche ohne Steckdose</td></tr>\n</tbody>\n</table>\n\n<h2>Fehler, die Sie 2026 vermeiden sollten</h2>\n<ul>\n<li><strong>Auf ein versprochenes Update hin kaufen.</strong> „Geplante“ Matter-Unterstützung ist keine echte Unterstützung. Kaufen Sie, was zum Kaufzeitpunkt zertifiziert ist.</li>\n<li><strong>Den Thread-Border-Router vergessen.</strong> Ohne ihn tritt ein Matter-over-Thread-Gerät Ihrem Netz nicht bei.</li>\n<li><strong>Apps sammeln.</strong> Wählen Sie ein Haupt-Ökosystem und ergänzen Sie kompatible Geräte, statt fünf konkurrierende Apps zu jonglieren.</li>\n<li><strong>Laufende Kosten übersehen.</strong> Video-Abos, kostenpflichtige KI-Funktionen: vor dem Kauf vergleichen.</li>\n<li><strong>Messe-Showcase mit verfügbarem Produkt verwechseln.</strong> Begleitroboter und futuristische Demos sind in Europa noch keine Verbraucherprodukte.</li>\n</ul>\n\n<h2>Sicherheit, Datenschutz und Installation</h2>\n<p>Ändern Sie Standardpasswörter, aktivieren Sie die Zwei-Faktor-Authentifizierung bei den Herstellerkonten und installieren Sie Updates. Betreiben Sie vernetzte Geräte in einem Gast-WLAN, wenn Ihr Router das erlaubt. Achten Sie bei Kameras auf die Privatsphäre von Nachbarn und Passanten: Öffentliche Wege und Nachbargrundstücke dürfen nicht gefilmt werden. Feste Elektroinstallationen (verkabelte Thermostate, Heimspeicher, Solarwechselrichter) gehören in die Hände einer Elektrofachkraft, und Steckersolargeräte müssen die örtlichen Anschlussregeln einhalten.</p>\n\n<h2>Fazit</h2>\n<p>Die echten Smart-Home-Trends 2026 sind weniger spektakulär als Messedemos, aber nützlicher: Matter erweitert sich auf Kameras und Energie, Thread erreicht günstige Produkte, Sprachassistenten werden in Europa gesprächsfähig und lokale Steuerung gewinnt an Boden. Für eine Ausstattung ohne Reue bietet der <strong>Aqara Hub M3</strong> eine offene, lokale Basis, der <strong>Eve Thermo</strong> ist der direkteste Weg, raumweise Heizkosten zu senken, und die <strong>Reolink Argus 4 Pro</strong> sorgt für Überwachung ohne Abo. Einen ausführlichen Vergleich der Zentralen finden Sie in unserem <a href=\"/de/blog/box-domotique-hub-comparatif\">Smart-Home-Zentralen-Vergleich</a>.</p>",
+    "es": "<p>En 2026, el hogar inteligente cambia sobre todo en tres puntos concretos: Matter por fin cubre las cámaras y la gestión de la energía, los asistentes de voz pasan a la IA generativa en Europa y el control local sin nube se ha convertido en un verdadero criterio de compra. Lo demás (robots más autónomos, seguridad sin suscripción, nuevas normas europeas de ciberseguridad y reparación) se deriva de estos cambios de fondo.</p>\n<p>Esta guía separa lo que existe de verdad y se puede comprar hoy de lo que todavía es un simple anuncio de feria. Se basa en las especificaciones publicadas por los fabricantes y la Connectivity Standards Alliance, en análisis independientes y en opiniones de compradores verificados. Para lo básico, consulta también nuestra <a href=\"/es/blog/maison-connectee-matter-thread-2026\">guía Matter y Thread 2026</a>.</p>\n\n<h2>Cómo reconocer una tendencia real</h2>\n<p>Cada feria tecnológica anuncia «la revolución» del hogar inteligente. Cuatro preguntas sencillas bastan para filtrar antes de comprar:</p>\n<ul>\n<li><strong>¿Se vende en Europa?</strong> Muchas novedades salen primero en Estados Unidos. Una función limitada a otro mercado todavía no te afecta.</li>\n<li><strong>¿Se basa en un estándar abierto?</strong> Un dispositivo compatible con Matter puede cambiar de ecosistema (Apple Home, Google Home, Alexa, SmartThings, Home Assistant). Uno propietario depende de una sola aplicación.</li>\n<li><strong>¿Funciona sin nube?</strong> El control local sigue funcionando cuando cae internet y limita los datos que salen de tu casa.</li>\n<li><strong>¿Están claros los costes de uso?</strong> Suscripción obligatoria para el historial de vídeo, funciones de IA que pasan a ser de pago tras una prueba: lee las condiciones antes de elegir.</li>\n</ul>\n\n<h2>Las 8 tendencias del hogar inteligente en 2026</h2>\n\n<h3>1. Matter cubre por fin las cámaras y la energía</h3>\n<p>Matter 1.4, publicado en noviembre de 2024, añadió tipos de dispositivos para la gestión de la energía: inversores solares, baterías domésticas, bombas de calor y calentadores de agua. Matter 1.5, publicado el 20 de noviembre de 2025, introdujo las cámaras (interiores, exteriores y videoporteros) con transmisión mediante WebRTC, zonas de detección y de privacidad y grabación local o en la nube; después, Matter 1.5.1 perfeccionó estas funciones. En la práctica, el estándar está listo y los productos certificados llegan poco a poco. Comprueba siempre el logotipo Matter en la ficha del producto en lugar de confiar en una actualización futura.</p>\n\n<h3>2. Thread se generaliza, incluso en bombillas de gama de entrada</h3>\n<p>Thread, la red mallada de bajo consumo que utiliza Matter, ya no está reservada a las marcas premium. En el CES 2026, IKEA presentó una gama de 21 productos Matter over Thread, entre ellos las bombillas KAJPLATS que sustituyen a la línea TRÅDFRI. En calefacción, el Eve Thermo de quinta generación (finales de 2025) y los cabezales termostáticos tado X también funcionan con Thread. Necesitas un router de borde Thread: un altavoz o hub reciente (HomePod mini, Apple TV 4K reciente, Nest Hub de 2.ª generación, Aqara Hub M3, algunos Echo) cumple esa función.</p>\n\n<h3>3. Los asistentes de voz pasan a la IA generativa en Europa</h3>\n<p>Es el cambio más visible de 2026. Amazon lanzó Alexa+ en acceso anticipado en el Reino Unido en marzo de 2026 y después en Alemania y Francia en mayo de 2026. El asistente entiende peticiones formuladas con naturalidad y encadena varias acciones; Amazon indica que estará incluido con Prime tras la fase de acceso anticipado. Google, por su parte, despliega Gemini for Home en sus altavoces y pantallas Nest, en acceso anticipado en muchos países europeos, entre ellos España. Estos asistentes siguen dependiendo mucho de la nube: el control de los dispositivos gana flexibilidad, no privacidad.</p>\n\n<h3>4. El control local se convierte en argumento de compra</h3>\n<p>Como reacción a estos asistentes tan conectados, parte de los usuarios apuesta por lo local. Home Assistant, plataforma domótica de código abierto, se instala en una caja dedicada como Home Assistant Green y ejecuta las automatizaciones en tu casa. Su altavoz Voice Preview Edition (finales de 2024) permite un control por voz procesado localmente, siempre que el hardware sea lo bastante potente para el reconocimiento de voz completo. Hubs como el Aqara Hub M3 también ejecutan sus automatizaciones en el propio dispositivo, lo que reduce la latencia y la dependencia de la nube.</p>\n\n<h3>5. Videovigilancia sin suscripción y con detección integrada</h3>\n<p>Las cámaras con almacenamiento local se imponen como alternativa a los planes en la nube. La eufyCam S3 Pro graba en la HomeBase S380, ampliable con disco duro, sin suscripción, y combina detección por radar e infrarrojo pasivo. La Reolink Argus 4 Pro graba en tarjeta microSD y ofrece una vista panorámica de 180° gracias a dos objetivos. En ambos casos, el reconocimiento de personas y vehículos funciona sin plan de pago. Con Matter 1.5, este tipo de cámaras podrá integrarse con más facilidad en los ecosistemas, pero solo si el fabricante certifica el modelo.</p>\n\n<h3>6. Energía controlada habitación por habitación, y solar enchufable</h3>\n<p>La calefacción representa la mayor parte del consumo energético de los hogares europeos, de ahí el interés de los cabezales termostáticos conectados que calientan cada estancia según horario y presencia. En Alemania, las instalaciones solares de balcón pueden inyectar hasta 800 W desde la flexibilización de 2024, lo que ha popularizado la solar «enchufable» y las pequeñas baterías asociadas. Las normas varían según el país: en España, infórmate sobre los requisitos de autoconsumo y comunicación a la distribuidora antes de instalar un kit. Para profundizar, consulta nuestra <a href=\"/es/blog/guide-domotique-economie-energie-2026\">guía de domótica y ahorro energético</a>.</p>\n\n<h3>7. Robots más autónomos, dentro y fuera de casa</h3>\n<p>Los robots aspiradores-friegasuelos ganan autonomía: el Roborock Saros Z70, a la venta en Europa desde mayo de 2025, incorpora un brazo articulado capaz de apartar objetos pequeños y ligeros. En el jardín, los cortacésped sin cable perimetral, como el Mammotion LUBA 2 AWD, combinan RTK y cámaras para orientarse. Estos productos siguen siendo de gama alta y sus funciones más llamativas tienen límites: un brazo robótico no ordena una habitación desordenada.</p>\n\n<h3>8. Nuevas normas europeas: ciberseguridad y reparación</h3>\n<p>Desde el 1 de agosto de 2025, los equipos radioeléctricos conectados que se venden en la Unión Europea deben cumplir los requisitos de ciberseguridad del acto delegado de la directiva RED (Reglamento Delegado 2022/30), con las normas armonizadas EN 18031: protección de la red, de los datos personales y contra el fraude. La directiva europea sobre el derecho a reparar (2024/1799) debía transponerse por los Estados miembros a más tardar el 31 de julio de 2026. Se dirige primero a determinadas familias de productos (lavadoras, frigoríficos, smartphones y otros), no a todos los objetos conectados. Buena noticia para el comprador, pero con prudencia: la duración del soporte de software de un dispositivo conectado sigue dependiendo de su fabricante.</p>\n\n<h2>Los productos que encarnan estas tendencias</h2>\n<p>Estos son seis dispositivos que se venden actualmente en Europa y que ilustran en concreto las tendencias anteriores. Encuentra más modelos en nuestra categoría de <a href=\"/es/energie-domotique/hubs-domotique\">hubs domóticos</a>.</p>\n\n<h3>Aqara Hub M3: el hub Matter multiprotocolo</h3>\n<p><strong>Puntos fuertes:</strong> controlador Matter y router de borde Thread, compatible con Zigbee, Wi-Fi, Bluetooth e infrarrojos; automatizaciones ejecutadas en local; también controla dispositivos Matter de otras marcas.</p>\n<p><strong>Limitaciones:</strong> la aplicación Aqara sigue siendo necesaria para aprovechar todas las funciones; la configuración multiecosistema requiere algo de método.</p>\n<p><strong>Para quién:</strong> quien quiera un centro de control único y abierto a Matter sin depender de un solo gigante tecnológico.</p>\n\n<h3>Home Assistant Green: domótica 100 % local</h3>\n<p><strong>Puntos fuertes:</strong> caja con Home Assistant preinstalado; miles de integraciones; automatizaciones, historiales y paneles sin nube obligatoria.</p>\n<p><strong>Limitaciones:</strong> curva de aprendizaje real; hay que añadir una llave de radio para Zigbee o Thread; el reconocimiento de voz totalmente local requiere un hardware más potente.</p>\n<p><strong>Para quién:</strong> usuarios curiosos que priorizan la privacidad y el control de su instalación.</p>\n\n<h3>Eve Thermo: el cabezal termostático Matter over Thread</h3>\n<p><strong>Puntos fuertes:</strong> quinta generación más compacta y silenciosa; rosca M30 × 1,5 con adaptadores Danfoss incluidos; funciona con Apple Home, Alexa, Google Home, SmartThings y Home Assistant; pilas AA.</p>\n<p><strong>Limitaciones:</strong> necesita un router de borde Thread; las funciones avanzadas pasan por la aplicación Eve.</p>\n<p><strong>Para quién:</strong> viviendas con radiadores de agua caliente que quieren calentar estancia por estancia sin hub propietario.</p>\n\n<h3>tado Smart Radiator Thermostat X: calefacción gestionada desde la app</h3>\n<p><strong>Puntos fuertes:</strong> pantalla táctil, batería recargable por USB-C (alrededor de un año de autonomía anunciada); Thread y Matter; aplicación completa para horarios y presencia.</p>\n<p><strong>Limitaciones:</strong> incompatible con los antiguos productos tado V3+; algunas funciones avanzadas de la app son de pago; requiere el Bridge X o un router de borde de otra marca.</p>\n<p><strong>Para quién:</strong> quien quiera un ecosistema de calefacción completo y una app muy pulida.</p>\n\n<h3>eufyCam S3 Pro: vigilancia exterior sin suscripción</h3>\n<p><strong>Puntos fuertes:</strong> vídeo 4K, visión nocturna en color, panel solar integrado (SolarPlus 2.0); doble detección por radar e infrarrojo pasivo; almacenamiento local ampliable en la HomeBase S380.</p>\n<p><strong>Limitaciones:</strong> solo funciona con la HomeBase S380; sistema más voluminoso que una cámara independiente.</p>\n<p><strong>Para quién:</strong> casas que quieren varias cámaras exteriores sin gastos recurrentes.</p>\n\n<h3>Reolink Argus 4 Pro: la cámara de batería panorámica</h3>\n<p><strong>Puntos fuertes:</strong> dos objetivos para un campo de 180° en 4K, visión nocturna en color ColorX, Wi-Fi 6; almacenamiento en microSD de hasta 512 GB; sin suscripción para la detección inteligente.</p>\n<p><strong>Limitaciones:</strong> la autonomía depende mucho del número de detecciones; se recomienda el panel solar para un uso sin recargas.</p>\n<p><strong>Para quién:</strong> jardines y fachadas sin enchufe cercano.</p>\n\n<h2>Tabla comparativa</h2>\n<table>\n<thead>\n<tr><th>Modelo</th><th>Tendencia</th><th>Conectividad</th><th>Ideal para</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>Aqara Hub M3</strong></td><td>Matter, control local</td><td>Matter, Thread, Zigbee, Wi-Fi, Bluetooth, IR</td><td>Unificar varias marcas</td></tr>\n<tr><td><strong>Home Assistant Green</strong></td><td>Domótica sin nube</td><td>Ethernet, radios mediante llaves USB</td><td>Privacidad y personalización</td></tr>\n<tr><td><strong>Eve Thermo</strong></td><td>Energía, Thread</td><td>Matter over Thread</td><td>Calefacción por estancias multiecosistema</td></tr>\n<tr><td><strong>tado Smart Radiator Thermostat X</strong></td><td>Energía, Thread</td><td>Thread, Matter</td><td>App de calefacción completa</td></tr>\n<tr><td><strong>eufyCam S3 Pro</strong></td><td>Seguridad sin suscripción</td><td>Wi-Fi hacia la HomeBase S380</td><td>Varias cámaras exteriores</td></tr>\n<tr><td><strong>Reolink Argus 4 Pro</strong></td><td>Seguridad sin suscripción</td><td>Wi-Fi 6, microSD</td><td>Zonas sin enchufe</td></tr>\n</tbody>\n</table>\n\n<h2>Errores que debes evitar en 2026</h2>\n<ul>\n<li><strong>Comprar por la promesa de una actualización.</strong> Una compatibilidad Matter «prevista» no es una compatibilidad real. Compra lo que esté certificado en el momento de la compra.</li>\n<li><strong>Olvidar el router de borde Thread.</strong> Sin él, un dispositivo Matter over Thread no se unirá a tu red.</li>\n<li><strong>Acumular aplicaciones.</strong> Elige un ecosistema principal y añade dispositivos compatibles en lugar de cinco apps que compiten entre sí.</li>\n<li><strong>Olvidar los costes de uso.</strong> Suscripciones de vídeo, funciones de IA de pago: compara antes de comprar.</li>\n<li><strong>Confundir un escaparate de feria con un producto disponible.</strong> Los robots de compañía y las demostraciones futuristas aún no son productos de consumo en Europa.</li>\n</ul>\n\n<h2>Seguridad, privacidad e instalación</h2>\n<p>Cambia las contraseñas por defecto, activa la autenticación en dos pasos en las cuentas de los fabricantes e instala las actualizaciones. Coloca los dispositivos conectados en una red Wi-Fi de invitados si tu router lo permite. Con las cámaras, respeta la privacidad de vecinos y transeúntes: no grabes la vía pública ni las propiedades vecinas. Las instalaciones eléctricas fijas (termostato cableado, batería doméstica, inversor solar) deben encargarse a un electricista cualificado, y los kits solares enchufables deben cumplir las normas locales de conexión.</p>\n\n<h2>Veredicto</h2>\n<p>Las verdaderas tendencias del hogar inteligente en 2026 son menos espectaculares que las demostraciones de feria, pero más útiles: Matter se amplía a cámaras y energía, Thread llega a productos asequibles, los asistentes de voz se vuelven conversacionales en Europa y el control local gana terreno. Para equiparte sin arrepentimientos, el <strong>Aqara Hub M3</strong> ofrece una base abierta y local, el <strong>Eve Thermo</strong> es la forma más directa de reducir la calefacción estancia por estancia y la <strong>Reolink Argus 4 Pro</strong> garantiza una vigilancia sin suscripción. Para comparar los hubs en detalle, consulta nuestra <a href=\"/es/blog/box-domotique-hub-comparatif\">comparativa de hubs domóticos</a>.</p>",
+    "it": "<p>Nel 2026 la casa smart cambia soprattutto su tre punti concreti: Matter copre finalmente le telecamere e la gestione dell’energia, gli assistenti vocali passano all’IA generativa in Europa e il controllo locale senza cloud è diventato un vero criterio d’acquisto. Il resto (robot più autonomi, sicurezza senza abbonamento, nuove regole europee su cybersicurezza e riparazione) deriva da questi cambiamenti di fondo.</p>\n<p>Questa guida distingue ciò che esiste davvero e si può acquistare oggi da ciò che è ancora un semplice annuncio da fiera. Si basa sulle specifiche pubblicate dai produttori e dalla Connectivity Standards Alliance, su recensioni indipendenti e sui pareri di acquirenti verificati. Per le basi tecniche, leggi anche la nostra <a href=\"/it/blog/maison-connectee-matter-thread-2026\">guida Matter e Thread 2026</a>.</p>\n\n<h2>Come riconoscere una vera tendenza</h2>\n<p>Ogni fiera tecnologica annuncia «la rivoluzione» della casa smart. Quattro domande semplici bastano per fare ordine prima di acquistare:</p>\n<ul>\n<li><strong>Il prodotto è venduto in Europa?</strong> Molte novità escono prima negli Stati Uniti. Una funzione limitata a un altro mercato non ti riguarda ancora.</li>\n<li><strong>Si basa su uno standard aperto?</strong> Un dispositivo compatibile Matter può cambiare ecosistema (Apple Home, Google Home, Alexa, SmartThings, Home Assistant). Un dispositivo proprietario dipende da una sola app.</li>\n<li><strong>Funziona senza cloud?</strong> Il controllo locale continua quando Internet cade e limita i dati che escono da casa tua.</li>\n<li><strong>I costi d’uso sono chiari?</strong> Abbonamento obbligatorio per lo storico video, funzioni IA a pagamento dopo una prova: leggi le condizioni prima di scegliere.</li>\n</ul>\n\n<h2>Le 8 tendenze della casa smart nel 2026</h2>\n\n<h3>1. Matter copre finalmente telecamere ed energia</h3>\n<p>Matter 1.4, pubblicato a novembre 2024, ha aggiunto tipi di dispositivi per la gestione dell’energia: inverter solari, batterie domestiche, pompe di calore e scaldacqua. Matter 1.5, pubblicato il 20 novembre 2025, ha introdotto le telecamere (interne, esterne e videocitofoni) con streaming tramite WebRTC, zone di rilevamento e di privacy e registrazione locale o cloud; Matter 1.5.1 ha poi perfezionato queste funzioni. In pratica, lo standard è pronto e i prodotti certificati arrivano gradualmente. Controlla sempre il logo Matter nella scheda prodotto invece di contare su un aggiornamento futuro.</p>\n\n<h3>2. Thread si diffonde, fino alle lampadine entry level</h3>\n<p>Thread, la rete mesh a basso consumo usata da Matter, non è più riservata ai marchi premium. Al CES 2026 IKEA ha presentato una gamma di 21 prodotti Matter over Thread, tra cui le lampadine KAJPLATS che sostituiscono la linea TRÅDFRI. Per il riscaldamento, anche l’Eve Thermo di quinta generazione (fine 2025) e le teste termostatiche tado X funzionano con Thread. Serve un border router Thread: uno speaker o un hub recente (HomePod mini, Apple TV 4K recente, Nest Hub di 2ª generazione, Aqara Hub M3, alcuni Echo) svolge questo ruolo.</p>\n\n<h3>3. Gli assistenti vocali passano all’IA generativa in Europa</h3>\n<p>È il cambiamento più visibile del 2026. Amazon ha lanciato Alexa+ in accesso anticipato nel Regno Unito a marzo 2026, poi in Germania e Francia a maggio 2026. L’assistente comprende richieste formulate in modo naturale e concatena più azioni; secondo Amazon sarà incluso in Prime dopo la fase di accesso anticipato. Google, da parte sua, sta distribuendo Gemini for Home sui suoi speaker e display Nest, in accesso anticipato in molti Paesi europei, tra cui l’Italia. Questi assistenti restano molto dipendenti dal cloud: il controllo dei dispositivi diventa più flessibile, non più riservato.</p>\n\n<h3>4. Il controllo locale diventa un argomento d’acquisto</h3>\n<p>In risposta a questi assistenti molto connessi, una parte degli utenti punta sul locale. Home Assistant, piattaforma domotica open source, si installa su un box dedicato come Home Assistant Green ed esegue le automazioni in casa tua. Il suo speaker Voice Preview Edition (fine 2024) consente un controllo vocale elaborato localmente, a condizione di avere un hardware abbastanza potente per il riconoscimento vocale completo. Anche hub come l’Aqara Hub M3 eseguono le automazioni sul dispositivo stesso, riducendo latenza e dipendenza dal cloud.</p>\n\n<h3>5. Videosorveglianza senza abbonamento e con rilevamento integrato</h3>\n<p>Le telecamere con archiviazione locale si affermano come alternativa ai piani cloud. La eufyCam S3 Pro registra sulla HomeBase S380, espandibile con un disco rigido, senza abbonamento, e combina rilevamento radar e a infrarossi passivi. La Reolink Argus 4 Pro registra su scheda microSD e offre una visuale panoramica di 180° grazie a due obiettivi. In entrambi i casi il riconoscimento di persone e veicoli funziona senza piano a pagamento. Con Matter 1.5 telecamere di questo tipo potranno integrarsi più facilmente negli ecosistemi, ma solo se il produttore certifica il modello.</p>\n\n<h3>6. Energia gestita stanza per stanza, e solare da collegare alla presa</h3>\n<p>Il riscaldamento rappresenta la quota maggiore del consumo energetico delle famiglie europee, da qui l’interesse per le teste termostatiche smart che scaldano ogni stanza secondo programma e presenza. In Germania gli impianti solari da balcone possono immettere fino a 800 W dopo le semplificazioni del 2024, il che ha reso popolare il solare «plug-in» e le piccole batterie abbinate. Le regole variano da Paese a Paese: in Italia, informati sugli obblighi di comunicazione al gestore di rete prima di installare un kit. Per approfondire, leggi la nostra <a href=\"/it/blog/guide-domotique-economie-energie-2026\">guida domotica e risparmio energetico</a>.</p>\n\n<h3>7. Robot più autonomi, dentro e fuori casa</h3>\n<p>I robot aspirapolvere-lavapavimenti guadagnano autonomia: il Roborock Saros Z70, in vendita in Europa da maggio 2025, è dotato di un braccio articolato in grado di spostare piccoli oggetti leggeri. In giardino, i robot tagliaerba senza filo perimetrale, come il Mammotion LUBA 2 AWD, combinano RTK e telecamere per orientarsi. Questi prodotti restano di fascia alta e le loro funzioni più spettacolari hanno dei limiti: un braccio robotico non riordina una stanza in disordine.</p>\n\n<h3>8. Nuove regole europee: cybersicurezza e riparazione</h3>\n<p>Dal 1° agosto 2025 le apparecchiature radio connesse vendute nell’Unione europea devono rispettare i requisiti di cybersicurezza dell’atto delegato della direttiva RED (Regolamento delegato 2022/30), con le norme armonizzate EN 18031: protezione della rete, dei dati personali e contro le frodi. La direttiva europea sul diritto alla riparazione (2024/1799) doveva essere recepita dagli Stati membri entro il 31 luglio 2026. Riguarda prima di tutto alcune famiglie di prodotti (lavatrici, frigoriferi, smartphone e altri), non tutti gli oggetti connessi. Buona notizia per chi acquista, ma con prudenza: la durata del supporto software di un dispositivo connesso dipende sempre dal produttore.</p>\n\n<h2>I prodotti che incarnano queste tendenze</h2>\n<p>Ecco sei dispositivi attualmente in vendita in Europa che mettono in pratica le tendenze descritte. Trovi altri modelli nella nostra categoria <a href=\"/it/energie-domotique/hubs-domotique\">hub domotici</a>.</p>\n\n<h3>Aqara Hub M3: l’hub Matter multiprotocollo</h3>\n<p><strong>Punti di forza:</strong> controller Matter e border router Thread, compatibile Zigbee, Wi-Fi, Bluetooth e infrarossi; automazioni eseguite in locale; controlla anche dispositivi Matter di altri marchi.</p>\n<p><strong>Limiti:</strong> l’app Aqara resta necessaria per sfruttare tutte le funzioni; la configurazione multi-ecosistema richiede un po’ di metodo.</p>\n<p><strong>Per chi:</strong> chi vuole un centro di controllo unico, aperto a Matter, senza dipendere da un solo colosso tecnologico.</p>\n\n<h3>Home Assistant Green: la domotica 100% locale</h3>\n<p><strong>Punti di forza:</strong> box con Home Assistant preinstallato; migliaia di integrazioni; automazioni, storico e dashboard senza cloud obbligatorio.</p>\n<p><strong>Limiti:</strong> curva di apprendimento reale; serve una chiavetta radio per Zigbee o Thread; il riconoscimento vocale interamente locale richiede un hardware più potente.</p>\n<p><strong>Per chi:</strong> utenti curiosi che privilegiano privacy e pieno controllo del proprio impianto.</p>\n\n<h3>Eve Thermo: la testa termostatica Matter over Thread</h3>\n<p><strong>Punti di forza:</strong> quinta generazione più compatta e silenziosa; filettatura M30 × 1,5 con adattatori Danfoss inclusi; funziona con Apple Home, Alexa, Google Home, SmartThings e Home Assistant; pile AA.</p>\n<p><strong>Limiti:</strong> richiede un border router Thread; le funzioni avanzate passano dall’app Eve.</p>\n<p><strong>Per chi:</strong> abitazioni con radiatori ad acqua calda che vogliono scaldare stanza per stanza senza hub proprietario.</p>\n\n<h3>tado Smart Radiator Thermostat X: il riscaldamento gestito dall’app</h3>\n<p><strong>Punti di forza:</strong> display touch, batteria ricaricabile via USB-C (circa un anno di autonomia dichiarata); Thread e Matter; app completa per programmi e presenza.</p>\n<p><strong>Limiti:</strong> non compatibile con i vecchi prodotti tado V3+; alcune funzioni avanzate dell’app sono a pagamento; serve il Bridge X o un border router di terze parti.</p>\n<p><strong>Per chi:</strong> chi desidera un ecosistema di riscaldamento completo e un’app molto curata.</p>\n\n<h3>eufyCam S3 Pro: sorveglianza esterna senza abbonamento</h3>\n<p><strong>Punti di forza:</strong> video 4K, visione notturna a colori, pannello solare integrato (SolarPlus 2.0); doppio rilevamento radar e a infrarossi passivi; archiviazione locale espandibile sulla HomeBase S380.</p>\n<p><strong>Limiti:</strong> funziona solo con la HomeBase S380; sistema più ingombrante di una telecamera autonoma.</p>\n<p><strong>Per chi:</strong> case che vogliono più telecamere esterne senza costi ricorrenti.</p>\n\n<h3>Reolink Argus 4 Pro: la telecamera a batteria panoramica</h3>\n<p><strong>Punti di forza:</strong> due obiettivi per un campo di 180° in 4K, visione notturna a colori ColorX, Wi-Fi 6; archiviazione su microSD fino a 512 GB; nessun abbonamento per il rilevamento intelligente.</p>\n<p><strong>Limiti:</strong> l’autonomia dipende molto dal numero di rilevamenti; per un uso senza ricariche è consigliato il pannello solare.</p>\n<p><strong>Per chi:</strong> giardini e facciate senza presa elettrica vicina.</p>\n\n<h2>Tabella comparativa</h2>\n<table>\n<thead>\n<tr><th>Modello</th><th>Tendenza</th><th>Connettività</th><th>Ideale per</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>Aqara Hub M3</strong></td><td>Matter, controllo locale</td><td>Matter, Thread, Zigbee, Wi-Fi, Bluetooth, IR</td><td>Riunire più marchi</td></tr>\n<tr><td><strong>Home Assistant Green</strong></td><td>Domotica senza cloud</td><td>Ethernet, radio tramite chiavette USB</td><td>Privacy e personalizzazione</td></tr>\n<tr><td><strong>Eve Thermo</strong></td><td>Energia, Thread</td><td>Matter over Thread</td><td>Riscaldamento per stanza multi-ecosistema</td></tr>\n<tr><td><strong>tado Smart Radiator Thermostat X</strong></td><td>Energia, Thread</td><td>Thread, Matter</td><td>App di riscaldamento completa</td></tr>\n<tr><td><strong>eufyCam S3 Pro</strong></td><td>Sicurezza senza abbonamento</td><td>Wi-Fi verso HomeBase S380</td><td>Più telecamere esterne</td></tr>\n<tr><td><strong>Reolink Argus 4 Pro</strong></td><td>Sicurezza senza abbonamento</td><td>Wi-Fi 6, microSD</td><td>Zone senza presa elettrica</td></tr>\n</tbody>\n</table>\n\n<h2>Gli errori da evitare nel 2026</h2>\n<ul>\n<li><strong>Comprare sulla promessa di un aggiornamento.</strong> Una compatibilità Matter «prevista» non è una compatibilità reale. Acquista ciò che è certificato al momento dell’acquisto.</li>\n<li><strong>Dimenticare il border router Thread.</strong> Senza, un dispositivo Matter over Thread non entrerà nella tua rete.</li>\n<li><strong>Moltiplicare le app.</strong> Scegli un ecosistema principale e aggiungi dispositivi compatibili invece di cinque app in concorrenza.</li>\n<li><strong>Trascurare i costi d’uso.</strong> Abbonamenti video, funzioni IA a pagamento: confronta prima di acquistare.</li>\n<li><strong>Confondere una vetrina da fiera con un prodotto disponibile.</strong> Robot da compagnia e demo futuristiche non sono ancora prodotti di consumo in Europa.</li>\n</ul>\n\n<h2>Sicurezza, privacy e installazione</h2>\n<p>Cambia le password predefinite, attiva l’autenticazione a due fattori sugli account dei produttori e installa gli aggiornamenti. Metti i dispositivi connessi su una rete Wi-Fi ospiti se il router lo consente. Con le telecamere rispetta la privacy di vicini e passanti: non riprendere la via pubblica né le proprietà confinanti. Gli impianti elettrici fissi (termostato cablato, batteria domestica, inverter solare) vanno affidati a un elettricista qualificato, e i kit solari plug-in devono rispettare le regole locali di allacciamento.</p>\n\n<h2>Verdetto</h2>\n<p>Le vere tendenze della casa smart nel 2026 sono meno spettacolari delle demo in fiera, ma più utili: Matter si estende a telecamere ed energia, Thread arriva sui prodotti accessibili, gli assistenti vocali diventano conversazionali in Europa e il controllo locale guadagna terreno. Per attrezzarti senza rimpianti, l’<strong>Aqara Hub M3</strong> offre una base aperta e locale, l’<strong>Eve Thermo</strong> è il modo più diretto per ridurre il riscaldamento stanza per stanza e la <strong>Reolink Argus 4 Pro</strong> garantisce una sorveglianza senza abbonamento. Per confrontare gli hub nel dettaglio, consulta il nostro <a href=\"/it/blog/box-domotique-hub-comparatif\">confronto degli hub domotici</a>.</p>",
+    "nl": "<p>In 2026 verandert het slimme huis vooral op drie concrete punten: Matter ondersteunt eindelijk camera’s en energiebeheer, spraakassistenten stappen in Europa over op generatieve AI en lokale bediening zonder cloud is een echt aankoopcriterium geworden. De rest (zelfstandigere robots, beveiliging zonder abonnement, nieuwe Europese regels voor cyberbeveiliging en reparatie) vloeit voort uit deze onderliggende verschuivingen.</p>\n<p>Deze gids scheidt wat echt bestaat en vandaag te koop is van wat nog slechts een beursaankondiging is. Hij is gebaseerd op specificaties van fabrikanten en de Connectivity Standards Alliance, onafhankelijke reviews en geverifieerde kopersreviews. Lees voor de technische basis ook onze <a href=\"/nl/blog/maison-connectee-matter-thread-2026\">Matter- en Thread-gids 2026</a>.</p>\n\n<h2>Zo herken je een echte trend</h2>\n<p>Elke techbeurs belooft dé „revolutie” van het slimme huis. Vier eenvoudige vragen volstaan om vóór aankoop te schiften:</p>\n<ul>\n<li><strong>Wordt het product in Europa verkocht?</strong> Veel nieuwigheden verschijnen eerst in de Verenigde Staten. Een functie die alleen op een andere markt beschikbaar is, geldt nog niet voor jou.</li>\n<li><strong>Is het gebaseerd op een open standaard?</strong> Een Matter-compatibel apparaat kan van ecosysteem wisselen (Apple Home, Google Home, Alexa, SmartThings, Home Assistant). Een gesloten apparaat hangt af van één app.</li>\n<li><strong>Werkt het zonder cloud?</strong> Lokale bediening blijft werken als het internet uitvalt en beperkt de gegevens die je huis verlaten.</li>\n<li><strong>Zijn de gebruikskosten duidelijk?</strong> Verplicht abonnement voor videogeschiedenis, AI-functies die na een proefperiode betaald worden: lees de voorwaarden voordat je kiest.</li>\n</ul>\n\n<h2>De 8 smart home trends van 2026</h2>\n\n<h3>1. Matter ondersteunt eindelijk camera’s en energie</h3>\n<p>Matter 1.4, uitgebracht in november 2024, voegde apparaattypes voor energiebeheer toe: zonne-omvormers, thuisbatterijen, warmtepompen en boilers. Matter 1.5, uitgebracht op 20 november 2025, introduceerde camera’s (binnen, buiten en videodeurbellen) met streaming via WebRTC, detectie- en privacyzones en lokale of cloudopname; Matter 1.5.1 verfijnde die functies daarna. In de praktijk is de standaard klaar en komen gecertificeerde producten geleidelijk op de markt. Controleer altijd het Matter-logo op de productpagina in plaats van te rekenen op een toekomstige update.</p>\n\n<h3>2. Thread breekt door, tot in instaplampen toe</h3>\n<p>Thread, het zuinige mesh-netwerk dat Matter gebruikt, is niet langer voorbehouden aan premiummerken. Op CES 2026 presenteerde IKEA een reeks van 21 Matter-over-Thread-producten, waaronder de KAJPLATS-lampen die de TRÅDFRI-lijn vervangen. Voor verwarming werken ook de Eve Thermo van de vijfde generatie (eind 2025) en de tado X-radiatorknoppen met Thread. Je hebt een Thread-borderrouter nodig: een recente speaker of hub (HomePod mini, recente Apple TV 4K, Nest Hub van de 2e generatie, Aqara Hub M3, sommige Echo’s) vervult die rol.</p>\n\n<h3>3. Spraakassistenten stappen in Europa over op generatieve AI</h3>\n<p>Dit is de meest zichtbare verandering van 2026. Amazon lanceerde Alexa+ in maart 2026 in early access in het Verenigd Koninkrijk en in mei 2026 in Duitsland en Frankrijk. De assistent begrijpt natuurlijk geformuleerde verzoeken en kan meerdere acties aan elkaar koppelen; volgens Amazon wordt hij na de early-accessfase bij Prime inbegrepen. Google rolt intussen Gemini for Home uit op zijn Nest-speakers en -schermen, in early access in veel Europese landen, waaronder Nederland en België. Deze assistenten blijven sterk afhankelijk van de cloud: de bediening van apparaten wordt flexibeler, niet privacyvriendelijker.</p>\n\n<h3>4. Lokale bediening wordt een verkoopargument</h3>\n<p>Als reactie op die sterk verbonden assistenten kiest een deel van de gebruikers voor lokaal. Home Assistant, een opensource-platform voor domotica, draait op een eigen kastje zoals de Home Assistant Green en voert automatiseringen bij jou thuis uit. De Voice Preview Edition-speaker (eind 2024) maakt lokaal verwerkte spraakbediening mogelijk, mits je hardware krachtig genoeg is voor volledige spraakherkenning. Hubs zoals de Aqara Hub M3 voeren automatiseringen ook op het apparaat zelf uit, wat vertraging en cloudafhankelijkheid beperkt.</p>\n\n<h3>5. Videobeveiliging zonder abonnement en met detectie op het apparaat</h3>\n<p>Camera’s met lokale opslag winnen terrein als alternatief voor cloudabonnementen. De eufyCam S3 Pro neemt op naar de HomeBase S380, uitbreidbaar met een harde schijf, zonder abonnement, en combineert radar- en passieve infrarooddetectie. De Reolink Argus 4 Pro slaat op op een microSD-kaart en biedt dankzij twee lenzen een panoramisch beeld van 180°. In beide gevallen werkt herkenning van personen en voertuigen zonder betaald abonnement. Met Matter 1.5 kunnen zulke camera’s op termijn makkelijker in ecosystemen worden opgenomen, maar alleen als de fabrikant het model certificeert.</p>\n\n<h3>6. Energie per kamer regelen, en stekkerzonnepanelen</h3>\n<p>Verwarming is goed voor het grootste deel van het energieverbruik van Europese huishoudens; daarom zijn slimme radiatorknoppen die elke kamer volgens schema en aanwezigheid verwarmen zo nuttig. In Duitsland mogen balkonzonnecentrales sinds de versoepeling van 2024 tot 800 W terugleveren, wat stekkerzonnepanelen en de bijbehorende kleine batterijen populair heeft gemaakt. De regels verschillen per land: informeer in Nederland of België bij je netbeheerder voordat je een set installeert. Lees verder in onze <a href=\"/nl/blog/guide-domotique-economie-energie-2026\">gids domotica en energiebesparing</a>.</p>\n\n<h3>7. Zelfstandigere robots, binnen en buiten</h3>\n<p>Robotstofzuigers met dweilfunctie worden zelfstandiger: de Roborock Saros Z70, sinds mei 2025 in Europa te koop, heeft een scharnierende arm die kleine, lichte voorwerpen kan verplaatsen. In de tuin combineren robotmaaiers zonder begrenzingsdraad, zoals de Mammotion LUBA 2 AWD, RTK-plaatsbepaling en camera’s om de weg te vinden. Deze producten blijven in het premiumsegment en hun meest spectaculaire functies hebben grenzen: een robotarm ruimt geen rommelige kamer op.</p>\n\n<h3>8. Nieuwe Europese regels: cyberbeveiliging en reparatie</h3>\n<p>Sinds 1 augustus 2025 moeten verbonden radioapparaten die in de Europese Unie worden verkocht voldoen aan de cyberbeveiligingseisen van de gedelegeerde handeling bij de RED-richtlijn (Gedelegeerde Verordening 2022/30), met de geharmoniseerde EN 18031-normen: bescherming van het netwerk, van persoonsgegevens en tegen fraude. De Europese richtlijn over het recht op reparatie (2024/1799) moest uiterlijk 31 juli 2026 door de lidstaten worden omgezet. Ze richt zich eerst op bepaalde productgroepen (wasmachines, koelkasten, smartphones en andere), niet op alle slimme apparaten. Goed nieuws voor kopers, maar blijf voorzichtig: hoe lang een slim apparaat software-updates krijgt, bepaalt nog altijd de fabrikant.</p>\n\n<h2>De producten die deze trends belichamen</h2>\n<p>Hier zijn zes apparaten die momenteel in Europa te koop zijn en de trends hierboven concreet maken. Meer modellen vind je in onze categorie <a href=\"/nl/energie-domotique/hubs-domotique\">domotica-hubs</a>.</p>\n\n<h3>Aqara Hub M3: de multiprotocol-hub voor Matter</h3>\n<p><strong>Sterke punten:</strong> Matter-controller en Thread-borderrouter, met Zigbee, wifi, Bluetooth en infrarood; automatiseringen draaien lokaal; bedient ook Matter-apparaten van andere merken.</p>\n<p><strong>Beperkingen:</strong> voor alle functies blijft de Aqara-app nodig; een opzet over meerdere ecosystemen vraagt wat zorgvuldigheid.</p>\n<p><strong>Voor wie:</strong> wie één centrale, Matter-open bediening wil zonder afhankelijk te zijn van één techreus.</p>\n\n<h3>Home Assistant Green: volledig lokale domotica</h3>\n<p><strong>Sterke punten:</strong> kastje met vooraf geïnstalleerde Home Assistant; duizenden integraties; automatiseringen, geschiedenis en dashboards zonder verplichte cloud.</p>\n<p><strong>Beperkingen:</strong> een echte leercurve; voor Zigbee of Thread moet je een radiostick toevoegen; volledig lokale spraakherkenning vraagt krachtigere hardware.</p>\n<p><strong>Voor wie:</strong> nieuwsgierige gebruikers die privacy en volledige controle over hun installatie voorop stellen.</p>\n\n<h3>Eve Thermo: de radiatorknop met Matter over Thread</h3>\n<p><strong>Sterke punten:</strong> compactere, stillere vijfde generatie; schroefdraad M30 × 1,5 met meegeleverde Danfoss-adapters; werkt met Apple Home, Alexa, Google Home, SmartThings en Home Assistant; AA-batterijen.</p>\n<p><strong>Beperkingen:</strong> vereist een Thread-borderrouter; geavanceerde functies lopen via de Eve-app.</p>\n<p><strong>Voor wie:</strong> woningen met cv-radiatoren die per kamer willen verwarmen zonder gesloten hub.</p>\n\n<h3>tado Smart Radiator Thermostat X: verwarming via de app</h3>\n<p><strong>Sterke punten:</strong> aanraakscherm, via USB-C oplaadbare accu (volgens de fabrikant ongeveer een jaar gebruiksduur); Thread en Matter; uitgebreide app voor schema’s en aanwezigheid.</p>\n<p><strong>Beperkingen:</strong> niet compatibel met oudere tado V3+-producten; sommige geavanceerde appfuncties zijn betaald; Bridge X of een borderrouter van derden vereist.</p>\n<p><strong>Voor wie:</strong> wie een compleet verwarmingsecosysteem en een zeer verfijnde app wil.</p>\n\n<h3>eufyCam S3 Pro: buitenbewaking zonder abonnement</h3>\n<p><strong>Sterke punten:</strong> 4K-video, nachtzicht in kleur, ingebouwd zonnepaneel (SolarPlus 2.0); dubbele detectie via radar en passief infrarood; uitbreidbare lokale opslag op de HomeBase S380.</p>\n<p><strong>Beperkingen:</strong> werkt alleen met de HomeBase S380; omvangrijker systeem dan een losse camera.</p>\n<p><strong>Voor wie:</strong> huizen die meerdere buitencamera’s willen zonder terugkerende kosten.</p>\n\n<h3>Reolink Argus 4 Pro: de panoramische accucamera</h3>\n<p><strong>Sterke punten:</strong> twee lenzen voor 180° in 4K, ColorX-nachtzicht in kleur, wifi 6; opslag op microSD tot 512 GB; geen abonnement nodig voor slimme detectie.</p>\n<p><strong>Beperkingen:</strong> de accuduur hangt sterk af van het aantal detecties; voor gebruik zonder opladen is het zonnepaneel aan te raden.</p>\n<p><strong>Voor wie:</strong> tuinen en gevels zonder stopcontact in de buurt.</p>\n\n<h2>Vergelijkingstabel</h2>\n<table>\n<thead>\n<tr><th>Model</th><th>Trend</th><th>Connectiviteit</th><th>Ideaal voor</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>Aqara Hub M3</strong></td><td>Matter, lokale bediening</td><td>Matter, Thread, Zigbee, wifi, Bluetooth, IR</td><td>Meerdere merken samenbrengen</td></tr>\n<tr><td><strong>Home Assistant Green</strong></td><td>Domotica zonder cloud</td><td>Ethernet, radio’s via USB-sticks</td><td>Privacy en maatwerk</td></tr>\n<tr><td><strong>Eve Thermo</strong></td><td>Energie, Thread</td><td>Matter over Thread</td><td>Verwarming per kamer over ecosystemen heen</td></tr>\n<tr><td><strong>tado Smart Radiator Thermostat X</strong></td><td>Energie, Thread</td><td>Thread, Matter</td><td>Complete verwarmingsapp</td></tr>\n<tr><td><strong>eufyCam S3 Pro</strong></td><td>Beveiliging zonder abonnement</td><td>Wifi naar HomeBase S380</td><td>Meerdere buitencamera’s</td></tr>\n<tr><td><strong>Reolink Argus 4 Pro</strong></td><td>Beveiliging zonder abonnement</td><td>Wifi 6, microSD</td><td>Plekken zonder stopcontact</td></tr>\n</tbody>\n</table>\n\n<h2>Fouten om te vermijden in 2026</h2>\n<ul>\n<li><strong>Kopen op de belofte van een update.</strong> „Geplande” Matter-ondersteuning is geen echte ondersteuning. Koop wat op het moment van aankoop gecertificeerd is.</li>\n<li><strong>De Thread-borderrouter vergeten.</strong> Zonder borderrouter komt een Matter-over-Thread-apparaat niet in je netwerk.</li>\n<li><strong>Apps verzamelen.</strong> Kies één hoofdecosysteem en voeg compatibele apparaten toe in plaats van vijf concurrerende apps.</li>\n<li><strong>Gebruikskosten negeren.</strong> Video-abonnementen, betaalde AI-functies: vergelijk vóór aankoop.</li>\n<li><strong>Een beursdemo verwarren met een beschikbaar product.</strong> Gezelschapsrobots en futuristische demo’s zijn in Europa nog geen consumentenproducten.</li>\n</ul>\n\n<h2>Veiligheid, privacy en installatie</h2>\n<p>Wijzig standaardwachtwoorden, schakel tweestapsverificatie in op de accounts van fabrikanten en installeer updates. Zet slimme apparaten op een gastnetwerk als je router dat toelaat. Respecteer bij camera’s de privacy van buren en voorbijgangers: film geen openbare weg of buurpercelen. Vaste elektrische installaties (bekabelde thermostaat, thuisbatterij, zonne-omvormer) laat je uitvoeren door een erkende elektricien, en stekkerzonnepanelen moeten voldoen aan de lokale aansluitregels.</p>\n\n<h2>Eindoordeel</h2>\n<p>De echte smart home trends van 2026 zijn minder spectaculair dan beursdemo’s, maar nuttiger: Matter breidt uit naar camera’s en energie, Thread bereikt betaalbare producten, spraakassistenten worden in Europa conversationeel en lokale bediening wint terrein. Om zonder spijt in te kopen biedt de <strong>Aqara Hub M3</strong> een open, lokale basis, is de <strong>Eve Thermo</strong> de meest directe manier om per kamer te besparen op verwarming en zorgt de <strong>Reolink Argus 4 Pro</strong> voor bewaking zonder abonnement. Vergelijk hubs in detail in onze <a href=\"/nl/blog/box-domotique-hub-comparatif\">vergelijking van domotica-hubs</a>.</p>"
+  },
+  "faq": [
+    {
+      "question": {
+        "fr": "Quelle est la principale tendance maison connectée en 2026 ?",
+        "en": "What is the main smart home trend in 2026?",
+        "de": "Was ist der wichtigste Smart-Home-Trend 2026?",
+        "es": "¿Cuál es la principal tendencia del hogar inteligente en 2026?",
+        "it": "Qual è la principale tendenza della casa smart nel 2026?",
+        "nl": "Wat is de belangrijkste smart home trend in 2026?"
+      },
+      "answer": {
+        "fr": "La maturité de Matter : depuis Matter 1.4 et 1.5, la norme couvre aussi l’énergie (solaire, batteries, pompes à chaleur) et les caméras. Les appareils certifiés fonctionnent avec Apple Home, Google Home, Alexa, SmartThings et Home Assistant.",
+        "en": "The maturity of Matter: since Matter 1.4 and 1.5 the standard also covers energy (solar, batteries, heat pumps) and cameras. Certified devices work with Apple Home, Google Home, Alexa, SmartThings and Home Assistant.",
+        "de": "Die Reife von Matter: Seit Matter 1.4 und 1.5 deckt der Standard auch Energie (Solar, Speicher, Wärmepumpen) und Kameras ab. Zertifizierte Geräte funktionieren mit Apple Home, Google Home, Alexa, SmartThings und Home Assistant.",
+        "es": "La madurez de Matter: desde Matter 1.4 y 1.5, el estándar cubre también la energía (solar, baterías, bombas de calor) y las cámaras. Los dispositivos certificados funcionan con Apple Home, Google Home, Alexa, SmartThings y Home Assistant.",
+        "it": "La maturità di Matter: da Matter 1.4 e 1.5 lo standard copre anche l’energia (solare, batterie, pompe di calore) e le telecamere. I dispositivi certificati funzionano con Apple Home, Google Home, Alexa, SmartThings e Home Assistant.",
+        "nl": "De volwassenheid van Matter: sinds Matter 1.4 en 1.5 dekt de standaard ook energie (zonnepanelen, batterijen, warmtepompen) en camera’s. Gecertificeerde apparaten werken met Apple Home, Google Home, Alexa, SmartThings en Home Assistant."
+      }
+    },
+    {
+      "question": {
+        "fr": "Alexa+ est-il disponible en France ?",
+        "en": "Is Alexa+ available in Europe?",
+        "de": "Ist Alexa+ in Deutschland verfügbar?",
+        "es": "¿Está disponible Alexa+ en Europa?",
+        "it": "Alexa+ è disponibile in Europa?",
+        "nl": "Is Alexa+ beschikbaar in Europa?"
+      },
+      "answer": {
+        "fr": "Oui, en accès anticipé depuis mai 2026. Amazon indique qu’Alexa+ sera ensuite inclus avec Prime et proposé sur abonnement aux non-membres. Les fonctions disponibles peuvent varier selon l’enceinte et la langue.",
+        "en": "Amazon launched Alexa+ in early access in the UK in March 2026, then in Germany and France in May 2026. Amazon says it will then be included with Prime and offered by subscription to non-members. Availability may vary by device and language.",
+        "de": "Ja, seit Mai 2026 im Rahmen eines Early-Access-Programms. Laut Amazon wird Alexa+ danach in Prime enthalten sein und für Nicht-Mitglieder als Abo angeboten. Der Funktionsumfang kann je nach Gerät variieren.",
+        "es": "Amazon lanzó Alexa+ en acceso anticipado en el Reino Unido en marzo de 2026 y en Alemania y Francia en mayo de 2026. Amazon indica que después estará incluido con Prime y se ofrecerá por suscripción a quien no sea miembro.",
+        "it": "Amazon ha lanciato Alexa+ in accesso anticipato nel Regno Unito a marzo 2026, poi in Germania e Francia a maggio 2026. Secondo Amazon sarà poi incluso in Prime e offerto in abbonamento ai non iscritti.",
+        "nl": "Amazon lanceerde Alexa+ in early access in het Verenigd Koninkrijk in maart 2026 en in Duitsland en Frankrijk in mei 2026. Volgens Amazon wordt het daarna bij Prime inbegrepen en voor niet-leden als abonnement aangeboden."
+      }
+    },
+    {
+      "question": {
+        "fr": "Faut-il attendre avant d’acheter des objets connectés ?",
+        "en": "Should I wait before buying smart home devices?",
+        "de": "Sollte ich mit dem Kauf von Smart-Home-Geräten warten?",
+        "es": "¿Conviene esperar antes de comprar dispositivos inteligentes?",
+        "it": "Conviene aspettare prima di acquistare dispositivi smart?",
+        "nl": "Moet ik wachten met het kopen van slimme apparaten?"
+      },
+      "answer": {
+        "fr": "Non, si vous choisissez des appareils déjà certifiés Matter ou fonctionnant en local. Évitez seulement d’acheter sur la promesse d’une compatibilité future : achetez ce qui fonctionne le jour de l’achat.",
+        "en": "No, as long as you choose devices that are already Matter-certified or work locally. Just avoid buying on the promise of future compatibility: buy what works on the day you buy it.",
+        "de": "Nein, wenn Sie Geräte wählen, die bereits Matter-zertifiziert sind oder lokal funktionieren. Kaufen Sie nur nicht auf das Versprechen künftiger Kompatibilität hin, sondern das, was am Kauftag funktioniert.",
+        "es": "No, si eliges dispositivos ya certificados Matter o que funcionan en local. Solo evita comprar por la promesa de una compatibilidad futura: compra lo que funciona el día de la compra.",
+        "it": "No, se scegli dispositivi già certificati Matter o che funzionano in locale. Evita solo di acquistare sulla promessa di una compatibilità futura: compra ciò che funziona il giorno dell’acquisto.",
+        "nl": "Nee, als je apparaten kiest die al Matter-gecertificeerd zijn of lokaal werken. Koop alleen niet op de belofte van toekomstige compatibiliteit: koop wat werkt op de dag van aankoop."
+      }
+    },
+    {
+      "question": {
+        "fr": "Qu’est-ce qu’un routeur de bordure Thread ?",
+        "en": "What is a Thread border router?",
+        "de": "Was ist ein Thread-Border-Router?",
+        "es": "¿Qué es un router de borde Thread?",
+        "it": "Che cos’è un border router Thread?",
+        "nl": "Wat is een Thread-borderrouter?"
+      },
+      "answer": {
+        "fr": "C’est l’appareil qui relie le réseau Thread de vos objets à votre réseau domestique. Des enceintes et hubs récents jouent ce rôle (HomePod mini, Nest Hub 2e génération, Aqara Hub M3, certains Echo). Sans lui, un appareil Matter over Thread ne peut pas être ajouté.",
+        "en": "It is the device that connects your gadgets’ Thread network to your home network. Recent speakers and hubs fill this role (HomePod mini, second-generation Nest Hub, Aqara Hub M3, some Echo models). Without one, a Matter over Thread device cannot be added.",
+        "de": "Das Gerät verbindet das Thread-Netz Ihrer Geräte mit Ihrem Heimnetz. Aktuelle Lautsprecher und Hubs übernehmen diese Rolle (HomePod mini, Nest Hub 2. Generation, Aqara Hub M3, einige Echo-Modelle). Ohne ihn lässt sich kein Matter-over-Thread-Gerät einbinden.",
+        "es": "Es el dispositivo que conecta la red Thread de tus aparatos con tu red doméstica. Altavoces y hubs recientes cumplen esa función (HomePod mini, Nest Hub de 2.ª generación, Aqara Hub M3, algunos Echo). Sin él no se puede añadir un dispositivo Matter over Thread.",
+        "it": "È il dispositivo che collega la rete Thread dei tuoi apparecchi alla rete di casa. Speaker e hub recenti svolgono questo ruolo (HomePod mini, Nest Hub di 2ª generazione, Aqara Hub M3, alcuni Echo). Senza di esso non si può aggiungere un dispositivo Matter over Thread.",
+        "nl": "Dat is het apparaat dat het Thread-netwerk van je apparaten met je thuisnetwerk verbindt. Recente speakers en hubs vervullen die rol (HomePod mini, Nest Hub 2e generatie, Aqara Hub M3, sommige Echo’s). Zonder borderrouter kun je geen Matter-over-Thread-apparaat toevoegen."
+      }
+    },
+    {
+      "question": {
+        "fr": "Peut-on avoir une maison connectée sans cloud ?",
+        "en": "Can you have a smart home without the cloud?",
+        "de": "Geht ein Smart Home ohne Cloud?",
+        "es": "¿Se puede tener un hogar inteligente sin nube?",
+        "it": "Si può avere una casa smart senza cloud?",
+        "nl": "Kan een slim huis zonder cloud?"
+      },
+      "answer": {
+        "fr": "En grande partie, oui. Home Assistant sur un boîtier comme le Home Assistant Green, un hub à automatisations locales et des caméras à stockage local permettent de fonctionner sans cloud au quotidien. L’accès à distance et certains assistants vocaux restent dépendants d’Internet.",
+        "en": "Largely, yes. Home Assistant on a box such as Home Assistant Green, a hub with local automations and cameras with local storage let you run day to day without the cloud. Remote access and some voice assistants still depend on the internet.",
+        "de": "Größtenteils ja. Home Assistant auf einer Box wie dem Home Assistant Green, ein Hub mit lokalen Automationen und Kameras mit lokalem Speicher ermöglichen den Alltag ohne Cloud. Fernzugriff und manche Sprachassistenten brauchen weiterhin Internet.",
+        "es": "En gran parte, sí. Home Assistant en una caja como Home Assistant Green, un hub con automatizaciones locales y cámaras con almacenamiento local permiten funcionar sin nube en el día a día. El acceso remoto y algunos asistentes de voz siguen dependiendo de internet.",
+        "it": "In gran parte sì. Home Assistant su un box come Home Assistant Green, un hub con automazioni locali e telecamere con archiviazione locale permettono di funzionare ogni giorno senza cloud. L’accesso remoto e alcuni assistenti vocali dipendono ancora da Internet.",
+        "nl": "Grotendeels wel. Home Assistant op een kastje zoals de Home Assistant Green, een hub met lokale automatiseringen en camera’s met lokale opslag laten je dagelijks zonder cloud werken. Toegang op afstand en sommige spraakassistenten blijven internet nodig hebben."
+      }
+    },
+    {
+      "question": {
+        "fr": "Les objets connectés vendus en Europe sont-ils mieux sécurisés ?",
+        "en": "Are smart devices sold in Europe more secure now?",
+        "de": "Sind in Europa verkaufte Smart-Home-Geräte heute sicherer?",
+        "es": "¿Son más seguros los dispositivos inteligentes vendidos en Europa?",
+        "it": "I dispositivi smart venduti in Europa sono più sicuri?",
+        "nl": "Zijn slimme apparaten die in Europa worden verkocht nu veiliger?"
+      },
+      "answer": {
+        "fr": "Le cadre s’est renforcé : depuis le 1er août 2025, les appareils radio connectés doivent respecter les exigences de cybersécurité de la directive RED (normes EN 18031). Cela ne dispense pas de changer les mots de passe par défaut et d’installer les mises à jour.",
+        "en": "The framework is stronger: since 1 August 2025, connected radio devices sold in the EU must meet the Radio Equipment Directive cybersecurity requirements (EN 18031 standards). You should still change default passwords and install updates.",
+        "de": "Der Rahmen ist strenger: Seit dem 1. August 2025 müssen vernetzte Funkgeräte die Cybersicherheitsanforderungen der Funkanlagenrichtlinie RED (Normen EN 18031) erfüllen. Standardpasswörter ändern und Updates installieren bleibt trotzdem nötig.",
+        "es": "El marco es más estricto: desde el 1 de agosto de 2025, los equipos radioeléctricos conectados deben cumplir los requisitos de ciberseguridad de la directiva RED (normas EN 18031). Aun así, cambia las contraseñas por defecto e instala las actualizaciones.",
+        "it": "Il quadro è più rigoroso: dal 1° agosto 2025 le apparecchiature radio connesse devono rispettare i requisiti di cybersicurezza della direttiva RED (norme EN 18031). Resta comunque necessario cambiare le password predefinite e installare gli aggiornamenti.",
+        "nl": "Het kader is strenger: sinds 1 augustus 2025 moeten verbonden radioapparaten voldoen aan de cyberbeveiligingseisen van de RED-richtlijn (EN 18031-normen). Standaardwachtwoorden wijzigen en updates installeren blijft wel nodig."
+      }
+    }
+  ]
 }
