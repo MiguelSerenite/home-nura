@@ -28,7 +28,7 @@ describe('quick answers', () => {
     const lock = articles.find((a) => a.slug === 'serrure-connectee-guide')!
     const qa = getQuickAnswer(lock, 'es')!
     expect(qa.question).toMatch(/\?$/)
-    expect(qa.picks[0].model).toBe('Nuki Smart Lock 4.0')
+    expect(qa.picks[0].model).toBe('Nuki Smart Lock Pro (5th generation)')
     expect(qa.picks[0].url).toContain('https://www.amazon.es/')
   })
 })

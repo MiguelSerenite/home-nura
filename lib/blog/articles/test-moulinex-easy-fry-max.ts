@@ -6,771 +6,763 @@ export const article: BlogArticle = {
   pillar: 'guides/airfryers',
   relatedSlugs: ['meilleur-airfryer-petit-budget', 'test-cosori-dual-blaze', 'erreurs-courantes-airfryer'],
   datePublished: '2026-01-25',
-  dateModified: '2026-03-15',
-  readingTime: 12,
+  dateModified: '2026-10-09',
+  readingTime: 8,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/21z46vwmm1L._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1774074645537-f72f70d40d12?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Moulinex Easy Fry Max 5L - vue de face design noir compact',
-        en: 'Moulinex Easy Fry Max 5L - front view compact black design',
-        de: 'Moulinex Easy Fry Max 5L - Frontansicht kompaktes schwarzes Design',
-        es: 'Moulinex Easy Fry Max 5L - vista frontal diseño negro compacto',
-        it: 'Moulinex Easy Fry Max 5L - vista frontale design nero compatto',
-        nl: 'Moulinex Easy Fry Max 5L - vooraanzicht compact zwart ontwerp',
+        fr: 'Frites dorées et croustillantes dans un panier de cuisson métallique',
+        en: 'Golden, crispy fries in a metal cooking basket',
+        de: 'Goldbraune, knusprige Pommes in einem Metallkorb',
+        es: 'Patatas fritas doradas y crujientes en una cesta metálica',
+        it: 'Patatine dorate e croccanti in un cestello di metallo',
+        nl: 'Goudbruine, krokante friet in een metalen bakmand',
       },
     },
   ],
   title: {
-    fr: 'Test Moulinex Easy Fry Max 5L : Avis Complet 2026',
-    en: 'Moulinex Easy Fry Max 5L Review: Full 2026 Verdict',
-    de: 'Moulinex Easy Fry Max 5L Test: Vollständige Bewertung 2026',
-    es: 'Test Moulinex Easy Fry Max 5L: Opinión Completa 2026',
-    it: 'Test Moulinex Easy Fry Max 5L: Recensione Completa 2026',
-    nl: 'Test Moulinex Easy Fry Max 5L: Volledige Review 2026',
+    fr: 'Moulinex Easy Fry Max 5L : avis complet 2026',
+    en: 'Moulinex Easy Fry Max 5L Review 2026: Is It Worth It?',
+    de: 'Moulinex Easy Fry Max 5L: Erfahrungen und Bewertung 2026',
+    es: 'Moulinex Easy Fry Max 5L: opinión completa 2026',
+    it: 'Moulinex Easy Fry Max 5L: recensione completa 2026',
+    nl: 'Moulinex Easy Fry Max 5L: volledige review 2026',
   },
   excerpt: {
-    fr: 'Notre test complet du Moulinex Easy Fry Max 5L : l\'airfryer accessible de la marque française préférée des Français. Fiable, simple et efficace pour les familles à petit budget. Score Nura : 8.3/10.',
-    en: 'Our full review of the Moulinex Easy Fry Max 5L: the accessible air fryer from France\'s favourite kitchen brand. Reliable, simple and effective for budget-conscious families. Nura Score: 8.3/10.',
-    de: 'Unser vollständiger Test des Moulinex Easy Fry Max 5L: die zugängliche Heißluftfritteuse der bei Franzosen beliebtesten Marke. Zuverlässig, einfach und effektiv. Nura-Score: 8,3/10.',
-    es: 'Nuestra prueba completa del Moulinex Easy Fry Max 5L: la freidora accesible de la marca francesa favorita. Fiable, sencilla y eficaz. Puntuación Nura: 8,3/10.',
-    it: 'Il nostro test completo del Moulinex Easy Fry Max 5L: la friggitrice accessibile del marchio francese preferito. Affidabile, semplice ed efficace. Punteggio Nura: 8,3/10.',
-    nl: 'Onze volledige test van de Moulinex Easy Fry Max 5L: de toegankelijke airfryer van het favoriete Franse merk. Betrouwbaar, eenvoudig en effectief. Nura Score: 8,3/10.',
+    fr: 'Notre avis sur le Moulinex Easy Fry Max 5L, basé sur les caractéristiques officielles, les essais indépendants et les retours d’acheteurs : un airfryer simple, compact et réparable, idéal pour 2 à 4 personnes.',
+    en: 'Our review of the Moulinex Easy Fry Max 5L, based on official specs, independent assessments and buyer feedback: a simple, compact and repairable air fryer, ideal for 2 to 4 people.',
+    de: 'Unsere Bewertung der Moulinex Easy Fry Max 5L auf Basis von Herstellerangaben, unabhängigen Prüfungen und Käufererfahrungen: eine einfache, kompakte und reparierbare Heißluftfritteuse für 2 bis 4 Personen.',
+    es: 'Nuestra opinión sobre la Moulinex Easy Fry Max 5L, basada en las especificaciones oficiales, evaluaciones independientes y valoraciones de compradores: una freidora de aire sencilla, compacta y reparable para 2 a 4 personas.',
+    it: 'La nostra recensione della Moulinex Easy Fry Max 5L, basata su specifiche ufficiali, valutazioni indipendenti e opinioni degli acquirenti: una friggitrice ad aria semplice, compatta e riparabile per 2-4 persone.',
+    nl: 'Onze review van de Moulinex Easy Fry Max 5L, gebaseerd op officiële specificaties, onafhankelijke beoordelingen en ervaringen van kopers: een eenvoudige, compacte en repareerbare airfryer voor 2 tot 4 personen.',
   },
   content: {
-    fr: `<h2>Notre protocole de test</h2>
-<p>Le Moulinex Easy Fry Max 5L a été testé pendant 4 semaines dans une famille de 2 à 4 personnes. Nous avons réalisé 55 sessions de cuisson couvrant toutes les catégories : frites fraîches et surgelées, poulet entier et morceaux, légumes, poisson, quiches et desserts. Chaque session a été évaluée sur l'uniformité de cuisson, le croustillant, le temps de préchauffage, la facilité de nettoyage et la répétabilité des résultats. Nous avons spécifiquement testé la durabilité de l'appareil en simulant une utilisation intensive : démarrages et arrêts fréquents, nettoyages quotidiens au lave-vaisselle, cuissons grasses avec nettoyage à mi-parcours. La réparabilité sur 15 ans annoncée par Moulinex a été vérifiée via les canaux officiels Moulinex France.</p>
+    fr: `<p><strong>Le Moulinex Easy Fry Max 5L est un airfryer simple, compact et fiable, pensé pour les foyers de 2 à 4 personnes qui veulent des frites, du poulet et des légumes croustillants sans application ni réglages compliqués.</strong> Il ne vise pas la performance maximale : sa température plafonne à 200 °C et il n’a qu’un seul tiroir, mais sa prise en main immédiate, son nettoyage facile et l’engagement de réparabilité de Moulinex en font l’un des choix les plus raisonnables de l’entrée de gamme.</p>
+<p>Cet avis repose sur les caractéristiques publiées par le fabricant, sur des essais indépendants publiés par des organismes de consommateurs et sur les retours d’acheteurs vérifiés. Nous le comparons ensuite aux autres modèles de notre sélection, comme le Cosori Dual Blaze ou le Philips Série 3000 XL, pour vous aider à savoir s’il correspond vraiment à votre usage.</p>
 
-<h2>Introduction</h2>
-<p>Moulinex est une institution en France. Depuis plus de 60 ans, la marque équipe les cuisines françaises avec des appareils fiables et abordables. Le Moulinex Easy Fry Max 5L s'inscrit parfaitement dans cette tradition : un airfryer simple, efficace et vendu à seulement 89,99 euros. Pas de fioritures connectées, pas de double tiroir, pas de sonde — juste un appareil qui fait bien son travail.</p>
-<p>Dans un marché où les fabricants rivalisent de fonctionnalités, Moulinex fait le pari de l'essentiel. Et c'est un pari gagnant pour une partie importante des consommateurs : ceux qui veulent un airfryer fiable sans avoir à lire un manuel de 50 pages ou à configurer une application. Le Easy Fry Max 5L cible les familles de 2 à 4 personnes avec un budget maîtrisé.</p>
-<p>Après 4 semaines de test, le Moulinex Easy Fry Max obtient un score Nura de <strong>8,3/10</strong>. Un score solide qui récompense sa fiabilité et son excellent rapport qualité-prix. Voici notre analyse complète.</p>
+<h2>Moulinex Easy Fry Max 5L en bref</h2>
+<p>L’Easy Fry Max est l’airfryer « à tiroir unique » de milieu d’entrée de gamme chez Moulinex. On le trouve sous plusieurs références selon la couleur (par exemple EZ2458 en noir ou les versions coloris « java »), avec le même cœur technique :</p>
+<ul>
+<li><strong>Capacité</strong> : panier de 5 litres, annoncé par Moulinex pour environ 6 portions ;</li>
+<li><strong>Puissance</strong> : de l’ordre de 1 500 W, ce qui le place dans la moyenne des airfryers de cette taille ;</li>
+<li><strong>Température</strong> : réglable jusqu’à 200 °C ;</li>
+<li><strong>Minuterie</strong> : jusqu’à 60 minutes ;</li>
+<li><strong>Programmes</strong> : 10 programmes automatiques accessibles depuis un panneau tactile numérique ;</li>
+<li><strong>Entretien</strong> : panier antiadhésif amovible compatible lave-vaisselle ;</li>
+<li><strong>Connectivité</strong> : aucune, pas d’application ni de Wi-Fi ;</li>
+<li><strong>Durabilité</strong> : appareil couvert par l’engagement « réparable 15 ans » de Moulinex, qui vise la disponibilité des pièces détachées sur la durée.</li>
+</ul>
 
-<h2>Fiche technique</h2>
-<table>
-<thead><tr><th>Caractéristique</th><th>Détail</th></tr></thead>
-<tbody>
-<tr><td>Capacité</td><td>5 litres</td></tr>
-<tr><td>Puissance</td><td>1 500 W</td></tr>
-<tr><td>Plage de température</td><td>80°C - 200°C</td></tr>
-<tr><td>Dimensions (L x P x H)</td><td>28 x 33,5 x 31,5 cm</td></tr>
-<tr><td>Poids</td><td>4,6 kg</td></tr>
-<tr><td>Programmes prédéfinis</td><td>10 (frites, poulet, poisson, pizza, steak, crevettes, bacon, légumes, gâteau, dessert)</td></tr>
-<tr><td>Connectivité</td><td>Non</td></tr>
-<tr><td>Écran</td><td>Panneau tactile LED</td></tr>
-<tr><td>Revêtement</td><td>Antiadhésif sans PFOA (EZ Clean)</td></tr>
-<tr><td>Minuterie</td><td>Jusqu'à 60 minutes</td></tr>
-<tr><td>Garantie</td><td>2 ans + réparabilité 15 ans (indice de réparabilité 8,2/10)</td></tr>
-<tr><td>Prix constaté</td><td>89,99 €</td></tr>
-</tbody>
-</table>
+<h2>Ce qu’il faut regarder avant d’acheter un airfryer de ce type</h2>
+<h3>La capacité réelle par rapport à votre foyer</h3>
+<p>Un panier de 5 litres suffit pour l’accompagnement de 3 à 4 personnes, ou pour un plat principal à 2 ou 3. Les « 6 portions » annoncées correspondent à des portions modestes : pour des frites croustillantes, il faut éviter de remplir le panier à ras bord, sinon l’air circule mal. Si vous cuisinez souvent pour 5 personnes ou plus, un modèle de 6 litres et plus, ou à double tiroir, sera plus confortable.</p>
+<h3>La température maximale</h3>
+<p>La plupart des airfryers d’entrée de gamme montent à 200 °C. C’est suffisant pour les frites, les légumes rôtis, le poulet ou les nuggets. Les modèles qui montent à 230 °C, comme le Cosori Dual Blaze, apportent un avantage surtout pour saisir les viandes rouges ou obtenir une croûte plus marquée.</p>
+<h3>La simplicité d’usage</h3>
+<p>Un écran tactile avec programmes préréglés convient à la majorité des utilisateurs. Une application connectée n’est utile que si vous aimez suivre des recettes guidées ou lancer la cuisson à distance. Pour beaucoup de foyers, l’absence d’application est au contraire un atout : rien à configurer, rien à mettre à jour.</p>
+<h3>L’entretien et la durabilité</h3>
+<p>Un panier compatible lave-vaisselle et un revêtement antiadhésif de qualité font gagner du temps au quotidien. La disponibilité des pièces détachées compte aussi : un panier usé ou une poignée cassée ne devraient pas condamner tout l’appareil.</p>
 
-<h2>Design et fabrication</h2>
-<p>Le Moulinex Easy Fry Max adopte un design classique en plastique noir mat, sobre et passe-partout. L'appareil est compact (28 x 33,5 cm) et léger (4,6 kg), ce qui le rend facile à manipuler et à ranger. Il ne gagnera pas de prix de design face au Xiaomi ou au Cosori, mais il est parfaitement fonctionnel et s'intègre dans n'importe quelle cuisine sans attirer l'attention.</p>
-<p>La qualité de fabrication est honnête et conforme à ce qu'on attend de Moulinex : robuste sans être luxueux. Le tiroir s'ouvre avec un mécanisme simple et efficace, et le panier amovible est bien conçu. Le revêtement antiadhésif "EZ Clean" est un point fort : il est légèrement texturé pour une meilleure adhérence de l'air chaud et se nettoie très facilement.</p>
-<p>Un détail important qui distingue Moulinex : l'indice de réparabilité de 8,2/10. Moulinex s'engage sur 15 ans de disponibilité des pièces détachées. Dans un monde d'obsolescence programmée, c'est un argument de poids. Si une résistance ou un joint s'use après 5 ans, vous pourrez le remplacer sans jeter l'appareil.</p>
+<h2>Design et prise en main</h2>
+<p>L’Easy Fry Max adopte un format cubique classique, avec un tiroir frontal et un panneau de commande tactile sur le dessus. L’encombrement reste raisonnable pour un 5 litres, ce qui permet de le laisser sur un plan de travail standard ou de le ranger dans un placard haut. La finition est en plastique, sobre et fonctionnelle, sans fioritures.</p>
+<p>Les retours d’acheteurs soulignent surtout la facilité de prise en main : on choisit un programme, on ajuste éventuellement la durée et la température, et l’appareil démarre. Le tiroir s’ouvre et se ferme simplement, et le panier se retire sans effort pour secouer les aliments à mi-cuisson.</p>
 
-<h2>Performance de cuisson</h2>
+<h2>Performances de cuisson d’après les essais et les avis</h2>
 <h3>Frites et pommes de terre</h3>
-<p>Avec 500 g de frites fraîches (bâtonnets de 10 mm) à <strong>200°C pendant 22 minutes</strong> avec un secouage à mi-cuisson, le résultat est bon. Les frites sont dorées et croustillantes, avec une homogénéité correcte. On note une légère différence par rapport aux modèles plus puissants : avec seulement 1 500 W, le préchauffage est plus long (environ 3 minutes) et la cuisson un peu plus lente que sur un Philips 3000 XL ou un Cosori Dual Blaze.</p>
-<p>Les frites surgelées (McCain, 400 g) sont satisfaisantes en 18 minutes à 200°C. Pour les pommes de terre au four (4 demi-pommes de terre) à 190°C pendant 30 minutes, le résultat est honnête avec un extérieur croustillant. Ne ratez pas notre article sur les <a href="/fr/blog/erreurs-courantes-airfryer">erreurs courantes avec un airfryer</a> pour optimiser vos cuissons.</p>
+<p>C’est le terrain de prédilection de l’Easy Fry Max. Les essais publiés et les avis d’acheteurs décrivent des frites dorées et croustillantes, à condition de ne pas surcharger le panier et de le secouer à mi-cuisson. Avec une puissance d’environ 1 500 W, les temps de cuisson sont dans la norme des airfryers de cette catégorie : un peu plus longs que sur certains modèles plus puissants, mais sans écart gênant au quotidien.</p>
+<h3>Poulet, viandes et poissons</h3>
+<p>Les pilons, ailes de poulet, nuggets et filets de poisson panés donnent de bons résultats, avec une peau qui croustille bien. La limite de 200 °C se fait davantage sentir sur les pièces de bœuf : la saisie reste moins marquée qu’à la poêle ou dans un airfryer qui monte plus haut. Pour les viandes, un thermomètre de cuisson reste le moyen le plus sûr de vérifier la cuisson à cœur.</p>
+<h3>Légumes et desserts</h3>
+<p>Les légumes rôtis (courgettes, poivrons, brocolis, pommes de terre en cubes) réussissent bien avec un filet d’huile. Les petits gâteaux, muffins ou fruits rôtis sont possibles dans un moule adapté au panier. Pour des idées, consultez nos <a href="/fr/blog/recettes-legumes-grilles-airfryer">recettes de légumes grillés à l’airfryer</a>.</p>
 
-<h3>Poulet et viandes</h3>
-<p>Des pilons de poulet (4 pièces) à 180°C pendant 28 minutes donnent un résultat convenable : peau dorée et chair cuite (température interne 75°C mesurée). Comme le Philips 3000 XL, la température maximale de 200°C limite la formation de croûte intense sur les viandes. Les ailes de poulet à 200°C pendant 20 minutes sont correctes, avec un croustillant acceptable mais pas spectaculaire.</p>
-<p>Le programme "Steak" est le moins convaincant : à 200°C, un pavé de bœuf de 200 g ne développe pas suffisamment de réaction de Maillard en surface. Les résultats sont comestibles mais pas comparables à une poêle ou à un airfryer montant plus haut en température.</p>
+<h2>Nettoyage et entretien</h2>
+<p>Le panier antiadhésif et sa grille passent au lave-vaisselle, ce que les acheteurs apprécient particulièrement. Un lavage à la main à l’eau chaude savonneuse, avec une éponge non abrasive, prolonge cependant la durée de vie du revêtement. Comme sur tous les airfryers à revêtement antiadhésif, il vaut mieux éviter les ustensiles métalliques et les tampons à récurer. Notre guide sur l’<a href="/fr/blog/entretien-nettoyage-airfryer">entretien et le nettoyage d’un airfryer</a> détaille les bons gestes.</p>
 
-<h3>Légumes</h3>
-<p>Les légumes grillés sont un terrain favorable pour le Easy Fry Max. Un mélange de 400 g (poivrons, courgettes, oignons) à <strong>180°C pendant 14 minutes</strong> donne des résultats plaisants, avec une caramélisation agréable. Les 10 programmes incluent un mode "Légumes" bien calibré qui constitue un bon point de départ pour les débutants.</p>
+<h2>Réparabilité et durabilité</h2>
+<p>C’est un argument distinctif de Moulinex et des marques du groupe SEB : l’Easy Fry Max fait partie des produits couverts par l’engagement « réparable 15 ans ». Concrètement, la marque vise à rendre les pièces détachées disponibles sur une longue durée et à permettre la réparation via son réseau de réparateurs agréés. Pour un appareil utilisé presque tous les jours, c’est un vrai plus face à des modèles sans suivi de pièces clairement communiqué.</p>
+<p>Moulinex met aussi en avant des économies d’énergie par rapport à un four traditionnel, sur la base d’un essai comparatif mené pour la marque. Comme pour tout airfryer, l’économie réelle dépend surtout de la quantité cuisinée et de la fréquence d’usage : un petit volume cuit vite dans un airfryer, alors qu’un four doit chauffer une cavité beaucoup plus grande.</p>
 
-<h2>Facilité d'utilisation</h2>
-<p>C'est la grande force du Moulinex Easy Fry Max : la simplicité absolue. Le panneau tactile LED est minimaliste avec des icônes claires pour les 10 programmes. On appuie sur le programme souhaité, l'appareil préchauffe automatiquement, et c'est parti. Pas d'application, pas de Wi-Fi, pas de compte utilisateur — branchez et cuisinez.</p>
-<p>Les 10 programmes prédéfinis couvrent les usages les plus courants et sont bien calibrés. Le programme "Frites" est particulièrement réussi. Un bip sonore à mi-cuisson rappelle de secouer le panier. Pour les utilisateurs qui découvrent l'airfryer, c'est la simplicité d'utilisation parfaite. Pour éviter les pièges les plus courants, consultez notre guide des <a href="/fr/blog/erreurs-courantes-airfryer">erreurs courantes avec un airfryer</a>.</p>
-<p>Le nettoyage est excellent grâce au revêtement EZ Clean. Le panier et le tiroir passent au lave-vaisselle. Les résidus alimentaires se décollent avec un simple trempage de 5 minutes. C'est l'un des airfryers les plus faciles à nettoyer de notre sélection, comparable au Philips et son design Starfish.</p>
-
-<h2>Consommation énergétique</h2>
-<p>Avec 1 500 W, le Moulinex est parmi les moins gourmands de notre sélection (seul le Xiaomi fait mieux à 1 600 W mais pour une capacité moindre). Pour une session de frites de 22 minutes à 200°C, la consommation mesurée est de <strong>0,46 kWh</strong>. C'est légèrement supérieur au Cosori Dual Blaze (0,44 kWh) en raison du temps de cuisson plus long.</p>
-<p>Sur un mois d'utilisation quotidienne, le coût estimé est d'environ <strong>3,50 euros</strong>, ce qui représente une économie d'environ 65 % par rapport à un four traditionnel. Consultez notre article sur les <a href="/fr/blog/airfryer-economies-energie">économies d'énergie avec un airfryer</a> pour une analyse détaillée.</p>
-
-<h2>Points forts et points faibles</h2>
+<h2>Points forts et limites</h2>
 <h3>Points forts</h3>
 <ul>
-<li><strong>Prix accessible</strong> : 89,99 €, excellent rapport qualité-prix</li>
-<li><strong>Simplicité exemplaire</strong> : 10 programmes, pas de gadgets, utilisation immédiate</li>
-<li><strong>Réparabilité</strong> : indice 8,2/10, pièces détachées 15 ans — un engagement rare</li>
-<li><strong>Revêtement EZ Clean</strong> : nettoyage facilité, antiadhésif efficace</li>
-<li><strong>Marque française de confiance</strong> : Moulinex, SAV accessible en France</li>
-<li><strong>Compacité</strong> : 28 x 33,5 cm, taille raisonnable pour 5L</li>
-<li><strong>10 programmes bien calibrés</strong> : couvrent les usages quotidiens</li>
-<li><strong>Consommation modérée</strong> : 1 500 W, économique</li>
+<li>Utilisation immédiate grâce aux 10 programmes et au panneau tactile ;</li>
+<li>Capacité de 5 litres adaptée à un foyer de 2 à 4 personnes ;</li>
+<li>Panier antiadhésif compatible lave-vaisselle ;</li>
+<li>Engagement de réparabilité sur 15 ans ;</li>
+<li>Format compact pour la capacité ;</li>
+<li>Pas d’application à installer ni de compte à créer.</li>
 </ul>
-<h3>Points faibles</h3>
+<h3>Limites</h3>
 <ul>
-<li><strong>Température max 200°C</strong> : limite les cuissons de viande</li>
-<li><strong>Puissance modeste</strong> : 1 500 W, cuisson plus lente que les modèles premium</li>
-<li><strong>Pas de connectivité</strong> : aucune fonctionnalité smart</li>
-<li><strong>Minuterie 60 min max</strong> : pas de mode déshydratation longue durée</li>
-<li><strong>Design basique</strong> : plastique noir classique, pas de prime esthétique</li>
-<li><strong>Capacité moyenne</strong> : 5L, juste pour 4 personnes en une fournée</li>
+<li>Température maximale de 200 °C, moins adaptée à la saisie des viandes rouges ;</li>
+<li>Un seul tiroir : impossible de cuire deux aliments à des températures différentes en même temps ;</li>
+<li>Pas de hublot pour surveiller la cuisson ;</li>
+<li>Pas de fonctions connectées ;</li>
+<li>Quelques acheteurs mentionnent un bruit de ventilation perceptible, classique sur ce type d’appareil.</li>
 </ul>
 
-<h2>Score Nura détaillé</h2>
+<h2>Face aux alternatives</h2>
+<h3>Cosori Dual Blaze 6,4 L</h3>
+<p>Le <a href="/fr/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a> chauffe par le haut et par le bas, monte jusqu’à 230 °C et se pilote aussi depuis une application. Il est plus polyvalent et plus spacieux, mais aussi plus cher et un peu plus complexe. À privilégier si la qualité de saisie et la capacité comptent plus que la simplicité.</p>
+<h3>Philips Airfryer Série 3000 XL 6,2 L</h3>
+<p>Le <a href="/fr/blog/test-philips-airfryer-3000-xl">Philips Série 3000 XL</a> offre un panier plus grand pour les familles de 4 personnes et la technologie de circulation d’air rapide de la marque. C’est l’alternative logique si 5 litres vous semblent justes.</p>
+<h3>Xiaomi Smart Air Fryer Pro 4L</h3>
+<p>Le <a href="/fr/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro 4L</a> est plus petit mais connecté : application, recettes guidées et lancement à distance. Il convient aux couples et aux personnes seules qui aiment les fonctions intelligentes.</p>
+<h3>Cosori Lite 3,8 L</h3>
+<p>Le Cosori Lite 3,8 L est encore plus compact, monte jusqu’à 230 °C et se pilote depuis une application. Il convient à une personne seule, à un couple ou à une petite cuisine, mais devient vite limité pour une famille.</p>
+
+<h2>Tableau comparatif</h2>
 <table>
-<thead><tr><th>Critère</th><th>Note</th><th>Commentaire</th></tr></thead>
+<thead><tr><th>Modèle</th><th>Capacité</th><th>Température max</th><th>Connectivité</th><th>Idéal pour</th></tr></thead>
 <tbody>
-<tr><td>Performance de cuisson</td><td>7,5/10</td><td>Bonne sur frites et légumes, limitée sur viandes</td></tr>
-<tr><td>Facilité d'utilisation</td><td>9,5/10</td><td>La plus simple avec le Philips 3000, programmes impeccables</td></tr>
-<tr><td>Design et fabrication</td><td>7,5/10</td><td>Basique mais robuste, réparabilité exceptionnelle</td></tr>
-<tr><td>Polyvalence</td><td>7,5/10</td><td>10 programmes mais 200°C max et pas de déshydratation</td></tr>
-<tr><td>Rapport qualité-prix</td><td>9,5/10</td><td>89,99 € pour cette fiabilité, excellent</td></tr>
-<tr><td>Nettoyage</td><td>9,5/10</td><td>EZ Clean très efficace, lave-vaisselle</td></tr>
-<tr><td>Bruit</td><td>8,0/10</td><td>62 dB, dans la moyenne</td></tr>
-<tr><td><strong>Score Nura global</strong></td><td><strong>8,3/10</strong></td><td><strong>Meilleur airfryer fiable et accessible</strong></td></tr>
+<tr><td><strong>Moulinex Easy Fry Max 5L</strong></td><td>5 L, 1 tiroir</td><td>200 °C</td><td>Non</td><td>Foyers de 2 à 4 personnes qui veulent la simplicité</td></tr>
+<tr><td>Cosori Dual Blaze 6,4 L</td><td>6,4 L, 1 tiroir</td><td>230 °C</td><td>Application</td><td>Saisie des viandes et cuisine polyvalente</td></tr>
+<tr><td>Philips Série 3000 XL 6,2 L</td><td>6,2 L, 1 tiroir</td><td>200 °C</td><td>Non</td><td>Familles de 4 personnes</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 L, 1 tiroir</td><td>200 °C</td><td>Application</td><td>Couples amateurs de fonctions connectées</td></tr>
+<tr><td>Cosori Lite 3,8 L</td><td>3,8 L, 1 tiroir</td><td>230 °C</td><td>Application</td><td>Personnes seules et petites cuisines</td></tr>
 </tbody>
 </table>
 
-<h2>Verdict</h2>
-<p>Le Moulinex Easy Fry Max 5L est <strong>l'airfryer de la raison</strong>. Pas le plus performant, pas le plus beau, pas le plus innovant — mais probablement le plus fiable et le plus durable de notre sélection. Avec sa garantie de réparabilité sur 15 ans, Moulinex fait un choix responsable que nous saluons. C'est l'appareil parfait pour les familles qui veulent un airfryer sans prise de tête, qui fonctionnera encore dans 10 ans.</p>
-<p>À 89,99 euros, il s'adresse à ceux qui privilégient la simplicité et la durabilité plutôt que les fonctionnalités. Si vous voulez un pas de plus en performances sans dépasser 140 euros, le <a href="/fr/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a> offre la connectivité et une meilleure cuisson pour 50 euros de plus. Pour d'autres options économiques, consultez notre sélection des <a href="/fr/blog/meilleur-airfryer-petit-budget">meilleurs airfryers petit budget</a>.</p>
-<p>Retrouvez toutes nos recommandations dans notre <a href="/fr/guides/airfryers">guide complet des meilleurs airfryers 2026</a>.</p>
-
-<h2>La durabilité Moulinex : un avantage concret</h2>
-<p>Moulinex est la seule marque de notre sélection à garantir la disponibilité des pièces de rechange pendant <strong>15 ans</strong> après l'achat. En pratique, cela signifie que si le panier antiadhésif s'use après 5 ans, vous pourrez commander un remplacement officiel. Si l'élément chauffant tombe en panne, un technicien agréé pourra le remplacer. Dans un monde d'obsolescence programmée, c'est un engagement exceptionnel qui justifie le léger surprix de 10 euros face au Xiaomi. Sur 15 ans d'utilisation quotidienne (en supposant une session tous les deux jours), le coût par utilisation tombe à moins de 2 centimes. Difficile à battre.</p>
-
-<h2>Comparaison avec la concurrence</h2>
-<table>
-<thead><tr><th>Modèle</th><th>Prix</th><th>Capacité</th><th>Temp. max</th><th>Garantie pièces</th><th>Score Nura</th></tr></thead>
-<tbody>
-<tr><td><strong>Moulinex Easy Fry Max 5L</strong></td><td>89,99 €</td><td>5L</td><td>200°C</td><td>15 ans</td><td>8,3/10</td></tr>
-<tr><td>Xiaomi Smart Pro 4L</td><td>79,99 €</td><td>4L</td><td>200°C</td><td>Standard 2 ans</td><td>8,0/10</td></tr>
-<tr><td>Philips 3000 XL 6,2L</td><td>119,99 €</td><td>6,2L</td><td>200°C</td><td>Standard 2 ans</td><td>8,7/10</td></tr>
-<tr><td>Cosori Dual Blaze 6,4L</td><td>139,99 €</td><td>6,4L</td><td>230°C</td><td>Standard 2 ans</td><td>8,9/10</td></tr>
-</tbody>
-</table>
-<p>Le Moulinex se distingue par son rapport durabilité/prix. Il est le seul à proposer une garantie long terme sur les pièces. Pour les performances de cuisson pure, le Cosori Dual Blaze est supérieur, mais pour la fiabilité à long terme, le Moulinex est imbattable à son prix.</p>
-
-<h2>Pour qui est-ce le Moulinex Easy Fry Max idéal ?</h2>
+<h2>Erreurs à éviter avec l’Easy Fry Max</h2>
 <ul>
-<li><strong>Familles de 2 à 4 personnes</strong> qui veulent un appareil simple et fiable sans fonctions superflues</li>
-<li><strong>Consommateurs responsables</strong> qui privilégient la durabilité et la réparabilité</li>
-<li><strong>Personnes peu à l'aise avec la technologie</strong> : pas d'application, pas de connexion Wi-Fi, juste un bouton rotatif</li>
-<li><strong>Budgets maîtrisés</strong> : meilleur rapport qualité-prix-durabilité sous 100 euros</li>
-<li><strong>Fidèles Moulinex</strong> qui font confiance à la marque depuis des années et ne veulent pas être dépaysés</li>
+<li><strong>Surcharger le panier</strong> : au-delà de la moitié ou des deux tiers, les frites cuisent à la vapeur et restent molles. Mieux vaut deux fournées.</li>
+<li><strong>Oublier de secouer</strong> : un secouage à mi-cuisson est indispensable pour une coloration homogène.</li>
+<li><strong>Utiliser des ustensiles métalliques</strong> : ils rayent le revêtement antiadhésif.</li>
+<li><strong>Placer l’appareil contre un mur</strong> : laissez de l’espace autour de la sortie d’air chaud, à l’arrière.</li>
+<li><strong>Poser du papier sulfurisé sans aliments dessus pendant le préchauffage</strong> : il peut être aspiré vers la résistance.</li>
 </ul>
+<p>Pour aller plus loin, lisez notre article sur les <a href="/fr/blog/erreurs-courantes-airfryer">erreurs courantes avec un airfryer</a>.</p>
 
-<h2>Verdict final détaillé</h2>
-<p>Le Moulinex Easy Fry Max 5L est un appareil sans surprise — et c'est exactement ce que recherche une grande partie des acheteurs. Il chauffe bien, cuit régulièrement, se nettoie facilement et sera encore fonctionnel dans 10 ans si vous avez besoin de remplacer une pièce. Dans un monde d'appareils jetables, c'est un choix courageux et responsable.</p>
-<p>Sa faiblesse principale est sa limitation à 200°C qui pénalise la saisie des viandes et le croustillant des frites par rapport au Cosori Dual Blaze (230°C). Si la qualité de cuisson est votre priorité absolue, orientez-vous vers ce dernier. Mais si vous cherchez un compagnon de cuisine fiable pour les 10 prochaines années, le Moulinex Easy Fry Max est notre recommandation. Score Nura confirmé : <strong>8,3/10</strong>.</p>`,
+<h2>Sécurité et premières utilisations</h2>
+<p>Avant la première cuisson, lavez le panier et faites fonctionner l’appareil à vide quelques minutes : une légère odeur de neuf est normale au début et disparaît rapidement. Posez l’airfryer sur une surface stable et résistante à la chaleur, loin des rideaux et des placards suspendus. Ne le branchez pas sur une multiprise surchargée, et laissez-le refroidir avant de le nettoyer ou de le ranger.</p>
 
-    en: `<h2>Our Testing Protocol</h2>
-<p>The Moulinex Easy Fry Max 5L was tested for 4 weeks in a family of 2 to 4 people. We conducted 55 cooking sessions across all categories: fresh and frozen fries, whole chicken and pieces, vegetables, fish, quiches and desserts. We specifically tested durability by simulating intensive use: frequent starts and stops, daily dishwasher cleaning, and fatty cooking sessions with mid-cycle cleaning. The 15-year repairability guarantee was verified through official Moulinex channels.</p>
+<h2>Notre verdict</h2>
+<p>Le Moulinex Easy Fry Max 5L est un <strong>choix raisonnable et durable</strong> pour qui veut un airfryer sans complication. Il ne cherche pas à rivaliser avec les modèles les plus polyvalents, mais il fait très bien l’essentiel : frites, poulet, légumes et plats surgelés, avec un nettoyage simple et un engagement de réparabilité rassurant.</p>
+<p>Si vous voulez saisir des viandes ou cuisiner pour une grande tablée, orientez-vous vers le Cosori Dual Blaze ou le Philips Série 3000 XL. Pour comparer d’autres modèles accessibles, consultez notre sélection des <a href="/fr/blog/meilleur-airfryer-petit-budget">meilleurs airfryers petit budget</a>, et retrouvez l’ensemble de nos recommandations dans notre <a href="/fr/guides/airfryers">guide des meilleurs airfryers</a>.</p>`,
 
-<h2>Introduction</h2>
-<p>Moulinex is an institution in France. For over 60 years, the brand has equipped French kitchens with reliable, affordable appliances. The Moulinex Easy Fry Max 5L fits perfectly into this tradition: a simple, effective air fryer at just €89.99. No connected bells and whistles, no dual drawer, no probe — just an appliance that does its job well.</p>
-<p>After 4 weeks of testing, the Moulinex Easy Fry Max earns a Nura score of <strong>8.3/10</strong>. A solid score that rewards its reliability and excellent value for money.</p>
+    en: `<p><strong>The Moulinex Easy Fry Max 5L is a simple, compact and dependable air fryer built for households of 2 to 4 people who want crispy fries, chicken and vegetables without an app or fiddly settings.</strong> It does not chase top-end performance: the temperature tops out at 200 °C and there is only one drawer, but its instant usability, easy cleaning and Moulinex’s repairability commitment make it one of the most sensible picks at the entry level.</p>
+<p>This review is based on the manufacturer’s published specifications, independent assessments from consumer organisations and verified buyer feedback. We then compare it with other models in our selection, such as the Cosori Dual Blaze and the Philips 3000 Series XL, to help you decide whether it really suits the way you cook.</p>
 
-<h2>Technical Specifications</h2>
-<table>
-<thead><tr><th>Feature</th><th>Detail</th></tr></thead>
-<tbody>
-<tr><td>Capacity</td><td>5 litres</td></tr>
-<tr><td>Power</td><td>1,500 W</td></tr>
-<tr><td>Temperature range</td><td>80°C - 200°C</td></tr>
-<tr><td>Dimensions (W x D x H)</td><td>28 x 33.5 x 31.5 cm</td></tr>
-<tr><td>Weight</td><td>4.6 kg</td></tr>
-<tr><td>Preset programmes</td><td>10 (fries, chicken, fish, pizza, steak, shrimp, bacon, vegetables, cake, dessert)</td></tr>
-<tr><td>Connectivity</td><td>None</td></tr>
-<tr><td>Coating</td><td>PFOA-free non-stick (EZ Clean)</td></tr>
-<tr><td>Repairability</td><td>8.2/10 index, 15-year spare parts availability</td></tr>
-<tr><td>Price</td><td>€89.99</td></tr>
-</tbody>
-</table>
-
-<h2>Design and Build Quality</h2>
-<p>The Moulinex Easy Fry Max adopts a classic matte black plastic design — understated and functional. Compact (28 x 33.5 cm) and light (4.6 kg), it is easy to handle and store. Build quality is honest: robust without being luxurious. The EZ Clean non-stick coating is slightly textured for better hot air adhesion and cleans very easily.</p>
-<p>An important distinction: the 8.2/10 repairability index. Moulinex commits to 15 years of spare parts availability — in a world of planned obsolescence, this is a significant selling point.</p>
-
-<h2>Cooking Performance</h2>
-<h3>Fries and Potatoes</h3>
-<p>With 500 g of fresh fries at <strong>200°C for 22 minutes</strong> with a mid-cook shake, results are good. Fries are golden and crispy with decent evenness. At 1,500 W, preheating takes slightly longer (about 3 minutes) and cooking is a bit slower than more powerful models.</p>
-
-<h3>Chicken and Meats</h3>
-<p>Chicken drumsticks (4 pieces) at 180°C for 28 minutes are satisfactory: golden skin, cooked through (75°C internal). Like the Philips 3000, the 200°C max limits crust formation on meats. The Steak programme is least convincing — insufficient Maillard reaction at 200°C.</p>
-
-<h3>Vegetables</h3>
-<p>A 400 g vegetable mix at <strong>180°C for 14 minutes</strong> produces pleasant results with nice caramelisation. The 10 programmes include a well-calibrated Vegetables mode that is a great starting point for beginners. See our <a href="/en/blog/erreurs-courantes-airfryer">common air fryer mistakes</a> guide to optimise your cooking.</p>
-
-<h2>Ease of Use</h2>
-<p>Absolute simplicity is the Easy Fry Max's greatest strength. The LED touch panel has clear icons for 10 programmes. Press the programme, the appliance preheats automatically, and off you go. No app, no Wi-Fi, no user account. The mid-cooking beep reminds you to shake the basket.</p>
-<p>Cleaning is excellent thanks to the EZ Clean coating. Basket and drawer are dishwasher-safe. Food residue comes off with a simple 5-minute soak.</p>
-
-<h2>Energy Consumption</h2>
-<p>At 1,500 W, the Moulinex is among the least power-hungry. For a 22-minute fries session at 200°C: <strong>0.46 kWh</strong>. Monthly cost with daily use: approximately €3.50 — a saving of about 65% versus a traditional oven.</p>
-
-<h2>Pros and Cons</h2>
-<h3>Pros</h3>
+<h2>The Moulinex Easy Fry Max 5L at a glance</h2>
+<p>The Easy Fry Max is Moulinex’s single-drawer air fryer in the lower-middle part of its range. It is sold under several references depending on the colour (for example EZ2458 in black, or the “java” colour versions), all sharing the same core hardware:</p>
 <ul>
-<li><strong>Accessible price</strong>: €89.99, excellent value</li>
-<li><strong>Exemplary simplicity</strong>: 10 programmes, no gadgets, immediate use</li>
-<li><strong>Repairability</strong>: 8.2/10 index, 15-year spare parts — a rare commitment</li>
-<li><strong>EZ Clean coating</strong>: easy cleaning, effective non-stick</li>
-<li><strong>Trusted French brand</strong>: accessible after-sales service</li>
-<li><strong>Compact</strong>: reasonable size for 5L capacity</li>
-<li><strong>Well-calibrated programmes</strong></li>
+<li><strong>Capacity</strong>: 5-litre basket, rated by Moulinex for about 6 portions;</li>
+<li><strong>Power</strong>: around 1,500 W, which is typical for an air fryer of this size;</li>
+<li><strong>Temperature</strong>: adjustable up to 200 °C;</li>
+<li><strong>Timer</strong>: up to 60 minutes;</li>
+<li><strong>Programmes</strong>: 10 automatic programmes on a digital touch panel;</li>
+<li><strong>Cleaning</strong>: removable non-stick basket that is dishwasher safe;</li>
+<li><strong>Connectivity</strong>: none, no app and no Wi-Fi;</li>
+<li><strong>Durability</strong>: covered by Moulinex’s “repairable for 15 years” commitment, which aims to keep spare parts available over the long term.</li>
 </ul>
-<h3>Cons</h3>
+
+<h2>What to check before buying an air fryer like this</h2>
+<h3>Real capacity versus your household</h3>
+<p>A 5-litre basket is enough for side dishes for 3 or 4 people, or a main course for 2 or 3. The “6 portions” figure assumes modest servings: for crispy fries you should avoid filling the basket to the brim, otherwise the air cannot circulate. If you regularly cook for 5 or more, a 6-litre-plus or dual-drawer model will be more comfortable.</p>
+<h3>Maximum temperature</h3>
+<p>Most entry-level air fryers top out at 200 °C. That is plenty for fries, roast vegetables, chicken or nuggets. Models that reach 230 °C, like the Cosori Dual Blaze, mainly help when searing red meat or chasing a deeper crust.</p>
+<h3>Ease of use</h3>
+<p>A touchscreen with presets suits most people. A companion app is only useful if you like guided recipes or starting a cook remotely. For many households, having no app is actually a plus: nothing to set up, nothing to update.</p>
+<h3>Cleaning and durability</h3>
+<p>A dishwasher-safe basket and a good non-stick coating save time every day. Spare-parts availability matters too: a worn basket or broken handle should not mean throwing away the whole appliance.</p>
+
+<h2>Design and handling</h2>
+<p>The Easy Fry Max has a classic cube-like shape with a front drawer and a touch control panel on top. Its footprint is reasonable for a 5-litre unit, so it can live on a standard worktop or go into a cupboard. The finish is plastic, plain and functional, with no frills.</p>
+<p>Buyer feedback mostly highlights how easy it is to get started: pick a programme, adjust time and temperature if needed, and it starts. The drawer opens and closes smoothly, and the basket comes out easily for a mid-cook shake.</p>
+
+<h2>Cooking performance according to assessments and reviews</h2>
+<h3>Fries and potatoes</h3>
+<p>This is where the Easy Fry Max shines. Published assessments and buyer reviews describe golden, crispy fries, as long as the basket is not overloaded and is shaken halfway through. At around 1,500 W, cooking times are in line with this category: slightly longer than some more powerful models, but not in a way you notice day to day.</p>
+<h3>Chicken, meat and fish</h3>
+<p>Drumsticks, wings, nuggets and breaded fish fillets turn out well, with nicely crisp skin. The 200 °C ceiling is more noticeable with beef: the sear is less pronounced than in a pan or in an air fryer that runs hotter. For meat, a cooking thermometer remains the safest way to check it is cooked through.</p>
+<h3>Vegetables and desserts</h3>
+<p>Roast vegetables (courgettes, peppers, broccoli, diced potatoes) work well with a drizzle of oil. Small cakes, muffins or baked fruit are possible in a tin that fits the basket. For ideas, see our <a href="/en/blog/recettes-legumes-grilles-airfryer">air fryer roast vegetable recipes</a>.</p>
+
+<h2>Cleaning and maintenance</h2>
+<p>The non-stick basket and its grid are dishwasher safe, which buyers particularly appreciate. Washing by hand in hot soapy water with a non-abrasive sponge will, however, extend the life of the coating. As with any non-stick air fryer, avoid metal utensils and scouring pads. Our guide to <a href="/en/blog/entretien-nettoyage-airfryer">cleaning and maintaining an air fryer</a> covers the right habits.</p>
+
+<h2>Repairability and durability</h2>
+<p>This is a distinctive argument for Moulinex and the other Groupe SEB brands: the Easy Fry Max is covered by the “repairable for 15 years” commitment. In practice, the brand aims to keep spare parts available for a long period and to enable repairs through its network of approved repairers. For an appliance used almost daily, that is a real advantage over models with no clearly stated parts policy.</p>
+<p>Moulinex also highlights energy savings compared with a conventional oven, based on a comparative trial carried out for the brand. As with any air fryer, real savings depend mostly on how much you cook and how often: a small batch cooks quickly in an air fryer, whereas an oven has to heat a much larger cavity.</p>
+
+<h2>Strengths and limitations</h2>
+<h3>Strengths</h3>
 <ul>
-<li><strong>Max temperature 200°C</strong>: limits meat cooking</li>
-<li><strong>Modest power</strong>: 1,500 W, slower than premium models</li>
-<li><strong>No connectivity</strong>: no smart features</li>
-<li><strong>60 min timer max</strong>: no long dehydration mode</li>
-<li><strong>Basic design</strong>: standard black plastic</li>
+<li>Instant usability thanks to 10 programmes and a touch panel;</li>
+<li>5-litre capacity suited to a household of 2 to 4;</li>
+<li>Dishwasher-safe non-stick basket;</li>
+<li>15-year repairability commitment;</li>
+<li>Compact for its capacity;</li>
+<li>No app to install and no account to create.</li>
 </ul>
-
-<h2>Detailed Nura Score</h2>
-<table>
-<thead><tr><th>Criterion</th><th>Score</th><th>Comment</th></tr></thead>
-<tbody>
-<tr><td>Cooking performance</td><td>7.5/10</td><td>Good for fries and veg, limited for meats</td></tr>
-<tr><td>Ease of use</td><td>9.5/10</td><td>Simplest alongside Philips 3000</td></tr>
-<tr><td>Design and build</td><td>7.5/10</td><td>Basic but robust, exceptional repairability</td></tr>
-<tr><td>Versatility</td><td>7.5/10</td><td>10 programmes but 200°C max, no dehydration</td></tr>
-<tr><td>Value for money</td><td>9.5/10</td><td>€89.99 for this reliability, excellent</td></tr>
-<tr><td>Cleaning</td><td>9.5/10</td><td>EZ Clean very effective, dishwasher-safe</td></tr>
-<tr><td>Noise</td><td>8.0/10</td><td>62 dB, average</td></tr>
-<tr><td><strong>Overall Nura Score</strong></td><td><strong>8.3/10</strong></td><td><strong>Most reliable and accessible air fryer</strong></td></tr>
-</tbody>
-</table>
-
-<h2>Verdict</h2>
-<p>The Moulinex Easy Fry Max 5L is <strong>the sensible air fryer</strong>. Not the most powerful, not the prettiest, not the most innovative — but probably the most reliable and durable in our selection. Perfect for families wanting a fuss-free air fryer that will still work in 10 years.</p>
-<p>For a step up in performance, the <a href="/en/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a> offers connectivity and better cooking for €50 more. More budget options in our <a href="/en/blog/meilleur-airfryer-petit-budget">best budget air fryers</a>. All picks in our <a href="/en/guides/airfryers">complete guide 2026</a>.</p>
-
-<h2>Moulinex Durability: A Concrete Advantage</h2>
-<p>Moulinex is the only brand in our selection to guarantee spare parts availability for <strong>15 years</strong> after purchase. In practice, if the non-stick basket wears out after 5 years, you can order an official replacement. If the heating element fails, an approved technician can replace it. In a world of planned obsolescence, this is an exceptional commitment. Over 15 years of daily use (assuming one session every two days), the cost per use drops below 2 cents. Hard to beat.</p>
-
-<h2>Comparison with the Competition</h2>
-<table>
-<thead><tr><th>Model</th><th>Price</th><th>Capacity</th><th>Max Temp</th><th>Parts Guarantee</th><th>Nura Score</th></tr></thead>
-<tbody>
-<tr><td><strong>Moulinex Easy Fry Max 5L</strong></td><td>€89.99</td><td>5L</td><td>200°C</td><td>15 years</td><td>8.3/10</td></tr>
-<tr><td>Xiaomi Smart Pro 4L</td><td>€79.99</td><td>4L</td><td>200°C</td><td>Standard 2 years</td><td>8.0/10</td></tr>
-<tr><td>Philips 3000 XL 6.2L</td><td>€119.99</td><td>6.2L</td><td>200°C</td><td>Standard 2 years</td><td>8.7/10</td></tr>
-<tr><td>Cosori Dual Blaze 6.4L</td><td>€139.99</td><td>6.4L</td><td>230°C</td><td>Standard 2 years</td><td>8.9/10</td></tr>
-</tbody>
-</table>
-<p>The Moulinex stands out for its durability-to-price ratio. It is the only one to offer long-term parts availability. For pure cooking performance, the Cosori Dual Blaze is superior, but for long-term reliability, the Moulinex is unbeatable at its price.</p>
-
-<h2>Who Is the Moulinex Easy Fry Max Ideal For?</h2>
+<h3>Limitations</h3>
 <ul>
-<li><strong>Families of 2-4 people</strong> who want a simple, reliable appliance without unnecessary features</li>
-<li><strong>Responsible consumers</strong> who prioritise durability and repairability</li>
-<li><strong>People not at ease with technology</strong>: no app, no Wi-Fi, just a rotary dial</li>
-<li><strong>Budget-conscious buyers</strong>: best value-for-money-durability ratio under €100</li>
-<li><strong>Moulinex loyalists</strong> who have trusted the brand for years</li>
+<li>200 °C maximum, less suited to searing red meat;</li>
+<li>Single drawer: no cooking two foods at different temperatures at once;</li>
+<li>No viewing window;</li>
+<li>No smart features;</li>
+<li>Some buyers mention audible fan noise, which is common on this type of appliance.</li>
 </ul>
 
-<h2>Detailed Final Verdict</h2>
-<p>The Moulinex Easy Fry Max 5L is an appliance without surprises — and that is exactly what a large segment of buyers seeks. It heats well, cooks consistently, cleans easily, and will still be repairable in 10 years. In a world of disposable appliances, this is a brave and responsible choice.</p>
-<p>Its main weakness is the 200°C limit which penalises meat searing and fries crispiness compared to the Cosori Dual Blaze (230°C). If cooking quality is your absolute priority, opt for the Cosori. But if you want a reliable kitchen companion for the next 10 years, the Moulinex Easy Fry Max is our recommendation. Confirmed Nura Score: <strong>8.3/10</strong>.</p>`,
+<h2>How it compares with the alternatives</h2>
+<h3>Cosori Dual Blaze 6.4L</h3>
+<p>The <a href="/en/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a> heats from both top and bottom, reaches 230 °C and can also be controlled from an app. It is more versatile and roomier, but also pricier and a little more complex. Choose it if searing quality and capacity matter more than simplicity.</p>
+<h3>Philips Airfryer 3000 Series XL 6.2L</h3>
+<p>The <a href="/en/blog/test-philips-airfryer-3000-xl">Philips 3000 Series XL</a> offers a larger basket for families of four and the brand’s rapid air circulation technology. It is the logical alternative if 5 litres feels tight.</p>
+<h3>Xiaomi Smart Air Fryer Pro 4L</h3>
+<p>The <a href="/en/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro 4L</a> is smaller but connected: app control, guided recipes and remote start. It suits couples and single people who enjoy smart features.</p>
+<h3>Cosori Lite 3.8L</h3>
+<p>The Cosori Lite 3.8L is even more compact, reaches 230 °C and can be controlled from an app. It suits a single person, a couple or a small kitchen, but quickly becomes limiting for a family.</p>
 
-    de: `<h2>Unser Testprotokoll</h2>
-<p>Der Moulinex Easy Fry Max 5L wurde 4 Wochen lang in einer Familie von 2 bis 4 Personen getestet. Wir führten 55 Garsessions in allen Kategorien durch: frische und tiefgefrorene Pommes, ganzes Hähnchen und Teile, Gemüse, Fisch, Quiches und Desserts. Die 15-jährige Reparierbarkeitsgarantie wurde über offizielle Moulinex-Kanäle verifiziert.</p>
-
-<h2>Einleitung</h2>
-<p>Moulinex ist eine Institution in Frankreich. Seit über 60 Jahren stattet die Marke französische Küchen mit zuverlässigen, erschwinglichen Geräten aus. Der Moulinex Easy Fry Max 5L passt perfekt in diese Tradition: eine einfache, effektive Heißluftfritteuse für nur 89,99 Euro. Mit einem Nura-Score von <strong>8,3/10</strong> belohnt er Zuverlässigkeit und Preis-Leistung.</p>
-
-<h2>Technische Daten</h2>
+<h2>Comparison table</h2>
 <table>
-<thead><tr><th>Merkmal</th><th>Detail</th></tr></thead>
+<thead><tr><th>Model</th><th>Capacity</th><th>Max temperature</th><th>Connectivity</th><th>Best for</th></tr></thead>
 <tbody>
-<tr><td>Kapazität</td><td>5 Liter</td></tr>
-<tr><td>Leistung</td><td>1.500 W</td></tr>
-<tr><td>Temperaturbereich</td><td>80°C - 200°C</td></tr>
-<tr><td>Abmessungen</td><td>28 x 33,5 x 31,5 cm</td></tr>
-<tr><td>Gewicht</td><td>4,6 kg</td></tr>
-<tr><td>Programme</td><td>10 (Pommes, Hähnchen, Fisch, Pizza, Steak, Garnelen, Bacon, Gemüse, Kuchen, Dessert)</td></tr>
-<tr><td>Beschichtung</td><td>PFOA-freie Antihaftbeschichtung (EZ Clean)</td></tr>
-<tr><td>Reparierbarkeit</td><td>8,2/10, 15 Jahre Ersatzteilversorgung</td></tr>
-<tr><td>Preis</td><td>89,99 €</td></tr>
+<tr><td><strong>Moulinex Easy Fry Max 5L</strong></td><td>5 L, 1 drawer</td><td>200 °C</td><td>No</td><td>Households of 2 to 4 who want simplicity</td></tr>
+<tr><td>Cosori Dual Blaze 6.4L</td><td>6.4 L, 1 drawer</td><td>230 °C</td><td>App</td><td>Searing meat and versatile cooking</td></tr>
+<tr><td>Philips 3000 Series XL 6.2L</td><td>6.2 L, 1 drawer</td><td>200 °C</td><td>No</td><td>Families of four</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 L, 1 drawer</td><td>200 °C</td><td>App</td><td>Couples who like smart features</td></tr>
+<tr><td>Cosori Lite 3.8L</td><td>3.8 L, 1 drawer</td><td>230 °C</td><td>App</td><td>Single people and small kitchens</td></tr>
 </tbody>
 </table>
 
-<h2>Design und Verarbeitung</h2>
-<p>Klassisches mattschwarzes Design — schlicht und funktional. Kompakt (28 x 33,5 cm), leicht (4,6 kg). Die EZ-Clean-Beschichtung ist leicht texturiert und lässt sich sehr einfach reinigen. Herausragend: der Reparierbarkeitsindex von 8,2/10 mit 15 Jahren Ersatzteilgarantie.</p>
+<h2>Mistakes to avoid with the Easy Fry Max</h2>
+<ul>
+<li><strong>Overfilling the basket</strong>: beyond half to two-thirds full, fries steam and stay soft. Two batches are better.</li>
+<li><strong>Forgetting to shake</strong>: a mid-cook shake is essential for even browning.</li>
+<li><strong>Using metal utensils</strong>: they scratch the non-stick coating.</li>
+<li><strong>Pushing it against a wall</strong>: leave space around the hot-air outlet at the back.</li>
+<li><strong>Preheating with empty baking paper</strong>: it can be sucked up towards the heating element.</li>
+</ul>
+<p>For more, read our article on <a href="/en/blog/erreurs-courantes-airfryer">common air fryer mistakes</a>.</p>
 
-<h2>Kochleistung</h2>
+<h2>Safety and first use</h2>
+<p>Before the first cook, wash the basket and run the appliance empty for a few minutes: a slight new-appliance smell is normal at first and fades quickly. Place the air fryer on a stable, heat-resistant surface, away from curtains and wall cupboards. Do not plug it into an overloaded power strip, and let it cool down before cleaning or storing it.</p>
+
+<h2>Our verdict</h2>
+<p>The Moulinex Easy Fry Max 5L is a <strong>sensible, durable choice</strong> for anyone who wants a no-fuss air fryer. It does not try to compete with the most versatile models, but it handles the essentials very well: fries, chicken, vegetables and frozen food, with simple cleaning and a reassuring repairability commitment.</p>
+<p>If you want to sear meat or cook for a crowd, look at the Cosori Dual Blaze or the Philips 3000 Series XL. To compare other affordable models, see our pick of the <a href="/en/blog/meilleur-airfryer-petit-budget">best budget air fryers</a>, and find all our recommendations in our <a href="/en/guides/airfryers">guide to the best air fryers</a>.</p>`,
+
+    de: `<p><strong>Die Moulinex Easy Fry Max 5L ist eine einfache, kompakte und zuverlässige Heißluftfritteuse für Haushalte mit 2 bis 4 Personen, die knusprige Pommes, Hähnchen und Gemüse ohne App und ohne komplizierte Einstellungen möchten.</strong> Auf Höchstleistung ist sie nicht ausgelegt: Die Temperatur endet bei 200 °C, und es gibt nur eine Schublade. Doch die sofortige Bedienbarkeit, die leichte Reinigung und das Reparierbarkeitsversprechen von Moulinex machen sie zu einer der vernünftigsten Optionen im Einstiegssegment.</p>
+<p>Diese Bewertung stützt sich auf die Herstellerangaben, auf unabhängige Prüfungen von Verbraucherorganisationen und auf Erfahrungen verifizierter Käufer. Anschließend vergleichen wir sie mit anderen Modellen unserer Auswahl, etwa der Cosori Dual Blaze oder der Philips Serie 3000 XL, damit Sie einschätzen können, ob sie wirklich zu Ihrer Küche passt.</p>
+
+<h2>Die Moulinex Easy Fry Max 5L im Überblick</h2>
+<p>Die Easy Fry Max ist das Einzelschubladen-Modell von Moulinex im unteren Mittelfeld der Produktpalette. Sie wird je nach Farbe unter mehreren Referenzen verkauft (zum Beispiel EZ2458 in Schwarz oder Varianten im Farbton „Java“), technisch sind sie identisch:</p>
+<ul>
+<li><strong>Fassungsvermögen</strong>: 5-Liter-Korb, laut Moulinex für etwa 6 Portionen;</li>
+<li><strong>Leistung</strong>: rund 1.500 W, üblich für eine Heißluftfritteuse dieser Größe;</li>
+<li><strong>Temperatur</strong>: einstellbar bis 200 °C;</li>
+<li><strong>Timer</strong>: bis 60 Minuten;</li>
+<li><strong>Programme</strong>: 10 Automatikprogramme über ein digitales Touch-Bedienfeld;</li>
+<li><strong>Reinigung</strong>: herausnehmbarer, antihaftbeschichteter Korb, spülmaschinenfest;</li>
+<li><strong>Konnektivität</strong>: keine, weder App noch WLAN;</li>
+<li><strong>Langlebigkeit</strong>: abgedeckt durch das Moulinex-Versprechen „15 Jahre reparierbar“, das die Verfügbarkeit von Ersatzteilen langfristig sichern soll.</li>
+</ul>
+
+<h2>Worauf Sie vor dem Kauf achten sollten</h2>
+<h3>Das tatsächliche Fassungsvermögen für Ihren Haushalt</h3>
+<p>Ein 5-Liter-Korb reicht für Beilagen für 3 bis 4 Personen oder ein Hauptgericht für 2 bis 3. Die „6 Portionen“ gehen von kleinen Portionen aus: Für knusprige Pommes sollte der Korb nicht randvoll sein, sonst zirkuliert die Luft schlecht. Wer regelmäßig für 5 oder mehr Personen kocht, ist mit einem Modell ab 6 Litern oder mit zwei Schubladen besser bedient.</p>
+<h3>Die Höchsttemperatur</h3>
+<p>Die meisten Einstiegsgeräte erreichen 200 °C. Das genügt für Pommes, Ofengemüse, Hähnchen oder Nuggets. Modelle mit 230 °C wie die Cosori Dual Blaze bringen vor allem beim Anbraten von rotem Fleisch oder für eine kräftigere Kruste einen Vorteil.</p>
+<h3>Die Bedienung</h3>
+<p>Ein Touchscreen mit Automatikprogrammen reicht den meisten Nutzern. Eine App lohnt sich nur, wenn Sie geführte Rezepte mögen oder den Garvorgang aus der Ferne starten wollen. Für viele Haushalte ist der Verzicht auf eine App sogar ein Plus: nichts einzurichten, nichts zu aktualisieren.</p>
+<h3>Reinigung und Langlebigkeit</h3>
+<p>Ein spülmaschinenfester Korb und eine gute Antihaftbeschichtung sparen im Alltag Zeit. Auch die Ersatzteilversorgung zählt: Ein abgenutzter Korb oder ein gebrochener Griff sollte nicht das Ende des ganzen Geräts bedeuten.</p>
+
+<h2>Design und Handhabung</h2>
+<p>Die Easy Fry Max hat eine klassische, würfelartige Form mit Frontschublade und Touch-Bedienfeld auf der Oberseite. Für ein 5-Liter-Gerät ist der Platzbedarf moderat, sodass sie auf einer normalen Arbeitsfläche stehen oder im Schrank verstaut werden kann. Das Gehäuse aus Kunststoff ist schlicht und funktional.</p>
+<p>Käufer heben vor allem den einfachen Einstieg hervor: Programm wählen, bei Bedarf Zeit und Temperatur anpassen, fertig. Die Schublade lässt sich leicht öffnen und schließen, und der Korb ist zum Schütteln in der Mitte der Garzeit schnell herausgenommen.</p>
+
+<h2>Garergebnisse laut Prüfungen und Erfahrungen</h2>
 <h3>Pommes und Kartoffeln</h3>
-<p>500 g frische Pommes bei <strong>200°C für 22 Minuten</strong>: gut, goldbraun und knusprig. Mit 1.500 W dauert das Vorheizen etwas länger (~3 Min.) und die Garung ist langsamer als bei leistungsstärkeren Modellen.</p>
+<p>Hier fühlt sich die Easy Fry Max am wohlsten. Veröffentlichte Prüfungen und Käufererfahrungen beschreiben goldbraune, knusprige Pommes, sofern der Korb nicht überladen und zur Hälfte der Garzeit geschüttelt wird. Mit rund 1.500 W liegen die Garzeiten im Rahmen dieser Klasse: etwas länger als bei manchen stärkeren Geräten, im Alltag aber kaum spürbar.</p>
+<h3>Hähnchen, Fleisch und Fisch</h3>
+<p>Unterschenkel, Flügel, Nuggets und panierte Fischfilets gelingen gut, die Haut wird schön knusprig. Die 200-°C-Grenze macht sich eher bei Rindfleisch bemerkbar: Die Kruste fällt schwächer aus als in der Pfanne oder in einer heißeren Heißluftfritteuse. Bei Fleisch ist ein Küchenthermometer weiterhin der sicherste Weg, die Kerntemperatur zu prüfen.</p>
+<h3>Gemüse und Desserts</h3>
+<p>Ofengemüse (Zucchini, Paprika, Brokkoli, Kartoffelwürfel) gelingt mit etwas Öl gut. Kleine Kuchen, Muffins oder gebackenes Obst sind in einer passenden Form möglich. Ideen finden Sie in unseren <a href="/de/blog/recettes-legumes-grilles-airfryer">Rezepten für gegrilltes Gemüse aus der Heißluftfritteuse</a>.</p>
 
-<h3>Hähnchen und Fleisch</h3>
-<p>Hähnchenschenkel (4 Stück) bei 180°C für 28 Minuten: zufriedenstellend, goldene Haut (75°C intern). Wie beim Philips 3000 begrenzen die 200°C die Krustenbildung. Tipps zur Optimierung in unserem <a href="/de/blog/erreurs-courantes-airfryer">Artikel über häufige Airfryer-Fehler</a>.</p>
+<h2>Reinigung und Pflege</h2>
+<p>Der antihaftbeschichtete Korb und sein Gitter sind spülmaschinenfest, was Käufer besonders schätzen. Die Reinigung von Hand mit heißem Spülwasser und einem nicht scheuernden Schwamm verlängert jedoch die Lebensdauer der Beschichtung. Wie bei jeder beschichteten Heißluftfritteuse sollten Sie Metallutensilien und Scheuerschwämme meiden. Unser Ratgeber zur <a href="/de/blog/entretien-nettoyage-airfryer">Reinigung und Pflege einer Heißluftfritteuse</a> erklärt die richtigen Handgriffe.</p>
 
-<h3>Gemüse</h3>
-<p>400 g Gemüsemischung bei <strong>180°C für 14 Minuten</strong>: angenehme Ergebnisse mit schöner Karamellisierung. Das Gemüse-Programm ist gut kalibriert.</p>
-
-<h2>Bedienungsfreundlichkeit</h2>
-<p>Absolute Einfachheit: LED-Panel mit 10 klaren Programmen. Drücken und los. Kein WLAN, keine App. Der Signalton zur Halbzeit erinnert ans Schütteln. Reinigung dank EZ Clean hervorragend — Korb und Schublade spülmaschinenfest.</p>
-
-<h2>Energieverbrauch</h2>
-<p>Mit 1.500 W sehr sparsam: <strong>0,46 kWh</strong> für 22 Minuten Pommes. Monatlich ca. 3,50 €, 65 % Ersparnis gegenüber dem Backofen.</p>
+<h2>Reparierbarkeit und Langlebigkeit</h2>
+<p>Das ist ein Alleinstellungsmerkmal von Moulinex und den anderen Marken der Groupe SEB: Die Easy Fry Max fällt unter das Versprechen „15 Jahre reparierbar“. Konkret will die Marke Ersatzteile über einen langen Zeitraum verfügbar halten und Reparaturen über ihr Netz zugelassener Werkstätten ermöglichen. Für ein fast täglich genutztes Gerät ist das ein echter Vorteil gegenüber Modellen ohne klar kommunizierte Ersatzteilpolitik.</p>
+<p>Moulinex wirbt außerdem mit Energieeinsparungen gegenüber einem klassischen Backofen, gestützt auf einen im Auftrag der Marke durchgeführten Vergleich. Wie bei jeder Heißluftfritteuse hängt die tatsächliche Ersparnis vor allem von Menge und Häufigkeit ab: Kleine Mengen garen in der Heißluftfritteuse schnell, während ein Backofen einen viel größeren Garraum aufheizen muss.</p>
 
 <h2>Stärken und Schwächen</h2>
 <h3>Stärken</h3>
 <ul>
-<li><strong>Zugänglicher Preis</strong>: 89,99 €</li>
-<li><strong>Vorbildliche Einfachheit</strong>: 10 Programme, sofort nutzbar</li>
-<li><strong>Reparierbarkeit</strong>: 8,2/10, 15 Jahre Ersatzteile</li>
-<li><strong>EZ Clean Beschichtung</strong>: hervorragende Reinigung</li>
-<li><strong>Kompakt</strong>: passende Größe für 5L</li>
+<li>Sofort einsatzbereit dank 10 Programmen und Touch-Bedienfeld;</li>
+<li>5 Liter Fassungsvermögen, passend für 2 bis 4 Personen;</li>
+<li>Spülmaschinenfester Antihaftkorb;</li>
+<li>15-jähriges Reparierbarkeitsversprechen;</li>
+<li>Kompakt im Verhältnis zur Kapazität;</li>
+<li>Keine App, kein Benutzerkonto nötig.</li>
 </ul>
 <h3>Schwächen</h3>
 <ul>
-<li><strong>Max. 200°C</strong>: begrenzt Fleischzubereitung</li>
-<li><strong>Bescheidene Leistung</strong>: 1.500 W, langsamere Garung</li>
-<li><strong>Keine Konnektivität</strong></li>
-<li><strong>Timer max. 60 Min.</strong>: kein Dörrmodus</li>
-<li><strong>Schlichtes Design</strong></li>
+<li>Maximal 200 °C, weniger geeignet zum scharfen Anbraten von rotem Fleisch;</li>
+<li>Nur eine Schublade: keine zwei Speisen gleichzeitig bei unterschiedlichen Temperaturen;</li>
+<li>Kein Sichtfenster;</li>
+<li>Keine smarten Funktionen;</li>
+<li>Einige Käufer erwähnen ein hörbares Lüftergeräusch, wie bei dieser Geräteart üblich.</li>
 </ul>
 
-<h2>Detaillierter Nura-Score</h2>
+<h2>Im Vergleich zu den Alternativen</h2>
+<h3>Cosori Dual Blaze 6,4 L</h3>
+<p>Die <a href="/de/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a> heizt von oben und unten, erreicht 230 °C und lässt sich auch per App steuern. Sie ist vielseitiger und geräumiger, aber auch teurer und etwas komplexer. Die richtige Wahl, wenn Bräunung und Kapazität wichtiger sind als Einfachheit.</p>
+<h3>Philips Airfryer Serie 3000 XL 6,2 L</h3>
+<p>Die <a href="/de/blog/test-philips-airfryer-3000-xl">Philips Serie 3000 XL</a> bietet einen größeren Korb für vierköpfige Familien und die schnelle Luftzirkulation der Marke. Die logische Alternative, wenn 5 Liter knapp erscheinen.</p>
+<h3>Xiaomi Smart Air Fryer Pro 4L</h3>
+<p>Die <a href="/de/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro 4L</a> ist kleiner, dafür vernetzt: App-Steuerung, geführte Rezepte und Fernstart. Sie passt zu Paaren und Singles, die smarte Funktionen mögen.</p>
+<h3>Cosori Lite 3,8 L</h3>
+<p>Die Cosori Lite 3,8 L ist noch kompakter, erreicht 230 °C und lässt sich per App steuern. Sie eignet sich für Singles, Paare oder kleine Küchen, stößt bei Familien aber schnell an Grenzen.</p>
+
+<h2>Vergleichstabelle</h2>
 <table>
-<thead><tr><th>Kriterium</th><th>Note</th><th>Kommentar</th></tr></thead>
+<thead><tr><th>Modell</th><th>Fassungsvermögen</th><th>Max. Temperatur</th><th>Konnektivität</th><th>Ideal für</th></tr></thead>
 <tbody>
-<tr><td>Kochleistung</td><td>7,5/10</td><td>Gut für Pommes und Gemüse, begrenzt bei Fleisch</td></tr>
-<tr><td>Bedienung</td><td>9,5/10</td><td>Einfachste neben Philips 3000</td></tr>
-<tr><td>Design</td><td>7,5/10</td><td>Schlicht aber robust, top Reparierbarkeit</td></tr>
-<tr><td>Vielseitigkeit</td><td>7,5/10</td><td>10 Programme aber 200°C max</td></tr>
-<tr><td>Preis-Leistung</td><td>9,5/10</td><td>89,99 € für diese Zuverlässigkeit</td></tr>
-<tr><td>Reinigung</td><td>9,5/10</td><td>EZ Clean sehr effektiv</td></tr>
-<tr><td>Lautstärke</td><td>8,0/10</td><td>62 dB, Durchschnitt</td></tr>
-<tr><td><strong>Nura-Gesamtscore</strong></td><td><strong>8,3/10</strong></td><td><strong>Zuverlässigste und zugänglichste</strong></td></tr>
+<tr><td><strong>Moulinex Easy Fry Max 5L</strong></td><td>5 L, 1 Schublade</td><td>200 °C</td><td>Nein</td><td>Haushalte mit 2 bis 4 Personen, die es einfach mögen</td></tr>
+<tr><td>Cosori Dual Blaze 6,4 L</td><td>6,4 L, 1 Schublade</td><td>230 °C</td><td>App</td><td>Anbraten von Fleisch und vielseitiges Kochen</td></tr>
+<tr><td>Philips Serie 3000 XL 6,2 L</td><td>6,2 L, 1 Schublade</td><td>200 °C</td><td>Nein</td><td>Vierköpfige Familien</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 L, 1 Schublade</td><td>200 °C</td><td>App</td><td>Paare mit Faible für smarte Funktionen</td></tr>
+<tr><td>Cosori Lite 3,8 L</td><td>3,8 L, 1 Schublade</td><td>230 °C</td><td>App</td><td>Singles und kleine Küchen</td></tr>
 </tbody>
 </table>
 
-<h2>Fazit</h2>
-<p>Der Moulinex Easy Fry Max 5L ist <strong>die vernünftige Wahl</strong>. Perfekt für Familien, die eine unkomplizierte Fritteuse wollen. Für mehr Leistung: <a href="/de/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a> für 50 € mehr. Budget-Optionen in unseren <a href="/de/blog/meilleur-airfryer-petit-budget">besten günstigen Airfryers</a>. Alles im <a href="/de/guides/airfryers">Ratgeber 2026</a>.</p>
-
-<h2>Moulinex Langlebigkeit: Ein konkreter Vorteil</h2>
-<p>Moulinex ist die einzige Marke in unserer Auswahl, die die Verfügbarkeit von Ersatzteilen für <strong>15 Jahre</strong> nach dem Kauf garantiert. Wenn der Antihaftkorb nach 5 Jahren verschleißt, können Sie offiziellen Ersatz bestellen. Wenn das Heizelement ausfällt, kann ein zugelassener Techniker es ersetzen. In einer Welt geplanter Obsoleszenz ist das außergewöhnlich. Über 15 Jahre täglicher Nutzung sinken die Kosten pro Nutzung auf unter 2 Cent.</p>
-
-<h2>Vergleich mit der Konkurrenz</h2>
-<table>
-<thead><tr><th>Modell</th><th>Preis</th><th>Kapazität</th><th>Max. Temp.</th><th>Teile-Garantie</th><th>Nura-Score</th></tr></thead>
-<tbody>
-<tr><td><strong>Moulinex Easy Fry Max 5L</strong></td><td>89,99 €</td><td>5L</td><td>200°C</td><td>15 Jahre</td><td>8,3/10</td></tr>
-<tr><td>Xiaomi Smart Pro 4L</td><td>79,99 €</td><td>4L</td><td>200°C</td><td>Standard 2 Jahre</td><td>8,0/10</td></tr>
-<tr><td>Philips 3000 XL 6,2L</td><td>119,99 €</td><td>6,2L</td><td>200°C</td><td>Standard 2 Jahre</td><td>8,7/10</td></tr>
-<tr><td>Cosori Dual Blaze 6,4L</td><td>139,99 €</td><td>6,4L</td><td>230°C</td><td>Standard 2 Jahre</td><td>8,9/10</td></tr>
-</tbody>
-</table>
-
-<h2>Für wen ist der Moulinex Easy Fry Max ideal?</h2>
+<h2>Fehler, die Sie mit der Easy Fry Max vermeiden sollten</h2>
 <ul>
-<li><strong>Familien von 2-4 Personen</strong> die ein einfaches, zuverlässiges Gerät ohne unnötige Funktionen möchten</li>
-<li><strong>Umweltbewusste Verbraucher</strong> die Langlebigkeit und Reparierbarkeit priorisieren</li>
-<li><strong>Technisch weniger affine Nutzer</strong>: keine App, kein Wi-Fi, nur ein Drehregler</li>
-<li><strong>Budgetbewusste Käufer</strong>: bestes Preis-Leistungs-Langlebigkeits-Verhältnis unter 100 €</li>
+<li><strong>Den Korb überladen</strong>: Ab halb bis zwei Drittel voll dämpfen die Pommes und bleiben weich. Lieber zwei Durchgänge.</li>
+<li><strong>Das Schütteln vergessen</strong>: Einmal zur Hälfte der Garzeit schütteln sorgt für gleichmäßige Bräunung.</li>
+<li><strong>Metallutensilien verwenden</strong>: Sie zerkratzen die Antihaftbeschichtung.</li>
+<li><strong>Das Gerät an die Wand schieben</strong>: Lassen Sie Platz um den Heißluftauslass auf der Rückseite.</li>
+<li><strong>Leeres Backpapier beim Vorheizen</strong>: Es kann zum Heizelement gesaugt werden.</li>
+</ul>
+<p>Mehr dazu in unserem Artikel über <a href="/de/blog/erreurs-courantes-airfryer">häufige Fehler mit der Heißluftfritteuse</a>.</p>
+
+<h2>Sicherheit und erste Inbetriebnahme</h2>
+<p>Waschen Sie vor dem ersten Garen den Korb und lassen Sie das Gerät einige Minuten leer laufen: Ein leichter Neugeruch ist anfangs normal und verschwindet schnell. Stellen Sie die Heißluftfritteuse auf eine stabile, hitzebeständige Fläche, fern von Vorhängen und Hängeschränken. Schließen Sie sie nicht an eine überlastete Mehrfachsteckdose an und lassen Sie sie vor dem Reinigen oder Verstauen abkühlen.</p>
+
+<h2>Unser Fazit</h2>
+<p>Die Moulinex Easy Fry Max 5L ist eine <strong>vernünftige und langlebige Wahl</strong> für alle, die eine unkomplizierte Heißluftfritteuse suchen. Sie will nicht mit den vielseitigsten Modellen konkurrieren, erledigt das Wesentliche aber sehr gut: Pommes, Hähnchen, Gemüse und Tiefkühlgerichte, dazu eine einfache Reinigung und ein beruhigendes Reparierbarkeitsversprechen.</p>
+<p>Wer Fleisch scharf anbraten oder für viele Personen kochen möchte, greift besser zur Cosori Dual Blaze oder zur Philips Serie 3000 XL. Weitere günstige Modelle finden Sie in unserer Auswahl der <a href="/de/blog/meilleur-airfryer-petit-budget">besten preiswerten Heißluftfritteusen</a>, und alle Empfehlungen in unserem <a href="/de/guides/airfryers">Ratgeber zu den besten Heißluftfritteusen</a>.</p>`,
+
+    es: `<p><strong>La Moulinex Easy Fry Max 5L es una freidora de aire sencilla, compacta y fiable, pensada para hogares de 2 a 4 personas que quieren patatas, pollo y verduras crujientes sin aplicación ni ajustes complicados.</strong> No busca el máximo rendimiento: su temperatura llega a 200 °C y solo tiene un cajón, pero su manejo inmediato, su limpieza sencilla y el compromiso de reparabilidad de Moulinex la convierten en una de las opciones más sensatas de la gama de entrada.</p>
+<p>Esta opinión se basa en las especificaciones publicadas por el fabricante, en evaluaciones independientes de organizaciones de consumidores y en las valoraciones de compradores verificados. Después la comparamos con otros modelos de nuestra selección, como la Cosori Dual Blaze o la Philips Serie 3000 XL, para ayudarte a saber si encaja de verdad con tu forma de cocinar.</p>
+
+<h2>La Moulinex Easy Fry Max 5L en resumen</h2>
+<p>La Easy Fry Max es la freidora de aire de un solo cajón de Moulinex en la franja media-baja de su catálogo. Se vende con varias referencias según el color (por ejemplo EZ2458 en negro o las versiones en color «java»), todas con la misma base técnica:</p>
+<ul>
+<li><strong>Capacidad</strong>: cesta de 5 litros, anunciada por Moulinex para unas 6 raciones;</li>
+<li><strong>Potencia</strong>: en torno a 1.500 W, lo habitual en una freidora de este tamaño;</li>
+<li><strong>Temperatura</strong>: regulable hasta 200 °C;</li>
+<li><strong>Temporizador</strong>: hasta 60 minutos;</li>
+<li><strong>Programas</strong>: 10 programas automáticos en un panel táctil digital;</li>
+<li><strong>Limpieza</strong>: cesta antiadherente extraíble apta para lavavajillas;</li>
+<li><strong>Conectividad</strong>: ninguna, sin aplicación ni wifi;</li>
+<li><strong>Durabilidad</strong>: cubierta por el compromiso «reparable 15 años» de Moulinex, que busca mantener disponibles las piezas de recambio a largo plazo.</li>
 </ul>
 
-<h2>Abschließendes detailliertes Urteil</h2>
-<p>Der Moulinex Easy Fry Max 5L ist ein Gerät ohne Überraschungen — und genau das sucht ein großer Teil der Käufer. Er heizt gut, gart zuverlässig, reinigt sich leicht und ist in 10 Jahren noch reparierbar. In einer Welt von Wegwerfgeräten ist das eine mutige und verantwortungsvolle Wahl.</p>
-<p>Sein Hauptnachteil ist die 200°C-Grenze, die die Fleischsaisonierung und Krustenbildung gegenüber dem Cosori Dual Blaze (230°C) benachteiligt. Wenn Kochqualität Ihre absolute Priorität ist, wählen Sie den Cosori. Aber wenn Sie einen zuverlässigen Küchenpartner für die nächsten 10 Jahre suchen, empfehlen wir den Moulinex Easy Fry Max. Bestätigter Nura-Score: <strong>8,3/10</strong>.</p>`,
+<h2>Qué revisar antes de comprar una freidora de este tipo</h2>
+<h3>La capacidad real frente a tu hogar</h3>
+<p>Una cesta de 5 litros basta para la guarnición de 3 o 4 personas, o para un plato principal para 2 o 3. Las «6 raciones» anunciadas son raciones modestas: para unas patatas crujientes conviene no llenar la cesta hasta arriba, porque el aire no circula bien. Si cocinas a menudo para 5 personas o más, un modelo de 6 litros o más, o de doble cajón, será más cómodo.</p>
+<h3>La temperatura máxima</h3>
+<p>La mayoría de las freidoras de entrada llegan a 200 °C. Es suficiente para patatas, verduras asadas, pollo o nuggets. Los modelos que alcanzan 230 °C, como la Cosori Dual Blaze, aportan ventaja sobre todo para sellar carne roja o conseguir una costra más marcada.</p>
+<h3>La facilidad de uso</h3>
+<p>Una pantalla táctil con programas predefinidos es suficiente para la mayoría. Una aplicación solo resulta útil si te gustan las recetas guiadas o iniciar la cocción a distancia. Para muchos hogares, no tener aplicación es incluso una ventaja: nada que configurar ni actualizar.</p>
+<h3>La limpieza y la durabilidad</h3>
+<p>Una cesta apta para lavavajillas y un buen antiadherente ahorran tiempo a diario. La disponibilidad de recambios también cuenta: una cesta desgastada o un asa rota no deberían obligarte a tirar todo el aparato.</p>
 
-    es: `<h2>Nuestro protocolo de prueba</h2>
-<p>La Moulinex Easy Fry Max 5L fue probada durante 4 semanas en una familia de 2 a 4 personas. Realizamos 55 sesiones de cocción en todas las categorías: patatas frescas y congeladas, pollo entero y piezas, verduras, pescado, quiches y postres. La garantía de reparabilidad de 15 años fue verificada a través de los canales oficiales de Moulinex.</p>
+<h2>Diseño y manejo</h2>
+<p>La Easy Fry Max tiene un formato cúbico clásico, con cajón frontal y panel táctil en la parte superior. Ocupa un espacio razonable para 5 litros, de modo que puede quedarse en una encimera estándar o guardarse en un armario. El acabado es de plástico, sobrio y funcional.</p>
+<p>Los compradores destacan sobre todo lo fácil que es empezar: eliges un programa, ajustas el tiempo y la temperatura si hace falta y listo. El cajón se abre y se cierra con suavidad, y la cesta sale fácilmente para agitar los alimentos a mitad de cocción.</p>
 
-<h2>Introducción</h2>
-<p>Moulinex es una institución en Francia. Durante más de 60 años, la marca ha equipado cocinas francesas con electrodomésticos fiables y asequibles. La Moulinex Easy Fry Max 5L encaja perfectamente: una freidora simple, eficaz y a solo 89,99 euros. Con una puntuación Nura de <strong>8,3/10</strong>, recompensa su fiabilidad y excelente relación calidad-precio.</p>
-
-<h2>Ficha técnica</h2>
-<table>
-<thead><tr><th>Característica</th><th>Detalle</th></tr></thead>
-<tbody>
-<tr><td>Capacidad</td><td>5 litros</td></tr>
-<tr><td>Potencia</td><td>1.500 W</td></tr>
-<tr><td>Temperatura</td><td>80°C - 200°C</td></tr>
-<tr><td>Dimensiones</td><td>28 x 33,5 x 31,5 cm</td></tr>
-<tr><td>Programas</td><td>10 (patatas, pollo, pescado, pizza, steak, gambas, bacon, verduras, bizcocho, postre)</td></tr>
-<tr><td>Recubrimiento</td><td>Antiadherente sin PFOA (EZ Clean)</td></tr>
-<tr><td>Reparabilidad</td><td>8,2/10, repuestos durante 15 años</td></tr>
-<tr><td>Precio</td><td>89,99 €</td></tr>
-</tbody>
-</table>
-
-<h2>Diseño y fabricación</h2>
-<p>Diseño clásico en plástico negro mate — sobrio y funcional. Compacto (28 x 33,5 cm), ligero (4,6 kg). El recubrimiento EZ Clean es ligeramente texturizado y se limpia muy fácilmente. Destacable: índice de reparabilidad 8,2/10 con 15 años de piezas de repuesto.</p>
-
-<h2>Rendimiento de cocción</h2>
+<h2>Resultados de cocción según evaluaciones y opiniones</h2>
 <h3>Patatas fritas</h3>
-<p>500 g de patatas frescas a <strong>200°C durante 22 minutos</strong>: buen resultado, doradas y crujientes. Con 1.500 W, el precalentamiento es más largo (~3 min) y la cocción más lenta que modelos premium.</p>
+<p>Es su punto fuerte. Las evaluaciones publicadas y las opiniones de compradores describen patatas doradas y crujientes, siempre que no se sobrecargue la cesta y se agite a mitad de cocción. Con unos 1.500 W, los tiempos están en la media de su categoría: algo más largos que en modelos más potentes, pero sin diferencia molesta en el día a día.</p>
+<h3>Pollo, carne y pescado</h3>
+<p>Muslos, alitas, nuggets y filetes de pescado empanados salen bien, con una piel crujiente. El límite de 200 °C se nota más con la ternera: el sellado es menos intenso que en sartén o en una freidora que alcanza más temperatura. Para la carne, un termómetro de cocina sigue siendo la forma más segura de comprobar la cocción interior.</p>
+<h3>Verduras y postres</h3>
+<p>Las verduras asadas (calabacín, pimiento, brócoli, patata en dados) quedan bien con un chorrito de aceite. Bizcochos pequeños, magdalenas o fruta asada son posibles en un molde adaptado a la cesta. Para ideas, consulta nuestras <a href="/es/blog/recettes-legumes-grilles-airfryer">recetas de verduras a la parrilla en freidora de aire</a>.</p>
 
-<h3>Pollo y carnes</h3>
-<p>Muslos (4 unidades) a 180°C durante 28 minutos: satisfactorio, piel dorada (75°C internos). Los 200°C máx. limitan la formación de costra. Consejos en nuestro artículo sobre <a href="/es/blog/erreurs-courantes-airfryer">errores comunes con airfryer</a>.</p>
+<h2>Limpieza y mantenimiento</h2>
+<p>La cesta antiadherente y su rejilla van al lavavajillas, algo que los compradores valoran mucho. Aun así, lavarlas a mano con agua caliente y jabón y una esponja no abrasiva prolonga la vida del revestimiento. Como en cualquier freidora con antiadherente, evita los utensilios metálicos y los estropajos. Nuestra guía de <a href="/es/blog/entretien-nettoyage-airfryer">limpieza y mantenimiento de la freidora de aire</a> explica los gestos adecuados.</p>
 
-<h3>Verduras</h3>
-<p>400 g de verduras variadas a <strong>180°C durante 14 minutos</strong>: resultados agradables con buena caramelización. El programa Verduras está bien calibrado.</p>
+<h2>Reparabilidad y durabilidad</h2>
+<p>Es un argumento distintivo de Moulinex y de las demás marcas del Groupe SEB: la Easy Fry Max está cubierta por el compromiso «reparable 15 años». En la práctica, la marca busca mantener los recambios disponibles durante mucho tiempo y facilitar la reparación a través de su red de servicios técnicos autorizados. Para un aparato que se usa casi a diario, es una ventaja real frente a modelos sin una política de recambios clara.</p>
+<p>Moulinex destaca también un ahorro de energía frente a un horno convencional, basado en una prueba comparativa realizada para la marca. Como en cualquier freidora de aire, el ahorro real depende sobre todo de la cantidad y la frecuencia: una ración pequeña se cocina rápido en la freidora, mientras que el horno debe calentar una cavidad mucho mayor.</p>
 
-<h2>Facilidad de uso</h2>
-<p>Simplicidad absoluta: panel LED con 10 programas claros. Sin app, sin Wi-Fi. El pitido a mitad de cocción recuerda agitar la cesta. Limpieza excelente con EZ Clean — cesto y cajón aptos para lavavajillas.</p>
-
-<h2>Consumo energético</h2>
-<p>Con 1.500 W muy económica: <strong>0,46 kWh</strong> para 22 min de patatas. Mensual: ~3,50 €, 65% de ahorro frente al horno.</p>
-
-<h2>Puntos fuertes y débiles</h2>
+<h2>Puntos fuertes y limitaciones</h2>
 <h3>Puntos fuertes</h3>
 <ul>
-<li><strong>Precio accesible</strong>: 89,99 €</li>
-<li><strong>Simplicidad ejemplar</strong>: 10 programas, uso inmediato</li>
-<li><strong>Reparabilidad</strong>: 8,2/10, repuestos 15 años</li>
-<li><strong>Recubrimiento EZ Clean</strong>: limpieza fácil</li>
-<li><strong>Marca de confianza</strong></li>
+<li>Uso inmediato gracias a los 10 programas y al panel táctil;</li>
+<li>Capacidad de 5 litros adecuada para 2 a 4 personas;</li>
+<li>Cesta antiadherente apta para lavavajillas;</li>
+<li>Compromiso de reparabilidad de 15 años;</li>
+<li>Compacta para su capacidad;</li>
+<li>Sin aplicación que instalar ni cuenta que crear.</li>
 </ul>
-<h3>Puntos débiles</h3>
+<h3>Limitaciones</h3>
 <ul>
-<li><strong>Máx. 200°C</strong>: limita cocción de carnes</li>
-<li><strong>Potencia modesta</strong>: 1.500 W, más lenta</li>
-<li><strong>Sin conectividad</strong></li>
-<li><strong>Timer máx. 60 min</strong></li>
-<li><strong>Diseño básico</strong></li>
+<li>Máximo de 200 °C, menos adecuada para sellar carne roja;</li>
+<li>Un solo cajón: no permite cocinar dos alimentos a distinta temperatura a la vez;</li>
+<li>Sin ventana para vigilar la cocción;</li>
+<li>Sin funciones conectadas;</li>
+<li>Algunos compradores mencionan un ruido de ventilador perceptible, habitual en este tipo de aparato.</li>
 </ul>
 
-<h2>Puntuación Nura detallada</h2>
+<h2>Frente a las alternativas</h2>
+<h3>Cosori Dual Blaze 6,4 L</h3>
+<p>La <a href="/es/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a> calienta por arriba y por abajo, llega a 230 °C y también se controla desde una aplicación. Es más versátil y espaciosa, pero también más cara y algo más compleja. Elígela si el sellado y la capacidad te importan más que la sencillez.</p>
+<h3>Philips Airfryer Serie 3000 XL 6,2 L</h3>
+<p>La <a href="/es/blog/test-philips-airfryer-3000-xl">Philips Serie 3000 XL</a> ofrece una cesta más grande para familias de cuatro y la tecnología de circulación rápida de aire de la marca. Es la alternativa lógica si 5 litros te parecen justos.</p>
+<h3>Xiaomi Smart Air Fryer Pro 4L</h3>
+<p>La <a href="/es/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro 4L</a> es más pequeña pero conectada: control por aplicación, recetas guiadas e inicio a distancia. Encaja con parejas y personas solas a las que les gustan las funciones inteligentes.</p>
+<h3>Cosori Lite 3,8 L</h3>
+<p>La Cosori Lite 3,8 L es aún más compacta, llega a 230 °C y se controla desde una aplicación. Sirve para una persona sola, una pareja o una cocina pequeña, pero se queda corta enseguida para una familia.</p>
+
+<h2>Tabla comparativa</h2>
 <table>
-<thead><tr><th>Criterio</th><th>Nota</th><th>Comentario</th></tr></thead>
+<thead><tr><th>Modelo</th><th>Capacidad</th><th>Temperatura máx.</th><th>Conectividad</th><th>Ideal para</th></tr></thead>
 <tbody>
-<tr><td>Rendimiento</td><td>7,5/10</td><td>Bueno en patatas y verduras, limitado en carnes</td></tr>
-<tr><td>Facilidad de uso</td><td>9,5/10</td><td>La más sencilla junto con Philips 3000</td></tr>
-<tr><td>Diseño</td><td>7,5/10</td><td>Básico pero robusto, reparabilidad top</td></tr>
-<tr><td>Versatilidad</td><td>7,5/10</td><td>10 programas pero 200°C máx.</td></tr>
-<tr><td>Relación calidad-precio</td><td>9,5/10</td><td>89,99 € por esta fiabilidad</td></tr>
-<tr><td>Limpieza</td><td>9,5/10</td><td>EZ Clean muy eficaz</td></tr>
-<tr><td>Ruido</td><td>8,0/10</td><td>62 dB, media</td></tr>
-<tr><td><strong>Puntuación Nura global</strong></td><td><strong>8,3/10</strong></td><td><strong>La más fiable y accesible</strong></td></tr>
+<tr><td><strong>Moulinex Easy Fry Max 5L</strong></td><td>5 L, 1 cajón</td><td>200 °C</td><td>No</td><td>Hogares de 2 a 4 personas que buscan sencillez</td></tr>
+<tr><td>Cosori Dual Blaze 6,4 L</td><td>6,4 L, 1 cajón</td><td>230 °C</td><td>Aplicación</td><td>Sellar carne y cocina versátil</td></tr>
+<tr><td>Philips Serie 3000 XL 6,2 L</td><td>6,2 L, 1 cajón</td><td>200 °C</td><td>No</td><td>Familias de cuatro</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 L, 1 cajón</td><td>200 °C</td><td>Aplicación</td><td>Parejas aficionadas a las funciones inteligentes</td></tr>
+<tr><td>Cosori Lite 3,8 L</td><td>3,8 L, 1 cajón</td><td>230 °C</td><td>Aplicación</td><td>Personas solas y cocinas pequeñas</td></tr>
 </tbody>
 </table>
 
-<h2>Veredicto</h2>
-<p>La Moulinex Easy Fry Max 5L es <strong>la freidora sensata</strong>. Perfecta para familias que quieren algo fiable y sin complicaciones. Para más rendimiento: <a href="/es/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a> por 50 € más. Opciones económicas en <a href="/es/blog/meilleur-airfryer-petit-budget">mejores airfryers económicas</a> y <a href="/es/guides/airfryers">guía completa 2026</a>.</p>
-
-<h2>La durabilidad Moulinex: una ventaja concreta</h2>
-<p>Moulinex es la única marca de nuestra selección que garantiza la disponibilidad de piezas de repuesto durante <strong>15 años</strong> tras la compra. Si la cesta antiadherente se desgasta a los 5 años, podrás pedir un repuesto oficial. En un mundo de obsolescencia programada, es un compromiso excepcional. A lo largo de 15 años de uso diario, el coste por uso baja a menos de 2 céntimos.</p>
-
-<h2>Comparación con la competencia</h2>
-<table>
-<thead><tr><th>Modelo</th><th>Precio</th><th>Capacidad</th><th>Temp. máx.</th><th>Garantía piezas</th><th>Puntuación Nura</th></tr></thead>
-<tbody>
-<tr><td><strong>Moulinex Easy Fry Max 5L</strong></td><td>89,99 €</td><td>5L</td><td>200°C</td><td>15 años</td><td>8,3/10</td></tr>
-<tr><td>Xiaomi Smart Pro 4L</td><td>79,99 €</td><td>4L</td><td>200°C</td><td>Estándar 2 años</td><td>8,0/10</td></tr>
-<tr><td>Philips 3000 XL 6,2L</td><td>119,99 €</td><td>6,2L</td><td>200°C</td><td>Estándar 2 años</td><td>8,7/10</td></tr>
-<tr><td>Cosori Dual Blaze 6,4L</td><td>139,99 €</td><td>6,4L</td><td>230°C</td><td>Estándar 2 años</td><td>8,9/10</td></tr>
-</tbody>
-</table>
-
-<h2>¿Para quién es ideal la Moulinex Easy Fry Max?</h2>
+<h2>Errores que debes evitar con la Easy Fry Max</h2>
 <ul>
-<li><strong>Familias de 2-4 personas</strong> que quieren un aparato sencillo y fiable sin funciones superfluas</li>
-<li><strong>Consumidores responsables</strong> que priorizan durabilidad y reparabilidad</li>
-<li><strong>Personas poco familiarizadas con la tecnología</strong>: sin app, sin Wi-Fi, solo un botón giratorio</li>
-<li><strong>Compradores con presupuesto ajustado</strong>: mejor relación calidad-precio-durabilidad por menos de 100 €</li>
+<li><strong>Sobrecargar la cesta</strong>: por encima de la mitad o dos tercios, las patatas se cuecen al vapor y quedan blandas. Mejor dos tandas.</li>
+<li><strong>Olvidar agitar</strong>: agitar a mitad de cocción es imprescindible para un dorado uniforme.</li>
+<li><strong>Usar utensilios metálicos</strong>: rayan el antiadherente.</li>
+<li><strong>Pegarla a la pared</strong>: deja espacio alrededor de la salida de aire caliente, en la parte trasera.</li>
+<li><strong>Precalentar con papel de horno vacío</strong>: puede ser aspirado hacia la resistencia.</li>
+</ul>
+<p>Para saber más, lee nuestro artículo sobre los <a href="/es/blog/erreurs-courantes-airfryer">errores más comunes con la freidora de aire</a>.</p>
+
+<h2>Seguridad y primeros usos</h2>
+<p>Antes de la primera cocción, lava la cesta y deja funcionar el aparato vacío unos minutos: un ligero olor a nuevo es normal al principio y desaparece pronto. Coloca la freidora sobre una superficie estable y resistente al calor, lejos de cortinas y muebles altos. No la conectes a una regleta sobrecargada y deja que se enfríe antes de limpiarla o guardarla.</p>
+
+<h2>Nuestro veredicto</h2>
+<p>La Moulinex Easy Fry Max 5L es una <strong>elección sensata y duradera</strong> para quien quiere una freidora de aire sin complicaciones. No pretende competir con los modelos más versátiles, pero hace muy bien lo esencial: patatas, pollo, verduras y congelados, con una limpieza sencilla y un compromiso de reparabilidad tranquilizador.</p>
+<p>Si quieres sellar carne o cocinar para muchos, mira la Cosori Dual Blaze o la Philips Serie 3000 XL. Para comparar otros modelos asequibles, consulta nuestra selección de las <a href="/es/blog/meilleur-airfryer-petit-budget">mejores freidoras de aire baratas</a>, y encuentra todas nuestras recomendaciones en nuestra <a href="/es/guides/airfryers">guía de las mejores freidoras de aire</a>.</p>`,
+
+    it: `<p><strong>La Moulinex Easy Fry Max 5L è una friggitrice ad aria semplice, compatta e affidabile, pensata per famiglie di 2-4 persone che vogliono patatine, pollo e verdure croccanti senza app né regolazioni complicate.</strong> Non punta alle prestazioni massime: la temperatura arriva a 200 °C e c’è un solo cassetto, ma l’uso immediato, la pulizia facile e l’impegno di riparabilità di Moulinex la rendono una delle scelte più sensate della fascia d’ingresso.</p>
+<p>Questa recensione si basa sulle specifiche pubblicate dal produttore, su valutazioni indipendenti di associazioni di consumatori e sulle opinioni di acquirenti verificati. La confrontiamo poi con altri modelli della nostra selezione, come la Cosori Dual Blaze o la Philips Serie 3000 XL, per aiutarti a capire se è davvero adatta al tuo modo di cucinare.</p>
+
+<h2>La Moulinex Easy Fry Max 5L in breve</h2>
+<p>La Easy Fry Max è la friggitrice ad aria a cassetto singolo di Moulinex nella fascia medio-bassa del catalogo. È venduta con diversi codici a seconda del colore (ad esempio EZ2458 in nero o le versioni color «java»), tutte con la stessa base tecnica:</p>
+<ul>
+<li><strong>Capacità</strong>: cestello da 5 litri, indicato da Moulinex per circa 6 porzioni;</li>
+<li><strong>Potenza</strong>: circa 1.500 W, nella media per una friggitrice di queste dimensioni;</li>
+<li><strong>Temperatura</strong>: regolabile fino a 200 °C;</li>
+<li><strong>Timer</strong>: fino a 60 minuti;</li>
+<li><strong>Programmi</strong>: 10 programmi automatici su pannello digitale touch;</li>
+<li><strong>Pulizia</strong>: cestello antiaderente estraibile, lavabile in lavastoviglie;</li>
+<li><strong>Connettività</strong>: nessuna, niente app né Wi-Fi;</li>
+<li><strong>Durata</strong>: coperta dall’impegno Moulinex «riparabile 15 anni», che mira a garantire la disponibilità dei ricambi nel lungo periodo.</li>
 </ul>
 
-<h2>Veredicto final detallado</h2>
-<p>La Moulinex Easy Fry Max 5L es un aparato sin sorpresas — y eso es exactamente lo que busca una gran parte de los compradores. Calienta bien, cocina de forma regular, se limpia fácilmente y seguirá siendo reparable en 10 años. En un mundo de electrodomésticos desechables, es una elección valiente y responsable.</p>
-<p>Su principal debilidad es el límite de 200°C que penaliza el sellado de carnes y el crujiente de patatas frente al Cosori Dual Blaze (230°C). Si la calidad de cocción es tu prioridad absoluta, elige el Cosori. Pero si buscas un compañero de cocina fiable para los próximos 10 años, la Moulinex Easy Fry Max es nuestra recomendación. Puntuación Nura confirmada: <strong>8,3/10</strong>.</p>`,
+<h2>Cosa valutare prima di acquistare una friggitrice di questo tipo</h2>
+<h3>La capacità reale rispetto alla famiglia</h3>
+<p>Un cestello da 5 litri basta per il contorno di 3-4 persone o per un piatto principale per 2-3. Le «6 porzioni» dichiarate sono porzioni modeste: per patatine croccanti è meglio non riempire il cestello fino all’orlo, altrimenti l’aria circola male. Se cucini spesso per 5 o più persone, un modello da 6 litri in su o a doppio cassetto sarà più comodo.</p>
+<h3>La temperatura massima</h3>
+<p>La maggior parte delle friggitrici entry level arriva a 200 °C. È sufficiente per patatine, verdure arrosto, pollo o nuggets. I modelli che raggiungono 230 °C, come la Cosori Dual Blaze, aiutano soprattutto a rosolare la carne rossa o a ottenere una crosticina più marcata.</p>
+<h3>La facilità d’uso</h3>
+<p>Un touchscreen con programmi preimpostati basta alla maggior parte delle persone. Un’app è utile solo se ami le ricette guidate o avviare la cottura a distanza. Per molte famiglie, non avere un’app è anzi un vantaggio: nulla da configurare, nulla da aggiornare.</p>
+<h3>Pulizia e durata</h3>
+<p>Un cestello lavabile in lavastoviglie e un buon antiaderente fanno risparmiare tempo ogni giorno. Conta anche la disponibilità dei ricambi: un cestello usurato o una maniglia rotta non dovrebbero costringerti a buttare l’intero apparecchio.</p>
 
-    it: `<h2>Il nostro protocollo di test</h2>
-<p>La Moulinex Easy Fry Max 5L è stata testata per 4 settimane in una famiglia di 2-4 persone. Abbiamo condotto 55 sessioni di cottura in tutte le categorie: patatine fresche e surgelate, pollo intero e pezzi, verdure, pesce, quiche e dessert. La garanzia di riparabilità di 15 anni è stata verificata attraverso i canali ufficiali Moulinex.</p>
+<h2>Design e utilizzo</h2>
+<p>La Easy Fry Max ha una classica forma cubica con cassetto frontale e pannello touch sulla parte superiore. L’ingombro è ragionevole per un 5 litri, così può restare su un normale piano di lavoro o essere riposta in un pensile. La finitura è in plastica, sobria e funzionale.</p>
+<p>Gli acquirenti sottolineano soprattutto la facilità con cui si inizia: scegli un programma, regoli tempo e temperatura se serve e parte. Il cassetto si apre e si chiude senza sforzo e il cestello si estrae facilmente per scuotere il cibo a metà cottura.</p>
 
-<h2>Introduzione</h2>
-<p>Moulinex è un'istituzione in Francia. Da oltre 60 anni, il marchio equipa le cucine francesi con elettrodomestici affidabili e accessibili. La Moulinex Easy Fry Max 5L si inserisce perfettamente: una friggitrice semplice, efficace a soli 89,99 euro. Con un punteggio Nura di <strong>8,3/10</strong>, premia affidabilità e rapporto qualità-prezzo.</p>
+<h2>Prestazioni di cottura secondo valutazioni e recensioni</h2>
+<h3>Patatine e patate</h3>
+<p>È il suo terreno ideale. Le valutazioni pubblicate e le recensioni degli acquirenti descrivono patatine dorate e croccanti, purché il cestello non sia sovraccarico e venga scosso a metà cottura. Con circa 1.500 W, i tempi sono nella media della categoria: un po’ più lunghi rispetto ad alcuni modelli più potenti, ma senza differenze fastidiose nell’uso quotidiano.</p>
+<h3>Pollo, carne e pesce</h3>
+<p>Fusi, alette, nuggets e filetti di pesce impanati riescono bene, con una pelle croccante. Il limite di 200 °C si sente di più con il manzo: la rosolatura è meno marcata che in padella o in una friggitrice che arriva più in alto. Per la carne, un termometro da cucina resta il modo più sicuro per verificare la cottura al cuore.</p>
+<h3>Verdure e dolci</h3>
+<p>Le verdure arrosto (zucchine, peperoni, broccoli, patate a cubetti) riescono bene con un filo d’olio. Piccole torte, muffin o frutta cotta sono possibili in uno stampo adatto al cestello. Per qualche idea, guarda le nostre <a href="/it/blog/recettes-legumes-grilles-airfryer">ricette di verdure grigliate in friggitrice ad aria</a>.</p>
 
-<h2>Scheda tecnica</h2>
-<table>
-<thead><tr><th>Caratteristica</th><th>Dettaglio</th></tr></thead>
-<tbody>
-<tr><td>Capacità</td><td>5 litri</td></tr>
-<tr><td>Potenza</td><td>1.500 W</td></tr>
-<tr><td>Temperatura</td><td>80°C - 200°C</td></tr>
-<tr><td>Dimensioni</td><td>28 x 33,5 x 31,5 cm</td></tr>
-<tr><td>Programmi</td><td>10 (patatine, pollo, pesce, pizza, bistecca, gamberetti, bacon, verdure, torta, dolce)</td></tr>
-<tr><td>Rivestimento</td><td>Antiaderente senza PFOA (EZ Clean)</td></tr>
-<tr><td>Riparabilità</td><td>8,2/10, ricambi per 15 anni</td></tr>
-<tr><td>Prezzo</td><td>89,99 €</td></tr>
-</tbody>
-</table>
+<h2>Pulizia e manutenzione</h2>
+<p>Il cestello antiaderente e la sua griglia vanno in lavastoviglie, un aspetto molto apprezzato dagli acquirenti. Lavarli a mano con acqua calda e sapone e una spugna non abrasiva prolunga però la vita del rivestimento. Come per ogni friggitrice antiaderente, evita utensili metallici e pagliette. La nostra guida alla <a href="/it/blog/entretien-nettoyage-airfryer">pulizia e manutenzione della friggitrice ad aria</a> spiega i gesti giusti.</p>
 
-<h2>Design e qualità costruttiva</h2>
-<p>Design classico in plastica nera opaca — sobrio e funzionale. Compatto (28 x 33,5 cm), leggero (4,6 kg). Il rivestimento EZ Clean è leggermente testurizzato e si pulisce facilmente. Notevole: indice di riparabilità 8,2/10 con 15 anni di ricambi garantiti.</p>
+<h2>Riparabilità e durata</h2>
+<p>È un argomento distintivo di Moulinex e degli altri marchi del Groupe SEB: la Easy Fry Max rientra nell’impegno «riparabile 15 anni». In pratica, il marchio punta a mantenere disponibili i ricambi a lungo e a consentire la riparazione tramite la sua rete di centri assistenza autorizzati. Per un apparecchio usato quasi ogni giorno, è un vantaggio concreto rispetto a modelli senza una politica chiara sui ricambi.</p>
+<p>Moulinex evidenzia inoltre un risparmio energetico rispetto a un forno tradizionale, sulla base di una prova comparativa condotta per il marchio. Come per qualsiasi friggitrice ad aria, il risparmio reale dipende soprattutto da quantità e frequenza: una piccola porzione cuoce in fretta nella friggitrice, mentre il forno deve scaldare una cavità molto più grande.</p>
 
-<h2>Prestazioni di cottura</h2>
-<h3>Patatine fritte</h3>
-<p>500 g di patatine fresche a <strong>200°C per 22 minuti</strong>: buon risultato, dorate e croccanti. Con 1.500 W il preriscaldamento è più lungo (~3 min) e la cottura un po' più lenta.</p>
-
-<h3>Pollo e carni</h3>
-<p>Cosce (4 pezzi) a 180°C per 28 minuti: soddisfacente, pelle dorata (75°C interni). I 200°C max limitano la crosta. Consigli nel nostro articolo sugli <a href="/it/blog/erreurs-courantes-airfryer">errori comuni con l'airfryer</a>.</p>
-
-<h3>Verdure</h3>
-<p>400 g di verdure miste a <strong>180°C per 14 minuti</strong>: risultati piacevoli con buona caramellizzazione. Il programma Verdure è ben calibrato.</p>
-
-<h2>Facilità d'uso</h2>
-<p>Semplicità assoluta: pannello LED con 10 programmi chiari. Niente app, niente Wi-Fi. Il segnale acustico a metà cottura ricorda di scuotere. Pulizia eccellente con EZ Clean — cestello e cassetto lavabili in lavastoviglie.</p>
-
-<h2>Consumo energetico</h2>
-<p>Con 1.500 W molto economica: <strong>0,46 kWh</strong> per 22 min di patatine. Mensile: ~3,50 €, risparmio del 65% rispetto al forno.</p>
-
-<h2>Punti di forza e debolezza</h2>
+<h2>Punti di forza e limiti</h2>
 <h3>Punti di forza</h3>
 <ul>
-<li><strong>Prezzo accessibile</strong>: 89,99 €</li>
-<li><strong>Semplicità esemplare</strong>: 10 programmi, uso immediato</li>
-<li><strong>Riparabilità</strong>: 8,2/10, ricambi 15 anni</li>
-<li><strong>Rivestimento EZ Clean</strong>: pulizia facile</li>
-<li><strong>Marchio di fiducia</strong></li>
+<li>Uso immediato grazie a 10 programmi e al pannello touch;</li>
+<li>Capacità di 5 litri adatta a 2-4 persone;</li>
+<li>Cestello antiaderente lavabile in lavastoviglie;</li>
+<li>Impegno di riparabilità per 15 anni;</li>
+<li>Compatta rispetto alla capacità;</li>
+<li>Nessuna app da installare né account da creare.</li>
 </ul>
-<h3>Punti deboli</h3>
+<h3>Limiti</h3>
 <ul>
-<li><strong>Max 200°C</strong>: limita la cottura carni</li>
-<li><strong>Potenza modesta</strong>: 1.500 W, più lenta</li>
-<li><strong>Nessuna connettività</strong></li>
-<li><strong>Timer max 60 min</strong></li>
-<li><strong>Design basilare</strong></li>
+<li>Massimo 200 °C, meno adatta a rosolare la carne rossa;</li>
+<li>Un solo cassetto: non si possono cuocere due alimenti a temperature diverse insieme;</li>
+<li>Nessun oblò per controllare la cottura;</li>
+<li>Nessuna funzione smart;</li>
+<li>Alcuni acquirenti segnalano un rumore di ventola percepibile, tipico di questo tipo di apparecchio.</li>
 </ul>
 
-<h2>Punteggio Nura dettagliato</h2>
+<h2>Il confronto con le alternative</h2>
+<h3>Cosori Dual Blaze 6,4 L</h3>
+<p>La <a href="/it/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a> scalda dall’alto e dal basso, arriva a 230 °C e si controlla anche da app. È più versatile e capiente, ma anche più costosa e un po’ più complessa. Da preferire se rosolatura e capacità contano più della semplicità.</p>
+<h3>Philips Airfryer Serie 3000 XL 6,2 L</h3>
+<p>La <a href="/it/blog/test-philips-airfryer-3000-xl">Philips Serie 3000 XL</a> offre un cestello più grande per famiglie di quattro persone e la tecnologia di circolazione rapida dell’aria del marchio. È l’alternativa logica se 5 litri ti sembrano pochi.</p>
+<h3>Xiaomi Smart Air Fryer Pro 4L</h3>
+<p>La <a href="/it/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro 4L</a> è più piccola ma connessa: controllo da app, ricette guidate e avvio a distanza. Adatta a coppie e single che amano le funzioni smart.</p>
+<h3>Cosori Lite 3,8 L</h3>
+<p>La Cosori Lite 3,8 L è ancora più compatta, arriva a 230 °C e si controlla da app. Va bene per una persona sola, una coppia o una cucina piccola, ma diventa presto limitata per una famiglia.</p>
+
+<h2>Tabella di confronto</h2>
 <table>
-<thead><tr><th>Criterio</th><th>Voto</th><th>Commento</th></tr></thead>
+<thead><tr><th>Modello</th><th>Capacità</th><th>Temperatura max</th><th>Connettività</th><th>Ideale per</th></tr></thead>
 <tbody>
-<tr><td>Prestazioni</td><td>7,5/10</td><td>Buone su patatine e verdure, limitate su carni</td></tr>
-<tr><td>Facilità d'uso</td><td>9,5/10</td><td>La più semplice con Philips 3000</td></tr>
-<tr><td>Design</td><td>7,5/10</td><td>Basilare ma robusto, riparabilità top</td></tr>
-<tr><td>Versatilità</td><td>7,5/10</td><td>10 programmi ma 200°C max</td></tr>
-<tr><td>Rapporto qualità-prezzo</td><td>9,5/10</td><td>89,99 € per questa affidabilità</td></tr>
-<tr><td>Pulizia</td><td>9,5/10</td><td>EZ Clean molto efficace</td></tr>
-<tr><td>Rumore</td><td>8,0/10</td><td>62 dB, nella media</td></tr>
-<tr><td><strong>Punteggio Nura globale</strong></td><td><strong>8,3/10</strong></td><td><strong>La più affidabile e accessibile</strong></td></tr>
+<tr><td><strong>Moulinex Easy Fry Max 5L</strong></td><td>5 L, 1 cassetto</td><td>200 °C</td><td>No</td><td>Famiglie di 2-4 persone che cercano semplicità</td></tr>
+<tr><td>Cosori Dual Blaze 6,4 L</td><td>6,4 L, 1 cassetto</td><td>230 °C</td><td>App</td><td>Rosolare la carne e cucina versatile</td></tr>
+<tr><td>Philips Serie 3000 XL 6,2 L</td><td>6,2 L, 1 cassetto</td><td>200 °C</td><td>No</td><td>Famiglie di quattro persone</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 L, 1 cassetto</td><td>200 °C</td><td>App</td><td>Coppie amanti delle funzioni smart</td></tr>
+<tr><td>Cosori Lite 3,8 L</td><td>3,8 L, 1 cassetto</td><td>230 °C</td><td>App</td><td>Single e cucine piccole</td></tr>
 </tbody>
 </table>
 
-<h2>Verdetto</h2>
-<p>La Moulinex Easy Fry Max 5L è <strong>la friggitrice della ragione</strong>. Perfetta per famiglie che vogliono qualcosa di affidabile senza complicazioni. Per più prestazioni: <a href="/it/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a> per 50 € in più. Opzioni economiche nei <a href="/it/blog/meilleur-airfryer-petit-budget">migliori airfryer economici</a> e nella <a href="/it/guides/airfryers">guida completa 2026</a>.</p>
-
-<h2>La durabilità Moulinex: un vantaggio concreto</h2>
-<p>Moulinex è l'unico marchio della nostra selezione a garantire la disponibilità di pezzi di ricambio per <strong>15 anni</strong> dopo l'acquisto. Se il cestello antiaderente si deteriora dopo 5 anni, potrete ordinare un ricambio ufficiale. In un mondo di obsolescenza programmata, è un impegno eccezionale. Su 15 anni di utilizzo quotidiano, il costo per utilizzo scende a meno di 2 centesimi.</p>
-
-<h2>Confronto con la concorrenza</h2>
-<table>
-<thead><tr><th>Modello</th><th>Prezzo</th><th>Capacità</th><th>Temp. max</th><th>Garanzia ricambi</th><th>Punteggio Nura</th></tr></thead>
-<tbody>
-<tr><td><strong>Moulinex Easy Fry Max 5L</strong></td><td>89,99 €</td><td>5L</td><td>200°C</td><td>15 anni</td><td>8,3/10</td></tr>
-<tr><td>Xiaomi Smart Pro 4L</td><td>79,99 €</td><td>4L</td><td>200°C</td><td>Standard 2 anni</td><td>8,0/10</td></tr>
-<tr><td>Philips 3000 XL 6,2L</td><td>119,99 €</td><td>6,2L</td><td>200°C</td><td>Standard 2 anni</td><td>8,7/10</td></tr>
-<tr><td>Cosori Dual Blaze 6,4L</td><td>139,99 €</td><td>6,4L</td><td>230°C</td><td>Standard 2 anni</td><td>8,9/10</td></tr>
-</tbody>
-</table>
-
-<h2>Per chi è ideale la Moulinex Easy Fry Max?</h2>
+<h2>Errori da evitare con la Easy Fry Max</h2>
 <ul>
-<li><strong>Famiglie di 2-4 persone</strong> che vogliono un apparecchio semplice e affidabile senza funzioni superflue</li>
-<li><strong>Consumatori responsabili</strong> che privilegiano durabilità e riparabilità</li>
-<li><strong>Persone poco a proprio agio con la tecnologia</strong>: nessuna app, nessun Wi-Fi, solo una manopola rotante</li>
-<li><strong>Acquirenti con budget limitato</strong>: miglior rapporto qualità-prezzo-durabilità sotto i 100 euro</li>
+<li><strong>Riempire troppo il cestello</strong>: oltre metà o due terzi, le patatine cuociono a vapore e restano molli. Meglio due infornate.</li>
+<li><strong>Dimenticare di scuotere</strong>: scuotere a metà cottura è indispensabile per una doratura uniforme.</li>
+<li><strong>Usare utensili metallici</strong>: graffiano l’antiaderente.</li>
+<li><strong>Appoggiarla al muro</strong>: lascia spazio intorno all’uscita dell’aria calda, sul retro.</li>
+<li><strong>Preriscaldare con carta forno vuota</strong>: può essere aspirata verso la resistenza.</li>
+</ul>
+<p>Per saperne di più, leggi il nostro articolo sugli <a href="/it/blog/erreurs-courantes-airfryer">errori più comuni con la friggitrice ad aria</a>.</p>
+
+<h2>Sicurezza e primi utilizzi</h2>
+<p>Prima della prima cottura, lava il cestello e fai funzionare l’apparecchio a vuoto per qualche minuto: un leggero odore di nuovo è normale all’inizio e sparisce presto. Appoggia la friggitrice su una superficie stabile e resistente al calore, lontano da tende e pensili. Non collegarla a una ciabatta sovraccarica e lasciala raffreddare prima di pulirla o riporla.</p>
+
+<h2>Il nostro verdetto</h2>
+<p>La Moulinex Easy Fry Max 5L è una <strong>scelta sensata e duratura</strong> per chi vuole una friggitrice ad aria senza complicazioni. Non cerca di competere con i modelli più versatili, ma fa molto bene l’essenziale: patatine, pollo, verdure e surgelati, con una pulizia semplice e un impegno di riparabilità rassicurante.</p>
+<p>Se vuoi rosolare la carne o cucinare per tante persone, guarda la Cosori Dual Blaze o la Philips Serie 3000 XL. Per confrontare altri modelli economici, consulta la nostra selezione delle <a href="/it/blog/meilleur-airfryer-petit-budget">migliori friggitrici ad aria economiche</a> e trova tutti i nostri consigli nella nostra <a href="/it/guides/airfryers">guida alle migliori friggitrici ad aria</a>.</p>`,
+
+    nl: `<p><strong>De Moulinex Easy Fry Max 5L is een eenvoudige, compacte en betrouwbare airfryer voor huishoudens van 2 tot 4 personen die krokante friet, kip en groenten willen zonder app of ingewikkelde instellingen.</strong> Topprestaties zijn niet het doel: de temperatuur gaat tot 200 °C en er is maar één lade. Toch maken het directe gebruiksgemak, de eenvoudige reiniging en de repareerbaarheidsbelofte van Moulinex hem tot een van de verstandigste keuzes in het instapsegment.</p>
+<p>Deze review is gebaseerd op de specificaties van de fabrikant, op onafhankelijke beoordelingen van consumentenorganisaties en op ervaringen van geverifieerde kopers. Daarna vergelijken we hem met andere modellen uit onze selectie, zoals de Cosori Dual Blaze en de Philips 3000 Series XL, zodat je weet of hij echt bij jouw manier van koken past.</p>
+
+<h2>De Moulinex Easy Fry Max 5L in het kort</h2>
+<p>De Easy Fry Max is de airfryer met één lade van Moulinex in het lagere middensegment van het assortiment. Hij wordt afhankelijk van de kleur onder verschillende typenummers verkocht (bijvoorbeeld EZ2458 in zwart of de uitvoeringen in de kleur “java”), met dezelfde technische basis:</p>
+<ul>
+<li><strong>Inhoud</strong>: mand van 5 liter, volgens Moulinex goed voor ongeveer 6 porties;</li>
+<li><strong>Vermogen</strong>: rond 1.500 W, gebruikelijk voor een airfryer van dit formaat;</li>
+<li><strong>Temperatuur</strong>: instelbaar tot 200 °C;</li>
+<li><strong>Timer</strong>: tot 60 minuten;</li>
+<li><strong>Programma’s</strong>: 10 automatische programma’s via een digitaal aanraakpaneel;</li>
+<li><strong>Reiniging</strong>: uitneembare antiaanbakmand, vaatwasserbestendig;</li>
+<li><strong>Connectiviteit</strong>: geen, geen app en geen wifi;</li>
+<li><strong>Duurzaamheid</strong>: valt onder de Moulinex-belofte “15 jaar repareerbaar”, die onderdelen op lange termijn beschikbaar wil houden.</li>
 </ul>
 
-<h2>Verdetto finale dettagliato</h2>
-<p>La Moulinex Easy Fry Max 5L è un apparecchio senza sorprese — ed è esattamente quello che cerca una grande parte degli acquirenti. Scalda bene, cucina in modo regolare, si pulisce facilmente e sarà ancora riparabile tra 10 anni. In un mondo di elettrodomestici usa e getta, è una scelta coraggiosa e responsabile.</p>
-<p>Il suo principale svantaggio è il limite di 200°C che penalizza la scottatura delle carni e la croccantezza delle patatine rispetto al Cosori Dual Blaze (230°C). Se la qualità di cottura è la vostra priorità assoluta, scegliete il Cosori. Ma se cercate un compagno di cucina affidabile per i prossimi 10 anni, la Moulinex Easy Fry Max è la nostra raccomandazione. Punteggio Nura confermato: <strong>8,3/10</strong>.</p>`,
+<h2>Waar je op let voordat je zo’n airfryer koopt</h2>
+<h3>De echte inhoud ten opzichte van je huishouden</h3>
+<p>Een mand van 5 liter is genoeg voor een bijgerecht voor 3 à 4 personen of een hoofdgerecht voor 2 à 3. De opgegeven “6 porties” zijn bescheiden porties: voor krokante friet vul je de mand beter niet tot de rand, anders kan de lucht niet goed circuleren. Kook je vaak voor 5 personen of meer, dan is een model vanaf 6 liter of met twee lades prettiger.</p>
+<h3>De maximale temperatuur</h3>
+<p>De meeste instapmodellen gaan tot 200 °C. Dat volstaat voor friet, geroosterde groenten, kip of nuggets. Modellen die 230 °C halen, zoals de Cosori Dual Blaze, bieden vooral voordeel bij het dichtschroeien van rood vlees of voor een stevigere korst.</p>
+<h3>Gebruiksgemak</h3>
+<p>Een touchscreen met voorgeprogrammeerde standen is voor de meeste mensen genoeg. Een app is alleen handig als je van begeleide recepten houdt of de bereiding op afstand wilt starten. Voor veel huishoudens is het ontbreken van een app juist een pluspunt: niets in te stellen, niets bij te werken.</p>
+<h3>Reiniging en duurzaamheid</h3>
+<p>Een vaatwasserbestendige mand en een goede antiaanbaklaag besparen dagelijks tijd. Ook de beschikbaarheid van onderdelen telt: een versleten mand of afgebroken handgreep zou niet het einde van het hele apparaat moeten betekenen.</p>
 
-    nl: `<h2>Ons testprotocol</h2>
-<p>De Moulinex Easy Fry Max 5L werd 4 weken getest in een gezin van 2-4 personen. We voerden 55 kooksessies uit in alle categorieën: verse en diepvriesfriet, hele kip en stukken, groenten, vis, quiches en desserts. De 15-jaar onderdelengarantie werd geverifieerd via officiële Moulinex-kanalen.</p>
+<h2>Ontwerp en bediening</h2>
+<p>De Easy Fry Max heeft een klassieke, kubusvormige behuizing met een lade aan de voorkant en een aanraakpaneel bovenop. Voor 5 liter neemt hij redelijk weinig ruimte in, zodat hij op een gewoon aanrecht kan blijven staan of in een kast past. De afwerking is van kunststof, sober en functioneel.</p>
+<p>Kopers noemen vooral hoe makkelijk je begint: programma kiezen, eventueel tijd en temperatuur aanpassen, klaar. De lade opent en sluit soepel en de mand komt er makkelijk uit om halverwege te schudden.</p>
 
-<h2>Inleiding</h2>
-<p>Moulinex is een instituut in Frankrijk. Al meer dan 60 jaar voorziet het merk Franse keukens van betrouwbare, betaalbare apparaten. De Moulinex Easy Fry Max 5L past hier perfect bij: een eenvoudige, effectieve airfryer voor slechts 89,99 euro. Met een Nura-score van <strong>8,3/10</strong> beloont hij betrouwbaarheid en uitstekende prijs-kwaliteit.</p>
-
-<h2>Technische specificaties</h2>
-<table>
-<thead><tr><th>Kenmerk</th><th>Detail</th></tr></thead>
-<tbody>
-<tr><td>Capaciteit</td><td>5 liter</td></tr>
-<tr><td>Vermogen</td><td>1.500 W</td></tr>
-<tr><td>Temperatuur</td><td>80°C - 200°C</td></tr>
-<tr><td>Afmetingen</td><td>28 x 33,5 x 31,5 cm</td></tr>
-<tr><td>Programma's</td><td>10 (friet, kip, vis, pizza, steak, garnalen, bacon, groenten, cake, dessert)</td></tr>
-<tr><td>Coating</td><td>PFOA-vrij antiaanbak (EZ Clean)</td></tr>
-<tr><td>Repareerbaarheid</td><td>8,2/10, 15 jaar onderdelen beschikbaar</td></tr>
-<tr><td>Prijs</td><td>€89,99</td></tr>
-</tbody>
-</table>
-
-<h2>Design en bouwkwaliteit</h2>
-<p>Klassiek mat zwart ontwerp — sober en functioneel. Compact (28 x 33,5 cm), licht (4,6 kg). De EZ Clean-coating is licht getextureerd en reinigt zeer gemakkelijk. Opvallend: repareerbaarheidsindex van 8,2/10 met 15 jaar onderdelengarantie.</p>
-
-<h2>Kookprestaties</h2>
+<h2>Bereidingsresultaten volgens beoordelingen en reviews</h2>
 <h3>Friet en aardappelen</h3>
-<p>500 g verse friet bij <strong>200°C gedurende 22 minuten</strong>: goed resultaat, goudbruin en krokant. Met 1.500 W duurt het opwarmen langer (~3 min) en is het bakken langzamer dan bij premium modellen.</p>
+<p>Hier blinkt de Easy Fry Max uit. Gepubliceerde beoordelingen en kopersreviews beschrijven goudbruine, krokante friet, zolang de mand niet te vol zit en halverwege wordt geschud. Met ongeveer 1.500 W liggen de bereidingstijden in lijn met deze klasse: iets langer dan bij sommige krachtigere modellen, maar in de praktijk nauwelijks hinderlijk.</p>
+<h3>Kip, vlees en vis</h3>
+<p>Drumsticks, kippenvleugels, nuggets en gepaneerde visfilets lukken goed, met een mooi krokant velletje. De grens van 200 °C merk je meer bij rundvlees: de korst is minder uitgesproken dan in de pan of in een airfryer die heter wordt. Bij vlees blijft een keukenthermometer de veiligste manier om de kerntemperatuur te controleren.</p>
+<h3>Groenten en desserts</h3>
+<p>Geroosterde groenten (courgette, paprika, broccoli, aardappelblokjes) lukken goed met een scheutje olie. Kleine cakes, muffins of gebakken fruit kunnen in een vorm die in de mand past. Inspiratie vind je in onze <a href="/nl/blog/recettes-legumes-grilles-airfryer">recepten voor gegrilde groenten uit de airfryer</a>.</p>
 
-<h3>Kip en vlees</h3>
-<p>Kippenpoten (4 stuks) bij 180°C gedurende 28 minuten: bevredigend, goudbruine huid (75°C intern). De 200°C-limiet beperkt de korstvorming. Tips in ons artikel over <a href="/nl/blog/erreurs-courantes-airfryer">veelgemaakte airfryer-fouten</a>.</p>
+<h2>Reiniging en onderhoud</h2>
+<p>De antiaanbakmand en het rooster mogen in de vaatwasser, wat kopers erg waarderen. Afwassen met warm zeepsop en een niet-schurende spons verlengt wel de levensduur van de coating. Zoals bij elke airfryer met antiaanbaklaag vermijd je metalen keukengerei en schuursponzen. Onze gids over het <a href="/nl/blog/entretien-nettoyage-airfryer">schoonmaken en onderhouden van een airfryer</a> legt de juiste gewoonten uit.</p>
 
-<h3>Groenten</h3>
-<p>400 g gemengde groenten bij <strong>180°C gedurende 14 minuten</strong>: prettige resultaten met mooie karamelisatie. Het Groenten-programma is goed afgesteld.</p>
+<h2>Repareerbaarheid en duurzaamheid</h2>
+<p>Dit is een onderscheidend argument van Moulinex en de andere merken van Groupe SEB: de Easy Fry Max valt onder de belofte “15 jaar repareerbaar”. Concreet wil het merk onderdelen lang beschikbaar houden en reparatie mogelijk maken via het netwerk van erkende reparateurs. Voor een apparaat dat bijna dagelijks wordt gebruikt, is dat een echt voordeel ten opzichte van modellen zonder duidelijk onderdelenbeleid.</p>
+<p>Moulinex wijst ook op energiebesparing ten opzichte van een gewone oven, op basis van een vergelijkende proef die voor het merk is uitgevoerd. Zoals bij elke airfryer hangt de werkelijke besparing vooral af van hoeveelheid en frequentie: een kleine portie is in een airfryer snel klaar, terwijl een oven een veel grotere ruimte moet opwarmen.</p>
 
-<h2>Gebruiksgemak</h2>
-<p>Absolute eenvoud: LED-paneel met 10 duidelijke programma's. Geen app, geen Wi-Fi. Het piepje halverwege herinnert aan schudden. Reiniging uitstekend dankzij EZ Clean — mand en lade vaatwasmachinebestendig.</p>
-
-<h2>Energieverbruik</h2>
-<p>Met 1.500 W zeer zuinig: <strong>0,46 kWh</strong> voor 22 minuten friet. Maandelijks: ~€3,50, 65% besparing ten opzichte van de oven.</p>
-
-<h2>Sterke en zwakke punten</h2>
+<h2>Sterke punten en beperkingen</h2>
 <h3>Sterke punten</h3>
 <ul>
-<li><strong>Toegankelijke prijs</strong>: €89,99</li>
-<li><strong>Voorbeeldige eenvoud</strong>: 10 programma's, direct bruikbaar</li>
-<li><strong>Repareerbaarheid</strong>: 8,2/10, 15 jaar onderdelen</li>
-<li><strong>EZ Clean coating</strong>: makkelijk schoonmaken</li>
-<li><strong>Vertrouwd merk</strong></li>
+<li>Direct te gebruiken dankzij 10 programma’s en een aanraakpaneel;</li>
+<li>Inhoud van 5 liter, geschikt voor 2 tot 4 personen;</li>
+<li>Vaatwasserbestendige antiaanbakmand;</li>
+<li>Repareerbaarheidsbelofte van 15 jaar;</li>
+<li>Compact voor zijn inhoud;</li>
+<li>Geen app te installeren en geen account aan te maken.</li>
 </ul>
-<h3>Zwakke punten</h3>
+<h3>Beperkingen</h3>
 <ul>
-<li><strong>Max. 200°C</strong>: beperkt vleesbereiding</li>
-<li><strong>Bescheiden vermogen</strong>: 1.500 W, langzamer</li>
-<li><strong>Geen connectiviteit</strong></li>
-<li><strong>Timer max. 60 min</strong></li>
-<li><strong>Basis ontwerp</strong></li>
+<li>Maximaal 200 °C, minder geschikt om rood vlees dicht te schroeien;</li>
+<li>Eén lade: geen twee gerechten tegelijk op verschillende temperaturen;</li>
+<li>Geen kijkvenster;</li>
+<li>Geen slimme functies;</li>
+<li>Sommige kopers noemen een hoorbaar ventilatorgeluid, gebruikelijk bij dit type apparaat.</li>
 </ul>
 
-<h2>Gedetailleerde Nura Score</h2>
+<h2>Vergeleken met de alternatieven</h2>
+<h3>Cosori Dual Blaze 6,4 L</h3>
+<p>De <a href="/nl/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a> verwarmt van boven en onder, haalt 230 °C en is ook via een app te bedienen. Hij is veelzijdiger en ruimer, maar ook duurder en iets complexer. Kies hem als bruining en inhoud belangrijker zijn dan eenvoud.</p>
+<h3>Philips Airfryer 3000 Series XL 6,2 L</h3>
+<p>De <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 Series XL</a> heeft een grotere mand voor gezinnen van vier en de snelle luchtcirculatie van het merk. Het logische alternatief als 5 liter krap aanvoelt.</p>
+<h3>Xiaomi Smart Air Fryer Pro 4L</h3>
+<p>De <a href="/nl/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro 4L</a> is kleiner maar verbonden: bediening via app, begeleide recepten en starten op afstand. Geschikt voor stellen en alleenstaanden die van slimme functies houden.</p>
+<h3>Cosori Lite 3,8 L</h3>
+<p>De Cosori Lite 3,8 L is nog compacter, haalt 230 °C en is via een app te bedienen. Hij past bij een alleenstaande, een stel of een kleine keuken, maar wordt voor een gezin al snel te krap.</p>
+
+<h2>Vergelijkingstabel</h2>
 <table>
-<thead><tr><th>Criterium</th><th>Score</th><th>Commentaar</th></tr></thead>
+<thead><tr><th>Model</th><th>Inhoud</th><th>Max. temperatuur</th><th>Connectiviteit</th><th>Ideaal voor</th></tr></thead>
 <tbody>
-<tr><td>Kookprestaties</td><td>7,5/10</td><td>Goed voor friet en groenten, beperkt voor vlees</td></tr>
-<tr><td>Gebruiksgemak</td><td>9,5/10</td><td>Eenvoudigste naast Philips 3000</td></tr>
-<tr><td>Design</td><td>7,5/10</td><td>Basis maar robuust, top repareerbaarheid</td></tr>
-<tr><td>Veelzijdigheid</td><td>7,5/10</td><td>10 programma's maar 200°C max</td></tr>
-<tr><td>Prijs-kwaliteit</td><td>9,5/10</td><td>€89,99 voor deze betrouwbaarheid</td></tr>
-<tr><td>Reiniging</td><td>9,5/10</td><td>EZ Clean zeer effectief</td></tr>
-<tr><td>Geluid</td><td>8,0/10</td><td>62 dB, gemiddeld</td></tr>
-<tr><td><strong>Totale Nura Score</strong></td><td><strong>8,3/10</strong></td><td><strong>Meest betrouwbare en toegankelijke</strong></td></tr>
+<tr><td><strong>Moulinex Easy Fry Max 5L</strong></td><td>5 L, 1 lade</td><td>200 °C</td><td>Nee</td><td>Huishoudens van 2 tot 4 personen die eenvoud willen</td></tr>
+<tr><td>Cosori Dual Blaze 6,4 L</td><td>6,4 L, 1 lade</td><td>230 °C</td><td>App</td><td>Vlees dichtschroeien en veelzijdig koken</td></tr>
+<tr><td>Philips 3000 Series XL 6,2 L</td><td>6,2 L, 1 lade</td><td>200 °C</td><td>Nee</td><td>Gezinnen van vier</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 L, 1 lade</td><td>200 °C</td><td>App</td><td>Stellen die van slimme functies houden</td></tr>
+<tr><td>Cosori Lite 3,8 L</td><td>3,8 L, 1 lade</td><td>230 °C</td><td>App</td><td>Alleenstaanden en kleine keukens</td></tr>
 </tbody>
 </table>
 
-<h2>Verdict</h2>
-<p>De Moulinex Easy Fry Max 5L is <strong>de verstandige airfryer</strong>. Perfect voor gezinnen die iets betrouwbaars willen zonder poespas. Voor meer prestaties: <a href="/nl/blog/test-cosori-dual-blaze">Cosori Dual Blaze</a> voor €50 meer. Budgetopties in <a href="/nl/blog/meilleur-airfryer-petit-budget">beste budget airfryers</a> en de <a href="/nl/guides/airfryers">complete gids 2026</a>.</p>
-
-<h2>Moulinex duurzaamheid: een concreet voordeel</h2>
-<p>Moulinex is het enige merk in onze selectie dat de beschikbaarheid van reserveonderdelen voor <strong>15 jaar</strong> na aankoop garandeert. Als de antiaanbakmand na 5 jaar verslijt, kunt u een officieel vervangstuk bestellen. In een wereld van geplande veroudering is dit een uitzonderlijke toezegging. Over 15 jaar dagelijks gebruik dalen de kosten per gebruik tot minder dan 2 cent.</p>
-
-<h2>Vergelijking met de concurrentie</h2>
-<table>
-<thead><tr><th>Model</th><th>Prijs</th><th>Capaciteit</th><th>Max. temp.</th><th>Onderdelen garantie</th><th>Nura Score</th></tr></thead>
-<tbody>
-<tr><td><strong>Moulinex Easy Fry Max 5L</strong></td><td>€89,99</td><td>5L</td><td>200°C</td><td>15 jaar</td><td>8,3/10</td></tr>
-<tr><td>Xiaomi Smart Pro 4L</td><td>€79,99</td><td>4L</td><td>200°C</td><td>Standaard 2 jaar</td><td>8,0/10</td></tr>
-<tr><td>Philips 3000 XL 6,2L</td><td>€119,99</td><td>6,2L</td><td>200°C</td><td>Standaard 2 jaar</td><td>8,7/10</td></tr>
-<tr><td>Cosori Dual Blaze 6,4L</td><td>€139,99</td><td>6,4L</td><td>230°C</td><td>Standaard 2 jaar</td><td>8,9/10</td></tr>
-</tbody>
-</table>
-
-<h2>Voor wie is de Moulinex Easy Fry Max ideaal?</h2>
+<h2>Fouten die je met de Easy Fry Max beter vermijdt</h2>
 <ul>
-<li><strong>Gezinnen van 2-4 personen</strong> die een eenvoudig, betrouwbaar apparaat willen zonder onnodige functies</li>
-<li><strong>Verantwoorde consumenten</strong> die duurzaamheid en repareerbaarheid prioriteren</li>
-<li><strong>Mensen die niet handig zijn met technologie</strong>: geen app, geen Wi-Fi, alleen een draaiknop</li>
-<li><strong>Budgetbewuste kopers</strong>: beste prijs-kwaliteit-duurzaamheidsverhouding onder €100</li>
+<li><strong>De mand te vol doen</strong>: boven de helft tot twee derde stoomt de friet en blijft hij slap. Liever twee rondes.</li>
+<li><strong>Vergeten te schudden</strong>: halverwege schudden is nodig voor een gelijkmatige bruining.</li>
+<li><strong>Metalen keukengerei gebruiken</strong>: dat krast de antiaanbaklaag.</li>
+<li><strong>Het apparaat tegen de muur zetten</strong>: laat ruimte rond de hete-luchtuitlaat aan de achterkant.</li>
+<li><strong>Voorverwarmen met leeg bakpapier</strong>: het kan naar het verwarmingselement worden gezogen.</li>
 </ul>
+<p>Lees meer in ons artikel over <a href="/nl/blog/erreurs-courantes-airfryer">veelgemaakte fouten met een airfryer</a>.</p>
 
-<h2>Gedetailleerd eindoordeel</h2>
-<p>De Moulinex Easy Fry Max 5L is een apparaat zonder verrassingen — en dat is precies wat een groot deel van de kopers zoekt. Hij verwarmt goed, kookt consistent, maakt gemakkelijk schoon en is over 10 jaar nog steeds repareerbaar. In een wereld van wegwerkapparaten is dit een moedige en verantwoorde keuze.</p>
-<p>Zijn grootste zwakte is de 200°C-limiet die het aanbraden van vlees en de krokantheit van friet benadeelt ten opzichte van de Cosori Dual Blaze (230°C). Als kookwaliteit uw absolute prioriteit is, kies dan de Cosori. Maar als u een betrouwbare keukenvriend voor de komende 10 jaar zoekt, is de Moulinex Easy Fry Max onze aanbeveling. Bevestigde Nura Score: <strong>8,3/10</strong>.</p>`,
+<h2>Veiligheid en eerste gebruik</h2>
+<p>Was vóór de eerste bereiding de mand en laat het apparaat een paar minuten leeg draaien: een lichte nieuwe geur is in het begin normaal en verdwijnt snel. Zet de airfryer op een stabiel, hittebestendig oppervlak, uit de buurt van gordijnen en hangkasten. Sluit hem niet aan op een overbelaste stekkerdoos en laat hem afkoelen voordat je hem schoonmaakt of opbergt.</p>
+
+<h2>Ons oordeel</h2>
+<p>De Moulinex Easy Fry Max 5L is een <strong>verstandige en duurzame keuze</strong> voor wie een airfryer zonder gedoe wil. Hij probeert niet te concurreren met de meest veelzijdige modellen, maar doet het belangrijkste heel goed: friet, kip, groenten en diepvriesproducten, met eenvoudige reiniging en een geruststellende repareerbaarheidsbelofte.</p>
+<p>Wil je vlees dichtschroeien of voor een grote groep koken, kijk dan naar de Cosori Dual Blaze of de Philips 3000 Series XL. Om andere betaalbare modellen te vergelijken, bekijk onze selectie van de <a href="/nl/blog/meilleur-airfryer-petit-budget">beste budget-airfryers</a>, en vind al onze aanbevelingen in onze <a href="/nl/guides/airfryers">gids met de beste airfryers</a>.</p>`,
   },
   faq: [
     {
       question: {
-        fr: 'Quels sont les avantages d\'une marque française comme Moulinex pour un airfryer ?',
-        en: 'What are the advantages of a French brand like Moulinex for an air fryer?',
-        de: 'Welche Vorteile hat eine französische Marke wie Moulinex bei einer Heißluftfritteuse?',
-        es: '¿Cuáles son las ventajas de una marca francesa como Moulinex para una freidora de aire?',
-        it: 'Quali sono i vantaggi di un marchio francese come Moulinex per una friggitrice ad aria?',
-        nl: 'Wat zijn de voordelen van een Frans merk als Moulinex voor een airfryer?',
+        fr: 'Le Moulinex Easy Fry Max 5L vaut-il le coup en 2026 ?',
+        en: 'Is the Moulinex Easy Fry Max 5L worth it in 2026?',
+        de: 'Lohnt sich die Moulinex Easy Fry Max 5L im Jahr 2026?',
+        es: '¿Merece la pena la Moulinex Easy Fry Max 5L en 2026?',
+        it: 'La Moulinex Easy Fry Max 5L vale la pena nel 2026?',
+        nl: 'Is de Moulinex Easy Fry Max 5L in 2026 de moeite waard?',
       },
       answer: {
-        fr: 'Moulinex offre un service après-vente accessible en France, une garantie de 2 ans et surtout un indice de réparabilité de 8,2/10 avec 15 ans de disponibilité des pièces détachées. En cas de panne après plusieurs années, vous pouvez remplacer une pièce sans jeter l\'appareil, un engagement responsable et économique rare dans ce secteur.',
-        en: 'Moulinex offers accessible after-sales service in France, a 2-year warranty, and most importantly a repairability index of 8.2/10 with 15 years of spare parts availability. If a part fails after several years, you can replace it without discarding the appliance — a responsible and economical commitment rare in this sector.',
-        de: 'Moulinex bietet zugänglichen Kundendienst in Frankreich, 2 Jahre Garantie und vor allem einen Reparierbarkeitsindex von 8,2/10 mit 15 Jahren Ersatzteilversorgung. Bei einem Defekt nach Jahren können Sie ein Teil ersetzen, statt das Gerät wegzuwerfen — ein verantwortungsvolles und sparsames Engagement, das in der Branche selten ist.',
-        es: 'Moulinex ofrece servicio posventa accesible en Francia, garantía de 2 años y sobre todo un índice de reparabilidad de 8,2/10 con 15 años de disponibilidad de repuestos. Si se avería tras varios años, puedes reemplazar la pieza sin desechar el aparato, un compromiso responsable y económico poco frecuente en el sector.',
-        it: 'Moulinex offre assistenza post-vendita accessibile in Francia, garanzia di 2 anni e soprattutto un indice di riparabilità di 8,2/10 con 15 anni di disponibilità ricambi. In caso di guasto dopo anni, si può sostituire il pezzo senza buttare l\'apparecchio, un impegno responsabile ed economico raro nel settore.',
-        nl: 'Moulinex biedt toegankelijke klantenservice in Frankrijk, 2 jaar garantie en vooral een repareerbaarheidsindex van 8,2/10 met 15 jaar beschikbaarheid van reserveonderdelen. Bij een defect na jaren kun je een onderdeel vervangen zonder het apparaat weg te gooien, een verantwoordelijk en zuinig engagement dat zeldzaam is in deze sector.',
+        fr: 'Oui, si vous cherchez un airfryer simple pour 2 à 4 personnes. Il fait très bien les frites, le poulet et les légumes, se nettoie facilement et bénéficie de l’engagement « réparable 15 ans » de Moulinex. Pour saisir des viandes ou cuisiner pour 5 personnes et plus, un modèle plus grand ou montant à 230 °C sera plus adapté.',
+        en: 'Yes, if you want a simple air fryer for 2 to 4 people. It handles fries, chicken and vegetables very well, is easy to clean and is covered by Moulinex’s “repairable for 15 years” commitment. For searing meat or cooking for 5 or more, a larger model or one that reaches 230 °C is a better fit.',
+        de: 'Ja, wenn Sie eine einfache Heißluftfritteuse für 2 bis 4 Personen suchen. Sie gelingt bei Pommes, Hähnchen und Gemüse sehr gut, ist leicht zu reinigen und fällt unter das Moulinex-Versprechen „15 Jahre reparierbar“. Zum scharfen Anbraten oder für 5 und mehr Personen passt ein größeres Modell oder eines mit 230 °C besser.',
+        es: 'Sí, si buscas una freidora de aire sencilla para 2 a 4 personas. Hace muy bien patatas, pollo y verduras, se limpia fácilmente y está cubierta por el compromiso «reparable 15 años» de Moulinex. Para sellar carne o cocinar para 5 o más, conviene un modelo más grande o que llegue a 230 °C.',
+        it: 'Sì, se cerchi una friggitrice ad aria semplice per 2-4 persone. Riesce molto bene con patatine, pollo e verdure, si pulisce facilmente ed è coperta dall’impegno Moulinex «riparabile 15 anni». Per rosolare la carne o cucinare per 5 o più persone è meglio un modello più grande o che arrivi a 230 °C.',
+        nl: 'Ja, als je een eenvoudige airfryer zoekt voor 2 tot 4 personen. Hij maakt friet, kip en groenten heel goed, is makkelijk schoon te maken en valt onder de Moulinex-belofte “15 jaar repareerbaar”. Om vlees dicht te schroeien of voor 5 personen of meer te koken, past een groter model of een model tot 230 °C beter.',
       },
     },
     {
       question: {
-        fr: 'Le Moulinex Easy Fry Max 5L est-il assez grand pour une famille de 4 personnes ?',
-        en: 'Is the Moulinex Easy Fry Max 5L large enough for a family of 4?',
-        de: 'Ist der Moulinex Easy Fry Max 5L groß genug für eine 4-köpfige Familie?',
-        es: '¿Es suficiente el Moulinex Easy Fry Max 5L para una familia de 4 personas?',
-        it: 'Il Moulinex Easy Fry Max 5L è abbastanza grande per una famiglia di 4 persone?',
-        nl: 'Is de Moulinex Easy Fry Max 5L groot genoeg voor een gezin van 4 personen?',
+        fr: 'Le Moulinex Easy Fry Max 5L suffit-il pour une famille de 4 personnes ?',
+        en: 'Is the Moulinex Easy Fry Max 5L big enough for a family of four?',
+        de: 'Reicht die Moulinex Easy Fry Max 5L für eine vierköpfige Familie?',
+        es: '¿Es suficiente la Moulinex Easy Fry Max 5L para una familia de cuatro?',
+        it: 'La Moulinex Easy Fry Max 5L basta per una famiglia di quattro persone?',
+        nl: 'Is de Moulinex Easy Fry Max 5L groot genoeg voor een gezin van vier?',
       },
       answer: {
-        fr: 'Le Moulinex Easy Fry Max offre 5 litres de capacité, ce qui convient pour 2 à 4 personnes. Vous pouvez cuire 500 g de frites fraîches ou 4 pilons de poulet en une fournée. Pour une famille de 4, c\'est juste suffisant mais des fournées multiples seront nécessaires pour les repas copieux. Une famille de 5 et plus devrait choisir un modèle plus grand.',
-        en: 'The Moulinex Easy Fry Max offers 5 litres of capacity, suitable for 2 to 4 people. You can cook 500 g of fresh fries or 4 chicken drumsticks in one batch. For a family of 4, it is just sufficient but multiple batches will be needed for larger meals. A family of 5 or more should choose a larger model.',
-        de: 'Der Moulinex Easy Fry Max bietet 5 Liter Fassungsvermögen, geeignet für 2 bis 4 Personen. Sie können 500 g frische Pommes oder 4 Hähnchenschenkel in einer Charge garen. Für eine 4-köpfige Familie reicht es knapp, aber für größere Mahlzeiten sind mehrere Chargen nötig. Familien ab 5 Personen sollten ein größeres Modell wählen.',
-        es: 'El Moulinex Easy Fry Max ofrece 5 litros de capacidad, adecuado para 2 a 4 personas. Permite cocinar 500 g de patatas frescas o 4 muslos de pollo de una vez. Para 4 personas es justo, pero se necesitarán varias tandas para comidas abundantes. Familias de 5 o más deberían elegir un modelo más grande.',
-        it: 'Il Moulinex Easy Fry Max offre 5 litri di capacità, adatto per 2-4 persone. Si possono cuocere 500 g di patatine fresche o 4 cosce di pollo in una volta. Per 4 persone è appena sufficiente ma saranno necessarie più infornate per pasti abbondanti. Famiglie di 5 o più dovrebbero scegliere un modello più grande.',
-        nl: 'De Moulinex Easy Fry Max biedt 5 liter capaciteit, geschikt voor 2 tot 4 personen. Je kunt 500 g verse friet of 4 kippenpoten in één keer bereiden. Voor een gezin van 4 is het net voldoende, maar voor grotere maaltijden zijn meerdere batches nodig. Een gezin van 5 of meer zou een groter model moeten kiezen.',
+        fr: 'Pour un accompagnement, oui : 5 litres permettent de préparer des frites ou des légumes pour 4 personnes. Pour un plat principal complet, il faudra parfois deux fournées, car un panier trop rempli donne des aliments moins croustillants. Les grandes familles préféreront un modèle de 6 litres ou plus.',
+        en: 'For side dishes, yes: 5 litres is enough for fries or vegetables for four. For a full main course you will sometimes need two batches, because an overfilled basket gives less crispy results. Larger families will prefer a 6-litre-plus model.',
+        de: 'Für Beilagen ja: 5 Liter reichen für Pommes oder Gemüse für vier Personen. Für ein komplettes Hauptgericht sind manchmal zwei Durchgänge nötig, denn ein überfüllter Korb liefert weniger knusprige Ergebnisse. Größere Familien sind mit einem Modell ab 6 Litern besser bedient.',
+        es: 'Para guarniciones, sí: 5 litros bastan para patatas o verduras para cuatro. Para un plato principal completo a veces harán falta dos tandas, porque una cesta demasiado llena da resultados menos crujientes. Las familias grandes preferirán un modelo de 6 litros o más.',
+        it: 'Per i contorni sì: 5 litri bastano per patatine o verdure per quattro persone. Per un piatto principale completo a volte servono due infornate, perché un cestello troppo pieno dà risultati meno croccanti. Le famiglie numerose preferiranno un modello da 6 litri in su.',
+        nl: 'Voor bijgerechten wel: 5 liter is genoeg voor friet of groenten voor vier personen. Voor een volledig hoofdgerecht heb je soms twee rondes nodig, omdat een te volle mand minder krokante resultaten geeft. Grotere gezinnen kiezen beter een model vanaf 6 liter.',
       },
     },
     {
       question: {
-        fr: 'Quelle est la plage de température du Moulinex Easy Fry Max ?',
-        en: 'What is the temperature range of the Moulinex Easy Fry Max?',
-        de: 'Welchen Temperaturbereich hat der Moulinex Easy Fry Max?',
-        es: '¿Cuál es el rango de temperatura del Moulinex Easy Fry Max?',
-        it: 'Qual è il range di temperatura del Moulinex Easy Fry Max?',
-        nl: 'Wat is het temperatuurbereik van de Moulinex Easy Fry Max?',
+        fr: 'Quelle est la température maximale du Moulinex Easy Fry Max ?',
+        en: 'What is the maximum temperature of the Moulinex Easy Fry Max?',
+        de: 'Welche Höchsttemperatur erreicht die Moulinex Easy Fry Max?',
+        es: '¿Cuál es la temperatura máxima de la Moulinex Easy Fry Max?',
+        it: 'Qual è la temperatura massima della Moulinex Easy Fry Max?',
+        nl: 'Wat is de maximale temperatuur van de Moulinex Easy Fry Max?',
       },
       answer: {
-        fr: 'Le Moulinex Easy Fry Max offre une plage de température de 80°C à 200°C. Cette plage est suffisante pour la majorité des cuissons quotidiennes comme les frites, le poulet et les légumes. La limite de 200°C est cependant un handicap pour saisir les viandes rouges où une température de 230°C ou plus serait préférable pour une croûte optimale.',
-        en: 'The Moulinex Easy Fry Max offers a temperature range from 80°C to 200°C. This range is sufficient for most everyday cooking like fries, chicken and vegetables. The 200°C limit is however a drawback for searing red meat, where 230°C or higher would be preferable for an optimal crust.',
-        de: 'Der Moulinex Easy Fry Max bietet einen Temperaturbereich von 80°C bis 200°C. Dieser Bereich reicht für die meisten Alltagsgerichte wie Pommes, Hähnchen und Gemüse. Die 200°C-Grenze ist allerdings ein Nachteil beim Anbraten von rotem Fleisch, wo 230°C oder mehr für eine optimale Kruste vorzuziehen wären.',
-        es: 'El Moulinex Easy Fry Max ofrece un rango de temperatura de 80°C a 200°C. Este rango es suficiente para la mayoría de cocciones diarias como patatas, pollo y verduras. El límite de 200°C es sin embargo una desventaja para sellar carnes rojas, donde 230°C o más serían preferibles para una costra óptima.',
-        it: 'Il Moulinex Easy Fry Max offre un range di temperatura da 80°C a 200°C. Questo range è sufficiente per la maggior parte delle cotture quotidiane come patatine, pollo e verdure. Il limite di 200°C è però uno svantaggio per scottare le carni rosse, dove 230°C o più sarebbero preferibili per una crosta ottimale.',
-        nl: 'De Moulinex Easy Fry Max biedt een temperatuurbereik van 80°C tot 200°C. Dit bereik is voldoende voor de meeste dagelijkse bereidingen zoals friet, kip en groenten. De 200°C-limiet is wel een nadeel voor het aanbraden van rood vlees, waar 230°C of hoger wenselijk zou zijn voor een optimale korst.',
+        fr: 'Il monte jusqu’à 200 °C, avec une minuterie jusqu’à 60 minutes. C’est suffisant pour la grande majorité des cuissons du quotidien. Pour une croûte plus marquée sur les viandes rouges, des modèles comme le Cosori Dual Blaze montent jusqu’à 230 °C.',
+        en: 'It goes up to 200 °C, with a timer of up to 60 minutes. That covers the vast majority of everyday cooking. For a deeper crust on red meat, models like the Cosori Dual Blaze reach 230 °C.',
+        de: 'Sie erreicht bis zu 200 °C, mit einem Timer bis 60 Minuten. Das deckt den Großteil der Alltagsgerichte ab. Für eine kräftigere Kruste bei rotem Fleisch erreichen Modelle wie die Cosori Dual Blaze 230 °C.',
+        es: 'Llega hasta 200 °C, con un temporizador de hasta 60 minutos. Es suficiente para la gran mayoría de cocciones diarias. Para una costra más marcada en la carne roja, modelos como la Cosori Dual Blaze alcanzan 230 °C.',
+        it: 'Arriva fino a 200 °C, con un timer fino a 60 minuti. È sufficiente per la gran parte delle cotture quotidiane. Per una crosticina più marcata sulla carne rossa, modelli come la Cosori Dual Blaze raggiungono 230 °C.',
+        nl: 'Hij gaat tot 200 °C, met een timer tot 60 minuten. Dat volstaat voor het overgrote deel van de dagelijkse bereidingen. Voor een stevigere korst op rood vlees halen modellen als de Cosori Dual Blaze 230 °C.',
       },
     },
     {
       question: {
-        fr: 'Le Moulinex Easy Fry Max est-il facile à nettoyer ?',
-        en: 'Is the Moulinex Easy Fry Max easy to clean?',
-        de: 'Ist der Moulinex Easy Fry Max leicht zu reinigen?',
-        es: '¿Es fácil de limpiar el Moulinex Easy Fry Max?',
-        it: 'Il Moulinex Easy Fry Max è facile da pulire?',
-        nl: 'Is de Moulinex Easy Fry Max makkelijk schoon te maken?',
+        fr: 'Le panier du Moulinex Easy Fry Max passe-t-il au lave-vaisselle ?',
+        en: 'Is the Moulinex Easy Fry Max basket dishwasher safe?',
+        de: 'Ist der Korb der Moulinex Easy Fry Max spülmaschinenfest?',
+        es: '¿La cesta de la Moulinex Easy Fry Max va al lavavajillas?',
+        it: 'Il cestello della Moulinex Easy Fry Max va in lavastoviglie?',
+        nl: 'Mag de mand van de Moulinex Easy Fry Max in de vaatwasser?',
       },
       answer: {
-        fr: 'Le nettoyage est un point fort du Moulinex Easy Fry Max grâce au revêtement EZ Clean légèrement texturé. Le panier et le tiroir passent au lave-vaisselle. Les résidus alimentaires se décollent avec un simple trempage de 5 minutes. C\'est l\'un des airfryers les plus faciles à nettoyer de notre sélection, avec un score de 9,5/10 dans cette catégorie.',
-        en: 'Cleaning is a strong point of the Moulinex Easy Fry Max thanks to the slightly textured EZ Clean coating. The basket and drawer are dishwasher safe. Food residue comes off with a simple 5-minute soak. It is one of the easiest air fryers to clean in our selection, scoring 9.5/10 in this category.',
-        de: 'Die Reinigung ist eine Stärke des Moulinex Easy Fry Max dank der leicht texturierten EZ-Clean-Beschichtung. Korb und Schublade sind spülmaschinenfest. Essensreste lösen sich nach 5 Minuten Einweichen. Er gehört zu den am leichtesten zu reinigenden Heißluftfritteusen in unserer Auswahl, mit 9,5/10 in dieser Kategorie.',
-        es: 'La limpieza es un punto fuerte del Moulinex Easy Fry Max gracias al recubrimiento EZ Clean ligeramente texturizado. La cesta y el cajón son aptos para lavavajillas. Los restos se despegan con un remojo de 5 minutos. Es una de las freidoras más fáciles de limpiar de nuestra selección, con 9,5/10 en esta categoría.',
-        it: 'La pulizia è un punto di forza del Moulinex Easy Fry Max grazie al rivestimento EZ Clean leggermente testurizzato. Cestello e cassetto sono lavabili in lavastoviglie. I residui si staccano con un semplice ammollo di 5 minuti. È una delle friggitrici più facili da pulire nella nostra selezione, con 9,5/10 in questa categoria.',
-        nl: 'Reiniging is een sterk punt van de Moulinex Easy Fry Max dankzij de licht getextureerde EZ Clean-coating. Mand en lade zijn vaatwasmachinebestendig. Etensresten komen los met een eenvoudige 5 minuten weken. Het is een van de makkelijkst schoon te maken airfryers in onze selectie, met 9,5/10 in deze categorie.',
+        fr: 'Oui, le panier antiadhésif et sa grille sont compatibles lave-vaisselle. Un lavage à la main avec une éponge douce reste conseillé de temps en temps pour préserver le revêtement, et il faut éviter les ustensiles métalliques et les tampons abrasifs.',
+        en: 'Yes, the non-stick basket and its grid are dishwasher safe. Washing by hand with a soft sponge from time to time is still advisable to protect the coating, and you should avoid metal utensils and abrasive pads.',
+        de: 'Ja, der antihaftbeschichtete Korb und sein Gitter sind spülmaschinenfest. Gelegentliches Spülen von Hand mit einem weichen Schwamm schont dennoch die Beschichtung; Metallutensilien und Scheuerschwämme sollten Sie meiden.',
+        es: 'Sí, la cesta antiadherente y su rejilla son aptas para lavavajillas. Aun así, conviene lavarlas a mano de vez en cuando con una esponja suave para cuidar el revestimiento y evitar utensilios metálicos y estropajos.',
+        it: 'Sì, il cestello antiaderente e la sua griglia sono lavabili in lavastoviglie. È comunque consigliabile lavarli ogni tanto a mano con una spugna morbida per preservare il rivestimento, evitando utensili metallici e pagliette.',
+        nl: 'Ja, de antiaanbakmand en het rooster zijn vaatwasserbestendig. Af en toe met de hand afwassen met een zachte spons blijft aan te raden om de coating te sparen, en vermijd metalen keukengerei en schuursponzen.',
       },
     },
     {
       question: {
-        fr: 'Quels accessoires sont compatibles avec le Moulinex Easy Fry Max ?',
-        en: 'What accessories are compatible with the Moulinex Easy Fry Max?',
-        de: 'Welches Zubehör ist mit dem Moulinex Easy Fry Max kompatibel?',
-        es: '¿Qué accesorios son compatibles con el Moulinex Easy Fry Max?',
-        it: 'Quali accessori sono compatibili con il Moulinex Easy Fry Max?',
-        nl: 'Welke accessoires zijn compatibel met de Moulinex Easy Fry Max?',
+        fr: 'Que signifie l’engagement « réparable 15 ans » de Moulinex ?',
+        en: 'What does Moulinex’s “repairable for 15 years” commitment mean?',
+        de: 'Was bedeutet das Moulinex-Versprechen „15 Jahre reparierbar“?',
+        es: '¿Qué significa el compromiso «reparable 15 años» de Moulinex?',
+        it: 'Cosa significa l’impegno Moulinex «riparabile 15 anni»?',
+        nl: 'Wat betekent de Moulinex-belofte “15 jaar repareerbaar”?',
       },
       answer: {
-        fr: 'Le Moulinex Easy Fry Max est livré avec son panier amovible doté du revêtement EZ Clean. Moulinex propose des accessoires optionnels compatibles, notamment des moules et grilles adaptés au format du tiroir. L\'appareil inclut 10 programmes prédéfinis couvrant frites, poulet, poisson, pizza, légumes, dessert et autres préparations courantes.',
-        en: 'The Moulinex Easy Fry Max comes with its removable basket featuring the EZ Clean coating. Moulinex offers optional compatible accessories, including moulds and grids sized for the drawer. The appliance includes 10 preset programmes covering fries, chicken, fish, pizza, vegetables, dessert, and other common preparations.',
-        de: 'Der Moulinex Easy Fry Max wird mit seinem herausnehmbaren Korb mit EZ-Clean-Beschichtung geliefert. Moulinex bietet optionales kompatibles Zubehör an, darunter Formen und Roste passend zur Schubladengröße. Das Gerät umfasst 10 voreingestellte Programme für Pommes, Hähnchen, Fisch, Pizza, Gemüse, Dessert und andere Alltagsgerichte.',
-        es: 'El Moulinex Easy Fry Max incluye su cesta extraíble con recubrimiento EZ Clean. Moulinex ofrece accesorios opcionales compatibles, incluyendo moldes y rejillas adaptados al cajón. El aparato incluye 10 programas predefinidos que cubren patatas, pollo, pescado, pizza, verduras, postre y otras preparaciones comunes.',
-        it: 'Il Moulinex Easy Fry Max include il cestello rimovibile con rivestimento EZ Clean. Moulinex offre accessori opzionali compatibili, tra cui stampi e griglie adatti al cassetto. L\'apparecchio include 10 programmi preimpostati che coprono patatine, pollo, pesce, pizza, verdure, dolce e altre preparazioni comuni.',
-        nl: 'De Moulinex Easy Fry Max wordt geleverd met zijn uitneembare mand met EZ Clean-coating. Moulinex biedt optionele compatibele accessoires aan, waaronder vormen en roosters die passen in de lade. Het apparaat bevat 10 voorgeprogrammeerde programma\'s voor friet, kip, vis, pizza, groenten, dessert en andere veelvoorkomende bereidingen.',
+        fr: 'C’est un engagement de la marque à garder les pièces détachées disponibles sur une longue durée et à permettre la réparation via son réseau de réparateurs agréés. Ce n’est pas une garantie gratuite de 15 ans : la garantie légale s’applique, puis les réparations hors garantie restent à la charge de l’utilisateur.',
+        en: 'It is the brand’s commitment to keep spare parts available for a long period and to enable repairs through its network of approved repairers. It is not a free 15-year warranty: the standard legal warranty applies, and out-of-warranty repairs are paid for by the owner.',
+        de: 'Es ist die Zusage der Marke, Ersatzteile lange verfügbar zu halten und Reparaturen über ihr Netz zugelassener Werkstätten zu ermöglichen. Es ist keine kostenlose 15-Jahres-Garantie: Es gilt die gesetzliche Gewährleistung, Reparaturen danach zahlt der Besitzer.',
+        es: 'Es el compromiso de la marca de mantener los recambios disponibles durante mucho tiempo y facilitar la reparación a través de su red de servicios técnicos autorizados. No es una garantía gratuita de 15 años: se aplica la garantía legal y las reparaciones posteriores corren a cargo del propietario.',
+        it: 'È l’impegno del marchio a mantenere disponibili i ricambi a lungo e a consentire la riparazione tramite la sua rete di centri autorizzati. Non è una garanzia gratuita di 15 anni: vale la garanzia legale, e le riparazioni fuori garanzia sono a carico del proprietario.',
+        nl: 'Het is de toezegging van het merk om onderdelen lang beschikbaar te houden en reparatie mogelijk te maken via het netwerk van erkende reparateurs. Het is geen gratis garantie van 15 jaar: de wettelijke garantie geldt, en reparaties daarna betaalt de eigenaar.',
+      },
+    },
+    {
+      question: {
+        fr: 'Faut-il préférer le Moulinex Easy Fry Max ou le Cosori Dual Blaze ?',
+        en: 'Should I choose the Moulinex Easy Fry Max or the Cosori Dual Blaze?',
+        de: 'Moulinex Easy Fry Max oder Cosori Dual Blaze: Welche sollte ich wählen?',
+        es: '¿Moulinex Easy Fry Max o Cosori Dual Blaze: cuál elegir?',
+        it: 'Meglio la Moulinex Easy Fry Max o la Cosori Dual Blaze?',
+        nl: 'Kies ik de Moulinex Easy Fry Max of de Cosori Dual Blaze?',
+      },
+      answer: {
+        fr: 'Le Moulinex convient si vous voulez la simplicité, un appareil sans application et un bon suivi des pièces. Le Cosori Dual Blaze, plus grand, chauffe par le haut et par le bas et monte à 230 °C : il est plus polyvalent, notamment pour les viandes, mais aussi plus cher.',
+        en: 'The Moulinex suits you if you want simplicity, no app and good parts support. The larger Cosori Dual Blaze heats from top and bottom and reaches 230 °C: it is more versatile, especially for meat, but also more expensive.',
+        de: 'Die Moulinex passt, wenn Sie Einfachheit, keine App und eine gute Ersatzteilversorgung wollen. Die größere Cosori Dual Blaze heizt von oben und unten und erreicht 230 °C: vielseitiger, vor allem bei Fleisch, aber auch teurer.',
+        es: 'La Moulinex encaja si buscas sencillez, sin aplicación y con buen soporte de recambios. La Cosori Dual Blaze, más grande, calienta por arriba y por abajo y llega a 230 °C: es más versátil, sobre todo con la carne, pero también más cara.',
+        it: 'La Moulinex fa per te se cerchi semplicità, nessuna app e un buon supporto ricambi. La Cosori Dual Blaze, più grande, scalda dall’alto e dal basso e arriva a 230 °C: è più versatile, soprattutto con la carne, ma anche più costosa.',
+        nl: 'De Moulinex past als je eenvoud wilt, geen app en goede onderdelenondersteuning. De grotere Cosori Dual Blaze verwarmt van boven en onder en haalt 230 °C: veelzijdiger, vooral voor vlees, maar ook duurder.',
       },
     },
   ],

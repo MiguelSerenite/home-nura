@@ -621,7 +621,7 @@ const problemTemplates: Record<Lang, ProblemUi> = {
         answer: `Vous pouvez choisir : le droit européen met la garantie légale à la charge du vendeur, pas du fabricant. En pratique, un retour magasin est souvent plus rapide, mais le fabricant peut réparer si la casse est hors garantie. Gardez la preuve d'achat.`,
       },
       {
-        question: `Comment Home Nura intègre ces pannes dans ses tests ?`,
+        question: `Comment Home Nura tient compte de ces pannes ?`,
         answer: `Notre méthodologie publique ajoute une pénalité Nura Score /10 pour tout ${cat.toLowerCase()} dont les pannes récurrentes sont documentées dans les retours utilisateurs européens. Un modèle qui tombe trop souvent en panne ne sort jamais en tête, quelle que soit sa marque.`,
       },
       {
@@ -715,7 +715,7 @@ const problemTemplates: Record<Lang, ProblemUi> = {
         answer: `Sie haben die Wahl: EU-Recht legt die gesetzliche Garantie auf den Verkäufer, nicht den Hersteller. In der Praxis ist die Ladenrückgabe meist schneller, aber der Hersteller kann bei Schäden außerhalb der Garantie reparieren. Kaufnachweis aufbewahren.`,
       },
       {
-        question: `Wie fließen solche Defekte in die Home-Nura-Tests ein?`,
+        question: `Wie berücksichtigt Home Nura solche Defekte?`,
         answer: `Unsere öffentliche Methodik zieht jedem ${cat}-Modell Nura-Score-Punkte ab, wenn wiederkehrende Defekte in europäischen Nutzerrückmeldungen dokumentiert sind. Ein Gerät, das zu oft ausfällt, landet nie oben — Marke hin oder her.`,
       },
       {
@@ -809,7 +809,7 @@ const problemTemplates: Record<Lang, ProblemUi> = {
         answer: `Potete scegliere: il diritto europeo pone la garanzia legale sul venditore, non sul produttore. In pratica, la restituzione in negozio è spesso più rapida, ma il produttore può riparare se il danno è fuori garanzia. Conservate la prova d'acquisto.`,
       },
       {
-        question: `Come integra Home Nura questi guasti nei suoi test?`,
+        question: `Come tiene conto Home Nura di questi guasti?`,
         answer: `La nostra metodologia pubblica applica una penalità al Nura Score /10 per ogni ${cat.toLowerCase()} con guasti ricorrenti documentati nei riscontri degli utenti europei. Un modello che si rompe troppo spesso non sale mai in cima, marchio a parte.`,
       },
       {
@@ -856,7 +856,7 @@ const problemTemplates: Record<Lang, ProblemUi> = {
         answer: `U mag kiezen: het Europees recht legt de wettelijke garantie bij de verkoper, niet bij de fabrikant. In de praktijk is winkelretour vaak sneller, maar de fabrikant kan repareren als het buiten de garantie valt. Bewaar het aankoopbewijs.`,
       },
       {
-        question: `Hoe verwerkt Home Nura dit soort defecten in tests?`,
+        question: `Hoe houdt Home Nura rekening met dit soort defecten?`,
         answer: `Onze publieke methodologie geeft een Nura Score /10-aftrek aan elke ${cat.toLowerCase()} waarvan terugkerende defecten zijn gedocumenteerd in Europese gebruikersfeedback. Een model dat te vaak stuk gaat, komt nooit bovenaan — merk of geen merk.`,
       },
       {

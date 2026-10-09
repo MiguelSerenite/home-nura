@@ -4,1161 +4,621 @@ export const article: BlogArticle = {
   slug: 'sonnette-video-sans-abonnement',
   category: 'comparatifs',
   pillar: 'securite-maison',
-  relatedSlugs: ['guide-securite-maison-connectee-2026', 'comparatif-camera-surveillance-exterieure', 'guide-domotique-economie-energie-2026'],
+  relatedSlugs: ['guide-securite-maison-connectee-2026', 'interphone-video-connecte', 'camera-interieure-sans-abonnement'],
   datePublished: '2026-04-16',
-  dateModified: '2026-04-16',
-  readingTime: 17,
+  dateModified: '2026-10-09',
+  readingTime: 8,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1561407679-c77098aeb531?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1633194883650-df448a10d554?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Sonnette video connectee sans abonnement pour securite maison',
-        en: 'Smart video doorbell without subscription for home security',
-        de: 'Video-Tuerklingel ohne Abo fuer Haussicherheit',
-        es: 'Videoportero inteligente sin cuotas para seguridad del hogar',
-        it: 'Videocitofono smart senza abbonamento per sicurezza domestica',
-        nl: 'Slimme deurbel met camera zonder abonnement voor thuisbeveiliging',
+        fr: "Sonnette vidéo connectée blanche fixée sur un mur crépi à côté d'une porte d'entrée",
+        en: "White smart video doorbell mounted on a rendered wall beside a front door",
+        de: "Weiße smarte Video-Türklingel an einer verputzten Wand neben der Haustür",
+        es: "Timbre con vídeo inteligente blanco fijado en una pared junto a la puerta de entrada",
+        it: "Videocampanello smart bianco fissato su un muro intonacato accanto alla porta d'ingresso",
+        nl: "Witte slimme videodeurbel aan een gepleisterde muur naast de voordeur",
       },
     },
   ],
   title: {
-    fr: 'Meilleures Sonnettes Video Sans Abonnement 2026 — Comparatif Eufy, Ring, Reolink & Nest',
-    en: 'Best Video Doorbells Without Subscription UK 2026 — Eufy, Ring, Reolink & Nest Compared',
-    de: 'Beste Video-Tuerklingeln Ohne Abo 2026 — Vergleich Eufy, Ring, Reolink & Nest',
-    es: 'Mejores Videoporteros Sin Cuotas 2026 — Comparativa Eufy, Ring, Reolink y Nest',
-    it: 'Migliori Videocitofoni Smart Senza Abbonamento 2026 — Confronto Eufy, Ring, Reolink e Nest',
-    nl: 'Beste Deurbellen Met Camera Zonder Abonnement 2026 — Vergelijking Eufy, Ring, Reolink & Nest',
+    fr: "Sonnette Vidéo Sans Abonnement 2026 : les 5 Meilleures avec Stockage Local",
+    en: "Best Video Doorbell Without Subscription 2026: Top 5 with Local Storage",
+    de: "Video-Türklingel ohne Abo 2026: Die 5 besten Modelle mit lokalem Speicher",
+    es: "Mejor Timbre con Vídeo sin Suscripción 2026: los 5 Mejores con Almacenamiento Local",
+    it: "Miglior Videocampanello senza Abbonamento 2026: i 5 Migliori con Archiviazione Locale",
+    nl: "Beste Videodeurbel zonder Abonnement 2026: de 5 Beste met Lokale Opslag",
   },
   excerpt: {
-    fr: 'Comparatif des 4 meilleures sonnettes video sans abonnement en 2026 : Eufy E340, Ring Battery Doorbell Plus, Reolink WiFi Doorbell et Google Nest Doorbell. Installation, stockage local, RGPD et verdict detaille.',
-    en: 'Comparison of the 4 best video doorbells without subscription in 2026: Eufy E340, Ring Battery Doorbell Plus, Reolink WiFi Doorbell and Google Nest Doorbell. Installation, local storage, GDPR and detailed verdict.',
-    de: 'Vergleich der 4 besten Video-Tuerklingeln ohne Abo 2026: Eufy E340, Ring Battery Doorbell Plus, Reolink WiFi Doorbell und Google Nest Doorbell. Installation, lokaler Speicher, DSGVO und detailliertes Fazit.',
-    es: 'Comparativa de los 4 mejores videoporteros sin cuotas en 2026: Eufy E340, Ring Battery Doorbell Plus, Reolink WiFi Doorbell y Google Nest Doorbell. Instalacion, almacenamiento local, RGPD y veredicto detallado.',
-    it: 'Confronto dei 4 migliori videocitofoni smart senza abbonamento nel 2026: Eufy E340, Ring Battery Doorbell Plus, Reolink WiFi Doorbell e Google Nest Doorbell. Installazione, archiviazione locale, GDPR e verdetto dettagliato.',
-    nl: 'Vergelijking van de 4 beste deurbellen met camera zonder abonnement in 2026: Eufy E340, Ring Battery Doorbell Plus, Reolink WiFi Doorbell en Google Nest Doorbell. Installatie, lokale opslag, AVG en gedetailleerd oordeel.',
+    fr: "Les 5 meilleures sonnettes vidéo sans abonnement en 2026 : Eufy Video Doorbell E340, TP-Link Tapo D235, Aqara Video Doorbell G4, Reolink Video Doorbell WiFi et Reolink Battery Doorbell. Stockage local, batterie ou filaire, détection et vie privée comparés.",
+    en: "The 5 best video doorbells without a subscription in 2026: Eufy Video Doorbell E340, TP-Link Tapo D235, Aqara Video Doorbell G4, Reolink Video Doorbell WiFi and Reolink Battery Doorbell. Local storage, battery or wired power, detection and privacy compared.",
+    de: "Die 5 besten Video-Türklingeln ohne Abo 2026: Eufy Video Doorbell E340, TP-Link Tapo D235, Aqara Video Doorbell G4, Reolink Video Doorbell WiFi und Reolink Battery Doorbell. Lokaler Speicher, Akku oder Kabel, Erkennung und Datenschutz im Vergleich.",
+    es: "Los 5 mejores timbres con vídeo sin suscripción en 2026: Eufy Video Doorbell E340, TP-Link Tapo D235, Aqara Video Doorbell G4, Reolink Video Doorbell WiFi y Reolink Battery Doorbell. Almacenamiento local, batería o cable, detección y privacidad comparados.",
+    it: "I 5 migliori videocampanelli senza abbonamento nel 2026: Eufy Video Doorbell E340, TP-Link Tapo D235, Aqara Video Doorbell G4, Reolink Video Doorbell WiFi e Reolink Battery Doorbell. Archiviazione locale, batteria o cavo, rilevamento e privacy a confronto.",
+    nl: "De 5 beste videodeurbellen zonder abonnement in 2026: Eufy Video Doorbell E340, TP-Link Tapo D235, Aqara Video Doorbell G4, Reolink Video Doorbell WiFi en Reolink Battery Doorbell. Lokale opslag, accu of bedraad, detectie en privacy vergeleken.",
   },
   content: {
-    fr: `<h2>Sonnette video sans abonnement : pourquoi c'est le meilleur choix en 2026</h2>
-<p>La sonnette video est devenue la premiere ligne de defense de tout systeme de securite domestique. Elle vous permet de voir, entendre et parler a quiconque se presente a votre porte, ou que vous soyez. Mais en 2026, la plupart des fabricants imposent un abonnement cloud mensuel pour acceder a l'historique video — Ring facture 3,99 EUR/mois (Ring Protect Basic), Google 5 EUR/mois (Nest Aware). Sur 3 ans, ces frais representent 144 a 180 EUR par sonnette.</p>
-<p>La bonne nouvelle : plusieurs sonnettes video offrent un stockage local complet sans aucun abonnement. Vos enregistrements restent chez vous, sur une carte microSD ou un hub local, ce qui simplifie aussi votre conformite RGPD. Dans ce comparatif, nous avons teste pendant 3 mois les 4 sonnettes video les plus populaires en Europe pour determiner laquelle offre le meilleur rapport fonctionnalites-prix sans frais recurrents.</p>
-<p>Pour une vue d'ensemble complete sur la securite maison connectee, consultez notre <a href="/fr/blog/guide-securite-maison-connectee-2026">guide complet de la securite maison connectee 2026</a>.</p>
+    fr: `<p><strong>La meilleure sonnette vidéo sans abonnement en 2026 est l'Eufy Video Doorbell E340 : double caméra (visiteur et colis au sol), 8 Go de stockage intégré et fonctionnement sur batterie ou sur le câblage existant, sans aucun frais mensuel. Pour un budget plus serré, la TP-Link Tapo D235 offre une image 2K de 5 mégapixels, un enregistrement sur carte microSD et un carillon fourni.</strong></p>
+<p>Ce comparatif s'appuie sur les fiches techniques des fabricants, sur des essais publiés par la presse spécialisée et sur les retours d'acheteurs vérifiés. Toutes les sonnettes retenues enregistrent localement : les vidéos restent chez vous, sur une mémoire intégrée, une carte microSD ou un enregistreur. Les offres cloud des fabricants existent, mais elles restent facultatives.</p>
+<p>Pour voir l'ensemble des modèles disponibles, consultez notre <a href="/fr/securite-maison/sonnettes-video">sélection de sonnettes vidéo</a>.</p>
 
-<h2>Ring vs Eufy : le duel au sommet</h2>
-<p>Ring (Amazon) et Eufy (Anker) sont les deux leaders incontestes du marche des sonnettes video en Europe. Voici un comparatif direct :</p>
+<h2>Pourquoi choisir une sonnette vidéo sans abonnement ?</h2>
+<p>Sur de nombreuses sonnettes connectées, l'achat de l'appareil ne suffit pas. Sans abonnement, une sonnette Ring permet de voir le direct, de recevoir les notifications et de parler au visiteur, mais elle n'enregistre aucune vidéo : impossible de revoir le passage d'un livreur en votre absence. La Google Nest Doorbell (batterie) conserve gratuitement 3 heures d'historique d'événements ; au-delà, il faut souscrire Nest Aware. Sur plusieurs années, ces frais finissent par dépasser le prix de la sonnette.</p>
+<p>Une sonnette à stockage local supprime ce coût récurrent. Elle limite aussi la circulation de vos images vers des serveurs tiers, ce qui est un vrai plus pour la vie privée de vos visiteurs comme pour la vôtre.</p>
+
+<h2>Les critères pour bien choisir</h2>
+<h3>Le type de stockage local</h3>
+<p>Trois solutions existent. La mémoire intégrée (8 Go sur l'Eufy E340) fonctionne dès l'installation, sans carte à acheter. La carte microSD, insérée dans la sonnette ou dans le carillon, offre plus de capacité : jusqu'à 512 Go selon les modèles. Enfin, certaines marques comme Reolink permettent d'enregistrer sur un enregistreur réseau (NVR) qui centralise toutes vos caméras. Vérifiez toujours qu'aucune fonction essentielle (détection de personnes, historique) n'est réservée à l'offre payante.</p>
+<h3>Batterie ou câblage existant</h3>
+<p>Une sonnette sur batterie se pose en quelques minutes, sans fil à tirer, mais il faut la recharger régulièrement. L'autonomie annoncée par les fabricants dépend fortement du nombre de déclenchements, de la température et de la qualité du Wi-Fi. Si vous avez déjà une sonnette filaire, la plupart des modèles se branchent sur le transformateur existant (en général 8 à 24 V alternatif) : la batterie reste chargée et certaines fonctions, comme la pré-capture des secondes précédant un mouvement, deviennent disponibles.</p>
+<h3>Le champ de vision et le cadrage</h3>
+<p>Une sonnette classique filme en format paysage : on voit le visage, mais pas toujours le colis posé au pied de la porte. Les modèles au format « de la tête aux pieds » (ratio 4:3 ou 1:1) ou à double caméra règlent ce problème. Un angle de 160 à 180° couvre aussi les côtés du porche.</p>
+<h3>La détection intelligente</h3>
+<p>Une simple détection de mouvement déclenche des alertes pour chaque voiture qui passe ou chaque branche qui bouge. Préférez une sonnette qui reconnaît les personnes, voire les colis, les animaux et les véhicules, et qui permet de dessiner des zones de détection. Sur les modèles retenus, ces fonctions sont incluses sans abonnement.</p>
+<h3>L'écosystème domotique</h3>
+<p>Vérifiez la compatibilité avec votre assistant : Amazon Alexa et Google Assistant sont largement pris en charge, Apple Home beaucoup moins. Pensez aussi au carillon intérieur : certains modèles le fournissent, d'autres le vendent à part ou s'appuient sur votre carillon existant.</p>
+
+<h2>Les 5 meilleures sonnettes vidéo sans abonnement en 2026</h2>
+<h3>1. Eufy Video Doorbell E340 : la meilleure globale</h3>
+<p>L'<strong>Eufy Video Doorbell E340</strong> se distingue par sa double caméra : l'objectif principal filme le visiteur, tandis qu'une seconde caméra orientée vers le sol surveille les colis déposés devant la porte. Les 8 Go de mémoire intégrée stockent les clips sans carte microSD ni station de base, et sans abonnement. La sonnette fonctionne sur batterie rechargeable ou sur le câblage existant.</p>
+<p>La vision nocturne en couleur, l'audio bidirectionnel et la détection des personnes et des colis sont inclus. Elle se pilote depuis l'application eufy Security et s'affiche sur les écrans Amazon Alexa et Google Assistant. Pour étendre le stockage, elle peut être associée à une station HomeBase S380.</p>
+<p><strong>Points forts :</strong> double caméra unique dans cette sélection, stockage intégré prêt à l'emploi, double alimentation batterie ou filaire.<br><strong>Limites :</strong> pas de compatibilité Apple Home, boîtier assez épais. Eufy a été critiqué en 2022 pour des miniatures transmises vers son cloud ; la marque a depuis modifié son application et ses pratiques, mais les plus soucieux de confidentialité garderont ce point en tête.<br><strong>Pour qui :</strong> la plupart des foyers qui reçoivent des colis et veulent une solution complète sans rien installer de plus.</p>
+
+<h3>2. TP-Link Tapo D235 : le meilleur rapport qualité-prix</h3>
+<p>La <strong>TP-Link Tapo D235</strong> filme en 2K de 5 mégapixels (2560 × 1920) avec un champ de vision de 180° qui cadre le visiteur de la tête aux pieds. Sa batterie de 10 000 mAh vise jusqu'à 210 jours d'autonomie selon TP-Link, et elle peut aussi se brancher sur un câblage de 8 à 24 V. L'enregistrement se fait sur carte microSD jusqu'à 512 Go.</p>
+<p>La détection des personnes, des véhicules, des animaux et des colis est gratuite, comme les notifications. Le carillon intérieur est fourni dans la boîte, la vision nocturne en couleur s'appuie sur un projecteur intégré et le boîtier est certifié IP66. Elle fonctionne avec Alexa et Google Assistant.</p>
+<p><strong>Points forts :</strong> image très détaillée, grande autonomie annoncée, carillon inclus, détections complètes sans abonnement.<br><strong>Limites :</strong> carte microSD à acheter à part, pas de compatibilité Apple Home, l'offre Tapo Care reste mise en avant dans l'application.<br><strong>Pour qui :</strong> ceux qui veulent l'essentiel bien fait, à un tarif d'entrée de gamme.</p>
+
+<h3>3. Aqara Video Doorbell G4 : le choix Apple Home</h3>
+<p>L'<strong>Aqara Video Doorbell G4</strong> est l'une des rares sonnettes compatibles HomeKit Secure Video. Elle filme en 1080p avec un angle de 162° et s'alimente au choix par six piles AA ou par un câblage de 12 à 24 V. Le carillon fourni accueille une carte microSD jusqu'à 512 Go pour l'enregistrement local, et Aqara met en avant une reconnaissance faciale traitée localement.</p>
+<p>Attention à un détail : l'enregistrement via HomeKit Secure Video nécessite un forfait de stockage iCloud+ chez Apple. Sans lui, la sonnette reste utilisable sans abonnement grâce à la carte microSD du carillon. Elle fonctionne aussi avec Alexa et Google Assistant.</p>
+<p><strong>Points forts :</strong> intégration poussée dans l'app Maison d'Apple, carillon avec stockage local, alimentation sur piles remplaçables.<br><strong>Limites :</strong> définition limitée au Full HD, piles AA à remplacer plutôt qu'une batterie rechargeable.<br><strong>Pour qui :</strong> les foyers équipés d'iPhone, d'iPad ou d'Apple TV.</p>
+
+<h3>4. Reolink Video Doorbell WiFi : la filaire la plus précise</h3>
+<p>La <strong>Reolink Video Doorbell WiFi</strong> filme en 5 mégapixels (2560 × 1920) au format 4:3, avec un angle diagonal de 180°. Elle se connecte en Wi-Fi double bande (2,4 et 5 GHz) et enregistre sur carte microSD jusqu'à 256 Go. Elle s'alimente uniquement par câble, en 12 à 24 V alternatif. Une version PoE, alimentée par câble Ethernet, existe aussi.</p>
+<p>Son atout est l'écosystème Reolink : la sonnette peut enregistrer sur un enregistreur réseau Reolink avec vos autres caméras. Elle fonctionne avec Alexa et Google Assistant.</p>
+<p><strong>Points forts :</strong> excellente définition, Wi-Fi 5 GHz, intégration à un système de vidéosurveillance complet.<br><strong>Limites :</strong> pas de batterie, application moins intuitive que celles d'Eufy ou Tapo.<br><strong>Pour qui :</strong> les maisons déjà câblées, et ceux qui équipent ou possèdent des caméras Reolink.</p>
+
+<h3>5. Reolink Battery Doorbell : le cadrage carré sur batterie</h3>
+<p>La <strong>Reolink Battery Doorbell</strong>, lancée fin 2024, filme en 2K de 4 mégapixels au format carré 1:1 : le visiteur apparaît en entier et le colis au sol reste dans le champ. Elle enregistre sur carte microSD jusqu'à 256 Go, se connecte en Wi-Fi double bande et peut se raccorder à un carillon filaire existant.</p>
+<p><strong>Points forts :</strong> cadrage de la tête aux pieds, Wi-Fi 5 GHz, aucune dépendance au cloud.<br><strong>Limites :</strong> carte microSD à prévoir, écosystème domotique moins riche qu'Eufy ou Tapo.<br><strong>Pour qui :</strong> ceux qui veulent une sonnette sans fil au cadrage vertical, sans passer par une station de base.</p>
+
+<h2>Tableau comparatif</h2>
 <table>
 <thead>
-<tr><th>Critere</th><th>Eufy E340</th><th>Ring Battery Doorbell Plus</th></tr>
+<tr><th>Modèle</th><th>Image</th><th>Stockage local</th><th>Alimentation</th><th>Compatibilité</th><th>Idéal pour</th></tr>
 </thead>
 <tbody>
-<tr><td>Resolution</td><td>2K (face) + 1080p (bas)</td><td>1536p Head-to-Toe</td></tr>
-<tr><td>Double camera</td><td>Oui (face + colis au sol)</td><td>Non (une seule lentille)</td></tr>
-<tr><td>Stockage local</td><td>Oui (8 Go integre)</td><td>Non (cloud uniquement)</td></tr>
-<tr><td>Abonnement</td><td>Non requis — toutes fonctions incluses</td><td>Ring Protect 3,99 EUR/mois pour historique</td></tr>
-<tr><td>Vision nocturne</td><td>Couleur (LED spotlight)</td><td>Couleur (LED spotlight)</td></tr>
-<tr><td>Detection IA</td><td>Personnes, colis, animaux</td><td>Personnes, colis, mouvements</td></tr>
-<tr><td>Audio bidirectionnel</td><td>Oui (reduction de bruit)</td><td>Oui</td></tr>
-<tr><td>Alimentation</td><td>Batterie rechargeable (filaire optionnel)</td><td>Batterie rechargeable (filaire optionnel)</td></tr>
-<tr><td>Domotique</td><td>Google Home, Apple HomeKit</td><td>Alexa (exclusif Amazon)</td></tr>
-<tr><td>Conformite RGPD</td><td>Excellent — donnees locales</td><td>Moyen — donnees cloud Amazon</td></tr>
-<tr><td>Prix</td><td>~120 EUR</td><td>~130 EUR + 48 EUR/an (abo)</td></tr>
-</tbody>
-</table>
-<p><strong>Verdict du duel :</strong> l'Eufy E340 l'emporte nettement. Pour un prix inferieur, elle offre un stockage local gratuit, une double camera unique sur le marche, une meilleure compatibilite domotique (HomeKit + Google) et zero frais recurrents. La Ring Battery Doorbell Plus reste interessante uniquement si vous etes deja ancre dans l'ecosysteme Alexa et acceptez de payer l'abonnement Ring Protect.</p>
-
-<h2>Tableau comparatif complet des 4 sonnettes testees</h2>
-<table>
-<thead>
-<tr><th>Critere</th><th>Eufy E340</th><th>Ring Battery Doorbell Plus</th><th>Reolink WiFi Doorbell</th><th>Google Nest Doorbell (batterie)</th></tr>
-</thead>
-<tbody>
-<tr><td>Resolution</td><td>2K + 1080p (double)</td><td>1536p</td><td>2K (2560x1440)</td><td>1280x960 (HDR)</td></tr>
-<tr><td>Stockage local</td><td>Oui (8 Go integre)</td><td>Non</td><td>Oui (microSD)</td><td>Oui (1h gratuit cloud)</td></tr>
-<tr><td>Abonnement requis</td><td>Non</td><td>Oui (pour historique)</td><td>Non</td><td>Non (mais limite sans)</td></tr>
-<tr><td>Double camera</td><td>Oui</td><td>Non</td><td>Non</td><td>Non</td></tr>
-<tr><td>Vision nocturne</td><td>Couleur</td><td>Couleur</td><td>Couleur</td><td>HDR nocturne</td></tr>
-<tr><td>Detection IA</td><td>Personnes, colis, animaux</td><td>Personnes, colis</td><td>Personnes, vehicules</td><td>Personnes, colis, animaux, vehicules</td></tr>
-<tr><td>Champ de vision</td><td>160 degres (principal)</td><td>150 degres</td><td>180 degres</td><td>145 degres</td></tr>
-<tr><td>Audio</td><td>Bidirectionnel + reduction bruit</td><td>Bidirectionnel</td><td>Bidirectionnel</td><td>Bidirectionnel</td></tr>
-<tr><td>Alimentation</td><td>Batterie / filaire</td><td>Batterie / filaire</td><td>PoE / filaire</td><td>Batterie / filaire</td></tr>
-<tr><td>Domotique</td><td>HomeKit, Google Home</td><td>Alexa uniquement</td><td>Google, Alexa</td><td>Google Home</td></tr>
-<tr><td>Autonomie batterie</td><td>~6 mois</td><td>~6 mois</td><td>N/A (filaire)</td><td>~2,5 mois</td></tr>
-<tr><td>Prix (avril 2026)</td><td>~120 EUR</td><td>~130 EUR</td><td>~90 EUR</td><td>~180 EUR</td></tr>
-</tbody>
-</table>
-
-<h2>Eufy Video Doorbell E340 : notre choix numero un</h2>
-<h3>Points forts</h3>
-<ul>
-<li><strong>Double camera unique :</strong> la camera principale filme en 2K le visage des visiteurs, tandis que la seconde camera (en bas) filme les colis deposes au sol en 1080p. Aucune autre sonnette n'offre cette fonctionnalite. Vous voyez a la fois qui sonne et ce qu'il depose.</li>
-<li><strong>Stockage local 8 Go integre :</strong> pas besoin de carte microSD supplementaire. Les 8 Go stockent environ 60 jours d'evenements (clips de 15-30 secondes). Zero abonnement, zero cout supplementaire.</li>
-<li><strong>Detection IA avancee :</strong> la sonnette distingue les personnes, les colis et les animaux. Les notifications indiquent "Personne detectee a la porte" ou "Colis depose", pas simplement "Mouvement detecte". Tres peu de fausses alertes apres calibration.</li>
-<li><strong>Compatibilite HomeKit + Google Home :</strong> l'une des rares sonnettes compatibles Apple HomeKit, ce qui permet de voir le flux en direct sur un HomePod, un iPad ou un Apple TV. Egalement compatible Google Home et Nest Hub.</li>
-<li><strong>Autonomie de 6 mois :</strong> la batterie 6 000 mAh tient environ 6 mois avec une utilisation normale (10-15 declenchements/jour). La recharge prend environ 5 heures via USB-C.</li>
-<li><strong>Vision nocturne en couleur :</strong> les LED integrees fournissent un eclairage suffisant pour une image couleur nette la nuit.</li>
-</ul>
-<h3>Points faibles</h3>
-<ul>
-<li>Le design est plus epais que les concurrents (31 mm d'epaisseur) a cause de la double camera — peut paraitre imposant sur un cadre de porte etroit.</li>
-<li>Pas de compatibilite Alexa (point critique si vous etes dans l'ecosysteme Amazon).</li>
-<li>Le chime (carillon interieur) est vendu separement (~30 EUR).</li>
-</ul>
-<h3>Notre verdict : Eufy E340</h3>
-<p>L'Eufy E340 est la sonnette video la plus complete du marche en 2026. La double camera, le stockage local integre sans abonnement, la detection IA precise et la compatibilite HomeKit en font un choix sans equivalent. A 120 EUR, c'est un investissement unique qui ne genere aucun frais recurrent.</p>
-
-<h2>Ring Battery Doorbell Plus : le choix Alexa</h2>
-<h3>Points forts</h3>
-<ul>
-<li><strong>Resolution 1536p Head-to-Toe :</strong> le champ de vision elargi verticalement permet de voir le visiteur de la tete aux pieds, y compris les colis au sol, sans double camera.</li>
-<li><strong>Integration Alexa parfaite :</strong> demandez "Alexa, montre-moi la porte" sur un Echo Show et le flux s'affiche instantanement. Les annonces vocales sur tous les appareils Echo sont tres pratiques.</li>
-<li><strong>Pre-roll de 4 secondes :</strong> chaque evenement inclut 4 secondes de video avant le declenchement, pour voir ce qui s'est passe juste avant la detection de mouvement (necessite Ring Protect).</li>
-<li><strong>Large ecosysteme d'accessoires :</strong> panneaux solaires, chimes, supports d'angle — Ring offre le plus grand choix d'accessoires compatible.</li>
-<li><strong>Installation facile :</strong> le kit de montage est tres bien concu, avec des outils inclus et des instructions claires. Installation en 15 minutes.</li>
-</ul>
-<h3>Points faibles</h3>
-<ul>
-<li>Pas de stockage local — le cloud Ring est la seule option de stockage. Sans abonnement Ring Protect (3,99 EUR/mois), vous ne pouvez que voir le flux en direct, pas revoir les evenements passes.</li>
-<li>Compatibilite limitee a Alexa — pas de HomeKit, pas de Google Home natif.</li>
-<li>Les donnees transitent par les serveurs Amazon, ce qui pose des questions RGPD pour certains utilisateurs europeens soucieux de leur vie privee.</li>
-<li>Le cout total sur 3 ans est de 130 + 144 = 274 EUR, soit plus du double de l'Eufy E340.</li>
-</ul>
-<h3>Notre verdict : Ring Battery Doorbell Plus</h3>
-<p>La Ring Battery Doorbell Plus est une excellente sonnette video, avec une qualite d'image et une integration Alexa irreprochables. Cependant, l'absence de stockage local et l'abonnement obligatoire pour l'historique video en font un choix couteux a long terme. A recommander uniquement aux utilisateurs Alexa convaincus.</p>
-
-<h2>Reolink WiFi Video Doorbell : le meilleur petit prix</h2>
-<h3>Points forts</h3>
-<ul>
-<li><strong>Resolution 2K veritable :</strong> avec 2560x1440 pixels, c'est la resolution la plus elevee de notre comparatif pour une sonnette a ce prix. Les details sont nets, meme en zoom numerique.</li>
-<li><strong>Champ de vision 180 degres :</strong> le plus large de notre comparatif, sans aucun angle mort devant la porte. Vous voyez meme les cotes du porche.</li>
-<li><strong>Stockage local sur microSD :</strong> slot microSD jusqu'a 256 Go, sans aucun abonnement. Compatible aussi avec les NVR Reolink pour un enregistrement centralise.</li>
-<li><strong>Prix imbattable :</strong> a environ 90 EUR, c'est la sonnette video la plus abordable de notre selection avec une qualite 2K et un stockage local.</li>
-<li><strong>Installation filaire avec alimentation PoE :</strong> un seul cable fournit alimentation et donnees. Pas de batterie a recharger, pas de souci d'autonomie. Ideal pour les maisons avec un cablage de sonnette existant.</li>
-</ul>
-<h3>Points faibles</h3>
-<ul>
-<li>Installation filaire uniquement — pas d'option batterie. Necessite un cablage existant ou l'installation d'un cable Ethernet.</li>
-<li>La detection IA se limite aux personnes et vehicules — pas de detection de colis.</li>
-<li>L'application Reolink est fonctionnelle mais moins intuitive que celles d'Eufy ou Ring.</li>
-<li>Pas de compatibilite Apple HomeKit.</li>
-<li>Le carillon interieur est vendu separement.</li>
-</ul>
-<h3>Notre verdict : Reolink WiFi Video Doorbell</h3>
-<p>La Reolink WiFi Video Doorbell est le choix ideal pour les petits budgets et ceux qui possedent deja un cablage de sonnette. A 90 EUR avec stockage local et resolution 2K, le rapport qualite-prix est exceptionnel. L'absence d'option batterie limite toutefois son installation aux maisons deja cablees.</p>
-
-<h2>Google Nest Doorbell (batterie) : l'intelligence Google</h2>
-<h3>Points forts</h3>
-<ul>
-<li><strong>Detection IA la plus avancee :</strong> grace a l'apprentissage automatique de Google, le Nest Doorbell distingue les personnes, colis, animaux et vehicules avec une precision remarquable. Les "visages familiers" permettent de savoir exactement qui est a la porte.</li>
-<li><strong>1 heure de stockage cloud gratuit :</strong> meme sans abonnement Nest Aware, le Nest Doorbell conserve 1 heure d'historique video dans le cloud. Suffisant pour les evenements recents, mais limite pour une surveillance complete.</li>
-<li><strong>Integration Google Home excellente :</strong> le flux s'affiche automatiquement sur les ecrans Nest Hub quand quelqu'un sonne. Les annonces vocales sur les enceintes Google sont naturelles et precises.</li>
-<li><strong>HDR avec plage dynamique etendue :</strong> meme si la resolution est inferieure (960p), la technologie HDR offre une image equilibree dans les conditions d'eclairage difficiles (contre-jour, porte sous un porche sombre).</li>
-<li><strong>Design elegant et compact :</strong> le design le plus fin et discret de notre comparatif. S'integre harmonieusement sur n'importe quelle facade.</li>
-</ul>
-<h3>Points faibles</h3>
-<ul>
-<li>La resolution de 960p est la plus basse de notre comparatif — les details sont limites pour l'identification a distance.</li>
-<li>L'autonomie de la batterie n'est que de 2,5 mois — la plus courte de notre selection. Le panneau solaire n'est pas disponible.</li>
-<li>Sans abonnement Nest Aware (5 EUR/mois), le stockage est limite a 1 heure. L'historique sur 30 jours necessite l'abonnement.</li>
-<li>Prix eleve de 180 EUR pour une resolution inferieure aux concurrents.</li>
-<li>Ecosysteme ferme : uniquement Google Home, pas de HomeKit ni Alexa.</li>
-</ul>
-<h3>Notre verdict : Google Nest Doorbell</h3>
-<p>Le Google Nest Doorbell brille par son intelligence IA (la meilleure du marche pour la detection) et son integration Google Home. Mais la resolution basse, l'autonomie limitee et le prix eleve en font un choix difficile a recommander face a l'Eufy E340 qui offre bien plus pour moins cher.</p>
-
-<h2>Guide d'installation : comment installer une sonnette video soi-meme</h2>
-<h3>Installation sur batterie (Eufy E340, Ring, Nest)</h3>
-<ol>
-<li><strong>Choisissez l'emplacement :</strong> a hauteur de poitrine (environ 1,20-1,40 m du sol) pour un angle de vue optimal sur les visages. Verifiez la couverture Wi-Fi avec votre smartphone.</li>
-<li><strong>Percez et fixez la plaque de montage :</strong> utilisez les vis et chevilles fournies. Une perceuse et un niveau a bulle suffisent. Sur un mur en brique, utilisez les chevilles adaptees.</li>
-<li><strong>Connectez le cablage (optionnel) :</strong> si vous remplacez une sonnette existante, connectez les deux fils au bornier de la nouvelle sonnette. Un transformateur 8-24V AC est necessaire (la plupart des sonnettes europeennes fonctionnent en 8V).</li>
-<li><strong>Clipez la sonnette sur le support :</strong> elle se fixe avec une vis de securite pour eviter le vol.</li>
-<li><strong>Configurez via l'application :</strong> scannez le QR code, connectez au Wi-Fi, definissez les zones de detection et les masques de confidentialite RGPD.</li>
-</ol>
-<h3>Installation filaire PoE (Reolink)</h3>
-<ol>
-<li>Tirez un cable Ethernet Cat5e ou Cat6 depuis votre routeur/switch PoE jusqu'a l'emplacement de la sonnette.</li>
-<li>Fixez la plaque de montage et passez le cable a travers.</li>
-<li>Connectez le cable RJ45 a la sonnette et fixez-la au support.</li>
-<li>La sonnette apparait automatiquement dans l'application Reolink — configurez les parametres.</li>
-</ol>
-<p><strong>Temps d'installation :</strong> 15-20 minutes pour une sonnette sur batterie, 30-60 minutes pour une installation filaire (hors cablage). Si vous n'avez pas de cablage existant et ne voulez pas percer, l'option batterie est la plus simple.</p>
-
-<h2>Vie privee et RGPD : proteger vos visiteurs et vous-meme</h2>
-<p>Une sonnette video filme potentiellement tous les visiteurs de votre domicile — facteur, voisins, livreurs, amis. En Europe, le RGPD impose des regles strictes :</p>
-<ul>
-<li><strong>Ne filmez que votre propriete :</strong> la camera de la sonnette ne doit pas capter le trottoir ni la route. Utilisez les zones de masquage (privacy zones) disponibles dans toutes les applications pour exclure l'espace public.</li>
-<li><strong>Informez vos visiteurs :</strong> un petit panneau pres de la sonnette mentionnant la videosurveillance est recommande (et obligatoire en France selon la CNIL).</li>
-<li><strong>Privilegiez le stockage local :</strong> l'Eufy E340 et la Reolink stockent localement — vos donnees ne quittent jamais votre domicile. Avec Ring ou Nest, les donnees transitent par des serveurs cloud (Amazon ou Google), ce qui ajoute des obligations RGPD.</li>
-<li><strong>Limitez la conservation :</strong> configurez la suppression automatique apres 30 jours maximum.</li>
-<li><strong>Securisez l'acces :</strong> mot de passe fort + authentification a deux facteurs sur votre compte.</li>
-</ul>
-<p>Pour un guide complet sur la conformite RGPD des systemes de securite, consultez la section dediee de notre <a href="/fr/blog/guide-securite-maison-connectee-2026">guide securite maison connectee</a>.</p>
-
-<h2>Verdict final : quelle sonnette video choisir ?</h2>
-<table>
-<thead>
-<tr><th>Profil</th><th>Sonnette recommandee</th><th>Pourquoi</th></tr>
-</thead>
-<tbody>
-<tr><td>Meilleur choix global</td><td>Eufy E340</td><td>Double camera, stockage local, HomeKit, zero abo</td></tr>
-<tr><td>Utilisateurs Alexa</td><td>Ring Battery Doorbell Plus</td><td>Integration Alexa parfaite, pre-roll 4s</td></tr>
-<tr><td>Petit budget / filaire</td><td>Reolink WiFi Doorbell</td><td>90 EUR, 2K, 180 degres, stockage microSD</td></tr>
-<tr><td>Ecosysteme Google</td><td>Google Nest Doorbell</td><td>Meilleure IA, integration Google Home native</td></tr>
-</tbody>
-</table>
-<p><strong>Notre choix editeur :</strong> l'<strong>Eufy Video Doorbell E340</strong> est la sonnette video que nous recommandons a la grande majorite des foyers europeens en 2026. Sa double camera unique, son stockage local de 8 Go sans abonnement, sa detection IA precise et sa compatibilite HomeKit + Google Home en font la solution la plus complete a 120 EUR. Associez-la a une <a href="/fr/blog/comparatif-camera-surveillance-exterieure">camera de surveillance exterieure</a> pour un systeme de securite complet sans frais recurrents.</p>`,
-
-    en: `<h2>Video doorbells without subscription: why they are the best choice in 2026</h2>
-<p>The video doorbell has become the first line of defence in any home security system. It lets you see, hear and speak to anyone at your door, wherever you are. But in 2026, most manufacturers require a monthly cloud subscription to access video history — Ring charges 3.99 GBP/month (Ring Protect Basic), Google charges 4.17 GBP/month (Nest Aware). Over 3 years, these fees add up to 120-150 GBP per doorbell.</p>
-<p>The good news: several video doorbells offer complete local storage without any subscription. Your recordings stay in your home, on a microSD card or local hub, which also simplifies your GDPR compliance. In this comparison, we tested the 4 most popular video doorbells in Europe over 3 months to determine which offers the best feature-to-price ratio without recurring fees.</p>
-<p>For a complete overview of smart home security, see our <a href="/en/blog/guide-securite-maison-connectee-2026">complete smart home security guide 2026</a>.</p>
-
-<h2>Ring vs Eufy: the head-to-head battle</h2>
-<p>Ring (Amazon) and Eufy (Anker) are the two undisputed market leaders for video doorbells in Europe. Here is a direct comparison:</p>
-<table>
-<thead>
-<tr><th>Criteria</th><th>Eufy E340</th><th>Ring Battery Doorbell Plus</th></tr>
-</thead>
-<tbody>
-<tr><td>Resolution</td><td>2K (face) + 1080p (bottom)</td><td>1536p Head-to-Toe</td></tr>
-<tr><td>Dual camera</td><td>Yes (face + packages on ground)</td><td>No (single lens)</td></tr>
-<tr><td>Local storage</td><td>Yes (8 GB built-in)</td><td>No (cloud only)</td></tr>
-<tr><td>Subscription</td><td>Not required — all features included</td><td>Ring Protect 3.99 GBP/month for history</td></tr>
-<tr><td>Night vision</td><td>Colour (LED spotlight)</td><td>Colour (LED spotlight)</td></tr>
-<tr><td>AI detection</td><td>People, packages, animals</td><td>People, packages, motion</td></tr>
-<tr><td>Two-way audio</td><td>Yes (noise reduction)</td><td>Yes</td></tr>
-<tr><td>Power</td><td>Rechargeable battery (wired optional)</td><td>Rechargeable battery (wired optional)</td></tr>
-<tr><td>Smart home</td><td>Google Home, Apple HomeKit</td><td>Alexa (Amazon exclusive)</td></tr>
-<tr><td>GDPR compliance</td><td>Excellent — local data</td><td>Moderate — Amazon cloud data</td></tr>
-<tr><td>Price</td><td>~100 GBP</td><td>~110 GBP + 48 GBP/year (sub)</td></tr>
-</tbody>
-</table>
-<p><strong>Head-to-head verdict:</strong> the Eufy E340 wins decisively. For a lower price, it offers free local storage, a unique dual camera, better smart home compatibility (HomeKit + Google) and zero recurring fees. The Ring Battery Doorbell Plus remains worthwhile only if you are already committed to the Alexa ecosystem and accept paying for Ring Protect.</p>
-
-<h2>Full comparison table: 4 doorbells tested</h2>
-<table>
-<thead>
-<tr><th>Criteria</th><th>Eufy E340</th><th>Ring Battery Doorbell Plus</th><th>Reolink WiFi Doorbell</th><th>Google Nest Doorbell (battery)</th></tr>
-</thead>
-<tbody>
-<tr><td>Resolution</td><td>2K + 1080p (dual)</td><td>1536p</td><td>2K (2560x1440)</td><td>1280x960 (HDR)</td></tr>
-<tr><td>Local storage</td><td>Yes (8 GB built-in)</td><td>No</td><td>Yes (microSD)</td><td>Yes (1h free cloud)</td></tr>
-<tr><td>Subscription required</td><td>No</td><td>Yes (for history)</td><td>No</td><td>No (but limited without)</td></tr>
-<tr><td>Dual camera</td><td>Yes</td><td>No</td><td>No</td><td>No</td></tr>
-<tr><td>Night vision</td><td>Colour</td><td>Colour</td><td>Colour</td><td>HDR night</td></tr>
-<tr><td>AI detection</td><td>People, packages, animals</td><td>People, packages</td><td>People, vehicles</td><td>People, packages, animals, vehicles</td></tr>
-<tr><td>Field of view</td><td>160 degrees (main)</td><td>150 degrees</td><td>180 degrees</td><td>145 degrees</td></tr>
-<tr><td>Audio</td><td>Two-way + noise reduction</td><td>Two-way</td><td>Two-way</td><td>Two-way</td></tr>
-<tr><td>Power</td><td>Battery / wired</td><td>Battery / wired</td><td>PoE / wired</td><td>Battery / wired</td></tr>
-<tr><td>Smart home</td><td>HomeKit, Google Home</td><td>Alexa only</td><td>Google, Alexa</td><td>Google Home</td></tr>
-<tr><td>Battery life</td><td>~6 months</td><td>~6 months</td><td>N/A (wired)</td><td>~2.5 months</td></tr>
-<tr><td>Price (April 2026)</td><td>~100 GBP</td><td>~110 GBP</td><td>~75 GBP</td><td>~150 GBP</td></tr>
+<tr><td>Eufy Video Doorbell E340</td><td>Double caméra (visiteur + sol)</td><td>8 Go intégrés</td><td>Batterie ou filaire</td><td>Alexa, Google Assistant</td><td>Colis et usage polyvalent</td></tr>
+<tr><td>TP-Link Tapo D235</td><td>2K 5 Mpx, 180°</td><td>microSD jusqu'à 512 Go</td><td>Batterie 10 000 mAh ou filaire</td><td>Alexa, Google Assistant</td><td>Meilleur rapport qualité-prix</td></tr>
+<tr><td>Aqara Video Doorbell G4</td><td>1080p, 162°</td><td>microSD dans le carillon</td><td>6 piles AA ou filaire</td><td>Apple Home, Alexa, Google</td><td>Foyers Apple</td></tr>
+<tr><td>Reolink Video Doorbell WiFi</td><td>5 Mpx, 180° diagonal</td><td>microSD jusqu'à 256 Go, NVR</td><td>Filaire uniquement</td><td>Alexa, Google Assistant</td><td>Maisons câblées</td></tr>
+<tr><td>Reolink Battery Doorbell</td><td>2K 4 Mpx, format 1:1</td><td>microSD jusqu'à 256 Go</td><td>Batterie</td><td>Application Reolink</td><td>Cadrage tête aux pieds</td></tr>
 </tbody>
 </table>
 
-<h2>Eufy Video Doorbell E340: our number one choice</h2>
-<h3>Strengths</h3>
-<ul>
-<li><strong>Unique dual camera:</strong> the main camera films visitors' faces in 2K, whilst the second camera (bottom) films packages left on the ground in 1080p. No other doorbell offers this feature. You see both who is ringing and what they leave behind.</li>
-<li><strong>8 GB built-in local storage:</strong> no additional microSD card needed. The 8 GB stores approximately 60 days of events (15-30 second clips). Zero subscription, zero additional cost.</li>
-<li><strong>Advanced AI detection:</strong> the doorbell distinguishes people, packages and animals. Notifications say "Person detected at door" or "Package delivered", not simply "Motion detected". Very few false alerts after calibration.</li>
-<li><strong>HomeKit + Google Home compatibility:</strong> one of the few doorbells compatible with Apple HomeKit, allowing you to view the live feed on a HomePod, iPad or Apple TV. Also compatible with Google Home and Nest Hub.</li>
-<li><strong>6-month battery life:</strong> the 6,000 mAh battery lasts approximately 6 months with normal use (10-15 triggers/day). Recharging takes about 5 hours via USB-C.</li>
-<li><strong>Colour night vision:</strong> built-in LEDs provide sufficient lighting for a clear colour image at night.</li>
-</ul>
-<h3>Weaknesses</h3>
-<ul>
-<li>The design is thicker than competitors (31 mm deep) due to the dual camera — can look bulky on a narrow door frame.</li>
-<li>No Alexa compatibility (critical if you are in the Amazon ecosystem).</li>
-<li>The indoor chime is sold separately (~25 GBP).</li>
-</ul>
-<h3>Our verdict: Eufy E340</h3>
-<p>The Eufy E340 is the most complete video doorbell on the market in 2026. The dual camera, built-in local storage without subscription, precise AI detection and HomeKit compatibility make it an unmatched choice. At 100 GBP, it is a one-off investment that generates no recurring fees.</p>
+<h2>Et Ring ou Google Nest ?</h2>
+<p>Ring et Google Nest sont très présents en magasin, mais ils ne répondent pas vraiment à la promesse « sans abonnement ». Sans forfait, une sonnette Ring donne accès au direct, aux alertes et à la conversation, mais ne conserve aucun enregistrement. La Google Nest Doorbell (batterie) garde 3 heures d'historique d'événements gratuitement, puis demande Nest Aware pour aller plus loin. Ces sonnettes restent pertinentes si vous êtes déjà abonné et très attaché à l'écosystème Alexa ou Google, mais elles ne figurent pas dans notre sélection.</p>
 
-<h2>Ring Battery Doorbell Plus: the Alexa choice</h2>
-<h3>Strengths</h3>
+<h2>Les erreurs à éviter</h2>
 <ul>
-<li><strong>1536p Head-to-Toe resolution:</strong> the vertically expanded field of view lets you see the visitor from head to toe, including packages on the ground, without a dual camera.</li>
-<li><strong>Perfect Alexa integration:</strong> say "Alexa, show me the front door" on an Echo Show and the feed displays instantly. Voice announcements across all Echo devices are very practical.</li>
-<li><strong>4-second pre-roll:</strong> each event includes 4 seconds of video before the trigger, showing what happened just before motion was detected (requires Ring Protect).</li>
-<li><strong>Large accessory ecosystem:</strong> solar panels, chimes, corner mounts — Ring offers the widest range of compatible accessories.</li>
-<li><strong>Easy installation:</strong> the mounting kit is very well designed, with included tools and clear instructions. Installation in 15 minutes.</li>
+<li><strong>Oublier la carte microSD :</strong> sur la plupart des modèles, elle n'est pas fournie. Sans carte, la sonnette n'enregistre rien.</li>
+<li><strong>Négliger le Wi-Fi à la porte :</strong> vérifiez le signal sur le seuil avec votre téléphone. Un signal faible ralentit le direct et vide la batterie plus vite ; un répéteur peut être nécessaire.</li>
+<li><strong>Filmer la rue :</strong> réglez des zones de confidentialité pour masquer le trottoir et la voie publique.</li>
+<li><strong>Se fier à l'autonomie annoncée :</strong> elle correspond à un usage modéré. Une rue passante ou l'hiver peuvent la diviser nettement.</li>
+<li><strong>Oublier le carillon :</strong> sans carillon intérieur, vous n'entendez la sonnette que sur votre téléphone.</li>
 </ul>
-<h3>Weaknesses</h3>
-<ul>
-<li>No local storage — Ring cloud is the only storage option. Without Ring Protect (3.99 GBP/month), you can only view the live feed, not review past events.</li>
-<li>Compatibility limited to Alexa — no HomeKit, no native Google Home.</li>
-<li>Data passes through Amazon servers, raising GDPR concerns for privacy-conscious European users.</li>
-<li>Total cost over 3 years is 110 + 144 = 254 GBP, more than double the Eufy E340.</li>
-</ul>
-<h3>Our verdict: Ring Battery Doorbell Plus</h3>
-<p>The Ring Battery Doorbell Plus is an excellent video doorbell, with impeccable image quality and Alexa integration. However, the lack of local storage and mandatory subscription for video history make it an expensive long-term choice. Recommended only for committed Alexa users.</p>
 
-<h2>Reolink WiFi Video Doorbell: the best budget option</h2>
-<h3>Strengths</h3>
-<ul>
-<li><strong>True 2K resolution:</strong> at 2560x1440 pixels, this is the highest resolution in our comparison for a doorbell at this price. Details are sharp, even with digital zoom.</li>
-<li><strong>180-degree field of view:</strong> the widest in our comparison, with no blind spots in front of the door. You can even see the sides of the porch.</li>
-<li><strong>Local microSD storage:</strong> microSD slot up to 256 GB, without any subscription. Also compatible with Reolink NVRs for centralised recording.</li>
-<li><strong>Unbeatable price:</strong> at around 75 GBP, this is the most affordable video doorbell in our selection with 2K quality and local storage.</li>
-<li><strong>Wired PoE installation:</strong> a single cable provides power and data. No battery to recharge, no battery life concerns. Ideal for homes with existing doorbell wiring.</li>
-</ul>
-<h3>Weaknesses</h3>
-<ul>
-<li>Wired installation only — no battery option. Requires existing wiring or Ethernet cable installation.</li>
-<li>AI detection limited to people and vehicles — no package detection.</li>
-<li>The Reolink app is functional but less intuitive than Eufy or Ring.</li>
-<li>No Apple HomeKit compatibility.</li>
-<li>The indoor chime is sold separately.</li>
-</ul>
-<h3>Our verdict: Reolink WiFi Video Doorbell</h3>
-<p>The Reolink WiFi Video Doorbell is the ideal choice for tight budgets and those with existing doorbell wiring. At 75 GBP with local storage and 2K resolution, the value is exceptional. The lack of a battery option limits installation to pre-wired homes, however.</p>
+<h2>Installation et vie privée</h2>
+<p>Une sonnette sur batterie se fixe avec deux vis et un support, en un quart d'heure environ. Pour un raccordement sur un câblage existant, coupez le courant au tableau électrique avant toute intervention, puis vérifiez que la tension du transformateur correspond à la plage indiquée par le fabricant. En cas de doute, ou si un nouveau transformateur doit être raccordé au 230 V, faites appel à un électricien qualifié.</p>
+<p>Côté vie privée, la CNIL rappelle qu'un particulier ne doit filmer que l'intérieur de sa propriété, et non la voie publique ni la propriété voisine. Orientez la caméra vers votre seuil, utilisez les masques de confidentialité et informez vos visiteurs. Activez la double authentification sur votre compte et changez le mot de passe par défaut.</p>
+<p>Pour compléter votre installation, découvrez notre comparatif des <a href="/fr/blog/interphone-video-connecte">interphones vidéo connectés</a>, adaptés aux portails et aux immeubles, ainsi que notre sélection de <a href="/fr/blog/camera-interieure-sans-abonnement">caméras intérieures sans abonnement</a>.</p>
 
-<h2>Google Nest Doorbell (battery): Google intelligence</h2>
-<h3>Strengths</h3>
-<ul>
-<li><strong>Most advanced AI detection:</strong> thanks to Google's machine learning, the Nest Doorbell distinguishes people, packages, animals and vehicles with remarkable accuracy. "Familiar faces" lets you know exactly who is at the door.</li>
-<li><strong>1 hour free cloud storage:</strong> even without a Nest Aware subscription, the Nest Doorbell retains 1 hour of video history in the cloud. Sufficient for recent events, but limited for complete surveillance.</li>
-<li><strong>Excellent Google Home integration:</strong> the feed automatically appears on Nest Hub screens when someone rings. Voice announcements on Google speakers are natural and precise.</li>
-<li><strong>HDR with extended dynamic range:</strong> even though resolution is lower (960p), HDR technology delivers a balanced image in difficult lighting conditions (backlight, door under a dark porch).</li>
-<li><strong>Elegant compact design:</strong> the thinnest and most discreet design in our comparison. Blends harmoniously into any facade.</li>
-</ul>
-<h3>Weaknesses</h3>
-<ul>
-<li>960p resolution is the lowest in our comparison — detail is limited for identification at distance.</li>
-<li>Battery life is only 2.5 months — the shortest in our selection. No solar panel available.</li>
-<li>Without Nest Aware (4.17 GBP/month), storage is limited to 1 hour. 30-day history requires the subscription.</li>
-<li>High price of 150 GBP for lower resolution than competitors.</li>
-<li>Closed ecosystem: Google Home only, no HomeKit or Alexa.</li>
-</ul>
-<h3>Our verdict: Google Nest Doorbell</h3>
-<p>The Google Nest Doorbell excels in AI intelligence (the best on the market for detection) and Google Home integration. But the low resolution, limited battery life and high price make it a difficult recommendation against the Eufy E340, which offers far more for less money.</p>
+<h2>Verdict</h2>
+<p>L'<strong>Eufy Video Doorbell E340</strong> est le choix le plus complet : double caméra pour les colis, stockage intégré et double alimentation, sans frais mensuels. La <strong>TP-Link Tapo D235</strong> offre le meilleur rapport qualité-prix avec son image 5 mégapixels, sa grande batterie et son carillon fourni. Les foyers Apple se tourneront vers l'<strong>Aqara Video Doorbell G4</strong>, tandis que la <strong>Reolink Video Doorbell WiFi</strong> convient aux maisons déjà câblées et la <strong>Reolink Battery Doorbell</strong> à ceux qui veulent un cadrage de la tête aux pieds sur batterie.</p>`,
 
-<h2>Installation guide: how to install a video doorbell yourself</h2>
-<h3>Battery installation (Eufy E340, Ring, Nest)</h3>
-<ol>
-<li><strong>Choose the location:</strong> at chest height (approximately 1.20-1.40 m from the ground) for an optimal angle on faces. Check Wi-Fi coverage with your smartphone.</li>
-<li><strong>Drill and fix the mounting plate:</strong> use the screws and plugs provided. A drill and spirit level are sufficient. On brick, use appropriate wall plugs.</li>
-<li><strong>Connect wiring (optional):</strong> if replacing an existing doorbell, connect the two wires to the new doorbell's terminal block. An 8-24V AC transformer is required (most European doorbells run on 8V).</li>
-<li><strong>Clip the doorbell onto the mount:</strong> it secures with a security screw to prevent theft.</li>
-<li><strong>Configure via the app:</strong> scan the QR code, connect to Wi-Fi, set detection zones and GDPR privacy masks.</li>
-</ol>
-<h3>Wired PoE installation (Reolink)</h3>
-<ol>
-<li>Run a Cat5e or Cat6 Ethernet cable from your router/PoE switch to the doorbell location.</li>
-<li>Fix the mounting plate and route the cable through it.</li>
-<li>Connect the RJ45 cable to the doorbell and secure it to the mount.</li>
-<li>The doorbell appears automatically in the Reolink app — configure settings.</li>
-</ol>
-<p><strong>Installation time:</strong> 15-20 minutes for a battery doorbell, 30-60 minutes for a wired installation (excluding cabling). If you have no existing wiring and do not want to drill extensively, the battery option is simplest.</p>
+    en: `<p><strong>The best video doorbell without a subscription in 2026 is the Eufy Video Doorbell E340: a dual camera (visitor and parcels on the ground), 8 GB of built-in storage and the choice of battery or existing doorbell wiring, with no monthly fee at all. On a tighter budget, the TP-Link Tapo D235 delivers 5-megapixel 2K video, microSD recording and an included chime.</strong></p>
+<p>This comparison is based on manufacturer specifications, reviews published by specialist outlets and verified buyer feedback. Every doorbell selected records locally: your footage stays at home, on built-in memory, a microSD card or a recorder. Manufacturers do sell cloud plans, but they are optional.</p>
+<p>To browse every model available, see our <a href="/en/securite-maison/sonnettes-video">video doorbell selection</a>.</p>
 
-<h2>Privacy and GDPR: protecting your visitors and yourself</h2>
-<p>A video doorbell potentially films every visitor to your home — postman, neighbours, delivery drivers, friends. In Europe, GDPR imposes strict rules:</p>
-<ul>
-<li><strong>Film only your property:</strong> the doorbell camera must not capture the pavement or road. Use the privacy zones (masking areas) available in all apps to exclude public space.</li>
-<li><strong>Inform your visitors:</strong> a small sign near the doorbell mentioning CCTV is recommended (and required in the UK under ICO guidance).</li>
-<li><strong>Prefer local storage:</strong> the Eufy E340 and Reolink store locally — your data never leaves your home. With Ring or Nest, data passes through cloud servers (Amazon or Google), adding GDPR obligations.</li>
-<li><strong>Limit retention:</strong> configure automatic deletion after a maximum of 30 days.</li>
-<li><strong>Secure access:</strong> strong password + two-factor authentication on your account.</li>
-</ul>
-<p>For a complete guide on GDPR compliance for security systems, see the dedicated section of our <a href="/en/blog/guide-securite-maison-connectee-2026">smart home security guide</a>.</p>
+<h2>Why choose a video doorbell without a subscription?</h2>
+<p>With many smart doorbells, buying the device is only the start. Without a plan, a Ring doorbell lets you watch the live view, receive notifications and talk to visitors, but it records nothing: you cannot replay a delivery that happened while you were out. The Google Nest Doorbell (battery) keeps 3 hours of event history for free; beyond that you need Nest Aware. Over a few years, these fees can end up costing more than the doorbell itself.</p>
+<p>A doorbell with local storage removes that recurring cost. It also limits how much of your footage travels to third-party servers, which is a real plus for your visitors' privacy as well as your own.</p>
 
-<h2>Final verdict: which video doorbell to choose?</h2>
+<h2>How to choose</h2>
+<h3>Type of local storage</h3>
+<p>There are three options. Built-in memory (8 GB on the Eufy E340) works straight away, with no card to buy. A microSD card, fitted in the doorbell or in the chime, offers more space: up to 512 GB depending on the model. Finally, some brands such as Reolink can record to a network video recorder (NVR) that brings all your cameras together. Always check that no essential feature (person detection, event history) is locked behind the paid plan.</p>
+<h3>Battery or existing wiring</h3>
+<p>A battery doorbell goes up in minutes with no cable to run, but it needs recharging regularly. The battery life quoted by manufacturers depends heavily on the number of events, the temperature and Wi-Fi quality. If you already have a wired doorbell, most models connect to the existing transformer (usually 8 to 24 V AC): the battery stays topped up and some features, such as pre-roll of the seconds before motion, become available.</p>
+<h3>Field of view and framing</h3>
+<p>A conventional doorbell films in landscape: you see the face, but not always the parcel at the foot of the door. Head-to-toe models (4:3 or 1:1 aspect ratio) or dual-camera models solve this. A 160 to 180° angle also covers the sides of the porch.</p>
+<h3>Smart detection</h3>
+<p>Basic motion detection fires alerts for every passing car or swaying branch. Choose a doorbell that recognises people, and ideally parcels, pets and vehicles, and lets you draw detection zones. On the models selected here, these features are included without a subscription.</p>
+<h3>Smart home ecosystem</h3>
+<p>Check compatibility with your assistant: Amazon Alexa and Google Assistant are widely supported, Apple Home far less so. Think about the indoor chime too: some models include one, others sell it separately or rely on your existing chime.</p>
+
+<h2>The 5 best video doorbells without a subscription in 2026</h2>
+<h3>1. Eufy Video Doorbell E340: best overall</h3>
+<p>The <strong>Eufy Video Doorbell E340</strong> stands out with its dual camera: the main lens films the visitor while a second, downward-facing camera keeps an eye on parcels left at the door. The 8 GB of built-in memory stores clips without a microSD card or base station, and without a subscription. It runs on a rechargeable battery or on existing doorbell wiring.</p>
+<p>Colour night vision, two-way audio and person and parcel detection are all included. It is managed through the eufy Security app and shows up on Amazon Alexa and Google Assistant displays. For extra storage, it can be paired with a HomeBase S380.</p>
+<p><strong>Strengths:</strong> the only dual camera in this selection, built-in storage ready to go, battery or wired power.<br><strong>Limitations:</strong> no Apple Home support, fairly thick housing. Eufy was criticised in 2022 for thumbnails sent to its cloud; the brand has since changed its app and practices, but privacy-minded buyers may want to keep this in mind.<br><strong>Best for:</strong> most households that receive parcels and want a complete setup with nothing else to install.</p>
+
+<h3>2. TP-Link Tapo D235: best value</h3>
+<p>The <strong>TP-Link Tapo D235</strong> records 5-megapixel 2K video (2560 × 1920) with a 180° field of view that frames visitors from head to toe. Its 10,000 mAh battery is rated by TP-Link for up to 210 days, and it can also be wired to an 8 to 24 V supply. Footage is saved to a microSD card of up to 512 GB.</p>
+<p>Person, vehicle, pet and parcel detection is free, as are notifications. The indoor chime comes in the box, colour night vision uses a built-in spotlight and the housing is rated IP66. It works with Alexa and Google Assistant.</p>
+<p><strong>Strengths:</strong> very detailed image, long rated battery life, chime included, full detection with no subscription.<br><strong>Limitations:</strong> microSD card sold separately, no Apple Home support, the Tapo Care plan is still promoted in the app.<br><strong>Best for:</strong> anyone who wants the essentials done well at an entry-level price.</p>
+
+<h3>3. Aqara Video Doorbell G4: the Apple Home choice</h3>
+<p>The <strong>Aqara Video Doorbell G4</strong> is one of the few doorbells that support HomeKit Secure Video. It records in 1080p with a 162° field of view and runs on six AA batteries or 12 to 24 V wiring. The included chime takes a microSD card of up to 512 GB for local recording, and Aqara highlights face recognition processed on the device.</p>
+<p>One detail to note: recording through HomeKit Secure Video requires an iCloud+ storage plan from Apple. Without it, the doorbell still works subscription-free thanks to the microSD card in the chime. It also works with Alexa and Google Assistant.</p>
+<p><strong>Strengths:</strong> deep integration with Apple's Home app, chime with local storage, replaceable batteries.<br><strong>Limitations:</strong> resolution limited to Full HD, AA batteries to replace rather than a rechargeable pack.<br><strong>Best for:</strong> households with iPhones, iPads or an Apple TV.</p>
+
+<h3>4. Reolink Video Doorbell WiFi: the sharpest wired option</h3>
+<p>The <strong>Reolink Video Doorbell WiFi</strong> records 5-megapixel video (2560 × 1920) in 4:3 format with a 180° diagonal field of view. It connects over dual-band Wi-Fi (2.4 and 5 GHz) and records to a microSD card of up to 256 GB. It is mains-wired only, on 12 to 24 V AC. A PoE version, powered over an Ethernet cable, is also available.</p>
+<p>Its strength is the Reolink ecosystem: the doorbell can record to a Reolink NVR alongside your other cameras. It works with Alexa and Google Assistant.</p>
+<p><strong>Strengths:</strong> excellent resolution, 5 GHz Wi-Fi, fits into a complete CCTV system.<br><strong>Limitations:</strong> no battery, app less intuitive than Eufy's or Tapo's.<br><strong>Best for:</strong> homes with existing wiring, and anyone who already owns or plans Reolink cameras.</p>
+
+<h3>5. Reolink Battery Doorbell: square framing on battery</h3>
+<p>The <strong>Reolink Battery Doorbell</strong>, launched in late 2024, records 4-megapixel 2K video in a square 1:1 format: visitors appear in full and parcels on the ground stay in shot. It records to a microSD card of up to 256 GB, connects over dual-band Wi-Fi and can be linked to an existing wired chime.</p>
+<p><strong>Strengths:</strong> head-to-toe framing, 5 GHz Wi-Fi, no reliance on the cloud.<br><strong>Limitations:</strong> microSD card needed, smaller smart home ecosystem than Eufy or Tapo.<br><strong>Best for:</strong> anyone who wants a wireless doorbell with tall framing and no base station.</p>
+
+<h2>Comparison table</h2>
 <table>
 <thead>
-<tr><th>Profile</th><th>Recommended doorbell</th><th>Why</th></tr>
+<tr><th>Model</th><th>Image</th><th>Local storage</th><th>Power</th><th>Compatibility</th><th>Best for</th></tr>
 </thead>
 <tbody>
-<tr><td>Best overall choice</td><td>Eufy E340</td><td>Dual camera, local storage, HomeKit, zero subscription</td></tr>
-<tr><td>Alexa users</td><td>Ring Battery Doorbell Plus</td><td>Perfect Alexa integration, 4s pre-roll</td></tr>
-<tr><td>Budget / wired</td><td>Reolink WiFi Doorbell</td><td>75 GBP, 2K, 180 degrees, microSD storage</td></tr>
-<tr><td>Google ecosystem</td><td>Google Nest Doorbell</td><td>Best AI, native Google Home integration</td></tr>
-</tbody>
-</table>
-<p><strong>Editor's pick:</strong> the <strong>Eufy Video Doorbell E340</strong> is the video doorbell we recommend to the vast majority of European households in 2026. Its unique dual camera, 8 GB built-in local storage without subscription, precise AI detection and HomeKit + Google Home compatibility make it the most complete solution at 100 GBP. Pair it with an <a href="/en/blog/comparatif-camera-surveillance-exterieure">outdoor security camera</a> for a complete security system without recurring fees.</p>`,
-
-    de: `<h2>Video-Tuerklingel ohne Abo: warum sie 2026 die beste Wahl ist</h2>
-<p>Die Video-Tuerklingel ist zur ersten Verteidigungslinie jedes Haussicherheitssystems geworden. Sie laesst Sie jeden sehen, hoeren und mit ihm sprechen, der vor Ihrer Tuer steht — egal wo Sie sind. Doch 2026 verlangen die meisten Hersteller ein monatliches Cloud-Abo fuer den Zugriff auf die Videohistorie — Ring berechnet 3,99 EUR/Monat (Ring Protect Basic), Google 5 EUR/Monat (Nest Aware). Ueber 3 Jahre summieren sich diese Kosten auf 144-180 EUR pro Klingel.</p>
-<p>Die gute Nachricht: Mehrere Video-Tuerklingeln bieten vollstaendigen lokalen Speicher ohne jedes Abo. Ihre Aufnahmen bleiben zu Hause, auf einer microSD-Karte oder einem lokalen Hub, was auch Ihre DSGVO-Konformitaet vereinfacht. In diesem Vergleich haben wir die 4 beliebtesten Video-Tuerklingeln in Europa ueber 3 Monate getestet, um festzustellen, welche das beste Funktions-Preis-Verhaeltnis ohne laufende Kosten bietet.</p>
-<p>Einen vollstaendigen Ueberblick ueber smarte Haussicherheit finden Sie in unserem <a href="/de/blog/guide-securite-maison-connectee-2026">kompletten Ratgeber fuer smarte Haussicherheit 2026</a>.</p>
-
-<h2>Ring vs Eufy: das Spitzenduell</h2>
-<p>Ring (Amazon) und Eufy (Anker) sind die beiden unbestrittenen Marktfuehrer bei Video-Tuerklingeln in Europa. Hier ein direkter Vergleich:</p>
-<table>
-<thead>
-<tr><th>Kriterium</th><th>Eufy E340</th><th>Ring Battery Doorbell Plus</th></tr>
-</thead>
-<tbody>
-<tr><td>Aufloesung</td><td>2K (Gesicht) + 1080p (unten)</td><td>1536p Head-to-Toe</td></tr>
-<tr><td>Doppelkamera</td><td>Ja (Gesicht + Pakete am Boden)</td><td>Nein (einzelne Linse)</td></tr>
-<tr><td>Lokaler Speicher</td><td>Ja (8 GB integriert)</td><td>Nein (nur Cloud)</td></tr>
-<tr><td>Abo</td><td>Nicht erforderlich — alle Funktionen inklusive</td><td>Ring Protect 3,99 EUR/Monat fuer Historie</td></tr>
-<tr><td>Nachtsicht</td><td>Farbe (LED-Scheinwerfer)</td><td>Farbe (LED-Scheinwerfer)</td></tr>
-<tr><td>KI-Erkennung</td><td>Personen, Pakete, Tiere</td><td>Personen, Pakete, Bewegung</td></tr>
-<tr><td>Zwei-Wege-Audio</td><td>Ja (Rauschunterdrueckung)</td><td>Ja</td></tr>
-<tr><td>Stromversorgung</td><td>Akku (optional verkabelt)</td><td>Akku (optional verkabelt)</td></tr>
-<tr><td>Smart Home</td><td>Google Home, Apple HomeKit</td><td>Alexa (Amazon-exklusiv)</td></tr>
-<tr><td>DSGVO-Konformitaet</td><td>Hervorragend — lokale Daten</td><td>Mittel — Amazon-Cloud-Daten</td></tr>
-<tr><td>Preis</td><td>~120 EUR</td><td>~130 EUR + 48 EUR/Jahr (Abo)</td></tr>
-</tbody>
-</table>
-<p><strong>Duell-Fazit:</strong> Die Eufy E340 gewinnt deutlich. Fuer einen niedrigeren Preis bietet sie kostenlosen lokalen Speicher, eine einzigartige Doppelkamera, bessere Smart-Home-Kompatibilitaet (HomeKit + Google) und null laufende Kosten. Die Ring Battery Doorbell Plus lohnt sich nur fuer Nutzer, die bereits fest im Alexa-Oekosystem verankert sind und das Ring-Protect-Abo akzeptieren.</p>
-
-<h2>Komplette Vergleichstabelle: 4 getestete Tuerklingeln</h2>
-<table>
-<thead>
-<tr><th>Kriterium</th><th>Eufy E340</th><th>Ring Battery Doorbell Plus</th><th>Reolink WiFi Doorbell</th><th>Google Nest Doorbell (Akku)</th></tr>
-</thead>
-<tbody>
-<tr><td>Aufloesung</td><td>2K + 1080p (Doppel)</td><td>1536p</td><td>2K (2560x1440)</td><td>1280x960 (HDR)</td></tr>
-<tr><td>Lokaler Speicher</td><td>Ja (8 GB integriert)</td><td>Nein</td><td>Ja (microSD)</td><td>Ja (1h gratis Cloud)</td></tr>
-<tr><td>Abo erforderlich</td><td>Nein</td><td>Ja (fuer Historie)</td><td>Nein</td><td>Nein (aber eingeschraenkt ohne)</td></tr>
-<tr><td>Doppelkamera</td><td>Ja</td><td>Nein</td><td>Nein</td><td>Nein</td></tr>
-<tr><td>Nachtsicht</td><td>Farbe</td><td>Farbe</td><td>Farbe</td><td>HDR-Nacht</td></tr>
-<tr><td>KI-Erkennung</td><td>Personen, Pakete, Tiere</td><td>Personen, Pakete</td><td>Personen, Fahrzeuge</td><td>Personen, Pakete, Tiere, Fahrzeuge</td></tr>
-<tr><td>Sichtfeld</td><td>160 Grad (Haupt)</td><td>150 Grad</td><td>180 Grad</td><td>145 Grad</td></tr>
-<tr><td>Audio</td><td>Zwei-Wege + Rauschunterdrueckung</td><td>Zwei-Wege</td><td>Zwei-Wege</td><td>Zwei-Wege</td></tr>
-<tr><td>Stromversorgung</td><td>Akku / verkabelt</td><td>Akku / verkabelt</td><td>PoE / verkabelt</td><td>Akku / verkabelt</td></tr>
-<tr><td>Smart Home</td><td>HomeKit, Google Home</td><td>Nur Alexa</td><td>Google, Alexa</td><td>Google Home</td></tr>
-<tr><td>Akkulaufzeit</td><td>~6 Monate</td><td>~6 Monate</td><td>N/A (verkabelt)</td><td>~2,5 Monate</td></tr>
-<tr><td>Preis (April 2026)</td><td>~120 EUR</td><td>~130 EUR</td><td>~90 EUR</td><td>~180 EUR</td></tr>
+<tr><td>Eufy Video Doorbell E340</td><td>Dual camera (visitor + ground)</td><td>8 GB built in</td><td>Battery or wired</td><td>Alexa, Google Assistant</td><td>Parcels and all-round use</td></tr>
+<tr><td>TP-Link Tapo D235</td><td>2K 5 MP, 180°</td><td>microSD up to 512 GB</td><td>10,000 mAh battery or wired</td><td>Alexa, Google Assistant</td><td>Best value</td></tr>
+<tr><td>Aqara Video Doorbell G4</td><td>1080p, 162°</td><td>microSD in the chime</td><td>6 AA batteries or wired</td><td>Apple Home, Alexa, Google</td><td>Apple households</td></tr>
+<tr><td>Reolink Video Doorbell WiFi</td><td>5 MP, 180° diagonal</td><td>microSD up to 256 GB, NVR</td><td>Wired only</td><td>Alexa, Google Assistant</td><td>Wired homes</td></tr>
+<tr><td>Reolink Battery Doorbell</td><td>2K 4 MP, 1:1 format</td><td>microSD up to 256 GB</td><td>Battery</td><td>Reolink app</td><td>Head-to-toe framing</td></tr>
 </tbody>
 </table>
 
-<h2>Eufy Video Doorbell E340: unsere Nummer-eins-Empfehlung</h2>
-<h3>Staerken</h3>
-<ul>
-<li><strong>Einzigartige Doppelkamera:</strong> Die Hauptkamera filmt Besuchergesichter in 2K, waehrend die zweite Kamera (unten) abgestellte Pakete in 1080p erfasst. Keine andere Tuerklingel bietet diese Funktion.</li>
-<li><strong>8 GB integrierter lokaler Speicher:</strong> Keine zusaetzliche microSD-Karte noetig. Die 8 GB speichern etwa 60 Tage Ereignisse (15-30-Sekunden-Clips). Null Abo, null Zusatzkosten.</li>
-<li><strong>Fortschrittliche KI-Erkennung:</strong> Die Klingel unterscheidet Personen, Pakete und Tiere. Benachrichtigungen zeigen "Person an der Tuer erkannt" oder "Paket abgestellt" statt nur "Bewegung erkannt".</li>
-<li><strong>HomeKit + Google Home:</strong> Eine der wenigen Tuerklingeln mit Apple-HomeKit-Kompatibilitaet. Livestream auf HomePod, iPad oder Apple TV moeglich.</li>
-<li><strong>6 Monate Akkulaufzeit:</strong> Der 6.000-mAh-Akku haelt etwa 6 Monate bei normaler Nutzung. Aufladung per USB-C in etwa 5 Stunden.</li>
-<li><strong>Farb-Nachtsicht:</strong> Integrierte LEDs liefern ausreichend Licht fuer ein klares Farbbild bei Nacht.</li>
-</ul>
-<h3>Schwaechen</h3>
-<ul>
-<li>Das Design ist dicker als bei der Konkurrenz (31 mm) wegen der Doppelkamera.</li>
-<li>Keine Alexa-Kompatibilitaet.</li>
-<li>Der Innengong wird separat verkauft (~30 EUR).</li>
-</ul>
-<h3>Unser Urteil: Eufy E340</h3>
-<p>Die Eufy E340 ist die vollstaendigste Video-Tuerklingel auf dem Markt 2026. Doppelkamera, integrierter lokaler Speicher ohne Abo, praezise KI-Erkennung und HomeKit-Kompatibilitaet machen sie zur besten Wahl. Fuer 120 EUR eine Einmalinvestition ohne laufende Kosten.</p>
+<h2>What about Ring or Google Nest?</h2>
+<p>Ring and Google Nest are everywhere in shops, but they do not really deliver on the "no subscription" promise. Without a plan, a Ring doorbell gives you live view, alerts and two-way talk, but keeps no recordings. The Google Nest Doorbell (battery) keeps 3 hours of event history for free, then asks for Nest Aware to go further. They remain sensible if you already subscribe and are committed to the Alexa or Google ecosystem, but they are not part of our selection.</p>
 
-<h2>Ring Battery Doorbell Plus: die Wahl fuer Alexa-Nutzer</h2>
-<h3>Staerken</h3>
+<h2>Mistakes to avoid</h2>
 <ul>
-<li><strong>1536p Head-to-Toe:</strong> Das vertikal erweiterte Sichtfeld zeigt Besucher von Kopf bis Fuss, inklusive Pakete am Boden.</li>
-<li><strong>Perfekte Alexa-Integration:</strong> "Alexa, zeige mir die Haustuer" — der Livestream erscheint sofort auf dem Echo Show.</li>
-<li><strong>4-Sekunden-Pre-Roll:</strong> Jedes Ereignis enthaelt 4 Sekunden Video vor dem Ausloesen (erfordert Ring Protect).</li>
-<li><strong>Grosses Zubehoer-Oekosystem:</strong> Solarpanels, Gongs, Eckhalterungen — Ring bietet die groesste Auswahl.</li>
-<li><strong>Einfache Installation:</strong> Montagekit sehr gut durchdacht, Installation in 15 Minuten.</li>
+<li><strong>Forgetting the microSD card:</strong> on most models it is not included. Without a card, the doorbell records nothing.</li>
+<li><strong>Ignoring Wi-Fi at the door:</strong> check the signal on the doorstep with your phone. A weak signal slows the live view and drains the battery faster; an extender may be needed.</li>
+<li><strong>Filming the street:</strong> set privacy zones to mask the pavement and the road.</li>
+<li><strong>Trusting rated battery life:</strong> it assumes moderate use. A busy street or winter weather can cut it considerably.</li>
+<li><strong>Forgetting the chime:</strong> without an indoor chime, you only hear the doorbell on your phone.</li>
 </ul>
-<h3>Schwaechen</h3>
-<ul>
-<li>Kein lokaler Speicher — nur Ring-Cloud. Ohne Ring Protect (3,99 EUR/Monat) nur Live-Feed moeglich.</li>
-<li>Nur Alexa — kein HomeKit, kein Google Home.</li>
-<li>Daten auf Amazon-Servern — DSGVO-Bedenken fuer datenschutzbewusste Europaeische Nutzer.</li>
-<li>Gesamtkosten ueber 3 Jahre: 130 + 144 = 274 EUR, mehr als doppelt so viel wie die Eufy E340.</li>
-</ul>
-<h3>Unser Urteil: Ring Battery Doorbell Plus</h3>
-<p>Hervorragende Tuerklingel mit tadelloser Bildqualitaet und Alexa-Integration. Das fehlende lokale Speichern und das Pflicht-Abo machen sie langfristig teuer. Nur fuer ueberzeugte Alexa-Nutzer empfehlenswert.</p>
 
-<h2>Reolink WiFi Video Doorbell: das beste Budget-Modell</h2>
-<h3>Staerken</h3>
-<ul>
-<li><strong>Echte 2K-Aufloesung:</strong> Mit 2560x1440 Pixeln die hoechste Aufloesung in unserem Vergleich fuer eine Klingel in dieser Preisklasse.</li>
-<li><strong>180-Grad-Sichtfeld:</strong> Das weiteste in unserem Vergleich, ohne toten Winkel vor der Tuer.</li>
-<li><strong>Lokaler microSD-Speicher:</strong> Slot fuer microSD bis 256 GB, ohne jedes Abo. Auch mit Reolink-NVR fuer zentrale Aufzeichnung kompatibel.</li>
-<li><strong>Unschlagbarer Preis:</strong> Mit rund 90 EUR die guenstigste Video-Tuerklingel mit 2K und lokalem Speicher.</li>
-<li><strong>PoE-Installation:</strong> Ein Kabel fuer Strom und Daten. Kein Akku noetig.</li>
-</ul>
-<h3>Schwaechen</h3>
-<ul>
-<li>Nur Kabelinstallation — keine Akku-Option.</li>
-<li>KI-Erkennung nur Personen und Fahrzeuge — keine Paketerkennung.</li>
-<li>Reolink-App funktional, aber weniger intuitiv als Eufy oder Ring.</li>
-<li>Kein Apple HomeKit.</li>
-<li>Innengong separat erhaeltlich.</li>
-</ul>
-<h3>Unser Urteil: Reolink WiFi Video Doorbell</h3>
-<p>Ideale Wahl fuer kleine Budgets und vorhandene Kabelinstallation. Fuer 90 EUR mit lokalem Speicher und 2K-Aufloesung ist das Preis-Leistungs-Verhaeltnis herausragend.</p>
+<h2>Installation and privacy</h2>
+<p>A battery doorbell fixes with two screws and a bracket in around fifteen minutes. To connect to existing wiring, switch off the power at the consumer unit first, then check that the transformer voltage matches the range given by the manufacturer. If in doubt, or if a new transformer has to be connected to mains power, call a qualified electrician.</p>
+<p>On privacy, data protection authorities across Europe, including the UK's ICO, advise filming only your own property where possible. If your camera captures public space, data protection rules may apply to you. Point the camera at your doorstep, use privacy masks and let visitors know. Turn on two-factor authentication for your account and change any default password.</p>
+<p>To complete your setup, see our comparison of <a href="/en/blog/interphone-video-connecte">smart video intercoms</a>, suited to gates and flats, and our selection of <a href="/en/blog/camera-interieure-sans-abonnement">indoor cameras without a subscription</a>.</p>
 
-<h2>Google Nest Doorbell (Akku): Google-Intelligenz</h2>
-<h3>Staerken</h3>
-<ul>
-<li><strong>Fortschrittlichste KI-Erkennung:</strong> Dank Google-Machine-Learning unterscheidet die Nest Doorbell Personen, Pakete, Tiere und Fahrzeuge mit bemerkenswerter Praezision. "Bekannte Gesichter" zeigen genau, wer vor der Tuer steht.</li>
-<li><strong>1 Stunde kostenloser Cloud-Speicher:</strong> Auch ohne Nest Aware bleibt 1 Stunde Videohistorie verfuegbar.</li>
-<li><strong>Hervorragende Google-Home-Integration:</strong> Der Feed erscheint automatisch auf Nest-Hub-Displays beim Klingeln.</li>
-<li><strong>HDR mit erweitertem Dynamikbereich:</strong> Trotz niedrigerer Aufloesung (960p) liefert HDR ein ausgewogenes Bild bei schwierigen Lichtverhaeltnissen.</li>
-<li><strong>Elegantes kompaktes Design:</strong> Das duennste und dezenteste Design in unserem Vergleich.</li>
-</ul>
-<h3>Schwaechen</h3>
-<ul>
-<li>960p-Aufloesung ist die niedrigste in unserem Vergleich.</li>
-<li>Akkulaufzeit nur 2,5 Monate — die kuerzeste in unserer Auswahl. Kein Solarpanel verfuegbar.</li>
-<li>Ohne Nest Aware (5 EUR/Monat) nur 1 Stunde Speicher. 30-Tage-Historie erfordert Abo.</li>
-<li>Hoher Preis von 180 EUR fuer niedrigere Aufloesung als die Konkurrenz.</li>
-<li>Geschlossenes Oekosystem: nur Google Home, kein HomeKit oder Alexa.</li>
-</ul>
-<h3>Unser Urteil: Google Nest Doorbell</h3>
-<p>Die Nest Doorbell ueberzeugt durch KI-Intelligenz und Google-Home-Integration. Niedrige Aufloesung, begrenzte Akkulaufzeit und hoher Preis machen sie jedoch schwer empfehlenswert gegenueber der Eufy E340.</p>
+<h2>Verdict</h2>
+<p>The <strong>Eufy Video Doorbell E340</strong> is the most complete choice: a dual camera for parcels, built-in storage and battery or wired power, with no monthly fees. The <strong>TP-Link Tapo D235</strong> is the best value, with its 5-megapixel image, large battery and included chime. Apple households should look at the <strong>Aqara Video Doorbell G4</strong>, while the <strong>Reolink Video Doorbell WiFi</strong> suits pre-wired homes and the <strong>Reolink Battery Doorbell</strong> anyone who wants head-to-toe framing on battery.</p>`,
 
-<h2>Installationsanleitung: Video-Tuerklingel selbst installieren</h2>
-<h3>Akku-Installation (Eufy E340, Ring, Nest)</h3>
-<ol>
-<li><strong>Standort waehlen:</strong> Auf Brusthoehe (ca. 1,20-1,40 m vom Boden) fuer optimalen Gesichtswinkel. WLAN-Abdeckung mit dem Smartphone pruefen.</li>
-<li><strong>Montageplatte bohren und befestigen:</strong> Mitgelieferte Schrauben und Duebel verwenden. Akkubohrer und Wasserwaage reichen.</li>
-<li><strong>Verkabelung anschliessen (optional):</strong> Bei Ersatz einer vorhandenen Klingel die zwei Draehte an die Klemme anschliessen. Ein 8-24V-AC-Transformator ist erforderlich.</li>
-<li><strong>Klingel auf die Halterung clippen:</strong> Sicherheitsschraube gegen Diebstahl.</li>
-<li><strong>Ueber die App konfigurieren:</strong> QR-Code scannen, WLAN verbinden, Erkennungszonen und DSGVO-Datenschutzmasken einstellen.</li>
-</ol>
-<h3>Kabelinstallation PoE (Reolink)</h3>
-<ol>
-<li>Ein Cat5e- oder Cat6-Ethernet-Kabel vom Router/PoE-Switch zum Klingelstandort verlegen.</li>
-<li>Montageplatte befestigen und Kabel durchfuehren.</li>
-<li>RJ45-Kabel an die Klingel anschliessen und befestigen.</li>
-<li>Die Klingel erscheint automatisch in der Reolink-App — Einstellungen konfigurieren.</li>
-</ol>
-<p><strong>Installationszeit:</strong> 15-20 Minuten fuer eine Akku-Klingel, 30-60 Minuten fuer eine Kabelinstallation (ohne Verkabelung). Ohne vorhandene Verkabelung ist die Akku-Option am einfachsten.</p>
+    de: `<p><strong>Die beste Video-Türklingel ohne Abo ist 2026 die Eufy Video Doorbell E340: Doppelkamera (Besucher und Pakete am Boden), 8 GB integrierter Speicher und Betrieb per Akku oder über die vorhandene Klingelleitung, ganz ohne monatliche Kosten. Wer weniger ausgeben möchte, bekommt mit der TP-Link Tapo D235 2K-Video mit 5 Megapixeln, Aufnahme auf microSD-Karte und einen mitgelieferten Gong.</strong></p>
+<p>Dieser Vergleich stützt sich auf Herstellerangaben, Testberichte der Fachpresse und Bewertungen verifizierter Käufer. Alle ausgewählten Klingeln speichern lokal: Ihre Videos bleiben zu Hause, im internen Speicher, auf einer microSD-Karte oder einem Rekorder. Cloud-Tarife der Hersteller gibt es zwar, sie sind aber freiwillig.</p>
+<p>Alle verfügbaren Modelle finden Sie in unserer <a href="/de/securite-maison/sonnettes-video">Auswahl an Video-Türklingeln</a>.</p>
 
-<h2>Datenschutz und DSGVO: Besucher und sich selbst schuetzen</h2>
-<p>Eine Video-Tuerklingel filmt potenziell alle Besucher Ihres Hauses. In Europa gelten strenge DSGVO-Regeln:</p>
-<ul>
-<li><strong>Nur eigenes Grundstueck filmen:</strong> Die Kamera darf nicht den Gehweg oder die Strasse erfassen. Nutzen Sie die Datenschutzmasken in den Apps.</li>
-<li><strong>Besucher informieren:</strong> Ein Hinweisschild bei der Klingel ist empfohlen (und in Deutschland gemaess DSGVO/BDSG verpflichtend).</li>
-<li><strong>Lokalen Speicher bevorzugen:</strong> Eufy E340 und Reolink speichern lokal — Ihre Daten verlassen nie Ihr Zuhause. Bei Ring oder Nest gehen Daten ueber Cloud-Server.</li>
-<li><strong>Aufbewahrung begrenzen:</strong> Automatische Loeschung nach maximal 30 Tagen konfigurieren.</li>
-<li><strong>Zugang sichern:</strong> Starkes Passwort + Zwei-Faktor-Authentifizierung.</li>
-</ul>
-<p>Einen kompletten DSGVO-Ratgeber fuer Sicherheitssysteme finden Sie in unserem <a href="/de/blog/guide-securite-maison-connectee-2026">Ratgeber smarte Haussicherheit</a>.</p>
+<h2>Warum eine Video-Türklingel ohne Abo?</h2>
+<p>Bei vielen smarten Türklingeln ist der Kauf des Geräts nur der Anfang. Ohne Abo zeigt eine Ring-Klingel zwar das Livebild, schickt Benachrichtigungen und ermöglicht das Gespräch mit dem Besucher, speichert aber kein Video: Eine Lieferung während Ihrer Abwesenheit können Sie nicht nachträglich ansehen. Die Google Nest Doorbell (mit Akku) speichert kostenlos 3 Stunden Ereignisverlauf; darüber hinaus brauchen Sie Nest Aware. Über einige Jahre können diese Gebühren den Preis der Klingel übersteigen.</p>
+<p>Eine Klingel mit lokalem Speicher beseitigt diese laufenden Kosten. Zudem gelangen weniger Aufnahmen auf fremde Server, was der Privatsphäre Ihrer Besucher und Ihrer eigenen zugutekommt.</p>
 
-<h2>Fazit: welche Video-Tuerklingel waehlen?</h2>
+<h2>Worauf Sie beim Kauf achten sollten</h2>
+<h3>Art des lokalen Speichers</h3>
+<p>Es gibt drei Lösungen. Interner Speicher (8 GB bei der Eufy E340) funktioniert sofort, ohne zusätzliche Karte. Eine microSD-Karte in der Klingel oder im Gong bietet mehr Platz: je nach Modell bis zu 512 GB. Manche Marken wie Reolink können außerdem auf einen Netzwerkrekorder (NVR) aufzeichnen, der alle Kameras bündelt. Prüfen Sie immer, dass keine wichtige Funktion (Personenerkennung, Verlauf) dem Bezahltarif vorbehalten ist.</p>
+<h3>Akku oder vorhandene Verkabelung</h3>
+<p>Eine Akku-Klingel ist in wenigen Minuten montiert, ganz ohne Kabel, muss aber regelmäßig aufgeladen werden. Die vom Hersteller angegebene Laufzeit hängt stark von der Zahl der Auslösungen, der Temperatur und der WLAN-Qualität ab. Haben Sie bereits eine kabelgebundene Klingel, lassen sich die meisten Modelle an den vorhandenen Klingeltrafo anschließen (meist 8 bis 24 V Wechselstrom): Der Akku bleibt geladen, und manche Funktionen wie die Voraufzeichnung der Sekunden vor einer Bewegung werden nutzbar.</p>
+<h3>Sichtfeld und Bildausschnitt</h3>
+<p>Eine klassische Türklingel filmt im Querformat: Das Gesicht ist zu sehen, das Paket vor der Tür nicht immer. Modelle mit Kopf-bis-Fuß-Ansicht (Seitenverhältnis 4:3 oder 1:1) oder mit Doppelkamera lösen dieses Problem. Ein Winkel von 160 bis 180° erfasst auch die Seiten des Eingangsbereichs.</p>
+<h3>Intelligente Erkennung</h3>
+<p>Eine einfache Bewegungserkennung löst bei jedem vorbeifahrenden Auto oder wackelnden Ast Alarm aus. Wählen Sie eine Klingel, die Personen und idealerweise Pakete, Tiere und Fahrzeuge erkennt und Erkennungszonen erlaubt. Bei den hier ausgewählten Modellen sind diese Funktionen ohne Abo enthalten.</p>
+<h3>Smart-Home-Ökosystem</h3>
+<p>Prüfen Sie die Kompatibilität mit Ihrem Sprachassistenten: Amazon Alexa und Google Assistant werden breit unterstützt, Apple Home deutlich seltener. Denken Sie auch an den Innengong: Manche Modelle liefern ihn mit, andere verkaufen ihn separat oder nutzen Ihren vorhandenen Gong.</p>
+
+<h2>Die 5 besten Video-Türklingeln ohne Abo 2026</h2>
+<h3>1. Eufy Video Doorbell E340: die beste insgesamt</h3>
+<p>Die <strong>Eufy Video Doorbell E340</strong> hebt sich durch ihre Doppelkamera ab: Das Hauptobjektiv filmt den Besucher, eine zweite, nach unten gerichtete Kamera überwacht Pakete vor der Tür. Die 8 GB internen Speichers sichern die Clips ohne microSD-Karte, ohne Basisstation und ohne Abo. Die Klingel läuft mit Akku oder an der vorhandenen Klingelleitung.</p>
+<p>Farb-Nachtsicht, Zwei-Wege-Audio sowie Personen- und Paketerkennung sind inklusive. Gesteuert wird sie über die eufy Security App, das Bild erscheint auch auf Displays mit Amazon Alexa und Google Assistant. Für mehr Speicher lässt sie sich mit einer HomeBase S380 koppeln.</p>
+<p><strong>Stärken:</strong> einzige Doppelkamera dieser Auswahl, sofort nutzbarer interner Speicher, Akku- oder Kabelbetrieb.<br><strong>Schwächen:</strong> keine Apple-Home-Unterstützung, recht dickes Gehäuse. Eufy wurde 2022 kritisiert, weil Vorschaubilder in die Cloud übertragen wurden; die Marke hat App und Praktiken seither angepasst, datenschutzbewusste Käufer sollten das aber im Hinterkopf behalten.<br><strong>Für wen:</strong> die meisten Haushalte, die Pakete empfangen und eine Komplettlösung ohne Zusatzgeräte wollen.</p>
+
+<h3>2. TP-Link Tapo D235: das beste Preis-Leistungs-Verhältnis</h3>
+<p>Die <strong>TP-Link Tapo D235</strong> filmt in 2K mit 5 Megapixeln (2560 × 1920) und einem Sichtfeld von 180°, das Besucher von Kopf bis Fuß zeigt. Ihr 10.000-mAh-Akku hält laut TP-Link bis zu 210 Tage, alternativ lässt sie sich an 8 bis 24 V anschließen. Aufgezeichnet wird auf microSD-Karten mit bis zu 512 GB.</p>
+<p>Die Erkennung von Personen, Fahrzeugen, Tieren und Paketen ist kostenlos, ebenso die Benachrichtigungen. Der Innengong liegt bei, die Farb-Nachtsicht nutzt einen eingebauten Scheinwerfer, und das Gehäuse ist nach IP66 geschützt. Sie funktioniert mit Alexa und Google Assistant.</p>
+<p><strong>Stärken:</strong> sehr detailreiches Bild, lange angegebene Akkulaufzeit, Gong inklusive, vollständige Erkennung ohne Abo.<br><strong>Schwächen:</strong> microSD-Karte separat, keine Apple-Home-Unterstützung, Tapo Care wird in der App weiter beworben.<br><strong>Für wen:</strong> alle, die das Wesentliche gut gemacht zum Einstiegspreis wollen.</p>
+
+<h3>3. Aqara Video Doorbell G4: die Wahl für Apple Home</h3>
+<p>Die <strong>Aqara Video Doorbell G4</strong> ist eine der wenigen Türklingeln mit HomeKit Secure Video. Sie filmt in 1080p mit 162° Sichtfeld und läuft wahlweise mit sechs AA-Batterien oder an 12 bis 24 V. Der mitgelieferte Gong nimmt eine microSD-Karte mit bis zu 512 GB für die lokale Aufzeichnung auf, und Aqara bewirbt eine lokal verarbeitete Gesichtserkennung.</p>
+<p>Ein Detail ist wichtig: Die Aufzeichnung über HomeKit Secure Video setzt einen iCloud+-Speichertarif bei Apple voraus. Ohne ihn bleibt die Klingel dank der microSD-Karte im Gong ohne Abo nutzbar. Sie funktioniert auch mit Alexa und Google Assistant.</p>
+<p><strong>Stärken:</strong> tiefe Integration in die Home-App von Apple, Gong mit lokalem Speicher, austauschbare Batterien.<br><strong>Schwächen:</strong> Auflösung auf Full HD begrenzt, AA-Batterien statt wiederaufladbarem Akku.<br><strong>Für wen:</strong> Haushalte mit iPhone, iPad oder Apple TV.</p>
+
+<h3>4. Reolink Video Doorbell WiFi: die schärfste kabelgebundene Klingel</h3>
+<p>Die <strong>Reolink Video Doorbell WiFi</strong> filmt mit 5 Megapixeln (2560 × 1920) im Format 4:3 und einem diagonalen Sichtfeld von 180°. Sie nutzt Dualband-WLAN (2,4 und 5 GHz) und zeichnet auf microSD-Karten mit bis zu 256 GB auf. Die Stromversorgung erfolgt ausschließlich per Kabel mit 12 bis 24 V Wechselstrom. Es gibt auch eine PoE-Version, die über ein Netzwerkkabel versorgt wird.</p>
+<p>Ihr Trumpf ist das Reolink-Ökosystem: Die Klingel kann zusammen mit Ihren anderen Kameras auf einen Reolink-NVR aufzeichnen. Sie funktioniert mit Alexa und Google Assistant.</p>
+<p><strong>Stärken:</strong> hervorragende Auflösung, 5-GHz-WLAN, Einbindung in ein komplettes Videoüberwachungssystem.<br><strong>Schwächen:</strong> kein Akku, App weniger intuitiv als bei Eufy oder Tapo.<br><strong>Für wen:</strong> Häuser mit vorhandener Verkabelung und alle, die Reolink-Kameras besitzen oder planen.</p>
+
+<h3>5. Reolink Battery Doorbell: quadratisches Bild mit Akku</h3>
+<p>Die Ende 2024 eingeführte <strong>Reolink Battery Doorbell</strong> filmt in 2K mit 4 Megapixeln im quadratischen Format 1:1: Besucher sind vollständig zu sehen, und das Paket am Boden bleibt im Bild. Sie zeichnet auf microSD-Karten mit bis zu 256 GB auf, nutzt Dualband-WLAN und lässt sich mit einem vorhandenen kabelgebundenen Gong verbinden.</p>
+<p><strong>Stärken:</strong> Kopf-bis-Fuß-Ansicht, 5-GHz-WLAN, keine Abhängigkeit von der Cloud.<br><strong>Schwächen:</strong> microSD-Karte nötig, kleineres Smart-Home-Ökosystem als bei Eufy oder Tapo.<br><strong>Für wen:</strong> alle, die eine kabellose Klingel mit hohem Bildausschnitt ohne Basisstation wollen.</p>
+
+<h2>Vergleichstabelle</h2>
 <table>
 <thead>
-<tr><th>Profil</th><th>Empfohlene Klingel</th><th>Warum</th></tr>
+<tr><th>Modell</th><th>Bild</th><th>Lokaler Speicher</th><th>Stromversorgung</th><th>Kompatibilität</th><th>Ideal für</th></tr>
 </thead>
 <tbody>
-<tr><td>Beste Gesamtwahl</td><td>Eufy E340</td><td>Doppelkamera, lokaler Speicher, HomeKit, null Abo</td></tr>
-<tr><td>Alexa-Nutzer</td><td>Ring Battery Doorbell Plus</td><td>Perfekte Alexa-Integration, 4s Pre-Roll</td></tr>
-<tr><td>Kleines Budget / Kabel</td><td>Reolink WiFi Doorbell</td><td>90 EUR, 2K, 180 Grad, microSD-Speicher</td></tr>
-<tr><td>Google-Oekosystem</td><td>Google Nest Doorbell</td><td>Beste KI, native Google-Home-Integration</td></tr>
-</tbody>
-</table>
-<p><strong>Unsere Empfehlung:</strong> Die <strong>Eufy Video Doorbell E340</strong> ist die Video-Tuerklingel, die wir der grossen Mehrheit europaeischer Haushalte 2026 empfehlen. Doppelkamera, 8 GB integrierter lokaler Speicher ohne Abo, praezise KI-Erkennung und HomeKit + Google Home machen sie zur vollstaendigsten Loesung fuer 120 EUR. Kombinieren Sie sie mit einer <a href="/de/blog/comparatif-camera-surveillance-exterieure">Aussenkamera</a> fuer ein komplettes Sicherheitssystem ohne laufende Kosten.</p>`,
-
-    es: `<h2>Videoportero sin cuotas: por que es la mejor eleccion en 2026</h2>
-<p>El videoportero se ha convertido en la primera linea de defensa de cualquier sistema de seguridad domestico. Te permite ver, escuchar y hablar con quien se presente a tu puerta, estes donde estes. Pero en 2026, la mayoria de los fabricantes exigen una suscripcion cloud mensual para acceder al historial de video — Ring cobra 3,99 EUR/mes (Ring Protect Basic), Google 5 EUR/mes (Nest Aware). En 3 anos, estas cuotas suman 144-180 EUR por timbre.</p>
-<p>La buena noticia: varios videoporteros ofrecen almacenamiento local completo sin ninguna suscripcion. Tus grabaciones se quedan en tu casa, en una tarjeta microSD o un hub local, lo que tambien simplifica tu cumplimiento RGPD. En esta comparativa hemos probado durante 3 meses los 4 videoporteros mas populares en Europa para determinar cual ofrece la mejor relacion funciones-precio sin costes recurrentes.</p>
-<p>Para una vision completa de la seguridad inteligente del hogar, consulta nuestra <a href="/es/blog/guide-securite-maison-connectee-2026">guia completa de seguridad del hogar inteligente 2026</a>.</p>
-
-<h2>Ring vs Eufy: el duelo en la cima</h2>
-<p>Ring (Amazon) y Eufy (Anker) son los dos lideres indiscutibles del mercado de videoporteros en Europa. Aqui una comparacion directa:</p>
-<table>
-<thead>
-<tr><th>Criterio</th><th>Eufy E340</th><th>Ring Battery Doorbell Plus</th></tr>
-</thead>
-<tbody>
-<tr><td>Resolucion</td><td>2K (rostro) + 1080p (parte inferior)</td><td>1536p Head-to-Toe</td></tr>
-<tr><td>Doble camara</td><td>Si (rostro + paquetes en el suelo)</td><td>No (una sola lente)</td></tr>
-<tr><td>Almacenamiento local</td><td>Si (8 GB integrados)</td><td>No (solo nube)</td></tr>
-<tr><td>Suscripcion</td><td>No requerida — todas las funciones incluidas</td><td>Ring Protect 3,99 EUR/mes para historial</td></tr>
-<tr><td>Vision nocturna</td><td>Color (foco LED)</td><td>Color (foco LED)</td></tr>
-<tr><td>Deteccion IA</td><td>Personas, paquetes, animales</td><td>Personas, paquetes, movimiento</td></tr>
-<tr><td>Audio bidireccional</td><td>Si (reduccion de ruido)</td><td>Si</td></tr>
-<tr><td>Alimentacion</td><td>Bateria recargable (cableado opcional)</td><td>Bateria recargable (cableado opcional)</td></tr>
-<tr><td>Domotica</td><td>Google Home, Apple HomeKit</td><td>Alexa (exclusivo Amazon)</td></tr>
-<tr><td>Cumplimiento RGPD</td><td>Excelente — datos locales</td><td>Medio — datos en nube Amazon</td></tr>
-<tr><td>Precio</td><td>~120 EUR</td><td>~130 EUR + 48 EUR/ano (suscripcion)</td></tr>
-</tbody>
-</table>
-<p><strong>Veredicto del duelo:</strong> la Eufy E340 gana con claridad. Por un precio inferior ofrece almacenamiento local gratuito, una doble camara unica en el mercado, mejor compatibilidad domotica (HomeKit + Google) y cero costes recurrentes. La Ring Battery Doorbell Plus solo interesa si ya estas integrado en el ecosistema Alexa y aceptas pagar Ring Protect.</p>
-
-<h2>Tabla comparativa completa: 4 videoporteros analizados</h2>
-<table>
-<thead>
-<tr><th>Criterio</th><th>Eufy E340</th><th>Ring Battery Doorbell Plus</th><th>Reolink WiFi Doorbell</th><th>Google Nest Doorbell (bateria)</th></tr>
-</thead>
-<tbody>
-<tr><td>Resolucion</td><td>2K + 1080p (doble)</td><td>1536p</td><td>2K (2560x1440)</td><td>1280x960 (HDR)</td></tr>
-<tr><td>Almacenamiento local</td><td>Si (8 GB integrados)</td><td>No</td><td>Si (microSD)</td><td>Si (1h nube gratis)</td></tr>
-<tr><td>Suscripcion requerida</td><td>No</td><td>Si (para historial)</td><td>No</td><td>No (pero limitado sin ella)</td></tr>
-<tr><td>Doble camara</td><td>Si</td><td>No</td><td>No</td><td>No</td></tr>
-<tr><td>Vision nocturna</td><td>Color</td><td>Color</td><td>Color</td><td>HDR nocturno</td></tr>
-<tr><td>Deteccion IA</td><td>Personas, paquetes, animales</td><td>Personas, paquetes</td><td>Personas, vehiculos</td><td>Personas, paquetes, animales, vehiculos</td></tr>
-<tr><td>Campo de vision</td><td>160 grados (principal)</td><td>150 grados</td><td>180 grados</td><td>145 grados</td></tr>
-<tr><td>Audio</td><td>Bidireccional + reduccion ruido</td><td>Bidireccional</td><td>Bidireccional</td><td>Bidireccional</td></tr>
-<tr><td>Alimentacion</td><td>Bateria / cableado</td><td>Bateria / cableado</td><td>PoE / cableado</td><td>Bateria / cableado</td></tr>
-<tr><td>Domotica</td><td>HomeKit, Google Home</td><td>Solo Alexa</td><td>Google, Alexa</td><td>Google Home</td></tr>
-<tr><td>Autonomia bateria</td><td>~6 meses</td><td>~6 meses</td><td>N/A (cableado)</td><td>~2,5 meses</td></tr>
-<tr><td>Precio (abril 2026)</td><td>~120 EUR</td><td>~130 EUR</td><td>~90 EUR</td><td>~180 EUR</td></tr>
+<tr><td>Eufy Video Doorbell E340</td><td>Doppelkamera (Besucher + Boden)</td><td>8 GB integriert</td><td>Akku oder Kabel</td><td>Alexa, Google Assistant</td><td>Pakete und Allround-Einsatz</td></tr>
+<tr><td>TP-Link Tapo D235</td><td>2K 5 MP, 180°</td><td>microSD bis 512 GB</td><td>10.000-mAh-Akku oder Kabel</td><td>Alexa, Google Assistant</td><td>Bestes Preis-Leistungs-Verhältnis</td></tr>
+<tr><td>Aqara Video Doorbell G4</td><td>1080p, 162°</td><td>microSD im Gong</td><td>6 AA-Batterien oder Kabel</td><td>Apple Home, Alexa, Google</td><td>Apple-Haushalte</td></tr>
+<tr><td>Reolink Video Doorbell WiFi</td><td>5 MP, 180° diagonal</td><td>microSD bis 256 GB, NVR</td><td>Nur Kabel</td><td>Alexa, Google Assistant</td><td>Verkabelte Häuser</td></tr>
+<tr><td>Reolink Battery Doorbell</td><td>2K 4 MP, Format 1:1</td><td>microSD bis 256 GB</td><td>Akku</td><td>Reolink-App</td><td>Kopf-bis-Fuß-Ansicht</td></tr>
 </tbody>
 </table>
 
-<h2>Eufy Video Doorbell E340: nuestra primera opcion</h2>
-<h3>Puntos fuertes</h3>
-<ul>
-<li><strong>Doble camara unica:</strong> la camara principal graba en 2K el rostro de los visitantes, mientras la segunda (inferior) graba los paquetes en el suelo en 1080p. Ningun otro videoportero ofrece esta funcion.</li>
-<li><strong>Almacenamiento local de 8 GB integrado:</strong> sin tarjeta microSD adicional. Los 8 GB almacenan unos 60 dias de eventos. Cero suscripcion, cero coste adicional.</li>
-<li><strong>Deteccion IA avanzada:</strong> distingue personas, paquetes y animales. Las notificaciones indican "Persona detectada" o "Paquete entregado", no simplemente "Movimiento detectado".</li>
-<li><strong>Compatibilidad HomeKit + Google Home:</strong> una de las pocas compatibles con Apple HomeKit. Stream en directo en HomePod, iPad o Apple TV.</li>
-<li><strong>Autonomia de 6 meses:</strong> la bateria de 6.000 mAh dura unos 6 meses con uso normal. Recarga en 5 horas por USB-C.</li>
-<li><strong>Vision nocturna en color:</strong> LEDs integrados para imagen en color nitida de noche.</li>
-</ul>
-<h3>Puntos debiles</h3>
-<ul>
-<li>El diseno es mas grueso (31 mm) por la doble camara.</li>
-<li>Sin compatibilidad Alexa.</li>
-<li>El timbre interior se vende por separado (~30 EUR).</li>
-</ul>
-<h3>Nuestro veredicto: Eufy E340</h3>
-<p>La Eufy E340 es el videoportero mas completo del mercado en 2026. Doble camara, almacenamiento local sin suscripcion, deteccion IA precisa y compatibilidad HomeKit la convierten en una eleccion sin igual. A 120 EUR, una inversion unica sin costes recurrentes.</p>
+<h2>Und Ring oder Google Nest?</h2>
+<p>Ring und Google Nest sind im Handel allgegenwärtig, erfüllen das Versprechen „ohne Abo“ aber kaum. Ohne Tarif bietet eine Ring-Klingel Livebild, Benachrichtigungen und Gegensprechen, speichert aber keine Aufnahmen. Die Google Nest Doorbell (mit Akku) bewahrt kostenlos 3 Stunden Ereignisverlauf auf und verlangt danach Nest Aware. Sie bleiben sinnvoll, wenn Sie bereits ein Abo haben und fest im Alexa- oder Google-Ökosystem sind, gehören aber nicht zu unserer Auswahl.</p>
 
-<h2>Ring Battery Doorbell Plus: la eleccion para Alexa</h2>
-<h3>Puntos fuertes</h3>
+<h2>Fehler, die Sie vermeiden sollten</h2>
 <ul>
-<li><strong>Resolucion 1536p Head-to-Toe:</strong> campo de vision vertical ampliado para ver al visitante de cabeza a pies, incluyendo paquetes.</li>
-<li><strong>Integracion Alexa perfecta:</strong> "Alexa, muestra la puerta" en un Echo Show y el stream aparece al instante.</li>
-<li><strong>Pre-roll de 4 segundos:</strong> cada evento incluye 4 segundos previos al disparo (requiere Ring Protect).</li>
-<li><strong>Gran ecosistema de accesorios:</strong> paneles solares, timbres, soportes angulares.</li>
-<li><strong>Instalacion facil:</strong> kit de montaje bien disenado, instalacion en 15 minutos.</li>
+<li><strong>Die microSD-Karte vergessen:</strong> Bei den meisten Modellen liegt sie nicht bei. Ohne Karte zeichnet die Klingel nichts auf.</li>
+<li><strong>Das WLAN an der Tür unterschätzen:</strong> Prüfen Sie das Signal an der Haustür mit dem Smartphone. Ein schwaches Signal verlangsamt das Livebild und leert den Akku schneller; eventuell ist ein Repeater nötig.</li>
+<li><strong>Die Straße filmen:</strong> Richten Sie Privatzonen ein, um Gehweg und öffentliche Straße auszublenden.</li>
+<li><strong>Der angegebenen Akkulaufzeit blind vertrauen:</strong> Sie gilt für mäßige Nutzung. Eine belebte Straße oder Winterkälte können sie deutlich verkürzen.</li>
+<li><strong>Den Gong vergessen:</strong> Ohne Innengong hören Sie die Klingel nur auf dem Smartphone.</li>
 </ul>
-<h3>Puntos debiles</h3>
-<ul>
-<li>Sin almacenamiento local — solo nube Ring. Sin Ring Protect (3,99 EUR/mes) solo stream en directo.</li>
-<li>Solo Alexa — sin HomeKit, sin Google Home nativo.</li>
-<li>Datos en servidores Amazon — dudas RGPD para usuarios europeos.</li>
-<li>Coste total en 3 anos: 130 + 144 = 274 EUR, mas del doble que la Eufy E340.</li>
-</ul>
-<h3>Nuestro veredicto: Ring Battery Doorbell Plus</h3>
-<p>Excelente videoportero con imagen impecable e integracion Alexa. Sin embargo, la falta de almacenamiento local y la suscripcion obligatoria la hacen cara a largo plazo. Solo recomendable para usuarios convencidos de Alexa.</p>
 
-<h2>Reolink WiFi Video Doorbell: el mejor precio</h2>
-<h3>Puntos fuertes</h3>
-<ul>
-<li><strong>Resolucion 2K real:</strong> 2560x1440 pixeles, la mayor resolucion de la comparativa a este precio.</li>
-<li><strong>Campo de vision de 180 grados:</strong> el mas amplio, sin angulos muertos frente a la puerta.</li>
-<li><strong>Almacenamiento local microSD:</strong> hasta 256 GB, sin suscripcion. Compatible con NVR Reolink.</li>
-<li><strong>Precio imbatible:</strong> unos 90 EUR, el videoportero mas asequible con 2K y almacenamiento local.</li>
-<li><strong>Instalacion PoE:</strong> un solo cable para alimentacion y datos. Sin bateria que recargar.</li>
-</ul>
-<h3>Puntos debiles</h3>
-<ul>
-<li>Solo instalacion cableada — sin opcion de bateria.</li>
-<li>Deteccion IA limitada a personas y vehiculos — sin deteccion de paquetes.</li>
-<li>App Reolink funcional pero menos intuitiva que Eufy o Ring.</li>
-<li>Sin Apple HomeKit.</li>
-<li>Timbre interior aparte.</li>
-</ul>
-<h3>Nuestro veredicto: Reolink WiFi Doorbell</h3>
-<p>Eleccion ideal para presupuestos ajustados y casas ya cableadas. Por 90 EUR con almacenamiento local y 2K, la relacion calidad-precio es excepcional.</p>
+<h2>Installation und Datenschutz</h2>
+<p>Eine Akku-Klingel wird mit zwei Schrauben und einer Halterung in etwa einer Viertelstunde montiert. Für den Anschluss an eine vorhandene Leitung schalten Sie zuerst die Sicherung ab und prüfen dann, ob die Spannung des Klingeltrafos im vom Hersteller angegebenen Bereich liegt. Im Zweifel oder wenn ein neuer Trafo an 230 V angeschlossen werden muss, beauftragen Sie eine Elektrofachkraft.</p>
+<p>Beim Datenschutz gilt: Filmen Sie nur Ihr eigenes Grundstück, nicht den öffentlichen Gehweg und nicht das Nachbargrundstück. Sobald öffentlicher Raum erfasst wird, kann die DSGVO greifen. Richten Sie die Kamera auf Ihren Eingang, nutzen Sie Privatzonen und weisen Sie Besucher mit einem Hinweisschild auf die Kamera hin. Aktivieren Sie die Zwei-Faktor-Authentifizierung und ändern Sie Standardpasswörter.</p>
+<p>Zur Ergänzung empfehlen wir unseren Vergleich der <a href="/de/blog/interphone-video-connecte">smarten Video-Türsprechanlagen</a> für Tore und Mehrfamilienhäuser sowie unsere Auswahl an <a href="/de/blog/camera-interieure-sans-abonnement">Innenkameras ohne Abo</a>.</p>
 
-<h2>Google Nest Doorbell (bateria): la inteligencia de Google</h2>
-<h3>Puntos fuertes</h3>
-<ul>
-<li><strong>Deteccion IA mas avanzada:</strong> gracias al machine learning de Google, distingue personas, paquetes, animales y vehiculos con precision notable. "Rostros conocidos" identifica quien llama.</li>
-<li><strong>1 hora de almacenamiento cloud gratis:</strong> incluso sin Nest Aware, mantiene 1 hora de historial.</li>
-<li><strong>Excelente integracion Google Home:</strong> el stream aparece automaticamente en Nest Hub al sonar.</li>
-<li><strong>HDR con rango dinamico ampliado:</strong> imagen equilibrada en condiciones dificiles de luz, a pesar de la menor resolucion (960p).</li>
-<li><strong>Diseno elegante y compacto:</strong> el mas fino y discreto de la comparativa.</li>
-</ul>
-<h3>Puntos debiles</h3>
-<ul>
-<li>Resolucion de 960p, la mas baja de la comparativa.</li>
-<li>Autonomia de solo 2,5 meses — la mas corta. Sin panel solar disponible.</li>
-<li>Sin Nest Aware (5 EUR/mes), solo 1 hora de almacenamiento.</li>
-<li>Precio alto de 180 EUR para resolucion inferior a la competencia.</li>
-<li>Ecosistema cerrado: solo Google Home, sin HomeKit ni Alexa.</li>
-</ul>
-<h3>Nuestro veredicto: Google Nest Doorbell</h3>
-<p>Destaca por su IA y su integracion Google Home. Pero la baja resolucion, autonomia limitada y precio alto hacen dificil recomendarlo frente a la Eufy E340.</p>
+<h2>Fazit</h2>
+<p>Die <strong>Eufy Video Doorbell E340</strong> ist die umfassendste Wahl: Doppelkamera für Pakete, interner Speicher und Akku- oder Kabelbetrieb, ohne monatliche Kosten. Die <strong>TP-Link Tapo D235</strong> bietet mit 5-Megapixel-Bild, großem Akku und mitgeliefertem Gong das beste Preis-Leistungs-Verhältnis. Apple-Haushalte greifen zur <strong>Aqara Video Doorbell G4</strong>, die <strong>Reolink Video Doorbell WiFi</strong> passt zu bereits verkabelten Häusern und die <strong>Reolink Battery Doorbell</strong> zu allen, die eine Kopf-bis-Fuß-Ansicht mit Akku wünschen.</p>`,
 
-<h2>Guia de instalacion: como instalar un videoportero tu mismo</h2>
-<h3>Instalacion con bateria (Eufy E340, Ring, Nest)</h3>
-<ol>
-<li><strong>Elige la ubicacion:</strong> a la altura del pecho (aprox. 1,20-1,40 m del suelo) para un angulo optimo. Comprueba la cobertura Wi-Fi con tu movil.</li>
-<li><strong>Taladra y fija la placa de montaje:</strong> usa los tornillos y tacos incluidos. Basta un taladro y un nivel.</li>
-<li><strong>Conecta el cableado (opcional):</strong> si reemplazas un timbre existente, conecta los dos cables al borner. Se necesita un transformador de 8-24V AC.</li>
-<li><strong>Engancha el timbre en el soporte:</strong> tornillo de seguridad antirrobo.</li>
-<li><strong>Configura con la app:</strong> escanea el codigo QR, conecta al Wi-Fi, define zonas de deteccion y mascaras de privacidad RGPD.</li>
-</ol>
-<h3>Instalacion cableada PoE (Reolink)</h3>
-<ol>
-<li>Tiende un cable Ethernet Cat5e o Cat6 desde tu router/switch PoE hasta la ubicacion del timbre.</li>
-<li>Fija la placa de montaje y pasa el cable.</li>
-<li>Conecta el cable RJ45 al timbre y fijalo al soporte.</li>
-<li>El timbre aparece automaticamente en la app Reolink — configura los parametros.</li>
-</ol>
-<p><strong>Tiempo de instalacion:</strong> 15-20 minutos para un timbre con bateria, 30-60 minutos para instalacion cableada (sin contar el cableado). Si no tienes cableado existente, la opcion de bateria es la mas sencilla.</p>
+    es: `<p><strong>El mejor timbre con vídeo sin suscripción en 2026 es el Eufy Video Doorbell E340: doble cámara (visitante y paquetes en el suelo), 8 GB de almacenamiento integrado y funcionamiento con batería o con el cableado del timbre existente, sin ninguna cuota mensual. Con un presupuesto más ajustado, el TP-Link Tapo D235 ofrece vídeo 2K de 5 megapíxeles, grabación en tarjeta microSD y un timbre interior incluido.</strong></p>
+<p>Esta comparativa se basa en las fichas técnicas de los fabricantes, en análisis publicados por la prensa especializada y en opiniones de compradores verificados. Todos los modelos seleccionados graban en local: los vídeos se quedan en casa, en la memoria interna, en una tarjeta microSD o en un grabador. Los fabricantes ofrecen planes en la nube, pero son opcionales.</p>
+<p>Para ver todos los modelos disponibles, consulta nuestra <a href="/es/securite-maison/sonnettes-video">selección de timbres con vídeo</a>.</p>
 
-<h2>Privacidad y RGPD: proteger a tus visitantes y a ti mismo</h2>
-<p>Un videoportero filma potencialmente a todos los visitantes de tu hogar. En Europa, el RGPD impone reglas estrictas:</p>
-<ul>
-<li><strong>Graba solo tu propiedad:</strong> la camara no debe captar la acera ni la calle. Usa las zonas de privacidad en las apps.</li>
-<li><strong>Informa a tus visitantes:</strong> un cartel junto al timbre indicando videovigilancia es recomendable (y obligatorio segun la AEPD).</li>
-<li><strong>Prefiere el almacenamiento local:</strong> Eufy E340 y Reolink almacenan localmente. Con Ring o Nest, los datos pasan por servidores cloud.</li>
-<li><strong>Limita la conservacion:</strong> eliminacion automatica tras 30 dias maximo.</li>
-<li><strong>Protege el acceso:</strong> contrasena fuerte + autenticacion en dos pasos.</li>
-</ul>
-<p>Para mas detalles sobre cumplimiento RGPD, consulta nuestra <a href="/es/blog/guide-securite-maison-connectee-2026">guia de seguridad del hogar inteligente</a>.</p>
+<h2>¿Por qué elegir un timbre con vídeo sin suscripción?</h2>
+<p>En muchos timbres inteligentes, comprar el aparato es solo el principio. Sin suscripción, un timbre Ring permite ver el directo, recibir notificaciones y hablar con el visitante, pero no guarda ningún vídeo: no podrás revisar una entrega que llegó mientras estabas fuera. El Google Nest Doorbell (batería) conserva gratis 3 horas de historial de eventos; para más, hace falta Nest Aware. Con los años, estas cuotas pueden superar el precio del propio timbre.</p>
+<p>Un timbre con almacenamiento local elimina ese gasto recurrente. Además, reduce la cantidad de imágenes que viajan a servidores de terceros, algo que beneficia tanto la privacidad de tus visitantes como la tuya.</p>
 
-<h2>Veredicto final: que videoportero elegir</h2>
+<h2>Cómo elegir</h2>
+<h3>Tipo de almacenamiento local</h3>
+<p>Hay tres soluciones. La memoria interna (8 GB en el Eufy E340) funciona desde el primer momento, sin tarjeta que comprar. La tarjeta microSD, en el timbre o en el carillón, ofrece más capacidad: hasta 512 GB según el modelo. Por último, algunas marcas como Reolink permiten grabar en un grabador de red (NVR) que centraliza todas las cámaras. Comprueba siempre que ninguna función esencial (detección de personas, historial) quede reservada al plan de pago.</p>
+<h3>Batería o cableado existente</h3>
+<p>Un timbre con batería se instala en minutos, sin tirar cables, pero hay que recargarlo con regularidad. La autonomía anunciada por los fabricantes depende mucho del número de activaciones, de la temperatura y de la calidad del wifi. Si ya tienes un timbre con cable, la mayoría de modelos se conectan al transformador existente (normalmente de 8 a 24 V en corriente alterna): la batería se mantiene cargada y se activan funciones como la pregrabación de los segundos previos a un movimiento.</p>
+<h3>Campo de visión y encuadre</h3>
+<p>Un timbre convencional graba en horizontal: ves la cara, pero no siempre el paquete al pie de la puerta. Los modelos con vista de la cabeza a los pies (formato 4:3 o 1:1) o con doble cámara resuelven el problema. Un ángulo de 160 a 180° cubre también los laterales de la entrada.</p>
+<h3>Detección inteligente</h3>
+<p>Una simple detección de movimiento lanza alertas por cada coche que pasa o cada rama que se mueve. Elige un timbre que reconozca personas y, mejor aún, paquetes, mascotas y vehículos, y que permita dibujar zonas de detección. En los modelos seleccionados, estas funciones están incluidas sin suscripción.</p>
+<h3>Ecosistema domótico</h3>
+<p>Comprueba la compatibilidad con tu asistente: Amazon Alexa y Google Assistant tienen amplio soporte; Apple Home, mucho menos. Piensa también en el carillón interior: algunos modelos lo incluyen, otros lo venden aparte o usan tu timbre actual.</p>
+
+<h2>Los 5 mejores timbres con vídeo sin suscripción en 2026</h2>
+<h3>1. Eufy Video Doorbell E340: el mejor en general</h3>
+<p>El <strong>Eufy Video Doorbell E340</strong> destaca por su doble cámara: el objetivo principal graba al visitante mientras una segunda cámara orientada hacia el suelo vigila los paquetes dejados en la puerta. Sus 8 GB de memoria interna guardan los clips sin tarjeta microSD, sin estación base y sin suscripción. Funciona con batería recargable o con el cableado del timbre existente.</p>
+<p>Incluye visión nocturna en color, audio bidireccional y detección de personas y paquetes. Se gestiona desde la app eufy Security y se muestra en pantallas con Amazon Alexa y Google Assistant. Para ampliar el almacenamiento, puede combinarse con una HomeBase S380.</p>
+<p><strong>Puntos fuertes:</strong> la única doble cámara de esta selección, almacenamiento interno listo para usar, alimentación por batería o cable.<br><strong>Límites:</strong> sin compatibilidad con Apple Home, carcasa bastante gruesa. Eufy recibió críticas en 2022 por enviar miniaturas a su nube; la marca ha cambiado desde entonces su app y sus prácticas, pero los más preocupados por la privacidad lo tendrán en cuenta.<br><strong>Para quién:</strong> la mayoría de hogares que reciben paquetes y quieren una solución completa sin instalar nada más.</p>
+
+<h3>2. TP-Link Tapo D235: la mejor relación calidad-precio</h3>
+<p>El <strong>TP-Link Tapo D235</strong> graba en 2K de 5 megapíxeles (2560 × 1920) con un campo de visión de 180° que encuadra al visitante de la cabeza a los pies. Su batería de 10.000 mAh promete hasta 210 días de autonomía según TP-Link, y también puede conectarse a un cableado de 8 a 24 V. Graba en tarjeta microSD de hasta 512 GB.</p>
+<p>La detección de personas, vehículos, mascotas y paquetes es gratuita, igual que las notificaciones. El carillón interior viene en la caja, la visión nocturna en color usa un foco integrado y la carcasa tiene protección IP66. Funciona con Alexa y Google Assistant.</p>
+<p><strong>Puntos fuertes:</strong> imagen muy detallada, gran autonomía anunciada, carillón incluido, detecciones completas sin suscripción.<br><strong>Límites:</strong> tarjeta microSD aparte, sin compatibilidad con Apple Home, el plan Tapo Care sigue promocionándose en la app.<br><strong>Para quién:</strong> quien busca lo esencial bien hecho a precio de gama de entrada.</p>
+
+<h3>3. Aqara Video Doorbell G4: la opción para Apple Home</h3>
+<p>El <strong>Aqara Video Doorbell G4</strong> es uno de los pocos timbres compatibles con HomeKit Secure Video. Graba en 1080p con un ángulo de 162° y se alimenta con seis pilas AA o con un cableado de 12 a 24 V. El carillón incluido admite una tarjeta microSD de hasta 512 GB para la grabación local, y Aqara destaca un reconocimiento facial procesado en el propio dispositivo.</p>
+<p>Un detalle importante: grabar mediante HomeKit Secure Video requiere un plan de almacenamiento iCloud+ de Apple. Sin él, el timbre sigue funcionando sin suscripción gracias a la tarjeta microSD del carillón. También funciona con Alexa y Google Assistant.</p>
+<p><strong>Puntos fuertes:</strong> integración profunda en la app Casa de Apple, carillón con almacenamiento local, pilas reemplazables.<br><strong>Límites:</strong> resolución limitada a Full HD, pilas AA en lugar de batería recargable.<br><strong>Para quién:</strong> hogares con iPhone, iPad o Apple TV.</p>
+
+<h3>4. Reolink Video Doorbell WiFi: el cableado más nítido</h3>
+<p>El <strong>Reolink Video Doorbell WiFi</strong> graba a 5 megapíxeles (2560 × 1920) en formato 4:3, con un ángulo diagonal de 180°. Se conecta por wifi de doble banda (2,4 y 5 GHz) y graba en tarjeta microSD de hasta 256 GB. Solo funciona con cable, a 12-24 V de corriente alterna. También existe una versión PoE, alimentada por cable Ethernet.</p>
+<p>Su baza es el ecosistema Reolink: el timbre puede grabar en un NVR de Reolink junto a tus otras cámaras. Funciona con Alexa y Google Assistant.</p>
+<p><strong>Puntos fuertes:</strong> excelente resolución, wifi de 5 GHz, integración en un sistema de videovigilancia completo.<br><strong>Límites:</strong> sin batería, app menos intuitiva que las de Eufy o Tapo.<br><strong>Para quién:</strong> casas ya cableadas y quienes tienen o planean cámaras Reolink.</p>
+
+<h3>5. Reolink Battery Doorbell: encuadre cuadrado con batería</h3>
+<p>El <strong>Reolink Battery Doorbell</strong>, lanzado a finales de 2024, graba en 2K de 4 megapíxeles en formato cuadrado 1:1: el visitante aparece entero y el paquete en el suelo queda dentro del plano. Graba en tarjeta microSD de hasta 256 GB, usa wifi de doble banda y puede conectarse a un carillón con cable existente.</p>
+<p><strong>Puntos fuertes:</strong> encuadre de la cabeza a los pies, wifi de 5 GHz, sin dependencia de la nube.<br><strong>Límites:</strong> hay que comprar la tarjeta microSD, ecosistema domótico más limitado que Eufy o Tapo.<br><strong>Para quién:</strong> quien quiere un timbre inalámbrico con encuadre vertical y sin estación base.</p>
+
+<h2>Tabla comparativa</h2>
 <table>
 <thead>
-<tr><th>Perfil</th><th>Videoportero recomendado</th><th>Por que</th></tr>
+<tr><th>Modelo</th><th>Imagen</th><th>Almacenamiento local</th><th>Alimentación</th><th>Compatibilidad</th><th>Ideal para</th></tr>
 </thead>
 <tbody>
-<tr><td>Mejor eleccion global</td><td>Eufy E340</td><td>Doble camara, almacenamiento local, HomeKit, cero suscripcion</td></tr>
-<tr><td>Usuarios Alexa</td><td>Ring Battery Doorbell Plus</td><td>Integracion Alexa perfecta, pre-roll 4s</td></tr>
-<tr><td>Presupuesto ajustado / cableado</td><td>Reolink WiFi Doorbell</td><td>90 EUR, 2K, 180 grados, almacenamiento microSD</td></tr>
-<tr><td>Ecosistema Google</td><td>Google Nest Doorbell</td><td>Mejor IA, integracion Google Home nativa</td></tr>
-</tbody>
-</table>
-<p><strong>Eleccion del editor:</strong> el <strong>Eufy Video Doorbell E340</strong> es el videoportero que recomendamos a la gran mayoria de hogares europeos en 2026. Su doble camara unica, 8 GB de almacenamiento local sin suscripcion, deteccion IA precisa y compatibilidad HomeKit + Google Home lo convierten en la solucion mas completa por 120 EUR. Combinalo con una <a href="/es/blog/comparatif-camera-surveillance-exterieure">camara de vigilancia exterior</a> para un sistema de seguridad completo sin costes recurrentes.</p>`,
-
-    it: `<h2>Videocitofono smart senza abbonamento: perche e la scelta migliore nel 2026</h2>
-<p>Il videocitofono e diventato la prima linea di difesa di qualsiasi sistema di sicurezza domestica. Ti permette di vedere, sentire e parlare con chiunque si presenti alla tua porta, ovunque tu sia. Ma nel 2026, la maggior parte dei produttori richiede un abbonamento cloud mensile per accedere allo storico video — Ring costa 3,99 EUR/mese (Ring Protect Basic), Google 5 EUR/mese (Nest Aware). In 3 anni, questi costi ammontano a 144-180 EUR per campanello.</p>
-<p>La buona notizia: diversi videocitofoni offrono un'archiviazione locale completa senza alcun abbonamento. Le tue registrazioni restano a casa tua, su una scheda microSD o un hub locale, semplificando anche la conformita GDPR. In questo confronto abbiamo testato per 3 mesi i 4 videocitofoni piu popolari in Europa per determinare quale offre il miglior rapporto funzioni-prezzo senza costi ricorrenti.</p>
-<p>Per una panoramica completa sulla sicurezza domestica intelligente, consulta la nostra <a href="/it/blog/guide-securite-maison-connectee-2026">guida completa alla sicurezza domestica intelligente 2026</a>.</p>
-
-<h2>Ring vs Eufy: il duello al vertice</h2>
-<p>Ring (Amazon) ed Eufy (Anker) sono i due leader indiscussi del mercato dei videocitofoni in Europa. Ecco un confronto diretto:</p>
-<table>
-<thead>
-<tr><th>Criterio</th><th>Eufy E340</th><th>Ring Battery Doorbell Plus</th></tr>
-</thead>
-<tbody>
-<tr><td>Risoluzione</td><td>2K (volto) + 1080p (parte inferiore)</td><td>1536p Head-to-Toe</td></tr>
-<tr><td>Doppia telecamera</td><td>Si (volto + pacchi a terra)</td><td>No (singola lente)</td></tr>
-<tr><td>Archiviazione locale</td><td>Si (8 GB integrati)</td><td>No (solo cloud)</td></tr>
-<tr><td>Abbonamento</td><td>Non richiesto — tutte le funzioni incluse</td><td>Ring Protect 3,99 EUR/mese per storico</td></tr>
-<tr><td>Visione notturna</td><td>Colori (faretto LED)</td><td>Colori (faretto LED)</td></tr>
-<tr><td>Rilevamento IA</td><td>Persone, pacchi, animali</td><td>Persone, pacchi, movimento</td></tr>
-<tr><td>Audio bidirezionale</td><td>Si (riduzione rumore)</td><td>Si</td></tr>
-<tr><td>Alimentazione</td><td>Batteria ricaricabile (cablato opzionale)</td><td>Batteria ricaricabile (cablato opzionale)</td></tr>
-<tr><td>Domotica</td><td>Google Home, Apple HomeKit</td><td>Alexa (esclusiva Amazon)</td></tr>
-<tr><td>Conformita GDPR</td><td>Eccellente — dati locali</td><td>Medio — dati cloud Amazon</td></tr>
-<tr><td>Prezzo</td><td>~120 EUR</td><td>~130 EUR + 48 EUR/anno (abo)</td></tr>
-</tbody>
-</table>
-<p><strong>Verdetto del duello:</strong> l'Eufy E340 vince nettamente. A un prezzo inferiore offre archiviazione locale gratuita, una doppia telecamera unica sul mercato, migliore compatibilita domotica (HomeKit + Google) e zero costi ricorrenti. La Ring Battery Doorbell Plus resta interessante solo per chi e gia nell'ecosistema Alexa e accetta Ring Protect.</p>
-
-<h2>Tabella comparativa completa: 4 videocitofoni testati</h2>
-<table>
-<thead>
-<tr><th>Criterio</th><th>Eufy E340</th><th>Ring Battery Doorbell Plus</th><th>Reolink WiFi Doorbell</th><th>Google Nest Doorbell (batteria)</th></tr>
-</thead>
-<tbody>
-<tr><td>Risoluzione</td><td>2K + 1080p (doppia)</td><td>1536p</td><td>2K (2560x1440)</td><td>1280x960 (HDR)</td></tr>
-<tr><td>Archiviazione locale</td><td>Si (8 GB integrati)</td><td>No</td><td>Si (microSD)</td><td>Si (1h cloud gratis)</td></tr>
-<tr><td>Abbonamento richiesto</td><td>No</td><td>Si (per storico)</td><td>No</td><td>No (ma limitato senza)</td></tr>
-<tr><td>Doppia telecamera</td><td>Si</td><td>No</td><td>No</td><td>No</td></tr>
-<tr><td>Visione notturna</td><td>Colori</td><td>Colori</td><td>Colori</td><td>HDR notturno</td></tr>
-<tr><td>Rilevamento IA</td><td>Persone, pacchi, animali</td><td>Persone, pacchi</td><td>Persone, veicoli</td><td>Persone, pacchi, animali, veicoli</td></tr>
-<tr><td>Campo visivo</td><td>160 gradi (principale)</td><td>150 gradi</td><td>180 gradi</td><td>145 gradi</td></tr>
-<tr><td>Audio</td><td>Bidirezionale + riduzione rumore</td><td>Bidirezionale</td><td>Bidirezionale</td><td>Bidirezionale</td></tr>
-<tr><td>Alimentazione</td><td>Batteria / cablato</td><td>Batteria / cablato</td><td>PoE / cablato</td><td>Batteria / cablato</td></tr>
-<tr><td>Domotica</td><td>HomeKit, Google Home</td><td>Solo Alexa</td><td>Google, Alexa</td><td>Google Home</td></tr>
-<tr><td>Autonomia batteria</td><td>~6 mesi</td><td>~6 mesi</td><td>N/A (cablato)</td><td>~2,5 mesi</td></tr>
-<tr><td>Prezzo (aprile 2026)</td><td>~120 EUR</td><td>~130 EUR</td><td>~90 EUR</td><td>~180 EUR</td></tr>
+<tr><td>Eufy Video Doorbell E340</td><td>Doble cámara (visitante + suelo)</td><td>8 GB integrados</td><td>Batería o cable</td><td>Alexa, Google Assistant</td><td>Paquetes y uso polivalente</td></tr>
+<tr><td>TP-Link Tapo D235</td><td>2K 5 MP, 180°</td><td>microSD hasta 512 GB</td><td>Batería 10.000 mAh o cable</td><td>Alexa, Google Assistant</td><td>Mejor relación calidad-precio</td></tr>
+<tr><td>Aqara Video Doorbell G4</td><td>1080p, 162°</td><td>microSD en el carillón</td><td>6 pilas AA o cable</td><td>Apple Home, Alexa, Google</td><td>Hogares Apple</td></tr>
+<tr><td>Reolink Video Doorbell WiFi</td><td>5 MP, 180° diagonal</td><td>microSD hasta 256 GB, NVR</td><td>Solo cable</td><td>Alexa, Google Assistant</td><td>Casas cableadas</td></tr>
+<tr><td>Reolink Battery Doorbell</td><td>2K 4 MP, formato 1:1</td><td>microSD hasta 256 GB</td><td>Batería</td><td>App Reolink</td><td>Encuadre de cabeza a pies</td></tr>
 </tbody>
 </table>
 
-<h2>Eufy Video Doorbell E340: la nostra prima scelta</h2>
-<h3>Punti di forza</h3>
-<ul>
-<li><strong>Doppia telecamera unica:</strong> la telecamera principale riprende in 2K il volto dei visitatori, mentre la seconda (in basso) riprende i pacchi a terra in 1080p. Nessun altro videocitofono offre questa funzione.</li>
-<li><strong>Archiviazione locale da 8 GB integrata:</strong> nessuna scheda microSD aggiuntiva necessaria. Gli 8 GB archiviano circa 60 giorni di eventi. Zero abbonamento, zero costi aggiuntivi.</li>
-<li><strong>Rilevamento IA avanzato:</strong> distingue persone, pacchi e animali. Le notifiche dicono "Persona rilevata alla porta" o "Pacco consegnato", non semplicemente "Movimento rilevato".</li>
-<li><strong>Compatibilita HomeKit + Google Home:</strong> uno dei pochi videocitofoni compatibili Apple HomeKit. Stream in diretta su HomePod, iPad o Apple TV.</li>
-<li><strong>Autonomia di 6 mesi:</strong> la batteria da 6.000 mAh dura circa 6 mesi con uso normale. Ricarica in 5 ore via USB-C.</li>
-<li><strong>Visione notturna a colori:</strong> LED integrati per immagine a colori nitida di notte.</li>
-</ul>
-<h3>Punti deboli</h3>
-<ul>
-<li>Il design e piu spesso dei concorrenti (31 mm) per la doppia telecamera.</li>
-<li>Nessuna compatibilita Alexa.</li>
-<li>Il campanello interno venduto separatamente (~30 EUR).</li>
-</ul>
-<h3>Il nostro verdetto: Eufy E340</h3>
-<p>L'Eufy E340 e il videocitofono piu completo del mercato nel 2026. Doppia telecamera, archiviazione locale integrata senza abbonamento, rilevamento IA preciso e compatibilita HomeKit ne fanno una scelta senza pari. A 120 EUR, un investimento una tantum senza costi ricorrenti.</p>
+<h2>¿Y Ring o Google Nest?</h2>
+<p>Ring y Google Nest están en todas las tiendas, pero no cumplen realmente la promesa de «sin suscripción». Sin plan, un timbre Ring ofrece directo, alertas y conversación, pero no guarda grabaciones. El Google Nest Doorbell (batería) conserva gratis 3 horas de historial de eventos y después pide Nest Aware. Siguen siendo opciones razonables si ya pagas la suscripción y estás muy integrado en el ecosistema de Alexa o Google, pero no forman parte de nuestra selección.</p>
 
-<h2>Ring Battery Doorbell Plus: la scelta per Alexa</h2>
-<h3>Punti di forza</h3>
+<h2>Errores que debes evitar</h2>
 <ul>
-<li><strong>Risoluzione 1536p Head-to-Toe:</strong> campo visivo verticale ampliato per vedere il visitatore dalla testa ai piedi, inclusi i pacchi.</li>
-<li><strong>Integrazione Alexa perfetta:</strong> "Alexa, mostra la porta" su un Echo Show e lo stream appare istantaneamente.</li>
-<li><strong>Pre-roll di 4 secondi:</strong> ogni evento include 4 secondi prima dell'attivazione (richiede Ring Protect).</li>
-<li><strong>Grande ecosistema di accessori:</strong> pannelli solari, campanelli, supporti angolari.</li>
-<li><strong>Installazione facile:</strong> kit di montaggio ben progettato, installazione in 15 minuti.</li>
+<li><strong>Olvidar la tarjeta microSD:</strong> en la mayoría de modelos no viene incluida. Sin tarjeta, el timbre no graba nada.</li>
+<li><strong>Descuidar el wifi en la puerta:</strong> comprueba la señal en el umbral con el móvil. Una señal débil ralentiza el directo y agota antes la batería; puede hacer falta un repetidor.</li>
+<li><strong>Grabar la calle:</strong> configura zonas de privacidad para ocultar la acera y la vía pública.</li>
+<li><strong>Fiarse de la autonomía anunciada:</strong> corresponde a un uso moderado. Una calle con mucho tránsito o el frío del invierno pueden reducirla bastante.</li>
+<li><strong>Olvidar el carillón:</strong> sin carillón interior, solo oirás el timbre en el móvil.</li>
 </ul>
-<h3>Punti deboli</h3>
-<ul>
-<li>Nessuna archiviazione locale — solo cloud Ring. Senza Ring Protect (3,99 EUR/mese) solo stream in diretta.</li>
-<li>Solo Alexa — nessun HomeKit, nessun Google Home nativo.</li>
-<li>Dati sui server Amazon — dubbi GDPR per utenti europei attenti alla privacy.</li>
-<li>Costo totale in 3 anni: 130 + 144 = 274 EUR, piu del doppio dell'Eufy E340.</li>
-</ul>
-<h3>Il nostro verdetto: Ring Battery Doorbell Plus</h3>
-<p>Eccellente videocitofono con qualita d'immagine e integrazione Alexa impeccabili. Tuttavia, la mancanza di archiviazione locale e l'abbonamento obbligatorio lo rendono costoso nel lungo periodo. Consigliato solo a utenti Alexa convinti.</p>
 
-<h2>Reolink WiFi Video Doorbell: il miglior prezzo</h2>
-<h3>Punti di forza</h3>
-<ul>
-<li><strong>Vera risoluzione 2K:</strong> con 2560x1440 pixel, la risoluzione piu alta del confronto per un videocitofono a questo prezzo.</li>
-<li><strong>Campo visivo di 180 gradi:</strong> il piu ampio, senza angoli ciechi davanti alla porta.</li>
-<li><strong>Archiviazione locale microSD:</strong> slot fino a 256 GB, senza abbonamento. Compatibile anche con NVR Reolink.</li>
-<li><strong>Prezzo imbattibile:</strong> circa 90 EUR, il videocitofono piu accessibile con 2K e archiviazione locale.</li>
-<li><strong>Installazione PoE:</strong> un solo cavo per alimentazione e dati. Nessuna batteria da ricaricare.</li>
-</ul>
-<h3>Punti deboli</h3>
-<ul>
-<li>Solo installazione cablata — nessuna opzione batteria.</li>
-<li>Rilevamento IA limitato a persone e veicoli — nessun rilevamento pacchi.</li>
-<li>App Reolink funzionale ma meno intuitiva di Eufy o Ring.</li>
-<li>Nessun Apple HomeKit.</li>
-<li>Campanello interno venduto separatamente.</li>
-</ul>
-<h3>Il nostro verdetto: Reolink WiFi Doorbell</h3>
-<p>Scelta ideale per budget ridotti e case gia cablate. Per 90 EUR con archiviazione locale e 2K, il rapporto qualita-prezzo e eccezionale.</p>
+<h2>Instalación y privacidad</h2>
+<p>Un timbre con batería se fija con dos tornillos y un soporte en un cuarto de hora aproximadamente. Para conectarlo a un cableado existente, corta primero la corriente en el cuadro eléctrico y comprueba que la tensión del transformador está dentro del rango indicado por el fabricante. Si tienes dudas, o si hay que conectar un transformador nuevo a 230 V, recurre a un electricista cualificado.</p>
+<p>En cuanto a la privacidad, la Agencia Española de Protección de Datos recuerda que un particular solo debe grabar su propio espacio privado, no la vía pública ni la propiedad vecina. Orienta la cámara hacia tu entrada, usa las máscaras de privacidad e informa a tus visitantes. Activa la autenticación en dos pasos en tu cuenta y cambia la contraseña por defecto.</p>
+<p>Para completar tu instalación, consulta nuestra comparativa de <a href="/es/blog/interphone-video-connecte">videoporteros inteligentes</a>, pensados para cancelas y edificios, y nuestra selección de <a href="/es/blog/camera-interieure-sans-abonnement">cámaras de interior sin suscripción</a>.</p>
 
-<h2>Google Nest Doorbell (batteria): l'intelligenza di Google</h2>
-<h3>Punti di forza</h3>
-<ul>
-<li><strong>Rilevamento IA piu avanzato:</strong> grazie al machine learning di Google, distingue persone, pacchi, animali e veicoli con precisione notevole. I "volti familiari" identificano chi suona.</li>
-<li><strong>1 ora di archiviazione cloud gratis:</strong> anche senza Nest Aware, mantiene 1 ora di storico.</li>
-<li><strong>Eccellente integrazione Google Home:</strong> lo stream appare automaticamente sui display Nest Hub quando qualcuno suona.</li>
-<li><strong>HDR con gamma dinamica estesa:</strong> immagine equilibrata in condizioni di luce difficili, nonostante la risoluzione inferiore (960p).</li>
-<li><strong>Design elegante e compatto:</strong> il piu sottile e discreto del confronto.</li>
-</ul>
-<h3>Punti deboli</h3>
-<ul>
-<li>Risoluzione di 960p, la piu bassa del confronto.</li>
-<li>Autonomia di soli 2,5 mesi — la piu breve. Nessun pannello solare disponibile.</li>
-<li>Senza Nest Aware (5 EUR/mese), solo 1 ora di archiviazione.</li>
-<li>Prezzo alto di 180 EUR per risoluzione inferiore alla concorrenza.</li>
-<li>Ecosistema chiuso: solo Google Home, nessun HomeKit o Alexa.</li>
-</ul>
-<h3>Il nostro verdetto: Google Nest Doorbell</h3>
-<p>Eccelle per intelligenza IA e integrazione Google Home. Ma la bassa risoluzione, l'autonomia limitata e il prezzo alto lo rendono difficile da raccomandare rispetto all'Eufy E340.</p>
+<h2>Veredicto</h2>
+<p>El <strong>Eufy Video Doorbell E340</strong> es la opción más completa: doble cámara para paquetes, almacenamiento integrado y alimentación por batería o cable, sin cuotas mensuales. El <strong>TP-Link Tapo D235</strong> ofrece la mejor relación calidad-precio con su imagen de 5 megapíxeles, su gran batería y su carillón incluido. Los hogares Apple se fijarán en el <strong>Aqara Video Doorbell G4</strong>, mientras que el <strong>Reolink Video Doorbell WiFi</strong> encaja en casas ya cableadas y el <strong>Reolink Battery Doorbell</strong> en quien quiere un encuadre de la cabeza a los pies con batería.</p>`,
 
-<h2>Guida all'installazione: come installare un videocitofono da soli</h2>
-<h3>Installazione a batteria (Eufy E340, Ring, Nest)</h3>
-<ol>
-<li><strong>Scegli la posizione:</strong> all'altezza del petto (circa 1,20-1,40 m dal suolo) per un angolo ottimale sui volti. Verifica la copertura Wi-Fi con lo smartphone.</li>
-<li><strong>Fora e fissa la piastra di montaggio:</strong> usa le viti e i tasselli forniti. Bastano trapano e livella.</li>
-<li><strong>Collega il cablaggio (opzionale):</strong> se sostituisci un campanello esistente, collega i due fili al morsetto. Serve un trasformatore 8-24V AC.</li>
-<li><strong>Aggancia il campanello al supporto:</strong> vite di sicurezza antifurto.</li>
-<li><strong>Configura tramite l'app:</strong> scansiona il QR code, connetti al Wi-Fi, imposta zone di rilevamento e maschere di privacy GDPR.</li>
-</ol>
-<h3>Installazione cablata PoE (Reolink)</h3>
-<ol>
-<li>Tira un cavo Ethernet Cat5e o Cat6 dal router/switch PoE alla posizione del campanello.</li>
-<li>Fissa la piastra di montaggio e passa il cavo.</li>
-<li>Collega il cavo RJ45 al campanello e fissalo al supporto.</li>
-<li>Il campanello appare automaticamente nell'app Reolink — configura le impostazioni.</li>
-</ol>
-<p><strong>Tempo di installazione:</strong> 15-20 minuti per un campanello a batteria, 30-60 minuti per installazione cablata (escluso il cablaggio). Senza cablaggio esistente, l'opzione batteria e la piu semplice.</p>
+    it: `<p><strong>Il miglior videocitofono smart senza abbonamento nel 2026 è l'Eufy Video Doorbell E340: doppia telecamera (visitatore e pacchi a terra), 8 GB di memoria integrata e funzionamento a batteria o sul cablaggio esistente del campanello, senza alcun costo mensile. Con un budget più contenuto, il TP-Link Tapo D235 offre video 2K da 5 megapixel, registrazione su scheda microSD e un campanello interno incluso.</strong></p>
+<p>Questo confronto si basa sulle schede tecniche dei produttori, sulle recensioni pubblicate dalla stampa specializzata e sui feedback di acquirenti verificati. Tutti i modelli selezionati registrano in locale: i video restano a casa tua, nella memoria interna, su una scheda microSD o su un registratore. I produttori propongono piani cloud, ma sono facoltativi.</p>
+<p>Per vedere tutti i modelli disponibili, consulta la nostra <a href="/it/securite-maison/sonnettes-video">selezione di videocampanelli</a>.</p>
 
-<h2>Privacy e GDPR: proteggere i visitatori e se stessi</h2>
-<p>Un videocitofono filma potenzialmente tutti i visitatori di casa tua. In Europa, il GDPR impone regole rigorose:</p>
-<ul>
-<li><strong>Riprendi solo la tua proprieta:</strong> la telecamera non deve inquadrare il marciapiede o la strada. Usa le zone di privacy nelle app.</li>
-<li><strong>Informa i visitatori:</strong> un cartello vicino al campanello che segnala la videosorveglianza e raccomandato (e obbligatorio secondo il Garante Privacy).</li>
-<li><strong>Preferisci l'archiviazione locale:</strong> Eufy E340 e Reolink archiviano localmente. Con Ring o Nest, i dati passano per server cloud.</li>
-<li><strong>Limita la conservazione:</strong> cancellazione automatica dopo 24-48 ore massimo (fino a 7 giorni con motivazione, secondo il Garante).</li>
-<li><strong>Proteggi l'accesso:</strong> password forte + autenticazione a due fattori.</li>
-</ul>
-<p>Per maggiori dettagli sulla conformita GDPR, consulta la nostra <a href="/it/blog/guide-securite-maison-connectee-2026">guida alla sicurezza domestica intelligente</a>.</p>
+<h2>Perché scegliere un videocampanello senza abbonamento?</h2>
+<p>Con molti campanelli smart, l'acquisto del dispositivo è solo l'inizio. Senza abbonamento, un campanello Ring permette di vedere la diretta, ricevere le notifiche e parlare con il visitatore, ma non salva alcun video: non puoi rivedere una consegna avvenuta mentre eri fuori. Il Google Nest Doorbell (a batteria) conserva gratuitamente 3 ore di cronologia eventi; oltre, serve Nest Aware. Nel giro di qualche anno, questi costi possono superare il prezzo del campanello.</p>
+<p>Un campanello con archiviazione locale elimina questa spesa ricorrente. Inoltre riduce le immagini che finiscono su server di terzi, a vantaggio della privacy dei tuoi visitatori e della tua.</p>
 
-<h2>Verdetto finale: quale videocitofono scegliere?</h2>
+<h2>Come scegliere</h2>
+<h3>Tipo di archiviazione locale</h3>
+<p>Le soluzioni sono tre. La memoria integrata (8 GB sull'Eufy E340) funziona subito, senza schede da acquistare. La scheda microSD, inserita nel campanello o nel ricevitore interno, offre più spazio: fino a 512 GB a seconda del modello. Infine alcuni marchi come Reolink permettono di registrare su un videoregistratore di rete (NVR) che centralizza tutte le telecamere. Verifica sempre che nessuna funzione essenziale (rilevamento persone, cronologia) sia riservata al piano a pagamento.</p>
+<h3>Batteria o cablaggio esistente</h3>
+<p>Un campanello a batteria si installa in pochi minuti, senza cavi da far passare, ma va ricaricato regolarmente. L'autonomia dichiarata dai produttori dipende molto dal numero di attivazioni, dalla temperatura e dalla qualità del Wi-Fi. Se hai già un campanello cablato, la maggior parte dei modelli si collega al trasformatore esistente (di solito da 8 a 24 V in corrente alternata): la batteria resta carica e si attivano funzioni come la preregistrazione dei secondi precedenti un movimento.</p>
+<h3>Campo visivo e inquadratura</h3>
+<p>Un campanello classico riprende in orizzontale: vedi il volto, ma non sempre il pacco ai piedi della porta. I modelli con vista dalla testa ai piedi (formato 4:3 o 1:1) o a doppia telecamera risolvono il problema. Un angolo di 160-180° copre anche i lati dell'ingresso.</p>
+<h3>Rilevamento intelligente</h3>
+<p>Un semplice rilevamento del movimento invia avvisi per ogni auto che passa o ramo che si muove. Scegli un campanello che riconosca le persone e, meglio ancora, pacchi, animali e veicoli, e che consenta di disegnare zone di rilevamento. Sui modelli selezionati queste funzioni sono incluse senza abbonamento.</p>
+<h3>Ecosistema domotico</h3>
+<p>Verifica la compatibilità con il tuo assistente: Amazon Alexa e Google Assistant sono ampiamente supportati, Apple Casa molto meno. Pensa anche al campanello interno: alcuni modelli lo includono, altri lo vendono a parte o sfruttano quello che hai già.</p>
+
+<h2>I 5 migliori videocampanelli senza abbonamento nel 2026</h2>
+<h3>1. Eufy Video Doorbell E340: il migliore in assoluto</h3>
+<p>L'<strong>Eufy Video Doorbell E340</strong> si distingue per la doppia telecamera: l'obiettivo principale riprende il visitatore, mentre una seconda telecamera rivolta verso il basso sorveglia i pacchi lasciati davanti alla porta. Gli 8 GB di memoria integrata salvano le clip senza scheda microSD, senza stazione base e senza abbonamento. Funziona a batteria ricaricabile o sul cablaggio esistente.</p>
+<p>Visione notturna a colori, audio bidirezionale e rilevamento di persone e pacchi sono inclusi. Si gestisce dall'app eufy Security e si visualizza sui display con Amazon Alexa e Google Assistant. Per ampliare l'archiviazione si può abbinare a una HomeBase S380.</p>
+<p><strong>Punti di forza:</strong> unica doppia telecamera di questa selezione, memoria integrata pronta all'uso, alimentazione a batteria o via cavo.<br><strong>Limiti:</strong> nessuna compatibilità con Apple Casa, scocca piuttosto spessa. Eufy è stata criticata nel 2022 per miniature inviate al suo cloud; da allora il marchio ha modificato app e pratiche, ma chi tiene molto alla privacy ne terrà conto.<br><strong>Per chi:</strong> la maggior parte delle famiglie che ricevono pacchi e vogliono una soluzione completa senza installare altro.</p>
+
+<h3>2. TP-Link Tapo D235: il miglior rapporto qualità-prezzo</h3>
+<p>Il <strong>TP-Link Tapo D235</strong> registra in 2K da 5 megapixel (2560 × 1920) con un campo visivo di 180° che inquadra il visitatore dalla testa ai piedi. La batteria da 10.000 mAh promette fino a 210 giorni di autonomia secondo TP-Link, e può anche essere collegato a un cablaggio da 8 a 24 V. Registra su scheda microSD fino a 512 GB.</p>
+<p>Il rilevamento di persone, veicoli, animali e pacchi è gratuito, come le notifiche. Il campanello interno è incluso nella confezione, la visione notturna a colori sfrutta un faretto integrato e la scocca ha protezione IP66. Funziona con Alexa e Google Assistant.</p>
+<p><strong>Punti di forza:</strong> immagine molto dettagliata, ampia autonomia dichiarata, campanello interno incluso, rilevamenti completi senza abbonamento.<br><strong>Limiti:</strong> scheda microSD da acquistare a parte, nessuna compatibilità con Apple Casa, il piano Tapo Care è ancora promosso nell'app.<br><strong>Per chi:</strong> chi vuole l'essenziale fatto bene a un prezzo da fascia d'ingresso.</p>
+
+<h3>3. Aqara Video Doorbell G4: la scelta per Apple Casa</h3>
+<p>L'<strong>Aqara Video Doorbell G4</strong> è uno dei pochi campanelli compatibili con HomeKit Secure Video. Registra in 1080p con un angolo di 162° e si alimenta con sei pile AA o con un cablaggio da 12 a 24 V. Il ricevitore incluso accoglie una scheda microSD fino a 512 GB per la registrazione locale, e Aqara mette in evidenza un riconoscimento facciale elaborato sul dispositivo.</p>
+<p>Un dettaglio importante: la registrazione tramite HomeKit Secure Video richiede un piano di archiviazione iCloud+ di Apple. Senza, il campanello resta utilizzabile senza abbonamento grazie alla scheda microSD nel ricevitore. Funziona anche con Alexa e Google Assistant.</p>
+<p><strong>Punti di forza:</strong> integrazione profonda nell'app Casa di Apple, ricevitore con archiviazione locale, pile sostituibili.<br><strong>Limiti:</strong> risoluzione limitata al Full HD, pile AA anziché batteria ricaricabile.<br><strong>Per chi:</strong> famiglie con iPhone, iPad o Apple TV.</p>
+
+<h3>4. Reolink Video Doorbell WiFi: il cablato più nitido</h3>
+<p>Il <strong>Reolink Video Doorbell WiFi</strong> registra a 5 megapixel (2560 × 1920) in formato 4:3, con un angolo diagonale di 180°. Si collega in Wi-Fi dual band (2,4 e 5 GHz) e registra su scheda microSD fino a 256 GB. Funziona solo via cavo, a 12-24 V in corrente alternata. Esiste anche una versione PoE, alimentata tramite cavo Ethernet.</p>
+<p>Il suo punto di forza è l'ecosistema Reolink: il campanello può registrare su un NVR Reolink insieme alle altre telecamere. Funziona con Alexa e Google Assistant.</p>
+<p><strong>Punti di forza:</strong> ottima risoluzione, Wi-Fi a 5 GHz, integrazione in un sistema di videosorveglianza completo.<br><strong>Limiti:</strong> niente batteria, app meno intuitiva di quelle Eufy o Tapo.<br><strong>Per chi:</strong> case già cablate e chi possiede o prevede telecamere Reolink.</p>
+
+<h3>5. Reolink Battery Doorbell: inquadratura quadrata a batteria</h3>
+<p>Il <strong>Reolink Battery Doorbell</strong>, lanciato a fine 2024, registra in 2K da 4 megapixel in formato quadrato 1:1: il visitatore appare per intero e il pacco a terra resta nell'inquadratura. Registra su scheda microSD fino a 256 GB, usa il Wi-Fi dual band e può collegarsi a un campanello cablato esistente.</p>
+<p><strong>Punti di forza:</strong> inquadratura dalla testa ai piedi, Wi-Fi a 5 GHz, nessuna dipendenza dal cloud.<br><strong>Limiti:</strong> scheda microSD da prevedere, ecosistema domotico meno ricco di Eufy o Tapo.<br><strong>Per chi:</strong> chi vuole un campanello senza fili con inquadratura verticale e senza stazione base.</p>
+
+<h2>Tabella comparativa</h2>
 <table>
 <thead>
-<tr><th>Profilo</th><th>Videocitofono consigliato</th><th>Perche</th></tr>
+<tr><th>Modello</th><th>Immagine</th><th>Archiviazione locale</th><th>Alimentazione</th><th>Compatibilità</th><th>Ideale per</th></tr>
 </thead>
 <tbody>
-<tr><td>Migliore scelta globale</td><td>Eufy E340</td><td>Doppia telecamera, archiviazione locale, HomeKit, zero abbonamento</td></tr>
-<tr><td>Utenti Alexa</td><td>Ring Battery Doorbell Plus</td><td>Integrazione Alexa perfetta, pre-roll 4s</td></tr>
-<tr><td>Budget ridotto / cablato</td><td>Reolink WiFi Doorbell</td><td>90 EUR, 2K, 180 gradi, archiviazione microSD</td></tr>
-<tr><td>Ecosistema Google</td><td>Google Nest Doorbell</td><td>Migliore IA, integrazione Google Home nativa</td></tr>
-</tbody>
-</table>
-<p><strong>Scelta della redazione:</strong> l'<strong>Eufy Video Doorbell E340</strong> e il videocitofono che raccomandiamo alla stragrande maggioranza delle famiglie europee nel 2026. La doppia telecamera unica, 8 GB di archiviazione locale senza abbonamento, rilevamento IA preciso e compatibilita HomeKit + Google Home ne fanno la soluzione piu completa a 120 EUR. Abbinalo a una <a href="/it/blog/comparatif-camera-surveillance-exterieure">videocamera di sorveglianza esterna</a> per un sistema di sicurezza completo senza costi ricorrenti.</p>`,
-
-    nl: `<h2>Deurbel met camera zonder abonnement: waarom het de beste keuze is in 2026</h2>
-<p>De videodeurbel is de eerste verdedigingslinie van elk thuisbeveiligingssysteem geworden. Je kunt iedereen aan je deur zien, horen en met hen praten, waar je ook bent. Maar in 2026 vereisen de meeste fabrikanten een maandelijks cloud-abonnement voor toegang tot videogeschiedenis — Ring rekent 3,99 EUR/maand (Ring Protect Basic), Google 5 EUR/maand (Nest Aware). Over 3 jaar lopen deze kosten op tot 144-180 EUR per deurbel.</p>
-<p>Het goede nieuws: verschillende videodeurbellen bieden volledige lokale opslag zonder enig abonnement. Je opnames blijven thuis, op een microSD-kaart of lokale hub, wat ook je AVG-compliance vereenvoudigt. In deze vergelijking hebben we gedurende 3 maanden de 4 populairste videodeurbellen in Europa getest om te bepalen welke de beste verhouding functies-prijs biedt zonder terugkerende kosten.</p>
-<p>Voor een compleet overzicht van slimme thuisbeveiliging, zie onze <a href="/nl/blog/guide-securite-maison-connectee-2026">complete gids voor slim thuisbeveiligingssysteem 2026</a>.</p>
-
-<h2>Ring vs Eufy: het topduel</h2>
-<p>Ring (Amazon) en Eufy (Anker) zijn de twee onbetwiste marktleiders voor videodeurbellen in Europa. Hier een directe vergelijking:</p>
-<table>
-<thead>
-<tr><th>Criterium</th><th>Eufy E340</th><th>Ring Battery Doorbell Plus</th></tr>
-</thead>
-<tbody>
-<tr><td>Resolutie</td><td>2K (gezicht) + 1080p (onder)</td><td>1536p Head-to-Toe</td></tr>
-<tr><td>Dubbele camera</td><td>Ja (gezicht + pakketten op de grond)</td><td>Nee (enkele lens)</td></tr>
-<tr><td>Lokale opslag</td><td>Ja (8 GB ingebouwd)</td><td>Nee (alleen cloud)</td></tr>
-<tr><td>Abonnement</td><td>Niet vereist — alle functies inbegrepen</td><td>Ring Protect 3,99 EUR/maand voor historie</td></tr>
-<tr><td>Nachtzicht</td><td>Kleur (LED-schijnwerper)</td><td>Kleur (LED-schijnwerper)</td></tr>
-<tr><td>AI-detectie</td><td>Personen, pakketten, dieren</td><td>Personen, pakketten, beweging</td></tr>
-<tr><td>Tweeweg-audio</td><td>Ja (ruisonderdrukking)</td><td>Ja</td></tr>
-<tr><td>Voeding</td><td>Oplaadbare accu (bedraad optioneel)</td><td>Oplaadbare accu (bedraad optioneel)</td></tr>
-<tr><td>Smart home</td><td>Google Home, Apple HomeKit</td><td>Alexa (Amazon-exclusief)</td></tr>
-<tr><td>AVG-compliance</td><td>Uitstekend — lokale data</td><td>Gemiddeld — Amazon-clouddata</td></tr>
-<tr><td>Prijs</td><td>~120 EUR</td><td>~130 EUR + 48 EUR/jaar (abo)</td></tr>
-</tbody>
-</table>
-<p><strong>Duel-oordeel:</strong> de Eufy E340 wint overtuigend. Voor een lagere prijs biedt hij gratis lokale opslag, een unieke dubbele camera, betere smart-home-compatibiliteit (HomeKit + Google) en nul terugkerende kosten. De Ring Battery Doorbell Plus is alleen interessant als je al diep in het Alexa-ecosysteem zit en Ring Protect accepteert.</p>
-
-<h2>Complete vergelijkingstabel: 4 geteste deurbellen</h2>
-<table>
-<thead>
-<tr><th>Criterium</th><th>Eufy E340</th><th>Ring Battery Doorbell Plus</th><th>Reolink WiFi Doorbell</th><th>Google Nest Doorbell (accu)</th></tr>
-</thead>
-<tbody>
-<tr><td>Resolutie</td><td>2K + 1080p (dubbel)</td><td>1536p</td><td>2K (2560x1440)</td><td>1280x960 (HDR)</td></tr>
-<tr><td>Lokale opslag</td><td>Ja (8 GB ingebouwd)</td><td>Nee</td><td>Ja (microSD)</td><td>Ja (1u gratis cloud)</td></tr>
-<tr><td>Abonnement vereist</td><td>Nee</td><td>Ja (voor historie)</td><td>Nee</td><td>Nee (maar beperkt zonder)</td></tr>
-<tr><td>Dubbele camera</td><td>Ja</td><td>Nee</td><td>Nee</td><td>Nee</td></tr>
-<tr><td>Nachtzicht</td><td>Kleur</td><td>Kleur</td><td>Kleur</td><td>HDR-nacht</td></tr>
-<tr><td>AI-detectie</td><td>Personen, pakketten, dieren</td><td>Personen, pakketten</td><td>Personen, voertuigen</td><td>Personen, pakketten, dieren, voertuigen</td></tr>
-<tr><td>Gezichtsveld</td><td>160 graden (hoofd)</td><td>150 graden</td><td>180 graden</td><td>145 graden</td></tr>
-<tr><td>Audio</td><td>Tweeweg + ruisonderdrukking</td><td>Tweeweg</td><td>Tweeweg</td><td>Tweeweg</td></tr>
-<tr><td>Voeding</td><td>Accu / bedraad</td><td>Accu / bedraad</td><td>PoE / bedraad</td><td>Accu / bedraad</td></tr>
-<tr><td>Smart home</td><td>HomeKit, Google Home</td><td>Alleen Alexa</td><td>Google, Alexa</td><td>Google Home</td></tr>
-<tr><td>Accuduur</td><td>~6 maanden</td><td>~6 maanden</td><td>N.v.t. (bedraad)</td><td>~2,5 maanden</td></tr>
-<tr><td>Prijs (april 2026)</td><td>~120 EUR</td><td>~130 EUR</td><td>~90 EUR</td><td>~180 EUR</td></tr>
+<tr><td>Eufy Video Doorbell E340</td><td>Doppia telecamera (visitatore + suolo)</td><td>8 GB integrati</td><td>Batteria o cavo</td><td>Alexa, Google Assistant</td><td>Pacchi e uso versatile</td></tr>
+<tr><td>TP-Link Tapo D235</td><td>2K 5 MP, 180°</td><td>microSD fino a 512 GB</td><td>Batteria 10.000 mAh o cavo</td><td>Alexa, Google Assistant</td><td>Miglior rapporto qualità-prezzo</td></tr>
+<tr><td>Aqara Video Doorbell G4</td><td>1080p, 162°</td><td>microSD nel ricevitore</td><td>6 pile AA o cavo</td><td>Apple Casa, Alexa, Google</td><td>Famiglie Apple</td></tr>
+<tr><td>Reolink Video Doorbell WiFi</td><td>5 MP, 180° diagonale</td><td>microSD fino a 256 GB, NVR</td><td>Solo cavo</td><td>Alexa, Google Assistant</td><td>Case cablate</td></tr>
+<tr><td>Reolink Battery Doorbell</td><td>2K 4 MP, formato 1:1</td><td>microSD fino a 256 GB</td><td>Batteria</td><td>App Reolink</td><td>Inquadratura dalla testa ai piedi</td></tr>
 </tbody>
 </table>
 
-<h2>Eufy Video Doorbell E340: onze nummer-een-keuze</h2>
-<h3>Sterke punten</h3>
-<ul>
-<li><strong>Unieke dubbele camera:</strong> de hoofdcamera filmt bezoekersgezichten in 2K, terwijl de tweede camera (onder) pakketten op de grond filmt in 1080p. Geen andere deurbel biedt deze functie.</li>
-<li><strong>8 GB ingebouwde lokale opslag:</strong> geen extra microSD-kaart nodig. De 8 GB slaat ongeveer 60 dagen gebeurtenissen op. Nul abonnement, nul extra kosten.</li>
-<li><strong>Geavanceerde AI-detectie:</strong> onderscheidt personen, pakketten en dieren. Meldingen zeggen "Persoon gedetecteerd bij de deur" of "Pakket bezorgd", niet simpelweg "Beweging gedetecteerd".</li>
-<li><strong>HomeKit + Google Home-compatibiliteit:</strong> een van de weinige deurbellen compatibel met Apple HomeKit. Livestream op HomePod, iPad of Apple TV.</li>
-<li><strong>6 maanden accuduur:</strong> de 6.000 mAh-accu gaat ongeveer 6 maanden mee bij normaal gebruik. Opladen duurt circa 5 uur via USB-C.</li>
-<li><strong>Kleuren-nachtzicht:</strong> ingebouwde LED's voor een helder kleurenbeeld 's nachts.</li>
-</ul>
-<h3>Zwakke punten</h3>
-<ul>
-<li>Het ontwerp is dikker dan concurrenten (31 mm) vanwege de dubbele camera.</li>
-<li>Geen Alexa-compatibiliteit.</li>
-<li>De binnenzoemer wordt apart verkocht (~30 EUR).</li>
-</ul>
-<h3>Ons oordeel: Eufy E340</h3>
-<p>De Eufy E340 is de meest complete videodeurbel op de markt in 2026. Dubbele camera, ingebouwde lokale opslag zonder abonnement, nauwkeurige AI-detectie en HomeKit-compatibiliteit maken hem een ongeevenaarde keuze. Voor 120 EUR een eenmalige investering zonder terugkerende kosten.</p>
+<h2>E Ring o Google Nest?</h2>
+<p>Ring e Google Nest sono ovunque nei negozi, ma non mantengono davvero la promessa «senza abbonamento». Senza piano, un campanello Ring offre diretta, avvisi e conversazione, ma non conserva registrazioni. Il Google Nest Doorbell (a batteria) mantiene gratis 3 ore di cronologia eventi e poi richiede Nest Aware. Restano scelte sensate se sei già abbonato e legato all'ecosistema Alexa o Google, ma non fanno parte della nostra selezione.</p>
 
-<h2>Ring Battery Doorbell Plus: de keuze voor Alexa-gebruikers</h2>
-<h3>Sterke punten</h3>
+<h2>Errori da evitare</h2>
 <ul>
-<li><strong>1536p Head-to-Toe-resolutie:</strong> verticaal uitgebreid gezichtsveld toont bezoekers van hoofd tot voeten, inclusief pakketten.</li>
-<li><strong>Perfecte Alexa-integratie:</strong> "Alexa, laat de voordeur zien" op een Echo Show en de stream verschijnt direct.</li>
-<li><strong>4 seconden pre-roll:</strong> elk evenement bevat 4 seconden video voor de trigger (vereist Ring Protect).</li>
-<li><strong>Groot accessoire-ecosysteem:</strong> zonnepanelen, zoemer, hoekbevestigingen.</li>
-<li><strong>Eenvoudige installatie:</strong> goed ontworpen montagekit, installatie in 15 minuten.</li>
+<li><strong>Dimenticare la scheda microSD:</strong> nella maggior parte dei modelli non è inclusa. Senza scheda, il campanello non registra nulla.</li>
+<li><strong>Trascurare il Wi-Fi alla porta:</strong> verifica il segnale sulla soglia con lo smartphone. Un segnale debole rallenta la diretta e scarica prima la batteria; può servire un ripetitore.</li>
+<li><strong>Riprendere la strada:</strong> imposta zone di privacy per oscurare marciapiede e via pubblica.</li>
+<li><strong>Fidarsi dell'autonomia dichiarata:</strong> si riferisce a un uso moderato. Una strada trafficata o il freddo invernale possono ridurla parecchio.</li>
+<li><strong>Dimenticare il campanello interno:</strong> senza, senti lo squillo solo sullo smartphone.</li>
 </ul>
-<h3>Zwakke punten</h3>
-<ul>
-<li>Geen lokale opslag — alleen Ring-cloud. Zonder Ring Protect (3,99 EUR/maand) alleen livestream.</li>
-<li>Alleen Alexa — geen HomeKit, geen Google Home.</li>
-<li>Data op Amazon-servers — AVG-zorgen voor privacybewuste Europese gebruikers.</li>
-<li>Totale kosten over 3 jaar: 130 + 144 = 274 EUR, meer dan het dubbele van de Eufy E340.</li>
-</ul>
-<h3>Ons oordeel: Ring Battery Doorbell Plus</h3>
-<p>Uitstekende videodeurbel met onberispelijke beeldkwaliteit en Alexa-integratie. Het ontbreken van lokale opslag en het verplichte abonnement maken hem op lange termijn duur. Alleen aanbevolen voor overtuigde Alexa-gebruikers.</p>
 
-<h2>Reolink WiFi Video Doorbell: de beste budgetoptie</h2>
-<h3>Sterke punten</h3>
-<ul>
-<li><strong>Echte 2K-resolutie:</strong> met 2560x1440 pixels de hoogste resolutie in onze vergelijking voor een deurbel in deze prijsklasse.</li>
-<li><strong>180 graden gezichtsveld:</strong> het breedste, zonder dode hoeken voor de deur.</li>
-<li><strong>Lokale microSD-opslag:</strong> slot tot 256 GB, zonder abonnement. Ook compatibel met Reolink NVR.</li>
-<li><strong>Onverslaanbare prijs:</strong> circa 90 EUR, de goedkoopste videodeurbel met 2K en lokale opslag.</li>
-<li><strong>PoE-installatie:</strong> een kabel voor stroom en data. Geen accu om op te laden.</li>
-</ul>
-<h3>Zwakke punten</h3>
-<ul>
-<li>Alleen bedrade installatie — geen accu-optie.</li>
-<li>AI-detectie beperkt tot personen en voertuigen — geen pakketdetectie.</li>
-<li>Reolink-app functioneel maar minder intuïtief dan Eufy of Ring.</li>
-<li>Geen Apple HomeKit.</li>
-<li>Binnenzoemer apart verkrijgbaar.</li>
-</ul>
-<h3>Ons oordeel: Reolink WiFi Doorbell</h3>
-<p>Ideale keuze voor krappe budgetten en huizen met bestaande bedrading. Voor 90 EUR met lokale opslag en 2K is de prijs-kwaliteitverhouding uitzonderlijk.</p>
+<h2>Installazione e privacy</h2>
+<p>Un campanello a batteria si fissa con due viti e una staffa in circa un quarto d'ora. Per collegarlo a un cablaggio esistente, togli prima la corrente dal quadro elettrico e verifica che la tensione del trasformatore rientri nell'intervallo indicato dal produttore. In caso di dubbio, o se occorre collegare un nuovo trasformatore alla rete a 230 V, rivolgiti a un elettricista qualificato.</p>
+<p>Sul fronte privacy, il Garante per la protezione dei dati personali ricorda che un privato dovrebbe riprendere solo la propria area privata, non la strada pubblica né la proprietà dei vicini. Orienta la telecamera verso il tuo ingresso, usa le maschere di privacy e informa i visitatori. Attiva l'autenticazione a due fattori sull'account e cambia la password predefinita.</p>
+<p>Per completare l'impianto, consulta il nostro confronto dei <a href="/it/blog/interphone-video-connecte">videocitofoni connessi</a>, adatti a cancelli e condomini, e la nostra selezione di <a href="/it/blog/camera-interieure-sans-abonnement">videocamere per interni senza abbonamento</a>.</p>
 
-<h2>Google Nest Doorbell (accu): Google-intelligentie</h2>
-<h3>Sterke punten</h3>
-<ul>
-<li><strong>Meest geavanceerde AI-detectie:</strong> dankzij Google's machine learning onderscheidt de Nest Doorbell personen, pakketten, dieren en voertuigen met opmerkelijke precisie. "Bekende gezichten" laten precies zien wie er aanbelt.</li>
-<li><strong>1 uur gratis cloudopslag:</strong> zelfs zonder Nest Aware blijft 1 uur videohistorie beschikbaar.</li>
-<li><strong>Uitstekende Google Home-integratie:</strong> de stream verschijnt automatisch op Nest Hub-schermen bij aanbellen.</li>
-<li><strong>HDR met uitgebreid dynamisch bereik:</strong> gebalanceerd beeld bij moeilijke lichtomstandigheden, ondanks lagere resolutie (960p).</li>
-<li><strong>Elegant compact ontwerp:</strong> het dunste en meest discrete ontwerp in onze vergelijking.</li>
-</ul>
-<h3>Zwakke punten</h3>
-<ul>
-<li>960p-resolutie is de laagste in onze vergelijking.</li>
-<li>Accuduur slechts 2,5 maanden — de kortste. Geen zonnepaneel beschikbaar.</li>
-<li>Zonder Nest Aware (5 EUR/maand) slechts 1 uur opslag.</li>
-<li>Hoge prijs van 180 EUR voor lagere resolutie dan concurrenten.</li>
-<li>Gesloten ecosysteem: alleen Google Home, geen HomeKit of Alexa.</li>
-</ul>
-<h3>Ons oordeel: Google Nest Doorbell</h3>
-<p>Blinkt uit in AI-intelligentie en Google Home-integratie. Maar de lage resolutie, beperkte accuduur en hoge prijs maken het moeilijk aan te bevelen tegenover de Eufy E340.</p>
+<h2>Verdetto</h2>
+<p>L'<strong>Eufy Video Doorbell E340</strong> è la scelta più completa: doppia telecamera per i pacchi, memoria integrata e alimentazione a batteria o via cavo, senza costi mensili. Il <strong>TP-Link Tapo D235</strong> offre il miglior rapporto qualità-prezzo con immagine da 5 megapixel, grande batteria e campanello interno incluso. Le famiglie Apple guarderanno all'<strong>Aqara Video Doorbell G4</strong>, mentre il <strong>Reolink Video Doorbell WiFi</strong> è adatto alle case già cablate e il <strong>Reolink Battery Doorbell</strong> a chi vuole un'inquadratura dalla testa ai piedi a batteria.</p>`,
 
-<h2>Installatiegids: zelf een videodeurbel installeren</h2>
-<h3>Accu-installatie (Eufy E340, Ring, Nest)</h3>
-<ol>
-<li><strong>Kies de locatie:</strong> op borsthoogte (circa 1,20-1,40 m van de grond) voor een optimale hoek op gezichten. Controleer Wi-Fi-dekking met je smartphone.</li>
-<li><strong>Boor en bevestig de montageplaat:</strong> gebruik de meegeleverde schroeven en pluggen. Een boormachine en waterpas volstaan.</li>
-<li><strong>Sluit bedrading aan (optioneel):</strong> bij vervanging van een bestaande deurbel, sluit de twee draden aan op de klemmen. Een 8-24V AC-transformator is vereist.</li>
-<li><strong>Klik de deurbel op de houder:</strong> beveiligingsschroef tegen diefstal.</li>
-<li><strong>Configureer via de app:</strong> scan de QR-code, verbind met Wi-Fi, stel detectiezones en AVG-privacymaskers in.</li>
-</ol>
-<h3>Bedrade PoE-installatie (Reolink)</h3>
-<ol>
-<li>Trek een Cat5e- of Cat6-Ethernet-kabel van je router/PoE-switch naar de deurbelpositie.</li>
-<li>Bevestig de montageplaat en leid de kabel erdoorheen.</li>
-<li>Sluit de RJ45-kabel aan op de deurbel en bevestig hem aan de houder.</li>
-<li>De deurbel verschijnt automatisch in de Reolink-app — configureer de instellingen.</li>
-</ol>
-<p><strong>Installatietijd:</strong> 15-20 minuten voor een accu-deurbel, 30-60 minuten voor een bedrade installatie (exclusief bedrading). Zonder bestaande bedrading is de accu-optie het eenvoudigst.</p>
+    nl: `<p><strong>De beste videodeurbel zonder abonnement in 2026 is de Eufy Video Doorbell E340: dubbele camera (bezoeker en pakketjes op de grond), 8 GB ingebouwde opslag en werking op accu of op de bestaande deurbelbedrading, zonder enige maandelijkse kosten. Met een krapper budget biedt de TP-Link Tapo D235 2K-video van 5 megapixel, opname op een microSD-kaart en een meegeleverde gong.</strong></p>
+<p>Deze vergelijking is gebaseerd op specificaties van fabrikanten, reviews in de vakpers en beoordelingen van geverifieerde kopers. Alle gekozen deurbellen nemen lokaal op: je beelden blijven thuis, in het interne geheugen, op een microSD-kaart of op een recorder. Fabrikanten bieden cloudabonnementen aan, maar die zijn optioneel.</p>
+<p>Alle beschikbare modellen vind je in onze <a href="/nl/securite-maison/sonnettes-video">selectie videodeurbellen</a>.</p>
 
-<h2>Privacy en AVG: je bezoekers en jezelf beschermen</h2>
-<p>Een videodeurbel filmt potentieel alle bezoekers van je huis. In Europa stelt de AVG strenge regels:</p>
-<ul>
-<li><strong>Film alleen je eigen terrein:</strong> de camera mag geen trottoir of straat vastleggen. Gebruik de privacyzones in de apps.</li>
-<li><strong>Informeer je bezoekers:</strong> een bordje bij de deurbel dat camerabewaking vermeldt is aanbevolen (en verplicht volgens de Autoriteit Persoonsgegevens).</li>
-<li><strong>Geef voorkeur aan lokale opslag:</strong> Eufy E340 en Reolink slaan lokaal op — je data verlaat nooit je huis. Bij Ring of Nest gaan data via cloudservers.</li>
-<li><strong>Beperk de bewaartermijn:</strong> automatische verwijdering na maximaal 28 dagen configureren (richtlijn AP).</li>
-<li><strong>Beveilig de toegang:</strong> sterk wachtwoord + tweefactorauthenticatie.</li>
-</ul>
-<p>Voor meer details over AVG-compliance, zie onze <a href="/nl/blog/guide-securite-maison-connectee-2026">gids voor slim thuisbeveiligingssysteem</a>.</p>
+<h2>Waarom een videodeurbel zonder abonnement?</h2>
+<p>Bij veel slimme deurbellen is de aankoop van het apparaat pas het begin. Zonder abonnement laat een Ring-deurbel je het livebeeld zien, ontvang je meldingen en kun je met de bezoeker praten, maar er wordt geen video bewaard: een bezorging terwijl je weg was, kun je niet terugkijken. De Google Nest Doorbell (accu) bewaart gratis 3 uur gebeurtenisgeschiedenis; daarna heb je Nest Aware nodig. Over een paar jaar kunnen die kosten hoger uitvallen dan de prijs van de deurbel zelf.</p>
+<p>Een deurbel met lokale opslag schrapt die terugkerende kosten. Bovendien gaan er minder beelden naar servers van derden, wat goed is voor de privacy van je bezoekers en die van jezelf.</p>
 
-<h2>Eindoordeel: welke videodeurbel kiezen?</h2>
+<h2>Waar let je op bij het kiezen?</h2>
+<h3>Soort lokale opslag</h3>
+<p>Er zijn drie oplossingen. Ingebouwd geheugen (8 GB bij de Eufy E340) werkt meteen, zonder kaart te kopen. Een microSD-kaart in de deurbel of de gong biedt meer ruimte: tot 512 GB, afhankelijk van het model. Tot slot kunnen sommige merken zoals Reolink opnemen op een netwerkvideorecorder (NVR) die al je camera's bundelt. Controleer altijd of geen essentiële functie (persoonsdetectie, geschiedenis) achter het betaalde abonnement zit.</p>
+<h3>Accu of bestaande bedrading</h3>
+<p>Een deurbel op accu hang je in een paar minuten op, zonder kabels te trekken, maar je moet hem regelmatig opladen. De door fabrikanten opgegeven accuduur hangt sterk af van het aantal meldingen, de temperatuur en de wifikwaliteit. Heb je al een bedrade deurbel, dan sluiten de meeste modellen aan op de bestaande transformator (meestal 8 tot 24 V wisselstroom): de accu blijft vol en sommige functies, zoals het vooraf opnemen van de seconden vóór een beweging, komen beschikbaar.</p>
+<h3>Kijkhoek en beeldkader</h3>
+<p>Een klassieke deurbel filmt liggend: je ziet het gezicht, maar niet altijd het pakketje voor de deur. Modellen met een beeld van top tot teen (beeldverhouding 4:3 of 1:1) of met een dubbele camera lossen dat op. Een hoek van 160 tot 180° dekt ook de zijkanten van de ingang.</p>
+<h3>Slimme detectie</h3>
+<p>Eenvoudige bewegingsdetectie geeft een melding bij elke passerende auto of bewegende tak. Kies een deurbel die personen herkent, en liefst ook pakketjes, huisdieren en voertuigen, en waarmee je detectiezones kunt tekenen. Bij de gekozen modellen zitten deze functies erin zonder abonnement.</p>
+<h3>Smart-home-ecosysteem</h3>
+<p>Controleer de compatibiliteit met je assistent: Amazon Alexa en Google Assistent worden breed ondersteund, Apple Woning veel minder. Denk ook aan de gong binnen: sommige modellen leveren hem mee, andere verkopen hem los of gebruiken je bestaande gong.</p>
+
+<h2>De 5 beste videodeurbellen zonder abonnement in 2026</h2>
+<h3>1. Eufy Video Doorbell E340: de beste allround</h3>
+<p>De <strong>Eufy Video Doorbell E340</strong> valt op door zijn dubbele camera: de hoofdlens filmt de bezoeker, terwijl een tweede, naar beneden gerichte camera de pakketjes voor de deur in de gaten houdt. De 8 GB intern geheugen bewaart clips zonder microSD-kaart, zonder basisstation en zonder abonnement. Hij werkt op een oplaadbare accu of op de bestaande bedrading.</p>
+<p>Nachtzicht in kleur, tweerichtingsaudio en detectie van personen en pakketjes zijn inbegrepen. Je bedient hem via de eufy Security-app en het beeld verschijnt op schermen met Amazon Alexa en Google Assistent. Voor extra opslag kun je hem koppelen aan een HomeBase S380.</p>
+<p><strong>Sterke punten:</strong> de enige dubbele camera in deze selectie, ingebouwde opslag die meteen werkt, voeding via accu of bedrading.<br><strong>Minpunten:</strong> geen ondersteuning voor Apple Woning, vrij dikke behuizing. Eufy kreeg in 2022 kritiek omdat miniaturen naar de cloud werden gestuurd; het merk heeft app en werkwijze sindsdien aangepast, maar wie veel waarde hecht aan privacy houdt hier rekening mee.<br><strong>Voor wie:</strong> de meeste huishoudens die pakketjes ontvangen en een complete oplossing willen zonder extra apparaten.</p>
+
+<h3>2. TP-Link Tapo D235: beste prijs-kwaliteitverhouding</h3>
+<p>De <strong>TP-Link Tapo D235</strong> filmt in 2K met 5 megapixel (2560 × 1920) en een kijkhoek van 180° die bezoekers van top tot teen in beeld brengt. De accu van 10.000 mAh gaat volgens TP-Link tot 210 dagen mee, en hij kan ook op 8 tot 24 V worden aangesloten. Opnames gaan naar een microSD-kaart tot 512 GB.</p>
+<p>Detectie van personen, voertuigen, huisdieren en pakketjes is gratis, net als de meldingen. De gong binnen zit in de doos, het kleurennachtzicht gebruikt een ingebouwde spot en de behuizing heeft IP66-bescherming. Hij werkt met Alexa en Google Assistent.</p>
+<p><strong>Sterke punten:</strong> zeer gedetailleerd beeld, lange opgegeven accuduur, gong inbegrepen, volledige detectie zonder abonnement.<br><strong>Minpunten:</strong> microSD-kaart los te kopen, geen ondersteuning voor Apple Woning, Tapo Care wordt in de app nog steeds gepromoot.<br><strong>Voor wie:</strong> wie de basis goed geregeld wil hebben voor een instapprijs.</p>
+
+<h3>3. Aqara Video Doorbell G4: de keuze voor Apple Woning</h3>
+<p>De <strong>Aqara Video Doorbell G4</strong> is een van de weinige deurbellen met HomeKit Secure Video. Hij filmt in 1080p met een kijkhoek van 162° en werkt op zes AA-batterijen of op bedrading van 12 tot 24 V. De meegeleverde gong heeft plaats voor een microSD-kaart tot 512 GB voor lokale opname, en Aqara benadrukt gezichtsherkenning die op het apparaat zelf gebeurt.</p>
+<p>Let op één detail: opnemen via HomeKit Secure Video vereist een iCloud+-opslagabonnement bij Apple. Zonder dat abonnement blijft de deurbel bruikbaar dankzij de microSD-kaart in de gong. Hij werkt ook met Alexa en Google Assistent.</p>
+<p><strong>Sterke punten:</strong> diepe integratie in de Woning-app van Apple, gong met lokale opslag, vervangbare batterijen.<br><strong>Minpunten:</strong> resolutie beperkt tot Full HD, AA-batterijen in plaats van een oplaadbare accu.<br><strong>Voor wie:</strong> huishoudens met een iPhone, iPad of Apple TV.</p>
+
+<h3>4. Reolink Video Doorbell WiFi: de scherpste bedrade deurbel</h3>
+<p>De <strong>Reolink Video Doorbell WiFi</strong> filmt in 5 megapixel (2560 × 1920) in 4:3-formaat met een diagonale kijkhoek van 180°. Hij maakt verbinding via dualband-wifi (2,4 en 5 GHz) en neemt op naar een microSD-kaart tot 256 GB. Hij werkt alleen bedraad, op 12 tot 24 V wisselstroom. Er bestaat ook een PoE-versie die via een netwerkkabel wordt gevoed.</p>
+<p>Zijn troef is het Reolink-ecosysteem: de deurbel kan samen met je andere camera's opnemen op een Reolink-NVR. Hij werkt met Alexa en Google Assistent.</p>
+<p><strong>Sterke punten:</strong> uitstekende resolutie, 5 GHz-wifi, past in een compleet camerasysteem.<br><strong>Minpunten:</strong> geen accu, app minder intuïtief dan die van Eufy of Tapo.<br><strong>Voor wie:</strong> huizen met bestaande bedrading en wie al Reolink-camera's heeft of plant.</p>
+
+<h3>5. Reolink Battery Doorbell: vierkant beeld op accu</h3>
+<p>De <strong>Reolink Battery Doorbell</strong>, eind 2024 gelanceerd, filmt in 2K met 4 megapixel in een vierkant 1:1-formaat: bezoekers staan volledig in beeld en het pakketje op de grond blijft zichtbaar. Hij neemt op naar een microSD-kaart tot 256 GB, gebruikt dualband-wifi en kan worden gekoppeld aan een bestaande bedrade gong.</p>
+<p><strong>Sterke punten:</strong> beeld van top tot teen, 5 GHz-wifi, geen afhankelijkheid van de cloud.<br><strong>Minpunten:</strong> microSD-kaart nodig, kleiner smart-home-ecosysteem dan Eufy of Tapo.<br><strong>Voor wie:</strong> wie een draadloze deurbel met hoog beeldkader wil, zonder basisstation.</p>
+
+<h2>Vergelijkingstabel</h2>
 <table>
 <thead>
-<tr><th>Profiel</th><th>Aanbevolen deurbel</th><th>Waarom</th></tr>
+<tr><th>Model</th><th>Beeld</th><th>Lokale opslag</th><th>Voeding</th><th>Compatibiliteit</th><th>Ideaal voor</th></tr>
 </thead>
 <tbody>
-<tr><td>Beste algehele keuze</td><td>Eufy E340</td><td>Dubbele camera, lokale opslag, HomeKit, nul abonnement</td></tr>
-<tr><td>Alexa-gebruikers</td><td>Ring Battery Doorbell Plus</td><td>Perfecte Alexa-integratie, 4s pre-roll</td></tr>
-<tr><td>Klein budget / bedraad</td><td>Reolink WiFi Doorbell</td><td>90 EUR, 2K, 180 graden, microSD-opslag</td></tr>
-<tr><td>Google-ecosysteem</td><td>Google Nest Doorbell</td><td>Beste AI, native Google Home-integratie</td></tr>
+<tr><td>Eufy Video Doorbell E340</td><td>Dubbele camera (bezoeker + grond)</td><td>8 GB ingebouwd</td><td>Accu of bedraad</td><td>Alexa, Google Assistent</td><td>Pakketjes en allround gebruik</td></tr>
+<tr><td>TP-Link Tapo D235</td><td>2K 5 MP, 180°</td><td>microSD tot 512 GB</td><td>Accu 10.000 mAh of bedraad</td><td>Alexa, Google Assistent</td><td>Beste prijs-kwaliteit</td></tr>
+<tr><td>Aqara Video Doorbell G4</td><td>1080p, 162°</td><td>microSD in de gong</td><td>6 AA-batterijen of bedraad</td><td>Apple Woning, Alexa, Google</td><td>Apple-huishoudens</td></tr>
+<tr><td>Reolink Video Doorbell WiFi</td><td>5 MP, 180° diagonaal</td><td>microSD tot 256 GB, NVR</td><td>Alleen bedraad</td><td>Alexa, Google Assistent</td><td>Bedrade woningen</td></tr>
+<tr><td>Reolink Battery Doorbell</td><td>2K 4 MP, 1:1-formaat</td><td>microSD tot 256 GB</td><td>Accu</td><td>Reolink-app</td><td>Beeld van top tot teen</td></tr>
 </tbody>
 </table>
-<p><strong>Keuze van de redactie:</strong> de <strong>Eufy Video Doorbell E340</strong> is de videodeurbel die we aanbevelen aan de overgrote meerderheid van Europese huishoudens in 2026. De unieke dubbele camera, 8 GB ingebouwde lokale opslag zonder abonnement, nauwkeurige AI-detectie en HomeKit + Google Home-compatibiliteit maken het de meest complete oplossing voor 120 EUR. Combineer hem met een <a href="/nl/blog/comparatif-camera-surveillance-exterieure">beveiligingscamera buiten</a> voor een compleet beveiligingssysteem zonder terugkerende kosten.</p>`,
+
+<h2>En Ring of Google Nest?</h2>
+<p>Ring en Google Nest liggen overal in de winkel, maar maken de belofte "zonder abonnement" niet echt waar. Zonder abonnement biedt een Ring-deurbel livebeeld, meldingen en spreken met de bezoeker, maar bewaart geen opnames. De Google Nest Doorbell (accu) bewaart gratis 3 uur gebeurtenisgeschiedenis en vraagt daarna om Nest Aware. Ze blijven verstandig als je al een abonnement hebt en stevig in het Alexa- of Google-ecosysteem zit, maar ze staan niet in onze selectie.</p>
+
+<h2>Fouten om te vermijden</h2>
+<ul>
+<li><strong>De microSD-kaart vergeten:</strong> bij de meeste modellen zit hij er niet bij. Zonder kaart neemt de deurbel niets op.</li>
+<li><strong>De wifi bij de deur onderschatten:</strong> controleer het signaal op de drempel met je telefoon. Een zwak signaal vertraagt het livebeeld en leegt de accu sneller; een versterker kan nodig zijn.</li>
+<li><strong>De straat filmen:</strong> stel privacyzones in om stoep en openbare weg af te schermen.</li>
+<li><strong>Blind vertrouwen op de opgegeven accuduur:</strong> die geldt voor matig gebruik. Een drukke straat of winterkou kunnen hem flink verkorten.</li>
+<li><strong>De gong vergeten:</strong> zonder gong binnen hoor je de deurbel alleen op je telefoon.</li>
+</ul>
+
+<h2>Installatie en privacy</h2>
+<p>Een deurbel op accu bevestig je met twee schroeven en een beugel in ongeveer een kwartier. Voor aansluiting op bestaande bedrading schakel je eerst de stroom uit in de meterkast en controleer je of de spanning van de transformator binnen het door de fabrikant opgegeven bereik valt. Bij twijfel, of als er een nieuwe transformator op 230 V moet worden aangesloten, schakel je een erkende elektricien in.</p>
+<p>Wat privacy betreft, adviseert de Autoriteit Persoonsgegevens om als particulier alleen je eigen terrein te filmen, niet de openbare weg of het terrein van de buren. Richt de camera op je voordeur, gebruik privacymaskers en informeer bezoekers. Schakel tweestapsverificatie in voor je account en wijzig standaardwachtwoorden.</p>
+<p>Om je installatie compleet te maken, bekijk onze vergelijking van <a href="/nl/blog/interphone-video-connecte">slimme video-intercoms</a>, geschikt voor poorten en appartementen, en onze selectie <a href="/nl/blog/camera-interieure-sans-abonnement">binnencamera's zonder abonnement</a>.</p>
+
+<h2>Eindoordeel</h2>
+<p>De <strong>Eufy Video Doorbell E340</strong> is de meest complete keuze: dubbele camera voor pakketjes, ingebouwde opslag en voeding via accu of bedrading, zonder maandelijkse kosten. De <strong>TP-Link Tapo D235</strong> biedt de beste prijs-kwaliteitverhouding met zijn beeld van 5 megapixel, grote accu en meegeleverde gong. Apple-huishoudens kiezen de <strong>Aqara Video Doorbell G4</strong>, terwijl de <strong>Reolink Video Doorbell WiFi</strong> past bij huizen met bestaande bedrading en de <strong>Reolink Battery Doorbell</strong> bij wie een beeld van top tot teen op accu wil.</p>`,
   },
   faq: [
     {
       question: {
-        fr: 'Quelle est la meilleure sonnette video sans abonnement en 2026 ?',
-        en: 'What is the best video doorbell without subscription in 2026?',
-        de: 'Welche ist die beste Video-Tuerklingel ohne Abo 2026?',
-        es: 'Cual es el mejor videoportero sin suscripcion en 2026?',
-        it: 'Qual e il miglior videocitofono senza abbonamento nel 2026?',
-        nl: 'Wat is de beste videodeurbel zonder abonnement in 2026?',
+        fr: "Une sonnette vidéo peut-elle vraiment fonctionner sans abonnement ?",
+        en: "Can a video doorbell really work without a subscription?",
+        de: "Funktioniert eine Video-Türklingel wirklich ohne Abo?",
+        es: "¿Puede un timbre con vídeo funcionar de verdad sin suscripción?",
+        it: "Un videocampanello può davvero funzionare senza abbonamento?",
+        nl: "Kan een videodeurbel echt werken zonder abonnement?",
       },
       answer: {
-        fr: 'L\'Eufy Video Doorbell E340 est notre choix numero un en 2026. Pour environ 120 EUR, elle offre une double camera unique (2K pour les visages + 1080p pour les colis au sol), 8 Go de stockage local integre sans aucun abonnement, une detection IA precise (personnes, colis, animaux), une compatibilite Apple HomeKit et Google Home, et une autonomie de 6 mois. C\'est la sonnette la plus complete du marche sans frais recurrents.',
-        en: 'The Eufy Video Doorbell E340 is our number one choice in 2026. For around 100 GBP, it offers a unique dual camera (2K for faces + 1080p for packages on the ground), 8 GB built-in local storage without any subscription, precise AI detection (people, packages, animals), Apple HomeKit and Google Home compatibility, and 6-month battery life. It is the most complete doorbell on the market without recurring fees.',
-        de: 'Die Eufy Video Doorbell E340 ist unsere Nummer-eins-Empfehlung 2026. Fuer rund 120 EUR bietet sie eine einzigartige Doppelkamera (2K fuer Gesichter + 1080p fuer Pakete am Boden), 8 GB integrierten lokalen Speicher ohne jedes Abo, praezise KI-Erkennung (Personen, Pakete, Tiere), Apple-HomeKit- und Google-Home-Kompatibilitaet und 6 Monate Akkulaufzeit. Die vollstaendigste Tuerklingel auf dem Markt ohne laufende Kosten.',
-        es: 'El Eufy Video Doorbell E340 es nuestra primera opcion en 2026. Por unos 120 EUR, ofrece una doble camara unica (2K para rostros + 1080p para paquetes en el suelo), 8 GB de almacenamiento local integrado sin suscripcion, deteccion IA precisa (personas, paquetes, animales), compatibilidad Apple HomeKit y Google Home, y 6 meses de autonomia. El videoportero mas completo del mercado sin costes recurrentes.',
-        it: 'L\'Eufy Video Doorbell E340 e la nostra prima scelta nel 2026. Per circa 120 EUR, offre una doppia telecamera unica (2K per i volti + 1080p per i pacchi a terra), 8 GB di archiviazione locale integrata senza abbonamento, rilevamento IA preciso (persone, pacchi, animali), compatibilita Apple HomeKit e Google Home, e 6 mesi di autonomia. Il videocitofono piu completo del mercato senza costi ricorrenti.',
-        nl: 'De Eufy Video Doorbell E340 is onze nummer-een-keuze in 2026. Voor ongeveer 120 EUR biedt hij een unieke dubbele camera (2K voor gezichten + 1080p voor pakketten op de grond), 8 GB ingebouwde lokale opslag zonder abonnement, nauwkeurige AI-detectie (personen, pakketten, dieren), Apple HomeKit- en Google Home-compatibiliteit, en 6 maanden accuduur. De meest complete deurbel op de markt zonder terugkerende kosten.',
+        fr: "Oui, à condition qu'elle dispose d'un stockage local. L'Eufy E340 enregistre sur 8 Go de mémoire intégrée, la Tapo D235 et les sonnettes Reolink sur carte microSD, l'Aqara G4 sur la microSD de son carillon. Direct, notifications et détection de personnes restent gratuits sur ces modèles.",
+        en: "Yes, as long as it has local storage. The Eufy E340 records to 8 GB of built-in memory, the Tapo D235 and Reolink doorbells to a microSD card, and the Aqara G4 to the microSD card in its chime. Live view, notifications and person detection stay free on these models.",
+        de: "Ja, sofern sie lokal speichert. Die Eufy E340 nutzt 8 GB internen Speicher, die Tapo D235 und die Reolink-Klingeln eine microSD-Karte, die Aqara G4 die microSD-Karte im Gong. Livebild, Benachrichtigungen und Personenerkennung bleiben bei diesen Modellen kostenlos.",
+        es: "Sí, siempre que tenga almacenamiento local. El Eufy E340 graba en 8 GB de memoria interna, el Tapo D235 y los timbres Reolink en tarjeta microSD, y el Aqara G4 en la microSD de su carillón. El directo, las notificaciones y la detección de personas son gratuitos en estos modelos.",
+        it: "Sì, purché disponga di archiviazione locale. L'Eufy E340 registra su 8 GB di memoria integrata, il Tapo D235 e i campanelli Reolink su scheda microSD, l'Aqara G4 sulla microSD del ricevitore. Diretta, notifiche e rilevamento persone restano gratuiti su questi modelli.",
+        nl: "Ja, zolang hij lokale opslag heeft. De Eufy E340 neemt op in 8 GB intern geheugen, de Tapo D235 en de Reolink-deurbellen op een microSD-kaart en de Aqara G4 op de microSD-kaart in de gong. Livebeeld, meldingen en persoonsdetectie blijven bij deze modellen gratis.",
       },
     },
     {
       question: {
-        fr: 'La Ring Doorbell fonctionne-t-elle sans abonnement ?',
-        en: 'Does the Ring Doorbell work without a subscription?',
-        de: 'Funktioniert die Ring Doorbell ohne Abo?',
-        es: 'Funciona el Ring Doorbell sin suscripcion?',
-        it: 'Il Ring Doorbell funziona senza abbonamento?',
-        nl: 'Werkt de Ring Doorbell zonder abonnement?',
+        fr: "Que fait une sonnette Ring sans abonnement ?",
+        en: "What does a Ring doorbell do without a subscription?",
+        de: "Was kann eine Ring-Klingel ohne Abo?",
+        es: "¿Qué hace un timbre Ring sin suscripción?",
+        it: "Cosa fa un campanello Ring senza abbonamento?",
+        nl: "Wat doet een Ring-deurbel zonder abonnement?",
       },
       answer: {
-        fr: 'Oui, la Ring Doorbell fonctionne sans abonnement Ring Protect, mais avec des limitations importantes. Sans abonnement, vous pouvez uniquement voir le flux video en direct et recevoir des notifications de mouvement. Vous ne pouvez pas revoir les evenements passes, sauvegarder des clips, partager des videos, ni beneficier du pre-roll de 4 secondes. Il n\'y a aucun stockage local — tout passe par le cloud Ring. Pour acceder a l\'historique video (180 jours), les zones de detection personnalisees et le partage de clips, il faut Ring Protect Basic a 3,99 EUR/mois ou 39,99 EUR/an. C\'est pourquoi nous recommandons l\'Eufy E340 qui offre toutes ces fonctionnalites sans aucun abonnement.',
-        en: 'Yes, the Ring Doorbell works without a Ring Protect subscription, but with significant limitations. Without the subscription, you can only view the live video feed and receive motion notifications. You cannot review past events, save clips, share videos, or benefit from the 4-second pre-roll. There is no local storage — everything goes through Ring cloud. To access video history (180 days), custom detection zones and clip sharing, you need Ring Protect Basic at 3.99 GBP/month or 34.99 GBP/year. This is why we recommend the Eufy E340, which offers all these features without any subscription.',
-        de: 'Ja, die Ring Doorbell funktioniert ohne Ring-Protect-Abo, aber mit erheblichen Einschraenkungen. Ohne Abo koennen Sie nur den Live-Video-Feed sehen und Bewegungsbenachrichtigungen erhalten. Sie koennen vergangene Ereignisse nicht ansehen, Clips nicht speichern, Videos nicht teilen und den 4-Sekunden-Pre-Roll nicht nutzen. Es gibt keinen lokalen Speicher — alles laeuft ueber die Ring-Cloud. Fuer Videohistorie (180 Tage), benutzerdefinierte Erkennungszonen und Clip-Sharing brauchen Sie Ring Protect Basic fuer 3,99 EUR/Monat oder 39,99 EUR/Jahr. Deshalb empfehlen wir die Eufy E340, die all diese Funktionen ohne jedes Abo bietet.',
-        es: 'Si, el Ring Doorbell funciona sin suscripcion Ring Protect, pero con limitaciones importantes. Sin suscripcion, solo puedes ver el video en directo y recibir notificaciones de movimiento. No puedes revisar eventos pasados, guardar clips, compartir videos ni usar el pre-roll de 4 segundos. No hay almacenamiento local — todo pasa por la nube de Ring. Para acceder al historial de video (180 dias), zonas de deteccion personalizadas y compartir clips, necesitas Ring Protect Basic a 3,99 EUR/mes o 39,99 EUR/ano. Por eso recomendamos el Eufy E340, que ofrece todas estas funciones sin ninguna suscripcion.',
-        it: 'Si, il Ring Doorbell funziona senza abbonamento Ring Protect, ma con limitazioni importanti. Senza abbonamento, puoi solo vedere il feed video in diretta e ricevere notifiche di movimento. Non puoi rivedere eventi passati, salvare clip, condividere video o usare il pre-roll di 4 secondi. Non c\'e archiviazione locale — tutto passa per il cloud Ring. Per accedere allo storico video (180 giorni), zone di rilevamento personalizzate e condivisione clip, serve Ring Protect Basic a 3,99 EUR/mese o 39,99 EUR/anno. Per questo raccomandiamo l\'Eufy E340, che offre tutte queste funzioni senza alcun abbonamento.',
-        nl: 'Ja, de Ring Doorbell werkt zonder Ring Protect-abonnement, maar met belangrijke beperkingen. Zonder abonnement kun je alleen de live videofeed bekijken en bewegingsmeldingen ontvangen. Je kunt geen eerdere gebeurtenissen terugkijken, clips opslaan, video\'s delen of de 4-seconden pre-roll gebruiken. Er is geen lokale opslag — alles gaat via de Ring-cloud. Voor videogeschiedenis (180 dagen), aangepaste detectiezones en clip-delen heb je Ring Protect Basic nodig voor 3,99 EUR/maand of 39,99 EUR/jaar. Daarom bevelen we de Eufy E340 aan, die al deze functies biedt zonder enig abonnement.',
+        fr: "Sans forfait, une sonnette Ring permet de voir le direct, de recevoir les alertes et de parler au visiteur, mais elle ne conserve aucune vidéo. Pour revoir un événement passé, il faut souscrire un abonnement Ring.",
+        en: "Without a plan, a Ring doorbell lets you watch the live view, receive alerts and talk to visitors, but it keeps no video. To replay a past event, you need a Ring subscription.",
+        de: "Ohne Tarif bietet eine Ring-Klingel Livebild, Benachrichtigungen und Gegensprechen, speichert aber keine Videos. Um vergangene Ereignisse anzusehen, brauchen Sie ein Ring-Abo.",
+        es: "Sin plan, un timbre Ring permite ver el directo, recibir alertas y hablar con el visitante, pero no guarda ningún vídeo. Para revisar un evento pasado, hace falta una suscripción de Ring.",
+        it: "Senza piano, un campanello Ring consente di vedere la diretta, ricevere avvisi e parlare con il visitatore, ma non conserva alcun video. Per rivedere un evento passato serve un abbonamento Ring.",
+        nl: "Zonder abonnement kun je met een Ring-deurbel het livebeeld bekijken, meldingen ontvangen en met de bezoeker praten, maar er worden geen video's bewaard. Om een gebeurtenis terug te kijken, heb je een Ring-abonnement nodig.",
       },
     },
     {
       question: {
-        fr: 'Peut-on installer une sonnette video sans cablage existant ?',
-        en: 'Can you install a video doorbell without existing wiring?',
-        de: 'Kann man eine Video-Tuerklingel ohne vorhandene Verkabelung installieren?',
-        es: 'Se puede instalar un videoportero sin cableado existente?',
-        it: 'Si puo installare un videocitofono senza cablaggio esistente?',
-        nl: 'Kun je een videodeurbel installeren zonder bestaande bedrading?',
+        fr: "Batterie ou filaire : que choisir ?",
+        en: "Battery or wired: which should I choose?",
+        de: "Akku oder Kabel: Was ist besser?",
+        es: "Batería o cable: ¿qué elegir?",
+        it: "Batteria o cavo: cosa scegliere?",
+        nl: "Accu of bedraad: wat kies je?",
       },
       answer: {
-        fr: 'Oui, les sonnettes video sur batterie comme l\'Eufy E340, la Ring Battery Doorbell Plus et le Google Nest Doorbell s\'installent sans aucun cablage. Il suffit de fixer le support au mur avec deux vis et de clipper la sonnette dessus. L\'alimentation est assuree par la batterie rechargeable integree (autonomie de 2,5 a 6 mois selon le modele). La connexion se fait par Wi-Fi. L\'installation prend 15-20 minutes et ne necessite qu\'une perceuse et un tournevis. La seule sonnette de notre comparatif qui necessite un cablage est la Reolink WiFi Doorbell, qui utilise une connexion PoE (Ethernet).',
-        en: 'Yes, battery-powered video doorbells like the Eufy E340, Ring Battery Doorbell Plus and Google Nest Doorbell install without any wiring. Simply fix the mount to the wall with two screws and clip the doorbell on. Power comes from the built-in rechargeable battery (2.5 to 6 months life depending on model). Connection is via Wi-Fi. Installation takes 15-20 minutes and requires only a drill and screwdriver. The only doorbell in our comparison that requires wiring is the Reolink WiFi Doorbell, which uses a PoE (Ethernet) connection.',
-        de: 'Ja, akkubetriebene Video-Tuerklingeln wie die Eufy E340, Ring Battery Doorbell Plus und Google Nest Doorbell lassen sich ohne Verkabelung installieren. Einfach die Halterung mit zwei Schrauben an der Wand befestigen und die Klingel aufclipsen. Die Stromversorgung erfolgt ueber den integrierten Akku (2,5 bis 6 Monate Laufzeit je nach Modell). Die Verbindung laeuft ueber WLAN. Installation dauert 15-20 Minuten, nur Akkubohrer und Schraubendreher noetig. Die einzige Klingel in unserem Vergleich, die Verkabelung braucht, ist die Reolink WiFi Doorbell mit PoE-Anschluss (Ethernet).',
-        es: 'Si, los videoporteros con bateria como el Eufy E340, Ring Battery Doorbell Plus y Google Nest Doorbell se instalan sin ningun cableado. Basta fijar el soporte a la pared con dos tornillos y enganchar el timbre. La alimentacion la proporciona la bateria recargable integrada (autonomia de 2,5 a 6 meses segun el modelo). La conexion es por Wi-Fi. La instalacion lleva 15-20 minutos y solo requiere taladro y destornillador. El unico videoportero de nuestra comparativa que necesita cableado es el Reolink WiFi Doorbell, que usa conexion PoE (Ethernet).',
-        it: 'Si, i videocitofoni a batteria come l\'Eufy E340, Ring Battery Doorbell Plus e Google Nest Doorbell si installano senza alcun cablaggio. Basta fissare il supporto al muro con due viti e agganciare il campanello. L\'alimentazione e garantita dalla batteria ricaricabile integrata (autonomia da 2,5 a 6 mesi a seconda del modello). La connessione avviene via Wi-Fi. L\'installazione richiede 15-20 minuti e servono solo trapano e cacciavite. L\'unico videocitofono del confronto che richiede cablaggio e il Reolink WiFi Doorbell, che usa connessione PoE (Ethernet).',
-        nl: 'Ja, videodeurbellen op accu zoals de Eufy E340, Ring Battery Doorbell Plus en Google Nest Doorbell kun je installeren zonder bedrading. Bevestig simpelweg de houder aan de muur met twee schroeven en klik de deurbel erop. De voeding komt van de ingebouwde oplaadbare accu (2,5 tot 6 maanden levensduur afhankelijk van model). De verbinding gaat via Wi-Fi. Installatie duurt 15-20 minuten en vereist alleen een boormachine en schroevendraaier. De enige deurbel in onze vergelijking die bedrading nodig heeft is de Reolink WiFi Doorbell, die een PoE-verbinding (Ethernet) gebruikt.',
+        fr: "La batterie est idéale sans câblage existant : la pose prend un quart d'heure, mais il faut recharger. Si vous avez déjà une sonnette filaire, le raccordement garde la batterie chargée et active parfois la pré-capture. L'Eufy E340 et la Tapo D235 acceptent les deux modes.",
+        en: "Battery power is ideal if you have no existing wiring: fitting takes about fifteen minutes, but you have to recharge. If you already have a wired doorbell, connecting to it keeps the battery charged and sometimes enables pre-roll. The Eufy E340 and Tapo D235 support both modes.",
+        de: "Akku ist ideal ohne vorhandene Leitung: Die Montage dauert eine Viertelstunde, aber Sie müssen nachladen. Haben Sie bereits eine Kabelklingel, hält der Anschluss den Akku geladen und ermöglicht teils die Voraufzeichnung. Eufy E340 und Tapo D235 unterstützen beide Varianten.",
+        es: "La batería es ideal si no tienes cableado: se instala en un cuarto de hora, pero hay que recargarla. Si ya tienes un timbre con cable, conectarlo mantiene la batería cargada y a veces activa la pregrabación. El Eufy E340 y el Tapo D235 admiten ambos modos.",
+        it: "La batteria è ideale senza cablaggio esistente: si monta in un quarto d'ora, ma va ricaricata. Se hai già un campanello cablato, il collegamento mantiene carica la batteria e talvolta attiva la preregistrazione. Eufy E340 e Tapo D235 supportano entrambe le modalità.",
+        nl: "Een accu is ideaal zonder bestaande bedrading: ophangen kost een kwartier, maar je moet opladen. Heb je al een bedrade deurbel, dan houdt aansluiten de accu vol en maakt het soms vooraf opnemen mogelijk. De Eufy E340 en Tapo D235 ondersteunen beide.",
       },
     },
     {
       question: {
-        fr: 'Les sonnettes video sont-elles compatibles avec les systemes de sonnette existants ?',
-        en: 'Are video doorbells compatible with existing doorbell systems?',
-        de: 'Sind Video-Tuerklingeln mit bestehenden Klingelanlagen kompatibel?',
-        es: 'Son los videoporteros compatibles con los sistemas de timbre existentes?',
-        it: 'I videocitofoni sono compatibili con i sistemi di campanello esistenti?',
-        nl: 'Zijn videodeurbellen compatibel met bestaande deurbelinstallaties?',
+        fr: "Quelle sonnette vidéo sans abonnement est compatible avec Apple Home ?",
+        en: "Which subscription-free video doorbell works with Apple Home?",
+        de: "Welche Video-Türklingel ohne Abo funktioniert mit Apple Home?",
+        es: "¿Qué timbre con vídeo sin suscripción es compatible con Apple Home?",
+        it: "Quale videocampanello senza abbonamento è compatibile con Apple Casa?",
+        nl: "Welke videodeurbel zonder abonnement werkt met Apple Woning?",
       },
       answer: {
-        fr: 'Oui, la plupart des sonnettes video sont compatibles avec les systemes de sonnette filaires existants en Europe. L\'Eufy E340 et la Ring Battery Doorbell Plus peuvent fonctionner en mode batterie (sans cablage) ou etre connectees au cablage existant de votre sonnette (8-24V AC). La connexion filaire maintient la batterie chargee en permanence et permet d\'utiliser votre carillon mecanique existant. Attention : certains transformateurs anciens en 4V ne sont pas compatibles — un transformateur 16V AC (environ 15 EUR) peut etre necessaire. Le Reolink utilise un systeme PoE different et n\'est pas compatible avec le cablage de sonnette traditionnel.',
-        en: 'Yes, most video doorbells are compatible with existing wired doorbell systems in Europe. The Eufy E340 and Ring Battery Doorbell Plus can work in battery mode (wireless) or be connected to your existing doorbell wiring (8-24V AC). Wired connection keeps the battery permanently charged and allows you to use your existing mechanical chime. Note: some older 4V transformers are not compatible — a 16V AC transformer (around 12 GBP) may be needed. The Reolink uses a different PoE system and is not compatible with traditional doorbell wiring.',
-        de: 'Ja, die meisten Video-Tuerklingeln sind mit bestehenden verkabelten Klingelanlagen in Europa kompatibel. Die Eufy E340 und Ring Battery Doorbell Plus funktionieren im Akkumodus (kabellos) oder angeschlossen an die vorhandene Klingelverkabelung (8-24V AC). Die Kabelverbindung haelt den Akku dauerhaft geladen und erlaubt die Nutzung des bestehenden mechanischen Gongs. Achtung: Einige aeltere 4V-Transformatoren sind nicht kompatibel — ein 16V-AC-Transformator (ca. 15 EUR) kann noetig sein. Die Reolink nutzt ein anderes PoE-System und ist nicht mit traditioneller Klingelverkabelung kompatibel.',
-        es: 'Si, la mayoria de los videoporteros son compatibles con los sistemas de timbre cableados existentes en Europa. El Eufy E340 y el Ring Battery Doorbell Plus pueden funcionar en modo bateria (sin cables) o conectados al cableado existente del timbre (8-24V AC). La conexion cableada mantiene la bateria siempre cargada y permite usar el timbre mecanico existente. Atencion: algunos transformadores antiguos de 4V no son compatibles — puede necesitarse un transformador de 16V AC (unos 15 EUR). El Reolink usa un sistema PoE diferente y no es compatible con el cableado de timbre tradicional.',
-        it: 'Si, la maggior parte dei videocitofoni sono compatibili con i sistemi di campanello cablati esistenti in Europa. L\'Eufy E340 e il Ring Battery Doorbell Plus funzionano in modalita batteria (wireless) o collegati al cablaggio esistente del campanello (8-24V AC). Il collegamento cablato mantiene la batteria sempre carica e permette di usare il campanello meccanico esistente. Attenzione: alcuni trasformatori vecchi da 4V non sono compatibili — potrebbe servire un trasformatore 16V AC (circa 15 EUR). Il Reolink usa un sistema PoE diverso e non e compatibile con il cablaggio tradizionale del campanello.',
-        nl: 'Ja, de meeste videodeurbellen zijn compatibel met bestaande bekabelde deurbelinstallaties in Europa. De Eufy E340 en Ring Battery Doorbell Plus werken op accu (draadloos) of aangesloten op je bestaande deurbel bedrading (8-24V AC). De bekabelde aansluiting houdt de accu permanent opgeladen en maakt gebruik van je bestaande mechanische zoemer mogelijk. Let op: sommige oudere 4V-transformatoren zijn niet compatibel — een 16V AC-transformator (circa 15 EUR) kan nodig zijn. De Reolink gebruikt een ander PoE-systeem en is niet compatibel met traditionele deurbel bedrading.',
+        fr: "Dans cette sélection, l'Aqara Video Doorbell G4 est la seule compatible HomeKit Secure Video. L'enregistrement via HomeKit nécessite un forfait iCloud+, mais la sonnette peut aussi enregistrer gratuitement sur la carte microSD de son carillon.",
+        en: "In this selection, the Aqara Video Doorbell G4 is the only one that supports HomeKit Secure Video. Recording through HomeKit requires an iCloud+ plan, but the doorbell can also record for free to the microSD card in its chime.",
+        de: "In dieser Auswahl unterstützt nur die Aqara Video Doorbell G4 HomeKit Secure Video. Die Aufzeichnung über HomeKit erfordert einen iCloud+-Tarif, die Klingel kann aber auch kostenlos auf die microSD-Karte im Gong aufzeichnen.",
+        es: "En esta selección, el Aqara Video Doorbell G4 es el único compatible con HomeKit Secure Video. Grabar mediante HomeKit requiere un plan iCloud+, pero el timbre también puede grabar gratis en la microSD de su carillón.",
+        it: "In questa selezione, l'Aqara Video Doorbell G4 è l'unico compatibile con HomeKit Secure Video. La registrazione tramite HomeKit richiede un piano iCloud+, ma il campanello può anche registrare gratis sulla microSD del ricevitore.",
+        nl: "In deze selectie ondersteunt alleen de Aqara Video Doorbell G4 HomeKit Secure Video. Opnemen via HomeKit vereist een iCloud+-abonnement, maar de deurbel kan ook gratis opnemen op de microSD-kaart in de gong.",
       },
     },
     {
       question: {
-        fr: 'Une sonnette video peut-elle etre volee ?',
-        en: 'Can a video doorbell be stolen?',
-        de: 'Kann eine Video-Tuerklingel gestohlen werden?',
-        es: 'Puede un videoportero ser robado?',
-        it: 'Un videocitofono puo essere rubato?',
-        nl: 'Kan een videodeurbel gestolen worden?',
+        fr: "Ai-je le droit de filmer devant chez moi avec une sonnette vidéo ?",
+        en: "Am I allowed to film outside my home with a video doorbell?",
+        de: "Darf ich mit einer Video-Türklingel vor meinem Haus filmen?",
+        es: "¿Puedo grabar delante de mi casa con un timbre con vídeo?",
+        it: "Posso riprendere davanti a casa con un videocampanello?",
+        nl: "Mag ik voor mijn huis filmen met een videodeurbel?",
       },
       answer: {
-        fr: 'Le risque de vol existe mais est tres faible en pratique. Toutes les sonnettes de notre comparatif se fixent avec une vis de securite anti-vol (necessitant un outil specifique fourni). De plus, la camera elle-meme dissuade les voleurs potentiels puisqu\'elle enregistre leur visage. Eufy et Ring proposent un programme de remplacement en cas de vol (sous conditions). En cas de vol d\'une Eufy E340, les enregistrements restent sur le stockage local interne — le voleur n\'a pas acces a vos donnees sans votre mot de passe. Avec Ring, les enregistrements sont dans le cloud et restent accessibles depuis votre compte. Conseil pratique : installez la sonnette a une hauteur d\'au moins 1,40 m et dans un endroit visible pour maximiser l\'effet dissuasif.',
-        en: 'The risk of theft exists but is very low in practice. All doorbells in our comparison are fixed with an anti-theft security screw (requiring a specific tool provided). Moreover, the camera itself deters potential thieves since it records their face. Eufy and Ring offer a replacement programme in case of theft (conditions apply). If an Eufy E340 is stolen, recordings remain on the internal local storage — the thief cannot access your data without your password. With Ring, recordings are in the cloud and remain accessible from your account. Practical tip: install the doorbell at a height of at least 1.40 m and in a visible location to maximise the deterrent effect.',
-        de: 'Das Diebstahlrisiko besteht, ist aber in der Praxis sehr gering. Alle Klingeln in unserem Vergleich werden mit einer Anti-Diebstahl-Sicherheitsschraube befestigt (spezielles Werkzeug mitgeliefert). Zudem schreckt die Kamera selbst potenzielle Diebe ab, da sie deren Gesicht aufzeichnet. Eufy und Ring bieten ein Ersatzprogramm bei Diebstahl (unter Bedingungen). Bei Diebstahl einer Eufy E340 bleiben die Aufnahmen auf dem internen lokalen Speicher — der Dieb hat ohne Passwort keinen Zugriff auf Ihre Daten. Bei Ring sind die Aufnahmen in der Cloud und bleiben ueber Ihr Konto zugaenglich. Tipp: Installieren Sie die Klingel auf mindestens 1,40 m Hoehe und an einem sichtbaren Ort fuer maximale Abschreckung.',
-        es: 'El riesgo de robo existe pero es muy bajo en la practica. Todos los videoporteros de nuestra comparativa se fijan con un tornillo de seguridad antirrobo (herramienta especifica incluida). Ademas, la propia camara disuade a posibles ladrones al grabar su rostro. Eufy y Ring ofrecen un programa de reemplazo en caso de robo (con condiciones). Si roban un Eufy E340, las grabaciones permanecen en el almacenamiento local interno — el ladron no tiene acceso a tus datos sin tu contrasena. Con Ring, las grabaciones estan en la nube y siguen accesibles desde tu cuenta. Consejo practico: instala el timbre a una altura minima de 1,40 m y en un lugar visible para maximizar el efecto disuasorio.',
-        it: 'Il rischio di furto esiste ma e molto basso nella pratica. Tutti i videocitofoni del nostro confronto si fissano con una vite di sicurezza antifurto (attrezzo specifico incluso). Inoltre, la telecamera stessa scoraggia i potenziali ladri registrando il loro volto. Eufy e Ring offrono un programma di sostituzione in caso di furto (con condizioni). Se un Eufy E340 viene rubato, le registrazioni restano sull\'archiviazione locale interna — il ladro non ha accesso ai tuoi dati senza la tua password. Con Ring, le registrazioni sono nel cloud e restano accessibili dal tuo account. Consiglio pratico: installa il campanello a un\'altezza di almeno 1,40 m e in un punto visibile per massimizzare l\'effetto deterrente.',
-        nl: 'Het risico op diefstal bestaat maar is in de praktijk zeer laag. Alle deurbellen in onze vergelijking worden bevestigd met een antidiefstal-beveiligingsschroef (specifiek gereedschap meegeleverd). Bovendien schrikt de camera zelf potentiele dieven af omdat hij hun gezicht vastlegt. Eufy en Ring bieden een vervangingsprogramma bij diefstal (onder voorwaarden). Bij diefstal van een Eufy E340 blijven de opnames op de interne lokale opslag — de dief heeft zonder je wachtwoord geen toegang tot je data. Bij Ring staan de opnames in de cloud en blijven toegankelijk via je account. Praktische tip: installeer de deurbel op minimaal 1,40 m hoogte en op een zichtbare plek voor maximaal afschrikkingseffect.',
+        fr: "Oui, mais uniquement votre propriété. La CNIL rappelle qu'un particulier ne doit filmer ni la voie publique ni la propriété voisine. Orientez la caméra vers votre seuil, utilisez les zones de confidentialité et informez vos visiteurs.",
+        en: "Yes, but keep to your own property where possible. Data protection authorities, including the UK's ICO, advise against filming the street or a neighbour's property. Point the camera at your doorstep, use privacy zones and let visitors know.",
+        de: "Ja, aber nur Ihr eigenes Grundstück. Öffentlicher Gehweg und Nachbargrundstück dürfen nicht erfasst werden, sonst kann die DSGVO greifen. Richten Sie die Kamera auf Ihren Eingang, nutzen Sie Privatzonen und weisen Sie Besucher darauf hin.",
+        es: "Sí, pero solo tu propiedad. La AEPD recuerda que un particular no debe grabar la vía pública ni la propiedad vecina. Orienta la cámara hacia tu entrada, usa zonas de privacidad e informa a tus visitantes.",
+        it: "Sì, ma solo la tua proprietà. Il Garante privacy ricorda che un privato non dovrebbe riprendere la strada pubblica né la proprietà dei vicini. Orienta la telecamera verso il tuo ingresso, usa le zone di privacy e informa i visitatori.",
+        nl: "Ja, maar alleen je eigen terrein. De Autoriteit Persoonsgegevens raadt af de openbare weg of het terrein van de buren te filmen. Richt de camera op je voordeur, gebruik privacyzones en informeer bezoekers.",
       },
     },
     {
       question: {
-        fr: 'Les sonnettes video fonctionnent-elles avec Apple HomeKit ?',
-        en: 'Do video doorbells work with Apple HomeKit?',
-        de: 'Funktionieren Video-Tuerklingeln mit Apple HomeKit?',
-        es: 'Funcionan los videoporteros con Apple HomeKit?',
-        it: 'I videocitofoni funzionano con Apple HomeKit?',
-        nl: 'Werken videodeurbellen met Apple HomeKit?',
+        fr: "Quelle carte microSD choisir pour une sonnette vidéo ?",
+        en: "Which microSD card should I use in a video doorbell?",
+        de: "Welche microSD-Karte eignet sich für eine Video-Türklingel?",
+        es: "¿Qué tarjeta microSD elegir para un timbre con vídeo?",
+        it: "Quale scheda microSD scegliere per un videocampanello?",
+        nl: "Welke microSD-kaart kies je voor een videodeurbel?",
       },
       answer: {
-        fr: 'La compatibilite HomeKit reste rare parmi les sonnettes video. Dans notre comparatif, seule l\'Eufy Video Doorbell E340 est compatible Apple HomeKit. Cela signifie que vous pouvez voir le flux video en direct sur votre iPhone, iPad, Apple TV ou HomePod avec ecran. Vous recevez les notifications dans l\'app Maison d\'Apple et pouvez integrer la sonnette dans vos automatisations HomeKit (par exemple, allumer les lumieres quand quelqu\'un sonne). La Ring Doorbell n\'est compatible qu\'avec Alexa. La Reolink est compatible Google et Alexa mais pas HomeKit. Le Google Nest Doorbell est exclusif a Google Home. Si vous etes dans l\'ecosysteme Apple, l\'Eufy E340 est votre seule option solide.',
-        en: 'HomeKit compatibility remains rare among video doorbells. In our comparison, only the Eufy Video Doorbell E340 is compatible with Apple HomeKit. This means you can view the live video feed on your iPhone, iPad, Apple TV or HomePod with display. You receive notifications in Apple\'s Home app and can integrate the doorbell into your HomeKit automations (for example, turning on lights when someone rings). The Ring Doorbell is only compatible with Alexa. The Reolink works with Google and Alexa but not HomeKit. The Google Nest Doorbell is exclusive to Google Home. If you are in the Apple ecosystem, the Eufy E340 is your only solid option.',
-        de: 'HomeKit-Kompatibilitaet ist bei Video-Tuerklingeln weiterhin selten. In unserem Vergleich ist nur die Eufy Video Doorbell E340 mit Apple HomeKit kompatibel. Das bedeutet, Sie koennen den Live-Video-Feed auf iPhone, iPad, Apple TV oder HomePod mit Display sehen. Benachrichtigungen kommen in Apples Home-App und die Klingel laesst sich in HomeKit-Automatisierungen einbinden (z. B. Licht einschalten beim Klingeln). Die Ring Doorbell ist nur mit Alexa kompatibel. Die Reolink funktioniert mit Google und Alexa, aber nicht HomeKit. Die Google Nest Doorbell ist exklusiv fuer Google Home. Fuer Apple-Nutzer ist die Eufy E340 die einzige solide Option.',
-        es: 'La compatibilidad con HomeKit sigue siendo rara entre los videoporteros. En nuestra comparativa, solo el Eufy Video Doorbell E340 es compatible con Apple HomeKit. Esto significa que puedes ver el video en directo en tu iPhone, iPad, Apple TV o HomePod con pantalla. Recibes notificaciones en la app Casa de Apple y puedes integrar el timbre en tus automatizaciones HomeKit (por ejemplo, encender las luces cuando alguien llama). El Ring Doorbell solo es compatible con Alexa. El Reolink funciona con Google y Alexa pero no HomeKit. El Google Nest Doorbell es exclusivo de Google Home. Si estas en el ecosistema Apple, el Eufy E340 es tu unica opcion solida.',
-        it: 'La compatibilita HomeKit resta rara tra i videocitofoni. Nel nostro confronto, solo l\'Eufy Video Doorbell E340 e compatibile con Apple HomeKit. Cio significa che puoi vedere il feed video in diretta su iPhone, iPad, Apple TV o HomePod con display. Ricevi le notifiche nell\'app Casa di Apple e puoi integrare il campanello nelle automazioni HomeKit (ad esempio, accendere le luci quando qualcuno suona). Il Ring Doorbell e compatibile solo con Alexa. Il Reolink funziona con Google e Alexa ma non HomeKit. Il Google Nest Doorbell e esclusivo per Google Home. Se sei nell\'ecosistema Apple, l\'Eufy E340 e l\'unica opzione solida.',
-        nl: 'HomeKit-compatibiliteit blijft zeldzaam onder videodeurbellen. In onze vergelijking is alleen de Eufy Video Doorbell E340 compatibel met Apple HomeKit. Dit betekent dat je de live videofeed kunt bekijken op je iPhone, iPad, Apple TV of HomePod met scherm. Je ontvangt meldingen in Apple\'s Woning-app en kunt de deurbel integreren in je HomeKit-automatiseringen (bijvoorbeeld lichten inschakelen wanneer iemand aanbelt). De Ring Doorbell is alleen compatibel met Alexa. De Reolink werkt met Google en Alexa maar niet HomeKit. De Google Nest Doorbell is exclusief voor Google Home. Als je in het Apple-ecosysteem zit, is de Eufy E340 je enige solide optie.',
+        fr: "Choisissez une carte d'une marque reconnue, de préférence en version « endurance » conçue pour la vidéosurveillance, et respectez la capacité maximale indiquée : 256 Go pour les Reolink, 512 Go pour la Tapo D235 et le carillon de l'Aqara G4. Formatez-la depuis l'application.",
+        en: "Pick a card from a reputable brand, ideally a high-endurance model designed for surveillance, and stay within the stated maximum: 256 GB for the Reolink doorbells, 512 GB for the Tapo D235 and the Aqara G4 chime. Format it from the app.",
+        de: "Wählen Sie eine Karte eines bekannten Herstellers, idealerweise eine High-Endurance-Variante für Videoüberwachung, und beachten Sie die Maximalkapazität: 256 GB bei Reolink, 512 GB bei der Tapo D235 und im Gong der Aqara G4. Formatieren Sie sie in der App.",
+        es: "Elige una tarjeta de una marca reconocida, preferiblemente de alta resistencia pensada para videovigilancia, y respeta la capacidad máxima: 256 GB en los Reolink, 512 GB en el Tapo D235 y en el carillón del Aqara G4. Formatéala desde la app.",
+        it: "Scegli una scheda di una marca affidabile, preferibilmente di tipo high endurance pensata per la videosorveglianza, e rispetta la capacità massima: 256 GB per i Reolink, 512 GB per il Tapo D235 e il ricevitore dell'Aqara G4. Formattala dall'app.",
+        nl: "Kies een kaart van een bekend merk, bij voorkeur een high-endurance-uitvoering voor camerabewaking, en blijf binnen de maximale capaciteit: 256 GB voor de Reolink-deurbellen, 512 GB voor de Tapo D235 en de gong van de Aqara G4. Formatteer hem via de app.",
       },
     },
   ],

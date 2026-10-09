@@ -6,7 +6,7 @@ export const article: BlogArticle = {
   pillar: 'guides/airfryers',
   relatedSlugs: ['airfryer-economies-energie', 'airfryer-vs-friteuse-traditionnelle', 'meilleur-airfryer-petit-budget'],
   datePublished: '2026-04-18',
-  dateModified: '2026-04-20',
+  dateModified: '2026-10-09',
   readingTime: 11,
   images: [
     {
@@ -30,17 +30,18 @@ export const article: BlogArticle = {
     nl: 'Stroomverbruik van de Airfryer: de Echte Kosten Uitgelegd (2026)',
   },
   excerpt: {
-    fr: 'Combien consomme vraiment une airfryer ? Calcul du Stromverbrauch en kWh, coût annuel au tarif allemand (~0,35 €/kWh), comparaison vs four et friteuse, et modèles les plus économes.',
-    en: 'How much electricity does an air fryer really use? kWh per session, annual cost at German rates (~0.35 €/kWh), comparison vs oven and deep fryer, and the most efficient models.',
-    de: 'Wie viel Strom verbraucht eine Heißluftfritteuse wirklich? kWh pro Nutzung, Stromkosten pro Jahr beim deutschen Tarif (~0,35 €/kWh), Vergleich zum Backofen und zur Fritteuse sowie die sparsamsten Modelle.',
-    es: '¿Cuánta electricidad consume realmente una freidora de aire? kWh por uso, coste anual con tarifa alemana (~0,35 €/kWh), comparación vs horno y freidora, y los modelos más eficientes.',
-    it: 'Quanta elettricità consuma davvero una friggitrice ad aria? kWh per utilizzo, costo annuo alla tariffa tedesca (~0,35 €/kWh), confronto con forno e friggitrice e i modelli più efficienti.',
-    nl: 'Hoeveel stroom verbruikt een airfryer echt? kWh per keer, jaarlijkse kosten tegen Duits tarief (~0,35 €/kWh), vergelijking met oven en frituur, en de zuinigste modellen.',
+    fr: 'Combien consomme vraiment une airfryer ? Calcul du Stromverbrauch en kWh, coût annuel avec un tarif d\'exemple de 0,35 €/kWh, comparaison vs four et friteuse, et modèles les plus économes.',
+    en: 'How much electricity does an air fryer really use? kWh per session, annual cost at an example rate of €0.35/kWh, comparison vs oven and deep fryer, and the most efficient models.',
+    de: 'Wie viel Strom verbraucht eine Heißluftfritteuse wirklich? kWh pro Nutzung, Stromkosten pro Jahr bei einem Beispieltarif von 0,35 €/kWh, Vergleich zum Backofen und zur Fritteuse sowie die sparsamsten Modelle.',
+    es: '¿Cuánta electricidad consume realmente una freidora de aire? kWh por uso, coste anual con una tarifa de ejemplo de 0,35 €/kWh, comparación vs horno y freidora, y los modelos más eficientes.',
+    it: 'Quanta elettricità consuma davvero una friggitrice ad aria? kWh per utilizzo, costo annuo con una tariffa di esempio di 0,35 €/kWh, confronto con forno e friggitrice e i modelli più efficienti.',
+    nl: 'Hoeveel stroom verbruikt een airfryer echt? kWh per keer, jaarlijkse kosten tegen een voorbeeldtarief van € 0,35/kWh, vergelijking met oven en frituur, en de zuinigste modellen.',
   },
   content: {
     de: `<h2>Heißluftfritteuse Stromverbrauch: die wichtigste Frage zuerst</h2>
-<p>Deutschland hat mit die höchsten Strompreise in Europa. Bei einem Haushaltstarif von rund 0,35 €/kWh schaut jeder genauer auf die Stromrechnung — auch beim Kochen. Die Heißluftfritteuse gilt als sparsam, doch wie hoch ist der Stromverbrauch wirklich, und was kostet sie pro Jahr? In diesem Ratgeber rechnen wir es genau vor: vom kWh-Wert pro Nutzung bis zu den jährlichen Stromkosten, im Vergleich zum Backofen und zur klassischen Fritteuse.</p>
+<p>Deutschland hat mit die höchsten Strompreise in Europa, deshalb schaut jeder genauer auf die Stromrechnung — auch beim Kochen. Die Heißluftfritteuse gilt als sparsam, doch wie hoch ist der Stromverbrauch wirklich, und was kostet sie pro Jahr? In diesem Ratgeber rechnen wir es genau vor: vom kWh-Wert pro Nutzung bis zu den jährlichen Stromkosten, im Vergleich zum Backofen und zur klassischen Fritteuse.</p>
 <p>Die kurze Antwort: Eine typische Heißluftfritteuse verbraucht nur etwa <strong>0,3 bis 0,5 kWh pro Nutzung</strong>. Das entspricht je nach Gerät und Garzeit ungefähr <strong>10 bis 18 Cent</strong> Strom pro Durchgang — deutlich weniger, als die hohe Wattzahl auf dem Typenschild vermuten lässt.</p>
+<p><strong>So rechnen wir:</strong> Alle Kostenbeispiele in diesem Ratgeber verwenden einen <strong>Beispieltarif von 0,35 €/kWh</strong>. Ihr eigener Arbeitspreis steht auf Ihrer Stromrechnung und liegt je nach Vertrag oft darüber oder darunter. Für Ihre persönlichen Kosten multiplizieren Sie einfach die angegebenen kWh-Werte mit Ihrem Preis pro kWh.</p>
 
 <h2>Wattzahl ist nicht gleich Verbrauch</h2>
 <p>Der häufigste Irrtum: Viele lesen die Wattzahl (z. B. 1.700 W) auf dem Gerät und nehmen an, die Heißluftfritteuse verbrauche pro Stunde 1,7 kWh. So funktioniert es aber nicht. Die Wattzahl beschreibt nur die <em>maximale</em> Leistungsaufnahme des Heizelements im Volllastbetrieb.</p>
@@ -53,22 +54,22 @@ export const article: BlogArticle = {
 <p>Genau deshalb liegt der reale Stromverbrauch einer Heißluftfritteuse meist zwischen 0,3 und 0,5 kWh pro Nutzung — und nicht bei den theoretischen 1,7 kWh, die man auf den ersten Blick befürchtet.</p>
 <p>Wichtig ist auch der Unterschied zwischen Aufheizphase und Garphase. In den ersten Minuten zieht das Gerät die volle Wattzahl, um schnell auf Temperatur zu kommen. Danach pendelt sich die Leistungsaufnahme deutlich niedriger ein, weil das Heizelement nur noch nachregelt. Bei einer Garzeit von 20 Minuten entfallen daher oft nur drei bis fünf Minuten auf die energieintensive Aufheizphase — der Rest läuft mit reduzierter Leistung. Wer den tatsächlichen Verbrauch genau wissen möchte, kann ein einfaches Energiekostenmessgerät zwischen Steckdose und Gerät stecken: Es zeigt die verbrauchten kWh direkt an und macht die Stromkosten transparent.</p>
 
-<h3>Gemessener Verbrauch pro Nutzung (15-20 Min.)</h3>
+<h3>Geschätzter Verbrauch pro Nutzung (Auslastungsfaktor 0,7)</h3>
 <table>
 <thead>
 <tr><th>Gerätetyp</th><th>Wattzahl</th><th>Garzeit</th><th>kWh (Schätzung)</th><th>Stromkosten (0,35 €/kWh)</th></tr>
 </thead>
 <tbody>
-<tr><td>Kompaktgerät (3-4 L)</td><td>1.400 W</td><td>15 Min.</td><td>≈ 0,30 kWh</td><td>≈ 0,11 €</td></tr>
-<tr><td>Standard (4-6 L)</td><td>1.600 W</td><td>18 Min.</td><td>≈ 0,38 kWh</td><td>≈ 0,13 €</td></tr>
-<tr><td>Großgerät (7-8 L)</td><td>2.000 W</td><td>20 Min.</td><td>≈ 0,48 kWh</td><td>≈ 0,17 €</td></tr>
-<tr><td>Doppelkorb (9-10 L)</td><td>2.400 W</td><td>22 Min.</td><td>≈ 0,55 kWh</td><td>≈ 0,19 €</td></tr>
+<tr><td>Kompaktgerät (3-4 L)</td><td>1.400 W</td><td>15 Min.</td><td>≈ 0,25 kWh</td><td>≈ 0,09 €</td></tr>
+<tr><td>Standard (4-6 L)</td><td>1.600 W</td><td>18 Min.</td><td>≈ 0,34 kWh</td><td>≈ 0,12 €</td></tr>
+<tr><td>Großgerät (7-8 L)</td><td>2.000 W</td><td>20 Min.</td><td>≈ 0,47 kWh</td><td>≈ 0,16 €</td></tr>
+<tr><td>Doppelkorb (9-10 L)</td><td>2.400 W</td><td>22 Min.</td><td>≈ 0,62 kWh</td><td>≈ 0,22 €</td></tr>
 </tbody>
 </table>
-<p>Alle Werte sind Richtwerte und schwanken je nach Gericht, Temperatur, Befüllung und tatsächlicher Auslastung des Heizelements.</p>
+<p>Die kWh-Werte sind nach der obigen Formel mit einem Auslastungsfaktor von 0,7 berechnet (beim Doppelkorb mit beiden Zonen in Betrieb). Alle Werte sind Richtwerte und schwanken je nach Gericht, Temperatur, Befüllung und tatsächlicher Auslastung des Heizelements.</p>
 
 <h2>Jährliche Stromkosten: 3x pro Woche vs. jeden Tag</h2>
-<p>Wie viel kostet die Heißluftfritteuse über ein ganzes Jahr? Das hängt vor allem von der Nutzungshäufigkeit ab. Wir rechnen mit einem mittleren Verbrauch von 0,4 kWh pro Nutzung und dem deutschen Durchschnittstarif von 0,35 €/kWh.</p>
+<p>Wie viel kostet die Heißluftfritteuse über ein ganzes Jahr? Das hängt vor allem von der Nutzungshäufigkeit ab. Wir rechnen mit einem mittleren Verbrauch von 0,4 kWh pro Nutzung und dem Beispieltarif von 0,35 €/kWh.</p>
 
 <h3>Jährliche Stromkosten nach Nutzungshäufigkeit</h3>
 <table>
@@ -92,7 +93,7 @@ export const article: BlogArticle = {
 </thead>
 <tbody>
 <tr><td>0,30 €/kWh</td><td>≈ 19 €</td><td>≈ 44 €</td></tr>
-<tr><td>0,35 €/kWh (Ø Deutschland)</td><td>≈ 22 €</td><td>≈ 51 €</td></tr>
+<tr><td>0,35 €/kWh (Beispieltarif)</td><td>≈ 22 €</td><td>≈ 51 €</td></tr>
 <tr><td>0,40 €/kWh</td><td>≈ 25 €</td><td>≈ 58 €</td></tr>
 <tr><td>0,45 €/kWh</td><td>≈ 28 €</td><td>≈ 66 €</td></tr>
 </tbody>
@@ -111,7 +112,7 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 <p>Im Vergleich zum Backofen spart die Heißluftfritteuse rund <strong>50 bis 70 % Strom</strong> für dieselbe Speisemenge. Bei kleinen Portionen — etwa Pommes für zwei Personen oder das Aufbacken von zwei Brötchen — ist der Unterschied am größten, weil sich das Vorheizen eines großen Ofens dafür schlicht nicht lohnt.</p>
-<p>Über ein Jahr gerechnet: Wer fünfmal pro Woche den Backofen durch die Heißluftfritteuse ersetzt, spart rund 200 kWh — beim deutschen Tarif also etwa 70 € pro Jahr. Mehr Details finden Sie in unserem ausführlichen Ratgeber zu den <a href="/de/blog/airfryer-economies-energie">Energieeinsparungen der Heißluftfritteuse</a>.</p>
+<p>Über ein Jahr gerechnet: Wer fünfmal pro Woche den Backofen durch die Heißluftfritteuse ersetzt, spart rund 200 kWh (0,8 kWh × 260 Garvorgänge) — beim Beispieltarif von 0,35 €/kWh also etwa 70 € pro Jahr. Mehr Details finden Sie in unserem ausführlichen Ratgeber zu den <a href="/de/blog/airfryer-economies-energie">Energieeinsparungen der Heißluftfritteuse</a>.</p>
 <p>Ein wichtiger Hinweis zur Fairness des Vergleichs: Der Backofen ist nicht in jedem Fall die schlechtere Wahl. Wenn Sie ein großes Blech voll Gemüse für sechs Personen zubereiten oder mehrere Etagen gleichzeitig nutzen, kann der Ofen pro Portion durchaus konkurrenzfähig sein. Die Heißluftfritteuse spielt ihren Vorteil vor allem bei ein bis vier Portionen aus, wo der Ofen sein großes Volumen nur für eine kleine Menge Essen aufheizen müsste. Genau diese kleinen, häufigen Garvorgänge machen im Alltag aber den Großteil der Nutzungen aus — und hier ist der Stromverbrauch der Heißluftfritteuse im Vergleich zum Backofen unschlagbar niedrig.</p>
 
 <h2>Stromverbrauch im Vergleich zur klassischen Fritteuse</h2>
@@ -120,7 +121,7 @@ export const article: BlogArticle = {
 <li><strong>Klassische Fritteuse:</strong> ≈ 0,6-0,8 kWh pro Nutzung (langes Aufheizen des Ölbads).</li>
 <li><strong>Heißluftfritteuse:</strong> ≈ 0,3-0,5 kWh pro Nutzung.</li>
 </ul>
-<p>Hinzu kommen bei der Öl-Fritteuse die laufenden Kosten für das Frittieröl, das regelmäßig gewechselt werden muss. Ein Liter gutes Frittieröl kostet schnell mehrere Euro, und nach einigen Anwendungen ist ein Wechsel fällig. Über ein Jahr gerechnet summieren sich diese Ausgaben deutlich — die Heißluftfritteuse benötigt dagegen nur einen Esslöffel Öl oder gar keines. Wenn man Stromkosten und Ölkosten zusammenrechnet, ist die Heißluftfritteuse deshalb meist die günstigere Wahl. Den vollständigen Vergleich lesen Sie in unserem Beitrag <a href="/de/blog/airfryer-vs-friteuse-traditionnelle">Heißluftfritteuse vs. klassische Fritteuse</a>.</p>
+<p>Hinzu kommen bei der Öl-Fritteuse die laufenden Kosten für das Frittieröl, das regelmäßig gewechselt werden muss. Nach einigen Anwendungen müssen die 2 bis 4 Liter Öl komplett gewechselt werden. Über ein Jahr gerechnet summieren sich diese Ausgaben spürbar — die Heißluftfritteuse benötigt dagegen nur einen Esslöffel Öl oder gar keines. Wenn man Stromkosten und Ölkosten zusammenrechnet, ist die Heißluftfritteuse deshalb meist die günstigere Wahl. Den vollständigen Vergleich lesen Sie in unserem Beitrag <a href="/de/blog/airfryer-vs-friteuse-traditionnelle">Heißluftfritteuse vs. klassische Fritteuse</a>.</p>
 
 <h2>Tipps, um den Stromverbrauch weiter zu senken</h2>
 <p>Der Verbrauch lässt sich mit ein paar einfachen Gewohnheiten spürbar reduzieren:</p>
@@ -134,7 +135,7 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Verbrauch in typischen Alltagssituationen</h2>
-<p>Theorie ist gut, doch wie sieht der Stromverbrauch im echten Leben aus? Hier ein paar realistische Beispiele für gängige Gerichte und ihre geschätzten Stromkosten beim deutschen Tarif von 0,35 €/kWh:</p>
+<p>Theorie ist gut, doch wie sieht der Stromverbrauch im echten Leben aus? Hier ein paar realistische Beispiele für gängige Gerichte und ihre geschätzten Stromkosten beim Beispieltarif von 0,35 €/kWh:</p>
 <table>
 <thead>
 <tr><th>Gericht</th><th>Temperatur / Zeit</th><th>kWh (Schätzung)</th><th>Kosten (0,35 €/kWh)</th></tr>
@@ -151,39 +152,39 @@ export const article: BlogArticle = {
 
 <h2>Vernetzte Modelle: Stromverbrauch im Blick behalten</h2>
 <p>Viele moderne Heißluftfritteusen sind heute mit dem WLAN verbunden und lassen sich per App steuern. Das bringt im Hinblick auf den Stromverbrauch sowohl Vor- als auch Nachteile. Auf der Habenseite stehen präzise Temperatur- und Zeitprogramme, die ein Überfahren der nötigen Garzeit vermeiden und so keine Energie verschwenden. Manche Apps zeigen sogar Verbrauchsdaten oder schlagen energiesparende Programme vor.</p>
-<p>Auf der anderen Seite verbrauchen vernetzte Geräte mit Display und WLAN-Modul im Standby dauerhaft 1 bis 3 Watt. Über ein Jahr summiert sich das auf etwa 9 bis 26 kWh, also rund 3 bis 9 € zusätzliche Stromkosten — unabhängig davon, ob Sie kochen oder nicht. Wer das vermeiden möchte, nutzt eine schaltbare Steckdosenleiste oder eine smarte Steckdose, die das Gerät nach dem Kochen vollständig vom Netz trennt. So lässt sich der unnötige Dauerverbrauch elegant eliminieren, ohne auf den Komfort der App-Steuerung zu verzichten.</p>
+<p>Auf der anderen Seite verbrauchen vernetzte Geräte mit Display und WLAN-Modul im Standby dauerhaft 1 bis 3 Watt. Über ein Jahr summiert sich das auf etwa 9 bis 26 kWh, also beim Beispieltarif rund 3 bis 9 € zusätzliche Stromkosten — unabhängig davon, ob Sie kochen oder nicht. Wer das vermeiden möchte, nutzt eine schaltbare Steckdosenleiste oder eine smarte Steckdose, die das Gerät nach dem Kochen vollständig vom Netz trennt. So lässt sich der unnötige Dauerverbrauch elegant eliminieren, ohne auf den Komfort der App-Steuerung zu verzichten.</p>
 
 <h2>Die sparsamsten Modelle und das EU-Energielabel</h2>
-<p>Beim Kauf lohnt der Blick auf Wattzahl, Fassungsvermögen und reale Testmessungen. Geräte mit moderater Wattzahl und gutem Wärmemanagement sind im Alltag am sparsamsten. Besonders effizient sind unter anderem Modelle von <strong>Xiaomi</strong> und <strong>Cosori</strong>, die ein gutes Verhältnis aus Leistung, Garzeit und Verbrauch bieten.</p>
+<p>Beim Kauf lohnt der Blick auf Wattzahl, Fassungsvermögen und unabhängige Verbrauchsmessungen. Geräte mit moderater Wattzahl und gutem Wärmemanagement sind im Alltag am sparsamsten. Besonders effizient sind unter anderem Modelle von <strong>Xiaomi</strong> und <strong>Cosori</strong>, die ein gutes Verhältnis aus Leistung, Garzeit und Verbrauch bieten.</p>
 <table>
 <thead>
-<tr><th>Modell</th><th>Wattzahl</th><th>Verbrauch (Schätzung, 18 Min.)</th><th>Einschätzung</th></tr>
+<tr><th>Modell</th><th>Wattzahl</th><th>Verbrauch (Schätzung, 18 Min., Auslastung 0,7)</th><th>Einschätzung</th></tr>
 </thead>
 <tbody>
-<tr><td>Xiaomi Smart Air Fryer 4L</td><td>1.500 W</td><td>≈ 0,34 kWh</td><td>Sehr sparsam</td></tr>
-<tr><td>Cosori Lite 5L</td><td>1.600 W</td><td>≈ 0,37 kWh</td><td>Sehr sparsam</td></tr>
-<tr><td>Standard-Modell 6 L</td><td>1.700 W</td><td>≈ 0,42 kWh</td><td>Gut</td></tr>
-<tr><td>Doppelkorb 9-10 L</td><td>2.400 W</td><td>≈ 0,55 kWh</td><td>Höherer Verbrauch, mehr Kapazität</td></tr>
+<tr><td>Cosori Lite 3.8L</td><td>1.500 W</td><td>≈ 0,32 kWh</td><td>Sehr sparsam</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>1.600 W</td><td>≈ 0,34 kWh</td><td>Sehr sparsam</td></tr>
+<tr><td>Standard-Modell 6 L</td><td>1.700 W</td><td>≈ 0,36 kWh</td><td>Gut</td></tr>
+<tr><td>Doppelkorb 9-10 L</td><td>2.400 W</td><td>≈ 0,50 kWh</td><td>Höherer Verbrauch, mehr Kapazität</td></tr>
 </tbody>
 </table>
-<p>Ein Hinweis zum <strong>EU-Energielabel</strong>: Für Heißluftfritteusen gibt es derzeit keine eigene verpflichtende Energieeffizienzklasse wie bei Kühlschränken oder Waschmaschinen. Orientieren Sie sich daher an der angegebenen Wattzahl, der Kapazität in Litern und an realen Verbrauchsmessungen aus Tests, statt auf eine Energieklasse zu warten. Eine niedrigere Wattzahl bei ausreichendem Volumen ist meist ein guter Anhaltspunkt für ein sparsames Gerät.</p>
+<p>Ein Hinweis zum <strong>EU-Energielabel</strong>: Für Heißluftfritteusen gibt es derzeit keine eigene verpflichtende Energieeffizienzklasse wie bei Kühlschränken oder Waschmaschinen. Orientieren Sie sich daher an der angegebenen Wattzahl, der Kapazität in Litern und an unabhängigen Verbrauchsmessungen, statt auf eine Energieklasse zu warten. Eine niedrigere Wattzahl bei ausreichendem Volumen ist meist ein guter Anhaltspunkt für ein sparsames Gerät.</p>
 <p>Konkrete Kaufempfehlungen für jedes Budget finden Sie in unserer Auswahl der <a href="/de/blog/meilleur-airfryer-petit-budget">besten günstigen Heißluftfritteusen</a>.</p>
 
 <h2>Fazit: Lohnt sich die Heißluftfritteuse bei deutschen Strompreisen?</h2>
-<p>Ja. Trotz hoher Strompreise bleibt die Heißluftfritteuse eines der sparsamsten Garverfahren für kleine bis mittlere Portionen. Mit etwa 0,3-0,5 kWh pro Nutzung und Stromkosten von rund 22 € pro Jahr bei dreimaliger Nutzung pro Woche ist sie deutlich günstiger als der Backofen und meist auch günstiger als die klassische Fritteuse. Wer regelmäßig kleine Mengen zubereitet, spart im Vergleich zum Backofen sowohl Strom als auch Zeit — und das Gerät amortisiert sich allein über die Energieeinsparung oft innerhalb von ein bis zwei Jahren.</p>
+<p>Ja. Trotz hoher Strompreise bleibt die Heißluftfritteuse eines der sparsamsten Garverfahren für kleine bis mittlere Portionen. Mit etwa 0,3-0,5 kWh pro Nutzung und Stromkosten von rund 22 € pro Jahr bei dreimaliger Nutzung pro Woche ist sie deutlich günstiger als der Backofen und meist auch günstiger als die klassische Fritteuse. Wer regelmäßig kleine Mengen zubereitet, spart im Vergleich zum Backofen sowohl Strom als auch Zeit.</p>
 <p>Zusammengefasst: Lassen Sie sich nicht von der hohen Wattzahl auf dem Typenschild abschrecken. Entscheidend ist der reale Verbrauch in kWh, und der ist bei der Heißluftfritteuse dank kurzer Garzeiten, kleinem Garraum und kaum nötigem Vorheizen niedrig. Wer beim Kauf auf ein effizientes Modell achtet, ein paar einfache Spartipps befolgt und vor allem kleine bis mittlere Portionen zubereitet, hält die Stromkosten dauerhaft gering — selbst bei den hohen deutschen Strompreisen. Damit ist die Heißluftfritteuse nicht nur praktisch und schnell, sondern auch ein echter Gewinn für die Haushaltskasse.</p>
 
-<h2>Verfügbarkeit & Preise im deutschsprachigen Raum</h2>
-<p>Sparsame Heißluftfritteusen bekommen Sie im deutschsprachigen Raum jederzeit – bei Amazon.de mit schneller Lieferung sowie im Fachhandel in Deutschland, Österreich und der Schweiz. Da es keine eigene EU-Energieeffizienzklasse für Heißluftfritteusen gibt, lohnt vor dem Kauf der Blick auf reale Verbrauchswerte. Die Preise bewegen sich je nach Größe und Ausstattung in einer breiten, gut planbaren Spanne, und die gesetzliche Gewährleistung von zwei Jahren gilt EU-weit.</p>
+<h2>Verfügbarkeit & Gewährleistung im deutschsprachigen Raum</h2>
+<p>Sparsame Heißluftfritteusen bekommen Sie im deutschsprachigen Raum jederzeit – bei Amazon.de mit schneller Lieferung sowie im Fachhandel in Deutschland, Österreich und der Schweiz. Da es keine eigene EU-Energieeffizienzklasse für Heißluftfritteusen gibt, lohnt vor dem Kauf der Blick auf reale Verbrauchswerte. Die gesetzliche Gewährleistung von zwei Jahren gilt EU-weit.</p>
 <ul>
 <li><strong>Verfügbarkeit:</strong> Bei Amazon.de meist sofort lieferbar; ebenso bei lokalen Händlern wie MediaMarkt, Saturn oder Otto und in Österreich sowie der Schweiz über die Landesshops.</li>
-<li><strong>Preisspanne:</strong> günstige Einstiegsmodelle ab rund 50 €, sparsame Markengeräte etwa 80–130 €, große oder smarte Modelle bis rund 150 €.</li>
 <li><strong>Garantie:</strong> 2 Jahre gesetzliche Gewährleistung in Deutschland, Österreich und der Schweiz, häufig ergänzt durch eine Herstellergarantie.</li>
-<li><strong>Worauf deutsche Käufer achten:</strong> moderate Wattzahl bei ausreichender Kapazität, niedrige Standby-Werte und geprüfte Verbrauchsmessungen – der Stiftung-Warentest-Reflex spielt bei der Kaufentscheidung eine große Rolle.</li>
+<li><strong>Worauf deutsche Käufer achten:</strong> moderate Wattzahl bei ausreichender Kapazität, niedrige Standby-Werte und unabhängige Verbrauchsmessungen.</li>
 </ul>`,
 
     fr: `<h2>Combien consomme vraiment une airfryer ? La réponse chiffrée</h2>
-<p>L'Allemagne affiche parmi les prix de l'électricité les plus élevés d'Europe (environ 0,35 €/kWh), mais la question du coût réel d'une airfryer concerne tous les foyers. La bonne nouvelle : malgré une puissance affichée élevée, une airfryer consomme peu en pratique. Comptez environ <strong>0,3 à 0,5 kWh par utilisation</strong>, soit à peine 10 à 18 centimes d'électricité par cuisson selon votre tarif.</p>
+<p>L'Allemagne affiche parmi les prix de l'électricité les plus élevés d'Europe, mais la question du coût réel d'une airfryer concerne tous les foyers. La bonne nouvelle : malgré une puissance affichée élevée, une airfryer consomme peu en pratique. Comptez environ <strong>0,3 à 0,5 kWh par utilisation</strong>, soit à peine 10 à 18 centimes d'électricité par cuisson selon votre tarif.</p>
+<p><strong>Notre méthode :</strong> tous les exemples de coût de ce guide utilisent un <strong>tarif d'exemple de 0,35 €/kWh</strong>. Votre propre prix du kWh figure sur votre facture et peut être plus élevé ou plus bas. Pour obtenir votre coût réel, multipliez simplement les kWh indiqués par votre prix du kWh.</p>
 
 <h2>Puissance affichée ≠ consommation réelle</h2>
 <p>L'erreur la plus fréquente consiste à lire la puissance (par exemple 1 700 W) et à conclure que l'appareil consomme 1,7 kWh par heure. En réalité, la puissance n'indique que la consommation maximale de la résistance à pleine charge.</p>
@@ -194,21 +195,21 @@ export const article: BlogArticle = {
 </ul>
 <p>Il faut aussi distinguer la phase de montée en température de la phase de cuisson. Dans les premières minutes, l'appareil tire toute sa puissance pour chauffer rapidement. Ensuite, la consommation chute nettement car la résistance ne fait que maintenir la température. Sur une cuisson de 20 minutes, seules trois à cinq minutes correspondent à la phase la plus gourmande en énergie. Pour connaître votre consommation exacte, un simple wattmètre branché entre la prise et l'appareil affiche les kWh consommés en temps réel.</p>
 
-<h3>Consommation mesurée par utilisation (15-20 min)</h3>
+<h3>Consommation estimée par utilisation (taux d'activité 0,7)</h3>
 <table>
 <thead>
 <tr><th>Type d'appareil</th><th>Puissance</th><th>Temps</th><th>kWh (estimation)</th><th>Coût (0,35 €/kWh)</th></tr>
 </thead>
 <tbody>
-<tr><td>Compact (3-4 L)</td><td>1 400 W</td><td>15 min</td><td>≈ 0,30 kWh</td><td>≈ 0,11 €</td></tr>
-<tr><td>Standard (4-6 L)</td><td>1 600 W</td><td>18 min</td><td>≈ 0,38 kWh</td><td>≈ 0,13 €</td></tr>
-<tr><td>Grand (7-8 L)</td><td>2 000 W</td><td>20 min</td><td>≈ 0,48 kWh</td><td>≈ 0,17 €</td></tr>
-<tr><td>Double panier (9-10 L)</td><td>2 400 W</td><td>22 min</td><td>≈ 0,55 kWh</td><td>≈ 0,19 €</td></tr>
+<tr><td>Compact (3-4 L)</td><td>1 400 W</td><td>15 min</td><td>≈ 0,25 kWh</td><td>≈ 0,09 €</td></tr>
+<tr><td>Standard (4-6 L)</td><td>1 600 W</td><td>18 min</td><td>≈ 0,34 kWh</td><td>≈ 0,12 €</td></tr>
+<tr><td>Grand (7-8 L)</td><td>2 000 W</td><td>20 min</td><td>≈ 0,47 kWh</td><td>≈ 0,16 €</td></tr>
+<tr><td>Double panier (9-10 L)</td><td>2 400 W</td><td>22 min</td><td>≈ 0,62 kWh</td><td>≈ 0,22 €</td></tr>
 </tbody>
 </table>
 
 <h2>Coût annuel : 3x par semaine vs tous les jours</h2>
-<p>Sur la base d'une moyenne de 0,4 kWh par utilisation et d'un tarif de 0,35 €/kWh.</p>
+<p>Sur la base d'une moyenne de 0,4 kWh par utilisation et du tarif d'exemple de 0,35 €/kWh (0,4 kWh × nombre d'utilisations × 0,35 €).</p>
 <table>
 <thead>
 <tr><th>Fréquence</th><th>Utilisations/an</th><th>Conso/an</th><th>Coût/an (0,35 €/kWh)</th></tr>
@@ -254,7 +255,7 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Consommation dans des situations du quotidien</h2>
-<p>Voici des estimations réalistes pour des plats courants, au tarif de 0,35 €/kWh :</p>
+<p>Voici des estimations réalistes pour des plats courants, au tarif d'exemple de 0,35 €/kWh :</p>
 <table>
 <thead>
 <tr><th>Plat</th><th>Température / Temps</th><th>kWh (estimation)</th><th>Coût (0,35 €/kWh)</th></tr>
@@ -270,17 +271,18 @@ export const article: BlogArticle = {
 <p>Pour réchauffer ou cuire de petites quantités, l'airfryer est imbattable : allumer le four serait du pur gaspillage. Ce sont ces petites cuissons fréquentes qui génèrent, sur l'année, le plus gros écart d'économie face au four.</p>
 
 <h2>Modèles connectés : garder un œil sur la consommation</h2>
-<p>De nombreuses airfryers sont désormais connectées au Wi-Fi et pilotables par application. C'est un atout pour la consommation : les programmes de température et de durée précis évitent de dépasser le temps de cuisson nécessaire. En revanche, un appareil connecté avec écran et module Wi-Fi consomme 1 à 3 watts en veille en permanence, soit environ 9 à 26 kWh par an (3 à 9 €), que vous cuisiniez ou non. Une multiprise à interrupteur ou une prise connectée règle le problème en coupant totalement l'alimentation après usage.</p>
+<p>De nombreuses airfryers sont désormais connectées au Wi-Fi et pilotables par application. C'est un atout pour la consommation : les programmes de température et de durée précis évitent de dépasser le temps de cuisson nécessaire. En revanche, un appareil connecté avec écran et module Wi-Fi consomme 1 à 3 watts en veille en permanence, soit environ 9 à 26 kWh par an (3 à 9 € au tarif d'exemple), que vous cuisiniez ou non. Une multiprise à interrupteur ou une prise connectée règle le problème en coupant totalement l'alimentation après usage.</p>
 
 <h2>Modèles les plus économes et label énergie</h2>
-<p>Les modèles <strong>Xiaomi</strong> et <strong>Cosori</strong> offrent un excellent rapport entre puissance, temps de cuisson et consommation (environ 0,34 à 0,37 kWh par cuisson). À noter : il n'existe pas encore de classe d'efficacité énergétique UE obligatoire spécifique aux airfryers, contrairement aux réfrigérateurs ou lave-linge. Fiez-vous donc à la puissance, à la capacité et aux mesures de consommation réelles. En règle générale, une puissance plus modérée pour une capacité suffisante est un bon indicateur d'efficacité. Découvrez nos recommandations dans notre sélection des <a href="/fr/blog/meilleur-airfryer-petit-budget">meilleurs airfryers petit budget</a>.</p>
+<p>Les modèles <strong>Xiaomi</strong> et <strong>Cosori</strong> offrent un excellent rapport entre puissance, temps de cuisson et consommation (par exemple Cosori Lite 3.8L à 1 500 W ou Xiaomi Smart Air Fryer Pro 4L à 1 600 W, soit environ 0,32 à 0,34 kWh pour 18 minutes). À noter : il n'existe pas encore de classe d'efficacité énergétique UE obligatoire spécifique aux airfryers, contrairement aux réfrigérateurs ou lave-linge. Fiez-vous donc à la puissance, à la capacité et aux mesures de consommation indépendantes. En règle générale, une puissance plus modérée pour une capacité suffisante est un bon indicateur d'efficacité. Découvrez nos recommandations dans notre sélection des <a href="/fr/blog/meilleur-airfryer-petit-budget">meilleurs airfryers petit budget</a>.</p>
 
 <h2>Conclusion</h2>
-<p>Même avec des tarifs élevés, l'airfryer reste l'un des modes de cuisson les plus économes pour les petites et moyennes portions : environ 0,3-0,5 kWh par utilisation et un coût annuel modéré (environ 22 € à raison de trois fois par semaine). Elle se rentabilise souvent en un à deux ans par les seules économies d'énergie face au four.</p>
+<p>Même avec des tarifs élevés, l'airfryer reste l'un des modes de cuisson les plus économes pour les petites et moyennes portions : environ 0,3-0,5 kWh par utilisation et un coût annuel modéré (environ 22 € à raison de trois fois par semaine).</p>
 <p>Ne vous laissez pas effrayer par la puissance élevée affichée sur l'étiquette. Ce qui compte, c'est la consommation réelle en kWh, et celle-ci reste faible grâce aux temps de cuisson courts, au petit volume et à l'absence de préchauffage. En choisissant un modèle efficace et en appliquant quelques astuces simples, vous gardez durablement des coûts d'électricité minimes, même face aux tarifs élevés.</p>`,
 
     en: `<h2>How much electricity does an air fryer really use?</h2>
-<p>Germany has some of the highest electricity prices in Europe (around €0.35/kWh), which makes the running cost of every kitchen appliance worth checking. The good news: despite a high rated wattage, an air fryer uses very little in practice — roughly <strong>0.3 to 0.5 kWh per session</strong>, or about 10 to 18 cents of electricity per cook depending on your rate.</p>
+<p>Germany has some of the highest electricity prices in Europe , which makes the running cost of every kitchen appliance worth checking. The good news: despite a high rated wattage, an air fryer uses very little in practice — roughly <strong>0.3 to 0.5 kWh per session</strong>, or about 10 to 18 cents of electricity per cook depending on your rate.</p>
+<p><strong>How we calculate:</strong> every cost example in this guide uses an <strong>example rate of €0.35/kWh</strong>. Your own unit rate is on your electricity bill and may be higher or lower. To get your real cost, simply multiply the kWh figures by your price per kWh.</p>
 
 <h2>Rated wattage is not actual consumption</h2>
 <p>The most common mistake is reading the wattage (e.g. 1,700 W) and assuming the appliance uses 1.7 kWh per hour. The wattage only describes the maximum draw of the heating element at full load.</p>
@@ -291,21 +293,21 @@ export const article: BlogArticle = {
 </ul>
 <p>It also helps to separate the heat-up phase from the cooking phase. In the first few minutes the appliance draws full wattage to reach temperature quickly. After that, consumption drops sharply because the element only tops up the heat. Over a 20-minute cook, only three to five minutes fall in the energy-intensive heat-up phase. If you want your exact figure, a simple plug-in power meter between the socket and the appliance shows the kWh used in real time.</p>
 
-<h3>Measured consumption per session (15-20 min)</h3>
+<h3>Estimated consumption per session (duty factor 0.7)</h3>
 <table>
 <thead>
 <tr><th>Appliance type</th><th>Wattage</th><th>Time</th><th>kWh (estimate)</th><th>Cost (€0.35/kWh)</th></tr>
 </thead>
 <tbody>
-<tr><td>Compact (3-4 L)</td><td>1,400 W</td><td>15 min</td><td>≈ 0.30 kWh</td><td>≈ €0.11</td></tr>
-<tr><td>Standard (4-6 L)</td><td>1,600 W</td><td>18 min</td><td>≈ 0.38 kWh</td><td>≈ €0.13</td></tr>
-<tr><td>Large (7-8 L)</td><td>2,000 W</td><td>20 min</td><td>≈ 0.48 kWh</td><td>≈ €0.17</td></tr>
-<tr><td>Dual basket (9-10 L)</td><td>2,400 W</td><td>22 min</td><td>≈ 0.55 kWh</td><td>≈ €0.19</td></tr>
+<tr><td>Compact (3-4 L)</td><td>1,400 W</td><td>15 min</td><td>≈ 0.25 kWh</td><td>≈ €0.09</td></tr>
+<tr><td>Standard (4-6 L)</td><td>1,600 W</td><td>18 min</td><td>≈ 0.34 kWh</td><td>≈ €0.12</td></tr>
+<tr><td>Large (7-8 L)</td><td>2,000 W</td><td>20 min</td><td>≈ 0.47 kWh</td><td>≈ €0.16</td></tr>
+<tr><td>Dual basket (9-10 L)</td><td>2,400 W</td><td>22 min</td><td>≈ 0.62 kWh</td><td>≈ €0.22</td></tr>
 </tbody>
 </table>
 
 <h2>Annual cost: 3x a week vs every day</h2>
-<p>Based on an average of 0.4 kWh per session and a €0.35/kWh rate.</p>
+<p>Based on an average of 0.4 kWh per session and the example rate of €0.35/kWh (0.4 kWh × sessions × €0.35).</p>
 <table>
 <thead>
 <tr><th>Frequency</th><th>Sessions/year</th><th>Use/year</th><th>Cost/year (€0.35/kWh)</th></tr>
@@ -351,7 +353,7 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Consumption in everyday situations</h2>
-<p>Here are realistic estimates for common dishes at the €0.35/kWh rate:</p>
+<p>Here are realistic estimates for common dishes at the example rate of €0.35/kWh:</p>
 <table>
 <thead>
 <tr><th>Dish</th><th>Temperature / Time</th><th>kWh (estimate)</th><th>Cost (€0.35/kWh)</th></tr>
@@ -367,17 +369,18 @@ export const article: BlogArticle = {
 <p>For reheating or cooking small amounts, the air fryer is unbeatable: firing up the oven would be pure waste. These small, frequent cooks are what create the biggest yearly saving versus the oven.</p>
 
 <h2>Connected models: keep an eye on consumption</h2>
-<p>Many air fryers are now Wi-Fi connected and app-controlled. That can help consumption: precise temperature and time programs avoid overcooking and wasting energy. On the other hand, a connected model with a display and Wi-Fi module draws 1 to 3 watts on standby continuously, roughly 9 to 26 kWh a year (€3 to €9), whether you cook or not. A switched power strip or a smart plug solves this by fully cutting power after use.</p>
+<p>Many air fryers are now Wi-Fi connected and app-controlled. That can help consumption: precise temperature and time programs avoid overcooking and wasting energy. On the other hand, a connected model with a display and Wi-Fi module draws 1 to 3 watts on standby continuously, roughly 9 to 26 kWh a year (€3 to €9 at the example rate), whether you cook or not. A switched power strip or a smart plug solves this by fully cutting power after use.</p>
 
 <h2>Most efficient models and the EU energy label</h2>
-<p>Models from <strong>Xiaomi</strong> and <strong>Cosori</strong> offer a great balance of power, cook time and consumption (around 0.34 to 0.37 kWh per cook). Note that there is no dedicated mandatory EU energy efficiency class for air fryers yet, unlike fridges or washing machines, so rely on wattage, capacity and real-world measurements. As a rule, lower wattage for an adequate capacity is a good sign of efficiency. See our pick of the <a href="/en/blog/meilleur-airfryer-petit-budget">best budget air fryers</a>.</p>
+<p>Models from <strong>Xiaomi</strong> and <strong>Cosori</strong> offer a great balance of power, cook time and consumption (for example the Cosori Lite 3.8L at 1,500 W or the Xiaomi Smart Air Fryer Pro 4L at 1,600 W, around 0.32 to 0.34 kWh for 18 minutes). Note that there is no dedicated mandatory EU energy efficiency class for air fryers yet, unlike fridges or washing machines, so rely on wattage, capacity and independent real-world measurements. As a rule, lower wattage for an adequate capacity is a good sign of efficiency. See our pick of the <a href="/en/blog/meilleur-airfryer-petit-budget">best budget air fryers</a>.</p>
 
 <h2>Conclusion</h2>
-<p>Even with high electricity prices, the air fryer remains one of the cheapest cooking methods for small to medium portions: around 0.3-0.5 kWh per session and a modest yearly cost (about €22 at three uses a week). It often pays for itself within one to two years on energy savings alone.</p>
+<p>Even with high electricity prices, the air fryer remains one of the cheapest cooking methods for small to medium portions: around 0.3-0.5 kWh per session and a modest yearly cost (about €22 at three uses a week).</p>
 <p>Do not be put off by the high wattage printed on the label. What matters is the real consumption in kWh, and it stays low thanks to short cook times, a small cavity and little to no preheating. By choosing an efficient model and applying a few simple tips, you keep electricity costs minimal for the long run, even against high rates.</p>`,
 
     es: `<h2>¿Cuánta electricidad consume realmente una freidora de aire?</h2>
-<p>Alemania tiene de los precios de electricidad más altos de Europa (unos 0,35 €/kWh), pero el coste de funcionamiento interesa a cualquier hogar. La buena noticia: pese a la elevada potencia indicada, una freidora de aire consume poco en la práctica, alrededor de <strong>0,3 a 0,5 kWh por uso</strong>, es decir unos 10 a 18 céntimos de electricidad por cocción según tu tarifa.</p>
+<p>Alemania tiene de los precios de electricidad más altos de Europa , pero el coste de funcionamiento interesa a cualquier hogar. La buena noticia: pese a la elevada potencia indicada, una freidora de aire consume poco en la práctica, alrededor de <strong>0,3 a 0,5 kWh por uso</strong>, es decir unos 10 a 18 céntimos de electricidad por cocción según tu tarifa.</p>
+<p><strong>Cómo calculamos:</strong> todos los ejemplos de coste de esta guía usan una <strong>tarifa de ejemplo de 0,35 €/kWh</strong>. Tu precio real del kWh aparece en tu factura y puede ser más alto o más bajo. Para obtener tu coste, multiplica los kWh indicados por tu precio por kWh.</p>
 
 <h2>La potencia indicada no es el consumo real</h2>
 <p>El error más común es leer la potencia (por ejemplo 1.700 W) y suponer que consume 1,7 kWh por hora. La potencia solo indica el consumo máximo de la resistencia a plena carga.</p>
@@ -388,21 +391,21 @@ export const article: BlogArticle = {
 </ul>
 <p>Conviene distinguir la fase de calentamiento de la fase de cocción. En los primeros minutos el aparato consume toda su potencia para alcanzar la temperatura rápidamente. Después, el consumo cae con fuerza porque la resistencia solo mantiene el calor. En una cocción de 20 minutos, solo tres a cinco minutos corresponden a la fase más intensiva. Para conocer tu consumo exacto, un sencillo medidor de consumo enchufado entre la toma y el aparato muestra los kWh consumidos en tiempo real.</p>
 
-<h3>Consumo medido por uso (15-20 min)</h3>
+<h3>Consumo estimado por uso (factor de actividad 0,7)</h3>
 <table>
 <thead>
 <tr><th>Tipo de aparato</th><th>Potencia</th><th>Tiempo</th><th>kWh (estimación)</th><th>Coste (0,35 €/kWh)</th></tr>
 </thead>
 <tbody>
-<tr><td>Compacta (3-4 L)</td><td>1.400 W</td><td>15 min</td><td>≈ 0,30 kWh</td><td>≈ 0,11 €</td></tr>
-<tr><td>Estándar (4-6 L)</td><td>1.600 W</td><td>18 min</td><td>≈ 0,38 kWh</td><td>≈ 0,13 €</td></tr>
-<tr><td>Grande (7-8 L)</td><td>2.000 W</td><td>20 min</td><td>≈ 0,48 kWh</td><td>≈ 0,17 €</td></tr>
-<tr><td>Doble cesta (9-10 L)</td><td>2.400 W</td><td>22 min</td><td>≈ 0,55 kWh</td><td>≈ 0,19 €</td></tr>
+<tr><td>Compacta (3-4 L)</td><td>1.400 W</td><td>15 min</td><td>≈ 0,25 kWh</td><td>≈ 0,09 €</td></tr>
+<tr><td>Estándar (4-6 L)</td><td>1.600 W</td><td>18 min</td><td>≈ 0,34 kWh</td><td>≈ 0,12 €</td></tr>
+<tr><td>Grande (7-8 L)</td><td>2.000 W</td><td>20 min</td><td>≈ 0,47 kWh</td><td>≈ 0,16 €</td></tr>
+<tr><td>Doble cesta (9-10 L)</td><td>2.400 W</td><td>22 min</td><td>≈ 0,62 kWh</td><td>≈ 0,22 €</td></tr>
 </tbody>
 </table>
 
 <h2>Coste anual: 3 veces por semana vs todos los días</h2>
-<p>Con una media de 0,4 kWh por uso y una tarifa de 0,35 €/kWh.</p>
+<p>Con una media de 0,4 kWh por uso y la tarifa de ejemplo de 0,35 €/kWh (0,4 kWh × número de usos × 0,35 €).</p>
 <table>
 <thead>
 <tr><th>Frecuencia</th><th>Usos/año</th><th>Consumo/año</th><th>Coste/año (0,35 €/kWh)</th></tr>
@@ -448,7 +451,7 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Consumo en situaciones del día a día</h2>
-<p>Estas son estimaciones realistas para platos habituales, con tarifa de 0,35 €/kWh:</p>
+<p>Estas son estimaciones realistas para platos habituales, con la tarifa de ejemplo de 0,35 €/kWh:</p>
 <table>
 <thead>
 <tr><th>Plato</th><th>Temperatura / Tiempo</th><th>kWh (estimación)</th><th>Coste (0,35 €/kWh)</th></tr>
@@ -464,17 +467,18 @@ export const article: BlogArticle = {
 <p>Para recalentar o cocinar cantidades pequeñas, la freidora de aire es imbatible: encender el horno sería puro derroche. Estas cocciones pequeñas y frecuentes son las que generan, a lo largo del año, el mayor ahorro frente al horno.</p>
 
 <h2>Modelos conectados: vigilar el consumo</h2>
-<p>Muchas freidoras de aire ya están conectadas por Wi-Fi y se controlan por app. Esto ayuda al consumo: los programas precisos de temperatura y tiempo evitan pasarse de cocción y malgastar energía. Por otro lado, un modelo conectado con pantalla y módulo Wi-Fi consume 1 a 3 vatios en espera de forma continua, unos 9 a 26 kWh al año (3 a 9 €), cocines o no. Una regleta con interruptor o un enchufe inteligente lo soluciona cortando del todo la corriente tras su uso.</p>
+<p>Muchas freidoras de aire ya están conectadas por Wi-Fi y se controlan por app. Esto ayuda al consumo: los programas precisos de temperatura y tiempo evitan pasarse de cocción y malgastar energía. Por otro lado, un modelo conectado con pantalla y módulo Wi-Fi consume 1 a 3 vatios en espera de forma continua, unos 9 a 26 kWh al año (3 a 9 € con la tarifa de ejemplo), cocines o no. Una regleta con interruptor o un enchufe inteligente lo soluciona cortando del todo la corriente tras su uso.</p>
 
 <h2>Modelos más eficientes y etiqueta energética</h2>
-<p>Los modelos de <strong>Xiaomi</strong> y <strong>Cosori</strong> ofrecen un gran equilibrio entre potencia, tiempo y consumo (unos 0,34 a 0,37 kWh por cocción). Aún no existe una clase de eficiencia energética UE obligatoria específica para freidoras de aire, a diferencia de neveras o lavadoras, así que fíjate en la potencia, la capacidad y las mediciones reales. Por norma general, una potencia más moderada con capacidad suficiente es buena señal de eficiencia. Mira nuestra selección de las <a href="/es/blog/meilleur-airfryer-petit-budget">mejores freidoras de aire económicas</a>.</p>
+<p>Los modelos de <strong>Xiaomi</strong> y <strong>Cosori</strong> ofrecen un gran equilibrio entre potencia, tiempo y consumo (por ejemplo la Cosori Lite 3.8L de 1.500 W o la Xiaomi Smart Air Fryer Pro 4L de 1.600 W, unos 0,32 a 0,34 kWh en 18 minutos). Aún no existe una clase de eficiencia energética UE obligatoria específica para freidoras de aire, a diferencia de neveras o lavadoras, así que fíjate en la potencia, la capacidad y las mediciones reales. Por norma general, una potencia más moderada con capacidad suficiente es buena señal de eficiencia. Mira nuestra selección de las <a href="/es/blog/meilleur-airfryer-petit-budget">mejores freidoras de aire económicas</a>.</p>
 
 <h2>Conclusión</h2>
-<p>Incluso con precios altos, la freidora de aire sigue siendo uno de los métodos de cocción más baratos para porciones pequeñas y medianas: unos 0,3-0,5 kWh por uso y un coste anual moderado (unos 22 € a tres usos por semana). Suele amortizarse en uno o dos años solo por el ahorro energético.</p>
+<p>Incluso con precios altos, la freidora de aire sigue siendo uno de los métodos de cocción más baratos para porciones pequeñas y medianas: unos 0,3-0,5 kWh por uso y un coste anual moderado (unos 22 € a tres usos por semana).</p>
 <p>No te asustes por la potencia elevada de la etiqueta. Lo que cuenta es el consumo real en kWh, y se mantiene bajo gracias a los tiempos cortos, el pequeño volumen y el escaso precalentamiento. Eligiendo un modelo eficiente y aplicando unos trucos sencillos, mantienes el coste eléctrico al mínimo a largo plazo, incluso frente a tarifas altas.</p>`,
 
     it: `<h2>Quanta elettricità consuma davvero una friggitrice ad aria?</h2>
-<p>La Germania ha tra i prezzi dell'elettricità più alti d'Europa (circa 0,35 €/kWh), ma il costo di funzionamento interessa ogni famiglia. La buona notizia: nonostante l'elevata potenza dichiarata, una friggitrice ad aria consuma poco nella pratica, circa <strong>0,3-0,5 kWh per utilizzo</strong>, ovvero 10-18 centesimi di elettricità per cottura secondo la tariffa.</p>
+<p>La Germania ha tra i prezzi dell'elettricità più alti d'Europa , ma il costo di funzionamento interessa ogni famiglia. La buona notizia: nonostante l'elevata potenza dichiarata, una friggitrice ad aria consuma poco nella pratica, circa <strong>0,3-0,5 kWh per utilizzo</strong>, ovvero 10-18 centesimi di elettricità per cottura secondo la tariffa.</p>
+<p><strong>Come calcoliamo:</strong> tutti gli esempi di costo di questa guida usano una <strong>tariffa di esempio di 0,35 €/kWh</strong>. Il tuo prezzo reale del kWh è indicato in bolletta e può essere più alto o più basso. Per ottenere il tuo costo, moltiplica i kWh indicati per il tuo prezzo al kWh.</p>
 
 <h2>La potenza dichiarata non è il consumo reale</h2>
 <p>L'errore più comune è leggere la potenza (ad esempio 1.700 W) e supporre un consumo di 1,7 kWh all'ora. La potenza indica solo l'assorbimento massimo della resistenza a pieno carico.</p>
@@ -485,21 +489,21 @@ export const article: BlogArticle = {
 </ul>
 <p>È utile distinguere la fase di riscaldamento da quella di cottura. Nei primi minuti l'apparecchio assorbe tutta la potenza per raggiungere rapidamente la temperatura. Poi il consumo cala nettamente perché la resistenza si limita a mantenere il calore. In una cottura di 20 minuti, solo tre o cinque minuti rientrano nella fase più dispendiosa. Per conoscere il consumo esatto, un semplice misuratore di consumo collegato tra la presa e l'apparecchio mostra i kWh consumati in tempo reale.</p>
 
-<h3>Consumo misurato per utilizzo (15-20 min)</h3>
+<h3>Consumo stimato per utilizzo (fattore di attività 0,7)</h3>
 <table>
 <thead>
 <tr><th>Tipo di apparecchio</th><th>Potenza</th><th>Tempo</th><th>kWh (stima)</th><th>Costo (0,35 €/kWh)</th></tr>
 </thead>
 <tbody>
-<tr><td>Compatta (3-4 L)</td><td>1.400 W</td><td>15 min</td><td>≈ 0,30 kWh</td><td>≈ 0,11 €</td></tr>
-<tr><td>Standard (4-6 L)</td><td>1.600 W</td><td>18 min</td><td>≈ 0,38 kWh</td><td>≈ 0,13 €</td></tr>
-<tr><td>Grande (7-8 L)</td><td>2.000 W</td><td>20 min</td><td>≈ 0,48 kWh</td><td>≈ 0,17 €</td></tr>
-<tr><td>Doppio cestello (9-10 L)</td><td>2.400 W</td><td>22 min</td><td>≈ 0,55 kWh</td><td>≈ 0,19 €</td></tr>
+<tr><td>Compatta (3-4 L)</td><td>1.400 W</td><td>15 min</td><td>≈ 0,25 kWh</td><td>≈ 0,09 €</td></tr>
+<tr><td>Standard (4-6 L)</td><td>1.600 W</td><td>18 min</td><td>≈ 0,34 kWh</td><td>≈ 0,12 €</td></tr>
+<tr><td>Grande (7-8 L)</td><td>2.000 W</td><td>20 min</td><td>≈ 0,47 kWh</td><td>≈ 0,16 €</td></tr>
+<tr><td>Doppio cestello (9-10 L)</td><td>2.400 W</td><td>22 min</td><td>≈ 0,62 kWh</td><td>≈ 0,22 €</td></tr>
 </tbody>
 </table>
 
 <h2>Costo annuo: 3 volte a settimana vs ogni giorno</h2>
-<p>Sulla base di una media di 0,4 kWh per utilizzo e una tariffa di 0,35 €/kWh.</p>
+<p>Sulla base di una media di 0,4 kWh per utilizzo e la tariffa di esempio di 0,35 €/kWh (0,4 kWh × numero di utilizzi × 0,35 €).</p>
 <table>
 <thead>
 <tr><th>Frequenza</th><th>Utilizzi/anno</th><th>Consumo/anno</th><th>Costo/anno (0,35 €/kWh)</th></tr>
@@ -545,7 +549,7 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Consumo in situazioni quotidiane</h2>
-<p>Ecco stime realistiche per piatti comuni, alla tariffa di 0,35 €/kWh:</p>
+<p>Ecco stime realistiche per piatti comuni, alla tariffa di esempio di 0,35 €/kWh:</p>
 <table>
 <thead>
 <tr><th>Piatto</th><th>Temperatura / Tempo</th><th>kWh (stima)</th><th>Costo (0,35 €/kWh)</th></tr>
@@ -561,17 +565,18 @@ export const article: BlogArticle = {
 <p>Per riscaldare o cuocere piccole quantità, la friggitrice ad aria è imbattibile: accendere il forno sarebbe puro spreco. Sono proprio queste cotture piccole e frequenti a generare, nell'arco dell'anno, il maggior risparmio rispetto al forno.</p>
 
 <h2>Modelli connessi: tenere d'occhio il consumo</h2>
-<p>Molte friggitrici ad aria sono ormai connesse al Wi-Fi e controllabili da app. Questo aiuta i consumi: i programmi precisi di temperatura e tempo evitano di superare la cottura necessaria e sprecare energia. D'altro canto, un modello connesso con display e modulo Wi-Fi assorbe 1-3 watt in standby di continuo, circa 9-26 kWh all'anno (3-9 €), che si cucini o meno. Una ciabatta con interruttore o una presa smart risolve il problema staccando del tutto l'alimentazione dopo l'uso.</p>
+<p>Molte friggitrici ad aria sono ormai connesse al Wi-Fi e controllabili da app. Questo aiuta i consumi: i programmi precisi di temperatura e tempo evitano di superare la cottura necessaria e sprecare energia. D'altro canto, un modello connesso con display e modulo Wi-Fi assorbe 1-3 watt in standby di continuo, circa 9-26 kWh all'anno (3-9 € alla tariffa di esempio), che si cucini o meno. Una ciabatta con interruttore o una presa smart risolve il problema staccando del tutto l'alimentazione dopo l'uso.</p>
 
 <h2>Modelli più efficienti ed etichetta energetica</h2>
-<p>I modelli <strong>Xiaomi</strong> e <strong>Cosori</strong> offrono un ottimo equilibrio tra potenza, tempo e consumo (circa 0,34-0,37 kWh per cottura). Non esiste ancora una classe di efficienza energetica UE obbligatoria specifica per le friggitrici ad aria, a differenza di frigoriferi o lavatrici, quindi affidati a potenza, capacità e misurazioni reali. In generale, una potenza più moderata con capacità adeguata è un buon segnale di efficienza. Vedi la nostra selezione delle <a href="/it/blog/meilleur-airfryer-petit-budget">migliori friggitrici ad aria economiche</a>.</p>
+<p>I modelli <strong>Xiaomi</strong> e <strong>Cosori</strong> offrono un ottimo equilibrio tra potenza, tempo e consumo (ad esempio la Cosori Lite 3.8L da 1.500 W o la Xiaomi Smart Air Fryer Pro 4L da 1.600 W, circa 0,32-0,34 kWh in 18 minuti). Non esiste ancora una classe di efficienza energetica UE obbligatoria specifica per le friggitrici ad aria, a differenza di frigoriferi o lavatrici, quindi affidati a potenza, capacità e misurazioni reali. In generale, una potenza più moderata con capacità adeguata è un buon segnale di efficienza. Vedi la nostra selezione delle <a href="/it/blog/meilleur-airfryer-petit-budget">migliori friggitrici ad aria economiche</a>.</p>
 
 <h2>Conclusione</h2>
-<p>Anche con prezzi alti, la friggitrice ad aria resta uno dei metodi di cottura più economici per porzioni piccole e medie: circa 0,3-0,5 kWh per utilizzo e un costo annuo contenuto (circa 22 € a tre utilizzi a settimana). Spesso si ripaga in uno o due anni solo con il risparmio energetico.</p>
+<p>Anche con prezzi alti, la friggitrice ad aria resta uno dei metodi di cottura più economici per porzioni piccole e medie: circa 0,3-0,5 kWh per utilizzo e un costo annuo contenuto (circa 22 € a tre utilizzi a settimana).</p>
 <p>Non farti spaventare dalla potenza elevata indicata sull'etichetta. Ciò che conta è il consumo reale in kWh, che resta basso grazie ai tempi brevi, al piccolo volume e allo scarso preriscaldamento. Scegliendo un modello efficiente e applicando qualche semplice accorgimento, mantieni i costi elettrici al minimo nel lungo periodo, anche con tariffe alte.</p>`,
 
     nl: `<h2>Hoeveel stroom verbruikt een airfryer echt?</h2>
-<p>Duitsland heeft een van de hoogste stroomprijzen van Europa (ongeveer € 0,35/kWh), maar de gebruikskosten zijn voor elk huishouden interessant. Het goede nieuws: ondanks een hoog vermogen verbruikt een airfryer in de praktijk weinig, ongeveer <strong>0,3 tot 0,5 kWh per keer</strong>, oftewel zo'n 10 tot 18 cent stroom per bereiding afhankelijk van je tarief.</p>
+<p>Duitsland heeft een van de hoogste stroomprijzen van Europa , maar de gebruikskosten zijn voor elk huishouden interessant. Het goede nieuws: ondanks een hoog vermogen verbruikt een airfryer in de praktijk weinig, ongeveer <strong>0,3 tot 0,5 kWh per keer</strong>, oftewel zo'n 10 tot 18 cent stroom per bereiding afhankelijk van je tarief.</p>
+<p><strong>Zo rekenen we:</strong> alle kostenvoorbeelden in deze gids gebruiken een <strong>voorbeeldtarief van € 0,35/kWh</strong>. Je eigen kWh-prijs staat op je energierekening en kan hoger of lager zijn. Voor je echte kosten vermenigvuldig je de genoemde kWh-waarden met jouw prijs per kWh.</p>
 
 <h2>Vermogen is niet het werkelijke verbruik</h2>
 <p>De meest gemaakte fout is het vermogen lezen (bijvoorbeeld 1.700 W) en aannemen dat het apparaat 1,7 kWh per uur verbruikt. Het vermogen geeft alleen het maximale verbruik van het verwarmingselement bij volle belasting aan.</p>
@@ -582,21 +587,21 @@ export const article: BlogArticle = {
 </ul>
 <p>Het helpt om de opwarmfase te onderscheiden van de kookfase. In de eerste minuten trekt het apparaat het volle vermogen om snel op temperatuur te komen. Daarna daalt het verbruik sterk, omdat het element de warmte alleen nog bijregelt. Bij een bereiding van 20 minuten vallen maar drie tot vijf minuten in de meest energie-intensieve opwarmfase. Wil je je exacte verbruik weten, dan toont een eenvoudige energiemeter tussen het stopcontact en het apparaat de verbruikte kWh in realtime.</p>
 
-<h3>Gemeten verbruik per keer (15-20 min)</h3>
+<h3>Geschat verbruik per keer (activiteitsfactor 0,7)</h3>
 <table>
 <thead>
 <tr><th>Type apparaat</th><th>Vermogen</th><th>Tijd</th><th>kWh (schatting)</th><th>Kosten (€ 0,35/kWh)</th></tr>
 </thead>
 <tbody>
-<tr><td>Compact (3-4 L)</td><td>1.400 W</td><td>15 min</td><td>≈ 0,30 kWh</td><td>≈ € 0,11</td></tr>
-<tr><td>Standaard (4-6 L)</td><td>1.600 W</td><td>18 min</td><td>≈ 0,38 kWh</td><td>≈ € 0,13</td></tr>
-<tr><td>Groot (7-8 L)</td><td>2.000 W</td><td>20 min</td><td>≈ 0,48 kWh</td><td>≈ € 0,17</td></tr>
-<tr><td>Dubbele mand (9-10 L)</td><td>2.400 W</td><td>22 min</td><td>≈ 0,55 kWh</td><td>≈ € 0,19</td></tr>
+<tr><td>Compact (3-4 L)</td><td>1.400 W</td><td>15 min</td><td>≈ 0,25 kWh</td><td>≈ € 0,09</td></tr>
+<tr><td>Standaard (4-6 L)</td><td>1.600 W</td><td>18 min</td><td>≈ 0,34 kWh</td><td>≈ € 0,12</td></tr>
+<tr><td>Groot (7-8 L)</td><td>2.000 W</td><td>20 min</td><td>≈ 0,47 kWh</td><td>≈ € 0,16</td></tr>
+<tr><td>Dubbele mand (9-10 L)</td><td>2.400 W</td><td>22 min</td><td>≈ 0,62 kWh</td><td>≈ € 0,22</td></tr>
 </tbody>
 </table>
 
 <h2>Jaarlijkse kosten: 3x per week vs elke dag</h2>
-<p>Op basis van gemiddeld 0,4 kWh per keer en een tarief van € 0,35/kWh.</p>
+<p>Op basis van gemiddeld 0,4 kWh per keer en het voorbeeldtarief van € 0,35/kWh (0,4 kWh × aantal keren × € 0,35).</p>
 <table>
 <thead>
 <tr><th>Frequentie</th><th>Keren/jaar</th><th>Verbruik/jaar</th><th>Kosten/jaar (€ 0,35/kWh)</th></tr>
@@ -642,7 +647,7 @@ export const article: BlogArticle = {
 </ul>
 
 <h2>Verbruik in alledaagse situaties</h2>
-<p>Hier zijn realistische schattingen voor veelvoorkomende gerechten, tegen het tarief van € 0,35/kWh:</p>
+<p>Hier zijn realistische schattingen voor veelvoorkomende gerechten, tegen het voorbeeldtarief van € 0,35/kWh:</p>
 <table>
 <thead>
 <tr><th>Gerecht</th><th>Temperatuur / Tijd</th><th>kWh (schatting)</th><th>Kosten (€ 0,35/kWh)</th></tr>
@@ -658,13 +663,13 @@ export const article: BlogArticle = {
 <p>Voor het opwarmen of bereiden van kleine hoeveelheden is de airfryer onverslaanbaar: de oven aanzetten zou pure verspilling zijn. Juist deze kleine, frequente bereidingen leveren over het jaar de grootste besparing op ten opzichte van de oven.</p>
 
 <h2>Connected modellen: houd het verbruik in de gaten</h2>
-<p>Veel airfryers zijn tegenwoordig met wifi verbonden en via een app te bedienen. Dat kan het verbruik helpen: nauwkeurige temperatuur- en tijdprogramma's voorkomen overgaren en energieverspilling. Aan de andere kant verbruikt een connected model met scherm en wifi-module continu 1 tot 3 watt in standby, ongeveer 9 tot 26 kWh per jaar (€ 3 tot € 9), of je nu kookt of niet. Een stekkerdoos met schakelaar of een slimme stekker lost dit op door de stroom na gebruik volledig af te sluiten.</p>
+<p>Veel airfryers zijn tegenwoordig met wifi verbonden en via een app te bedienen. Dat kan het verbruik helpen: nauwkeurige temperatuur- en tijdprogramma's voorkomen overgaren en energieverspilling. Aan de andere kant verbruikt een connected model met scherm en wifi-module continu 1 tot 3 watt in standby, ongeveer 9 tot 26 kWh per jaar (€ 3 tot € 9 tegen het voorbeeldtarief), of je nu kookt of niet. Een stekkerdoos met schakelaar of een slimme stekker lost dit op door de stroom na gebruik volledig af te sluiten.</p>
 
 <h2>Zuinigste modellen en het EU-energielabel</h2>
-<p>Modellen van <strong>Xiaomi</strong> en <strong>Cosori</strong> bieden een goede balans tussen vermogen, tijd en verbruik (ongeveer 0,34 tot 0,37 kWh per bereiding). Er bestaat nog geen verplichte EU-energie-efficiëntieklasse specifiek voor airfryers, anders dan bij koelkasten of wasmachines, dus let op vermogen, capaciteit en echte metingen. Over het algemeen is een gematigder vermogen bij voldoende capaciteit een goed teken van efficiëntie. Bekijk onze selectie van de <a href="/nl/blog/meilleur-airfryer-petit-budget">beste betaalbare airfryers</a>.</p>
+<p>Modellen van <strong>Xiaomi</strong> en <strong>Cosori</strong> bieden een goede balans tussen vermogen, tijd en verbruik (bijvoorbeeld de Cosori Lite 3.8L met 1.500 W of de Xiaomi Smart Air Fryer Pro 4L met 1.600 W, ongeveer 0,32 tot 0,34 kWh in 18 minuten). Er bestaat nog geen verplichte EU-energie-efficiëntieklasse specifiek voor airfryers, anders dan bij koelkasten of wasmachines, dus let op vermogen, capaciteit en echte metingen. Over het algemeen is een gematigder vermogen bij voldoende capaciteit een goed teken van efficiëntie. Bekijk onze selectie van de <a href="/nl/blog/meilleur-airfryer-petit-budget">beste betaalbare airfryers</a>.</p>
 
 <h2>Conclusie</h2>
-<p>Zelfs met hoge stroomprijzen blijft de airfryer een van de goedkoopste kookmethodes voor kleine tot middelgrote porties: ongeveer 0,3-0,5 kWh per keer en bescheiden jaarlijkse kosten (zo'n € 22 bij drie keer per week). Hij verdient zichzelf vaak binnen een tot twee jaar terug op energiebesparing alleen.</p>
+<p>Zelfs met hoge stroomprijzen blijft de airfryer een van de goedkoopste kookmethodes voor kleine tot middelgrote porties: ongeveer 0,3-0,5 kWh per keer en bescheiden jaarlijkse kosten (zo'n € 22 bij drie keer per week).</p>
 <p>Laat je niet afschrikken door het hoge vermogen op het label. Wat telt is het werkelijke verbruik in kWh, en dat blijft laag dankzij korte bereidingstijden, een klein volume en weinig tot geen voorverwarmen. Door een efficiënt model te kiezen en een paar simpele tips toe te passen, houd je de stroomkosten op lange termijn minimaal, zelfs bij hoge tarieven.</p>`,
   },
   faq: [
@@ -678,12 +683,12 @@ export const article: BlogArticle = {
         nl: 'Hoeveel stroom verbruikt een airfryer?',
       },
       answer: {
-        fr: 'Une airfryer consomme environ 0,3 à 0,5 kWh par utilisation de 15 à 20 minutes, malgré une puissance affichée de 1 400 à 2 000 W. La résistance ne chauffe pas en continu : elle fonctionne par cycles. Au tarif allemand de 0,35 €/kWh, cela représente seulement 10 à 18 centimes par cuisson.',
-        en: 'An air fryer uses roughly 0.3 to 0.5 kWh per 15-20 minute session, despite a rated power of 1,400 to 2,000 W. The heating element does not run continuously — it cycles on and off. At the German rate of €0.35/kWh, that is only 10 to 18 cents per cook.',
-        de: 'Eine Heißluftfritteuse verbraucht etwa 0,3 bis 0,5 kWh pro Nutzung von 15 bis 20 Minuten, trotz einer Wattzahl von 1.400 bis 2.000 W. Das Heizelement läuft nicht durchgehend, sondern arbeitet in Zyklen. Beim deutschen Tarif von 0,35 €/kWh sind das nur 10 bis 18 Cent Stromkosten pro Garvorgang.',
-        es: 'Una freidora de aire consume unos 0,3 a 0,5 kWh por uso de 15 a 20 minutos, pese a una potencia de 1.400 a 2.000 W. La resistencia no calienta de forma continua, sino por ciclos. Con la tarifa alemana de 0,35 €/kWh, son solo 10 a 18 céntimos por cocción.',
-        it: 'Una friggitrice ad aria consuma circa 0,3-0,5 kWh per utilizzo di 15-20 minuti, nonostante una potenza di 1.400-2.000 W. La resistenza non scalda di continuo, ma a cicli. Alla tariffa tedesca di 0,35 €/kWh sono solo 10-18 centesimi per cottura.',
-        nl: 'Een airfryer verbruikt ongeveer 0,3 tot 0,5 kWh per keer van 15 tot 20 minuten, ondanks een vermogen van 1.400 tot 2.000 W. Het verwarmingselement draait niet continu maar in cycli. Tegen het Duitse tarief van € 0,35/kWh is dat slechts 10 tot 18 cent per bereiding.',
+        fr: 'Une airfryer consomme environ 0,3 à 0,5 kWh par utilisation de 15 à 20 minutes, malgré une puissance affichée de 1 400 à 2 000 W. La résistance ne chauffe pas en continu : elle fonctionne par cycles. Avec un tarif d\'exemple de 0,35 €/kWh, cela représente seulement 10 à 18 centimes par cuisson.',
+        en: 'An air fryer uses roughly 0.3 to 0.5 kWh per 15-20 minute session, despite a rated power of 1,400 to 2,000 W. The heating element does not run continuously — it cycles on and off. At an example rate of €0.35/kWh, that is only 10 to 18 cents per cook.',
+        de: 'Eine Heißluftfritteuse verbraucht etwa 0,3 bis 0,5 kWh pro Nutzung von 15 bis 20 Minuten, trotz einer Wattzahl von 1.400 bis 2.000 W. Das Heizelement läuft nicht durchgehend, sondern arbeitet in Zyklen. Bei einem Beispieltarif von 0,35 €/kWh sind das nur 10 bis 18 Cent Stromkosten pro Garvorgang.',
+        es: 'Una freidora de aire consume unos 0,3 a 0,5 kWh por uso de 15 a 20 minutos, pese a una potencia de 1.400 a 2.000 W. La resistencia no calienta de forma continua, sino por ciclos. Con una tarifa de ejemplo de 0,35 €/kWh, son solo 10 a 18 céntimos por cocción.',
+        it: 'Una friggitrice ad aria consuma circa 0,3-0,5 kWh per utilizzo di 15-20 minuti, nonostante una potenza di 1.400-2.000 W. La resistenza non scalda di continuo, ma a cicli. Con una tariffa di esempio di 0,35 €/kWh sono solo 10-18 centesimi per cottura.',
+        nl: 'Een airfryer verbruikt ongeveer 0,3 tot 0,5 kWh per keer van 15 tot 20 minuten, ondanks een vermogen van 1.400 tot 2.000 W. Het verwarmingselement draait niet continu maar in cycli. Tegen een voorbeeldtarief van € 0,35/kWh is dat slechts 10 tot 18 cent per bereiding.',
       },
     },
     {
@@ -714,12 +719,12 @@ export const article: BlogArticle = {
         nl: 'Hoeveel kost een airfryer per jaar aan stroom?',
       },
       answer: {
-        fr: 'Au tarif allemand de 0,35 €/kWh, une utilisation 3 fois par semaine coûte environ 22 € par an, et un usage quotidien environ 51 € par an. Ces chiffres sont des estimations basées sur 0,4 kWh par cuisson et varient selon le modèle, la durée de cuisson et le remplissage du panier.',
-        en: 'At the German rate of €0.35/kWh, using it 3 times a week costs about €22 a year, and daily use about €51 a year. These figures are estimates based on 0.4 kWh per cook and vary with the model, cooking time and how full the basket is.',
-        de: 'Beim deutschen Tarif von 0,35 €/kWh kostet eine Nutzung 3-mal pro Woche etwa 22 € pro Jahr, tägliche Nutzung rund 51 € pro Jahr. Diese Werte sind Schätzungen auf Basis von 0,4 kWh pro Garvorgang und variieren je nach Modell, Garzeit und Befüllung des Korbs.',
-        es: 'Con la tarifa alemana de 0,35 €/kWh, usarla 3 veces por semana cuesta unos 22 € al año, y a diario unos 51 € al año. Son estimaciones basadas en 0,4 kWh por cocción y varían según el modelo, el tiempo y el llenado de la cesta.',
-        it: 'Alla tariffa tedesca di 0,35 €/kWh, usarla 3 volte a settimana costa circa 22 € all\'anno, e ogni giorno circa 51 € all\'anno. Sono stime basate su 0,4 kWh per cottura e variano in base al modello, al tempo e al riempimento del cestello.',
-        nl: 'Tegen het Duitse tarief van € 0,35/kWh kost 3 keer per week gebruiken zo\'n € 22 per jaar, en dagelijks gebruik ongeveer € 51 per jaar. Dit zijn schattingen op basis van 0,4 kWh per bereiding en variëren met het model, de bereidingstijd en hoe vol de mand is.',
+        fr: 'Avec un tarif d\'exemple de 0,35 €/kWh, une utilisation 3 fois par semaine coûte environ 22 € par an, et un usage quotidien environ 51 € par an. Ces chiffres sont des estimations basées sur 0,4 kWh par cuisson et varient selon le modèle, la durée de cuisson et le remplissage du panier.',
+        en: 'At an example rate of €0.35/kWh, using it 3 times a week costs about €22 a year, and daily use about €51 a year. These figures are estimates based on 0.4 kWh per cook and vary with the model, cooking time and how full the basket is.',
+        de: 'Bei einem Beispieltarif von 0,35 €/kWh kostet eine Nutzung 3-mal pro Woche etwa 22 € pro Jahr, tägliche Nutzung rund 51 € pro Jahr. Diese Werte sind Schätzungen auf Basis von 0,4 kWh pro Garvorgang und variieren je nach Modell, Garzeit und Befüllung des Korbs.',
+        es: 'Con una tarifa de ejemplo de 0,35 €/kWh, usarla 3 veces por semana cuesta unos 22 € al año, y a diario unos 51 € al año. Son estimaciones basadas en 0,4 kWh por cocción y varían según el modelo, el tiempo y el llenado de la cesta.',
+        it: 'Con una tariffa di esempio di 0,35 €/kWh, usarla 3 volte a settimana costa circa 22 € all\'anno, e ogni giorno circa 51 € all\'anno. Sono stime basate su 0,4 kWh per cottura e variano in base al modello, al tempo e al riempimento del cestello.',
+        nl: 'Tegen een voorbeeldtarief van € 0,35/kWh kost 3 keer per week gebruiken zo\'n € 22 per jaar, en dagelijks gebruik ongeveer € 51 per jaar. Dit zijn schattingen op basis van 0,4 kWh per bereiding en variëren met het model, de bereidingstijd en hoe vol de mand is.',
       },
     },
     {
@@ -732,12 +737,12 @@ export const article: BlogArticle = {
         nl: 'Welke airfryer-modellen zijn het zuinigst?',
       },
       answer: {
-        fr: 'Les modèles à puissance modérée et bonne gestion de la chaleur sont les plus économes. Xiaomi et Cosori se distinguent par un bon rapport entre puissance, temps de cuisson et consommation (environ 0,34 à 0,37 kWh par cuisson). En général, une puissance plus faible pour une capacité suffisante est un bon indicateur d\'efficacité.',
-        en: 'Models with moderate wattage and good heat management are the most efficient. Xiaomi and Cosori stand out with a good balance of power, cooking time and consumption (around 0.34 to 0.37 kWh per cook). In general, lower wattage for an adequate capacity is a good sign of efficiency.',
-        de: 'Modelle mit moderater Wattzahl und gutem Wärmemanagement sind am sparsamsten. Xiaomi und Cosori überzeugen mit einem guten Verhältnis aus Leistung, Garzeit und Verbrauch (etwa 0,34 bis 0,37 kWh pro Garvorgang). Generell ist eine niedrigere Wattzahl bei ausreichendem Volumen ein guter Hinweis auf Effizienz.',
-        es: 'Los modelos con potencia moderada y buena gestión del calor son los más eficientes. Xiaomi y Cosori destacan por un buen equilibrio entre potencia, tiempo y consumo (unos 0,34 a 0,37 kWh por cocción). En general, una potencia más baja con capacidad suficiente es buena señal de eficiencia.',
-        it: 'I modelli con potenza moderata e buona gestione del calore sono i più efficienti. Xiaomi e Cosori spiccano per un buon equilibrio tra potenza, tempo e consumo (circa 0,34-0,37 kWh per cottura). In generale, una potenza più bassa con capacità adeguata è un buon segnale di efficienza.',
-        nl: 'Modellen met gematigd vermogen en goed warmtebeheer zijn het zuinigst. Xiaomi en Cosori vallen op met een goede balans tussen vermogen, tijd en verbruik (ongeveer 0,34 tot 0,37 kWh per bereiding). Over het algemeen is een lager vermogen bij voldoende capaciteit een goed teken van efficiëntie.',
+        fr: 'Les modèles à puissance modérée et bonne gestion de la chaleur sont les plus économes. Xiaomi et Cosori se distinguent par un bon rapport entre puissance, temps de cuisson et consommation (environ 0,32 à 0,34 kWh pour 18 minutes de cuisson). En général, une puissance plus faible pour une capacité suffisante est un bon indicateur d\'efficacité.',
+        en: 'Models with moderate wattage and good heat management are the most efficient. Xiaomi and Cosori stand out with a good balance of power, cooking time and consumption (around 0.32 to 0.34 kWh for an 18-minute cook). In general, lower wattage for an adequate capacity is a good sign of efficiency.',
+        de: 'Modelle mit moderater Wattzahl und gutem Wärmemanagement sind am sparsamsten. Xiaomi und Cosori überzeugen mit einem guten Verhältnis aus Leistung, Garzeit und Verbrauch (etwa 0,32 bis 0,34 kWh bei 18 Minuten Garzeit). Generell ist eine niedrigere Wattzahl bei ausreichendem Volumen ein guter Hinweis auf Effizienz.',
+        es: 'Los modelos con potencia moderada y buena gestión del calor son los más eficientes. Xiaomi y Cosori destacan por un buen equilibrio entre potencia, tiempo y consumo (unos 0,32 a 0,34 kWh en 18 minutos). En general, una potencia más baja con capacidad suficiente es buena señal de eficiencia.',
+        it: 'I modelli con potenza moderata e buona gestione del calore sono i più efficienti. Xiaomi e Cosori spiccano per un buon equilibrio tra potenza, tempo e consumo (circa 0,32-0,34 kWh in 18 minuti). In generale, una potenza più bassa con capacità adeguata è un buon segnale di efficienza.',
+        nl: 'Modellen met gematigd vermogen en goed warmtebeheer zijn het zuinigst. Xiaomi en Cosori vallen op met een goede balans tussen vermogen, tijd en verbruik (ongeveer 0,32 tot 0,34 kWh in 18 minuten). Over het algemeen is een lager vermogen bij voldoende capaciteit een goed teken van efficiëntie.',
       },
     },
     {

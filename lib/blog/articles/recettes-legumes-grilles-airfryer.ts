@@ -6,7 +6,7 @@ export const article: BlogArticle = {
   pillar: 'guides/airfryers',
   relatedSlugs: ['cuisiner-healthy-airfryer', 'recettes-frites-parfaites-airfryer', 'meal-prep-airfryer-semaine'],
   datePublished: '2026-03-01',
-  dateModified: '2026-04-08',
+  dateModified: '2026-10-09',
   readingTime: 11,
   images: [
     {
@@ -40,7 +40,7 @@ export const article: BlogArticle = {
   content: {
     fr: `<h2>Introduction</h2>
 <p>L'airfryer est un outil extraordinaire pour cuire les légumes. La circulation d'air chaud à haute température crée une <strong>caramélisation en surface</strong> qui intensifie les saveurs naturelles, tout en préservant les nutriments bien mieux que la cuisson à l'eau bouillante. En seulement 10 à 20 minutes, vous obtenez des légumes grillés aussi savoureux qu'au four, mais avec un temps de préchauffage quasi nul et une consommation d'énergie réduite.</p>
-<p>Dans ce guide complet, nous détaillons la cuisson parfaite de <strong>10 légumes populaires</strong> avec les températures exactes, les temps de cuisson testés et les assaisonnements recommandés. Que vous cherchiez à manger plus <a href="/fr/blog/cuisiner-healthy-airfryer">healthy</a> ou à préparer vos repas de la semaine en avance dans le cadre d'un <a href="/fr/blog/meal-prep-airfryer-semaine">meal prep</a>, ces recettes deviendront vos incontournables.</p>
+<p>Dans ce guide complet, nous détaillons la cuisson parfaite de <strong>10 légumes populaires</strong> avec les températures, les temps de cuisson indicatifs et les assaisonnements recommandés. Que vous cherchiez à manger plus <a href="/fr/blog/cuisiner-healthy-airfryer">healthy</a> ou à préparer vos repas de la semaine en avance dans le cadre d'un <a href="/fr/blog/meal-prep-airfryer-semaine">meal prep</a>, ces recettes deviendront vos incontournables.</p>
 
 <h2>Règles d'or pour les légumes à l'airfryer</h2>
 <p>Avant de passer aux recettes individuelles, voici les principes universels qui s'appliquent à tous les légumes :</p>
@@ -275,10 +275,10 @@ export const article: BlogArticle = {
 <table>
 <thead><tr><th>Légume</th><th>Calories</th><th>Fibres</th><th>Vitamine C</th><th>Potassium</th><th>Bénéfice santé principal</th></tr></thead>
 <tbody>
-<tr><td>Brocoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (197% AJR)</td><td>460 mg</td><td>Antioxydants, prévention cancer</td></tr>
-<tr><td>Chou-fleur</td><td>52 kcal</td><td>4 g</td><td>96 mg (128% AJR)</td><td>400 mg</td><td>Anti-inflammatoire, digestion</td></tr>
+<tr><td>Brocoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (185% AJR)</td><td>460 mg</td><td>Antioxydants, vitamine K</td></tr>
+<tr><td>Chou-fleur</td><td>52 kcal</td><td>4 g</td><td>96 mg (120% AJR)</td><td>400 mg</td><td>Anti-inflammatoire, digestion</td></tr>
 <tr><td>Courgette</td><td>38 kcal</td><td>2,5 g</td><td>34 mg</td><td>512 mg</td><td>Hydratation, pauvre en calories</td></tr>
-<tr><td>Poivron</td><td>50 kcal</td><td>3 g</td><td>204 mg (272% AJR)</td><td>420 mg</td><td>Vitamine C maximale, vision</td></tr>
+<tr><td>Poivron</td><td>50 kcal</td><td>3 g</td><td>204 mg (255% AJR)</td><td>420 mg</td><td>Vitamine C maximale, vision</td></tr>
 <tr><td>Asperges</td><td>44 kcal</td><td>3,5 g</td><td>14 mg</td><td>468 mg</td><td>Acide folique, diurétique</td></tr>
 </tbody>
 </table>
@@ -289,12 +289,12 @@ export const article: BlogArticle = {
 <li><strong>Mélange crucifères :</strong> brocoli + chou-fleur + choux de Bruxelles. 190°C, 16 min. Idéal pour le meal prep.</li>
 <li><strong>Mélange printanier :</strong> asperges + champignons + haricots verts. 200°C, 8 min. Délicat et rapide.</li>
 <li><strong>Mélange automnal :</strong> carottes + courge + oignons rouges. 180°C, 20 min. Saveurs sucrées-salées.</li>
-<li><strong>Mélange asiatique :</strong> pak choi + edamame + champignons shitake + sésame. 190°C, 10 min. Sauce soja en finition.</li>
+<li><strong>Mélange asiatique :</strong> pak choi + edamame + champignons shiitake + sésame. 190°C, 10 min. Sauce soja en finition.</li>
 </ul>`,
 
     en: `<h2>Introduction</h2>
 <p>The air fryer is an extraordinary tool for cooking vegetables. High-temperature hot air circulation creates <strong>surface caramelization</strong> that intensifies natural flavours while preserving nutrients far better than boiling. In just 10-20 minutes, you get roasted vegetables as delicious as oven-roasted, with virtually no preheating time and reduced energy consumption.</p>
-<p>In this complete guide, we detail perfect cooking for <strong>10 popular vegetables</strong> with exact temperatures, tested cooking times, and recommended seasonings. Whether you want to eat more <a href="/en/blog/cuisiner-healthy-airfryer">healthily</a> or prepare meals ahead as part of a <a href="/en/blog/meal-prep-airfryer-semaine">meal prep</a>, these recipes will become your staples.</p>
+<p>In this complete guide, we detail perfect cooking for <strong>10 popular vegetables</strong> with temperatures, guideline cooking times, and recommended seasonings. Whether you want to eat more <a href="/en/blog/cuisiner-healthy-airfryer">healthily</a> or prepare meals ahead as part of a <a href="/en/blog/meal-prep-airfryer-semaine">meal prep</a>, these recipes will become your staples.</p>
 
 <h2>Golden Rules for Air Fryer Vegetables</h2>
 <ul>
@@ -486,10 +486,10 @@ export const article: BlogArticle = {
 <table>
 <thead><tr><th>Vegetable</th><th>Calories</th><th>Fibre</th><th>Vitamin C</th><th>Potassium</th><th>Main health benefit</th></tr></thead>
 <tbody>
-<tr><td>Broccoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (197% RDA)</td><td>460 mg</td><td>Antioxidants, cancer prevention</td></tr>
-<tr><td>Cauliflower</td><td>52 kcal</td><td>4 g</td><td>96 mg (128% RDA)</td><td>400 mg</td><td>Anti-inflammatory, digestion</td></tr>
+<tr><td>Broccoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (185% RDA)</td><td>460 mg</td><td>Antioxidants, vitamin K</td></tr>
+<tr><td>Cauliflower</td><td>52 kcal</td><td>4 g</td><td>96 mg (120% RDA)</td><td>400 mg</td><td>Anti-inflammatory, digestion</td></tr>
 <tr><td>Zucchini</td><td>38 kcal</td><td>2.5 g</td><td>34 mg</td><td>512 mg</td><td>Hydration, very low calories</td></tr>
-<tr><td>Bell pepper</td><td>50 kcal</td><td>3 g</td><td>204 mg (272% RDA)</td><td>420 mg</td><td>Maximum vitamin C, eye health</td></tr>
+<tr><td>Bell pepper</td><td>50 kcal</td><td>3 g</td><td>204 mg (255% RDA)</td><td>420 mg</td><td>Maximum vitamin C, eye health</td></tr>
 <tr><td>Asparagus</td><td>44 kcal</td><td>3.5 g</td><td>14 mg</td><td>468 mg</td><td>Folate, diuretic properties</td></tr>
 </tbody>
 </table>
@@ -632,10 +632,10 @@ export const article: BlogArticle = {
 <table>
 <thead><tr><th>Gemüse</th><th>Kalorien</th><th>Ballaststoffe</th><th>Vitamin C</th><th>Kalium</th><th>Hauptgesundheitsvorteil</th></tr></thead>
 <tbody>
-<tr><td>Brokkoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (197% RI)</td><td>460 mg</td><td>Antioxidantien, Krebsprävention</td></tr>
-<tr><td>Blumenkohl</td><td>52 kcal</td><td>4 g</td><td>96 mg (128% RI)</td><td>400 mg</td><td>Entzündungshemmend, Verdauung</td></tr>
+<tr><td>Brokkoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (185% RI)</td><td>460 mg</td><td>Antioxidantien, Vitamin K</td></tr>
+<tr><td>Blumenkohl</td><td>52 kcal</td><td>4 g</td><td>96 mg (120% RI)</td><td>400 mg</td><td>Entzündungshemmend, Verdauung</td></tr>
 <tr><td>Zucchini</td><td>38 kcal</td><td>2,5 g</td><td>34 mg</td><td>512 mg</td><td>Hydratation, sehr kalorienarm</td></tr>
-<tr><td>Paprika</td><td>50 kcal</td><td>3 g</td><td>204 mg (272% RI)</td><td>420 mg</td><td>Maximales Vitamin C, Augengesundheit</td></tr>
+<tr><td>Paprika</td><td>50 kcal</td><td>3 g</td><td>204 mg (255% RI)</td><td>420 mg</td><td>Maximales Vitamin C, Augengesundheit</td></tr>
 <tr><td>Spargel</td><td>44 kcal</td><td>3,5 g</td><td>14 mg</td><td>468 mg</td><td>Folsäure, entwässernd</td></tr>
 </tbody>
 </table>
@@ -772,10 +772,10 @@ export const article: BlogArticle = {
 <table>
 <thead><tr><th>Verdura</th><th>Calorías</th><th>Fibra</th><th>Vitamina C</th><th>Potasio</th><th>Beneficio principal</th></tr></thead>
 <tbody>
-<tr><td>Brócoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (197% IDR)</td><td>460 mg</td><td>Antioxidantes, prevención del cáncer</td></tr>
-<tr><td>Coliflor</td><td>52 kcal</td><td>4 g</td><td>96 mg (128% IDR)</td><td>400 mg</td><td>Antiinflamatorio, digestión</td></tr>
+<tr><td>Brócoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (185% IDR)</td><td>460 mg</td><td>Antioxidantes, vitamina K</td></tr>
+<tr><td>Coliflor</td><td>52 kcal</td><td>4 g</td><td>96 mg (120% IDR)</td><td>400 mg</td><td>Antiinflamatorio, digestión</td></tr>
 <tr><td>Calabacín</td><td>38 kcal</td><td>2,5 g</td><td>34 mg</td><td>512 mg</td><td>Hidratación, muy pocas calorías</td></tr>
-<tr><td>Pimiento</td><td>50 kcal</td><td>3 g</td><td>204 mg (272% IDR)</td><td>420 mg</td><td>Máxima vitamina C, salud ocular</td></tr>
+<tr><td>Pimiento</td><td>50 kcal</td><td>3 g</td><td>204 mg (255% IDR)</td><td>420 mg</td><td>Máxima vitamina C, salud ocular</td></tr>
 <tr><td>Espárragos</td><td>44 kcal</td><td>3,5 g</td><td>14 mg</td><td>468 mg</td><td>Ácido fólico, diurético</td></tr>
 </tbody>
 </table>
@@ -912,10 +912,10 @@ export const article: BlogArticle = {
 <table>
 <thead><tr><th>Verdura</th><th>Calorie</th><th>Fibre</th><th>Vitamina C</th><th>Potassio</th><th>Beneficio principale</th></tr></thead>
 <tbody>
-<tr><td>Broccoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (197% RDA)</td><td>460 mg</td><td>Antiossidanti, prevenzione tumori</td></tr>
-<tr><td>Cavolfiore</td><td>52 kcal</td><td>4 g</td><td>96 mg (128% RDA)</td><td>400 mg</td><td>Antinfiammatorio, digestione</td></tr>
+<tr><td>Broccoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (185% RDA)</td><td>460 mg</td><td>Antiossidanti, vitamina K</td></tr>
+<tr><td>Cavolfiore</td><td>52 kcal</td><td>4 g</td><td>96 mg (120% RDA)</td><td>400 mg</td><td>Antinfiammatorio, digestione</td></tr>
 <tr><td>Zucchine</td><td>38 kcal</td><td>2,5 g</td><td>34 mg</td><td>512 mg</td><td>Idratazione, pochissime calorie</td></tr>
-<tr><td>Peperone</td><td>50 kcal</td><td>3 g</td><td>204 mg (272% RDA)</td><td>420 mg</td><td>Massima vitamina C, salute visiva</td></tr>
+<tr><td>Peperone</td><td>50 kcal</td><td>3 g</td><td>204 mg (255% RDA)</td><td>420 mg</td><td>Massima vitamina C, salute visiva</td></tr>
 <tr><td>Asparagi</td><td>44 kcal</td><td>3,5 g</td><td>14 mg</td><td>468 mg</td><td>Acido folico, diuretico</td></tr>
 </tbody>
 </table>
@@ -1052,10 +1052,10 @@ export const article: BlogArticle = {
 <table>
 <thead><tr><th>Groente</th><th>Calorieën</th><th>Vezels</th><th>Vitamine C</th><th>Kalium</th><th>Voornaamste gezondheidsbaat</th></tr></thead>
 <tbody>
-<tr><td>Broccoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (197% ADH)</td><td>460 mg</td><td>Antioxidanten, kankerpreventie</td></tr>
-<tr><td>Bloemkool</td><td>52 kcal</td><td>4 g</td><td>96 mg (128% ADH)</td><td>400 mg</td><td>Ontstekingsremmend, spijsvertering</td></tr>
+<tr><td>Broccoli</td><td>70 kcal</td><td>5 g</td><td>148 mg (185% ADH)</td><td>460 mg</td><td>Antioxidanten, vitamine K</td></tr>
+<tr><td>Bloemkool</td><td>52 kcal</td><td>4 g</td><td>96 mg (120% ADH)</td><td>400 mg</td><td>Ontstekingsremmend, spijsvertering</td></tr>
 <tr><td>Courgette</td><td>38 kcal</td><td>2,5 g</td><td>34 mg</td><td>512 mg</td><td>Hydratatie, zeer weinig calorieën</td></tr>
-<tr><td>Paprika</td><td>50 kcal</td><td>3 g</td><td>204 mg (272% ADH)</td><td>420 mg</td><td>Maximale vitamine C, oogezondheid</td></tr>
+<tr><td>Paprika</td><td>50 kcal</td><td>3 g</td><td>204 mg (255% ADH)</td><td>420 mg</td><td>Maximale vitamine C, oogezondheid</td></tr>
 <tr><td>Asperges</td><td>44 kcal</td><td>3,5 g</td><td>14 mg</td><td>468 mg</td><td>Foliumzuur, vochtafdrijvend</td></tr>
 </tbody>
 </table>

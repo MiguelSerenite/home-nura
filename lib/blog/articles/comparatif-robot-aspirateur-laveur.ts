@@ -4,659 +4,627 @@ export const article: BlogArticle = {
   slug: 'comparatif-robot-aspirateur-laveur',
   category: 'comparatifs',
   pillar: 'entretien-maison',
-  relatedSlugs: ['guide-robot-aspirateur-2026', 'robot-aspirateur-poils-animaux', 'guide-domotique-economie-energie-2026'],
+  relatedSlugs: ['guide-robot-aspirateur-2026', 'robot-aspirateur-poils-animaux', 'meilleur-aspirateur-laveur-2026'],
   datePublished: '2026-04-16',
-  dateModified: '2026-04-16',
-  readingTime: 18,
+  dateModified: '2026-10-09',
+  readingTime: 8,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1551178232-55adaceefee1?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1653990480360-31a12ce9723e?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Robot aspirateur laveur haut de gamme avec station de nettoyage automatique',
-        en: 'Premium robot vacuum mop combo with automatic cleaning station',
-        de: 'Premium-Saugroboter mit Wischfunktion und automatischer Reinigungsstation',
-        es: 'Robot aspirador y fregasuelos premium con estación de limpieza automática',
-        it: 'Robot aspirapolvere lavapavimenti premium con stazione di pulizia automatica',
-        nl: 'Premium robotstofzuiger met dweilfunctie en automatisch reinigingsstation',
+        fr: 'Robot aspirateur noir avec tourelle LiDAR passant sous un canapé sur un parquet clair',
+        en: 'Black robot vacuum with a LiDAR turret moving under a sofa on a light wooden floor',
+        de: 'Schwarzer Saugroboter mit LiDAR-Turm fährt auf hellem Holzboden unter ein Sofa',
+        es: 'Robot aspirador negro con torreta LiDAR pasando bajo un sofá sobre un suelo de madera clara',
+        it: 'Robot aspirapolvere nero con torretta LiDAR che passa sotto un divano su un parquet chiaro',
+        nl: 'Zwarte robotstofzuiger met LiDAR-toren die onder een bank rijdt op een lichte houten vloer',
       },
     },
   ],
   title: {
-    fr: 'Comparatif Robot Aspirateur Laveur 2026 : Les 4 Meilleurs Modèles Testés',
-    en: 'Best Robot Vacuum Mop Combos 2026: Top 4 Models Compared',
-    de: 'Saugroboter mit Wischfunktion Vergleich 2026: Die 4 Besten Modelle im Test',
-    es: 'Comparativa Robot Aspirador y Fregasuelos 2026: Los 4 Mejores Modelos',
-    it: 'Confronto Robot Aspirapolvere Lavapavimenti 2026: I 4 Migliori Modelli',
-    nl: 'Vergelijking Robotstofzuiger met Dweilfunctie 2026: De 4 Beste Modellen',
+    fr: 'Comparatif Robot Aspirateur Laveur 2026 : les 5 meilleurs modèles',
+    en: 'Best Robot Vacuum Mop Combos 2026: The 5 Best Models Compared',
+    de: 'Saugroboter mit Wischfunktion Vergleich 2026: die 5 besten Modelle',
+    es: 'Comparativa Robot Aspirador y Fregasuelos 2026: los 5 mejores modelos',
+    it: 'Confronto Robot Aspirapolvere Lavapavimenti 2026: i 5 migliori modelli',
+    nl: 'Vergelijking Robotstofzuiger met Dweilfunctie 2026: de 5 beste modellen',
   },
   excerpt: {
-    fr: 'Comparatif détaillé des meilleurs robots aspirateurs laveurs en 2026 : Roborock S8 MaxV Ultra, Dreame X40 Ultra, Ecovacs X5 Omni et Xiaomi X20 Max. Aspiration, serpillère, station, prix et verdict.',
-    en: 'Detailed comparison of the best robot vacuum mop combos in 2026: Roborock S8 MaxV Ultra, Dreame X40 Ultra, Ecovacs X5 Omni and Xiaomi X20 Max. Suction, mopping, station, price and verdict.',
-    de: 'Detaillierter Vergleich der besten Saugroboter mit Wischfunktion 2026: Roborock S8 MaxV Ultra, Dreame X40 Ultra, Ecovacs X5 Omni und Xiaomi X20 Max. Saugkraft, Wischsystem, Station, Preis und Fazit.',
-    es: 'Comparativa detallada de los mejores robots aspirador y fregasuelos en 2026: Roborock S8 MaxV Ultra, Dreame X40 Ultra, Ecovacs X5 Omni y Xiaomi X20 Max. Succión, fregado, estación, precio y veredicto.',
-    it: 'Confronto dettagliato dei migliori robot aspirapolvere lavapavimenti nel 2026: Roborock S8 MaxV Ultra, Dreame X40 Ultra, Ecovacs X5 Omni e Xiaomi X20 Max. Aspirazione, lavaggio, stazione, prezzo e verdetto.',
-    nl: 'Gedetailleerde vergelijking van de beste robotstofzuigers met dweilfunctie in 2026: Roborock S8 MaxV Ultra, Dreame X40 Ultra, Ecovacs X5 Omni en Xiaomi X20 Max. Zuigkracht, dweilsysteem, station, prijs en oordeel.',
+    fr: 'Dreame X50 Ultra Complete, Roborock Qrevo Curv 2 Flow, Ecovacs Deebot X8 Pro Omni, Narwal Freo Z Ultra et Dreame L40 Ultra : notre comparatif 2026 des robots aspirateurs laveurs, entre serpillères rotatives et rouleaux, stations et navigation.',
+    en: 'Dreame X50 Ultra Complete, Roborock Qrevo Curv 2 Flow, Ecovacs Deebot X8 Pro Omni, Narwal Freo Z Ultra and Dreame L40 Ultra: our 2026 comparison of robot vacuum mop combos, from rotating pads to roller mops, docks and navigation.',
+    de: 'Dreame X50 Ultra Complete, Roborock Qrevo Curv 2 Flow, Ecovacs Deebot X8 Pro Omni, Narwal Freo Z Ultra und Dreame L40 Ultra: unser Vergleich 2026 der Saugroboter mit Wischfunktion – Drehmopps oder Wischwalze, Station und Navigation.',
+    es: 'Dreame X50 Ultra Complete, Roborock Qrevo Curv 2 Flow, Ecovacs Deebot X8 Pro Omni, Narwal Freo Z Ultra y Dreame L40 Ultra: nuestra comparativa 2026 de robots aspirador y fregasuelos, entre mopas giratorias y rodillos, bases y navegación.',
+    it: 'Dreame X50 Ultra Complete, Roborock Qrevo Curv 2 Flow, Ecovacs Deebot X8 Pro Omni, Narwal Freo Z Ultra e Dreame L40 Ultra: il nostro confronto 2026 dei robot aspirapolvere lavapavimenti, tra panni rotanti e rulli, stazioni e navigazione.',
+    nl: 'Dreame X50 Ultra Complete, Roborock Qrevo Curv 2 Flow, Ecovacs Deebot X8 Pro Omni, Narwal Freo Z Ultra en Dreame L40 Ultra: onze vergelijking 2026 van robotstofzuigers met dweilfunctie, van draaiende pads tot dweilrollen, stations en navigatie.',
   },
   content: {
-    fr: `<h2>Pourquoi choisir un robot aspirateur laveur en 2026 ?</h2>
-<p>Le robot aspirateur laveur est devenu la solution tout-en-un pour l'entretien des sols. Fini le temps où il fallait passer l'aspirateur puis la serpillère : en 2026, un seul appareil fait les deux simultanément, avec des résultats qui rivalisent avec un nettoyage manuel. La technologie a fait des bonds spectaculaires : serpillères rotatives à pression constante, lavage à eau chaude, détergent automatique et stations de maintenance tout-en-un.</p>
-<p>Ce comparatif met face à face les <strong>4 meilleurs robots aspirateurs laveurs du marché</strong> en 2026. Nous avons évalué chaque modèle sur l'aspiration, l'efficacité de lavage, les fonctionnalités de la station, la navigation, l'application et le rapport qualité-prix. Pour une vue d'ensemble complète des critères de choix, consultez notre <a href="/fr/blog/guide-robot-aspirateur-2026">guide complet robot aspirateur 2026</a>.</p>
+    fr: `<p><strong>Le meilleur robot aspirateur laveur en 2026 pour la plupart des foyers est le Dreame X50 Ultra Complete</strong> : aspiration très puissante, serpillère et brosse extensibles pour les bords, lavage des serpillères à eau chaude et un châssis capable de franchir de hauts seuils. Si vous avez surtout des sols durs et des taches collantes, le Roborock Qrevo Curv 2 Flow et son rouleau laveur est l’alternative la plus intéressante, et le Dreame L40 Ultra reste le choix le plus raisonnable pour un équipement complet en milieu de gamme.</p>
+<p>Ce comparatif s’appuie sur les fiches techniques des fabricants, des avis indépendants publiés et les retours d’acheteurs vérifiés. Il ne retient que des modèles vendus en Europe en 2026. Les chiffres d’aspiration et de température sont ceux annoncés par les marques : ils servent à situer les modèles entre eux, pas à prédire le résultat exact chez vous. Retrouvez toute la sélection sur notre page <a href="/fr/entretien-maison/aspirateurs-robots">aspirateurs robots</a>.</p>
 
-<h2>Tableau comparatif : les 4 meilleurs robots aspirateurs laveurs 2026</h2>
+<h2>Comment choisir un robot aspirateur laveur en 2026</h2>
+<p>Presque tous les modèles haut de gamme aspirent et lavent désormais en un seul passage. Les vraies différences se jouent sur cinq points.</p>
+<ul>
+<li><strong>Le système de lavage.</strong> Deux familles coexistent. Les <strong>serpillères rotatives</strong> (deux disques qui tournent en appuyant sur le sol) sont la norme depuis plusieurs années et peuvent souvent être déposées à la station pour aspirer les tapis. Les <strong>rouleaux laveurs</strong>, plus récents, sont arrosés en continu d’eau propre pendant que l’eau sale est raclée : le sol est donc lavé avec un rouleau qui reste plus propre tout au long du cycle.</li>
+<li><strong>La station.</strong> Une station complète vide le bac à poussière, remplit le réservoir, lave la serpillère à l’eau chaude, la sèche à l’air chaud et dose parfois le détergent. L’eau chaude sert surtout à nettoyer la serpillère dans la station, ce qui limite les mauvaises odeurs.</li>
+<li><strong>La gestion des tapis.</strong> Vérifiez la hauteur de soulèvement de la serpillère et la possibilité de la laisser à la station. Un soulèvement de 10 à 12 mm suffit pour les tapis ras, pas pour les tapis épais.</li>
+<li><strong>La navigation et l’évitement d’obstacles.</strong> Le LiDAR assure la cartographie ; une caméra ou de la lumière structurée en 3D permet d’éviter câbles, chaussettes et déjections d’animaux.</li>
+<li><strong>La hauteur et le franchissement.</strong> Un robot de plus de 10 cm ne passe pas sous beaucoup de meubles bas. Certains modèles rétractent leur tourelle LiDAR ou soulèvent leur châssis pour franchir les seuils.</li>
+</ul>
+
+<h2>Les 5 meilleurs robots aspirateurs laveurs en 2026</h2>
+
+<h3>1. Dreame X50 Ultra Complete : le meilleur choix global</h3>
+<p>Le Dreame X50 Ultra Complete annonce <strong>20 000 Pa d’aspiration</strong>, une brosse latérale et une serpillère rotative qui s’étendent vers les plinthes et sous les meubles, et une brosse principale conçue pour limiter l’enroulement des cheveux. Son système <strong>ProLeap</strong> lui permet, selon Dreame, de franchir des obstacles jusqu’à 6 cm, et sa tourelle LiDAR rétractable ramène sa hauteur à 8,9 cm pour passer sous les meubles bas.</p>
+<p><strong>Points forts :</strong> station très complète (vidage automatique, lavage des serpillères à 80 °C, séchage à air chaud), évitement d’obstacles par caméra RGB et lumière structurée 3D, autonomie annoncée jusqu’à 220 minutes. Les avis indépendants saluent surtout la couverture des bords et la polyvalence entre tapis et sols durs.</p>
+<p><strong>Limites :</strong> c’est un modèle premium, la station est volumineuse et l’application propose tant de réglages qu’elle demande un temps de prise en main.</p>
+<p><strong>Pour qui :</strong> les maisons avec seuils, tapis et sols durs mélangés, et ceux qui veulent un robot aussi autonome que possible.</p>
+
+<h3>2. Roborock Qrevo Curv 2 Flow : le rouleau laveur pour les sols durs</h3>
+<p>Le Roborock Qrevo Curv 2 Flow est le premier robot de la marque à utiliser un <strong>rouleau laveur</strong>. Son système SpiraFlow répartit l’eau propre par huit points d’arrosage sur un rouleau de 270 mm, tandis qu’un racloir retire l’eau sale en continu. Roborock annonce une pression de lavage nettement supérieure à celle de ses serpillères rotatives et une aspiration de <strong>20 000 Pa</strong>.</p>
+<p><strong>Points forts :</strong> rouleau qui reste propre pendant le passage, idéal pour les cuisines et les taches collantes ; station qui vide, remplit, lave le rouleau à l’eau chaude jusqu’à 75 °C et le sèche à l’air chaud ; compatibilité <strong>Matter</strong> pour l’intégration domotique ; application Roborock réputée claire.</p>
+<p><strong>Limites :</strong> sa tourelle LiDAR fixe le rend plus haut que les modèles à LiDAR rétractable, ce qui limite le passage sous certains meubles. Le rouleau est une pièce d’usure à surveiller.</p>
+<p><strong>Pour qui :</strong> les grands espaces de carrelage ou de vinyle, les cuisines ouvertes et les foyers avec enfants.</p>
+
+<h3>3. Ecovacs Deebot X8 Pro Omni : l’autre référence du rouleau</h3>
+<p>L’Ecovacs Deebot X8 Pro Omni mise aussi sur un rouleau, l’<strong>OZMO Roller</strong>, alimenté en eau propre par 16 buses et tournant à 200 tr/min. Il annonce <strong>18 000 Pa</strong> d’aspiration et une brosse anti-enroulement ZeroTangle 2.0.</p>
+<p><strong>Points forts :</strong> station OMNI qui ajuste la température de lavage du rouleau entre 40 et 75 °C selon la pièce et le niveau de saleté, séchage à air chaud et dosage automatique du détergent. Ecovacs met en avant un bac de lavage annoncé pour 150 jours sans entretien.</p>
+<p><strong>Limites :</strong> l’application ECOVACS HOME est jugée plus touffue que celle de Roborock par une partie des utilisateurs, et les consommables du rouleau sont propres à la marque.</p>
+<p><strong>Pour qui :</strong> ceux qui veulent un rouleau laveur avec une station très automatisée, notamment pour les sols durs étendus.</p>
+
+<h3>4. Narwal Freo Z Ultra : le spécialiste du lavage par serpillères</h3>
+<p>Narwal s’est fait connaître sur le lavage, et le Freo Z Ultra reste dans cette logique. Ses deux serpillères triangulaires appuient sur le sol avec une pression de 12 N à 180 tr/min, et sa technologie <strong>DirtSense</strong> analyse l’eau sale pour décider si une zone mérite un second passage. L’aspiration annoncée est de <strong>12 000 Pa</strong>.</p>
+<p><strong>Points forts :</strong> double caméra grand angle et double puce pour reconnaître environ 120 types d’obstacles, lavage des serpillères jusqu’à 75 °C puis séchage à 40 °C, soulèvement de la serpillère de 12 mm sur les tapis.</p>
+<p><strong>Limites :</strong> l’aspiration est en retrait des modèles précédents, ce qui compte sur les tapis épais ou avec beaucoup de poils d’animaux.</p>
+<p><strong>Pour qui :</strong> les logements surtout en sols durs, où le lavage compte plus que l’aspiration des tapis.</p>
+
+<h3>5. Dreame L40 Ultra : le meilleur rapport qualité-prix</h3>
+<p>Le Dreame L40 Ultra reprend une grande partie de l’équipement des modèles premium dans une gamme plus accessible. Il annonce <strong>11 000 Pa</strong>, une serpillère extensible MopExtend RoboSwing, une brosse latérale extensible et la possibilité de laisser ses serpillères à la station pour aspirer les tapis.</p>
+<p><strong>Points forts :</strong> station complète (vidage, remplissage, lavage des serpillères à 65 °C, séchage à air chaud), navigation LiDAR avec caméra RGB et lumière structurée 3D, autonomie annoncée jusqu’à 194 minutes. Les avis indépendants relèvent une application intuitive et un bon évitement des obstacles.</p>
+<p><strong>Limites :</strong> le soulèvement de serpillère de 10,5 mm reste modeste, un cycle complet prend du temps et la station demande de la place.</p>
+<p><strong>Pour qui :</strong> un appartement ou une maison de taille moyenne, pour profiter d’une station complète sans viser le très haut de gamme.</p>
+
+<h2>Tableau comparatif des robots aspirateurs laveurs 2026</h2>
 <table>
 <thead>
-<tr><th>Critère</th><th>Roborock S8 MaxV Ultra</th><th>Dreame X40 Ultra</th><th>Ecovacs X5 Omni</th><th>Xiaomi X20 Max</th></tr>
+<tr><th>Modèle</th><th>Aspiration annoncée</th><th>Système de lavage</th><th>Lavage à la station</th><th>Point distinctif</th><th>Idéal pour</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Aspiration</strong></td><td>10 000 Pa</td><td>12 000 Pa</td><td>12 800 Pa</td><td>8 000 Pa</td></tr>
-<tr><td><strong>Système serpillère</strong></td><td>Vibrante (4 000 vib/min)</td><td>Rotative double + bras extensible</td><td>Rotative double OZMO Turbo</td><td>Rotative double</td></tr>
-<tr><td><strong>Eau chaude</strong></td><td>Oui (60 °C)</td><td>Oui (70 °C)</td><td>Oui (70 °C)</td><td>Non</td></tr>
-<tr><td><strong>Auto-détergent</strong></td><td>Oui</td><td>Oui</td><td>Oui</td><td>Non</td></tr>
-<tr><td><strong>Séchage air chaud</strong></td><td>Oui (2h)</td><td>Oui (2h)</td><td>Oui (3h)</td><td>Non</td></tr>
-<tr><td><strong>Rétraction serpillère</strong></td><td>Oui (soulèvement 20 mm)</td><td>Oui (soulèvement 10,5 mm)</td><td>Oui (soulèvement 15 mm)</td><td>Oui (soulèvement 10 mm)</td></tr>
-<tr><td><strong>Navigation</strong></td><td>LiDAR + caméra IA</td><td>LiDAR + caméra IA</td><td>LiDAR + caméra IA</td><td>LiDAR + caméra</td></tr>
-<tr><td><strong>Autonomie</strong></td><td>180 min</td><td>210 min</td><td>200 min</td><td>150 min</td></tr>
-<tr><td><strong>Matter</strong></td><td>Oui</td><td>Oui</td><td>Non</td><td>Oui</td></tr>
-<tr><td><strong>Prix</strong></td><td>~800 €</td><td>~1 200 €</td><td>~950 €</td><td>~450 €</td></tr>
-<tr><td><strong>Note /10</strong></td><td>9,2</td><td>9,5</td><td>8,8</td><td>8,3</td></tr>
+<tr><td>Dreame X50 Ultra Complete</td><td>20 000 Pa</td><td>Serpillères rotatives, extensibles</td><td>Eau chaude 80 °C + séchage</td><td>Franchit jusqu’à 6 cm, LiDAR rétractable</td><td>Maison polyvalente</td></tr>
+<tr><td>Roborock Qrevo Curv 2 Flow</td><td>20 000 Pa</td><td>Rouleau SpiraFlow 270 mm</td><td>Eau chaude jusqu’à 75 °C + séchage</td><td>Rouleau nettoyé en continu, Matter</td><td>Grands sols durs, cuisine</td></tr>
+<tr><td>Ecovacs Deebot X8 Pro Omni</td><td>18 000 Pa</td><td>Rouleau OZMO Roller</td><td>40 à 75 °C adaptatif + séchage</td><td>Dosage automatique du détergent</td><td>Sols durs étendus</td></tr>
+<tr><td>Narwal Freo Z Ultra</td><td>12 000 Pa</td><td>Serpillères triangulaires 12 N</td><td>Jusqu’à 75 °C + séchage 40 °C</td><td>DirtSense, double caméra</td><td>Priorité au lavage</td></tr>
+<tr><td>Dreame L40 Ultra</td><td>11 000 Pa</td><td>Serpillères rotatives, MopExtend</td><td>Eau chaude 65 °C + séchage</td><td>Équipement complet en milieu de gamme</td><td>Meilleur rapport qualité-prix</td></tr>
 </tbody>
 </table>
 
-<h2>Roborock S8 MaxV Ultra : le meilleur rapport qualité-prix haut de gamme</h2>
-<h3>Points forts</h3>
-<p>Le Roborock S8 MaxV Ultra est le modèle le plus équilibré de ce comparatif. Avec ses <strong>10 000 Pa d'aspiration</strong>, il vient à bout de toutes les poussières, miettes et poils d'animaux sur tous les types de sols. Sa serpillère vibrante à 4 000 vibrations par minute offre un nettoyage humide convaincant, même si elle n'atteint pas tout à fait l'efficacité des serpillères rotatives sur les taches incrustées.</p>
-<p>La station multifonction est un modèle du genre : vidage automatique, lavage des serpillères à eau chaude (60 °C), séchage à air chaud en 2 heures, et injection automatique de détergent. L'application Roborock Home est la plus intuitive du marché : cartographie 3D, gestion multi-étages, programmation par pièce, et la compatibilité <strong>Matter</strong> assure la pérennité de l'intégration domotique.</p>
-<p>Le système ReactiveAI 2.0 avec caméra frontale détecte et contourne les obstacles avec une précision impressionnante : câbles, chaussures, jouets et même les déjections d'animaux sont identifiés et évités.</p>
-
-<h3>Points faibles</h3>
-<p>La serpillère vibrante, bien qu'efficace, est moins performante que les serpillères rotatives sur les taches séchées (sauce tomate, café). Le soulèvement de serpillère de 20 mm est excellent pour protéger les tapis, mais le robot ne va pas laver dans les angles aussi efficacement que le Dreame X40 Ultra avec son bras extensible. Le design reste classique (forme ronde) sans innovation majeure sur le plan esthétique.</p>
-
-<h3>Notre verdict</h3>
-<p><strong>Note : 9,2/10</strong> — Le choix idéal si vous cherchez un robot aspirateur laveur haut de gamme fiable sans dépasser 800 €. L'application et le SAV Roborock sont les meilleurs du marché.</p>
-
-<h2>Dreame X40 Ultra : le plus innovant et le plus puissant</h2>
-<h3>Points forts</h3>
-<p>Le Dreame X40 Ultra domine ce comparatif sur la puissance brute avec <strong>12 000 Pa d'aspiration</strong> — un record dans cette catégorie. Mais son véritable atout est son <strong>bras extensible</strong> (MopExtend RoboSwing) qui permet à la serpillère rotative d'atteindre les plinthes, les angles et les zones sous les meubles bas que les autres robots ne peuvent pas nettoyer.</p>
-<p>Le lavage à eau chaude à 70 °C est le plus chaud du marché, garantissant une désinfection efficace. La station tout-en-un gère le vidage, le lavage, le séchage à air chaud et l'injection de détergent de manière totalement autonome. La navigation LiDAR couplée à une caméra IA offre une cartographie rapide et une détection d'obstacles de premier ordre.</p>
-<p>Avec 210 minutes d'autonomie, le X40 Ultra couvre sans problème des maisons de 200 m² et plus. La compatibilité Matter est un plus pour l'intégration dans les écosystèmes Apple Home, Google Home et Amazon Alexa.</p>
-
-<h3>Points faibles</h3>
-<p>Le prix de ~1 200 € est le plus élevé de ce comparatif. L'application Dreamehome, bien que fonctionnelle, est moins intuitive que celle de Roborock — certains menus sont peu ergonomiques. Le SAV Dreame en France est encore perfectible, avec des délais de réponse parfois longs. La station est également volumineuse : prévoyez un espace conséquent.</p>
-
-<h3>Notre verdict</h3>
-<p><strong>Note : 9,5/10</strong> — Le meilleur robot aspirateur laveur de 2026 si le budget n'est pas une contrainte. Le bras extensible et la puissance d'aspiration en font un modèle sans compromis.</p>
-
-<h2>Ecovacs X5 Omni : le design premium</h2>
-<h3>Points forts</h3>
-<p>L'Ecovacs X5 Omni se distingue par son <strong>aspiration record de 12 800 Pa</strong> et son design carré unique qui lui permet d'atteindre les angles plus efficacement que les robots ronds. Le système OZMO Turbo avec deux serpillères rotatives à pression constante offre un lavage efficace, et le lavage à eau chaude à 70 °C assure une hygiène optimale.</p>
-<p>La station est complète : vidage automatique, lavage à eau chaude, séchage (en 3 heures toutefois) et auto-détergent. L'autonomie de 200 minutes est confortable, et la navigation LiDAR + caméra IA (AIVI 3D 3.0) est parmi les plus avancées du marché.</p>
-
-<h3>Points faibles</h3>
-<p>L'absence de compatibilité <strong>Matter</strong> est un handicap pour la pérennité domotique — vous dépendez du cloud Ecovacs. L'application ECOVACS HOME peut être instable (déconnexions occasionnelles) et le séchage à air chaud prend 3 heures, soit une heure de plus que la concurrence. Les prix Ecovacs fluctuent beaucoup selon les périodes promotionnelles, ce qui peut être frustrant.</p>
-
-<h3>Notre verdict</h3>
-<p><strong>Note : 8,8/10</strong> — Un excellent robot aspirateur laveur pénalisé par l'absence de Matter et une application perfectible. Le design carré est un vrai avantage pour les angles.</p>
-
-<h2>Xiaomi X20 Max : le meilleur rapport qualité-prix</h2>
-<h3>Points forts</h3>
-<p>Le Xiaomi X20 Max est la bonne surprise de ce comparatif. À <strong>~450 €</strong>, il offre des prestations que l'on trouvait à 800 € il y a un an. L'aspiration de 8 000 Pa est suffisante pour la plupart des foyers, et la serpillère rotative double assure un lavage correct sur sols durs. La navigation LiDAR + caméra est précise, et la compatibilité Matter dès la sortie est un atout rare à ce prix.</p>
-<p>L'intégration dans l'écosystème Xiaomi Home est parfaite si vous possédez déjà des produits Xiaomi. L'application Mi Home / Xiaomi Home est complète et régulièrement mise à jour.</p>
-
-<h3>Points faibles</h3>
-<p>Pas de lavage à eau chaude, pas d'auto-détergent, pas de séchage à air chaud — la station est fonctionnelle mais basique (vidage automatique uniquement). L'autonomie de 150 minutes est correcte mais limitante pour les grandes surfaces. La puissance d'aspiration de 8 000 Pa peut montrer ses limites sur les tapis épais ou avec beaucoup de poils d'animaux. Le soulèvement de serpillère de 10 mm est le plus bas de ce comparatif.</p>
-
-<h3>Notre verdict</h3>
-<p><strong>Note : 8,3/10</strong> — Le choix malin pour un premier robot aspirateur laveur de qualité sans se ruiner. Parfait pour un appartement sur sols durs.</p>
-
-<h2>Quel robot aspirateur laveur choisir ? Notre verdict final</h2>
-<p>Le choix du meilleur robot aspirateur laveur dépend de votre budget et de vos priorités :</p>
+<h2>Les erreurs à éviter</h2>
 <ul>
-<li><strong>Meilleur global :</strong> Dreame X40 Ultra — le plus puissant, le plus innovant (bras extensible), le plus complet. À choisir si le budget le permet.</li>
-<li><strong>Meilleur rapport qualité-prix haut de gamme :</strong> Roborock S8 MaxV Ultra — le plus fiable, la meilleure application, un excellent compromis à 800 €.</li>
-<li><strong>Meilleur design :</strong> Ecovacs X5 Omni — le format carré est un vrai avantage, mais l'absence de Matter est regrettable.</li>
-<li><strong>Meilleur budget :</strong> Xiaomi X20 Max — des performances solides à 450 €, parfait pour débuter.</li>
+<li><strong>Choisir sur les seuls pascals.</strong> Au-delà de 10 000 Pa, la brosse, l’étanchéité du robot et l’anti-enroulement comptent autant que la puissance annoncée.</li>
+<li><strong>Oublier la place de la station.</strong> Une station complète occupe un vrai volume au sol et doit rester accessible pour vider l’eau sale et remplacer le sac.</li>
+<li><strong>Négliger les tapis épais.</strong> Un soulèvement de 10 à 12 mm ne protège pas un tapis à poils longs : préférez un modèle qui dépose ses serpillères à la station, ou créez une zone interdite au lavage.</li>
+<li><strong>Utiliser n’importe quel produit.</strong> Les stations à dosage automatique sont conçues pour le détergent de la marque. Un produit moussant ou trop concentré peut encrasser les circuits.</li>
+<li><strong>Ignorer les consommables.</strong> Sacs de station, filtres, brosses, serpillères ou rouleaux se remplacent régulièrement. Vérifiez leur disponibilité avant d’acheter.</li>
 </ul>
-<p>Pour un guide complet sur les critères de choix d'un robot aspirateur, consultez notre <a href="/fr/blog/guide-robot-aspirateur-2026">guide pilier robot aspirateur 2026</a>. Si vous avez des animaux de compagnie, notre article dédié aux <a href="/fr/blog/robot-aspirateur-poils-animaux">robots aspirateurs pour poils d'animaux</a> vous aidera à affiner votre choix.</p>
 
-<h2>Conseils d'achat : ce qu'il faut vérifier avant de commander</h2>
+<h2>Utilisation et entretien au quotidien</h2>
 <ul>
-<li><strong>Mesurez la hauteur de vos meubles :</strong> les robots mesurent 9,5-10,5 cm. Si vos meubles bas font moins de 11 cm, le robot ne passera pas dessous.</li>
-<li><strong>Vérifiez le coût des consommables :</strong> sacs de station (3-5 €/sac), serpillères (10-20 € la paire), filtres HEPA (10-20 €). Comptez 50-100 € par an.</li>
-<li><strong>Privilégiez Matter :</strong> ce protocole garantit que votre robot restera compatible avec votre écosystème domotique dans les années à venir.</li>
-<li><strong>Attendez les promotions :</strong> les prix des robots aspirateurs laveurs baissent fortement lors du Black Friday, du Prime Day et des soldes. Des réductions de 20-35 % sont courantes.</li>
-<li><strong>Station compacte ou complète :</strong> les stations tout-en-un (lavage + séchage + détergent) sont volumineuses (40 x 45 x 55 cm en moyenne). Assurez-vous d'avoir la place.</li>
-</ul>`,
+<li><strong>Parquet :</strong> réglez le débit d’eau au minimum sur un parquet vitrifié ou stratifié, et évitez le lavage sur un parquet huilé ou ciré sans l’accord du fabricant du revêtement.</li>
+<li><strong>Première cartographie :</strong> rangez câbles et petits objets, ouvrez les portes et laissez le robot cartographier tout le logement avant de définir pièces et zones interdites.</li>
+<li><strong>Hygiène :</strong> videz et rincez le bac d’eau sale régulièrement, même si la station sèche la serpillère. C’est la première source d’odeurs signalée par les utilisateurs.</li>
+<li><strong>Sécurité :</strong> branchez la station sur une prise en bon état, sans multiprise surchargée, et tenez-la à l’écart des projections d’eau. Si vous avez des animaux, notre guide des <a href="/fr/blog/robot-aspirateur-poils-animaux">robots aspirateurs pour poils d’animaux</a> détaille les réglages utiles.</li>
+</ul>
 
-    en: `<h2>Why choose a robot vacuum mop combo in 2026?</h2>
-<p>The robot vacuum mop combo has become the ultimate all-in-one floor-care solution. Gone are the days of vacuuming first and mopping second: in 2026, a single device does both simultaneously, delivering results that rival manual cleaning. Technology has advanced dramatically: rotary mop pads with constant pressure, hot-water mopping, automatic detergent dispensing, and all-in-one maintenance stations.</p>
-<p>This comparison pits the <strong>4 best robot vacuum mop combos on the market</strong> in 2026 against each other. We evaluated each model on suction, mopping effectiveness, station features, navigation, app quality, and value for money. For a comprehensive overview of all selection criteria, see our <a href="/en/blog/guide-robot-aspirateur-2026">complete robot vacuum guide 2026</a>.</p>
+<h2>Notre verdict</h2>
+<p>Pour la majorité des foyers, le <strong>Dreame X50 Ultra Complete</strong> est le robot aspirateur laveur le plus complet de 2026 : puissant, agile sur les seuils et très autonome. Si votre priorité est le lavage de grandes surfaces de sols durs, le <strong>Roborock Qrevo Curv 2 Flow</strong> et son rouleau nettoyé en continu sont plus adaptés, avec l’<strong>Ecovacs Deebot X8 Pro Omni</strong> comme alternative directe. Le <strong>Narwal Freo Z Ultra</strong> conviendra à ceux qui privilégient le lavage, et le <strong>Dreame L40 Ultra</strong> offre l’essentiel d’une station complète dans une gamme plus accessible.</p>
+<p>Pour comprendre tous les critères de choix, y compris les robots sans fonction lavage, consultez notre <a href="/fr/blog/guide-robot-aspirateur-2026">guide complet du robot aspirateur 2026</a>.</p>`,
 
-<h2>Comparison table: the 4 best robot vacuum mop combos 2026</h2>
+    en: `<p><strong>The best robot vacuum mop combo in 2026 for most homes is the Dreame X50 Ultra Complete</strong>: very strong suction, an extending mop and side brush for edges, hot-water mop washing and a chassis that can climb high thresholds. If you mostly have hard floors and sticky spills, the Roborock Qrevo Curv 2 Flow with its roller mop is the most interesting alternative, and the Dreame L40 Ultra remains the sensible choice for a fully equipped mid-range robot.</p>
+<p>This comparison is based on manufacturer specifications, published independent reviews and verified buyer feedback. It only includes models sold in Europe in 2026. Suction and temperature figures are the ones announced by the brands: they help position the models against each other, not predict the exact result in your home. You can find the full selection on our <a href="/en/entretien-maison/aspirateurs-robots">robot vacuums</a> page.</p>
+
+<h2>How to choose a robot vacuum mop combo in 2026</h2>
+<p>Almost every premium model now vacuums and mops in a single pass. The real differences come down to five points.</p>
+<ul>
+<li><strong>The mopping system.</strong> Two families coexist. <strong>Rotating mop pads</strong> (two discs spinning while pressing on the floor) have been the norm for several years and can often be left at the dock so the robot can vacuum rugs. <strong>Roller mops</strong>, more recent, are fed continuously with clean water while dirty water is scraped away, so the floor is cleaned with a roller that stays cleaner throughout the run.</li>
+<li><strong>The dock.</strong> A full dock empties the dustbin, refills the tank, washes the mop with hot water, dries it with warm air and sometimes doses detergent. Hot water is mainly used to clean the mop inside the dock, which helps prevent odours.</li>
+<li><strong>Rug handling.</strong> Check the mop lift height and whether the mops can stay at the dock. A 10 to 12 mm lift is fine for low-pile rugs, not for thick ones.</li>
+<li><strong>Navigation and obstacle avoidance.</strong> LiDAR handles mapping; a camera or 3D structured light lets the robot avoid cables, socks and pet waste.</li>
+<li><strong>Height and climbing.</strong> A robot taller than 10 cm will not fit under many low pieces of furniture. Some models retract their LiDAR turret or raise their chassis to climb thresholds.</li>
+</ul>
+
+<h2>The 5 best robot vacuum mop combos in 2026</h2>
+
+<h3>1. Dreame X50 Ultra Complete: best overall</h3>
+<p>The Dreame X50 Ultra Complete claims <strong>20,000 Pa of suction</strong>, a side brush and rotating mop that extend towards skirting boards and under furniture, and a main brush designed to reduce hair tangling. According to Dreame, its <strong>ProLeap</strong> system climbs obstacles up to 6 cm, and its retractable LiDAR turret brings its height down to 8.9 cm to slip under low furniture.</p>
+<p><strong>Strengths:</strong> a very complete dock (auto-empty, 80 °C mop washing, warm-air drying), obstacle avoidance using an RGB camera and 3D structured light, and a claimed runtime of up to 220 minutes. Independent reviews mainly praise its edge coverage and its versatility across rugs and hard floors.</p>
+<p><strong>Limits:</strong> it is a premium model, the dock is bulky, and the app offers so many settings that it takes time to learn.</p>
+<p><strong>Best for:</strong> homes with thresholds and a mix of rugs and hard floors, and anyone who wants the most hands-off robot possible.</p>
+
+<h3>2. Roborock Qrevo Curv 2 Flow: the roller mop for hard floors</h3>
+<p>The Roborock Qrevo Curv 2 Flow is the brand’s first robot with a <strong>roller mop</strong>. Its SpiraFlow system spreads clean water through eight outlets onto a 270 mm roller, while a scraper removes dirty water continuously. Roborock claims much higher mopping pressure than its rotating pads and <strong>20,000 Pa</strong> of suction.</p>
+<p><strong>Strengths:</strong> a roller that stays clean during the run, ideal for kitchens and sticky stains; a dock that empties, refills, washes the roller with hot water up to 75 °C and dries it with warm air; <strong>Matter</strong> support for smart home integration; and a Roborock app known for being clear.</p>
+<p><strong>Limits:</strong> its fixed LiDAR turret makes it taller than models with a retractable LiDAR, which limits access under some furniture. The roller is a wear part to keep an eye on.</p>
+<p><strong>Best for:</strong> large areas of tile or vinyl, open-plan kitchens and family homes.</p>
+
+<h3>3. Ecovacs Deebot X8 Pro Omni: the other roller reference</h3>
+<p>The Ecovacs Deebot X8 Pro Omni also relies on a roller, the <strong>OZMO Roller</strong>, fed with clean water by 16 nozzles and spinning at 200 rpm. It claims <strong>18,000 Pa</strong> of suction and a ZeroTangle 2.0 anti-tangle brush.</p>
+<p><strong>Strengths:</strong> an OMNI dock that adjusts the roller washing temperature between 40 and 75 °C depending on the room and how dirty it is, warm-air drying and automatic detergent dosing. Ecovacs highlights a washing tray rated for 150 days without maintenance.</p>
+<p><strong>Limits:</strong> some users find the ECOVACS HOME app busier than Roborock’s, and the roller consumables are brand-specific.</p>
+<p><strong>Best for:</strong> buyers who want a roller mop with a highly automated dock, especially for large hard floors.</p>
+
+<h3>4. Narwal Freo Z Ultra: the mopping specialist with pads</h3>
+<p>Narwal built its reputation on mopping, and the Freo Z Ultra follows the same logic. Its two triangular mop pads press on the floor with 12 N of pressure at 180 rpm, and its <strong>DirtSense</strong> technology analyses the dirty water to decide whether an area needs a second pass. Claimed suction is <strong>12,000 Pa</strong>.</p>
+<p><strong>Strengths:</strong> dual wide-angle cameras and dual chips to recognise around 120 types of obstacles, mop washing up to 75 °C followed by 40 °C drying, and a 12 mm mop lift on rugs.</p>
+<p><strong>Limits:</strong> suction is behind the models above, which matters on thick rugs or with lots of pet hair.</p>
+<p><strong>Best for:</strong> homes with mainly hard floors, where mopping matters more than rug cleaning.</p>
+
+<h3>5. Dreame L40 Ultra: best value</h3>
+<p>The Dreame L40 Ultra brings much of the premium equipment to a more accessible tier. It claims <strong>11,000 Pa</strong>, a MopExtend RoboSwing extending mop, an extending side brush and the option to leave its mops at the dock to vacuum rugs.</p>
+<p><strong>Strengths:</strong> a full dock (emptying, refilling, 65 °C mop washing, warm-air drying), LiDAR navigation with an RGB camera and 3D structured light, and a claimed runtime of up to 194 minutes. Independent reviews note an intuitive app and good obstacle avoidance.</p>
+<p><strong>Limits:</strong> the 10.5 mm mop lift is modest, a full cycle takes time and the dock needs space.</p>
+<p><strong>Best for:</strong> a flat or medium-sized house, to get a full-featured dock without going top of the range.</p>
+
+<h2>Comparison table of robot vacuum mop combos 2026</h2>
 <table>
 <thead>
-<tr><th>Criterion</th><th>Roborock S8 MaxV Ultra</th><th>Dreame X40 Ultra</th><th>Ecovacs X5 Omni</th><th>Xiaomi X20 Max</th></tr>
+<tr><th>Model</th><th>Claimed suction</th><th>Mopping system</th><th>Dock washing</th><th>Standout feature</th><th>Best for</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Suction</strong></td><td>10,000 Pa</td><td>12,000 Pa</td><td>12,800 Pa</td><td>8,000 Pa</td></tr>
-<tr><td><strong>Mop system</strong></td><td>Vibrating (4,000 vib/min)</td><td>Dual rotary + extendable arm</td><td>Dual rotary OZMO Turbo</td><td>Dual rotary</td></tr>
-<tr><td><strong>Hot water</strong></td><td>Yes (60 °C)</td><td>Yes (70 °C)</td><td>Yes (70 °C)</td><td>No</td></tr>
-<tr><td><strong>Auto detergent</strong></td><td>Yes</td><td>Yes</td><td>Yes</td><td>No</td></tr>
-<tr><td><strong>Hot-air drying</strong></td><td>Yes (2h)</td><td>Yes (2h)</td><td>Yes (3h)</td><td>No</td></tr>
-<tr><td><strong>Mop lift</strong></td><td>Yes (20 mm lift)</td><td>Yes (10.5 mm lift)</td><td>Yes (15 mm lift)</td><td>Yes (10 mm lift)</td></tr>
-<tr><td><strong>Navigation</strong></td><td>LiDAR + AI camera</td><td>LiDAR + AI camera</td><td>LiDAR + AI camera</td><td>LiDAR + camera</td></tr>
-<tr><td><strong>Battery life</strong></td><td>180 min</td><td>210 min</td><td>200 min</td><td>150 min</td></tr>
-<tr><td><strong>Matter</strong></td><td>Yes</td><td>Yes</td><td>No</td><td>Yes</td></tr>
-<tr><td><strong>Price</strong></td><td>~$800 / £700</td><td>~$1,200 / £1,050</td><td>~$950 / £830</td><td>~$450 / £400</td></tr>
-<tr><td><strong>Score /10</strong></td><td>9.2</td><td>9.5</td><td>8.8</td><td>8.3</td></tr>
+<tr><td>Dreame X50 Ultra Complete</td><td>20,000 Pa</td><td>Rotating pads, extending</td><td>80 °C hot water + drying</td><td>Climbs up to 6 cm, retractable LiDAR</td><td>Versatile homes</td></tr>
+<tr><td>Roborock Qrevo Curv 2 Flow</td><td>20,000 Pa</td><td>SpiraFlow 270 mm roller</td><td>Hot water up to 75 °C + drying</td><td>Roller cleaned continuously, Matter</td><td>Large hard floors, kitchens</td></tr>
+<tr><td>Ecovacs Deebot X8 Pro Omni</td><td>18,000 Pa</td><td>OZMO Roller</td><td>Adaptive 40 to 75 °C + drying</td><td>Automatic detergent dosing</td><td>Large hard floors</td></tr>
+<tr><td>Narwal Freo Z Ultra</td><td>12,000 Pa</td><td>Triangular pads, 12 N</td><td>Up to 75 °C + 40 °C drying</td><td>DirtSense, dual cameras</td><td>Mopping first</td></tr>
+<tr><td>Dreame L40 Ultra</td><td>11,000 Pa</td><td>Rotating pads, MopExtend</td><td>65 °C hot water + drying</td><td>Full kit in the mid-range</td><td>Best value</td></tr>
 </tbody>
 </table>
 
-<h2>Roborock S8 MaxV Ultra: best value in the premium segment</h2>
-<h3>Strengths</h3>
-<p>The Roborock S8 MaxV Ultra is the most balanced model in this comparison. With <strong>10,000 Pa of suction</strong>, it handles all types of dust, crumbs, and pet hair across every floor surface. Its vibrating mop pad at 4,000 vibrations per minute delivers convincing wet cleaning, though it does not quite match rotary mops on dried-on stains.</p>
-<p>The multi-function station is a class leader: auto-empty, hot-water mop washing (60 °C), hot-air drying in 2 hours, and automatic detergent dispensing. The Roborock Home app is the most intuitive on the market: 3D mapping, multi-floor management, room-by-room scheduling, and <strong>Matter</strong> support ensures long-term smart home compatibility.</p>
-<p>The ReactiveAI 2.0 system with front camera detects and avoids obstacles with impressive accuracy: cables, shoes, toys, and even pet waste are identified and skirted around.</p>
-
-<h3>Weaknesses</h3>
-<p>The vibrating mop, while effective, underperforms rotary mops on dried stains (tomato sauce, coffee). The 20 mm mop lift is excellent for protecting carpets, but the robot cannot mop into corners as effectively as the Dreame X40 Ultra with its extending arm. The design remains a standard round form without major aesthetic innovation.</p>
-
-<h3>Our verdict</h3>
-<p><strong>Score: 9.2/10</strong> — The ideal choice for a reliable premium robot vacuum mop combo without exceeding $800. Roborock's app and after-sales support are the best in the industry.</p>
-
-<h2>Dreame X40 Ultra: the most innovative and powerful</h2>
-<h3>Strengths</h3>
-<p>The Dreame X40 Ultra leads this comparison in raw power with <strong>12,000 Pa of suction</strong> — a record in this category. But its true standout feature is its <strong>extendable arm</strong> (MopExtend RoboSwing), which allows the rotary mop to reach baseboards, corners, and areas under low furniture that other robots simply cannot clean.</p>
-<p>Hot-water mopping at 70 °C is the highest temperature on the market, ensuring effective sanitisation. The all-in-one station handles emptying, washing, hot-air drying, and detergent dispensing in a fully autonomous cycle. LiDAR navigation paired with an AI camera delivers rapid mapping and first-rate obstacle detection.</p>
-<p>With 210 minutes of battery life, the X40 Ultra comfortably covers homes of 200 m² (2,150 sq ft) and beyond. Matter compatibility is a bonus for integration into Apple Home, Google Home, and Amazon Alexa ecosystems.</p>
-
-<h3>Weaknesses</h3>
-<p>The ~$1,200 price tag is the highest in this comparison. The Dreamehome app, while functional, is less intuitive than Roborock's — some menu structures are clunky. Dreame's customer service outside Asia still has room for improvement, with response times occasionally running long. The station is also bulky: plan for a generous amount of space.</p>
-
-<h3>Our verdict</h3>
-<p><strong>Score: 9.5/10</strong> — The best robot vacuum mop combo of 2026 if budget is not a constraint. The extendable arm and suction power make it a no-compromise model.</p>
-
-<h2>Ecovacs X5 Omni: the premium design pick</h2>
-<h3>Strengths</h3>
-<p>The Ecovacs X5 Omni stands out with its <strong>record 12,800 Pa suction</strong> and unique square design that reaches corners more effectively than round robots. The OZMO Turbo system with dual rotary mops delivers effective cleaning at constant pressure, and hot-water washing at 70 °C ensures optimal hygiene.</p>
-<p>The station is comprehensive: auto-empty, hot-water washing, drying (though it takes 3 hours), and auto-detergent. The 200-minute battery life is comfortable, and the LiDAR + AI camera navigation (AIVI 3D 3.0) is among the most advanced available.</p>
-
-<h3>Weaknesses</h3>
-<p>The lack of <strong>Matter</strong> support is a drawback for long-term smart home compatibility — you are tied to Ecovacs' cloud. The ECOVACS HOME app can be unstable (occasional disconnections), and hot-air drying takes 3 hours, one hour longer than competitors. Ecovacs prices also fluctuate significantly during promotional periods, which can be frustrating for buyers.</p>
-
-<h3>Our verdict</h3>
-<p><strong>Score: 8.8/10</strong> — An excellent robot vacuum mop combo held back by the absence of Matter and an unpolished app. The square design is a genuine advantage for corners.</p>
-
-<h2>Xiaomi X20 Max: best value for money</h2>
-<h3>Strengths</h3>
-<p>The Xiaomi X20 Max is the pleasant surprise of this comparison. At <strong>~$450</strong>, it delivers performance that cost $800 a year ago. Its 8,000 Pa suction is sufficient for most households, and the dual rotary mop provides adequate wet cleaning on hard floors. LiDAR + camera navigation is accurate, and Matter compatibility out of the box is rare at this price.</p>
-<p>Integration into the Xiaomi Home ecosystem is seamless if you already own Xiaomi products. The Xiaomi Home app is feature-rich and regularly updated.</p>
-
-<h3>Weaknesses</h3>
-<p>No hot-water washing, no auto-detergent, no hot-air drying — the station is functional but basic (auto-empty only). The 150-minute battery life is adequate but limiting for large homes. The 8,000 Pa suction may struggle on thick carpets or with heavy pet hair. The 10 mm mop lift is the lowest in this comparison.</p>
-
-<h3>Our verdict</h3>
-<p><strong>Score: 8.3/10</strong> — The smart pick for a quality first robot vacuum mop combo without breaking the bank. Perfect for a hard-floor apartment.</p>
-
-<h2>Which robot vacuum mop combo should you buy? Our final verdict</h2>
-<p>The best robot vacuum mop combo depends on your budget and priorities:</p>
+<h2>Mistakes to avoid</h2>
 <ul>
-<li><strong>Best overall:</strong> Dreame X40 Ultra — the most powerful, the most innovative (extendable arm), the most complete. Choose this if budget allows.</li>
-<li><strong>Best premium value:</strong> Roborock S8 MaxV Ultra — the most reliable, the best app, an excellent compromise at $800.</li>
-<li><strong>Best design:</strong> Ecovacs X5 Omni — the square form is a real advantage, but the lack of Matter is regrettable.</li>
-<li><strong>Best budget:</strong> Xiaomi X20 Max — solid performance at $450, perfect for getting started.</li>
+<li><strong>Choosing on pascals alone.</strong> Beyond 10,000 Pa, the brush, the robot’s sealing and anti-tangle design matter as much as the claimed power.</li>
+<li><strong>Forgetting the dock’s footprint.</strong> A full dock takes real floor space and must stay accessible to empty dirty water and replace the bag.</li>
+<li><strong>Overlooking thick rugs.</strong> A 10 to 12 mm lift does not protect a high-pile rug: choose a model that leaves its mops at the dock, or set a no-mop zone.</li>
+<li><strong>Using any cleaning product.</strong> Docks with automatic dosing are designed for the brand’s own detergent. A foaming or overly concentrated product can clog the system.</li>
+<li><strong>Ignoring consumables.</strong> Dock bags, filters, brushes, mop pads or rollers need regular replacement. Check they are easy to find before buying.</li>
 </ul>
-<p>For a comprehensive guide on how to choose a robot vacuum, see our <a href="/en/blog/guide-robot-aspirateur-2026">pillar guide to robot vacuums 2026</a>. If you have pets, our dedicated article on <a href="/en/blog/robot-aspirateur-poils-animaux">robot vacuums for pet hair</a> will help narrow your choice.</p>
 
-<h2>Buying tips: what to check before ordering</h2>
+<h2>Everyday use and maintenance</h2>
 <ul>
-<li><strong>Measure your furniture clearance:</strong> robots are 9.5-10.5 cm tall. If your lowest furniture is under 11 cm, the robot will not fit underneath.</li>
-<li><strong>Check consumable costs:</strong> station bags ($3-5 each), mop pads ($10-20/pair), HEPA filters ($10-20). Budget $50-100 per year.</li>
-<li><strong>Prioritise Matter:</strong> this protocol ensures your robot will remain compatible with your smart home ecosystem for years to come.</li>
-<li><strong>Wait for sales:</strong> robot vacuum mop prices drop significantly during Black Friday, Prime Day, and seasonal sales. Discounts of 20-35% are common.</li>
-<li><strong>Compact vs full station:</strong> all-in-one stations (wash + dry + detergent) are bulky (around 40 x 45 x 55 cm). Make sure you have the space.</li>
-</ul>`,
+<li><strong>Wooden floors:</strong> set the water flow to the minimum on sealed wood or laminate, and avoid mopping oiled or waxed wood unless the flooring manufacturer allows it.</li>
+<li><strong>First map:</strong> tidy cables and small objects, open the doors and let the robot map the whole home before you set rooms and no-go zones.</li>
+<li><strong>Hygiene:</strong> empty and rinse the dirty-water tank regularly, even if the dock dries the mop. It is the main source of odours reported by owners.</li>
+<li><strong>Safety:</strong> plug the dock into a socket in good condition, not an overloaded power strip, and keep it away from water splashes. If you have pets, our guide to <a href="/en/blog/robot-aspirateur-poils-animaux">robot vacuums for pet hair</a> covers the useful settings.</li>
+</ul>
 
-    de: `<h2>Warum einen Saugroboter mit Wischfunktion in 2026 wählen?</h2>
-<p>Der Saugroboter mit Wischfunktion ist zur ultimativen All-in-One-Lösung für die Bodenpflege geworden. Vorbei sind die Zeiten, in denen man erst saugen und dann wischen musste: 2026 erledigt ein einziges Gerät beides gleichzeitig, mit Ergebnissen, die der manuellen Reinigung Konkurrenz machen. Die Technologie hat spektakuläre Fortschritte gemacht: rotierende Wischpads mit konstantem Druck, Heißwasserwischen, automatische Reinigungsmitteldosierung und multifunktionale Wartungsstationen.</p>
-<p>Dieser Vergleich stellt die <strong>4 besten Saugroboter mit Wischfunktion 2026</strong> gegenüber. Wir haben jedes Modell hinsichtlich Saugleistung, Wischeffektivität, Stationsfunktionen, Navigation, App-Qualität und Preis-Leistungs-Verhältnis bewertet. Einen umfassenden Überblick über alle Auswahlkriterien finden Sie in unserem <a href="/de/blog/guide-robot-aspirateur-2026">kompletten Saugroboter-Ratgeber 2026</a>.</p>
+<h2>Our verdict</h2>
+<p>For most homes, the <strong>Dreame X50 Ultra Complete</strong> is the most complete robot vacuum mop combo of 2026: powerful, agile over thresholds and highly autonomous. If your priority is mopping large hard floors, the <strong>Roborock Qrevo Curv 2 Flow</strong> and its continuously cleaned roller are a better fit, with the <strong>Ecovacs Deebot X8 Pro Omni</strong> as a direct alternative. The <strong>Narwal Freo Z Ultra</strong> suits those who put mopping first, and the <strong>Dreame L40 Ultra</strong> delivers the essentials of a full dock in a more accessible tier.</p>
+<p>To understand every buying criterion, including robots without mopping, read our <a href="/en/blog/guide-robot-aspirateur-2026">complete robot vacuum guide 2026</a>.</p>`,
 
-<h2>Vergleichstabelle: Die 4 besten Saugroboter mit Wischfunktion 2026</h2>
+    de: `<p><strong>Der beste Saugroboter mit Wischfunktion 2026 für die meisten Haushalte ist der Dreame X50 Ultra Complete</strong>: sehr hohe Saugkraft, ausfahrbarer Wischmopp und Seitenbürste für Kanten, Heißwasser-Moppwäsche und ein Fahrwerk, das hohe Schwellen überwindet. Wer vor allem Hartböden und klebrige Flecken hat, findet im Roborock Qrevo Curv 2 Flow mit Wischwalze die spannendste Alternative, und der Dreame L40 Ultra bleibt die vernünftige Wahl für eine Komplettausstattung in der Mittelklasse.</p>
+<p>Dieser Vergleich stützt sich auf Herstellerangaben, veröffentlichte unabhängige Bewertungen und verifizierte Käuferstimmen. Berücksichtigt werden nur Modelle, die 2026 in Europa erhältlich sind. Saugkraft und Temperaturen sind Herstellerangaben: Sie helfen beim Einordnen der Modelle, sagen aber nicht das exakte Ergebnis bei Ihnen zu Hause voraus. Die komplette Auswahl finden Sie auf unserer Seite <a href="/de/entretien-maison/aspirateurs-robots">Saugroboter</a>.</p>
+
+<h2>So wählen Sie 2026 einen Saugroboter mit Wischfunktion</h2>
+<p>Fast alle Premium-Modelle saugen und wischen inzwischen in einem Durchgang. Die echten Unterschiede liegen in fünf Punkten.</p>
+<ul>
+<li><strong>Das Wischsystem.</strong> Es gibt zwei Bauarten. <strong>Rotierende Wischmopps</strong> (zwei Scheiben, die sich mit Anpressdruck drehen) sind seit Jahren Standard und lassen sich oft an der Station ablegen, damit der Roboter Teppiche saugen kann. <strong>Wischwalzen</strong> sind neuer: Sie werden ständig mit Frischwasser versorgt, während Schmutzwasser abgestreift wird. So wischt der Roboter mit einer Walze, die während des ganzen Durchgangs sauberer bleibt.</li>
+<li><strong>Die Station.</strong> Eine Komplettstation leert den Staubbehälter, füllt den Tank nach, wäscht den Mopp mit heißem Wasser, trocknet ihn mit Warmluft und dosiert teils Reinigungsmittel. Das heiße Wasser dient vor allem der Moppreinigung in der Station und beugt Gerüchen vor.</li>
+<li><strong>Umgang mit Teppichen.</strong> Prüfen Sie die Mopp-Anhebung und ob die Mopps in der Station bleiben können. 10 bis 12 mm reichen für Kurzflor, nicht für dicke Teppiche.</li>
+<li><strong>Navigation und Hinderniserkennung.</strong> LiDAR übernimmt die Kartierung; eine Kamera oder 3D-strukturiertes Licht lässt den Roboter Kabeln, Socken und Tierkot ausweichen.</li>
+<li><strong>Höhe und Kletterfähigkeit.</strong> Ein Roboter über 10 cm passt unter viele niedrige Möbel nicht. Manche Modelle versenken ihren LiDAR-Turm oder heben das Fahrwerk an, um Schwellen zu überwinden.</li>
+</ul>
+
+<h2>Die 5 besten Saugroboter mit Wischfunktion 2026</h2>
+
+<h3>1. Dreame X50 Ultra Complete: die beste Wahl insgesamt</h3>
+<p>Der Dreame X50 Ultra Complete bietet laut Hersteller <strong>20.000 Pa Saugkraft</strong>, eine Seitenbürste und einen Drehmopp, die zu Sockelleisten und unter Möbel ausfahren, sowie eine Hauptbürste, die das Verheddern von Haaren verringern soll. Das <strong>ProLeap</strong>-System überwindet laut Dreame Hindernisse bis 6 cm, und der versenkbare LiDAR-Turm senkt die Höhe auf 8,9 cm für niedrige Möbel.</p>
+<p><strong>Stärken:</strong> sehr vollständige Station (Absaugung, Moppwäsche mit 80 °C, Warmlufttrocknung), Hinderniserkennung per RGB-Kamera und 3D-strukturiertem Licht, Laufzeit laut Hersteller bis 220 Minuten. Unabhängige Bewertungen loben vor allem die Kantenreinigung und die Vielseitigkeit auf Teppich und Hartboden.</p>
+<p><strong>Schwächen:</strong> ein Premium-Modell, die Station ist wuchtig, und die App bietet so viele Einstellungen, dass die Einarbeitung etwas dauert.</p>
+<p><strong>Für wen:</strong> Häuser mit Schwellen sowie einer Mischung aus Teppichen und Hartböden, und alle, die einen möglichst selbstständigen Roboter wollen.</p>
+
+<h3>2. Roborock Qrevo Curv 2 Flow: die Wischwalze für Hartböden</h3>
+<p>Der Roborock Qrevo Curv 2 Flow ist der erste Roboter der Marke mit <strong>Wischwalze</strong>. Das SpiraFlow-System verteilt Frischwasser über acht Austrittspunkte auf eine 270 mm breite Walze, während ein Abstreifer laufend Schmutzwasser entfernt. Roborock nennt einen deutlich höheren Anpressdruck als bei seinen Drehmopps und <strong>20.000 Pa</strong> Saugkraft.</p>
+<p><strong>Stärken:</strong> eine Walze, die während der Fahrt sauber bleibt, ideal für Küchen und klebrige Flecken; eine Station, die absaugt, nachfüllt, die Walze mit bis zu 75 °C heißem Wasser wäscht und mit Warmluft trocknet; <strong>Matter</strong>-Unterstützung fürs Smart Home; eine als übersichtlich geltende Roborock-App.</p>
+<p><strong>Schwächen:</strong> Der feste LiDAR-Turm macht ihn höher als Modelle mit versenkbarem LiDAR, was die Fahrt unter manche Möbel verhindert. Die Walze ist ein Verschleißteil.</p>
+<p><strong>Für wen:</strong> große Fliesen- oder Vinylflächen, offene Küchen und Familien.</p>
+
+<h3>3. Ecovacs Deebot X8 Pro Omni: die andere Walzen-Referenz</h3>
+<p>Auch der Ecovacs Deebot X8 Pro Omni setzt auf eine Walze, den <strong>OZMO Roller</strong>, der über 16 Düsen mit Frischwasser versorgt wird und mit 200 U/min rotiert. Angegeben sind <strong>18.000 Pa</strong> Saugkraft und eine Anti-Verhedderungs-Bürste ZeroTangle 2.0.</p>
+<p><strong>Stärken:</strong> eine OMNI-Station, die die Waschtemperatur der Walze je nach Raum und Verschmutzung zwischen 40 und 75 °C anpasst, Warmlufttrocknung und automatische Reinigungsmitteldosierung. Ecovacs verspricht eine Waschwanne, die 150 Tage ohne Wartung auskommt.</p>
+<p><strong>Schwächen:</strong> Einige Nutzer empfinden die App ECOVACS HOME als unübersichtlicher als die von Roborock, und die Walzen-Verbrauchsteile sind markenspezifisch.</p>
+<p><strong>Für wen:</strong> wer eine Wischwalze mit stark automatisierter Station sucht, besonders für große Hartböden.</p>
+
+<h3>4. Narwal Freo Z Ultra: der Wischspezialist mit Mopps</h3>
+<p>Narwal ist für seine Wischleistung bekannt, und der Freo Z Ultra bleibt dieser Linie treu. Seine zwei dreieckigen Mopps drücken mit 12 N bei 180 U/min auf den Boden, und die <strong>DirtSense</strong>-Technik analysiert das Schmutzwasser, um zu entscheiden, ob ein Bereich ein zweites Mal gewischt wird. Die Saugkraft liegt laut Hersteller bei <strong>12.000 Pa</strong>.</p>
+<p><strong>Stärken:</strong> zwei Weitwinkelkameras und zwei Chips erkennen rund 120 Hindernisarten, Moppwäsche bis 75 °C mit anschließender Trocknung bei 40 °C, 12 mm Mopp-Anhebung auf Teppichen.</p>
+<p><strong>Schwächen:</strong> Die Saugkraft liegt unter den vorherigen Modellen, was auf dicken Teppichen oder bei vielen Tierhaaren zählt.</p>
+<p><strong>Für wen:</strong> Wohnungen mit überwiegend Hartboden, in denen das Wischen wichtiger ist als das Teppichsaugen.</p>
+
+<h3>5. Dreame L40 Ultra: das beste Preis-Leistungs-Verhältnis</h3>
+<p>Der Dreame L40 Ultra bringt einen Großteil der Premium-Ausstattung in eine zugänglichere Klasse. Angegeben sind <strong>11.000 Pa</strong>, ein ausfahrbarer Mopp MopExtend RoboSwing, eine ausfahrbare Seitenbürste und die Möglichkeit, die Mopps zum Teppichsaugen in der Station zu lassen.</p>
+<p><strong>Stärken:</strong> Komplettstation (Absaugung, Nachfüllen, Moppwäsche mit 65 °C, Warmlufttrocknung), LiDAR-Navigation mit RGB-Kamera und 3D-strukturiertem Licht, Laufzeit laut Hersteller bis 194 Minuten. Unabhängige Bewertungen heben eine intuitive App und eine gute Hinderniserkennung hervor.</p>
+<p><strong>Schwächen:</strong> Die Mopp-Anhebung von 10,5 mm ist bescheiden, ein kompletter Durchgang dauert, und die Station braucht Platz.</p>
+<p><strong>Für wen:</strong> Wohnungen und mittelgroße Häuser, die eine Komplettstation ohne Spitzenklasse wollen.</p>
+
+<h2>Vergleichstabelle Saugroboter mit Wischfunktion 2026</h2>
 <table>
 <thead>
-<tr><th>Kriterium</th><th>Roborock S8 MaxV Ultra</th><th>Dreame X40 Ultra</th><th>Ecovacs X5 Omni</th><th>Xiaomi X20 Max</th></tr>
+<tr><th>Modell</th><th>Saugkraft (Herstellerangabe)</th><th>Wischsystem</th><th>Moppwäsche in der Station</th><th>Besonderheit</th><th>Ideal für</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Saugleistung</strong></td><td>10.000 Pa</td><td>12.000 Pa</td><td>12.800 Pa</td><td>8.000 Pa</td></tr>
-<tr><td><strong>Wischsystem</strong></td><td>Vibrierend (4.000 Vib/min)</td><td>Doppelt rotierend + Verlängerungsarm</td><td>Doppelt rotierend OZMO Turbo</td><td>Doppelt rotierend</td></tr>
-<tr><td><strong>Heißwasser</strong></td><td>Ja (60 °C)</td><td>Ja (70 °C)</td><td>Ja (70 °C)</td><td>Nein</td></tr>
-<tr><td><strong>Auto-Reinigungsmittel</strong></td><td>Ja</td><td>Ja</td><td>Ja</td><td>Nein</td></tr>
-<tr><td><strong>Heißlufttrocknung</strong></td><td>Ja (2 Std.)</td><td>Ja (2 Std.)</td><td>Ja (3 Std.)</td><td>Nein</td></tr>
-<tr><td><strong>Wischpad-Anhebung</strong></td><td>Ja (20 mm)</td><td>Ja (10,5 mm)</td><td>Ja (15 mm)</td><td>Ja (10 mm)</td></tr>
-<tr><td><strong>Navigation</strong></td><td>LiDAR + KI-Kamera</td><td>LiDAR + KI-Kamera</td><td>LiDAR + KI-Kamera</td><td>LiDAR + Kamera</td></tr>
-<tr><td><strong>Laufzeit</strong></td><td>180 Min.</td><td>210 Min.</td><td>200 Min.</td><td>150 Min.</td></tr>
-<tr><td><strong>Matter</strong></td><td>Ja</td><td>Ja</td><td>Nein</td><td>Ja</td></tr>
-<tr><td><strong>Preis</strong></td><td>~800 €</td><td>~1.200 €</td><td>~950 €</td><td>~450 €</td></tr>
-<tr><td><strong>Bewertung /10</strong></td><td>9,2</td><td>9,5</td><td>8,8</td><td>8,3</td></tr>
+<tr><td>Dreame X50 Ultra Complete</td><td>20.000 Pa</td><td>Drehmopps, ausfahrbar</td><td>80 °C heißes Wasser + Trocknung</td><td>Überwindet bis 6 cm, versenkbares LiDAR</td><td>Vielseitige Häuser</td></tr>
+<tr><td>Roborock Qrevo Curv 2 Flow</td><td>20.000 Pa</td><td>SpiraFlow-Walze 270 mm</td><td>Bis 75 °C + Trocknung</td><td>Walze wird laufend gereinigt, Matter</td><td>Große Hartböden, Küche</td></tr>
+<tr><td>Ecovacs Deebot X8 Pro Omni</td><td>18.000 Pa</td><td>OZMO Roller</td><td>40 bis 75 °C adaptiv + Trocknung</td><td>Automatische Reinigungsmitteldosierung</td><td>Große Hartböden</td></tr>
+<tr><td>Narwal Freo Z Ultra</td><td>12.000 Pa</td><td>Dreieckige Mopps, 12 N</td><td>Bis 75 °C + Trocknung bei 40 °C</td><td>DirtSense, zwei Kameras</td><td>Wischen zuerst</td></tr>
+<tr><td>Dreame L40 Ultra</td><td>11.000 Pa</td><td>Drehmopps, MopExtend</td><td>65 °C heißes Wasser + Trocknung</td><td>Komplettausstattung in der Mittelklasse</td><td>Bestes Preis-Leistungs-Verhältnis</td></tr>
 </tbody>
 </table>
 
-<h2>Roborock S8 MaxV Ultra: Bestes Preis-Leistungs-Verhältnis im Premium-Segment</h2>
-<h3>Stärken</h3>
-<p>Der Roborock S8 MaxV Ultra ist das ausgewogenste Modell in diesem Vergleich. Mit <strong>10.000 Pa Saugleistung</strong> bewältigt er jede Art von Staub, Krümeln und Tierhaaren auf allen Bodentypen. Sein vibrierendes Wischpad mit 4.000 Vibrationen pro Minute liefert eine überzeugende Nassreinigung, auch wenn er bei eingetrockneten Flecken nicht ganz an rotierende Wischsysteme heranreicht.</p>
-<p>Die Multifunktionsstation ist vorbildlich: automatische Entleerung, Heißwasserwäsche der Wischpads (60 °C), Heißlufttrocknung in 2 Stunden und automatische Reinigungsmitteldosierung. Die Roborock Home App ist die intuitivste auf dem Markt: 3D-Kartierung, Mehrstockverwaltung, Raum-für-Raum-Planung und <strong>Matter</strong>-Kompatibilität sichern langfristige Smart-Home-Integration.</p>
-
-<h3>Schwächen</h3>
-<p>Das vibrierende Wischpad ist bei eingetrockneten Flecken (Tomatensoße, Kaffee) weniger effektiv als rotierende Systeme. Der klassische runde Design bietet keine Innovation, und der Roboter erreicht Ecken und Kanten weniger gut als der Dreame X40 Ultra mit seinem Verlängerungsarm.</p>
-
-<h3>Unser Fazit</h3>
-<p><strong>Bewertung: 9,2/10</strong> — Die ideale Wahl für einen zuverlässigen Premium-Saugroboter mit Wischfunktion unter 800 €. Roborocks App und Kundenservice sind die besten der Branche.</p>
-
-<h2>Dreame X40 Ultra: Der innovativste und leistungsstärkste</h2>
-<h3>Stärken</h3>
-<p>Der Dreame X40 Ultra dominiert diesen Vergleich mit <strong>12.000 Pa Saugleistung</strong> — ein Rekord in dieser Kategorie. Sein eigentliches Highlight ist jedoch der <strong>ausfahrbare Arm</strong> (MopExtend RoboSwing), der dem rotierenden Wischpad ermöglicht, Fußleisten, Ecken und Bereiche unter niedrigen Möbeln zu erreichen, die andere Roboter nicht reinigen können.</p>
-<p>Das Heißwasserwischen bei 70 °C ist das heißeste auf dem Markt und garantiert eine effektive Desinfektion. Mit 210 Minuten Laufzeit deckt der X40 Ultra problemlos Häuser über 200 m² ab. Matter-Kompatibilität ist ein Bonus für die Integration in Apple Home, Google Home und Amazon Alexa.</p>
-
-<h3>Schwächen</h3>
-<p>Der Preis von ~1.200 € ist der höchste in diesem Vergleich. Die Dreamehome-App ist weniger intuitiv als Roborocks App. Der Dreame-Kundenservice in Europa hat noch Verbesserungspotenzial. Die Station ist zudem recht sperrig.</p>
-
-<h3>Unser Fazit</h3>
-<p><strong>Bewertung: 9,5/10</strong> — Der beste Saugroboter mit Wischfunktion 2026, wenn das Budget keine Einschränkung darstellt. Verlängerungsarm und Saugleistung machen ihn zum kompromisslosen Spitzenmodell.</p>
-
-<h2>Ecovacs X5 Omni: Das Premium-Design</h2>
-<h3>Stärken</h3>
-<p>Der Ecovacs X5 Omni überzeugt mit seiner <strong>Rekordsaugleistung von 12.800 Pa</strong> und seinem einzigartigen quadratischen Design, das Ecken effektiver erreicht als runde Roboter. Das OZMO-Turbo-System mit zwei rotierenden Wischpads bei konstantem Druck liefert eine effektive Reinigung, und das Heißwasserwaschen bei 70 °C sorgt für optimale Hygiene.</p>
-
-<h3>Schwächen</h3>
-<p>Die fehlende <strong>Matter</strong>-Kompatibilität ist ein Nachteil für die langfristige Smart-Home-Integration. Die ECOVACS HOME App kann instabil sein, und die Heißlufttrocknung dauert 3 Stunden — eine Stunde länger als bei der Konkurrenz.</p>
-
-<h3>Unser Fazit</h3>
-<p><strong>Bewertung: 8,8/10</strong> — Ein ausgezeichneter Saugroboter mit Wischfunktion, der durch fehlendes Matter und eine verbesserungswürdige App gebremst wird. Das quadratische Design ist ein echter Vorteil für Ecken.</p>
-
-<h2>Xiaomi X20 Max: Bestes Preis-Leistungs-Verhältnis</h2>
-<h3>Stärken</h3>
-<p>Der Xiaomi X20 Max ist die positive Überraschung dieses Vergleichs. Für <strong>~450 €</strong> bietet er Leistungen, die vor einem Jahr 800 € gekostet hätten. Die 8.000 Pa Saugleistung reicht für die meisten Haushalte aus, und die doppelt rotierende Wischmop liefert eine ordentliche Nassreinigung auf Hartböden. Die LiDAR + Kamera-Navigation ist präzise, und Matter-Kompatibilität ab Werk ist in dieser Preisklasse selten.</p>
-
-<h3>Schwächen</h3>
-<p>Kein Heißwasserwaschen, kein Auto-Reinigungsmittel, keine Heißlufttrocknung — die Station ist funktional, aber einfach (nur automatische Entleerung). Die 150 Minuten Laufzeit sind für große Wohnungen limitierend. Die 8.000 Pa Saugleistung können bei dicken Teppichen oder vielen Tierhaaren an ihre Grenzen stoßen.</p>
-
-<h3>Unser Fazit</h3>
-<p><strong>Bewertung: 8,3/10</strong> — Die kluge Wahl für einen qualitativ hochwertigen ersten Saugroboter mit Wischfunktion ohne das Budget zu sprengen. Perfekt für Wohnungen mit Hartböden.</p>
-
-<h2>Welchen Saugroboter mit Wischfunktion sollten Sie kaufen? Unser finales Fazit</h2>
-<p>Die Wahl des besten Saugroboters mit Wischfunktion hängt von Ihrem Budget und Ihren Prioritäten ab:</p>
+<h2>Fehler, die Sie vermeiden sollten</h2>
 <ul>
-<li><strong>Bester insgesamt:</strong> Dreame X40 Ultra — der leistungsstärkste, innovativste und vollständigste.</li>
-<li><strong>Bestes Premium-Preis-Leistungs-Verhältnis:</strong> Roborock S8 MaxV Ultra — der zuverlässigste mit der besten App.</li>
-<li><strong>Bestes Design:</strong> Ecovacs X5 Omni — die quadratische Form ist ein echter Vorteil.</li>
-<li><strong>Bestes Budget:</strong> Xiaomi X20 Max — solide Leistung für 450 €.</li>
+<li><strong>Nur nach Pascal entscheiden.</strong> Ab 10.000 Pa zählen Bürste, Abdichtung und Anti-Verhedderungs-Design genauso viel wie die angegebene Leistung.</li>
+<li><strong>Den Platzbedarf der Station vergessen.</strong> Eine Komplettstation braucht echte Stellfläche und muss zugänglich bleiben, um Schmutzwasser zu leeren und den Beutel zu wechseln.</li>
+<li><strong>Dicke Teppiche unterschätzen.</strong> 10 bis 12 mm Anhebung schützen keinen Hochflorteppich: Wählen Sie ein Modell, das die Mopps in der Station ablegt, oder legen Sie eine Wisch-Sperrzone fest.</li>
+<li><strong>Beliebige Reinigungsmittel verwenden.</strong> Stationen mit automatischer Dosierung sind für das Mittel der Marke ausgelegt. Schäumende oder zu konzentrierte Produkte können das System verstopfen.</li>
+<li><strong>Verbrauchsteile ignorieren.</strong> Stationsbeutel, Filter, Bürsten, Mopps oder Walzen müssen regelmäßig ersetzt werden. Prüfen Sie vor dem Kauf, ob sie leicht erhältlich sind.</li>
 </ul>
-<p>Einen umfassenden Leitfaden zur Auswahl eines Saugroboters finden Sie in unserem <a href="/de/blog/guide-robot-aspirateur-2026">Saugroboter-Ratgeber 2026</a>. Wenn Sie Haustiere haben, hilft Ihnen unser Artikel über <a href="/de/blog/robot-aspirateur-poils-animaux">Saugroboter für Tierhaare</a> bei der Auswahl.</p>
 
-<h2>Kauftipps: Was Sie vor der Bestellung prüfen sollten</h2>
+<h2>Alltag und Pflege</h2>
 <ul>
-<li><strong>Messen Sie die Höhe Ihrer Möbel:</strong> Roboter sind 9,5-10,5 cm hoch. Wenn Ihre niedrigsten Möbel weniger als 11 cm Platz lassen, passt der Roboter nicht darunter.</li>
-<li><strong>Prüfen Sie die Verbrauchskosten:</strong> Stationsbeutel (3-5 €/Stück), Wischpads (10-20 € pro Paar), HEPA-Filter (10-20 €). Rechnen Sie mit 50-100 € pro Jahr.</li>
-<li><strong>Bevorzugen Sie Matter:</strong> Dieses Protokoll stellt sicher, dass Ihr Roboter langfristig mit Ihrem Smart-Home-Ökosystem kompatibel bleibt.</li>
-<li><strong>Warten Sie auf Angebote:</strong> Die Preise sinken bei Black Friday, Prime Day und Schlussverkäufen stark. Rabatte von 20-35 % sind üblich.</li>
-<li><strong>Kompakte oder komplette Station:</strong> All-in-One-Stationen (Waschen + Trocknen + Reinigungsmittel) sind sperrig (ca. 40 x 45 x 55 cm). Stellen Sie sicher, dass Sie den Platz haben.</li>
-</ul>`,
+<li><strong>Parkett:</strong> Stellen Sie auf versiegeltem Parkett oder Laminat die geringste Wassermenge ein und wischen Sie geöltes oder gewachstes Holz nur, wenn der Bodenhersteller es erlaubt.</li>
+<li><strong>Erste Karte:</strong> Räumen Sie Kabel und Kleinteile weg, öffnen Sie die Türen und lassen Sie den Roboter die ganze Wohnung kartieren, bevor Sie Räume und Sperrzonen festlegen.</li>
+<li><strong>Hygiene:</strong> Leeren und spülen Sie den Schmutzwassertank regelmäßig, auch wenn die Station den Mopp trocknet. Er ist laut Besitzern die häufigste Geruchsquelle.</li>
+<li><strong>Sicherheit:</strong> Schließen Sie die Station an eine intakte Steckdose an, nicht an eine überlastete Mehrfachsteckdose, und halten Sie sie von Spritzwasser fern. Mit Haustieren hilft unser Ratgeber zu <a href="/de/blog/robot-aspirateur-poils-animaux">Saugrobotern für Tierhaare</a> bei den passenden Einstellungen.</li>
+</ul>
 
-    es: `<h2>¿Por qué elegir un robot aspirador y fregasuelos en 2026?</h2>
-<p>El robot aspirador y fregasuelos se ha convertido en la solución todo-en-uno definitiva para el cuidado de los suelos. Atrás quedaron los tiempos en que había que aspirar primero y fregar después: en 2026, un solo aparato hace ambas cosas simultáneamente, con resultados que rivalizan con la limpieza manual. La tecnología ha dado saltos espectaculares: mopas rotativas con presión constante, fregado con agua caliente, dispensación automática de detergente y estaciones de mantenimiento multifuncionales.</p>
-<p>Esta comparativa enfrenta a los <strong>4 mejores robots aspirador y fregasuelos del mercado</strong> en 2026. Hemos evaluado cada modelo en aspiración, eficacia de fregado, funcionalidades de la estación, navegación, aplicación y relación calidad-precio. Para una visión completa de los criterios de elección, consulta nuestra <a href="/es/blog/guide-robot-aspirateur-2026">guía completa de robots aspirador 2026</a>.</p>
+<h2>Unser Fazit</h2>
+<p>Für die meisten Haushalte ist der <strong>Dreame X50 Ultra Complete</strong> der vollständigste Saugroboter mit Wischfunktion 2026: kraftvoll, wendig an Schwellen und sehr selbstständig. Wenn Sie vor allem große Hartböden wischen wollen, passen der <strong>Roborock Qrevo Curv 2 Flow</strong> und seine laufend gereinigte Walze besser, mit dem <strong>Ecovacs Deebot X8 Pro Omni</strong> als direkter Alternative. Der <strong>Narwal Freo Z Ultra</strong> eignet sich für alle, denen das Wischen am wichtigsten ist, und der <strong>Dreame L40 Ultra</strong> bietet das Wesentliche einer Komplettstation in einer zugänglicheren Klasse.</p>
+<p>Alle Kaufkriterien, auch für Roboter ohne Wischfunktion, erklärt unser <a href="/de/blog/guide-robot-aspirateur-2026">kompletter Saugroboter-Ratgeber 2026</a>.</p>`,
 
-<h2>Tabla comparativa: los 4 mejores robots aspirador y fregasuelos 2026</h2>
+    es: `<p><strong>El mejor robot aspirador y fregasuelos en 2026 para la mayoría de los hogares es el Dreame X50 Ultra Complete</strong>: succión muy potente, mopa y cepillo lateral extensibles para los bordes, lavado de mopas con agua caliente y un chasis capaz de superar umbrales altos. Si tienes sobre todo suelos duros y manchas pegajosas, el Roborock Qrevo Curv 2 Flow con su rodillo de fregado es la alternativa más interesante, y el Dreame L40 Ultra sigue siendo la opción sensata para un equipo completo de gama media.</p>
+<p>Esta comparativa se basa en las fichas técnicas de los fabricantes, análisis independientes publicados y opiniones de compradores verificados. Solo incluye modelos que se venden en Europa en 2026. Las cifras de succión y temperatura son las que anuncian las marcas: sirven para situar los modelos entre sí, no para predecir el resultado exacto en tu casa. Encontrarás toda la selección en nuestra página de <a href="/es/entretien-maison/aspirateurs-robots">robots aspiradores</a>.</p>
+
+<h2>Cómo elegir un robot aspirador y fregasuelos en 2026</h2>
+<p>Casi todos los modelos de gama alta aspiran y friegan ya en una sola pasada. Las diferencias reales están en cinco puntos.</p>
+<ul>
+<li><strong>El sistema de fregado.</strong> Conviven dos familias. Las <strong>mopas giratorias</strong> (dos discos que giran presionando el suelo) son el estándar desde hace años y a menudo pueden quedarse en la base para que el robot aspire las alfombras. Los <strong>rodillos de fregado</strong>, más recientes, reciben agua limpia de forma continua mientras el agua sucia se raspa, de modo que el suelo se friega con un rodillo que se mantiene más limpio durante toda la pasada.</li>
+<li><strong>La base.</strong> Una base completa vacía el depósito de polvo, rellena el tanque, lava la mopa con agua caliente, la seca con aire caliente y a veces dosifica el detergente. El agua caliente sirve sobre todo para limpiar la mopa dentro de la base, lo que evita malos olores.</li>
+<li><strong>Las alfombras.</strong> Revisa la altura de elevación de la mopa y si puede quedarse en la base. Una elevación de 10 a 12 mm basta para alfombras de pelo corto, no para las gruesas.</li>
+<li><strong>Navegación y detección de obstáculos.</strong> El LiDAR se encarga del mapeo; una cámara o luz estructurada 3D permite esquivar cables, calcetines y excrementos de mascotas.</li>
+<li><strong>Altura y capacidad de subida.</strong> Un robot de más de 10 cm no pasa bajo muchos muebles bajos. Algunos modelos retraen su torreta LiDAR o elevan el chasis para superar umbrales.</li>
+</ul>
+
+<h2>Los 5 mejores robots aspirador y fregasuelos en 2026</h2>
+
+<h3>1. Dreame X50 Ultra Complete: la mejor opción global</h3>
+<p>El Dreame X50 Ultra Complete anuncia <strong>20.000 Pa de succión</strong>, un cepillo lateral y una mopa giratoria que se extienden hacia los rodapiés y bajo los muebles, y un cepillo principal diseñado para que el pelo se enrede menos. Según Dreame, su sistema <strong>ProLeap</strong> supera obstáculos de hasta 6 cm, y su torreta LiDAR retráctil reduce la altura a 8,9 cm para pasar bajo muebles bajos.</p>
+<p><strong>Puntos fuertes:</strong> base muy completa (vaciado automático, lavado de mopas a 80 °C, secado con aire caliente), detección de obstáculos con cámara RGB y luz estructurada 3D, y una autonomía anunciada de hasta 220 minutos. Los análisis independientes destacan sobre todo la limpieza de bordes y la versatilidad entre alfombras y suelos duros.</p>
+<p><strong>Límites:</strong> es un modelo premium, la base es voluminosa y la app ofrece tantos ajustes que requiere tiempo para dominarla.</p>
+<p><strong>Para quién:</strong> casas con umbrales y una mezcla de alfombras y suelos duros, y quien quiera un robot lo más autónomo posible.</p>
+
+<h3>2. Roborock Qrevo Curv 2 Flow: el rodillo para suelos duros</h3>
+<p>El Roborock Qrevo Curv 2 Flow es el primer robot de la marca con <strong>rodillo de fregado</strong>. Su sistema SpiraFlow reparte agua limpia por ocho puntos sobre un rodillo de 270 mm, mientras un rascador retira el agua sucia de forma continua. Roborock anuncia una presión de fregado muy superior a la de sus mopas giratorias y <strong>20.000 Pa</strong> de succión.</p>
+<p><strong>Puntos fuertes:</strong> un rodillo que se mantiene limpio durante la pasada, ideal para cocinas y manchas pegajosas; una base que vacía, rellena, lava el rodillo con agua caliente hasta 75 °C y lo seca con aire caliente; compatibilidad con <strong>Matter</strong> para la domótica; y una app de Roborock con fama de clara.</p>
+<p><strong>Límites:</strong> su torreta LiDAR fija lo hace más alto que los modelos con LiDAR retráctil, lo que le impide pasar bajo algunos muebles. El rodillo es una pieza de desgaste que hay que vigilar.</p>
+<p><strong>Para quién:</strong> grandes superficies de baldosa o vinilo, cocinas abiertas y familias.</p>
+
+<h3>3. Ecovacs Deebot X8 Pro Omni: la otra referencia con rodillo</h3>
+<p>El Ecovacs Deebot X8 Pro Omni también apuesta por un rodillo, el <strong>OZMO Roller</strong>, alimentado con agua limpia por 16 boquillas y que gira a 200 rpm. Anuncia <strong>18.000 Pa</strong> de succión y un cepillo antienredos ZeroTangle 2.0.</p>
+<p><strong>Puntos fuertes:</strong> una base OMNI que ajusta la temperatura de lavado del rodillo entre 40 y 75 °C según la estancia y la suciedad, secado con aire caliente y dosificación automática de detergente. Ecovacs destaca una bandeja de lavado prevista para 150 días sin mantenimiento.</p>
+<p><strong>Límites:</strong> parte de los usuarios considera la app ECOVACS HOME más recargada que la de Roborock, y los consumibles del rodillo son específicos de la marca.</p>
+<p><strong>Para quién:</strong> quien busque un rodillo de fregado con una base muy automatizada, sobre todo para suelos duros amplios.</p>
+
+<h3>4. Narwal Freo Z Ultra: el especialista del fregado con mopas</h3>
+<p>Narwal se dio a conocer por el fregado, y el Freo Z Ultra sigue esa lógica. Sus dos mopas triangulares presionan el suelo con 12 N a 180 rpm, y su tecnología <strong>DirtSense</strong> analiza el agua sucia para decidir si una zona necesita una segunda pasada. La succión anunciada es de <strong>12.000 Pa</strong>.</p>
+<p><strong>Puntos fuertes:</strong> doble cámara gran angular y doble chip para reconocer unos 120 tipos de obstáculos, lavado de mopas hasta 75 °C seguido de secado a 40 °C, y elevación de la mopa de 12 mm sobre las alfombras.</p>
+<p><strong>Límites:</strong> la succión queda por debajo de los modelos anteriores, algo que se nota en alfombras gruesas o con mucho pelo de mascota.</p>
+<p><strong>Para quién:</strong> viviendas con suelos duros mayoritarios, donde fregar importa más que aspirar alfombras.</p>
+
+<h3>5. Dreame L40 Ultra: la mejor relación calidad-precio</h3>
+<p>El Dreame L40 Ultra lleva buena parte del equipamiento premium a una gama más accesible. Anuncia <strong>11.000 Pa</strong>, una mopa extensible MopExtend RoboSwing, un cepillo lateral extensible y la opción de dejar las mopas en la base para aspirar alfombras.</p>
+<p><strong>Puntos fuertes:</strong> base completa (vaciado, rellenado, lavado de mopas a 65 °C, secado con aire caliente), navegación LiDAR con cámara RGB y luz estructurada 3D, y autonomía anunciada de hasta 194 minutos. Los análisis independientes destacan una app intuitiva y una buena detección de obstáculos.</p>
+<p><strong>Límites:</strong> la elevación de la mopa de 10,5 mm es modesta, un ciclo completo lleva tiempo y la base necesita espacio.</p>
+<p><strong>Para quién:</strong> un piso o una casa mediana, para disfrutar de una base completa sin ir a lo más alto de la gama.</p>
+
+<h2>Tabla comparativa de robots aspirador y fregasuelos 2026</h2>
 <table>
 <thead>
-<tr><th>Criterio</th><th>Roborock S8 MaxV Ultra</th><th>Dreame X40 Ultra</th><th>Ecovacs X5 Omni</th><th>Xiaomi X20 Max</th></tr>
+<tr><th>Modelo</th><th>Succión anunciada</th><th>Sistema de fregado</th><th>Lavado en la base</th><th>Rasgo distintivo</th><th>Ideal para</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Succión</strong></td><td>10.000 Pa</td><td>12.000 Pa</td><td>12.800 Pa</td><td>8.000 Pa</td></tr>
-<tr><td><strong>Sistema de fregado</strong></td><td>Vibrante (4.000 vib/min)</td><td>Doble rotativo + brazo extensible</td><td>Doble rotativo OZMO Turbo</td><td>Doble rotativo</td></tr>
-<tr><td><strong>Agua caliente</strong></td><td>Sí (60 °C)</td><td>Sí (70 °C)</td><td>Sí (70 °C)</td><td>No</td></tr>
-<tr><td><strong>Auto-detergente</strong></td><td>Sí</td><td>Sí</td><td>Sí</td><td>No</td></tr>
-<tr><td><strong>Secado aire caliente</strong></td><td>Sí (2h)</td><td>Sí (2h)</td><td>Sí (3h)</td><td>No</td></tr>
-<tr><td><strong>Elevación mopa</strong></td><td>Sí (20 mm)</td><td>Sí (10,5 mm)</td><td>Sí (15 mm)</td><td>Sí (10 mm)</td></tr>
-<tr><td><strong>Navegación</strong></td><td>LiDAR + cámara IA</td><td>LiDAR + cámara IA</td><td>LiDAR + cámara IA</td><td>LiDAR + cámara</td></tr>
-<tr><td><strong>Autonomía</strong></td><td>180 min</td><td>210 min</td><td>200 min</td><td>150 min</td></tr>
-<tr><td><strong>Matter</strong></td><td>Sí</td><td>Sí</td><td>No</td><td>Sí</td></tr>
-<tr><td><strong>Precio</strong></td><td>~800 €</td><td>~1.200 €</td><td>~950 €</td><td>~450 €</td></tr>
-<tr><td><strong>Puntuación /10</strong></td><td>9,2</td><td>9,5</td><td>8,8</td><td>8,3</td></tr>
+<tr><td>Dreame X50 Ultra Complete</td><td>20.000 Pa</td><td>Mopas giratorias, extensibles</td><td>Agua caliente a 80 °C + secado</td><td>Supera hasta 6 cm, LiDAR retráctil</td><td>Casas versátiles</td></tr>
+<tr><td>Roborock Qrevo Curv 2 Flow</td><td>20.000 Pa</td><td>Rodillo SpiraFlow de 270 mm</td><td>Hasta 75 °C + secado</td><td>Rodillo limpiado en continuo, Matter</td><td>Grandes suelos duros, cocina</td></tr>
+<tr><td>Ecovacs Deebot X8 Pro Omni</td><td>18.000 Pa</td><td>OZMO Roller</td><td>40 a 75 °C adaptativo + secado</td><td>Dosificación automática de detergente</td><td>Suelos duros amplios</td></tr>
+<tr><td>Narwal Freo Z Ultra</td><td>12.000 Pa</td><td>Mopas triangulares, 12 N</td><td>Hasta 75 °C + secado a 40 °C</td><td>DirtSense, doble cámara</td><td>Prioridad al fregado</td></tr>
+<tr><td>Dreame L40 Ultra</td><td>11.000 Pa</td><td>Mopas giratorias, MopExtend</td><td>Agua caliente a 65 °C + secado</td><td>Equipo completo en gama media</td><td>Mejor relación calidad-precio</td></tr>
 </tbody>
 </table>
 
-<h2>Roborock S8 MaxV Ultra: mejor relación calidad-precio premium</h2>
-<h3>Puntos fuertes</h3>
-<p>El Roborock S8 MaxV Ultra es el modelo más equilibrado de esta comparativa. Con <strong>10.000 Pa de succión</strong>, gestiona todo tipo de polvo, migas y pelo animal en cualquier superficie. Su mopa vibrante a 4.000 vibraciones por minuto ofrece una limpieza húmeda convincente. La estación multifunción es ejemplar: autovaciado, lavado de mopas con agua caliente (60 °C), secado con aire caliente en 2 horas y dosificación automática de detergente.</p>
-<p>La app Roborock Home es la más intuitiva del mercado: mapeo 3D, gestión multipisos, programación por habitación y compatibilidad <strong>Matter</strong> para garantizar la integración domótica a largo plazo. El sistema ReactiveAI 2.0 con cámara frontal detecta y esquiva obstáculos con precisión impresionante.</p>
-
-<h3>Puntos débiles</h3>
-<p>La mopa vibrante rinde menos que las rotativas en manchas secas. El diseño redondo clásico no alcanza las esquinas tan bien como el Dreame X40 Ultra con su brazo extensible.</p>
-
-<h3>Nuestro veredicto</h3>
-<p><strong>Puntuación: 9,2/10</strong> — La elección ideal para un robot aspirador fregasuelos premium fiable por menos de 800 €.</p>
-
-<h2>Dreame X40 Ultra: el más innovador y potente</h2>
-<h3>Puntos fuertes</h3>
-<p>El Dreame X40 Ultra lidera esta comparativa en potencia bruta con <strong>12.000 Pa de succión</strong>. Pero su auténtico punto fuerte es su <strong>brazo extensible</strong> (MopExtend RoboSwing), que permite a la mopa rotativa alcanzar rodapiés, esquinas y zonas bajo muebles bajos que otros robots no pueden limpiar. Fregado con agua caliente a 70 °C, estación completa con secado, y 210 minutos de autonomía para cubrir casas de más de 200 m².</p>
-
-<h3>Puntos débiles</h3>
-<p>El precio de ~1.200 € es el más alto. La app Dreamehome es menos intuitiva que la de Roborock. El servicio posventa en Europa aún es mejorable. La estación es voluminosa.</p>
-
-<h3>Nuestro veredicto</h3>
-<p><strong>Puntuación: 9,5/10</strong> — El mejor robot aspirador fregasuelos de 2026 si el presupuesto no es un problema.</p>
-
-<h2>Ecovacs X5 Omni: el diseño premium</h2>
-<h3>Puntos fuertes</h3>
-<p>El Ecovacs X5 Omni destaca por su <strong>succión récord de 12.800 Pa</strong> y su diseño cuadrado único que alcanza mejor las esquinas. Sistema OZMO Turbo con doble mopa rotativa, fregado con agua caliente a 70 °C y estación completa.</p>
-
-<h3>Puntos débiles</h3>
-<p>Sin compatibilidad <strong>Matter</strong>, lo que limita la integración domótica a largo plazo. App inestable ocasionalmente. Secado en 3 horas, una hora más que la competencia.</p>
-
-<h3>Nuestro veredicto</h3>
-<p><strong>Puntuación: 8,8/10</strong> — Excelente robot penalizado por la falta de Matter y una app mejorable.</p>
-
-<h2>Xiaomi X20 Max: la mejor relación calidad-precio</h2>
-<h3>Puntos fuertes</h3>
-<p>El Xiaomi X20 Max es la sorpresa de esta comparativa. Por <strong>~450 €</strong>, ofrece prestaciones que costaban 800 € hace un año. 8.000 Pa de succión, doble mopa rotativa, navegación LiDAR + cámara precisa y compatibilidad Matter de serie.</p>
-
-<h3>Puntos débiles</h3>
-<p>Sin agua caliente, sin auto-detergente, sin secado. Estación básica (solo autovaciado). 150 minutos de autonomía pueden ser limitados. 8.000 Pa pueden ser insuficientes para alfombras gruesas.</p>
-
-<h3>Nuestro veredicto</h3>
-<p><strong>Puntuación: 8,3/10</strong> — La opción inteligente para un primer robot aspirador fregasuelos de calidad sin arruinarse.</p>
-
-<h2>¿Qué robot aspirador fregasuelos comprar? Veredicto final</h2>
+<h2>Errores que debes evitar</h2>
 <ul>
-<li><strong>Mejor global:</strong> Dreame X40 Ultra — el más potente e innovador.</li>
-<li><strong>Mejor relación calidad-precio premium:</strong> Roborock S8 MaxV Ultra — el más fiable con la mejor app.</li>
-<li><strong>Mejor diseño:</strong> Ecovacs X5 Omni — formato cuadrado ventajoso para esquinas.</li>
-<li><strong>Mejor presupuesto:</strong> Xiaomi X20 Max — rendimiento sólido por 450 €.</li>
+<li><strong>Elegir solo por los pascales.</strong> Por encima de 10.000 Pa, el cepillo, la estanqueidad del robot y el diseño antienredos cuentan tanto como la potencia anunciada.</li>
+<li><strong>Olvidar el espacio de la base.</strong> Una base completa ocupa bastante suelo y debe quedar accesible para vaciar el agua sucia y cambiar la bolsa.</li>
+<li><strong>Subestimar las alfombras gruesas.</strong> Una elevación de 10 a 12 mm no protege una alfombra de pelo largo: elige un modelo que deje las mopas en la base o crea una zona sin fregado.</li>
+<li><strong>Usar cualquier producto.</strong> Las bases con dosificación automática están pensadas para el detergente de la marca. Un producto espumoso o demasiado concentrado puede obstruir el circuito.</li>
+<li><strong>Ignorar los consumibles.</strong> Bolsas, filtros, cepillos, mopas o rodillos se cambian con regularidad. Comprueba que se encuentran con facilidad antes de comprar.</li>
 </ul>
-<p>Para una guía completa, consulta nuestro <a href="/es/blog/guide-robot-aspirateur-2026">guía de robots aspirador 2026</a>. Si tienes mascotas, nuestro artículo sobre <a href="/es/blog/robot-aspirateur-poils-animaux">robots aspirador para mascotas</a> te ayudará.</p>
 
-<h2>Consejos de compra</h2>
+<h2>Uso y mantenimiento diario</h2>
 <ul>
-<li><strong>Mide la altura de tus muebles:</strong> los robots miden 9,5-10,5 cm de alto.</li>
-<li><strong>Comprueba el coste de los consumibles:</strong> bolsas (3-5 €), mopas (10-20 €), filtros HEPA (10-20 €). Unos 50-100 € al año.</li>
-<li><strong>Prioriza Matter:</strong> garantiza compatibilidad domótica a largo plazo.</li>
-<li><strong>Espera a las ofertas:</strong> los precios bajan un 20-35 % en Black Friday, Prime Day y rebajas.</li>
-<li><strong>Espacio para la estación:</strong> las estaciones completas miden unos 40 x 45 x 55 cm.</li>
-</ul>`,
+<li><strong>Parquet:</strong> pon el caudal de agua al mínimo en parquet barnizado o laminado, y evita fregar madera aceitada o encerada salvo que el fabricante del suelo lo permita.</li>
+<li><strong>Primer mapa:</strong> recoge cables y objetos pequeños, abre las puertas y deja que el robot mapee toda la vivienda antes de definir estancias y zonas prohibidas.</li>
+<li><strong>Higiene:</strong> vacía y aclara el depósito de agua sucia con regularidad, aunque la base seque la mopa. Es la principal fuente de olores que mencionan los propietarios.</li>
+<li><strong>Seguridad:</strong> conecta la base a un enchufe en buen estado, no a una regleta sobrecargada, y mantenla lejos de salpicaduras. Si tienes mascotas, nuestra guía de <a href="/es/blog/robot-aspirateur-poils-animaux">robots aspiradores para pelo de mascotas</a> explica los ajustes útiles.</li>
+</ul>
 
-    it: `<h2>Perché scegliere un robot aspirapolvere lavapavimenti nel 2026?</h2>
-<p>Il robot aspirapolvere lavapavimenti è diventato la soluzione tutto-in-uno definitiva per la cura dei pavimenti. Finiti i tempi in cui bisognava prima aspirare e poi lavare: nel 2026, un unico dispositivo fa entrambe le cose simultaneamente, con risultati che rivaleggiano con la pulizia manuale. La tecnologia ha fatto passi da gigante: panni rotanti a pressione costante, lavaggio ad acqua calda, dosaggio automatico del detergente e stazioni di manutenzione multifunzionali.</p>
-<p>Questo confronto mette a confronto i <strong>4 migliori robot aspirapolvere lavapavimenti del 2026</strong>. Abbiamo valutato ogni modello su aspirazione, efficacia del lavaggio, funzionalità della stazione, navigazione, app e rapporto qualità-prezzo. Per una panoramica completa dei criteri di scelta, consulta la nostra <a href="/it/blog/guide-robot-aspirateur-2026">guida completa robot aspirapolvere 2026</a>.</p>
+<h2>Nuestro veredicto</h2>
+<p>Para la mayoría de los hogares, el <strong>Dreame X50 Ultra Complete</strong> es el robot aspirador y fregasuelos más completo de 2026: potente, ágil en los umbrales y muy autónomo. Si tu prioridad es fregar grandes superficies de suelo duro, el <strong>Roborock Qrevo Curv 2 Flow</strong> y su rodillo limpiado en continuo encajan mejor, con el <strong>Ecovacs Deebot X8 Pro Omni</strong> como alternativa directa. El <strong>Narwal Freo Z Ultra</strong> conviene a quien prioriza el fregado, y el <strong>Dreame L40 Ultra</strong> ofrece lo esencial de una base completa en una gama más accesible.</p>
+<p>Para entender todos los criterios de compra, incluidos los robots sin fregado, consulta nuestra <a href="/es/blog/guide-robot-aspirateur-2026">guía completa de robots aspiradores 2026</a>.</p>`,
 
-<h2>Tabella comparativa: i 4 migliori robot aspirapolvere lavapavimenti 2026</h2>
+    it: `<p><strong>Il miglior robot aspirapolvere lavapavimenti nel 2026 per la maggior parte delle case è il Dreame X50 Ultra Complete</strong>: aspirazione molto potente, panno e spazzola laterale estensibili per i bordi, lavaggio dei panni con acqua calda e un telaio in grado di superare soglie alte. Se avete soprattutto pavimenti duri e macchie appiccicose, il Roborock Qrevo Curv 2 Flow con il suo rullo lavante è l’alternativa più interessante, mentre il Dreame L40 Ultra resta la scelta sensata per una dotazione completa di fascia media.</p>
+<p>Questo confronto si basa sulle schede tecniche dei produttori, su recensioni indipendenti pubblicate e sui feedback di acquirenti verificati. Include solo modelli venduti in Europa nel 2026. I valori di aspirazione e temperatura sono quelli dichiarati dai marchi: servono a confrontare i modelli tra loro, non a prevedere il risultato esatto a casa vostra. Trovate tutta la selezione nella nostra pagina dedicata ai <a href="/it/entretien-maison/aspirateurs-robots">robot aspirapolvere</a>.</p>
+
+<h2>Come scegliere un robot aspirapolvere lavapavimenti nel 2026</h2>
+<p>Quasi tutti i modelli di fascia alta ormai aspirano e lavano in un solo passaggio. Le vere differenze si giocano su cinque punti.</p>
+<ul>
+<li><strong>Il sistema di lavaggio.</strong> Esistono due famiglie. I <strong>panni rotanti</strong> (due dischi che girano premendo sul pavimento) sono lo standard da anni e spesso si possono lasciare alla stazione per aspirare i tappeti. I <strong>rulli lavanti</strong>, più recenti, ricevono acqua pulita in continuo mentre l’acqua sporca viene raschiata via: il pavimento viene così lavato con un rullo che resta più pulito per tutto il ciclo.</li>
+<li><strong>La stazione.</strong> Una stazione completa svuota il contenitore della polvere, riempie il serbatoio, lava il panno con acqua calda, lo asciuga ad aria calda e a volte dosa il detergente. L’acqua calda serve soprattutto a pulire il panno nella stazione, limitando i cattivi odori.</li>
+<li><strong>La gestione dei tappeti.</strong> Controllate l’altezza di sollevamento del panno e la possibilità di lasciarlo alla stazione. Un sollevamento di 10-12 mm basta per i tappeti a pelo corto, non per quelli spessi.</li>
+<li><strong>Navigazione e riconoscimento degli ostacoli.</strong> Il LiDAR si occupa della mappatura; una telecamera o la luce strutturata 3D permettono di evitare cavi, calzini ed escrementi di animali.</li>
+<li><strong>Altezza e capacità di superare ostacoli.</strong> Un robot alto più di 10 cm non passa sotto molti mobili bassi. Alcuni modelli ritraggono la torretta LiDAR o sollevano il telaio per superare le soglie.</li>
+</ul>
+
+<h2>I 5 migliori robot aspirapolvere lavapavimenti del 2026</h2>
+
+<h3>1. Dreame X50 Ultra Complete: la migliore scelta complessiva</h3>
+<p>Il Dreame X50 Ultra Complete dichiara <strong>20.000 Pa di aspirazione</strong>, una spazzola laterale e un panno rotante che si estendono verso i battiscopa e sotto i mobili, e una spazzola principale progettata per ridurre l’attorcigliamento dei capelli. Secondo Dreame, il sistema <strong>ProLeap</strong> supera ostacoli fino a 6 cm e la torretta LiDAR retrattile riduce l’altezza a 8,9 cm per passare sotto i mobili bassi.</p>
+<p><strong>Punti di forza:</strong> stazione molto completa (svuotamento automatico, lavaggio dei panni a 80 °C, asciugatura ad aria calda), riconoscimento degli ostacoli con telecamera RGB e luce strutturata 3D, autonomia dichiarata fino a 220 minuti. Le recensioni indipendenti apprezzano soprattutto la pulizia dei bordi e la versatilità tra tappeti e pavimenti duri.</p>
+<p><strong>Limiti:</strong> è un modello premium, la stazione è ingombrante e l’app offre così tante impostazioni da richiedere un po’ di pratica.</p>
+<p><strong>Per chi:</strong> case con soglie e un mix di tappeti e pavimenti duri, e chi vuole un robot il più autonomo possibile.</p>
+
+<h3>2. Roborock Qrevo Curv 2 Flow: il rullo per i pavimenti duri</h3>
+<p>Il Roborock Qrevo Curv 2 Flow è il primo robot del marchio con <strong>rullo lavante</strong>. Il sistema SpiraFlow distribuisce acqua pulita da otto punti su un rullo di 270 mm, mentre un raschietto rimuove l’acqua sporca in continuo. Roborock dichiara una pressione di lavaggio nettamente superiore a quella dei suoi panni rotanti e <strong>20.000 Pa</strong> di aspirazione.</p>
+<p><strong>Punti di forza:</strong> un rullo che resta pulito durante il passaggio, ideale per cucine e macchie appiccicose; una stazione che svuota, riempie, lava il rullo con acqua calda fino a 75 °C e lo asciuga ad aria calda; compatibilità <strong>Matter</strong> per la domotica; un’app Roborock considerata chiara.</p>
+<p><strong>Limiti:</strong> la torretta LiDAR fissa lo rende più alto dei modelli con LiDAR retrattile, il che gli impedisce di passare sotto alcuni mobili. Il rullo è un componente soggetto a usura.</p>
+<p><strong>Per chi:</strong> grandi superfici di piastrelle o vinile, cucine open space e famiglie.</p>
+
+<h3>3. Ecovacs Deebot X8 Pro Omni: l’altro riferimento con rullo</h3>
+<p>Anche l’Ecovacs Deebot X8 Pro Omni punta su un rullo, l’<strong>OZMO Roller</strong>, alimentato con acqua pulita da 16 ugelli e che ruota a 200 giri/min. Dichiara <strong>18.000 Pa</strong> di aspirazione e una spazzola anti-groviglio ZeroTangle 2.0.</p>
+<p><strong>Punti di forza:</strong> una stazione OMNI che regola la temperatura di lavaggio del rullo tra 40 e 75 °C in base alla stanza e allo sporco, asciugatura ad aria calda e dosaggio automatico del detergente. Ecovacs indica una vaschetta di lavaggio prevista per 150 giorni senza manutenzione.</p>
+<p><strong>Limiti:</strong> una parte degli utenti trova l’app ECOVACS HOME più complessa di quella Roborock, e i ricambi del rullo sono specifici del marchio.</p>
+<p><strong>Per chi:</strong> chi cerca un rullo lavante con una stazione molto automatizzata, soprattutto per ampi pavimenti duri.</p>
+
+<h3>4. Narwal Freo Z Ultra: lo specialista del lavaggio con panni</h3>
+<p>Narwal si è fatta conoscere per il lavaggio, e il Freo Z Ultra segue la stessa logica. I suoi due panni triangolari premono sul pavimento con 12 N a 180 giri/min, e la tecnologia <strong>DirtSense</strong> analizza l’acqua sporca per decidere se una zona richiede un secondo passaggio. L’aspirazione dichiarata è di <strong>12.000 Pa</strong>.</p>
+<p><strong>Punti di forza:</strong> doppia telecamera grandangolare e doppio chip per riconoscere circa 120 tipi di ostacoli, lavaggio dei panni fino a 75 °C seguito da asciugatura a 40 °C, sollevamento del panno di 12 mm sui tappeti.</p>
+<p><strong>Limiti:</strong> l’aspirazione è inferiore a quella dei modelli precedenti, cosa che conta sui tappeti spessi o con molti peli di animali.</p>
+<p><strong>Per chi:</strong> abitazioni con pavimenti soprattutto duri, dove il lavaggio conta più dell’aspirazione dei tappeti.</p>
+
+<h3>5. Dreame L40 Ultra: il miglior rapporto qualità-prezzo</h3>
+<p>Il Dreame L40 Ultra porta gran parte della dotazione premium in una fascia più accessibile. Dichiara <strong>11.000 Pa</strong>, un panno estensibile MopExtend RoboSwing, una spazzola laterale estensibile e la possibilità di lasciare i panni alla stazione per aspirare i tappeti.</p>
+<p><strong>Punti di forza:</strong> stazione completa (svuotamento, riempimento, lavaggio dei panni a 65 °C, asciugatura ad aria calda), navigazione LiDAR con telecamera RGB e luce strutturata 3D, autonomia dichiarata fino a 194 minuti. Le recensioni indipendenti segnalano un’app intuitiva e un buon riconoscimento degli ostacoli.</p>
+<p><strong>Limiti:</strong> il sollevamento del panno di 10,5 mm è modesto, un ciclo completo richiede tempo e la stazione occupa spazio.</p>
+<p><strong>Per chi:</strong> un appartamento o una casa di medie dimensioni, per avere una stazione completa senza puntare al top di gamma.</p>
+
+<h2>Tabella di confronto dei robot aspirapolvere lavapavimenti 2026</h2>
 <table>
 <thead>
-<tr><th>Criterio</th><th>Roborock S8 MaxV Ultra</th><th>Dreame X40 Ultra</th><th>Ecovacs X5 Omni</th><th>Xiaomi X20 Max</th></tr>
+<tr><th>Modello</th><th>Aspirazione dichiarata</th><th>Sistema di lavaggio</th><th>Lavaggio in stazione</th><th>Caratteristica distintiva</th><th>Ideale per</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Aspirazione</strong></td><td>10.000 Pa</td><td>12.000 Pa</td><td>12.800 Pa</td><td>8.000 Pa</td></tr>
-<tr><td><strong>Sistema lavaggio</strong></td><td>Vibrante (4.000 vib/min)</td><td>Doppio rotante + braccio estensibile</td><td>Doppio rotante OZMO Turbo</td><td>Doppio rotante</td></tr>
-<tr><td><strong>Acqua calda</strong></td><td>Sì (60 °C)</td><td>Sì (70 °C)</td><td>Sì (70 °C)</td><td>No</td></tr>
-<tr><td><strong>Auto-detergente</strong></td><td>Sì</td><td>Sì</td><td>Sì</td><td>No</td></tr>
-<tr><td><strong>Asciugatura aria calda</strong></td><td>Sì (2h)</td><td>Sì (2h)</td><td>Sì (3h)</td><td>No</td></tr>
-<tr><td><strong>Sollevamento panno</strong></td><td>Sì (20 mm)</td><td>Sì (10,5 mm)</td><td>Sì (15 mm)</td><td>Sì (10 mm)</td></tr>
-<tr><td><strong>Navigazione</strong></td><td>LiDAR + camera IA</td><td>LiDAR + camera IA</td><td>LiDAR + camera IA</td><td>LiDAR + camera</td></tr>
-<tr><td><strong>Autonomia</strong></td><td>180 min</td><td>210 min</td><td>200 min</td><td>150 min</td></tr>
-<tr><td><strong>Matter</strong></td><td>Sì</td><td>Sì</td><td>No</td><td>Sì</td></tr>
-<tr><td><strong>Prezzo</strong></td><td>~800 €</td><td>~1.200 €</td><td>~950 €</td><td>~450 €</td></tr>
-<tr><td><strong>Voto /10</strong></td><td>9,2</td><td>9,5</td><td>8,8</td><td>8,3</td></tr>
+<tr><td>Dreame X50 Ultra Complete</td><td>20.000 Pa</td><td>Panni rotanti, estensibili</td><td>Acqua calda a 80 °C + asciugatura</td><td>Supera fino a 6 cm, LiDAR retrattile</td><td>Case versatili</td></tr>
+<tr><td>Roborock Qrevo Curv 2 Flow</td><td>20.000 Pa</td><td>Rullo SpiraFlow da 270 mm</td><td>Fino a 75 °C + asciugatura</td><td>Rullo pulito in continuo, Matter</td><td>Grandi pavimenti duri, cucina</td></tr>
+<tr><td>Ecovacs Deebot X8 Pro Omni</td><td>18.000 Pa</td><td>OZMO Roller</td><td>Da 40 a 75 °C adattivo + asciugatura</td><td>Dosaggio automatico del detergente</td><td>Ampi pavimenti duri</td></tr>
+<tr><td>Narwal Freo Z Ultra</td><td>12.000 Pa</td><td>Panni triangolari, 12 N</td><td>Fino a 75 °C + asciugatura a 40 °C</td><td>DirtSense, doppia telecamera</td><td>Priorità al lavaggio</td></tr>
+<tr><td>Dreame L40 Ultra</td><td>11.000 Pa</td><td>Panni rotanti, MopExtend</td><td>Acqua calda a 65 °C + asciugatura</td><td>Dotazione completa in fascia media</td><td>Miglior rapporto qualità-prezzo</td></tr>
 </tbody>
 </table>
 
-<h2>Roborock S8 MaxV Ultra: miglior rapporto qualità-prezzo premium</h2>
-<h3>Punti di forza</h3>
-<p>Il Roborock S8 MaxV Ultra è il modello più equilibrato di questo confronto. Con <strong>10.000 Pa di aspirazione</strong>, gestisce ogni tipo di polvere, briciole e peli animali su qualsiasi superficie. Il panno vibrante a 4.000 vibrazioni al minuto offre una pulizia umida convincente. La stazione multifunzione è esemplare: autosvuotamento, lavaggio panni ad acqua calda (60 °C), asciugatura ad aria calda in 2 ore e dosaggio automatico del detergente.</p>
-<p>L'app Roborock Home è la più intuitiva sul mercato: mappatura 3D, gestione multipiano, programmazione per stanza e compatibilità <strong>Matter</strong> per garantire l'integrazione domotica a lungo termine.</p>
-
-<h3>Punti deboli</h3>
-<p>Il panno vibrante rende meno dei sistemi rotanti sulle macchie secche. Il design rotondo classico non raggiunge gli angoli come il Dreame X40 Ultra con il suo braccio estensibile.</p>
-
-<h3>Il nostro verdetto</h3>
-<p><strong>Voto: 9,2/10</strong> — La scelta ideale per un robot aspirapolvere lavapavimenti premium affidabile a meno di 800 €.</p>
-
-<h2>Dreame X40 Ultra: il più innovativo e potente</h2>
-<h3>Punti di forza</h3>
-<p>Il Dreame X40 Ultra domina questo confronto con <strong>12.000 Pa di aspirazione</strong>. Ma il suo vero punto di forza è il <strong>braccio estensibile</strong> (MopExtend RoboSwing), che permette al panno rotante di raggiungere battiscopa, angoli e zone sotto mobili bassi irraggiungibili dagli altri robot. Lavaggio ad acqua calda a 70 °C, stazione completa con asciugatura e 210 minuti di autonomia per coprire case di oltre 200 m².</p>
-
-<h3>Punti deboli</h3>
-<p>Il prezzo di ~1.200 € è il più alto. L'app Dreamehome è meno intuitiva di quella Roborock. Il servizio clienti in Europa è ancora migliorabile. La stazione è voluminosa.</p>
-
-<h3>Il nostro verdetto</h3>
-<p><strong>Voto: 9,5/10</strong> — Il miglior robot aspirapolvere lavapavimenti del 2026 se il budget non è un vincolo.</p>
-
-<h2>Ecovacs X5 Omni: il design premium</h2>
-<h3>Punti di forza</h3>
-<p>L'Ecovacs X5 Omni si distingue per l'<strong>aspirazione record di 12.800 Pa</strong> e il design quadrato unico che raggiunge gli angoli meglio dei robot rotondi. Sistema OZMO Turbo con doppio panno rotante, lavaggio ad acqua calda a 70 °C e stazione completa.</p>
-
-<h3>Punti deboli</h3>
-<p>Nessuna compatibilità <strong>Matter</strong>, limitando l'integrazione domotica. App occasionalmente instabile. Asciugatura in 3 ore, un'ora in più rispetto alla concorrenza.</p>
-
-<h3>Il nostro verdetto</h3>
-<p><strong>Voto: 8,8/10</strong> — Eccellente robot penalizzato dalla mancanza di Matter e da un'app migliorabile.</p>
-
-<h2>Xiaomi X20 Max: il miglior rapporto qualità-prezzo</h2>
-<h3>Punti di forza</h3>
-<p>Lo Xiaomi X20 Max è la sorpresa di questo confronto. Per <strong>~450 €</strong>, offre prestazioni che un anno fa costavano 800 €. 8.000 Pa di aspirazione, doppio panno rotante, navigazione LiDAR + camera precisa e compatibilità Matter di serie.</p>
-
-<h3>Punti deboli</h3>
-<p>Niente acqua calda, niente auto-detergente, niente asciugatura. Stazione basica (solo autosvuotamento). 150 minuti di autonomia possono essere limitanti. 8.000 Pa possono non bastare per tappeti spessi.</p>
-
-<h3>Il nostro verdetto</h3>
-<p><strong>Voto: 8,3/10</strong> — La scelta intelligente per un primo robot aspirapolvere lavapavimenti di qualità senza spendere troppo.</p>
-
-<h2>Quale robot aspirapolvere lavapavimenti comprare? Verdetto finale</h2>
+<h2>Errori da evitare</h2>
 <ul>
-<li><strong>Migliore in assoluto:</strong> Dreame X40 Ultra — il più potente e innovativo.</li>
-<li><strong>Miglior rapporto qualità-prezzo premium:</strong> Roborock S8 MaxV Ultra — il più affidabile con la migliore app.</li>
-<li><strong>Miglior design:</strong> Ecovacs X5 Omni — formato quadrato vantaggioso per gli angoli.</li>
-<li><strong>Miglior budget:</strong> Xiaomi X20 Max — prestazioni solide per 450 €.</li>
+<li><strong>Scegliere solo in base ai pascal.</strong> Oltre i 10.000 Pa, spazzola, tenuta del robot e sistema anti-groviglio contano quanto la potenza dichiarata.</li>
+<li><strong>Dimenticare l’ingombro della stazione.</strong> Una stazione completa occupa parecchio spazio a terra e deve restare accessibile per svuotare l’acqua sporca e cambiare il sacchetto.</li>
+<li><strong>Sottovalutare i tappeti spessi.</strong> Un sollevamento di 10-12 mm non protegge un tappeto a pelo lungo: scegliete un modello che lascia i panni alla stazione o create una zona senza lavaggio.</li>
+<li><strong>Usare qualsiasi detergente.</strong> Le stazioni con dosaggio automatico sono pensate per il detergente del marchio. Un prodotto schiumoso o troppo concentrato può intasare il circuito.</li>
+<li><strong>Ignorare i ricambi.</strong> Sacchetti, filtri, spazzole, panni o rulli vanno sostituiti regolarmente. Verificate che siano facili da trovare prima dell’acquisto.</li>
 </ul>
-<p>Per una guida completa, consulta la nostra <a href="/it/blog/guide-robot-aspirateur-2026">guida ai robot aspirapolvere 2026</a>. Se hai animali domestici, il nostro articolo sui <a href="/it/blog/robot-aspirateur-poils-animaux">robot aspirapolvere per pelo animali</a> ti aiuterà.</p>
 
-<h2>Consigli per l'acquisto</h2>
+<h2>Uso e manutenzione quotidiana</h2>
 <ul>
-<li><strong>Misura l'altezza dei tuoi mobili:</strong> i robot misurano 9,5-10,5 cm di altezza.</li>
-<li><strong>Verifica il costo dei consumabili:</strong> sacchetti (3-5 €), panni (10-20 €), filtri HEPA (10-20 €). Circa 50-100 € all'anno.</li>
-<li><strong>Privilegia Matter:</strong> garantisce compatibilità domotica a lungo termine.</li>
-<li><strong>Aspetta le offerte:</strong> i prezzi calano del 20-35% durante Black Friday, Prime Day e saldi.</li>
-<li><strong>Spazio per la stazione:</strong> le stazioni complete misurano circa 40 x 45 x 55 cm.</li>
-</ul>`,
+<li><strong>Parquet:</strong> impostate il flusso d’acqua al minimo su parquet verniciato o laminato, ed evitate di lavare il legno oliato o cerato senza il consenso del produttore del pavimento.</li>
+<li><strong>Prima mappa:</strong> sistemate cavi e piccoli oggetti, aprite le porte e lasciate che il robot mappi tutta la casa prima di definire stanze e zone vietate.</li>
+<li><strong>Igiene:</strong> svuotate e risciacquate regolarmente il serbatoio dell’acqua sporca, anche se la stazione asciuga il panno. È la principale fonte di odori segnalata dai proprietari.</li>
+<li><strong>Sicurezza:</strong> collegate la stazione a una presa in buono stato, non a una ciabatta sovraccarica, e tenetela lontano dagli schizzi d’acqua. Se avete animali, la nostra guida ai <a href="/it/blog/robot-aspirateur-poils-animaux">robot aspirapolvere per peli di animali</a> spiega le impostazioni utili.</li>
+</ul>
 
-    nl: `<h2>Waarom kiezen voor een robotstofzuiger met dweilfunctie in 2026?</h2>
-<p>De robotstofzuiger met dweilfunctie is de ultieme alles-in-een-oplossing voor vloeronderhoud geworden. De dagen dat je eerst moest stofzuigen en dan dweilen zijn voorbij: in 2026 doet één apparaat beide tegelijk, met resultaten die handmatig schoonmaken evenaren. De technologie heeft spectaculaire vooruitgang geboekt: roterende dweilpads met constante druk, dweilen met heet water, automatische zeapdosering en multifunctionele onderhoudsstations.</p>
-<p>Deze vergelijking zet de <strong>4 beste robotstofzuigers met dweilfunctie van 2026</strong> tegenover elkaar. We evalueerden elk model op zuigkracht, dweileffectiviteit, stationfuncties, navigatie, app-kwaliteit en prijs-kwaliteitverhouding. Voor een volledig overzicht van alle keuzecriteria, zie onze <a href="/nl/blog/guide-robot-aspirateur-2026">complete robotstofzuiger koopgids 2026</a>.</p>
+<h2>Il nostro verdetto</h2>
+<p>Per la maggior parte delle case, il <strong>Dreame X50 Ultra Complete</strong> è il robot aspirapolvere lavapavimenti più completo del 2026: potente, agile sulle soglie e molto autonomo. Se la vostra priorità è lavare grandi superfici di pavimento duro, il <strong>Roborock Qrevo Curv 2 Flow</strong> e il suo rullo pulito in continuo sono più adatti, con l’<strong>Ecovacs Deebot X8 Pro Omni</strong> come alternativa diretta. Il <strong>Narwal Freo Z Ultra</strong> è indicato per chi mette il lavaggio al primo posto, e il <strong>Dreame L40 Ultra</strong> offre l’essenziale di una stazione completa in una fascia più accessibile.</p>
+<p>Per conoscere tutti i criteri di scelta, compresi i robot senza lavaggio, leggete la nostra <a href="/it/blog/guide-robot-aspirateur-2026">guida completa ai robot aspirapolvere 2026</a>.</p>`,
 
-<h2>Vergelijkingstabel: de 4 beste robotstofzuigers met dweilfunctie 2026</h2>
+    nl: `<p><strong>De beste robotstofzuiger met dweilfunctie in 2026 voor de meeste huishoudens is de Dreame X50 Ultra Complete</strong>: zeer sterke zuigkracht, een uitschuifbare dweil en zijborstel voor randen, dweilreiniging met heet water en een onderstel dat hoge drempels neemt. Heb je vooral harde vloeren en plakkerige vlekken, dan is de Roborock Qrevo Curv 2 Flow met zijn dweilrol het interessantste alternatief, en de Dreame L40 Ultra blijft de verstandige keuze voor een volledige uitrusting in het middensegment.</p>
+<p>Deze vergelijking is gebaseerd op specificaties van de fabrikanten, gepubliceerde onafhankelijke reviews en ervaringen van geverifieerde kopers. We nemen alleen modellen op die in 2026 in Europa verkocht worden. Zuigkracht en temperaturen zijn de waarden die de merken opgeven: ze helpen om de modellen onderling te plaatsen, niet om het exacte resultaat bij jou thuis te voorspellen. De volledige selectie vind je op onze pagina over <a href="/nl/entretien-maison/aspirateurs-robots">robotstofzuigers</a>.</p>
+
+<h2>Zo kies je in 2026 een robotstofzuiger met dweilfunctie</h2>
+<p>Bijna alle topmodellen zuigen en dweilen inmiddels in één beurt. De echte verschillen zitten in vijf punten.</p>
+<ul>
+<li><strong>Het dweilsysteem.</strong> Er zijn twee families. <strong>Draaiende dweilpads</strong> (twee schijven die met druk over de vloer draaien) zijn al jaren de standaard en kunnen vaak in het station achterblijven zodat de robot tapijten kan zuigen. <strong>Dweilrollen</strong> zijn nieuwer: ze krijgen continu schoon water terwijl vuil water wordt afgeschraapt, zodat de vloer gedweild wordt met een rol die de hele beurt schoner blijft.</li>
+<li><strong>Het station.</strong> Een volledig station leegt het stofreservoir, vult de tank bij, wast de dweil met heet water, droogt hem met warme lucht en doseert soms schoonmaakmiddel. Het hete water dient vooral om de dweil in het station te reinigen, wat geurtjes voorkomt.</li>
+<li><strong>Omgaan met tapijt.</strong> Controleer hoe hoog de dweil wordt opgetild en of de dweilen in het station kunnen blijven. 10 tot 12 mm volstaat voor kortpolig tapijt, niet voor dikke kleden.</li>
+<li><strong>Navigatie en obstakeldetectie.</strong> LiDAR zorgt voor de kaart; een camera of 3D-gestructureerd licht laat de robot kabels, sokken en uitwerpselen van huisdieren ontwijken.</li>
+<li><strong>Hoogte en klimvermogen.</strong> Een robot van meer dan 10 cm past niet onder veel lage meubels. Sommige modellen laten hun LiDAR-toren zakken of tillen hun onderstel op om drempels te nemen.</li>
+</ul>
+
+<h2>De 5 beste robotstofzuigers met dweilfunctie in 2026</h2>
+
+<h3>1. Dreame X50 Ultra Complete: beste keuze overall</h3>
+<p>De Dreame X50 Ultra Complete belooft <strong>20.000 Pa zuigkracht</strong>, een zijborstel en draaiende dweil die uitschuiven naar plinten en onder meubels, en een hoofdborstel die het verstrikken van haren moet beperken. Volgens Dreame neemt het <strong>ProLeap</strong>-systeem obstakels tot 6 cm, en de inklapbare LiDAR-toren brengt de hoogte terug tot 8,9 cm voor lage meubels.</p>
+<p><strong>Sterke punten:</strong> een zeer compleet station (automatisch legen, dweilreiniging op 80 °C, drogen met warme lucht), obstakeldetectie met RGB-camera en 3D-gestructureerd licht, en een opgegeven gebruiksduur tot 220 minuten. Onafhankelijke reviews prijzen vooral de randreiniging en de veelzijdigheid op tapijt en harde vloer.</p>
+<p><strong>Beperkingen:</strong> het is een premiummodel, het station is groot en de app biedt zoveel instellingen dat je even moet wennen.</p>
+<p><strong>Voor wie:</strong> huizen met drempels en een mix van tapijt en harde vloeren, en iedereen die een zo zelfstandig mogelijke robot wil.</p>
+
+<h3>2. Roborock Qrevo Curv 2 Flow: de dweilrol voor harde vloeren</h3>
+<p>De Roborock Qrevo Curv 2 Flow is de eerste robot van het merk met een <strong>dweilrol</strong>. Het SpiraFlow-systeem verdeelt schoon water via acht punten over een rol van 270 mm, terwijl een schraper continu vuil water verwijdert. Roborock belooft een veel hogere dweildruk dan bij zijn draaiende pads en <strong>20.000 Pa</strong> zuigkracht.</p>
+<p><strong>Sterke punten:</strong> een rol die tijdens de beurt schoon blijft, ideaal voor keukens en plakkerige vlekken; een station dat leegt, bijvult, de rol wast met heet water tot 75 °C en droogt met warme lucht; ondersteuning voor <strong>Matter</strong> voor je smart home; en een Roborock-app die als overzichtelijk bekendstaat.</p>
+<p><strong>Beperkingen:</strong> door de vaste LiDAR-toren is hij hoger dan modellen met inklapbare LiDAR, waardoor hij niet onder alle meubels past. De rol is een slijtdeel om in de gaten te houden.</p>
+<p><strong>Voor wie:</strong> grote oppervlakken tegels of vinyl, open keukens en gezinnen.</p>
+
+<h3>3. Ecovacs Deebot X8 Pro Omni: de andere referentie met rol</h3>
+<p>Ook de Ecovacs Deebot X8 Pro Omni kiest voor een rol, de <strong>OZMO Roller</strong>, die via 16 sproeiers schoon water krijgt en met 200 tpm draait. Hij belooft <strong>18.000 Pa</strong> zuigkracht en een anti-klitborstel ZeroTangle 2.0.</p>
+<p><strong>Sterke punten:</strong> een OMNI-station dat de wastemperatuur van de rol tussen 40 en 75 °C aanpast aan de ruimte en de vervuiling, drogen met warme lucht en automatische dosering van schoonmaakmiddel. Ecovacs belooft een wasbak die 150 dagen zonder onderhoud kan.</p>
+<p><strong>Beperkingen:</strong> een deel van de gebruikers vindt de app ECOVACS HOME drukker dan die van Roborock, en de verbruiksonderdelen van de rol zijn merkgebonden.</p>
+<p><strong>Voor wie:</strong> wie een dweilrol wil met een sterk geautomatiseerd station, vooral voor grote harde vloeren.</p>
+
+<h3>4. Narwal Freo Z Ultra: de dweilspecialist met pads</h3>
+<p>Narwal werd bekend door zijn dweilprestaties, en de Freo Z Ultra volgt dezelfde lijn. Zijn twee driehoekige dweilpads drukken met 12 N bij 180 tpm op de vloer, en de <strong>DirtSense</strong>-technologie analyseert het vuile water om te bepalen of een zone een tweede beurt nodig heeft. De opgegeven zuigkracht is <strong>12.000 Pa</strong>.</p>
+<p><strong>Sterke punten:</strong> twee groothoekcamera’s en twee chips die ongeveer 120 soorten obstakels herkennen, dweilreiniging tot 75 °C gevolgd door drogen op 40 °C, en 12 mm dweillift op tapijt.</p>
+<p><strong>Beperkingen:</strong> de zuigkracht blijft achter bij de vorige modellen, wat telt op dikke kleden of bij veel huisdierhaar.</p>
+<p><strong>Voor wie:</strong> woningen met vooral harde vloeren, waar dweilen belangrijker is dan tapijt zuigen.</p>
+
+<h3>5. Dreame L40 Ultra: beste prijs-kwaliteitverhouding</h3>
+<p>De Dreame L40 Ultra brengt een groot deel van de premiumuitrusting naar een toegankelijker segment. Hij belooft <strong>11.000 Pa</strong>, een uitschuifbare dweil MopExtend RoboSwing, een uitschuifbare zijborstel en de mogelijkheid om de dweilen in het station te laten om tapijt te zuigen.</p>
+<p><strong>Sterke punten:</strong> volledig station (legen, bijvullen, dweilreiniging op 65 °C, drogen met warme lucht), LiDAR-navigatie met RGB-camera en 3D-gestructureerd licht, en een opgegeven gebruiksduur tot 194 minuten. Onafhankelijke reviews noemen een intuïtieve app en goede obstakeldetectie.</p>
+<p><strong>Beperkingen:</strong> de dweillift van 10,5 mm is bescheiden, een volledige beurt duurt even en het station vraagt ruimte.</p>
+<p><strong>Voor wie:</strong> een appartement of middelgroot huis, voor een volledig station zonder naar de absolute top te gaan.</p>
+
+<h2>Vergelijkingstabel robotstofzuigers met dweilfunctie 2026</h2>
 <table>
 <thead>
-<tr><th>Criterium</th><th>Roborock S8 MaxV Ultra</th><th>Dreame X40 Ultra</th><th>Ecovacs X5 Omni</th><th>Xiaomi X20 Max</th></tr>
+<tr><th>Model</th><th>Opgegeven zuigkracht</th><th>Dweilsysteem</th><th>Reiniging in het station</th><th>Onderscheidend kenmerk</th><th>Ideaal voor</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Zuigkracht</strong></td><td>10.000 Pa</td><td>12.000 Pa</td><td>12.800 Pa</td><td>8.000 Pa</td></tr>
-<tr><td><strong>Dweilsysteem</strong></td><td>Vibrerend (4.000 vib/min)</td><td>Dubbel roterend + uitschuifbare arm</td><td>Dubbel roterend OZMO Turbo</td><td>Dubbel roterend</td></tr>
-<tr><td><strong>Heet water</strong></td><td>Ja (60 °C)</td><td>Ja (70 °C)</td><td>Ja (70 °C)</td><td>Nee</td></tr>
-<tr><td><strong>Auto-zeep</strong></td><td>Ja</td><td>Ja</td><td>Ja</td><td>Nee</td></tr>
-<tr><td><strong>Heteluchtdroging</strong></td><td>Ja (2u)</td><td>Ja (2u)</td><td>Ja (3u)</td><td>Nee</td></tr>
-<tr><td><strong>Dweilpad-opheffing</strong></td><td>Ja (20 mm)</td><td>Ja (10,5 mm)</td><td>Ja (15 mm)</td><td>Ja (10 mm)</td></tr>
-<tr><td><strong>Navigatie</strong></td><td>LiDAR + AI-camera</td><td>LiDAR + AI-camera</td><td>LiDAR + AI-camera</td><td>LiDAR + camera</td></tr>
-<tr><td><strong>Accuduur</strong></td><td>180 min</td><td>210 min</td><td>200 min</td><td>150 min</td></tr>
-<tr><td><strong>Matter</strong></td><td>Ja</td><td>Ja</td><td>Nee</td><td>Ja</td></tr>
-<tr><td><strong>Prijs</strong></td><td>~€800</td><td>~€1.200</td><td>~€950</td><td>~€450</td></tr>
-<tr><td><strong>Score /10</strong></td><td>9,2</td><td>9,5</td><td>8,8</td><td>8,3</td></tr>
+<tr><td>Dreame X50 Ultra Complete</td><td>20.000 Pa</td><td>Draaiende pads, uitschuifbaar</td><td>Heet water 80 °C + drogen</td><td>Neemt tot 6 cm, inklapbare LiDAR</td><td>Veelzijdige woningen</td></tr>
+<tr><td>Roborock Qrevo Curv 2 Flow</td><td>20.000 Pa</td><td>SpiraFlow-rol 270 mm</td><td>Tot 75 °C + drogen</td><td>Rol continu gereinigd, Matter</td><td>Grote harde vloeren, keuken</td></tr>
+<tr><td>Ecovacs Deebot X8 Pro Omni</td><td>18.000 Pa</td><td>OZMO Roller</td><td>40 tot 75 °C adaptief + drogen</td><td>Automatische dosering schoonmaakmiddel</td><td>Grote harde vloeren</td></tr>
+<tr><td>Narwal Freo Z Ultra</td><td>12.000 Pa</td><td>Driehoekige pads, 12 N</td><td>Tot 75 °C + drogen op 40 °C</td><td>DirtSense, twee camera’s</td><td>Dweilen eerst</td></tr>
+<tr><td>Dreame L40 Ultra</td><td>11.000 Pa</td><td>Draaiende pads, MopExtend</td><td>Heet water 65 °C + drogen</td><td>Volledige uitrusting in het middensegment</td><td>Beste prijs-kwaliteit</td></tr>
 </tbody>
 </table>
 
-<h2>Roborock S8 MaxV Ultra: beste prijs-kwaliteit in het premium segment</h2>
-<h3>Sterke punten</h3>
-<p>De Roborock S8 MaxV Ultra is het meest evenwichtige model in deze vergelijking. Met <strong>10.000 Pa zuigkracht</strong> verwerkt hij alle soorten stof, kruimels en dierenharen op elk vloertype. Zijn vibrerend dweilpad met 4.000 trillingen per minuut levert overtuigende natte reiniging. Het multifunctionele station is voorbeeldig: automatisch legen, dweilpads wassen met heet water (60 °C), drogen met hete lucht in 2 uur en automatische zeepdosering.</p>
-<p>De Roborock Home app is de meest intuïtieve op de markt: 3D-mapping, meerdere verdiepingen, planning per kamer en <strong>Matter</strong>-compatibiliteit voor langdurige smart home-integratie.</p>
-
-<h3>Zwakke punten</h3>
-<p>Het vibrerende dweilpad presteert minder dan roterende systemen op opgedroogde vlekken. Het klassieke ronde ontwerp bereikt hoeken niet zo goed als de Dreame X40 Ultra met zijn uitschuifbare arm.</p>
-
-<h3>Ons oordeel</h3>
-<p><strong>Score: 9,2/10</strong> — De ideale keuze voor een betrouwbare premium robotstofzuiger met dweilfunctie onder €800.</p>
-
-<h2>Dreame X40 Ultra: de meest innovatieve en krachtigste</h2>
-<h3>Sterke punten</h3>
-<p>De Dreame X40 Ultra domineert deze vergelijking met <strong>12.000 Pa zuigkracht</strong>. Maar zijn echte troef is de <strong>uitschuifbare arm</strong> (MopExtend RoboSwing), waarmee het roterende dweilpad plinten, hoeken en zones onder lage meubels bereikt die andere robots niet kunnen reinigen. Dweilen met heet water op 70 °C, compleet station met droging en 210 minuten accuduur voor woningen boven 200 m².</p>
-
-<h3>Zwakke punten</h3>
-<p>De prijs van ~€1.200 is de hoogste. De Dreamehome-app is minder intuïtief dan Roborock. De klantenservice in Europa kan beter. Het station is omvangrijk.</p>
-
-<h3>Ons oordeel</h3>
-<p><strong>Score: 9,5/10</strong> — De beste robotstofzuiger met dweilfunctie van 2026 als budget geen beperking is.</p>
-
-<h2>Ecovacs X5 Omni: het premium design</h2>
-<h3>Sterke punten</h3>
-<p>De Ecovacs X5 Omni onderscheidt zich met zijn <strong>recordzuigkracht van 12.800 Pa</strong> en uniek vierkant ontwerp dat hoeken effectiever bereikt dan ronde robots. OZMO Turbo-systeem met dubbele roterende dweilpads, dweilen met heet water op 70 °C en compleet station.</p>
-
-<h3>Zwakke punten</h3>
-<p>Geen <strong>Matter</strong>-compatibiliteit, wat de domotica-integratie op lange termijn beperkt. App af en toe instabiel. Droging in 3 uur, een uur langer dan concurrenten.</p>
-
-<h3>Ons oordeel</h3>
-<p><strong>Score: 8,8/10</strong> — Uitstekende robot die wordt afgeremd door ontbrekend Matter en een verbeterbare app.</p>
-
-<h2>Xiaomi X20 Max: de beste prijs-kwaliteitverhouding</h2>
-<h3>Sterke punten</h3>
-<p>De Xiaomi X20 Max is de verrassing van deze vergelijking. Voor <strong>~€450</strong> biedt hij prestaties die een jaar geleden €800 kostten. 8.000 Pa zuigkracht, dubbel roterend dweilpad, nauwkeurige LiDAR + camera-navigatie en Matter-compatibiliteit uit de doos.</p>
-
-<h3>Zwakke punten</h3>
-<p>Geen heet water, geen auto-zeep, geen droging. Basisstation (alleen automatisch legen). 150 minuten accuduur kan beperkend zijn. 8.000 Pa kan tekortschieten op dikke tapijten.</p>
-
-<h3>Ons oordeel</h3>
-<p><strong>Score: 8,3/10</strong> — De slimme keuze voor een eerste kwaliteitsrobostofzuiger met dweilfunctie zonder te veel uit te geven.</p>
-
-<h2>Welke robotstofzuiger met dweilfunctie kopen? Eindoordeel</h2>
+<h2>Fouten om te vermijden</h2>
 <ul>
-<li><strong>Beste overall:</strong> Dreame X40 Ultra — de krachtigste en meest innovatieve.</li>
-<li><strong>Beste premium prijs-kwaliteit:</strong> Roborock S8 MaxV Ultra — de betrouwbaarste met de beste app.</li>
-<li><strong>Beste design:</strong> Ecovacs X5 Omni — vierkant formaat is een echt voordeel voor hoeken.</li>
-<li><strong>Beste budget:</strong> Xiaomi X20 Max — solide prestaties voor €450.</li>
+<li><strong>Alleen op pascal kiezen.</strong> Boven 10.000 Pa tellen de borstel, de afdichting van de robot en het anti-klitontwerp net zo zwaar als het opgegeven vermogen.</li>
+<li><strong>De ruimte voor het station vergeten.</strong> Een volledig station neemt flink wat vloerruimte in en moet bereikbaar blijven om vuil water te legen en de zak te vervangen.</li>
+<li><strong>Dikke kleden onderschatten.</strong> 10 tot 12 mm dweillift beschermt geen hoogpolig tapijt: kies een model dat de dweilen in het station laat, of stel een dweilverbod in.</li>
+<li><strong>Elk schoonmaakmiddel gebruiken.</strong> Stations met automatische dosering zijn ontworpen voor het middel van het merk. Een schuimend of te geconcentreerd product kan het systeem verstoppen.</li>
+<li><strong>Verbruiksonderdelen negeren.</strong> Stofzakken, filters, borstels, pads of rollen moeten regelmatig vervangen worden. Controleer vóór aankoop of ze makkelijk te vinden zijn.</li>
 </ul>
-<p>Voor een complete gids, zie onze <a href="/nl/blog/guide-robot-aspirateur-2026">robotstofzuiger koopgids 2026</a>. Als je huisdieren hebt, helpt ons artikel over <a href="/nl/blog/robot-aspirateur-poils-animaux">robotstofzuigers voor huisdieren</a> bij je keuze.</p>
 
-<h2>Kooptips: wat controleren voor je bestelt</h2>
+<h2>Dagelijks gebruik en onderhoud</h2>
 <ul>
-<li><strong>Meet de hoogte van je meubels:</strong> robots zijn 9,5-10,5 cm hoog.</li>
-<li><strong>Controleer verbruikskosten:</strong> stationzakken (€3-5), dweilpads (€10-20), HEPA-filters (€10-20). Reken op €50-100 per jaar.</li>
-<li><strong>Geef voorrang aan Matter:</strong> dit protocol garandeert langdurige smart home-compatibiliteit.</li>
-<li><strong>Wacht op aanbiedingen:</strong> prijzen dalen 20-35% tijdens Black Friday, Prime Day en uitverkoop.</li>
-<li><strong>Ruimte voor het station:</strong> complete stations meten ongeveer 40 x 45 x 55 cm.</li>
-</ul>`,
+<li><strong>Parket:</strong> zet de waterstroom op het minimum bij gelakt parket of laminaat, en dweil geolied of gewaxt hout alleen als de vloerfabrikant dat toestaat.</li>
+<li><strong>Eerste kaart:</strong> ruim kabels en kleine voorwerpen op, zet de deuren open en laat de robot de hele woning in kaart brengen voordat je kamers en verboden zones instelt.</li>
+<li><strong>Hygiëne:</strong> leeg en spoel de vuilwatertank regelmatig, ook als het station de dweil droogt. Volgens eigenaars is dat de belangrijkste bron van geurtjes.</li>
+<li><strong>Veiligheid:</strong> sluit het station aan op een stopcontact in goede staat, niet op een overbelaste stekkerdoos, en houd het uit de buurt van spatwater. Heb je huisdieren, dan legt onze gids over <a href="/nl/blog/robot-aspirateur-poils-animaux">robotstofzuigers voor huisdierhaar</a> de nuttige instellingen uit.</li>
+</ul>
+
+<h2>Ons oordeel</h2>
+<p>Voor de meeste huishoudens is de <strong>Dreame X50 Ultra Complete</strong> de meest complete robotstofzuiger met dweilfunctie van 2026: krachtig, wendbaar op drempels en zeer zelfstandig. Wil je vooral grote harde vloeren dweilen, dan passen de <strong>Roborock Qrevo Curv 2 Flow</strong> en zijn continu gereinigde rol beter, met de <strong>Ecovacs Deebot X8 Pro Omni</strong> als direct alternatief. De <strong>Narwal Freo Z Ultra</strong> past bij wie dweilen voorop zet, en de <strong>Dreame L40 Ultra</strong> biedt de kern van een volledig station in een toegankelijker segment.</p>
+<p>Alle aankoopcriteria, ook voor robots zonder dweilfunctie, lees je in onze <a href="/nl/blog/guide-robot-aspirateur-2026">complete gids voor robotstofzuigers 2026</a>.</p>`,
   },
   faq: [
     {
       question: {
-        fr: 'Quelle est la différence entre un robot aspirateur et un robot aspirateur laveur ?',
-        en: 'What is the difference between a robot vacuum and a robot vacuum mop combo?',
-        de: 'Was ist der Unterschied zwischen einem Saugroboter und einem Saugroboter mit Wischfunktion?',
-        es: '¿Cuál es la diferencia entre un robot aspirador y un robot aspirador fregasuelos?',
-        it: 'Qual è la differenza tra un robot aspirapolvere e un robot aspirapolvere lavapavimenti?',
-        nl: 'Wat is het verschil tussen een robotstofzuiger en een robotstofzuiger met dweilfunctie?',
+        fr: 'Rouleau laveur ou serpillères rotatives : que choisir ?',
+        en: 'Roller mop or rotating mop pads: which should you choose?',
+        de: 'Wischwalze oder rotierende Mopps: Was ist besser?',
+        es: '¿Rodillo de fregado o mopas giratorias: qué elegir?',
+        it: 'Rullo lavante o panni rotanti: quale scegliere?',
+        nl: 'Dweilrol of draaiende dweilpads: wat kies je?',
       },
       answer: {
-        fr: 'Un robot aspirateur se contente d\'aspirer la poussière et les débris. Un robot aspirateur laveur ajoute une fonction serpillère : il aspire et lave le sol en un seul passage. Les modèles haut de gamme 2026 intègrent des serpillères rotatives ou vibrantes, le lavage à eau chaude et des stations qui lavent et sèchent automatiquement les serpillères.',
-        en: 'A robot vacuum only suctions dust and debris. A robot vacuum mop combo adds a mopping function: it vacuums and mops the floor in a single pass. High-end 2026 models feature rotary or vibrating mop pads, hot-water mopping, and stations that automatically wash and dry the mop pads.',
-        de: 'Ein Saugroboter saugt nur Staub und Schmutz auf. Ein Saugroboter mit Wischfunktion fügt eine Wischfunktion hinzu: Er saugt und wischt den Boden in einem Durchgang. Hochwertige 2026-Modelle verfügen über rotierende oder vibrierende Wischpads, Heißwasserwischen und Stationen, die die Wischpads automatisch waschen und trocknen.',
-        es: 'Un robot aspirador solo aspira polvo y residuos. Un robot aspirador fregasuelos añade función de fregado: aspira y friega el suelo en una sola pasada. Los modelos de gama alta 2026 incluyen mopas rotativas o vibrantes, fregado con agua caliente y estaciones que lavan y secan automáticamente las mopas.',
-        it: 'Un robot aspirapolvere aspira solo polvere e detriti. Un robot aspirapolvere lavapavimenti aggiunge la funzione lavaggio: aspira e lava il pavimento in un unico passaggio. I modelli di fascia alta 2026 includono panni rotanti o vibranti, lavaggio ad acqua calda e stazioni che lavano e asciugano automaticamente i panni.',
-        nl: 'Een robotstofzuiger zuigt alleen stof en vuil op. Een robotstofzuiger met dweilfunctie voegt een dweilfunctie toe: hij zuigt en dweilt de vloer in één keer. High-end 2026-modellen hebben roterende of vibrerende dweilpads, dweilen met heet water en stations die de dweilpads automatisch wassen en drogen.',
+        fr: 'Le rouleau est alimenté en eau propre pendant tout le passage, ce qui le rend intéressant sur de grandes surfaces de sols durs et les taches collantes. Les serpillères rotatives sont plus répandues, s’étendent souvent vers les bords et peuvent être déposées à la station pour aspirer les tapis.',
+        en: 'A roller mop is fed with clean water throughout the run, which makes it attractive for large hard floors and sticky spills. Rotating pads are more common, often extend towards edges and can be left at the dock so the robot can vacuum rugs.',
+        de: 'Eine Wischwalze wird während der ganzen Fahrt mit Frischwasser versorgt und ist deshalb für große Hartböden und klebrige Flecken interessant. Drehmopps sind verbreiteter, fahren oft zu den Kanten aus und können zum Teppichsaugen in der Station bleiben.',
+        es: 'El rodillo recibe agua limpia durante toda la pasada, lo que lo hace interesante para grandes suelos duros y manchas pegajosas. Las mopas giratorias son más habituales, suelen extenderse hacia los bordes y pueden quedarse en la base para aspirar alfombras.',
+        it: 'Il rullo riceve acqua pulita per tutto il passaggio, il che lo rende interessante per grandi pavimenti duri e macchie appiccicose. I panni rotanti sono più diffusi, spesso si estendono verso i bordi e possono restare alla stazione per aspirare i tappeti.',
+        nl: 'Een dweilrol krijgt de hele beurt schoon water, wat hem interessant maakt voor grote harde vloeren en plakkerige vlekken. Draaiende pads komen vaker voor, schuiven vaak uit naar de randen en kunnen in het station blijven om tapijt te zuigen.',
       },
     },
     {
       question: {
-        fr: 'Un robot aspirateur laveur peut-il remplacer une serpillère manuelle ?',
+        fr: 'Un robot aspirateur laveur peut-il remplacer la serpillère manuelle ?',
         en: 'Can a robot vacuum mop combo replace manual mopping?',
-        de: 'Kann ein Saugroboter mit Wischfunktion das manuelle Wischen ersetzen?',
-        es: '¿Puede un robot aspirador fregasuelos reemplazar el fregado manual?',
-        it: 'Un robot aspirapolvere lavapavimenti può sostituire il lavaggio manuale?',
+        de: 'Kann ein Saugroboter mit Wischfunktion das Wischen von Hand ersetzen?',
+        es: '¿Puede un robot aspirador y fregasuelos sustituir a la fregona?',
+        it: 'Un robot aspirapolvere lavapavimenti può sostituire il lavaggio a mano?',
         nl: 'Kan een robotstofzuiger met dweilfunctie handmatig dweilen vervangen?',
       },
       answer: {
-        fr: 'Pour l\'entretien quotidien, oui. Les meilleurs robots aspirateurs laveurs de 2026 (Dreame X40 Ultra, Roborock S8 MaxV Ultra) avec eau chaude et serpillères rotatives offrent un nettoyage comparable à une serpillère manuelle pour la poussière et les salissures légères. En revanche, pour les taches tenaces (vin, sauce incrustée) ou le nettoyage en profondeur occasionnel, un coup de serpillère manuelle reste nécessaire.',
-        en: 'For daily maintenance, yes. The best robot vacuum mop combos of 2026 (Dreame X40 Ultra, Roborock S8 MaxV Ultra) with hot water and rotary mops deliver cleaning comparable to manual mopping for dust and light soiling. However, for stubborn stains (wine, dried sauce) or occasional deep cleaning, a manual mop is still needed.',
-        de: 'Für die tägliche Pflege, ja. Die besten Saugroboter mit Wischfunktion 2026 (Dreame X40 Ultra, Roborock S8 MaxV Ultra) mit Heißwasser und rotierenden Wischpads liefern eine Reinigung, die dem manuellen Wischen bei Staub und leichter Verschmutzung ebenbürtig ist. Für hartnäckige Flecken (Wein, eingetrocknete Soße) oder gelegentliche Grundreinigung ist manuelles Wischen jedoch weiterhin nötig.',
-        es: 'Para el mantenimiento diario, sí. Los mejores robots fregasuelos de 2026 (Dreame X40 Ultra, Roborock S8 MaxV Ultra) con agua caliente y mopas rotativas ofrecen una limpieza comparable al fregado manual para polvo y suciedad ligera. Sin embargo, para manchas difíciles (vino, salsa incrustada) o limpieza profunda ocasional, el fregado manual sigue siendo necesario.',
-        it: 'Per la manutenzione quotidiana, sì. I migliori robot lavapavimenti del 2026 (Dreame X40 Ultra, Roborock S8 MaxV Ultra) con acqua calda e panni rotanti offrono una pulizia paragonabile al lavaggio manuale per polvere e sporco leggero. Tuttavia, per macchie ostinate (vino, sugo incrostato) o pulizia profonda occasionale, il lavaggio manuale resta necessario.',
-        nl: 'Voor dagelijks onderhoud, ja. De beste robotstofzuigers met dweilfunctie van 2026 (Dreame X40 Ultra, Roborock S8 MaxV Ultra) met heet water en roterende dweilpads leveren een reiniging die vergelijkbaar is met handmatig dweilen voor stof en lichte vervuiling. Voor hardnekkige vlekken (wijn, ingedroogde saus) of af en toe diep reinigen blijft handmatig dweilen echter nodig.',
+        fr: 'Pour l’entretien régulier, oui dans la plupart des logements. Les retours d’utilisateurs montrent qu’un passage manuel reste utile de temps en temps pour les taches incrustées, les recoins inaccessibles et un nettoyage en profondeur.',
+        en: 'For regular upkeep, yes in most homes. Owner feedback shows that an occasional manual clean is still useful for dried-on stains, hard-to-reach corners and deep cleaning.',
+        de: 'Für die regelmäßige Pflege in den meisten Wohnungen ja. Erfahrungen von Besitzern zeigen, dass gelegentliches Wischen von Hand für eingetrocknete Flecken, unzugängliche Ecken und Grundreinigungen weiterhin sinnvoll ist.',
+        es: 'Para el mantenimiento habitual, sí en la mayoría de las viviendas. Las opiniones de los propietarios muestran que una limpieza manual ocasional sigue siendo útil para manchas resecas, rincones inaccesibles y limpiezas a fondo.',
+        it: 'Per la pulizia regolare, sì nella maggior parte delle case. I feedback dei proprietari mostrano che un lavaggio manuale occasionale resta utile per macchie incrostate, angoli irraggiungibili e pulizie profonde.',
+        nl: 'Voor regelmatig onderhoud in de meeste woningen wel. Ervaringen van eigenaars laten zien dat af en toe met de hand dweilen nuttig blijft voor ingedroogde vlekken, moeilijk bereikbare hoeken en een grondige beurt.',
       },
     },
     {
       question: {
         fr: 'Faut-il retirer les serpillères avant de passer sur un tapis ?',
-        en: 'Do I need to remove the mop pads before cleaning carpets?',
-        de: 'Muss ich die Wischpads vor dem Saugen auf Teppichen entfernen?',
+        en: 'Do you need to remove the mops before cleaning a rug?',
+        de: 'Muss man die Mopps vor dem Teppich abnehmen?',
         es: '¿Hay que quitar las mopas antes de pasar por una alfombra?',
-        it: 'Bisogna rimuovere i panni prima di passare sui tappeti?',
-        nl: 'Moet ik de dweilpads verwijderen voordat de robot over tapijt gaat?',
+        it: 'Bisogna togliere i panni prima di passare su un tappeto?',
+        nl: 'Moet je de dweilen verwijderen voordat de robot over tapijt gaat?',
       },
       answer: {
-        fr: 'Non, plus en 2026. Tous les modèles de ce comparatif disposent d\'une fonction de rétraction ou de soulèvement automatique des serpillères lorsque le robot détecte un tapis. Le Roborock S8 MaxV Ultra offre le meilleur soulèvement (20 mm), suffisant pour la plupart des tapis à poils courts et moyens. Pour les tapis à poils longs (shaggy), il est préférable de créer une zone interdite dans l\'application.',
-        en: 'No, not in 2026. All models in this comparison feature automatic mop retraction or lifting when the robot detects carpet. The Roborock S8 MaxV Ultra offers the best lift (20 mm), sufficient for most short and medium-pile carpets. For high-pile (shag) carpets, it is best to create a no-go zone in the app.',
-        de: 'Nein, 2026 nicht mehr. Alle Modelle in diesem Vergleich verfügen über eine automatische Wischpad-Anhebung oder -Rückziehung, wenn der Roboter Teppich erkennt. Der Roborock S8 MaxV Ultra bietet die beste Anhebung (20 mm), ausreichend für die meisten kurz- und mittelflorigen Teppiche. Für Hochflorteppiche (Shaggy) empfiehlt sich eine Sperrzone in der App.',
-        es: 'No, ya no en 2026. Todos los modelos de esta comparativa disponen de retracción o elevación automática de las mopas cuando el robot detecta alfombra. El Roborock S8 MaxV Ultra ofrece la mejor elevación (20 mm), suficiente para la mayoría de alfombras de pelo corto y medio. Para alfombras de pelo largo (shaggy), es mejor crear una zona prohibida en la app.',
-        it: 'No, non più nel 2026. Tutti i modelli di questo confronto dispongono di retrazione o sollevamento automatico dei panni quando il robot rileva un tappeto. Il Roborock S8 MaxV Ultra offre il miglior sollevamento (20 mm), sufficiente per la maggior parte dei tappeti a pelo corto e medio. Per tappeti a pelo lungo (shaggy), è meglio creare una zona vietata nell\'app.',
-        nl: 'Nee, niet meer in 2026. Alle modellen in deze vergelijking hebben automatische dweilpad-opheffing of -intrekking wanneer de robot tapijt detecteert. De Roborock S8 MaxV Ultra biedt de beste opheffing (20 mm), voldoende voor de meeste kort- en middelhoogpolige tapijten. Voor hoogpolige (shaggy) tapijten is het het beste om een verboden zone in de app aan te maken.',
+        fr: 'En général non : les modèles de ce comparatif soulèvent leur serpillère sur les tapis, et les Dreame peuvent aussi la laisser à la station. Pour un tapis épais à poils longs, créez une zone interdite au lavage dans l’application.',
+        en: 'Usually not: the models in this comparison lift their mop on rugs, and the Dreame models can also leave it at the dock. For a thick high-pile rug, set a no-mop zone in the app.',
+        de: 'In der Regel nicht: Die Modelle in diesem Vergleich heben ihren Mopp auf Teppichen an, und die Dreame-Modelle können ihn auch in der Station lassen. Für einen dicken Hochflorteppich legen Sie in der App eine Wisch-Sperrzone fest.',
+        es: 'Por lo general no: los modelos de esta comparativa elevan la mopa en las alfombras, y los Dreame también pueden dejarla en la base. Para una alfombra gruesa de pelo largo, crea una zona sin fregado en la app.',
+        it: 'In genere no: i modelli di questo confronto sollevano il panno sui tappeti, e i Dreame possono anche lasciarlo alla stazione. Per un tappeto spesso a pelo lungo, create una zona senza lavaggio nell’app.',
+        nl: 'Meestal niet: de modellen in deze vergelijking tillen hun dweil op bij tapijt, en de Dreame-modellen kunnen hem ook in het station laten. Voor een dik hoogpolig kleed stel je in de app een dweilverbod in.',
       },
     },
     {
       question: {
-        fr: 'Quelle est la durée de vie d\'un robot aspirateur laveur ?',
-        en: 'How long does a robot vacuum mop combo last?',
-        de: 'Wie lange hält ein Saugroboter mit Wischfunktion?',
-        es: '¿Cuánto dura un robot aspirador fregasuelos?',
-        it: 'Quanto dura un robot aspirapolvere lavapavimenti?',
-        nl: 'Hoe lang gaat een robotstofzuiger met dweilfunctie mee?',
+        fr: 'À quoi sert l’eau chaude dans la station ?',
+        en: 'What is the hot water in the dock for?',
+        de: 'Wozu dient das heiße Wasser in der Station?',
+        es: '¿Para qué sirve el agua caliente de la base?',
+        it: 'A cosa serve l’acqua calda nella stazione?',
+        nl: 'Waarvoor dient het hete water in het station?',
       },
       answer: {
-        fr: 'Avec un entretien régulier (nettoyage des brosses, remplacement des filtres et serpillères), un robot aspirateur laveur de bonne qualité dure 4 à 6 ans. La batterie est souvent le premier composant à faiblir, généralement après 3-4 ans d\'utilisation quotidienne. Les pièces d\'usure (brosses, filtres, serpillères) se remplacent facilement et coûtent 50 à 100 € par an.',
-        en: 'With regular maintenance (cleaning brushes, replacing filters and mop pads), a quality robot vacuum mop combo lasts 4-6 years. The battery is usually the first component to degrade, typically after 3-4 years of daily use. Wear parts (brushes, filters, mop pads) are easy to replace and cost $50-100 per year.',
-        de: 'Bei regelmäßiger Wartung (Bürsten reinigen, Filter und Wischpads austauschen) hält ein hochwertiger Saugroboter mit Wischfunktion 4-6 Jahre. Der Akku ist meist die erste Komponente, die nachlässt, typischerweise nach 3-4 Jahren täglicher Nutzung. Verschleißteile (Bürsten, Filter, Wischpads) sind leicht austauschbar und kosten 50-100 € pro Jahr.',
-        es: 'Con un mantenimiento regular (limpieza de cepillos, sustitución de filtros y mopas), un robot aspirador fregasuelos de calidad dura 4-6 años. La batería suele ser el primer componente en degradarse, normalmente tras 3-4 años de uso diario. Las piezas de desgaste (cepillos, filtros, mopas) se sustituyen fácilmente y cuestan 50-100 € al año.',
-        it: 'Con manutenzione regolare (pulizia spazzole, sostituzione filtri e panni), un robot aspirapolvere lavapavimenti di qualità dura 4-6 anni. La batteria è solitamente il primo componente a degradarsi, in genere dopo 3-4 anni di uso quotidiano. Le parti soggette a usura (spazzole, filtri, panni) si sostituiscono facilmente e costano 50-100 € all\'anno.',
-        nl: 'Met regelmatig onderhoud (borstels schoonmaken, filters en dweilpads vervangen) gaat een kwaliteitsrobotstofzuiger met dweilfunctie 4-6 jaar mee. De accu is meestal het eerste onderdeel dat achteruitgaat, doorgaans na 3-4 jaar dagelijks gebruik. Slijtdelen (borstels, filters, dweilpads) zijn eenvoudig te vervangen en kosten €50-100 per jaar.',
+        fr: 'Elle sert surtout à laver la serpillère ou le rouleau dans la station : l’eau chaude dissout mieux les graisses et limite les odeurs, surtout si elle est suivie d’un séchage à air chaud. Le sol lui-même est généralement lavé à l’eau du réservoir.',
+        en: 'It is mainly used to wash the mop or roller inside the dock: hot water dissolves grease better and limits odours, especially when followed by warm-air drying. The floor itself is usually mopped with water from the tank.',
+        de: 'Es dient vor allem dazu, Mopp oder Walze in der Station zu waschen: Heißes Wasser löst Fett besser und beugt Gerüchen vor, besonders mit anschließender Warmlufttrocknung. Der Boden selbst wird meist mit dem Wasser aus dem Tank gewischt.',
+        es: 'Sirve sobre todo para lavar la mopa o el rodillo dentro de la base: el agua caliente disuelve mejor la grasa y limita los olores, sobre todo si después hay secado con aire caliente. El suelo en sí se friega normalmente con el agua del depósito.',
+        it: 'Serve soprattutto a lavare il panno o il rullo nella stazione: l’acqua calda scioglie meglio il grasso e limita gli odori, soprattutto se seguita dall’asciugatura ad aria calda. Il pavimento viene di solito lavato con l’acqua del serbatoio.',
+        nl: 'Het dient vooral om de dweil of rol in het station te wassen: heet water lost vet beter op en beperkt geurtjes, zeker als er daarna met warme lucht gedroogd wordt. De vloer zelf wordt meestal gedweild met water uit de tank.',
       },
     },
     {
       question: {
-        fr: 'Le lavage à eau chaude est-il vraiment utile ?',
-        en: 'Is hot-water mopping really worth it?',
-        de: 'Lohnt sich das Wischen mit heißem Wasser wirklich?',
-        es: '¿Merece realmente la pena el fregado con agua caliente?',
-        it: 'Il lavaggio ad acqua calda è davvero utile?',
-        nl: 'Is dweilen met heet water echt de moeite waard?',
+        fr: 'Un robot aspirateur laveur convient-il au parquet ?',
+        en: 'Is a robot vacuum mop combo safe for wooden floors?',
+        de: 'Ist ein Saugroboter mit Wischfunktion für Parkett geeignet?',
+        es: '¿Un robot aspirador y fregasuelos sirve para el parquet?',
+        it: 'Un robot aspirapolvere lavapavimenti va bene sul parquet?',
+        nl: 'Is een robotstofzuiger met dweilfunctie geschikt voor parket?',
       },
       answer: {
-        fr: 'Oui, c\'est un vrai plus. L\'eau chaude (60-70 °C) dissout mieux les graisses et les résidus alimentaires que l\'eau froide, et élimine davantage de bactéries. C\'est particulièrement bénéfique dans les cuisines, les salles de bains, et les foyers avec enfants en bas âge ou animaux de compagnie. Les modèles avec eau chaude (Dreame X40 Ultra, Roborock S8 MaxV Ultra) offrent un nettoyage notablement plus hygiénique.',
-        en: 'Yes, it is a genuine advantage. Hot water (60-70 °C) dissolves grease and food residue more effectively than cold water and eliminates more bacteria. It is particularly beneficial in kitchens, bathrooms, and homes with young children or pets. Models with hot water (Dreame X40 Ultra, Roborock S8 MaxV Ultra) deliver noticeably more hygienic cleaning.',
-        de: 'Ja, es ist ein echter Vorteil. Heißes Wasser (60-70 °C) löst Fett und Essensreste besser als kaltes Wasser und eliminiert mehr Bakterien. Besonders vorteilhaft ist es in Küchen, Badezimmern und Haushalten mit kleinen Kindern oder Haustieren. Modelle mit Heißwasser (Dreame X40 Ultra, Roborock S8 MaxV Ultra) liefern spürbar hygienischere Reinigung.',
-        es: 'Sí, es una ventaja real. El agua caliente (60-70 °C) disuelve mejor la grasa y los residuos alimentarios que el agua fría, y elimina más bacterias. Es especialmente beneficioso en cocinas, baños y hogares con niños pequeños o mascotas. Los modelos con agua caliente (Dreame X40 Ultra, Roborock S8 MaxV Ultra) ofrecen una limpieza notablemente más higiénica.',
-        it: 'Sì, è un vero vantaggio. L\'acqua calda (60-70 °C) scioglie meglio grassi e residui alimentari rispetto all\'acqua fredda ed elimina più batteri. È particolarmente utile in cucine, bagni e case con bambini piccoli o animali domestici. I modelli con acqua calda (Dreame X40 Ultra, Roborock S8 MaxV Ultra) offrono una pulizia notevolmente più igienica.',
-        nl: 'Ja, het is een echt voordeel. Heet water (60-70 °C) lost vet en voedselresten beter op dan koud water en elimineert meer bacteriën. Het is vooral nuttig in keukens, badkamers en huishoudens met jonge kinderen of huisdieren. Modellen met heet water (Dreame X40 Ultra, Roborock S8 MaxV Ultra) leveren merkbaar hygienischer reiniging.',
+        fr: 'Oui pour un parquet vitrifié ou un stratifié, avec le débit d’eau le plus faible. Sur un parquet huilé ou ciré, suivez les recommandations du fabricant du revêtement et limitez le lavage, voire désactivez-le dans les pièces concernées.',
+        en: 'Yes for sealed wood or laminate, using the lowest water setting. On oiled or waxed wood, follow the flooring manufacturer’s advice and limit mopping, or switch it off in those rooms.',
+        de: 'Ja für versiegeltes Parkett oder Laminat mit der geringsten Wassermenge. Bei geöltem oder gewachstem Holz folgen Sie den Empfehlungen des Bodenherstellers und wischen sparsam oder schalten das Wischen in diesen Räumen ab.',
+        es: 'Sí para parquet barnizado o laminado, con el caudal de agua más bajo. En madera aceitada o encerada, sigue las recomendaciones del fabricante del suelo y limita el fregado o desactívalo en esas estancias.',
+        it: 'Sì per parquet verniciato o laminato, con il flusso d’acqua più basso. Su legno oliato o cerato seguite le indicazioni del produttore del pavimento e limitate il lavaggio, o disattivatelo in quelle stanze.',
+        nl: 'Ja voor gelakt parket of laminaat, met de laagste waterstand. Bij geolied of gewaxt hout volg je het advies van de vloerfabrikant en beperk je het dweilen of zet je het uit in die ruimtes.',
       },
     },
     {
       question: {
-        fr: 'Un robot aspirateur laveur convient-il aux parquets en bois ?',
-        en: 'Are robot vacuum mop combos safe for hardwood floors?',
-        de: 'Ist ein Saugroboter mit Wischfunktion für Holzböden geeignet?',
-        es: '¿Es un robot aspirador fregasuelos seguro para suelos de madera?',
-        it: 'Un robot aspirapolvere lavapavimenti è sicuro per i pavimenti in legno?',
-        nl: 'Is een robotstofzuiger met dweilfunctie veilig voor houten vloeren?',
+        fr: 'Quel entretien prévoir pour un robot aspirateur laveur ?',
+        en: 'What maintenance does a robot vacuum mop combo need?',
+        de: 'Welche Pflege braucht ein Saugroboter mit Wischfunktion?',
+        es: '¿Qué mantenimiento necesita un robot aspirador y fregasuelos?',
+        it: 'Che manutenzione richiede un robot aspirapolvere lavapavimenti?',
+        nl: 'Welk onderhoud heeft een robotstofzuiger met dweilfunctie nodig?',
       },
       answer: {
-        fr: 'Oui, à condition de régler correctement le débit d\'eau. Tous les modèles de ce comparatif permettent d\'ajuster la quantité d\'eau via l\'application. Pour un parquet vitrifié ou stratifié, utilisez le débit le plus faible. Évitez le lavage à eau chaude sur les parquets cirés ou huilés (risque de déformation). La fonction de soulèvement des serpillères est également importante : elle évite que le parquet reste humide trop longtemps.',
-        en: 'Yes, as long as you set the water flow correctly. All models in this comparison allow you to adjust water volume via the app. For sealed or laminate hardwood, use the lowest water setting. Avoid hot-water mopping on waxed or oiled hardwood (risk of warping). The mop-lift function is also important: it prevents the floor from staying damp too long.',
-        de: 'Ja, vorausgesetzt Sie stellen den Wasserfluss richtig ein. Alle Modelle in diesem Vergleich ermöglichen die Anpassung der Wassermenge über die App. Für versiegeltes oder Laminat-Parkett verwenden Sie die niedrigste Wasserstufe. Vermeiden Sie Heißwasserwischen auf gewachstem oder geöltem Parkett (Verformungsgefahr). Die Wischpad-Anhebungsfunktion ist ebenfalls wichtig: Sie verhindert, dass der Boden zu lange feucht bleibt.',
-        es: 'Sí, siempre que ajustes correctamente el caudal de agua. Todos los modelos de esta comparativa permiten regular la cantidad de agua desde la app. Para parquet vitrificado o laminado, usa el caudal más bajo. Evita el fregado con agua caliente en parquet encerado o aceitado (riesgo de deformación). La función de elevación de mopas también es importante: evita que el suelo permanezca húmedo demasiado tiempo.',
-        it: 'Sì, a patto di regolare correttamente il flusso d\'acqua. Tutti i modelli di questo confronto permettono di regolare la quantità d\'acqua tramite l\'app. Per parquet vetrificato o laminato, usa il flusso più basso. Evita il lavaggio ad acqua calda su parquet cerato o oliato (rischio di deformazione). La funzione di sollevamento panni è anche importante: impedisce che il pavimento resti umido troppo a lungo.',
-        nl: 'Ja, mits je de waterstroom correct instelt. Alle modellen in deze vergelijking laten je de hoeveelheid water aanpassen via de app. Gebruik voor gelakt of laminaat parket de laagste waterstand. Vermijd dweilen met heet water op gewaxt of geolied parket (risico op vervorming). De dweilpad-opheffingsfunctie is ook belangrijk: het voorkomt dat de vloer te lang vochtig blijft.',
+        fr: 'Videz et rincez le bac d’eau sale, nettoyez brosses et capteurs, et remplacez régulièrement sacs, filtres, serpillères ou rouleau selon les intervalles indiqués par le fabricant. Une station bien entretenue évite la plupart des odeurs et des pannes.',
+        en: 'Empty and rinse the dirty-water tank, clean the brushes and sensors, and replace bags, filters, mop pads or the roller at the intervals set by the manufacturer. A well-maintained dock prevents most odours and faults.',
+        de: 'Leeren und spülen Sie den Schmutzwassertank, reinigen Sie Bürsten und Sensoren und ersetzen Sie Beutel, Filter, Mopps oder Walze in den vom Hersteller angegebenen Abständen. Eine gepflegte Station verhindert die meisten Gerüche und Störungen.',
+        es: 'Vacía y aclara el depósito de agua sucia, limpia cepillos y sensores, y cambia bolsas, filtros, mopas o rodillo según los intervalos que indica el fabricante. Una base bien cuidada evita la mayoría de olores y averías.',
+        it: 'Svuotate e risciacquate il serbatoio dell’acqua sporca, pulite spazzole e sensori, e sostituite sacchetti, filtri, panni o rullo secondo gli intervalli indicati dal produttore. Una stazione ben curata evita la maggior parte di odori e guasti.',
+        nl: 'Leeg en spoel de vuilwatertank, maak borstels en sensoren schoon en vervang zakken, filters, pads of de rol volgens de intervallen van de fabrikant. Een goed onderhouden station voorkomt de meeste geurtjes en storingen.',
       },
     },
   ],

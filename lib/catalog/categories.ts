@@ -1414,12 +1414,12 @@ export const CATEGORIES: readonly Category[] = [
       nl: 'Robotstofzuigers',
     },
     description: {
-      fr: 'Aspirateurs robots Roomba, Roborock, Dreame, Ecovacs — tests cartographie LiDAR.',
-      en: 'Roomba, Roborock, Dreame, Ecovacs robot vacuums — LiDAR mapping tests.',
-      de: 'Saugroboter Roomba, Roborock, Dreame, Ecovacs — LiDAR-Kartierungstests.',
-      es: 'Robots aspiradores Roomba, Roborock, Dreame, Ecovacs — pruebas con LiDAR.',
-      it: 'Aspirapolvere robot Roomba, Roborock, Dreame, Ecovacs — test mappatura LiDAR.',
-      nl: 'Robotstofzuigers Roomba, Roborock, Dreame, Ecovacs — LiDAR mapping tests.',
+      fr: 'Aspirateurs robots Roomba, Roborock, Dreame, Ecovacs — cartographie LiDAR comparée.',
+      en: 'Roomba, Roborock, Dreame, Ecovacs robot vacuums — LiDAR mapping compared.',
+      de: 'Saugroboter Roomba, Roborock, Dreame, Ecovacs — LiDAR-Kartierung im Vergleich.',
+      es: 'Robots aspiradores Roomba, Roborock, Dreame, Ecovacs — mapeo LiDAR comparado.',
+      it: 'Aspirapolvere robot Roomba, Roborock, Dreame, Ecovacs — mappatura LiDAR a confronto.',
+      nl: 'Robotstofzuigers Roomba, Roborock, Dreame, Ecovacs — LiDAR-mapping vergeleken.',
     },
     primaryKeyword: {
       fr: 'meilleur aspirateur robot',

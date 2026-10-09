@@ -6,7 +6,7 @@ export const article: BlogArticle = {
   pillar: 'guides/airfryers',
   relatedSlugs: ['recettes-poulet-croustillant-airfryer', 'erreurs-courantes-airfryer', 'cuisiner-healthy-airfryer'],
   datePublished: '2026-02-05',
-  dateModified: '2026-04-01',
+  dateModified: '2026-10-09',
   readingTime: 12,
   images: [
     {
@@ -39,13 +39,13 @@ export const article: BlogArticle = {
   },
   content: {
     fr: `<h2>Introduction</h2>
-<p>Les frites à l'airfryer sont une véritable révolution culinaire. Avec <strong>jusqu'à 80 % de matières grasses en moins</strong> qu'une friteuse traditionnelle, vous obtenez des frites croustillantes à l'extérieur et fondantes à l'intérieur. Que vous utilisiez un <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> ou un <a href="/fr/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>, ces 7 recettes de frites vous permettront de varier les plaisirs au quotidien.</p>
-<p>Le secret de frites réussies à l'airfryer repose sur trois piliers : la découpe régulière, le trempage préalable pour éliminer l'excès d'amidon, et une cuisson en deux temps. Dans cet article, nous allons détailler chaque recette avec des quantités précises, des températures exactes et des temps de cuisson testés et approuvés.</p>
+<p>Les frites à l'airfryer sont une véritable révolution culinaire. Avec <strong>beaucoup moins de matières grasses</strong> qu'une friteuse traditionnelle (les fabricants annoncent jusqu'à 80 % en moins), vous obtenez des frites croustillantes à l'extérieur et fondantes à l'intérieur. Que vous utilisiez un <a href="/fr/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> ou un <a href="/fr/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>, ces 7 recettes de frites vous permettront de varier les plaisirs au quotidien.</p>
+<p>Le secret de frites réussies à l'airfryer repose sur trois piliers : la découpe régulière, le trempage préalable pour éliminer l'excès d'amidon, et une cuisson en deux temps. Dans cet article, nous allons détailler chaque recette avec des quantités précises, des températures exactes et des temps de cuisson indicatifs, à ajuster selon la puissance de votre appareil.</p>
 
 <h2>1. Frites Classiques de Pommes de Terre</h2>
 <h3>Ingrédients</h3>
 <ul>
-<li>500 g de pommes de terre à chair ferme (Bintje ou Agria)</li>
+<li>500 g de pommes de terre spéciales frites (Bintje ou Agria)</li>
 <li>1 cuillère à soupe d'huile d'olive (15 ml)</li>
 <li>1 cuillère à café de sel fin</li>
 <li>½ cuillère à café de paprika fumé (facultatif)</li>
@@ -232,15 +232,16 @@ export const article: BlogArticle = {
 
 <h2>Comparatif nutritionnel : airfryer vs friteuse traditionnelle</h2>
 <table>
-<thead><tr><th>Recette (200 g)</th><th>Calories airfryer</th><th>Calories fritteuse</th><th>Graisses airfryer</th><th>Graisses fritteuse</th><th>Économie calories</th></tr></thead>
+<thead><tr><th>Recette (200 g)</th><th>Calories airfryer</th><th>Calories friteuse</th><th>Graisses airfryer</th><th>Graisses friteuse</th><th>Économie calories</th></tr></thead>
 <tbody>
-<tr><td>Frites classiques</td><td>180 kcal</td><td>340 kcal</td><td>4 g</td><td>17 g</td><td>-47 %</td></tr>
-<tr><td>Patate douce</td><td>160 kcal</td><td>290 kcal</td><td>3 g</td><td>14 g</td><td>-45 %</td></tr>
-<tr><td>Courgettes panées</td><td>175 kcal</td><td>310 kcal</td><td>6 g</td><td>18 g</td><td>-44 %</td></tr>
-<tr><td>Frites truffées</td><td>195 kcal</td><td>360 kcal</td><td>7 g</td><td>19 g</td><td>-46 %</td></tr>
-<tr><td>Frites belges</td><td>190 kcal</td><td>350 kcal</td><td>5 g</td><td>18 g</td><td>-46 %</td></tr>
+<tr><td>Frites classiques</td><td>290 kcal</td><td>580 kcal</td><td>8 g</td><td>30 g</td><td>-50 %</td></tr>
+<tr><td>Patate douce</td><td>260 kcal</td><td>520 kcal</td><td>7 g</td><td>26 g</td><td>-50 %</td></tr>
+<tr><td>Courgettes panées</td><td>230 kcal</td><td>420 kcal</td><td>8 g</td><td>26 g</td><td>-45 %</td></tr>
+<tr><td>Frites truffées</td><td>330 kcal</td><td>600 kcal</td><td>14 g</td><td>32 g</td><td>-45 %</td></tr>
+<tr><td>Frites belges</td><td>300 kcal</td><td>580 kcal</td><td>9 g</td><td>30 g</td><td>-48 %</td></tr>
 </tbody>
 </table>
+<p><em>Valeurs indicatives estimées pour une portion de 200 g, calculées à partir des quantités d'huile des recettes : elles varient selon la variété, la découpe et l'huile absorbée.</em></p>
 
 <h2>Sauces maison en 5 minutes : les meilleurs accompagnements</h2>
 <ul>
@@ -252,13 +253,13 @@ export const article: BlogArticle = {
 </ul>`,
 
     en: `<h2>Introduction</h2>
-<p>Air fryer fries are a true culinary revolution. With <strong>up to 80% less fat</strong> than a traditional deep fryer, you get fries that are crispy on the outside and tender on the inside. Whether you use a <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> or a <a href="/en/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>, these 7 fries recipes will bring variety to your meals.</p>
-<p>The secret to perfect air fryer fries relies on three pillars: even cutting, pre-soaking to remove excess starch, and two-stage cooking. Below, we detail each recipe with precise quantities, exact temperatures, and tested cooking times.</p>
+<p>Air fryer fries are a true culinary revolution. With <strong>far less fat</strong> than a traditional deep fryer (manufacturers claim up to 80% less), you get fries that are crispy on the outside and tender on the inside. Whether you use a <a href="/en/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> or a <a href="/en/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>, these 7 fries recipes will bring variety to your meals.</p>
+<p>The secret to perfect air fryer fries relies on three pillars: even cutting, pre-soaking to remove excess starch, and two-stage cooking. Below, we detail each recipe with precise quantities, exact temperatures, and indicative cooking times to adjust to your appliance's power.</p>
 
 <h2>1. Classic Potato Fries</h2>
 <h3>Ingredients</h3>
 <ul>
-<li>500 g waxy potatoes (Yukon Gold or Russet)</li>
+<li>500 g floury potatoes suited to frying (Maris Piper or Agria)</li>
 <li>1 tablespoon olive oil (15 ml)</li>
 <li>1 teaspoon fine salt</li>
 <li>½ teaspoon smoked paprika (optional)</li>
@@ -446,13 +447,14 @@ export const article: BlogArticle = {
 <table>
 <thead><tr><th>Recipe (200 g)</th><th>Air fryer calories</th><th>Deep fryer calories</th><th>Air fryer fat</th><th>Deep fryer fat</th><th>Calorie saving</th></tr></thead>
 <tbody>
-<tr><td>Classic fries</td><td>180 kcal</td><td>340 kcal</td><td>4 g</td><td>17 g</td><td>-47%</td></tr>
-<tr><td>Sweet potato</td><td>160 kcal</td><td>290 kcal</td><td>3 g</td><td>14 g</td><td>-45%</td></tr>
-<tr><td>Zucchini breaded</td><td>175 kcal</td><td>310 kcal</td><td>6 g</td><td>18 g</td><td>-44%</td></tr>
-<tr><td>Truffle fries</td><td>195 kcal</td><td>360 kcal</td><td>7 g</td><td>19 g</td><td>-46%</td></tr>
-<tr><td>Belgian-style</td><td>190 kcal</td><td>350 kcal</td><td>5 g</td><td>18 g</td><td>-46%</td></tr>
+<tr><td>Classic fries</td><td>290 kcal</td><td>580 kcal</td><td>8 g</td><td>30 g</td><td>-50%</td></tr>
+<tr><td>Sweet potato</td><td>260 kcal</td><td>520 kcal</td><td>7 g</td><td>26 g</td><td>-50%</td></tr>
+<tr><td>Zucchini breaded</td><td>230 kcal</td><td>420 kcal</td><td>8 g</td><td>26 g</td><td>-45%</td></tr>
+<tr><td>Truffle fries</td><td>330 kcal</td><td>600 kcal</td><td>14 g</td><td>32 g</td><td>-45%</td></tr>
+<tr><td>Belgian-style</td><td>300 kcal</td><td>580 kcal</td><td>9 g</td><td>30 g</td><td>-48%</td></tr>
 </tbody>
 </table>
+<p><em>Indicative estimates for a 200 g portion, based on the oil quantities in the recipes: actual values vary with the variety, the cut and the oil absorbed.</em></p>
 
 <h2>5-minute homemade dipping sauces: the best pairings</h2>
 <ul>
@@ -464,13 +466,13 @@ export const article: BlogArticle = {
 </ul>`,
 
     de: `<h2>Einleitung</h2>
-<p>Pommes aus der Heißluftfritteuse sind eine wahre kulinarische Revolution. Mit <strong>bis zu 80 % weniger Fett</strong> als eine herkömmliche Fritteuse erhalten Sie Pommes, die außen knusprig und innen zart sind. Ob Sie einen <a href="/de/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> oder einen <a href="/de/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> verwenden — diese 7 Pommes-Rezepte bringen Abwechslung auf Ihren Tisch.</p>
+<p>Pommes aus der Heißluftfritteuse sind eine wahre kulinarische Revolution. Mit <strong>deutlich weniger Fett</strong> als eine herkömmliche Fritteuse (die Hersteller geben bis zu 80 % weniger an) erhalten Sie Pommes, die außen knusprig und innen zart sind. Ob Sie einen <a href="/de/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> oder einen <a href="/de/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> verwenden — diese 7 Pommes-Rezepte bringen Abwechslung auf Ihren Tisch.</p>
 <p>Das Geheimnis perfekter Airfryer-Pommes beruht auf drei Säulen: gleichmäßiger Schnitt, Einweichen zur Entfernung überschüssiger Stärke und zweistufiges Garen.</p>
 
 <h2>1. Klassische Kartoffelpommes</h2>
 <h3>Zutaten</h3>
 <ul>
-<li>500 g festkochende Kartoffeln (Bintje oder Agria)</li>
+<li>500 g vorwiegend festkochende Kartoffeln (Bintje oder Agria)</li>
 <li>1 EL Olivenöl (15 ml)</li>
 <li>1 TL feines Salz</li>
 <li>½ TL geräuchertes Paprikapulver (optional)</li>
@@ -619,13 +621,14 @@ export const article: BlogArticle = {
 <table>
 <thead><tr><th>Rezept (200 g)</th><th>Kalorien Airfryer</th><th>Kalorien Fritteuse</th><th>Fett Airfryer</th><th>Fett Fritteuse</th><th>Kalorienersparnis</th></tr></thead>
 <tbody>
-<tr><td>Klassische Pommes</td><td>180 kcal</td><td>340 kcal</td><td>4 g</td><td>17 g</td><td>-47%</td></tr>
-<tr><td>Süßkartoffel</td><td>160 kcal</td><td>290 kcal</td><td>3 g</td><td>14 g</td><td>-45%</td></tr>
-<tr><td>Zucchini paniert</td><td>175 kcal</td><td>310 kcal</td><td>6 g</td><td>18 g</td><td>-44%</td></tr>
-<tr><td>Trüffel-Pommes</td><td>195 kcal</td><td>360 kcal</td><td>7 g</td><td>19 g</td><td>-46%</td></tr>
-<tr><td>Belgische Pommes</td><td>190 kcal</td><td>350 kcal</td><td>5 g</td><td>18 g</td><td>-46%</td></tr>
+<tr><td>Klassische Pommes</td><td>290 kcal</td><td>580 kcal</td><td>8 g</td><td>30 g</td><td>-50%</td></tr>
+<tr><td>Süßkartoffel</td><td>260 kcal</td><td>520 kcal</td><td>7 g</td><td>26 g</td><td>-50%</td></tr>
+<tr><td>Zucchini paniert</td><td>230 kcal</td><td>420 kcal</td><td>8 g</td><td>26 g</td><td>-45%</td></tr>
+<tr><td>Trüffel-Pommes</td><td>330 kcal</td><td>600 kcal</td><td>14 g</td><td>32 g</td><td>-45%</td></tr>
+<tr><td>Belgische Pommes</td><td>300 kcal</td><td>580 kcal</td><td>9 g</td><td>30 g</td><td>-48%</td></tr>
 </tbody>
 </table>
+<p><em>Geschätzte Richtwerte für eine Portion von 200 g auf Basis der Ölmengen in den Rezepten: Die tatsächlichen Werte hängen von Sorte, Schnitt und aufgenommenem Öl ab.</em></p>
 
 <h2>Hausgemachte Dipsaucen in 5 Minuten</h2>
 <ul>
@@ -637,7 +640,7 @@ export const article: BlogArticle = {
 </ul>`,
 
     es: `<h2>Introducción</h2>
-<p>Las patatas fritas en freidora de aire son una auténtica revolución culinaria. Con <strong>hasta un 80 % menos de grasa</strong> que una freidora tradicional, obtendrás patatas crujientes por fuera y tiernas por dentro. Ya utilices una <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> o una <a href="/es/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>, estas 7 recetas de patatas fritas darán variedad a tus comidas.</p>
+<p>Las patatas fritas en freidora de aire son una auténtica revolución culinaria. Con <strong>mucha menos grasa</strong> que una freidora tradicional (los fabricantes anuncian hasta un 80 % menos), obtendrás patatas crujientes por fuera y tiernas por dentro. Ya utilices una <a href="/es/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> o una <a href="/es/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>, estas 7 recetas de patatas fritas darán variedad a tus comidas.</p>
 <p>El secreto de unas patatas fritas perfectas en la freidora de aire se basa en tres pilares: corte uniforme, remojo previo para eliminar el exceso de almidón y cocción en dos fases.</p>
 
 <h2>1. Patatas Fritas Clásicas</h2>
@@ -779,13 +782,14 @@ export const article: BlogArticle = {
 <table>
 <thead><tr><th>Receta (200 g)</th><th>Calorías freidora aire</th><th>Calorías freidora trad.</th><th>Grasas aire</th><th>Grasas trad.</th><th>Ahorro calórico</th></tr></thead>
 <tbody>
-<tr><td>Patatas clásicas</td><td>180 kcal</td><td>340 kcal</td><td>4 g</td><td>17 g</td><td>-47%</td></tr>
-<tr><td>Boniato</td><td>160 kcal</td><td>290 kcal</td><td>3 g</td><td>14 g</td><td>-45%</td></tr>
-<tr><td>Calabacín rebozado</td><td>175 kcal</td><td>310 kcal</td><td>6 g</td><td>18 g</td><td>-44%</td></tr>
-<tr><td>Patatas trufadas</td><td>195 kcal</td><td>360 kcal</td><td>7 g</td><td>19 g</td><td>-46%</td></tr>
-<tr><td>Estilo belga</td><td>190 kcal</td><td>350 kcal</td><td>5 g</td><td>18 g</td><td>-46%</td></tr>
+<tr><td>Patatas clásicas</td><td>290 kcal</td><td>580 kcal</td><td>8 g</td><td>30 g</td><td>-50%</td></tr>
+<tr><td>Boniato</td><td>260 kcal</td><td>520 kcal</td><td>7 g</td><td>26 g</td><td>-50%</td></tr>
+<tr><td>Calabacín rebozado</td><td>230 kcal</td><td>420 kcal</td><td>8 g</td><td>26 g</td><td>-45%</td></tr>
+<tr><td>Patatas trufadas</td><td>330 kcal</td><td>600 kcal</td><td>14 g</td><td>32 g</td><td>-45%</td></tr>
+<tr><td>Estilo belga</td><td>300 kcal</td><td>580 kcal</td><td>9 g</td><td>30 g</td><td>-48%</td></tr>
 </tbody>
 </table>
+<p><em>Valores orientativos estimados para una ración de 200 g, calculados a partir de las cantidades de aceite de las recetas: varían según la variedad, el corte y el aceite absorbido.</em></p>
 
 <h2>Salsas caseras en 5 minutos: los mejores acompañamientos</h2>
 <ul>
@@ -797,13 +801,13 @@ export const article: BlogArticle = {
 </ul>`,
 
     it: `<h2>Introduzione</h2>
-<p>Le patatine fritte nella friggitrice ad aria sono una vera rivoluzione culinaria. Con <strong>fino all'80% in meno di grassi</strong> rispetto alla frittura tradizionale, si ottengono patatine croccanti fuori e morbide dentro. Che si utilizzi una <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> o una <a href="/it/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>, queste 7 ricette porteranno varietà ai vostri pasti.</p>
+<p>Le patatine fritte nella friggitrice ad aria sono una vera rivoluzione culinaria. Con <strong>molti meno grassi</strong> rispetto alla frittura tradizionale (i produttori dichiarano fino all'80% in meno), si ottengono patatine croccanti fuori e morbide dentro. Che si utilizzi una <a href="/it/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> o una <a href="/it/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>, queste 7 ricette porteranno varietà ai vostri pasti.</p>
 <p>Il segreto delle patatine perfette si basa su tre pilastri: taglio uniforme, ammollo preventivo per rimuovere l'amido in eccesso e cottura in due fasi.</p>
 
 <h2>1. Patatine Classiche</h2>
 <h3>Ingredienti</h3>
 <ul>
-<li>500 g di patate a pasta soda (Bintje o Agria)</li>
+<li>500 g di patate adatte alla frittura (Bintje o Agria)</li>
 <li>1 cucchiaio di olio d'oliva (15 ml)</li>
 <li>1 cucchiaino di sale fino</li>
 <li>½ cucchiaino di paprika affumicata (facoltativo)</li>
@@ -939,13 +943,14 @@ export const article: BlogArticle = {
 <table>
 <thead><tr><th>Ricetta (200 g)</th><th>Calorie ad aria</th><th>Calorie frittura trad.</th><th>Grassi ad aria</th><th>Grassi frittura</th><th>Risparmio calorico</th></tr></thead>
 <tbody>
-<tr><td>Patatine classiche</td><td>180 kcal</td><td>340 kcal</td><td>4 g</td><td>17 g</td><td>-47%</td></tr>
-<tr><td>Patata dolce</td><td>160 kcal</td><td>290 kcal</td><td>3 g</td><td>14 g</td><td>-45%</td></tr>
-<tr><td>Zucchine impanate</td><td>175 kcal</td><td>310 kcal</td><td>6 g</td><td>18 g</td><td>-44%</td></tr>
-<tr><td>Patatine al tartufo</td><td>195 kcal</td><td>360 kcal</td><td>7 g</td><td>19 g</td><td>-46%</td></tr>
-<tr><td>Stile belga</td><td>190 kcal</td><td>350 kcal</td><td>5 g</td><td>18 g</td><td>-46%</td></tr>
+<tr><td>Patatine classiche</td><td>290 kcal</td><td>580 kcal</td><td>8 g</td><td>30 g</td><td>-50%</td></tr>
+<tr><td>Patata dolce</td><td>260 kcal</td><td>520 kcal</td><td>7 g</td><td>26 g</td><td>-50%</td></tr>
+<tr><td>Zucchine impanate</td><td>230 kcal</td><td>420 kcal</td><td>8 g</td><td>26 g</td><td>-45%</td></tr>
+<tr><td>Patatine al tartufo</td><td>330 kcal</td><td>600 kcal</td><td>14 g</td><td>32 g</td><td>-45%</td></tr>
+<tr><td>Stile belga</td><td>300 kcal</td><td>580 kcal</td><td>9 g</td><td>30 g</td><td>-48%</td></tr>
 </tbody>
 </table>
+<p><em>Valori indicativi stimati per una porzione da 200 g, calcolati in base alle quantità di olio delle ricette: variano secondo la varietà, il taglio e l'olio assorbito.</em></p>
 
 <h2>Salse fatte in casa in 5 minuti: i migliori abbinamenti</h2>
 <ul>
@@ -957,13 +962,13 @@ export const article: BlogArticle = {
 </ul>`,
 
     nl: `<h2>Inleiding</h2>
-<p>Frietjes uit de airfryer zijn een ware culinaire revolutie. Met <strong>tot 80% minder vet</strong> dan een traditionele frituur krijg je frietjes die krokant zijn van buiten en zacht van binnen. Of je nu een <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> of een <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> gebruikt, deze 7 recepten brengen variatie in je maaltijden.</p>
+<p>Frietjes uit de airfryer zijn een ware culinaire revolutie. Met <strong>veel minder vet</strong> dan een traditionele frituur (fabrikanten noemen tot 80% minder) krijg je frietjes die krokant zijn van buiten en zacht van binnen. Of je nu een <a href="/nl/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a> of een <a href="/nl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a> gebruikt, deze 7 recepten brengen variatie in je maaltijden.</p>
 <p>Het geheim van perfecte airfryer-frietjes berust op drie pijlers: gelijkmatig snijden, weken om overtollig zetmeel te verwijderen en tweefasen-bereiding.</p>
 
 <h2>1. Klassieke Aardappelfrietjes</h2>
 <h3>Ingrediënten</h3>
 <ul>
-<li>500 g vastkokende aardappelen (Bintje of Agria)</li>
+<li>500 g kruimige frietaardappelen (Bintje of Agria)</li>
 <li>1 eetlepel olijfolie (15 ml)</li>
 <li>1 theelepel fijn zout</li>
 <li>½ theelepel gerookt paprikapoeder (optioneel)</li>
@@ -1099,13 +1104,14 @@ export const article: BlogArticle = {
 <table>
 <thead><tr><th>Recept (200 g)</th><th>Calorieën airfryer</th><th>Calorieën frituur</th><th>Vetten airfryer</th><th>Vetten frituur</th><th>Caloriebesparing</th></tr></thead>
 <tbody>
-<tr><td>Klassieke frietjes</td><td>180 kcal</td><td>340 kcal</td><td>4 g</td><td>17 g</td><td>-47%</td></tr>
-<tr><td>Zoete aardappel</td><td>160 kcal</td><td>290 kcal</td><td>3 g</td><td>14 g</td><td>-45%</td></tr>
-<tr><td>Courgette gepaneerd</td><td>175 kcal</td><td>310 kcal</td><td>6 g</td><td>18 g</td><td>-44%</td></tr>
-<tr><td>Truffelfrietjes</td><td>195 kcal</td><td>360 kcal</td><td>7 g</td><td>19 g</td><td>-46%</td></tr>
-<tr><td>Belgische stijl</td><td>190 kcal</td><td>350 kcal</td><td>5 g</td><td>18 g</td><td>-46%</td></tr>
+<tr><td>Klassieke frietjes</td><td>290 kcal</td><td>580 kcal</td><td>8 g</td><td>30 g</td><td>-50%</td></tr>
+<tr><td>Zoete aardappel</td><td>260 kcal</td><td>520 kcal</td><td>7 g</td><td>26 g</td><td>-50%</td></tr>
+<tr><td>Courgette gepaneerd</td><td>230 kcal</td><td>420 kcal</td><td>8 g</td><td>26 g</td><td>-45%</td></tr>
+<tr><td>Truffelfrietjes</td><td>330 kcal</td><td>600 kcal</td><td>14 g</td><td>32 g</td><td>-45%</td></tr>
+<tr><td>Belgische stijl</td><td>300 kcal</td><td>580 kcal</td><td>9 g</td><td>30 g</td><td>-48%</td></tr>
 </tbody>
 </table>
+<p><em>Geschatte richtwaarden voor een portie van 200 g, op basis van de hoeveelheden olie in de recepten: de werkelijke waarden hangen af van het ras, de snijwijze en de opgenomen olie.</em></p>
 
 <h2>Zelfgemaakte dipssauzen in 5 minuten: de beste combinaties</h2>
 <ul>
@@ -1163,12 +1169,12 @@ export const article: BlogArticle = {
         nl: 'Welke aardappelrassen zijn het beste voor frietjes uit de airfryer?',
       },
       answer: {
-        fr: 'Les variétés à chair ferme comme la Bintje et l\'Agria sont idéales : elles restent croquantes à l\'extérieur et fondantes à l\'intérieur. La Maris Piper fonctionne aussi très bien. Évitez les pommes de terre à chair farineuse qui se désagrègent. Pour les frites de patate douce, choisissez des tubercules fermes et réguliers.',
-        en: 'Firm-fleshed varieties like Bintje and Agria are ideal: they stay crispy outside and fluffy inside. Maris Piper also works very well. Avoid floury potatoes that fall apart. For sweet potato fries, choose firm, regular-shaped tubers. Yukon Gold is another excellent option with a good balance of starch.',
-        de: 'Festkochende Sorten wie Bintje und Agria sind ideal: außen knusprig, innen weich. Maris Piper funktioniert ebenfalls sehr gut. Vermeiden Sie mehlige Kartoffeln, die zerfallen. Für Süßkartoffel-Pommes wählen Sie feste, gleichmäßig geformte Knollen. Yukon Gold ist eine weitere ausgezeichnete Option.',
-        es: 'Las variedades de carne firme como Bintje y Agria son ideales: quedan crujientes por fuera y tiernas por dentro. La Maris Piper también funciona muy bien. Evita las patatas harinosas que se deshacen. Para las de boniato, elige tubérculos firmes y regulares.',
-        it: 'Le varietà a pasta soda come Bintje e Agria sono ideali: restano croccanti fuori e morbide dentro. La Maris Piper funziona molto bene. Evita le patate farinose che si sfaldano. Per le patatine di patata dolce, scegli tuberi sodi e regolari.',
-        nl: 'Vastkokende rassen zoals Bintje en Agria zijn ideaal: krokant van buiten en zacht van binnen. Maris Piper werkt ook uitstekend. Vermijd melige aardappelen die uit elkaar vallen. Voor zoete aardappelfrietjes kies je stevige, regelmatig gevormde knollen.',
+        fr: 'Les variétés spéciales frites comme la Bintje et l\'Agria sont idéales : riches en amidon, elles deviennent croustillantes à l\'extérieur et moelleuses à l\'intérieur. La Maris Piper fonctionne aussi très bien. Évitez les pommes de terre nouvelles, trop aqueuses. Pour les frites de patate douce, choisissez des tubercules fermes et réguliers.',
+        en: 'Varieties suited to frying, such as Bintje and Agria, are ideal: their starch content gives fries that are crispy outside and fluffy inside. Maris Piper also works very well. Avoid new potatoes, which hold too much water. For sweet potato fries, choose firm, regular-shaped tubers. Yukon Gold is another good all-round option.',
+        de: 'Vorwiegend festkochende Sorten wie Bintje und Agria sind ideal: außen knusprig, innen weich. Maris Piper funktioniert ebenfalls sehr gut. Vermeiden Sie junge Frühkartoffeln, die zu viel Wasser enthalten. Für Süßkartoffel-Pommes wählen Sie feste, gleichmäßig geformte Knollen. Yukon Gold ist eine weitere gute Option.',
+        es: 'Las variedades aptas para freír como Bintje y Agria son ideales: quedan crujientes por fuera y tiernas por dentro. La Maris Piper también funciona muy bien. Evita las patatas nuevas, con demasiada agua. Para las de boniato, elige tubérculos firmes y regulares.',
+        it: 'Le varietà adatte alla frittura come Bintje e Agria sono ideali: restano croccanti fuori e morbide dentro. La Maris Piper funziona molto bene. Evita le patate novelle, troppo ricche d\'acqua. Per le patatine di patata dolce, scegli tuberi sodi e regolari.',
+        nl: 'Kruimige frietrassen zoals Bintje en Agria zijn ideaal: krokant van buiten en zacht van binnen. Maris Piper werkt ook uitstekend. Vermijd nieuwe aardappelen, die te veel water bevatten. Voor zoete aardappelfrietjes kies je stevige, regelmatig gevormde knollen.',
       },
     },
     {

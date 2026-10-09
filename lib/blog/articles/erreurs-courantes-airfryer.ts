@@ -6,7 +6,7 @@ export const article: BlogArticle = {
   pillar: 'guides/airfryers',
   relatedSlugs: ['entretien-nettoyage-airfryer', 'recettes-frites-parfaites-airfryer', 'top-10-accessoires-airfryer', 'heissluftfritteuse-riecht-nach-plastik'],
   datePublished: '2026-02-25',
-  dateModified: '2026-04-05',
+  dateModified: '2026-10-09',
   readingTime: 10,
   images: [
     {
@@ -39,8 +39,8 @@ export const article: BlogArticle = {
   },
   content: {
     fr: `<h2>Pourquoi tant de déceptions avec l'airfryer ?</h2>
-<p>Vous avez acheté un airfryer, enthousiasmé par les promesses de frites croustillantes avec peu de matière grasse. Mais vos premiers résultats sont décevants : frites molles, poulet sec, cuisson inégale. Pas de panique. Dans 90 % des cas, le problème ne vient pas de l'appareil mais de mauvaises habitudes facilement corrigibles.</p>
-<p>Après avoir accompagné des centaines d'utilisateurs et testé des dizaines de recettes, nous avons identifié les 10 erreurs les plus fréquentes. Voici comment les reconnaître et les corriger.</p>
+<p>Vous avez acheté un airfryer, enthousiasmé par les promesses de frites croustillantes avec peu de matière grasse. Mais vos premiers résultats sont décevants : frites molles, poulet sec, cuisson inégale. Pas de panique. Le plus souvent, le problème ne vient pas de l'appareil mais de mauvaises habitudes facilement corrigibles.</p>
+<p>En croisant les notices des fabricants et les retours d'utilisateurs les plus fréquents, voici les 10 erreurs qui reviennent le plus souvent, et comment les reconnaître et les corriger.</p>
 
 <h2>Erreur n°1 : Surcharger le panier</h2>
 <h3>Le problème</h3>
@@ -73,7 +73,7 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Frites fraîches</td><td>180-190°C</td><td>18-22 min</td></tr>
 <tr><td>Frites surgelées</td><td>200°C</td><td>15-18 min</td></tr>
-<tr><td>Poulet entier</td><td>180°C</td><td>25-35 min</td></tr>
+<tr><td>Poulet entier</td><td>180°C</td><td>45-60 min</td></tr>
 <tr><td>Filet de poisson</td><td>190°C</td><td>8-12 min</td></tr>
 <tr><td>Légumes</td><td>190-200°C</td><td>10-15 min</td></tr>
 <tr><td>Steak</td><td>200°C</td><td>8-12 min</td></tr>
@@ -120,7 +120,7 @@ export const article: BlogArticle = {
 <ul>
 <li><strong>Huiles recommandées :</strong> huile d'avocat (271°C), huile de pépins de raisin (216°C), huile d'arachide (232°C), huile d'olive raffinée (210°C).</li>
 <li><strong>À éviter :</strong> huile d'olive vierge extra à haute température, beurre (point de fumée 150°C), bombes aérosols commerciales.</li>
-<li><strong>Investissement malin :</strong> un spray rechargeable en verre (8-12 €) est le meilleur achat que vous ferez.</li>
+<li><strong>Investissement malin :</strong> un spray rechargeable en verre est un accessoire peu coûteux et très utile.</li>
 </ul>
 
 <h2>Erreur n°8 : Négliger le nettoyage</h2>
@@ -203,7 +203,7 @@ export const article: BlogArticle = {
 </table>`,
 
     en: `<h2>Why so many air fryer disappointments?</h2>
-<p>You bought an air fryer excited about crispy chips with little oil. But your first results are disappointing: soggy chips, dry chicken, uneven cooking. Don't panic. In 90% of cases, the problem isn't the appliance but easily fixable bad habits.</p>
+<p>You bought an air fryer excited about crispy chips with little oil. But your first results are disappointing: soggy chips, dry chicken, uneven cooking. Don't panic. More often than not, the problem isn't the appliance but easily fixable bad habits.</p>
 
 <h2>Mistake 1: Overloading the basket</h2>
 <p>An air fryer works by circulating hot air at high speed around food. An overfilled basket blocks airflow, producing steamed food instead of crispy food.</p>
@@ -229,7 +229,7 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Fresh chips</td><td>180-190°C</td><td>18-22 min</td></tr>
 <tr><td>Frozen chips</td><td>200°C</td><td>15-18 min</td></tr>
-<tr><td>Whole chicken</td><td>180°C</td><td>25-35 min</td></tr>
+<tr><td>Whole chicken</td><td>180°C</td><td>45-60 min</td></tr>
 <tr><td>Fish fillets</td><td>190°C</td><td>8-12 min</td></tr>
 <tr><td>Vegetables</td><td>190-200°C</td><td>10-15 min</td></tr>
 <tr><td>Steak</td><td>200°C</td><td>8-12 min</td></tr>
@@ -264,7 +264,7 @@ export const article: BlogArticle = {
 <p>Extra virgin olive oil has a smoke point of 160-190°C. At 200°C it produces smoke and bitter flavours. Commercial cooking sprays contain lecithin that damages non-stick coatings.</p>
 <ul>
 <li><strong>Recommended:</strong> avocado oil (271°C), grapeseed oil (216°C), groundnut oil (232°C), refined olive oil (210°C).</li>
-<li><strong>Best investment:</strong> a refillable glass spray bottle (8-12 euros).</li>
+<li><strong>Best investment:</strong> a refillable glass spray bottle, an inexpensive and very useful accessory.</li>
 </ul>
 
 <h2>Mistake 8: Neglecting cleaning</h2>
@@ -337,7 +337,7 @@ export const article: BlogArticle = {
 </table>`,
 
     de: `<h2>Warum so viele Enttäuschungen mit der Heißluftfritteuse?</h2>
-<p>Sie haben eine Heißluftfritteuse gekauft, begeistert von knusprigen Pommes mit wenig Fett. Aber die ersten Ergebnisse sind enttäuschend: weiche Pommes, trockenes Hähnchen, ungleichmäßige Bräunung. Keine Panik. In 90 % der Fälle liegt das Problem nicht am Gerät, sondern an leicht korrigierbaren Gewohnheiten.</p>
+<p>Sie haben eine Heißluftfritteuse gekauft, begeistert von knusprigen Pommes mit wenig Fett. Aber die ersten Ergebnisse sind enttäuschend: weiche Pommes, trockenes Hähnchen, ungleichmäßige Bräunung. Keine Panik. Meistens liegt das Problem nicht am Gerät, sondern an leicht korrigierbaren Gewohnheiten.</p>
 
 <h2>Fehler 1: Korb überladen</h2>
 <p>Der häufigste und folgenreichste Fehler. Ein überfüllter Korb blockiert die Luftzirkulation und erzeugt gedämpftes statt knuspriges Essen.</p>
@@ -358,7 +358,7 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Frische Pommes</td><td>180-190°C</td><td>18-22 Min.</td></tr>
 <tr><td>TK-Pommes</td><td>200°C</td><td>15-18 Min.</td></tr>
-<tr><td>Ganzes Hähnchen</td><td>180°C</td><td>25-35 Min.</td></tr>
+<tr><td>Ganzes Hähnchen</td><td>180°C</td><td>45-60 Min.</td></tr>
 <tr><td>Fischfilet</td><td>190°C</td><td>8-12 Min.</td></tr>
 <tr><td>Gemüse</td><td>190-200°C</td><td>10-15 Min.</td></tr>
 <tr><td>Steak</td><td>200°C</td><td>8-12 Min.</td></tr>
@@ -435,19 +435,19 @@ export const article: BlogArticle = {
 </tbody>
 </table>`,
 
-    es: `<h2>Por que tantas decepciones con la freidora de aire?</h2>
-<p>Compraste una freidora de aire entusiasmado con patatas crujientes con poca grasa. Pero los primeros resultados son decepcionantes: patatas blandas, pollo seco, coccion desigual. No te preocupes. En el 90% de los casos, el problema no es el aparato sino malos habitos facilmente corregibles.</p>
+    es: `<h2>¿Por qué tantas decepciones con la freidora de aire?</h2>
+<p>Compraste una freidora de aire entusiasmado con patatas crujientes con poca grasa. Pero los primeros resultados son decepcionantes: patatas blandas, pollo seco, cocción desigual. No te preocupes. En la mayoría de los casos, el problema no es el aparato sino malos hábitos fácilmente corregibles.</p>
 
 <h2>Error 1: Sobrecargar la cesta</h2>
-<p>El error mas comun e impactante. Una cesta llena bloquea la circulacion de aire y produce comida al vapor en lugar de crujiente.</p>
+<p>El error más común e impactante. Una cesta llena bloquea la circulación de aire y produce comida al vapor en lugar de crujiente.</p>
 <ul>
-<li><strong>Regla de oro:</strong> nunca llenar mas de dos tercios de capacidad.</li>
+<li><strong>Regla de oro:</strong> nunca llenar más de dos tercios de capacidad.</li>
 <li><strong>Para patatas:</strong> una sola capa es ideal. Si se superponen, agitar cada 5 minutos.</li>
 <li><strong>Para familias:</strong> cocinar en dos tandas o usar una <a href="/es/blog/airfryer-simple-vs-double-panier">freidora de doble cesta</a>.</li>
 </ul>
 
 <h2>Error 2: No precalentar</h2>
-<p>Precalentar 3-5 minutos a la temperatura de coccion antes de introducir alimentos. Excepcion: alimentos delicados como filetes finos de pescado.</p>
+<p>Precalentar 3-5 minutos a la temperatura de cocción antes de introducir alimentos. Excepción: alimentos delicados como filetes finos de pescado.</p>
 
 <h2>Error 3: Temperatura incorrecta</h2>
 <table>
@@ -457,7 +457,7 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Patatas frescas</td><td>180-190°C</td><td>18-22 min</td></tr>
 <tr><td>Patatas congeladas</td><td>200°C</td><td>15-18 min</td></tr>
-<tr><td>Pollo entero</td><td>180°C</td><td>25-35 min</td></tr>
+<tr><td>Pollo entero</td><td>180°C</td><td>45-60 min</td></tr>
 <tr><td>Filete de pescado</td><td>190°C</td><td>8-12 min</td></tr>
 <tr><td>Verduras</td><td>190-200°C</td><td>10-15 min</td></tr>
 <tr><td>Bistec</td><td>200°C</td><td>8-12 min</td></tr>
@@ -467,9 +467,9 @@ export const article: BlogArticle = {
 <p><strong>Regla general:</strong> reducir 10-20°C respecto a recetas de horno convencional.</p>
 
 <h2>Error 4: No agitar ni dar vuelta</h2>
-<p>Sin voltear: parte superior dorada, inferior palida. Agitar cada 5-7 minutos. Usar <a href="/es/blog/top-10-accessoires-airfryer">pinzas de silicona</a> para voltear carnes.</p>
+<p>Sin voltear: parte superior dorada, inferior pálida. Agitar cada 5-7 minutos. Usar <a href="/es/blog/top-10-accessoires-airfryer">pinzas de silicona</a> para voltear carnes.</p>
 
-<h2>Error 5: Alimentos demasiado humedos</h2>
+<h2>Error 5: Alimentos demasiado húmedos</h2>
 <p>La humedad crea vapor en lugar de crujiente. Secar siempre con papel absorbente. Escurrir marinadas.</p>
 
 <h2>Error 6: No usar nada de aceite</h2>
@@ -479,34 +479,34 @@ export const article: BlogArticle = {
 <p>El aceite de oliva virgen extra humea a 200°C. Recomendados: aceite de aguacate (271°C), de semilla de uva (216°C), de cacahuete (232°C), oliva refinado (210°C).</p>
 
 <h2>Error 8: No limpiar</h2>
-<p>Los residuos de grasa se queman en usos posteriores creando humo y malos olores. Lavar la cesta despues de cada uso. Limpiar la resistencia semanalmente. Mas en nuestra <a href="/es/blog/entretien-nettoyage-airfryer">guia de mantenimiento</a>.</p>
+<p>Los residuos de grasa se queman en usos posteriores creando humo y malos olores. Lavar la cesta después de cada uso. Limpiar la resistencia semanalmente. Más en nuestra <a href="/es/blog/entretien-nettoyage-airfryer">guía de mantenimiento</a>.</p>
 
 <h2>Error 9: No adaptar recetas de horno</h2>
 <p>Reducir temperatura 10-20°C y tiempo un 20-25%. Ejemplo: pollo asado 200°C/60 min en horno = 180°C/45 min en freidora de aire.</p>
 
-<h2>Error 10: Mala ventilacion</h2>
+<h2>Error 10: Mala ventilación</h2>
 <p>Dejar minimo 10-15 cm de espacio detras y encima. Idealmente usar bajo la campana extractora.</p>
 
 <h2>Tabla resumen</h2>
 <table>
 <thead>
-<tr><th>Error</th><th>Impacto</th><th>Solucion rapida</th></tr>
+<tr><th>Error</th><th>Impacto</th><th>Solución rápida</th></tr>
 </thead>
 <tbody>
-<tr><td>1. Sobrecarga</td><td>Coccion blanda</td><td>Max 2/3 de capacidad</td></tr>
-<tr><td>2. Sin precalentamiento</td><td>Mas tiempo, menos crujiente</td><td>3-5 min precalentar</td></tr>
+<tr><td>1. Sobrecarga</td><td>Cocción blanda</td><td>Máx. 2/3 de capacidad</td></tr>
+<tr><td>2. Sin precalentamiento</td><td>Más tiempo, menos crujiente</td><td>3-5 min precalentar</td></tr>
 <tr><td>3. Temp. incorrecta</td><td>Quemado/crudo</td><td>Adaptar al alimento</td></tr>
-<tr><td>4. No voltear</td><td>Coccion desigual</td><td>Agitar cada 5-7 min</td></tr>
-<tr><td>5. Alimentos humedos</td><td>Sin crujiente</td><td>Secar bien antes</td></tr>
+<tr><td>4. No voltear</td><td>Cocción desigual</td><td>Agitar cada 5-7 min</td></tr>
+<tr><td>5. Alimentos húmedos</td><td>Sin crujiente</td><td>Secar bien antes</td></tr>
 <tr><td>6. Cero aceite</td><td>Seco, sin crunch</td><td>1-2 cc spray aceite</td></tr>
 <tr><td>7. Aceite equivocado</td><td>Humo, sabor amargo</td><td>Alto punto de humo</td></tr>
 <tr><td>8. Sin limpieza</td><td>Humo, olores</td><td>Limpiar tras cada uso</td></tr>
-<tr><td>9. Recetas sin adaptar</td><td>Sobre/subccoccion</td><td>-20°C, -25% tiempo</td></tr>
-<tr><td>10. Sin ventilacion</td><td>Rendimiento reducido</td><td>10-15 cm de espacio</td></tr>
+<tr><td>9. Recetas sin adaptar</td><td>Sobre/subccocción</td><td>-20°C, -25% tiempo</td></tr>
+<tr><td>10. Sin ventilación</td><td>Rendimiento reducido</td><td>10-15 cm de espacio</td></tr>
 </tbody>
 </table>
 
-<p>Mas consejos en nuestra <a href="/es/guides/airfryers">guia completa de freidoras de aire</a> y el <a href="/es/guides/airfryer-vs-four">comparativo freidora vs horno</a>.</p>
+<p>Más consejos en nuestra <a href="/es/guides/airfryers">guía completa de freidoras de aire</a> y el <a href="/es/guides/airfryer-vs-four">comparativo freidora vs horno</a>.</p>
 
 <h2>Guía de resolución de problemas: ¿qué hacer cuando no funciona?</h2>
 <table>
@@ -534,14 +534,14 @@ export const article: BlogArticle = {
 </tbody>
 </table>`,
 
-    it: `<h2>Perche tante delusioni con la friggitrice ad aria?</h2>
-<p>Avete comprato una friggitrice ad aria entusiasti delle patatine croccanti con poco olio. Ma i primi risultati sono deludenti: patatine molli, pollo secco, cottura irregolare. Niente panico. Nel 90% dei casi il problema non e l'apparecchio ma cattive abitudini facilmente correggibili.</p>
+    it: `<h2>Perché tante delusioni con la friggitrice ad aria?</h2>
+<p>Avete comprato una friggitrice ad aria entusiasti delle patatine croccanti con poco olio. Ma i primi risultati sono deludenti: patatine molli, pollo secco, cottura irregolare. Niente panico. Nella maggior parte dei casi il problema non è l'apparecchio ma cattive abitudini facilmente correggibili.</p>
 
 <h2>Errore 1: Sovraccaricare il cestello</h2>
-<p>L'errore piu comune e impattante. Un cestello pieno blocca la circolazione dell'aria producendo cibo al vapore invece che croccante.</p>
+<p>L'errore più comune e impattante. Un cestello pieno blocca la circolazione dell'aria producendo cibo al vapore invece che croccante.</p>
 <ul>
-<li><strong>Regola d'oro:</strong> mai riempire oltre i due terzi della capacita.</li>
-<li><strong>Per le patatine:</strong> un solo strato e l'ideale. Se sovrapposte, scuotere ogni 5 minuti.</li>
+<li><strong>Regola d'oro:</strong> mai riempire oltre i due terzi della capacità.</li>
+<li><strong>Per le patatine:</strong> un solo strato è l'ideale. Se sovrapposte, scuotere ogni 5 minuti.</li>
 <li><strong>Per le famiglie:</strong> cuocere in due tornate o usare una <a href="/it/blog/airfryer-simple-vs-double-panier">friggitrice a doppio cestello</a>.</li>
 </ul>
 
@@ -556,7 +556,7 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Patatine fresche</td><td>180-190°C</td><td>18-22 min</td></tr>
 <tr><td>Patatine surgelate</td><td>200°C</td><td>15-18 min</td></tr>
-<tr><td>Pollo intero</td><td>180°C</td><td>25-35 min</td></tr>
+<tr><td>Pollo intero</td><td>180°C</td><td>45-60 min</td></tr>
 <tr><td>Filetto di pesce</td><td>190°C</td><td>8-12 min</td></tr>
 <tr><td>Verdure</td><td>190-200°C</td><td>10-15 min</td></tr>
 <tr><td>Bistecca</td><td>200°C</td><td>8-12 min</td></tr>
@@ -569,7 +569,7 @@ export const article: BlogArticle = {
 <p>Senza girare: sopra dorato, sotto pallido. Scuotere ogni 5-7 minuti. Usare <a href="/it/blog/top-10-accessoires-airfryer">pinze in silicone</a> per girare carni e pesci.</p>
 
 <h2>Errore 5: Alimenti troppo bagnati</h2>
-<p>L'umidita crea vapore invece di croccantezza. Asciugare sempre con carta assorbente. Scolare le marinature.</p>
+<p>L'umidità crea vapore invece di croccantezza. Asciugare sempre con carta assorbente. Scolare le marinature.</p>
 
 <h2>Errore 6: Non usare olio per niente</h2>
 <p>Gli alimenti freschi necessitano di 1-2 cucchiaini di olio spray. I surgelati prefritti non necessitano di olio aggiuntivo. Oliare il cibo, non il cestello.</p>
@@ -592,8 +592,8 @@ export const article: BlogArticle = {
 <tr><th>Errore</th><th>Impatto</th><th>Soluzione rapida</th></tr>
 </thead>
 <tbody>
-<tr><td>1. Sovraccarico</td><td>Cottura molle</td><td>Max 2/3 capacita</td></tr>
-<tr><td>2. No preriscaldamento</td><td>Piu tempo, meno croccante</td><td>3-5 min preriscaldamento</td></tr>
+<tr><td>1. Sovraccarico</td><td>Cottura molle</td><td>Max 2/3 capacità</td></tr>
+<tr><td>2. No preriscaldamento</td><td>Più tempo, meno croccante</td><td>3-5 min preriscaldamento</td></tr>
 <tr><td>3. Temp. sbagliata</td><td>Bruciato/crudo</td><td>Adattare all'alimento</td></tr>
 <tr><td>4. Non girare</td><td>Cottura irregolare</td><td>Scuotere ogni 5-7 min</td></tr>
 <tr><td>5. Cibi bagnati</td><td>Niente croccantezza</td><td>Asciugare bene</td></tr>
@@ -634,7 +634,7 @@ export const article: BlogArticle = {
 </table>`,
 
     nl: `<h2>Waarom zoveel teleurstellingen met de airfryer?</h2>
-<p>Je kocht een airfryer, enthousiast over knapperige frietjes met weinig olie. Maar de eerste resultaten zijn teleurstellend: slappe friet, droge kip, ongelijkmatige garing. Geen paniek. In 90% van de gevallen ligt het probleem niet bij het apparaat maar bij makkelijk te corrigeren gewoonten.</p>
+<p>Je kocht een airfryer, enthousiast over knapperige frietjes met weinig olie. Maar de eerste resultaten zijn teleurstellend: slappe friet, droge kip, ongelijkmatige garing. Geen paniek. Meestal ligt het probleem niet bij het apparaat maar bij makkelijk te corrigeren gewoonten.</p>
 
 <h2>Fout 1: De mand overladen</h2>
 <p>De meest voorkomende en ingrijpende fout. Een overvolle mand blokkeert de luchtstroom en produceert gestoomd in plaats van knapperig eten.</p>
@@ -655,7 +655,7 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Verse friet</td><td>180-190°C</td><td>18-22 min</td></tr>
 <tr><td>Diepvriesfriet</td><td>200°C</td><td>15-18 min</td></tr>
-<tr><td>Hele kip</td><td>180°C</td><td>25-35 min</td></tr>
+<tr><td>Hele kip</td><td>180°C</td><td>45-60 min</td></tr>
 <tr><td>Visfilet</td><td>190°C</td><td>8-12 min</td></tr>
 <tr><td>Groenten</td><td>190-200°C</td><td>10-15 min</td></tr>
 <tr><td>Biefstuk</td><td>200°C</td><td>8-12 min</td></tr>

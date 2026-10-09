@@ -6,7 +6,7 @@ export const article: BlogArticle = {
   pillar: 'guides/airfryers',
   relatedSlugs: ['recettes-frites-parfaites-airfryer', 'meal-prep-airfryer-semaine', 'cuisiner-healthy-airfryer'],
   datePublished: '2026-02-12',
-  dateModified: '2026-04-05',
+  dateModified: '2026-10-09',
   readingTime: 13,
   images: [
     {
@@ -22,12 +22,12 @@ export const article: BlogArticle = {
     },
   ],
   title: {
-    fr: 'Recettes de Poulet Croustillant à l\'Airfryer : 6 Recettes Testées',
-    en: 'Crispy Air Fryer Chicken Recipes: 6 Tested Recipes',
-    de: 'Knuspriges Hähnchen aus der Heißluftfritteuse: 6 Getestete Rezepte',
-    es: 'Recetas de Pollo Crujiente en Freidora de Aire: 6 Recetas Probadas',
-    it: 'Ricette di Pollo Croccante nella Friggitrice ad Aria: 6 Ricette Testate',
-    nl: 'Krokante Kip uit de Airfryer: 6 Geteste Recepten',
+    fr: 'Recettes de Poulet Croustillant à l\'Airfryer : 6 Recettes Faciles',
+    en: 'Crispy Air Fryer Chicken Recipes: 6 Easy Recipes',
+    de: 'Knuspriges Hähnchen aus der Heißluftfritteuse: 6 Einfache Rezepte',
+    es: 'Recetas de Pollo Crujiente en Freidora de Aire: 6 Recetas Fáciles',
+    it: 'Ricette di Pollo Croccante nella Friggitrice ad Aria: 6 Ricette Facili',
+    nl: 'Krokante Kip uit de Airfryer: 6 Makkelijke Recepten',
   },
   excerpt: {
     fr: 'Découvrez 6 recettes de poulet croustillant à l\'airfryer : ailes, tenders, cuisses, blancs, nuggets et satay. Marinades, températures et temps de cuisson pour un poulet parfait.',
@@ -39,7 +39,7 @@ export const article: BlogArticle = {
   },
   content: {
     fr: `<h2>Introduction</h2>
-<p>Le poulet à l'airfryer est sans doute l'une des préparations les plus satisfaisantes que vous puissiez réaliser. La circulation d'air chaud permet d'obtenir une <strong>peau croustillante et dorée</strong> tout en gardant une chair juteuse à l'intérieur, le tout avec une quantité minimale d'huile. Que vous prépariez un repas rapide en semaine ou un dîner pour recevoir, ces 6 recettes testées couvrent tous les morceaux du poulet et toutes les occasions.</p>
+<p>Le poulet à l'airfryer est sans doute l'une des préparations les plus satisfaisantes que vous puissiez réaliser. La circulation d'air chaud permet d'obtenir une <strong>peau croustillante et dorée</strong> tout en gardant une chair juteuse à l'intérieur, le tout avec une quantité minimale d'huile. Que vous prépariez un repas rapide en semaine ou un dîner pour recevoir, ces 6 recettes couvrent tous les morceaux du poulet et toutes les occasions.</p>
 <p>Le secret d'un poulet parfait à l'airfryer repose sur trois éléments clés : une marinade qui attendrit et parfume la viande, un <strong>séchage en surface</strong> pour maximiser le croustillant, et le respect strict des températures internes de sécurité alimentaire (<strong>74 °C à cœur</strong>). Nous recommandons l'utilisation d'un thermomètre de cuisine pour garantir une cuisson parfaite à chaque fois.</p>
 
 <h2>1. Ailes de Poulet Buffalo</h2>
@@ -125,7 +125,7 @@ export const article: BlogArticle = {
 <li>Préchauffez l'airfryer à <strong>180 °C pendant 3 minutes</strong>.</li>
 <li>Placez les cuisses <strong>peau vers le haut</strong> dans le panier.</li>
 <li>Cuisez à <strong>180 °C pendant 15 minutes</strong>.</li>
-<li>Retournez et cuisez à <strong>200 °C pendant 5 à 8 minutes</strong> supplémentaires, peau vers le haut à nouveau, pour croustiller la peau.</li>
+<li>Retournez et cuisez à <strong>200 °C pendant 5 à 10 minutes</strong> supplémentaires, peau vers le haut à nouveau, pour croustiller la peau.</li>
 <li>Vérifiez que la température interne atteint <strong>74 °C</strong> dans la partie la plus épaisse.</li>
 <li>Laissez reposer <strong>5 minutes</strong> avant de servir.</li>
 </ol>
@@ -236,7 +236,7 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Ailes Buffalo</td><td>180 °C puis 200 °C</td><td>20-22 min</td><td>1 kg</td><td>74 °C</td></tr>
 <tr><td>Tenders panés</td><td>200 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
-<tr><td>Cuisses épicées</td><td>180 °C puis 200 °C</td><td>20-23 min</td><td>800 g</td><td>74 °C</td></tr>
+<tr><td>Cuisses épicées</td><td>180 °C puis 200 °C</td><td>20-25 min</td><td>800 g</td><td>74 °C</td></tr>
 <tr><td>Blancs marinés</td><td>180 °C</td><td>18-22 min</td><td>400 g</td><td>74 °C</td></tr>
 <tr><td>Nuggets maison</td><td>190 °C</td><td>10-12 min</td><td>400 g</td><td>74 °C</td></tr>
 <tr><td>Brochettes satay</td><td>190 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
@@ -254,19 +254,6 @@ export const article: BlogArticle = {
 </ul>
 <p>Pour un repas complet, accompagnez ces recettes de <a href="/fr/blog/recettes-frites-parfaites-airfryer">frites parfaites à l'airfryer</a> ou de <a href="/fr/blog/recettes-legumes-grilles-airfryer">légumes grillés</a>. Et n'hésitez pas à consulter notre guide pour <a href="/fr/blog/cuisiner-healthy-airfryer">cuisiner healthy à l'airfryer</a> afin de composer des menus équilibrés au quotidien.</p>
 
-<h2>Tableau récapitulatif : temps, températures et apport nutritionnel</h2>
-<table>
-<thead><tr><th>Recette (150 g)</th><th>Température</th><th>Temps total</th><th>Calories</th><th>Protéines</th><th>Graisses</th></tr></thead>
-<tbody>
-<tr><td>Ailes Buffalo</td><td>200°C</td><td>22-25 min</td><td>265 kcal</td><td>22 g</td><td>16 g</td></tr>
-<tr><td>Tenders croustillants</td><td>200°C</td><td>14-16 min</td><td>245 kcal</td><td>28 g</td><td>9 g</td></tr>
-<tr><td>Cuisses tandoori</td><td>185-200°C</td><td>28-32 min</td><td>285 kcal</td><td>26 g</td><td>14 g</td></tr>
-<tr><td>Blancs croustillants</td><td>190-200°C</td><td>18-22 min</td><td>220 kcal</td><td>31 g</td><td>8 g</td></tr>
-<tr><td>Nuggets maison</td><td>200°C</td><td>12-14 min</td><td>255 kcal</td><td>24 g</td><td>10 g</td></tr>
-<tr><td>Brochettes satay</td><td>195°C</td><td>12-14 min</td><td>275 kcal</td><td>27 g</td><td>13 g</td></tr>
-</tbody>
-</table>
-
 <h2>5 marinades express qui changent tout</h2>
 <ul>
 <li><strong>Marinade citron-herbes (30 min) :</strong> jus de 2 citrons + origan + ail + huile d'olive. Pour les blancs de poulet.</li>
@@ -277,7 +264,7 @@ export const article: BlogArticle = {
 </ul>`,
 
     en: `<h2>Introduction</h2>
-<p>Air fryer chicken is arguably one of the most satisfying things you can cook. The hot air circulation creates <strong>crispy, golden skin</strong> while keeping the meat juicy inside, all with minimal oil. Whether preparing a quick weeknight meal or a dinner party dish, these 6 tested recipes cover every cut of chicken and every occasion.</p>
+<p>Air fryer chicken is arguably one of the most satisfying things you can cook. The hot air circulation creates <strong>crispy, golden skin</strong> while keeping the meat juicy inside, all with minimal oil. Whether preparing a quick weeknight meal or a dinner party dish, these 6 recipes cover every cut of chicken and every occasion.</p>
 <p>The secret to perfect air fryer chicken rests on three key elements: a marinade that tenderizes and flavours the meat, <strong>surface drying</strong> to maximize crispiness, and strict respect for internal food safety temperatures (<strong>74 °C / 165 °F at the core</strong>).</p>
 
 <h2>1. Buffalo Chicken Wings</h2>
@@ -345,7 +332,7 @@ export const article: BlogArticle = {
 <li>Marinate <strong>2-4 hours</strong> (30 minutes minimum).</li>
 <li>Let sit at room temperature <strong>20 minutes</strong> before cooking.</li>
 <li>Place skin-side up. Cook at <strong>180 °C for 15 minutes</strong>.</li>
-<li>Flip, then cook at <strong>200 °C for 5-8 minutes</strong> skin-side up to crisp.</li>
+<li>Flip, then cook at <strong>200 °C for 5-10 minutes</strong> skin-side up to crisp.</li>
 <li>Internal temperature must reach <strong>74 °C</strong>. Rest <strong>5 minutes</strong>.</li>
 </ol>
 <h3>Chef's Tips</h3>
@@ -412,7 +399,7 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Buffalo wings</td><td>180 °C then 200 °C</td><td>20-22 min</td><td>1 kg</td><td>74 °C</td></tr>
 <tr><td>Breaded tenders</td><td>200 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
-<tr><td>Spiced thighs</td><td>180 °C then 200 °C</td><td>20-23 min</td><td>800 g</td><td>74 °C</td></tr>
+<tr><td>Spiced thighs</td><td>180 °C then 200 °C</td><td>20-25 min</td><td>800 g</td><td>74 °C</td></tr>
 <tr><td>Marinated breast</td><td>180 °C</td><td>18-22 min</td><td>400 g</td><td>74 °C</td></tr>
 <tr><td>Homemade nuggets</td><td>190 °C</td><td>10-12 min</td><td>400 g</td><td>74 °C</td></tr>
 <tr><td>Satay skewers</td><td>190 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
@@ -429,19 +416,6 @@ export const article: BlogArticle = {
 </ul>
 <p>For complete meals, pair with <a href="/en/blog/recettes-frites-parfaites-airfryer">perfect air fryer fries</a> or <a href="/en/blog/recettes-legumes-grilles-airfryer">grilled vegetables</a>.</p>
 
-<h2>Summary table: times, temperatures and nutritional values</h2>
-<table>
-<thead><tr><th>Recipe (150 g)</th><th>Temperature</th><th>Total time</th><th>Calories</th><th>Protein</th><th>Fat</th></tr></thead>
-<tbody>
-<tr><td>Buffalo wings</td><td>200°C</td><td>22-25 min</td><td>265 kcal</td><td>22 g</td><td>16 g</td></tr>
-<tr><td>Crispy tenders</td><td>200°C</td><td>14-16 min</td><td>245 kcal</td><td>28 g</td><td>9 g</td></tr>
-<tr><td>Tandoori thighs</td><td>185-200°C</td><td>28-32 min</td><td>285 kcal</td><td>26 g</td><td>14 g</td></tr>
-<tr><td>Crispy breast</td><td>190-200°C</td><td>18-22 min</td><td>220 kcal</td><td>31 g</td><td>8 g</td></tr>
-<tr><td>Homemade nuggets</td><td>200°C</td><td>12-14 min</td><td>255 kcal</td><td>24 g</td><td>10 g</td></tr>
-<tr><td>Satay skewers</td><td>195°C</td><td>12-14 min</td><td>275 kcal</td><td>27 g</td><td>13 g</td></tr>
-</tbody>
-</table>
-
 <h2>5 quick marinades that make all the difference</h2>
 <ul>
 <li><strong>Lemon-herb marinade (30 min):</strong> juice of 2 lemons + oregano + garlic + olive oil. For chicken breasts.</li>
@@ -452,7 +426,7 @@ export const article: BlogArticle = {
 </ul>`,
 
     de: `<h2>Einleitung</h2>
-<p>Hähnchen aus der Heißluftfritteuse gehört zu den befriedigendsten Gerichten, die man zubereiten kann. Die Heißluftzirkulation erzeugt eine <strong>knusprige, goldbraune Haut</strong>, während das Fleisch innen saftig bleibt — und das mit minimalem Ölverbrauch. Diese 6 getesteten Rezepte decken alle Hähnchenteile und Anlässe ab.</p>
+<p>Hähnchen aus der Heißluftfritteuse gehört zu den befriedigendsten Gerichten, die man zubereiten kann. Die Heißluftzirkulation erzeugt eine <strong>knusprige, goldbraune Haut</strong>, während das Fleisch innen saftig bleibt — und das mit minimalem Ölverbrauch. Diese 6 Rezepte decken alle Hähnchenteile und Anlässe ab.</p>
 <p>Das Geheimnis: eine Marinade, die das Fleisch zart macht, <strong>trockene Oberfläche</strong> für maximale Knusprigkeit und strikte Einhaltung der Kerntemperatur (<strong>74 °C</strong>).</p>
 
 <h2>1. Buffalo Chicken Wings</h2>
@@ -494,7 +468,7 @@ export const article: BlogArticle = {
 <ol>
 <li>Gewürzmischung herstellen. Schenkel trocknen, mit Öl und Gewürzen einreiben.</li>
 <li>Mindestens <strong>2-4 Stunden</strong> marinieren.</li>
-<li>Hautseite oben bei <strong>180 °C 15 Minuten</strong>, wenden, dann <strong>200 °C 5-8 Minuten</strong>.</li>
+<li>Hautseite oben bei <strong>180 °C 15 Minuten</strong>, wenden, dann <strong>200 °C 5-10 Minuten</strong>.</li>
 <li>Kerntemperatur <strong>74 °C</strong>. <strong>5 Minuten</strong> ruhen lassen.</li>
 </ol>
 <h3>Tipps vom Profi</h3>
@@ -553,7 +527,7 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Buffalo Wings</td><td>180 °C dann 200 °C</td><td>20-22 Min.</td><td>1 kg</td><td>74 °C</td></tr>
 <tr><td>Panierte Tenders</td><td>200 °C</td><td>10-12 Min.</td><td>500 g</td><td>74 °C</td></tr>
-<tr><td>Gewürzte Schenkel</td><td>180 °C dann 200 °C</td><td>20-23 Min.</td><td>800 g</td><td>74 °C</td></tr>
+<tr><td>Gewürzte Schenkel</td><td>180 °C dann 200 °C</td><td>20-25 Min.</td><td>800 g</td><td>74 °C</td></tr>
 <tr><td>Marinierte Brust</td><td>180 °C</td><td>18-22 Min.</td><td>400 g</td><td>74 °C</td></tr>
 <tr><td>Nuggets</td><td>190 °C</td><td>10-12 Min.</td><td>400 g</td><td>74 °C</td></tr>
 <tr><td>Satay-Spieße</td><td>190 °C</td><td>10-12 Min.</td><td>500 g</td><td>74 °C</td></tr>
@@ -569,19 +543,6 @@ export const article: BlogArticle = {
 </ul>
 <p>Servieren Sie mit <a href="/de/blog/recettes-frites-parfaites-airfryer">perfekten Airfryer-Pommes</a> oder <a href="/de/blog/recettes-legumes-grilles-airfryer">gegrilltem Gemüse</a>.</p>
 
-<h2>Übersichtstabelle: Zeiten, Temperaturen und Nährwerte</h2>
-<table>
-<thead><tr><th>Rezept (150 g)</th><th>Temperatur</th><th>Gesamtzeit</th><th>Kalorien</th><th>Protein</th><th>Fett</th></tr></thead>
-<tbody>
-<tr><td>Buffalo-Flügel</td><td>200°C</td><td>22-25 Min.</td><td>265 kcal</td><td>22 g</td><td>16 g</td></tr>
-<tr><td>Knusprige Tenders</td><td>200°C</td><td>14-16 Min.</td><td>245 kcal</td><td>28 g</td><td>9 g</td></tr>
-<tr><td>Tandoori-Schenkel</td><td>185-200°C</td><td>28-32 Min.</td><td>285 kcal</td><td>26 g</td><td>14 g</td></tr>
-<tr><td>Knusprige Brust</td><td>190-200°C</td><td>18-22 Min.</td><td>220 kcal</td><td>31 g</td><td>8 g</td></tr>
-<tr><td>Hausgemachte Nuggets</td><td>200°C</td><td>12-14 Min.</td><td>255 kcal</td><td>24 g</td><td>10 g</td></tr>
-<tr><td>Satay-Spieße</td><td>195°C</td><td>12-14 Min.</td><td>275 kcal</td><td>27 g</td><td>13 g</td></tr>
-</tbody>
-</table>
-
 <h2>5 schnelle Marinaden, die alles verändern</h2>
 <ul>
 <li><strong>Zitronen-Kräuter-Marinade (30 Min.):</strong> Saft von 2 Zitronen + Oregano + Knoblauch + Olivenöl. Für Hähnchenbrust.</li>
@@ -592,7 +553,7 @@ export const article: BlogArticle = {
 </ul>`,
 
     es: `<h2>Introducción</h2>
-<p>El pollo en la freidora de aire es probablemente una de las preparaciones más satisfactorias que puedes hacer. La circulación de aire caliente crea una <strong>piel crujiente y dorada</strong> manteniendo la carne jugosa por dentro, todo con una cantidad mínima de aceite. Estas 6 recetas probadas cubren todos los cortes de pollo y todas las ocasiones.</p>
+<p>El pollo en la freidora de aire es probablemente una de las preparaciones más satisfactorias que puedes hacer. La circulación de aire caliente crea una <strong>piel crujiente y dorada</strong> manteniendo la carne jugosa por dentro, todo con una cantidad mínima de aceite. Estas 6 recetas cubren todos los cortes de pollo y todas las ocasiones.</p>
 <p>El secreto del pollo perfecto se basa en: una marinada que ablanda y aromatiza, <strong>secado de la superficie</strong> para maximizar el crujiente y respetar la temperatura interna de seguridad (<strong>74 °C en el centro</strong>).</p>
 
 <h2>1. Alitas de Pollo Buffalo</h2>
@@ -631,7 +592,7 @@ export const article: BlogArticle = {
 <h3>Preparación</h3>
 <ol>
 <li>Mezcla las especias. Seca los muslos, unta con aceite y especias. Marina <strong>2-4 horas</strong>.</li>
-<li>Piel hacia arriba: <strong>180 °C 15 minutos</strong>, da la vuelta, <strong>200 °C 5-8 minutos</strong>.</li>
+<li>Piel hacia arriba: <strong>180 °C 15 minutos</strong>, da la vuelta, <strong>200 °C 5-10 minutos</strong>.</li>
 <li>Temperatura interna <strong>74 °C</strong>. Reposa <strong>5 minutos</strong>.</li>
 </ol>
 <h3>Trucos del chef</h3>
@@ -688,7 +649,7 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Alitas Buffalo</td><td>180 °C luego 200 °C</td><td>20-22 min</td><td>1 kg</td><td>74 °C</td></tr>
 <tr><td>Tenders empanados</td><td>200 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
-<tr><td>Muslos especiados</td><td>180 °C luego 200 °C</td><td>20-23 min</td><td>800 g</td><td>74 °C</td></tr>
+<tr><td>Muslos especiados</td><td>180 °C luego 200 °C</td><td>20-25 min</td><td>800 g</td><td>74 °C</td></tr>
 <tr><td>Pechugas marinadas</td><td>180 °C</td><td>18-22 min</td><td>400 g</td><td>74 °C</td></tr>
 <tr><td>Nuggets caseros</td><td>190 °C</td><td>10-12 min</td><td>400 g</td><td>74 °C</td></tr>
 <tr><td>Brochetas satay</td><td>190 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
@@ -704,19 +665,6 @@ export const article: BlogArticle = {
 </ul>
 <p>Acompaña con <a href="/es/blog/recettes-frites-parfaites-airfryer">patatas fritas perfectas</a> o <a href="/es/blog/recettes-legumes-grilles-airfryer">verduras a la parrilla</a>.</p>
 
-<h2>Tabla resumen: tiempos, temperaturas y valores nutricionales</h2>
-<table>
-<thead><tr><th>Receta (150 g)</th><th>Temperatura</th><th>Tiempo total</th><th>Calorías</th><th>Proteínas</th><th>Grasas</th></tr></thead>
-<tbody>
-<tr><td>Alitas Buffalo</td><td>200°C</td><td>22-25 min</td><td>265 kcal</td><td>22 g</td><td>16 g</td></tr>
-<tr><td>Tenders crujientes</td><td>200°C</td><td>14-16 min</td><td>245 kcal</td><td>28 g</td><td>9 g</td></tr>
-<tr><td>Muslos tandoori</td><td>185-200°C</td><td>28-32 min</td><td>285 kcal</td><td>26 g</td><td>14 g</td></tr>
-<tr><td>Pechuga crujiente</td><td>190-200°C</td><td>18-22 min</td><td>220 kcal</td><td>31 g</td><td>8 g</td></tr>
-<tr><td>Nuggets caseros</td><td>200°C</td><td>12-14 min</td><td>255 kcal</td><td>24 g</td><td>10 g</td></tr>
-<tr><td>Brochetas satay</td><td>195°C</td><td>12-14 min</td><td>275 kcal</td><td>27 g</td><td>13 g</td></tr>
-</tbody>
-</table>
-
 <h2>5 marinadas express que lo cambian todo</h2>
 <ul>
 <li><strong>Marinada limón-hierbas (30 min):</strong> zumo de 2 limones + orégano + ajo + aceite de oliva. Para pechugas.</li>
@@ -727,7 +675,7 @@ export const article: BlogArticle = {
 </ul>`,
 
     it: `<h2>Introduzione</h2>
-<p>Il pollo nella friggitrice ad aria è probabilmente una delle preparazioni più soddisfacenti che possiate realizzare. La circolazione di aria calda crea una <strong>pelle croccante e dorata</strong> mantenendo la carne succosa all'interno, il tutto con una quantità minima di olio. Queste 6 ricette testate coprono tutti i tagli di pollo e tutte le occasioni.</p>
+<p>Il pollo nella friggitrice ad aria è probabilmente una delle preparazioni più soddisfacenti che possiate realizzare. La circolazione di aria calda crea una <strong>pelle croccante e dorata</strong> mantenendo la carne succosa all'interno, il tutto con una quantità minima di olio. Queste 6 ricette coprono tutti i tagli di pollo e tutte le occasioni.</p>
 <p>Il segreto del pollo perfetto: una marinatura che ammorbidisce e insaporisce, <strong>asciugatura della superficie</strong> per massimizzare la croccantezza e rispetto della temperatura interna di sicurezza (<strong>74 °C al cuore</strong>).</p>
 
 <h2>1. Ali di Pollo Buffalo</h2>
@@ -766,7 +714,7 @@ export const article: BlogArticle = {
 <h3>Preparazione</h3>
 <ol>
 <li>Preparate il mix di spezie. Asciugate le cosce, ungetele con olio e spezie. Marinate <strong>2-4 ore</strong>.</li>
-<li>Pelle in alto: <strong>180 °C per 15 minuti</strong>, girate, <strong>200 °C per 5-8 minuti</strong>.</li>
+<li>Pelle in alto: <strong>180 °C per 15 minuti</strong>, girate, <strong>200 °C per 5-10 minuti</strong>.</li>
 <li>Temperatura interna <strong>74 °C</strong>. Riposate <strong>5 minuti</strong>.</li>
 </ol>
 <h3>Consigli dello chef</h3>
@@ -822,7 +770,7 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Ali Buffalo</td><td>180 °C poi 200 °C</td><td>20-22 min</td><td>1 kg</td><td>74 °C</td></tr>
 <tr><td>Tenders impanati</td><td>200 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
-<tr><td>Cosce speziate</td><td>180 °C poi 200 °C</td><td>20-23 min</td><td>800 g</td><td>74 °C</td></tr>
+<tr><td>Cosce speziate</td><td>180 °C poi 200 °C</td><td>20-25 min</td><td>800 g</td><td>74 °C</td></tr>
 <tr><td>Petti marinati</td><td>180 °C</td><td>18-22 min</td><td>400 g</td><td>74 °C</td></tr>
 <tr><td>Nuggets</td><td>190 °C</td><td>10-12 min</td><td>400 g</td><td>74 °C</td></tr>
 <tr><td>Spiedini satay</td><td>190 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
@@ -838,19 +786,6 @@ export const article: BlogArticle = {
 </ul>
 <p>Accompagnate con <a href="/it/blog/recettes-frites-parfaites-airfryer">patatine fritte perfette</a> o <a href="/it/blog/recettes-legumes-grilles-airfryer">verdure grigliate</a>.</p>
 
-<h2>Tabella riepilogativa: tempi, temperature e valori nutrizionali</h2>
-<table>
-<thead><tr><th>Ricetta (150 g)</th><th>Temperatura</th><th>Tempo totale</th><th>Calorie</th><th>Proteine</th><th>Grassi</th></tr></thead>
-<tbody>
-<tr><td>Ali Buffalo</td><td>200°C</td><td>22-25 min</td><td>265 kcal</td><td>22 g</td><td>16 g</td></tr>
-<tr><td>Tenders croccanti</td><td>200°C</td><td>14-16 min</td><td>245 kcal</td><td>28 g</td><td>9 g</td></tr>
-<tr><td>Cosce tandoori</td><td>185-200°C</td><td>28-32 min</td><td>285 kcal</td><td>26 g</td><td>14 g</td></tr>
-<tr><td>Petto croccante</td><td>190-200°C</td><td>18-22 min</td><td>220 kcal</td><td>31 g</td><td>8 g</td></tr>
-<tr><td>Nuggets fatti in casa</td><td>200°C</td><td>12-14 min</td><td>255 kcal</td><td>24 g</td><td>10 g</td></tr>
-<tr><td>Spiedini satay</td><td>195°C</td><td>12-14 min</td><td>275 kcal</td><td>27 g</td><td>13 g</td></tr>
-</tbody>
-</table>
-
 <h2>5 marinature express che cambiano tutto</h2>
 <ul>
 <li><strong>Marinatura limone-erbe (30 min):</strong> succo di 2 limoni + origano + aglio + olio d'oliva. Per il petto di pollo.</li>
@@ -861,7 +796,7 @@ export const article: BlogArticle = {
 </ul>`,
 
     nl: `<h2>Inleiding</h2>
-<p>Kip uit de airfryer is misschien wel een van de meest bevredigende gerechten die je kunt bereiden. De heteluchtcirculatie creëert een <strong>krokant, goudbruin vel</strong> terwijl het vlees van binnen sappig blijft — en dat met een minimum aan olie. Deze 6 geteste recepten dekken alle kipdelen en alle gelegenheden.</p>
+<p>Kip uit de airfryer is misschien wel een van de meest bevredigende gerechten die je kunt bereiden. De heteluchtcirculatie creëert een <strong>krokant, goudbruin vel</strong> terwijl het vlees van binnen sappig blijft — en dat met een minimum aan olie. Deze 6 recepten dekken alle kipdelen en alle gelegenheden.</p>
 <p>Het geheim van perfecte airfryer-kip: een marinade die malst en smaak geeft, <strong>droog oppervlak</strong> voor maximale kroktheid en strikte naleving van de veilige kerntemperatuur (<strong>74 °C</strong>).</p>
 
 <h2>1. Buffalo Chicken Wings</h2>
@@ -900,7 +835,7 @@ export const article: BlogArticle = {
 <h3>Bereiding</h3>
 <ol>
 <li>Meng alle kruiden. Dep de dijen droog, wrijf in met olie en kruiden. Marineer <strong>2-4 uur</strong>.</li>
-<li>Vel naar boven: <strong>180 °C 15 minuten</strong>, draai om, <strong>200 °C 5-8 minuten</strong>.</li>
+<li>Vel naar boven: <strong>180 °C 15 minuten</strong>, draai om, <strong>200 °C 5-10 minuten</strong>.</li>
 <li>Kerntemperatuur <strong>74 °C</strong>. Laat <strong>5 minuten</strong> rusten.</li>
 </ol>
 <h3>Tips van de chef</h3>
@@ -956,7 +891,7 @@ export const article: BlogArticle = {
 <tbody>
 <tr><td>Buffalo wings</td><td>180 °C dan 200 °C</td><td>20-22 min</td><td>1 kg</td><td>74 °C</td></tr>
 <tr><td>Gepaneerde tenders</td><td>200 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
-<tr><td>Gekruide dijen</td><td>180 °C dan 200 °C</td><td>20-23 min</td><td>800 g</td><td>74 °C</td></tr>
+<tr><td>Gekruide dijen</td><td>180 °C dan 200 °C</td><td>20-25 min</td><td>800 g</td><td>74 °C</td></tr>
 <tr><td>Gemarineerde borst</td><td>180 °C</td><td>18-22 min</td><td>400 g</td><td>74 °C</td></tr>
 <tr><td>Nuggets</td><td>190 °C</td><td>10-12 min</td><td>400 g</td><td>74 °C</td></tr>
 <tr><td>Satay spiesen</td><td>190 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
@@ -971,19 +906,6 @@ export const article: BlogArticle = {
 <li><strong>Laat 5 minuten rusten</strong> na het bakken.</li>
 </ul>
 <p>Serveer met <a href="/nl/blog/recettes-frites-parfaites-airfryer">perfecte airfryer-frietjes</a> of <a href="/nl/blog/recettes-legumes-grilles-airfryer">gegrilde groenten</a>.</p>
-
-<h2>Overzichtstabel: tijden, temperaturen en voedingswaarden</h2>
-<table>
-<thead><tr><th>Recept (150 g)</th><th>Temperatuur</th><th>Totale tijd</th><th>Calorieën</th><th>Eiwitten</th><th>Vetten</th></tr></thead>
-<tbody>
-<tr><td>Buffalo vleugels</td><td>200°C</td><td>22-25 min</td><td>265 kcal</td><td>22 g</td><td>16 g</td></tr>
-<tr><td>Krokante tenders</td><td>200°C</td><td>14-16 min</td><td>245 kcal</td><td>28 g</td><td>9 g</td></tr>
-<tr><td>Tandoori dijen</td><td>185-200°C</td><td>28-32 min</td><td>285 kcal</td><td>26 g</td><td>14 g</td></tr>
-<tr><td>Krokante kipfilet</td><td>190-200°C</td><td>18-22 min</td><td>220 kcal</td><td>31 g</td><td>8 g</td></tr>
-<tr><td>Zelfgemaakte nuggets</td><td>200°C</td><td>12-14 min</td><td>255 kcal</td><td>24 g</td><td>10 g</td></tr>
-<tr><td>Satay-spiesjes</td><td>195°C</td><td>12-14 min</td><td>275 kcal</td><td>27 g</td><td>13 g</td></tr>
-</tbody>
-</table>
 
 <h2>5 snelle marinades die alles veranderen</h2>
 <ul>
@@ -1010,7 +932,7 @@ export const article: BlogArticle = {
         de: 'Hähnchen muss eine Kerntemperatur von 74°C an der dicksten Stelle erreichen. Verwenden Sie ein Küchenthermometer, das in die dickste Stelle eingeführt wird, ohne den Knochen zu berühren. Nach dem Garen 5 Minuten ruhen lassen, da die Temperatur noch um 2-3°C weiter steigt.',
         es: 'El pollo debe alcanzar una temperatura interna de 74°C en la parte más gruesa. Usa un termómetro de cocina insertado en la zona más gruesa sin tocar el hueso. Después de la cocción, deja reposar 5 minutos ya que la temperatura sigue subiendo 2-3°C.',
         it: 'Il pollo deve raggiungere una temperatura interna di 74°C nel punto più spesso per essere consumato in sicurezza. Usa un termometro da cucina inserito nella parte più spessa senza toccare l\'osso. Dopo la cottura, lascia riposare 5 minuti perché la temperatura sale ancora di 2-3°C.',
-        nl: 'Kip moet een kerntemperatuur van 74°C bereiken op het dikste punt om veilig te eten. Gebruik een keukentherometer in het dikste gedeelte zonder het bot te raken. Laat na het bakken 5 minuten rusten, want de temperatuur stijgt nog 2-3°C door.',
+        nl: 'Kip moet een kerntemperatuur van 74°C bereiken op het dikste punt om veilig te eten. Gebruik een keukenthermometer in het dikste gedeelte zonder het bot te raken. Laat na het bakken 5 minuten rusten, want de temperatuur stijgt nog 2-3°C door.',
       },
     },
     {
@@ -1082,7 +1004,7 @@ export const article: BlogArticle = {
         de: 'Ja, nicht durchgegartes Hähnchen kann gefährliche Bakterien wie Salmonellen enthalten. Deshalb ist ein Küchenthermometer unverzichtbar. Hähnchen muss 74°C Kerntemperatur erreichen. Verlassen Sie sich nicht nur auf die Farbe: Hähnchen kann außen goldbraun und innen noch rosa sein.',
         es: 'Sí, el pollo poco hecho puede contener bacterias peligrosas como la salmonela. Por eso un termómetro de cocina es esencial. El pollo debe alcanzar 74°C internamente. No confíes solo en el color exterior: un pollo puede estar dorado por fuera y todavía rosa por dentro.',
         it: 'Sì, il pollo poco cotto può contenere batteri pericolosi come la salmonella. Per questo un termometro da cucina è essenziale. Il pollo deve raggiungere 74°C internamente. Non fidarti solo del colore esterno: un pollo può essere dorato fuori e ancora rosa dentro.',
-        nl: 'Ja, onvoldoende gaar kip kan gevaarlijke bacteriën bevatten zoals salmonella. Daarom is een keukentherometer essentieel. Kip moet intern 74°C bereiken. Vertrouw niet alleen op de kleur aan de buitenkant: kip kan goudbruin zijn van buiten en nog roze van binnen.',
+        nl: 'Ja, onvoldoende gaar kip kan gevaarlijke bacteriën bevatten zoals salmonella. Daarom is een keukenthermometer essentieel. Kip moet intern 74°C bereiken. Vertrouw niet alleen op de kleur aan de buitenkant: kip kan goudbruin zijn van buiten en nog roze van binnen.',
       },
     },
   ],

@@ -6,7 +6,7 @@ export const article: BlogArticle = {
   pillar: 'guides/airfryers',
   relatedSlugs: ['entretien-nettoyage-airfryer', 'recettes-frites-parfaites-airfryer', 'erreurs-courantes-airfryer'],
   datePublished: '2026-02-10',
-  dateModified: '2026-04-01',
+  dateModified: '2026-10-09',
   readingTime: 11,
   images: [
     {
@@ -30,8 +30,8 @@ export const article: BlogArticle = {
     nl: 'Top 10 Onmisbare Airfryer Accessoires in 2026',
   },
   excerpt: {
-    fr: 'Découvrez les 10 accessoires qui transforment votre airfryer : papiers perforés, grilles, moules silicone, spray huile et plus. Prix, utilité et recommandations.',
-    en: 'Discover the 10 accessories that transform your air fryer: perforated liners, racks, silicone moulds, oil sprayer, and more. Prices, usefulness, and recommendations.',
+    fr: 'Découvrez les 10 accessoires qui transforment votre airfryer : papiers perforés, grilles, moules silicone, spray huile et plus. Utilité, compatibilité et conseils d\'achat.',
+    en: 'Discover the 10 accessories that transform your air fryer: perforated liners, racks, silicone moulds, oil sprayer, and more. Usefulness, compatibility, and buying tips.',
     de: 'Entdecken Sie die 10 Zubehörteile, die Ihre Heißluftfritteuse verwandeln: perforiertes Backpapier, Gitter, Silikonformen, Ölsprüher und mehr.',
     es: 'Descubre los 10 accesorios que transforman tu freidora de aire: papeles perforados, rejillas, moldes de silicona, spray de aceite y más.',
     it: 'Scopri i 10 accessori che trasformano la tua friggitrice ad aria: fogli perforati, griglie, stampi in silicone, spray per olio e altro.',
@@ -39,14 +39,13 @@ export const article: BlogArticle = {
   },
   content: {
     fr: `<h2>Pourquoi investir dans des accessoires pour airfryer ?</h2>
-<p>Votre airfryer est puissant tout seul, mais avec les bons accessoires, il devient véritablement polyvalent. Des papiers perforés qui facilitent le nettoyage aux moules en silicone qui ouvrent de nouvelles possibilités culinaires, chaque accessoire bien choisi améliore votre expérience au quotidien. Nous avons testé des dizaines de produits pendant 6 mois pour vous sélectionner les 10 accessoires les plus utiles.</p>
-<p>Budget total pour s'équiper complètement : entre 40 et 80 € selon les marques. Un investissement modeste qui change radicalement votre usage de l'airfryer.</p>
+<p>Votre airfryer est puissant tout seul, mais avec les bons accessoires, il devient véritablement polyvalent. Des papiers perforés qui facilitent le nettoyage aux moules en silicone qui ouvrent de nouvelles possibilités culinaires, chaque accessoire bien choisi améliore votre expérience au quotidien. Nous avons sélectionné les 10 accessoires les plus utiles à partir des caractéristiques des fabricants, de tests indépendants et des avis vérifiés d'acheteurs.</p>
+<p>S'équiper complètement reste un investissement modeste par rapport au prix de l'appareil, et il change nettement votre usage de l'airfryer.</p>
 
 <h2>1. Papiers perforés jetables (indice d'utilité : 10/10)</h2>
 <h3>Pourquoi c'est le n°1</h3>
-<p>Les papiers perforés pour airfryer sont l'accessoire le plus utile, et de loin. Ils tapissent le fond du panier, empêchent les aliments de coller et réduisent le temps de nettoyage de 80 %. Les perforations permettent à l'air chaud de circuler normalement, contrairement au papier sulfurisé classique qui bloque la circulation.</p>
+<p>Les papiers perforés pour airfryer sont l'accessoire le plus utile, et de loin. Ils tapissent le fond du panier, empêchent les aliments de coller et réduisent nettement le temps de nettoyage. Les perforations permettent à l'air chaud de circuler normalement, contrairement au papier sulfurisé classique qui bloque la circulation.</p>
 <ul>
-<li><strong>Prix moyen :</strong> 8-12 € pour 100 feuilles</li>
 <li><strong>Tailles disponibles :</strong> rondes (16, 20, 23 cm) et carrées (19x19, 21x21 cm)</li>
 <li><strong>Notre conseil :</strong> achetez la taille correspondant à votre panier. Mesurez le fond du panier avant d'acheter.</li>
 <li><strong>Attention :</strong> ne les utilisez jamais sans aliments dessus, car le papier pourrait voler et toucher la résistance.</li>
@@ -56,7 +55,6 @@ export const article: BlogArticle = {
 <h3>Doublez votre surface de cuisson</h3>
 <p>Les racks empilables sont le meilleur moyen d'augmenter la capacité effective de votre airfryer. En superposant deux niveaux, vous pouvez par exemple cuire des légumes en bas et du poisson en haut simultanément. Pour les familles qui trouvent leur panier un peu juste, c'est la solution avant de racheter un modèle plus grand.</p>
 <ul>
-<li><strong>Prix moyen :</strong> 10-18 € pour un lot de 2-3 grilles</li>
 <li><strong>Matériau recommandé :</strong> inox 304 avec pieds de 3-4 cm de hauteur</li>
 <li><strong>Compatibilité :</strong> vérifiez le diamètre intérieur de votre panier (mesure commune : 18-20 cm)</li>
 <li><strong>Astuce :</strong> placez les aliments nécessitant plus de chaleur en bas, plus près de la résistance</li>
@@ -66,7 +64,6 @@ export const article: BlogArticle = {
 <h3>L'alternative écologique et économique aux papiers jetables</h3>
 <p>Les moules en silicone (souvent appelés "pots" ou "liners") remplacent les papiers jetables pour un usage quotidien. Ils protègent le revêtement antiadhésif de votre panier, passent au lave-vaisselle et durent des années. L'investissement est rentabilisé en quelques semaines par rapport aux papiers jetables.</p>
 <ul>
-<li><strong>Prix moyen :</strong> 8-15 € pour un moule de qualité</li>
 <li><strong>Température max :</strong> jusqu'à 230°C pour le silicone alimentaire de qualité</li>
 <li><strong>Conseil d'achat :</strong> choisissez du silicone certifié sans BPA, avec des poignées latérales pour le retirer facilement</li>
 <li><strong>Entretien :</strong> lave-vaisselle ou eau chaude savonneuse. Séchez bien avant rangement pour éviter les odeurs</li>
@@ -76,18 +73,16 @@ export const article: BlogArticle = {
 <h3>La dose parfaite de matière grasse</h3>
 <p>Un spray huile de qualité permet d'appliquer une fine couche uniforme d'huile sur vos aliments, pour un résultat croustillant avec un minimum de matière grasse. Oubliez les bombes aérosols du commerce qui contiennent des propulseurs et des additifs : un spray rechargeable en verre ou inox est bien meilleur.</p>
 <ul>
-<li><strong>Prix moyen :</strong> 8-14 € pour un spray de qualité en verre</li>
 <li><strong>Capacité recommandée :</strong> 200-250 ml</li>
 <li><strong>Huiles recommandées :</strong> huile d'olive, huile d'avocat, huile de colza (point de fumée élevé)</li>
 <li><strong>Consommation moyenne :</strong> 2-3 pulvérisations par portion, soit environ 1 à 2 ml d'huile</li>
 </ul>
-<p>Avec un spray, vous utilisez en moyenne 5 ml d'huile par repas au lieu de 15-20 ml en versant directement. Sur un an d'utilisation quotidienne, cela représente une économie de près de 4 litres d'huile.</p>
+<p>Avec un spray, quelques pulvérisations suffisent là où l'on verse souvent une ou deux cuillères à soupe : sur une année d'usage régulier, la quantité d'huile économisée devient significative.</p>
 
 <h2>5. Thermomètre à sonde instantané (indice d'utilité : 8/10)</h2>
 <h3>La sécurité alimentaire avant tout</h3>
 <p>Un thermomètre à lecture instantanée est indispensable pour vérifier que vos viandes sont cuites à cœur sans les ouvrir. Le poulet doit atteindre 74°C à cœur, le porc 71°C, et le bœuf saignant 52°C. C'est aussi le meilleur moyen d'éviter la surcuisson, ennemi n°1 du poulet juteux.</p>
 <ul>
-<li><strong>Prix moyen :</strong> 10-25 € selon la précision et la vitesse de lecture</li>
 <li><strong>Temps de lecture :</strong> privilégiez les modèles à lecture en 2-3 secondes</li>
 <li><strong>Précision :</strong> ±0,5°C pour les bons modèles, ±1°C pour l'entrée de gamme</li>
 <li><strong>Fonctions bonus :</strong> certains modèles connectés envoient une notification sur votre téléphone quand la température cible est atteinte</li>
@@ -97,7 +92,6 @@ export const article: BlogArticle = {
 <h3>Manipulez vos aliments en toute sécurité</h3>
 <p>Des pinces longues (25-30 cm) avec embouts en silicone permettent de retourner, secouer et retirer les aliments du panier brûlant sans vous brûler et sans rayer le revêtement antiadhésif. Les pinces métalliques classiques risquent d'endommager le revêtement de votre panier.</p>
 <ul>
-<li><strong>Prix moyen :</strong> 6-12 € pour une paire de qualité</li>
 <li><strong>Longueur recommandée :</strong> 28-30 cm pour garder vos mains à distance de la chaleur</li>
 <li><strong>Matériau :</strong> inox avec embouts silicone résistant à 230°C minimum</li>
 <li><strong>Bonus :</strong> le système de verrouillage en position fermée est très pratique pour le rangement</li>
@@ -107,7 +101,6 @@ export const article: BlogArticle = {
 <h3>Des marques de grillades parfaites</h3>
 <p>La plaque gril transforme votre airfryer en mini-barbecue d'intérieur. Les rainures laissent le gras s'écouler tout en créant de belles marques de cuisson sur vos steaks, légumes et poissons. Les perforations assurent une circulation optimale de l'air chaud.</p>
 <ul>
-<li><strong>Prix moyen :</strong> 12-20 € selon la taille et le matériau</li>
 <li><strong>Matériau recommandé :</strong> acier inoxydable ou fonte émaillée</li>
 <li><strong>Compatibilité :</strong> existe en format rond et carré, mesurez votre panier</li>
 <li><strong>Idéal pour :</strong> steaks hachés, escalopes de poulet, tranches d'aubergine, filets de saumon</li>
@@ -117,7 +110,6 @@ export const article: BlogArticle = {
 <h3>Transformez un panier simple en multi-zones</h3>
 <p>Les séparateurs permettent de diviser votre panier unique en 2, 3 ou 4 compartiments. Vous pouvez ainsi cuire différents aliments simultanément sans mélange de saveurs. C'est une alternative économique au <a href="/fr/blog/airfryer-simple-vs-double-panier">double panier</a> si vous avez un modèle à panier unique.</p>
 <ul>
-<li><strong>Prix moyen :</strong> 8-14 € pour un set de séparateurs</li>
 <li><strong>Matériaux disponibles :</strong> silicone (flexible, facile à nettoyer) ou inox (plus durable)</li>
 <li><strong>Limitation :</strong> ne permet pas de régler des températures différentes par zone, contrairement aux vrais doubles paniers</li>
 </ul>
@@ -126,7 +118,6 @@ export const article: BlogArticle = {
 <h3>Des kebabs et brochettes sans effort</h3>
 <p>Les brochettes en acier inoxydable spécialement conçues pour airfryer sont plus courtes que les brochettes de barbecue classiques (15-18 cm) et parfaitement adaptées aux dimensions du panier. Elles sont réutilisables, passent au lave-vaisselle et ne brûlent pas comme les brochettes en bois.</p>
 <ul>
-<li><strong>Prix moyen :</strong> 8-12 € pour un lot de 10-12 brochettes</li>
 <li><strong>Longueur recommandée :</strong> 15-18 cm pour les paniers standard, 20 cm pour les XL</li>
 <li><strong>Astuce :</strong> utilisez un rack à brochettes pour les maintenir surélevées et assurer une cuisson uniforme</li>
 <li><strong>Recettes populaires :</strong> brochettes de poulet marinées, brochettes de crevettes, brochettes de légumes</li>
@@ -136,7 +127,6 @@ export const article: BlogArticle = {
 <h3>Prolongez la durée de vie de votre airfryer</h3>
 <p>Un bon kit de nettoyage comprend une brosse douce pour le panier, une petite brosse pour les coins et la résistance, et une éponge non abrasive. Le nettoyage régulier est la clé de la longévité de votre appareil. Consultez notre <a href="/fr/blog/entretien-nettoyage-airfryer">guide complet d'entretien</a> pour les meilleures pratiques.</p>
 <ul>
-<li><strong>Prix moyen :</strong> 8-15 € pour un kit complet</li>
 <li><strong>Contenu idéal :</strong> brosse longue à poils souples, brosse coudée pour la résistance, éponge douce, chiffon microfibre</li>
 <li><strong>Fréquence :</strong> nettoyage léger après chaque utilisation, nettoyage profond hebdomadaire</li>
 <li><strong>À éviter absolument :</strong> éponges métalliques, produits abrasifs, lave-vaisselle pour les pièces non compatibles</li>
@@ -145,42 +135,42 @@ export const article: BlogArticle = {
 <h2>Tableau récapitulatif des 10 accessoires</h2>
 <table>
 <thead>
-<tr><th>Rang</th><th>Accessoire</th><th>Prix moyen</th><th>Utilité</th><th>Priorité d'achat</th></tr>
+<tr><th>Rang</th><th>Accessoire</th><th>Utilité</th><th>Priorité d'achat</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>Papiers perforés</td><td>8-12 €</td><td>10/10</td><td>Immédiate</td></tr>
-<tr><td>2</td><td>Grilles empilables</td><td>10-18 €</td><td>9/10</td><td>Immédiate</td></tr>
-<tr><td>3</td><td>Moules silicone</td><td>8-15 €</td><td>9/10</td><td>Immédiate</td></tr>
-<tr><td>4</td><td>Spray huile</td><td>8-14 €</td><td>8/10</td><td>Première semaine</td></tr>
-<tr><td>5</td><td>Thermomètre sonde</td><td>10-25 €</td><td>8/10</td><td>Première semaine</td></tr>
-<tr><td>6</td><td>Pinces silicone</td><td>6-12 €</td><td>7/10</td><td>Premier mois</td></tr>
-<tr><td>7</td><td>Plaque gril</td><td>12-20 €</td><td>7/10</td><td>Premier mois</td></tr>
-<tr><td>8</td><td>Séparateurs</td><td>8-14 €</td><td>6/10</td><td>Selon besoin</td></tr>
-<tr><td>9</td><td>Brochettes inox</td><td>8-12 €</td><td>6/10</td><td>Selon besoin</td></tr>
-<tr><td>10</td><td>Kit brosses</td><td>8-15 €</td><td>7/10</td><td>Immédiate</td></tr>
+<tr><td>1</td><td>Papiers perforés</td><td>10/10</td><td>Immédiate</td></tr>
+<tr><td>2</td><td>Grilles empilables</td><td>9/10</td><td>Immédiate</td></tr>
+<tr><td>3</td><td>Moules silicone</td><td>9/10</td><td>Immédiate</td></tr>
+<tr><td>4</td><td>Spray huile</td><td>8/10</td><td>Première semaine</td></tr>
+<tr><td>5</td><td>Thermomètre sonde</td><td>8/10</td><td>Première semaine</td></tr>
+<tr><td>6</td><td>Pinces silicone</td><td>7/10</td><td>Premier mois</td></tr>
+<tr><td>7</td><td>Plaque gril</td><td>7/10</td><td>Premier mois</td></tr>
+<tr><td>8</td><td>Séparateurs</td><td>6/10</td><td>Selon besoin</td></tr>
+<tr><td>9</td><td>Brochettes inox</td><td>6/10</td><td>Selon besoin</td></tr>
+<tr><td>10</td><td>Kit brosses</td><td>7/10</td><td>Immédiate</td></tr>
 </tbody>
 </table>
 
 <h2>Notre kit de démarrage recommandé</h2>
-<p>Si vous venez d'acheter votre airfryer, voici les 5 accessoires à acheter en priorité pour moins de 45 € :</p>
+<p>Si vous venez d'acheter votre airfryer, voici les 5 accessoires à acheter en priorité, pour un budget limité :</p>
 <ul>
-<li>Un lot de papiers perforés (10 €)</li>
-<li>Un moule en silicone réutilisable (12 €)</li>
-<li>Un spray huile en verre (10 €)</li>
-<li>Une paire de pinces silicone (8 €)</li>
-<li>Un kit de brosses de nettoyage (10 €)</li>
+<li>Un lot de papiers perforés</li>
+<li>Un moule en silicone réutilisable</li>
+<li>Un spray huile en verre</li>
+<li>Une paire de pinces silicone</li>
+<li>Un kit de brosses de nettoyage</li>
 </ul>
-<p>Ce kit couvre 90 % de vos besoins quotidiens. Ajoutez ensuite les grilles empilables et le thermomètre selon votre pratique. Pour éviter les <a href="/fr/blog/erreurs-courantes-airfryer">erreurs de débutant les plus courantes</a>, consultez aussi notre guide dédié. Et retrouvez tous nos conseils dans le <a href="/fr/guides/airfryers">guide complet des airfryers</a> et le <a href="/fr/guides/airfryer-vs-four">comparatif airfryer vs four</a>.</p>
+<p>Ce kit couvre l'essentiel de vos besoins quotidiens. Ajoutez ensuite les grilles empilables et le thermomètre selon votre pratique. Pour éviter les <a href="/fr/blog/erreurs-courantes-airfryer">erreurs de débutant les plus courantes</a>, consultez aussi notre guide dédié. Et retrouvez tous nos conseils dans le <a href="/fr/guides/airfryers">guide complet des airfryers</a> et le <a href="/fr/guides/airfryer-vs-four">comparatif airfryer vs four</a>.</p>
 
 <h2>Quels accessoires privilégier selon votre usage ?</h2>
 <table>
-<thead><tr><th>Usage principal</th><th>Accessoires prioritaires</th><th>Budget estimé</th></tr></thead>
+<thead><tr><th>Usage principal</th><th>Accessoires prioritaires</th></tr></thead>
 <tbody>
-<tr><td>Cuisson quotidienne (frites, légumes)</td><td>Feuilles perforées + spray huile</td><td>15-20 €</td></tr>
-<tr><td>Pâtisserie et desserts</td><td>Moule silicone + moule à cake + thermomètre</td><td>25-35 €</td></tr>
-<tr><td>Viandes et grillades</td><td>Grille surélevée + thermomètre sonde + pinces</td><td>30-40 €</td></tr>
-<tr><td>Famille nombreuse</td><td>Double grille empilable + diviseur de tiroir</td><td>20-30 €</td></tr>
-<tr><td>Déshydratation fruits/légumes</td><td>Grilles perforées fines + feuilles silicone</td><td>15-25 €</td></tr>
+<tr><td>Cuisson quotidienne (frites, légumes)</td><td>Feuilles perforées + spray huile</td></tr>
+<tr><td>Pâtisserie et desserts</td><td>Moule silicone + moule à cake + thermomètre</td></tr>
+<tr><td>Viandes et grillades</td><td>Grille surélevée + thermomètre sonde + pinces</td></tr>
+<tr><td>Famille nombreuse</td><td>Double grille empilable + diviseur de tiroir</td></tr>
+<tr><td>Déshydratation fruits/légumes</td><td>Grilles perforées fines + feuilles silicone</td></tr>
 </tbody>
 </table>
 
@@ -188,19 +178,18 @@ export const article: BlogArticle = {
 <ul>
 <li><strong>Ne jamais utiliser d'ustensiles métalliques</strong> sur les surfaces antiadhésives — ils rayent le revêtement. Privilégiez le silicone ou le bois.</li>
 <li><strong>Laisser refroidir avant de nettoyer</strong> : le choc thermique détériore les revêtements antiadhésifs. Patientez 10 minutes après la fin de cuisson.</li>
-<li><strong>Éviter les éponges abrasives</strong> même pour les taches tenaces. Une nuit de trempage dans de l'eau chaude savonneuse suffit dans 95 % des cas.</li>
+<li><strong>Éviter les éponges abrasives</strong> même pour les taches tenaces. Une nuit de trempage dans de l'eau chaude savonneuse suffit dans la grande majorité des cas.</li>
 <li><strong>Vérifier la compatibilité lave-vaisselle</strong> pour chaque accessoire. Les grilles en métal sont généralement compatibles, certains revêtements spéciaux résistent mieux au lavage à la main.</li>
 <li><strong>Remplacer les feuilles de cuisson dès qu'elles brunissent</strong> : une feuille dégradée peut libérer des composés à haute température. Durée de vie : 20-30 utilisations par feuille réutilisable.</li>
 </ul>`,
 
     en: `<h2>Why invest in air fryer accessories?</h2>
-<p>Your air fryer is powerful on its own, but the right accessories unlock its full potential. From perforated liners that slash cleaning time to silicone moulds that open up new recipes, each well-chosen accessory improves your daily experience. We tested dozens of products over 6 months to select the 10 most useful.</p>
-<p>Total budget for a complete setup: 40 to 80 euros depending on brands. A modest investment that radically changes how you use your air fryer.</p>
+<p>Your air fryer is powerful on its own, but the right accessories unlock its full potential. From perforated liners that slash cleaning time to silicone moulds that open up new recipes, each well-chosen accessory improves your daily experience. We selected the 10 most useful ones based on manufacturer specifications, independent reviews and verified buyer feedback.</p>
+<p>A complete setup remains a modest investment compared with the appliance itself, and it noticeably changes how you use your air fryer.</p>
 
 <h2>1. Perforated disposable liners (usefulness: 10/10)</h2>
-<p>Perforated air fryer liners are the single most useful accessory. They line the basket base, prevent food from sticking, and cut cleaning time by 80%. The perforations allow hot air to circulate normally, unlike regular parchment paper which blocks airflow.</p>
+<p>Perforated air fryer liners are the single most useful accessory. They line the basket base, prevent food from sticking, and cut cleaning time considerably. The perforations allow hot air to circulate normally, unlike regular parchment paper which blocks airflow.</p>
 <ul>
-<li><strong>Average price:</strong> 8-12 euros for 100 sheets</li>
 <li><strong>Sizes available:</strong> round (16, 20, 23 cm) and square (19x19, 21x21 cm)</li>
 <li><strong>Tip:</strong> measure your basket base before buying. Never use liners without food on top, as they could fly up and touch the heating element.</li>
 </ul>
@@ -208,7 +197,6 @@ export const article: BlogArticle = {
 <h2>2. Stackable racks (usefulness: 9/10)</h2>
 <p>Stackable racks double your effective cooking surface. Layer vegetables on the bottom and fish on top simultaneously. For families who find their basket a bit small, this is the solution before upgrading to a larger model.</p>
 <ul>
-<li><strong>Average price:</strong> 10-18 euros for a set of 2-3 racks</li>
 <li><strong>Recommended material:</strong> 304 stainless steel with 3-4 cm legs</li>
 <li><strong>Tip:</strong> place foods needing more heat at the bottom, closer to the element</li>
 </ul>
@@ -216,22 +204,19 @@ export const article: BlogArticle = {
 <h2>3. Reusable silicone moulds (usefulness: 9/10)</h2>
 <p>Silicone liners replace disposable papers for daily use. They protect your basket's non-stick coating, are dishwasher-safe, and last for years. The investment pays for itself within weeks compared to disposable liners.</p>
 <ul>
-<li><strong>Average price:</strong> 8-15 euros</li>
 <li><strong>Max temperature:</strong> up to 230°C for quality food-grade silicone</li>
 <li><strong>Buying tip:</strong> choose BPA-free certified silicone with side handles for easy removal</li>
 </ul>
 
 <h2>4. Refillable oil sprayer (usefulness: 8/10)</h2>
-<p>A quality oil sprayer applies a thin, even coat of oil for crispy results with minimal fat. Skip commercial aerosol cans with propellants and additives. A refillable glass or stainless steel sprayer is far superior. You'll use roughly 5 ml of oil per meal instead of 15-20 ml poured directly — saving nearly 4 litres of oil per year of daily use.</p>
+<p>A quality oil sprayer applies a thin, even coat of oil for crispy results with minimal fat. Skip commercial aerosol cans with propellants and additives. A refillable glass or stainless steel sprayer is far superior. A few sprays replace the one or two tablespoons people often pour, so the oil saved adds up over a year of regular use.</p>
 <ul>
-<li><strong>Average price:</strong> 8-14 euros</li>
 <li><strong>Recommended oils:</strong> olive oil, avocado oil, rapeseed oil (high smoke points)</li>
 </ul>
 
 <h2>5. Instant-read probe thermometer (usefulness: 8/10)</h2>
 <p>Essential for verifying internal temperatures without cutting meat open. Chicken must reach 74°C internally, pork 71°C, rare beef 52°C. Also the best way to avoid overcooking — the number one enemy of juicy chicken.</p>
 <ul>
-<li><strong>Average price:</strong> 10-25 euros</li>
 <li><strong>Reading speed:</strong> look for 2-3 second readings</li>
 <li><strong>Accuracy:</strong> plus or minus 0.5°C for good models</li>
 </ul>
@@ -239,68 +224,63 @@ export const article: BlogArticle = {
 <h2>6. Long silicone tongs (usefulness: 7/10)</h2>
 <p>Long tongs (25-30 cm) with silicone tips let you turn, shake, and remove food from the hot basket without burning yourself or scratching the non-stick coating. Standard metal tongs risk damaging the basket surface.</p>
 <ul>
-<li><strong>Average price:</strong> 6-12 euros</li>
 <li><strong>Recommended length:</strong> 28-30 cm</li>
 </ul>
 
 <h2>7. Perforated grill plate (usefulness: 7/10)</h2>
 <p>The grill plate turns your air fryer into a mini indoor barbecue. Ridges let grease drain while creating perfect grill marks on steaks, vegetables, and fish.</p>
 <ul>
-<li><strong>Average price:</strong> 12-20 euros</li>
 <li><strong>Ideal for:</strong> burgers, chicken cutlets, aubergine slices, salmon fillets</li>
 </ul>
 
 <h2>8. Basket dividers (usefulness: 6/10)</h2>
 <p>Dividers split a single basket into 2, 3, or 4 compartments for cooking different foods simultaneously without flavour mixing. An affordable alternative to a <a href="/en/blog/airfryer-simple-vs-double-panier">dual-basket model</a>.</p>
 <ul>
-<li><strong>Average price:</strong> 8-14 euros</li>
 <li><strong>Limitation:</strong> cannot set different temperatures per zone, unlike true dual baskets</li>
 </ul>
 
 <h2>9. Stainless steel skewers (usefulness: 6/10)</h2>
 <p>Short stainless steel skewers (15-18 cm) designed specifically for air fryers. Reusable, dishwasher-safe, and they won't char like wooden skewers.</p>
 <ul>
-<li><strong>Average price:</strong> 8-12 euros for 10-12 skewers</li>
 <li><strong>Popular recipes:</strong> marinated chicken skewers, prawn skewers, vegetable kebabs</li>
 </ul>
 
 <h2>10. Cleaning brush kit (usefulness: 7/10)</h2>
 <p>A good kit includes a soft brush for the basket, a small angled brush for the heating element, and a non-abrasive sponge. Regular cleaning is the key to longevity. See our <a href="/en/blog/entretien-nettoyage-airfryer">complete maintenance guide</a> for best practices.</p>
 <ul>
-<li><strong>Average price:</strong> 8-15 euros</li>
 <li><strong>Never use:</strong> steel wool, abrasive cleaners, or dishwasher for non-compatible parts</li>
 </ul>
 
 <h2>Summary table</h2>
 <table>
 <thead>
-<tr><th>Rank</th><th>Accessory</th><th>Price</th><th>Usefulness</th><th>Buy priority</th></tr>
+<tr><th>Rank</th><th>Accessory</th><th>Usefulness</th><th>Buy priority</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>Perforated liners</td><td>8-12 €</td><td>10/10</td><td>Immediate</td></tr>
-<tr><td>2</td><td>Stackable racks</td><td>10-18 €</td><td>9/10</td><td>Immediate</td></tr>
-<tr><td>3</td><td>Silicone moulds</td><td>8-15 €</td><td>9/10</td><td>Immediate</td></tr>
-<tr><td>4</td><td>Oil sprayer</td><td>8-14 €</td><td>8/10</td><td>First week</td></tr>
-<tr><td>5</td><td>Probe thermometer</td><td>10-25 €</td><td>8/10</td><td>First week</td></tr>
-<tr><td>6</td><td>Silicone tongs</td><td>6-12 €</td><td>7/10</td><td>First month</td></tr>
-<tr><td>7</td><td>Grill plate</td><td>12-20 €</td><td>7/10</td><td>First month</td></tr>
-<tr><td>8</td><td>Dividers</td><td>8-14 €</td><td>6/10</td><td>As needed</td></tr>
-<tr><td>9</td><td>Steel skewers</td><td>8-12 €</td><td>6/10</td><td>As needed</td></tr>
-<tr><td>10</td><td>Cleaning brushes</td><td>8-15 €</td><td>7/10</td><td>Immediate</td></tr>
+<tr><td>1</td><td>Perforated liners</td><td>10/10</td><td>Immediate</td></tr>
+<tr><td>2</td><td>Stackable racks</td><td>9/10</td><td>Immediate</td></tr>
+<tr><td>3</td><td>Silicone moulds</td><td>9/10</td><td>Immediate</td></tr>
+<tr><td>4</td><td>Oil sprayer</td><td>8/10</td><td>First week</td></tr>
+<tr><td>5</td><td>Probe thermometer</td><td>8/10</td><td>First week</td></tr>
+<tr><td>6</td><td>Silicone tongs</td><td>7/10</td><td>First month</td></tr>
+<tr><td>7</td><td>Grill plate</td><td>7/10</td><td>First month</td></tr>
+<tr><td>8</td><td>Dividers</td><td>6/10</td><td>As needed</td></tr>
+<tr><td>9</td><td>Steel skewers</td><td>6/10</td><td>As needed</td></tr>
+<tr><td>10</td><td>Cleaning brushes</td><td>7/10</td><td>Immediate</td></tr>
 </tbody>
 </table>
 
-<p>Our recommended starter kit for under 45 euros: liners, silicone mould, oil sprayer, tongs, and cleaning brushes. This covers 90% of daily needs. To avoid the most <a href="/en/blog/erreurs-courantes-airfryer">common beginner mistakes</a>, check our dedicated guide. Find all our advice in the <a href="/en/guides/airfryers">complete air fryer guide</a> and the <a href="/en/guides/airfryer-vs-four">air fryer vs oven comparison</a>.</p>
+<p>Our recommended budget starter kit: liners, silicone mould, oil sprayer, tongs, and cleaning brushes. This covers most daily needs. To avoid the most <a href="/en/blog/erreurs-courantes-airfryer">common beginner mistakes</a>, check our dedicated guide. Find all our advice in the <a href="/en/guides/airfryers">complete air fryer guide</a> and the <a href="/en/guides/airfryer-vs-four">air fryer vs oven comparison</a>.</p>
 
 <h2>Which Accessories to Prioritise by Use Case?</h2>
 <table>
-<thead><tr><th>Primary Use</th><th>Priority Accessories</th><th>Estimated Budget</th></tr></thead>
+<thead><tr><th>Primary Use</th><th>Priority Accessories</th></tr></thead>
 <tbody>
-<tr><td>Daily cooking (fries, vegetables)</td><td>Perforated liners + oil sprayer</td><td>€15-20</td></tr>
-<tr><td>Baking and desserts</td><td>Silicone mould + loaf tin + thermometer</td><td>€25-35</td></tr>
-<tr><td>Meats and grilling</td><td>Elevated rack + probe thermometer + tongs</td><td>€30-40</td></tr>
-<tr><td>Large family (fast cooking)</td><td>Double stacking rack + drawer divider</td><td>€20-30</td></tr>
-<tr><td>Fruit/vegetable dehydration</td><td>Fine perforated racks + silicone sheets</td><td>€15-25</td></tr>
+<tr><td>Daily cooking (fries, vegetables)</td><td>Perforated liners + oil sprayer</td></tr>
+<tr><td>Baking and desserts</td><td>Silicone mould + loaf tin + thermometer</td></tr>
+<tr><td>Meats and grilling</td><td>Elevated rack + probe thermometer + tongs</td></tr>
+<tr><td>Large family (fast cooking)</td><td>Double stacking rack + drawer divider</td></tr>
+<tr><td>Fruit/vegetable dehydration</td><td>Fine perforated racks + silicone sheets</td></tr>
 </tbody>
 </table>
 
@@ -308,19 +288,18 @@ export const article: BlogArticle = {
 <ul>
 <li><strong>Never use metal utensils</strong> on non-stick surfaces — they scratch the coating. Use silicone or wood.</li>
 <li><strong>Let it cool before cleaning</strong>: thermal shock damages non-stick coatings. Wait 10 minutes after cooking ends.</li>
-<li><strong>Avoid abrasive sponges</strong> even for stubborn stains. An overnight soak in hot soapy water resolves 95% of cases.</li>
+<li><strong>Avoid abrasive sponges</strong> even for stubborn stains. An overnight soak in hot soapy water resolves the vast majority of cases.</li>
 <li><strong>Check dishwasher compatibility</strong> for each accessory. Metal racks are generally safe; some special coatings last longer with hand washing.</li>
 <li><strong>Replace liners when they brown</strong>: a degraded liner can release compounds at high temperatures. Expect 20-30 uses per reusable liner.</li>
 </ul>`,
 
     de: `<h2>Warum in Heißluftfritteusen-Zubehör investieren?</h2>
-<p>Ihre Heißluftfritteuse ist schon für sich leistungsstark, aber mit dem richtigen Zubehör wird sie wirklich vielseitig. Von perforierten Einlagen, die die Reinigungszeit um 80 % verkürzen, bis zu Silikonformen, die neue Rezepte ermöglichen — jedes gut gewählte Zubehörteil verbessert Ihr tägliches Kocherlebnis. Wir haben über 6 Monate Dutzende Produkte getestet.</p>
-<p>Gesamtbudget für die komplette Ausstattung: 40 bis 80 €.</p>
+<p>Ihre Heißluftfritteuse ist schon für sich leistungsstark, aber mit dem richtigen Zubehör wird sie wirklich vielseitig. Von perforierten Einlagen, die die Reinigung deutlich erleichtern, bis zu Silikonformen, die neue Rezepte ermöglichen — jedes gut gewählte Zubehörteil verbessert Ihr tägliches Kocherlebnis. Unsere Auswahl basiert auf Herstellerangaben, unabhängigen Testberichten und verifizierten Käuferbewertungen.</p>
+<p>Die komplette Ausstattung bleibt im Vergleich zum Gerät selbst eine überschaubare Investition.</p>
 
 <h2>1. Perforierte Einweg-Einlagen (Nutzen: 10/10)</h2>
 <p>Die nützlichsten Accessoires überhaupt. Sie verhindern das Anhaften und reduzieren die Reinigungszeit drastisch. Die Perforierungen erlauben die Luftzirkulation, anders als normales Backpapier.</p>
 <ul>
-<li><strong>Durchschnittspreis:</strong> 8-12 € für 100 Blatt</li>
 <li><strong>Verfügbare Größen:</strong> rund (16, 20, 23 cm) und quadratisch (19x19, 21x21 cm)</li>
 <li><strong>Achtung:</strong> nie ohne Lebensmittel darauf verwenden — das Papier könnte an das Heizelement fliegen</li>
 </ul>
@@ -328,56 +307,42 @@ export const article: BlogArticle = {
 <h2>2. Stapelbare Gitter (Nutzen: 9/10)</h2>
 <p>Verdoppeln Sie Ihre effektive Kochfläche. Gemüse unten, Fisch oben — gleichzeitig.</p>
 <ul>
-<li><strong>Durchschnittspreis:</strong> 10-18 € für ein 2-3er Set</li>
 <li><strong>Empfohlenes Material:</strong> Edelstahl 304 mit 3-4 cm Beinen</li>
 </ul>
 
 <h2>3. Wiederverwendbare Silikonformen (Nutzen: 9/10)</h2>
 <p>Ersetzen Einweg-Papiere für den täglichen Gebrauch. Spülmaschinenfest, langlebig und schonen die Antihaftbeschichtung.</p>
 <ul>
-<li><strong>Durchschnittspreis:</strong> 8-15 €</li>
 <li><strong>Max. Temperatur:</strong> bis 230°C für hochwertiges Lebensmittelsilikon</li>
 <li><strong>Kauftipp:</strong> BPA-freies Silikon mit seitlichen Griffen wählen</li>
 </ul>
 
 <h2>4. Nachfüllbarer Ölsprüher (Nutzen: 8/10)</h2>
-<p>Für gleichmäßige, dünne Ölschichten mit minimalem Fettverbrauch. Etwa 5 ml Öl pro Mahlzeit statt 15-20 ml beim Gießen — das spart ca. 4 Liter Öl pro Jahr bei täglicher Nutzung.</p>
+<p>Für gleichmäßige, dünne Ölschichten mit minimalem Fettverbrauch. Wenige Sprühstöße ersetzen die ein bis zwei Esslöffel, die man sonst oft hineingießt, und über ein Jahr summiert sich die Ersparnis.</p>
 <ul>
-<li><strong>Durchschnittspreis:</strong> 8-14 €</li>
 <li><strong>Empfohlene Öle:</strong> Olivenöl, Avocadoöl, Rapsöl (hoher Rauchpunkt)</li>
 </ul>
 
 <h2>5. Sofort-Thermometer (Nutzen: 8/10)</h2>
 <p>Unverzichtbar für die Kerntemperaturkontrolle: Hähnchen 74°C, Schwein 71°C, Rind rare 52°C.</p>
 <ul>
-<li><strong>Durchschnittspreis:</strong> 10-25 €</li>
 <li><strong>Ablesezeit:</strong> 2-3 Sekunden bei guten Modellen</li>
 </ul>
 
 <h2>6. Lange Silikonzangen (Nutzen: 7/10)</h2>
 <p>25-30 cm lange Zangen mit Silikonspitzen schützen vor Verbrennungen und schonen die Beschichtung.</p>
-<ul>
-<li><strong>Durchschnittspreis:</strong> 6-12 €</li>
-</ul>
 
 <h2>7. Perforierte Grillplatte (Nutzen: 7/10)</h2>
 <p>Verwandelt Ihre Heißluftfritteuse in einen Mini-Indoor-Grill mit perfekten Grillstreifen.</p>
 <ul>
-<li><strong>Durchschnittspreis:</strong> 12-20 €</li>
 <li><strong>Ideal für:</strong> Burger, Hähnchenschnitzel, Auberginenscheiben, Lachsfilets</li>
 </ul>
 
 <h2>8. Korbteiler (Nutzen: 6/10)</h2>
 <p>Teilen einen einzelnen Korb in 2-4 Bereiche für verschiedene Lebensmittel gleichzeitig. Eine günstige Alternative zum <a href="/de/blog/airfryer-simple-vs-double-panier">Doppelkorb</a>.</p>
-<ul>
-<li><strong>Durchschnittspreis:</strong> 8-14 €</li>
-</ul>
 
 <h2>9. Edelstahl-Spieße (Nutzen: 6/10)</h2>
 <p>Kurze Spieße (15-18 cm) speziell für Heißluftfritteusen. Wiederverwendbar und spülmaschinenfest.</p>
-<ul>
-<li><strong>Durchschnittspreis:</strong> 8-12 € für 10-12 Stück</li>
-</ul>
 
 <h2>10. Reinigungsbürsten-Set (Nutzen: 7/10)</h2>
 <p>Weiche Bürste für den Korb, gewinkelte Bürste für das Heizelement, nicht-scheuernder Schwamm. Regelmäßige Reinigung ist der Schlüssel zur Langlebigkeit. Mehr dazu in unserem <a href="/de/blog/entretien-nettoyage-airfryer">kompletten Pflegeratgeber</a>.</p>
@@ -385,33 +350,33 @@ export const article: BlogArticle = {
 <h2>Übersichtstabelle</h2>
 <table>
 <thead>
-<tr><th>Rang</th><th>Zubehör</th><th>Preis</th><th>Nutzen</th><th>Kaufpriorität</th></tr>
+<tr><th>Rang</th><th>Zubehör</th><th>Nutzen</th><th>Kaufpriorität</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>Perforierte Einlagen</td><td>8-12 €</td><td>10/10</td><td>Sofort</td></tr>
-<tr><td>2</td><td>Stapelbare Gitter</td><td>10-18 €</td><td>9/10</td><td>Sofort</td></tr>
-<tr><td>3</td><td>Silikonformen</td><td>8-15 €</td><td>9/10</td><td>Sofort</td></tr>
-<tr><td>4</td><td>Ölsprüher</td><td>8-14 €</td><td>8/10</td><td>Erste Woche</td></tr>
-<tr><td>5</td><td>Thermometer</td><td>10-25 €</td><td>8/10</td><td>Erste Woche</td></tr>
-<tr><td>6</td><td>Silikonzangen</td><td>6-12 €</td><td>7/10</td><td>Erster Monat</td></tr>
-<tr><td>7</td><td>Grillplatte</td><td>12-20 €</td><td>7/10</td><td>Erster Monat</td></tr>
-<tr><td>8</td><td>Korbteiler</td><td>8-14 €</td><td>6/10</td><td>Bei Bedarf</td></tr>
-<tr><td>9</td><td>Edelstahl-Spieße</td><td>8-12 €</td><td>6/10</td><td>Bei Bedarf</td></tr>
-<tr><td>10</td><td>Reinigungsbürsten</td><td>8-15 €</td><td>7/10</td><td>Sofort</td></tr>
+<tr><td>1</td><td>Perforierte Einlagen</td><td>10/10</td><td>Sofort</td></tr>
+<tr><td>2</td><td>Stapelbare Gitter</td><td>9/10</td><td>Sofort</td></tr>
+<tr><td>3</td><td>Silikonformen</td><td>9/10</td><td>Sofort</td></tr>
+<tr><td>4</td><td>Ölsprüher</td><td>8/10</td><td>Erste Woche</td></tr>
+<tr><td>5</td><td>Thermometer</td><td>8/10</td><td>Erste Woche</td></tr>
+<tr><td>6</td><td>Silikonzangen</td><td>7/10</td><td>Erster Monat</td></tr>
+<tr><td>7</td><td>Grillplatte</td><td>7/10</td><td>Erster Monat</td></tr>
+<tr><td>8</td><td>Korbteiler</td><td>6/10</td><td>Bei Bedarf</td></tr>
+<tr><td>9</td><td>Edelstahl-Spieße</td><td>6/10</td><td>Bei Bedarf</td></tr>
+<tr><td>10</td><td>Reinigungsbürsten</td><td>7/10</td><td>Sofort</td></tr>
 </tbody>
 </table>
 
-<p>Starter-Kit für unter 45 €: Einlagen, Silikonform, Ölsprüher, Zangen und Reinigungsbürsten. Vermeiden Sie die häufigsten <a href="/de/blog/erreurs-courantes-airfryer">Anfängerfehler</a>. Alle Tipps in unserem <a href="/de/guides/airfryers">kompletten Heißluftfritteusen-Ratgeber</a> und dem <a href="/de/guides/airfryer-vs-four">Vergleich Heißluftfritteuse vs. Backofen</a>.</p>
+<p>Preiswertes Starter-Kit: Einlagen, Silikonform, Ölsprüher, Zangen und Reinigungsbürsten. Vermeiden Sie die häufigsten <a href="/de/blog/erreurs-courantes-airfryer">Anfängerfehler</a>. Alle Tipps in unserem <a href="/de/guides/airfryers">kompletten Heißluftfritteusen-Ratgeber</a> und dem <a href="/de/guides/airfryer-vs-four">Vergleich Heißluftfritteuse vs. Backofen</a>.</p>
 
 <h2>Welches Zubehör nach Verwendungszweck priorisieren?</h2>
 <table>
-<thead><tr><th>Hauptverwendung</th><th>Prioritätszubehör</th><th>Geschätztes Budget</th></tr></thead>
+<thead><tr><th>Hauptverwendung</th><th>Prioritätszubehör</th></tr></thead>
 <tbody>
-<tr><td>Tägliches Kochen (Pommes, Gemüse)</td><td>Perforierte Einlagen + Ölsprüher</td><td>15-20 €</td></tr>
-<tr><td>Backen und Desserts</td><td>Silikonform + Kastenform + Thermometer</td><td>25-35 €</td></tr>
-<tr><td>Fleisch und Grillen</td><td>Erhöhter Rost + Stichthermometer + Zangen</td><td>30-40 €</td></tr>
-<tr><td>Große Familie</td><td>Doppelter Stapelrost + Schubladentrenner</td><td>20-30 €</td></tr>
-<tr><td>Dehydrierung Obst/Gemüse</td><td>Feine perforierte Roste + Silikonmatten</td><td>15-25 €</td></tr>
+<tr><td>Tägliches Kochen (Pommes, Gemüse)</td><td>Perforierte Einlagen + Ölsprüher</td></tr>
+<tr><td>Backen und Desserts</td><td>Silikonform + Kastenform + Thermometer</td></tr>
+<tr><td>Fleisch und Grillen</td><td>Erhöhter Rost + Stichthermometer + Zangen</td></tr>
+<tr><td>Große Familie</td><td>Doppelter Stapelrost + Schubladentrenner</td></tr>
+<tr><td>Dehydrierung Obst/Gemüse</td><td>Feine perforierte Roste + Silikonmatten</td></tr>
 </tbody>
 </table>
 
@@ -419,19 +384,18 @@ export const article: BlogArticle = {
 <ul>
 <li><strong>Keine Metallutensilien</strong> auf Antihaftflächen — sie zerkratzen die Beschichtung. Silikon oder Holz bevorzugen.</li>
 <li><strong>Vor dem Reinigen abkühlen lassen</strong>: Temperaturschock schädigt Antihaftbeschichtungen. 10 Minuten warten.</li>
-<li><strong>Keine Scheuerschwämme</strong> selbst bei hartnäckigen Flecken. Einweichen in heißem Seifenwasser über Nacht löst 95 % der Fälle.</li>
+<li><strong>Keine Scheuerschwämme</strong> selbst bei hartnäckigen Flecken. Einweichen in heißem Seifenwasser über Nacht löst die allermeisten Fälle.</li>
 <li><strong>Spülmaschinentauglichkeit prüfen</strong>: Metallroste meist ja, manche Spezialböden besser per Hand.</li>
 <li><strong>Einlagen bei Braunverfärbung ersetzen</strong>: Lebenserwartung 20-30 Nutzungen pro wiederverwendbarer Einlage.</li>
 </ul>`,
 
     es: `<h2>Por qué invertir en accesorios para freidora de aire</h2>
-<p>Tu freidora de aire es potente por sí sola, pero con los accesorios adecuados se vuelve verdaderamente versátil. Desde papeles perforados que reducen el tiempo de limpieza en un 80% hasta moldes de silicona que abren nuevas posibilidades culinarias, cada accesorio bien elegido mejora tu experiencia diaria. Hemos probado decenas de productos durante 6 meses para seleccionar los 10 más útiles.</p>
-<p>Presupuesto total para equiparte: entre 40 y 80 € según las marcas.</p>
+<p>Tu freidora de aire es potente por sí sola, pero con los accesorios adecuados se vuelve verdaderamente versátil. Desde papeles perforados que facilitan mucho la limpieza hasta moldes de silicona que abren nuevas posibilidades culinarias, cada accesorio bien elegido mejora tu experiencia diaria. Hemos seleccionado los 10 más útiles a partir de las especificaciones de los fabricantes, análisis independientes y opiniones verificadas de compradores.</p>
+<p>Equiparse por completo sigue siendo una inversión modesta en comparación con el propio aparato.</p>
 
 <h2>1. Papeles perforados desechables (utilidad: 10/10)</h2>
 <p>El accesorio más útil con diferencia. Cubren el fondo de la cesta, evitan que los alimentos se peguen y reducen el tiempo de limpieza drásticamente. Las perforaciones permiten que el aire caliente circule normalmente.</p>
 <ul>
-<li><strong>Precio medio:</strong> 8-12 € por 100 hojas</li>
 <li><strong>Tamaños:</strong> redondos (16, 20, 23 cm) y cuadrados (19x19, 21x21 cm)</li>
 <li><strong>Precaución:</strong> nunca usarlos sin alimentos encima — podrían volar hacia la resistencia</li>
 </ul>
@@ -439,57 +403,45 @@ export const article: BlogArticle = {
 <h2>2. Rejillas apilables (utilidad: 9/10)</h2>
 <p>Duplican la superficie de cocción efectiva. Verduras abajo, pescado arriba — simultáneamente.</p>
 <ul>
-<li><strong>Precio medio:</strong> 10-18 € por un set de 2-3 rejillas</li>
 <li><strong>Material recomendado:</strong> acero inoxidable 304 con patas de 3-4 cm</li>
 </ul>
 
 <h2>3. Moldes de silicona reutilizables (utilidad: 9/10)</h2>
 <p>Sustituyen los papeles desechables para uso diario. Aptos para lavavajillas, duraderos y protegen el revestimiento antiadherente de la cesta.</p>
 <ul>
-<li><strong>Precio medio:</strong> 8-15 €</li>
 <li><strong>Temperatura máx.:</strong> hasta 230°C para silicona alimentaria de calidad</li>
 <li><strong>Consejo:</strong> elegir silicona certificada sin BPA con asas laterales</li>
 </ul>
 
 <h2>4. Spray de aceite recargable (utilidad: 8/10)</h2>
-<p>Aplica una capa fina y uniforme de aceite para resultados crujientes con mínima grasa. Unos 5 ml de aceite por comida en vez de 15-20 ml vertidos directamente — un ahorro de casi 4 litros de aceite al año.</p>
+<p>Aplica una capa fina y uniforme de aceite para resultados crujientes con mínima grasa. Unas pocas pulverizaciones sustituyen a las una o dos cucharadas que se suelen verter, y el ahorro se nota a lo largo del año.</p>
 <ul>
-<li><strong>Precio medio:</strong> 8-14 €</li>
 <li><strong>Aceites recomendados:</strong> aceite de oliva, de aguacate, de colza (alto punto de humo)</li>
 </ul>
 
 <h2>5. Termómetro de sonda instantáneo (utilidad: 8/10)</h2>
 <p>Imprescindible para verificar la temperatura interna: pollo a 74°C, cerdo a 71°C, ternera poco hecha a 52°C.</p>
 <ul>
-<li><strong>Precio medio:</strong> 10-25 €</li>
 <li><strong>Lectura:</strong> los mejores modelos leen en 2-3 segundos con precisión de ±0,5°C</li>
 </ul>
 
 <h2>6. Pinzas largas de silicona (utilidad: 7/10)</h2>
 <p>Pinzas de 25-30 cm con puntas de silicona para manipular alimentos calientes sin quemarte ni rayar el revestimiento.</p>
-<ul>
-<li><strong>Precio medio:</strong> 6-12 €</li>
-</ul>
 
 <h2>7. Placa grill perforada (utilidad: 7/10)</h2>
 <p>Transforma tu freidora en una mini barbacoa interior con marcas de parrilla perfectas.</p>
 <ul>
-<li><strong>Precio medio:</strong> 12-20 €</li>
 <li><strong>Ideal para:</strong> hamburguesas, pechugas de pollo, rodajas de berenjena, filetes de salmón</li>
 </ul>
 
 <h2>8. Separadores de cesta (utilidad: 6/10)</h2>
 <p>Dividen una cesta única en 2-4 compartimentos. Alternativa económica a la <a href="/es/blog/airfryer-simple-vs-double-panier">doble cesta</a>.</p>
 <ul>
-<li><strong>Precio medio:</strong> 8-14 €</li>
 <li><strong>Limitación:</strong> no permite ajustar temperaturas diferentes por zona</li>
 </ul>
 
 <h2>9. Brochetas de acero inoxidable (utilidad: 6/10)</h2>
 <p>Brochetas cortas (15-18 cm) diseñadas para freidoras de aire. Reutilizables y aptas para lavavajillas.</p>
-<ul>
-<li><strong>Precio medio:</strong> 8-12 € por 10-12 brochetas</li>
-</ul>
 
 <h2>10. Kit de cepillos de limpieza (utilidad: 7/10)</h2>
 <p>Cepillo suave para la cesta, cepillo angular para la resistencia y esponja no abrasiva. Consulta nuestra <a href="/es/blog/entretien-nettoyage-airfryer">guía completa de mantenimiento</a>.</p>
@@ -497,33 +449,33 @@ export const article: BlogArticle = {
 <h2>Tabla resumen</h2>
 <table>
 <thead>
-<tr><th>Rango</th><th>Accesorio</th><th>Precio</th><th>Utilidad</th><th>Prioridad</th></tr>
+<tr><th>Rango</th><th>Accesorio</th><th>Utilidad</th><th>Prioridad</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>Papeles perforados</td><td>8-12 €</td><td>10/10</td><td>Inmediata</td></tr>
-<tr><td>2</td><td>Rejillas apilables</td><td>10-18 €</td><td>9/10</td><td>Inmediata</td></tr>
-<tr><td>3</td><td>Moldes silicona</td><td>8-15 €</td><td>9/10</td><td>Inmediata</td></tr>
-<tr><td>4</td><td>Spray aceite</td><td>8-14 €</td><td>8/10</td><td>Primera semana</td></tr>
-<tr><td>5</td><td>Termómetro sonda</td><td>10-25 €</td><td>8/10</td><td>Primera semana</td></tr>
-<tr><td>6</td><td>Pinzas silicona</td><td>6-12 €</td><td>7/10</td><td>Primer mes</td></tr>
-<tr><td>7</td><td>Placa grill</td><td>12-20 €</td><td>7/10</td><td>Primer mes</td></tr>
-<tr><td>8</td><td>Separadores</td><td>8-14 €</td><td>6/10</td><td>Según necesidad</td></tr>
-<tr><td>9</td><td>Brochetas inox</td><td>8-12 €</td><td>6/10</td><td>Según necesidad</td></tr>
-<tr><td>10</td><td>Kit cepillos</td><td>8-15 €</td><td>7/10</td><td>Inmediata</td></tr>
+<tr><td>1</td><td>Papeles perforados</td><td>10/10</td><td>Inmediata</td></tr>
+<tr><td>2</td><td>Rejillas apilables</td><td>9/10</td><td>Inmediata</td></tr>
+<tr><td>3</td><td>Moldes silicona</td><td>9/10</td><td>Inmediata</td></tr>
+<tr><td>4</td><td>Spray aceite</td><td>8/10</td><td>Primera semana</td></tr>
+<tr><td>5</td><td>Termómetro sonda</td><td>8/10</td><td>Primera semana</td></tr>
+<tr><td>6</td><td>Pinzas silicona</td><td>7/10</td><td>Primer mes</td></tr>
+<tr><td>7</td><td>Placa grill</td><td>7/10</td><td>Primer mes</td></tr>
+<tr><td>8</td><td>Separadores</td><td>6/10</td><td>Según necesidad</td></tr>
+<tr><td>9</td><td>Brochetas inox</td><td>6/10</td><td>Según necesidad</td></tr>
+<tr><td>10</td><td>Kit cepillos</td><td>7/10</td><td>Inmediata</td></tr>
 </tbody>
 </table>
 
-<p>Kit de inicio por menos de 45 €: papeles, molde de silicona, spray, pinzas y cepillos. Evita los <a href="/es/blog/erreurs-courantes-airfryer">errores más comunes de principiante</a>. Encuentra todos los consejos en nuestra <a href="/es/guides/airfryers">guía completa de freidoras de aire</a> y el <a href="/es/guides/airfryer-vs-four">comparativo freidora vs horno</a>.</p>
+<p>Kit de inicio económico: papeles, molde de silicona, spray, pinzas y cepillos. Evita los <a href="/es/blog/erreurs-courantes-airfryer">errores más comunes de principiante</a>. Encuentra todos los consejos en nuestra <a href="/es/guides/airfryers">guía completa de freidoras de aire</a> y el <a href="/es/guides/airfryer-vs-four">comparativo freidora vs horno</a>.</p>
 
 <h2>¿Qué accesorios priorizar según el uso?</h2>
 <table>
-<thead><tr><th>Uso principal</th><th>Accesorios prioritarios</th><th>Presupuesto estimado</th></tr></thead>
+<thead><tr><th>Uso principal</th><th>Accesorios prioritarios</th></tr></thead>
 <tbody>
-<tr><td>Cocina diaria (patatas, verduras)</td><td>Papeles perforados + spray aceite</td><td>15-20 €</td></tr>
-<tr><td>Repostería y postres</td><td>Molde silicona + molde plum cake + termómetro</td><td>25-35 €</td></tr>
-<tr><td>Carnes y parrilla</td><td>Rejilla elevada + termómetro sonda + pinzas</td><td>30-40 €</td></tr>
-<tr><td>Familia numerosa</td><td>Doble rejilla apilable + divisor de cajón</td><td>20-30 €</td></tr>
-<tr><td>Deshidratación frutas/verduras</td><td>Rejillas perforadas finas + láminas silicona</td><td>15-25 €</td></tr>
+<tr><td>Cocina diaria (patatas, verduras)</td><td>Papeles perforados + spray aceite</td></tr>
+<tr><td>Repostería y postres</td><td>Molde silicona + molde plum cake + termómetro</td></tr>
+<tr><td>Carnes y parrilla</td><td>Rejilla elevada + termómetro sonda + pinzas</td></tr>
+<tr><td>Familia numerosa</td><td>Doble rejilla apilable + divisor de cajón</td></tr>
+<tr><td>Deshidratación frutas/verduras</td><td>Rejillas perforadas finas + láminas silicona</td></tr>
 </tbody>
 </table>
 
@@ -531,19 +483,18 @@ export const article: BlogArticle = {
 <ul>
 <li><strong>Nunca utensilios metálicos</strong> sobre superficies antiadherentes — rayan el recubrimiento. Usa silicona o madera.</li>
 <li><strong>Dejar enfriar antes de limpiar</strong>: el choque térmico daña los recubrimientos. Espera 10 minutos.</li>
-<li><strong>Evitar esponjas abrasivas</strong>: remojo en agua jabonosa caliente durante la noche resuelve el 95% de los casos.</li>
+<li><strong>Evitar esponjas abrasivas</strong>: remojo en agua jabonosa caliente durante la noche resuelve la gran mayoría de los casos.</li>
 <li><strong>Verificar compatibilidad con lavavajillas</strong> por cada accesorio. Las rejillas metálicas suelen ser compatibles.</li>
 <li><strong>Sustituir los papeles cuando se oscurezcan</strong>: vida útil de 20-30 usos por papel reutilizable.</li>
 </ul>`,
 
     it: `<h2>Perché investire in accessori per friggitrice ad aria?</h2>
-<p>La vostra friggitrice ad aria è potente da sola, ma con gli accessori giusti diventa davvero versatile. Dai fogli perforati che riducono il tempo di pulizia dell'80% agli stampi in silicone che aprono nuove possibilità culinarie, ogni accessorio ben scelto migliora l'esperienza quotidiana. Abbiamo testato decine di prodotti per 6 mesi per selezionare i 10 più utili.</p>
-<p>Budget totale per l'equipaggiamento completo: tra 40 e 80 €.</p>
+<p>La vostra friggitrice ad aria è potente da sola, ma con gli accessori giusti diventa davvero versatile. Dai fogli perforati che semplificano molto la pulizia agli stampi in silicone che aprono nuove possibilità culinarie, ogni accessorio ben scelto migliora l'esperienza quotidiana. Abbiamo selezionato i 10 più utili in base alle specifiche dei produttori, a recensioni indipendenti e ai feedback verificati degli acquirenti.</p>
+<p>Equipaggiarsi completamente resta un investimento modesto rispetto al prezzo dell'apparecchio.</p>
 
 <h2>1. Fogli perforati usa e getta (utilità: 10/10)</h2>
 <p>L'accessorio più utile in assoluto. Rivestono il fondo del cestello, impediscono agli alimenti di attaccarsi e riducono drasticamente i tempi di pulizia.</p>
 <ul>
-<li><strong>Prezzo medio:</strong> 8-12 € per 100 fogli</li>
 <li><strong>Taglie:</strong> rotondi (16, 20, 23 cm) e quadrati (19x19, 21x21 cm)</li>
 <li><strong>Attenzione:</strong> mai usarli senza cibo sopra — potrebbero volare verso la resistenza</li>
 </ul>
@@ -551,56 +502,42 @@ export const article: BlogArticle = {
 <h2>2. Griglie impilabili (utilità: 9/10)</h2>
 <p>Raddoppiano la superficie di cottura effettiva. Verdure sotto, pesce sopra — contemporaneamente.</p>
 <ul>
-<li><strong>Prezzo medio:</strong> 10-18 € per un set di 2-3 griglie</li>
 <li><strong>Materiale consigliato:</strong> acciaio inox 304 con piedini di 3-4 cm</li>
 </ul>
 
 <h2>3. Stampi in silicone riutilizzabili (utilità: 9/10)</h2>
 <p>Sostituiscono i fogli usa e getta per l'uso quotidiano. Lavabili in lavastoviglie, durevoli e proteggono il rivestimento antiaderente.</p>
 <ul>
-<li><strong>Prezzo medio:</strong> 8-15 €</li>
 <li><strong>Temp. max:</strong> fino a 230°C per silicone alimentare di qualità</li>
 <li><strong>Consiglio:</strong> scegliete silicone certificato senza BPA con manici laterali</li>
 </ul>
 
 <h2>4. Spray olio ricaricabile (utilità: 8/10)</h2>
-<p>Applica uno strato sottile e uniforme di olio per risultati croccanti con grassi minimi. Circa 5 ml di olio a pasto anziché 15-20 ml versati — un risparmio di quasi 4 litri di olio all'anno.</p>
+<p>Applica uno strato sottile e uniforme di olio per risultati croccanti con grassi minimi. Poche spruzzate sostituiscono il cucchiaio o due che si versa di solito, e nel corso di un anno il risparmio si fa sentire.</p>
 <ul>
-<li><strong>Prezzo medio:</strong> 8-14 €</li>
 <li><strong>Oli consigliati:</strong> olio d'oliva, di avocado, di colza (alto punto di fumo)</li>
 </ul>
 
 <h2>5. Termometro a sonda istantaneo (utilità: 8/10)</h2>
 <p>Indispensabile per verificare la temperatura interna: pollo 74°C, maiale 71°C, manzo al sangue 52°C.</p>
 <ul>
-<li><strong>Prezzo medio:</strong> 10-25 €</li>
 <li><strong>Lettura:</strong> i migliori modelli leggono in 2-3 secondi con precisione di ±0,5°C</li>
 </ul>
 
 <h2>6. Pinze lunghe in silicone (utilità: 7/10)</h2>
 <p>Pinze da 25-30 cm con punte in silicone per manipolare gli alimenti senza scottarsi o graffiare il rivestimento.</p>
-<ul>
-<li><strong>Prezzo medio:</strong> 6-12 €</li>
-</ul>
 
 <h2>7. Piastra grill perforata (utilità: 7/10)</h2>
 <p>Trasforma la friggitrice in un mini barbecue da interno con segni di grigliatura perfetti.</p>
 <ul>
-<li><strong>Prezzo medio:</strong> 12-20 €</li>
 <li><strong>Ideale per:</strong> hamburger, petto di pollo, melanzane, filetti di salmone</li>
 </ul>
 
 <h2>8. Divisori per cestello (utilità: 6/10)</h2>
 <p>Dividono un cestello singolo in 2-4 compartimenti. Alternativa economica al <a href="/it/blog/airfryer-simple-vs-double-panier">doppio cestello</a>.</p>
-<ul>
-<li><strong>Prezzo medio:</strong> 8-14 €</li>
-</ul>
 
 <h2>9. Spiedini in acciaio inox (utilità: 6/10)</h2>
 <p>Spiedini corti (15-18 cm) progettati per friggitrici ad aria. Riutilizzabili e lavabili in lavastoviglie.</p>
-<ul>
-<li><strong>Prezzo medio:</strong> 8-12 € per 10-12 spiedini</li>
-</ul>
 
 <h2>10. Kit spazzole di pulizia (utilità: 7/10)</h2>
 <p>Spazzola morbida per il cestello, spazzola angolare per la resistenza, spugna non abrasiva. Consultate la nostra <a href="/it/blog/entretien-nettoyage-airfryer">guida completa alla manutenzione</a>.</p>
@@ -608,33 +545,33 @@ export const article: BlogArticle = {
 <h2>Tabella riassuntiva</h2>
 <table>
 <thead>
-<tr><th>Pos.</th><th>Accessorio</th><th>Prezzo</th><th>Utilità</th><th>Priorità</th></tr>
+<tr><th>Pos.</th><th>Accessorio</th><th>Utilità</th><th>Priorità</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>Fogli perforati</td><td>8-12 €</td><td>10/10</td><td>Immediata</td></tr>
-<tr><td>2</td><td>Griglie impilabili</td><td>10-18 €</td><td>9/10</td><td>Immediata</td></tr>
-<tr><td>3</td><td>Stampi silicone</td><td>8-15 €</td><td>9/10</td><td>Immediata</td></tr>
-<tr><td>4</td><td>Spray olio</td><td>8-14 €</td><td>8/10</td><td>Prima settimana</td></tr>
-<tr><td>5</td><td>Termometro</td><td>10-25 €</td><td>8/10</td><td>Prima settimana</td></tr>
-<tr><td>6</td><td>Pinze silicone</td><td>6-12 €</td><td>7/10</td><td>Primo mese</td></tr>
-<tr><td>7</td><td>Piastra grill</td><td>12-20 €</td><td>7/10</td><td>Primo mese</td></tr>
-<tr><td>8</td><td>Divisori</td><td>8-14 €</td><td>6/10</td><td>Secondo necessità</td></tr>
-<tr><td>9</td><td>Spiedini inox</td><td>8-12 €</td><td>6/10</td><td>Secondo necessità</td></tr>
-<tr><td>10</td><td>Kit spazzole</td><td>8-15 €</td><td>7/10</td><td>Immediata</td></tr>
+<tr><td>1</td><td>Fogli perforati</td><td>10/10</td><td>Immediata</td></tr>
+<tr><td>2</td><td>Griglie impilabili</td><td>9/10</td><td>Immediata</td></tr>
+<tr><td>3</td><td>Stampi silicone</td><td>9/10</td><td>Immediata</td></tr>
+<tr><td>4</td><td>Spray olio</td><td>8/10</td><td>Prima settimana</td></tr>
+<tr><td>5</td><td>Termometro</td><td>8/10</td><td>Prima settimana</td></tr>
+<tr><td>6</td><td>Pinze silicone</td><td>7/10</td><td>Primo mese</td></tr>
+<tr><td>7</td><td>Piastra grill</td><td>7/10</td><td>Primo mese</td></tr>
+<tr><td>8</td><td>Divisori</td><td>6/10</td><td>Secondo necessità</td></tr>
+<tr><td>9</td><td>Spiedini inox</td><td>6/10</td><td>Secondo necessità</td></tr>
+<tr><td>10</td><td>Kit spazzole</td><td>7/10</td><td>Immediata</td></tr>
 </tbody>
 </table>
 
-<p>Kit di partenza sotto 45 €: fogli, stampo silicone, spray, pinze e spazzole. Evitate gli <a href="/it/blog/erreurs-courantes-airfryer">errori più comuni da principianti</a>. Tutti i consigli nella nostra <a href="/it/guides/airfryers">guida completa alle friggitrici ad aria</a> e nel <a href="/it/guides/airfryer-vs-four">confronto friggitrice vs forno</a>.</p>
+<p>Kit di partenza economico: fogli, stampo silicone, spray, pinze e spazzole. Evitate gli <a href="/it/blog/erreurs-courantes-airfryer">errori più comuni da principianti</a>. Tutti i consigli nella nostra <a href="/it/guides/airfryers">guida completa alle friggitrici ad aria</a> e nel <a href="/it/guides/airfryer-vs-four">confronto friggitrice vs forno</a>.</p>
 
 <h2>Quali accessori prioritizzare in base all'uso?</h2>
 <table>
-<thead><tr><th>Uso principale</th><th>Accessori prioritari</th><th>Budget stimato</th></tr></thead>
+<thead><tr><th>Uso principale</th><th>Accessori prioritari</th></tr></thead>
 <tbody>
-<tr><td>Cottura quotidiana (patatine, verdure)</td><td>Fogli perforati + spray olio</td><td>15-20 €</td></tr>
-<tr><td>Pasticceria e dessert</td><td>Stampo silicone + stampo plum cake + termometro</td><td>25-35 €</td></tr>
-<tr><td>Carni e grigliate</td><td>Griglia rialzata + termometro sonda + pinze</td><td>30-40 €</td></tr>
-<tr><td>Famiglia numerosa</td><td>Doppia griglia impilabile + divisore cassetto</td><td>20-30 €</td></tr>
-<tr><td>Disidratazione frutta/verdura</td><td>Griglie perforate sottili + fogli silicone</td><td>15-25 €</td></tr>
+<tr><td>Cottura quotidiana (patatine, verdure)</td><td>Fogli perforati + spray olio</td></tr>
+<tr><td>Pasticceria e dessert</td><td>Stampo silicone + stampo plum cake + termometro</td></tr>
+<tr><td>Carni e grigliate</td><td>Griglia rialzata + termometro sonda + pinze</td></tr>
+<tr><td>Famiglia numerosa</td><td>Doppia griglia impilabile + divisore cassetto</td></tr>
+<tr><td>Disidratazione frutta/verdura</td><td>Griglie perforate sottili + fogli silicone</td></tr>
 </tbody>
 </table>
 
@@ -642,19 +579,18 @@ export const article: BlogArticle = {
 <ul>
 <li><strong>Mai utensili metallici</strong> sulle superfici antiaderenti — rigano il rivestimento. Usate silicone o legno.</li>
 <li><strong>Lasciar raffreddare prima di pulire</strong>: lo shock termico danneggia i rivestimenti antiaderenti. Aspettate 10 minuti.</li>
-<li><strong>Evitare spugne abrasive</strong>: un ammollo in acqua calda saponata durante la notte risolve il 95% dei casi.</li>
+<li><strong>Evitare spugne abrasive</strong>: un ammollo in acqua calda saponata durante la notte risolve la grande maggioranza dei casi.</li>
 <li><strong>Verificare la compatibilità lavastoviglie</strong> per ogni accessorio. Le griglie metalliche di solito sì.</li>
 <li><strong>Sostituire i fogli quando si scuriscono</strong>: durata di vita 20-30 utilizzi per foglio riutilizzabile.</li>
 </ul>`,
 
     nl: `<h2>Waarom investeren in airfryer accessoires?</h2>
-<p>Je airfryer is op zich al krachtig, maar met de juiste accessoires wordt hij pas echt veelzijdig. Van geperforeerde vellen die de schoonmaaktijd met 80% verkorten tot siliconenvormen die nieuwe recepten mogelijk maken — elk goed gekozen accessoire verbetert je dagelijkse kookervaring. We hebben 6 maanden lang tientallen producten getest om de 10 nuttigste te selecteren.</p>
-<p>Totaalbudget voor complete uitrusting: 40 tot 80 €.</p>
+<p>Je airfryer is op zich al krachtig, maar met de juiste accessoires wordt hij pas echt veelzijdig. Van geperforeerde vellen die het schoonmaken flink vereenvoudigen tot siliconenvormen die nieuwe recepten mogelijk maken — elk goed gekozen accessoire verbetert je dagelijkse kookervaring. We selecteerden de 10 nuttigste op basis van fabrieksspecificaties, onafhankelijke reviews en geverifieerde kopersbeoordelingen.</p>
+<p>Een complete uitrusting blijft een bescheiden investering vergeleken met het apparaat zelf.</p>
 
 <h2>1. Geperforeerde wegwerpvellen (nut: 10/10)</h2>
 <p>Het nuttigste accessoire, met afstand. Ze bekleden de bodem van de mand, voorkomen aankoeken en verminderen de schoonmaaktijd drastisch.</p>
 <ul>
-<li><strong>Gemiddelde prijs:</strong> 8-12 € voor 100 vellen</li>
 <li><strong>Beschikbare maten:</strong> rond (16, 20, 23 cm) en vierkant (19x19, 21x21 cm)</li>
 <li><strong>Let op:</strong> gebruik ze nooit zonder voedsel erop — ze kunnen naar het verwarmingselement vliegen</li>
 </ul>
@@ -662,56 +598,42 @@ export const article: BlogArticle = {
 <h2>2. Stapelbare rekjes (nut: 9/10)</h2>
 <p>Verdubbel je effectieve kookoppervlak. Groenten onder, vis boven — tegelijkertijd.</p>
 <ul>
-<li><strong>Gemiddelde prijs:</strong> 10-18 € voor een set van 2-3 rekjes</li>
 <li><strong>Aanbevolen materiaal:</strong> RVS 304 met pootjes van 3-4 cm</li>
 </ul>
 
 <h2>3. Herbruikbare siliconenvormen (nut: 9/10)</h2>
 <p>Vervangen wegwerpvellen voor dagelijks gebruik. Vaatwasmachinebestendig, duurzaam en beschermen de antiaanbaklaag.</p>
 <ul>
-<li><strong>Gemiddelde prijs:</strong> 8-15 €</li>
 <li><strong>Max. temperatuur:</strong> tot 230°C voor kwalitatief voedselveilig siliconen</li>
 <li><strong>Kooptip:</strong> kies BPA-vrij gecertificeerd siliconen met zijhandvatten</li>
 </ul>
 
 <h2>4. Hervulbare oliespray (nut: 8/10)</h2>
-<p>Brengt een dunne, gelijkmatige laag olie aan voor knapperige resultaten met minimaal vet. Ongeveer 5 ml olie per maaltijd in plaats van 15-20 ml direct gegoten — een besparing van bijna 4 liter olie per jaar.</p>
+<p>Brengt een dunne, gelijkmatige laag olie aan voor knapperige resultaten met minimaal vet. Een paar sprays vervangen de een à twee eetlepels die je anders vaak giet, en over een jaar loopt de besparing flink op.</p>
 <ul>
-<li><strong>Gemiddelde prijs:</strong> 8-14 €</li>
 <li><strong>Aanbevolen oliën:</strong> olijfolie, avocado-olie, koolzaadolie (hoog rookpunt)</li>
 </ul>
 
 <h2>5. Directe aflezing vleesthermometer (nut: 8/10)</h2>
 <p>Onmisbaar voor kerntemperatuurcontrole: kip 74°C, varken 71°C, rund rare 52°C.</p>
 <ul>
-<li><strong>Gemiddelde prijs:</strong> 10-25 €</li>
 <li><strong>Afleestijd:</strong> 2-3 seconden bij goede modellen</li>
 </ul>
 
 <h2>6. Lange siliconentangen (nut: 7/10)</h2>
 <p>Tangen van 25-30 cm met siliconenpunten om voedsel veilig te hanteren zonder de coating te beschadigen.</p>
-<ul>
-<li><strong>Gemiddelde prijs:</strong> 6-12 €</li>
-</ul>
 
 <h2>7. Geperforeerde grillplaat (nut: 7/10)</h2>
 <p>Maakt van je airfryer een mini-indoor barbecue met perfecte grillstrepen.</p>
 <ul>
-<li><strong>Gemiddelde prijs:</strong> 12-20 €</li>
 <li><strong>Ideaal voor:</strong> hamburgers, kipfilet, aubergineplakken, zalmfilets</li>
 </ul>
 
 <h2>8. Mandverdelers (nut: 6/10)</h2>
 <p>Verdelen een enkele mand in 2-4 vakken voor verschillende gerechten tegelijk. Betaalbaar alternatief voor een <a href="/nl/blog/airfryer-simple-vs-double-panier">dubbele mand</a>.</p>
-<ul>
-<li><strong>Gemiddelde prijs:</strong> 8-14 €</li>
-</ul>
 
 <h2>9. RVS spiesjes (nut: 6/10)</h2>
 <p>Korte spiesjes (15-18 cm) speciaal voor airfryers. Herbruikbaar en vaatwasmachinebestendig.</p>
-<ul>
-<li><strong>Gemiddelde prijs:</strong> 8-12 € voor 10-12 stuks</li>
-</ul>
 
 <h2>10. Schoonmaakborstelset (nut: 7/10)</h2>
 <p>Zachte borstel voor de mand, hoekborstel voor het verwarmingselement, niet-schurende spons. Zie onze <a href="/nl/blog/entretien-nettoyage-airfryer">complete onderhoudsgids</a>.</p>
@@ -719,33 +641,33 @@ export const article: BlogArticle = {
 <h2>Overzichtstabel</h2>
 <table>
 <thead>
-<tr><th>Rang</th><th>Accessoire</th><th>Prijs</th><th>Nut</th><th>Prioriteit</th></tr>
+<tr><th>Rang</th><th>Accessoire</th><th>Nut</th><th>Prioriteit</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>Geperforeerde vellen</td><td>8-12 €</td><td>10/10</td><td>Direct</td></tr>
-<tr><td>2</td><td>Stapelbare rekjes</td><td>10-18 €</td><td>9/10</td><td>Direct</td></tr>
-<tr><td>3</td><td>Siliconenvormen</td><td>8-15 €</td><td>9/10</td><td>Direct</td></tr>
-<tr><td>4</td><td>Oliespray</td><td>8-14 €</td><td>8/10</td><td>Eerste week</td></tr>
-<tr><td>5</td><td>Vleesthermometer</td><td>10-25 €</td><td>8/10</td><td>Eerste week</td></tr>
-<tr><td>6</td><td>Siliconentangen</td><td>6-12 €</td><td>7/10</td><td>Eerste maand</td></tr>
-<tr><td>7</td><td>Grillplaat</td><td>12-20 €</td><td>7/10</td><td>Eerste maand</td></tr>
-<tr><td>8</td><td>Mandverdelers</td><td>8-14 €</td><td>6/10</td><td>Naar behoefte</td></tr>
-<tr><td>9</td><td>RVS spiesjes</td><td>8-12 €</td><td>6/10</td><td>Naar behoefte</td></tr>
-<tr><td>10</td><td>Schoonmaakborstels</td><td>8-15 €</td><td>7/10</td><td>Direct</td></tr>
+<tr><td>1</td><td>Geperforeerde vellen</td><td>10/10</td><td>Direct</td></tr>
+<tr><td>2</td><td>Stapelbare rekjes</td><td>9/10</td><td>Direct</td></tr>
+<tr><td>3</td><td>Siliconenvormen</td><td>9/10</td><td>Direct</td></tr>
+<tr><td>4</td><td>Oliespray</td><td>8/10</td><td>Eerste week</td></tr>
+<tr><td>5</td><td>Vleesthermometer</td><td>8/10</td><td>Eerste week</td></tr>
+<tr><td>6</td><td>Siliconentangen</td><td>7/10</td><td>Eerste maand</td></tr>
+<tr><td>7</td><td>Grillplaat</td><td>7/10</td><td>Eerste maand</td></tr>
+<tr><td>8</td><td>Mandverdelers</td><td>6/10</td><td>Naar behoefte</td></tr>
+<tr><td>9</td><td>RVS spiesjes</td><td>6/10</td><td>Naar behoefte</td></tr>
+<tr><td>10</td><td>Schoonmaakborstels</td><td>7/10</td><td>Direct</td></tr>
 </tbody>
 </table>
 
-<p>Starterkit voor minder dan 45 €: vellen, siliconenvorm, oliespray, tangen en borstels. Vermijd de meest voorkomende <a href="/nl/blog/erreurs-courantes-airfryer">beginnerfouten</a>. Alle tips in onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en de <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>.</p>
+<p>Voordelige starterkit: vellen, siliconenvorm, oliespray, tangen en borstels. Vermijd de meest voorkomende <a href="/nl/blog/erreurs-courantes-airfryer">beginnerfouten</a>. Alle tips in onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en de <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>.</p>
 
 <h2>Welke accessoires prioriteren op gebruik?</h2>
 <table>
-<thead><tr><th>Primair gebruik</th><th>Prioriteitsaccessoires</th><th>Geschat budget</th></tr></thead>
+<thead><tr><th>Primair gebruik</th><th>Prioriteitsaccessoires</th></tr></thead>
 <tbody>
-<tr><td>Dagelijks koken (friet, groenten)</td><td>Geperforeerde vellen + oliespray</td><td>€15-20</td></tr>
-<tr><td>Bakken en desserts</td><td>Siliconenvorm + broodvorm + thermometer</td><td>€25-35</td></tr>
-<tr><td>Vlees en grillen</td><td>Verhoogd rooster + sondetemperatuurmeter + tangen</td><td>€30-40</td></tr>
-<tr><td>Groot gezin</td><td>Dubbel stapelrooster + ladeoverdeler</td><td>€20-30</td></tr>
-<tr><td>Dehydratie fruit/groenten</td><td>Fijne geperforeerde roosters + siliconenmatten</td><td>€15-25</td></tr>
+<tr><td>Dagelijks koken (friet, groenten)</td><td>Geperforeerde vellen + oliespray</td></tr>
+<tr><td>Bakken en desserts</td><td>Siliconenvorm + broodvorm + thermometer</td></tr>
+<tr><td>Vlees en grillen</td><td>Verhoogd rooster + sondetemperatuurmeter + tangen</td></tr>
+<tr><td>Groot gezin</td><td>Dubbel stapelrooster + ladeoverdeler</td></tr>
+<tr><td>Dehydratie fruit/groenten</td><td>Fijne geperforeerde roosters + siliconenmatten</td></tr>
 </tbody>
 </table>
 
@@ -753,7 +675,7 @@ export const article: BlogArticle = {
 <ul>
 <li><strong>Nooit metalen keukengerei</strong> op antiaanbakoppervlakken — ze krassen de coating. Gebruik siliconen of hout.</li>
 <li><strong>Laat afkoelen voor het schoonmaken</strong>: thermische schok beschadigt antiaanbakcoatings. Wacht 10 minuten.</li>
-<li><strong>Vermijd schurende sponzen</strong>: een nacht weken in heet zeepwater lost 95% van de gevallen op.</li>
+<li><strong>Vermijd schurende sponzen</strong>: een nacht weken in heet zeepwater lost de overgrote meerderheid van de gevallen op.</li>
 <li><strong>Controleer vaatwasserbestendigheid</strong> per accessoire. Metalen roosters zijn meestal geschikt.</li>
 <li><strong>Vervang vellen als ze bruin worden</strong>: levensduur 20-30 gebruiken per herbruikbaar vel.</li>
 </ul>`,
@@ -769,12 +691,12 @@ export const article: BlogArticle = {
         nl: 'Welke accessoires zijn echt onmisbaar voor een airfryer?',
       },
       answer: {
-        fr: 'Les trois accessoires indispensables sont les papiers perforés (facilitent le nettoyage), les moules en silicone (permettent gâteaux et gratins) et un spray à huile (contrôle précis de la matière grasse). Ces trois coûtent moins de 30 € et transforment votre utilisation quotidienne de l\'airfryer.',
-        en: 'The three essential accessories are perforated liners (ease cleaning), silicone moulds (enable cakes and gratins), and an oil sprayer (precise fat control). These three cost under 30 euros combined and transform your daily air fryer usage. Everything else is optional and can be added later.',
-        de: 'Die drei unverzichtbaren Zubehörteile sind perforierte Backpapiere (erleichtern die Reinigung), Silikonformen (ermöglichen Kuchen und Gratins) und ein Ölsprüher (präzise Fettkontrolle). Diese drei kosten zusammen unter 30 Euro und verändern den täglichen Gebrauch Ihrer Heißluftfritteuse.',
-        es: 'Los tres accesorios indispensables son los papeles perforados (facilitan la limpieza), los moldes de silicona (permiten bizcochos y gratinados) y un spray de aceite (control preciso de grasa). Estos tres cuestan menos de 30 euros y transforman tu uso diario de la freidora.',
-        it: 'I tre accessori indispensabili sono i fogli perforati (facilitano la pulizia), gli stampi in silicone (permettono torte e gratinati) e uno spray per olio (controllo preciso dei grassi). Questi tre costano meno di 30 euro e trasformano l\'uso quotidiano della friggitrice ad aria.',
-        nl: 'De drie onmisbare accessoires zijn geperforeerde vellen (vergemakkelijken reiniging), siliconenvormen (maken gebak en gratins mogelijk) en een oliespray (nauwkeurige vetcontrole). Deze drie kosten samen minder dan 30 euro en veranderen je dagelijks airfryergebruik.',
+        fr: 'Les trois accessoires indispensables sont les papiers perforés (facilitent le nettoyage), les moules en silicone (permettent gâteaux et gratins) et un spray à huile (contrôle précis de la matière grasse). Ces trois accessoires restent peu coûteux et transforment votre utilisation quotidienne de l\'airfryer.',
+        en: 'The three essential accessories are perforated liners (ease cleaning), silicone moulds (enable cakes and gratins), and an oil sprayer (precise fat control). These three are inexpensive and transform your daily air fryer usage. Everything else is optional and can be added later.',
+        de: 'Die drei unverzichtbaren Zubehörteile sind perforierte Backpapiere (erleichtern die Reinigung), Silikonformen (ermöglichen Kuchen und Gratins) und ein Ölsprüher (präzise Fettkontrolle). Diese drei sind günstig und verändern den täglichen Gebrauch Ihrer Heißluftfritteuse.',
+        es: 'Los tres accesorios indispensables son los papeles perforados (facilitan la limpieza), los moldes de silicona (permiten bizcochos y gratinados) y un spray de aceite (control preciso de grasa). Estos tres son económicos y transforman tu uso diario de la freidora.',
+        it: 'I tre accessori indispensabili sono i fogli perforati (facilitano la pulizia), gli stampi in silicone (permettono torte e gratinati) e uno spray per olio (controllo preciso dei grassi). Questi tre sono economici e trasformano l\'uso quotidiano della friggitrice ad aria.',
+        nl: 'De drie onmisbare accessoires zijn geperforeerde vellen (vergemakkelijken reiniging), siliconenvormen (maken gebak en gratins mogelijk) en een oliespray (nauwkeurige vetcontrole). Deze drie zijn betaalbaar en veranderen je dagelijks airfryergebruik.',
       },
     },
     {
@@ -815,20 +737,20 @@ export const article: BlogArticle = {
     },
     {
       question: {
-        fr: 'Où acheter des accessoires pour airfryer au meilleur prix ?',
-        en: 'Where can I buy air fryer accessories at the best price?',
-        de: 'Wo kann man Heißluftfritteusen-Zubehör zum besten Preis kaufen?',
-        es: '¿Dónde comprar accesorios para freidora de aire al mejor precio?',
-        it: 'Dove comprare accessori per friggitrice ad aria al miglior prezzo?',
-        nl: 'Waar kun je airfryer-accessoires kopen voor de beste prijs?',
+        fr: 'Où acheter des accessoires pour airfryer ?',
+        en: 'Where can I buy air fryer accessories?',
+        de: 'Wo kann man Heißluftfritteusen-Zubehör kaufen?',
+        es: '¿Dónde comprar accesorios para freidora de aire?',
+        it: 'Dove comprare accessori per friggitrice ad aria?',
+        nl: 'Waar kun je airfryer-accessoires kopen?',
       },
       answer: {
-        fr: 'Amazon offre le meilleur choix et les prix les plus compétitifs, avec des kits complets de 10 à 30 €. Les magasins spécialisés cuisine (Darty, Boulanger) proposent des marques premium. Évitez les kits trop bon marché avec des dizaines de pièces : la qualité est souvent médiocre.',
-        en: 'Amazon offers the best selection and most competitive prices, with complete kits from 10 to 30 euros. Specialist kitchen stores stock premium brands. Avoid suspiciously cheap kits with dozens of pieces, as quality is often poor. Focus on buying three to five high-quality essentials instead.',
-        de: 'Amazon bietet die beste Auswahl und wettbewerbsfähigste Preise, mit Komplettsets ab 10 bis 30 Euro. Fachgeschäfte für Küchengeräte führen Premiummarken. Vermeiden Sie zu billige Sets mit Dutzenden Teilen — die Qualität ist oft mangelhaft. Konzentrieren Sie sich auf drei bis fünf hochwertige Basics.',
-        es: 'Amazon ofrece la mejor selección y precios más competitivos, con kits completos de 10 a 30 euros. Las tiendas especializadas tienen marcas premium. Evita los kits demasiado baratos con decenas de piezas: la calidad suele ser mediocre. Mejor comprar tres a cinco accesorios esenciales de calidad.',
-        it: 'Amazon offre la migliore selezione e i prezzi più competitivi, con kit completi da 10 a 30 euro. I negozi specializzati di cucina hanno marchi premium. Evita kit troppo economici con decine di pezzi: la qualità è spesso scarsa. Meglio comprare tre-cinque accessori essenziali di qualità.',
-        nl: 'Amazon biedt de beste selectie en meest concurrerende prijzen, met complete kits van 10 tot 30 euro. Gespecialiseerde keukenwinkels hebben premiummerken. Vermijd te goedkope kits met tientallen stukken: de kwaliteit is vaak ondermaats. Focus op drie tot vijf essentiële accessoires van goede kwaliteit.',
+        fr: 'Amazon offre un très large choix, avec de nombreux kits complets à prix accessible. Les magasins spécialisés cuisine (Darty, Boulanger) proposent des marques premium. Évitez les kits trop bon marché avec des dizaines de pièces : la qualité est souvent médiocre.',
+        en: 'Amazon offers a very wide selection, including many affordable complete kits. Specialist kitchen stores stock premium brands. Avoid suspiciously cheap kits with dozens of pieces, as quality is often poor. Focus on buying three to five high-quality essentials instead.',
+        de: 'Amazon bietet eine sehr große Auswahl, darunter viele preiswerte Komplettsets. Fachgeschäfte für Küchengeräte führen Premiummarken. Vermeiden Sie zu billige Sets mit Dutzenden Teilen — die Qualität ist oft mangelhaft. Konzentrieren Sie sich auf drei bis fünf hochwertige Basics.',
+        es: 'Amazon ofrece una selección muy amplia, con muchos kits completos a precio asequible. Las tiendas especializadas tienen marcas premium. Evita los kits demasiado baratos con decenas de piezas: la calidad suele ser mediocre. Mejor comprar tres a cinco accesorios esenciales de calidad.',
+        it: 'Amazon offre una selezione molto ampia, con molti kit completi a prezzo accessibile. I negozi specializzati di cucina hanno marchi premium. Evita kit troppo economici con decine di pezzi: la qualità è spesso scarsa. Meglio comprare tre-cinque accessori essenziali di qualità.',
+        nl: 'Amazon biedt een zeer ruime keuze, met veel betaalbare complete kits. Gespecialiseerde keukenwinkels hebben premiummerken. Vermijd te goedkope kits met tientallen stukken: de kwaliteit is vaak ondermaats. Focus op drie tot vijf essentiële accessoires van goede kwaliteit.',
       },
     },
     {

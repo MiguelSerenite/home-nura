@@ -6,638 +6,535 @@ export const article: BlogArticle = {
   pillar: 'cuisine-connectee',
   relatedSlugs: ['guide-cuisine-connectee-2026', 'comparatif-multicuiseur-connecte', 'cafetiere-connectee-guide'],
   datePublished: '2026-04-16',
-  dateModified: '2026-04-16',
-  readingTime: 15,
+  dateModified: '2026-10-09',
+  readingTime: 8,
   images: [
     {
-      src: 'https://images.unsplash.com/photo-1558002038-1055907df827?w=800&q=80&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1753091122032-ddfb454849cc?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Balance de cuisine connectée avec affichage nutritionnel et application smartphone',
-        en: 'Smart kitchen scale with nutritional display and smartphone app',
-        de: 'Smarte Küchenwaage mit Nährwertanzeige und Smartphone-App',
-        es: 'Báscula de cocina inteligente con pantalla nutricional y aplicación móvil',
-        it: 'Bilancia da cucina smart con display nutrizionale e app smartphone',
-        nl: 'Slimme keukenweegschaal met voedingswaarde-display en smartphone-app',
+        fr: 'Balance de cuisine numérique avec minuteur intégré pesant des grains de café dans une coupelle',
+        en: 'Digital kitchen scale with a built-in timer weighing coffee beans in a small dish',
+        de: 'Digitale Küchenwaage mit integriertem Timer, die Kaffeebohnen in einer Schale wiegt',
+        es: 'Báscula de cocina digital con temporizador integrado pesando granos de café en un cuenco',
+        it: 'Bilancia da cucina digitale con timer integrato che pesa chicchi di caffè in una ciotolina',
+        nl: 'Digitale keukenweegschaal met ingebouwde timer die koffiebonen in een schaaltje weegt',
       },
     },
   ],
   title: {
-    fr: 'Comparatif Balance Cuisine Connectée 2026 : Les 4 Meilleures Balances Smart',
-    en: 'Best Smart Kitchen Scales 2026: Top 4 Connected Scales Compared UK',
-    de: 'Smarte Küchenwaage Vergleich 2026: Die 4 Besten Vernetzten Küchenwaagen',
-    es: 'Comparativa Báscula Cocina Inteligente 2026: Las 4 Mejores Básculas Conectadas',
-    it: 'Confronto Bilancia Cucina Smart 2026: Le 4 Migliori Bilance Connesse',
-    nl: 'Vergelijking Slimme Keukenweegschaal 2026: De 4 Beste Verbonden Weegschalen',
+    fr: 'Balance cuisine connectée 2026 : comparatif des meilleurs modèles',
+    en: 'Best Smart Kitchen Scales 2026: Connected Scales Compared',
+    de: 'Smarte Küchenwaage 2026: die besten vernetzten Modelle im Vergleich',
+    es: 'Báscula de cocina inteligente 2026: comparativa de los mejores modelos',
+    it: 'Bilancia da cucina smart 2026: confronto dei migliori modelli',
+    nl: 'Slimme keukenweegschaal 2026: de beste modellen vergeleken',
   },
   excerpt: {
-    fr: 'Comparatif complet des meilleures balances de cuisine connectées 2026 : Etekcity Nutrition, Renpho Smart, Drop Scale et Yummly Smart Scale. Précision 0,1 g, suivi nutritionnel, intégration recettes, Bluetooth/WiFi et applications.',
-    en: 'Complete comparison of the best smart kitchen scales 2026: Etekcity Nutrition, Renpho Smart, Drop Scale and Yummly Smart Scale. 0.1g accuracy, nutrition tracking, recipe integration, Bluetooth/WiFi and apps reviewed.',
-    de: 'Kompletter Vergleich der besten smarten Küchenwaagen 2026: Etekcity Nutrition, Renpho Smart, Drop Scale und Yummly Smart Scale. 0,1 g Genauigkeit, Nährwert-Tracking, Rezept-Integration, Bluetooth/WiFi und Apps im Test.',
-    es: 'Comparativa completa de las mejores básculas de cocina inteligentes 2026: Etekcity Nutrition, Renpho Smart, Drop Scale y Yummly Smart Scale. Precisión 0,1 g, seguimiento nutricional, integración recetas, Bluetooth/WiFi y apps.',
-    it: 'Confronto completo delle migliori bilance da cucina smart 2026: Etekcity Nutrition, Renpho Smart, Drop Scale e Yummly Smart Scale. Precisione 0,1 g, tracciamento nutrizionale, integrazione ricette, Bluetooth/WiFi e app.',
-    nl: 'Volledige vergelijking van de beste slimme keukenweegschalen 2026: Etekcity Nutrition, Renpho Smart, Drop Scale en Yummly Smart Scale. 0,1 g nauwkeurigheid, voedingswaarde-tracking, receptintegratie, Bluetooth/WiFi en apps.',
+    fr: 'Etekcity ESN00, balance connectée Renpho, Beurer KS 34 XL et Acaia Pearl : notre comparatif 2026 des balances de cuisine, entre suivi nutritionnel par application, grande capacité et précision au dixième de gramme pour le café.',
+    en: 'Etekcity ESN00, Renpho smart food scale, Beurer KS 34 XL and Acaia Pearl: our 2026 comparison of kitchen scales, from app-based nutrition tracking to large capacity and 0.1 g precision for coffee.',
+    de: 'Etekcity ESN00, die smarte Renpho-Küchenwaage, Beurer KS 34 XL und Acaia Pearl: unser Vergleich 2026 – von Nährwert-Tracking per App über hohe Tragkraft bis zu 0,1 g Auflösung für Kaffee.',
+    es: 'Etekcity ESN00, báscula inteligente Renpho, Beurer KS 34 XL y Acaia Pearl: nuestra comparativa 2026 de básculas de cocina, del seguimiento nutricional con app a la gran capacidad y la precisión de 0,1 g para café.',
+    it: 'Etekcity ESN00, bilancia smart Renpho, Beurer KS 34 XL e Acaia Pearl: il nostro confronto 2026 delle bilance da cucina, dal monitoraggio nutrizionale via app alla grande portata e alla precisione di 0,1 g per il caffè.',
+    nl: 'Etekcity ESN00, de slimme Renpho-weegschaal, Beurer KS 34 XL en Acaia Pearl: onze vergelijking 2026 van keukenweegschalen, van voedingstracking via een app tot groot draagvermogen en 0,1 g precisie voor koffie.',
   },
   content: {
-    fr: `<h2>Pourquoi une balance de cuisine connectée en 2026 ?</h2>
-<p>La balance de cuisine connectée a révolutionné la façon dont nous cuisinons et suivons notre alimentation. En 2026, ces appareils ne se contentent plus de peser : ils calculent automatiquement les <strong>calories, macronutriments (protéines, glucides, lipides) et micronutriments</strong> de chaque ingrédient que vous posez dessus. Pour les sportifs, les personnes en rééquilibrage alimentaire ou simplement les cuisiniers exigeants, c'est un outil devenu indispensable.</p>
-<p>Ce comparatif analyse les <strong>4 meilleures balances cuisine connectées du marché</strong> en 2026. Nous avons testé chaque modèle sur la précision, la base de données alimentaire, la qualité de l'application, l'intégration avec les recettes et le rapport qualité-prix. Pour une vue d'ensemble de la cuisine connectée, consultez notre <a href="/fr/blog/guide-cuisine-connectee-2026">guide complet cuisine connectée 2026</a>.</p>
+    fr: `<p><strong>La meilleure balance de cuisine connectée en 2026 pour la plupart des foyers est l’Etekcity Smart Nutrition Scale</strong> : elle pèse jusqu’à 5 kg au gramme près et son application VeSync calcule jusqu’à 19 nutriments pour chaque aliment pesé. La balance connectée de Renpho est l’alternative d’entrée de gamme, la Beurer KS 34 XL convient si vous voulez peser lourd sans application, et l’Acaia Pearl s’adresse aux amateurs de café qui veulent le dixième de gramme.</p>
+<p>Ce comparatif s’appuie sur les fiches techniques des fabricants, des avis indépendants et les retours d’acheteurs vérifiés. Il ne retient que des modèles vendus en Europe en 2026. Retrouvez toute la sélection sur notre page <a href="/fr/cuisine-connectee/balances">balances de cuisine connectées</a>.</p>
 
-<h2>Les critères essentiels d'une bonne balance connectée</h2>
-<p>Avant de comparer les modèles, voici les critères que nous avons évalués :</p>
+<h2>Ce que fait (et ne fait pas) une balance connectée</h2>
+<p>Une balance connectée reste avant tout une balance : elle affiche le poids sur son écran, avec ou sans téléphone. La différence se joue dans l’application. Une fois la balance reliée en Bluetooth, vous indiquez l’aliment que vous pesez, et l’application multiplie le poids mesuré par les valeurs nutritionnelles de sa base de données : calories, protéines, glucides, lipides, et parfois fibres, sodium ou vitamines.</p>
+<p>Point important : la balance ne <strong>reconnaît pas</strong> ce que vous posez dessus. C’est vous qui choisissez l’aliment dans l’application. La qualité du suivi dépend donc de la base de données, de la facilité de recherche et de votre régularité.</p>
+
+<h2>Les critères pour bien choisir</h2>
 <ul>
-<li><strong>Précision :</strong> une balance de cuisine doit être précise à 1 g minimum, et idéalement à 0,1 g pour les épices, la levure chimique et les ingrédients de pâtisserie. Les 4 modèles testés offrent une précision de 0,1 g à 1 g selon la gamme de poids.</li>
-<li><strong>Base de données alimentaire :</strong> c'est le nerf de la guerre. Plus la base est riche, plus le suivi nutritionnel est fiable. Les meilleures bases contiennent 500 000+ aliments avec données nutritionnelles complètes (calories, protéines, glucides, lipides, fibres, sodium, vitamines).</li>
-<li><strong>Application :</strong> l'interface doit être fluide, la synchronisation rapide et les fonctionnalités pertinentes (historique, objectifs, export de données, intégration santé).</li>
-<li><strong>Intégration recettes :</strong> la capacité à guider pas à pas une recette en pesant chaque ingrédient est un vrai plus. Certaines balances affichent la recette sur l'app et attendent que vous pesiez la bonne quantité avant de passer à l'étape suivante.</li>
-<li><strong>Connectivité :</strong> Bluetooth pour la plupart, WiFi pour certains modèles premium. Le WiFi permet la synchronisation automatique sans ouvrir l'app.</li>
+<li><strong>Graduation</strong> : la plupart des balances de cuisine affichent le poids au gramme près, ce qui suffit pour cuisiner et compter les calories. Le dixième de gramme (0,1 g) n’est utile que pour le café de spécialité, les épices ou la levure en très petite quantité.</li>
+<li><strong>Capacité</strong> : 5 kg couvrent la quasi-totalité des usages. Une capacité de 15 kg devient utile pour les grandes marmites, la pâte à pain en grande quantité ou les confitures.</li>
+<li><strong>Application et base alimentaire</strong> : regardez le nombre de nutriments suivis, la présence d’un historique, d’un mode repas et la synchronisation avec Apple Santé ou d’autres services.</li>
+<li><strong>Pérennité de l’application</strong> : une balance connectée dépend d’un service en ligne. Privilégiez une marque qui maintient son application depuis plusieurs années.</li>
+<li><strong>Alimentation</strong> : piles AAA (faciles à remplacer) ou batterie rechargeable par USB-C.</li>
+<li><strong>Plateau</strong> : l’inox et le verre se nettoient facilement ; vérifiez que le plateau est assez large pour vos saladiers.</li>
 </ul>
 
-<h2>Tableau comparatif : les 4 meilleures balances cuisine connectées 2026</h2>
+<h2>Les 4 balances à retenir en 2026</h2>
+
+<h3>1. Etekcity Smart Nutrition Scale : le meilleur choix global</h3>
+<p>L’Etekcity ESN00 est la balance nutritionnelle la plus aboutie de cette sélection. Elle pèse jusqu’à 5 kg par paliers de 1 g (ou 1 ml pour les liquides), sur un plateau en <strong>acier inoxydable 304</strong> de 23,5 × 16 cm, facile à essuyer. Elle fonctionne avec 3 piles AAA.</p>
+<p>Sa force est l’application <strong>VeSync</strong>, gratuite : elle suit jusqu’à <strong>19 nutriments</strong>, propose des rapports quotidiens, hebdomadaires et mensuels, et peut synchroniser vos données avec Apple Santé et Fitbit. Le rétroéclairage de l’écran se règle depuis l’application. Les retours d’acheteurs saluent surtout la stabilité de la connexion et la clarté des bilans.</p>
+<p><strong>Limites</strong> : la graduation au gramme ne convient pas aux pesées très fines, la connexion se fait uniquement en Bluetooth, et le suivi nutritionnel exige de saisir chaque aliment dans l’application.</p>
+<p><strong>Pour qui</strong> : toute personne qui veut suivre ses calories ou ses macronutriments au quotidien, préparer ses repas à l’avance ou simplement mieux connaître ce qu’elle mange.</p>
+
+<h3>2. Balance de cuisine connectée Renpho : l’alternative la plus accessible</h3>
+<p>Renpho, connue pour ses pèse-personnes connectés, propose aussi une balance alimentaire Bluetooth qui pèse jusqu’à 5 kg au gramme près. Elle se pilote avec l’application <strong>Renpho Health</strong>, la même que celle des pèse-personnes de la marque, avec une base alimentaire issue notamment des données de l’USDA, un lecteur de code-barres pour les produits emballés et une synchronisation avec Apple Santé. Elle dispose aussi d’une fonction de pesée pour le café.</p>
+<p><strong>Limites</strong> : la base alimentaire, d’origine américaine, est moins riche en produits européens génériques, et l’application demande la création d’un compte. Certains acheteurs trouvent l’application plus lente que celle d’Etekcity.</p>
+<p><strong>Pour qui</strong> : les budgets serrés et les personnes qui utilisent déjà un pèse-personne Renpho et veulent réunir poids corporel et alimentation dans une seule application.</p>
+
+<h3>3. Beurer KS 34 XL : la grande capacité, sans application</h3>
+<p>La Beurer KS 34 XL n’est pas connectée, mais elle répond à un besoin que les balances nutritionnelles couvrent mal : peser lourd. Elle accepte jusqu’à <strong>15 kg</strong> par paliers de 1 g, sur un grand plateau en verre de 20 × 26,3 cm. Son écran « Magic » n’apparaît que pendant la pesée, une fonction <em>hold</em> fige le poids quand un grand récipient masque l’écran, et la tare se commande par touches sensitives. Elle fonctionne avec 4 piles AAA, fournies.</p>
+<p><strong>Limites</strong> : aucune application ni suivi nutritionnel, et une graduation au gramme qui reste peu adaptée aux toutes petites quantités.</p>
+<p><strong>Pour qui</strong> : les familles, les adeptes du pain maison, des conserves ou du batch cooking en grande quantité, et ceux qui préfèrent noter leurs repas eux-mêmes dans l’application de leur choix.</p>
+
+<h3>4. Acaia Pearl : la référence connectée pour le café</h3>
+<p>L’Acaia Pearl vise un usage précis : le café de spécialité. Elle pèse jusqu’à 2 kg avec une résolution de <strong>0,1 g</strong>, intègre un minuteur et se connecte en Bluetooth aux applications Acaia, qui enregistrent poids, temps et débit d’extraction pour reproduire une recette. Sa batterie se recharge en USB-C.</p>
+<p><strong>Limites</strong> : capacité limitée à 2 kg, aucun suivi nutritionnel et un positionnement haut de gamme.</p>
+<p><strong>Pour qui</strong> : les amateurs d’espresso et de café filtre qui veulent des ratios exacts et un historique de leurs extractions. Pour aller plus loin, consultez notre <a href="/fr/blog/cafetiere-connectee-guide">guide des cafetières connectées</a>.</p>
+
+<h2>Tableau comparatif</h2>
 <table>
 <thead>
-<tr><th>Critère</th><th>Etekcity Nutrition</th><th>Renpho Smart</th><th>Drop Scale</th><th>Yummly Smart Scale</th></tr>
+<tr><th>Modèle</th><th>Capacité et graduation</th><th>Connexion et application</th><th>Alimentation</th><th>Idéal pour</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Précision</strong></td><td>0,1 g (0-5 kg)</td><td>0,1 g (0-5 kg)</td><td>1 g (0-3 kg)</td><td>0,1 g (0-5 kg)</td></tr>
-<tr><td><strong>Capacité max</strong></td><td>5 kg</td><td>5 kg</td><td>3 kg</td><td>5 kg</td></tr>
-<tr><td><strong>Base alimentaire</strong></td><td>900 000+ aliments</td><td>600 000+ aliments</td><td>Pas de base (recettes)</td><td>500 000+ aliments</td></tr>
-<tr><td><strong>Connectivité</strong></td><td>Bluetooth 5.0</td><td>Bluetooth 5.0</td><td>Bluetooth 4.2</td><td>Bluetooth 5.0 + WiFi</td></tr>
-<tr><td><strong>Application</strong></td><td>VeSync (iOS/Android)</td><td>Renpho Health (iOS/Android)</td><td>Drop Recipes (iOS uniquement)</td><td>Yummly (iOS/Android)</td></tr>
-<tr><td><strong>Suivi nutritionnel</strong></td><td>Calories, protéines, glucides, lipides, fibres, sodium</td><td>Calories, protéines, glucides, lipides</td><td>Non (recettes guidées)</td><td>Calories, macros, 14 micronutriments</td></tr>
-<tr><td><strong>Recettes guidées</strong></td><td>Non</td><td>Non</td><td>Oui (1 600+ recettes)</td><td>Oui (2 millions+)</td></tr>
-<tr><td><strong>Intégration santé</strong></td><td>Apple Health, Google Fit, Fitbit</td><td>Apple Health, Google Fit</td><td>Apple Health</td><td>Apple Health, Google Fit, Samsung Health</td></tr>
-<tr><td><strong>Alimentation</strong></td><td>3 piles AAA (12 mois)</td><td>USB-C rechargeable (6 mois)</td><td>Pile CR2032 (12 mois)</td><td>USB-C rechargeable (4 mois)</td></tr>
-<tr><td><strong>Matériau</strong></td><td>Verre trempé + acier inox</td><td>Verre trempé</td><td>Silicone antidérapant</td><td>Acier inoxydable brossé</td></tr>
-<tr><td><strong>Prix</strong></td><td>~30-35 €</td><td>~25-30 €</td><td>~70-80 €</td><td>~45-55 €</td></tr>
-<tr><td><strong>Note /10</strong></td><td>9,3</td><td>8,7</td><td>8,5</td><td>9,0</td></tr>
+<tr><td>Etekcity ESN00</td><td>5 kg, 1 g</td><td>Bluetooth, VeSync (19 nutriments)</td><td>3 piles AAA</td><td>Suivi nutritionnel au quotidien</td></tr>
+<tr><td>Renpho (balance alimentaire)</td><td>5 kg, 1 g</td><td>Bluetooth, Renpho Health</td><td>Selon version</td><td>Petit budget, écosystème Renpho</td></tr>
+<tr><td>Beurer KS 34 XL</td><td>15 kg, 1 g</td><td>Aucune</td><td>4 piles AAA</td><td>Grandes quantités</td></tr>
+<tr><td>Acaia Pearl</td><td>2 kg, 0,1 g</td><td>Bluetooth, applications Acaia</td><td>Batterie USB-C</td><td>Café de spécialité</td></tr>
 </tbody>
 </table>
 
-<h2>Etekcity Nutrition : la meilleure balance connectée rapport qualité-prix</h2>
-<h3>Points forts</h3>
-<p>L'Etekcity Nutrition Smart Scale domine ce comparatif par son <strong>rapport qualité-prix imbattable</strong>. Pour 30-35 €, vous obtenez une précision de 0,1 g, une base de données alimentaire de 900 000+ aliments (la plus complète du marché) et une application VeSync fluide et bien conçue. C'est la balance que nous recommandons à 90 % des utilisateurs.</p>
-<p>La <strong>base de données nutritionnelle</strong> est exceptionnelle : chaque aliment inclut les calories, protéines, glucides, lipides, fibres et sodium. Le scan de code-barres fonctionne remarquablement bien — posez un produit sur la balance, scannez le code-barres avec votre téléphone, et l'app affiche instantanément les valeurs nutritionnelles pour le poids exact. C'est redoutablement efficace pour le suivi calorique quotidien.</p>
-<p>Le <strong>mode repas</strong> est un vrai atout : pesez successivement chaque ingrédient de votre assiette (remise à zéro entre chaque), et l'app calcule le total nutritionnel du repas complet. Idéal pour le meal prep et le suivi de régime. L'intégration avec Apple Health, Google Fit et Fitbit synchronise automatiquement vos données alimentaires avec votre écosystème santé.</p>
-<p>La construction en verre trempé et acier inoxydable est solide pour le prix. Le plateau est large (18 x 14 cm) et facile à nettoyer. Les 3 piles AAA durent environ 12 mois d'utilisation quotidienne — pas de câble de charge à gérer.</p>
-
-<h3>Points faibles</h3>
-<p>Pas de recettes guidées intégrées — c'est une balance orientée suivi nutritionnel, pas aide à la cuisine. Le Bluetooth 5.0 est fiable mais sans WiFi, il faut ouvrir l'app à chaque pesée pour synchroniser. Le design est fonctionnel mais pas aussi premium que la Yummly. L'affichage LED est petit et peu lisible en pleine lumière.</p>
-
-<h3>Notre verdict</h3>
-<p><strong>Note : 9,3/10</strong> — Le meilleur choix pour le suivi nutritionnel quotidien. La base de données de 900 000 aliments, le scan de code-barres et le mode repas en font l'outil idéal pour le comptage de calories et le suivi de macros. À 30 €, c'est un investissement ridicule pour un outil aussi utile.</p>
-
-<h2>Renpho Smart : l'alternative rechargeable accessible</h2>
-<h3>Points forts</h3>
-<p>La Renpho Smart Kitchen Scale séduit par son <strong>design épuré et sa recharge USB-C</strong>. Fini les piles à changer : une charge complète dure environ 6 mois d'utilisation quotidienne, et la recharge prend seulement 2 heures. C'est un avantage écologique et pratique non négligeable sur le long terme.</p>
-<p>La précision de 0,1 g est identique à l'Etekcity, et la base de données de 600 000 aliments couvre largement les besoins quotidiens. L'application Renpho Health est la même que pour leurs balances corporelles populaires — si vous possédez déjà un produit Renpho, tout est centralisé dans un seul écosystème.</p>
-<p>Le <strong>mode café</strong> est une fonctionnalité unique : il intègre un chronomètre et mesure le ratio eau/café pour les amateurs de café filtre et de pour-over. Le mode tare intelligent permet de peser directement dans le saladier sans manipulation supplémentaire.</p>
-<p>Le prix est le plus accessible de ce comparatif : 25-30 € pour une balance 0,1 g rechargeable avec suivi nutritionnel complet.</p>
-
-<h3>Points faibles</h3>
-<p>La base alimentaire de 600 000 aliments est correcte mais moins complète que l'Etekcity (900 000). Le suivi nutritionnel se limite aux 4 macros (calories, protéines, glucides, lipides) sans fibres ni sodium. L'app est parfois lente au démarrage. Pas d'intégration Fitbit. La surface en verre trempé sans acier inox est un peu moins robuste.</p>
-
-<h3>Notre verdict</h3>
-<p><strong>Note : 8,7/10</strong> — Le meilleur choix pour les utilisateurs qui veulent une balance rechargeable à petit prix. Le mode café est un bonus appréciable. Si vous êtes déjà dans l'écosystème Renpho, c'est un choix évident pour centraliser vos données santé.</p>
-
-<h2>Drop Scale : la meilleure pour cuisiner avec des recettes guidées</h2>
-<h3>Points forts</h3>
-<p>La Drop Scale est <strong>fondamentalement différente</strong> des autres balances de ce comparatif. Ce n'est pas un outil de suivi nutritionnel : c'est un <strong>assistant de cuisine interactif</strong>. L'app Drop Recipes contient plus de 1 600 recettes qui vous guident pas à pas, ingrédient par ingrédient, en utilisant la balance pour vérifier chaque quantité.</p>
-<p>Le concept est brillant : sélectionnez une recette dans l'app, posez votre bol sur la balance, et l'app vous dit "ajoutez 250 g de farine". Vous versez la farine jusqu'à ce que la balance affiche le bon poids, puis l'app passe automatiquement à l'ingrédient suivant. C'est comme avoir un chef pâtissier patient qui vous guide en temps réel.</p>
-<p>La fonctionnalité <strong>Scale & Adapt</strong> est unique : changez le nombre de portions dans la recette, et tous les ingrédients sont automatiquement recalculés. Pas de règle de trois à faire dans votre tête. Les recettes incluent des vidéos techniques pour les gestes complexes (tempérer le chocolat, monter des blancs en neige, etc.).</p>
-<p>Le design en silicone antidérapant est intelligent : le bol ne glisse pas sur la balance, et le silicone se lave facilement. La pile CR2032 dure environ 12 mois.</p>
-
-<h3>Points faibles</h3>
-<p>Pas de suivi nutritionnel — aucune base de données alimentaire, pas de comptage de calories. La précision est de 1 g seulement (insuffisant pour la levure chimique ou les épices de précision). La capacité maximale de 3 kg est limitée pour les grosses préparations. L'app est disponible sur iOS uniquement — pas d'Android. Le prix de 70-80 € est élevé pour une balance sans fonctionnalité nutritionnelle. Le Bluetooth 4.2 est un peu daté.</p>
-
-<h3>Notre verdict</h3>
-<p><strong>Note : 8,5/10</strong> — La meilleure balance pour les pâtissiers et les cuisiniers qui veulent être guidés. Les recettes interactives pas à pas sont un concept génial. Mais l'absence de suivi nutritionnel et la limitation iOS en font un choix de niche. Si vous voulez AUSSI compter les calories, ce n'est pas la bonne balance.</p>
-
-<h2>Yummly Smart Scale : la plus complète (nutrition + recettes)</h2>
-<h3>Points forts</h3>
-<p>La Yummly Smart Scale est la seule balance de ce comparatif qui combine <strong>suivi nutritionnel complet ET recettes guidées</strong>. Avec sa base de plus de 2 millions de recettes issues de la plateforme Yummly (propriété de Whirlpool), c'est un écosystème culinaire à part entière.</p>
-<p>Le <strong>suivi nutritionnel</strong> est le plus détaillé du comparatif : en plus des calories et macros classiques, l'app suit 14 micronutriments (vitamines A, C, D, fer, calcium, potassium, etc.). Pour les personnes ayant des besoins nutritionnels spécifiques (carences, grossesse, sport intensif), c'est un avantage majeur.</p>
-<p>La connectivité <strong>Bluetooth 5.0 + WiFi</strong> est unique dans ce comparatif : la balance synchronise automatiquement vos données sans que vous ayez besoin d'ouvrir l'app. Les pesées sont enregistrées et synchronisées en arrière-plan. L'intégration avec Apple Health, Google Fit et Samsung Health est complète.</p>
-<p>La construction en <strong>acier inoxydable brossé</strong> est la plus premium du comparatif. Le design est élégant et s'intègre parfaitement dans une cuisine moderne. La recharge USB-C est pratique, avec une autonomie de 4 mois.</p>
-
-<h3>Points faibles</h3>
-<p>Le prix est le plus élevé du segment "balance nutritionnelle" (45-55 €), même si la Drop Scale est plus chère. L'autonomie de 4 mois en USB-C est la plus faible du comparatif — les piles AAA de l'Etekcity durent 12 mois. La base alimentaire de 500 000 aliments est correcte mais inférieure à l'Etekcity (900 000). L'app Yummly peut sembler surchargée pour ceux qui veulent juste peser.</p>
-
-<h3>Notre verdict</h3>
-<p><strong>Note : 9,0/10</strong> — La balance la plus complète du marché : nutrition détaillée, recettes guidées, WiFi, design premium. Idéale pour ceux qui veulent un outil tout-en-un. Si vous n'avez pas besoin des recettes, l'Etekcity offre un meilleur rapport qualité-prix.</p>
-
-<h2>Cas d'usage : quelle balance pour compter les calories ?</h2>
-<p>Le comptage de calories est le premier motif d'achat d'une balance connectée. Voici comment chaque modèle s'en sort dans un usage quotidien de suivi alimentaire :</p>
+<h2>Quelle balance selon votre usage ?</h2>
 <ul>
-<li><strong>Petit-déjeuner type :</strong> vous posez votre bol de granola sur la balance. Avec l'Etekcity, vous scannez le code-barres du paquet, l'app calcule instantanément 380 kcal pour 80 g. Vous ajoutez le lait (tare, versez, scan code-barres) : 95 kcal pour 200 ml. Total petit-déjeuner : 475 kcal en 30 secondes. Avec la Renpho, le processus est identique. Avec la Drop Scale, ce n'est pas possible (pas de base alimentaire). Avec la Yummly, même processus mais avec 14 micronutriments en bonus.</li>
-<li><strong>Meal prep dimanche :</strong> vous préparez 5 repas pour la semaine. L'Etekcity et la Renpho calculent les totaux nutritionnels par portion. La Yummly peut en plus vous suggérer des recettes équilibrées en fonction de vos objectifs caloriques. La Drop Scale vous guide dans la recette mais ne compte pas les calories du résultat.</li>
-<li><strong>Suivi sur la durée :</strong> l'intégration avec Apple Health/Google Fit permet de visualiser votre apport calorique quotidien, hebdomadaire et mensuel. L'Etekcity et la Yummly offrent les meilleures intégrations. La Renpho centralise dans son propre écosystème. La Drop Scale n'offre aucun suivi.</li>
+<li><strong>Compter les calories ou suivre ses macros</strong> : l’Etekcity ESN00, pour la richesse de son suivi et ses rapports. La Renpho fait l’essentiel pour moins cher.</li>
+<li><strong>Pâtisserie</strong> : une balance au gramme suffit pour la farine, le sucre ou le beurre. Pour la levure ou le sel en petite quantité, pesez une plus grande dose de pâte ou utilisez une balance au dixième de gramme.</li>
+<li><strong>Café</strong> : l’Acaia Pearl, pour sa résolution de 0,1 g et son minuteur.</li>
+<li><strong>Grandes préparations</strong> : la Beurer KS 34 XL et ses 15 kg.</li>
 </ul>
-<p><strong>Notre recommandation pour le comptage de calories :</strong> l'Etekcity Nutrition à 30 €. C'est la base de données la plus complète, le scan code-barres le plus rapide et le mode repas le plus pratique. Pour 3 fois moins cher que la Drop Scale, elle fait infiniment plus pour le suivi nutritionnel.</p>
+<p>Pour équiper le reste de la cuisine, notre <a href="/fr/blog/guide-cuisine-connectee-2026">guide de la cuisine connectée 2026</a> fait le tour des appareils utiles.</p>
 
-<h2>Qualité des applications : notre classement</h2>
-<p>L'application fait toute la différence dans l'expérience quotidienne d'une balance connectée. Voici notre classement après 3 mois d'utilisation intensive :</p>
-<ol>
-<li><strong>Yummly (9/10) :</strong> la plus riche en fonctionnalités. Interface moderne et intuitive, 2 millions de recettes, suivi nutritionnel détaillé, planification de repas, liste de courses automatique. Le seul défaut : elle peut sembler overwhelming pour un usage simple.</li>
-<li><strong>VeSync / Etekcity (8,5/10) :</strong> la plus efficace pour le suivi nutritionnel. Scan code-barres ultra-rapide, mode repas pratique, historique clair, export de données. Interface sobre et fonctionnelle, pas de superflu.</li>
-<li><strong>Drop Recipes (8/10) :</strong> la meilleure pour la cuisine guidée. Les recettes pas à pas avec la balance sont un plaisir d'utilisation. Mais limitée à iOS et pas de suivi nutritionnel.</li>
-<li><strong>Renpho Health (7,5/10) :</strong> correcte mais un peu lente au démarrage. L'intégration avec les autres produits Renpho est un plus. L'interface est fonctionnelle sans être inspirée.</li>
-</ol>
+<h2>Balance connectée ou balance classique avec une application ?</h2>
+<p>Une balance connectée n’est pas indispensable pour suivre son alimentation : on peut peser avec n’importe quelle balance au gramme, puis saisir le poids à la main dans une application de nutrition. La version connectée a surtout un avantage de confort. Le poids arrive directement dans l’application, sans recopie ni risque d’erreur de saisie, et chaque ingrédient d’un repas s’ajoute au total en quelques secondes.</p>
+<p>Ce confort compte si vous pesez plusieurs fois par jour, par exemple pour un suivi de macronutriments ou une préparation de repas à la semaine. Si vous pesez surtout pour la pâtisserie ou de temps en temps, une bonne balance classique comme la Beurer KS 34 XL fait parfaitement l’affaire et ne dépend d’aucun service en ligne.</p>
+<p>Avant d’acheter, vérifiez aussi la compatibilité avec votre téléphone : les applications VeSync, Renpho Health et Acaia existent sur iOS et Android, mais les fonctions de synchronisation (Apple Santé, Fitbit) varient selon la plateforme.</p>
 
-<h2>Notre verdict final : quelle balance connectée choisir ?</h2>
+<h2>Les erreurs à éviter</h2>
 <ul>
-<li><strong>Pour le suivi nutritionnel et le comptage de calories :</strong> Etekcity Nutrition (9,3/10, ~30 €). Le meilleur rapport qualité-prix du marché, la base de données la plus complète, le scan code-barres le plus rapide.</li>
-<li><strong>Pour un budget serré avec recharge USB-C :</strong> Renpho Smart (8,7/10, ~25 €). Même précision que l'Etekcity, rechargeable, mode café en bonus.</li>
-<li><strong>Pour cuisiner avec des recettes guidées (iOS) :</strong> Drop Scale (8,5/10, ~75 €). Concept unique de recettes interactives pas à pas. Pour les pâtissiers et les cuisiniers qui veulent de la guidance.</li>
-<li><strong>Pour tout faire (nutrition + recettes + WiFi) :</strong> Yummly Smart Scale (9,0/10, ~50 €). La plus complète, la plus connectée, la plus premium. Le choix idéal si le budget le permet.</li>
-</ul>`,
-
-    en: `<h2>Why a Smart Kitchen Scale in 2026?</h2>
-<p>The smart kitchen scale has revolutionised how we cook and track our nutrition. In 2026, these devices do far more than weigh: they automatically calculate the <strong>calories, macronutrients (protein, carbs, fat) and micronutrients</strong> of every ingredient you place on them. For athletes, people managing their diet or simply demanding home cooks, they have become an essential tool.</p>
-<p>This comparison analyses the <strong>4 best smart kitchen scales on the market</strong> in 2026. We tested each model on accuracy, food database, app quality, recipe integration and value for money. For a complete overview of the connected kitchen, see our <a href="/en/blog/guide-cuisine-connectee-2026">complete connected kitchen guide 2026</a>.</p>
-
-<h2>Essential Criteria for a Good Smart Scale</h2>
-<p>Before comparing models, here are the criteria we evaluated:</p>
-<ul>
-<li><strong>Accuracy:</strong> a kitchen scale must be accurate to at least 1 g, ideally 0.1 g for spices, baking powder and patisserie ingredients. All 4 models tested offer 0.1 g to 1 g accuracy depending on the weight range.</li>
-<li><strong>Food database:</strong> this is the key differentiator. The richer the database, the more reliable the nutritional tracking. The best databases contain 500,000+ foods with complete nutritional data (calories, protein, carbs, fat, fibre, sodium, vitamins).</li>
-<li><strong>App:</strong> the interface must be smooth, synchronisation fast and features relevant (history, goals, data export, health integration).</li>
-<li><strong>Recipe integration:</strong> the ability to guide you step by step through a recipe, weighing each ingredient, is a genuine advantage. Some scales display the recipe on the app and wait until you weigh the correct amount before moving to the next step.</li>
-<li><strong>Connectivity:</strong> Bluetooth for most, WiFi for some premium models. WiFi enables automatic synchronisation without opening the app.</li>
+<li><strong>Croire que la balance identifie les aliments</strong> : aucun modèle de cette sélection ne le fait. Vous devez choisir l’aliment dans l’application.</li>
+<li><strong>Acheter une balance dont l’application a disparu</strong> : la Yummly Smart Scale et la balance Drop, souvent citées dans d’anciens comparatifs, ne sont plus commercialisées, et l’application Yummly a fermé fin 2024. Sur le marché de l’occasion, vérifiez toujours que l’application fonctionne encore.</li>
+<li><strong>Payer pour le dixième de gramme sans en avoir besoin</strong> : pour cuisiner et compter les calories, le gramme suffit.</li>
+<li><strong>Oublier la tare</strong> : posez le récipient, remettez à zéro, puis ajoutez l’aliment. Sinon, le poids du bol fausse le calcul nutritionnel.</li>
+<li><strong>Peser sur une surface instable</strong> : un plan de travail plat et rigide est indispensable pour une mesure fiable.</li>
 </ul>
 
-<h2>Comparison Table: Top 4 Smart Kitchen Scales 2026</h2>
+<h2>Utilisation et entretien</h2>
+<p>Posez la balance sur une surface plane, loin d’une plaque de cuisson. Nettoyez le plateau avec un chiffon humide, sans immerger la balance ni la passer au lave-vaisselle, et évitez que l’eau s’infiltre près de l’écran ou du compartiment à piles. Retirez les piles si vous n’utilisez pas la balance pendant plusieurs mois.</p>
+<p>Les valeurs nutritionnelles affichées sont des estimations issues de bases de données. Elles sont utiles pour se repérer, mais une balance de cuisine n’est pas un dispositif médical : en cas de régime prescrit (diabète, insuffisance rénale, allergie), suivez les conseils de votre médecin ou d’un diététicien.</p>
+
+<h2>Notre verdict</h2>
+<p>Pour la plupart des cuisines, l’<strong>Etekcity Smart Nutrition Scale</strong> est le meilleur choix : robuste, simple, et appuyée sur une application complète et suivie. La <strong>balance connectée Renpho</strong> est l’option la plus accessible, surtout si vous utilisez déjà un pèse-personne de la marque. Si vous n’avez pas besoin d’application mais pesez souvent de grandes quantités, la <strong>Beurer KS 34 XL</strong> est la plus pratique. Enfin, pour le café, l’<strong>Acaia Pearl</strong> reste la référence.</p>`,
+
+    en: `<p><strong>The best smart kitchen scale in 2026 for most households is the Etekcity Smart Nutrition Scale</strong>: it weighs up to 5 kg in 1 g steps and its VeSync app works out up to 19 nutrients for every food you weigh. Renpho’s smart food scale is the entry-level alternative, the Beurer KS 34 XL suits heavy weighing without an app, and the Acaia Pearl is aimed at coffee lovers who want 0.1 g resolution.</p>
+<p>This comparison draws on manufacturer specifications, independent reviews and verified buyer feedback, and only includes models sold in Europe in 2026. You can browse the full selection on our <a href="/en/cuisine-connectee/balances">smart kitchen scales</a> page.</p>
+
+<h2>What a smart scale does (and doesn’t do)</h2>
+<p>A smart scale is still a scale first: it shows the weight on its own display, with or without a phone. The difference lies in the app. Once the scale is paired over Bluetooth, you tell the app what you are weighing and it multiplies the measured weight by the nutrition values in its database: calories, protein, carbs, fat and sometimes fibre, sodium or vitamins.</p>
+<p>One key point: the scale does <strong>not recognise</strong> what you put on it. You pick the food in the app. Tracking quality therefore depends on the database, how easy it is to search and how consistent you are.</p>
+
+<h2>How to choose</h2>
+<ul>
+<li><strong>Resolution</strong>: most kitchen scales read to the nearest gram, which is enough for cooking and calorie counting. A 0.1 g resolution only matters for specialty coffee, spices or tiny amounts of yeast.</li>
+<li><strong>Capacity</strong>: 5 kg covers almost every use. A 15 kg capacity helps with large pots, big batches of bread dough or jam.</li>
+<li><strong>App and food database</strong>: check how many nutrients are tracked, whether there is a history and a meal mode, and whether it syncs with Apple Health or other services.</li>
+<li><strong>App longevity</strong>: a smart scale relies on an online service. Favour a brand that has maintained its app for years.</li>
+<li><strong>Power</strong>: AAA batteries (easy to replace) or a USB-C rechargeable battery.</li>
+<li><strong>Platform</strong>: stainless steel and glass are easy to clean; make sure the platform is large enough for your bowls.</li>
+</ul>
+
+<h2>The 4 scales worth considering in 2026</h2>
+
+<h3>1. Etekcity Smart Nutrition Scale: best overall</h3>
+<p>The Etekcity ESN00 is the most complete nutrition scale in this selection. It weighs up to 5 kg in 1 g steps (or 1 ml for liquids) on a 23.5 × 16 cm <strong>304 stainless steel</strong> platform that wipes clean easily. It runs on 3 AAA batteries.</p>
+<p>Its strength is the free <strong>VeSync</strong> app: it tracks up to <strong>19 nutrients</strong>, produces daily, weekly and monthly reports, and can sync your data with Apple Health and Fitbit. The display backlight can be adjusted from the app. Buyers mostly praise the stable connection and the clear reports.</p>
+<p><strong>Limitations</strong>: 1 g resolution is not suited to very fine weighing, the connection is Bluetooth only, and nutrition tracking requires you to log each food in the app.</p>
+<p><strong>Who it’s for</strong>: anyone who wants to track calories or macros day to day, meal prep in advance or simply understand what they eat.</p>
+
+<h3>2. Renpho smart kitchen scale: the most affordable option</h3>
+<p>Renpho, known for its smart bathroom scales, also makes a Bluetooth food scale that weighs up to 5 kg to the nearest gram. It works with the <strong>Renpho Health</strong> app, the same one used by the brand’s body scales, with a food database drawing on USDA data, a barcode scanner for packaged products and Apple Health sync. It also has a coffee weighing function.</p>
+<p><strong>Limitations</strong>: the US-based database has fewer generic European foods, and the app requires an account. Some buyers find the app slower than Etekcity’s.</p>
+<p><strong>Who it’s for</strong>: tight budgets and people who already own a Renpho body scale and want body weight and food in one app.</p>
+
+<h3>3. Beurer KS 34 XL: high capacity, no app</h3>
+<p>The Beurer KS 34 XL is not connected, but it meets a need that nutrition scales handle poorly: weighing heavy loads. It takes up to <strong>15 kg</strong> in 1 g steps on a large 20 × 26.3 cm glass platform. Its “Magic” display only appears while weighing, a hold function freezes the reading when a large bowl hides the screen, and tare is operated by touch buttons. It runs on 4 AAA batteries, included.</p>
+<p><strong>Limitations</strong>: no app or nutrition tracking, and 1 g resolution is not ideal for very small amounts.</p>
+<p><strong>Who it’s for</strong>: families, home bakers, people who make preserves or batch cook in volume, and anyone who prefers to log meals in the app of their choice.</p>
+
+<h3>4. Acaia Pearl: the connected benchmark for coffee</h3>
+<p>The Acaia Pearl targets one use: specialty coffee. It weighs up to 2 kg with <strong>0.1 g</strong> resolution, has a built-in timer and connects over Bluetooth to Acaia’s apps, which log weight, time and flow rate so you can repeat a recipe. Its battery charges over USB-C.</p>
+<p><strong>Limitations</strong>: 2 kg capacity, no nutrition tracking and a premium positioning.</p>
+<p><strong>Who it’s for</strong>: espresso and filter coffee enthusiasts who want exact ratios and a history of their brews. To go further, see our <a href="/en/blog/cafetiere-connectee-guide">smart coffee machine guide</a>.</p>
+
+<h2>Comparison table</h2>
 <table>
 <thead>
-<tr><th>Criteria</th><th>Etekcity Nutrition</th><th>Renpho Smart</th><th>Drop Scale</th><th>Yummly Smart Scale</th></tr>
+<tr><th>Model</th><th>Capacity and resolution</th><th>Connectivity and app</th><th>Power</th><th>Best for</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Accuracy</strong></td><td>0.1 g (0-5 kg)</td><td>0.1 g (0-5 kg)</td><td>1 g (0-3 kg)</td><td>0.1 g (0-5 kg)</td></tr>
-<tr><td><strong>Max capacity</strong></td><td>5 kg / 11 lb</td><td>5 kg / 11 lb</td><td>3 kg / 6.6 lb</td><td>5 kg / 11 lb</td></tr>
-<tr><td><strong>Food database</strong></td><td>900,000+ foods</td><td>600,000+ foods</td><td>No database (recipes)</td><td>500,000+ foods</td></tr>
-<tr><td><strong>Connectivity</strong></td><td>Bluetooth 5.0</td><td>Bluetooth 5.0</td><td>Bluetooth 4.2</td><td>Bluetooth 5.0 + WiFi</td></tr>
-<tr><td><strong>App</strong></td><td>VeSync (iOS/Android)</td><td>Renpho Health (iOS/Android)</td><td>Drop Recipes (iOS only)</td><td>Yummly (iOS/Android)</td></tr>
-<tr><td><strong>Nutrition tracking</strong></td><td>Calories, protein, carbs, fat, fibre, sodium</td><td>Calories, protein, carbs, fat</td><td>No (guided recipes)</td><td>Calories, macros, 14 micronutrients</td></tr>
-<tr><td><strong>Guided recipes</strong></td><td>No</td><td>No</td><td>Yes (1,600+ recipes)</td><td>Yes (2 million+)</td></tr>
-<tr><td><strong>Health integration</strong></td><td>Apple Health, Google Fit, Fitbit</td><td>Apple Health, Google Fit</td><td>Apple Health</td><td>Apple Health, Google Fit, Samsung Health</td></tr>
-<tr><td><strong>Power</strong></td><td>3x AAA batteries (12 months)</td><td>USB-C rechargeable (6 months)</td><td>CR2032 battery (12 months)</td><td>USB-C rechargeable (4 months)</td></tr>
-<tr><td><strong>Material</strong></td><td>Tempered glass + stainless steel</td><td>Tempered glass</td><td>Non-slip silicone</td><td>Brushed stainless steel</td></tr>
-<tr><td><strong>Price</strong></td><td>~£25-30</td><td>~£20-25</td><td>~£60-70</td><td>~£40-50</td></tr>
-<tr><td><strong>Rating /10</strong></td><td>9.3</td><td>8.7</td><td>8.5</td><td>9.0</td></tr>
+<tr><td>Etekcity ESN00</td><td>5 kg, 1 g</td><td>Bluetooth, VeSync (19 nutrients)</td><td>3 AAA batteries</td><td>Daily nutrition tracking</td></tr>
+<tr><td>Renpho (food scale)</td><td>5 kg, 1 g</td><td>Bluetooth, Renpho Health</td><td>Depends on version</td><td>Tight budget, Renpho ecosystem</td></tr>
+<tr><td>Beurer KS 34 XL</td><td>15 kg, 1 g</td><td>None</td><td>4 AAA batteries</td><td>Large quantities</td></tr>
+<tr><td>Acaia Pearl</td><td>2 kg, 0.1 g</td><td>Bluetooth, Acaia apps</td><td>USB-C battery</td><td>Specialty coffee</td></tr>
 </tbody>
 </table>
 
-<h2>Etekcity Nutrition: Best Value Smart Kitchen Scale</h2>
-<h3>Strengths</h3>
-<p>The Etekcity Nutrition Smart Scale dominates this comparison with its <strong>unbeatable value for money</strong>. For £25-30, you get 0.1 g accuracy, a food database of 900,000+ items (the most comprehensive on the market) and a smooth, well-designed VeSync app. This is the scale we recommend to 90% of users.</p>
-<p>The <strong>nutritional database</strong> is exceptional: every food includes calories, protein, carbs, fat, fibre and sodium. The barcode scanner works remarkably well — place a product on the scale, scan the barcode with your phone, and the app instantly displays nutritional values for the exact weight. It is devastatingly effective for daily calorie counting.</p>
-<p>The <strong>meal mode</strong> is a genuine asset: weigh each ingredient of your plate successively (tare between each), and the app calculates the complete nutritional total of the entire meal. Perfect for meal prep and diet tracking. Integration with Apple Health, Google Fit and Fitbit automatically synchronises your food data with your health ecosystem.</p>
-<p>The tempered glass and stainless steel construction is solid for the price. The platform is generous (18 x 14 cm) and easy to clean. The 3 AAA batteries last approximately 12 months of daily use — no charging cable to manage.</p>
-
-<h3>Weaknesses</h3>
-<p>No guided recipes built in — this is a nutrition tracking scale, not a cooking assistant. Bluetooth 5.0 is reliable but without WiFi, you must open the app for each weighing to synchronise. The design is functional but not as premium as the Yummly. The LED display is small and difficult to read in bright light.</p>
-
-<h3>Our Verdict</h3>
-<p><strong>Rating: 9.3/10</strong> — The best choice for daily nutritional tracking. The 900,000-food database, barcode scanner and meal mode make it the ideal tool for calorie counting and macro tracking. At £25, it is a trivial investment for such a useful tool.</p>
-
-<h2>Renpho Smart: Affordable Rechargeable Alternative</h2>
-<h3>Strengths</h3>
-<p>The Renpho Smart Kitchen Scale appeals with its <strong>sleek design and USB-C charging</strong>. No more changing batteries: a full charge lasts approximately 6 months of daily use, and recharging takes only 2 hours. This is a significant ecological and practical advantage long-term.</p>
-<p>The 0.1 g accuracy matches the Etekcity, and the 600,000+ food database comfortably covers daily needs. The Renpho Health app is the same used for their popular body scales — if you already own a Renpho product, everything is centralised in one ecosystem.</p>
-<p>The <strong>coffee mode</strong> is a unique feature: it includes a timer and measures the water-to-coffee ratio for pour-over and filter coffee enthusiasts. The smart tare mode allows weighing directly in the bowl without extra manipulation.</p>
-<p>The price is the most accessible in this comparison: £20-25 for a 0.1 g rechargeable scale with full nutritional tracking.</p>
-
-<h3>Weaknesses</h3>
-<p>The 600,000-food database is decent but less comprehensive than the Etekcity (900,000). Nutritional tracking is limited to 4 macros (calories, protein, carbs, fat) without fibre or sodium. The app is occasionally slow to start. No Fitbit integration. The tempered glass surface without stainless steel is slightly less robust.</p>
-
-<h3>Our Verdict</h3>
-<p><strong>Rating: 8.7/10</strong> — The best choice for users who want a rechargeable scale at a small price. The coffee mode is a welcome bonus. If you are already in the Renpho ecosystem, it is the obvious choice to centralise your health data.</p>
-
-<h2>Drop Scale: Best for Guided Recipe Cooking</h2>
-<h3>Strengths</h3>
-<p>The Drop Scale is <strong>fundamentally different</strong> from the other scales in this comparison. It is not a nutritional tracking tool: it is an <strong>interactive cooking assistant</strong>. The Drop Recipes app contains over 1,600 recipes that guide you step by step, ingredient by ingredient, using the scale to verify each quantity.</p>
-<p>The concept is brilliant: select a recipe in the app, place your bowl on the scale, and the app tells you "add 250 g of flour". You pour flour until the scale shows the correct weight, then the app automatically moves to the next ingredient. It is like having a patient pastry chef guiding you in real time.</p>
-<p>The <strong>Scale & Adapt</strong> feature is unique: change the number of servings in the recipe, and all ingredients are automatically recalculated. No mental arithmetic required. Recipes include technique videos for complex steps (tempering chocolate, whipping egg whites, etc.).</p>
-<p>The non-slip silicone design is clever: the bowl does not slide on the scale, and the silicone washes easily. The CR2032 battery lasts approximately 12 months.</p>
-
-<h3>Weaknesses</h3>
-<p>No nutritional tracking — no food database, no calorie counting. Accuracy is only 1 g (insufficient for baking powder or precision spice work). The 3 kg maximum capacity is limiting for large batches. The app is available on iOS only — no Android. The £60-70 price is steep for a scale without nutritional features. Bluetooth 4.2 is somewhat dated.</p>
-
-<h3>Our Verdict</h3>
-<p><strong>Rating: 8.5/10</strong> — The best scale for bakers and cooks who want guidance. The step-by-step interactive recipes are a delightful concept. But the absence of nutritional tracking and iOS-only limitation make it a niche choice. If you also want to count calories, this is not the right scale.</p>
-
-<h2>Yummly Smart Scale: The Most Complete (Nutrition + Recipes)</h2>
-<h3>Strengths</h3>
-<p>The Yummly Smart Scale is the only scale in this comparison that combines <strong>comprehensive nutritional tracking AND guided recipes</strong>. With its database of over 2 million recipes from the Yummly platform (owned by Whirlpool), it is a complete culinary ecosystem.</p>
-<p><strong>Nutritional tracking</strong> is the most detailed in this comparison: beyond standard calories and macros, the app tracks 14 micronutrients (vitamins A, C, D, iron, calcium, potassium, etc.). For people with specific nutritional needs (deficiencies, pregnancy, intensive sport), this is a major advantage.</p>
-<p><strong>Bluetooth 5.0 + WiFi</strong> connectivity is unique in this comparison: the scale automatically synchronises your data without you needing to open the app. Weighings are recorded and synced in the background. Integration with Apple Health, Google Fit and Samsung Health is comprehensive.</p>
-<p>The <strong>brushed stainless steel</strong> construction is the most premium in this comparison. The design is elegant and fits perfectly in a modern kitchen. USB-C charging is practical, with 4 months battery life.</p>
-
-<h3>Weaknesses</h3>
-<p>The price is the highest in the "nutritional scale" segment (£40-50), though the Drop Scale costs more. The 4-month USB-C battery life is the shortest in the comparison — the Etekcity's AAA batteries last 12 months. The 500,000-food database is decent but inferior to the Etekcity (900,000). The Yummly app can feel overwhelming for simple use.</p>
-
-<h3>Our Verdict</h3>
-<p><strong>Rating: 9.0/10</strong> — The most complete scale on the market: detailed nutrition, guided recipes, WiFi, premium design. Ideal for those who want an all-in-one tool. If you do not need recipes, the Etekcity offers better value for money.</p>
-
-<h2>Use Case: Which Scale for Calorie Counting?</h2>
-<p>Calorie counting is the primary reason people buy a smart scale. Here is how each model performs in daily nutritional tracking:</p>
+<h2>Which scale for which use?</h2>
 <ul>
-<li><strong>Typical breakfast:</strong> you place your granola bowl on the scale. With the Etekcity, scan the packet barcode; the app instantly calculates 380 kcal for 80 g. Add milk (tare, pour, scan barcode): 95 kcal for 200 ml. Total breakfast: 475 kcal in 30 seconds. The Renpho process is identical. The Drop Scale cannot do this (no food database). The Yummly does the same but with 14 micronutrients as a bonus.</li>
-<li><strong>Sunday meal prep:</strong> you prepare 5 meals for the week. The Etekcity and Renpho calculate nutritional totals per portion. The Yummly can also suggest balanced recipes based on your calorie goals. The Drop Scale guides you through recipes but does not count the resulting calories.</li>
-<li><strong>Long-term tracking:</strong> integration with Apple Health/Google Fit lets you visualise daily, weekly and monthly calorie intake. The Etekcity and Yummly offer the best integrations. Renpho centralises within its own ecosystem. The Drop Scale offers no tracking.</li>
+<li><strong>Counting calories or tracking macros</strong>: the Etekcity ESN00, for its detailed tracking and reports. The Renpho covers the basics for less.</li>
+<li><strong>Baking</strong>: a 1 g scale is fine for flour, sugar or butter. For small amounts of yeast or salt, weigh a larger batch or use a 0.1 g scale.</li>
+<li><strong>Coffee</strong>: the Acaia Pearl, for its 0.1 g resolution and timer.</li>
+<li><strong>Large batches</strong>: the Beurer KS 34 XL and its 15 kg capacity.</li>
 </ul>
-<p><strong>Our recommendation for calorie counting:</strong> the Etekcity Nutrition at £25. It has the most comprehensive database, the fastest barcode scanning and the most practical meal mode. For a third of the Drop Scale's price, it does infinitely more for nutritional tracking.</p>
+<p>To equip the rest of your kitchen, our <a href="/en/blog/guide-cuisine-connectee-2026">2026 smart kitchen guide</a> covers the appliances worth having.</p>
 
-<h2>App Quality: Our Ranking</h2>
-<p>The app makes all the difference in the daily experience of a smart scale. Here is our ranking after 3 months of intensive use:</p>
-<ol>
-<li><strong>Yummly (9/10):</strong> the richest in features. Modern and intuitive interface, 2 million recipes, detailed nutritional tracking, meal planning, automatic shopping list. The only flaw: it can feel overwhelming for simple use.</li>
-<li><strong>VeSync / Etekcity (8.5/10):</strong> the most efficient for nutritional tracking. Ultra-fast barcode scanning, practical meal mode, clear history, data export. Sober and functional interface, no clutter.</li>
-<li><strong>Drop Recipes (8/10):</strong> the best for guided cooking. The step-by-step recipes with the scale are a joy to use. But limited to iOS and no nutritional tracking.</li>
-<li><strong>Renpho Health (7.5/10):</strong> decent but a bit slow to start. Integration with other Renpho products is a plus. The interface is functional without being inspiring.</li>
-</ol>
+<h2>Smart scale or regular scale plus an app?</h2>
+<p>You don’t need a smart scale to track what you eat: any scale that reads to the gram will do, and you can type the weight into a nutrition app yourself. The connected version is mainly about convenience. The weight goes straight into the app, with no copying and no typing errors, and each ingredient of a meal is added to the total in seconds.</p>
+<p>That convenience matters if you weigh several times a day, for example to track macros or prep a week of meals. If you mostly weigh for baking or only now and then, a good regular scale such as the Beurer KS 34 XL does the job perfectly and doesn’t depend on any online service.</p>
+<p>Before buying, also check compatibility with your phone: the VeSync, Renpho Health and Acaia apps are available on iOS and Android, but sync features (Apple Health, Fitbit) vary by platform.</p>
 
-<h2>Our Final Verdict: Which Smart Kitchen Scale to Choose?</h2>
+<h2>Mistakes to avoid</h2>
 <ul>
-<li><strong>For nutritional tracking and calorie counting:</strong> Etekcity Nutrition (9.3/10, ~£25). Best value on the market, the most comprehensive database, the fastest barcode scanning.</li>
-<li><strong>For a tight budget with USB-C charging:</strong> Renpho Smart (8.7/10, ~£20). Same accuracy as Etekcity, rechargeable, coffee mode bonus.</li>
-<li><strong>For cooking with guided recipes (iOS):</strong> Drop Scale (8.5/10, ~£65). Unique concept of step-by-step interactive recipes. For bakers and cooks who want guidance.</li>
-<li><strong>For everything (nutrition + recipes + WiFi):</strong> Yummly Smart Scale (9.0/10, ~£45). The most complete, the most connected, the most premium. The ideal choice if budget allows.</li>
-</ul>`,
-
-    de: `<h2>Warum eine smarte Küchenwaage in 2026?</h2>
-<p>Die smarte Küchenwaage hat die Art, wie wir kochen und unsere Ernährung verfolgen, revolutioniert. Im Jahr 2026 wiegen diese Geräte nicht nur: Sie berechnen automatisch die <strong>Kalorien, Makronährstoffe (Protein, Kohlenhydrate, Fett) und Mikronährstoffe</strong> jeder Zutat, die Sie darauf legen. Für Sportler, Menschen in der Ernährungsumstellung oder einfach anspruchsvolle Hobbyköche sind sie ein unverzichtbares Werkzeug geworden.</p>
-<p>Dieser Vergleich analysiert die <strong>4 besten smarten Küchenwaagen auf dem Markt</strong> im Jahr 2026. Wir haben jedes Modell hinsichtlich Genauigkeit, Lebensmitteldatenbank, App-Qualität, Rezeptintegration und Preis-Leistungs-Verhältnis getestet. Für einen vollständigen Überblick über die vernetzte Küche lesen Sie unseren <a href="/de/blog/guide-cuisine-connectee-2026">kompletten Ratgeber vernetzte Küche 2026</a>.</p>
-
-<h2>Wesentliche Kriterien einer guten smarten Waage</h2>
-<p>Vor dem Modellvergleich hier die von uns bewerteten Kriterien:</p>
-<ul>
-<li><strong>Genauigkeit:</strong> Eine Küchenwaage muss mindestens auf 1 g genau sein, idealerweise auf 0,1 g für Gewürze, Backpulver und Patisserie-Zutaten. Alle 4 getesteten Modelle bieten je nach Gewichtsbereich eine Genauigkeit von 0,1 g bis 1 g.</li>
-<li><strong>Lebensmitteldatenbank:</strong> Das ist der entscheidende Faktor. Je umfangreicher die Datenbank, desto zuverlässiger das Nährwert-Tracking. Die besten Datenbanken enthalten 500.000+ Lebensmittel mit vollständigen Nährwertdaten (Kalorien, Protein, Kohlenhydrate, Fett, Ballaststoffe, Natrium, Vitamine).</li>
-<li><strong>App:</strong> Die Oberfläche muss flüssig, die Synchronisation schnell und die Funktionen relevant sein (Verlauf, Ziele, Datenexport, Gesundheitsintegration).</li>
-<li><strong>Rezeptintegration:</strong> Die Fähigkeit, Sie Schritt für Schritt durch ein Rezept zu führen und jede Zutat abzuwiegen, ist ein echter Mehrwert.</li>
-<li><strong>Konnektivität:</strong> Bluetooth bei den meisten, WiFi bei einigen Premium-Modellen. WiFi ermöglicht automatische Synchronisation ohne App-Öffnung.</li>
+<li><strong>Assuming the scale identifies food</strong>: none of the models here do. You have to pick the food in the app.</li>
+<li><strong>Buying a scale whose app is gone</strong>: the Yummly Smart Scale and the Drop scale, often listed in older roundups, are no longer sold, and the Yummly app closed at the end of 2024. When buying second-hand, always check that the app still works.</li>
+<li><strong>Paying for 0.1 g when you don’t need it</strong>: for cooking and calorie counting, 1 g is enough.</li>
+<li><strong>Forgetting the tare</strong>: place the bowl, zero the scale, then add the food. Otherwise the bowl’s weight skews the nutrition figures.</li>
+<li><strong>Weighing on an unstable surface</strong>: a flat, rigid worktop is essential for a reliable reading.</li>
 </ul>
 
-<h2>Vergleichstabelle: Die 4 besten smarten Küchenwaagen 2026</h2>
+<h2>Use and care</h2>
+<p>Place the scale on a flat surface away from the hob. Clean the platform with a damp cloth, never immerse the scale or put it in the dishwasher, and keep water away from the display and battery compartment. Remove the batteries if you won’t use the scale for several months.</p>
+<p>The nutrition values shown are estimates drawn from databases. They are a useful guide, but a kitchen scale is not a medical device: if you follow a prescribed diet (diabetes, kidney disease, allergies), follow the advice of your doctor or a registered dietitian.</p>
+
+<h2>Our verdict</h2>
+<p>For most kitchens, the <strong>Etekcity Smart Nutrition Scale</strong> is the best choice: sturdy, simple and backed by a complete, well-maintained app. The <strong>Renpho smart kitchen scale</strong> is the most affordable option, especially if you already use the brand’s body scale. If you don’t need an app but often weigh large quantities, the <strong>Beurer KS 34 XL</strong> is the most practical. And for coffee, the <strong>Acaia Pearl</strong> remains the benchmark.</p>`,
+
+    de: `<p><strong>Die beste smarte Küchenwaage 2026 für die meisten Haushalte ist die Etekcity Smart Nutrition Scale</strong>: Sie wiegt bis 5 kg grammgenau, und ihre VeSync-App berechnet für jedes gewogene Lebensmittel bis zu 19 Nährstoffe. Die smarte Küchenwaage von Renpho ist die günstige Alternative, die Beurer KS 34 XL eignet sich für schwere Mengen ohne App, und die Acaia Pearl richtet sich an Kaffeefans, die eine Auflösung von 0,1 g wollen.</p>
+<p>Dieser Vergleich stützt sich auf Herstellerangaben, unabhängige Rezensionen und verifizierte Käuferbewertungen und berücksichtigt nur Modelle, die 2026 in Europa erhältlich sind. Die komplette Auswahl finden Sie auf unserer Seite <a href="/de/cuisine-connectee/balances">smarte Küchenwaagen</a>.</p>
+
+<h2>Was eine smarte Waage kann – und was nicht</h2>
+<p>Eine smarte Waage ist zuerst eine Waage: Sie zeigt das Gewicht auf ihrem eigenen Display an, mit oder ohne Smartphone. Der Unterschied liegt in der App. Ist die Waage per Bluetooth gekoppelt, wählen Sie das Lebensmittel aus, und die App rechnet das gemessene Gewicht mit den Nährwerten ihrer Datenbank hoch: Kalorien, Eiweiß, Kohlenhydrate, Fett und teils Ballaststoffe, Natrium oder Vitamine.</p>
+<p>Wichtig: Die Waage <strong>erkennt nicht</strong>, was auf ihr liegt. Sie wählen das Lebensmittel selbst in der App aus. Die Qualität des Trackings hängt also von der Datenbank, der Suchfunktion und Ihrer Konsequenz ab.</p>
+
+<h2>Worauf Sie achten sollten</h2>
+<ul>
+<li><strong>Auflösung</strong>: Die meisten Küchenwaagen wiegen auf das Gramm genau – das reicht zum Kochen und Kalorienzählen. 0,1 g lohnt sich nur für Spezialitätenkaffee, Gewürze oder kleinste Mengen Hefe.</li>
+<li><strong>Tragkraft</strong>: 5 kg decken fast alle Anwendungen ab. 15 kg helfen bei großen Töpfen, viel Brotteig oder Marmelade.</li>
+<li><strong>App und Lebensmitteldatenbank</strong>: Prüfen Sie, wie viele Nährstoffe erfasst werden, ob es einen Verlauf und einen Mahlzeitenmodus gibt und ob die App mit Apple Health oder anderen Diensten synchronisiert.</li>
+<li><strong>Langlebigkeit der App</strong>: Eine smarte Waage hängt von einem Onlinedienst ab. Bevorzugen Sie eine Marke, die ihre App seit Jahren pflegt.</li>
+<li><strong>Stromversorgung</strong>: AAA-Batterien (leicht zu ersetzen) oder ein per USB-C aufladbarer Akku.</li>
+<li><strong>Wiegefläche</strong>: Edelstahl und Glas lassen sich leicht reinigen; die Fläche sollte groß genug für Ihre Schüsseln sein.</li>
+</ul>
+
+<h2>Die 4 empfehlenswerten Waagen 2026</h2>
+
+<h3>1. Etekcity Smart Nutrition Scale: die beste Wahl insgesamt</h3>
+<p>Die Etekcity ESN00 ist die ausgereifteste Nährwertwaage dieser Auswahl. Sie wiegt bis 5 kg in 1-g-Schritten (bzw. 1 ml bei Flüssigkeiten) auf einer 23,5 × 16 cm großen Wiegefläche aus <strong>Edelstahl 304</strong>, die sich leicht abwischen lässt. Sie läuft mit 3 AAA-Batterien.</p>
+<p>Ihre Stärke ist die kostenlose <strong>VeSync</strong>-App: Sie erfasst bis zu <strong>19 Nährstoffe</strong>, liefert Tages-, Wochen- und Monatsberichte und kann Ihre Daten mit Apple Health und Fitbit synchronisieren. Die Displaybeleuchtung lässt sich in der App einstellen. Käufer loben vor allem die stabile Verbindung und die übersichtlichen Auswertungen.</p>
+<p><strong>Schwächen</strong>: Die 1-g-Auflösung eignet sich nicht für sehr feine Mengen, die Verbindung läuft nur über Bluetooth, und für das Nährwert-Tracking muss jedes Lebensmittel in der App erfasst werden.</p>
+<p><strong>Für wen</strong>: alle, die Kalorien oder Makros im Alltag verfolgen, Mahlzeiten vorbereiten oder einfach besser verstehen wollen, was sie essen.</p>
+
+<h3>2. Smarte Küchenwaage von Renpho: die günstigste Alternative</h3>
+<p>Renpho, bekannt für smarte Personenwaagen, bietet auch eine Bluetooth-Lebensmittelwaage an, die bis 5 kg grammgenau wiegt. Sie arbeitet mit der App <strong>Renpho Health</strong>, die auch die Personenwaagen der Marke nutzen – mit einer Datenbank auf Basis von USDA-Daten, einem Barcode-Scanner für verpackte Produkte und Synchronisation mit Apple Health. Eine Kaffeewiegefunktion ist ebenfalls an Bord.</p>
+<p><strong>Schwächen</strong>: Die US-Datenbank enthält weniger europäische Grundnahrungsmittel, und die App verlangt ein Konto. Einige Käufer empfinden die App als langsamer als die von Etekcity.</p>
+<p><strong>Für wen</strong>: kleines Budget und alle, die bereits eine Renpho-Personenwaage besitzen und Körpergewicht und Ernährung in einer App bündeln wollen.</p>
+
+<h3>3. Beurer KS 34 XL: hohe Tragkraft, ohne App</h3>
+<p>Die Beurer KS 34 XL ist nicht vernetzt, deckt aber einen Bedarf ab, den Nährwertwaagen kaum erfüllen: schwere Mengen wiegen. Sie trägt bis <strong>15 kg</strong> in 1-g-Schritten auf einer großen Glasfläche von 20 × 26,3 cm. Das „Magic“-Display erscheint nur während des Wiegens, eine Hold-Funktion hält den Wert fest, wenn eine große Schüssel die Anzeige verdeckt, und die Tara wird per Sensortaste bedient. Sie läuft mit 4 AAA-Batterien, die mitgeliefert werden.</p>
+<p><strong>Schwächen</strong>: keine App, kein Nährwert-Tracking und eine 1-g-Auflösung, die für sehr kleine Mengen wenig geeignet ist.</p>
+<p><strong>Für wen</strong>: Familien, Hobbybäcker, Einkochfans und Meal-Prepper mit großen Mengen sowie alle, die ihre Mahlzeiten lieber selbst in einer App ihrer Wahl erfassen.</p>
+
+<h3>4. Acaia Pearl: die vernetzte Referenz für Kaffee</h3>
+<p>Die Acaia Pearl zielt auf einen Einsatz: Spezialitätenkaffee. Sie wiegt bis 2 kg mit einer Auflösung von <strong>0,1 g</strong>, hat einen integrierten Timer und verbindet sich per Bluetooth mit den Acaia-Apps, die Gewicht, Zeit und Durchflussrate speichern, damit Sie ein Rezept wiederholen können. Der Akku wird per USB-C geladen.</p>
+<p><strong>Schwächen</strong>: nur 2 kg Tragkraft, kein Nährwert-Tracking und eine Positionierung im Premiumbereich.</p>
+<p><strong>Für wen</strong>: Espresso- und Filterkaffeefans, die exakte Verhältnisse und einen Verlauf ihrer Zubereitungen wollen. Mehr dazu in unserem <a href="/de/blog/cafetiere-connectee-guide">Ratgeber für smarte Kaffeemaschinen</a>.</p>
+
+<h2>Vergleichstabelle</h2>
 <table>
 <thead>
-<tr><th>Kriterium</th><th>Etekcity Nutrition</th><th>Renpho Smart</th><th>Drop Scale</th><th>Yummly Smart Scale</th></tr>
+<tr><th>Modell</th><th>Tragkraft und Auflösung</th><th>Verbindung und App</th><th>Stromversorgung</th><th>Ideal für</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Genauigkeit</strong></td><td>0,1 g (0-5 kg)</td><td>0,1 g (0-5 kg)</td><td>1 g (0-3 kg)</td><td>0,1 g (0-5 kg)</td></tr>
-<tr><td><strong>Max. Kapazität</strong></td><td>5 kg</td><td>5 kg</td><td>3 kg</td><td>5 kg</td></tr>
-<tr><td><strong>Lebensmitteldatenbank</strong></td><td>900.000+ Lebensmittel</td><td>600.000+ Lebensmittel</td><td>Keine Datenbank (Rezepte)</td><td>500.000+ Lebensmittel</td></tr>
-<tr><td><strong>Konnektivität</strong></td><td>Bluetooth 5.0</td><td>Bluetooth 5.0</td><td>Bluetooth 4.2</td><td>Bluetooth 5.0 + WiFi</td></tr>
-<tr><td><strong>App</strong></td><td>VeSync (iOS/Android)</td><td>Renpho Health (iOS/Android)</td><td>Drop Recipes (nur iOS)</td><td>Yummly (iOS/Android)</td></tr>
-<tr><td><strong>Nährwert-Tracking</strong></td><td>Kalorien, Protein, Kohlenhydrate, Fett, Ballaststoffe, Natrium</td><td>Kalorien, Protein, Kohlenhydrate, Fett</td><td>Nein (geführte Rezepte)</td><td>Kalorien, Makros, 14 Mikronährstoffe</td></tr>
-<tr><td><strong>Geführte Rezepte</strong></td><td>Nein</td><td>Nein</td><td>Ja (1.600+ Rezepte)</td><td>Ja (2 Mio.+)</td></tr>
-<tr><td><strong>Gesundheitsintegration</strong></td><td>Apple Health, Google Fit, Fitbit</td><td>Apple Health, Google Fit</td><td>Apple Health</td><td>Apple Health, Google Fit, Samsung Health</td></tr>
-<tr><td><strong>Stromversorgung</strong></td><td>3x AAA-Batterien (12 Monate)</td><td>USB-C aufladbar (6 Monate)</td><td>CR2032-Batterie (12 Monate)</td><td>USB-C aufladbar (4 Monate)</td></tr>
-<tr><td><strong>Material</strong></td><td>Gehärtetes Glas + Edelstahl</td><td>Gehärtetes Glas</td><td>Rutschfestes Silikon</td><td>Gebürsteter Edelstahl</td></tr>
-<tr><td><strong>Preis</strong></td><td>~30-35 €</td><td>~25-30 €</td><td>~70-80 €</td><td>~45-55 €</td></tr>
-<tr><td><strong>Bewertung /10</strong></td><td>9,3</td><td>8,7</td><td>8,5</td><td>9,0</td></tr>
+<tr><td>Etekcity ESN00</td><td>5 kg, 1 g</td><td>Bluetooth, VeSync (19 Nährstoffe)</td><td>3 AAA-Batterien</td><td>Tägliches Nährwert-Tracking</td></tr>
+<tr><td>Renpho (Lebensmittelwaage)</td><td>5 kg, 1 g</td><td>Bluetooth, Renpho Health</td><td>Je nach Version</td><td>Kleines Budget, Renpho-Ökosystem</td></tr>
+<tr><td>Beurer KS 34 XL</td><td>15 kg, 1 g</td><td>Keine</td><td>4 AAA-Batterien</td><td>Große Mengen</td></tr>
+<tr><td>Acaia Pearl</td><td>2 kg, 0,1 g</td><td>Bluetooth, Acaia-Apps</td><td>USB-C-Akku</td><td>Spezialitätenkaffee</td></tr>
 </tbody>
 </table>
 
-<h2>Etekcity Nutrition: Die beste smarte Küchenwaage im Preis-Leistungs-Vergleich</h2>
-<h3>Stärken</h3>
-<p>Die Etekcity Nutrition Smart Scale dominiert diesen Vergleich durch ihr <strong>unschlagbares Preis-Leistungs-Verhältnis</strong>. Für 30-35 € erhalten Sie 0,1 g Genauigkeit, eine Lebensmitteldatenbank mit 900.000+ Einträgen (die umfassendste auf dem Markt) und eine flüssige, gut gestaltete VeSync-App. Das ist die Waage, die wir 90 % der Nutzer empfehlen.</p>
-<p>Die <strong>Nährwertdatenbank</strong> ist außergewöhnlich: Jedes Lebensmittel enthält Kalorien, Protein, Kohlenhydrate, Fett, Ballaststoffe und Natrium. Der Barcode-Scanner funktioniert hervorragend — legen Sie ein Produkt auf die Waage, scannen Sie den Barcode mit dem Handy, und die App zeigt sofort die Nährwerte für das exakte Gewicht an. Das ist äußerst effektiv für die tägliche Kalorienzählung.</p>
-<p>Der <strong>Mahlzeiten-Modus</strong> ist ein echter Vorteil: Wiegen Sie nacheinander jede Zutat Ihres Tellers (Tara zwischen jeder Zutat), und die App berechnet die gesamten Nährwerte der kompletten Mahlzeit. Ideal für Meal Prep und Diät-Tracking. Die Integration mit Apple Health, Google Fit und Fitbit synchronisiert automatisch Ihre Ernährungsdaten mit Ihrem Gesundheits-Ökosystem.</p>
-
-<h3>Schwächen</h3>
-<p>Keine integrierten geführten Rezepte — es ist eine auf Nährwert-Tracking ausgerichtete Waage, kein Kochassistent. Bluetooth 5.0 ist zuverlässig, aber ohne WiFi muss die App bei jeder Wiegung geöffnet werden. Das Design ist funktional, aber nicht so premium wie die Yummly. Das LED-Display ist klein und bei hellem Licht schwer lesbar.</p>
-
-<h3>Unser Fazit</h3>
-<p><strong>Bewertung: 9,3/10</strong> — Die beste Wahl für tägliches Nährwert-Tracking. Die 900.000-Lebensmittel-Datenbank, der Barcode-Scanner und der Mahlzeiten-Modus machen sie zum idealen Werkzeug für Kalorienzählung und Makro-Tracking. Für 30 € eine lächerlich geringe Investition für ein derart nützliches Werkzeug.</p>
-
-<h2>Renpho Smart: Die erschwingliche aufladbare Alternative</h2>
-<h3>Stärken</h3>
-<p>Die Renpho Smart Kitchen Scale besticht durch ihr <strong>elegantes Design und USB-C-Aufladung</strong>. Keine Batterien mehr wechseln: Eine volle Ladung hält etwa 6 Monate bei täglicher Nutzung, und das Aufladen dauert nur 2 Stunden. Das ist ein erheblicher ökologischer und praktischer Vorteil auf lange Sicht.</p>
-<p>Die Genauigkeit von 0,1 g entspricht der Etekcity, und die Datenbank mit 600.000+ Lebensmitteln deckt den täglichen Bedarf problemlos ab. Der <strong>Kaffee-Modus</strong> ist eine einzigartige Funktion: Er enthält einen Timer und misst das Wasser-Kaffee-Verhältnis für Pour-Over- und Filterkaffee-Liebhaber.</p>
-
-<h3>Schwächen</h3>
-<p>Die Lebensmitteldatenbank mit 600.000 Einträgen ist ordentlich, aber weniger umfassend als die Etekcity (900.000). Das Nährwert-Tracking beschränkt sich auf 4 Makros ohne Ballaststoffe oder Natrium. Die App ist gelegentlich langsam beim Start. Keine Fitbit-Integration.</p>
-
-<h3>Unser Fazit</h3>
-<p><strong>Bewertung: 8,7/10</strong> — Die beste Wahl für Nutzer, die eine aufladbare Waage zum kleinen Preis wollen. Der Kaffee-Modus ist ein willkommener Bonus. Wenn Sie bereits im Renpho-Ökosystem sind, ist es die offensichtliche Wahl.</p>
-
-<h2>Drop Scale: Die beste für geführtes Rezeptkochen</h2>
-<h3>Stärken</h3>
-<p>Die Drop Scale ist <strong>grundlegend anders</strong> als die anderen Waagen in diesem Vergleich. Sie ist kein Nährwert-Tracking-Tool: Sie ist ein <strong>interaktiver Kochassistent</strong>. Die Drop Recipes App enthält über 1.600 Rezepte, die Sie Schritt für Schritt, Zutat für Zutat führen und die Waage zur Überprüfung jeder Menge nutzen.</p>
-<p>Das Konzept ist brillant: Wählen Sie ein Rezept in der App, stellen Sie Ihre Schüssel auf die Waage, und die App sagt "250 g Mehl hinzufügen". Sie geben Mehl hinzu, bis die Waage das richtige Gewicht anzeigt, dann wechselt die App automatisch zur nächsten Zutat. Die <strong>Scale & Adapt</strong>-Funktion ist einzigartig: Ändern Sie die Portionenzahl, und alle Zutaten werden automatisch neu berechnet.</p>
-
-<h3>Schwächen</h3>
-<p>Kein Nährwert-Tracking — keine Lebensmitteldatenbank, kein Kalorienzählen. Die Genauigkeit beträgt nur 1 g. Die maximale Kapazität von 3 kg ist begrenzt. Die App ist nur für iOS verfügbar — kein Android. Der Preis von 70-80 € ist hoch für eine Waage ohne Nährwertfunktion.</p>
-
-<h3>Unser Fazit</h3>
-<p><strong>Bewertung: 8,5/10</strong> — Die beste Waage für Bäcker und Köche, die geführt werden möchten. Die interaktiven Schritt-für-Schritt-Rezepte sind ein geniales Konzept. Aber das Fehlen von Nährwert-Tracking und die iOS-Beschränkung machen sie zu einer Nischenwahl.</p>
-
-<h2>Yummly Smart Scale: Die kompletteste (Nährwerte + Rezepte)</h2>
-<h3>Stärken</h3>
-<p>Die Yummly Smart Scale ist die einzige Waage in diesem Vergleich, die <strong>umfassendes Nährwert-Tracking UND geführte Rezepte</strong> kombiniert. Mit ihrer Datenbank von über 2 Millionen Rezepten aus der Yummly-Plattform (im Besitz von Whirlpool) ist sie ein komplettes kulinarisches Ökosystem.</p>
-<p>Das <strong>Nährwert-Tracking</strong> ist das detaillierteste in diesem Vergleich: Neben den üblichen Kalorien und Makros verfolgt die App 14 Mikronährstoffe (Vitamine A, C, D, Eisen, Calcium, Kalium usw.). Die <strong>Bluetooth 5.0 + WiFi</strong>-Konnektivität ist einzigartig: Die Waage synchronisiert automatisch Ihre Daten, ohne dass Sie die App öffnen müssen.</p>
-<p>Die Konstruktion aus <strong>gebürstetem Edelstahl</strong> ist die hochwertigste in diesem Vergleich. Das Design ist elegant und fügt sich perfekt in eine moderne Küche ein.</p>
-
-<h3>Schwächen</h3>
-<p>Der Preis ist der höchste im Segment "Nährwertwaage" (45-55 €). Die Akkulaufzeit von 4 Monaten via USB-C ist die kürzeste. Die Lebensmitteldatenbank mit 500.000 Einträgen ist ordentlich, aber der Etekcity unterlegen (900.000). Die Yummly-App kann für einfache Nutzung überladen wirken.</p>
-
-<h3>Unser Fazit</h3>
-<p><strong>Bewertung: 9,0/10</strong> — Die kompletteste Waage auf dem Markt: detaillierte Nährwerte, geführte Rezepte, WiFi, Premium-Design. Ideal für alle, die ein All-in-One-Tool wollen.</p>
-
-<h2>Anwendungsfall: Welche Waage zum Kalorienzählen?</h2>
-<p>Kalorienzählen ist der Hauptgrund für den Kauf einer smarten Waage. So schneiden die Modelle im täglichen Ernährungs-Tracking ab:</p>
+<h2>Welche Waage für welchen Zweck?</h2>
 <ul>
-<li><strong>Typisches Frühstück:</strong> Sie stellen Ihre Müslischüssel auf die Waage. Mit der Etekcity scannen Sie den Barcode der Packung — die App berechnet sofort 380 kcal für 80 g. Milch hinzufügen (Tara, gießen, Barcode scannen): 95 kcal für 200 ml. Frühstück gesamt: 475 kcal in 30 Sekunden.</li>
-<li><strong>Sonntags Meal Prep:</strong> Sie bereiten 5 Mahlzeiten für die Woche vor. Die Etekcity und Renpho berechnen Nährwert-Gesamtwerte pro Portion. Die Yummly kann zusätzlich ausgewogene Rezepte basierend auf Ihren Kalorienzielen vorschlagen.</li>
-<li><strong>Langzeit-Tracking:</strong> Die Integration mit Apple Health/Google Fit ermöglicht die Visualisierung der täglichen, wöchentlichen und monatlichen Kalorienaufnahme.</li>
+<li><strong>Kalorien zählen oder Makros verfolgen</strong>: die Etekcity ESN00 wegen ihres detaillierten Trackings und ihrer Berichte. Die Renpho erledigt das Wesentliche günstiger.</li>
+<li><strong>Backen</strong>: Für Mehl, Zucker oder Butter reicht eine 1-g-Waage. Für kleine Mengen Hefe oder Salz wiegen Sie eine größere Teigmenge ab oder nutzen eine 0,1-g-Waage.</li>
+<li><strong>Kaffee</strong>: die Acaia Pearl dank 0,1 g Auflösung und Timer.</li>
+<li><strong>Große Mengen</strong>: die Beurer KS 34 XL mit 15 kg Tragkraft.</li>
 </ul>
-<p><strong>Unsere Empfehlung zum Kalorienzählen:</strong> die Etekcity Nutrition für 30 €. Die umfassendste Datenbank, der schnellste Barcode-Scanner und der praktischste Mahlzeiten-Modus.</p>
+<p>Für die restliche Küche hilft unser <a href="/de/blog/guide-cuisine-connectee-2026">Ratgeber zur smarten Küche 2026</a> weiter.</p>
 
-<h2>Unser Abschlussfazit: Welche smarte Küchenwaage wählen?</h2>
+<h2>Smarte Waage oder normale Waage mit App?</h2>
+<p>Für das Ernährungstracking braucht es nicht zwingend eine smarte Waage: Jede grammgenaue Waage genügt, und das Gewicht lässt sich von Hand in eine Ernährungs-App eintragen. Die vernetzte Variante bietet vor allem Komfort. Das Gewicht landet direkt in der App, ohne Abtippen und ohne Tippfehler, und jede Zutat einer Mahlzeit ist in Sekunden zur Summe addiert.</p>
+<p>Dieser Komfort zählt, wenn Sie mehrmals täglich wiegen, etwa für das Makro-Tracking oder Meal-Prep für die ganze Woche. Wiegen Sie vor allem zum Backen oder nur gelegentlich, erfüllt eine gute normale Waage wie die Beurer KS 34 XL ihren Zweck bestens und hängt von keinem Onlinedienst ab.</p>
+<p>Prüfen Sie vor dem Kauf auch die Kompatibilität mit Ihrem Smartphone: Die Apps VeSync, Renpho Health und Acaia gibt es für iOS und Android, die Synchronisationsfunktionen (Apple Health, Fitbit) unterscheiden sich jedoch je nach Plattform.</p>
+
+<h2>Häufige Fehler</h2>
 <ul>
-<li><strong>Für Nährwert-Tracking und Kalorienzählung:</strong> Etekcity Nutrition (9,3/10, ~30 €). Bestes Preis-Leistungs-Verhältnis, umfassendste Datenbank, schnellster Barcode-Scanner.</li>
-<li><strong>Für kleines Budget mit USB-C-Aufladung:</strong> Renpho Smart (8,7/10, ~25 €). Gleiche Genauigkeit wie Etekcity, aufladbar, Kaffee-Modus als Bonus.</li>
-<li><strong>Zum Kochen mit geführten Rezepten (iOS):</strong> Drop Scale (8,5/10, ~75 €). Einzigartiges Konzept interaktiver Schritt-für-Schritt-Rezepte.</li>
-<li><strong>Für alles (Nährwerte + Rezepte + WiFi):</strong> Yummly Smart Scale (9,0/10, ~50 €). Die kompletteste, vernetzteste, hochwertigste. Die ideale Wahl wenn das Budget es erlaubt.</li>
-</ul>`,
-
-    es: `<h2>Por que una bascula de cocina inteligente en 2026?</h2>
-<p>La bascula de cocina inteligente ha revolucionado la forma en que cocinamos y controlamos nuestra alimentacion. En 2026, estos dispositivos no se limitan a pesar: calculan automaticamente las <strong>calorias, macronutrientes (proteinas, carbohidratos, grasas) y micronutrientes</strong> de cada ingrediente que colocas sobre ellos. Para deportistas, personas en proceso de reequilibrio alimentario o simplemente cocineros exigentes, se han convertido en una herramienta indispensable.</p>
-<p>Esta comparativa analiza las <strong>4 mejores basculas de cocina inteligentes del mercado</strong> en 2026. Hemos probado cada modelo en precision, base de datos alimentaria, calidad de la aplicacion, integracion con recetas y relacion calidad-precio. Para una vision completa de la cocina conectada, consulta nuestra <a href="/es/blog/guide-cuisine-connectee-2026">guia completa de cocina conectada 2026</a>.</p>
-
-<h2>Criterios esenciales de una buena bascula conectada</h2>
-<ul>
-<li><strong>Precision:</strong> una bascula de cocina debe ser precisa a 1 g como minimo, e idealmente a 0,1 g para especias, levadura quimica e ingredientes de reposteria. Los 4 modelos probados ofrecen una precision de 0,1 g a 1 g segun el rango de peso.</li>
-<li><strong>Base de datos alimentaria:</strong> es el factor clave. Cuanto mas rica sea la base, mas fiable sera el seguimiento nutricional. Las mejores bases contienen mas de 500.000 alimentos con datos nutricionales completos.</li>
-<li><strong>Aplicacion:</strong> la interfaz debe ser fluida, la sincronizacion rapida y las funcionalidades pertinentes (historial, objetivos, exportacion de datos, integracion con salud).</li>
-<li><strong>Integracion de recetas:</strong> la capacidad de guiarte paso a paso en una receta, pesando cada ingrediente, es un verdadero plus.</li>
-<li><strong>Conectividad:</strong> Bluetooth para la mayoria, WiFi para algunos modelos premium.</li>
+<li><strong>Glauben, die Waage erkenne Lebensmittel</strong>: Keines der Modelle hier kann das. Sie wählen das Lebensmittel in der App.</li>
+<li><strong>Eine Waage kaufen, deren App eingestellt wurde</strong>: Die Yummly Smart Scale und die Drop-Waage, die in älteren Vergleichen oft auftauchen, sind nicht mehr erhältlich, und die Yummly-App wurde Ende 2024 abgeschaltet. Prüfen Sie bei Gebrauchtkäufen immer, ob die App noch funktioniert.</li>
+<li><strong>Für 0,1 g zahlen, ohne es zu brauchen</strong>: Zum Kochen und Kalorienzählen genügt 1 g.</li>
+<li><strong>Die Tara vergessen</strong>: Schüssel aufstellen, auf null setzen, dann das Lebensmittel hinzufügen. Sonst verfälscht das Schüsselgewicht die Nährwerte.</li>
+<li><strong>Auf unebenem Untergrund wiegen</strong>: Eine flache, feste Arbeitsplatte ist für zuverlässige Werte unerlässlich.</li>
 </ul>
 
-<h2>Tabla comparativa: las 4 mejores basculas de cocina inteligentes 2026</h2>
+<h2>Nutzung und Pflege</h2>
+<p>Stellen Sie die Waage auf eine ebene Fläche, fern vom Kochfeld. Reinigen Sie die Wiegefläche mit einem feuchten Tuch, tauchen Sie die Waage nie unter Wasser und geben Sie sie nicht in die Spülmaschine; halten Sie Wasser von Display und Batteriefach fern. Entfernen Sie die Batterien, wenn Sie die Waage mehrere Monate nicht nutzen.</p>
+<p>Die angezeigten Nährwerte sind Schätzungen aus Datenbanken. Sie bieten eine gute Orientierung, doch eine Küchenwaage ist kein Medizinprodukt: Bei einer ärztlich verordneten Diät (Diabetes, Nierenerkrankung, Allergie) folgen Sie dem Rat Ihres Arztes oder einer Ernährungsfachkraft.</p>
+
+<h2>Unser Fazit</h2>
+<p>Für die meisten Küchen ist die <strong>Etekcity Smart Nutrition Scale</strong> die beste Wahl: robust, einfach und mit einer umfassenden, gepflegten App. Die <strong>smarte Küchenwaage von Renpho</strong> ist die günstigste Option, besonders wenn Sie bereits eine Personenwaage der Marke nutzen. Brauchen Sie keine App, wiegen aber oft große Mengen, ist die <strong>Beurer KS 34 XL</strong> am praktischsten. Und für Kaffee bleibt die <strong>Acaia Pearl</strong> die Referenz.</p>`,
+
+    es: `<p><strong>La mejor báscula de cocina inteligente en 2026 para la mayoría de los hogares es la Etekcity Smart Nutrition Scale</strong>: pesa hasta 5 kg con precisión de 1 g y su app VeSync calcula hasta 19 nutrientes de cada alimento pesado. La báscula inteligente de Renpho es la alternativa de gama de entrada, la Beurer KS 34 XL conviene para pesar mucho sin app, y la Acaia Pearl está pensada para los amantes del café que quieren la décima de gramo.</p>
+<p>Esta comparativa se basa en las fichas técnicas de los fabricantes, reseñas independientes y opiniones de compradores verificados, y solo incluye modelos que se venden en Europa en 2026. Encontrarás toda la selección en nuestra página de <a href="/es/cuisine-connectee/balances">básculas de cocina inteligentes</a>.</p>
+
+<h2>Lo que hace (y no hace) una báscula inteligente</h2>
+<p>Una báscula inteligente sigue siendo ante todo una báscula: muestra el peso en su propia pantalla, con o sin móvil. La diferencia está en la app. Una vez vinculada por Bluetooth, indicas el alimento que pesas y la app multiplica el peso medido por los valores nutricionales de su base de datos: calorías, proteínas, hidratos de carbono, grasas y, a veces, fibra, sodio o vitaminas.</p>
+<p>Un punto clave: la báscula <strong>no reconoce</strong> lo que colocas encima. Eres tú quien elige el alimento en la app. La calidad del seguimiento depende, por tanto, de la base de datos, de lo fácil que sea buscar y de tu constancia.</p>
+
+<h2>Cómo elegir</h2>
+<ul>
+<li><strong>Resolución</strong>: la mayoría de las básculas de cocina miden al gramo, suficiente para cocinar y contar calorías. La décima de gramo (0,1 g) solo es útil para café de especialidad, especias o cantidades mínimas de levadura.</li>
+<li><strong>Capacidad</strong>: 5 kg cubren casi todos los usos. Una capacidad de 15 kg ayuda con ollas grandes, mucha masa de pan o mermeladas.</li>
+<li><strong>App y base de alimentos</strong>: fíjate en cuántos nutrientes registra, si ofrece historial y modo comida, y si se sincroniza con Apple Salud u otros servicios.</li>
+<li><strong>Continuidad de la app</strong>: una báscula inteligente depende de un servicio en línea. Prioriza una marca que mantenga su app desde hace años.</li>
+<li><strong>Alimentación</strong>: pilas AAA (fáciles de cambiar) o batería recargable por USB-C.</li>
+<li><strong>Plataforma</strong>: el acero inoxidable y el vidrio se limpian fácilmente; comprueba que sea lo bastante amplia para tus boles.</li>
+</ul>
+
+<h2>Las 4 básculas a tener en cuenta en 2026</h2>
+
+<h3>1. Etekcity Smart Nutrition Scale: la mejor opción global</h3>
+<p>La Etekcity ESN00 es la báscula nutricional más completa de esta selección. Pesa hasta 5 kg en pasos de 1 g (o 1 ml para líquidos) sobre una plataforma de <strong>acero inoxidable 304</strong> de 23,5 × 16 cm, fácil de limpiar. Funciona con 3 pilas AAA.</p>
+<p>Su punto fuerte es la app gratuita <strong>VeSync</strong>: registra hasta <strong>19 nutrientes</strong>, genera informes diarios, semanales y mensuales y puede sincronizar tus datos con Apple Salud y Fitbit. La retroiluminación de la pantalla se ajusta desde la app. Los compradores destacan sobre todo la estabilidad de la conexión y la claridad de los informes.</p>
+<p><strong>Limitaciones</strong>: la resolución de 1 g no sirve para pesadas muy finas, la conexión es solo Bluetooth y el seguimiento nutricional exige registrar cada alimento en la app.</p>
+<p><strong>Para quién</strong>: cualquiera que quiera seguir sus calorías o macros a diario, preparar comidas con antelación o simplemente saber mejor lo que come.</p>
+
+<h3>2. Báscula de cocina inteligente Renpho: la alternativa más asequible</h3>
+<p>Renpho, conocida por sus básculas de baño inteligentes, ofrece también una báscula de alimentos Bluetooth que pesa hasta 5 kg al gramo. Funciona con la app <strong>Renpho Health</strong>, la misma de las básculas corporales de la marca, con una base de alimentos basada en datos del USDA, lector de códigos de barras para productos envasados y sincronización con Apple Salud. También incluye una función para pesar café.</p>
+<p><strong>Limitaciones</strong>: la base de datos, de origen estadounidense, tiene menos alimentos genéricos europeos, y la app exige crear una cuenta. Algunos compradores la encuentran más lenta que la de Etekcity.</p>
+<p><strong>Para quién</strong>: presupuestos ajustados y quienes ya tienen una báscula corporal Renpho y quieren reunir peso y alimentación en una sola app.</p>
+
+<h3>3. Beurer KS 34 XL: gran capacidad, sin app</h3>
+<p>La Beurer KS 34 XL no es inteligente, pero cubre una necesidad que las básculas nutricionales atienden mal: pesar cargas grandes. Admite hasta <strong>15 kg</strong> en pasos de 1 g sobre una amplia plataforma de vidrio de 20 × 26,3 cm. Su pantalla «Magic» solo aparece durante la pesada, una función <em>hold</em> fija el peso cuando un recipiente grande tapa la pantalla y la tara se maneja con botones táctiles. Funciona con 4 pilas AAA incluidas.</p>
+<p><strong>Limitaciones</strong>: sin app ni seguimiento nutricional, y una resolución de 1 g poco adecuada para cantidades muy pequeñas.</p>
+<p><strong>Para quién</strong>: familias, aficionados al pan casero, a las conservas o al batch cooking en grandes cantidades, y quienes prefieren registrar sus comidas en la app que elijan.</p>
+
+<h3>4. Acaia Pearl: la referencia conectada para el café</h3>
+<p>La Acaia Pearl apunta a un uso concreto: el café de especialidad. Pesa hasta 2 kg con una resolución de <strong>0,1 g</strong>, integra un temporizador y se conecta por Bluetooth a las apps de Acaia, que registran peso, tiempo y caudal de extracción para repetir una receta. Su batería se recarga por USB-C.</p>
+<p><strong>Limitaciones</strong>: capacidad limitada a 2 kg, sin seguimiento nutricional y un posicionamiento de gama alta.</p>
+<p><strong>Para quién</strong>: aficionados al espresso y al café de filtro que buscan proporciones exactas y un historial de sus extracciones. Para saber más, consulta nuestra <a href="/es/blog/cafetiere-connectee-guide">guía de cafeteras inteligentes</a>.</p>
+
+<h2>Tabla comparativa</h2>
 <table>
 <thead>
-<tr><th>Criterio</th><th>Etekcity Nutrition</th><th>Renpho Smart</th><th>Drop Scale</th><th>Yummly Smart Scale</th></tr>
+<tr><th>Modelo</th><th>Capacidad y resolución</th><th>Conexión y app</th><th>Alimentación</th><th>Ideal para</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Precision</strong></td><td>0,1 g (0-5 kg)</td><td>0,1 g (0-5 kg)</td><td>1 g (0-3 kg)</td><td>0,1 g (0-5 kg)</td></tr>
-<tr><td><strong>Capacidad max.</strong></td><td>5 kg</td><td>5 kg</td><td>3 kg</td><td>5 kg</td></tr>
-<tr><td><strong>Base alimentaria</strong></td><td>900.000+ alimentos</td><td>600.000+ alimentos</td><td>Sin base (recetas)</td><td>500.000+ alimentos</td></tr>
-<tr><td><strong>Conectividad</strong></td><td>Bluetooth 5.0</td><td>Bluetooth 5.0</td><td>Bluetooth 4.2</td><td>Bluetooth 5.0 + WiFi</td></tr>
-<tr><td><strong>App</strong></td><td>VeSync (iOS/Android)</td><td>Renpho Health (iOS/Android)</td><td>Drop Recipes (solo iOS)</td><td>Yummly (iOS/Android)</td></tr>
-<tr><td><strong>Seguimiento nutricional</strong></td><td>Calorias, proteinas, carbohidratos, grasas, fibra, sodio</td><td>Calorias, proteinas, carbohidratos, grasas</td><td>No (recetas guiadas)</td><td>Calorias, macros, 14 micronutrientes</td></tr>
-<tr><td><strong>Recetas guiadas</strong></td><td>No</td><td>No</td><td>Si (1.600+ recetas)</td><td>Si (2 millones+)</td></tr>
-<tr><td><strong>Integracion salud</strong></td><td>Apple Health, Google Fit, Fitbit</td><td>Apple Health, Google Fit</td><td>Apple Health</td><td>Apple Health, Google Fit, Samsung Health</td></tr>
-<tr><td><strong>Alimentacion</strong></td><td>3 pilas AAA (12 meses)</td><td>USB-C recargable (6 meses)</td><td>Pila CR2032 (12 meses)</td><td>USB-C recargable (4 meses)</td></tr>
-<tr><td><strong>Material</strong></td><td>Cristal templado + acero inox</td><td>Cristal templado</td><td>Silicona antideslizante</td><td>Acero inoxidable cepillado</td></tr>
-<tr><td><strong>Precio</strong></td><td>~30-35 EUR</td><td>~25-30 EUR</td><td>~70-80 EUR</td><td>~45-55 EUR</td></tr>
-<tr><td><strong>Nota /10</strong></td><td>9,3</td><td>8,7</td><td>8,5</td><td>9,0</td></tr>
+<tr><td>Etekcity ESN00</td><td>5 kg, 1 g</td><td>Bluetooth, VeSync (19 nutrientes)</td><td>3 pilas AAA</td><td>Seguimiento nutricional diario</td></tr>
+<tr><td>Renpho (báscula de alimentos)</td><td>5 kg, 1 g</td><td>Bluetooth, Renpho Health</td><td>Según versión</td><td>Presupuesto ajustado, ecosistema Renpho</td></tr>
+<tr><td>Beurer KS 34 XL</td><td>15 kg, 1 g</td><td>Ninguna</td><td>4 pilas AAA</td><td>Grandes cantidades</td></tr>
+<tr><td>Acaia Pearl</td><td>2 kg, 0,1 g</td><td>Bluetooth, apps de Acaia</td><td>Batería USB-C</td><td>Café de especialidad</td></tr>
 </tbody>
 </table>
 
-<h2>Etekcity Nutrition: la mejor bascula conectada en relacion calidad-precio</h2>
-<h3>Puntos fuertes</h3>
-<p>La Etekcity Nutrition Smart Scale domina esta comparativa por su <strong>relacion calidad-precio imbatible</strong>. Por 30-35 EUR, obtienes una precision de 0,1 g, una base de datos alimentaria de 900.000+ alimentos (la mas completa del mercado) y una aplicacion VeSync fluida y bien disenada. Es la bascula que recomendamos al 90 % de los usuarios.</p>
-<p>La <strong>base de datos nutricional</strong> es excepcional: cada alimento incluye calorias, proteinas, carbohidratos, grasas, fibra y sodio. El escaneo de codigo de barras funciona perfectamente: coloca un producto sobre la bascula, escanea el codigo con tu telefono, y la app muestra al instante los valores nutricionales para el peso exacto. Es tremendamente eficaz para el conteo diario de calorias.</p>
-<p>El <strong>modo comida</strong> es un autentico acierto: pesa sucesivamente cada ingrediente de tu plato (tara entre cada uno), y la app calcula el total nutricional de la comida completa. Ideal para meal prep y seguimiento de dieta. La integracion con Apple Health, Google Fit y Fitbit sincroniza automaticamente tus datos alimentarios.</p>
-
-<h3>Puntos debiles</h3>
-<p>Sin recetas guiadas integradas. El Bluetooth 5.0 es fiable pero sin WiFi, hay que abrir la app en cada pesaje para sincronizar. El diseno es funcional pero no tan premium como la Yummly. La pantalla LED es pequena y poco legible con luz intensa.</p>
-
-<h3>Nuestro veredicto</h3>
-<p><strong>Nota: 9,3/10</strong> — La mejor opcion para el seguimiento nutricional diario. La base de datos de 900.000 alimentos, el escaneo de codigo de barras y el modo comida la convierten en la herramienta ideal para contar calorias y hacer seguimiento de macros. Por 30 EUR, es una inversion ridicula para una herramienta tan util.</p>
-
-<h2>Renpho Smart: la alternativa recargable y asequible</h2>
-<h3>Puntos fuertes</h3>
-<p>La Renpho Smart Kitchen Scale seduce por su <strong>diseno elegante y su carga USB-C</strong>. Se acabaron las pilas: una carga completa dura unos 6 meses de uso diario. La precision de 0,1 g es identica a la Etekcity, y la base de datos de 600.000+ alimentos cubre ampliamente las necesidades diarias. El <strong>modo cafe</strong> es una funcionalidad unica: integra un cronometro y mide la proporcion agua/cafe para los amantes del cafe de filtro y pour-over.</p>
-
-<h3>Puntos debiles</h3>
-<p>Base alimentaria de 600.000 alimentos: correcta pero menos completa que la Etekcity. Seguimiento nutricional limitado a 4 macros sin fibra ni sodio. App a veces lenta al inicio. Sin integracion Fitbit.</p>
-
-<h3>Nuestro veredicto</h3>
-<p><strong>Nota: 8,7/10</strong> — La mejor opcion para usuarios que quieren una bascula recargable a buen precio. El modo cafe es un bonus apreciable.</p>
-
-<h2>Drop Scale: la mejor para cocinar con recetas guiadas</h2>
-<h3>Puntos fuertes</h3>
-<p>La Drop Scale es <strong>fundamentalmente diferente</strong>. No es una herramienta de seguimiento nutricional: es un <strong>asistente de cocina interactivo</strong>. La app Drop Recipes contiene mas de 1.600 recetas que te guian paso a paso, ingrediente por ingrediente. La funcion <strong>Scale & Adapt</strong> es unica: cambia el numero de porciones y todos los ingredientes se recalculan automaticamente.</p>
-
-<h3>Puntos debiles</h3>
-<p>Sin seguimiento nutricional. Precision de solo 1 g. Capacidad maxima de 3 kg limitada. App solo disponible en iOS. Precio de 70-80 EUR elevado para una bascula sin funcion nutricional.</p>
-
-<h3>Nuestro veredicto</h3>
-<p><strong>Nota: 8,5/10</strong> — La mejor bascula para reposteros y cocineros que quieren ser guiados. Las recetas interactivas paso a paso son un concepto genial. Pero la ausencia de seguimiento nutricional y la limitacion iOS la convierten en una opcion de nicho.</p>
-
-<h2>Yummly Smart Scale: la mas completa (nutricion + recetas)</h2>
-<h3>Puntos fuertes</h3>
-<p>La Yummly Smart Scale es la unica bascula de esta comparativa que combina <strong>seguimiento nutricional completo Y recetas guiadas</strong>. Con su base de mas de 2 millones de recetas de la plataforma Yummly (propiedad de Whirlpool), es un ecosistema culinario completo. El seguimiento nutricional incluye 14 micronutrientes ademas de calorias y macros. La conectividad <strong>Bluetooth 5.0 + WiFi</strong> es unica: sincronizacion automatica sin abrir la app.</p>
-
-<h3>Puntos debiles</h3>
-<p>Precio mas elevado del segmento (45-55 EUR). Autonomia de 4 meses la mas corta. Base alimentaria de 500.000 alimentos inferior a la Etekcity. App puede parecer sobrecargada para uso simple.</p>
-
-<h3>Nuestro veredicto</h3>
-<p><strong>Nota: 9,0/10</strong> — La bascula mas completa del mercado. Ideal para quienes quieren una herramienta todo en uno.</p>
-
-<h2>Caso practico: que bascula para contar calorias?</h2>
-<p>El conteo de calorias es el principal motivo de compra de una bascula conectada. Asi rinden los modelos en el seguimiento nutricional diario:</p>
+<h2>¿Qué báscula para cada uso?</h2>
 <ul>
-<li><strong>Desayuno tipico:</strong> colocas tu bol de granola en la bascula. Con la Etekcity, escaneas el codigo de barras — la app calcula 380 kcal para 80 g. Anades leche (tara, viertes, escaneas): 95 kcal para 200 ml. Total desayuno: 475 kcal en 30 segundos.</li>
-<li><strong>Meal prep del domingo:</strong> preparas 5 comidas para la semana. La Etekcity y Renpho calculan totales nutricionales por porcion. La Yummly ademas puede sugerir recetas equilibradas segun tus objetivos caloricos.</li>
-<li><strong>Seguimiento a largo plazo:</strong> la integracion con Apple Health/Google Fit permite visualizar la ingesta calorica diaria, semanal y mensual.</li>
+<li><strong>Contar calorías o seguir macros</strong>: la Etekcity ESN00, por su seguimiento detallado y sus informes. La Renpho cubre lo esencial por menos.</li>
+<li><strong>Repostería</strong>: una báscula de 1 g basta para harina, azúcar o mantequilla. Para pequeñas cantidades de levadura o sal, pesa una masa mayor o usa una báscula de 0,1 g.</li>
+<li><strong>Café</strong>: la Acaia Pearl, por su resolución de 0,1 g y su temporizador.</li>
+<li><strong>Grandes preparaciones</strong>: la Beurer KS 34 XL y sus 15 kg.</li>
 </ul>
-<p><strong>Nuestra recomendacion para contar calorias:</strong> la Etekcity Nutrition a 30 EUR. La base de datos mas completa, el escaneo mas rapido y el modo comida mas practico.</p>
+<p>Para equipar el resto de la cocina, nuestra <a href="/es/blog/guide-cuisine-connectee-2026">guía de la cocina inteligente 2026</a> repasa los aparatos que merecen la pena.</p>
 
-<h2>Nuestro veredicto final: que bascula de cocina inteligente elegir?</h2>
+<h2>¿Báscula inteligente o báscula normal con una app?</h2>
+<p>No hace falta una báscula inteligente para seguir tu alimentación: cualquier báscula que mida al gramo sirve, y puedes introducir el peso a mano en una app de nutrición. La versión conectada aporta sobre todo comodidad. El peso llega directamente a la app, sin copiarlo ni cometer errores al teclear, y cada ingrediente de una comida se suma al total en segundos.</p>
+<p>Esa comodidad importa si pesas varias veces al día, por ejemplo para seguir tus macros o preparar las comidas de toda la semana. Si pesas sobre todo para repostería o de vez en cuando, una buena báscula normal como la Beurer KS 34 XL cumple perfectamente y no depende de ningún servicio en línea.</p>
+<p>Antes de comprar, comprueba también la compatibilidad con tu móvil: las apps VeSync, Renpho Health y Acaia existen para iOS y Android, pero las funciones de sincronización (Apple Salud, Fitbit) varían según la plataforma.</p>
+
+<h2>Errores a evitar</h2>
 <ul>
-<li><strong>Para seguimiento nutricional y conteo de calorias:</strong> Etekcity Nutrition (9,3/10, ~30 EUR). Mejor relacion calidad-precio, base de datos mas completa.</li>
-<li><strong>Para presupuesto ajustado con carga USB-C:</strong> Renpho Smart (8,7/10, ~25 EUR). Misma precision que Etekcity, recargable, modo cafe.</li>
-<li><strong>Para cocinar con recetas guiadas (iOS):</strong> Drop Scale (8,5/10, ~75 EUR). Concepto unico de recetas interactivas paso a paso.</li>
-<li><strong>Para todo (nutricion + recetas + WiFi):</strong> Yummly Smart Scale (9,0/10, ~50 EUR). La mas completa, conectada y premium.</li>
-</ul>`,
-
-    it: `<h2>Perche una bilancia da cucina smart nel 2026?</h2>
-<p>La bilancia da cucina smart ha rivoluzionato il modo in cui cuciniamo e monitoriamo la nostra alimentazione. Nel 2026, questi dispositivi non si limitano a pesare: calcolano automaticamente le <strong>calorie, i macronutrienti (proteine, carboidrati, grassi) e i micronutrienti</strong> di ogni ingrediente che ci si posa sopra. Per sportivi, persone in fase di riequilibrio alimentare o semplicemente cuochi esigenti, sono diventati uno strumento indispensabile.</p>
-<p>Questo confronto analizza le <strong>4 migliori bilance da cucina smart sul mercato</strong> nel 2026. Abbiamo testato ogni modello su precisione, database alimentare, qualita dell'app, integrazione ricette e rapporto qualita-prezzo. Per una panoramica completa della cucina connessa, consulta la nostra <a href="/it/blog/guide-cuisine-connectee-2026">guida completa cucina connessa 2026</a>.</p>
-
-<h2>Criteri essenziali di una buona bilancia connessa</h2>
-<ul>
-<li><strong>Precisione:</strong> una bilancia da cucina deve essere precisa almeno a 1 g, idealmente a 0,1 g per spezie, lievito e ingredienti di pasticceria. Tutti i 4 modelli testati offrono una precisione da 0,1 g a 1 g a seconda del range di peso.</li>
-<li><strong>Database alimentare:</strong> e il fattore chiave. Piu ricco e il database, piu affidabile e il monitoraggio nutrizionale. I migliori database contengono 500.000+ alimenti con dati nutrizionali completi.</li>
-<li><strong>App:</strong> l'interfaccia deve essere fluida, la sincronizzazione rapida e le funzionalita pertinenti (storico, obiettivi, esportazione dati, integrazione salute).</li>
-<li><strong>Integrazione ricette:</strong> la capacita di guidarti passo dopo passo in una ricetta, pesando ogni ingrediente, e un vero plus.</li>
-<li><strong>Connettivita:</strong> Bluetooth per la maggior parte, WiFi per alcuni modelli premium.</li>
+<li><strong>Creer que la báscula identifica los alimentos</strong>: ninguno de estos modelos lo hace. Debes elegir el alimento en la app.</li>
+<li><strong>Comprar una báscula cuya app ha desaparecido</strong>: la Yummly Smart Scale y la báscula Drop, habituales en comparativas antiguas, ya no se venden, y la app Yummly cerró a finales de 2024. En el mercado de segunda mano, comprueba siempre que la app siga funcionando.</li>
+<li><strong>Pagar por la décima de gramo sin necesitarla</strong>: para cocinar y contar calorías, basta con 1 g.</li>
+<li><strong>Olvidar la tara</strong>: coloca el recipiente, pon a cero y añade el alimento. Si no, el peso del bol distorsiona los datos nutricionales.</li>
+<li><strong>Pesar sobre una superficie inestable</strong>: una encimera plana y rígida es imprescindible para una medida fiable.</li>
 </ul>
 
-<h2>Tabella comparativa: le 4 migliori bilance da cucina smart 2026</h2>
+<h2>Uso y mantenimiento</h2>
+<p>Coloca la báscula sobre una superficie plana, lejos de la placa de cocción. Limpia la plataforma con un paño húmedo, sin sumergir la báscula ni meterla en el lavavajillas, y evita que entre agua cerca de la pantalla o del compartimento de las pilas. Retira las pilas si no vas a usarla durante varios meses.</p>
+<p>Los valores nutricionales mostrados son estimaciones procedentes de bases de datos. Son una buena referencia, pero una báscula de cocina no es un producto sanitario: si sigues una dieta prescrita (diabetes, enfermedad renal, alergias), sigue las indicaciones de tu médico o de un dietista-nutricionista.</p>
+
+<h2>Nuestro veredicto</h2>
+<p>Para la mayoría de las cocinas, la <strong>Etekcity Smart Nutrition Scale</strong> es la mejor opción: robusta, sencilla y respaldada por una app completa y bien mantenida. La <strong>báscula inteligente de Renpho</strong> es la más asequible, sobre todo si ya usas una báscula corporal de la marca. Si no necesitas app pero pesas a menudo grandes cantidades, la <strong>Beurer KS 34 XL</strong> es la más práctica. Y para el café, la <strong>Acaia Pearl</strong> sigue siendo la referencia.</p>`,
+
+    it: `<p><strong>La migliore bilancia da cucina smart nel 2026 per la maggior parte delle famiglie è la Etekcity Smart Nutrition Scale</strong>: pesa fino a 5 kg con precisione di 1 g e la sua app VeSync calcola fino a 19 nutrienti per ogni alimento pesato. La bilancia smart di Renpho è l’alternativa entry level, la Beurer KS 34 XL è adatta a chi pesa grandi quantità senza app, e la Acaia Pearl è pensata per gli appassionati di caffè che vogliono il decimo di grammo.</p>
+<p>Questo confronto si basa sulle schede tecniche dei produttori, su recensioni indipendenti e sui pareri di acquirenti verificati, e include solo modelli venduti in Europa nel 2026. Trovi l’intera selezione nella nostra pagina dedicata alle <a href="/it/cuisine-connectee/balances">bilance da cucina smart</a>.</p>
+
+<h2>Cosa fa (e cosa non fa) una bilancia smart</h2>
+<p>Una bilancia smart resta prima di tutto una bilancia: mostra il peso sul proprio display, con o senza smartphone. La differenza sta nell’app. Una volta collegata via Bluetooth, indichi l’alimento che stai pesando e l’app moltiplica il peso misurato per i valori nutrizionali del suo database: calorie, proteine, carboidrati, grassi e talvolta fibre, sodio o vitamine.</p>
+<p>Un punto essenziale: la bilancia <strong>non riconosce</strong> ciò che ci appoggi sopra. Sei tu a scegliere l’alimento nell’app. La qualità del monitoraggio dipende quindi dal database, dalla facilità di ricerca e dalla tua costanza.</p>
+
+<h2>Come scegliere</h2>
+<ul>
+<li><strong>Risoluzione</strong>: la maggior parte delle bilance da cucina misura al grammo, quanto basta per cucinare e contare le calorie. Il decimo di grammo (0,1 g) serve solo per il caffè specialty, le spezie o quantità minime di lievito.</li>
+<li><strong>Portata</strong>: 5 kg coprono quasi tutti gli usi. Una portata di 15 kg è utile per pentoloni, grandi impasti di pane o marmellate.</li>
+<li><strong>App e database alimentare</strong>: controlla quanti nutrienti vengono monitorati, se ci sono uno storico e una modalità pasto e se l’app si sincronizza con Apple Salute o altri servizi.</li>
+<li><strong>Longevità dell’app</strong>: una bilancia smart dipende da un servizio online. Preferisci un marchio che aggiorna la propria app da anni.</li>
+<li><strong>Alimentazione</strong>: pile AAA (facili da sostituire) o batteria ricaricabile via USB-C.</li>
+<li><strong>Piatto</strong>: acciaio inox e vetro si puliscono facilmente; verifica che il piatto sia abbastanza ampio per le tue ciotole.</li>
+</ul>
+
+<h2>Le 4 bilance da considerare nel 2026</h2>
+
+<h3>1. Etekcity Smart Nutrition Scale: la migliore scelta complessiva</h3>
+<p>La Etekcity ESN00 è la bilancia nutrizionale più completa di questa selezione. Pesa fino a 5 kg con incrementi di 1 g (o 1 ml per i liquidi) su un piatto in <strong>acciaio inox 304</strong> da 23,5 × 16 cm, facile da pulire. Funziona con 3 pile AAA.</p>
+<p>Il suo punto di forza è l’app gratuita <strong>VeSync</strong>: monitora fino a <strong>19 nutrienti</strong>, genera report giornalieri, settimanali e mensili e può sincronizzare i dati con Apple Salute e Fitbit. La retroilluminazione del display si regola dall’app. Gli acquirenti apprezzano soprattutto la stabilità della connessione e la chiarezza dei report.</p>
+<p><strong>Limiti</strong>: la risoluzione di 1 g non è adatta a pesate molto fini, la connessione è solo Bluetooth e il monitoraggio nutrizionale richiede di registrare ogni alimento nell’app.</p>
+<p><strong>Per chi</strong>: chi vuole seguire calorie o macronutrienti ogni giorno, preparare i pasti in anticipo o semplicemente capire meglio cosa mangia.</p>
+
+<h3>2. Bilancia da cucina smart Renpho: l’alternativa più accessibile</h3>
+<p>Renpho, nota per le sue bilance pesapersone smart, propone anche una bilancia per alimenti Bluetooth che pesa fino a 5 kg al grammo. Funziona con l’app <strong>Renpho Health</strong>, la stessa delle bilance pesapersone del marchio, con un database alimentare basato sui dati USDA, un lettore di codici a barre per i prodotti confezionati e la sincronizzazione con Apple Salute. Offre anche una funzione di pesata per il caffè.</p>
+<p><strong>Limiti</strong>: il database, di origine statunitense, contiene meno alimenti generici europei, e l’app richiede la creazione di un account. Alcuni acquirenti la trovano più lenta di quella Etekcity.</p>
+<p><strong>Per chi</strong>: budget ridotti e chi possiede già una bilancia pesapersone Renpho e vuole riunire peso corporeo e alimentazione in un’unica app.</p>
+
+<h3>3. Beurer KS 34 XL: grande portata, senza app</h3>
+<p>La Beurer KS 34 XL non è connessa, ma risponde a un’esigenza che le bilance nutrizionali coprono male: pesare carichi importanti. Arriva fino a <strong>15 kg</strong> con incrementi di 1 g su un ampio piatto in vetro da 20 × 26,3 cm. Il display «Magic» compare solo durante la pesata, una funzione <em>hold</em> blocca il valore quando una ciotola grande copre lo schermo e la tara si comanda con tasti a sfioramento. Funziona con 4 pile AAA incluse.</p>
+<p><strong>Limiti</strong>: nessuna app né monitoraggio nutrizionale, e una risoluzione di 1 g poco adatta alle quantità molto piccole.</p>
+<p><strong>Per chi</strong>: famiglie, appassionati di pane fatto in casa, conserve o batch cooking in grandi quantità, e chi preferisce annotare i pasti nell’app che preferisce.</p>
+
+<h3>4. Acaia Pearl: il riferimento connesso per il caffè</h3>
+<p>La Acaia Pearl punta su un uso preciso: il caffè specialty. Pesa fino a 2 kg con una risoluzione di <strong>0,1 g</strong>, integra un timer e si collega via Bluetooth alle app Acaia, che registrano peso, tempo e flusso di estrazione per ripetere una ricetta. La batteria si ricarica via USB-C.</p>
+<p><strong>Limiti</strong>: portata limitata a 2 kg, nessun monitoraggio nutrizionale e un posizionamento di fascia alta.</p>
+<p><strong>Per chi</strong>: gli appassionati di espresso e caffè filtro che vogliono rapporti esatti e uno storico delle estrazioni. Per approfondire, leggi la nostra <a href="/it/blog/cafetiere-connectee-guide">guida alle macchine da caffè smart</a>.</p>
+
+<h2>Tabella comparativa</h2>
 <table>
 <thead>
-<tr><th>Criterio</th><th>Etekcity Nutrition</th><th>Renpho Smart</th><th>Drop Scale</th><th>Yummly Smart Scale</th></tr>
+<tr><th>Modello</th><th>Portata e risoluzione</th><th>Connessione e app</th><th>Alimentazione</th><th>Ideale per</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Precisione</strong></td><td>0,1 g (0-5 kg)</td><td>0,1 g (0-5 kg)</td><td>1 g (0-3 kg)</td><td>0,1 g (0-5 kg)</td></tr>
-<tr><td><strong>Capacita max</strong></td><td>5 kg</td><td>5 kg</td><td>3 kg</td><td>5 kg</td></tr>
-<tr><td><strong>Database alimentare</strong></td><td>900.000+ alimenti</td><td>600.000+ alimenti</td><td>Nessun database (ricette)</td><td>500.000+ alimenti</td></tr>
-<tr><td><strong>Connettivita</strong></td><td>Bluetooth 5.0</td><td>Bluetooth 5.0</td><td>Bluetooth 4.2</td><td>Bluetooth 5.0 + WiFi</td></tr>
-<tr><td><strong>App</strong></td><td>VeSync (iOS/Android)</td><td>Renpho Health (iOS/Android)</td><td>Drop Recipes (solo iOS)</td><td>Yummly (iOS/Android)</td></tr>
-<tr><td><strong>Tracciamento nutrizionale</strong></td><td>Calorie, proteine, carboidrati, grassi, fibre, sodio</td><td>Calorie, proteine, carboidrati, grassi</td><td>No (ricette guidate)</td><td>Calorie, macro, 14 micronutrienti</td></tr>
-<tr><td><strong>Ricette guidate</strong></td><td>No</td><td>No</td><td>Si (1.600+ ricette)</td><td>Si (2 milioni+)</td></tr>
-<tr><td><strong>Integrazione salute</strong></td><td>Apple Health, Google Fit, Fitbit</td><td>Apple Health, Google Fit</td><td>Apple Health</td><td>Apple Health, Google Fit, Samsung Health</td></tr>
-<tr><td><strong>Alimentazione</strong></td><td>3 pile AAA (12 mesi)</td><td>USB-C ricaricabile (6 mesi)</td><td>Pila CR2032 (12 mesi)</td><td>USB-C ricaricabile (4 mesi)</td></tr>
-<tr><td><strong>Materiale</strong></td><td>Vetro temperato + acciaio inox</td><td>Vetro temperato</td><td>Silicone antiscivolo</td><td>Acciaio inossidabile spazzolato</td></tr>
-<tr><td><strong>Prezzo</strong></td><td>~30-35 EUR</td><td>~25-30 EUR</td><td>~70-80 EUR</td><td>~45-55 EUR</td></tr>
-<tr><td><strong>Voto /10</strong></td><td>9,3</td><td>8,7</td><td>8,5</td><td>9,0</td></tr>
+<tr><td>Etekcity ESN00</td><td>5 kg, 1 g</td><td>Bluetooth, VeSync (19 nutrienti)</td><td>3 pile AAA</td><td>Monitoraggio nutrizionale quotidiano</td></tr>
+<tr><td>Renpho (bilancia per alimenti)</td><td>5 kg, 1 g</td><td>Bluetooth, Renpho Health</td><td>Secondo la versione</td><td>Budget ridotto, ecosistema Renpho</td></tr>
+<tr><td>Beurer KS 34 XL</td><td>15 kg, 1 g</td><td>Nessuna</td><td>4 pile AAA</td><td>Grandi quantità</td></tr>
+<tr><td>Acaia Pearl</td><td>2 kg, 0,1 g</td><td>Bluetooth, app Acaia</td><td>Batteria USB-C</td><td>Caffè specialty</td></tr>
 </tbody>
 </table>
 
-<h2>Etekcity Nutrition: la migliore bilancia smart rapporto qualita-prezzo</h2>
-<h3>Punti di forza</h3>
-<p>La Etekcity Nutrition Smart Scale domina questo confronto per il suo <strong>rapporto qualita-prezzo imbattibile</strong>. Per 30-35 EUR, ottieni una precisione di 0,1 g, un database alimentare di 900.000+ alimenti (il piu completo sul mercato) e un'app VeSync fluida e ben progettata. E la bilancia che raccomandiamo al 90% degli utenti.</p>
-<p>Il <strong>database nutrizionale</strong> e eccezionale: ogni alimento include calorie, proteine, carboidrati, grassi, fibre e sodio. Lo scanner di codici a barre funziona perfettamente: appoggia un prodotto sulla bilancia, scansiona il codice con il telefono, e l'app mostra istantaneamente i valori nutrizionali per il peso esatto. La <strong>modalita pasto</strong> e un vero asset: pesa successivamente ogni ingrediente del tuo piatto (tara tra ogni ingrediente), e l'app calcola il totale nutrizionale del pasto completo. Ideale per meal prep e monitoraggio dieta.</p>
-
-<h3>Punti deboli</h3>
-<p>Nessuna ricetta guidata integrata. Bluetooth 5.0 affidabile ma senza WiFi bisogna aprire l'app a ogni pesata. Design funzionale ma non premium come la Yummly. Display LED piccolo e poco leggibile in piena luce.</p>
-
-<h3>Il nostro verdetto</h3>
-<p><strong>Voto: 9,3/10</strong> — La migliore scelta per il tracciamento nutrizionale quotidiano. Il database di 900.000 alimenti, lo scanner di codici a barre e la modalita pasto la rendono lo strumento ideale per il conteggio calorie e il monitoraggio macro.</p>
-
-<h2>Renpho Smart: l'alternativa ricaricabile accessibile</h2>
-<h3>Punti di forza</h3>
-<p>La Renpho Smart Kitchen Scale conquista per il suo <strong>design elegante e la ricarica USB-C</strong>. Basta pile: una carica completa dura circa 6 mesi di uso quotidiano. La precisione di 0,1 g e identica all'Etekcity, e il database di 600.000+ alimenti copre ampiamente le esigenze quotidiane. La <strong>modalita caffe</strong> e una funzionalita unica: include un timer e misura il rapporto acqua/caffe per gli amanti del caffe filtro e del pour-over.</p>
-
-<h3>Punti deboli</h3>
-<p>Database alimentare di 600.000 alimenti: buono ma meno completo dell'Etekcity. Tracciamento nutrizionale limitato a 4 macro senza fibre ne sodio. App a volte lenta all'avvio. Nessuna integrazione Fitbit.</p>
-
-<h3>Il nostro verdetto</h3>
-<p><strong>Voto: 8,7/10</strong> — La migliore scelta per chi vuole una bilancia ricaricabile a piccolo prezzo. La modalita caffe e un bonus apprezzabile.</p>
-
-<h2>Drop Scale: la migliore per cucinare con ricette guidate</h2>
-<h3>Punti di forza</h3>
-<p>La Drop Scale e <strong>fondamentalmente diversa</strong>. Non e uno strumento di tracciamento nutrizionale: e un <strong>assistente di cucina interattivo</strong>. L'app Drop Recipes contiene piu di 1.600 ricette che ti guidano passo dopo passo, ingrediente per ingrediente. La funzione <strong>Scale & Adapt</strong> e unica: cambia il numero di porzioni e tutti gli ingredienti vengono ricalcolati automaticamente.</p>
-
-<h3>Punti deboli</h3>
-<p>Nessun tracciamento nutrizionale. Precisione di solo 1 g. Capacita massima di 3 kg limitata. App disponibile solo su iOS. Prezzo di 70-80 EUR elevato per una bilancia senza funzione nutrizionale.</p>
-
-<h3>Il nostro verdetto</h3>
-<p><strong>Voto: 8,5/10</strong> — La migliore bilancia per pasticcieri e cuochi che vogliono essere guidati. Le ricette interattive passo dopo passo sono un concetto geniale.</p>
-
-<h2>Yummly Smart Scale: la piu completa (nutrizione + ricette)</h2>
-<h3>Punti di forza</h3>
-<p>La Yummly Smart Scale e l'unica bilancia di questo confronto che combina <strong>tracciamento nutrizionale completo E ricette guidate</strong>. Con il suo database di oltre 2 milioni di ricette dalla piattaforma Yummly (di proprieta Whirlpool), e un ecosistema culinario completo. Il tracciamento nutrizionale include 14 micronutrienti oltre a calorie e macro. La connettivita <strong>Bluetooth 5.0 + WiFi</strong> e unica: sincronizzazione automatica senza aprire l'app.</p>
-
-<h3>Punti deboli</h3>
-<p>Prezzo piu elevato del segmento (45-55 EUR). Autonomia di 4 mesi la piu breve. Database alimentare di 500.000 alimenti inferiore all'Etekcity. App Yummly puo sembrare sovraccarica per uso semplice.</p>
-
-<h3>Il nostro verdetto</h3>
-<p><strong>Voto: 9,0/10</strong> — La bilancia piu completa sul mercato. Ideale per chi vuole uno strumento all-in-one.</p>
-
-<h2>Caso d'uso: quale bilancia per contare le calorie?</h2>
-<p>Il conteggio calorie e il principale motivo di acquisto di una bilancia smart. Ecco come si comportano i modelli nel tracciamento nutrizionale quotidiano:</p>
+<h2>Quale bilancia per quale uso?</h2>
 <ul>
-<li><strong>Colazione tipica:</strong> appoggi la ciotola di granola sulla bilancia. Con l'Etekcity, scansioni il codice a barre — l'app calcola 380 kcal per 80 g. Aggiungi il latte (tara, versi, scansioni): 95 kcal per 200 ml. Totale colazione: 475 kcal in 30 secondi.</li>
-<li><strong>Meal prep della domenica:</strong> prepari 5 pasti per la settimana. L'Etekcity e la Renpho calcolano i totali nutrizionali per porzione. La Yummly puo inoltre suggerire ricette equilibrate in base ai tuoi obiettivi calorici.</li>
-<li><strong>Monitoraggio a lungo termine:</strong> l'integrazione con Apple Health/Google Fit permette di visualizzare l'assunzione calorica giornaliera, settimanale e mensile.</li>
+<li><strong>Contare le calorie o seguire i macro</strong>: la Etekcity ESN00, per il monitoraggio dettagliato e i report. La Renpho fa l’essenziale spendendo meno.</li>
+<li><strong>Pasticceria</strong>: una bilancia al grammo basta per farina, zucchero o burro. Per piccole quantità di lievito o sale, pesa una dose maggiore di impasto o usa una bilancia da 0,1 g.</li>
+<li><strong>Caffè</strong>: la Acaia Pearl, per la risoluzione di 0,1 g e il timer.</li>
+<li><strong>Grandi preparazioni</strong>: la Beurer KS 34 XL con i suoi 15 kg.</li>
 </ul>
-<p><strong>La nostra raccomandazione per il conteggio calorie:</strong> l'Etekcity Nutrition a 30 EUR. Il database piu completo, lo scanner piu veloce e la modalita pasto piu pratica.</p>
+<p>Per attrezzare il resto della cucina, la nostra <a href="/it/blog/guide-cuisine-connectee-2026">guida alla cucina smart 2026</a> passa in rassegna gli apparecchi davvero utili.</p>
 
-<h2>Il nostro verdetto finale: quale bilancia da cucina smart scegliere?</h2>
+<h2>Bilancia smart o bilancia classica con un’app?</h2>
+<p>Per monitorare l’alimentazione non serve per forza una bilancia smart: va bene qualsiasi bilancia al grammo, inserendo poi il peso a mano in un’app di nutrizione. La versione connessa offre soprattutto comodità. Il peso arriva direttamente nell’app, senza ricopiarlo né sbagliare a digitarlo, e ogni ingrediente di un pasto si somma al totale in pochi secondi.</p>
+<p>Questa comodità conta se pesi più volte al giorno, per esempio per seguire i macro o preparare i pasti di tutta la settimana. Se pesi soprattutto per la pasticceria o solo ogni tanto, una buona bilancia classica come la Beurer KS 34 XL fa benissimo il suo lavoro e non dipende da alcun servizio online.</p>
+<p>Prima dell’acquisto, verifica anche la compatibilità con il tuo telefono: le app VeSync, Renpho Health e Acaia esistono per iOS e Android, ma le funzioni di sincronizzazione (Apple Salute, Fitbit) variano a seconda della piattaforma.</p>
+
+<h2>Errori da evitare</h2>
 <ul>
-<li><strong>Per tracciamento nutrizionale e conteggio calorie:</strong> Etekcity Nutrition (9,3/10, ~30 EUR). Miglior rapporto qualita-prezzo, database piu completo.</li>
-<li><strong>Per budget ridotto con ricarica USB-C:</strong> Renpho Smart (8,7/10, ~25 EUR). Stessa precisione dell'Etekcity, ricaricabile, modalita caffe.</li>
-<li><strong>Per cucinare con ricette guidate (iOS):</strong> Drop Scale (8,5/10, ~75 EUR). Concetto unico di ricette interattive passo dopo passo.</li>
-<li><strong>Per tutto (nutrizione + ricette + WiFi):</strong> Yummly Smart Scale (9,0/10, ~50 EUR). La piu completa, connessa e premium.</li>
-</ul>`,
-
-    nl: `<h2>Waarom een slimme keukenweegschaal in 2026?</h2>
-<p>De slimme keukenweegschaal heeft de manier waarop we koken en onze voeding bijhouden gerevolutioneerd. In 2026 doen deze apparaten veel meer dan wegen: ze berekenen automatisch de <strong>calorieen, macronutrienten (eiwitten, koolhydraten, vetten) en micronutrienten</strong> van elk ingredienten dat je erop legt. Voor sporters, mensen die hun voeding willen bijsturen of gewoon veeleisende hobbykok's, zijn ze een onmisbaar hulpmiddel geworden.</p>
-<p>Deze vergelijking analyseert de <strong>4 beste slimme keukenweegschalen op de markt</strong> in 2026. We hebben elk model getest op nauwkeurigheid, voedingsdatabase, app-kwaliteit, receptintegratie en prijs-kwaliteitverhouding. Voor een volledig overzicht van de verbonden keuken, lees onze <a href="/nl/blog/guide-cuisine-connectee-2026">volledige gids verbonden keuken 2026</a>.</p>
-
-<h2>Essentiele criteria van een goede slimme weegschaal</h2>
-<ul>
-<li><strong>Nauwkeurigheid:</strong> een keukenweegschaal moet minimaal nauwkeurig zijn tot 1 g, idealiter tot 0,1 g voor specerijen, bakpoeder en patisserie-ingredienten. Alle 4 geteste modellen bieden een nauwkeurigheid van 0,1 g tot 1 g afhankelijk van het gewichtsbereik.</li>
-<li><strong>Voedingsdatabase:</strong> dit is de bepalende factor. Hoe rijker de database, hoe betrouwbaarder de voedingswaarde-tracking. De beste databases bevatten 500.000+ voedingsmiddelen met volledige voedingsgegevens.</li>
-<li><strong>App:</strong> de interface moet soepel zijn, de synchronisatie snel en de functies relevant (geschiedenis, doelen, data-export, gezondheidsintegratie).</li>
-<li><strong>Receptintegratie:</strong> de mogelijkheid om je stap voor stap door een recept te begeleiden, waarbij elk ingredienten wordt gewogen, is een echt pluspunt.</li>
-<li><strong>Connectiviteit:</strong> Bluetooth voor de meeste, WiFi voor sommige premium modellen.</li>
+<li><strong>Credere che la bilancia riconosca gli alimenti</strong>: nessuno di questi modelli lo fa. Devi scegliere l’alimento nell’app.</li>
+<li><strong>Comprare una bilancia la cui app non esiste più</strong>: la Yummly Smart Scale e la bilancia Drop, spesso citate nei vecchi confronti, non sono più in commercio, e l’app Yummly ha chiuso a fine 2024. Sul mercato dell’usato, verifica sempre che l’app funzioni ancora.</li>
+<li><strong>Pagare il decimo di grammo senza averne bisogno</strong>: per cucinare e contare le calorie basta 1 g.</li>
+<li><strong>Dimenticare la tara</strong>: appoggia il contenitore, azzera e poi aggiungi l’alimento. Altrimenti il peso della ciotola falsa i dati nutrizionali.</li>
+<li><strong>Pesare su una superficie instabile</strong>: un piano di lavoro piatto e rigido è indispensabile per una misura affidabile.</li>
 </ul>
 
-<h2>Vergelijkingstabel: de 4 beste slimme keukenweegschalen 2026</h2>
+<h2>Uso e manutenzione</h2>
+<p>Appoggia la bilancia su una superficie piana, lontano dal piano cottura. Pulisci il piatto con un panno umido, senza immergere la bilancia né metterla in lavastoviglie, ed evita infiltrazioni d’acqua vicino al display o al vano pile. Togli le pile se non la usi per diversi mesi.</p>
+<p>I valori nutrizionali mostrati sono stime provenienti da database. Sono un buon riferimento, ma una bilancia da cucina non è un dispositivo medico: se segui una dieta prescritta (diabete, malattia renale, allergie), attieniti alle indicazioni del tuo medico o di un dietista.</p>
+
+<h2>Il nostro verdetto</h2>
+<p>Per la maggior parte delle cucine, la <strong>Etekcity Smart Nutrition Scale</strong> è la scelta migliore: robusta, semplice e supportata da un’app completa e aggiornata. La <strong>bilancia smart Renpho</strong> è l’opzione più accessibile, soprattutto se usi già una bilancia pesapersone del marchio. Se non ti serve un’app ma pesi spesso grandi quantità, la <strong>Beurer KS 34 XL</strong> è la più pratica. E per il caffè, la <strong>Acaia Pearl</strong> resta il riferimento.</p>`,
+
+    nl: `<p><strong>De beste slimme keukenweegschaal in 2026 voor de meeste huishoudens is de Etekcity Smart Nutrition Scale</strong>: hij weegt tot 5 kg op de gram nauwkeurig en de VeSync-app berekent tot 19 voedingsstoffen voor elk gewogen product. De slimme weegschaal van Renpho is het instapalternatief, de Beurer KS 34 XL past bij wie zware hoeveelheden zonder app weegt, en de Acaia Pearl is bedoeld voor koffieliefhebbers die 0,1 g willen.</p>
+<p>Deze vergelijking is gebaseerd op specificaties van fabrikanten, onafhankelijke reviews en ervaringen van geverifieerde kopers, en bevat alleen modellen die in 2026 in Europa verkocht worden. De volledige selectie vind je op onze pagina <a href="/nl/cuisine-connectee/balances">slimme keukenweegschalen</a>.</p>
+
+<h2>Wat een slimme weegschaal wel (en niet) doet</h2>
+<p>Een slimme weegschaal is in de eerste plaats een weegschaal: hij toont het gewicht op zijn eigen display, met of zonder telefoon. Het verschil zit in de app. Zodra de weegschaal via Bluetooth gekoppeld is, geef je aan wat je weegt en vermenigvuldigt de app het gemeten gewicht met de voedingswaarden uit de database: calorieën, eiwitten, koolhydraten, vetten en soms vezels, natrium of vitamines.</p>
+<p>Belangrijk: de weegschaal <strong>herkent niet</strong> wat je erop legt. Je kiest het product zelf in de app. De kwaliteit van de tracking hangt dus af van de database, het gemak van zoeken en je eigen discipline.</p>
+
+<h2>Waar je op let</h2>
+<ul>
+<li><strong>Resolutie</strong>: de meeste keukenweegschalen wegen op de gram, genoeg om te koken en calorieën te tellen. 0,1 g is alleen nuttig voor specialty koffie, kruiden of heel kleine hoeveelheden gist.</li>
+<li><strong>Draagvermogen</strong>: 5 kg dekt bijna elk gebruik. 15 kg helpt bij grote pannen, veel brooddeeg of jam.</li>
+<li><strong>App en voedingsdatabase</strong>: kijk hoeveel voedingsstoffen worden bijgehouden, of er een geschiedenis en maaltijdmodus is en of de app synchroniseert met Apple Gezondheid of andere diensten.</li>
+<li><strong>Levensduur van de app</strong>: een slimme weegschaal hangt af van een onlinedienst. Kies een merk dat zijn app al jaren onderhoudt.</li>
+<li><strong>Voeding</strong>: AAA-batterijen (makkelijk te vervangen) of een via USB-C oplaadbare accu.</li>
+<li><strong>Weegplateau</strong>: rvs en glas zijn makkelijk schoon te maken; controleer of het plateau groot genoeg is voor je kommen.</li>
+</ul>
+
+<h2>De 4 weegschalen die het overwegen waard zijn in 2026</h2>
+
+<h3>1. Etekcity Smart Nutrition Scale: de beste keuze overall</h3>
+<p>De Etekcity ESN00 is de meest complete voedingsweegschaal in deze selectie. Hij weegt tot 5 kg in stappen van 1 g (of 1 ml voor vloeistoffen) op een plateau van <strong>304 roestvrij staal</strong> van 23,5 × 16 cm dat makkelijk schoon te vegen is. Hij werkt op 3 AAA-batterijen.</p>
+<p>Zijn sterke punt is de gratis <strong>VeSync</strong>-app: die houdt tot <strong>19 voedingsstoffen</strong> bij, maakt dag-, week- en maandoverzichten en kan je gegevens synchroniseren met Apple Gezondheid en Fitbit. De verlichting van het display stel je in via de app. Kopers prijzen vooral de stabiele verbinding en de duidelijke overzichten.</p>
+<p><strong>Beperkingen</strong>: de resolutie van 1 g is niet geschikt voor heel fijn wegen, de verbinding is alleen Bluetooth en voor voedingstracking moet je elk product in de app invoeren.</p>
+<p><strong>Voor wie</strong>: iedereen die dagelijks calorieën of macro’s wil bijhouden, maaltijden vooruit wil plannen of gewoon beter wil weten wat hij eet.</p>
+
+<h3>2. Slimme keukenweegschaal van Renpho: het meest betaalbare alternatief</h3>
+<p>Renpho, bekend van slimme personenweegschalen, maakt ook een Bluetooth-voedingsweegschaal die tot 5 kg op de gram weegt. Hij werkt met de app <strong>Renpho Health</strong>, dezelfde als voor de personenweegschalen van het merk, met een voedingsdatabase op basis van USDA-gegevens, een barcodescanner voor verpakte producten en synchronisatie met Apple Gezondheid. Er is ook een functie om koffie te wegen.</p>
+<p><strong>Beperkingen</strong>: de Amerikaanse database bevat minder algemene Europese producten en de app vraagt om een account. Sommige kopers vinden de app trager dan die van Etekcity.</p>
+<p><strong>Voor wie</strong>: kleine budgetten en mensen die al een Renpho-personenweegschaal hebben en lichaamsgewicht en voeding in één app willen bundelen.</p>
+
+<h3>3. Beurer KS 34 XL: groot draagvermogen, zonder app</h3>
+<p>De Beurer KS 34 XL is niet verbonden, maar vervult een behoefte die voedingsweegschalen slecht dekken: zware hoeveelheden wegen. Hij weegt tot <strong>15 kg</strong> in stappen van 1 g op een groot glazen plateau van 20 × 26,3 cm. Het ‘Magic’-display verschijnt alleen tijdens het wegen, een hold-functie houdt de waarde vast als een grote kom het scherm afdekt, en de tarra bedien je met aanraaktoetsen. Hij werkt op 4 meegeleverde AAA-batterijen.</p>
+<p><strong>Beperkingen</strong>: geen app of voedingstracking, en een resolutie van 1 g die minder geschikt is voor heel kleine hoeveelheden.</p>
+<p><strong>Voor wie</strong>: gezinnen, thuisbakkers, wie inmaakt of in grote hoeveelheden aan batch cooking doet, en wie maaltijden liever zelf in een app naar keuze bijhoudt.</p>
+
+<h3>4. Acaia Pearl: de verbonden referentie voor koffie</h3>
+<p>De Acaia Pearl richt zich op één toepassing: specialty koffie. Hij weegt tot 2 kg met een resolutie van <strong>0,1 g</strong>, heeft een ingebouwde timer en maakt via Bluetooth verbinding met de Acaia-apps, die gewicht, tijd en doorstroomsnelheid vastleggen zodat je een recept kunt herhalen. De accu laad je op via USB-C.</p>
+<p><strong>Beperkingen</strong>: draagvermogen van slechts 2 kg, geen voedingstracking en een positionering in het topsegment.</p>
+<p><strong>Voor wie</strong>: liefhebbers van espresso en filterkoffie die exacte verhoudingen en een geschiedenis van hun zetsels willen. Lees verder in onze <a href="/nl/blog/cafetiere-connectee-guide">gids voor slimme koffiezetapparaten</a>.</p>
+
+<h2>Vergelijkingstabel</h2>
 <table>
 <thead>
-<tr><th>Criterium</th><th>Etekcity Nutrition</th><th>Renpho Smart</th><th>Drop Scale</th><th>Yummly Smart Scale</th></tr>
+<tr><th>Model</th><th>Draagvermogen en resolutie</th><th>Verbinding en app</th><th>Voeding</th><th>Ideaal voor</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Nauwkeurigheid</strong></td><td>0,1 g (0-5 kg)</td><td>0,1 g (0-5 kg)</td><td>1 g (0-3 kg)</td><td>0,1 g (0-5 kg)</td></tr>
-<tr><td><strong>Max. capaciteit</strong></td><td>5 kg</td><td>5 kg</td><td>3 kg</td><td>5 kg</td></tr>
-<tr><td><strong>Voedingsdatabase</strong></td><td>900.000+ voedingsmiddelen</td><td>600.000+ voedingsmiddelen</td><td>Geen database (recepten)</td><td>500.000+ voedingsmiddelen</td></tr>
-<tr><td><strong>Connectiviteit</strong></td><td>Bluetooth 5.0</td><td>Bluetooth 5.0</td><td>Bluetooth 4.2</td><td>Bluetooth 5.0 + WiFi</td></tr>
-<tr><td><strong>App</strong></td><td>VeSync (iOS/Android)</td><td>Renpho Health (iOS/Android)</td><td>Drop Recipes (alleen iOS)</td><td>Yummly (iOS/Android)</td></tr>
-<tr><td><strong>Voedingswaarde-tracking</strong></td><td>Calorieen, eiwitten, koolhydraten, vetten, vezels, natrium</td><td>Calorieen, eiwitten, koolhydraten, vetten</td><td>Nee (begeleide recepten)</td><td>Calorieen, macro's, 14 micronutrienten</td></tr>
-<tr><td><strong>Begeleide recepten</strong></td><td>Nee</td><td>Nee</td><td>Ja (1.600+ recepten)</td><td>Ja (2 miljoen+)</td></tr>
-<tr><td><strong>Gezondheidsintegratie</strong></td><td>Apple Health, Google Fit, Fitbit</td><td>Apple Health, Google Fit</td><td>Apple Health</td><td>Apple Health, Google Fit, Samsung Health</td></tr>
-<tr><td><strong>Voeding</strong></td><td>3x AAA-batterijen (12 maanden)</td><td>USB-C oplaadbaar (6 maanden)</td><td>CR2032-batterij (12 maanden)</td><td>USB-C oplaadbaar (4 maanden)</td></tr>
-<tr><td><strong>Materiaal</strong></td><td>Gehard glas + roestvrij staal</td><td>Gehard glas</td><td>Antislip siliconen</td><td>Geborsteld roestvrij staal</td></tr>
-<tr><td><strong>Prijs</strong></td><td>~30-35 EUR</td><td>~25-30 EUR</td><td>~70-80 EUR</td><td>~45-55 EUR</td></tr>
-<tr><td><strong>Score /10</strong></td><td>9,3</td><td>8,7</td><td>8,5</td><td>9,0</td></tr>
+<tr><td>Etekcity ESN00</td><td>5 kg, 1 g</td><td>Bluetooth, VeSync (19 voedingsstoffen)</td><td>3 AAA-batterijen</td><td>Dagelijkse voedingstracking</td></tr>
+<tr><td>Renpho (voedingsweegschaal)</td><td>5 kg, 1 g</td><td>Bluetooth, Renpho Health</td><td>Afhankelijk van versie</td><td>Klein budget, Renpho-ecosysteem</td></tr>
+<tr><td>Beurer KS 34 XL</td><td>15 kg, 1 g</td><td>Geen</td><td>4 AAA-batterijen</td><td>Grote hoeveelheden</td></tr>
+<tr><td>Acaia Pearl</td><td>2 kg, 0,1 g</td><td>Bluetooth, Acaia-apps</td><td>USB-C-accu</td><td>Specialty koffie</td></tr>
 </tbody>
 </table>
 
-<h2>Etekcity Nutrition: de beste slimme keukenweegschaal qua prijs-kwaliteit</h2>
-<h3>Sterke punten</h3>
-<p>De Etekcity Nutrition Smart Scale domineert deze vergelijking met zijn <strong>onverslaanbare prijs-kwaliteitverhouding</strong>. Voor 30-35 EUR krijg je 0,1 g nauwkeurigheid, een voedingsdatabase van 900.000+ producten (de meest uitgebreide op de markt) en een soepele, goed ontworpen VeSync-app. Dit is de weegschaal die we aan 90% van de gebruikers aanbevelen.</p>
-<p>De <strong>voedingsdatabase</strong> is uitzonderlijk: elk voedingsmiddel bevat calorieen, eiwitten, koolhydraten, vetten, vezels en natrium. De barcodescanner werkt uitstekend — leg een product op de weegschaal, scan de barcode met je telefoon, en de app toont direct de voedingswaarden voor het exacte gewicht. De <strong>maaltijdmodus</strong> is een echt pluspunt: weeg achtereenvolgens elk ingredienten van je bord (tarra tussen elk ingredienten), en de app berekent het totale voedingswaardetotaal van de volledige maaltijd. Ideaal voor meal prep en dieet-tracking.</p>
-
-<h3>Zwakke punten</h3>
-<p>Geen ingebouwde begeleide recepten. Bluetooth 5.0 is betrouwbaar maar zonder WiFi moet je de app openen bij elke weging. Design is functioneel maar niet zo premium als de Yummly. LED-display is klein en moeilijk leesbaar bij fel licht.</p>
-
-<h3>Ons oordeel</h3>
-<p><strong>Score: 9,3/10</strong> — De beste keuze voor dagelijkse voedingswaarde-tracking. De 900.000-database, barcodescanner en maaltijdmodus maken het de ideale tool voor calorietelling en macro-tracking. Voor 30 EUR een belachelijk lage investering voor zo'n nuttig hulpmiddel.</p>
-
-<h2>Renpho Smart: het betaalbare oplaadbare alternatief</h2>
-<h3>Sterke punten</h3>
-<p>De Renpho Smart Kitchen Scale scoort met zijn <strong>strak design en USB-C-oplading</strong>. Geen batterijen meer wisselen: een volle lading gaat ongeveer 6 maanden mee bij dagelijks gebruik. De nauwkeurigheid van 0,1 g is identiek aan de Etekcity, en de database van 600.000+ voedingsmiddelen dekt ruimschoots de dagelijkse behoefte. De <strong>koffiemodus</strong> is een unieke functie: inclusief timer en water-koffie-verhouding meting voor pour-over en filterkoffie liefhebbers.</p>
-
-<h3>Zwakke punten</h3>
-<p>Voedingsdatabase van 600.000 producten: goed maar minder uitgebreid dan de Etekcity. Voedingswaarde-tracking beperkt tot 4 macro's zonder vezels of natrium. App soms traag bij het opstarten. Geen Fitbit-integratie.</p>
-
-<h3>Ons oordeel</h3>
-<p><strong>Score: 8,7/10</strong> — De beste keuze voor gebruikers die een oplaadbare weegschaal voor een kleine prijs willen. De koffiemodus is een welkome bonus.</p>
-
-<h2>Drop Scale: de beste voor koken met begeleide recepten</h2>
-<h3>Sterke punten</h3>
-<p>De Drop Scale is <strong>fundamenteel anders</strong>. Het is geen voedingswaarde-tracking tool: het is een <strong>interactieve kookassistent</strong>. De Drop Recipes app bevat meer dan 1.600 recepten die je stap voor stap begeleiden, ingredienten per ingredienten. De <strong>Scale & Adapt</strong>-functie is uniek: wijzig het aantal porties en alle ingredienten worden automatisch herberekend.</p>
-
-<h3>Zwakke punten</h3>
-<p>Geen voedingswaarde-tracking. Nauwkeurigheid van slechts 1 g. Maximale capaciteit van 3 kg beperkt. App alleen beschikbaar op iOS. Prijs van 70-80 EUR hoog voor een weegschaal zonder voedingswaardefunctie.</p>
-
-<h3>Ons oordeel</h3>
-<p><strong>Score: 8,5/10</strong> — De beste weegschaal voor bakkers en koks die begeleiding willen. De interactieve stap-voor-stap recepten zijn een geniaal concept.</p>
-
-<h2>Yummly Smart Scale: de meest complete (voeding + recepten)</h2>
-<h3>Sterke punten</h3>
-<p>De Yummly Smart Scale is de enige weegschaal in deze vergelijking die <strong>uitgebreide voedingswaarde-tracking EN begeleide recepten</strong> combineert. Met zijn database van meer dan 2 miljoen recepten van het Yummly-platform (eigendom van Whirlpool), is het een compleet culinair ecosysteem. De voedingswaarde-tracking omvat 14 micronutrienten naast calorieen en macro's. De <strong>Bluetooth 5.0 + WiFi</strong>-connectiviteit is uniek: automatische synchronisatie zonder de app te openen.</p>
-
-<h3>Zwakke punten</h3>
-<p>Hoogste prijs in het segment (45-55 EUR). Batterijduur van 4 maanden de kortste. Voedingsdatabase van 500.000 producten inferieur aan de Etekcity. Yummly-app kan overweldigend aanvoelen voor eenvoudig gebruik.</p>
-
-<h3>Ons oordeel</h3>
-<p><strong>Score: 9,0/10</strong> — De meest complete weegschaal op de markt. Ideaal voor wie een alles-in-een tool wil.</p>
-
-<h2>Praktijkvoorbeeld: welke weegschaal voor calorietelling?</h2>
-<p>Calorietelling is de belangrijkste reden om een slimme weegschaal te kopen. Zo presteren de modellen bij dagelijkse voedingswaarde-tracking:</p>
+<h2>Welke weegschaal voor welk gebruik?</h2>
 <ul>
-<li><strong>Typisch ontbijt:</strong> je plaatst je granola-kom op de weegschaal. Met de Etekcity scan je de barcode — de app berekent 380 kcal voor 80 g. Melk toevoegen (tarra, gieten, barcode scannen): 95 kcal voor 200 ml. Totaal ontbijt: 475 kcal in 30 seconden.</li>
-<li><strong>Zondag meal prep:</strong> je bereidt 5 maaltijden voor de week. De Etekcity en Renpho berekenen voedingswaardetotalen per portie. De Yummly kan bovendien uitgebalanceerde recepten suggereren op basis van je caloriedoelen.</li>
-<li><strong>Tracking op lange termijn:</strong> integratie met Apple Health/Google Fit maakt het mogelijk je dagelijkse, wekelijkse en maandelijkse calorie-inname te visualiseren.</li>
+<li><strong>Calorieën tellen of macro’s bijhouden</strong>: de Etekcity ESN00, vanwege de gedetailleerde tracking en overzichten. De Renpho doet het essentiële voor minder.</li>
+<li><strong>Bakken</strong>: een weegschaal op de gram volstaat voor bloem, suiker of boter. Voor kleine hoeveelheden gist of zout weeg je een grotere hoeveelheid deeg af of gebruik je een weegschaal van 0,1 g.</li>
+<li><strong>Koffie</strong>: de Acaia Pearl, dankzij de resolutie van 0,1 g en de timer.</li>
+<li><strong>Grote bereidingen</strong>: de Beurer KS 34 XL met zijn 15 kg.</li>
 </ul>
-<p><strong>Onze aanbeveling voor calorietelling:</strong> de Etekcity Nutrition voor 30 EUR. De meest uitgebreide database, de snelste barcodescanner en de meest praktische maaltijdmodus.</p>
+<p>Voor de rest van de keuken helpt onze <a href="/nl/blog/guide-cuisine-connectee-2026">gids voor de slimme keuken 2026</a> je verder.</p>
 
-<h2>Ons eindoordeel: welke slimme keukenweegschaal kiezen?</h2>
+<h2>Slimme weegschaal of gewone weegschaal met een app?</h2>
+<p>Je hebt geen slimme weegschaal nodig om je voeding bij te houden: elke weegschaal die op de gram weegt volstaat, en het gewicht kun je zelf in een voedingsapp invoeren. De verbonden versie draait vooral om gemak. Het gewicht komt direct in de app terecht, zonder overtypen of tikfouten, en elk ingrediënt van een maaltijd telt in enkele seconden mee in het totaal.</p>
+<p>Dat gemak telt als je meerdere keren per dag weegt, bijvoorbeeld om macro’s bij te houden of maaltijden voor een hele week voor te bereiden. Weeg je vooral voor bakwerk of maar af en toe, dan doet een goede gewone weegschaal zoals de Beurer KS 34 XL het prima en hangt hij van geen enkele onlinedienst af.</p>
+<p>Controleer voor aankoop ook de compatibiliteit met je telefoon: de apps VeSync, Renpho Health en Acaia bestaan voor iOS en Android, maar de synchronisatiefuncties (Apple Gezondheid, Fitbit) verschillen per platform.</p>
+
+<h2>Fouten om te vermijden</h2>
 <ul>
-<li><strong>Voor voedingswaarde-tracking en calorietelling:</strong> Etekcity Nutrition (9,3/10, ~30 EUR). Beste prijs-kwaliteit, meest uitgebreide database.</li>
-<li><strong>Voor een krap budget met USB-C-oplading:</strong> Renpho Smart (8,7/10, ~25 EUR). Zelfde nauwkeurigheid als Etekcity, oplaadbaar, koffiemodus.</li>
-<li><strong>Voor koken met begeleide recepten (iOS):</strong> Drop Scale (8,5/10, ~75 EUR). Uniek concept van interactieve stap-voor-stap recepten.</li>
-<li><strong>Voor alles (voeding + recepten + WiFi):</strong> Yummly Smart Scale (9,0/10, ~50 EUR). De meest complete, verbonden en premium keuze.</li>
-</ul>`,
+<li><strong>Denken dat de weegschaal producten herkent</strong>: geen van deze modellen doet dat. Je kiest het product zelf in de app.</li>
+<li><strong>Een weegschaal kopen waarvan de app verdwenen is</strong>: de Yummly Smart Scale en de Drop-weegschaal, vaak genoemd in oudere vergelijkingen, worden niet meer verkocht, en de Yummly-app is eind 2024 gestopt. Controleer bij tweedehands aankopen altijd of de app nog werkt.</li>
+<li><strong>Betalen voor 0,1 g zonder het nodig te hebben</strong>: om te koken en calorieën te tellen is 1 g genoeg.</li>
+<li><strong>De tarra vergeten</strong>: zet de kom neer, zet op nul en voeg dan het product toe. Anders vertekent het gewicht van de kom de voedingswaarden.</li>
+<li><strong>Wegen op een onstabiele ondergrond</strong>: een vlak, stevig aanrecht is onmisbaar voor een betrouwbare meting.</li>
+</ul>
+
+<h2>Gebruik en onderhoud</h2>
+<p>Zet de weegschaal op een vlakke ondergrond, uit de buurt van de kookplaat. Maak het plateau schoon met een vochtige doek, dompel de weegschaal nooit onder en zet hem niet in de vaatwasser; houd water weg van het display en het batterijvak. Haal de batterijen eruit als je de weegschaal maandenlang niet gebruikt.</p>
+<p>De getoonde voedingswaarden zijn schattingen uit databases. Ze geven een goede indicatie, maar een keukenweegschaal is geen medisch hulpmiddel: volg bij een voorgeschreven dieet (diabetes, nierziekte, allergie) het advies van je arts of een diëtist.</p>
+
+<h2>Ons oordeel</h2>
+<p>Voor de meeste keukens is de <strong>Etekcity Smart Nutrition Scale</strong> de beste keuze: stevig, eenvoudig en ondersteund door een complete, goed onderhouden app. De <strong>slimme weegschaal van Renpho</strong> is de meest betaalbare optie, zeker als je al een personenweegschaal van het merk gebruikt. Heb je geen app nodig maar weeg je vaak grote hoeveelheden, dan is de <strong>Beurer KS 34 XL</strong> het handigst. En voor koffie blijft de <strong>Acaia Pearl</strong> de referentie.</p>`,
   },
   faq: [
     {
@@ -645,89 +542,107 @@ export const article: BlogArticle = {
         fr: 'Une balance de cuisine connectée fonctionne-t-elle sans smartphone ?',
         en: 'Does a smart kitchen scale work without a smartphone?',
         de: 'Funktioniert eine smarte Küchenwaage ohne Smartphone?',
-        es: 'Funciona una bascula de cocina inteligente sin smartphone?',
+        es: '¿Funciona una báscula de cocina inteligente sin móvil?',
         it: 'Una bilancia da cucina smart funziona senza smartphone?',
         nl: 'Werkt een slimme keukenweegschaal zonder smartphone?',
       },
       answer: {
-        fr: 'Oui, toutes les balances de ce comparatif fonctionnent comme des balances classiques sans smartphone : elles affichent le poids sur leur écran intégré. Le smartphone est nécessaire uniquement pour le suivi nutritionnel, le scan de code-barres, les recettes guidées et la synchronisation des données. Si votre téléphone n\'est pas à portée, vous pouvez toujours peser vos ingrédients normalement.',
-        en: 'Yes, all scales in this comparison work as standard scales without a smartphone: they display weight on their built-in screen. The smartphone is only needed for nutritional tracking, barcode scanning, guided recipes and data synchronisation. If your phone is not nearby, you can still weigh your ingredients normally.',
-        de: 'Ja, alle Waagen in diesem Vergleich funktionieren als normale Waagen ohne Smartphone: Sie zeigen das Gewicht auf ihrem integrierten Display an. Das Smartphone wird nur für Nährwert-Tracking, Barcode-Scanning, geführte Rezepte und Datensynchronisation benötigt. Ohne Telefon können Sie Ihre Zutaten ganz normal wiegen.',
-        es: 'Si, todas las basculas de esta comparativa funcionan como basculas clasicas sin smartphone: muestran el peso en su pantalla integrada. El smartphone solo es necesario para el seguimiento nutricional, escaneo de codigos de barras, recetas guiadas y sincronizacion de datos. Si tu telefono no esta cerca, puedes pesar tus ingredientes con normalidad.',
-        it: 'Si, tutte le bilance di questo confronto funzionano come bilance classiche senza smartphone: mostrano il peso sul loro schermo integrato. Lo smartphone e necessario solo per il tracciamento nutrizionale, la scansione dei codici a barre, le ricette guidate e la sincronizzazione dei dati.',
-        nl: 'Ja, alle weegschalen in deze vergelijking werken als standaard weegschalen zonder smartphone: ze tonen het gewicht op hun ingebouwd scherm. De smartphone is alleen nodig voor voedingswaarde-tracking, barcode scannen, begeleide recepten en datasynchronisatie.',
+        fr: 'Oui. Elle affiche le poids sur son propre écran comme une balance classique. Le smartphone ne sert qu’au suivi nutritionnel, à l’historique et à la synchronisation des données.',
+        en: 'Yes. It shows the weight on its own display like a regular scale. The phone is only needed for nutrition tracking, history and data sync.',
+        de: 'Ja. Sie zeigt das Gewicht wie eine normale Waage auf ihrem eigenen Display an. Das Smartphone braucht es nur für Nährwert-Tracking, Verlauf und Datensynchronisation.',
+        es: 'Sí. Muestra el peso en su propia pantalla como una báscula normal. El móvil solo es necesario para el seguimiento nutricional, el historial y la sincronización de datos.',
+        it: 'Sì. Mostra il peso sul proprio display come una bilancia normale. Lo smartphone serve solo per il monitoraggio nutrizionale, lo storico e la sincronizzazione dei dati.',
+        nl: 'Ja. Hij toont het gewicht op zijn eigen display, net als een gewone weegschaal. De telefoon is alleen nodig voor voedingstracking, geschiedenis en synchronisatie.',
       },
     },
     {
       question: {
-        fr: 'Quelle précision faut-il pour la pâtisserie ?',
-        en: 'What accuracy do I need for baking?',
-        de: 'Welche Genauigkeit brauche ich zum Backen?',
-        es: 'Que precision necesito para reposteria?',
-        it: 'Quale precisione serve per la pasticceria?',
-        nl: 'Welke nauwkeurigheid heb ik nodig voor bakken?',
+        fr: 'La balance reconnaît-elle automatiquement les aliments ?',
+        en: 'Does the scale recognise foods automatically?',
+        de: 'Erkennt die Waage Lebensmittel automatisch?',
+        es: '¿La báscula reconoce los alimentos automáticamente?',
+        it: 'La bilancia riconosce automaticamente gli alimenti?',
+        nl: 'Herkent de weegschaal producten automatisch?',
       },
       answer: {
-        fr: 'Pour la pâtisserie, une précision de 0,1 g est fortement recommandée. La levure chimique (5 g), le sel (3 g), les épices et les arômes sont des ingrédients critiques où 1 g de trop peut changer le résultat. L\'Etekcity Nutrition, la Renpho Smart et la Yummly Smart Scale offrent toutes 0,1 g de précision. La Drop Scale (1 g seulement) est paradoxalement moins précise malgré son orientation pâtisserie — compensée par ses recettes guidées qui indiquent les quantités exactes à atteindre.',
-        en: 'For baking, 0.1 g accuracy is strongly recommended. Baking powder (5 g), salt (3 g), spices and flavourings are critical ingredients where 1 g too many can change the result. The Etekcity Nutrition, Renpho Smart and Yummly Smart Scale all offer 0.1 g accuracy. The Drop Scale (1 g only) is paradoxically less accurate despite its baking focus — compensated by its guided recipes that show exact quantities to reach.',
-        de: 'Zum Backen wird eine Genauigkeit von 0,1 g dringend empfohlen. Backpulver (5 g), Salz (3 g), Gewürze und Aromen sind kritische Zutaten, bei denen 1 g zu viel das Ergebnis verändern kann. Etekcity, Renpho und Yummly bieten alle 0,1 g Genauigkeit. Die Drop Scale (nur 1 g) ist paradoxerweise weniger genau trotz ihres Backfokus.',
-        es: 'Para reposteria, se recomienda encarecidamente una precision de 0,1 g. La levadura quimica (5 g), la sal (3 g), las especias y los aromas son ingredientes criticos donde 1 g de mas puede cambiar el resultado. Etekcity, Renpho y Yummly ofrecen 0,1 g de precision.',
-        it: 'Per la pasticceria, una precisione di 0,1 g e fortemente raccomandata. Il lievito (5 g), il sale (3 g), le spezie e gli aromi sono ingredienti critici dove 1 g in piu puo cambiare il risultato. Etekcity, Renpho e Yummly offrono tutte 0,1 g di precisione.',
-        nl: 'Voor bakken wordt een nauwkeurigheid van 0,1 g sterk aanbevolen. Bakpoeder (5 g), zout (3 g), specerijen en aroma\'s zijn kritische ingredienten waarbij 1 g te veel het resultaat kan veranderen. Etekcity, Renpho en Yummly bieden allemaal 0,1 g nauwkeurigheid.',
+        fr: 'Non. Vous choisissez l’aliment dans l’application (par recherche ou, sur certains modèles comme celui de Renpho, par scan du code-barres), puis l’application calcule les valeurs nutritionnelles d’après le poids mesuré.',
+        en: 'No. You pick the food in the app (by searching or, on some models such as Renpho’s, by scanning the barcode), then the app calculates the nutrition values from the measured weight.',
+        de: 'Nein. Sie wählen das Lebensmittel in der App aus (per Suche oder bei manchen Modellen wie dem von Renpho per Barcode-Scan), dann berechnet die App die Nährwerte anhand des gemessenen Gewichts.',
+        es: 'No. Eliges el alimento en la app (buscándolo o, en algunos modelos como el de Renpho, escaneando el código de barras) y la app calcula los valores nutricionales según el peso medido.',
+        it: 'No. Scegli l’alimento nell’app (cercandolo o, su alcuni modelli come quello Renpho, scansionando il codice a barre) e l’app calcola i valori nutrizionali in base al peso misurato.',
+        nl: 'Nee. Je kiest het product in de app (via zoeken of, bij sommige modellen zoals die van Renpho, via een barcodescan) en de app berekent de voedingswaarden op basis van het gemeten gewicht.',
       },
     },
     {
       question: {
-        fr: 'Les bases de données alimentaires sont-elles fiables ?',
-        en: 'Are the food databases reliable?',
-        de: 'Sind die Lebensmitteldatenbanken zuverlässig?',
-        es: 'Son fiables las bases de datos alimentarias?',
-        it: 'I database alimentari sono affidabili?',
-        nl: 'Zijn de voedingsdatabases betrouwbaar?',
+        fr: 'Faut-il une précision de 0,1 g pour cuisiner ?',
+        en: 'Do I need 0.1 g precision for cooking?',
+        de: 'Braucht man zum Kochen eine Auflösung von 0,1 g?',
+        es: '¿Hace falta una precisión de 0,1 g para cocinar?',
+        it: 'Serve una precisione di 0,1 g per cucinare?',
+        nl: 'Heb je 0,1 g precisie nodig om te koken?',
       },
       answer: {
-        fr: 'Les bases de données des grandes marques (Etekcity/VeSync, Renpho, Yummly) sont globalement fiables car elles s\'appuient sur des sources officielles (USDA, tables CIQUAL en France, données fabricants via code-barres). Les données pour les produits de marque scannés par code-barres sont très précises car directement issues de l\'étiquetage réglementaire. Les aliments génériques (pomme, riz, poulet) peuvent varier de 5-15 % selon la variété et la préparation. Pour un suivi précis, privilégiez toujours le scan code-barres des produits emballés.',
-        en: 'The databases of major brands (Etekcity/VeSync, Renpho, Yummly) are generally reliable as they draw from official sources (USDA, manufacturer data via barcodes). Data for branded products scanned by barcode is very accurate as it comes directly from regulatory labelling. Generic foods (apple, rice, chicken) can vary by 5-15% depending on variety and preparation. For precise tracking, always prefer barcode scanning of packaged products.',
-        de: 'Die Datenbanken der großen Marken sind grundsätzlich zuverlässig, da sie auf offiziellen Quellen basieren (USDA, Herstellerdaten via Barcode). Daten für Markenprodukte, die per Barcode gescannt werden, sind sehr genau. Generische Lebensmittel können um 5-15 % variieren. Für präzises Tracking bevorzugen Sie immer den Barcode-Scan verpackter Produkte.',
-        es: 'Las bases de datos de las grandes marcas son globalmente fiables ya que se apoyan en fuentes oficiales (USDA, datos de fabricantes via codigo de barras). Los datos de productos de marca escaneados por codigo de barras son muy precisos. Los alimentos genericos pueden variar un 5-15 %. Para un seguimiento preciso, prioriza siempre el escaneo de codigo de barras de productos envasados.',
-        it: 'I database dei grandi marchi sono globalmente affidabili poiche si basano su fonti ufficiali (USDA, dati produttori tramite codice a barre). I dati per prodotti di marca scansionati tramite codice a barre sono molto precisi. Gli alimenti generici possono variare del 5-15%. Per un tracciamento preciso, privilegia sempre la scansione del codice a barre dei prodotti confezionati.',
-        nl: 'De databases van grote merken zijn over het algemeen betrouwbaar omdat ze gebaseerd zijn op officiele bronnen (USDA, fabrikantgegevens via barcode). Gegevens voor merkproducten gescand via barcode zijn zeer nauwkeurig. Generieke voedingsmiddelen kunnen 5-15% varieren. Voor nauwkeurige tracking, geef altijd de voorkeur aan barcode scannen van verpakte producten.',
+        fr: 'Rarement. Le gramme suffit pour la cuisine, la pâtisserie courante et le comptage de calories. Le dixième de gramme sert surtout au café de spécialité et aux très petites quantités d’épices ou de levure.',
+        en: 'Rarely. 1 g is enough for cooking, everyday baking and calorie counting. 0.1 g mainly matters for specialty coffee and tiny amounts of spices or yeast.',
+        de: 'Selten. 1 g reicht zum Kochen, für normales Backen und zum Kalorienzählen. 0,1 g ist vor allem für Spezialitätenkaffee und winzige Mengen Gewürze oder Hefe sinnvoll.',
+        es: 'Rara vez. El gramo basta para cocinar, la repostería habitual y contar calorías. La décima de gramo sirve sobre todo para el café de especialidad y cantidades mínimas de especias o levadura.',
+        it: 'Raramente. Il grammo basta per cucinare, la pasticceria di tutti i giorni e il conteggio delle calorie. Il decimo di grammo serve soprattutto per il caffè specialty e per quantità minime di spezie o lievito.',
+        nl: 'Zelden. 1 g volstaat om te koken, voor gewoon bakwerk en om calorieën te tellen. 0,1 g is vooral nuttig voor specialty koffie en heel kleine hoeveelheden kruiden of gist.',
       },
     },
     {
       question: {
-        fr: 'Peut-on laver une balance de cuisine connectée ?',
-        en: 'Can you wash a smart kitchen scale?',
-        de: 'Kann man eine smarte Küchenwaage waschen?',
-        es: 'Se puede lavar una bascula de cocina inteligente?',
-        it: 'Si puo lavare una bilancia da cucina smart?',
-        nl: 'Kan je een slimme keukenweegschaal wassen?',
+        fr: 'Les valeurs nutritionnelles affichées sont-elles fiables ?',
+        en: 'Are the nutrition values shown reliable?',
+        de: 'Sind die angezeigten Nährwerte zuverlässig?',
+        es: '¿Son fiables los valores nutricionales que se muestran?',
+        it: 'I valori nutrizionali mostrati sono affidabili?',
+        nl: 'Zijn de getoonde voedingswaarden betrouwbaar?',
       },
       answer: {
-        fr: 'Aucune balance de ce comparatif n\'est étanche ni lavable au lave-vaisselle. Pour le nettoyage : essuyez la surface avec un chiffon humide et un peu de liquide vaisselle, puis séchez immédiatement. Évitez de laisser de l\'eau s\'infiltrer autour de l\'écran, du port USB-C ou du compartiment à piles. La Drop Scale en silicone est la plus facile à nettoyer grâce à sa surface lisse et hydrophobe. Pour les modèles en verre trempé (Etekcity, Renpho), un chiffon microfibre évite les traces.',
-        en: 'No scale in this comparison is waterproof or dishwasher-safe. For cleaning: wipe the surface with a damp cloth and a little washing-up liquid, then dry immediately. Avoid letting water seep around the screen, USB-C port or battery compartment. The silicone Drop Scale is the easiest to clean thanks to its smooth, hydrophobic surface. For tempered glass models (Etekcity, Renpho), a microfibre cloth prevents smear marks.',
-        de: 'Keine Waage in diesem Vergleich ist wasserdicht oder spülmaschinenfest. Zum Reinigen: Wischen Sie die Oberfläche mit einem feuchten Tuch und etwas Spülmittel ab, dann sofort trocknen. Vermeiden Sie Wasser um Display, USB-C-Anschluss oder Batteriefach. Die Drop Scale aus Silikon ist am einfachsten zu reinigen.',
-        es: 'Ninguna bascula de esta comparativa es resistente al agua ni apta para lavavajillas. Para la limpieza: pasa un pano humedo con un poco de jabon por la superficie y seca inmediatamente. Evita que entre agua alrededor de la pantalla, el puerto USB-C o el compartimento de pilas.',
-        it: 'Nessuna bilancia di questo confronto e impermeabile o lavabile in lavastoviglie. Per la pulizia: passa un panno umido con un po\' di detersivo sulla superficie, poi asciuga subito. Evita che l\'acqua penetri intorno allo schermo, alla porta USB-C o al vano batterie.',
-        nl: 'Geen enkele weegschaal in deze vergelijking is waterdicht of vaatwasmachinebestendig. Voor reiniging: veeg het oppervlak af met een vochtige doek en een beetje afwasmiddel, droog dan onmiddellijk. Vermijd water rond het scherm, de USB-C-poort of het batterijvak.',
+        fr: 'Ce sont des estimations tirées de bases de données. Le poids, lui, est précis, mais la composition d’un aliment varie selon la variété et la cuisson. Pour un régime médical, demandez conseil à un professionnel de santé.',
+        en: 'They are estimates drawn from databases. The weight itself is accurate, but a food’s composition varies with variety and cooking. For a medical diet, ask a healthcare professional.',
+        de: 'Es sind Schätzungen aus Datenbanken. Das Gewicht ist genau, doch die Zusammensetzung eines Lebensmittels schwankt je nach Sorte und Zubereitung. Bei einer medizinischen Diät fragen Sie eine medizinische Fachkraft.',
+        es: 'Son estimaciones procedentes de bases de datos. El peso es preciso, pero la composición de un alimento varía según la variedad y la cocción. Para una dieta médica, consulta a un profesional sanitario.',
+        it: 'Sono stime tratte da database. Il peso è preciso, ma la composizione di un alimento varia a seconda della varietà e della cottura. Per una dieta medica, chiedi consiglio a un professionista sanitario.',
+        nl: 'Het zijn schattingen uit databases. Het gewicht zelf is nauwkeurig, maar de samenstelling van een product verschilt per variëteit en bereiding. Vraag bij een medisch dieet advies aan een zorgprofessional.',
       },
     },
     {
       question: {
-        fr: 'Quelle balance connectée pour le suivi de régime keto / cétogène ?',
-        en: 'Which smart scale is best for keto diet tracking?',
-        de: 'Welche smarte Waage eignet sich am besten für die Keto-Diät?',
-        es: 'Que bascula inteligente es mejor para seguir una dieta keto?',
-        it: 'Quale bilancia smart e migliore per il monitoraggio della dieta keto?',
-        nl: 'Welke slimme weegschaal is het beste voor keto-dieet tracking?',
+        fr: 'Peut-on encore utiliser une Yummly Smart Scale ou une balance Drop ?',
+        en: 'Can you still use a Yummly Smart Scale or a Drop scale?',
+        de: 'Kann man eine Yummly Smart Scale oder eine Drop-Waage noch nutzen?',
+        es: '¿Se puede seguir usando una Yummly Smart Scale o una báscula Drop?',
+        it: 'Si può ancora usare una Yummly Smart Scale o una bilancia Drop?',
+        nl: 'Kun je een Yummly Smart Scale of Drop-weegschaal nog gebruiken?',
       },
       answer: {
-        fr: 'Pour le régime keto/cétogène, la Etekcity Nutrition est le meilleur choix car elle affiche séparément les glucides, les lipides et les protéines — les 3 macros essentielles du keto. Le mode repas permet de calculer les macros totaux de chaque repas, ce qui est indispensable pour rester sous les 20-50 g de glucides nets quotidiens. La Yummly est également excellente avec ses 14 micronutriments et ses recettes keto-compatibles. La Renpho convient aussi mais sans le détail des fibres (important pour calculer les glucides nets). La Drop Scale n\'est pas adaptée au keto car elle ne suit pas les macronutriments.',
-        en: 'For keto/ketogenic diet, the Etekcity Nutrition is the best choice as it separately displays carbs, fat and protein — the 3 essential keto macros. The meal mode calculates total macros for each meal, which is essential for staying under the daily 20-50 g net carbs target. The Yummly is also excellent with its 14 micronutrients and keto-compatible recipes. The Renpho works too but without fibre detail (important for calculating net carbs). The Drop Scale is not suited for keto as it does not track macronutrients.',
-        de: 'Für die Keto-Diät ist die Etekcity Nutrition die beste Wahl, da sie Kohlenhydrate, Fette und Proteine separat anzeigt. Der Mahlzeiten-Modus berechnet die gesamten Makros pro Mahlzeit — unverzichtbar um unter 20-50 g Netto-Kohlenhydraten zu bleiben. Die Yummly ist ebenfalls hervorragend mit 14 Mikronährstoffen und keto-kompatiblen Rezepten.',
-        es: 'Para la dieta keto, la Etekcity Nutrition es la mejor opcion ya que muestra por separado carbohidratos, grasas y proteinas. El modo comida calcula los macros totales de cada comida, esencial para mantenerse bajo los 20-50 g de carbohidratos netos diarios. La Yummly tambien es excelente con sus 14 micronutrientes y recetas compatibles con keto.',
-        it: 'Per la dieta keto, la Etekcity Nutrition e la migliore scelta poiche mostra separatamente carboidrati, grassi e proteine. La modalita pasto calcola i macro totali di ogni pasto, essenziale per restare sotto i 20-50 g di carboidrati netti giornalieri. La Yummly e anch\'essa eccellente con 14 micronutrienti e ricette keto-compatibili.',
-        nl: 'Voor het keto-dieet is de Etekcity Nutrition de beste keuze omdat deze apart koolhydraten, vetten en eiwitten toont. De maaltijdmodus berekent de totale macro\'s per maaltijd — essentieel om onder de 20-50 g netto koolhydraten per dag te blijven. De Yummly is ook uitstekend met 14 micronutrienten en keto-compatibele recepten.',
+        fr: 'Ces deux modèles ne sont plus vendus neufs. L’application Yummly a fermé fin 2024, ce qui prive sa balance de ses fonctions connectées. Si vous en trouvez une d’occasion, vérifiez que l’application associée fonctionne encore avant d’acheter.',
+        en: 'Neither model is sold new any more. The Yummly app closed at the end of 2024, which removes its scale’s connected features. If you find one second-hand, check that the companion app still works before buying.',
+        de: 'Beide Modelle werden nicht mehr neu verkauft. Die Yummly-App wurde Ende 2024 eingestellt, wodurch die Waage ihre vernetzten Funktionen verliert. Wenn Sie ein gebrauchtes Gerät finden, prüfen Sie vor dem Kauf, ob die zugehörige App noch funktioniert.',
+        es: 'Ninguno de los dos se vende ya nuevo. La app Yummly cerró a finales de 2024, por lo que su báscula pierde las funciones conectadas. Si encuentras una de segunda mano, comprueba que la app asociada siga funcionando antes de comprarla.',
+        it: 'Nessuno dei due modelli è più venduto nuovo. L’app Yummly ha chiuso a fine 2024, privando la sua bilancia delle funzioni smart. Se ne trovi una usata, verifica che l’app associata funzioni ancora prima di acquistarla.',
+        nl: 'Geen van beide modellen wordt nog nieuw verkocht. De Yummly-app is eind 2024 gestopt, waardoor de weegschaal zijn slimme functies kwijt is. Vind je er een tweedehands, controleer dan vóór aankoop of de bijbehorende app nog werkt.',
+      },
+    },
+    {
+      question: {
+        fr: 'Comment nettoyer une balance de cuisine connectée ?',
+        en: 'How do I clean a smart kitchen scale?',
+        de: 'Wie reinige ich eine smarte Küchenwaage?',
+        es: '¿Cómo se limpia una báscula de cocina inteligente?',
+        it: 'Come si pulisce una bilancia da cucina smart?',
+        nl: 'Hoe maak je een slimme keukenweegschaal schoon?',
+      },
+      answer: {
+        fr: 'Essuyez le plateau avec un chiffon humide et un peu de liquide vaisselle, puis séchez-le. Ne plongez jamais la balance dans l’eau et ne la mettez pas au lave-vaisselle : l’électronique n’est pas étanche.',
+        en: 'Wipe the platform with a damp cloth and a little washing-up liquid, then dry it. Never submerge the scale or put it in the dishwasher: the electronics are not waterproof.',
+        de: 'Wischen Sie die Wiegefläche mit einem feuchten Tuch und etwas Spülmittel ab und trocknen Sie sie danach. Tauchen Sie die Waage nie unter Wasser und geben Sie sie nicht in die Spülmaschine: Die Elektronik ist nicht wasserdicht.',
+        es: 'Limpia la plataforma con un paño húmedo y un poco de lavavajillas, y sécala. Nunca sumerjas la báscula ni la metas en el lavavajillas: la electrónica no es estanca.',
+        it: 'Pulisci il piatto con un panno umido e un po’ di detersivo per piatti, poi asciugalo. Non immergere mai la bilancia e non metterla in lavastoviglie: l’elettronica non è impermeabile.',
+        nl: 'Veeg het plateau af met een vochtige doek en een beetje afwasmiddel en droog het daarna. Dompel de weegschaal nooit onder en zet hem niet in de vaatwasser: de elektronica is niet waterdicht.',
       },
     },
   ],

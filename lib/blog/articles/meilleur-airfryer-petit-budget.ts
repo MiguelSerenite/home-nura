@@ -6,793 +6,674 @@ export const article: BlogArticle = {
   pillar: 'guides/airfryers',
   relatedSlugs: ['test-xiaomi-smart-air-fryer-pro', 'test-moulinex-easy-fry-max', 'comment-choisir-airfryer-famille', 'heissluftfritteuse-fuer-2-personen', 'heissluftfritteuse-stromverbrauch-kosten'],
   datePublished: '2026-03-20',
-  dateModified: '2026-04-14',
-  readingTime: 11,
+  dateModified: '2026-10-09',
+  readingTime: 9,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/21z46vwmm1L._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1745846664210-756817e1b19c?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Sélection des meilleurs airfryers pas chers sous 100 euros en 2026',
-        en: 'Selection of the best budget air fryers under 100 euros in 2026',
-        de: 'Auswahl der besten günstigen Heißluftfritteusen unter 100 Euro 2026',
-        es: 'Selección de las mejores freidoras de aire baratas por menos de 100 euros en 2026',
-        it: 'Selezione delle migliori friggitrici ad aria economiche sotto 100 euro nel 2026',
-        nl: 'Selectie van de beste goedkope airfryers onder 100 euro in 2026',
+        fr: 'Airfryer noir posé sur un plan de travail en bois, à côté d’un bol de tomates',
+        en: 'Black air fryer on a wooden kitchen worktop next to a bowl of tomatoes',
+        de: 'Schwarze Heißluftfritteuse auf einer Holzarbeitsplatte neben einer Schale Tomaten',
+        es: 'Freidora de aire negra sobre una encimera de madera junto a un cuenco de tomates',
+        it: 'Friggitrice ad aria nera su un piano di lavoro in legno accanto a una ciotola di pomodori',
+        nl: 'Zwarte airfryer op een houten aanrecht naast een schaal tomaten',
       },
     },
   ],
   title: {
-    fr: 'Meilleur Airfryer Pas Cher 2026 : Top 5 sous 100€',
-    en: 'Best Budget Air Fryer 2026: Top 5 Under 100 Euros',
-    de: 'Beste Günstige Heißluftfritteuse 2026: Top 5 unter 100€',
-    es: 'Mejor Freidora de Aire Barata 2026: Top 5 por Menos de 100€',
-    it: 'Migliore Friggitrice ad Aria Economica 2026: Top 5 sotto 100€',
-    nl: 'Beste Goedkope Airfryer 2026: Top 5 onder 100€',
+    fr: 'Meilleur airfryer pas cher 2026 : 5 modèles d’entrée de gamme qui valent le coup',
+    en: 'Best Budget Air Fryer 2026: 5 Entry-Level Models Worth Buying',
+    de: 'Beste günstige Heißluftfritteuse 2026: 5 Einsteigermodelle, die sich lohnen',
+    es: 'Mejor freidora de aire barata 2026: 5 modelos de gama de entrada que merecen la pena',
+    it: 'Migliore friggitrice ad aria economica 2026: 5 modelli entry-level che valgono la pena',
+    nl: 'Beste goedkope airfryer 2026: 5 instapmodellen die de moeite waard zijn',
   },
   excerpt: {
-    fr: 'Découvrez les 5 meilleurs airfryers à moins de 100€ en 2026. Comparatif détaillé, tableau de performance, ce que vous obtenez et ce que vous sacrifiez à petit budget.',
-    en: 'Discover the 5 best air fryers under 100 euros in 2026. Detailed comparison, performance table, what you get and what you sacrifice on a budget.',
-    de: 'Entdecken Sie die 5 besten Heißluftfritteusen unter 100€ in 2026. Detaillierter Vergleich, Leistungstabelle, was Sie bekommen und worauf Sie verzichten.',
-    es: 'Descubre las 5 mejores freidoras de aire por menos de 100€ en 2026. Comparativa detallada, tabla de rendimiento, qué obtienes y qué sacrificas.',
-    it: 'Scopri le 5 migliori friggitrici ad aria sotto 100€ nel 2026. Confronto dettagliato, tabella di prestazioni, cosa ottieni e cosa sacrifichi.',
-    nl: 'Ontdek de 5 beste airfryers onder 100€ in 2026. Gedetailleerde vergelijking, prestatietabel, wat je krijgt en wat je opoffert.',
+    fr: 'Moulinex Easy Fry Max, Xiaomi Smart Air Fryer Pro, Cosori Lite, Philips Série 2000 et Ninja AF100EU : quel airfryer d’entrée de gamme choisir en 2026, ce que vous gagnez et ce que vous sacrifiez quand le budget est serré.',
+    en: 'Moulinex Easy Fry Max, Xiaomi Smart Air Fryer Pro, Cosori Lite, Philips 2000 Series and Ninja AF100EU: which entry-level air fryer to choose in 2026, and what you gain and give up on a tight budget.',
+    de: 'Moulinex Easy Fry Max, Xiaomi Smart Air Fryer Pro, Cosori Lite, Philips Serie 2000 und Ninja AF100EU: Welche Einsteiger-Heißluftfritteuse 2026 passt, und was Sie mit kleinem Budget bekommen und aufgeben.',
+    es: 'Moulinex Easy Fry Max, Xiaomi Smart Air Fryer Pro, Cosori Lite, Philips Serie 2000 y Ninja AF100EU: qué freidora de aire de gama de entrada elegir en 2026 y qué ganas y qué sacrificas con un presupuesto ajustado.',
+    it: 'Moulinex Easy Fry Max, Xiaomi Smart Air Fryer Pro, Cosori Lite, Philips Serie 2000 e Ninja AF100EU: quale friggitrice ad aria entry-level scegliere nel 2026, cosa si ottiene e a cosa si rinuncia con un budget ridotto.',
+    nl: 'Moulinex Easy Fry Max, Xiaomi Smart Air Fryer Pro, Cosori Lite, Philips 2000-serie en Ninja AF100EU: welke instap-airfryer je in 2026 kiest, en wat je wint en opgeeft met een krap budget.',
   },
   content: {
-    fr: `<h2>Un airfryer pas cher peut-il être un bon airfryer ?</h2>
-<p>La réponse courte est oui, à condition de savoir ce que vous achetez. Le marché des airfryers a considérablement évolué en 2026, et les modèles d'entrée de gamme offrent aujourd'hui des performances tout à fait correctes pour un usage quotidien. Nous avons acheté et testé 8 airfryers à moins de 100 € pendant 3 mois pour identifier les 5 qui méritent vraiment votre argent.</p>
-<p>Ce guide vous aide à comprendre ce que vous pouvez raisonnablement attendre à ce prix, ce que vous sacrifiez par rapport aux modèles premium, et quel modèle correspond le mieux à votre profil.</p>
+    fr: `<p><strong>Le meilleur airfryer pas cher en 2026 pour la plupart des foyers est le Moulinex Easy Fry Max 5L</strong> : un panier de 5 litres, 10 programmes et un écran tactile, dans la gamme la plus accessible du marché. Si vous voulez un modèle connecté sans monter en gamme, le Xiaomi Smart Air Fryer Pro 4L est le plus complet, et pour une ou deux personnes dans une petite cuisine, le Cosori Lite 3.8L fait l’essentiel en prenant peu de place.</p>
+<p>Ce guide compare des modèles actuellement vendus en Europe à partir des fiches techniques des fabricants, d’essais indépendants publiés et des retours d’acheteurs vérifiés. Nous ne donnons pas de prix : ils changent chaque semaine. Nous parlons plutôt de gammes, de l’entrée de gamme au milieu de gamme accessible. Retrouvez toute la sélection sur notre page <a href="/fr/cuisine-connectee/airfryers">airfryers</a>.</p>
 
-<h2>Tableau comparatif des 5 meilleurs airfryers sous 100€</h2>
+<h2>Que veut dire « petit budget » pour un airfryer ?</h2>
+<p>Le marché se découpe en trois paliers. Tout en bas, les airfryers <strong>d’entrée de gamme</strong> : un seul tiroir de 3,5 à 5 litres, une puissance autour de 1 500 W, des commandes simples. Au milieu, les modèles <strong>milieu de gamme</strong> ajoutent un grand volume, une fenêtre ou une connexion. En haut, les <strong>doubles tiroirs</strong>, les combinés et les grands formats de 8 à 10 litres.</p>
+<p>Bonne nouvelle : pour une cuisson de tous les jours (frites, poulet, légumes rôtis, réchauffage), un airfryer d’entrée de gamme bien conçu cuit très correctement. Ce qui distingue les modèles chers, c’est surtout le volume, le confort d’utilisation et les fonctions annexes, pas le principe de cuisson, qui reste le même : une résistance et un ventilateur qui font circuler de l’air chaud.</p>
+
+<h2>Les critères qui comptent vraiment à petit budget</h2>
+<ul>
+<li><strong>La capacité utile</strong> : comptez environ 3,5 à 4 litres pour une à deux personnes, et 5 litres pour trois à quatre personnes. Un panier trop petit vous oblige à cuire en plusieurs fournées.</li>
+<li><strong>La forme du panier</strong> : un panier carré offre plus de surface au fond qu’un panier rond de même volume. Or c’est la surface qui compte pour que les aliments ne s’empilent pas.</li>
+<li><strong>La plage de température</strong> : la plupart montent à 200 °C. Certains modèles vont plus haut, d’autres descendent assez bas pour la déshydratation.</li>
+<li><strong>Les commandes</strong> : écran tactile ou boutons, programmes préréglés, minuterie jusqu’à 60 minutes. Les commandes simples tombent moins en panne et se prennent en main tout de suite.</li>
+<li><strong>Le nettoyage</strong> : vérifiez que le panier et le tiroir passent au lave-vaisselle, et que le revêtement antiadhésif a bonne réputation chez les acheteurs.</li>
+<li><strong>L’encombrement</strong> : mesurez la place sous vos meubles hauts. Un airfryer a besoin d’espace autour de lui pour évacuer l’air chaud.</li>
+<li><strong>La marque et le SAV</strong> : en entrée de gamme, un fabricant qui vend des pièces détachées (panier, grille) prolonge nettement la vie de l’appareil.</li>
+</ul>
+
+<h2>Les 5 meilleurs airfryers pas chers en 2026</h2>
+
+<h3>1. Moulinex Easy Fry Max 5L — le meilleur choix global</h3>
+<p>Le Moulinex Easy Fry Max offre le plus grand panier de cette sélection : 5 litres, annoncés pour un repas familial jusqu’à six portions. Il affiche une puissance de 1 550 W, 10 programmes automatiques, un écran tactile et une température réglable de 70 à 200 °C, avec une minuterie jusqu’à 60 minutes. Le panier et le tiroir passent au lave-vaisselle.</p>
+<p><strong>Points forts</strong> : la capacité la plus généreuse de l’entrée de gamme, des programmes nombreux et faciles à lire, une marque bien implantée en Europe avec un réseau de réparation.</p>
+<p><strong>Limites</strong> : pas de fenêtre ni de connexion, un format assez profond sur le plan de travail.</p>
+<p><strong>Pour qui ?</strong> Les familles de trois ou quatre personnes qui veulent un seul appareil simple pour tous les jours. Pour aller plus loin, lisez notre <a href="/fr/blog/test-moulinex-easy-fry-max">avis détaillé sur le Moulinex Easy Fry Max</a>.</p>
+
+<h3>2. Xiaomi Smart Air Fryer Pro 4L — le plus complet en connecté</h3>
+<p>Le Xiaomi Smart Air Fryer Pro 4L rassemble des fonctions qu’on trouve d’habitude plus haut en gamme : un écran OLED tactile, une fenêtre de contrôle, 11 modes préréglés et une commande depuis l’application Xiaomi Home avec plus de 100 recettes. Il affiche 1 600 W et une plage de 40 à 200 °C, assez basse pour la déshydratation, la décongélation ou même le yaourt.</p>
+<p><strong>Points forts</strong> : la fenêtre pour surveiller la cuisson sans ouvrir, l’application, la polyvalence des modes basse température.</p>
+<p><strong>Limites</strong> : 4 litres conviennent à deux ou trois personnes, pas plus ; l’application demande un compte Xiaomi, et certaines fonctions perdent leur intérêt si vous ne l’utilisez pas.</p>
+<p><strong>Pour qui ?</strong> Les couples ou petits foyers qui aiment piloter leur cuisine depuis le téléphone. Voir aussi notre <a href="/fr/blog/test-xiaomi-smart-air-fryer-pro">avis sur le Xiaomi Smart Air Fryer Pro</a>.</p>
+
+<h3>3. Cosori Lite 3.8L — le compact pour une ou deux personnes</h3>
+<p>Le Cosori Lite 3.8L (référence CAF-LI401S) est un petit airfryer carré de 1 500 W, avec 7 fonctions et une plage de 75 à 230 °C. Il se pilote aussi depuis l’application VeSync et fonctionne avec Amazon Alexa et Google Assistant. Le panier carré et la grille sont compatibles lave-vaisselle.</p>
+<p><strong>Points forts</strong> : un encombrement réduit, un panier carré qui exploite bien son volume, une température maximale plus haute que la moyenne, la commande vocale.</p>
+<p><strong>Limites</strong> : 3,8 litres restent justes au-delà de deux personnes ; pas de fenêtre.</p>
+<p><strong>Pour qui ?</strong> Les personnes seules, les couples, les studios et les étudiants qui veulent un appareil discret.</p>
+
+<h3>4. Philips Airfryer Série 2000 4,2 L (NA221/00) — la valeur sûre des débutants</h3>
+<p>L’entrée de gamme Philips propose un panier de 4,2 litres, 1 500 W et plusieurs programmes préréglés, avec un panier et un tiroir compatibles lave-vaisselle. Philips a été l’un des premiers fabricants d’airfryers grand public et sa technologie de circulation d’air RapidAir équipe aussi ce modèle.</p>
+<p><strong>Points forts</strong> : une prise en main très simple, une construction réputée solide chez les acheteurs, un réseau de pièces et de service étendu en Europe.</p>
+<p><strong>Limites</strong> : pas de connexion, moins de programmes que le Moulinex et un volume intermédiaire.</p>
+<p><strong>Pour qui ?</strong> Ceux qui achètent leur premier airfryer et veulent avant tout un appareil simple et durable.</p>
+
+<h3>5. Ninja Air Fryer AF100EU 3,8 L — le classique éprouvé</h3>
+<p>Le Ninja AF100EU est un modèle sorti il y a plusieurs années et toujours vendu, ce qui en fait l’un des airfryers les plus commentés par les acheteurs. Il affiche 3,8 litres, 1 500 W, une température jusqu’à 210 °C et quatre fonctions : air fry, rôtir, réchauffer et déshydrater. La cuve antiadhésive et la grille passent au lave-vaisselle.</p>
+<p><strong>Points forts</strong> : des fonctions bien choisies, une montée en température rapide selon les retours d’utilisateurs, une base de recettes Ninja abondante.</p>
+<p><strong>Limites</strong> : un seul programme par fonction, pas d’écran tactile ni de connexion, une capacité pour deux à trois personnes.</p>
+<p><strong>Pour qui ?</strong> Ceux qui veulent un appareil simple d’une marque reconnue, sans gadget.</p>
+
+<h2>Tableau comparatif</h2>
 <table>
 <thead>
-<tr><th>Modèle</th><th>Prix</th><th>Capacité</th><th>Puissance</th><th>Programmes</th><th>Note globale</th></tr>
+<tr><th>Modèle</th><th>Capacité</th><th>Puissance</th><th>Commandes et connexion</th><th>Idéal pour</th></tr>
 </thead>
 <tbody>
-<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>69 €</td><td>4 litres</td><td>1 600 W</td><td>8 + app</td><td>9/10</td></tr>
-<tr><td>Moulinex Easy Fry Compact EZ1308</td><td>55 €</td><td>3 litres</td><td>1 300 W</td><td>6</td><td>7,5/10</td></tr>
-<tr><td>Cosori Lite 3,8L</td><td>75 €</td><td>3,8 litres</td><td>1 500 W</td><td>7</td><td>8/10</td></tr>
-<tr><td>Philips Essential Airfryer HD9200</td><td>89 €</td><td>4,1 litres</td><td>1 400 W</td><td>7</td><td>8,5/10</td></tr>
-<tr><td>Tefal Easy Fry Classic+ EY2018</td><td>65 €</td><td>4,2 litres</td><td>1 500 W</td><td>8</td><td>7,5/10</td></tr>
+<tr><td>Moulinex Easy Fry Max 5L</td><td>5 L</td><td>1 550 W</td><td>Écran tactile, 10 programmes</td><td>Familles de 3-4 personnes</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 L</td><td>1 600 W</td><td>OLED, fenêtre, application</td><td>Petits foyers connectés</td></tr>
+<tr><td>Cosori Lite 3.8L</td><td>3,8 L</td><td>1 500 W</td><td>7 fonctions, application, Alexa et Google</td><td>1-2 personnes, petites cuisines</td></tr>
+<tr><td>Philips Série 2000 4,2 L</td><td>4,2 L</td><td>1 500 W</td><td>Boutons, programmes préréglés</td><td>Premier airfryer</td></tr>
+<tr><td>Ninja AF100EU</td><td>3,8 L</td><td>1 500 W</td><td>4 fonctions, boutons</td><td>Usage simple au quotidien</td></tr>
 </tbody>
 </table>
 
-<h2>1. Xiaomi Smart Air Fryer Pro 4L — Le meilleur rapport qualité-prix (69 €)</h2>
-<h3>Pourquoi c'est notre choix n°1</h3>
-<p>Le Xiaomi Smart Air Fryer Pro est une véritable surprise à ce prix. C'est le seul airfryer sous 100 € à offrir une connectivité Wi-Fi et une application complète (Mi Home) avec des dizaines de recettes guidées pas à pas. Ses 1 600 W lui confèrent des performances proches de modèles deux fois plus chers.</p>
-
-<h3>Points forts</h3>
+<h2>Ce que vous gagnez et ce que vous sacrifiez en entrée de gamme</h2>
+<p><strong>Vous gardez l’essentiel</strong> : une cuisson croustillante avec peu ou pas de matière grasse, des programmes pour les aliments courants, un panier qui se nettoie facilement et des temps de cuisson souvent plus courts qu’au four pour de petites quantités.</p>
+<p><strong>Vous renoncez en général à</strong> :</p>
 <ul>
-<li><strong>Connectivité Wi-Fi :</strong> contrôle via l'application Mi Home, suivi en temps réel, notifications de fin de cuisson.</li>
-<li><strong>80+ recettes guidées :</strong> température et durée préprogrammées, il suffit de suivre les instructions.</li>
-<li><strong>Cuisson homogène :</strong> la circulation d'air à 360° donne des résultats uniformes sans besoin de secouer aussi fréquemment.</li>
-<li><strong>Design sobre et compact :</strong> finition mate élégante, empreinte réduite de 30 x 25 x 31 cm.</li>
-<li><strong>Consommation exemplaire :</strong> 0,34 kWh pour 20 minutes à 200°C, l'un des plus économes du marché.</li>
+<li><strong>Deux zones de cuisson</strong> : aucun modèle de ce guide ne propose de double tiroir. Pour cuire un plat et son accompagnement en même temps, il faut passer à la gamme au-dessus, comme expliqué dans notre <a href="/fr/blog/comment-choisir-airfryer-famille">guide pour choisir un airfryer familial</a>.</li>
+<li><strong>Les très grands volumes</strong> : au-delà de quatre personnes, prévoyez plusieurs fournées.</li>
+<li><strong>Certaines finitions</strong> : plastiques plus simples, revêtements antiadhésifs qui demandent plus de soin, ventilateurs parfois plus audibles.</li>
+<li><strong>La connexion</strong>, sauf sur le Xiaomi et le Cosori Lite, qui font figure d’exception dans cette gamme.</li>
 </ul>
 
-<h3>Points faibles</h3>
+<h2>Les erreurs à éviter</h2>
 <ul>
-<li>Capacité de 4 litres limitée à 2-3 personnes.</li>
-<li>Pas de fenêtre de visualisation.</li>
-<li>L'application nécessite un compte Xiaomi.</li>
-</ul>
-<p>Consultez notre <a href="/fr/blog/test-xiaomi-smart-air-fryer-pro">test complet du Xiaomi Smart Air Fryer Pro</a> pour plus de détails.</p>
-
-<h2>2. Philips Essential Airfryer HD9200 — La fiabilité Philips à petit prix (89 €)</h2>
-<h3>Pourquoi le choisir</h3>
-<p>Philips est le pionnier de l'airfryer et la technologie RapidAir maison est présente même sur ce modèle d'entrée de gamme. La qualité de fabrication est un cran au-dessus de la concurrence à ce prix, et le SAV Philips reste l'un des meilleurs du marché.</p>
-
-<h3>Points forts</h3>
-<ul>
-<li><strong>Technologie RapidAir :</strong> la référence en matière de circulation d'air pour des résultats croustillants.</li>
-<li><strong>Qualité de construction :</strong> matériaux robustes, finitions soignées, appareil qui inspire confiance.</li>
-<li><strong>7 programmes prédéfinis :</strong> frites, poulet, poisson, légumes, steak, crevettes, gâteau.</li>
-<li><strong>Panier compatible lave-vaisselle :</strong> nettoyage facile au quotidien.</li>
-<li><strong>Garantie 2 ans :</strong> SAV Philips réactif en cas de problème.</li>
+<li><strong>Choisir sur le seul volume affiché</strong> : un panier rond de 4 litres offre parfois moins de surface qu’un panier carré de 3,8 litres.</li>
+<li><strong>Remplir le panier à ras bord</strong> : l’air doit circuler. Une couche, au plus deux, et on secoue à mi-cuisson.</li>
+<li><strong>Acheter une marque inconnue sans pièces détachées</strong> : un panier abîmé peut rendre l’appareil inutilisable.</li>
+<li><strong>Gratter le revêtement</strong> : utilisez des ustensiles en silicone ou en bois, jamais d’éponge abrasive.</li>
+<li><strong>Oublier la place autour de l’appareil</strong> : laissez un espace libre à l’arrière et au-dessus pour la sortie d’air.</li>
 </ul>
 
-<h3>Points faibles</h3>
+<h2>Utilisation et sécurité</h2>
+<p>Posez l’airfryer sur une surface stable et résistante à la chaleur, loin des rideaux et des meubles hauts. Branchez-le directement sur une prise murale plutôt que sur une multiprise chargée : ces appareils tirent une puissance importante. Le premier usage peut dégager une légère odeur ; faites-le tourner à vide quelques minutes, fenêtre ouverte, comme le recommandent la plupart des notices. Laissez refroidir l’appareil avant de le nettoyer. Pour l’entretien courant, voyez notre <a href="/fr/blog/entretien-nettoyage-airfryer">guide d’entretien de l’airfryer</a>.</p>
+
+<h2>Notre verdict</h2>
+<p>Si vous ne deviez en retenir qu’un, prenez le <strong>Moulinex Easy Fry Max 5L</strong> : c’est le plus polyvalent des airfryers d’entrée de gamme, avec un volume qui suffit à une famille. Le <strong>Xiaomi Smart Air Fryer Pro 4L</strong> est le meilleur choix si vous voulez une fenêtre et une application sans quitter les petits budgets. Et pour une ou deux personnes, le <strong>Cosori Lite 3.8L</strong> offre l’essentiel dans un format compact. Le Philips Série 2000 et le Ninja AF100EU restent des alternatives solides si vous privilégiez une marque bien connue et des commandes simples.</p>`,
+    en: `<p><strong>The best budget air fryer in 2026 for most households is the Moulinex Easy Fry Max 5L</strong>: a 5-litre basket, 10 programmes and a touchscreen, in the most affordable tier of the market. If you want a smart model without moving up a tier, the Xiaomi Smart Air Fryer Pro 4L is the most complete, and for one or two people in a small kitchen, the Cosori Lite 3.8L covers the essentials in very little space.</p>
+<p>This guide compares models currently sold in Europe, based on manufacturer specifications, published independent reviews and verified buyer feedback. We do not quote prices, which change every week. Instead we talk about tiers, from entry-level to affordable mid-range. You can find the full selection on our <a href="/en/cuisine-connectee/airfryers">air fryers</a> page.</p>
+
+<h2>What does "budget" mean for an air fryer?</h2>
+<p>The market splits into three tiers. At the bottom are <strong>entry-level</strong> air fryers: a single 3.5 to 5-litre drawer, around 1,500 W of power and simple controls. In the middle, <strong>mid-range</strong> models add a larger capacity, a viewing window or connectivity. At the top sit <strong>dual-drawer</strong> models, combination units and large 8 to 10-litre formats.</p>
+<p>The good news: for everyday cooking (chips, chicken, roast vegetables, reheating), a well-designed entry-level air fryer does a very decent job. What sets expensive models apart is mainly capacity, ease of use and extra functions, not the cooking principle, which stays the same: a heating element and a fan circulating hot air.</p>
+
+<h2>The criteria that really matter on a budget</h2>
 <ul>
-<li>Prix le plus élevé du top 5 (89 €).</li>
-<li>Pas de connectivité Wi-Fi.</li>
-<li>Écran digital basique sans tactile.</li>
+<li><strong>Usable capacity</strong>: allow roughly 3.5 to 4 litres for one or two people, and 5 litres for three to four. A basket that is too small means cooking in several batches.</li>
+<li><strong>Basket shape</strong>: a square basket offers more floor area than a round one of the same volume, and floor area is what stops food from piling up.</li>
+<li><strong>Temperature range</strong>: most reach 200 °C. Some go higher, others go low enough for dehydrating.</li>
+<li><strong>Controls</strong>: touchscreen or buttons, presets, a timer up to 60 minutes. Simple controls fail less often and are easy to learn.</li>
+<li><strong>Cleaning</strong>: check that the basket and drawer are dishwasher-safe and that buyers rate the non-stick coating well.</li>
+<li><strong>Footprint</strong>: measure the space under your wall cabinets. An air fryer needs clearance around it to vent hot air.</li>
+<li><strong>Brand and after-sales service</strong>: at entry level, a manufacturer that sells spare parts (basket, crisper plate) noticeably extends the appliance's life.</li>
 </ul>
 
-<h2>3. Cosori Lite 3,8L — L'équilibre parfait (75 €)</h2>
-<h3>Pourquoi le choisir</h3>
-<p>Le Cosori Lite est un airfryer bien pensé qui vise le juste milieu entre fonctionnalités et prix. Son écran tactile LED est intuitif, sa puissance de 1 500 W suffisante pour la plupart des cuissons, et son panier carré maximise la surface de cuisson par rapport aux paniers ronds.</p>
+<h2>The 5 best budget air fryers in 2026</h2>
 
-<h3>Points forts</h3>
-<ul>
-<li><strong>Panier carré :</strong> optimise l'espace utilisable, pratique pour les aliments rectangulaires (poissons, escalopes).</li>
-<li><strong>Écran tactile LED :</strong> lisible et réactif, rare à ce prix.</li>
-<li><strong>Fonction de préchauffage :</strong> automatique avant chaque programme.</li>
-<li><strong>Rappel de secouage :</strong> alerte sonore à mi-cuisson.</li>
-<li><strong>Livre de recettes inclus :</strong> 30 recettes testées par Cosori.</li>
-</ul>
+<h3>1. Moulinex Easy Fry Max 5L — best overall</h3>
+<p>The Moulinex Easy Fry Max has the largest basket in this selection: 5 litres, rated for a family meal of up to six portions. It is rated at 1,550 W, with 10 automatic programmes, a touchscreen and a temperature range of 70 to 200 °C, plus a timer up to 60 minutes. The basket and drawer are dishwasher-safe.</p>
+<p><strong>Strengths</strong>: the most generous capacity at entry level, plenty of clear programmes, a well-established European brand with a repair network.</p>
+<p><strong>Limits</strong>: no window or connectivity, and a fairly deep footprint on the worktop.</p>
+<p><strong>Who is it for?</strong> Families of three or four who want one simple appliance for everyday use. For more detail, read our <a href="/en/blog/test-moulinex-easy-fry-max">Moulinex Easy Fry Max review</a>.</p>
 
-<h3>Points faibles</h3>
-<ul>
-<li>Capacité de 3,8 L un peu juste pour une famille de 4.</li>
-<li>Cordon d'alimentation court (1 m).</li>
-<li>Ventilateur un peu bruyant (65 dB).</li>
-</ul>
+<h3>2. Xiaomi Smart Air Fryer Pro 4L — the most complete smart option</h3>
+<p>The Xiaomi Smart Air Fryer Pro 4L brings together features usually found higher up the range: an OLED touchscreen, a viewing window, 11 preset modes and control from the Xiaomi Home app with more than 100 recipes. It is rated at 1,600 W with a 40 to 200 °C range, low enough for dehydrating, defrosting and even yoghurt.</p>
+<p><strong>Strengths</strong>: the window lets you check food without opening the drawer, the app, and the versatility of the low-temperature modes.</p>
+<p><strong>Limits</strong>: 4 litres suits two or three people at most; the app requires a Xiaomi account, and some features lose their appeal if you do not use it.</p>
+<p><strong>Who is it for?</strong> Couples and small households who like running their kitchen from their phone. See also our <a href="/en/blog/test-xiaomi-smart-air-fryer-pro">Xiaomi Smart Air Fryer Pro review</a>.</p>
 
-<h2>4. Tefal Easy Fry Classic+ EY2018 — Le grand volume à petit prix (65 €)</h2>
-<h3>Pourquoi le choisir</h3>
-<p>Avec ses 4,2 litres à seulement 65 €, le Tefal Easy Fry Classic+ offre le meilleur rapport volume/prix de notre sélection. C'est le choix idéal si la capacité est votre priorité et que votre budget est serré.</p>
+<h3>3. Cosori Lite 3.8L — the compact pick for one or two</h3>
+<p>The Cosori Lite 3.8L (model CAF-LI401S) is a small square air fryer rated at 1,500 W, with 7 functions and a 75 to 230 °C range. It can also be controlled from the VeSync app and works with Amazon Alexa and Google Assistant. The square basket and crisper plate are dishwasher-safe.</p>
+<p><strong>Strengths</strong>: a small footprint, a square basket that makes good use of its volume, a higher-than-average maximum temperature and voice control.</p>
+<p><strong>Limits</strong>: 3.8 litres is tight for more than two people; no window.</p>
+<p><strong>Who is it for?</strong> Single people, couples, studio flats and students who want a discreet appliance.</p>
 
-<h3>Points forts</h3>
-<ul>
-<li><strong>4,2 litres à 65 € :</strong> le meilleur rapport capacité/prix du marché.</li>
-<li><strong>8 programmes automatiques :</strong> couvrent les usages les plus fréquents.</li>
-<li><strong>Minuterie 60 minutes :</strong> plus longue que la moyenne de 30 minutes dans cette gamme.</li>
-<li><strong>Marque Tefal/SEB :</strong> fiabilité et SAV reconnus en France.</li>
-</ul>
+<h3>4. Philips Airfryer 2000 Series 4.2L (NA221/00) — the safe bet for beginners</h3>
+<p>Philips' entry-level model offers a 4.2-litre basket, 1,500 W and several presets, with a dishwasher-safe basket and drawer. Philips was one of the first makers of consumer air fryers, and its RapidAir air-circulation technology is fitted to this model too.</p>
+<p><strong>Strengths</strong>: very easy to use, build quality that buyers describe as sturdy, and a wide parts and service network in Europe.</p>
+<p><strong>Limits</strong>: no connectivity, fewer programmes than the Moulinex and a mid-sized capacity.</p>
+<p><strong>Who is it for?</strong> First-time buyers who mainly want a simple, durable appliance.</p>
 
-<h3>Points faibles</h3>
-<ul>
-<li>Revêtement antiadhésif de qualité moyenne, prévoir l'utilisation de papiers perforés.</li>
-<li>Pas de fonction de maintien au chaud.</li>
-<li>Design un peu basique.</li>
-</ul>
+<h3>5. Ninja Air Fryer AF100EU 3.8L — the proven classic</h3>
+<p>The Ninja AF100EU was launched several years ago and is still on sale, which makes it one of the most reviewed air fryers among buyers. It offers 3.8 litres, 1,500 W, a maximum of 210 °C and four functions: air fry, roast, reheat and dehydrate. The non-stick pot and crisper plate are dishwasher-safe.</p>
+<p><strong>Strengths</strong>: well-chosen functions, fast heat-up according to owner feedback, and a large library of Ninja recipes.</p>
+<p><strong>Limits</strong>: one setting per function, no touchscreen or connectivity, capacity for two to three people.</p>
+<p><strong>Who is it for?</strong> Anyone who wants a straightforward appliance from a well-known brand, without gadgets.</p>
 
-<h2>5. Moulinex Easy Fry Compact EZ1308 — L'ultra-compact pour petit espace (55 €)</h2>
-<h3>Pourquoi le choisir</h3>
-<p>À seulement 55 €, le Moulinex Easy Fry Compact est le modèle le moins cher de notre sélection mais aussi le plus compact. Idéal pour un étudiant, un studio ou comme second airfryer de voyage.</p>
-
-<h3>Points forts</h3>
-<ul>
-<li><strong>Prix imbattable :</strong> 55 € pour un airfryer de marque reconnue.</li>
-<li><strong>Ultra-compact :</strong> 27 x 23 x 28 cm, se range dans un placard standard.</li>
-<li><strong>Léger :</strong> 3,1 kg seulement, facile à déplacer.</li>
-<li><strong>6 programmes :</strong> l'essentiel pour débuter.</li>
-</ul>
-
-<h3>Points faibles</h3>
-<ul>
-<li>3 litres seulement : limité à 1-2 personnes.</li>
-<li>1 300 W : cuisson un peu plus lente que la concurrence.</li>
-<li>Pas de rappel de secouage.</li>
-<li>Écran à molette mécanique, pas digital.</li>
-</ul>
-<p>Pour une version plus grande, consultez notre <a href="/fr/blog/test-moulinex-easy-fry-max">test du Moulinex Easy Fry Max</a>.</p>
-
-<h2>Ce que vous obtenez sous 100€</h2>
-<ul>
-<li><strong>Cuisson croustillante correcte :</strong> les résultats sont bons, parfois très bons. Les frites sont croustillantes, le poulet doré, les légumes bien grillés.</li>
-<li><strong>Programmes automatiques :</strong> entre 6 et 8 programmes couvrant les usages courants.</li>
-<li><strong>Panier amovible :</strong> tous les modèles le proposent, la plupart compatibles lave-vaisselle.</li>
-<li><strong>Capacité de 3 à 4,2 litres :</strong> suffisant pour 2-3 personnes ou un couple avec un enfant.</li>
-<li><strong>Température réglable :</strong> de 80°C à 200°C sur tous les modèles.</li>
-</ul>
-
-<h2>Ce que vous sacrifiez sous 100€</h2>
-<ul>
-<li><strong>Double panier :</strong> aucun modèle sous 100 € ne propose de double zone. Il faut monter à 180-250 € pour cela.</li>
-<li><strong>Grande capacité :</strong> maximum 4,2 litres. Pour une famille de 4+, prévoyez des cuissons en deux fournées.</li>
-<li><strong>Fenêtre de visualisation :</strong> absente sur tous les modèles testés sous 100 €.</li>
-<li><strong>Connectivité :</strong> seul le Xiaomi la propose à ce prix. Les autres modèles connectés démarrent à 130 €.</li>
-<li><strong>Qualité du revêtement :</strong> les revêtements sont fonctionnels mais moins durables que sur les modèles premium. L'utilisation de <a href="/fr/blog/top-10-accessoires-airfryer">papiers perforés et moules en silicone</a> prolongera leur durée de vie.</li>
-<li><strong>Puissance :</strong> entre 1 300 et 1 600 W. Suffisant pour la plupart des cuissons, mais plus lent pour les grosses pièces de viande.</li>
-<li><strong>Niveau sonore :</strong> les modèles économiques sont généralement plus bruyants (60-68 dB vs 50-55 dB pour le haut de gamme).</li>
-</ul>
-
-<h2>Quel modèle pour quel profil ?</h2>
+<h2>Comparison table</h2>
 <table>
 <thead>
-<tr><th>Profil</th><th>Notre recommandation</th><th>Pourquoi</th></tr>
+<tr><th>Model</th><th>Capacity</th><th>Power</th><th>Controls and connectivity</th><th>Best for</th></tr>
 </thead>
 <tbody>
-<tr><td>Meilleur rapport qualité-prix global</td><td>Xiaomi Smart Air Fryer Pro</td><td>Connecté, performant, 69 €</td></tr>
-<tr><td>Fiabilité et SAV avant tout</td><td>Philips Essential HD9200</td><td>Marque de référence, RapidAir</td></tr>
-<tr><td>Meilleur écran et ergonomie</td><td>Cosori Lite 3,8L</td><td>Tactile LED, panier carré</td></tr>
-<tr><td>Plus grande capacité à petit prix</td><td>Tefal Easy Fry Classic+</td><td>4,2 L à 65 €</td></tr>
-<tr><td>Budget ultra-serré ou petit espace</td><td>Moulinex Easy Fry Compact</td><td>55 €, ultra-compact</td></tr>
+<tr><td>Moulinex Easy Fry Max 5L</td><td>5 L</td><td>1,550 W</td><td>Touchscreen, 10 programmes</td><td>Families of 3-4</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 L</td><td>1,600 W</td><td>OLED, window, app</td><td>Small connected households</td></tr>
+<tr><td>Cosori Lite 3.8L</td><td>3.8 L</td><td>1,500 W</td><td>7 functions, app, Alexa and Google</td><td>1-2 people, small kitchens</td></tr>
+<tr><td>Philips 2000 Series 4.2L</td><td>4.2 L</td><td>1,500 W</td><td>Buttons, presets</td><td>First air fryer</td></tr>
+<tr><td>Ninja AF100EU</td><td>3.8 L</td><td>1,500 W</td><td>4 functions, buttons</td><td>Simple everyday use</td></tr>
 </tbody>
 </table>
 
-<h2>Faut-il attendre les soldes ?</h2>
-<p>Les airfryers sont régulièrement en promotion, surtout lors du Black Friday (novembre), des soldes d'hiver (janvier) et du Prime Day (juillet). En moyenne, les remises atteignent 15 à 30 %. Un Philips Essential à 89 € se trouve régulièrement à 65-70 € en promotion, et le Xiaomi descend parfois à 55 €.</p>
-<p><strong>Notre conseil :</strong> si vous n'êtes pas pressé, créez des alertes de prix sur les comparateurs pour être notifié des baisses. Sinon, les prix actuels restent très raisonnables au vu des prestations.</p>
-
-<h2>Conclusion : notre verdict</h2>
-<p>Le <strong>Xiaomi Smart Air Fryer Pro à 69 €</strong> est notre coup de cœur incontestable dans cette gamme de prix. Il offre des fonctionnalités que l'on ne trouve habituellement qu'à partir de 130 € (connectivité, application riche, performances de cuisson élevées). Si vous préférez une marque européenne traditionnelle, le <strong>Philips Essential à 89 €</strong> est le choix le plus sûr.</p>
-<p>Pour aller au-delà du budget de 100 € et découvrir ce que proposent les modèles premium, consultez notre <a href="/fr/blog/comment-choisir-airfryer-famille">guide de choix d'airfryer pour la famille</a>. Explorez aussi notre <a href="/fr/guides/airfryers">guide complet des airfryers</a> et le <a href="/fr/guides/airfryer-vs-four">comparatif airfryer vs four</a> pour faire le meilleur choix.</p>
-
-<h2>À quoi renoncer sous 100 € ? (et ce que vous aurez quand même)</h2>
-<table>
-<thead><tr><th>Fonctionnalité</th><th>Airfryer petit budget (&lt;100 €)</th><th>Airfryer gamme supérieure (100-200 €)</th></tr></thead>
-<tbody>
-<tr><td>Capacité</td><td>3-5L (1-3 personnes)</td><td>5-10L (2-6 personnes)</td></tr>
-<tr><td>Température max</td><td>200°C généralement</td><td>200-230°C</td></tr>
-<tr><td>Puissance</td><td>1 400-1 600 W</td><td>1 700-2 500 W</td></tr>
-<tr><td>Connectivité Wi-Fi</td><td>Parfois (Xiaomi uniquement)</td><td>Souvent disponible</td></tr>
-<tr><td>Qualité des matériaux</td><td>Plastique avec rails plastique</td><td>Plastique avec rails métal</td></tr>
-<tr><td>Performance cuisson</td><td>Correcte pour usage quotidien</td><td>Meilleure croustillance</td></tr>
-<tr><td>Durabilité estimée</td><td>2-5 ans</td><td>4-8 ans</td></tr>
-</tbody>
-</table>
-<p>Un airfryer à petit budget répond parfaitement aux besoins d'une personne seule ou d'un couple. Les limitations deviennent réelles pour les familles de 3+ personnes.</p>
-
-<h2>5 questions à se poser avant d'acheter un airfryer à moins de 100 €</h2>
+<h2>What you gain and give up at entry level</h2>
+<p><strong>You keep the essentials</strong>: crisp results with little or no oil, programmes for common foods, an easy-to-clean basket and cooking times that are often shorter than an oven for small quantities.</p>
+<p><strong>You usually give up</strong>:</p>
 <ul>
-<li><strong>Pour combien de personnes ?</strong> Si vous cuisinez régulièrement pour plus de 2 personnes, un 4L sera souvent insuffisant. Visez un 5L minimum.</li>
-<li><strong>Quelle utilisation principale ?</strong> Légumes et frites : n'importe quel modèle. Viandes : privilégiez 200°C minimum et bonne puissance.</li>
-<li><strong>Avez-vous une petite cuisine ?</strong> Le Xiaomi à 25 x 28 cm est l'un des plus compacts. Mesurez votre espace avant.</li>
-<li><strong>Êtes-vous sensible à la connectivité ?</strong> Seul le Xiaomi offre Wi-Fi et domotique sous 100 €. Les autres sont classiques.</li>
-<li><strong>Avez-vous un budget accessoires ?</strong> Prévoyez 20-30 € supplémentaires pour les feuilles de cuisson et accessoires essentiels.</li>
-</ul>`,
+<li><strong>Two cooking zones</strong>: none of the models in this guide has a dual drawer. To cook a main and a side at the same time, you need to move up a tier, as explained in our <a href="/en/blog/comment-choisir-airfryer-famille">guide to choosing a family air fryer</a>.</li>
+<li><strong>Very large capacities</strong>: beyond four people, plan on several batches.</li>
+<li><strong>Some finishing touches</strong>: simpler plastics, non-stick coatings that need more care, and fans that can be more audible.</li>
+<li><strong>Connectivity</strong>, except on the Xiaomi and the Cosori Lite, which are exceptions in this tier.</li>
+</ul>
 
-    en: `<h2>Can a cheap air fryer be a good air fryer?</h2>
-<p>The short answer is yes, provided you know what you're buying. The air fryer market has matured considerably in 2026, and entry-level models now deliver perfectly decent performance for daily use. We bought and tested 8 air fryers under 100 euros over 3 months to identify the 5 that truly deserve your money.</p>
+<h2>Mistakes to avoid</h2>
+<ul>
+<li><strong>Choosing on stated volume alone</strong>: a round 4-litre basket can offer less floor area than a square 3.8-litre one.</li>
+<li><strong>Filling the basket to the brim</strong>: air needs to circulate. One layer, two at most, and shake halfway through.</li>
+<li><strong>Buying an unknown brand with no spare parts</strong>: a damaged basket can make the appliance unusable.</li>
+<li><strong>Scratching the coating</strong>: use silicone or wooden utensils, never an abrasive scourer.</li>
+<li><strong>Forgetting clearance</strong>: leave free space behind and above the appliance for the air outlet.</li>
+</ul>
 
-<h2>Comparison table: top 5 air fryers under 100 euros</h2>
+<h2>Use and safety</h2>
+<p>Place the air fryer on a stable, heat-resistant surface, away from curtains and wall cabinets. Plug it directly into a wall socket rather than a crowded extension lead: these appliances draw a lot of power. The first use may give off a slight smell; run it empty for a few minutes with a window open, as most manuals recommend. Let the appliance cool before cleaning it. For routine care, see our <a href="/en/blog/entretien-nettoyage-airfryer">air fryer cleaning guide</a>.</p>
+
+<h2>Our verdict</h2>
+<p>If you only remember one, choose the <strong>Moulinex Easy Fry Max 5L</strong>: it is the most versatile entry-level air fryer, with enough capacity for a family. The <strong>Xiaomi Smart Air Fryer Pro 4L</strong> is the best choice if you want a window and an app while staying in the budget tier. And for one or two people, the <strong>Cosori Lite 3.8L</strong> delivers the essentials in a compact format. The Philips 2000 Series and the Ninja AF100EU remain solid alternatives if you prefer a well-known brand and simple controls.</p>`,
+    de: `<p><strong>Die beste günstige Heißluftfritteuse 2026 für die meisten Haushalte ist die Moulinex Easy Fry Max 5L</strong>: ein 5-Liter-Korb, 10 Programme und ein Touchscreen in der günstigsten Preisklasse des Marktes. Wer ein vernetztes Gerät möchte, ohne eine Klasse höher zu gehen, findet in der Xiaomi Smart Air Fryer Pro 4L das vollständigste Modell, und für ein oder zwei Personen in einer kleinen Küche erledigt die Cosori Lite 3.8L das Wesentliche auf wenig Platz.</p>
+<p>Dieser Ratgeber vergleicht Modelle, die derzeit in Europa erhältlich sind, auf Grundlage von Herstellerangaben, veröffentlichten unabhängigen Testberichten und verifizierten Käuferbewertungen. Preise nennen wir nicht, denn sie ändern sich wöchentlich. Stattdessen sprechen wir von Preisklassen, vom Einstieg bis zur erschwinglichen Mittelklasse. Die vollständige Auswahl finden Sie auf unserer Seite <a href="/de/cuisine-connectee/airfryers">Heißluftfritteusen</a>.</p>
+
+<h2>Was bedeutet „günstig“ bei einer Heißluftfritteuse?</h2>
+<p>Der Markt lässt sich in drei Stufen einteilen. Ganz unten stehen die <strong>Einsteigermodelle</strong>: eine einzige Schublade mit 3,5 bis 5 Litern, rund 1.500 W Leistung und einfache Bedienung. In der <strong>Mittelklasse</strong> kommen mehr Volumen, ein Sichtfenster oder eine App hinzu. Ganz oben finden sich Geräte mit <strong>zwei Schubladen</strong>, Kombigeräte und große Formate mit 8 bis 10 Litern.</p>
+<p>Die gute Nachricht: Für den Alltag (Pommes, Hähnchen, Ofengemüse, Aufwärmen) gart eine gut konstruierte Einsteiger-Heißluftfritteuse sehr ordentlich. Teure Modelle unterscheiden sich vor allem durch Volumen, Bedienkomfort und Zusatzfunktionen, nicht durch das Garprinzip. Das bleibt gleich: ein Heizelement und ein Ventilator, der heiße Luft umwälzt.</p>
+
+<h2>Die Kriterien, die bei kleinem Budget wirklich zählen</h2>
+<ul>
+<li><strong>Nutzbares Volumen</strong>: Rechnen Sie mit etwa 3,5 bis 4 Litern für eine bis zwei Personen und 5 Litern für drei bis vier. Ist der Korb zu klein, müssen Sie in mehreren Durchgängen garen.</li>
+<li><strong>Korbform</strong>: Ein eckiger Korb bietet mehr Bodenfläche als ein runder mit gleichem Volumen, und auf die Fläche kommt es an, damit sich das Gargut nicht stapelt.</li>
+<li><strong>Temperaturbereich</strong>: Die meisten Geräte erreichen 200 °C. Manche gehen höher, andere tief genug zum Dörren.</li>
+<li><strong>Bedienung</strong>: Touchscreen oder Tasten, Programme, Timer bis 60 Minuten. Einfache Bedienelemente fallen seltener aus und sind sofort verständlich.</li>
+<li><strong>Reinigung</strong>: Achten Sie darauf, dass Korb und Schublade spülmaschinengeeignet sind und die Antihaftbeschichtung bei Käufern gut abschneidet.</li>
+<li><strong>Platzbedarf</strong>: Messen Sie den Raum unter den Hängeschränken. Eine Heißluftfritteuse braucht Abstand, um die warme Luft abzugeben.</li>
+<li><strong>Marke und Service</strong>: Im Einstiegssegment verlängert ein Hersteller, der Ersatzteile (Korb, Einsatz) anbietet, die Lebensdauer deutlich.</li>
+</ul>
+
+<h2>Die 5 besten günstigen Heißluftfritteusen 2026</h2>
+
+<h3>1. Moulinex Easy Fry Max 5L – die beste Wahl insgesamt</h3>
+<p>Die Moulinex Easy Fry Max hat den größten Korb dieser Auswahl: 5 Liter, laut Hersteller für eine Familienmahlzeit mit bis zu sechs Portionen. Sie leistet 1.550 W und bietet 10 Automatikprogramme, einen Touchscreen und einen Temperaturbereich von 70 bis 200 °C, dazu einen Timer bis 60 Minuten. Korb und Schublade sind spülmaschinengeeignet.</p>
+<p><strong>Stärken</strong>: das großzügigste Volumen im Einstiegssegment, viele übersichtliche Programme, eine in Europa gut vertretene Marke mit Reparaturnetz.</p>
+<p><strong>Grenzen</strong>: kein Sichtfenster, keine App, recht tiefe Stellfläche.</p>
+<p><strong>Für wen?</strong> Familien mit drei oder vier Personen, die ein einfaches Gerät für jeden Tag suchen. Mehr dazu in unserer <a href="/de/blog/test-moulinex-easy-fry-max">ausführlichen Bewertung der Moulinex Easy Fry Max</a>.</p>
+
+<h3>2. Xiaomi Smart Air Fryer Pro 4L – das vollständigste vernetzte Modell</h3>
+<p>Die Xiaomi Smart Air Fryer Pro 4L vereint Funktionen, die man sonst eher weiter oben findet: einen OLED-Touchscreen, ein Sichtfenster, 11 voreingestellte Modi und die Steuerung per Xiaomi-Home-App mit über 100 Rezepten. Sie leistet 1.600 W bei 40 bis 200 °C – niedrig genug zum Dörren, Auftauen und sogar für Joghurt.</p>
+<p><strong>Stärken</strong>: das Sichtfenster, um das Gargut zu kontrollieren, ohne die Schublade zu öffnen, die App und die vielseitigen Niedrigtemperatur-Modi.</p>
+<p><strong>Grenzen</strong>: 4 Liter reichen für zwei bis höchstens drei Personen; die App erfordert ein Xiaomi-Konto, und ohne sie verlieren einige Funktionen an Reiz.</p>
+<p><strong>Für wen?</strong> Paare und kleine Haushalte, die ihre Küche gern per Smartphone steuern. Siehe auch unsere <a href="/de/blog/test-xiaomi-smart-air-fryer-pro">Bewertung der Xiaomi Smart Air Fryer Pro</a>.</p>
+
+<h3>3. Cosori Lite 3.8L – kompakt für eine oder zwei Personen</h3>
+<p>Die Cosori Lite 3.8L (Modell CAF-LI401S) ist eine kleine, eckige Heißluftfritteuse mit 1.500 W, 7 Funktionen und einem Bereich von 75 bis 230 °C. Sie lässt sich auch über die VeSync-App steuern und funktioniert mit Amazon Alexa und Google Assistant. Der eckige Korb und der Einsatz sind spülmaschinengeeignet.</p>
+<p><strong>Stärken</strong>: geringer Platzbedarf, ein eckiger Korb, der sein Volumen gut nutzt, eine überdurchschnittlich hohe Maximaltemperatur und Sprachsteuerung.</p>
+<p><strong>Grenzen</strong>: 3,8 Liter sind für mehr als zwei Personen knapp; kein Sichtfenster.</p>
+<p><strong>Für wen?</strong> Singles, Paare, kleine Wohnungen und Studierende, die ein unauffälliges Gerät möchten. Passend dazu: unser Ratgeber zur <a href="/de/blog/heissluftfritteuse-fuer-2-personen">Heißluftfritteuse für 2 Personen</a>.</p>
+
+<h3>4. Philips Airfryer Serie 2000 4,2 L (NA221/00) – die sichere Wahl für Einsteiger</h3>
+<p>Das Einstiegsmodell von Philips bietet einen 4,2-Liter-Korb, 1.500 W und mehrere voreingestellte Programme, dazu spülmaschinengeeignete Korb und Schublade. Philips gehörte zu den ersten Herstellern von Heißluftfritteusen für Privathaushalte, und die RapidAir-Luftzirkulation steckt auch in diesem Modell.</p>
+<p><strong>Stärken</strong>: sehr einfache Bedienung, von Käufern als robust beschriebene Verarbeitung, ein dichtes Ersatzteil- und Servicenetz in Europa.</p>
+<p><strong>Grenzen</strong>: keine App, weniger Programme als die Moulinex, mittleres Volumen.</p>
+<p><strong>Für wen?</strong> Wer seine erste Heißluftfritteuse kauft und vor allem ein einfaches, langlebiges Gerät will.</p>
+
+<h3>5. Ninja Air Fryer AF100EU 3,8 L – der bewährte Klassiker</h3>
+<p>Die Ninja AF100EU ist seit einigen Jahren auf dem Markt und weiterhin erhältlich, was sie zu einer der meistbewerteten Heißluftfritteusen macht. Sie bietet 3,8 Liter, 1.500 W, bis zu 210 °C und vier Funktionen: Heißluftfrittieren, Braten, Aufwärmen und Dörren. Der antihaftbeschichtete Behälter und der Einsatz sind spülmaschinengeeignet.</p>
+<p><strong>Stärken</strong>: gut gewählte Funktionen, laut Nutzern schnelles Aufheizen und eine große Rezeptsammlung von Ninja.</p>
+<p><strong>Grenzen</strong>: eine Einstellung pro Funktion, kein Touchscreen, keine App, Volumen für zwei bis drei Personen.</p>
+<p><strong>Für wen?</strong> Alle, die ein unkompliziertes Gerät einer bekannten Marke ohne Spielereien suchen.</p>
+
+<h2>Vergleichstabelle</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Price</th><th>Capacity</th><th>Power</th><th>Presets</th><th>Score</th></tr>
+<tr><th>Modell</th><th>Volumen</th><th>Leistung</th><th>Bedienung und Vernetzung</th><th>Ideal für</th></tr>
 </thead>
 <tbody>
-<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>69 euros</td><td>4 litres</td><td>1,600 W</td><td>8 + app</td><td>9/10</td></tr>
-<tr><td>Moulinex Easy Fry Compact</td><td>55 euros</td><td>3 litres</td><td>1,300 W</td><td>6</td><td>7.5/10</td></tr>
-<tr><td>Cosori Lite 3.8L</td><td>75 euros</td><td>3.8 litres</td><td>1,500 W</td><td>7</td><td>8/10</td></tr>
-<tr><td>Philips Essential HD9200</td><td>89 euros</td><td>4.1 litres</td><td>1,400 W</td><td>7</td><td>8.5/10</td></tr>
-<tr><td>Tefal Easy Fry Classic+</td><td>65 euros</td><td>4.2 litres</td><td>1,500 W</td><td>8</td><td>7.5/10</td></tr>
+<tr><td>Moulinex Easy Fry Max 5L</td><td>5 l</td><td>1.550 W</td><td>Touchscreen, 10 Programme</td><td>Familien mit 3-4 Personen</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 l</td><td>1.600 W</td><td>OLED, Sichtfenster, App</td><td>Kleine vernetzte Haushalte</td></tr>
+<tr><td>Cosori Lite 3.8L</td><td>3,8 l</td><td>1.500 W</td><td>7 Funktionen, App, Alexa und Google</td><td>1-2 Personen, kleine Küchen</td></tr>
+<tr><td>Philips Serie 2000 4,2 L</td><td>4,2 l</td><td>1.500 W</td><td>Tasten, Programme</td><td>Erste Heißluftfritteuse</td></tr>
+<tr><td>Ninja AF100EU</td><td>3,8 l</td><td>1.500 W</td><td>4 Funktionen, Tasten</td><td>Einfacher Alltagsgebrauch</td></tr>
 </tbody>
 </table>
 
-<h2>1. Xiaomi Smart Air Fryer Pro 4L — Best value (69 euros)</h2>
-<p>The only air fryer under 100 euros with Wi-Fi connectivity and a full app (Mi Home) offering 80+ guided recipes. Its 1,600 W delivers performance close to models costing twice as much, and its energy consumption of 0.34 kWh per 20-minute session is among the lowest on the market.</p>
+<h2>Was Sie im Einstiegssegment bekommen und aufgeben</h2>
+<p><strong>Sie behalten das Wesentliche</strong>: knusprige Ergebnisse mit wenig oder ganz ohne Fett, Programme für gängige Lebensmittel, einen leicht zu reinigenden Korb und bei kleinen Mengen oft kürzere Garzeiten als im Backofen.</p>
+<p><strong>Meist verzichten Sie auf</strong>:</p>
 <ul>
-<li><strong>Strengths:</strong> Wi-Fi, 80+ recipes, even cooking, compact design, excellent energy efficiency.</li>
-<li><strong>Weaknesses:</strong> 4L capacity (2-3 people), no viewing window, requires Xiaomi account.</li>
-</ul>
-<p>Read our <a href="/en/blog/test-xiaomi-smart-air-fryer-pro">full Xiaomi Smart Air Fryer Pro review</a>.</p>
-
-<h2>2. Philips Essential HD9200 — Trusted reliability (89 euros)</h2>
-<p>Philips pioneered the air fryer, and RapidAir technology is present even in this entry-level model. Build quality is a step above the competition, and Philips after-sales service remains among the best.</p>
-<ul>
-<li><strong>Strengths:</strong> RapidAir technology, solid build, 7 presets, dishwasher-safe basket, 2-year warranty.</li>
-<li><strong>Weaknesses:</strong> highest price in the top 5, no Wi-Fi, basic digital display.</li>
+<li><strong>Zwei Garzonen</strong>: Keines der Modelle in diesem Ratgeber hat eine Doppelschublade. Um Hauptgericht und Beilage gleichzeitig zuzubereiten, brauchen Sie die nächsthöhere Klasse, wie in unserem <a href="/de/blog/comment-choisir-airfryer-famille">Ratgeber zur Familien-Heißluftfritteuse</a> erklärt.</li>
+<li><strong>Sehr große Volumen</strong>: Ab vier Personen sollten Sie mehrere Durchgänge einplanen.</li>
+<li><strong>Manche Details</strong>: einfachere Kunststoffe, Antihaftbeschichtungen, die mehr Pflege brauchen, und teils hörbarere Lüfter.</li>
+<li><strong>Vernetzung</strong>, außer bei Xiaomi und Cosori Lite, die in dieser Klasse die Ausnahme sind.</li>
 </ul>
 
-<h2>3. Cosori Lite 3.8L — The balanced choice (75 euros)</h2>
-<p>A well-designed air fryer hitting the sweet spot between features and price. Its LED touchscreen, square basket, preheat function, and shake reminder are rarely found at this price.</p>
+<h2>Fehler, die Sie vermeiden sollten</h2>
 <ul>
-<li><strong>Strengths:</strong> LED touchscreen, square basket, auto preheat, shake reminder, included recipe book.</li>
-<li><strong>Weaknesses:</strong> 3.8L slightly small for a family of 4, short power cord, slightly noisy (65 dB).</li>
+<li><strong>Nur nach dem angegebenen Volumen kaufen</strong>: Ein runder 4-Liter-Korb bietet mitunter weniger Bodenfläche als ein eckiger mit 3,8 Litern.</li>
+<li><strong>Den Korb bis zum Rand füllen</strong>: Die Luft muss zirkulieren. Eine Lage, höchstens zwei, und nach der Hälfte der Zeit schütteln.</li>
+<li><strong>Eine unbekannte Marke ohne Ersatzteile kaufen</strong>: Ein beschädigter Korb kann das Gerät unbrauchbar machen.</li>
+<li><strong>Die Beschichtung zerkratzen</strong>: Verwenden Sie Silikon- oder Holzutensilien, niemals Scheuerschwämme.</li>
+<li><strong>Den Abstand vergessen</strong>: Lassen Sie hinter und über dem Gerät Platz für den Luftauslass.</li>
 </ul>
 
-<h2>4. Tefal Easy Fry Classic+ — Biggest capacity for the price (65 euros)</h2>
-<p>At 4.2 litres for just 65 euros, the best capacity-to-price ratio in our selection. Ideal if size is your priority and budget is tight.</p>
+<h2>Nutzung und Sicherheit</h2>
+<p>Stellen Sie die Heißluftfritteuse auf eine stabile, hitzebeständige Fläche, fern von Vorhängen und Hängeschränken. Schließen Sie sie direkt an eine Wandsteckdose an statt an eine voll belegte Mehrfachsteckdose, denn diese Geräte ziehen viel Leistung. Beim ersten Gebrauch kann ein leichter Geruch entstehen; lassen Sie das Gerät einige Minuten leer bei offenem Fenster laufen, wie es die meisten Anleitungen empfehlen. Lassen Sie es vor der Reinigung abkühlen. Zum Stromverbrauch lesen Sie unseren Ratgeber <a href="/de/blog/heissluftfritteuse-stromverbrauch-kosten">Heißluftfritteuse: Stromverbrauch und Kosten</a>.</p>
+
+<h2>Unser Fazit</h2>
+<p>Wenn Sie sich nur eines merken: Nehmen Sie die <strong>Moulinex Easy Fry Max 5L</strong>. Sie ist die vielseitigste Einsteiger-Heißluftfritteuse und bietet genug Volumen für eine Familie. Die <strong>Xiaomi Smart Air Fryer Pro 4L</strong> ist die beste Wahl, wenn Sie Sichtfenster und App möchten und trotzdem im günstigen Segment bleiben wollen. Für eine oder zwei Personen liefert die <strong>Cosori Lite 3.8L</strong> das Wesentliche im kompakten Format. Philips Serie 2000 und Ninja AF100EU bleiben solide Alternativen, wenn Sie eine bekannte Marke und einfache Bedienung bevorzugen.</p>`,
+    es: `<p><strong>La mejor freidora de aire barata en 2026 para la mayoría de los hogares es la Moulinex Easy Fry Max 5L</strong>: una cesta de 5 litros, 10 programas y pantalla táctil, en la gama más asequible del mercado. Si quieres un modelo conectado sin subir de gama, la Xiaomi Smart Air Fryer Pro 4L es la más completa, y para una o dos personas en una cocina pequeña, la Cosori Lite 3.8L cumple con lo esencial ocupando muy poco espacio.</p>
+<p>Esta guía compara modelos que se venden actualmente en Europa a partir de las fichas técnicas de los fabricantes, análisis independientes publicados y opiniones de compradores verificados. No damos precios, porque cambian cada semana. Hablamos de gamas, desde la gama de entrada hasta la gama media asequible. Encontrarás toda la selección en nuestra página de <a href="/es/cuisine-connectee/airfryers">freidoras de aire</a>.</p>
+
+<h2>¿Qué significa «barata» en una freidora de aire?</h2>
+<p>El mercado se divide en tres escalones. Abajo están las freidoras de <strong>gama de entrada</strong>: un solo cajón de 3,5 a 5 litros, unos 1.500 W de potencia y mandos sencillos. En la <strong>gama media</strong> se añade más capacidad, una ventana o conexión. Arriba están los modelos de <strong>doble cajón</strong>, los aparatos combinados y los grandes formatos de 8 a 10 litros.</p>
+<p>La buena noticia: para el día a día (patatas, pollo, verduras asadas, recalentar), una freidora de aire de gama de entrada bien diseñada cocina muy correctamente. Lo que distingue a los modelos caros es sobre todo la capacidad, la comodidad de uso y las funciones extra, no el principio de cocción, que es el mismo: una resistencia y un ventilador que hacen circular aire caliente.</p>
+
+<h2>Los criterios que de verdad importan con poco presupuesto</h2>
 <ul>
-<li><strong>Strengths:</strong> 4.2L at 65 euros, 8 presets, 60-minute timer, trusted Tefal brand.</li>
-<li><strong>Weaknesses:</strong> average non-stick coating, no keep-warm function, basic design.</li>
+<li><strong>Capacidad útil</strong>: calcula unos 3,5 a 4 litros para una o dos personas, y 5 litros para tres o cuatro. Una cesta demasiado pequeña te obliga a cocinar por tandas.</li>
+<li><strong>Forma de la cesta</strong>: una cesta cuadrada ofrece más superficie de fondo que una redonda del mismo volumen, y es la superficie lo que evita que los alimentos se amontonen.</li>
+<li><strong>Rango de temperatura</strong>: la mayoría llega a 200 °C. Algunas suben más y otras bajan lo suficiente para deshidratar.</li>
+<li><strong>Mandos</strong>: pantalla táctil o botones, programas, temporizador hasta 60 minutos. Los mandos sencillos fallan menos y se entienden al momento.</li>
+<li><strong>Limpieza</strong>: comprueba que la cesta y el cajón vayan al lavavajillas y que el antiadherente tenga buena reputación entre los compradores.</li>
+<li><strong>Tamaño</strong>: mide el hueco bajo los muebles altos. Una freidora de aire necesita espacio alrededor para expulsar el aire caliente.</li>
+<li><strong>Marca y servicio técnico</strong>: en la gama de entrada, un fabricante que vende recambios (cesta, rejilla) alarga mucho la vida del aparato.</li>
 </ul>
 
-<h2>5. Moulinex Easy Fry Compact — Ultra-compact for small spaces (55 euros)</h2>
-<p>The cheapest and most compact model. Ideal for students, small flats, or as a travel air fryer.</p>
-<ul>
-<li><strong>Strengths:</strong> 55 euros, ultra-compact (27x23x28 cm), 3.1 kg, 6 presets.</li>
-<li><strong>Weaknesses:</strong> 3L only (1-2 people), 1,300 W (slower), mechanical dial.</li>
-</ul>
-<p>For the larger version, see our <a href="/en/blog/test-moulinex-easy-fry-max">Moulinex Easy Fry Max review</a>.</p>
+<h2>Las 5 mejores freidoras de aire baratas en 2026</h2>
 
-<h2>What you get under 100 euros</h2>
-<ul>
-<li>Decent crispy cooking results — chips are crispy, chicken is golden, vegetables are well-grilled.</li>
-<li>6 to 8 automatic presets covering common uses.</li>
-<li>Removable, mostly dishwasher-safe basket.</li>
-<li>3 to 4.2 litre capacity — enough for 2-3 people.</li>
-<li>Adjustable temperature from 80°C to 200°C.</li>
-</ul>
+<h3>1. Moulinex Easy Fry Max 5L — la mejor opción global</h3>
+<p>La Moulinex Easy Fry Max tiene la cesta más grande de esta selección: 5 litros, pensados para una comida familiar de hasta seis raciones según el fabricante. Ofrece 1.550 W, 10 programas automáticos, pantalla táctil y temperatura regulable de 70 a 200 °C, con temporizador de hasta 60 minutos. La cesta y el cajón van al lavavajillas.</p>
+<p><strong>Puntos fuertes</strong>: la capacidad más generosa de la gama de entrada, muchos programas claros y una marca muy implantada en Europa con red de reparación.</p>
+<p><strong>Límites</strong>: sin ventana ni conexión, y bastante fondo sobre la encimera.</p>
+<p><strong>¿Para quién?</strong> Familias de tres o cuatro personas que buscan un único aparato sencillo para todos los días. Más detalles en nuestra <a href="/es/blog/test-moulinex-easy-fry-max">opinión sobre la Moulinex Easy Fry Max</a>.</p>
 
-<h2>What you sacrifice under 100 euros</h2>
-<ul>
-<li><strong>Dual basket:</strong> no model under 100 euros offers dual zones.</li>
-<li><strong>Large capacity:</strong> maximum 4.2 litres.</li>
-<li><strong>Viewing window:</strong> absent on all tested models.</li>
-<li><strong>Connectivity:</strong> only Xiaomi offers it at this price.</li>
-<li><strong>Coating durability:</strong> functional but less durable. Use <a href="/en/blog/top-10-accessoires-airfryer">liners and silicone moulds</a> to extend life.</li>
-<li><strong>Noise level:</strong> budget models are generally louder (60-68 dB vs 50-55 dB premium).</li>
-</ul>
+<h3>2. Xiaomi Smart Air Fryer Pro 4L — la conectada más completa</h3>
+<p>La Xiaomi Smart Air Fryer Pro 4L reúne funciones que suelen verse en gamas superiores: pantalla táctil OLED, ventana de control, 11 modos predefinidos y control desde la app Xiaomi Home con más de 100 recetas. Ofrece 1.600 W y un rango de 40 a 200 °C, lo bastante bajo para deshidratar, descongelar e incluso hacer yogur.</p>
+<p><strong>Puntos fuertes</strong>: la ventana para vigilar la cocción sin abrir el cajón, la app y la versatilidad de los modos de baja temperatura.</p>
+<p><strong>Límites</strong>: 4 litros sirven para dos o tres personas como mucho; la app exige una cuenta Xiaomi y algunas funciones pierden interés si no la usas.</p>
+<p><strong>¿Para quién?</strong> Parejas y hogares pequeños a los que les gusta controlar la cocina desde el móvil. Consulta también nuestra <a href="/es/blog/test-xiaomi-smart-air-fryer-pro">opinión sobre la Xiaomi Smart Air Fryer Pro</a>.</p>
 
-<h2>Which model for which profile?</h2>
+<h3>3. Cosori Lite 3.8L — la compacta para una o dos personas</h3>
+<p>La Cosori Lite 3.8L (modelo CAF-LI401S) es una freidora de aire pequeña y cuadrada de 1.500 W, con 7 funciones y un rango de 75 a 230 °C. También se controla desde la app VeSync y funciona con Amazon Alexa y Google Assistant. La cesta cuadrada y la rejilla van al lavavajillas.</p>
+<p><strong>Puntos fuertes</strong>: poco espacio ocupado, una cesta cuadrada que aprovecha bien su volumen, una temperatura máxima superior a la media y control por voz.</p>
+<p><strong>Límites</strong>: 3,8 litros se quedan cortos para más de dos personas; sin ventana.</p>
+<p><strong>¿Para quién?</strong> Personas que viven solas, parejas, estudios y estudiantes que quieren un aparato discreto.</p>
+
+<h3>4. Philips Airfryer Serie 2000 4,2 L (NA221/00) — la apuesta segura para empezar</h3>
+<p>La gama de entrada de Philips ofrece una cesta de 4,2 litros, 1.500 W y varios programas predefinidos, con cesta y cajón aptos para lavavajillas. Philips fue uno de los primeros fabricantes de freidoras de aire domésticas y su tecnología de circulación de aire RapidAir también equipa este modelo.</p>
+<p><strong>Puntos fuertes</strong>: manejo muy sencillo, una fabricación que los compradores describen como sólida y una amplia red de recambios y servicio en Europa.</p>
+<p><strong>Límites</strong>: sin conexión, menos programas que la Moulinex y una capacidad intermedia.</p>
+<p><strong>¿Para quién?</strong> Quien compra su primera freidora de aire y quiere sobre todo un aparato sencillo y duradero.</p>
+
+<h3>5. Ninja Air Fryer AF100EU 3,8 L — el clásico que ha superado la prueba del tiempo</h3>
+<p>La Ninja AF100EU salió hace varios años y sigue a la venta, lo que la convierte en una de las freidoras de aire con más opiniones de compradores. Ofrece 3,8 litros, 1.500 W, hasta 210 °C y cuatro funciones: freír con aire, asar, recalentar y deshidratar. La cubeta antiadherente y la rejilla van al lavavajillas.</p>
+<p><strong>Puntos fuertes</strong>: funciones bien elegidas, un calentamiento rápido según los usuarios y un amplio recetario de Ninja.</p>
+<p><strong>Límites</strong>: un solo ajuste por función, sin pantalla táctil ni conexión, capacidad para dos o tres personas.</p>
+<p><strong>¿Para quién?</strong> Quien busca un aparato sencillo de una marca conocida, sin artilugios.</p>
+
+<h2>Tabla comparativa</h2>
 <table>
 <thead>
-<tr><th>Profile</th><th>Our pick</th><th>Why</th></tr>
+<tr><th>Modelo</th><th>Capacidad</th><th>Potencia</th><th>Mandos y conexión</th><th>Ideal para</th></tr>
 </thead>
 <tbody>
-<tr><td>Best overall value</td><td>Xiaomi Smart Pro</td><td>Connected, performant, 69 euros</td></tr>
-<tr><td>Reliability first</td><td>Philips Essential</td><td>RapidAir, top brand</td></tr>
-<tr><td>Best screen/ergonomics</td><td>Cosori Lite</td><td>LED touch, square basket</td></tr>
-<tr><td>Biggest capacity</td><td>Tefal Classic+</td><td>4.2L at 65 euros</td></tr>
-<tr><td>Tightest budget/smallest space</td><td>Moulinex Compact</td><td>55 euros, ultra-compact</td></tr>
+<tr><td>Moulinex Easy Fry Max 5L</td><td>5 l</td><td>1.550 W</td><td>Pantalla táctil, 10 programas</td><td>Familias de 3-4 personas</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 l</td><td>1.600 W</td><td>OLED, ventana, app</td><td>Hogares pequeños conectados</td></tr>
+<tr><td>Cosori Lite 3.8L</td><td>3,8 l</td><td>1.500 W</td><td>7 funciones, app, Alexa y Google</td><td>1-2 personas, cocinas pequeñas</td></tr>
+<tr><td>Philips Serie 2000 4,2 L</td><td>4,2 l</td><td>1.500 W</td><td>Botones, programas</td><td>Primera freidora de aire</td></tr>
+<tr><td>Ninja AF100EU</td><td>3,8 l</td><td>1.500 W</td><td>4 funciones, botones</td><td>Uso diario sencillo</td></tr>
 </tbody>
 </table>
 
-<p>For premium models beyond 100 euros, see our <a href="/en/blog/comment-choisir-airfryer-famille">family air fryer buying guide</a>. Explore our <a href="/en/guides/airfryers">complete guide</a> and <a href="/en/guides/airfryer-vs-four">air fryer vs oven comparison</a>.</p>
-
-<h2>What do you give up under 100 euros? (and what you still get)</h2>
-<table>
-<thead><tr><th>Feature</th><th>Budget air fryer (&lt;100 euros)</th><th>Higher-end air fryer (100-200 euros)</th></tr></thead>
-<tbody>
-<tr><td>Capacity</td><td>3-5L (1-3 people)</td><td>5-10L (2-6 people)</td></tr>
-<tr><td>Max temperature</td><td>200°C typically</td><td>200-230°C</td></tr>
-<tr><td>Power</td><td>1,400-1,600 W</td><td>1,700-2,500 W</td></tr>
-<tr><td>Wi-Fi connectivity</td><td>Sometimes (Xiaomi only)</td><td>Often available</td></tr>
-<tr><td>Material quality</td><td>Plastic with plastic rails</td><td>Plastic with metal rails</td></tr>
-<tr><td>Cooking performance</td><td>Good for everyday use</td><td>Better crispiness</td></tr>
-<tr><td>Estimated durability</td><td>2-5 years</td><td>4-8 years</td></tr>
-</tbody>
-</table>
-<p>A budget air fryer perfectly meets the needs of one person or a couple. Limitations become real for families of 3 or more.</p>
-
-<h2>5 questions to ask yourself before buying an air fryer under 100 euros</h2>
+<h2>Qué ganas y qué sacrificas en la gama de entrada</h2>
+<p><strong>Conservas lo esencial</strong>: resultados crujientes con poco o nada de aceite, programas para los alimentos habituales, una cesta fácil de limpiar y tiempos de cocción a menudo más cortos que en el horno para cantidades pequeñas.</p>
+<p><strong>Normalmente renuncias a</strong>:</p>
 <ul>
-<li><strong>How many people are you cooking for?</strong> If you regularly cook for more than 2 people, 4L will often be insufficient. Aim for at least 5L.</li>
-<li><strong>What's your main use?</strong> Vegetables and chips: any model will do. Meats: prioritise at least 200°C and good wattage.</li>
-<li><strong>Do you have a small kitchen?</strong> The Xiaomi at 25x28 cm is one of the most compact. Measure your worktop space first.</li>
-<li><strong>Do you care about connectivity?</strong> Only the Xiaomi offers Wi-Fi and smart home integration under 100 euros. The others are classic manual models.</li>
-<li><strong>Have you budgeted for accessories?</strong> Plan an extra 20-30 euros for perforated liners and essential accessories to protect the coating.</li>
-</ul>`,
+<li><strong>Dos zonas de cocción</strong>: ningún modelo de esta guía tiene doble cajón. Para cocinar un plato y su guarnición a la vez hay que subir de gama, como explicamos en nuestra <a href="/es/blog/comment-choisir-airfryer-famille">guía para elegir una freidora de aire familiar</a>.</li>
+<li><strong>Las capacidades muy grandes</strong>: a partir de cuatro personas, cuenta con varias tandas.</li>
+<li><strong>Algunos acabados</strong>: plásticos más sencillos, antiadherentes que piden más cuidado y ventiladores a veces más audibles.</li>
+<li><strong>La conexión</strong>, salvo en la Xiaomi y la Cosori Lite, que son la excepción en esta gama.</li>
+</ul>
 
-    de: `<h2>Kann eine gunstige Heißluftfritteuse gut sein?</h2>
-<p>Die kurze Antwort: Ja, vorausgesetzt Sie wissen, was Sie kaufen. Der Markt hat sich 2026 erheblich weiterentwickelt, und Einsteigermodelle bieten heute sehr ordentliche Leistungen fur den taglichen Gebrauch. Wir haben 8 Heißluftfritteusen unter 100 € drei Monate lang getestet, um die 5 besten zu identifizieren.</p>
+<h2>Errores que debes evitar</h2>
+<ul>
+<li><strong>Elegir solo por el volumen anunciado</strong>: una cesta redonda de 4 litros puede ofrecer menos superficie que una cuadrada de 3,8.</li>
+<li><strong>Llenar la cesta hasta arriba</strong>: el aire tiene que circular. Una capa, dos como máximo, y agita a mitad de cocción.</li>
+<li><strong>Comprar una marca desconocida sin recambios</strong>: una cesta dañada puede dejar el aparato inservible.</li>
+<li><strong>Rayar el antiadherente</strong>: usa utensilios de silicona o madera, nunca estropajos abrasivos.</li>
+<li><strong>Olvidar el espacio libre</strong>: deja hueco detrás y encima del aparato para la salida de aire.</li>
+</ul>
 
-<h2>Vergleichstabelle: Top 5 unter 100€</h2>
+<h2>Uso y seguridad</h2>
+<p>Coloca la freidora de aire sobre una superficie estable y resistente al calor, lejos de cortinas y muebles altos. Enchúfala directamente a la pared en lugar de a una regleta cargada: estos aparatos consumen bastante potencia. El primer uso puede desprender un ligero olor; hazla funcionar vacía unos minutos con la ventana abierta, como recomiendan la mayoría de los manuales. Deja que se enfríe antes de limpiarla. Para el mantenimiento diario, consulta nuestra <a href="/es/blog/entretien-nettoyage-airfryer">guía de limpieza de la freidora de aire</a>.</p>
+
+<h2>Nuestro veredicto</h2>
+<p>Si solo te quedas con una, elige la <strong>Moulinex Easy Fry Max 5L</strong>: es la freidora de aire de gama de entrada más versátil, con capacidad suficiente para una familia. La <strong>Xiaomi Smart Air Fryer Pro 4L</strong> es la mejor opción si quieres ventana y app sin salir de la gama económica. Y para una o dos personas, la <strong>Cosori Lite 3.8L</strong> ofrece lo esencial en formato compacto. La Philips Serie 2000 y la Ninja AF100EU siguen siendo alternativas sólidas si prefieres una marca conocida y mandos sencillos.</p>`,
+    it: `<p><strong>La migliore friggitrice ad aria economica nel 2026 per la maggior parte delle famiglie è la Moulinex Easy Fry Max 5L</strong>: un cestello da 5 litri, 10 programmi e un display touch, nella fascia più accessibile del mercato. Se vuoi un modello connesso senza salire di fascia, la Xiaomi Smart Air Fryer Pro 4L è la più completa, mentre per una o due persone in una cucina piccola la Cosori Lite 3.8L fa l’essenziale occupando poco spazio.</p>
+<p>Questa guida confronta modelli attualmente in vendita in Europa sulla base delle schede tecniche dei produttori, di recensioni indipendenti pubblicate e dei feedback di acquirenti verificati. Non indichiamo prezzi, che cambiano ogni settimana. Parliamo invece di fasce, dall’entry-level alla fascia media accessibile. Trovi tutta la selezione nella nostra pagina dedicata alle <a href="/it/cuisine-connectee/airfryers">friggitrici ad aria</a>.</p>
+
+<h2>Cosa significa «economica» per una friggitrice ad aria?</h2>
+<p>Il mercato si divide in tre fasce. In basso ci sono le friggitrici <strong>entry-level</strong>: un solo cassetto da 3,5 a 5 litri, una potenza intorno ai 1.500 W e comandi semplici. Nella <strong>fascia media</strong> si aggiungono più capienza, una finestra o la connessione. In alto troviamo i modelli a <strong>doppio cassetto</strong>, gli apparecchi combinati e i grandi formati da 8 a 10 litri.</p>
+<p>La buona notizia: per la cucina di tutti i giorni (patatine, pollo, verdure arrosto, riscaldare), una friggitrice ad aria entry-level ben progettata cuoce in modo più che dignitoso. A distinguere i modelli costosi sono soprattutto la capienza, la comodità d’uso e le funzioni accessorie, non il principio di cottura, che resta lo stesso: una resistenza e una ventola che fanno circolare aria calda.</p>
+
+<h2>I criteri che contano davvero con un budget ridotto</h2>
+<ul>
+<li><strong>Capienza utile</strong>: calcola circa 3,5-4 litri per una o due persone e 5 litri per tre o quattro. Un cestello troppo piccolo ti costringe a cuocere in più riprese.</li>
+<li><strong>Forma del cestello</strong>: un cestello quadrato offre più superficie sul fondo di uno rotondo dello stesso volume, ed è la superficie che evita di ammucchiare il cibo.</li>
+<li><strong>Intervallo di temperatura</strong>: la maggior parte arriva a 200 °C. Alcune salgono di più, altre scendono abbastanza per l’essiccazione.</li>
+<li><strong>Comandi</strong>: display touch o pulsanti, programmi preimpostati, timer fino a 60 minuti. I comandi semplici si guastano meno e si imparano subito.</li>
+<li><strong>Pulizia</strong>: verifica che cestello e cassetto vadano in lavastoviglie e che il rivestimento antiaderente sia apprezzato dagli acquirenti.</li>
+<li><strong>Ingombro</strong>: misura lo spazio sotto i pensili. Una friggitrice ad aria ha bisogno di spazio intorno per smaltire l’aria calda.</li>
+<li><strong>Marca e assistenza</strong>: nella fascia entry-level, un produttore che vende ricambi (cestello, griglia) allunga parecchio la vita dell’apparecchio.</li>
+</ul>
+
+<h2>Le 5 migliori friggitrici ad aria economiche del 2026</h2>
+
+<h3>1. Moulinex Easy Fry Max 5L — la migliore scelta complessiva</h3>
+<p>La Moulinex Easy Fry Max ha il cestello più grande di questa selezione: 5 litri, indicati dal produttore per un pasto familiare fino a sei porzioni. Dichiara 1.550 W, 10 programmi automatici, display touch e temperatura regolabile da 70 a 200 °C, con timer fino a 60 minuti. Cestello e cassetto vanno in lavastoviglie.</p>
+<p><strong>Punti di forza</strong>: la capienza più generosa della fascia entry-level, programmi numerosi e chiari, un marchio ben radicato in Europa con una rete di riparazione.</p>
+<p><strong>Limiti</strong>: niente finestra né connessione, ingombro piuttosto profondo sul piano di lavoro.</p>
+<p><strong>Per chi?</strong> Famiglie di tre o quattro persone che vogliono un unico apparecchio semplice per tutti i giorni. Approfondisci con la nostra <a href="/it/blog/test-moulinex-easy-fry-max">recensione della Moulinex Easy Fry Max</a>.</p>
+
+<h3>2. Xiaomi Smart Air Fryer Pro 4L — la connessa più completa</h3>
+<p>La Xiaomi Smart Air Fryer Pro 4L riunisce funzioni che di solito si trovano più in alto di gamma: display touch OLED, finestra di controllo, 11 modalità preimpostate e gestione dall’app Xiaomi Home con oltre 100 ricette. Dichiara 1.600 W e un intervallo da 40 a 200 °C, abbastanza basso per essiccare, scongelare e persino preparare lo yogurt.</p>
+<p><strong>Punti di forza</strong>: la finestra per controllare la cottura senza aprire il cassetto, l’app e la versatilità delle modalità a bassa temperatura.</p>
+<p><strong>Limiti</strong>: 4 litri bastano per due o al massimo tre persone; l’app richiede un account Xiaomi e alcune funzioni perdono interesse se non la usi.</p>
+<p><strong>Per chi?</strong> Coppie e piccoli nuclei che amano gestire la cucina dallo smartphone. Vedi anche la nostra <a href="/it/blog/test-xiaomi-smart-air-fryer-pro">recensione della Xiaomi Smart Air Fryer Pro</a>.</p>
+
+<h3>3. Cosori Lite 3.8L — la compatta per una o due persone</h3>
+<p>La Cosori Lite 3.8L (modello CAF-LI401S) è una piccola friggitrice ad aria quadrata da 1.500 W, con 7 funzioni e un intervallo da 75 a 230 °C. Si controlla anche dall’app VeSync e funziona con Amazon Alexa e Google Assistant. Il cestello quadrato e la griglia vanno in lavastoviglie.</p>
+<p><strong>Punti di forza</strong>: ingombro ridotto, un cestello quadrato che sfrutta bene il volume, una temperatura massima superiore alla media e il controllo vocale.</p>
+<p><strong>Limiti</strong>: 3,8 litri sono pochi oltre le due persone; niente finestra.</p>
+<p><strong>Per chi?</strong> Single, coppie, monolocali e studenti che vogliono un apparecchio discreto.</p>
+
+<h3>4. Philips Airfryer Serie 2000 4,2 L (NA221/00) — la scelta sicura per chi inizia</h3>
+<p>L’entry-level di Philips offre un cestello da 4,2 litri, 1.500 W e diversi programmi preimpostati, con cestello e cassetto lavabili in lavastoviglie. Philips è stata tra i primi produttori di friggitrici ad aria per la casa e la sua tecnologia di circolazione dell’aria RapidAir equipaggia anche questo modello.</p>
+<p><strong>Punti di forza</strong>: uso molto semplice, una costruzione che gli acquirenti descrivono come solida, un’ampia rete di ricambi e assistenza in Europa.</p>
+<p><strong>Limiti</strong>: niente connessione, meno programmi della Moulinex e una capienza intermedia.</p>
+<p><strong>Per chi?</strong> Chi compra la sua prima friggitrice ad aria e vuole soprattutto un apparecchio semplice e duraturo.</p>
+
+<h3>5. Ninja Air Fryer AF100EU 3,8 L — il classico che ha retto alla prova del tempo</h3>
+<p>La Ninja AF100EU è uscita diversi anni fa ed è ancora in vendita, il che la rende una delle friggitrici ad aria più recensite dagli acquirenti. Offre 3,8 litri, 1.500 W, fino a 210 °C e quattro funzioni: frittura ad aria, arrosto, riscaldamento ed essiccazione. La vasca antiaderente e la griglia vanno in lavastoviglie.</p>
+<p><strong>Punti di forza</strong>: funzioni ben scelte, riscaldamento rapido secondo gli utenti e un ricco ricettario Ninja.</p>
+<p><strong>Limiti</strong>: una sola impostazione per funzione, niente display touch né connessione, capienza per due o tre persone.</p>
+<p><strong>Per chi?</strong> Chi cerca un apparecchio semplice di una marca nota, senza fronzoli.</p>
+
+<h2>Tabella comparativa</h2>
 <table>
 <thead>
-<tr><th>Modell</th><th>Preis</th><th>Kapazitat</th><th>Leistung</th><th>Programme</th><th>Note</th></tr>
+<tr><th>Modello</th><th>Capienza</th><th>Potenza</th><th>Comandi e connessione</th><th>Ideale per</th></tr>
 </thead>
 <tbody>
-<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>69 €</td><td>4 Liter</td><td>1.600 W</td><td>8 + App</td><td>9/10</td></tr>
-<tr><td>Moulinex Easy Fry Compact</td><td>55 €</td><td>3 Liter</td><td>1.300 W</td><td>6</td><td>7,5/10</td></tr>
-<tr><td>Cosori Lite 3,8L</td><td>75 €</td><td>3,8 Liter</td><td>1.500 W</td><td>7</td><td>8/10</td></tr>
-<tr><td>Philips Essential HD9200</td><td>89 €</td><td>4,1 Liter</td><td>1.400 W</td><td>7</td><td>8,5/10</td></tr>
-<tr><td>Tefal Easy Fry Classic+</td><td>65 €</td><td>4,2 Liter</td><td>1.500 W</td><td>8</td><td>7,5/10</td></tr>
+<tr><td>Moulinex Easy Fry Max 5L</td><td>5 l</td><td>1.550 W</td><td>Display touch, 10 programmi</td><td>Famiglie di 3-4 persone</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 l</td><td>1.600 W</td><td>OLED, finestra, app</td><td>Piccoli nuclei connessi</td></tr>
+<tr><td>Cosori Lite 3.8L</td><td>3,8 l</td><td>1.500 W</td><td>7 funzioni, app, Alexa e Google</td><td>1-2 persone, cucine piccole</td></tr>
+<tr><td>Philips Serie 2000 4,2 L</td><td>4,2 l</td><td>1.500 W</td><td>Pulsanti, programmi</td><td>Prima friggitrice ad aria</td></tr>
+<tr><td>Ninja AF100EU</td><td>3,8 l</td><td>1.500 W</td><td>4 funzioni, pulsanti</td><td>Uso quotidiano semplice</td></tr>
 </tbody>
 </table>
 
-<h2>1. Xiaomi Smart Air Fryer Pro — Bestes Preis-Leistungs-Verhaltnis (69 €)</h2>
-<p>Die einzige Heißluftfritteuse unter 100 € mit WLAN und vollstandiger App (Mi Home) mit 80+ gefuhrten Rezepten. 1.600 W Leistung nahe an Modellen zum doppelten Preis. Verbrauch von nur 0,34 kWh pro 20-Minuten-Sitzung.</p>
+<h2>Cosa ottieni e a cosa rinunci nella fascia entry-level</h2>
+<p><strong>Mantieni l’essenziale</strong>: risultati croccanti con poco o niente olio, programmi per i cibi più comuni, un cestello facile da pulire e tempi di cottura spesso più brevi del forno per piccole quantità.</p>
+<p><strong>Di solito rinunci a</strong>:</p>
 <ul>
-<li><strong>Starken:</strong> WLAN, 80+ Rezepte, gleichmaßiges Garen, kompaktes Design, hervorragende Energieeffizienz.</li>
-<li><strong>Schwachen:</strong> 4L (2-3 Personen), kein Sichtfenster, Xiaomi-Konto erforderlich.</li>
-</ul>
-<p>Lesen Sie unseren <a href="/de/blog/test-xiaomi-smart-air-fryer-pro">vollstandigen Test</a>.</p>
-
-<h2>2. Philips Essential HD9200 — Bewahrte Zuverlassigkeit (89 €)</h2>
-<p>Philips ist der Pionier der Heißluftfritteusen. RapidAir-Technologie auch im Einstiegsmodell. Bauqualitat uber dem Wettbewerb.</p>
-<ul>
-<li><strong>Starken:</strong> RapidAir, solide Verarbeitung, 7 Programme, spulmaschinenfest, 2 Jahre Garantie.</li>
-<li><strong>Schwachen:</strong> hochster Preis im Top 5, kein WLAN, einfaches Display.</li>
+<li><strong>Due zone di cottura</strong>: nessun modello di questa guida ha il doppio cassetto. Per cuocere un piatto e il contorno insieme serve la fascia superiore, come spieghiamo nella nostra <a href="/it/blog/comment-choisir-airfryer-famille">guida alla scelta di una friggitrice ad aria per la famiglia</a>.</li>
+<li><strong>Le capienze molto grandi</strong>: oltre le quattro persone, metti in conto più riprese.</li>
+<li><strong>Alcune finiture</strong>: plastiche più semplici, rivestimenti antiaderenti che richiedono più attenzione, ventole a volte più rumorose.</li>
+<li><strong>La connessione</strong>, tranne su Xiaomi e Cosori Lite, che in questa fascia sono l’eccezione.</li>
 </ul>
 
-<h2>3. Cosori Lite 3,8L — Die ausgewogene Wahl (75 €)</h2>
-<p>LED-Touchscreen, quadratischer Korb, automatisches Vorheizen und Schuttelerinnerung — selten in dieser Preisklasse.</p>
-
-<h2>4. Tefal Easy Fry Classic+ — Großtes Volumen zum kleinen Preis (65 €)</h2>
-<p>4,2 Liter fur nur 65 € — das beste Kapazitats-Preis-Verhaltnis. Ideal wenn Große Prioritat hat.</p>
-
-<h2>5. Moulinex Easy Fry Compact — Ultra-kompakt (55 €)</h2>
-<p>Der gunstigste und kompakteste. Ideal fur Studenten oder kleine Kuchen. Fur die größere Version siehe unseren <a href="/de/blog/test-moulinex-easy-fry-max">Test des Moulinex Easy Fry Max</a>.</p>
-
-<h2>Was Sie unter 100€ bekommen</h2>
+<h2>Errori da evitare</h2>
 <ul>
-<li>Ordentlich knusprige Ergebnisse fur den Alltag.</li>
-<li>6-8 automatische Programme.</li>
-<li>Herausnehmbarer, meist spulmaschinenfester Korb.</li>
-<li>3-4,2 Liter Kapazitat (2-3 Personen).</li>
-<li>Einstellbare Temperatur 80-200°C.</li>
+<li><strong>Scegliere solo in base al volume dichiarato</strong>: un cestello rotondo da 4 litri può offrire meno superficie di uno quadrato da 3,8.</li>
+<li><strong>Riempire il cestello fino all’orlo</strong>: l’aria deve circolare. Uno strato, due al massimo, e scuoti a metà cottura.</li>
+<li><strong>Comprare una marca sconosciuta senza ricambi</strong>: un cestello danneggiato può rendere inutilizzabile l’apparecchio.</li>
+<li><strong>Graffiare il rivestimento</strong>: usa utensili in silicone o legno, mai spugne abrasive.</li>
+<li><strong>Dimenticare lo spazio intorno</strong>: lascia spazio libero dietro e sopra l’apparecchio per l’uscita dell’aria.</li>
 </ul>
 
-<h2>Worauf Sie unter 100€ verzichten</h2>
+<h2>Uso e sicurezza</h2>
+<p>Appoggia la friggitrice ad aria su una superficie stabile e resistente al calore, lontano da tende e pensili. Collegala direttamente a una presa a muro invece che a una ciabatta già carica: questi apparecchi assorbono parecchia potenza. Al primo utilizzo può sprigionarsi un leggero odore; falla funzionare a vuoto per qualche minuto con la finestra aperta, come raccomanda la maggior parte dei manuali. Lasciala raffreddare prima di pulirla. Per la manutenzione quotidiana, consulta la nostra <a href="/it/blog/entretien-nettoyage-airfryer">guida alla pulizia della friggitrice ad aria</a>.</p>
+
+<h2>Il nostro verdetto</h2>
+<p>Se devi ricordarne una sola, scegli la <strong>Moulinex Easy Fry Max 5L</strong>: è la friggitrice ad aria entry-level più versatile, con una capienza sufficiente per una famiglia. La <strong>Xiaomi Smart Air Fryer Pro 4L</strong> è la scelta migliore se vuoi finestra e app restando nella fascia economica. E per una o due persone, la <strong>Cosori Lite 3.8L</strong> offre l’essenziale in un formato compatto. Philips Serie 2000 e Ninja AF100EU restano alternative solide se preferisci un marchio noto e comandi semplici.</p>`,
+    nl: `<p><strong>De beste goedkope airfryer in 2026 voor de meeste huishoudens is de Moulinex Easy Fry Max 5L</strong>: een mand van 5 liter, 10 programma’s en een touchscreen, in de meest betaalbare klasse van de markt. Wil je een slim model zonder een klasse hoger te gaan, dan is de Xiaomi Smart Air Fryer Pro 4L het meest compleet, en voor één of twee personen in een kleine keuken doet de Cosori Lite 3.8L het belangrijkste op weinig ruimte.</p>
+<p>Deze gids vergelijkt modellen die nu in Europa te koop zijn, op basis van specificaties van de fabrikanten, gepubliceerde onafhankelijke reviews en geverifieerde kopersreviews. Prijzen noemen we niet, want die veranderen elke week. We spreken liever over klassen, van instapmodel tot betaalbare middenklasse. De volledige selectie vind je op onze pagina <a href="/nl/cuisine-connectee/airfryers">airfryers</a>.</p>
+
+<h2>Wat betekent ‘goedkoop’ bij een airfryer?</h2>
+<p>De markt valt uiteen in drie klassen. Onderaan staan de <strong>instapmodellen</strong>: één lade van 3,5 tot 5 liter, zo’n 1.500 W vermogen en eenvoudige bediening. In de <strong>middenklasse</strong> komen meer inhoud, een kijkvenster of een app erbij. Bovenaan zitten modellen met <strong>twee lades</strong>, combi-apparaten en grote formaten van 8 tot 10 liter.</p>
+<p>Het goede nieuws: voor dagelijks koken (friet, kip, geroosterde groenten, opwarmen) doet een goed ontworpen instap-airfryer het prima. Dure modellen onderscheiden zich vooral door inhoud, gebruiksgemak en extra functies, niet door het kookprincipe. Dat blijft hetzelfde: een verwarmingselement en een ventilator die hete lucht laten circuleren.</p>
+
+<h2>De criteria die er bij een klein budget echt toe doen</h2>
 <ul>
-<li><strong>Doppelkorb:</strong> kein Modell unter 100 € bietet Doppelzonen.</li>
-<li><strong>Große Kapazitat:</strong> maximal 4,2 Liter.</li>
-<li><strong>Sichtfenster:</strong> bei keinem getesteten Modell vorhanden.</li>
-<li><strong>Beschichtungsqualitat:</strong> funktional, aber weniger langlebig. <a href="/de/blog/top-10-accessoires-airfryer">Einlagen und Silikonformen</a> verlangern die Lebensdauer.</li>
+<li><strong>Bruikbare inhoud</strong>: reken op ongeveer 3,5 tot 4 liter voor één of twee personen en 5 liter voor drie of vier. Is de mand te klein, dan moet je in meerdere rondes bakken.</li>
+<li><strong>Vorm van de mand</strong>: een vierkante mand biedt meer bodemoppervlak dan een ronde met dezelfde inhoud, en juist het oppervlak voorkomt dat het eten op elkaar ligt.</li>
+<li><strong>Temperatuurbereik</strong>: de meeste halen 200 °C. Sommige gaan hoger, andere laag genoeg om te drogen.</li>
+<li><strong>Bediening</strong>: touchscreen of knoppen, programma’s, een timer tot 60 minuten. Eenvoudige bediening gaat minder snel stuk en snap je meteen.</li>
+<li><strong>Schoonmaken</strong>: controleer of mand en lade vaatwasserbestendig zijn en of kopers positief zijn over de antiaanbaklaag.</li>
+<li><strong>Afmetingen</strong>: meet de ruimte onder je bovenkastjes. Een airfryer heeft ruimte nodig om de warme lucht kwijt te kunnen.</li>
+<li><strong>Merk en service</strong>: bij instapmodellen verlengt een fabrikant die onderdelen (mand, rooster) verkoopt de levensduur aanzienlijk.</li>
 </ul>
 
-<h2>Welches Modell fur welches Profil?</h2>
+<h2>De 5 beste goedkope airfryers van 2026</h2>
+
+<h3>1. Moulinex Easy Fry Max 5L — de beste keuze overall</h3>
+<p>De Moulinex Easy Fry Max heeft de grootste mand van deze selectie: 5 liter, volgens de fabrikant goed voor een gezinsmaaltijd tot zes porties. Hij levert 1.550 W, heeft 10 automatische programma’s, een touchscreen en een temperatuurbereik van 70 tot 200 °C, met een timer tot 60 minuten. Mand en lade kunnen in de vaatwasser.</p>
+<p><strong>Sterke punten</strong>: de ruimste inhoud in de instapklasse, veel duidelijke programma’s en een merk dat goed vertegenwoordigd is in Europa, met een reparatienetwerk.</p>
+<p><strong>Beperkingen</strong>: geen kijkvenster of app, en een vrij diep formaat op het aanrecht.</p>
+<p><strong>Voor wie?</strong> Gezinnen van drie of vier personen die één eenvoudig apparaat voor elke dag willen. Meer details in onze <a href="/nl/blog/test-moulinex-easy-fry-max">review van de Moulinex Easy Fry Max</a>.</p>
+
+<h3>2. Xiaomi Smart Air Fryer Pro 4L — de meest complete slimme keuze</h3>
+<p>De Xiaomi Smart Air Fryer Pro 4L combineert functies die je meestal pas hoger in het gamma vindt: een OLED-touchscreen, een kijkvenster, 11 voorinstellingen en bediening via de Xiaomi Home-app met meer dan 100 recepten. Hij levert 1.600 W met een bereik van 40 tot 200 °C, laag genoeg om te drogen, te ontdooien en zelfs yoghurt te maken.</p>
+<p><strong>Sterke punten</strong>: het venster om het eten te controleren zonder de lade te openen, de app en de veelzijdige standen op lage temperatuur.</p>
+<p><strong>Beperkingen</strong>: 4 liter is genoeg voor twee, hooguit drie personen; de app vraagt een Xiaomi-account en sommige functies verliezen hun nut als je hem niet gebruikt.</p>
+<p><strong>Voor wie?</strong> Stellen en kleine huishoudens die hun keuken graag via de telefoon bedienen. Zie ook onze <a href="/nl/blog/test-xiaomi-smart-air-fryer-pro">review van de Xiaomi Smart Air Fryer Pro</a>.</p>
+
+<h3>3. Cosori Lite 3.8L — compact voor één of twee personen</h3>
+<p>De Cosori Lite 3.8L (model CAF-LI401S) is een kleine, vierkante airfryer van 1.500 W met 7 functies en een bereik van 75 tot 230 °C. Hij is ook te bedienen via de VeSync-app en werkt met Amazon Alexa en Google Assistant. De vierkante mand en het rooster kunnen in de vaatwasser.</p>
+<p><strong>Sterke punten</strong>: weinig ruimtebeslag, een vierkante mand die de inhoud goed benut, een hogere maximumtemperatuur dan gemiddeld en spraakbediening.</p>
+<p><strong>Beperkingen</strong>: 3,8 liter is krap voor meer dan twee personen; geen kijkvenster.</p>
+<p><strong>Voor wie?</strong> Alleenstaanden, stellen, studio’s en studenten die een onopvallend apparaat willen.</p>
+
+<h3>4. Philips Airfryer 2000-serie 4,2 L (NA221/00) — de veilige keuze voor beginners</h3>
+<p>Het instapmodel van Philips biedt een mand van 4,2 liter, 1.500 W en meerdere voorinstellingen, met een vaatwasserbestendige mand en lade. Philips was een van de eerste makers van airfryers voor thuisgebruik, en de RapidAir-luchtcirculatie zit ook in dit model.</p>
+<p><strong>Sterke punten</strong>: heel eenvoudig in gebruik, een bouwkwaliteit die kopers als stevig omschrijven en een uitgebreid onderdelen- en servicenetwerk in Europa.</p>
+<p><strong>Beperkingen</strong>: geen app, minder programma’s dan de Moulinex en een gemiddelde inhoud.</p>
+<p><strong>Voor wie?</strong> Wie zijn eerste airfryer koopt en vooral een eenvoudig, duurzaam apparaat wil.</p>
+
+<h3>5. Ninja Air Fryer AF100EU 3,8 L — de klassieker die zich bewezen heeft</h3>
+<p>De Ninja AF100EU kwam enkele jaren geleden uit en is nog steeds te koop, waardoor hij een van de meest beoordeelde airfryers onder kopers is. Hij biedt 3,8 liter, 1.500 W, tot 210 °C en vier functies: airfryen, roosteren, opwarmen en drogen. De antiaanbakpan en het rooster kunnen in de vaatwasser.</p>
+<p><strong>Sterke punten</strong>: goed gekozen functies, snel op temperatuur volgens gebruikers en een grote receptenbibliotheek van Ninja.</p>
+<p><strong>Beperkingen</strong>: één instelling per functie, geen touchscreen of app, inhoud voor twee à drie personen.</p>
+<p><strong>Voor wie?</strong> Iedereen die een eenvoudig apparaat van een bekend merk wil, zonder franje.</p>
+
+<h2>Vergelijkingstabel</h2>
 <table>
 <thead>
-<tr><th>Profil</th><th>Empfehlung</th><th>Warum</th></tr>
+<tr><th>Model</th><th>Inhoud</th><th>Vermogen</th><th>Bediening en connectiviteit</th><th>Ideaal voor</th></tr>
 </thead>
 <tbody>
-<tr><td>Bestes Preis-Leistungs-Verhaltnis</td><td>Xiaomi Smart Pro</td><td>Vernetzt, leistungsstark, 69 €</td></tr>
-<tr><td>Zuverlassigkeit zuerst</td><td>Philips Essential</td><td>RapidAir, Topmarke</td></tr>
-<tr><td>Bestes Display</td><td>Cosori Lite</td><td>LED-Touch, quadratischer Korb</td></tr>
-<tr><td>Großte Kapazitat</td><td>Tefal Classic+</td><td>4,2 L fur 65 €</td></tr>
-<tr><td>Kleinstes Budget</td><td>Moulinex Compact</td><td>55 €, ultra-kompakt</td></tr>
+<tr><td>Moulinex Easy Fry Max 5L</td><td>5 l</td><td>1.550 W</td><td>Touchscreen, 10 programma’s</td><td>Gezinnen van 3-4 personen</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 l</td><td>1.600 W</td><td>OLED, venster, app</td><td>Kleine slimme huishoudens</td></tr>
+<tr><td>Cosori Lite 3.8L</td><td>3,8 l</td><td>1.500 W</td><td>7 functies, app, Alexa en Google</td><td>1-2 personen, kleine keukens</td></tr>
+<tr><td>Philips 2000-serie 4,2 L</td><td>4,2 l</td><td>1.500 W</td><td>Knoppen, voorinstellingen</td><td>Eerste airfryer</td></tr>
+<tr><td>Ninja AF100EU</td><td>3,8 l</td><td>1.500 W</td><td>4 functies, knoppen</td><td>Eenvoudig dagelijks gebruik</td></tr>
 </tbody>
 </table>
 
-<p>Fur Premium-Modelle uber 100 €, siehe unseren <a href="/de/blog/comment-choisir-airfryer-famille">Familien-Kaufratgeber</a>. Alle Infos im <a href="/de/guides/airfryers">Ratgeber</a> und <a href="/de/guides/airfryer-vs-four">Vergleich mit dem Backofen</a>.</p>
-
-<h2>Worauf verzichten Sie unter 100 €? (und was Sie trotzdem bekommen)</h2>
-<table>
-<thead><tr><th>Funktion</th><th>Gunstige Heißluftfritteuse (&lt;100 €)</th><th>Hoherwertige Heißluftfritteuse (100-200 €)</th></tr></thead>
-<tbody>
-<tr><td>Kapazitat</td><td>3-5L (1-3 Personen)</td><td>5-10L (2-6 Personen)</td></tr>
-<tr><td>Max. Temperatur</td><td>200°C ublich</td><td>200-230°C</td></tr>
-<tr><td>Leistung</td><td>1.400-1.600 W</td><td>1.700-2.500 W</td></tr>
-<tr><td>WLAN-Konnektivitat</td><td>Manchmal (nur Xiaomi)</td><td>Oft verfugbar</td></tr>
-<tr><td>Materialqualitat</td><td>Kunststoff mit Kunststoffschienen</td><td>Kunststoff mit Metallschienen</td></tr>
-<tr><td>Garleistung</td><td>Gut fur den Alltag</td><td>Bessere Knusprigkeit</td></tr>
-<tr><td>Gesch. Lebensdauer</td><td>2-5 Jahre</td><td>4-8 Jahre</td></tr>
-</tbody>
-</table>
-<p>Eine gunstige Heißluftfritteuse erfullt die Bedurfnisse einer Einzelperson oder eines Paares vollkommen. Einschrankungen werden fur Familien ab 3 Personen spurbar.</p>
-
-<h2>5 Fragen vor dem Kauf einer Heißluftfritteuse unter 100 €</h2>
+<h2>Wat je wint en opgeeft bij een instapmodel</h2>
+<p><strong>Je houdt het belangrijkste</strong>: knapperige resultaten met weinig of geen olie, programma’s voor gangbare gerechten, een mand die makkelijk schoon te maken is en bij kleine hoeveelheden vaak kortere bereidingstijden dan in de oven.</p>
+<p><strong>Meestal geef je op</strong>:</p>
 <ul>
-<li><strong>Fur wie viele Personen kochen Sie?</strong> Wenn Sie regelmaßig fur mehr als 2 Personen kochen, ist 4L oft unzureichend. Visieren Sie mindestens 5L an.</li>
-<li><strong>Was ist Ihr Haupteinsatzzweck?</strong> Gemuse und Pommes: jedes Modell. Fleisch: bevorzugen Sie mindestens 200°C und gute Wattzahl.</li>
-<li><strong>Haben Sie eine kleine Kuche?</strong> Das Xiaomi mit 25x28 cm ist eines der kompaktesten. Messen Sie Ihren Platz vorab.</li>
-<li><strong>Ist Ihnen Konnektivitat wichtig?</strong> Nur das Xiaomi bietet WLAN und Smart-Home unter 100 €. Andere sind klassische Modelle.</li>
-<li><strong>Haben Sie ein Zubehorbudget eingeplant?</strong> Planen Sie 20-30 € extra fur perforierte Einlagen und wesentliches Zubehör zum Schutz der Beschichtung.</li>
-</ul>`,
-
-    es: `<h2>Puede una freidora de aire barata ser buena?</h2>
-<p>La respuesta corta es si, siempre que sepas lo que compras. El mercado ha madurado considerablemente en 2026, y los modelos de entrada ofrecen prestaciones muy correctas para uso diario. Hemos comprado y probado 8 freidoras por menos de 100 € durante 3 meses para identificar las 5 que realmente merecen tu dinero.</p>
-
-<h2>Tabla comparativa: Top 5 bajo 100€</h2>
-<table>
-<thead>
-<tr><th>Modelo</th><th>Precio</th><th>Capacidad</th><th>Potencia</th><th>Programas</th><th>Nota</th></tr>
-</thead>
-<tbody>
-<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>69 €</td><td>4 litros</td><td>1.600 W</td><td>8 + app</td><td>9/10</td></tr>
-<tr><td>Moulinex Easy Fry Compact</td><td>55 €</td><td>3 litros</td><td>1.300 W</td><td>6</td><td>7,5/10</td></tr>
-<tr><td>Cosori Lite 3,8L</td><td>75 €</td><td>3,8 litros</td><td>1.500 W</td><td>7</td><td>8/10</td></tr>
-<tr><td>Philips Essential HD9200</td><td>89 €</td><td>4,1 litros</td><td>1.400 W</td><td>7</td><td>8,5/10</td></tr>
-<tr><td>Tefal Easy Fry Classic+</td><td>65 €</td><td>4,2 litros</td><td>1.500 W</td><td>8</td><td>7,5/10</td></tr>
-</tbody>
-</table>
-
-<h2>1. Xiaomi Smart Air Fryer Pro — Mejor relacion calidad-precio (69 €)</h2>
-<p>La unica freidora bajo 100 € con conectividad Wi-Fi y app completa (Mi Home) con 80+ recetas guiadas. 1.600 W de rendimiento cercano a modelos del doble de precio. Consumo de solo 0,34 kWh por sesion de 20 minutos.</p>
-<p>Lee nuestro <a href="/es/blog/test-xiaomi-smart-air-fryer-pro">analisis completo</a>.</p>
-
-<h2>2. Philips Essential HD9200 — Fiabilidad garantizada (89 €)</h2>
-<p>Philips es el pionero de las freidoras de aire. Tecnologia RapidAir incluso en este modelo basico. Calidad de construccion superior a la competencia.</p>
-
-<h2>3. Cosori Lite 3,8L — El equilibrio perfecto (75 €)</h2>
-<p>Pantalla tactil LED, cesta cuadrada, precalentamiento automatico y recordatorio de agitacion — raro a este precio.</p>
-
-<h2>4. Tefal Easy Fry Classic+ — Mayor capacidad al menor precio (65 €)</h2>
-<p>4,2 litros por solo 65 € — la mejor relacion capacidad/precio.</p>
-
-<h2>5. Moulinex Easy Fry Compact — Ultra-compacta (55 €)</h2>
-<p>La mas barata y compacta. Ideal para estudiantes. Para la version grande, consulta nuestro <a href="/es/blog/test-moulinex-easy-fry-max">test del Moulinex Easy Fry Max</a>.</p>
-
-<h2>Que obtienes por menos de 100€</h2>
-<ul>
-<li>Resultados crujientes correctos para el dia a dia.</li>
-<li>6-8 programas automaticos.</li>
-<li>Cesta extraible, mayormente apta para lavavajillas.</li>
-<li>3-4,2 litros de capacidad (2-3 personas).</li>
-<li>Temperatura ajustable 80-200°C.</li>
+<li><strong>Twee bereidingszones</strong>: geen enkel model in deze gids heeft een dubbele lade. Om een hoofdgerecht en bijgerecht tegelijk te bereiden, moet je een klasse hoger, zoals uitgelegd in onze <a href="/nl/blog/comment-choisir-airfryer-famille">gids voor het kiezen van een gezinsairfryer</a>.</li>
+<li><strong>Heel grote inhoud</strong>: vanaf vier personen moet je rekenen op meerdere rondes.</li>
+<li><strong>Sommige afwerking</strong>: eenvoudiger kunststof, antiaanbaklagen die meer zorg vragen en ventilatoren die soms beter hoorbaar zijn.</li>
+<li><strong>Connectiviteit</strong>, behalve bij de Xiaomi en de Cosori Lite, die in deze klasse de uitzondering zijn.</li>
 </ul>
 
-<h2>Que sacrificas por menos de 100€</h2>
+<h2>Fouten die je moet vermijden</h2>
 <ul>
-<li><strong>Doble cesta:</strong> ningun modelo bajo 100 € la ofrece.</li>
-<li><strong>Gran capacidad:</strong> maximo 4,2 litros.</li>
-<li><strong>Ventana de visualizacion:</strong> ausente en todos los modelos testados.</li>
-<li><strong>Durabilidad del revestimiento:</strong> funcional pero menos duradero. Usa <a href="/es/blog/top-10-accessoires-airfryer">papeles y moldes de silicona</a>.</li>
+<li><strong>Alleen kiezen op opgegeven inhoud</strong>: een ronde mand van 4 liter kan minder bodemoppervlak hebben dan een vierkante van 3,8 liter.</li>
+<li><strong>De mand tot de rand vullen</strong>: de lucht moet kunnen circuleren. Eén laag, maximaal twee, en halverwege schudden.</li>
+<li><strong>Een onbekend merk zonder onderdelen kopen</strong>: een beschadigde mand kan het apparaat onbruikbaar maken.</li>
+<li><strong>De antiaanbaklaag bekrassen</strong>: gebruik siliconen of houten keukengerei, nooit een schuursponsje.</li>
+<li><strong>De vrije ruimte vergeten</strong>: laat achter en boven het apparaat ruimte vrij voor de luchtuitlaat.</li>
 </ul>
 
-<h2>Que modelo para que perfil?</h2>
-<table>
-<thead>
-<tr><th>Perfil</th><th>Recomendacion</th><th>Por que</th></tr>
-</thead>
-<tbody>
-<tr><td>Mejor valor global</td><td>Xiaomi Smart Pro</td><td>Conectada, potente, 69 €</td></tr>
-<tr><td>Fiabilidad ante todo</td><td>Philips Essential</td><td>RapidAir, marca de referencia</td></tr>
-<tr><td>Mejor pantalla</td><td>Cosori Lite</td><td>Tactil LED, cesta cuadrada</td></tr>
-<tr><td>Mayor capacidad</td><td>Tefal Classic+</td><td>4,2 L por 65 €</td></tr>
-<tr><td>Presupuesto minimo</td><td>Moulinex Compact</td><td>55 €, ultra-compacta</td></tr>
-</tbody>
-</table>
+<h2>Gebruik en veiligheid</h2>
+<p>Zet de airfryer op een stabiel, hittebestendig oppervlak, uit de buurt van gordijnen en bovenkastjes. Steek de stekker rechtstreeks in een stopcontact in de muur in plaats van in een volle stekkerdoos: deze apparaten trekken veel vermogen. Bij het eerste gebruik kan er een lichte geur vrijkomen; laat hem een paar minuten leeg draaien met het raam open, zoals de meeste handleidingen aanraden. Laat het apparaat afkoelen voordat je het schoonmaakt. Voor het dagelijkse onderhoud lees je onze <a href="/nl/blog/entretien-nettoyage-airfryer">gids voor het schoonmaken van een airfryer</a>.</p>
 
-<p>Para modelos premium sobre 100 €, consulta nuestra <a href="/es/blog/comment-choisir-airfryer-famille">guia de compra familiar</a>. Mas en la <a href="/es/guides/airfryers">guia completa</a> y el <a href="/es/guides/airfryer-vs-four">comparativo freidora vs horno</a>.</p>
-
-<h2>A que renuncias por menos de 100 €? (y que conservas de todos modos)</h2>
-<table>
-<thead><tr><th>Funcion</th><th>Freidora economica (&lt;100 €)</th><th>Freidora de gama superior (100-200 €)</th></tr></thead>
-<tbody>
-<tr><td>Capacidad</td><td>3-5L (1-3 personas)</td><td>5-10L (2-6 personas)</td></tr>
-<tr><td>Temperatura max.</td><td>200°C generalmente</td><td>200-230°C</td></tr>
-<tr><td>Potencia</td><td>1.400-1.600 W</td><td>1.700-2.500 W</td></tr>
-<tr><td>Conectividad Wi-Fi</td><td>A veces (solo Xiaomi)</td><td>Frecuentemente disponible</td></tr>
-<tr><td>Calidad de materiales</td><td>Plastico con railes plasticos</td><td>Plastico con railes metalicos</td></tr>
-<tr><td>Rendimiento de coccion</td><td>Correcto para uso diario</td><td>Mejor crujiente</td></tr>
-<tr><td>Durabilidad estimada</td><td>2-5 anos</td><td>4-8 anos</td></tr>
-</tbody>
-</table>
-<p>Una freidora economica satisface perfectamente las necesidades de una persona o pareja. Las limitaciones se hacen reales para familias de 3 o mas personas.</p>
-
-<h2>5 preguntas que hacerse antes de comprar una freidora por menos de 100 €</h2>
-<ul>
-<li><strong>Para cuantas personas cocinas?</strong> Si cocinas regularmente para mas de 2 personas, 4L suele ser insuficiente. Busca al menos 5L.</li>
-<li><strong>Cual es tu uso principal?</strong> Verduras y patatas fritas: cualquier modelo. Carnes: prioriza 200°C minimo y buena potencia.</li>
-<li><strong>Tienes una cocina pequena?</strong> El Xiaomi con 25x28 cm es uno de los mas compactos. Mide tu espacio de trabajo antes de comprar.</li>
-<li><strong>Te importa la conectividad?</strong> Solo el Xiaomi ofrece Wi-Fi e integracion domótica por menos de 100 €. Los demas son modelos clasicos.</li>
-<li><strong>Tienes presupuesto para accesorios?</strong> Prevé 20-30 € adicionales para papeles perforados y accesorios esenciales para proteger el revestimiento.</li>
-</ul>`,
-
-    it: `<h2>Una friggitrice ad aria economica puo essere buona?</h2>
-<p>La risposta breve e si, a patto di sapere cosa si acquista. Il mercato si e evoluto considerevolmente nel 2026 e i modelli entry-level offrono prestazioni del tutto adeguate per l'uso quotidiano. Abbiamo acquistato e testato 8 friggitrici sotto 100 € per 3 mesi per identificare le 5 che meritano davvero i vostri soldi.</p>
-
-<h2>Tabella comparativa: Top 5 sotto 100€</h2>
-<table>
-<thead>
-<tr><th>Modello</th><th>Prezzo</th><th>Capacita</th><th>Potenza</th><th>Programmi</th><th>Voto</th></tr>
-</thead>
-<tbody>
-<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>69 €</td><td>4 litri</td><td>1.600 W</td><td>8 + app</td><td>9/10</td></tr>
-<tr><td>Moulinex Easy Fry Compact</td><td>55 €</td><td>3 litri</td><td>1.300 W</td><td>6</td><td>7,5/10</td></tr>
-<tr><td>Cosori Lite 3,8L</td><td>75 €</td><td>3,8 litri</td><td>1.500 W</td><td>7</td><td>8/10</td></tr>
-<tr><td>Philips Essential HD9200</td><td>89 €</td><td>4,1 litri</td><td>1.400 W</td><td>7</td><td>8,5/10</td></tr>
-<tr><td>Tefal Easy Fry Classic+</td><td>65 €</td><td>4,2 litri</td><td>1.500 W</td><td>8</td><td>7,5/10</td></tr>
-</tbody>
-</table>
-
-<h2>1. Xiaomi Smart Air Fryer Pro — Miglior rapporto qualita-prezzo (69 €)</h2>
-<p>L'unica friggitrice sotto 100 € con Wi-Fi e app completa (Mi Home) con 80+ ricette guidate. 1.600 W di potenza vicina a modelli dal doppio del prezzo. Consumo di soli 0,34 kWh per sessione di 20 minuti.</p>
-<p>Leggete il nostro <a href="/it/blog/test-xiaomi-smart-air-fryer-pro">test completo</a>.</p>
-
-<h2>2. Philips Essential HD9200 — Affidabilita garantita (89 €)</h2>
-<p>Philips e il pioniere delle friggitrici ad aria. Tecnologia RapidAir anche nel modello base. Qualita costruttiva superiore alla concorrenza.</p>
-
-<h2>3. Cosori Lite 3,8L — La scelta equilibrata (75 €)</h2>
-<p>Schermo touch LED, cestello quadrato, preriscaldamento automatico e promemoria di scuotimento — raro a questo prezzo.</p>
-
-<h2>4. Tefal Easy Fry Classic+ — Massima capacita al minimo prezzo (65 €)</h2>
-<p>4,2 litri per soli 65 € — il miglior rapporto capacita/prezzo.</p>
-
-<h2>5. Moulinex Easy Fry Compact — Ultra-compatta (55 €)</h2>
-<p>La piu economica e compatta. Ideale per studenti. Per la versione grande, consultate il nostro <a href="/it/blog/test-moulinex-easy-fry-max">test del Moulinex Easy Fry Max</a>.</p>
-
-<h2>Cosa ottenete sotto 100€</h2>
-<ul>
-<li>Risultati croccanti adeguati per l'uso quotidiano.</li>
-<li>6-8 programmi automatici.</li>
-<li>Cestello rimovibile, per lo piu lavabile in lavastoviglie.</li>
-<li>3-4,2 litri di capacita (2-3 persone).</li>
-<li>Temperatura regolabile 80-200°C.</li>
-</ul>
-
-<h2>Cosa sacrificate sotto 100€</h2>
-<ul>
-<li><strong>Doppio cestello:</strong> nessun modello sotto 100 € lo offre.</li>
-<li><strong>Grande capacita:</strong> massimo 4,2 litri.</li>
-<li><strong>Finestra di visualizzazione:</strong> assente in tutti i modelli testati.</li>
-<li><strong>Durata del rivestimento:</strong> funzionale ma meno durevole. Usate <a href="/it/blog/top-10-accessoires-airfryer">fogli e stampi in silicone</a>.</li>
-</ul>
-
-<h2>Quale modello per quale profilo?</h2>
-<table>
-<thead>
-<tr><th>Profilo</th><th>Raccomandazione</th><th>Perche</th></tr>
-</thead>
-<tbody>
-<tr><td>Miglior valore complessivo</td><td>Xiaomi Smart Pro</td><td>Connessa, performante, 69 €</td></tr>
-<tr><td>Affidabilita prima di tutto</td><td>Philips Essential</td><td>RapidAir, marchio top</td></tr>
-<tr><td>Miglior schermo</td><td>Cosori Lite</td><td>Touch LED, cestello quadrato</td></tr>
-<tr><td>Massima capacita</td><td>Tefal Classic+</td><td>4,2 L a 65 €</td></tr>
-<tr><td>Budget minimo</td><td>Moulinex Compact</td><td>55 €, ultra-compatta</td></tr>
-</tbody>
-</table>
-
-<p>Per modelli premium oltre 100 €, consultate la <a href="/it/blog/comment-choisir-airfryer-famille">guida all'acquisto familiare</a>. Guida completa: <a href="/it/guides/airfryers">friggitrici ad aria</a> e <a href="/it/guides/airfryer-vs-four">friggitrice vs forno</a>.</p>
-
-<h2>A cosa rinunciate sotto 100 €? (e cosa avete comunque)</h2>
-<table>
-<thead><tr><th>Funzione</th><th>Friggitrice economica (&lt;100 €)</th><th>Friggitrice di fascia superiore (100-200 €)</th></tr></thead>
-<tbody>
-<tr><td>Capacita</td><td>3-5L (1-3 persone)</td><td>5-10L (2-6 persone)</td></tr>
-<tr><td>Temperatura max.</td><td>200°C generalmente</td><td>200-230°C</td></tr>
-<tr><td>Potenza</td><td>1.400-1.600 W</td><td>1.700-2.500 W</td></tr>
-<tr><td>Connettivita Wi-Fi</td><td>A volte (solo Xiaomi)</td><td>Spesso disponibile</td></tr>
-<tr><td>Qualita dei materiali</td><td>Plastica con binari in plastica</td><td>Plastica con binari in metallo</td></tr>
-<tr><td>Prestazioni di cottura</td><td>Adeguate per uso quotidiano</td><td>Migliore croccantezza</td></tr>
-<tr><td>Durata stimata</td><td>2-5 anni</td><td>4-8 anni</td></tr>
-</tbody>
-</table>
-<p>Una friggitrice economica soddisfa perfettamente le esigenze di una persona o di una coppia. Le limitazioni diventano concrete per famiglie di 3 o piu persone.</p>
-
-<h2>5 domande da porsi prima di acquistare una friggitrice ad aria sotto 100 €</h2>
-<ul>
-<li><strong>Per quante persone cucinate?</strong> Se cucinate regolarmente per piu di 2 persone, 4L sara spesso insufficiente. Puntate ad almeno 5L.</li>
-<li><strong>Qual e il vostro uso principale?</strong> Verdure e patatine: qualsiasi modello va bene. Carni: privilegiate almeno 200°C e buona potenza.</li>
-<li><strong>Avete una cucina piccola?</strong> Lo Xiaomi con 25x28 cm e uno dei piu compatti. Misurate il vostro spazio prima dell'acquisto.</li>
-<li><strong>Vi interessa la connettivita?</strong> Solo lo Xiaomi offre Wi-Fi e integrazione domotica sotto 100 €. Gli altri sono modelli classici.</li>
-<li><strong>Avete un budget per gli accessori?</strong> Prevedete 20-30 € extra per fogli perforati e accessori essenziali per proteggere il rivestimento.</li>
-</ul>`,
-
-    nl: `<h2>Kan een goedkope airfryer goed zijn?</h2>
-<p>Het korte antwoord: ja, mits je weet wat je koopt. De markt is in 2026 flink gerijpt en instapmodellen bieden tegenwoordig prima prestaties voor dagelijks gebruik. We kochten en testten 8 airfryers onder 100 € gedurende 3 maanden om de 5 beste te identificeren.</p>
-
-<h2>Vergelijkingstabel: Top 5 onder 100€</h2>
-<table>
-<thead>
-<tr><th>Model</th><th>Prijs</th><th>Capaciteit</th><th>Vermogen</th><th>Programma's</th><th>Score</th></tr>
-</thead>
-<tbody>
-<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>69 €</td><td>4 liter</td><td>1.600 W</td><td>8 + app</td><td>9/10</td></tr>
-<tr><td>Moulinex Easy Fry Compact</td><td>55 €</td><td>3 liter</td><td>1.300 W</td><td>6</td><td>7,5/10</td></tr>
-<tr><td>Cosori Lite 3,8L</td><td>75 €</td><td>3,8 liter</td><td>1.500 W</td><td>7</td><td>8/10</td></tr>
-<tr><td>Philips Essential HD9200</td><td>89 €</td><td>4,1 liter</td><td>1.400 W</td><td>7</td><td>8,5/10</td></tr>
-<tr><td>Tefal Easy Fry Classic+</td><td>65 €</td><td>4,2 liter</td><td>1.500 W</td><td>8</td><td>7,5/10</td></tr>
-</tbody>
-</table>
-
-<h2>1. Xiaomi Smart Air Fryer Pro — Beste prijs-kwaliteit (69 €)</h2>
-<p>De enige airfryer onder 100 € met Wi-Fi en volledige app (Mi Home) met 80+ begeleide recepten. 1.600 W prestaties dicht bij modellen van het dubbele. Verbruik van slechts 0,34 kWh per sessie van 20 minuten.</p>
-<p>Lees onze <a href="/nl/blog/test-xiaomi-smart-air-fryer-pro">volledige review</a>.</p>
-
-<h2>2. Philips Essential HD9200 — Bewezen betrouwbaarheid (89 €)</h2>
-<p>Philips is de pionier van airfryers. RapidAir-technologie ook in dit instapmodel. Bouwkwaliteit een stap boven de concurrentie.</p>
-
-<h2>3. Cosori Lite 3,8L — De gebalanceerde keuze (75 €)</h2>
-<p>LED-touchscreen, vierkante mand, automatisch voorverwarmen en schudherinnering — zeldzaam in deze prijsklasse.</p>
-
-<h2>4. Tefal Easy Fry Classic+ — Grootste capaciteit voor de prijs (65 €)</h2>
-<p>4,2 liter voor slechts 65 € — de beste capaciteit-prijsverhouding.</p>
-
-<h2>5. Moulinex Easy Fry Compact — Ultra-compact (55 €)</h2>
-<p>De goedkoopste en compactste. Ideaal voor studenten. Voor de grotere versie, zie onze <a href="/nl/blog/test-moulinex-easy-fry-max">Moulinex Easy Fry Max review</a>.</p>
-
-<h2>Wat je krijgt onder 100€</h2>
-<ul>
-<li>Degelijke knapperige resultaten voor dagelijks gebruik.</li>
-<li>6-8 automatische programma's.</li>
-<li>Uitneembare, meestal vaatwasmachinebestendige mand.</li>
-<li>3-4,2 liter capaciteit (2-3 personen).</li>
-<li>Instelbare temperatuur 80-200°C.</li>
-</ul>
-
-<h2>Wat je opoffert onder 100€</h2>
-<ul>
-<li><strong>Dubbele mand:</strong> geen enkel model onder 100 € biedt dit.</li>
-<li><strong>Grote capaciteit:</strong> maximaal 4,2 liter.</li>
-<li><strong>Kijkvenster:</strong> afwezig bij alle geteste modellen.</li>
-<li><strong>Coatingduurzaamheid:</strong> functioneel maar minder duurzaam. Gebruik <a href="/nl/blog/top-10-accessoires-airfryer">bakpapier en siliconenvormen</a>.</li>
-</ul>
-
-<h2>Welk model voor welk profiel?</h2>
-<table>
-<thead>
-<tr><th>Profiel</th><th>Aanbeveling</th><th>Waarom</th></tr>
-</thead>
-<tbody>
-<tr><td>Beste waarde totaal</td><td>Xiaomi Smart Pro</td><td>Connected, krachtig, 69 €</td></tr>
-<tr><td>Betrouwbaarheid eerst</td><td>Philips Essential</td><td>RapidAir, topmerk</td></tr>
-<tr><td>Beste scherm</td><td>Cosori Lite</td><td>LED-touch, vierkante mand</td></tr>
-<tr><td>Grootste capaciteit</td><td>Tefal Classic+</td><td>4,2 L voor 65 €</td></tr>
-<tr><td>Kleinste budget</td><td>Moulinex Compact</td><td>55 €, ultra-compact</td></tr>
-</tbody>
-</table>
-
-<p>Voor premium modellen boven 100 €, bekijk onze <a href="/nl/blog/comment-choisir-airfryer-famille">gezinsaankoopgids</a>. Complete gids: <a href="/nl/guides/airfryers">airfryers</a> en <a href="/nl/guides/airfryer-vs-four">airfryer vs oven</a>.</p>
-
-<h2>Waar doe je afstand van onder 100 €? (en wat je toch krijgt)</h2>
-<table>
-<thead><tr><th>Functie</th><th>Budget airfryer (&lt;100 €)</th><th>Hogere klasse airfryer (100-200 €)</th></tr></thead>
-<tbody>
-<tr><td>Capaciteit</td><td>3-5L (1-3 personen)</td><td>5-10L (2-6 personen)</td></tr>
-<tr><td>Max. temperatuur</td><td>200°C doorgaans</td><td>200-230°C</td></tr>
-<tr><td>Vermogen</td><td>1.400-1.600 W</td><td>1.700-2.500 W</td></tr>
-<tr><td>Wi-Fi connectiviteit</td><td>Soms (alleen Xiaomi)</td><td>Vaak beschikbaar</td></tr>
-<tr><td>Materiaalkwaliteit</td><td>Kunststof met plastic geleiders</td><td>Kunststof met metalen geleiders</td></tr>
-<tr><td>Kookprestatie</td><td>Goed voor dagelijks gebruik</td><td>Betere knapperigheid</td></tr>
-<tr><td>Geschatte levensduur</td><td>2-5 jaar</td><td>4-8 jaar</td></tr>
-</tbody>
-</table>
-<p>Een budget airfryer voldoet perfect aan de behoeften van een alleenstaande of een stel. De beperkingen worden merkbaar voor gezinnen van 3 of meer personen.</p>
-
-<h2>5 vragen om jezelf te stellen voor je een airfryer onder 100 € koopt</h2>
-<ul>
-<li><strong>Voor hoeveel personen kook je?</strong> Als je regelmatig voor meer dan 2 personen kookt, is 4L vaak onvoldoende. Streef naar minimaal 5L.</li>
-<li><strong>Wat is je voornaamste gebruik?</strong> Groenten en friet: elk model volstaat. Vlees: geef de voorkeur aan minimaal 200°C en goed vermogen.</li>
-<li><strong>Heb je een kleine keuken?</strong> De Xiaomi met 25x28 cm is een van de compactste. Meet je werkblad vooraf.</li>
-<li><strong>Hecht je waarde aan connectiviteit?</strong> Alleen de Xiaomi biedt Wi-Fi en slimme thuisintegratie onder 100 €. De andere zijn klassieke modellen.</li>
-<li><strong>Heb je budget voor accessoires?</strong> Plan 20-30 € extra voor geperforeerde bakpapieren en essentieel accessoires om de coating te beschermen.</li>
-</ul>`,
+<h2>Ons oordeel</h2>
+<p>Onthoud je er maar één, kies dan de <strong>Moulinex Easy Fry Max 5L</strong>: de veelzijdigste instap-airfryer, met genoeg inhoud voor een gezin. De <strong>Xiaomi Smart Air Fryer Pro 4L</strong> is de beste keuze als je een venster en een app wilt en toch in de budgetklasse blijft. En voor één of twee personen biedt de <strong>Cosori Lite 3.8L</strong> het belangrijkste in een compact formaat. De Philips 2000-serie en de Ninja AF100EU blijven degelijke alternatieven als je de voorkeur geeft aan een bekend merk en eenvoudige bediening.</p>`,
   },
   faq: [
     {
       question: {
-        fr: 'Quel est le meilleur airfryer à moins de 50 € ?',
-        en: 'What is the best air fryer under 50 euros?',
-        de: 'Welche ist die beste Heißluftfritteuse unter 50 Euro?',
-        es: '¿Cuál es la mejor freidora de aire por menos de 50 euros?',
-        it: 'Qual è la migliore friggitrice ad aria sotto i 50 euro?',
-        nl: 'Wat is de beste airfryer onder 50 euro?',
+        fr: 'Quel est le meilleur airfryer pas cher en 2026 ?',
+        en: 'What is the best budget air fryer in 2026?',
+        de: 'Welche ist die beste günstige Heißluftfritteuse 2026?',
+        es: '¿Cuál es la mejor freidora de aire barata en 2026?',
+        it: 'Qual è la migliore friggitrice ad aria economica nel 2026?',
+        nl: 'Wat is de beste goedkope airfryer in 2026?',
       },
       answer: {
-        fr: 'Le Moulinex Easy Fry Compact est notre meilleur choix sous 50 €. Il offre 3 litres de capacité, une puissance correcte de 1 300 W et un panier antiadhésif de bonne qualité. Pour ce prix, vous sacrifiez l\'écran digital et les programmes automatiques, mais la cuisson reste très satisfaisante pour 1 à 2 personnes.',
-        en: 'The Moulinex Easy Fry Compact is our top pick under 50 euros. It offers 3 litres capacity, decent 1,300 W power, and a good quality non-stick basket. At this price you sacrifice the digital display and automatic programs, but cooking performance remains very satisfying for 1 to 2 people.',
-        de: 'Die Moulinex Easy Fry Compact ist unsere Top-Empfehlung unter 50 Euro. Sie bietet 3 Liter Fassungsvermögen, solide 1.300 W Leistung und einen hochwertigen Antihaftkorb. Für diesen Preis verzichten Sie auf Digitalanzeige und Programme, aber die Kochleistung ist für 1-2 Personen sehr zufriedenstellend.',
-        es: 'La Moulinex Easy Fry Compact es nuestra mejor elección por menos de 50 euros. Ofrece 3 litros de capacidad, 1.300 W de potencia y una cesta antiadherente de buena calidad. A este precio renuncias a pantalla digital y programas, pero la cocción es muy satisfactoria para 1-2 personas.',
-        it: 'La Moulinex Easy Fry Compact è la nostra scelta migliore sotto i 50 euro. Offre 3 litri di capacità, 1.300 W di potenza e un cestello antiaderente di buona qualità. A questo prezzo rinunci al display digitale e ai programmi, ma la cottura resta molto soddisfacente per 1-2 persone.',
-        nl: 'De Moulinex Easy Fry Compact is onze topkeuze onder 50 euro. Hij biedt 3 liter capaciteit, degelijke 1.300 W kracht en een antiaanbakman van goede kwaliteit. Voor deze prijs mis je het digitale scherm en programma\'s, maar de kookprestatie is zeer bevredigend voor 1-2 personen.',
+        fr: 'Pour la plupart des foyers, le Moulinex Easy Fry Max 5L : 5 litres, 10 programmes et un écran tactile dans la gamme la plus accessible. Le Xiaomi Smart Air Fryer Pro 4L est le meilleur choix connecté, le Cosori Lite 3.8L le plus adapté à une ou deux personnes.',
+        en: 'For most households, the Moulinex Easy Fry Max 5L: 5 litres, 10 programmes and a touchscreen in the most affordable tier. The Xiaomi Smart Air Fryer Pro 4L is the best smart choice, and the Cosori Lite 3.8L suits one or two people best.',
+        de: 'Für die meisten Haushalte die Moulinex Easy Fry Max 5L: 5 Liter, 10 Programme und Touchscreen in der günstigsten Klasse. Die Xiaomi Smart Air Fryer Pro 4L ist die beste vernetzte Wahl, die Cosori Lite 3.8L passt am besten zu ein oder zwei Personen.',
+        es: 'Para la mayoría de los hogares, la Moulinex Easy Fry Max 5L: 5 litros, 10 programas y pantalla táctil en la gama más asequible. La Xiaomi Smart Air Fryer Pro 4L es la mejor opción conectada y la Cosori Lite 3.8L, la más adecuada para una o dos personas.',
+        it: 'Per la maggior parte delle famiglie, la Moulinex Easy Fry Max 5L: 5 litri, 10 programmi e display touch nella fascia più accessibile. La Xiaomi Smart Air Fryer Pro 4L è la migliore scelta connessa, la Cosori Lite 3.8L la più adatta a una o due persone.',
+        nl: 'Voor de meeste huishoudens de Moulinex Easy Fry Max 5L: 5 liter, 10 programma’s en een touchscreen in de meest betaalbare klasse. De Xiaomi Smart Air Fryer Pro 4L is de beste slimme keuze, de Cosori Lite 3.8L past het best bij één of twee personen.',
       },
     },
     {
       question: {
-        fr: 'Les airfryers pas chers sont-ils de bonne qualité ?',
-        en: 'Are cheap air fryers good quality?',
-        de: 'Sind günstige Heißluftfritteusen von guter Qualität?',
-        es: '¿Las freidoras de aire baratas son de buena calidad?',
-        it: 'Le friggitrici ad aria economiche sono di buona qualità?',
-        nl: 'Zijn goedkope airfryers van goede kwaliteit?',
+        fr: 'Un airfryer d’entrée de gamme cuit-il aussi bien qu’un modèle haut de gamme ?',
+        en: 'Does an entry-level air fryer cook as well as a premium one?',
+        de: 'Gart eine Einsteiger-Heißluftfritteuse so gut wie ein Premiummodell?',
+        es: '¿Una freidora de aire de gama de entrada cocina tan bien como una de gama alta?',
+        it: 'Una friggitrice ad aria entry-level cuoce bene quanto una di fascia alta?',
+        nl: 'Bakt een instap-airfryer even goed als een duur model?',
       },
       answer: {
-        fr: 'Les airfryers de marques reconnues (Moulinex, Xiaomi, Cosori) à moins de 100 € offrent une qualité très correcte. Ils cuisent aussi bien que les modèles premium pour les recettes courantes. Ce que vous sacrifiez : écran tactile, connectivité WiFi, programmes avancés et double panier. La cuisson de base reste excellente.',
-        en: 'Budget air fryers from recognized brands like Moulinex, Xiaomi, and Cosori under 100 euros offer very decent quality. They cook just as well as premium models for common recipes. What you sacrifice: touchscreen, WiFi connectivity, advanced programs, and dual baskets. Basic cooking performance remains excellent.',
-        de: 'Günstige Heißluftfritteusen von bekannten Marken (Moulinex, Xiaomi, Cosori) unter 100 Euro bieten sehr ordentliche Qualität. Sie garen genauso gut wie Premiummodelle für gängige Rezepte. Was fehlt: Touchscreen, WiFi, erweiterte Programme und Doppelkorb. Die grundlegende Kochleistung bleibt ausgezeichnet.',
-        es: 'Las freidoras de marcas reconocidas (Moulinex, Xiaomi, Cosori) por menos de 100 euros ofrecen una calidad muy correcta. Cocinan igual de bien que los modelos premium para las recetas comunes. Lo que sacrificas: pantalla táctil, WiFi, programas avanzados y doble cesta. La cocción básica sigue siendo excelente.',
-        it: 'Le friggitrici ad aria di marchi riconosciuti (Moulinex, Xiaomi, Cosori) sotto i 100 euro offrono una qualità molto buona. Cucinano bene quanto i modelli premium per le ricette comuni. Quello che sacrifichi: touchscreen, WiFi, programmi avanzati e doppio cestello. La cottura di base resta eccellente.',
-        nl: 'Budget airfryers van bekende merken (Moulinex, Xiaomi, Cosori) onder 100 euro bieden zeer degelijke kwaliteit. Ze koken net zo goed als premiummodellen voor gangbare recepten. Wat je mist: touchscreen, WiFi, geavanceerde programma\'s en dubbele mand. De basiskookprestatie blijft uitstekend.',
+        fr: 'Pour les plats courants, oui dans l’ensemble : le principe de cuisson est le même. Les modèles plus chers apportent surtout du volume, deux zones de cuisson, une meilleure finition et des fonctions annexes.',
+        en: 'For everyday dishes, broadly yes: the cooking principle is the same. Pricier models mainly add capacity, two cooking zones, better finishing and extra functions.',
+        de: 'Für Alltagsgerichte im Großen und Ganzen ja, denn das Garprinzip ist dasselbe. Teurere Modelle bieten vor allem mehr Volumen, zwei Garzonen, bessere Verarbeitung und Zusatzfunktionen.',
+        es: 'Para los platos habituales, en general sí: el principio de cocción es el mismo. Los modelos más caros aportan sobre todo capacidad, dos zonas de cocción, mejores acabados y funciones extra.',
+        it: 'Per i piatti di tutti i giorni, nel complesso sì: il principio di cottura è lo stesso. I modelli più costosi aggiungono soprattutto capienza, due zone di cottura, finiture migliori e funzioni accessorie.',
+        nl: 'Voor dagelijkse gerechten grotendeels wel: het kookprincipe is hetzelfde. Duurdere modellen voegen vooral inhoud, twee bereidingszones, betere afwerking en extra functies toe.',
       },
     },
     {
       question: {
-        fr: 'Peut-on acheter un airfryer reconditionné en toute confiance ?',
-        en: 'Can you buy a refurbished air fryer with confidence?',
-        de: 'Kann man eine generalüberholte Heißluftfritteuse bedenkenlos kaufen?',
-        es: '¿Se puede comprar una freidora de aire reacondicionada con confianza?',
-        it: 'Si può comprare una friggitrice ad aria ricondizionata con fiducia?',
-        nl: 'Kun je met vertrouwen een refurbished airfryer kopen?',
+        fr: 'Quelle capacité choisir avec un petit budget ?',
+        en: 'Which capacity should I choose on a budget?',
+        de: 'Welches Volumen sollte ich bei kleinem Budget wählen?',
+        es: '¿Qué capacidad elegir con poco presupuesto?',
+        it: 'Quale capienza scegliere con un budget ridotto?',
+        nl: 'Welke inhoud kies je met een klein budget?',
       },
       answer: {
-        fr: 'Oui, à condition de choisir le programme Amazon Renewed ou le reconditionné certifié du fabricant. Vous économisez 20 à 40 % sur le prix neuf avec une garantie de 6 à 12 mois. Vérifiez l\'état du revêtement antiadhésif et que tous les accessoires sont inclus. Évitez les vendeurs tiers sans politique de retour.',
-        en: 'Yes, provided you choose Amazon Renewed or manufacturer-certified refurbished programs. You save 20 to 40 percent off the new price with a 6 to 12 month warranty. Check the condition of the non-stick coating and that all accessories are included. Avoid third-party sellers without a return policy.',
-        de: 'Ja, wenn Sie Amazon Renewed oder vom Hersteller zertifizierte Programme wählen. Sie sparen 20-40 Prozent mit 6-12 Monaten Garantie. Prüfen Sie den Zustand der Antihaftbeschichtung und ob alles Zubehör enthalten ist. Vermeiden Sie Drittanbieter ohne Rückgaberecht.',
-        es: 'Sí, siempre que elijas el programa Amazon Renewed o el reacondicionado certificado del fabricante. Ahorras entre un 20 y 40 % con garantía de 6 a 12 meses. Verifica el estado del antiadherente y que incluya todos los accesorios. Evita vendedores terceros sin política de devolución.',
-        it: 'Sì, a patto di scegliere il programma Amazon Renewed o il ricondizionato certificato dal produttore. Risparmi dal 20 al 40% con garanzia di 6-12 mesi. Verifica lo stato del rivestimento antiaderente e che tutti gli accessori siano inclusi. Evita venditori terzi senza politica di reso.',
-        nl: 'Ja, mits je kiest voor Amazon Renewed of door de fabrikant gecertificeerde refurbished programma\'s. Je bespaart 20 tot 40 procent met 6-12 maanden garantie. Controleer de staat van de antiaanbaklaag en of alle accessoires zijn bijgesloten. Vermijd derden zonder retourbeleid.',
+        fr: 'Environ 3,5 à 4 litres pour une à deux personnes, et 5 litres pour trois à quatre. Au-delà, un airfryer d’entrée de gamme impose plusieurs fournées ; mieux vaut alors viser un grand format ou un double tiroir.',
+        en: 'Roughly 3.5 to 4 litres for one or two people, and 5 litres for three to four. Beyond that, an entry-level air fryer means several batches, so a large format or dual drawer makes more sense.',
+        de: 'Etwa 3,5 bis 4 Liter für eine bis zwei Personen und 5 Liter für drei bis vier. Darüber hinaus erfordert ein Einsteigergerät mehrere Durchgänge; dann ist ein großes Format oder eine Doppelschublade sinnvoller.',
+        es: 'Unos 3,5 a 4 litros para una o dos personas, y 5 litros para tres o cuatro. Por encima, una freidora de gama de entrada obliga a cocinar por tandas; conviene entonces un formato grande o de doble cajón.',
+        it: 'Circa 3,5-4 litri per una o due persone e 5 litri per tre o quattro. Oltre, una friggitrice entry-level impone più riprese: meglio allora un grande formato o un doppio cassetto.',
+        nl: 'Ongeveer 3,5 tot 4 liter voor één of twee personen en 5 liter voor drie tot vier. Daarboven betekent een instapmodel meerdere rondes; dan is een groot formaat of dubbele lade verstandiger.',
       },
     },
     {
       question: {
-        fr: 'Quand acheter un airfryer pour avoir le meilleur prix ?',
-        en: 'When is the best time to buy an air fryer for the best price?',
-        de: 'Wann ist der beste Zeitpunkt, eine Heißluftfritteuse zum besten Preis zu kaufen?',
-        es: '¿Cuándo comprar una freidora de aire para conseguir el mejor precio?',
-        it: 'Quando comprare una friggitrice ad aria per il miglior prezzo?',
-        nl: 'Wanneer kun je het beste een airfryer kopen voor de beste prijs?',
+        fr: 'Existe-t-il des airfryers connectés pas chers ?',
+        en: 'Are there affordable smart air fryers?',
+        de: 'Gibt es günstige vernetzte Heißluftfritteusen?',
+        es: '¿Hay freidoras de aire conectadas baratas?',
+        it: 'Esistono friggitrici ad aria connesse economiche?',
+        nl: 'Bestaan er goedkope slimme airfryers?',
       },
       answer: {
-        fr: 'Le Black Friday (fin novembre) offre les meilleures remises : 30 à 50 % sur les modèles populaires. Les soldes d\'été et le Prime Day (juillet) sont aussi d\'excellents moments. Surveillez aussi les ventes flash Amazon toute l\'année. Utilisez des comparateurs de prix pour suivre l\'historique des prix.',
-        en: 'Black Friday in late November offers the best discounts of 30 to 50 percent on popular models. Summer sales and Prime Day in July are also excellent times. Watch for Amazon flash sales throughout the year. Use price comparison tools to track price history and spot the lowest point before buying.',
-        de: 'Black Friday Ende November bietet die besten Rabatte von 30-50 Prozent auf beliebte Modelle. Sommerschlussverkauf und Prime Day im Juli sind ebenfalls hervorragend. Achten Sie auf Amazon-Blitzangebote das ganze Jahr über. Nutzen Sie Preisvergleichstools zur Preisverfolgung.',
-        es: 'El Black Friday (finales de noviembre) ofrece los mejores descuentos: 30-50 % en modelos populares. Las rebajas de verano y el Prime Day (julio) también son excelentes. Vigila las ofertas flash de Amazon todo el año. Usa comparadores de precios para seguir el historial de precios.',
-        it: 'Il Black Friday (fine novembre) offre i migliori sconti: 30-50% sui modelli popolari. I saldi estivi e il Prime Day (luglio) sono altrettanto ottimi. Tieni d\'occhio le offerte lampo di Amazon tutto l\'anno. Usa comparatori di prezzi per monitorare lo storico prezzi prima dell\'acquisto.',
-        nl: 'Black Friday eind november biedt de beste kortingen van 30-50 procent op populaire modellen. Zomeruitverkoop en Prime Day in juli zijn ook uitstekende momenten. Let het hele jaar op Amazon bliksemdeals. Gebruik prijsvergelijkers om de prijsgeschiedenis te volgen voordat je koopt.',
+        fr: 'Oui. Le Xiaomi Smart Air Fryer Pro 4L se pilote avec l’application Xiaomi Home et le Cosori Lite 3.8L avec l’application VeSync, compatible Alexa et Google Assistant. Ce sont les exceptions dans l’entrée de gamme.',
+        en: 'Yes. The Xiaomi Smart Air Fryer Pro 4L works with the Xiaomi Home app, and the Cosori Lite 3.8L with the VeSync app, compatible with Alexa and Google Assistant. They are the exceptions at entry level.',
+        de: 'Ja. Die Xiaomi Smart Air Fryer Pro 4L lässt sich per Xiaomi-Home-App steuern, die Cosori Lite 3.8L per VeSync-App, kompatibel mit Alexa und Google Assistant. Im Einstiegssegment sind sie die Ausnahme.',
+        es: 'Sí. La Xiaomi Smart Air Fryer Pro 4L se controla con la app Xiaomi Home y la Cosori Lite 3.8L con la app VeSync, compatible con Alexa y Google Assistant. Son la excepción en la gama de entrada.',
+        it: 'Sì. La Xiaomi Smart Air Fryer Pro 4L si gestisce con l’app Xiaomi Home e la Cosori Lite 3.8L con l’app VeSync, compatibile con Alexa e Google Assistant. Nella fascia entry-level sono l’eccezione.',
+        nl: 'Ja. De Xiaomi Smart Air Fryer Pro 4L werkt met de Xiaomi Home-app en de Cosori Lite 3.8L met de VeSync-app, compatibel met Alexa en Google Assistant. In de instapklasse zijn ze de uitzondering.',
       },
     },
     {
       question: {
-        fr: 'Quelle garantie attendre d\'un airfryer pas cher ?',
-        en: 'What warranty should you expect from a budget air fryer?',
-        de: 'Welche Garantie kann man bei einer günstigen Heißluftfritteuse erwarten?',
-        es: '¿Qué garantía esperar de una freidora de aire barata?',
-        it: 'Che garanzia aspettarsi da una friggitrice ad aria economica?',
-        nl: 'Welke garantie kun je verwachten van een goedkope airfryer?',
+        fr: 'Comment faire durer un airfryer pas cher ?',
+        en: 'How can I make a budget air fryer last?',
+        de: 'Wie hält eine günstige Heißluftfritteuse länger?',
+        es: '¿Cómo hacer que dure una freidora de aire barata?',
+        it: 'Come far durare una friggitrice ad aria economica?',
+        nl: 'Hoe gaat een goedkope airfryer langer mee?',
       },
       answer: {
-        fr: 'La garantie légale en Europe est de 2 ans minimum, même sur les modèles pas chers. Les grandes marques (Philips, Moulinex, Ninja) offrent souvent un service après-vente réactif. Xiaomi propose aussi 2 ans de garantie via Amazon. Gardez toujours votre facture et enregistrez le produit sur le site du fabricant.',
-        en: 'The legal warranty in Europe is a minimum of 2 years, even on budget models. Major brands like Philips, Moulinex, and Ninja often provide responsive after-sales service. Xiaomi also offers 2 years warranty via Amazon. Always keep your receipt and register the product on the manufacturer\'s website for faster claims.',
-        de: 'Die gesetzliche Garantie in Europa beträgt mindestens 2 Jahre, auch bei günstigen Modellen. Große Marken (Philips, Moulinex, Ninja) bieten oft reaktionsschnellen Kundenservice. Xiaomi bietet ebenfalls 2 Jahre Garantie über Amazon. Bewahren Sie die Rechnung auf und registrieren Sie das Produkt beim Hersteller.',
-        es: 'La garantía legal en Europa es de 2 años mínimo, incluso en modelos baratos. Las grandes marcas (Philips, Moulinex, Ninja) ofrecen un servicio posventa reactivo. Xiaomi también ofrece 2 años de garantía vía Amazon. Guarda siempre el ticket y registra el producto en la web del fabricante.',
-        it: 'La garanzia legale in Europa è di minimo 2 anni, anche sui modelli economici. I grandi marchi (Philips, Moulinex, Ninja) offrono spesso un servizio post-vendita reattivo. Anche Xiaomi offre 2 anni di garanzia tramite Amazon. Conserva sempre lo scontrino e registra il prodotto sul sito del produttore.',
-        nl: 'De wettelijke garantie in Europa is minimaal 2 jaar, zelfs op budgetmodellen. Grote merken (Philips, Moulinex, Ninja) bieden vaak responsieve klantenservice. Xiaomi biedt ook 2 jaar garantie via Amazon. Bewaar altijd je bon en registreer het product op de website van de fabrikant voor snellere claims.',
+        fr: 'Nettoyez le panier après chaque usage, évitez les éponges abrasives et les ustensiles métalliques, ne surchargez pas le panier et choisissez une marque qui vend des pièces détachées.',
+        en: 'Clean the basket after each use, avoid abrasive scourers and metal utensils, do not overload the basket, and choose a brand that sells spare parts.',
+        de: 'Reinigen Sie den Korb nach jedem Gebrauch, meiden Sie Scheuerschwämme und Metallutensilien, überladen Sie den Korb nicht und wählen Sie eine Marke, die Ersatzteile anbietet.',
+        es: 'Limpia la cesta después de cada uso, evita estropajos abrasivos y utensilios metálicos, no sobrecargues la cesta y elige una marca que venda recambios.',
+        it: 'Pulisci il cestello dopo ogni uso, evita spugne abrasive e utensili metallici, non sovraccaricare il cestello e scegli una marca che venda ricambi.',
+        nl: 'Maak de mand na elk gebruik schoon, vermijd schuursponsjes en metalen keukengerei, overlaad de mand niet en kies een merk dat onderdelen verkoopt.',
+      },
+    },
+    {
+      question: {
+        fr: 'Faut-il un double tiroir quand on a un petit budget ?',
+        en: 'Do I need a dual drawer on a budget?',
+        de: 'Brauche ich bei kleinem Budget eine Doppelschublade?',
+        es: '¿Hace falta un doble cajón con poco presupuesto?',
+        it: 'Serve un doppio cassetto con un budget ridotto?',
+        nl: 'Heb je een dubbele lade nodig met een klein budget?',
+      },
+      answer: {
+        fr: 'Rarement. Un double tiroir sert surtout à cuire deux préparations en même temps pour une famille. Pour une à trois personnes, un seul panier bien dimensionné suffit et reste plus accessible.',
+        en: 'Rarely. A dual drawer is mainly useful for cooking two dishes at once for a family. For one to three people, a single well-sized basket is enough and stays more affordable.',
+        de: 'Selten. Eine Doppelschublade lohnt sich vor allem, um für eine Familie zwei Gerichte gleichzeitig zu garen. Für ein bis drei Personen reicht ein gut bemessener Korb, und er bleibt günstiger.',
+        es: 'Pocas veces. El doble cajón sirve sobre todo para cocinar dos preparaciones a la vez para una familia. Para una a tres personas basta una sola cesta de buen tamaño, que además es más asequible.',
+        it: 'Raramente. Il doppio cassetto serve soprattutto a cuocere due preparazioni insieme per una famiglia. Per una-tre persone basta un solo cestello ben dimensionato, più accessibile.',
+        nl: 'Zelden. Een dubbele lade is vooral handig om voor een gezin twee gerechten tegelijk te bereiden. Voor één tot drie personen volstaat één goed bemeten mand, en die blijft betaalbaarder.',
       },
     },
   ],

@@ -46,7 +46,7 @@ export const CATEGORY_GUIDES: Record<string, { primary?: string; related: readon
   'rideaux-automatises': { primary: 'rideau-motorise-connecte-guide', related: ['volets-roulants-connectes-guide'] },
   // Entretien
   'aspirateurs-robots': { primary: 'guide-robot-aspirateur-2026', related: ['robot-aspirateur-poils-animaux', 'saugroboter-tierhaare-test', 'robot-aspirador-piso-pequeno', 'robot-aspirateur-vs-balai'] },
-  'aspirateurs-laveurs': { primary: 'meilleur-aspirateur-laveur-2026', related: ['comparatif-robot-aspirateur-laveur'] },
+  'aspirateurs-laveurs': { primary: 'comparatif-robot-aspirateur-laveur', related: ['meilleur-aspirateur-laveur-2026'] },
   'aspirateurs-balais': { primary: 'aspirateur-sans-fil-comparatif-2026', related: ['robot-aspirateur-vs-balai'] },
   'nettoyeurs-vapeur': { primary: 'nettoyeur-vapeur-connecte', related: [] },
   // Extérieur
@@ -66,6 +66,12 @@ export const CATEGORY_GUIDES: Record<string, { primary?: string; related: readon
   diffuseurs: { primary: 'diffuseur-huiles-essentielles-connecte', related: [] },
   'coffres-forts-connectes': { primary: 'coffre-fort-connecte-guide', related: [] },
   'lave-linge-connectes': { primary: 'lave-linge-connecte-guide', related: [] },
+  balances: { primary: 'balance-cuisine-connectee-comparatif', related: [] },
+  'thermometres-viande': { primary: 'barbecue-connecte-thermometre-guide', related: [] },
+  cafetieres: { primary: 'cafetiere-connectee-guide', related: [] },
+  airfryers: { primary: 'comparatif-airfryer-connecte-2026', related: [] },
+  multicuiseurs: { primary: 'comparatif-multicuiseur-connecte', related: [] },
+  'prises-connectees': { primary: 'comparatif-smart-plugs-mesure-energie', related: [] },
 }
 
 const MAX_PICKS = 3

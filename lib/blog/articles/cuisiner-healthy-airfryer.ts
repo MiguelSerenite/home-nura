@@ -6,8 +6,8 @@ export const article: BlogArticle = {
   pillar: 'guides/airfryers',
   relatedSlugs: ['recettes-legumes-grilles-airfryer', 'recettes-poulet-croustillant-airfryer', 'airfryer-vs-friteuse-traditionnelle'],
   datePublished: '2026-03-05',
-  dateModified: '2026-04-12',
-  readingTime: 13,
+  dateModified: '2026-10-09',
+  readingTime: 9,
   images: [
     {
       src: 'https://m.media-amazon.com/images/I/31upZSvSwjL._AC_SL1500_.jpg',
@@ -30,706 +30,642 @@ export const article: BlogArticle = {
     nl: 'Gezond Koken met de Airfryer: Voedings- en Welzijnsgids',
   },
   excerpt: {
-    fr: 'Découvrez comment l\'airfryer peut transformer votre alimentation : réduction des graisses, préservation des nutriments, comparatifs nutritionnels et idées de repas sains.',
-    en: 'Discover how an air fryer can transform your diet: fat reduction, nutrient preservation, nutritional comparisons, and healthy meal ideas.',
-    de: 'Erfahren Sie, wie die Heißluftfritteuse Ihre Ernährung verändern kann: Fettreduktion, Nährstofferhaltung, Nährwertvergleiche und gesunde Mahlzeitenideen.',
-    es: 'Descubre cómo la freidora de aire puede transformar tu alimentación: reducción de grasas, conservación de nutrientes, comparativas nutricionales e ideas de comidas saludables.',
-    it: 'Scopri come la friggitrice ad aria può trasformare la tua alimentazione: riduzione dei grassi, conservazione dei nutrienti, confronti nutrizionali e idee per pasti sani.',
-    nl: 'Ontdek hoe de airfryer je voeding kan transformeren: vetreductie, behoud van voedingsstoffen, voedingsvergelijkingen en gezonde maaltijdideeën.',
+    fr: 'Ce que l\'airfryer change vraiment dans votre alimentation : moins d\'huile, acrylamide, nutriments, aliments à privilégier, idées de repas sains et limites à connaître.',
+    en: 'What an air fryer really changes in your diet: less oil, acrylamide, nutrients, the best foods to cook, healthy meal ideas and the limits worth knowing.',
+    de: 'Was die Heißluftfritteuse an Ihrer Ernährung wirklich ändert: weniger Öl, Acrylamid, Nährstoffe, geeignete Lebensmittel, gesunde Mahlzeitenideen und Grenzen.',
+    es: 'Lo que la freidora de aire cambia de verdad en tu alimentación: menos aceite, acrilamida, nutrientes, alimentos recomendados, ideas de comidas sanas y sus límites.',
+    it: 'Cosa cambia davvero la friggitrice ad aria nella tua alimentazione: meno olio, acrilammide, nutrienti, alimenti consigliati, idee per pasti sani e limiti da conoscere.',
+    nl: 'Wat de airfryer echt verandert aan je voeding: minder olie, acrylamide, voedingsstoffen, geschikte ingrediënten, gezonde maaltijdideeën en de grenzen ervan.',
   },
   content: {
-    fr: `<h2>L'airfryer est-il vraiment plus sain ? Les chiffres parlent</h2>
-<p>L'argument santé est l'un des premiers avantages avancés par les fabricants d'airfryers. Mais qu'en est-il réellement ? Les études scientifiques et nos propres mesures confirment que l'airfryer offre des avantages nutritionnels significatifs par rapport à la friture traditionnelle, tout en restant gourmand. Voici les données concrètes.</p>
+    fr: `<h2>L'airfryer est-il vraiment plus sain ?</h2>
+<p>Oui, par rapport à la friture dans un bain d'huile, l'airfryer permet de cuisiner avec beaucoup moins de matières grasses, car une cuillère d'huile (voire un simple spray) remplace plusieurs centaines de millilitres. En revanche, il ne rend pas sain un aliment qui ne l'est pas : le bénéfice dépend surtout de ce que vous mettez dans le panier.</p>
+<p>Ce guide fait le point sur ce que l'on sait réellement, à partir de la littérature scientifique publiée et des recommandations des autorités sanitaires, puis propose des aliments, des astuces et des idées de repas pour en tirer le meilleur parti. Il ne remplace pas l'avis d'un médecin ou d'un diététicien si vous suivez un régime particulier.</p>
 
-<h3>Réduction des matières grasses : jusqu'à 80 %</h3>
-<p>C'est le chiffre le plus impressionnant. Des frites cuites à l'airfryer contiennent en moyenne 3 à 5 g de graisse pour 100 g, contre 15 à 20 g pour des frites plongées dans un bain d'huile. Concrètement, une portion de 200 g de frites à l'airfryer apporte environ 8 g de lipides, contre 35 g en friture classique.</p>
+<h3>Moins d'huile : d'où vient la différence</h3>
+<p>Dans une friteuse classique, l'aliment est immergé et absorbe une partie de l'huile pendant la cuisson. Dans un airfryer, c'est de l'air très chaud brassé par un ventilateur qui saisit la surface. Pour des frites maison, une cuillère à café d'huile suffit généralement à obtenir une surface dorée. À titre de repère, une cuillère à soupe d'huile apporte environ 120 kcal : c'est la quantité d'huile ajoutée qui fait la différence, bien plus que l'appareil lui-même.</p>
+<p><strong>Attention aux produits surgelés pré-frits :</strong> frites, nuggets ou beignets industriels ont souvent déjà été frits avant congélation. Les passer à l'airfryer évite d'ajouter de l'huile, mais leur teneur en matières grasses reste celle indiquée sur l'emballage. Lisez l'étiquette nutritionnelle.</p>
 
-<h3>Comparatif nutritionnel : airfryer vs friture traditionnelle</h3>
+<h3>Comparaison des modes de cuisson</h3>
 <table>
 <thead>
-<tr><th>Aliment (100 g)</th><th>Calories airfryer</th><th>Calories friture</th><th>Lipides airfryer</th><th>Lipides friture</th><th>Réduction calorique</th></tr>
+<tr><th>Mode de cuisson</th><th>Huile ajoutée</th><th>Texture obtenue</th><th>À savoir</th></tr>
 </thead>
 <tbody>
-<tr><td>Frites de pomme de terre</td><td>160 kcal</td><td>312 kcal</td><td>4 g</td><td>17 g</td><td>-49 %</td></tr>
-<tr><td>Nuggets de poulet</td><td>190 kcal</td><td>296 kcal</td><td>8 g</td><td>18 g</td><td>-36 %</td></tr>
-<tr><td>Beignets de crevettes</td><td>175 kcal</td><td>280 kcal</td><td>6 g</td><td>16 g</td><td>-38 %</td></tr>
-<tr><td>Ailes de poulet</td><td>210 kcal</td><td>320 kcal</td><td>12 g</td><td>22 g</td><td>-34 %</td></tr>
-<tr><td>Bâtonnets de mozzarella</td><td>220 kcal</td><td>350 kcal</td><td>11 g</td><td>21 g</td><td>-37 %</td></tr>
+<tr><td>Airfryer</td><td>Très faible (spray ou 1 c. à café)</td><td>Croustillant en surface</td><td>Cuisson rapide, panier à ne pas surcharger</td></tr>
+<tr><td>Friteuse à bain d'huile</td><td>Bain complet</td><td>Très croustillant</td><td>L'aliment absorbe une partie de l'huile</td></tr>
+<tr><td>Four traditionnel</td><td>Faible à modérée</td><td>Doré, parfois moins croustillant</td><td>Préchauffage plus long, grande capacité</td></tr>
+<tr><td>Poêle</td><td>Modérée</td><td>Saisi, doré</td><td>Demande de la surveillance</td></tr>
+<tr><td>Vapeur</td><td>Aucune</td><td>Tendre, sans croûte</td><td>Pas de contact direct avec l'eau de cuisson</td></tr>
 </tbody>
 </table>
+<p>Pour une analyse plus complète, consultez notre <a href="/fr/blog/airfryer-vs-friteuse-traditionnelle">comparatif airfryer vs friteuse traditionnelle</a>.</p>
 
-<p>Pour une analyse plus complète des différences, consultez notre <a href="/fr/blog/airfryer-vs-friteuse-traditionnelle">comparatif airfryer vs friteuse traditionnelle</a>.</p>
+<h2>L'acrylamide : réduit dans certaines études, pas éliminé</h2>
+<p>L'acrylamide se forme lors de la cuisson à haute température des aliments riches en amidon (pommes de terre, pain, céréales). L'Autorité européenne de sécurité des aliments (EFSA) a conclu en 2015 qu'il pourrait augmenter le risque de cancer et recommande d'en limiter l'exposition ; l'Union européenne encadre d'ailleurs sa réduction dans l'industrie alimentaire.</p>
+<p>Une étude publiée en 2015 dans le <em>Journal of Food Science</em> (Sansano et al.) a mesuré, à 180 °C, environ 90 % d'acrylamide en moins sur des frites cuites à l'air chaud que sur des frites plongées dans l'huile. D'autres travaux, rassemblés dans une revue scientifique de 2024, montrent toutefois des résultats variables selon la température, la durée et la préparation des pommes de terre. Mieux vaut donc appliquer les bons gestes plutôt que compter sur l'appareil seul.</p>
 
-<h2>L'acrylamide : un risque réduit mais pas éliminé</h2>
-<p>L'acrylamide est une substance potentiellement cancérigène qui se forme naturellement lors de la cuisson à haute température d'aliments riches en amidon (pommes de terre, pain, céréales). Une étude publiée dans le <em>Journal of Food Science</em> (2023) a montré que la cuisson à l'airfryer réduit la formation d'acrylamide de 70 à 90 % par rapport à la friture profonde.</p>
-
-<h3>Comment minimiser l'acrylamide à l'airfryer</h3>
+<h3>Comment limiter l'acrylamide à l'airfryer</h3>
 <ul>
-<li><strong>Ne dépassez pas 180°C pour les pommes de terre :</strong> l'acrylamide se forme principalement au-dessus de 175°C. Privilégiez 170-180°C pour les frites.</li>
-<li><strong>Faites tremper les pommes de terre 30 minutes :</strong> le trempage dans l'eau froide réduit l'amidon de surface et donc la formation d'acrylamide.</li>
-<li><strong>Évitez le brunissement excessif :</strong> des frites dorées sont savoureuses, des frites brunes foncées contiennent plus d'acrylamide.</li>
-<li><strong>Préférez les pommes de terre fraîches :</strong> les pommes de terre conservées au froid (réfrigérateur) convertissent l'amidon en sucres, augmentant l'acrylamide à la cuisson. Conservez-les dans un endroit frais et sombre, pas au réfrigérateur.</li>
+<li><strong>Visez une couleur jaune doré :</strong> c'est le conseil diffusé par les autorités sanitaires européennes. Plus les frites brunissent, plus elles contiennent d'acrylamide.</li>
+<li><strong>Restez autour de 170-180 °C pour les pommes de terre</strong> et évitez de prolonger la cuisson « pour plus de croustillant ».</li>
+<li><strong>Faites tremper les frites crues</strong> 15 à 30 minutes dans l'eau froide, puis séchez-les bien : le trempage réduit les sucres de surface.</li>
+<li><strong>Suivez les instructions de l'emballage</strong> pour les produits surgelés, sans les dépasser.</li>
 </ul>
 
-<h2>Préservation des nutriments : l'avantage de la cuisson rapide</h2>
-<p>L'airfryer cuit plus vite que le four traditionnel (temps réduit de 20 à 30 %), ce qui signifie que les aliments sont exposés moins longtemps à la chaleur. Résultat : une meilleure préservation des vitamines thermosensibles.</p>
+<h2>Préservation des nutriments : ce que l'on peut dire</h2>
+<p>La teneur en vitamines après cuisson dépend de trois facteurs : la température, la durée et le contact avec l'eau. Les vitamines hydrosolubles (vitamine C, vitamines du groupe B) passent en partie dans l'eau de cuisson lorsqu'on fait bouillir des légumes. L'airfryer, comme le four ou la vapeur, évite ce contact, et sa cuisson souvent plus courte que celle d'un four classique limite l'exposition à la chaleur.</p>
+<p>Les résultats varient néanmoins beaucoup d'un aliment à l'autre, et aucune méthode n'est la meilleure pour tous les nutriments. Retenez surtout qu'il vaut mieux cuire les légumes juste à point plutôt que de les dessécher, et varier les modes de cuisson.</p>
 
-<h3>Taux de rétention des vitamines par mode de cuisson</h3>
-<table>
-<thead>
-<tr><th>Vitamine</th><th>Airfryer</th><th>Four traditionnel</th><th>Friture</th><th>Ébullition</th></tr>
-</thead>
-<tbody>
-<tr><td>Vitamine C</td><td>75-85 %</td><td>60-70 %</td><td>50-60 %</td><td>40-50 %</td></tr>
-<tr><td>Vitamine B1</td><td>80-90 %</td><td>70-80 %</td><td>60-70 %</td><td>50-60 %</td></tr>
-<tr><td>Vitamine B6</td><td>80-85 %</td><td>70-75 %</td><td>55-65 %</td><td>45-55 %</td></tr>
-<tr><td>Folates (B9)</td><td>70-80 %</td><td>60-70 %</td><td>50-60 %</td><td>40-55 %</td></tr>
-</tbody>
-</table>
-
-<p><strong>Point clé :</strong> la combinaison de temps de cuisson courts et d'absence de contact avec l'eau (contrairement à l'ébullition) fait de l'airfryer l'un des modes de cuisson les plus respectueux des nutriments.</p>
-
-<h2>Les meilleures catégories d'aliments sains à l'airfryer</h2>
+<h2>Les meilleurs aliments pour cuisiner sain à l'airfryer</h2>
 
 <h3>1. Les légumes : croquants et savoureux</h3>
-<p>L'airfryer révèle les saveurs des légumes comme aucun autre mode de cuisson domestique. La caramélisation de surface concentre les goûts tout en gardant le cœur tendre et juteux. Découvrez nos <a href="/fr/blog/recettes-legumes-grilles-airfryer">recettes de légumes grillés à l'airfryer</a>.</p>
+<p>La chaleur sèche caramélise la surface des légumes et concentre leurs saveurs tout en gardant le cœur tendre. Découvrez nos <a href="/fr/blog/recettes-legumes-grilles-airfryer">recettes de légumes grillés à l'airfryer</a>.</p>
 <ul>
-<li><strong>Brocoli :</strong> 180°C, 10-12 min. Croquant à l'extérieur, tendre à l'intérieur. Seulement 1 cuillère à café d'huile.</li>
-<li><strong>Courgettes :</strong> 200°C, 8-10 min en rondelles. Parfaites en accompagnement.</li>
-<li><strong>Chou-fleur :</strong> 190°C, 15-18 min. Les florets deviennent dorés et croquants. Le "popcorn de chou-fleur" est un classique.</li>
-<li><strong>Patate douce :</strong> 190°C, 15-20 min en frites. Plus sucrées et plus riches en bêta-carotène que les pommes de terre classiques.</li>
-<li><strong>Champignons :</strong> 190°C, 10-12 min. Juteux et concentrés en saveur umami.</li>
+<li><strong>Brocoli :</strong> 180 °C, 10-12 min, avec une cuillère à café d'huile.</li>
+<li><strong>Courgettes :</strong> 200 °C, 8-10 min en rondelles.</li>
+<li><strong>Chou-fleur :</strong> 190 °C, 15-18 min. Les fleurettes deviennent dorées et croquantes.</li>
+<li><strong>Patate douce :</strong> 190 °C, 15-20 min en frites. Elle apporte du bêta-carotène.</li>
+<li><strong>Champignons :</strong> 190 °C, 10-12 min. Juteux et riches en saveur umami.</li>
 </ul>
 
-<h3>2. Les protéines maigres : croustillant sans panure</h3>
-<p>L'airfryer excelle avec les protéines maigres car il crée une croûte croustillante sans avoir besoin d'une couche épaisse de panure. Consultez nos <a href="/fr/blog/recettes-poulet-croustillant-airfryer">recettes de poulet croustillant</a>.</p>
+<h3>2. Les protéines maigres : croustillant sans panure épaisse</h3>
+<p>L'airfryer forme une croûte sans avoir besoin d'une couche épaisse de panure. Consultez nos <a href="/fr/blog/recettes-poulet-croustillant-airfryer">recettes de poulet croustillant</a>.</p>
 <ul>
-<li><strong>Filet de poulet :</strong> 180°C, 18-22 min. Juteux à l'intérieur grâce à la cuisson rapide.</li>
-<li><strong>Saumon :</strong> 200°C, 8-10 min. La peau devient incroyablement croustillante. Riche en oméga-3.</li>
-<li><strong>Tofu :</strong> 190°C, 15-18 min. Croustillant sans friture, parfait pour les végétariens.</li>
-<li><strong>Crevettes :</strong> 200°C, 6-8 min. Cuisson ultra-rapide, résultat succulent.</li>
+<li><strong>Filet de poulet :</strong> 180 °C, 18-22 min selon l'épaisseur. Vérifiez que le cœur est bien cuit.</li>
+<li><strong>Saumon :</strong> 200 °C, 8-10 min. Un poisson gras, source d'oméga-3.</li>
+<li><strong>Tofu :</strong> 190 °C, 15-18 min, bien égoutté. Idéal pour les repas végétariens.</li>
+<li><strong>Crevettes :</strong> 200 °C, 6-8 min. Une cuisson très rapide.</li>
 </ul>
 
-<h3>3. Les céréales complètes et légumineuses</h3>
+<h3>3. Les légumineuses et céréales</h3>
 <ul>
-<li><strong>Pois chiches grillés :</strong> 190°C, 15-20 min. Snack protéiné (19 g de protéines pour 100 g) croquant et addictif.</li>
-<li><strong>Falafel :</strong> 180°C, 12-15 min. Sans friture, moelleux à l'intérieur.</li>
-<li><strong>Galettes de quinoa :</strong> 180°C, 10-12 min. Croustillantes et rassasiantes.</li>
+<li><strong>Pois chiches grillés :</strong> 190 °C, 15-20 min, bien séchés. Un en-cas croquant riche en fibres.</li>
+<li><strong>Falafels :</strong> 180 °C, 12-15 min, légèrement huilés. Moelleux à l'intérieur sans friture.</li>
+<li><strong>Galettes de quinoa :</strong> 180 °C, 10-12 min. Croustillantes et rassasiantes.</li>
 </ul>
 
-<h2>Plan de repas sains à l'airfryer : une semaine type</h2>
-
-<h3>Lundi : Poulet et brocoli</h3>
-<p>Filets de poulet marinés au citron et herbes (180°C, 20 min) + brocoli à l'ail (180°C, 12 min). Total : 380 kcal, 35 g protéines, 8 g lipides.</p>
-
-<h3>Mardi : Saumon et patates douces</h3>
-<p>Pavé de saumon (200°C, 10 min) + frites de patate douce (190°C, 18 min). Total : 420 kcal, 28 g protéines, 14 g lipides.</p>
-
-<h3>Mercredi : Bowl végétarien</h3>
-<p>Tofu croustillant (190°C, 16 min) + légumes grillés variés (190°C, 15 min) + riz complet. Total : 400 kcal, 22 g protéines, 12 g lipides.</p>
-
-<h3>Jeudi : Crevettes et courgettes</h3>
-<p>Crevettes à l'ail (200°C, 7 min) + courgettes grillées (200°C, 10 min). Total : 280 kcal, 30 g protéines, 6 g lipides.</p>
-
-<h3>Vendredi : Falafel et légumes</h3>
-<p>Falafel maison (180°C, 14 min) + poivrons et oignons grillés (190°C, 12 min) + pain pita complet. Total : 450 kcal, 18 g protéines, 15 g lipides.</p>
-
-<h3>Samedi : Poulet croustillant healthy</h3>
-<p>Poulet pané à la chapelure de flocons d'avoine (180°C, 22 min) + champignons grillés (190°C, 12 min). Total : 390 kcal, 34 g protéines, 10 g lipides.</p>
-
-<h3>Dimanche : Légumes rôtis et œufs</h3>
-<p>Légumes racines rôtis (190°C, 20 min) + œufs en cocotte à l'airfryer (160°C, 8 min). Total : 320 kcal, 16 g protéines, 14 g lipides.</p>
-
-<h2>5 astuces pour maximiser les bienfaits santé de l'airfryer</h2>
+<h2>Idées de repas sains à l'airfryer pour la semaine</h2>
 <ul>
-<li><strong>1. Utilisez un spray huile :</strong> 2-3 pulvérisations (environ 2 ml) suffisent pour la plupart des recettes. Cela représente 18 kcal contre 120 kcal pour une cuillère à soupe d'huile.</li>
-<li><strong>2. Privilégiez les huiles à haut point de fumée :</strong> huile d'avocat (271°C), huile de pépins de raisin (216°C), huile d'olive raffinée (210°C). Ces huiles restent stables aux températures de l'airfryer.</li>
-<li><strong>3. Remplacez la panure par des alternatives saines :</strong> flocons d'avoine mixés, noix concassées, graines de sésame, parmesan râpé. Même croustillant, plus de fibres et de nutriments.</li>
-<li><strong>4. Marinades sans sucre ajouté :</strong> utilisez du citron, des herbes fraîches, de l'ail, du gingembre et des épices. Les marinades acides (vinaigre, agrumes) attendrissent la viande sans calories supplémentaires.</li>
-<li><strong>5. Ne surchargez pas le panier :</strong> un panier trop plein = une cuisson inégale = des parties trop cuites et d'autres pas assez. Respectez la règle des 2/3 de remplissage maximum.</li>
+<li><strong>Lundi :</strong> filets de poulet marinés au citron et aux herbes, brocoli à l'ail.</li>
+<li><strong>Mardi :</strong> pavé de saumon, frites de patate douce.</li>
+<li><strong>Mercredi :</strong> bowl de tofu croustillant, légumes grillés variés et riz complet.</li>
+<li><strong>Jeudi :</strong> crevettes à l'ail, courgettes grillées.</li>
+<li><strong>Vendredi :</strong> falafels maison, poivrons et oignons grillés, pain pita complet.</li>
+<li><strong>Samedi :</strong> poulet pané aux flocons d'avoine, champignons grillés.</li>
+<li><strong>Dimanche :</strong> légumes racines rôtis, œufs cocotte (160 °C, 8 min environ).</li>
+</ul>
+<p>Pour organiser ces repas à l'avance, voyez aussi notre <a href="/fr/blog/meal-prep-airfryer-semaine">meal prep à l'airfryer pour la semaine</a>.</p>
+
+<h2>5 astuces pour cuisiner plus sain à l'airfryer</h2>
+<ul>
+<li><strong>1. Dosez l'huile au spray :</strong> quelques pulvérisations suffisent pour la plupart des recettes, bien moins qu'une cuillère à soupe versée à vue d'œil.</li>
+<li><strong>2. Choisissez une huile adaptée à la chaleur :</strong> les huiles raffinées supportent mieux les hautes températures. Évitez de laisser l'huile fumer.</li>
+<li><strong>3. Allégez la panure :</strong> flocons d'avoine mixés, graines de sésame, noix concassées ou un peu de parmesan donnent du croustillant.</li>
+<li><strong>4. Misez sur des marinades sans sucre ajouté :</strong> citron, herbes, ail, gingembre et épices apportent du goût. Les marinades sucrées brûlent aussi plus vite.</li>
+<li><strong>5. Ne surchargez pas le panier :</strong> remplissez-le aux deux tiers au maximum et secouez à mi-cuisson pour une cuisson homogène.</li>
 </ul>
 
-<h2>Pour quels objectifs nutritionnels l'airfryer est-il idéal ?</h2>
+<h2>Ce que l'airfryer ne fait pas</h2>
+<p>L'airfryer ne transforme pas un beignet en aliment santé. Il permet de réduire l'huile ajoutée, ce qui peut aider à alléger certains plats, mais l'équilibre global de l'alimentation (quantités, variété, fruits et légumes, produits peu transformés) compte bien davantage que l'appareil de cuisson. Si vous avez un objectif de santé précis (poids, cholestérol, diabète), demandez conseil à un professionnel de santé plutôt que de vous fier à un appareil.</p>
 
-<h3>Perte de poids</h3>
-<p>En remplaçant la friture par l'airfryer pour 5 repas par semaine, vous économisez en moyenne 1 500 à 2 000 kcal hebdomadaires. Sur un mois, cela représente l'équivalent de 0,5 à 0,7 kg de graisse corporelle, sans changer le contenu de votre assiette.</p>
-
-<h3>Santé cardiovasculaire</h3>
-<p>La réduction drastique des graisses saturées et des huiles chauffées à haute température contribue à baisser le cholestérol LDL. L'American Heart Association recommande de limiter les graisses saturées à moins de 13 g par jour. Un repas à l'airfryer contient en moyenne 3-5 g de graisses saturées contre 10-15 g pour le même repas frit.</p>
-
-<h3>Diabète de type 2</h3>
-<p>Les aliments cuits à l'airfryer ont généralement un index glycémique similaire ou légèrement inférieur aux mêmes aliments cuits au four, et nettement inférieur aux aliments frits. Les frites d'airfryer ont un IG d'environ 72, contre 82 pour les frites frites.</p>
-
-<h2>Tableau de comparaison nutritionnelle détaillée</h2>
-<table>
-<thead><tr><th>Aliment (100 g)</th><th>Fritteuse traditionnelle</th><th>Airfryer</th><th>Économie calories</th><th>Économie graisses</th></tr></thead>
-<tbody>
-<tr><td>Frites pomme de terre</td><td>340 kcal / 17 g graisses</td><td>180 kcal / 4 g graisses</td><td>-47 %</td><td>-76 %</td></tr>
-<tr><td>Ailes de poulet</td><td>290 kcal / 20 g graisses</td><td>210 kcal / 12 g graisses</td><td>-28 %</td><td>-40 %</td></tr>
-<tr><td>Nuggets poulet maison</td><td>280 kcal / 15 g graisses</td><td>195 kcal / 7 g graisses</td><td>-30 %</td><td>-53 %</td></tr>
-<tr><td>Beignets de légumes</td><td>250 kcal / 16 g graisses</td><td>130 kcal / 3 g graisses</td><td>-48 %</td><td>-81 %</td></tr>
-<tr><td>Mozzarella en croûte</td><td>320 kcal / 22 g graisses</td><td>220 kcal / 11 g graisses</td><td>-31 %</td><td>-50 %</td></tr>
-</tbody>
-</table>
-
-<h2>5 recettes healthy faciles à réaliser à l'airfryer</h2>
+<h2>5 recettes healthy faciles à l'airfryer</h2>
 <ul>
-<li><strong>Frites de courgettes au parmesan</strong> : courgettes en bâtonnets, enrobées d'une fine couche de chapelure et de parmesan. 160°C, 14 minutes. 120 kcal / 100 g vs 280 kcal en friture.</li>
-<li><strong>Pois chiches croustillants aux épices</strong> : pois chiches égouttés, 1 cuillère à café d'huile, cumin, paprika fumé. 200°C, 15 minutes. Snack protéiné à 170 kcal / 100 g.</li>
-<li><strong>Saumon à la croûte d'herbes</strong> : filet de saumon + chapelure + herbes fraîches. 190°C, 12 minutes. 200 kcal / 100 g, 23 g de protéines, riche en oméga-3.</li>
-<li><strong>Aubergines façon chips</strong> : tranches fines, 1 spray d'huile, sel, thym. 180°C, 10 minutes. 45 kcal / 100 g.</li>
-<li><strong>Poulet tikka mariné</strong> : blancs de poulet marinés au yaourt et aux épices. 190°C, 18 minutes. 170 kcal / 100 g, 31 g protéines.</li>
+<li><strong>Frites de courgettes au parmesan :</strong> bâtonnets de courgette enrobés d'une fine couche de chapelure et de parmesan. 180 °C, 12-14 minutes.</li>
+<li><strong>Pois chiches croustillants aux épices :</strong> pois chiches égouttés et séchés, 1 cuillère à café d'huile, cumin, paprika fumé. 200 °C, 15 minutes en secouant.</li>
+<li><strong>Saumon en croûte d'herbes :</strong> pavé de saumon, chapelure et herbes fraîches. 190 °C, 10-12 minutes.</li>
+<li><strong>Chips d'aubergine :</strong> tranches fines, un spray d'huile, sel et thym. 180 °C, 10 minutes environ, en surveillant la coloration.</li>
+<li><strong>Poulet tikka :</strong> blancs de poulet marinés au yaourt et aux épices. 190 °C, 18 minutes environ.</li>
 </ul>
 
-<h2>Conclusion : un outil santé au quotidien</h2>
-<p>L'airfryer ne fait pas de miracles diététiques — il ne transforme pas un donut en aliment santé. Mais utilisé intelligemment avec des ingrédients frais et de bonnes habitudes, il facilite considérablement une alimentation équilibrée au quotidien. La réduction de 30 à 50 % des calories et de 70 à 80 % des graisses par rapport à la friture traditionnelle est un avantage tangible et mesuré.</p>
+<h2>Conclusion : un outil pratique, pas une solution miracle</h2>
+<p>Utilisé avec des ingrédients frais et peu d'huile, l'airfryer facilite une cuisine plus légère au quotidien, surtout si vous remplacez la friture dans un bain d'huile. Ses avantages sont réels mais dépendent des aliments choisis et de la façon de cuire : couleur dorée plutôt que brune, panier non surchargé, produits peu transformés.</p>
 <p>Pour aller plus loin, explorez notre <a href="/fr/guides/airfryers">guide complet des airfryers</a> et notre <a href="/fr/guides/airfryer-vs-four">comparatif airfryer vs four traditionnel</a>.</p>`,
 
-    en: `<h2>Is the air fryer really healthier? The numbers speak</h2>
-<p>Health is one of the primary selling points for air fryers. But what do the data actually show? Scientific studies and our own measurements confirm that air frying offers significant nutritional advantages over traditional deep frying, while still delivering satisfying results.</p>
+    en: `<h2>Is an air fryer really healthier?</h2>
+<p>Yes, compared with deep frying, an air fryer lets you cook with far less fat, because a spoonful of oil (or just a spray) replaces several hundred millilitres. It will not, however, make an unhealthy food healthy: the benefit depends mostly on what you put in the basket.</p>
+<p>This guide sums up what is actually known, based on published research and the advice of food safety authorities, then suggests foods, tips and meal ideas to get the most out of your air fryer. It does not replace advice from a doctor or dietitian if you follow a specific diet.</p>
 
-<h3>Fat reduction: up to 80%</h3>
-<p>Chips cooked in an air fryer contain an average of 3-5 g of fat per 100 g, compared with 15-20 g for deep-fried chips. A 200 g serving of air-fried chips delivers about 8 g of fat versus 35 g from the deep fryer.</p>
+<h3>Less oil: where the difference comes from</h3>
+<p>In a deep fryer, food is submerged and absorbs some of the oil as it cooks. In an air fryer, very hot air circulated by a fan crisps the surface. For homemade chips, a teaspoon of oil is usually enough for a golden finish. As a benchmark, one tablespoon of oil provides around 120 kcal: the amount of oil you add matters far more than the appliance itself.</p>
+<p><strong>Watch out for pre-fried frozen foods:</strong> shop-bought chips, nuggets and fritters have often been fried before freezing. Air frying them avoids adding more oil, but their fat content stays as stated on the pack. Check the nutrition label.</p>
 
-<h3>Nutritional comparison: air fryer vs deep frying</h3>
+<h3>Cooking methods compared</h3>
 <table>
 <thead>
-<tr><th>Food (100 g)</th><th>Air fryer cal</th><th>Deep-fried cal</th><th>Air fryer fat</th><th>Deep-fried fat</th><th>Calorie reduction</th></tr>
+<tr><th>Cooking method</th><th>Added oil</th><th>Texture</th><th>Good to know</th></tr>
 </thead>
 <tbody>
-<tr><td>Potato chips</td><td>160 kcal</td><td>312 kcal</td><td>4 g</td><td>17 g</td><td>-49%</td></tr>
-<tr><td>Chicken nuggets</td><td>190 kcal</td><td>296 kcal</td><td>8 g</td><td>18 g</td><td>-36%</td></tr>
-<tr><td>Prawn tempura</td><td>175 kcal</td><td>280 kcal</td><td>6 g</td><td>16 g</td><td>-38%</td></tr>
-<tr><td>Chicken wings</td><td>210 kcal</td><td>320 kcal</td><td>12 g</td><td>22 g</td><td>-34%</td></tr>
-<tr><td>Mozzarella sticks</td><td>220 kcal</td><td>350 kcal</td><td>11 g</td><td>21 g</td><td>-37%</td></tr>
+<tr><td>Air fryer</td><td>Very little (spray or 1 tsp)</td><td>Crispy surface</td><td>Fast cooking, don't overfill the basket</td></tr>
+<tr><td>Deep fryer</td><td>Full oil bath</td><td>Very crispy</td><td>Food absorbs some of the oil</td></tr>
+<tr><td>Conventional oven</td><td>Low to moderate</td><td>Golden, sometimes less crispy</td><td>Longer preheating, large capacity</td></tr>
+<tr><td>Frying pan</td><td>Moderate</td><td>Seared, golden</td><td>Needs watching</td></tr>
+<tr><td>Steaming</td><td>None</td><td>Tender, no crust</td><td>No direct contact with cooking water</td></tr>
 </tbody>
 </table>
-
 <p>For a full breakdown, see our <a href="/en/blog/airfryer-vs-friteuse-traditionnelle">air fryer vs deep fryer comparison</a>.</p>
 
-<h2>Acrylamide: reduced but not eliminated</h2>
-<p>Acrylamide is a potentially carcinogenic substance that forms when starchy foods are cooked at high temperatures. A study in the <em>Journal of Food Science</em> (2023) showed that air frying reduces acrylamide formation by 70-90% compared to deep frying.</p>
-<h3>How to minimise acrylamide</h3>
+<h2>Acrylamide: lower in some studies, not eliminated</h2>
+<p>Acrylamide forms when starchy foods (potatoes, bread, cereals) are cooked at high temperatures. In 2015 the European Food Safety Authority (EFSA) concluded that it potentially increases the risk of cancer and advised limiting exposure; EU rules also require the food industry to reduce it.</p>
+<p>A 2015 study in the <em>Journal of Food Science</em> (Sansano et al.) measured around 90% less acrylamide in air-fried chips than in deep-fried ones at 180°C. Other research, gathered in a 2024 scientific review, shows variable results depending on temperature, time and how the potatoes are prepared. So good habits matter more than the appliance alone.</p>
+
+<h3>How to limit acrylamide in an air fryer</h3>
 <ul>
-<li><strong>Keep potato cooking below 180°C:</strong> acrylamide forms primarily above 175°C.</li>
-<li><strong>Soak potatoes for 30 minutes:</strong> cold water soaking reduces surface starch.</li>
-<li><strong>Avoid excessive browning:</strong> golden is delicious; dark brown means more acrylamide.</li>
-<li><strong>Use fresh potatoes stored in a cool dark place:</strong> refrigerating potatoes converts starch to sugars, increasing acrylamide during cooking.</li>
+<li><strong>Aim for golden yellow:</strong> this is the advice shared by European food safety authorities. The browner the chips, the more acrylamide they contain.</li>
+<li><strong>Stay around 170-180°C for potatoes</strong> and avoid extending the cooking time "for extra crunch".</li>
+<li><strong>Soak raw chips</strong> in cold water for 15 to 30 minutes, then dry them well: soaking reduces surface sugars.</li>
+<li><strong>Follow the pack instructions</strong> for frozen products, without going beyond them.</li>
 </ul>
 
-<h2>Nutrient preservation: the benefit of fast cooking</h2>
-<p>Air frying cooks 20-30% faster than a conventional oven, meaning less heat exposure for food and better retention of heat-sensitive vitamins.</p>
-<table>
-<thead>
-<tr><th>Vitamin</th><th>Air fryer</th><th>Oven</th><th>Deep frying</th><th>Boiling</th></tr>
-</thead>
-<tbody>
-<tr><td>Vitamin C</td><td>75-85%</td><td>60-70%</td><td>50-60%</td><td>40-50%</td></tr>
-<tr><td>Vitamin B1</td><td>80-90%</td><td>70-80%</td><td>60-70%</td><td>50-60%</td></tr>
-<tr><td>Vitamin B6</td><td>80-85%</td><td>70-75%</td><td>55-65%</td><td>45-55%</td></tr>
-<tr><td>Folate (B9)</td><td>70-80%</td><td>60-70%</td><td>50-60%</td><td>40-55%</td></tr>
-</tbody>
-</table>
+<h2>Nutrient retention: what we can say</h2>
+<p>How many vitamins survive cooking depends on three factors: temperature, time and contact with water. Water-soluble vitamins (vitamin C, B vitamins) partly leach into the water when vegetables are boiled. An air fryer, like an oven or a steamer, avoids that contact, and its cooking time is often shorter than a conventional oven's, which limits heat exposure.</p>
+<p>Results still vary a lot from one food to another, and no method is best for every nutrient. The main takeaway: cook vegetables until just done rather than drying them out, and vary your cooking methods.</p>
 
-<h2>Best healthy food categories for the air fryer</h2>
+<h2>The best foods for healthy air frying</h2>
 
 <h3>1. Vegetables: crisp and flavourful</h3>
-<p>The air fryer brings out vegetable flavours through surface caramelisation while keeping interiors tender. See our <a href="/en/blog/recettes-legumes-grilles-airfryer">grilled vegetable recipes</a>.</p>
+<p>Dry heat caramelises the surface of vegetables and concentrates their flavour while keeping the inside tender. See our <a href="/en/blog/recettes-legumes-grilles-airfryer">roasted vegetable recipes</a>.</p>
 <ul>
-<li><strong>Broccoli:</strong> 180°C, 10-12 min. Only 1 teaspoon of oil needed.</li>
+<li><strong>Broccoli:</strong> 180°C, 10-12 min, with a teaspoon of oil.</li>
 <li><strong>Courgettes:</strong> 200°C, 8-10 min in slices.</li>
-<li><strong>Cauliflower:</strong> 190°C, 15-18 min. "Cauliflower popcorn" is a classic.</li>
-<li><strong>Sweet potato:</strong> 190°C, 15-20 min as chips. Higher in beta-carotene than regular potatoes.</li>
+<li><strong>Cauliflower:</strong> 190°C, 15-18 min. The florets turn golden and crunchy.</li>
+<li><strong>Sweet potato:</strong> 190°C, 15-20 min as chips. A source of beta-carotene.</li>
+<li><strong>Mushrooms:</strong> 190°C, 10-12 min. Juicy and full of umami.</li>
 </ul>
 
 <h3>2. Lean proteins: crispy without heavy breading</h3>
-<p>The air fryer creates a crispy crust without thick breading. See our <a href="/en/blog/recettes-poulet-croustillant-airfryer">crispy chicken recipes</a>.</p>
+<p>The air fryer builds a crust without a thick coating. See our <a href="/en/blog/recettes-poulet-croustillant-airfryer">crispy chicken recipes</a>.</p>
 <ul>
-<li><strong>Chicken breast:</strong> 180°C, 18-22 min. Juicy inside thanks to rapid cooking.</li>
-<li><strong>Salmon:</strong> 200°C, 8-10 min. Incredibly crispy skin, rich in omega-3.</li>
-<li><strong>Tofu:</strong> 190°C, 15-18 min. Crispy without frying — perfect for vegetarians.</li>
+<li><strong>Chicken breast:</strong> 180°C, 18-22 min depending on thickness. Check it is cooked through.</li>
+<li><strong>Salmon:</strong> 200°C, 8-10 min. An oily fish and a source of omega-3.</li>
+<li><strong>Tofu:</strong> 190°C, 15-18 min, well pressed. Ideal for vegetarian meals.</li>
+<li><strong>Prawns:</strong> 200°C, 6-8 min. Very quick to cook.</li>
 </ul>
 
-<h3>3. Whole grains and legumes</h3>
+<h3>3. Pulses and grains</h3>
 <ul>
-<li><strong>Roasted chickpeas:</strong> 190°C, 15-20 min. A crunchy protein-rich snack (19 g protein per 100 g).</li>
-<li><strong>Falafel:</strong> 180°C, 12-15 min. No frying needed.</li>
+<li><strong>Roasted chickpeas:</strong> 190°C, 15-20 min, well dried. A crunchy, fibre-rich snack.</li>
+<li><strong>Falafel:</strong> 180°C, 12-15 min, lightly oiled. Soft inside without deep frying.</li>
+<li><strong>Quinoa patties:</strong> 180°C, 10-12 min. Crispy and filling.</li>
 </ul>
 
-<h2>Weekly healthy meal plan</h2>
+<h2>Healthy air fryer meal ideas for the week</h2>
 <ul>
-<li><strong>Monday:</strong> Lemon-herb chicken + garlic broccoli (380 kcal, 35 g protein, 8 g fat)</li>
-<li><strong>Tuesday:</strong> Salmon fillet + sweet potato chips (420 kcal, 28 g protein, 14 g fat)</li>
-<li><strong>Wednesday:</strong> Crispy tofu + mixed roasted vegetables + brown rice (400 kcal, 22 g protein, 12 g fat)</li>
-<li><strong>Thursday:</strong> Garlic prawns + grilled courgettes (280 kcal, 30 g protein, 6 g fat)</li>
-<li><strong>Friday:</strong> Homemade falafel + roasted peppers + wholemeal pitta (450 kcal, 18 g protein, 15 g fat)</li>
-<li><strong>Saturday:</strong> Oat-crumbed chicken + grilled mushrooms (390 kcal, 34 g protein, 10 g fat)</li>
-<li><strong>Sunday:</strong> Roasted root vegetables + baked eggs (320 kcal, 16 g protein, 14 g fat)</li>
+<li><strong>Monday:</strong> lemon and herb chicken, garlic broccoli.</li>
+<li><strong>Tuesday:</strong> salmon fillet, sweet potato chips.</li>
+<li><strong>Wednesday:</strong> crispy tofu bowl with mixed roasted vegetables and brown rice.</li>
+<li><strong>Thursday:</strong> garlic prawns, grilled courgettes.</li>
+<li><strong>Friday:</strong> homemade falafel, roasted peppers and onions, wholemeal pitta.</li>
+<li><strong>Saturday:</strong> oat-crumbed chicken, roasted mushrooms.</li>
+<li><strong>Sunday:</strong> roasted root vegetables, baked eggs (around 160°C, 8 min).</li>
+</ul>
+<p>To plan these meals ahead, see our <a href="/en/blog/meal-prep-airfryer-semaine">weekly air fryer meal prep guide</a>.</p>
+
+<h2>5 tips for healthier air frying</h2>
+<ul>
+<li><strong>1. Measure oil with a sprayer:</strong> a few sprays are enough for most recipes, far less than a tablespoon poured by eye.</li>
+<li><strong>2. Choose an oil suited to high heat:</strong> refined oils cope better with high temperatures. Don't let the oil smoke.</li>
+<li><strong>3. Lighten the coating:</strong> blitzed oats, sesame seeds, crushed nuts or a little parmesan add crunch.</li>
+<li><strong>4. Use marinades without added sugar:</strong> lemon, herbs, garlic, ginger and spices bring flavour. Sugary marinades also burn faster.</li>
+<li><strong>5. Don't overload the basket:</strong> fill it two-thirds at most and shake halfway for even cooking.</li>
 </ul>
 
-<h2>5 tips to maximise health benefits</h2>
+<h2>What an air fryer doesn't do</h2>
+<p>An air fryer won't turn a doughnut into health food. It reduces added oil, which can help lighten some dishes, but your overall diet (portions, variety, fruit and vegetables, minimally processed foods) matters far more than the cooking appliance. If you have a specific health goal (weight, cholesterol, diabetes), ask a health professional for advice rather than relying on a kitchen gadget.</p>
+
+<h2>5 easy healthy air fryer recipes</h2>
 <ul>
-<li><strong>Use an oil sprayer:</strong> 2-3 sprays (about 2 ml) is enough for most recipes — 18 kcal versus 120 kcal for a tablespoon of oil.</li>
-<li><strong>Choose high smoke-point oils:</strong> avocado oil (271°C), grapeseed oil (216°C), refined olive oil (210°C).</li>
-<li><strong>Replace breadcrumbs with healthy alternatives:</strong> ground oats, crushed nuts, sesame seeds, grated parmesan.</li>
-<li><strong>Sugar-free marinades:</strong> use lemon, fresh herbs, garlic, ginger, and spices.</li>
-<li><strong>Don't overload the basket:</strong> overfilling causes uneven cooking. Fill to two-thirds maximum.</li>
+<li><strong>Parmesan courgette fries:</strong> courgette sticks coated in a thin layer of breadcrumbs and parmesan. 180°C, 12-14 minutes.</li>
+<li><strong>Crispy spiced chickpeas:</strong> drained and dried chickpeas, 1 tsp oil, cumin, smoked paprika. 200°C, 15 minutes, shaking the basket.</li>
+<li><strong>Herb-crusted salmon:</strong> salmon fillet, breadcrumbs and fresh herbs. 190°C, 10-12 minutes.</li>
+<li><strong>Aubergine crisps:</strong> thin slices, one spray of oil, salt and thyme. 180°C, about 10 minutes, watching the colour.</li>
+<li><strong>Chicken tikka:</strong> chicken breast marinated in yoghurt and spices. 190°C, about 18 minutes.</li>
 </ul>
 
-<h2>Detailed Nutritional Comparison Table</h2>
-<table>
-<thead><tr><th>Food (100 g)</th><th>Traditional deep fryer</th><th>Air fryer</th><th>Calorie saving</th><th>Fat saving</th></tr></thead>
-<tbody>
-<tr><td>Potato fries</td><td>340 kcal / 17 g fat</td><td>180 kcal / 4 g fat</td><td>-47%</td><td>-76%</td></tr>
-<tr><td>Chicken wings</td><td>290 kcal / 20 g fat</td><td>210 kcal / 12 g fat</td><td>-28%</td><td>-40%</td></tr>
-<tr><td>Homemade chicken nuggets</td><td>280 kcal / 15 g fat</td><td>195 kcal / 7 g fat</td><td>-30%</td><td>-53%</td></tr>
-<tr><td>Vegetable fritters</td><td>250 kcal / 16 g fat</td><td>130 kcal / 3 g fat</td><td>-48%</td><td>-81%</td></tr>
-<tr><td>Breaded mozzarella</td><td>320 kcal / 22 g fat</td><td>220 kcal / 11 g fat</td><td>-31%</td><td>-50%</td></tr>
-</tbody>
-</table>
+<h2>Conclusion: a handy tool, not a miracle</h2>
+<p>Used with fresh ingredients and little oil, an air fryer makes lighter everyday cooking easier, especially if it replaces deep frying. Its benefits are real but depend on the food you choose and how you cook it: golden rather than brown, an uncrowded basket, minimally processed ingredients.</p>
+<p>To go further, explore our <a href="/en/guides/airfryers">complete air fryer guide</a> and our <a href="/en/guides/airfryer-vs-four">air fryer vs oven comparison</a>.</p>`,
 
-<h2>5 Easy Healthy Recipes for the Air Fryer</h2>
-<ul>
-<li><strong>Parmesan courgette fries</strong>: courgettes in sticks, coated in a thin layer of breadcrumbs and parmesan. 160°C, 14 minutes. 120 kcal/100 g vs 280 kcal fried.</li>
-<li><strong>Crispy spiced chickpeas</strong>: drained chickpeas, 1 tsp oil, cumin, smoked paprika. 200°C, 15 minutes. Protein snack at 170 kcal/100 g.</li>
-<li><strong>Herb-crusted salmon</strong>: salmon fillet + breadcrumbs + fresh herbs. 190°C, 12 minutes. 200 kcal/100 g, 23 g protein, rich in omega-3.</li>
-<li><strong>Aubergine chips</strong>: thin slices, 1 oil spray, salt, thyme. 180°C, 10 minutes. 45 kcal/100 g — the best healthy crisp alternative.</li>
-<li><strong>Marinated tikka chicken</strong>: chicken breast marinated in yoghurt and spices. 190°C, 18 minutes. 170 kcal/100 g, 31 g protein, zero added fat.</li>
-</ul>
+    de: `<h2>Ist die Heißluftfritteuse wirklich gesünder?</h2>
+<p>Ja, im Vergleich zum Frittieren im Ölbad kommt die Heißluftfritteuse mit deutlich weniger Fett aus, denn ein Löffel Öl oder ein paar Sprühstöße ersetzen mehrere hundert Milliliter. Ein ungesundes Lebensmittel macht sie allerdings nicht gesund: Der Vorteil hängt vor allem davon ab, was im Korb landet.</p>
+<p>Dieser Ratgeber fasst zusammen, was tatsächlich bekannt ist, gestützt auf veröffentlichte Studien und die Empfehlungen von Lebensmittelbehörden, und liefert dann Lebensmittel, Tipps und Mahlzeitenideen. Er ersetzt nicht den Rat einer Ärztin, eines Arztes oder einer Ernährungsfachkraft, wenn Sie eine besondere Diät einhalten.</p>
 
-<h2>Conclusion</h2>
-<p>The air fryer won't turn a doughnut into health food. But used wisely with fresh ingredients, it facilitates a balanced daily diet with 30-50% fewer calories and 70-80% less fat compared to deep frying. For more, explore our <a href="/en/guides/airfryers">complete air fryer guide</a> and our <a href="/en/guides/airfryer-vs-four">air fryer vs oven comparison</a>.</p>`,
+<h3>Weniger Öl: Woher der Unterschied kommt</h3>
+<p>In der klassischen Fritteuse liegt das Lebensmittel im Öl und nimmt beim Garen einen Teil davon auf. In der Heißluftfritteuse sorgt sehr heiße, von einem Ventilator umgewälzte Luft für die Kruste. Für selbst gemachte Pommes reicht meist ein Teelöffel Öl. Zur Orientierung: Ein Esslöffel Öl liefert rund 120 kcal. Entscheidend ist also die zugegebene Ölmenge, nicht das Gerät an sich.</p>
+<p><strong>Vorsicht bei vorfrittierter Tiefkühlware:</strong> Pommes, Nuggets oder Backfisch aus dem Supermarkt sind oft schon vor dem Einfrieren frittiert worden. In der Heißluftfritteuse kommt zwar kein Öl hinzu, der Fettgehalt bleibt aber der auf der Verpackung angegebene. Ein Blick auf die Nährwerttabelle lohnt sich.</p>
 
-    de: `<h2>Ist die Heißluftfritteuse wirklich gesünder? Die Zahlen sprechen</h2>
-<p>Gesundheit ist eines der Hauptverkaufsargumente für Heißluftfritteusen. Aber was zeigen die Daten tatsächlich? Wissenschaftliche Studien und unsere eigenen Messungen bestätigen erhebliche Ernährungsvorteile gegenüber der traditionellen Fritteuse.</p>
-
-<h3>Fettreduktion: bis zu 80 %</h3>
-<p>Pommes aus der Heißluftfritteuse enthalten durchschnittlich 3-5 g Fett pro 100 g, verglichen mit 15-20 g bei frittierten Pommes. Eine 200-g-Portion Heißluft-Pommes liefert etwa 8 g Fett statt 35 g aus der Fritteuse.</p>
-
-<h3>Nährwertvergleich: Heißluftfritteuse vs. Fritteuse</h3>
+<h3>Garmethoden im Vergleich</h3>
 <table>
 <thead>
-<tr><th>Lebensmittel (100 g)</th><th>Heißluft kcal</th><th>Frittiert kcal</th><th>Heißluft Fett</th><th>Frittiert Fett</th><th>Reduktion</th></tr>
+<tr><th>Garmethode</th><th>Zugegebenes Öl</th><th>Textur</th><th>Gut zu wissen</th></tr>
 </thead>
 <tbody>
-<tr><td>Pommes</td><td>160 kcal</td><td>312 kcal</td><td>4 g</td><td>17 g</td><td>-49 %</td></tr>
-<tr><td>Chicken Nuggets</td><td>190 kcal</td><td>296 kcal</td><td>8 g</td><td>18 g</td><td>-36 %</td></tr>
-<tr><td>Garnelen-Tempura</td><td>175 kcal</td><td>280 kcal</td><td>6 g</td><td>16 g</td><td>-38 %</td></tr>
-<tr><td>Chicken Wings</td><td>210 kcal</td><td>320 kcal</td><td>12 g</td><td>22 g</td><td>-34 %</td></tr>
+<tr><td>Heißluftfritteuse</td><td>Sehr wenig (Spray oder 1 TL)</td><td>Knusprige Oberfläche</td><td>Schnelles Garen, Korb nicht überfüllen</td></tr>
+<tr><td>Fritteuse mit Ölbad</td><td>Volles Ölbad</td><td>Sehr knusprig</td><td>Das Lebensmittel nimmt Öl auf</td></tr>
+<tr><td>Backofen</td><td>Wenig bis mäßig</td><td>Goldbraun, manchmal weniger knusprig</td><td>Längeres Vorheizen, großes Volumen</td></tr>
+<tr><td>Pfanne</td><td>Mäßig</td><td>Angebraten, goldbraun</td><td>Erfordert Aufmerksamkeit</td></tr>
+<tr><td>Dampfgaren</td><td>Keines</td><td>Zart, ohne Kruste</td><td>Kein direkter Kontakt mit Kochwasser</td></tr>
 </tbody>
 </table>
+<p>Eine ausführlichere Analyse finden Sie in unserem <a href="/de/blog/airfryer-vs-friteuse-traditionnelle">Vergleich Heißluftfritteuse vs. Fritteuse</a>.</p>
 
-<p>Für eine vollständige Analyse siehe unseren <a href="/de/blog/airfryer-vs-friteuse-traditionnelle">Vergleich Heißluftfritteuse vs. Fritteuse</a>.</p>
+<h2>Acrylamid: in manchen Studien geringer, aber nicht verschwunden</h2>
+<p>Acrylamid entsteht, wenn stärkehaltige Lebensmittel (Kartoffeln, Brot, Getreide) stark erhitzt werden. Die Europäische Behörde für Lebensmittelsicherheit (EFSA) kam 2015 zu dem Schluss, dass es das Krebsrisiko potenziell erhöhen kann, und empfiehlt, die Aufnahme zu begrenzen; auch die Lebensmittelindustrie in der EU muss Acrylamid nach geltenden Regeln minimieren.</p>
+<p>Eine 2015 im <em>Journal of Food Science</em> veröffentlichte Studie (Sansano et al.) maß bei 180 °C in heißluftgegarten Pommes rund 90 % weniger Acrylamid als in frittierten. Weitere Arbeiten, zusammengefasst in einer wissenschaftlichen Übersicht von 2024, zeigen jedoch je nach Temperatur, Garzeit und Vorbereitung der Kartoffeln unterschiedliche Ergebnisse. Die richtigen Handgriffe sind daher wichtiger als das Gerät allein.</p>
 
-<h2>Acrylamid: reduziert, aber nicht eliminiert</h2>
-<p>Acrylamid ist eine potenziell krebserregende Substanz, die bei hohen Temperaturen in stärkehaltigen Lebensmitteln entsteht. Studien zeigen eine Reduktion von 70-90 % gegenüber dem Frittieren.</p>
+<h3>So begrenzen Sie Acrylamid in der Heißluftfritteuse</h3>
 <ul>
-<li><strong>Kartoffeln unter 180°C garen:</strong> Acrylamid bildet sich hauptsächlich über 175°C.</li>
-<li><strong>Kartoffeln 30 Minuten einweichen:</strong> Kaltwassereinweichen reduziert die Oberflächenstärke.</li>
-<li><strong>Übermäßiges Bräunen vermeiden:</strong> goldbraun ist lecker, dunkelbraun enthält mehr Acrylamid.</li>
+<li><strong>Vergolden statt verkohlen:</strong> Das raten europäische Lebensmittelbehörden. Je dunkler die Pommes, desto mehr Acrylamid enthalten sie.</li>
+<li><strong>Kartoffeln bei etwa 170-180 °C garen</strong> und die Garzeit nicht „für mehr Knusprigkeit" verlängern.</li>
+<li><strong>Rohe Pommes 15 bis 30 Minuten in kaltem Wasser einweichen</strong> und gut abtrocknen: Das Einweichen verringert den Zucker an der Oberfläche.</li>
+<li><strong>Bei Tiefkühlprodukten die Packungsangaben einhalten</strong> und nicht überschreiten.</li>
 </ul>
 
-<h2>Nährstofferhaltung: der Vorteil des schnellen Garens</h2>
-<p>Die Heißluftfritteuse gart 20-30 % schneller als ein herkömmlicher Backofen, was weniger Hitzeeinwirkung und bessere Vitaminerhaltung bedeutet.</p>
-<table>
-<thead>
-<tr><th>Vitamin</th><th>Heißluft</th><th>Backofen</th><th>Frittieren</th><th>Kochen</th></tr>
-</thead>
-<tbody>
-<tr><td>Vitamin C</td><td>75-85 %</td><td>60-70 %</td><td>50-60 %</td><td>40-50 %</td></tr>
-<tr><td>Vitamin B1</td><td>80-90 %</td><td>70-80 %</td><td>60-70 %</td><td>50-60 %</td></tr>
-<tr><td>Vitamin B6</td><td>80-85 %</td><td>70-75 %</td><td>55-65 %</td><td>45-55 %</td></tr>
-</tbody>
-</table>
+<h2>Nährstofferhalt: Was sich sagen lässt</h2>
+<p>Wie viele Vitamine nach dem Garen erhalten bleiben, hängt von drei Faktoren ab: Temperatur, Dauer und Kontakt mit Wasser. Wasserlösliche Vitamine (Vitamin C, B-Vitamine) gehen beim Kochen von Gemüse teilweise ins Wasser über. Die Heißluftfritteuse vermeidet diesen Kontakt wie Backofen oder Dampfgarer, und ihre oft kürzere Garzeit begrenzt die Hitzeeinwirkung.</p>
+<p>Die Ergebnisse unterscheiden sich allerdings stark von Lebensmittel zu Lebensmittel, und keine Methode ist für alle Nährstoffe die beste. Wichtig ist vor allem: Gemüse auf den Punkt garen statt austrocknen und die Garmethoden abwechseln.</p>
 
-<h2>Die besten gesunden Lebensmittel für die Heißluftfritteuse</h2>
-<h3>1. Gemüse: knusprig und geschmackvoll</h3>
-<p>Entdecken Sie unsere <a href="/de/blog/recettes-legumes-grilles-airfryer">Rezepte für gegrilltes Gemüse</a>.</p>
+<h2>Die besten Lebensmittel für gesundes Garen mit Heißluft</h2>
+
+<h3>1. Gemüse: knackig und aromatisch</h3>
+<p>Trockene Hitze karamellisiert die Oberfläche und konzentriert das Aroma, während das Innere zart bleibt. Entdecken Sie unsere <a href="/de/blog/recettes-legumes-grilles-airfryer">Rezepte für Grillgemüse aus der Heißluftfritteuse</a>.</p>
 <ul>
-<li><strong>Brokkoli:</strong> 180°C, 10-12 Min. Nur 1 TL Öl nötig.</li>
-<li><strong>Zucchini:</strong> 200°C, 8-10 Min. in Scheiben.</li>
-<li><strong>Blumenkohl:</strong> 190°C, 15-18 Min. „Blumenkohl-Popcorn" ist ein Klassiker.</li>
-<li><strong>Süßkartoffel:</strong> 190°C, 15-20 Min. als Pommes. Mehr Beta-Carotin als normale Kartoffeln.</li>
+<li><strong>Brokkoli:</strong> 180 °C, 10-12 Min., mit einem Teelöffel Öl.</li>
+<li><strong>Zucchini:</strong> 200 °C, 8-10 Min. in Scheiben.</li>
+<li><strong>Blumenkohl:</strong> 190 °C, 15-18 Min. Die Röschen werden goldbraun und knusprig.</li>
+<li><strong>Süßkartoffel:</strong> 190 °C, 15-20 Min. als Pommes. Liefert Beta-Carotin.</li>
+<li><strong>Pilze:</strong> 190 °C, 10-12 Min. Saftig und voller Umami.</li>
 </ul>
 
-<h3>2. Magere Proteine: knusprig ohne schwere Panade</h3>
-<p>Siehe unsere <a href="/de/blog/recettes-poulet-croustillant-airfryer">knusprige Hähnchen-Rezepte</a>.</p>
+<h3>2. Magere Proteine: knusprig ohne dicke Panade</h3>
+<p>Die Heißluftfritteuse bildet eine Kruste ohne dicke Panade. Siehe unsere <a href="/de/blog/recettes-poulet-croustillant-airfryer">Rezepte für knuspriges Hähnchen</a>.</p>
 <ul>
-<li><strong>Hähnchenbrust:</strong> 180°C, 18-22 Min. Saftig dank schnellem Garen.</li>
-<li><strong>Lachs:</strong> 200°C, 8-10 Min. Unglaublich knusprige Haut, reich an Omega-3.</li>
-<li><strong>Tofu:</strong> 190°C, 15-18 Min. Knusprig ohne Frittieren.</li>
+<li><strong>Hähnchenbrust:</strong> 180 °C, 18-22 Min. je nach Dicke. Prüfen, ob sie durchgegart ist.</li>
+<li><strong>Lachs:</strong> 200 °C, 8-10 Min. Ein fetter Fisch und eine Quelle für Omega-3.</li>
+<li><strong>Tofu:</strong> 190 °C, 15-18 Min., gut ausgepresst. Ideal für vegetarische Mahlzeiten.</li>
+<li><strong>Garnelen:</strong> 200 °C, 6-8 Min. Sehr schnell gar.</li>
 </ul>
 
-<h3>3. Vollkorn und Hülsenfrüchte</h3>
+<h3>3. Hülsenfrüchte und Getreide</h3>
 <ul>
-<li><strong>Geröstete Kichererbsen:</strong> 190°C, 15-20 Min. Proteinreicher Snack (19 g Protein pro 100 g).</li>
-<li><strong>Falafel:</strong> 180°C, 12-15 Min. Ohne Frittieren.</li>
+<li><strong>Geröstete Kichererbsen:</strong> 190 °C, 15-20 Min., gut abgetrocknet. Ein knuspriger, ballaststoffreicher Snack.</li>
+<li><strong>Falafel:</strong> 180 °C, 12-15 Min., leicht geölt. Innen weich, ohne Frittieren.</li>
+<li><strong>Quinoa-Taler:</strong> 180 °C, 10-12 Min. Knusprig und sättigend.</li>
 </ul>
 
-<h2>Wochenplan für gesunde Mahlzeiten</h2>
+<h2>Ideen für gesunde Mahlzeiten aus der Heißluftfritteuse</h2>
 <ul>
-<li><strong>Montag:</strong> Zitronen-Hähnchen + Knoblauch-Brokkoli (380 kcal, 35 g Protein, 8 g Fett)</li>
-<li><strong>Dienstag:</strong> Lachsfilet + Süßkartoffel-Pommes (420 kcal, 28 g Protein, 14 g Fett)</li>
-<li><strong>Mittwoch:</strong> Knuspriger Tofu + geröstetes Gemüse + Vollkornreis (400 kcal, 22 g Protein, 12 g Fett)</li>
-<li><strong>Donnerstag:</strong> Knoblauch-Garnelen + gegrillte Zucchini (280 kcal, 30 g Protein, 6 g Fett)</li>
-<li><strong>Freitag:</strong> Falafel + geröstete Paprika + Vollkorn-Pita (450 kcal, 18 g Protein, 15 g Fett)</li>
+<li><strong>Montag:</strong> Hähnchen mit Zitrone und Kräutern, Knoblauch-Brokkoli.</li>
+<li><strong>Dienstag:</strong> Lachsfilet, Süßkartoffel-Pommes.</li>
+<li><strong>Mittwoch:</strong> Bowl mit knusprigem Tofu, gemischtem Ofengemüse und Naturreis.</li>
+<li><strong>Donnerstag:</strong> Knoblauchgarnelen, gegrillte Zucchini.</li>
+<li><strong>Freitag:</strong> hausgemachte Falafel, geröstete Paprika und Zwiebeln, Vollkorn-Pita.</li>
+<li><strong>Samstag:</strong> Hähnchen in Haferflockenpanade, geröstete Pilze.</li>
+<li><strong>Sonntag:</strong> geröstetes Wurzelgemüse, Eier im Förmchen (etwa 160 °C, 8 Min.).</li>
+</ul>
+<p>Zur Planung im Voraus siehe auch unseren Ratgeber <a href="/de/blog/meal-prep-airfryer-semaine">Meal Prep mit der Heißluftfritteuse</a>.</p>
+
+<h2>5 Tipps für gesünderes Garen mit Heißluft</h2>
+<ul>
+<li><strong>1. Öl mit dem Sprüher dosieren:</strong> Ein paar Sprühstöße reichen für die meisten Rezepte, viel weniger als ein nach Augenmaß gegossener Esslöffel.</li>
+<li><strong>2. Hitzebeständiges Öl wählen:</strong> Raffinierte Öle vertragen hohe Temperaturen besser. Lassen Sie das Öl nicht rauchen.</li>
+<li><strong>3. Leichtere Panade:</strong> gemahlene Haferflocken, Sesam, gehackte Nüsse oder etwas Parmesan sorgen für Knusprigkeit.</li>
+<li><strong>4. Marinaden ohne zugesetzten Zucker:</strong> Zitrone, Kräuter, Knoblauch, Ingwer und Gewürze bringen Geschmack. Süße Marinaden verbrennen zudem schneller.</li>
+<li><strong>5. Den Korb nicht überladen:</strong> höchstens zu zwei Dritteln füllen und nach der Hälfte der Zeit schütteln.</li>
 </ul>
 
-<h2>5 Tipps für maximale Gesundheitsvorteile</h2>
-<ul>
-<li><strong>Ölsprüher verwenden:</strong> 2-3 Sprühstöße (ca. 2 ml) reichen — 18 kcal statt 120 kcal für einen Esslöffel Öl.</li>
-<li><strong>Öle mit hohem Rauchpunkt wählen:</strong> Avocadoöl (271°C), Traubenkernöl (216°C), raffiniertes Olivenöl (210°C).</li>
-<li><strong>Panade durch gesunde Alternativen ersetzen:</strong> gemahlene Haferflocken, gehackte Nüsse, Sesam, geriebener Parmesan.</li>
-<li><strong>Marinaden ohne Zuckerzusatz:</strong> Zitrone, frische Kräuter, Knoblauch, Ingwer, Gewürze.</li>
-<li><strong>Korb nicht überladen:</strong> maximal zwei Drittel füllen für gleichmäßige Ergebnisse.</li>
-</ul>
-
-<p>Für mehr Informationen besuchen Sie unseren <a href="/de/guides/airfryers">kompletten Heißluftfritteusen-Ratgeber</a> und unseren <a href="/de/guides/airfryer-vs-four">Vergleich Heißluftfritteuse vs. Backofen</a>.</p>
-
-<h2>Detaillierte Nährwerttabelle</h2>
-<table>
-<thead><tr><th>Lebensmittel (100 g)</th><th>Traditionelle Fritteuse</th><th>Heißluftfritteuse</th><th>Kalorienersparnis</th><th>Fettersparnisnis</th></tr></thead>
-<tbody>
-<tr><td>Pommes frites</td><td>340 kcal / 17 g Fett</td><td>180 kcal / 4 g Fett</td><td>-47 %</td><td>-76 %</td></tr>
-<tr><td>Hähnchenflügel</td><td>290 kcal / 20 g Fett</td><td>210 kcal / 12 g Fett</td><td>-28 %</td><td>-40 %</td></tr>
-<tr><td>Selbstgemachte Nuggets</td><td>280 kcal / 15 g Fett</td><td>195 kcal / 7 g Fett</td><td>-30 %</td><td>-53 %</td></tr>
-<tr><td>Gemüsefritter</td><td>250 kcal / 16 g Fett</td><td>130 kcal / 3 g Fett</td><td>-48 %</td><td>-81 %</td></tr>
-<tr><td>Panierte Mozzarella</td><td>320 kcal / 22 g Fett</td><td>220 kcal / 11 g Fett</td><td>-31 %</td><td>-50 %</td></tr>
-</tbody>
-</table>
+<h2>Was die Heißluftfritteuse nicht kann</h2>
+<p>Aus einem Berliner wird kein Gesundheitsessen. Die Heißluftfritteuse verringert das zugegebene Öl und kann so manche Gerichte leichter machen, doch die Ernährung insgesamt (Portionen, Abwechslung, Obst und Gemüse, wenig verarbeitete Lebensmittel) zählt weit mehr als das Küchengerät. Bei einem konkreten Gesundheitsziel (Gewicht, Cholesterin, Diabetes) holen Sie sich besser fachlichen Rat, statt sich auf ein Gerät zu verlassen.</p>
 
 <h2>5 einfache gesunde Rezepte für die Heißluftfritteuse</h2>
 <ul>
-<li><strong>Zucchini-Pommes mit Parmesan</strong>: Zucchini in Stäbchen, dünn mit Semmelbröseln und Parmesan ummantelt. 160°C, 14 Minuten. 120 kcal/100 g.</li>
-<li><strong>Knusprige Gewürzkichererbsen</strong>: abgetropfte Kichererbsen, 1 TL Öl, Kreuzkümmel, geräucherter Paprika. 200°C, 15 Minuten. 170 kcal/100 g.</li>
-<li><strong>Lachs mit Kräuterkruste</strong>: Lachsfilet + Semmelbrösel + frische Kräuter. 190°C, 12 Minuten. 200 kcal/100 g, 23 g Eiweiß.</li>
-<li><strong>Auberginen-Chips</strong>: dünne Scheiben, 1 Ölspray, Salz, Thymian. 180°C, 10 Minuten. 45 kcal/100 g.</li>
-<li><strong>Tikka-Hähnchen</strong>: in Joghurt und Gewürzen marinierte Hähnchenbrust. 190°C, 18 Minuten. 170 kcal/100 g, 31 g Eiweiß.</li>
-</ul>`,
-
-    es: `<h2>La freidora de aire, realmente mas saludable? Los numeros hablan</h2>
-<p>La salud es uno de los principales argumentos de venta de las freidoras de aire. Pero, que dicen realmente los datos? Los estudios cientificos y nuestras propias mediciones confirman ventajas nutricionales significativas frente a la fritura tradicional.</p>
-
-<h3>Reduccion de grasas: hasta un 80%</h3>
-<p>Las patatas fritas en airfryer contienen una media de 3-5 g de grasa por 100 g, frente a 15-20 g en fritura clasica. Una racion de 200 g de patatas en airfryer aporta unos 8 g de lipidos frente a 35 g de la freidora.</p>
-
-<h3>Comparativa nutricional</h3>
-<table>
-<thead>
-<tr><th>Alimento (100 g)</th><th>Airfryer kcal</th><th>Fritura kcal</th><th>Airfryer grasa</th><th>Fritura grasa</th><th>Reduccion</th></tr>
-</thead>
-<tbody>
-<tr><td>Patatas fritas</td><td>160 kcal</td><td>312 kcal</td><td>4 g</td><td>17 g</td><td>-49%</td></tr>
-<tr><td>Nuggets de pollo</td><td>190 kcal</td><td>296 kcal</td><td>8 g</td><td>18 g</td><td>-36%</td></tr>
-<tr><td>Gambas rebozadas</td><td>175 kcal</td><td>280 kcal</td><td>6 g</td><td>16 g</td><td>-38%</td></tr>
-<tr><td>Alitas de pollo</td><td>210 kcal</td><td>320 kcal</td><td>12 g</td><td>22 g</td><td>-34%</td></tr>
-</tbody>
-</table>
-
-<p>Para un analisis completo, consulta nuestro <a href="/es/blog/airfryer-vs-friteuse-traditionnelle">comparativo freidora de aire vs freidora tradicional</a>.</p>
-
-<h2>Acrilamida: reducida pero no eliminada</h2>
-<p>La acrilamida es una sustancia potencialmente cancerigena que se forma al cocinar alimentos ricos en almidon a altas temperaturas. Estudios muestran una reduccion del 70-90% respecto a la fritura profunda.</p>
-<ul>
-<li><strong>No superar 180°C para patatas:</strong> la acrilamida se forma principalmente por encima de 175°C.</li>
-<li><strong>Remojar las patatas 30 minutos:</strong> reduce el almidon superficial.</li>
-<li><strong>Evitar el dorado excesivo:</strong> dorado es delicioso, marron oscuro significa mas acrilamida.</li>
+<li><strong>Zucchini-Pommes mit Parmesan:</strong> Zucchinistifte in einer dünnen Schicht aus Paniermehl und Parmesan. 180 °C, 12-14 Minuten.</li>
+<li><strong>Knusprige Gewürz-Kichererbsen:</strong> abgetropfte, getrocknete Kichererbsen, 1 TL Öl, Kreuzkümmel, geräuchertes Paprikapulver. 200 °C, 15 Minuten, zwischendurch schütteln.</li>
+<li><strong>Lachs mit Kräuterkruste:</strong> Lachsfilet, Paniermehl und frische Kräuter. 190 °C, 10-12 Minuten.</li>
+<li><strong>Auberginen-Chips:</strong> dünne Scheiben, ein Sprühstoß Öl, Salz und Thymian. 180 °C, etwa 10 Minuten, Farbe im Blick behalten.</li>
+<li><strong>Chicken Tikka:</strong> Hähnchenbrust in Joghurt-Gewürz-Marinade. 190 °C, etwa 18 Minuten.</li>
 </ul>
 
-<h2>Conservacion de nutrientes: la ventaja de la coccion rapida</h2>
-<p>La freidora de aire cocina un 20-30% mas rapido que el horno convencional, lo que significa menos exposicion al calor y mejor conservacion de las vitaminas termosensibles.</p>
+<h2>Fazit: ein praktisches Werkzeug, kein Wundermittel</h2>
+<p>Mit frischen Zutaten und wenig Öl erleichtert die Heißluftfritteuse eine leichtere Alltagsküche, vor allem wenn sie das Frittieren im Ölbad ersetzt. Ihre Vorteile sind real, hängen aber von den Lebensmitteln und der Zubereitung ab: goldgelb statt braun, ein nicht überfüllter Korb, wenig verarbeitete Zutaten.</p>
+<p>Mehr dazu in unserem <a href="/de/guides/airfryers">kompletten Heißluftfritteusen-Ratgeber</a> und unserem <a href="/de/guides/airfryer-vs-four">Vergleich Heißluftfritteuse vs. Backofen</a>.</p>`,
+
+    es: `<h2>¿La freidora de aire es realmente más saludable?</h2>
+<p>Sí, frente a la fritura en abundante aceite, la freidora de aire permite cocinar con mucha menos grasa, porque una cucharada de aceite (o unas pocas pulverizaciones) sustituye a varios cientos de mililitros. Sin embargo, no convierte en sano un alimento que no lo es: el beneficio depende sobre todo de lo que pongas en la cesta.</p>
+<p>Esta guía resume lo que se sabe de verdad, a partir de estudios publicados y de las recomendaciones de las autoridades de seguridad alimentaria, y después propone alimentos, trucos e ideas de comidas. No sustituye el consejo de un médico o dietista si sigues una dieta concreta.</p>
+
+<h3>Menos aceite: de dónde viene la diferencia</h3>
+<p>En una freidora clásica, el alimento queda sumergido y absorbe parte del aceite durante la cocción. En una freidora de aire, es aire muy caliente impulsado por un ventilador el que dora la superficie. Para unas patatas caseras suele bastar una cucharadita de aceite. Como referencia, una cucharada sopera de aceite aporta unas 120 kcal: lo que marca la diferencia es la cantidad de aceite añadido, mucho más que el aparato en sí.</p>
+<p><strong>Ojo con los congelados prefritos:</strong> las patatas, los nuggets o los rebozados industriales suelen freírse antes de congelarse. Hacerlos en la freidora de aire evita añadir más aceite, pero su contenido en grasa sigue siendo el que indica el envase. Revisa la etiqueta nutricional.</p>
+
+<h3>Comparativa de métodos de cocción</h3>
 <table>
 <thead>
-<tr><th>Vitamina</th><th>Airfryer</th><th>Horno</th><th>Fritura</th><th>Hervido</th></tr>
+<tr><th>Método</th><th>Aceite añadido</th><th>Textura</th><th>Conviene saber</th></tr>
 </thead>
 <tbody>
-<tr><td>Vitamina C</td><td>75-85%</td><td>60-70%</td><td>50-60%</td><td>40-50%</td></tr>
-<tr><td>Vitamina B1</td><td>80-90%</td><td>70-80%</td><td>60-70%</td><td>50-60%</td></tr>
-<tr><td>Vitamina B6</td><td>80-85%</td><td>70-75%</td><td>55-65%</td><td>45-55%</td></tr>
+<tr><td>Freidora de aire</td><td>Muy poco (spray o 1 cucharadita)</td><td>Superficie crujiente</td><td>Cocción rápida, no llenar demasiado la cesta</td></tr>
+<tr><td>Freidora de aceite</td><td>Baño completo</td><td>Muy crujiente</td><td>El alimento absorbe parte del aceite</td></tr>
+<tr><td>Horno convencional</td><td>Poco o moderado</td><td>Dorado, a veces menos crujiente</td><td>Precalentado más largo, gran capacidad</td></tr>
+<tr><td>Sartén</td><td>Moderado</td><td>Sellado, dorado</td><td>Requiere vigilancia</td></tr>
+<tr><td>Vapor</td><td>Ninguno</td><td>Tierno, sin costra</td><td>Sin contacto directo con el agua de cocción</td></tr>
 </tbody>
 </table>
+<p>Para un análisis más completo, consulta nuestra <a href="/es/blog/airfryer-vs-friteuse-traditionnelle">comparativa freidora de aire vs freidora tradicional</a>.</p>
 
-<h2>Los mejores alimentos saludables para la freidora de aire</h2>
+<h2>La acrilamida: menor en algunos estudios, pero no desaparece</h2>
+<p>La acrilamida se forma al cocinar a alta temperatura alimentos ricos en almidón (patatas, pan, cereales). La Autoridad Europea de Seguridad Alimentaria (EFSA) concluyó en 2015 que podría aumentar el riesgo de cáncer y recomienda limitar la exposición; la normativa europea también obliga a la industria alimentaria a reducirla.</p>
+<p>Un estudio publicado en 2015 en el <em>Journal of Food Science</em> (Sansano et al.) midió, a 180 °C, alrededor de un 90 % menos de acrilamida en patatas hechas con aire caliente que en patatas fritas en aceite. Otros trabajos, reunidos en una revisión científica de 2024, muestran resultados variables según la temperatura, el tiempo y la preparación de las patatas. Por eso los buenos hábitos cuentan más que el aparato.</p>
+
+<h3>Cómo limitar la acrilamida en la freidora de aire</h3>
+<ul>
+<li><strong>Busca un color dorado claro:</strong> es el consejo que difunden las autoridades europeas de seguridad alimentaria. Cuanto más tostadas, más acrilamida contienen.</li>
+<li><strong>Mantente en torno a 170-180 °C para las patatas</strong> y no alargues la cocción «para que queden más crujientes».</li>
+<li><strong>Remoja las patatas crudas</strong> de 15 a 30 minutos en agua fría y sécalas bien: el remojo reduce los azúcares de la superficie.</li>
+<li><strong>Sigue las instrucciones del envase</strong> en los congelados, sin superarlas.</li>
+</ul>
+
+<h2>Conservación de nutrientes: lo que se puede afirmar</h2>
+<p>La cantidad de vitaminas que se conserva depende de tres factores: la temperatura, el tiempo y el contacto con el agua. Las vitaminas hidrosolubles (vitamina C, vitaminas del grupo B) pasan en parte al agua cuando se hierven las verduras. La freidora de aire, como el horno o el vapor, evita ese contacto, y su cocción, a menudo más corta que la de un horno convencional, limita la exposición al calor.</p>
+<p>Aun así, los resultados varían mucho de un alimento a otro y ningún método es el mejor para todos los nutrientes. Lo esencial: cocina las verduras en su punto, sin resecarlas, y alterna los métodos de cocción.</p>
+
+<h2>Los mejores alimentos para cocinar sano en la freidora de aire</h2>
+
 <h3>1. Verduras: crujientes y sabrosas</h3>
-<p>Descubre nuestras <a href="/es/blog/recettes-legumes-grilles-airfryer">recetas de verduras a la parrilla</a>.</p>
+<p>El calor seco carameliza la superficie de las verduras y concentra su sabor manteniendo el interior tierno. Descubre nuestras <a href="/es/blog/recettes-legumes-grilles-airfryer">recetas de verduras asadas en freidora de aire</a>.</p>
 <ul>
-<li><strong>Brocoli:</strong> 180°C, 10-12 min. Solo 1 cucharadita de aceite.</li>
-<li><strong>Calabacin:</strong> 200°C, 8-10 min en rodajas.</li>
-<li><strong>Coliflor:</strong> 190°C, 15-18 min. Las "palomitas de coliflor" son un clasico.</li>
-<li><strong>Boniato:</strong> 190°C, 15-20 min en bastones. Mas betacaroteno que las patatas normales.</li>
+<li><strong>Brócoli:</strong> 180 °C, 10-12 min, con una cucharadita de aceite.</li>
+<li><strong>Calabacín:</strong> 200 °C, 8-10 min en rodajas.</li>
+<li><strong>Coliflor:</strong> 190 °C, 15-18 min. Los ramilletes quedan dorados y crujientes.</li>
+<li><strong>Boniato:</strong> 190 °C, 15-20 min en bastones. Aporta betacaroteno.</li>
+<li><strong>Champiñones:</strong> 190 °C, 10-12 min. Jugosos y llenos de sabor umami.</li>
 </ul>
 
-<h3>2. Proteinas magras: crujientes sin rebozado pesado</h3>
-<p>Consulta nuestras <a href="/es/blog/recettes-poulet-croustillant-airfryer">recetas de pollo crujiente</a>.</p>
+<h3>2. Proteínas magras: crujientes sin rebozado grueso</h3>
+<p>La freidora de aire forma una costra sin necesidad de un rebozado grueso. Consulta nuestras <a href="/es/blog/recettes-poulet-croustillant-airfryer">recetas de pollo crujiente</a>.</p>
 <ul>
-<li><strong>Pechuga de pollo:</strong> 180°C, 18-22 min. Jugosa por dentro gracias a la coccion rapida.</li>
-<li><strong>Salmon:</strong> 200°C, 8-10 min. Piel increiblemente crujiente, rico en omega-3.</li>
-<li><strong>Tofu:</strong> 190°C, 15-18 min. Crujiente sin freir, perfecto para vegetarianos.</li>
+<li><strong>Pechuga de pollo:</strong> 180 °C, 18-22 min según el grosor. Comprueba que esté bien hecha por dentro.</li>
+<li><strong>Salmón:</strong> 200 °C, 8-10 min. Un pescado azul, fuente de omega-3.</li>
+<li><strong>Tofu:</strong> 190 °C, 15-18 min, bien escurrido. Ideal para comidas vegetarianas.</li>
+<li><strong>Gambas:</strong> 200 °C, 6-8 min. Se hacen muy rápido.</li>
 </ul>
 
-<h3>3. Cereales integrales y legumbres</h3>
+<h3>3. Legumbres y cereales</h3>
 <ul>
-<li><strong>Garbanzos tostados:</strong> 190°C, 15-20 min. Snack crujiente rico en proteinas (19 g por 100 g).</li>
-<li><strong>Falafel:</strong> 180°C, 12-15 min. Sin fritura.</li>
+<li><strong>Garbanzos tostados:</strong> 190 °C, 15-20 min, bien secos. Un tentempié crujiente y rico en fibra.</li>
+<li><strong>Faláfel:</strong> 180 °C, 12-15 min, ligeramente aceitados. Tiernos por dentro sin freír.</li>
+<li><strong>Hamburguesas de quinoa:</strong> 180 °C, 10-12 min. Crujientes y saciantes.</li>
 </ul>
 
-<h2>Plan semanal de comidas saludables</h2>
+<h2>Ideas de comidas sanas para la semana</h2>
 <ul>
-<li><strong>Lunes:</strong> Pollo al limon + brocoli al ajo (380 kcal, 35 g proteina, 8 g grasa)</li>
-<li><strong>Martes:</strong> Filete de salmon + chips de boniato (420 kcal, 28 g proteina, 14 g grasa)</li>
-<li><strong>Miercoles:</strong> Tofu crujiente + verduras asadas + arroz integral (400 kcal, 22 g proteina, 12 g grasa)</li>
-<li><strong>Jueves:</strong> Gambas al ajillo + calabacin a la parrilla (280 kcal, 30 g proteina, 6 g grasa)</li>
-<li><strong>Viernes:</strong> Falafel casero + pimientos asados + pan pita integral (450 kcal, 18 g proteina, 15 g grasa)</li>
+<li><strong>Lunes:</strong> pollo al limón y hierbas, brócoli al ajillo.</li>
+<li><strong>Martes:</strong> lomo de salmón, bastones de boniato.</li>
+<li><strong>Miércoles:</strong> bowl de tofu crujiente con verduras asadas variadas y arroz integral.</li>
+<li><strong>Jueves:</strong> gambas al ajillo, calabacín a la plancha.</li>
+<li><strong>Viernes:</strong> faláfel casero, pimientos y cebolla asados, pan de pita integral.</li>
+<li><strong>Sábado:</strong> pollo rebozado con copos de avena, champiñones asados.</li>
+<li><strong>Domingo:</strong> tubérculos asados, huevos al horno (unos 160 °C, 8 min).</li>
+</ul>
+<p>Para organizar estas comidas con antelación, consulta también nuestro <a href="/es/blog/meal-prep-airfryer-semaine">meal prep semanal con freidora de aire</a>.</p>
+
+<h2>5 trucos para cocinar más sano en la freidora de aire</h2>
+<ul>
+<li><strong>1. Dosifica el aceite con un pulverizador:</strong> unas pocas pulverizaciones bastan para la mayoría de recetas, mucho menos que una cucharada echada a ojo.</li>
+<li><strong>2. Elige un aceite apto para altas temperaturas:</strong> los aceites refinados soportan mejor el calor. No dejes que el aceite humee.</li>
+<li><strong>3. Aligera el rebozado:</strong> copos de avena triturados, sésamo, frutos secos picados o un poco de parmesano dan un toque crujiente.</li>
+<li><strong>4. Marinados sin azúcar añadido:</strong> limón, hierbas, ajo, jengibre y especias aportan sabor. Los marinados dulces, además, se queman antes.</li>
+<li><strong>5. No sobrecargues la cesta:</strong> llénala como máximo hasta dos tercios y agítala a mitad de cocción.</li>
 </ul>
 
-<h2>5 consejos para maximizar los beneficios</h2>
+<h2>Lo que la freidora de aire no hace</h2>
+<p>La freidora de aire no convierte un dónut en comida sana. Reduce el aceite añadido, lo que puede aligerar algunos platos, pero el equilibrio general de la alimentación (raciones, variedad, frutas y verduras, alimentos poco procesados) pesa mucho más que el electrodoméstico. Si tienes un objetivo de salud concreto (peso, colesterol, diabetes), consulta a un profesional sanitario en lugar de confiar en un aparato.</p>
+
+<h2>5 recetas saludables y fáciles en freidora de aire</h2>
 <ul>
-<li><strong>Usa un spray de aceite:</strong> 2-3 pulverizaciones (unos 2 ml) bastan — 18 kcal frente a 120 kcal de una cucharada de aceite.</li>
-<li><strong>Elige aceites con alto punto de humo:</strong> aceite de aguacate (271°C), de semilla de uva (216°C), oliva refinado (210°C).</li>
-<li><strong>Sustituye el pan rallado por alternativas saludables:</strong> copos de avena molidos, frutos secos triturados, sesamo, parmesano rallado.</li>
-<li><strong>Marinadas sin azucar anadido:</strong> limon, hierbas frescas, ajo, jengibre, especias.</li>
-<li><strong>No sobrecargues la cesta:</strong> dos tercios de capacidad como maximo.</li>
+<li><strong>Bastones de calabacín al parmesano:</strong> calabacín en bastones con una fina capa de pan rallado y parmesano. 180 °C, 12-14 minutos.</li>
+<li><strong>Garbanzos crujientes especiados:</strong> garbanzos escurridos y secos, 1 cucharadita de aceite, comino y pimentón ahumado. 200 °C, 15 minutos, agitando la cesta.</li>
+<li><strong>Salmón con costra de hierbas:</strong> lomo de salmón, pan rallado y hierbas frescas. 190 °C, 10-12 minutos.</li>
+<li><strong>Chips de berenjena:</strong> rodajas finas, una pulverización de aceite, sal y tomillo. 180 °C, unos 10 minutos, vigilando el color.</li>
+<li><strong>Pollo tikka:</strong> pechuga marinada en yogur y especias. 190 °C, unos 18 minutos.</li>
 </ul>
 
-<p>Para mas informacion, visita nuestra <a href="/es/guides/airfryers">guia completa de freidoras de aire</a> y nuestro <a href="/es/guides/airfryer-vs-four">comparativo freidora vs horno</a>.</p>
+<h2>Conclusión: una herramienta práctica, no un milagro</h2>
+<p>Con ingredientes frescos y poco aceite, la freidora de aire facilita una cocina más ligera en el día a día, sobre todo si sustituye a la fritura en aceite. Sus ventajas son reales, pero dependen de los alimentos y de la forma de cocinar: dorado y no tostado, cesta sin sobrecargar, ingredientes poco procesados.</p>
+<p>Para saber más, consulta nuestra <a href="/es/guides/airfryers">guía completa de freidoras de aire</a> y nuestra <a href="/es/guides/airfryer-vs-four">comparativa freidora de aire vs horno</a>.</p>`,
 
-<h2>Tabla de comparación nutricional detallada</h2>
-<table>
-<thead><tr><th>Alimento (100 g)</th><th>Freidora tradicional</th><th>Freidora de aire</th><th>Ahorro calorías</th><th>Ahorro grasas</th></tr></thead>
-<tbody>
-<tr><td>Patatas fritas</td><td>340 kcal / 17 g grasa</td><td>180 kcal / 4 g grasa</td><td>-47 %</td><td>-76 %</td></tr>
-<tr><td>Alitas de pollo</td><td>290 kcal / 20 g grasa</td><td>210 kcal / 12 g grasa</td><td>-28 %</td><td>-40 %</td></tr>
-<tr><td>Nuggets caseros</td><td>280 kcal / 15 g grasa</td><td>195 kcal / 7 g grasa</td><td>-30 %</td><td>-53 %</td></tr>
-<tr><td>Buñuelos de verduras</td><td>250 kcal / 16 g grasa</td><td>130 kcal / 3 g grasa</td><td>-48 %</td><td>-81 %</td></tr>
-<tr><td>Mozzarella empanada</td><td>320 kcal / 22 g grasa</td><td>220 kcal / 11 g grasa</td><td>-31 %</td><td>-50 %</td></tr>
-</tbody>
-</table>
+    it: `<h2>La friggitrice ad aria è davvero più sana?</h2>
+<p>Sì, rispetto alla frittura a immersione la friggitrice ad aria permette di cucinare con molti meno grassi, perché un cucchiaio d'olio (o qualche spruzzo) sostituisce diverse centinaia di millilitri. Non rende però sano un alimento che non lo è: il vantaggio dipende soprattutto da cosa metti nel cestello.</p>
+<p>Questa guida riassume ciò che si sa davvero, sulla base di studi pubblicati e delle raccomandazioni delle autorità per la sicurezza alimentare, e poi propone alimenti, consigli e idee per i pasti. Non sostituisce il parere di un medico o di un dietista se segui una dieta particolare.</p>
 
-<h2>5 recetas saludables fáciles con freidora de aire</h2>
-<ul>
-<li><strong>Bastoncillos de calabacín con parmesano</strong>: calabacín en tiras, recubiertos de pan rallado y parmesano. 160°C, 14 minutos. 120 kcal/100 g.</li>
-<li><strong>Garbanzos crujientes especiados</strong>: garbanzos escurridos, 1 cdta aceite, comino, pimentón ahumado. 200°C, 15 minutos. 170 kcal/100 g.</li>
-<li><strong>Salmón con costra de hierbas</strong>: filete + pan rallado + hierbas frescas. 190°C, 12 minutos. 200 kcal/100 g, 23 g proteínas.</li>
-<li><strong>Chips de berenjena</strong>: rodajas finas, 1 spray aceite, sal, tomillo. 180°C, 10 minutos. 45 kcal/100 g.</li>
-<li><strong>Pollo tikka marinado</strong>: pechuga marinada en yogur y especias. 190°C, 18 minutos. 170 kcal/100 g, 31 g proteínas.</li>
-</ul>`,
+<h3>Meno olio: da dove nasce la differenza</h3>
+<p>Nella friggitrice tradizionale l'alimento è immerso e assorbe parte dell'olio durante la cottura. Nella friggitrice ad aria è l'aria molto calda, mossa da una ventola, a dorare la superficie. Per le patatine fatte in casa di solito basta un cucchiaino d'olio. Come riferimento, un cucchiaio d'olio apporta circa 120 kcal: a fare la differenza è la quantità d'olio aggiunta, molto più dell'apparecchio in sé.</p>
+<p><strong>Attenzione ai surgelati prefritti:</strong> patatine, nuggets e frittelle industriali sono spesso già fritti prima del congelamento. Cuocerli ad aria evita di aggiungere olio, ma il loro contenuto di grassi resta quello indicato sulla confezione. Controlla l'etichetta nutrizionale.</p>
 
-    it: `<h2>La friggitrice ad aria e davvero piu sana? I numeri parlano</h2>
-<p>La salute e uno dei principali argomenti di vendita delle friggitrici ad aria. Ma cosa dicono realmente i dati? Studi scientifici e le nostre misurazioni confermano vantaggi nutrizionali significativi rispetto alla frittura tradizionale.</p>
-
-<h3>Riduzione dei grassi: fino all'80%</h3>
-<p>Le patatine cotte nella friggitrice ad aria contengono in media 3-5 g di grassi per 100 g, rispetto a 15-20 g della frittura classica. Una porzione da 200 g di patatine ad aria apporta circa 8 g di lipidi contro 35 g dalla friggitrice tradizionale.</p>
-
-<h3>Confronto nutrizionale</h3>
-<table>
-<thead>
-<tr><th>Alimento (100 g)</th><th>Air fryer kcal</th><th>Frittura kcal</th><th>Air fryer grassi</th><th>Frittura grassi</th><th>Riduzione</th></tr>
-</thead>
-<tbody>
-<tr><td>Patatine</td><td>160 kcal</td><td>312 kcal</td><td>4 g</td><td>17 g</td><td>-49%</td></tr>
-<tr><td>Nuggets di pollo</td><td>190 kcal</td><td>296 kcal</td><td>8 g</td><td>18 g</td><td>-36%</td></tr>
-<tr><td>Gamberi in tempura</td><td>175 kcal</td><td>280 kcal</td><td>6 g</td><td>16 g</td><td>-38%</td></tr>
-<tr><td>Ali di pollo</td><td>210 kcal</td><td>320 kcal</td><td>12 g</td><td>22 g</td><td>-34%</td></tr>
-</tbody>
-</table>
-
-<p>Per un'analisi completa, consultate il nostro <a href="/it/blog/airfryer-vs-friteuse-traditionnelle">confronto friggitrice ad aria vs friggitrice tradizionale</a>.</p>
-
-<h2>Acrilammide: ridotta ma non eliminata</h2>
-<p>L'acrilammide e una sostanza potenzialmente cancerogena che si forma durante la cottura ad alta temperatura di alimenti amidacei. Studi mostrano una riduzione del 70-90% rispetto alla frittura profonda.</p>
-<ul>
-<li><strong>Non superare 180°C per le patate:</strong> l'acrilammide si forma principalmente sopra 175°C.</li>
-<li><strong>Immergere le patate per 30 minuti:</strong> riduce l'amido superficiale.</li>
-<li><strong>Evitare la doratura eccessiva:</strong> dorato e delizioso, marrone scuro significa piu acrilammide.</li>
-</ul>
-
-<h2>Conservazione dei nutrienti: il vantaggio della cottura rapida</h2>
+<h3>Confronto tra metodi di cottura</h3>
 <table>
 <thead>
-<tr><th>Vitamina</th><th>Air fryer</th><th>Forno</th><th>Frittura</th><th>Bollitura</th></tr>
+<tr><th>Metodo</th><th>Olio aggiunto</th><th>Consistenza</th><th>Da sapere</th></tr>
 </thead>
 <tbody>
-<tr><td>Vitamina C</td><td>75-85%</td><td>60-70%</td><td>50-60%</td><td>40-50%</td></tr>
-<tr><td>Vitamina B1</td><td>80-90%</td><td>70-80%</td><td>60-70%</td><td>50-60%</td></tr>
-<tr><td>Vitamina B6</td><td>80-85%</td><td>70-75%</td><td>55-65%</td><td>45-55%</td></tr>
+<tr><td>Friggitrice ad aria</td><td>Pochissimo (spray o 1 cucchiaino)</td><td>Superficie croccante</td><td>Cottura rapida, non riempire troppo il cestello</td></tr>
+<tr><td>Friggitrice a olio</td><td>Bagno d'olio completo</td><td>Molto croccante</td><td>L'alimento assorbe parte dell'olio</td></tr>
+<tr><td>Forno tradizionale</td><td>Poco o moderato</td><td>Dorato, a volte meno croccante</td><td>Preriscaldamento più lungo, grande capienza</td></tr>
+<tr><td>Padella</td><td>Moderato</td><td>Rosolato, dorato</td><td>Richiede attenzione</td></tr>
+<tr><td>Vapore</td><td>Nessuno</td><td>Tenero, senza crosta</td><td>Nessun contatto diretto con l'acqua di cottura</td></tr>
 </tbody>
 </table>
+<p>Per un'analisi più completa, consulta il nostro <a href="/it/blog/airfryer-vs-friteuse-traditionnelle">confronto friggitrice ad aria vs friggitrice tradizionale</a>.</p>
 
-<h2>I migliori alimenti sani per la friggitrice ad aria</h2>
-<h3>1. Verdure: croccanti e saporite</h3>
-<p>Scoprite le nostre <a href="/it/blog/recettes-legumes-grilles-airfryer">ricette di verdure grigliate</a>.</p>
+<h2>L'acrilammide: minore in alcuni studi, ma non eliminata</h2>
+<p>L'acrilammide si forma quando gli alimenti ricchi di amido (patate, pane, cereali) vengono cotti ad alte temperature. Nel 2015 l'Autorità europea per la sicurezza alimentare (EFSA) ha concluso che potrebbe aumentare il rischio di cancro e consiglia di limitarne l'esposizione; le norme europee impongono inoltre all'industria alimentare di ridurla.</p>
+<p>Uno studio pubblicato nel 2015 sul <em>Journal of Food Science</em> (Sansano et al.) ha misurato, a 180 °C, circa il 90% di acrilammide in meno nelle patatine cotte ad aria rispetto a quelle fritte in olio. Altri lavori, raccolti in una revisione scientifica del 2024, mostrano però risultati variabili a seconda di temperatura, tempo e preparazione delle patate. Le buone abitudini contano quindi più dell'apparecchio.</p>
+
+<h3>Come limitare l'acrilammide nella friggitrice ad aria</h3>
 <ul>
-<li><strong>Broccoli:</strong> 180°C, 10-12 min. Solo 1 cucchiaino di olio.</li>
-<li><strong>Zucchine:</strong> 200°C, 8-10 min a rondelle.</li>
-<li><strong>Cavolfiore:</strong> 190°C, 15-18 min. I "popcorn di cavolfiore" sono un classico.</li>
-<li><strong>Patate dolci:</strong> 190°C, 15-20 min a bastoncini. Piu beta-carotene delle patate normali.</li>
+<li><strong>Punta a un colore giallo dorato:</strong> è il consiglio diffuso dalle autorità europee per la sicurezza alimentare. Più le patatine scuriscono, più acrilammide contengono.</li>
+<li><strong>Resta intorno a 170-180 °C per le patate</strong> ed evita di prolungare la cottura «per renderle più croccanti».</li>
+<li><strong>Metti a bagno le patatine crude</strong> in acqua fredda per 15-30 minuti, poi asciugale bene: l'ammollo riduce gli zuccheri in superficie.</li>
+<li><strong>Segui le istruzioni della confezione</strong> per i surgelati, senza superarle.</li>
 </ul>
 
-<h3>2. Proteine magre: croccanti senza impanatura pesante</h3>
-<p>Consultate le nostre <a href="/it/blog/recettes-poulet-croustillant-airfryer">ricette di pollo croccante</a>.</p>
+<h2>Conservazione dei nutrienti: cosa si può dire</h2>
+<p>La quantità di vitamine che resta dopo la cottura dipende da tre fattori: temperatura, durata e contatto con l'acqua. Le vitamine idrosolubili (vitamina C, vitamine del gruppo B) passano in parte nell'acqua quando si lessano le verdure. La friggitrice ad aria, come il forno o il vapore, evita questo contatto, e la sua cottura, spesso più breve di quella di un forno tradizionale, limita l'esposizione al calore.</p>
+<p>I risultati variano comunque molto da un alimento all'altro e nessun metodo è il migliore per tutti i nutrienti. L'essenziale: cuoci le verdure al punto giusto senza seccarle e alterna i metodi di cottura.</p>
+
+<h2>I migliori alimenti per cucinare sano con la friggitrice ad aria</h2>
+
+<h3>1. Le verdure: croccanti e saporite</h3>
+<p>Il calore secco caramellizza la superficie delle verdure e ne concentra il sapore, mantenendo l'interno tenero. Scopri le nostre <a href="/it/blog/recettes-legumes-grilles-airfryer">ricette di verdure grigliate nella friggitrice ad aria</a>.</p>
 <ul>
-<li><strong>Petto di pollo:</strong> 180°C, 18-22 min. Succoso grazie alla cottura rapida.</li>
-<li><strong>Salmone:</strong> 200°C, 8-10 min. Pelle incredibilmente croccante, ricco di omega-3.</li>
-<li><strong>Tofu:</strong> 190°C, 15-18 min. Croccante senza frittura.</li>
+<li><strong>Broccoli:</strong> 180 °C, 10-12 min, con un cucchiaino d'olio.</li>
+<li><strong>Zucchine:</strong> 200 °C, 8-10 min a rondelle.</li>
+<li><strong>Cavolfiore:</strong> 190 °C, 15-18 min. Le cimette diventano dorate e croccanti.</li>
+<li><strong>Patata dolce:</strong> 190 °C, 15-20 min a bastoncini. Apporta betacarotene.</li>
+<li><strong>Funghi:</strong> 190 °C, 10-12 min. Succosi e ricchi di sapore umami.</li>
 </ul>
 
-<h3>3. Cereali integrali e legumi</h3>
+<h3>2. Le proteine magre: croccanti senza panatura spessa</h3>
+<p>La friggitrice ad aria forma una crosticina senza bisogno di una panatura spessa. Consulta le nostre <a href="/it/blog/recettes-poulet-croustillant-airfryer">ricette di pollo croccante</a>.</p>
 <ul>
-<li><strong>Ceci tostati:</strong> 190°C, 15-20 min. Snack proteico (19 g per 100 g).</li>
-<li><strong>Falafel:</strong> 180°C, 12-15 min. Senza frittura.</li>
+<li><strong>Petto di pollo:</strong> 180 °C, 18-22 min a seconda dello spessore. Verifica che sia ben cotto all'interno.</li>
+<li><strong>Salmone:</strong> 200 °C, 8-10 min. Un pesce grasso, fonte di omega-3.</li>
+<li><strong>Tofu:</strong> 190 °C, 15-18 min, ben pressato. Ideale per i pasti vegetariani.</li>
+<li><strong>Gamberi:</strong> 200 °C, 6-8 min. Cottura rapidissima.</li>
 </ul>
 
-<h2>Piano settimanale di pasti sani</h2>
+<h3>3. Legumi e cereali</h3>
 <ul>
-<li><strong>Lunedi:</strong> Pollo limone ed erbe + broccoli all'aglio (380 kcal, 35 g proteine, 8 g grassi)</li>
-<li><strong>Martedi:</strong> Filetto di salmone + chips di patata dolce (420 kcal, 28 g proteine, 14 g grassi)</li>
-<li><strong>Mercoledi:</strong> Tofu croccante + verdure miste + riso integrale (400 kcal, 22 g proteine, 12 g grassi)</li>
-<li><strong>Giovedi:</strong> Gamberi all'aglio + zucchine grigliate (280 kcal, 30 g proteine, 6 g grassi)</li>
-<li><strong>Venerdi:</strong> Falafel fatti in casa + peperoni arrostiti + pita integrale (450 kcal, 18 g proteine, 15 g grassi)</li>
+<li><strong>Ceci tostati:</strong> 190 °C, 15-20 min, ben asciugati. Uno snack croccante e ricco di fibre.</li>
+<li><strong>Falafel:</strong> 180 °C, 12-15 min, leggermente unti. Morbidi dentro senza frittura.</li>
+<li><strong>Burger di quinoa:</strong> 180 °C, 10-12 min. Croccanti e sazianti.</li>
 </ul>
 
-<h2>5 consigli per massimizzare i benefici</h2>
+<h2>Idee per pasti sani della settimana</h2>
 <ul>
-<li><strong>Usate uno spray per olio:</strong> 2-3 spruzzi (circa 2 ml) bastano — 18 kcal contro 120 kcal per un cucchiaio di olio.</li>
-<li><strong>Scegliete oli con alto punto di fumo:</strong> olio di avocado (271°C), di vinaccioli (216°C), oliva raffinato (210°C).</li>
-<li><strong>Sostituite il pangrattato con alternative sane:</strong> fiocchi d'avena macinati, frutta secca tritata, sesamo, parmigiano grattugiato.</li>
-<li><strong>Marinature senza zucchero aggiunto:</strong> limone, erbe fresche, aglio, zenzero, spezie.</li>
-<li><strong>Non sovraccaricate il cestello:</strong> massimo due terzi di capacita.</li>
+<li><strong>Lunedì:</strong> pollo al limone ed erbe, broccoli all'aglio.</li>
+<li><strong>Martedì:</strong> trancio di salmone, bastoncini di patata dolce.</li>
+<li><strong>Mercoledì:</strong> bowl di tofu croccante con verdure grigliate miste e riso integrale.</li>
+<li><strong>Giovedì:</strong> gamberi all'aglio, zucchine grigliate.</li>
+<li><strong>Venerdì:</strong> falafel fatti in casa, peperoni e cipolle grigliati, pita integrale.</li>
+<li><strong>Sabato:</strong> pollo panato ai fiocchi d'avena, funghi grigliati.</li>
+<li><strong>Domenica:</strong> ortaggi a radice arrostiti, uova in cocotte (circa 160 °C, 8 min).</li>
+</ul>
+<p>Per organizzare i pasti in anticipo, leggi anche il nostro <a href="/it/blog/meal-prep-airfryer-semaine">meal prep settimanale con la friggitrice ad aria</a>.</p>
+
+<h2>5 consigli per cucinare più sano con la friggitrice ad aria</h2>
+<ul>
+<li><strong>1. Dosa l'olio con uno spruzzino:</strong> pochi spruzzi bastano per la maggior parte delle ricette, molto meno di un cucchiaio versato a occhio.</li>
+<li><strong>2. Scegli un olio adatto alle alte temperature:</strong> gli oli raffinati reggono meglio il calore. Non lasciare che l'olio fumi.</li>
+<li><strong>3. Alleggerisci la panatura:</strong> fiocchi d'avena frullati, sesamo, frutta secca tritata o un po' di parmigiano danno croccantezza.</li>
+<li><strong>4. Marinature senza zuccheri aggiunti:</strong> limone, erbe, aglio, zenzero e spezie danno sapore. Le marinature dolci, inoltre, bruciano prima.</li>
+<li><strong>5. Non sovraccaricare il cestello:</strong> riempilo al massimo per due terzi e scuotilo a metà cottura.</li>
 </ul>
 
-<p>Per approfondire, visitate la nostra <a href="/it/guides/airfryers">guida completa alle friggitrici ad aria</a> e il nostro <a href="/it/guides/airfryer-vs-four">confronto friggitrice vs forno</a>.</p>
-
-<h2>Tabella di confronto nutrizionale dettagliata</h2>
-<table>
-<thead><tr><th>Alimento (100 g)</th><th>Friggitrice tradizionale</th><th>Friggitrice ad aria</th><th>Risparmio calorie</th><th>Risparmio grassi</th></tr></thead>
-<tbody>
-<tr><td>Patatine fritte</td><td>340 kcal / 17 g grassi</td><td>180 kcal / 4 g grassi</td><td>-47 %</td><td>-76 %</td></tr>
-<tr><td>Ali di pollo</td><td>290 kcal / 20 g grassi</td><td>210 kcal / 12 g grassi</td><td>-28 %</td><td>-40 %</td></tr>
-<tr><td>Nuggets casalinghi</td><td>280 kcal / 15 g grassi</td><td>195 kcal / 7 g grassi</td><td>-30 %</td><td>-53 %</td></tr>
-<tr><td>Frittelle di verdure</td><td>250 kcal / 16 g grassi</td><td>130 kcal / 3 g grassi</td><td>-48 %</td><td>-81 %</td></tr>
-<tr><td>Mozzarella in carrozza</td><td>320 kcal / 22 g grassi</td><td>220 kcal / 11 g grassi</td><td>-31 %</td><td>-50 %</td></tr>
-</tbody>
-</table>
+<h2>Cosa la friggitrice ad aria non fa</h2>
+<p>La friggitrice ad aria non trasforma una ciambella in un alimento sano. Riduce l'olio aggiunto, il che può alleggerire alcuni piatti, ma l'equilibrio generale dell'alimentazione (porzioni, varietà, frutta e verdura, alimenti poco trasformati) conta molto più dell'elettrodomestico. Se hai un obiettivo di salute preciso (peso, colesterolo, diabete), chiedi consiglio a un professionista sanitario invece di affidarti a un apparecchio.</p>
 
 <h2>5 ricette sane e facili con la friggitrice ad aria</h2>
 <ul>
-<li><strong>Bastoncini di zucchine al parmigiano</strong>: zucchine a bastoncino, rivestite di pangrattato e parmigiano. 160°C, 14 minuti. 120 kcal/100 g.</li>
-<li><strong>Ceci croccanti speziati</strong>: ceci scolati, 1 cucchiaino d'olio, cumino, paprica affumicata. 200°C, 15 minuti. 170 kcal/100 g.</li>
-<li><strong>Salmone con crosta di erbe</strong>: filetto + pangrattato + erbe fresche. 190°C, 12 minuti. 200 kcal/100 g, 23 g proteine.</li>
-<li><strong>Chips di melanzane</strong>: fettine sottili, 1 spray d'olio, sale, timo. 180°C, 10 minuti. 45 kcal/100 g.</li>
-<li><strong>Pollo tikka marinato</strong>: petto marinato in yogurt e spezie. 190°C, 18 minuti. 170 kcal/100 g, 31 g proteine.</li>
-</ul>`,
-
-    nl: `<h2>Is de airfryer echt gezonder? De cijfers spreken</h2>
-<p>Gezondheid is een van de belangrijkste verkoopargumenten van airfryers. Maar wat tonen de gegevens werkelijk aan? Wetenschappelijke studies en onze eigen metingen bevestigen aanzienlijke voedingsvoordelen ten opzichte van traditioneel frituren.</p>
-
-<h3>Vetreductie: tot 80%</h3>
-<p>Frietjes uit de airfryer bevatten gemiddeld 3-5 g vet per 100 g, vergeleken met 15-20 g voor gefrituurde frietjes. Een portie van 200 g airfryer-friet levert ongeveer 8 g vet versus 35 g uit de frituur.</p>
-
-<h3>Voedingsvergelijking</h3>
-<table>
-<thead>
-<tr><th>Voedsel (100 g)</th><th>Airfryer kcal</th><th>Frituur kcal</th><th>Airfryer vet</th><th>Frituur vet</th><th>Reductie</th></tr>
-</thead>
-<tbody>
-<tr><td>Frietjes</td><td>160 kcal</td><td>312 kcal</td><td>4 g</td><td>17 g</td><td>-49%</td></tr>
-<tr><td>Kipnuggets</td><td>190 kcal</td><td>296 kcal</td><td>8 g</td><td>18 g</td><td>-36%</td></tr>
-<tr><td>Garnaaltempura</td><td>175 kcal</td><td>280 kcal</td><td>6 g</td><td>16 g</td><td>-38%</td></tr>
-<tr><td>Kippenvleugels</td><td>210 kcal</td><td>320 kcal</td><td>12 g</td><td>22 g</td><td>-34%</td></tr>
-</tbody>
-</table>
-
-<p>Voor een volledige analyse, bekijk onze <a href="/nl/blog/airfryer-vs-friteuse-traditionnelle">vergelijking airfryer vs frituur</a>.</p>
-
-<h2>Acrylamide: verminderd maar niet geelimineerd</h2>
-<p>Acrylamide is een potentieel kankerverwekkende stof die ontstaat bij het bereiden van zetmeelrijke voedingsmiddelen op hoge temperaturen. Studies tonen een reductie van 70-90% vergeleken met frituren.</p>
-<ul>
-<li><strong>Aardappelen onder 180°C bereiden:</strong> acrylamide vormt zich voornamelijk boven 175°C.</li>
-<li><strong>Aardappelen 30 minuten weken:</strong> vermindert oppervlaktezetmeel.</li>
-<li><strong>Voorkom overmatige bruining:</strong> goudbruin is lekker, donkerbruin betekent meer acrylamide.</li>
+<li><strong>Bastoncini di zucchine al parmigiano:</strong> zucchine a bastoncini con un sottile strato di pangrattato e parmigiano. 180 °C, 12-14 minuti.</li>
+<li><strong>Ceci croccanti speziati:</strong> ceci scolati e asciugati, 1 cucchiaino d'olio, cumino e paprika affumicata. 200 °C, 15 minuti, scuotendo il cestello.</li>
+<li><strong>Salmone in crosta di erbe:</strong> trancio di salmone, pangrattato ed erbe fresche. 190 °C, 10-12 minuti.</li>
+<li><strong>Chips di melanzana:</strong> fette sottili, uno spruzzo d'olio, sale e timo. 180 °C, circa 10 minuti, controllando il colore.</li>
+<li><strong>Pollo tikka:</strong> petto di pollo marinato nello yogurt e nelle spezie. 190 °C, circa 18 minuti.</li>
 </ul>
 
-<h2>Voedingsstofbehoud: het voordeel van snel koken</h2>
+<h2>Conclusione: uno strumento pratico, non un miracolo</h2>
+<p>Con ingredienti freschi e poco olio, la friggitrice ad aria rende più facile una cucina leggera di tutti i giorni, soprattutto se sostituisce la frittura in olio. I suoi vantaggi sono reali ma dipendono dagli alimenti scelti e dal modo di cuocere: dorato e non scuro, cestello non sovraccarico, ingredienti poco trasformati.</p>
+<p>Per approfondire, esplora la nostra <a href="/it/guides/airfryers">guida completa alle friggitrici ad aria</a> e il nostro <a href="/it/guides/airfryer-vs-four">confronto friggitrice ad aria vs forno</a>.</p>`,
+
+    nl: `<h2>Is de airfryer echt gezonder?</h2>
+<p>Ja, vergeleken met frituren in een oliebad kook je met een airfryer met veel minder vet, omdat een lepel olie (of een paar keer sprayen) enkele honderden milliliters vervangt. Een ongezond product maakt hij echter niet gezond: het voordeel hangt vooral af van wat je in de mand legt.</p>
+<p>Deze gids zet op een rij wat er echt bekend is, op basis van gepubliceerd onderzoek en de adviezen van voedselveiligheidsinstanties, en geeft daarna ingrediënten, tips en maaltijdideeën. Hij vervangt niet het advies van een arts of diëtist als je een specifiek dieet volgt.</p>
+
+<h3>Minder olie: waar het verschil vandaan komt</h3>
+<p>In een gewone friteuse ligt het eten onder in de olie en neemt het tijdens het bakken een deel daarvan op. In een airfryer zorgt zeer hete lucht, rondgeblazen door een ventilator, voor de krokante korst. Voor zelfgemaakte friet is meestal een theelepel olie genoeg. Ter vergelijking: een eetlepel olie levert ongeveer 120 kcal. Het verschil zit dus vooral in de hoeveelheid toegevoegde olie, veel meer dan in het apparaat zelf.</p>
+<p><strong>Let op bij voorgebakken diepvriesproducten:</strong> friet, nuggets en kroketten uit de winkel zijn vaak al gefrituurd voordat ze worden ingevroren. In de airfryer voeg je geen olie toe, maar het vetgehalte blijft wat op de verpakking staat. Kijk dus naar het voedingsetiket.</p>
+
+<h3>Bereidingswijzen vergeleken</h3>
 <table>
 <thead>
-<tr><th>Vitamine</th><th>Airfryer</th><th>Oven</th><th>Frituur</th><th>Koken</th></tr>
+<tr><th>Bereidingswijze</th><th>Toegevoegde olie</th><th>Textuur</th><th>Goed om te weten</th></tr>
 </thead>
 <tbody>
-<tr><td>Vitamine C</td><td>75-85%</td><td>60-70%</td><td>50-60%</td><td>40-50%</td></tr>
-<tr><td>Vitamine B1</td><td>80-90%</td><td>70-80%</td><td>60-70%</td><td>50-60%</td></tr>
-<tr><td>Vitamine B6</td><td>80-85%</td><td>70-75%</td><td>55-65%</td><td>45-55%</td></tr>
+<tr><td>Airfryer</td><td>Heel weinig (spray of 1 theelepel)</td><td>Krokante buitenkant</td><td>Snel gaar, mand niet te vol doen</td></tr>
+<tr><td>Friteuse met oliebad</td><td>Volledig oliebad</td><td>Zeer krokant</td><td>Het eten neemt een deel van de olie op</td></tr>
+<tr><td>Gewone oven</td><td>Weinig tot matig</td><td>Goudbruin, soms minder krokant</td><td>Langer voorverwarmen, grote inhoud</td></tr>
+<tr><td>Koekenpan</td><td>Matig</td><td>Aangebraden, goudbruin</td><td>Vraagt aandacht</td></tr>
+<tr><td>Stomen</td><td>Geen</td><td>Zacht, zonder korst</td><td>Geen direct contact met kookwater</td></tr>
 </tbody>
 </table>
+<p>Voor een uitgebreidere analyse, zie onze <a href="/nl/blog/airfryer-vs-friteuse-traditionnelle">vergelijking airfryer vs traditionele friteuse</a>.</p>
 
-<h2>De beste gezonde voedselcategorieen voor de airfryer</h2>
+<h2>Acrylamide: lager in sommige studies, maar niet verdwenen</h2>
+<p>Acrylamide ontstaat wanneer zetmeelrijke producten (aardappelen, brood, granen) op hoge temperatuur worden bereid. De Europese Autoriteit voor voedselveiligheid (EFSA) concludeerde in 2015 dat het mogelijk het risico op kanker verhoogt en adviseert de blootstelling te beperken; Europese regels verplichten de voedingsindustrie bovendien om het te verminderen.</p>
+<p>Een studie uit 2015 in het <em>Journal of Food Science</em> (Sansano et al.) mat bij 180 °C ongeveer 90% minder acrylamide in friet uit de hetelucht dan in gefrituurde friet. Ander onderzoek, samengebracht in een wetenschappelijk overzicht uit 2024, laat echter wisselende resultaten zien, afhankelijk van temperatuur, tijd en voorbereiding van de aardappelen. Goede gewoonten tellen dus meer dan het apparaat alleen.</p>
+
+<h3>Zo beperk je acrylamide in de airfryer</h3>
+<ul>
+<li><strong>Bak goudgeel, niet bruin:</strong> dat is het advies van Europese voedselveiligheidsinstanties. Hoe bruiner de friet, hoe meer acrylamide.</li>
+<li><strong>Blijf rond 170-180 °C voor aardappelen</strong> en verleng de baktijd niet „voor extra krokantheid".</li>
+<li><strong>Week rauwe friet 15 tot 30 minuten in koud water</strong> en dep ze goed droog: weken vermindert de suikers aan de oppervlakte.</li>
+<li><strong>Volg bij diepvriesproducten de instructies op de verpakking</strong> en ga er niet overheen.</li>
+</ul>
+
+<h2>Behoud van voedingsstoffen: wat we kunnen zeggen</h2>
+<p>Hoeveel vitamines na het koken overblijven, hangt af van drie factoren: temperatuur, tijd en contact met water. Wateroplosbare vitamines (vitamine C, B-vitamines) komen deels in het water terecht als je groenten kookt. De airfryer vermijdt dat contact, net als de oven of het stomen, en de vaak kortere bereidingstijd dan in een gewone oven beperkt de blootstelling aan hitte.</p>
+<p>De resultaten verschillen wel sterk per product, en geen enkele methode is de beste voor alle voedingsstoffen. Onthoud vooral: gaar groenten precies goed in plaats van ze uit te drogen, en wissel bereidingswijzen af.</p>
+
+<h2>De beste ingrediënten om gezond te koken in de airfryer</h2>
+
 <h3>1. Groenten: knapperig en smaakvol</h3>
-<p>Ontdek onze <a href="/nl/blog/recettes-legumes-grilles-airfryer">gegrilde groentenrecepten</a>.</p>
+<p>Droge hitte karameliseert de buitenkant van groenten en versterkt hun smaak, terwijl de binnenkant zacht blijft. Ontdek onze <a href="/nl/blog/recettes-legumes-grilles-airfryer">recepten voor geroosterde groenten uit de airfryer</a>.</p>
 <ul>
-<li><strong>Broccoli:</strong> 180°C, 10-12 min. Slechts 1 theelepel olie nodig.</li>
-<li><strong>Courgette:</strong> 200°C, 8-10 min in plakjes.</li>
-<li><strong>Bloemkool:</strong> 190°C, 15-18 min. "Bloemkoolpopcorn" is een klassieker.</li>
-<li><strong>Zoete aardappel:</strong> 190°C, 15-20 min als friet. Meer betacaroteen dan gewone aardappelen.</li>
+<li><strong>Broccoli:</strong> 180 °C, 10-12 min, met een theelepel olie.</li>
+<li><strong>Courgette:</strong> 200 °C, 8-10 min in plakjes.</li>
+<li><strong>Bloemkool:</strong> 190 °C, 15-18 min. De roosjes worden goudbruin en knapperig.</li>
+<li><strong>Zoete aardappel:</strong> 190 °C, 15-20 min als friet. Bevat bètacaroteen.</li>
+<li><strong>Champignons:</strong> 190 °C, 10-12 min. Sappig en vol umami.</li>
 </ul>
 
-<h3>2. Magere eiwitten: knapperig zonder zware panering</h3>
-<p>Bekijk onze <a href="/nl/blog/recettes-poulet-croustillant-airfryer">knapperige kiprecepten</a>.</p>
+<h3>2. Magere eiwitten: krokant zonder dikke paneerlaag</h3>
+<p>De airfryer vormt een korstje zonder dikke paneerlaag. Bekijk onze <a href="/nl/blog/recettes-poulet-croustillant-airfryer">recepten voor krokante kip</a>.</p>
 <ul>
-<li><strong>Kipfilet:</strong> 180°C, 18-22 min. Sappig van binnen dankzij snel garen.</li>
-<li><strong>Zalm:</strong> 200°C, 8-10 min. Ongelooflijk knapperige huid, rijk aan omega-3.</li>
-<li><strong>Tofu:</strong> 190°C, 15-18 min. Knapperig zonder frituren.</li>
+<li><strong>Kipfilet:</strong> 180 °C, 18-22 min afhankelijk van de dikte. Controleer of de kip helemaal gaar is.</li>
+<li><strong>Zalm:</strong> 200 °C, 8-10 min. Een vette vis en een bron van omega-3.</li>
+<li><strong>Tofu:</strong> 190 °C, 15-18 min, goed uitgeperst. Ideaal voor vegetarische maaltijden.</li>
+<li><strong>Garnalen:</strong> 200 °C, 6-8 min. Heel snel gaar.</li>
 </ul>
 
-<h3>3. Volkoren en peulvruchten</h3>
+<h3>3. Peulvruchten en granen</h3>
 <ul>
-<li><strong>Geroosterde kikkererwten:</strong> 190°C, 15-20 min. Eiwitrijke snack (19 g per 100 g).</li>
-<li><strong>Falafel:</strong> 180°C, 12-15 min. Zonder frituren.</li>
+<li><strong>Geroosterde kikkererwten:</strong> 190 °C, 15-20 min, goed drooggedept. Een knapperige, vezelrijke snack.</li>
+<li><strong>Falafel:</strong> 180 °C, 12-15 min, licht ingevet. Zacht vanbinnen zonder frituren.</li>
+<li><strong>Quinoaburgers:</strong> 180 °C, 10-12 min. Krokant en vullend.</li>
 </ul>
 
-<h2>Weekplan gezonde maaltijden</h2>
+<h2>Ideeën voor gezonde airfryer-maaltijden voor de week</h2>
 <ul>
-<li><strong>Maandag:</strong> Citroen-kruiden kip + knoflookbroccoli (380 kcal, 35 g eiwit, 8 g vet)</li>
-<li><strong>Dinsdag:</strong> Zalmfilet + zoete aardappelfriet (420 kcal, 28 g eiwit, 14 g vet)</li>
-<li><strong>Woensdag:</strong> Knapperige tofu + geroosterde groenten + zilvervliesrijst (400 kcal, 22 g eiwit, 12 g vet)</li>
-<li><strong>Donderdag:</strong> Knoflookgarnalen + gegrilde courgette (280 kcal, 30 g eiwit, 6 g vet)</li>
-<li><strong>Vrijdag:</strong> Zelfgemaakte falafel + geroosterde paprika + volkoren pita (450 kcal, 18 g eiwit, 15 g vet)</li>
+<li><strong>Maandag:</strong> kip met citroen en kruiden, broccoli met knoflook.</li>
+<li><strong>Dinsdag:</strong> zalmfilet, friet van zoete aardappel.</li>
+<li><strong>Woensdag:</strong> bowl met krokante tofu, gemengde geroosterde groenten en zilvervliesrijst.</li>
+<li><strong>Donderdag:</strong> knoflookgarnalen, gegrilde courgette.</li>
+<li><strong>Vrijdag:</strong> zelfgemaakte falafel, geroosterde paprika en ui, volkoren pita.</li>
+<li><strong>Zaterdag:</strong> kip met een korstje van havervlokken, geroosterde champignons.</li>
+<li><strong>Zondag:</strong> geroosterde wortelgroenten, eitjes in een ovenschaaltje (ongeveer 160 °C, 8 min).</li>
+</ul>
+<p>Om deze maaltijden vooruit te plannen, lees ook onze gids over <a href="/nl/blog/meal-prep-airfryer-semaine">meal prep met de airfryer voor de hele week</a>.</p>
+
+<h2>5 tips om gezonder te koken in de airfryer</h2>
+<ul>
+<li><strong>1. Doseer olie met een sprayer:</strong> een paar keer sprayen is genoeg voor de meeste recepten, veel minder dan een op het oog gegoten eetlepel.</li>
+<li><strong>2. Kies olie die tegen hitte kan:</strong> geraffineerde oliën verdragen hoge temperaturen beter. Laat de olie niet roken.</li>
+<li><strong>3. Maak de paneerlaag lichter:</strong> gemalen havervlokken, sesamzaad, gehakte noten of een beetje parmezaan zorgen voor krokantheid.</li>
+<li><strong>4. Marinades zonder toegevoegde suiker:</strong> citroen, kruiden, knoflook, gember en specerijen geven smaak. Zoete marinades verbranden bovendien sneller.</li>
+<li><strong>5. Doe de mand niet te vol:</strong> vul hem hooguit voor twee derde en schud halverwege.</li>
 </ul>
 
-<h2>5 tips om gezondheidsvoordelen te maximaliseren</h2>
+<h2>Wat de airfryer niet doet</h2>
+<p>Een airfryer maakt van een donut geen gezond eten. Hij vermindert de toegevoegde olie, wat sommige gerechten lichter kan maken, maar je voedingspatroon als geheel (porties, variatie, groente en fruit, weinig bewerkte producten) telt veel zwaarder dan het keukenapparaat. Heb je een concreet gezondheidsdoel (gewicht, cholesterol, diabetes), vraag dan advies aan een zorgverlener in plaats van te vertrouwen op een apparaat.</p>
+
+<h2>5 makkelijke gezonde airfryer-recepten</h2>
 <ul>
-<li><strong>Gebruik een oliespray:</strong> 2-3 spraystoten (circa 2 ml) zijn genoeg — 18 kcal versus 120 kcal voor een eetlepel olie.</li>
-<li><strong>Kies olien met een hoog rookpunt:</strong> avocado-olie (271°C), druivenpitolie (216°C), geraffineerde olijfolie (210°C).</li>
-<li><strong>Vervang paneermeel door gezonde alternatieven:</strong> gemalen havervlokken, gehakte noten, sesamzaad, geraspte parmezaan.</li>
-<li><strong>Marinades zonder toegevoegde suiker:</strong> citroen, verse kruiden, knoflook, gember, specerijen.</li>
-<li><strong>Overlaad de mand niet:</strong> maximaal tweederde vullen voor gelijkmatige resultaten.</li>
+<li><strong>Courgettefriet met parmezaan:</strong> courgettereepjes met een dun laagje paneermeel en parmezaan. 180 °C, 12-14 minuten.</li>
+<li><strong>Krokante gekruide kikkererwten:</strong> uitgelekte, drooggedepte kikkererwten, 1 theelepel olie, komijn en gerookte paprika. 200 °C, 15 minuten, tussendoor schudden.</li>
+<li><strong>Zalm met kruidenkorst:</strong> zalmfilet, paneermeel en verse kruiden. 190 °C, 10-12 minuten.</li>
+<li><strong>Auberginechips:</strong> dunne plakjes, één keer sprayen met olie, zout en tijm. 180 °C, ongeveer 10 minuten, let op de kleur.</li>
+<li><strong>Kip tikka:</strong> kipfilet gemarineerd in yoghurt en specerijen. 190 °C, ongeveer 18 minuten.</li>
 </ul>
 
-<p>Bezoek onze <a href="/nl/guides/airfryers">complete airfryer gids</a> en onze <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a> voor meer informatie.</p>
-
-<h2>Gedetailleerde voedingswaardenvergelijking</h2>
-<table>
-<thead><tr><th>Voedingsmiddel (100 g)</th><th>Traditionele friteuse</th><th>Airfryer</th><th>Caloriebesparing</th><th>Vetbesparing</th></tr></thead>
-<tbody>
-<tr><td>Patat</td><td>340 kcal / 17 g vet</td><td>180 kcal / 4 g vet</td><td>-47%</td><td>-76%</td></tr>
-<tr><td>Kippenvleugels</td><td>290 kcal / 20 g vet</td><td>210 kcal / 12 g vet</td><td>-28%</td><td>-40%</td></tr>
-<tr><td>Zelfgemaakte nuggets</td><td>280 kcal / 15 g vet</td><td>195 kcal / 7 g vet</td><td>-30%</td><td>-53%</td></tr>
-<tr><td>Groentebeignets</td><td>250 kcal / 16 g vet</td><td>130 kcal / 3 g vet</td><td>-48%</td><td>-81%</td></tr>
-<tr><td>Gepaneerde mozzarella</td><td>320 kcal / 22 g vet</td><td>220 kcal / 11 g vet</td><td>-31%</td><td>-50%</td></tr>
-</tbody>
-</table>
-
-<h2>5 gemakkelijke gezonde recepten voor de airfryer</h2>
-<ul>
-<li><strong>Courgette frietjes met parmezaan</strong>: courgette in stokjes, bedekt met paneermeel en parmezaan. 160°C, 14 minuten. 120 kcal/100 g.</li>
-<li><strong>Krokante gekruide kikkererwten</strong>: uitgelekte kikkererwten, 1 tl olie, komijn, gerookt paprikapoeder. 200°C, 15 minuten. 170 kcal/100 g.</li>
-<li><strong>Zalm met kruidenkorst</strong>: zalmfilet + paneermeel + verse kruiden. 190°C, 12 minuten. 200 kcal/100 g, 23 g eiwit.</li>
-<li><strong>Auberginechips</strong>: dunne plakjes, 1 oliespray, zout, tijm. 180°C, 10 minuten. 45 kcal/100 g.</li>
-<li><strong>Gemarineerde tikka kip</strong>: kipfilet gemarineerd in yoghurt en kruiden. 190°C, 18 minuten. 170 kcal/100 g, 31 g eiwit.</li>
-</ul>`,
+<h2>Conclusie: een handig hulpmiddel, geen wondermiddel</h2>
+<p>Met verse ingrediënten en weinig olie maakt de airfryer lichter koken in het dagelijks leven makkelijker, vooral als hij het frituren in olie vervangt. De voordelen zijn echt, maar hangen af van wat je kiest en hoe je het bereidt: goudgeel in plaats van bruin, een mand die niet te vol is, weinig bewerkte ingrediënten.</p>
+<p>Lees verder in onze <a href="/nl/guides/airfryers">complete airfryergids</a> en onze <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>.</p>`,
   },
   faq: [
     {
       question: {
-        fr: 'L\'airfryer est-il vraiment plus sain que la friture traditionnelle ?',
+        fr: "L'airfryer est-il vraiment plus sain que la friture traditionnelle ?",
         en: 'Is an air fryer really healthier than traditional deep frying?',
         de: 'Ist die Heißluftfritteuse wirklich gesünder als herkömmliches Frittieren?',
         es: '¿La freidora de aire es realmente más saludable que la fritura tradicional?',
@@ -737,17 +673,17 @@ export const article: BlogArticle = {
         nl: 'Is de airfryer echt gezonder dan traditioneel frituren?',
       },
       answer: {
-        fr: 'Oui, les études confirment que l\'airfryer réduit la teneur en graisses de 70 à 80 % par rapport à la friture dans l\'huile. Une portion de frites contient environ 8 g de lipides à l\'airfryer contre 35 g en friture classique. La réduction calorique est significative sur chaque repas.',
-        en: 'Yes, studies confirm that air frying reduces fat content by 70 to 80 percent compared to deep frying. A serving of fries contains about 8 g of fat from an air fryer versus 35 g from deep frying. The calorie reduction is significant for every meal, making it a genuinely healthier cooking method.',
-        de: 'Ja, Studien bestätigen, dass die Heißluftfritteuse den Fettgehalt um 70 bis 80 Prozent reduziert. Eine Portion Pommes enthält etwa 8 g Fett aus der Heißluftfritteuse gegenüber 35 g aus der Fritteuse. Die Kalorienreduktion ist bei jeder Mahlzeit erheblich und macht sie gesünder.',
-        es: 'Sí, los estudios confirman que la freidora de aire reduce el contenido de grasa entre un 70 y 80 % respecto a la fritura en aceite. Una ración de patatas contiene unos 8 g de grasa en airfryer frente a 35 g en fritura clásica. La reducción calórica es significativa en cada comida.',
-        it: 'Sì, gli studi confermano che la friggitrice ad aria riduce il contenuto di grassi del 70-80% rispetto alla frittura in olio. Una porzione di patatine contiene circa 8 g di grassi con l\'airfryer contro 35 g con la frittura classica. La riduzione calorica è significativa per ogni pasto.',
-        nl: 'Ja, studies bevestigen dat de airfryer het vetgehalte met 70 tot 80 procent vermindert vergeleken met frituren. Een portie frietjes bevat circa 8 g vet uit de airfryer versus 35 g uit de frituur. De calorische reductie is significant bij elke maaltijd en maakt het echt gezonder.',
+        fr: "Par rapport à la friture dans un bain d'huile, oui : on utilise beaucoup moins d'huile, souvent une cuillère à café ou quelques pulvérisations. L'écart réel dépend de la recette, et un produit surgelé déjà pré-frit garde la teneur en matières grasses indiquée sur son emballage.",
+        en: 'Compared with deep frying, yes: you use far less oil, often a teaspoon or a few sprays. The real difference depends on the recipe, and a pre-fried frozen product keeps the fat content shown on its pack.',
+        de: 'Im Vergleich zum Frittieren im Ölbad ja: Man braucht viel weniger Öl, oft nur einen Teelöffel oder ein paar Sprühstöße. Der tatsächliche Unterschied hängt vom Rezept ab, und vorfrittierte Tiefkühlware behält den auf der Packung angegebenen Fettgehalt.',
+        es: 'Frente a la fritura en aceite, sí: se usa mucho menos aceite, a menudo una cucharadita o unas pocas pulverizaciones. La diferencia real depende de la receta, y un congelado prefrito mantiene el contenido de grasa que indica su envase.',
+        it: 'Rispetto alla frittura a immersione, sì: si usa molto meno olio, spesso un cucchiaino o qualche spruzzo. La differenza reale dipende dalla ricetta, e un surgelato prefritto mantiene il contenuto di grassi indicato sulla confezione.',
+        nl: 'Vergeleken met frituren in olie wel: je gebruikt veel minder olie, vaak een theelepel of een paar keer sprayen. Het echte verschil hangt af van het recept, en een voorgebakken diepvriesproduct houdt het vetgehalte dat op de verpakking staat.',
       },
     },
     {
       question: {
-        fr: 'Faut-il utiliser de l\'huile dans un airfryer ?',
+        fr: "Faut-il utiliser de l'huile dans un airfryer ?",
         en: 'Do you need to use oil in an air fryer?',
         de: 'Muss man Öl in der Heißluftfritteuse verwenden?',
         es: '¿Hay que usar aceite en una freidora de aire?',
@@ -755,12 +691,12 @@ export const article: BlogArticle = {
         nl: 'Moet je olie gebruiken in een airfryer?',
       },
       answer: {
-        fr: 'Ce n\'est pas obligatoire mais recommandé en petite quantité. Un spray de 2 à 3 pulvérisations (environ 2 ml) suffit pour obtenir un résultat croustillant, soit seulement 18 kcal. Sans huile, certains aliments peuvent être secs ou ne pas dorer. Choisissez une huile à haut point de fumée comme l\'huile d\'avocat.',
-        en: 'It is not mandatory but recommended in small amounts. A spray of 2 to 3 pumps (about 2 ml) is enough for crispy results, adding only 18 calories. Without oil, some foods may be dry or fail to brown. Choose an oil with a high smoke point like avocado oil for best results.',
-        de: 'Es ist nicht zwingend, aber in kleinen Mengen empfohlen. Ein Spray mit 2-3 Stößen (ca. 2 ml) reicht für knusprige Ergebnisse und fügt nur 18 kcal hinzu. Ohne Öl können manche Lebensmittel trocken werden oder nicht bräunen. Wählen Sie ein Öl mit hohem Rauchpunkt wie Avocadoöl.',
-        es: 'No es obligatorio pero se recomienda en pequeñas cantidades. Un spray de 2-3 pulverizaciones (unos 2 ml) basta para un resultado crujiente, aportando solo 18 kcal. Sin aceite, algunos alimentos pueden quedar secos o no dorarse. Elige un aceite con alto punto de humo como el de aguacate.',
-        it: 'Non è obbligatorio ma consigliato in piccole quantità. Uno spray di 2-3 spruzzate (circa 2 ml) basta per risultati croccanti, aggiungendo solo 18 kcal. Senza olio, alcuni alimenti possono risultare secchi o non dorarsi. Scegli un olio con alto punto di fumo come quello di avocado.',
-        nl: 'Het is niet verplicht maar aanbevolen in kleine hoeveelheden. Een spray van 2-3 keer pompen (circa 2 ml) is genoeg voor krokante resultaten en voegt slechts 18 kcal toe. Zonder olie kunnen sommige gerechten droog worden of niet bruinen. Kies olie met een hoog rookpunt zoals avocado-olie.',
+        fr: "Ce n'est pas obligatoire, mais un peu d'huile aide les aliments frais à dorer et à ne pas se dessécher. Quelques pulvérisations ou une cuillère à café suffisent généralement. Préférez une huile raffinée qui supporte la chaleur et évitez de la laisser fumer.",
+        en: "It isn't mandatory, but a little oil helps fresh food brown and stops it drying out. A few sprays or a teaspoon is usually enough. Prefer a refined oil that copes with heat and don't let it smoke.",
+        de: 'Pflicht ist es nicht, aber etwas Öl hilft frischen Lebensmitteln zu bräunen und nicht auszutrocknen. Ein paar Sprühstöße oder ein Teelöffel reichen meist. Wählen Sie ein hitzebeständiges raffiniertes Öl und lassen Sie es nicht rauchen.',
+        es: 'No es obligatorio, pero un poco de aceite ayuda a que los alimentos frescos se doren y no se resequen. Suelen bastar unas pulverizaciones o una cucharadita. Elige un aceite refinado que aguante el calor y no dejes que humee.',
+        it: "Non è obbligatorio, ma un po' d'olio aiuta gli alimenti freschi a dorarsi e a non seccarsi. Di solito bastano pochi spruzzi o un cucchiaino. Preferisci un olio raffinato che regge il calore e non lasciarlo fumare.",
+        nl: 'Het is niet verplicht, maar een beetje olie helpt vers eten te bruinen en niet uit te drogen. Een paar keer sprayen of een theelepel is meestal genoeg. Kies een geraffineerde olie die tegen hitte kan en laat hem niet roken.',
       },
     },
     {
@@ -773,30 +709,30 @@ export const article: BlogArticle = {
         nl: 'Hoeveel calorieën bespaar je met een airfryer?',
       },
       answer: {
-        fr: 'En moyenne, l\'airfryer permet d\'économiser 100 à 200 calories par portion selon l\'aliment. Des frites passent de 312 à 180 kcal pour 100 g, un poulet pané de 280 à 190 kcal. Sur une année complète, en utilisant l\'airfryer quotidiennement, cela peut représenter une réduction calorique très significative.',
-        en: 'On average, air frying saves 100 to 200 calories per serving depending on the food. Fries go from 312 to 180 kcal per 100 g, breaded chicken from 280 to 190 kcal. Over a full year of daily use, this can represent a very significant calorie reduction without sacrificing taste or enjoyment.',
-        de: 'Im Durchschnitt spart die Heißluftfritteuse 100 bis 200 Kalorien pro Portion. Pommes sinken von 312 auf 180 kcal pro 100 g, paniertes Hähnchen von 280 auf 190 kcal. Über ein ganzes Jahr täglicher Nutzung kann dies eine sehr erhebliche Kalorienreduktion ohne Geschmacksverlust bedeuten.',
-        es: 'En promedio, la freidora de aire ahorra de 100 a 200 calorías por ración. Las patatas pasan de 312 a 180 kcal por 100 g, el pollo empanado de 280 a 190 kcal. A lo largo de un año de uso diario, esto puede representar una reducción calórica muy significativa sin sacrificar el sabor.',
-        it: 'In media, la friggitrice ad aria fa risparmiare da 100 a 200 calorie per porzione. Le patatine passano da 312 a 180 kcal per 100 g, il pollo impanato da 280 a 190 kcal. In un anno intero di uso quotidiano, questo può rappresentare una riduzione calorica molto significativa senza rinunciare al gusto.',
-        nl: 'Gemiddeld bespaart de airfryer 100 tot 200 calorieën per portie. Frietjes gaan van 312 naar 180 kcal per 100 g, gepaneerde kip van 280 naar 190 kcal. Over een heel jaar dagelijks gebruik kan dit een zeer aanzienlijke calorische reductie opleveren zonder smaak op te offeren.',
+        fr: "Il n'existe pas de chiffre unique : tout dépend de l'aliment et de la quantité d'huile qu'il aurait absorbée en friture. Le levier principal est l'huile ajoutée, sachant qu'une cuillère à soupe apporte environ 120 kcal. Pour un objectif de poids précis, demandez conseil à un professionnel de santé.",
+        en: 'There is no single figure: it depends on the food and how much oil it would have absorbed in a deep fryer. The main lever is added oil, and one tablespoon provides around 120 kcal. For a specific weight goal, ask a health professional for advice.',
+        de: 'Eine feste Zahl gibt es nicht: Es hängt vom Lebensmittel ab und davon, wie viel Öl es beim Frittieren aufgenommen hätte. Der wichtigste Hebel ist das zugegebene Öl, ein Esslöffel liefert rund 120 kcal. Bei einem konkreten Gewichtsziel lassen Sie sich fachlich beraten.',
+        es: 'No hay una cifra única: depende del alimento y de cuánto aceite habría absorbido al freírse. La palanca principal es el aceite añadido, y una cucharada sopera aporta unas 120 kcal. Si tienes un objetivo de peso concreto, consulta a un profesional sanitario.',
+        it: "Non esiste un numero unico: dipende dall'alimento e da quanto olio avrebbe assorbito con la frittura. La leva principale è l'olio aggiunto, e un cucchiaio apporta circa 120 kcal. Per un obiettivo di peso preciso, chiedi consiglio a un professionista sanitario.",
+        nl: 'Er is geen vast getal: het hangt af van het product en hoeveel olie het bij frituren zou hebben opgenomen. De belangrijkste factor is toegevoegde olie, en een eetlepel levert ongeveer 120 kcal. Heb je een concreet gewichtsdoel, vraag dan advies aan een zorgverlener.',
       },
     },
     {
       question: {
-        fr: 'L\'airfryer préserve-t-il les nutriments des aliments ?',
-        en: 'Does an air fryer preserve nutrients in food?',
-        de: 'Erhält die Heißluftfritteuse die Nährstoffe in Lebensmitteln?',
+        fr: "L'airfryer préserve-t-il les nutriments des aliments ?",
+        en: 'Does an air fryer preserve the nutrients in food?',
+        de: 'Erhält die Heißluftfritteuse die Nährstoffe der Lebensmittel?',
         es: '¿La freidora de aire conserva los nutrientes de los alimentos?',
         it: 'La friggitrice ad aria preserva i nutrienti degli alimenti?',
-        nl: 'Behoudt de airfryer de voedingsstoffen in voedsel?',
+        nl: 'Behoudt de airfryer de voedingsstoffen in het eten?',
       },
       answer: {
-        fr: 'Oui, l\'airfryer préserve mieux les nutriments que la friture ou la cuisson à l\'eau bouillante. La cuisson rapide à l\'air chaud limite la dégradation des vitamines sensibles à la chaleur. Les vitamines C et B sont mieux conservées qu\'en friture. Les antioxydants des légumes sont préservés à 85-90 %.',
-        en: 'Yes, air frying preserves nutrients better than deep frying or boiling. The rapid hot air cooking limits degradation of heat-sensitive vitamins. Vitamins C and B are better retained than in deep frying. Vegetable antioxidants are preserved at 85-90 percent, much higher than with boiling water.',
-        de: 'Ja, die Heißluftfritteuse bewahrt Nährstoffe besser als Frittieren oder Kochen in Wasser. Das schnelle Garen mit heißer Luft begrenzt den Abbau hitzeempfindlicher Vitamine. Vitamin C und B werden besser erhalten als beim Frittieren. Gemüse-Antioxidantien bleiben zu 85-90 Prozent erhalten.',
-        es: 'Sí, la freidora de aire conserva mejor los nutrientes que la fritura o la cocción en agua. La cocción rápida con aire caliente limita la degradación de vitaminas sensibles al calor. Las vitaminas C y B se conservan mejor que en fritura. Los antioxidantes de las verduras se preservan al 85-90 %.',
-        it: 'Sì, la friggitrice ad aria preserva meglio i nutrienti rispetto alla frittura o alla bollitura. La cottura rapida ad aria calda limita la degradazione delle vitamine sensibili al calore. Le vitamine C e B sono meglio conservate. Gli antiossidanti delle verdure sono preservati all\'85-90 percento.',
-        nl: 'Ja, de airfryer behoudt voedingsstoffen beter dan frituren of koken in water. Het snelle koken met hete lucht beperkt de afbraak van hittegevoelige vitaminen. Vitamine C en B worden beter behouden dan bij frituren. Antioxidanten in groenten worden voor 85-90 procent bewaard.',
+        fr: "Comme le four ou la vapeur, l'airfryer évite que les vitamines hydrosolubles passent dans l'eau de cuisson, ce qui arrive quand on fait bouillir des légumes. Sa cuisson souvent courte limite aussi l'exposition à la chaleur. Les résultats varient toutefois selon les aliments : évitez simplement de trop cuire.",
+        en: 'Like an oven or a steamer, an air fryer stops water-soluble vitamins leaching into cooking water, which happens when vegetables are boiled. Its often short cooking time also limits heat exposure. Results vary from food to food, so simply avoid overcooking.',
+        de: 'Wie Backofen oder Dampfgarer verhindert die Heißluftfritteuse, dass wasserlösliche Vitamine ins Kochwasser übergehen, wie es beim Kochen von Gemüse passiert. Die oft kurze Garzeit begrenzt zudem die Hitzeeinwirkung. Die Ergebnisse variieren je nach Lebensmittel: Vermeiden Sie einfach zu langes Garen.',
+        es: 'Como el horno o el vapor, la freidora de aire evita que las vitaminas hidrosolubles pasen al agua de cocción, algo que ocurre al hervir verduras. Su cocción, a menudo corta, también limita la exposición al calor. Los resultados varían según el alimento: simplemente evita cocinar de más.',
+        it: "Come il forno o il vapore, la friggitrice ad aria evita che le vitamine idrosolubili passino nell'acqua di cottura, come succede lessando le verdure. La cottura spesso breve limita anche l'esposizione al calore. I risultati variano però da alimento ad alimento: evita semplicemente di cuocere troppo.",
+        nl: 'Net als de oven of het stomen voorkomt de airfryer dat wateroplosbare vitamines in kookwater terechtkomen, wat gebeurt als je groenten kookt. De vaak korte bereidingstijd beperkt ook de blootstelling aan hitte. De resultaten verschillen per product: vermijd vooral te lang garen.',
       },
     },
     {
@@ -809,12 +745,12 @@ export const article: BlogArticle = {
         nl: 'Wat zijn de beste voedingsmiddelen om gezond te koken in de airfryer?',
       },
       answer: {
-        fr: 'Les légumes (brocoli, courgettes, poivrons, chou-fleur) sont excellents grillés à l\'airfryer. Le poulet et le poisson blancs cuisent parfaitement avec un minimum d\'huile. Les patates douces offrent un substitut sain aux frites classiques. Évitez les aliments déjà frits surgelés qui restent caloriques.',
-        en: 'Vegetables like broccoli, zucchini, peppers, and cauliflower are excellent grilled in the air fryer. Chicken and white fish cook perfectly with minimal oil. Sweet potatoes offer a healthy substitute for classic fries. Avoid pre-fried frozen foods, which remain calorie-dense despite air frying.',
-        de: 'Gemüse wie Brokkoli, Zucchini, Paprika und Blumenkohl sind hervorragend gegrillt in der Heißluftfritteuse. Hähnchen und weißer Fisch garen perfekt mit minimalem Öl. Süßkartoffeln sind ein gesunder Ersatz für klassische Pommes. Meiden Sie vorfrittierte Tiefkühlkost, die trotzdem kalorienreich bleibt.',
-        es: 'Las verduras como brócoli, calabacín, pimientos y coliflor quedan excelentes a la parrilla en la freidora. El pollo y el pescado blanco se cocinan perfectamente con mínimo aceite. El boniato ofrece un sustituto sano de las patatas clásicas. Evita los alimentos prefritos congelados que siguen siendo calóricos.',
-        it: 'Le verdure come broccoli, zucchine, peperoni e cavolfiore sono eccellenti grigliate nella friggitrice. Il pollo e il pesce bianco cuociono perfettamente con poco olio. Le patate dolci sono un sostituto sano delle classiche patatine. Evita i cibi surgelati pre-fritti che restano calorici.',
-        nl: 'Groenten zoals broccoli, courgette, paprika en bloemkool zijn uitstekend gegrild in de airfryer. Kip en witte vis worden perfect gaar met minimale olie. Zoete aardappelen zijn een gezond alternatief voor klassieke frietjes. Vermijd voorgefrituurde diepvriesproducten die calorierijk blijven.',
+        fr: "Les légumes (brocoli, courgettes, poivrons, chou-fleur), le poulet, le poisson, le tofu et les pois chiches se prêtent très bien à l'airfryer avec un minimum d'huile. La patate douce fait d'excellentes frites. Limitez les produits surgelés pré-frits, qui restent riches en matières grasses.",
+        en: 'Vegetables (broccoli, courgettes, peppers, cauliflower), chicken, fish, tofu and chickpeas all work very well with minimal oil. Sweet potato makes excellent chips. Limit pre-fried frozen products, which stay high in fat.',
+        de: 'Gemüse (Brokkoli, Zucchini, Paprika, Blumenkohl), Hähnchen, Fisch, Tofu und Kichererbsen gelingen mit wenig Öl sehr gut. Süßkartoffeln ergeben hervorragende Pommes. Vorfrittierte Tiefkühlware sollten Sie einschränken, sie bleibt fettreich.',
+        es: 'Las verduras (brócoli, calabacín, pimientos, coliflor), el pollo, el pescado, el tofu y los garbanzos quedan muy bien con un mínimo de aceite. El boniato da unos bastones excelentes. Limita los congelados prefritos, que siguen siendo ricos en grasa.',
+        it: 'Verdure (broccoli, zucchine, peperoni, cavolfiore), pollo, pesce, tofu e ceci riescono molto bene con pochissimo olio. La patata dolce dà ottimi bastoncini. Limita i surgelati prefritti, che restano ricchi di grassi.',
+        nl: 'Groenten (broccoli, courgette, paprika, bloemkool), kip, vis, tofu en kikkererwten lukken heel goed met minimale olie. Zoete aardappel geeft uitstekende friet. Beperk voorgebakken diepvriesproducten, want die blijven vetrijk.',
       },
     },
   ],

@@ -30,17 +30,17 @@ const PRODUCT_PATTERNS: ProductLink[] = [
   },
   {
     pattern: /Xiaomi Smart Air Fryer Pro|Xiaomi.*4\s*L/i,
-    asin: 'B0D8WHQMHT',
+    asin: 'B0BQNDGJRV',
     name: { fr: 'Xiaomi Smart Air Fryer Pro 4L', en: 'Xiaomi Smart Air Fryer Pro 4L', de: 'Xiaomi Smart Air Fryer Pro 4L', es: 'Xiaomi Smart Air Fryer Pro 4L', it: 'Xiaomi Smart Air Fryer Pro 4L', nl: 'Xiaomi Smart Air Fryer Pro 4L' },
   },
   {
     pattern: /Philips.*Combi.*XXL|Philips.*8[,.]3\s*L/i,
-    asin: 'B0BKJNM9VG',
+    asin: 'B0D67569TZ',
     name: { fr: 'Philips Combi XXL Connected 8,3L', en: 'Philips Combi XXL Connected 8.3L', de: 'Philips Combi XXL Connected 8,3L', es: 'Philips Combi XXL Connected 8,3L', it: 'Philips Combi XXL Connected 8,3L', nl: 'Philips Combi XXL Connected 8,3L' },
   },
   {
     pattern: /Moulinex Easy Fry Max|Moulinex.*5\s*L/i,
-    asin: 'B0C8HZ5CSN',
+    asin: 'B0CG6C26QW',
     name: { fr: 'Moulinex Easy Fry Max 5L', en: 'Moulinex Easy Fry Max 5L', de: 'Moulinex Easy Fry Max 5L', es: 'Moulinex Easy Fry Max 5L', it: 'Moulinex Easy Fry Max 5L', nl: 'Moulinex Easy Fry Max 5L' },
   },
 ]
