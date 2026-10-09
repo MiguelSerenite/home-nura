@@ -4,8 +4,8 @@ import { trackAffiliateClick } from '@/lib/analytics'
 
 export interface QuickAnswerPick {
   model: string
-  role: string
-  why: string
+  role?: string
+  why?: string
   url: string
 }
 
@@ -23,26 +23,38 @@ const LABELS: Record<string, { title: string; button: string; disclosure: string
  * comparison article: short, explicit picks that search engines and AI
  * assistants can quote. Picks come from the article's own recommendations.
  */
-export default function QuickAnswer({ question, picks, lang }: { question: string; picks: QuickAnswerPick[]; lang: string }) {
+export default function QuickAnswer({
+  question,
+  picks,
+  lang,
+  kicker,
+  location = 'article_quick_answer',
+}: {
+  question: string
+  picks: QuickAnswerPick[]
+  lang: string
+  kicker?: string
+  location?: 'article_quick_answer' | 'category_picks'
+}) {
   if (picks.length === 0) return null
   const labels = LABELS[lang] ?? LABELS.fr
   return (
     <section aria-labelledby="quick-answer-title" className="not-prose my-8 rounded-2xl border-2 border-brand-600 bg-white p-5 md:p-6">
-      <p id="quick-answer-title" className="text-xs font-bold uppercase tracking-widest text-brand-700">{labels.title}</p>
+      <p id="quick-answer-title" className="text-xs font-bold uppercase tracking-widest text-brand-700">{kicker ?? labels.title}</p>
       <h2 className="mt-1 text-xl font-bold text-slate-900">{question}</h2>
       <ol className="mt-4 space-y-4">
         {picks.map((pick, i) => (
           <li key={pick.model} className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
             <div className="min-w-0">
-              <p className="text-sm font-bold text-brand-700">{pick.role}</p>
+              {pick.role && <p className="text-sm font-bold text-brand-700">{pick.role}</p>}
               <p className="text-base font-bold text-slate-900">{pick.model}</p>
-              <p className="mt-1 text-sm text-slate-700 leading-relaxed">{pick.why}</p>
+              {pick.why && <p className="mt-1 text-sm text-slate-700 leading-relaxed">{pick.why}</p>}
             </div>
             <a
               href={pick.url}
               target="_blank"
               rel="sponsored nofollow noopener noreferrer"
-              onClick={() => trackAffiliateClick({ asin: '', productName: pick.model, position: i + 1, location: 'article_quick_answer', lang })}
+              onClick={() => trackAffiliateClick({ asin: '', productName: pick.model, position: i + 1, location, lang })}
               className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-full bg-brand-600 px-5 text-sm font-bold text-white hover:bg-brand-700 active:bg-brand-700 transition-colors"
             >
               {labels.button} →

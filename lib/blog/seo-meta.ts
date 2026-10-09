@@ -416,7 +416,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
   },
   "ninja-vs-philips-quel-choisir": {
     fr: { title: "Ninja vs Philips : quel airfryer choisir en 2026 ?", description: "Ninja ou Philips ? Les deux leaders du marché de l'airfryer comparés en détail : gammes, performances, prix, qualité de fabrication et service après-vente." },
-    en: { title: "Ninja vs Philips Air Fryer: Which to Choose in 2026?", description: "Ninja or Philips? The two air fryer market leaders compared on ranges, performance, price, build quality and support, to help you choose in 2026." },
+    en: { title: "Ninja vs Philips Air Fryer: Which Is Better in 2026?", description: "Ninja vs Philips air fryer: our verdict. Ninja FlexDrawer for capacity, Ninja Dual Zone for families, Philips Combi XXL for tech lovers. Full comparison." },
     de: { title: "Ninja vs Philips Heißluftfritteuse: Welche 2026 wählen?", description: "Ninja oder Philips? Die beiden Marktführer bei Heißluftfritteusen 2026 im Vergleich: Sortiment, Leistung, Preis und Verarbeitung für Ihre Entscheidung." },
     es: { title: "Ninja vs Philips: qué freidora de aire elegir en 2026", description: "Ninja o Philips: los dos líderes del mercado de freidoras de aire frente a frente. Comparamos gamas, rendimiento, precio, calidad y servicio posventa." },
     it: { title: "Ninja o Philips: quale friggitrice ad aria nel 2026", description: "Ninja o Philips? Confronto tra i due leader delle friggitrici ad aria nel 2026: gamme, prestazioni, prezzo, qualità costruttiva e assistenza." },
