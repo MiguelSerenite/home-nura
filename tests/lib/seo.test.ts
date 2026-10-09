@@ -350,9 +350,9 @@ describe('buildArticleSchema', () => {
 describe('formatLastUpdated', () => {
   it('formats the site-wide default date in French', () => {
     const out = formatLastUpdated('fr')
-    // "14 avril 2026" — format may vary by ICU version; check for year + month substring
+    // "9 octobre 2026" — format may vary by ICU version; check for year + month substring
     expect(out).toMatch(/2026/)
-    expect(out.toLowerCase()).toMatch(/avril/)
+    expect(out.toLowerCase()).toMatch(/octobre/)
   })
 
   it('formats in English with British locale', () => {

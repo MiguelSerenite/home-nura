@@ -3069,6 +3069,765 @@ export const QUICK_ANSWERS: Record<string, QuickAnswerData> = {
         }
       }
     ]
+  },
+  "centrale-vapeur-comparatif": {
+    "question": {
+      "fr": "Quelle est la meilleure centrale vapeur en 2026 ?",
+      "en": "What is the best steam generator iron in 2026?",
+      "de": "Was ist die beste Dampfbügelstation 2026?",
+      "es": "¿Cuál es el mejor centro de planchado en 2026?",
+      "it": "Qual è il miglior ferro con caldaia nel 2026?",
+      "nl": "Wat is de beste stoomgenerator in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Philips PerfectCare 8000 Series PSG8160/30",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Insgesamt die beste Wahl",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta assoluta",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "8,5 bars, 170 g/min de vapeur continue, réservoir de 1,8 L et OptimalTEMP : aucune température à régler.",
+          "en": "8.5 bar, 170 g/min continuous steam, a 1.8 L tank and OptimalTEMP: no temperature to set.",
+          "de": "8,5 bar, 170 g/min Dauerdampf, 1,8-l-Tank und OptimalTEMP: keine Temperatur einzustellen.",
+          "es": "8,5 bares, 170 g/min de vapor continuo, depósito de 1,8 l y OptimalTEMP: sin ajustar temperatura.",
+          "it": "8,5 bar, 170 g/min di vapore continuo, serbatoio da 1,8 l e OptimalTEMP: nessuna temperatura da regolare.",
+          "nl": "8,5 bar, 170 g/min continue stoom, tank van 1,8 l en OptimalTEMP: geen temperatuur instellen."
+        }
+      },
+      {
+        "model": "Philips PerfectCare 7000 Series PSG7130/20",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "8 bars, 120 g/min, réservoir de 1,8 L, OptimalTEMP et arrêt automatique après 10 minutes.",
+          "en": "8 bar, 120 g/min, a 1.8 L tank, OptimalTEMP and auto shut-off after 10 minutes.",
+          "de": "8 bar, 120 g/min, 1,8-l-Tank, OptimalTEMP und Abschaltautomatik nach 10 Minuten.",
+          "es": "8 bares, 120 g/min, depósito de 1,8 l, OptimalTEMP y apagado automático a los 10 minutos.",
+          "it": "8 bar, 120 g/min, serbatoio da 1,8 l, OptimalTEMP e spegnimento automatico dopo 10 minuti.",
+          "nl": "8 bar, 120 g/min, tank van 1,8 l, OptimalTEMP en automatische uitschakeling na 10 minuten."
+        }
+      },
+      {
+        "model": "Laurastar Smart U",
+        "role": {
+          "fr": "Le seul vraiment connecté",
+          "en": "The only truly connected one",
+          "de": "Die einzige wirklich vernetzte",
+          "es": "El único realmente conectado",
+          "it": "L'unico davvero connesso",
+          "nl": "De enige echt verbonden"
+        },
+        "why": {
+          "fr": "Centre de repassage avec table active et application Bluetooth de tutoriels, pour une finition premium.",
+          "en": "Ironing system with an active board and a Bluetooth tutorial app, for a premium finish.",
+          "de": "Bügelsystem mit aktivem Bügeltisch und Bluetooth-App mit Anleitungen für ein Premium-Finish.",
+          "es": "Sistema de planchado con tabla activa y aplicación Bluetooth de tutoriales, para un acabado premium.",
+          "it": "Sistema da stiro con asse attivo e app Bluetooth di tutorial, per una finitura premium.",
+          "nl": "Strijksysteem met actieve plank en Bluetooth-app met tutorials, voor een premium afwerking."
+        }
+      }
+    ]
+  },
+  "reveil-lumiere-simulateur-aube-comparatif": {
+    "question": {
+      "fr": "Quel est le meilleur réveil lumière en 2026 ?",
+      "en": "What is the best wake-up light in 2026?",
+      "de": "Welcher ist der beste Lichtwecker 2026?",
+      "es": "¿Cuál es el mejor despertador de luz en 2026?",
+      "it": "Qual è la migliore sveglia luminosa nel 2026?",
+      "nl": "Wat is het beste wake-up light in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Philips SmartSleep Sleep & Wake-up Light HF3650/01",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Scelta migliore in assoluto",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Aube colorée jusqu'à 310 lux, coucher de soleil, respiration guidée RelaxBreathe, 10 sons et radio FM.",
+          "en": "Coloured sunrise up to 310 lux, sunset mode, RelaxBreathe guided breathing, 10 sounds and FM radio.",
+          "de": "Farbiger Sonnenaufgang bis 310 Lux, Sonnenuntergang, geführte Atmung RelaxBreathe, 10 Klänge und UKW-Radio.",
+          "es": "Amanecer de colores hasta 310 lux, atardecer, respiración guiada RelaxBreathe, 10 sonidos y radio FM.",
+          "it": "Alba colorata fino a 310 lux, tramonto, respirazione guidata RelaxBreathe, 10 suoni e radio FM.",
+          "nl": "Gekleurde zonsopgang tot 310 lux, zonsondergang, begeleide ademhaling RelaxBreathe, 10 geluiden en fm-radio."
+        }
+      },
+      {
+        "model": "Philips Wake-up Light HF3520/01",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "L'essentiel du HF3650 : aube colorée de 20 à 40 minutes, 300 lux, coucher de soleil, 5 sons et radio FM.",
+          "en": "The essentials of the HF3650: 20 to 40 minute coloured sunrise, 300 lux, sunset mode, 5 sounds and FM radio.",
+          "de": "Das Wesentliche des HF3650: farbiger Sonnenaufgang von 20 bis 40 Minuten, 300 Lux, Sonnenuntergang, 5 Klänge, UKW.",
+          "es": "Lo esencial del HF3650: amanecer de colores de 20 a 40 minutos, 300 lux, atardecer, 5 sonidos y radio FM.",
+          "it": "L'essenziale della HF3650: alba colorata da 20 a 40 minuti, 300 lux, tramonto, 5 suoni e radio FM.",
+          "nl": "De kern van de HF3650: gekleurde zonsopgang van 20 tot 40 minuten, 300 lux, zonsondergang, 5 geluiden en fm-radio."
+        }
+      },
+      {
+        "model": "Lumie Bodyclock Shine 300",
+        "role": {
+          "fr": "Idéal pour les réveils difficiles",
+          "en": "Best for hard risers",
+          "de": "Ideal für Morgenmuffel",
+          "es": "Ideal si le cuesta despertarse",
+          "it": "Ideale per chi fatica a svegliarsi",
+          "nl": "Ideaal voor moeilijke opstaanders"
+        },
+        "why": {
+          "fr": "Aube et crépuscule réglables de 15 à 90 minutes, 15 sons, radio FM et écran à atténuation automatique.",
+          "en": "Sunrise and sunset adjustable from 15 to 90 minutes, 15 sounds, FM radio and an auto-dimming display.",
+          "de": "Sonnenauf- und -untergang von 15 bis 90 Minuten einstellbar, 15 Klänge, UKW-Radio und selbstdimmendes Display.",
+          "es": "Amanecer y atardecer ajustables de 15 a 90 minutos, 15 sonidos, radio FM y pantalla con atenuación automática.",
+          "it": "Alba e tramonto regolabili da 15 a 90 minuti, 15 suoni, radio FM e display ad attenuazione automatica.",
+          "nl": "Zonsopgang en zonsondergang instelbaar van 15 tot 90 minuten, 15 geluiden, fm-radio en automatisch dimmend display."
+        }
+      }
+    ]
+  },
+  "robot-lave-vitre-comparatif": {
+    "question": {
+      "fr": "Quel est le meilleur robot lave-vitre en 2026 ?",
+      "en": "What is the best window cleaning robot in 2026?",
+      "de": "Welcher ist der beste Fensterputzroboter 2026?",
+      "es": "¿Cuál es el mejor robot limpiacristales en 2026?",
+      "it": "Qual è il miglior robot lavavetri nel 2026?",
+      "nl": "Wat is de beste raamwasrobot in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Ecovacs Winbot W2 Omni",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta assoluta",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Station-batterie portable, câble de sécurité auto-enroulé, pulvérisation à trois buses et détection des bords pour vitres sans cadre.",
+          "en": "Portable battery station, self-winding safety cable, three-nozzle spraying and edge detection for frameless glass.",
+          "de": "Tragbare Akku-Station, selbst aufrollendes Sicherheitskabel, Sprühsystem mit drei Düsen und Kantenerkennung für rahmenloses Glas.",
+          "es": "Estación portátil con batería, cable de seguridad que se recoge solo, pulverización de tres boquillas y detección de bordes sin marco.",
+          "it": "Stazione portatile con batteria, cavo di sicurezza autoavvolgente, spruzzo a tre ugelli e rilevamento dei bordi per vetri senza telaio.",
+          "nl": "Draagbaar accustation, zelfoprollende veiligheidskabel, sproeien met drie sproeiers en randdetectie voor kaderloos glas."
+        }
+      },
+      {
+        "model": "Cecotec Conga WinDroid 1090 Double Spray Connected",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Double spray, 8 modes, application et télécommande, corde de sécurité et batterie d’environ 30 minutes en cas de coupure.",
+          "en": "Double spray, 8 modes, app and remote control, safety cord and a roughly 30-minute battery in case of a power cut.",
+          "de": "Double Spray, 8 Modi, App und Fernbedienung, Sicherheitsseil und rund 30 Minuten Akku bei Stromausfall.",
+          "es": "Doble spray, 8 modos, app y mando, cuerda de seguridad y batería de unos 30 minutos ante un corte de corriente.",
+          "it": "Doppio spruzzo, 8 modalità, app e telecomando, corda di sicurezza e batteria da circa 30 minuti in caso di blackout.",
+          "nl": "Dubbel sproeien, 8 modi, app en afstandsbediening, veiligheidskoord en circa 30 minuten accu bij stroomuitval."
+        }
+      },
+      {
+        "model": "Hobot 2S",
+        "role": {
+          "fr": "Idéal vitres sans cadre",
+          "en": "Best for frameless glass",
+          "de": "Ideal für rahmenloses Glas",
+          "es": "Ideal para cristales sin marco",
+          "it": "Ideale per vetri senza telaio",
+          "nl": "Ideaal voor kaderloos glas"
+        },
+        "why": {
+          "fr": "Compact et léger, deux buses à ultrasons, capteur de bords, corde de 4,5 m et batterie de secours jusqu’à 20 minutes.",
+          "en": "Compact and light, two ultrasonic nozzles, edge sensor, 4.5 m rope and a backup battery lasting up to 20 minutes.",
+          "de": "Kompakt und leicht, zwei Ultraschalldüsen, Kantensensor, 4,5-m-Seil und Notstrom-Akku für bis zu 20 Minuten.",
+          "es": "Compacto y ligero, dos boquillas ultrasónicas, sensor de bordes, cuerda de 4,5 m y batería de emergencia de hasta 20 minutos.",
+          "it": "Compatto e leggero, due ugelli a ultrasuoni, sensore dei bordi, corda da 4,5 m e batteria di emergenza fino a 20 minuti.",
+          "nl": "Compact en licht, twee ultrasone sproeiers, randsensor, koord van 4,5 m en noodaccu tot 20 minuten."
+        }
+      }
+    ]
+  },
+  "borne-recharge-voiture-electrique-maison": {
+    "question": {
+      "fr": "Quelle est la meilleure borne de recharge pour la maison en 2026 ?",
+      "en": "What is the best home EV charger in 2026?",
+      "de": "Was ist die beste Wallbox für zu Hause 2026?",
+      "es": "¿Cuál es el mejor cargador de coche eléctrico para casa en 2026?",
+      "it": "Qual è la migliore wallbox per casa nel 2026?",
+      "nl": "Wat is de beste laadpaal voor thuis in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Wallbox Pulsar Max",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Compacte, en 7,4, 11 ou 22 kW, Wi-Fi, Bluetooth et OCPP, avec équilibrage de charge et recharge solaire via son compteur dédié.",
+          "en": "Compact, in 7.4, 11 or 22 kW, with Wi-Fi, Bluetooth and OCPP, plus load balancing and solar charging via its dedicated meter.",
+          "de": "Kompakt, mit 7,4, 11 oder 22 kW, WLAN, Bluetooth und OCPP, dazu Lastmanagement und PV-Überschussladen über den eigenen Zähler.",
+          "es": "Compacto, en 7,4, 11 o 22 kW, con Wi-Fi, Bluetooth y OCPP, además de balanceo de carga y carga solar con su medidor dedicado.",
+          "it": "Compatta, da 7,4, 11 o 22 kW, con Wi-Fi, Bluetooth e OCPP, più bilanciamento dei carichi e ricarica solare con il suo contatore.",
+          "nl": "Compact, in 7,4, 11 of 22 kW, met wifi, Bluetooth en OCPP, plus load balancing en laden op zonne-overschot via de eigen meter."
+        }
+      },
+      {
+        "model": "Easee Charge Lite",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "Jusqu’à 11 kW avec lecteur RFID, Wi-Fi, 4G intégrée et OCPP ; équilibrage et solaire possibles avec l’Easee Equalizer.",
+          "en": "Up to 11 kW with an RFID reader, Wi-Fi, built-in 4G and OCPP; load balancing and solar charging with the Easee Equalizer.",
+          "de": "Bis 11 kW mit RFID-Leser, WLAN, integriertem 4G und OCPP; Lastmanagement und Solarladen mit dem Easee Equalizer.",
+          "es": "Hasta 11 kW con lector RFID, Wi-Fi, 4G integrado y OCPP; balanceo de carga y carga solar con el Easee Equalizer.",
+          "it": "Fino a 11 kW con lettore RFID, Wi-Fi, 4G integrato e OCPP; bilanciamento e ricarica solare con l’Easee Equalizer.",
+          "nl": "Tot 11 kW met RFID-lezer, wifi, ingebouwde 4G en OCPP; load balancing en zonneladen met de Easee Equalizer."
+        }
+      },
+      {
+        "model": "Zaptec Go 2",
+        "role": {
+          "fr": "Idéale en 22 kW avec compteur MID",
+          "en": "Best for 22 kW with MID meter",
+          "de": "Ideal für 22 kW mit MID-Zähler",
+          "es": "Ideal para 22 kW con contador MID",
+          "it": "Ideale per 22 kW con contatore MID",
+          "nl": "Ideaal voor 22 kW met MID-meter"
+        },
+        "why": {
+          "fr": "Jusqu’à 22 kW dans un boîtier mini, avec écran, RFID, 4G, OCPP et compteur certifié MID pour un remboursement employeur.",
+          "en": "Up to 22 kW in a tiny housing, with display, RFID, 4G, OCPP and an MID-certified meter for employer reimbursement.",
+          "de": "Bis 22 kW im Mini-Gehäuse, mit Display, RFID, 4G, OCPP und MID-geeichtem Zähler für die Dienstwagenabrechnung.",
+          "es": "Hasta 22 kW en una carcasa mínima, con pantalla, RFID, 4G, OCPP y contador con certificación MID para el reembolso de la empresa.",
+          "it": "Fino a 22 kW in un corpo minuscolo, con display, RFID, 4G, OCPP e contatore certificato MID per il rimborso aziendale.",
+          "nl": "Tot 22 kW in een mini-behuizing, met display, RFID, 4G, OCPP en een MID-gecertificeerde meter voor vergoeding door de werkgever."
+        }
+      }
+    ]
+  },
+  "traceur-objets-connecte-comparatif": {
+    "question": {
+      "fr": "Quel est le meilleur traceur d’objets en 2026 ?",
+      "en": "What is the best item tracker in 2026?",
+      "de": "Welcher Bluetooth-Tracker ist 2026 der beste?",
+      "es": "¿Cuál es el mejor localizador de objetos en 2026?",
+      "it": "Qual è il miglior localizzatore di oggetti nel 2026?",
+      "nl": "Wat is de beste tracker voor spullen in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Apple AirTag (2nd generation)",
+        "role": {
+          "fr": "Meilleur choix global (iPhone)",
+          "en": "Best overall (iPhone)",
+          "de": "Beste Wahl insgesamt (iPhone)",
+          "es": "Mejor opción global (iPhone)",
+          "it": "Miglior scelta assoluta (iPhone)",
+          "nl": "Beste keuze overall (iPhone)"
+        },
+        "why": {
+          "fr": "Réseau Apple Localiser très dense, recherche de précision UWB jusqu’à 50 % plus loin, haut-parleur plus fort, pile CR2032 remplaçable et IP67.",
+          "en": "Very dense Apple Find My network, UWB Precision Finding up to 50% farther, louder speaker, replaceable CR2032 battery and IP67.",
+          "de": "Sehr dichtes „Wo ist?“-Netzwerk, UWB-Präzisionssuche bis zu 50 % weiter, lauterer Lautsprecher, austauschbare CR2032 und IP67.",
+          "es": "Red Apple Buscar muy densa, búsqueda precisa UWB hasta un 50 % más lejos, altavoz más potente, pila CR2032 reemplazable e IP67.",
+          "it": "Rete Apple Dov’è molto densa, ricerca di precisione UWB fino al 50 % più lontano, altoparlante più forte, pila CR2032 sostituibile e IP67.",
+          "nl": "Zeer dicht Apple Zoek mijn-netwerk, UWB-precisiezoeken tot 50% verder, luidere speaker, vervangbare CR2032-batterij en IP67."
+        }
+      },
+      {
+        "model": "Chipolo POP",
+        "role": {
+          "fr": "Meilleur pour Android et foyers mixtes",
+          "en": "Best for Android and mixed households",
+          "de": "Beste Wahl für Android und gemischte Haushalte",
+          "es": "Mejor para Android y hogares mixtos",
+          "it": "Migliore per Android e famiglie miste",
+          "nl": "Beste voor Android en gemengde gezinnen"
+        },
+        "why": {
+          "fr": "Compatible Apple Localiser ou Google Find Hub, sonnerie d’environ 120 dB parmi les plus fortes, pile remplaçable et fabrication européenne.",
+          "en": "Works with Apple Find My or Google Find Hub, a ringer of around 120 dB among the loudest, replaceable battery and made in Europe.",
+          "de": "Kompatibel mit Apple „Wo ist?“ oder Google Find Hub, Signalton mit rund 120 dB, austauschbare Batterie, in Europa gefertigt.",
+          "es": "Compatible con Apple Buscar o Google Find Hub, timbre de unos 120 dB de los más potentes, pila reemplazable y fabricado en Europa.",
+          "it": "Compatibile con Apple Dov’è o Google Find Hub, suoneria da circa 120 dB tra le più forti, pila sostituibile e prodotto in Europa.",
+          "nl": "Werkt met Apple Zoek mijn of Google Find Hub, signaal van ongeveer 120 dB bij de luidste, vervangbare batterij en gemaakt in Europa."
+        }
+      },
+      {
+        "model": "Ugreen FineTrack Duo",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Entrée de gamme compatible Apple ou Google, rechargeable en USB‑C jusqu’à 12 mois, IP68, souvent vendu en lots pour toute la famille.",
+          "en": "Entry-level tracker for Apple or Google, USB‑C rechargeable for up to 12 months, IP68, often sold in multi-packs for the whole family.",
+          "de": "Einsteiger-Tracker für Apple oder Google, per USB‑C aufladbar mit bis zu 12 Monaten Laufzeit, IP68, oft im Mehrfachpack erhältlich.",
+          "es": "Gama de entrada para Apple o Google, recargable por USB‑C con hasta 12 meses de autonomía, IP68 y a menudo en packs familiares.",
+          "it": "Entry level per Apple o Google, ricaricabile via USB‑C fino a 12 mesi, IP68, spesso venduto in confezioni multiple per la famiglia.",
+          "nl": "Instapmodel voor Apple of Google, via USB‑C oplaadbaar tot 12 maanden, IP68, vaak verkocht in multipacks voor het hele gezin."
+        }
+      }
+    ]
+  },
+  "lave-vaisselle-connecte-guide": {
+    "question": {
+      "fr": "Quel est le meilleur lave-vaisselle connecté en 2026 ?",
+      "en": "What is the best smart dishwasher in 2026?",
+      "de": "Welcher ist der beste smarte Geschirrspüler 2026?",
+      "es": "¿Cuál es el mejor lavavajillas de 2026?",
+      "it": "Qual è la miglior lavastoviglie del 2026?",
+      "nl": "Wat is de beste slimme vaatwasser in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Bosch Serie 6 SMS6ZCI42E",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción general",
+          "it": "Migliore in assoluto",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Séchage zéolithe qui sèche même les plastiques, troisième panier, 14 couverts, 44 dB et application Home Connect complète.",
+          "en": "Zeolite drying that even dries plastics, a third rack, 14 place settings, 44 dB and a full-featured Home Connect app.",
+          "de": "Zeolith-Trocknung, die selbst Kunststoff trocknet, dritte Ebene, 14 Maßgedecke, 44 dB und eine umfassende Home Connect App.",
+          "es": "Secado con zeolita que seca hasta los plásticos, tercera bandeja, 14 servicios, 44 dB y una app Home Connect muy completa.",
+          "it": "Asciugatura con zeolite che asciuga anche la plastica, terzo cestello, 14 coperti, 44 dB e un’app Home Connect completa.",
+          "nl": "Zeolietdroging die zelfs kunststof droogt, derde lade, 14 couverts, 44 dB en een uitgebreide Home Connect-app."
+        }
+      },
+      {
+        "model": "Haier XS 6B0S3FSB",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Tout intégrable de 16 couverts, classe B et 40 dB, avec ouverture automatique de la porte et application hOn, bien sous les marques allemandes.",
+          "en": "A fully integrated 16-place model, class B and 40 dB, with automatic door opening and the hOn app, well below German brands in price.",
+          "de": "Vollintegrierter mit 16 Maßgedecken, Klasse B und 40 dB, automatischer Türöffnung und hOn-App, preislich klar unter deutschen Marken.",
+          "es": "Integrable de 16 servicios, clase B y 40 dB, con apertura automática de puerta y app hOn, por debajo del precio de las marcas alemanas.",
+          "it": "A scomparsa totale con 16 coperti, classe B e 40 dB, apertura automatica dello sportello e app hOn, sotto il prezzo dei marchi tedeschi.",
+          "nl": "Volledig integreerbaar met 16 couverts, klasse B en 40 dB, automatische deuropening en hOn-app, flink goedkoper dan Duitse merken."
+        }
+      },
+      {
+        "model": "Miele G 7110 SC AutoDos",
+        "role": {
+          "fr": "Meilleur dosage automatique",
+          "en": "Best for auto-dosing",
+          "de": "Beste automatische Dosierung",
+          "es": "Mejor dosificación automática",
+          "it": "Miglior dosaggio automatico",
+          "nl": "Beste automatische dosering"
+        },
+        "why": {
+          "fr": "AutoDos dose seul le détergent depuis une cartouche PowerDisk, classe B, 43 dB, ouverture AutoOpen et application Miele@home.",
+          "en": "AutoDos doses detergent automatically from a PowerDisk cartridge, class B, 43 dB, AutoOpen drying and the Miele@home app.",
+          "de": "AutoDos dosiert den Reiniger selbst aus einer PowerDisk-Kartusche, Klasse B, 43 dB, AutoOpen-Trocknung und Miele@home-App.",
+          "es": "AutoDos dosifica solo el detergente desde un cartucho PowerDisk, clase B, 43 dB, secado AutoOpen y app Miele@home.",
+          "it": "AutoDos dosa da solo il detersivo da una cartuccia PowerDisk, classe B, 43 dB, asciugatura AutoOpen e app Miele@home.",
+          "nl": "AutoDos doseert zelf vaatwasmiddel uit een PowerDisk-patroon, klasse B, 43 dB, AutoOpen-droging en Miele@home-app."
+        }
+      }
+    ]
+  },
+  "station-electrique-portable-comparatif": {
+    "question": {
+      "fr": "Quelle est la meilleure station électrique portable en 2026 ?",
+      "en": "What is the best portable power station in 2026?",
+      "de": "Welche ist die beste Powerstation 2026?",
+      "es": "¿Cuál es la mejor estación de energía portátil en 2026?",
+      "it": "Qual è la migliore power station portatile nel 2026?",
+      "nl": "Wat is het beste draagbare powerstation in 2026?"
+    },
+    "picks": [
+      {
+        "model": "EcoFlow DELTA 3 Plus",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "1 024 Wh LiFePO4, 1 800 W, UPS, 1 000 W en solaire et une application Wi-Fi/Bluetooth très complète : l'équilibre idéal maison, jardin et van.",
+          "en": "1,024 Wh LiFePO4, 1,800 W, UPS, 1,000 W solar input and a very complete Wi-Fi/Bluetooth app: the ideal balance for home, garden and van.",
+          "de": "1.024 Wh LiFePO4, 1.800 W, USV, 1.000 W Solar und eine sehr umfangreiche WLAN/Bluetooth-App: die ideale Balance für Haus, Garten und Van.",
+          "es": "1.024 Wh LiFePO4, 1.800 W, SAI, 1.000 W solares y una app Wi-Fi/Bluetooth muy completa: el equilibrio ideal para casa, jardín y furgoneta.",
+          "it": "1.024 Wh LiFePO4, 1.800 W, UPS, 1.000 W di solare e un'app Wi-Fi/Bluetooth molto completa: l'equilibrio ideale per casa, giardino e van.",
+          "nl": "1.024 Wh LiFePO4, 1.800 W, UPS, 1.000 W zonne-ingang en een zeer complete wifi/Bluetooth-app: de ideale balans voor huis, tuin en camper."
+        }
+      },
+      {
+        "model": "BLUETTI Elite 100 V2",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Même capacité que la DELTA 3 Plus, 1 000 W en solaire, UPS 10 ms et 11,5 kg, avec un positionnement généralement plus accessible.",
+          "en": "Same capacity as the DELTA 3 Plus, 1,000 W solar input, 10 ms UPS and 11.5 kg, usually at a more accessible tier.",
+          "de": "Gleiche Kapazität wie die DELTA 3 Plus, 1.000 W Solar, 10-ms-USV und 11,5 kg, meist günstiger positioniert.",
+          "es": "Misma capacidad que la DELTA 3 Plus, 1.000 W solares, SAI de 10 ms y 11,5 kg, normalmente con un posicionamiento más asequible.",
+          "it": "Stessa capacità della DELTA 3 Plus, 1.000 W di solare, UPS da 10 ms e 11,5 kg, di solito con un posizionamento più accessibile.",
+          "nl": "Zelfde capaciteit als de DELTA 3 Plus, 1.000 W zonne-ingang, UPS van 10 ms en 11,5 kg, doorgaans gunstiger gepositioneerd."
+        }
+      },
+      {
+        "model": "EcoFlow RIVER 3 Plus",
+        "role": {
+          "fr": "Idéale pour le camping léger",
+          "en": "Best for light camping",
+          "de": "Ideal für leichtes Camping",
+          "es": "Ideal para camping ligero",
+          "it": "Ideale per il campeggio leggero",
+          "nl": "Ideaal voor licht kamperen"
+        },
+        "why": {
+          "fr": "Seulement 4,7 kg pour 286 Wh et 600 W, UPS en moins de 10 ms et extension jusqu'à 858 Wh : parfaite pour la tente ou la box internet.",
+          "en": "Only 4.7 kg for 286 Wh and 600 W, sub-10 ms UPS and expandable to 858 Wh: perfect for the tent or as router backup.",
+          "de": "Nur 4,7 kg für 286 Wh und 600 W, USV unter 10 ms und erweiterbar auf 858 Wh: perfekt fürs Zelt oder als Router-Absicherung.",
+          "es": "Solo 4,7 kg para 286 Wh y 600 W, SAI en menos de 10 ms y ampliable a 858 Wh: perfecta para la tienda o como respaldo del router.",
+          "it": "Solo 4,7 kg per 286 Wh e 600 W, UPS sotto i 10 ms ed espandibile a 858 Wh: perfetta per la tenda o come backup del router.",
+          "nl": "Slechts 4,7 kg voor 286 Wh en 600 W, UPS onder 10 ms en uitbreidbaar tot 858 Wh: perfect voor de tent of als routerback-up."
+        }
+      }
+    ]
+  },
+  "motorisation-portail-garage-connecte": {
+    "question": {
+      "fr": "Quelle est la meilleure motorisation de portail ou de porte de garage connectée en 2026 ?",
+      "en": "What is the best smart gate or garage door opener in 2026?",
+      "de": "Was ist der beste smarte Tor- oder Garagentorantrieb 2026?",
+      "es": "¿Cuál es la mejor motorización conectada de puerta o garaje en 2026?",
+      "it": "Qual è la migliore automazione connessa per cancello o garage nel 2026?",
+      "nl": "Wat is de beste slimme poort- of garagedeuraandrijving in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Somfy Ixengo L 3S io Pack Confort",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Miglior scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Kit complet pour portail battant jusqu'à 400 kg par vantail, protocole io bidirectionnel et pilotage via TaHoma.",
+          "en": "Complete swing gate kit for up to 400 kg per leaf, with two-way io protocol and control through TaHoma.",
+          "de": "Komplettset für Drehtore bis 400 kg pro Flügel, mit bidirektionalem io-Protokoll und Steuerung über TaHoma.",
+          "es": "Kit completo para puertas batientes de hasta 400 kg por hoja, con protocolo io bidireccional y control vía TaHoma.",
+          "it": "Kit completo per cancelli a battente fino a 400 kg per anta, protocollo io bidirezionale e comando via TaHoma.",
+          "nl": "Complete set voor draaipoorten tot 400 kg per vleugel, met bidirectioneel io-protocol en bediening via TaHoma."
+        }
+      },
+      {
+        "model": "Meross MSG100HK Smart Wi-Fi Garage Door Opener",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteit"
+        },
+        "why": {
+          "fr": "Rend connecté un moteur de garage existant, avec capteur d'ouverture et compatibilité HomeKit, Alexa et Google.",
+          "en": "Makes an existing garage opener smart, with a door sensor and HomeKit, Alexa and Google support.",
+          "de": "Macht einen vorhandenen Garagentorantrieb smart, mit Torsensor sowie HomeKit, Alexa und Google.",
+          "es": "Hace inteligente un motor de garaje existente, con sensor de apertura y compatibilidad HomeKit, Alexa y Google.",
+          "it": "Rende smart un motore da garage esistente, con sensore di apertura e compatibilità HomeKit, Alexa e Google.",
+          "nl": "Maakt een bestaande garagedeuraandrijving slim, met deursensor en ondersteuning voor HomeKit, Alexa en Google."
+        }
+      },
+      {
+        "model": "Hörmann SupraMatic E Serie 4",
+        "role": {
+          "fr": "Idéal pour porte de garage",
+          "en": "Best for garage doors",
+          "de": "Ideal für Garagentore",
+          "es": "Ideal para puerta de garaje",
+          "it": "Ideale per porta da garage",
+          "nl": "Ideaal voor garagedeuren"
+        },
+        "why": {
+          "fr": "Moteur pour porte sectionnelle avec Bluetooth intégré : pilotage via l'app BlueSecur sans box.",
+          "en": "Sectional door operator with built-in Bluetooth: control from the BlueSecur app without a hub.",
+          "de": "Antrieb für Sektionaltore mit integriertem Bluetooth: Bedienung per BlueSecur-App ohne Zentrale.",
+          "es": "Motor para puerta seccional con Bluetooth integrado: control desde la app BlueSecur sin centralita.",
+          "it": "Motore per porte sezionali con Bluetooth integrato: comando dall'app BlueSecur senza hub.",
+          "nl": "Aandrijving voor sectionaaldeuren met ingebouwde bluetooth: bediening via de BlueSecur-app zonder hub."
+        }
+      }
+    ]
+  },
+  "diffuseur-huiles-essentielles-connecte": {
+    "question": {
+      "fr": "Quel est le meilleur diffuseur d'huiles essentielles connecté en 2026 ?",
+      "en": "What is the best smart essential oil diffuser in 2026?",
+      "de": "Welcher ist der beste smarte Aroma-Diffusor 2026?",
+      "es": "¿Cuál es el mejor difusor de aceites esenciales inteligente en 2026?",
+      "it": "Qual è il miglior diffusore di oli essenziali smart nel 2026?",
+      "nl": "Wat is de beste slimme aromadiffuser in 2026?"
+    },
+    "picks": [
+      {
+        "model": "ASAKUKI Smart Wi-Fi Essential Oil Diffuser 500ml",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore in assoluto",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Réservoir de 500 ml, programmation complète via Tuya Smart et commande vocale Alexa et Google Home.",
+          "en": "A 500 ml tank, full scheduling via Tuya Smart and Alexa and Google Home voice control.",
+          "de": "500-ml-Tank, umfassende Zeitpläne über Tuya Smart und Sprachsteuerung per Alexa und Google Home.",
+          "es": "Depósito de 500 ml, programación completa con Tuya Smart y control por voz con Alexa y Google Home.",
+          "it": "Serbatoio da 500 ml, programmazione completa con Tuya Smart e comando vocale con Alexa e Google Home.",
+          "nl": "Reservoir van 500 ml, uitgebreide planning via Tuya Smart en spraakbediening met Alexa en Google Home."
+        }
+      },
+      {
+        "model": "Maxcio Smart Essential Oil Diffuser 400ml",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Entrée de gamme mais complet : 400 ml, appli Smart Life, Alexa, Google Home et minuterie.",
+          "en": "Entry level yet complete: 400 ml, Smart Life app, Alexa, Google Home and a timer.",
+          "de": "Einstiegsmodell mit allem Nötigen: 400 ml, Smart-Life-App, Alexa, Google Home und Timer.",
+          "es": "Gama de entrada pero completo: 400 ml, app Smart Life, Alexa, Google Home y temporizador.",
+          "it": "Fascia d'ingresso ma completo: 400 ml, app Smart Life, Alexa, Google Home e timer.",
+          "nl": "Instapmodel maar compleet: 400 ml, Smart Life-app, Alexa, Google Home en timer."
+        }
+      },
+      {
+        "model": "Aromatherapy Associates Atomiser Connect",
+        "role": {
+          "fr": "Meilleur nébuliseur connecté",
+          "en": "Best smart nebulizer",
+          "de": "Bester smarter Vernebler",
+          "es": "Mejor nebulizador conectado",
+          "it": "Miglior nebulizzatore connesso",
+          "nl": "Beste slimme vernevelaar"
+        },
+        "why": {
+          "fr": "Diffusion d'huiles pures sans eau, double tête pour deux mélanges et programmation par appli Bluetooth.",
+          "en": "Waterless pure-oil diffusion, dual pods for two blends and scheduling via a Bluetooth app.",
+          "de": "Reine Öle ohne Wasser, zwei Diffusionsköpfe für zwei Mischungen und Zeitpläne per Bluetooth-App.",
+          "es": "Difusión de aceites puros sin agua, doble cabezal para dos mezclas y programación por app Bluetooth.",
+          "it": "Diffusione di oli puri senz'acqua, doppia testina per due miscele e programmazione via app Bluetooth.",
+          "nl": "Pure olie zonder water, twee verstuiverkoppen voor twee mengsels en planning via een Bluetooth-app."
+        }
+      }
+    ]
+  },
+  "coffre-fort-connecte-guide": {
+    "question": {
+      "fr": "Quel est le meilleur coffre-fort connecté en 2026 ?",
+      "en": "What is the best smart safe in 2026?",
+      "de": "Welcher ist der beste smarte Tresor 2026?",
+      "es": "¿Cuál es la mejor caja fuerte inteligente en 2026?",
+      "it": "Qual è la migliore cassaforte smart nel 2026?",
+      "nl": "Wat is de beste slimme kluis in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Burg-Wächter Combi-Line CL 20 E FS",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore scelta complessiva",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "Empreinte digitale, certification effraction EN 14450 S2 et 30 minutes de protection incendie pour le papier (LFS 30 P).",
+          "en": "Fingerprint access, EN 14450 S2 burglary certification and 30 minutes of fire protection for paper (LFS 30 P).",
+          "de": "Fingerabdrucköffnung, Einbruchschutz nach EN 14450 S2 und 30 Minuten Feuerschutz für Papier (LFS 30 P).",
+          "es": "Apertura por huella, certificación antirrobo EN 14450 S2 y 30 minutos de protección contra incendios para papel (LFS 30 P).",
+          "it": "Apertura a impronta, certificazione antieffrazione EN 14450 S2 e 30 minuti di protezione antincendio per la carta (LFS 30 P).",
+          "nl": "Opening met vingerafdruk, inbraakcertificering EN 14450 S2 en 30 minuten brandbescherming voor papier (LFS 30 P)."
+        }
+      },
+      {
+        "model": "Burg-Wächter PointSafe P 2 E FS",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "Petit coffre de 21 litres avec code, empreinte et clé de secours, à visser au mur ou au sol.",
+          "en": "Compact 21-litre safe with keypad, fingerprint and override key, ready to bolt to a wall or floor.",
+          "de": "Kompakter 21-Liter-Tresor mit Code, Fingerabdruck und Notschlüssel, zum Verschrauben an Wand oder Boden.",
+          "es": "Caja compacta de 21 litros con código, huella y llave de emergencia, lista para atornillar a pared o suelo.",
+          "it": "Cassaforte compatta da 21 litri con codice, impronta e chiave di emergenza, da avvitare a muro o pavimento.",
+          "nl": "Compacte kluis van 21 liter met code, vingerafdruk en noodsleutel, om aan muur of vloer vast te schroeven."
+        }
+      },
+      {
+        "model": "Yale Smart Safe YSS/250/EB1",
+        "role": {
+          "fr": "Idéal pour les alertes smartphone",
+          "en": "Best for smartphone alerts",
+          "de": "Ideal für Smartphone-Benachrichtigungen",
+          "es": "Ideal para alertas en el móvil",
+          "it": "Ideale per le notifiche sullo smartphone",
+          "nl": "Ideaal voor smartphonemeldingen"
+        },
+        "why": {
+          "fr": "Application Yale Home avec notification à chaque ouverture, codes temporaires et accès à distance via le pont Wi-Fi.",
+          "en": "Yale Home app with a notification at every opening, temporary codes and remote access via the Wi-Fi bridge.",
+          "de": "Yale-Home-App mit Benachrichtigung bei jeder Öffnung, temporären Codes und Fernzugriff über die WLAN-Bridge.",
+          "es": "App Yale Home con aviso en cada apertura, códigos temporales y acceso remoto mediante el puente wifi.",
+          "it": "App Yale Home con notifica a ogni apertura, codici temporanei e accesso remoto tramite il bridge Wi-Fi.",
+          "nl": "Yale Home-app met melding bij elke opening, tijdelijke codes en toegang op afstand via de wifi-bridge."
+        }
+      }
+    ]
+  },
+  "lave-linge-connecte-guide": {
+    "question": {
+      "fr": "Quel est le meilleur lave-linge connecté en 2026 ?",
+      "en": "What is the best connected washing machine in 2026?",
+      "de": "Welche ist die beste vernetzte Waschmaschine 2026?",
+      "es": "¿Cuál es la mejor lavadora conectada en 2026?",
+      "it": "Qual è la migliore lavatrice connessa nel 2026?",
+      "nl": "Wat is de beste slimme wasmachine in 2026?"
+    },
+    "picks": [
+      {
+        "model": "Bosch Serie 8 WGB256A40",
+        "role": {
+          "fr": "Meilleur choix global",
+          "en": "Best overall",
+          "de": "Beste Wahl insgesamt",
+          "es": "Mejor opción global",
+          "it": "Migliore in assoluto",
+          "nl": "Beste keuze overall"
+        },
+        "why": {
+          "fr": "10 kg, classe A, essorage 1 600 tr/min, dosage automatique i-DOS et application Home Connect complète.",
+          "en": "10 kg, class A, 1,600 rpm spin, i-DOS automatic dosing and a full-featured Home Connect app.",
+          "de": "10 kg, Klasse A, 1.600 U/min, automatische i-DOS-Dosierung und umfassende Home-Connect-App.",
+          "es": "10 kg, clase A, centrifugado a 1.600 rpm, dosificación automática i-DOS y app Home Connect completa.",
+          "it": "10 kg, classe A, centrifuga a 1.600 giri, dosaggio automatico i-DOS e app Home Connect completa.",
+          "nl": "10 kg, klasse A, 1.600 tpm, automatische i-DOS-dosering en een uitgebreide Home Connect-app."
+        }
+      },
+      {
+        "model": "Haier I-Pro Series 7 HW100-B14979",
+        "role": {
+          "fr": "Meilleur rapport qualité-prix",
+          "en": "Best value",
+          "de": "Bestes Preis-Leistungs-Verhältnis",
+          "es": "Mejor relación calidad-precio",
+          "it": "Miglior rapporto qualità-prezzo",
+          "nl": "Beste prijs-kwaliteitverhouding"
+        },
+        "why": {
+          "fr": "10 kg connectés en classe A avec l'application hOn, un moteur Direct Motion silencieux et un programme vapeur Refresh.",
+          "en": "A connected 10 kg class A machine with the hOn app, a quiet Direct Motion motor and a Refresh steam programme.",
+          "de": "Vernetzte 10 kg in Klasse A mit hOn-App, leisem Direct-Motion-Motor und Dampfprogramm Refresh.",
+          "es": "10 kg conectados en clase A con la app hOn, motor Direct Motion silencioso y programa de vapor Refresh.",
+          "it": "10 kg connessi in classe A con app hOn, motore Direct Motion silenzioso e programma a vapore Refresh.",
+          "nl": "Slimme 10 kg in klasse A met hOn-app, stille Direct Motion-motor en stoomprogramma Refresh."
+        }
+      },
+      {
+        "model": "LG W4WR70E6Y",
+        "role": {
+          "fr": "Meilleur lave-linge séchant",
+          "en": "Best washer-dryer",
+          "de": "Bester Waschtrockner",
+          "es": "Mejor lavasecadora",
+          "it": "Migliore lavasciuga",
+          "nl": "Beste was-droogcombinatie"
+        },
+        "why": {
+          "fr": "Lave 11 kg et sèche 6 kg dans un seul emplacement, avec moteur AI DD, vapeur et application LG ThinQ.",
+          "en": "Washes 11 kg and dries 6 kg in a single footprint, with an AI DD motor, steam and the LG ThinQ app.",
+          "de": "Wäscht 11 kg und trocknet 6 kg auf einer Stellfläche, mit AI-DD-Antrieb, Dampf und LG-ThinQ-App.",
+          "es": "Lava 11 kg y seca 6 kg en un solo hueco, con motor AI DD, vapor y app LG ThinQ.",
+          "it": "Lava 11 kg e asciuga 6 kg in un solo ingombro, con motore AI DD, vapore e app LG ThinQ.",
+          "nl": "Wast 11 kg en droogt 6 kg op één plek, met AI DD-motor, stoom en de LG ThinQ-app."
+        }
+      }
+    ]
   }
 }
 

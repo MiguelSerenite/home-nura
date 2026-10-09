@@ -32,7 +32,7 @@ describe('category guides', () => {
   })
 
   it('returns nothing for unmapped categories', () => {
-    expect(getCategoryGuides('laveurs-vitres', 'fr')).toEqual({ picks: [], articles: [] })
+    expect(getCategoryGuides('__unknown__', 'fr')).toEqual({ picks: [], articles: [] })
   })
 })
 

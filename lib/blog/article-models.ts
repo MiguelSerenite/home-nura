@@ -328,6 +328,83 @@ export const ARTICLE_MODELS: Record<string, readonly string[]> = {
     "Siemens iQ500",
     "Miele TWR780WP",
     "Samsung DV90BB"
+  ],
+  "centrale-vapeur-comparatif": [
+    "Philips PerfectCare 8000 Series PSG8160/30",
+    "Philips PerfectCare 7000 Series PSG7130/20",
+    "Laurastar Smart U",
+    "Tefal Pro Express Ultimate II GV9721",
+    "Braun CareStyle 7 Pro IS7286BK"
+  ],
+  "reveil-lumiere-simulateur-aube-comparatif": [
+    "Philips SmartSleep Sleep & Wake-up Light HF3650/01",
+    "Philips Wake-up Light HF3520/01",
+    "Lumie Bodyclock Shine 300",
+    "Beurer WL 75",
+    "Beurer WL 50"
+  ],
+  "robot-lave-vitre-comparatif": [
+    "Ecovacs Winbot W2 Omni",
+    "Cecotec Conga WinDroid 1090 Double Spray Connected",
+    "Hobot 2S",
+    "Ecovacs Winbot W2S Omni",
+    "Ecovacs Winbot W1 Pro"
+  ],
+  "borne-recharge-voiture-electrique-maison": [
+    "Wallbox Pulsar Max",
+    "Easee Charge Lite",
+    "Zaptec Go 2",
+    "Hager witty one",
+    "Schneider Electric EVlink Pro AC"
+  ],
+  "traceur-objets-connecte-comparatif": [
+    "Apple AirTag (2nd generation)",
+    "Chipolo POP",
+    "Ugreen FineTrack Duo",
+    "Samsung Galaxy SmartTag2",
+    "Pebblebee Clip Universal"
+  ],
+  "lave-vaisselle-connecte-guide": [
+    "Bosch Serie 6 SMS6ZCI42E",
+    "Haier XS 6B0S3FSB",
+    "Miele G 7110 SC AutoDos",
+    "Siemens iQ500 SN65ZX07CE",
+    "LG DF455HSS"
+  ],
+  "station-electrique-portable-comparatif": [
+    "EcoFlow DELTA 3 Plus",
+    "BLUETTI Elite 100 V2",
+    "EcoFlow RIVER 3 Plus",
+    "Anker SOLIX C1000 Gen 2",
+    "Jackery Explorer 1000 v2"
+  ],
+  "motorisation-portail-garage-connecte": [
+    "Somfy Ixengo L 3S io Pack Confort",
+    "Meross MSG100HK Smart Wi-Fi Garage Door Opener",
+    "Hörmann SupraMatic E Serie 4",
+    "Somfy Elixo 500 3S io Pack Confort",
+    "Shelly 1 Gen4"
+  ],
+  "diffuseur-huiles-essentielles-connecte": [
+    "ASAKUKI Smart Wi-Fi Essential Oil Diffuser 500ml",
+    "Maxcio Smart Essential Oil Diffuser 400ml",
+    "Aromatherapy Associates Atomiser Connect",
+    "Zen'Arôme Diffuseur connecté Prague",
+    "Levoit Dual 200S"
+  ],
+  "coffre-fort-connecte-guide": [
+    "Burg-Wächter Combi-Line CL 20 E FS",
+    "Burg-Wächter PointSafe P 2 E FS",
+    "Yale Smart Safe YSS/250/EB1",
+    "Master Lock LX110BEURHRO",
+    "Phoenix Next LS7001FB"
+  ],
+  "lave-linge-connecte-guide": [
+    "Bosch Serie 8 WGB256A40",
+    "Haier I-Pro Series 7 HW100-B14979",
+    "LG W4WR70E6Y",
+    "Siemens iQ700 WG44B2A40",
+    "Miele WWR 860 WPS"
   ]
 }
 
