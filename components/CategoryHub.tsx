@@ -26,7 +26,9 @@
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { buildBreadcrumbListSchema, buildClusterItemListSchema, buildArticleSchema, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
+import { buildBreadcrumbListSchema, buildArticleSchema, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
+import QuickAnswer from '@/components/QuickAnswer'
+import { getCategoryGuides } from '@/lib/catalog/category-guides'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import FaqSection from '@/components/FaqSection'
 import {
@@ -35,7 +37,6 @@ import {
   getCategoriesBySilo,
   getCategoryHero,
   getCategoryFaq,
-  getPersonasForSilo,
 } from '@/lib/catalog'
 import type { MetaSiloSlug } from '@/lib/catalog'
 import { isValidLang, type Lang } from '@/lib/i18n'
@@ -47,10 +48,11 @@ interface CategoryHubUi {
   methodologyCta: string
   faqTitle: string
   noSiblings: string
-  /** Phase II: personalized "best for" cluster cross-links. */
-  bestForTitle: string
-  /** Phase II: H3 prefix for each persona card, e.g. "Meilleur [cat] pour". */
-  bestForPrefix: string
+  /** Verdict box kicker + heading, e.g. "Notre sélection" / "Quel X choisir ?" */
+  picksKicker: string
+  picksQuestion: (categoryTitle: string) => string
+  guidesTitle: string
+  readGuide: string
 }
 
 const uiStrings: Record<Lang, CategoryHubUi> = {
@@ -60,8 +62,10 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     methodologyCta: 'Lire notre méthodologie',
     faqTitle: 'Questions fréquentes',
     noSiblings: 'Les catégories voisines arrivent bientôt.',
-    bestForTitle: 'Trouvez le meilleur selon votre profil',
-    bestForPrefix: 'Le meilleur pour',
+    picksKicker: 'Notre sélection',
+    picksQuestion: (t) => `${t} : lesquels choisir en 2026 ?`,
+    guidesTitle: "Nos guides d'achat",
+    readGuide: 'Lire le guide',
   },
   en: {
     home: 'Home',
@@ -69,8 +73,10 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     methodologyCta: 'Read our methodology',
     faqTitle: 'Frequently asked questions',
     noSiblings: 'Sibling categories are coming soon.',
-    bestForTitle: 'Find the best one for your profile',
-    bestForPrefix: 'The best for',
+    picksKicker: 'Our picks',
+    picksQuestion: (t) => `${t}: which to buy in 2026?`,
+    guidesTitle: 'Our buying guides',
+    readGuide: 'Read the guide',
   },
   de: {
     home: 'Start',
@@ -78,8 +84,10 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     methodologyCta: 'Zur Methodik',
     faqTitle: 'Häufige Fragen',
     noSiblings: 'Weitere Kategorien folgen bald.',
-    bestForTitle: 'Finden Sie das Beste für Ihr Profil',
-    bestForPrefix: 'Das Beste für',
+    picksKicker: 'Unsere Empfehlungen',
+    picksQuestion: (t) => `${t}: welche 2026 kaufen?`,
+    guidesTitle: 'Unsere Kaufratgeber',
+    readGuide: 'Ratgeber lesen',
   },
   es: {
     home: 'Inicio',
@@ -87,8 +95,10 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     methodologyCta: 'Leer nuestra metodología',
     faqTitle: 'Preguntas frecuentes',
     noSiblings: 'Las categorías vecinas llegan pronto.',
-    bestForTitle: 'Encuentra el mejor según tu perfil',
-    bestForPrefix: 'El mejor para',
+    picksKicker: 'Nuestra selección',
+    picksQuestion: (t) => `${t}: ¿cuáles elegir en 2026?`,
+    guidesTitle: 'Nuestras guías de compra',
+    readGuide: 'Leer la guía',
   },
   it: {
     home: 'Home',
@@ -96,8 +106,10 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     methodologyCta: 'Leggi la nostra metodologia',
     faqTitle: 'Domande frequenti',
     noSiblings: 'Le categorie vicine arrivano presto.',
-    bestForTitle: 'Trova il migliore secondo il tuo profilo',
-    bestForPrefix: 'Il migliore per',
+    picksKicker: 'La nostra selezione',
+    picksQuestion: (t) => `${t}: quali scegliere nel 2026?`,
+    guidesTitle: "Le nostre guide all'acquisto",
+    readGuide: 'Leggi la guida',
   },
   nl: {
     home: 'Home',
@@ -105,8 +117,10 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     methodologyCta: 'Lees onze methodologie',
     faqTitle: 'Veelgestelde vragen',
     noSiblings: 'Naastgelegen categorieën komen binnenkort.',
-    bestForTitle: 'Vind de beste voor uw profiel',
-    bestForPrefix: 'De beste voor',
+    picksKicker: 'Onze selectie',
+    picksQuestion: (t) => `${t}: welke kies je in 2026?`,
+    guidesTitle: 'Onze koopgidsen',
+    readGuide: 'Lees de gids',
   },
 }
 
@@ -144,34 +158,9 @@ export default async function CategoryHub({
     (c) => c.slug !== category.slug && c.indexable
   )
 
-  // Phase II: best-for cluster cross-links. Every indexable category
-  // surfaces up to 9 "best [category] for [persona]" entry points —
-  // one per persona applicable to the category's silo. This connects
-  // CategoryHub directly to the Moteur 4 conversion layer so a user
-  // who landed on the category page can self-select into the best-for
-  // bucket that matches their profile.
-  const bestForPersonas = category.indexable
-    ? getPersonasForSilo(siloSlug).slice(0, 9)
-    : []
-
-  // Phase OO: emit the best-for cluster as a schema.org ItemList so
-  // search engines and LLM crawlers can walk the entire persona
-  // cluster from one structured payload rather than parsing the DOM
-  // for anchor tags. Only indexable categories emit this — empty
-  // bestForPersonas list means no ItemList on the page.
-  const clusterItemListSchema =
-    bestForPersonas.length > 0
-      ? buildClusterItemListSchema({
-          lang: safeLang,
-          path: `/${silo.slug}/${category.slug}`,
-          name: ui.bestForTitle,
-          description: `${ui.bestForPrefix} ${categoryTitle.toLowerCase()}`,
-          items: bestForPersonas.map((persona) => ({
-            name: `${ui.bestForPrefix} ${categoryTitle.toLowerCase()} — ${persona.label[safeLang]}`,
-            path: `/${silo.slug}/${category.slug}/meilleur-pour/${persona.slug}`,
-          })),
-        })
-      : null
+  // Verdict + guides from the blog: gives the hub real buying content
+  // (it had none) and links it to the articles that rank.
+  const { picks, articles } = getCategoryGuides(category.slug, safeLang)
 
   // Phase JJJ: Article JSON-LD for Moteur 1 category hub pages.
   // Completes the Article schema coverage across all 4 moteurs.
@@ -204,13 +193,6 @@ export default async function CategoryHub({
           type="application/ld+json"
           suppressHydrationWarning
           dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-        />
-      )}
-      {clusterItemListSchema && (
-        <script
-          type="application/ld+json"
-          suppressHydrationWarning
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(clusterItemListSchema) }}
         />
       )}
 
@@ -252,25 +234,35 @@ export default async function CategoryHub({
           intro={hero.intro}
         />
 
-        {/* Phase II: best-for cluster — cross-links to Moteur 4 pages */}
-        {bestForPersonas.length > 0 && (
+        {picks.length > 0 && (
+          <div className="max-w-3xl mx-auto px-4 md:px-6">
+            <QuickAnswer
+              question={ui.picksQuestion(categoryTitle)}
+              picks={picks}
+              lang={safeLang}
+              kicker={ui.picksKicker}
+              location="category_picks"
+            />
+          </div>
+        )}
+
+        {articles.length > 0 && (
           <section className="max-w-6xl mx-auto px-4 md:px-6 pb-12">
             <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-6">
-              {ui.bestForTitle}
+              {ui.guidesTitle}
             </h2>
-            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {bestForPersonas.map((persona) => (
-                <li key={persona.slug}>
+            <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {articles.map((article) => (
+                <li key={article.slug}>
                   <Link
-                    href={`/${safeLang}/${silo.slug}/${category.slug}/meilleur-pour/${persona.slug}`}
-                    className="group flex flex-col rounded-2xl border border-slate-200 bg-white px-5 py-4 transition duration-200 hover:border-brand-200 hover:shadow-sm"
+                    href={article.href}
+                    className="group flex h-full flex-col rounded-2xl border border-slate-200 bg-white px-5 py-4 transition duration-200 hover:border-brand-200 hover:shadow-sm"
                   >
-                    <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-brand-600 mb-1">
-                      {ui.bestForPrefix} {categoryTitle.toLowerCase()}
-                    </span>
                     <span className="text-base font-semibold text-slate-900 group-hover:text-brand-700 transition-colors">
-                      {persona.label[safeLang]}
+                      {article.title}
                     </span>
+                    <span className="mt-1 text-sm text-slate-600 leading-relaxed line-clamp-2">{article.excerpt}</span>
+                    <span className="mt-2 text-sm font-semibold text-brand-700">{ui.readGuide} →</span>
                   </Link>
                 </li>
               ))}

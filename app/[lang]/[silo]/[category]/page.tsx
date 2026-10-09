@@ -28,6 +28,7 @@
  * double-render the same (lang, silo, category).
  */
 
+import { getCategoryGuides, buildCategorySeo } from '@/lib/catalog/category-guides'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import CategoryHub from '@/components/CategoryHub'
@@ -80,11 +81,13 @@ export async function generateMetadata({
   const cat = getCategory(category)
   const siloMeta = getMetaSilo(silo)
   if (!cat || !siloMeta || cat.metaSilo !== silo) return {}
+  const { picks } = getCategoryGuides(cat.slug, safeLang)
+  const seo = buildCategorySeo(cat, safeLang, picks.map((p) => p.model))
   return buildPageMetadata({
     lang: safeLang,
     path: `/${silo}/${cat.slug}`,
-    title: `${cat.title[safeLang]} — ${siloMeta.title[safeLang]} | Home Nura`,
-    description: cat.description[safeLang],
+    title: `${seo.title} | Home Nura`,
+    description: seo.description,
     index: cat.indexable,
   })
 }
