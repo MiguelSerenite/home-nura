@@ -1,686 +1,162 @@
 import type { BlogArticle } from '../types'
 
 export const article: BlogArticle = {
-  slug: 'eclairage-connecte-comparatif',
-  category: 'comparatifs',
-  pillar: 'energie-domotique',
-  relatedSlugs: ['guide-domotique-economie-energie-2026', 'balkonkraftwerk-panneau-solaire-balcon', 'comparatif-smart-plugs-mesure-energie'],
-  datePublished: '2026-04-16',
-  dateModified: '2026-04-16',
-  readingTime: 16,
-  images: [
-    {
-      src: 'https://images.unsplash.com/photo-1558002038-1055907df827?w=800&q=80&auto=format&fit=crop',
-      alt: {
-        fr: 'Ampoules connectees de differentes marques dans un salon moderne',
-        en: 'Smart bulbs from different brands in a modern living room',
-        de: 'Smarte Gluhbirnen verschiedener Marken in einem modernen Wohnzimmer',
-        es: 'Bombillas inteligentes de diferentes marcas en un salon moderno',
-        it: 'Lampadine smart di diverse marche in un soggiorno moderno',
-        nl: 'Slimme lampen van verschillende merken in een moderne woonkamer',
-      },
-    },
+  "slug": "eclairage-connecte-comparatif",
+  "category": "comparatifs",
+  "pillar": "energie-domotique",
+  "relatedSlugs": [
+    "maison-connectee-matter-thread-2026",
+    "comparatif-smart-plugs-mesure-energie",
+    "guide-domotique-economie-energie-2026"
   ],
-  title: {
-    fr: 'Eclairage Connecte 2026 : Comparatif Philips Hue vs IKEA Dirigera vs TP-Link Tapo vs Govee',
-    en: 'Smart Lighting 2026: Philips Hue vs IKEA Dirigera vs TP-Link Tapo vs Govee Compared',
-    de: 'Smarte Beleuchtung 2026: Philips Hue vs IKEA Dirigera vs TP-Link Tapo vs Govee im Vergleich',
-    es: 'Iluminacion Inteligente 2026: Comparativa Philips Hue vs IKEA Dirigera vs TP-Link Tapo vs Govee',
-    it: 'Illuminazione Smart 2026: Confronto Philips Hue vs IKEA Dirigera vs TP-Link Tapo vs Govee',
-    nl: 'Slimme Verlichting 2026: Vergelijking Philips Hue vs IKEA Dirigera vs TP-Link Tapo vs Govee',
-  },
-  excerpt: {
-    fr: 'Comparatif complet des ecosystemes d\'eclairage connecte en 2026. Philips Hue, IKEA Dirigera, TP-Link Tapo et Govee : prix des ampoules, hub requis, compatibilite Matter, economies d\'energie et automations.',
-    en: 'Complete comparison of smart lighting ecosystems in 2026. Philips Hue, IKEA Dirigera, TP-Link Tapo and Govee: bulb prices, hub requirements, Matter compatibility, energy savings and automations.',
-    de: 'Kompletter Vergleich der Smart-Lighting-Okosysteme 2026. Philips Hue, IKEA Dirigera, TP-Link Tapo und Govee: Lampenpreise, Hub-Anforderungen, Matter-Kompatibilitat, Energieersparnis und Automationen.',
-    es: 'Comparativa completa de ecosistemas de iluminacion inteligente en 2026. Philips Hue, IKEA Dirigera, TP-Link Tapo y Govee: precios de bombillas, hub necesario, compatibilidad Matter, ahorro energetico y automatizaciones.',
-    it: 'Confronto completo degli ecosistemi di illuminazione smart nel 2026. Philips Hue, IKEA Dirigera, TP-Link Tapo e Govee: prezzi lampadine, hub necessario, compatibilita Matter, risparmio energetico e automazioni.',
-    nl: 'Volledige vergelijking van slimme verlichtingsecosystemen in 2026. Philips Hue, IKEA Dirigera, TP-Link Tapo en Govee: lampenprijzen, hub vereisten, Matter-compatibiliteit, energiebesparing en automatiseringen.',
-  },
-  content: {
-    fr: `<h2>Introduction : pourquoi passer a l'eclairage connecte en 2026</h2>
-<p>L'eclairage connecte n'est plus un gadget de technophile — c'est devenu le point d'entree le plus accessible de la maison connectee. Remplacer ses ampoules par des modeles intelligents permet de <strong>reduire sa consommation d'eclairage de 40 a 75%</strong> (passage au LED + automations), de creer des ambiances sur mesure, et de piloter tout depuis son telephone ou sa voix.</p>
-<p>Mais en 2026, le marche est sature. Quatre ecosystemes dominent : <strong>Philips Hue</strong> (le premium historique), <strong>IKEA Dirigera</strong> (le rapport qualite-prix scandinave), <strong>TP-Link Tapo</strong> (le sans-hub accessible) et <strong>Govee</strong> (le roi du RGB spectaculaire). Lequel choisir ? Ce comparatif met a plat les prix, la qualite, la compatibilite et les fonctions. En complement, consultez notre <a href="/fr/blog/guide-domotique-economie-energie-2026">guide domotique et economie d'energie</a> et notre <a href="/fr/blog/comparatif-smart-plugs-mesure-energie">comparatif des prises connectees</a>.</p>
-
-<h2>Tableau comparatif global : les 4 ecosystemes</h2>
-<table>
-<thead>
-<tr><th>Critere</th><th>Philips Hue</th><th>IKEA Dirigera</th><th>TP-Link Tapo</th><th>Govee</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>Prix ampoule E27 blanc</strong></td><td>17 – 22 EUR</td><td>8 – 10 EUR</td><td>9 – 12 EUR</td><td>12 – 15 EUR</td></tr>
-<tr><td><strong>Prix ampoule E27 couleur</strong></td><td>40 – 55 EUR</td><td>15 – 18 EUR</td><td>14 – 18 EUR</td><td>15 – 20 EUR</td></tr>
-<tr><td><strong>Hub requis</strong></td><td>Oui (Hue Bridge, ~50 EUR)</td><td>Oui (IKEA Dirigera, ~60 EUR)</td><td>Non (WiFi direct)</td><td>Non (WiFi/BT)</td></tr>
-<tr><td><strong>Protocole</strong></td><td>Zigbee + Matter</td><td>Zigbee + Matter</td><td>WiFi + Matter</td><td>WiFi + BT</td></tr>
-<tr><td><strong>Max ampoules</strong></td><td>50 par bridge</td><td>Pas de limite officielle</td><td>~32 par routeur</td><td>~15 par app</td></tr>
-<tr><td><strong>Compatibilite Matter</strong></td><td>Oui (depuis 2023)</td><td>Oui (depuis 2024)</td><td>Oui (modeles 2025+)</td><td>Partielle (2026)</td></tr>
-<tr><td><strong>Alexa / Google / HomeKit</strong></td><td>Oui / Oui / Oui</td><td>Oui / Oui / Oui (via Matter)</td><td>Oui / Oui / Oui (via Matter)</td><td>Oui / Oui / Non natif</td></tr>
-<tr><td><strong>Home Assistant</strong></td><td>Excellent (Zigbee natif)</td><td>Bon (Zigbee)</td><td>Bon (WiFi)</td><td>Moyen (cloud)</td></tr>
-<tr><td><strong>Qualite lumiere</strong></td><td>Excellente (CRI 80+)</td><td>Bonne (CRI 80)</td><td>Correcte (CRI 75-80)</td><td>Bonne RGB, moyenne blanc</td></tr>
-<tr><td><strong>Gamme produits</strong></td><td>Tres large (150+ references)</td><td>Moyenne (40+ references)</td><td>Moyenne (30+ references)</td><td>Large en RGB/bandeaux</td></tr>
-</tbody>
-</table>
-
-<h2>Philips Hue : le premium indetronable</h2>
-<h3>Forces</h3>
-<p>Philips Hue reste la reference absolue en 2026. L'ecosysteme est le plus mature, le plus fiable et le plus etendu. Le <strong>Hue Bridge</strong> utilise le protocole Zigbee, ce qui libere votre WiFi et garantit des temps de reponse ultrarapides (<200 ms). La gamme couvre tout : ampoules E27, E14, GU10, bandeaux LED, lampes de table (Hue Go), lampes d'exterieur, et meme des luminaires encastres.</p>
-<p>La qualite de lumiere est inegalee : rendu des couleurs (CRI 80+), 16 millions de couleurs, blanc reglable de 2000K a 6500K. Les <strong>Hue Labs</strong> et les <strong>automations</strong> (reveil progressif, simulation de presence, synchronisation avec films/musique) sont les plus abouties du marche.</p>
-
-<h3>Faiblesses</h3>
-<p>Le prix. Une ampoule E27 White Ambiance coute 22 EUR, une Color 55 EUR. Equiper une maison de 15 ampoules coute 300-800 EUR + le Bridge a 50 EUR. C'est le double d'IKEA ou Tapo.</p>
-
-<h3>Meilleurs produits 2026</h3>
-<ul>
-<li><strong>Hue White Ambiance E27 :</strong> ~22 EUR, blanc reglable 2200-6500K, 800 lm. L'essentiel.</li>
-<li><strong>Hue White & Color Ambiance E27 :</strong> ~50 EUR, 16M couleurs, 1100 lm. Le complet.</li>
-<li><strong>Hue Gradient Lightstrip 2m :</strong> ~85 EUR, multizone couleur, effet spectaculaire derriere un ecran.</li>
-<li><strong>Hue Bridge :</strong> ~50 EUR, pilote jusqu'a 50 accessoires Zigbee.</li>
-</ul>
-
-<h2>IKEA Dirigera : le rapport qualite-prix imbattable</h2>
-<h3>Forces</h3>
-<p>IKEA a completement refondu son ecosysteme domotique avec le hub <strong>Dirigera</strong> (successeur du Tradfri Gateway). Le rapport qualite-prix est devastateur : une ampoule E27 blanche connectee a <strong>8 EUR</strong>, une couleur a <strong>15 EUR</strong>. C'est 2 a 3 fois moins cher que Philips Hue pour des performances honnetes.</p>
-<p>Le hub Dirigera supporte Zigbee et Matter, est compatible Alexa, Google et Apple HomeKit (via Matter). L'app IKEA Home Smart a fait d'enormes progres en 2025-2026 : scenes, automations basees sur l'heure et la presence, groupes de pieces.</p>
-
-<h3>Faiblesses</h3>
-<p>La gamme reste limitee par rapport a Hue : moins de types d'ampoules (pas de GU10 couleur par exemple), pas de bandeaux LED gradient, et les automations sont plus basiques. La qualite de lumiere est bonne mais pas exceptionnelle.</p>
-
-<h3>Meilleurs produits 2026</h3>
-<ul>
-<li><strong>TRADFRI E27 Blanc Chaud 1055 lm :</strong> ~8 EUR. Imbattable sur le prix.</li>
-<li><strong>TRADFRI E27 Spectre Blanc :</strong> ~10 EUR, reglable 2200-4000K.</li>
-<li><strong>TRADFRI E27 Couleur :</strong> ~15 EUR, 16M couleurs. Le meilleur rapport qualite-prix du marche.</li>
-<li><strong>IKEA Dirigera Hub :</strong> ~60 EUR, Zigbee + Matter, app IKEA Home Smart.</li>
-</ul>
-
-<h2>TP-Link Tapo : le sans-hub simple et accessible</h2>
-<h3>Forces</h3>
-<p>TP-Link Tapo est l'ecosysteme ideal pour ceux qui ne veulent pas de hub : les ampoules se connectent directement en <strong>WiFi</strong>. L'installation est ultra-simple — telecharger l'app, scanner le QR code, connecter au WiFi. C'est operationnel en 2 minutes.</p>
-<p>Les prix sont tres competitifs (ampoule E27 couleur a 14 EUR), la qualite est correcte, et la compatibilite Matter (depuis 2025) ouvre les portes d'Alexa, Google et HomeKit sans hub supplementaire. L'app Tapo est intuitive et offre des automations horaires, des scenes et le controle a distance.</p>
-
-<h3>Faiblesses</h3>
-<p>Le WiFi est un inconvenient pour les installations de plus de 10-15 ampoules : chaque ampoule occupe une adresse IP sur votre routeur. Au-dela de 20-25 appareils WiFi, les routeurs grand public ralentissent. De plus, en cas de coupure WiFi, les ampoules ne sont plus pilotables. La qualite de lumiere (CRI 75-80) est en retrait face a Hue.</p>
-
-<h3>Meilleurs produits 2026</h3>
-<ul>
-<li><strong>Tapo L530E E27 Couleur :</strong> ~14 EUR, 16M couleurs, 806 lm, WiFi. Notre choix sans hub.</li>
-<li><strong>Tapo L510E E27 Blanc Reglable :</strong> ~9 EUR, dimmable, 806 lm. Le moins cher du marche.</li>
-<li><strong>Tapo L630 GU10 Couleur :</strong> ~12 EUR, 350 lm. Pour spots encastres.</li>
-<li><strong>Tapo L900-5 Bandeau LED 5m :</strong> ~22 EUR, RGB, decoupe possible.</li>
-</ul>
-
-<h2>Govee : le roi du RGB et de l'ambiance</h2>
-<h3>Forces</h3>
-<p>Govee ne joue pas dans la meme categorie : c'est le specialiste de l'<strong>eclairage d'ambiance RGB</strong>. Bandeaux LED RGBIC (couleurs independantes par segment), barres lumineuses, panneaux hexagonaux, lampes de table — tout est concu pour creer des ambiances spectaculaires. Le systeme <strong>DreamView</strong> synchronise l'eclairage avec votre ecran TV en temps reel via une camera integree.</p>
-<p>Les prix sont accessibles (bandeau 5m RGBIC a 25 EUR), l'app est riche, et la compatibilite Alexa/Google est native.</p>
-
-<h3>Faiblesses</h3>
-<p>Govee excelle en ambiance RGB mais est moyen en eclairage fonctionnel (blanc). Pas de protocole Zigbee, pas de hub centralise, Matter arrive lentement. La fiabilite WiFi/Bluetooth peut etre capricieuse. Pas de compatibilite HomeKit native.</p>
-
-<h3>Meilleurs produits 2026</h3>
-<ul>
-<li><strong>Govee RGBIC LED Strip 5m :</strong> ~25 EUR, segments independants, app, Alexa/Google.</li>
-<li><strong>Govee Glide Hexa Pro (10 panneaux) :</strong> ~180 EUR, panneaux muraux hexagonaux, effets dynamiques.</li>
-<li><strong>Govee DreamView T1 :</strong> ~70 EUR, synchronisation TV, camera integree, bandeau pour TV 55-65".</li>
-<li><strong>Govee E27 RGBIC :</strong> ~15 EUR, 16M couleurs, effets dynamiques integres.</li>
-</ul>
-
-<h2>Matter : le protocole qui change tout en 2026</h2>
-<p><strong>Matter</strong> est le standard universel de la maison connectee, soutenu par Apple, Google, Amazon et Samsung. En 2026, il permet a des appareils de differents ecosystemes de communiquer entre eux. Une ampoule Tapo peut etre controlee depuis Apple HomeKit, une ampoule IKEA depuis Google Home, etc.</p>
-<p>Philips Hue et IKEA Dirigera supportent Matter via leur hub Zigbee. TP-Link Tapo le supporte en WiFi direct. Govee arrive progressivement. Matter simplifie aussi l'integration avec <strong>Home Assistant</strong>, le hub domotique open-source le plus populaire.</p>
-
-<h2>Economies d'energie : l'eclairage connecte est-il rentable ?</h2>
-<table>
-<thead>
-<tr><th>Scenario</th><th>Consommation ancienne (halogene)</th><th>Consommation LED connecte</th><th>Economie annuelle</th></tr>
-</thead>
-<tbody>
-<tr><td>10 ampoules, 4h/jour</td><td>60W x 10 x 4h x 365 = 876 kWh</td><td>9W x 10 x 3h* x 365 = 98 kWh</td><td>778 kWh = ~195 EUR</td></tr>
-<tr><td>5 ampoules, 3h/jour</td><td>60W x 5 x 3h x 365 = 328 kWh</td><td>9W x 5 x 2h* x 365 = 33 kWh</td><td>295 kWh = ~74 EUR</td></tr>
-</tbody>
-</table>
-<p><em>* Les automations (extinction automatique, capteurs de presence, planification) reduisent le temps d'utilisation effectif de 25-35%.</em></p>
-
-<h2>Automations : les scenarios les plus utiles</h2>
-<ul>
-<li><strong>Reveil progressif :</strong> la lumiere augmente lentement 30 min avant votre alarme (Hue, IKEA, Tapo)</li>
-<li><strong>Extinction automatique :</strong> toutes les lumieres s'eteignent quand tout le monde quitte la maison (via geofencing)</li>
-<li><strong>Simulation de presence :</strong> les lumieres s'allument/eteignent aleatoirement quand vous etes en vacances (Hue, IKEA)</li>
-<li><strong>Mode film :</strong> baisser l'eclairage a 10% et passer en blanc chaud quand Netflix demarre (Home Assistant)</li>
-<li><strong>Lumiere nocturne :</strong> couleur rouge-orange a faible intensite entre 22h et 7h pour ne pas perturber le sommeil</li>
-</ul>
-
-<h2>Notre verdict final</h2>
-<table>
-<thead>
-<tr><th>Profil</th><th>Notre recommandation</th><th>Pourquoi</th></tr>
-</thead>
-<tbody>
-<tr><td>Budget serre, maison complete</td><td><strong>IKEA Dirigera</strong></td><td>8-15 EUR/ampoule, hub fiable, Matter, meilleur cout total</td></tr>
-<tr><td>Premium, automations avancees</td><td><strong>Philips Hue</strong></td><td>Qualite de lumiere superieure, ecosysteme le plus riche, Zigbee fiable</td></tr>
-<tr><td>1-5 ampoules, pas de hub</td><td><strong>TP-Link Tapo</strong></td><td>WiFi direct, prix mini, installation en 2 min</td></tr>
-<tr><td>Ambiance RGB, gaming, cinema</td><td><strong>Govee</strong></td><td>RGBIC, DreamView TV, panneaux design, le plus spectaculaire</td></tr>
-<tr><td>Maison mixte (eclairage + ambiance)</td><td><strong>Hue + Govee</strong></td><td>Hue pour l'eclairage fonctionnel, Govee pour le decoratif</td></tr>
-</tbody>
-</table>`,
-
-    en: `<h2>Introduction: Why Switch to Smart Lighting in 2026</h2>
-<p>Smart lighting is no longer a tech enthusiast's gadget — it has become the most accessible entry point to the connected home. Replacing your bulbs with smart models can <strong>reduce lighting energy consumption by 40 to 75%</strong> (LED switch + automations), create custom ambiences, and let you control everything from your phone or voice assistant.</p>
-<p>But in 2026, the market is crowded. Four ecosystems dominate: <strong>Philips Hue</strong> (the historic premium choice), <strong>IKEA Dirigera</strong> (Scandinavian value), <strong>TP-Link Tapo</strong> (affordable hub-free), and <strong>Govee</strong> (the RGB spectacle king). Which should you choose? This comparison lays out prices, quality, compatibility and features. For more, see our <a href="/en/blog/guide-domotique-economie-energie-2026">home automation energy guide</a> and <a href="/en/blog/comparatif-smart-plugs-mesure-energie">smart plug comparison</a>.</p>
-
-<h2>Full Comparison Table: The 4 Ecosystems</h2>
-<table>
-<thead>
-<tr><th>Criterion</th><th>Philips Hue</th><th>IKEA Dirigera</th><th>TP-Link Tapo</th><th>Govee</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>E27 White Bulb Price</strong></td><td>£15 – £20</td><td>£6 – £8</td><td>£7 – £10</td><td>£10 – £13</td></tr>
-<tr><td><strong>E27 Colour Bulb Price</strong></td><td>£35 – £50</td><td>£12 – £15</td><td>£12 – £16</td><td>£13 – £17</td></tr>
-<tr><td><strong>Hub Required</strong></td><td>Yes (Hue Bridge, ~£45)</td><td>Yes (IKEA Dirigera, ~£50)</td><td>No (WiFi direct)</td><td>No (WiFi/BT)</td></tr>
-<tr><td><strong>Protocol</strong></td><td>Zigbee + Matter</td><td>Zigbee + Matter</td><td>WiFi + Matter</td><td>WiFi + BT</td></tr>
-<tr><td><strong>Max Bulbs</strong></td><td>50 per bridge</td><td>No official limit</td><td>~32 per router</td><td>~15 per app</td></tr>
-<tr><td><strong>Matter Support</strong></td><td>Yes (since 2023)</td><td>Yes (since 2024)</td><td>Yes (2025+ models)</td><td>Partial (2026)</td></tr>
-<tr><td><strong>Alexa / Google / HomeKit</strong></td><td>Yes / Yes / Yes</td><td>Yes / Yes / Yes (via Matter)</td><td>Yes / Yes / Yes (via Matter)</td><td>Yes / Yes / No native</td></tr>
-<tr><td><strong>Home Assistant</strong></td><td>Excellent (native Zigbee)</td><td>Good (Zigbee)</td><td>Good (WiFi)</td><td>Fair (cloud)</td></tr>
-<tr><td><strong>Light Quality</strong></td><td>Excellent (CRI 80+)</td><td>Good (CRI 80)</td><td>Decent (CRI 75-80)</td><td>Good RGB, average white</td></tr>
-<tr><td><strong>Product Range</strong></td><td>Very wide (150+ products)</td><td>Medium (40+ products)</td><td>Medium (30+ products)</td><td>Wide in RGB/strips</td></tr>
-</tbody>
-</table>
-
-<h2>Philips Hue: The Unbeatable Premium</h2>
-<h3>Strengths</h3>
-<p>Philips Hue remains the absolute benchmark in 2026. Its ecosystem is the most mature, reliable and extensive. The <strong>Hue Bridge</strong> uses Zigbee, freeing your WiFi and ensuring ultra-fast response times (<200 ms). The range covers everything: E27, E14, GU10 bulbs, LED strips, table lamps (Hue Go), outdoor lights, and even recessed fixtures.</p>
-<p>Light quality is unmatched: colour rendering (CRI 80+), 16 million colours, adjustable white from 2000K to 6500K. <strong>Hue Labs</strong> and <strong>automations</strong> (gradual wake-up, presence simulation, film/music sync) are the most advanced on the market.</p>
-
-<h3>Weaknesses</h3>
-<p>The price. A White Ambiance E27 costs £20, a Colour £50. Outfitting a house with 15 bulbs costs £250-£750 + the Bridge at £45.</p>
-
-<h3>Best Products 2026</h3>
-<ul>
-<li><strong>Hue White Ambiance E27:</strong> ~£20, adjustable white 2200-6500K, 800 lm.</li>
-<li><strong>Hue White & Color Ambiance E27:</strong> ~£45, 16M colours, 1100 lm.</li>
-<li><strong>Hue Gradient Lightstrip 2m:</strong> ~£75, multizone colour.</li>
-<li><strong>Hue Bridge:</strong> ~£45, controls up to 50 Zigbee accessories.</li>
-</ul>
-
-<h2>IKEA Dirigera: Unbeatable Value</h2>
-<h3>Strengths</h3>
-<p>IKEA completely rebuilt its smart home ecosystem with the <strong>Dirigera</strong> hub. Value is outstanding: a white smart E27 bulb for <strong>£6</strong>, colour for <strong>£12</strong>. That is 2-3x cheaper than Philips Hue with honest performance.</p>
-<p>Dirigera supports Zigbee and Matter, works with Alexa, Google and Apple HomeKit (via Matter). The IKEA Home Smart app improved enormously in 2025-2026.</p>
-
-<h3>Weaknesses</h3>
-<p>Narrower range than Hue, fewer automation options, no gradient strips, light quality is good but not exceptional.</p>
-
-<h3>Best Products 2026</h3>
-<ul>
-<li><strong>TRADFRI E27 Warm White 1055 lm:</strong> ~£6. Unbeatable price.</li>
-<li><strong>TRADFRI E27 White Spectrum:</strong> ~£8, adjustable 2200-4000K.</li>
-<li><strong>TRADFRI E27 Colour:</strong> ~£12, 16M colours. Best value on the market.</li>
-<li><strong>IKEA Dirigera Hub:</strong> ~£50, Zigbee + Matter.</li>
-</ul>
-
-<h2>TP-Link Tapo: Simple, Hub-Free, Affordable</h2>
-<h3>Strengths</h3>
-<p>TP-Link Tapo is ideal for those who want no hub: bulbs connect directly via <strong>WiFi</strong>. Installation takes 2 minutes — download app, scan QR code, connect to WiFi. Prices are very competitive (colour E27 at £12), and Matter support (since 2025) opens doors to Alexa, Google and HomeKit.</p>
-
-<h3>Weaknesses</h3>
-<p>WiFi is a drawback above 10-15 bulbs: each occupies an IP address on your router. Light quality (CRI 75-80) is behind Hue.</p>
-
-<h3>Best Products 2026</h3>
-<ul>
-<li><strong>Tapo L530E E27 Colour:</strong> ~£12, 16M colours, 806 lm, WiFi.</li>
-<li><strong>Tapo L510E E27 Dimmable White:</strong> ~£7, 806 lm. Cheapest on the market.</li>
-<li><strong>Tapo L630 GU10 Colour:</strong> ~£10, 350 lm.</li>
-<li><strong>Tapo L900-5 LED Strip 5m:</strong> ~£18, RGB.</li>
-</ul>
-
-<h2>Govee: The RGB and Ambiance King</h2>
-<h3>Strengths</h3>
-<p>Govee specialises in <strong>RGB ambient lighting</strong>. RGBIC strips (independent colours per segment), light bars, hexagonal panels, table lamps — everything is designed for spectacular ambience. The <strong>DreamView</strong> system syncs lighting with your TV screen in real time via an integrated camera.</p>
-
-<h3>Weaknesses</h3>
-<p>Govee excels in RGB ambience but is average in functional white lighting. No Zigbee, no centralised hub, Matter arriving slowly. No native HomeKit.</p>
-
-<h3>Best Products 2026</h3>
-<ul>
-<li><strong>Govee RGBIC LED Strip 5m:</strong> ~£22, independent segments, app, Alexa/Google.</li>
-<li><strong>Govee Glide Hexa Pro (10 panels):</strong> ~£160, hexagonal wall panels.</li>
-<li><strong>Govee DreamView T1:</strong> ~£60, TV sync, built-in camera.</li>
-<li><strong>Govee E27 RGBIC:</strong> ~£13, 16M colours, dynamic effects.</li>
-</ul>
-
-<h2>Matter: The Protocol Changing Everything in 2026</h2>
-<p><strong>Matter</strong> is the universal smart home standard backed by Apple, Google, Amazon and Samsung. In 2026, it lets devices from different ecosystems communicate. A Tapo bulb can be controlled from Apple HomeKit, an IKEA bulb from Google Home.</p>
-
-<h2>Energy Savings: Is Smart Lighting Worth It?</h2>
-<table>
-<thead>
-<tr><th>Scenario</th><th>Old Consumption (Halogen)</th><th>Smart LED Consumption</th><th>Annual Saving</th></tr>
-</thead>
-<tbody>
-<tr><td>10 bulbs, 4h/day</td><td>60W x 10 x 4h x 365 = 876 kWh</td><td>9W x 10 x 3h* x 365 = 98 kWh</td><td>778 kWh = ~£187</td></tr>
-<tr><td>5 bulbs, 3h/day</td><td>60W x 5 x 3h x 365 = 328 kWh</td><td>9W x 5 x 2h* x 365 = 33 kWh</td><td>295 kWh = ~£71</td></tr>
-</tbody>
-</table>
-<p><em>* Automations (auto-off, presence sensors, scheduling) reduce effective usage by 25-35%.</em></p>
-
-<h2>Our Final Verdict</h2>
-<table>
-<thead>
-<tr><th>Profile</th><th>Our Recommendation</th><th>Why</th></tr>
-</thead>
-<tbody>
-<tr><td>Tight budget, whole house</td><td><strong>IKEA Dirigera</strong></td><td>£6-12/bulb, reliable hub, Matter, lowest total cost</td></tr>
-<tr><td>Premium, advanced automations</td><td><strong>Philips Hue</strong></td><td>Superior light quality, richest ecosystem, reliable Zigbee</td></tr>
-<tr><td>1-5 bulbs, no hub</td><td><strong>TP-Link Tapo</strong></td><td>WiFi direct, lowest price, 2-min setup</td></tr>
-<tr><td>RGB ambience, gaming, cinema</td><td><strong>Govee</strong></td><td>RGBIC, DreamView TV, design panels, most spectacular</td></tr>
-<tr><td>Mixed home (functional + ambience)</td><td><strong>Hue + Govee</strong></td><td>Hue for functional lighting, Govee for decorative</td></tr>
-</tbody>
-</table>`,
-
-    de: `<h2>Einleitung: Warum 2026 auf smarte Beleuchtung umsteigen?</h2>
-<p>Smarte Beleuchtung ist kein Technik-Spielzeug mehr — sie ist der zuganglichste Einstieg ins Smart Home. Smarte LED-Lampen ersetzen herkommliche Gluhbirnen und <strong>senken den Beleuchtungsstromverbrauch um 40-75%</strong> (LED-Umstieg + Automationen). Dazu kommen individuelle Lichtstimmungen und Steuerung per Smartphone oder Sprache.</p>
-<p>2026 dominieren vier Okosysteme: <strong>Philips Hue</strong> (der Premium-Klassiker), <strong>IKEA Dirigera</strong> (skandinavisches Preis-Leistungs-Wunder), <strong>TP-Link Tapo</strong> (erschwinglich ohne Hub) und <strong>Govee</strong> (der RGB-Konig). Welches passt zu Ihnen? Erganzend: unser <a href="/de/blog/guide-domotique-economie-energie-2026">Ratgeber Hausautomation und Energiesparen</a>.</p>
-
-<h2>Vergleichstabelle: Die 4 Okosysteme</h2>
-<table>
-<thead>
-<tr><th>Kriterium</th><th>Philips Hue</th><th>IKEA Dirigera</th><th>TP-Link Tapo</th><th>Govee</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>E27 Weiss Preis</strong></td><td>17 – 22 EUR</td><td>8 – 10 EUR</td><td>9 – 12 EUR</td><td>12 – 15 EUR</td></tr>
-<tr><td><strong>E27 Farbe Preis</strong></td><td>40 – 55 EUR</td><td>15 – 18 EUR</td><td>14 – 18 EUR</td><td>15 – 20 EUR</td></tr>
-<tr><td><strong>Hub notig</strong></td><td>Ja (Hue Bridge, ~50 EUR)</td><td>Ja (IKEA Dirigera, ~60 EUR)</td><td>Nein (WiFi direkt)</td><td>Nein (WiFi/BT)</td></tr>
-<tr><td><strong>Protokoll</strong></td><td>Zigbee + Matter</td><td>Zigbee + Matter</td><td>WiFi + Matter</td><td>WiFi + BT</td></tr>
-<tr><td><strong>Max Lampen</strong></td><td>50 pro Bridge</td><td>Keine offizielle Grenze</td><td>~32 pro Router</td><td>~15 pro App</td></tr>
-<tr><td><strong>Matter</strong></td><td>Ja (seit 2023)</td><td>Ja (seit 2024)</td><td>Ja (2025+ Modelle)</td><td>Teilweise (2026)</td></tr>
-<tr><td><strong>Alexa / Google / HomeKit</strong></td><td>Ja / Ja / Ja</td><td>Ja / Ja / Ja (via Matter)</td><td>Ja / Ja / Ja (via Matter)</td><td>Ja / Ja / Nein nativ</td></tr>
-<tr><td><strong>Lichtqualitat</strong></td><td>Ausgezeichnet (CRI 80+)</td><td>Gut (CRI 80)</td><td>Ordentlich (CRI 75-80)</td><td>Gut RGB, durchschnitt. Weiss</td></tr>
-</tbody>
-</table>
-
-<h2>Philips Hue: Der unangefochtene Premium-Standard</h2>
-<p>Philips Hue bleibt 2026 die absolute Referenz. Das reifste, zuverlassigste und umfangreichste Okosystem. Der <strong>Hue Bridge</strong> nutzt Zigbee — Ihr WiFi bleibt frei, Reaktionszeiten unter 200 ms. Die Palette umfasst E27, E14, GU10, LED-Streifen, Tischlampen (Hue Go), Aussenleuchten und Einbauleuchten.</p>
-<p><strong>Starken:</strong> Beste Lichtqualitat (CRI 80+), 16 Mio. Farben, 2000-6500K, fortschrittlichste Automationen. <strong>Schwachen:</strong> Teuer — E27 White Ambiance 22 EUR, Color 55 EUR.</p>
-<ul>
-<li><strong>Hue White Ambiance E27:</strong> ~22 EUR, 800 lm, 2200-6500K.</li>
-<li><strong>Hue White & Color E27:</strong> ~50 EUR, 1100 lm, 16M Farben.</li>
-<li><strong>Hue Gradient Lightstrip 2m:</strong> ~85 EUR, Multizone-Farben.</li>
-</ul>
-
-<h2>IKEA Dirigera: Unschlagbares Preis-Leistungs-Verhaltnis</h2>
-<p>IKEA hat sein Smart-Home-Okosystem mit dem <strong>Dirigera</strong>-Hub komplett uberarbeitet. Das Preis-Leistungs-Verhaltnis ist verheerend gut: E27 Weiss <strong>8 EUR</strong>, Farbe <strong>15 EUR</strong> — 2-3x gunstiger als Hue.</p>
-<p><strong>Starken:</strong> Gunstigste Lampen, Zigbee + Matter, Alexa/Google/HomeKit. <strong>Schwachen:</strong> Kleinere Palette, einfachere Automationen.</p>
-<ul>
-<li><strong>TRADFRI E27 Warmweiss 1055 lm:</strong> ~8 EUR.</li>
-<li><strong>TRADFRI E27 Weissspektrum:</strong> ~10 EUR, 2200-4000K.</li>
-<li><strong>TRADFRI E27 Farbe:</strong> ~15 EUR, 16M Farben.</li>
-<li><strong>IKEA Dirigera Hub:</strong> ~60 EUR.</li>
-</ul>
-
-<h2>TP-Link Tapo: Einfach, ohne Hub, gunstig</h2>
-<p>Tapo-Lampen verbinden sich direkt per <strong>WiFi</strong> — kein Hub notig. Installation in 2 Minuten. Preise wettbewerbsfahig (E27 Farbe ab 14 EUR). Matter-Unterstutzung seit 2025.</p>
-<p><strong>Starken:</strong> Kein Hub, gunstig, schnelle Einrichtung. <strong>Schwachen:</strong> WiFi-Belastung bei 10+ Lampen, Lichtqualitat hinter Hue.</p>
-<ul>
-<li><strong>Tapo L530E E27 Farbe:</strong> ~14 EUR, 806 lm.</li>
-<li><strong>Tapo L510E E27 Dimmbar:</strong> ~9 EUR, 806 lm.</li>
-<li><strong>Tapo L900-5 LED-Streifen 5m:</strong> ~22 EUR.</li>
-</ul>
-
-<h2>Govee: Der RGB- und Ambiance-Konig</h2>
-<p>Govee ist der Spezialist fur <strong>RGB-Ambientebeleuchtung</strong>. RGBIC-Streifen, Lichtleisten, Hexagon-Panels, DreamView-TV-Synchronisation — alles fur spektakulare Stimmungen.</p>
-<p><strong>Starken:</strong> Beste RGB-Effekte, DreamView, gunstig. <strong>Schwachen:</strong> Durchschnittliches Weiss, kein Zigbee, kein HomeKit nativ.</p>
-<ul>
-<li><strong>Govee RGBIC Strip 5m:</strong> ~25 EUR.</li>
-<li><strong>Govee Glide Hexa Pro (10 Panels):</strong> ~180 EUR.</li>
-<li><strong>Govee DreamView T1:</strong> ~70 EUR, TV-Sync.</li>
-</ul>
-
-<h2>Energieeinsparungen</h2>
-<table>
-<thead>
-<tr><th>Szenario</th><th>Alt (Halogen)</th><th>Smart LED</th><th>Jahrliche Ersparnis</th></tr>
-</thead>
-<tbody>
-<tr><td>10 Lampen, 4h/Tag</td><td>876 kWh</td><td>98 kWh</td><td>778 kWh = ~233 EUR</td></tr>
-<tr><td>5 Lampen, 3h/Tag</td><td>328 kWh</td><td>33 kWh</td><td>295 kWh = ~89 EUR</td></tr>
-</tbody>
-</table>
-
-<h2>Unser Fazit</h2>
-<table>
-<thead>
-<tr><th>Profil</th><th>Empfehlung</th><th>Warum</th></tr>
-</thead>
-<tbody>
-<tr><td>Kleines Budget, ganzes Haus</td><td><strong>IKEA Dirigera</strong></td><td>8-15 EUR/Lampe, niedrigste Gesamtkosten</td></tr>
-<tr><td>Premium, fortgeschrittene Automationen</td><td><strong>Philips Hue</strong></td><td>Beste Lichtqualitat, reichstes Okosystem</td></tr>
-<tr><td>1-5 Lampen, kein Hub</td><td><strong>TP-Link Tapo</strong></td><td>WiFi direkt, gunstigster Preis</td></tr>
-<tr><td>RGB-Ambiance, Gaming, Kino</td><td><strong>Govee</strong></td><td>RGBIC, DreamView, spektakular</td></tr>
-</tbody>
-</table>`,
-
-    es: `<h2>Introduccion: Por que pasarse a la iluminacion inteligente en 2026</h2>
-<p>La iluminacion inteligente ya no es un capricho de entusiastas tecnologicos — se ha convertido en la puerta de entrada mas accesible al hogar conectado. Sustituir tus bombillas por modelos inteligentes permite <strong>reducir el consumo de iluminacion un 40-75%</strong> (cambio a LED + automatizaciones), crear ambientes a medida y controlarlo todo desde el movil o con la voz.</p>
-<p>En 2026, cuatro ecosistemas dominan el mercado: <strong>Philips Hue</strong> (el premium historico), <strong>IKEA Dirigera</strong> (la relacion calidad-precio escandinava), <strong>TP-Link Tapo</strong> (accesible sin hub) y <strong>Govee</strong> (el rey del RGB espectacular). Cual elegir? Esta comparativa detalla precios, calidad, compatibilidad y funciones.</p>
-
-<h2>Tabla comparativa global: Los 4 ecosistemas</h2>
-<table>
-<thead>
-<tr><th>Criterio</th><th>Philips Hue</th><th>IKEA Dirigera</th><th>TP-Link Tapo</th><th>Govee</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>Bombilla E27 blanca</strong></td><td>17 – 22 EUR</td><td>8 – 10 EUR</td><td>9 – 12 EUR</td><td>12 – 15 EUR</td></tr>
-<tr><td><strong>Bombilla E27 color</strong></td><td>40 – 55 EUR</td><td>15 – 18 EUR</td><td>14 – 18 EUR</td><td>15 – 20 EUR</td></tr>
-<tr><td><strong>Hub necesario</strong></td><td>Si (Hue Bridge, ~50 EUR)</td><td>Si (IKEA Dirigera, ~60 EUR)</td><td>No (WiFi directo)</td><td>No (WiFi/BT)</td></tr>
-<tr><td><strong>Protocolo</strong></td><td>Zigbee + Matter</td><td>Zigbee + Matter</td><td>WiFi + Matter</td><td>WiFi + BT</td></tr>
-<tr><td><strong>Matter</strong></td><td>Si (desde 2023)</td><td>Si (desde 2024)</td><td>Si (modelos 2025+)</td><td>Parcial (2026)</td></tr>
-<tr><td><strong>Alexa / Google / HomeKit</strong></td><td>Si / Si / Si</td><td>Si / Si / Si (via Matter)</td><td>Si / Si / Si (via Matter)</td><td>Si / Si / No nativo</td></tr>
-<tr><td><strong>Calidad de luz</strong></td><td>Excelente (CRI 80+)</td><td>Buena (CRI 80)</td><td>Correcta (CRI 75-80)</td><td>Buena RGB, media blanca</td></tr>
-</tbody>
-</table>
-
-<h2>Philips Hue: El premium imbatible</h2>
-<p>Philips Hue sigue siendo la referencia absoluta en 2026. Ecosistema mas maduro, fiable y extenso. El <strong>Hue Bridge</strong> usa Zigbee, liberando tu WiFi. Calidad de luz inigualable (CRI 80+), 16 millones de colores, automatizaciones avanzadas.</p>
-<p><strong>Debilidad:</strong> El precio. E27 White Ambiance 22 EUR, Color 55 EUR.</p>
-<ul>
-<li><strong>Hue White Ambiance E27:</strong> ~22 EUR, 2200-6500K, 800 lm.</li>
-<li><strong>Hue White & Color E27:</strong> ~50 EUR, 16M colores, 1100 lm.</li>
-<li><strong>Hue Gradient Lightstrip 2m:</strong> ~85 EUR.</li>
-</ul>
-
-<h2>IKEA Dirigera: Relacion calidad-precio imbatible</h2>
-<p>IKEA rediseno su ecosistema con el hub <strong>Dirigera</strong>. Precio demoledor: E27 blanca <strong>8 EUR</strong>, color <strong>15 EUR</strong>. Compatible Zigbee, Matter, Alexa, Google y HomeKit.</p>
-<ul>
-<li><strong>TRADFRI E27 Blanco Calido 1055 lm:</strong> ~8 EUR.</li>
-<li><strong>TRADFRI E27 Color:</strong> ~15 EUR, 16M colores.</li>
-<li><strong>IKEA Dirigera Hub:</strong> ~60 EUR.</li>
-</ul>
-
-<h2>TP-Link Tapo: Simple, sin hub y asequible</h2>
-<p>Bombillas WiFi directas, sin hub. Instalacion en 2 minutos. E27 color desde 14 EUR. Compatible Matter desde 2025.</p>
-<ul>
-<li><strong>Tapo L530E E27 Color:</strong> ~14 EUR, 806 lm.</li>
-<li><strong>Tapo L510E E27 Regulable:</strong> ~9 EUR.</li>
-<li><strong>Tapo L900-5 Tira LED 5m:</strong> ~22 EUR.</li>
-</ul>
-
-<h2>Govee: El rey del RGB y la ambientacion</h2>
-<p>Especialista en <strong>iluminacion ambiental RGB</strong>. Tiras RGBIC, paneles hexagonales, sincronizacion TV DreamView. Espectacular para gaming y cine.</p>
-<ul>
-<li><strong>Govee RGBIC Strip 5m:</strong> ~25 EUR.</li>
-<li><strong>Govee Glide Hexa Pro (10 paneles):</strong> ~180 EUR.</li>
-<li><strong>Govee DreamView T1:</strong> ~70 EUR.</li>
-</ul>
-
-<h2>Ahorro energetico</h2>
-<table>
-<thead>
-<tr><th>Escenario</th><th>Consumo antiguo (halogeno)</th><th>LED inteligente</th><th>Ahorro anual</th></tr>
-</thead>
-<tbody>
-<tr><td>10 bombillas, 4h/dia</td><td>876 kWh</td><td>98 kWh</td><td>778 kWh = ~156 EUR</td></tr>
-<tr><td>5 bombillas, 3h/dia</td><td>328 kWh</td><td>33 kWh</td><td>295 kWh = ~59 EUR</td></tr>
-</tbody>
-</table>
-
-<h2>Nuestro veredicto final</h2>
-<table>
-<thead>
-<tr><th>Perfil</th><th>Recomendacion</th><th>Por que</th></tr>
-</thead>
-<tbody>
-<tr><td>Presupuesto ajustado, casa completa</td><td><strong>IKEA Dirigera</strong></td><td>8-15 EUR/bombilla, menor coste total</td></tr>
-<tr><td>Premium, automatizaciones avanzadas</td><td><strong>Philips Hue</strong></td><td>Mejor calidad de luz, ecosistema mas rico</td></tr>
-<tr><td>1-5 bombillas, sin hub</td><td><strong>TP-Link Tapo</strong></td><td>WiFi directo, precio minimo</td></tr>
-<tr><td>Ambiente RGB, gaming, cine</td><td><strong>Govee</strong></td><td>RGBIC, DreamView, el mas espectacular</td></tr>
-</tbody>
-</table>`,
-
-    it: `<h2>Introduzione: Perche passare all'illuminazione smart nel 2026</h2>
-<p>L'illuminazione smart non e piu un giocattolo per appassionati di tecnologia — e diventata il punto d'ingresso piu accessibile alla casa connessa. Sostituire le lampadine con modelli intelligenti permette di <strong>ridurre il consumo di illuminazione del 40-75%</strong> (passaggio a LED + automazioni), creare atmosfere personalizzate e controllare tutto dallo smartphone o con la voce.</p>
-<p>Nel 2026 quattro ecosistemi dominano: <strong>Philips Hue</strong> (il premium storico), <strong>IKEA Dirigera</strong> (il rapporto qualita-prezzo scandinavo), <strong>TP-Link Tapo</strong> (accessibile senza hub) e <strong>Govee</strong> (il re dell'RGB spettacolare). Quale scegliere?</p>
-
-<h2>Tabella comparativa globale: I 4 ecosistemi</h2>
-<table>
-<thead>
-<tr><th>Criterio</th><th>Philips Hue</th><th>IKEA Dirigera</th><th>TP-Link Tapo</th><th>Govee</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>Lampadina E27 bianca</strong></td><td>17 – 22 EUR</td><td>8 – 10 EUR</td><td>9 – 12 EUR</td><td>12 – 15 EUR</td></tr>
-<tr><td><strong>Lampadina E27 colore</strong></td><td>40 – 55 EUR</td><td>15 – 18 EUR</td><td>14 – 18 EUR</td><td>15 – 20 EUR</td></tr>
-<tr><td><strong>Hub necessario</strong></td><td>Si (Hue Bridge, ~50 EUR)</td><td>Si (IKEA Dirigera, ~60 EUR)</td><td>No (WiFi diretto)</td><td>No (WiFi/BT)</td></tr>
-<tr><td><strong>Protocollo</strong></td><td>Zigbee + Matter</td><td>Zigbee + Matter</td><td>WiFi + Matter</td><td>WiFi + BT</td></tr>
-<tr><td><strong>Matter</strong></td><td>Si (dal 2023)</td><td>Si (dal 2024)</td><td>Si (modelli 2025+)</td><td>Parziale (2026)</td></tr>
-<tr><td><strong>Alexa / Google / HomeKit</strong></td><td>Si / Si / Si</td><td>Si / Si / Si (via Matter)</td><td>Si / Si / Si (via Matter)</td><td>Si / Si / No nativo</td></tr>
-<tr><td><strong>Qualita luce</strong></td><td>Eccellente (CRI 80+)</td><td>Buona (CRI 80)</td><td>Discreta (CRI 75-80)</td><td>Buona RGB, media bianca</td></tr>
-</tbody>
-</table>
-
-<h2>Philips Hue: Il premium imbattibile</h2>
-<p>Philips Hue resta il riferimento assoluto nel 2026. Ecosistema piu maturo, affidabile ed esteso. Il <strong>Hue Bridge</strong> usa Zigbee, liberando il WiFi. Qualita di luce impareggiabile (CRI 80+), 16 milioni di colori, automazioni avanzatissime.</p>
-<p><strong>Debolezza:</strong> Il prezzo. E27 White Ambiance 22 EUR, Color 55 EUR.</p>
-<ul>
-<li><strong>Hue White Ambiance E27:</strong> ~22 EUR, 2200-6500K, 800 lm.</li>
-<li><strong>Hue White & Color E27:</strong> ~50 EUR, 16M colori, 1100 lm.</li>
-<li><strong>Hue Gradient Lightstrip 2m:</strong> ~85 EUR.</li>
-</ul>
-
-<h2>IKEA Dirigera: Rapporto qualita-prezzo imbattibile</h2>
-<p>IKEA ha rinnovato completamente il suo ecosistema con l'hub <strong>Dirigera</strong>. Prezzo devastante: E27 bianca <strong>8 EUR</strong>, colore <strong>15 EUR</strong>. Compatibile Zigbee, Matter, Alexa, Google e HomeKit.</p>
-<ul>
-<li><strong>TRADFRI E27 Bianco Caldo 1055 lm:</strong> ~8 EUR.</li>
-<li><strong>TRADFRI E27 Colore:</strong> ~15 EUR, 16M colori.</li>
-<li><strong>IKEA Dirigera Hub:</strong> ~60 EUR.</li>
-</ul>
-
-<h2>TP-Link Tapo: Semplice, senza hub, accessibile</h2>
-<p>Lampadine WiFi dirette, nessun hub. Installazione in 2 minuti. E27 colore da 14 EUR. Compatibilita Matter dal 2025.</p>
-<ul>
-<li><strong>Tapo L530E E27 Colore:</strong> ~14 EUR, 806 lm.</li>
-<li><strong>Tapo L510E E27 Dimmerabile:</strong> ~9 EUR.</li>
-<li><strong>Tapo L900-5 Striscia LED 5m:</strong> ~22 EUR.</li>
-</ul>
-
-<h2>Govee: Il re dell'RGB e dell'atmosfera</h2>
-<p>Specialista in <strong>illuminazione ambientale RGB</strong>. Strisce RGBIC, pannelli esagonali, sincronizzazione TV DreamView. Spettacolare per gaming e cinema.</p>
-<ul>
-<li><strong>Govee RGBIC Strip 5m:</strong> ~25 EUR.</li>
-<li><strong>Govee Glide Hexa Pro (10 pannelli):</strong> ~180 EUR.</li>
-<li><strong>Govee DreamView T1:</strong> ~70 EUR.</li>
-</ul>
-
-<h2>Risparmio energetico</h2>
-<table>
-<thead>
-<tr><th>Scenario</th><th>Consumo vecchio (alogena)</th><th>LED smart</th><th>Risparmio annuale</th></tr>
-</thead>
-<tbody>
-<tr><td>10 lampadine, 4h/giorno</td><td>876 kWh</td><td>98 kWh</td><td>778 kWh = ~194 EUR</td></tr>
-<tr><td>5 lampadine, 3h/giorno</td><td>328 kWh</td><td>33 kWh</td><td>295 kWh = ~74 EUR</td></tr>
-</tbody>
-</table>
-
-<h2>Il nostro verdetto finale</h2>
-<table>
-<thead>
-<tr><th>Profilo</th><th>Raccomandazione</th><th>Perche</th></tr>
-</thead>
-<tbody>
-<tr><td>Budget limitato, casa intera</td><td><strong>IKEA Dirigera</strong></td><td>8-15 EUR/lampadina, costo totale piu basso</td></tr>
-<tr><td>Premium, automazioni avanzate</td><td><strong>Philips Hue</strong></td><td>Migliore qualita di luce, ecosistema piu ricco</td></tr>
-<tr><td>1-5 lampadine, senza hub</td><td><strong>TP-Link Tapo</strong></td><td>WiFi diretto, prezzo minimo</td></tr>
-<tr><td>Ambiente RGB, gaming, cinema</td><td><strong>Govee</strong></td><td>RGBIC, DreamView, il piu spettacolare</td></tr>
-</tbody>
-</table>`,
-
-    nl: `<h2>Inleiding: Waarom overstappen op slimme verlichting in 2026</h2>
-<p>Slimme verlichting is geen gadget meer voor techliefhebbers — het is het meest toegankelijke startpunt van het slimme huis geworden. Slimme LED-lampen vervangen oude gloeilampen en <strong>verlagen het verlichtingsverbruik met 40-75%</strong> (LED-overgang + automatiseringen). Daarnaast kun je sferen op maat creeren en alles bedienen via je telefoon of stemassistent.</p>
-<p>In 2026 domineren vier ecosystemen: <strong>Philips Hue</strong> (de historische premium), <strong>IKEA Dirigera</strong> (Scandinavische prijs-kwaliteit), <strong>TP-Link Tapo</strong> (betaalbaar zonder hub) en <strong>Govee</strong> (de RGB-koning). Welke past bij jou? Zie ook onze <a href="/nl/blog/guide-domotique-economie-energie-2026">gids domotica en energiebesparing</a>.</p>
-
-<h2>Vergelijkingstabel: De 4 ecosystemen</h2>
-<table>
-<thead>
-<tr><th>Criterium</th><th>Philips Hue</th><th>IKEA Dirigera</th><th>TP-Link Tapo</th><th>Govee</th></tr>
-</thead>
-<tbody>
-<tr><td><strong>E27 Wit Prijs</strong></td><td>17 – 22 EUR</td><td>8 – 10 EUR</td><td>9 – 12 EUR</td><td>12 – 15 EUR</td></tr>
-<tr><td><strong>E27 Kleur Prijs</strong></td><td>40 – 55 EUR</td><td>15 – 18 EUR</td><td>14 – 18 EUR</td><td>15 – 20 EUR</td></tr>
-<tr><td><strong>Hub nodig</strong></td><td>Ja (Hue Bridge, ~50 EUR)</td><td>Ja (IKEA Dirigera, ~60 EUR)</td><td>Nee (WiFi direct)</td><td>Nee (WiFi/BT)</td></tr>
-<tr><td><strong>Protocol</strong></td><td>Zigbee + Matter</td><td>Zigbee + Matter</td><td>WiFi + Matter</td><td>WiFi + BT</td></tr>
-<tr><td><strong>Matter</strong></td><td>Ja (sinds 2023)</td><td>Ja (sinds 2024)</td><td>Ja (2025+ modellen)</td><td>Gedeeltelijk (2026)</td></tr>
-<tr><td><strong>Alexa / Google / HomeKit</strong></td><td>Ja / Ja / Ja</td><td>Ja / Ja / Ja (via Matter)</td><td>Ja / Ja / Ja (via Matter)</td><td>Ja / Ja / Nee natief</td></tr>
-<tr><td><strong>Lichtkwaliteit</strong></td><td>Uitstekend (CRI 80+)</td><td>Goed (CRI 80)</td><td>Redelijk (CRI 75-80)</td><td>Goed RGB, gemiddeld wit</td></tr>
-</tbody>
-</table>
-
-<h2>Philips Hue: De onaantastbare premium</h2>
-<p>Philips Hue blijft in 2026 de absolute referentie. Het rijpste, betrouwbaarste en meest uitgebreide ecosysteem. De <strong>Hue Bridge</strong> gebruikt Zigbee — je WiFi blijft vrij. Ongeevenaarde lichtkwaliteit (CRI 80+), 16 miljoen kleuren, geavanceerde automatiseringen.</p>
-<p><strong>Zwakte:</strong> De prijs. E27 White Ambiance 22 EUR, Color 55 EUR.</p>
-<ul>
-<li><strong>Hue White Ambiance E27:</strong> ~22 EUR, 2200-6500K, 800 lm.</li>
-<li><strong>Hue White & Color E27:</strong> ~50 EUR, 16M kleuren, 1100 lm.</li>
-<li><strong>Hue Gradient Lightstrip 2m:</strong> ~85 EUR.</li>
-</ul>
-
-<h2>IKEA Dirigera: Onverslaanbare prijs-kwaliteit</h2>
-<p>IKEA vernieuwde zijn ecosysteem volledig met de <strong>Dirigera</strong>-hub. Onklopbare prijs: E27 wit <strong>8 EUR</strong>, kleur <strong>15 EUR</strong>. Compatibel met Zigbee, Matter, Alexa, Google en HomeKit.</p>
-<ul>
-<li><strong>TRADFRI E27 Warm Wit 1055 lm:</strong> ~8 EUR.</li>
-<li><strong>TRADFRI E27 Kleur:</strong> ~15 EUR, 16M kleuren.</li>
-<li><strong>IKEA Dirigera Hub:</strong> ~60 EUR.</li>
-</ul>
-
-<h2>TP-Link Tapo: Simpel, zonder hub, betaalbaar</h2>
-<p>Tapo-lampen verbinden direct via <strong>WiFi</strong> — geen hub nodig. Installatie in 2 minuten. E27 kleur vanaf 14 EUR. Matter-ondersteuning sinds 2025.</p>
-<ul>
-<li><strong>Tapo L530E E27 Kleur:</strong> ~14 EUR, 806 lm.</li>
-<li><strong>Tapo L510E E27 Dimbaar:</strong> ~9 EUR.</li>
-<li><strong>Tapo L900-5 LED-strip 5m:</strong> ~22 EUR.</li>
-</ul>
-
-<h2>Govee: De RGB- en sfeer-koning</h2>
-<p>Specialist in <strong>RGB-sfeerverlichting</strong>. RGBIC-strips, zeshoekige panelen, DreamView TV-synchronisatie. Spectaculair voor gaming en cinema.</p>
-<ul>
-<li><strong>Govee RGBIC Strip 5m:</strong> ~25 EUR.</li>
-<li><strong>Govee Glide Hexa Pro (10 panelen):</strong> ~180 EUR.</li>
-<li><strong>Govee DreamView T1:</strong> ~70 EUR.</li>
-</ul>
-
-<h2>Energiebesparing</h2>
-<table>
-<thead>
-<tr><th>Scenario</th><th>Oud verbruik (halogeen)</th><th>Smart LED</th><th>Jaarlijkse besparing</th></tr>
-</thead>
-<tbody>
-<tr><td>10 lampen, 4u/dag</td><td>876 kWh</td><td>98 kWh</td><td>778 kWh = ~194 EUR</td></tr>
-<tr><td>5 lampen, 3u/dag</td><td>328 kWh</td><td>33 kWh</td><td>295 kWh = ~74 EUR</td></tr>
-</tbody>
-</table>
-
-<h2>Ons eindoordeel</h2>
-<table>
-<thead>
-<tr><th>Profiel</th><th>Aanbeveling</th><th>Waarom</th></tr>
-</thead>
-<tbody>
-<tr><td>Krap budget, heel huis</td><td><strong>IKEA Dirigera</strong></td><td>8-15 EUR/lamp, laagste totaalkosten</td></tr>
-<tr><td>Premium, geavanceerde automatiseringen</td><td><strong>Philips Hue</strong></td><td>Beste lichtkwaliteit, rijkste ecosysteem</td></tr>
-<tr><td>1-5 lampen, geen hub</td><td><strong>TP-Link Tapo</strong></td><td>WiFi direct, laagste prijs</td></tr>
-<tr><td>RGB-sfeer, gaming, bioscoop</td><td><strong>Govee</strong></td><td>RGBIC, DreamView, meest spectaculair</td></tr>
-</tbody>
-</table>`,
-  },
-  faq: [
+  "datePublished": "2026-04-16",
+  "dateModified": "2026-10-09",
+  "readingTime": 8,
+  "images": [
     {
-      question: {
-        fr: 'Faut-il un hub pour l\'eclairage connecte ?',
-        en: 'Do you need a hub for smart lighting?',
-        de: 'Braucht man einen Hub fur smarte Beleuchtung?',
-        es: 'Se necesita un hub para la iluminacion inteligente?',
-        it: 'Serve un hub per l\'illuminazione smart?',
-        nl: 'Heb je een hub nodig voor slimme verlichting?',
-      },
-      answer: {
-        fr: 'Ca depend de l\'ecosysteme. Philips Hue et IKEA Dirigera necessitent un hub (Hue Bridge ~50 EUR, Dirigera ~60 EUR) qui utilise le protocole Zigbee — plus fiable et ne surcharge pas votre WiFi. TP-Link Tapo et Govee fonctionnent sans hub via WiFi direct, ce qui simplifie l\'installation mais peut surcharger votre routeur au-dela de 15-20 appareils. Pour 1-5 ampoules, le WiFi direct suffit. Au-dela, un hub Zigbee est recommande.',
-        en: 'It depends on the ecosystem. Philips Hue and IKEA Dirigera require a hub (Hue Bridge ~£45, Dirigera ~£50) using Zigbee — more reliable and does not burden your WiFi. TP-Link Tapo and Govee work without a hub via WiFi direct, which simplifies setup but can overload your router beyond 15-20 devices. For 1-5 bulbs, WiFi direct is fine. Beyond that, a Zigbee hub is recommended.',
-        de: 'Kommt auf das Okosystem an. Philips Hue und IKEA Dirigera benotigen einen Hub (Hue Bridge ~50 EUR, Dirigera ~60 EUR) mit Zigbee — zuverlassiger und belastet Ihr WiFi nicht. TP-Link Tapo und Govee funktionieren ohne Hub uber WiFi. Fur 1-5 Lampen reicht WiFi. Ab 15+ Geraten ist ein Zigbee-Hub empfehlenswert.',
-        es: 'Depende del ecosistema. Philips Hue e IKEA Dirigera necesitan hub (Hue Bridge ~50 EUR, Dirigera ~60 EUR) con Zigbee. TP-Link Tapo y Govee funcionan sin hub por WiFi directo. Para 1-5 bombillas, WiFi directo es suficiente. Mas de 15 dispositivos, mejor un hub Zigbee.',
-        it: 'Dipende dall\'ecosistema. Philips Hue e IKEA Dirigera richiedono un hub (Hue Bridge ~50 EUR, Dirigera ~60 EUR) con Zigbee. TP-Link Tapo e Govee funzionano senza hub via WiFi diretto. Per 1-5 lampadine, il WiFi diretto basta. Oltre 15 dispositivi, meglio un hub Zigbee.',
-        nl: 'Hangt af van het ecosysteem. Philips Hue en IKEA Dirigera vereisen een hub (Hue Bridge ~50 EUR, Dirigera ~60 EUR) met Zigbee. TP-Link Tapo en Govee werken zonder hub via WiFi. Voor 1-5 lampen is WiFi prima. Bij 15+ apparaten is een Zigbee-hub aanbevolen.',
-      },
-    },
-    {
-      question: {
-        fr: 'Quelle est l\'ampoule connectee la moins chere en 2026 ?',
-        en: 'What is the cheapest smart bulb in 2026?',
-        de: 'Welche ist die gunstigste smarte Gluhbirne 2026?',
-        es: 'Cual es la bombilla inteligente mas barata en 2026?',
-        it: 'Qual e la lampadina smart piu economica nel 2026?',
-        nl: 'Wat is de goedkoopste slimme lamp in 2026?',
-      },
-      answer: {
-        fr: 'L\'ampoule connectee la moins chere est l\'IKEA TRADFRI E27 blanc chaud a environ 8 EUR — mais elle necessite le hub Dirigera (60 EUR). Sans hub, la TP-Link Tapo L510E a 9 EUR est la plus accessible. En couleur, l\'IKEA TRADFRI E27 couleur a 15 EUR et la Tapo L530E a 14 EUR sont imbattables face aux 50 EUR de la Philips Hue Color.',
-        en: 'The cheapest smart bulb is the IKEA TRADFRI E27 warm white at around £6 — but it needs the Dirigera hub (£50). Without a hub, the TP-Link Tapo L510E at £7 is most accessible. For colour, IKEA TRADFRI E27 at £12 and Tapo L530E at £12 are unbeatable versus Philips Hue Color at £45.',
-        de: 'Die gunstigste smarte Lampe ist die IKEA TRADFRI E27 Warmweiss fur ca. 8 EUR — benotigt aber den Dirigera Hub (60 EUR). Ohne Hub ist die TP-Link Tapo L510E fur 9 EUR am gunstigsten. Bei Farbe sind IKEA TRADFRI (15 EUR) und Tapo L530E (14 EUR) unschlagbar gegenuber Hue Color (55 EUR).',
-        es: 'La bombilla inteligente mas barata es la IKEA TRADFRI E27 blanco calido por unos 8 EUR — necesita el hub Dirigera (60 EUR). Sin hub, la TP-Link Tapo L510E por 9 EUR. En color, IKEA TRADFRI (15 EUR) y Tapo L530E (14 EUR) son imbatibles frente a los 55 EUR de Hue Color.',
-        it: 'La lampadina smart piu economica e la IKEA TRADFRI E27 bianco caldo a circa 8 EUR — richiede pero l\'hub Dirigera (60 EUR). Senza hub, la TP-Link Tapo L510E a 9 EUR. Per i colori, IKEA TRADFRI (15 EUR) e Tapo L530E (14 EUR) sono imbattibili contro i 55 EUR della Hue Color.',
-        nl: 'De goedkoopste slimme lamp is de IKEA TRADFRI E27 warm wit voor ca. 8 EUR — vereist wel de Dirigera hub (60 EUR). Zonder hub is de TP-Link Tapo L510E voor 9 EUR het goedkoopst. Bij kleur zijn IKEA TRADFRI (15 EUR) en Tapo L530E (14 EUR) onverslaanbaar tegenover Hue Color (55 EUR).',
-      },
-    },
-    {
-      question: {
-        fr: 'L\'eclairage connecte fonctionne-t-il sans internet ?',
-        en: 'Does smart lighting work without internet?',
-        de: 'Funktioniert smarte Beleuchtung ohne Internet?',
-        es: 'Funciona la iluminacion inteligente sin internet?',
-        it: 'L\'illuminazione smart funziona senza internet?',
-        nl: 'Werkt slimme verlichting zonder internet?',
-      },
-      answer: {
-        fr: 'Partiellement. Les systemes Zigbee (Philips Hue, IKEA Dirigera) continuent de fonctionner localement sans internet — vous pouvez les piloter via l\'interrupteur physique ou le hub local. Les systemes WiFi (Tapo, Govee) perdent le controle via l\'app sans internet, mais les interrupteurs physiques fonctionnent toujours. Avec Matter et Home Assistant en local, tous les systemes peuvent fonctionner 100% hors ligne.',
-        en: 'Partially. Zigbee systems (Philips Hue, IKEA Dirigera) continue working locally without internet — you can control them via physical switches or the local hub. WiFi systems (Tapo, Govee) lose app control without internet, but physical switches still work. With Matter and a local Home Assistant, all systems can run 100% offline.',
-        de: 'Teilweise. Zigbee-Systeme (Hue, IKEA) funktionieren lokal ohne Internet. WiFi-Systeme (Tapo, Govee) verlieren die App-Steuerung ohne Internet, physische Schalter funktionieren aber weiterhin. Mit Matter und Home Assistant geht alles 100% offline.',
-        es: 'Parcialmente. Los sistemas Zigbee (Hue, IKEA) funcionan localmente sin internet. Los sistemas WiFi (Tapo, Govee) pierden el control por app sin internet, pero los interruptores fisicos siguen funcionando. Con Matter y Home Assistant local, todo funciona 100% offline.',
-        it: 'Parzialmente. I sistemi Zigbee (Hue, IKEA) continuano a funzionare localmente senza internet. I sistemi WiFi (Tapo, Govee) perdono il controllo app senza internet, ma gli interruttori fisici funzionano. Con Matter e Home Assistant locale, tutto funziona 100% offline.',
-        nl: 'Gedeeltelijk. Zigbee-systemen (Hue, IKEA) werken lokaal door zonder internet. WiFi-systemen (Tapo, Govee) verliezen app-bediening zonder internet, maar fysieke schakelaars werken wel. Met Matter en Home Assistant lokaal werkt alles 100% offline.',
-      },
-    },
-    {
-      question: {
-        fr: 'Peut-on melanger des ampoules de differentes marques ?',
-        en: 'Can you mix smart bulbs from different brands?',
-        de: 'Kann man smarte Lampen verschiedener Marken mischen?',
-        es: 'Se pueden mezclar bombillas de diferentes marcas?',
-        it: 'Si possono mescolare lampadine di marche diverse?',
-        nl: 'Kun je slimme lampen van verschillende merken combineren?',
-      },
-      answer: {
-        fr: 'Oui, grace a Matter et aux assistants vocaux. Depuis 2024-2025, les ampoules compatibles Matter peuvent etre controlees depuis n\'importe quelle plateforme (Apple HomeKit, Google Home, Alexa). Vous pouvez avoir des Hue dans le salon, des IKEA dans les chambres et des Tapo dans la cuisine, et tout piloter depuis une seule app (Google Home, Apple Home ou Home Assistant). Le seul inconvenient : les automations avancees specifiques a chaque ecosysteme ne sont pas portables.',
-        en: 'Yes, thanks to Matter and voice assistants. Since 2024-2025, Matter-compatible bulbs can be controlled from any platform (Apple HomeKit, Google Home, Alexa). You can have Hue in the living room, IKEA in bedrooms and Tapo in the kitchen, all controlled from one app. The only downside: advanced ecosystem-specific automations are not portable.',
-        de: 'Ja, dank Matter und Sprachassistenten. Matter-kompatible Lampen lassen sich seit 2024-2025 von jeder Plattform steuern. Sie konnen Hue im Wohnzimmer, IKEA im Schlafzimmer und Tapo in der Kuche haben — alles uber eine App. Einziger Nachteil: Okosystem-spezifische Automationen sind nicht ubertragbar.',
-        es: 'Si, gracias a Matter y los asistentes de voz. Desde 2024-2025, las bombillas compatibles con Matter se controlan desde cualquier plataforma. Puedes tener Hue en el salon, IKEA en dormitorios y Tapo en la cocina, todo desde una app. Unico inconveniente: las automatizaciones especificas de cada ecosistema no son portables.',
-        it: 'Si, grazie a Matter e agli assistenti vocali. Dal 2024-2025, le lampadine compatibili Matter si controllano da qualsiasi piattaforma. Potete avere Hue in soggiorno, IKEA nelle camere e Tapo in cucina, tutto da una app. Unico svantaggio: le automazioni specifiche di ogni ecosistema non sono portabili.',
-        nl: 'Ja, dankzij Matter en stemassistenten. Sinds 2024-2025 zijn Matter-compatibele lampen te bedienen vanuit elk platform. Je kunt Hue in de woonkamer, IKEA in slaapkamers en Tapo in de keuken hebben — alles vanuit een app. Enig nadeel: ecosysteem-specifieke automatiseringen zijn niet overdraagbaar.',
-      },
-    },
-    {
-      question: {
-        fr: 'L\'eclairage connecte consomme-t-il en veille ?',
-        en: 'Do smart bulbs consume power on standby?',
-        de: 'Verbrauchen smarte Lampen Strom im Standby?',
-        es: 'Las bombillas inteligentes consumen en modo espera?',
-        it: 'Le lampadine smart consumano in standby?',
-        nl: 'Verbruiken slimme lampen stroom in standby?',
-      },
-      answer: {
-        fr: 'Oui, mais tres peu. Une ampoule connectee en veille consomme environ 0,3 a 0,5 W pour maintenir sa connexion WiFi ou Zigbee. Pour 10 ampoules, cela represente 3-5 W en permanence, soit environ 26-44 kWh/an (6-11 EUR). C\'est negligeable compare aux economies realisees par les automations (extinction automatique, dimming). Un hub Zigbee (Hue Bridge, Dirigera) consomme environ 1,5 W en permanence.',
-        en: 'Yes, but very little. A smart bulb on standby consumes roughly 0.3 to 0.5 W to maintain its WiFi or Zigbee connection. For 10 bulbs, that is 3-5 W permanently, or about 26-44 kWh/year (£6-£11). This is negligible compared to savings from automations (auto-off, dimming). A Zigbee hub (Hue Bridge, Dirigera) consumes about 1.5 W continuously.',
-        de: 'Ja, aber sehr wenig. Eine smarte Lampe im Standby verbraucht ca. 0,3-0,5 W fur die WiFi/Zigbee-Verbindung. Bei 10 Lampen sind das 3-5 W dauerhaft, ca. 26-44 kWh/Jahr (8-13 EUR). Vernachlassigbar gegenuber den Einsparungen durch Automationen.',
-        es: 'Si, pero muy poco. Una bombilla inteligente en espera consume unos 0,3-0,5 W para mantener la conexion WiFi o Zigbee. Con 10 bombillas, 3-5 W permanentes, unos 26-44 kWh/ano (5-9 EUR). Despreciable comparado con el ahorro de las automatizaciones.',
-        it: 'Si, ma pochissimo. Una lampadina smart in standby consuma circa 0,3-0,5 W per mantenere la connessione WiFi o Zigbee. Con 10 lampadine, 3-5 W permanenti, circa 26-44 kWh/anno (6-11 EUR). Trascurabile rispetto al risparmio delle automazioni.',
-        nl: 'Ja, maar heel weinig. Een slimme lamp in standby verbruikt ca. 0,3-0,5 W voor de WiFi/Zigbee-verbinding. Bij 10 lampen is dat 3-5 W permanent, ca. 26-44 kWh/jaar (6-11 EUR). Verwaarloosbaar vergeleken met de besparingen door automatiseringen.',
-      },
-    },
+      "src": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&q=80&auto=format&fit=crop",
+      "alt": {
+        "fr": "Suspension lumineuse allumée devant un mur bleu-vert, illustration de l'éclairage connecté",
+        "en": "Lit pendant lamp against a teal wall, illustrating smart lighting",
+        "de": "Leuchtende Pendelleuchte vor einer petrolfarbenen Wand als Beispiel für smarte Beleuchtung",
+        "es": "Lámpara colgante encendida frente a una pared verde azulado, ejemplo de iluminación inteligente",
+        "it": "Lampada a sospensione accesa davanti a una parete verde petrolio, esempio di illuminazione smart",
+        "nl": "Brandende hanglamp voor een petrolblauwe muur, als voorbeeld van slimme verlichting"
+      }
+    }
   ],
+  "title": {
+    "fr": "Éclairage connecté 2026 : comparatif Philips Hue, IKEA KAJPLATS, Tapo et Govee",
+    "en": "Smart Lighting 2026: Philips Hue vs IKEA KAJPLATS vs Tapo vs Govee Compared",
+    "de": "Smarte Beleuchtung 2026: Philips Hue, IKEA KAJPLATS, Tapo und Govee im Vergleich",
+    "es": "Iluminación inteligente 2026: comparativa Philips Hue, IKEA KAJPLATS, Tapo y Govee",
+    "it": "Illuminazione smart 2026: confronto Philips Hue, IKEA KAJPLATS, Tapo e Govee",
+    "nl": "Slimme verlichting 2026: Philips Hue, IKEA KAJPLATS, Tapo en Govee vergeleken"
+  },
+  "excerpt": {
+    "fr": "Quel éclairage connecté choisir en 2026 ? Philips Hue, IKEA KAJPLATS, TP-Link Tapo L535E et Govee comparés : hub ou WiFi, Matter et Thread, ampoules, bandeaux LED et rétroéclairage TV.",
+    "en": "Which smart lighting should you choose in 2026? Philips Hue, IKEA KAJPLATS, TP-Link Tapo L535E and Govee compared: hub or Wi-Fi, Matter and Thread, bulbs, LED strips and TV backlighting.",
+    "de": "Welche smarte Beleuchtung 2026? Philips Hue, IKEA KAJPLATS, TP-Link Tapo L535E und Govee im Vergleich: Hub oder WLAN, Matter und Thread, Lampen, LED-Streifen und TV-Hintergrundbeleuchtung.",
+    "es": "¿Qué iluminación inteligente elegir en 2026? Philips Hue, IKEA KAJPLATS, TP-Link Tapo L535E y Govee comparados: hub o wifi, Matter y Thread, bombillas, tiras LED y retroiluminación de TV.",
+    "it": "Quale illuminazione smart scegliere nel 2026? Philips Hue, IKEA KAJPLATS, TP-Link Tapo L535E e Govee a confronto: hub o Wi-Fi, Matter e Thread, lampadine, strisce LED e retroilluminazione TV.",
+    "nl": "Welke slimme verlichting kiest u in 2026? Philips Hue, IKEA KAJPLATS, TP-Link Tapo L535E en Govee vergeleken: hub of wifi, Matter en Thread, lampen, ledstrips en tv-achtergrondverlichting."
+  },
+  "content": {
+    "fr": "<p>Le meilleur éclairage connecté en 2026 pour la plupart des foyers est l'ampoule <strong>Philips Hue White and Color Ambiance E27</strong>, associée au Hue Bridge : c'est l'écosystème le plus complet, le plus fiable et le mieux intégré à Alexa, Google Home et Apple Maison. Si vous voulez quelques ampoules sans hub, la <strong>TP-Link Tapo L535E</strong> en WiFi et compatible Matter est l'option la plus simple, et pour l'ambiance colorée derrière une télé ou un bureau, le bandeau <strong>Govee RGBIC LED Strip H619A</strong> reste le plus spectaculaire.</p>\n<p>Le marché a beaucoup bougé depuis un an : IKEA a remplacé sa gamme d'ampoules TRÅDFRI par KAJPLATS, Philips a lancé le Hue Bridge Pro et Matter s'est généralisé. Ce comparatif s'appuie sur les fiches techniques des fabricants, les tests indépendants publiés et les retours d'acheteurs vérifiés. Pour voir toutes les références de la catégorie, consultez notre page <a href=\"/fr/energie-domotique/eclairage-connecte\">éclairage connecté</a>.</p>\n\n<h2>Les critères pour bien choisir son éclairage connecté</h2>\n<h3>Avec ou sans hub</h3>\n<p>C'est la première décision. Les systèmes à hub (Philips Hue avec le Hue Bridge, IKEA avec le DIRIGERA) font communiquer les ampoules en Zigbee ou en Thread, deux réseaux maillés basse consommation qui ne chargent pas votre box internet et continuent de fonctionner localement si la connexion tombe. Les ampoules WiFi (TP-Link Tapo, Govee) se branchent directement sur votre routeur : l'installation est immédiate, mais chaque ampoule occupe une place sur le réseau domestique. Pour une à cinq ampoules, le WiFi suffit largement ; pour équiper toute une maison, un hub devient plus confortable.</p>\n<h3>Matter et Thread</h3>\n<p>Matter est le standard commun soutenu par Apple, Google, Amazon et Samsung. Une ampoule compatible Matter peut être pilotée depuis Apple Maison, Google Home ou Alexa sans application propriétaire. Attention : Matter n'est pas un protocole radio, il s'appuie sur le WiFi ou sur Thread. Une ampoule Matter-over-Thread a besoin d'un « routeur de bordure Thread » (certains HomePod, Apple TV, enceintes Nest ou le hub IKEA DIRIGERA depuis sa mise à jour). Pour approfondir, lisez notre <a href=\"/fr/blog/maison-connectee-matter-thread-2026\">guide Matter et Thread</a>.</p>\n<h3>Culot, flux lumineux et type de lumière</h3>\n<p>Vérifiez d'abord le culot de vos luminaires (E27, E14, GU10) puis le flux lumineux en lumens : environ 800 lm équivalent à une ancienne ampoule de 60 W, 1 055 à 1 100 lm se rapproche d'une 75 W. Choisissez ensuite entre blanc réglable (du blanc chaud au blanc froid, idéal pour l'éclairage du quotidien) et couleur (pour les ambiances). Les ampoules couleur sont plus chères ; il est souvent judicieux de les réserver au salon et aux chambres.</p>\n<h3>Écosystème et automatisations</h3>\n<p>Une bonne application fait toute la différence : scènes, réveil progressif, allumage au coucher du soleil, simulation de présence. Si vous utilisez Home Assistant, privilégiez les solutions qui fonctionnent en local (Zigbee, Thread ou Matter) plutôt que celles qui dépendent du cloud du fabricant.</p>\n\n<h2>Les meilleurs éclairages connectés en 2026</h2>\n<h3>1. Philips Hue White and Color Ambiance E27 : la référence</h3>\n<p><strong>Points forts :</strong> l'ampoule couleur de Philips Hue délivre jusqu'à 1 100 lumens, couvre un blanc réglable de 2 000 à 6 500 K et des millions de couleurs. Elle fonctionne en Zigbee avec le Hue Bridge et en Bluetooth pour un usage limité sans hub. L'écosystème Hue est le plus vaste du marché : ampoules E27, E14 et GU10, bandeaux, lampes, éclairage extérieur, interrupteurs et capteurs de mouvement. Avec le Bridge, toutes les lampes sont exposées en Matter vers Apple Maison, Google Home et Alexa.</p>\n<p><strong>Limites :</strong> c'est la gamme la plus chère du comparatif, et le Bridge est indispensable pour profiter des automatisations avancées. Le Hue Bridge classique gère jusqu'à 50 lampes ; au-delà, il faut le <strong>Hue Bridge Pro</strong>, annoncé pour plus de 150 lampes et plus de 50 accessoires. À noter : les « Hue Labs » cités dans de nombreux guides n'existent plus depuis juin 2024 ; leurs meilleures formules ont été intégrées directement dans l'application Hue.</p>\n<p><strong>Pour qui :</strong> ceux qui veulent équiper une maison entière avec un système durable, fiable et riche en automatisations.</p>\n\n<h3>2. TP-Link Tapo L535E : la meilleure ampoule sans hub</h3>\n<p><strong>Points forts :</strong> cette ampoule E27 couleur se connecte directement en WiFi et prend en charge Matter. Elle annonce 1 055 lumens, un blanc réglable de 2 500 à 6 500 K et des millions de couleurs. L'appairage se fait en quelques minutes avec l'application Tapo, ou directement depuis Apple Maison, Google Home ou Alexa grâce à Matter.</p>\n<p><strong>Limites :</strong> comme toute ampoule WiFi, elle dépend de votre routeur, et une installation de plusieurs dizaines d'ampoules WiFi peut encombrer un réseau domestique. Attention à la référence : la Tapo L530E, très répandue et moins chère, n'est pas compatible Matter nativement ; elle se pilote via l'application Tapo, Alexa et Google Assistant.</p>\n<p><strong>Pour qui :</strong> les locataires, les petits logements et tous ceux qui veulent connecter quelques lampes sans acheter de hub.</p>\n\n<h3>3. Govee RGBIC LED Strip H619A : l'ambiance la plus spectaculaire</h3>\n<p><strong>Points forts :</strong> ce bandeau de 5 mètres utilise la technologie RGBIC, qui affiche plusieurs couleurs en même temps sur différents segments, d'où des dégradés et des effets animés impossibles avec un bandeau RGB classique. Il se pilote en WiFi et Bluetooth, propose une synchronisation avec la musique, de nombreux modes de scène et un revêtement protecteur. Il fonctionne avec Alexa et Google Assistant.</p>\n<p><strong>Limites :</strong> Govee est pensé pour l'ambiance, pas pour l'éclairage principal d'une pièce. L'application dépend largement du cloud, et l'intégration Apple Maison n'est pas native sur ce modèle.</p>\n<p><strong>Pour qui :</strong> les espaces gaming, les meubles TV, les bureaux et tous ceux qui recherchent un effet décoratif fort.</p>\n\n<h3>4. IKEA KAJPLATS E27 CWS globe 1055lm : le choix économique avec hub</h3>\n<p><strong>Points forts :</strong> KAJPLATS remplace la gamme d'ampoules TRÅDFRI depuis le 1er janvier 2026. Cette version couleur et blanc réglable délivre 1 055 lumens et intègre Matter-over-Thread : elle peut se connecter directement à un routeur de bordure Thread compatible, ou au hub IKEA DIRIGERA, qui est devenu contrôleur Matter et routeur de bordure Thread grâce à une mise à jour logicielle gratuite. IKEA reste parmi les marques les plus abordables pour équiper toute une maison.</p>\n<p><strong>Limites :</strong> la gamme est moins étendue que celle de Hue, et des utilisateurs signalent des difficultés à mélanger les nouvelles KAJPLATS avec d'anciennes télécommandes TRÅDFRI. Les ampoules TRÅDFRI ne sont plus vendues, même si celles déjà installées continuent de fonctionner dans l'application IKEA Home smart.</p>\n<p><strong>Pour qui :</strong> les budgets serrés qui veulent un réseau maillé local et la compatibilité Matter sur un grand nombre de points lumineux.</p>\n\n<h3>5. Philips Hue Ambiance Gradient Lightstrip 2m : le bandeau premium</h3>\n<p><strong>Points forts :</strong> ce bandeau affiche plusieurs couleurs simultanément sur toute sa longueur, avec des dégradés très doux. Il mesure 2 mètres, peut être prolongé jusqu'à 10 mètres et coupé à la longueur souhaitée. Il s'intègre aux scènes et aux automatisations Hue, et se pilote par la voix via Alexa, Google Home et Apple Maison.</p>\n<p><strong>Limites :</strong> c'est un produit haut de gamme, réservé à un usage intérieur, et il prend tout son sens dans un écosystème Hue avec Bridge.</p>\n<p><strong>Pour qui :</strong> les utilisateurs Hue qui veulent un éclairage indirect élégant sous un meuble, derrière une tête de lit ou le long d'un plafond.</p>\n\n<h3>6. Govee Envisual TV Backlight T2 : la synchronisation avec la télé</h3>\n<p><strong>Points forts :</strong> ce kit se fixe derrière le téléviseur et utilise une double caméra pour reproduire en temps réel les couleurs de l'écran sur le mur. Les autres lampes Govee sans caméra peuvent se synchroniser avec lui grâce à la fonction DreamView de l'application Govee Home. Il fonctionne avec Alexa et Google Assistant.</p>\n<p><strong>Limites :</strong> la caméra se monte uniquement en haut du téléviseur, et le kit n'est pas compatible avec les écrans incurvés. Il s'agit d'un accessoire d'ambiance, pas d'un éclairage de pièce.</p>\n<p><strong>Pour qui :</strong> les amateurs de cinéma et de jeux vidéo qui veulent une immersion maximale sans console de synchronisation.</p>\n\n<h2>Tableau comparatif</h2>\n<table>\n<thead>\n<tr><th>Modèle</th><th>Type</th><th>Connectivité</th><th>Hub nécessaire</th><th>Matter</th><th>Idéal pour</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>Philips Hue White and Color Ambiance E27</strong></td><td>Ampoule couleur, 1 100 lm</td><td>Zigbee + Bluetooth</td><td>Recommandé (Hue Bridge)</td><td>Oui, via le Bridge</td><td>Maison entière, automatisations</td></tr>\n<tr><td><strong>TP-Link Tapo L535E</strong></td><td>Ampoule couleur, 1 055 lm</td><td>WiFi</td><td>Non</td><td>Oui, natif</td><td>Quelques ampoules sans hub</td></tr>\n<tr><td><strong>Govee RGBIC LED Strip H619A</strong></td><td>Bandeau RGBIC 5 m</td><td>WiFi + Bluetooth</td><td>Non</td><td>Non</td><td>Ambiance, gaming, déco</td></tr>\n<tr><td><strong>IKEA KAJPLATS E27 CWS globe 1055lm</strong></td><td>Ampoule couleur, 1 055 lm</td><td>Thread (Matter) + Zigbee</td><td>DIRIGERA ou routeur Thread</td><td>Oui, natif</td><td>Grand nombre de points à petit budget</td></tr>\n<tr><td><strong>Philips Hue Ambiance Gradient Lightstrip 2m</strong></td><td>Bandeau dégradé, extensible à 10 m</td><td>Zigbee + Bluetooth</td><td>Recommandé (Hue Bridge)</td><td>Oui, via le Bridge</td><td>Éclairage indirect premium</td></tr>\n<tr><td><strong>Govee Envisual TV Backlight T2</strong></td><td>Rétroéclairage TV à caméra</td><td>WiFi + Bluetooth</td><td>Non</td><td>Non</td><td>Cinéma et jeux vidéo</td></tr>\n</tbody>\n</table>\n\n<h2>Ce qui a changé en 2026</h2>\n<ul>\n<li><strong>IKEA :</strong> les ampoules TRÅDFRI ont été remplacées par KAJPLATS, compatibles Matter-over-Thread. Le hub DIRIGERA est désormais contrôleur Matter et routeur de bordure Thread.</li>\n<li><strong>Philips Hue :</strong> le Hue Bridge Pro s'ajoute au Bridge classique pour les grandes installations, et les fonctions de l'ancien Hue Labs sont intégrées à l'application.</li>\n<li><strong>TP-Link Tapo :</strong> Matter est disponible sur des modèles précis comme la L535E, pas sur toute la gamme. Vérifiez le logo Matter sur l'emballage avant d'acheter.</li>\n<li><strong>Govee :</strong> la marque continue de se concentrer sur l'éclairage d'ambiance RGBIC, les panneaux muraux comme les Glide Hexa Pro et le rétroéclairage TV.</li>\n</ul>\n\n<h2>Les erreurs à éviter</h2>\n<ul>\n<li><strong>Éteindre l'interrupteur mural :</strong> une ampoule connectée doit rester alimentée pour répondre à l'application ou à la voix. Préférez un interrupteur sans fil ou une télécommande compatible.</li>\n<li><strong>Utiliser un variateur classique :</strong> les ampoules connectées gèrent elles-mêmes la variation ; un variateur mural traditionnel peut provoquer des scintillements ou les endommager.</li>\n<li><strong>Multiplier les écosystèmes :</strong> mélanger quatre applications devient vite pénible. Choisissez un système principal et utilisez Matter pour réunir le reste dans Apple Maison, Google Home ou Alexa.</li>\n<li><strong>Confondre deux références proches :</strong> Tapo L530E et L535E, ou anciennes TRÅDFRI et nouvelles KAJPLATS, n'offrent pas la même compatibilité.</li>\n<li><strong>Négliger le flux lumineux :</strong> une ampoule de 470 lm ne remplacera pas une ancienne 75 W dans une pièce principale.</li>\n</ul>\n\n<h2>Installation et sécurité</h2>\n<p>Remplacer une ampoule ne demande aucune compétence particulière : coupez le courant, laissez refroidir l'ancienne ampoule, vissez la nouvelle puis suivez l'appairage dans l'application. Vérifiez que l'ampoule est adaptée au luminaire, notamment dans les plafonniers fermés ou les pièces humides, en vous référant aux indications du fabricant. Pour les bandeaux LED, nettoyez et séchez la surface avant de coller le ruban adhésif, utilisez uniquement l'alimentation fournie et ne recouvrez pas le bloc d'alimentation. Toute modification de l'installation électrique (spots encastrés, interrupteurs, nouveaux points lumineux) doit être confiée à un électricien qualifié. Enfin, pour mesurer la consommation de vos lampes ou piloter un luminaire non connecté, une prise intelligente est un bon complément : voyez notre <a href=\"/fr/blog/comparatif-smart-plugs-mesure-energie\">comparatif des prises connectées</a>.</p>\n\n<h2>Notre verdict</h2>\n<p>Pour équiper durablement toute la maison, la <strong>Philips Hue White and Color Ambiance E27</strong> avec le Hue Bridge reste le meilleur choix global : qualité de lumière, richesse de la gamme et automatisations fiables. Pour connecter quelques lampes sans hub, la <strong>TP-Link Tapo L535E</strong> offre le meilleur compromis grâce au WiFi direct et à Matter. Pour créer une ambiance colorée, le <strong>Govee RGBIC LED Strip H619A</strong> est le plus spectaculaire. Les petits budgets qui veulent beaucoup de points lumineux se tourneront vers les <strong>IKEA KAJPLATS</strong> avec le DIRIGERA, et les amateurs de cinéma vers le <strong>Govee Envisual TV Backlight T2</strong>.</p>",
+    "en": "<p>For most homes, the best smart lighting in 2026 is the <strong>Philips Hue White and Color Ambiance E27</strong> bulb paired with the Hue Bridge: it is the most complete, most reliable ecosystem and the best integrated with Alexa, Google Home and Apple Home. If you only want a few bulbs and no hub, the Wi-Fi, Matter-compatible <strong>TP-Link Tapo L535E</strong> is the simplest option, and for colourful ambience behind a TV or desk, the <strong>Govee RGBIC LED Strip H619A</strong> is still the most striking.</p>\n<p>The market has shifted a lot over the past year: IKEA replaced its TRÅDFRI bulb range with KAJPLATS, Philips launched the Hue Bridge Pro and Matter has become mainstream. This comparison is based on manufacturer specifications, published independent reviews and verified buyer feedback. To browse every product in the category, see our <a href=\"/en/energie-domotique/eclairage-connecte\">smart lighting</a> page.</p>\n\n<h2>How to Choose Smart Lighting</h2>\n<h3>Hub or no hub</h3>\n<p>This is the first decision. Hub-based systems (Philips Hue with the Hue Bridge, IKEA with DIRIGERA) connect bulbs over Zigbee or Thread, two low-power mesh networks that keep load off your router and keep working locally if the internet goes down. Wi-Fi bulbs (TP-Link Tapo, Govee) connect straight to your router: setup is instant, but every bulb takes a slot on your home network. For one to five bulbs, Wi-Fi is perfectly fine; for a whole house, a hub becomes the more comfortable choice.</p>\n<h3>Matter and Thread</h3>\n<p>Matter is the shared standard backed by Apple, Google, Amazon and Samsung. A Matter-compatible bulb can be controlled from Apple Home, Google Home or Alexa without a brand-specific app. Note that Matter is not a radio protocol: it runs over Wi-Fi or Thread. A Matter-over-Thread bulb needs a Thread border router (some HomePod, Apple TV and Nest speakers, or the IKEA DIRIGERA hub since its update). For more detail, read our <a href=\"/en/blog/maison-connectee-matter-thread-2026\">Matter and Thread guide</a>.</p>\n<h3>Fitting, brightness and type of light</h3>\n<p>Start by checking the fitting of your lights (E27, E14, GU10), then the brightness in lumens: around 800 lm matches an old 60 W bulb, while 1,055 to 1,100 lm is closer to a 75 W. Then choose between tunable white (warm to cool white, ideal for everyday lighting) and colour (for ambience). Colour bulbs cost more, so it often makes sense to keep them for the living room and bedrooms.</p>\n<h3>Ecosystem and automations</h3>\n<p>A good app makes all the difference: scenes, gradual wake-up, lights on at sunset, presence simulation. If you use Home Assistant, favour systems that run locally (Zigbee, Thread or Matter) over those that depend on the manufacturer's cloud.</p>\n\n<h2>The Best Smart Lighting in 2026</h2>\n<h3>1. Philips Hue White and Color Ambiance E27: the benchmark</h3>\n<p><strong>Strengths:</strong> Philips Hue's colour bulb delivers up to 1,100 lumens, tunable white from 2,000 to 6,500 K and millions of colours. It runs on Zigbee with the Hue Bridge and on Bluetooth for limited use without a hub. The Hue ecosystem is the broadest on the market: E27, E14 and GU10 bulbs, light strips, lamps, outdoor lighting, switches and motion sensors. With the Bridge, all lights are exposed via Matter to Apple Home, Google Home and Alexa.</p>\n<p><strong>Limitations:</strong> it is the most expensive range in this comparison, and the Bridge is essential for advanced automations. The standard Hue Bridge handles up to 50 lights; beyond that you need the <strong>Hue Bridge Pro</strong>, rated for more than 150 lights and over 50 accessories. Note that the \"Hue Labs\" mentioned in many guides closed in June 2024; its best formulas were built straight into the Hue app.</p>\n<p><strong>Best for:</strong> anyone who wants to equip a whole home with a durable, reliable system rich in automations.</p>\n\n<h3>2. TP-Link Tapo L535E: the best bulb without a hub</h3>\n<p><strong>Strengths:</strong> this colour E27 bulb connects directly over Wi-Fi and supports Matter. It is rated at 1,055 lumens, with tunable white from 2,500 to 6,500 K and millions of colours. Pairing takes a few minutes in the Tapo app, or directly from Apple Home, Google Home or Alexa thanks to Matter.</p>\n<p><strong>Limitations:</strong> like any Wi-Fi bulb it relies on your router, and dozens of Wi-Fi bulbs can crowd a home network. Watch the model number: the widely sold, cheaper Tapo L530E does not support Matter natively; it works with the Tapo app, Alexa and Google Assistant.</p>\n<p><strong>Best for:</strong> renters, small flats and anyone who wants to connect a few lamps without buying a hub.</p>\n\n<h3>3. Govee RGBIC LED Strip H619A: the most spectacular ambience</h3>\n<p><strong>Strengths:</strong> this 5-metre strip uses RGBIC technology, which shows several colours at once on different segments, giving gradients and animated effects a standard RGB strip cannot produce. It is controlled over Wi-Fi and Bluetooth, offers music sync, plenty of scene modes and a protective coating, and works with Alexa and Google Assistant.</p>\n<p><strong>Limitations:</strong> Govee is designed for ambience, not as a room's main light. The app relies heavily on the cloud, and Apple Home integration is not native on this model.</p>\n<p><strong>Best for:</strong> gaming setups, TV units, home offices and anyone after a bold decorative effect.</p>\n\n<h3>4. IKEA KAJPLATS E27 CWS globe 1055lm: the budget choice with a hub</h3>\n<p><strong>Strengths:</strong> KAJPLATS has replaced the TRÅDFRI bulb range since 1 January 2026. This colour and tunable-white version delivers 1,055 lumens and has Matter-over-Thread built in: it can join a compatible Thread border router directly, or the IKEA DIRIGERA hub, which became a Matter controller and Thread border router through a free software update. IKEA remains one of the most affordable brands for equipping a whole home.</p>\n<p><strong>Limitations:</strong> the range is narrower than Hue's, and some users report trouble mixing the new KAJPLATS bulbs with older TRÅDFRI remotes. TRÅDFRI bulbs are no longer sold, although those already installed keep working in the IKEA Home smart app.</p>\n<p><strong>Best for:</strong> tight budgets that want a local mesh network and Matter support across many light points.</p>\n\n<h3>5. Philips Hue Ambiance Gradient Lightstrip 2m: the premium strip</h3>\n<p><strong>Strengths:</strong> this strip shows several colours at once along its length, with very smooth gradients. It is 2 metres long, can be extended up to 10 metres and cut to length. It fits into Hue scenes and automations and can be voice-controlled via Alexa, Google Home and Apple Home.</p>\n<p><strong>Limitations:</strong> it is a high-end, indoor-only product, and it makes most sense within a Hue setup with a Bridge.</p>\n<p><strong>Best for:</strong> Hue users who want elegant indirect lighting under furniture, behind a headboard or along a ceiling.</p>\n\n<h3>6. Govee Envisual TV Backlight T2: TV sync</h3>\n<p><strong>Strengths:</strong> this kit mounts behind the TV and uses a dual camera to reproduce the screen's colours on the wall in real time. Other Govee lights without a camera can sync with it through the DreamView feature in the Govee Home app. It works with Alexa and Google Assistant.</p>\n<p><strong>Limitations:</strong> the camera can only be mounted on top of the TV, and the kit is not compatible with curved screens. It is an ambience accessory, not room lighting.</p>\n<p><strong>Best for:</strong> film and gaming fans who want maximum immersion without a separate sync box.</p>\n\n<h2>Comparison Table</h2>\n<table>\n<thead>\n<tr><th>Model</th><th>Type</th><th>Connectivity</th><th>Hub needed</th><th>Matter</th><th>Best for</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>Philips Hue White and Color Ambiance E27</strong></td><td>Colour bulb, 1,100 lm</td><td>Zigbee + Bluetooth</td><td>Recommended (Hue Bridge)</td><td>Yes, via the Bridge</td><td>Whole home, automations</td></tr>\n<tr><td><strong>TP-Link Tapo L535E</strong></td><td>Colour bulb, 1,055 lm</td><td>Wi-Fi</td><td>No</td><td>Yes, native</td><td>A few bulbs, no hub</td></tr>\n<tr><td><strong>Govee RGBIC LED Strip H619A</strong></td><td>5 m RGBIC strip</td><td>Wi-Fi + Bluetooth</td><td>No</td><td>No</td><td>Ambience, gaming, decor</td></tr>\n<tr><td><strong>IKEA KAJPLATS E27 CWS globe 1055lm</strong></td><td>Colour bulb, 1,055 lm</td><td>Thread (Matter) + Zigbee</td><td>DIRIGERA or Thread router</td><td>Yes, native</td><td>Many light points on a budget</td></tr>\n<tr><td><strong>Philips Hue Ambiance Gradient Lightstrip 2m</strong></td><td>Gradient strip, extendable to 10 m</td><td>Zigbee + Bluetooth</td><td>Recommended (Hue Bridge)</td><td>Yes, via the Bridge</td><td>Premium indirect lighting</td></tr>\n<tr><td><strong>Govee Envisual TV Backlight T2</strong></td><td>Camera TV backlight</td><td>Wi-Fi + Bluetooth</td><td>No</td><td>No</td><td>Films and gaming</td></tr>\n</tbody>\n</table>\n\n<h2>What Changed in 2026</h2>\n<ul>\n<li><strong>IKEA:</strong> TRÅDFRI bulbs were replaced by Matter-over-Thread KAJPLATS bulbs. The DIRIGERA hub is now a Matter controller and Thread border router.</li>\n<li><strong>Philips Hue:</strong> the Hue Bridge Pro joins the standard Bridge for large installations, and the former Hue Labs features now live in the app.</li>\n<li><strong>TP-Link Tapo:</strong> Matter is available on specific models such as the L535E, not across the whole range. Check for the Matter logo on the box before buying.</li>\n<li><strong>Govee:</strong> the brand keeps focusing on RGBIC ambient lighting, wall panels such as the Glide Hexa Pro, and TV backlighting.</li>\n</ul>\n\n<h2>Mistakes to Avoid</h2>\n<ul>\n<li><strong>Switching off at the wall:</strong> a smart bulb must stay powered to respond to the app or your voice. Use a wireless switch or a compatible remote instead.</li>\n<li><strong>Using a standard dimmer:</strong> smart bulbs handle dimming themselves; a traditional wall dimmer can cause flicker or damage them.</li>\n<li><strong>Running too many ecosystems:</strong> juggling four apps quickly gets tiresome. Pick one main system and use Matter to bring the rest into Apple Home, Google Home or Alexa.</li>\n<li><strong>Mixing up similar models:</strong> the Tapo L530E and L535E, or older TRÅDFRI and new KAJPLATS bulbs, do not offer the same compatibility.</li>\n<li><strong>Ignoring brightness:</strong> a 470 lm bulb will not replace an old 75 W bulb in a main room.</li>\n</ul>\n\n<h2>Installation and Safety</h2>\n<p>Swapping a bulb needs no special skills: switch off the power, let the old bulb cool, screw in the new one and follow the pairing steps in the app. Check that the bulb suits the fitting, especially in enclosed ceiling lights or damp rooms, by following the manufacturer's guidance. For LED strips, clean and dry the surface before applying the adhesive, use only the supplied power adapter and never cover the power supply. Any change to your electrical installation (recessed spotlights, switches, new light points) should be carried out by a qualified electrician. Finally, to measure your lamps' consumption or control a non-smart lamp, a smart plug is a useful addition: see our <a href=\"/en/blog/comparatif-smart-plugs-mesure-energie\">smart plug comparison</a>.</p>\n\n<h2>Our Verdict</h2>\n<p>To equip a whole home for the long term, the <strong>Philips Hue White and Color Ambiance E27</strong> with the Hue Bridge remains the best overall choice: light quality, range breadth and reliable automations. To connect a few lamps without a hub, the <strong>TP-Link Tapo L535E</strong> is the best compromise thanks to direct Wi-Fi and Matter. For colourful ambience, the <strong>Govee RGBIC LED Strip H619A</strong> is the most spectacular. Tight budgets wanting many light points should look at <strong>IKEA KAJPLATS</strong> with DIRIGERA, and film fans at the <strong>Govee Envisual TV Backlight T2</strong>.</p>",
+    "de": "<p>Die beste smarte Beleuchtung 2026 ist für die meisten Haushalte die <strong>Philips Hue White and Color Ambiance E27</strong> in Kombination mit der Hue Bridge: Sie bietet das vollständigste und zuverlässigste Ökosystem und die beste Einbindung in Alexa, Google Home und Apple Home. Wer nur ein paar Lampen ohne Hub vernetzen möchte, fährt mit der WLAN-fähigen und Matter-kompatiblen <strong>TP-Link Tapo L535E</strong> am einfachsten, und für farbiges Ambiente hinter dem Fernseher oder am Schreibtisch bleibt der <strong>Govee RGBIC LED Strip H619A</strong> der eindrucksvollste.</p>\n<p>Der Markt hat sich im letzten Jahr stark verändert: IKEA hat seine TRÅDFRI-Lampen durch die Serie KAJPLATS ersetzt, Philips hat die Hue Bridge Pro eingeführt und Matter ist im Alltag angekommen. Dieser Vergleich stützt sich auf Herstellerangaben, veröffentlichte unabhängige Testberichte und verifizierte Käuferbewertungen. Alle Produkte der Kategorie finden Sie auf unserer Seite <a href=\"/de/energie-domotique/eclairage-connecte\">Smarte Beleuchtung</a>.</p>\n\n<h2>Worauf es bei smarter Beleuchtung ankommt</h2>\n<h3>Mit oder ohne Hub</h3>\n<p>Das ist die erste Entscheidung. Systeme mit Hub (Philips Hue mit der Hue Bridge, IKEA mit DIRIGERA) verbinden die Lampen über Zigbee oder Thread. Beide sind stromsparende Mesh-Netze, die Ihren Router entlasten und lokal weiterlaufen, wenn das Internet ausfällt. WLAN-Lampen (TP-Link Tapo, Govee) verbinden sich direkt mit dem Router: Die Einrichtung geht sofort, aber jede Lampe belegt einen Platz im Heimnetz. Für eine bis fünf Lampen reicht WLAN völlig aus; für ein ganzes Haus ist ein Hub die komfortablere Lösung.</p>\n<h3>Matter und Thread</h3>\n<p>Matter ist der gemeinsame Standard von Apple, Google, Amazon und Samsung. Eine Matter-kompatible Lampe lässt sich ohne Hersteller-App über Apple Home, Google Home oder Alexa steuern. Wichtig: Matter ist kein Funkprotokoll, sondern läuft über WLAN oder Thread. Eine Lampe mit Matter-over-Thread benötigt einen Thread-Border-Router, etwa bestimmte HomePod-, Apple-TV- oder Nest-Geräte oder den IKEA-Hub DIRIGERA nach seinem Update. Mehr dazu in unserem <a href=\"/de/blog/maison-connectee-matter-thread-2026\">Ratgeber zu Matter und Thread</a>.</p>\n<h3>Sockel, Helligkeit und Lichtart</h3>\n<p>Prüfen Sie zuerst den Sockel Ihrer Leuchten (E27, E14, GU10) und dann die Helligkeit in Lumen: Rund 800 lm entsprechen einer alten 60-W-Glühbirne, 1.055 bis 1.100 lm liegen näher an 75 W. Danach wählen Sie zwischen einstellbarem Weiß (von warm bis kalt, ideal für den Alltag) und Farbe (für Stimmungen). Farblampen sind teurer, deshalb lohnt es sich oft, sie auf Wohnzimmer und Schlafzimmer zu beschränken.</p>\n<h3>Ökosystem und Automationen</h3>\n<p>Eine gute App macht den Unterschied: Szenen, sanftes Aufwachen, Einschalten bei Sonnenuntergang, Anwesenheitssimulation. Wenn Sie Home Assistant nutzen, bevorzugen Sie Systeme, die lokal arbeiten (Zigbee, Thread oder Matter), statt solcher, die von der Cloud des Herstellers abhängen.</p>\n\n<h2>Die beste smarte Beleuchtung 2026</h2>\n<h3>1. Philips Hue White and Color Ambiance E27: der Maßstab</h3>\n<p><strong>Stärken:</strong> Die Farblampe von Philips Hue liefert bis zu 1.100 Lumen, einstellbares Weiß von 2.000 bis 6.500 K und Millionen Farben. Sie arbeitet per Zigbee mit der Hue Bridge und eingeschränkt auch per Bluetooth ohne Hub. Das Hue-Ökosystem ist das größte am Markt: Lampen mit E27-, E14- und GU10-Sockel, Lichtstreifen, Leuchten, Außenbeleuchtung, Schalter und Bewegungsmelder. Über die Bridge werden alle Lampen per Matter an Apple Home, Google Home und Alexa weitergegeben.</p>\n<p><strong>Schwächen:</strong> Es ist die teuerste Serie in diesem Vergleich, und für fortgeschrittene Automationen ist die Bridge Pflicht. Die klassische Hue Bridge verwaltet bis zu 50 Lampen; darüber hinaus brauchen Sie die <strong>Hue Bridge Pro</strong>, die für mehr als 150 Lampen und über 50 Zubehörteile ausgelegt ist. Übrigens: Die in vielen Ratgebern erwähnten „Hue Labs“ gibt es seit Juni 2024 nicht mehr; die besten Formeln wurden direkt in die Hue-App übernommen.</p>\n<p><strong>Für wen:</strong> für alle, die ein ganzes Zuhause mit einem langlebigen, zuverlässigen System voller Automationen ausstatten möchten.</p>\n\n<h3>2. TP-Link Tapo L535E: die beste Lampe ohne Hub</h3>\n<p><strong>Stärken:</strong> Diese farbige E27-Lampe verbindet sich direkt per WLAN und unterstützt Matter. Angegeben sind 1.055 Lumen, einstellbares Weiß von 2.500 bis 6.500 K und Millionen Farben. Die Kopplung dauert in der Tapo-App nur wenige Minuten oder gelingt dank Matter direkt in Apple Home, Google Home oder Alexa.</p>\n<p><strong>Schwächen:</strong> Wie jede WLAN-Lampe hängt sie vom Router ab, und Dutzende WLAN-Lampen können ein Heimnetz belasten. Achten Sie auf die Modellbezeichnung: Die weit verbreitete, günstigere Tapo L530E unterstützt Matter nicht nativ; sie lässt sich über die Tapo-App, Alexa und Google Assistant steuern.</p>\n<p><strong>Für wen:</strong> für Mieter, kleine Wohnungen und alle, die ein paar Leuchten ohne Hub vernetzen wollen.</p>\n\n<h3>3. Govee RGBIC LED Strip H619A: das spektakulärste Ambiente</h3>\n<p><strong>Stärken:</strong> Dieser 5 Meter lange Streifen nutzt RGBIC-Technik und zeigt auf verschiedenen Segmenten gleichzeitig mehrere Farben. So entstehen Verläufe und Animationen, die ein normaler RGB-Streifen nicht schafft. Er wird per WLAN und Bluetooth gesteuert, bietet Musiksynchronisation, zahlreiche Szenenmodi und eine Schutzbeschichtung und funktioniert mit Alexa und Google Assistant.</p>\n<p><strong>Schwächen:</strong> Govee ist für Stimmungslicht gedacht, nicht als Hauptbeleuchtung eines Raums. Die App ist stark cloudabhängig, und eine native Apple-Home-Einbindung bietet dieses Modell nicht.</p>\n<p><strong>Für wen:</strong> für Gaming-Ecken, TV-Möbel, Arbeitszimmer und alle, die einen starken Dekoeffekt suchen.</p>\n\n<h3>4. IKEA KAJPLATS E27 CWS globe 1055lm: die günstige Wahl mit Hub</h3>\n<p><strong>Stärken:</strong> KAJPLATS ersetzt seit dem 1. Januar 2026 die TRÅDFRI-Lampen. Diese Version mit Farbe und einstellbarem Weiß liefert 1.055 Lumen und unterstützt Matter-over-Thread: Sie verbindet sich direkt mit einem kompatiblen Thread-Border-Router oder mit dem IKEA-Hub DIRIGERA, der durch ein kostenloses Software-Update zum Matter-Controller und Thread-Border-Router wurde. IKEA gehört weiterhin zu den günstigsten Marken, um ein ganzes Zuhause auszustatten.</p>\n<p><strong>Schwächen:</strong> Das Sortiment ist kleiner als bei Hue, und manche Nutzer berichten von Problemen, wenn sie neue KAJPLATS-Lampen mit älteren TRÅDFRI-Fernbedienungen kombinieren. TRÅDFRI-Lampen werden nicht mehr verkauft, bereits installierte funktionieren aber weiter in der App IKEA Home smart.</p>\n<p><strong>Für wen:</strong> für knappe Budgets, die ein lokales Mesh-Netz und Matter für viele Lichtpunkte wollen.</p>\n\n<h3>5. Philips Hue Ambiance Gradient Lightstrip 2m: der Premium-Lichtstreifen</h3>\n<p><strong>Stärken:</strong> Dieser Lichtstreifen zeigt über seine gesamte Länge mehrere Farben gleichzeitig mit sehr weichen Verläufen. Er ist 2 Meter lang, lässt sich auf bis zu 10 Meter verlängern und kürzen. Er fügt sich in Hue-Szenen und Automationen ein und lässt sich per Sprache über Alexa, Google Home und Apple Home steuern.</p>\n<p><strong>Schwächen:</strong> Es ist ein hochpreisiges Produkt nur für den Innenbereich und entfaltet sein Potenzial vor allem in einem Hue-System mit Bridge.</p>\n<p><strong>Für wen:</strong> für Hue-Nutzer, die elegantes indirektes Licht unter Möbeln, hinter dem Kopfteil des Betts oder entlang der Decke wünschen.</p>\n\n<h3>6. Govee Envisual TV Backlight T2: Synchronisation mit dem Fernseher</h3>\n<p><strong>Stärken:</strong> Dieses Set wird hinter dem Fernseher montiert und überträgt mit einer Doppelkamera die Bildschirmfarben in Echtzeit an die Wand. Andere Govee-Leuchten ohne Kamera können sich über die DreamView-Funktion der App Govee Home damit synchronisieren. Es funktioniert mit Alexa und Google Assistant.</p>\n<p><strong>Schwächen:</strong> Die Kamera lässt sich nur oben am Fernseher anbringen, und das Set ist nicht mit gebogenen Bildschirmen kompatibel. Es ist ein Ambiente-Zubehör, keine Raumbeleuchtung.</p>\n<p><strong>Für wen:</strong> für Film- und Gaming-Fans, die maximale Immersion ohne separate Sync-Box wollen.</p>\n\n<h2>Vergleichstabelle</h2>\n<table>\n<thead>\n<tr><th>Modell</th><th>Typ</th><th>Verbindung</th><th>Hub nötig</th><th>Matter</th><th>Ideal für</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>Philips Hue White and Color Ambiance E27</strong></td><td>Farblampe, 1.100 lm</td><td>Zigbee + Bluetooth</td><td>Empfohlen (Hue Bridge)</td><td>Ja, über die Bridge</td><td>Ganzes Zuhause, Automationen</td></tr>\n<tr><td><strong>TP-Link Tapo L535E</strong></td><td>Farblampe, 1.055 lm</td><td>WLAN</td><td>Nein</td><td>Ja, nativ</td><td>Wenige Lampen ohne Hub</td></tr>\n<tr><td><strong>Govee RGBIC LED Strip H619A</strong></td><td>RGBIC-Streifen 5 m</td><td>WLAN + Bluetooth</td><td>Nein</td><td>Nein</td><td>Ambiente, Gaming, Deko</td></tr>\n<tr><td><strong>IKEA KAJPLATS E27 CWS globe 1055lm</strong></td><td>Farblampe, 1.055 lm</td><td>Thread (Matter) + Zigbee</td><td>DIRIGERA oder Thread-Router</td><td>Ja, nativ</td><td>Viele Lichtpunkte mit kleinem Budget</td></tr>\n<tr><td><strong>Philips Hue Ambiance Gradient Lightstrip 2m</strong></td><td>Verlaufsstreifen, bis 10 m erweiterbar</td><td>Zigbee + Bluetooth</td><td>Empfohlen (Hue Bridge)</td><td>Ja, über die Bridge</td><td>Hochwertiges indirektes Licht</td></tr>\n<tr><td><strong>Govee Envisual TV Backlight T2</strong></td><td>TV-Hintergrundbeleuchtung mit Kamera</td><td>WLAN + Bluetooth</td><td>Nein</td><td>Nein</td><td>Filme und Gaming</td></tr>\n</tbody>\n</table>\n\n<h2>Was sich 2026 geändert hat</h2>\n<ul>\n<li><strong>IKEA:</strong> Die TRÅDFRI-Lampen wurden durch KAJPLATS mit Matter-over-Thread ersetzt. Der Hub DIRIGERA ist jetzt Matter-Controller und Thread-Border-Router.</li>\n<li><strong>Philips Hue:</strong> Die Hue Bridge Pro ergänzt die klassische Bridge für große Installationen, und die Funktionen der früheren Hue Labs stecken nun in der App.</li>\n<li><strong>TP-Link Tapo:</strong> Matter gibt es bei bestimmten Modellen wie der L535E, nicht in der ganzen Serie. Achten Sie vor dem Kauf auf das Matter-Logo auf der Verpackung.</li>\n<li><strong>Govee:</strong> Die Marke konzentriert sich weiter auf RGBIC-Stimmungslicht, Wandpaneele wie die Glide Hexa Pro und TV-Hintergrundbeleuchtung.</li>\n</ul>\n\n<h2>Fehler, die Sie vermeiden sollten</h2>\n<ul>\n<li><strong>Am Wandschalter ausschalten:</strong> Eine smarte Lampe muss mit Strom versorgt bleiben, um auf App oder Sprache zu reagieren. Nutzen Sie stattdessen einen Funkschalter oder eine kompatible Fernbedienung.</li>\n<li><strong>Einen klassischen Dimmer verwenden:</strong> Smarte Lampen dimmen selbst; ein herkömmlicher Wanddimmer kann Flackern verursachen oder sie beschädigen.</li>\n<li><strong>Zu viele Ökosysteme mischen:</strong> Vier Apps parallel werden schnell lästig. Wählen Sie ein Hauptsystem und bündeln Sie den Rest per Matter in Apple Home, Google Home oder Alexa.</li>\n<li><strong>Ähnliche Modelle verwechseln:</strong> Tapo L530E und L535E oder alte TRÅDFRI und neue KAJPLATS bieten nicht dieselbe Kompatibilität.</li>\n<li><strong>Die Helligkeit unterschätzen:</strong> Eine Lampe mit 470 lm ersetzt keine alte 75-W-Birne im Hauptraum.</li>\n</ul>\n\n<h2>Installation und Sicherheit</h2>\n<p>Ein Lampentausch erfordert keine besonderen Kenntnisse: Strom ausschalten, die alte Lampe abkühlen lassen, die neue eindrehen und die Kopplung in der App durchführen. Prüfen Sie anhand der Herstellerangaben, ob die Lampe zur Leuchte passt, vor allem bei geschlossenen Deckenleuchten oder in Feuchträumen. Bei LED-Streifen die Oberfläche vor dem Aufkleben reinigen und trocknen, nur das mitgelieferte Netzteil verwenden und das Netzteil nie abdecken. Jede Änderung an der Elektroinstallation (Einbaustrahler, Schalter, neue Lichtpunkte) gehört in die Hände einer qualifizierten Elektrofachkraft. Um den Verbrauch Ihrer Leuchten zu messen oder eine nicht smarte Lampe zu steuern, ist eine smarte Steckdose eine gute Ergänzung: siehe unseren <a href=\"/de/blog/comparatif-smart-plugs-mesure-energie\">Vergleich smarter Steckdosen</a>.</p>\n\n<h2>Unser Fazit</h2>\n<p>Wer sein ganzes Zuhause langfristig ausstatten will, liegt mit der <strong>Philips Hue White and Color Ambiance E27</strong> und der Hue Bridge insgesamt am besten: Lichtqualität, Sortimentsbreite und zuverlässige Automationen. Für ein paar Leuchten ohne Hub ist die <strong>TP-Link Tapo L535E</strong> dank direktem WLAN und Matter der beste Kompromiss. Für farbiges Ambiente ist der <strong>Govee RGBIC LED Strip H619A</strong> am spektakulärsten. Knappe Budgets mit vielen Lichtpunkten greifen zu <strong>IKEA KAJPLATS</strong> mit DIRIGERA, Filmfans zum <strong>Govee Envisual TV Backlight T2</strong>.</p>",
+    "es": "<p>La mejor iluminación inteligente en 2026 para la mayoría de los hogares es la bombilla <strong>Philips Hue White and Color Ambiance E27</strong> junto al Hue Bridge: es el ecosistema más completo, el más fiable y el mejor integrado con Alexa, Google Home y Apple Casa. Si solo quiere unas pocas bombillas sin hub, la <strong>TP-Link Tapo L535E</strong>, con wifi y compatible con Matter, es la opción más sencilla, y para un ambiente de color detrás del televisor o del escritorio, la tira <strong>Govee RGBIC LED Strip H619A</strong> sigue siendo la más espectacular.</p>\n<p>El mercado ha cambiado mucho en el último año: IKEA ha sustituido su gama de bombillas TRÅDFRI por KAJPLATS, Philips ha lanzado el Hue Bridge Pro y Matter ya es habitual. Esta comparativa se basa en las fichas técnicas de los fabricantes, en análisis independientes publicados y en opiniones verificadas de compradores. Para ver todos los productos de la categoría, visite nuestra página de <a href=\"/es/energie-domotique/eclairage-connecte\">iluminación inteligente</a>.</p>\n\n<h2>Cómo elegir la iluminación inteligente</h2>\n<h3>Con o sin hub</h3>\n<p>Es la primera decisión. Los sistemas con hub (Philips Hue con el Hue Bridge, IKEA con DIRIGERA) conectan las bombillas mediante Zigbee o Thread, dos redes en malla de bajo consumo que no sobrecargan el router y siguen funcionando en local si se cae internet. Las bombillas wifi (TP-Link Tapo, Govee) se conectan directamente al router: la instalación es inmediata, pero cada bombilla ocupa un hueco en la red doméstica. Para una a cinco bombillas, el wifi basta de sobra; para equipar toda la casa, un hub resulta más cómodo.</p>\n<h3>Matter y Thread</h3>\n<p>Matter es el estándar común respaldado por Apple, Google, Amazon y Samsung. Una bombilla compatible con Matter puede controlarse desde Apple Casa, Google Home o Alexa sin la app del fabricante. Ojo: Matter no es un protocolo de radio, sino que funciona sobre wifi o sobre Thread. Una bombilla Matter-over-Thread necesita un router de borde Thread (algunos HomePod, Apple TV o altavoces Nest, o el hub IKEA DIRIGERA tras su actualización). Para profundizar, lea nuestra <a href=\"/es/blog/maison-connectee-matter-thread-2026\">guía de Matter y Thread</a>.</p>\n<h3>Casquillo, flujo luminoso y tipo de luz</h3>\n<p>Compruebe primero el casquillo de sus lámparas (E27, E14, GU10) y luego el flujo luminoso en lúmenes: unos 800 lm equivalen a una antigua bombilla de 60 W, mientras que 1055 a 1100 lm se acercan a una de 75 W. Después, elija entre blanco regulable (de cálido a frío, ideal para el día a día) y color (para crear ambientes). Las bombillas de color son más caras, así que suele tener sentido reservarlas para el salón y los dormitorios.</p>\n<h3>Ecosistema y automatizaciones</h3>\n<p>Una buena app marca la diferencia: escenas, despertar progresivo, encendido al atardecer, simulación de presencia. Si utiliza Home Assistant, dé prioridad a los sistemas que funcionan en local (Zigbee, Thread o Matter) frente a los que dependen de la nube del fabricante.</p>\n\n<h2>La mejor iluminación inteligente de 2026</h2>\n<h3>1. Philips Hue White and Color Ambiance E27: la referencia</h3>\n<p><strong>Puntos fuertes:</strong> la bombilla de color de Philips Hue ofrece hasta 1100 lúmenes, blanco regulable de 2000 a 6500 K y millones de colores. Funciona con Zigbee a través del Hue Bridge y con Bluetooth para un uso limitado sin hub. El ecosistema Hue es el más amplio del mercado: bombillas E27, E14 y GU10, tiras de luz, lámparas, iluminación exterior, interruptores y sensores de movimiento. Con el Bridge, todas las luces se exponen mediante Matter a Apple Casa, Google Home y Alexa.</p>\n<p><strong>Limitaciones:</strong> es la gama más cara de la comparativa, y el Bridge es imprescindible para las automatizaciones avanzadas. El Hue Bridge clásico gestiona hasta 50 luces; por encima, hace falta el <strong>Hue Bridge Pro</strong>, preparado para más de 150 luces y más de 50 accesorios. Por cierto, los «Hue Labs» que citan muchas guías cerraron en junio de 2024; sus mejores fórmulas se integraron directamente en la app Hue.</p>\n<p><strong>Para quién:</strong> quienes quieran equipar toda la casa con un sistema duradero, fiable y rico en automatizaciones.</p>\n\n<h3>2. TP-Link Tapo L535E: la mejor bombilla sin hub</h3>\n<p><strong>Puntos fuertes:</strong> esta bombilla E27 de color se conecta directamente por wifi y es compatible con Matter. Declara 1055 lúmenes, blanco regulable de 2500 a 6500 K y millones de colores. El emparejamiento lleva unos minutos con la app Tapo, o directamente desde Apple Casa, Google Home o Alexa gracias a Matter.</p>\n<p><strong>Limitaciones:</strong> como cualquier bombilla wifi, depende del router, y decenas de bombillas wifi pueden saturar una red doméstica. Atención al modelo: la Tapo L530E, muy extendida y más barata, no es compatible con Matter de forma nativa; se controla con la app Tapo, Alexa y Google Assistant.</p>\n<p><strong>Para quién:</strong> inquilinos, pisos pequeños y cualquiera que quiera conectar unas pocas lámparas sin comprar un hub.</p>\n\n<h3>3. Govee RGBIC LED Strip H619A: el ambiente más espectacular</h3>\n<p><strong>Puntos fuertes:</strong> esta tira de 5 metros utiliza tecnología RGBIC, que muestra varios colores a la vez en distintos segmentos, lo que permite degradados y efectos animados imposibles con una tira RGB normal. Se controla por wifi y Bluetooth, ofrece sincronización con la música, numerosos modos de escena y un recubrimiento protector, y funciona con Alexa y Google Assistant.</p>\n<p><strong>Limitaciones:</strong> Govee está pensado para crear ambiente, no como luz principal de una estancia. La app depende mucho de la nube y este modelo no se integra de forma nativa con Apple Casa.</p>\n<p><strong>Para quién:</strong> rincones gaming, muebles de televisión, despachos y quien busque un efecto decorativo potente.</p>\n\n<h3>4. IKEA KAJPLATS E27 CWS globe 1055lm: la opción económica con hub</h3>\n<p><strong>Puntos fuertes:</strong> KAJPLATS sustituye a la gama de bombillas TRÅDFRI desde el 1 de enero de 2026. Esta versión de color y blanco regulable ofrece 1055 lúmenes e integra Matter-over-Thread: puede conectarse directamente a un router de borde Thread compatible o al hub IKEA DIRIGERA, que se convirtió en controlador Matter y router de borde Thread con una actualización de software gratuita. IKEA sigue siendo una de las marcas más asequibles para equipar toda una casa.</p>\n<p><strong>Limitaciones:</strong> la gama es menos amplia que la de Hue, y algunos usuarios señalan problemas al combinar las nuevas KAJPLATS con mandos TRÅDFRI antiguos. Las bombillas TRÅDFRI ya no se venden, aunque las instaladas siguen funcionando en la app IKEA Home smart.</p>\n<p><strong>Para quién:</strong> presupuestos ajustados que quieren una red en malla local y compatibilidad Matter en muchos puntos de luz.</p>\n\n<h3>5. Philips Hue Ambiance Gradient Lightstrip 2m: la tira premium</h3>\n<p><strong>Puntos fuertes:</strong> esta tira muestra varios colores a la vez a lo largo de toda su longitud, con degradados muy suaves. Mide 2 metros, se puede ampliar hasta 10 metros y cortar a medida. Se integra en las escenas y automatizaciones de Hue y se controla por voz con Alexa, Google Home y Apple Casa.</p>\n<p><strong>Limitaciones:</strong> es un producto de gama alta, solo para interior, y cobra todo su sentido en un ecosistema Hue con Bridge.</p>\n<p><strong>Para quién:</strong> usuarios de Hue que buscan una iluminación indirecta elegante bajo un mueble, detrás del cabecero o a lo largo del techo.</p>\n\n<h3>6. Govee Envisual TV Backlight T2: sincronización con el televisor</h3>\n<p><strong>Puntos fuertes:</strong> este kit se coloca detrás del televisor y usa una cámara doble para reproducir en tiempo real los colores de la pantalla en la pared. Otras luces Govee sin cámara pueden sincronizarse con él mediante la función DreamView de la app Govee Home. Funciona con Alexa y Google Assistant.</p>\n<p><strong>Limitaciones:</strong> la cámara solo se monta en la parte superior del televisor, y el kit no es compatible con pantallas curvas. Es un accesorio de ambiente, no una iluminación de estancia.</p>\n<p><strong>Para quién:</strong> aficionados al cine y a los videojuegos que buscan la máxima inmersión sin una caja de sincronización aparte.</p>\n\n<h2>Tabla comparativa</h2>\n<table>\n<thead>\n<tr><th>Modelo</th><th>Tipo</th><th>Conectividad</th><th>Necesita hub</th><th>Matter</th><th>Ideal para</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>Philips Hue White and Color Ambiance E27</strong></td><td>Bombilla de color, 1100 lm</td><td>Zigbee + Bluetooth</td><td>Recomendado (Hue Bridge)</td><td>Sí, mediante el Bridge</td><td>Toda la casa, automatizaciones</td></tr>\n<tr><td><strong>TP-Link Tapo L535E</strong></td><td>Bombilla de color, 1055 lm</td><td>Wifi</td><td>No</td><td>Sí, nativo</td><td>Pocas bombillas sin hub</td></tr>\n<tr><td><strong>Govee RGBIC LED Strip H619A</strong></td><td>Tira RGBIC de 5 m</td><td>Wifi + Bluetooth</td><td>No</td><td>No</td><td>Ambiente, gaming, decoración</td></tr>\n<tr><td><strong>IKEA KAJPLATS E27 CWS globe 1055lm</strong></td><td>Bombilla de color, 1055 lm</td><td>Thread (Matter) + Zigbee</td><td>DIRIGERA o router Thread</td><td>Sí, nativo</td><td>Muchos puntos de luz con poco presupuesto</td></tr>\n<tr><td><strong>Philips Hue Ambiance Gradient Lightstrip 2m</strong></td><td>Tira degradada, ampliable a 10 m</td><td>Zigbee + Bluetooth</td><td>Recomendado (Hue Bridge)</td><td>Sí, mediante el Bridge</td><td>Iluminación indirecta premium</td></tr>\n<tr><td><strong>Govee Envisual TV Backlight T2</strong></td><td>Retroiluminación de TV con cámara</td><td>Wifi + Bluetooth</td><td>No</td><td>No</td><td>Cine y videojuegos</td></tr>\n</tbody>\n</table>\n\n<h2>Qué ha cambiado en 2026</h2>\n<ul>\n<li><strong>IKEA:</strong> las bombillas TRÅDFRI se han sustituido por KAJPLATS, compatibles con Matter-over-Thread. El hub DIRIGERA es ahora controlador Matter y router de borde Thread.</li>\n<li><strong>Philips Hue:</strong> el Hue Bridge Pro se suma al Bridge clásico para instalaciones grandes, y las funciones del antiguo Hue Labs están ahora en la app.</li>\n<li><strong>TP-Link Tapo:</strong> Matter está disponible en modelos concretos como la L535E, no en toda la gama. Compruebe el logotipo de Matter en la caja antes de comprar.</li>\n<li><strong>Govee:</strong> la marca sigue centrada en la iluminación de ambiente RGBIC, los paneles de pared como los Glide Hexa Pro y la retroiluminación de televisores.</li>\n</ul>\n\n<h2>Errores que conviene evitar</h2>\n<ul>\n<li><strong>Apagar con el interruptor de pared:</strong> una bombilla inteligente debe seguir alimentada para responder a la app o a la voz. Use mejor un interruptor inalámbrico o un mando compatible.</li>\n<li><strong>Usar un regulador convencional:</strong> las bombillas inteligentes regulan la intensidad por sí mismas; un regulador de pared tradicional puede provocar parpadeos o dañarlas.</li>\n<li><strong>Multiplicar ecosistemas:</strong> manejar cuatro apps resulta pesado enseguida. Elija un sistema principal y use Matter para reunir el resto en Apple Casa, Google Home o Alexa.</li>\n<li><strong>Confundir modelos parecidos:</strong> la Tapo L530E y la L535E, o las antiguas TRÅDFRI y las nuevas KAJPLATS, no ofrecen la misma compatibilidad.</li>\n<li><strong>Olvidar el flujo luminoso:</strong> una bombilla de 470 lm no sustituirá a una antigua de 75 W en una estancia principal.</li>\n</ul>\n\n<h2>Instalación y seguridad</h2>\n<p>Cambiar una bombilla no requiere conocimientos especiales: corte la corriente, deje enfriar la bombilla antigua, enrosque la nueva y siga el emparejamiento en la app. Compruebe que la bombilla es adecuada para la lámpara, sobre todo en plafones cerrados o estancias húmedas, siguiendo las indicaciones del fabricante. Con las tiras LED, limpie y seque la superficie antes de pegar el adhesivo, utilice solo la fuente de alimentación incluida y no la cubra nunca. Cualquier modificación de la instalación eléctrica (focos empotrados, interruptores, nuevos puntos de luz) debe encargarse a un electricista cualificado. Por último, para medir el consumo de sus lámparas o controlar una lámpara no inteligente, un enchufe inteligente es un buen complemento: consulte nuestra <a href=\"/es/blog/comparatif-smart-plugs-mesure-energie\">comparativa de enchufes inteligentes</a>.</p>\n\n<h2>Nuestro veredicto</h2>\n<p>Para equipar toda la casa a largo plazo, la <strong>Philips Hue White and Color Ambiance E27</strong> con el Hue Bridge sigue siendo la mejor opción global: calidad de luz, amplitud de gama y automatizaciones fiables. Para conectar unas pocas lámparas sin hub, la <strong>TP-Link Tapo L535E</strong> ofrece el mejor equilibrio gracias al wifi directo y a Matter. Para crear ambiente de color, la <strong>Govee RGBIC LED Strip H619A</strong> es la más espectacular. Los presupuestos ajustados con muchos puntos de luz se decantarán por <strong>IKEA KAJPLATS</strong> con DIRIGERA, y los cinéfilos por el <strong>Govee Envisual TV Backlight T2</strong>.</p>",
+    "it": "<p>La migliore illuminazione smart del 2026 per la maggior parte delle case è la lampadina <strong>Philips Hue White and Color Ambiance E27</strong> abbinata all'Hue Bridge: è l'ecosistema più completo, il più affidabile e il meglio integrato con Alexa, Google Home e Apple Casa. Se volete solo qualche lampadina senza hub, la <strong>TP-Link Tapo L535E</strong>, Wi-Fi e compatibile Matter, è l'opzione più semplice, mentre per un'atmosfera colorata dietro la TV o la scrivania la striscia <strong>Govee RGBIC LED Strip H619A</strong> resta la più spettacolare.</p>\n<p>Il mercato è cambiato molto nell'ultimo anno: IKEA ha sostituito la gamma di lampadine TRÅDFRI con KAJPLATS, Philips ha lanciato l'Hue Bridge Pro e Matter è ormai diffuso. Questo confronto si basa sulle schede tecniche dei produttori, sulle recensioni indipendenti pubblicate e sui feedback verificati degli acquirenti. Per vedere tutti i prodotti della categoria, visitate la nostra pagina <a href=\"/it/energie-domotique/eclairage-connecte\">illuminazione smart</a>.</p>\n\n<h2>Come scegliere l'illuminazione smart</h2>\n<h3>Con o senza hub</h3>\n<p>È la prima decisione. I sistemi con hub (Philips Hue con l'Hue Bridge, IKEA con DIRIGERA) collegano le lampadine tramite Zigbee o Thread, due reti mesh a basso consumo che non appesantiscono il router e continuano a funzionare in locale se cade internet. Le lampadine Wi-Fi (TP-Link Tapo, Govee) si collegano direttamente al router: l'installazione è immediata, ma ogni lampadina occupa un posto nella rete domestica. Da una a cinque lampadine il Wi-Fi basta e avanza; per tutta la casa un hub diventa più comodo.</p>\n<h3>Matter e Thread</h3>\n<p>Matter è lo standard comune sostenuto da Apple, Google, Amazon e Samsung. Una lampadina compatibile Matter si può controllare da Apple Casa, Google Home o Alexa senza l'app del produttore. Attenzione: Matter non è un protocollo radio, ma funziona su Wi-Fi o su Thread. Una lampadina Matter-over-Thread ha bisogno di un router di confine Thread (alcuni HomePod, Apple TV o speaker Nest, oppure l'hub IKEA DIRIGERA dopo l'aggiornamento). Per approfondire, leggete la nostra <a href=\"/it/blog/maison-connectee-matter-thread-2026\">guida a Matter e Thread</a>.</p>\n<h3>Attacco, flusso luminoso e tipo di luce</h3>\n<p>Controllate prima l'attacco dei vostri lampadari (E27, E14, GU10), poi il flusso luminoso in lumen: circa 800 lm equivalgono a una vecchia lampadina da 60 W, mentre 1.055-1.100 lm si avvicinano a una da 75 W. Scegliete poi tra bianco regolabile (da caldo a freddo, ideale per l'uso quotidiano) e colore (per creare atmosfere). Le lampadine a colori costano di più, quindi spesso conviene riservarle a soggiorno e camere.</p>\n<h3>Ecosistema e automazioni</h3>\n<p>Una buona app fa tutta la differenza: scene, risveglio graduale, accensione al tramonto, simulazione di presenza. Se usate Home Assistant, preferite i sistemi che funzionano in locale (Zigbee, Thread o Matter) a quelli che dipendono dal cloud del produttore.</p>\n\n<h2>La migliore illuminazione smart del 2026</h2>\n<h3>1. Philips Hue White and Color Ambiance E27: il riferimento</h3>\n<p><strong>Punti di forza:</strong> la lampadina a colori di Philips Hue arriva a 1.100 lumen, con bianco regolabile da 2.000 a 6.500 K e milioni di colori. Funziona in Zigbee con l'Hue Bridge e in Bluetooth per un uso limitato senza hub. L'ecosistema Hue è il più vasto del mercato: lampadine E27, E14 e GU10, strisce luminose, lampade, illuminazione da esterno, interruttori e sensori di movimento. Con il Bridge tutte le luci vengono esposte tramite Matter ad Apple Casa, Google Home e Alexa.</p>\n<p><strong>Limiti:</strong> è la gamma più costosa del confronto, e il Bridge è indispensabile per le automazioni avanzate. L'Hue Bridge classico gestisce fino a 50 luci; oltre serve l'<strong>Hue Bridge Pro</strong>, pensato per più di 150 luci e oltre 50 accessori. Da notare: gli «Hue Labs» citati in molte guide sono stati chiusi nel giugno 2024 e le loro formule migliori sono state integrate direttamente nell'app Hue.</p>\n<p><strong>Per chi:</strong> chi vuole equipaggiare tutta la casa con un sistema duraturo, affidabile e ricco di automazioni.</p>\n\n<h3>2. TP-Link Tapo L535E: la migliore lampadina senza hub</h3>\n<p><strong>Punti di forza:</strong> questa lampadina E27 a colori si collega direttamente in Wi-Fi e supporta Matter. Dichiara 1.055 lumen, bianco regolabile da 2.500 a 6.500 K e milioni di colori. L'abbinamento richiede pochi minuti con l'app Tapo, oppure avviene direttamente da Apple Casa, Google Home o Alexa grazie a Matter.</p>\n<p><strong>Limiti:</strong> come ogni lampadina Wi-Fi dipende dal router, e decine di lampadine Wi-Fi possono affollare una rete domestica. Attenzione al modello: la Tapo L530E, molto diffusa e più economica, non supporta Matter in modo nativo; si controlla con l'app Tapo, Alexa e Google Assistant.</p>\n<p><strong>Per chi:</strong> chi vive in affitto, piccoli appartamenti e chiunque voglia collegare qualche lampada senza acquistare un hub.</p>\n\n<h3>3. Govee RGBIC LED Strip H619A: l'atmosfera più spettacolare</h3>\n<p><strong>Punti di forza:</strong> questa striscia da 5 metri usa la tecnologia RGBIC, che mostra più colori contemporaneamente su segmenti diversi, creando sfumature ed effetti animati impossibili con una normale striscia RGB. Si controlla via Wi-Fi e Bluetooth, offre sincronizzazione con la musica, numerose modalità scena e un rivestimento protettivo, e funziona con Alexa e Google Assistant.</p>\n<p><strong>Limiti:</strong> Govee è pensata per l'atmosfera, non come luce principale di una stanza. L'app dipende molto dal cloud e questo modello non si integra in modo nativo con Apple Casa.</p>\n<p><strong>Per chi:</strong> postazioni gaming, mobili TV, studi e chi cerca un effetto decorativo forte.</p>\n\n<h3>4. IKEA KAJPLATS E27 CWS globe 1055lm: la scelta economica con hub</h3>\n<p><strong>Punti di forza:</strong> KAJPLATS sostituisce la gamma di lampadine TRÅDFRI dal 1° gennaio 2026. Questa versione a colori e con bianco regolabile offre 1.055 lumen e integra Matter-over-Thread: può collegarsi direttamente a un router di confine Thread compatibile oppure all'hub IKEA DIRIGERA, diventato controller Matter e router di confine Thread con un aggiornamento software gratuito. IKEA resta tra i marchi più accessibili per equipaggiare un'intera casa.</p>\n<p><strong>Limiti:</strong> la gamma è meno ampia di quella Hue, e alcuni utenti segnalano difficoltà nel combinare le nuove KAJPLATS con i vecchi telecomandi TRÅDFRI. Le lampadine TRÅDFRI non sono più in vendita, anche se quelle già installate continuano a funzionare nell'app IKEA Home smart.</p>\n<p><strong>Per chi:</strong> budget ridotti che vogliono una rete mesh locale e la compatibilità Matter su molti punti luce.</p>\n\n<h3>5. Philips Hue Ambiance Gradient Lightstrip 2m: la striscia premium</h3>\n<p><strong>Punti di forza:</strong> questa striscia mostra più colori contemporaneamente lungo tutta la sua lunghezza, con sfumature molto morbide. Misura 2 metri, si può estendere fino a 10 metri e tagliare a misura. Si integra nelle scene e automazioni Hue e si comanda con la voce tramite Alexa, Google Home e Apple Casa.</p>\n<p><strong>Limiti:</strong> è un prodotto di fascia alta, solo per interni, e dà il meglio in un ecosistema Hue con Bridge.</p>\n<p><strong>Per chi:</strong> utenti Hue che desiderano un'illuminazione indiretta elegante sotto un mobile, dietro la testiera del letto o lungo il soffitto.</p>\n\n<h3>6. Govee Envisual TV Backlight T2: la sincronizzazione con la TV</h3>\n<p><strong>Punti di forza:</strong> questo kit si monta dietro il televisore e usa una doppia telecamera per riprodurre in tempo reale i colori dello schermo sulla parete. Altre luci Govee senza telecamera possono sincronizzarsi con esso tramite la funzione DreamView dell'app Govee Home. Funziona con Alexa e Google Assistant.</p>\n<p><strong>Limiti:</strong> la telecamera si monta solo sopra il televisore e il kit non è compatibile con gli schermi curvi. È un accessorio d'atmosfera, non un'illuminazione per la stanza.</p>\n<p><strong>Per chi:</strong> appassionati di cinema e videogiochi che vogliono la massima immersione senza un box di sincronizzazione separato.</p>\n\n<h2>Tabella comparativa</h2>\n<table>\n<thead>\n<tr><th>Modello</th><th>Tipo</th><th>Connettività</th><th>Hub necessario</th><th>Matter</th><th>Ideale per</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>Philips Hue White and Color Ambiance E27</strong></td><td>Lampadina a colori, 1.100 lm</td><td>Zigbee + Bluetooth</td><td>Consigliato (Hue Bridge)</td><td>Sì, tramite il Bridge</td><td>Tutta la casa, automazioni</td></tr>\n<tr><td><strong>TP-Link Tapo L535E</strong></td><td>Lampadina a colori, 1.055 lm</td><td>Wi-Fi</td><td>No</td><td>Sì, nativo</td><td>Poche lampadine senza hub</td></tr>\n<tr><td><strong>Govee RGBIC LED Strip H619A</strong></td><td>Striscia RGBIC da 5 m</td><td>Wi-Fi + Bluetooth</td><td>No</td><td>No</td><td>Atmosfera, gaming, arredo</td></tr>\n<tr><td><strong>IKEA KAJPLATS E27 CWS globe 1055lm</strong></td><td>Lampadina a colori, 1.055 lm</td><td>Thread (Matter) + Zigbee</td><td>DIRIGERA o router Thread</td><td>Sì, nativo</td><td>Molti punti luce con budget ridotto</td></tr>\n<tr><td><strong>Philips Hue Ambiance Gradient Lightstrip 2m</strong></td><td>Striscia sfumata, estendibile a 10 m</td><td>Zigbee + Bluetooth</td><td>Consigliato (Hue Bridge)</td><td>Sì, tramite il Bridge</td><td>Illuminazione indiretta premium</td></tr>\n<tr><td><strong>Govee Envisual TV Backlight T2</strong></td><td>Retroilluminazione TV con telecamera</td><td>Wi-Fi + Bluetooth</td><td>No</td><td>No</td><td>Cinema e videogiochi</td></tr>\n</tbody>\n</table>\n\n<h2>Cosa è cambiato nel 2026</h2>\n<ul>\n<li><strong>IKEA:</strong> le lampadine TRÅDFRI sono state sostituite dalle KAJPLATS, compatibili con Matter-over-Thread. L'hub DIRIGERA è ora controller Matter e router di confine Thread.</li>\n<li><strong>Philips Hue:</strong> l'Hue Bridge Pro affianca il Bridge classico per le installazioni grandi, e le funzioni dei vecchi Hue Labs sono ora nell'app.</li>\n<li><strong>TP-Link Tapo:</strong> Matter è disponibile su modelli specifici come la L535E, non su tutta la gamma. Controllate il logo Matter sulla confezione prima di acquistare.</li>\n<li><strong>Govee:</strong> il marchio resta concentrato sull'illuminazione d'atmosfera RGBIC, sui pannelli da parete come i Glide Hexa Pro e sulla retroilluminazione per TV.</li>\n</ul>\n\n<h2>Errori da evitare</h2>\n<ul>\n<li><strong>Spegnere dall'interruttore a muro:</strong> una lampadina smart deve restare alimentata per rispondere all'app o alla voce. Usate piuttosto un interruttore wireless o un telecomando compatibile.</li>\n<li><strong>Usare un dimmer tradizionale:</strong> le lampadine smart gestiscono da sole la regolazione; un dimmer a muro classico può causare sfarfallii o danneggiarle.</li>\n<li><strong>Moltiplicare gli ecosistemi:</strong> gestire quattro app diventa presto scomodo. Scegliete un sistema principale e usate Matter per riunire il resto in Apple Casa, Google Home o Alexa.</li>\n<li><strong>Confondere modelli simili:</strong> Tapo L530E e L535E, o le vecchie TRÅDFRI e le nuove KAJPLATS, non offrono la stessa compatibilità.</li>\n<li><strong>Trascurare il flusso luminoso:</strong> una lampadina da 470 lm non sostituirà una vecchia da 75 W in una stanza principale.</li>\n</ul>\n\n<h2>Installazione e sicurezza</h2>\n<p>Sostituire una lampadina non richiede competenze particolari: togliete la corrente, lasciate raffreddare la vecchia lampadina, avvitate la nuova e seguite l'abbinamento nell'app. Verificate che la lampadina sia adatta al lampadario, soprattutto nelle plafoniere chiuse o negli ambienti umidi, seguendo le indicazioni del produttore. Per le strisce LED, pulite e asciugate la superficie prima di applicare l'adesivo, usate solo l'alimentatore fornito e non copritelo mai. Qualsiasi modifica all'impianto elettrico (faretti a incasso, interruttori, nuovi punti luce) va affidata a un elettricista qualificato. Infine, per misurare i consumi delle lampade o comandare una lampada non smart, una presa intelligente è un ottimo complemento: consultate il nostro <a href=\"/it/blog/comparatif-smart-plugs-mesure-energie\">confronto delle prese smart</a>.</p>\n\n<h2>Il nostro verdetto</h2>\n<p>Per equipaggiare tutta la casa nel lungo periodo, la <strong>Philips Hue White and Color Ambiance E27</strong> con l'Hue Bridge resta la scelta migliore in assoluto: qualità della luce, ampiezza della gamma e automazioni affidabili. Per collegare qualche lampada senza hub, la <strong>TP-Link Tapo L535E</strong> offre il miglior compromesso grazie al Wi-Fi diretto e a Matter. Per un'atmosfera colorata, la <strong>Govee RGBIC LED Strip H619A</strong> è la più spettacolare. Chi ha un budget ridotto e molti punti luce guarderà alle <strong>IKEA KAJPLATS</strong> con DIRIGERA, e gli appassionati di cinema al <strong>Govee Envisual TV Backlight T2</strong>.</p>",
+    "nl": "<p>De beste slimme verlichting in 2026 is voor de meeste huishoudens de <strong>Philips Hue White and Color Ambiance E27</strong> in combinatie met de Hue Bridge: het is het meest complete en betrouwbare ecosysteem, met de beste integratie in Alexa, Google Home en Apple Woning. Wilt u maar een paar lampen zonder hub, dan is de <strong>TP-Link Tapo L535E</strong> met wifi en Matter de eenvoudigste keuze, en voor kleurrijke sfeer achter de tv of het bureau blijft de <strong>Govee RGBIC LED Strip H619A</strong> het meest spectaculair.</p>\n<p>De markt is het afgelopen jaar flink veranderd: IKEA heeft zijn TRÅDFRI-lampen vervangen door KAJPLATS, Philips bracht de Hue Bridge Pro uit en Matter is gemeengoed geworden. Deze vergelijking is gebaseerd op specificaties van fabrikanten, gepubliceerde onafhankelijke reviews en geverifieerde ervaringen van kopers. Alle producten in deze categorie vindt u op onze pagina <a href=\"/nl/energie-domotique/eclairage-connecte\">slimme verlichting</a>.</p>\n\n<h2>Waar let u op bij slimme verlichting</h2>\n<h3>Met of zonder hub</h3>\n<p>Dit is de eerste keuze. Systemen met een hub (Philips Hue met de Hue Bridge, IKEA met DIRIGERA) verbinden de lampen via Zigbee of Thread, twee zuinige mesh-netwerken die uw router ontlasten en lokaal blijven werken als het internet uitvalt. Wifi-lampen (TP-Link Tapo, Govee) maken direct verbinding met de router: de installatie gaat meteen, maar elke lamp neemt een plek in op het thuisnetwerk. Voor één tot vijf lampen volstaat wifi ruimschoots; voor een heel huis is een hub prettiger.</p>\n<h3>Matter en Thread</h3>\n<p>Matter is de gezamenlijke standaard van Apple, Google, Amazon en Samsung. Een Matter-compatibele lamp is zonder merkapp te bedienen via Apple Woning, Google Home of Alexa. Let op: Matter is geen radioprotocol, maar werkt via wifi of Thread. Een lamp met Matter-over-Thread heeft een Thread-borderrouter nodig, zoals sommige HomePod-, Apple TV- of Nest-apparaten of de IKEA DIRIGERA-hub na zijn update. Lees meer in onze <a href=\"/nl/blog/maison-connectee-matter-thread-2026\">gids over Matter en Thread</a>.</p>\n<h3>Fitting, lichtopbrengst en soort licht</h3>\n<p>Controleer eerst de fitting van uw armaturen (E27, E14, GU10) en daarna de lichtopbrengst in lumen: ongeveer 800 lm komt overeen met een oude gloeilamp van 60 W, terwijl 1.055 tot 1.100 lm dichter bij 75 W ligt. Kies vervolgens tussen instelbaar wit (van warm tot koel, ideaal voor dagelijks gebruik) en kleur (voor sfeer). Kleurlampen zijn duurder, dus het is vaak verstandig ze te bewaren voor de woonkamer en slaapkamers.</p>\n<h3>Ecosysteem en automatiseringen</h3>\n<p>Een goede app maakt het verschil: scènes, geleidelijk wakker worden, aan bij zonsondergang, aanwezigheidssimulatie. Gebruikt u Home Assistant, kies dan voor systemen die lokaal werken (Zigbee, Thread of Matter) in plaats van systemen die afhangen van de cloud van de fabrikant.</p>\n\n<h2>De beste slimme verlichting van 2026</h2>\n<h3>1. Philips Hue White and Color Ambiance E27: de maatstaf</h3>\n<p><strong>Sterke punten:</strong> de kleurlamp van Philips Hue levert tot 1.100 lumen, instelbaar wit van 2.000 tot 6.500 K en miljoenen kleuren. Hij werkt via Zigbee met de Hue Bridge en via Bluetooth voor beperkt gebruik zonder hub. Het Hue-ecosysteem is het grootste op de markt: lampen met E27-, E14- en GU10-fitting, lichtstrips, lampen, buitenverlichting, schakelaars en bewegingssensoren. Via de Bridge worden alle lampen met Matter doorgegeven aan Apple Woning, Google Home en Alexa.</p>\n<p><strong>Beperkingen:</strong> het is de duurste serie in deze vergelijking, en voor geavanceerde automatiseringen is de Bridge onmisbaar. De standaard Hue Bridge beheert tot 50 lampen; daarboven hebt u de <strong>Hue Bridge Pro</strong> nodig, geschikt voor meer dan 150 lampen en meer dan 50 accessoires. Overigens: de „Hue Labs” die veel gidsen noemen, zijn in juni 2024 gestopt; de beste formules zijn rechtstreeks in de Hue-app opgenomen.</p>\n<p><strong>Voor wie:</strong> iedereen die een heel huis wil uitrusten met een duurzaam, betrouwbaar systeem vol automatiseringen.</p>\n\n<h3>2. TP-Link Tapo L535E: de beste lamp zonder hub</h3>\n<p><strong>Sterke punten:</strong> deze gekleurde E27-lamp maakt direct verbinding via wifi en ondersteunt Matter. Opgegeven zijn 1.055 lumen, instelbaar wit van 2.500 tot 6.500 K en miljoenen kleuren. Koppelen duurt enkele minuten in de Tapo-app, of gaat dankzij Matter rechtstreeks via Apple Woning, Google Home of Alexa.</p>\n<p><strong>Beperkingen:</strong> zoals elke wifi-lamp is hij afhankelijk van uw router, en tientallen wifi-lampen kunnen een thuisnetwerk belasten. Let op het modelnummer: de veelverkochte, goedkopere Tapo L530E ondersteunt Matter niet standaard; die bedient u via de Tapo-app, Alexa en Google Assistent.</p>\n<p><strong>Voor wie:</strong> huurders, kleine appartementen en iedereen die een paar lampen wil verbinden zonder hub.</p>\n\n<h3>3. Govee RGBIC LED Strip H619A: de meest spectaculaire sfeer</h3>\n<p><strong>Sterke punten:</strong> deze strip van 5 meter gebruikt RGBIC-technologie, die op verschillende segmenten tegelijk meerdere kleuren toont. Zo ontstaan kleurverlopen en animaties die een gewone RGB-strip niet kan maken. Hij wordt bediend via wifi en Bluetooth, biedt muzieksynchronisatie, veel scènemodi en een beschermende coating, en werkt met Alexa en Google Assistent.</p>\n<p><strong>Beperkingen:</strong> Govee is bedoeld voor sfeerlicht, niet als hoofdverlichting van een ruimte. De app leunt sterk op de cloud, en dit model integreert niet standaard met Apple Woning.</p>\n<p><strong>Voor wie:</strong> gamehoeken, tv-meubels, werkkamers en iedereen die een sterk decoratief effect zoekt.</p>\n\n<h3>4. IKEA KAJPLATS E27 CWS globe 1055lm: de voordelige keuze met hub</h3>\n<p><strong>Sterke punten:</strong> KAJPLATS vervangt sinds 1 januari 2026 de TRÅDFRI-lampen. Deze versie met kleur en instelbaar wit levert 1.055 lumen en heeft Matter-over-Thread ingebouwd: hij kan rechtstreeks verbinden met een compatibele Thread-borderrouter of met de IKEA DIRIGERA-hub, die via een gratis software-update Matter-controller en Thread-borderrouter is geworden. IKEA blijft een van de voordeligste merken om een heel huis uit te rusten.</p>\n<p><strong>Beperkingen:</strong> het assortiment is kleiner dan dat van Hue, en sommige gebruikers melden problemen bij het combineren van nieuwe KAJPLATS-lampen met oudere TRÅDFRI-afstandsbedieningen. TRÅDFRI-lampen worden niet meer verkocht, maar reeds geïnstalleerde exemplaren blijven werken in de IKEA Home smart-app.</p>\n<p><strong>Voor wie:</strong> krappe budgetten die een lokaal mesh-netwerk en Matter willen voor veel lichtpunten.</p>\n\n<h3>5. Philips Hue Ambiance Gradient Lightstrip 2m: de premium lichtstrip</h3>\n<p><strong>Sterke punten:</strong> deze lichtstrip toont over de hele lengte meerdere kleuren tegelijk, met zeer zachte overgangen. Hij is 2 meter lang, uit te breiden tot 10 meter en op maat in te korten. Hij past in Hue-scènes en automatiseringen en is met spraak te bedienen via Alexa, Google Home en Apple Woning.</p>\n<p><strong>Beperkingen:</strong> het is een duur product, alleen voor binnen, dat het best tot zijn recht komt in een Hue-systeem met Bridge.</p>\n<p><strong>Voor wie:</strong> Hue-gebruikers die elegante indirecte verlichting willen onder een meubel, achter het hoofdeinde van het bed of langs het plafond.</p>\n\n<h3>6. Govee Envisual TV Backlight T2: synchronisatie met de tv</h3>\n<p><strong>Sterke punten:</strong> deze set wordt achter de tv bevestigd en gebruikt een dubbele camera om de kleuren van het scherm in realtime op de muur weer te geven. Andere Govee-lampen zonder camera kunnen ermee synchroniseren via de DreamView-functie in de Govee Home-app. Hij werkt met Alexa en Google Assistent.</p>\n<p><strong>Beperkingen:</strong> de camera kan alleen bovenop de tv worden gemonteerd, en de set is niet geschikt voor gebogen schermen. Het is een sfeeraccessoire, geen kamerverlichting.</p>\n<p><strong>Voor wie:</strong> film- en gamefans die maximale beleving willen zonder aparte synchronisatiebox.</p>\n\n<h2>Vergelijkingstabel</h2>\n<table>\n<thead>\n<tr><th>Model</th><th>Type</th><th>Verbinding</th><th>Hub nodig</th><th>Matter</th><th>Ideaal voor</th></tr>\n</thead>\n<tbody>\n<tr><td><strong>Philips Hue White and Color Ambiance E27</strong></td><td>Kleurlamp, 1.100 lm</td><td>Zigbee + Bluetooth</td><td>Aanbevolen (Hue Bridge)</td><td>Ja, via de Bridge</td><td>Heel huis, automatiseringen</td></tr>\n<tr><td><strong>TP-Link Tapo L535E</strong></td><td>Kleurlamp, 1.055 lm</td><td>Wifi</td><td>Nee</td><td>Ja, standaard</td><td>Enkele lampen zonder hub</td></tr>\n<tr><td><strong>Govee RGBIC LED Strip H619A</strong></td><td>RGBIC-strip van 5 m</td><td>Wifi + Bluetooth</td><td>Nee</td><td>Nee</td><td>Sfeer, gaming, decoratie</td></tr>\n<tr><td><strong>IKEA KAJPLATS E27 CWS globe 1055lm</strong></td><td>Kleurlamp, 1.055 lm</td><td>Thread (Matter) + Zigbee</td><td>DIRIGERA of Thread-router</td><td>Ja, standaard</td><td>Veel lichtpunten met klein budget</td></tr>\n<tr><td><strong>Philips Hue Ambiance Gradient Lightstrip 2m</strong></td><td>Verloopstrip, uitbreidbaar tot 10 m</td><td>Zigbee + Bluetooth</td><td>Aanbevolen (Hue Bridge)</td><td>Ja, via de Bridge</td><td>Premium indirecte verlichting</td></tr>\n<tr><td><strong>Govee Envisual TV Backlight T2</strong></td><td>Tv-achtergrondverlichting met camera</td><td>Wifi + Bluetooth</td><td>Nee</td><td>Nee</td><td>Films en gaming</td></tr>\n</tbody>\n</table>\n\n<h2>Wat er in 2026 is veranderd</h2>\n<ul>\n<li><strong>IKEA:</strong> de TRÅDFRI-lampen zijn vervangen door KAJPLATS met Matter-over-Thread. De DIRIGERA-hub is nu Matter-controller en Thread-borderrouter.</li>\n<li><strong>Philips Hue:</strong> de Hue Bridge Pro vult de standaard Bridge aan voor grote installaties, en de functies van de vroegere Hue Labs zitten nu in de app.</li>\n<li><strong>TP-Link Tapo:</strong> Matter is beschikbaar op specifieke modellen zoals de L535E, niet in de hele serie. Controleer het Matter-logo op de verpakking voordat u koopt.</li>\n<li><strong>Govee:</strong> het merk blijft zich richten op RGBIC-sfeerverlichting, wandpanelen zoals de Glide Hexa Pro en tv-achtergrondverlichting.</li>\n</ul>\n\n<h2>Fouten om te vermijden</h2>\n<ul>\n<li><strong>Uitschakelen met de wandschakelaar:</strong> een slimme lamp moet stroom houden om op de app of uw stem te reageren. Gebruik liever een draadloze schakelaar of een compatibele afstandsbediening.</li>\n<li><strong>Een gewone dimmer gebruiken:</strong> slimme lampen dimmen zelf; een traditionele wanddimmer kan flikkering veroorzaken of ze beschadigen.</li>\n<li><strong>Te veel ecosystemen mengen:</strong> vier apps naast elkaar wordt snel vermoeiend. Kies één hoofdsysteem en breng de rest via Matter samen in Apple Woning, Google Home of Alexa.</li>\n<li><strong>Vergelijkbare modellen verwarren:</strong> de Tapo L530E en L535E, of oude TRÅDFRI en nieuwe KAJPLATS, bieden niet dezelfde compatibiliteit.</li>\n<li><strong>De lichtopbrengst onderschatten:</strong> een lamp van 470 lm vervangt geen oude lamp van 75 W in een hoofdruimte.</li>\n</ul>\n\n<h2>Installatie en veiligheid</h2>\n<p>Een lamp vervangen vraagt geen speciale kennis: schakel de stroom uit, laat de oude lamp afkoelen, draai de nieuwe erin en volg de koppelstappen in de app. Controleer aan de hand van de instructies van de fabrikant of de lamp geschikt is voor het armatuur, vooral bij gesloten plafondlampen of in vochtige ruimtes. Maak bij ledstrips het oppervlak schoon en droog voordat u de kleefstrip aanbrengt, gebruik alleen de meegeleverde voeding en dek die nooit af. Elke wijziging aan de elektrische installatie (inbouwspots, schakelaars, nieuwe lichtpunten) hoort thuis bij een gekwalificeerde elektricien. Om het verbruik van uw lampen te meten of een niet-slimme lamp te bedienen, is een slimme stekker een handige aanvulling: zie onze <a href=\"/nl/blog/comparatif-smart-plugs-mesure-energie\">vergelijking van slimme stekkers</a>.</p>\n\n<h2>Ons oordeel</h2>\n<p>Wie zijn hele huis voor de lange termijn wil uitrusten, kiest met de <strong>Philips Hue White and Color Ambiance E27</strong> en de Hue Bridge de beste allround oplossing: lichtkwaliteit, breed assortiment en betrouwbare automatiseringen. Voor een paar lampen zonder hub is de <strong>TP-Link Tapo L535E</strong> dankzij direct wifi en Matter het beste compromis. Voor kleurrijke sfeer is de <strong>Govee RGBIC LED Strip H619A</strong> het meest spectaculair. Krappe budgetten met veel lichtpunten kijken naar <strong>IKEA KAJPLATS</strong> met DIRIGERA, filmliefhebbers naar de <strong>Govee Envisual TV Backlight T2</strong>.</p>"
+  },
+  "faq": [
+    {
+      "question": {
+        "fr": "Faut-il un hub pour l'éclairage connecté ?",
+        "en": "Do you need a hub for smart lighting?",
+        "de": "Braucht man für smarte Beleuchtung einen Hub?",
+        "es": "¿Hace falta un hub para la iluminación inteligente?",
+        "it": "Serve un hub per l'illuminazione smart?",
+        "nl": "Hebt u een hub nodig voor slimme verlichting?"
+      },
+      "answer": {
+        "fr": "Pas forcément. Les ampoules WiFi comme la TP-Link Tapo L535E ou les bandeaux Govee fonctionnent sans hub. Philips Hue et IKEA recommandent un hub (Hue Bridge, DIRIGERA) pour profiter des automatisations avancées et d'un réseau Zigbee ou Thread qui ne charge pas votre box. Pour quelques ampoules, le WiFi suffit ; pour toute une maison, un hub est plus confortable.",
+        "en": "Not necessarily. Wi-Fi bulbs such as the TP-Link Tapo L535E and Govee strips work without a hub. Philips Hue and IKEA recommend a hub (Hue Bridge, DIRIGERA) for advanced automations and a Zigbee or Thread network that keeps load off your router. For a few bulbs, Wi-Fi is enough; for a whole home, a hub is more comfortable.",
+        "de": "Nicht unbedingt. WLAN-Lampen wie die TP-Link Tapo L535E oder Govee-Streifen funktionieren ohne Hub. Philips Hue und IKEA empfehlen einen Hub (Hue Bridge, DIRIGERA) für fortgeschrittene Automationen und ein Zigbee- oder Thread-Netz, das den Router entlastet. Für wenige Lampen genügt WLAN, für ein ganzes Zuhause ist ein Hub komfortabler.",
+        "es": "No necesariamente. Las bombillas wifi como la TP-Link Tapo L535E o las tiras Govee funcionan sin hub. Philips Hue e IKEA recomiendan un hub (Hue Bridge, DIRIGERA) para aprovechar las automatizaciones avanzadas y una red Zigbee o Thread que no sobrecarga el router. Para pocas bombillas basta el wifi; para toda la casa, un hub es más cómodo.",
+        "it": "Non necessariamente. Le lampadine Wi-Fi come la TP-Link Tapo L535E o le strisce Govee funzionano senza hub. Philips Hue e IKEA consigliano un hub (Hue Bridge, DIRIGERA) per le automazioni avanzate e una rete Zigbee o Thread che non appesantisce il router. Per poche lampadine basta il Wi-Fi; per tutta la casa un hub è più comodo.",
+        "nl": "Niet per se. Wifi-lampen zoals de TP-Link Tapo L535E en Govee-strips werken zonder hub. Philips Hue en IKEA raden een hub aan (Hue Bridge, DIRIGERA) voor geavanceerde automatiseringen en een Zigbee- of Thread-netwerk dat uw router ontlast. Voor een paar lampen volstaat wifi; voor een heel huis is een hub prettiger."
+      }
+    },
+    {
+      "question": {
+        "fr": "Quelle différence entre la Tapo L530E et la Tapo L535E ?",
+        "en": "What is the difference between the Tapo L530E and the Tapo L535E?",
+        "de": "Was ist der Unterschied zwischen Tapo L530E und Tapo L535E?",
+        "es": "¿Qué diferencia hay entre la Tapo L530E y la Tapo L535E?",
+        "it": "Che differenza c'è tra Tapo L530E e Tapo L535E?",
+        "nl": "Wat is het verschil tussen de Tapo L530E en de Tapo L535E?"
+      },
+      "answer": {
+        "fr": "Les deux sont des ampoules E27 couleur en WiFi sans hub. La L535E est compatible Matter et plus lumineuse (1 055 lm), ce qui permet de l'ajouter directement à Apple Maison, Google Home ou Alexa. La L530E (806 lm) n'est pas compatible Matter nativement et se pilote via l'application Tapo, Alexa et Google Assistant.",
+        "en": "Both are colour E27 Wi-Fi bulbs that need no hub. The L535E supports Matter and is brighter (1,055 lm), so it can be added directly to Apple Home, Google Home or Alexa. The L530E (806 lm) does not support Matter natively and is controlled through the Tapo app, Alexa and Google Assistant.",
+        "de": "Beide sind farbige E27-WLAN-Lampen ohne Hub. Die L535E unterstützt Matter und ist heller (1.055 lm), sodass sie sich direkt in Apple Home, Google Home oder Alexa einbinden lässt. Die L530E (806 lm) unterstützt Matter nicht nativ und wird über die Tapo-App, Alexa und Google Assistant gesteuert.",
+        "es": "Ambas son bombillas E27 de color con wifi y sin hub. La L535E es compatible con Matter y más luminosa (1055 lm), así que puede añadirse directamente a Apple Casa, Google Home o Alexa. La L530E (806 lm) no es compatible con Matter de forma nativa y se controla con la app Tapo, Alexa y Google Assistant.",
+        "it": "Entrambe sono lampadine E27 a colori Wi-Fi senza hub. La L535E è compatibile Matter e più luminosa (1.055 lm), quindi si aggiunge direttamente ad Apple Casa, Google Home o Alexa. La L530E (806 lm) non supporta Matter in modo nativo e si controlla con l'app Tapo, Alexa e Google Assistant.",
+        "nl": "Beide zijn gekleurde E27-wifilampen zonder hub. De L535E ondersteunt Matter en is feller (1.055 lm), zodat u hem direct aan Apple Woning, Google Home of Alexa kunt toevoegen. De L530E (806 lm) ondersteunt Matter niet standaard en bedient u via de Tapo-app, Alexa en Google Assistent."
+      }
+    },
+    {
+      "question": {
+        "fr": "Les ampoules IKEA TRÅDFRI sont-elles encore vendues ?",
+        "en": "Are IKEA TRÅDFRI bulbs still sold?",
+        "de": "Werden IKEA-TRÅDFRI-Lampen noch verkauft?",
+        "es": "¿Se siguen vendiendo las bombillas IKEA TRÅDFRI?",
+        "it": "Le lampadine IKEA TRÅDFRI sono ancora in vendita?",
+        "nl": "Worden IKEA TRÅDFRI-lampen nog verkocht?"
+      },
+      "answer": {
+        "fr": "Non. Depuis le 1er janvier 2026, IKEA a remplacé ses ampoules TRÅDFRI par la gamme KAJPLATS, compatible Matter-over-Thread et pilotable avec le hub DIRIGERA. Les ampoules TRÅDFRI déjà installées continuent de fonctionner dans l'application IKEA Home smart.",
+        "en": "No. Since 1 January 2026, IKEA has replaced its TRÅDFRI bulbs with the KAJPLATS range, which supports Matter-over-Thread and works with the DIRIGERA hub. TRÅDFRI bulbs already installed keep working in the IKEA Home smart app.",
+        "de": "Nein. Seit dem 1. Januar 2026 hat IKEA die TRÅDFRI-Lampen durch die Serie KAJPLATS ersetzt, die Matter-over-Thread unterstützt und mit dem Hub DIRIGERA funktioniert. Bereits installierte TRÅDFRI-Lampen laufen in der App IKEA Home smart weiter.",
+        "es": "No. Desde el 1 de enero de 2026, IKEA ha sustituido sus bombillas TRÅDFRI por la gama KAJPLATS, compatible con Matter-over-Thread y con el hub DIRIGERA. Las bombillas TRÅDFRI ya instaladas siguen funcionando en la app IKEA Home smart.",
+        "it": "No. Dal 1° gennaio 2026 IKEA ha sostituito le lampadine TRÅDFRI con la gamma KAJPLATS, compatibile con Matter-over-Thread e con l'hub DIRIGERA. Le lampadine TRÅDFRI già installate continuano a funzionare nell'app IKEA Home smart.",
+        "nl": "Nee. Sinds 1 januari 2026 heeft IKEA de TRÅDFRI-lampen vervangen door de KAJPLATS-serie, die Matter-over-Thread ondersteunt en werkt met de DIRIGERA-hub. Reeds geïnstalleerde TRÅDFRI-lampen blijven werken in de IKEA Home smart-app."
+      }
+    },
+    {
+      "question": {
+        "fr": "L'éclairage connecté fonctionne-t-il sans internet ?",
+        "en": "Does smart lighting work without internet?",
+        "de": "Funktioniert smarte Beleuchtung ohne Internet?",
+        "es": "¿Funciona la iluminación inteligente sin internet?",
+        "it": "L'illuminazione smart funziona senza internet?",
+        "nl": "Werkt slimme verlichting zonder internet?"
+      },
+      "answer": {
+        "fr": "En partie. Les systèmes à hub en Zigbee ou Thread (Philips Hue, IKEA) continuent de fonctionner en local avec leurs interrupteurs, télécommandes et automatisations. Les produits WiFi dépendant du cloud perdent une partie de leur contrôle à distance. Avec Matter et un contrôleur local comme Home Assistant, le pilotage peut rester entièrement local.",
+        "en": "Partly. Hub-based Zigbee or Thread systems (Philips Hue, IKEA) keep working locally with their switches, remotes and automations. Cloud-dependent Wi-Fi products lose part of their remote control. With Matter and a local controller such as Home Assistant, control can stay fully local.",
+        "de": "Teilweise. Hub-basierte Zigbee- oder Thread-Systeme (Philips Hue, IKEA) arbeiten mit Schaltern, Fernbedienungen und Automationen lokal weiter. Cloudabhängige WLAN-Produkte verlieren einen Teil ihrer Fernsteuerung. Mit Matter und einem lokalen Controller wie Home Assistant bleibt die Steuerung vollständig lokal.",
+        "es": "En parte. Los sistemas con hub en Zigbee o Thread (Philips Hue, IKEA) siguen funcionando en local con sus interruptores, mandos y automatizaciones. Los productos wifi que dependen de la nube pierden parte del control remoto. Con Matter y un controlador local como Home Assistant, el control puede ser totalmente local.",
+        "it": "In parte. I sistemi con hub Zigbee o Thread (Philips Hue, IKEA) continuano a funzionare in locale con interruttori, telecomandi e automazioni. I prodotti Wi-Fi che dipendono dal cloud perdono parte del controllo remoto. Con Matter e un controller locale come Home Assistant, il controllo può restare interamente locale.",
+        "nl": "Gedeeltelijk. Systemen met een Zigbee- of Thread-hub (Philips Hue, IKEA) blijven lokaal werken met hun schakelaars, afstandsbedieningen en automatiseringen. Wifi-producten die van de cloud afhangen, verliezen een deel van hun bediening op afstand. Met Matter en een lokale controller zoals Home Assistant blijft de bediening volledig lokaal."
+      }
+    },
+    {
+      "question": {
+        "fr": "Peut-on mélanger des ampoules de marques différentes ?",
+        "en": "Can you mix bulbs from different brands?",
+        "de": "Kann man Lampen verschiedener Marken kombinieren?",
+        "es": "¿Se pueden mezclar bombillas de marcas distintas?",
+        "it": "Si possono mescolare lampadine di marche diverse?",
+        "nl": "Kunt u lampen van verschillende merken combineren?"
+      },
+      "answer": {
+        "fr": "Oui. Grâce à Matter, des ampoules Hue (via le Bridge), IKEA KAJPLATS et Tapo L535E peuvent être réunies dans Apple Maison, Google Home, Alexa ou Home Assistant. Les fonctions propres à chaque marque, comme les effets Govee ou les scènes avancées Hue, restent toutefois dans leur application d'origine.",
+        "en": "Yes. Thanks to Matter, Hue bulbs (via the Bridge), IKEA KAJPLATS and Tapo L535E can be grouped in Apple Home, Google Home, Alexa or Home Assistant. Brand-specific features, such as Govee effects or advanced Hue scenes, stay in their own app.",
+        "de": "Ja. Dank Matter lassen sich Hue-Lampen (über die Bridge), IKEA KAJPLATS und Tapo L535E in Apple Home, Google Home, Alexa oder Home Assistant zusammenführen. Markenspezifische Funktionen wie Govee-Effekte oder erweiterte Hue-Szenen bleiben aber in der jeweiligen App.",
+        "es": "Sí. Gracias a Matter, las bombillas Hue (mediante el Bridge), IKEA KAJPLATS y Tapo L535E pueden reunirse en Apple Casa, Google Home, Alexa o Home Assistant. Las funciones propias de cada marca, como los efectos de Govee o las escenas avanzadas de Hue, siguen en su app original.",
+        "it": "Sì. Grazie a Matter, lampadine Hue (tramite il Bridge), IKEA KAJPLATS e Tapo L535E possono essere riunite in Apple Casa, Google Home, Alexa o Home Assistant. Le funzioni specifiche di ogni marchio, come gli effetti Govee o le scene avanzate Hue, restano però nella rispettiva app.",
+        "nl": "Ja. Dankzij Matter kunt u Hue-lampen (via de Bridge), IKEA KAJPLATS en Tapo L535E samenbrengen in Apple Woning, Google Home, Alexa of Home Assistant. Merkspecifieke functies, zoals Govee-effecten of geavanceerde Hue-scènes, blijven wel in hun eigen app."
+      }
+    },
+    {
+      "question": {
+        "fr": "Une ampoule connectée consomme-t-elle en veille ?",
+        "en": "Does a smart bulb use power on standby?",
+        "de": "Verbraucht eine smarte Lampe im Standby Strom?",
+        "es": "¿Consume una bombilla inteligente en reposo?",
+        "it": "Una lampadina smart consuma in standby?",
+        "nl": "Verbruikt een slimme lamp stroom in stand-by?"
+      },
+      "answer": {
+        "fr": "Oui, un peu, car elle reste connectée pour recevoir vos commandes. La réglementation européenne sur l'écoconception des sources lumineuses limite cette consommation de veille réseau à 0,5 W par lampe. C'est faible, et les automatisations (extinction automatique, programmation) permettent en général d'éviter les lumières oubliées.",
+        "en": "Yes, slightly, because it stays connected to receive your commands. EU ecodesign rules for light sources cap this networked standby consumption at 0.5 W per lamp. That is low, and automations (auto-off, schedules) generally help avoid lights left on by mistake.",
+        "de": "Ja, ein wenig, denn sie bleibt verbunden, um Befehle zu empfangen. Die EU-Ökodesign-Vorschriften für Lichtquellen begrenzen diesen vernetzten Standby-Verbrauch auf 0,5 W pro Lampe. Das ist wenig, und Automationen (automatisches Ausschalten, Zeitpläne) helfen, vergessene Lichter zu vermeiden.",
+        "es": "Sí, un poco, porque sigue conectada para recibir órdenes. La normativa europea de diseño ecológico para fuentes de luz limita este consumo en modo de espera en red a 0,5 W por lámpara. Es poco, y las automatizaciones (apagado automático, horarios) ayudan a evitar luces olvidadas.",
+        "it": "Sì, un po', perché resta connessa per ricevere i comandi. Le norme europee sulla progettazione ecocompatibile delle sorgenti luminose limitano questo consumo in standby di rete a 0,5 W per lampada. È poco, e le automazioni (spegnimento automatico, programmazioni) aiutano a evitare luci dimenticate accese.",
+        "nl": "Ja, een beetje, omdat hij verbonden blijft om opdrachten te ontvangen. De Europese ecodesignregels voor lichtbronnen beperken dit netwerk-stand-byverbruik tot 0,5 W per lamp. Dat is weinig, en automatiseringen (automatisch uit, schema's) helpen vergeten lampen te voorkomen."
+      }
+    }
+  ]
 }
