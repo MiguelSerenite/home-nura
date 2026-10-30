@@ -1,7 +1,8 @@
 /**
  * Specific models recommended in articles that have no catalog products.
- * Each becomes an Amazon search link on the reader's store (amazonSearchUrl),
- * editor's pick first. Extracted from the article copy (Oct 2026).
+ * Each becomes an Amazon link (product page when the catalog carries the
+ * model, else a search), editor's pick first. Extracted from the article
+ * copy (Oct 2026).
  */
 export const ARTICLE_MODELS: Record<string, readonly string[]> = {
   "centrale-vapeur-comparatif": [
@@ -143,6 +144,23 @@ export const ARTICLE_MODELS: Record<string, readonly string[]> = {
     "Trotec PAC 3910 X WiFi",
     "De'Longhi Pinguino PAC EL112 CST WiFi",
     "Olimpia Splendid Dolceclima Air Pro 14 HP WiFi"
+  ],
+  // The two Spanish portable-AC guides cite no model in their copy: they get
+  // the portable ACs and fans compared in the confort-air comparisons
+  // (climatiseur-mobile-connecte-comparatif, ventilador-silencioso-dormitorio).
+  "aire-acondicionado-portatil-no-enfria": [
+    "Midea PortaSplit",
+    "Midea Silent Cool 26 Pro WF",
+    "Trotec PAC 3910 X WiFi",
+    "De'Longhi Pinguino PAC EL112 CST WiFi",
+    "Olimpia Splendid Dolceclima Air Pro 14 HP WiFi"
+  ],
+  "aire-acondicionado-portatil-sin-tubo": [
+    "Midea PortaSplit",
+    "De'Longhi Pinguino PAC EL112 CST WiFi",
+    "Cecotec EnergySilence 1040 SmartExtreme",
+    "Rowenta Turbo Silence Extreme+",
+    "Duux Whisper Flex 2 Smart"
   ],
   "robot-piscine-comparatif": [
     "Dolphin S300i",

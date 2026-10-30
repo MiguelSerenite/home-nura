@@ -59,7 +59,12 @@ export function getArticleProducts(
   const cited = getArticleModels(article.slug)
     .map((name) => catalog.find((p) => p.asin === asinByFrTitle.get(name)))
     .filter((p): p is (typeof catalog)[number] => p !== undefined)
-  const byScore = [...catalog].sort((a, b) => b.nuraScore - a.nuraScore)
+  // Fill-ins stay within the price range the article recommends: a budget
+  // guide that cites two €80 models must not be padded with a €230 one.
+  const priceCeiling = cited.length > 0 ? Math.max(...cited.map((p) => p.priceNumeric)) : Infinity
+  const byScore = [...catalog]
+    .filter((p) => p.priceNumeric <= priceCeiling)
+    .sort((a, b) => b.nuraScore - a.nuraScore)
   const products = [...cited, ...byScore]
     .filter((p, i, all) => all.findIndex((q) => q.asin === p.asin) === i)
     .slice(0, MAX_PRODUCTS)
