@@ -26,7 +26,14 @@
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { buildBreadcrumbListSchema, buildArticleSchema, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
+import {
+  buildBreadcrumbListSchema,
+  buildArticleSchema,
+  formatLastUpdated,
+  lastUpdatedLabel,
+  SITE_LAST_UPDATED_ISO,
+} from '@/lib/seo'
+import { categoryModifiedIso } from '@/lib/catalog/category-faqs'
 import QuickAnswer from '@/components/QuickAnswer'
 import IndependentSources from '@/components/IndependentSources'
 import { getCategoryGuides } from '@/lib/catalog/category-guides'
@@ -146,6 +153,8 @@ export default async function CategoryHub({
 
   const hero = getCategoryHero(safeLang, category)
   const faqEntries = getCategoryFaq(safeLang, category)
+  const modifiedIso = categoryModifiedIso(category.slug, SITE_LAST_UPDATED_ISO)
+  const updatedText = `${lastUpdatedLabel[safeLang]} ${formatLastUpdated(safeLang, modifiedIso)}`
   const ui = uiStrings[safeLang]
   const siloTitle = silo.title[safeLang]
   const categoryTitle = category.title[safeLang]
@@ -177,7 +186,7 @@ export default async function CategoryHub({
         image: '/og-image.png',
         imageAlt: hero.title,
         datePublished: '2026-02-01',
-        dateModified: SITE_LAST_UPDATED_ISO,
+        dateModified: modifiedIso,
         articleType: 'Article',
         articleSection: siloTitle,
       })
@@ -307,6 +316,8 @@ export default async function CategoryHub({
         <FaqSection
           faqs={faqEntries}
           title={ui.faqTitle}
+          updatedText={updatedText}
+          updatedIso={modifiedIso}
         />
 
         {/* Methodology CTA — every category page links the cornerstone */}

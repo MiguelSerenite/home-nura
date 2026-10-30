@@ -26,6 +26,7 @@
 import type { Category } from './types'
 import type { Lang } from '@/lib/i18n'
 import { getMetaSilo } from './meta-silos'
+import { getCategorySpecificFaq } from './category-faqs'
 
 // ---------------------------------------------------------------------
 // Hero block
@@ -67,7 +68,7 @@ const heroTemplates: Record<Lang, HeroTemplate> = {
     buyCtaLabel: 'Check price on Amazon',
   },
   de: {
-    title: (cat) => `${cat} Vergleich 2026 — Testsieger & Tipps`,
+    title: (cat) => `${cat} Vergleich 2026 — Empfehlungen & Kaufberatung`,
     subtitle: (silo) => `Ausgewählt & verglichen für Europa — ${silo.toLowerCase()}`,
     intro: (cat, silo, keyword) =>
       `Ratgeber „${keyword}“: unsere Auswahl an ${cat} aus der Kategorie ${silo.toLowerCase()}, bewertet nach den Kriterien, die in Europa wirklich zählen: jährliche Energiekosten, EU-Energielabel, DSGVO-Konformität, Ersatzteil­verfügbarkeit über fünf Jahre und Matter-Unterstützung. Modelle mit reinem Marketing fliegen raus, Geräte mit Langlebigkeit bleiben.`,
@@ -263,6 +264,10 @@ const faqTemplates: Record<Lang, FaqTemplate> = {
 }
 
 export function getCategoryFaq(lang: Lang, category: Category): CategoryFaqEntry[] {
+  // Market-specific FAQ first; the template only covers categories
+  // whose FAQ is not written yet.
+  const specific = getCategorySpecificFaq(category.slug, lang)
+  if (specific) return [...specific]
   const silo = getMetaSilo(category.metaSilo)
   if (!silo) {
     throw new Error(
@@ -330,7 +335,7 @@ const personaGuideTemplates: Record<Lang, PersonaGuideTemplate> = {
   },
   de: {
     kicker: 'Kaufberatung',
-    title: (label) => `Testsieger für ${label} — Vergleich 2026`,
+    title: (label) => `Die besten Produkte für ${label} — Vergleich 2026`,
     subtitle: (label) => `Home-Nura-Empfehlungen: ${label} im Vergleich 2026`,
     intros: {
       household: (label) =>

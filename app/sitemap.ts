@@ -3,6 +3,7 @@ import { getAllArticles } from '@/lib/blog'
 import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
 import { LANGUAGES, type Lang } from '@/lib/i18n'
 import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
+import { categoryModifiedIso } from '@/lib/catalog/category-faqs'
 import {
   getIndexableSilos,
   getIndexableCategories,
@@ -75,7 +76,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         path: `/${c.metaSilo}/${c.slug}`,
         priority: 0.7,
         changeFrequency: 'weekly' as const,
-        lastModified: today,
+        lastModified: categoryModifiedIso(c.slug, today),
         images: (lang: Lang) => categoryHubImages(lang, c.slug),
       })),
     // Troubleshooting pages: indexed — about 30% of Search Console clicks
