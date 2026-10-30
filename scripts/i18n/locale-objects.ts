@@ -134,3 +134,62 @@ export function findLocaleObjects(
   visit(source)
   return found
 }
+
+export interface LocaleTernary {
+  /** n-th locale ternary chain of the file, in source order. */
+  index: number
+  path: string
+  /** Literal per tested locale; `en` holds the final fallback branch. */
+  values: Record<string, LiteralValue | null>
+  /** Where `<lang> === '<target>' ? … :` goes: the fallback after the anchor test. */
+  insertAt: number
+  /** The tested expression, e.g. `lang`. */
+  subject: string
+  /** Quote character of the anchor branch. */
+  quote: "'" | '"' | '`'
+  hasTarget: boolean
+}
+
+/** `<subject> === '<lang>'` → [subject text, lang], else undefined. */
+function localeTest(node: ts.Expression): [string, string] | undefined {
+  if (!ts.isBinaryExpression(node) || node.operatorToken.kind !== ts.SyntaxKind.EqualsEqualsEqualsToken) return undefined
+  if (!ts.isStringLiteral(node.right)) return undefined
+  return [node.left.getText(), node.right.text]
+}
+
+/**
+ * Locale ternary chains such as
+ * `lang === 'fr' ? 'Accueil' : … : lang === 'nl' ? 'Home' : 'Home'`, found
+ * by their anchor test (`=== 'nl'`); the last branch is the English fallback.
+ */
+export function findLocaleTernaries(source: ts.SourceFile, anchorLang: string, target: string): LocaleTernary[] {
+  const found: LocaleTernary[] = []
+  const visit = (node: ts.Node) => {
+    const test = ts.isConditionalExpression(node) ? localeTest(node.condition) : undefined
+    if (ts.isConditionalExpression(node) && test && test[1] === anchorLang) {
+      const values: Record<string, LiteralValue | null> = { [anchorLang]: literalValue(node.whenTrue) ?? null }
+      let top: ts.ConditionalExpression = node
+      while (ts.isConditionalExpression(top.parent) && top.parent.whenFalse === top) {
+        top = top.parent
+        const parentTest = localeTest(top.condition)
+        if (parentTest) values[parentTest[1]] = literalValue(top.whenTrue) ?? null
+      }
+      const fallback = node.whenFalse
+      const fallbackTest = ts.isConditionalExpression(fallback) ? localeTest(fallback.condition) : undefined
+      values.en = fallbackTest ? null : (literalValue(fallback) ?? null)
+      const anchorText = node.whenTrue.getText()
+      found.push({
+        index: found.length,
+        path: nodePath(top),
+        values,
+        insertAt: fallback.getStart(),
+        subject: test[0],
+        quote: anchorText.startsWith('"') ? '"' : anchorText.startsWith('`') ? '`' : "'",
+        hasTarget: fallbackTest?.[1] === target,
+      })
+    }
+    ts.forEachChild(node, visit)
+  }
+  visit(source)
+  return found
+}
