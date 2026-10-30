@@ -1,8 +1,11 @@
 import Navbar from '@/components/Navbar'
+import { SiteFooter } from '@/components/ui'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { buildPageMetadata } from '@/lib/seo'
 import { resolveLang } from '@/lib/i18n'
+import { AMAZON_STORE_ID } from '@/lib/amazon'
+import { AMAZON_ASSOCIATE_DISCLOSURE } from '@/lib/affiliate-disclosure'
 
 
 const metaDescriptions: Record<string, string> = {
@@ -68,9 +71,9 @@ const labels: Record<string, Record<string, string>> = {
     website: 'Site web',
     hosting: 'Hébergement',
     affiliation: 'Programme d\'affiliation',
-    affiliationText: 'Home Nura participe au Programme Partenaires d\'Amazon EU, un programme d\'affiliation conçu pour permettre à des sites de percevoir une rémunération grâce à la création de liens vers Amazon.fr, Amazon.de, Amazon.co.uk, Amazon.es, Amazon.it et Amazon.nl. En tant que Partenaire d\'Amazon, Home Nura réalise un bénéfice sur les achats remplissant les conditions requises.',
-    pricing: 'Prix affichés',
-    pricingText: 'Les prix affichés sur le site sont fournis à titre indicatif et peuvent varier à tout moment sans préavis. Le prix de vente effectif est celui affiché sur le site du marchand au moment de la commande.',
+    affiliationText: `Home Nura participe au Programme Partenaires d'Amazon EU avec un seul identifiant de partenaire (Store ID) Amazon.fr : ${AMAZON_STORE_ID}. Tous les liens Amazon du site, dans toutes les langues, pointent vers Amazon.fr. Grâce au programme « Global Earning » d'Amazon, un visiteur venant d'un autre pays (Allemagne, Royaume-Uni, Espagne, Italie, Pays-Bas…) est redirigé par Amazon vers le même produit sur la boutique Amazon de son pays ; la commission éventuelle est versée sur ce même compte Amazon.fr. ${AMAZON_ASSOCIATE_DISCLOSURE.fr}`,
+    pricing: 'Prix et visuels des produits',
+    pricingText: 'Home Nura n\'affiche ni les prix ni les photos des produits Amazon : les visuels de produits sont des illustrations neutres (catégorie, marque, modèle). Le prix, la disponibilité et les photos d\'un produit sont ceux affichés par Amazon au moment de votre visite et peuvent changer à tout moment.',
     ip: 'Propriété intellectuelle',
     ipText: 'Tous les noms de marques, logos, visuels et dénominations produits cités sur ce site sont la propriété de leurs détenteurs respectifs. Les contenus éditoriaux (textes, analyses, classements) sont protégés par le droit d\'auteur et ne peuvent être reproduits sans autorisation écrite préalable.',
     back: 'Retour à l\'accueil',
@@ -91,9 +94,9 @@ const labels: Record<string, Record<string, string>> = {
     website: 'Website',
     hosting: 'Hosting',
     affiliation: 'Affiliate programme',
-    affiliationText: 'Home Nura participates in the Amazon EU Associates Programme, an affiliate advertising programme designed to provide a means for sites to earn fees by advertising and linking to Amazon.co.uk, Amazon.fr, Amazon.de, Amazon.es, Amazon.it and Amazon.nl. As an Amazon Associate, Home Nura earns from qualifying purchases.',
-    pricing: 'Displayed prices',
-    pricingText: 'Prices shown on this site are provided for information purposes only and may change at any time without notice. The actual selling price is the one displayed on the merchant\'s website at the time of order.',
+    affiliationText: `Home Nura participates in the Amazon EU Associates Programme with a single Amazon.fr store ID: ${AMAZON_STORE_ID}. Every Amazon link on the site, in every language, points to Amazon.fr. Through Amazon's Global Earning programme, a visitor from another country (the United Kingdom, Germany, Spain, Italy, the Netherlands…) is redirected by Amazon to the same product on their local Amazon store, and any commission is credited to that same Amazon.fr account. ${AMAZON_ASSOCIATE_DISCLOSURE.en}`,
+    pricing: 'Prices and product images',
+    pricingText: 'Home Nura does not show Amazon prices or product photos: product visuals are neutral illustrations (category, brand, model). A product\'s price, availability and photos are those shown by Amazon at the time of your visit and may change at any time.',
     ip: 'Intellectual property',
     ipText: 'All brand names, logos, visuals and product names mentioned on this site are the property of their respective owners. Editorial content (text, analysis, rankings) is protected by copyright and may not be reproduced without prior written permission.',
     back: 'Back to home',
@@ -114,9 +117,9 @@ const labels: Record<string, Record<string, string>> = {
     website: 'Website',
     hosting: 'Hosting',
     affiliation: 'Partnerprogramm',
-    affiliationText: 'Home Nura nimmt am Amazon EU-Partnerprogramm teil, einem Affiliate-Werbeprogramm, das es Websites ermöglicht, durch Verlinkung zu Amazon.de, Amazon.fr, Amazon.co.uk, Amazon.es, Amazon.it und Amazon.nl Werbegebühren zu verdienen. Als Amazon-Partner verdient Home Nura an qualifizierten Käufen.',
-    pricing: 'Angezeigte Preise',
-    pricingText: 'Die auf dieser Website angezeigten Preise dienen nur zu Informationszwecken und können jederzeit ohne Vorankündigung geändert werden. Der tatsächliche Verkaufspreis ist der auf der Website des Händlers zum Zeitpunkt der Bestellung angezeigte Preis.',
+    affiliationText: `Home Nura nimmt mit einer einzigen Amazon.fr-Partner-ID (Store ID) am Amazon EU-Partnerprogramm teil: ${AMAZON_STORE_ID}. Alle Amazon-Links der Website führen in jeder Sprache zu Amazon.fr. Über das Amazon-Programm „Global Earning“ leitet Amazon Besucher aus anderen Ländern (Deutschland, Vereinigtes Königreich, Spanien, Italien, Niederlande …) zum selben Produkt in ihrem lokalen Amazon-Shop weiter; eine etwaige Provision wird demselben Amazon.fr-Konto gutgeschrieben. ${AMAZON_ASSOCIATE_DISCLOSURE.de}`,
+    pricing: 'Preise und Produktbilder',
+    pricingText: 'Home Nura zeigt weder Amazon-Preise noch Amazon-Produktfotos: Die Produktdarstellungen sind neutrale Illustrationen (Kategorie, Marke, Modell). Preis, Verfügbarkeit und Fotos eines Produkts sind die, die Amazon zum Zeitpunkt Ihres Besuchs anzeigt, und können sich jederzeit ändern.',
     ip: 'Geistiges Eigentum',
     ipText: 'Alle auf dieser Website genannten Markennamen, Logos, Bilder und Produktbezeichnungen sind Eigentum ihrer jeweiligen Inhaber. Redaktionelle Inhalte (Texte, Analysen, Rankings) sind urheberrechtlich geschützt und dürfen ohne vorherige schriftliche Genehmigung nicht reproduziert werden.',
     back: 'Zurück zur Startseite',
@@ -137,9 +140,9 @@ const labels: Record<string, Record<string, string>> = {
     website: 'Sitio web',
     hosting: 'Alojamiento',
     affiliation: 'Programa de afiliación',
-    affiliationText: 'Home Nura participa en el Programa de Afiliados de Amazon EU, un programa de publicidad de afiliación diseñado para proporcionar un medio para que los sitios ganen tarifas de publicidad mediante enlaces a Amazon.es, Amazon.fr, Amazon.de, Amazon.co.uk, Amazon.it y Amazon.nl. Como Afiliado de Amazon, Home Nura obtiene ingresos por las compras que cumplan los requisitos aplicables.',
-    pricing: 'Precios mostrados',
-    pricingText: 'Los precios mostrados en este sitio se proporcionan a título informativo y pueden variar en cualquier momento sin previo aviso. El precio de venta real es el que se muestra en el sitio del comerciante en el momento del pedido.',
+    affiliationText: `Home Nura participa en el Programa de Afiliados de Amazon EU con un único identificador de afiliado (Store ID) de Amazon.fr: ${AMAZON_STORE_ID}. Todos los enlaces de Amazon del sitio, en todos los idiomas, apuntan a Amazon.fr. Gracias al programa «Global Earning» de Amazon, Amazon redirige a los visitantes de otros países (España, Alemania, Reino Unido, Italia, Países Bajos…) al mismo producto en la tienda Amazon de su país, y la posible comisión se abona en esa misma cuenta de Amazon.fr. ${AMAZON_ASSOCIATE_DISCLOSURE.es}`,
+    pricing: 'Precios e imágenes de producto',
+    pricingText: 'Home Nura no muestra precios ni fotos de productos de Amazon: los visuales de producto son ilustraciones neutras (categoría, marca, modelo). El precio, la disponibilidad y las fotos de un producto son los que muestra Amazon en el momento de su visita y pueden cambiar en cualquier momento.',
     ip: 'Propiedad intelectual',
     ipText: 'Todos los nombres de marcas, logotipos, imágenes y denominaciones de productos mencionados en este sitio son propiedad de sus respectivos propietarios. El contenido editorial (textos, análisis, clasificaciones) está protegido por derechos de autor y no puede reproducirse sin autorización escrita previa.',
     back: 'Volver al inicio',
@@ -160,9 +163,9 @@ const labels: Record<string, Record<string, string>> = {
     website: 'Sito web',
     hosting: 'Hosting',
     affiliation: 'Programma di affiliazione',
-    affiliationText: 'Home Nura partecipa al Programma di Affiliazione Amazon EU, un programma di affiliazione che consente ai siti di guadagnare commissioni pubblicitarie tramite link verso Amazon.it, Amazon.fr, Amazon.de, Amazon.co.uk, Amazon.es e Amazon.nl. Come Affiliato Amazon, Home Nura riceve un guadagno dagli acquisti idonei.',
-    pricing: 'Prezzi visualizzati',
-    pricingText: 'I prezzi mostrati su questo sito sono forniti a titolo indicativo e possono variare in qualsiasi momento senza preavviso. Il prezzo di vendita effettivo è quello visualizzato sul sito del venditore al momento dell\'ordine.',
+    affiliationText: `Home Nura partecipa al Programma di Affiliazione Amazon EU con un unico ID affiliato (Store ID) Amazon.fr: ${AMAZON_STORE_ID}. Tutti i link Amazon del sito, in ogni lingua, puntano ad Amazon.fr. Grazie al programma «Global Earning» di Amazon, i visitatori di altri paesi (Italia, Germania, Regno Unito, Spagna, Paesi Bassi…) vengono reindirizzati da Amazon allo stesso prodotto sullo store Amazon del proprio paese, e l'eventuale commissione viene accreditata sullo stesso account Amazon.fr. ${AMAZON_ASSOCIATE_DISCLOSURE.it}`,
+    pricing: 'Prezzi e immagini dei prodotti',
+    pricingText: 'Home Nura non mostra prezzi né foto dei prodotti Amazon: le immagini dei prodotti sono illustrazioni neutre (categoria, marca, modello). Prezzo, disponibilità e foto di un prodotto sono quelli mostrati da Amazon al momento della visita e possono cambiare in qualsiasi momento.',
     ip: 'Proprietà intellettuale',
     ipText: 'Tutti i nomi di marchi, loghi, immagini e denominazioni di prodotti citati su questo sito sono di proprietà dei rispettivi titolari. I contenuti editoriali (testi, analisi, classifiche) sono protetti da diritto d\'autore e non possono essere riprodotti senza preventiva autorizzazione scritta.',
     back: 'Torna alla home',
@@ -183,9 +186,9 @@ const labels: Record<string, Record<string, string>> = {
     website: 'Website',
     hosting: 'Hosting',
     affiliation: 'Affiliate programma',
-    affiliationText: 'Home Nura neemt deel aan het Amazon EU-partnerprogramma, een affiliate-advertentieprogramma dat is ontworpen om sites in staat te stellen advertentiekosten te verdienen door te linken naar Amazon.nl, Amazon.fr, Amazon.de, Amazon.co.uk, Amazon.es en Amazon.it. Als Amazon-partner verdient Home Nura aan in aanmerking komende aankopen.',
-    pricing: 'Weergegeven prijzen',
-    pricingText: 'De op deze site weergegeven prijzen worden ter informatie verstrekt en kunnen op elk moment zonder voorafgaande kennisgeving worden gewijzigd. De werkelijke verkoopprijs is de prijs die op de website van de verkoper wordt weergegeven op het moment van de bestelling.',
+    affiliationText: `Home Nura neemt deel aan het Amazon EU-partnerprogramma met één Amazon.fr-partner-ID (Store ID): ${AMAZON_STORE_ID}. Alle Amazon-links op de site verwijzen, in elke taal, naar Amazon.fr. Via het Amazon-programma 'Global Earning' stuurt Amazon bezoekers uit andere landen (Nederland, Duitsland, het Verenigd Koninkrijk, Spanje, Italië…) door naar hetzelfde product in de Amazon-winkel van hun land; een eventuele commissie wordt op hetzelfde Amazon.fr-account bijgeschreven. ${AMAZON_ASSOCIATE_DISCLOSURE.nl}`,
+    pricing: 'Prijzen en productafbeeldingen',
+    pricingText: 'Home Nura toont geen prijzen of productfoto\'s van Amazon: de productvisuals zijn neutrale illustraties (categorie, merk, model). Prijs, beschikbaarheid en foto\'s van een product zijn die welke Amazon toont op het moment van je bezoek en kunnen op elk moment veranderen.',
     ip: 'Intellectueel eigendom',
     ipText: 'Alle op deze site genoemde merknamen, logo\'s, afbeeldingen en productnamen zijn eigendom van hun respectieve eigenaren. Redactionele inhoud (teksten, analyses, ranglijsten) is auteursrechtelijk beschermd en mag niet worden gereproduceerd zonder voorafgaande schriftelijke toestemming.',
     back: 'Terug naar home',
@@ -280,6 +283,7 @@ export default async function MentionsLegales({ params }: { params: Promise<{ la
           </Link>
         </div>
       </main>
+      <SiteFooter currentLang={lang} />
     </div>
   )
 }

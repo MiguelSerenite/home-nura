@@ -88,7 +88,7 @@ const content: Record<Lang, Content> = {
       {
         title: '05 · Indépendance et transparence affiliée',
         body:
-          'Home Nura est financé par le programme Partenaires Amazon (commission sur achat, sans surcoût pour vous). Les commissions n\'influencent jamais le classement : un produit mal noté reste mal noté même s\'il rapporte plus. Aucun constructeur ne nous paie pour une place au podium. En cas de conflit d\'intérêts nous le signalons en tête de page.',
+          'Home Nura est financé par le programme Partenaires Amazon (commission sur achat, sans surcoût pour vous). Tous nos liens Amazon pointent vers Amazon.fr avec un seul identifiant de partenaire : grâce au programme « Global Earning », Amazon redirige les lecteurs des autres pays vers la boutique Amazon de leur pays, et la commission est versée sur ce même compte. Les commissions n\'influencent jamais le classement : un produit mal noté reste mal noté même s\'il rapporte plus. Aucun constructeur ne nous paie pour une place au podium. En cas de conflit d\'intérêts nous le signalons en tête de page.',
       },
     ],
     faqTitle: 'Questions fréquentes',
@@ -111,7 +111,7 @@ const content: Record<Lang, Content> = {
       {
         question: 'À quelle fréquence mettez-vous les prix à jour ?',
         answer:
-          'Les prix affichés sont ceux constatés lors de la dernière mise à jour de la page, visible en haut de chaque comparatif. Amazon change ses prix plusieurs fois par jour — cliquez toujours le lien pour voir le prix en temps réel avant d\'acheter.',
+          'Nous n\'affichons aucun prix de produit : Amazon modifie ses prix plusieurs fois par jour et n\'autorise leur affichage que par son interface produit officielle. Nos comparatifs parlent de gammes de budget (par exemple « moins de 100 € »), jamais du prix d\'un modèle. Cliquez sur le lien pour voir le prix et la disponibilité en temps réel sur Amazon : vous arrivez sur la boutique Amazon de votre pays.',
       },
       {
         question: 'Que faites-vous si un produit est retiré du marché ?',
@@ -156,7 +156,7 @@ const content: Record<Lang, Content> = {
       {
         title: '05 · Independence and affiliate transparency',
         body:
-          'Home Nura is funded through the Amazon Associates programme (commission on purchase, no extra cost to you). Commissions never influence the ranking: a poorly scored product stays poorly scored even if it pays more. No manufacturer pays us for a podium spot. Conflicts of interest are disclosed at the top of the page when they arise.',
+          'Home Nura is funded through the Amazon Associates programme (commission on purchase, no extra cost to you). All our Amazon links point to Amazon.fr with a single store ID: through Amazon\'s Global Earning programme, readers in other countries are redirected to their local Amazon store and the commission is credited to that same account. Commissions never influence the ranking: a poorly scored product stays poorly scored even if it pays more. No manufacturer pays us for a podium spot. Conflicts of interest are disclosed at the top of the page when they arise.',
       },
     ],
     faqTitle: 'Frequently asked questions',
@@ -179,7 +179,7 @@ const content: Record<Lang, Content> = {
       {
         question: 'How often are prices refreshed?',
         answer:
-          'Displayed prices are those observed at the last page update, which is visible at the top of every comparator. Amazon changes prices several times a day — always click the link to see the live price before buying.',
+          'We do not display product prices: Amazon changes its prices several times a day and only allows them to be shown through its official product interface. Our comparisons talk about budget ranges (for example “under €100”), never the price of a specific model. Click the link to see the live price and availability on Amazon — you land on the Amazon store of your country.',
       },
       {
         question: 'What happens if a product is pulled from the market?',
@@ -224,7 +224,7 @@ const content: Record<Lang, Content> = {
       {
         title: '05 · Unabhängigkeit und Affiliate-Transparenz',
         body:
-          'Home Nura wird über das Amazon-Partnerprogramm finanziert (Provision beim Kauf, ohne Mehrkosten für Sie). Provisionen beeinflussen niemals das Ranking: Ein schlecht bewertetes Produkt bleibt schlecht bewertet, auch wenn es mehr einbringt. Kein Hersteller bezahlt uns für einen Podestplatz. Interessenskonflikte werden oben auf der Seite offengelegt.',
+          'Home Nura wird über das Amazon-Partnerprogramm finanziert (Provision beim Kauf, ohne Mehrkosten für Sie). Alle unsere Amazon-Links führen mit einer einzigen Partner-ID zu Amazon.fr: Über das Programm „Global Earning“ leitet Amazon Leser aus anderen Ländern zu ihrem lokalen Amazon-Shop weiter, und die Provision wird demselben Konto gutgeschrieben. Provisionen beeinflussen niemals das Ranking: Ein schlecht bewertetes Produkt bleibt schlecht bewertet, auch wenn es mehr einbringt. Kein Hersteller bezahlt uns für einen Podestplatz. Interessenskonflikte werden oben auf der Seite offengelegt.',
       },
     ],
     faqTitle: 'Häufige Fragen',
@@ -247,7 +247,7 @@ const content: Record<Lang, Content> = {
       {
         question: 'Wie oft werden die Preise aktualisiert?',
         answer:
-          'Die angezeigten Preise sind die beim letzten Update beobachteten — das Datum steht oben auf jedem Vergleich. Amazon ändert Preise mehrfach täglich, klicken Sie für den Live-Preis immer auf den Link, bevor Sie kaufen.',
+          'Wir zeigen keine Produktpreise an: Amazon ändert Preise mehrmals täglich und erlaubt ihre Anzeige nur über die offizielle Produktschnittstelle. Unsere Vergleiche nennen Budgetklassen (zum Beispiel „unter 100 €“), nie den Preis eines bestimmten Modells. Klicken Sie auf den Link, um den aktuellen Preis und die Verfügbarkeit bei Amazon zu sehen — Sie landen im Amazon-Shop Ihres Landes.',
       },
       {
         question: 'Was passiert, wenn ein Produkt vom Markt genommen wird?',
@@ -292,7 +292,7 @@ const content: Record<Lang, Content> = {
       {
         title: '05 · Independencia y transparencia de afiliación',
         body:
-          'Home Nura se financia a través del programa de Afiliados de Amazon (comisión por compra, sin coste extra para usted). Las comisiones nunca influyen en la clasificación: un producto mal puntuado sigue mal puntuado aunque reporte más. Ningún fabricante nos paga por un puesto en el podio. Los conflictos de interés se indican en la parte superior de la página.',
+          'Home Nura se financia a través del programa de Afiliados de Amazon (comisión por compra, sin coste extra para usted). Todos nuestros enlaces de Amazon apuntan a Amazon.fr con un único identificador de afiliado: gracias al programa «Global Earning», Amazon redirige a los lectores de otros países a la tienda Amazon de su país y la comisión se abona en esa misma cuenta. Las comisiones nunca influyen en la clasificación: un producto mal puntuado sigue mal puntuado aunque reporte más. Ningún fabricante nos paga por un puesto en el podio. Los conflictos de interés se indican en la parte superior de la página.',
       },
     ],
     faqTitle: 'Preguntas frecuentes',
@@ -315,7 +315,7 @@ const content: Record<Lang, Content> = {
       {
         question: '¿Con qué frecuencia se actualizan los precios?',
         answer:
-          'Los precios mostrados son los observados en la última actualización de la página, visible en la parte superior de cada comparativa. Amazon cambia precios varias veces al día — haga siempre clic en el enlace para ver el precio en tiempo real antes de comprar.',
+          'No mostramos precios de productos: Amazon cambia sus precios varias veces al día y solo permite mostrarlos a través de su interfaz oficial de productos. Nuestras comparativas hablan de rangos de presupuesto (por ejemplo «menos de 100 €»), nunca del precio de un modelo concreto. Haga clic en el enlace para ver el precio y la disponibilidad en tiempo real en Amazon: llegará a la tienda Amazon de su país.',
       },
       {
         question: '¿Qué hacen si retiran un producto del mercado?',
@@ -360,7 +360,7 @@ const content: Record<Lang, Content> = {
       {
         title: '05 · Indipendenza e trasparenza affiliata',
         body:
-          'Home Nura è finanziata tramite il programma Amazon Affiliati (commissione sull\'acquisto, senza costi aggiuntivi per voi). Le commissioni non influenzano mai la classifica: un prodotto valutato male resta valutato male anche se rende di più. Nessun produttore ci paga per un posto sul podio. I conflitti di interesse vengono dichiarati in cima alla pagina.',
+          'Home Nura è finanziata tramite il programma Amazon Affiliati (commissione sull\'acquisto, senza costi aggiuntivi per voi). Tutti i nostri link Amazon puntano ad Amazon.fr con un unico ID affiliato: grazie al programma «Global Earning», Amazon reindirizza i lettori di altri paesi allo store Amazon del proprio paese e la commissione viene accreditata sullo stesso account. Le commissioni non influenzano mai la classifica: un prodotto valutato male resta valutato male anche se rende di più. Nessun produttore ci paga per un posto sul podio. I conflitti di interesse vengono dichiarati in cima alla pagina.',
       },
     ],
     faqTitle: 'Domande frequenti',
@@ -383,7 +383,7 @@ const content: Record<Lang, Content> = {
       {
         question: 'Con che frequenza aggiornate i prezzi?',
         answer:
-          'I prezzi mostrati sono quelli osservati all\'ultimo aggiornamento, visibile in cima a ogni confronto. Amazon cambia prezzi più volte al giorno — cliccate sempre il link per vedere il prezzo in tempo reale prima di acquistare.',
+          'Non mostriamo i prezzi dei prodotti: Amazon cambia i prezzi più volte al giorno e ne consente la visualizzazione solo tramite la sua interfaccia ufficiale per i prodotti. I nostri confronti parlano di fasce di budget (ad esempio «meno di 100 €»), mai del prezzo di un singolo modello. Cliccate sul link per vedere prezzo e disponibilità in tempo reale su Amazon: arriverete sullo store Amazon del vostro paese.',
       },
       {
         question: 'Cosa succede se un prodotto viene ritirato dal mercato?',
@@ -428,7 +428,7 @@ const content: Record<Lang, Content> = {
       {
         title: '05 · Onafhankelijkheid en affiliate-transparantie',
         body:
-          'Home Nura wordt gefinancierd via het Amazon Associates-programma (commissie bij aankoop, zonder meerkosten voor u). Commissies beïnvloeden nooit de ranglijst: een slecht beoordeeld product blijft slecht beoordeeld, ook als het meer oplevert. Geen enkele fabrikant betaalt voor een podiumplaats. Belangenconflicten worden bovenaan de pagina aangegeven.',
+          'Home Nura wordt gefinancierd via het Amazon Associates-programma (commissie bij aankoop, zonder meerkosten voor u). Al onze Amazon-links verwijzen met één partner-ID naar Amazon.fr: via het programma \'Global Earning\' stuurt Amazon lezers uit andere landen door naar de Amazon-winkel van hun land, en de commissie wordt op hetzelfde account bijgeschreven. Commissies beïnvloeden nooit de ranglijst: een slecht beoordeeld product blijft slecht beoordeeld, ook als het meer oplevert. Geen enkele fabrikant betaalt voor een podiumplaats. Belangenconflicten worden bovenaan de pagina aangegeven.',
       },
     ],
     faqTitle: 'Veelgestelde vragen',
@@ -451,7 +451,7 @@ const content: Record<Lang, Content> = {
       {
         question: 'Hoe vaak worden prijzen bijgewerkt?',
         answer:
-          'De getoonde prijzen zijn die van de laatste update — zichtbaar bovenaan elke vergelijking. Amazon wijzigt prijzen meerdere keren per dag; klik altijd op de link voor de live prijs voordat u koopt.',
+          'We tonen geen productprijzen: Amazon wijzigt prijzen meerdere keren per dag en staat weergave alleen toe via zijn officiële productinterface. Onze vergelijkingen noemen budgetklassen (bijvoorbeeld \'onder €100\'), nooit de prijs van een specifiek model. Klik op de link voor de actuele prijs en beschikbaarheid op Amazon — u komt in de Amazon-winkel van uw land terecht.',
       },
       {
         question: 'Wat gebeurt er als een product van de markt wordt gehaald?',

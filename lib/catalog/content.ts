@@ -420,7 +420,7 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     },
     {
       question: 'À quelle fréquence les classements sont-ils mis à jour ?',
-      answer: `Tous les trimestres. Chaque silo est audité tous les trois mois : retrait des modèles en rupture, ajustement des prix, mise à jour des coûts énergétiques et des étiquettes EU. La date de dernière mise à jour est affichée sur chaque page.`,
+      answer: `Tous les trimestres. Chaque silo est audité tous les trois mois : retrait des modèles en rupture, révision des gammes de budget, mise à jour des coûts énergétiques et des étiquettes EU. La date de dernière mise à jour est affichée sur chaque page.`,
     },
     {
       question: 'Pourquoi construire une sélection par profil plutôt qu\'un « top 10 » classique ?',
@@ -442,7 +442,7 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     },
     {
       question: 'How often are the rankings refreshed?',
-      answer: `Quarterly. Every silo is audited every three months: out-of-stock models pulled, prices adjusted, energy costs and EU labels updated. The "last updated" stamp is visible on every page.`,
+      answer: `Quarterly. Every silo is audited every three months: out-of-stock models pulled, budget ranges reviewed, energy costs and EU labels updated. The "last updated" stamp is visible on every page.`,
     },
     {
       question: 'Why a profile-based selection instead of a classic top 10?',
@@ -464,7 +464,7 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     },
     {
       question: 'Wie oft werden die Rankings aktualisiert?',
-      answer: `Quartalsweise. Jedes Silo wird alle drei Monate auditiert: ausverkaufte Modelle entfernt, Preise angepasst, Energiekosten und EU-Labels aktualisiert. Das „Zuletzt aktualisiert"-Datum steht auf jeder Seite.`,
+      answer: `Quartalsweise. Jedes Silo wird alle drei Monate auditiert: ausverkaufte Modelle entfernt, Budgetklassen überprüft, Energiekosten und EU-Labels aktualisiert. Das „Zuletzt aktualisiert"-Datum steht auf jeder Seite.`,
     },
     {
       question: 'Warum eine profilbasierte Auswahl statt einer klassischen Top-10-Liste?',
@@ -486,7 +486,7 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     },
     {
       question: '¿Con qué frecuencia se actualizan los rankings?',
-      answer: `Trimestralmente. Cada silo se audita cada tres meses: retirada de modelos agotados, ajuste de precios, actualización de costes energéticos y etiquetas EU. La fecha de última actualización se muestra en cada página.`,
+      answer: `Trimestralmente. Cada silo se audita cada tres meses: retirada de modelos agotados, revisión de los rangos de presupuesto, actualización de costes energéticos y etiquetas EU. La fecha de última actualización se muestra en cada página.`,
     },
     {
       question: '¿Por qué una selección por perfil en lugar de un top 10 clásico?',
@@ -508,7 +508,7 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     },
     {
       question: 'Con quale frequenza le classifiche vengono aggiornate?',
-      answer: `Trimestralmente. Ogni silo viene auditato ogni tre mesi: rimozione dei modelli esauriti, adeguamento dei prezzi, aggiornamento dei costi energetici e delle etichette EU. La data dell'ultimo aggiornamento è visibile su ogni pagina.`,
+      answer: `Trimestralmente. Ogni silo viene auditato ogni tre mesi: rimozione dei modelli esauriti, revisione delle fasce di budget, aggiornamento dei costi energetici e delle etichette EU. La data dell'ultimo aggiornamento è visibile su ogni pagina.`,
     },
     {
       question: 'Perché una selezione per profilo anziché una classica top 10?',
@@ -530,7 +530,7 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
     },
     {
       question: 'Hoe vaak worden de rankings bijgewerkt?',
-      answer: `Elk kwartaal. Elk silo wordt elke drie maanden geaudit: uitverkochte modellen verwijderd, prijzen aangepast, energiekosten en EU-labels bijgewerkt. De "laatst bijgewerkt"-datum staat op elke pagina.`,
+      answer: `Elk kwartaal. Elk silo wordt elke drie maanden geaudit: uitverkochte modellen verwijderd, budgetklassen herzien, energiekosten en EU-labels bijgewerkt. De "laatst bijgewerkt"-datum staat op elke pagina.`,
     },
     {
       question: 'Waarom een profielgebaseerde selectie in plaats van een klassieke top 10?',
