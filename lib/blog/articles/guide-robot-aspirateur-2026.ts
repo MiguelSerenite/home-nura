@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Robot aspirador redondo pasando de un parqué a una alfombra gris, bajo un sofá',
         it: 'Robot aspirapolvere rotondo che passa dal parquet a un tappeto grigio, sotto un divano',
         nl: 'Ronde robotstofzuiger die onder een bank van een houten vloer op een grijs vloerkleed rijdt',
+        pl: 'Okrągły robot odkurzający przejeżdżający z parkietu na szary dywan pod kanapą',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Guía robot aspirador 2026: cómo elegir y los 5 mejores modelos',
     it: 'Guida robot aspirapolvere 2026: come scegliere e i 5 migliori modelli',
     nl: 'Robotstofzuiger koopgids 2026: zo kies je en de 5 beste modellen',
+    pl: 'Poradnik: robot odkurzający 2026, jak wybrać i 5 najlepszych modeli',
   },
   excerpt: {
     fr: 'Puissance, navigation LiDAR, lavage, station et hauteur : les critères pour choisir un robot aspirateur en 2026, et 5 modèles récents comparés, du Roborock Qrevo Curv au Dreame X50 Ultra Complete.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Succión, navegación LiDAR, fregado, base y altura: los criterios para elegir un robot aspirador en 2026 y 5 modelos recientes comparados, del Roborock Qrevo Curv al Dreame X50 Ultra Complete.',
     it: 'Aspirazione, navigazione LiDAR, lavaggio, base e altezza: i criteri per scegliere un robot aspirapolvere nel 2026 e 5 modelli recenti a confronto, dal Roborock Qrevo Curv al Dreame X50 Ultra Complete.',
     nl: 'Zuigkracht, LiDAR-navigatie, dweilen, station en hoogte: de criteria om in 2026 een robotstofzuiger te kiezen, plus 5 recente modellen vergeleken, van de Roborock Qrevo Curv tot de Dreame X50 Ultra Complete.',
+    pl: 'Moc ssania, nawigacja LiDAR, mopowanie, stacja i wysokość: kryteria wyboru robota odkurzającego w 2026 roku oraz porównanie 5 nowych modeli, od Roborock Qrevo Curv po Dreame X50 Ultra Complete.',
   },
   content: {
     fr: `<p><strong>Le meilleur robot aspirateur en 2026 pour la plupart des logements est le Roborock Qrevo Curv</strong> : forte aspiration, navigation LiDAR fiable, serpillères rotatives qui vont jusqu’aux plinthes et station qui vide, lave et sèche tout seule. Avec un budget plus serré, le Roborock Q7 M5+ offre l’essentiel (LiDAR et vidage automatique), et si vous avez des animaux ou des seuils à franchir, le Dreame X50 Ultra Complete est le plus adapté.</p>
@@ -566,6 +569,94 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Voor de meeste huishoudens is de <strong>Roborock Qrevo Curv</strong> de meest evenwichtige keuze: hij zuigt krachtig, dweilt de randen goed en regelt zelf het legen, wassen en drogen. De <strong>Roborock Q7 M5+</strong> is de beste instapper, met LiDAR-navigatie en automatisch legen. Met huisdieren, drempels of een groot huis past de <strong>Dreame X50 Ultra Complete</strong> het best. Zijn je meubels laag, kijk dan naar de <strong>Ecovacs Deebot T50 Omni</strong> of, in het hoogste segment, de <strong>Roborock Saros 10R</strong>.</p>`,
+    pl: `<p><strong>Najlepszym robotem odkurzającym 2026 roku dla większości mieszkań jest Roborock Qrevo Curv</strong>: mocne ssanie, niezawodna nawigacja LiDAR, obrotowe mopy sięgające aż do listew przypodłogowych oraz stacja, która sama opróżnia, myje i suszy. Przy ciaśniejszym budżecie Roborock Q7 M5+ oferuje to, co najważniejsze (LiDAR i automatyczne opróżnianie), a jeśli masz zwierzęta lub progi do pokonania, najlepiej sprawdzi się Dreame X50 Ultra Complete.</p>
+<p>Poradnik opiera się na kartach technicznych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględnia wyłącznie nowe modele sprzedawane w Europie. Cały wybór znajdziesz na stronie <a href="/pl/entretien-maison/aspirateurs-robots">roboty odkurzające</a>.</p>
+
+<h2>Jak wybrać robot odkurzający: kryteria, które się liczą</h2>
+
+<h3>Moc ssania (w paskalach)</h3>
+<p>Producenci podają moc w paskalach (Pa). W 2026 roku porządny model podstawowy ma około 6 000–10 000 Pa, a modele z wyższej półki przekraczają 15 000 Pa. Ta liczba pomaga ocenić urządzenie, ale nie mówi wszystkiego: każda marka mierzy ją własną metodą, a jakość szczotki głównej, szczelność układu powietrznego i wielokrotne przejazdy po dywanach liczą się tak samo. Do twardych podłóg i trochę cienkich dywanów wystarczy 6 000–10 000 Pa. Przy grubych dywanach lub dużej ilości sierści celuj wyżej.</p>
+
+<h3>Nawigacja: LiDAR i omijanie przeszkód</h3>
+<p>Nawigacja LiDAR (laserowy czujnik, który mapuje mieszkanie) stała się standardem. Pozwala sprzątać metodycznie, pokój po pokoju, i działa w ciemności. Unikaj robotów z nawigacją żyroskopową, które jeżdżą mniej uporządkowanie i pomijają niektóre strefy. Żeby omijać kable, skarpetki czy odchody zwierząt, nowsze modele dodają kamerę i czujniki ze światłem strukturalnym. Niektóre, jak Roborock Saros 10R, zastępują wieżyczkę LiDAR wbudowanym w obudowę LiDAR-em, co zmniejsza wysokość.</p>
+
+<h3>Mopowanie podłóg</h3>
+<p>Współistnieją trzy systemy. <strong>Stała nakładka</strong>, ciągnięta po podłodze, odświeża płytki, ale nie usuwa zaschniętych plam. <strong>Obrotowe mopy</strong>, które obracają się z naciskiem, są wyraźnie skuteczniejsze. Najlepsze modele wysuwają mop na zewnątrz, by dosięgnąć krawędzi i nóg mebli, a przy zbliżaniu się do dywanu automatycznie go unoszą. Więcej znajdziesz w naszym <a href="/pl/blog/comparatif-robot-aspirateur-laveur">porównaniu robotów odkurzających z mopem</a>.</p>
+
+<h3>Stacja: opróżnianie, mycie i suszenie</h3>
+<p>Stacja opróżniająca zasysa zawartość pojemnika robota do worka o pojemności kilku litrów: nie opróżniasz robota po każdym przejeździe, tylko od czasu do czasu worek. Stacje „wszystko w jednym” mają dodatkowo dwa zbiorniki na wodę (czystą i brudną), myją mopy, czasem gorącą wodą, a potem suszą je ciepłym powietrzem, by ograniczyć zapachy. Zajmują więcej miejsca, więc zmierz planowane miejsce.</p>
+
+<h3>Wysokość i pokonywanie przeszkód</h3>
+<p>Większość robotów ma około 10 cm wysokości razem z wieżyczką LiDAR. Jeśli Twoja kanapa lub łóżka są niskie, szukaj modelu poniżej 8,5 cm. W domach z progami drzwiowymi lub szynami drzwi tarasowych sprawdź deklarowaną wysokość pokonywanych przeszkód: najnowsze modele unoszą się na kołach, by wjechać na wyższe progi.</p>
+
+<h3>Włosy i sierść</h3>
+<p>Szczotki główne odporne na splątanie (guma, podwójna szczotka, wbudowany grzebień) skracają czas spędzany na odcinaniu nawiniętych włosów. To ważne kryterium przy zwierzętach lub długich włosach: przeczytaj nasz poradnik o <a href="/pl/blog/robot-aspirateur-poils-animaux">robotach odkurzających do sierści zwierząt</a>.</p>
+
+<h3>Aplikacja</h3>
+<p>Sprawdź obsługę kilku pięter, strefy zakazane, sprzątanie pokój po pokoju i zgodność z Twoim asystentem głosowym (Alexa, Google Assistant). Zgodność z Matter zależy od modelu i aktualizacji: jeśli jest dla Ciebie ważna, zweryfikuj ją na karcie produktu.</p>
+
+<h2>5 najlepszych robotów odkurzających w 2026 roku</h2>
+
+<h3>1. Roborock Qrevo Curv: najlepszy wybór ogólny</h3>
+<p>Qrevo Curv deklaruje ssanie 18 500 Pa, nawigację LiDAR i obrotowe mopy. Jego ramię FlexiArm wysuwa szczotkę boczną i mop w stronę kątów i listew przypodłogowych. Podwozie AdaptiLift potrafi się unosić, by pokonywać progi i grube dywany. Stacja opróżnia pojemnik, myje mopy gorącą wodą i suszy je gorącym powietrzem.</p>
+<p><strong>Mocne strony</strong>: staranne sprzątanie krawędzi, bardzo dobra równowaga między ssaniem a mopowaniem, kompletna aplikacja Roborock ceniona za niezawodność.</p>
+<p><strong>Ograniczenia</strong>: imponująca stacja; model z wyższej półki; wieżyczka LiDAR utrudnia wjazd pod bardzo niskie meble.</p>
+<p><strong>Dla kogo</strong>: dla większości mieszkań i domów z mieszanką twardych podłóg i dywanów, w których chcesz zlecić robotowi prawie całą pielęgnację.</p>
+
+<h3>2. Roborock Q7 M5+: najlepszy stosunek jakości do ceny</h3>
+<p>Q7 M5+ stawia na to, co najważniejsze: nawigację LiDAR z mapami na kilku piętrach, deklarowane ssanie 10 000 Pa, szczotkę odporną na splątanie z wbudowanym grzebieniem oraz stację z automatycznym opróżnianiem z workiem o pojemności 2,7 litra. Ma też prosty moduł mopowania.</p>
+<p><strong>Mocne strony</strong>: nawigacja i aplikacja marki w modelu podstawowym; kilka tygodni bez opróżniania robota; kompaktowy format.</p>
+<p><strong>Ograniczenia</strong>: mopowanie nakładką ogranicza się do odświeżenia podłóg; brak mycia i suszenia mopów w stacji; omijanie przeszkód mniej zaawansowane niż w modelach z wyższej półki.</p>
+<p><strong>Dla kogo</strong>: na pierwszego robota, do mieszkania z głównie twardymi podłogami lub przy ograniczonym budżecie.</p>
+
+<h3>3. Dreame X50 Ultra Complete: najlepszy do zwierząt i progów</h3>
+<p>X50 Ultra Complete deklaruje 20 000 Pa, podwójną szczotkę HyperStream odporną na splątanie i do 220 minut pracy na baterii. Jego system ProLeap unosi go, by pokonywać przeszkody do 6 cm według producenta. Wieżyczka LiDAR chowa się, by wjechać pod niektóre meble. Omijanie przeszkód łączy kamerę i światło strukturalne 3D, a stacja opróżnia robota do worka o pojemności 3,2 litra, myje i suszy mopy.</p>
+<p><strong>Mocne strony</strong>: świetnie radzi sobie z sierścią i dywanami; pokonywanie progów i niskich stopni; duża autonomia na dużych powierzchniach.</p>
+<p><strong>Ograniczenia</strong>: ciężki robot i duża stacja; pozycja premium; poziom hałasu przy pełnej mocy pozostaje wysoki.</p>
+<p><strong>Dla kogo</strong>: dla domów z psem lub kotem, domów z progami i dużych powierzchni.</p>
+
+<h3>4. Ecovacs Deebot T50 Omni: najcieńszy do niskich mebli</h3>
+<p>Przy wysokości 81 mm Deebot T50 Omni wjeżdża tam, gdzie wiele robotów się zacina. Deklaruje 15 000 Pa i ma wbudowany w obudowę LiDAR dToF, uzupełniony kamerą i światłem strukturalnym 3D. Jego mop wysuwa się w stronę krawędzi (TruEdge) i unosi o 9 mm na dywanach. Stacja myje mopy w 75 °C i suszy je w 45 °C.</p>
+<p><strong>Mocne strony</strong>: idealny pod kanapami i niskimi łóżkami; mycie gorącą wodą; dobre pokrycie krawędzi.</p>
+<p><strong>Ograniczenia</strong>: ssanie nieco słabsze niż w najmocniejszych modelach tego poradnika; aplikacja Ecovacs mniej ceniona niż Roborock według opinii kupujących.</p>
+<p><strong>Dla kogo</strong>: dla mieszkań z niskimi meblami i tych, którzy chcą solidnego mopowania bez celowania w najwyższą półkę.</p>
+
+<h3>5. Roborock Saros 10R: ultrapłaski model premium</h3>
+<p>Saros 10R ma 7,98 cm wysokości dzięki systemowi StarSight 2.0, czyli półprzewodnikowemu LiDAR-owi wbudowanemu w obudowę, połączonemu z czujnikami 3D ToF. Deklaruje 19 000 Pa i używa obrotowych mopów. Jego wielofunkcyjna stacja opróżnia pojemnik, myje i suszy mopy.</p>
+<p><strong>Mocne strony</strong>: wjazd pod najniższe meble; precyzyjna nawigacja bez wieżyczki; bardzo kompletny zestaw.</p>
+<p><strong>Ograniczenia</strong>: model z najwyższej półki; obszerna stacja, jak w każdym modelu „wszystko w jednym”.</p>
+<p><strong>Dla kogo</strong>: dla tych, którzy chcą maksimum funkcji i robota sprzątającego pod wszystkimi meblami.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Deklarowane ssanie</th><th>Nawigacja</th><th>Mopowanie</th><th>Stacja</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td>Roborock Qrevo Curv</td><td>18 500 Pa</td><td>LiDAR</td><td>Obrotowe mopy, ramię FlexiArm</td><td>Opróżnianie, mycie gorącą wodą, suszenie</td><td>Większość domów</td></tr>
+<tr><td>Roborock Q7 M5+</td><td>10 000 Pa</td><td>LiDAR</td><td>Prosta nakładka</td><td>Automatyczne opróżnianie (worek 2,7 L)</td><td>Niski budżet, twarde podłogi</td></tr>
+<tr><td>Dreame X50 Ultra Complete</td><td>20 000 Pa</td><td>Chowany LiDAR, kamera, światło 3D</td><td>Obrotowe mopy</td><td>Opróżnianie (worek 3,2 L), mycie, suszenie</td><td>Zwierzęta, progi, duże powierzchnie</td></tr>
+<tr><td>Ecovacs Deebot T50 Omni</td><td>15 000 Pa</td><td>Wbudowany LiDAR dToF, kamera, światło 3D</td><td>Wysuwany mop TruEdge</td><td>Opróżnianie, mycie w 75 °C, suszenie w 45 °C</td><td>Niskie meble (81 mm)</td></tr>
+<tr><td>Roborock Saros 10R</td><td>19 000 Pa</td><td>StarSight 2.0 (wbudowany LiDAR, 3D ToF)</td><td>Obrotowe mopy</td><td>Opróżnianie, mycie, suszenie</td><td>Ultrapłaski model premium (7,98 cm)</td></tr>
+</tbody>
+</table>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Wybór wyłącznie według liczby paskali</strong>: nie jest ona mierzona tak samo u różnych marek. Nawigacja, szczotka i stacja często robią większą różnicę.</li>
+<li><strong>Brak pomiaru</strong> wysokości pod meblami i miejsca na stację, która potrzebuje wolnej przestrzeni z przodu i po bokach.</li>
+<li><strong>Kupno robota z mopem do wykładziny na całej powierzchni</strong>: mop nic nie daje na wykładzinie, a model bez automatycznego unoszenia może ją zamoczyć.</li>
+<li><strong>Zaniedbywanie materiałów eksploatacyjnych</strong>: worki do stacji, filtry, szczotki i mopy wymienia się regularnie. Sprawdź, czy łatwo je kupić do Twojego modelu.</li>
+<li><strong>Niesprzątanie podłogi przed pracą robota</strong>: nawet przy dobrym omijaniu przeszkód cienkie kable, sznurowadła i drobne przedmioty pozostają główną przyczyną zacięć.</li>
+</ul>
+
+<h2>Instalacja, użytkowanie i bezpieczeństwo</h2>
+<p>Ustaw stację na twardej, płaskiej podłodze, przy ścianie, blisko gniazdka, z wystarczającą wolną przestrzenią z przodu i po bokach (zgodnie z instrukcją producenta). Pierwsze mapowanie uruchom przy otwartych drzwiach, następnie podziel pomieszczenia i wyznacz strefy zakazane (miski, dywany z frędzlami, kąt z kablami). Na parkiecie zmniejsz ilość podawanej wody.</p>
+<p>Co tydzień usuwaj włosy ze szczotki głównej i kół oraz opróżniaj zbiornik na brudną wodę, jeśli stacja go ma. Co miesiąc przecieraj czujniki suchą ściereczką i czyść filtr zgodnie ze wskazówkami producenta. Robot działa na baterii litowo-jonowej: używaj wyłącznie oryginalnej ładowarki i stacji i nie zostawiaj robota w wilgotnym pomieszczeniu ani w pełnym słońcu. Modele z kamerą filmują wnętrze, by rozpoznawać przeszkody: sprawdź ustawienia prywatności w aplikacji i wyłącz funkcje zdalnego podglądu wideo, jeśli z nich nie korzystasz.</p>
+<p>Wahasz się jeszcze między robotem a tradycyjnym odkurzaczem? Przeczytaj nasz artykuł <a href="/pl/blog/robot-aspirateur-vs-balai">robot odkurzający czy odkurzacz pionowy</a>.</p>
+
+<h2>Nasz werdykt</h2>
+<p>Dla większości domów <strong>Roborock Qrevo Curv</strong> jest najbardziej wyważonym wyborem: mocno odkurza, dobrze myje krawędzie i sam zajmuje się opróżnianiem, myciem i suszeniem. <strong>Roborock Q7 M5+</strong> to najlepszy punkt wejścia, z nawigacją LiDAR i automatycznym opróżnianiem. Przy zwierzętach, progach lub dużym domu najlepiej sprawdzi się <strong>Dreame X50 Ultra Complete</strong>. Jeśli masz niskie meble, zajrzyj do <strong>Ecovacs Deebot T50 Omni</strong> lub, w najwyższej klasie, do <strong>Roborock Saros 10R</strong>.</p>`,
   },
   faq: [
     {
@@ -576,6 +667,7 @@ export const article: BlogArticle = {
         es: '¿Cuántos pascales necesita un robot aspirador?',
         it: 'Quanti pascal servono a un robot aspirapolvere?',
         nl: 'Hoeveel pascal heeft een robotstofzuiger nodig?',
+        pl: 'Ile paskali powinien mieć robot odkurzający?',
       },
       answer: {
         fr: 'Pour des sols durs et quelques tapis fins, 6 000 à 10 000 Pa suffisent. Pour des tapis épais ou des poils d’animaux, visez plus haut. Le chiffre reste indicatif : chaque marque le mesure à sa façon, et la brosse et la navigation comptent autant.',
@@ -584,6 +676,7 @@ export const article: BlogArticle = {
         es: 'Para suelos duros y alguna alfombra fina bastan 6.000 a 10.000 Pa. Para alfombras gruesas o pelo de mascotas, apunta más alto. La cifra es orientativa: cada marca la mide a su manera, y el cepillo y la navegación cuentan igual.',
         it: 'Per pavimenti duri e qualche tappeto sottile bastano 6.000-10.000 Pa. Per tappeti spessi o peli di animali, punta più in alto. Il dato è indicativo: ogni marca lo misura a modo suo, e spazzola e navigazione contano altrettanto.',
         nl: 'Voor harde vloeren en enkele dunne vloerkleden volstaat 6.000 tot 10.000 Pa. Voor dikke tapijten of huisdierharen mik je hoger. Het getal is indicatief: elk merk meet anders, en de borstel en navigatie tellen net zo zwaar.',
+        pl: 'Do twardych podłóg i kilku cienkich dywanów wystarczy 6 000–10 000 Pa. Przy grubych dywanach lub sierści zwierząt celuj wyżej. Ta liczba jest orientacyjna: każda marka mierzy ją po swojemu, a szczotka i nawigacja liczą się tak samo.',
       },
     },
     {
@@ -594,6 +687,7 @@ export const article: BlogArticle = {
         es: '¿Es imprescindible una base de autovaciado?',
         it: 'La base di svuotamento automatico è indispensabile?',
         nl: 'Is een leegstation onmisbaar?',
+        pl: 'Czy stacja z automatycznym opróżnianiem jest niezbędna?',
       },
       answer: {
         fr: 'Non, mais elle change le quotidien : vous ne videz plus le robot après chaque passage, seulement le sac de la station de temps en temps. Prévoyez l’achat de sacs de rechange et un emplacement dégagé.',
@@ -602,6 +696,7 @@ export const article: BlogArticle = {
         es: 'No, pero cambia el día a día: ya no vacías el robot tras cada pasada, solo la bolsa de la base de vez en cuando. Ten en cuenta la compra de bolsas de recambio y un sitio despejado.',
         it: 'No, ma semplifica molto la vita: non svuoti più il robot dopo ogni passaggio, solo il sacchetto della base di tanto in tanto. Prevedi l’acquisto di sacchetti di ricambio e uno spazio libero.',
         nl: 'Nee, maar het maakt het dagelijks gebruik veel makkelijker: je leegt de robot niet meer na elke beurt, alleen af en toe de zak van het station. Houd rekening met reservezakken en een vrije plek.',
+        pl: 'Nie, ale zmienia codzienne użytkowanie: nie opróżniasz robota po każdym przejeździe, tylko od czasu do czasu worek stacji. Zaplanuj zakup zapasowych worków i wolne miejsce na stację.',
       },
     },
     {
@@ -612,6 +707,7 @@ export const article: BlogArticle = {
         es: '¿Un robot aspirador friegasuelos sustituye a la fregona?',
         it: 'Un robot lavapavimenti sostituisce il mocio?',
         nl: 'Vervangt een robot met dweilfunctie het dweilen met de hand?',
+        pl: 'Czy robot odkurzający z mopem zastępuje tradycyjne mopowanie?',
       },
       answer: {
         fr: 'Pour l’entretien courant, oui avec des serpillères rotatives et une station qui les lave. Un simple patin ne fait que rafraîchir le sol. Les taches incrustées ou les sols très sales demandent encore un nettoyage manuel ponctuel.',
@@ -620,6 +716,7 @@ export const article: BlogArticle = {
         es: 'Para el mantenimiento diario sí, con mopas giratorias y una base que las lave. Una mopa sencilla solo refresca el suelo. Las manchas incrustadas o los suelos muy sucios siguen necesitando una limpieza manual de vez en cuando.',
         it: 'Per la pulizia quotidiana sì, con panni rotanti e una base che li lava. Un panno semplice si limita a rinfrescare il pavimento. Macchie incrostate o pavimenti molto sporchi richiedono ancora una pulizia manuale ogni tanto.',
         nl: 'Voor dagelijks onderhoud wel, met roterende dweilen en een station dat ze wast. Een eenvoudige dweilpad frist de vloer alleen op. Ingetrokken vlekken of erg vuile vloeren vragen nog af en toe handwerk.',
+        pl: 'Przy bieżącym sprzątaniu tak, jeśli ma obrotowe mopy i stację, która je myje. Zwykła nakładka tylko odświeża podłogę. Wżarte plamy lub bardzo brudne podłogi nadal wymagają okazjonalnego ręcznego sprzątania.',
       },
     },
     {
@@ -630,6 +727,7 @@ export const article: BlogArticle = {
         es: '¿Qué robot aspirador elegir para muebles bajos?',
         it: 'Quale robot aspirapolvere per mobili bassi?',
         nl: 'Welke robotstofzuiger past onder lage meubels?',
+        pl: 'Jaki robot odkurzający wybrać do niskich mebli?',
       },
       answer: {
         fr: 'Mesurez la hauteur libre sous vos meubles, puis choisissez un modèle sans tourelle LiDAR ou à tourelle rétractable. L’Ecovacs Deebot T50 Omni mesure 81 mm et le Roborock Saros 10R 7,98 cm, contre environ 10 cm pour un robot classique.',
@@ -638,6 +736,7 @@ export const article: BlogArticle = {
         es: 'Mide la altura libre bajo tus muebles y elige un modelo sin torreta LiDAR o con torreta retráctil. El Ecovacs Deebot T50 Omni mide 81 mm y el Roborock Saros 10R 7,98 cm, frente a unos 10 cm de un robot convencional.',
         it: 'Misura l’altezza libera sotto i mobili, poi scegli un modello senza torretta LiDAR o con torretta retrattile. L’Ecovacs Deebot T50 Omni è alto 81 mm e il Roborock Saros 10R 7,98 cm, contro circa 10 cm di un robot tradizionale.',
         nl: 'Meet de vrije hoogte onder je meubels en kies dan een model zonder of met inklapbare LiDAR-toren. De Ecovacs Deebot T50 Omni is 81 mm hoog en de Roborock Saros 10R 7,98 cm, tegenover ongeveer 10 cm voor een gewone robot.',
+        pl: 'Zmierz wolną wysokość pod meblami, a potem wybierz model bez wieżyczki LiDAR lub z wieżyczką chowaną. Ecovacs Deebot T50 Omni ma 81 mm, a Roborock Saros 10R 7,98 cm, wobec około 10 cm w klasycznym robocie.',
       },
     },
     {
@@ -648,6 +747,7 @@ export const article: BlogArticle = {
         es: '¿Un robot aspirador con cámara supone un riesgo para la privacidad?',
         it: 'Un robot aspirapolvere con telecamera è un rischio per la privacy?',
         nl: 'Is een robotstofzuiger met camera een privacyrisico?',
+        pl: 'Czy robot odkurzający z kamerą stwarza problem z prywatnością?',
       },
       answer: {
         fr: 'La caméra sert surtout à reconnaître les obstacles. Consultez les réglages de confidentialité de l’application, désactivez la vidéo à distance si vous ne l’utilisez pas, gardez le robot à jour et protégez votre compte avec un mot de passe solide.',
@@ -656,6 +756,7 @@ export const article: BlogArticle = {
         es: 'La cámara sirve sobre todo para reconocer obstáculos. Revisa los ajustes de privacidad de la aplicación, desactiva el vídeo remoto si no lo usas, mantén el robot actualizado y protege tu cuenta con una contraseña segura.',
         it: 'La telecamera serve soprattutto a riconoscere gli ostacoli. Controlla le impostazioni di privacy dell’app, disattiva il video da remoto se non lo usi, mantieni il robot aggiornato e proteggi l’account con una password robusta.',
         nl: 'De camera dient vooral om obstakels te herkennen. Controleer de privacy-instellingen van de app, schakel video op afstand uit als je die niet gebruikt, houd de robot up-to-date en bescherm je account met een sterk wachtwoord.',
+        pl: 'Kamera służy głównie do rozpoznawania przeszkód. Sprawdź ustawienia prywatności w aplikacji, wyłącz zdalne wideo, jeśli z niego nie korzystasz, aktualizuj robota i zabezpiecz konto silnym hasłem.',
       },
     },
     {
@@ -666,6 +767,7 @@ export const article: BlogArticle = {
         es: '¿Qué mantenimiento necesita un robot aspirador?',
         it: 'Che manutenzione richiede un robot aspirapolvere?',
         nl: 'Hoeveel onderhoud vraagt een robotstofzuiger?',
+        pl: 'Jakiej konserwacji wymaga robot odkurzający?',
       },
       answer: {
         fr: 'Chaque semaine, retirez les cheveux de la brosse et des roues. Chaque mois, essuyez les capteurs et nettoyez le filtre. Remplacez brosses, filtres, serpillères et sacs de station selon les recommandations du fabricant.',
@@ -674,6 +776,7 @@ export const article: BlogArticle = {
         es: 'Cada semana, quita los pelos del cepillo y de las ruedas. Cada mes, limpia los sensores y el filtro. Cambia cepillos, filtros, mopas y bolsas de la base según las recomendaciones del fabricante.',
         it: 'Ogni settimana togli i capelli da spazzola e ruote. Ogni mese pulisci i sensori e il filtro. Sostituisci spazzole, filtri, panni e sacchetti della base secondo le indicazioni del produttore.',
         nl: 'Haal elke week haren uit de borstel en de wielen. Veeg maandelijks de sensoren af en maak het filter schoon. Vervang borstels, filters, dweilen en stationzakken volgens de aanbevelingen van de fabrikant.',
+        pl: 'Co tydzień usuwaj włosy ze szczotki i kół. Co miesiąc przecieraj czujniki i czyść filtr. Wymieniaj szczotki, filtry, mopy i worki stacji zgodnie z zaleceniami producenta.',
       },
     },
   ],

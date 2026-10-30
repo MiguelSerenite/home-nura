@@ -21,6 +21,7 @@ const SKIP_LINK_LABEL: Record<Lang, string> = {
   es: 'Ir al contenido',
   it: 'Vai al contenuto',
   nl: 'Naar de inhoud',
+  pl: 'Przejdź do treści',
 }
 
 const geistSans = Geist({
@@ -39,15 +40,17 @@ const metaTitles: Record<Lang, string> = {
   es: 'Home Nura | El Hogar Conectado, comparado para Europa',
   it: 'Home Nura | La Casa Connessa, confrontata per l\'Europa',
   nl: 'Home Nura | Het Slimme Huis, vergeleken voor Europa',
+  pl: 'Home Nura | Inteligentny dom porównany dla Europy',
 };
 
 const metaDescriptions: Record<Lang, string> = {
-  fr: 'Comparatifs indépendants de la maison connectée européenne : cuisine, énergie, sécurité, confort, entretien et extérieur. 6 marchés, une seule méthode.',
-  en: 'Independent reviews of the European smart home: kitchen, energy, security, comfort, cleaning and outdoors. Six markets, one shared method.',
-  de: 'Unabhängige Vergleiche des europäischen Smart Home: Küche, Energie, Sicherheit, Komfort, Reinigung und Außenbereich. Sechs Märkte, eine Methode.',
-  es: 'Comparativas independientes del hogar conectado europeo: cocina, energía, seguridad, confort, limpieza y exterior. Seis mercados, un mismo método.',
-  it: 'Confronti indipendenti della casa connessa europea: cucina, energia, sicurezza, comfort, pulizia ed esterno. Sei mercati, un solo metodo.',
-  nl: 'Onafhankelijke vergelijkingen van het Europese slimme huis: keuken, energie, beveiliging, comfort, schoonmaak en buitenruimte. Zes markten, één methode.',
+  fr: 'Comparatifs indépendants de la maison connectée européenne : cuisine, énergie, sécurité, confort, entretien et extérieur. 7 marchés, une seule méthode.',
+  en: 'Independent reviews of the European smart home: kitchen, energy, security, comfort, cleaning and outdoors. Seven markets, one shared method.',
+  de: 'Unabhängige Vergleiche des europäischen Smart Home: Küche, Energie, Sicherheit, Komfort, Reinigung und Außenbereich. Sieben Märkte, eine Methode.',
+  es: 'Comparativas independientes del hogar conectado europeo: cocina, energía, seguridad, confort, limpieza y exterior. Siete mercados, un mismo método.',
+  it: 'Confronti indipendenti della casa connessa europea: cucina, energia, sicurezza, comfort, pulizia ed esterno. Sette mercati, un solo metodo.',
+  nl: 'Onafhankelijke vergelijkingen van het Europese slimme huis: keuken, energie, beveiliging, comfort, schoonmaak en buitenruimte. Zeven markten, één methode.',
+  pl: 'Niezależne porównania europejskiego inteligentnego domu: kuchnia, energia, bezpieczeństwo, komfort, sprzątanie i ogród. 7 rynków, jedna metoda.',
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -78,6 +81,7 @@ const COUNTRY_NAMES: Record<Lang, string> = {
   es: 'Spain',
   it: 'Italy',
   nl: 'Netherlands',
+  pl: 'Poland',
 };
 
 export default async function RootLayout({

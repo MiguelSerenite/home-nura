@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Mesita de noche con una lámpara de luz cálida y un despertador digital en un dormitorio en penumbra',
         it: 'Comodino con una lampada dalla luce calda e una sveglia digitale in una camera in penombra',
         nl: 'Nachtkastje met een warm brandende lamp en een digitale wekker in een schemerige slaapkamer',
+        pl: 'Szafka nocna z lampką o ciepłym świetle i cyfrowym budzikiem w pogrążonej w półmroku sypialni',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: `Mejor Despertador de Luz 2026: Simuladores de Amanecer y Lámparas de Luminoterapia`,
     it: `Migliore Sveglia Luminosa 2026: Simulatori d'Alba e Lampade per Luminoterapia a Confronto`,
     nl: `Beste Wake-up Light 2026: Zonsopgangwekkers en Lichttherapielampen Vergeleken`,
+    pl: `Budzik świetlny 2026: porównanie symulatorów wschodu słońca i lamp do fototerapii`,
   },
   excerpt: {
     fr: `Philips SmartSleep HF3650 et HF3520, Lumie Bodyclock Shine 300, Beurer WL 50 et WL 75 : quel réveil lumière choisir en 2026 ? Durée d'aube, lux, coucher de soleil, sons, appli, et différence avec une lampe de luminothérapie 10 000 lux.`,
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: `Philips SmartSleep HF3650 y HF3520, Lumie Bodyclock Shine 300, Beurer WL 50 y WL 75: ¿qué despertador de luz elegir en 2026? Duración del amanecer, lux, atardecer, sonidos, app y la diferencia con una lámpara de luminoterapia de 10.000 lux.`,
     it: `Philips SmartSleep HF3650 e HF3520, Lumie Bodyclock Shine 300, Beurer WL 50 e WL 75: quale sveglia luminosa scegliere nel 2026? Durata dell'alba, lux, tramonto, suoni, app e differenza con una lampada per luminoterapia da 10.000 lux.`,
     nl: `Philips SmartSleep HF3650 en HF3520, Lumie Bodyclock Shine 300, Beurer WL 50 en WL 75: welk wake-up light kiest u in 2026? Duur van de zonsopgang, lux, zonsondergang, geluiden, app en het verschil met een lichttherapielamp van 10.000 lux.`,
+    pl: `Philips SmartSleep HF3650 i HF3520, Lumie Bodyclock Shine 300, Beurer WL 50 i WL 75: jaki budzik świetlny wybrać w 2026 roku? Czas wschodu, luksy, zachód słońca, dźwięki, aplikacja i różnica w stosunku do lampy do fototerapii 10 000 lux.`,
   },
   content: {
     fr: `<p><strong>Le meilleur réveil lumière en 2026 pour la plupart des chambres est le Philips SmartSleep Sleep &amp; Wake-up Light HF3650, qui combine une aube colorée progressive, un coucher de soleil, la respiration guidée RelaxBreathe et jusqu'à 310 lux.</strong> Si vous voulez l'essentiel à moindre coût, le Philips Wake-up Light HF3520 reprend l'aube colorée et la radio FM, tandis que le Lumie Bodyclock Shine 300 se distingue par une aube et un crépuscule réglables de 15 à 90 minutes. Attention : un réveil lumière n'est pas une lampe de luminothérapie de 10 000 lux, et les deux appareils ne répondent pas au même besoin.</p>
@@ -523,6 +526,86 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Het <strong>Philips SmartSleep HF3650</strong> blijft het meest evenwichtige wake-up light: hoogwaardige gekleurde zonsopgang, zonsondergang, RelaxBreathe en veel geluiden. De <strong>Philips HF3520</strong> biedt de basis voor een kleiner budget. De <strong>Lumie Bodyclock Shine 300</strong> past bij moeilijke opstaanders dankzij een zonsopgang tot 90 minuten, en de <strong>Beurer WL 75</strong> spreekt app-liefhebbers aan. Wilt u in de winter echte lichtsessies, combineer uw wake-up light dan met een lichttherapielamp zoals de <strong>Beurer TL 50</strong>, en raadpleeg een arts als een sombere stemming aanhoudt.</p>`,
+    pl: `<p><strong>Najlepszy budzik świetlny 2026 do większości sypialni to Philips SmartSleep Sleep &amp; Wake-up Light HF3650, który łączy stopniowy kolorowy wschód słońca, zachód słońca, prowadzony oddech RelaxBreathe i do 310 lux.</strong> Jeśli chcesz tego, co najważniejsze, taniej, Philips Wake-up Light HF3520 ma kolorowy wschód słońca i radio FM, a Lumie Bodyclock Shine 300 wyróżnia się wschodem i zmierzchem regulowanymi od 15 do 90 minut. Uwaga: budzik świetlny nie jest lampą do fototerapii 10 000 lux, a oba urządzenia odpowiadają na różne potrzeby.</p>
+<p>To porównanie opiera się na kartach katalogowych producentów, niezależnych opiniach publikowanych przez prasę branżową i opiniach zweryfikowanych kupujących. Wszystkie modele z tej kategorii znajdziesz też na stronie <a href="/pl/confort-air/reveils-lumiere">budziki świetlne i fototerapia</a>.</p>
+
+<h2>Budzik świetlny, symulator wschodu słońca, lampa do fototerapii: o czym mówimy?</h2>
+<p><strong>Budzik świetlny</strong> (symulator wschodu słońca) stopniowo zwiększa natężenie światła w ciągu 20–40 minut, a czasem dłużej, poprzedzających godzinę alarmu. Światło zwykle przechodzi od ciemnej czerwieni przez pomarańcz do ciepłej żółci, jak wschód słońca. Celem jest łagodniejsze przebudzenie niż gwałtowny dzwonek w ciemności, zwłaszcza w zimowych miesiącach, gdy w chwili wstawania jest jeszcze noc.</p>
+<p><strong>Lampa do fototerapii</strong> działa zupełnie inaczej: daje bardzo intensywne białe światło, zwykle 10 000 lux z niewielkiej odległości, podczas sesji trwającej około 20–30 minut, w pozycji siedzącej przed lampą, często rano. Nie budzi: używa się jej już po wstaniu. Budziki świetlne osiągają natomiast kilkaset luksów z odległości około 30 cm, co wystarcza do oświetlenia sypialni, ale jest dalekie od poziomów dedykowanej lampy.</p>
+<p>Warto wiedzieć: jeśli odczuwasz wyraźny, długotrwały spadek nastroju jesienią lub zimą, porozmawiaj z lekarzem. Ani budzik świetlny, ani lampa do fototerapii nie zastępują porady lekarskiej.</p>
+
+<h2>Kryteria wyboru budzika świetlnego</h2>
+<h3>Czas wschodu</h3>
+<p>To najważniejsze ustawienie. Zbyt krótki wschód (10 minut) przypomina zapalenie lampy; wschód regulowany w zakresie 20–40 minut odpowiada większości śpiących. Modele z wyższej półki, takie jak Lumie Bodyclock Shine 300, sięgają 90 minut, co przydaje się osobom, którym trudno się wybudzić.</p>
+<h3>Maksymalne natężenie (lux)</h3>
+<p>Producenci podają wartości mierzone z różnych odległości: 300 lux dla Philips HF3520, 310 lux dla HF3650, 800 lux z około 10 cm dla Beurer WL 50, 2 000 lux z 15 cm dla Beurer WL 75. Tych liczb nie da się więc bezpośrednio porównywać. Zapamiętaj raczej, że duża liczba stopni jasności pozwala dopasować wschód do wielkości pomieszczenia i Twojej wrażliwości.</p>
+<h3>Tryb zachodu słońca</h3>
+<p>Funkcja zmierzchu działa odwrotnie niż wschód: wieczorem światło stopniowo przygasa, z dźwiękiem lub bez. Z powodzeniem zastępuje lampkę nocną do czytania, a potem zasypiania. Jest w obu Philipsach, Lumie Shine 300 i Beurer WL 75.</p>
+<h3>Dźwięki i radio</h3>
+<p>Samo światło nie zawsze budzi, zwłaszcza osoby o twardym śnie. Sprawdź liczbę dźwięków natury, obecność radia FM i możliwość odtwarzania własnej muzyki (wejście AUX lub głośnik Bluetooth w Beurer WL 75).</p>
+<h3>Sterowanie z aplikacji</h3>
+<p>Większość budzików świetlnych ustawia się przyciskami, co pozwala nie sięgać po telefon w łóżku. Tylko Beurer WL 75 z tego zestawienia ma aplikację (beurer LightUp, przez Bluetooth) do programowania alarmów, kolorów i dźwięków. Warto wiedzieć: dawny model Philipsa z łącznością nie jest już sprzedawany, a Hatch Restore, bardzo znany w Stanach Zjednoczonych, nie jest oficjalnie dystrybuowany w Europie.</p>
+<h3>Wyświetlacz i noc</h3>
+<p>Zbyt jasny wyświetlacz utrudnia zasypianie. Wybieraj ekran z regulowaną jasnością lub automatycznym ściemnianiem, taki jak w Lumie Shine 300, oraz delikatną lampkę nocną, jeśli wstajesz w nocy.</p>
+
+<h2>Najlepsze budziki świetlne i lampy do fototerapii 2026</h2>
+
+<h3>1. Philips SmartSleep Sleep &amp; Wake-up Light HF3650: najlepszy wybór ogólny</h3>
+<p><strong>HF3650</strong> to najpełniejszy model w obecnie sprzedawanej serii Philips. Jego kolorowy wschód zaczyna się od łagodnej czerwieni, a kończy jasną żółcią, domyślnie trwa 30 minut, z czasem zmienianym w menu alarmu, do 310 lux i 25 poziomów jasności. Dodaje zachód słońca, 7 dźwięków budzenia, 3 dźwięki relaksacyjne, radio FM i wejście AUX.</p>
+<p>Jego wyróżnikiem jest <strong>RelaxBreathe</strong>: powoli pulsujące światło, które nadaje rytm spokojnemu oddechowi przed snem. Opinie kupujących chwalą jakość światła i łagodność wschodu; krytyka dotyczy głównie liczby menu do przejrzenia przy pierwszym ustawieniu.</p>
+<p><strong>Mocne strony:</strong> kolorowy wschód wysokiej jakości, zachód słońca, RelaxBreathe, wiele dźwięków. <strong>Ograniczenia:</strong> brak aplikacji, zajmuje dużo miejsca na małej szafce nocnej. <strong>Dla kogo:</strong> dla tych, którzy chcą kompletnego budzika świetlnego bez telefonu.</p>
+
+<h3>2. Philips Wake-up Light HF3520: najlepszy stosunek jakości do ceny</h3>
+<p><strong>HF3520</strong> zachowuje większość możliwości HF3650 w prostszej formie: kolorowy wschód regulowany od 20 do 40 minut, 300 lux, 20 ustawień jasności, zachód słońca, 5 dźwięków natury i radio FM. To jeden z najpowszechniejszych budzików świetlnych w Europie, co ułatwia szukanie instrukcji i opinii.</p>
+<p><strong>Mocne strony:</strong> kolorowy wschód, zachód słońca, szybka obsługa. <strong>Ograniczenia:</strong> mniej dźwięków, brak funkcji prowadzonego relaksu. <strong>Dla kogo:</strong> na pierwszy, niezawodny budzik świetlny bez dopłacania za zaawansowane funkcje.</p>
+
+<h3>3. Lumie Bodyclock Shine 300: najbardziej konfigurowalny wschód</h3>
+<p>Brytyjski specjalista od światła, Lumie, oferuje w <strong>Bodyclock Shine 300</strong> wschód i zmierzch regulowane od <strong>15 do 90 minut</strong>, z regulowanym natężeniem końcowym. Znajdziesz tu 15 dźwięków do snu i budzenia, radio FM, lampkę nocną oraz wyświetlacz automatycznie przygaszany w zależności od światła otoczenia. Światło łączy tony ciepłej bieli, pomarańczu i czerwieni, a Lumie przedstawia urządzenie jako wyrób medyczny klasy I.</p>
+<p><strong>Mocne strony:</strong> bardzo szeroki zakres czasu, dyskretny ekran, wyspecjalizowany producent. <strong>Ograniczenia:</strong> brak aplikacji, Lumie nie podaje wartości w luksach. <strong>Dla kogo:</strong> dla osób, które trudno się budzą i potrzebują bardzo powolnego narastania światła, oraz dla śpiących wrażliwych na ekran.</p>
+
+<h3>4. Beurer WL 75: budzik świetlny sterowany z aplikacji</h3>
+<p><strong>WL 75</strong> jest najbardziej „połączony” w zestawieniu. Bezpłatna aplikacja <strong>beurer LightUp</strong> (Bluetooth) pozwala ustawiać alarmy, jasność i nastrojowe światło spośród 256 kolorów lub 10 ustawień wstępnych. Beurer deklaruje 2 000 lux z 15 cm przy białym świetle 3 000 K, 6 melodii budzenia, 4 melodie na dobranoc, radio FM, głośnik Bluetooth do odtwarzania Twojej muzyki, 2 godziny alarmu, regulowaną drzemkę od 1 do 30 minut i port USB do ładowania telefonu.</p>
+<p><strong>Mocne strony:</strong> aplikacja, głośnik Bluetooth, kolorowe oświetlenie nastrojowe. <strong>Ograniczenia:</strong> aby korzystać ze wszystkich funkcji, aplikacja staje się niezbędna. <strong>Dla kogo:</strong> dla tych, którzy lubią wszystko ustawiać ze smartfona i chcą mieć też głośnik przy łóżku.</p>
+
+<h3>5. Beurer WL 50: prosta i wszechstronna alternatywa</h3>
+<p><strong>WL 50</strong> oferuje wschód trwający 10, 20 lub 30 minut, około 800 lux z 10 cm, 5 kolorów światła nastrojowego, 2 melodie budzenia, 1 melodię na dobranoc, 2 godziny alarmu i radio FM z 30 zapisywanymi stacjami. Ustawia się go w całości przyciskami.</p>
+<p><strong>Mocne strony:</strong> proste ustawienia, kolorowe światło nastrojowe, dwa alarmy. <strong>Ograniczenia:</strong> wschód ograniczony do 30 minut, mało dźwięków. <strong>Dla kogo:</strong> do pokoju nastolatka lub gościnnego albo na pierwszą próbę budzenia światłem.</p>
+
+<h3>6. Beurer TL 50: prawdziwa lampa do fototerapii 10 000 lux</h3>
+<p>Jako uzupełnienie budzika świetlnego <strong>Beurer TL 50</strong> to lampa do fototerapii klasyfikowana jako wyrób medyczny: 10 000 lux z około 15 cm, białe światło 5 300 K bez UV i bez migotania, powierzchnia świetlna o średnicy około 24,6 cm i obsługa jednym przyciskiem. Używa się jej w pozycji siedzącej, przy śniadaniu lub przy biurku, zgodnie z instrukcją producenta.</p>
+<p><strong>Mocne strony:</strong> natężenie właściwe dla fototerapii, prostota, kompaktowy format. <strong>Ograniczenia:</strong> to nie budzik (brak alarmu i wschodu). <strong>Dla kogo:</strong> dla osób, którym zimą brakuje naturalnego światła, po konsultacji z lekarzem, jeśli mają wątpliwości co do zdrowia.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Typ</th><th>Czas wschodu</th><th>Maks. światło (producent)</th><th>Zachód słońca</th><th>Dźwięki / radio</th><th>Aplikacja</th><th>Idealny do</th></tr>
+</thead>
+<tbody>
+<tr><td>Philips HF3650</td><td>Budzik świetlny</td><td>Regulowany (domyślnie 30 min)</td><td>310 lux</td><td>Tak</td><td>10 dźwięków, FM, AUX</td><td>Nie</td><td>Wybór ogólny</td></tr>
+<tr><td>Philips HF3520</td><td>Budzik świetlny</td><td>20–40 min</td><td>300 lux</td><td>Tak</td><td>5 dźwięków, FM</td><td>Nie</td><td>Stosunek jakości do ceny</td></tr>
+<tr><td>Lumie Bodyclock Shine 300</td><td>Budzik świetlny</td><td>15–90 min</td><td>Nie podano</td><td>Tak (15–90 min)</td><td>15 dźwięków, FM</td><td>Nie</td><td>Bardzo stopniowy wschód</td></tr>
+<tr><td>Beurer WL 75</td><td>Budzik świetlny</td><td>Nie podano</td><td>2 000 lux z 15 cm</td><td>Tak</td><td>10 melodii, FM, Bluetooth</td><td>Tak (beurer LightUp)</td><td>Sterowanie ze smartfona</td></tr>
+<tr><td>Beurer WL 50</td><td>Budzik świetlny</td><td>10, 20 lub 30 min</td><td>800 lux z 10 cm</td><td>Melodia na dobranoc</td><td>3 melodie, FM</td><td>Nie</td><td>Prosta obsługa</td></tr>
+<tr><td>Beurer TL 50</td><td>Lampa do fototerapii</td><td>Nie dotyczy</td><td>10 000 lux z 15 cm</td><td>Nie</td><td>Nie</td><td>Nie</td><td>Sesje światła zimą</td></tr>
+</tbody>
+</table>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Porównywanie luksów bez patrzenia na odległość.</strong> 2 000 lux z 15 cm i 300 lux z większej odległości to nie to samo. Opieraj się raczej na liczbie stopni jasności i jakości wschodu.</li>
+<li><strong>Kupowanie budzika świetlnego do fototerapii.</strong> Żaden budzik świetlny nie osiąga 10 000 lux z odległości czytania. Jeśli właśnie tego szukasz, potrzebna jest dedykowana lampa.</li>
+<li><strong>Wybór zbyt krótkiego wschodu.</strong> Poniżej 20 minut efekt „wschodu słońca” jest słabo odczuwalny.</li>
+<li><strong>Ustawienie urządzenia zbyt daleko.</strong> Światło powinno docierać do Twojej twarzy: postaw je na szafce nocnej, około 40–50 cm od głowy, skierowane w Twoją stronę.</li>
+<li><strong>Sprowadzanie modelu nieprzewidzianego dla Europy.</strong> Urządzenie sprzedawane tylko w Stanach Zjednoczonych może wymagać adaptera i nie mieć europejskiej gwarancji.</li>
+<li><strong>Pomijanie jasności ekranu.</strong> Zbyt jaskrawy wyświetlacz może utrudniać zasypianie: sprawdź, czy da się go ściemnić lub wyłączyć.</li>
+</ul>
+
+<h2>Jak dobrze używać budzika świetlnego i lampy do fototerapii</h2>
+<p>Żeby skorzystać ze wschodu, sypialnia musi być dość ciemna: przy zaciemniających roletach lub zasłonach budzik świetlny zastępuje światło dzienne. Zacznij od wschodu 30-minutowego i średniej intensywności, a potem dostosuj ustawienia w ciągu tygodnia lub dwóch. Przez pierwsze dni zostaw dla pewności alarm dźwiękowy, dopóki nie sprawdzisz, czy samo światło wystarcza do obudzenia.</p>
+<p>W przypadku lampy do fototerapii przestrzegaj odległości i czasu podanych w instrukcji, używaj jej raczej rano i unikaj patrzenia bezpośrednio w źródło światła. Przed użyciem skonsultuj się z lekarzem lub okulistą w razie choroby oczu, leczenia fotouczulającego lub zaburzeń nastroju. Dla przyjemnej sypialni po przebudzeniu pomyśl też o powietrzu, którym oddychasz: nasz poradnik o <a href="/pl/blog/qualite-air-interieur-capteurs">czujnikach jakości powietrza w pomieszczeniach</a> pomaga monitorować CO2 i wilgotność, a <a href="/pl/blog/eclairage-connecte-comparatif">porównanie inteligentnego oświetlenia</a> opisuje żarówki zdolne symulować wschód słońca.</p>
+
+<h2>Podsumowanie</h2>
+<p><strong>Philips SmartSleep HF3650</strong> pozostaje najbardziej zrównoważonym budzikiem świetlnym: kolorowy wschód wysokiej jakości, zachód słońca, RelaxBreathe i wiele dźwięków. <strong>Philips HF3520</strong> daje to, co najważniejsze, przy skromniejszym budżecie. <strong>Lumie Bodyclock Shine 300</strong> sprawdzi się u osób trudno się budzących dzięki wschodowi do 90 minut, a <strong>Beurer WL 75</strong> zachwyci miłośników aplikacji. Jeśli natomiast szukasz prawdziwej sesji światła zimą, połącz budzik z lampą do fototerapii, taką jak <strong>Beurer TL 50</strong>, i skonsultuj się z lekarzem w razie utrzymującego się spadku nastroju.</p>`,
   },
   faq: [
     {
@@ -533,6 +616,7 @@ export const article: BlogArticle = {
         es: `¿Puede un despertador de luz sustituir a una lámpara de luminoterapia?`,
         it: `Una sveglia luminosa può sostituire una lampada per luminoterapia?`,
         nl: `Kan een wake-up light een lichttherapielamp vervangen?`,
+        pl: `Czy budzik świetlny zastępuje lampę do fototerapii?`,
       },
       answer: {
         fr: `Non. Un réveil lumière plafonne à quelques centaines de lux pour réveiller en douceur, alors qu'une lampe de luminothérapie délivre environ 10 000 lux à courte distance, lors d'une séance assise. Les deux sont complémentaires : l'un pour le réveil, l'autre pour une séance de lumière dans la matinée.`,
@@ -541,6 +625,7 @@ export const article: BlogArticle = {
         es: `No. Un despertador de luz se queda en unos cientos de lux para despertar con suavidad, mientras que una lámpara de luminoterapia ofrece unos 10.000 lux a corta distancia, en una sesión sentado. Son complementarios: uno para despertar y la otra para una sesión de luz por la mañana.`,
         it: `No. Una sveglia luminosa arriva a qualche centinaio di lux per svegliare con dolcezza, mentre una lampada per luminoterapia fornisce circa 10.000 lux a breve distanza, durante una seduta da seduti. Sono complementari: una per il risveglio, l'altra per una seduta di luce al mattino.`,
         nl: `Nee. Een wake-up light haalt enkele honderden lux om u zacht te wekken, terwijl een lichttherapielamp zo'n 10.000 lux op korte afstand geeft tijdens een zittende sessie. Ze vullen elkaar aan: het ene voor het ontwaken, het andere voor een lichtsessie later in de ochtend.`,
+        pl: `Nie. Budzik świetlny osiąga kilkaset luksów, by łagodnie budzić, natomiast lampa do fototerapii daje około 10 000 lux z niewielkiej odległości podczas sesji w pozycji siedzącej. Oba urządzenia się uzupełniają: jedno do budzenia, drugie do sesji światła w ciągu przedpołudnia.`,
       },
     },
     {
@@ -551,6 +636,7 @@ export const article: BlogArticle = {
         es: `¿Qué duración de amanecer elegir?`,
         it: `Quanto deve durare l'alba?`,
         nl: `Hoe lang moet de zonsopgang duren?`,
+        pl: `Jaki czas wschodu wybrać?`,
       },
       answer: {
         fr: `Une aube de 20 à 40 minutes convient à la plupart des gens ; 30 minutes est un bon point de départ. Si vous avez du mal à émerger, un modèle comme le Lumie Bodyclock Shine 300 permet d'aller jusqu'à 90 minutes.`,
@@ -559,6 +645,7 @@ export const article: BlogArticle = {
         es: `Un amanecer de 20 a 40 minutos conviene a la mayoría; 30 minutos es un buen punto de partida. Si le cuesta despertarse, un modelo como el Lumie Bodyclock Shine 300 permite llegar a 90 minutos.`,
         it: `Un'alba di 20-40 minuti va bene per la maggior parte delle persone; 30 minuti sono un buon punto di partenza. Se fate fatica a svegliarvi, un modello come la Lumie Bodyclock Shine 300 arriva fino a 90 minuti.`,
         nl: `Een zonsopgang van 20 tot 40 minuten past bij de meeste mensen; 30 minuten is een goed startpunt. Wordt u moeilijk wakker, dan kunt u met een model als de Lumie Bodyclock Shine 300 tot 90 minuten instellen.`,
+        pl: `Wschód trwający 20–40 minut odpowiada większości osób; 30 minut to dobry punkt wyjścia. Jeśli trudno Ci się wybudzić, model taki jak Lumie Bodyclock Shine 300 pozwala sięgnąć nawet 90 minut.`,
       },
     },
     {
@@ -569,6 +656,7 @@ export const article: BlogArticle = {
         es: `¿Basta un despertador de luz para alguien de sueño profundo?`,
         it: `Una sveglia luminosa basta per chi ha il sonno pesante?`,
         nl: `Is een wake-up light genoeg voor een diepe slaper?`,
+        pl: `Czy budzik świetlny wystarczy, żeby obudzić osobę o twardym śnie?`,
       },
       answer: {
         fr: `Pas toujours. C'est pourquoi tous les modèles de ce comparatif associent la lumière à un son ou à la radio en fin d'aube. Gardez une alarme sonore les premiers jours, puis ajustez l'intensité et la durée de l'aube.`,
@@ -577,6 +665,7 @@ export const article: BlogArticle = {
         es: `No siempre. Por eso todos los modelos de esta comparativa combinan la luz con un sonido o la radio al final del amanecer. Mantenga una alarma sonora los primeros días y después ajuste la intensidad y la duración.`,
         it: `Non sempre. Per questo tutti i modelli di questo confronto abbinano la luce a un suono o alla radio alla fine dell'alba. Tenete una sveglia sonora nei primi giorni, poi regolate intensità e durata dell'alba.`,
         nl: `Niet altijd. Daarom combineren alle modellen in deze vergelijking het licht aan het einde van de zonsopgang met een geluid of de radio. Houd de eerste dagen een hoorbaar alarm aan en stel daarna helderheid en duur bij.`,
+        pl: `Nie zawsze. Dlatego wszystkie modele z tego porównania łączą światło z dźwiękiem lub radiem na końcu wschodu. Przez pierwsze dni zostaw alarm dźwiękowy, a potem dostosuj intensywność i czas wschodu.`,
       },
     },
     {
@@ -587,6 +676,7 @@ export const article: BlogArticle = {
         es: `¿Existe un despertador de luz con app?`,
         it: `Esiste una sveglia luminosa con app?`,
         nl: `Bestaat er een wake-up light met app?`,
+        pl: `Czy istnieje budzik świetlny z aplikacją?`,
       },
       answer: {
         fr: `Oui : le Beurer WL 75 se pilote via l'application gratuite beurer LightUp en Bluetooth (alarmes, luminosité, couleurs, sons). Les Philips HF3650 et HF3520 ainsi que le Lumie Shine 300 se règlent uniquement par boutons.`,
@@ -595,6 +685,7 @@ export const article: BlogArticle = {
         es: `Sí: el Beurer WL 75 se controla con la app gratuita beurer LightUp por Bluetooth (alarmas, brillo, colores, sonidos). Los Philips HF3650 y HF3520 y el Lumie Shine 300 se configuran solo con botones.`,
         it: `Sì: la Beurer WL 75 si controlla con l'app gratuita beurer LightUp via Bluetooth (sveglie, luminosità, colori, suoni). Le Philips HF3650 e HF3520 e la Lumie Shine 300 si regolano solo con i tasti.`,
         nl: `Ja: de Beurer WL 75 bedient u via de gratis app beurer LightUp over Bluetooth (alarmen, helderheid, kleuren, geluiden). De Philips HF3650 en HF3520 en de Lumie Shine 300 stelt u alleen met knoppen in.`,
+        pl: `Tak: Beurer WL 75 steruje się przez bezpłatną aplikację beurer LightUp w Bluetooth (alarmy, jasność, kolory, dźwięki). Philips HF3650 i HF3520 oraz Lumie Shine 300 ustawia się wyłącznie przyciskami.`,
       },
     },
     {
@@ -605,6 +696,7 @@ export const article: BlogArticle = {
         es: `¿Cómo se usa una lámpara de luminoterapia de 10.000 lux?`,
         it: `Come si usa una lampada per luminoterapia da 10.000 lux?`,
         nl: `Hoe gebruikt u een lichttherapielamp van 10.000 lux?`,
+        pl: `Jak używać lampy do fototerapii 10 000 lux?`,
       },
       answer: {
         fr: `Installez-vous à la distance indiquée par le fabricant (environ 15 cm pour la Beurer TL 50 à 10 000 lux), plutôt le matin, sans fixer la lumière, pour la durée recommandée dans la notice. En cas de maladie des yeux, de traitement photosensibilisant ou de trouble de l'humeur, demandez d'abord l'avis d'un médecin.`,
@@ -613,6 +705,7 @@ export const article: BlogArticle = {
         es: `Siéntese a la distancia indicada por el fabricante (unos 15 cm para 10.000 lux en la Beurer TL 50), preferentemente por la mañana, sin mirar fijamente la luz y durante el tiempo recomendado en el manual. Si tiene una enfermedad ocular, toma medicación fotosensibilizante o padece un trastorno del ánimo, consulte antes a un médico.`,
         it: `Sedetevi alla distanza indicata dal produttore (circa 15 cm per 10.000 lux con la Beurer TL 50), preferibilmente al mattino, senza fissare la luce e per la durata consigliata nel manuale. In caso di malattie degli occhi, farmaci fotosensibilizzanti o disturbi dell'umore, chiedete prima il parere di un medico.`,
         nl: `Ga op de door de fabrikant aangegeven afstand zitten (circa 15 cm voor 10.000 lux bij de Beurer TL 50), bij voorkeur 's ochtends, zonder recht in het licht te kijken, en houd de aanbevolen duur uit de handleiding aan. Hebt u een oogaandoening, gebruikt u lichtgevoelig makende medicijnen of hebt u een stemmingsstoornis, vraag dan eerst een arts om advies.`,
+        pl: `Usiądź w odległości wskazanej przez producenta (około 15 cm dla Beurer TL 50 przy 10 000 lux), najlepiej rano, nie patrząc bezpośrednio w światło, przez czas zalecany w instrukcji. W razie choroby oczu, leczenia fotouczulającego lub zaburzeń nastroju najpierw zasięgnij porady lekarza.`,
       },
     },
     {
@@ -623,6 +716,7 @@ export const article: BlogArticle = {
         es: `¿Está disponible el Hatch Restore en Europa?`,
         it: `La Hatch Restore è disponibile in Europa?`,
         nl: `Is de Hatch Restore verkrijgbaar in Europa?`,
+        pl: `Czy Hatch Restore jest dostępny w Europie?`,
       },
       answer: {
         fr: `Le Hatch Restore est conçu pour le marché américain et n'est pas distribué officiellement en Europe. L'importer peut nécessiter un adaptateur secteur et compliquer la garantie : mieux vaut choisir un modèle Philips, Lumie ou Beurer vendu en Europe.`,
@@ -631,6 +725,7 @@ export const article: BlogArticle = {
         es: `El Hatch Restore está pensado para el mercado estadounidense y no se distribuye oficialmente en Europa. Importarlo puede exigir un adaptador de enchufe y complicar la garantía, así que es más sensato elegir un Philips, Lumie o Beurer vendido en Europa.`,
         it: `La Hatch Restore è pensata per il mercato statunitense e non è distribuita ufficialmente in Europa. Importarla può richiedere un adattatore e complicare la garanzia: meglio scegliere un modello Philips, Lumie o Beurer venduto in Europa.`,
         nl: `De Hatch Restore is bedoeld voor de Amerikaanse markt en wordt in Europa niet officieel verkocht. Importeren kan een stekkeradapter vereisen en de garantie bemoeilijken; een Philips-, Lumie- of Beurer-model dat in Europa wordt verkocht, is de veiligere keuze.`,
+        pl: `Hatch Restore jest przeznaczony na rynek amerykański i nie jest oficjalnie dystrybuowany w Europie. Sprowadzenie go może wymagać adaptera sieciowego i utrudnić gwarancję: lepiej wybrać model Philips, Lumie lub Beurer sprzedawany w Europie.`,
       },
     },
   ],

@@ -80,6 +80,15 @@ const uiStrings: Record<Lang, IndexUi> = {
     metaDescription: (n) =>
       `${n} veelvoorkomende storingen van slimme apparaten (airfryers, robotstofzuigers, camera's, thermostaten…): diagnose en aanbevolen procedure, per apparaat.`,
   },
+  pl: {
+    home: 'Strona główna',
+    troubleshooting: 'Rozwiązywanie problemów',
+    title: 'Awarie urządzeń inteligentnego domu',
+    subtitle: (n) => `Częste awarie pogrupowane według urządzenia (${n}): diagnoza i zalecana procedura.`,
+    metaTitle: 'Awarie inteligentnego domu i ich rozwiązania | Home Nura',
+    metaDescription: (n) =>
+      `Częste awarie urządzeń smart (frytkownice beztłuszczowe, roboty sprzątające, kamery, termostaty…): diagnoza i procedura, urządzenie po urządzeniu. Opisanych awarii: ${n}.`,
+  },
 }
 
 export async function generateStaticParams() {

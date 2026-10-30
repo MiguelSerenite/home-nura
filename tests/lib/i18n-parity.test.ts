@@ -23,6 +23,7 @@ import dictDe from '../../dictionaries/de.json'
 import dictEs from '../../dictionaries/es.json'
 import dictIt from '../../dictionaries/it.json'
 import dictNl from '../../dictionaries/nl.json'
+import dictPl from '../../dictionaries/pl.json'
 
 type Dict = Record<string, unknown>
 
@@ -33,6 +34,7 @@ const dictionaries: Record<Lang, Dict> = {
   es: dictEs,
   it: dictIt,
   nl: dictNl,
+  pl: dictPl,
 }
 
 /**
@@ -133,7 +135,7 @@ describe('staticProducts locale parity', () => {
     expect(staticProducts.length).toBeGreaterThan(0)
   })
 
-  it('every product has all 6 locales for every Record<string, ...> field', () => {
+  it('every product has every locale for every Record<string, ...> field', () => {
     for (const product of staticProducts) {
       const label = `product ${product.asin}`
 
@@ -195,7 +197,7 @@ describe('blog article content parity', () => {
   // Complements tests/lib/blog.test.ts which already covers title + excerpt.
   // This one specifically enforces the body content field, which is the
   // largest source of locale drift risk for a multilingual affiliate site.
-  it('every article has non-empty content for all 6 locales', () => {
+  it('every article has non-empty content for every locale', () => {
     for (const article of getAllArticles()) {
       for (const lang of LANGUAGES) {
         const body = article.content[lang]

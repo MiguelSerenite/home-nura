@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Camino de jardín iluminado de noche, bordeado de hortensias y farolas',
         it: 'Vialetto del giardino illuminato di notte, tra ortensie e lampioni',
         nl: 'Tuinpad dat \'s nachts verlicht is, omzoomd door hortensia\'s en lantaarns',
+        pl: 'Alejka ogrodowa oświetlona nocą, obsadzona hortensjami i lampami ogrodowymi',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Iluminación exterior solar inteligente 2026: cómo elegir bien',
     it: 'Illuminazione esterna solare smart 2026: come scegliere bene',
     nl: 'Slimme buitenverlichting op zonne-energie 2026: zo kies je goed',
+    pl: 'Oświetlenie zewnętrzne solarne i inteligentne 2026: poradnik wyboru',
   },
   excerpt: {
     fr: 'Solaire autonome ou basse tension connectée ? Comment choisir son éclairage extérieur en 2026, avec eufy S120, Govee, Philips Hue Lily et Calla, et Steinel XSolar comparés sur l\'usage, la puissance et la connectivité.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: '¿Solar autónoma o baja tensión conectada? Cómo elegir la iluminación exterior en 2026, con eufy S120, Govee, Philips Hue Lily y Calla, y Steinel XSolar comparados por uso, potencia y conectividad.',
     it: 'Solare autonoma o bassa tensione connessa? Come scegliere l\'illuminazione esterna nel 2026, con eufy S120, Govee, Philips Hue Lily e Calla e Steinel XSolar a confronto per uso, potenza e connettività.',
     nl: 'Autonome zonne-energie of verbonden laagspanning? Zo kies je in 2026 je buitenverlichting, met de eufy S120, Govee, Philips Hue Lily en Calla en Steinel XSolar vergeleken op gebruik, lichtsterkte en connectiviteit.',
+    pl: 'Solarne autonomiczne czy niskonapięciowe z aplikacją? Jak wybrać oświetlenie zewnętrzne w 2026 roku. Porównanie eufy S120, Govee, Philips Hue Lily i Calla oraz Steinel XSolar pod kątem zastosowania, mocy i łączności.',
   },
   content: {
     fr: `<p><strong>Pour un éclairage extérieur à la fois solaire et connecté, le meilleur compromis en 2026 est une applique solaire avec caméra comme l'eufy Solar Wall Light Cam S120 pour la sécurité, complétée par une guirlande solaire pilotable comme la Govee Outdoor Solar String Lights pour l'ambiance.</strong> Si vous voulez une lumière puissante, colorée et programmable au quotidien, un système basse tension connecté comme Philips Hue Lily reste la référence, mais il demande une prise et un câble.</p>
@@ -613,6 +616,101 @@ export const article: BlogArticle = {
 </tbody>
 </table>
 <p>Kortom: zonne-energie is onverslaanbaar om snel en zonder verbouwing een voordeur, schuur of terras uit te rusten. Zodra je krachtig en constant licht wilt in elk seizoen, past een bekabeld slim systeem beter. Veel tuinen hebben er baat bij om beide te combineren.</p>`,
+    pl: `<p><strong>Jeśli szukasz oświetlenia zewnętrznego, które jest jednocześnie solarne i inteligentne, najlepszym kompromisem w 2026 roku jest kinkiet solarny z kamerą, taki jak eufy Solar Wall Light Cam S120, do zabezpieczenia posesji, uzupełniony sterowaną girlandą solarną, taką jak Govee Outdoor Solar String Lights, dla nastroju.</strong> Jeśli zależy Ci na mocnym, kolorowym świetle programowanym na co dzień, wzorcem pozostaje inteligentny system niskonapięciowy, taki jak Philips Hue Lily, ale wymaga on gniazdka i przewodu.</p>
+<p>Ten poradnik porównuje dwie duże rodziny, solarne autonomiczne i przewodowe z aplikacją, na podstawie kart katalogowych producentów, opublikowanych niezależnych testów i zweryfikowanych opinii kupujących. Aby zobaczyć całość inteligentnego ogrodu, zajrzyj też do naszego <a href="/pl/blog/guide-jardin-connecte-2026">poradnika o inteligentnym ogrodzie 2026</a>, a cały wybór znajdziesz w kategorii <a href="/pl/outdoor-connecte/eclairage-exterieur">inteligentne oświetlenie zewnętrzne</a>.</p>
+
+<h2>Solarne czy przewodowe z aplikacją: właściwe pytanie</h2>
+<p>Lampa solarna gromadzi w akumulatorze energię zebraną w ciągu dnia i oddaje ją nocą. Montuje się ją w kilka minut, bez kopania rowów i bez elektryka, a nie obciąża rachunku za prąd. W zamian jej moc jest ograniczona wielkością panelu i akumulatora, a czas pracy wyraźnie spada zimą, gdy dni się skracają, a słońce stoi nisko.</p>
+<p>Przewodowe oświetlenie z aplikacją, na 230 V lub niskim napięciu 24 V, daje stałe światło przez cały rok, większą moc, miliony kolorów i rozbudowaną integrację z Alexą, Google Home, Apple Home czy Home Assistant. Wymaga jednak zewnętrznego zasilania elektrycznego, a w niektórych przypadkach pracy elektryka.</p>
+<table>
+<thead>
+<tr><th>Kryterium</th><th>Solarne autonomiczne</th><th>Przewodowe z aplikacją (24 V lub 230 V)</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Montaż</strong></td><td>Bez kabli, w kilka minut</td><td>Gniazdko zewnętrzne, przewód, czasem elektryk</td></tr>
+<tr><td><strong>Zużycie energii</strong></td><td>Brak poboru z sieci</td><td>Niskie przy diodach LED</td></tr>
+<tr><td><strong>Moc świetlna</strong></td><td>Skromna do średniej</td><td>Średnia do wysokiej</td></tr>
+<tr><td><strong>Niezawodność zimą</strong></td><td>Ograniczona</td><td>Stała</td></tr>
+<tr><td><strong>Łączność</strong></td><td>Rzadka (Bluetooth lub Wi-Fi w niektórych modelach)</td><td>Zigbee, Wi-Fi, Bluetooth, Matter zależnie od marki</td></tr>
+<tr><td><strong>Kolory</strong></td><td>Często tylko ciepła biel</td><td>Regulowana biel i kolory</td></tr>
+</tbody>
+</table>
+
+<h2>Kryteria dobrego wyboru</h2>
+<h3>Zastosowanie: bezpieczeństwo, oznaczenie ścieżek lub nastrój</h3>
+<p>Zacznij od zastosowania. Dla <strong>bezpieczeństwa</strong> potrzebny jest czujnik ruchu i białe światło, które włącza się wyraźnie, najlepiej z powiadomieniem na telefonie. Do <strong>oznaczenia</strong> alejki lub schodów wystarczy słabe, ale równe światło. Dla <strong>nastroju</strong> na tarasie szuka się kolorów, scen i programowania na zachód słońca.</p>
+<h3>Jasność w lumenach</h3>
+<p>Kilkadziesiąt lumenów wystarcza do oznaczenia ścieżki. Kinkiet przy wejściu to zwykle 150–300 lumenów. Reflektor oświetlający drzewo lub elewację zyskuje, gdy przekracza 500 lumenów. Uważaj na bardzo wysokie wartości podawane przez niektóre budżetowe projektory solarne: niezależne testy często wykazują dużą różnicę między obietnicą a rzeczywistością.</p>
+<h3>Stopień ochrony IP</h3>
+<p>Stopień IP określa odporność na kurz i wodę. IP44 chroni przed rozpryskami wody i nadaje się na osłoniętą ścianę. IP65 wytrzymuje strumień wody i nadaje się do bezpośredniego deszczu. IP67 znosi chwilowe zanurzenie, co przydaje się w oprawie ustawionej na ziemi w miejscu, które może zostać zalane.</p>
+<h3>Łączność i ekosystem</h3>
+<p>Model z Bluetooth steruje się z telefonu, gdy jesteś w pobliżu. Model z Wi-Fi jest dostępny zdalnie i wysyła alerty. System Zigbee, taki jak Philips Hue, działa przez mostek, ale jest bardzo stabilny i współpracuje z niemal wszystkimi platformami inteligentnego domu. Jeśli masz już w domu żarówki Hue, pozostanie w tym samym ekosystemie ułatwia życie.</p>
+<h3>Akumulator i panel solarny</h3>
+<p>W lampie solarnej jakość akumulatora liczy się bardziej niż liczba diod LED. Akumulatory litowo-żelazowo-fosforanowe (LiFePO4) lepiej znoszą zimno i wielokrotne cykle ładowania. Oddzielny panel, połączony kablem, pozwala umieścić lampę w cieniu, a panel w pełnym słońcu: to realna zaleta na północnej ścianie.</p>
+
+<h2>Modele, które warto znać w 2026 roku</h2>
+<h3>eufy Solar Wall Light Cam S120: solarne zabezpieczenie z aplikacją</h3>
+<p>eufy S120 łączy kinkiet ścienny 300 lumenów, kamerę 2K z kolorowym widzeniem nocnym, podczerwony czujnik ruchu i syrenę, a całość zasila wbudowany panel solarny i akumulator 5 200 mAh. Łączy się przez Wi-Fi 2,4 GHz, wysyła powiadomienia na smartfon i działa z Alexą oraz Asystentem Google. Ma certyfikat IP65.</p>
+<p><strong>Mocne strony:</strong> brak kabli do układania, oświetlenie i kamera w jednym urządzeniu, kompletna aplikacja eufy Security. <strong>Ograniczenia:</strong> jasność wystarczająca przy wejściu, ale nie do oświetlenia dużego ogrodu, a ładowanie mocno zależy od nasłonecznienia. <strong>Dla kogo:</strong> dla tych, którzy chcą zabezpieczyć drzwi, wiatę lub alejkę bez prac instalacyjnych.</p>
+
+<h3>Govee Outdoor Solar String Lights: sterowany nastrój solarny</h3>
+<p>Ta solarna girlanda o długości 10 metrów ma 8 żarówek RGBICW, które potrafią wyświetlać kilka kolorów jednocześnie, od ciepłej do zimnej bieli. Steruje się nią przez Bluetooth z aplikacji Govee Home: gotowe sceny, synchronizacja z muzyką, programowanie i poziom naładowania akumulatora. Panel solarny jest oddzielny, a żarówki mają certyfikat IP67.</p>
+<p><strong>Mocne strony:</strong> rzadka girlanda solarna, którą naprawdę można sterować, dopracowane efekty kolorystyczne, natychmiastowy montaż na pergoli lub ogrodzeniu. <strong>Ograniczenia:</strong> Bluetooth wymaga bycia w pobliżu, a światło ma charakter dekoracyjny. <strong>Dla kogo:</strong> taras lub balkon bez gniazdka zewnętrznego.</p>
+
+<h3>Philips Hue Lily Outdoor Spot (zestaw podstawowy): przewodowy wzorzec premium</h3>
+<p>Podstawowy zestaw Hue Lily zawiera trzy reflektory po 600 lumenów każdy, z regulowaną bielą od 2 000 do 6 500 K i 16 milionami kolorów, wraz z zasilaczem 24 V. Reflektory mają certyfikat IP65 i można je wbić w trawnik lub przymocować do ściany. Pełne sterowanie odbywa się przez mostek Hue, zgodny z Alexą, Google Home, Apple Home i Home Assistant. Do drzewa lub elewacji wersja Lily XL osiąga 1 050 lumenów.</p>
+<p><strong>Mocne strony:</strong> ceniona jakość światła, automatyzacje na zachód słońca, bardzo szeroki i bardzo stabilny ekosystem. <strong>Ograniczenia:</strong> wymaga gniazdka zewnętrznego i mostka Hue, a budżet jest wyraźnie wyższy niż w przypadku lamp solarnych. <strong>Dla kogo:</strong> dla tych, którzy mają już Hue w domu lub chcą trwałego oświetlenia aranżacyjnego ogrodu.</p>
+
+<h3>Philips Hue Calla Outdoor Pedestal: inteligentne oznaczenie ścieżek</h3>
+<p>Mały słupek Calla podłącza się do tego samego systemu niskonapięciowego 24 V co reflektory Lily. Rozprasza białe lub kolorowe światło w stronę ziemi, idealne do oznaczenia alejki lub okolic tarasu, i korzysta z tych samych scen i automatyzacji co reszta instalacji Hue. Ma certyfikat IP65.</p>
+<p><strong>Mocne strony:</strong> spójność estetyczna z Lily, centralne sterowanie. <strong>Ograniczenia:</strong> zależy od zestawu zasilającego Hue i dostępnej długości przewodu. <strong>Dla kogo:</strong> do uzupełnienia instalacji Lily wzdłuż ścieżki.</p>
+
+<h3>Steinel XSolar L-S ONE: solar bez aplikacji, ale niezawodny</h3>
+<p>Niemiecki producent Steinel proponuje w modelu XSolar L-S ONE kinkiet solarny 150 lumenów w ciepłej bieli (3 000 K), z czujnikiem podczerwieni o kącie 140° i zasięgu 8 metrów. Jego monokrystaliczny panel jest oddzielony od lampy, a akumulator litowo-żelazowo-fosforanowy jest zaprojektowany tak, by wytrzymywał niskie temperatury. Funkcja światła nastrojowego pozwala na słabe oświetlenie na początku i na końcu nocy. Ma certyfikat IP44.</p>
+<p><strong>Mocne strony:</strong> staranne wykonanie, wyniesiony panel, wytrzymały akumulator. <strong>Ograniczenia:</strong> brak łączności i moc dopasowana raczej do wejścia niż do dużej przestrzeni. <strong>Dla kogo:</strong> dla tych, którzy chcą automatycznego oświetlenia bez aplikacji i bez zakładania konta.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Typ</th><th>Zasilanie</th><th>Jasność</th><th>Łączność</th><th>Detekcja</th><th>IP</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>eufy Solar Wall Light Cam S120</strong></td><td>Kinkiet + kamera</td><td>Solar + akumulator</td><td>300 lm</td><td>Wi-Fi 2,4 GHz</td><td>Tak (podczerwień)</td><td>IP65</td><td>Zabezpieczenie wejścia</td></tr>
+<tr><td><strong>Govee Outdoor Solar String Lights</strong></td><td>Girlanda 10 m</td><td>Solar + akumulator</td><td>Dekoracyjna</td><td>Bluetooth</td><td>Nie</td><td>IP67 (żarówki)</td><td>Nastrój na tarasie</td></tr>
+<tr><td><strong>Philips Hue Lily (zestaw podstawowy)</strong></td><td>3 reflektory</td><td>24 V</td><td>600 lm na reflektor</td><td>Zigbee (mostek Hue)</td><td>Przez czujnik Hue</td><td>IP65</td><td>Aranżacja oświetlenia ogrodu</td></tr>
+<tr><td><strong>Philips Hue Calla Outdoor Pedestal</strong></td><td>Słupek</td><td>24 V</td><td>Oznaczenie ścieżek</td><td>Zigbee (mostek Hue)</td><td>Przez czujnik Hue</td><td>IP65</td><td>Inteligentne alejki</td></tr>
+<tr><td><strong>Steinel XSolar L-S ONE</strong></td><td>Kinkiet</td><td>Solar + akumulator</td><td>150 lm</td><td>Brak</td><td>Tak (140°, 8 m)</td><td>IP44</td><td>Wejście bez aplikacji</td></tr>
+</tbody>
+</table>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Umieszczenie panelu w cieniu:</strong> drzewo, okap lub północna ściana wystarczą, by znacząco skrócić czas pracy. Wybierz model z wyniesionym panelem, jeśli lampa musi zostać w cieniu.</li>
+<li><strong>Wiara w lumeny podawane przez projektory solarne bez znanej marki:</strong> rzeczywiste wartości są często znacznie niższe. Opinie kupujących i niezależne testy są bardziej wiarygodne niż karta produktu.</li>
+<li><strong>Zapominanie o zimie:</strong> oświetlenie solarne wystarcza na letni nastrój, ale wejście musi być oświetlone przez cały rok. W miejscu krytycznym przewidź dodatkowo rozwiązanie przewodowe.</li>
+<li><strong>Wybór Bluetooth do obsługi zdalnej:</strong> jeśli chcesz włączać światło w ogrodzie z biura lub otrzymywać alerty, potrzebne jest Wi-Fi lub mostek.</li>
+<li><strong>Kierowanie światła na sąsiadów lub ulicę:</strong> światło skierowane w dół, w ciepłej bieli, oświetla lepiej, mniej przeszkadza i mniej zakłóca życie nocnej fauny.</li>
+</ul>
+
+<h2>Montaż i bezpieczeństwo</h2>
+<p>Lampy solarne montuje się samodzielnie: dwie śruby dla kinkietu, jeden kołek dla słupka. Czyść panel kilka razy w roku, bo kurz i pyłki zmniejszają ładowanie. Akumulatory tracą nieco pojemności podczas dużych mrozów i odzyskują ją po ociepleniu.</p>
+<p>Systemy niskonapięciowe, takie jak Hue Lily, podłącza się do chronionego gniazdka zewnętrznego. Przewód 24 V można ułożyć płytko w ziemi lub ukryć wzdłuż obrzeży, zachowując maksymalną długość podaną przez producenta. Wykonanie gniazdka zewnętrznego i każde podłączenie do 230 V powinien zlecić wykwalifikowany elektryk, zgodnie z obowiązującymi normami elektrycznymi i z odpowiednim zabezpieczeniem różnicowoprądowym.</p>
+<p>Jeśli łączysz oświetlenie z monitoringiem, pamiętaj, by kierować kamery wyłącznie na swoją posesję. Aby dowiedzieć się więcej na ten temat, przeczytaj nasze <a href="/pl/blog/comparatif-camera-surveillance-exterieure">porównanie kamer monitoringu zewnętrznego</a>.</p>
+
+<h2>Podsumowanie</h2>
+<table>
+<thead>
+<tr><th>Potrzeba</th><th>Nasz wybór</th><th>Dlaczego</th></tr>
+</thead>
+<tbody>
+<tr><td>Solarne zabezpieczenie z aplikacją</td><td><strong>eufy Solar Wall Light Cam S120</strong></td><td>Światło, kamera 2K i alerty Wi-Fi bez żadnego kabla</td></tr>
+<tr><td>Sterowany nastrój solarny</td><td><strong>Govee Outdoor Solar String Lights</strong></td><td>Kolory, sceny i programowanie bez gniazdka</td></tr>
+<tr><td>Oświetlenie aranżacyjne premium</td><td><strong>Philips Hue Lily (zestaw podstawowy)</strong></td><td>Jakość światła, kolory i bardzo kompletny ekosystem</td></tr>
+<tr><td>Inteligentne oznaczenie ścieżek</td><td><strong>Philips Hue Calla Outdoor Pedestal</strong></td><td>Wpisuje się w istniejącą instalację Lily</td></tr>
+<tr><td>Proste solarne, bez aplikacji</td><td><strong>Steinel XSolar L-S ONE</strong></td><td>Wyniesiony panel, wytrzymały akumulator, niezawodna detekcja</td></tr>
+</tbody>
+</table>
+<p>Podsumowując, rozwiązania solarne nie mają sobie równych, gdy trzeba szybko i bez prac instalacyjnych doświetlić wejście, wiatę lub taras. Gdy chcesz mocnego i stałego światła o każdej porze roku, lepiej sprawdzi się system przewodowy z aplikacją. Wiele ogrodów zyskuje na połączeniu obu rozwiązań.</p>`,
   },
   faq: [
     {
@@ -623,6 +721,7 @@ export const article: BlogArticle = {
         es: '¿Funciona la iluminación solar exterior en invierno?',
         it: 'L\'illuminazione solare esterna funziona in inverno?',
         nl: 'Werkt buitenverlichting op zonne-energie in de winter?',
+        pl: 'Czy zewnętrzne oświetlenie solarne działa zimą?',
       },
       answer: {
         fr: 'Oui, mais avec une autonomie nettement plus courte, car les journées sont brèves et le soleil reste bas. Installez le panneau en plein sud, sans ombre, et choisissez si possible un modèle à panneau déporté et batterie LiFePO4, plus tolérante au froid. Pour une entrée qui doit rester éclairée toute l\'année, prévoyez une solution filaire en complément.',
@@ -631,6 +730,7 @@ export const article: BlogArticle = {
         es: 'Sí, pero con una autonomía claramente menor, porque los días son cortos y el sol está bajo. Orienta el panel al sur, sin sombras, y si puedes elige un modelo con panel separado y batería LiFePO4, que tolera mejor el frío. Para una entrada que debe estar iluminada todo el año, añade una solución cableada.',
         it: 'Sì, ma con un\'autonomia sensibilmente più breve, perché le giornate sono corte e il sole è basso. Orientate il pannello a sud, senza ombre, e se possibile scegliete un modello con pannello separato e batteria LiFePO4, più resistente al freddo. Per un ingresso che deve restare illuminato tutto l\'anno, aggiungete una soluzione cablata.',
         nl: 'Ja, maar met een duidelijk kortere brandduur, omdat de dagen kort zijn en de zon laag staat. Richt het paneel schaduwvrij op het zuiden en kies zo mogelijk een model met los paneel en LiFePO4-accu, die beter tegen kou kan. Voor een voordeur die het hele jaar verlicht moet zijn, voeg je een bekabelde oplossing toe.',
+        pl: 'Tak, ale z wyraźnie krótszym czasem pracy, ponieważ dni są krótkie, a słońce stoi nisko. Zamontuj panel od południa, bez cienia, i w miarę możliwości wybierz model z wyniesionym panelem i akumulatorem LiFePO4, który lepiej znosi zimno. Jeśli wejście ma być oświetlone przez cały rok, przewidź dodatkowo rozwiązanie przewodowe.',
       },
     },
     {
@@ -641,6 +741,7 @@ export const article: BlogArticle = {
         es: '¿Existen luces solares realmente inteligentes?',
         it: 'Esistono luci solari davvero smart?',
         nl: 'Bestaan er solarlampen die echt slim zijn?',
+        pl: 'Czy istnieją naprawdę inteligentne lampy solarne?',
       },
       answer: {
         fr: 'Oui, mais elles restent rares. L\'eufy Solar Wall Light Cam S120 se connecte en Wi-Fi et envoie des alertes, tandis que la guirlande Govee Outdoor Solar String Lights se pilote en Bluetooth depuis l\'application. La plupart des lampes solaires, y compris les bons modèles comme la Steinel XSolar L-S ONE, fonctionnent seules, avec un capteur crépusculaire et un détecteur de mouvement.',
@@ -649,6 +750,7 @@ export const article: BlogArticle = {
         es: 'Sí, aunque siguen siendo poco habituales. La eufy Solar Wall Light Cam S120 se conecta por wifi y envía alertas, y la guirnalda Govee Outdoor Solar String Lights se controla por Bluetooth desde la app. La mayoría de las luces solares, incluidas buenas opciones como la Steinel XSolar L-S ONE, funcionan solas con sensor crepuscular y detector de movimiento.',
         it: 'Sì, ma sono ancora rare. La eufy Solar Wall Light Cam S120 si collega al Wi-Fi e invia avvisi, mentre le Govee Outdoor Solar String Lights si controllano via Bluetooth dall\'app. La maggior parte delle luci solari, comprese quelle valide come la Steinel XSolar L-S ONE, funziona in autonomia con sensore crepuscolare e rilevatore di movimento.',
         nl: 'Ja, maar ze zijn nog zeldzaam. De eufy Solar Wall Light Cam S120 maakt verbinding via wifi en stuurt meldingen, terwijl je de Govee Outdoor Solar String Lights via Bluetooth in de app bedient. De meeste solarlampen, ook goede zoals de Steinel XSolar L-S ONE, werken zelfstandig met een schemersensor en bewegingsmelder.',
+        pl: 'Tak, ale są rzadkie. eufy Solar Wall Light Cam S120 łączy się przez Wi-Fi i wysyła alerty, a girlandą Govee Outdoor Solar String Lights steruje się przez Bluetooth z aplikacji. Większość lamp solarnych, także dobre modele, takie jak Steinel XSolar L-S ONE, działa samodzielnie, z czujnikiem zmierzchu i czujnikiem ruchu.',
       },
     },
     {
@@ -659,6 +761,7 @@ export const article: BlogArticle = {
         es: '¿Qué grado IP necesita una luz exterior?',
         it: 'Quale grado IP serve per una luce da esterno?',
         nl: 'Welke IP-waarde heeft buitenverlichting nodig?',
+        pl: 'Jaki stopień IP wybrać do oświetlenia zewnętrznego?',
       },
       answer: {
         fr: 'IP44 suffit pour une applique sous un avant-toit, protégée de la pluie directe. Pour un luminaire exposé aux intempéries ou planté dans le jardin, visez IP65. IP67 est utile pour les éclairages posés au sol dans une zone qui peut être inondée.',
@@ -667,6 +770,7 @@ export const article: BlogArticle = {
         es: 'IP44 basta para un aplique bajo un alero, protegido de la lluvia directa. Para una luz expuesta a la intemperie o clavada en el jardín, busca IP65. IP67 es útil para luces a ras de suelo en zonas que pueden encharcarse.',
         it: 'IP44 basta per un\'applique sotto una gronda, riparata dalla pioggia diretta. Per una luce esposta alle intemperie o piantata in giardino, puntate a IP65. IP67 è utile per le luci a terra in zone che possono allagarsi.',
         nl: 'IP44 volstaat voor een wandlamp onder een dakrand, beschut tegen directe regen. Voor verlichting die aan weer en wind is blootgesteld of in de tuin staat, kies je IP65. IP67 is handig voor grondspots op plekken die onder water kunnen lopen.',
+        pl: 'IP44 wystarcza dla kinkietu pod okapem, chronionego przed bezpośrednim deszczem. Dla oprawy narażonej na warunki atmosferyczne lub wbijanej w ogrodzie celuj w IP65. IP67 przydaje się w oświetleniu ustawionym na ziemi w miejscu, które może zostać zalane.',
       },
     },
     {
@@ -677,6 +781,7 @@ export const article: BlogArticle = {
         es: '¿Se puede controlar la iluminación exterior con Alexa o Google Home?',
         it: 'Si può controllare l\'illuminazione esterna con Alexa o Google Home?',
         nl: 'Kun je buitenverlichting bedienen met Alexa of Google Home?',
+        pl: 'Czy oświetleniem zewnętrznym można sterować przez Alexę lub Google Home?',
       },
       answer: {
         fr: 'Oui avec les modèles connectés. Philips Hue Lily et Calla fonctionnent avec Alexa, Google Home, Apple Home et Home Assistant via le pont Hue. L\'eufy S120 est compatible avec Alexa et Google Assistant. La guirlande Govee solaire se pilote en Bluetooth depuis son application, et les lampes solaires autonomes comme la Steinel XSolar L-S ONE ne se connectent pas.',
@@ -685,6 +790,7 @@ export const article: BlogArticle = {
         es: 'Sí, con los modelos conectados. Philips Hue Lily y Calla funcionan con Alexa, Google Home, Apple Home y Home Assistant a través del Hue Bridge. La eufy S120 es compatible con Alexa y Google Assistant. La guirnalda solar de Govee se controla por Bluetooth desde su app, y las luces solares autónomas como la Steinel XSolar L-S ONE no se conectan.',
         it: 'Sì, con i modelli connessi. Philips Hue Lily e Calla funzionano con Alexa, Google Home, Apple Home e Home Assistant tramite l\'Hue Bridge. La eufy S120 è compatibile con Alexa e Google Assistant. La catena solare Govee si controlla via Bluetooth dalla sua app, mentre le luci solari autonome come la Steinel XSolar L-S ONE non si collegano.',
         nl: 'Ja, met verbonden modellen. Philips Hue Lily en Calla werken via de Hue Bridge met Alexa, Google Home, Apple Home en Home Assistant. De eufy S120 ondersteunt Alexa en Google Assistent. Het Govee-solarsnoer bedien je via Bluetooth in de app, en autonome solarlampen zoals de Steinel XSolar L-S ONE maken geen verbinding.',
+        pl: 'Tak, w modelach z aplikacją. Philips Hue Lily i Calla działają z Alexą, Google Home, Apple Home i Home Assistant przez mostek Hue. eufy S120 jest zgodna z Alexą i Asystentem Google. Girlandą solarną Govee steruje się przez Bluetooth z jej aplikacji, a autonomiczne lampy solarne, takie jak Steinel XSolar L-S ONE, nie łączą się z siecią.',
       },
     },
     {
@@ -695,6 +801,7 @@ export const article: BlogArticle = {
         es: '¿Hace falta un electricista para instalar iluminación exterior inteligente?',
         it: 'Serve un elettricista per installare l\'illuminazione esterna smart?',
         nl: 'Heb je een elektricien nodig voor slimme buitenverlichting?',
+        pl: 'Czy do montażu inteligentnego oświetlenia zewnętrznego potrzebny jest elektryk?',
       },
       answer: {
         fr: 'Pas pour le solaire, ni pour un système basse tension comme Hue Lily qui se branche sur une prise extérieure existante. En revanche, la création d\'une prise extérieure ou tout raccordement en 230 V doit être confié à un électricien qualifié, avec une protection différentielle adaptée.',
@@ -703,6 +810,7 @@ export const article: BlogArticle = {
         es: 'No para la iluminación solar, ni para un sistema de baja tensión como Hue Lily que se enchufa a una toma exterior existente. En cambio, instalar una nueva toma exterior o cualquier conexión a 230 V debe hacerlo un electricista cualificado, con protección diferencial adecuada.',
         it: 'Non per il solare, né per un sistema a bassa tensione come Hue Lily che si collega a una presa esterna esistente. Invece, una nuova presa esterna o qualsiasi collegamento a 230 V va affidato a un elettricista qualificato, con un\'adeguata protezione differenziale.',
         nl: 'Niet voor solarlampen en ook niet voor een laagspanningssysteem als Hue Lily dat je op een bestaand buitenstopcontact aansluit. Een nieuw buitenstopcontact of elke aansluiting op 230 V laat je wel over aan een erkende elektricien, met een geschikte aardlekschakelaar.',
+        pl: 'Nie w przypadku lamp solarnych ani systemu niskonapięciowego, takiego jak Hue Lily, który podłącza się do istniejącego gniazdka zewnętrznego. Natomiast wykonanie gniazdka zewnętrznego lub każde podłączenie do 230 V powinien zlecić wykwalifikowany elektryk, z odpowiednim zabezpieczeniem różnicowoprądowym.',
       },
     },
   ],

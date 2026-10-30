@@ -299,6 +299,53 @@ export const HUB_COPY: Record<Lang, BlackFridayHubCopy> = {
       },
     ],
   },
+  pl: {
+    metaTitle: `Black Friday ${Y}: nasz wybór do inteligentnego domu`,
+    metaDescription: `Black Friday ${Y}, 27 listopada: modele warte uwagi w 6 kategoriach inteligentnego domu i sposób na rozpoznanie prawdziwej okazji.`,
+    h1: `Black Friday ${Y}: urządzenia do inteligentnego domu, które warto mieć na oku`,
+    intro: `Black Friday przypada w piątek 27 listopada ${Y} r. Amazon zwykle rozpoczyna swoje oferty mniej więcej tydzień wcześniej: dokładne daty sprawdź na jego stronie Black Friday. Zamiast listy promocji, która zmienia się co godzinę, znajdziesz tu modele już polecane w naszych poradnikach zakupowych, kategoria po kategorii, oraz prostą metodę oceny oferty.`,
+    dealTitle: 'Jak rozpoznać prawdziwą okazję',
+    dealTips: [
+      {
+        title: 'Sprawdź cenę referencyjną, nie procent',
+        text: 'W UE ogłaszana obniżka musi być liczona od najniższej ceny z ostatnich 30 dni, a Amazon wyświetla ją przy ofercie. Jeśli różnica jest niewielka, oszczędność też.',
+      },
+      {
+        title: 'Najpierw model, potem rabat',
+        text: 'Duża obniżka na urządzeniu, które nie pasuje do twojego mieszkania ani sposobu użytkowania, nie jest oszczędnością. Najpierw zdecyduj, jaki model ci odpowiada (do tego służą nasze poradniki), a potem sprawdź, czy jest w promocji.',
+      },
+      {
+        title: 'Sprawdź dokładną wersję',
+        text: 'Podobne nazwy kryją różną zawartość: edycje „Complete”, „Plus” lub „Ultra”, zestawy, akcesoria. Upewnij się, że oferta dotyczy wersji, którą chcesz kupić.',
+      },
+      {
+        title: 'Zobacz, kto sprzedaje',
+        text: 'Sprzedaż i wysyłka przez Amazon albo przez sprzedawcę zewnętrznego: warunki zwrotu i gwarancji mogą się różnić.',
+      },
+    ],
+    categoriesTitle: 'Kategorie warte uwagi',
+    amazonTitle: 'Strona Black Friday Amazon',
+    amazonText: 'Wszystkie bieżące oferty, przez cały czas trwania wydarzenia. Amazon zwykle rozpoczyna swoje oferty mniej więcej tydzień przed Black Friday.',
+    amazonCta: 'Zobacz oferty Black Friday na Amazon',
+    faq: [
+      {
+        question: `Kiedy jest Black Friday ${Y}?`,
+        answer: `W piątek 27 listopada ${Y} r., a Cyber Monday w poniedziałek 30 listopada. Amazon zwykle rozpoczyna swoje oferty mniej więcej tydzień wcześniej; dokładne daty wydarzenia są publikowane na jego stronie Black Friday.`,
+      },
+      {
+        question: 'Czy warto czekać na Black Friday z zakupem robota odkurzającego lub frytkownicy beztłuszczowej?',
+        answer: 'Niekoniecznie. To kategorie bardzo widoczne podczas wydarzenia, ale obniżka ma sens tylko na właściwym modelu. Jeśli potrzebne ci urządzenie jest już w cenie, która ci odpowiada, nie ma powodu czekać.',
+      },
+      {
+        question: 'Jak sprawdzić, czy obniżka jest prawdziwa?',
+        answer: 'Porównaj cenę oferty z najniższą ceną z ostatnich 30 dni, którą Amazon pokazuje przy obniżce, i upewnij się, że chodzi o tę samą wersję modelu. Wysoki procent nic nie mówi, jeśli cena referencyjna była zawyżona.',
+      },
+      {
+        question: 'Dlaczego nie podajecie cen?',
+        answer: 'Podczas Black Friday ceny zmieniają się kilka razy dziennie. Zamiast liczby, która szybko się dezaktualizuje, wskazujemy modele warte uwagi i odsyłamy na Amazon, gdzie wyświetlana cena jest aktualna.',
+      },
+    ],
+  },
 }
 
 /** Prime free-trial block: French pages only (see primeTrialUrl in ../config). */

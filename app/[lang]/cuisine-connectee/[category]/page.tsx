@@ -287,6 +287,48 @@ const categoryContent: Record<string, CategoryDict> = {
       buyButton: 'Bekijk prijs op Amazon',
     },
   },
+  pl: {
+    multicuiseurs: {
+      kicker: 'Inteligentne multicookery',
+      title: 'Najlepsze inteligentne multicookery 2026',
+      subtitle: 'Programowanie przez Wi-Fi, przepisy krok po kroku, wszystko w jednym',
+      intro: 'Zestawienie porównane według trzech kryteriów: rzeczywista jakość automatycznego gotowania, solidność aplikacji (a nie tylko wizytówka) oraz stosunek wartości do ceny w perspektywie 3 lat. Pomijamy modele, które przesadnie sprzedają marketing Wi-Fi.',
+      breadcrumbRoot: 'Kuchnia smart',
+      buyButton: 'Sprawdź cenę na Amazon',
+    },
+    cafetieres: {
+      kicker: 'Automatyczne ekspresy do kawy',
+      title: 'Najlepsze automatyczne ekspresy do kawy 2026',
+      subtitle: 'Młynek, espresso, ekspres na ziarna: codzienna kawa',
+      intro: 'Wybieramy wyłącznie maszyny, które wytrzymują próbę czasu. Kryteria: powtarzalność ekstrakcji, łatwość konserwacji, dostępność części zamiennych przez 5 lat oraz koszt jednej filiżanki kawy w perspektywie amortyzacji.',
+      breadcrumbRoot: 'Kuchnia smart',
+      buyButton: 'Sprawdź cenę na Amazon',
+    },
+    balances: {
+      kicker: 'Wagi kuchenne',
+      title: 'Najlepsze inteligentne wagi kuchenne 2026',
+      subtitle: 'Dokładność co do grama, śledzenie wartości odżywczych, niezawodna aplikacja',
+      intro: 'Waga to podstawowy element dobrze zorganizowanej kuchni. Analizujemy powtarzalność pomiarów, jakość aplikacji (i jej trwałość) oraz zgodność z platformami do śledzenia żywienia.',
+      breadcrumbRoot: 'Kuchnia smart',
+      buyButton: 'Sprawdź cenę na Amazon',
+    },
+    'thermometres-viande': {
+      kicker: 'Inteligentne termometry',
+      title: 'Najlepsze inteligentne termometry kuchenne 2026',
+      subtitle: 'Idealnie wysmażone potrawy na płycie plancha, we frytkownicy lub w piekarniku',
+      intro: 'Naturalne uzupełnienie frytkownicy i piekarnika: termometr z sondą pozwala uzyskać dokładny stopień wysmażenia bez otwierania drzwiczek. Stawiamy na rzeczywistą dokładność, zasięg bezprzewodowy i czas pracy na baterii.',
+      breadcrumbRoot: 'Kuchnia smart',
+      buyButton: 'Sprawdź cenę na Amazon',
+    },
+    'prises-connectees': {
+      kicker: 'Inteligentne wtyczki',
+      title: 'Najlepsze inteligentne wtyczki 2026',
+      subtitle: 'Steruj dowolnym urządzeniem, także swoją frytkownicą',
+      intro: 'Inteligentna wtyczka to najtańszy sposób, by wejść w świat sterowanej kuchni. Dobrze dobrana sprawia, że każde urządzenie staje się programowalne, frytkownica również. Kryteria: obsługiwany prąd, jakość aplikacji, zgodność z asystentami głosowymi.',
+      breadcrumbRoot: 'Kuchnia smart',
+      buyButton: 'Sprawdź cenę na Amazon',
+    },
+  },
 }
 
 // Phase OO: per-locale strings for the best-for persona cluster that
@@ -323,6 +365,11 @@ const bestForUiStrings: Record<string, { title: string; prefix: string; subtitle
     title: 'Vind de beste voor uw profiel',
     prefix: 'De beste voor',
     subtitle: 'Onze ranking wordt opnieuw gewogen: capaciteit, budget, gebruik, beperking.',
+  },
+  pl: {
+    title: 'Znajdź najlepszy wybór dla swojego profilu',
+    prefix: 'Najlepszy wybór:',
+    subtitle: 'Nasz ranking jest przeliczany na nowo według Twojej sytuacji: pojemność, budżet, sposób użytkowania, ograniczenia.',
   },
 }
 

@@ -135,4 +135,26 @@ export const HEATERS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
       },
     ],
   },
+  pl: {
+    name: 'Inteligentne grzejniki elektryczne',
+    h1: `Black Friday ${Y}: inteligentne grzejniki elektryczne, które warto mieć na oku`,
+    metaTitle: `Black Friday ${Y}: inteligentne grzejniki elektryczne`,
+    metaDescription: `Inteligentne grzejniki elektryczne na Black Friday ${Y}: Thermor, Sauter, Mill. Stałe lub mobilne, czujniki, aplikacja: co sprawdzić.`,
+    blurb: 'Thermor, Sauter, Mill: do montażu na ścianie lub mobilne, zależnie od mieszkania.',
+    intro: 'Warto odróżnić dwie rodziny: grzejniki z akumulacją ciepła montowane na ścianie, które zastępują stary konwektor, oraz mobilne grzejniki podłączane do gniazdka, bez prac instalacyjnych. Sprawdź też wykrywanie otwartego okna i sterowanie z aplikacji.',
+    faq: [
+      {
+        question: 'Grzejnik stały czy mobilny?',
+        answer: 'Grzejnik z akumulacją ciepła zamontowany na ścianie ogrzewa pomieszczenie równomiernie i zastępuje konwektor. Grzejnik mobilny podłączasz do gniazdka i dogrzewasz pokój, gdy zajdzie potrzeba, bez prac montażowych i bez elektryka.',
+      },
+      {
+        question: 'Czy inteligentny grzejnik obniża rachunki?',
+        answer: 'Głównie dzięki temu, że nie grzeje bez potrzeby: programowanie, wykrywanie nieobecności i otwartego okna, sterowanie zdalne. Oszczędność zależy od twoich nawyków i od izolacji mieszkania.',
+      },
+      {
+        question: 'Czy potrzebny jest elektryk?',
+        answer: 'Grzejnik stały podłącza się do osobnego obwodu: w razie wątpliwości zleć to elektrykowi. Grzejnik mobilny, taki jak Mill Gentle Air WiFi, po prostu wkładasz do gniazdka.',
+      },
+    ],
+  },
 }

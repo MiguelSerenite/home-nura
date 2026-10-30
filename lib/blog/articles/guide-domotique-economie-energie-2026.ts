@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Altavoz inteligente y cerradura conectada sobre un mueble blanco, ejemplos de dispositivos domóticos',
         it: 'Altoparlante smart e serratura connessa su un mobile bianco, esempi di dispositivi domotici',
         nl: 'Slimme speaker en slim slot op een witte kast, voorbeelden van smart-homeapparaten',
+        pl: 'Inteligentny głośnik i inteligentny zamek na białej szafce, przykłady wyposażenia inteligentnego domu',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Domótica y ahorro energético 2026: guía para reducir el consumo',
     it: 'Domotica e risparmio energetico 2026: guida per ridurre i consumi',
     nl: 'Domotica en energiebesparing 2026: gids om minder te verbruiken',
+    pl: 'Inteligentny dom a oszczędność energii 2026: poradnik, jak obniżyć zużycie',
   },
   excerpt: {
     fr: 'Chauffage piloté, mesure de la consommation, prises connectées, détection de présence : ce qui fait vraiment baisser les kWh, les équipements à privilégier (tado X, Netatmo, Shelly, Tapo, Aqara) et les erreurs à éviter.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Control de la calefacción, medición del consumo, enchufes inteligentes y detección de presencia: qué reduce de verdad los kWh, qué equipos elegir (tado X, Netatmo, Shelly, Tapo, Aqara) y qué errores evitar.',
     it: 'Gestione smart del riscaldamento, misura dei consumi, prese intelligenti e rilevamento di presenza: cosa riduce davvero i kWh, quali dispositivi scegliere (tado X, Netatmo, Shelly, Tapo, Aqara) e gli errori da evitare.',
     nl: 'Slimme verwarmingsregeling, verbruiksmeting, slimme stekkers en aanwezigheidsdetectie: wat echt kWh bespaart, welke apparaten u kiest (tado X, Netatmo, Shelly, Tapo, Aqara) en welke fouten u vermijdt.',
+    pl: 'Sterowane ogrzewanie, pomiar zużycia, inteligentne wtyczki, wykrywanie obecności: co naprawdę obniża kWh, jakie wyposażenie wybrać (tado X, Netatmo, Shelly, Tapo, Aqara) i jakich błędów unikać.',
   },
   content: {
     fr: `<p>La domotique fait vraiment baisser la consommation d’un logement quand elle s’attaque d’abord au chauffage : un thermostat connecté ou des têtes thermostatiques pilotées pièce par pièce, comme le <strong>tado X</strong>, agissent sur le premier poste de dépense. Viennent ensuite la mesure (prises et compteurs connectés) pour repérer les gaspillages, puis quelques automatisations simples ; les gadgets qui ne pilotent ni chauffage ni appareils gourmands n’économisent presque rien.</p>
@@ -523,6 +526,86 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Voor de meeste woningen met waterradiatoren is de <strong>tado Smart Radiator Thermostat X Starter Kit</strong> het meest doeltreffende startpunt, omdat hij de grootste verbruikspost aanpakt. Met een cv-ketel en één centrale thermostaat blijft de <strong>Netatmo Slimme Thermostaat</strong> een eenvoudige, betrouwbare keuze. Om met een klein budget te meten is de <strong>Tapo P110M</strong> het toegankelijkst, de <strong>Shelly Plug S Gen3</strong> het flexibelst, en de <strong>Shelly Pro 3EM</strong> geeft het volledige beeld, zeker met zonnepanelen. Meer over verwarming leest u in onze gids <a href="/nl/blog/thermostat-connecte-pompe-chaleur">slimme thermostaat en warmtepomp</a>.</p>`,
+    pl: `<p>Inteligentny dom naprawdę obniża zużycie energii w mieszkaniu, gdy zaczyna od ogrzewania: inteligentny termostat lub głowice termostatyczne sterowane pokój po pokoju, jak <strong>tado X</strong>, działają na największą pozycję w rachunkach. Dalej jest pomiar (inteligentne gniazdka i liczniki), który pozwala wychwycić marnotrawstwo, a potem kilka prostych automatyzacji; gadżety, które nie sterują ani ogrzewaniem, ani energochłonnymi urządzeniami, oszczędzają niemal nic.</p>
+<p>Ten poradnik nie opiera się na domowych próbach: porównuje wyposażenie na podstawie kart katalogowych producentów, niezależnych recenzji i opinii zweryfikowanych kupujących. Wysokość oszczędności zawsze zależy od twojego mieszkania, jego izolacji, rodzaju ogrzewania i nawyków; podajemy ją jako rząd wielkości, nigdy jako obietnicę.</p>
+
+<h2>Gdzie ucieka energia w mieszkaniu</h2>
+<p>Według Eurostatu ogrzewanie pomieszczeń stanowi około dwóch trzecich energii końcowej zużywanej przez gospodarstwa domowe w Unii Europejskiej. Ciepła woda użytkowa plasuje się znacznie niżej, a za nią oświetlenie i urządzenia elektryczne. Ten podział wyznacza kolejność priorytetów: wyposażenie, które lepiej reguluje ogrzewanie, prawie zawsze da więcej niż inteligentna żarówka.</p>
+<p>Francuska agencja ADEME przypomina, że obniżenie nastawy ogrzewania o 1 °C zmniejsza zużycie energii na ogrzewanie o około 7%. Dokładnie to robi dobry inteligentny termostat: obniża temperaturę, gdy nikogo nie ma, w nocy lub w niezajmowanych pomieszczeniach, bez konieczności pamiętania o tym. Urządzenia w trybie czuwania pobierają pojedynczo niewiele, ale nieprzerwanie, dlatego warto je zmierzyć, zanim się je wyłączy.</p>
+
+<h2>Kryteria wyboru</h2>
+<h3>Zgodność z twoim ogrzewaniem</h3>
+<p>To pierwsza rzecz do sprawdzenia. Termostat przewodowy podłącza się do kotła lub pompy ciepła (styk bezpotencjałowy włącz/wyłącz lub protokół modulacji, zależnie od modelu); inteligentne głowice termostatyczne nakręca się na zawory grzejników wodnych; grzejniki elektryczne steruje się natomiast przez modele z łącznością (we Francji często także przez przewód sterujący „fil pilote”). Przed zakupem sprawdź narzędzie zgodności na stronie producenta.</p>
+<h3>Protokół: Matter, Thread, Wi-Fi czy Zigbee</h3>
+<p>Matter pozwala urządzeniom różnych marek współpracować w Apple Home, Google Home, Amazon Alexa lub SmartThings. Thread to sieć kratowa o niskim zużyciu energii, odpowiednia dla urządzeń bateryjnych. Wi-Fi nie wymaga mostka, ale obciąża domową sieć, gdy urządzeń przybywa. Więcej o tych wyborach znajdziesz w naszym <a href="/pl/blog/maison-connectee-matter-thread-2026">poradniku o Matter i Thread</a>.</p>
+<h3>Pomiar zużycia</h3>
+<p>Gniazdko, które mierzy moc chwilową i sumuje kWh, mówi, ile naprawdę kosztuje dane urządzenie. Licznik zamontowany w rozdzielnicy daje obraz całego mieszkania, w tym ewentualnej produkcji z fotowoltaiki.</p>
+<h3>Sterowanie lokalne i abonament</h3>
+<p>Sprawdź, czy automatyzacje działają bez chmury producenta i czy niektóre funkcje nie są dostępne wyłącznie w abonamencie. To kryterium niezawodności, a w dłuższej perspektywie także kosztów.</p>
+
+<h2>Wyposażenie wartościowe w 2026 roku</h2>
+<h3>tado Smart Radiator Thermostat X Starter Kit: najlepszy wybór ogólny</h3>
+<p>Zestaw startowy tado X łączy inteligentną głowicę termostatyczną z Bridge X, który pełni rolę routera brzegowego Thread. Głowica jest zgodna z Matter, dzięki dołączonym adapterom pasuje do większości zaworów grzejnikowych i działa na akumulatorze. Całością steruje się z aplikacji tado albo z Apple Home, Google Home i Alexy.</p>
+<p><strong>Mocne strony:</strong> regulacja pokój po pokoju, montaż bez narzędzi na grzejnikach wodnych, kompletny ekosystem (termostat przewodowy, czujniki, dodatkowe głowice). <strong>Ograniczenia:</strong> seria X nie jest zgodna ze starszymi produktami tado V3+, a niektóre zaawansowane automatyzacje, jak automatyczny geofencing, wymagają opcjonalnego abonamentu Auto-Assist. <strong>Dla kogo:</strong> mieszkania ogrzewane grzejnikami wodnymi, w których chcesz wyłączać ogrzewanie w pustych pokojach.</p>
+<h3>Netatmo Smart Thermostat: pewny wybór do kotła</h3>
+<p>Termostat Netatmo zastępuje klasyczny termostat pokojowy i steruje kotłem przez przekaźnik. Jego funkcja Auto-Adapt uruchamia ogrzewanie z wyprzedzeniem, uwzględniając izolację mieszkania i temperaturę na zewnątrz, a aplikacja wysyła miesięczne zestawienie zużycia. Jest zgodny z Apple HomeKit, Alexą i Google Assistant.</p>
+<p><strong>Mocne strony:</strong> proste ustawienia, regularne raporty, dyskretny wygląd. <strong>Ograniczenia:</strong> jedna strefa grzewcza bez dodatkowych zaworów oraz regulacja włącz/wyłącz, która nie pasuje do wszystkich pomp ciepła. <strong>Dla kogo:</strong> domy i mieszkania z indywidualnym kotłem i jednym centralnym termostatem.</p>
+<h3>TP-Link Tapo P110M: najtańsze gniazdko z pomiarem energii</h3>
+<p>Tapo P110M to gniazdko Wi-Fi z certyfikatem Matter, które mierzy zużycie podłączonego urządzenia. Aplikacja pokazuje historię w kWh i pozwala wpisać cenę twojego kWh, by oszacować koszt. Współpracuje z Apple Home, Alexą, Google Home i SmartThings, a jego kompaktowa obudowa nie blokuje sąsiedniego gniazdka.</p>
+<p><strong>Mocne strony:</strong> natywne Matter, szybkie uruchomienie, idealne do zrobienia inwentaryzacji energochłonnych urządzeń. <strong>Ograniczenia:</strong> tylko Wi-Fi 2,4 GHz, zaawansowane funkcje ograniczone w porównaniu z Shelly. <strong>Dla kogo:</strong> dla tych, którzy chcą zmierzyć kilka urządzeń bez dużych wydatków.</p>
+<h3>Shelly Plug S Gen3: gniazdko dla zaawansowanych użytkowników</h3>
+<p>Shelly Plug S Gen3 mierzy moc, obsługuje obciążenia do 2500 W, ma certyfikat Matter i działa bez mostka. Wyróżnia się lokalnym API i cenioną integracją z Home Assistant, co pozwala uruchamiać automatyzacje po przekroczeniu progu mocy (na przykład powiadomić, że pralka skończyła pranie).</p>
+<p><strong>Mocne strony:</strong> sterowanie lokalne, liczne opcje automatyzacji, funkcja wzmacniacza Wi-Fi. <strong>Ograniczenia:</strong> bardziej techniczne ustawienia, a limit 2500 W wyklucza duże grzejniki dodatkowe. Sprawdź też standard gniazdka sprzedawanego w twoim kraju. <strong>Dla kogo:</strong> użytkownicy Home Assistant i osoby, które chcą precyzyjnych automatyzacji.</p>
+<h3>Shelly Pro 3EM: widok na cały dom</h3>
+<p>Shelly Pro 3EM to licznik energii na szynę DIN z cęgami prądowymi, który mierzy zarówno w sieci jednofazowej, jak i trójfazowej. Mierzy w obu kierunkach, czyli zużycie i produkcję, co czyni go przydatnym przy panelach fotowoltaicznych. Występuje w wersjach 120 A i 400 A, z deklarowaną dokładnością 1%, i działa przez Wi-Fi lub Ethernet, lokalnie lub przez chmurę.</p>
+<p><strong>Mocne strony:</strong> pełny obraz mieszkania, śledzenie autokonsumpcji z fotowoltaiki, historia zapisywana w urządzeniu. <strong>Ograniczenia:</strong> montaż w rozdzielnicy, który należy powierzyć wykwalifikowanemu elektrykowi. <strong>Dla kogo:</strong> gospodarstwa z instalacją fotowoltaiczną, pompą ciepła lub ładowarką do samochodu elektrycznego. Nasze <a href="/pl/blog/compteur-energie-connecte-comparatif">porównanie inteligentnych liczników energii</a> przedstawia także rozwiązania niewymagające prac instalacyjnych.</p>
+<h3>Aqara Presence Sensor FP2: ogrzewanie i światło tylko tam, gdzie ktoś jest</h3>
+<p>FP2 wykorzystuje radar na falach milimetrowych, który wykrywa obecność nawet nieruchomej osoby, w przeciwieństwie do klasycznych czujników podczerwieni. Obejmuje do 40 m², może podzielić pokój na 30 stref, śledzi kilka osób i działa przez Wi-Fi 2,4 GHz bez huba Aqara, z Apple Home, Alexą, Google Home i Home Assistant.</p>
+<p><strong>Mocne strony:</strong> niezawodne wykrywanie osoby, która czyta lub pracuje, konfigurowalne strefy. <strong>Ograniczenia:</strong> zasilanie kablem USB, strefy wymagają starannego ustawienia. <strong>Dla kogo:</strong> dla tych, którzy chcą wyłączać światło i ogrzewanie w naprawdę pustych pokojach.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Wyposażenie</th><th>Rola</th><th>Łączność</th><th>Idealne dla</th></tr>
+</thead>
+<tbody>
+<tr><td>tado Smart Radiator Thermostat X Starter Kit</td><td>Regulacja pokój po pokoju</td><td>Thread, Matter (Bridge X)</td><td>Grzejniki wodne</td></tr>
+<tr><td>Netatmo Smart Thermostat</td><td>Termostat do kotła</td><td>Wi-Fi, HomeKit</td><td>Indywidualny kocioł</td></tr>
+<tr><td>TP-Link Tapo P110M</td><td>Pomiar na urządzenie</td><td>Wi-Fi, Matter</td><td>Inwentaryzacja zużycia</td></tr>
+<tr><td>Shelly Plug S Gen3</td><td>Pomiar i automatyzacja</td><td>Wi-Fi, Matter, Bluetooth</td><td>Home Assistant</td></tr>
+<tr><td>Shelly Pro 3EM</td><td>Licznik całego mieszkania</td><td>Wi-Fi, Ethernet</td><td>Fotowoltaika, pompa ciepła</td></tr>
+<tr><td>Aqara Presence Sensor FP2</td><td>Wykrywanie obecności</td><td>Wi-Fi 2,4 GHz</td><td>Pomieszczenia używane z przerwami</td></tr>
+</tbody>
+</table>
+<p>Cały wybór <a href="/pl/energie-domotique/thermostats">inteligentnych termostatów</a> i <a href="/pl/energie-domotique/compteurs-energie">liczników energii</a> znajdziesz w naszym katalogu.</p>
+
+<h2>Przykład obliczeń w kWh</h2>
+<p>Urządzenie, które stale pobiera 10 W, jak dekoder czy głośnik zostawione w trybie czuwania, zużywa 10 W × 8760 godzin, czyli około 88 kWh rocznie. Przy przykładowej stawce 1,10 zł za kWh (zastąp ją ceną ze swojej umowy) daje to około 97 zł rocznie za jedno urządzenie. Inteligentne gniazdko, które wyłącza te urządzenia na noc i podczas twojej nieobecności, eliminuje sporą część tej kwoty.</p>
+<p>To samo rozumowanie dotyczy ogrzewania: jeśli twoje mieszkanie zużywa 10 000 kWh rocznie na ogrzewanie, obniżenie średniej temperatury o 1 °C oznacza według wskazówki ADEME około 700 kWh mniej. Regulacja, która obniża nastawę w pustych pokojach i w nocy, działa dokładnie na tę dźwignię.</p>
+
+<h2>Automatyzacje, które naprawdę oszczędzają</h2>
+<ul>
+<li><strong>Program nocny i na czas nieobecności:</strong> obniżenie nastawy ogrzewania w nocy i w ciągu dnia, gdy mieszkanie jest puste.</li>
+<li><strong>Wykrywanie otwartego okna:</strong> wyłączenie grzejnika, gdy okno jest otwarte do wietrzenia.</li>
+<li><strong>Zbiorcze wyłączanie:</strong> rutyna „Wychodzę”, która wyłącza światła i gniazdka urządzeń w trybie czuwania.</li>
+<li><strong>Obecność pokój po pokoju:</strong> wyłączanie świateł i ogrzewania dodatkowego, gdy czujnik nie wykrywa już nikogo.</li>
+<li><strong>Fotowoltaika:</strong> uruchamianie programowalnego urządzenia, gdy produkcja przekracza zużycie, jeśli masz <a href="/pl/blog/balkonkraftwerk-panneau-solaire-balcon">panele słoneczne na balkon</a> lub na dachu.</li>
+</ul>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Zaczynanie od oświetlenia:</strong> LED-y zużywają już niewiele; zysk leży przede wszystkim w ogrzewaniu.</li>
+<li><strong>Kupowanie bez sprawdzenia zgodności:</strong> kocioł, pompa ciepła, zawory grzejnikowe i standard gniazdka muszą pasować.</li>
+<li><strong>Podłączanie grzejnika dodatkowego do małego inteligentnego gniazdka:</strong> przestrzegaj maksymalnej mocy podanej przez producenta.</li>
+<li><strong>Mnożenie aplikacji:</strong> postaw na Matter lub centralny hub, aby zarządzać wszystkim w jednym miejscu.</li>
+<li><strong>Wiara w gwarantowane oszczędności:</strong> deklarowane procenty zależą od mieszkania; mierz przed i po.</li>
+</ul>
+
+<h2>Instalacja i bezpieczeństwo</h2>
+<p>Inteligentne gniazdka i głowice termostatyczne montuje się bez narzędzi. Natomiast termostat przewodowy podłączony do kotła i licznik w rozdzielnicy wymagają ingerencji w instalację elektryczną: odetnij zasilanie, a w razie wątpliwości skorzystaj z pomocy wykwalifikowanego elektryka. Nigdy nie podłączaj urządzenia o mocy większej niż ta, którą obsługuje inteligentne gniazdko, i unikaj łączenia listew zasilających jedna za drugą.</p>
+
+<h2>Nasz werdykt</h2>
+<p>W większości mieszkań ogrzewanych grzejnikami wodnymi <strong>tado Smart Radiator Thermostat X Starter Kit</strong> to najskuteczniejszy punkt wyjścia, ponieważ działa na największą pozycję zużycia. Przy kotle i jednym centralnym termostacie <strong>Netatmo Smart Thermostat</strong> pozostaje prostym i niezawodnym wyborem. Do pomiarów przy niewielkim budżecie najtańsze jest <strong>Tapo P110M</strong>, najbardziej elastyczne <strong>Shelly Plug S Gen3</strong>, a <strong>Shelly Pro 3EM</strong> daje pełny obraz mieszkania, zwłaszcza z fotowoltaiką. Jeśli chcesz zgłębić temat ogrzewania, przeczytaj nasz poradnik <a href="/pl/blog/thermostat-connecte-pompe-chaleur">inteligentny termostat a pompa ciepła</a>.</p>`,
   },
   faq: [
     {
@@ -533,6 +616,7 @@ export const article: BlogArticle = {
         es: "¿Qué equipo domótico ahorra más energía?",
         it: "Quale dispositivo domotico fa risparmiare più energia?",
         nl: "Welk smart-homeapparaat bespaart de meeste energie?",
+        pl: "Które wyposażenie inteligentnego domu oszczędza najwięcej energii?",
       },
       answer: {
         fr: "Le pilotage du chauffage, de loin. Le chauffage représente environ deux tiers de l’énergie des ménages en Europe, et l’ADEME estime qu’1 °C de moins réduit sa consommation d’environ 7 %. Un thermostat connecté ou des têtes thermostatiques pièce par pièce agissent directement sur ce poste.",
@@ -541,6 +625,7 @@ export const article: BlogArticle = {
         es: "El control de la calefacción, con diferencia. La calefacción supone unos dos tercios de la energía de los hogares europeos, y la ADEME estima que 1 °C menos reduce su consumo en torno a un 7 %. Un termostato inteligente o cabezales por habitación actúan justo ahí.",
         it: "La gestione del riscaldamento, di gran lunga. Il riscaldamento vale circa due terzi dell’energia delle famiglie europee, e l’ADEME stima che 1 °C in meno riduca i consumi di circa il 7 %. Un termostato smart o teste termostatiche stanza per stanza agiscono proprio lì.",
         nl: "Verwarmingsregeling, met afstand. Verwarming is goed voor ongeveer twee derde van de huishoudelijke energie in Europa, en volgens ADEME verlaagt 1 °C minder het verbruik met ongeveer 7 %. Een slimme thermostaat of slimme radiatorknoppen per kamer werken precies daarop.",
+        pl: "Zdecydowanie sterowanie ogrzewaniem. Ogrzewanie stanowi około dwóch trzecich energii zużywanej przez gospodarstwa domowe w Europie, a francuska agencja ADEME szacuje, że o 1 °C niższa temperatura zmniejsza jego zużycie o około 7%. Inteligentny termostat lub głowice termostatyczne pokój po pokoju działają bezpośrednio na tę pozycję.",
       },
     },
     {
@@ -551,6 +636,7 @@ export const article: BlogArticle = {
         es: "¿Un enchufe inteligente consume electricidad por sí mismo?",
         it: "Una presa smart consuma elettricità di per sé?",
         nl: "Verbruikt een slimme stekker zelf stroom?",
+        pl: "Czy inteligentne gniazdko samo zużywa prąd?",
       },
       answer: {
         fr: "Oui, un peu, car elle reste connectée en permanence. Cette consommation est généralement bien inférieure à celle des appareils en veille qu’elle permet de couper. Consultez la fiche technique du fabricant et réservez les prises aux appareils dont la veille ou l’usage le justifie.",
@@ -559,6 +645,7 @@ export const article: BlogArticle = {
         es: "Sí, un poco, porque permanece conectado siempre. Ese consumo suele ser muy inferior al de los aparatos en espera que permite apagar. Consulte la ficha técnica del fabricante y reserve los enchufes para los aparatos cuyo consumo en espera o uso lo justifique.",
         it: "Sì, un po’, perché resta sempre connessa. Questo consumo è di solito molto inferiore a quello degli apparecchi in standby che permette di spegnere. Consultate la scheda tecnica del produttore e usate le prese sugli apparecchi il cui standby o utilizzo lo giustifica.",
         nl: "Ja, een beetje, omdat hij altijd verbonden blijft. Dat verbruik ligt meestal ver onder het stand-byverbruik van de apparaten die u ermee uitschakelt. Raadpleeg de specificaties van de fabrikant en gebruik stekkers bij apparaten waarvan het stand-byverbruik of gebruik het rechtvaardigt.",
+        pl: "Tak, trochę, bo pozostaje stale podłączone do sieci. To zużycie jest zazwyczaj znacznie niższe niż pobór urządzeń w trybie czuwania, które pozwala wyłączyć. Sprawdź kartę katalogową producenta i używaj gniazdek do urządzeń, w których czuwanie lub sposób użytkowania to uzasadnia.",
       },
     },
     {
@@ -569,6 +656,7 @@ export const article: BlogArticle = {
         es: "¿Hace falta un electricista para instalar estos equipos?",
         it: "Serve un elettricista per installare questi dispositivi?",
         nl: "Heb ik een installateur nodig voor deze apparaten?",
+        pl: "Czy do montażu tych urządzeń potrzebny jest elektryk?",
       },
       answer: {
         fr: "Pas pour les prises connectées, les têtes thermostatiques ni le capteur de présence, qui s’installent sans outil. Un thermostat filaire raccordé à la chaudière et un compteur placé dans le tableau électrique, comme le Shelly Pro 3EM, demandent en revanche une intervention électrique : faites appel à un électricien qualifié en cas de doute.",
@@ -577,6 +665,7 @@ export const article: BlogArticle = {
         es: "No para enchufes inteligentes, cabezales termostáticos ni el sensor de presencia, que se instalan sin herramientas. Un termostato cableado a la caldera y un medidor en el cuadro eléctrico, como el Shelly Pro 3EM, sí implican trabajo eléctrico: ante la duda, recurra a un electricista cualificado.",
         it: "Non per prese smart, teste termostatiche o sensore di presenza, che si installano senza attrezzi. Un termostato cablato alla caldaia e un misuratore nel quadro elettrico, come lo Shelly Pro 3EM, richiedono invece un intervento elettrico: nel dubbio rivolgetevi a un elettricista qualificato.",
         nl: "Niet voor slimme stekkers, radiatorknoppen of de aanwezigheidssensor, die u zonder gereedschap installeert. Een bedrade thermostaat op de ketel en een meter in de meterkast, zoals de Shelly Pro 3EM, vragen wel elektrisch werk: schakel bij twijfel een erkende installateur in.",
+        pl: "Nie w przypadku inteligentnych gniazdek, głowic termostatycznych ani czujnika obecności, które montuje się bez narzędzi. Termostat przewodowy podłączony do kotła oraz licznik w rozdzielnicy, taki jak Shelly Pro 3EM, wymagają natomiast ingerencji w instalację elektryczną: w razie wątpliwości skorzystaj z pomocy wykwalifikowanego elektryka.",
       },
     },
     {
@@ -587,6 +676,7 @@ export const article: BlogArticle = {
         es: "¿Es imprescindible Matter para ahorrar energía?",
         it: "Matter è indispensabile per risparmiare energia?",
         nl: "Is Matter onmisbaar om energie te besparen?",
+        pl: "Czy Matter jest niezbędny do oszczędzania energii?",
       },
       answer: {
         fr: "Non, mais il simplifie beaucoup les choses. Matter permet de faire travailler ensemble un thermostat, des prises et des capteurs de marques différentes dans une seule application (Apple Maison, Google Home, Alexa ou SmartThings), ce qui facilite les automatisations qui coupent chauffage et appareils au bon moment.",
@@ -595,6 +685,7 @@ export const article: BlogArticle = {
         es: "No, pero simplifica mucho. Matter permite que un termostato, enchufes y sensores de marcas distintas trabajen juntos en una sola app (Apple Casa, Google Home, Alexa o SmartThings), lo que facilita las automatizaciones que apagan calefacción y aparatos en el momento justo.",
         it: "No, ma semplifica molto. Matter fa lavorare insieme termostato, prese e sensori di marche diverse in un’unica app (Apple Casa, Google Home, Alexa o SmartThings), rendendo più facili le automazioni che spengono riscaldamento e apparecchi al momento giusto.",
         nl: "Nee, maar het maakt veel eenvoudiger. Met Matter werken een thermostaat, stekkers en sensoren van verschillende merken samen in één app (Apple Woning, Google Home, Alexa of SmartThings), wat automatiseringen vergemakkelijkt die verwarming en apparaten op het juiste moment uitschakelen.",
+        pl: "Nie, ale bardzo wszystko upraszcza. Matter pozwala termostatowi, gniazdkom i czujnikom różnych marek współpracować w jednej aplikacji (Apple Home, Google Home, Alexa lub SmartThings), co ułatwia automatyzacje wyłączające ogrzewanie i urządzenia we właściwym momencie.",
       },
     },
     {
@@ -605,6 +696,7 @@ export const article: BlogArticle = {
         es: "¿Cómo sé cuánto ahorro realmente?",
         it: "Come capisco quanto risparmio davvero?",
         nl: "Hoe weet ik hoeveel ik echt bespaar?",
+        pl: "Jak sprawdzić, ile naprawdę oszczędzam?",
       },
       answer: {
         fr: "Mesurez avant et après, en kWh. Relevez votre consommation sur votre compteur ou avec un compteur connecté pendant quelques semaines, installez l’équipement, puis comparez des périodes aux températures extérieures proches. Multipliez ensuite les kWh économisés par le prix du kWh de votre contrat.",
@@ -613,6 +705,7 @@ export const article: BlogArticle = {
         es: "Mida antes y después, en kWh. Anote su consumo en el contador o con un medidor conectado durante unas semanas, instale el equipo y compare periodos con temperaturas exteriores parecidas. Después multiplique los kWh ahorrados por el precio del kWh de su contrato.",
         it: "Misurate prima e dopo, in kWh. Annotate i consumi dal contatore o con un misuratore connesso per qualche settimana, installate il dispositivo e confrontate periodi con temperature esterne simili. Moltiplicate poi i kWh risparmiati per il prezzo del kWh del vostro contratto.",
         nl: "Meet vooraf en achteraf, in kWh. Noteer uw verbruik een paar weken via de meter of een energiemonitor, installeer het apparaat en vergelijk periodes met vergelijkbare buitentemperaturen. Vermenigvuldig daarna de bespaarde kWh met de kWh-prijs uit uw contract.",
+        pl: "Mierz przed i po, w kWh. Przez kilka tygodni odczytuj zużycie z licznika lub za pomocą inteligentnego licznika, zainstaluj urządzenie, a potem porównaj okresy o zbliżonych temperaturach zewnętrznych. Następnie pomnóż zaoszczędzone kWh przez cenę kWh z twojej umowy.",
       },
     },
   ],

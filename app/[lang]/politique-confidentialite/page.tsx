@@ -433,6 +433,86 @@ const content: Record<string, PrivacyContent> = {
     supervisoryBody: "Als u na contact met ons van mening bent dat uw rechten niet worden gerespecteerd, heeft u het recht een klacht in te dienen bij de Autoriteit Persoonsgegevens (www.autoriteitpersoonsgegevens.nl) of uw lokale toezichthoudende autoriteit. In Frankrijk: CNIL, 3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07 — www.cnil.fr.",
     backLink: 'Terug naar home',
   },
+  pl: {
+    title: 'Polityka prywatności',
+    lastUpdated: 'Ostatnia aktualizacja: kwiecień 2026',
+    intro: 'Home Nura (wydawca: Groupe M-XO, SAS, 60 Rue François 1er, 75008 Paris, SIRET 500 511 373 00044) szanuje Twoją prywatność i zobowiązuje się przetwarzać Twoje dane osobowe w sposób przejrzysty, w ścisłej zgodności z Ogólnym rozporządzeniem o ochronie danych (RODO - rozporządzenie UE 2016/679) oraz zmienioną francuską ustawą o informatyce i swobodach obywatelskich (loi Informatique et Libertés).',
+    sections: [
+      {
+        heading: '1. Administrator danych',
+        body: 'Administratorem danych jest Groupe M-XO, SAS z kapitałem zakładowym 15 000 euro, wpisana do rejestru handlowego i spółek w Paryżu (RCS Paris) pod numerem 500 511 373. Osoba odpowiedzialna za publikację: Miguel MARIE. Kontakt: contact@homenura.com.',
+      },
+      {
+        heading: '2. Zbierane dane',
+        body: 'Home Nura to serwis redakcyjny bez kont użytkowników i formularzy rejestracyjnych. Nie zbieramy żadnych bezpośrednich danych osobowych. Przetwarzane są wyłącznie: (a) zanonimizowane dane techniczne zbierane przez naszego dostawcę hostingu (skrócony adres IP, typ przeglądarki, odwiedzone strony) w celu zapewnienia wydajności i bezpieczeństwa; (b) zanonimizowane dane o przeglądaniu (liczba odwiedzin, czas spędzony na stronie) za pomocą plików cookie do pomiaru oglądalności, jeśli są używane; (c) e-maile, które dobrowolnie wysyłasz na adres contact@homenura.com.',
+      },
+      {
+        heading: '3. Cele i podstawy prawne przetwarzania',
+        body: 'Przetwarzamy Twoje dane na następujących podstawach prawnych (art. 6 RODO): (a) prawnie uzasadniony interes (art. 6 ust. 1 lit. f) — bezpieczeństwo serwisu, wykrywanie oszustw, zapobieganie nadużyciom, anonimowa analiza statystyczna; (b) zgoda (art. 6 ust. 1 lit. a) — zapisywanie plików cookie innych niż niezbędne (pomiar oglądalności, reklama), które możesz zaakceptować lub odrzucić za pomocą naszego banera cookie; (c) realizacja żądania (art. 6 ust. 1 lit. b) — odpowiedź na Twoje e-maile kontaktowe.',
+      },
+      {
+        heading: '4. Okresy przechowywania',
+        body: 'Logi serwera (skrócone adresy IP): maksymalnie 12 miesięcy. E-maile otrzymane na adres contact@homenura.com: 3 lata od ostatniej interakcji. Techniczne pliki cookie: czas trwania sesji. Pliki cookie do pomiaru oglądalności: maksymalnie 13 miesięcy (zalecenie CNIL). Pliki cookie linków afiliacyjnych Amazon: zgodnie z polityką Amazon (do 24 godz.).',
+      },
+      {
+        heading: '5. Odbiorcy danych',
+        body: 'Twoje dane nigdy nie są sprzedawane. Mogą być udostępniane: naszemu dostawcy hostingu Vercel Inc. (Stany Zjednoczone, na podstawie Standardowych Klauzul Umownych Komisji Europejskiej) w celu technicznej realizacji usługi; Amazon EU S.à r.l. w ramach Programu Partnerskiego, gdy klikniesz link afiliacyjny; organom administracyjnym lub sądowym na podstawie prawnego żądania.',
+      },
+      {
+        heading: '6. Transfery poza Unię Europejską',
+        body: 'Niektórzy podwykonawcy (Vercel Inc., Amazon) mogą przetwarzać Twoje dane poza Unią Europejską, w szczególności w Stanach Zjednoczonych. Transfery te są objęte odpowiednimi zabezpieczeniami przewidzianymi w RODO (Standardowe Klauzule Umowne, w stosownych przypadkach decyzje stwierdzające odpowiedni stopień ochrony).',
+      },
+      {
+        heading: '7. Bezpieczeństwo',
+        body: 'Stosujemy odpowiednie środki techniczne i organizacyjne w celu ochrony Twoich danych: szyfrowanie TLS/HTTPS w całym serwisie, nagłówki bezpieczeństwa HTTP (CSP, HSTS, X-Frame-Options), ograniczony dostęp do logów, regularne aktualizacje infrastruktury.',
+      },
+    ],
+    cookiesHeading: '8. Używane pliki cookie',
+    cookiesIntro: 'Poniższa tabela opisuje pliki cookie zapisywane na Twoim urządzeniu. Pliki cookie inne niż niezbędne są zapisywane dopiero po Twojej zgodzie wyrażonej za pomocą naszego banera. W każdej chwili możesz wycofać zgodę, usuwając pliki cookie w przeglądarce.',
+    cookiesTable: {
+      headName: 'Cookie',
+      headPurpose: 'Cel',
+      headDuration: 'Czas trwania',
+      headProvider: 'Podmiot',
+      rows: [
+        {
+          name: 'cookie_consent',
+          purpose: 'Zapamiętanie Twojego wyboru dotyczącego zgody',
+          duration: '6 miesięcy',
+          provider: 'Home Nura (niezbędne)',
+        },
+        {
+          name: 'NEXT_LOCALE',
+          purpose: 'Zapamiętanie wybranego języka',
+          duration: 'Sesja',
+          provider: 'Home Nura (niezbędne)',
+        },
+        {
+          name: 'Amazon affiliate',
+          purpose: 'Śledzenie linku afiliacyjnego w celu przypisania prowizji',
+          duration: 'Do 24 godz.',
+          provider: 'Amazon EU (podmiot trzeci)',
+        },
+      ],
+    },
+    rightsHeading: '9. Twoje prawa',
+    rightsIntro: 'Zgodnie z RODO (art. 15–22) przysługują Ci następujące prawa dotyczące Twoich danych osobowych:',
+    rights: [
+      'Prawo dostępu: uzyskanie potwierdzenia, że Twoje dane są przetwarzane, oraz otrzymanie ich kopii',
+      'Prawo do sprostowania: poprawienie danych nieprawidłowych lub niekompletnych',
+      'Prawo do usunięcia danych („prawo do bycia zapomnianym”): żądanie usunięcia Twoich danych',
+      'Prawo do ograniczenia przetwarzania: żądanie tymczasowego wstrzymania przetwarzania',
+      'Prawo do przenoszenia danych: otrzymanie danych w ustrukturyzowanym formacie nadającym się do ponownego wykorzystania',
+      'Prawo sprzeciwu: sprzeciw wobec przetwarzania opartego na prawnie uzasadnionym interesie',
+      'Prawo do wycofania zgody w dowolnym momencie, bez wpływu na zgodność z prawem wcześniejszego przetwarzania',
+      'Prawo do określenia wytycznych dotyczących losu Twoich danych po śmierci',
+    ],
+    contactHeading: '10. Korzystanie z Twoich praw',
+    contactBody: 'Aby skorzystać z tych praw, napisz do nas na adres contact@homenura.com, wskazując swoje żądanie. Odpowiemy w terminie maksymalnie jednego miesiąca (z możliwością przedłużenia o dwa miesiące w przypadku skomplikowanego żądania). W razie uzasadnionych wątpliwości co do Twojej tożsamości możemy poprosić o dokument tożsamości.',
+    supervisoryHeading: '11. Skarga do CNIL',
+    supervisoryBody: 'Jeśli po skontaktowaniu się z nami uważasz, że Twoje prawa nie są przestrzegane, masz prawo wnieść skargę do francuskiego organu ochrony danych — Commission Nationale de l\'Informatique et des Libertés (CNIL): 3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07 — www.cnil.fr. Możesz również zwrócić się do organu nadzorczego w swoim państwie UE.',
+    backLink: 'Powrót do strony głównej',
+  },
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {

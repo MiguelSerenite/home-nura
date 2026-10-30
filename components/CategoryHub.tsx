@@ -124,6 +124,17 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     guidesTitle: 'Onze koopgidsen',
     readGuide: 'Lees de gids',
   },
+  pl: {
+    home: 'Strona główna',
+    relatedTitle: 'Inne kategorie z tego samego działu',
+    methodologyCta: 'Przeczytaj naszą metodologię',
+    faqTitle: 'Najczęstsze pytania',
+    noSiblings: 'Sąsiednie kategorie pojawią się wkrótce.',
+    picksKicker: 'Nasz wybór',
+    picksQuestion: (t) => `${t}: które wybrać w 2026?`,
+    guidesTitle: 'Nasze poradniki zakupowe',
+    readGuide: 'Czytaj poradnik',
+  },
 }
 
 interface CategoryHubProps {

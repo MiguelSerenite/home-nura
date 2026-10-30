@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Olla multifunción eléctrica de acero inoxidable con panel de programas sobre una encimera de mármol',
         it: 'Multicooker elettrico in acciaio inox con pannello dei programmi su un piano in marmo',
         nl: 'Elektrische multicooker van rvs met programmapaneel op een marmeren aanrecht',
+        pl: 'Elektryczny multicooker ze stali nierdzewnej z panelem programów na marmurowym blacie',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Olla multifunción conectada 2026: comparativa de los 5 mejores modelos',
     it: 'Multicooker connesso 2026: confronto dei 5 migliori modelli',
     nl: 'Slimme multicooker 2026: de 5 beste modellen vergeleken',
+    pl: 'Multicooker z Wi-Fi 2026: porównanie 5 najlepszych modeli',
   },
   excerpt: {
     fr: 'Cookeo Touch WiFi, Cookeo Touch Pro WiFi, Tefal Cook4me Touch WiFi, Ninja Foodi MAX SmartLid et Instant Pot Duo Plus : lesquels sont vraiment connectés, et lequel choisir selon votre foyer en 2026.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Cookeo Touch WiFi, Cookeo Touch Pro WiFi, Tefal Cook4me Touch WiFi, Ninja Foodi MAX SmartLid e Instant Pot Duo Plus: cuáles están realmente conectadas y cuál elegir según tu hogar en 2026.',
     it: 'Cookeo Touch WiFi, Cookeo Touch Pro WiFi, Tefal Cook4me Touch WiFi, Ninja Foodi MAX SmartLid e Instant Pot Duo Plus: quali sono davvero connessi e quale scegliere per la tua casa nel 2026.',
     nl: 'Cookeo Touch WiFi, Cookeo Touch Pro WiFi, Tefal Cook4me Touch WiFi, Ninja Foodi MAX SmartLid en Instant Pot Duo Plus: welke zijn echt verbonden, en welke past in 2026 bij jouw huishouden?',
+    pl: 'Cookeo Touch WiFi, Cookeo Touch Pro WiFi, Tefal Cook4me Touch WiFi, Ninja Foodi MAX SmartLid i Instant Pot Duo Plus: które modele naprawdę łączą się z siecią i który wybrać w zależności od liczby domowników w 2026 roku.',
   },
   content: {
     fr: `<p><strong>Le meilleur multicuiseur connecté en 2026 pour la plupart des foyers est le Moulinex Cookeo Touch WiFi</strong> : 6 litres, 13 programmes, un grand écran tactile qui guide chaque recette et une connexion Wi-Fi pour récupérer de nouvelles recettes via l’application. Si vous voulez surtout un appareil qui remplace aussi l’airfryer, ou un autocuiseur simple et silencieux, le Ninja Foodi MAX SmartLid et l’Instant Pot Duo Plus WhisperQuiet sont d’excellents choix, mais ils ne sont <strong>pas</strong> connectés.</p>
@@ -547,6 +550,90 @@ export const article: BlogArticle = {
 <li><strong>Met ingebouwde weegschaal</strong>: Cookeo Touch Pro WiFi. <strong>Buiten Frankrijk</strong>: Tefal Cook4me Touch WiFi.</li>
 </ul>
 <p>Lees verder in onze <a href="/nl/blog/robot-cuiseur-connecte-comparatif">vergelijking van verbonden keukenrobots</a> als je twijfelt over een Thermomix, en in onze <a href="/nl/blog/guide-cuisine-connectee-2026">gids voor de slimme keuken 2026</a>.</p>`,
+    pl: `<p><strong>Najlepszym multicookerem z Wi-Fi w 2026 roku dla większości domów jest Moulinex Cookeo Touch WiFi</strong>: 6 litrów pojemności, 13 programów, duży ekran dotykowy prowadzący krok po kroku przez każdy przepis i połączenie Wi-Fi do pobierania nowych przepisów przez aplikację. Jeśli zależy Ci przede wszystkim na urządzeniu, które zastąpi także frytkownicę beztłuszczową, albo na prostym i cichym szybkowarze, Ninja Foodi MAX SmartLid i Instant Pot Duo Plus WhisperQuiet to świetne wybory, ale <strong>nie</strong> mają łączności z siecią.</p>
+<p>To porównanie opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących; uwzględnia wyłącznie modele sprzedawane w Europie w 2026 roku. Cały wybór znajdziesz na naszej stronie <a href="/pl/cuisine-connectee/multicuiseurs">multicookery</a>.</p>
+
+<h2>Z Wi-Fi czy bez: co warto wiedzieć przed porównaniem</h2>
+<p>Określenie „multicooker z Wi-Fi” bywa nadużywane. Prawdziwy model z łącznością łączy się z domowym routerem przez Wi-Fi i współpracuje z aplikacją: pobiera nowe przepisy, zapisuje ulubione, tworzy listę zakupów i pozwala śledzić gotowanie z innego pomieszczenia. W 2026 roku naprawdę połączona oferta w Europie opiera się głównie na platformie Moulinex/Tefal: <strong>Cookeo Touch WiFi</strong>, <strong>Cookeo Touch Pro WiFi</strong> oraz ich odpowiednik pod marką Tefal, <strong>Cook4me Touch WiFi</strong>, sprzedawany w kilku krajach europejskich.</p>
+<p>Multicookery Ninja Foodi i Instant Pot Duo Plus sprzedawane w Europie są „inteligentne” w tym sensie, że mają programy automatyczne, ale nie mają ani Wi-Fi, ani aplikacji do sterowania. Uwzględniamy je, ponieważ wielu kupujących porównuje je z Cookeo i ponieważ należą do najwyżej ocenianych przez właścicieli multicookerów. Przy każdym modelu jasno wskazujemy, co potrafi, a czego nie.</p>
+
+<h2>Kryteria wyboru</h2>
+<ul>
+<li><strong>Prawdziwa łączność</strong>: wbudowane Wi-Fi i aplikacja czy tylko programy automatyczne? Jeśli liczysz na pobierane przepisy lub zdalny podgląd, wystarczy wyłącznie pierwsza opcja.</li>
+<li><strong>Pojemność</strong>: 6 litrów wystarcza większości rodzin liczących od 4 do 6 osób. Format 7,5 litra przydaje się głównie przy dużych rodzinnych obiadach i gotowaniu na zapas.</li>
+<li><strong>Prowadzenie po przepisie</strong>: ekran dotykowy z przepisami krok po kroku bardzo pomaga początkującym. Panel z przyciskami wystarczy, jeśli i tak gotujesz bez przepisu.</li>
+<li><strong>Tryby gotowania</strong>: gotowanie pod ciśnieniem, na parze, obsmażanie, duszenie i podtrzymywanie ciepła to podstawa. Funkcja Air Fry, jogurt czy powolne gotowanie to dodatki, które przydadzą się zależnie od Twoich nawyków.</li>
+<li><strong>Misa i pielęgnacja</strong>: misa z powłoką nieprzywierającą lub ze stali nierdzewnej, elementy nadające się do zmywarki, łatwa do wyjęcia uszczelka.</li>
+<li><strong>Gabaryty</strong>: multicooker często zostaje na blacie. Zmierz dostępne miejsce, także pod szafkami wiszącymi, gdy pokrywa jest otwarta.</li>
+</ul>
+
+<h2>5 multicookerów wartych uwagi w 2026 roku</h2>
+
+<h3>1. Moulinex Cookeo Touch WiFi: najlepszy wybór z łącznością</h3>
+<p>Cookeo Touch WiFi to wzorcowy model w tej serii. Ma misę o pojemności 6 litrów, moc 1 600 W, 13 programów automatycznych (ciśnieniowy, na parze, obsmażanie, duszenie, podgrzewanie, podtrzymywanie ciepła…) i około 250 wbudowanych przepisów. Pochylany ekran dotykowy prowadzi przez każdy etap, podając ilości i czasy. Połączenie Wi-Fi pozwala dodawać nowe przepisy z aplikacji Moulinex i znajdować je od razu na urządzeniu.</p>
+<p><strong>Mocne strony</strong>: najlepiej dopracowane prowadzenie po przepisie w tym zestawieniu, biblioteka przepisów, która stale się powiększa, szybka obsługa nawet dla początkujących oraz elementy (misa, wewnętrzna pokrywa, koszyk do gotowania na parze), które według producenta można myć w zmywarce.</p>
+<p><strong>Ograniczenia</strong>: brak funkcji Air Fry, misa z powłoką nieprzywierającą, przy której trzeba używać odpowiednich przyborów, oraz wysoka półka cenowa. Niektórzy właściciele zgłaszają, że parowanie z Wi-Fi czasem wymaga kilku prób.</p>
+<p><strong>Dla kogo</strong>: dla rodzin, które chcą urozmaicać posiłki, korzystając z przepisów krok po kroku, bez sięgania po telefon.</p>
+
+<h3>2. Moulinex Cookeo Touch Pro WiFi: wersja z wbudowaną wagą</h3>
+<p>Cookeo Touch Pro WiFi ma te same podstawy co Touch WiFi (6 litrów, 1 600 W, 13 programów, Wi-Fi i aplikacja) i dodaje <strong>precyzyjną wbudowaną wagę</strong>: składniki odważasz bezpośrednio w misie, zgodnie z przepisem wyświetlanym na ekranie.</p>
+<p><strong>Mocne strony</strong>: mniej naczyń do zmywania i mniej błędów w dozowaniu, to samo prowadzenie krok po kroku co w Touch WiFi.</p>
+<p><strong>Ograniczenia</strong>: droższy niż Touch WiFi za jedną dodatkową funkcję oraz nieco cięższe urządzenie.</p>
+<p><strong>Dla kogo</strong>: dla tych, którzy trzymają się przepisów co do grama i nie mają wagi kuchennej albo chcą przygotować wszystko w jednym naczyniu.</p>
+
+<h3>3. Tefal Cook4me Touch WiFi: odpowiednik poza Francją</h3>
+<p>Cook4me Touch WiFi to wersja koncepcji Cookeo pod marką Tefal, sprzedawana m.in. w Wielkiej Brytanii, Niemczech i krajach Beneluksu. Znajdziesz w nim 6 litrów pojemności, 1 600 W, 13 trybów gotowania (niskie, wysokie i ekspresowe ciśnienie, para, obsmażanie, duszenie, podgrzewanie, podtrzymywanie ciepła), pochylany ekran dotykowy oraz aplikację z przepisami, ulubionymi i listą zakupów.</p>
+<p><strong>Mocne strony</strong>: te same atuty co Cookeo Touch WiFi, przy szerszej dostępności poza Francją.</p>
+<p><strong>Ograniczenia</strong>: zależnie od kraju różni się dokładne oznaczenie modelu i biblioteka przepisów; we Francji najłatwiej kupić Cookeo.</p>
+<p><strong>Dla kogo</strong>: dla kupujących z Belgii, Holandii, Niemiec lub Wielkiej Brytanii, którzy szukają multicookera naprawdę połączonego z siecią.</p>
+
+<h3>4. Ninja Foodi MAX SmartLid: najbardziej wszechstronny, ale bez łączności</h3>
+<p>Ninja Foodi MAX 15-w-1 SmartLid łączy szybkowar i frytkownicę beztłuszczową pod jedną pokrywą: dźwignia przełącza między gotowaniem pod ciśnieniem a gotowaniem na gorące powietrze, jest też tryb łączony para i gorące powietrze. Producent podaje 15 funkcji, w tym gotowanie pod ciśnieniem, Air Fry, grillowanie, pieczenie, suszenie, jogurt i powolne gotowanie, przy misie o pojemności 7,5 litra i mocy 1 760 W.</p>
+<p><strong>Mocne strony</strong>: zastępuje kilka urządzeń, daje chrupiący efekt, jakiego nie uzyska Cookeo, a duża misa sprawdzi się w licznych rodzinach.</p>
+<p><strong>Ograniczenia</strong>: <strong>brak Wi-Fi i aplikacji</strong>, brak przepisów prowadzonych na ekranie, ciężkie i duże urządzenie oraz dłuższy czas nauki obsługi według opinii kupujących.</p>
+<p><strong>Dla kogo</strong>: dla dużych rodzin, które chcą jednego urządzenia do duszenia i do przygotowywania chrupiących potraw, i nie potrzebują łączności. Aby porównać je z samodzielną frytkownicą beztłuszczową, zajrzyj do naszego <a href="/pl/blog/cookeo-vs-thermomix-vs-airfryer">porównania Cookeo, Thermomix i frytkownicy beztłuszczowej</a>.</p>
+
+<h3>5. Instant Pot Duo Plus WhisperQuiet: proste i ciche rozwiązanie, bez łączności</h3>
+<p>Instant Pot Duo Plus WhisperQuiet to multicooker 9-w-1 o pojemności 5,7 litra: gotowanie pod ciśnieniem, powolne gotowanie, ryż, para, obsmażanie, jogurt, sous vide, pieczenie i podtrzymywanie ciepła. Jego cechą szczególną jest dyskretniejsze wypuszczanie pary uruchamiane przyciskiem oraz misa ze stali nierdzewnej, która nie boi się metalowych przyborów.</p>
+<p><strong>Mocne strony</strong>: najbardziej rozpowszechniona marka, trwała misa ze stali nierdzewnej, ogromna społeczność z przepisami w sieci oraz bardziej przystępna pozycja cenowa niż modele z łącznością.</p>
+<p><strong>Ograniczenia</strong>: <strong>brak Wi-Fi i aplikacji</strong>, brak ekranu dotykowego i przepisów prowadzonych krok po kroku oraz nieco mniejsza pojemność.</p>
+<p><strong>Dla kogo</strong>: dla par i małych rodzin, które chcą niezawodnego szybkowaru i nie potrzebują podpowiedzi krok po kroku.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Pojemność</th><th>Kluczowe funkcje</th><th>Łączność</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td>Moulinex Cookeo Touch WiFi</td><td>6 L</td><td>13 programów, ekran dotykowy, ~250 wbudowanych przepisów</td><td>Wi-Fi + aplikacja</td><td>Rodzin, przepisów krok po kroku</td></tr>
+<tr><td>Moulinex Cookeo Touch Pro WiFi</td><td>6 L</td><td>13 programów, wbudowana waga</td><td>Wi-Fi + aplikacja</td><td>Precyzyjnego dozowania, mniej naczyń</td></tr>
+<tr><td>Tefal Cook4me Touch WiFi</td><td>6 L</td><td>13 trybów, ekran dotykowy</td><td>Wi-Fi + aplikacja</td><td>Kupujących spoza Francji</td></tr>
+<tr><td>Ninja Foodi MAX SmartLid</td><td>7,5 L</td><td>15 funkcji, w tym Air Fry</td><td>Brak</td><td>Dużych rodzin, jednego urządzenia</td></tr>
+<tr><td>Instant Pot Duo Plus WhisperQuiet</td><td>5,7 L</td><td>9-w-1, misa ze stali nierdzewnej, ciche wypuszczanie pary</td><td>Brak</td><td>Małych domów, rozsądnego budżetu</td></tr>
+</tbody>
+</table>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Zakładanie, że model ma łączność, bo jest „smart”</strong>: sprawdź w karcie producenta, czy jest wzmianka o Wi-Fi i aplikacji.</li>
+<li><strong>Zapominanie o sieci</strong>: wiele połączonych urządzeń kuchennych łączy się wyłącznie w paśmie 2,4 GHz. Jeśli Twój router łączy pasma 2,4 i 5 GHz pod jedną nazwą, parowanie może się nie udać; przed instalacją zajrzyj do instrukcji.</li>
+<li><strong>Wybór zbyt małego modelu</strong>: przy gotowaniu pod ciśnieniem misy nie wolno napełniać powyżej maksymalnego oznaczenia, więc pojemność użytkowa jest mniejsza niż deklarowana.</li>
+<li><strong>Lekceważenie uszczelki i zaworu</strong>: zabrudzona lub uszkodzona uszczelka uniemożliwia wzrost ciśnienia. Czyść ją po każdym użyciu i wymień, gdy stwardnieje.</li>
+<li><strong>Kupowanie urządzenia łączącego funkcję frytkownicy bez takiej potrzeby</strong>: jeśli masz już frytkownicę beztłuszczową, połączony Cookeo da Ci na co dzień więcej niż Ninja.</li>
+</ul>
+
+<h2>Użytkowanie i bezpieczeństwo</h2>
+<p>Wszystkie te urządzenia to elektryczne szybkowary: mają blokadę pokrywy pod ciśnieniem, zawór bezpieczeństwa i regulację temperatury. Przestrzegaj kilku prostych zasad: nigdy nie otwieraj pokrywy na siłę, dopóki ciśnienie nie spadnie, trzymaj twarz i dłonie z dala od strumienia pary przy odpowietrzaniu, nie zasłaniaj zaworu i nie przekraczaj oznaczeń napełnienia, zwłaszcza przy potrawach, które się pienią (suche strączki, ryż, makaron).</p>
+<p>Połączenie Wi-Fi służy do przeglądania przepisów i śledzenia postępu gotowania; nie zastępuje obecności w pobliżu, zwłaszcza podczas odpowietrzania. Ustaw urządzenie na stabilnej powierzchni, z dala od krawędzi blatu i szafek wiszących, na które trafiłaby para.</p>
+
+<h2>Werdykt: jaki multicooker wybrać?</h2>
+<ul>
+<li><strong>Najlepszy wybór z łącznością</strong>: Moulinex Cookeo Touch WiFi, za prowadzenie krok po kroku i pobierane przepisy.</li>
+<li><strong>Najbardziej wszechstronny (bez łączności)</strong>: Ninja Foodi MAX SmartLid, jeśli chcesz mieć szybkowar i frytkownicę beztłuszczową w jednym urządzeniu.</li>
+<li><strong>Najlepszy stosunek jakości do ceny (bez łączności)</strong>: Instant Pot Duo Plus WhisperQuiet, prosty, cichy i trwały.</li>
+<li><strong>Z wbudowaną wagą</strong>: Cookeo Touch Pro WiFi. <strong>Poza Francją</strong>: Tefal Cook4me Touch WiFi.</li>
+</ul>
+<p>Aby zgłębić temat, zobacz nasze <a href="/pl/blog/robot-cuiseur-connecte-comparatif">porównanie robotów kuchennych z Wi-Fi</a>, jeśli wahasz się między multicookerem a Thermomixem, oraz nasz <a href="/pl/blog/guide-cuisine-connectee-2026">przewodnik po inteligentnej kuchni 2026</a>.</p>`,
   },
   faq: [
     {
@@ -557,6 +644,7 @@ export const article: BlogArticle = {
         es: '¿Qué ollas multifunción están realmente conectadas por wifi?',
         it: 'Quali multicooker sono davvero connessi al Wi-Fi?',
         nl: 'Welke multicookers zijn echt verbonden via wifi?',
+        pl: 'Które multicookery naprawdę łączą się z Wi-Fi?',
       },
       answer: {
         fr: 'Parmi les modèles de ce comparatif, seuls le Moulinex Cookeo Touch WiFi, le Cookeo Touch Pro WiFi et le Tefal Cook4me Touch WiFi disposent du Wi-Fi et d’une application. Le Ninja Foodi MAX SmartLid et l’Instant Pot Duo Plus WhisperQuiet ont des programmes automatiques, mais aucune connexion.',
@@ -565,6 +653,7 @@ export const article: BlogArticle = {
         es: 'De los modelos de esta comparativa, solo la Moulinex Cookeo Touch WiFi, la Cookeo Touch Pro WiFi y la Tefal Cook4me Touch WiFi tienen wifi y app. La Ninja Foodi MAX SmartLid y la Instant Pot Duo Plus WhisperQuiet tienen programas automáticos, pero ninguna conexión.',
         it: 'Tra i modelli di questo confronto, solo il Moulinex Cookeo Touch WiFi, il Cookeo Touch Pro WiFi e il Tefal Cook4me Touch WiFi hanno Wi-Fi e app. Il Ninja Foodi MAX SmartLid e l’Instant Pot Duo Plus WhisperQuiet hanno programmi automatici, ma nessuna connessione.',
         nl: 'Van de modellen in deze vergelijking hebben alleen de Moulinex Cookeo Touch WiFi, de Cookeo Touch Pro WiFi en de Tefal Cook4me Touch WiFi wifi en een app. De Ninja Foodi MAX SmartLid en de Instant Pot Duo Plus WhisperQuiet hebben automatische programma’s, maar geen verbinding.',
+        pl: 'Spośród modeli w tym porównaniu tylko Moulinex Cookeo Touch WiFi, Cookeo Touch Pro WiFi i Tefal Cook4me Touch WiFi mają Wi-Fi i aplikację. Ninja Foodi MAX SmartLid i Instant Pot Duo Plus WhisperQuiet mają programy automatyczne, ale żadnej łączności z siecią.',
       },
     },
     {
@@ -575,6 +664,7 @@ export const article: BlogArticle = {
         es: '¿Es realmente útil el wifi en una olla multifunción?',
         it: 'Il Wi-Fi è davvero utile su un multicooker?',
         nl: 'Is wifi echt nuttig op een multicooker?',
+        pl: 'Czy Wi-Fi w multicookerze naprawdę się przydaje?',
       },
       answer: {
         fr: 'Il est utile si vous cuisinez avec des recettes guidées : il permet d’ajouter de nouvelles recettes, de gérer favoris et liste de courses, et de suivre la cuisson depuis une autre pièce. Si vous cuisinez sans recette, un bon autocuiseur non connecté suffit.',
@@ -583,6 +673,7 @@ export const article: BlogArticle = {
         es: 'Es útil si cocinas con recetas guiadas: permite añadir recetas nuevas, gestionar favoritos y lista de la compra y seguir la cocción desde otra habitación. Si cocinas sin receta, basta con una buena olla a presión no conectada.',
         it: 'È utile se cucini con ricette guidate: permette di aggiungere nuove ricette, gestire preferiti e lista della spesa e seguire la cottura da un’altra stanza. Se cucini senza ricetta, basta una buona pentola a pressione non connessa.',
         nl: 'Het is nuttig als je met begeleide recepten kookt: je voegt nieuwe recepten toe, beheert favorieten en boodschappenlijst en volgt de bereiding vanuit een andere kamer. Kook je zonder recept, dan volstaat een goede niet-verbonden snelkookpan.',
+        pl: 'Przydaje się, jeśli gotujesz według przepisów krok po kroku: pozwala dodawać nowe przepisy, zarządzać ulubionymi i listą zakupów oraz śledzić gotowanie z innego pomieszczenia. Jeśli gotujesz bez przepisów, wystarczy dobry szybkowar bez łączności.',
       },
     },
     {
@@ -593,6 +684,7 @@ export const article: BlogArticle = {
         es: '¿Qué capacidad elegir para una familia de 4 personas?',
         it: 'Quale capacità scegliere per una famiglia di 4 persone?',
         nl: 'Welke inhoud kies je voor een gezin van 4?',
+        pl: 'Jaką pojemność wybrać dla rodziny z 4 osób?',
       },
       answer: {
         fr: 'Un modèle de 6 litres comme le Cookeo Touch WiFi convient très bien à 4 personnes, avec de la marge pour les restes. Le format 7,5 litres du Ninja Foodi MAX devient intéressant à partir de 6 personnes ou si vous cuisinez en grande quantité.',
@@ -601,6 +693,7 @@ export const article: BlogArticle = {
         es: 'Un modelo de 6 litros como la Cookeo Touch WiFi va muy bien para 4 personas, con margen para las sobras. Los 7,5 litros de la Ninja Foodi MAX tienen sentido a partir de 6 personas o si cocinas por lotes.',
         it: 'Un modello da 6 litri come il Cookeo Touch WiFi va benissimo per 4 persone, con margine per gli avanzi. I 7,5 litri del Ninja Foodi MAX diventano interessanti da 6 persone in su o se cucini in grandi quantità.',
         nl: 'Een model van 6 liter zoals de Cookeo Touch WiFi is prima voor 4 personen, met ruimte voor restjes. De 7,5 liter van de Ninja Foodi MAX wordt interessant vanaf 6 personen of als je in grote hoeveelheden kookt.',
+        pl: 'Model o pojemności 6 litrów, taki jak Cookeo Touch WiFi, w zupełności wystarczy dla 4 osób, z zapasem na resztki. Format 7,5 litra w Ninja Foodi MAX staje się interesujący od 6 osób lub gdy często gotujesz na zapas.',
       },
     },
     {
@@ -611,6 +704,7 @@ export const article: BlogArticle = {
         es: '¿Qué diferencia hay entre la Cookeo Touch WiFi y la Tefal Cook4me Touch WiFi?',
         it: 'Che differenza c’è tra il Cookeo Touch WiFi e il Tefal Cook4me Touch WiFi?',
         nl: 'Wat is het verschil tussen de Cookeo Touch WiFi en de Tefal Cook4me Touch WiFi?',
+        pl: 'Czym różni się Cookeo Touch WiFi od Tefal Cook4me Touch WiFi?',
       },
       answer: {
         fr: 'Il s’agit du même concept porté par deux marques du même groupe : 6 litres, 13 programmes, écran tactile et application. Moulinex le vend sous le nom Cookeo, notamment en France ; Tefal le commercialise sous le nom Cook4me dans d’autres pays européens.',
@@ -619,6 +713,7 @@ export const article: BlogArticle = {
         es: 'Es el mismo concepto con dos marcas del mismo grupo: 6 litros, 13 programas, pantalla táctil y app. Moulinex lo vende como Cookeo, sobre todo en Francia; Tefal lo comercializa como Cook4me en otros países europeos.',
         it: 'È lo stesso concetto con due marchi dello stesso gruppo: 6 litri, 13 programmi, touchscreen e app. Moulinex lo vende come Cookeo, soprattutto in Francia; Tefal lo commercializza come Cook4me in altri paesi europei.',
         nl: 'Het is hetzelfde concept onder twee merken van dezelfde groep: 6 liter, 13 programma’s, touchscreen en app. Moulinex verkoopt het als Cookeo, vooral in Frankrijk; Tefal brengt het als Cook4me op de markt in andere Europese landen.',
+        pl: 'To ta sama koncepcja oferowana przez dwie marki z tej samej grupy: 6 litrów, 13 programów, ekran dotykowy i aplikacja. Moulinex sprzedaje ją pod nazwą Cookeo, zwłaszcza we Francji; Tefal oferuje ją jako Cook4me w innych krajach europejskich.',
       },
     },
     {
@@ -629,6 +724,7 @@ export const article: BlogArticle = {
         es: '¿Se puede dejar una olla multifunción funcionando sin vigilancia?',
         it: 'Si può lasciare un multicooker in funzione senza sorveglianza?',
         nl: 'Mag je een multicooker onbeheerd laten werken?',
+        pl: 'Czy można zostawić multicooker włączony bez nadzoru?',
       },
       answer: {
         fr: 'Ces appareils intègrent verrouillage du couvercle, soupape de sécurité et maintien au chaud automatique, ce qui permet de ne pas rester devant pendant la cuisson. Restez néanmoins à proximité, surtout pendant la décompression, et suivez les consignes de la notice.',
@@ -637,6 +733,7 @@ export const article: BlogArticle = {
         es: 'Estos aparatos incluyen bloqueo de tapa, válvula de seguridad y mantenimiento en caliente automático, así que no hace falta quedarse delante durante la cocción. Aun así, permanece cerca, sobre todo al despresurizar, y sigue las indicaciones del manual.',
         it: 'Questi apparecchi hanno blocco del coperchio, valvola di sicurezza e mantenimento in caldo automatico, quindi non serve restare davanti durante la cottura. Resta comunque nelle vicinanze, soprattutto durante lo sfiato, e segui le indicazioni del manuale.',
         nl: 'Deze apparaten hebben een dekselvergrendeling, een veiligheidsventiel en automatisch warmhouden, dus je hoeft er tijdens het koken niet bij te blijven staan. Blijf wel in de buurt, vooral bij het afblazen, en volg de handleiding.',
+        pl: 'Te urządzenia mają blokadę pokrywy, zawór bezpieczeństwa i automatyczne podtrzymywanie ciepła, dzięki czemu nie trzeba stać przy nich w trakcie gotowania. Mimo to bądź w pobliżu, zwłaszcza podczas odpowietrzania, i stosuj się do zaleceń z instrukcji.',
       },
     },
     {
@@ -647,6 +744,7 @@ export const article: BlogArticle = {
         es: '¿Puede una olla multifunción sustituir a una freidora de aire?',
         it: 'Un multicooker può sostituire una friggitrice ad aria?',
         nl: 'Kan een multicooker een airfryer vervangen?',
+        pl: 'Czy multicooker może zastąpić frytkownicę beztłuszczową?',
       },
       answer: {
         fr: 'Seulement s’il intègre une fonction air fry, comme le Ninja Foodi MAX SmartLid. Les Cookeo, Cook4me et Instant Pot Duo Plus ne font pas de cuisson à air chaud : ils dorent et mijotent, mais ne donnent pas de résultat croustillant.',
@@ -655,6 +753,7 @@ export const article: BlogArticle = {
         es: 'Solo si incluye función de fritura por aire, como la Ninja Foodi MAX SmartLid. Las Cookeo, Cook4me e Instant Pot Duo Plus no cocinan con aire caliente: doran y guisan, pero no logran un resultado crujiente.',
         it: 'Solo se ha una funzione di frittura ad aria, come il Ninja Foodi MAX SmartLid. Cookeo, Cook4me e Instant Pot Duo Plus non cuociono ad aria calda: rosolano e stufano, ma non danno un risultato croccante.',
         nl: 'Alleen als hij een airfryfunctie heeft, zoals de Ninja Foodi MAX SmartLid. De Cookeo, Cook4me en Instant Pot Duo Plus koken niet met hete lucht: ze braden aan en sudderen, maar geven geen knapperig resultaat.',
+        pl: 'Tylko jeśli ma funkcję Air Fry, jak Ninja Foodi MAX SmartLid. Cookeo, Cook4me i Instant Pot Duo Plus nie gotują na gorące powietrze: obsmażają i duszą, ale nie dają chrupiącego efektu.',
       },
     },
   ],

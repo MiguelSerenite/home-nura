@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: "Pequeño sensor de movimiento inteligente sobre una mesita de noche junto a una lámpara y un despertador",
         it: "Piccolo sensore di movimento smart su un comodino accanto a una lampada e a una sveglia",
         nl: "Kleine slimme bewegingssensor op een nachtkastje naast een lamp en een wekker",
+        pl: "Mały inteligentny czujnik ruchu na szafce nocnej obok lampy i budzika",
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: "Mejor Sensor de Movimiento Inteligente 2026: Comparativa PIR y Presencia mmWave",
     it: "Miglior Sensore di Movimento Smart 2026: Confronto PIR e Presenza mmWave",
     nl: "Beste Slimme Bewegingssensor 2026: Vergelijking PIR en mmWave-Aanwezigheid",
+    pl: "Najlepszy inteligentny czujnik ruchu 2026: porównanie PIR i czujników obecności mmWave",
   },
   excerpt: {
     fr: "Aqara P2, Aqara FP2, Philips Hue, IKEA MYGGSPRAY, Eve Motion et Ajax MotionProtect comparés : PIR ou radar mmWave, autonomie, capteur de luminosité, immunité animaux, Matter et usage éclairage ou alarme.",
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: "Aqara P2, Aqara FP2, Philips Hue, IKEA MYGGSPRAY, Eve Motion y Ajax MotionProtect comparados: PIR o radar mmWave, autonomía, sensor de luz, inmunidad a mascotas, Matter e iluminación o alarma.",
     it: "Aqara P2, Aqara FP2, Philips Hue, IKEA MYGGSPRAY, Eve Motion e Ajax MotionProtect a confronto: PIR o radar mmWave, autonomia, sensore di luce, immunità agli animali, Matter, luci o allarme.",
     nl: "Aqara P2, Aqara FP2, Philips Hue, IKEA MYGGSPRAY, Eve Motion en Ajax MotionProtect vergeleken: PIR of mmWave-radar, batterijduur, lichtsensor, huisdierimmuniteit, Matter, verlichting of alarm.",
+    pl: "Aqara P2, Aqara FP2, Philips Hue, IKEA MYGGSPRAY, Eve Motion i Ajax MotionProtect w porównaniu: PIR czy radar mmWave, czas pracy na baterii, czujnik oświetlenia, odporność na zwierzęta, Matter oraz zastosowanie do oświetlenia lub alarmu.",
   },
   content: {
     fr: `<p>Pour la plupart des foyers, le meilleur détecteur de mouvement connecté en 2026 est l'<strong>Aqara Motion and Light Sensor P2</strong> : un capteur infrarouge (PIR) sur pile, compatible Matter over Thread, avec un capteur de luminosité intégré et une autonomie annoncée jusqu'à deux ans. Si vous voulez savoir qu'une personne est encore dans la pièce même quand elle ne bouge plus, il faut passer à un capteur de présence à radar mmWave comme l'<strong>Aqara Presence Sensor FP2</strong> ; et si le but est une vraie alarme anti-intrusion, un détecteur de qualité alarme comme l'<strong>Ajax MotionProtect</strong> reste le choix le plus sûr.</p>
@@ -574,6 +577,95 @@ export const article: BlogArticle = {
 
 <h2>Conclusie</h2>
 <p>Voor lichtautomatisering in de meeste kamers is de <strong>Aqara Motion and Light Sensor P2</strong> de beste allrounder: brede hoek, Matter, lichtsensor en lange batterijduur. Met een klein budget of voor buiten doet de <strong>IKEA MYGGSPRAY</strong> het essentiële werk. Waar u lang stilzit, maakt de <strong>Aqara Presence Sensor FP2</strong> dankzij radar echt het verschil. Hue-huishoudens houden het bij de <strong>Philips Hue Motion Sensor</strong>, Apple Woning-gebruikers waarderen de <strong>Eve Motion</strong> en voor een alarm met huisdieren blijft de <strong>Ajax MotionProtect</strong> de maatstaf.</p>`,
+    pl: `<p>Dla większości gospodarstw domowych najlepszym inteligentnym czujnikiem ruchu w 2026 roku jest <strong>Aqara Motion and Light Sensor P2</strong>: czujnik podczerwieni (PIR) zasilany baterią, zgodny z Matter over Thread, z wbudowanym czujnikiem natężenia światła i deklarowanym czasem pracy do dwóch lat. Jeśli chcesz wiedzieć, że ktoś nadal jest w pomieszczeniu, nawet gdy się nie porusza, trzeba przejść na czujnik obecności z radarem mmWave, taki jak <strong>Aqara Presence Sensor FP2</strong>; a jeśli celem jest prawdziwy alarm antywłamaniowy, czujnik klasy alarmowej, taki jak <strong>Ajax MotionProtect</strong>, pozostaje najpewniejszym wyborem.</p>
+<p>To porównanie opiera się na kartach katalogowych producentów, opublikowanych niezależnych recenzjach i zweryfikowanych opiniach kupujących. Przegląda sześć modeli sprzedawanych w Europie, wyjaśnia różnicę między wykrywaniem ruchu a wykrywaniem obecności i porządkuje czujniki według segmentu, a nie według ceny. Cały nasz wybór znajdziesz też w sekcji <a href="/pl/securite-maison/detecteurs-mouvement">czujniki ruchu</a>.</p>
+
+<h2>Czujnik ruchu PIR czy czujnik obecności mmWave: prawdziwa różnica</h2>
+<p>To pytanie, od którego zależy cała reszta. Obie technologie odpowiadają na różne potrzeby.</p>
+<ul>
+<li><strong>PIR (pasywna podczerwień)</strong> wychwytuje zmiany ciepła, gdy ciało przechodzi przez jego pole widzenia. Jest bardzo oszczędny energetycznie, dzięki czemu może pracować na baterii przez miesiące, a nawet lata. Jego ograniczenie: widzi tylko <em>ruch</em>. Osoba siedząca nieruchomo przed ekranem lub czytająca w końcu „znika”, a światło gaśnie.</li>
+<li><strong>Radar mmWave (fale milimetrowe)</strong> wykrywa mikroruchy, aż do oddechu. Wie więc, że pomieszczenie jest <em>zajęte</em>, nawet bez żadnego gestu. Niektóre modele lokalizują kilka osób i dzielą pomieszczenie na strefy. W zamian zużywa więcej energii: większość czujników mmWave musi być stale podłączona do zasilania (USB-C).</li>
+</ul>
+<p>W praktyce: PIR wystarczy w korytarzu, przedpokoju, na schodach, w toalecie lub garażu, gdzie tylko się przechodzi. Czujnik obecności mmWave ma sens w biurze, salonie, łazience lub sypialni, czyli tam, gdzie spędza się dużo czasu bez ruchu.</p>
+
+<h2>Kryteria wyboru</h2>
+<h3>1. Protokół i ekosystem</h3>
+<p>Czujnik nigdy nie działa sam: za pośrednictwem ekosystemu włącza światło, wysyła powiadomienie lub uruchamia syrenę. Główne protokoły to <strong>Matter over Thread</strong> (współpracuje z Apple Home, Google Home, Amazon Alexa i SmartThings, ale wymaga routera brzegowego Thread), <strong>Zigbee</strong> (niezawodny, lecz powiązany z mostkiem, takim jak Hue Bridge lub hub IKEA Dirigera), <strong>Wi-Fi</strong> (bez huba, ale rzadko zgodne z zasilaniem bateryjnym) oraz <strong>Bluetooth</strong>. Systemy alarmowe, takie jak Ajax, korzystają z własnego, zastrzeżonego radia. Aby lepiej zrozumieć te standardy, przeczytaj nasz poradnik o <a href="/pl/blog/maison-connectee-matter-thread-2026">Matter i Thread</a>.</p>
+<h3>2. Czas pracy i zasilanie</h3>
+<p>Czujniki PIR zasilane bateryjnie deklarują od jednego do pięciu lat, zależnie od modelu, częstotliwości wyzwoleń i protokołu. Długi czas pracy oszczędza regularnego wspinania się na drabinę. Czujniki mmWave potrzebują gniazdka w pobliżu: warto to przewidzieć przy wyborze miejsca montażu.</p>
+<h3>3. Czujnik natężenia światła (lux)</h3>
+<p>Niezbędny przy automatycznym oświetleniu: zapobiega zapalaniu lampy w środku dnia. Większość nowszych modeli go ma, z różną dokładnością. Aby ocenić, czy pomieszczenie jest jasne czy ciemne, przybliżony czujnik w zupełności wystarczy.</p>
+<h3>4. Odporność na zwierzęta</h3>
+<p>Punkt często pomijany. Zwykły czujnik do oświetlenia reaguje na kota lub psa, co rzadko jest problemem. W przypadku alarmu jest to wada dyskwalifikująca: potrzebny jest czujnik zaprojektowany tak, by ignorować zwierzęta do określonej wagi i wysokości. Niewiele czujników dla odbiorców indywidualnych deklaruje taką funkcję; czujniki klasy alarmowej tak.</p>
+<h3>5. Zasięg, kąt i stopień ochrony</h3>
+<p>Zasięg od 5 do 12 metrów i kąt od 90 do 170 stopni, zależnie od modelu. Do montażu na zewnątrz lub w łazience sprawdź stopień ochrony IP: IPX3 toleruje deszcz pod osłoną, IP67 wytrzymuje otwartą przestrzeń na zewnątrz.</p>
+
+<h2>6 najlepszych czujników ruchu i obecności 2026 roku</h2>
+
+<h3>1. Aqara Motion and Light Sensor P2 — najlepszy wybór ogólny</h3>
+<p>P2 łączy szerokokątny czujnik PIR z niezależnym czujnikiem natężenia światła. Aqara deklaruje wykrywanie do 7 metrów w poziomie 170 stopni, co pozwala objąć całe pomieszczenie z jednego rogu. Komunikuje się w standardzie <strong>Matter over Thread</strong>, więc współpracuje z Apple Home, Google Home, Alexą lub SmartThings bez huba Aqara, pod warunkiem że masz router brzegowy Thread (Apple TV, HomePod mini, nowszy Nest Hub, niektóre urządzenia Echo…). Zasilają go dwie baterie CR2450, a deklarowany czas pracy wynosi do dwóch lat.</p>
+<p><strong>Mocne strony:</strong> bardzo szeroki kąt wykrywania, natywne Matter, dobry czas pracy, dyskretny format.<br><strong>Ograniczenia:</strong> tylko PIR (nie wykrywa nieruchomej obecności), brak deklarowanej odporności na zwierzęta, wymagany router Thread.<br><strong>Dla kogo:</strong> wszyscy, którzy chcą zautomatyzować oświetlenie korytarza, przedpokoju lub kuchni bez uzależniania się od jednego ekosystemu.</p>
+
+<h3>2. Aqara Presence Sensor FP2 — najlepszy czujnik obecności</h3>
+<p>FP2 wykorzystuje radar mmWave zdolny wykrywać bardzo drobne ruchy, aż do oddechu. Obejmuje do 40 m², potrafi podzielić pomieszczenie na 30 stref, śledzić jednocześnie do pięciu osób i ma wbudowany czujnik natężenia światła. Łączy się przez Wi-Fi 2,4 GHz, współpracuje z Apple Home, Alexą, Google Home i Home Assistant bez huba, a zasilany jest przez USB-C. Ma klasę IPX5, co pozwala na montaż w łazience. Aqara oferuje też funkcję wykrywania upadku, do montażu na suficie.</p>
+<p><strong>Mocne strony:</strong> prawdziwe wykrywanie obecności, wiele stref, kilka osób, brak baterii do wymiany.<br><strong>Ograniczenia:</strong> musi pozostać podłączony do zasilania, konfiguracja stref trwa dłużej niż w prostym czujniku, wyższy segment.<br><strong>Dla kogo:</strong> biuro, salon, łazienka lub każde pomieszczenie, w którym światło nie powinno gasnąć podczas czytania.</p>
+
+<h3>3. Philips Hue Motion Sensor — najprostszy w świecie Hue</h3>
+<p>Wewnętrzny czujnik Philips Hue pozostaje wzorcem dla tych, którzy mają już żarówki Hue. Działa w standardzie Zigbee przez Hue Bridge, wykrywa do 5 metrów w zakresie 120 stopni, ma czujnik światła dziennego i mierzy także temperaturę. Zasilają go dwie baterie AAA, a deklarowany czas pracy to około dwóch lat. Aplikacja Hue pozwala ustawić różne sceny w zależności od pory dnia (np. przyciemnione światło w nocy).</p>
+<p><strong>Mocne strony:</strong> doskonała integracja z oświetleniem Hue, bardzo proste ustawienia dzień/noc, standardowe baterie.<br><strong>Ograniczenia:</strong> niezbędny Hue Bridge, tylko do wnętrz, krótszy zasięg niż P2.<br><strong>Dla kogo:</strong> gospodarstwa wyposażone już w Philips Hue, które chcą rozwiązania bez skomplikowanej konfiguracji.</p>
+
+<h3>4. IKEA MYGGSPRAY — najlepszy stosunek jakości do ceny</h3>
+<p>MYGGSPRAY należy do nowej serii Matter marki IKEA. To czujnik PIR zgodny z <strong>Matter over Thread</strong>, z czujnikiem natężenia światła, zasilany dwiema bateriami AAA (IKEA poleca swoje akumulatory LADDA). Ma stopień ochrony <strong>IP67</strong>, więc nadaje się zarówno do wnętrz, jak i na zewnątrz. Działa z hubem IKEA Dirigera, ale także z Apple, Google, Amazon, Homey lub SmartThings przez router brzegowy Thread. Opublikowane niezależne recenzje wspominają o wykrywaniu na wprost w odległości rzędu 7–8 metrów oraz niezbyt dokładnym czujniku światła, który jednak wystarcza do odróżnienia dnia od nocy.</p>
+<p><strong>Mocne strony:</strong> podstawowa półka, Matter, IP67, standardowe akumulatory.<br><strong>Ograniczenia:</strong> przybliżony pomiar natężenia światła, według opinii połączenie Thread bywa kapryśne, tylko PIR.<br><strong>Dla kogo:</strong> wyposażenie kilku pomieszczeń lub zewnętrza bez dużych wydatków. Poprzedni model, IKEA VALLHORN (Zigbee, IP44), pozostaje opcją dla użytkowników huba Dirigera.</p>
+
+<h3>5. Eve Motion — wybór dla Apple Home, do wnętrz i osłoniętego zewnętrza</h3>
+<p>Eve Motion działa w standardzie <strong>Matter over Thread</strong>, ma czujnik natężenia światła i certyfikat <strong>IPX3</strong>, co pozwala na montaż na zewnątrz w miejscu osłoniętym przed warunkami atmosferycznymi (pod okapem, przy drzwiach). Eve deklaruje kąt widzenia 120 stopni i zasięg do 9 metrów przy montażu na wysokości 2 metrów. Zasilają go dwie baterie AAA, można go postawić lub przymocować do ściany. Jak wszystkie produkty Eve, działa lokalnie, bez konta w chmurze.</p>
+<p><strong>Mocne strony:</strong> dobry zasięg, użycie na zewnątrz w miejscu osłoniętym, lokalne działanie szanujące prywatność.<br><strong>Ograniczenia:</strong> średni do wyższego segment, większe gabaryty, wymagany router Thread.<br><strong>Dla kogo:</strong> użytkownicy Apple Home, którzy chcą niezawodnego czujnika do przedpokoju, zadaszonego tarasu lub garażu.</p>
+
+<h3>6. Ajax MotionProtect — czujnik klasy alarmowej</h3>
+<p>Zmiana kategorii: MotionProtect to czujnik włamaniowy zaprojektowany dla systemów alarmowych Ajax. Ignoruje zwierzęta do <strong>20 kg i 50 cm wysokości</strong>, wykrywa do 12 metrów i deklaruje do pięciu lat pracy na dołączonych bateriach. Komunikuje się z centralą przez szyfrowany protokół radiowy Jeweller, z deklarowanym zasięgiem do 1700 metrów na otwartej przestrzeni. Aktualna wersja jest zgodna z normą <strong>EN 50131 Grade 2</strong>, europejskim wzorcem dla alarmów domowych.</p>
+<p><strong>Mocne strony:</strong> odporność na zwierzęta, zgodność z EN 50131, wysoka niezawodność i długi czas pracy, bezpieczne radio.<br><strong>Ograniczenia:</strong> wymaga centrali Ajax, brak czujnika natężenia światła, mało przydatny do automatyzacji oświetlenia.<br><strong>Dla kogo:</strong> osoby, które chcą poważnego alarmu, zwłaszcza gdy w domu jest zwierzę. Zobacz też nasz materiał o <a href="/pl/blog/alarme-maison-sans-abonnement">alarmie domowym bez abonamentu</a>.</p>
+
+<p><strong>Inne opcje, które warto znać:</strong> <strong>Shelly BLU Motion</strong> (Bluetooth, bateria CR2477 deklarowana do pięciu lat, czujnik natężenia światła) dobrze wpisuje się w istniejącą instalację Shelly; <strong>SONOFF SNZB-06P</strong> to radarowy czujnik obecności w standardzie Zigbee 3.0, zasilany przez USB-C, ceniony przez użytkowników Home Assistant.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Technologia</th><th>Łączność</th><th>Zasilanie</th><th>Czujnik światła</th><th>Segment</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td>Aqara Motion and Light Sensor P2</td><td>PIR, 170°</td><td>Matter over Thread</td><td>2 baterie CR2450</td><td>Tak</td><td>Średnia</td><td>Automatyczne oświetlenie w wielu ekosystemach</td></tr>
+<tr><td>Aqara Presence Sensor FP2</td><td>Radar mmWave</td><td>Wi-Fi 2,4 GHz</td><td>USB-C (sieć)</td><td>Tak</td><td>Wyższa</td><td>Nieruchoma obecność, strefy, kilka osób</td></tr>
+<tr><td>Philips Hue Motion Sensor</td><td>PIR, 120°</td><td>Zigbee (Hue Bridge)</td><td>2 baterie AAA</td><td>Tak + temperatura</td><td>Średnia</td><td>Gospodarstwa wyposażone w Hue</td></tr>
+<tr><td>IKEA MYGGSPRAY</td><td>PIR</td><td>Matter over Thread</td><td>2 baterie AAA</td><td>Tak (przybliżony)</td><td>Podstawowa</td><td>Mały budżet, zewnętrze (IP67)</td></tr>
+<tr><td>Eve Motion</td><td>PIR, 120°</td><td>Matter over Thread</td><td>2 baterie AAA</td><td>Tak</td><td>Średnia do wyższej</td><td>Apple Home, osłonięte zewnętrze (IPX3)</td></tr>
+<tr><td>Ajax MotionProtect</td><td>PIR, odporność na zwierzęta</td><td>Jeweller (centrala Ajax)</td><td>Bateria, do 5 lat</td><td>Nie</td><td>Wyższa (+ centrala)</td><td>Alarm antywłamaniowy</td></tr>
+</tbody>
+</table>
+
+<h2>Który segment do jakiego zastosowania?</h2>
+<ul>
+<li><strong>Podstawowa półka</strong> (IKEA MYGGSPRAY, Shelly BLU Motion): idealna, by zwiększyć liczbę czujników w pomieszczeniach przejściowych. Akceptujesz mniej dokładny pomiar natężenia światła.</li>
+<li><strong>Średnia półka</strong> (Aqara P2, Philips Hue, Eve Motion): najlepsza równowaga między zasięgiem, czasem pracy, wykończeniem i integracją. Tu mieści się najlepszy stosunek jakości do ceny przy automatycznym oświetleniu.</li>
+<li><strong>Wysoka półka</strong> (Aqara FP2, Ajax MotionProtect): płacisz za konkretną funkcję, czyli prawdziwe wykrywanie obecności lub zgodność z wymogami alarmu. Warto zarezerwować je dla pomieszczeń lub zastosowań, które tego wymagają; w przypadku Ajax trzeba doliczyć także centralę.</li>
+</ul>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Używanie PIR w biurze lub salonie</strong>: światło zgaśnie, gdy pracujesz. Wybierz czujnik mmWave albo wyraźnie wydłuż czas do wyłączenia.</li>
+<li><strong>Zapomnienie o routerze Thread</strong>: czujnik Matter over Thread nie łączy się bezpośrednio z Wi-Fi. Upewnij się, że masz zgodny router brzegowy.</li>
+<li><strong>Mylenie automatyzacji z alarmem</strong>: czujnik do oświetlenia może wysłać powiadomienie, ale nie jest ani certyfikowany, ani zaprojektowany tak, by odpierać próby sabotażu. Do ochrony mieszkania wybierz czujnik zgodny z EN 50131.</li>
+<li><strong>Kierowanie czujnika w stronę źródła ciepła lub okna</strong>: grzejnik, bezpośrednie słońce lub kratka wentylacyjna powodują fałszywe wykrycia w przypadku PIR.</li>
+<li><strong>Ignorowanie zwierząt</strong>: bez odporności na zwierzęta pies lub kot będzie wywoływał alarm przy każdym przejściu.</li>
+</ul>
+
+<h2>Montaż i wskazówki użytkowania</h2>
+<p>PIR lepiej wykrywa ruch, który <em>przecina</em> jego pole, niż ruch zbliżający się wprost na niego: umieść go najlepiej z boku względem przejścia, w rogu pomieszczenia, na wysokości od 2 do 2,5 metra. Czujnik mmWave mocuje się na ścianie lub suficie w zależności od pożądanych funkcji (do wykrywania upadku w FP2 wymagany jest sufit) i należy unikać w jego zasięgu poruszających się przedmiotów, takich jak wentylator czy zasłony. Zanim zamocujesz uchwyt na stałe, sprawdź w aplikacji, jaki obszar obejmuje czujnik.</p>
+<p>Pod względem bezpieczeństwa radarowy czujnik obecności niczego nie filmuje: nie przesyła ani obrazu, ani dźwięku, więc jest do zaakceptowania w sypialni czy łazience. Wykrywanie upadku może być przydatnym uzupełnieniem dla osoby starszej, ale nie zastępuje systemu teleopieki. Wreszcie czujniki te zasilane są bateryjnie lub przez USB: nie wymagają żadnej ingerencji w instalację elektryczną.</p>
+<p>Aby dowiedzieć się więcej, zajrzyj do naszego <a href="/pl/blog/guide-securite-maison-connectee-2026">poradnika o bezpieczeństwie inteligentnego domu</a>.</p>
+
+<h2>Werdykt</h2>
+<p>Do automatyzacji oświetlenia w większości pomieszczeń <strong>Aqara Motion and Light Sensor P2</strong> oferuje najlepszy kompromis: szeroki kąt, Matter, czujnik światła i długi czas pracy. Przy ograniczonym budżecie lub na zewnątrz <strong>IKEA MYGGSPRAY</strong> zapewnia to, co najważniejsze. Tam, gdzie długo siedzi się bez ruchu, <strong>Aqara Presence Sensor FP2</strong> naprawdę zmienia komfort dzięki radarowi. Gospodarstwa z Hue zostaną przy <strong>Philips Hue Motion Sensor</strong>, użytkownicy Apple Home docenią <strong>Eve Motion</strong>, a do alarmu w domu ze zwierzętami <strong>Ajax MotionProtect</strong> pozostaje wzorcem.</p>`,
   },
   faq: [
     {
@@ -584,6 +676,7 @@ export const article: BlogArticle = {
         es: "¿Qué diferencia hay entre un sensor de movimiento y un sensor de presencia?",
         it: "Che differenza c'è tra un sensore di movimento e un sensore di presenza?",
         nl: "Wat is het verschil tussen een bewegingssensor en een aanwezigheidssensor?",
+        pl: "Jaka jest różnica między czujnikiem ruchu a czujnikiem obecności?",
       },
       answer: {
         fr: "Un détecteur de mouvement (PIR) ne réagit qu'aux déplacements : une personne immobile n'est plus détectée. Un capteur de présence à radar mmWave perçoit des micro-mouvements comme la respiration et sait donc qu'une pièce reste occupée. Le PIR fonctionne sur pile, le mmWave doit généralement être branché.",
@@ -592,6 +685,7 @@ export const article: BlogArticle = {
         es: "Un sensor de movimiento (PIR) solo reacciona a los desplazamientos: una persona inmóvil deja de detectarse. Un sensor de presencia por radar mmWave percibe micromovimientos como la respiración y sabe que la estancia sigue ocupada. El PIR funciona con pilas; el mmWave suele necesitar enchufe.",
         it: "Un sensore di movimento (PIR) reagisce solo agli spostamenti: una persona immobile non viene più rilevata. Un sensore di presenza radar mmWave percepisce micromovimenti come il respiro e sa quindi che la stanza è occupata. Il PIR funziona a batteria, il mmWave di solito va alimentato.",
         nl: "Een bewegingssensor (PIR) reageert alleen op beweging; wie stilzit, wordt niet meer gezien. Een mmWave-radar-aanwezigheidssensor neemt microbewegingen zoals ademhaling waar en weet dus dat een ruimte bezet blijft. PIR werkt op batterijen, mmWave moet meestal aan het stroomnet.",
+        pl: "Czujnik ruchu (PIR) reaguje tylko na przemieszczanie się: nieruchoma osoba przestaje być wykrywana. Czujnik obecności z radarem mmWave wychwytuje mikroruchy, takie jak oddech, więc wie, że pomieszczenie nadal jest zajęte. PIR działa na baterii, a mmWave zazwyczaj trzeba podłączyć do zasilania.",
       },
     },
     {
@@ -602,6 +696,7 @@ export const article: BlogArticle = {
         es: "¿Puede un sensor de movimiento inteligente sustituir a una alarma?",
         it: "Un sensore di movimento smart può sostituire un allarme?",
         nl: "Kan een slimme bewegingssensor een inbraakalarm vervangen?",
+        pl: "Czy inteligentny czujnik ruchu może zastąpić alarm?",
       },
       answer: {
         fr: "Pas vraiment. Un capteur prévu pour l'éclairage peut envoyer une notification, mais il n'est ni certifié ni protégé contre le sabotage. Pour protéger un logement, mieux vaut un détecteur conforme à la norme EN 50131, comme l'Ajax MotionProtect, relié à une centrale d'alarme.",
@@ -610,6 +705,7 @@ export const article: BlogArticle = {
         es: "En realidad no. Un sensor pensado para la iluminación puede enviar una notificación, pero no está certificado ni protegido contra el sabotaje. Para proteger una vivienda, es mejor un detector conforme a EN 50131, como el Ajax MotionProtect, conectado a una central de alarma.",
         it: "Non proprio. Un sensore pensato per l'illuminazione può inviare una notifica, ma non è certificato né protetto contro il sabotaggio. Per proteggere la casa è meglio un rilevatore conforme alla norma EN 50131, come l'Ajax MotionProtect, collegato a una centrale d'allarme.",
         nl: "Niet echt. Een sensor voor verlichting kan een melding sturen, maar is niet gecertificeerd en niet beschermd tegen sabotage. Voor de beveiliging van uw woning kiest u beter een detector conform EN 50131, zoals de Ajax MotionProtect, gekoppeld aan een alarmcentrale.",
+        pl: "Nie do końca. Czujnik przeznaczony do oświetlenia może wysłać powiadomienie, ale nie jest ani certyfikowany, ani zabezpieczony przed sabotażem. Do ochrony mieszkania lepszy jest czujnik zgodny z normą EN 50131, taki jak Ajax MotionProtect, połączony z centralą alarmową.",
       },
     },
     {
@@ -620,6 +716,7 @@ export const article: BlogArticle = {
         es: "¿Los sensores de movimiento reaccionan a gatos y perros?",
         it: "I sensori di movimento reagiscono a cani e gatti?",
         nl: "Reageren bewegingssensoren op katten en honden?",
+        pl: "Czy czujniki ruchu reagują na koty i psy?",
       },
       answer: {
         fr: "Oui, la plupart des capteurs grand public détectent les animaux, ce qui pose peu de problème pour l'éclairage. Pour une alarme, choisissez un détecteur à immunité animaux : l'Ajax MotionProtect ignore les animaux jusqu'à 20 kg et 50 cm de hauteur.",
@@ -628,6 +725,7 @@ export const article: BlogArticle = {
         es: "Sí, la mayoría de los sensores de consumo detectan a las mascotas, lo que apenas importa para la iluminación. Para una alarma, elija un detector inmune a mascotas: el Ajax MotionProtect ignora animales de hasta 20 kg y 50 cm de altura.",
         it: "Sì, la maggior parte dei sensori consumer rileva gli animali, cosa poco rilevante per l'illuminazione. Per un allarme scegliete un rilevatore immune agli animali: l'Ajax MotionProtect ignora animali fino a 20 kg e 50 cm di altezza.",
         nl: "Ja, de meeste consumentensensoren zien huisdieren, wat voor verlichting zelden een probleem is. Kies voor een alarm een huisdierimmune detector: de Ajax MotionProtect negeert dieren tot 20 kg en 50 cm hoog.",
+        pl: "Tak, większość czujników dla odbiorców indywidualnych wykrywa zwierzęta, co przy oświetleniu rzadko jest problemem. W przypadku alarmu wybierz czujnik odporny na zwierzęta: Ajax MotionProtect ignoruje zwierzęta do 20 kg i 50 cm wysokości.",
       },
     },
     {
@@ -638,6 +736,7 @@ export const article: BlogArticle = {
         es: "¿Cuánto dura la pila de un sensor de movimiento inteligente?",
         it: "Quanto dura la batteria di un sensore di movimento smart?",
         nl: "Hoe lang gaat de batterij van een slimme bewegingssensor mee?",
+        pl: "Jak długo wytrzymuje bateria w inteligentnym czujniku ruchu?",
       },
       answer: {
         fr: "Selon les fabricants, de un à cinq ans : environ deux ans pour l'Aqara P2 et le Philips Hue, jusqu'à cinq ans pour l'Ajax MotionProtect et le Shelly BLU Motion. L'autonomie réelle dépend du nombre de déclenchements et de la qualité de la connexion. Les capteurs mmWave, eux, sont alimentés en continu.",
@@ -646,6 +745,7 @@ export const article: BlogArticle = {
         es: "Según los fabricantes, de uno a cinco años: unos dos años para el Aqara P2 y el Philips Hue, hasta cinco años para el Ajax MotionProtect y el Shelly BLU Motion. La duración real depende del número de activaciones y de la calidad de la conexión. Los sensores mmWave se alimentan de forma continua.",
         it: "Secondo i produttori, da uno a cinque anni: circa due anni per l'Aqara P2 e il Philips Hue, fino a cinque anni per l'Ajax MotionProtect e lo Shelly BLU Motion. La durata reale dipende dal numero di attivazioni e dalla qualità del collegamento. I sensori mmWave sono invece alimentati in continuo.",
         nl: "Volgens de fabrikanten één tot vijf jaar: ongeveer twee jaar voor de Aqara P2 en Philips Hue, tot vijf jaar voor de Ajax MotionProtect en Shelly BLU Motion. De werkelijke duur hangt af van het aantal activeringen en de verbindingskwaliteit. mmWave-sensoren krijgen continu stroom.",
+        pl: "Według producentów od jednego do pięciu lat: około dwóch lat w przypadku Aqara P2 i Philips Hue, do pięciu lat w Ajax MotionProtect i Shelly BLU Motion. Rzeczywisty czas pracy zależy od liczby wyzwoleń i jakości połączenia. Czujniki mmWave są natomiast zasilane w sposób ciągły.",
       },
     },
     {
@@ -656,6 +756,7 @@ export const article: BlogArticle = {
         es: "¿Hace falta un hub para usar un sensor de movimiento inteligente?",
         it: "Serve un hub per usare un sensore di movimento smart?",
         nl: "Heb ik een hub nodig voor een slimme bewegingssensor?",
+        pl: "Czy do inteligentnego czujnika ruchu potrzebny jest hub?",
       },
       answer: {
         fr: "Cela dépend du protocole. Les capteurs Matter over Thread (Aqara P2, IKEA MYGGSPRAY, Eve Motion) demandent un routeur de bordure Thread, souvent déjà présent dans une enceinte ou un boîtier TV récent. Le Philips Hue exige le Hue Bridge, l'Ajax une centrale Ajax ; l'Aqara FP2 se connecte directement en Wi-Fi.",
@@ -664,6 +765,7 @@ export const article: BlogArticle = {
         es: "Depende del protocolo. Los sensores Matter over Thread (Aqara P2, IKEA MYGGSPRAY, Eve Motion) necesitan un router de borde Thread, a menudo ya integrado en un altavoz o un reproductor de TV recientes. El Philips Hue requiere el Hue Bridge y Ajax una central Ajax; el Aqara FP2 se conecta directamente por Wi-Fi.",
         it: "Dipende dal protocollo. I sensori Matter over Thread (Aqara P2, IKEA MYGGSPRAY, Eve Motion) richiedono un border router Thread, spesso già integrato in uno smart speaker o in un box TV recenti. Il Philips Hue richiede l'Hue Bridge, Ajax una centrale Ajax; l'Aqara FP2 si collega direttamente al Wi-Fi.",
         nl: "Dat hangt af van het protocol. Matter over Thread-sensoren (Aqara P2, IKEA MYGGSPRAY, Eve Motion) hebben een Thread-borderrouter nodig, vaak al ingebouwd in een recente slimme speaker of tv-box. De Philips Hue vereist de Hue Bridge en Ajax een Ajax-centrale; de Aqara FP2 verbindt rechtstreeks via wifi.",
+        pl: "To zależy od protokołu. Czujniki Matter over Thread (Aqara P2, IKEA MYGGSPRAY, Eve Motion) wymagają routera brzegowego Thread, często wbudowanego już w nowszy głośnik lub dekoder TV. Philips Hue wymaga Hue Bridge, Ajax centrali Ajax; Aqara FP2 łączy się bezpośrednio przez Wi-Fi.",
       },
     },
     {
@@ -674,6 +776,7 @@ export const article: BlogArticle = {
         es: "¿Se puede instalar un sensor de movimiento inteligente en exterior?",
         it: "Si può installare un sensore di movimento smart all'esterno?",
         nl: "Kan een slimme bewegingssensor buiten worden gebruikt?",
+        pl: "Czy inteligentny czujnik ruchu można zamontować na zewnątrz?",
       },
       answer: {
         fr: "Oui, si son indice de protection le permet. L'IKEA MYGGSPRAY est homologué IP67 pour l'intérieur comme l'extérieur, l'Eve Motion (IPX3) convient à un emplacement abrité. Le Philips Hue Motion Sensor intérieur, lui, est réservé à l'intérieur : vérifiez toujours l'indice IP avant d'installer un capteur dehors.",
@@ -682,6 +785,7 @@ export const article: BlogArticle = {
         es: "Sí, si su índice de protección lo permite. El IKEA MYGGSPRAY está homologado IP67 para interior y exterior, y el Eve Motion (IPX3) sirve para un lugar resguardado. El Philips Hue Motion Sensor de interior solo sirve dentro de casa: compruebe siempre el índice IP antes de instalar un sensor fuera.",
         it: "Sì, se il grado di protezione lo consente. L'IKEA MYGGSPRAY è omologato IP67 per interno ed esterno, l'Eve Motion (IPX3) è adatto a un punto riparato. Il Philips Hue Motion Sensor da interno è pensato solo per l'interno: controllate sempre il grado IP prima di installare un sensore fuori.",
         nl: "Ja, als de beschermingsgraad het toelaat. De IKEA MYGGSPRAY heeft IP67 voor binnen en buiten, de Eve Motion (IPX3) past op een beschutte plek. De Philips Hue Motion Sensor voor binnen is alleen voor binnengebruik: controleer altijd de IP-klasse voordat u een sensor buiten monteert.",
+        pl: "Tak, jeśli pozwala na to jego stopień ochrony. IKEA MYGGSPRAY ma stopień IP67 i nadaje się do wnętrz oraz na zewnątrz, Eve Motion (IPX3) sprawdzi się w miejscu osłoniętym. Wewnętrzny Philips Hue Motion Sensor jest natomiast przeznaczony tylko do wnętrz: zawsze sprawdź stopień IP przed montażem czujnika na zewnątrz.",
       },
     },
   ],

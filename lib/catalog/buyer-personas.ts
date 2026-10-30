@@ -63,6 +63,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Familia de 4 personas',
       it: 'Famiglia di 4 persone',
       nl: 'Gezin van 4',
+      pl: 'Rodzina 4 os.',
     },
   },
   {
@@ -76,6 +77,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Persona soltera',
       it: 'Single',
       nl: 'Alleenstaande',
+      pl: 'Singiel',
     },
   },
   {
@@ -89,6 +91,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Pareja',
       it: 'Coppia',
       nl: 'Stel',
+      pl: 'Para',
     },
   },
   {
@@ -107,6 +110,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Piso compartido',
       it: 'Coinquilini',
       nl: 'Gedeeld huis',
+      pl: 'Współlokatorzy',
     },
   },
   {
@@ -125,6 +129,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Persona mayor',
       it: 'Anziano',
       nl: 'Senior',
+      pl: 'Senior',
     },
   },
   {
@@ -138,6 +143,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Estudiante',
       it: 'Studente',
       nl: 'Student',
+      pl: 'Student',
     },
   },
 
@@ -155,6 +161,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Económico (menos de 100 €)',
       it: 'Economico (meno di 100 €)',
       nl: 'Goedkoop (onder €100)',
+      pl: 'Tanio (poniżej 400 zł)',
     },
   },
   {
@@ -168,6 +175,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Gama media',
       it: 'Fascia media',
       nl: 'Middenklasse',
+      pl: 'Średnia półka',
     },
   },
   {
@@ -181,6 +189,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Gama alta',
       it: 'Fascia alta',
       nl: 'Topklasse',
+      pl: 'Premium',
     },
   },
   {
@@ -194,6 +203,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Mejor relación calidad-precio',
       it: 'Miglior rapporto qualità-prezzo',
       nl: 'Beste prijs-kwaliteitverhouding',
+      pl: 'Najlepsza opłacalność',
     },
   },
 
@@ -211,6 +221,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Uso diario',
       it: 'Uso quotidiano',
       nl: 'Dagelijks gebruik',
+      pl: 'Na co dzień',
     },
   },
   {
@@ -224,6 +235,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Uso ocasional',
       it: 'Uso occasionale',
       nl: 'Incidenteel gebruik',
+      pl: 'Okazjonalnie',
     },
   },
   {
@@ -237,6 +249,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Cocina rápida',
       it: 'Cucina veloce',
       nl: 'Snel koken',
+      pl: 'Szybkie gotowanie',
     },
   },
   {
@@ -250,6 +263,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Meal prep',
       it: 'Meal prep',
       nl: 'Meal prep',
+      pl: 'Meal prep',
     },
   },
   {
@@ -263,6 +277,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Principiante',
       it: 'Principiante',
       nl: 'Beginner',
+      pl: 'Początkujący',
     },
   },
 
@@ -285,6 +300,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Espacio pequeño',
       it: 'Spazio ridotto',
       nl: 'Kleine ruimte',
+      pl: 'Mało miejsca',
     },
   },
   {
@@ -303,6 +319,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Sin instalación',
       it: 'Senza installazione',
       nl: 'Zonder installatie',
+      pl: 'Bez instalacji',
     },
   },
   {
@@ -321,6 +338,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Silencioso',
       it: 'Silenzioso',
       nl: 'Stil',
+      pl: 'Cichy',
     },
   },
   {
@@ -334,6 +352,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Compatible con Alexa',
       it: 'Compatibile con Alexa',
       nl: 'Alexa-compatibel',
+      pl: 'Zgodny z Alexa',
     },
   },
   {
@@ -347,6 +366,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Compatible con Google Home',
       it: 'Compatibile con Google Home',
       nl: 'Google Home-compatibel',
+      pl: 'Zgodny z Google Home',
     },
   },
   {
@@ -365,6 +385,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Compatible con Matter',
       it: 'Compatibile con Matter',
       nl: 'Matter-compatibel',
+      pl: 'Zgodny z Matter',
     },
   },
   {
@@ -378,6 +399,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'RGPD estricto',
       it: 'GDPR rigoroso',
       nl: 'AVG-strikt',
+      pl: 'Ścisłe RODO',
     },
   },
   {
@@ -397,6 +419,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Funciona sin conexión',
       it: 'Funziona offline',
       nl: 'Werkt offline',
+      pl: 'Działa offline',
     },
   },
   {
@@ -415,6 +438,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Ahorro de energía',
       it: 'Risparmio energetico',
       nl: 'Energiebesparend',
+      pl: 'Energooszczędny',
     },
   },
 
@@ -433,6 +457,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Propietarios de mascotas',
       it: 'Proprietari di animali',
       nl: 'Huisdiereigenaren',
+      pl: 'Ze zwierzętami',
     },
   },
   {
@@ -446,6 +471,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Familia numerosa (5+ personas)',
       it: 'Famiglia numerosa (5+ persone)',
       nl: 'Groot gezin (5+ personen)',
+      pl: 'Duża rodzina (5+ osób)',
     },
   },
   {
@@ -459,6 +485,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Teletrabajo en casa',
       it: 'Smart working da casa',
       nl: 'Thuiswerken',
+      pl: 'Praca zdalna w domu',
     },
   },
   {
@@ -472,6 +499,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Bebé y niño pequeño',
       it: 'Neonato e bambino piccolo',
       nl: 'Baby en peuter',
+      pl: 'Niemowlę i maluch',
     },
   },
 
@@ -490,6 +518,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Inquilino (sin taladrar)',
       it: 'Inquilino (senza forare)',
       nl: 'Huurder (zonder boren)',
+      pl: 'Najemca (bez wiercenia)',
     },
   },
   {
@@ -503,6 +532,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Ecoconsciente',
       it: 'Eco-consapevole',
       nl: 'Milieubewust',
+      pl: 'Ekologiczny wybór',
     },
   },
   {
@@ -516,6 +546,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Primera vivienda',
       it: 'Prima casa',
       nl: 'Eerste huis',
+      pl: 'Pierwszy dom',
     },
   },
 ] as const

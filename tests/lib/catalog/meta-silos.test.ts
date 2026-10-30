@@ -2,11 +2,12 @@
  * Phase Y — meta-silo catalog parity.
  *
  * These tests are the load-bearing invariants for the war machine.
- * Every meta-silo ships six locales, exactly one is the flagship,
+ * Every meta-silo ships every site locale, exactly one is the flagship,
  * slugs are URL-safe, priorities are unique. If any of this drifts
  * the Moteur generators start emitting garbage URLs.
  */
 
+import { LANGUAGES } from '@/lib/i18n'
 import { describe, it, expect } from 'vitest'
 import {
   META_SILOS,
@@ -15,7 +16,7 @@ import {
   getIndexableSilos,
 } from '@/lib/catalog/meta-silos'
 
-const LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
+const LANGS = LANGUAGES
 const SLUG_RE = /^[a-z0-9-]+$/
 
 describe('META_SILOS', () => {
@@ -48,7 +49,7 @@ describe('META_SILOS', () => {
   })
 
   it.each(['title', 'description'] as const)(
-    '%s is populated for all 6 locales on every silo',
+    '%s is populated for every locale on every silo',
     (field) => {
       for (const s of META_SILOS) {
         const record = s[field]

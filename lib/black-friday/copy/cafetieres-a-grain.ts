@@ -135,4 +135,26 @@ export const BEAN_TO_CUP_COPY: Record<Lang, BlackFridayCategoryCopy> = {
       },
     ],
   },
+  pl: {
+    name: 'Automatyczne ekspresy do kawy',
+    h1: `Black Friday ${Y}: automatyczne ekspresy do kawy, które warto mieć na oku`,
+    metaTitle: `Black Friday ${Y}: automatyczne ekspresy do kawy`,
+    metaDescription: `Automatyczne ekspresy do kawy na Black Friday ${Y}: De'Longhi, Philips, Krups. System mleka, konserwacja, zbiornik: co sprawdzić.`,
+    blurb: "De'Longhi, Philips, Krups: najpierw system mleka i konserwacja.",
+    intro: 'Automatyczny ekspres do kawy kupuje się na lata. Podczas Black Friday porównaj najpierw system mleka i łatwość czyszczenia: na co dzień liczą się bardziej niż liczba dostępnych napojów.',
+    faq: [
+      {
+        question: 'Dzbanek na mleko czy dysza parowa?',
+        answer: 'Dzbanek lub automatyczny system mleka przygotowuje cappuccino i latte macchiato jednym dotknięciem. Dysza parowa wymaga nieco wprawy, ale łatwo ją wyczyścić. Jeśli pijesz głównie espresso, system mleka ma niewielkie znaczenie.',
+      },
+      {
+        question: 'Czy aplikacja przydaje się w ekspresie do kawy?',
+        answer: 'Rzadko jest niezbędna: służy głównie do zapamiętywania napojów lub śledzenia konserwacji. Ekspresy z tego zestawienia bez problemu ustawisz bezpośrednio na urządzeniu.',
+      },
+      {
+        question: 'Jak wygląda konserwacja ekspresu?',
+        answer: 'Po użyciu przepłucz układ mleka, opróżnij pojemnik na fusy i odkamieniaj ekspres zgodnie z twardością wody. System mleka bez rurek, taki jak Philips LatteGo, szybciej się rozkłada i myje.',
+      },
+    ],
+  },
 }

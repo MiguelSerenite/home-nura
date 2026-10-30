@@ -1,3 +1,4 @@
+import { LANGUAGES } from '@/lib/i18n'
 import { describe, it, expect } from 'vitest'
 import {
   getAllArticles,
@@ -10,7 +11,6 @@ import {
 import { CATEGORIES } from '@/lib/blog/types'
 import type { BlogArticle } from '@/lib/blog/types'
 
-const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
 const VALID_CATEGORIES: BlogArticle['category'][] = [
   'tests',
   'guides',
@@ -44,7 +44,7 @@ describe('getAllArticles', () => {
     }
   })
 
-  it('every article has title and excerpt for all 6 locales', () => {
+  it('every article has title and excerpt for every locale', () => {
     for (const a of getAllArticles()) {
       for (const lang of LANGUAGES) {
         expect(a.title[lang], `${a.slug} missing title.${lang}`).toBeTruthy()
@@ -161,7 +161,7 @@ describe('getArticleMetas', () => {
 })
 
 describe('CATEGORIES i18n map', () => {
-  it('covers all 5 categories in all 6 locales', () => {
+  it('covers all 5 categories in every locale', () => {
     for (const cat of VALID_CATEGORIES) {
       for (const lang of LANGUAGES) {
         expect(CATEGORIES[cat]?.[lang], `CATEGORIES.${cat}.${lang} missing`).toBeTruthy()

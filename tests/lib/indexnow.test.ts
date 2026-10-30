@@ -12,13 +12,18 @@ describe('IndexNow', () => {
     expect(INDEXNOW_KEY).toMatch(/^[a-f0-9]{32}$/)
   })
 
+  // Building the full sitemap (7 locales, page images) takes a few seconds,
+  // more when the suite runs in parallel.
+  const SITEMAP_TIMEOUT_MS = 30_000
+
   it('expands sitemap entries to every locale variant without duplicates', () => {
     const urls = urlsFromSitemap(sitemap())
     expect(urls).toContain(`${BASE_URL}/fr/blog`)
     expect(urls).toContain(`${BASE_URL}/de/blog`)
     expect(urls).toContain(`${BASE_URL}/nl/methodologie`)
+    expect(urls).toContain(`${BASE_URL}/pl/methodologie`)
     expect(new Set(urls).size).toBe(urls.length)
-  })
+  }, SITEMAP_TIMEOUT_MS)
 
   it('splits submissions into protocol-sized batches carrying host and key location', () => {
     const urls = Array.from({ length: INDEXNOW_MAX_URLS + 5 }, (_, i) => `${BASE_URL}/fr/p${i}`)

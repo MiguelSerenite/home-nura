@@ -145,6 +145,15 @@ const uiStrings: Record<Lang, BestForUi> = {
     methodologyCta: 'Lees onze methodologie',
     primaryCta: 'Aanbevolen producten bekijken',
   },
+  pl: {
+    home: 'Start',
+    guides: 'Zestawienia',
+    otherPersonasTitle: 'Inne profile pasujące do tej kategorii',
+    backToCategoryLabel: 'Wróć do kategorii',
+    faqTitle: 'Najczęstsze pytania',
+    methodologyCta: 'Poznaj naszą metodologię',
+    primaryCta: 'Zobacz polecane produkty',
+  },
 }
 
 export async function generateStaticParams() {

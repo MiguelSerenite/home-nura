@@ -135,4 +135,26 @@ export const ROBOT_VACUUMS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
       },
     ],
   },
+  pl: {
+    name: 'Roboty odkurzające i mopujące',
+    h1: `Black Friday ${Y}: roboty odkurzające i mopujące, które warto mieć na oku`,
+    metaTitle: `Black Friday ${Y}: roboty odkurzające warte uwagi`,
+    metaDescription: `Roboty odkurzające i mopujące na Black Friday ${Y} (Roborock, Dreame) oraz co sprawdzić przed zakupem.`,
+    blurb: 'Roborock i Dreame: nawigacja LiDAR, stacja opróżniająca, nakładki mopujące.',
+    intro: 'Roboty odkurzające i mopujące należą do najbardziej wyczekiwanych urządzeń Black Friday. Wersje tego samego modelu często różnią się stacją (opróżnianie, mycie nakładek, suszenie): sprawdź, czy oferta dotyczy właśnie wymienionej wersji.',
+    faq: [
+      {
+        question: 'Sam robot odkurzający czy robot z funkcją mopowania?',
+        answer: 'Na twardych podłogach robot, który także myje, oszczędza ci codziennego mopowania. Na wykładzinach i grubych dywanach często wystarczy robot odkurzający z dobrą szczotką i automatycznym opróżnianiem.',
+      },
+      {
+        question: 'Czy automatyczna stacja opróżniająca jest niezbędna?',
+        answer: 'Nie jest niezbędna, ale oszczędza opróżniania pojemnika po każdym sprzątaniu: od czasu do czasu wymieniasz tylko worek w stacji. Przy zwierzętach domowych to najbardziej przydatna opcja.',
+      },
+      {
+        question: 'Na co uważać podczas promocji?',
+        answer: 'Na nazwy modeli: edycja „Complete”, „Plus” lub „Ultra” oznacza inną stację i inne akcesoria. Porównuj dokładny numer modelu i zawartość pudełka, a nie tylko wysokość rabatu.',
+      },
+    ],
+  },
 }

@@ -12,6 +12,7 @@ export const AMAZON_ASSOCIATE_DISCLOSURE: Readonly<Record<Lang, string>> = {
   it: 'In qualità di Affiliato Amazon io ricevo un guadagno dagli acquisti idonei.',
   es: 'Como Afiliado de Amazon, obtengo ingresos por las compras adscritas que cumplen los requisitos aplicables.',
   nl: 'Als Amazon Associate verdien ik aan in aanmerking komende aankopen.',
+  pl: 'Jestem Partnerem Amazon i otrzymuję wynagrodzenie z tytułu określonych zakupów dokonywanych za moim pośrednictwem.',
 }
 
 export function amazonAssociateDisclosure(lang: string): string {

@@ -189,6 +189,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
     es: 'Preguntas frecuentes',
     it: 'Domande frequenti',
     nl: 'Veelgestelde vragen',
+    pl: 'Najczęstsze pytania',
   }
 
   const dateFormatted = new Date(article.datePublished).toLocaleDateString(
@@ -230,11 +231,11 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
               <div className="w-8 h-8 rounded-full bg-gradient-to-br from-brand-500 to-accent-600 flex items-center justify-center text-white text-xs font-bold">MS</div>
               <span className="font-medium text-slate-600">Miguel Serenite</span>
             </div>
-            <span>{lang === 'fr' ? 'Publié le' : lang === 'de' ? 'Veröffentlicht am' : lang === 'es' ? 'Publicado el' : lang === 'it' ? 'Pubblicato il' : lang === 'nl' ? 'Gepubliceerd op' : 'Published'} {dateFormatted}</span>
+            <span>{lang === 'fr' ? 'Publié le' : lang === 'de' ? 'Veröffentlicht am' : lang === 'es' ? 'Publicado el' : lang === 'it' ? 'Pubblicato il' : lang === 'nl' ? 'Gepubliceerd op' : lang === 'pl' ? 'Opublikowano' : 'Published'} {dateFormatted}</span>
             {article.dateModified !== article.datePublished && (
-              <span>{lang === 'fr' ? 'Mis à jour le' : lang === 'de' ? 'Aktualisiert am' : lang === 'es' ? 'Actualizado el' : lang === 'it' ? 'Aggiornato il' : lang === 'nl' ? 'Bijgewerkt op' : 'Updated'} {modifiedFormatted}</span>
+              <span>{lang === 'fr' ? 'Mis à jour le' : lang === 'de' ? 'Aktualisiert am' : lang === 'es' ? 'Actualizado el' : lang === 'it' ? 'Aggiornato il' : lang === 'nl' ? 'Bijgewerkt op' : lang === 'pl' ? 'Zaktualizowano' : 'Updated'} {modifiedFormatted}</span>
             )}
-            <span>{article.readingTime} min {lang === 'fr' ? 'de lecture' : lang === 'de' ? 'Lesezeit' : lang === 'es' ? 'de lectura' : lang === 'it' ? 'di lettura' : lang === 'nl' ? 'leestijd' : 'read'}</span>
+            <span>{article.readingTime} min {lang === 'fr' ? 'de lecture' : lang === 'de' ? 'Lesezeit' : lang === 'es' ? 'de lectura' : lang === 'it' ? 'di lettura' : lang === 'nl' ? 'leestijd' : lang === 'pl' ? 'czytania' : 'read'}</span>
           </div>
         </header>
 
@@ -288,12 +289,12 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
         {/* Pillar Link */}
         <div className="mt-12 p-6 bg-gradient-to-br from-brand-50 to-accent-50 rounded-2xl border border-brand-100">
           <p className="text-sm font-bold text-brand-900 mb-2">
-            {lang === 'fr' ? 'Article issu de notre guide complet' : lang === 'de' ? 'Artikel aus unserem umfassenden Ratgeber' : lang === 'es' ? 'Artículo de nuestra guía completa' : lang === 'it' ? 'Articolo dalla nostra guida completa' : lang === 'nl' ? 'Artikel uit onze complete gids' : 'Article from our comprehensive guide'}
+            {lang === 'fr' ? 'Article issu de notre guide complet' : lang === 'de' ? 'Artikel aus unserem umfassenden Ratgeber' : lang === 'es' ? 'Artículo de nuestra guía completa' : lang === 'it' ? 'Articolo dalla nostra guida completa' : lang === 'nl' ? 'Artikel uit onze complete gids' : lang === 'pl' ? 'Artykuł z naszego kompletnego poradnika' : 'Article from our comprehensive guide'}
           </p>
           <Link href={`/${lang}/${article.pillar}`} className="inline-flex min-h-11 items-center text-brand-700 font-bold hover:underline text-lg">
             {pillarSilo
               ? `${pillarSilo.title[lang] ?? pillarSilo.title.fr} →`
-              : lang === 'fr' ? 'Voir le guide complet des airfryers 2026 →' : lang === 'de' ? 'Zum kompletten Airfryer-Ratgeber 2026 →' : lang === 'es' ? 'Ver la guía completa de freidoras 2026 →' : lang === 'it' ? 'Vai alla guida completa 2026 →' : lang === 'nl' ? 'Naar de complete airfryer-gids 2026 →' : 'See the complete air fryer guide 2026 →'}
+              : lang === 'fr' ? 'Voir le guide complet des airfryers 2026 →' : lang === 'de' ? 'Zum kompletten Airfryer-Ratgeber 2026 →' : lang === 'es' ? 'Ver la guía completa de freidoras 2026 →' : lang === 'it' ? 'Vai alla guida completa 2026 →' : lang === 'nl' ? 'Naar de complete airfryer-gids 2026 →' : lang === 'pl' ? 'Zobacz kompletny poradnik po frytkownicach beztłuszczowych 2026 →' : 'See the complete air fryer guide 2026 →'}
           </Link>
         </div>
 
@@ -309,7 +310,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
         {related.length > 0 && (
           <section className="mt-16 border-t border-slate-100 pt-12">
             <h2 className="text-2xl font-bold mb-8">
-              {lang === 'fr' ? 'Articles connexes' : lang === 'de' ? 'Verwandte Artikel' : lang === 'es' ? 'Artículos relacionados' : lang === 'it' ? 'Articoli correlati' : lang === 'nl' ? 'Gerelateerde artikelen' : 'Related Articles'}
+              {lang === 'fr' ? 'Articles connexes' : lang === 'de' ? 'Verwandte Artikel' : lang === 'es' ? 'Artículos relacionados' : lang === 'it' ? 'Articoli correlati' : lang === 'nl' ? 'Gerelateerde artikelen' : lang === 'pl' ? 'Powiązane artykuły' : 'Related Articles'}
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {related.map(r => (

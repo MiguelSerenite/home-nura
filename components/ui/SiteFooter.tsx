@@ -77,6 +77,21 @@ const FOOTER_LABELS: Record<Lang, Record<FooterKey, string>> = {
     methodology: 'Methodologie', about: 'Over ons', legal: 'Juridische informatie',
     privacy: 'Privacy', cookies: 'Cookies',
   },
+  pl: {
+    home: 'Start',
+    guide: 'Poradnik frytkownic',
+    comparator: 'Porównywarka frytkownic',
+    smartKitchen: 'Kuchnia smart',
+    smartKitchenComparator: 'Porównywarka kuchni smart',
+    quiz: 'Quiz frytkownic',
+    smartKitchenQuiz: 'Quiz kuchni smart',
+    blog: 'Blog',
+    methodology: 'Metodologia',
+    about: 'O nas',
+    legal: 'Nota prawna',
+    privacy: 'Prywatność',
+    cookies: 'Cookies',
+  },
 }
 
 /**

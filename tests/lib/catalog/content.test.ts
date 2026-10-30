@@ -12,6 +12,7 @@
  *     be wrong in other silos (the "airfryer" smoke test)
  */
 
+import { LANGUAGES } from '@/lib/i18n'
 import { describe, it, expect } from 'vitest'
 import { CATEGORIES } from '@/lib/catalog/categories'
 import {
@@ -35,7 +36,7 @@ import {
   getIndexableCategories,
 } from '@/lib/catalog/categories'
 
-const LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
+const LANGS = LANGUAGES
 
 describe('getCategoryHero', () => {
   it('returns a populated hero block for every category × locale', () => {

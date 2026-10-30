@@ -15,6 +15,7 @@ const countries: ReadonlyArray<{ code: Lang; flag: string; label: string; name: 
   { code: 'es', flag: '🇪🇸', label: 'ES', name: 'Español' },
   { code: 'it', flag: '🇮🇹', label: 'IT', name: 'Italiano' },
   { code: 'nl', flag: '🇳🇱', label: 'NL', name: 'Nederlands' },
+  { code: 'pl', flag: '🇵🇱', label: 'PL', name: 'Polski' },
 ]
 
 function rememberLocale(code: string) {
@@ -24,23 +25,23 @@ function rememberLocale(code: string) {
 
 /* ── i18n labels ─────────────────────────────────────────── */
 const t: Record<string, Record<string, string>> = {
-  guide:        { fr: 'Guide', de: 'Ratgeber', es: 'Guía', it: 'Guida', nl: 'Gids', en: 'Guide' },
-  comparatif:   { fr: 'Comparatif', de: 'Vergleich', es: 'Comparativa', it: 'Confronto', nl: 'Vergelijking', en: 'Comparison' },
-  smartKitchen: { fr: 'Cuisine connectée', de: 'Smarte Küche', es: 'Cocina conectada', it: 'Cucina connessa', nl: 'Slimme keuken', en: 'Smart kitchen' },
-  maison:       { fr: 'Maison connectée', de: 'Smart Home', es: 'Casa conectada', it: 'Casa connessa', nl: 'Smart wonen', en: 'Smart home' },
-  blog:         { fr: 'Blog', de: 'Blog', es: 'Blog', it: 'Blog', nl: 'Blog', en: 'Blog' },
-  quiz:         { fr: 'Quiz', de: 'Quiz', es: 'Quiz', it: 'Quiz', nl: 'Quiz', en: 'Quiz' },
-  methodologie: { fr: 'Méthodologie', de: 'Methodik', es: 'Metodología', it: 'Metodologia', nl: 'Methodologie', en: 'Methodology' },
-  about:        { fr: 'À propos', de: 'Über uns', es: 'Sobre nosotros', it: 'Chi siamo', nl: 'Over ons', en: 'About' },
-  openMenu:     { fr: 'Ouvrir le menu', de: 'Menü öffnen', es: 'Abrir menú', it: 'Apri menu', nl: 'Menu openen', en: 'Open menu' },
-  closeMenu:    { fr: 'Fermer le menu', de: 'Menü schließen', es: 'Cerrar menú', it: 'Chiudi menu', nl: 'Menu sluiten', en: 'Close menu' },
-  langue:       { fr: 'Langue / Région', de: 'Sprache / Region', es: 'Idioma / Región', it: 'Lingua / Regione', nl: 'Taal / Regio', en: 'Language / Region' },
+  guide:        { fr: 'Guide', de: 'Ratgeber', es: 'Guía', it: 'Guida', nl: 'Gids', pl: 'Poradnik', en: 'Guide' },
+  comparatif:   { fr: 'Comparatif', de: 'Vergleich', es: 'Comparativa', it: 'Confronto', nl: 'Vergelijking', pl: 'Porównanie', en: 'Comparison' },
+  smartKitchen: { fr: 'Cuisine connectée', de: 'Smarte Küche', es: 'Cocina conectada', it: 'Cucina connessa', nl: 'Slimme keuken', pl: 'Inteligentna kuchnia', en: 'Smart kitchen' },
+  maison:       { fr: 'Maison connectée', de: 'Smart Home', es: 'Casa conectada', it: 'Casa connessa', nl: 'Smart wonen', pl: 'Inteligentny dom', en: 'Smart home' },
+  blog:         { fr: 'Blog', de: 'Blog', es: 'Blog', it: 'Blog', nl: 'Blog', pl: 'Blog', en: 'Blog' },
+  quiz:         { fr: 'Quiz', de: 'Quiz', es: 'Quiz', it: 'Quiz', nl: 'Quiz', pl: 'Quiz', en: 'Quiz' },
+  methodologie: { fr: 'Méthodologie', de: 'Methodik', es: 'Metodología', it: 'Metodologia', nl: 'Methodologie', pl: 'Metodologia', en: 'Methodology' },
+  about:        { fr: 'À propos', de: 'Über uns', es: 'Sobre nosotros', it: 'Chi siamo', nl: 'Over ons', pl: 'O nas', en: 'About' },
+  openMenu:     { fr: 'Ouvrir le menu', de: 'Menü öffnen', es: 'Abrir menú', it: 'Apri menu', nl: 'Menu openen', pl: 'Otwórz menu', en: 'Open menu' },
+  closeMenu:    { fr: 'Fermer le menu', de: 'Menü schließen', es: 'Cerrar menú', it: 'Chiudi menu', nl: 'Menu sluiten', pl: 'Zamknij menu', en: 'Close menu' },
+  langue:       { fr: 'Langue / Région', de: 'Sprache / Region', es: 'Idioma / Región', it: 'Lingua / Regione', nl: 'Taal / Regio', pl: 'Język / Region', en: 'Language / Region' },
   /* Silo labels */
-  securite:   { fr: 'Sécurité maison', de: 'Haussicherheit', es: 'Seguridad hogar', it: 'Sicurezza casa', nl: 'Huisbeveiliging', en: 'Home security' },
-  energie:    { fr: 'Énergie & domotique', de: 'Energie & Smart Home', es: 'Energía & domótica', it: 'Energia & domotica', nl: 'Energie & domotica', en: 'Energy & smart home' },
-  confort:    { fr: 'Confort & air', de: 'Komfort & Luft', es: 'Confort & aire', it: 'Comfort & aria', nl: 'Comfort & lucht', en: 'Comfort & air' },
-  entretien:  { fr: 'Entretien maison', de: 'Haushaltsgeräte', es: 'Limpieza hogar', it: 'Pulizia casa', nl: 'Huishoudelijk', en: 'Home care' },
-  outdoor:    { fr: 'Jardin & outdoor', de: 'Garten & outdoor', es: 'Jardín & outdoor', it: 'Giardino & outdoor', nl: 'Tuin & outdoor', en: 'Garden & outdoor' },
+  securite:   { fr: 'Sécurité maison', de: 'Haussicherheit', es: 'Seguridad hogar', it: 'Sicurezza casa', nl: 'Huisbeveiliging', pl: 'Ochrona domu', en: 'Home security' },
+  energie:    { fr: 'Énergie & domotique', de: 'Energie & Smart Home', es: 'Energía & domótica', it: 'Energia & domotica', nl: 'Energie & domotica', pl: 'Energia i smart home', en: 'Energy & smart home' },
+  confort:    { fr: 'Confort & air', de: 'Komfort & Luft', es: 'Confort & aire', it: 'Comfort & aria', nl: 'Comfort & lucht', pl: 'Komfort i klimat', en: 'Comfort & air' },
+  entretien:  { fr: 'Entretien maison', de: 'Haushaltsgeräte', es: 'Limpieza hogar', it: 'Pulizia casa', nl: 'Huishoudelijk', pl: 'Sprzątanie', en: 'Home care' },
+  outdoor:    { fr: 'Jardin & outdoor', de: 'Garten & outdoor', es: 'Jardín & outdoor', it: 'Giardino & outdoor', nl: 'Tuin & outdoor', pl: 'Ogród i outdoor', en: 'Garden & outdoor' },
 }
 
 const l = (key: string, lang: string) => t[key]?.[lang] ?? t[key]?.en ?? key

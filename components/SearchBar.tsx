@@ -22,6 +22,7 @@ const placeholders: Record<string, string> = {
   es: 'Buscar una freidora…',
   it: 'Cerca una friggitrice…',
   nl: 'Zoek een airfryer…',
+  pl: 'Szukaj frytkownicy…',
 }
 
 const emptyLabels: Record<string, string> = {
@@ -31,6 +32,7 @@ const emptyLabels: Record<string, string> = {
   es: 'Ningún modelo encontrado',
   it: 'Nessun modello trovato',
   nl: 'Geen model gevonden',
+  pl: 'Nie znaleziono modelu',
 }
 
 const hintLabels: Record<string, string> = {
@@ -40,6 +42,7 @@ const hintLabels: Record<string, string> = {
   es: 'Prueba con "Ninja", "Philips" o "9.5L"',
   it: 'Prova con "Ninja", "Philips" o "9.5L"',
   nl: 'Probeer "Ninja", "Philips" of "9.5L"',
+  pl: 'Spróbuj „Ninja”, „Philips” lub „9.5L”',
 }
 
 const searchLabel: Record<string, string> = {
@@ -49,6 +52,7 @@ const searchLabel: Record<string, string> = {
   es: 'Buscar',
   it: 'Cerca',
   nl: 'Zoeken',
+  pl: 'Szukaj',
 }
 
 const closeLabel: Record<string, string> = {
@@ -58,6 +62,7 @@ const closeLabel: Record<string, string> = {
   es: 'Cerrar búsqueda',
   it: 'Chiudi ricerca',
   nl: 'Zoeken sluiten',
+  pl: 'Zamknij wyszukiwarkę',
 }
 
 export default function SearchBar({

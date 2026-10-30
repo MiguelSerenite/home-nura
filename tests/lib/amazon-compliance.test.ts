@@ -128,6 +128,8 @@ describe('Amazon Associates disclosure', () => {
       it: 'In qualità di Affiliato Amazon io ricevo un guadagno dagli acquisti idonei.',
       es: 'Como Afiliado de Amazon, obtengo ingresos por las compras adscritas que cumplen los requisitos aplicables.',
       nl: 'Als Amazon Associate verdien ik aan in aanmerking komende aankopen.',
+      // affiliate-program.amazon.pl operating agreement, section 5.
+      pl: 'Jestem Partnerem Amazon i otrzymuję wynagrodzenie z tytułu określonych zakupów dokonywanych za moim pośrednictwem.',
     })
   })
 
@@ -159,6 +161,7 @@ describe('store-neutral Amazon CTAs', () => {
       it: 'Vedi su Amazon',
       es: 'Ver en Amazon',
       nl: 'Bekijk op Amazon',
+      pl: 'Zobacz na Amazon',
     }
     for (const lang of LANGUAGES) {
       const dict = JSON.parse(readFileSync(join(ROOT, 'dictionaries', `${lang}.json`), 'utf8'))

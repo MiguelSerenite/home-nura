@@ -1,3 +1,4 @@
+import { LANGUAGES } from '@/lib/i18n'
 import { describe, it, expect } from 'vitest'
 import {
   buildPageMetadata,
@@ -23,7 +24,7 @@ describe('buildPageMetadata', () => {
     expect(m.alternates?.canonical).toBe(`${BASE_URL}/fr/blog`)
   })
 
-  it('exposes hreflang alternates for all 6 locales at the same path', () => {
+  it('exposes hreflang alternates for every locale at the same path', () => {
     const m = buildPageMetadata({
       lang: 'en',
       path: '/guides/airfryers',
@@ -31,7 +32,7 @@ describe('buildPageMetadata', () => {
       description: 'Desc',
     })
     const langs = m.alternates?.languages ?? {}
-    expect(Object.keys(langs).sort()).toEqual(['de', 'en', 'es', 'fr', 'it', 'nl', 'x-default'])
+    expect(Object.keys(langs).sort()).toEqual([...LANGUAGES, 'x-default'].sort())
     expect(langs.fr).toBe(`${BASE_URL}/fr/guides/airfryers`)
     expect(langs.en).toBe(`${BASE_URL}/en/guides/airfryers`)
     expect(langs.de).toBe(`${BASE_URL}/de/guides/airfryers`)

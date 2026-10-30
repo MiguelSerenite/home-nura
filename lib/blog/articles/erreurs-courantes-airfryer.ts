@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Freidora de aire negra sobre una encimera de cocina',
         it: 'Friggitrice ad aria nera sul piano di lavoro della cucina',
         nl: 'Zwarte airfryer op een aanrecht in de keuken',
+        pl: 'Czarna frytkownica beztłuszczowa na blacie kuchennym',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: '10 Errores a Evitar con una Freidora de Aire (y Cómo Corregirlos)',
     it: '10 Errori da Evitare con la Friggitrice ad Aria (e Come Correggerli)',
     nl: '10 Airfryer Fouten die je Moet Vermijden (en Hoe ze te Corrigeren)',
+    pl: '10 błędów, których warto unikać we frytkownicy beztłuszczowej (i jak je naprawić)',
   },
   excerpt: {
     fr: 'Découvrez les 10 erreurs les plus fréquentes avec un airfryer et nos solutions concrètes pour des résultats toujours parfaits. Du panier surchargé à la mauvaise température.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Descubre los 10 errores más frecuentes con una freidora de aire y nuestras soluciones prácticas para resultados siempre perfectos.',
     it: 'Scopri i 10 errori più comuni con la friggitrice ad aria e le nostre soluzioni pratiche per risultati sempre perfetti.',
     nl: 'Ontdek de 10 meest voorkomende airfryer fouten en onze praktische oplossingen voor altijd perfecte resultaten.',
+    pl: 'Poznaj 10 najczęstszych błędów przy używaniu frytkownicy beztłuszczowej i konkretne rozwiązania, które zawsze dają dobry efekt. Od przeładowanego koszyka po złą temperaturę.',
   },
   content: {
     fr: `<h2>Pourquoi tant de déceptions avec l'airfryer ?</h2>
@@ -731,6 +734,169 @@ export const article: BlogArticle = {
 <tr><td>Aardappelen in de schil (4 stuks)</td><td>200°C</td><td>35-40 min</td><td>Prik met vork, bestrijk met olie</td></tr>
 </tbody>
 </table>`,
+    pl: `<h2>Dlaczego tyle rozczarowań z frytkownicą beztłuszczową?</h2>
+<p>Frytkownica beztłuszczowa (zwana też air fryer) obiecywała chrupiące frytki przy minimalnej ilości tłuszczu, a pierwsze efekty rozczarowują: miękkie frytki, suchy kurczak, nierówne smażenie. Bez paniki. Najczęściej problem nie leży w urządzeniu, ale w złych nawykach, które łatwo poprawić.</p>
+<p>Na podstawie instrukcji producentów i najczęstszych opinii użytkowników oto 10 błędów, które powtarzają się najczęściej, oraz sposoby, jak je rozpoznać i naprawić.</p>
+
+<h2>Błąd nr 1: Przeładowanie koszyka</h2>
+<h3>Problem</h3>
+<p>To najczęstszy i najbardziej szkodliwy błąd. Frytkownica beztłuszczowa działa dzięki szybkiemu obiegowi gorącego powietrza wokół produktów. Jeśli koszyk jest zbyt pełny, powietrze nie krąży prawidłowo i zamiast chrupiącego smażenia dostajesz gotowanie na parze.</p>
+<h3>Rozwiązanie</h3>
+<ul>
+<li><strong>Złota zasada:</strong> nigdy nie wypełniaj koszyka powyżej dwóch trzecich jego pojemności.</li>
+<li><strong>Frytki:</strong> idealna jest jedna warstwa. Jeśli musisz układać je jedna na drugiej, potrząsaj koszykiem co 5 minut.</li>
+<li><strong>Dla rodzin:</strong> smaż w dwóch partiach zamiast układać wszystko stosem. Albo zainwestuj w większy model lub <a href="/pl/blog/airfryer-simple-vs-double-panier">frytkownicę z podwójnym koszykiem</a>.</li>
+</ul>
+
+<h2>Błąd nr 2: Brak podgrzewania</h2>
+<h3>Problem</h3>
+<p>Wielu użytkowników wkłada produkty prosto do zimnej frytkownicy. Efekt: pierwsza minuta smażenia służy do nagrzania urządzenia, a nie do obróbki jedzenia, co wydłuża całkowity czas i daje mniej chrupiący rezultat.</p>
+<h3>Rozwiązanie</h3>
+<ul>
+<li><strong>Podgrzewaj 3–5 minut</strong> do temperatury smażenia, zanim dodasz produkty.</li>
+<li><strong>Wyjątek:</strong> delikatne produkty, takie jak cienka ryba czy wypieki, można włożyć do zimnej frytkownicy, aby temperatura rosła stopniowo.</li>
+<li><strong>Wskazówka:</strong> niektóre nowsze modele mają wbudowany tryb podgrzewania. Korzystaj z niego zawsze.</li>
+</ul>
+
+<h2>Błąd nr 3: Zła temperatura</h2>
+<h3>Problem</h3>
+<p>Ustawianie maksymalnej temperatury (200–230 °C) do wszystkiego jest kuszące, ale przynosi odwrotny skutek. Zbyt wysoka temperatura przypala zewnętrzną warstwę, zanim środek się upiecze. Zbyt niska daje miękkie i blade jedzenie.</p>
+<h3>Rozwiązanie</h3>
+<table>
+<thead>
+<tr><th>Produkt</th><th>Idealna temperatura</th><th>Przybliżony czas</th></tr>
+</thead>
+<tbody>
+<tr><td>Świeże frytki</td><td>180–190 °C</td><td>18–22 min</td></tr>
+<tr><td>Mrożone frytki</td><td>200 °C</td><td>15–18 min</td></tr>
+<tr><td>Cały kurczak</td><td>180 °C</td><td>45–60 min</td></tr>
+<tr><td>Filet z ryby</td><td>190 °C</td><td>8–12 min</td></tr>
+<tr><td>Warzywa</td><td>190–200 °C</td><td>10–15 min</td></tr>
+<tr><td>Stek</td><td>200 °C</td><td>8–12 min</td></tr>
+<tr><td>Ciasta / muffinki</td><td>160 °C</td><td>15–20 min</td></tr>
+</tbody>
+</table>
+<p><strong>Zasada ogólna:</strong> obniż temperaturę o 10–20 °C w stosunku do przepisów na klasyczny piekarnik, ponieważ skoncentrowany obieg powietrza we frytkownicy jest skuteczniejszy.</p>
+
+<h2>Błąd nr 4: Zapominanie o potrząsaniu lub obracaniu produktów</h2>
+<h3>Problem</h3>
+<p>W większości frytkownic gorące powietrze dociera głównie z góry. Powierzchnie przylegające do dna koszyka dostają mniej bezpośredniego ciepła. Bez obracania wierzch jest złocisty, a spód blady.</p>
+<h3>Rozwiązanie</h3>
+<ul>
+<li><strong>Frytki i małe kawałki:</strong> potrząsaj koszykiem co 5–7 minut.</li>
+<li><strong>Mięso i ryby:</strong> obróć w połowie smażenia za pomocą <a href="/pl/blog/top-10-accessoires-airfryer">silikonowych szczypiec</a>.</li>
+<li><strong>Wskazówka:</strong> ustaw alarm w telefonie, jeśli frytkownica nie ma wbudowanego przypomnienia.</li>
+</ul>
+
+<h2>Błąd nr 5: Wkładanie zbyt mokrych produktów</h2>
+<h3>Problem</h3>
+<p>Wilgotne produkty, takie jak warzywa niewysuszone po myciu, nieosuszone mięso czy płynne ciasto do smażenia, tworzą w koszyku parę zamiast się zrumienić. Nadmiar wilgoci blokuje reakcję Maillarda, odpowiedzialną za brązowienie i chrupkość.</p>
+<h3>Rozwiązanie</h3>
+<ul>
+<li><strong>Zawsze osuszaj</strong> produkty ręcznikiem papierowym, zanim włożysz je do koszyka.</li>
+<li><strong>Umyte warzywa:</strong> odciśnij je w czystej ściereczce lub odwiruj w suszarce do sałaty.</li>
+<li><strong>Marynaty:</strong> odsącz nadmiar marynaty. Mięso ma być wilgotne, a nie mokre.</li>
+<li><strong>Panierka:</strong> produkty panierowane odstaw na 10 minut do lodówki przed smażeniem. Panierka lepiej się trzyma.</li>
+</ul>
+
+<h2>Błąd nr 6: Całkowity brak oleju</h2>
+<h3>Problem</h3>
+<p>Jak na ironię, błąd „zero oleju” jest tak samo częsty jak nadmiar oleju. Frytkownica beztłuszczowa potrzebuje bardzo mało tłuszczu, ale nie zera. Bez oleju świeże produkty (niesmażone wcześniej) będą suche i niechrupiące. Mrożonki wstępnie podsmażone fabrycznie nie wymagają dodatkowego oleju.</p>
+<h3>Rozwiązanie</h3>
+<ul>
+<li><strong>Świeże produkty:</strong> 1–2 łyżeczki oleju, najlepiej podane w sprayu.</li>
+<li><strong>Mrożonki:</strong> olej niepotrzebny, już zawierają tłuszcz.</li>
+<li><strong>Dobry nawyk:</strong> smaruj olejem produkty, a nie koszyk. Olej na pustym koszyku się przypala i powoduje dym.</li>
+</ul>
+
+<h2>Błąd nr 7: Zły olej</h2>
+<h3>Problem</h3>
+<p>Oliwa z oliwek extra virgin ma temperaturę dymienia 160–190 °C. W temperaturze 200 °C we frytkownicy daje dym, gorzki smak i potencjalnie szkodliwe związki. Sprzedawane w sklepach aerozole do smażenia zawierają lecytynę, która uszkadza powłoki nieprzywierające.</p>
+<h3>Rozwiązanie</h3>
+<ul>
+<li><strong>Polecane oleje:</strong> olej z awokado (271 °C), olej z pestek winogron (216 °C), olej arachidowy (232 °C), rafinowana oliwa z oliwek (210 °C).</li>
+<li><strong>Czego unikać:</strong> oliwy extra virgin w wysokiej temperaturze, masła (temperatura dymienia 150 °C), sklepowych aerozoli.</li>
+<li><strong>Mądra inwestycja:</strong> szklany spryskiwacz do oleju wielokrotnego napełniania to niedrogi i bardzo przydatny dodatek.</li>
+</ul>
+
+<h2>Błąd nr 8: Zaniedbywanie czyszczenia</h2>
+<h3>Problem</h3>
+<p>Resztki tłuszczu zgromadzone na dnie koszyka i na grzałce przypalają się przy kolejnych użyciach, powodując dym, nieprzyjemne zapachy i niemiły smak potraw. W dłuższej perspektywie zanieczyszczenia obniżają skuteczność urządzenia, a nawet mogą stwarzać ryzyko pożaru.</p>
+<h3>Rozwiązanie</h3>
+<ul>
+<li><strong>Po każdym użyciu:</strong> umyj koszyk w gorącej wodzie z płynem lub w zmywarce.</li>
+<li><strong>Co tydzień:</strong> wyczyść grzałkę miękką szczotką.</li>
+<li><strong>Co miesiąc:</strong> wykonaj gruntowne czyszczenie całego urządzenia.</li>
+</ul>
+<p>Szczegółową procedurę znajdziesz w naszym <a href="/pl/blog/entretien-nettoyage-airfryer">kompletnym poradniku konserwacji i czyszczenia</a>.</p>
+
+<h2>Błąd nr 9: Brak dostosowania przepisów z piekarnika</h2>
+<h3>Problem</h3>
+<p>Bezpośrednie zastosowanie przepisu na klasyczny piekarnik we frytkownicy bez zmian prawie zawsze daje rozczarowujący efekt. Frytkownica jest skuteczniejsza niż piekarnik dzięki skoncentrowanemu obiegowi powietrza, co zmienia parametry smażenia.</p>
+<h3>Rozwiązanie</h3>
+<ul>
+<li><strong>Temperatura:</strong> obniż o 10–20 °C w stosunku do klasycznego piekarnika.</li>
+<li><strong>Czas:</strong> skróć o 20–25% podanego czasu.</li>
+<li><strong>Kontrola:</strong> zawsze zacznij sprawdzać 5 minut przed teoretycznym końcem.</li>
+<li><strong>Konkretny przykład:</strong> kurczak pieczony w piekarniku w 200 °C przez 60 min = 180 °C przez 45 min we frytkownicy.</li>
+</ul>
+
+<h2>Błąd nr 10: Zapominanie o wentylacji</h2>
+<h3>Problem</h3>
+<p>Frytkownica wydmuchuje gorące powietrze z tyłu. Ustawiona zbyt blisko ściany, szafki lub pod półką nie wentyluje się prawidłowo, co obniża jej wydajność i może uszkodzić otaczające powierzchnie wskutek gorąca.</p>
+<h3>Rozwiązanie</h3>
+<ul>
+<li><strong>Minimalny odstęp:</strong> 10–15 cm wolnej przestrzeni z tyłu i nad urządzeniem.</li>
+<li><strong>Stabilna powierzchnia:</strong> ustaw frytkownicę na blacie odpornym na ciepło.</li>
+<li><strong>Pod okapem:</strong> jeśli to możliwe, używaj frytkownicy pod okapem, aby odprowadzać parę i zapachy z gotowania.</li>
+</ul>
+
+<h2>Tabela podsumowująca 10 błędów</h2>
+<table>
+<thead>
+<tr><th>Błąd</th><th>Skutek</th><th>Szybka korekta</th></tr>
+</thead>
+<tbody>
+<tr><td>1. Przeładowany koszyk</td><td>Miękkie, nierówne smażenie</td><td>Maks. 2/3 pojemności</td></tr>
+<tr><td>2. Brak podgrzewania</td><td>Dłuższe smażenie, mniej chrupiące</td><td>3–5 min podgrzewania</td></tr>
+<tr><td>3. Zła temperatura</td><td>Przypalone na zewnątrz / surowe w środku</td><td>Dostosuj do produktu</td></tr>
+<tr><td>4. Brak obracania</td><td>Nierówne smażenie</td><td>Potrząsaj co 5–7 min</td></tr>
+<tr><td>5. Mokre produkty</td><td>Brak chrupkości</td><td>Osuszaj ręcznikiem papierowym</td></tr>
+<tr><td>6. Zero oleju</td><td>Sucho i bez chrupkości</td><td>1–2 łyżeczki oleju w sprayu</td></tr>
+<tr><td>7. Zły olej</td><td>Dym, gorzki smak</td><td>Olej o wysokiej temperaturze dymienia</td></tr>
+<tr><td>8. Brak czyszczenia</td><td>Dym, zapachy, ryzyko</td><td>Czyść po każdym użyciu</td></tr>
+<tr><td>9. Nieprzystosowane przepisy</td><td>Przesmażenie lub niedosmażenie</td><td>−20 °C, −25% czasu</td></tr>
+<tr><td>10. Zła wentylacja</td><td>Niższa wydajność</td><td>10–15 cm wolnej przestrzeni</td></tr>
+</tbody>
+</table>
+
+<p>Gdy poprawisz te 10 błędów, zauważysz spektakularną poprawę efektów. Aby pójść dalej, poznaj nasze <a href="/pl/blog/recettes-frites-parfaites-airfryer">przepisy na idealne frytki</a> i nasz <a href="/pl/guides/airfryers">kompletny poradnik o frytkownicach beztłuszczowych</a>. Zajrzyj też do <a href="/pl/guides/airfryer-vs-four">porównania frytkownicy z piekarnikiem</a>, aby lepiej zrozumieć, jak dostosowywać przepisy.</p>
+
+<h2>Poradnik rozwiązywania problemów: co robić, gdy coś nie działa?</h2>
+<table>
+<thead><tr><th>Zaobserwowany problem</th><th>Najbardziej prawdopodobna przyczyna</th><th>Natychmiastowe rozwiązanie</th></tr></thead>
+<tbody>
+<tr><td>Miękkie frytki</td><td>Przeładowany koszyk lub brak podgrzewania</td><td>Zmniejsz ilość do 2/3 koszyka, podgrzej 3 min w 200 °C, potrząśnij w połowie smażenia</td></tr>
+<tr><td>Kurczak surowy w środku</td><td>Zbyt grube kawałki lub zbyt niska temperatura</td><td>Otwórz i sprawdź w połowie smażenia, pokrój grube kawałki, użyj termometru</td></tr>
+<tr><td>Dym podczas smażenia</td><td>Resztki tłuszczu na dnie lub nieodpowiedni olej</td><td>Wyczyść dno koszyka, dodaj 2 łyżki wody pod koszykiem przy tłustych potrawach</td></tr>
+<tr><td>Nierówne smażenie</td><td>Produkty nieobracane lub źle ułożone w koszyku</td><td>Obróć w połowie smażenia, użyj kratki do podniesienia produktów</td></tr>
+<tr><td>Smak plastiku</td><td>Nowe urządzenie lub pozostałości po produkcji</td><td>Uruchom puste w 200 °C na 15 minut przed pierwszym użyciem</td></tr>
+<tr><td>Łuszcząca się powłoka</td><td>Używanie metalowych przyborów lub szorstkie mycie</td><td>Używaj wyłącznie silikonu/drewna, wymień koszyk</td></tr>
+</tbody>
+</table>
+
+<h2>Optymalne ustawienia dla najpopularniejszych produktów</h2>
+<table>
+<thead><tr><th>Produkt</th><th>Temperatura</th><th>Czas</th><th>Kluczowa wskazówka</th></tr></thead>
+<tbody>
+<tr><td>Świeże frytki (500 g)</td><td>200 °C</td><td>20–22 min</td><td>Potrząśnij po 10 min, tylko 1 łyżka oleju</td></tr>
+<tr><td>Mrożone frytki (400 g)</td><td>200 °C</td><td>16–18 min</td><td>Podgrzej, nie rozmrażaj wcześniej</td></tr>
+<tr><td>Pałki z kurczaka (4 sztuki)</td><td>185 °C</td><td>25–28 min</td><td>Obróć w połowie smażenia, sprawdź 75 °C wewnątrz</td></tr>
+<tr><td>Mieszane warzywa (400 g)</td><td>180 °C</td><td>14–16 min</td><td>Pokrój na równe kawałki, 1 psik oleju</td></tr>
+<tr><td>Filet z łososia</td><td>190 °C</td><td>10–12 min</td><td>Perforowany papier do pieczenia pod filetem</td></tr>
+<tr><td>Pieczone ziemniaki (4 sztuki)</td><td>200 °C</td><td>35–40 min</td><td>Nakłuj widelcem, posmaruj olejem</td></tr>
+</tbody>
+</table>`,
   },
   faq: [
     {
@@ -741,6 +907,7 @@ export const article: BlogArticle = {
         es: '¿Por qué mis alimentos quedan blandos en vez de crujientes en la freidora de aire?',
         it: 'Perché il mio cibo è molle invece che croccante nella friggitrice ad aria?',
         nl: 'Waarom is mijn eten slap in plaats van krokant in de airfryer?',
+        pl: 'Dlaczego moje potrawy we frytkownicy beztłuszczowej są miękkie zamiast chrupiące?',
       },
       answer: {
         fr: 'La cause principale est un panier surchargé qui empêche l\'air de circuler. Ne remplissez jamais au-delà des deux tiers. Autres causes : aliments trop humides non séchés, absence de matière grasse, et température trop basse. Séchez toujours vos aliments, ajoutez un spray d\'huile et préchauffez l\'appareil.',
@@ -749,6 +916,7 @@ export const article: BlogArticle = {
         es: 'La causa principal es una cesta sobrecargada que impide la circulación del aire. Nunca llenes más de dos tercios. Otras causas: alimentos húmedos sin secar, ausencia de aceite y temperatura demasiado baja. Siempre seca tus alimentos, añade un spray de aceite y precalienta el aparato.',
         it: 'La causa principale è un cestello sovraffollato che blocca la circolazione dell\'aria. Non riempire mai oltre i due terzi. Altre cause: alimenti umidi non asciugati, assenza di olio e temperatura troppo bassa. Asciuga sempre gli alimenti, aggiungi un po\' di spray di olio e preriscalda l\'apparecchio.',
         nl: 'De hoofdoorzaak is een overvolle mand die de luchtcirculatie blokkeert. Vul nooit meer dan tweederde. Andere oorzaken: nat voedsel dat niet is drooggedept, geen olie en te lage temperatuur. Droog je eten altijd, voeg een lichte oliespray toe en verwarm het apparaat 3 minuten voor.',
+        pl: 'Główną przyczyną jest przeładowany koszyk, który blokuje krążenie powietrza. Nigdy nie wypełniaj go ponad dwie trzecie. Inne przyczyny: zbyt wilgotne, nieosuszone produkty, brak tłuszczu i zbyt niska temperatura. Zawsze osuszaj produkty, dodaj odrobinę oleju w sprayu i podgrzej urządzenie.',
       },
     },
     {
@@ -759,6 +927,7 @@ export const article: BlogArticle = {
         es: '¿A qué temperatura hay que poner la freidora de aire para cada tipo de alimento?',
         it: 'A quale temperatura impostare la friggitrice ad aria per ogni tipo di alimento?',
         nl: 'Op welke temperatuur moet ik de airfryer instellen voor elk type voedsel?',
+        pl: 'Na jaką temperaturę ustawić frytkownicę dla każdego rodzaju produktu?',
       },
       answer: {
         fr: 'Règle générale : légumes fins à 200°C (10 min), frites à 190-200°C (18-22 min), poulet à 180-200°C (15-25 min selon le morceau), poisson à 180°C (10-12 min), pâtisseries à 160-170°C. Réduisez toujours de 10 à 20°C par rapport aux recettes de four traditionnel car l\'airfryer chauffe plus efficacement.',
@@ -767,6 +936,7 @@ export const article: BlogArticle = {
         es: 'Regla general: verduras finas a 200°C (10 min), patatas a 190-200°C (18-22 min), pollo a 180-200°C (15-25 min según el corte), pescado a 180°C (10-12 min), repostería a 160-170°C. Reduce siempre 10-20°C respecto a las recetas de horno convencional.',
         it: 'Regola generale: verdure sottili a 200°C (10 min), patatine a 190-200°C (18-22 min), pollo a 180-200°C (15-25 min a seconda del taglio), pesce a 180°C (10-12 min), pasticceria a 160-170°C. Riduci sempre di 10-20°C rispetto alle ricette da forno tradizionale.',
         nl: 'Vuistregel: dunne groenten op 200°C (10 min), frietjes op 190-200°C (18-22 min), kip op 180-200°C (15-25 min afhankelijk van het stuk), vis op 180°C (10-12 min), gebak op 160-170°C. Verlaag altijd 10-20°C ten opzichte van traditionele ovenrecepten.',
+        pl: 'Zasada ogólna: cienkie warzywa w 200 °C (10 min), frytki w 190–200 °C (18–22 min), kurczak w 180–200 °C (15–25 min w zależności od kawałka), ryba w 180 °C (10–12 min), wypieki w 160–170 °C. Zawsze obniżaj temperaturę o 10–20 °C w stosunku do przepisów na tradycyjny piekarnik, ponieważ frytkownica nagrzewa skuteczniej.',
       },
     },
     {
@@ -777,6 +947,7 @@ export const article: BlogArticle = {
         es: '¿Se puede usar papel de horno normal en una freidora de aire?',
         it: 'Si può usare carta da forno normale nella friggitrice ad aria?',
         nl: 'Kun je gewoon bakpapier gebruiken in een airfryer?',
+        pl: 'Czy we frytkownicy beztłuszczowej można używać zwykłego papieru do pieczenia?',
       },
       answer: {
         fr: 'Oui, mais avec précautions. Utilisez des papiers perforés spéciaux airfryer de préférence. Si vous utilisez du papier sulfurisé classique, percez des trous pour la circulation d\'air. Ne placez jamais de papier sans aliments dessus car il peut s\'envoler et toucher la résistance, ce qui crée un risque d\'incendie.',
@@ -785,6 +956,7 @@ export const article: BlogArticle = {
         es: 'Sí, pero con precaución. Prefiere los papeles perforados especiales para freidora. Si usas papel de horno normal, haz agujeros para la circulación del aire. Nunca pongas papel sin alimentos encima, ya que puede volar y tocar la resistencia, creando riesgo de incendio.',
         it: 'Sì, ma con cautela. Preferisci i fogli perforati specifici per friggitrice ad aria. Se usi carta da forno normale, fai dei buchi per la circolazione dell\'aria. Non mettere mai la carta senza cibo sopra, perché può volare e toccare la resistenza, creando rischio di incendio.',
         nl: 'Ja, maar met voorzichtigheid. Gebruik bij voorkeur geperforeerde vellen voor airfryers. Bij gewoon bakpapier maak je gaatjes voor de luchtcirculatie. Leg nooit papier zonder eten erop, want het kan omhoog waaien en het verwarmingselement raken, wat brandgevaar oplevert.',
+        pl: 'Tak, ale ostrożnie. Najlepiej używaj specjalnych perforowanych papierów do frytkownic. Jeśli używasz zwykłego papieru do pieczenia, wytnij w nim otwory dla obiegu powietrza. Nigdy nie wkładaj papieru bez położonych na nim produktów, bo może się unieść i dotknąć grzałki, co grozi pożarem.',
       },
     },
     {
@@ -795,6 +967,7 @@ export const article: BlogArticle = {
         es: '¿Se pueden cocinar alimentos congelados directamente en la freidora de aire?',
         it: 'Si possono cuocere alimenti surgelati direttamente nella friggitrice ad aria?',
         nl: 'Kun je diepvriesproducten direct in de airfryer bereiden?',
+        pl: 'Czy można smażyć mrożonki bezpośrednio we frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Oui, c\'est même l\'un des meilleurs usages de l\'airfryer. Les nuggets, frites et beignets surgelés cuisent directement sans décongélation. Ajoutez 2 à 3 minutes de cuisson en plus et réduisez la température de 10°C par rapport aux instructions du four. Secouez le panier à mi-cuisson pour un résultat uniforme.',
@@ -803,6 +976,7 @@ export const article: BlogArticle = {
         es: 'Sí, es uno de los mejores usos de la freidora de aire. Los nuggets, patatas y rebozados congelados se cocinan directamente sin descongelar. Añade 2-3 minutos más y reduce la temperatura 10°C respecto a las instrucciones del horno. Agita la cesta a mitad de cocción para un resultado uniforme.',
         it: 'Sì, è uno dei migliori utilizzi della friggitrice ad aria. Nuggets, patatine e prodotti impanati surgelati si cuociono direttamente senza scongelare. Aggiungi 2-3 minuti in più e riduci la temperatura di 10°C rispetto alle istruzioni del forno. Scuoti il cestello a metà cottura per risultati uniformi.',
         nl: 'Ja, dit is een van de beste toepassingen van de airfryer. Bevroren nuggets, frietjes en gefrituurde producten bereid je direct zonder ontdooien. Voeg 2-3 minuten extra toe en verlaag de temperatuur 10°C ten opzichte van de oveninstructies. Schud de mand halverwege voor een gelijkmatig resultaat.',
+        pl: 'Tak, to nawet jedno z najlepszych zastosowań frytkownicy. Nuggetsy, frytki i krokiety mrożone smaży się bez rozmrażania. Dodaj 2–3 minuty do czasu i obniż temperaturę o 10 °C w stosunku do instrukcji dla piekarnika. Potrząśnij koszykiem w połowie smażenia, aby uzyskać równomierny efekt.',
       },
     },
     {
@@ -813,6 +987,7 @@ export const article: BlogArticle = {
         es: '¿Por qué mi freidora de aire produce humo?',
         it: 'Perché la mia friggitrice ad aria produce fumo?',
         nl: 'Waarom produceert mijn airfryer rook?',
+        pl: 'Dlaczego moja frytkownica beztłuszczowa dymi?',
       },
       answer: {
         fr: 'La fumée provient généralement de résidus de graisse brûlés sur la résistance ou d\'une huile avec un point de fumée trop bas. Nettoyez l\'appareil après chaque utilisation. Utilisez des huiles résistantes à la chaleur (avocat, pépins de raisin). Ajoutez un peu d\'eau au fond du tiroir pour capter les graisses.',
@@ -821,6 +996,7 @@ export const article: BlogArticle = {
         es: 'El humo suele provenir de residuos de grasa quemados en la resistencia o de un aceite con punto de humo demasiado bajo. Limpia el aparato después de cada uso. Usa aceites resistentes al calor como aguacate o semilla de uva. Añade un poco de agua al fondo del cajón para captar la grasa.',
         it: 'Il fumo proviene solitamente da residui di grasso bruciati sulla resistenza o da un olio con punto di fumo troppo basso. Pulisci l\'apparecchio dopo ogni utilizzo. Usa oli resistenti al calore come avocado o vinaccioli. Aggiungi un po\' d\'acqua sul fondo del cassetto per catturare i grassi.',
         nl: 'Rook komt meestal van verbrande vetresten op het verwarmingselement of van olie met een te laag rookpunt. Maak het apparaat na elk gebruik schoon. Gebruik hittebestendige oliën zoals avocado- of druivenpitolie. Een beetje water op de bodem van de lade helpt druipend vet opvangen.',
+        pl: 'Dym zwykle pochodzi z przypalonych resztek tłuszczu na grzałce lub z oleju o zbyt niskiej temperaturze dymienia. Czyść urządzenie po każdym użyciu. Używaj olejów odpornych na wysoką temperaturę (z awokado, z pestek winogron). Dodaj odrobinę wody na dno szuflady, aby wychwytywała tłuszcz.',
       },
     },
   ],

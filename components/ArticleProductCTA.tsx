@@ -69,6 +69,13 @@ const ctaLabels: Record<string, { title: string; subtitle: string; button: strin
     seeAll: 'Bekijk de hele selectie',
     disclosure: 'Amazon-affiliatelink: wij ontvangen een commissie, zonder extra kosten voor jou.',
   },
+  pl: {
+    title: 'Nasze rekomendacje',
+    subtitle: 'Najwyżej oceniane modele z naszego wyboru',
+    button: 'Sprawdź cenę na Amazon',
+    seeAll: 'Zobacz cały wybór',
+    disclosure: 'Link afiliacyjny Amazon: otrzymujemy prowizję, bez dodatkowych kosztów dla Ciebie.',
+  },
 }
 
 export default function ArticleProductCTA({ products, lang, variant = 'bottom', seeAllHref }: ArticleProductCTAProps) {
