@@ -15,9 +15,11 @@ interface ProductProps {
   capacity?: string;
   bestFor?: string;
   position?: number;
+  /** What the product is and who it suits ("Airfryer · Petit budget"), shown above the name. */
+  kicker?: string;
 }
 
-export default async function ProductCard({ name, priceNumeric, visual, affiliateLink, asin, buyButtonText, badge, lang = 'fr', capacity, bestFor, position }: ProductProps) {
+export default async function ProductCard({ name, priceNumeric, visual, affiliateLink, asin, buyButtonText, badge, lang = 'fr', capacity, bestFor, position, kicker }: ProductProps) {
   // Accessible name of the visual: brand, capacity, usage context.
   const visualLabel = [name, capacity, bestFor].filter(Boolean).join(' — ')
 
@@ -32,8 +34,11 @@ export default async function ProductCard({ name, priceNumeric, visual, affiliat
         <ProductVisual {...visual} label={visualLabel} className="transition-transform duration-300 group-hover:scale-105" />
       </div>
       <div className="flex flex-1 flex-col p-6">
-        <h3 className="text-lg font-bold text-slate-900 line-clamp-2 leading-tight">
-          {name}
+        <h3 className="text-lg font-bold text-slate-900 leading-tight">
+          {kicker && (
+            <span className="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-brand-700">{kicker}</span>
+          )}
+          <span className="line-clamp-2">{name}</span>
         </h3>
         <AffiliateLink
           href={affiliateLink}

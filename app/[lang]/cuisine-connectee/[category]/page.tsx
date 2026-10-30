@@ -11,12 +11,14 @@ import type { Lang } from '@/lib/i18n'
 import ProductCard from '@/components/ProductCard'
 import AmazonDisclosure from '@/components/AmazonDisclosure'
 import FaqSection from '@/components/FaqSection'
+import IndependentSources from '@/components/IndependentSources'
 import {
   SMART_KITCHEN_CATEGORIES,
   getSmartKitchenProductsByCategory,
   type SmartKitchenCategory,
 } from '@/lib/smart-kitchen-products'
 import { getSmartKitchenFaqs, faqSectionTitles } from '@/lib/smart-kitchen-faqs'
+import { productKicker } from '@/lib/product-types'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import { resolveLang, LANGUAGES } from '@/lib/i18n'
 import { ChevronRight } from 'lucide-react'
@@ -487,6 +489,7 @@ export default async function CategoryPage({
                 lang={safeLang}
                 capacity={p.capacity}
                 bestFor={p.bestFor}
+                kicker={productKicker({ type: safeCat, lang: safeLang, bestFor: p.bestFor })}
               />
             ))}
           </div>
@@ -495,6 +498,10 @@ export default async function CategoryPage({
           <AmazonDisclosure lang={safeLang} className="mt-6 text-center text-xs text-slate-500" />
         )}
       </section>
+
+      {catalogCategory && (
+        <IndependentSources categorySlug={safeCat} categoryTitle={catalogCategory.title[safeLang]} lang={safeLang} />
+      )}
 
       {/* Phase OO: best-for persona cluster — cross-links to Moteur 4 */}
       {bestForPersonas.length > 0 && (
