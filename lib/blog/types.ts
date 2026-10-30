@@ -36,22 +36,22 @@ export const CATEGORIES: Record<BlogArticle['category'], Record<string, string>>
   // do not run (tests/lib/blog-categories.test.ts).
   tests: {
     fr: 'Avis détaillés', en: 'Reviews', de: 'Produktbewertungen',
-    es: 'Análisis y opiniones', it: 'Recensioni', nl: 'Reviews',
+    es: 'Análisis y opiniones', it: 'Recensioni', nl: 'Reviews', pl: 'Recenzje',
   },
   guides: {
     fr: 'Guides Pratiques', en: 'Practical Guides', de: 'Praktische Ratgeber',
-    es: 'Guías Prácticas', it: 'Guide Pratiche', nl: 'Praktische Gidsen',
+    es: 'Guías Prácticas', it: 'Guide Pratiche', nl: 'Praktische Gidsen', pl: 'Praktyczne poradniki',
   },
   recettes: {
     fr: 'Recettes', en: 'Recipes', de: 'Rezepte',
-    es: 'Recetas', it: 'Ricette', nl: 'Recepten',
+    es: 'Recetas', it: 'Ricette', nl: 'Recepten', pl: 'Przepisy',
   },
   comparatifs: {
     fr: 'Comparatifs', en: 'Comparisons', de: 'Vergleiche',
-    es: 'Comparativas', it: 'Confronti', nl: 'Vergelijkingen',
+    es: 'Comparativas', it: 'Confronti', nl: 'Vergelijkingen', pl: 'Porównania',
   },
   culture: {
     fr: 'Culture & Tendances', en: 'Culture & Trends', de: 'Kultur & Trends',
-    es: 'Cultura y Tendencias', it: 'Cultura e Tendenze', nl: 'Cultuur & Trends',
+    es: 'Cultura y Tendencias', it: 'Cultura e Tendenze', nl: 'Cultuur & Trends', pl: 'Kultura i trendy',
   },
 }

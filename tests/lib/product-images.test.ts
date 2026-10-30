@@ -15,11 +15,15 @@ import {
   type ProductImageEntry,
 } from '@/lib/product-images'
 import {
+  PRODUCT_GALLERY_ROLES,
+  PRODUCT_GALLERY_WIDTHS,
   PRODUCT_PHOTO_CATEGORIES,
   PRODUCT_PHOTO_DIR,
   PRODUCT_PHOTO_FORMATS,
   PRODUCT_PHOTO_WIDTHS,
   PRODUCT_PIN,
+  productGalleryPath,
+  productGalleryStem,
   productPhotoCredits,
   productPhotoPath,
   productPinPath,
@@ -38,9 +42,12 @@ const OUTPUT_DIR = join(PUBLIC, PRODUCT_PHOTO_DIR)
 /** Amazon store and image hosts (amazon.fr, m.media-amazon.com, images-na.ssl-images-amazon.com, amzn.to...). */
 const AMAZON_HOST = /(^|\.)(amazon\.[a-z.]+|media-amazon\.com|images-amazon\.com|ssl-images-amazon\.com|amzn\.[a-z]+|a2z\.com)$/i
 
-const outputsOf = (id: string) => [
-  ...PRODUCT_PHOTO_WIDTHS.flatMap((w) => PRODUCT_PHOTO_FORMATS.map((f) => productPhotoPath(id, w, f))),
-  ...PRODUCT_PIN.formats.map((f) => productPinPath(id, f)),
+const outputsOf = (e: ProductImageEntry) => [
+  ...PRODUCT_PHOTO_WIDTHS.flatMap((w) => PRODUCT_PHOTO_FORMATS.map((f) => productPhotoPath(e.id, w, f))),
+  ...PRODUCT_PIN.formats.map((f) => productPinPath(e.id, f)),
+  ...(e.gallery ?? []).flatMap((_, i) =>
+    PRODUCT_GALLERY_WIDTHS.flatMap((w) => PRODUCT_PHOTO_FORMATS.map((f) => productGalleryPath(productGalleryStem(e.id, i + 1), w, f))),
+  ),
 ]
 
 /** Every model name the site data uses: catalog titles, article models, verdicts, Black Friday picks. */
@@ -105,6 +112,24 @@ describe('product image manifest', () => {
     }
   })
 
+  it('gives every gallery photo its provenance, credit and caption, never from Amazon', () => {
+    for (const e of PRODUCT_IMAGES) {
+      for (const [i, g] of (e.gallery ?? []).entries()) {
+        const where = `${e.id} gallery ${i + 1}`
+        expect(PRODUCT_GALLERY_ROLES, where).toContain(g.role)
+        expect(['press-kit', 'product-page'], where).toContain(g.sourceType)
+        expect(new URL(g.sourceUrl).hostname, where).not.toMatch(AMAZON_HOST)
+        expect(new URL(g.imageUrl).hostname, where).not.toMatch(AMAZON_HOST)
+        expect(g.licence.length, where).toBeGreaterThan(20)
+        expect(g.retrievedAt, where).toMatch(/^\d{4}-\d{2}-\d{2}$/)
+        expect(g.credit, where).toMatch(/^© \S/)
+        expect(g.rawFile, where).toMatch(new RegExp(`^${e.id}-g${i + 1}\\.(png|jpg|webp)$`))
+        expect(g.rawSha256, where).toMatch(/^[0-9a-f]{64}$/)
+        for (const lang of ['fr', 'en', 'de'] as const) expect(g.caption[lang]?.trim(), `${where} ${lang}`).toBeTruthy()
+      }
+    }
+  })
+
   it('keeps skipped models apart, each with a reason', () => {
     const ids = new Set(PRODUCT_IMAGES.map((e) => e.id))
     for (const s of SKIPPED_PRODUCT_IMAGES) {
@@ -117,7 +142,7 @@ describe('product image manifest', () => {
 describe('processed product images', () => {
   it('every manifest entry has its square and Pinterest variants', () => {
     for (const e of PRODUCT_IMAGES) {
-      for (const path of outputsOf(e.id)) {
+      for (const path of outputsOf(e)) {
         const file = join(PUBLIC, path)
         expect(existsSync(file), path).toBe(true)
         expect(statSync(file).size, path).toBeGreaterThan(1000)
@@ -126,7 +151,7 @@ describe('processed product images', () => {
   })
 
   it('every processed file belongs to a manifest entry (provenance and credit)', () => {
-    const expected = new Set(PRODUCT_IMAGES.flatMap((e) => outputsOf(e.id).map((p) => p.split('/').pop())))
+    const expected = new Set(PRODUCT_IMAGES.flatMap((e) => outputsOf(e).map((p) => p.split('/').pop())))
     expect(readdirSync(OUTPUT_DIR).filter((name) => !expected.has(name))).toEqual([])
   })
 
@@ -155,7 +180,7 @@ describe('product photo lookup', () => {
     for (const lang of LANGUAGES) {
       const photo = productPhoto({ asin: entry.asin }, lang)
       expect(photo?.alt).toMatch(new RegExp(`^${entry.brand} .+ – .+ \\| Homenura$`))
-      expect(photo?.credit).toMatch(/^(Photo|Foto) ?: © /)
+      expect(photo?.credit).toMatch(/^(Photo|Foto|Zdjęcie) ?: © /)
       expect(photo?.pin).toBe(`${BASE_URL}${productPinPath(entry.id, 'jpg')}`)
     }
     expect(productPhoto({ asin: entry.asin }, 'fr')?.credit).toBe(`Photo : ${entry.credit}`)

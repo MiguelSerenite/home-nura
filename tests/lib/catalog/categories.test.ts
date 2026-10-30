@@ -10,6 +10,7 @@
  *     collide on /{lang}/{silo}/{category})
  */
 
+import { LANGUAGES } from '@/lib/i18n'
 import { describe, it, expect } from 'vitest'
 import {
   CATEGORIES,
@@ -19,7 +20,7 @@ import {
 } from '@/lib/catalog/categories'
 import { META_SILOS } from '@/lib/catalog/meta-silos'
 
-const LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
+const LANGS = LANGUAGES
 const SLUG_RE = /^[a-z0-9-]+$/
 const KNOWN_SILOS = new Set(META_SILOS.map((s) => s.slug))
 
@@ -58,7 +59,7 @@ describe('CATEGORIES', () => {
   })
 
   it.each(['title', 'description', 'primaryKeyword'] as const)(
-    '%s is populated for all 6 locales on every category',
+    '%s is populated for every locale on every category',
     (field) => {
       for (const c of CATEGORIES) {
         const record = c[field]

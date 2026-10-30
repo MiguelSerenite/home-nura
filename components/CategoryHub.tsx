@@ -35,6 +35,7 @@ import {
 } from '@/lib/seo'
 import { categoryModifiedIso } from '@/lib/catalog/category-faqs'
 import QuickAnswer from '@/components/QuickAnswer'
+import ProductSceneBanner from '@/components/ProductSceneBanner'
 import IndependentSources from '@/components/IndependentSources'
 import { getCategoryGuides } from '@/lib/catalog/category-guides'
 import { SectionHero, SiteFooter } from '@/components/ui'
@@ -130,6 +131,17 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
     picksQuestion: (t) => `${t}: welke kies je in 2026?`,
     guidesTitle: 'Onze koopgidsen',
     readGuide: 'Lees de gids',
+  },
+  pl: {
+    home: 'Strona główna',
+    relatedTitle: 'Inne kategorie z tego samego działu',
+    methodologyCta: 'Przeczytaj naszą metodologię',
+    faqTitle: 'Najczęstsze pytania',
+    noSiblings: 'Sąsiednie kategorie pojawią się wkrótce.',
+    picksKicker: 'Nasz wybór',
+    picksQuestion: (t) => `${t}: które wybrać w 2026?`,
+    guidesTitle: 'Nasze poradniki zakupowe',
+    readGuide: 'Czytaj poradnik',
   },
 }
 
@@ -244,6 +256,8 @@ export default async function CategoryHub({
           subtitle={hero.subtitle}
           intro={hero.intro}
         />
+
+        <ProductSceneBanner photo={picks[0]?.photo} />
 
         {picks.length > 0 && (
           <div className="max-w-3xl mx-auto px-4 md:px-6">

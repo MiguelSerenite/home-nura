@@ -327,6 +327,80 @@ const pageContent: Record<string, {
     choose_oven_title: 'Houd je oven als...',
     choose_oven: 'Je regelmatig kookt voor 6+ personen, je bakt (taarten, brood, pizza), je hele braadstukken bereidt of je meerdere gerechten tegelijk moet bereiden.',
   },
+  pl: {
+    title: 'Frytkownica beztłuszczowa vs piekarnik tradycyjny: porównanie 2026',
+    subtitle: 'Frytkownica bez oleju czy klasyczny piekarnik? Porównaliśmy oba urządzenia, żeby ułatwić Ci wybór.',
+    intro: 'Frytkownica beztłuszczowa (air fryer, czyli frytkownica na gorące powietrze) i tradycyjny piekarnik to dwa podstawowe urządzenia do gotowania. Które z nich lepiej odpowiada Twoim potrzebom? Porównaliśmy obie technologie według 7 kluczowych kryteriów, żeby ułatwić Ci trafny wybór.',
+    intro_long: 'W 2026 roku, wobec stale rosnących cen energii elektrycznej i coraz większej świadomości ekologicznej, wybór między frytkownicą beztłuszczową a tradycyjnym piekarnikiem staje się ważną decyzją dla milionów gospodarstw domowych. Frytkownica, dawniej egzotyczny gadżet, jest dziś prawdziwą rewolucją kulinarną, która zmienia sposób przygotowywania posiłków. Przy zużyciu energii nawet o 50% niższym niż w klasycznym piekarniku i czasie gotowania krótszym o połowę, to urządzenie rozpala dyskusje w kuchniach. Czy naprawdę może zastąpić piekarnik? Czy to rozsądna inwestycja, czy tylko przemijająca moda? Ten kompletny poradnik omawia każdy aspekt porównania, opierając się na konkretnych danych i realistycznych scenariuszach, by pomóc Ci podjąć jak najlepszą decyzję.',
+    how_airfryer_works_title: 'Jak działa frytkownica beztłuszczowa?',
+    how_airfryer_works: 'Frytkownica beztłuszczowa opiera się na technologii zwanej Rapid Air, czyli konwekcji o dużej prędkości. W przeciwieństwie do zwykłej frytkownicy na olej, w której potrawy smaży się w tłuszczu, to urządzenie podgrzewa powietrze do bardzo wysokiej temperatury (do 220°C) i z dużą prędkością wprawia je w ruch wokół produktów za pomocą mocnego wentylatora umieszczonego pod pokrywą. Skoncentrowany strumień gorącego powietrza w ciągu kilku minut tworzy chrupiącą warstwę zewnętrzną dzięki przyspieszonej reakcji Maillarda. Grzałka nad koszem wytwarza początkowe ciepło, a wentylator zapewnia równomierną cyrkulację powietrza. Dzięki temu rozwiązaniu frytkownica pobiera jedynie 800–1800 watów energii elektrycznej i osiąga temperaturę gotowania już po 2–3 minutach. Produkty umieszcza się w perforowanym koszu, który pozwala powietrzu swobodnie opływać wszystkie powierzchnie, co daje tak lubiany efekt „smażenia” bez dodawania ani kropli oleju. Resztki jedzenia spadają na dno pojemnika, z dala od kosza, co ułatwia ich usunięcie i szybkie czyszczenie.',
+    how_oven_works_title: 'Jak działa tradycyjny piekarnik?',
+    how_oven_works: 'Klasyczny piekarnik, elektryczny lub gazowy, ogrzewa powietrze wewnątrz komory przez promieniowanie i przewodzenie ciepła. Grzałka elektryczna (lub palnik gazowy) na dole i/lub na górze piekarnika wytwarza ciepło, które stopniowo rozchodzi się po całej komorze. Proces jest stosunkowo powolny: nagrzanie piekarnika do 200°C trwa zwykle 10–15 minut. Po nagrzaniu promieniujące i przewodzone ciepło otacza potrawy bardziej rozproszenie i równomiernie niż we frytkownicy, co zapewnia jednolite pieczenie, ale bez szybko uzyskiwanej chrupiącej skórki. Nowoczesne piekarniki często oferują funkcję „termoobiegu” (konwekcji), która dodaje wentylator, nieznacznie przyspieszający cyrkulację powietrza, poprawiający równomierność pieczenia i skracający czas o 10–20%. Jednak nawet w trybie termoobiegu całkowita moc pozostaje duża: od 2000 do 3000 watów, zależnie od modelu. Obszerna komora (50–80 litrów) wymaga dużo energii, by utrzymać stabilną temperaturę. Piekarniki pozwalają piec kilka potraw jednocześnie dzięki dużej przestrzeni, co jest niezaprzeczalną zaletą dla dużych rodzin i bardziej wymyślnych przygotowań.',
+    comparison_title: 'Szczegółowe porównanie według 7 kryteriów',
+    rows: [
+      {
+        criteria: 'Czas nagrzewania',
+        airfryer: '2-3 minuty',
+        oven: '10-15 minut',
+      },
+      {
+        criteria: 'Zużycie energii',
+        airfryer: '800-1800W (oszczędność 30-50%)',
+        oven: '2000-3000W',
+      },
+      {
+        criteria: 'Jakość chrupiącego efektu',
+        airfryer: 'Doskonała (skoncentrowane powietrze)',
+        oven: 'Dobra (termoobieg)',
+      },
+      {
+        criteria: 'Maksymalna pojemność',
+        airfryer: '3-10L (1-8 osób)',
+        oven: '50-80L (bez ograniczeń)',
+      },
+      {
+        criteria: 'Łatwość czyszczenia',
+        airfryer: 'Bardzo łatwe (wyjmowany kosz)',
+        oven: 'Trudne (poza pirolizą)',
+      },
+      {
+        criteria: 'Wszechstronność',
+        airfryer: 'Frytki, mięso, warzywa, ciasta',
+        oven: 'Każdy rodzaj potraw',
+      },
+      {
+        criteria: 'Średnia cena',
+        airfryer: '250 zł - 1500 zł',
+        oven: '850 zł - 8600 zł',
+      },
+    ],
+    cooking_time_title: 'Czas gotowania: frytkownica wygrywa szybkością',
+    cooking_time: 'Najbardziej spektakularna różnica między tymi urządzeniami dotyczy czasu gotowania. Porcję mrożonych frytek frytkownica przygotowuje w 15 minut (wraz z nagrzewaniem), podczas gdy zwykły piekarnik potrzebuje na to 35–40 minut. Cały kurczak? 25–30 minut we frytkownicy wobec 55–60 minut w piekarniku. Liczby te zależą od wielkości i grubości produktów, ale tendencja jest stała: frytkownica skraca czas gotowania średnio o 50–60%. To przyspieszenie ma kluczowe znaczenie dla zapracowanych rodzin, które chcą przygotować kompletny posiłek w mniej niż 30 minut. Szybkie nagrzewanie frytkownicy (2–3 minuty) oznacza, że możesz zacząć gotować niemal natychmiast po włączeniu urządzenia, w przeciwieństwie do piekarnika, który wymaga 10–15 minut oczekiwania. W przypadku makaronów, ryżu czy potraw duszonych różnica jest mniej wyraźna, ponieważ piekarniki lepiej radzą sobie z wolnym i długim gotowaniem.',
+    energy_consumption_title: 'Zużycie energii: wyraźne oszczędności',
+    energy_consumption: 'Zużycie energii to czynnik decydujący dla gospodarstw domowych mierzących się z coraz wyższymi rachunkami za prąd. Frytkownica zużywa zazwyczaj od 800 do 1800 watów, podczas gdy klasyczny piekarnik elektryczny pracuje z mocą 2000–3000 watów. Przy codziennym użytkowaniu przez 30 minut (jedna porcja z frytkownicy odpowiada mniej więcej jednemu użyciu piekarnika) frytkownica zużywa 0,4–0,9 kWh dziennie, czyli 146–329 kWh rocznie. Piekarnik używany codziennie przez 50 minut zużywa 1,67–2,5 kWh dziennie, czyli 610–912 kWh rocznie. Przy średniej stawce francuskiej ok. 1,10 zł za kWh w 2026 roku daje to roczną oszczędność rzędu 500–820 zł, jeśli całkowicie zastąpisz piekarnik frytkownicą. Liczby te wypadają jeszcze korzystniej, jeśli masz już piekarnik i korzystasz z niego „uzupełniająco”: zaoszczędzisz przede wszystkim na codziennych, szybkich posiłkach. Większość nowszych frytkownic ma inteligentną regulację temperatury, która zmniejsza zużycie energii podczas podtrzymywania ciepła.',
+    cooking_quality_title: 'Jakość gotowania: dwa różne podejścia',
+    cooking_quality: 'Jakość gotowania różni się zasadniczo między tymi dwiema technologiami. Frytkownica doskonale tworzy chrupiące, złociste tekstury dzięki skoncentrowanemu strumieniowi powietrza o wysokiej temperaturze, który przyspiesza karmelizację. Frytki, nuggetsy, skrzydełka z kurczaka, krewetki w cieście: wszystkie te produkty stają się niezwykle chrupiące na zewnątrz, pozostając delikatne w środku. Efekt często porównuje się do smażenia w oleju, bez dodatkowych kalorii. Tradycyjny piekarnik, zwłaszcza w trybie termoobiegu, daje bardziej równomierne, ale mniej intensywne pieczenie. Powierzchnie nie karmelizują się tak szybko, ale wnętrze jest często bardziej jednolicie wypieczone w przypadku większych kawałków. Pizza czy focaccia mają w piekarniku lepszą strukturę ciasta z umiarkowanie chrupiącym brzegiem. Pieczenia z wołowiny czy jagnięciny nabierają w piekarniku pięknej złotej skórki, ale jest ona zazwyczaj mniej intensywna niż we frytkownicy. W cukiernictwie piekarnik pozostaje niezrównany: ciasta, chleby i wypieki drożdżowe wymagają bardziej stabilnego i stopniowego ciepła, niż może zaoferować frytkownica. Ciasta pieczone we frytkownicy są narażone na wysuszoną skórkę przy niedopieczonym środku.',
+    capacity_title: 'Pojemność i wszechstronność: kto do czego?',
+    capacity: 'Typowa frytkownica ma pojemność 3–10 litrów, co – zależnie od potrawy – wystarcza dla 1–8 osób. Za jednym razem usmażysz 4–5 porcji frytek, 2–3 piersi z kurczaka lub około 20–30 różyczek brokułu. Dla rodzin 4–5-osobowych często wystarcza to na kompletny posiłek. Piekarniki oferują 50–80 litrów (czasem więcej w bardzo dużych modelach), co pozwala piec jednocześnie kilka różnych potraw: pieczeń, pieczone warzywa i zapiekankę na trzech różnych poziomach. Taka pojemność jest niezastąpiona przy posiłkach rodzinnych lub świątecznych. Pod względem wszechstronności frytkownica świetnie radzi sobie z frytkami, białym i czerwonym mięsem, rybami, owocami morza, warzywami, a nawet niektórymi prostymi deserami (brownie, clafoutis). Opierają się jej jednak niektóre dania: rzemieślnicza pizza, domowy chleb, tarta tatin czy zapiekanka makaronowa. Piekarnik pozostaje niezastąpionym narzędziem do takich przygotowań. Popularny kompromis: mieć oba urządzenia, korzystać z frytkownicy przy szybkich, codziennych posiłkach (50–60% dni), a z piekarnika wtedy, gdy masz więcej czasu lub gości.',
+    cleaning_title: 'Łatwość czyszczenia: wyraźne zwycięstwo frytkownicy',
+    cleaning: 'Czyszczenie to jedna z największych frustracji użytkowników tradycyjnych piekarników. Rozpryski, wykipiałe sosy, przypalony tłuszcz osadzający się na ściankach: wszystko to wymaga regularnego, żmudnego sprzątania. Piekarniki bez pirolizy wymagają ręcznego szorowania żrącymi środkami, a modele pirolityczne (droższe) czyszczą się same w temperaturze 500°C, wytwarzając niepożądane ciepło i dodatkowo zużywając energię. Frytkownica wymaga natomiast zaledwie 2–3 minut czyszczenia po użyciu. Kosz i pojemnik na tłuszcz są wyjmowane i łatwo je umyć w zmywarce lub w ciepłej wodzie z detergentem. Tłuszcz nie rozpryskuje się na ścianki, bo spada do dolnego pojemnika. Nie są potrzebne żadne agresywne środki chemiczne. Tę łatwość czyszczenia szczególnie doceniają zapracowane rodziny oraz osoby, które wolą ograniczyć obowiązki domowe do minimum.',
+    noise_title: 'Hałas i zapachy: bardzo różne warunki użytkowania',
+    noise: 'Frytkownica, dzięki mocnemu wentylatorowi, wydaje podczas pracy charakterystyczny hałas o natężeniu 75–85 decybeli, porównywalny z hałasem zmywarki. Niektórym ten dźwięk przeszkadza, zwłaszcza w otwartej kuchni. Tradycyjny piekarnik pracuje praktycznie bezgłośnie, chyba że otworzysz drzwiczki lub uruchomi się wewnętrzny system wentylacji. Jeśli chodzi o zapachy, frytkownica koncentruje opary z gotowania w niewielkiej przestrzeni, co oznacza, że aromaty (dobre lub złe) rozchodzą się intensywniej. Smażenie ryby czy kapusty we frytkownicy szybko uwalnia charakterystyczne zapachy. Piekarnik, dzięki większej komorze i rozproszonemu systemowi wentylacji, rozcieńcza te zapachy. Przy obu urządzeniach zalecany jest dobry wyciąg powietrza (okap).',
+    cost_title: 'Cena zakupu i trwałość: aspekty finansowe',
+    cost: 'Cena frytkownicy waha się od ok. 250 zł za podstawowe modele z niskiej półki do 1500 zł za urządzenia z wyższej półki z zaawansowanymi funkcjami (ekran dotykowy, kilka poziomów, aplikacje mobilne). Większość niezawodnych, dobrze zaprojektowanych urządzeń mieści się w przedziale 430–860 zł. Klasyczny piekarnik elektryczny kosztuje 860–2150 zł w standardowym modelu, a znacznie więcej w przypadku piekarnika do zabudowy lub z wyższej półki. Pod względem trwałości frytkownica zwykle służy 5–8 lat, zanim zużyje się grzałka lub wentylator. Piekarniki uchodzą za trwalsze (8–15 lat), ale wymagają więcej konserwacji. Niska początkowa inwestycja we frytkownicę w połączeniu z długoterminowymi oszczędnościami energii (500–820 zł rocznie) daje atrakcyjny zwrot z inwestycji, szczególnie dla małych gospodarstw domowych.',
+    when_choose_airfryer_title: 'Kiedy wybrać frytkownicę beztłuszczową?',
+    when_choose_airfryer: 'Frytkownica to idealny wybór, jeśli mieszkasz sam lub we dwoje (1–2 osoby), pracujesz na pełny etat i brakuje Ci wieczorem czasu na przygotowanie posiłku albo aktywnie dążysz do ograniczenia zużycia energii i śladu węglowego. To także doskonałe wyposażenie, jeśli stosujesz restrykcyjną dietę (ketogeniczną, bezglutenową, niskokaloryczną), ponieważ potrawy smażone bez oleju dobrze odpowiadają takim potrzebom. Osoby dbające o zdrowie szczególnie doceniają brak oleju do smażenia, który zmniejsza ilość kalorii. Wreszcie, jeśli mieszkasz w bloku i brakuje Ci miejsca, frytkownica zajmuje znacznie mniej miejsca niż kompaktowy piekarnik.',
+    when_keep_oven_title: 'Kiedy zachować piekarnik?',
+    when_keep_oven: 'Zachowaj piekarnik, jeśli masz dużą rodzinę (5+ osób), lubisz piec, regularnie przygotowujesz posiłki dla gości lub gotujesz wymyślne dania wymagające kilku jednoczesnych etapów. Piekarnik jest niezbędny do domowej pizzy, rzemieślniczego chleba, zapiekanek makaronowych, słodkich i wytrawnych tart oraz dużych pieczeni. Jeśli w niedzielę gotujesz na cały tydzień (batch cooking), piekarnik pozwala przygotować kilka potraw naraz, co jest niemożliwe we frytkownicy z jednym koszem.',
+    replace_oven_title: 'Czy można zastąpić piekarnik frytkownicą?',
+    replace_oven: 'Szczera odpowiedź brzmi: nie całkowicie, poza pewnymi profilami użytkowników. Dla osoby mieszkającej samotnie lub pary bez dzieci, które przygotowują tylko proste i szybkie posiłki (grillowane mięso, frytki, pieczone warzywa), sama frytkownica może technicznie wystarczyć. Stracisz możliwość pieczenia ciast, pizzy czy całych pieczeni, ale zyskasz 50% oszczędności energii i dużą wygodę. Dla rodzin z dziećmi i pasjonatów gotowania zastąpienie piekarnika frytkownicą byłoby błędem: zbyt mocno ograniczyłoby możliwości kulinarne. Optymalny scenariusz dla większości gospodarstw domowych to posiadanie obu urządzeń: frytkownicy używanej 5–6 dni w tygodniu do szybkiego i oszczędnego gotowania, a piekarnika 1–2 dni w tygodniu do bardziej wymyślnych lub rodzinnych posiłków. Takie połączenie daje to, co najlepsze z obu światów: maksymalne oszczędności energii, pełną elastyczność kulinarną i mniej stresu w kuchni.',
+    verdict_title: 'Nasz ostateczny werdykt',
+    verdict: 'Frytkownica nie zastępuje piekarnika, ale doskonale go uzupełnia. Przy szybkich, codziennych posiłkach (frytki, kurczak, grillowane warzywa) frytkownica jest nie do pobicia pod względem szybkości i oszczędności energii. Piekarnik pozostaje niezbędny do dużych kawałków mięsa, cukiernictwa i potraw w dużych ilościach. W 2026 roku, wobec obaw o koszty energii i domowy budżet, frytkownica staje się niemal obowiązkowym wyposażeniem każdego gospodarstwa domowego, które chce unowocześnić swoją kuchnię.',
+    choose_airfryer_title: 'Wybierz frytkownicę, jeśli...',
+    choose_airfryer: 'Często gotujesz dla 1–4 osób, zależy Ci na szybkich, chrupiących efektach, chcesz zaoszczędzić na rachunku za energię lub brakuje Ci czasu w tygodniu.',
+    choose_oven_title: 'Zostaw piekarnik, jeśli...',
+    choose_oven: 'Regularnie gotujesz dla 6 i więcej osób, pieczesz (ciasta, chleby, pizze), przygotowujesz całe pieczenie lub potrzebujesz piec kilka potraw jednocześnie.',
+  },
 }
 
 const metaTitles: Record<string, string> = {
@@ -336,6 +410,7 @@ const metaTitles: Record<string, string> = {
   es: 'Freidora de Aire vs Horno: ¿Cuál es Mejor? | Home Nura',
   it: 'Friggitrice ad Aria vs Forno: Qual è Meglio? | Home Nura',
   nl: 'Airfryer vs Oven: Wat is Beter? | Home Nura',
+  pl: 'Frytkownica beztłuszczowa vs piekarnik: co wybrać? | Home Nura',
 }
 
 
@@ -432,7 +507,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
           {products.slice(0, 3).map((product, i) => (
             <div key={i} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="p-4">
-                <ProductHeroVisual visual={product.visual} title={product.title} badge={product.badge} />
+                <ProductHeroVisual visual={product.visual} title={product.title} badge={product.badge} lang={lang} />
               </div>
               <div className="px-5 pb-5">
                 <h3 className="text-base font-bold text-slate-900 mb-1 line-clamp-2">{product.title}</h3>
@@ -510,8 +585,8 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
         </div>
 
         {(() => {
-          const criteriaLabel = lang === 'fr' ? 'Critère' : lang === 'de' ? 'Kriterium' : lang === 'es' ? 'Criterio' : lang === 'it' ? 'Criterio' : lang === 'nl' ? 'Criterium' : 'Criteria'
-          const ovenLabel = lang === 'fr' ? 'Four' : lang === 'de' ? 'Backofen' : lang === 'es' ? 'Horno' : lang === 'it' ? 'Forno' : lang === 'nl' ? 'Oven' : 'Oven'
+          const criteriaLabel = lang === 'fr' ? 'Critère' : lang === 'de' ? 'Kriterium' : lang === 'es' ? 'Criterio' : lang === 'it' ? 'Criterio' : lang === 'nl' ? 'Criterium' : lang === 'pl' ? 'Kryterium' : 'Criteria'
+          const ovenLabel = lang === 'fr' ? 'Four' : lang === 'de' ? 'Backofen' : lang === 'es' ? 'Horno' : lang === 'it' ? 'Forno' : lang === 'nl' ? 'Oven' : lang === 'pl' ? 'Piekarnik' : 'Oven'
           return (
             <>
               {/* Mobile: stacked card layout for readability */}
@@ -636,7 +711,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
           <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-brand-500/10 blur-3xl"></div>
           <div className="relative">
             <Kicker variant="blue-light" className="mb-6">
-              {lang === 'fr' ? 'Verdict' : lang === 'de' ? 'Urteil' : lang === 'es' ? 'Veredicto' : lang === 'it' ? 'Verdetto' : lang === 'nl' ? 'Eindoordeel' : 'Verdict'}
+              {lang === 'fr' ? 'Verdict' : lang === 'de' ? 'Urteil' : lang === 'es' ? 'Veredicto' : lang === 'it' ? 'Verdetto' : lang === 'nl' ? 'Eindoordeel' : lang === 'pl' ? 'Werdykt' : 'Verdict'}
             </Kicker>
             <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] mb-6 max-w-2xl">{c.verdict_title}</h2>
             <div className="h-[2px] w-16 bg-brand-400 mb-8"></div>
@@ -677,10 +752,10 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
       <section className="max-w-5xl mx-auto px-6 py-20 md:py-24 border-t border-slate-200">
         <div className="text-center mb-14">
           <Kicker className="mb-4">
-            {lang === 'fr' ? 'À lire aussi' : lang === 'de' ? 'Auch lesen' : lang === 'es' ? 'Leer también' : lang === 'it' ? 'Leggi anche' : lang === 'nl' ? 'Lees ook' : 'Also read'}
+            {lang === 'fr' ? 'À lire aussi' : lang === 'de' ? 'Auch lesen' : lang === 'es' ? 'Leer también' : lang === 'it' ? 'Leggi anche' : lang === 'nl' ? 'Lees ook' : lang === 'pl' ? 'Przeczytaj też' : 'Also read'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight text-slate-900 mb-4">
-            {lang === 'fr' ? 'Guides connexes' : lang === 'de' ? 'Verwandte Ratgeber' : lang === 'es' ? 'Guías relacionadas' : lang === 'it' ? 'Guide correlate' : lang === 'nl' ? 'Gerelateerde gidsen' : 'Related Guides'}
+            {lang === 'fr' ? 'Guides connexes' : lang === 'de' ? 'Verwandte Ratgeber' : lang === 'es' ? 'Guías relacionadas' : lang === 'it' ? 'Guide correlate' : lang === 'nl' ? 'Gerelateerde gidsen' : lang === 'pl' ? 'Powiązane poradniki' : 'Related Guides'}
           </h2>
           <div className="h-[2px] w-16 bg-brand-600 mx-auto"></div>
         </div>
@@ -689,20 +764,20 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
             {
               href: `/${lang}/guides/airfryers`,
               num: '01',
-              title: lang === 'fr' ? 'Guide complet des airfryers 2026' : lang === 'de' ? 'Kompletter Airfryer-Ratgeber 2026' : lang === 'es' ? 'Guía completa de freidoras 2026' : lang === 'it' ? 'Guida completa friggitrici 2026' : lang === 'nl' ? 'Complete airfryer-gids 2026' : 'Complete Air Fryer Guide 2026',
-              desc: lang === 'fr' ? 'Tous les critères pour bien choisir votre airfryer.' : lang === 'de' ? 'Alle Kriterien für die richtige Wahl.' : lang === 'es' ? 'Todos los criterios para elegir bien.' : lang === 'it' ? 'Tutti i criteri per scegliere bene.' : lang === 'nl' ? 'Alle criteria om goed te kiezen.' : 'All criteria to choose the right one.',
+              title: lang === 'fr' ? 'Guide complet des airfryers 2026' : lang === 'de' ? 'Kompletter Airfryer-Ratgeber 2026' : lang === 'es' ? 'Guía completa de freidoras 2026' : lang === 'it' ? 'Guida completa friggitrici 2026' : lang === 'nl' ? 'Complete airfryer-gids 2026' : lang === 'pl' ? 'Kompletny poradnik: frytkownice beztłuszczowe 2026' : 'Complete Air Fryer Guide 2026',
+              desc: lang === 'fr' ? 'Tous les critères pour bien choisir votre airfryer.' : lang === 'de' ? 'Alle Kriterien für die richtige Wahl.' : lang === 'es' ? 'Todos los criterios para elegir bien.' : lang === 'it' ? 'Tutti i criteri per scegliere bene.' : lang === 'nl' ? 'Alle criteria om goed te kiezen.' : lang === 'pl' ? 'Wszystkie kryteria, by dobrze wybrać frytkownicę beztłuszczową.' : 'All criteria to choose the right one.',
             },
             {
               href: `/${lang}/a-propos`,
               num: '02',
-              title: lang === 'fr' ? 'Notre méthodologie' : lang === 'de' ? 'Unsere Methodik' : lang === 'es' ? 'Nuestra metodología' : lang === 'it' ? 'La nostra metodologia' : lang === 'nl' ? 'Onze methodologie' : 'Our Methodology',
-              desc: lang === 'fr' ? 'Comment nous comparons et notons chaque airfryer.' : lang === 'de' ? 'Wie wir jede Heißluftfritteuse vergleichen und bewerten.' : lang === 'es' ? 'Cómo comparamos y calificamos cada freidora.' : lang === 'it' ? 'Come confrontiamo e valutiamo ogni friggitrice.' : lang === 'nl' ? 'Hoe we elke airfryer vergelijken en beoordelen.' : 'How we compare and rate every air fryer.',
+              title: lang === 'fr' ? 'Notre méthodologie' : lang === 'de' ? 'Unsere Methodik' : lang === 'es' ? 'Nuestra metodología' : lang === 'it' ? 'La nostra metodologia' : lang === 'nl' ? 'Onze methodologie' : lang === 'pl' ? 'Nasza metodologia' : 'Our Methodology',
+              desc: lang === 'fr' ? 'Comment nous comparons et notons chaque airfryer.' : lang === 'de' ? 'Wie wir jede Heißluftfritteuse vergleichen und bewerten.' : lang === 'es' ? 'Cómo comparamos y calificamos cada freidora.' : lang === 'it' ? 'Come confrontiamo e valutiamo ogni friggitrice.' : lang === 'nl' ? 'Hoe we elke airfryer vergelijken en beoordelen.' : lang === 'pl' ? 'Jak porównujemy i oceniamy każdą frytkownicę beztłuszczową.' : 'How we compare and rate every air fryer.',
             },
             {
               href: `/${lang}`,
               num: '03',
-              title: lang === 'fr' ? 'Classement des meilleurs airfryers 2026' : lang === 'de' ? 'Ranking der besten Airfryer 2026' : lang === 'es' ? 'Ranking de las mejores freidoras 2026' : lang === 'it' ? 'Classifica delle migliori friggitrici 2026' : lang === 'nl' ? 'Ranking beste airfryers 2026' : 'Best Air Fryers 2026 Ranking',
-              desc: lang === 'fr' ? 'Notre top 9 avec comparatif et scores Nura.' : lang === 'de' ? 'Unsere Top 9 mit Vergleich und Nura Scores.' : lang === 'es' ? 'Nuestro top 9 con comparativa y puntuaciones Nura.' : lang === 'it' ? 'La nostra top 9 con confronto e punteggi Nura.' : lang === 'nl' ? 'Onze top 9 met vergelijking en Nura Scores.' : 'Our top 9 with comparison and Nura scores.',
+              title: lang === 'fr' ? 'Classement des meilleurs airfryers 2026' : lang === 'de' ? 'Ranking der besten Airfryer 2026' : lang === 'es' ? 'Ranking de las mejores freidoras 2026' : lang === 'it' ? 'Classifica delle migliori friggitrici 2026' : lang === 'nl' ? 'Ranking beste airfryers 2026' : lang === 'pl' ? 'Ranking najlepszych frytkownic beztłuszczowych 2026' : 'Best Air Fryers 2026 Ranking',
+              desc: lang === 'fr' ? 'Notre top 9 avec comparatif et scores Nura.' : lang === 'de' ? 'Unsere Top 9 mit Vergleich und Nura Scores.' : lang === 'es' ? 'Nuestro top 9 con comparativa y puntuaciones Nura.' : lang === 'it' ? 'La nostra top 9 con confronto e punteggi Nura.' : lang === 'nl' ? 'Onze top 9 met vergelijking en Nura Scores.' : lang === 'pl' ? 'Nasze top 9 z porównaniem i ocenami Nura.' : 'Our top 9 with comparison and Nura scores.',
             },
           ].map((item) => (
             <Link
@@ -715,7 +790,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
               <h3 className="font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition-colors">{item.title}</h3>
               <p className="text-sm text-slate-500 leading-relaxed">{item.desc}</p>
               <div className="mt-5 flex items-center text-sm font-semibold text-brand-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span>{lang === 'fr' ? 'Lire' : lang === 'de' ? 'Lesen' : lang === 'es' ? 'Leer' : lang === 'it' ? 'Leggi' : lang === 'nl' ? 'Lezen' : 'Read'}</span>
+                <span>{lang === 'fr' ? 'Lire' : lang === 'de' ? 'Lesen' : lang === 'es' ? 'Leer' : lang === 'it' ? 'Leggi' : lang === 'nl' ? 'Lezen' : lang === 'pl' ? 'Czytaj' : 'Read'}</span>
                 <span className="ml-2 transition-transform group-hover:translate-x-1">&rarr;</span>
               </div>
             </Link>

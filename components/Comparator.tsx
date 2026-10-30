@@ -100,6 +100,17 @@ const LABELS: Record<string, Labels> = {
     clearSlot: 'Verwijderen',
     close: 'Sluiten',
   },
+  pl: {
+    pickProduct: 'Wybierz model',
+    nuraScore: 'Ocena Nura',
+    capacity: 'Pojemność',
+    bestFor: 'Dla kogo',
+    pros: 'Mocne strony',
+    cons: 'Na co uważać',
+    viewOnAmazon: 'Zobacz na Amazon',
+    clearSlot: 'Usuń',
+    close: 'Zamknij',
+  },
 }
 
 export default function Comparator({

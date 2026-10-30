@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: "Robot aspirador limpiando bajo un sofá sobre un suelo de madera clara",
         it: "Robot aspirapolvere che pulisce sotto un divano su un parquet chiaro",
         nl: "Robotstofzuiger die onder een bank reinigt op een lichte houten vloer",
+        pl: "Robot odkurzający sprząta pod sofą na jasnej drewnianej podłodze",
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: "Robot aspirador vs aspiradora escoba: ¿cuál elegir en 2026?",
     it: "Robot aspirapolvere vs scopa elettrica: quale scegliere nel 2026?",
     nl: "Robotstofzuiger vs steelstofzuiger: welke kiest u in 2026?",
+    pl: "Robot odkurzający czy odkurzacz pionowy: co wybrać w 2026 roku?",
   },
   excerpt: {
     fr: "Robot aspirateur ou aspirateur balai ? Différences réelles, critères de choix et six modèles récents (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex 15.60…) pour décider selon votre logement.",
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: "¿Robot aspirador o aspiradora escoba? Diferencias reales, criterios de elección y seis modelos recientes (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex 15.60…) para decidir según su vivienda.",
     it: "Robot aspirapolvere o scopa elettrica? Le vere differenze, i criteri di scelta e sei modelli recenti (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex 15.60…) per decidere in base alla vostra casa.",
     nl: "Robotstofzuiger of steelstofzuiger? De echte verschillen, keuzecriteria en zes recente modellen (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex 15.60…) om te kiezen op basis van uw woning.",
+    pl: "Robot odkurzający czy odkurzacz pionowy? Realne różnice, kryteria wyboru i sześć nowych modeli (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex 15.60…), które pomogą dobrać sprzęt do Twojego mieszkania.",
   },
   content: {
     fr: `<p><strong>Robot aspirateur ou aspirateur balai ? Pour la plupart des foyers, le robot aspirateur est le meilleur choix pour l’entretien quotidien des sols, tandis que l’aspirateur balai reste indispensable pour les escaliers, les tapis épais, le canapé et les petites urgences.</strong> Si vous ne pouvez en acheter qu’un, prenez un robot dans un logement de plain-pied aux sols surtout durs, et un balai sans fil dans une maison à étages ou riche en tapis. Le duo des deux reste la solution la plus confortable.</p>
@@ -680,6 +683,113 @@ export const article: BlogArticle = {
 <p><strong>Wilt u elke dag schone vloeren zonder erbij stil te staan, kies dan een robotstofzuiger</strong>: de Roborock Qrevo Curv is het meest evenwichtig, de Roborock Q7 M5+ biedt de basis voor een klein budget en de Dreame X50 Ultra Complete past het best bij huisdieren en drempels.</p>
 <p><strong>Hebt u een trap, dikke vloerkleden of stoffering te onderhouden, dan blijft een steelstofzuiger onmisbaar</strong>: de Dyson V15 Detect is de referentie, de Rowenta X-Force Flex 15.60 biedt de beste prijs-kwaliteitverhouding en de Samsung Bespoke Jet AI overtuigt met zijn automatische lediging.</p>
 <p><strong>Het beste compromis voor de meeste huishoudens blijft het duo</strong>: een robot voor het dagelijkse onderhoud en een steelstofzuiger voor de afwerking en alles waar de robot niet bij kan.</p>`,
+    pl: `<p><strong>Robot odkurzający czy odkurzacz pionowy? W większości domów robot odkurzający jest najlepszym wyborem do codziennego sprzątania podłóg, a odkurzacz pionowy bezprzewodowy pozostaje niezastąpiony na schodach, przy grubych dywanach, na sofie i w drobnych awaryjnych sytuacjach.</strong> Jeśli możesz kupić tylko jeden sprzęt, wybierz robota do mieszkania na jednym poziomie z przeważnie twardymi podłogami, a odkurzacz pionowy bezprzewodowy do domu piętrowego lub z dużą ilością dywanów. Duet obu urządzeń to najwygodniejsze rozwiązanie.</p>
+<p>To porównanie opiera się na kartach technicznych producentów, analizach prasy specjalistycznej i opiniach zweryfikowanych kupujących. Wyjaśnia prawdziwe różnice między obiema rodzinami urządzeń, a następnie przedstawia sześć nowych modeli dostępnych w Europie: trzy roboty i trzy odkurzacze pionowe. Całą ofertę zobaczysz w naszych działach: <a href="/pl/entretien-maison/aspirateurs-robots">roboty odkurzające</a> i <a href="/pl/entretien-maison/aspirateurs-balais">odkurzacze pionowe bezprzewodowe</a>.</p>
+
+<h2>Robot czy odkurzacz pionowy: co naprawdę je różni</h2>
+<p>Oba urządzenia odkurzają, ale odpowiadają na inne potrzeby. <strong>Robot odkurzający</strong> pracuje sam, według harmonogramu, i sprząta codziennie, bez Twojego udziału. Nowsze modele myją też podłogi i mają stację, która opróżnia ich pojemnik na kurz. <strong>Odkurzacz pionowy bezprzewodowy</strong> wymaga Twojej obecności, ale czyści dokładnie i wszędzie: schody, listwy przypodłogowe, tapicerkę, samochód, a nawet pajęczyny pod sufitem.</p>
+<table>
+<thead>
+<tr><th>Kryterium</th><th>Robot odkurzający</th><th>Odkurzacz pionowy bezprzewodowy</th></tr>
+</thead>
+<tbody>
+<tr><td>Wysiłek</td><td>Żaden na co dzień, wystarczy uprzątnąć podłogę</td><td>Odkurzasz samodzielnie</td></tr>
+<tr><td>Częstotliwość sprzątania</td><td>Codzienna, według harmonogramu</td><td>Gdy znajdziesz czas</td></tr>
+<tr><td>Skuteczność na grubych dywanach</td><td>Poprawna, słabsza przy długim włosiu</td><td>Wyższa dzięki szczotce z napędem i wielokrotnemu przejazdowi</td></tr>
+<tr><td>Schody, sofa, samochód</td><td>Niemożliwe</td><td>Tak, w trybie odkurzacza ręcznego</td></tr>
+<tr><td>Pod meblami</td><td>Tak, jeśli zmieści się na wysokość</td><td>Tak, zwłaszcza z elastyczną rurą</td></tr>
+<tr><td>Mycie podłóg</td><td>Tak w większości nowych modeli</td><td>Nie (potrzebny odkurzacz piorący)</td></tr>
+<tr><td>Zajmowane miejsce</td><td>Stacja na podłodze, czasem duża</td><td>Uchwyt ścienny lub kompaktowa stacja</td></tr>
+<tr><td>Konserwacja</td><td>Worki stacji, szczotki, mopy, filtry</td><td>Pojemnik i filtr do czyszczenia, szczotka do rozplątywania</td></tr>
+</tbody>
+</table>
+
+<h2>Jak wybrać: kryteria, które się liczą</h2>
+<h3>Twoje mieszkanie: powierzchnia, piętra i przeszkody</h3>
+<p>Robot sprawdza się najlepiej na jednym poziomie, z niewielką liczbą przeszkód na podłodze. Zapamiętuje mapy kilku pięter, ale trzeba go przenosić z poziomu na poziom, a po schodach nigdy nie wejdzie. W domu piętrowym odkurzacz pionowy bezprzewodowy nadal jest potrzebny do schodów. Sprawdź też wysokość pod niskimi meblami: większość robotów z wieżyczką LiDAR ma około 10 cm.</p>
+<h3>Twoje podłogi: twarde, dywany czy mieszane</h3>
+<p>Na parkiecie i płytkach nowy robot świetnie sprawdza się w bieżącym utrzymaniu czystości, a jego mycie usuwa drobny kurz przyklejony do podłogi. Na grubych dywanach i wykładzinach szczotka z napędem w odkurzaczu pionowym i jego moc skoncentrowana na małej powierzchni lepiej wyciągają kurz z głębi. Roboty z wyższej półki wykrywają dywany, zwiększają ssanie i unoszą mopy, ale nie zastąpią porządnego głębokiego odkurzania grubej wykładziny.</p>
+<h3>Zwierzęta i długie włosy</h3>
+<p>Przy psie lub kocie regularność liczy się tak samo jak moc: robot, który sprząta codziennie, nie pozwala sierści się gromadzić. Wybierz szczotkę przeciw owijaniu się włosów, zarówno w robocie, jak i w odkurzaczu pionowym. Odkurzacz pionowy zachowuje przewagę przy sofie, legowisku i fotelikach samochodowych. Więcej na ten temat znajdziesz w naszym poradniku o <a href="/pl/blog/robot-aspirateur-poils-animaux">robotach odkurzających dla właścicieli zwierząt</a>.</p>
+<h3>Twój czas i organizacja</h3>
+<p>Jeśli z braku czasu odkurzasz rzadziej niż raz w tygodniu, robot zmieni Twoją codzienność: podłoga pozostaje czysta bez Twojej uwagi. Jeśli lubisz solidne sprzątanie w weekend albo podłoga jest często zastawiona (zabawki, kable, ubrania), odkurzacz pionowy może wystarczyć.</p>
+<h3>Alergie</h3>
+<p>Dla alergików liczą się dwie rzeczy: skuteczna i szczelna filtracja oraz opróżnianie bez kontaktu z kurzem. Stacje opróżniające robotów oraz stacja Samsung Bespoke Jet AI opróżniają pojemnik do zamkniętego worka, co ogranicza kontakt z alergenami.</p>
+<h3>Przedział cenowy</h3>
+<p>Są roboty z podstawowej półki z nawigacją LiDAR i automatycznym opróżnianiem oraz bardzo kompletne odkurzacze pionowe ze średniej półki. Wyższa półka daje przede wszystkim stacje typu „wszystko w jednym” dla robotów i bardziej zaawansowane czujniki w odkurzaczach pionowych. Duet „robot z podstawowej półki + dobry odkurzacz pionowy” często kosztuje mniej niż pojedynczy robot z najwyższej półki.</p>
+
+<h2>Polecane roboty odkurzające</h2>
+<h3>Roborock Qrevo Curv: najbardziej wyważony robot</h3>
+<p><strong>Roborock Qrevo Curv</strong> ma deklarowaną siłę ssania 18 500 Pa, nawigację LiDAR i obrotowe mopy. Ramię FlexiArm wysuwa szczotkę boczną i mop w stronę narożników i listew przypodłogowych, a podwozie AdaptiLift potrafi się unosić, by pokonywać progi i grube dywany. Stacja opróżnia pojemnik, myje mopy gorącą wodą i suszy je ciepłym powietrzem.</p>
+<p><strong>Mocne strony:</strong> staranne czyszczenie przy krawędziach, bardzo dobra równowaga między odkurzaniem a myciem, rozbudowana aplikacja Roborock ceniona za niezawodność.</p>
+<p><strong>Ograniczenia:</strong> okazała stacja, wysoka pozycja cenowa, wieżyczka LiDAR ogranicza przejazd pod bardzo niskimi meblami.</p>
+<p><strong>Dla kogo:</strong> większość mieszkań i domów z różnymi rodzajami podłóg, w których chcesz zlecić robotowi prawie całe sprzątanie.</p>
+<h3>Roborock Q7 M5+: to, co najważniejsze, w niskim budżecie</h3>
+<p><strong>Roborock Q7 M5+</strong> idzie prosto do celu: nawigacja LiDAR z mapami wielu pięter, deklarowana siła ssania 10 000 Pa, szczotka przeciw owijaniu się włosów z wbudowanym grzebieniem oraz stacja z automatycznym opróżnianiem i workiem o pojemności 2,7 litra. Ma też prosty moduł mycia.</p>
+<p><strong>Mocne strony:</strong> nawigacja i aplikacja marki w modelu z podstawowej półki, kilka tygodni bez opróżniania robota, kompaktowy format.</p>
+<p><strong>Ograniczenia:</strong> nakładka myjąca tylko odświeża podłogi, brak mycia i suszenia mopów w stacji, mniej zaawansowane omijanie przeszkód.</p>
+<p><strong>Dla kogo:</strong> pierwszy robot, mieszkanie z przeważnie twardymi podłogami lub uzupełnienie odkurzacza pionowego bezprzewodowego.</p>
+<h3>Dreame X50 Ultra Complete: dla zwierząt i progów</h3>
+<p><strong>Dreame X50 Ultra Complete</strong> ma deklarowane 20 000 Pa i podwójną szczotkę przeciw owijaniu się włosów HyperStream. Jego system ProLeap unosi go, by według producenta pokonywał przeszkody do 6 cm, a wieżyczka LiDAR chowa się, by przejechać pod niektórymi meblami. Stacja opróżnia robota oraz myje i suszy mopy.</p>
+<p><strong>Mocne strony:</strong> świetnie radzi sobie z sierścią i dywanami, pokonuje progi i prowadnice drzwi tarasowych, duża autonomia na dużych powierzchniach.</p>
+<p><strong>Ograniczenia:</strong> ciężki robot i duża stacja, pozycja premium, wysoki poziom hałasu przy pełnej mocy.</p>
+<p><strong>Dla kogo:</strong> domy z psem lub kotem, domy z progami i duże powierzchnie.</p>
+<p>Aby dowiedzieć się więcej o robotach, przeczytaj nasz <a href="/pl/blog/guide-robot-aspirateur-2026">poradnik: najlepszy robot odkurzający 2026</a>.</p>
+
+<h2>Polecane odkurzacze pionowe bezprzewodowe</h2>
+<h3>Dyson V15 Detect: odkurzacz pionowy wzorcowy</h3>
+<p><strong>Dyson V15 Detect</strong> rzuca zielony promień lasera tuż nad podłogą, który uwidacznia drobny kurz na twardych powierzchniach. Czujnik piezoelektryczny mierzy zasysane cząstki i w trybie Auto zwiększa moc, gdy wykryje dużo kurzu. Dyson deklaruje do 60 minut pracy w trybie eco, pojemnik 0,76 l, szczelną filtrację w całym urządzeniu i wyjmowany akumulator.</p>
+<p><strong>Mocne strony:</strong> jedno z najmocniejszych ssań na rynku, bardzo przydatny laser, automatyczna regulacja mocy, szczelna filtracja.</p>
+<p><strong>Ograniczenia:</strong> model z wysokiej półki, około 3 kg w wyciągniętej ręce, bardzo krótki czas pracy w trybie Boost.</p>
+<p><strong>Dla kogo:</strong> dla tych, którzy chcą odkurzacza do wszystkiego, domy z dywanami, alergicy.</p>
+<h3>Rowenta X-Force Flex 15.60: najlepszy stosunek możliwości do ceny</h3>
+<p><strong>Rowenta X-Force Flex 15.60</strong> wyróżnia się <strong>rurą Flex</strong>, która się zgina, by wsunąć się pod sofę lub łóżko bez schylania. Rowenta deklaruje do 230 AW w trybie Boost, do 80 minut pracy w trybie eco, automatyczną regulację mocy zależnie od podłogi, wyjmowany akumulator i pojemnik 0,9 l, jeden z największych na rynku.</p>
+<p><strong>Mocne strony:</strong> bardzo praktyczna rura Flex, duży pojemnik, zmywalny filtr, bardzo dobry stosunek możliwości do ceny.</p>
+<p><strong>Ograniczenia:</strong> nieco cięższy od średniej (około 3,2 kg), brak wykrywania ilości kurzu.</p>
+<p><strong>Dla kogo:</strong> mieszkania z dużą ilością niskich mebli oraz osoby szukające kompletnego odkurzacza pionowego bez celowania w najwyższą półkę.</p>
+<h3>Samsung Bespoke Jet AI: odkurzacz, który sam się opróżnia</h3>
+<p><strong>Samsung Bespoke Jet AI</strong> ma deklarowaną moc ssania do 280 W i inteligentny tryb, który rozpoznaje rodzaj podłogi i dostosowuje moc. Samsung deklaruje do 100 minut pracy. Jego stacja All-in-One Clean Station ładuje urządzenie i automatycznie opróżnia pojemnik do worka.</p>
+<p><strong>Mocne strony:</strong> duża autonomia, higieniczne automatyczne opróżnianie, automatyczna regulacja mocy.</p>
+<p><strong>Ograniczenia:</strong> zajmująca dużo miejsca stacja, worki do dokupienia, pozycja z wysokiej półki.</p>
+<p><strong>Dla kogo:</strong> duże mieszkania i alergicy, którzy nie chcą już opróżniać pojemnika ręcznie.</p>
+<p>Nasze <a href="/pl/blog/aspirateur-sans-fil-comparatif-2026">porównanie odkurzaczy pionowych bezprzewodowych 2026</a> opisuje te modele szczegółowo.</p>
+
+<h2>Tabela porównawcza sześciu modeli</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Typ</th><th>Kluczowa cecha</th><th>Praktyczna zaleta</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td>Roborock Qrevo Curv</td><td>Robot odkurzająco-mopujący</td><td>Deklarowane 18 500 Pa, LiDAR</td><td>Stacja, która opróżnia, myje gorącą wodą i suszy</td><td>Większości domów</td></tr>
+<tr><td>Roborock Q7 M5+</td><td>Robot odkurzający</td><td>Deklarowane 10 000 Pa, LiDAR</td><td>Automatyczne opróżnianie, worek 2,7 l</td><td>Niski budżet, twarde podłogi</td></tr>
+<tr><td>Dreame X50 Ultra Complete</td><td>Robot odkurzająco-mopujący</td><td>Deklarowane 20 000 Pa, ProLeap</td><td>Pokonuje przeszkody do 6 cm według Dreame</td><td>Zwierzęta, progi, duże powierzchnie</td></tr>
+<tr><td>Dyson V15 Detect</td><td>Odkurzacz pionowy bezprzewodowy</td><td>Laser i czujnik cząstek</td><td>Szczelna filtracja, wyjmowany akumulator</td><td>Dywany, alergie, wszechstronność</td></tr>
+<tr><td>Rowenta X-Force Flex 15.60</td><td>Odkurzacz pionowy bezprzewodowy</td><td>Rura Flex, pojemnik 0,9 l</td><td>Do 80 min deklarowanej pracy w trybie eco</td><td>Niskie meble, dobry stosunek możliwości do ceny</td></tr>
+<tr><td>Samsung Bespoke Jet AI</td><td>Odkurzacz pionowy bezprzewodowy</td><td>Do 100 min deklarowanej pracy</td><td>Stacja z automatycznym opróżnianiem</td><td>Duże mieszkania, zero kontaktu z kurzem</td></tr>
+</tbody>
+</table>
+
+<h2>Duet robot + odkurzacz pionowy: najwygodniejsze połączenie</h2>
+<p>W większości domów oba urządzenia nie konkurują ze sobą, tylko się uzupełniają. Robot zajmuje się codziennym sprzątaniem podłóg, gdy Ciebie nie ma. Odkurzacz pionowy wkracza raz czy dwa razy w tygodniu: na schody, grube dywany, zakamarki, tekstylia i rozsypane w nieodpowiednim momencie okruchy. Gdy robot wykonuje główną robotę, często wystarczy odkurzacz pionowy ze średniej półki, a z kolei robot z podstawowej półki, taki jak Roborock Q7 M5+, bardzo dobrze uzupełnia odkurzacz pionowy z wyższej półki.</p>
+
+<h2>Błędy, których warto uniknąć</h2>
+<ul>
+<li><strong>Kupno robota do domu piętrowego bez odkurzacza pionowego:</strong> robot nie wchodzi po schodach, więc schody nadal będą do zrobienia.</li>
+<li><strong>Zapomnienie o zmierzeniu:</strong> wysokości pod meblami (dla robota) i miejsca na stację, która często jest wyższa i głębsza, niż się wydaje.</li>
+<li><strong>Porównywanie wartości mocy między markami:</strong> Pa, AW i W nie są wprost porównywalne, a każdy producent mierzy po swojemu.</li>
+<li><strong>Zaufanie do maksymalnej autonomii:</strong> podawana jest dla trybu eco. W trybie Boost odkurzacz pionowy często wytrzymuje tylko kilka minut.</li>
+<li><strong>Zaniedbanie porządku na podłodze:</strong> kable, skarpetki i zabawki blokują robota, nawet wyposażonego w kamerę.</li>
+<li><strong>Przekonanie, że robot myjący zastąpi mop w każdym przypadku:</strong> świetnie utrzymuje czystość, ale zaschnięte plamy czasem wymagają ręcznego czyszczenia.</li>
+</ul>
+
+<h2>Konserwacja, akumulatory i bezpieczeństwo</h2>
+<p>Robot wymaga niewielkiej regularnej konserwacji: opróżnienia lub wymiany worka stacji, usunięcia włosów ze szczotki, wypłukania filtrów zgodnie z instrukcją oraz opróżnienia zbiornika na brudną wodę, by uniknąć zapachów. Odkurzacz pionowy wymaga opróżnienia pojemnika, umycia filtra, jeśli producent na to pozwala, oraz rozplątania szczotki.</p>
+<p>Oba działają na akumulatorach litowo-jonowych. Używaj wyłącznie oryginalnej ładowarki i akumulatorów albo zgodnych zamienników zatwierdzonych przez producenta, nie zostawiaj uszkodzonego urządzenia na ładowaniu, a zużyte akumulatory oddawaj do punktu zbiórki. W przypadku robota włącz strefy zakazane wokół misek dla zwierząt, kabli i dywanów z frędzlami oraz sprawdź, czy czujniki przeciwupadkowe są czyste, jeśli masz schody. Nie pozwalaj robotowi myjącemu jeździć po niezabezpieczonym parkiecie bez sprawdzenia zaleceń producenta podłogi.</p>
+
+<h2>Werdykt</h2>
+<p><strong>Jeśli chcesz mieć czyste podłogi na co dzień i nie zaprzątać sobie tym głowy, wybierz robota odkurzającego</strong>: Roborock Qrevo Curv jest najbardziej wyważony, Roborock Q7 M5+ oferuje to, co najważniejsze, w niskim budżecie, a Dreame X50 Ultra Complete najlepiej sprawdzi się przy zwierzętach i progach.</p>
+<p><strong>Jeśli masz schody, grube dywany lub tekstylia do wyczyszczenia, odkurzacz pionowy pozostaje niezbędny</strong>: Dyson V15 Detect jest wzorcem, Rowenta X-Force Flex 15.60 oferuje najlepszy stosunek możliwości do ceny, a Samsung Bespoke Jet AI przekonuje automatycznym opróżnianiem.</p>
+<p><strong>Najlepszym kompromisem w większości domów pozostaje duet</strong>: robot do codziennego utrzymania czystości, odkurzacz pionowy do wykończenia i wszystkiego, do czego robot nie dosięgnie.</p>`,
   },
   faq: [
     {
@@ -690,6 +800,7 @@ export const article: BlogArticle = {
         es: "¿Puede un robot aspirador sustituir a una aspiradora escoba?",
         it: "Un robot aspirapolvere può sostituire una scopa elettrica?",
         nl: "Kan een robotstofzuiger een steelstofzuiger vervangen?",
+        pl: "Czy robot odkurzający może zastąpić odkurzacz pionowy?",
       },
       answer: {
         fr: "Dans un appartement de plain-pied aux sols surtout durs, un robot récent assure l’essentiel de l’entretien. Il ne monte pas les escaliers et n’aspire ni le canapé ni la voiture : un balai reste utile pour ces usages et pour les tapis épais.",
@@ -698,6 +809,7 @@ export const article: BlogArticle = {
         es: "En un piso de una sola planta con suelos sobre todo duros, un robot reciente se encarga de casi todo el mantenimiento. No sube escaleras ni aspira el sofá o el coche, así que una escoba sigue siendo útil para eso y para las alfombras gruesas.",
         it: "In un appartamento su un unico piano con pavimenti soprattutto duri, un robot recente gestisce quasi tutta la manutenzione. Non sale le scale e non pulisce divano o auto: per questo e per i tappeti spessi una scopa resta utile.",
         nl: "In een appartement op één verdieping met vooral harde vloeren doet een recente robot het meeste onderhoud. Hij neemt geen trappen en zuigt de bank of auto niet, dus daarvoor en voor dikke vloerkleden blijft een steelstofzuiger handig.",
+        pl: "W mieszkaniu na jednym poziomie z przeważnie twardymi podłogami nowy robot przejmuje większość sprzątania. Nie wchodzi po schodach i nie odkurzy sofy ani samochodu: odkurzacz pionowy nadal przyda się do tych zadań oraz do grubych dywanów.",
       },
     },
     {
@@ -708,6 +820,7 @@ export const article: BlogArticle = {
         es: "¿Cuál es mejor si tengo mascotas?",
         it: "Quale scegliere se si hanno animali?",
         nl: "Wat is beter met huisdieren?",
+        pl: "Co wybrać przy zwierzętach?",
       },
       answer: {
         fr: "Idéalement les deux. Un robot avec brosse anti-emmêlement, comme le Dreame X50 Ultra Complete, empêche les poils de s’accumuler au quotidien, et un balai comme le Dyson V15 Detect se charge du canapé, du panier et des tapis.",
@@ -716,6 +829,7 @@ export const article: BlogArticle = {
         es: "Lo ideal son los dos. Un robot con cepillo antienredos, como el Dreame X50 Ultra Complete, evita que el pelo se acumule cada día, y una escoba como la Dyson V15 Detect se ocupa del sofá, la cama de la mascota y las alfombras.",
         it: "Idealmente entrambi. Un robot con spazzola anti-groviglio, come il Dreame X50 Ultra Complete, evita che i peli si accumulino ogni giorno, e una scopa come la Dyson V15 Detect si occupa di divano, cuccia e tappeti.",
         nl: "Idealiter allebei. Een robot met antiklitborstel, zoals de Dreame X50 Ultra Complete, voorkomt dat haren zich dagelijks ophopen, en een steelstofzuiger zoals de Dyson V15 Detect neemt de bank, de mand en de vloerkleden voor zijn rekening.",
+        pl: "Najlepiej oba. Robot ze szczotką przeciw owijaniu się włosów, taki jak Dreame X50 Ultra Complete, nie pozwala sierści gromadzić się na co dzień, a odkurzacz pionowy, na przykład Dyson V15 Detect, zajmie się sofą, legowiskiem i dywanami.",
       },
     },
     {
@@ -726,6 +840,7 @@ export const article: BlogArticle = {
         es: "¿Cuál es más eficaz en alfombras gruesas?",
         it: "Quale è più efficace sui tappeti spessi?",
         nl: "Wat werkt beter op dikke vloerkleden?",
+        pl: "Który jest skuteczniejszy na grubych dywanach?",
       },
       answer: {
         fr: "L’aspirateur balai. Sa brosse motorisée et sa puissance concentrée sur une petite surface extraient mieux la poussière en profondeur. Les robots haut de gamme augmentent leur aspiration sur les tapis, mais restent en retrait sur les fibres longues.",
@@ -734,6 +849,7 @@ export const article: BlogArticle = {
         es: "La aspiradora escoba. Su cepillo motorizado y su potencia concentrada en una superficie pequeña extraen mejor el polvo profundo. Los robots de gama alta aumentan la succión en las alfombras, pero se quedan cortos con el pelo largo.",
         it: "La scopa elettrica. La spazzola motorizzata e la potenza concentrata su una piccola superficie estraggono meglio la polvere in profondità. I robot di fascia alta aumentano l’aspirazione sui tappeti, ma restano indietro sul pelo lungo.",
         nl: "De steelstofzuiger. De gemotoriseerde borstel en het vermogen op een klein oppervlak halen stof beter uit de diepte. Toprobots verhogen hun zuigkracht op vloerkleden, maar blijven achter bij hoogpolig.",
+        pl: "Odkurzacz pionowy. Jego szczotka z napędem i moc skoncentrowana na małej powierzchni lepiej wyciągają kurz z głębi. Roboty z wyższej półki zwiększają ssanie na dywanach, ale przy długim włosiu nadal ustępują odkurzaczom pionowym.",
       },
     },
     {
@@ -744,6 +860,7 @@ export const article: BlogArticle = {
         es: "¿Funciona un robot aspirador en una casa de varias plantas?",
         it: "Un robot aspirapolvere funziona in una casa su più piani?",
         nl: "Werkt een robotstofzuiger in een huis met meerdere verdiepingen?",
+        pl: "Czy robot odkurzający sprawdzi się w domu piętrowym?",
       },
       answer: {
         fr: "Oui, la plupart des modèles récents mémorisent plusieurs étages, mais il faut porter le robot d’un niveau à l’autre ou acheter un second appareil. Il ne nettoie jamais les marches, et ses capteurs anti-chute l’empêchent de tomber dans l’escalier.",
@@ -752,6 +869,7 @@ export const article: BlogArticle = {
         es: "Sí, la mayoría de los modelos recientes guardan varias plantas, pero hay que llevar el robot de una a otra o comprar un segundo aparato. Nunca limpia los escalones, y sus sensores anticaída evitan que se caiga por la escalera.",
         it: "Sì, la maggior parte dei modelli recenti memorizza più piani, ma il robot va spostato da un livello all’altro oppure serve un secondo apparecchio. Non pulisce mai i gradini, e i sensori anticaduta gli impediscono di cadere dalle scale.",
         nl: "Ja, de meeste recente modellen onthouden meerdere verdiepingen, maar u moet de robot verplaatsen of een tweede toestel kopen. De traptreden reinigt hij nooit, en valsensoren voorkomen dat hij van de trap valt.",
+        pl: "Tak, większość nowych modeli zapamiętuje kilka pięter, ale trzeba przenosić robota z poziomu na poziom albo kupić drugie urządzenie. Nigdy nie wyczyści stopni, a czujniki przeciwupadkowe chronią go przed spadnięciem ze schodów.",
       },
     },
     {
@@ -762,6 +880,7 @@ export const article: BlogArticle = {
         es: "¿Cuál requiere más mantenimiento?",
         it: "Quale richiede più manutenzione?",
         nl: "Wat vraagt meer onderhoud?",
+        pl: "Który wymaga więcej konserwacji?",
       },
       answer: {
         fr: "Le robot, surtout s’il lave : sacs de station, réservoir d’eau sale, serpillères, brosses et filtres. Une station tout-en-un automatise une bonne partie du travail. Un balai demande surtout de vider le bac, laver le filtre et démêler la brosse.",
@@ -770,6 +889,7 @@ export const article: BlogArticle = {
         es: "El robot, sobre todo si friega: bolsas de la base, depósito de agua sucia, mopas, cepillos y filtros. Una base todo en uno automatiza buena parte del trabajo. Una escoba requiere sobre todo vaciar el depósito, lavar el filtro y desenredar el cepillo.",
         it: "Il robot, soprattutto se lava: sacchetti della base, serbatoio dell’acqua sporca, panni, spazzole e filtri. Una base tutto-in-uno automatizza gran parte del lavoro. Una scopa richiede soprattutto di svuotare il contenitore, lavare il filtro e districare la spazzola.",
         nl: "De robot, zeker als hij dweilt: stationzakken, vuilwatertank, dweilen, borstels en filters. Een alles-in-één-station automatiseert veel daarvan. Bij een steelstofzuiger leegt u vooral de stofbak, wast u het filter en ontwart u de borstel.",
+        pl: "Robot, zwłaszcza jeśli myje: worki stacji, zbiornik na brudną wodę, mopy, szczotki i filtry. Stacja typu „wszystko w jednym” automatyzuje sporą część pracy. Odkurzacz pionowy wymaga głównie opróżniania pojemnika, mycia filtra i rozplątywania szczotki.",
       },
     },
     {
@@ -780,6 +900,7 @@ export const article: BlogArticle = {
         es: "¿Sigue haciendo falta un aspirador de trineo en 2026?",
         it: "Serve ancora un aspirapolvere a traino nel 2026?",
         nl: "Hebt u in 2026 nog een sledestofzuiger nodig?",
+        pl: "Czy w 2026 roku nadal potrzebny jest odkurzacz tradycyjny?",
       },
       answer: {
         fr: "Rarement. Le traîneau filaire n’a pas de limite d’autonomie et reste pratique pour les très grandes surfaces ou les grosses séances de ménage, mais pour la plupart des foyers, le duo robot + balai sans fil couvre tous les besoins avec moins de contraintes.",
@@ -788,6 +909,7 @@ export const article: BlogArticle = {
         es: "Rara vez. El trineo con cable no tiene límite de autonomía y sigue siendo práctico para superficies muy grandes o limpiezas intensas, pero para la mayoría de los hogares el dúo robot y escoba sin cable cubre todas las necesidades con menos ataduras.",
         it: "Raramente. L’aspirapolvere a traino con filo non ha limiti di autonomia ed è ancora pratico per superfici molto grandi o pulizie intensive, ma per la maggior parte delle case il duo robot più scopa senza filo copre tutte le esigenze con meno vincoli.",
         nl: "Zelden. Een sledestofzuiger met snoer heeft geen beperkte gebruiksduur en blijft handig voor zeer grote woningen of grote poetsbeurten, maar voor de meeste huishoudens dekt het duo robot plus draadloze steelstofzuiger alles met minder gedoe.",
+        pl: "Rzadko. Odkurzacz przewodowy nie ma limitu czasu pracy i pozostaje praktyczny przy bardzo dużych powierzchniach lub generalnych porządkach, ale w większości domów duet robot + odkurzacz pionowy bezprzewodowy pokrywa wszystkie potrzeby przy mniejszych ograniczeniach.",
       },
     },
   ],

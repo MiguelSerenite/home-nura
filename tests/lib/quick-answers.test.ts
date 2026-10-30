@@ -11,7 +11,7 @@ describe('quick answers', () => {
     expect(Object.keys(QUICK_ANSWERS).filter((s) => !slugs.has(s))).toEqual([])
   })
 
-  it('resolves every pick to a buy link in all 6 locales', () => {
+  it('resolves every pick to a buy link in every locale', () => {
     const missing: string[] = []
     for (const article of articles.filter((a) => QUICK_ANSWERS[a.slug])) {
       for (const lang of LANGUAGES) {

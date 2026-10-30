@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Baterías domésticas murales e inversor híbrido instalados para almacenar electricidad solar',
         it: 'Batterie domestiche a parete e inverter ibrido installati per accumulare l\'energia solare',
         nl: 'Aan de muur gemonteerde thuisbatterijen en hybride omvormer voor de opslag van zonnestroom',
+        pl: 'Ścienne domowe magazyny energii i falownik hybrydowy zainstalowane do przechowywania energii słonecznej',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Mejor Batería Doméstica para Placas Solares 2026: Enchufable o Fija',
     it: 'Migliore Batteria Domestica per Pannelli Solari 2026: Plug-in o Fissa',
     nl: 'Beste Thuisbatterij voor Zonnepanelen 2026: Plug-in of Vaste Opslag',
+    pl: 'Najlepszy domowy magazyn energii do paneli słonecznych 2026: plug-in czy stacjonarny',
   },
   excerpt: {
     fr: 'Quelle batterie choisir pour stocker votre électricité solaire en 2026 ? Comparatif des batteries plug-in (Anker Solarbank 3, Marstek Venus E, Zendure SolarFlow, EcoFlow STREAM) et fixes (Tesla Powerwall 3, Huawei LUNA2000) : capacité, couplage AC/DC, injection zéro et secours.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: '¿Qué batería elegir para almacenar tu electricidad solar en 2026? Comparativa de baterías enchufables (Anker Solarbank 3, Marstek Venus E, Zendure SolarFlow, EcoFlow STREAM) y fijas (Tesla Powerwall 3, Huawei LUNA2000): capacidad, acoplamiento AC/DC, inyección cero y respaldo.',
     it: 'Quale batteria scegliere per accumulare l\'energia solare nel 2026? Confronto tra batterie plug-in (Anker Solarbank 3, Marstek Venus E, Zendure SolarFlow, EcoFlow STREAM) e fisse (Tesla Powerwall 3, Huawei LUNA2000): capacità, accoppiamento AC/DC, immissione zero e backup.',
     nl: 'Welke batterij kies je in 2026 om je zonnestroom op te slaan? Vergelijking van plug-in batterijen (Anker Solarbank 3, Marstek Venus E, Zendure SolarFlow, EcoFlow STREAM) en vaste systemen (Tesla Powerwall 3, Huawei LUNA2000): capaciteit, AC/DC-koppeling, nul-teruglevering en noodstroom.',
+    pl: 'Jaki magazyn energii wybrać do przechowywania prądu ze słońca w 2026 roku? Porównanie modeli plug-in (Anker Solarbank 3, Marstek Venus E, Zendure SolarFlow, EcoFlow STREAM) i stacjonarnych (Tesla Powerwall 3, Huawei LUNA2000): pojemność, sprzężenie AC/DC, zerowy eksport i zasilanie awaryjne.',
   },
   content: {
     fr: `<p><strong>En 2026, la meilleure batterie domestique pour l'autoconsommation solaire dépend d'abord de votre installation : avec une centrale de balcon, une batterie plug-in comme l'Anker SOLIX Solarbank 3 E2700 Pro ou la Marstek Venus E 3.0 suffit ; avec des panneaux en toiture, une batterie fixe posée par un installateur, comme la Tesla Powerwall 3 ou la Huawei LUNA2000, est plus adaptée.</strong> Dans les deux cas, le critère décisif est le pilotage par compteur intelligent, qui permet de restituer l'énergie stockée au moment exact où la maison en a besoin.</p>
@@ -518,6 +521,86 @@ export const article: BlogArticle = {
 
 <h2>Conclusie</h2>
 <p>Voor een <strong>balkoncentrale</strong> is de <strong>Anker SOLIX Solarbank 3 E2700 Pro</strong> de meest evenwichtige keuze: alles-in-één, aangestuurd via de meter en uitbreidbaar. Heb je al panelen en wil je zoveel mogelijk kWh in één toestel, dan biedt de <strong>Marstek Venus E 3.0</strong> de grootste plug-in capaciteit in deze vergelijking, terwijl de <strong>Zendure SolarFlow 2400 AC</strong> past bij wie stap voor stap wil uitbreiden. Voor een <strong>dakinstallatie</strong> met echte noodstroom blijft de <strong>Tesla Powerwall 3</strong> de referentie, en de <strong>Huawei LUNA2000</strong> is de logische keuze als je omvormer al van Huawei is. Wat je ook kiest: de slimme meter en een conforme installatie zijn net zo belangrijk als de batterij zelf.</p>`,
+    pl: `<p><strong>W 2026 roku najlepszy domowy magazyn energii do zwiększania zużycia własnego energii słonecznej zależy przede wszystkim od Twojej instalacji: przy elektrowni balkonowej wystarczy magazyn plug-in, taki jak Anker SOLIX Solarbank 3 E2700 Pro lub Marstek Venus E 3.0; przy panelach na dachu lepiej sprawdzi się magazyn stacjonarny montowany przez instalatora, jak Tesla Powerwall 3 czy Huawei LUNA2000.</strong> W obu przypadkach kluczowe jest sterowanie przez inteligentny licznik, które oddaje zgromadzoną energię dokładnie wtedy, gdy dom jej potrzebuje.</p>
+<p>To porównanie opiera się na kartach katalogowych producentów, opublikowanych niezależnych testach i opiniach zweryfikowanych kupujących. Obejmuje dwie główne rodziny domowych magazynów energii słonecznej sprzedawanych w Europie, wyjaśnia pojęcia, które naprawdę mają znaczenie (kWh, kW, sprzężenie AC lub DC, zerowy eksport, zasilanie awaryjne) i przypomina o środkach ostrożności przy montażu. Jeśli dopiero zaczynasz przygodę z fotowoltaiką, zacznij od naszego poradnika o <a href="/pl/blog/balkonkraftwerk-panneau-solaire-balcon">elektrowni balkonowej</a>, a potem wróć tutaj, aby wybrać magazyn energii.</p>
+
+<h2>Magazyn plug-in czy stacjonarny: dwie wyraźnie różne rodziny</h2>
+<p><strong>Magazyny plug-in</strong> (czyli „magazyny balkonowe”) podłącza się do gniazdka lub bezpośrednio między panele a gniazdko. Są zaprojektowane dla zestawów solarnych od kilkuset watów do ok. 2 kWp, montuje się je bez prac budowlanych i oddają energię przez domową sieć elektryczną, w granicach mocy dopuszczalnej na jednym gniazdku. Ich pojemność wynosi od ok. 2 do 5 kWh na jednostkę, z możliwością rozbudowy o dodatkowe moduły.</p>
+<p><strong>Magazyny stacjonarne</strong> są zintegrowane z rozdzielnicą i połączone z falownikiem hybrydowym lub mikrofalownikami. Są przeznaczone dla instalacji dachowych o mocy od 3 do 9 kWp i więcej, oferują pojemności od 5 do ponad 13 kWh na jednostkę, moce rzędu kilku kilowatów oraz, zależnie od konfiguracji, prawdziwe zasilanie awaryjne całego domu lub jego części. Ich montaż należy obowiązkowo do wykwalifikowanego instalatora.</p>
+
+<h2>Kryteria wyboru magazynu energii słonecznej</h2>
+<h3>Pojemność (kWh) i moc (kW): nie myl tych pojęć</h3>
+<p><strong>Pojemność</strong>, wyrażona w kilowatogodzinach, wskazuje ilość zmagazynowanej energii: to „zbiornik”. <strong>Moc</strong>, wyrażona w kilowatach, wskazuje przepływ, jaki magazyn może dostarczyć w danym momencie: to „kran”. Magazyn o pojemności 5 kWh i mocy ograniczonej do 800 W będzie się opróżniał ponad sześć godzin i nie zasili samodzielnie piekarnika ani płyty grzewczej; magazyn stacjonarny o takiej samej pojemności i mocy kilku kilowatów pokryje takie szczyty. Przy doborze wyjdź od swojego zużycia wieczorem i w nocy (często od 3 do 8 kWh w domu) oraz od rzeczywistej nadwyżki energii słonecznej dostępnej w ciągu dnia.</p>
+<h3>Chemia LiFePO4: standard w domowych magazynach energii</h3>
+<p>Wszystkie modele w tym porównaniu wykorzystują ogniwa <strong>litowo-żelazowo-fosforanowe (LiFePO4 lub LFP)</strong>. Ta chemia jest stabilniejsza termicznie niż chemia NMC stosowana w telefonach i starszych akumulatorach i wytrzymuje kilka tysięcy cykli. Zwracaj uwagę na okres gwarancji, deklarowaną liczbę cykli i gwarantowaną pojemność resztkową na koniec tego okresu, a nie na marketingowe liczby dotyczące „żywotności”.</p>
+<h3>Sprzężenie AC lub DC</h3>
+<p>Magazyn <strong>sprzężony po stronie DC</strong> umieszcza się po stronie prądu stałego, między panelami a falownikiem (często hybrydowym): energia słoneczna jest magazynowana bez dodatkowej konwersji, co ogranicza straty. Tak jest w przypadku Tesla Powerwall 3 czy Huawei LUNA2000 z jego falownikiem. Magazyn <strong>sprzężony po stronie AC</strong> podłącza się po stronie prądu przemiennego, za istniejącym falownikiem: łatwo dodać go do działającej już instalacji, kosztem dodatkowych konwersji. W ten sposób działają Zendure SolarFlow 2400 AC, Marstek Venus E 3.0 i Enphase IQ Battery 5P. Niektóre magazyny plug-in, takie jak Anker Solarbank 3 czy EcoFlow STREAM Ultra, łączą bezpośrednie wejścia solarne z wyjściem AC.</p>
+<h3>Zerowy eksport i inteligentny licznik</h3>
+<p>Bez pomiaru magazyn plug-in oddaje stałą moc, niezależnie od tego, czy w domu jest akurat zużycie: część zmagazynowanej energii trafia wtedy za darmo do sieci. Dzięki <strong>inteligentnemu licznikowi</strong> (czytnik portu P1, cęgi prądowe lub licznik zewnętrzny typu Shelly Pro 3EM) magazyn dostosowuje w czasie rzeczywistym rozładowanie do zużycia domu i dąży do <strong>eksportu bliskiego zeru</strong>. To akcesorium robi różnicę w poziomie zużycia własnego. Przed zakupem sprawdź zgodność z Twoim licznikiem i rozdzielnicą.</p>
+<h3>Zasilanie awaryjne na wypadek przerwy w dostawie prądu</h3>
+<p>Magazyn podłączony do sieci nie chroni automatycznie domu podczas przerwy w dostawie prądu: ze względów bezpieczeństwa wyjście sieciowe się odłącza. Modele plug-in zazwyczaj oferują niezależne <strong>gniazdo awaryjne</strong> dla kilku priorytetowych urządzeń (router, lodówka). Zasilanie awaryjne całego domu lub jego części wymaga magazynu stacjonarnego i układu przełączającego zainstalowanego przez specjalistę.</p>
+<h3>Możliwość rozbudowy, aplikacja i gwarancja</h3>
+<p>Wybieraj system, który przyjmuje dodatkowe moduły, ma czytelną aplikację z historią produkcji i zużycia, regularne aktualizacje oraz gwarancję co najmniej dziesięcioletnią w przypadku magazynów stacjonarnych.</p>
+
+<h2>Najlepsze domowe magazyny energii słonecznej w 2026 roku</h2>
+<h3>1. Anker SOLIX Solarbank 3 E2700 Pro: najlepszy magazyn plug-in</h3>
+<p><strong>Solarbank 3 E2700 Pro</strong> łączy w wodoszczelnej obudowie IP65 baterię LiFePO4 o pojemności ok. 2,7 kWh, wejścia solarne z regulatorami MPPT i falownik. Podłącza się go do paneli z jednej strony i do gniazdka z drugiej, a do domowej sieci oddaje do 800 W. W połączeniu z inteligentnym licznikiem Anker lub czytnikiem P1 dostosowuje rozładowanie do rzeczywistego zużycia. Wyjście off-grid pozwala zasilać urządzenia do 1200 W podczas przerwy w dostawie prądu, a baterie rozszerzające zwiększają pojemność znacznie powyżej 10 kWh.</p>
+<p><strong>Mocne strony:</strong> rozwiązanie all-in-one, dopracowane sterowanie przez licznik, możliwość rozbudowy, nadaje się do użytku na zewnątrz. <strong>Ograniczenia:</strong> moc oddawana do sieci ograniczona przez gniazdko, waga ok. 29 kg. <strong>Dla kogo:</strong> właściciele elektrowni balkonowej lub małego zestawu naziemnego, którzy chcą prostej i rozbudowywalnej instalacji.</p>
+
+<h3>2. Marstek Venus E 3.0: największa pojemność wśród modeli plug-in</h3>
+<p><strong>Marstek Venus E 3.0</strong> to magazyn sprzężony po stronie AC o pojemności 5,12 kWh w technologii LiFePO4, deklarowany na ponad 6000 cykli. Ładuje się i rozładowuje przez domową sieć, do 2500 W w zależności od konfiguracji, dlatego można go dodać do istniejącej instalacji, niezależnie od paneli czy falownika. Steruje się nim za pomocą cęgów prądowych Marstek CT002 lub licznika Shelly Pro 3EM, aby dążyć do zerowego eksportu, a wbudowane gniazdko awaryjne może dostarczyć do 2500 W podczas przerwy w dostawie prądu. Pojemność można rozbudować do 15,36 kWh.</p>
+<p><strong>Mocne strony:</strong> dużo kWh na jednostkę, mocne gniazdko awaryjne, zgodność z dowolnym falownikiem. <strong>Ograniczenia:</strong> ok. 55 kg, brak bezpośredniego wejścia solarnego, a moc powyżej 800 W na gniazdku wymaga sprawdzenia lokalnych przepisów i często osobnego obwodu. <strong>Dla kogo:</strong> gospodarstwa, które mają już panele i chcą zmaksymalizować zmagazynowaną pojemność.</p>
+
+<h3>3. Zendure SolarFlow 2400 AC: rozbudowywalny magazyn AC</h3>
+<p><strong>SolarFlow 2400 AC</strong> to sprzężony po stronie AC moduł zarządzający współpracujący z bateriami AB3000X o pojemności 2,88 kWh każda, do sześciu modułów i 17,28 kWh. Podłączony do gniazdka dostarcza do 800 W; podłączony przez elektryka do osobnego obwodu może osiągnąć 2,4 kW. Korzysta z inteligentnego licznika (czytnik P1, cęgi Zendure lub Shelly 3EM i Pro 3EM), aby ładować się nadwyżką i rozładowywać jak najbliżej poziomu zużycia. Wyjście off-grid 2400 W przejmuje zasilanie w razie przerwy w dostawie prądu.</p>
+<p><strong>Mocne strony:</strong> modułowy, wydajny, szeroka zgodność z licznikami. <strong>Ograniczenia:</strong> brak bezpośredniego wejścia solarnego, pełna moc wymaga odpowiedniej instalacji elektrycznej. <strong>Dla kogo:</strong> osoby z istniejącą instalacją solarną, balkonową lub dachową, które chcą dodawać magazyn etapami.</p>
+
+<h3>4. EcoFlow STREAM Ultra: kompaktowy i stworzony na balkon</h3>
+<p><strong>EcoFlow STREAM Ultra</strong> łączy baterię LFP o pojemności 1,92 kWh, wbudowany mikrofalownik i cztery wejścia MPPT, co pozwala podłączyć panele o łącznej mocy do 2000 W. Oddaje do domowej sieci do 800 W, ma gniazdko zasilające urządzenia do 1200 W i współpracuje z inteligentnym licznikiem EcoFlow lub Shelly. Jego obudowa IP65 z autopodgrzewaniem jest przeznaczona do użytku na zewnątrz, a dodatkowe baterie STREAM zwiększają pojemność.</p>
+<p><strong>Mocne strony:</strong> kompaktowy, liczne wejścia solarne, kompletny ekosystem EcoFlow. <strong>Ograniczenia:</strong> skromna pojemność podstawowa jak na dom. <strong>Dla kogo:</strong> mieszkania i małe domy z elektrownią balkonową lub osoby, które mają już produkty EcoFlow.</p>
+
+<h3>5. Tesla Powerwall 3: wzorzec dla całego domu</h3>
+<p><strong>Tesla Powerwall 3</strong> to magazyn stacjonarny o pojemności użytkowej 13,5 kWh z własnym falownikiem solarnym: panele podłącza się do niego bezpośrednio po stronie DC, bez osobnego falownika. Moc wyjściowa konfiguruje się od 3,68 do 11,04 kW w zależności od kraju i sposobu przyłączenia, co pozwala zasilać urządzenia dużej mocy. Zainstalowany z bramą Tesla, może zasilać awaryjnie cały dom lub jego część podczas przerwy w dostawie prądu, a jednostki rozszerzające zwiększają system do 54 kWh. Montuje się go zarówno wewnątrz, jak i na zewnątrz.</p>
+<p><strong>Mocne strony:</strong> duża pojemność i moc, zintegrowany falownik, dopracowana aplikacja. <strong>Ograniczenia:</strong> ok. 130 kg, montaż wyłącznie przez instalatora certyfikowanego przez Teslę, segment premium. <strong>Dla kogo:</strong> domy z nową lub modernizowaną instalacją dachową, które chcą zasilania awaryjnego i dużej autonomii.</p>
+
+<h3>6. Huawei LUNA2000-7-S1: modułowy magazyn do falownika hybrydowego</h3>
+<p><strong>Huawei LUNA2000-7-S1</strong> to wysokonapięciowy moduł LiFePO4 o pojemności 6,9 kWh, który można układać w stos do 20,7 kWh na kolumnę, z mocą ładowania i rozładowania do 3,5 kW na moduł. Sprzęga się go po stronie DC z falownikiem hybrydowym Huawei SUN2000 i zarządza w aplikacji FusionSolar. Z odpowiednim modułem awaryjnym może zasilać priorytetowe obwody podczas przerwy w dostawie prądu. Klasa szczelności IP66 pozwala na montaż w garażu lub w osłoniętym miejscu na zewnątrz.</p>
+<p><strong>Mocne strony:</strong> precyzyjna modułowość, duża popularność wśród europejskich instalatorów, wysoka sprawność po stronie DC. <strong>Ograniczenia:</strong> wymaga zgodnego falownika Huawei, obowiązkowy montaż przez profesjonalistę. <strong>Dla kogo:</strong> instalacje dachowe wyposażone lub planowane do wyposażenia w falownik Huawei.</p>
+
+<h3>Inne opcje stacjonarne: BYD Battery-Box Premium HVS i Enphase IQ Battery 5P</h3>
+<p><strong>BYD Battery-Box Premium HVS</strong> to wysokonapięciowa kolumna LFP o pojemności od 5,1 do 12,8 kWh, zgodna z wieloma dostępnymi na rynku falownikami hybrydowymi (m.in. Fronius, SMA, Kostal, GoodWe): dobry wybór, jeśli Twój instalator już współpracuje z którąś z tych marek. <strong>Enphase IQ Battery 5P</strong> to magazyn sprzężony po stronie AC o pojemności 5 kWh ze zintegrowanymi mikrofalownikami, do 3,84 kW mocy ciągłej w układzie jednofazowym, rozbudowywalny i zgodny z siecią trójfazową dzięki technologii FlexPhase. Naturalnie uzupełnia istniejące instalacje Enphase i umożliwia zasilanie awaryjne z dedykowanym kontrolerem systemu.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Typ</th><th>Pojemność podstawowa</th><th>Sprzężenie</th><th>Sterowanie przez licznik</th><th>Idealny do</th></tr>
+</thead>
+<tbody>
+<tr><td>Anker SOLIX Solarbank 3 E2700 Pro</td><td>Plug-in</td><td>2,7 kWh</td><td>Wejścia PV + wyjście AC</td><td>Licznik Anker, czytnik P1</td><td>Rozbudowywalna elektrownia balkonowa</td></tr>
+<tr><td>Marstek Venus E 3.0</td><td>Plug-in</td><td>5,12 kWh</td><td>AC</td><td>CT002, Shelly Pro 3EM</td><td>Duża pojemność, dodanie do istniejącej instalacji</td></tr>
+<tr><td>Zendure SolarFlow 2400 AC</td><td>Modułowy plug-in</td><td>2,88 kWh</td><td>AC</td><td>P1, cęgi, Shelly 3EM</td><td>Magazynowanie etapami</td></tr>
+<tr><td>EcoFlow STREAM Ultra</td><td>Plug-in</td><td>1,92 kWh</td><td>Wejścia PV + wyjście AC</td><td>Licznik EcoFlow, Shelly</td><td>Mieszkanie, mały balkon</td></tr>
+<tr><td>Tesla Powerwall 3</td><td>Stacjonarny</td><td>13,5 kWh</td><td>DC (zintegrowany falownik)</td><td>Brama Tesla</td><td>Zasilanie awaryjne całego domu</td></tr>
+<tr><td>Huawei LUNA2000-7-S1</td><td>Modułowy stacjonarny</td><td>6,9 kWh</td><td>DC (falownik Huawei)</td><td>Licznik Huawei</td><td>Dach z falownikiem Huawei</td></tr>
+</tbody>
+</table>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Zbyt duża pojemność:</strong> magazyn, który nigdy się nie napełnia z powodu braku nadwyżek energii słonecznej, to zamrożona inwestycja. Porównaj swoją produkcję letnią i zimową ze zużyciem wieczornym.</li>
+<li><strong>Pominięcie inteligentnego licznika:</strong> bez pomiaru rozładowanie jest stałe, a część zmagazynowanej energii trafia do sieci.</li>
+<li><strong>Mylenie zasilania awaryjnego z autonomią:</strong> magazyn plug-in nie utrzyma prądu w całym domu podczas przerwy w dostawie, a tylko w urządzeniach podłączonych do jego dedykowanego gniazdka.</li>
+<li><strong>Podłączanie do przedłużacza lub listwy zasilającej:</strong> magazyn, który oddaje energię do domowej sieci, musi być podłączony do odpowiedniego gniazdka ściennego, najlepiej na sprawnym i nieprzeciążonym obwodzie.</li>
+<li><strong>Zaniedbanie miejsca montażu:</strong> przestrzegaj podanych zakresów temperatur, unikaj stałego pełnego słońca i zamkniętych pomieszczeń oraz zostaw przestrzeń wentylacyjną przewidzianą przez producenta.</li>
+</ul>
+
+<h2>Montaż, przepisy i bezpieczeństwo</h2>
+<p><strong>Magazyny stacjonarne</strong> muszą być montowane przez wykwalifikowanego instalatora: przyłączenie do rozdzielnicy, zabezpieczenia elektryczne, konfiguracja falownika, a w przypadku zasilania awaryjnego układ odłączający od sieci. We Francji wybieraj profesjonalistę z uznawaną kwalifikacją w zakresie fotowoltaiki i magazynowania energii, co bywa warunkiem skorzystania z niektórych dopłat.</p>
+<p>W przypadku <strong>magazynów plug-in</strong> zasada ostrożności jest prosta: nie przekraczaj mocy dopuszczalnej na gniazdku w Twoim kraju, nigdy nie podłączaj kilku urządzeń oddających energię do tego samego obwodu bez opinii elektryka, a modele ustawione powyżej tego limitu podłączaj do osobnego obwodu. Przepisy różnią się w zależności od kraju i operatora sieci: we Francji instalacja produkcyjna podłączona do sieci, nawet zestaw balkonowy, co do zasady musi zostać zgłoszona operatorowi sieci; w Niemczech elektrownie balkonowe są ograniczone do 800 W mocy falownika i muszą zostać zarejestrowane. Przed uruchomieniem zasięgnij informacji u swojego operatora sieci i ubezpieczyciela.</p>
+<p>Wreszcie, aby pójść dalej w zarządzaniu energią, zajrzyj do naszego <a href="/pl/blog/guide-domotique-economie-energie-2026">poradnika o inteligentnym domu i oszczędzaniu energii</a>, a wszystkie modele znajdziesz w naszej sekcji <a href="/pl/energie-domotique/batteries-domestiques">domowe magazyny energii</a>.</p>
+
+<h2>Werdykt</h2>
+<p>Do <strong>elektrowni balkonowej</strong> <strong>Anker SOLIX Solarbank 3 E2700 Pro</strong> to najbardziej wyważony wybór: all-in-one, sterowany przez licznik i rozbudowywalny. Jeśli masz już panele i chcesz mieć jak najwięcej kWh w jednej obudowie, <strong>Marstek Venus E 3.0</strong> oferuje największą pojemność plug-in w tym porównaniu, a <strong>Zendure SolarFlow 2400 AC</strong> sprawdzi się u tych, którzy chcą rozbudowywać magazyn etapami. Do <strong>instalacji dachowej</strong> i prawdziwego zasilania awaryjnego domu <strong>Tesla Powerwall 3</strong> pozostaje wzorcem, a <strong>Huawei LUNA2000</strong> narzuca się, jeśli Twój falownik jest już tej marki. Niezależnie od wyboru, inteligentny licznik i zgodny z przepisami montaż liczą się tak samo jak sam magazyn.</p>`,
   },
   faq: [
     {
@@ -528,6 +611,7 @@ export const article: BlogArticle = {
         es: '¿Qué capacidad de batería necesito para mis placas solares?',
         it: 'Quale capacità di batteria serve per i pannelli solari?',
         nl: 'Welke batterijcapaciteit heb ik nodig voor zonnepanelen?',
+        pl: 'Jaką pojemność magazynu energii wybrać do paneli słonecznych?',
       },
       answer: {
         fr: 'Visez la consommation de votre soirée et de votre nuit, dans la limite du surplus solaire réel. Pour une centrale de balcon, 2 à 5 kWh suffisent généralement ; pour une maison équipée en toiture, 5 à 13 kWh sont courants. Au-delà, la batterie risque de rarement se remplir, surtout en hiver.',
@@ -536,6 +620,7 @@ export const article: BlogArticle = {
         es: 'Apunta a tu consumo de tarde y noche, dentro del límite del excedente solar real. Para un kit de balcón suelen bastar de 2 a 5 kWh; para una vivienda con paneles en el tejado, lo habitual son de 5 a 13 kWh. Por encima, la batería rara vez se llenará, sobre todo en invierno.',
         it: 'Punta ai consumi serali e notturni, nel limite del surplus solare reale. Per un kit da balcone in genere bastano da 2 a 5 kWh; per una casa con pannelli sul tetto sono comuni da 5 a 13 kWh. Oltre, la batteria rischia di riempirsi di rado, soprattutto in inverno.',
         nl: 'Ga uit van je verbruik \'s avonds en \'s nachts, binnen de grens van je werkelijke zonne-overschot. Voor een balkoncentrale volstaat meestal 2 tot 5 kWh; voor een woning met dakpanelen is 5 tot 13 kWh gebruikelijk. Daarboven raakt de batterij zeker in de winter zelden vol.',
+        pl: 'Celuj w swoje zużycie wieczorem i w nocy, w granicach rzeczywistej nadwyżki energii słonecznej. Dla elektrowni balkonowej zazwyczaj wystarczy 2–5 kWh; dla domu z instalacją dachową powszechne jest 5–13 kWh. Powyżej tego magazyn może rzadko się napełniać, zwłaszcza zimą.',
       },
     },
     {
@@ -546,6 +631,7 @@ export const article: BlogArticle = {
         es: '¿Se puede conectar una batería enchufable a un enchufe normal?',
         it: 'Una batteria plug-in si può collegare a una normale presa?',
         nl: 'Mag een plug-in batterij in een gewoon stopcontact?',
+        pl: 'Czy magazyn plug-in można podłączyć do zwykłego gniazdka?',
       },
       answer: {
         fr: 'Oui, c\'est leur principe, à condition de rester dans la puissance admise sur une prise dans votre pays, souvent 800 W, et d\'utiliser une prise murale en bon état sans rallonge. Les modèles réglés au-delà doivent être raccordés à un circuit dédié par un électricien. Renseignez-vous aussi sur les déclarations exigées par votre gestionnaire de réseau.',
@@ -554,6 +640,7 @@ export const article: BlogArticle = {
         es: 'Sí, ese es su principio, siempre que no superes la potencia admitida en un enchufe en tu país, a menudo 800 W, y uses un enchufe de pared en buen estado sin alargador. Los modelos configurados por encima deben conectarse a un circuito dedicado por un electricista. Consulta también qué comunicación exige tu distribuidora.',
         it: 'Sì, è il loro principio, purché si resti entro la potenza ammessa su una presa nel proprio paese, spesso 800 W, e si usi una presa a muro in buono stato senza prolunghe. I modelli impostati oltre vanno collegati a un circuito dedicato da un elettricista. Verifica anche le comunicazioni richieste dal gestore di rete.',
         nl: 'Ja, daar zijn ze voor bedoeld, zolang je binnen het in jouw land toegestane vermogen op een stopcontact blijft, vaak 800 W, en een wandstopcontact in goede staat zonder verlengsnoer gebruikt. Modellen die hoger zijn ingesteld, horen op een aparte groep via een elektricien. Ga ook na welke melding je netbeheerder vraagt.',
+        pl: 'Tak, na tym polega ich zasada, pod warunkiem że nie przekraczasz mocy dopuszczalnej na gniazdku w Twoim kraju, często 800 W, i używasz sprawnego gniazdka ściennego bez przedłużacza. Modele ustawione powyżej tej wartości muszą zostać podłączone przez elektryka do osobnego obwodu. Dowiedz się też, jakie zgłoszenia wymaga Twój operator sieci.',
       },
     },
     {
@@ -564,6 +651,7 @@ export const article: BlogArticle = {
         es: '¿Hace falta un contador inteligente con una batería solar?',
         it: 'Serve un contatore intelligente con una batteria solare?',
         nl: 'Heb ik een slimme meter nodig bij een thuisbatterij?',
+        pl: 'Czy do magazynu energii słonecznej potrzebny jest inteligentny licznik?',
       },
       answer: {
         fr: 'C\'est fortement recommandé. Le compteur (lecteur P1, pince ampèremétrique ou Shelly Pro 3EM selon le modèle) indique en temps réel ce que consomme la maison, et la batterie ajuste sa décharge pour éviter de renvoyer gratuitement son énergie sur le réseau. Les batteries fixes intègrent ce pilotage via leur propre compteur.',
@@ -572,6 +660,7 @@ export const article: BlogArticle = {
         es: 'Es muy recomendable. El contador (lector P1, pinza amperimétrica o Shelly Pro 3EM según el modelo) indica en tiempo real el consumo de la casa, y la batería ajusta su descarga para no enviar su energía gratis a la red. Las baterías fijas incluyen este control con su propio medidor.',
         it: 'È fortemente consigliato. Il contatore (lettore P1, pinza amperometrica o Shelly Pro 3EM a seconda del modello) rileva in tempo reale i consumi della casa e la batteria adegua la scarica per non cedere gratis la sua energia alla rete. Le batterie fisse integrano questo controllo con il proprio misuratore.',
         nl: 'Dat is sterk aan te raden. De meter (P1-lezer, stroomtang of Shelly Pro 3EM, afhankelijk van het model) meet het verbruik in huis in realtime, en de batterij past haar ontlading aan zodat ze geen energie gratis aan het net geeft. Vaste batterijen hebben deze aansturing via hun eigen meter.',
+        pl: 'Jest to zdecydowanie zalecane. Licznik (czytnik P1, cęgi prądowe lub Shelly Pro 3EM, zależnie od modelu) pokazuje w czasie rzeczywistym, ile zużywa dom, a magazyn dostosowuje rozładowanie, aby nie oddawać za darmo energii do sieci. Magazyny stacjonarne mają to sterowanie zintegrowane dzięki własnemu licznikowi.',
       },
     },
     {
@@ -582,6 +671,7 @@ export const article: BlogArticle = {
         es: '¿Alimenta una batería solar la casa durante un apagón?',
         it: 'Una batteria solare alimenta la casa durante un blackout?',
         nl: 'Voedt een thuisbatterij het huis tijdens een stroomstoring?',
+        pl: 'Czy magazyn energii słonecznej zasila dom podczas przerwy w dostawie prądu?',
       },
       answer: {
         fr: 'Pas automatiquement. Les batteries plug-in coupent leur sortie réseau et n\'alimentent que les appareils branchés sur leur prise de secours. Une batterie fixe comme la Tesla Powerwall 3 ou la Huawei LUNA2000 peut secourir tout ou partie du logement, à condition d\'installer le dispositif de basculement prévu par le fabricant.',
@@ -590,6 +680,7 @@ export const article: BlogArticle = {
         es: 'No automáticamente. Las baterías enchufables desconectan su salida a la red y solo alimentan los aparatos enchufados a su toma de emergencia. Una batería fija como la Tesla Powerwall 3 o la Huawei LUNA2000 puede respaldar toda o parte de la vivienda si se instala el sistema de conmutación previsto por el fabricante.',
         it: 'Non automaticamente. Le batterie plug-in spengono l\'uscita verso la rete e alimentano solo gli apparecchi collegati alla presa di emergenza. Una batteria fissa come la Tesla Powerwall 3 o la Huawei LUNA2000 può alimentare tutta o parte della casa, se si installa il dispositivo di commutazione previsto dal produttore.',
         nl: 'Niet automatisch. Plug-in batterijen schakelen hun netuitgang uit en voeden alleen apparaten aan hun noodstroomstopcontact. Een vaste batterij zoals de Tesla Powerwall 3 of Huawei LUNA2000 kan het hele huis of een deel ervan voeden, mits de omschakelvoorziening van de fabrikant is geplaatst.',
+        pl: 'Nie automatycznie. Magazyny plug-in odłączają wyjście sieciowe i zasilają tylko urządzenia podłączone do ich gniazdka awaryjnego. Magazyn stacjonarny, taki jak Tesla Powerwall 3 lub Huawei LUNA2000, może zasilać awaryjnie cały dom lub jego część, pod warunkiem zainstalowania układu przełączającego przewidzianego przez producenta.',
       },
     },
     {
@@ -600,6 +691,7 @@ export const article: BlogArticle = {
         es: '¿Se puede añadir una batería a una instalación solar existente?',
         it: 'Si può aggiungere una batteria a un impianto solare esistente?',
         nl: 'Kan ik een batterij toevoegen aan een bestaande zonne-installatie?',
+        pl: 'Czy do istniejącej instalacji fotowoltaicznej można dodać magazyn energii?',
       },
       answer: {
         fr: 'Oui. Les batteries couplées en AC, comme la Zendure SolarFlow 2400 AC, la Marstek Venus E 3.0 ou l\'Enphase IQ Battery 5P, se raccordent après l\'onduleur existant, quelle que soit sa marque. Une batterie DC exige en général un onduleur hybride compatible, ce qui peut impliquer de le remplacer.',
@@ -608,6 +700,7 @@ export const article: BlogArticle = {
         es: 'Sí. Las baterías acopladas en AC, como la Zendure SolarFlow 2400 AC, la Marstek Venus E 3.0 o la Enphase IQ Battery 5P, se conectan después del inversor existente, sea de la marca que sea. Una batería DC suele requerir un inversor híbrido compatible, lo que puede obligar a cambiarlo.',
         it: 'Sì. Le batterie accoppiate in AC, come la Zendure SolarFlow 2400 AC, la Marstek Venus E 3.0 o l\'Enphase IQ Battery 5P, si collegano dopo l\'inverter esistente, di qualunque marca sia. Una batteria DC richiede di solito un inverter ibrido compatibile, il che può comportarne la sostituzione.',
         nl: 'Ja. AC-gekoppelde batterijen zoals de Zendure SolarFlow 2400 AC, de Marstek Venus E 3.0 of de Enphase IQ Battery 5P worden na de bestaande omvormer aangesloten, ongeacht het merk. Een DC-batterij vraagt meestal een compatibele hybride omvormer, wat kan betekenen dat je die moet vervangen.',
+        pl: 'Tak. Magazyny sprzężone po stronie AC, takie jak Zendure SolarFlow 2400 AC, Marstek Venus E 3.0 czy Enphase IQ Battery 5P, podłącza się za istniejącym falownikiem, niezależnie od jego marki. Magazyn DC wymaga zazwyczaj zgodnego falownika hybrydowego, co może oznaczać konieczność jego wymiany.',
       },
     },
     {
@@ -618,6 +711,7 @@ export const article: BlogArticle = {
         es: '¿Son seguras las baterías LiFePO4 en casa?',
         it: 'Le batterie LiFePO4 sono sicure in casa?',
         nl: 'Zijn LiFePO4-batterijen veilig in huis?',
+        pl: 'Czy baterie LiFePO4 są bezpieczne w domu?',
       },
       answer: {
         fr: 'La chimie LiFePO4 est reconnue comme l\'une des plus stables thermiquement pour le stockage domestique. La sécurité dépend toutefois aussi de l\'installation : respectez l\'emplacement, la ventilation et les températures indiquées par le fabricant, et confiez les batteries fixes à un installateur qualifié.',
@@ -626,6 +720,7 @@ export const article: BlogArticle = {
         es: 'La química LiFePO4 está reconocida como una de las más estables térmicamente para el almacenamiento doméstico. Aun así, la seguridad depende también de la instalación: respeta la ubicación, la ventilación y las temperaturas que indica el fabricante y confía las baterías fijas a un instalador cualificado.',
         it: 'La chimica LiFePO4 è riconosciuta come una delle più stabili termicamente per l\'accumulo domestico. La sicurezza dipende però anche dall\'installazione: rispetta posizione, ventilazione e temperature indicate dal produttore e affida le batterie fisse a un installatore qualificato.',
         nl: 'LiFePO4 geldt als een van de thermisch stabielste chemieën voor thuisopslag. De veiligheid hangt wel ook af van de installatie: volg de aanwijzingen van de fabrikant over plaats, ventilatie en temperatuur en laat vaste batterijen door een gekwalificeerde installateur plaatsen.',
+        pl: 'Chemia LiFePO4 jest uznawana za jedną z najbardziej stabilnych termicznie w domowych magazynach energii. Bezpieczeństwo zależy jednak także od instalacji: przestrzegaj miejsca montażu, wentylacji i temperatur wskazanych przez producenta, a magazyny stacjonarne powierz wykwalifikowanemu instalatorowi.',
       },
     },
   ],

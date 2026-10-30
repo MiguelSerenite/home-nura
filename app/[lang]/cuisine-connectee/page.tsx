@@ -229,6 +229,40 @@ const pageContent: Record<string, PillarContent> = {
       },
     },
   },
+  pl: {
+    kicker: 'Inteligentna kuchnia',
+    title: 'Inteligentna kuchnia porównana jak frytkownica beztłuszczowa',
+    subtitle: 'Multicookery, ekspresy do kawy, wagi, termometry, wtyczki — ta sama metoda, te same wymagania.',
+    intro: 'Po dokładnym przeanalizowaniu frytkownic beztłuszczowych stosujemy tę samą rygorystyczną siatkę kryteriów do całego otoczenia: urządzeń, które gotują, ważą, mierzą i działają zdalnie. Cel: oszczędzić Ci gadżetów i zostawić to, co naprawdę upraszcza codzienność.',
+    breadcrumb: 'Inteligentna kuchnia',
+    categoriesTitle: 'Nasze 5 kategorii',
+    categoryKicker: 'Kategoria',
+    ctaCategory: 'Zobacz wybór',
+    comparatorCta: 'Otwórz porównywarkę',
+    comparatorDesc: 'Porównaj do 3 modeli obok siebie, we wszystkich kategoriach.',
+    categories: {
+      multicuiseurs: {
+        name: 'Inteligentne multicookery',
+        tagline: 'Zautomatyzowane serce kuchni: programowanie przez Wi-Fi, przepisy krok po kroku, wszystko w jednym.',
+      },
+      cafetieres: {
+        name: 'Automatyczne ekspresy do kawy',
+        tagline: 'Od ekspresu z młynkiem po automat na kawę ziarnistą: najważniejsza jest codzienna niezawodność.',
+      },
+      balances: {
+        name: 'Wagi kuchenne',
+        tagline: 'Precyzja, połączenie z aplikacją, śledzenie wartości odżywczych — podstawa dobrze zorganizowanej kuchni.',
+      },
+      'thermometres-viande': {
+        name: 'Inteligentne termometry',
+        tagline: 'Mięso dopieczone co do stopnia — na płycie grillowej, we frytkownicy beztłuszczowej czy w piekarniku.',
+      },
+      'prises-connectees': {
+        name: 'Inteligentne wtyczki',
+        tagline: 'Steruj dowolnym urządzeniem zdalnie — także swoją frytkownicą beztłuszczową.',
+      },
+    },
+  },
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {

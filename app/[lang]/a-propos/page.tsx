@@ -46,7 +46,7 @@ const content: Record<string, {
   fr: {
     title: 'À Propos de Home Nura',
     mission_title: 'Notre Mission',
-    mission: 'Home Nura est un guide européen indépendant dédié aux airfryers et friteuses sans huile. Notre mission est d\'aider les consommateurs de 6 pays européens à faire le meilleur choix grâce à des comparatifs honnêtes, un protocole de notation transparent et une sélection mise à jour régulièrement.',
+    mission: 'Home Nura est un guide européen indépendant dédié aux airfryers et friteuses sans huile. Notre mission est d\'aider les consommateurs de 7 pays européens à faire le meilleur choix grâce à des comparatifs honnêtes, un protocole de notation transparent et une sélection mise à jour régulièrement.',
     methodology_title: 'Notre Méthodologie',
     methodology: 'Chaque airfryer de notre sélection est évalué selon un protocole détaillé combinant analyse des fiches techniques constructeur, croisement des retours utilisateurs vérifiés (Amazon, Google) et prise en compte des tests publiés par la presse spécialisée. Nous notons la qualité de cuisson, la consommation énergétique, la facilité d\'utilisation, le niveau sonore, la durabilité et le rapport qualité-prix.',
     criteria_title: 'Nos Critères de Notation (Score Nura /10)',
@@ -58,7 +58,7 @@ const content: Record<string, {
       { name: 'Design & Qualité de fabrication', weight: '15%', desc: 'Matériaux, finitions, encombrement, durabilité' },
     ],
     team_title: 'Notre Équipe',
-    team: 'Home Nura est animé par une petite équipe de passionnés de cuisine et de technologie, basée en Europe. Nous couvrons 6 marchés (France, Allemagne, Royaume-Uni, Espagne, Italie, Pays-Bas) et publions dans la langue locale de chaque pays pour une expérience authentique.',
+    team: 'Home Nura est animé par une petite équipe de passionnés de cuisine et de technologie, basée en Europe. Nous couvrons 7 marchés (France, Allemagne, Royaume-Uni, Espagne, Italie, Pays-Bas, Pologne) et publions dans la langue locale de chaque pays pour une expérience authentique.',
     independence_title: 'Notre Indépendance',
     independence: 'Home Nura est un site indépendant. Nous participons au Programme Partenaires Amazon EU, ce qui signifie que nous percevons une commission lorsque vous achetez via nos liens, sans aucun coût supplémentaire pour vous. Cette rémunération n\'influence jamais nos classements ni nos recommandations. Aucun fabricant ne peut payer pour obtenir une meilleure note.',
     contact_title: 'Contact',
@@ -84,7 +84,7 @@ const content: Record<string, {
   en: {
     title: 'About Home Nura',
     mission_title: 'Our Mission',
-    mission: 'Home Nura is an independent European guide dedicated to air fryers. Our mission is to help consumers across 6 European countries make the best choice through honest comparisons, a transparent scoring protocol and a regularly updated selection.',
+    mission: 'Home Nura is an independent European guide dedicated to air fryers. Our mission is to help consumers across 7 European countries make the best choice through honest comparisons, a transparent scoring protocol and a regularly updated selection.',
     methodology_title: 'Our Methodology',
     methodology: 'Each air fryer in our selection is evaluated using a detailed protocol that combines analysis of manufacturer specifications, cross-checking of verified user reviews (Amazon, Google) and consideration of tests published by specialised press. We rate cooking quality, energy consumption, ease of use, noise level, durability and value for money.',
     criteria_title: 'Our Rating Criteria (Nura Score /10)',
@@ -96,7 +96,7 @@ const content: Record<string, {
       { name: 'Design & Build Quality', weight: '15%', desc: 'Materials, finish, footprint, durability' },
     ],
     team_title: 'Our Team',
-    team: 'Home Nura is run by a small team of cooking and technology enthusiasts based in Europe. We cover 6 markets (France, Germany, UK, Spain, Italy, Netherlands) and publish content in each country\'s native language for an authentic experience.',
+    team: 'Home Nura is run by a small team of cooking and technology enthusiasts based in Europe. We cover 7 markets (France, Germany, UK, Spain, Italy, Netherlands, Poland) and publish content in each country\'s native language for an authentic experience.',
     independence_title: 'Our Independence',
     independence: 'Home Nura is an independent website. We participate in the Amazon EU Associates Programme, which means we earn a commission when you buy through our links at no extra cost to you. This compensation never influences our rankings or recommendations. No manufacturer can pay for a better score.',
     contact_title: 'Contact',
@@ -122,7 +122,7 @@ const content: Record<string, {
   de: {
     title: 'Über Home Nura',
     mission_title: 'Unsere Mission',
-    mission: 'Home Nura ist ein unabhängiger europäischer Ratgeber für Heißluftfritteusen. Unsere Mission ist es, Verbrauchern in 6 europäischen Ländern durch ehrliche Vergleiche, ein transparentes Bewertungsprotokoll und eine regelmäßig aktualisierte Auswahl bei der besten Wahl zu helfen.',
+    mission: 'Home Nura ist ein unabhängiger europäischer Ratgeber für Heißluftfritteusen. Unsere Mission ist es, Verbrauchern in 7 europäischen Ländern durch ehrliche Vergleiche, ein transparentes Bewertungsprotokoll und eine regelmäßig aktualisierte Auswahl bei der besten Wahl zu helfen.',
     methodology_title: 'Unsere Methodik',
     methodology: 'Jede Heißluftfritteuse unserer Auswahl wird nach einem detaillierten Protokoll bewertet, das die Analyse der Hersteller-Datenblätter, den Abgleich verifizierter Nutzerbewertungen (Amazon, Google) und die Berücksichtigung von Tests der Fachpresse kombiniert. Wir bewerten Garqualität, Energieverbrauch, Bedienkomfort, Lautstärke, Haltbarkeit und Preis-Leistungs-Verhältnis.',
     criteria_title: 'Unsere Bewertungskriterien (Nura Score /10)',
@@ -134,7 +134,7 @@ const content: Record<string, {
       { name: 'Design & Verarbeitung', weight: '15%', desc: 'Materialien, Verarbeitung, Stellfläche, Haltbarkeit' },
     ],
     team_title: 'Unser Team',
-    team: 'Home Nura wird von einem kleinen Team von Koch- und Technik-Enthusiasten in Europa betrieben. Wir decken 6 Märkte ab (Frankreich, Deutschland, UK, Spanien, Italien, Niederlande) und veröffentlichen Inhalte in der jeweiligen Landessprache.',
+    team: 'Home Nura wird von einem kleinen Team von Koch- und Technik-Enthusiasten in Europa betrieben. Wir decken 7 Märkte ab (Frankreich, Deutschland, UK, Spanien, Italien, Niederlande, Polen) und veröffentlichen Inhalte in der jeweiligen Landessprache.',
     independence_title: 'Unsere Unabhängigkeit',
     independence: 'Home Nura ist eine unabhängige Website. Wir nehmen am Amazon EU-Partnerprogramm teil, d.h. wir erhalten eine Provision, wenn Sie über unsere Links kaufen — ohne Mehrkosten für Sie. Diese Vergütung beeinflusst niemals unsere Rankings oder Empfehlungen. Kein Hersteller kann für eine bessere Bewertung bezahlen.',
     contact_title: 'Kontakt',
@@ -160,7 +160,7 @@ const content: Record<string, {
   es: {
     title: 'Sobre Home Nura',
     mission_title: 'Nuestra Misión',
-    mission: 'Home Nura es una guía europea independiente dedicada a las freidoras de aire. Nuestra misión es ayudar a los consumidores de 6 países europeos a elegir mejor mediante comparativas honestas, un protocolo de puntuación transparente y una selección actualizada regularmente.',
+    mission: 'Home Nura es una guía europea independiente dedicada a las freidoras de aire. Nuestra misión es ayudar a los consumidores de 7 países europeos a elegir mejor mediante comparativas honestas, un protocolo de puntuación transparente y una selección actualizada regularmente.',
     methodology_title: 'Nuestra Metodología',
     methodology: 'Cada freidora de aire de nuestra selección se evalúa siguiendo un protocolo detallado que combina el análisis de las fichas técnicas del fabricante, el cruce de opiniones verificadas de usuarios (Amazon, Google) y la consideración de las pruebas publicadas por la prensa especializada. Evaluamos la calidad de cocción, el consumo energético, la facilidad de uso, el nivel de ruido, la durabilidad y la relación calidad-precio.',
     criteria_title: 'Nuestros Criterios de Puntuación (Puntuación Nura /10)',
@@ -172,7 +172,7 @@ const content: Record<string, {
       { name: 'Diseño y calidad de construcción', weight: '15%', desc: 'Materiales, acabados, tamaño, durabilidad' },
     ],
     team_title: 'Nuestro Equipo',
-    team: 'Home Nura está dirigido por un pequeño equipo de apasionados de la cocina y la tecnología, con sede en Europa. Cubrimos 6 mercados (Francia, Alemania, Reino Unido, España, Italia, Países Bajos) y publicamos contenido en el idioma local de cada país.',
+    team: 'Home Nura está dirigido por un pequeño equipo de apasionados de la cocina y la tecnología, con sede en Europa. Cubrimos 7 mercados (Francia, Alemania, Reino Unido, España, Italia, Países Bajos, Polonia) y publicamos contenido en el idioma local de cada país.',
     independence_title: 'Nuestra Independencia',
     independence: 'Home Nura es un sitio web independiente. Participamos en el Programa de Afiliados de Amazon EU, lo que significa que ganamos una comisión cuando compras a través de nuestros enlaces, sin coste adicional para ti. Esta compensación nunca influye en nuestros rankings ni recomendaciones. Ningún fabricante puede pagar por una mejor puntuación.',
     contact_title: 'Contacto',
@@ -198,7 +198,7 @@ const content: Record<string, {
   it: {
     title: 'Chi Siamo — Home Nura',
     mission_title: 'La Nostra Missione',
-    mission: 'Home Nura è una guida europea indipendente dedicata alle friggitrici ad aria. La nostra missione è aiutare i consumatori di 6 paesi europei a fare la scelta migliore attraverso confronti onesti, un protocollo di valutazione trasparente e una selezione aggiornata regolarmente.',
+    mission: 'Home Nura è una guida europea indipendente dedicata alle friggitrici ad aria. La nostra missione è aiutare i consumatori di 7 paesi europei a fare la scelta migliore attraverso confronti onesti, un protocollo di valutazione trasparente e una selezione aggiornata regolarmente.',
     methodology_title: 'La Nostra Metodologia',
     methodology: 'Ogni friggitrice ad aria della nostra selezione viene valutata secondo un protocollo dettagliato che combina l\'analisi delle schede tecniche del produttore, l\'incrocio delle recensioni verificate degli utenti (Amazon, Google) e la considerazione dei test pubblicati dalla stampa specializzata. Valutiamo la qualità di cottura, il consumo energetico, la facilità d\'uso, il livello di rumore, la durabilità e il rapporto qualità-prezzo.',
     criteria_title: 'I Nostri Criteri di Valutazione (Punteggio Nura /10)',
@@ -210,7 +210,7 @@ const content: Record<string, {
       { name: 'Design e qualità costruttiva', weight: '15%', desc: 'Materiali, finiture, ingombro, durabilità' },
     ],
     team_title: 'Il Nostro Team',
-    team: 'Home Nura è animato da un piccolo team di appassionati di cucina e tecnologia con sede in Europa. Copriamo 6 mercati (Francia, Germania, UK, Spagna, Italia, Paesi Bassi) e pubblichiamo contenuti nella lingua locale di ogni paese.',
+    team: 'Home Nura è animato da un piccolo team di appassionati di cucina e tecnologia con sede in Europa. Copriamo 7 mercati (Francia, Germania, UK, Spagna, Italia, Paesi Bassi, Polonia) e pubblichiamo contenuti nella lingua locale di ogni paese.',
     independence_title: 'La Nostra Indipendenza',
     independence: 'Home Nura è un sito web indipendente. Partecipiamo al Programma di Affiliazione Amazon EU, il che significa che guadagniamo una commissione quando acquisti tramite i nostri link, senza costi aggiuntivi per te. Questo compenso non influenza mai le nostre classifiche o raccomandazioni. Nessun produttore può pagare per un punteggio migliore.',
     contact_title: 'Contatto',
@@ -236,7 +236,7 @@ const content: Record<string, {
   nl: {
     title: 'Over Home Nura',
     mission_title: 'Onze Missie',
-    mission: 'Home Nura is een onafhankelijke Europese gids voor airfryers. Onze missie is om consumenten in 6 Europese landen te helpen de beste keuze te maken door middel van eerlijke vergelijkingen, een transparant scoreprotocol en een regelmatig bijgewerkte selectie.',
+    mission: 'Home Nura is een onafhankelijke Europese gids voor airfryers. Onze missie is om consumenten in 7 Europese landen te helpen de beste keuze te maken door middel van eerlijke vergelijkingen, een transparant scoreprotocol en een regelmatig bijgewerkte selectie.',
     methodology_title: 'Onze Methodologie',
     methodology: 'Elke airfryer in onze selectie wordt beoordeeld volgens een gedetailleerd protocol dat de analyse van de fabrikantspecificaties, het kruisen van geverifieerde gebruikersbeoordelingen (Amazon, Google) en het meewegen van tests gepubliceerd door de vakpers combineert. We beoordelen bakkwaliteit, energieverbruik, gebruiksgemak, geluidsniveau, duurzaamheid en prijs-kwaliteitverhouding.',
     criteria_title: 'Onze Beoordelingscriteria (Nura Score /10)',
@@ -248,7 +248,7 @@ const content: Record<string, {
       { name: 'Design & bouwkwaliteit', weight: '15%', desc: 'Materialen, afwerking, afmeting, duurzaamheid' },
     ],
     team_title: 'Ons Team',
-    team: 'Home Nura wordt gerund door een klein team van kook- en technologie-enthousiastelingen in Europa. We bestrijken 6 markten (Frankrijk, Duitsland, VK, Spanje, Italië, Nederland) en publiceren content in de lokale taal van elk land.',
+    team: 'Home Nura wordt gerund door een klein team van kook- en technologie-enthousiastelingen in Europa. We bestrijken 7 markten (Frankrijk, Duitsland, VK, Spanje, Italië, Nederland, Polen) en publiceren content in de lokale taal van elk land.',
     independence_title: 'Onze Onafhankelijkheid',
     independence: 'Home Nura is een onafhankelijke website. We nemen deel aan het Amazon EU-partnerprogramma, wat betekent dat we een commissie verdienen wanneer je via onze links koopt — zonder extra kosten voor jou. Deze vergoeding beïnvloedt nooit onze rankings of aanbevelingen. Geen enkele fabrikant kan betalen voor een betere score.',
     contact_title: 'Contact',
@@ -269,6 +269,82 @@ const content: Record<string, {
       { label: 'Beschikbare talen', value: '6' },
       { label: 'Updatefrequentie', value: 'Maandelijks' },
       { label: 'Online sinds', value: '2024' },
+    ],
+  },
+  pl: {
+    title: 'O serwisie Home Nura',
+    mission_title: 'Nasza misja',
+    mission: 'Home Nura to niezależny europejski przewodnik poświęcony frytkownicom beztłuszczowym. Naszą misją jest pomagać konsumentom z 7 krajów europejskich w dokonaniu najlepszego wyboru dzięki uczciwym porównaniom, przejrzystemu systemowi oceny i regularnie aktualizowanej selekcji.',
+    methodology_title: 'Nasza metodologia',
+    methodology: 'Każda frytkownica w naszej selekcji jest oceniana według szczegółowego protokołu, który łączy analizę kart katalogowych producenta, zestawienie zweryfikowanych opinii użytkowników (Amazon, Google) oraz uwzględnienie testów publikowanych przez prasę specjalistyczną. Oceniamy jakość gotowania, zużycie energii, łatwość obsługi, poziom hałasu, trwałość oraz stosunek jakości do ceny.',
+    criteria_title: 'Nasze kryteria oceny (Ocena Nura /10)',
+    criteria: [
+      {
+        name: 'Jakość gotowania',
+        weight: '30%',
+        desc: 'Chrupkość, równomierność, wszechstronność przepisów',
+      },
+      {
+        name: 'Stosunek jakości do ceny',
+        weight: '25%',
+        desc: 'Wydajność w stosunku do ceny na każdym rynku',
+      },
+      {
+        name: 'Łatwość obsługi',
+        weight: '15%',
+        desc: 'Interfejs, programy, czyszczenie, ergonomia',
+      },
+      {
+        name: 'Zużycie energii',
+        weight: '15%',
+        desc: 'Pobór mocy w watach, czas gotowania, efektywność',
+      },
+      {
+        name: 'Design i jakość wykonania',
+        weight: '15%',
+        desc: 'Materiały, wykończenie, gabaryty, trwałość',
+      },
+    ],
+    team_title: 'Nasz zespół',
+    team: 'Home Nura prowadzi niewielki zespół pasjonatów kuchni i technologii z siedzibą w Europie. Obejmujemy 7 rynków (Francja, Niemcy, Wielka Brytania, Hiszpania, Włochy, Holandia, Polska) i publikujemy w języku każdego kraju, by zapewnić autentyczne wrażenia.',
+    independence_title: 'Nasza niezależność',
+    independence: 'Home Nura jest serwisem niezależnym. Uczestniczymy w Programie Partnerskim Amazon EU, co oznacza, że otrzymujemy prowizję, gdy kupujesz przez nasze linki, bez żadnych dodatkowych kosztów dla Ciebie. To wynagrodzenie nigdy nie wpływa na nasze rankingi ani rekomendacje. Żaden producent nie może zapłacić za wyższą ocenę.',
+    contact_title: 'Kontakt',
+    contact: 'Masz pytania lub sugestię? Napisz do nas: contact@homenura.com. Odpowiadamy w ciągu 48 godzin.',
+    eeat_title: 'Nasze zobowiązania jakościowe',
+    eeat_experience: 'Doświadczenie: od startu Home Nura w 2024 roku stale analizujemy i porównujemy frytkownice dostępne na rynkach europejskich. Nasza selekcja jest aktualizowana wraz z nowościami od producentów i zmianami cen.',
+    eeat_expertise: 'Ekspertyza: każda recenzja powstaje na podstawie oficjalnych kart katalogowych, zestawienia zweryfikowanych opinii użytkowników i bezpośredniego porównania modeli z jednej serii. Nasz protokół oceny jest publiczny i szczegółowo opisany na tej stronie.',
+    eeat_authority: 'Autorytet: nasza Ocena Nura podsumowuje obiektywne, ważone kryteria. Ma być prostym i przejrzystym punktem odniesienia, który pomaga czytelnikom wybierać spośród modeli dostępnych w Europie.',
+    eeat_trust: 'Zaufanie: 100% niezależności. Żaden producent nie może kupić wyższej oceny. Naszym jedynym źródłem przychodów jest Program Partnerski Amazon, oznaczony przy każdym linku. Nasza metodologia i kryteria są publiczne.',
+    founder_name: 'Miguel Serenité',
+    founder_title: 'Założyciel i redaktor naczelny',
+    founder_bio: 'Pasjonat technologii i zdrowej kuchni, Miguel uruchomił Home Nura w 2024 roku, widząc brak rzetelnych i niezależnych porównań frytkownic beztłuszczowych w Europie. Osobiście nadzoruje metodologię oceny i gwarantuje redakcyjną niezależność serwisu.',
+    stats_title: 'Home Nura w liczbach',
+    stats: [
+      {
+        label: 'Przeanalizowane i porównane modele',
+        value: '12+',
+      },
+      {
+        label: 'Ważone kryteria oceny',
+        value: '5',
+      },
+      {
+        label: 'Objęte kraje europejskie',
+        value: '6',
+      },
+      {
+        label: 'Dostępne języki',
+        value: '6',
+      },
+      {
+        label: 'Częstotliwość aktualizacji',
+        value: 'Co miesiąc',
+      },
+      {
+        label: 'Online od',
+        value: '2024',
+      },
     ],
   },
 }
@@ -316,7 +392,7 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
           '@context': 'https://schema.org',
           '@type': 'BreadcrumbList',
           itemListElement: [
-            { '@type': 'ListItem', position: 1, name: lang === 'fr' ? 'Accueil' : lang === 'de' ? 'Startseite' : lang === 'es' ? 'Inicio' : lang === 'it' ? 'Home' : lang === 'nl' ? 'Home' : 'Home', item: `https://homenura.com/${lang}` },
+            { '@type': 'ListItem', position: 1, name: lang === 'fr' ? 'Accueil' : lang === 'de' ? 'Startseite' : lang === 'es' ? 'Inicio' : lang === 'it' ? 'Home' : lang === 'nl' ? 'Home' : lang === 'pl' ? 'Strona główna' : 'Home', item: `https://homenura.com/${lang}` },
             { '@type': 'ListItem', position: 2, name: c.title, item: `https://homenura.com/${lang}/a-propos` },
           ],
         }) }}
@@ -417,7 +493,7 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
 
         <div className="mt-8">
           <Link href={`/${lang}`} className="text-brand-600 font-bold hover:underline">
-            &larr; {lang === 'fr' ? 'Retour à l\'accueil' : lang === 'de' ? 'Zurück zur Startseite' : lang === 'es' ? 'Volver al inicio' : lang === 'it' ? 'Torna alla home' : lang === 'nl' ? 'Terug naar home' : 'Back to home'}
+            &larr; {lang === 'fr' ? 'Retour à l\'accueil' : lang === 'de' ? 'Zurück zur Startseite' : lang === 'es' ? 'Volver al inicio' : lang === 'it' ? 'Torna alla home' : lang === 'nl' ? 'Terug naar home' : lang === 'pl' ? 'Powrót do strony głównej' : 'Back to home'}
           </Link>
         </div>
       </main>

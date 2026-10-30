@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Una gran tanda de trozos de pollo crujiente en la rejilla de una freidora de aire',
         it: 'Una grande infornata di pezzi di pollo croccante sulla griglia di una friggitrice ad aria',
         nl: 'Een grote portie krokante kipstukjes op het rooster van een airfryer',
+        pl: 'Duża porcja chrupiących kawałków kurczaka na ruszcie frytkownicy beztłuszczowej',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Mejor freidora de aire XXL para familias grandes: 5 modelos para elegir en 2026',
     it: 'Migliore friggitrice ad aria XXL per famiglie numerose: 5 modelli da scegliere nel 2026',
     nl: 'Beste XXL-airfryer voor grote gezinnen: 5 modellen om te kiezen in 2026',
+    pl: 'Najlepsza frytkownica beztłuszczowa XXL dla dużej rodziny: 5 modeli na 2026 rok',
   },
   excerpt: {
     fr: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone et Tefal Dual Easy Fry : quel airfryer de 8 litres et plus choisir pour nourrir 5 à 8 personnes en une fournée ?',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone y Tefal Dual Easy Fry: ¿qué freidora de aire de 8 litros o más elegir para dar de comer a 5-8 personas de una vez?',
     it: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone e Tefal Dual Easy Fry: quale friggitrice ad aria da 8 litri in su scegliere per sfamare 5-8 persone in un’unica cottura?',
     nl: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone en Tefal Dual Easy Fry: welke airfryer van 8 liter of meer kies je om 5 tot 8 personen in één keer te voeden?',
+    pl: 'Ninja FlexDrawer, Ninja Double Stack XL, Philips Combi XXL, Ninja Foodi MAX Dual Zone i Tefal Dual Easy Fry: jaką frytkownicę beztłuszczową od 8 litrów wybrać, by nakarmić 5–8 osób jedną porcją?',
   },
   content: {
     fr: `<p><strong>Pour une grande famille en 2026, le meilleur airfryer XXL est le Ninja Foodi FlexDrawer 10.4L Double Zone</strong> : il fonctionne en deux zones indépendantes de 5,2 litres ou, une fois la cloison retirée, en un seul grand tiroir de 10,4 litres pour les grosses pièces. Si votre plan de travail est étroit, le Ninja Double Stack XL 9,5 L superpose ses deux tiroirs, et si vous préférez un seul grand panier connecté avec sonde de cuisson, le Philips Airfryer Combi XXL Connecté 8,3 L est l’alternative la plus complète.</p>
@@ -583,6 +586,96 @@ export const article: BlogArticle = {
 <h2>Ons oordeel</h2>
 <p>Voor de meeste grote gezinnen is de <strong>Ninja Foodi FlexDrawer 10.4L Dubbele Zone</strong> in 2026 de beste XXL-airfryer: als enige in deze selectie schakelt hij tussen twee onafhankelijke zones en één grote lade van 10,4 liter. Heb je weinig breedte, dan biedt de <strong>Ninja Double Stack XL van 9,5 liter</strong> twee onafhankelijke lades op een heel klein oppervlak. En bereid je vooral rollades en gevogelte en regel je het koken graag via je telefoon, dan is de <strong>Philips Airfryer Combi XXL Connected van 8,3 liter</strong> met ingebouwde kerntemperatuurmeter de meest comfortabele keuze. De Ninja Foodi MAX Dual Zone blijft een veilige keuze, en de Tefal Dual Easy Fry een betaalbaarder alternatief voor 4 tot 5 personen.</p>
 <p>Wil je deze modellen vergelijken met een gewone oven, lees dan onze <a href="/nl/guides/airfryer-vs-four">gids airfryer of oven</a>.</p>`,
+    pl: `<p><strong>Dla dużej rodziny w 2026 roku najlepszą frytkownicą beztłuszczową XXL jest Ninja Foodi FlexDrawer 10.4L Double Zone</strong>: pracuje w dwóch niezależnych strefach po 5,2 litra lub, po wyjęciu przegrody, jako jedna duża szuflada o pojemności 10,4 litra na duże kawałki. Jeśli masz wąski blat, Ninja Double Stack XL 9,5 L układa swoje dwie szuflady jedna nad drugą, a jeśli wolisz jeden duży kosz z łącznością i sondą do pieczenia, najpełniejszą alternatywą jest Philips Airfryer Combi XXL Connected 8,3 L.</p>
+<p>To porównanie opiera się na kartach technicznych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględnia wyłącznie modele sprzedawane w Europie w 2026 roku. Cały wybór znajdziesz na stronie <a href="/pl/cuisine-connectee/airfryers">frytkownice beztłuszczowe</a>.</p>
+
+<h2>Kryteria wyboru frytkownicy beztłuszczowej XXL</h2>
+<p>Frytkownica beztłuszczowa (air fryer) „XXL” to zazwyczaj urządzenie o pojemności od 8 litrów. Na tym poziomie sama podana pojemność nie wystarcza do porównania: sposób, w jaki te litry są zorganizowane, liczy się tak samo jak ich liczba.</p>
+<ul>
+<li><strong>Jeden duży kosz czy dwie szuflady</strong>: dwie niezależne szuflady pozwalają przygotować danie główne i dodatek jednocześnie, w różnych temperaturach. Jeden duży kosz lepiej pomieści całego kurczaka lub pieczeń. FlexDrawer od Ninja łączy oba podejścia. Więcej przeczytasz w artykule <a href="/pl/blog/airfryer-simple-vs-double-panier">frytkownica z jednym czy z dwoma koszami</a>.</li>
+<li><strong>Powierzchnia smażenia</strong>: przy frytkach czy nuggetsach o chrupkości decyduje powierzchnia dna kosza, nie jego objętość. Kosz wysoki, ale wąski wymaga częstszego potrząsania lub smażenia w dwóch partiach.</li>
+<li><strong>Zajmowane miejsce</strong>: model z dwiema szufladami obok siebie jest szeroki (często ponad 40 cm), a model z szufladami jedna nad drugą jest wysoki. Zmierz blat i wysokość pod szafkami wiszącymi.</li>
+<li><strong>Synchronizacja</strong>: funkcje typu Sync (jednoczesne zakończenie smażenia) i Match (te same ustawienia w obu szufladach) są cenne, gdy wszyscy zasiadają do stołu w tym samym czasie.</li>
+<li><strong>Moc i gniazdko</strong>: modele XXL mają zwykle od 2200 do 2700 W. Podłączaj je bezpośrednio do gniazdka ściennego, nigdy do już obciążonej listwy zasilającej.</li>
+<li><strong>Czyszczenie</strong>: sprawdź, czy szuflady i ruszty można myć w zmywarce i czy powłoka nieprzywierająca łatwo się czyści. Przy rodzinnych porcjach to użycie niemal codzienne.</li>
+</ul>
+
+<h2>5 najlepszych frytkownic beztłuszczowych XXL dla dużej rodziny w 2026 roku</h2>
+
+<h3>1. Ninja Foodi FlexDrawer 10.4L Double Zone (AF500EU): najlepszy wybór ogólny</h3>
+<p>FlexDrawer to najbardziej wszechstronny model w tym zestawieniu. Jego jedną szufladę o pojemności 10,4 litra można rozdzielić wyjmowaną przegrodą na dwie strefy po 5,2 litra, każdą z własną temperaturą i własnym czasem. Po wyjęciu przegrody otrzymujesz <strong>MegaZone</strong>, czyli jedną przestrzeń 10,4 litra na dużego kurczaka, pieczeń lub bardzo dużą porcję warzyw. Deklarowana moc to 2 470 W, sześć funkcji, w tym Air Fry i Max Crisp, oraz właściwe dla Ninja funkcje Sync i Match.</p>
+<p><strong>Mocne strony</strong>: elastyczność między dwiema strefami a jedną dużą przestrzenią, najwyższa pojemność w tym porównaniu, bardzo pozytywne opinie kupujących o równomiernym smażeniu.</p>
+<p><strong>Ograniczenia</strong>: około 45 cm szerokości i ponad 9 kg według kart sprzedawców, więc urządzenie potrzebuje stałego miejsca. To model z wyższej półki.</p>
+<p><strong>Dla kogo</strong>: dla rodzin 5–8 osobowych, które chcą móc przygotować zarówno kompletny posiłek w dwóch strefach, jak i duże, całe kawałki. Uzupełnia to nasza <a href="/pl/blog/test-ninja-foodi-flexdrawer">szczegółowa opinia o Ninja FlexDrawer</a>.</p>
+
+<h3>2. Ninja Double Stack XL 9,5 L (SL400EU): najlepszy do wąskich kuchni</h3>
+<p>Double Stack XL zachowuje zasadę dwóch niezależnych szuflad po 4,75 litra, ale ustawia je pionowo, jedna nad drugą, zamiast obok siebie. Efekt: zaledwie około 28 cm szerokości przy łącznej pojemności 9,5 litra, a wysokość około 38,5 cm ma pozwolić na ustawienie pod szafkami wiszącymi. Dołączone ruszty piętrowe umożliwiają smażenie na czterech poziomach jednocześnie. Znajdziesz tu sześć funkcji i moc 2 470 W znane z całej serii, a także synchronizację zakończenia smażenia.</p>
+<p><strong>Mocne strony</strong>: najmniejsza powierzchnia zajmowana na blacie wśród modeli XXL, dwie prawdziwie niezależne strefy, smażenie na czterech poziomach zwiększające użyteczną powierzchnię.</p>
+<p><strong>Ograniczenia</strong>: szuflad nie da się połączyć, więc nie przygotujesz jednego bardzo dużego kawałka; smażenie na rusztach jeden nad drugim wymaga trochę wprawy przy odwracaniu produktów.</p>
+<p><strong>Dla kogo</strong>: dla licznych rodzin, którym brakuje szerokości blatu i które gotują głównie dania porcjowane (frytki, filety, warzywa, nuggetsy).</p>
+
+<h3>3. Philips Airfryer Combi XXL Connected 8,3 L (seria 7000): najlepsza frytkownica z łącznością</h3>
+<p>Combi XXL z serii 7000 stawia na jeden duży kosz o pojemności 8,3 litra, moc 2 200 W i łączność Wi-Fi z aplikacją Philips HomeID, która oferuje automatyczne programy i prowadzone przepisy. Jego wyróżnikiem jest <strong>wbudowany termometr do pieczenia</strong>: kontroluje temperaturę wewnątrz mięsa lub ryby i kończy smażenie w odpowiednim momencie. Technologia Rapid CombiAir łączy ciepło i cyrkulację powietrza, by grillować, piec lub przygotowywać potrawy jak w małym piekarniku.</p>
+<p><strong>Mocne strony</strong>: jeden duży kosz, sonda do pieczenia, najbardziej dopracowana aplikacja w zestawieniu, duża różnorodność programów.</p>
+<p><strong>Ograniczenia</strong>: brak podwójnej strefy, więc dodatek przygotowujesz przed daniem głównym lub po nim; urządzenie jest ciężkie i należy do najwyższej półki.</p>
+<p><strong>Dla kogo</strong>: dla rodzin, które często przygotowują pieczenie, całe drób lub rybę i cenią sterowanie ze smartfona.</p>
+
+<h3>4. Ninja Foodi MAX Dual Zone 9,5 L (AF400EU): sprawdzony klasyk</h3>
+<p>To model, który spopularyzował frytkownice z dwiema szufladami: dwie niezależne szuflady po 4,75 litra obok siebie, 2 470 W, sześć funkcji (Air Fry, Max Crisp, pieczenie, zapiekanie, podgrzewanie, suszenie) oraz funkcje Sync i Match. Ninja podaje, że w jednej szufladzie zmieści się kurczak o wadze około 2 kg. Obecny na rynku od kilku lat, ma ogromną liczbę opinii kupujących, w większości bardzo przychylnych.</p>
+<p><strong>Mocne strony</strong>: uznana niezawodność, bardzo prosta obsługa, dwie strefy tej samej wielkości, szeroka dostępność akcesoriów.</p>
+<p><strong>Ograniczenia</strong>: zajmuje sporo szerokości na blacie; szuflady nie łączą się w jedną.</p>
+<p><strong>Dla kogo</strong>: dla rodzin 4–6 osobowych, które chcą podwójnej szuflady bez zbędnych funkcji.</p>
+
+<h3>5. Tefal Dual Easy Fry 8,3 L (EY9018): najbardziej dostępna frytkownica z dwiema szufladami</h3>
+<p>Tefal Dual Easy Fry stawia na podejście asymetryczne: duża szuflada 5,2 litra i mała 3,1 litra, razem 8,3 litra, z ekranem dotykowym i siedmioma programami (frytki, kurczak, warzywa, ryba, deser, suszenie i tryb ręczny). Mała szuflada jest praktyczna na dodatek lub małą porcję, duża na danie główne. Elementy wyjmowane można myć w zmywarce.</p>
+<p><strong>Mocne strony</strong>: bardziej przystępne pozycjonowanie niż Ninja i Philips, marka z dobrze rozwiniętym serwisem posprzedażowym we Francji, wygodna duża szuflada.</p>
+<p><strong>Ograniczenia</strong>: mała szuflada 3,1 litra ogranicza realną pojemność dla rodziny 6 osób lub większej; kilku kupujących żałuje braku funkcji podtrzymywania ciepła.</p>
+<p><strong>Dla kogo</strong>: dla rodzin 4–5 osobowych, które chcą szuflady podwójnej w niższej cenie.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Pojemność</th><th>Konfiguracja</th><th>Łączność</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td>Ninja Foodi FlexDrawer 10.4L</td><td>10,4 L</td><td>1 szuflada, 2 strefy po 5,2 L lub MegaZone</td><td>Brak</td><td>Rodziny 5–8 osób, duże kawałki</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>9,5 L</td><td>2 szuflady jedna nad drugą po 4,75 L</td><td>Brak</td><td>Wąskie blaty</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>8,3 L</td><td>1 duży kosz, wbudowana sonda</td><td>Wi-Fi, aplikacja HomeID</td><td>Pieczenie, drób, sterowanie zdalne</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone</td><td>9,5 L</td><td>2 szuflady obok siebie po 4,75 L</td><td>Brak</td><td>Codzienne kompletne posiłki</td></tr>
+<tr><td>Tefal Dual Easy Fry EY9018</td><td>8,3 L</td><td>2 szuflady: 5,2 L i 3,1 L</td><td>Brak</td><td>Rozsądny budżet, 4–5 osób</td></tr>
+</tbody>
+</table>
+
+<h2>Jaka pojemność dla ilu osób?</h2>
+<p>Pojemności w litrach to objętość komory: kosza nigdy nie napełnia się po brzegi, jeśli chcesz uzyskać chrupkość. W praktyce możesz kierować się takimi wskazówkami:</p>
+<ul>
+<li><strong>4 osoby</strong>: wystarczy 6–8 litrów, a podwójna szuflada pozwala podać danie i dodatek razem.</li>
+<li><strong>5–6 osób</strong>: celuj w 8–10 litrów, najlepiej w dwóch niezależnych strefach.</li>
+<li><strong>7–8 osób</strong>: model o pojemności około 10 litrów, jak FlexDrawer, albo przygotowuj część potraw w dwóch partiach.</li>
+</ul>
+<p>Przy frytkach licz raczej na powierzchnię kosza niż na jego objętość: zbyt gruba warstwa dusi się w parze zamiast się rumienić. Nasz poradnik <a href="/pl/blog/comment-choisir-airfryer-famille">jak wybrać frytkownicę beztłuszczową dla rodziny</a> opisuje te wskazówki szczegółowo, zależnie od Twoich nawyków.</p>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Wybór wyłącznie według litrów</strong>: dwie szuflady po 4,75 L i kosz 8,3 L oferują inne zastosowania. Najpierw pomyśl o swoich typowych daniach.</li>
+<li><strong>Zapominanie o wysokości pod szafkami</strong>: model z szufladami jedna nad drugą lub wysoki, duży kosz może nie zmieścić się pod szafką wiszącą, a gorące powietrze musi mieć którędy uchodzić.</li>
+<li><strong>Przeładowanie kosza</strong>: to główna przyczyna miękkich frytek. Lepiej dwie udane partie niż jedna nieudana.</li>
+<li><strong>Zaniedbywanie czyszczenia</strong>: tłuszcz zgromadzony na dnie szuflady w końcu zaczyna dymić. Czyszczenie po każdym intensywnym użyciu wydłuża życie powłoki.</li>
+<li><strong>Płacenie za niepotrzebne funkcje</strong>: łączność przydaje się, jeśli korzystasz z prowadzonych przepisów lub przygotowujesz mięso według temperatury wewnątrz, a znacznie mniej przy frytkach i warzywach.</li>
+</ul>
+
+<h2>Ustawienie, użytkowanie i bezpieczeństwo</h2>
+<ul>
+<li>Postaw urządzenie na płaskiej, stabilnej powierzchni odpornej na ciepło, z dala od krawędzi blatu.</li>
+<li>Zostaw wolną przestrzeń dookoła, zwłaszcza za wylotem powietrza; nie stawiaj go bezpośrednio pod szafką ścienną. Przestrzegaj odległości podanych w instrukcji Twojego modelu.</li>
+<li>Podłącz je do gniazdka ściennego z uziemieniem, bez przedłużacza ani listwy zasilającej, ponieważ te urządzenia pobierają dużą moc.</li>
+<li>Nie kładź niczego na urządzeniu podczas smażenia i ostrożnie obchodź się z szufladami: po wyłączeniu pozostają bardzo gorące.</li>
+<li>Jeśli w domu są dzieci, wybierz miejsce poza ich zasięgiem i nie pozwalaj, by przewód zwisał z blatu.</li>
+</ul>
+
+<h2>Nasz werdykt</h2>
+<p>Dla większości dużych rodzin <strong>Ninja Foodi FlexDrawer 10.4L Double Zone</strong> to najlepsza frytkownica beztłuszczowa XXL w 2026 roku: jako jedyna w zestawieniu przechodzi z dwóch niezależnych stref na jedną dużą szufladę o pojemności 10,4 litra. Jeśli brakuje Ci szerokości, <strong>Ninja Double Stack XL 9,5 L</strong> oferuje dwie niezależne szuflady na bardzo małej powierzchni. A jeśli gotujesz głównie pieczenie i drób i lubisz sterować smażeniem z telefonu, najwygodniejszym wyborem są <strong>Philips Airfryer Combi XXL Connected 8,3 L</strong> i jego wbudowana sonda. Ninja Foodi MAX Dual Zone pozostaje pewniakiem, a Tefal Dual Easy Fry bardziej dostępną opcją dla 4–5 osób.</p>
+<p>Żeby porównać te modele z tradycyjnym piekarnikiem, zajrzyj do naszego <a href="/pl/guides/airfryer-vs-four">poradnika frytkownica beztłuszczowa czy piekarnik</a>.</p>`,
   },
   faq: [
     {
@@ -593,6 +686,7 @@ export const article: BlogArticle = {
         es: '¿Qué capacidad de freidora de aire necesita una familia de 6 personas?',
         it: 'Che capacità di friggitrice ad aria serve per una famiglia di 6 persone?',
         nl: 'Welke inhoud heeft een airfryer nodig voor een gezin van 6 personen?',
+        pl: 'Jaka pojemność frytkownicy beztłuszczowej jest potrzebna dla rodziny 6-osobowej?',
       },
       answer: {
         fr: 'Visez 8 à 10 litres, idéalement répartis en deux zones indépendantes pour cuire le plat et l’accompagnement ensemble. Un modèle d’environ 10 litres comme le Ninja FlexDrawer laisse de la marge pour les grosses pièces.',
@@ -601,6 +695,7 @@ export const article: BlogArticle = {
         es: 'Apunta a 8-10 litros, idealmente repartidos en dos zonas independientes para cocinar a la vez el plato y la guarnición. Un modelo de unos 10 litros como la Ninja FlexDrawer deja margen para piezas grandes.',
         it: 'Punta a 8-10 litri, idealmente divisi in due zone indipendenti per cuocere insieme piatto e contorno. Un modello da circa 10 litri come la Ninja FlexDrawer lascia margine per i pezzi grandi.',
         nl: 'Mik op 8 tot 10 liter, het liefst verdeeld over twee onafhankelijke zones zodat hoofd- en bijgerecht tegelijk klaar zijn. Een model van rond de 10 liter zoals de Ninja FlexDrawer biedt ruimte voor grote stukken.',
+        pl: 'Celuj w 8–10 litrów, najlepiej podzielonych na dwie niezależne strefy, by przygotować danie i dodatek jednocześnie. Model o pojemności około 10 litrów, jak Ninja FlexDrawer, daje zapas na duże kawałki.',
       },
     },
     {
@@ -611,6 +706,7 @@ export const article: BlogArticle = {
         es: '¿Es mejor una cesta grande o dos cajones?',
         it: 'Meglio un grande cestello unico o due cassetti?',
         nl: 'Is één grote mand of zijn twee lades beter?',
+        pl: 'Lepszy jest jeden duży kosz czy dwie szuflady?',
       },
       answer: {
         fr: 'Deux tiroirs conviennent mieux aux repas complets du quotidien (plat et accompagnement en même temps). Un grand panier unique est préférable pour les volailles entières et les rôtis. Le Ninja FlexDrawer offre les deux grâce à sa cloison amovible.',
@@ -619,6 +715,7 @@ export const article: BlogArticle = {
         es: 'Dos cajones van mejor para los menús completos del día a día (plato y guarnición a la vez). Una cesta grande es preferible para aves enteras y asados. La Ninja FlexDrawer ofrece ambas opciones gracias a su separador extraíble.',
         it: 'Due cassetti sono più adatti ai pasti completi di tutti i giorni (piatto e contorno insieme). Un grande cestello unico è preferibile per pollame intero e arrosti. La Ninja FlexDrawer offre entrambe le soluzioni grazie al divisorio rimovibile.',
         nl: 'Twee lades zijn handiger voor complete dagelijkse maaltijden (hoofd- en bijgerecht tegelijk). Eén grote mand is beter voor hele kippen en rollades. De Ninja FlexDrawer biedt beide dankzij zijn uitneembare scheidingswand.',
+        pl: 'Dwie szuflady lepiej sprawdzają się przy codziennych, kompletnych posiłkach (danie i dodatek jednocześnie). Jeden duży kosz jest lepszy do całego drobiu i pieczeni. Ninja FlexDrawer oferuje oba rozwiązania dzięki wyjmowanej przegrodzie.',
       },
     },
     {
@@ -629,6 +726,7 @@ export const article: BlogArticle = {
         es: '¿Qué freidora de aire XXL elegir para una cocina pequeña?',
         it: 'Quale friggitrice ad aria XXL scegliere per una cucina piccola?',
         nl: 'Welke XXL-airfryer past in een kleine keuken?',
+        pl: 'Jaką frytkownicę beztłuszczową XXL wybrać do małej kuchni?',
       },
       answer: {
         fr: 'Le Ninja Double Stack XL superpose ses deux tiroirs de 4,75 litres : il ne mesure qu’environ 28 cm de large pour 9,5 litres au total. Vérifiez seulement la hauteur disponible sous vos meubles hauts.',
@@ -637,6 +735,7 @@ export const article: BlogArticle = {
         es: 'La Ninja Double Stack XL apila sus dos cajones de 4,75 litros: mide solo unos 28 cm de ancho para 9,5 litros en total. Comprueba únicamente la altura disponible bajo los muebles altos.',
         it: 'La Ninja Double Stack XL impila i suoi due cassetti da 4,75 litri: è larga solo circa 28 cm per 9,5 litri totali. Verifica solo l’altezza disponibile sotto i pensili.',
         nl: 'De Ninja Double Stack XL stapelt zijn twee lades van 4,75 liter: hij is maar ongeveer 28 cm breed voor 9,5 liter in totaal. Controleer alleen de beschikbare hoogte onder je bovenkastjes.',
+        pl: 'Ninja Double Stack XL układa swoje dwie szuflady po 4,75 litra jedna nad drugą: ma tylko około 28 cm szerokości przy łącznej pojemności 9,5 litra. Sprawdź jedynie wysokość dostępną pod szafkami wiszącymi.',
       },
     },
     {
@@ -647,6 +746,7 @@ export const article: BlogArticle = {
         es: '¿Una freidora de aire XXL consume mucha electricidad?',
         it: 'Una friggitrice ad aria XXL consuma molta elettricità?',
         nl: 'Verbruikt een XXL-airfryer veel stroom?',
+        pl: 'Czy frytkownica beztłuszczowa XXL zużywa dużo prądu?',
       },
       answer: {
         fr: 'Sa puissance est élevée (environ 2 200 à 2 700 W), mais elle chauffe un volume bien plus petit qu’un four et sans long préchauffage. Pour des portions familiales, elle reste généralement plus sobre qu’un four classique.',
@@ -655,6 +755,7 @@ export const article: BlogArticle = {
         es: 'Su potencia es alta (unos 2.200 a 2.700 W), pero calienta un espacio mucho menor que un horno y apenas necesita precalentamiento. Para raciones familiares suele ser más eficiente que un horno convencional.',
         it: 'La potenza è elevata (circa 2.200-2.700 W), ma riscalda uno spazio molto più piccolo di un forno e richiede poco o nessun preriscaldamento. Per porzioni familiari è in genere più efficiente di un forno tradizionale.',
         nl: 'Het vermogen is hoog (ongeveer 2.200 tot 2.700 W), maar hij verwarmt een veel kleinere ruimte dan een oven en hoeft nauwelijks voor te verwarmen. Voor gezinsporties is hij doorgaans zuiniger dan een gewone oven.',
+        pl: 'Jej moc jest wysoka (około 2200–2700 W), ale ogrzewa znacznie mniejszą objętość niż piekarnik i bez długiego nagrzewania. Przy rodzinnych porcjach zwykle zużywa mniej niż tradycyjny piekarnik.',
       },
     },
     {
@@ -665,6 +766,7 @@ export const article: BlogArticle = {
         es: '¿Se puede cocinar un pollo entero en una freidora de aire XXL?',
         it: 'Si può cuocere un pollo intero in una friggitrice ad aria XXL?',
         nl: 'Kun je een hele kip bereiden in een XXL-airfryer?',
+        pl: 'Czy w frytkownicy beztłuszczowej XXL można upiec całego kurczaka?',
       },
       answer: {
         fr: 'Oui. Ninja indique qu’un tiroir de 4,75 litres accueille un poulet d’environ 2 kg sur le Foodi MAX Dual Zone. Pour les plus grosses volailles, un grand espace unique comme la MegaZone du FlexDrawer ou le panier de 8,3 litres du Philips Combi XXL est plus confortable.',
@@ -673,6 +775,7 @@ export const article: BlogArticle = {
         es: 'Sí. Ninja indica que un cajón de 4,75 litros de la Foodi MAX Dual Zone admite un pollo de unos 2 kg. Para aves más grandes, un único espacio amplio como la MegaZone de la FlexDrawer o la cesta de 8,3 litros de la Philips Combi XXL resulta más cómodo.',
         it: 'Sì. Ninja indica che un cassetto da 4,75 litri della Foodi MAX Dual Zone contiene un pollo di circa 2 kg. Per volatili più grandi è più comodo un grande spazio unico come la MegaZone della FlexDrawer o il cestello da 8,3 litri della Philips Combi XXL.',
         nl: 'Ja. Volgens Ninja past er in een lade van 4,75 liter van de Foodi MAX Dual Zone een kip van ongeveer 2 kg. Voor grotere vogels is één grote ruimte zoals de MegaZone van de FlexDrawer of de mand van 8,3 liter van de Philips Combi XXL comfortabeler.',
+        pl: 'Tak. Ninja podaje, że szuflada 4,75 litra w modelu Foodi MAX Dual Zone mieści kurczaka o wadze około 2 kg. Przy większym drobiu wygodniejsza jest duża, jedna przestrzeń, jak MegaZone we FlexDrawer lub kosz 8,3 litra w Philips Combi XXL.',
       },
     },
     {
@@ -683,6 +786,7 @@ export const article: BlogArticle = {
         es: '¿Necesita una freidora de aire XXL un enchufe especial?',
         it: 'Serve una presa particolare per una friggitrice ad aria XXL?',
         nl: 'Heeft een XXL-airfryer een speciaal stopcontact nodig?',
+        pl: 'Czy frytkownica beztłuszczowa XXL wymaga specjalnego gniazdka?',
       },
       answer: {
         fr: 'Non, une prise murale standard avec terre suffit. En revanche, évitez les rallonges et multiprises, et ne faites pas tourner l’airfryer sur le même circuit qu’un autre gros appareil si votre installation disjoncte facilement.',
@@ -691,6 +795,7 @@ export const article: BlogArticle = {
         es: 'No, basta con un enchufe de pared estándar con toma de tierra. Eso sí, evita alargadores y regletas, y no uses la freidora en el mismo circuito que otro aparato potente si tu instalación salta con facilidad.',
         it: 'No, basta una normale presa a muro con messa a terra. Evita però prolunghe e ciabatte e non usare la friggitrice sullo stesso circuito di un altro apparecchio potente se il tuo impianto scatta facilmente.',
         nl: 'Nee, een gewoon geaard wandstopcontact volstaat. Vermijd wel verlengsnoeren en stekkerdozen, en gebruik de airfryer niet op dezelfde groep als een ander zwaar apparaat als je stoppen snel doorslaan.',
+        pl: 'Nie, wystarczy standardowe gniazdko ścienne z uziemieniem. Unikaj jednak przedłużaczy i listew zasilających i nie uruchamiaj frytkownicy na tym samym obwodzie co inne duże urządzenie, jeśli Twoja instalacja łatwo wyrzuca bezpieczniki.',
       },
     },
   ],

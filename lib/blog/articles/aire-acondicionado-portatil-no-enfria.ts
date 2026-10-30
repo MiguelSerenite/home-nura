@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Aire acondicionado portátil que no enfría en un salón, tubo de evacuación a revisar',
         it: 'Climatizzatore portatile che non raffredda in un soggiorno, tubo di scarico da controllare',
         nl: 'Mobiele airco die niet koelt in een woonkamer, afvoerslang controleren',
+        pl: 'Klimatyzator przenośny, który nie chłodzi w salonie; wąż odprowadzający powietrze do sprawdzenia',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Aire Acondicionado Portátil No Enfría: Causas y Soluciones 2026',
     it: 'Climatizzatore Portatile che Non Raffredda: Cause e Soluzioni 2026',
     nl: 'Mobiele Airco Koelt Niet: Oorzaken en Oplossingen 2026',
+    pl: 'Klimatyzator przenośny nie chłodzi: przyczyny i rozwiązania 2026',
   },
   excerpt: {
     fr: 'Votre climatiseur portable ne refroidit pas ou pas assez ? Diagnostic complet : tuyau d\'évacuation, filtre encrassé, BTU insuffisants, mauvais réglage, fuite de gaz. Solutions étape par étape et tableau de dépannage.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: '¿Tu aire acondicionado portátil no enfría o no enfría bien? Diagnóstico completo: tubo de evacuación, filtro sucio, BTU insuficientes, modo mal ajustado, fuga de gas. Soluciones paso a paso y tabla de averías.',
     it: 'Il tuo climatizzatore portatile non raffredda o non abbastanza? Diagnosi completa: tubo di scarico, filtro sporco, BTU insufficienti, modalità sbagliata, perdita di gas. Soluzioni passo passo e tabella guasti.',
     nl: 'Koelt je mobiele airco niet of niet genoeg? Volledige diagnose: afvoerslang, vervuild filter, te weinig BTU, verkeerde stand, gaslek. Stap-voor-stap oplossingen en een storingstabel.',
+    pl: 'Twój klimatyzator przenośny nie chłodzi lub chłodzi za słabo? Pełna diagnoza: wąż odprowadzający, zabrudzony filtr, zbyt mała moc w BTU, złe ustawienia, wyciek czynnika chłodniczego. Rozwiązania krok po kroku i tabela diagnostyczna.',
   },
   content: {
     es: `<h2>Mi aire acondicionado portátil no enfría: por dónde empezar</h2>
@@ -777,6 +780,127 @@ export const article: BlogArticle = {
 
 <h2>Conclusie</h2>
 <p>Een mobiele airco die niet koelt is zelden afgeschreven. Controleer in volgorde de stand, afvoerslang, afdichting, filter en condensbak, en zorg dat de BTU bij de oppervlakte passen. Deze stappen lossen de overgrote meerderheid van de gevallen op. Pas daarna worden een gaslek en een gecertificeerde technicus relevant.</p>`,
+    pl: `<h2>Mój klimatyzator przenośny nie chłodzi: od czego zacząć</h2>
+<p>To jedna z najbardziej frustrujących letnich usterek: podłączasz urządzenie, ustawiasz 18 stopni, zostawiasz je na kilka godzin, a w pomieszczeniu nadal jest tak samo gorąco. Dobra wiadomość jest taka, że w zdecydowanej większości przypadków, gdy klimatyzator przenośny nie chłodzi, problemem nie jest poważna awaria, lecz błąd instalacji, konserwacji lub doboru mocy, który możesz naprawić sam w kilka minut.</p>
+<p>Zanim zadzwonisz do serwisu lub kupisz nowe urządzenie, lepiej przeprowadzić metodyczną diagnozę. W tym poradniku omawiamy prawdziwe przyczyny, od najczęstszej do najpoważniejszej, z konkretnymi rozwiązaniami krok po kroku. Jeśli wciąż wahasz się co do najlepiej dopasowanego systemu, zajrzyj do naszego <a href="/pl/blog/climatiseur-mobile-vs-ventilateur">porównania klimatyzatora przenośnego z wentylatorem</a>.</p>
+<p>Pamiętaj o jednym: monoblokowy klimatyzator przenośny nie działa jak stały klimatyzator split na ścianie. Jest znacznie bardziej wrażliwy na instalację, wielkość pomieszczenia i temperaturę zewnętrzną. Często, gdy urządzenie chłodzi za słabo, nie jest zepsute: walczy z niekorzystnymi warunkami, które łatwo poprawić. Przejdźmy przez nie po kolei, zaczynając od kontroli na minutę, a na koniec zostawiając usterki wymagające fachowca.</p>
+
+<h2>Szybka tabela diagnostyczna</h2>
+<table>
+<thead>
+<tr><th>Objaw</th><th>Prawdopodobna przyczyna</th><th>Rozwiązanie</th></tr>
+</thead>
+<tbody>
+<tr><td>Powietrze wydmuchuje, ale ani zimne, ani ciepłe</td><td>Tryb wentylatora zamiast chłodzenia</td><td>Przełącz na tryb Cool / Chłodzenie (płatek śniegu)</td></tr>
+<tr><td>Chłodzi słabo, a wąż się nagrzewa</td><td>Wąż odprowadzający źle ułożony lub zagięty</td><td>Wyprostuj wąż i wyprowadź go przez okno</td></tr>
+<tr><td>Bardzo mały przepływ powietrza</td><td>Zabrudzony filtr</td><td>Wyczyść lub wymień filtr</td></tr>
+<tr><td>Wyłącza się sam po kilku minutach</td><td>Pełny zbiornik na skropliny</td><td>Opróżnij zbiornik na wodę</td></tr>
+<tr><td>Działa, ale temperatura w pomieszczeniu nie spada</td><td>Zbyt mała moc w BTU dla danej powierzchni</td><td>Zmniejsz powierzchnię lub wybierz mocniejsze urządzenie</td></tr>
+<tr><td>Chłodzi znacznie słabiej niż dawniej</td><td>Możliwy wyciek czynnika chłodniczego</td><td>Wezwij certyfikowanego technika</td></tr>
+</tbody>
+</table>
+
+<h2>Przyczyna 1: źle ustawiony tryb</h2>
+<p>Wydaje się błahe, ale to przyczyna numer jeden pozornych awarii. Wiele urządzeń uruchamia się domyślnie w trybie wentylatora (Fan) lub osuszania (Dry), które mieszają powietrze lub usuwają wilgoć, nie obniżając realnie temperatury. Jeśli sprężarka się nie uruchamia, urządzenie nigdy nie ochłodzi pomieszczenia.</p>
+<ul>
+<li>Naciskaj przycisk Mode, aż zobaczysz płatek śniegu lub napis Cool / Chłodzenie.</li>
+<li>Obniż temperaturę zadaną o kilka stopni poniżej aktualnej temperatury w pomieszczeniu.</li>
+<li>Sprawdź, czy po minucie lub dwóch słychać uruchomienie sprężarki (niski pomruk).</li>
+<li>Na czas sprawdzania wyłącz timer i tryb Eco, aby wykluczyć ograniczenie pracy.</li>
+</ul>
+
+<h2>Przyczyna 2: wąż odprowadzający jest źle zamontowany</h2>
+<p>To zdecydowanie najczęstsza przyczyna. Klimatyzator przenośny pobiera ciepło z pomieszczenia i odprowadza je na zewnątrz przez wąż odprowadzający. Jeśli to gorące powietrze naprawdę nie opuszcza pomieszczenia, wraca do niego i niweluje cały efekt chłodzenia. To najczęstszy błąd i zarazem najłatwiejszy do naprawienia bez wydawania choćby grosza.</p>
+<p>Szczegół często pomijany: im dłuższy i bardziej kręty wąż, tym bardziej się nagrzewa i tym więcej ciepła oddaje do pomieszczenia przez promieniowanie. Temperatura węża to dobra wskazówka: jeśli jego końcowy odcinek po pewnym czasie jest bardzo gorący w dotyku, trasa jest prawdopodobnie zbyt długa lub ma załamania.</p>
+<h3>Jak sprawdzić i poprawić wąż</h3>
+<ul>
+<li>Wąż powinien prowadzić bezpośrednio do okna lub wylotu na zewnątrz, nigdy nie krążyć po pomieszczeniu.</li>
+<li>Utrzymuj go jak najkrótszym i prostym: każde załamanie i każdy zbędny metr obniża wydajność.</li>
+<li>Unikaj zagięcia, przygniecenia lub ułożenia w kształt litery U: gorące powietrze gromadzi się i wraca do środka.</li>
+<li>Sprawdź, czy wąż jest dobrze wsunięty z tyłu urządzenia i czy się nie odłączył.</li>
+<li>Nie przedłużaj węża prowizorycznymi sposobami i nie wymieniaj go na dłuższy model: jego długość jest dobrana do przepływu urządzenia.</li>
+</ul>
+
+<h2>Przyczyna 3: złe uszczelnienie okna</h2>
+<p>Nie ma sensu wyprowadzać gorącego powietrza, jeśli zewnętrzne powietrze wraca szczeliną wokół węża. Większość urządzeń jest dostarczana z zestawem uszczelniającym do okna właśnie w tym celu.</p>
+<ul>
+<li>Zamontuj dołączony zestaw uszczelniający; jeśli go brakuje, uniwersalne panele są dostępne w niskiej cenie.</li>
+<li>Zakryj szczeliny wokół węża taśmą lub uszczelką piankową.</li>
+<li>Zamknij drzwi i okna oraz opuść rolety w najgorętszych godzinach.</li>
+<li>Przy oknie uchylnym szukaj dedykowanego zestawu: trójkątne szczeliny wpuszczają ogromną ilość ciepła.</li>
+</ul>
+<p>Prosty test: przy włączonym urządzeniu przybliż dłoń do obrysu okna i uszczelnienia węża. Jeśli wyczujesz napływ gorącego powietrza, to właśnie wyciek niweczy pracę urządzenia.</p>
+
+<h2>Przyczyna 4: zabrudzony filtr</h2>
+<p>Filtr zatrzymuje kurz. Gdy się zabrudzi, urządzenie zasysa mniej powietrza, przepływ spada, a wydajność chłodzenia gwałtownie maleje. To podstawowa konserwacja, o której często się zapomina.</p>
+<ul>
+<li>Znajdź filtr (często za kratką z tyłu lub z boku) i wyjmij go.</li>
+<li>Umyj go letnią wodą z odrobiną łagodnego mydła lub odkurz kurz.</li>
+<li>Pozostaw do całkowitego wyschnięcia przed włożeniem z powrotem: wilgotny filtr sprzyja pleśni.</li>
+<li>Powtarzaj czyszczenie co dwa do trzech tygodni w szczycie sezonu.</li>
+</ul>
+
+<h2>Przyczyna 5: zbiornik na skropliny jest pełny</h2>
+<p>Podczas chłodzenia urządzenie wytwarza wodę w wyniku skraplania. Niektóre modele ją odparowują, inne gromadzą w wewnętrznym zbiorniku. Gdy jest pełny, czujnik bezpieczeństwa zatrzymuje sprężarkę: wentylator nadal dmucha, ale nie chłodzi, czasem z kodem „FL” lub „Full”.</p>
+<ul>
+<li>Opróżnij zbiornik na wodę zgodnie z instrukcją.</li>
+<li>Jeśli urządzenie to umożliwia, podłącz wąż do ciągłego odprowadzania skroplin, aby nie opróżniać zbiornika ręcznie.</li>
+<li>Upewnij się, że korek spustowy został dobrze zamknięty po opróżnieniu.</li>
+</ul>
+
+<h2>Przyczyna 6: pomieszczenie jest za duże (zbyt mało BTU)</h2>
+<p>Jeśli urządzenie działa poprawnie, ale temperatura w pomieszczeniu spada za słabo, najpewniej brakuje mu mocy. Moc chłodnicza mierzona jest w BTU na godzinę. Małe urządzenie w dużym salonie może pracować na pełnych obrotach i nigdy nie osiągnąć temperatury zadanej, jak mały obciążony samochód, który męczy się na podjeździe.</p>
+<p>To kluczowy punkt przy zakupie i częsta przyczyna rozczarowań: wielu wybiera model według ceny i kończy z urządzeniem zbyt słabym do swojego salonu. Prawidłowo dobrane BTU decydują o tym, czy urządzenie naprawdę chłodzi, czy tylko hałasuje.</p>
+<h3>Ile BTU w zależności od powierzchni</h3>
+<table>
+<thead>
+<tr><th>Powierzchnia pomieszczenia</th><th>Zalecane BTU</th></tr>
+</thead>
+<tbody>
+<tr><td>Do 15 m2</td><td>7 000 - 9 000 BTU</td></tr>
+<tr><td>15 - 25 m2</td><td>9 000 - 12 000 BTU</td></tr>
+<tr><td>25 - 35 m2</td><td>12 000 - 14 000 BTU</td></tr>
+<tr><td>35 - 45 m2</td><td>14 000 - 18 000 BTU</td></tr>
+</tbody>
+</table>
+<p>To wartości orientacyjne dla standardowego pomieszczenia. Przy silnym nasłonecznieniu, pod dachem, przy wysokich sufitach lub wielu urządzeniach wybierz o stopień wyżej. Zbyt słabe urządzenie nigdy nie osiągnie temperatury zadanej i będzie zużywać więcej prądu. Aby porównać moc i zużycie energii, zajrzyj do naszego <a href="/pl/blog/climatiseur-mobile-vs-ventilateur">porównania według wielkości pomieszczenia</a>.</p>
+
+<h2>Przyczyna 7: ekstremalna temperatura zewnętrzna</h2>
+<p>W czasie upału, przy 40 stopniach na zewnątrz, nawet dobrze dobrane urządzenie traci wydajność: musi oddawać ciepło do powietrza, które jest już bardzo gorące. To nie awaria, lecz fizyczne ograniczenie.</p>
+<ul>
+<li>Zamykaj rolety i zasłony w najgorętszych godzinach.</li>
+<li>Włącz urządzenie, zanim pomieszczenie zamieni się w piec.</li>
+<li>Nie celuj za wszelką cenę w 18 stopni: realistyczna różnica 5–8 stopni względem temperatury na zewnątrz daje już duży komfort.</li>
+</ul>
+
+<h2>Przyczyna 8: możliwy wyciek czynnika chłodniczego</h2>
+<p>Jeśli wszystko inne zostało wykluczone, a urządzenie dawniej dobrze chłodziło, ale teraz już nie, może dojść do wycieku czynnika chłodniczego. Bez właściwej ilości czynnika sprężarka pracuje, ale nie przenosi już ciepła.</p>
+<p>Zachowaj ostrożność: czynnik chłodniczy znajduje się pod ciśnieniem, a jego obsługa jest regulowana przepisami. Nigdy nie próbuj go uzupełniać ani otwierać obiegu samodzielnie. Taką czynność zawsze powinien wykonać technik z certyfikatem w zakresie czynników chłodniczych. Ingerencja w obieg chłodniczy bez przeszkolenia jest nie tylko niezgodna z prawem, ale może spowodować odmrożenia i nieodwracalnie uszkodzić sprężarkę.</p>
+<p>Pamiętaj, że wyciek nie jest normalny w nowym, właściwie użytkowanym urządzeniu. Jeśli urządzenie ma kilka miesięcy i wydaje się już tracić czynnik, skorzystaj z gwarancji u sprzedawcy zamiast cokolwiek otwierać.</p>
+
+<h2>Kiedy zadzwonić do serwisu</h2>
+<p>Sprawdziłeś tryb, wąż, uszczelnienie, filtr i zbiornik, urządzenie jest dobrze dobrane, a nadal nie chłodzi. Skontaktuj się wtedy z serwisem, zwłaszcza jeśli zauważysz:</p>
+<ul>
+<li>Zapach spalenizny, iskry lub wybijanie bezpiecznika.</li>
+<li>Nietypowe metaliczne dźwięki sprężarki.</li>
+<li>Kody błędów, których nie wyjaśnia instrukcja.</li>
+<li>Podejrzenie wycieku czynnika (stopniowy spadek wydajności).</li>
+</ul>
+<p>Jeśli urządzenie jest na gwarancji, nie otwieraj go. Dla komfortu przez resztę roku zajrzyj też do naszego <a href="/pl/blog/deshumidificateur-connecte-guide">poradnika o inteligentnych osuszaczach powietrza</a>.</p>
+
+<h2>Dobre nawyki, by chłodzić lepiej każdego lata</h2>
+<p>Poza doraźną diagnozą kilka prostych nawyków pozwala klimatyzatorowi przenośnemu dać z siebie maksimum i służyć dłużej. Chodzi o to, by nie startował w już rozgrzanym pomieszczeniu i mógł swobodnie oddychać.</p>
+<ul>
+<li>Włączaj go z wyprzedzeniem w dni z prognozowanym upałem, zamiast czekać, aż pomieszczenie zamieni się w piec.</li>
+<li>Zostaw wolne kratki wlotu i wylotu powietrza: nie przysuwaj urządzenia do ściany i niczym go nie zakrywaj.</li>
+<li>Regularnie czyść filtr, a na koniec sezonu schowaj go czystego i suchego, aby uniknąć zapachów w następnym lecie.</li>
+<li>Połącz klimatyzator z dobrą ochroną przed ciepłem: żaluzje, opuszczone rolety i nocne wietrzenie, gdy jest chłodniej.</li>
+<li>W razie potrzeby uzupełnij go wentylatorem, aby rozprowadzić chłodne powietrze po całym pomieszczeniu bez zwiększania zużycia energii.</li>
+</ul>
+<p>Dzięki tym nawykom urządzenie pracuje mniej przy tym samym komforcie, co widać zarówno na termometrze, jak i na rachunku.</p>
+
+<h2>Podsumowanie</h2>
+<p>Klimatyzator przenośny, który nie chłodzi, rzadko nadaje się do wyrzucenia. Po kolei sprawdź tryb, wąż odprowadzający, uszczelnienie, filtr i zbiornik na skropliny oraz upewnij się, że BTU odpowiadają powierzchni. Te kroki rozwiązują przytłaczającą większość przypadków. Dopiero potem wyciek czynnika i interwencja certyfikowanego technika stają się zasadne.</p>`,
   },
   faq: [
     {
@@ -787,6 +911,7 @@ export const article: BlogArticle = {
         es: '¿Por qué mi aire acondicionado portátil no enfría?',
         it: 'Perché il mio climatizzatore portatile non raffredda?',
         nl: 'Waarom koelt mijn mobiele airco niet?',
+        pl: 'Dlaczego mój klimatyzator przenośny nie chłodzi?',
       },
       answer: {
         fr: 'Dans la plupart des cas, c\'est un problème simple : appareil en mode ventilateur au lieu de froid, tuyau d\'évacuation plié ou mal sorti par la fenêtre, filtre encrassé ou bac à condensats plein. Vérifiez ces points dans cet ordre. Si l\'appareil tourne mais que la pièce reste chaude, il manque peut-être des BTU pour la surface.',
@@ -795,6 +920,7 @@ export const article: BlogArticle = {
         es: 'En la mayoría de los casos es algo sencillo: el equipo está en modo ventilador en vez de frío, el tubo de evacuación está doblado o mal sacado por la ventana, el filtro está sucio o el depósito de condensación está lleno. Revisa estos puntos en ese orden. Si el aparato funciona pero la habitación sigue caliente, puede faltarle BTU para la superficie.',
         it: 'Nella maggior parte dei casi è qualcosa di semplice: l\'apparecchio è in modalità ventilatore invece che freddo, il tubo di scarico è piegato o mal portato fuori dalla finestra, il filtro è sporco o il serbatoio di condensa è pieno. Controlla questi punti in quest\'ordine. Se funziona ma la stanza resta calda, potrebbero mancare BTU.',
         nl: 'Meestal is het iets eenvoudigs: het apparaat staat in de ventilatorstand in plaats van koelen, de afvoerslang is geknikt of niet goed naar buiten geleid, het filter is vervuild of de condensbak is vol. Controleer deze punten in die volgorde. Draait het apparaat maar blijft de kamer warm, dan ontbreken mogelijk BTU.',
+        pl: 'W większości przypadków to prosty problem: urządzenie w trybie wentylatora zamiast chłodzenia, zagięty lub źle wyprowadzony przez okno wąż odprowadzający, zabrudzony filtr lub pełny zbiornik na skropliny. Sprawdź te punkty w tej kolejności. Jeśli urządzenie pracuje, ale w pomieszczeniu nadal jest gorąco, może brakować BTU dla danej powierzchni.',
       },
     },
     {
@@ -805,6 +931,7 @@ export const article: BlogArticle = {
         es: '¿Cuántos BTU necesito para mi habitación?',
         it: 'Quanti BTU mi servono per la mia stanza?',
         nl: 'Hoeveel BTU heb ik nodig voor mijn kamer?',
+        pl: 'Ile BTU potrzebuję do mojego pomieszczenia?',
       },
       answer: {
         fr: 'Comptez environ 7 000 à 9 000 BTU jusqu\'à 15 m2, 9 000 à 12 000 BTU pour 15 à 25 m2, 12 000 à 14 000 BTU pour 25 à 35 m2 et 14 000 à 18 000 BTU pour 35 à 45 m2. Ce sont des repères pour une pièce standard ; montez d\'un cran si la pièce est très ensoleillée, sous les combles ou avec des plafonds hauts.',
@@ -813,6 +940,7 @@ export const article: BlogArticle = {
         es: 'Calcula unos 7.000 a 9.000 BTU hasta 15 m2, 9.000 a 12.000 BTU para 15 a 25 m2, 12.000 a 14.000 BTU para 25 a 35 m2 y 14.000 a 18.000 BTU para 35 a 45 m2. Son orientativos para una habitación estándar; sube un tramo si recibe mucho sol, está bajo cubierta o tiene techos altos.',
         it: 'Calcola circa 7.000 a 9.000 BTU fino a 15 m2, 9.000 a 12.000 BTU per 15-25 m2, 12.000 a 14.000 BTU per 25-35 m2 e 14.000 a 18.000 BTU per 35-45 m2. Sono indicativi per una stanza standard; sali di un livello se è molto soleggiata, in sottotetto o con soffitti alti.',
         nl: 'Reken op ongeveer 7.000 tot 9.000 BTU tot 15 m2, 9.000 tot 12.000 BTU voor 15 tot 25 m2, 12.000 tot 14.000 BTU voor 25 tot 35 m2 en 14.000 tot 18.000 BTU voor 35 tot 45 m2. Dit zijn richtlijnen voor een standaardkamer; ga een stap hoger bij veel zon, een zolderkamer of hoge plafonds.',
+        pl: 'Przyjmij około 7 000–9 000 BTU do 15 m2, 9 000–12 000 BTU dla 15–25 m2, 12 000–14 000 BTU dla 25–35 m2 i 14 000–18 000 BTU dla 35–45 m2. To wartości orientacyjne dla standardowego pomieszczenia; wybierz o stopień wyżej, jeśli pomieszczenie jest bardzo nasłonecznione, pod dachem lub ma wysokie sufity.',
       },
     },
     {
@@ -823,6 +951,7 @@ export const article: BlogArticle = {
         es: '¿Puede ser el tubo de evacuación la causa del problema?',
         it: 'Il tubo di scarico può essere la causa del problema?',
         nl: 'Kan de afvoerslang de oorzaak van het probleem zijn?',
+        pl: 'Czy wąż odprowadzający może być przyczyną problemu?',
       },
       answer: {
         fr: 'Oui, c\'est la cause la plus fréquente. Si le tuyau est plié, trop long, ou s\'il ne sort pas vraiment l\'air chaud par la fenêtre, cet air revient dans la pièce et annule le refroidissement. Gardez le tuyau court, droit et bien dirigé vers l\'extérieur, et calfeutrez bien la fenêtre autour.',
@@ -831,6 +960,7 @@ export const article: BlogArticle = {
         es: 'Sí, es la causa más frecuente. Si el tubo está doblado, es demasiado largo o no saca de verdad el aire caliente por la ventana, ese aire vuelve a la habitación y anula el enfriamiento. Mantén el tubo corto, recto y bien dirigido al exterior, y sella bien la ventana alrededor.',
         it: 'Sì, è la causa più frequente. Se il tubo è piegato, troppo lungo o non porta davvero l\'aria calda fuori dalla finestra, quell\'aria rientra nella stanza e annulla il raffreddamento. Tieni il tubo corto, dritto e ben diretto all\'esterno, e sigilla bene la finestra attorno.',
         nl: 'Ja, het is de meest voorkomende oorzaak. Als de slang geknikt is, te lang, of de warme lucht niet echt naar buiten leidt, komt die lucht terug de kamer in en heft het koelen op. Houd de slang kort, recht en naar buiten gericht, en dicht het raam er goed omheen af.',
+        pl: 'Tak, to najczęstsza przyczyna. Jeśli wąż jest zagięty, zbyt długi lub nie wyprowadza naprawdę gorącego powietrza przez okno, to powietrze wraca do pomieszczenia i niweluje chłodzenie. Utrzymuj wąż krótki, prosty i dobrze skierowany na zewnątrz, a okno wokół niego dokładnie uszczelnij.',
       },
     },
     {
@@ -841,6 +971,7 @@ export const article: BlogArticle = {
         es: '¿Con qué frecuencia hay que limpiar el filtro?',
         it: 'Ogni quanto va pulito il filtro?',
         nl: 'Hoe vaak moet ik het filter reinigen?',
+        pl: 'Jak często czyścić filtr?',
       },
       answer: {
         fr: 'En pleine saison d\'utilisation, nettoyez le filtre toutes les deux à trois semaines. Un filtre encrassé réduit le débit d\'air et donc la capacité de refroidissement. Lavez-le à l\'eau tiède avec un savon doux ou aspirez la poussière, puis laissez-le sécher complètement avant de le remettre pour éviter moisissures et odeurs.',
@@ -849,6 +980,7 @@ export const article: BlogArticle = {
         es: 'En plena temporada de uso, limpia el filtro cada dos o tres semanas. Un filtro sucio reduce el caudal de aire y por tanto la capacidad de enfriar. Lávalo con agua tibia y jabón neutro o aspira el polvo, y déjalo secar del todo antes de colocarlo para evitar moho y olores.',
         it: 'In piena stagione, pulisci il filtro ogni due o tre settimane. Un filtro sporco riduce il flusso d\'aria e quindi la capacità di raffreddare. Lavalo con acqua tiepida e sapone neutro o aspira la polvere, poi lascialo asciugare del tutto prima di rimetterlo per evitare muffe e odori.',
         nl: 'In het hoogseizoen het filter om de twee à drie weken reinigen. Een vervuild filter vermindert de luchtstroom en dus de koelcapaciteit. Was het met lauw water en milde zeep of zuig het stof op, en laat het volledig drogen voor terugplaatsing om schimmel en geuren te voorkomen.',
+        pl: 'W szczycie sezonu czyść filtr co dwa do trzech tygodni. Zabrudzony filtr zmniejsza przepływ powietrza, a tym samym wydajność chłodzenia. Umyj go letnią wodą z łagodnym mydłem lub odkurz kurz, a następnie pozostaw do całkowitego wyschnięcia przed włożeniem z powrotem, aby uniknąć pleśni i zapachów.',
       },
     },
     {
@@ -859,6 +991,7 @@ export const article: BlogArticle = {
         es: '¿Cuándo debo llamar a un técnico en lugar de arreglarlo yo?',
         it: 'Quando devo chiamare un tecnico invece di arrangiarmi?',
         nl: 'Wanneer moet ik een technicus bellen in plaats van het zelf te doen?',
+        pl: 'Kiedy wezwać technika zamiast naprawiać samemu?',
       },
       answer: {
         fr: 'Faites appel à un technicien certifié si vous suspectez une fuite de gaz réfrigérant (refroidissement qui baisse progressivement), en cas d\'odeur de brûlé, d\'étincelles, de bruits anormaux ou de codes d\'erreur non résolus. Ne tentez jamais de recharger le gaz vous-même : il est sous pression et sa manipulation est réglementée. Si l\'appareil est sous garantie, ne l\'ouvrez pas.',
@@ -867,6 +1000,7 @@ export const article: BlogArticle = {
         es: 'Llama a un técnico certificado si sospechas una fuga de gas refrigerante (enfriamiento que baja poco a poco), o si hay olor a quemado, chispas, ruidos anormales o códigos de error que no se resuelven. No intentes recargar el gas tú mismo: está a presión y su manipulación está regulada. Si el equipo está en garantía, no lo abras.',
         it: 'Chiama un tecnico certificato se sospetti una perdita di gas refrigerante (raffreddamento che cala gradualmente), o in caso di odore di bruciato, scintille, rumori anomali o codici di errore irrisolti. Non provare mai a ricaricare il gas da solo: è sotto pressione e la sua manipolazione è regolamentata. Se in garanzia, non aprire l\'apparecchio.',
         nl: 'Bel een gecertificeerde technicus bij vermoeden van een koelgaslek (koeling die geleidelijk afneemt), of bij brandlucht, vonken, abnormale geluiden of onopgeloste foutcodes. Probeer het gas nooit zelf bij te vullen: het staat onder druk en de behandeling is gereguleerd. Open het apparaat niet als het in garantie is.',
+        pl: 'Skorzystaj z pomocy certyfikowanego technika, jeśli podejrzewasz wyciek czynnika chłodniczego (stopniowo słabnące chłodzenie), przy zapachu spalenizny, iskrach, nietypowych dźwiękach lub kodach błędów, których nie da się rozwiązać. Nigdy nie próbuj samodzielnie uzupełniać czynnika: jest pod ciśnieniem, a jego obsługa jest regulowana przepisami. Jeśli urządzenie jest na gwarancji, nie otwieraj go.',
       },
     },
   ],

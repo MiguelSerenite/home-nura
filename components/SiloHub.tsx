@@ -64,6 +64,12 @@ const uiStrings: Record<Lang, { home: string; comingSoon: string; categoriesTitl
     categoriesTitle: 'Categorieën',
     methodologyCta: 'Lees onze methodologie',
   },
+  pl: {
+    home: 'Strona główna',
+    comingSoon: 'Wkrótce',
+    categoriesTitle: 'Kategorie',
+    methodologyCta: 'Poznaj naszą metodologię',
+  },
 }
 
 interface SiloHubProps {

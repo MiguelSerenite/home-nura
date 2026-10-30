@@ -34,7 +34,7 @@ export function buildLlmsTxt(): string {
     '',
     '> Independent European buying guides for the smart home: air fryers, smart kitchen, energy and home automation, home security, air comfort, home care and garden. Every guide accounts for EU specifics (energy labels, GDPR and local data storage, EU plugs, Matter compatibility).',
     '',
-    `Content is published in 6 languages (${languages}); each French URL below has the same path under every language prefix. Product links are Amazon affiliate links (disclosed on every page); rankings follow the published methodology.`,
+    `Content is published in ${LANGUAGES.length} languages (${languages}); each French URL below has the same path under every language prefix. Product links are Amazon affiliate links (disclosed on every page); rankings follow the published methodology.`,
     '',
     '## Key pages',
     ...KEY_PAGES.map(([label, path, note]) => link(label, path, note)),

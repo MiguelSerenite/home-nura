@@ -11,6 +11,7 @@ const LABEL: Record<string, string> = {
   es: 'Volver arriba',
   it: 'Torna su',
   nl: 'Terug naar boven',
+  pl: 'Przewiń do góry',
 }
 
 /**

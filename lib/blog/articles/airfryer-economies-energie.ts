@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Freidora de aire negra con temporizador y termostato, un aparato que consume menos energía que el horno',
         it: 'Friggitrice ad aria nera con timer e termostato, un apparecchio che consuma meno energia del forno',
         nl: 'Zwarte airfryer met timer en temperatuurknop, een apparaat dat minder energie verbruikt dan de oven',
+        pl: 'Czarna frytkownica beztłuszczowa z minutnikiem i termostatem, urządzenie bardziej oszczędne energetycznie niż piekarnik',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: `Freidora de aire y ahorro energético: ¿cuánto ahorras realmente?`,
     it: `Friggitrice ad aria e risparmio energetico: quanto risparmi davvero?`,
     nl: `Airfryer en energiebesparing: hoeveel bespaar je echt?`,
+    pl: `Frytkownica beztłuszczowa a oszczędność energii: ile naprawdę zaoszczędzasz?`,
   },
   excerpt: {
     fr: `Un airfryer consomme souvent deux à trois fois moins d'électricité qu'un four pour un même plat. Calculs en kWh, hypothèses expliquées et modèles adaptés à chaque foyer.`,
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: `Una freidora de aire suele gastar entre dos y tres veces menos electricidad que el horno para el mismo plato. Cálculos en kWh, supuestos explicados y modelos para cada hogar.`,
     it: `Una friggitrice ad aria consuma spesso da due a tre volte meno elettricità del forno per lo stesso piatto. Calcoli in kWh, ipotesi spiegate e modelli adatti a ogni famiglia.`,
     nl: `Een airfryer verbruikt voor hetzelfde gerecht vaak twee tot drie keer minder stroom dan een oven. Berekeningen in kWh, duidelijke aannames en modellen per huishouden.`,
+    pl: `Frytkownica beztłuszczowa zużywa często dwa do trzech razy mniej prądu niż piekarnik przy tym samym daniu. Obliczenia w kWh, wyjaśnione założenia i modele dopasowane do każdego domu.`,
   },
   content: {
     fr: `<h2>La réponse courte</h2>
@@ -793,6 +796,131 @@ export const article: BlogArticle = {
 
 <h2>Conclusie</h2>
 <p>Een airfryer verlaagt het stroomverbruik echt wanneer hij de oven vervangt voor gerechten die in zijn mand passen: ongeveer 0,7 kWh minder per maaltijd, grofweg 100 tot 250 kWh per jaar bij regelmatig gebruik. De sleutel is de juiste inhoud voor je huishouden. De <strong>Philips Airfryer 3000 Series XL</strong> is onze keuze voor 3 tot 5 personen, de <strong>Moulinex Easy Fry Max 5L</strong> is de zuinige, betaalbare optie en de <strong>Ninja Foodi MAX Double Stack XL</strong> past bij gezinnen die de oven uit willen laten voor een volledige maaltijd. Met een krap budget kun je ook kijken naar onze <a href="/nl/blog/meilleur-airfryer-petit-budget">beste budget-airfryers</a>.</p>`,
+    pl: `<h2>Krótka odpowiedź</h2>
+<p>Tak, przy małych i średnich porcjach frytkownica beztłuszczowa (air fryer) zużywa zazwyczaj dwa do trzech razy mniej prądu niż piekarnik elektryczny, ponieważ ogrzewa znacznie mniejszą objętość i prawie nie wymaga nagrzewania. W praktyce 20-minutowa sesja to często 0,3 do 0,5 kWh, wobec około 1 kWh dla tej samej potrawy w piekarniku.</p>
+<p>Ten przewodnik nie opiera się na pomiarach laboratoryjnych. Wykorzystuje moce deklarowane przez producentów, podstawową fizykę ogrzewania i opinie zweryfikowanych użytkowników. Wszystkie wartości poniżej to szacunki w kWh wraz z założeniami, abyś mógł dopasować je do swojego urządzenia i swojej umowy na prąd.</p>
+
+<h2>Moc (W) i energia (kWh): nie myl tych pojęć</h2>
+<p>Moc, w watach, określa, ile urządzenie pobiera z sieci, gdy jego grzałka się nagrzewa. Zużyta energia, w kilowatogodzinach, zależy od czasu, przez który grzałka faktycznie pracuje. Wzór mieści się w jednej linijce:</p>
+<p><strong>Energia (kWh) = moc (kW) × czas (h) × część czasu, w której grzałka pracuje</strong></p>
+<p>Frytkownica beztłuszczowa nie pracuje ciągle z pełną mocą. Po osiągnięciu zadanej temperatury termostat wyłącza grzałkę, a potem włącza ją cyklicznie. Rzeczywista część czasu nagrzewania zależy od wybranej temperatury, ilości jedzenia i izolacji urządzenia. W tym przewodniku przyjmujemy ostrożne założenie 70 do 85% czasu.</p>
+<p><strong>Przykład:</strong> frytkownica o mocy 1 500 W używana przez 20 minut zużywa maksymalnie 1,5 × 1/3 = 0,5 kWh. Przy cyklach termostatu wychodzi raczej 0,35 do 0,43 kWh. To ta liczba, a nie waty wypisane na pudełku, liczy się na Twoim rachunku.</p>
+
+<h2>Frytkownica, piekarnik, frytownica, mikrofalówka: rzędy wielkości</h2>
+<p>Poniższa tabela porównuje typowe sesje dla 2 do 4 porcji (frytki, pieczone warzywa, filety z kurczaka). Są to szacunki wyliczone według powyższego wzoru, a nie odczyty z konkretnego urządzenia.</p>
+<table>
+<thead>
+<tr><th>Urządzenie</th><th>Typowa moc</th><th>Typowy czas</th><th>Szacowana energia na sesję</th></tr>
+</thead>
+<tbody>
+<tr><td>Frytkownica beztłuszczowa 4 do 6 l</td><td>1 500 do 2 000 W</td><td>15 do 22 min, krótkie nagrzewanie lub brak</td><td>0,3 do 0,5 kWh</td></tr>
+<tr><td>Frytkownica beztłuszczowa z dwiema szufladami (obie używane)</td><td>2 400 do 2 500 W</td><td>18 do 25 min</td><td>0,5 do 0,8 kWh</td></tr>
+<tr><td>Piekarnik elektryczny z termoobiegiem</td><td>2 500 do 3 500 W</td><td>10 min nagrzewania + 20 do 25 min</td><td>0,9 do 1,3 kWh</td></tr>
+<tr><td>Frytownica olejowa (2 do 3 l oleju)</td><td>1 800 do 2 200 W</td><td>10 min nagrzewania oleju + 8 do 12 min</td><td>0,4 do 0,6 kWh</td></tr>
+<tr><td>Mikrofalówka (podgrzewanie)</td><td>pobór 1 000 do 1 300 W</td><td>3 do 6 min</td><td>0,05 do 0,13 kWh</td></tr>
+</tbody>
+</table>
+<p>W przypadku własnego piekarnika spójrz na jego europejską etykietę energetyczną: podaje zużycie na cykl w kWh, w trybie konwencjonalnym i z termoobiegiem, uzyskane według znormalizowanej procedury. Dla nowszego, dobrze sklasyfikowanego piekarnika wartość ta często oscyluje wokół 0,7 do 1 kWh na znormalizowany cykl. To dobra baza do porównania z Twoją frytkownicą.</p>
+<p><strong>Warto zapamiętać:</strong> przy potrawie, która mieści się w koszu, frytkownica beztłuszczowa zużywa około dwa do trzech razy mniej niż piekarnik. W porównaniu z frytownicą olejową różnica w kWh jest mniejsza: przewaga frytkownicy beztłuszczowej polega głównie na zaoszczędzonym oleju, braku zapachu smażenia i bezpieczeństwie. Mikrofalówka pozostaje najbardziej oszczędna, ale tylko podgrzewa, bez rumienienia i chrupkości.</p>
+
+<h2>Dlaczego frytkownica beztłuszczowa zużywa mniej</h2>
+<h3>1. Znacznie mniejsza objętość do ogrzania</h3>
+<p>Komora piekarnika ma zwykle 60 do 70 litrów. Frytkownica beztłuszczowa, nawet w dużym formacie, ma 4 do 10 litrów. Mniej powietrza i mniej ścianek do rozgrzania do 200 °C to mniej energii traconej, zanim zacznie się smażenie.</p>
+<h3>2. Krótkie nagrzewanie, a czasem w ogóle niepotrzebne</h3>
+<p>Piekarnik często potrzebuje około dziesięciu minut, aby osiągnąć 200 °C, i w tym czasie zużywa prąd, nic nie smażąc. Frytkownica beztłuszczowa nagrzewa się w kilka minut, a przy wielu produktach mrożonych producenci wskazują, że można to pominąć.</p>
+<h3>3. Ciepło skoncentrowane wokół jedzenia</h3>
+<p>Wentylator kieruje gorące powietrze bezpośrednio na jedzenie, kilka centymetrów od grzałki. Czasy smażenia są często nieco krótsze niż w piekarniku, co jeszcze bardziej skraca czas nagrzewania.</p>
+
+<h2>Obliczenie rocznych oszczędności w kWh</h2>
+<p>Założenie obliczeń: zastępujesz jedną sesję piekarnika (około 1,1 kWh) jedną sesją frytkownicy beztłuszczowej (około 0,4 kWh). Oszczędność wynosi więc około 0,7 kWh na posiłek.</p>
+<table>
+<thead>
+<tr><th>Częstotliwość używania zamiast piekarnika</th><th>Sesji rocznie</th><th>Zaoszczędzone kWh rocznie (szacunek)</th></tr>
+</thead>
+<tbody>
+<tr><td>1 raz w tygodniu</td><td>52</td><td>około 36 kWh</td></tr>
+<tr><td>3 razy w tygodniu</td><td>156</td><td>około 109 kWh</td></tr>
+<tr><td>5 razy w tygodniu</td><td>260</td><td>około 182 kWh</td></tr>
+<tr><td>Codziennie</td><td>365</td><td>około 256 kWh</td></tr>
+</tbody>
+</table>
+<p><strong>Przeliczenie na złotówki:</strong> pomnóż zaoszczędzone kWh przez cenę kWh z Twojego rachunku. Przykład, przy przykładowej stawce 1,10 zł/kWh, którą zastąp własną: 182 kWh × 1,10 zł = około 200 zł rocznie przy pięciu sesjach w tygodniu. Jeśli Twoja stawka jest wyższa lub masz ceny zależne od pory dnia, wynik zmienia się proporcjonalnie.</p>
+<p>W porównaniu z frytownicą olejową oszczędność ogranicza się do około 0,1 do 0,2 kWh na sesję, czyli 5 do 10 kWh rocznie przy cotygodniowym używaniu. Zaleta leży gdzie indziej: mniej oleju do kupowania, filtrowania i wyrzucania. Aby dowiedzieć się więcej, zajrzyj do naszego <a href="/pl/blog/airfryer-vs-friteuse-traditionnelle">porównania frytkownicy beztłuszczowej z tradycyjną frytownicą</a>.</p>
+<p><strong>Przypadek, w którym frytkownica nic nie oszczędza:</strong> jeśli gotujesz dla sześciu osób i musisz zrobić trzy partie jedna po drugiej, trzy sesje po 0,4 kWh dają 1,2 kWh, czyli tyle, ile pełny piekarnik za jednym razem. Frytkownica beztłuszczowa jest oszczędna, gdy potrawa mieści się w koszu, a nie wtedy, gdy trzeba ją mnożyć. Nasze <a href="/pl/guides/airfryer-vs-four">porównanie frytkownicy beztłuszczowej z piekarnikiem</a> opisuje sytuacje, w których piekarnik nadal ma sens.</p>
+
+<h2>Kryteria, które liczą się przy niższym zużyciu</h2>
+<ul>
+<li><strong>Pojemność dopasowana do domowników:</strong> to kryterium najważniejsze. Duży model do połowy pusty grzeje powietrze na darmo, a zbyt mały zmusza do kilku partii. Licz około 3 do 4 l dla 1 do 2 osób, 5 do 6 l dla 3 do 4 osób, a powyżej więcej.</li>
+<li><strong>Moc nie jest wadą:</strong> mocniejszy model nagrzewa się szybciej i częściej przełącza cykle. Przy tej samej pojemności różnica w rzeczywistym zużyciu między 1 500 a 2 000 W jest dużo mniejsza niż różnica w podanej mocy.</li>
+<li><strong>Okienko kontrolne:</strong> pozwala nie otwierać szuflady, by sprawdzić smażenie, a więc nie tracić zgromadzonego ciepła.</li>
+<li><strong>Dwie szuflady, tylko jeśli z nich korzystasz:</strong> pozwalają przygotować danie główne i dodatek jednocześnie zamiast dwóch kolejnych sesji. Przy jednym produkcie używaj jednej szuflady.</li>
+<li><strong>Tryb czuwania:</strong> urządzenie pobierające stale 1 W zużywa 8,76 kWh rocznie (1 W × 8 760 h). Modele inteligentne mogą utrzymywać aktywne Wi-Fi: odłączaj je od prądu lub używaj listwy z wyłącznikiem, jeśli nie korzystasz ze zdalnego sterowania w aplikacji.</li>
+<li><strong>Sprawdź sam:</strong> inteligentna wtyczka z pomiarem energii pokazuje rzeczywiste zużycie Twojego urządzenia, sesja po sesji. Zobacz nasze <a href="/pl/blog/comparatif-smart-plugs-mesure-energie">porównanie inteligentnych wtyczek z pomiarem energii</a>.</li>
+</ul>
+
+<h2>Modele do rozważenia w zależności od domu</h2>
+<p>Modele zostały wybrane na podstawie kart katalogowych producentów, niezależnych recenzji i opinii zweryfikowanych kupujących. Podana moc to moc deklarowana przez producenta.</p>
+<h3>Philips Airfryer 3000 Series XL (6,2 l): dobry kompromis dla 3 do 5 osób</h3>
+<p><strong>Mocne strony:</strong> 6,2 l i 1,2 kg jedzenia w jednym koszu, 2 000 W, wiele programów i funkcja podtrzymywania ciepła. Jeden kosz pozwala ugotować dla średniej rodziny za jednym razem, a to klucz do oszczędności.</p>
+<p><strong>Ograniczenia:</strong> brak okienka kontrolnego i jedna komora na danie główne i dodatek.</p>
+<p><strong>Dla kogo:</strong> dla domów z 3 do 5 osobami, które chcą zastąpić piekarnik na co dzień.</p>
+<h3>Moulinex Easy Fry Max 5L: wybór oszczędny i przystępny</h3>
+<p><strong>Mocne strony:</strong> 5 l, 1 500 W, ekran dotykowy i dziesięć programów automatycznych. Umiarkowana moc i pojemność wystarczająca dla 3 do 4 osób.</p>
+<p><strong>Ograniczenia:</strong> prostsze wykończenie, brak łączności, jeden kosz.</p>
+<p><strong>Dla kogo:</strong> dla tych, którzy szukają podstawowej, prostej i oszczędnej frytkownicy beztłuszczowej na codzienne posiłki.</p>
+<h3>Xiaomi Smart Air Fryer Pro 4L: kompaktowa, z okienkiem</h3>
+<p><strong>Mocne strony:</strong> 4 l, 1 600 W, okienko kontrolne, regulacja od 40 do 200 °C i sterowanie przez aplikację Mi Home. Okienko ogranicza otwieranie szuflady.</p>
+<p><strong>Ograniczenia:</strong> niewielka pojemność jak na rodzinę, funkcje inteligentne zakładają pozostawianie urządzenia w gniazdku.</p>
+<p><strong>Dla kogo:</strong> dla par i małych domów, które lubią śledzić smażenie i korzystać z aplikacji.</p>
+<h3>Cosori Lite 3.8L: mały format dla 1 do 3 osób</h3>
+<p><strong>Mocne strony:</strong> 3,8 l, 1 500 W, małe gabaryty i kosz nadający się do zmywarki. Mała objętość nagrzewa się szybko.</p>
+<p><strong>Ograniczenia:</strong> za mała, gdy gotujesz dla czterech osób, podstawowe funkcje.</p>
+<p><strong>Dla kogo:</strong> dla osób samotnych, studentów, par albo jako uzupełnienie piekarnika.</p>
+<h3>Cosori Dual Blaze 6,4 l: dwie grzałki, bez potrząsania</h3>
+<p><strong>Mocne strony:</strong> 6,4 l, 1 700 W, grzałki u góry i na dole, które zmniejszają potrzebę obracania jedzenia, aplikacja i sterowanie głosowe.</p>
+<p><strong>Ograniczenia:</strong> dość ciężkie i duże urządzenie, łączność przydatna tylko wtedy, gdy z niej korzystasz.</p>
+<p><strong>Dla kogo:</strong> dla domów z 3 do 5 osobami, które chcą równomiernego smażenia bez otwierania szuflady w trakcie.</p>
+<h3>Ninja Foodi MAX Double Stack XL (9,5 l): zastąpienie piekarnika przy pełnym posiłku</h3>
+<p><strong>Mocne strony:</strong> dwie szuflady ułożone jedna na drugiej po 4,75 l, 2 470 W, synchronizacja obu stref, aby podać danie główne i dodatek jednocześnie. Zajmowane miejsce na blacie to miejsce jednej szuflady.</p>
+<p><strong>Ograniczenia:</strong> najwyższa moc w tym zestawieniu, wysokie urządzenie. Przy niewielkiej ilości używaj tylko jednej szuflady.</p>
+<p><strong>Dla kogo:</strong> dla rodzin, które włączały piekarnik niemal co wieczór do przygotowania pełnego posiłku.</p>
+
+<h2>Tabela porównawcza</h2>
+<p>Ostatnia kolumna podaje teoretyczny pułap dla 20 minut pracy z pełną mocą (moc × 1/3 h). Rzeczywiste zużycie jest niższe dzięki termostatowi, a większy model może być oszczędniejszy w przeliczeniu na porcję, jeśli pozwala uniknąć drugiej partii.</p>
+<table>
+<thead>
+<tr><th>Model</th><th>Moc deklarowana</th><th>Pojemność</th><th>Teoretyczny pułap w 20 min</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td>Philips Airfryer 3000 Series XL</td><td>2 000 W</td><td>6,2 l</td><td>0,67 kWh</td><td>3 do 5 osób</td></tr>
+<tr><td>Moulinex Easy Fry Max 5L</td><td>1 500 W</td><td>5 l</td><td>0,50 kWh</td><td>3 do 4 osób, ograniczony budżet</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>1 600 W</td><td>4 l</td><td>0,53 kWh</td><td>2 do 3 osób, aplikacja</td></tr>
+<tr><td>Cosori Lite 3.8L</td><td>1 500 W</td><td>3,8 l</td><td>0,50 kWh</td><td>1 do 3 osób</td></tr>
+<tr><td>Cosori Dual Blaze 6,4 l</td><td>1 700 W</td><td>6,4 l</td><td>0,57 kWh</td><td>3 do 5 osób, równomierne smażenie</td></tr>
+<tr><td>Ninja Foodi MAX Double Stack XL</td><td>2 470 W</td><td>9,5 l (2 × 4,75 l)</td><td>0,82 kWh (dwie szuflady)</td><td>rodziny, pełny posiłek</td></tr>
+</tbody>
+</table>
+<p>Inne modele znajdziesz w naszym <a href="/pl/guides/airfryers">kompletnym przewodniku po frytkownicach beztłuszczowych</a>.</p>
+
+<h2>Błędy, które podnoszą zużycie</h2>
+<ul>
+<li><strong>Nagrzewanie za każdym razem:</strong> przydatne przy niektórych ciastach lub mięsach, zbędne przy większości mrożonek. Stosuj się do wskazówek z instrukcji.</li>
+<li><strong>Zbyt częste otwieranie szuflady:</strong> zwykle wystarczy jedno wstrząśnięcie w połowie smażenia.</li>
+<li><strong>Przeładowanie kosza:</strong> powietrze słabo krąży, smażenie się wydłuża i jest nierówne. Lepsza jest przewiewna warstwa.</li>
+<li><strong>Robienie w trzech partiach tego, co zmieściłoby się w piekarniku za jednym razem:</strong> przy dużym stole piekarnik bywa rozsądniejszy.</li>
+<li><strong>Pozostawianie modelu inteligentnego stale w gniazdku</strong> bez korzystania z funkcji zdalnych.</li>
+<li><strong>Zaniedbywanie konserwacji:</strong> nagromadzony tłuszcz może dymić i pogarszać równomierność smażenia. Nasz <a href="/pl/blog/entretien-nettoyage-airfryer">poradnik konserwacji</a> wyjaśnia, jak to zrobić.</li>
+</ul>
+
+<h2>Bezpieczeństwo i prawidłowe użytkowanie</h2>
+<ul>
+<li>Postaw urządzenie na stabilnej, odpornej na ciepło powierzchni, nigdy na płycie grzewczej, i zostaw wolną przestrzeń wokół wylotów powietrza, jak wskazuje instrukcja.</li>
+<li>Podłączaj je najlepiej bezpośrednio do gniazdka ściennego. Jeśli używasz przedłużacza lub listwy, musi wytrzymać moc urządzenia.</li>
+<li>Nie zakrywaj całego dna kosza folią aluminiową ani papierem do pieczenia: powietrze musi móc krążyć.</li>
+</ul>
+
+<h2>Werdykt</h2>
+<p>Frytkownica beztłuszczowa realnie obniża zużycie prądu, gdy zastępuje piekarnik przy potrawach mieszczących się w koszu: licz około 0,7 kWh zaoszczędzone na posiłek, czyli rzędu 100 do 250 kWh rocznie przy regularnym używaniu. Dobrym nawykiem jest wybór pojemności dopasowanej do domu. <strong>Philips Airfryer 3000 Series XL</strong> to nasz wybór dla 3 do 5 osób, <strong>Moulinex Easy Fry Max 5L</strong> to opcja oszczędna i przystępna, a <strong>Ninja Foodi MAX Double Stack XL</strong> pasuje rodzinom, które chcą zostawić piekarnik wyłączony przy pełnym posiłku. Przy mniejszym budżecie zobacz też nasze zestawienie <a href="/pl/blog/meilleur-airfryer-petit-budget">najlepszych tanich frytkownic beztłuszczowych</a>.</p>`,
   },
   faq: [
     {
@@ -803,6 +931,7 @@ export const article: BlogArticle = {
         es: `¿Cuántos kWh consume una freidora de aire por uso?`,
         it: `Quanti kWh consuma una friggitrice ad aria per utilizzo?`,
         nl: `Hoeveel kWh verbruikt een airfryer per keer?`,
+        pl: `Ile kWh zużywa frytkownica beztłuszczowa podczas jednego użycia?`,
       },
       answer: {
         fr: `Pour un modèle de 1 500 à 2 000 W utilisé une vingtaine de minutes, comptez en général 0,3 à 0,5 kWh. Le plafond théorique est puissance × durée (1,5 kW × 1/3 h = 0,5 kWh), mais le thermostat coupe régulièrement la résistance, ce qui réduit la consommation réelle.`,
@@ -811,6 +940,7 @@ export const article: BlogArticle = {
         es: `Para un modelo de 1.500 a 2.000 W durante unos 20 minutos, cuenta en general con 0,3 a 0,5 kWh. El techo teórico es potencia × tiempo (1,5 kW × 1/3 h = 0,5 kWh), pero el termostato apaga la resistencia de forma periódica, así que el consumo real es menor.`,
         it: `Per un modello da 1.500 a 2.000 W usato per circa 20 minuti, conta in genere 0,3-0,5 kWh. Il tetto teorico è potenza × tempo (1,5 kW × 1/3 h = 0,5 kWh), ma il termostato spegne periodicamente la resistenza, quindi il consumo reale è inferiore.`,
         nl: `Voor een model van 1.500 tot 2.000 W dat zo'n 20 minuten draait, reken je doorgaans op 0,3 tot 0,5 kWh. Het theoretische maximum is vermogen × tijd (1,5 kW × 1/3 h = 0,5 kWh), maar de thermostaat schakelt het element regelmatig uit, waardoor het werkelijke verbruik lager ligt.`,
+        pl: `Dla modelu o mocy 1 500 do 2 000 W używanego około dwudziestu minut licz zazwyczaj 0,3 do 0,5 kWh. Teoretyczny pułap to moc × czas (1,5 kW × 1/3 h = 0,5 kWh), ale termostat regularnie wyłącza grzałkę, co zmniejsza rzeczywiste zużycie.`,
       },
     },
     {
@@ -821,6 +951,7 @@ export const article: BlogArticle = {
         es: `¿Cuánto se ahorra al año usando una freidora de aire en lugar del horno?`,
         it: `Quanto si risparmia all'anno usando una friggitrice ad aria al posto del forno?`,
         nl: `Hoeveel bespaar je per jaar met een airfryer in plaats van de oven?`,
+        pl: `Ile oszczędza się rocznie, używając frytkownicy beztłuszczowej zamiast piekarnika?`,
       },
       answer: {
         fr: `Avec environ 0,7 kWh économisé par repas, cinq utilisations par semaine représentent près de 182 kWh par an. Multipliez par le prix du kWh de votre facture : avec un tarif d'exemple de 0,25 €/kWh, cela fait environ 45 € par an.`,
@@ -829,6 +960,7 @@ export const article: BlogArticle = {
         es: `Con unos 0,7 kWh ahorrados por comida, cinco usos por semana suman cerca de 182 kWh al año. Multiplica por el precio del kWh de tu factura: con una tarifa de ejemplo de 0,25 €/kWh, son unos 45 € al año.`,
         it: `Con circa 0,7 kWh risparmiati a pasto, cinque utilizzi a settimana fanno circa 182 kWh all'anno. Moltiplica per il prezzo del kWh in bolletta: con una tariffa di esempio di 0,25 €/kWh, sono circa 45 € all'anno.`,
         nl: `Met ongeveer 0,7 kWh besparing per maaltijd kom je bij vijf keer per week op zo'n 182 kWh per jaar. Vermenigvuldig met de kWh-prijs op je rekening: bij een voorbeeldtarief van 0,25 €/kWh is dat ongeveer 45 € per jaar.`,
+        pl: `Przy około 0,7 kWh zaoszczędzonych na posiłek pięć użyć w tygodniu to prawie 182 kWh rocznie. Pomnóż przez cenę kWh z rachunku: przy przykładowej stawce 1,10 zł/kWh wychodzi około 200 zł rocznie.`,
       },
     },
     {
@@ -839,6 +971,7 @@ export const article: BlogArticle = {
         es: `¿La freidora de aire consume más o menos que un microondas?`,
         it: `La friggitrice ad aria consuma più o meno di un microonde?`,
         nl: `Verbruikt een airfryer meer of minder dan een magnetron?`,
+        pl: `Czy frytkownica beztłuszczowa zużywa więcej, czy mniej niż mikrofalówka?`,
       },
       answer: {
         fr: `Plus. Un micro-ondes qui réchauffe quelques minutes consomme environ 0,05 à 0,13 kWh. Il reste le plus sobre pour réchauffer, mais il ne dore pas et ne rend pas croustillant : pour cela, l'airfryer est le meilleur compromis.`,
@@ -847,6 +980,7 @@ export const article: BlogArticle = {
         es: `Más. Un microondas que recalienta unos minutos consume entre 0,05 y 0,13 kWh. Sigue siendo lo más austero para recalentar, pero no dora ni deja crujiente; para eso, la freidora de aire es el mejor término medio.`,
         it: `Di più. Un microonde che riscalda per qualche minuto consuma circa 0,05-0,13 kWh. Resta il più parsimonioso per riscaldare, ma non dora e non rende croccante: per questo la friggitrice ad aria è il compromesso migliore.`,
         nl: `Meer. Een magnetron die een paar minuten opwarmt, verbruikt zo'n 0,05 tot 0,13 kWh. Voor opwarmen blijft hij het zuinigst, maar hij bruint niet en maakt niets krokant; daarvoor is de airfryer het betere compromis.`,
+        pl: `Więcej. Mikrofalówka podgrzewająca przez kilka minut zużywa około 0,05 do 0,13 kWh. Do podgrzewania jest najbardziej oszczędna, ale nie rumieni i nie daje chrupkości: do tego frytkownica beztłuszczowa jest najlepszym kompromisem.`,
       },
     },
     {
@@ -857,6 +991,7 @@ export const article: BlogArticle = {
         es: `¿Una freidora de aire de doble cesta consume el doble?`,
         it: `Una friggitrice ad aria a doppio cestello consuma il doppio?`,
         nl: `Verbruikt een airfryer met twee lades twee keer zoveel?`,
+        pl: `Czy frytkownica beztłuszczowa z dwiema szufladami zużywa dwa razy więcej?`,
       },
       answer: {
         fr: `Non, pas avec un seul tiroir en marche. Avec les deux tiroirs, comptez environ 0,5 à 0,8 kWh pour 20 à 25 minutes, ce qui reste moins qu'un four et moins que deux séances successives dans un airfryer simple.`,
@@ -865,6 +1000,7 @@ export const article: BlogArticle = {
         es: `No, si solo funciona una cesta. Con las dos, cuenta con unos 0,5 a 0,8 kWh para 20 a 25 minutos, que sigue siendo menos que un horno y menos que dos sesiones seguidas en una freidora de una sola cesta.`,
         it: `No, se funziona un solo cestello. Con entrambi, conta circa 0,5-0,8 kWh per 20-25 minuti: comunque meno di un forno e meno di due sessioni di fila in una friggitrice a cestello singolo.`,
         nl: `Nee, niet als er maar één lade aan staat. Met beide lades reken je op ongeveer 0,5 tot 0,8 kWh voor 20 tot 25 minuten, nog altijd minder dan een oven en minder dan twee sessies na elkaar in een airfryer met één mand.`,
+        pl: `Nie, jeśli działa tylko jedna szuflada. Przy dwóch szufladach licz około 0,5 do 0,8 kWh na 20 do 25 minut, czyli mniej niż piekarnik i mniej niż dwie kolejne sesje w zwykłej frytkownicy beztłuszczowej.`,
       },
     },
     {
@@ -875,6 +1011,7 @@ export const article: BlogArticle = {
         es: `¿Una freidora de aire consume en modo de espera?`,
         it: `Una friggitrice ad aria consuma in standby?`,
         nl: `Verbruikt een airfryer stroom in stand-by?`,
+        pl: `Czy frytkownica beztłuszczowa pobiera prąd w trybie czuwania?`,
       },
       answer: {
         fr: `Un peu, surtout les modèles connectés qui gardent le Wi-Fi actif. Pour mémoire, 1 W en continu représente 8,76 kWh par an. Si vous n'utilisez pas le pilotage à distance, débranchez l'appareil ou utilisez une multiprise à interrupteur.`,
@@ -883,6 +1020,7 @@ export const article: BlogArticle = {
         es: `Un poco, sobre todo los modelos conectados que mantienen el wifi activo. Como referencia, 1 W continuo equivale a 8,76 kWh al año. Si no usas el control a distancia, desenchúfala o usa una regleta con interruptor.`,
         it: `Un po', soprattutto i modelli connessi che tengono attivo il Wi-Fi. Per riferimento, 1 W continuo corrisponde a 8,76 kWh all'anno. Se non usi il controllo a distanza, scollegala o usa una ciabatta con interruttore.`,
         nl: `Een beetje, vooral slimme modellen die wifi actief houden. Ter vergelijking: 1 W continu komt neer op 8,76 kWh per jaar. Gebruik je de bediening op afstand niet, haal dan de stekker eruit of gebruik een stekkerdoos met schakelaar.`,
+        pl: `Trochę, zwłaszcza modele inteligentne, które utrzymują aktywne Wi-Fi. Dla porównania: 1 W stale to 8,76 kWh rocznie. Jeśli nie korzystasz ze zdalnego sterowania, odłącz urządzenie od prądu lub użyj listwy z wyłącznikiem.`,
       },
     },
     {
@@ -893,6 +1031,7 @@ export const article: BlogArticle = {
         es: `¿Se puede usar una freidora de aire con paneles solares?`,
         it: `Si può alimentare una friggitrice ad aria con i pannelli solari?`,
         nl: `Kun je een airfryer laten draaien op zonnepanelen?`,
+        pl: `Czy frytkownicę beztłuszczową można zasilać z paneli słonecznych?`,
       },
       answer: {
         fr: `Oui, en cuisinant en journée vous augmentez votre autoconsommation. Mais un airfryer appelle 1,5 à 2,5 kW pendant la chauffe : si votre installation produit moins à ce moment-là, le complément vient du réseau.`,
@@ -901,6 +1040,7 @@ export const article: BlogArticle = {
         es: `Sí, y cocinar de día aumenta tu autoconsumo. Pero una freidora de aire demanda 1,5 a 2,5 kW mientras calienta; si tu instalación produce menos en ese momento, el resto llega de la red.`,
         it: `Sì, e cucinare di giorno aumenta l'autoconsumo. Ma una friggitrice ad aria assorbe 1,5-2,5 kW mentre scalda: se in quel momento l'impianto produce meno, il resto arriva dalla rete.`,
         nl: `Ja, en overdag koken verhoogt je eigen verbruik. Maar een airfryer trekt tijdens het verwarmen 1,5 tot 2,5 kW; produceert je installatie op dat moment minder, dan komt de rest van het net.`,
+        pl: `Tak, gotując w ciągu dnia, zwiększasz autokonsumpcję. Pamiętaj jednak, że frytkownica beztłuszczowa pobiera 1,5 do 2,5 kW podczas nagrzewania: jeśli Twoja instalacja produkuje w tym momencie mniej, brakującą moc dostarcza sieć.`,
       },
     },
   ],

@@ -114,6 +114,16 @@ const uiStrings: Record<Lang, GuideUi> = {
     faqTitle: 'Veelgestelde vragen',
     bestForPrefix: 'De beste',
   },
+  pl: {
+    home: 'Strona główna',
+    guides: 'Poradniki',
+    applicableSilosTitle: 'Obszary odpowiednie dla tego profilu',
+    relatedCategoriesTitle: 'Wybrane kategorie dla tego profilu',
+    noRelated: 'Kategorie dla tego profilu pojawią się wkrótce.',
+    methodologyCta: 'Poznaj naszą metodologię',
+    faqTitle: 'Najczęstsze pytania',
+    bestForPrefix: 'Najlepszy',
+  },
 }
 
 export async function generateStaticParams() {

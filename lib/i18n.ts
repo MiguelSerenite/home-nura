@@ -15,7 +15,7 @@
  * without tripping on bundler boundaries.
  */
 
-export const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
+export const LANGUAGES = ['fr', 'en', 'de', 'es', 'it', 'nl', 'pl'] as const
 
 export type Lang = (typeof LANGUAGES)[number]
 
@@ -77,6 +77,7 @@ export const COUNTRY_LANGS: Readonly<Record<string, readonly Lang[]>> = {
   ES: ['es'],
   IT: ['it'],
   NL: ['nl'],
+  PL: ['pl'],
   GB: ['en'], IE: ['en'], US: ['en'], CA: ['en'], AU: ['en'], NZ: ['en'],
 }
 

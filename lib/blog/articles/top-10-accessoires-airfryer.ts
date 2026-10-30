@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Freidora de aire negra sobre una encimera de cocina',
         it: 'Friggitrice ad aria nera sul piano di lavoro della cucina',
         nl: 'Zwarte airfryer op een aanrecht in de keuken',
+        pl: 'Czarna frytkownica beztłuszczowa na kuchennym blacie',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Top 10 Accesorios Indispensables para Freidora de Aire en 2026',
     it: 'Top 10 Accessori Indispensabili per Friggitrice ad Aria nel 2026',
     nl: 'Top 10 Onmisbare Airfryer Accessoires in 2026',
+    pl: 'Top 10 niezbędnych akcesoriów do frytkownicy beztłuszczowej w 2026 roku',
   },
   excerpt: {
     fr: 'Découvrez les 10 accessoires qui transforment votre airfryer : papiers perforés, grilles, moules silicone, spray huile et plus. Utilité, compatibilité et conseils d\'achat.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Descubre los 10 accesorios que transforman tu freidora de aire: papeles perforados, rejillas, moldes de silicona, spray de aceite y más.',
     it: 'Scopri i 10 accessori che trasformano la tua friggitrice ad aria: fogli perforati, griglie, stampi in silicone, spray per olio e altro.',
     nl: 'Ontdek de 10 accessoires die je airfryer transformeren: geperforeerd bakpapier, rekjes, siliconenvormen, oliespray en meer.',
+    pl: 'Poznaj 10 akcesoriów, które zmieniają Twoją frytkownicę beztłuszczową: perforowane papiery, ruszty, silikonowe foremki, spray do oleju i nie tylko. Przydatność, kompatybilność i porady zakupowe.',
   },
   content: {
     fr: `<h2>Pourquoi investir dans des accessoires pour airfryer ?</h2>
@@ -679,6 +682,150 @@ export const article: BlogArticle = {
 <li><strong>Controleer vaatwasserbestendigheid</strong> per accessoire. Metalen roosters zijn meestal geschikt.</li>
 <li><strong>Vervang vellen als ze bruin worden</strong>: levensduur 20-30 gebruiken per herbruikbaar vel.</li>
 </ul>`,
+    pl: `<h2>Dlaczego warto inwestować w akcesoria do frytkownicy beztłuszczowej?</h2>
+<p>Twoja frytkownica beztłuszczowa (air fryer) jest mocna sama w sobie, ale z odpowiednimi akcesoriami staje się naprawdę wszechstronna. Od perforowanych papierów, które ułatwiają czyszczenie, po silikonowe foremki otwierające nowe możliwości kulinarne: każde dobrze dobrane akcesorium poprawia codzienne korzystanie. Wybraliśmy 10 najbardziej przydatnych akcesoriów na podstawie parametrów podanych przez producentów, niezależnych testów i zweryfikowanych opinii kupujących.</p>
+<p>Pełne wyposażenie to skromna inwestycja w porównaniu z ceną urządzenia, a wyraźnie zmienia sposób używania frytkownicy beztłuszczowej.</p>
+
+<h2>1. Perforowane papiery jednorazowe (ocena przydatności: 10/10)</h2>
+<h3>Dlaczego zajmują pierwsze miejsce</h3>
+<p>Perforowane papiery do frytkownicy beztłuszczowej to zdecydowanie najbardziej przydatne akcesorium. Wykładają dno kosza, zapobiegają przywieraniu jedzenia i wyraźnie skracają czas czyszczenia. Perforacje pozwalają gorącemu powietrzu normalnie krążyć, w przeciwieństwie do zwykłego papieru do pieczenia, który blokuje cyrkulację.</p>
+<ul>
+<li><strong>Dostępne rozmiary:</strong> okrągłe (16, 20, 23 cm) i kwadratowe (19x19, 21x21 cm)</li>
+<li><strong>Nasza rada:</strong> kup rozmiar odpowiadający Twojemu koszowi. Przed zakupem zmierz dno kosza.</li>
+<li><strong>Uwaga:</strong> nigdy nie używaj ich bez jedzenia na wierzchu, bo papier mógłby się unieść i dotknąć elementu grzejnego.</li>
+</ul>
+
+<h2>2. Ruszty i stojaki piętrowe (ocena przydatności: 9/10)</h2>
+<h3>Podwój powierzchnię gotowania</h3>
+<p>Stojaki piętrowe to najlepszy sposób na zwiększenie efektywnej pojemności frytkownicy beztłuszczowej. Układając dwa poziomy, możesz na przykład gotować warzywa na dole, a rybę na górze jednocześnie. Dla rodzin, którym kosz wydaje się nieco za mały, to rozwiązanie przed zakupem większego modelu.</p>
+<ul>
+<li><strong>Zalecany materiał:</strong> stal nierdzewna 304 z nóżkami o wysokości 3–4 cm</li>
+<li><strong>Kompatybilność:</strong> sprawdź wewnętrzną średnicę kosza (typowy wymiar: 18–20 cm)</li>
+<li><strong>Wskazówka:</strong> produkty wymagające więcej ciepła połóż na dole, bliżej elementu grzejnego</li>
+</ul>
+
+<h2>3. Wielorazowe silikonowe foremki (ocena przydatności: 9/10)</h2>
+<h3>Ekologiczna i ekonomiczna alternatywa dla papierów jednorazowych</h3>
+<p>Silikonowe foremki (często nazywane „kubeczkami” lub „wkładkami”) zastępują papiery jednorazowe w codziennym użyciu. Chronią powłokę nieprzywierającą kosza, można je myć w zmywarce i służą latami. Inwestycja zwraca się w kilka tygodni w porównaniu z papierami jednorazowymi.</p>
+<ul>
+<li><strong>Maksymalna temperatura:</strong> do 230°C dla dobrej jakości silikonu spożywczego</li>
+<li><strong>Rada zakupowa:</strong> wybieraj silikon z certyfikatem bez BPA, z bocznymi uchwytami ułatwiającymi wyjmowanie</li>
+<li><strong>Konserwacja:</strong> zmywarka lub ciepła woda z detergentem. Dobrze osusz przed schowaniem, aby uniknąć zapachów</li>
+</ul>
+
+<h2>4. Napełnialny spray do oleju (ocena przydatności: 8/10)</h2>
+<h3>Idealna dawka tłuszczu</h3>
+<p>Dobrej jakości spray do oleju pozwala nałożyć cienką, równomierną warstwę oleju na jedzenie, dla chrupiącego efektu przy minimalnej ilości tłuszczu. Zapomnij o sklepowych aerozolach w puszkach, które zawierają gazy pędne i dodatki: napełnialny spray ze szkła lub stali nierdzewnej jest znacznie lepszy.</p>
+<ul>
+<li><strong>Zalecana pojemność:</strong> 200–250 ml</li>
+<li><strong>Zalecane oleje:</strong> oliwa z oliwek, olej z awokado, olej rzepakowy (wysoka temperatura dymienia)</li>
+<li><strong>Średnie zużycie:</strong> 2–3 psiknięcia na porcję, czyli około 1–2 ml oleju</li>
+</ul>
+<p>Ze sprayem wystarczy kilka psiknięć tam, gdzie zwykle wlewa się jedną lub dwie łyżki: przy regularnym użytkowaniu przez rok ilość zaoszczędzonego oleju staje się znacząca.</p>
+
+<h2>5. Termometr z sondą o natychmiastowym odczycie (ocena przydatności: 8/10)</h2>
+<h3>Bezpieczeństwo żywności przede wszystkim</h3>
+<p>Termometr z natychmiastowym odczytem jest niezbędny, by sprawdzić, czy mięso jest wewnątrz dopieczone, bez jego rozcinania. Kurczak powinien osiągnąć 74°C wewnątrz, wieprzowina 71°C, a krwista wołowina 52°C. To także najlepszy sposób na uniknięcie przesuszenia, wroga numer jeden soczystego kurczaka.</p>
+<ul>
+<li><strong>Czas odczytu:</strong> wybieraj modele z odczytem w 2–3 sekundy</li>
+<li><strong>Dokładność:</strong> ±0,5°C w dobrych modelach, ±1°C w podstawowych</li>
+<li><strong>Funkcje dodatkowe:</strong> niektóre modele z łącznością wysyłają powiadomienie na telefon po osiągnięciu temperatury docelowej</li>
+</ul>
+
+<h2>6. Długie silikonowe szczypce (ocena przydatności: 7/10)</h2>
+<h3>Bezpiecznie obsługuj jedzenie</h3>
+<p>Długie szczypce (25–30 cm) z silikonowymi końcówkami pozwalają odwracać, potrząsać i wyjmować jedzenie z gorącego kosza bez oparzeń i bez rysowania powłoki nieprzywierającej. Klasyczne metalowe szczypce mogą uszkodzić powłokę kosza.</p>
+<ul>
+<li><strong>Zalecana długość:</strong> 28–30 cm, aby trzymać dłonie z dala od gorąca</li>
+<li><strong>Materiał:</strong> stal nierdzewna z silikonowymi końcówkami odpornymi na minimum 230°C</li>
+<li><strong>Bonus:</strong> system blokady w pozycji zamkniętej jest bardzo wygodny przy przechowywaniu</li>
+</ul>
+
+<h2>7. Perforowana płyta grillowa (ocena przydatności: 7/10)</h2>
+<h3>Idealne ślady grillowania</h3>
+<p>Płyta grillowa zmienia frytkownicę beztłuszczową w mini grill do wnętrza. Rowki pozwalają odpłynąć tłuszczowi, a jednocześnie tworzą piękne ślady grillowania na stekach, warzywach i rybach. Perforacje zapewniają optymalny obieg gorącego powietrza.</p>
+<ul>
+<li><strong>Zalecany materiał:</strong> stal nierdzewna lub emaliowane żeliwo</li>
+<li><strong>Kompatybilność:</strong> występuje w formacie okrągłym i kwadratowym, zmierz swój kosz</li>
+<li><strong>Idealna do:</strong> mielonych kotletów, eskalopków z kurczaka, plastrów bakłażana, filetów z łososia</li>
+</ul>
+
+<h2>8. Separatory do kosza (ocena przydatności: 6/10)</h2>
+<h3>Zamień pojedynczy kosz w kosz wielostrefowy</h3>
+<p>Separatory pozwalają podzielić pojedynczy kosz na 2, 3 lub 4 komory. Dzięki temu możesz gotować różne produkty jednocześnie bez mieszania smaków. To ekonomiczna alternatywa dla <a href="/pl/blog/airfryer-simple-vs-double-panier">podwójnego kosza</a>, jeśli masz model z pojedynczym koszem.</p>
+<ul>
+<li><strong>Dostępne materiały:</strong> silikon (elastyczny, łatwy do czyszczenia) lub stal nierdzewna (trwalsza)</li>
+<li><strong>Ograniczenie:</strong> nie pozwala ustawić różnych temperatur w poszczególnych strefach, w przeciwieństwie do prawdziwych podwójnych koszy</li>
+</ul>
+
+<h2>9. Szaszłyki ze stali nierdzewnej (ocena przydatności: 6/10)</h2>
+<h3>Kebaby i szaszłyki bez wysiłku</h3>
+<p>Szaszłyki ze stali nierdzewnej zaprojektowane specjalnie do frytkownicy beztłuszczowej są krótsze niż klasyczne szaszłyki do grilla (15–18 cm) i doskonale dopasowane do wymiarów kosza. Są wielorazowe, nadają się do zmywarki i nie przypalają się jak drewniane.</p>
+<ul>
+<li><strong>Zalecana długość:</strong> 15–18 cm dla standardowych koszy, 20 cm dla XL</li>
+<li><strong>Wskazówka:</strong> użyj stojaka na szaszłyki, aby utrzymać je uniesione i zapewnić równomierne gotowanie</li>
+<li><strong>Popularne przepisy:</strong> szaszłyki z marynowanego kurczaka, szaszłyki z krewetek, szaszłyki z warzyw</li>
+</ul>
+
+<h2>10. Zestaw szczotek do czyszczenia (ocena przydatności: 7/10)</h2>
+<h3>Wydłuż żywotność swojej frytkownicy beztłuszczowej</h3>
+<p>Dobry zestaw do czyszczenia zawiera miękką szczotkę do kosza, małą szczotkę do narożników i elementu grzejnego oraz nierysującą gąbkę. Regularne czyszczenie to klucz do trwałości urządzenia. Zajrzyj do naszego <a href="/pl/blog/entretien-nettoyage-airfryer">kompletnego poradnika konserwacji</a>, aby poznać najlepsze praktyki.</p>
+<ul>
+<li><strong>Idealna zawartość:</strong> długa szczotka z miękkim włosiem, wygięta szczotka do elementu grzejnego, miękka gąbka, ściereczka z mikrofibry</li>
+<li><strong>Częstotliwość:</strong> lekkie czyszczenie po każdym użyciu, dokładne co tydzień</li>
+<li><strong>Bezwzględnie unikać:</strong> metalowych druciaków, środków ścierających, zmywarki dla elementów, które się do niej nie nadają</li>
+</ul>
+
+<h2>Tabela podsumowująca 10 akcesoriów</h2>
+<table>
+<thead>
+<tr><th>Miejsce</th><th>Akcesorium</th><th>Przydatność</th><th>Priorytet zakupu</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Perforowane papiery</td><td>10/10</td><td>Natychmiast</td></tr>
+<tr><td>2</td><td>Ruszty piętrowe</td><td>9/10</td><td>Natychmiast</td></tr>
+<tr><td>3</td><td>Silikonowe foremki</td><td>9/10</td><td>Natychmiast</td></tr>
+<tr><td>4</td><td>Spray do oleju</td><td>8/10</td><td>Pierwszy tydzień</td></tr>
+<tr><td>5</td><td>Termometr z sondą</td><td>8/10</td><td>Pierwszy tydzień</td></tr>
+<tr><td>6</td><td>Silikonowe szczypce</td><td>7/10</td><td>Pierwszy miesiąc</td></tr>
+<tr><td>7</td><td>Płyta grillowa</td><td>7/10</td><td>Pierwszy miesiąc</td></tr>
+<tr><td>8</td><td>Separatory</td><td>6/10</td><td>W razie potrzeby</td></tr>
+<tr><td>9</td><td>Szaszłyki ze stali</td><td>6/10</td><td>W razie potrzeby</td></tr>
+<tr><td>10</td><td>Zestaw szczotek</td><td>7/10</td><td>Natychmiast</td></tr>
+</tbody>
+</table>
+
+<h2>Nasz polecany zestaw startowy</h2>
+<p>Jeśli właśnie kupiłeś frytkownicę beztłuszczową, oto 5 akcesoriów do kupienia w pierwszej kolejności, przy ograniczonym budżecie:</p>
+<ul>
+<li>Opakowanie perforowanych papierów</li>
+<li>Jedna wielorazowa silikonowa foremka</li>
+<li>Szklany spray do oleju</li>
+<li>Para silikonowych szczypiec</li>
+<li>Zestaw szczotek do czyszczenia</li>
+</ul>
+<p>Ten zestaw pokrywa większość codziennych potrzeb. Następnie dodaj ruszty piętrowe i termometr, zależnie od sposobu używania. Aby uniknąć <a href="/pl/blog/erreurs-courantes-airfryer">najczęstszych błędów początkujących</a>, zajrzyj także do naszego poradnika. Wszystkie nasze porady znajdziesz w <a href="/pl/guides/airfryers">kompletnym poradniku o frytkownicach beztłuszczowych</a> oraz w <a href="/pl/guides/airfryer-vs-four">porównaniu frytkownica beztłuszczowa kontra piekarnik</a>.</p>
+
+<h2>Które akcesoria wybrać w zależności od sposobu użycia?</h2>
+<table>
+<thead><tr><th>Główne zastosowanie</th><th>Akcesoria priorytetowe</th></tr></thead>
+<tbody>
+<tr><td>Codzienne gotowanie (frytki, warzywa)</td><td>Perforowane arkusze + spray do oleju</td></tr>
+<tr><td>Wypieki i desery</td><td>Silikonowa foremka + forma na keks + termometr</td></tr>
+<tr><td>Mięso i grillowanie</td><td>Podwyższony ruszt + termometr z sondą + szczypce</td></tr>
+<tr><td>Duża rodzina</td><td>Podwójny ruszt piętrowy + separator szuflady</td></tr>
+<tr><td>Suszenie owoców i warzyw</td><td>Cienkie perforowane ruszty + silikonowe arkusze</td></tr>
+</tbody>
+</table>
+
+<h2>5 wskazówek, jak wydłużyć żywotność akcesoriów</h2>
+<ul>
+<li><strong>Nigdy nie używaj metalowych przyborów</strong> na powierzchniach nieprzywierających — rysują powłokę. Wybieraj silikon lub drewno.</li>
+<li><strong>Poczekaj, aż ostygną, przed czyszczeniem</strong>: szok termiczny niszczy powłoki nieprzywierające. Odczekaj 10 minut po zakończeniu gotowania.</li>
+<li><strong>Unikaj szorstkich gąbek</strong>, nawet przy trudnych plamach. W zdecydowanej większości przypadków wystarczy całonocne moczenie w ciepłej wodzie z detergentem.</li>
+<li><strong>Sprawdzaj możliwość mycia w zmywarce</strong> dla każdego akcesorium. Metalowe ruszty zwykle się nadają, a niektóre specjalne powłoki lepiej znoszą mycie ręczne.</li>
+<li><strong>Wymieniaj arkusze do pieczenia, gdy tylko brązowieją</strong>: zniszczony arkusz może uwalniać związki w wysokiej temperaturze. Żywotność: 20–30 użyć na jeden wielorazowy arkusz.</li>
+</ul>`,
   },
   faq: [
     {
@@ -689,6 +836,7 @@ export const article: BlogArticle = {
         es: '¿Qué accesorios son realmente indispensables para una freidora de aire?',
         it: 'Quali accessori sono davvero indispensabili per una friggitrice ad aria?',
         nl: 'Welke accessoires zijn echt onmisbaar voor een airfryer?',
+        pl: 'Jakie akcesoria są naprawdę niezbędne do frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Les trois accessoires indispensables sont les papiers perforés (facilitent le nettoyage), les moules en silicone (permettent gâteaux et gratins) et un spray à huile (contrôle précis de la matière grasse). Ces trois accessoires restent peu coûteux et transforment votre utilisation quotidienne de l\'airfryer.',
@@ -697,6 +845,7 @@ export const article: BlogArticle = {
         es: 'Los tres accesorios indispensables son los papeles perforados (facilitan la limpieza), los moldes de silicona (permiten bizcochos y gratinados) y un spray de aceite (control preciso de grasa). Estos tres son económicos y transforman tu uso diario de la freidora.',
         it: 'I tre accessori indispensabili sono i fogli perforati (facilitano la pulizia), gli stampi in silicone (permettono torte e gratinati) e uno spray per olio (controllo preciso dei grassi). Questi tre sono economici e trasformano l\'uso quotidiano della friggitrice ad aria.',
         nl: 'De drie onmisbare accessoires zijn geperforeerde vellen (vergemakkelijken reiniging), siliconenvormen (maken gebak en gratins mogelijk) en een oliespray (nauwkeurige vetcontrole). Deze drie zijn betaalbaar en veranderen je dagelijks airfryergebruik.',
+        pl: 'Trzy niezbędne akcesoria to perforowane papiery (ułatwiają czyszczenie), silikonowe foremki (pozwalają przygotować ciasta i zapiekanki) oraz spray do oleju (precyzyjna kontrola ilości tłuszczu). Te trzy akcesoria są niedrogie i zmieniają codzienne korzystanie z frytkownicy beztłuszczowej.',
       },
     },
     {
@@ -707,6 +856,7 @@ export const article: BlogArticle = {
         es: '¿Los accesorios de freidora de aire son universales o específicos de cada marca?',
         it: 'Gli accessori per friggitrice ad aria sono universali o specifici per marca?',
         nl: 'Zijn airfryer-accessoires universeel of merkgebonden?',
+        pl: 'Czy akcesoria do frytkownicy beztłuszczowej są uniwersalne, czy dedykowane poszczególnym markom?',
       },
       answer: {
         fr: 'La plupart des accessoires sont universels, à condition de choisir la bonne taille. Mesurez le diamètre intérieur de votre panier et laissez 1 cm de marge. Les papiers perforés existent en tailles rondes et carrées. Les moules en silicone doivent entrer librement avec un espace pour la circulation d\'air.',
@@ -715,6 +865,7 @@ export const article: BlogArticle = {
         es: 'La mayoría de los accesorios son universales si eliges el tamaño correcto. Mide el diámetro interior de tu cesta y deja 1 cm de margen. Los papeles perforados existen en tamaños redondos y cuadrados. Los moldes de silicona deben caber libremente con espacio para la circulación del aire.',
         it: 'La maggior parte degli accessori è universale, a patto di scegliere la dimensione giusta. Misura il diametro interno del cestello e lascia 1 cm di margine. I fogli perforati esistono in formati rotondi e quadrati. Gli stampi in silicone devono entrare liberamente con spazio per il flusso d\'aria.',
         nl: 'De meeste accessoires zijn universeel, mits je de juiste maat kiest. Meet de binnendiameter van je mand en laat 1 cm ruimte. Geperforeerde vellen zijn er in ronde en vierkante maten. Siliconenvormen moeten vrij passen met ruimte eromheen voor luchtstroom.',
+        pl: 'Większość akcesoriów jest uniwersalna, o ile wybierzesz właściwy rozmiar. Zmierz wewnętrzną średnicę kosza i zostaw 1 cm zapasu. Perforowane papiery dostępne są w rozmiarach okrągłych i kwadratowych. Silikonowe foremki powinny wchodzić swobodnie, z miejscem na cyrkulację powietrza.',
       },
     },
     {
@@ -725,6 +876,7 @@ export const article: BlogArticle = {
         es: '¿Moldes de silicona o de metal: cuáles son mejores para la freidora de aire?',
         it: 'Stampi in silicone o in metallo: quali sono migliori per la friggitrice ad aria?',
         nl: 'Siliconenvormen of metalen vormen: welke zijn beter voor de airfryer?',
+        pl: 'Foremki silikonowe czy metalowe: które wybrać do frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Les moules en silicone sont préférables pour l\'airfryer : ils sont souples (démoulage facile), résistants jusqu\'à 230°C, compatibles lave-vaisselle et n\'endommagent pas le revêtement antiadhésif. Les moules en métal chauffent plus vite et donnent un meilleur brunissement, mais risquent de rayer le panier.',
@@ -733,6 +885,7 @@ export const article: BlogArticle = {
         es: 'Los moldes de silicona son preferibles para la freidora de aire: son flexibles (desmoldeo fácil), resistentes hasta 230°C, aptos para lavavajillas y no dañan el antiadherente. Los moldes de metal calientan más rápido y doran mejor, pero pueden rayar la cesta. Usa metal solo con protección.',
         it: 'Gli stampi in silicone sono preferibili per la friggitrice ad aria: flessibili (facile sformatura), resistenti fino a 230°C, lavabili in lavastoviglie e non danneggiano il rivestimento antiaderente. Gli stampi in metallo scaldano prima e dorano meglio, ma possono graffiare il cestello.',
         nl: 'Siliconenvormen zijn de voorkeur voor airfryers: flexibel (makkelijk loskomen), hittebestendig tot 230°C, vaatwasmachinebestendig en beschadigen de antiaanbaklaag niet. Metalen vormen verwarmen sneller en geven betere bruining, maar kunnen de mand bekrassen. Gebruik metaal alleen met bescherming.',
+        pl: 'Do frytkownicy beztłuszczowej lepsze są foremki silikonowe: są elastyczne (łatwe wyjmowanie ciasta), odporne do 230°C, nadają się do zmywarki i nie uszkadzają powłoki nieprzywierającej. Foremki metalowe nagrzewają się szybciej i lepiej rumienią, ale mogą porysować kosz.',
       },
     },
     {
@@ -743,6 +896,7 @@ export const article: BlogArticle = {
         es: '¿Dónde comprar accesorios para freidora de aire?',
         it: 'Dove comprare accessori per friggitrice ad aria?',
         nl: 'Waar kun je airfryer-accessoires kopen?',
+        pl: 'Gdzie kupić akcesoria do frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Amazon offre un très large choix, avec de nombreux kits complets à prix accessible. Les magasins spécialisés cuisine (Darty, Boulanger) proposent des marques premium. Évitez les kits trop bon marché avec des dizaines de pièces : la qualité est souvent médiocre.',
@@ -751,6 +905,7 @@ export const article: BlogArticle = {
         es: 'Amazon ofrece una selección muy amplia, con muchos kits completos a precio asequible. Las tiendas especializadas tienen marcas premium. Evita los kits demasiado baratos con decenas de piezas: la calidad suele ser mediocre. Mejor comprar tres a cinco accesorios esenciales de calidad.',
         it: 'Amazon offre una selezione molto ampia, con molti kit completi a prezzo accessibile. I negozi specializzati di cucina hanno marchi premium. Evita kit troppo economici con decine di pezzi: la qualità è spesso scarsa. Meglio comprare tre-cinque accessori essenziali di qualità.',
         nl: 'Amazon biedt een zeer ruime keuze, met veel betaalbare complete kits. Gespecialiseerde keukenwinkels hebben premiummerken. Vermijd te goedkope kits met tientallen stukken: de kwaliteit is vaak ondermaats. Focus op drie tot vijf essentiële accessoires van goede kwaliteit.',
+        pl: 'Amazon oferuje bardzo szeroki wybór, z wieloma kompletnymi zestawami w przystępnej cenie. Wyspecjalizowane sklepy z wyposażeniem kuchni oferują marki premium. Unikaj zbyt tanich zestawów z dziesiątkami elementów: jakość jest często mierna.',
       },
     },
     {
@@ -761,6 +916,7 @@ export const article: BlogArticle = {
         es: '¿Cómo limpiar los accesorios de la freidora de aire?',
         it: 'Come si puliscono gli accessori della friggitrice ad aria?',
         nl: 'Hoe maak je airfryer-accessoires schoon?',
+        pl: 'Jak czyścić akcesoria do frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Les moules en silicone et les grilles en acier inoxydable passent au lave-vaisselle. Pour les résidus tenaces, faites tremper 15 minutes dans de l\'eau chaude savonneuse. Les papiers perforés sont jetables. Nettoyez le spray à huile en le remplissant d\'eau chaude et en pulvérisant plusieurs fois.',
@@ -769,6 +925,7 @@ export const article: BlogArticle = {
         es: 'Los moldes de silicona y las rejillas de acero inoxidable son aptos para lavavajillas. Para residuos difíciles, remoja 15 minutos en agua caliente jabonosa. Los papeles perforados son desechables. Limpia el spray de aceite llenándolo con agua caliente y pulverizando varias veces para limpiar la boquilla.',
         it: 'Gli stampi in silicone e le griglie in acciaio inossidabile sono lavabili in lavastoviglie. Per i residui ostinati, ammollo di 15 minuti in acqua calda e sapone. I fogli perforati sono usa e getta. Pulisci lo spray per olio riempiendolo di acqua calda e spruzzando più volte per liberare l\'ugello.',
         nl: 'Siliconenvormen en roestvrijstalen rekjes zijn vaatwasmachinebestendig. Laat hardnekkige resten 15 minuten weken in warm sop. Geperforeerde vellen zijn wegwerpbaar. Maak de oliespray schoon door heet water te vullen en meerdere keren te sprayen om het mondstuk door te spoelen.',
+        pl: 'Silikonowe foremki i ruszty ze stali nierdzewnej nadają się do zmywarki. Przy trudnych zabrudzeniach namocz je na 15 minut w ciepłej wodzie z detergentem. Perforowane papiery są jednorazowe. Spray do oleju wyczyścisz, napełniając go ciepłą wodą i kilkakrotnie psikając.',
       },
     },
   ],

@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Agua clara y turquesa de una piscina con las líneas de calle visibles en el fondo',
         it: 'Acqua limpida e turchese di una piscina con le linee delle corsie visibili sul fondo',
         nl: 'Helder turquoise zwembadwater met zichtbare baanlijnen op de bodem van het bad',
+        pl: 'Przejrzysta, turkusowa woda w basenie z widocznymi liniami torów pływackich na dnie',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Piscina Conectada 2026: Guía para Automatizar el Agua, la Filtración y la Limpieza',
     it: 'Piscina Connessa 2026: Guida per Automatizzare Acqua, Filtrazione e Pulizia',
     nl: 'Slim Zwembad 2026: Gids voor Automatische Waterverzorging, Filtering en Reiniging',
+    pl: 'Inteligentny basen 2026: poradnik automatyzacji wody, filtracji i czyszczenia',
   },
   excerpt: {
     fr: 'Analyseurs d’eau Ondilo ICO Pool V2 et iopool EcO, électrolyseur Zodiac eXO iQ, robots Dolphin S300i et Beatbot AquaSense 2 Pro, pompe à vitesse variable et couverture : comment rendre sa piscine connectée en 2026, et par où commencer.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Analizadores de agua Ondilo ICO Pool V2 e iopool EcO, clorador salino Zodiac eXO iQ, robots Dolphin S300i y Beatbot AquaSense 2 Pro, bomba de velocidad variable y cubierta: cómo conectar su piscina en 2026 y por dónde empezar.',
     it: 'Analizzatori d’acqua Ondilo ICO Pool V2 e iopool EcO, elettrolizzatore a sale Zodiac eXO iQ, robot Dolphin S300i e Beatbot AquaSense 2 Pro, pompa a velocità variabile e copertura: come rendere connessa la piscina nel 2026 e da dove partire.',
     nl: 'Wateranalysers Ondilo ICO Pool V2 en iopool EcO, zoutelektrolyse Zodiac eXO iQ, robots Dolphin S300i en Beatbot AquaSense 2 Pro, toerengeregelde pomp en afdekking: zo maak je je zwembad slim in 2026, en hier begin je.',
+    pl: 'Analizatory wody Ondilo ICO Pool V2 i iopool EcO, elektrolizer soli Zodiac eXO iQ, roboty Dolphin S300i i Beatbot AquaSense 2 Pro, pompa o zmiennej prędkości i pokrywa: jak zbudować inteligentny basen w 2026 roku i od czego zacząć.',
   },
   content: {
     fr: `<p>Une piscine connectée en 2026, c’est d’abord un <strong>analyseur d’eau flottant</strong> qui mesure le pH, le pouvoir désinfectant (ORP) et la température puis vous indique quoi ajouter, ensuite un <strong>robot programmable</strong> et, pour aller plus loin, un <strong>électrolyseur ou une pompe à vitesse variable pilotables depuis le smartphone</strong>. Pour démarrer, l’<strong>Ondilo ICO Pool V2</strong> est l’analyseur le plus complet, l’<strong>iopool EcO</strong> la solution la plus simple à vivre, et le <strong>Dolphin S300i</strong> le robot le plus équilibré pour un bassin familial.</p>
@@ -613,6 +616,101 @@ export const article: BlogArticle = {
 
 <h2>Conclusie</h2>
 <p>Wil je een zwembad slim maken zonder verbouwing, begin dan met een wateranalyser: de <strong>Ondilo ICO Pool V2</strong> voor de meest complete bewaking, zeker bij zoutwater, of de <strong>iopool EcO</strong> voor het gemak van een sensor die ongeveer twee jaar niet hoeft te worden opgeladen. Voeg een programmeerbare robot toe zoals de <strong>Dolphin S300i</strong>, of de <strong>Beatbot AquaSense 2 Pro</strong> als je snoerloos wilt reinigen en het oppervlak wilt laten skimmen. Draait je zwembad op zout, dan automatiseert de <strong>Zodiac eXO iQ</strong> de behandeling en bundelt hij de bediening van je apparatuur.</p>`,
+    pl: `<p>Inteligentny basen w 2026 roku to przede wszystkim <strong>pływający analizator wody</strong>, który mierzy pH, potencjał dezynfekcyjny (ORP) i temperaturę, a potem podpowiada, co dodać; następnie <strong>programowalny robot basenowy</strong>, a na kolejnym etapie <strong>elektrolizer soli lub pompa o zmiennej prędkości sterowane ze smartfona</strong>. Na start <strong>Ondilo ICO Pool V2</strong> to najbardziej kompletny analizator, <strong>iopool EcO</strong> to rozwiązanie najprostsze w codziennym użyciu, a <strong>Dolphin S300i</strong> to najbardziej wyważony robot do rodzinnego basenu.</p>
+<p>Ten poradnik opiera się na kartach technicznych producentów, analizach prasy specjalistycznej i opiniach zweryfikowanych kupujących. Omawia każdy element (woda, uzdatnianie, filtracja, czyszczenie, pokrywa i bezpieczeństwo) i podpowiada, od czego zacząć w zależności od Twojego basenu. Szczegóły dotyczące robotów znajdziesz w naszym <a href="/pl/blog/robot-piscine-comparatif">porównaniu robotów basenowych</a>.</p>
+
+<h2>Co inteligentny basen naprawdę automatyzuje</h2>
+<h3>Monitorowanie wody</h3>
+<p>Zdrowa woda opiera się na prostej równowadze: pH utrzymywane zwykle między 7,2 a 7,6, wystarczająca ilość aktywnego środka dezynfekującego i filtracja dostosowana do temperatury. Podłączony analizator mierzy te parametry kilka razy dziennie i ostrzega, zanim woda zacznie się psuć. Zastępuje większość pasków testowych, choć nie zwalnia z okazjonalnej kontroli ręcznej.</p>
+<h3>Automatyczne uzdatnianie</h3>
+<p>Elektrolizer soli wytwarza chlor bezpośrednio z lekko zasolonej wody w basenie. W połączeniu z regulacją pH i sondą redoks (ORP) dostosowuje produkcję do rzeczywistych potrzeb. Modele z łącznością wyświetlają pomiary na telefonie i pozwalają zmieniać ustawienia zdalnie.</p>
+<h3>Filtracja</h3>
+<p>Pompa filtracyjna jest głównym odbiorcą energii elektrycznej w basenie. Pompa o zmiennej prędkości pracuje dłużej, ale wolniej, co wyraźnie zmniejsza zużycie w porównaniu z pompą o stałej prędkości. Wersje z Wi-Fi programuje się z poziomu aplikacji.</p>
+<h3>Czyszczenie</h3>
+<p>Programowalny robot czyści dno, ściany i linię wodną według harmonogramu. Aplikacja służy do uruchomienia cyklu, wyboru trybu i sprawdzenia, kiedy trzeba opróżnić filtr.</p>
+<h3>Pokrywa i oświetlenie</h3>
+<p>Zmotoryzowana pokrywa ogranicza parowanie, nocne straty ciepła i dostawanie się liści. Sterowane oświetlenie LED uzupełnia całość, by można było cieszyć się basenem wieczorem.</p>
+
+<h2>Kryteria dobrego wyboru</h2>
+<h3>Uzdatnianie Twojego basenu</h3>
+<p>Chlor, brom czy sól: najpierw sprawdź zgodność. Ondilo oferuje wersję chlor/brom i wersję solną swojego ICO Pool V2; iopool deklaruje zgodność z chlorem, bromem, aktywnym tlenem i uzdatnianiem UV. Elektrolizer dotyczy natomiast tylko basenów z wodą słoną.</p>
+<h3>Łączność przy basenie</h3>
+<p>Wi-Fi domowe często słabo sięga do końca ogrodu. Niektóre analizatory korzystają z bramki umieszczonej między domem a basenem (iopool), inne łączą się bezpośrednio przez Wi-Fi 2,4 GHz, z Bluetoothem jako uzupełnieniem (Ondilo). Przed zakupem sprawdź zasięg przy basenie albo przewidź zewnętrzny wzmacniacz sygnału.</p>
+<h3>Sondy i akumulator</h3>
+<p>Sondy pH i ORP z czasem się zużywają: sprawdź, czy da się je wymienić i jak rozwiązano zasilanie. ICO Pool V2 ładuje się przez USB na początku sezonu, a jego sondy są wyjmowane; iopool EcO działa na nieładowalnej baterii przewidzianej na około dwa lata, po czym wymienia się moduł.</p>
+<h3>Jakość zaleceń</h3>
+<p>Sens analizatora tkwi w jego poradach: jaki środek dodać, w jakiej ilości i kiedy wydłużyć filtrację. Sprawdź też, czy aplikacja jest bezpłatna, czy niektóre funkcje są płatne. iopool podkreśla aplikację bez abonamentu.</p>
+<h3>Ekosystem</h3>
+<p>Jeśli zaczynasz od zera, pozostanie w jednej linii (elektrolizer, pompa i robot jednego producenta) pozwala sterować wszystkim z jednej aplikacji. Jeśli pomieszczenie techniczne jest już wyposażone, pływający analizator dodasz bez żadnych prac.</p>
+
+<h2>Polecany sprzęt na 2026 rok</h2>
+<h3>1. Ondilo ICO Pool V2: najbardziej kompletny analizator</h3>
+<p><strong>Ondilo ICO Pool V2</strong> to pływający analizator zaprojektowany przez francuską firmę. Co godzinę mierzy pH, ORP i temperaturę wody; wersja solna śledzi też przewodność, przydatną do kontroli zasolenia. Jego sondy są wyjmowane do konserwacji, komunikuje się przez Wi-Fi 2,4 GHz i Bluetooth o niskim zużyciu energii, a ładowalny akumulator litowo-jonowy ma wystarczyć na cały sezon. Obudowa jest deklarowana jako IP68, z 2-letnią gwarancją wraz z sondami. Aplikacja przewiduje zmiany wody i formułuje zalecenia dozowania tylko wtedy, gdy są potrzebne.</p>
+<p><strong>Mocne strony:</strong> spersonalizowane zalecenia, dedykowana wersja do basenów solnych, brak bramki do instalacji. <strong>Ograniczenia:</strong> najwyższa półka wśród prezentowanych analizatorów; Wi-Fi musi sięgać basenu. <strong>Dla kogo:</strong> właściciele, którzy chcą dokładnego monitoringu, także z elektrolizerem.</p>
+
+<h3>2. iopool EcO: najprostszy w użyciu</h3>
+<p><strong>iopool EcO</strong> to pływający krążek o średnicy około 22 cm. Trzy czujniki mierzą temperaturę, pH i ORP, a dane są przesyłane mniej więcej co 15 minut przez bramkę Wi-Fi, którą należy umieścić między domem a basenem. Bateria nie jest ładowalna: ma wystarczyć na około dwa lata bez ładowania i kalibracji, a potem wymienia się moduł. Aplikacja, bezpłatna i bez abonamentu, oblicza ilość środka do dodania.</p>
+<p><strong>Mocne strony:</strong> brak ładowania i kalibracji, bramka poprawiająca zasięg, szeroka zgodność. <strong>Ograniczenia:</strong> moduł do wymiany po około dwóch latach; brak pomiaru zasolenia. <strong>Dla kogo:</strong> pierwszy krok w stronę inteligentnego basenu, w najlepszym stosunku jakości do ceny.</p>
+
+<h3>3. Zodiac eXO iQ: zautomatyzowane uzdatnianie solą</h3>
+<p><strong>Zodiac eXO iQ</strong> to elektrolizer soli z wbudowanym Wi-Fi, przewidziany w zależności od wersji do basenów do 160 m³. Z dodatkowymi modułami pH Link lub Dual Link automatycznie reguluje pH i produkcję chloru na podstawie pomiaru redoks. W aplikacji producenta śledzisz jakość wody i możesz sterować innymi zgodnymi urządzeniami, takimi jak pompa filtracyjna, ogrzewanie czy oświetlenie. Zodiac deklaruje elektrodę z 3-letnią gwarancją, a wersja eXO iQ LS jest przeznaczona do wody o niskim zasoleniu.</p>
+<p><strong>Mocne strony:</strong> naprawdę zautomatyzowane uzdatnianie, centralizacja urządzeń, marka bardzo obecna u specjalistów od basenów. <strong>Ograniczenia:</strong> tylko do basenów solnych; montaż na obiegu hydraulicznym, najlepiej przez fachowca. <strong>Dla kogo:</strong> baseny solne lub właściciele gotowi przejść na sól, by nie dozować chloru ręcznie.</p>
+
+<h3>4. Dolphin S300i: wzorcowy robot przewodowy</h3>
+<p><strong>Dolphin S300i</strong> firmy Maytronics czyści dno, ściany i linię wodną basenów do 12 m, dwiema aktywnymi szczotkami i wielowarstwowym filtrem dostępnym od góry. Jego 18-metrowy kabel ma przegub przeciwskrętny, domyślny cykl trwa 2 godziny, a aplikacja MyDolphin Plus pozwala uruchamiać i programować cykle. Maytronics deklaruje 3-letnią gwarancję.</p>
+<p><strong>Mocne strony:</strong> brak akumulatora do obsługi, filtr łatwy do opróżnienia, rozbudowana sieć sprzedawców. <strong>Ograniczenia:</strong> kabel do wyciągania i zwijania, brak zbierania zanieczyszczeń z powierzchni. <strong>Dla kogo:</strong> klasyczne baseny zakopane, czyszczone kilka razy w tygodniu.</p>
+
+<h3>5. Beatbot AquaSense 2 Pro: najbardziej kompletny robot bezprzewodowy</h3>
+<p><strong>Beatbot AquaSense 2 Pro</strong> czyści dno, ściany i linię wodną, zbiera zanieczyszczenia z powierzchni i potrafi klarować wodę dzięki naturalnemu środkowi, który zbija drobne cząstki. Jego akumulator ma wystarczyć na do 5 godzin pracy na dnie i ścianach, obejmuje do 360 m², nawiguje za pomocą czujników ultradźwiękowych i jest sterowany przez Wi-Fi lub Bluetooth.</p>
+<p><strong>Mocne strony:</strong> brak kabla, zbieranie zanieczyszczeń z powierzchni, duża autonomia. <strong>Ograniczenia:</strong> model premium, ciężki robot do wyciągania z wody, materiał eksploatacyjny do klarowania do dokupienia. <strong>Dla kogo:</strong> duże baseny otoczone drzewami. Pozostałe opcje bezprzewodowe opisano w naszym <a href="/pl/blog/robot-piscine-comparatif">porównaniu robotów basenowych</a>.</p>
+
+<h2>Pompa o zmiennej prędkości: inteligentna filtracja</h2>
+<p>Pompa pracuje kilka godzin dziennie przez cały sezon: to ona najmocniej obciąża rachunek za prąd. Pompa o zmiennej prędkości pozwala filtrować długo na niskich obrotach, przełączyć się na wysokie obroty przy płukaniu filtra lub pracy robota i zmniejszyć hałas. Modele z łącznością, jak Zodiac FloPro e30iQ z wbudowanym Wi-Fi, programuje się z poziomu aplikacji.</p>
+<p>Wymiana pompy dotyczy obiegu hydraulicznego i rozdzielnicy elektrycznej: powierz ją specjaliście od basenów lub wykwalifikowanemu elektrykowi, sprawdzając zgodność z filtrem i rurami. Jeśli zostawiasz obecną pompę, programowalny sterownik filtracji zamontowany przez fachowca pozwala już dostosować czas filtracji do temperatury wody.</p>
+
+<h2>Pokrywa, alarm i bezpieczeństwo</h2>
+<p>We Francji każdy prywatny basen zakopany lub półzakopany musi mieć co najmniej jedno znormalizowane zabezpieczenie: ogrodzenie (NF P90-306), alarm (NF P90-307), pokrywę (NF P90-308) lub wiatę (NF P90-309). Zgodna pokrywa automatyczna może pełnić tę rolę, pod warunkiem że jest zamknięta i zablokowana, gdy basen nie jest nadzorowany. Przepisy w innych krajach mogą się różnić: sprawdź wymagania obowiązujące w Twoim miejscu. Niektóre modele zmotoryzowane steruje się zdalnie lub włącza do instalacji inteligentnego domu, ale podczas otwierania i zamykania zawsze miej basen na oku.</p>
+<p>Żadne urządzenie nie zastąpi nadzoru dorosłego: trzymaj dzieci w zasięgu wzroku przy wodzie, nawet z alarmem lub pokrywą. Pod względem konserwacji pokrywa ogranicza parowanie, zatrzymuje ciepło w nocy i zmniejsza dopływ liści i owadów, a więc zużycie środków.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Urządzenie</th><th>Rola</th><th>Pomiary lub strefy</th><th>Łączność</th><th>Idealne dla</th></tr>
+</thead>
+<tbody>
+<tr><td>Ondilo ICO Pool V2</td><td>Pływający analizator</td><td>pH, ORP, temperatura (+ przewodność w wersji solnej)</td><td>Wi-Fi 2,4 GHz, Bluetooth</td><td>Dokładny monitoring, baseny solne</td></tr>
+<tr><td>iopool EcO</td><td>Pływający analizator</td><td>pH, ORP, temperatura</td><td>Bramka Wi-Fi</td><td>Pierwszy sprzęt, bez ładowania</td></tr>
+<tr><td>Zodiac eXO iQ</td><td>Elektrolizer soli</td><td>Produkcja chloru; pH i ORP z modułami</td><td>Wbudowane Wi-Fi</td><td>Zautomatyzowane uzdatnianie</td></tr>
+<tr><td>Dolphin S300i</td><td>Robot przewodowy</td><td>Dno, ściany, linia wodna</td><td>MyDolphin Plus</td><td>Baseny do 12 m</td></tr>
+<tr><td>Beatbot AquaSense 2 Pro</td><td>Robot bezprzewodowy</td><td>Dno, ściany, linia wodna, powierzchnia</td><td>Wi-Fi, Bluetooth</td><td>Duże baseny wśród drzew</td></tr>
+</tbody>
+</table>
+<p>Dostępne modele znajdziesz w naszej kategorii <a href="/pl/outdoor-connecte/robots-piscine">roboty basenowe</a>.</p>
+
+<h2>Od czego zacząć?</h2>
+<ol>
+<li><strong>Analizator wody:</strong> to sprzęt, który najbardziej zmienia codzienność, bez żadnych prac. Pozwala uniknąć pasków testowych i dozowania na ślepo.</li>
+<li><strong>Programowalny robot:</strong> eliminuje najczęstszy obowiązek.</li>
+<li><strong>Filtracja:</strong> pompa o zmiennej prędkości lub programowanie według temperatury, do rozważenia przy wymianie.</li>
+<li><strong>Automatyczne uzdatnianie:</strong> elektrolizer i regulacja pH, jeśli masz basen solny lub jesteś gotów na niego przejść.</li>
+<li><strong>Pokrywa i oświetlenie:</strong> większy projekt, często realizowany przy remoncie.</li>
+</ol>
+
+<h2>Błędy, których warto uniknąć</h2>
+<ul>
+<li><strong>Kupno analizatora niezgodnego z Twoim uzdatnianiem:</strong> u niektórych producentów wersja solna i wersja chlorowa nie są zamienne.</li>
+<li><strong>Zaniedbanie Wi-Fi przy basenie:</strong> bez stabilnego połączenia alerty nie dotrą.</li>
+<li><strong>Poleganie wyłącznie na ORP:</strong> to wskaźnik potencjału dezynfekcyjnego, a nie dokładne dozowanie chloru. Okazjonalna kontrola ręczna (wolny chlor, stabilizator, zasadowość TAC) nadal się przydaje.</li>
+<li><strong>Zapomnienie o sondach zimą:</strong> wyjmij analizator z wody po sezonie i przechowuj go zgodnie z zaleceniami producenta.</li>
+<li><strong>Mylenie automatyzacji z bezpieczeństwem:</strong> aplikacja nie zastępuje ani zgodnego zabezpieczenia, ani nadzoru nad dziećmi.</li>
+</ul>
+
+<h2>Instalacja i bezpieczeństwo elektryczne</h2>
+<p>Każde urządzenie podłączone w pobliżu wody musi być zasilane z obwodu chronionego wyłącznikiem różnicowoprądowym 30 mA. Zasilacz robota umieszcza się z dala od basenu, w miejscu osłoniętym przed zachlapaniem, w odległości wskazanej w instrukcji. Elektrolizer, pompa, sterownik filtracji i oświetlenie podwodne podłącza się w pomieszczeniu technicznym: powierz te prace wykwalifikowanemu elektrykowi lub specjaliście od basenów. Nigdy nie kąp się, gdy robot pracuje.</p>
+<p>Aby wyposażyć resztę terenu na zewnątrz, zajrzyj do naszego <a href="/pl/blog/guide-jardin-connecte-2026">poradnika o inteligentnym ogrodzie</a>.</p>
+
+<h2>Werdykt</h2>
+<p>Aby zbudować inteligentny basen bez prac, zacznij od analizatora wody: <strong>Ondilo ICO Pool V2</strong> dla najbardziej kompletnego monitoringu, zwłaszcza przy soli, albo <strong>iopool EcO</strong> dla prostoty czujnika bez ładowania przez około dwa lata. Dodaj programowalny robot, taki jak <strong>Dolphin S300i</strong>, albo <strong>Beatbot AquaSense 2 Pro</strong>, jeśli chcesz mieć urządzenie bezprzewodowe i zbieranie zanieczyszczeń z powierzchni. Wreszcie, jeśli Twój basen jest solny, <strong>Zodiac eXO iQ</strong> automatyzuje uzdatnianie i centralizuje sterowanie urządzeniami.</p>`,
   },
   faq: [
     {
@@ -623,6 +721,7 @@ export const article: BlogArticle = {
         es: '¿Un analizador de agua conectado sustituye a las tiras y los kits de análisis?',
         it: 'Un analizzatore d’acqua connesso sostituisce strisce e kit di analisi?',
         nl: 'Vervangt een slimme wateranalyser teststrips en meetsets?',
+        pl: 'Czy podłączony analizator wody zastępuje paski testowe i zestawy do analizy?',
       },
       answer: {
         fr: 'Pour le suivi quotidien, en grande partie. Il mesure le pH, l’ORP et la température en continu et vous prévient en cas de dérive. L’ORP indique le pouvoir désinfectant, pas la quantité exacte de chlore : un contrôle manuel ponctuel du chlore libre, du stabilisant et du TAC reste utile, surtout en début de saison.',
@@ -631,6 +730,7 @@ export const article: BlogArticle = {
         es: 'Para el seguimiento diario, en gran parte sí. Mide pH, ORP y temperatura de forma continua y avisa si algo se desvía. El ORP indica el poder desinfectante, no la cantidad exacta de cloro: un control manual ocasional del cloro libre, el estabilizante y la alcalinidad sigue siendo útil, sobre todo al inicio de la temporada.',
         it: 'Per il controllo quotidiano, in gran parte sì. Misura pH, ORP e temperatura in continuo e vi avvisa in caso di scostamenti. L’ORP indica il potere disinfettante, non la quantità esatta di cloro: un controllo manuale occasionale di cloro libero, stabilizzante e alcalinità resta utile, soprattutto a inizio stagione.',
         nl: 'Voor de dagelijkse controle grotendeels wel. Hij meet pH, ORP en temperatuur continu en waarschuwt bij afwijkingen. ORP geeft het desinfecterend vermogen aan, niet de exacte hoeveelheid chloor: af en toe handmatig vrij chloor, stabilisator en alkaliteit meten blijft nuttig, zeker aan het begin van het seizoen.',
+        pl: 'W codziennym monitoringu w dużej mierze tak. Mierzy pH, ORP i temperaturę w sposób ciągły i ostrzega o odchyleniach. ORP wskazuje potencjał dezynfekcyjny, a nie dokładną ilość chloru: okazjonalna ręczna kontrola wolnego chloru, stabilizatora i zasadowości TAC nadal się przydaje, zwłaszcza na początku sezonu.',
       },
     },
     {
@@ -641,6 +741,7 @@ export const article: BlogArticle = {
         es: 'Ondilo ICO Pool V2 o iopool EcO: ¿cuál elegir?',
         it: 'Ondilo ICO Pool V2 o iopool EcO: quale scegliere?',
         nl: 'Ondilo ICO Pool V2 of iopool EcO: welke kies je?',
+        pl: 'Ondilo ICO Pool V2 czy iopool EcO: który wybrać?',
       },
       answer: {
         fr: 'L’Ondilo ICO Pool V2 convient si vous voulez le suivi le plus complet ou si votre piscine est au sel, grâce à sa version dédiée qui suit la conductivité. L’iopool EcO convient si vous cherchez la simplicité : pas de recharge ni de calibrage pendant environ deux ans, une passerelle pour la portée Wi-Fi et une application sans abonnement.',
@@ -649,6 +750,7 @@ export const article: BlogArticle = {
         es: 'El Ondilo ICO Pool V2 es para quien quiere el seguimiento más completo o tiene piscina de sal, gracias a su versión específica que mide la conductividad. El iopool EcO es para quien busca sencillez: sin cargas ni calibraciones durante unos dos años, una pasarela para el alcance wifi y una app sin suscripción.',
         it: 'L’Ondilo ICO Pool V2 è indicato se volete il monitoraggio più completo o avete una piscina a sale, grazie alla versione dedicata che rileva la conducibilità. L’iopool EcO è indicato se cercate semplicità: niente ricariche né calibrazioni per circa due anni, un gateway per la portata Wi-Fi e un’app senza abbonamento.',
         nl: 'Kies de Ondilo ICO Pool V2 als je de meest complete bewaking wilt of een zoutwaterbad hebt, dankzij de aparte versie die de geleidbaarheid meet. Kies de iopool EcO als je eenvoud zoekt: ongeveer twee jaar geen opladen of kalibreren, een gateway voor het wifibereik en een app zonder abonnement.',
+        pl: 'Ondilo ICO Pool V2 będzie dobry, jeśli chcesz najbardziej kompletnego monitoringu lub masz basen solny, dzięki dedykowanej wersji śledzącej przewodność. iopool EcO będzie dobry, jeśli szukasz prostoty: brak ładowania i kalibracji przez około dwa lata, bramka poprawiająca zasięg Wi-Fi i aplikacja bez abonamentu.',
       },
     },
     {
@@ -659,6 +761,7 @@ export const article: BlogArticle = {
         es: '¿Cuántas horas al día debe funcionar la filtración?',
         it: 'Quante ore al giorno deve funzionare la filtrazione?',
         nl: 'Hoeveel uur per dag moet de filtering draaien?',
+        pl: 'Ile godzin powinna pracować filtracja?',
       },
       answer: {
         fr: 'La règle courante consiste à filtrer, en heures, la moitié de la température de l’eau : environ 13 h par jour pour une eau à 26 °C. Avec une pompe à vitesse variable, on filtre plus longtemps à bas régime. Un analyseur connecté aide à ajuster cette durée selon l’évolution réelle de l’eau.',
@@ -667,6 +770,7 @@ export const article: BlogArticle = {
         es: 'La regla habitual es filtrar tantas horas como la mitad de la temperatura del agua en °C: unas 13 horas al día con el agua a 26 °C. Con una bomba de velocidad variable se filtra más tiempo a bajo régimen. Un analizador conectado ayuda a ajustar el tiempo según la evolución real del agua.',
         it: 'La regola più diffusa è filtrare per un numero di ore pari alla metà della temperatura dell’acqua in °C: circa 13 ore al giorno con acqua a 26 °C. Con una pompa a velocità variabile si filtra più a lungo a basso regime. Un analizzatore connesso aiuta ad adeguare la durata all’evoluzione reale dell’acqua.',
         nl: 'De gangbare vuistregel is filteren gedurende de helft van de watertemperatuur in °C, in uren: ongeveer 13 uur per dag bij water van 26 °C. Met een toerengeregelde pomp filter je langer op laag toerental. Een slimme analyser helpt de filtertijd af te stemmen op hoe het water zich echt ontwikkelt.',
+        pl: 'Powszechna zasada mówi, by filtrować tyle godzin, ile wynosi połowa temperatury wody: około 13 godzin dziennie przy wodzie o temperaturze 26 °C. Przy pompie o zmiennej prędkości filtruje się dłużej na niskich obrotach. Podłączony analizator pomaga dostosować ten czas do rzeczywistych zmian wody.',
       },
     },
     {
@@ -677,6 +781,7 @@ export const article: BlogArticle = {
         es: '¿Hace falta un clorador salino para tener una piscina conectada?',
         it: 'Serve un elettrolizzatore a sale per avere una piscina connessa?',
         nl: 'Heb je zoutelektrolyse nodig voor een slim zwembad?',
+        pl: 'Czy do inteligentnego basenu potrzebny jest elektrolizer soli?',
       },
       answer: {
         fr: 'Non. Un analyseur flottant et un robot programmable suffisent pour automatiser le suivi de l’eau et le nettoyage d’une piscine au chlore. L’électrolyseur, comme le Zodiac eXO iQ, va plus loin en produisant le chlore automatiquement, mais il implique de passer au sel et une installation sur le circuit hydraulique.',
@@ -685,6 +790,7 @@ export const article: BlogArticle = {
         es: 'No. Un analizador flotante y un robot programable bastan para automatizar el control del agua y la limpieza de una piscina de cloro. Un clorador salino como el Zodiac eXO iQ va más allá y produce el cloro automáticamente, pero supone pasarse a la sal e instalarlo en el circuito hidráulico.',
         it: 'No. Un analizzatore galleggiante e un robot programmabile bastano per automatizzare il controllo dell’acqua e la pulizia di una piscina a cloro. Un elettrolizzatore come lo Zodiac eXO iQ va oltre producendo il cloro in automatico, ma richiede il passaggio al sale e l’installazione sul circuito idraulico.',
         nl: 'Nee. Een drijvende analyser en een programmeerbare robot volstaan om de waterbewaking en reiniging van een chloorbad te automatiseren. Zoutelektrolyse zoals de Zodiac eXO iQ gaat verder door chloor automatisch te maken, maar vraagt een overstap op zout en inbouw in het hydraulische circuit.',
+        pl: 'Nie. Pływający analizator i programowalny robot wystarczą, by zautomatyzować monitoring wody i czyszczenie basenu chlorowanego. Elektrolizer, jak Zodiac eXO iQ, idzie dalej, produkując chlor automatycznie, ale wymaga przejścia na sól i montażu na obiegu hydraulicznym.',
       },
     },
     {
@@ -695,6 +801,7 @@ export const article: BlogArticle = {
         es: '¿Qué dispositivos de seguridad son obligatorios para una piscina en Francia?',
         it: 'Quali dispositivi di sicurezza sono obbligatori per una piscina in Francia?',
         nl: 'Welke veiligheidsvoorzieningen zijn in Frankrijk verplicht voor een zwembad?',
+        pl: 'Jakie zabezpieczenia są obowiązkowe dla basenu we Francji?',
       },
       answer: {
         fr: 'Toute piscine privée enterrée ou semi-enterrée doit disposer d’au moins un dispositif normalisé : barrière (NF P90-306), alarme (NF P90-307), couverture (NF P90-308) ou abri (NF P90-309). Ces équipements ne remplacent pas la surveillance constante des enfants par un adulte.',
@@ -703,6 +810,7 @@ export const article: BlogArticle = {
         es: 'En Francia, toda piscina privada enterrada o semienterrada debe tener al menos un dispositivo normalizado: barrera (NF P90-306), alarma (NF P90-307), cubierta (NF P90-308) o refugio (NF P90-309). En España la normativa depende de la comunidad autónoma. Ninguno sustituye la vigilancia constante de los niños.',
         it: 'In Francia ogni piscina privata interrata o seminterrata deve avere almeno un dispositivo normato: recinzione (NF P90-306), allarme (NF P90-307), copertura (NF P90-308) o riparo (NF P90-309). In Italia valgono le norme regionali e comunali. Nessuno di questi sostituisce la sorveglianza costante dei bambini.',
         nl: 'In Frankrijk moet elk privézwembad dat (half) in de grond ligt minstens één genormeerde voorziening hebben: hek (NF P90-306), alarm (NF P90-307), afdekking (NF P90-308) of overkapping (NF P90-309). In andere landen gelden eigen regels. Geen enkele voorziening vervangt voortdurend toezicht op kinderen.',
+        pl: 'Każdy prywatny basen zakopany lub półzakopany musi mieć co najmniej jedno znormalizowane zabezpieczenie: ogrodzenie (NF P90-306), alarm (NF P90-307), pokrywę (NF P90-308) lub wiatę (NF P90-309). Te urządzenia nie zastępują stałego nadzoru dorosłego nad dziećmi.',
       },
     },
     {
@@ -713,6 +821,7 @@ export const article: BlogArticle = {
         es: '¿Qué hacer con el analizador conectado en invierno?',
         it: 'Cosa fare dell’analizzatore connesso in inverno?',
         nl: 'Wat doe je in de winter met de slimme analyser?',
+        pl: 'Co zrobić z podłączonym analizatorem zimą?',
       },
       answer: {
         fr: 'Sortez-le de l’eau à l’hivernage, rincez-le à l’eau claire et stockez-le à l’abri du gel en suivant la notice, notamment pour la protection des sondes. L’Ondilo ICO Pool V2 se recharge en début de saison suivante ; l’iopool EcO n’a pas de recharge à prévoir avant le remplacement de son module.',
@@ -721,6 +830,7 @@ export const article: BlogArticle = {
         es: 'Sáquelo del agua al invernar la piscina, enjuáguelo con agua limpia y guárdelo protegido de las heladas según el manual, sobre todo para proteger las sondas. El Ondilo ICO Pool V2 se recarga al inicio de la temporada siguiente; el iopool EcO no necesita carga hasta que se cambia el módulo.',
         it: 'Toglietelo dall’acqua al momento dello svernamento, sciacquatelo con acqua pulita e conservatelo al riparo dal gelo seguendo il manuale, soprattutto per proteggere le sonde. L’Ondilo ICO Pool V2 si ricarica all’inizio della stagione successiva; l’iopool EcO non va ricaricato fino alla sostituzione del modulo.',
         nl: 'Haal hem uit het water als je het zwembad winterklaar maakt, spoel hem af met schoon water en bewaar hem vorstvrij volgens de handleiding, vooral ter bescherming van de sondes. De Ondilo ICO Pool V2 laad je aan het begin van het volgende seizoen op; de iopool EcO hoeft niet te worden opgeladen tot de module wordt vervangen.',
+        pl: 'Wyjmij go z wody przy zimowaniu basenu, opłucz czystą wodą i przechowuj w miejscu chronionym przed mrozem, zgodnie z instrukcją, zwłaszcza w kwestii ochrony sond. Ondilo ICO Pool V2 ładuje się na początku kolejnego sezonu; iopool EcO nie wymaga ładowania aż do wymiany modułu.',
       },
     },
   ],

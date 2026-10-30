@@ -72,6 +72,14 @@ const pageContent: Record<string, QuizPageContent> = {
     breadcrumb: 'Quiz',
     breadcrumbRoot: 'Slimme keuken',
   },
+  pl: {
+    kicker: 'Quiz inteligentnej kuchni',
+    title: 'Od czego zacząć z inteligentną kuchnią?',
+    subtitle: 'Trafna rekomendacja w 2 pytaniach',
+    intro: 'Odpowiedz na 2 proste pytania i dowiedz się, która kategoria da Ci w domu najwięcej — wraz z 3 wybranymi modelami gotowymi do zakupu.',
+    breadcrumb: 'Quiz',
+    breadcrumbRoot: 'Inteligentna kuchnia',
+  },
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {

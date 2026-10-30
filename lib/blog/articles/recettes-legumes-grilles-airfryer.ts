@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Freidora de aire negra sobre una encimera de madera junto a un cuenco de tomates',
         it: 'Friggitrice ad aria nera su un piano di lavoro in legno accanto a una ciotola di pomodori',
         nl: 'Zwarte airfryer op een houten aanrecht naast een schaal tomaten',
+        pl: 'Czarna frytkownica beztłuszczowa na drewnianym blacie obok miski z pomidorami',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Recetas de Verduras a la Parrilla en Freidora de Aire: 10 Verduras Perfectamente Cocinadas',
     it: 'Ricette di Verdure Grigliate nella Friggitrice ad Aria: 10 Verdure Perfettamente Cotte',
     nl: 'Gegrilde Groenten uit de Airfryer: 10 Perfect Gegaarde Groenten',
+    pl: 'Przepisy na grillowane warzywa we frytkownicy beztłuszczowej: 10 idealnie przygotowanych warzyw',
   },
   excerpt: {
     fr: 'Découvrez comment griller 10 légumes à la perfection dans votre airfryer : brocoli, chou-fleur, courgettes, poivrons, choux de Bruxelles, carottes, asperges, champignons, aubergines et haricots verts. Tableau complet des temps et températures.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Descubre cómo asar 10 verduras a la perfección en tu freidora de aire: brócoli, coliflor, calabacín, pimientos, coles de Bruselas, zanahorias, espárragos, champiñones, berenjena y judías verdes.',
     it: 'Scopri come grigliare 10 verdure alla perfezione nella friggitrice ad aria: broccoli, cavolfiore, zucchine, peperoni, cavolini di Bruxelles, carote, asparagi, funghi, melanzane e fagiolini.',
     nl: 'Ontdek hoe je 10 groenten perfect grilt in je airfryer: broccoli, bloemkool, courgette, paprika, spruitjes, wortels, asperges, champignons, aubergine en sperziebonen.',
+    pl: 'Dowiedz się, jak idealnie zrumienić 10 warzyw we frytkownicy beztłuszczowej: brokuły, kalafior, cukinię, papryki, brukselkę, marchew, szparagi, pieczarki, bakłażany i fasolkę szparagową. Pełna tabela czasów i temperatur.',
   },
   content: {
     fr: `<h2>Introduction</h2>
@@ -1068,6 +1071,259 @@ export const article: BlogArticle = {
 <li><strong>Herfst mix:</strong> wortels + pompoen + rode uien. 180°C, 20 min. Zoet-hartige smaken.</li>
 <li><strong>Aziatische mix:</strong> pak choi + edamame + shiitake + sesam. 190°C, 10 min. Afmaken met sojasaus.</li>
 </ul>`,
+    pl: `<h2>Wstęp</h2>
+<p>Frytkownica beztłuszczowa to znakomite narzędzie do przygotowywania warzyw. Krążące gorące powietrze o wysokiej temperaturze tworzy <strong>powierzchniową karmelizację</strong>, która wzmacnia naturalne smaki, a przy tym zachowuje składniki odżywcze znacznie lepiej niż gotowanie we wrzątku. W zaledwie 10-20 minut dostajesz grillowane warzywa tak smaczne jak z piekarnika, ale z praktycznie zerowym czasem nagrzewania i mniejszym zużyciem energii.</p>
+<p>W tym kompletnym poradniku opisujemy idealne przygotowanie <strong>10 popularnych warzyw</strong> z orientacyjnymi temperaturami, czasami i polecanymi przyprawami. Niezależnie od tego, czy chcesz jeść <a href="/pl/blog/cuisiner-healthy-airfryer">zdrowiej</a>, czy przygotowywać posiłki na cały tydzień z wyprzedzeniem w ramach <a href="/pl/blog/meal-prep-airfryer-semaine">meal prepu</a>, te przepisy staną się Twoimi niezbędnikami.</p>
+
+<h2>Złote zasady dla warzyw we frytkownicy beztłuszczowej</h2>
+<p>Zanim przejdziemy do poszczególnych przepisów, oto uniwersalne zasady, które dotyczą wszystkich warzyw:</p>
+<ul>
+<li><strong>Pokrój w równe kawałki</strong> — jednakowe rozmiary zapewniają równomierne smażenie.</li>
+<li><strong>Osusz warzywa</strong> — wilgoć utrudnia zrumienienie. Po umyciu dobrze odsącz.</li>
+<li><strong>Użyj mało oleju</strong> — 1-2 łyżeczki na porcję wystarczą, by były chrupiące.</li>
+<li><strong>Nie przeładowuj koszyka</strong> — tylko jedna warstwa, aby powietrze mogło krążyć.</li>
+<li><strong>Wstrząśnij w połowie smażenia</strong> — dla równomiernego zrumienienia ze wszystkich stron.</li>
+</ul>
+
+<h2>1. Brokuły</h2>
+<h3>Składniki</h3>
+<ul>
+<li>300 g brokułów podzielonych na małe różyczki</li>
+<li>1 łyżka oliwy z oliwek (15 ml)</li>
+<li>2 posiekane ząbki czosnku</li>
+<li>Sól i pieprz</li>
+<li>Skórka starta z pół cytryny (opcjonalnie)</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Umyj i osusz brokuły. Podziel na różyczki o wielkości <strong>3-4 cm</strong>.</li>
+<li>Wymieszaj z oliwą, czosnkiem, solą i pieprzem.</li>
+<li>Rozgrzej frytkownicę do <strong>190 °C przez 3 minuty</strong>.</li>
+<li>Smaż w <strong>190 °C przez 8-10 minut</strong>, wstrząsając koszykiem w połowie czasu.</li>
+<li>Czubki powinny być lekko złociste i chrupiące, a łodygi nadal jędrne.</li>
+</ol>
+<h3>Wskazówki kucharza</h3>
+<p>Brokuły z frytkownicy beztłuszczowej to odkrycie — czubki stają się chrupiące jak chipsy, a łodyga pozostaje miękka. Dodaj skórkę z cytryny po wyjęciu dla odrobiny świeżości. Odrobina soku z cytryny i szczypta parmezanu doskonale wykańczają danie.</p>
+
+<h2>2. Kalafior</h2>
+<h3>Składniki</h3>
+<ul>
+<li>400 g kalafiora w różyczkach</li>
+<li>1 łyżka oliwy z oliwek (15 ml)</li>
+<li>1 łyżeczka kurkumy</li>
+<li>½ łyżeczki mielonego kminku rzymskiego</li>
+<li>Sól i pieprz</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Pokrój na różyczki o wielkości około <strong>3 cm</strong>.</li>
+<li>Wymieszaj z oliwą, kurkumą, kminkiem, solą i pieprzem.</li>
+<li>Smaż w <strong>200 °C przez 12-15 minut</strong>, wstrząsając w połowie czasu.</li>
+<li>Brzegi powinny być mocno złociste i skarmelizowane.</li>
+</ol>
+<h3>Wskazówki kucharza</h3>
+<p>Pieczony kalafior rozwija niesamowitą naturalną słodycz. Kurkuma dodaje koloru i właściwości przeciwzapalnych. Na wersję „buffalo” po smażeniu posmaruj ostrym sosem i roztopionym masłem.</p>
+
+<h2>3. Cukinia</h2>
+<h3>Składniki</h3>
+<ul>
+<li>2 średnie cukinie (około 400 g)</li>
+<li>1 łyżka oliwy z oliwek (15 ml)</li>
+<li>1 łyżeczka ziół prowansalskich</li>
+<li>Sól i pieprz</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Pokrój w plasterki o grubości <strong>1 cm</strong> lub w półksiężyce.</li>
+<li>Lekko posól i odstaw na <strong>10 minut</strong> na ręcznik papierowy, by puściła wodę.</li>
+<li>Osusz, wymieszaj z oliwą i ziołami.</li>
+<li>Smaż w <strong>190 °C przez 10-12 minut</strong>, wstrząsając w połowie czasu.</li>
+</ol>
+<h3>Wskazówki kucharza</h3>
+<p>Etap odciągania wody jest kluczowy w przypadku cukinii — zawiera ona dużo wody, która utrudniłaby karmelizację. Grubsze plasterki (1,5 cm) pozostaną w środku bardziej miękkie.</p>
+
+<h2>4. Papryki</h2>
+<h3>Składniki</h3>
+<ul>
+<li>3 papryki w różnych kolorach (około 500 g)</li>
+<li>1 łyżka oliwy z oliwek (15 ml)</li>
+<li>1 łyżeczka słodkiej papryki mielonej</li>
+<li>Sól i pieprz</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Usuń gniazda nasienne i pokrój w paski o szerokości <strong>2 cm</strong>.</li>
+<li>Wymieszaj z oliwą, papryką mieloną, solą i pieprzem.</li>
+<li>Smaż w <strong>190 °C przez 10-12 minut</strong>, wstrząsając w połowie czasu.</li>
+<li>Brzegi powinny być lekko przyrumienione, a paski miękkie.</li>
+</ol>
+<h3>Wskazówki kucharza</h3>
+<p>Czerwone papryki są najsłodsze i najlepiej się karmelizują. Wymieszaj wszystkie trzy kolory, by danie wyglądało znakomicie. Użyj ich w fajitas, sałatkach lub jako dodatek do <a href="/pl/blog/recettes-poulet-croustillant-airfryer">chrupiącego kurczaka</a>.</p>
+
+<h2>5. Brukselka</h2>
+<h3>Składniki</h3>
+<ul>
+<li>400 g brukselki</li>
+<li>1 łyżka oliwy z oliwek (15 ml)</li>
+<li>2 łyżki startego parmezanu</li>
+<li>1 posiekany ząbek czosnku</li>
+<li>Sól i pieprz</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Oczyść brukselkę i przekrój ją <strong>na pół</strong> wzdłuż.</li>
+<li>Wymieszaj z oliwą, czosnkiem, solą i pieprzem.</li>
+<li>Ułóż w koszyku <strong>przekrojem do góry</strong>.</li>
+<li>Smaż w <strong>190 °C przez 12-15 minut</strong>.</li>
+<li>Posyp parmezanem zaraz po wyjęciu z koszyka.</li>
+</ol>
+<h3>Wskazówki kucharza</h3>
+<p>Przekrojenie na pół zwiększa powierzchnię kontaktu z gorącym powietrzem i tworzy te nieodparte, skarmelizowane brzegi. Zewnętrzne listki, które się odrywają, stają się prawdziwymi chipsami — nie wyrzucaj ich. Na bardziej smakoszowską wersję dodaj odrobinę octu balsamicznego i pokruszone orzechy włoskie.</p>
+
+<h2>6. Marchew</h2>
+<h3>Składniki</h3>
+<ul>
+<li>4 duże marchewki (około 400 g)</li>
+<li>1 łyżka oliwy z oliwek (15 ml)</li>
+<li>1 łyżka miodu (15 ml)</li>
+<li>½ łyżeczki mielonego kminku rzymskiego</li>
+<li>Sól i pieprz</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Obierz i pokrój w słupki o długości <strong>6 cm i grubości 1 cm</strong> lub w plasterki o grubości <strong>0,5 cm</strong>.</li>
+<li>Wymieszaj z oliwą, miodem, kminkiem, solą i pieprzem.</li>
+<li>Smaż w <strong>180 °C przez 15-18 minut</strong>, wstrząsając w połowie czasu.</li>
+</ol>
+<h3>Wskazówki kucharza</h3>
+<p>Miód karmelizuje marchew i podkreśla jej naturalną słodycz. Kminek rzymski to klasyczne połączenie z marchewką w kuchni marokańskiej. Dla dzieci, które nie lubią warzyw, takie skarmelizowane marchewki często okazują się sukcesem.</p>
+
+<h2>7. Szparagi</h2>
+<h3>Składniki</h3>
+<ul>
+<li>1 pęczek zielonych szparagów (około 300 g)</li>
+<li>1 łyżka oliwy z oliwek (15 ml)</li>
+<li>1 posiekany ząbek czosnku</li>
+<li>Sól i pieprz</li>
+<li>Płatki parmezanu do podania</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Odłam zdrewniałą końcówkę każdego szparaga (łamie się naturalnie we właściwym miejscu).</li>
+<li>Wymieszaj z oliwą, czosnkiem, solą i pieprzem.</li>
+<li>Ułóż szparagi <strong>prostopadle do szczelin</strong> koszyka, by nie wypadały.</li>
+<li>Smaż w <strong>200 °C przez 6-8 minut</strong>.</li>
+<li>Podawaj z płatkami parmezanu.</li>
+</ol>
+<h3>Wskazówki kucharza</h3>
+<p>Szparagi z frytkownicy beztłuszczowej są gotowe w rekordowym czasie. Wybieraj szparagi średniej grubości — zbyt cienkie się przypalą, a zbyt grube pozostaną surowe w środku. Odrobina soku z cytryny i jajko w koszulce zamieniają to danie w wykwintną przystawkę.</p>
+
+<h2>8. Pieczarki</h2>
+<h3>Składniki</h3>
+<ul>
+<li>300 g pieczarek (lub shiitake)</li>
+<li>1 łyżka oliwy z oliwek (15 ml)</li>
+<li>1 łyżka sosu sojowego (15 ml)</li>
+<li>1 łyżeczka świeżego tymianku</li>
+<li>Pieprz</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li><strong>Nie myj</strong> pieczarek w wodzie — przetrzyj je wilgotną ściereczką.</li>
+<li>Duże pieczarki pokrój w <strong>ćwiartki</strong>, małe zostaw w całości.</li>
+<li>Wymieszaj z oliwą, sosem sojowym, tymiankiem i pieprzem.</li>
+<li>Smaż w <strong>200 °C przez 8-10 minut</strong>, wstrząsając w połowie czasu.</li>
+</ol>
+<h3>Wskazówki kucharza</h3>
+<p>Pieczarki chłoną wodę jak gąbki — nigdy nie myj ich pod bieżącą wodą. Sos sojowy dodaje umami i pomaga w rumienieniu. Takie pieczarki są idealne do steku, risotto albo na grzance.</p>
+
+<h2>9. Bakłażany</h2>
+<h3>Składniki</h3>
+<ul>
+<li>2 średnie bakłażany (około 500 g)</li>
+<li>2 łyżki oliwy z oliwek (30 ml)</li>
+<li>1 łyżeczka za'atar (lub ziół prowansalskich)</li>
+<li>Sól i pieprz</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Pokrój w plasterki o grubości <strong>1,5 cm</strong> lub w kostkę <strong>2 cm</strong>.</li>
+<li>Posól i odstaw na <strong>20 minut</strong> na ręcznik papierowy, by puściły wodę.</li>
+<li>Osusz, wymieszaj z oliwą, za'atar i pieprzem.</li>
+<li>Smaż w <strong>200 °C przez 12-15 minut</strong>, obracając w połowie czasu.</li>
+</ol>
+<h3>Wskazówki kucharza</h3>
+<p>Bakłażan chłonie olej jak gąbka — odciągnięcie wody solą jest niezbędne, by ograniczyć wchłanianie. Mimo to bakłażan wymaga nieco więcej oleju niż inne warzywa. Za'atar (mieszanka tymianku, sumaku i sezamu) to idealna przyprawa do bakłażana, przypominająca kuchnię libańską.</p>
+
+<h2>10. Fasolka szparagowa</h2>
+<h3>Składniki</h3>
+<ul>
+<li>300 g świeżej fasolki szparagowej, z odciętymi końcówkami</li>
+<li>1 łyżka oleju sezamowego (15 ml)</li>
+<li>1 łyżka sosu sojowego (15 ml)</li>
+<li>1 posiekany ząbek czosnku</li>
+<li>1 łyżeczka ziaren sezamu</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Odetnij końcówki fasolki i dobrze ją osusz.</li>
+<li>Wymieszaj z olejem sezamowym, sosem sojowym i czosnkiem.</li>
+<li>Smaż w <strong>200 °C przez 8-10 minut</strong>, wstrząsając w połowie czasu.</li>
+<li>Po wyjęciu posyp ziarnami sezamu.</li>
+</ol>
+<h3>Wskazówki kucharza</h3>
+<p>Olej sezamowy i sos sojowy tworzą przyprawę o azjatyckim charakterze, która podkreśla smak fasolki. Powinna pozostać lekko chrupiąca — nie przesmażaj jej. Doskonale pasuje jako dodatek do <a href="/pl/blog/recettes-poulet-croustillant-airfryer">kurczaka satay</a>.</p>
+
+<h2>Tabela czasów i temperatur</h2>
+<table>
+<thead>
+<tr><th>Warzywo</th><th>Krojenie</th><th>Temperatura</th><th>Czas</th><th>Olej</th></tr>
+</thead>
+<tbody>
+<tr><td>Brokuły</td><td>Różyczki 3-4 cm</td><td>190 °C</td><td>8-10 min</td><td>1 łyżka</td></tr>
+<tr><td>Kalafior</td><td>Różyczki 3 cm</td><td>200 °C</td><td>12-15 min</td><td>1 łyżka</td></tr>
+<tr><td>Cukinia</td><td>Plasterki 1 cm</td><td>190 °C</td><td>10-12 min</td><td>1 łyżka</td></tr>
+<tr><td>Papryki</td><td>Paski 2 cm</td><td>190 °C</td><td>10-12 min</td><td>1 łyżka</td></tr>
+<tr><td>Brukselka</td><td>Przekrojona na pół</td><td>190 °C</td><td>12-15 min</td><td>1 łyżka</td></tr>
+<tr><td>Marchew</td><td>Słupki 1 cm</td><td>180 °C</td><td>15-18 min</td><td>1 łyżka</td></tr>
+<tr><td>Szparagi</td><td>Całe (bez zdrewniałych końcówek)</td><td>200 °C</td><td>6-8 min</td><td>1 łyżka</td></tr>
+<tr><td>Pieczarki</td><td>Ćwiartki lub całe</td><td>200 °C</td><td>8-10 min</td><td>1 łyżka</td></tr>
+<tr><td>Bakłażany</td><td>Plasterki 1,5 cm</td><td>200 °C</td><td>12-15 min</td><td>2 łyżki</td></tr>
+<tr><td>Fasolka szparagowa</td><td>Całe (bez końcówek)</td><td>200 °C</td><td>8-10 min</td><td>1 łyżka</td></tr>
+</tbody>
+</table>
+
+<h2>Ogólne wskazówki dla warzyw we frytkownicy beztłuszczowej</h2>
+<p>Opanowanie smażenia warzyw we frytkownicy beztłuszczowej otwiera świat możliwości na szybkie i smaczne posiłki:</p>
+<ul>
+<li><strong>Przyprawiaj przed smażeniem</strong> — przyprawy i zioła lepiej przylegają do oleju podczas smażenia i rozwijają swoje aromaty.</li>
+<li><strong>Gęste warzywa potrzebują więcej czasu</strong> — marchew, brukselka i kalafior wymagają więcej czasu niż cukinia czy szparagi.</li>
+<li><strong>Łącz warzywa o podobnej gęstości</strong> — jeśli smażysz kilka warzyw razem, dobieraj te o zbliżonych czasach smażenia.</li>
+<li><strong>Używaj akcesoriów</strong> — zajrzyj do naszego poradnika <a href="/pl/blog/top-10-accessoires-airfryer">10 najlepszych akcesoriów do frytkownicy beztłuszczowej</a>, by lepiej wykorzystać urządzenie.</li>
+<li><strong>Warzywa mrożone też się sprawdzą</strong> — dodaj po prostu 2-3 minuty do czasu smażenia, bez wcześniejszego rozmrażania.</li>
+</ul>
+<p>Te grillowane warzywa to idealna baza <a href="/pl/blog/meal-prep-airfryer-semaine">meal prepu na cały tydzień</a>. Przygotuj kilka rodzajów w niedzielę i komponuj posiłki w kilka minut każdego dnia. Połącz je z naszymi <a href="/pl/blog/recettes-frites-parfaites-airfryer">przepisami na frytki</a> i <a href="/pl/blog/recettes-poulet-croustillant-airfryer">przepisami na kurczaka</a>, by uzyskać pełne i zbilansowane posiłki.</p>
+
+<h2>Wartość odżywcza grillowanych warzyw (na 200 g po przygotowaniu)</h2>
+<table>
+<thead><tr><th>Warzywo</th><th>Kalorie</th><th>Błonnik</th><th>Witamina C</th><th>Potas</th><th>Główna korzyść zdrowotna</th></tr></thead>
+<tbody>
+<tr><td>Brokuły</td><td>70 kcal</td><td>5 g</td><td>148 mg (185% RWS)</td><td>460 mg</td><td>Przeciwutleniacze, witamina K</td></tr>
+<tr><td>Kalafior</td><td>52 kcal</td><td>4 g</td><td>96 mg (120% RWS)</td><td>400 mg</td><td>Działanie przeciwzapalne, trawienie</td></tr>
+<tr><td>Cukinia</td><td>38 kcal</td><td>2,5 g</td><td>34 mg</td><td>512 mg</td><td>Nawodnienie, mało kalorii</td></tr>
+<tr><td>Papryka</td><td>50 kcal</td><td>3 g</td><td>204 mg (255% RWS)</td><td>420 mg</td><td>Najwięcej witaminy C, wzrok</td></tr>
+<tr><td>Szparagi</td><td>44 kcal</td><td>3,5 g</td><td>14 mg</td><td>468 mg</td><td>Kwas foliowy, działanie moczopędne</td></tr>
+</tbody>
+</table>
+
+<h2>5 szybkich mieszanek warzyw na cały tydzień</h2>
+<ul>
+<li><strong>Mieszanka śródziemnomorska:</strong> cukinia + papryki + bakłażany + pomidorki koktajlowe. 180°C, 15 min. Idealna z kurczakiem.</li>
+<li><strong>Mieszanka kapustnych:</strong> brokuły + kalafior + brukselka. 190°C, 16 min. Idealna do meal prepu.</li>
+<li><strong>Mieszanka wiosenna:</strong> szparagi + pieczarki + fasolka szparagowa. 200°C, 8 min. Delikatna i szybka.</li>
+<li><strong>Mieszanka jesienna:</strong> marchew + dynia + czerwona cebula. 180°C, 20 min. Słodko-słone smaki.</li>
+<li><strong>Mieszanka azjatycka:</strong> pak choi + edamame + grzyby shiitake + sezam. 190°C, 10 min. Sos sojowy na koniec.</li>
+</ul>`,
   },
   faq: [
     {
@@ -1078,6 +1334,7 @@ export const article: BlogArticle = {
         es: '¿Qué verduras son las mejores para cocinar en la freidora de aire?',
         it: 'Quali verdure sono le migliori da cuocere nella friggitrice ad aria?',
         nl: 'Welke groenten zijn het beste om te bereiden in de airfryer?',
+        pl: 'Które warzywa najlepiej smażyć we frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Les légumes qui caramélisent bien sont les meilleurs : brocoli, chou-fleur, choux de Bruxelles, courgettes, poivrons et carottes. Ils développent une croûte dorée et savoureuse. Les légumes à haute teneur en eau comme le concombre et la laitue ne conviennent pas. Les champignons et asperges sont aussi d\'excellents choix.',
@@ -1086,6 +1343,7 @@ export const article: BlogArticle = {
         es: 'Las verduras que caramelizan bien funcionan mejor: brócoli, coliflor, coles de Bruselas, calabacín, pimientos y zanahorias. Desarrollan una costra dorada y sabrosa. Las verduras con mucha agua como pepino y lechuga no son adecuadas. Los champiñones y espárragos también son excelentes opciones.',
         it: 'Le verdure che caramellizzano bene funzionano meglio: broccoli, cavolfiore, cavolini di Bruxelles, zucchine, peperoni e carote. Sviluppano una crosta dorata e saporita. Le verdure ad alto contenuto d\'acqua come cetriolo e lattuga non sono adatte. Funghi e asparagi sono ottime scelte.',
         nl: 'Groenten die goed karamelliseren werken het best: broccoli, bloemkool, spruitjes, courgette, paprika en wortels. Ze ontwikkelen een gouden, smaakvolle korst. Groenten met veel water zoals komkommer en sla zijn niet geschikt. Champignons en asperges zijn ook uitstekende keuzes.',
+        pl: 'Najlepsze są warzywa, które dobrze się karmelizują: brokuły, kalafior, brukselka, cukinia, papryki i marchew. Wytwarzają złotą, aromatyczną skórkę. Warzywa o dużej zawartości wody, takie jak ogórek i sałata, się nie nadają. Pieczarki i szparagi to także doskonały wybór.',
       },
     },
     {
@@ -1096,6 +1354,7 @@ export const article: BlogArticle = {
         es: '¿Se pueden cocinar verduras congeladas en la freidora de aire?',
         it: 'Si possono cuocere verdure surgelate nella friggitrice ad aria?',
         nl: 'Kun je diepvriesgroenten bereiden in de airfryer?',
+        pl: 'Czy można smażyć mrożone warzywa we frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Oui, les légumes surgelés cuisent très bien à l\'airfryer. Mettez-les directement sans décongélation. Ajoutez 2 à 3 minutes au temps de cuisson habituel. Les brocolis, haricots verts et choux-fleur surgelés donnent d\'excellents résultats. Évitez les mélanges avec des légumes à eau comme les épinards qui deviennent pâteux.',
@@ -1104,6 +1363,7 @@ export const article: BlogArticle = {
         es: 'Sí, las verduras congeladas se cocinan muy bien en la freidora de aire. Ponlas directamente sin descongelar. Añade 2-3 minutos al tiempo habitual. El brócoli, las judías verdes y la coliflor congelados dan excelentes resultados. Evita mezclas con verduras acuosas como las espinacas que quedan pastosas.',
         it: 'Sì, le verdure surgelate cuociono molto bene nella friggitrice ad aria. Mettile direttamente senza scongelare. Aggiungi 2-3 minuti al tempo di cottura abituale. Broccoli, fagiolini e cavolfiore surgelati danno ottimi risultati. Evita miscele con verdure acquose come gli spinaci che diventano molli.',
         nl: 'Ja, diepvriesgroenten bereid je prima in de airfryer. Doe ze er direct in zonder ontdooien. Voeg 2-3 minuten toe aan de gebruikelijke baktijd. Diepvries broccoli, sperziebonen en bloemkool geven uitstekende resultaten. Vermijd mengsels met waterige groenten zoals spinazie die papperig worden.',
+        pl: 'Tak, mrożone warzywa świetnie sprawdzają się we frytkownicy beztłuszczowej. Wkładaj je od razu, bez rozmrażania. Dodaj 2-3 minuty do zwykłego czasu smażenia. Mrożone brokuły, fasolka szparagowa i kalafior dają doskonałe rezultaty. Unikaj mieszanek z warzywami wodnistymi, takimi jak szpinak, który robi się papkowaty.',
       },
     },
     {
@@ -1114,6 +1374,7 @@ export const article: BlogArticle = {
         es: '¿Qué condimentos usar para las verduras en la freidora de aire?',
         it: 'Quali condimenti usare per le verdure nella friggitrice ad aria?',
         nl: 'Welke kruiden gebruik je voor groenten in de airfryer?',
+        pl: 'Jakie przyprawy stosować do warzyw we frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Assaisonnez avant cuisson pour que les épices adhèrent à l\'huile. Le trio de base : sel, poivre et ail en poudre. Pour varier : paprika fumé, cumin, herbes de Provence, ou parmesan râpé ajouté en fin de cuisson. Un filet de jus de citron après cuisson rehausse toutes les saveurs des légumes grillés.',
@@ -1122,6 +1383,7 @@ export const article: BlogArticle = {
         es: 'Sazona antes de cocinar para que las especias se adhieran al aceite. El trío básico: sal, pimienta y ajo en polvo. Para variar: pimentón ahumado, comino, hierbas provenzales o parmesano rallado añadido al final. Un chorrito de limón después de cocinar realza todos los sabores.',
         it: 'Condisci prima della cottura affinché le spezie aderiscano all\'olio. Il trio base: sale, pepe e aglio in polvere. Per variare: paprika affumicata, cumino, erbe di Provenza o parmigiano grattugiato aggiunto negli ultimi 2 minuti. Un filo di limone dopo la cottura esalta tutti i sapori.',
         nl: 'Kruid voor het bakken zodat de specerijen aan de olie hechten. Het basistrio: zout, peper en knoflookpoeder. Voor variatie: gerookte paprika, komijn, Provençaalse kruiden of geraspte Parmezaan in de laatste 2 minuten. Een scheutje citroensap na het bakken versterkt alle smaken.',
+        pl: 'Przyprawiaj przed smażeniem, aby przyprawy przylegały do oleju. Podstawowy zestaw: sól, pieprz i czosnek granulowany. Na urozmaicenie: wędzona papryka, kminek rzymski, zioła prowansalskie albo starty parmezan dodany pod koniec smażenia. Odrobina soku z cytryny po smażeniu podkreśla wszystkie smaki grillowanych warzyw.',
       },
     },
     {
@@ -1132,6 +1394,7 @@ export const article: BlogArticle = {
         es: '¿Cuánto tiempo tarda cada verdura en la freidora de aire?',
         it: 'Quanto tempo ci vuole per ogni verdura nella friggitrice ad aria?',
         nl: 'Hoe lang duurt elke groente in de airfryer?',
+        pl: 'Ile smażyć każde warzywo we frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'À 200°C : asperges et champignons 8-10 min, courgettes et poivrons 10-12 min, brocoli et chou-fleur 12-15 min, choux de Bruxelles 15-18 min, carottes 15-20 min. Les légumes coupés finement cuisent plus vite. Secouez le panier à mi-cuisson. Les temps varient légèrement selon la taille des morceaux.',
@@ -1140,6 +1403,7 @@ export const article: BlogArticle = {
         es: 'A 200°C: espárragos y champiñones 8-10 min, calabacín y pimientos 10-12 min, brócoli y coliflor 12-15 min, coles de Bruselas 15-18 min, zanahorias 15-20 min. Las verduras cortadas finas se cocinan más rápido. Agita la cesta a mitad de cocción. Los tiempos varían según el tamaño.',
         it: 'A 200°C: asparagi e funghi 8-10 min, zucchine e peperoni 10-12 min, broccoli e cavolfiore 12-15 min, cavolini di Bruxelles 15-18 min, carote 15-20 min. Le verdure tagliate fini cuociono prima. Scuoti il cestello a metà cottura. I tempi variano leggermente in base alla dimensione dei pezzi.',
         nl: 'Op 200°C: asperges en champignons 8-10 min, courgette en paprika 10-12 min, broccoli en bloemkool 12-15 min, spruitjes 15-18 min, wortels 15-20 min. Dun gesneden groenten worden sneller gaar. Schud de mand halverwege. Tijden variëren licht afhankelijk van de grootte van de stukken.',
+        pl: 'W 200°C: szparagi i pieczarki 8-10 min, cukinia i papryki 10-12 min, brokuły i kalafior 12-15 min, brukselka 15-18 min, marchew 15-20 min. Cienko pokrojone warzywa smażą się szybciej. Wstrząśnij koszykiem w połowie smażenia. Czasy nieznacznie różnią się w zależności od wielkości kawałków.',
       },
     },
     {
@@ -1150,6 +1414,7 @@ export const article: BlogArticle = {
         es: '¿Cómo evitar que las verduras queden blandas en la freidora de aire?',
         it: 'Come evitare che le verdure diventino molli nella friggitrice ad aria?',
         nl: 'Hoe voorkom je dat groenten slap worden in de airfryer?',
+        pl: 'Jak uniknąć miękkich warzyw we frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Trois règles essentielles : séchez parfaitement les légumes après lavage, ne surchargez pas le panier pour que l\'air circule librement, et utilisez une température suffisamment élevée (190-200°C). Une fine couche d\'huile favorise la caramélisation. Coupez les morceaux en taille régulière pour une cuisson uniforme.',
@@ -1158,6 +1423,7 @@ export const article: BlogArticle = {
         es: 'Tres reglas esenciales: seca las verduras perfectamente después de lavarlas, no sobrecargues la cesta para que el aire circule libremente, y usa una temperatura suficientemente alta (190-200°C). Una fina capa de aceite favorece la caramelización. Corta los trozos de tamaño uniforme.',
         it: 'Tre regole essenziali: asciuga perfettamente le verdure dopo il lavaggio, non sovraffollare il cestello perché l\'aria circoli liberamente, e usa una temperatura abbastanza alta (190-200°C). Un sottile strato d\'olio favorisce la caramellizzazione. Taglia i pezzi di dimensione uniforme.',
         nl: 'Drie essentiële regels: droog groenten perfect na het wassen, overlaad de mand niet zodat lucht vrij kan circuleren, en gebruik een voldoende hoge temperatuur (190-200°C). Een dunne laag olie bevordert karamellisatie. Snijd stukken op gelijkmatige grootte voor uniforme bereiding.',
+        pl: 'Trzy podstawowe zasady: dokładnie osusz warzywa po umyciu, nie przeładowuj koszyka, aby powietrze mogło swobodnie krążyć, i użyj dostatecznie wysokiej temperatury (190-200°C). Cienka warstwa oleju sprzyja karmelizacji. Krój kawałki w równą wielkość dla równomiernego smażenia.',
       },
     },
   ],

@@ -64,7 +64,7 @@ describe('Black Friday picks', () => {
     }
   })
 
-  it('resolves every pick in all 6 languages with the verdict name and reason', () => {
+  it('resolves every pick in every language with the verdict name and reason', () => {
     for (const category of BLACK_FRIDAY_CATEGORIES) {
       for (const lang of LANGUAGES) {
         const picks = getBlackFridayPicks(category, lang)
@@ -159,7 +159,7 @@ describe('Black Friday links and routing', () => {
 })
 
 describe('Black Friday copy', () => {
-  it('is complete in all 6 languages, with a 3-4 question FAQ per page', () => {
+  it('is complete in every language, with a 3-4 question FAQ per page', () => {
     for (const lang of LANGUAGES) {
       expect(visibleCopy(lang).filter((s) => s.trim() === '')).toEqual([])
       expect(HUB_COPY[lang].faq.length).toBeGreaterThanOrEqual(3)

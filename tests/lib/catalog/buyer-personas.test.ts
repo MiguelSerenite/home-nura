@@ -6,6 +6,7 @@
  * being generated.
  */
 
+import { LANGUAGES } from '@/lib/i18n'
 import { describe, it, expect } from 'vitest'
 import {
   BUYER_PERSONAS,
@@ -15,7 +16,7 @@ import {
 } from '@/lib/catalog/buyer-personas'
 import { META_SILOS } from '@/lib/catalog/meta-silos'
 
-const LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
+const LANGS = LANGUAGES
 const SLUG_RE = /^[a-z0-9-]+$/
 const KNOWN_SILOS = new Set(META_SILOS.map((s) => s.slug))
 const KNOWN_AXES = new Set(['household', 'budget', 'usage', 'constraint'])
@@ -45,7 +46,7 @@ describe('BUYER_PERSONAS', () => {
     }
   })
 
-  it('label is populated for all 6 locales on every persona', () => {
+  it('label is populated for every locale on every persona', () => {
     for (const p of BUYER_PERSONAS) {
       expect(Object.keys(p.label).sort(), `${p.slug}.label keys`).toEqual(
         [...LANGS].sort()

@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Freidora de aire negra sobre una encimera de madera junto a un cuenco de tomates',
         it: 'Friggitrice ad aria nera su un piano di lavoro in legno accanto a una ciotola di pomodori',
         nl: 'Zwarte airfryer op een houten aanrecht naast een schaal tomaten',
+        pl: 'Czarna frytkownica beztłuszczowa na drewnianym blacie, obok miski z pomidorami',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: '¿Qué Freidora de Aire para 2 Personas? Guía de Compra 2026',
     it: 'Quale Friggitrice ad Aria per 2 Persone? Guida all\'Acquisto 2026',
     nl: 'Welke Airfryer voor 2 Personen? Complete Koopgids 2026',
+    pl: 'Jaka frytkownica beztłuszczowa dla 2 osób? Kompletny poradnik zakupowy 2026',
   },
   excerpt: {
     fr: 'Couple ou petit foyer ? Découvrez la capacité idéale (3,5-5L), les meilleurs modèles compacts et tous les critères pour bien choisir votre airfryer pour 2 personnes en 2026.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: '¿Pareja u hogar pequeño? Descubre la capacidad ideal (3,5-5L), los mejores modelos compactos y todos los criterios para elegir tu freidora de aire para 2 personas en 2026.',
     it: 'Coppia o piccolo nucleo? Scopri la capacità ideale (3,5-5L), i migliori modelli compatti e tutti i criteri per scegliere la friggitrice ad aria per 2 persone nel 2026.',
     nl: 'Koppel of klein huishouden? Ontdek de ideale capaciteit (3,5-5L), de beste compacte modellen en alle criteria om de juiste airfryer voor 2 personen te kiezen in 2026.',
+    pl: 'Para lub małe gospodarstwo? Poznaj idealną pojemność (3,5–5 l), najlepsze kompaktowe modele i wszystkie kryteria wyboru frytkownicy beztłuszczowej dla 2 osób w 2026 roku.',
   },
   content: {
     de: `<h2>Welche Heißluftfritteuse für 2 Personen ist wirklich die richtige?</h2>
@@ -549,6 +552,80 @@ export const article: BlogArticle = {
 
 <h2>Conclusie</h2>
 <p>Voor de meeste koppels is een airfryer van 4 liter, ~1.500 W en enkele mand de ideale keuze. De Xiaomi Smart Air Fryer Pro blinkt uit met verbonden functies tegen een schappelijke prijs, terwijl Cosori Lite, Philips Airfryer 3000 Series L en Ninja AF100 solide alternatieven zijn. Mik op laag verbruik, weinig ruimtebeslag en een makkelijk schoon te maken lade.</p>`,
+    pl: `<h2>Jaka frytkownica beztłuszczowa dla 2 osób: dobry odruch przed zakupem</h2>
+<p>Wybór frytkownicy beztłuszczowej (air fryer) dla pary lub małego gospodarstwa nie ma nic wspólnego z zakupem modelu rodzinnego. Nie ma sensu celować w urządzenie 8-litrowe, które zajmuje cały blat i zużywa za dużo energii: dla dwóch osób celem jest znalezienie modelu kompaktowego, oszczędnego i wystarczająco mocnego, by przygotować chrupiące frytki, warzywa, udka kurczaka lub filet z łososia.</p>
+<p>W tym poradniku odpowiadamy na centralne pytanie – jaką pojemność wybrać – i przedstawiamy najlepsze kompaktowe modele 2026 roku. Porównujemy pojemność, zużycie energii, gabaryty oraz kwestię jednego lub dwóch koszy, na podstawie kart technicznych producentów, niezależnych testów i opinii zweryfikowanych kupujących.</p>
+
+<h2>Jaka pojemność dla 2 osób?</h2>
+<p>Uczciwa odpowiedź: od 3,5 do 5 litrów. Poniżej szybko zrobi się ciasno, gdy zechcesz przygotować pełny posiłek; powyżej to przesada dla dwóch osób. Deklarowana pojemność odpowiada objętości kosza, a nie ilości, którą naprawdę można wykorzystać.</p>
+<p>W koszu o pojemności 4 litrów mieści się około 600–700 g frytek lub dwa do trzech udek kurczaka – wystarczy, by nakarmić parę o normalnym apetycie. Dla osób z dużym apetytem lub gotowania na zapas (batch cooking) celuj raczej w 4,5 do 5 litrów.</p>
+
+<h3>Tabela: pojemność według Twoich nawyków</h3>
+<table>
+<thead>
+<tr><th>Profil (2 osoby)</th><th>Zalecana pojemność</th><th>Przykładowa porcja</th></tr>
+</thead>
+<tbody>
+<tr><td>Małe porcje, mało miejsca</td><td>3,5 litra</td><td>ok. 500 g frytek, 2 udka</td></tr>
+<tr><td>Normalne porcje</td><td>4 litry</td><td>ok. 650 g frytek, 2–3 udka</td></tr>
+<tr><td>Duży apetyt lub meal prep</td><td>4,5–5 litrów</td><td>ok. 800 g frytek, pół kurczaka</td></tr>
+</tbody>
+</table>
+<p><strong>Praktyczna zasada:</strong> licz około 2 litrów na osobę, jeśli przygotowujesz danie i dodatek w jednej partii.</p>
+
+<h2>Najlepsze modele dla 2 osób w 2026 roku</h2>
+<p>Wybraliśmy cztery kompaktowe urządzenia odpowiednie dla małych gospodarstw na podstawie ich parametrów, niezależnych testów i opinii kupujących, z dobrą równowagą między rozmiarem, mocą i zużyciem energii.</p>
+
+<h3>Xiaomi Smart Air Fryer Pro 4L</h3>
+<p>Nasz najlepszy stosunek jakości do ceny dla dwóch osób. Z 4 litrami trafia dokładnie w odpowiedni rozmiar, steruje się przez Wi-Fi z aplikacji Xiaomi Home, a jej 1600 W szybko osiąga temperaturę. Obsługuje się ją przez ekran OLED i pokrętło, ma 11 programów i okienko podglądu do śledzenia smażenia. Wszystkie szczegóły w naszym <a href="/pl/blog/test-xiaomi-smart-air-fryer-pro">opisie Xiaomi Smart Air Fryer Pro</a>.</p>
+
+<h3>Cosori Lite 3,8L</h3>
+<p>Jedna z najbardziej kompaktowych w zestawieniu, idealna do małych kuchni. Z 3,8 litra i 1500 W w zupełności wystarcza parze, steruje się też przez aplikację VeSync i ma szufladę z powłoką nieprzywierającą, nadającą się do zmywarki. Kupujący chwalą przede wszystkim jej prostotę i niewielkie gabaryty.</p>
+
+<h3>Philips Airfryer Series 3000 L (HD9252)</h3>
+<p>Klasyk dużych marek, dawniej sprzedawany pod nazwą „Essential”. Z 4,1 litra i 1400 W jest dobrze dopasowany do dwóch osób. Technologia Rapid Air zapewnia równomierne rumienienie, dotykowy ekran z 7 programami sprawia, że obsługa jest bardzo prosta, a wyjmowane elementy można myć w zmywarce. Dobry wybór dla tego, kto chce dużej marki, bez aplikacji.</p>
+
+<h3>Ninja AF100</h3>
+<p>Z 3,8 litra Ninja AF100 (AF100EU w Europie) to bardzo dobry model z jednym koszem dla dwóch osób. Oferuje 1550 W, temperaturę do 210 °C i cztery funkcje: smażenie bez oleju, pieczenie, podgrzewanie i dehydratację. Kupujący podkreślają przede wszystkim jej chrupkość.</p>
+
+<h3>Tabela porównawcza</h3>
+<table>
+<thead>
+<tr><th>Model</th><th>Pojemność</th><th>Moc</th><th>Z łącznością</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td>Xiaomi Smart Air Fryer Pro</td><td>4 l</td><td>1600 W</td><td>Aplikacja + Wi-Fi</td><td>Sterowanie z aplikacji, okienko</td></tr>
+<tr><td>Cosori Lite</td><td>3,8 l</td><td>1500 W</td><td>Aplikacja + Wi-Fi</td><td>Bardzo małe kuchnie</td></tr>
+<tr><td>Philips Airfryer Series 3000 L</td><td>4,1 l</td><td>1400 W</td><td>Nie</td><td>Prostota, duża marka</td></tr>
+<tr><td>Ninja AF100</td><td>3,8 l</td><td>1550 W</td><td>Nie</td><td>Chrupkość, dehydratacja</td></tr>
+</tbody>
+</table>
+
+<h2>Zużycie energii: atut małych modeli</h2>
+<p>Często niedoceniana zaleta: zużycie energii urządzeń kompaktowych jest znacznie niższe niż modeli XXL czy piekarnika. Frytkownica beztłuszczowa 4-litrowa o mocy ok. 1500 W zużywa około 0,5 kWh na 20 minut smażenia, wyraźnie mniej niż piekarnik przy tej samej porcji.</p>
+<ul>
+<li>Nagrzewanie jest praktycznie zbędne: wystarczą 2–3 minuty.</li>
+<li>Mała objętość oznacza mniej powietrza do nagrzania, a więc mniej energii.</li>
+<li>Krótkie czasy smażenia: 12–20 minut dla większości dań.</li>
+</ul>
+
+<h2>Zajmowane miejsce na blacie</h2>
+<p>W małej kuchni liczy się każdy centymetr. Kompaktowa frytkownica beztłuszczowa 3,5–4 litrowa ma około 28 x 28 cm podstawy przy wysokości 30 cm i bez trudu mieści się na blacie. Zostaw 10–15 cm z tyłu i nad urządzeniem na odprowadzenie gorącego powietrza, a przy wąskim blacie wybierz pionowy kształt.</p>
+
+<h2>Jeden czy dwa kosze dla 2 osób?</h2>
+<p>Dla większości par jeden kosz w zupełności wystarcza: jest tańszy, bardziej kompaktowy i łatwiejszy do czyszczenia. Dwa kosze pozwalają przygotować dwa produkty w różnych temperaturach, ale te modele często zaczynają się od 7,6 litra i są zbyt duże dla dwóch osób. Nasza rada: dla większości par dobry model z jednym koszem o pojemności 4 litrów. Aby porównać, zajrzyj do naszego <a href="/pl/blog/comment-choisir-airfryer-famille">pełnego poradnika o rodzinnej frytkownicy beztłuszczowej</a>.</p>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Kupno zbyt dużej:</strong> model 7–8 litrów dla dwóch osób marnuje energię i miejsce.</li>
+<li><strong>Patrzenie tylko na cenę:</strong> bardzo tanie modele mają często delikatną powłokę i głośny wentylator.</li>
+<li><strong>Ignorowanie mocy:</strong> poniżej 1300 W smażenie trwa dłużej i jest mniej chrupiące.</li>
+<li><strong>Zapominanie o czyszczeniu:</strong> szukaj szuflady z powłoką nieprzywierającą, nadającej się do zmywarki.</li>
+</ul>
+<p>Aby zmieścić się w budżecie, nasze zestawienie <a href="/pl/blog/meilleur-airfryer-petit-budget">najlepszych tanich frytkownic beztłuszczowych</a> przedstawia oszczędne alternatywy.</p>
+
+<h2>Podsumowanie</h2>
+<p>Dla większości par idealnym wyborem jest frytkownica beztłuszczowa o pojemności 4 litrów, mocy około 1500 W i z jednym koszem. Xiaomi Smart Air Fryer Pro wyróżnia się funkcjami z łącznością w umiarkowanej cenie, a Cosori Lite, Philips Airfryer Series 3000 L i Ninja AF100 to solidne alternatywy. Szukaj niskiego zużycia energii, niewielkich gabarytów i szuflady łatwej do czyszczenia.</p>`,
   },
   faq: [
     {
@@ -559,6 +636,7 @@ export const article: BlogArticle = {
         es: '¿Qué tamaño de freidora de aire para 2 personas?',
         it: 'Quale dimensione di friggitrice ad aria per 2 persone?',
         nl: 'Welk formaat airfryer voor 2 personen?',
+        pl: 'Jaki rozmiar frytkownicy beztłuszczowej dla 2 osób?',
       },
       answer: {
         fr: 'Pour deux personnes, visez une capacité de 3,5 à 5 litres. Un panier de 4 litres est le standard idéal : il accueille environ 650 g de frites ou 2 à 3 cuisses de poulet, soit un repas complet pour un couple. En dessous de 3,5 litres, vous serez vite à l\'étroit.',
@@ -567,6 +645,7 @@ export const article: BlogArticle = {
         es: 'Para dos personas, apunta a una capacidad de 3,5 a 5 litros. Una cesta de 4 litros es el estándar ideal: admite unos 650 g de patatas o 2 a 3 muslos de pollo, una comida completa para una pareja. Por debajo de 3,5 litros te quedarás corto enseguida.',
         it: 'Per due persone, punta a una capacità di 3,5-5 litri. Un cestello da 4 litri è lo standard ideale: contiene circa 650 g di patatine o 2-3 cosce di pollo, un pasto completo per una coppia. Sotto i 3,5 litri sarai presto a corto di spazio.',
         nl: 'Voor twee personen mik je op een capaciteit van 3,5 tot 5 liter. Een mand van 4 liter is de ideale standaard: hij bevat ongeveer 650 g friet of 2 tot 3 kippenbouten, een volledige maaltijd voor een koppel. Onder 3,5 liter zit je al snel krap.',
+        pl: 'Dla dwóch osób celuj w pojemność od 3,5 do 5 litrów. Kosz 4-litrowy to idealny standard: mieści około 650 g frytek lub 2–3 udka kurczaka, czyli pełny posiłek dla pary. Poniżej 3,5 litra szybko zrobi się ciasno.',
       },
     },
     {
@@ -577,6 +656,7 @@ export const article: BlogArticle = {
         es: '¿Basta una freidora de aire de 4 litros para 2 personas?',
         it: 'Basta una friggitrice ad aria da 4 litri per 2 persone?',
         nl: 'Is een airfryer van 4 liter genoeg voor 2 personen?',
+        pl: 'Czy frytkownica beztłuszczowa 4-litrowa wystarczy dla 2 osób?',
       },
       answer: {
         fr: 'Oui, 4 litres conviennent parfaitement à la grande majorité des couples. Cette contenance permet de préparer un repas complet en une seule fournée. Seuls les très gros mangeurs ou ceux qui pratiquent le batch cooking auront intérêt à choisir 4,5 ou 5 litres.',
@@ -585,6 +665,7 @@ export const article: BlogArticle = {
         es: 'Sí, 4 litros son perfectos para la gran mayoría de parejas. Esta capacidad permite preparar una comida completa en una sola tanda. Solo los grandes comedores o quienes practican el batch cooking se beneficiarán de elegir 4,5 o 5 litros.',
         it: 'Sì, 4 litri sono perfetti per la grande maggioranza delle coppie. Questa capacità permette di preparare un pasto completo in un solo ciclo. Solo i grandi mangiatori o chi pratica il batch cooking trarrà vantaggio dallo scegliere 4,5 o 5 litri.',
         nl: 'Ja, 4 liter is perfect voor de overgrote meerderheid van koppels. Deze capaciteit laat je een volledige maaltijd in één keer bereiden. Alleen grote eters of wie aan meal-prep doet, heeft baat bij 4,5 of 5 liter.',
+        pl: 'Tak, 4 litry doskonale odpowiadają zdecydowanej większości par. Taka pojemność pozwala przygotować pełny posiłek w jednej partii. Tylko osoby z bardzo dużym apetytem lub gotujące na zapas (batch cooking) powinny wybrać 4,5 lub 5 litrów.',
       },
     },
     {
@@ -595,6 +676,7 @@ export const article: BlogArticle = {
         es: '¿Cuánto consume una freidora pequeña para 2 personas?',
         it: 'Quanto consuma una piccola friggitrice ad aria per 2 persone?',
         nl: 'Hoeveel verbruikt een kleine airfryer voor 2 personen?',
+        pl: 'Ile energii zużywa mała frytkownica beztłuszczowa dla 2 osób?',
       },
       answer: {
         fr: 'Un airfryer compact de 4 litres (~1 500 W) consomme environ 0,5 kWh pour 20 minutes de cuisson, soit bien moins qu\'un four classique, qui doit chauffer un grand volume et préchauffer longtemps pour la même portion.',
@@ -603,6 +685,7 @@ export const article: BlogArticle = {
         es: 'Una freidora compacta de 4 litros (~1.500 W) consume unos 0,5 kWh por 20 minutos de cocción, mucho menos que un horno convencional, que calienta un gran volumen y necesita un largo precalentamiento para la misma ración.',
         it: 'Una friggitrice compatta da 4 litri (~1.500 W) consuma circa 0,5 kWh per 20 minuti di cottura, molto meno di un forno tradizionale, che riscalda un grande volume e richiede un lungo preriscaldamento per la stessa porzione.',
         nl: 'Een compacte airfryer van 4 liter (~1.500 W) verbruikt ongeveer 0,5 kWh voor 20 minuten bereiding, veel minder dan een klassieke oven, die een grote ruimte verwarmt en lang moet voorverwarmen voor dezelfde portie.',
+        pl: 'Kompaktowa frytkownica beztłuszczowa 4-litrowa (ok. 1500 W) zużywa około 0,5 kWh na 20 minut smażenia, czyli znacznie mniej niż klasyczny piekarnik, który przy tej samej porcji musi nagrzać dużą objętość i długo się nagrzewać.',
       },
     },
     {
@@ -613,6 +696,7 @@ export const article: BlogArticle = {
         es: '¿Cesta única o doble para 2 personas?',
         it: 'Cestello singolo o doppio per 2 persone?',
         nl: 'Enkele of dubbele mand voor 2 personen?',
+        pl: 'Jeden czy dwa kosze dla 2 osób?',
       },
       answer: {
         fr: 'Pour deux personnes, un simple panier suffit dans la plupart des cas : il est moins cher, plus compact et plus facile à nettoyer. Les modèles à double panier démarrent souvent à 7,6 litres et sont trop encombrants pour un petit foyer. Un séparateur de panier permet déjà de cuire deux aliments ensemble.',
@@ -621,6 +705,7 @@ export const article: BlogArticle = {
         es: 'Para dos personas, una cesta única basta en la mayoría de los casos: más barata, más compacta y más fácil de limpiar. Los modelos de doble cesta suelen empezar en 7,6 litros y son demasiado voluminosos para un hogar pequeño. Un divisor de cesta ya permite cocinar dos alimentos juntos.',
         it: 'Per due persone, un cestello singolo basta nella maggior parte dei casi: più economico, più compatto e più facile da pulire. I modelli a doppio cestello partono spesso da 7,6 litri e sono troppo ingombranti per un piccolo nucleo. Un divisore di cestello permette già di cuocere due alimenti insieme.',
         nl: 'Voor twee personen volstaat een enkele mand in de meeste gevallen: goedkoper, compacter en makkelijker schoon te maken. Dubbele mandmodellen starten vaak bij 7,6 liter en zijn te omvangrijk voor een klein huishouden. Met een mandverdeler kun je al twee gerechten samen bereiden.',
+        pl: 'Dla dwóch osób w większości przypadków wystarczy jeden kosz: jest tańszy, bardziej kompaktowy i łatwiejszy do czyszczenia. Modele z dwoma koszami często zaczynają się od 7,6 litra i są zbyt duże dla małego gospodarstwa. Przegroda do kosza pozwala już przygotować dwa produkty razem.',
       },
     },
     {
@@ -631,6 +716,7 @@ export const article: BlogArticle = {
         es: '¿Qué freidora de aire compacta elegir para una pareja en 2026?',
         it: 'Quale friggitrice ad aria compatta scegliere per una coppia nel 2026?',
         nl: 'Welke compacte airfryer kiezen voor een koppel in 2026?',
+        pl: 'Jaką kompaktową frytkownicę beztłuszczową wybrać dla pary w 2026 roku?',
       },
       answer: {
         fr: 'La Xiaomi Smart Air Fryer Pro 4L offre le meilleur rapport qualité-prix avec ses fonctions connectées. La Cosori Lite 3,8L est l\'option la plus compacte, elle aussi pilotable par application, tandis que la Philips Airfryer Série 3000 L (4,1 L) et la Ninja AF100 sont d\'excellentes alternatives sans application. Tout dépend de votre place disponible et de l\'envie de pilotage par smartphone.',
@@ -639,6 +725,7 @@ export const article: BlogArticle = {
         es: 'La Xiaomi Smart Air Fryer Pro 4L ofrece la mejor relación calidad-precio con sus funciones conectadas. La Cosori Lite 3,8L es la opción más compacta y también se controla por app, mientras que la Philips Airfryer Serie 3000 L (4,1 L) y la Ninja AF100 son excelentes alternativas sin app. Depende de tu espacio y de si quieres control por smartphone.',
         it: 'La Xiaomi Smart Air Fryer Pro 4L offre il miglior rapporto qualità-prezzo con le sue funzioni connesse. La Cosori Lite 3,8L è l\'opzione più compatta e si controlla anch\'essa da app, mentre la Philips Airfryer Serie 3000 L (4,1 L) e la Ninja AF100 sono ottime alternative senza app. Dipende dallo spazio disponibile e dalla voglia di controllo da smartphone.',
         nl: 'De Xiaomi Smart Air Fryer Pro 4L biedt de beste prijs-kwaliteit met zijn verbonden functies. De Cosori Lite 3,8L is de compactste optie en ook via een app te bedienen, terwijl de Philips Airfryer 3000 Series L (4,1 L) en de Ninja AF100 uitstekende alternatieven zonder app zijn. Het hangt af van je ruimte en of je smartphone-bediening wilt.',
+        pl: 'Xiaomi Smart Air Fryer Pro 4L oferuje najlepszy stosunek jakości do ceny dzięki funkcjom z łącznością. Cosori Lite 3,8L to opcja najbardziej kompaktowa, również sterowana z aplikacji, a Philips Airfryer Series 3000 L (4,1 l) i Ninja AF100 to doskonałe alternatywy bez aplikacji. Wszystko zależy od dostępnego miejsca i chęci sterowania ze smartfona.',
       },
     },
   ],

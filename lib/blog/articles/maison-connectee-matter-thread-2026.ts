@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Altavoz inteligente sobre una mesa, punto de partida habitual de un hogar conectado con Matter',
         it: 'Altoparlante smart su un tavolo, tipico punto di partenza di una casa connessa Matter',
         nl: 'Slimme speaker op een tafel, een typisch startpunt voor een Matter-smart home',
+        pl: 'Inteligentny głośnik na stole, typowy punkt wyjścia do domu opartego na Matterze',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Matter y Thread explicados: el estándar del hogar conectado en 2026',
     it: 'Matter e Thread spiegati: lo standard della casa connessa nel 2026',
     nl: 'Matter en Thread uitgelegd: de smart-home-standaard in 2026',
+    pl: 'Matter i Thread: inteligentny dom wyjaśniony prosto w 2026 roku',
   },
   excerpt: {
     fr: 'Matter fait parler vos appareils connectés entre eux, Thread les relie en réseau maillé basse consommation. Versions, border routers Thread par écosystème, mise à jour IKEA DIRIGERA et hubs à choisir en 2026.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Matter hace que dispositivos de distintas marcas se entiendan y Thread los une en una red mallada de bajo consumo. Versiones, border routers Thread por ecosistema, la actualización de IKEA DIRIGERA y qué hub elegir en 2026.',
     it: 'Matter fa dialogare dispositivi smart di marche diverse, Thread li collega in una rete mesh a basso consumo. Versioni, border router Thread per ecosistema, l’aggiornamento di IKEA DIRIGERA e quale hub scegliere nel 2026.',
     nl: 'Matter laat slimme apparaten van verschillende merken met elkaar praten, Thread verbindt ze in een zuinig mesh-netwerk. Versies, Thread-borderrouters per ecosysteem, de IKEA DIRIGERA-update en welke hub je kiest in 2026.',
+    pl: 'Matter sprawia, że Twoje urządzenia rozumieją się nawzajem, a Thread łączy je w energooszczędną sieć kratową. Wersje, routery brzegowe Thread w poszczególnych ekosystemach, aktualizacja IKEA DIRIGERA i huby do wyboru w 2026 roku.',
   },
   content: {
     fr: `<p><strong>Matter est un langage commun qui permet à un appareil connecté de fonctionner avec Apple Maison, Google Home, Alexa et SmartThings à la fois, et Thread est le réseau sans fil basse consommation sur lequel une grande partie de ces appareils communique.</strong> Pour en profiter en 2026, il vous faut un contrôleur Matter et, pour les appareils Thread, un « border router » Thread : souvent une enceinte, un écran ou un hub que vous possédez déjà.</p>
@@ -721,6 +724,119 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>In 2026 maken Matter en Thread hun belangrijkste belofte waar: apparaten kiezen zonder je zorgen te maken over het ecosysteem. Begin je van nul met meerdere merken, dan is de <strong>Aqara Hub M3</strong> de meest complete hub. Met een krap budget en IKEA-verlichting doet de bijgewerkte <strong>DIRIGERA</strong> het nodige. En zit je al bij Apple, Amazon of Google, dan volstaat je <strong>HomePod mini</strong>, <strong>Echo Dot Max</strong> of <strong>Nest Hub</strong> vaak om te beginnen: voeg een stekker zoals de <strong>Eve Energy</strong> toe om je Thread-netwerk op te bouwen.</p>`,
+    pl: `<p><strong>Matter to wspólny język, dzięki któremu inteligentne urządzenie może działać jednocześnie z Apple Home, Google Home, Alexą i SmartThings, a Thread to energooszczędna sieć bezprzewodowa, w której komunikuje się duża część tych urządzeń.</strong> Aby z tego skorzystać w 2026 roku, potrzebujesz kontrolera Matter, a dla urządzeń Thread także routera brzegowego Thread („border router”): często jest nim głośnik, ekran lub hub, który już masz.</p>
+<p>Ten poradnik wyjaśnia, co naprawdę robią te dwa standardy, na jakim etapie są ich wersje, które urządzenia pełnią rolę routera brzegowego w każdym ekosystemie i jaki hub wybrać. Opiera się na specyfikacjach opublikowanych przez Connectivity Standards Alliance (CSA) i Thread Group, dokumentacji producentów, niezależnych opiniach i opiniach zweryfikowanych kupujących. Aby porównać dostępne centrale i huby, zajrzyj też na naszą stronę <a href="/pl/energie-domotique/hubs-domotique">huby do inteligentnego domu</a>.</p>
+
+<h2>Czym dokładnie jest Matter?</h2>
+<p>Matter to otwarty standard aplikacyjny, prowadzony przez Connectivity Standards Alliance, do której należą m.in. Apple, Google, Amazon, Samsung, IKEA, Signify (Philips Hue) i Eve. Określa, w jaki sposób urządzenie opisuje to, co potrafi (lampa, wtyczka, termostat…), i jak kontroler wysyła mu polecenia. Trzy zasady odróżniają go od dawnych zamkniętych ekosystemów:</p>
+<ul>
+<li><strong>Sterowanie lokalne:</strong> polecenia krążą w Twojej sieci domowej. Włączenie lampy Matter z aplikacji nie zależy od zdalnego serwera, dzięki czemu system reaguje szybciej i działa przy awarii internetu (dostęp zdalny i niektórzy asystenci głosowi nadal zależą od chmury).</li>
+<li><strong>Multi-admin:</strong> to samo urządzenie można dodać do kilku ekosystemów jednocześnie, na przykład do Apple Home dla Ciebie i do Google Home dla innego domownika.</li>
+<li><strong>Wbudowane bezpieczeństwo:</strong> każde certyfikowane urządzenie ma weryfikowalną tożsamość, a wymiana danych jest szyfrowana.</li>
+</ul>
+
+<h3>Wersje Matter w skrócie</h3>
+<p>Matter 1.0 pojawił się pod koniec 2022 roku z oświetleniem, wtyczkami, zamkami, czujnikami i termostatami. Kolejne wersje poszerzyły zakres: roboty sprzątające i duże AGD (1.2), monitorowanie zużycia energii i urządzenia do gotowania (1.3), pompy ciepła, domowe akumulatory i podgrzewacze wody (1.4). <strong>Matter 1.5</strong>, opublikowany w listopadzie 2025, dodał kamery oraz bramy, bramy garażowe i rolety. <strong>Matter 1.6</strong>, opublikowany w czerwcu 2026, wprowadza parowanie przez NFC, „Joint Fabric” ułatwiający współdzielenie jednej sieci przez kilka platform oraz sugestie dla termostatów.</p>
+<p>Uwaga: to, że kategoria istnieje w specyfikacji, nie znaczy, że Twoja aplikacja już ją obsługuje. Każdy ekosystem wdraża nowe typy urządzeń we własnym tempie, a zaawansowane funkcje (mapa robota sprzątającego, historia wideo, precyzyjne ustawienia) często zostają w aplikacji producenta.</p>
+
+<h2>Thread, sieć, która przenosi Matter</h2>
+<p>Matter może działać przez Wi-Fi, Ethernet lub Thread. Thread to energooszczędna sieć radiowa oparta na IPv6, zaprojektowana dla małych urządzeń: czujników, żarówek, wtyczek, głowic termostatycznych, zamków.</p>
+<ul>
+<li><strong>Sieć kratowa:</strong> urządzenia zasilane z sieci (wtyczki, żarówki) przekazują wiadomości innych. Im ich więcej, tym szerszy zasięg.</li>
+<li><strong>Niskie zużycie energii:</strong> czujniki na baterie mogą długo pozostawać w uśpieniu, dlatego sprawdzają się jako czujniki otwarcia lub temperatury.</li>
+<li><strong>Router brzegowy:</strong> to most między siecią Thread a Twoją siecią Wi-Fi/Ethernet. Bez niego nie można dodać urządzenia Matter-over-Thread. Kilka routerów brzegowych zwiększa niezawodność.</li>
+</ul>
+<p>Wersja <strong>Thread 1.4</strong> rozwiązuje realny problem: wcześniej router brzegowy Apple i router brzegowy Google mogły tworzyć dwie osobne sieci Thread w tym samym domu. Thread 1.4 standaryzuje współdzielenie danych sieciowych między markami. Od 1 stycznia 2026 jest to jedyna wersja, w której można certyfikować nowy router brzegowy, ale już zainstalowane urządzenia dostają aktualizację w różnym tempie, zależnie od marki.</p>
+
+<h2>Które urządzenia pełnią rolę routera brzegowego Thread?</h2>
+<table>
+<thead>
+<tr><th>Ekosystem</th><th>Routery brzegowe Thread (i kontrolery Matter)</th></tr>
+</thead>
+<tbody>
+<tr><td>Apple Home</td><td>HomePod mini, HomePod (2. generacji), Apple TV 4K (2. generacji i 3. generacji Wi-Fi + Ethernet; wersja 3. generacji tylko z Wi-Fi nie ma Thread)</td></tr>
+<tr><td>Google Home</td><td>Nest Hub (2. generacji), Nest Hub Max, Nest Wifi Pro, Google TV Streamer</td></tr>
+<tr><td>Amazon Alexa</td><td>Echo (4. generacji), Echo Dot Max, Echo Studio (2025), Echo Show 8 (3. generacji) i Echo Show 11, Echo Hub oraz kilka routerów eero</td></tr>
+<tr><td>IKEA</td><td>Hub DIRIGERA, od aktualizacji oprogramowania z lipca 2025</td></tr>
+<tr><td>Aqara</td><td>Hub M3</td></tr>
+</tbody>
+</table>
+<p>Starsze modele lub z niższej półki (zwykły Echo Dot, Nest Mini, Nest Hub 1. generacji) mogą sterować urządzeniami Matter przez Wi-Fi, ale nie pełnią roli routera brzegowego Thread. Sprawdź kartę swojego urządzenia, zanim kupisz produkty Thread.</p>
+
+<h2>Przypadek IKEA DIRIGERA: co się zmieniło</h2>
+<p>Hub DIRIGERA firmy IKEA był początkowo hubem Zigbee, który udostępniał produkty IKEA innym ekosystemom przez most Matter. W lipcu 2025 aktualizacja 2.805.6 zamieniła go w <strong>kontroler Matter</strong> (może dodawać i automatyzować urządzenia Matter innych marek w aplikacji IKEA Home smart) i włączyła jego radio <strong>Thread</strong>, czyniąc z niego router brzegowy. Funkcja kontrolera wystartowała w wersji beta i trzeba ją włączyć w ustawieniach aplikacji.</p>
+<p>Od początku 2026 IKEA sprzedaje też nową gamę około dwudziestu natywnych produktów Matter-over-Thread: żarówki KAJPLATS, piloty BILRESA, czujnik ruchu MYGGSPRAY, czujnik temperatury i wilgotności TIMMERFLOTTE i inne. Te produkty mogą dołączyć do Apple Home, Google Home, Alexy lub SmartThings bezpośrednio przez router brzegowy Thread, bez DIRIGERA. Starsze żarówki TRADFRI pozostają w Zigbee: potrzebują DIRIGERA, aby pojawić się w Matterze.</p>
+
+<h2>Kryteria wyboru huba Matter i Thread</h2>
+<ul>
+<li><strong>Twój główny ekosystem:</strong> asystent głosowy i aplikacja, z których korzystasz na co dzień, liczą się bardziej niż karta techniczna.</li>
+<li><strong>Wbudowany router brzegowy Thread:</strong> niezbędny, jeśli planujesz czujniki i żarówki Thread.</li>
+<li><strong>Dodatkowo Zigbee:</strong> przydatne, jeśli masz już produkty Zigbee (Aqara, IKEA TRADFRI, Hue); niektóre huby udostępniają je w Matterze dzięki funkcji mostu.</li>
+<li><strong>Wersja Thread 1.4:</strong> upraszcza współistnienie routerów brzegowych kilku marek.</li>
+<li><strong>Automatyzacje lokalne:</strong> sprawdź, czy wykonują się na hubie, a nie tylko w chmurze.</li>
+</ul>
+
+<h2>Huby i urządzenia Matter warte uwagi w 2026 roku</h2>
+
+<h3>1. Aqara Hub M3 — najlepszy wybór ogólny</h3>
+<p>Hub M3 łączy kontroler Matter, router brzegowy Thread, hub Zigbee, nadajnik podczerwieni i połączenie Ethernet z możliwym zasilaniem PoE. Udostępnia czujniki Zigbee Aqara w Matterze i wykonuje automatyzacje lokalnie.</p>
+<p><strong>Mocne strony:</strong> najbardziej wszechstronny w tym zestawieniu, zgodny ze wszystkimi dużymi ekosystemami, stabilne połączenie kablowe. <strong>Ograniczenia:</strong> precyzyjna konfiguracja odbywa się w aplikacji Aqara, bardziej technicznej. <strong>Dla kogo:</strong> dla tych, którzy łączą kilka marek lub mają już czujniki Zigbee.</p>
+
+<h3>2. IKEA DIRIGERA — najlepszy stosunek jakości do ceny</h3>
+<p>Hub Zigbee, most Matter, a teraz także kontroler Matter i router brzegowy Thread dzięki aktualizacji. To naturalna brama do oświetlenia IKEA, zarówno starego, jak i nowego.</p>
+<p><strong>Mocne strony:</strong> przystępny segment, obsługuje istniejące produkty TRADFRI i nową gamę Thread. <strong>Ograniczenia:</strong> obsługiwane typy urządzeń pozostają ograniczone, a automatyzacje są mniej rozbudowane niż w Aqara. <strong>Dla kogo:</strong> dla domów, które wyposażają oświetlenie w IKEA.</p>
+
+<h3>3. Apple HomePod mini — dla użytkowników iPhone'a</h3>
+<p>HomePod mini jest jednocześnie głośnikiem Siri, centralą Apple Home i routerem brzegowym Thread. To jeden z najprostszych sposobów na start z Matterem w świecie Apple.</p>
+<p><strong>Mocne strony:</strong> bardzo prosta konfiguracja z iPhone'a, automatyzacje lokalne. <strong>Ograniczenia:</strong> brak Zigbee, a aplikacja Dom wymaga urządzenia Apple. <strong>Dla kogo:</strong> dla domów, które mają już iPhone'y.</p>
+
+<h3>4. Amazon Echo Dot Max — dla użytkowników Alexy</h3>
+<p>Wprowadzony pod koniec 2025, Echo Dot Max integruje hub smart home Matter, Thread i Zigbee w kompaktowej obudowie, z pełniejszym dźwiękiem niż zwykły Echo Dot.</p>
+<p><strong>Mocne strony:</strong> Thread i Zigbee bez dodatkowego huba, szeroki katalog urządzeń zgodnych z Alexą. <strong>Ograniczenia:</strong> funkcje nowej Alexa+ nie są dostępne wszędzie w Europie. <strong>Dla kogo:</strong> dla tych, którzy już sterują domem głosem przez Alexę.</p>
+
+<h3>5. Google Nest Hub (2. generacji) — dla ekosystemu Google</h3>
+<p>Inteligentny ekran z Asystentem Google, pełni rolę kontrolera Matter i routera brzegowego Thread dla Google Home.</p>
+<p><strong>Mocne strony:</strong> wygodny ekran do podglądu urządzeń, integracja z Androidem. <strong>Ograniczenia:</strong> brak Zigbee, a sprzęt nie jest już najnowszy. <strong>Dla kogo:</strong> dla domów z Androidem, które chcą ekranu sterowania w kuchni lub salonie.</p>
+
+<h3>6. Eve Energy (Matter) — wzorcowe urządzenie Thread</h3>
+<p>To nie hub, lecz inteligentna wtyczka Matter-over-Thread z pomiarem zużycia energii, która współpracuje z dowolnym routerem brzegowym Thread i kontrolerem Matter. Przekazuje też dalej sieć Thread innych urządzeń.</p>
+<p><strong>Mocne strony:</strong> bez chmury i obowiązkowego konta, zgodna z czterema dużymi ekosystemami. <strong>Ograniczenia:</strong> większa obudowa niż mini wtyczka Wi-Fi. <strong>Dla kogo:</strong> jako pierwsze urządzenie Thread, by sprawdzić, czy wszystko działa. Zobacz też nasze <a href="/pl/blog/box-domotique-hub-comparatif">porównanie hubów do inteligentnego domu</a>.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Rola</th><th>Protokoły</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td>Aqara Hub M3</td><td>Kontroler Matter, router brzegowy Thread, most</td><td>Thread, Zigbee, Wi-Fi, Ethernet/PoE, IR</td><td>Instalacje wielomarkowe</td></tr>
+<tr><td>IKEA DIRIGERA</td><td>Kontroler Matter, router brzegowy Thread, most</td><td>Thread, Zigbee, Wi-Fi, Ethernet</td><td>Oświetlenie IKEA</td></tr>
+<tr><td>Apple HomePod mini</td><td>Centrala Apple Home, router brzegowy Thread</td><td>Thread, Wi-Fi</td><td>Domy z iPhone'ami</td></tr>
+<tr><td>Amazon Echo Dot Max</td><td>Kontroler Matter, router brzegowy Thread</td><td>Thread, Zigbee, Wi-Fi</td><td>Użytkownicy Alexy</td></tr>
+<tr><td>Google Nest Hub (2. gen.)</td><td>Kontroler Matter, router brzegowy Thread</td><td>Thread, Wi-Fi</td><td>Domy z Androidem</td></tr>
+<tr><td>Eve Energy (Matter)</td><td>Wtyczka z pomiarem, router Thread</td><td>Thread</td><td>Pierwsze urządzenie Thread</td></tr>
+</tbody>
+</table>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Wiara, że „zgodny z Matter” znaczy „wszystkie funkcje”:</strong> większość działa przez Matter, ale zaawansowane ustawienia bywają dostępne tylko w aplikacji producenta.</li>
+<li><strong>Kupno urządzeń Thread bez routera brzegowego:</strong> najpierw sprawdź, czy Twój głośnik, ekran lub hub go zawiera.</li>
+<li><strong>Mylenie Zigbee z Thread:</strong> zwykła żarówka Hue lub TRADFRI działa w Zigbee i dołącza do Matter przez most.</li>
+<li><strong>Wyrzucanie kodu parowania:</strong> zachowaj kod QR lub 11-cyfrowy kod każdego urządzenia; przyda się przy resecie.</li>
+<li><strong>Stawianie od razu na kamery Matter:</strong> obsługa istnieje od Matter 1.5, ale zgodnych modeli i aplikacji nadal jest niewiele.</li>
+</ul>
+
+<h2>Instalacja: dobre nawyki</h2>
+<ol>
+<li>Zaktualizuj hub lub głośnik, zanim dodasz pierwsze urządzenie.</li>
+<li>Umieść router brzegowy pośrodku mieszkania i dodaj urządzenia Thread zasilane z sieci, aby rozszerzyć siatkę.</li>
+<li>Dodaj każde urządzenie w swoim głównym ekosystemie, a następnie udostępnij je pozostałym przez opcję „sparuj z inną usługą” lub tymczasowy kod parowania.</li>
+<li>Miej smartfon z włączonym Bluetoothem podczas parowania: często służy do pierwszego nawiązania połączenia.</li>
+</ol>
+<p>Aby dowiedzieć się więcej o oświetleniu, przeczytaj nasze <a href="/pl/blog/eclairage-connecte-comparatif">porównanie inteligentnego oświetlenia</a>.</p>
+
+<h2>Nasz werdykt</h2>
+<p>W 2026 roku Matter i Thread dotrzymują głównej obietnicy: wybierasz urządzenia, nie martwiąc się o ekosystem. Jeśli zaczynasz od zera z kilkoma markami, <strong>Aqara Hub M3</strong> to najbardziej kompletny hub. Przy ciaśniejszym budżecie i oświetleniu IKEA zaktualizowany <strong>DIRIGERA</strong> załatwia większość spraw. A jeśli masz już sprzęt Apple, Amazon lub Google, Twój <strong>HomePod mini</strong>, <strong>Echo Dot Max</strong> lub <strong>Nest Hub</strong> często wystarczy na start: dodaj wtyczkę, taką jak <strong>Eve Energy</strong>, aby zbudować sieć Thread.</p>`,
   },
   faq: [
     {
@@ -731,6 +847,7 @@ export const article: BlogArticle = {
         es: '¿Necesito un hub para usar Matter?',
         it: 'Serve un hub per usare Matter?',
         nl: 'Heb ik een hub nodig voor Matter?',
+        pl: 'Czy potrzebny jest hub, aby używać Matter?',
       },
       answer: {
         fr: 'Il faut un contrôleur Matter, souvent une enceinte, un écran ou une box déjà présente chez vous. Les appareils Matter en Wi-Fi se connectent directement à votre box internet ; les appareils Matter en Thread ont en plus besoin d’un border router Thread, intégré à de nombreux HomePod, Echo, Nest Hub et hubs comme l’Aqara Hub M3 ou IKEA DIRIGERA.',
@@ -739,6 +856,7 @@ export const article: BlogArticle = {
         es: 'Necesitas un controlador Matter, a menudo un altavoz, pantalla o hub que ya tienes. Los dispositivos Matter por wifi se conectan directamente al router; los dispositivos Matter sobre Thread necesitan además un border router Thread, integrado en muchos HomePod, Echo y Nest Hub y en hubs como Aqara Hub M3 o IKEA DIRIGERA.',
         it: 'Serve un controller Matter, spesso un altoparlante, uno schermo o un hub che avete già. I dispositivi Matter Wi-Fi si collegano direttamente al router; quelli Matter su Thread richiedono anche un border router Thread, integrato in molti HomePod, Echo e Nest Hub e in hub come Aqara Hub M3 o IKEA DIRIGERA.',
         nl: 'Je hebt een Matter-controller nodig, vaak een speaker, scherm of hub die je al hebt. Matter-apparaten op wifi verbinden rechtstreeks met je router; Matter-apparaten op Thread hebben daarnaast een Thread-borderrouter nodig, die in veel HomePod-, Echo- en Nest Hub-modellen zit en in hubs als de Aqara Hub M3 of IKEA DIRIGERA.',
+        pl: 'Potrzebny jest kontroler Matter, często głośnik, ekran lub hub, który już masz w domu. Urządzenia Matter przez Wi-Fi łączą się bezpośrednio z Twoim routerem internetowym; urządzenia Matter przez Thread potrzebują dodatkowo routera brzegowego Thread, wbudowanego w wiele HomePodów, Echo, Nest Hubów i hubów takich jak Aqara Hub M3 czy IKEA DIRIGERA.',
       },
     },
     {
@@ -749,6 +867,7 @@ export const article: BlogArticle = {
         es: '¿Cuál es la última versión de Matter en 2026?',
         it: 'Qual è l’ultima versione di Matter nel 2026?',
         nl: 'Wat is de nieuwste versie van Matter in 2026?',
+        pl: 'Jaka jest najnowsza wersja Matter w 2026 roku?',
       },
       answer: {
         fr: 'Matter 1.6, publié en juin 2026, qui ajoute notamment l’appairage par NFC et le Joint Fabric. Matter 1.5, sorti en novembre 2025, avait introduit les caméras et les portails, portes de garage et volets. Les nouvelles versions restent compatibles avec les appareils certifiés auparavant.',
@@ -757,6 +876,7 @@ export const article: BlogArticle = {
         es: 'Matter 1.6, publicado en junio de 2026, que añade entre otras cosas la configuración por NFC y el Joint Fabric. Matter 1.5, de noviembre de 2025, introdujo las cámaras y las cancelas, puertas de garaje y persianas. Las nuevas versiones siguen siendo compatibles con los dispositivos ya certificados.',
         it: 'Matter 1.6, pubblicato a giugno 2026, che aggiunge tra l’altro l’abbinamento via NFC e il Joint Fabric. Matter 1.5, uscito a novembre 2025, aveva introdotto telecamere, cancelli, porte da garage e tapparelle. Le nuove versioni restano compatibili con i dispositivi già certificati.',
         nl: 'Matter 1.6, gepubliceerd in juni 2026, dat onder meer instellen via NFC en Joint Fabric toevoegt. Matter 1.5 uit november 2025 introduceerde camera’s plus poorten, garagedeuren en zonwering. Nieuwe versies blijven compatibel met eerder gecertificeerde apparaten.',
+        pl: 'Matter 1.6, opublikowany w czerwcu 2026, który dodaje m.in. parowanie przez NFC i Joint Fabric. Matter 1.5, wydany w listopadzie 2025, wprowadził kamery oraz bramy, bramy garażowe i rolety. Nowe wersje pozostają zgodne z urządzeniami certyfikowanymi wcześniej.',
       },
     },
     {
@@ -767,6 +887,7 @@ export const article: BlogArticle = {
         es: '¿IKEA DIRIGERA es un border router Thread?',
         it: 'IKEA DIRIGERA è un border router Thread?',
         nl: 'Is de IKEA DIRIGERA een Thread-borderrouter?',
+        pl: 'Czy IKEA DIRIGERA jest routerem brzegowym Thread?',
       },
       answer: {
         fr: 'Oui, depuis la mise à jour 2.805.6 déployée à partir de juillet 2025. Elle a aussi fait de DIRIGERA un contrôleur Matter capable d’ajouter des appareils d’autres marques. La fonction contrôleur doit être activée dans les réglages de l’application IKEA Home smart.',
@@ -775,6 +896,7 @@ export const article: BlogArticle = {
         es: 'Sí, desde la actualización 2.805.6, distribuida a partir de julio de 2025. También convirtió a DIRIGERA en controlador Matter capaz de añadir dispositivos de otras marcas. La función de controlador debe activarse en los ajustes de la app IKEA Home smart.',
         it: 'Sì, dall’aggiornamento 2.805.6 distribuito da luglio 2025. Lo ha anche trasformato in controller Matter capace di aggiungere dispositivi di altre marche. La funzione controller va attivata nelle impostazioni dell’app IKEA Home smart.',
         nl: 'Ja, sinds update 2.805.6, uitgerold vanaf juli 2025. Die maakte van DIRIGERA ook een Matter-controller die apparaten van andere merken kan toevoegen. De controllerfunctie moet worden ingeschakeld in de instellingen van de app IKEA Home smart.',
+        pl: 'Tak, od aktualizacji 2.805.6 wdrażanej od lipca 2025. Uczyniła ona z DIRIGERA także kontroler Matter, który może dodawać urządzenia innych marek. Funkcję kontrolera trzeba włączyć w ustawieniach aplikacji IKEA Home smart.',
       },
     },
     {
@@ -785,6 +907,7 @@ export const article: BlogArticle = {
         es: '¿Funciona Matter sin internet?',
         it: 'Matter funziona senza internet?',
         nl: 'Werkt Matter zonder internet?',
+        pl: 'Czy Matter działa bez internetu?',
       },
       answer: {
         fr: 'Les commandes locales et les automatisations exécutées sur le hub continuent de fonctionner, car elles passent par votre réseau domestique. L’accès à distance, certaines commandes vocales et les mises à jour nécessitent en revanche une connexion internet.',
@@ -793,6 +916,7 @@ export const article: BlogArticle = {
         es: 'Los comandos locales y las automatizaciones que se ejecutan en el hub siguen funcionando porque pasan por tu red doméstica. El acceso remoto, algunos comandos de voz y las actualizaciones sí necesitan conexión a internet.',
         it: 'I comandi locali e le automazioni eseguite sull’hub continuano a funzionare perché passano dalla rete di casa. L’accesso remoto, alcuni comandi vocali e gli aggiornamenti richiedono invece una connessione internet.',
         nl: 'Lokale opdrachten en automatiseringen die op de hub draaien blijven werken, omdat ze via je thuisnetwerk lopen. Bediening op afstand, sommige spraakopdrachten en updates hebben wel internet nodig.',
+        pl: 'Polecenia lokalne i automatyzacje wykonywane na hubie nadal działają, ponieważ przechodzą przez Twoją sieć domową. Dostęp zdalny, niektóre polecenia głosowe i aktualizacje wymagają jednak połączenia z internetem.',
       },
     },
     {
@@ -803,6 +927,7 @@ export const article: BlogArticle = {
         es: '¿Qué diferencia hay entre Matter, Thread y Zigbee?',
         it: 'Che differenza c’è tra Matter, Thread e Zigbee?',
         nl: 'Wat is het verschil tussen Matter, Thread en Zigbee?',
+        pl: 'Jaka jest różnica między Matter, Thread i Zigbee?',
       },
       answer: {
         fr: 'Matter est le langage commun des appareils. Thread est un réseau radio maillé basse consommation sur lequel Matter peut circuler, comme le Wi-Fi ou l’Ethernet. Zigbee est un autre réseau maillé, plus ancien, qui ne transporte pas Matter : les appareils Zigbee passent par un pont (Hue, DIRIGERA, Aqara) pour apparaître dans Matter.',
@@ -811,6 +936,7 @@ export const article: BlogArticle = {
         es: 'Matter es el lenguaje común de los dispositivos. Thread es una red radio mallada de bajo consumo por la que puede circular Matter, igual que wifi o Ethernet. Zigbee es otra red mallada, más antigua, que no transporta Matter: los dispositivos Zigbee pasan por un puente (Hue, DIRIGERA, Aqara) para aparecer en Matter.',
         it: 'Matter è il linguaggio comune dei dispositivi. Thread è una rete radio mesh a basso consumo su cui può viaggiare Matter, come Wi-Fi o Ethernet. Zigbee è un’altra rete mesh, più vecchia, che non trasporta Matter: i dispositivi Zigbee passano da un bridge (Hue, DIRIGERA, Aqara) per comparire in Matter.',
         nl: 'Matter is de gemeenschappelijke taal van apparaten. Thread is een zuinig mesh-radionetwerk waarover Matter kan lopen, net als wifi of ethernet. Zigbee is een ander, ouder mesh-netwerk dat geen Matter draagt: Zigbee-apparaten verschijnen via een bridge (Hue, DIRIGERA, Aqara) in Matter.',
+        pl: 'Matter to wspólny język urządzeń. Thread to energooszczędna kratowa sieć radiowa, w której może krążyć Matter, podobnie jak w Wi-Fi czy Ethernecie. Zigbee to inna, starsza sieć kratowa, która nie przenosi Matter: urządzenia Zigbee trafiają do Matter przez most (Hue, DIRIGERA, Aqara).',
       },
     },
     {
@@ -821,6 +947,7 @@ export const article: BlogArticle = {
         es: '¿Puedo usar varios border routers de marcas distintas?',
         it: 'Posso usare più border router di marche diverse?',
         nl: 'Kan ik meerdere borderrouters van verschillende merken gebruiken?',
+        pl: 'Czy mogę używać kilku routerów brzegowych różnych marek?',
       },
       answer: {
         fr: 'Oui. Avec Thread 1.4, les border routers partagent les identifiants réseau pour former un seul réseau Thread. Les appareils plus anciens peuvent encore créer des réseaux séparés tant qu’ils n’ont pas reçu la mise à jour : vérifiez les versions dans les applications de vos fabricants.',
@@ -829,6 +956,7 @@ export const article: BlogArticle = {
         es: 'Sí. Con Thread 1.4, los border routers comparten las credenciales de red para formar una sola red Thread. Los dispositivos más antiguos aún pueden crear redes separadas hasta recibir la actualización: comprueba las versiones en las apps de los fabricantes.',
         it: 'Sì. Con Thread 1.4 i border router condividono le credenziali di rete e formano un’unica rete Thread. I dispositivi più vecchi possono ancora creare reti separate finché non ricevono l’aggiornamento: verificate le versioni nelle app dei produttori.',
         nl: 'Ja. Met Thread 1.4 delen borderrouters de netwerkgegevens en vormen ze één Thread-netwerk. Oudere apparaten kunnen nog aparte netwerken opzetten tot ze de update krijgen: controleer de versies in de apps van de fabrikanten.',
+        pl: 'Tak. W Thread 1.4 routery brzegowe współdzielą dane sieciowe i tworzą jedną sieć Thread. Starsze urządzenia mogą nadal tworzyć osobne sieci, dopóki nie dostaną aktualizacji: sprawdź wersje w aplikacjach swoich producentów.',
       },
     },
   ],

@@ -52,6 +52,13 @@ const pageContent: Record<string, { title: string; subtitle: string; intro: stri
     intro: 'Beantwoord 3 eenvoudige vragen en ontdek het model dat past bij uw huishouden, budget en prioriteiten.',
     breadcrumb: 'Quiz',
   },
+  pl: {
+    kicker: 'Quiz dopasowany do Ciebie',
+    title: 'Jaka frytkownica beztłuszczowa dla mnie?',
+    subtitle: 'Rekomendacja na miarę w 3 pytaniach',
+    intro: 'Odpowiedz na 3 proste pytania i dowiedz się, który model pasuje do Twojego gospodarstwa domowego, budżetu i priorytetów.',
+    breadcrumb: 'Quiz',
+  },
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {

@@ -18,6 +18,7 @@ const BUTTON_LABEL: Record<string, string> = {
   es: 'Ver precio',
   it: 'Vedi prezzo',
   nl: 'Bekijk prijs',
+  pl: 'Sprawdź cenę',
 }
 
 const AFFILIATE_NOTE: Record<string, string> = {
@@ -27,6 +28,7 @@ const AFFILIATE_NOTE: Record<string, string> = {
   es: 'Enlace de afiliado',
   it: 'Link di affiliazione',
   nl: 'Affiliatelink',
+  pl: 'Link afiliacyjny',
 }
 
 // Show once the reader is past the hero, hide while a product block

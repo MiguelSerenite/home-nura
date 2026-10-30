@@ -31,7 +31,7 @@ export const BLACK_FRIDAY_HUB_PATH = '/black-friday'
 
 // ---------------------------------------------------------------------
 // Amazon links: built with the shared helpers of lib/amazon.ts (amazon.fr
-// + the Global Earning store ID, in all 6 languages), so the store and the
+// + the Global Earning store ID, in every language), so the store and the
 // tag are defined in one place and covered by tests/lib/affiliate-tags.
 // Picks use amazonProductUrl / amazonSearchUrl (see ./index.ts).
 // ---------------------------------------------------------------------
