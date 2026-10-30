@@ -15,6 +15,7 @@
 import { LANGUAGES } from '@/lib/i18n'
 import { describe, it, expect } from 'vitest'
 import { CATEGORIES } from '@/lib/catalog/categories'
+import { CATEGORY_FAQS } from '@/lib/catalog/category-faqs'
 import {
   getCategoryHero,
   getCategoryFaq,
@@ -110,6 +111,21 @@ describe('getCategoryHero', () => {
   })
 })
 
+describe('German copy never claims a test', () => {
+  // Home Nura runs no lab: "Test"/"Testsieger" would be misleading
+  // advertising in Germany (UWG). Comparisons say "Vergleich".
+  it('category heroes and persona guides avoid "Test"', () => {
+    for (const cat of CATEGORIES) {
+      const hero = getCategoryHero('de', cat)
+      expect(`${hero.title} ${hero.subtitle}`, cat.slug).not.toMatch(/test/i)
+    }
+    for (const p of BUYER_PERSONAS) {
+      const guide = getPersonaGuideHero('de', p)
+      expect(`${guide.title} ${guide.subtitle}`, p.slug).not.toMatch(/test/i)
+    }
+  })
+})
+
 describe('getCategoryFaq', () => {
   it('returns at least 3 entries for every category × locale', () => {
     for (const cat of CATEGORIES) {
@@ -127,8 +143,11 @@ describe('getCategoryFaq', () => {
     }
   })
 
-  it('every FAQ question references the category title (topical anchor)', () => {
-    for (const cat of CATEGORIES) {
+  it('every template FAQ question references the category title (topical anchor)', () => {
+    // Categories with a written FAQ (lib/catalog/category-faqs) phrase
+    // their questions the way each market searches; category-faqs.test.ts
+    // covers them.
+    for (const cat of CATEGORIES.filter((c) => !CATEGORY_FAQS[c.slug])) {
       for (const lang of LANGS) {
         const faq = getCategoryFaq(lang, cat)
         const catTitle = cat.title[lang].toLowerCase()

@@ -7,7 +7,16 @@ interface FaqItem {
   answer: string
 }
 
-export default function FaqSection({ faqs, title }: { faqs: FaqItem[]; title: string }) {
+interface FaqSectionProps {
+  faqs: FaqItem[]
+  title: string
+  /** Visible freshness line, e.g. "Mis à jour le 30 octobre 2026" (formatted on the server). */
+  updatedText?: string
+  /** ISO date behind updatedText, for the <time> element. */
+  updatedIso?: string
+}
+
+export default function FaqSection({ faqs, title, updatedText, updatedIso }: FaqSectionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null)
 
   const toggle = (index: number) => {
@@ -44,6 +53,11 @@ export default function FaqSection({ faqs, title }: { faqs: FaqItem[]; title: st
         <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">
           {title}
         </h2>
+        {updatedText && (
+          <p className="text-sm text-slate-500 mb-5">
+            <time dateTime={updatedIso}>{updatedText}</time>
+          </p>
+        )}
         <div className="h-[2px] w-16 bg-brand-600 mx-auto"></div>
       </div>
 
