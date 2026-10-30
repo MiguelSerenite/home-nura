@@ -38,7 +38,7 @@ describe('authors', () => {
       expect(AUTHORS[lang].bio, lang).toMatch(PEN_NAME[lang])
       expect(AUTHORS[lang].bio, lang).toContain('Home Nura')
       expect(AUTHOR_PAGE_COPY[lang].penName, lang).toMatch(PEN_NAME[lang])
-      expect(AUTHOR_PAGE_COPY[lang].penName, lang).toContain('Miguel Serenite')
+      expect(AUTHOR_PAGE_COPY[lang].penName, lang).toContain('Miguel Marie')
     }
   })
 

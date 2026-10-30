@@ -116,13 +116,13 @@ describe('buildPageMetadata', () => {
       type: 'article',
       publishedTime: '2026-01-01',
       modifiedTime: '2026-04-01',
-      authors: ['Miguel Serenite'],
+      authors: ['Miguel Marie'],
     })
     const og = m.openGraph as Record<string, unknown>
     expect(og.type).toBe('article')
     expect(og.publishedTime).toBe('2026-01-01')
     expect(og.modifiedTime).toBe('2026-04-01')
-    expect(og.authors).toEqual(['Miguel Serenite'])
+    expect(og.authors).toEqual(['Miguel Marie'])
   })
 
   it('defaults article authors to ["Home Nura"] when omitted', () => {
