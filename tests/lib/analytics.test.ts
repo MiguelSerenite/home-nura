@@ -141,3 +141,57 @@ describe('EVENTS constants', () => {
     expect(EVENTS.COMPARATOR_REMOVE).toBe('comparator_remove')
   })
 })
+
+describe('trackAffiliateClick first-party beacon', () => {
+  const sendBeacon = vi.fn(() => true)
+
+  beforeEach(() => {
+    // @ts-expect-error test setup
+    globalThis.window = { dataLayer: [], location: { pathname: '/it/blog/guide-purificateur-air-2026' } }
+    vi.stubGlobal('navigator', { sendBeacon })
+    vi.spyOn(console, 'debug').mockImplementation(() => {})
+    sendBeacon.mockClear()
+  })
+
+  afterEach(() => {
+    // @ts-expect-error test cleanup
+    delete globalThis.window
+    vi.unstubAllGlobals()
+    vi.restoreAllMocks()
+  })
+
+  it('posts the click to /api/click when the link has a surface', () => {
+    trackAffiliateClick({
+      asin: '',
+      productName: 'Levoit Core 300S',
+      location: 'article_inline',
+      lang: 'it',
+      surface: 'inline',
+      url: 'https://www.amazon.fr/s?k=Levoit+Core+300S&tag=homenuraen05-21',
+    })
+    expect(sendBeacon).toHaveBeenCalledOnce()
+    const [endpoint, body] = sendBeacon.mock.calls[0] as unknown as [string, string]
+    expect(endpoint).toBe('/api/click')
+    expect(JSON.parse(body)).toEqual({
+      path: '/it/blog/guide-purificateur-air-2026',
+      lang: 'it',
+      surface: 'inline',
+      model: 'Levoit Core 300S',
+      marketplace: 'amazon.fr',
+    })
+  })
+
+  it('sends nothing for clicks without a surface', () => {
+    trackAffiliateClick({ asin: 'B001', productName: 'Test', location: 'product_card', lang: 'fr' })
+    expect(sendBeacon).not.toHaveBeenCalled()
+  })
+
+  it('never throws when the beacon fails', () => {
+    sendBeacon.mockImplementationOnce(() => {
+      throw new Error('blocked')
+    })
+    expect(() =>
+      trackAffiliateClick({ asin: '', productName: 'X', location: 'article_sticky', lang: 'fr', surface: 'sticky' }),
+    ).not.toThrow()
+  })
+})

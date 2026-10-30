@@ -29,8 +29,9 @@ const AFFILIATE_NOTE: Record<string, string> = {
   nl: 'Affiliatelink',
 }
 
-// Show once the reader is past the hero, hide when the full product block
-// (#article-products) is on screen so the two never compete.
+// Show once the reader is past the hero, hide while a product block
+// ([data-buy-block]: mid-article or bottom) is on screen so the two never
+// compete.
 const SHOW_AFTER_SCROLL_PX = 600
 
 /** Mobile-only bottom bar keeping the top pick one tap away while reading. */
@@ -43,11 +44,19 @@ export default function ArticleStickyBuyBar({ product, lang }: { product: Sticky
     onScroll()
     window.addEventListener('scroll', onScroll, { passive: true })
 
-    const target = document.getElementById('article-products')
-    const observer = target
-      ? new IntersectionObserver(([entry]) => setProductsVisible(entry.isIntersecting))
-      : null
-    if (target && observer) observer.observe(target)
+    const targets = document.querySelectorAll('[data-buy-block]')
+    const visible = new Set<Element>()
+    const observer =
+      targets.length > 0
+        ? new IntersectionObserver((entries) => {
+            for (const entry of entries) {
+              if (entry.isIntersecting) visible.add(entry.target)
+              else visible.delete(entry.target)
+            }
+            setProductsVisible(visible.size > 0)
+          })
+        : null
+    targets.forEach((target) => observer?.observe(target))
 
     return () => {
       window.removeEventListener('scroll', onScroll)
@@ -78,6 +87,8 @@ export default function ArticleStickyBuyBar({ product, lang }: { product: Sticky
               position: 1,
               location: 'article_sticky',
               lang,
+              surface: 'sticky',
+              url: product.url,
             })
           }
           className="inline-flex min-h-12 flex-shrink-0 items-center rounded-full bg-brand-600 px-5 text-sm font-bold text-white active:bg-brand-700"

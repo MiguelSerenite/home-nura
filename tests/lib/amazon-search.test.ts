@@ -1,18 +1,21 @@
 import { describe, it, expect } from 'vitest'
-import { amazonSearchUrl } from '@/lib/products'
+import { amazonProductUrl, amazonSearchUrl, AMAZON_BASE_URL, AMAZON_STORE_ID } from '@/lib/amazon'
 
-describe('amazonSearchUrl', () => {
-  it('searches the reader store with that store partner tag', () => {
-    expect(amazonSearchUrl('Nuki Smart Lock 4.0', 'es')).toBe('https://www.amazon.es/s?k=Nuki+Smart+Lock+4.0&tag=homenuraen0a-21')
-    expect(amazonSearchUrl('Nuki Smart Lock 4.0', 'fr')).toBe('https://www.amazon.fr/s?k=Nuki+Smart+Lock+4.0&tag=homenuraen05-21')
-    expect(amazonSearchUrl('Ecowitt HP2560', 'en')).toBe('https://www.amazon.co.uk/s?k=Ecowitt+HP2560&tag=homenuraen-21')
+describe('amazon links', () => {
+  it('point every reader at amazon.fr with the French store ID (Global Earning)', () => {
+    expect(AMAZON_BASE_URL).toBe('https://www.amazon.fr')
+    expect(AMAZON_STORE_ID).toBe('homenuraen05-21')
+  })
+
+  it('build product pages from the ASIN', () => {
+    expect(amazonProductUrl('B0CZPJ1HFP')).toBe('https://www.amazon.fr/dp/B0CZPJ1HFP?tag=homenuraen05-21')
+  })
+
+  it('build search pages from the model name', () => {
+    expect(amazonSearchUrl('Nuki Smart Lock 4.0')).toBe('https://www.amazon.fr/s?k=Nuki+Smart+Lock+4.0&tag=homenuraen05-21')
   })
 
   it('encodes special characters', () => {
-    expect(amazonSearchUrl("De'Longhi Dedica & Co", 'de')).toBe("https://www.amazon.de/s?k=De%27Longhi+Dedica+%26+Co&tag=homenuraen00-21")
-  })
-
-  it('falls back to the French store for unknown locales', () => {
-    expect(amazonSearchUrl('Tedee GO', 'xx')).toContain('https://www.amazon.fr/s?k=Tedee+GO&tag=homenuraen05-21')
+    expect(amazonSearchUrl("De'Longhi Dedica & Co")).toBe('https://www.amazon.fr/s?k=De%27Longhi+Dedica+%26+Co&tag=homenuraen05-21')
   })
 })

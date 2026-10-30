@@ -76,7 +76,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
     const p = displayProducts[0]
     if (!p) return null
     return (
-      <div className="not-prose my-8 rounded-2xl border border-brand-100 bg-brand-50 p-4 sm:p-5">
+      <div data-buy-block className="not-prose my-8 rounded-2xl border border-brand-100 bg-brand-50 p-4 sm:p-5">
         <div className="flex items-center gap-4">
           <div className="w-[72px] h-[72px] flex-shrink-0 relative rounded-xl overflow-hidden bg-white">
             <Image src={p.image} alt="" fill sizes="72px" className="object-contain p-1" loading="lazy" />
@@ -99,6 +99,8 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
                 position: 1,
                 location: 'article_inline',
                 lang,
+                surface: 'after-h2',
+                url: p.url,
               })
             }
             className="hidden sm:inline-flex min-h-12 items-center flex-shrink-0 px-5 bg-brand-600 text-white text-sm font-bold rounded-full hover:bg-brand-700 active:bg-brand-700 transition-colors whitespace-nowrap"
@@ -118,6 +120,8 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
               position: 1,
               location: 'article_inline',
               lang,
+              surface: 'after-h2',
+              url: p.url,
             })
           }
           className="sm:hidden mt-4 flex min-h-12 w-full items-center justify-center px-5 bg-brand-600 text-white text-sm font-bold rounded-full active:bg-brand-700 transition-colors"
@@ -130,7 +134,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
   }
 
   return (
-    <div id="article-products" className="not-prose mt-12 mb-8 rounded-2xl border border-brand-100 bg-brand-50 p-5 md:p-8">
+    <div id="article-products" data-buy-block className="not-prose mt-12 mb-8 rounded-2xl border border-brand-100 bg-brand-50 p-5 md:p-8">
       <h3 className="text-xl font-bold text-slate-900 mb-1">{labels.title}</h3>
       <p className="text-sm text-slate-600 mb-6">{labels.subtitle}</p>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -157,6 +161,8 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
                   position: i + 1,
                   location: 'article_bottom',
                   lang,
+                  surface: 'bottom',
+                  url: p.url,
                 })
               }
               className="w-full min-h-12 px-4 inline-flex items-center justify-center bg-brand-600 text-white text-sm font-bold rounded-full hover:bg-brand-700 active:bg-brand-700 transition-colors text-center"

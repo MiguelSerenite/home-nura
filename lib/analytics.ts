@@ -17,6 +17,8 @@
  */
 
 import { track as trackVercel } from '@vercel/analytics'
+import { AMAZON_MARKETPLACE } from '@/lib/amazon'
+import { CLICK_ENDPOINT, marketplaceOf, type AffiliateClick, type ClickSurface } from '@/lib/affiliate-click'
 
 export const EVENTS = {
   CLICK_AFFILIATE: 'click_affiliate',
@@ -95,14 +97,21 @@ export function trackEvent(event: EventName, props: EventProps = {}): void {
 /**
  * Convenience helper — track an affiliate click with the canonical
  * property shape. Keeps every call site consistent.
+ *
+ * With a `surface`, the click is also sent to the first-party beacon
+ * (/api/click), the only click record that works without GA4, Plausible
+ * or Vercel Pro.
  */
 export function trackAffiliateClick(input: {
   asin: string
   productName: string
   priceNumeric?: number
   position?: number
-  location: 'comparison_table' | 'article_inline' | 'article_bottom' | 'article_sticky' | 'article_models' | 'article_quick_answer' | 'category_picks' | 'comparator' | 'product_card' | 'smart_kitchen'
+  location: 'comparison_table' | 'article_inline' | 'article_table' | 'article_bottom' | 'article_sticky' | 'article_models' | 'article_quick_answer' | 'category_picks' | 'comparator' | 'product_card' | 'smart_kitchen'
   lang: string
+  surface?: ClickSurface
+  /** Outbound URL, to record which Amazon store the click went to. */
+  url?: string
 }): void {
   trackEvent(EVENTS.CLICK_AFFILIATE, {
     asin: input.asin,
@@ -110,8 +119,42 @@ export function trackAffiliateClick(input: {
     price: input.priceNumeric,
     position: input.position,
     location: input.location,
+    surface: input.surface,
     lang: input.lang,
   })
+  if (input.surface && typeof window !== 'undefined') {
+    sendClickBeacon({
+      path: window.location?.pathname ?? '/',
+      lang: input.lang,
+      surface: input.surface,
+      model: input.productName,
+      marketplace: (input.url && marketplaceOf(input.url)) || AMAZON_MARKETPLACE,
+    })
+  }
+}
+
+/**
+ * POST the click to /api/click. sendBeacon survives the navigation the
+ * click starts; keepalive fetch is the fallback. Never throws: analytics
+ * must not block the reader on the way to Amazon.
+ */
+export function sendClickBeacon(click: AffiliateClick): void {
+  try {
+    const body = JSON.stringify(click)
+    if (typeof navigator !== 'undefined' && typeof navigator.sendBeacon === 'function') {
+      if (navigator.sendBeacon(CLICK_ENDPOINT, body)) return
+    }
+    if (typeof fetch === 'function') {
+      void fetch(CLICK_ENDPOINT, {
+        method: 'POST',
+        body,
+        keepalive: true,
+        headers: { 'content-type': 'text/plain' },
+      }).catch(() => {})
+    }
+  } catch {
+    // Dropped beacon: never surface it to the reader.
+  }
 }
 
 function stripUndefined(props: EventProps): EventProps {

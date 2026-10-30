@@ -5,14 +5,15 @@ import CookieBanner from '@/components/CookieBanner'
 import ArticleProductCTA from '@/components/ArticleProductCTA'
 import { getDictionary } from '../../dictionaries'
 import { getArticleBySlug, getRelatedArticles, getAllArticles } from '@/lib/blog'
-import { getArticleRecommendations } from '@/lib/blog/article-products'
+import { getArticleAffiliateModels, getArticleRecommendations } from '@/lib/blog/article-products'
 import ArticleModelLinks from '@/components/ArticleModelLinks'
 import QuickAnswer from '@/components/QuickAnswer'
 import { getQuickAnswer } from '@/lib/blog/quick-answers'
 import { splitBeforeNthH2 } from '@/lib/blog/split-content'
 import { getMetaSilo } from '@/lib/catalog'
 import ArticleStickyBuyBar from '@/components/ArticleStickyBuyBar'
-import { enrichContentWithCTAs } from '@/lib/blog/enrichContent'
+import { enrichArticleHtml } from '@/lib/blog/enrichContent'
+import AffiliateClickTracker from '@/components/AffiliateClickTracker'
 import { CATEGORIES, type FAQItem } from '@/lib/blog/types'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
@@ -113,9 +114,11 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
   const pillarSilo = getMetaSilo(article.pillar)
   const title = article.title[lang] || article.title.fr
   const rawContent = article.content[lang]
+  // Buy links where the text names one of the article's own models:
+  // in-text CTAs after h2 sections, model names in comparison tables.
+  const enrichedContent = enrichArticleHtml(rawContent, getArticleAffiliateModels(article, lang), lang)
   // Wrap tables in a scrollable container so they scroll horizontally on mobile
   // without breaking the table layout algorithm (`display: block` shrinks cells).
-  const enrichedContent = enrichContentWithCTAs(rawContent, lang)
   const content = enrichedContent.replace(
     /<table(\s[^>]*)?>/gi,
     '<div class="blog-table-wrap"><table$1>'
@@ -293,7 +296,9 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
         {topProducts.length > 0 && (
           <ArticleProductCTA products={topProducts} lang={lang} variant="bottom" seeAllHref={seeAllHref} />
         )}
+        <ArticleModelLinks models={citedModels} lang={lang} surface="bottom" />
         {stickyProduct && <ArticleStickyBuyBar product={stickyProduct} lang={lang} />}
+        <AffiliateClickTracker lang={lang} />
 
         {/* Related Articles */}
         {related.length > 0 && (

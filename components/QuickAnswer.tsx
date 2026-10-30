@@ -54,7 +54,9 @@ export default function QuickAnswer({
               href={pick.url}
               target="_blank"
               rel="sponsored nofollow noopener noreferrer"
-              onClick={() => trackAffiliateClick({ asin: '', productName: pick.model, position: i + 1, location, lang })}
+              onClick={() =>
+                trackAffiliateClick({ asin: '', productName: pick.model, position: i + 1, location, lang, surface: 'verdict', url: pick.url })
+              }
               className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-full bg-brand-600 px-5 text-sm font-bold text-white hover:bg-brand-700 active:bg-brand-700 transition-colors"
             >
               {labels.button} →

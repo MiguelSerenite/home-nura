@@ -22,22 +22,11 @@ import { LANGUAGES } from '@/lib/i18n'
 // Historically pre-2000 books used ISBN-10 which are the same shape.
 const ASIN_PATTERN = /^[A-Z0-9]{10}$/
 
-// Home Nura EU partner tags all end with -21 (EU scheme). -20 is US.
-// The prefix is free-form but we pin the shape to catch copy-paste
-// bugs where a tag from one account sneaks into another locale.
-const TAG_PATTERN = /^homenura[a-z0-9]*-21$/
-
-// Expected marketplace domain per locale. Amazon serves different
-// catalogs + prices per country — sending a UK visitor to amazon.fr
-// is a funnel leak even if the link loads.
-const MARKETPLACE_DOMAIN: Record<string, string> = {
-  fr: 'www.amazon.fr',
-  de: 'www.amazon.de',
-  en: 'www.amazon.co.uk',
-  es: 'www.amazon.es',
-  it: 'www.amazon.it',
-  nl: 'www.amazon.nl',
-}
+// Every locale links to amazon.fr with the French store ID: Amazon Global
+// Earning sends foreign readers to their own store and credits this tag
+// (see lib/amazon.ts).
+const EXPECTED_HOST = 'www.amazon.fr'
+const EXPECTED_TAG = 'homenuraen05-21'
 
 describe('product ASIN integrity', () => {
   it('every staticProduct has a 10-char uppercase alphanumeric ASIN', () => {
@@ -74,14 +63,10 @@ describe('outbound URL per locale', () => {
         }
       })
 
-      it('every URL points at the correct marketplace domain', () => {
-        const expected = MARKETPLACE_DOMAIN[lang]
+      it('every URL points at amazon.fr', () => {
         for (const product of resolved) {
           const url = new URL(product.url)
-          expect(
-            url.hostname,
-            `${lang} / ${product.asin} — wrong marketplace (funnel leak)`
-          ).toBe(expected)
+          expect(url.hostname, `${lang} / ${product.asin} — wrong store`).toBe(EXPECTED_HOST)
         }
       })
 
@@ -95,51 +80,12 @@ describe('outbound URL per locale', () => {
         }
       })
 
-      it('every URL carries a valid partner tag', () => {
+      it('every URL carries the French store ID', () => {
         for (const product of resolved) {
-          const url = new URL(product.url)
-          const tag = url.searchParams.get('tag')
-          expect(tag, `${lang} / ${product.asin} — missing tag param`).toBeTruthy()
-          expect(
-            tag!,
-            `${lang} / ${product.asin} — tag "${tag}" fails Home Nura EU scheme`
-          ).toMatch(TAG_PATTERN)
+          const tag = new URL(product.url).searchParams.get('tag')
+          expect(tag, `${lang} / ${product.asin} — wrong or missing tag`).toBe(EXPECTED_TAG)
         }
       })
-
-      it('tag is identical across all products in the same locale', () => {
-        // If two products in the same locale emit different tags,
-        // one of them is almost certainly a copy-paste mistake — the
-        // DEFAULT_PARTNER_TAGS map is supposed to be 1-tag-per-locale.
-        const tags = new Set(
-          resolved.map((p) => new URL(p.url).searchParams.get('tag'))
-        )
-        expect(
-          tags.size,
-          `${lang} has ${tags.size} distinct tags across ${resolved.length} products`
-        ).toBe(1)
-      })
-    })
-  }
-})
-
-describe('canonical partner tags', () => {
-  const expectedTags: Record<string, string> = {
-    fr: 'homenuraen05-21',
-    de: 'homenuraen00-21',
-    en: 'homenuraen-21',
-    es: 'homenuraen0a-21',
-    it: 'homenuraen010-21',
-    nl: 'homenuranl-21',
-  }
-
-  for (const [lang, expectedTag] of Object.entries(expectedTags)) {
-    it(`uses correct partner tag for ${lang}`, () => {
-      const products = getStaticProducts(lang)
-      for (const p of products) {
-        const tag = new URL(p.url).searchParams.get('tag')
-        expect(tag).toBe(expectedTag)
-      }
     })
   }
 })
