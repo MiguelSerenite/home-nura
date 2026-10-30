@@ -9,6 +9,7 @@ import {
 } from '@/lib/catalog'
 import type { Lang } from '@/lib/i18n'
 import ProductCard from '@/components/ProductCard'
+import ProductSceneBanner from '@/components/ProductSceneBanner'
 import AmazonDisclosure from '@/components/AmazonDisclosure'
 import FaqSection from '@/components/FaqSection'
 import IndependentSources from '@/components/IndependentSources'
@@ -516,6 +517,8 @@ export default async function CategoryPage({
         subtitle={c.subtitle}
         intro={c.intro}
       />
+
+      <ProductSceneBanner photo={products[0]?.visual.photo} />
 
       {/* Products grid */}
       <section className="max-w-6xl mx-auto px-4 md:px-6 pb-20">
