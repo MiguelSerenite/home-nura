@@ -2,7 +2,14 @@ import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { buildPageMetadata, buildClusterItemListSchema, buildProductImageObject } from '@/lib/seo'
+import {
+  buildPageMetadata,
+  buildClusterItemListSchema,
+  buildProductImageObject,
+  formatLastUpdated,
+  lastUpdatedLabel,
+  SITE_LAST_UPDATED_ISO,
+} from '@/lib/seo'
 import {
   getCategory,
   getPersonasForSilo,
@@ -12,6 +19,7 @@ import ProductCard from '@/components/ProductCard'
 import ProductSceneBanner from '@/components/ProductSceneBanner'
 import AmazonDisclosure from '@/components/AmazonDisclosure'
 import FaqSection from '@/components/FaqSection'
+import AuthorByline from '@/components/AuthorByline'
 import IndependentSources from '@/components/IndependentSources'
 import {
   SMART_KITCHEN_CATEGORIES,
@@ -24,6 +32,7 @@ import { SectionHero, SiteFooter } from '@/components/ui'
 import { resolveLang, LANGUAGES } from '@/lib/i18n'
 import { ChevronRight } from 'lucide-react'
 import { getCategoryHead } from '@/lib/catalog/category-heads'
+import { categoryModifiedIso } from '@/lib/catalog/category-faqs'
 
 
 interface CategoryContent {
@@ -419,6 +428,8 @@ export default async function CategoryPage({
   const products = getSmartKitchenProductsByCategory(safeLang, safeCat)
   const faqs = getSmartKitchenFaqs(safeLang, safeCat)
   const faqTitle = faqSectionTitles[safeLang] || faqSectionTitles.fr
+  const faqModifiedIso = categoryModifiedIso(safeCat, SITE_LAST_UPDATED_ISO)
+  const faqUpdatedText = `${lastUpdatedLabel[safeLang]} ${formatLastUpdated(safeLang, faqModifiedIso)}`
 
   // Phase OO: resolve the best-for persona cluster for this flagship
   // category via the shared catalog so the route stays in sync with
@@ -520,6 +531,7 @@ export default async function CategoryPage({
         subtitle={c.subtitle}
         intro={c.intro}
       />
+      <AuthorByline lang={safeLang} className="justify-center max-w-3xl mx-auto px-4 md:px-6 -mt-6 mb-8 text-sm" />
 
       <ProductSceneBanner photo={products[0]?.visual.photo} />
 
@@ -586,7 +598,7 @@ export default async function CategoryPage({
       )}
 
       {/* FAQ — category-specific, emits FAQPage JSON-LD */}
-      <FaqSection faqs={faqs} title={faqTitle} />
+      <FaqSection faqs={faqs} title={faqTitle} updatedText={faqUpdatedText} updatedIso={faqModifiedIso} />
       </main>
 
       {/* Footer */}

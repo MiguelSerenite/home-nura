@@ -4,6 +4,8 @@ import { SECURITE_FAQS } from './securite'
 import { CONFORT_AIR_FAQS } from './confort-air'
 import { ENTRETIEN_FAQS } from './entretien'
 import { OUTDOOR_FAQS } from './outdoor'
+import { CUISINE_FAQS } from './cuisine'
+import { CUISINE_B_FAQS } from './cuisine-b'
 import { FAQ_LOCALES, type CategoryFaqEntry, type CategoryFaqSets, type FaqLocale } from './types'
 
 export { FAQ_LOCALES, type CategoryFaqEntry, type CategoryFaqSets, type FaqLocale }
@@ -18,6 +20,8 @@ export const CATEGORY_FAQS: CategoryFaqSets = {
   ...CONFORT_AIR_FAQS,
   ...ENTRETIEN_FAQS,
   ...OUTDOOR_FAQS,
+  ...CUISINE_FAQS,
+  ...CUISINE_B_FAQS,
 }
 
 function isFaqLocale(value: string): value is FaqLocale {

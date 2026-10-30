@@ -34,7 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const pages = [
     { path: '', priority: 1.0, changeFrequency: 'weekly' as const, lastModified: today, images: airfryerCatalogImages },
-    { path: '/guides/airfryers', priority: 0.9, changeFrequency: 'weekly' as const, lastModified: today, images: airfryerCatalogImages },
+    { path: '/guides/airfryers', priority: 0.9, changeFrequency: 'weekly' as const, lastModified: categoryModifiedIso('airfryers', today), images: airfryerCatalogImages },
     { path: '/guides/airfryer-vs-four', priority: 0.8, changeFrequency: 'monthly' as const, lastModified: today, images: airfryerCatalogImages },
     { path: '/guides/cuisine-connectee', priority: 0.9, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/comparateur', priority: 0.85, changeFrequency: 'weekly' as const, lastModified: today },
@@ -45,7 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       path: `/cuisine-connectee/${cat}`,
       priority: 0.75,
       changeFrequency: 'weekly' as const,
-      lastModified: today,
+      lastModified: categoryModifiedIso(cat, today),
       images: (lang: Lang) => smartKitchenCategoryImages(lang, cat),
     })),
     { path: '/quiz', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: today },
