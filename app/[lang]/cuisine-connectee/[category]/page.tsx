@@ -9,6 +9,7 @@ import {
 } from '@/lib/catalog'
 import type { Lang } from '@/lib/i18n'
 import ProductCard from '@/components/ProductCard'
+import AmazonDisclosure from '@/components/AmazonDisclosure'
 import FaqSection from '@/components/FaqSection'
 import {
   SMART_KITCHEN_CATEGORIES,
@@ -476,8 +477,8 @@ export default async function CategoryPage({
               <ProductCard
                 key={p.asin}
                 name={p.title}
-                price={p.price}
-                imageUrl={p.image}
+                priceNumeric={p.priceNumeric}
+                visual={p.visual}
                 affiliateLink={p.url}
                 asin={p.asin}
                 badge={p.badge}
@@ -488,6 +489,9 @@ export default async function CategoryPage({
               />
             ))}
           </div>
+        )}
+        {products.length > 0 && (
+          <AmazonDisclosure lang={safeLang} className="mt-6 text-center text-xs text-slate-500" />
         )}
       </section>
 

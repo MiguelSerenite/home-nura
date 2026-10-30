@@ -1,4 +1,6 @@
 import { test, expect, type Page } from '@playwright/test'
+import { AMAZON_ASSOCIATE_DISCLOSURE } from '../lib/affiliate-disclosure'
+import { LANGUAGES } from '../lib/i18n'
 
 /**
  * Home Nura — E2E smoke suite.
@@ -205,4 +207,23 @@ test.describe('Geo locale suggestion', () => {
     await page.goto('/es/blog')
     await expect(page.getByRole('link', { name: 'Ver en español' })).toHaveCount(0)
   })
+})
+
+// Amazon Associates without the product API: no Amazon product images
+// (no hotlink, no cached copy) and Amazon's exact disclosure on the page.
+test.describe('Amazon compliance (served HTML)', () => {
+  const AMAZON_IMAGE_HOST = /media-amazon\.com|images-amazon\.com|ssl-images-amazon/i
+  const PAGES = ['', '/guides/airfryers', '/comparateur', '/cuisine-connectee/cafetieres']
+
+  for (const lang of LANGUAGES) {
+    test(`/${lang} pages: no Amazon image host, Associates disclosure present`, async ({ request }) => {
+      for (const path of PAGES) {
+        const response = await request.get(`/${lang}${path}`)
+        expect(response.status(), `/${lang}${path}`).toBe(200)
+        const html = await response.text()
+        expect(html, `/${lang}${path}`).not.toMatch(AMAZON_IMAGE_HOST)
+        expect(html, `/${lang}${path}`).toContain(AMAZON_ASSOCIATE_DISCLOSURE[lang])
+      }
+    })
+  }
 })

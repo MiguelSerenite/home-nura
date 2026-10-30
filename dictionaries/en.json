@@ -1,12 +1,11 @@
 {
   "welcome": "Best Smart Air Fryers 2026: The Ultimate Guide",
   "description": "Save time and eat better. Discover the top-rated connected air fryers for the modern British home.",
-  "buy_button": "Check price on Amazon.co.uk",
+  "buy_button": "View on Amazon",
   "why_trust": "Why Trust Home Nura?",
   "expert_label": "Nura Expert Review",
   "section_title": "Our Top Picks",
   "section_subtitle": "Best value for money, selected by our experts.",
-  "affiliate_disclaimer": "As an Amazon Associate, Home Nura earns from qualifying purchases.",
   "legal_notice": "Legal notice",
   "privacy_policy": "Privacy",
   "cookie_policy": "Cookies",
@@ -18,14 +17,9 @@
   "col_nura_score": "Nura Score",
   "col_capacity": "Capacity",
   "col_best_for": "Best for",
-  "col_price": "Price",
   "col_action": "Action",
   "col_pros": "Pros",
   "col_cons": "Cons",
-  "sort_by": "Sort by",
-  "sort_price_asc": "Price ↑",
-  "sort_price_desc": "Price ↓",
-  "sort_score": "Nura Score",
   "show_details": "Show details",
   "hide_details": "Hide details",
   "cookie_banner_text": "This site uses strictly necessary cookies and Amazon third-party cookies for affiliate links.",
@@ -111,7 +105,7 @@
     },
     {
       "question": "What is the best budget air fryer in 2026?",
-      "answer": "The best budget air fryer in 2026 is the Cosori Lite (3.8L) at around £60, which earns an impressive Nura Score of 7.8/10 despite its affordable price. It offers 1500W of power, 4 automatic programmes, and a basket large enough for 2-3 people. In second place, the Xiaomi Smart Air Fryer Pro (4L) at £70 stands out with WiFi connectivity and control via the Mi Home app — a rare luxury at this price point. The Moulinex Easy Fry Max (5L) at £75 offers the largest capacity in the budget segment. Our criteria for budget models: proven reliability, durable non-stick coating, easy cleaning, and controlled energy consumption. All these models carry a minimum 2-year warranty."
+      "answer": "The best budget air fryer in 2026 is the Cosori Lite (3.8L), which earns an impressive Nura Score of 7.8/10 despite its affordable price. It offers 1500W of power, 4 automatic programmes, and a basket large enough for 2-3 people. In second place, the Xiaomi Smart Air Fryer Pro (4L) stands out with WiFi connectivity and control via the Mi Home app — a rare luxury at this price point. The Moulinex Easy Fry Max (5L) offers the largest capacity in the budget segment. Our criteria for budget models (under £100): proven reliability, durable non-stick coating, easy cleaning, and controlled energy consumption. All these models carry a minimum 2-year warranty."
     },
     {
       "question": "How is the Nura Score calculated?",

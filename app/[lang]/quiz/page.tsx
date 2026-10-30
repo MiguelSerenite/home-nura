@@ -74,9 +74,8 @@ export default async function QuizPage({ params }: { params: Promise<{ lang: str
   const products = rawProducts.map((p) => ({
     asin: p.asin,
     title: p.title,
-    price: p.price,
     priceNumeric: p.priceNumeric,
-    image: p.image,
+    visual: p.visual,
     url: p.url,
     nuraScore: p.nuraScore,
     capacity: p.capacity,

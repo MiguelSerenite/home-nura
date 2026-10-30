@@ -2,6 +2,7 @@ import type { Lang } from '@/lib/i18n'
 import { AMAZON_BLACK_FRIDAY_URL, primeTrialUrl } from '@/lib/black-friday'
 import { HUB_COPY, PRIME_COPY_FR } from '@/lib/black-friday/copy/hub'
 import BlackFridayAmazonLink from './AmazonLink'
+import AmazonDisclosure from '@/components/AmazonDisclosure'
 
 const BUTTON =
   'inline-flex min-h-12 items-center justify-center rounded-full px-6 text-sm font-bold transition-colors'
@@ -40,6 +41,7 @@ export default function AmazonEventBlock({ lang }: { lang: Lang }) {
           </div>
         )}
       </div>
+      <AmazonDisclosure lang={lang} className="mt-4 text-center text-xs text-slate-500" />
     </section>
   )
 }

@@ -54,7 +54,6 @@ import {
   getProblemFaq,
   categoryPath,
 } from '@/lib/catalog'
-import { getDictionary } from '../../../dictionaries'
 import { LANGUAGES, isValidLang, type Lang } from '@/lib/i18n'
 import { ChevronRight } from 'lucide-react'
 
@@ -232,7 +231,6 @@ export default async function ProblemGuidePage({
   const categoryTitle = category.title[safeLang]
   const categoryHref = `/${safeLang}${categoryPath(category)}`
   const buyBox = getProblemBuyBox(prob, safeLang)
-  const dict = await getDictionary(safeLang)
 
   // Phase OO: sibling-problem cluster. Every problem on a given
   // category cross-links to its siblings so the troubleshooting
@@ -505,7 +503,6 @@ export default async function ProblemGuidePage({
 
       <SiteFooter
         currentLang={safeLang}
-        topContent={buyBox ? <p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p> : undefined}
       />
     </div>
   )

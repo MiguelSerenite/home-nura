@@ -1,4 +1,5 @@
 import Navbar from '@/components/Navbar'
+import { SiteFooter } from '@/components/ui'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { buildPageMetadata } from '@/lib/seo'
@@ -533,6 +534,7 @@ export default async function PolitiqueConfidentialite({ params }: { params: Pro
           </Link>
         </div>
       </main>
+      <SiteFooter currentLang={lang} />
     </div>
   )
 }

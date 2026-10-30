@@ -1,10 +1,12 @@
-import Image from 'next/image'
+import type { ProductVisualData } from '@/lib/product-visual'
 import AffiliateLink from './AffiliateLink'
+import ProductVisual from './ProductVisual'
 
 interface ProductProps {
   name: string;
-  price: string;
-  imageUrl: string;
+  /** Click analytics only, never rendered (no Amazon prices without its API). */
+  priceNumeric?: number;
+  visual: ProductVisualData;
   affiliateLink: string;
   asin: string;
   buyButtonText?: string;
@@ -15,13 +17,9 @@ interface ProductProps {
   position?: number;
 }
 
-export default async function ProductCard({ name, price, imageUrl, affiliateLink, asin, buyButtonText, badge, lang = 'fr', capacity, bestFor, position }: ProductProps) {
-  // Numeric price is only used for click analytics, never displayed:
-  // Amazon Associates allows displayed prices only via PA-API (24h max).
-  const priceForTracking = parseFloat(price.replace(/[^0-9.,]/g, '').replace(',', '.'))
-
-  // Enriched alt for Google Images SEO — includes brand, capacity, usage context
-  const enrichedAlt = [name, capacity, bestFor].filter(Boolean).join(' — ')
+export default async function ProductCard({ name, priceNumeric, visual, affiliateLink, asin, buyButtonText, badge, lang = 'fr', capacity, bestFor, position }: ProductProps) {
+  // Accessible name of the visual: brand, capacity, usage context.
+  const visualLabel = [name, capacity, bestFor].filter(Boolean).join(' — ')
 
   return (
     <div className="group relative flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition duration-200 hover:shadow-md hover:-translate-y-1">
@@ -30,15 +28,8 @@ export default async function ProductCard({ name, price, imageUrl, affiliateLink
           {badge}
         </div>
       )}
-      <div className="aspect-square overflow-hidden bg-slate-100 relative">
-        <Image
-          src={imageUrl}
-          alt={enrichedAlt}
-          fill
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="object-contain p-4 transition-transform duration-300 group-hover:scale-105"
-          loading="lazy"
-        />
+      <div className="aspect-square overflow-hidden relative">
+        <ProductVisual {...visual} label={visualLabel} className="transition-transform duration-300 group-hover:scale-105" />
       </div>
       <div className="flex flex-1 flex-col p-6">
         <h3 className="text-lg font-bold text-slate-900 line-clamp-2 leading-tight">
@@ -48,13 +39,13 @@ export default async function ProductCard({ name, price, imageUrl, affiliateLink
           href={affiliateLink}
           asin={asin}
           productName={name}
-          priceNumeric={Number.isFinite(priceForTracking) ? priceForTracking : undefined}
+          priceNumeric={priceNumeric}
           position={position}
           location="product_card"
           lang={lang}
           className="mt-6 block w-full rounded-full bg-brand-600 px-4 py-3 text-center text-sm font-bold text-white transition-colors hover:bg-brand-700"
         >
-          {buyButtonText || 'Vérifier le prix sur Amazon'}
+          {buyButtonText || 'Voir sur Amazon'}
         </AffiliateLink>
       </div>
     </div>

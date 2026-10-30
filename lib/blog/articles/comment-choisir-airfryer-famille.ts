@@ -10,14 +10,14 @@ export const article: BlogArticle = {
   readingTime: 14,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/41CfTSLQprL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1781737857663-f1f14a60ba46?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Airfryer familial grande capacité pour cuisiner pour toute la famille',
-        en: 'Large capacity family air fryer for cooking for the whole family',
-        de: 'Familien-Heißluftfritteuse mit großem Fassungsvermögen für die ganze Familie',
-        es: 'Freidora de aire familiar de gran capacidad para cocinar para toda la familia',
-        it: 'Friggitrice ad aria familiare di grande capacità per cucinare per tutta la famiglia',
-        nl: 'Grote gezins-airfryer om te koken voor het hele gezin',
+        fr: 'Grande fournée de morceaux de poulet croustillants sur la grille d’un airfryer',
+        en: 'A large batch of crispy chicken pieces on an air fryer rack',
+        de: 'Große Portion knuspriger Hähnchenstücke auf dem Rost einer Heißluftfritteuse',
+        es: 'Una gran tanda de trozos de pollo crujiente en la rejilla de una freidora de aire',
+        it: 'Una grande infornata di pezzi di pollo croccante sulla griglia di una friggitrice ad aria',
+        nl: 'Een grote portie krokante kipstukjes op het rooster van een airfryer',
       },
     },
   ],

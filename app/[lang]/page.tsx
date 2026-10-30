@@ -1,6 +1,7 @@
 import { getDictionary } from './dictionaries'
 import ProductCard from '@/components/ProductCard'
-import ProductImageCarousel from '@/components/ProductImageCarousel'
+import ProductHeroVisual from '@/components/ProductHeroVisual'
+import AmazonDisclosure from '@/components/AmazonDisclosure'
 import AffiliateLink from '@/components/AffiliateLink'
 import Navbar from '@/components/Navbar'
 import FaqSection from '@/components/FaqSection'
@@ -74,9 +75,8 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
   // Comparison table product mapping
   const comparisonProducts = products.map(p => ({
     name: p.title,
-    price: p.price,
     priceNumeric: p.priceNumeric,
-    image: p.image,
+    visual: p.visual,
     url: p.url,
     capacity: p.capacity,
     nuraScore: p.nuraScore,
@@ -84,7 +84,6 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     badge: p.badge,
     pros: p.pros,
     cons: p.cons,
-    images: p.images,
     asin: p.asin,
   }))
 
@@ -96,14 +95,9 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     col_nura_score: dict.col_nura_score,
     col_capacity: dict.col_capacity,
     col_best_for: dict.col_best_for,
-    col_price: dict.col_price,
     col_action: dict.col_action,
     col_pros: dict.col_pros,
     col_cons: dict.col_cons,
-    sort_by: dict.sort_by,
-    sort_price_asc: dict.sort_price_asc,
-    sort_price_desc: dict.sort_price_desc,
-    sort_score: dict.sort_score,
     buy_button: dict.buy_button,
     show_details: dict.show_details,
     hide_details: dict.hide_details,
@@ -164,7 +158,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
       <BlackFridayHomeBanner lang={lang} />
 
-      {/* Top Products Showcase with Real Images */}
+      {/* Top Products Showcase */}
       <section id="top-picks" className="scroll-mt-20 px-4 sm:px-6 py-12 md:py-16 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-slate-900 mb-4">
@@ -177,13 +171,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             {products.slice(0, 3).map((product, i) => (
               <div key={i} className="group bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition duration-200 hover:-translate-y-1">
                 <div className="p-4">
-                  <ProductImageCarousel
-                    images={product.images}
-                    alt={product.title}
-                    badge={product.badge}
-                    priority={i === 0}
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
+                  <ProductHeroVisual visual={product.visual} title={product.title} badge={product.badge} />
                 </div>
                 <div className="px-6 pb-6">
                   <h3 className="text-lg font-bold text-slate-900 mb-2 line-clamp-2">{product.title}</h3>
@@ -208,6 +196,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               </div>
             ))}
           </div>
+          <AmazonDisclosure lang={lang} className="mt-8 text-center text-xs text-slate-500" />
         </div>
       </section>
 
@@ -249,8 +238,8 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             <ProductCard
               key={index}
               name={product.title}
-              price={product.price}
-              imageUrl={product.image}
+              priceNumeric={product.priceNumeric}
+              visual={product.visual}
               affiliateLink={product.url}
               asin={product.asin}
               buyButtonText={dict.buy_button}
@@ -261,6 +250,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             />
           ))}
         </div>
+        <AmazonDisclosure lang={lang} className="mt-8 text-center text-xs text-slate-500" />
       </section>
 
       {/* Comparison Table */}
@@ -388,7 +378,6 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       {/* Footer with legal links */}
       <SiteFooter
         currentLang={lang}
-        topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
       />
 
       {/* Cookie Banner */}

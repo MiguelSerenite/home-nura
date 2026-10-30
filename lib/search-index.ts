@@ -8,8 +8,7 @@ import { getStaticProducts } from '@/lib/products'
 export function getSearchIndex(lang: string) {
   return getStaticProducts(lang).map((p) => ({
     title: p.title,
-    price: p.price,
-    image: p.image,
+    visual: p.visual,
     asin: p.asin,
     capacity: p.capacity,
     bestFor: p.bestFor,

@@ -1,6 +1,7 @@
 'use client'
 
 import { trackAffiliateClick } from '@/lib/analytics'
+import AmazonDisclosure from './AmazonDisclosure'
 import type { ClickSurface } from '@/lib/affiliate-click'
 
 export interface QuickAnswerPick {
@@ -68,7 +69,7 @@ export default function QuickAnswer({
           </li>
         ))}
       </ol>
-      <p className="mt-4 text-xs text-slate-600">{labels.disclosure}</p>
+      <AmazonDisclosure lang={lang} note={labels.disclosure} className="mt-4 text-xs text-slate-600" />
     </section>
   )
 }

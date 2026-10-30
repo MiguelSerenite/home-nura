@@ -10,14 +10,14 @@ export const article: BlogArticle = {
   readingTime: 11,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/41qK28Ln0PL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1695089028114-ce28248f0ab9?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Accessoires indispensables pour airfryer : papier sulfurisé, grilles, moules en silicone',
-        en: 'Essential air fryer accessories: parchment liners, racks, silicone moulds',
-        de: 'Unverzichtbares Heißluftfritteusen-Zubehör: Backpapier, Gitter, Silikonformen',
-        es: 'Accesorios indispensables para freidora de aire: papel pergamino, rejillas, moldes de silicona',
-        it: 'Accessori indispensabili per friggitrice ad aria: carta da forno, griglie, stampi in silicone',
-        nl: 'Onmisbare airfryer accessoires: bakpapier, rekjes, siliconenvormen',
+        fr: 'Airfryer noir posé sur un plan de travail de cuisine',
+        en: 'Black air fryer on a kitchen worktop',
+        de: 'Schwarze Heißluftfritteuse auf einer Küchenarbeitsplatte',
+        es: 'Freidora de aire negra sobre una encimera de cocina',
+        it: 'Friggitrice ad aria nera sul piano di lavoro della cucina',
+        nl: 'Zwarte airfryer op een aanrecht in de keuken',
       },
     },
   ],

@@ -2,13 +2,14 @@ import { getDictionary } from '../../dictionaries'
 import Navbar from '@/components/Navbar'
 import FaqSection from '@/components/FaqSection'
 import ProductCard from '@/components/ProductCard'
-import ProductImageCarousel from '@/components/ProductImageCarousel'
+import ProductHeroVisual from '@/components/ProductHeroVisual'
+import ProductVisual from '@/components/ProductVisual'
+import AmazonDisclosure from '@/components/AmazonDisclosure'
 import ComparisonTable from '@/components/ComparisonTable'
 import AffiliateLink from '@/components/AffiliateLink'
 import CookieBanner from '@/components/CookieBanner'
 import { getStaticProducts } from '@/lib/products'
 import { buildProductListSchema, formatLastUpdated, lastUpdatedLabel, SITE_LAST_UPDATED_ISO, buildPageMetadata } from '@/lib/seo'
-import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { Kicker, SiteFooter } from '@/components/ui'
@@ -544,9 +545,8 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
   // Comparison table product mapping
   const comparisonProducts = products.map(p => ({
     name: p.title,
-    price: p.price,
     priceNumeric: p.priceNumeric,
-    image: p.image,
+    visual: p.visual,
     url: p.url,
     capacity: p.capacity,
     nuraScore: p.nuraScore,
@@ -565,14 +565,9 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
     col_nura_score: dict.col_nura_score,
     col_capacity: dict.col_capacity,
     col_best_for: dict.col_best_for,
-    col_price: dict.col_price,
     col_action: dict.col_action,
     col_pros: dict.col_pros,
     col_cons: dict.col_cons,
-    sort_by: dict.sort_by,
-    sort_price_asc: dict.sort_price_asc,
-    sort_price_desc: dict.sort_price_desc,
-    sort_score: dict.sort_score,
     buy_button: dict.buy_button,
     show_details: dict.show_details,
     hide_details: dict.hide_details,
@@ -659,12 +654,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           {products.slice(0, 3).map((product, i) => (
             <div key={i} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="p-4">
-                <ProductImageCarousel
-                  images={product.images}
-                  alt={product.title}
-                  badge={product.badge}
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
+                <ProductHeroVisual visual={product.visual} title={product.title} badge={product.badge} />
               </div>
               <div className="px-5 pb-5">
                 <h3 className="text-base font-bold text-slate-900 mb-1 line-clamp-2">{product.title}</h3>
@@ -683,12 +673,13 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
                   lang={lang}
                   className="block w-full rounded-full bg-brand-600 px-4 py-2.5 text-center text-sm font-bold text-white hover:bg-brand-700 transition-colors"
                 >
-                  {content.verdict_title ? dict?.buy_button || 'Voir sur Amazon' : 'Voir sur Amazon'}
+                  {dict.buy_button}
                 </AffiliateLink>
               </div>
             </div>
           ))}
         </div>
+        <AmazonDisclosure lang={lang} className="mt-6 text-center text-xs text-slate-500" />
       </section>
 
       {/* How to Choose — editorial dossier with 6 numbered chapters */}
@@ -801,20 +792,13 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
         </div>
       </section>
 
-      {/* All Products with Images */}
+      {/* All Products */}
       <section className="max-w-6xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map((product, i) => (
             <div key={i} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition duration-200">
-              <div className="aspect-square relative bg-slate-50 p-4">
-                <Image
-                  src={product.image}
-                  alt={product.title}
-                  fill
-                  className="object-contain"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  loading="lazy"
-                />
+              <div className="aspect-square relative overflow-hidden">
+                <ProductVisual {...product.visual} label={product.title} />
                 {product.badge && (
                   <span className="absolute top-3 left-3 px-2 py-0.5 text-xs font-bold bg-amber-400 text-amber-900 rounded-full">{product.badge}</span>
                 )}
@@ -839,6 +823,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
             </div>
           ))}
         </div>
+        <AmazonDisclosure lang={lang} className="mt-6 text-center text-xs text-slate-500" />
       </section>
 
       {/* Product Comparison — editorial header */}
@@ -857,8 +842,8 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
             <div key={index} id={`asin-${product.asin}`} className="scroll-mt-32">
               <ProductCard
                 name={product.title}
-                price={product.price}
-                imageUrl={product.image}
+                priceNumeric={product.priceNumeric}
+                visual={product.visual}
                 affiliateLink={product.url}
                 asin={product.asin}
                 buyButtonText={dict.buy_button}
@@ -870,6 +855,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
             </div>
           ))}
         </div>
+        <AmazonDisclosure lang={lang} className="mt-6 text-center text-xs text-slate-500" />
       </section>
 
       {/* Comparison Table */}
@@ -910,7 +896,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
               href: `/${lang}`,
               num: '03',
               title: lang === 'fr' ? 'Classement des meilleurs airfryers 2026' : lang === 'de' ? 'Ranking der besten Airfryer 2026' : lang === 'es' ? 'Ranking de las mejores freidoras 2026' : lang === 'it' ? 'Classifica delle migliori friggitrici 2026' : lang === 'nl' ? 'Ranking beste airfryers 2026' : 'Best Air Fryers 2026 Ranking',
-              desc: lang === 'fr' ? 'Notre top 9 avec comparatif et prix.' : lang === 'de' ? 'Unsere Top 9 mit Vergleich und Preisen.' : lang === 'es' ? 'Nuestro top 9 con comparativa y precios.' : lang === 'it' ? 'La nostra top 9 con confronto e prezzi.' : lang === 'nl' ? 'Onze top 9 met vergelijking en prijzen.' : 'Our top 9 with comparison and prices.',
+              desc: lang === 'fr' ? 'Notre top 9 avec comparatif et scores Nura.' : lang === 'de' ? 'Unsere Top 9 mit Vergleich und Nura Scores.' : lang === 'es' ? 'Nuestro top 9 con comparativa y puntuaciones Nura.' : lang === 'it' ? 'La nostra top 9 con confronto e punteggi Nura.' : lang === 'nl' ? 'Onze top 9 met vergelijking en Nura Scores.' : 'Our top 9 with comparison and Nura scores.',
             },
             {
               href: `/${lang}/cuisine-connectee/prises-connectees`,
@@ -944,7 +930,6 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       {/* Footer with legal links */}
       <SiteFooter
         currentLang={lang}
-        topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
       />
 
       {/* Cookie Banner */}

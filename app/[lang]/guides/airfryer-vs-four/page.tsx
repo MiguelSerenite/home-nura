@@ -2,11 +2,12 @@ import { getDictionary } from '../../../[lang]/dictionaries'
 import Navbar from '@/components/Navbar'
 import FaqSection from '@/components/FaqSection'
 import CookieBanner from '@/components/CookieBanner'
-import ProductImageCarousel from '@/components/ProductImageCarousel'
+import ProductHeroVisual from '@/components/ProductHeroVisual'
+import ProductVisual from '@/components/ProductVisual'
+import AmazonDisclosure from '@/components/AmazonDisclosure'
 import AffiliateLink from '@/components/AffiliateLink'
 import { getStaticProducts } from '@/lib/products'
 import { buildPageMetadata, buildArticleSchema, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
-import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { Kicker, SiteFooter, Button } from '@/components/ui'
@@ -431,12 +432,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
           {products.slice(0, 3).map((product, i) => (
             <div key={i} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="p-4">
-                <ProductImageCarousel
-                  images={product.images}
-                  alt={product.title}
-                  badge={product.badge}
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
+                <ProductHeroVisual visual={product.visual} title={product.title} badge={product.badge} />
               </div>
               <div className="px-5 pb-5">
                 <h3 className="text-base font-bold text-slate-900 mb-1 line-clamp-2">{product.title}</h3>
@@ -455,12 +451,13 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
                   lang={lang}
                   className="block w-full rounded-full bg-brand-600 px-4 py-2.5 text-center text-sm font-bold text-white hover:bg-brand-700 transition-colors"
                 >
-                  Voir sur Amazon
+                  {dict.buy_button}
                 </AffiliateLink>
               </div>
             </div>
           ))}
         </div>
+        <AmazonDisclosure lang={lang} className="mt-6 text-center text-xs text-slate-500" />
       </section>
 
       {/* ═══════════════════════════════════════════════════
@@ -603,15 +600,8 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map((product, i) => (
             <div key={i} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition duration-200">
-              <div className="aspect-square relative bg-slate-50 p-4">
-                <Image
-                  src={product.image}
-                  alt={product.title}
-                  fill
-                  className="object-contain"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  loading="lazy"
-                />
+              <div className="aspect-square relative overflow-hidden">
+                <ProductVisual {...product.visual} label={product.title} />
                 {product.badge && (
                   <span className="absolute top-3 left-3 px-2 py-0.5 text-xs font-bold bg-amber-400 text-amber-900 rounded-full">{product.badge}</span>
                 )}
@@ -636,6 +626,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
             </div>
           ))}
         </div>
+        <AmazonDisclosure lang={lang} className="mt-6 text-center text-xs text-slate-500" />
       </section>
 
       {/* Final Verdict — dark editorial panel */}
@@ -711,7 +702,7 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
               href: `/${lang}`,
               num: '03',
               title: lang === 'fr' ? 'Classement des meilleurs airfryers 2026' : lang === 'de' ? 'Ranking der besten Airfryer 2026' : lang === 'es' ? 'Ranking de las mejores freidoras 2026' : lang === 'it' ? 'Classifica delle migliori friggitrici 2026' : lang === 'nl' ? 'Ranking beste airfryers 2026' : 'Best Air Fryers 2026 Ranking',
-              desc: lang === 'fr' ? 'Notre top 9 avec comparatif et prix.' : lang === 'de' ? 'Unsere Top 9 mit Vergleich und Preisen.' : lang === 'es' ? 'Nuestro top 9 con comparativa y precios.' : lang === 'it' ? 'La nostra top 9 con confronto e prezzi.' : lang === 'nl' ? 'Onze top 9 met vergelijking en prijzen.' : 'Our top 9 with comparison and prices.',
+              desc: lang === 'fr' ? 'Notre top 9 avec comparatif et scores Nura.' : lang === 'de' ? 'Unsere Top 9 mit Vergleich und Nura Scores.' : lang === 'es' ? 'Nuestro top 9 con comparativa y puntuaciones Nura.' : lang === 'it' ? 'La nostra top 9 con confronto e punteggi Nura.' : lang === 'nl' ? 'Onze top 9 met vergelijking en Nura Scores.' : 'Our top 9 with comparison and Nura scores.',
             },
           ].map((item) => (
             <Link
@@ -739,7 +730,6 @@ export default async function AirfryerVsFour({ params }: { params: Promise<{ lan
       {/* Footer */}
       <SiteFooter
         currentLang={lang}
-        topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
       />
 
       <CookieBanner lang={lang} dict={{ cookie_banner_text: dict.cookie_banner_text, cookie_accept: dict.cookie_accept, cookie_reject: dict.cookie_reject, cookie_learn_more: dict.cookie_learn_more }} />

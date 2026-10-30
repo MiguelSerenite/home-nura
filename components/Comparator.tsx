@@ -1,15 +1,17 @@
 'use client'
 
 import { useState } from 'react'
-import Image from 'next/image'
 import { trackAffiliateClick, trackEvent, EVENTS } from '@/lib/analytics'
+import type { ProductVisualData } from '@/lib/product-visual'
+import AmazonDisclosure from './AmazonDisclosure'
+import ProductVisual from './ProductVisual'
 
 interface ComparatorProduct {
   asin: string
   title: string
-  price: string
+  /** Click analytics only, never rendered. */
   priceNumeric?: number
-  image: string
+  visual: ProductVisualData
   url: string
   nuraScore: number
   capacity: string
@@ -25,7 +27,6 @@ interface Labels {
   bestFor: string
   pros: string
   cons: string
-  price: string
   viewOnAmazon: string
   clearSlot: string
   close: string
@@ -39,7 +40,6 @@ const LABELS: Record<string, Labels> = {
     bestFor: 'Idéal pour',
     pros: 'Points forts',
     cons: 'À savoir',
-    price: 'Prix',
     viewOnAmazon: 'Voir sur Amazon',
     clearSlot: 'Retirer',
     close: 'Fermer',
@@ -51,7 +51,6 @@ const LABELS: Record<string, Labels> = {
     bestFor: 'Best for',
     pros: 'Strengths',
     cons: 'Watch out',
-    price: 'Price',
     viewOnAmazon: 'View on Amazon',
     clearSlot: 'Remove',
     close: 'Close',
@@ -63,7 +62,6 @@ const LABELS: Record<string, Labels> = {
     bestFor: 'Ideal für',
     pros: 'Stärken',
     cons: 'Zu beachten',
-    price: 'Preis',
     viewOnAmazon: 'Auf Amazon ansehen',
     clearSlot: 'Entfernen',
     close: 'Schließen',
@@ -75,7 +73,6 @@ const LABELS: Record<string, Labels> = {
     bestFor: 'Ideal para',
     pros: 'Puntos fuertes',
     cons: 'A tener en cuenta',
-    price: 'Precio',
     viewOnAmazon: 'Ver en Amazon',
     clearSlot: 'Quitar',
     close: 'Cerrar',
@@ -87,7 +84,6 @@ const LABELS: Record<string, Labels> = {
     bestFor: 'Ideale per',
     pros: 'Punti di forza',
     cons: 'Da sapere',
-    price: 'Prezzo',
     viewOnAmazon: 'Vedi su Amazon',
     clearSlot: 'Rimuovere',
     close: 'Chiudi',
@@ -99,7 +95,6 @@ const LABELS: Record<string, Labels> = {
     bestFor: 'Ideaal voor',
     pros: 'Sterke punten',
     cons: 'Let op',
-    price: 'Prijs',
     viewOnAmazon: 'Bekijk op Amazon',
     clearSlot: 'Verwijderen',
     close: 'Sluiten',
@@ -151,15 +146,8 @@ export default function Comparator({
             >
               {product ? (
                 <>
-                  <div className="relative aspect-square bg-slate-100">
-                    <Image
-                      src={product.image}
-                      alt={product.title}
-                      fill
-                      sizes="(max-width: 768px) 100vw, 33vw"
-                      className="object-contain p-5"
-                      loading="lazy"
-                    />
+                  <div className="relative aspect-square overflow-hidden">
+                    <ProductVisual {...product.visual} label={product.title} />
                     <button
                       type="button"
                       onClick={() => setSlot(index, null)}
@@ -256,6 +244,8 @@ export default function Comparator({
         })}
       </div>
 
+      <AmazonDisclosure lang={currentLang} className="mt-6 text-center text-xs text-slate-500" />
+
       {/* Product picker modal */}
       {pickerSlot !== null && (
         <div
@@ -304,15 +294,8 @@ export default function Comparator({
                           : 'hover:bg-slate-50'
                       }`}
                     >
-                      <div className="w-14 h-14 shrink-0 rounded-lg bg-slate-100 overflow-hidden relative">
-                        <Image
-                          src={p.image}
-                          alt={p.title}
-                          fill
-                          sizes="56px"
-                          className="object-contain p-1"
-                          loading="lazy"
-                        />
+                      <div className="w-14 h-14 shrink-0 rounded-lg overflow-hidden relative">
+                        <ProductVisual {...p.visual} size="thumb" />
                       </div>
                       <div className="flex-1 min-w-0">
                         <div className="text-sm font-semibold text-slate-900 truncate">{p.title}</div>

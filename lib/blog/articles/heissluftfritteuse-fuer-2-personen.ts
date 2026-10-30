@@ -10,14 +10,14 @@ export const article: BlogArticle = {
   readingTime: 10,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/41CfTSLQprL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1745846664210-756817e1b19c?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Airfryer compact de 4 litres idéal pour cuisiner pour deux personnes',
-        en: 'Compact 4-litre air fryer ideal for cooking for two people',
-        de: 'Kompakte Heißluftfritteuse mit 4 Litern, ideal zum Kochen für zwei Personen',
-        es: 'Freidora de aire compacta de 4 litros ideal para cocinar para dos personas',
-        it: 'Friggitrice ad aria compatta da 4 litri ideale per cucinare per due persone',
-        nl: 'Compacte airfryer van 4 liter ideaal om te koken voor twee personen',
+        fr: 'Airfryer noir posé sur un plan de travail en bois, à côté d’un bol de tomates',
+        en: 'Black air fryer on a wooden kitchen worktop next to a bowl of tomatoes',
+        de: 'Schwarze Heißluftfritteuse auf einer Holzarbeitsplatte neben einer Schale Tomaten',
+        es: 'Freidora de aire negra sobre una encimera de madera junto a un cuenco de tomates',
+        it: 'Friggitrice ad aria nera su un piano di lavoro in legno accanto a una ciotola di pomodori',
+        nl: 'Zwarte airfryer op een houten aanrecht naast een schaal tomaten',
       },
     },
   ],

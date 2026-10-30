@@ -10,14 +10,14 @@ export const article: BlogArticle = {
   readingTime: 12,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/41CfTSLQprL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1774074645537-f72f70d40d12?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Frites croustillantes dorées cuites à l\'airfryer',
-        en: 'Golden crispy fries cooked in an air fryer',
-        de: 'Goldene knusprige Pommes aus der Heißluftfritteuse',
-        es: 'Patatas fritas doradas y crujientes cocinadas en freidora de aire',
-        it: 'Patatine fritte dorate e croccanti cotte nella friggitrice ad aria',
-        nl: 'Goudbruine krokante frietjes uit de airfryer',
+        fr: 'Frites dorées et croustillantes dans un panier de cuisson métallique',
+        en: 'Golden, crispy fries in a metal cooking basket',
+        de: 'Goldbraune, knusprige Pommes in einem Metallkorb',
+        es: 'Patatas fritas doradas y crujientes en una cesta metálica',
+        it: 'Patatine dorate e croccanti in un cestello di metallo',
+        nl: 'Goudbruine, krokante friet in een metalen bakmand',
       },
     },
   ],

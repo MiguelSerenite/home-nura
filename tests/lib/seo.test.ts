@@ -179,26 +179,8 @@ describe('buildPageMetadata', () => {
 
 describe('buildProductListSchema', () => {
   const products = [
-    {
-      title: 'Ninja Foodi Max Dual Zone',
-      price: '229€',
-      priceNumeric: 229,
-      image: 'https://example.com/ninja.jpg',
-      url: 'https://amzn.to/ninja',
-      asin: 'B09XYZ1234',
-      nuraScore: 9.2,
-      capacity: '9.5L',
-    },
-    {
-      title: 'Philips Airfryer XXL',
-      price: '189€',
-      priceNumeric: 189,
-      image: 'https://example.com/philips.jpg',
-      url: 'https://amzn.to/philips',
-      asin: 'B08ABC5678',
-      nuraScore: 8.5,
-      capacity: '7.3L',
-    },
+    { title: 'Ninja Foodi Max Dual Zone', asin: 'B09XYZ1234', priceNumeric: 229 },
+    { title: 'Philips Airfryer XXL', asin: 'B08ABC5678', priceNumeric: 189 },
   ]
 
   it('emits schema.org ItemList with correct count and dateModified', () => {

@@ -2,9 +2,10 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import type { SmartKitchenCategory, SmartKitchenProduct } from '@/lib/smart-kitchen-products'
 import { trackAffiliateClick, trackEvent, EVENTS } from '@/lib/analytics'
+import AmazonDisclosure from './AmazonDisclosure'
+import ProductVisual from './ProductVisual'
 
 type PainPoint = 'time' | 'precision' | 'monitoring' | 'automation' | 'safety'
 type UseFrequency = 'daily' | 'often' | 'weekends' | 'rarely'
@@ -330,14 +331,8 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
               key={p.asin}
               className="flex flex-col rounded-2xl border border-slate-200 bg-white p-5 hover:shadow-md transition-shadow"
             >
-              <div className="aspect-square relative bg-slate-50 rounded-xl mb-4 overflow-hidden">
-                <Image
-                  src={p.image}
-                  alt={`${p.title} — ${p.capacity} — ${p.bestFor}`}
-                  fill
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  className="object-contain p-3"
-                />
+              <div className="aspect-square relative rounded-xl mb-4 overflow-hidden">
+                <ProductVisual {...p.visual} label={`${p.title} — ${p.capacity} — ${p.bestFor}`} />
               </div>
               <h3 className="text-base font-bold text-slate-900 leading-tight line-clamp-2 mb-2">
                 {p.title}
@@ -363,6 +358,7 @@ export default function SmartKitchenQuiz({ productsByCategory, currentLang }: Sm
             </div>
           ))}
         </div>
+        <AmazonDisclosure lang={currentLang} className="-mt-6 mb-10 text-center text-xs text-slate-500" />
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link

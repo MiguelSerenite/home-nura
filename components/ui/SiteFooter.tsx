@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import type { ReactNode } from 'react'
 import { resolveLang, type Lang } from '@/lib/i18n'
+import AmazonDisclosure from '@/components/AmazonDisclosure'
 
 interface SiteFooterProps {
   currentLang: string
   /** Variant: 'full' (default) has padding py-12, 'compact' uses py-8 for article footers. */
   variant?: 'full' | 'compact'
-  /** Optional content rendered above the nav row (e.g., affiliate disclaimer on home). */
+  /** Optional content rendered above the nav row. */
   topContent?: ReactNode
 }
 
@@ -80,7 +81,8 @@ const FOOTER_LABELS: Record<Lang, Record<FooterKey, string>> = {
 
 /**
  * SiteFooter — shared footer block.
- * Renders a horizontal nav row + copyright line.
+ * Renders Amazon's Associates disclosure (on every page), a horizontal nav
+ * row and the copyright line.
  */
 export default function SiteFooter({
   currentLang,
@@ -98,6 +100,7 @@ export default function SiteFooter({
   return (
     <footer className={`bg-white border-t border-slate-100 ${paddingClass} px-6`}>
       <div className="max-w-7xl mx-auto text-center">
+        <AmazonDisclosure lang={lang} className="mb-6 text-sm text-slate-500" />
         {topContent && <div className="mb-6">{topContent}</div>}
         <div className="flex flex-wrap justify-center gap-6 text-xs font-medium text-slate-500">
           {navLinks.map((link) => (

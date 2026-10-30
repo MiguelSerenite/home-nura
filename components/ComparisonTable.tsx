@@ -1,14 +1,16 @@
 'use client'
 
-import Image from 'next/image'
 import { useState, useMemo } from 'react'
 import { trackAffiliateClick } from '@/lib/analytics'
+import type { ProductVisualData } from '@/lib/product-visual'
+import AmazonDisclosure from './AmazonDisclosure'
+import ProductVisual from './ProductVisual'
 
 interface ComparisonProduct {
   name: string
-  price: string
+  /** Click analytics only, never rendered. */
   priceNumeric: number
-  image: string
+  visual: ProductVisualData
   url: string
   capacity: string
   nuraScore: number
@@ -29,14 +31,9 @@ interface ComparisonTableProps {
     col_nura_score: string
     col_capacity: string
     col_best_for: string
-    col_price: string
     col_action: string
     col_pros: string
     col_cons: string
-    sort_by: string
-    sort_price_asc: string
-    sort_price_desc: string
-    sort_score: string
     buy_button: string
     show_details: string
     hide_details: string
@@ -44,21 +41,11 @@ interface ComparisonTableProps {
 }
 
 export default function ComparisonTable({ products, dict, lang = 'fr' }: ComparisonTableProps) {
-  const [sortBy, setSortBy] = useState<'score' | 'price_asc' | 'price_desc'>('score')
   const [expandedRow, setExpandedRow] = useState<number | null>(null)
 
-  const sorted = useMemo(() => {
-    const arr = [...products]
-    switch (sortBy) {
-      case 'price_asc':
-        return arr.sort((a, b) => a.priceNumeric - b.priceNumeric)
-      case 'price_desc':
-        return arr.sort((a, b) => b.priceNumeric - a.priceNumeric)
-      case 'score':
-      default:
-        return arr.sort((a, b) => b.nuraScore - a.nuraScore)
-    }
-  }, [products, sortBy])
+  // Ranked by Nura score only: no price sort, the site shows no prices
+  // (Amazon allows them only through its product API).
+  const sorted = useMemo(() => [...products].sort((a, b) => b.nuraScore - a.nuraScore), [products])
 
   const getScoreColor = (score: number) => {
     if (score >= 9) return 'bg-emerald-500'
@@ -79,31 +66,6 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
       <div className="text-center mb-10">
         <h2 className="text-3xl font-bold tracking-tight mb-3">{dict.table_title}</h2>
         <p className="text-slate-500 max-w-2xl mx-auto">{dict.table_subtitle}</p>
-      </div>
-
-      {/* Sort Controls */}
-      <div className="flex items-center justify-end gap-3 mb-6">
-        <span className="text-sm font-medium text-slate-500">{dict.sort_by}</span>
-        <div className="flex gap-2">
-          {[
-            { key: 'score' as const, label: dict.sort_score },
-            { key: 'price_asc' as const, label: dict.sort_price_asc },
-            { key: 'price_desc' as const, label: dict.sort_price_desc },
-          ].map((opt) => (
-            <button
-              key={opt.key}
-              onClick={() => setSortBy(opt.key)}
-              aria-pressed={sortBy === opt.key}
-              className={`min-h-11 px-4 text-sm font-bold rounded-full transition duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 ${
-                sortBy === opt.key
-                  ? 'bg-brand-600 text-white'
-                  : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-              }`}
-            >
-              {opt.label}
-            </button>
-          ))}
-        </div>
       </div>
 
       {/* Desktop Table */}
@@ -131,8 +93,8 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
                 </td>
                 <td className="px-6 py-5">
                   <div className="flex items-center gap-4">
-                    <div className="relative w-16 h-16 rounded-xl bg-slate-100 overflow-hidden shrink-0">
-                      <Image src={p.image} alt="" fill sizes="64px" className="object-contain p-2" />
+                    <div className="relative w-16 h-16 rounded-xl overflow-hidden shrink-0">
+                      <ProductVisual {...p.visual} size="thumb" />
                     </div>
                     <div>
                       <h3 className="font-bold text-slate-900 text-sm leading-tight">{p.name}</h3>
@@ -187,8 +149,8 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
             <div className="p-5">
               <div className="flex items-start gap-4">
                 <span className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-black ${i === 0 ? 'bg-brand-600 text-white' : 'bg-slate-100 text-slate-700'}`}>{i + 1}</span>
-                <div className="relative w-16 h-16 rounded-xl bg-slate-100 overflow-hidden shrink-0">
-                  <Image src={p.image} alt="" fill sizes="64px" className="object-contain p-2" />
+                <div className="relative w-16 h-16 rounded-xl overflow-hidden shrink-0">
+                  <ProductVisual {...p.visual} size="thumb" />
                 </div>
                 <div className="flex-1 min-w-0">
                   {p.badge && (
@@ -267,6 +229,8 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
           </div>
         ))}
       </div>
+
+      <AmazonDisclosure lang={lang} className="mt-6 text-center text-xs text-slate-500" />
     </section>
   )
 }

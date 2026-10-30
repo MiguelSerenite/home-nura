@@ -1,12 +1,11 @@
 {
   "welcome": "Les Meilleurs Airfryers Connectés 2026",
   "description": "Cuisinez sainement avec les technologies à air pulsé comparées par nos experts. Comparatif complet pour votre cuisine intelligente.",
-  "buy_button": "Vérifier le prix sur Amazon.fr",
+  "buy_button": "Voir sur Amazon",
   "why_trust": "Pourquoi nous faire confiance ?",
   "expert_label": "Avis de l'expert Nura",
   "section_title": "Nos Incontournables",
   "section_subtitle": "Meilleur rapport qualité/prix sélectionné par nos experts.",
-  "affiliate_disclaimer": "En tant que Partenaire Amazon, Home Nura réalise un bénéfice sur les achats remplissant les conditions requises.",
   "legal_notice": "Mentions légales",
   "privacy_policy": "Confidentialité",
   "cookie_policy": "Cookies",
@@ -18,14 +17,9 @@
   "col_nura_score": "Score Nura",
   "col_capacity": "Capacité",
   "col_best_for": "Idéal pour",
-  "col_price": "Prix",
   "col_action": "Action",
   "col_pros": "Points forts",
   "col_cons": "Points faibles",
-  "sort_by": "Trier par",
-  "sort_price_asc": "Prix ↑",
-  "sort_price_desc": "Prix ↓",
-  "sort_score": "Score Nura",
   "show_details": "Voir les détails",
   "hide_details": "Masquer les détails",
   "cookie_banner_text": "Ce site utilise des cookies strictement nécessaires et des cookies tiers Amazon pour les liens affiliés.",
@@ -111,7 +105,7 @@
     },
     {
       "question": "Quel est le meilleur airfryer pas cher en 2026 ?",
-      "answer": "Le meilleur airfryer à petit budget en 2026 est le Cosori Lite (3,8L) à environ 70€, qui obtient un excellent Score Nura de 7,8/10 malgré son prix accessible. Il offre une puissance de 1500W, 4 programmes automatiques, et un panier suffisant pour 2-3 personnes. En deuxième position, le Xiaomi Smart Air Fryer Pro (4L) à 80€ se distingue par sa connectivité WiFi et son contrôle via l'application Mi Home — un luxe rare à ce prix. Le Moulinex Easy Fry Max (5L) à 90€ offre la plus grande capacité du segment budget avec une capacité de 5 litres. Nos critères pour les modèles économiques : fiabilité prouvée, revêtement antiadhésif durable, facilité de nettoyage, et consommation énergétique maîtrisée. Tous ces modèles sont garantis 2 ans minimum."
+      "answer": "Le meilleur airfryer à petit budget en 2026 est le Cosori Lite (3,8L), qui obtient un excellent Score Nura de 7,8/10 malgré son prix accessible. Il offre une puissance de 1500W, 4 programmes automatiques, et un panier suffisant pour 2-3 personnes. En deuxième position, le Xiaomi Smart Air Fryer Pro (4L) se distingue par sa connectivité WiFi et son contrôle via l'application Mi Home — un luxe rare dans cette gamme de prix. Le Moulinex Easy Fry Max (5L) offre la plus grande capacité du segment budget avec une capacité de 5 litres. Nos critères pour les modèles économiques (moins de 100 €) : fiabilité prouvée, revêtement antiadhésif durable, facilité de nettoyage, et consommation énergétique maîtrisée. Tous ces modèles sont garantis 2 ans minimum."
     },
     {
       "question": "Comment le Score Nura est-il calculé ?",

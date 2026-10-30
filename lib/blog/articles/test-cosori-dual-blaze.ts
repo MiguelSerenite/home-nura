@@ -10,14 +10,14 @@ export const article: BlogArticle = {
   readingTime: 7,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/41qK28Ln0PL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1695089028114-ce28248f0ab9?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Cosori Dual Blaze Smart 6,4 L gris vu de face, avec son panneau de commande tactile sur le dessus',
-        en: 'Grey Cosori Dual Blaze Smart 6.4L seen from the front, with its touch control panel on top',
-        de: 'Graue Cosori Dual Blaze Smart 6,4 L von vorne, mit Touch-Bedienfeld auf der Oberseite',
-        es: 'Cosori Dual Blaze Smart 6,4 L gris vista de frente, con su panel táctil en la parte superior',
-        it: 'Cosori Dual Blaze Smart 6,4 L grigia vista frontale, con il pannello touch sulla parte superiore',
-        nl: 'Grijze Cosori Dual Blaze Smart 6,4 L van voren, met het aanraakpaneel bovenop',
+        fr: 'Airfryer noir posé sur un plan de travail de cuisine',
+        en: 'Black air fryer on a kitchen worktop',
+        de: 'Schwarze Heißluftfritteuse auf einer Küchenarbeitsplatte',
+        es: 'Freidora de aire negra sobre una encimera de cocina',
+        it: 'Friggitrice ad aria nera sul piano di lavoro della cucina',
+        nl: 'Zwarte airfryer op een aanrecht in de keuken',
       },
     },
   ],

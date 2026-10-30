@@ -10,12 +10,12 @@ const LOCALE_COOKIE_MAX_AGE = 60 * 60 * 24 * 365
 
 // Written in the suggested language: it is the visitor's local language.
 const COPY: Record<Lang, { text: string; cta: string; close: string }> = {
-  fr: { text: 'Vous êtes en France ? Voir le site en français avec les prix Amazon.fr.', cta: 'Passer en français', close: 'Fermer' },
-  en: { text: 'In the UK? See the English site with Amazon.co.uk prices.', cta: 'Switch to English', close: 'Close' },
-  de: { text: 'In Deutschland? Zur deutschen Seite mit Amazon.de-Preisen.', cta: 'Auf Deutsch', close: 'Schließen' },
-  es: { text: '¿Estás en España? Ver la web en español con precios de Amazon.es.', cta: 'Ver en español', close: 'Cerrar' },
-  it: { text: 'Sei in Italia? Vedi il sito in italiano con i prezzi Amazon.it.', cta: 'Vai in italiano', close: 'Chiudi' },
-  nl: { text: 'In Nederland? Bekijk de Nederlandse site met Amazon.nl-prijzen.', cta: 'Naar Nederlands', close: 'Sluiten' },
+  fr: { text: 'Vous êtes en France ? Voir le site en français.', cta: 'Passer en français', close: 'Fermer' },
+  en: { text: 'In the UK? See the site in English.', cta: 'Switch to English', close: 'Close' },
+  de: { text: 'In Deutschland? Zur deutschen Seite.', cta: 'Auf Deutsch', close: 'Schließen' },
+  es: { text: '¿Estás en España? Ver la web en español.', cta: 'Ver en español', close: 'Cerrar' },
+  it: { text: 'Sei in Italia? Vedi il sito in italiano.', cta: 'Vai in italiano', close: 'Chiudi' },
+  nl: { text: 'In Nederland? Bekijk de Nederlandse site.', cta: 'Naar Nederlands', close: 'Sluiten' },
 }
 
 function readCookie(name: string): string | null {
@@ -26,8 +26,9 @@ function readCookie(name: string): string | null {
 const noopSubscribe = () => () => {}
 
 /**
- * Offers the locale (and Amazon store) of the visitor's country when it
- * differs from the page locale. Language negotiation keeps following the
+ * Offers the locale of the visitor's country when it differs from the page
+ * locale. Amazon links all point to the French store; Amazon itself sends
+ * the shopper on to their local one. Language negotiation keeps following the
  * browser; this only suggests. Pages are static, so the country comes from
  * the hn_country cookie set by proxy.ts.
  */

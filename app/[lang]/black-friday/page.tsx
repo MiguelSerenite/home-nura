@@ -12,7 +12,7 @@ import FaqSection from '@/components/FaqSection'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import AmazonEventBlock from '@/components/black-friday/AmazonEventBlock'
 import BlackFridayBreadcrumb from '@/components/black-friday/Breadcrumb'
-import { getDictionary } from '../dictionaries'
+import AmazonDisclosure from '@/components/AmazonDisclosure'
 import { BLACK_FRIDAY_CATEGORIES, blackFridayPath } from '@/lib/black-friday'
 import { HUB_COPY } from '@/lib/black-friday/copy/hub'
 import { UI } from '@/lib/black-friday/copy/ui'
@@ -40,7 +40,6 @@ export default async function BlackFridayHubPage({ params }: { params: Promise<{
   if (!isValidLang(lang)) notFound()
   const copy = HUB_COPY[lang]
   const ui = UI[lang]
-  const dict = await getDictionary(lang)
 
   const breadcrumbSchema = buildBreadcrumbListSchema(lang, [
     { name: ui.home, path: '' },
@@ -72,7 +71,7 @@ export default async function BlackFridayHubPage({ params }: { params: Promise<{
 
         <SectionHero title={copy.h1}>
           <p className="mx-auto max-w-2xl text-base leading-relaxed text-slate-600">{copy.intro}</p>
-          <p className="mx-auto mt-4 max-w-2xl text-xs text-slate-500">{dict.affiliate_disclaimer}</p>
+          <AmazonDisclosure lang={lang} className="mx-auto mt-4 max-w-2xl text-xs text-slate-500" />
         </SectionHero>
 
         <section aria-labelledby="bf-categories" className="max-w-6xl mx-auto px-4 md:px-6 pb-14">
@@ -117,7 +116,7 @@ export default async function BlackFridayHubPage({ params }: { params: Promise<{
         <FaqSection faqs={[...copy.faq]} title={ui.faqTitle} />
       </main>
 
-      <SiteFooter currentLang={lang} topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>} />
+      <SiteFooter currentLang={lang} />
     </div>
   )
 }

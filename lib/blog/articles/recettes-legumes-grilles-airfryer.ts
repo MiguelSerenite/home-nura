@@ -10,14 +10,14 @@ export const article: BlogArticle = {
   readingTime: 11,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/41qK28Ln0PL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1745846664210-756817e1b19c?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Légumes grillés colorés cuits à l\'airfryer',
-        en: 'Colourful grilled vegetables cooked in an air fryer',
-        de: 'Buntes gegrilltes Gemüse aus der Heißluftfritteuse',
-        es: 'Verduras a la parrilla coloridas cocinadas en freidora de aire',
-        it: 'Verdure grigliate colorate cotte nella friggitrice ad aria',
-        nl: 'Kleurrijke gegrilde groenten uit de airfryer',
+        fr: 'Airfryer noir posé sur un plan de travail en bois, à côté d’un bol de tomates',
+        en: 'Black air fryer on a wooden kitchen worktop next to a bowl of tomatoes',
+        de: 'Schwarze Heißluftfritteuse auf einer Holzarbeitsplatte neben einer Schale Tomaten',
+        es: 'Freidora de aire negra sobre una encimera de madera junto a un cuenco de tomates',
+        it: 'Friggitrice ad aria nera su un piano di lavoro in legno accanto a una ciotola di pomodori',
+        nl: 'Zwarte airfryer op een houten aanrecht naast een schaal tomaten',
       },
     },
   ],
