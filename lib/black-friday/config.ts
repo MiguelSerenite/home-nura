@@ -6,6 +6,7 @@
  * the dates written in the copy files (lib/black-friday/copy/*).
  */
 
+import { amazonPageUrl } from '@/lib/amazon'
 import type { Lang } from '@/lib/i18n'
 
 /** Black Friday is the Friday after US Thanksgiving: 27 November in 2026. */
@@ -29,32 +30,14 @@ export function isBlackFridaySeason(now: Date = new Date()): boolean {
 export const BLACK_FRIDAY_HUB_PATH = '/black-friday'
 
 // ---------------------------------------------------------------------
-// Amazon links: "Global Earning".
-//
-// Every Amazon link on the Black Friday pages, in all 6 languages, points
-// to amazon.fr with the French partner tag: Amazon redirects foreign
-// shoppers to their local store and credits the French account.
-//
-// TODO(global-earning): feat/revenue-article-links switches the shared
-// helpers in lib/products.ts (amazonSearchUrl, catalog URLs) to this same
-// amazon.fr format. Once it is merged, make blackFridayAmazonUrl delegate
-// to those helpers (one-line change) and drop the two constants below.
+// Amazon links: built with the shared helpers of lib/amazon.ts (amazon.fr
+// + the Global Earning store ID, in all 6 languages), so the store and the
+// tag are defined in one place and covered by tests/lib/affiliate-tags.
+// Picks use amazonProductUrl / amazonSearchUrl (see ./index.ts).
 // ---------------------------------------------------------------------
 
-const GLOBAL_EARNING_STORE = 'https://www.amazon.fr'
-const GLOBAL_EARNING_TAG = 'homenuraen05-21'
-
-export type AmazonTarget = { asin: string } | { query: string }
-
-/** Product page (/dp/ASIN) when the ASIN is known, else an Amazon search. */
-export function blackFridayAmazonUrl(target: AmazonTarget): string {
-  if ('asin' in target) return `${GLOBAL_EARNING_STORE}/dp/${target.asin}?tag=${GLOBAL_EARNING_TAG}`
-  const params = new URLSearchParams({ k: target.query, tag: GLOBAL_EARNING_TAG })
-  return `${GLOBAL_EARNING_STORE}/s?${params.toString()}`
-}
-
 /** Amazon's own Black Friday event page, same link for every language. */
-export const AMAZON_BLACK_FRIDAY_URL = 'https://www.amazon.fr/blackfriday?tag=homenuraen05-21'
+export const AMAZON_BLACK_FRIDAY_URL = amazonPageUrl('/blackfriday')
 
 /**
  * Prime free-trial bounty link (Amazon pays a bounty per trial), format
@@ -62,8 +45,10 @@ export const AMAZON_BLACK_FRIDAY_URL = 'https://www.amazon.fr/blackfriday?tag=ho
  * reading another language would sign up for the French store's Prime
  * instead of their own country's.
  */
-export const AMAZON_PRIME_TRIAL_URL =
-  'https://www.amazon.fr/amazonprime?_encoding=UTF8&primeCampaignId=prime_assoc_ft&tag=homenuraen05-21'
+export const AMAZON_PRIME_TRIAL_URL = amazonPageUrl('/amazonprime', {
+  _encoding: 'UTF8',
+  primeCampaignId: 'prime_assoc_ft',
+})
 
 export function primeTrialUrl(lang: Lang): string | null {
   return lang === 'fr' ? AMAZON_PRIME_TRIAL_URL : null

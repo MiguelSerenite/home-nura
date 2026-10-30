@@ -39,3 +39,12 @@ export function amazonSearchUrl(query: string): string {
   const params = new URLSearchParams({ k: query, tag: AMAZON_STORE_ID })
   return `${AMAZON_BASE_URL}/s?${params.toString()}`
 }
+
+/**
+ * Any other amazon.fr page (Black Friday event page, Prime free trial),
+ * with the store ID appended after the page's own query parameters.
+ */
+export function amazonPageUrl(path: `/${string}`, query: Readonly<Record<string, string>> = {}): string {
+  const params = new URLSearchParams({ ...query, tag: AMAZON_STORE_ID })
+  return `${AMAZON_BASE_URL}${path}?${params.toString()}`
+}

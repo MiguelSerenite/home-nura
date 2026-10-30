@@ -2,11 +2,14 @@ import { describe, it, expect } from 'vitest'
 import { readdirSync, readFileSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
 import { AMAZON_STORE_ID } from '@/lib/amazon'
+import { AMAZON_BLACK_FRIDAY_URL, BLACK_FRIDAY_CATEGORIES, getBlackFridayPicks, primeTrialUrl } from '@/lib/black-friday'
 import { getAllArticles } from '@/lib/blog'
 import { getArticleAffiliateModels, getArticleRecommendations } from '@/lib/blog/article-products'
 import { enrichArticleHtml } from '@/lib/blog/enrichContent'
 import { getQuickAnswer } from '@/lib/blog/quick-answers'
+import { PROBLEMS } from '@/lib/catalog'
 import { CATEGORY_GUIDES, getCategoryGuides } from '@/lib/catalog/category-guides'
+import { getProblemBuyBox } from '@/lib/catalog/problem-buy-box'
 import { LANGUAGES } from '@/lib/i18n'
 import { getStaticProducts } from '@/lib/products'
 import { getSmartKitchenProducts } from '@/lib/smart-kitchen-products'
@@ -105,6 +108,27 @@ describe('generated Amazon links', () => {
         getCategoryGuides(slug, lang).picks.flatMap((p) => wrongStoreOrTag(p.url, `${lang}/${slug}`)),
       ),
     )
+    expect(problems).toEqual([])
+  })
+
+  it('problem page buy boxes link to amazon.fr in every locale', () => {
+    const problems = LANGUAGES.flatMap((lang) =>
+      PROBLEMS.flatMap((problem) =>
+        (getProblemBuyBox(problem, lang)?.picks ?? []).flatMap((p) => wrongStoreOrTag(p.url, `${lang}/${problem.slug}`)),
+      ),
+    )
+    expect(problems).toEqual([])
+  })
+
+  it('Black Friday picks, event page and Prime trial link to amazon.fr in every locale', () => {
+    const problems = LANGUAGES.flatMap((lang) => [
+      ...BLACK_FRIDAY_CATEGORIES.flatMap((category) =>
+        getBlackFridayPicks(category, lang).flatMap((p) => wrongStoreOrTag(p.url, `${lang}/black-friday/${category.slug}`)),
+      ),
+      ...[AMAZON_BLACK_FRIDAY_URL, primeTrialUrl(lang)]
+        .filter((url): url is string => url !== null)
+        .flatMap((url) => wrongStoreOrTag(url, `${lang}/black-friday`)),
+    ])
     expect(problems).toEqual([])
   })
 })

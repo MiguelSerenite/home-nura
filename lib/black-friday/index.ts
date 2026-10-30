@@ -1,9 +1,10 @@
+import { amazonProductUrl, amazonSearchUrl } from '@/lib/amazon'
 import { getArticleBySlug } from '@/lib/blog'
 import { getQuickAnswer } from '@/lib/blog/quick-answers'
 import { getCategory, type MetaSiloSlug } from '@/lib/catalog'
 import type { Lang } from '@/lib/i18n'
 import { BLACK_FRIDAY_CATEGORIES } from './categories'
-import { BLACK_FRIDAY_HUB_PATH, blackFridayAmazonUrl } from './config'
+import { BLACK_FRIDAY_HUB_PATH } from './config'
 import type { BlackFridayCategory, BlackFridayPickRef } from './types'
 
 export { BLACK_FRIDAY_CATEGORIES } from './categories'
@@ -69,7 +70,8 @@ function resolvePick(ref: BlackFridayPickRef, lang: Lang): BlackFridayPick | nul
     role: ref.role?.[lang] ?? pick.role,
     why: pick.why,
     asin,
-    url: blackFridayAmazonUrl(asin ? { asin } : { query: ref.model }),
+    // Product page when the catalog knows the ASIN, else an Amazon search.
+    url: asin ? amazonProductUrl(asin) : amazonSearchUrl(ref.model),
     guide: { href: `/${lang}/blog/${article.slug}`, title: article.title[lang] },
   }
 }

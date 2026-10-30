@@ -1,10 +1,10 @@
 import { describe, it, expect } from 'vitest'
+import { AMAZON_BASE_URL, AMAZON_STORE_ID, amazonProductUrl, amazonSearchUrl } from '@/lib/amazon'
 import {
   AMAZON_BLACK_FRIDAY_URL,
   AMAZON_PRIME_TRIAL_URL,
   BLACK_FRIDAY_CATEGORIES,
   BLACK_FRIDAY_PATHS,
-  blackFridayAmazonUrl,
   getBlackFridayCategoriesForSilo,
   getBlackFridayCategory,
   getBlackFridayCategoryForHub,
@@ -22,8 +22,10 @@ import { buildLlmsTxt } from '@/lib/llms'
 import { LANGUAGES } from '@/lib/i18n'
 import { BASE_URL } from '@/lib/seo'
 
-// Global Earning: every Amazon link points to amazon.fr with the French tag.
-const AMAZON_FR = /^https:\/\/www\.amazon\.fr\/(dp\/[A-Z0-9]{10}\?|s\?k=[^&]+&)tag=homenuraen05-21$/
+// Global Earning: every Amazon link points to amazon.fr with the French
+// store ID, built by the shared helpers of lib/amazon.ts.
+const STORE = AMAZON_BASE_URL.replace(/\./g, '\\.')
+const AMAZON_FR = new RegExp(`^${STORE}/(dp/[A-Z0-9]{10}\\?|s\\?k=[^&]+&)tag=${AMAZON_STORE_ID}$`)
 
 /** Every string a visitor reads on the Black Friday pages, per language. */
 function visibleCopy(lang: (typeof LANGUAGES)[number]): string[] {
@@ -85,8 +87,8 @@ describe('Black Friday picks', () => {
       for (const lang of LANGUAGES) {
         for (const pick of getBlackFridayPicks(category, lang)) {
           expect(pick.url, `${lang}/${pick.model}`).toMatch(AMAZON_FR)
-          if (pick.asin) expect(pick.url).toBe(`https://www.amazon.fr/dp/${pick.asin}?tag=homenuraen05-21`)
-          else expect(new URL(pick.url).searchParams.get('k')).toBe(category.picks.find((r) => r.model === pick.model)?.model)
+          if (pick.asin) expect(pick.url).toBe(amazonProductUrl(pick.asin))
+          else expect(pick.url).toBe(amazonSearchUrl(category.picks.find((r) => r.model === pick.model)!.model))
         }
       }
     }
@@ -101,19 +103,14 @@ describe('Black Friday picks', () => {
 })
 
 describe('Black Friday Amazon links', () => {
-  it('builds Global Earning product and search URLs', () => {
-    expect(blackFridayAmazonUrl({ asin: 'B0CH9X5WSF' })).toBe('https://www.amazon.fr/dp/B0CH9X5WSF?tag=homenuraen05-21')
-    expect(blackFridayAmazonUrl({ query: 'Roborock Q7 M5+' })).toBe('https://www.amazon.fr/s?k=Roborock+Q7+M5%2B&tag=homenuraen05-21')
-  })
-
   it('uses the amazon.fr Black Friday page for every language', () => {
-    expect(AMAZON_BLACK_FRIDAY_URL).toBe('https://www.amazon.fr/blackfriday?tag=homenuraen05-21')
+    expect(AMAZON_BLACK_FRIDAY_URL).toBe(`${AMAZON_BASE_URL}/blackfriday?tag=${AMAZON_STORE_ID}`)
   })
 
   it('offers the Prime free trial on French pages only', () => {
     expect(primeTrialUrl('fr')).toBe(AMAZON_PRIME_TRIAL_URL)
     expect(AMAZON_PRIME_TRIAL_URL).toBe(
-      'https://www.amazon.fr/amazonprime?_encoding=UTF8&primeCampaignId=prime_assoc_ft&tag=homenuraen05-21',
+      `${AMAZON_BASE_URL}/amazonprime?_encoding=UTF8&primeCampaignId=prime_assoc_ft&tag=${AMAZON_STORE_ID}`,
     )
     for (const lang of LANGUAGES.filter((l) => l !== 'fr')) expect(primeTrialUrl(lang)).toBeNull()
   })
