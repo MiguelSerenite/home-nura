@@ -1,34 +1,110 @@
 import { describe, it, expect } from 'vitest'
 import { readdirSync, readFileSync, statSync } from 'node:fs'
-import { join } from 'node:path'
+import { join, relative } from 'node:path'
+import { AMAZON_STORE_ID } from '@/lib/amazon'
+import { getAllArticles } from '@/lib/blog'
+import { getArticleAffiliateModels, getArticleRecommendations } from '@/lib/blog/article-products'
+import { enrichArticleHtml } from '@/lib/blog/enrichContent'
+import { getQuickAnswer } from '@/lib/blog/quick-answers'
+import { CATEGORY_GUIDES, getCategoryGuides } from '@/lib/catalog/category-guides'
+import { LANGUAGES } from '@/lib/i18n'
+import { getStaticProducts } from '@/lib/products'
+import { getSmartKitchenProducts } from '@/lib/smart-kitchen-products'
 
-// Amazon only credits a commission when the tag belongs to the store the
-// link points to. One tag per marketplace (see PARTNER_TAGS in lib/products.ts).
-const TAG_BY_STORE: Record<string, string> = {
-  'amazon.fr': 'homenuraen05-21',
-  'amazon.de': 'homenuraen00-21',
-  'amazon.co.uk': 'homenuraen-21',
-  'amazon.es': 'homenuraen0a-21',
-  'amazon.it': 'homenuraen010-21',
-  'amazon.nl': 'homenuranl-21',
-}
+// Every Amazon link goes to amazon.fr with the French store ID: Amazon
+// Global Earning redirects foreign readers to their own store and credits
+// that ID (see lib/amazon.ts). Any other store or tag earns nothing.
+const STORE_ORIGIN = 'https://www.amazon.fr'
+const SOURCE_DIRS = ['app', 'components', 'lib', 'scripts', 'dictionaries']
+const ROOT_FILES = ['proxy.ts', 'next.config.ts']
+const TEXT_FILE = /\.(?:tsx?|jsx?|mjs|json|txt|md|sh)$/
+const TAG_LITERAL = /homenura[a-z0-9]*-\d{2}/g
+// Store links only: image CDNs (m.media-amazon.com) are not stores.
+const STORE_LINK = /https?:\/\/(?:www\.)?amazon\.[a-z.]+/g
+const SINGLE_SOURCE = 'lib/amazon.ts'
 
 function files(dir: string): string[] {
   return readdirSync(dir).flatMap((name) => {
     const path = join(dir, name)
-    return statSync(path).isDirectory() ? files(path) : /\.tsx?$/.test(name) ? [path] : []
+    return statSync(path).isDirectory() ? files(path) : TEXT_FILE.test(name) ? [path] : []
   })
 }
 
-describe('Amazon affiliate links', () => {
-  it('use the partner tag of the store they point to', () => {
-    const mismatches: string[] = []
-    for (const file of ['app', 'components', 'lib'].flatMap((d) => files(join(process.cwd(), d)))) {
-      const text = readFileSync(file, 'utf8')
-      for (const m of text.matchAll(/https:\/\/www\.(amazon\.(?:fr|de|co\.uk|es|it|nl))\/[^"'\s]*?[?&]tag=([a-z0-9-]+)/g)) {
-        if (TAG_BY_STORE[m[1]] !== m[2]) mismatches.push(`${file.replace(process.cwd() + '/', '')}: ${m[1]} tag=${m[2]}`)
-      }
-    }
-    expect(mismatches).toEqual([])
+const sources = [
+  ...SOURCE_DIRS.flatMap((d) => files(join(process.cwd(), d))),
+  ...ROOT_FILES.map((f) => join(process.cwd(), f)),
+].map((path) => ({ path: relative(process.cwd(), path), text: readFileSync(path, 'utf8') }))
+
+function wrongStoreOrTag(url: string, where: string): string[] {
+  const parsed = new URL(url)
+  const tag = parsed.searchParams.get('tag')
+  return [
+    ...(parsed.origin === STORE_ORIGIN ? [] : [`${where}: store ${parsed.origin}`]),
+    ...(tag === AMAZON_STORE_ID ? [] : [`${where}: tag ${tag}`]),
+  ]
+}
+
+describe('Amazon affiliate links in the source', () => {
+  it('only use the amazon.fr store ID', () => {
+    const wrong = sources.flatMap(({ path, text }) =>
+      [...text.matchAll(TAG_LITERAL)].filter((m) => m[0] !== AMAZON_STORE_ID).map((m) => `${path}: ${m[0]}`),
+    )
+    expect(wrong).toEqual([])
+  })
+
+  it('never hard-code another Amazon store', () => {
+    const wrong = sources.flatMap(({ path, text }) =>
+      [...text.matchAll(STORE_LINK)].filter((m) => !m[0].endsWith('amazon.fr')).map((m) => `${path}: ${m[0]}`),
+    )
+    expect(wrong).toEqual([])
+  })
+
+  it('define the store ID in one place', () => {
+    const definedIn = sources.filter(({ text }) => text.includes(AMAZON_STORE_ID)).map(({ path }) => path)
+    expect(definedIn).toEqual([SINGLE_SOURCE])
+  })
+})
+
+// Enriches every article in every locale: slower than a unit test.
+const ALL_ARTICLES_TIMEOUT_MS = 60_000
+
+describe('generated Amazon links', () => {
+  const articles = getAllArticles()
+
+  it('catalog products link to amazon.fr in every locale', () => {
+    const problems = LANGUAGES.flatMap((lang) =>
+      [...getStaticProducts(lang), ...getSmartKitchenProducts(lang)].flatMap((p) =>
+        wrongStoreOrTag(p.url, `${lang}/${p.asin}`),
+      ),
+    )
+    expect(problems).toEqual([])
+  })
+
+  it('article blocks, quick answers and in-text links link to amazon.fr in every locale', () => {
+    const problems = LANGUAGES.flatMap((lang) =>
+      articles
+        .filter((a) => a.content[lang])
+        .flatMap((article) => {
+          const where = `${lang}/${article.slug}`
+          const rec = getArticleRecommendations(article, lang)
+          const blockUrls = rec?.kind === 'catalog' ? rec.products.map((p) => p.url) : (rec?.models ?? []).map((m) => m.url)
+          const verdictUrls = getQuickAnswer(article, lang)?.picks.map((p) => p.url) ?? []
+          const html = enrichArticleHtml(article.content[lang], getArticleAffiliateModels(article, lang), lang)
+          const inTextUrls = [...html.matchAll(/<a [^>]*data-aff-surface="[^"]+"[^>]*>/g)].map((m) =>
+            m[0].match(/href="([^"]+)"/)![1].replace(/&amp;/g, '&'),
+          )
+          return [...blockUrls, ...verdictUrls, ...inTextUrls].flatMap((url) => wrongStoreOrTag(url, where))
+        }),
+    )
+    expect(problems).toEqual([])
+   }, ALL_ARTICLES_TIMEOUT_MS)
+
+  it('category picks link to amazon.fr in every locale', () => {
+    const problems = LANGUAGES.flatMap((lang) =>
+      Object.keys(CATEGORY_GUIDES).flatMap((slug) =>
+        getCategoryGuides(slug, lang).picks.flatMap((p) => wrongStoreOrTag(p.url, `${lang}/${slug}`)),
+      ),
+    )
+    expect(problems).toEqual([])
   })
 })

@@ -1,91 +1,136 @@
-// Enriches article HTML content with affiliate CTA boxes based on product mentions
-// This adds contextual "check price" buttons when products are mentioned in articles
-import { amazonProductUrl } from '@/lib/amazon'
+/**
+ * Adds buy links to an article's HTML, driven by the models the article
+ * itself recommends (see getArticleAffiliateModels):
+ *
+ * - in-text CTA boxes: after an h2 section that names one of the models,
+ *   at most MAX_INLINE_CTAS per article, each model at most once, and only
+ *   after the mid-article product block (inserted before the 2nd h2);
+ * - comparison tables: a cell that names a model links that name.
+ *
+ * Where the text names none of the article's models nothing is added:
+ * no link at all beats a link to the wrong product.
+ *
+ * Links carry `data-aff-*` attributes; AffiliateClickTracker records the
+ * clicks (this HTML is rendered with dangerouslySetInnerHTML).
+ */
+import type { ArticleAffiliateModel } from '@/lib/blog/article-products'
+import { bestMatch, findMentions, modelKey, normalizeTokens, type ModelKey } from '@/lib/blog/model-match'
 
-interface ProductLink {
-  pattern: RegExp
-  asin: string
-  name: Record<string, string>
+const MAX_INLINE_CTAS = 2
+/** Product block position: before this h2 (see splitBeforeNthH2 in the page). */
+const PRODUCT_BLOCK_H2 = 2
+/** A cell is a model name, not a sentence, when it has at most this many extra tokens. */
+const MAX_CELL_EXTRA_TOKENS = 4
+
+const AFFILIATE_REL = 'sponsored nofollow noopener noreferrer'
+
+const LABELS: Record<string, { button: string; note: string }> = {
+  fr: { button: 'Voir le prix sur Amazon', note: 'Lien affilié Amazon' },
+  en: { button: 'Check price on Amazon', note: 'Amazon affiliate link' },
+  de: { button: 'Preis auf Amazon prüfen', note: 'Amazon-Affiliate-Link' },
+  es: { button: 'Ver precio en Amazon', note: 'Enlace de afiliado de Amazon' },
+  it: { button: 'Vedi prezzo su Amazon', note: 'Link di affiliazione Amazon' },
+  nl: { button: 'Bekijk prijs op Amazon', note: 'Amazon-affiliatelink' },
 }
 
-const PRODUCT_PATTERNS: ProductLink[] = [
-  {
-    pattern: /Ninja Foodi MAX Double Stack|Ninja Double Stack|9[,.]5\s*L.*Ninja/i,
-    asin: 'B0CZPJ1HFP',
-    name: { fr: 'Ninja Foodi MAX Double Stack XL 9,5L', en: 'Ninja Foodi MAX Double Stack XL 9.5L', de: 'Ninja Foodi MAX Double Stack XL 9,5L', es: 'Ninja Foodi MAX Double Stack XL 9,5L', it: 'Ninja Foodi MAX Double Stack XL 9,5L', nl: 'Ninja Foodi MAX Double Stack XL 9,5L' },
-  },
-  {
-    pattern: /Philips.*3000.*XL|Philips.*6[,.]2\s*L/i,
-    asin: 'B0D9S9Y16Y',
-    name: { fr: 'Philips Airfryer 3000 XL 6,2L', en: 'Philips Airfryer 3000 XL 6.2L', de: 'Philips Airfryer 3000 XL 6,2L', es: 'Philips Airfryer 3000 XL 6,2L', it: 'Philips Airfryer 3000 XL 6,2L', nl: 'Philips Airfryer 3000 XL 6,2L' },
-  },
-  {
-    pattern: /Cosori Dual Blaze|Cosori.*6[,.]4\s*L/i,
-    asin: 'B0FPWSDF86',
-    name: { fr: 'Cosori Dual Blaze 6,4L', en: 'Cosori Dual Blaze 6.4L', de: 'Cosori Dual Blaze 6,4L', es: 'Cosori Dual Blaze 6,4L', it: 'Cosori Dual Blaze 6,4L', nl: 'Cosori Dual Blaze 6,4L' },
-  },
-  {
-    pattern: /Ninja.*FlexDrawer|Ninja.*10[,.]4\s*L/i,
-    asin: 'B0CFL49C1J',
-    name: { fr: 'Ninja Foodi FlexDrawer 10,4L', en: 'Ninja Foodi FlexDrawer 10.4L', de: 'Ninja Foodi FlexDrawer 10,4L', es: 'Ninja Foodi FlexDrawer 10,4L', it: 'Ninja Foodi FlexDrawer 10,4L', nl: 'Ninja Foodi FlexDrawer 10,4L' },
-  },
-  {
-    pattern: /Xiaomi Smart Air Fryer Pro|Xiaomi.*4\s*L/i,
-    asin: 'B0BQNDGJRV',
-    name: { fr: 'Xiaomi Smart Air Fryer Pro 4L', en: 'Xiaomi Smart Air Fryer Pro 4L', de: 'Xiaomi Smart Air Fryer Pro 4L', es: 'Xiaomi Smart Air Fryer Pro 4L', it: 'Xiaomi Smart Air Fryer Pro 4L', nl: 'Xiaomi Smart Air Fryer Pro 4L' },
-  },
-  {
-    pattern: /Philips.*Combi.*XXL|Philips.*8[,.]3\s*L/i,
-    asin: 'B0D67569TZ',
-    name: { fr: 'Philips Combi XXL Connected 8,3L', en: 'Philips Combi XXL Connected 8.3L', de: 'Philips Combi XXL Connected 8,3L', es: 'Philips Combi XXL Connected 8,3L', it: 'Philips Combi XXL Connected 8,3L', nl: 'Philips Combi XXL Connected 8,3L' },
-  },
-  {
-    pattern: /Moulinex Easy Fry Max|Moulinex.*5\s*L/i,
-    asin: 'B0CG6C26QW',
-    name: { fr: 'Moulinex Easy Fry Max 5L', en: 'Moulinex Easy Fry Max 5L', de: 'Moulinex Easy Fry Max 5L', es: 'Moulinex Easy Fry Max 5L', it: 'Moulinex Easy Fry Max 5L', nl: 'Moulinex Easy Fry Max 5L' },
-  },
-]
+export function escapeHtml(text: string): string {
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+}
 
-const ctaButtonText: Record<string, string> = {
-  fr: 'Voir le prix sur Amazon →',
-  en: 'Check price on Amazon →',
-  de: 'Preis auf Amazon prüfen →',
-  es: 'Ver precio en Amazon →',
-  it: 'Vedi prezzo su Amazon →',
-  nl: 'Bekijk prijs op Amazon →',
+const stripTags = (html: string) => html.replace(/<[^>]+>/g, ' ')
+
+function linkAttributes(model: ArticleAffiliateModel, surface: 'inline' | 'table'): string {
+  const asin = model.asin ? ` data-aff-asin="${escapeHtml(model.asin)}"` : ''
+  return (
+    `href="${escapeHtml(model.url)}" target="_blank" rel="${AFFILIATE_REL}"` +
+    ` data-aff-surface="${surface}" data-aff-model="${escapeHtml(model.name)}"${asin}`
+  )
+}
+
+export function inlineCtaHtml(model: ArticleAffiliateModel, lang: string): string {
+  const labels = LABELS[lang] ?? LABELS.fr
+  return (
+    '<aside class="not-prose my-8 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-brand-100 bg-brand-50 p-4 sm:p-5">' +
+    `<span class="min-w-0"><span class="block text-sm font-bold text-slate-900">${escapeHtml(model.label)}</span>` +
+    `<span class="block text-xs text-slate-600">${labels.note}</span></span>` +
+    `<a ${linkAttributes(model, 'inline')} class="inline-flex min-h-12 shrink-0 items-center rounded-full bg-brand-600 px-5 text-sm font-bold text-white hover:bg-brand-700 active:bg-brand-700 transition-colors">${labels.button} →</a>` +
+    '</aside>'
+  )
+}
+
+/** Models a section names, each once, in reading order. */
+function modelsNamed(sectionHtml: string, keys: readonly ModelKey[]): number[] {
+  const mentions = findMentions(normalizeTokens(stripTags(sectionHtml)), keys)
+  return [...new Set(mentions.map((m) => m.model))]
+}
+
+interface CtaState {
+  parts: readonly string[]
+  used: ReadonlySet<number>
 }
 
 /**
- * Enriches article HTML by inserting a small affiliate CTA after the first <h2>
- * section that mentions a specific product. Max 2 CTAs per article to avoid spam.
+ * One CTA after each section naming a model not yet promoted, up to
+ * MAX_INLINE_CTAS. When the article's own top pick (models[0], cited) is
+ * named after the product block, it gets the first CTA: a review promotes
+ * its product before the alternatives it compares it with.
  */
-export function enrichContentWithCTAs(html: string, lang: string): string {
-  const btnText = ctaButtonText[lang] || ctaButtonText.fr
+function addInlineCtas(
+  html: string,
+  models: readonly ArticleAffiliateModel[],
+  keys: readonly ModelKey[],
+  lang: string,
+): string {
+  const sections = html.split(/(?=<h2[\s>])/i)
+  const named = sections.reduce<{ h2Count: number; models: number[][] }>(
+    (acc, section) => {
+      const h2Count = acc.h2Count + (/^<h2[\s>]/i.test(section) ? 1 : 0)
+      const eligible = h2Count >= PRODUCT_BLOCK_H2
+      return { h2Count, models: [...acc.models, eligible ? modelsNamed(section, keys) : []] }
+    },
+    { h2Count: 0, models: [] },
+  ).models
+  const leadFirst = models[0]?.cited === true && named.some((m) => m.includes(0))
 
-  // Split content by h2 sections
-  const sections = html.split(/(?=<h2)/i)
-  let ctaCount = 0
-  const maxCTAs = 2
-
-  const enriched = sections.map(section => {
-    if (ctaCount >= maxCTAs) return section
-
-    // Check if section mentions a product
-    const plainText = section.replace(/<[^>]+>/g, '')
-    for (const product of PRODUCT_PATTERNS) {
-      if (product.pattern.test(plainText)) {
-        ctaCount++
-        const url = amazonProductUrl(product.asin)
-        const productName = product.name[lang] || product.name.fr
-        const cta = `<div style="margin:1.5rem 0;padding:1rem 1.25rem;background:linear-gradient(135deg,#f8f8ef,#eeefd7);border:2px solid #c2c67c;border-radius:1rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.75rem">
-<span style="font-weight:700;font-size:0.9rem;color:#1e293b">${productName}</span>
-<a href="${url}" target="_blank" rel="nofollow noopener noreferrer" style="display:inline-block;padding:0.5rem 1.25rem;background:#6b7230;color:white;font-weight:700;font-size:0.85rem;border-radius:9999px;text-decoration:none;white-space:nowrap">${btnText}</a>
-</div>`
-        return section + cta
-      }
+  const initial: CtaState = { parts: [], used: new Set() }
+  const { parts } = sections.reduce<CtaState>((state, section, i) => {
+    const leadPending = leadFirst && !state.used.has(0)
+    const candidates = named[i].filter((m) => !state.used.has(m) && (!leadPending || m === 0))
+    const model = state.used.size < MAX_INLINE_CTAS ? candidates[0] : undefined
+    if (model === undefined) return { parts: [...state.parts, section], used: state.used }
+    return {
+      parts: [...state.parts, section + inlineCtaHtml(models[model], lang)],
+      used: new Set([...state.used, model]),
     }
-    return section
-  })
+  }, initial)
+  return parts.join('')
+}
 
-  return enriched.join('')
+/** Links each model once per table: the first cell that is its name. */
+function linkTable(tableHtml: string, models: readonly ArticleAffiliateModel[], keys: readonly ModelKey[]): string {
+  const linked = new Set<number>()
+  return tableHtml.replace(/(<td\b[^>]*>)([\s\S]*?)(<\/td>)/gi, (cell, open: string, inner: string, close: string) => {
+    if (/<a\b/i.test(inner)) return cell
+    const text = stripTags(inner)
+    const match = bestMatch(text, keys)
+    if (!match || linked.has(match.model)) return cell
+    if (normalizeTokens(text).length > match.end - match.start + MAX_CELL_EXTRA_TOKENS) return cell
+    linked.add(match.model)
+    return `${open}<a ${linkAttributes(models[match.model], 'table')}>${inner}</a>${close}`
+  })
+}
+
+function linkTables(html: string, models: readonly ArticleAffiliateModel[], keys: readonly ModelKey[]): string {
+  return html.replace(/<table\b[\s\S]*?<\/table>/gi, (table) => linkTable(table, models, keys))
+}
+
+export function enrichArticleHtml(html: string, models: readonly ArticleAffiliateModel[], lang: string): string {
+  if (models.length === 0) return html
+  const keys = models.map((m) => modelKey(m.name))
+  return addInlineCtas(linkTables(html, models, keys), models, keys, lang)
 }

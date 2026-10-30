@@ -1,7 +1,11 @@
 import { amazonSearchUrl } from '@/lib/amazon'
 import { getStaticProducts } from '@/lib/products'
 import { getArticleModels } from '@/lib/blog/article-models'
-import { getSmartKitchenProductsByCategory, type SmartKitchenCategory } from '@/lib/smart-kitchen-products'
+import {
+  getSmartKitchenProducts,
+  getSmartKitchenProductsByCategory,
+  type SmartKitchenCategory,
+} from '@/lib/smart-kitchen-products'
 
 /**
  * Which catalog an article's product block draws from. `null` = the
@@ -80,6 +84,77 @@ export function getArticleRecommendations(
 ): ArticleRecommendations | null {
   const { source, products } = getArticleProducts(article, lang)
   if (source !== null && products.length > 0) return { kind: 'catalog', source, products }
-  const models = getArticleModels(article.slug).map((name) => ({ name, url: amazonSearchUrl(name) }))
+  const models = getArticleModels(article.slug).map((name) => {
+    const { url } = resolveModelLink(name, lang)
+    return { name, url }
+  })
   return models.length > 0 ? { kind: 'models', models } : null
+}
+
+/** A model an article recommends, ready to link. */
+export interface ArticleAffiliateModel {
+  /** Model name as cited (French catalog title for catalog products). */
+  name: string
+  /** Name shown to the reader (localized catalog title when there is one). */
+  label: string
+  url: string
+  asin?: string
+  /** Cited by the article (ARTICLE_MODELS), as opposed to a catalog fill-in. */
+  cited: boolean
+}
+
+type CatalogEntry = { asin: string; title: string; url: string }
+
+/** Catalog products by French title, projected for one language. */
+function catalogByFrTitle(lang: string): Map<string, CatalogEntry> {
+  const localized = new Map<string, CatalogEntry>(
+    [...getStaticProducts(lang), ...getSmartKitchenProducts(lang)].map((p) => [p.asin, p]),
+  )
+  return new Map(
+    [...getStaticProducts('fr'), ...getSmartKitchenProducts('fr')].flatMap((p) => {
+      const entry = localized.get(p.asin)
+      return entry ? [[p.title, entry] as const] : []
+    }),
+  )
+}
+
+/**
+ * Buy link for a cited model: the product page when the catalog carries
+ * it (known ASIN), else an Amazon search for its name.
+ */
+export function resolveModelLink(name: string, lang: string): ArticleAffiliateModel {
+  const product = catalogByFrTitle(lang).get(name)
+  return product
+    ? { name, label: product.title, url: product.url, asin: product.asin, cited: true }
+    : { name, label: name, url: amazonSearchUrl(name), cited: true }
+}
+
+/**
+ * Every model an article may link in its body: the models it cites
+ * (ARTICLE_MODELS), then the catalog products of its own topic. A link is
+ * only placed where the text actually names one of them, so an article
+ * never gets a product from another topic.
+ */
+export function getArticleAffiliateModels(
+  article: { slug: string; pillar: string },
+  lang: string,
+): ArticleAffiliateModel[] {
+  const cited = getArticleModels(article.slug).map((name) => resolveModelLink(name, lang))
+  const source = articleProductSource(article)
+  const frTitles = new Map(
+    [...getStaticProducts('fr'), ...getSmartKitchenProducts('fr')].map((p) => [p.asin, p.title]),
+  )
+  const topical: ArticleAffiliateModel[] =
+    source === null
+      ? []
+      : (source === 'airfryers' ? getStaticProducts(lang) : getSmartKitchenProductsByCategory(lang, source)).map((p) => ({
+          name: frTitles.get(p.asin) ?? p.title,
+          label: p.title,
+          url: p.url,
+          asin: p.asin,
+          cited: false,
+        }))
+  return [...cited, ...topical].filter(
+    (m, i, all) => all.findIndex((o) => (m.asin ? o.asin === m.asin : o.name === m.name)) === i,
+  )
 }
