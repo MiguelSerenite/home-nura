@@ -2,6 +2,7 @@
 
 import type { Metadata } from 'next'
 import { LANGUAGES, type Lang, isValidLang } from './i18n'
+import { productPhotoPath, type ProductPhoto } from './product-photo'
 
 const BASE_URL = 'https://homenura.com'
 
@@ -176,13 +177,33 @@ export const lastUpdatedLabel: Record<string, string> = {
 
 interface ProductLike {
   title: string
+  visual?: { photo?: ProductPhoto }
+}
+
+/**
+ * schema.org ImageObject of a manufacturer photo (largest square variant,
+ * absolute URL), with its credit for Google Images' image metadata.
+ */
+export function buildProductImageObject(photo: ProductPhoto) {
+  const url = `${BASE_URL}${productPhotoPath(photo.id, 1200, 'webp')}`
+  return {
+    '@type': 'ImageObject',
+    contentUrl: url,
+    url,
+    width: 1200,
+    height: 1200,
+    name: photo.alt,
+    creditText: photo.copyright.replace(/^©\s*/, ''),
+    copyrightNotice: photo.copyright,
+  }
 }
 
 /**
  * Build an ItemList JSON-LD schema for a ranked comparison of products.
- * Names only: Product/Offer markup would need live prices (Amazon Associates
- * allows only PA-API prices refreshed within 24h) and Product without
- * offers/review/rating is invalid for Google.
+ * Names (and the manufacturer photo when there is one) only: Product/Offer
+ * markup would need live prices (Amazon Associates allows only PA-API
+ * prices refreshed within 24h) and Product without offers/review/rating is
+ * invalid for Google.
  */
 export function buildProductListSchema(
   products: ProductLike[],
@@ -201,6 +222,7 @@ export function buildProductListSchema(
       '@type': 'ListItem',
       position: i + 1,
       name: p.title,
+      ...(p.visual?.photo ? { image: buildProductImageObject(p.visual.photo) } : {}),
     })),
   }
 }

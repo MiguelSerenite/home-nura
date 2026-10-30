@@ -2,7 +2,7 @@ import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { buildPageMetadata, buildClusterItemListSchema } from '@/lib/seo'
+import { buildPageMetadata, buildClusterItemListSchema, buildProductImageObject } from '@/lib/seo'
 import {
   getCategory,
   getPersonasForSilo,
@@ -396,6 +396,7 @@ export default async function CategoryPage({
       position: index + 1,
       name: p.title,
       url: p.url,
+      ...(p.visual.photo ? { image: buildProductImageObject(p.visual.photo) } : {}),
     })),
   }
 

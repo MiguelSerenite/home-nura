@@ -8,7 +8,18 @@ import {
   getIndexableCategories,
   PROBLEMS,
 } from '@/lib/catalog'
-import { BLACK_FRIDAY_PATHS } from '@/lib/black-friday'
+import { BLACK_FRIDAY_CATEGORIES, BLACK_FRIDAY_PATHS, blackFridayPath } from '@/lib/black-friday'
+import {
+  airfryerCatalogImages,
+  articleImages,
+  blackFridayImages,
+  categoryHubImages,
+  problemImages,
+  smartKitchenCategoryImages,
+} from '@/lib/sitemap-images'
+
+/** Manufacturer photos a page renders, per locale (<image:image> entries). */
+type PageImages = (lang: Lang) => string[]
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Phase X: single source of truth for freshness. Bumping
@@ -20,9 +31,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const latestArticleUpdate = articles.map((a) => a.dateModified).sort().at(-1) ?? today
 
   const pages = [
-    { path: '', priority: 1.0, changeFrequency: 'weekly' as const, lastModified: today },
-    { path: '/guides/airfryers', priority: 0.9, changeFrequency: 'weekly' as const, lastModified: today },
-    { path: '/guides/airfryer-vs-four', priority: 0.8, changeFrequency: 'monthly' as const, lastModified: today },
+    { path: '', priority: 1.0, changeFrequency: 'weekly' as const, lastModified: today, images: airfryerCatalogImages },
+    { path: '/guides/airfryers', priority: 0.9, changeFrequency: 'weekly' as const, lastModified: today, images: airfryerCatalogImages },
+    { path: '/guides/airfryer-vs-four', priority: 0.8, changeFrequency: 'monthly' as const, lastModified: today, images: airfryerCatalogImages },
     { path: '/guides/cuisine-connectee', priority: 0.9, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/comparateur', priority: 0.85, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/cuisine-connectee', priority: 0.85, changeFrequency: 'weekly' as const, lastModified: today },
@@ -33,6 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.75,
       changeFrequency: 'weekly' as const,
       lastModified: today,
+      images: (lang: Lang) => smartKitchenCategoryImages(lang, cat),
     })),
     { path: '/quiz', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: today },
     { path: '/blog', priority: 0.8, changeFrequency: 'weekly' as const, lastModified: latestArticleUpdate },
@@ -64,6 +76,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.7,
         changeFrequency: 'weekly' as const,
         lastModified: today,
+        images: (lang: Lang) => categoryHubImages(lang, c.slug),
       })),
     // Troubleshooting pages: indexed — about 30% of Search Console clicks
     // (Jul–Oct 2026) for only ~10 topics. The index links all of them.
@@ -73,15 +86,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
       changeFrequency: 'monthly' as const,
       lastModified: today,
+      images: (lang: Lang) => problemImages(lang, p),
     })),
     // Black Friday hub + category pages: evergreen URLs (no year), in every
     // locale. Weekly so the yearly copy refresh is picked up before the event.
-    ...BLACK_FRIDAY_PATHS.map((path) => ({
-      path,
-      priority: 0.7,
-      changeFrequency: 'weekly' as const,
-      lastModified: today,
-    })),
+    ...BLACK_FRIDAY_PATHS.map((path) => {
+      const category = BLACK_FRIDAY_CATEGORIES.find((c) => blackFridayPath(c.slug) === path)
+      return {
+        path,
+        priority: 0.7,
+        changeFrequency: 'weekly' as const,
+        lastModified: today,
+        ...(category ? { images: (lang: Lang) => blackFridayImages(lang, category) } : {}),
+      }
+    }),
     // Persona buyer guides and best-for pages are built
     // from shared templates (near-duplicate copy at scale, no products,
     // best-for: 0.5% CTR spread over 771 URLs):
@@ -97,24 +115,39 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Listing only the FR URL left the /de/, /en/, /es/, /it/ and /nl/ pages
   // discoverable through hreflang alone, and they were crawled far less.
   // ~2.6 k URLs, well under the 50 k-per-sitemap limit.
+  // Pages that render manufacturer photos also list them (image sitemap).
   const localized = (
     path: string,
     langs: readonly Lang[],
-    meta: Omit<MetadataRoute.Sitemap[number], 'url' | 'alternates'>,
+    meta: Omit<MetadataRoute.Sitemap[number], 'url' | 'alternates' | 'images'>,
+    images?: PageImages,
   ): MetadataRoute.Sitemap => {
     const languages: Record<string, string> = {
       ...Object.fromEntries(langs.map((l) => [l, `${BASE_URL}/${l}${path}`])),
       'x-default': `${BASE_URL}/${langs.includes('fr') ? 'fr' : langs[0]}${path}`,
     }
-    return langs.map((lang) => ({ url: `${BASE_URL}/${lang}${path}`, ...meta, alternates: { languages } }))
+    return langs.map((lang) => {
+      const pageImages = images?.(lang) ?? []
+      return {
+        url: `${BASE_URL}/${lang}${path}`,
+        ...meta,
+        alternates: { languages },
+        ...(pageImages.length > 0 ? { images: pageImages } : {}),
+      }
+    })
   }
 
   const entries: MetadataRoute.Sitemap = pages.flatMap((page) =>
-    localized(page.path, LANGUAGES, {
-      lastModified: new Date(page.lastModified),
-      changeFrequency: page.changeFrequency,
-      priority: page.priority,
-    }),
+    localized(
+      page.path,
+      LANGUAGES,
+      {
+        lastModified: new Date(page.lastModified),
+        changeFrequency: page.changeFrequency,
+        priority: page.priority,
+      },
+      'images' in page ? page.images : undefined,
+    ),
   )
 
   // Blog articles: only the locales the article is translated into (the
@@ -127,11 +160,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const translated = LANGUAGES.filter((lang) => article.content[lang])
     if (translated.length === 0) continue
     entries.push(
-      ...localized(`/blog/${article.slug}`, translated, {
-        lastModified: new Date(article.dateModified),
-        changeFrequency: 'monthly',
-        priority,
-      }),
+      ...localized(
+        `/blog/${article.slug}`,
+        translated,
+        {
+          lastModified: new Date(article.dateModified),
+          changeFrequency: 'monthly',
+          priority,
+        },
+        (lang) => articleImages(lang, article),
+      ),
     )
   }
 
