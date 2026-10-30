@@ -7,6 +7,7 @@
  * went unrecorded. The beacon carries no personal data (no IP, no user
  * agent, no identifier): only where the click happened and on what.
  */
+import { AMAZON_MARKETPLACE } from '@/lib/amazon'
 import { LANGUAGES } from '@/lib/i18n'
 
 /**
@@ -27,8 +28,12 @@ export const CLICK_SURFACES = [
 ] as const
 export type ClickSurface = (typeof CLICK_SURFACES)[number]
 
-/** Amazon stores a link may point to (all links target amazon.fr today). */
-export const CLICK_MARKETPLACES = ['amazon.fr', 'amazon.de', 'amazon.co.uk', 'amazon.es', 'amazon.it', 'amazon.nl'] as const
+/**
+ * Amazon stores a link may point to: amazon.fr only. Every locale links to
+ * it (Global Earning, see lib/amazon.ts); a beacon naming another store
+ * does not come from the site.
+ */
+export const CLICK_MARKETPLACES = [AMAZON_MARKETPLACE] as const
 
 export const CLICK_ENDPOINT = '/api/click'
 export const MAX_CLICK_BODY_LENGTH = 2048
