@@ -1,12 +1,11 @@
 {
   "welcome": "Las Mejores Freidoras de Aire Conectadas 2026",
   "description": "Cocina crujiente y saludable. Analizamos los modelos más versátiles para la dieta mediterránea moderna.",
-  "buy_button": "Ver precio en Amazon.es",
+  "buy_button": "Ver en Amazon",
   "why_trust": "¿Por qué confiar en nosotros?",
   "expert_label": "Opinión del experto Nura",
   "section_title": "Nuestras Recomendaciones",
   "section_subtitle": "Mejor relación calidad-precio seleccionada por nuestros expertos.",
-  "affiliate_disclaimer": "Como Asociado de Amazon, Home Nura obtiene ingresos por las compras adscritas.",
   "legal_notice": "Aviso legal",
   "privacy_policy": "Privacidad",
   "cookie_policy": "Cookies",
@@ -18,14 +17,9 @@
   "col_nura_score": "Puntuación Nura",
   "col_capacity": "Capacidad",
   "col_best_for": "Ideal para",
-  "col_price": "Precio",
   "col_action": "Acción",
   "col_pros": "Ventajas",
   "col_cons": "Desventajas",
-  "sort_by": "Ordenar por",
-  "sort_price_asc": "Precio ↑",
-  "sort_price_desc": "Precio ↓",
-  "sort_score": "Puntuación Nura",
   "show_details": "Ver detalles",
   "hide_details": "Ocultar detalles",
   "cookie_banner_text": "Este sitio utiliza cookies estrictamente necesarias y cookies de terceros de Amazon para enlaces de afiliados.",
@@ -111,7 +105,7 @@
     },
     {
       "question": "¿Cuál es la mejor freidora de aire barata en 2026?",
-      "answer": "La mejor freidora de aire económica en 2026 es la Cosori Lite (3,8L) por unos 65€, que obtiene un excelente Puntuación Nura de 7,8/10 pese a su precio accesible. Ofrece 1500W de potencia, 4 programas automáticos y una cesta adecuada para 2-3 personas. En segundo lugar, la Xiaomi Smart Air Fryer Pro (4L) por 75€ destaca por su conectividad WiFi y control mediante la app Mi Home, un lujo poco habitual a este precio. La Moulinex Easy Fry Max (5L) por 85€ ofrece la mayor capacidad del segmento económico. Nuestros criterios para modelos asequibles: fiabilidad demostrada, revestimiento antiadherente duradero, facilidad de limpieza y consumo energético controlado. Todos estos modelos cuentan con un mínimo de 2 años de garantía."
+      "answer": "La mejor freidora de aire económica en 2026 es la Cosori Lite (3,8L), que obtiene un excelente Puntuación Nura de 7,8/10 pese a su precio accesible. Ofrece 1500W de potencia, 4 programas automáticos y una cesta adecuada para 2-3 personas. En segundo lugar, la Xiaomi Smart Air Fryer Pro (4L) destaca por su conectividad WiFi y control mediante la app Mi Home, un lujo poco habitual en esta gama de precio. La Moulinex Easy Fry Max (5L) ofrece la mayor capacidad del segmento económico. Nuestros criterios para modelos asequibles (menos de 100 €): fiabilidad demostrada, revestimiento antiadherente duradero, facilidad de limpieza y consumo energético controlado. Todos estos modelos cuentan con un mínimo de 2 años de garantía."
     },
     {
       "question": "¿Cómo se calcula la Puntuación Nura?",

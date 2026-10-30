@@ -3,6 +3,7 @@ import type { Lang } from '@/lib/i18n'
 import type { BlackFridayPick } from '@/lib/black-friday'
 import { UI } from '@/lib/black-friday/copy/ui'
 import BlackFridayAmazonLink from './AmazonLink'
+import AmazonDisclosure from '@/components/AmazonDisclosure'
 
 /** The models worth watching: verdict label, name, reason, source guide and Amazon link. No prices. */
 export default function PickList({ picks, lang }: { picks: readonly BlackFridayPick[]; lang: Lang }) {
@@ -43,7 +44,7 @@ export default function PickList({ picks, lang }: { picks: readonly BlackFridayP
           </li>
         ))}
       </ol>
-      <p className="mt-4 text-xs text-slate-600">{ui.affiliateNote}</p>
+      <AmazonDisclosure lang={lang} note={ui.affiliateNote} className="mt-4 text-xs text-slate-600" />
     </section>
   )
 }

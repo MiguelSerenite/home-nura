@@ -336,7 +336,6 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
       <SiteFooter
         currentLang={lang}
         variant="compact"
-        topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
       />
 
       <CookieBanner lang={lang} dict={{ cookie_banner_text: dict.cookie_banner_text, cookie_accept: dict.cookie_accept, cookie_reject: dict.cookie_reject, cookie_learn_more: dict.cookie_learn_more }} />

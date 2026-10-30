@@ -10,14 +10,14 @@ export const article: BlogArticle = {
   readingTime: 9,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/31upZSvSwjL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1745846664210-756817e1b19c?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Légumes frais et colorés cuits sainement dans un airfryer',
-        en: 'Fresh colourful vegetables cooked healthily in an air fryer',
-        de: 'Frisches buntes Gemüse gesund in der Heißluftfritteuse zubereitet',
-        es: 'Verduras frescas y coloridas cocinadas saludablemente en una freidora de aire',
-        it: 'Verdure fresche e colorate cucinate in modo sano nella friggitrice ad aria',
-        nl: 'Verse kleurrijke groenten gezond bereid in de airfryer',
+        fr: 'Airfryer noir posé sur un plan de travail en bois, à côté d’un bol de tomates',
+        en: 'Black air fryer on a wooden kitchen worktop next to a bowl of tomatoes',
+        de: 'Schwarze Heißluftfritteuse auf einer Holzarbeitsplatte neben einer Schale Tomaten',
+        es: 'Freidora de aire negra sobre una encimera de madera junto a un cuenco de tomates',
+        it: 'Friggitrice ad aria nera su un piano di lavoro in legno accanto a una ciotola di pomodori',
+        nl: 'Zwarte airfryer op een houten aanrecht naast een schaal tomaten',
       },
     },
   ],

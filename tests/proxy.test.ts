@@ -83,11 +83,10 @@ describe('middleware security headers', () => {
     expect(csp).toMatch(/form-action 'self'/)
   })
 
-  it('allow-lists Amazon + YouTube image sources', () => {
+  it('allow-lists YouTube images and no Amazon image CDN', () => {
     const csp = response.headers.get('Content-Security-Policy') ?? ''
-    expect(csp).toMatch(/m\.media-amazon\.com/)
-    expect(csp).toMatch(/images-na\.ssl-images-amazon\.com/)
-    expect(csp).toMatch(/img\.youtube\.com/)
+    expect(csp).toMatch(/img-src[^;]*img\.youtube\.com/)
+    expect(csp).not.toMatch(/media-amazon|images-amazon/)
   })
 
   it('allow-lists YouTube as the only permitted iframe embed source', () => {

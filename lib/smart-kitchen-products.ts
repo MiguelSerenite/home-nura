@@ -8,8 +8,8 @@
 // topical authority we worked hard to build on airfryers.
 //
 // ✅ ASINs validated against Amazon.fr Partenaires (April 2026).
-//    Images use Amazon CDN via the img() helper (same pattern as
-//    lib/products.ts). Prices are real Amazon.fr prices as of April 2026.
+//    No Amazon images and no displayed prices (same rule as lib/products.ts:
+//    the Associates agreement only allows them through Amazon's API).
 //    Product 3 (originally Tefal Cook4Me Touch Pro) replaced with
 //    Instant Pot Duo Plus WhisperQuiet — the Cook4Me brand does not
 //    exist on Amazon.fr (Moulinex Cookeo is the French equivalent,
@@ -17,6 +17,7 @@
 // ============================================================================
 
 import { amazonProductUrl } from '@/lib/amazon'
+import { productVisual, type ProductVisualKind } from '@/lib/product-visual'
 
 export const SMART_KITCHEN_CATEGORIES = [
   'multicuiseurs',
@@ -32,9 +33,10 @@ export interface SmartKitchenStaticProduct {
   asin: string
   category: SmartKitchenCategory
   title: Record<string, string>
-  price: Record<string, string>
+  /** Reference price for budget tiers and click analytics. Never rendered. */
   priceNumeric: Record<string, number>
-  image: string
+  /** Brand as printed on the product visual (the title starts with it). */
+  brand: string
   badge?: Record<string, string>
   nuraScore: number
   /** Primary spec displayed in cards, e.g. "6L", "19 bars", "5kg", "50m Bluetooth". */
@@ -44,9 +46,13 @@ export interface SmartKitchenStaticProduct {
   cons: Record<string, string[]>
 }
 
-// Amazon CDN image helper — same pattern as lib/products.ts.
-const img = (id: string, size: 'SL500' | 'SL1500' = 'SL1500') =>
-  `https://m.media-amazon.com/images/I/${id}._AC_${size}_.jpg`
+const VISUAL_KIND: Record<SmartKitchenCategory, ProductVisualKind> = {
+  multicuiseurs: 'multicooker',
+  cafetieres: 'coffee-machine',
+  balances: 'kitchen-scale',
+  'thermometres-viande': 'meat-thermometer',
+  'prises-connectees': 'smart-plug',
+}
 
 export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
   // ──────────────────────────────────────────────────────────────────────────
@@ -54,6 +60,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
   // ──────────────────────────────────────────────────────────────────────────
   {
     asin: 'B0859ZJVDH',
+    brand: 'Moulinex',
     category: 'multicuiseurs',
     title: {
       fr: 'Moulinex Cookeo Touch WiFi - 6L',
@@ -63,9 +70,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       it: 'Moulinex Cookeo Touch WiFi - 6L',
       nl: 'Moulinex Cookeo Touch WiFi - 6L',
     },
-    price: { fr: '279,99€', de: '279,99€', en: '£259.99', es: '269,99€', it: '279,99€', nl: '269,99€' },
     priceNumeric: { fr: 279.99, de: 279.99, en: 259.99, es: 269.99, it: 279.99, nl: 269.99 },
-    image: img('61i5qjW1XNL'),
     badge: {
       fr: 'Choix N°1', de: 'Beste Wahl', en: 'Top Pick',
       es: 'Mejor Elección', it: 'Scelta Top', nl: 'Beste Keuze',
@@ -99,6 +104,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
   },
   {
     asin: 'B09N3VQBMX', // Ninja Foodi MAX SmartLid OL750EU (amazon.fr lists 14 functions)
+    brand: 'Ninja',
     category: 'multicuiseurs',
     title: {
       fr: 'Ninja Foodi MAX 15-en-1 SmartLid OP500EU - 7.5L',
@@ -108,9 +114,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       it: 'Ninja Foodi MAX 15-in-1 SmartLid OP500EU - 7.5L',
       nl: 'Ninja Foodi MAX 15-in-1 SmartLid OP500EU - 7.5L',
     },
-    price: { fr: '299,99€', de: '299,99€', en: '£249.99', es: '289,99€', it: '299,99€', nl: '289,99€' },
     priceNumeric: { fr: 299.99, de: 299.99, en: 249.99, es: 289.99, it: 299.99, nl: 289.99 },
-    image: img('31ZfzTukvML'),
     nuraScore: 9.0,
     capacity: '7.5L',
     bestFor: {
@@ -140,6 +144,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
   },
   {
     asin: 'B0BYT67H2S',
+    brand: 'Instant Pot',
     category: 'multicuiseurs',
     title: {
       fr: 'Instant Pot Duo Plus WhisperQuiet - 5.7L',
@@ -149,9 +154,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       it: 'Instant Pot Duo Plus WhisperQuiet - 5.7L',
       nl: 'Instant Pot Duo Plus WhisperQuiet - 5.7L',
     },
-    price: { fr: '138,20€', de: '139,99€', en: '£109.99', es: '129,99€', it: '139,99€', nl: '129,99€' },
     priceNumeric: { fr: 138.20, de: 139.99, en: 109.99, es: 129.99, it: 139.99, nl: 129.99 },
-    image: img('71eO7wvcu4L'),
     nuraScore: 8.8,
     capacity: '5.7L',
     bestFor: {
@@ -185,6 +188,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
   // ──────────────────────────────────────────────────────────────────────────
   {
     asin: 'B0CH9X5WSF',
+    brand: 'De\'Longhi',
     category: 'cafetieres',
     title: {
       fr: 'De\'Longhi Magnifica Evo ECAM290.51.B',
@@ -194,9 +198,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       it: 'De\'Longhi Magnifica Evo ECAM290.51.B',
       nl: 'De\'Longhi Magnifica Evo ECAM290.51.B',
     },
-    price: { fr: '449,99€', de: '449,99€', en: '£399.99', es: '429,99€', it: '449,99€', nl: '429,99€' },
     priceNumeric: { fr: 449.99, de: 449.99, en: 399.99, es: 429.99, it: 449.99, nl: 429.99 },
-    image: img('41ZmiVOkuJL'),
     badge: {
       fr: 'Choix N°1', de: 'Beste Wahl', en: 'Top Pick',
       es: 'Mejor Elección', it: 'Scelta Top', nl: 'Beste Keuze',
@@ -230,6 +232,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
   },
   {
     asin: 'B0DV9M7MY5',
+    brand: 'Philips',
     category: 'cafetieres',
     title: {
       fr: 'Philips 5500 LatteGo Series EP5541/50',
@@ -239,9 +242,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       it: 'Philips 5500 LatteGo Serie EP5541/50',
       nl: 'Philips 5500 LatteGo Serie EP5541/50',
     },
-    price: { fr: '699,99€', de: '699,99€', en: '£599.99', es: '669,99€', it: '699,99€', nl: '669,99€' },
     priceNumeric: { fr: 699.99, de: 699.99, en: 599.99, es: 669.99, it: 699.99, nl: 669.99 },
-    image: img('21qt34NLZVL'),
     nuraScore: 9.0,
     capacity: '1.8L',
     bestFor: {
@@ -271,6 +272,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
   },
   {
     asin: 'B07X9ZJ536',
+    brand: 'Krups',
     category: 'cafetieres',
     title: {
       fr: 'Krups Evidence One EA895N10',
@@ -280,9 +282,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       it: 'Krups Evidence One EA895N10',
       nl: 'Krups Evidence One EA895N10',
     },
-    price: { fr: '549,99€', de: '549,99€', en: '£499.99', es: '529,99€', it: '549,99€', nl: '529,99€' },
     priceNumeric: { fr: 549.99, de: 549.99, en: 499.99, es: 529.99, it: 549.99, nl: 529.99 },
-    image: img('31y7c0Mw8wL'),
     nuraScore: 8.6,
     capacity: '2.3L',
     bestFor: {
@@ -316,6 +316,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
   // ──────────────────────────────────────────────────────────────────────────
   {
     asin: 'B09HLZV4H9',
+    brand: 'Etekcity',
     category: 'balances',
     title: {
       fr: 'Etekcity Smart Nutrition Scale',
@@ -325,9 +326,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       it: 'Bilancia Etekcity Smart Nutrition',
       nl: 'Etekcity Smart Nutrition Weegschaal',
     },
-    price: { fr: '39,99€', de: '39,99€', en: '£34.99', es: '37,99€', it: '39,99€', nl: '37,99€' },
     priceNumeric: { fr: 39.99, de: 39.99, en: 34.99, es: 37.99, it: 39.99, nl: 37.99 },
-    image: img('41kxKZefVsL'),
     badge: {
       fr: 'Meilleur prix', de: 'Preis-Tipp', en: 'Best Value',
       es: 'Mejor Precio', it: 'Miglior Prezzo', nl: 'Beste Prijs',
@@ -361,6 +360,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
   },
   {
     asin: 'B07YX6QKDB',
+    brand: 'Beurer',
     category: 'balances',
     title: {
       fr: 'Beurer KS 34 XL Balance Diététique',
@@ -370,9 +370,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       it: 'Bilancia Dietetica Beurer KS 34 XL',
       nl: 'Beurer KS 34 XL Dieetweegschaal',
     },
-    price: { fr: '29,99€', de: '29,99€', en: '£24.99', es: '27,99€', it: '29,99€', nl: '27,99€' },
     priceNumeric: { fr: 29.99, de: 29.99, en: 24.99, es: 27.99, it: 29.99, nl: 27.99 },
-    image: img('31yvIKIEtIL'),
     nuraScore: 8.3,
     capacity: '15 kg',
     bestFor: {
@@ -402,6 +400,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
   },
   {
     asin: 'B0817LMPDX',
+    brand: 'Renpho',
     category: 'balances',
     title: {
       fr: 'Renpho Balance Cuisine Connectée',
@@ -411,9 +410,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       it: 'Bilancia Cucina Smart Renpho',
       nl: 'Renpho Slimme Keukenweegschaal',
     },
-    price: { fr: '24,99€', de: '24,99€', en: '£19.99', es: '22,99€', it: '24,99€', nl: '22,99€' },
     priceNumeric: { fr: 24.99, de: 24.99, en: 19.99, es: 22.99, it: 24.99, nl: 22.99 },
-    image: img('41EA3dB0ZnL'),
     nuraScore: 8.7,
     capacity: '5 kg',
     bestFor: {
@@ -447,6 +444,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
   // ──────────────────────────────────────────────────────────────────────────
   {
     asin: 'B07H8WTFHW',
+    brand: 'MEATER',
     category: 'thermometres-viande',
     title: {
       fr: 'MEATER Plus Thermomètre Sans Fil Bluetooth 50m',
@@ -456,9 +454,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       it: 'MEATER Plus Termometro Wireless 50m',
       nl: 'MEATER Plus Draadloze Vleesthermometer 50m',
     },
-    price: { fr: '109,99€', de: '109,99€', en: '£99.99', es: '104,99€', it: '109,99€', nl: '104,99€' },
     priceNumeric: { fr: 109.99, de: 109.99, en: 99.99, es: 104.99, it: 109.99, nl: 104.99 },
-    image: img('61C9DAvebML'),
     badge: {
       fr: 'Choix N°1', de: 'Beste Wahl', en: 'Top Pick',
       es: 'Mejor Elección', it: 'Scelta Top', nl: 'Beste Keuze',
@@ -492,6 +488,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
   },
   {
     asin: 'B0CP8BPXKR',
+    brand: 'MEATER',
     category: 'thermometres-viande',
     title: {
       fr: 'MEATER Pro Thermomètre Sans Fil Longue Portée',
@@ -501,9 +498,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       it: 'MEATER Pro Termometro Wireless Lunga Portata',
       nl: 'MEATER Pro Draadloze Thermometer Groot Bereik',
     },
-    price: { fr: '149,99€', de: '149,99€', en: '£129.99', es: '144,99€', it: '149,99€', nl: '144,99€' },
     priceNumeric: { fr: 149.99, de: 149.99, en: 129.99, es: 144.99, it: 149.99, nl: 144.99 },
-    image: img('41K-AL+1GGL'),
     nuraScore: 9.2,
     capacity: '75 m Bluetooth',
     bestFor: {
@@ -533,6 +528,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
   },
   {
     asin: 'B076QBJVWX',
+    brand: 'Inkbird',
     category: 'thermometres-viande',
     title: {
       fr: 'Inkbird IBT-4XS Thermomètre Bluetooth 4 Sondes',
@@ -542,9 +538,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       it: 'Inkbird IBT-4XS Termometro Bluetooth 4 Sonde',
       nl: 'Inkbird IBT-4XS Bluetooth Thermometer 4 Sondes',
     },
-    price: { fr: '49,99€', de: '49,99€', en: '£39.99', es: '47,99€', it: '49,99€', nl: '47,99€' },
     priceNumeric: { fr: 49.99, de: 49.99, en: 39.99, es: 47.99, it: 49.99, nl: 47.99 },
-    image: img('41ehqwxgAlL'),
     nuraScore: 8.5,
     capacity: '4 sondes filaires',
     bestFor: {
@@ -578,6 +572,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
   // ──────────────────────────────────────────────────────────────────────────
   {
     asin: 'B09ZBGWYH9',
+    brand: 'TP-Link',
     category: 'prises-connectees',
     title: {
       fr: 'TP-Link Tapo P115 Prise Connectée avec Suivi Conso',
@@ -587,9 +582,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       it: 'TP-Link Tapo P115 Presa Smart con Monitor Consumi',
       nl: 'TP-Link Tapo P115 Slimme Stekker met Energiemeting',
     },
-    price: { fr: '12,99€', de: '12,99€', en: '£10.99', es: '11,99€', it: '12,99€', nl: '11,99€' },
     priceNumeric: { fr: 12.99, de: 12.99, en: 10.99, es: 11.99, it: 12.99, nl: 11.99 },
-    image: img('41ZmfiOgK0L'),
     badge: {
       fr: 'Choix N°1', de: 'Beste Wahl', en: 'Top Pick',
       es: 'Mejor Elección', it: 'Scelta Top', nl: 'Beste Keuze',
@@ -623,6 +616,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
   },
   {
     asin: 'B0B3JSKTCQ',
+    brand: 'TP-Link',
     category: 'prises-connectees',
     title: {
       fr: 'TP-Link Tapo P100 Pack de 4 Prises Connectées',
@@ -632,9 +626,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       it: 'TP-Link Tapo P100 Confezione da 4 Prese Smart',
       nl: 'TP-Link Tapo P100 4-Pack Slimme Stekkers',
     },
-    price: { fr: '29,99€', de: '29,99€', en: '£24.99', es: '27,99€', it: '29,99€', nl: '27,99€' },
     priceNumeric: { fr: 29.99, de: 29.99, en: 24.99, es: 27.99, it: 29.99, nl: 27.99 },
-    image: img('41fiqbMiT9L'),
     nuraScore: 9.1,
     capacity: '10 A',
     bestFor: {
@@ -664,6 +656,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
   },
   {
     asin: 'B0GT4DTYWG',
+    brand: 'Meross',
     category: 'prises-connectees',
     title: {
       fr: 'Meross MSS210P Prise Connectée HomeKit 16A (lot de 2)',
@@ -673,9 +666,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       it: 'Meross MSS210P Presa Smart HomeKit 16A',
       nl: 'Meross MSS210P HomeKit Slimme Stekker 16A',
     },
-    price: { fr: '19,99€', de: '19,99€', en: '£15.99', es: '17,99€', it: '19,99€', nl: '17,99€' },
     priceNumeric: { fr: 19.99, de: 19.99, en: 15.99, es: 17.99, it: 19.99, nl: 17.99 },
-    image: img('31ikTZWZfzL'),
     nuraScore: 8.8,
     capacity: '16 A / 3680 W',
     bestFor: {
@@ -707,22 +698,23 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
 
 /** Projection for a single language, ready to feed UI components. */
 export function getSmartKitchenProducts(lang: string) {
-  return smartKitchenStaticProducts.map((p) => ({
-    asin: p.asin,
-    category: p.category,
-    title: p.title[lang] || p.title.fr,
-    price: p.price[lang] || p.price.fr,
-    priceNumeric: p.priceNumeric[lang] || p.priceNumeric.fr,
-    image: p.image,
-    images: [p.image],
-    url: amazonProductUrl(p.asin),
-    badge: p.badge ? (p.badge[lang] || p.badge.fr) : undefined,
-    nuraScore: p.nuraScore,
-    capacity: p.capacity,
-    bestFor: p.bestFor[lang] || p.bestFor.fr,
-    pros: p.pros[lang] || p.pros.fr,
-    cons: p.cons[lang] || p.cons.fr,
-  }))
+  return smartKitchenStaticProducts.map((p) => {
+    const title = p.title[lang] || p.title.fr
+    return {
+      asin: p.asin,
+      category: p.category,
+      title,
+      priceNumeric: p.priceNumeric[lang] || p.priceNumeric.fr,
+      visual: productVisual(p.brand, title, VISUAL_KIND[p.category]),
+      url: amazonProductUrl(p.asin),
+      badge: p.badge ? (p.badge[lang] || p.badge.fr) : undefined,
+      nuraScore: p.nuraScore,
+      capacity: p.capacity,
+      bestFor: p.bestFor[lang] || p.bestFor.fr,
+      pros: p.pros[lang] || p.pros.fr,
+      cons: p.cons[lang] || p.cons.fr,
+    }
+  })
 }
 
 export type SmartKitchenProduct = ReturnType<typeof getSmartKitchenProducts>[number]

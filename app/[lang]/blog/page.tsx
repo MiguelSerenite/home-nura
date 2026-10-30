@@ -200,7 +200,7 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
           </Link>
           <Link href={`/${lang}`} className="p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-200">
             <p className="text-sm font-bold text-slate-900">{lang === 'fr' ? 'Nos meilleurs choix 2026' : lang === 'de' ? 'Unsere Top-Auswahl 2026' : lang === 'es' ? 'Nuestras mejores opciones 2026' : lang === 'it' ? 'Le nostre scelte migliori 2026' : lang === 'nl' ? 'Onze beste keuzes 2026' : 'Our top picks 2026'}</p>
-            <p className="text-xs text-slate-500 mt-1">{lang === 'fr' ? 'Comparatif avec prix et scores Nura' : 'Comparison with prices and Nura scores'}</p>
+            <p className="text-xs text-slate-500 mt-1">{lang === 'fr' ? 'Comparatif et scores Nura' : 'Comparison and Nura scores'}</p>
           </Link>
         </div>
       </section>
@@ -219,7 +219,6 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
       {/* Footer */}
       <SiteFooter
         currentLang={lang}
-        topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>}
       />
 
       <CookieBanner lang={lang} dict={{ cookie_banner_text: dict.cookie_banner_text, cookie_accept: dict.cookie_accept, cookie_reject: dict.cookie_reject, cookie_learn_more: dict.cookie_learn_more }} />

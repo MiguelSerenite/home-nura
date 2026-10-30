@@ -10,14 +10,14 @@ export const article: BlogArticle = {
   readingTime: 11,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/41sQIj0LwDL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1695089028114-ce28248f0ab9?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Heißluftfritteuse et son coût en électricité comparé au four',
-        en: 'Air fryer power consumption and electricity cost compared to an oven',
-        de: 'Heißluftfritteuse Stromverbrauch und Stromkosten im Vergleich zum Backofen',
-        es: 'Consumo eléctrico de la freidora de aire y coste comparado con el horno',
-        it: 'Consumo elettrico della friggitrice ad aria e costo rispetto al forno',
-        nl: 'Stroomverbruik van de airfryer en kosten vergeleken met de oven',
+        fr: 'Airfryer noir avec minuterie et thermostat, un appareil de cuisson plus économe en énergie que le four',
+        en: 'Black air fryer with timer and temperature dial, a cooking appliance that uses less energy than an oven',
+        de: 'Schwarze Heißluftfritteuse mit Timer und Temperaturregler, sparsamer im Stromverbrauch als der Backofen',
+        es: 'Freidora de aire negra con temporizador y termostato, un aparato que consume menos energía que el horno',
+        it: 'Friggitrice ad aria nera con timer e termostato, un apparecchio che consuma meno energia del forno',
+        nl: 'Zwarte airfryer met timer en temperatuurknop, een apparaat dat minder energie verbruikt dan de oven',
       },
     },
   ],

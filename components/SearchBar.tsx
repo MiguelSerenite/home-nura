@@ -2,13 +2,13 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import { trackEvent, EVENTS } from '@/lib/analytics'
+import type { ProductVisualData } from '@/lib/product-visual'
+import ProductVisual from './ProductVisual'
 
 interface SearchableProduct {
   title: string
-  price: string
-  image: string
+  visual: ProductVisualData
   asin: string
   capacity: string
   bestFor: string
@@ -249,15 +249,8 @@ export default function SearchBar({
                         onClick={handleResultClick}
                         className="flex items-center gap-4 px-5 py-3 hover:bg-slate-50 transition-colors focus-visible:outline-none focus-visible:bg-brand-50 focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-brand-500"
                       >
-                        <div className="w-14 h-14 shrink-0 rounded-lg bg-slate-100 overflow-hidden relative">
-                          <Image
-                            src={p.image}
-                            alt={p.title}
-                            fill
-                            sizes="56px"
-                            className="object-contain p-1"
-                            loading="lazy"
-                          />
+                        <div className="w-14 h-14 shrink-0 rounded-lg overflow-hidden relative">
+                          <ProductVisual {...p.visual} size="thumb" />
                         </div>
                         <div className="flex-1 min-w-0">
                           <div className="text-sm font-semibold text-slate-900 truncate">{p.title}</div>

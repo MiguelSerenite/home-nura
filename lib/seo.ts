@@ -176,13 +176,6 @@ export const lastUpdatedLabel: Record<string, string> = {
 
 interface ProductLike {
   title: string
-  price: string
-  priceNumeric: number
-  image: string
-  url: string
-  asin: string
-  nuraScore: number
-  capacity: string
 }
 
 /**
@@ -215,8 +208,8 @@ export function buildProductListSchema(
 // ---------------------------------------------------------------------
 // ItemList schema builder for editorial best-for pages (Phase NN)
 //
-// Unlike buildProductListSchema above — which embeds full Product
-// entries with price and image — this helper produces
+// Unlike buildProductListSchema above — which lists concrete products
+// by name — this helper produces
 // a lightweight ItemList for pages where the "ranking" is over
 // criteria, not over concrete SKUs. Each best-for page
 // (/[silo]/[category]/meilleur-pour/[persona]) declares a ranked

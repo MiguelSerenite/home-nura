@@ -10,14 +10,14 @@ export const article: BlogArticle = {
   readingTime: 8,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/41CfTSLQprL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1695089028114-ce28248f0ab9?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Ninja Foodi MAX Double Stack XL 9,5 L vu de face, avec ses deux tiroirs empilés et son panneau de commande latéral',
-        en: 'Front view of the Ninja Foodi MAX Double Stack XL 9.5L with its two stacked drawers and side control panel',
-        de: 'Ninja Foodi MAX Double Stack XL 9,5 L von vorne mit zwei übereinanderliegenden Schubladen und seitlichem Bedienfeld',
-        es: 'Vista frontal del Ninja Foodi MAX Double Stack XL 9,5 L con sus dos cajones apilados y el panel de control lateral',
-        it: 'Vista frontale del Ninja Foodi MAX Double Stack XL 9,5 L con i due cassetti impilati e il pannello di controllo laterale',
-        nl: 'Vooraanzicht van de Ninja Foodi MAX Double Stack XL 9,5 L met twee gestapelde laden en een bedieningspaneel aan de zijkant',
+        fr: 'Airfryer noir posé sur un plan de travail de cuisine',
+        en: 'Black air fryer on a kitchen worktop',
+        de: 'Schwarze Heißluftfritteuse auf einer Küchenarbeitsplatte',
+        es: 'Freidora de aire negra sobre una encimera de cocina',
+        it: 'Friggitrice ad aria nera sul piano di lavoro della cucina',
+        nl: 'Zwarte airfryer op een aanrecht in de keuken',
       },
     },
   ],

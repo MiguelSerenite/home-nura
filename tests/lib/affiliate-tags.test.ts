@@ -22,7 +22,7 @@ const SOURCE_DIRS = ['app', 'components', 'lib', 'scripts', 'dictionaries']
 const ROOT_FILES = ['proxy.ts', 'next.config.ts']
 const TEXT_FILE = /\.(?:tsx?|jsx?|mjs|json|txt|md|sh)$/
 const TAG_LITERAL = /homenura[a-z0-9]*-\d{2}/g
-// Store links only: image CDNs (m.media-amazon.com) are not stores.
+// Store links only (image CDN hosts are banned by amazon-compliance.test.ts).
 const STORE_LINK = /https?:\/\/(?:www\.)?amazon\.[a-z.]+/g
 const SINGLE_SOURCE = 'lib/amazon.ts'
 

@@ -1,15 +1,17 @@
 'use client'
 
-import Image from 'next/image'
 import Link from 'next/link'
 import { trackAffiliateClick } from '@/lib/analytics'
+import type { ProductVisualData } from '@/lib/product-visual'
+import AmazonDisclosure from './AmazonDisclosure'
+import ProductVisual from './ProductVisual'
 
 interface Product {
   asin: string
   title: string
-  price: string
+  /** Click analytics only, never rendered. */
   priceNumeric: number
-  image: string
+  visual: ProductVisualData
   url: string
   nuraScore: number
   capacity: string
@@ -78,8 +80,8 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
     return (
       <div data-buy-block className="not-prose my-8 rounded-2xl border border-brand-100 bg-brand-50 p-4 sm:p-5">
         <div className="flex items-center gap-4">
-          <div className="w-[72px] h-[72px] flex-shrink-0 relative rounded-xl overflow-hidden bg-white">
-            <Image src={p.image} alt="" fill sizes="72px" className="object-contain p-1" loading="lazy" />
+          <div className="w-[72px] h-[72px] flex-shrink-0 relative rounded-xl overflow-hidden">
+            <ProductVisual {...p.visual} size="thumb" />
           </div>
           <div className="flex-1 min-w-0">
             <p className="text-sm font-bold text-slate-900 line-clamp-2">{p.title}</p>
@@ -128,7 +130,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
         >
           {labels.button} →
         </a>
-        <p className="mt-3 text-xs text-slate-600">{labels.disclosure}</p>
+        <AmazonDisclosure lang={lang} note={labels.disclosure} className="mt-3 text-xs text-slate-600" />
       </div>
     )
   }
@@ -140,8 +142,8 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         {displayProducts.map((p, i) => (
           <div key={i} className="bg-white rounded-xl p-4 border border-slate-100 flex flex-col items-center text-center">
-            <div className="w-24 h-24 relative mb-3">
-              <Image src={p.image} alt="" fill sizes="96px" className="object-contain" loading="lazy" />
+            <div className="w-24 h-24 relative mb-3 rounded-xl overflow-hidden">
+              <ProductVisual {...p.visual} size="thumb" />
             </div>
             <p className="text-sm font-bold text-slate-900 line-clamp-2 mb-1">{p.title}</p>
             <div className="flex items-center gap-2 mb-3">
@@ -179,7 +181,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
         >
           {labels.seeAll} →
         </Link>
-        <p className="mt-2 text-xs text-slate-600">{labels.disclosure}</p>
+        <AmazonDisclosure lang={lang} note={labels.disclosure} className="mt-2 text-xs text-slate-600" />
       </div>
     </div>
   )

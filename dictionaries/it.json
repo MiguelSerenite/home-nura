@@ -1,12 +1,11 @@
 {
   "welcome": "Le Migliori Friggitrici ad Aria Smart 2026",
   "description": "Tecnologia e design per la tua cucina. Il confronto definitivo tra i modelli più avanzati dell'anno.",
-  "buy_button": "Controlla il prezzo su Amazon.it",
+  "buy_button": "Vedi su Amazon",
   "why_trust": "Perché fidarsi di Home Nura?",
   "expert_label": "Recensione dell'esperto Nura",
   "section_title": "Le Nostre Scelte Top",
   "section_subtitle": "Miglior rapporto qualità-prezzo selezionato dai nostri esperti.",
-  "affiliate_disclaimer": "In qualità di Affiliato Amazon, Home Nura riceve un guadagno dagli acquisti idonei.",
   "legal_notice": "Note legali",
   "privacy_policy": "Privacy",
   "cookie_policy": "Cookie",
@@ -18,14 +17,9 @@
   "col_nura_score": "Punteggio Nura",
   "col_capacity": "Capacità",
   "col_best_for": "Ideale per",
-  "col_price": "Prezzo",
   "col_action": "Azione",
   "col_pros": "Pro",
   "col_cons": "Contro",
-  "sort_by": "Ordina per",
-  "sort_price_asc": "Prezzo ↑",
-  "sort_price_desc": "Prezzo ↓",
-  "sort_score": "Punteggio Nura",
   "show_details": "Mostra dettagli",
   "hide_details": "Nascondi dettagli",
   "cookie_banner_text": "Questo sito utilizza cookie strettamente necessari e cookie di terze parti Amazon per i link affiliati.",
@@ -111,7 +105,7 @@
     },
     {
       "question": "Qual è la migliore friggitrice ad aria economica nel 2026?",
-      "answer": "La migliore friggitrice ad aria economica nel 2026 è la Cosori Lite (3,8L) a circa 65€, che ottiene un ottimo Punteggio Nura di 7,8/10 nonostante il prezzo accessibile. Offre una potenza di 1500W, 4 programmi automatici e un cestello adeguato per 2-3 persone. Al secondo posto, la Xiaomi Smart Air Fryer Pro (4L) a 78€ si distingue per la connettività WiFi e il controllo tramite l'app Mi Home — un lusso raro a questo prezzo. La Moulinex Easy Fry Max (5L) a 85€ offre la capacità più ampia nel segmento economico. I nostri criteri per i modelli budget: affidabilità comprovata, rivestimento antiaderente duraturo, facilità di pulizia e consumi energetici contenuti. Tutti questi modelli hanno almeno 2 anni di garanzia."
+      "answer": "La migliore friggitrice ad aria economica nel 2026 è la Cosori Lite (3,8L), che ottiene un ottimo Punteggio Nura di 7,8/10 nonostante il prezzo accessibile. Offre una potenza di 1500W, 4 programmi automatici e un cestello adeguato per 2-3 persone. Al secondo posto, la Xiaomi Smart Air Fryer Pro (4L) si distingue per la connettività WiFi e il controllo tramite l'app Mi Home — un lusso raro in questa fascia di prezzo. La Moulinex Easy Fry Max (5L) offre la capacità più ampia nel segmento economico. I nostri criteri per i modelli budget (meno di 100 €): affidabilità comprovata, rivestimento antiaderente duraturo, facilità di pulizia e consumi energetici contenuti. Tutti questi modelli hanno almeno 2 anni di garanzia."
     },
     {
       "question": "Come viene calcolato il Punteggio Nura?",

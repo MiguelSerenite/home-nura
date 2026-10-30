@@ -1,4 +1,5 @@
 import { amazonSearchUrl } from '@/lib/amazon'
+import type { ProductVisualData } from '@/lib/product-visual'
 import { getStaticProducts } from '@/lib/products'
 import { getArticleModels } from '@/lib/blog/article-models'
 import {
@@ -36,9 +37,9 @@ export function articleProductSource(article: { slug: string; pillar: string }):
 export interface ArticleProduct {
   asin: string
   title: string
-  price: string
+  /** Budget tier and click analytics only, never rendered. */
   priceNumeric: number
-  image: string
+  visual: ProductVisualData
   url: string
   nuraScore: number
   capacity: string
@@ -68,8 +69,8 @@ export function getArticleProducts(
   const products = [...cited, ...byScore]
     .filter((p, i, all) => all.findIndex((q) => q.asin === p.asin) === i)
     .slice(0, MAX_PRODUCTS)
-    .map(({ asin, title, price, priceNumeric, image, url, nuraScore, capacity }) => ({
-      asin, title, price, priceNumeric, image, url, nuraScore, capacity,
+    .map(({ asin, title, priceNumeric, visual, url, nuraScore, capacity }) => ({
+      asin, title, priceNumeric, visual, url, nuraScore, capacity,
     }))
   return { source, products }
 }
@@ -79,7 +80,7 @@ export type ArticleRecommendations =
   | { kind: 'models'; models: { name: string; url: string }[] }
 
 /**
- * What an article recommends: catalog products (images, scores) when the
+ * What an article recommends: catalog products (visuals, scores) when the
  * catalog covers the topic, else the models the article cites, linked to
  * an Amazon search on the reader's store. null when neither exists.
  */

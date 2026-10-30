@@ -1,20 +1,24 @@
-// Static product data with Amazon product images and affiliate links
-// Images are sourced from Amazon CDN (per-country marketplace images)
+// Static air fryer catalog with Amazon affiliate links.
+//
+// No Amazon product images and no displayed prices: the Amazon Associates
+// Operating Agreement only allows them through Amazon's product API, which
+// the account cannot use yet. Cards show a neutral visual instead (category
+// icon, brand, model: see lib/product-visual.ts).
 
 import { amazonProductUrl } from '@/lib/amazon'
-
-// Helper to build image URLs from Amazon image IDs
-// Amazon CDN images are global - same ID works from any country
-const img = (id: string, size: 'SL500' | 'SL1500' = 'SL1500') =>
-  `https://m.media-amazon.com/images/I/${id}._AC_${size}_.jpg`
+import { productVisual } from '@/lib/product-visual'
 
 export interface StaticProduct {
   title: Record<string, string>
-  price: Record<string, string>
+  /**
+   * Reference price per locale, used only to sort products into budget
+   * tiers (quiz, article fill-ins) and as the click analytics value.
+   * Never rendered.
+   */
   priceNumeric: Record<string, number>
-  /** Per-country marketplace images */
-  images: Record<string, string[]>
   asin: string
+  /** Brand as printed on the product visual (the title starts with it). */
+  brand: string
   badge?: Record<string, string>
   nuraScore: number
   capacity: string
@@ -59,6 +63,7 @@ export const staticProducts: StaticProduct[] = [
   {
     // 1. Ninja Foodi MAX Double Stack XL 9.5L
     asin: 'B0CZPJ1HFP',
+    brand: 'Ninja',
     title: {
       fr: 'Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L',
       de: 'Ninja Foodi MAX Double Stack XL Heißluftfritteuse - 9.5L',
@@ -67,19 +72,7 @@ export const staticProducts: StaticProduct[] = [
       it: 'Ninja Foodi MAX Double Stack XL Friggitrice ad Aria - 9.5L',
       nl: 'Ninja Foodi MAX Double Stack XL Airfryer - 9.5L',
     },
-    price: {
-      fr: '229,99€', de: '229,99€', en: '£229.99',
-      es: '229,99€', it: '229,99€', nl: '229,99€',
-    },
     priceNumeric: { fr: 229.99, de: 229.99, en: 229.99, es: 229.99, it: 229.99, nl: 229.99 },
-    images: {
-      fr: [img('41CfTSLQprL'), img('41rW9SE67CL'), img('41UknP2dSDL'), img('51mUF3yC0XL'), img('51kFfNWVVmL'), img('51SQGlZ5HqL'), img('71GTPUFlAnL')],
-      de: [img('41CfTSLQprL'), img('41Vx9wlJztL'), img('41OVP9LdQfL'), img('51r0lz5MHQL'), img('51ntqWIQVmL'), img('51wdAhlYZvL'), img('71GTPUFlAnL')],
-      en: [img('41q8JF5X2dL'), img('51F8eagvyaL'), img('61rt8iW5LLL')],
-      es: [img('41CfTSLQprL'), img('418RY5VZtXL'), img('41e09aE8blL'), img('51FWLbR7QYL'), img('51fUPHYhGHL'), img('51RjMpIlD7L'), img('71GTPUFlAnL')],
-      it: [img('41CfTSLQprL'), img('41fqAR3UWeL'), img('41l0KWVku1L'), img('51ZnUSw-77L'), img('51+5MDNxDKL'), img('51bAw6RkbJL'), img('71GTPUFlAnL')],
-      nl: [img('41CfTSLQprL'), img('41Vx9wlJztL'), img('41OVP9LdQfL'), img('51r0lz5MHQL'), img('51ntqWIQVmL'), img('51wdAhlYZvL'), img('71GTPUFlAnL')],
-    },
     badge: {
       fr: 'Choix N°1', de: 'Beste Wahl', en: 'Top Pick',
       es: 'Mejor Elección', it: 'Scelta Top', nl: 'Beste Keuze',
@@ -107,6 +100,7 @@ export const staticProducts: StaticProduct[] = [
   {
     // 2. Philips Airfryer 3000 Series XL 6.2L
     asin: 'B0D9S9Y16Y',
+    brand: 'Philips',
     title: {
       fr: 'Philips Airfryer Série 3000 XL - 6.2L',
       de: 'Philips Airfryer Serie 3000 XL - 6.2L',
@@ -115,19 +109,7 @@ export const staticProducts: StaticProduct[] = [
       it: 'Philips Airfryer Serie 3000 XL - 6.2L',
       nl: 'Philips Airfryer 3000 Serie XL - 6.2L',
     },
-    price: {
-      fr: '119,99€', de: '119,99€', en: '£99.99',
-      es: '109,99€', it: '119,99€', nl: '109,99€',
-    },
     priceNumeric: { fr: 119.99, de: 119.99, en: 99.99, es: 109.99, it: 119.99, nl: 109.99 },
-    images: {
-      fr: [img('31upZSvSwjL'), img('31kx15DMoWL'), img('41Hc43N6WlL'), img('41I8+6WDUdL'), img('41Uhfau0fcL'), img('51ouKk1X8rL'), img('41yUrDga5ML'), img('516hlh2K8IL')],
-      de: [img('31ihrfI3oJL'), img('41ExFDsBRkL'), img('31OF6Z0HJlL'), img('611kSWXGdAL'), img('51JFVsg9BzL')],
-      en: [img('31htbiQXdhL'), img('41QCII3b57L'), img('413ityir+XL'), img('51Xa00+L5fL'), img('51w9B8HUvIL'), img('41YgfZK3LdL'), img('41cLDNrEt4L'), img('51lXaS1GjEL')],
-      es: [img('31EF5Q9vkpL'), img('41wE5-Wkf0L'), img('41Zvn27SqFL'), img('51Sa+dC92oL'), img('51a7uKgvHSL'), img('41N9swplcpL'), img('61Fv2QxR6uL'), img('514QeBoWEUL')],
-      it: [img('31upZSvSwjL'), img('31kx15DMoWL'), img('41Hc43N6WlL'), img('41I8+6WDUdL'), img('41Uhfau0fcL'), img('51ouKk1X8rL'), img('41yUrDga5ML'), img('516hlh2K8IL')],
-      nl: [img('31upZSvSwjL'), img('41g2Bu-+FZL'), img('41I8+6WDUdL'), img('41FlvEJH6RL'), img('51ktilXnRHL'), img('51KjBx7kJbL'), img('41qLfETFmDL'), img('516hlh2K8IL')],
-    },
     nuraScore: 8.7,
     capacity: '6.2L',
     bestFor: {
@@ -151,6 +133,7 @@ export const staticProducts: StaticProduct[] = [
   {
     // 3. Cosori Dual Blaze Smart 6.4L
     asin: 'B0FPWSDF86',
+    brand: 'Cosori',
     title: {
       fr: 'Cosori Dual Blaze Smart Air Fryer - 6.4L',
       de: 'Cosori Dual Blaze Smart Heißluftfritteuse - 6.4L',
@@ -159,19 +142,7 @@ export const staticProducts: StaticProduct[] = [
       it: 'Cosori Dual Blaze Smart Friggitrice ad Aria - 6.4L',
       nl: 'Cosori Dual Blaze Smart Airfryer - 6.4L',
     },
-    price: {
-      fr: '139,99€', de: '139,99€', en: '£119.99',
-      es: '129,99€', it: '139,99€', nl: '129,99€',
-    },
     priceNumeric: { fr: 139.99, de: 139.99, en: 119.99, es: 129.99, it: 139.99, nl: 129.99 },
-    images: {
-      fr: [img('41qK28Ln0PL'), img('51eX4ilkMVL'), img('51rTkIGnYTL'), img('517Ul1Ym6KL'), img('51lUY-Q1b5L'), img('51GZcygvXfL'), img('91mFwLsU2DL')],
-      de: [img('41qK28Ln0PL'), img('51eX4ilkMVL'), img('51rTkIGnYTL'), img('517Ul1Ym6KL'), img('51lUY-Q1b5L'), img('51GZcygvXfL'), img('91mFwLsU2DL')],
-      en: [img('41u-Mzu4noL'), img('51eX4ilkMVL'), img('51rTkIGnYTL'), img('517Ul1Ym6KL'), img('51lUY-Q1b5L'), img('51GZcygvXfL')],
-      es: [img('41UDTjvPnuL'), img('51V50PjealL'), img('51Jp5jUoDpL'), img('51kXvM0XosL'), img('51E0GUZNTQL'), img('51ys3sZeWlL'), img('91rdPszNizL')],
-      it: [img('41UDTjvPnuL'), img('51V50PjealL'), img('51Jp5jUoDpL'), img('51kXvM0XosL'), img('51E0GUZNTQL'), img('51ys3sZeWlL'), img('91rdPszNizL')],
-      nl: [img('41qK28Ln0PL'), img('51eX4ilkMVL'), img('51rTkIGnYTL'), img('517Ul1Ym6KL'), img('51lUY-Q1b5L'), img('51GZcygvXfL'), img('91mFwLsU2DL')],
-    },
     nuraScore: 8.9,
     capacity: '6.4L',
     bestFor: {
@@ -195,6 +166,7 @@ export const staticProducts: StaticProduct[] = [
   {
     // 4. Tefal ActiFry Genius XL 2in1 (YV970815 / YV9708)
     asin: 'B07W1JDFH3',
+    brand: 'Tefal',
     title: {
       fr: 'Tefal ActiFry Genius XL 2in1 - 1.7kg',
       de: 'Tefal ActiFry Genius XL 2in1 - 1.7kg',
@@ -203,19 +175,7 @@ export const staticProducts: StaticProduct[] = [
       it: 'Tefal ActiFry Genius XL 2in1 - 1.7kg',
       nl: 'Tefal ActiFry Genius XL 2in1 - 1.7kg',
     },
-    price: {
-      fr: '199,99€', de: '209,99€', en: '£179.99',
-      es: '189,99€', it: '199,99€', nl: '199,99€',
-    },
     priceNumeric: { fr: 199.99, de: 209.99, en: 179.99, es: 189.99, it: 199.99, nl: 199.99 },
-    images: {
-      fr: [img('41HEjimt4yL'), img('31nDquRFxFL'), img('41ObEYEeCQL'), img('41IPbNLRBqL'), img('41W2lEObUGL'), img('41pkoCuqzkL')],
-      de: [img('41HEjimt4yL'), img('31nDquRFxFL'), img('41ObEYEeCQL'), img('41IPbNLRBqL'), img('41W2lEObUGL'), img('41pkoCuqzkL')],
-      en: [img('41HEjimt4yL'), img('31nDquRFxFL'), img('41ObEYEeCQL'), img('41IPbNLRBqL'), img('41W2lEObUGL'), img('41pkoCuqzkL')],
-      es: [img('41HEjimt4yL'), img('31nDquRFxFL'), img('41ObEYEeCQL'), img('41IPbNLRBqL'), img('41W2lEObUGL'), img('41pkoCuqzkL')],
-      it: [img('41HEjimt4yL'), img('31nDquRFxFL'), img('41ObEYEeCQL'), img('41IPbNLRBqL'), img('41W2lEObUGL'), img('41pkoCuqzkL')],
-      nl: [img('41HEjimt4yL'), img('31nDquRFxFL'), img('41ObEYEeCQL'), img('41IPbNLRBqL'), img('41W2lEObUGL'), img('41pkoCuqzkL')],
-    },
     nuraScore: 8.2,
     capacity: '1.7kg',
     bestFor: {
@@ -239,6 +199,7 @@ export const staticProducts: StaticProduct[] = [
   {
     // 5. Xiaomi Smart Air Fryer Pro 4L (BHR6943EU)
     asin: 'B0BQNDGJRV',
+    brand: 'Xiaomi',
     title: {
       fr: 'Xiaomi Smart Air Fryer Pro 4L',
       de: 'Xiaomi Smart Air Fryer Pro 4L',
@@ -247,19 +208,7 @@ export const staticProducts: StaticProduct[] = [
       it: 'Xiaomi Smart Air Fryer Pro 4L',
       nl: 'Xiaomi Smart Air Fryer Pro 4L',
     },
-    price: {
-      fr: '79,99€', de: '79,99€', en: '£69.99',
-      es: '74,99€', it: '79,99€', nl: '74,99€',
-    },
     priceNumeric: { fr: 79.99, de: 79.99, en: 69.99, es: 74.99, it: 79.99, nl: 74.99 },
-    images: {
-      fr: [img('41qC1MwS1JL'), img('31AH1wnAFpL'), img('41KcK1L7FvL'), img('411w+EDCnTL'), img('41H91l7fkZL'), img('41abKNU8JFL'), img('311eo2Ue0vL')],
-      de: [img('41qC1MwS1JL'), img('31AH1wnAFpL'), img('41KcK1L7FvL'), img('411w+EDCnTL'), img('41H91l7fkZL'), img('41abKNU8JFL'), img('311eo2Ue0vL')],
-      en: [img('41qC1MwS1JL'), img('31AH1wnAFpL'), img('41KcK1L7FvL'), img('411w+EDCnTL'), img('41H91l7fkZL'), img('41abKNU8JFL'), img('311eo2Ue0vL')],
-      es: [img('41qC1MwS1JL'), img('31AH1wnAFpL'), img('41KcK1L7FvL'), img('411w+EDCnTL'), img('41H91l7fkZL'), img('41abKNU8JFL'), img('311eo2Ue0vL')],
-      it: [img('41qC1MwS1JL'), img('31AH1wnAFpL'), img('41KcK1L7FvL'), img('411w+EDCnTL'), img('41H91l7fkZL'), img('41abKNU8JFL'), img('311eo2Ue0vL')],
-      nl: [img('41qC1MwS1JL'), img('31AH1wnAFpL'), img('41KcK1L7FvL'), img('411w+EDCnTL'), img('41H91l7fkZL'), img('41abKNU8JFL'), img('311eo2Ue0vL')],
-    },
     badge: {
       fr: 'Meilleur Prix', de: 'Bester Preis', en: 'Best Value',
       es: 'Mejor Precio', it: 'Miglior Prezzo', nl: 'Beste Prijs',
@@ -290,6 +239,7 @@ export const staticProducts: StaticProduct[] = [
   {
     // 6. Ninja Foodi FlexDrawer 10.4L
     asin: 'B0CFL49C1J',
+    brand: 'Ninja',
     title: {
       fr: 'Ninja Foodi FlexDrawer 10.4L Double Zone',
       de: 'Ninja Foodi FlexDrawer 10.4L Doppelzone',
@@ -298,19 +248,7 @@ export const staticProducts: StaticProduct[] = [
       it: 'Ninja Foodi FlexDrawer 10.4L Doppia Zona',
       nl: 'Ninja Foodi FlexDrawer 10.4L Dubbele Zone',
     },
-    price: {
-      fr: '249,99€', de: '249,99€', en: '£219.99',
-      es: '239,99€', it: '249,99€', nl: '239,99€',
-    },
     priceNumeric: { fr: 249.99, de: 249.99, en: 219.99, es: 239.99, it: 249.99, nl: 239.99 },
-    images: {
-      fr: [img('31pr60oiZuL'), img('41Ivql+rlPL'), img('519odoJB9CL'), img('51rCYDpcl6L'), img('51QXMUDCEqL'), img('51x6nXJBrtL'), img('71T8jynPV3L')],
-      de: [img('31pr60oiZuL'), img('414VFz8Jc4L'), img('51s+pAyeqdL'), img('51sF7ZrbJlL'), img('51xdWWG4skL'), img('5192N20Q2KL'), img('71T8jynPV3L')],
-      en: [img('31pr60oiZuL'), img('41Ivql+rlPL'), img('519odoJB9CL'), img('51rCYDpcl6L'), img('51QXMUDCEqL'), img('51x6nXJBrtL'), img('51LJzCgN6TL'), img('71T8jynPV3L')],
-      es: [img('31pr60oiZuL'), img('41UuCVjBXPL'), img('51wbDWNZX4L'), img('51dqj35iXjL'), img('51GsxiE6+rL'), img('41cq0G3zyDL'), img('51-9Oe7cyOL'), img('71T8jynPV3L')],
-      it: [img('31pr60oiZuL'), img('4152ZqREpFL'), img('51U17kAoAsL'), img('51uQjNPam3L'), img('51PHRzNltxL'), img('41mIKYSFSpL'), img('71T8jynPV3L')],
-      nl: [img('31pr60oiZuL'), img('414VFz8Jc4L'), img('51s+pAyeqdL'), img('51sF7ZrbJlL'), img('51xdWWG4skL'), img('5192N20Q2KL'), img('71T8jynPV3L')],
-    },
     badge: {
       fr: 'Premium', de: 'Premium', en: 'Premium',
       es: 'Premium', it: 'Premium', nl: 'Premium',
@@ -338,6 +276,7 @@ export const staticProducts: StaticProduct[] = [
   {
     // 7. Philips Airfryer Combi 7000 XXL Connected 8.3L (HD9876/90)
     asin: 'B0D67569TZ',
+    brand: 'Philips',
     title: {
       fr: 'Philips Airfryer Combi XXL Connecté - 8.3L',
       de: 'Philips Airfryer Combi XXL Connected - 8.3L',
@@ -346,19 +285,7 @@ export const staticProducts: StaticProduct[] = [
       it: 'Philips Airfryer Combi XXL Connessa - 8.3L',
       nl: 'Philips Airfryer Combi XXL Connected - 8.3L',
     },
-    price: {
-      fr: '349,99€', de: '349,99€', en: '£299.99',
-      es: '329,99€', it: '349,99€', nl: '339,99€',
-    },
     priceNumeric: { fr: 349.99, de: 349.99, en: 299.99, es: 329.99, it: 349.99, nl: 339.99 },
-    images: {
-      fr: [img('41sOxW9hrYL'), img('51TI6vVXnAL'), img('41mPH4oI62L'), img('41J+Ne+U65L'), img('41VoaarlecL'), img('51h8qJQcaPL'), img('41yUrDga5ML'), img('61gU3AHsFdL')],
-      de: [img('41m8gEYJfCL'), img('51LUtueROvL'), img('51rNdtsnisL'), img('41ZEyDnW6RL'), img('51h73+ZN8ML'), img('51-YiO2wybL'), img('51s3ATFaiNL'), img('615x77sZFpL')],
-      en: [img('31bSuWEvmHL'), img('41gdDY7NW-L'), img('31+1t1s4m3L'), img('5148QeBjTwL'), img('41L7rIeFHSL'), img('41UR97+ZI6L'), img('51fJ4U8kHjL')],
-      es: [img('41sOxW9hrYL'), img('41wPKWvM7lL'), img('41J+Ne+U65L'), img('41j-fZLvZLL'), img('51vherEwTmL'), img('51q1LHMcImL'), img('61gU3AHsFdL')],
-      it: [img('41m8gEYJfCL'), img('41zVxRY43RL'), img('41U9RZcb02L'), img('41drP4n9kpL'), img('51bO0-eOa0L'), img('51KN7EcfHRL'), img('51FW0-MYY5L'), img('615x77sZFpL')],
-      nl: [img('41m8gEYJfCL'), img('41ENtdNZqQL'), img('41U9RZcb02L'), img('41j-wbYp+3L'), img('51HR4jdUeNL'), img('51eLodvh9aL'), img('615x77sZFpL')],
-    },
     nuraScore: 9.0,
     capacity: '8.3L',
     bestFor: {
@@ -382,6 +309,7 @@ export const staticProducts: StaticProduct[] = [
   {
     // 8. Cosori CP158-AF 5.5L — Lite 3.8L (CAF-LI401S) not listed on amazon.fr/.de/.it; title change proposed
     asin: 'B07N8N6C85',
+    brand: 'Cosori',
     title: {
       fr: 'Cosori CP158-AF 5.5L Air Fryer',
       de: 'Cosori CP158-AF 5.5L Heißluftfritteuse',
@@ -390,19 +318,7 @@ export const staticProducts: StaticProduct[] = [
       it: 'Cosori CP158-AF 5.5L Friggitrice ad Aria',
       nl: 'Cosori CP158-AF 5.5L Airfryer',
     },
-    price: {
-      fr: '69,99€', de: '69,99€', en: '£59.99',
-      es: '64,99€', it: '69,99€', nl: '64,99€',
-    },
     priceNumeric: { fr: 69.99, de: 69.99, en: 59.99, es: 64.99, it: 69.99, nl: 64.99 },
-    images: {
-      fr: [img('51asEHelgNL'), img('51lTfLNrybL'), img('61ioCA+eEkL'), img('5183QQlqfLL'), img('51ffH+cjCaL'), img('51hgRE0O34L'), img('51M5smIzJEL'), img('81xafenO7aL')],
-      de: [img('41c8-2mR9oL'), img('51uRm9v7qHL'), img('51KXkmGhcSL'), img('51Qd6R6NOsL'), img('5128zA9msHL'), img('51U368xcc0L'), img('51t-mQix2EL'), img('81xtJuKPaKL')],
-      en: [img('41sPTxzNigL'), img('61ioCA+eEkL'), img('51LCgTqJN2L'), img('51ffH+cjCaL'), img('51hgRE0O34L'), img('51lTfLNrybL'), img('51M5smIzJEL'), img('517RMBVPXYL')],
-      es: [img('51f110+wHwL'), img('51Hz0BEs8-L'), img('51sFygxvqDL'), img('51Dhq0837uL'), img('519eb9UfuxL'), img('514hF8Z02sL'), img('514MBurI7fL'), img('81HDt6NDs7L')],
-      it: [img('51asEHelgNL'), img('51Iq5WITwDL'), img('51t2OGeTNVL'), img('5163wAxl2yL'), img('51jfO4piGTL'), img('51WD8PcyGvL'), img('51Rv4MjEilL'), img('81xafenO7aL')],
-      nl: [img('41sPTxzNigL'), img('61ioCA+eEkL'), img('51LCgTqJN2L'), img('51ffH+cjCaL'), img('51hgRE0O34L'), img('51lTfLNrybL'), img('51M5smIzJEL'), img('517RMBVPXYL')],
-    },
     nuraScore: 7.8,
     capacity: '5.5L',
     bestFor: {
@@ -426,6 +342,7 @@ export const staticProducts: StaticProduct[] = [
   {
     // 9. Moulinex Easy Fry Max 5L
     asin: 'B0CG6C26QW',
+    brand: 'Moulinex',
     title: {
       fr: 'Moulinex Easy Fry Max 5L',
       de: 'Moulinex Easy Fry Max 5L',
@@ -434,19 +351,7 @@ export const staticProducts: StaticProduct[] = [
       it: 'Moulinex Easy Fry Max 5L',
       nl: 'Moulinex Easy Fry Max 5L',
     },
-    price: {
-      fr: '89,99€', de: '94,99€', en: '£79.99',
-      es: '84,99€', it: '89,99€', nl: '84,99€',
-    },
     priceNumeric: { fr: 89.99, de: 94.99, en: 79.99, es: 84.99, it: 89.99, nl: 84.99 },
-    images: {
-      fr: [img('31sYjIGedWL'), img('31yWW2d7Y0L'), img('418zRPkh+4L'), img('5153iWZKejL'), img('41KOqrNxjWL'), img('51pysa4flEL'), img('61Pq0r2hHsL'), img('51ATUoMSddL')],
-      de: [img('41MfLEk4x1L'), img('418AwHIHMCL'), img('31yWW2d7Y0L'), img('51p7J2ejpUL'), img('514k1H7gIHL'), img('517yrZhLoZL'), img('411i-St1ZTL'), img('71odsj+-FCL')],
-      en: [img('41MfLEk4x1L'), img('418AwHIHMCL'), img('31yWW2d7Y0L'), img('51p7J2ejpUL'), img('514k1H7gIHL'), img('517yrZhLoZL'), img('411i-St1ZTL'), img('71odsj+-FCL')],
-      es: [img('315oOiq8UiL'), img('51mVy-GrU7L'), img('41CLVJ5xs7L'), img('51uoqBjGDWL'), img('41p+RVNs1LL'), img('512vJXroK3L'), img('315qjeFgloL'), img('516kJw1p0lL')],
-      it: [img('31doBiaU5EL'), img('31DCkz+fUYL'), img('41QIoYhLIvL'), img('51VvXoieWOL'), img('51oDwINf-nL'), img('41g83WE8G5L'), img('41rqozVBvGL'), img('61hddsGcPOL')],
-      nl: [img('41MfLEk4x1L'), img('418AwHIHMCL'), img('31yWW2d7Y0L'), img('51p7J2ejpUL'), img('514k1H7gIHL'), img('517yrZhLoZL'), img('411i-St1ZTL'), img('71odsj+-FCL')],
-    },
     nuraScore: 8.3,
     capacity: '5L',
     bestFor: {
@@ -469,37 +374,14 @@ export const staticProducts: StaticProduct[] = [
   },
 ]
 
-// Amazon CDN image IDs whose first character is 2, 3, or 4 are the clean
-// "hero" product shots on a white background (the canonical product images
-// the seller uploads). IDs starting with 5/6/7/8/9 are Amazon A+ / lifestyle
-// content — they contain embedded marketing banners, people, promotional
-// stickers ("DESIGN OPTIMISÉ", "1er Inventeur", etc.) which look terrible
-// in our product cards. Filter them out so every product shows clean shots.
-function isCleanProductShot(imgUrl: string): boolean {
-  const match = imgUrl.match(/\/I\/([^.]+)\./)
-  if (!match) return true
-  const firstChar = match[1][0]
-  return firstChar === '2' || firstChar === '3' || firstChar === '4'
-}
-
-function cleanImages(urls: string[]): string[] {
-  const cleaned = urls.filter(isCleanProductShot)
-  // Safety net: if filtering wipes everything out, fall back to the first
-  // original URL so the card never ends up image-less.
-  return cleaned.length > 0 ? cleaned : urls.slice(0, 1)
-}
-
 export function getStaticProducts(lang: string) {
   return staticProducts.map((p) => {
-    const langImages = cleanImages(p.images[lang] || p.images.fr)
-    const mainImage = langImages[0].replace('SL1500', 'SL500')
+    const title = p.title[lang] || p.title.fr
 
     return {
-      title: p.title[lang] || p.title.fr,
-      price: p.price[lang] || p.price.fr,
+      title,
       priceNumeric: p.priceNumeric[lang] || p.priceNumeric.fr,
-      image: mainImage,
-      images: langImages,
+      visual: productVisual(p.brand, title, 'airfryer'),
       asin: p.asin,
       url: amazonProductUrl(p.asin),
       badge: p.badge ? (p.badge[lang] || p.badge.fr) : undefined,

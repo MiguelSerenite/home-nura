@@ -10,14 +10,14 @@ export const article: BlogArticle = {
   readingTime: 9,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/21z46vwmm1L._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1695089028114-ce28248f0ab9?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Airfryer neuf dégageant une odeur de plastique lors de la première utilisation',
-        en: 'New air fryer giving off a plastic smell during the first use',
-        de: 'Neue Heißluftfritteuse, die beim ersten Gebrauch nach Plastik riecht',
-        es: 'Freidora de aire nueva que desprende olor a plástico durante el primer uso',
-        it: 'Friggitrice ad aria nuova che emana odore di plastica al primo utilizzo',
-        nl: 'Nieuwe airfryer die een plasticgeur afgeeft tijdens het eerste gebruik',
+        fr: 'Airfryer noir posé sur un plan de travail de cuisine',
+        en: 'Black air fryer on a kitchen worktop',
+        de: 'Schwarze Heißluftfritteuse auf einer Küchenarbeitsplatte',
+        es: 'Freidora de aire negra sobre una encimera de cocina',
+        it: 'Friggitrice ad aria nera sul piano di lavoro della cucina',
+        nl: 'Zwarte airfryer op een aanrecht in de keuken',
       },
     },
   ],

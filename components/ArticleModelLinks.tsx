@@ -1,6 +1,7 @@
 'use client'
 
 import { trackAffiliateClick } from '@/lib/analytics'
+import AmazonDisclosure from './AmazonDisclosure'
 
 export interface ModelLink {
   name: string
@@ -68,7 +69,7 @@ export default function ArticleModelLinks({
           </li>
         ))}
       </ul>
-      <p className="mt-3 text-xs text-slate-600">{labels.disclosure}</p>
+      <AmazonDisclosure lang={lang} note={labels.disclosure} className="mt-3 text-xs text-slate-600" />
     </div>
   )
 }

@@ -1,12 +1,11 @@
 {
   "welcome": "De Beste Smart Airfryers van 2026",
   "description": "Gezond frituren met de nieuwste technologie. Wij hebben de populairste modellen voor de Nederlandse keuken vergeleken.",
-  "buy_button": "Check prijs op Amazon.nl",
+  "buy_button": "Bekijk op Amazon",
   "why_trust": "Waarom Home Nura?",
   "expert_label": "Nura Expert Beoordeling",
   "section_title": "Onze Topkeuzes",
   "section_subtitle": "Beste prijs-kwaliteitverhouding, geselecteerd door onze experts.",
-  "affiliate_disclaimer": "Als Amazon-partner verdient Home Nura aan in aanmerking komende aankopen.",
   "legal_notice": "Juridisch",
   "privacy_policy": "Privacy",
   "cookie_policy": "Cookies",
@@ -18,14 +17,9 @@
   "col_nura_score": "Nura Score",
   "col_capacity": "Capaciteit",
   "col_best_for": "Ideaal voor",
-  "col_price": "Prijs",
   "col_action": "Actie",
   "col_pros": "Voordelen",
   "col_cons": "Nadelen",
-  "sort_by": "Sorteer op",
-  "sort_price_asc": "Prijs ↑",
-  "sort_price_desc": "Prijs ↓",
-  "sort_score": "Nura Score",
   "show_details": "Details tonen",
   "hide_details": "Details verbergen",
   "cookie_banner_text": "Deze site gebruikt strikt noodzakelijke cookies en Amazon cookies van derden voor affiliate-links.",
@@ -111,7 +105,7 @@
     },
     {
       "question": "Wat is de beste goedkope airfryer in 2026?",
-      "answer": "De beste budget-airfryer van 2026 is de Cosori Lite (3,8L) voor circa €65, die ondanks de scherpe prijs een uitstekende Nura Score van 7,8/10 behaalt. Hij biedt 1500W vermogen, 4 automatische programma's en een mand die groot genoeg is voor 2-3 personen. Op de tweede plaats staat de Xiaomi Smart Air Fryer Pro (4L) voor €75, die opvalt door WiFi-connectiviteit en bediening via de Mi Home app — een zeldzame luxe in dit prijssegment. De Moulinex Easy Fry Max (5L) voor €85 biedt de grootste capaciteit in het budgetsegment. Onze criteria voor betaalbare modellen: bewezen betrouwbaarheid, duurzame antiaanbaklaag, eenvoudig schoonmaken en beheerst energieverbruik. Al deze modellen hebben minimaal 2 jaar garantie."
+      "answer": "De beste budget-airfryer van 2026 is de Cosori Lite (3,8L), die ondanks de scherpe prijs een uitstekende Nura Score van 7,8/10 behaalt. Hij biedt 1500W vermogen, 4 automatische programma's en een mand die groot genoeg is voor 2-3 personen. Op de tweede plaats staat de Xiaomi Smart Air Fryer Pro (4L), die opvalt door WiFi-connectiviteit en bediening via de Mi Home app — een zeldzame luxe in dit prijssegment. De Moulinex Easy Fry Max (5L) biedt de grootste capaciteit in het budgetsegment. Onze criteria voor betaalbare modellen (onder €100): bewezen betrouwbaarheid, duurzame antiaanbaklaag, eenvoudig schoonmaken en beheerst energieverbruik. Al deze modellen hebben minimaal 2 jaar garantie."
     },
     {
       "question": "Hoe wordt de Nura Score berekend?",

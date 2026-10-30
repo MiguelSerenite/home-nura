@@ -1,15 +1,17 @@
 'use client'
 
 import { useMemo, useState } from 'react'
-import Image from 'next/image'
 import { trackAffiliateClick, trackEvent, EVENTS } from '@/lib/analytics'
+import type { ProductVisualData } from '@/lib/product-visual'
+import AmazonDisclosure from './AmazonDisclosure'
+import ProductVisual from './ProductVisual'
 
 interface QuizProduct {
   asin: string
   title: string
-  price: string
+  /** Budget matching and click analytics only, never rendered. */
   priceNumeric: number
-  image: string
+  visual: ProductVisualData
   url: string
   nuraScore: number
   capacity: string
@@ -483,15 +485,8 @@ export default function Quiz({ products, currentLang }: QuizProps) {
                 <div className="h-[2px] w-16 bg-brand-600 mx-auto mb-8"></div>
 
                 <div className="max-w-md mx-auto rounded-2xl border border-slate-200 overflow-hidden bg-white">
-                  <div className="relative aspect-square bg-slate-100">
-                    <Image
-                      src={recommendation.image}
-                      alt={recommendation.title}
-                      fill
-                      sizes="(max-width: 768px) 100vw, 400px"
-                      className="object-contain p-6"
-                      loading="lazy"
-                    />
+                  <div className="relative aspect-square overflow-hidden">
+                    <ProductVisual {...recommendation.visual} size="hero" label={recommendation.title} />
                   </div>
                   <div className="p-6">
                     <div className="text-xs font-bold tracking-wide uppercase text-brand-600 mb-2">
@@ -519,6 +514,7 @@ export default function Quiz({ products, currentLang }: QuizProps) {
                     >
                       {t.seePrice}
                     </a>
+                    <AmazonDisclosure lang={currentLang} className="mt-4 text-xs text-slate-500" />
                   </div>
                 </div>
 

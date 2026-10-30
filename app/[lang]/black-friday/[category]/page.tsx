@@ -16,7 +16,7 @@ import { SectionHero, SiteFooter } from '@/components/ui'
 import AmazonEventBlock from '@/components/black-friday/AmazonEventBlock'
 import BlackFridayBreadcrumb from '@/components/black-friday/Breadcrumb'
 import PickList from '@/components/black-friday/PickList'
-import { getDictionary } from '../../dictionaries'
+import AmazonDisclosure from '@/components/AmazonDisclosure'
 import {
   BLACK_FRIDAY_CATEGORIES,
   blackFridayPath,
@@ -54,7 +54,6 @@ export default async function BlackFridayCategoryPage({ params }: { params: Para
 
   const copy = category.copy[lang]
   const ui = UI[lang]
-  const dict = await getDictionary(lang)
   const picks = getBlackFridayPicks(category, lang)
   const links = getBlackFridayLinks(category, lang)
   const others = BLACK_FRIDAY_CATEGORIES.filter((c) => c.slug !== category.slug)
@@ -86,7 +85,7 @@ export default async function BlackFridayCategoryPage({ params }: { params: Para
 
         <SectionHero title={copy.h1}>
           <p className="mx-auto max-w-2xl text-base leading-relaxed text-slate-600">{copy.intro}</p>
-          <p className="mx-auto mt-4 max-w-2xl text-xs text-slate-500">{dict.affiliate_disclaimer}</p>
+          <AmazonDisclosure lang={lang} className="mx-auto mt-4 max-w-2xl text-xs text-slate-500" />
         </SectionHero>
 
         <PickList picks={picks} lang={lang} />
@@ -143,7 +142,7 @@ export default async function BlackFridayCategoryPage({ params }: { params: Para
         <FaqSection faqs={[...copy.faq]} title={ui.faqTitle} />
       </main>
 
-      <SiteFooter currentLang={lang} topContent={<p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p>} />
+      <SiteFooter currentLang={lang} />
     </div>
   )
 }

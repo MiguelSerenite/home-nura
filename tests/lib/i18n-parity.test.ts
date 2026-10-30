@@ -138,7 +138,7 @@ describe('staticProducts locale parity', () => {
       const label = `product ${product.asin}`
 
       // String-valued per-locale fields
-      for (const field of ['title', 'price', 'bestFor'] as const) {
+      for (const field of ['title', 'bestFor'] as const) {
         const record = product[field]
         for (const lang of LANGUAGES) {
           const value = record[lang]
@@ -173,11 +173,9 @@ describe('staticProducts locale parity', () => {
         }
       }
 
-      // Image arrays per locale
+      // The visual prints the brand: every localized title must name it.
       for (const lang of LANGUAGES) {
-        const images = product.images[lang]
-        expect(Array.isArray(images), `${label}.images.${lang} must be an array`).toBe(true)
-        expect(images.length, `${label}.images.${lang} must have at least one image`).toBeGreaterThan(0)
+        expect(product.title[lang], `${label}.title.${lang} must name ${product.brand}`).toContain(product.brand)
       }
 
       // badge is optional — but if present for one locale, it must be present for all.

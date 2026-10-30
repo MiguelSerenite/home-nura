@@ -10,14 +10,14 @@ export const article: BlogArticle = {
   readingTime: 6,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/31pr60oiZuL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1695089028114-ce28248f0ab9?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Ninja Foodi FlexDrawer AF500EU vu de face, avec son panneau de commande MegaZone et Dual Zone',
-        en: 'Front view of the Ninja Foodi FlexDrawer AF500EU, showing its MegaZone and Dual Zone control panel',
-        de: 'Ninja Foodi FlexDrawer AF500EU von vorne, mit dem Bedienfeld für MegaZone und Dual Zone',
-        es: 'Ninja Foodi FlexDrawer AF500EU visto de frente, con su panel de control MegaZone y Dual Zone',
-        it: 'Ninja Foodi FlexDrawer AF500EU visto di fronte, con il pannello di controllo MegaZone e Dual Zone',
-        nl: 'Ninja Foodi FlexDrawer AF500EU van voren, met het bedieningspaneel voor MegaZone en Dual Zone',
+        fr: 'Airfryer noir posé sur un plan de travail de cuisine',
+        en: 'Black air fryer on a kitchen worktop',
+        de: 'Schwarze Heißluftfritteuse auf einer Küchenarbeitsplatte',
+        es: 'Freidora de aire negra sobre una encimera de cocina',
+        it: 'Friggitrice ad aria nera sul piano di lavoro della cucina',
+        nl: 'Zwarte airfryer op een aanrecht in de keuken',
       },
     },
   ],

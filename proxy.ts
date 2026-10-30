@@ -145,7 +145,9 @@ export function proxy(request: NextRequest) {
     "default-src 'self'",
     `script-src ${scriptSrc}`,
     "style-src 'self' 'unsafe-inline'",
-    "img-src 'self' data: https://m.media-amazon.com https://images-na.ssl-images-amazon.com https://img.youtube.com",
+    // No Amazon image CDN: the site may not show Amazon product images
+    // without Amazon's product API (Associates Operating Agreement).
+    "img-src 'self' data: https://img.youtube.com",
     "font-src 'self' data:",
     "connect-src 'self'",
     "frame-src https://www.youtube.com https://www.youtube-nocookie.com",

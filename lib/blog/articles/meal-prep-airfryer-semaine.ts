@@ -10,14 +10,14 @@ export const article: BlogArticle = {
   readingTime: 15,
   images: [
     {
-      src: 'https://m.media-amazon.com/images/I/41sQIj0LwDL._AC_SL1500_.jpg',
+      src: 'https://images.unsplash.com/photo-1781737857663-f1f14a60ba46?w=800&q=80&auto=format&fit=crop',
       alt: {
-        fr: 'Meal prep de la semaine avec des plats préparés à l\'airfryer dans des contenants',
-        en: 'Weekly meal prep with air fryer prepared dishes in containers',
-        de: 'Wöchentliche Meal-Prep-Boxen mit Gerichten aus der Heißluftfritteuse',
-        es: 'Meal prep semanal con platos preparados en freidora de aire en recipientes',
-        it: 'Meal prep settimanale con piatti preparati nella friggitrice ad aria in contenitori',
-        nl: 'Wekelijkse meal prep met airfryer-gerechten in bakjes',
+        fr: 'Grande fournée de morceaux de poulet croustillants sur la grille d’un airfryer',
+        en: 'A large batch of crispy chicken pieces on an air fryer rack',
+        de: 'Große Portion knuspriger Hähnchenstücke auf dem Rost einer Heißluftfritteuse',
+        es: 'Una gran tanda de trozos de pollo crujiente en la rejilla de una freidora de aire',
+        it: 'Una grande infornata di pezzi di pollo croccante sulla griglia di una friggitrice ad aria',
+        nl: 'Een grote portie krokante kipstukjes op het rooster van een airfryer',
       },
     },
   ],
