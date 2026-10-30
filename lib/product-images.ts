@@ -12,10 +12,12 @@
 import manifest from '@/data/product-images.json'
 import type { Lang } from '@/lib/i18n'
 import {
+  productGalleryStem,
   productPhotoAlt,
   productPhotoCredit,
   productPhotoPath,
   productPinPath,
+  type ProductGalleryRole,
   type ProductPhoto,
   type ProductPhotoCategory,
 } from '@/lib/product-photo'
@@ -51,6 +53,27 @@ export interface ProductImageEntry {
   /** Pixels dropped from each edge before trimming, for a crop artefact on the source's own border. */
   edgeInset?: number
   notes: string
+  /** Extra official photos (in use, in a room, close-up), in display order. */
+  gallery?: GalleryImageEntry[]
+}
+
+/** A gallery photo: same provenance as the main image, plus what it shows. */
+export interface GalleryImageEntry {
+  role: ProductGalleryRole
+  sourceType: 'press-kit' | 'product-page'
+  sourceUrl: string
+  imageUrl: string
+  licence: string
+  retrievedAt: string
+  credit: string
+  /** `{id}-g{n}.{ext}` in the raw cache. */
+  rawFile: string
+  rawSha256: string
+  rawWidth: number
+  rawHeight: number
+  /** What the photo shows, per locale (falls back to the product alt text). */
+  caption: Partial<Record<Lang, string>>
+  notes: string
 }
 
 export interface SkippedProductImage {
@@ -80,12 +103,21 @@ export function findProductImage({ asin, name }: ProductImageRef): ProductImageE
 export function productPhoto(ref: ProductImageRef, lang: Lang): ProductPhoto | undefined {
   const entry = findProductImage(ref)
   if (!entry) return undefined
+  const alt = productPhotoAlt(entry.brand, entry.model, entry.category, lang)
   return {
     id: entry.id,
-    alt: productPhotoAlt(entry.brand, entry.model, entry.category, lang),
+    alt,
     credit: productPhotoCredit(entry.credit, lang),
     copyright: entry.credit,
     pin: productPinUrl(entry.id),
+    gallery: (entry.gallery ?? []).map((g, i) => ({
+      stem: productGalleryStem(entry.id, i + 1),
+      role: g.role,
+      alt: g.caption[lang] ?? alt,
+      credit: productPhotoCredit(g.credit, lang),
+      width: g.rawWidth,
+      height: g.rawHeight,
+    })),
   }
 }
 

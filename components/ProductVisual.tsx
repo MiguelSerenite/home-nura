@@ -1,6 +1,7 @@
 import { ChefHat, Coffee, CookingPot, PlugZap, Thermometer, Weight, type LucideIcon } from 'lucide-react'
 import type { ProductVisualData, ProductVisualKind } from '@/lib/product-visual'
 import ProductPhotoImage from './ProductPhotoImage'
+import ProductScenePhoto, { scenePhotoOf } from './ProductScenePhoto'
 
 const ICONS: Record<ProductVisualKind, LucideIcon> = {
   airfryer: ChefHat,
@@ -56,9 +57,18 @@ interface ProductVisualProps extends ProductVisualData {
  */
 export default function ProductVisual({ brand, model, kind, photo, size = 'card', label, className = '' }: ProductVisualProps) {
   if (photo) {
+    // Like an Amazon listing grid: hovering the card shows the product in use.
+    const hover = size === 'thumb' ? undefined : scenePhotoOf(photo.gallery)
     return (
       <div data-product-visual={kind} data-product-photo={photo.id} className={`absolute inset-0 overflow-hidden bg-brand-50 ${className}`}>
         <ProductPhotoImage photo={photo} sizes={PHOTO_SIZES[size]} className="h-full w-full object-contain" />
+        {hover && (
+          <ProductScenePhoto
+            photo={hover}
+            sizes={PHOTO_SIZES[size]}
+            className="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+          />
+        )}
         {size !== 'thumb' && (
           // The frame keeps its bottom-left corner free for the credit (the wordmark sits bottom-right).
           <span

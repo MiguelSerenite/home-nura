@@ -1,6 +1,7 @@
 import { getDictionary } from './dictionaries'
 import ProductCard from '@/components/ProductCard'
 import ProductHeroVisual from '@/components/ProductHeroVisual'
+import ProductSceneBanner from '@/components/ProductSceneBanner'
 import AmazonDisclosure from '@/components/AmazonDisclosure'
 import AffiliateLink from '@/components/AffiliateLink'
 import Navbar from '@/components/Navbar'
@@ -159,6 +160,8 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         </div>
       </section>
 
+      <ProductSceneBanner photo={products[0]?.visual.photo} />
+
       <BlackFridayHomeBanner lang={lang} />
 
       {/* Top Products Showcase */}
@@ -174,7 +177,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
             {products.slice(0, 3).map((product, i) => (
               <div key={i} className="group bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition duration-200 hover:-translate-y-1">
                 <div className="p-4">
-                  <ProductHeroVisual visual={product.visual} title={product.title} badge={product.badge} />
+                  <ProductHeroVisual visual={product.visual} title={product.title} badge={product.badge} lang={lang} />
                 </div>
                 <div className="px-6 pb-6">
                   <h3 className="text-lg font-bold text-slate-900 mb-2">

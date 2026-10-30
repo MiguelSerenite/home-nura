@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar'
 import FaqSection from '@/components/FaqSection'
 import ProductCard from '@/components/ProductCard'
 import ProductHeroVisual from '@/components/ProductHeroVisual'
+import ProductSceneBanner from '@/components/ProductSceneBanner'
 import ProductVisual from '@/components/ProductVisual'
 import AmazonDisclosure from '@/components/AmazonDisclosure'
 import ComparisonTable from '@/components/ComparisonTable'
@@ -616,6 +617,8 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
         </div>
       </section>
 
+      <ProductSceneBanner photo={products[0]?.visual.photo} />
+
       <BlackFridayHubLink lang={lang} categorySlug="airfryers" />
 
       {/* Trust Section */}
@@ -657,7 +660,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           {products.slice(0, 3).map((product, i) => (
             <div key={i} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <div className="p-4">
-                <ProductHeroVisual visual={product.visual} title={product.title} badge={product.badge} />
+                <ProductHeroVisual visual={product.visual} title={product.title} badge={product.badge} lang={lang} />
               </div>
               <div className="px-5 pb-5">
                 <h3 className="text-base font-bold text-slate-900 mb-1 line-clamp-2">{product.title}</h3>

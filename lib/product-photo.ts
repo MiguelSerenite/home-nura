@@ -15,6 +15,15 @@ export const PRODUCT_PHOTO_WIDTHS = [400, 800, 1200] as const
 export const PRODUCT_PHOTO_FORMATS = ['avif', 'webp'] as const
 /** Vertical 2:3 variant for Pinterest saves. */
 export const PRODUCT_PIN = { width: 1000, height: 1500, formats: ['jpg', 'webp'] as const }
+/**
+ * Gallery photos (in use, in a room, close-up), like the extra images of an
+ * Amazon listing: kept at their own aspect ratio, no frame.
+ */
+export const PRODUCT_GALLERY_WIDTHS = [800, 1600] as const
+export const PRODUCT_GALLERY_ROLES = ['in-use', 'lifestyle', 'detail'] as const
+
+export type ProductGalleryWidth = (typeof PRODUCT_GALLERY_WIDTHS)[number]
+export type ProductGalleryRole = (typeof PRODUCT_GALLERY_ROLES)[number]
 
 export type ProductPhotoWidth = (typeof PRODUCT_PHOTO_WIDTHS)[number]
 export type ProductPhotoFormat = (typeof PRODUCT_PHOTO_FORMATS)[number]
@@ -76,6 +85,22 @@ export const PRODUCT_PHOTO_CATEGORIES = [
   'steam-mop',
   'wet-dry-vacuum',
   'wake-up-light',
+  'air-humidifier',
+  'alarm-system',
+  'aroma-diffuser',
+  'dishwasher',
+  'garage-door-opener',
+  'gate-opener',
+  'led-strip',
+  'pool-analyzer',
+  'safe',
+  'smart-speaker',
+  'steam-cleaner',
+  'tumble-dryer',
+  'washer-dryer',
+  'washing-machine',
+  'window-cleaning-robot',
+  'wine-cooler',
 ] as const
 
 export type ProductPhotoCategory = (typeof PRODUCT_PHOTO_CATEGORIES)[number]
@@ -135,6 +160,22 @@ export const PRODUCT_PHOTO_CATEGORY_LABELS: Record<ProductPhotoCategory, Record<
   'steam-mop': { fr: 'balai vapeur', en: 'steam mop', de: 'Dampfbesen', es: 'mopa de vapor', it: 'scopa a vapore', nl: 'stoomreiniger' },
   'wet-dry-vacuum': { fr: 'aspirateur laveur', en: 'wet and dry vacuum', de: 'Nass-Trocken-Sauger', es: 'aspiradora friegasuelos', it: 'lavapavimenti senza fili', nl: 'nat-droogstofzuiger' },
   'wake-up-light': { fr: 'réveil lumière', en: 'wake-up light', de: 'Lichtwecker', es: 'despertador de luz', it: 'sveglia luminosa', nl: 'wake-up light' },
+  'air-humidifier': { fr: "humidificateur d'air", en: 'air humidifier', de: 'Luftbefeuchter', es: 'humidificador', it: 'umidificatore', nl: 'luchtbevochtiger' },
+  'alarm-system': { fr: 'alarme maison', en: 'home alarm system', de: 'Alarmanlage', es: 'sistema de alarma', it: 'sistema di allarme', nl: 'alarmsysteem' },
+  'aroma-diffuser': { fr: "diffuseur d'huiles essentielles", en: 'essential oil diffuser', de: 'Aroma-Diffusor', es: 'difusor de aceites esenciales', it: 'diffusore di oli essenziali', nl: 'aromadiffuser' },
+  dishwasher: { fr: 'lave-vaisselle', en: 'dishwasher', de: 'Geschirrspüler', es: 'lavavajillas', it: 'lavastoviglie', nl: 'vaatwasser' },
+  'garage-door-opener': { fr: 'motorisation de porte de garage', en: 'garage door opener', de: 'Garagentorantrieb', es: 'motor de puerta de garaje', it: 'motore per porta da garage', nl: 'garagedeuropener' },
+  'gate-opener': { fr: 'motorisation de portail', en: 'gate opener', de: 'Torantrieb', es: 'motor de cancela', it: 'motore per cancello', nl: 'poortopener' },
+  'led-strip': { fr: 'ruban LED connecté', en: 'smart LED strip', de: 'smarter LED-Streifen', es: 'tira LED inteligente', it: 'striscia LED smart', nl: 'slimme ledstrip' },
+  'pool-analyzer': { fr: 'analyseur de piscine connecté', en: 'smart pool analyser', de: 'Pool-Wasseranalysator', es: 'analizador de piscina', it: 'analizzatore per piscina', nl: 'zwembadanalyser' },
+  safe: { fr: 'coffre-fort électronique', en: 'electronic safe', de: 'Elektronik-Tresor', es: 'caja fuerte electrónica', it: 'cassaforte elettronica', nl: 'elektronische kluis' },
+  'smart-speaker': { fr: 'enceinte connectée', en: 'smart speaker', de: 'smarter Lautsprecher', es: 'altavoz inteligente', it: 'altoparlante smart', nl: 'slimme speaker' },
+  'steam-cleaner': { fr: 'nettoyeur vapeur', en: 'steam cleaner', de: 'Dampfreiniger', es: 'limpiador de vapor', it: 'pulitore a vapore', nl: 'stoomreiniger' },
+  'tumble-dryer': { fr: 'sèche-linge', en: 'tumble dryer', de: 'Wäschetrockner', es: 'secadora', it: 'asciugatrice', nl: 'wasdroger' },
+  'washer-dryer': { fr: 'lave-linge séchant', en: 'washer dryer', de: 'Waschtrockner', es: 'lavadora secadora', it: 'lavasciuga', nl: 'was-droogcombinatie' },
+  'washing-machine': { fr: 'lave-linge', en: 'washing machine', de: 'Waschmaschine', es: 'lavadora', it: 'lavatrice', nl: 'wasmachine' },
+  'window-cleaning-robot': { fr: 'robot lave-vitre', en: 'window cleaning robot', de: 'Fensterputzroboter', es: 'robot limpiacristales', it: 'robot lavavetri', nl: 'ramenwasrobot' },
+  'wine-cooler': { fr: 'cave à vin', en: 'wine cooler', de: 'Weinklimaschrank', es: 'vinoteca', it: 'cantinetta per vini', nl: 'wijnklimaatkast' },
 }
 
 /** "Photo : © Ninja" — French typography keeps the space before the colon. */
@@ -159,6 +200,34 @@ export interface ProductPhoto {
   copyright: string
   /** Absolute URL of the vertical variant, offered to Pinterest's save button. */
   pin: string
+  /** In-use, lifestyle and close-up photos, in display order (may be empty). */
+  gallery?: readonly ProductGalleryPhoto[]
+}
+
+/** One gallery photo of a product, ready to render in one language. */
+export interface ProductGalleryPhoto {
+  /** File stem: the product photo id and its gallery number ("ninja-x-g1"). */
+  stem: string
+  role: ProductGalleryRole
+  /** What the photo shows, localized. */
+  alt: string
+  /** Visible credit line, e.g. "Photo : © Ninja". */
+  credit: string
+  width: number
+  height: number
+}
+
+export function productGalleryStem(id: string, n: number): string {
+  return `${id}-g${n}`
+}
+
+export function productGalleryPath(stem: string, width: ProductGalleryWidth, format: ProductPhotoFormat): string {
+  return `${PRODUCT_PHOTO_DIR}/${stem}-${width}.${format}`
+}
+
+/** `srcset` of a gallery photo in one format. */
+export function productGallerySrcSet(stem: string, format: ProductPhotoFormat): string {
+  return PRODUCT_GALLERY_WIDTHS.map((w) => `${productGalleryPath(stem, w, format)} ${w}w`).join(', ')
 }
 
 export function productPhotoPath(id: string, width: ProductPhotoWidth, format: ProductPhotoFormat): string {
