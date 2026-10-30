@@ -41,4 +41,30 @@ describe('BLOG_SEO_META', () => {
       expect(new Set(titles).size, lang).toBe(titles.length)
     }
   })
+
+  it('never shows a stale year in a title', () => {
+    const stale = entries().filter(({ meta }) => STALE_YEAR.test(meta.title))
+    expect(stale.map(({ key, meta }) => `${key}: ${meta.title}`)).toEqual([])
+  })
+
+  it('makes no hands-on testing claims in titles or descriptions', () => {
+    const claims = entries().filter(({ meta }) => TESTED_CLAIM.test(`${meta.title} ${meta.description}`))
+    expect(claims.map(({ key }) => key)).toEqual([])
+  })
+
+  it('leads the English Ninja vs Philips title with the exact query', () => {
+    expect(BLOG_SEO_META['ninja-vs-philips-quel-choisir'].en?.title).toMatch(/^Ninja vs Philips Air Fryer \(2026\)/)
+  })
 })
+
+// Years before the current one: a "2024" in a SERP title reads as outdated.
+const STALE_YEAR = /\b20(?:2[0-5])\b/
+// We compare specifications and buyer feedback; we do not run lab tests.
+const TESTED_CLAIM =
+  /(?<!\p{L})(?:tested|hands-on|testée?s?|getestet|getest|getoetst|probad[oa]s?|provat[oiae]|testat[oiae])(?!\p{L})/iu
+
+function entries() {
+  return Object.entries(BLOG_SEO_META).flatMap(([slug, perLang]) =>
+    Object.entries(perLang).flatMap(([lang, meta]) => (meta ? [{ key: `${lang}/${slug}`, meta }] : [])),
+  )
+}

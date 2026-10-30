@@ -5,7 +5,7 @@ import { buildPageMetadata } from '@/lib/seo'
 import { getStaticProducts } from '@/lib/products'
 import Comparator from '@/components/Comparator'
 import { SectionHero, SiteFooter } from '@/components/ui'
-import { resolveLang } from '@/lib/i18n'
+import { resolveLang, type Lang } from '@/lib/i18n'
 import { ChevronRight } from 'lucide-react'
 
 
@@ -54,15 +54,45 @@ const pageContent: Record<string, { title: string; subtitle: string; intro: stri
   },
 }
 
+// SERP title/description, kept apart from the on-page H1 and intro. Written
+// for "air fryer (price) comparison" searches: models side by side and where
+// to buy them. No prices: the comparator does not show any.
+const seoMeta: Record<Lang, { title: string; description: string }> = {
+  fr: {
+    title: 'Comparateur d’airfryers 2026 : 3 modèles côte à côte',
+    description: 'Comparez les airfryers côte à côte : choisissez jusqu’à 3 modèles et voyez note Nura, capacité, points forts, limites et où les acheter sur Amazon.',
+  },
+  en: {
+    title: 'Air Fryer Comparison 2026: Up to 3 Models Side by Side',
+    description: 'Air fryers compared side by side: pick up to 3 models and see the Nura score, capacity, strengths and trade-offs, with where to buy each one on Amazon.',
+  },
+  de: {
+    title: 'Heißluftfritteusen-Vergleich 2026: 3 Modelle nebeneinander',
+    description: 'Heißluftfritteusen direkt vergleichen: bis zu 3 Modelle mit Nura-Bewertung, Kapazität, Stärken und Schwächen nebeneinander, mit Link zum Kauf auf Amazon.',
+  },
+  es: {
+    title: 'Comparador de freidoras de aire 2026: 3 modelos a la vez',
+    description: 'Compara freidoras de aire lado a lado: elige hasta 3 modelos y consulta nota Nura, capacidad, puntos fuertes, límites y dónde comprarlas en Amazon.',
+  },
+  it: {
+    title: 'Comparatore friggitrici ad aria 2026: 3 modelli a confronto',
+    description: 'Confronta le friggitrici ad aria fianco a fianco: fino a 3 modelli con voto Nura, capacità, punti di forza, limiti e dove acquistarle su Amazon.',
+  },
+  nl: {
+    title: 'Airfryer-vergelijker 2026: 3 modellen naast elkaar',
+    description: 'Vergelijk airfryers naast elkaar: kies tot 3 modellen en bekijk Nura-score, capaciteit, sterke punten, beperkingen en waar je ze op Amazon koopt.',
+  },
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params
   const safeLang = resolveLang(lang)
-  const c = pageContent[safeLang] || pageContent.fr
+  const seo = seoMeta[safeLang]
   return buildPageMetadata({
     lang: safeLang,
     path: '/comparateur',
-    title: `${c.title} | Home Nura`,
-    description: c.intro,
+    title: `${seo.title} | Home Nura`,
+    description: seo.description,
   })
 }
 

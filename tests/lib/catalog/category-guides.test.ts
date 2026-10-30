@@ -1,8 +1,8 @@
 import { describe, it, expect } from 'vitest'
 import { getAllSlugs } from '@/lib/blog'
-import { CATEGORY_GUIDES, getCategoryGuides, buildCategorySeo } from '@/lib/catalog/category-guides'
+import { CATEGORY_GUIDES, CATEGORY_SEO_TITLES, getCategoryGuides, buildCategorySeo } from '@/lib/catalog/category-guides'
 import { getCategory } from '@/lib/catalog/categories'
-import { LANGUAGES } from '@/lib/i18n'
+import { LANGUAGES, type Lang } from '@/lib/i18n'
 
 describe('category guides', () => {
   it('only maps existing, indexable categories to existing articles', () => {
@@ -72,6 +72,30 @@ describe('category SEO honesty', () => {
   it('does not promise "our picks" on a page without picks', () => {
     const { title } = buildCategorySeo(getCategory('detecteurs-mouvement')!, 'en', [])
     expect(title).toBe('Best Motion Sensors 2026: Comparison')
+  })
+})
+
+describe('hand-written hub titles', () => {
+  it('leads the English motion sensor hub with the "motion sensor comparison" query', () => {
+    const { picks } = getCategoryGuides('detecteurs-mouvement', 'en')
+    const { title } = buildCategorySeo(getCategory('detecteurs-mouvement')!, 'en', picks.map((p) => p.model))
+    expect(title).toBe('Motion Sensor Comparison 2026: Models & Where to Buy')
+  })
+
+  it('keeps the template in locales without an override', () => {
+    const { title } = buildCategorySeo(getCategory('detecteurs-mouvement')!, 'fr', ['A', 'B'])
+    expect(title).toBe('Détecteurs de Mouvement : comparatif 2026 et nos choix')
+  })
+
+  it('only overrides hubs with picks, within 60 characters and with the current year', () => {
+    for (const [slug, perLang] of Object.entries(CATEGORY_SEO_TITLES)) {
+      expect(CATEGORY_GUIDES[slug]?.primary, slug).toBeTruthy()
+      for (const [lang, title] of Object.entries(perLang)) {
+        expect(title!.length, `${lang}/${slug}`).toBeLessThanOrEqual(60)
+        expect(title, `${lang}/${slug}`).toContain('2026')
+        expect(getCategoryGuides(slug, lang as Lang).picks.length, `${lang}/${slug}`).toBeGreaterThanOrEqual(2)
+      }
+    }
   })
 })
 
