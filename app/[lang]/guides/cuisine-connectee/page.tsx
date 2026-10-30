@@ -1,7 +1,7 @@
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import { buildPageMetadata } from '@/lib/seo'
+import { buildAuthorPerson, buildPageMetadata } from '@/lib/seo'
 import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
 import { Kicker, SiteFooter } from '@/components/ui'
 import { BlackFridaySiloLinks } from '@/components/black-friday/Promos'
@@ -410,11 +410,7 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
     image: 'https://homenura.com/og-image.png',
     datePublished: '2026-04-14',
     dateModified: '2026-04-14',
-    author: {
-      '@type': 'Person',
-      name: 'Miguel Serenite',
-      url: `https://homenura.com/${safeLang}/a-propos`,
-    },
+    author: buildAuthorPerson(safeLang),
     publisher: {
       '@type': 'Organization',
       name: 'Home Nura',

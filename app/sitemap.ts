@@ -3,6 +3,7 @@ import { getAllArticles } from '@/lib/blog'
 import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
 import { LANGUAGES, type Lang } from '@/lib/i18n'
 import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
+import { AUTHORS_UPDATED_ISO } from '@/lib/authors'
 import { categoryModifiedIso } from '@/lib/catalog/category-faqs'
 import {
   getIndexableSilos,
@@ -54,6 +55,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // product review, comparator and best-for page links back to it,
     // so it accumulates internal link equity and anchors E-E-A-T.
     { path: '/methodologie', priority: 0.9, changeFrequency: 'monthly' as const, lastModified: today },
+    { path: '/auteur', priority: 0.5, changeFrequency: 'monthly' as const, lastModified: AUTHORS_UPDATED_ISO },
     // Phase BB: non-flagship meta-silo hubs (cuisine-connectee is
     // already listed above). Each one ships a real SiloHub page in
     // every locale, so we emit them in the sitemap to push crawl

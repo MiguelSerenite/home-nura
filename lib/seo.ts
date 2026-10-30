@@ -3,6 +3,7 @@
 import type { Metadata } from 'next'
 import { LANGUAGES, type Lang, isValidLang } from './i18n'
 import { productPhotoPath, type ProductPhoto } from './product-photo'
+import { AUTHOR_PATH, getAuthor } from './authors'
 
 const BASE_URL = 'https://homenura.com'
 
@@ -377,12 +378,29 @@ interface BuildArticleSchemaInput {
   articleSection?: string
   /** Word count of the body (stripped of HTML). */
   wordCount?: number
-  /** Defaults to the site editor-in-chief. */
-  authorName?: string
-  authorJobTitle?: string
 }
 
-const DEFAULT_AUTHOR_NAME = 'Miguel Serenite'
+/** Absolute URL of a locale's author page (Person.url). */
+export function authorUrl(lang: string): string {
+  const safeLang: Lang = isValidLang(lang) ? lang : 'fr'
+  return `${BASE_URL}/${safeLang}${AUTHOR_PATH}`
+}
+
+/**
+ * schema.org Person for the locale's byline: a declared pen name of the
+ * editorial team (lib/authors.ts), with its author page and no sameAs,
+ * job title or image, because none exists.
+ */
+export function buildAuthorPerson(lang: string) {
+  const author = getAuthor(lang)
+  return {
+    '@type': 'Person' as const,
+    name: author.name,
+    url: authorUrl(lang),
+    description: author.bio,
+    worksFor: { '@type': 'Organization' as const, name: 'Home Nura', url: BASE_URL },
+  }
+}
 
 export function buildArticleSchema(input: BuildArticleSchemaInput) {
   const {
@@ -397,17 +415,12 @@ export function buildArticleSchema(input: BuildArticleSchemaInput) {
     articleType = 'Article',
     articleSection,
     wordCount,
-    authorName = DEFAULT_AUTHOR_NAME,
-    authorJobTitle,
   } = input
 
   const safeLang: Lang = isValidLang(lang) ? lang : 'fr'
   const normalizedPath = path.startsWith('/') || path === '' ? path : `/${path}`
   const pageUrl = `${BASE_URL}/${safeLang}${normalizedPath}`
   const absoluteImage = image.startsWith('http') ? image : `${BASE_URL}${image}`
-  const resolvedJobTitle =
-    authorJobTitle ??
-    (safeLang === 'fr' ? 'Fondateur & Rédacteur en Chef' : 'Founder & Editor-in-Chief')
 
   return {
     '@context': 'https://schema.org',
@@ -423,12 +436,7 @@ export function buildArticleSchema(input: BuildArticleSchemaInput) {
     ],
     datePublished,
     dateModified,
-    author: {
-      '@type': 'Person',
-      name: authorName,
-      jobTitle: resolvedJobTitle,
-      url: `${BASE_URL}/${safeLang}/a-propos`,
-    },
+    author: buildAuthorPerson(safeLang),
     publisher: {
       '@type': 'Organization',
       name: 'Home Nura',

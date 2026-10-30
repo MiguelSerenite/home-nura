@@ -282,24 +282,20 @@ describe('buildArticleSchema', () => {
     expect(s.mainEntityOfPage['@id']).toBe(`${BASE_URL}/fr/blog/my-post`)
   })
 
-  it('defaults author to Miguel Serenite with locale-specific job title', () => {
+  it("signs with the locale's declared pen name and links its author page", () => {
     const fr = buildArticleSchema(base)
-    const en = buildArticleSchema({ ...base, lang: 'en' })
-    expect(fr.author.name).toBe('Miguel Serenite')
-    expect(fr.author.jobTitle).toBe('Fondateur & Rédacteur en Chef')
-    expect(fr.author.url).toBe(`${BASE_URL}/fr/a-propos`)
-    expect(en.author.jobTitle).toBe('Founder & Editor-in-Chief')
-    expect(en.author.url).toBe(`${BASE_URL}/en/a-propos`)
+    const de = buildArticleSchema({ ...base, lang: 'de' })
+    expect(fr.author).toMatchObject({ '@type': 'Person', name: 'Claire Morel', url: `${BASE_URL}/fr/auteur` })
+    expect(de.author).toMatchObject({ name: 'Jonas Weber', url: `${BASE_URL}/de/auteur` })
+    expect(fr.author.description).toContain('nom de plume')
+    expect(de.author.description).toContain('Pseudonym')
   })
 
-  it('lets the caller override author name and job title', () => {
-    const s = buildArticleSchema({
-      ...base,
-      authorName: 'Jane Doe',
-      authorJobTitle: 'Senior Kitchen Writer',
-    })
-    expect(s.author.name).toBe('Jane Doe')
-    expect(s.author.jobTitle).toBe('Senior Kitchen Writer')
+  it('claims no job title, image or social profile for the pen name', () => {
+    const { author } = buildArticleSchema(base)
+    expect(author).not.toHaveProperty('jobTitle')
+    expect(author).not.toHaveProperty('sameAs')
+    expect(author).not.toHaveProperty('image')
   })
 
   it('embeds the publisher organization with logo', () => {
