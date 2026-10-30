@@ -2,10 +2,13 @@
 //
 // No Amazon product images and no displayed prices: the Amazon Associates
 // Operating Agreement only allows them through Amazon's product API, which
-// the account cannot use yet. Cards show a neutral visual instead (category
-// icon, brand, model: see lib/product-visual.ts).
+// the account cannot use yet. Cards show the manufacturer's official photo
+// (data/product-images.json) or a neutral visual (category icon, brand,
+// model): see lib/product-visual.ts.
 
 import { amazonProductUrl } from '@/lib/amazon'
+import { resolveLang } from '@/lib/i18n'
+import { productPhoto } from '@/lib/product-images'
 import { productVisual } from '@/lib/product-visual'
 
 export interface StaticProduct {
@@ -381,7 +384,7 @@ export function getStaticProducts(lang: string) {
     return {
       title,
       priceNumeric: p.priceNumeric[lang] || p.priceNumeric.fr,
-      visual: productVisual(p.brand, title, 'airfryer'),
+      visual: productVisual(p.brand, title, 'airfryer', productPhoto({ asin: p.asin }, resolveLang(lang))),
       asin: p.asin,
       url: amazonProductUrl(p.asin),
       badge: p.badge ? (p.badge[lang] || p.badge.fr) : undefined,

@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import Link from 'next/link'
 import { trackEvent, EVENTS } from '@/lib/analytics'
 import type { ProductVisualData } from '@/lib/product-visual'
+import PhotoCredits from './PhotoCredits'
 import ProductVisual from './ProductVisual'
 
 interface SearchableProduct {
@@ -262,6 +263,9 @@ export default function SearchBar({
                     </li>
                   ))}
                 </ul>
+              )}
+              {results.length > 0 && (
+                <PhotoCredits photos={results.map((p) => p.visual.photo)} lang={currentLang} className="px-5 py-2 text-[11px] leading-snug text-slate-500" />
               )}
             </div>
           </div>

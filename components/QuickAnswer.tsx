@@ -1,7 +1,9 @@
 'use client'
 
 import { trackAffiliateClick } from '@/lib/analytics'
+import type { ProductPhoto } from '@/lib/product-photo'
 import AmazonDisclosure from './AmazonDisclosure'
+import ProductPhotoImage from './ProductPhotoImage'
 import type { ClickSurface } from '@/lib/affiliate-click'
 
 export interface QuickAnswerPick {
@@ -9,6 +11,8 @@ export interface QuickAnswerPick {
   role?: string
   why?: string
   url: string
+  /** Manufacturer's official photo (lib/product-images.ts), shown with its credit. */
+  photo?: ProductPhoto
 }
 
 const LABELS: Record<string, { title: string; button: string; disclosure: string }> = {
@@ -48,26 +52,45 @@ export default function QuickAnswer({
       <p id="quick-answer-title" className="text-xs font-bold uppercase tracking-widest text-brand-700">{kicker ?? labels.title}</p>
       <h2 className="mt-1 text-xl font-bold text-slate-900">{question}</h2>
       <ol className="mt-4 space-y-4">
-        {picks.map((pick, i) => (
-          <li key={pick.model} className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
-            <div className="min-w-0">
-              {pick.role && <p className="text-sm font-bold text-brand-700">{pick.role}</p>}
-              <p className="text-base font-bold text-slate-900">{pick.model}</p>
-              {pick.why && <p className="mt-1 text-sm text-slate-700 leading-relaxed">{pick.why}</p>}
-            </div>
-            <a
-              href={pick.url}
-              target="_blank"
-              rel="sponsored nofollow noopener noreferrer"
-              onClick={() =>
-                trackAffiliateClick({ asin: '', productName: pick.model, position: i + 1, location, lang, surface, url: pick.url })
-              }
-              className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-full bg-brand-600 px-5 text-sm font-bold text-white hover:bg-brand-700 active:bg-brand-700 transition-colors"
-            >
-              {labels.button} →
-            </a>
-          </li>
-        ))}
+        {picks.map((pick, i) => {
+          const track = () =>
+            trackAffiliateClick({ asin: '', productName: pick.model, position: i + 1, location, lang, surface, url: pick.url })
+          return (
+            <li key={pick.model} className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+              <div className="flex min-w-0 items-start gap-4">
+                {pick.photo && (
+                  // Same Amazon link as the button; kept out of the tab order and the accessibility tree.
+                  <a
+                    href={pick.url}
+                    target="_blank"
+                    rel="sponsored nofollow noopener noreferrer"
+                    tabIndex={-1}
+                    aria-hidden="true"
+                    onClick={track}
+                    className="relative block h-20 w-20 shrink-0 overflow-hidden rounded-xl sm:h-24 sm:w-24"
+                  >
+                    <ProductPhotoImage photo={pick.photo} sizes="96px" className="h-full w-full object-contain" />
+                  </a>
+                )}
+                <div className="min-w-0">
+                  {pick.role && <p className="text-sm font-bold text-brand-700">{pick.role}</p>}
+                  <p className="text-base font-bold text-slate-900">{pick.model}</p>
+                  {pick.why && <p className="mt-1 text-sm text-slate-700 leading-relaxed">{pick.why}</p>}
+                  {pick.photo && <p className="mt-1 text-[11px] text-slate-500">{pick.photo.credit}</p>}
+                </div>
+              </div>
+              <a
+                href={pick.url}
+                target="_blank"
+                rel="sponsored nofollow noopener noreferrer"
+                onClick={track}
+                className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-full bg-brand-600 px-5 text-sm font-bold text-white hover:bg-brand-700 active:bg-brand-700 transition-colors"
+              >
+                {labels.button} →
+              </a>
+            </li>
+          )
+        })}
       </ol>
       <AmazonDisclosure lang={lang} note={labels.disclosure} className="mt-4 text-xs text-slate-600" />
     </section>

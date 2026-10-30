@@ -1,11 +1,16 @@
 'use client'
 
 import { trackAffiliateClick } from '@/lib/analytics'
+import type { ProductPhoto } from '@/lib/product-photo'
 import AmazonDisclosure from './AmazonDisclosure'
+import PhotoCredits from './PhotoCredits'
+import ProductPhotoImage from './ProductPhotoImage'
 
 export interface ModelLink {
   name: string
   url: string
+  /** Manufacturer's official photo (lib/product-images.ts). */
+  photo?: ProductPhoto
 }
 
 const LABELS: Record<string, { title: string; bottomTitle: string; button: string; disclosure: string }> = {
@@ -36,6 +41,8 @@ export default function ArticleModelLinks({
   if (models.length === 0) return null
   const labels = LABELS[lang] ?? LABELS.fr
   const isBottom = surface === 'bottom'
+  // Names stay aligned when only some models have a photo.
+  const anyPhoto = models.some((m) => m.photo)
   return (
     <div
       id={id}
@@ -46,7 +53,16 @@ export default function ArticleModelLinks({
       <ul className="divide-y divide-brand-100">
         {models.map((model, i) => (
           <li key={model.name} className="flex items-center justify-between gap-3 py-3">
-            <span className="text-sm font-semibold text-slate-900">{model.name}</span>
+            <span className="flex min-w-0 items-center gap-3">
+              {model.photo ? (
+                <span className="relative block h-14 w-14 shrink-0 overflow-hidden rounded-lg">
+                  <ProductPhotoImage photo={model.photo} sizes="56px" className="h-full w-full object-contain" />
+                </span>
+              ) : (
+                anyPhoto && <span aria-hidden="true" className="block h-14 w-14 shrink-0 rounded-lg bg-brand-100/60" />
+              )}
+              <span className="text-sm font-semibold text-slate-900">{model.name}</span>
+            </span>
             <a
               href={model.url}
               target="_blank"
@@ -69,6 +85,7 @@ export default function ArticleModelLinks({
           </li>
         ))}
       </ul>
+      <PhotoCredits photos={models.map((m) => m.photo)} lang={lang} className="mt-3 text-[11px] leading-snug text-slate-500" />
       <AmazonDisclosure lang={lang} note={labels.disclosure} className="mt-3 text-xs text-slate-600" />
     </div>
   )

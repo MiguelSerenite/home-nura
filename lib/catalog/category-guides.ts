@@ -2,6 +2,7 @@ import { getArticleBySlug } from '@/lib/blog'
 import { getArticleRecommendations } from '@/lib/blog/article-products'
 import { getQuickAnswer } from '@/lib/blog/quick-answers'
 import type { Lang } from '@/lib/i18n'
+import type { ProductPhoto } from '@/lib/product-photo'
 import type { Category } from './types'
 
 /**
@@ -81,6 +82,8 @@ export interface CategoryPick {
   url: string
   role?: string
   why?: string
+  /** Manufacturer's official photo (lib/product-images.ts). */
+  photo?: ProductPhoto
 }
 
 export interface CategoryGuideLink {
@@ -115,8 +118,12 @@ function primaryPicks(slug: string | undefined, lang: Lang): CategoryPick[] {
   const verdict = getQuickAnswer(article, lang)
   if (verdict) return verdict.picks.slice(0, MAX_PICKS)
   const rec = getArticleRecommendations(article, lang)
-  if (rec?.kind === 'models') return rec.models.slice(0, MAX_PICKS).map((m) => ({ model: m.name, url: m.url }))
-  if (rec?.kind === 'catalog') return rec.products.slice(0, MAX_PICKS).map((p) => ({ model: p.title, url: p.url }))
+  if (rec?.kind === 'models') {
+    return rec.models.slice(0, MAX_PICKS).map((m) => ({ model: m.name, url: m.url, ...(m.photo ? { photo: m.photo } : {}) }))
+  }
+  if (rec?.kind === 'catalog') {
+    return rec.products.slice(0, MAX_PICKS).map((p) => ({ model: p.title, url: p.url, ...(p.visual.photo ? { photo: p.visual.photo } : {}) }))
+  }
   return []
 }
 

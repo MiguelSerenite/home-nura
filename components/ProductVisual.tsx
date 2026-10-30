@@ -1,5 +1,6 @@
 import { ChefHat, Coffee, CookingPot, PlugZap, Thermometer, Weight, type LucideIcon } from 'lucide-react'
 import type { ProductVisualData, ProductVisualKind } from '@/lib/product-visual'
+import ProductPhotoImage from './ProductPhotoImage'
 
 const ICONS: Record<ProductVisualKind, LucideIcon> = {
   airfryer: ChefHat,
@@ -30,6 +31,13 @@ const SIZES: Record<VisualSize, { box: string; badge: string; icon: string; bran
   },
 }
 
+/** Rendered width of each size, for the photo's srcset pick. */
+const PHOTO_SIZES: Record<VisualSize, string> = {
+  thumb: '96px',
+  card: '(min-width: 1024px) 384px, (min-width: 640px) 50vw, 100vw',
+  hero: '(min-width: 768px) 448px, 100vw',
+}
+
 interface ProductVisualProps extends ProductVisualData {
   /** 'thumb' (up to ~100px: icon only), 'card' (default) or 'hero'. */
   size?: VisualSize
@@ -39,12 +47,30 @@ interface ProductVisualProps extends ProductVisualData {
 }
 
 /**
- * Neutral product visual (category icon, brand, model) shown instead of an
- * Amazon product image, which the site may not display without the
- * Amazon product API. Fills its parent: the parent sets the size and the
- * aspect ratio and must be `relative`.
+ * Product visual, never an Amazon image (the site may not display one
+ * without the Amazon product API): the manufacturer's official photo in
+ * its Homenura frame when the manifest has one, credited on the frame's
+ * bottom edge (thumbnails: by the block, see PhotoCredits), else a neutral
+ * card (category icon, brand, model). Fills its parent: the parent sets
+ * the size and the square aspect ratio and must be `relative`.
  */
-export default function ProductVisual({ brand, model, kind, size = 'card', label, className = '' }: ProductVisualProps) {
+export default function ProductVisual({ brand, model, kind, photo, size = 'card', label, className = '' }: ProductVisualProps) {
+  if (photo) {
+    return (
+      <div data-product-visual={kind} data-product-photo={photo.id} className={`absolute inset-0 overflow-hidden bg-brand-50 ${className}`}>
+        <ProductPhotoImage photo={photo} sizes={PHOTO_SIZES[size]} className="h-full w-full object-contain" />
+        {size !== 'thumb' && (
+          // The frame keeps its bottom-left corner free for the credit (the wordmark sits bottom-right).
+          <span
+            className={`pointer-events-none absolute bottom-[6%] left-[5.5%] translate-y-1/2 leading-none text-slate-600 ${size === 'hero' ? 'text-[11px]' : 'text-[10px]'}`}
+          >
+            {photo.credit}
+          </span>
+        )}
+      </div>
+    )
+  }
+
   const Icon = ICONS[kind]
   const s = SIZES[size]
   const a11y = label ? { role: 'img' as const, 'aria-label': label } : { 'aria-hidden': true as const }

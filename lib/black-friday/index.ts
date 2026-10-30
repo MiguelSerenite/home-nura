@@ -3,6 +3,8 @@ import { getArticleBySlug } from '@/lib/blog'
 import { getQuickAnswer } from '@/lib/blog/quick-answers'
 import { getCategory, type MetaSiloSlug } from '@/lib/catalog'
 import type { Lang } from '@/lib/i18n'
+import { productPhoto } from '@/lib/product-images'
+import type { ProductPhoto } from '@/lib/product-photo'
 import { BLACK_FRIDAY_CATEGORIES } from './categories'
 import { BLACK_FRIDAY_HUB_PATH } from './config'
 import type { BlackFridayCategory, BlackFridayPickRef } from './types'
@@ -46,6 +48,8 @@ export interface BlackFridayPick {
   asin?: string
   url: string
   guide: { href: string; title: string }
+  /** Manufacturer's official photo (lib/product-images.ts). */
+  photo?: ProductPhoto
 }
 
 const ASIN_IN_URL = /\/dp\/([A-Z0-9]{10})/
@@ -65,6 +69,7 @@ function resolvePick(ref: BlackFridayPickRef, lang: Lang): BlackFridayPick | nul
   if (index < 0) return null
   const pick = localized.picks[index]
   const asin = reference.picks[index].url.match(ASIN_IN_URL)?.[1]
+  const photo = productPhoto({ asin, name: ref.model }, lang)
   return {
     model: pick.model,
     role: ref.role?.[lang] ?? pick.role,
@@ -73,6 +78,7 @@ function resolvePick(ref: BlackFridayPickRef, lang: Lang): BlackFridayPick | nul
     // Product page when the catalog knows the ASIN, else an Amazon search.
     url: asin ? amazonProductUrl(asin) : amazonSearchUrl(ref.model),
     guide: { href: `/${lang}/blog/${article.slug}`, title: article.title[lang] },
+    ...(photo ? { photo } : {}),
   }
 }
 

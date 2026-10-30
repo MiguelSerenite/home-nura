@@ -17,6 +17,8 @@
 // ============================================================================
 
 import { amazonProductUrl } from '@/lib/amazon'
+import { resolveLang } from '@/lib/i18n'
+import { productPhoto } from '@/lib/product-images'
 import { productVisual, type ProductVisualKind } from '@/lib/product-visual'
 
 export const SMART_KITCHEN_CATEGORIES = [
@@ -705,7 +707,7 @@ export function getSmartKitchenProducts(lang: string) {
       category: p.category,
       title,
       priceNumeric: p.priceNumeric[lang] || p.priceNumeric.fr,
-      visual: productVisual(p.brand, title, VISUAL_KIND[p.category]),
+      visual: productVisual(p.brand, title, VISUAL_KIND[p.category], productPhoto({ asin: p.asin }, resolveLang(lang))),
       url: amazonProductUrl(p.asin),
       badge: p.badge ? (p.badge[lang] || p.badge.fr) : undefined,
       nuraScore: p.nuraScore,
