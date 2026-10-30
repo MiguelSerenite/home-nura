@@ -16,23 +16,7 @@
 //    already covered as product 1).
 // ============================================================================
 
-const partnerTags: Record<string, string> = {
-  fr: 'homenuraen05-21',
-  de: 'homenuraen00-21',
-  en: 'homenuraen-21',
-  es: 'homenuraen0a-21',
-  it: 'homenuraen010-21',
-  nl: 'homenuranl-21',
-}
-
-const domains: Record<string, string> = {
-  fr: 'www.amazon.fr',
-  de: 'www.amazon.de',
-  en: 'www.amazon.co.uk',
-  es: 'www.amazon.es',
-  it: 'www.amazon.it',
-  nl: 'www.amazon.nl',
-}
+import { amazonProductUrl } from '@/lib/amazon'
 
 export const SMART_KITCHEN_CATEGORIES = [
   'multicuiseurs',
@@ -723,9 +707,6 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
 
 /** Projection for a single language, ready to feed UI components. */
 export function getSmartKitchenProducts(lang: string) {
-  const tag = partnerTags[lang] || partnerTags.fr
-  const domain = domains[lang] || domains.fr
-
   return smartKitchenStaticProducts.map((p) => ({
     asin: p.asin,
     category: p.category,
@@ -734,7 +715,7 @@ export function getSmartKitchenProducts(lang: string) {
     priceNumeric: p.priceNumeric[lang] || p.priceNumeric.fr,
     image: p.image,
     images: [p.image],
-    url: `https://${domain}/dp/${p.asin}?tag=${tag}`,
+    url: amazonProductUrl(p.asin),
     badge: p.badge ? (p.badge[lang] || p.badge.fr) : undefined,
     nuraScore: p.nuraScore,
     capacity: p.capacity,

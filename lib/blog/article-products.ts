@@ -1,4 +1,5 @@
-import { amazonSearchUrl, getStaticProducts } from '@/lib/products'
+import { amazonSearchUrl } from '@/lib/amazon'
+import { getStaticProducts } from '@/lib/products'
 import { getArticleModels } from '@/lib/blog/article-models'
 import { getSmartKitchenProductsByCategory, type SmartKitchenCategory } from '@/lib/smart-kitchen-products'
 
@@ -79,6 +80,6 @@ export function getArticleRecommendations(
 ): ArticleRecommendations | null {
   const { source, products } = getArticleProducts(article, lang)
   if (source !== null && products.length > 0) return { kind: 'catalog', source, products }
-  const models = getArticleModels(article.slug).map((name) => ({ name, url: amazonSearchUrl(name, lang) }))
+  const models = getArticleModels(article.slug).map((name) => ({ name, url: amazonSearchUrl(name) }))
   return models.length > 0 ? { kind: 'models', models } : null
 }

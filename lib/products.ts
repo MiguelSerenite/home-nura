@@ -1,37 +1,7 @@
 // Static product data with Amazon product images and affiliate links
 // Images are sourced from Amazon CDN (per-country marketplace images)
 
-// Canonical affiliate tags — single source of truth.
-// Matches the partner tags in smart-kitchen-products.ts.
-// env var overrides removed: stale AMAZON_TAG_FR / AMAZON_TAG_DE
-// values on Vercel were silently routing commissions to the wrong
-// affiliate account. Tags should only change via code + review.
-const PARTNER_TAGS: Record<string, string> = {
-  fr: 'homenuraen05-21',
-  de: 'homenuraen00-21',
-  en: 'homenuraen-21',
-  es: 'homenuraen0a-21',
-  it: 'homenuraen010-21',
-  nl: 'homenuranl-21',
-  // Belgium: amazon.be launched 2023 — separate affiliate tag needed.
-  // Action required: create tag at https://partenaires.amazon.fr (choose amazon.be)
-  // then replace 'homenuraen05-21' below with your actual .be tag.
-  be: 'homenuraen05-21', // ← TODO: replace with real amazon.be tag
-}
-
-function resolvePartnerTag(lang: string): string {
-  return PARTNER_TAGS[lang] || PARTNER_TAGS.fr
-}
-
-const domains: Record<string, string> = {
-  fr: 'www.amazon.fr',
-  de: 'www.amazon.de',
-  en: 'www.amazon.co.uk',
-  es: 'www.amazon.es',
-  it: 'www.amazon.it',
-  nl: 'www.amazon.nl',
-  be: 'www.amazon.com.be', // amazon.be (launched 2023 for Belgian market)
-}
+import { amazonProductUrl } from '@/lib/amazon'
 
 // Helper to build image URLs from Amazon image IDs
 // Amazon CDN images are global - same ID works from any country
@@ -520,9 +490,6 @@ function cleanImages(urls: string[]): string[] {
 }
 
 export function getStaticProducts(lang: string) {
-  const tag = resolvePartnerTag(lang)
-  const domain = domains[lang] || domains.fr
-
   return staticProducts.map((p) => {
     const langImages = cleanImages(p.images[lang] || p.images.fr)
     const mainImage = langImages[0].replace('SL1500', 'SL500')
@@ -534,7 +501,7 @@ export function getStaticProducts(lang: string) {
       image: mainImage,
       images: langImages,
       asin: p.asin,
-      url: `https://${domain}/dp/${p.asin}?tag=${tag}`,
+      url: amazonProductUrl(p.asin),
       badge: p.badge ? (p.badge[lang] || p.badge.fr) : undefined,
       nuraScore: p.nuraScore,
       capacity: p.capacity,
@@ -543,16 +510,4 @@ export function getStaticProducts(lang: string) {
       cons: p.cons[lang] || p.cons.fr,
     }
   })
-}
-
-/**
- * Amazon search-results link on the reader's store, carrying that store's
- * partner tag. Used for models cited in articles that have no catalog
- * entry (no ASIN/images to maintain; Amazon credits purchases from search).
- */
-export function amazonSearchUrl(query: string, lang: string): string {
-  const domain = domains[lang] || domains.fr
-  const tag = resolvePartnerTag(lang)
-  const params = new URLSearchParams({ k: query, tag })
-  return `https://${domain}/s?${params.toString()}`
 }

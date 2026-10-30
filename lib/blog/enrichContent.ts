@@ -1,5 +1,6 @@
 // Enriches article HTML content with affiliate CTA boxes based on product mentions
 // This adds contextual "check price" buttons when products are mentioned in articles
+import { amazonProductUrl } from '@/lib/amazon'
 
 interface ProductLink {
   pattern: RegExp
@@ -45,16 +46,6 @@ const PRODUCT_PATTERNS: ProductLink[] = [
   },
 ]
 
-const partnerTags: Record<string, string> = {
-  fr: 'homenuraen05-21', de: 'homenuraen00-21', en: 'homenuraen-21',
-  es: 'homenuraen0a-21', it: 'homenuraen010-21', nl: 'homenuranl-21',
-}
-
-const domains: Record<string, string> = {
-  fr: 'www.amazon.fr', de: 'www.amazon.de', en: 'www.amazon.co.uk',
-  es: 'www.amazon.es', it: 'www.amazon.it', nl: 'www.amazon.nl',
-}
-
 const ctaButtonText: Record<string, string> = {
   fr: 'Voir le prix sur Amazon →',
   en: 'Check price on Amazon →',
@@ -69,8 +60,6 @@ const ctaButtonText: Record<string, string> = {
  * section that mentions a specific product. Max 2 CTAs per article to avoid spam.
  */
 export function enrichContentWithCTAs(html: string, lang: string): string {
-  const tag = partnerTags[lang] || partnerTags.fr
-  const domain = domains[lang] || domains.fr
   const btnText = ctaButtonText[lang] || ctaButtonText.fr
 
   // Split content by h2 sections
@@ -86,7 +75,7 @@ export function enrichContentWithCTAs(html: string, lang: string): string {
     for (const product of PRODUCT_PATTERNS) {
       if (product.pattern.test(plainText)) {
         ctaCount++
-        const url = `https://${domain}/dp/${product.asin}?tag=${tag}`
+        const url = amazonProductUrl(product.asin)
         const productName = product.name[lang] || product.name.fr
         const cta = `<div style="margin:1.5rem 0;padding:1rem 1.25rem;background:linear-gradient(135deg,#f8f8ef,#eeefd7);border:2px solid #c2c67c;border-radius:1rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:0.75rem">
 <span style="font-weight:700;font-size:0.9rem;color:#1e293b">${productName}</span>
