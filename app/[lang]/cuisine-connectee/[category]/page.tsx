@@ -11,6 +11,7 @@ import type { Lang } from '@/lib/i18n'
 import ProductCard from '@/components/ProductCard'
 import AmazonDisclosure from '@/components/AmazonDisclosure'
 import FaqSection from '@/components/FaqSection'
+import IndependentSources from '@/components/IndependentSources'
 import {
   SMART_KITCHEN_CATEGORIES,
   getSmartKitchenProductsByCategory,
@@ -495,6 +496,10 @@ export default async function CategoryPage({
           <AmazonDisclosure lang={safeLang} className="mt-6 text-center text-xs text-slate-500" />
         )}
       </section>
+
+      {catalogCategory && (
+        <IndependentSources categorySlug={safeCat} categoryTitle={catalogCategory.title[safeLang]} lang={safeLang} />
+      )}
 
       {/* Phase OO: best-for persona cluster — cross-links to Moteur 4 */}
       {bestForPersonas.length > 0 && (

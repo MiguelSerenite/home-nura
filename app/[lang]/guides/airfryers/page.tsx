@@ -6,6 +6,8 @@ import ProductHeroVisual from '@/components/ProductHeroVisual'
 import ProductVisual from '@/components/ProductVisual'
 import AmazonDisclosure from '@/components/AmazonDisclosure'
 import ComparisonTable from '@/components/ComparisonTable'
+import IndependentSources from '@/components/IndependentSources'
+import { getCategory } from '@/lib/catalog'
 import AffiliateLink from '@/components/AffiliateLink'
 import CookieBanner from '@/components/CookieBanner'
 import { getStaticProducts } from '@/lib/products'
@@ -866,6 +868,12 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           lang={lang}
         />
       </section>
+
+      <IndependentSources
+        categorySlug="airfryers"
+        categoryTitle={getCategory('airfryers')?.title[resolveLang(lang)] ?? ''}
+        lang={resolveLang(lang)}
+      />
 
       {/* Internal Links Section — editorial "Also read" */}
       <section className="max-w-5xl mx-auto px-6 py-20 md:py-24 border-t border-slate-200">
