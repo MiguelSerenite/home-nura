@@ -5,6 +5,7 @@
 // don't touch the product catalog.
 
 import type { SmartKitchenCategory } from './smart-kitchen-products'
+import { getCategorySpecificFaq } from './catalog/category-faqs'
 
 export interface FaqItem {
   question: string
@@ -802,6 +803,10 @@ export const smartKitchenFaqs: FaqData = {
 }
 
 export function getSmartKitchenFaqs(lang: string, category: SmartKitchenCategory): FaqItem[] {
+  // Market-written FAQ first (lib/catalog/category-faqs); the translated
+  // set below stays as fallback.
+  const specific = getCategorySpecificFaq(category, lang)
+  if (specific) return [...specific]
   return smartKitchenFaqs[lang]?.[category] || smartKitchenFaqs.fr[category]
 }
 

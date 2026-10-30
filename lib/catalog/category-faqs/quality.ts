@@ -4,7 +4,9 @@
  */
 import { FAQ_LOCALES, type CategoryFaqSet, type CategoryFaqSets } from './types'
 
-export const FAQ_ENTRIES_PER_LOCALE = 5
+/** Category hubs carry 5 questions; a flagship guide (air fryers) up to 8. */
+export const FAQ_ENTRIES_MIN = 5
+export const FAQ_ENTRIES_MAX = 8
 const ANSWER_MIN_WORDS = 35
 const ANSWER_MAX_WORDS = 110
 const FIRST_SENTENCE_MAX_WORDS = 35
@@ -28,8 +30,9 @@ export function checkFaqSet(slug: string, set: CategoryFaqSet): string[] {
   const errors: string[] = []
   for (const locale of FAQ_LOCALES) {
     const entries = set[locale]
-    if (!entries || entries.length !== FAQ_ENTRIES_PER_LOCALE) {
-      errors.push(`${slug}/${locale}: ${entries?.length ?? 0} entries, expected ${FAQ_ENTRIES_PER_LOCALE}`)
+    const count = entries?.length ?? 0
+    if (count < FAQ_ENTRIES_MIN || count > FAQ_ENTRIES_MAX) {
+      errors.push(`${slug}/${locale}: ${count} entries, expected ${FAQ_ENTRIES_MIN}-${FAQ_ENTRIES_MAX}`)
       continue
     }
     entries.forEach(({ question, answer }, i) => {
