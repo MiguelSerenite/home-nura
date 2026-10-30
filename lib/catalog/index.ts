@@ -22,6 +22,8 @@ export {
   getPersonasByAxis,
 } from './buyer-personas'
 export { PROBLEMS, getProblem, getProblemsByCategory } from './problems'
+export { getProblemIndex, type ProblemIndexGroup } from './problem-index'
+export { categoryPath } from './category-path'
 export {
   getCategoryHero,
   getCategoryFaq,
