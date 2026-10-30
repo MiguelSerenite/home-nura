@@ -1,6 +1,7 @@
 'use client'
 
 import { trackAffiliateClick } from '@/lib/analytics'
+import type { ClickSurface } from '@/lib/affiliate-click'
 
 export interface QuickAnswerPick {
   model: string
@@ -29,12 +30,15 @@ export default function QuickAnswer({
   lang,
   kicker,
   location = 'article_quick_answer',
+  surface = 'verdict',
 }: {
   question: string
   picks: QuickAnswerPick[]
   lang: string
   kicker?: string
   location?: 'article_quick_answer' | 'category_picks'
+  /** Click-beacon surface (/api/click): the article verdict box unless the page says otherwise. */
+  surface?: ClickSurface
 }) {
   if (picks.length === 0) return null
   const labels = LABELS[lang] ?? LABELS.fr
@@ -55,7 +59,7 @@ export default function QuickAnswer({
               target="_blank"
               rel="sponsored nofollow noopener noreferrer"
               onClick={() =>
-                trackAffiliateClick({ asin: '', productName: pick.model, position: i + 1, location, lang, surface: 'verdict', url: pick.url })
+                trackAffiliateClick({ asin: '', productName: pick.model, position: i + 1, location, lang, surface, url: pick.url })
               }
               className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-full bg-brand-600 px-5 text-sm font-bold text-white hover:bg-brand-700 active:bg-brand-700 transition-colors"
             >

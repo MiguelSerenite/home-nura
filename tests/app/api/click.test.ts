@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { POST, GET } from '@/app/api/click/route'
 import { __resetRateLimitForTests } from '@/lib/rate-limit'
-import { articleSlugOf, marketplaceOf, parseAffiliateClick } from '@/lib/affiliate-click'
+import { articleSlugOf, CLICK_SURFACES, marketplaceOf, parseAffiliateClick } from '@/lib/affiliate-click'
 
 function makeRequest(body: unknown, ip = '1.2.3.4'): Request {
   return new Request('http://localhost/api/click', {
@@ -44,12 +44,22 @@ describe('POST /api/click', () => {
   })
 
   it('accepts every surface and logs no article slug outside the blog', async () => {
-    for (const surface of ['verdict', 'after-h2', 'table', 'inline', 'bottom', 'sticky']) {
+    for (const surface of CLICK_SURFACES) {
       const res = await POST(makeRequest({ ...valid, surface, path: '/fr/guides/robots-aspirateurs' }, `ip-${surface}`))
       expect(res.status, surface).toBe(204)
     }
     const line = JSON.parse(vi.mocked(console.log).mock.calls[0][0] as string)
     expect(line.articleSlug).toBeNull()
+  })
+
+  it.each([
+    ['problem_picks', '/de/guides/probleme/friteuse-ne-chauffe-plus'],
+    ['black_friday', '/it/black-friday/airfryers'],
+  ])('logs %s clicks from troubleshooting and Black Friday pages', async (surface, path) => {
+    const res = await POST(makeRequest({ ...valid, surface, path }))
+    expect(res.status).toBe(204)
+    const line = JSON.parse(vi.mocked(console.log).mock.calls[0][0] as string)
+    expect(line).toMatchObject({ surface, path, articleSlug: null })
   })
 
   it.each([

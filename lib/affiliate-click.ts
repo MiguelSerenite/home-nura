@@ -9,8 +9,22 @@
  */
 import { LANGUAGES } from '@/lib/i18n'
 
-/** Where on a page the affiliate link sits. */
-export const CLICK_SURFACES = ['verdict', 'after-h2', 'table', 'inline', 'bottom', 'sticky'] as const
+/**
+ * Where on a page the affiliate link sits. Articles: verdict box, after an
+ * H2, table, in-text, bottom block, sticky bar. Other pages:
+ * `problem_picks` ("repair or replace?" box of a troubleshooting page) and
+ * `black_friday` (picks, event page and Prime links of the Black Friday pages).
+ */
+export const CLICK_SURFACES = [
+  'verdict',
+  'after-h2',
+  'table',
+  'inline',
+  'bottom',
+  'sticky',
+  'problem_picks',
+  'black_friday',
+] as const
 export type ClickSurface = (typeof CLICK_SURFACES)[number]
 
 /** Amazon stores a link may point to (all links target amazon.fr today). */

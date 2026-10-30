@@ -181,6 +181,38 @@ describe('trackAffiliateClick first-party beacon', () => {
     })
   })
 
+  it('posts problem-page and Black Friday clicks with their own surface', () => {
+    window.location.pathname = '/fr/black-friday'
+    trackAffiliateClick({
+      asin: '',
+      productName: 'Amazon Prime free trial',
+      location: 'category_picks',
+      lang: 'fr',
+      surface: 'black_friday',
+      url: 'https://www.amazon.fr/amazonprime?_encoding=UTF8&primeCampaignId=prime_assoc_ft&tag=homenuraen05-21',
+    })
+    window.location.pathname = '/nl/guides/probleme/robot-aspirateur-ne-charge-plus'
+    trackAffiliateClick({
+      asin: '',
+      productName: 'Roborock Q7 M5+',
+      location: 'category_picks',
+      lang: 'nl',
+      surface: 'problem_picks',
+      url: 'https://www.amazon.fr/s?k=Roborock+Q7+M5%2B&tag=homenuraen05-21',
+    })
+    const bodies = sendBeacon.mock.calls.map((call) => JSON.parse((call as unknown as [string, string])[1]))
+    expect(bodies).toEqual([
+      { path: '/fr/black-friday', lang: 'fr', surface: 'black_friday', model: 'Amazon Prime free trial', marketplace: 'amazon.fr' },
+      {
+        path: '/nl/guides/probleme/robot-aspirateur-ne-charge-plus',
+        lang: 'nl',
+        surface: 'problem_picks',
+        model: 'Roborock Q7 M5+',
+        marketplace: 'amazon.fr',
+      },
+    ])
+  })
+
   it('sends nothing for clicks without a surface', () => {
     trackAffiliateClick({ asin: 'B001', productName: 'Test', location: 'product_card', lang: 'fr' })
     expect(sendBeacon).not.toHaveBeenCalled()

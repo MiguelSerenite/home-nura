@@ -4,8 +4,9 @@ import type { ReactNode } from 'react'
 import { trackAffiliateClick } from '@/lib/analytics'
 
 /**
- * Amazon link of the Black Friday pages: sponsored rel, new tab and the
- * same click_affiliate event as the category verdict boxes.
+ * Amazon link of the Black Friday pages: sponsored rel, new tab, the same
+ * click_affiliate event as the category verdict boxes, and the first-party
+ * click beacon (/api/click) with the `black_friday` surface.
  */
 export default function BlackFridayAmazonLink({
   href,
@@ -29,7 +30,9 @@ export default function BlackFridayAmazonLink({
       href={href}
       target="_blank"
       rel="sponsored nofollow noopener noreferrer"
-      onClick={() => trackAffiliateClick({ asin, productName, position, location: 'category_picks', lang })}
+      onClick={() =>
+        trackAffiliateClick({ asin, productName, position, location: 'category_picks', lang, surface: 'black_friday', url: href })
+      }
       className={className}
     >
       {children}

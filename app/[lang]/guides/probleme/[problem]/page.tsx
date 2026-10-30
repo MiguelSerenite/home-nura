@@ -420,14 +420,15 @@ export default async function ProblemGuidePage({
             </p>
             {buyBox && (
               <>
-                {/* Picks of the category buying guide, linked to amazon.fr
-                    Amazon store; QuickAnswer carries the affiliate disclosure. */}
+                {/* Picks of the category buying guide, linked to amazon.fr;
+                    QuickAnswer carries the affiliate disclosure. */}
                 <QuickAnswer
                   kicker={ui.buyBoxKicker}
                   question={ui.buyBoxQuestion(categoryTitle)}
                   picks={buyBox.picks}
                   lang={safeLang}
                   location="category_picks"
+                  surface="problem_picks"
                 />
                 {buyBox.guide && (
                   <Link
