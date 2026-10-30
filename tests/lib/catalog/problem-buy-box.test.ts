@@ -1,28 +1,23 @@
 import { describe, it, expect } from 'vitest'
+import { AMAZON_BASE_URL, AMAZON_STORE_ID } from '@/lib/amazon'
 import { PROBLEMS, getCategory, getProblem } from '@/lib/catalog'
 import { getProblemBuyBox } from '@/lib/catalog/problem-buy-box'
 import { LANGUAGES } from '@/lib/i18n'
 
-// One partner tag per Amazon store (see PARTNER_TAGS in lib/products.ts).
-const STORE_BY_LANG = {
-  fr: { host: 'www.amazon.fr', tag: 'homenuraen05-21' },
-  de: { host: 'www.amazon.de', tag: 'homenuraen00-21' },
-  en: { host: 'www.amazon.co.uk', tag: 'homenuraen-21' },
-  es: { host: 'www.amazon.es', tag: 'homenuraen0a-21' },
-  it: { host: 'www.amazon.it', tag: 'homenuraen010-21' },
-  nl: { host: 'www.amazon.nl', tag: 'homenuranl-21' },
-} as const
+// Every locale links to amazon.fr with the French store ID (Amazon Global
+// Earning, see lib/amazon.ts).
+const STORE_ORIGIN = new URL(AMAZON_BASE_URL).origin
 
 describe('problem page buy box', () => {
-  it('links every pick to the reader’s Amazon store with that store’s partner tag', () => {
+  it('links every pick to amazon.fr with the store ID in every locale', () => {
     for (const problem of PROBLEMS) {
       for (const lang of LANGUAGES) {
         const box = getProblemBuyBox(problem, lang)
         if (!box) continue
         for (const pick of box.picks) {
           const url = new URL(pick.url)
-          expect(url.host, `${problem.slug} ${lang}`).toBe(STORE_BY_LANG[lang].host)
-          expect(url.searchParams.get('tag'), `${problem.slug} ${lang}`).toBe(STORE_BY_LANG[lang].tag)
+          expect(url.origin, `${problem.slug} ${lang}`).toBe(STORE_ORIGIN)
+          expect(url.searchParams.get('tag'), `${problem.slug} ${lang}`).toBe(AMAZON_STORE_ID)
           // Product page when the catalog knows the ASIN, else a store search.
           expect(url.pathname, `${problem.slug} ${lang}`).toMatch(/^\/(dp\/[A-Z0-9]{10}|s)$/)
         }

@@ -6123,7 +6123,7 @@ export interface QuickAnswer {
   picks: { model: string; role: string; why: string; url: string }[]
 }
 
-/** Localized verdict with each pick linked to the reader's Amazon store. */
+/** Localized verdict with each pick linked to amazon.fr (see lib/amazon.ts). */
 export function getQuickAnswer(article: { slug: string; pillar: string }, lang: Lang): QuickAnswer | null {
   const data = QUICK_ANSWERS[article.slug]
   if (!data) return null
