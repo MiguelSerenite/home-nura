@@ -119,7 +119,7 @@ export default async function RootLayout({
     foundingDate: '2024-01-15',
     founder: {
       '@type': 'Person',
-      name: 'Miguel Serenite',
+      name: 'Miguel Marie',
       jobTitle: lang === 'fr' ? 'Fondateur & Rédacteur en Chef' : 'Founder & Editor-in-Chief',
       url: `${BASE_URL}/${lang}/a-propos`,
     },
