@@ -22,7 +22,7 @@ const AMAZON_IMAGE_HOST = /media-amazon\.com|images-amazon\.com|ssl-images-amazo
 
 const ROOT = process.cwd()
 // tests/ and e2e/ are left out: they spell the hosts in order to ban them.
-const SOURCE_DIRS = ['app', 'components', 'lib', 'scripts', 'dictionaries', 'public', 'types', 'docs']
+const SOURCE_DIRS = ['app', 'components', 'lib', 'scripts', 'dictionaries', 'public', 'types', 'docs', 'data']
 const ROOT_FILES = ['proxy.ts', 'next.config.ts', 'CLAUDE.md', 'AGENTS.md', 'README.md']
 const TEXT_FILE = /\.(?:tsx?|jsx?|mjs|cjs|json|txt|md|sh|svg|css|html|xml|rsc|body|meta)$/
 
@@ -67,7 +67,7 @@ describe('no Amazon product images', () => {
     expect(filesReferencingAmazonImages(generated)).toEqual([])
   }, BUILT_PAGES_TIMEOUT_MS)
 
-  it('catalog products carry a neutral visual (brand, model, category), not an image', () => {
+  it('catalog products carry a visual (brand, model, category), with at most a self-hosted manufacturer photo', () => {
     for (const { lang, product } of catalog) {
       const where = `${lang}/${product.asin}`
       expect(product, where).not.toHaveProperty('image')
@@ -76,6 +76,12 @@ describe('no Amazon product images', () => {
       expect(product.visual.model, where).not.toBe('')
       expect(product.title, where).toContain(product.visual.brand)
       expect(product.visual.model, where).not.toContain(product.visual.brand)
+      // Official photo from data/product-images.json (tests/lib/product-images.test.ts), served from /public.
+      const photo = product.visual.photo
+      if (photo) {
+        expect(photo.id, where).toMatch(/^[a-z0-9-]+$/)
+        expect(existsSync(join(ROOT, 'public', 'images', 'products', `${photo.id}-800.webp`)), where).toBe(true)
+      }
     }
   })
 
