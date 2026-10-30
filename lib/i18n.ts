@@ -40,6 +40,21 @@ export function resolveLang(value: string | undefined | null): Lang {
   return isValidLang(value) ? value : DEFAULT_LANG
 }
 
+const LOCALE_PREFIX = /^\/([a-z]{2})(\/.*)?$/
+
+/**
+ * The same page in another locale. Slugs are not translated (every locale
+ * serves /{lang}/methodologie, /{lang}/guides/probleme/…), so only the
+ * locale prefix changes. A path without a supported locale prefix has no
+ * known equivalent and falls back to the target locale's home.
+ */
+export function switchLocalePath(pathname: string | null | undefined, target: Lang): string {
+  const match = pathname?.match(LOCALE_PREFIX)
+  if (!match || !isValidLang(match[1])) return `/${target}`
+  const rest = (match[2] ?? '').replace(/\/+$/, '')
+  return `/${target}${rest}`
+}
+
 /** Vercel geo country (ISO 3166-1 alpha-2) → the locale whose Amazon store serves it. */
 export const COUNTRY_TO_LANG: Record<string, Lang> = {
   FR: 'fr', BE: 'fr', LU: 'fr', MC: 'fr', CH: 'fr',
