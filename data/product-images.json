@@ -1,0 +1,1126 @@
+{
+  "$comment": "Official manufacturer product images (provenance + credit). Built by scripts/images/build-product-images.ts into public/images/products/. Models without an entry keep the neutral card (components/ProductVisual.tsx). Never add an Amazon image.",
+  "images": [
+    {
+      "id": "aqara-smart-lock-u200",
+      "brand": "Aqara",
+      "model": "Smart Lock U200",
+      "category": "smart-lock",
+      "names": [
+        "Aqara Smart Lock U200"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://eu.aqara.com/products/aqara-smart-lock-u200",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0658/9068/1031/files/aqara-balck.webp?v=1774260554",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Aqara",
+      "officialModel": "Aqara Smart Lock U200 (Black, SKU DTC-EU-EN-U200-BLACK)",
+      "rawFile": "aqara-smart-lock-u200.png",
+      "rawSha256": "dd1d46d216c1f5d223a9fcce7342767ea3db45a456c629818c43b4635f22ba9e",
+      "rawWidth": 1600,
+      "rawHeight": 1600,
+      "notes": "Aqara's official EU store (eu.aqara.com). Shows the lock body + the fingerprint keypad included in the U200 box (not U200 Lite). URL ends in .webp but the CDN served PNG to curl. aqara.com/eu/product/smart-lock-u200 only has marketing banners. Silver variant: aqara-white.webp on the same page."
+    },
+    {
+      "id": "beurer-ks-34-xl",
+      "brand": "Beurer",
+      "model": "KS 34 XL",
+      "category": "kitchen-scale",
+      "asin": "B07YX6QKDB",
+      "names": [
+        "Beurer KS 34 XL Balance Diététique"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.beurer.com/fr/p/70312/",
+      "imageUrl": "https://res.cloudinary.com/beurer/image/upload/v1737452851/stibo-live/ks34-xl-stainless-steel-main-product-kg-side-left-v00-beurer.jpg",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Beurer",
+      "officialModel": "Beurer KS 34 Stainless Steel (XL kitchen scale, 15 kg), art. no. 70312",
+      "rawFile": "beurer-ks-34-xl.jpg",
+      "rawSha256": "e2d4b91a6d898f4ccc8e784cc1aa65556c703140f7c94d99c317c74256dec8b2",
+      "rawWidth": 2500,
+      "rawHeight": 2500,
+      "notes": "Two KS 34 XL colourways exist on beurer.com: 'KS 34 Stainless Steel' (70312, brushed stainless platform) and 'KS 34 XL Black' (70311, black glass). Chose stainless because our copy says 'Plateau inox XL'; if the Amazon listing is actually the black one, swap to https://res.cloudinary.com/beurer/image/upload/v1737452841/stibo-live/ks34-main-product-side-left1-v00-beurer.jpg. 3/4 view; image file name confirms 'ks34-xl-stainless-steel'. Display shows '15.000 kg' (on the product screen, not an overlay)."
+    },
+    {
+      "id": "bresser-wifi-clearview-7-in-1",
+      "brand": "Bresser",
+      "model": "Wi-Fi ClearView 7-in-1",
+      "category": "weather-station",
+      "names": [
+        "Bresser Wi-Fi ClearView Weather Station 7-in-1"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.bresser.com/p/bresser-wi-fi-clearview-weather-station-with-7-in-1-sensor-7002586",
+      "imageUrl": "https://www.bresser.com/media/e1/87/d3/1793326895/7002586_M1_0723.33d2ec63.avif?ts=1793326895",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Bresser",
+      "officialModel": "BRESSER Wi-Fi ClearView Weather Station with 7-in-1 Sensor (7002586)",
+      "rawFile": "bresser-wifi-clearview-7-in-1.png",
+      "rawSha256": "1832fefe3217f47210d6f5e43715951cf169403b58f308ebacc854b1643b1e84",
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "notes": "Bresser serves only AVIF (bresser.de and bresseruk.com redirect to bresser.com; no JPG/WebP variant exists). The original 2000x2000 AVIF was re-encoded to PNG with sips: same pixels, no crop or resize. Kit packshot: 7-in-1 outdoor sensor + colour base station, with Bresser's own mirror reflection under the console."
+    },
+    {
+      "id": "cosori-dual-blaze-smart",
+      "brand": "Cosori",
+      "model": "Dual Blaze Smart",
+      "category": "airfryer",
+      "asin": "B0FPWSDF86",
+      "names": [
+        "Cosori Dual Blaze Smart Air Fryer - 6.4L"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://cosori.ae/products/cosori-dual-blaze-6-4l-smart-air-fryer",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0734/8594/2836/files/PCM_cosori_dualblaze_lp_00.jpg?v=1768201267",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Cosori",
+      "officialModel": "COSORI Dual Blaze 6.4L Smart Air Fryer — CAF-P583S (regional SKU CAF-P583S-KAE)",
+      "rawFile": "cosori-dual-blaze-smart.jpg",
+      "rawSha256": "96a4b81b92a6ae3f272b3f2fabf9e1017b9e6f5f2d4255bba9d57140069ae8a2",
+      "rawWidth": 1400,
+      "rawHeight": 1400,
+      "notes": "Front view, device only, dark grey; the 12-preset panel (P583S layout) shows °C. Cosori has no FR site. cosori.com links to the official regional sites .co.uk, .de, .es and .ae. On cosori.de and cosori.es the 6.4 L Dual Blaze is now the newer 11-preset model (ES page states CAF-P585S), so those were not used. cosori.co.uk (P583S, UK plug) only has packshots that include the recipe book and a phone. The EU plug variant is CAF-P583S-KEUR; the visible design is identical. Largest clean size: 1400 px."
+    },
+    {
+      "id": "delonghi-magnifica-evo-ecam290-51-b",
+      "brand": "De'Longhi",
+      "model": "Magnifica Evo ECAM290.51.B",
+      "category": "coffee-machine",
+      "asin": "B0CH9X5WSF",
+      "names": [
+        "De'Longhi Magnifica Evo ECAM290.51.B"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.delonghi.com/pl-pl/p/magnifica-evo-magnifica-evo-automatic-coffee-maker-ecam290.51.b/ECAM290.51.B.html",
+      "imageUrl": "https://dam.delonghi.com/3000x3000/assets/260898",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© De'Longhi",
+      "officialModel": "Magnifica Evo ECAM290.51.B (Czarny / black)",
+      "rawFile": "delonghi-magnifica-evo-ecam290-51-b.jpg",
+      "rawSha256": "8b9b3d8c19d25107d2dfa8a1c62093d9d9f0376aaf70f9d76bbe3ff603562c05",
+      "rawWidth": 3000,
+      "rawHeight": 3000,
+      "notes": "Only packshot in the official gallery: a front view of the machine with its LatteCrema carafe, plus 2 espresso cups and a latte glass as props on white. No machine-only packshot exists. delonghi.com/fr-fr only lists the refurbished version, so the Polish delonghi.com page was used. The DAM serves fixed sizes; the page shows 902 px and 3000x3000 is the largest preset (it may be upscaled)."
+    },
+    {
+      "id": "dreame-l40-ultra",
+      "brand": "Dreame",
+      "model": "L40 Ultra",
+      "category": "robot-vacuum",
+      "names": [
+        "Dreame L40 Ultra"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://fr.dreametech.com/products/l40-ultra-robot-aspirateur-laveur-landing",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0669/4387/7400/files/Total-Right-_-_02.jpg?v=1724229780",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Dreame",
+      "officialModel": "Dreame L40 Ultra Robot Aspirateur Laveur (DE SKU 010204AA000431)",
+      "rawFile": "dreame-l40-ultra.jpg",
+      "rawSha256": "8bdfad84d941d94bbde6d74d0ccf2dd9be527a26b9f7b5534b643b7f77a75207",
+      "rawWidth": 1500,
+      "rawHeight": 1500,
+      "notes": "Robot docked in base station, 3/4 right view. Plain L40 Ultra (not L40s, not L40 Ultra AE, not 'L40 Ultra A'); same file is the main image of https://de.dreametech.com/products/dreame-l40-ultra-saugroboter. JPEG is fairly compressed (58 KB) but clean."
+    },
+    {
+      "id": "dreame-x50-ultra-complete",
+      "brand": "Dreame",
+      "model": "X50 Ultra Complete",
+      "category": "robot-vacuum",
+      "names": [
+        "Dreame X50 Ultra Complete"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://fr.dreametech.com/products/dreame-x50-ultra-complete-robot-aspirateur-laveur",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0669/4387/7400/files/Total-Right-_-_02_b03d920a-0d0d-4e1a-8d0d-46a4e1295fcf.jpg?v=1772527526",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Dreame",
+      "officialModel": "Dreame X50 Ultra Complete Robot Aspirateur Laveur (blanc, SKU 010204AA001195 / 010204AA000660)",
+      "rawFile": "dreame-x50-ultra-complete.jpg",
+      "rawSha256": "ad6eb8c7b6e824e4ee267170e74725e16226473130bbc884f7a1a015b5a7a93c",
+      "rawWidth": 1750,
+      "rawHeight": 1750,
+      "notes": "Robot docked in base station, 3/4 right view, white version. The page's first gallery image carries a '1er Prix Lecteurs Les Numériques' badge; this badge-free packshot from the same gallery was used. Black version exists as a separate FR listing."
+    },
+    {
+      "id": "dyson-v15-detect",
+      "brand": "Dyson",
+      "model": "V15 Detect",
+      "category": "stick-vacuum",
+      "names": [
+        "Dyson V15 Detect"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.dyson.fr/aspirateurs/sans-fil/v15/detect-absolute-jaune-nickel",
+      "imageUrl": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/494719-01.png?fmt=png-alpha&scl=1",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Dyson",
+      "officialModel": "Aspirateur sans fil Dyson V15 Detect™ Absolute (jaune/nickel), réf. 494719-01",
+      "rawFile": "dyson-v15-detect.png",
+      "rawSha256": "3360f10bc666490d131532c9dc0a13d0523636cf7f08cbc46da05d780bac428b",
+      "rawWidth": 800,
+      "rawHeight": 1200,
+      "notes": "Absolute kit packshot: stick vacuum with Fluffy Optic head (green light beam is part of Dyson's render) plus Digital Motorbar head, crevice tool, mini motorised tool, dock. dyson.fr shows the fr_FR locale copy of this asset (primary-locale/fr_FR/494719-01.png), which adds a 'Conçu pour durer – LONGTIME' label; the generic primary asset of the same SKU has no label and was used. Native Scene7 size is 800x1200 (no larger rendition)."
+    },
+    {
+      "id": "ecowitt-hp2551",
+      "brand": "Ecowitt",
+      "model": "HP2551",
+      "category": "weather-station",
+      "names": [
+        "Ecowitt HP2551"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://shop.ecowitt.com/products/hp2551",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0548/6539/5874/files/HP2551_22c2328d-bdcf-4a7c-ab53-90ceb4e20753.jpg?v=1770693406",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Ecowitt",
+      "officialModel": "HP2551 Wi-Fi Weather Station Large TFT Screen with Solar Powered 7-in-1 Outdoor Sensor and WN32P Indoor Sensor (Europe 868 MHz, FG-HP2551AE-ECO2)",
+      "rawFile": "ecowitt-hp2551.jpg",
+      "rawSha256": "f857768d6c1856a7a92251ba41cfecdbb5277b21978035682b1b030b076e8f67",
+      "rawWidth": 1600,
+      "rawHeight": 1600,
+      "notes": "Kit packshot: 7-in-1 sensor array + HP2551 TFT console + WN32P indoor sensor. Featured image of the EU/UK 868 MHz variant on Ecowitt's own shop. The North America variant image has a 'Ship from U.S.' overlay and was avoided."
+    },
+    {
+      "id": "etekcity-smart-nutrition-scale",
+      "brand": "Etekcity",
+      "model": "Smart Nutrition Scale",
+      "category": "kitchen-scale",
+      "asin": "B09HLZV4H9",
+      "names": [
+        "Etekcity Smart Nutrition Scale"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://us.vesync.com/product-detail/etekcity-esn00-smart-nutrition-scale-323",
+      "imageUrl": "https://dj1ofsc4ivjxq.cloudfront.net/vmall/v1/2021-08-24-d3651d6d-74aa-4474-8be9-d959d3179640.jpg",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Etekcity",
+      "officialModel": "Etekcity ESN00 Smart Food Nutrition Scale, Stainless Steel — ESN00",
+      "rawFile": "etekcity-smart-nutrition-scale.jpg",
+      "rawSha256": "7508461132781e45c40838f0cd1a62745b978802796b4d99fd5f3898bab370ea",
+      "rawWidth": 750,
+      "rawHeight": 750,
+      "notes": "LOW RES: 750 px, the largest clean official image found. Source is the official VeSync store (VeSync owns Etekcity). FLAG: the file is served from VeSync's own AWS CloudFront distribution; the VeSync image domain image.vesync.com is also CloudFront/S3. This is not an Amazon retail image CDN. etekcity.com (US) only has a 768 px main image with a phone overlapping the scale, plus infographics. No EU Etekcity store lists the ESN00. 3/4 view, device only."
+    },
+    {
+      "id": "honeywell-home-t6",
+      "brand": "Honeywell Home",
+      "model": "T6",
+      "category": "thermostat",
+      "names": [
+        "Honeywell Home T6"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.resideo.com/fr/fr/solutions/confort/thermostat-intelligent-t6/",
+      "imageUrl": "https://digitalassets.resideo.com/damroot/RDEDesktop/10019/t6h-kit-antracite-uk07cohres.jpg",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Resideo / Honeywell Home",
+      "officialModel": "Y6H810WF1005 T6 filaire, montage mural (T6-Wired)",
+      "rawFile": "honeywell-home-t6.jpg",
+      "rawSha256": "94fb6a64380ad5b6386a142f5de0fb38ea059e8c9a0766238b091dac298d05f5",
+      "rawWidth": 1280,
+      "rawHeight": 1280,
+      "notes": "Kit packshot: T6 thermostat (anthracite) + receiver box. Resideo's T6 brochure says both T6 and T6R need a receiver box. Image is the product-card image of the Y6H810WF1005 on Resideo's official FR T6 page (alt 'Y6H810WF1005 T6 filaire, montage mural'). The product page itself (.../y6h810wf1005-t6-filaire-montage-mural-y6h810wf1005/) timed out for curl and WebFetch."
+    },
+    {
+      "id": "inkbird-ibt-4xs",
+      "brand": "Inkbird",
+      "model": "IBT-4XS",
+      "category": "meat-thermometer",
+      "asin": "B076QBJVWX",
+      "names": [
+        "Inkbird IBT-4XS Thermomètre Bluetooth 4 Sondes"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.inkbird.com/products/bluetooth-grill-thermometer-ibt-4xs",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0067/6950/8415/products/bluetooth-bbq-thermometer-ibt-4xs-868513.jpg?v=1745376241",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© INKBIRD",
+      "officialModel": "INKBIRD Bluetooth BBQ Thermometer IBT-4XS, variant '4 Silver Probes' (SKU IB-0094-BI)",
+      "rawFile": "inkbird-ibt-4xs.jpg",
+      "rawSha256": "e021f0b1695acdb89113cd06490578e8d2b8fa527a28475b81ad3d258760deae",
+      "rawWidth": 1500,
+      "rawHeight": 1500,
+      "notes": "Kit packshot: the variant image for '4 Silver Probes' shows the IBT-4XS unit with 4 probes plugged in, 4 more probes and 2 clips. The unit-only render on the same page (1600 px PNG) shows the device very small in the frame."
+    },
+    {
+      "id": "instant-pot-duo-plus-whisperquiet",
+      "brand": "Instant Pot",
+      "model": "Duo Plus WhisperQuiet",
+      "category": "multicooker",
+      "asin": "B0BYT67H2S",
+      "names": [
+        "Instant Pot Duo Plus WhisperQuiet - 5.7L"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.instantpot.com.au/products/instant-pot-5-7l-duo-plus",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0727/7264/9209/files/6_195c97cc-a6f1-4947-a0bb-a95d430b612f.webp?v=1735774783",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Instant Pot",
+      "officialModel": "Instant Pot 5.7L Duo Plus with WhisperQuiet (SKU 112-0184-01-AU)",
+      "rawFile": "instant-pot-duo-plus-whisperquiet.jpg",
+      "rawSha256": "6a86a43a6b5ac352354f5e70166d4b3980bf75429c1c278284af9d3f4938798b",
+      "rawWidth": 1080,
+      "rawHeight": 1080,
+      "notes": "Comes from the official Instant Pot Australia store; the page describes it as 'Duo Plus 5.7L with WhisperQuiet'. The 9-program panel (with Sous Vide and Sterilise) matches the EU 5.7L WhisperQuiet. This is a regional SKU (EU equivalent sold as 112-3079-01-UK). The UK official site no longer lists the model. instantpot.nl was rejected because its gallery files are Amazon-ASIN-named (B0BYSZYRZH.PT0x). The US 112-0169-01 is a newer design with a dial and was not used. The Shopify CDN served JPEG at 1080 px, its native size."
+    },
+    {
+      "id": "kenwood-cooking-chef-xl-kcl95-424si",
+      "brand": "Kenwood",
+      "model": "Cooking Chef XL KCL95.424SI",
+      "category": "cooking-robot",
+      "names": [
+        "Kenwood Cooking Chef XL KCL95.424SI"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.kenwoodworld.com/fr-fr/p/cooking-chef-experience-cooking-chef-experience-kcl95.424si/KCL95.424SI.html",
+      "imageUrl": "https://dam.delonghi.com/3000x3000/assets/193634",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Kenwood",
+      "officialModel": "Cooking Chef expérience KCL95.424SI (sold as Cooking Chef XL KCL95.424SI in other markets)",
+      "rawFile": "kenwood-cooking-chef-xl-kcl95-424si.jpg",
+      "rawSha256": "2f49bf98b2657715ad31e7278b56605d8fe30d745789d041cca8f54cb9e0d09e",
+      "rawWidth": 3000,
+      "rawHeight": 3000,
+      "notes": "Same reference KCL95.424SI; kenwoodworld.com/fr-fr names it 'Cooking Chef expérience', and the body reads 'Cooking Chef XL'. 3/4 view with the head raised and K-beater fitted, device alone. The main gallery image (asset 193626) was rejected because it has red dot/iF award badges overlaid. 3000x3000 is the largest DAM preset (it may be upscaled)."
+    },
+    {
+      "id": "krups-evidence-one",
+      "brand": "Krups",
+      "model": "Evidence One EA895N10",
+      "category": "coffee-machine",
+      "asin": "B07X9ZJ536",
+      "names": [
+        "Krups Evidence One EA895N10"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.krups.nl/accessoireskopen/dranken/volledig-automatisch/evidence-one-ea895n-volautomatische-espressomachine/csp/8010000805",
+      "imageUrl": "https://dam.groupeseb.com/m/488b779d2a4609ba/Digital-Krups-Meteor-EA895N10-Others-08-tif.png?timestamp=20260125023122",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Krups",
+      "officialModel": "Evidence One EA895N10 (EA895N, black/Meteor)",
+      "rawFile": "krups-evidence-one.png",
+      "rawSha256": "430d95832e881af50a38dcd1875e09f4a6040db4a0883b710a3d45384a39dde4",
+      "rawWidth": 2175,
+      "rawHeight": 2362,
+      "notes": "3/4 view, machine alone, no cups. krups.fr only offers a packshot with cups and a milk bottle; the krups.de live page (krups.de/p/evidence-one-schwarz-ea895n/8010000805) has a clean front view (asset 762734ea9a33eb59) as an alternative. Groupe SEB has no public product press kit (groupeseb.com/fr/kit-media: visuals only on request via journalist area), so the brand product page was used."
+    },
+    {
+      "id": "levoit-core-300s",
+      "brand": "Levoit",
+      "model": "Core 300S",
+      "category": "air-purifier",
+      "names": [
+        "Levoit Core 300S"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://levoit.com/products/core-300s-p-smart-air-purifier",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0497/0273/1927/products/levoit-core-300s-smart-air-purifier-345534.jpg?v=1756196743",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Levoit",
+      "officialModel": "Levoit Core 300S Smart Air Purifier (levoit.com listing title: 'Levoit Core® 300S-P Smart Air Purifier', SKU HEAPAPLVSUS0073A)",
+      "rawFile": "levoit-core-300s.jpg",
+      "rawSha256": "eaf5cf417c31778dc28eefef479831adea89fc8af95b27ee2bfd353f477436e7",
+      "rawWidth": 2048,
+      "rawHeight": 2048,
+      "notes": "3/4 view, device only (white, PM2.5 display). The EU official sites (levoit.fr, .de, .es, .co.uk; EU SKU HEAPAPLVSEU0073) only offer packshots with smartphones and/or a 'N°1' rosette, and most are re-hosted Amazon ASIN assets. This image comes from the US official site. The US listing is now titled 'Core 300S-P', but it shares the 0073 SKU base with the EU Core 300S and the asset is named 'core-300s'; the design is identical (regional plug only)."
+    },
+    {
+      "id": "meater-plus",
+      "brand": "MEATER",
+      "model": "Plus",
+      "category": "meat-thermometer",
+      "asin": "B07H8WTFHW",
+      "names": [
+        "MEATER Plus Thermomètre Sans Fil Bluetooth 50m"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://store-us.meater.com/products/meater-plus",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0091/4204/2675/files/MEATER-PDP-Sized-Plus.png?v=1783978348",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© MEATER",
+      "officialModel": "MEATER Plus (Honey), SKU OSC-MT-MP01",
+      "rawFile": "meater-plus.png",
+      "rawSha256": "5cadef8c21d47159e8a6d9022e09f300c85b39ee7372755a640900ee5f4732d3",
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "notes": "LOW RESOLUTION: 800x600 canvas, the bamboo block plus probe is only about 140x550 px of it. This is the largest clean packshot of the standard honey MEATER Plus; the EU store (meater.eu) has the same view at 590 px only, and the 1000+ px images are lifestyle shots or the Walnut colourway. Front view, probe docked. No public MEATER press kit found."
+    },
+    {
+      "id": "meater-pro",
+      "brand": "MEATER",
+      "model": "Pro",
+      "category": "meat-thermometer",
+      "asin": "B0CP8BPXKR",
+      "names": [
+        "MEATER Pro Thermomètre Sans Fil Longue Portée"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://store-us.meater.com/products/meater-pro",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0091/4204/2675/files/MEATER-PDP-Sized-Pro.png?v=1783978297",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© MEATER",
+      "officialModel": "MEATER Pro (Honey), SKU OSC-MT-MP201",
+      "rawFile": "meater-pro.png",
+      "rawSha256": "e4540283ab6f961f1039162a89db5a9ba5d9b03149026f73fd62cc6dea072e05",
+      "rawWidth": 800,
+      "rawHeight": 600,
+      "notes": "LOW RESOLUTION: 800x600 canvas, the product is about 140x530 px of it. This is the largest clean packshot; meater.eu uses the same product (file 'MEATER_2_Plus_01', 700 px) on its 'MEATER Pro' page. Single-probe MEATER Pro, not the Pro XL or Pro Duo. Front view, block with the 'MEATER' wordmark."
+    },
+    {
+      "id": "moulinex-cookeo-touch-wifi",
+      "brand": "Moulinex",
+      "model": "Cookeo Touch WiFi",
+      "category": "multicooker",
+      "asin": "B0859ZJVDH",
+      "names": [
+        "Moulinex Cookeo Touch WiFi - 6L"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.moulinex.be/fr/boutique-accessoires/cuisson-electrique/autocuiseur-electrique/cookeo-touch-wifi-ce902800-multicuiseur/csp/1510002402",
+      "imageUrl": "https://dam.groupeseb.com/m/5ae692732b2f05b6/Digital-MLX_COOKEO-TOUCH-WIFI_CE902800_7211004508_Abis-tif.png",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Moulinex",
+      "officialModel": "Cookeo Touch Wifi CE902800 (noir, 6 L)",
+      "rawFile": "moulinex-cookeo-touch-wifi.png",
+      "rawSha256": "e91ac1f2ebb4b580ae784b2e1380e084c753724d1bb514cf5d93a78b739601f1",
+      "rawWidth": 2362,
+      "rawHeight": 2362,
+      "notes": "3/4 view, device alone, screen showing its home UI. moulinex.fr main packshots add a smartphone and accessories, so this cleaner official packshot from moulinex.be (same CE902800 product) was used. Groupe SEB has no public product press kit (groupeseb.com/fr/kit-media: visuals only on request via journalist area), so the brand product page was used."
+    },
+    {
+      "id": "moulinex-easy-fry-max",
+      "brand": "Moulinex",
+      "model": "Easy Fry Max",
+      "category": "airfryer",
+      "asin": "B0CG6C26QW",
+      "names": [
+        "Moulinex Easy Fry Max 5L"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.moulinex.fr/boutique-accessoires/cuisson-electrique/friteuse-sans-huile/easy-fry-max-5-l-noir/csp/7211419532",
+      "imageUrl": "https://dam.groupeseb.com/m/649ad645de787098/Digital-MLX_EZ245820-_H2.png?timestamp=20260212114853",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Moulinex",
+      "officialModel": "Easy Fry Max 5 L Noir EZ245820",
+      "rawFile": "moulinex-easy-fry-max.png",
+      "rawSha256": "4b9e662671f6db11769eb4a645f2c4a28c320620b2c83dadecd5017f8789837e",
+      "rawWidth": 2362,
+      "rawHeight": 2362,
+      "notes": "EZ245 family exists in several colours (820 black, H20 anthracite, B20 Java pepper, A20 beige, 320 forest); black EZ245820 chosen as the standard reference — swap if the article means another colour. Product no longer sold on moulinex.fr (/p/ page redirects); image shown on the model's official moulinex.fr accessories page. Front view, device alone. Groupe SEB has no public product press kit (groupeseb.com/fr/kit-media: visuals only on request via journalist area), so the brand product page was used."
+    },
+    {
+      "id": "moulinex-i-companion-touch-xl",
+      "brand": "Moulinex",
+      "model": "i-Companion Touch XL",
+      "category": "cooking-robot",
+      "names": [
+        "Moulinex i-Companion Touch XL"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.moulinex.fr/boutique-accessoires/cuisson-electrique/robot-culinaire/i-companion-touch-xl-1550-w-rouge/csp/8010000996",
+      "imageUrl": "https://dam.groupeseb.com/m/32c4f818ecb08d9d/Digital-MOULINEX_HF934510_Visual4.png?timestamp=20260317161409",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Moulinex",
+      "officialModel": "i-Companion Touch XL HF934510 (Rouge)",
+      "rawFile": "moulinex-i-companion-touch-xl.png",
+      "rawSha256": "047e268971e141babab847ee94c3a9a1e8c1ae39f9e15cbf0f5629f67f7a9fe3",
+      "rawWidth": 2362,
+      "rawHeight": 2362,
+      "notes": "HF934510 = the red i-Companion Touch XL ('i-Companion touch xl' printed on the base). 3/4 view, device alone. No longer sold (/p/ page redirects to the model's official accessories page, which shows this image). Groupe SEB has no public product press kit (groupeseb.com/fr/kit-media: visuals only on request via journalist area), so the brand product page was used."
+    },
+    {
+      "id": "netatmo-smart-carbon-monoxide-alarm",
+      "brand": "Netatmo",
+      "model": "Smart Carbon Monoxide Alarm",
+      "category": "co-alarm",
+      "names": [
+        "Netatmo Smart Carbon Monoxide Alarm"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.netatmo.com/fr-fr/smart-carbon-monoxide-alarm",
+      "imageUrl": "https://www.netatmo.com/img/7b8e4c9c-42a5-482a-845c-f2949483ddbd",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Netatmo",
+      "officialModel": "Smart Carbon Monoxide Alarm / Détecteur de Monoxyde de Carbone Intelligent (NCO-EC)",
+      "rawFile": "netatmo-smart-carbon-monoxide-alarm.png",
+      "rawSha256": "531400dcd7a66af64a09ce2592c465138fd2067d989bc5b67a3e8fa2dcec925e",
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "notes": "Opaque #FAFAFA near-white background with a soft wall shadow; device alone, 3/4 view. The press gallery has only lifestyle photos of the CO alarm."
+    },
+    {
+      "id": "netatmo-smart-smoke-alarm",
+      "brand": "Netatmo",
+      "model": "Smart Smoke Alarm",
+      "category": "smoke-alarm",
+      "names": [
+        "Netatmo Smart Smoke Alarm"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.netatmo.com/fr-fr/smart-smoke-alarm",
+      "imageUrl": "https://www.netatmo.com/img/a2bbfa75-813a-45d4-bc74-48d6d37eac43",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Netatmo",
+      "officialModel": "Smart Smoke Alarm / Détecteur de Fumée Intelligent (NSA-EC)",
+      "rawFile": "netatmo-smart-smoke-alarm.webp",
+      "rawSha256": "12a5c5eca989c4f5d24ecde1d1cc33f594e080ff45a1b1057dee4cf7b8d001a2",
+      "rawWidth": 600,
+      "rawHeight": 600,
+      "notes": "LOW RESOLUTION: 600 px is the largest Netatmo serves (same file on fr-fr/en-gb/de-de pages; every gallery image of the alarm is 600 px). The Netatmo press gallery only has lifestyle photos of this alarm. Device alone, 3/4 view."
+    },
+    {
+      "id": "netatmo-smart-weather-station",
+      "brand": "Netatmo",
+      "model": "Smart Weather Station",
+      "category": "weather-station",
+      "names": [
+        "Netatmo Smart Weather Station"
+      ],
+      "sourceType": "press-kit",
+      "sourceUrl": "https://www.netatmo.com/en-gb/press",
+      "imageUrl": "https://www.netatmo.com/document/d2661ff1-cdcd-4a0a-a725-6258c4abfb92.jpg?download",
+      "licence": "Netatmo press area (netatmo.com/press): public 'Download' image gallery, no login; no usage terms stated on the press page (legals.netatmo.com is JS-only and could not be read)",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Netatmo",
+      "officialModel": "Smart Home Weather Station (indoor + outdoor module; press gallery tag 'Smart Home Weather Station')",
+      "rawFile": "netatmo-smart-weather-station.jpg",
+      "rawSha256": "1a1c5a2e75e4b20264ddb9e55fc2108459d0304df6794d61392d23f960a4b787",
+      "rawWidth": 2474,
+      "rawHeight": 2480,
+      "notes": "Indoor module + outdoor module, front view, pure white background. A 1-px grey line seen in a downscaled preview is a resampling artefact; full-res edges are 255."
+    },
+    {
+      "id": "netatmo-thermostat-original",
+      "brand": "Netatmo",
+      "model": "Thermostat Original",
+      "category": "thermostat",
+      "names": [
+        "Netatmo Thermostat Original"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.netatmo.com/fr-fr/additional-thermostat-original",
+      "imageUrl": "https://www.netatmo.com/img/b7cb46aa-0c80-498b-b4b1-63b8d6e720e1",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Netatmo",
+      "officialModel": "Thermostat ORIGINAL (Thermostat Additionnel ORIGINAL, NTE-WW; same unit as kits Thermostat Filaire ORIGINAL ETP-EC / Sans Fil ORIGINAL ETP-DC-EC)",
+      "rawFile": "netatmo-thermostat-original.jpg",
+      "rawSha256": "1dff72a379071af013aa468ae15b5912b3000c44afe9e973f84af73e9045442a",
+      "rawWidth": 3000,
+      "rawHeight": 3000,
+      "notes": "WARNING: this is the NEW 2026 'Thermostat ORIGINAL' (touch screen, Thermo Hub, Matter; press release 22/01/2026), NOT the classic NTH01 named in the brief hint. Chosen because the homenura article (lib/blog/articles/thermostat-connecte-pompe-chaleur.ts) describes 'la gamme Original lancée début 2026 ... Thermo Hub ... Matter'. Device alone (kit = thermostat + Thermo Hub); the wired-kit page image has a wired-plug icon overlay, so the clean schema image of the standalone-thermostat page was used. If NTH01 is wanted instead: clean Netatmo press packshot (2541x2536, white) kept at scratchpad/ge-pages/dl/n_029443db-5854-44de-82d9-d36a3239a211.jpg (https://www.netatmo.com/document/029443db-5854-44de-82d9-d36a3239a211.jpg?download)."
+    },
+    {
+      "id": "ninja-foodi-flexdrawer",
+      "brand": "Ninja",
+      "model": "Foodi FlexDrawer",
+      "category": "airfryer",
+      "asin": "B0CFL49C1J",
+      "names": [
+        "Ninja Foodi FlexDrawer 10.4L Double Zone"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.sharkninja.de/ninja-foodi-flexdrawer-104-l-heissluftfritteuse/AF500EU.html",
+      "imageUrl": "https://assets.sharkninja.com/image/upload/v1/SharkNinja-EU/AF500EU_01",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Ninja",
+      "officialModel": "Ninja Foodi FlexDrawer 10,4 L Heißluftfritteuse — AF500EU (black)",
+      "rawFile": "ninja-foodi-flexdrawer.png",
+      "rawSha256": "1720f682d6b335b7c9b8b1c473b66ae558ab55b76e90d4ef4827f12d0d073b42",
+      "rawWidth": 2070,
+      "rawHeight": 2070,
+      "notes": "Front view, device only (control panel shows Zone 1 / Max Zone / Zone 2). The FR, ES and IT main images carry 'N°1' badges, so the clean SharkNinja-EU master (main image of the sharkninja.de AF500EU page) was used. Original asset requested without transforms."
+    },
+    {
+      "id": "ninja-foodi-max-double-stack-xl",
+      "brand": "Ninja",
+      "model": "Foodi MAX Double Stack XL",
+      "category": "airfryer",
+      "asin": "B0CZPJ1HFP",
+      "names": [
+        "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.sharkninja.de/ninja-double-stack-xl-2-ebenen-heissluftfritteuse-95-l/SL400EU.html",
+      "imageUrl": "https://assets.sharkninja.com/image/upload/v1/SharkNinja-EU/SL400EU_01",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Ninja",
+      "officialModel": "Ninja Double Stack XL 2-Ebenen Heißluftfritteuse 9,5 L — SL400EU (grey; FR name: Air Fryer Ninja DoubleStack XL, verticale, 9.5L, 6-en-1, Gris SL400EU)",
+      "rawFile": "ninja-foodi-max-double-stack-xl.png",
+      "rawSha256": "ac534cc3bbacf17071cda56446dfb11550a5cd6d3044bb60cd4d325e311f94eb",
+      "rawWidth": 2070,
+      "rawHeight": 2070,
+      "notes": "Official name has no 'Foodi MAX': it is the Ninja Double Stack XL SL400EU (grey). Front view, device only. sharkninja.fr main image is the same packshot but with a 'Marque N°1' badge overlaid, so the clean SharkNinja-EU master (main image of the sharkninja.de SL400EU page) was used. Original asset requested without Cloudinary transforms. ninjakitchen.fr now redirects to sharkninja.fr (Akamai blocks curl). The SharkNinja newsroom has no EU packshot for this reference."
+    },
+    {
+      "id": "ninja-foodi-max-smartlid",
+      "brand": "Ninja",
+      "model": "Foodi MAX SmartLid",
+      "category": "multicooker",
+      "asin": "B09N3VQBMX",
+      "names": [
+        "Ninja Foodi MAX 15-en-1 SmartLid OP500EU - 7.5L",
+        "Ninja Foodi MAX SmartLid OL750EU"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.sharkninja.de/ninja-foodi-14-in-1-smartlid-multikocher/OL750EU.html",
+      "imageUrl": "https://assets.sharkninja.com/image/upload/v1/SharkNinja-EU/OL750EU_01",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Ninja",
+      "officialModel": "Ninja Foodi 14-in-1 SmartLid Multikocher — OL750EU (FR: Multicuiseur avec couvercle intelligent SmartLid Ninja Foodi MAX, 14-en-1, 7,5 L, OL750EU)",
+      "rawFile": "ninja-foodi-max-smartlid.png",
+      "rawSha256": "0dccd6d5d9885e72d4c55b5c044484e067edf174016741cb1556888ccd410706",
+      "rawWidth": 2070,
+      "rawHeight": 2070,
+      "notes": "The reference matches OL750EU, but both official EU pages (sharkninja.fr and sharkninja.de) call it '14-en-1 / 14-in-1', not 15-in-1 (15-in-1 is the UK OL750UK wording). Front view, device only. The FR main image has an 'N°1' badge, so the clean SharkNinja-EU master (the sharkninja.de main image) was used."
+    },
+    {
+      "id": "nuki-smart-lock-go",
+      "brand": "Nuki",
+      "model": "Smart Lock Go",
+      "category": "smart-lock",
+      "names": [
+        "Nuki Smart Lock Go"
+      ],
+      "sourceType": "press-kit",
+      "sourceUrl": "https://nuki.px.media/share/1749754455x2pnO3MZkTQ85Z/media",
+      "imageUrl": "https://nuki.px.media/gobackend/mediaserver?src=original%2F8l%2F8LVdxKny4lGkZCo5Ec__1765872648_xc427rP.png&ds=g",
+      "licence": "Nuki Press Area (https://nuki.io/en/company/press, 'Press Images – Smart Locks'): image material offered to media representatives, captioned '© Nuki'; no explicit restriction on commercial/affiliate use found",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Nuki",
+      "officialModel": "Nuki Smart Lock Go – Retrofit entry-level smart lock for simple keyless access_product image_cut-out (file Nuki-Smart-Lock-Go.png, keyword 'Smart Lock Go (2024)')",
+      "rawFile": "nuki-smart-lock-go.png",
+      "rawSha256": "fad03f06d48a2bb2a40648b9eb5d076b5334f21ba3abc7fe890454cd7bf58626",
+      "rawWidth": 3750,
+      "rawHeight": 3750,
+      "notes": "Original cut-out from the official press share; white device, 3/4 view."
+    },
+    {
+      "id": "nuki-smart-lock-pro-5th-gen",
+      "brand": "Nuki",
+      "model": "Smart Lock Pro (5th generation)",
+      "category": "smart-lock",
+      "names": [
+        "Nuki Smart Lock Pro (5th generation)"
+      ],
+      "sourceType": "press-kit",
+      "sourceUrl": "https://nuki.px.media/share/1749754455x2pnO3MZkTQ85Z/media",
+      "imageUrl": "https://nuki.px.media/gobackend/mediaserver?src=original%2Fre%2FrEtf2l117WffJbNqR1__1765872649_8x1wVvX.png&ds=g",
+      "licence": "Nuki Press Area (https://nuki.io/en/company/press, 'Press Images – Smart Locks'): image material offered to media representatives, captioned '© Nuki'; no explicit restriction on commercial/affiliate use found",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Nuki",
+      "officialModel": "Nuki Smart Lock Pro – Retrofit smart lock with minimalist design_black base ring_product image_cut-out (5th generation)",
+      "rawFile": "nuki-smart-lock-pro-5th-gen.png",
+      "rawSha256": "48d08b0f4f64af5e23f156d482da6fd79e1a7c5fda6ee516acf601ce89c84dbd",
+      "rawWidth": 3750,
+      "rawHeight": 3750,
+      "notes": "Original cut-out from the official press share (pixx.io). Black base ring (white-ring cut-out also available: src=original%2Fao%2FAOE61LOIxrlqBn4ygD__1765872650_tcjSvO6.png). Design matches the 5th-gen product page https://nuki.io/fr/produits/smart-lock-pro-5eme-gen (round stainless-steel body) and the press visual titled 'Nuki Smart Lock Pro 5th generation'."
+    },
+    {
+      "id": "philips-5500-lattego-ep5541-50",
+      "brand": "Philips",
+      "model": "5500 LatteGo EP5541/50",
+      "category": "coffee-machine",
+      "asin": "B0DV9M7MY5",
+      "names": [
+        "Philips 5500 LatteGo Series EP5541/50"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.home-appliances.philips/fr/fr/p/EP5541_50",
+      "imageUrl": "https://dam.versuni.com/transform/webp2048x2048/7dc3de8c-08a8-4f07-afcf-4b4f84005a7e/CO_2023_EP5541_50__F_FullFrame_Core.webp",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Philips",
+      "officialModel": "Série 5500 Expresso broyeur SilentBrew Philips - machine à café 20 boissons, noir LatteGo — EP5541/50",
+      "rawFile": "philips-5500-lattego-ep5541-50.webp",
+      "rawSha256": "66f0ff2e00ac1605fd282553e6dbd06534ba82f12d907b22ccd8076389de1dbe",
+      "rawWidth": 2048,
+      "rawHeight": 2048,
+      "notes": "Front view; the standard packshot props are included (LatteGo milk carafe attached, latte glass on the drip tray). The machine fills about half the frame. The asset file name encodes EP5541_50. The Versuni NA newsroom media kit for the 5500 series covers the US reference EP5547/90 only, so the product page was used."
+    },
+    {
+      "id": "philips-ac2939-10",
+      "brand": "Philips",
+      "model": "AC2939/10",
+      "category": "air-purifier",
+      "names": [
+        "Philips AC2939/10"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.home-appliances.philips/fr/fr/p/AC2939_10",
+      "imageUrl": "https://dam.versuni.com/transform/webp2048x2048/599c5be9-d715-4677-a1f6-4aae965c0a12/Standard-Product-Photo-Philips-Air-Purifier-2000i-Series.webp",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Philips",
+      "officialModel": "Série 2000i Purificateur d'air pour grandes pièces — AC2939/10",
+      "rawFile": "philips-ac2939-10.webp",
+      "rawSha256": "e5a0cce6a3442b22ee4c9d30faae839211ab73b7e05ce7c50ddcd35c285a0630",
+      "rawWidth": 2048,
+      "rawHeight": 2048,
+      "notes": "Slight 3/4 view, device only. This is the main (first) image of the AC2939/10 page; the asset file name says '2000i Series' with no reference. The product's own printed VitaShield and AeraSense logos are visible; nothing is overlaid."
+    },
+    {
+      "id": "philips-airfryer-3000-xl",
+      "brand": "Philips",
+      "model": "Airfryer 3000 Series XL",
+      "category": "airfryer",
+      "asin": "B0D9S9Y16Y",
+      "names": [
+        "Philips Airfryer Série 3000 XL - 6.2L"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.home-appliances.philips/fr/fr/p/HD9270_90",
+      "imageUrl": "https://dam.versuni.com/transform/jpg2048x2048/708fcd35-9dce-4860-832a-c44dabdf2f21/Standard-Product-Photo-Philips-Essential-Airfryer-XL.jpg",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Philips",
+      "officialModel": "Airfryer Philips Série 3000 Friteuse sans huile XL - Air fryer 6,2L — HD9270/90",
+      "rawFile": "philips-airfryer-3000-xl.jpg",
+      "rawSha256": "8443a3b8c1ee4269b93603ff79c556db61cd0283e27d6f5d92f8a9aa2a07ff4a",
+      "rawWidth": 2048,
+      "rawHeight": 2048,
+      "notes": "Reference used: HD9270/90 (black, digital), which is still listed on philips.fr / home-appliances.philips as 'Série 3000 ... XL 6,2L' (out of stock on 2026-10-30). NA231/00 was NOT used because philips.fr names it 'Série 2000 Airfryer 6.2L'. Sibling references with the same 3000 XL name also exist: HD9270/91, HD9270/00 and connected HD9280/90. 3/4 view, basket closed. 2048 px is the largest preset the Versuni DAM serves; the page itself displays 1024 px webp."
+    },
+    {
+      "id": "philips-airfryer-combi-7000-xxl-connected",
+      "brand": "Philips",
+      "model": "Airfryer Combi XXL Connected",
+      "category": "airfryer",
+      "asin": "B0D67569TZ",
+      "names": [
+        "Philips Airfryer Combi XXL Connecté - 8.3L"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.home-appliances.philips/fr/fr/p/HD9876_90",
+      "imageUrl": "https://dam.versuni.com/transform/webp2048x2048/d31552d8-dbfb-49ad-b5d7-77e66a7470ed/KA_2024_F_HD9876-90_Venus_1_DeepBlack_DeepBlack_RGB_1x1_V0-tif.webp",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Philips",
+      "officialModel": "Série 7000 Connecté Airfryer Philips - Friteuse sans huile Noir 8.3L — HD9876/90",
+      "rawFile": "philips-airfryer-combi-7000-xxl-connected.webp",
+      "rawSha256": "c4dd690726e4cd9ca31ab507704c0ee336a9d336d6e4b6bcf59347fa23c0b430",
+      "rawWidth": 2048,
+      "rawHeight": 2048,
+      "notes": "Front view, device only, with a soft drop shadow; the panel shows the 'Rapid CombiAir Technology' marking and a Wi-Fi icon. The asset file name encodes HD9876-90. Webp 2048 is the largest DAM preset that keeps alpha. The native master size is unknown, so 2048 px may be an upscale."
+    },
+    {
+      "id": "philips-hue-white-and-color-ambiance-e27",
+      "brand": "Philips Hue",
+      "model": "White and Color Ambiance E27",
+      "category": "smart-bulb",
+      "names": [
+        "Philips Hue White and Color Ambiance E27"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.philips-hue.com/fr-fr/p/hue-white-and-color-ambiance-a60-ampoule-connectee-e27-1100/8720169364066",
+      "imageUrl": "https://www.assets.signify.com/is/image/Signify/8720169364066-929003853501-Hue-WCA-1100-A60-E27-1P-EU-RTP?scl=1&fmt=png-alpha",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Philips Hue",
+      "officialModel": "Hue White and Color Ambiance A60 - Ampoule connectée E27 - 1100 (1-pack), EAN 8720169364066 / 929003853501",
+      "rawFile": "philips-hue-white-and-color-ambiance-e27.png",
+      "rawSha256": "1ab88cc8bc2fc3bd4f6c9849145a76efccb67ebc70410a58255962691914345d",
+      "rawWidth": 2500,
+      "rawHeight": 2500,
+      "notes": "Current generation, 1100 lm (matches our article's '1 100 lm'), single bulb. 3/4 view with a magenta-lit dome; 'hue / white and color / 1100' is printed on the bulb. Scene7 asset at full scale (scl=1) as PNG with its own alpha channel, no crop. Same asset as white-background JPEG: same URL with ?scl=1 only. No public Hue press kit with media terms found, so the product page was used."
+    },
+    {
+      "id": "renpho-smart-kitchen-scale",
+      "brand": "Renpho",
+      "model": "Smart Kitchen Scale",
+      "category": "kitchen-scale",
+      "asin": "B0817LMPDX",
+      "names": [
+        "Renpho Balance Cuisine Connectée"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://uk.renpho.com/products/calibra-1-smart-nutrition-scale",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0539/7466/3367/files/SNG01_01_5cdcaa1c-f7d1-43d8-8131-78fd5057f39b.png?v=1777265217",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Renpho",
+      "officialModel": "RENPHO Calibra 1 Smart Nutrition Scale (white), ref. ES-SNG01 (SKU SPFUK-ES-SNG01-WH-N2)",
+      "rawFile": "renpho-smart-kitchen-scale.png",
+      "rawSha256": "7a9859a5e10976d55878743d16169b07b2dd7cb1102363503b55c9f05f873352",
+      "rawWidth": 1600,
+      "rawHeight": 1344,
+      "notes": "Exact reference ES-SNG01 = glass platform, 5 kg, 1 g, Bluetooth app scale (matches our copy: tempered glass, 5 kg); now marketed as 'Calibra 1 Smart Nutrition Scale'. Not listed on eu.renpho.com, so the official UK regional store was used (same image also on renpho.com US). Top view. Avoided the gallery images on that page whose file names come from Amazon (_AC_SL1500). The silver/stainless sibling is ES-SNS01 (not used)."
+    },
+    {
+      "id": "roborock-q7-m5-plus",
+      "brand": "Roborock",
+      "model": "Q7 M5+",
+      "category": "robot-vacuum",
+      "names": [
+        "Roborock Q7 M5+"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://us.roborock.com/pages/roborock-q7-series",
+      "imageUrl": "https://us.roborock.com/cdn/shop/files/Talc_C_Pro_Plus_Black_ID_3.png?v=1782963498",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Roborock",
+      "officialModel": "Roborock Q7 M5+ Robot Vacuum and Mop with Auto-Empty Dock (black, SKU RR-Q7M5Plus5-M2)",
+      "rawFile": "roborock-q7-m5-plus.png",
+      "rawSha256": "6690952433eea1b561ac37729ff546ebc45c6416a6fc38661595bf3473c1ce46",
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "notes": "Robot + auto-empty dock, black. On the US Q7 series page this packshot is labelled alt='Roborock Q7 M5+'; identical render to the main image of https://us.roborock.com/products/roborock-q7-m5-plus minus the phone/watch illustration. The '+' (dock) version is not sold under this name on fr.roborock.com (FR sells Q7 M5 robot only). White variant also exists: https://us.roborock.com/cdn/shop/files/Talc_C_Pro_Plus_White_ID.png?v=1782963484 (1000px)."
+    },
+    {
+      "id": "roborock-qrevo-curv",
+      "brand": "Roborock",
+      "model": "Qrevo Curv",
+      "category": "robot-vacuum",
+      "names": [
+        "Roborock Qrevo Curv"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://fr.roborock.com/pages/roborock-qrevo-curv-series",
+      "imageUrl": "https://fr.roborock.com/cdn/shop/files/Vivian_ID.png?v=1758869973",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Roborock",
+      "officialModel": "Roborock Qrevo Curv robot aspirateur laveur avec station multifonction 3.0 (SKU RRFR-QrevoCurv0-M3)",
+      "rawFile": "roborock-qrevo-curv.png",
+      "rawSha256": "bc72f1aa4e60fdeb077ade1b545cce7404003cfb31eccb9964938e159bb9fa61",
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "notes": "Robot + dock 3.0. Image is the fr.roborock.com navigation packshot labelled alt='Qrevo Curv' (shown on every FR page incl. the Curv series page). Same render as the 2000px main image of https://fr.roborock.com/products/aspirateur-robot-roborock-qrevo-curv, but that one (and all ES/IT/DE/PL/CA versions) adds a phone + smartwatch app illustration, so the clean 1000px version was preferred. Not CurvX / Curv S5X / Curv 2."
+    },
+    {
+      "id": "roborock-qrevo-curv-2-flow",
+      "brand": "Roborock",
+      "model": "Qrevo Curv 2 Flow",
+      "category": "robot-vacuum",
+      "names": [
+        "Roborock Qrevo Curv 2 Flow"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://us.roborock.com/products/roborock-qrevo-curv-2-flow",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0082/3666/2902/files/Beryllite2.png?v=1767426020",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Roborock",
+      "officialModel": "Roborock Qrevo Curv 2 Flow Roller Mop Robot Vacuum With Multifunctional Dock (SKU RR-QrevoCurv2Flow0-M1)",
+      "rawFile": "roborock-qrevo-curv-2-flow.png",
+      "rawSha256": "2c1b79beb6df612a991b5bfc074e186fdbe5e69a02bfc894766ae722a64cb82d",
+      "rawWidth": 1600,
+      "rawHeight": 1600,
+      "notes": "Robot (roller mop pulled out) in front of dock, 3/4 view. Taken from Roborock's US official store because the FR/DE store main images add a phone + smartwatch illustration; same hardware as FR listing RRFR-QrevoCurv2Flow0-M1."
+    },
+    {
+      "id": "rowenta-x-force-flex-15-60",
+      "brand": "Rowenta",
+      "model": "X-Force Flex 15.60",
+      "category": "stick-vacuum",
+      "names": [
+        "Rowenta X-Force Flex 15.60"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.rowenta.fr/p/x-force-flex-1560/2211401071",
+      "imageUrl": "https://dam.groupeseb.com/m/4c74dbceb7070f58/Digital-ROWENTA_RH99F1WO_H1-png.png",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Rowenta",
+      "officialModel": "X-Force Flex 15.60 Animal RH99F1WO",
+      "rawFile": "rowenta-x-force-flex-15-60.png",
+      "rawSha256": "e3a7e0facfb58715d0f02c914e369c2b8d7c85f1bdbbd0b8ea5d937472f5cd4d",
+      "rawWidth": 2362,
+      "rawHeight": 2362,
+      "notes": "KIT packshot: vacuum (bent Flex tube, Power LED Vision head) plus its accessories laid out to the right. The page shows the 945 px 'Medium' version; the same DAM asset was requested as the 2362 px 'Digital' version. Base FR reference RH99F1WO chosen over the 2-battery RH99F3WO. Groupe SEB has no public product press kit (groupeseb.com/fr/kit-media: visuals only on request via journalist area), so the brand product page was used."
+    },
+    {
+      "id": "sauter-orosi-2",
+      "brand": "Sauter",
+      "model": "Orosi 2",
+      "category": "heater",
+      "names": [
+        "Sauter Orosi 2"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.confort-sauter.com/radiateurs/radiateur-electrique-connecte/orosi-2/orosi-2-horizontal-1000w-blanc",
+      "imageUrl": "https://www.confort-sauter.com/var/site/storage/images/_aliases/productGallery_desktop_webp_retina/6/6/8/4/324866-119-fre-FR/7d2686579143-585014_orosi-2.webp.webp",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Sauter",
+      "officialModel": "OROSI 2 horizontal 1000 W blanc (product code ZD27)",
+      "rawFile": "sauter-orosi-2.webp",
+      "rawSha256": "b4f0075ac126991570277107f776769541f2944871cabb5f23e1d960c583bf8e",
+      "rawWidth": 710,
+      "rawHeight": 710,
+      "edgeInset": 1,
+      "notes": "LOW RESOLUTION and heavily compressed (4 KB WebP). 710 px is the largest alias the site serves: the original path and productZoom aliases return 404, and there is no media library or press kit. Front view of the 1000 W model. The top pixel row has a faint grey line (crop artefact) that can be trimmed. Official domain is confort-sauter.com: sauter-chauffage.fr does not resolve and sauter.fr has no product."
+    },
+    {
+      "id": "tado-heat-pump-optimizer-x",
+      "brand": "tado",
+      "model": "Heat Pump Optimizer X",
+      "category": "thermostat",
+      "names": [
+        "tado Heat Pump Optimizer X"
+      ],
+      "sourceType": "press-kit",
+      "sourceUrl": "https://brandfolder.com/s/r8hpvw6h2sj5bjjm3fn4f5p",
+      "imageUrl": "https://storage.googleapis.com/bf-boulder-prod/9wnwf4n6gpkmfbwzbr4q83/v/1178027675/original/heat_pump_optimizer_product_1x1_1027_00.png",
+      "licence": "tado° press lounge (tado.com/en/press) 'download high resolution product images' link to a public Brandfolder share, no login; no usage terms or user agreement found restricting use",
+      "retrievedAt": "2026-10-30",
+      "credit": "© tado",
+      "officialModel": "tado° Heat Pump Optimizer X (press asset heat_pump_optimizer_product_1x1_1027_00)",
+      "rawFile": "tado-heat-pump-optimizer-x.png",
+      "rawSha256": "3a3db95d9ca186f748e1a3029d4b88539213421722f67f03250019a04751da91",
+      "rawWidth": 3000,
+      "rawHeight": 3000,
+      "notes": "Linked from https://www.tado.com/en/press/tado-heat-pump-optimizer-launch. imageUrl is a signed Google Storage URL from the Brandfolder share manifest (query string stripped, expires ~Nov 2026). Device alone, 3/4 view, matches the shop.tado.com HPOX packshot."
+    },
+    {
+      "id": "tado-smart-radiator-thermostat-x-starter-kit",
+      "brand": "tado",
+      "model": "Smart Radiator Thermostat X",
+      "category": "radiator-thermostat",
+      "names": [
+        "tado Smart Radiator Thermostat X Starter Kit"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://shop.tado.com/en/products/smart-radiator-thermostat-x-starter-kit-1",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0552/4992/8391/files/smart_radiator_thermostat_x_internet_bridge_product_1x1_0895_20_225142c8-2740-4af5-bb47-6a47aa804115.webp?v=1748605701",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© tado",
+      "officialModel": "Smart Radiator Thermostat X - Starter Kit",
+      "rawFile": "tado-smart-radiator-thermostat-x-starter-kit.png",
+      "rawSha256": "4769270f248ac5f1c89b10bc62bb80e33759f9e2e4056c2e9a45bd21e360a2ce",
+      "rawWidth": 4500,
+      "rawHeight": 4500,
+      "notes": "Kit packshot: 1 Smart Radiator Thermostat X + Bridge X. URL ends .webp but the file served is a PNG (checked with `file`), saved as .png. Main image of tado's own shop. The press-lounge SRT X image is product + app composite, so not used."
+    },
+    {
+      "id": "tefal-actifry-genius-xl-2in1",
+      "brand": "Tefal",
+      "model": "ActiFry Genius XL 2in1",
+      "category": "airfryer",
+      "asin": "B07W1JDFH3",
+      "names": [
+        "Tefal ActiFry Genius XL 2in1 - 1.7kg"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.tefal.pt/Loja-de-Acess%C3%B3rios/actifry-genius-xl-2-em-1/csp/1510001575",
+      "imageUrl": "https://dam.groupeseb.com/m/7ce877b7b6bf9053/Digital-TF_YV970815_1510001575_H1-tif.png",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Tefal",
+      "officialModel": "Actifry Genius XL 2 em 1 (ActiFry Genius XL 2in1) YV970815",
+      "rawFile": "tefal-actifry-genius-xl-2in1.png",
+      "rawSha256": "0e1ce7222eb70a1539605e61c41047eb2ce450232a9b16233fd76b320251592c",
+      "rawWidth": 2362,
+      "rawHeight": 2362,
+      "notes": "Not listed on tefal.fr; exact ref YV970815 (black, 1.7 kg) confirmed via Groupe SEB catalogue API (commercialCode YV970815, EAN 3045380015753). Discontinued: the tefal.pt /p/ page now resolves to the model's official accessories page, which still shows this packshot. 3/4 view, device alone. Groupe SEB has no public product press kit (groupeseb.com/fr/kit-media: visuals only on request via journalist area), so the brand product page was used."
+    },
+    {
+      "id": "tp-link-tapo-l535e",
+      "brand": "TP-Link",
+      "model": "Tapo L535E",
+      "category": "smart-bulb",
+      "names": [
+        "TP-Link Tapo L535E"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.tp-link.com/fr/home-networking/smart-bulb/tapo-l535e/",
+      "imageUrl": "https://static.tp-link.com/upload/image-line/Overview_01_large_20230905062436j.jpg",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© TP-Link",
+      "officialModel": "Tapo L535E Ampoule WiFi Connectée Multicolore (E27, Matter)",
+      "rawFile": "tp-link-tapo-l535e.jpg",
+      "rawSha256": "e643f714736ac32225dac8ccc241bcbea2740bce74e2bd0e38c45e6526cdbabc",
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "notes": "Front view of a single E27 bulb with a multicolour diffuser; 'tapo / Multicolor' is printed on the bulb body. Main gallery and og:image of the FR page, which confirms Matter support."
+    },
+    {
+      "id": "tp-link-tapo-p100-4-pack",
+      "brand": "TP-Link",
+      "model": "Tapo P100",
+      "category": "smart-plug",
+      "asin": "B0B3JSKTCQ",
+      "names": [
+        "TP-Link Tapo P100 Pack de 4 Prises Connectées"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.tp-link.com/fr/home-networking/smart-plug/tapo-p100/",
+      "imageUrl": "https://static.tp-link.com/upload/image-line/01_1-pack_large_20240928023319g.jpg",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© TP-Link",
+      "officialModel": "Tapo P100 Mini prise connectée WiFi (FR version, single unit)",
+      "rawFile": "tp-link-tapo-p100-4-pack.jpg",
+      "rawSha256": "69ae66ac3c0d8459ab7db2c7df9d5811778097402854e0be9c8f965191915ba8",
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "notes": "SINGLE P100, not the 4-pack. Official 4-pack packshots exist only at 590x590 px, below the 600 px floor: FR version https://static.tp-link.com/upload/image-line/TAPO_P100_4P_FR_normal_20220707025946g.png and EU Schuko version https://static.tp-link.com/upload/image-line/Tapo_P100(4pack)_EU_1.0_normal_20250115013254k.png. This image shows the French socket type, 3/4 view; 'MAX 2300W / 230V~' is printed on the product."
+    },
+    {
+      "id": "tp-link-tapo-p115",
+      "brand": "TP-Link",
+      "model": "Tapo P115",
+      "category": "smart-plug",
+      "asin": "B09ZBGWYH9",
+      "names": [
+        "TP-Link Tapo P115 Prise Connectée avec Suivi Conso"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.tp-link.com/fr/home-networking/smart-plug/tapo-p115/",
+      "imageUrl": "https://static.tp-link.com/upload/image-line/01-1_pack_large_20250115022251c.png",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© TP-Link",
+      "officialModel": "Tapo P115 Mini prise connectée WiFi avec suivi de consommation (1-pack, v1)",
+      "rawFile": "tp-link-tapo-p115.png",
+      "rawSha256": "35c8a173aacfbc49c1bc1717d5347cf525ac81d93d4c4a5fa454d6e70cf011fa",
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "notes": "3/4 view, single plug. Main gallery image of both tp-link.com/fr and tapo.com/fr P115 pages. The pictured plug looks like the Schuko-style EU version, the image TP-Link France itself uses."
+    },
+    {
+      "id": "xiaomi-smart-air-fryer-pro-4l",
+      "brand": "Xiaomi",
+      "model": "Smart Air Fryer Pro 4L",
+      "category": "airfryer",
+      "asin": "B0BQNDGJRV",
+      "names": [
+        "Xiaomi Smart Air Fryer Pro 4L"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.mi.com/fr/product/xiaomi-smart-air-fryer-pro-4l/buy/",
+      "imageUrl": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1680255833.07723496.png",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Xiaomi",
+      "officialModel": "Xiaomi Smart Air Fryer Pro 4L",
+      "rawFile": "xiaomi-smart-air-fryer-pro-4l.png",
+      "rawSha256": "b1271671e0a228c93dd3b4ed37491cb2ae5ff91bd9ad119307241aef8c324d68",
+      "rawWidth": 1600,
+      "rawHeight": 1600,
+      "notes": "3/4 view, basket closed; food is visible through the product's own window, which is part of the official render. Original PNG fetched without the CDN thumb/webp parameters."
+    },
+    {
+      "id": "xiaomi-smart-air-purifier-4",
+      "brand": "Xiaomi",
+      "model": "Smart Air Purifier 4",
+      "category": "air-purifier",
+      "names": [
+        "Xiaomi Smart Air Purifier 4"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.mi.com/fr/product/xiaomi-smart-air-purifier-4/buy/",
+      "imageUrl": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1651139835.00432408.png",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Xiaomi",
+      "officialModel": "Xiaomi Smart Air Purifier 4",
+      "rawFile": "xiaomi-smart-air-purifier-4.png",
+      "rawSha256": "3251fb35bac538e4f3b9d4181df472be15ec13c99b508d93654fd0454ff8b1c2",
+      "rawWidth": 800,
+      "rawHeight": 800,
+      "notes": "LOW RES: 800 px, the largest available. The identical file is the only gallery image on the mi.com/fr and mi.com/uk buy pages and is also the page's og image. The other locales (global, de, es, it, nl) list no larger asset. Front view, device only; this is the plain Air Purifier 4 page (not Lite, Pro or Compact)."
+    }
+  ],
+  "skipped": [
+    {
+      "id": "ajax-starterkit-4g",
+      "brand": "Ajax",
+      "model": "StarterKit 4G",
+      "reason": "Official renders only on a black background; the press asset folder needs a Google sign-in."
+    },
+    {
+      "id": "cecotec-mambo-touch",
+      "brand": "Cecotec",
+      "model": "Mambo Touch",
+      "reason": "Every official packshot adds a smartphone showing the app next to the robot (not a product-only image)."
+    },
+    {
+      "id": "cosori-cp158-af",
+      "brand": "Cosori",
+      "model": "CP158-AF",
+      "reason": "Every black packshot carries a test badge or rosette; the only clean one is the white colour variant, not the listed model."
+    },
+    {
+      "id": "govee-rgbic-led-strip-h619a",
+      "brand": "Govee",
+      "model": "RGBIC LED Strip H619A",
+      "reason": "Only official packshot shows the retail box (printed assistant logos) and a phone with the app, not the product alone."
+    },
+    {
+      "id": "meross-mss210p",
+      "brand": "Meross",
+      "model": "MSS210P (HomeKit 16A)",
+      "reason": "'MSS210P' appears on no official Meross page (MSS210 EU / MSS210HK), and every official packshot carries an overlaid 'Works with Apple Home' badge."
+    },
+    {
+      "id": "mill-gentle-air-wifi",
+      "brand": "Mill",
+      "model": "Gentle Air WiFi",
+      "reason": "Only room scenes or a composite with the retail box and a Wi-Fi icon on official Mill sites."
+    },
+    {
+      "id": "ring-alarm-pack-m-gen-2",
+      "brand": "Ring",
+      "model": "Alarm Pack M (2nd generation)",
+      "reason": "Only clean official packshot is Ring's current 8-piece 'Kit M (sirène incluse)', not the reviewed Pack M (2nd gen); Ring is also an Amazon company, kept out to stay clear of the Associates rules."
+    },
+    {
+      "id": "samsung-bespoke-jet-ai",
+      "brand": "Samsung",
+      "model": "Bespoke Jet AI",
+      "reason": "Legal: Samsung Newsroom terms limit materials to personal, informational and non-commercial use; no product-page fallback for the brand."
+    },
+    {
+      "id": "somfy-home-alarm-advanced",
+      "brand": "Somfy",
+      "model": "Home Alarm Advanced",
+      "reason": "Only downloadable official image has an app-screen inset; the clean somfy.fr assets refuse non-browser downloads."
+    },
+    {
+      "id": "thermor-equateur-4",
+      "brand": "Thermor",
+      "model": "Equateur 4",
+      "reason": "Legal: thermor.fr legal notice forbids reproducing the site's photographs without Thermor's express prior authorisation; the model is also discontinued."
+    },
+    {
+      "id": "x-sense-xs01-wx",
+      "brand": "X-Sense",
+      "model": "XS01-WX",
+      "reason": "Every official image has an overlay ('1 Pack' badge, phone in hand, feature icons) or is a lifestyle shot."
+    }
+  ]
+}
