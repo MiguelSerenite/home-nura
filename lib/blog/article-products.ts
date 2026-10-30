@@ -1,4 +1,7 @@
 import { amazonSearchUrl } from '@/lib/amazon'
+import { resolveLang } from '@/lib/i18n'
+import { productPhoto } from '@/lib/product-images'
+import type { ProductPhoto } from '@/lib/product-photo'
 import type { ProductVisualData } from '@/lib/product-visual'
 import { getStaticProducts } from '@/lib/products'
 import { getArticleModels } from '@/lib/blog/article-models'
@@ -77,7 +80,7 @@ export function getArticleProducts(
 
 export type ArticleRecommendations =
   | { kind: 'catalog'; source: Exclude<ArticleProductSource, null>; products: ArticleProduct[] }
-  | { kind: 'models'; models: { name: string; url: string }[] }
+  | { kind: 'models'; models: { name: string; url: string; photo?: ProductPhoto }[] }
 
 /**
  * What an article recommends: catalog products (visuals, scores) when the
@@ -92,7 +95,8 @@ export function getArticleRecommendations(
   if (source !== null && products.length > 0) return { kind: 'catalog', source, products }
   const models = getArticleModels(article.slug).map((name) => {
     const { url } = resolveModelLink(name, lang)
-    return { name, url }
+    const photo = productPhoto({ name }, resolveLang(lang))
+    return { name, url, ...(photo ? { photo } : {}) }
   })
   return models.length > 0 ? { kind: 'models', models } : null
 }

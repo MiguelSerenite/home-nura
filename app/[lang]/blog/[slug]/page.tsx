@@ -18,7 +18,7 @@ import { CATEGORIES, type FAQItem } from '@/lib/blog/types'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { SiteFooter } from '@/components/ui'
-import { buildPageMetadata, buildArticleSchema } from '@/lib/seo'
+import { buildPageMetadata, buildArticleSchema, buildProductImageObject } from '@/lib/seo'
 import { LANGUAGES, isValidLang } from '@/lib/i18n'
 import { BLOG_SEO_META } from '@/lib/blog/seo-meta'
 import { ChevronRight } from 'lucide-react'
@@ -103,7 +103,12 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
     '@type': 'ItemList',
     name: quickAnswer.question,
     itemListOrder: 'https://schema.org/ItemListOrderAscending',
-    itemListElement: quickAnswer.picks.map((pick, i) => ({ '@type': 'ListItem', position: i + 1, name: `${pick.model} — ${pick.role}` })),
+    itemListElement: quickAnswer.picks.map((pick, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: `${pick.model} — ${pick.role}`,
+      ...(pick.photo ? { image: buildProductImageObject(pick.photo) } : {}),
+    })),
   }
   const topProducts = recommendations?.kind === 'catalog' ? recommendations.products : []
   const citedModels = recommendations?.kind === 'models' ? recommendations.models : []

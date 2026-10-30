@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { trackAffiliateClick } from '@/lib/analytics'
 import type { ProductVisualData } from '@/lib/product-visual'
 import AmazonDisclosure from './AmazonDisclosure'
+import PhotoCredits from './PhotoCredits'
 import ProductVisual from './ProductVisual'
 
 interface Product {
@@ -130,6 +131,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
         >
           {labels.button} →
         </a>
+        <PhotoCredits photos={[p.visual.photo]} lang={lang} className="mt-3 text-[11px] leading-snug text-slate-500" />
         <AmazonDisclosure lang={lang} note={labels.disclosure} className="mt-3 text-xs text-slate-600" />
       </div>
     )
@@ -181,6 +183,7 @@ export default function ArticleProductCTA({ products, lang, variant = 'bottom', 
         >
           {labels.seeAll} →
         </Link>
+        <PhotoCredits photos={displayProducts.map((p) => p.visual.photo)} lang={lang} className="mt-2 text-[11px] leading-snug text-slate-500" />
         <AmazonDisclosure lang={lang} note={labels.disclosure} className="mt-2 text-xs text-slate-600" />
       </div>
     </div>

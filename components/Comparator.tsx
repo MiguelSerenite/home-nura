@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { trackAffiliateClick, trackEvent, EVENTS } from '@/lib/analytics'
 import type { ProductVisualData } from '@/lib/product-visual'
 import AmazonDisclosure from './AmazonDisclosure'
+import PhotoCredits from './PhotoCredits'
 import ProductVisual from './ProductVisual'
 
 interface ComparatorProduct {
@@ -308,6 +309,7 @@ export default function Comparator({
                 )
               })}
             </ul>
+            <PhotoCredits photos={products.map((p) => p.visual.photo)} lang={currentLang} className="px-5 py-2 text-[11px] leading-snug text-slate-500" />
           </div>
         </div>
       )}

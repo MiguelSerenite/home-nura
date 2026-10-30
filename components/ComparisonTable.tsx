@@ -4,6 +4,7 @@ import { useState, useMemo } from 'react'
 import { trackAffiliateClick } from '@/lib/analytics'
 import type { ProductVisualData } from '@/lib/product-visual'
 import AmazonDisclosure from './AmazonDisclosure'
+import PhotoCredits from './PhotoCredits'
 import ProductVisual from './ProductVisual'
 
 interface ComparisonProduct {
@@ -230,7 +231,8 @@ export default function ComparisonTable({ products, dict, lang = 'fr' }: Compari
         ))}
       </div>
 
-      <AmazonDisclosure lang={lang} className="mt-6 text-center text-xs text-slate-500" />
+      <PhotoCredits photos={sorted.map((p) => p.visual.photo)} lang={lang} className="mt-6 text-center text-[11px] leading-snug text-slate-500" />
+      <AmazonDisclosure lang={lang} className="mt-2 text-center text-xs text-slate-500" />
     </section>
   )
 }

@@ -6,6 +6,8 @@
  */
 import type { Lang } from '@/lib/i18n'
 import { getArticleRecommendations } from '@/lib/blog/article-products'
+import { productPhoto } from '@/lib/product-images'
+import type { ProductPhoto } from '@/lib/product-photo'
 
 interface QuickAnswerData {
   question: Record<Lang, string>
@@ -6120,7 +6122,8 @@ export const QUICK_ANSWERS: Record<string, QuickAnswerData> = {
 
 export interface QuickAnswer {
   question: string
-  picks: { model: string; role: string; why: string; url: string }[]
+  /** `photo`: the manufacturer's official photo, when data/product-images.json has one. */
+  picks: { model: string; role: string; why: string; url: string; photo?: ProductPhoto }[]
 }
 
 /** Localized verdict with each pick linked to amazon.fr (see lib/amazon.ts). */
@@ -6131,11 +6134,11 @@ export function getQuickAnswer(article: { slug: string; pillar: string }, lang: 
   // Picks name catalog products by their French title; titles are
   // localized, so match on the ASIN to resolve them in every locale.
   const frRec = getArticleRecommendations(article, 'fr')
-  const resolve = (model: string): { model: string; url: string } | undefined => {
+  const resolve = (model: string): { model: string; url: string; asin?: string } | undefined => {
     if (rec?.kind === 'catalog' && frRec?.kind === 'catalog') {
       const asin = frRec.products.find((p) => p.title === model)?.asin
       const product = rec.products.find((p) => p.asin === asin)
-      return product && { model: product.title, url: product.url }
+      return product && { model: product.title, url: product.url, asin: product.asin }
     }
     if (rec?.kind === 'models') {
       const link = rec.models.find((m) => m.name === model)
@@ -6145,7 +6148,9 @@ export function getQuickAnswer(article: { slug: string; pillar: string }, lang: 
   }
   const picks = data.picks.flatMap((pick) => {
     const resolved = resolve(pick.model)
-    return resolved ? [{ ...resolved, role: pick.role[lang], why: pick.why[lang] }] : []
+    if (!resolved) return []
+    const photo = productPhoto({ asin: resolved.asin, name: pick.model }, lang)
+    return [{ model: resolved.model, url: resolved.url, role: pick.role[lang], why: pick.why[lang], ...(photo ? { photo } : {}) }]
   })
   return picks.length >= 2 ? { question: data.question[lang], picks } : null
 }
