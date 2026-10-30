@@ -56,6 +56,28 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
       { question: "Kan ik een keukenapparaat op een slimme stekker aansluiten?", answer: "Ja, mits de slimme stekker een hoger vermogen aankan dan het apparaat verbruikt; dat staat in watt op het typeplaatje. Zware verbruikers zoals waterkokers en airfryers hebben vaak een stekker van 16 A nodig. Laat een verwarmend apparaat nooit zonder toezicht draaien, ook niet als je het op afstand bedient." },
       { question: "Multicooker of slowcooker: welke kies ik?", answer: "Een multicooker is veelzijdiger: hij combineert meestal snelkoken onder druk, langzaam garen, aanbraden en stomen in één pan, terwijl een slowcooker alleen rustig gedurende uren gaart. Kies een multicooker voor snelle, gevarieerde maaltijden en een slowcooker als je vooral stoofgerechten maakt en minder wilt uitgeven." },
     ],
+    pl: [
+      {
+        question: "Czy frytkownica beztłuszczowa zużywa mniej prądu niż piekarnik?",
+        answer: "Tak, przy małych i średnich porcjach frytkownica beztłuszczowa zwykle zużywa mniej energii niż klasyczny piekarnik, bo jej niewielka komora szybko się nagrzewa i wymaga krótkiego podgrzewania. Przy dużej ilości jedzenia lub obszernym daniu lepszy pozostaje piekarnik. Sprawdź moc w watach w karcie produktu i porównaj ją z rzeczywistym czasem gotowania.",
+      },
+      {
+        question: "Jaką pojemność frytkownicy beztłuszczowej wybrać dla rodziny?",
+        answer: "Przyjmij około 3–4 litrów dla jednej–dwóch osób i 5–6 litrów dla rodziny z trójką lub czwórką domowników. Przy większych potrzebach model z dwiema szufladami pozwala przyrządzać dwa produkty jednocześnie. Zbyt mały kosz zmusza do gotowania na raty, co niweluje oszczędność czasu i energii.",
+      },
+      {
+        question: "Czy inteligentne urządzenie kuchenne potrzebuje Wi-Fi do działania?",
+        answer: "Nie, większość inteligentnych urządzeń kuchennych można obsługiwać także ręcznie; Wi-Fi służy głównie do przepisów krok po kroku, powiadomień i aktualizacji. Przed zakupem sprawdź, co działa offline, i przeczytaj politykę prywatności aplikacji, bo przesyłane dane podlegają RODO.",
+      },
+      {
+        question: "Czy można podłączyć urządzenie kuchenne do inteligentnej wtyczki?",
+        answer: "Tak, pod warunkiem że inteligentna wtyczka obsługuje moc wyższą niż urządzenie, podaną w watach na jego tabliczce znamionowej. Urządzenia o dużym poborze, takie jak czajniki czy frytkownice beztłuszczowe, często wymagają wtyczki 16 A. Nie zostawiaj urządzenia grzewczego bez nadzoru, nawet jeśli sterujesz nim zdalnie.",
+      },
+      {
+        question: "Multicooker czy wolnowar: co wybrać?",
+        answer: "Multicooker jest bardziej uniwersalny: zwykle łączy gotowanie pod ciśnieniem, powolne duszenie, smażenie i gotowanie na parze w jednym naczyniu, a wolnowar potrafi tylko gotować powoli. Jeśli gotujesz szybko i różnorodnie, wybierz multicooker; jeśli zależy Ci wyłącznie na daniach duszonych, wystarczy wolnowar, który kosztuje mniej.",
+      },
+    ],
   },
   "energie-domotique": {
     fr: [
@@ -99,6 +121,28 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
       { question: "Zijn plug-in balkonzonnepanelen legaal in Europa?", answer: "In veel Europese landen wel, binnen vermogensgrenzen die per land verschillen; in Duitsland is de gangbare grens bijvoorbeeld 800 W aan omvormerzijde. Controleer de lokale regels, een eventuele meldplicht bij je netbeheerder en of de omvormer aan Europese normen voldoet." },
       { question: "Hoe ontdek ik welke apparaten het meeste stroom verbruiken?", answer: "Steek verdachte apparaten in een slimme stekker met verbruiksmeting, die live watt en opgetelde kilowattuur toont. Voor een overzicht van het hele huis meet een energiemeter met tang in de meterkast het totaal. Kies een stekker in Europees formaat met een geschikte maximale belasting." },
       { question: "Is een thuisbatterij zinvol bij balkonzonnepanelen?", answer: "Vooral zinvol als je panelen overdag meer opwekken dan je verbruikt en je 's avonds meer stroom gebruikt. Zonder regelmatig overschot wordt de batterij nauwelijks benut. Vergelijk de capaciteit in kWh met je avondverbruik en controleer de compatibiliteit met de omvormer vóór aankoop." },
+    ],
+    pl: [
+      {
+        question: "Czy potrzebny jest hub do urządzeń zgodnych z Matter?",
+        answer: "Nie zawsze: urządzenie Matter działające przez Wi-Fi współpracuje ze zgodnym kontrolerem, takim jak HomePod, głośnik Google lub Alexa. Urządzenia Matter w technologii Thread wymagają routera granicznego Thread, często wbudowanego w te same głośniki. Sprawdź zgodność swojego ekosystemu, zanim kupisz osobny hub.",
+      },
+      {
+        question: "Czy inteligentny termostat naprawdę pozwala oszczędzać na ogrzewaniu?",
+        answer: "Tak, może zmniejszyć zużycie, programując temperaturę według Twojego rozkładu dnia i wyłączając ogrzewanie pod Twoją nieobecność, ale oszczędność zależy od izolacji mieszkania i Twoich nawyków. Sprawdź zgodność z kotłem lub grzejnikami i wybierz model, który potrafi sterować każdym pomieszczeniem osobno.",
+      },
+      {
+        question: "Czy zestawy fotowoltaiczne na balkon są dozwolone w Europie?",
+        answer: "W wielu krajach europejskich tak, w granicach mocy, które różnią się w zależności od kraju; w Niemczech na przykład typowy limit to 800 W po stronie falownika. Sprawdź lokalne przepisy, ewentualne obowiązki zgłoszenia do operatora sieci oraz to, czy falownik ma certyfikat zgodny z normami europejskimi.",
+      },
+      {
+        question: "Jak sprawdzić, które urządzenia w moim domu zużywają najwięcej prądu?",
+        answer: "Podłącz podejrzane urządzenia do inteligentnej wtyczki z pomiarem zużycia, która pokazuje waty w czasie rzeczywistym i skumulowane kilowatogodziny. Aby zobaczyć cały dom, licznik energii z cęgami zamontowany w rozdzielnicy mierzy pobór całego budynku. Wybierz wtyczkę w standardzie europejskim o maksymalnej mocy dopasowanej do urządzenia.",
+      },
+      {
+        question: "Czy domowy magazyn energii ma sens z panelami fotowoltaicznymi na balkon?",
+        answer: "Ma sens głównie wtedy, gdy Twoja produkcja przekracza zużycie w ciągu dnia, a więcej energii zużywasz wieczorem. Bez regularnej nadwyżki magazyn jest mało wykorzystywany. Porównaj jego pojemność w kWh ze swoim wieczornym zużyciem i przed zakupem sprawdź zgodność z falownikiem.",
+      },
     ],
   },
   "securite-maison": {
@@ -144,6 +188,28 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
       { question: "Heb ik professionele bewaking nodig bij een slim alarmsysteem?", answer: "Nee, professionele bewaking is optioneel: een slim alarmsysteem kan zonder abonnement meldingen naar je telefoon sturen en een sirene laten klinken. Een alarmcentrale zorgt voor menselijke opvolging, maar kost maandelijks geld. Kies op basis van of je zelf betrouwbaar op meldingen kunt reageren." },
       { question: "Waar plaats ik rook- en koolmonoxidemelders?", answer: "Plaats een rookmelder in gangen naar slaapkamers en op elke verdieping, en een CO-melder in de buurt van verbrandingstoestellen en slaapkamers. Kies modellen met certificering volgens EN 14604 voor rook en EN 50291 voor koolmonoxide, bij voorkeur koppelbaar zodat alle melders tegelijk afgaan." },
     ],
+    pl: [
+      {
+        question: "Która kamera monitoringu działa bez abonamentu?",
+        answer: "Kamery nagrywające lokalnie, na karcie microSD, rejestratorze lub domowej stacji bazowej, działają bez abonamentu. Przechowywanie w chmurze jest zwykle płatne lub ograniczone. Sprawdź też, czy kamera obsługuje otwarte protokoły, takie jak ONVIF lub RTSP, i wybieraj lokalny zapis, aby lepiej kontrolować swoje dane w świetle RODO.",
+      },
+      {
+        question: "Czy wolno filmować kamerą otoczenie własnego domu?",
+        answer: "Co do zasady kamera powinna obejmować wyłącznie Twoją posesję, bez kadrowania drogi publicznej i sąsiadów, ponieważ RODO i przepisy krajowe regulują rejestrowanie obrazu. Szczegółowe zasady różnią się w zależności od kraju: zasięgnij informacji w lokalnym organie ochrony danych i odpowiednio ustaw kąt kamery.",
+      },
+      {
+        question: "Czy inteligentny zamek jest bezpieczny i co się stanie, gdy bateria się rozładuje?",
+        answer: "Dobry inteligentny zamek ostrzega na długo przed rozładowaniem baterii i zachowuje klucz mechaniczny lub awaryjny kod do otwarcia drzwi. Sprawdź, czy pasuje do Twojej europejskiej wkładki, czy działa przez Bluetooth także bez Wi-Fi i czy komunikacja jest szyfrowana.",
+      },
+      {
+        question: "Czy do inteligentnego alarmu potrzebny jest monitoring całodobowy?",
+        answer: "Nie, monitoring przez profesjonalne centrum jest opcjonalny: inteligentny alarm może wysyłać powiadomienia na telefon i uruchamiać syrenę bez abonamentu. Monitoring dodaje reakcję człowieka, ale wiąże się z miesięcznym kosztem. Wybierz zależnie od tego, czy możesz sam reagować na alerty.",
+      },
+      {
+        question: "Gdzie zainstalować czujnik dymu i tlenku węgla?",
+        answer: "Zamontuj czujnik dymu na korytarzach prowadzących do sypialni i po jednym na każdym piętrze, a czujnik czadu w pobliżu urządzeń spalających paliwo i sypialni. Wybieraj modele zgodne z normami EN 14604 dla dymu i EN 50291 dla CO oraz takie, które można ze sobą połączyć, aby wszystkie alarmy dzwoniły jednocześnie.",
+      },
+    ],
   },
   "confort-air": {
     fr: [
@@ -187,6 +253,28 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
       { question: "Helpen luchtreinigers echt tegen allergieën?", answer: "Ja, een luchtreiniger met echt HEPA-filter vermindert pollen, huisdierhaar en een deel van het zwevende stof. Hij vervangt ventileren en schoonmaken niet. Let op de filterklasse (H13 of hoger), een luchtverversingscapaciteit (CADR) die bij de kamer past en de kosten van vervangingsfilters." },
       { question: "Welke luchtreiniger heb ik nodig voor mijn kamer?", answer: "Kies een luchtreiniger waarvan de CADR (in m³/u) bij de kamer past; als vuistregel een CADR van minstens tweederde van de vloeroppervlakte in m² bij standaard plafondhoogte. Kies bij allergieën hoger. Check ook het geluidsniveau in de nachtstand." },
       { question: "Zijn mobiele airco's efficiënt?", answer: "Mobiele airco's koelen zonder installatie, maar zijn minder efficiënt dan een vaste split-unit, vooral modellen met één slang die kamerlucht naar buiten zuigen. Bekijk het EU-energielabel voor klasse en koelvermogen. Een model met twee slangen, een goed afgesloten raamkit en een timer verlagen het verbruik." },
+    ],
+    pl: [
+      {
+        question: "Czy osuszacz powietrza zużywa dużo prądu?",
+        answer: "Nie, osuszacz ze sprężarką zwykle pobiera 200–400 W, czyli około 0,2–0,4 kWh na godzinę pracy. Nie pracuje bez przerwy, jeśli higrostat jest ustawiony na 50–55%. Porównaj waty, litry wody usuwane na dobę i obecność automatycznego wyłącznika; modele adsorpcyjne zużywają więcej.",
+      },
+      {
+        question: "Jaka wilgotność jest idealna w domu?",
+        answer: "Wilgotność 40–60% jest zwykle uznawana za komfortową i zdrową w mieszkaniu. Poniżej tego poziomu powietrze podrażnia drogi oddechowe, powyżej rozwijają się pleśń i roztocza. Higrometr lub inteligentna stacja pogodowa pozwala śledzić wartość w każdym pomieszczeniu i uruchamiać nawilżacz lub osuszacz powietrza.",
+      },
+      {
+        question: "Czy oczyszczacz powietrza jest skuteczny przy alergii?",
+        answer: "Tak, oczyszczacz z filtrem HEPA zmniejsza ilość pyłków, sierści zwierząt i części unoszącego się kurzu. Nie zastępuje wietrzenia ani sprzątania. Sprawdź klasę filtra (H13 lub wyższą), wydajność oczyszczania powietrza (CADR) dopasowaną do pomieszczenia oraz koszt wymiany filtrów.",
+      },
+      {
+        question: "Jaką moc oczyszczacza powietrza wybrać do mojego pokoju?",
+        answer: "Wybierz oczyszczacz, którego wydajność (CADR, w m³/h) odpowiada powierzchni pomieszczenia; powszechna reguła to CADR co najmniej równy dwóm trzecim powierzchni w m² przy standardowej wysokości sufitu. Przy alergiach celuj wyżej. Sprawdź też poziom hałasu w trybie nocnym.",
+      },
+      {
+        question: "Czy klimatyzator przenośny jest skuteczny i ekonomiczny?",
+        answer: "Klimatyzator przenośny schładza pomieszczenie bez montażu, ale jest mniej wydajny niż stały split, zwłaszcza modele jednowężowe, które zasysają powietrze z pomieszczenia. Zajrzyj do europejskiej etykiety energetycznej: liczą się klasa i moc chłodnicza. Model dwuwężowy, dobrze uszczelnione okno i programator ograniczają zużycie.",
+      },
     ],
   },
   "entretien-maison": {
@@ -232,6 +320,28 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
       { question: "LiDAR of camera: welke navigatie is beter voor een robotstofzuiger?", answer: "LiDAR brengt snel een kaart in kaart en werkt ook in het donker, dus is een goede basiskeuze; een camera herkent sommige obstakels, zoals kabels of sokken, beter. Veel modellen combineren beide. Check verboden zones en het opslaan van meerdere verdiepingen." },
       { question: "Zijn ruitenreinigingsrobots veilig en effectief?", answer: "Ja, een ruitenreinigingsrobot reinigt glad glas zelfstandig, mits hij met een veiligheidskoord is vastgezet en een noodaccu heeft voor stroomuitval. Voor erg vuil glas of dikke kozijnen is hij minder geschikt. Check de minimale ruitgrootte, zuigkracht en randdetectie." },
     ],
+    pl: [
+      {
+        question: "Czy robot odkurzający sprawdza się przy zwierzętach?",
+        answer: "Tak, robot odkurzający bardzo się przydaje przy psach i kotach, bo sprząta codziennie i ogranicza gromadzenie się sierści. Wybierz szczotkę odporną na plątanie, pojemnik o dużej pojemności i dobrą siłę ssania. Model ze stacją samoopróżniającą ogranicza obsługę; pamiętaj, by regularnie opróżniać lub czyścić szczotkę i filtr.",
+      },
+      {
+        question: "Czy robot sprzątający z mopem naprawdę dobrze myje?",
+        answer: "Robot 2 w 1 dobrze utrzymuje twarde podłogi na co dzień, ale nie zastąpi ręcznego szorowania zaschniętych plam. Nowsze modele z obrotowym mopem lub stacją, która pierze i suszy nakładkę, radzą sobie lepiej. Sprawdź, czy robot unosi mopa na dywanach.",
+      },
+      {
+        question: "Czy robot odkurzający z kamerą jest bezpieczny dla prywatności?",
+        answer: "Robot z kamerą może szanować prywatność, jeśli obrazy nie opuszczają urządzenia albo kontrolujesz ich wysyłanie. Wybierz model z nawigacją LiDAR, bez kamery, lub taki, w którym kamerę można wyłączyć, oraz markę, która jasno opisuje przetwarzanie danych zgodnie z RODO. Zabezpiecz konto unikalnym hasłem.",
+      },
+      {
+        question: "LiDAR czy kamera: jaką nawigację wybrać dla robota odkurzającego?",
+        answer: "LiDAR szybko mapuje i działa nawet w ciemności, więc to dobry wybór domyślny; kamera lepiej rozpoznaje niektóre przeszkody, jak kable czy skarpetki. Wiele modeli łączy obie technologie. Sprawdź możliwość tworzenia stref zakazanych i zapisywania map kilku pięter.",
+      },
+      {
+        question: "Czy robot do mycia okien jest bezpieczny i skuteczny?",
+        answer: "Tak, robot do mycia okien samodzielnie czyści gładką szybę, pod warunkiem że jest zabezpieczony linką i ma awaryjną baterię na wypadek przerwy w dostawie prądu. Gorzej nadaje się do bardzo brudnych szyb lub grubych ram. Sprawdź minimalny rozmiar szyby, przyczepność i wykrywanie krawędzi.",
+      },
+    ],
   },
   "outdoor-connecte": {
     fr: [
@@ -276,6 +386,28 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
       { question: "Is slimme zonneverlichting voor buiten de moeite waard?", answer: "Ja, ze heeft geen bedrading nodig en werkt goed in een zonnige tuin, maar in de winter neemt de looptijd in Noord-Europa af. Check de accucapaciteit, het paneel, de IP-klasse en of er een bewegingssensor bij zit. Verbonden modellen hebben goed wifi- of Zigbee-bereik nodig." },
       { question: "Reinigt een zwembadrobot echt zonder toezicht?", answer: "Ja, een zwembadrobot reinigt bodem, wanden en waterlijn zelfstandig, maar je moet het filter regelmatig legen. Kies op basis van vorm en grootte van het bad, fijne filtratie en looptijd. Draadloze modellen zijn handig, maar moeten worden opgeladen." },
     ],
+    pl: [
+      {
+        question: "Czy robot koszący potrzebuje przewodu granicznego?",
+        answer: "Nie, coraz więcej robotów koszących działa bez przewodu granicznego dzięki GPS/RTK lub systemowi wizyjnemu, choć przewód pozostaje najlepiej sprawdzoną metodą. Model bez przewodu oszczędza instalacji, pod warunkiem że ma dobry widok na niebo lub skuteczny system wizyjny. Sprawdź obsługę nachyleń, maksymalną powierzchnię i strefy zakazane.",
+      },
+      {
+        question: "Czy robot koszący może bezpiecznie kosić w nocy?",
+        answer: "Lepiej unikać koszenia nocą, bo zwierzęta, takie jak jeże, mogą zostać zranione przez noże. Zaprogramuj robota na dzień albo wybierz model z wykrywaniem przeszkód i mało agresywnymi nożami. Kod PIN i alarm antykradzieżowy zmniejszają ryzyko kradzieży.",
+      },
+      {
+        question: "Czy inteligentne nawadnianie pozwala oszczędzać wodę?",
+        answer: "Tak, inteligentny sterownik nawadniania może ograniczyć marnowanie wody, dostosowując cykle do pogody, deszczu lub wilgotności gleby. Oszczędność zależy od dokładności ustawień i jakości instalacji. Sprawdź liczbę stref, zgodność z kranem lub zaworem elektromagnetycznym oraz obsługę Matter lub asystenta głosowego.",
+      },
+      {
+        question: "Czy inteligentne solarne oświetlenie zewnętrzne się opłaca?",
+        answer: "Tak, nie wymaga okablowania i dobrze działa w słonecznym ogrodzie, ale zimą czas pracy spada w północnej Europie. Sprawdź pojemność baterii, moc panelu, stopień ochrony IP i możliwość dodania czujnika ruchu. Modele inteligentne wymagają dobrego zasięgu Wi-Fi lub Zigbee.",
+      },
+      {
+        question: "Czy robot basenowy naprawdę czyści bez ingerencji?",
+        answer: "Tak, robot basenowy samodzielnie czyści dno, ściany i linię wody, ale trzeba regularnie opróżniać filtr. Wybieraj według kształtu i rozmiaru basenu, dokładności filtracji i czasu pracy. Modele bezprzewodowe są wygodne, ale wymagają ładowania baterii.",
+      },
+    ],
   },
 }
 
@@ -286,6 +418,7 @@ export const SILO_FAQ_TITLE: Record<Lang, string> = {
   es: 'Preguntas frecuentes',
   it: 'Domande frequenti',
   nl: 'Veelgestelde vragen',
+  pl: 'Najczęstsze pytania',
 }
 
 export function getSiloFaq(lang: Lang, siloSlug: string): readonly SiloFaqItem[] {

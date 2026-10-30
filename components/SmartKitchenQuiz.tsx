@@ -225,6 +225,38 @@ const dicts: Record<string, QuizDict> = {
     restart: 'Quiz herstarten',
     skip: 'Deze stap overslaan',
   },
+  pl: {
+    step: 'Krok',
+    of: 'z',
+    q1: 'Co najbardziej utrudnia Ci dziś pracę w kuchni?',
+    q2: 'Jak często gotujesz w domu?',
+    options1: [
+      { value: 'time', label: 'Brak czasu', emoji: '⏱️' },
+      { value: 'precision', label: 'Precyzja i wypieki', emoji: '⚖️' },
+      { value: 'monitoring', label: 'Kontrola długiego gotowania', emoji: '🌡️' },
+      { value: 'automation', label: 'Rutyny i automatyzacja', emoji: '☕' },
+      { value: 'safety', label: 'Bezpieczeństwo i zużycie prądu', emoji: '🔌' },
+    ],
+    options2: [
+      { value: 'daily', label: 'Codziennie', emoji: '🍳' },
+      { value: 'often', label: '3–5 razy w tygodniu', emoji: '🍽️' },
+      { value: 'weekends', label: 'Głównie w weekendy', emoji: '📅' },
+      { value: 'rarely', label: 'Rzadko', emoji: '🥡' },
+    ],
+    resultKicker: 'Nasza rekomendacja',
+    resultTitle: (cat) => `Zacznij od: ${cat}`,
+    resultWhy: {
+      time: 'Inteligentny multicooker oddaje Ci godzinę dziennie przy długim gotowaniu: uruchamiasz go, on pilnuje potrawy, a Ty wracasz, gdy jest gotowa.',
+      precision: 'Inteligentna waga kuchenna zamienia pieczenie w precyzyjną naukę: dokładność do 0,1 g, prowadzenie krok po kroku w aplikacji, automatyczne przeliczanie jednostek.',
+      monitoring: 'Bezprzewodowy termometr oszczędza Ci otwierania piekarnika lub grilla: sonda zostaje w mięsie, a powiadomienie o osiągnięciu temperatury wewnątrz dostajesz na telefon.',
+      automation: 'Inteligentny ekspres do kawy rusza, zanim się obudzisz — 5 minut zysku każdego ranka, 30 godzin w roku. Komfort staje się policzalny.',
+      safety: 'Inteligentna wtyczka mierzy zużycie energii przez duże urządzenia i zdalnie odcina zapomniane żelazko lub ekspres do kawy. Bezpieczeństwo i oszczędność.',
+    },
+    ctaSeeAll: 'Zobacz wszystkie modele',
+    ctaBuy: 'Sprawdź cenę na Amazon',
+    restart: 'Zrób quiz ponownie',
+    skip: 'Pomiń ten krok',
+  },
 }
 
 const painToCategory: Record<PainPoint, SmartKitchenCategory> = {
@@ -238,23 +270,23 @@ const painToCategory: Record<PainPoint, SmartKitchenCategory> = {
 const categoryLabels: Record<SmartKitchenCategory, Record<string, string>> = {
   multicuiseurs: {
     fr: 'Multicuiseurs connectés', en: 'Smart multicookers', de: 'Smarte Multikocher',
-    es: 'Ollas multicocción conectadas', it: 'Multicottura connesse', nl: 'Slimme multicookers',
+    es: 'Ollas multicocción conectadas', it: 'Multicottura connesse', nl: 'Slimme multicookers', pl: 'Inteligentne multicookery',
   },
   cafetieres: {
     fr: 'Cafetières connectées', en: 'Smart coffee machines', de: 'Smarte Kaffeemaschinen',
-    es: 'Cafeteras conectadas', it: 'Macchine da caffè connesse', nl: 'Slimme koffiemachines',
+    es: 'Cafeteras conectadas', it: 'Macchine da caffè connesse', nl: 'Slimme koffiemachines', pl: 'Inteligentne ekspresy do kawy',
   },
   balances: {
     fr: 'Balances connectées', en: 'Smart scales', de: 'Smarte Waagen',
-    es: 'Básculas conectadas', it: 'Bilance connesse', nl: 'Slimme weegschalen',
+    es: 'Básculas conectadas', it: 'Bilance connesse', nl: 'Slimme weegschalen', pl: 'Inteligentne wagi kuchenne',
   },
   'thermometres-viande': {
     fr: 'Thermomètres à viande', en: 'Meat thermometers', de: 'Fleischthermometer',
-    es: 'Termómetros de carne', it: 'Termometri per carne', nl: 'Vleesthermometers',
+    es: 'Termómetros de carne', it: 'Termometri per carne', nl: 'Vleesthermometers', pl: 'Termometry do mięsa',
   },
   'prises-connectees': {
     fr: 'Prises connectées', en: 'Smart plugs', de: 'Smarte Steckdosen',
-    es: 'Enchufes conectados', it: 'Prese connesse', nl: 'Slimme stekkers',
+    es: 'Enchufes conectados', it: 'Prese connesse', nl: 'Slimme stekkers', pl: 'Inteligentne wtyczki',
   },
 }
 

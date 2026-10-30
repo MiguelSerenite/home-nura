@@ -135,4 +135,26 @@ export const THERMOSTATS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
       },
     ],
   },
+  pl: {
+    name: 'Termostaty i głowice termostatyczne',
+    h1: `Black Friday ${Y}: inteligentne termostaty, które warto mieć na oku`,
+    metaTitle: `Black Friday ${Y}: inteligentne termostaty`,
+    metaDescription: `Inteligentne termostaty i głowice termostatyczne na Black Friday ${Y} (tado, Netatmo, Honeywell) oraz zgodność, którą warto sprawdzić.`,
+    blurb: 'tado, Netatmo, Honeywell: najpierw zgodność z kotłem lub pompą ciepła.',
+    intro: 'Inteligentny termostat ma sens tylko wtedy, gdy współpracuje z twoim ogrzewaniem. Przed każdą promocją sprawdź typ instalacji (kocioł, pompa ciepła, grzejniki wodne), a w przypadku pompy ciepła także sposób jej sterowania: styk włącz/wyłącz lub OpenTherm.',
+    faq: [
+      {
+        question: 'Termostat czy inteligentne głowice termostatyczne?',
+        answer: 'Termostat steruje kotłem lub pompą ciepła w całym mieszkaniu. Głowice termostatyczne montuje się na grzejnikach wodnych i regulują każde pomieszczenie osobno; oba rozwiązania można łączyć.',
+      },
+      {
+        question: 'Czy inteligentny termostat działa z pompą ciepła?',
+        answer: 'Tak, jeśli jest zgodny z jej sterowaniem: włącz/wyłącz w większości modeli, OpenTherm w niektórych. tado Heat Pump Optimizer X łączy się bezpośrednio z kilkoma markami pomp ciepła.',
+      },
+      {
+        question: 'Czy montaż jest skomplikowany?',
+        answer: 'Głowice termostatyczne zamontujesz bez narzędzi na większości grzejników. Termostat przewodowy zastępuje stary; jeśli masz wątpliwości co do okablowania kotła lub pompy ciepła, skorzystaj z pomocy fachowca.',
+      },
+    ],
+  },
 }

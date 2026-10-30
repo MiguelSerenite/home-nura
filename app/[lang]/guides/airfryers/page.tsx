@@ -491,6 +491,80 @@ const guideContent: Record<string, {
     ],
     verdict_title: 'Ons Uiteindelijk Oordeel',
     verdict_text: 'Een airfryer vertegenwoordigt intelligente investering voor elk Nederlands huishouden dat gezondheid, gemak en energiëfficiëntie waardeert. Met capaciteit aangepast aan je huishoudgrootte, voldoende vermogen (minimaal 1400W) en essentiële functies eerder dan onnodige extra\'s, transformeert een airfryer fundamentaal je dagelijkse kookbenadering. Huisgemaakte frieten evenaren traditionele frituurversies maar bakken twee minuten sneller en zonder aanhoudende geuren. Groenten worden genuinely heerlijk wanneer luchtgebakken. Voorbereidsingstijden dalen dramatisch. Over vijf jaar eigenaarschap spaar je meer dan 140€ in elektriciteit en kookolie. Zeker, een airfryer vervangt een traditionele oven niet volledig voor bepaalde bereidingen (grote schaal, broden, complexe gebakjes), maar wordt snel je voornaamste kooktoestel voor 70-80% van dagelijkse maaltijden. Voor Nederlandse flats met beperkte ruimte, energiebewuste gezinnen en ieder die eenvoudig, snel, genuinely goed voedsel op prijs stelt, is een airfryer een aankoop waar je geen spijt van zult hebben.'
+  },
+  pl: {
+    intro_title: 'Poznaj frytkownicę beztłuszczową',
+    intro_text: 'Frytkownica na gorące powietrze, zwana też frytkownicą beztłuszczową lub air fryer, w ostatnich latach zrewolucjonizowała domową kuchnię. Technologia ta wykorzystuje szybką cyrkulację bardzo gorącego powietrza (do 200°C), by równomiernie ugotować potrawy i uzyskać chrupiącą strukturę bez zanurzania w oleju. W 2026 roku frytkownice stały się podstawowym wyposażeniem europejskich kuchni, oferując zdrową, szybką i praktyczną alternatywę dla tradycyjnych metod gotowania. Wbrew obiegowym opiniom frytkownica nie działa na zasadzie promieniowania ani mikrofal: to mały, wydajny piekarnik z termoobiegiem. Powietrze krąży wokół potraw z ogromną prędkością, wywołując reakcję Maillarda, która tworzy tę złotą, chrupiącą skórkę. Dla rodzin oznacza to domowe frytki chrupiące w mniej niż 15 minut, złotego pieczonego kurczaka w 25 minut i idealnie skarmelizowane grillowane warzywa bez uporczywego zapachu tradycyjnego smażenia, który przez wiele godzin wypełnia kuchnię i ubrania.',
+    how_to_choose_title: 'Jak wybrać frytkownicę na gorące powietrze',
+    how_to_choose_intro: 'Na rynku frytkownic jest dziś setki opcji w cenach od 170 zł do ponad 2150 zł. Wybór odpowiedniego modelu zależy wyłącznie od Twojej sytuacji: wielkości gospodarstwa domowego, budżetu, dostępnego miejsca i rodzajów potraw, które chcesz przygotowywać. Oto kompletny przewodnik, który ułatwi tę ważną decyzję.',
+    capacity_title: 'Pojemność: czynnik decydujący',
+    capacity_text: 'Pojemność jest prawdopodobnie najważniejszym kryterium przy zakupie frytkownicy, ponieważ bezpośrednio decyduje o tym, co możesz przygotować. Dla jednej osoby lub pary w zupełności wystarczy frytkownica o pojemności 2–3 litrów (około 1,2–1,8 kg frytek). Takie kompaktowe modele, często nazywane frytkownicami jednoosobowymi, zajmują mało miejsca na blacie i zużywają mniej prądu. Tefal i Moulinex proponują doskonałe modele w tej kategorii, idealne do małych kuchni. Dla rodziny trzy- lub czteroosobowej wybierz pojemność 4–5 litrów (2–3 kg). Takie frytkownice zapewniają świetny stosunek wygody do zużycia energii. Przygotujesz w nich całego kurczaka, frytki dla całej rodziny, a nawet kilka porcji jednocześnie. Dla dużej rodziny pięciu osób lub więcej zainwestuj we frytkownicę 6–8 litrów albo wybierz model z dwiema komorami. Duże modele Philips i Cosori oferują taką pojemność przy rozsądnych wymiarach. Frytkownice powyżej 9 litrów (kategoria „maxi”) nadają się głównie do restauracji lub gospodarstw domowych, które regularnie gotują dla wielu osób. Warto pamiętać, że rzeczywista użyteczna pojemność to zazwyczaj 80–90% deklarowanej pojemności całkowitej, ponieważ trzeba zostawić miejsce na cyrkulację powietrza.',
+    power_title: 'Moc i technologia grzania',
+    power_text: 'Moc wyrażona w watach (W) bezpośrednio wpływa na szybkość gotowania i zdolność do prawidłowego obsmażania potraw. Większość nowoczesnych frytkownic pobiera od 800 W do 2000 W. Model o mocy 1200–1500 W to dobry kompromis do standardowego użytku domowego. Modele z wyższej półki, zwłaszcza frytkownice profesjonalne lub półprofesjonalne, mogą osiągać 2200 W lub więcej, co daje znacznie szybsze gotowanie i lepszą równomierność. Szukaj frytkownic z technologią Rapid Air lub jej odpowiednikami, takimi jak konwekcja dwustrefowa. Tefal i Moulinex stosują własny system zoptymalizowanej cyrkulacji powietrza, a Philips zapowiada technologię QuickCook do ultraszybkiego nagrzewania. Niektóre modele z wyższej półki mają podwójne elementy grzejne (górny i dolny), a nawet cztery strefy grzania, co zapewnia bardziej równomierne gotowanie, zwłaszcza istotne przy produktach o różnej wielkości. Dla rodzin regularnie gotujących minimalna moc 1400 W gwarantuje rozsądne czasy gotowania nawet przy pełnym załadunku.',
+    features_title: 'Funkcje i łączność',
+    features_text: 'Nowoczesne frytkownice oferują znacznie więcej niż proste ręczne sterowanie. Najlepsze modele mają od 10 do 50 zaprogramowanych programów dla różnych potraw: frytek, skrzydełek z kurczaka, grillowanych warzyw, pączków, suszenia owoców i wielu innych. Programy te eliminują błędy, automatycznie ustawiając optymalną temperaturę i czas. Łączność Wi-Fi i aplikacje mobilne stają się w 2026 roku coraz powszechniejsze. Dzięki dedykowanej aplikacji możesz uruchomić gotowanie zdalnie, śledzić postęp i otrzymywać powiadomienia, gdy posiłek jest gotowy. Jest to szczególnie przydatne w zapracowanych domach, gdzie domownicy wracają o różnych porach. Łączność podnosi jednak cenę średnio o 200–650 zł. Dla użytkowników pragmatycznych w zupełności wystarczy prosty panel dotykowy z wyświetlaczem LED i programowalnym timerem. Modele z funkcją podtrzymywania ciepła świetnie sprawdzają się przy podawaniu posiłków o różnych porach. Sprawdź też, czy urządzenie ma programy szybkiego nagrzewania oraz funkcję zapisywania własnych programów do ulubionych przepisów.',
+    materials_title: 'Materiały i jakość wykonania',
+    materials_text: 'Frytkownica to inwestycja, która przy odpowiedniej konserwacji powinna służyć 5–8 lat. Kluczowe znaczenie mają zastosowane materiały. Wewnętrzny kosz do gotowania powinien być pokryty bezpieczną i trwałą powłoką nieprzywierającą, najlepiej bez PTFE i BPA, a przynajmniej z europejskimi certyfikatami bezpieczeństwa (CE). Najlepsze marki stosują powłoki ceramiczne lub powłoki na bazie wody, które dłużej się nie łuszczą. Obudowa zewnętrzna musi być solidna: ze stali nierdzewnej lub tworzywa odpornego na wysoką temperaturę. Stal nierdzewna jest trwalsza, ale cięższa i zwykle droższa. Tworzywo spożywcze odporne na ciepło (ABS) jest do przyjęcia, jeśli jest odpowiednio grube i pochodzi od renomowanych producentów. Uchwyty powinny być ergonomiczne i izolowane termicznie, aby uniknąć poparzeń. Sprawdź, czy kosz i akcesoria można myć w zmywarce: to ogromna oszczędność czasu. Niemieckie marki, takie jak Siemens i Bosch, zazwyczaj oferują gwarancje na 3–5 lat, podczas gdy francuskie marki Tefal i Moulinex często 2–3 lata, co odzwierciedla różne strategie dotyczące trwałości.',
+    noise_title: 'Poziom hałasu',
+    noise_text: 'Czynnik często pomijany aż do zakupu: hałas. Frytkownice działają z wentylatorem o dużej prędkości, który nieuchronnie wytwarza dźwięk. Większość modeli generuje podczas gotowania od 65 do 80 decybeli (dB). Dla porównania: normalna rozmowa to około 60 dB, ruch uliczny 70 dB, a odkurzacz 75 dB. Frytkownica o poziomie 65 dB jest stosunkowo cicha jak na tego typu urządzenie, natomiast 80 dB zaczyna przeszkadzać, zwłaszcza rano lub późnym wieczorem. Niektóre modele z wyższej półki, zwłaszcza wersje „EcoMode” lub „silence” od Philips i Moulinex, obniżają hałas do 62–65 dB, nieco zmniejszając szybkość gotowania. Jeśli mieszkasz w bloku lub hałas Ci przeszkadza, warto sprawdzić konkretne poziomy hałasu przed zakupem. Gospodarstwa domowe z małymi dziećmi lub zwierzętami wrażliwymi na hałas powinny szczególnie wziąć pod uwagę ten czynnik.',
+    energy_title: 'Zużycie energii i oszczędności',
+    energy_text: 'W 2026 roku, przy cenach prądu we Francji wahających się od ok. 0,80 zł do 1,10 zł za kWh zależnie od regionu i umowy, zużycie energii przez frytkownicę staje się ważnym rachunkiem. Frytkownica o mocy 1500 W używana przez 30 minut zużywa 0,75 kWh, co kosztuje około 0,65 zł za energię elektryczną. W porównaniu z tradycyjnym piekarnikiem (2500–3500 W) używanym przez 45 minut do przygotowania tego samego posiłku, co kosztuje 0,85–1,10 zł, frytkownica jest już bardziej oszczędna. W skali roku, jeśli używasz frytkownicy 5 razy w tygodniu (średnia dla rodziny), daje to około 195 użyć rocznie, czyli 146,25 kWh rocznie, co kosztuje około 110 zł za prąd. Tradycyjny piekarnik używany nawet 3 razy w tygodniu kosztowałby 215–260 zł rocznie za energię przy tych samych efektach. Rzeczywista oszczędność dla przeciętnej rodziny wynosi 105–130 zł rocznie, plus oszczędności na oleju do smażenia (wyeliminowanie lub drastyczne ograniczenie) i zaoszczędzony czas. W ciągu 5 lat użytkowania frytkownica niemal całkowicie zwraca się dzięki tym oszczędnościom energii.',
+    mistakes_title: 'Najczęstsze błędy, których warto unikać',
+    mistakes_intro: 'Wiele osób kupuje frytkownicę z nierealistycznymi oczekiwaniami albo wykorzystuje ją zbyt rzadko, bo nie zna dobrych praktyk. Oto najczęstsze błędy nowych użytkowników i sposoby, jak ich uniknąć.',
+    mistakes: [
+      {
+        title: 'Napełnianie kosza po brzegi',
+        desc: 'Błąd numer jeden: przeładowanie kosza. Powietrze musi swobodnie krążyć wokół każdego kawałka. Napełnienie kosza po brzegi pogarsza jakość gotowania. Produkty ze środka i z dołu pozostaną miękkie, a te z góry się przypalą. Napełniaj najwyżej do około 70–80% albo w razie potrzeby przygotuj dwie partie. Frytki wymieszaj w połowie gotowania, aby upiec je równomiernie.',
+      },
+      {
+        title: 'Pomijanie nagrzewania wstępnego',
+        desc: 'W przeciwieństwie do tradycyjnych piekarników nagrzewanie frytkownicy jest szybkie: najwyżej 3–5 minut. Wielu użytkowników pomija jednak ten krok, co wydłuża czas gotowania i pogarsza strukturę potraw. Nagrzewanie wstępne tworzy stabilne środowisko cieplne, w którym reakcja Maillarda może zajść od razu.',
+      },
+      {
+        title: 'Zbyt mało lub zbyt dużo oleju',
+        desc: 'To mit: frytkownica nie jest całkowicie bezolejowa. Dodanie niewielkiej ilości oleju (1–2 łyżeczki) znacznie poprawia efekt i sprawia, że potrawy są bardziej chrupiące. Za mało oleju: sucha i blada struktura. Za dużo oleju: nadmiar tłuszczu gromadzi się na dnie. Olej w sprayu idealnie sprawdza się do równomiernego rozprowadzenia.',
+      },
+      {
+        title: 'Ignorowanie instrukcji producenta',
+        desc: 'Każda frytkownica ma nieco inne właściwości. Czasy gotowania, optymalne temperatury i ułożenie kosza się różnią. Zajrzyj do instrukcji, na początku korzystaj z sugerowanych programów, a potem dostosuj je do własnych upodobań. Producenci tacy jak Tefal i Moulinex udostępniają szczegółowe przewodniki z tabelami gotowania.',
+      },
+      {
+        title: 'Brak regularnego czyszczenia',
+        desc: 'Resztki oleju i jedzenia szybko się gromadzą. Niewyczyszczona frytkownica dymi, wydziela zapachy, a jej wydajność spada. Czyść po każdym użyciu: kosz i pojemnik na resztki w większości modeli można myć w zmywarce. Obudowę zewnętrzną wycieraj wilgotną ściereczką.',
+      },
+      {
+        title: 'Gotowanie bardzo mokrych produktów bez przygotowania',
+        desc: 'Woda i olej się nie mieszają. Jeśli rozmrażasz rybę lub kurczaka, dobrze je osusz przed gotowaniem. Nadmiar wilgoci wytwarza parę zamiast suchego ciepła potrzebnego do gotowania na powietrzu. Marynowane produkty powinny długo odsączać się przed gotowaniem.',
+      },
+    ],
+    maintenance_title: 'Konserwacja i czyszczenie dla maksymalnej trwałości',
+    maintenance_text: 'Regularna konserwacja frytkownicy decyduje o jej trwałości. Po każdym użyciu odczekaj 10–15 minut do ostygnięcia, a następnie wyjmij kosz i pojemnik na resztki. Opłucz je w letniej wodzie z detergentem lub włóż do zmywarki. Powłoka nieprzywierająca może z czasem ulec zużyciu, zwłaszcza jeśli jest intensywnie szorowana środkami ściernymi. Używaj miękkiej gąbki i łagodnych środków. Wnętrza głównej obudowy nigdy nie wolno zanurzać w wodzie. Wytrzyj wnętrze wilgotną ściereczką z odrobiną białego octu, jeśli gromadzą się resztki. Co 3–4 miesiące wyczyść górną grzałkę miękką szczotką, aby usunąć kurz. Sprawdź, czy kratki wentylacyjne nie są zatkane. Przechowuj frytkownicę w suchym miejscu, chronionym przed kurzem. Marki Tefal i Moulinex oferują specjalistyczne zestawy do czyszczenia i niedrogie zamienne kosze, gdy stary się zużyje. Dobrze konserwowana frytkownica spokojnie posłuży 7–10 lat.',
+    recipes_title: 'Popularne przepisy na start',
+    recipes_intro: 'Oto pięć niezbędnych przepisów, które pozwolą w pełni wykorzystać frytkownicę, idealnych dla rodzin odkrywających to urządzenie.',
+    recipes: [
+      {
+        title: 'Domowe chrupiące frytki',
+        desc: 'Klasyk, bez którego się nie obejdzie. Pokrój średniej wielkości ziemniaki w słupki o grubości 6–7 mm. Namocz je na 20 minut w zimnej wodzie, aby usunąć skrobię, a następnie dobrze osusz. Wymieszaj z 1 łyżeczką oleju arachidowego, solą i papryką. Smaż w 200°C przez 18–22 minuty, zależnie od wielkości. W połowie czasu wymieszaj. Efekt: złociste frytki, chrupiące na zewnątrz i miękkie w środku, bez uporczywego zapachu smażenia.',
+      },
+      {
+        title: 'Złoty pieczony kurczak',
+        desc: 'Niedzielny obiad w nowej odsłonie. Cały kurczak (1,5–2 kg) piecze się w 180°C przez 45–50 minut. Wcześniej posmaruj go miękkim masłem wymieszanym z ziołami prowansalskimi (tymianek, rozmaryn, pietruszka). Chrupiący na zewnątrz, soczysty w środku, bez typowej dla piekarnika suchości. Warzywa korzeniowe (marchew, rzepę) przygotuj na osobnej tacce.',
+      },
+      {
+        title: 'Grillowane warzywa',
+        desc: 'Cukinia, bakłażan, papryka czerwona i żółta: pokrój w równe kostki o boku 2 cm. Skrop lekko oliwą, dopraw solą i pieprzem. Smaż w 190°C przez 15–18 minut. Spektakularny efekt: warzywa miękkie w środku, lekko skarmelizowane brzegi, smak spotęgowany intensywnym suchym ciepłem. Idealny dodatek do każdego dania głównego.',
+      },
+      {
+        title: 'Krokiety z serem i szynką',
+        desc: 'Przygotowanie: 200 g beszamelu, 100 g startego sera (Emmental), 50 g posiekanej szynki, gałka muszkatołowa. Uformuj walce, zanurz w roztrzepanym jajku, a następnie obtocz w panierce (drobna bułka tarta). Schłodź przez 30 minut. Smaż w 190°C przez 12–14 minut. Efekt: złociste, chrupiące na zewnątrz, kremowe i rozpływające się w środku. Podawaj z sosem pomidorowym lub majonezem.',
+      },
+      {
+        title: 'Domowe chipsy warzywne',
+        desc: 'Pokrój cienko (2–3 mm) ziemniaki, buraki i marchew na mandolinie. Namocz na 10 minut, dobrze osusz. Skrop mieszanką oleju i soli. Smaż w 180°C przez 10–12 minut w dwóch partiach. Efekt: chipsy chrupiące jak papier, lekkie i bez nasyconych tłuszczów. Przechowuj w słoiku do podjadania.',
+      },
+    ],
+    verdict_title: 'Nasz ostateczny werdykt',
+    verdict_text: 'Frytkownica to mądra inwestycja dla każdej nowoczesnej rodziny, która ceni zdrowie, wygodę i efektywność energetyczną. Przy pojemności dopasowanej do wielkości gospodarstwa domowego, wystarczającej mocy (minimum 1400 W) i funkcjach istotnych, a nie zbędnych, frytkownica całkowicie zmienia podejście do codziennego gotowania. Domowe frytki dorównują tym smażonym w oleju, a powstają szybciej i bez natrętnego zapachu. Warzywa stają się pyszne, gdy przygotowuje się je w gorącym powietrzu. Czas przygotowania drastycznie się skraca. W ciągu pięciu lat użytkowania zaoszczędzisz ponad 430 zł na prądzie i oleju do smażenia. Owszem, frytkownica nie zastępuje całkowicie tradycyjnego piekarnika w niektórych zastosowaniach (duże ilości, chleby, złożone wypieki), ale szybko staje się głównym urządzeniem do gotowania przy 70–80% codziennych posiłków. Dla mieszkańców miast z ograniczoną przestrzenią, rodzin dbających o zużycie energii i każdego, kto lubi dobrą, prostą i szybką kuchnię, frytkownica to zakup, którego nie pożałujesz.',
   }
 }
 
@@ -645,7 +719,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       {/* SEO Guide Content - Intro (editorial opening) */}
       <section className="max-w-3xl mx-auto px-6 pt-16 pb-16 md:pt-24 md:pb-20">
         <Kicker className="mb-6">
-          {lang === 'fr' ? 'L\'Édito' : lang === 'de' ? 'Editorial' : lang === 'es' ? 'Editorial' : lang === 'it' ? 'Editoriale' : lang === 'nl' ? 'Redactioneel' : 'Editorial'}
+          {lang === 'fr' ? 'L\'Édito' : lang === 'de' ? 'Editorial' : lang === 'es' ? 'Editorial' : lang === 'it' ? 'Editoriale' : lang === 'nl' ? 'Redactioneel' : lang === 'pl' ? 'Od redakcji' : 'Editorial'}
         </Kicker>
         <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-6">{content.intro_title}</h2>
         <div className="h-[2px] w-16 bg-brand-600 mb-10"></div>
@@ -692,7 +766,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <section className="max-w-3xl mx-auto px-6 pt-16 md:pt-20 pb-10">
         <div className="text-center mb-14">
           <Kicker className="mb-5">
-            {lang === 'fr' ? 'Le Guide d\'Achat' : lang === 'de' ? 'Der Kaufratgeber' : lang === 'es' ? 'La Guía de Compra' : lang === 'it' ? 'La Guida all\'Acquisto' : lang === 'nl' ? 'De Koopgids' : 'The Buyer\'s Guide'}
+            {lang === 'fr' ? 'Le Guide d\'Achat' : lang === 'de' ? 'Der Kaufratgeber' : lang === 'es' ? 'La Guía de Compra' : lang === 'it' ? 'La Guida all\'Acquisto' : lang === 'nl' ? 'De Koopgids' : lang === 'pl' ? 'Poradnik zakupowy' : 'The Buyer\'s Guide'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">{content.how_to_choose_title}</h2>
           <div className="h-[2px] w-16 bg-brand-600 mx-auto mb-8"></div>
@@ -724,7 +798,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <section className="max-w-4xl mx-auto px-6 pt-16 pb-16 md:pt-20 md:pb-20">
         <div className="text-center mb-14">
           <Kicker variant="amber" className="mb-5">
-            {lang === 'fr' ? 'Les Pièges' : lang === 'de' ? 'Die Fallen' : lang === 'es' ? 'Las Trampas' : lang === 'it' ? 'Le Insidie' : lang === 'nl' ? 'De Valkuilen' : 'The Pitfalls'}
+            {lang === 'fr' ? 'Les Pièges' : lang === 'de' ? 'Die Fallen' : lang === 'es' ? 'Las Trampas' : lang === 'it' ? 'Le Insidie' : lang === 'nl' ? 'De Valkuilen' : lang === 'pl' ? 'Pułapki' : 'The Pitfalls'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">{content.mistakes_title}</h2>
           <div className="h-[2px] w-16 bg-amber-600 mx-auto mb-8"></div>
@@ -749,7 +823,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       {/* Maintenance Section — editorial feature */}
       <section className="max-w-3xl mx-auto px-6 pt-16 pb-16 md:pt-20 md:pb-20">
         <Kicker className="mb-6">
-          {lang === 'fr' ? 'L\'Entretien' : lang === 'de' ? 'Die Pflege' : lang === 'es' ? 'El Mantenimiento' : lang === 'it' ? 'La Manutenzione' : lang === 'nl' ? 'Het Onderhoud' : 'Maintenance'}
+          {lang === 'fr' ? 'L\'Entretien' : lang === 'de' ? 'Die Pflege' : lang === 'es' ? 'El Mantenimiento' : lang === 'it' ? 'La Manutenzione' : lang === 'nl' ? 'Het Onderhoud' : lang === 'pl' ? 'Konserwacja' : 'Maintenance'}
         </Kicker>
         <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-6">{content.maintenance_title}</h2>
         <div className="h-[2px] w-16 bg-brand-600 mb-10"></div>
@@ -760,7 +834,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <section className="max-w-5xl mx-auto px-6 pt-16 pb-16 md:pt-20 md:pb-20">
         <div className="text-center mb-14">
           <Kicker className="mb-5">
-            {lang === 'fr' ? 'Le Cahier Recettes' : lang === 'de' ? 'Das Rezeptbuch' : lang === 'es' ? 'El Recetario' : lang === 'it' ? 'Il Ricettario' : lang === 'nl' ? 'Het Receptenboek' : 'The Recipe Book'}
+            {lang === 'fr' ? 'Le Cahier Recettes' : lang === 'de' ? 'Das Rezeptbuch' : lang === 'es' ? 'El Recetario' : lang === 'it' ? 'Il Ricettario' : lang === 'nl' ? 'Het Receptenboek' : lang === 'pl' ? 'Przepisy' : 'The Recipe Book'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-5">{content.recipes_title}</h2>
           <div className="h-[2px] w-16 bg-brand-600 mx-auto mb-8"></div>
@@ -789,7 +863,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-brand-500/10 blur-3xl"></div>
           <div className="relative">
             <Kicker variant="blue-light" className="mb-6">
-              {lang === 'fr' ? 'Verdict' : lang === 'de' ? 'Urteil' : lang === 'es' ? 'Veredicto' : lang === 'it' ? 'Verdetto' : lang === 'nl' ? 'Eindoordeel' : 'Verdict'}
+              {lang === 'fr' ? 'Verdict' : lang === 'de' ? 'Urteil' : lang === 'es' ? 'Veredicto' : lang === 'it' ? 'Verdetto' : lang === 'nl' ? 'Eindoordeel' : lang === 'pl' ? 'Werdykt' : 'Verdict'}
             </Kicker>
             <h2 className="text-3xl md:text-[2.75rem] font-bold tracking-tight leading-[1.1] mb-6 max-w-2xl">{content.verdict_title}</h2>
             <div className="h-[2px] w-16 bg-brand-400 mb-8"></div>
@@ -836,7 +910,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <section className="max-w-5xl mx-auto px-6 py-16 md:py-20">
         <div className="text-center mb-14">
           <Kicker className="mb-5">
-            {lang === 'fr' ? 'La Sélection' : lang === 'de' ? 'Die Auswahl' : lang === 'es' ? 'La Selección' : lang === 'it' ? 'La Selezione' : lang === 'nl' ? 'De Selectie' : 'The Selection'}
+            {lang === 'fr' ? 'La Sélection' : lang === 'de' ? 'Die Auswahl' : lang === 'es' ? 'La Selección' : lang === 'it' ? 'La Selezione' : lang === 'nl' ? 'De Selectie' : lang === 'pl' ? 'Nasz wybór' : 'The Selection'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight leading-[1.1] text-slate-900 mb-4">{dict.section_title}</h2>
           <p className="text-base md:text-lg text-slate-500 max-w-xl mx-auto">{dict.section_subtitle}</p>
@@ -884,10 +958,10 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
       <section className="max-w-5xl mx-auto px-6 py-20 md:py-24 border-t border-slate-200">
         <div className="text-center mb-14">
           <Kicker className="mb-4">
-            {lang === 'fr' ? 'À lire aussi' : lang === 'de' ? 'Auch lesen' : lang === 'es' ? 'Leer también' : lang === 'it' ? 'Leggi anche' : lang === 'nl' ? 'Lees ook' : 'Also read'}
+            {lang === 'fr' ? 'À lire aussi' : lang === 'de' ? 'Auch lesen' : lang === 'es' ? 'Leer también' : lang === 'it' ? 'Leggi anche' : lang === 'nl' ? 'Lees ook' : lang === 'pl' ? 'Przeczytaj też' : 'Also read'}
           </Kicker>
           <h2 className="text-3xl md:text-[2.5rem] font-bold tracking-tight text-slate-900 mb-4">
-            {lang === 'fr' ? 'Guides connexes' : lang === 'de' ? 'Verwandte Ratgeber' : lang === 'es' ? 'Guías relacionadas' : lang === 'it' ? 'Guide correlate' : lang === 'nl' ? 'Gerelateerde gidsen' : 'Related Guides'}
+            {lang === 'fr' ? 'Guides connexes' : lang === 'de' ? 'Verwandte Ratgeber' : lang === 'es' ? 'Guías relacionadas' : lang === 'it' ? 'Guide correlate' : lang === 'nl' ? 'Gerelateerde gidsen' : lang === 'pl' ? 'Powiązane poradniki' : 'Related Guides'}
           </h2>
           <div className="h-[2px] w-16 bg-brand-600 mx-auto"></div>
         </div>
@@ -896,26 +970,26 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
             {
               href: `/${lang}/guides/airfryer-vs-four`,
               num: '01',
-              title: lang === 'fr' ? 'Airfryer vs Four traditionnel' : lang === 'de' ? 'Heißluftfritteuse vs Backofen' : lang === 'es' ? 'Freidora de aire vs Horno' : lang === 'it' ? 'Friggitrice ad aria vs Forno' : lang === 'nl' ? 'Airfryer vs Oven' : 'Air Fryer vs Traditional Oven',
-              desc: lang === 'fr' ? 'Comparatif détaillé pour savoir lequel choisir.' : lang === 'de' ? 'Detaillierter Vergleich, welcher besser ist.' : lang === 'es' ? 'Comparativa detallada para saber cuál elegir.' : lang === 'it' ? 'Confronto dettagliato per sapere quale scegliere.' : lang === 'nl' ? 'Gedetailleerde vergelijking om te weten welke te kiezen.' : 'Detailed comparison to help you choose.',
+              title: lang === 'fr' ? 'Airfryer vs Four traditionnel' : lang === 'de' ? 'Heißluftfritteuse vs Backofen' : lang === 'es' ? 'Freidora de aire vs Horno' : lang === 'it' ? 'Friggitrice ad aria vs Forno' : lang === 'nl' ? 'Airfryer vs Oven' : lang === 'pl' ? 'Frytkownica beztłuszczowa czy tradycyjny piekarnik' : 'Air Fryer vs Traditional Oven',
+              desc: lang === 'fr' ? 'Comparatif détaillé pour savoir lequel choisir.' : lang === 'de' ? 'Detaillierter Vergleich, welcher besser ist.' : lang === 'es' ? 'Comparativa detallada para saber cuál elegir.' : lang === 'it' ? 'Confronto dettagliato per sapere quale scegliere.' : lang === 'nl' ? 'Gedetailleerde vergelijking om te weten welke te kiezen.' : lang === 'pl' ? 'Szczegółowe porównanie, które pomoże Ci wybrać.' : 'Detailed comparison to help you choose.',
             },
             {
               href: `/${lang}/a-propos`,
               num: '02',
-              title: lang === 'fr' ? 'Notre méthodologie' : lang === 'de' ? 'Unsere Methodik' : lang === 'es' ? 'Nuestra metodología' : lang === 'it' ? 'La nostra metodologia' : lang === 'nl' ? 'Onze methodologie' : 'Our Methodology',
-              desc: lang === 'fr' ? 'Comment nous comparons et notons chaque airfryer.' : lang === 'de' ? 'Wie wir jede Heißluftfritteuse vergleichen und bewerten.' : lang === 'es' ? 'Cómo comparamos y calificamos cada freidora.' : lang === 'it' ? 'Come confrontiamo e valutiamo ogni friggitrice.' : lang === 'nl' ? 'Hoe we elke airfryer vergelijken en beoordelen.' : 'How we compare and rate every air fryer.',
+              title: lang === 'fr' ? 'Notre méthodologie' : lang === 'de' ? 'Unsere Methodik' : lang === 'es' ? 'Nuestra metodología' : lang === 'it' ? 'La nostra metodologia' : lang === 'nl' ? 'Onze methodologie' : lang === 'pl' ? 'Nasza metodologia' : 'Our Methodology',
+              desc: lang === 'fr' ? 'Comment nous comparons et notons chaque airfryer.' : lang === 'de' ? 'Wie wir jede Heißluftfritteuse vergleichen und bewerten.' : lang === 'es' ? 'Cómo comparamos y calificamos cada freidora.' : lang === 'it' ? 'Come confrontiamo e valutiamo ogni friggitrice.' : lang === 'nl' ? 'Hoe we elke airfryer vergelijken en beoordelen.' : lang === 'pl' ? 'Jak porównujemy i oceniamy każdą frytkownicę beztłuszczową.' : 'How we compare and rate every air fryer.',
             },
             {
               href: `/${lang}`,
               num: '03',
-              title: lang === 'fr' ? 'Classement des meilleurs airfryers 2026' : lang === 'de' ? 'Ranking der besten Airfryer 2026' : lang === 'es' ? 'Ranking de las mejores freidoras 2026' : lang === 'it' ? 'Classifica delle migliori friggitrici 2026' : lang === 'nl' ? 'Ranking beste airfryers 2026' : 'Best Air Fryers 2026 Ranking',
-              desc: lang === 'fr' ? 'Notre top 9 avec comparatif et scores Nura.' : lang === 'de' ? 'Unsere Top 9 mit Vergleich und Nura Scores.' : lang === 'es' ? 'Nuestro top 9 con comparativa y puntuaciones Nura.' : lang === 'it' ? 'La nostra top 9 con confronto e punteggi Nura.' : lang === 'nl' ? 'Onze top 9 met vergelijking en Nura Scores.' : 'Our top 9 with comparison and Nura scores.',
+              title: lang === 'fr' ? 'Classement des meilleurs airfryers 2026' : lang === 'de' ? 'Ranking der besten Airfryer 2026' : lang === 'es' ? 'Ranking de las mejores freidoras 2026' : lang === 'it' ? 'Classifica delle migliori friggitrici 2026' : lang === 'nl' ? 'Ranking beste airfryers 2026' : lang === 'pl' ? 'Ranking najlepszych frytkownic beztłuszczowych 2026' : 'Best Air Fryers 2026 Ranking',
+              desc: lang === 'fr' ? 'Notre top 9 avec comparatif et scores Nura.' : lang === 'de' ? 'Unsere Top 9 mit Vergleich und Nura Scores.' : lang === 'es' ? 'Nuestro top 9 con comparativa y puntuaciones Nura.' : lang === 'it' ? 'La nostra top 9 con confronto e punteggi Nura.' : lang === 'nl' ? 'Onze top 9 met vergelijking en Nura Scores.' : lang === 'pl' ? 'Nasze top 9 z porównaniem i ocenami Nura.' : 'Our top 9 with comparison and Nura scores.',
             },
             {
               href: `/${lang}/cuisine-connectee/prises-connectees`,
               num: '04',
-              title: lang === 'fr' ? 'Piloter son airfryer à distance' : lang === 'de' ? 'Heißluftfritteuse per Fernbedienung' : lang === 'es' ? 'Controla tu freidora a distancia' : lang === 'it' ? 'Controlla la friggitrice da remoto' : lang === 'nl' ? 'Airfryer op afstand bedienen' : 'Control your air fryer remotely',
-              desc: lang === 'fr' ? 'Les prises connectées compatibles avec votre airfryer.' : lang === 'de' ? 'Smarte Steckdosen, die zu Ihrer Heißluftfritteuse passen.' : lang === 'es' ? 'Los enchufes inteligentes compatibles con tu freidora.' : lang === 'it' ? 'Le prese smart compatibili con la tua friggitrice.' : lang === 'nl' ? 'Slimme stekkers die werken met uw airfryer.' : 'The smart plugs that work with your air fryer.',
+              title: lang === 'fr' ? 'Piloter son airfryer à distance' : lang === 'de' ? 'Heißluftfritteuse per Fernbedienung' : lang === 'es' ? 'Controla tu freidora a distancia' : lang === 'it' ? 'Controlla la friggitrice da remoto' : lang === 'nl' ? 'Airfryer op afstand bedienen' : lang === 'pl' ? 'Steruj frytkownicą zdalnie' : 'Control your air fryer remotely',
+              desc: lang === 'fr' ? 'Les prises connectées compatibles avec votre airfryer.' : lang === 'de' ? 'Smarte Steckdosen, die zu Ihrer Heißluftfritteuse passen.' : lang === 'es' ? 'Los enchufes inteligentes compatibles con tu freidora.' : lang === 'it' ? 'Le prese smart compatibili con la tua friggitrice.' : lang === 'nl' ? 'Slimme stekkers die werken met uw airfryer.' : lang === 'pl' ? 'Inteligentne wtyczki zgodne z Twoją frytkownicą.' : 'The smart plugs that work with your air fryer.',
             },
           ].map((item) => (
             <Link
@@ -928,7 +1002,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
               <h3 className="font-bold text-slate-900 mb-3 leading-snug group-hover:text-brand-700 transition-colors">{item.title}</h3>
               <p className="text-sm text-slate-500 leading-relaxed">{item.desc}</p>
               <div className="mt-5 flex items-center text-sm font-semibold text-brand-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <span>{lang === 'fr' ? 'Lire' : lang === 'de' ? 'Lesen' : lang === 'es' ? 'Leer' : lang === 'it' ? 'Leggi' : lang === 'nl' ? 'Lezen' : 'Read'}</span>
+                <span>{lang === 'fr' ? 'Lire' : lang === 'de' ? 'Lesen' : lang === 'es' ? 'Leer' : lang === 'it' ? 'Leggi' : lang === 'nl' ? 'Lezen' : lang === 'pl' ? 'Czytaj' : 'Read'}</span>
                 <span className="ml-2 transition-transform group-hover:translate-x-1">&rarr;</span>
               </div>
             </Link>

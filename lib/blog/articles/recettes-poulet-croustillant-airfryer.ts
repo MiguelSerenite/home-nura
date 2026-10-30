@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Una gran tanda de trozos de pollo crujiente en la rejilla de una freidora de aire',
         it: 'Una grande infornata di pezzi di pollo croccante sulla griglia di una friggitrice ad aria',
         nl: 'Een grote portie krokante kipstukjes op het rooster van een airfryer',
+        pl: 'Duża porcja chrupiących kawałków kurczaka na ruszcie frytkownicy beztłuszczowej',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Recetas de Pollo Crujiente en Freidora de Aire: 6 Recetas Fáciles',
     it: 'Ricette di Pollo Croccante nella Friggitrice ad Aria: 6 Ricette Facili',
     nl: 'Krokante Kip uit de Airfryer: 6 Makkelijke Recepten',
+    pl: 'Przepisy na chrupiącego kurczaka we frytkownicy beztłuszczowej: 6 łatwych przepisów',
   },
   excerpt: {
     fr: 'Découvrez 6 recettes de poulet croustillant à l\'airfryer : ailes, tenders, cuisses, blancs, nuggets et satay. Marinades, températures et temps de cuisson pour un poulet parfait.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Descubre 6 recetas de pollo crujiente en freidora de aire: alitas, tenders, muslos, pechuga, nuggets y satay. Marinados, temperaturas y tiempos de cocción.',
     it: 'Scopri 6 ricette di pollo croccante nella friggitrice ad aria: ali, tenders, cosce, petto, nuggets e satay. Marinature, temperature e tempi di cottura.',
     nl: 'Ontdek 6 krokante kiprecepten voor de airfryer: vleugels, tenders, dijen, borst, nuggets en satay. Marinades, temperaturen en baktijden.',
+    pl: 'Poznaj 6 przepisów na chrupiącego kurczaka we frytkownicy beztłuszczowej: skrzydełka, tendersy, udka, piersi, nuggetsy i satay. Marynaty, temperatury i czasy smażenia dla idealnego kurczaka.',
   },
   content: {
     fr: `<h2>Introduction</h2>
@@ -915,6 +918,230 @@ export const article: BlogArticle = {
 <li><strong>Rokerige BBQ-marinade (2u):</strong> BBQ-saus + chipotle + honing + citroensap. Voor alle stukken.</li>
 <li><strong>Harissa-citroen marinade (1u):</strong> harissa + citroensap + olijfolie + koriander. Voor spiesjes.</li>
 </ul>`,
+    pl: `<h2>Wstęp</h2>
+<p>Kurczak z frytkownicy beztłuszczowej to prawdopodobnie jedno z najbardziej satysfakcjonujących dań, jakie możesz przygotować. Krążące gorące powietrze daje <strong>chrupiącą, złocistą skórkę</strong> i soczyste mięso w środku, przy minimalnej ilości oleju. Niezależnie od tego, czy szykujesz szybki posiłek w tygodniu, czy kolację dla gości, te 6 przepisów obejmuje wszystkie części kurczaka i wszystkie okazje.</p>
+<p>Sekret idealnego kurczaka z frytkownicy beztłuszczowej opiera się na trzech kluczowych elementach: marynacie, która zmiękcza i aromatyzuje mięso, <strong>osuszeniu powierzchni</strong> dla maksymalnej chrupkości oraz ścisłym przestrzeganiu bezpiecznych temperatur wewnętrznych (<strong>74 °C w środku</strong>). Zalecamy użycie termometru do mięsa, aby za każdym razem mieć pewność, że kurczak jest idealnie przygotowany.</p>
+
+<h2>1. Skrzydełka z kurczaka buffalo</h2>
+<h3>Składniki</h3>
+<ul>
+<li>1 kg skrzydełek z kurczaka (około 12 skrzydełek), rozdzielonych na drumetki i płaty</li>
+<li>2 łyżki oliwy z oliwek (30 ml)</li>
+<li>1 łyżeczka soli</li>
+<li>1 łyżeczka czosnku granulowanego</li>
+<li>½ łyżeczki czarnego pieprzu</li>
+<li>1 łyżeczka proszku do pieczenia (dla chrupkości)</li>
+</ul>
+<p><strong>Do sosu buffalo:</strong></p>
+<ul>
+<li>60 ml ostrego sosu typu Frank's Red Hot</li>
+<li>30 g roztopionego masła</li>
+<li>1 łyżka miodu (15 ml)</li>
+<li>1 łyżeczka octu białego</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Osusz skrzydełka ręcznikiem papierowym — to <strong>najważniejszy etap</strong> dla chrupiącego efektu.</li>
+<li>W dużej misce wymieszaj skrzydełka z oliwą, solą, czosnkiem granulowanym, pieprzem i proszkiem do pieczenia. Proszek do pieczenia podnosi pH skórki i przyspiesza rumienienie.</li>
+<li>Rozgrzej frytkownicę do <strong>180 °C przez 3 minuty</strong>.</li>
+<li>Ułóż skrzydełka w jednej warstwie, tak aby na siebie nie zachodziły.</li>
+<li>Smaż w <strong>180 °C przez 12 minut</strong>.</li>
+<li>Odwróć skrzydełka i zwiększ temperaturę do <strong>200 °C na kolejne 8-10 minut</strong>, aż skórka będzie złocista i chrupiąca.</li>
+<li>W tym czasie przygotuj sos buffalo: wymieszaj ostry sos, roztopione masło, miód i ocet w rondelku na małym ogniu przez 2 minuty.</li>
+<li>Przełóż usmażone skrzydełka do miski, polej sosem i wymieszaj, aby dokładnie je pokryć.</li>
+</ol>
+<h3>Wskazówki kucharza</h3>
+<p>Proszek do pieczenia to sekret ultra chrupiących skrzydełek bez smażenia w głębokim tłuszczu. Użyj <strong>wyłącznie proszku do pieczenia</strong> (baking powder), nigdy samej sody oczyszczonej, która zostawiłaby metaliczny posmak. Podawaj ze słupkami selera naciowego i sosem z sera pleśniowego.</p>
+
+<h2>2. Panierowane tendersy z kurczaka</h2>
+<h3>Składniki</h3>
+<ul>
+<li>500 g filetów z kurczaka, pokrojonych w paski o szerokości 2 cm</li>
+<li>80 g bułki tartej panko</li>
+<li>40 g startego parmezanu</li>
+<li>2 roztrzepane jajka</li>
+<li>50 g mąki</li>
+<li>1 łyżeczka papryki w proszku</li>
+<li>1 łyżeczka suszonego oregano</li>
+<li>½ łyżeczki czosnku granulowanego</li>
+<li>Sól i pieprz</li>
+<li>Olej w sprayu</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Posól i popieprz paski kurczaka.</li>
+<li>Przygotuj trzy talerze: mąka przyprawiona papryką i czosnkiem granulowanym; roztrzepane jajka; mieszanka panko, parmezanu i oregano.</li>
+<li>Każdy pasek obtocz w mące, potem w jajku, a następnie w panierce, mocno dociskając, by dobrze się trzymała.</li>
+<li>Połóż na kratce i schłodź w lodówce przez <strong>15 minut</strong> — to utrwala panierkę i zapobiega jej odpadaniu podczas smażenia.</li>
+<li>Rozgrzej frytkownicę do <strong>200 °C przez 3 minuty</strong>.</li>
+<li>Ułóż tendersy w jednej warstwie, lekko spryskaj olejem.</li>
+<li>Smaż w <strong>200 °C przez 10-12 minut</strong>, obracając w połowie czasu i ponownie spryskując olejem.</li>
+<li>Sprawdź, czy temperatura wewnętrzna osiąga <strong>74 °C</strong>.</li>
+</ol>
+<h3>Wskazówki kucharza</h3>
+<p>Japońska panierka panko daje nieporównywalną chrupkość w porównaniu ze zwykłą bułką tartą. Schłodzenie w lodówce przed smażeniem to etap, który wiele osób pomija, a który robi całą różnicę. Do pełnego posiłku podaj z <a href="/pl/blog/recettes-frites-parfaites-airfryer">domowymi frytkami z frytkownicy beztłuszczowej</a>.</p>
+
+<h2>3. Pikantne udka z kurczaka</h2>
+<h3>Składniki</h3>
+<ul>
+<li>6 górnych części ud kurczaka ze skórą (około 800 g)</li>
+<li>2 łyżki oliwy z oliwek (30 ml)</li>
+<li>1 łyżka wędzonej papryki w proszku</li>
+<li>1 łyżeczka mielonego kminku rzymskiego</li>
+<li>1 łyżeczka czosnku granulowanego</li>
+<li>1 łyżeczka cebuli granulowanej</li>
+<li>½ łyżeczki pieprzu cayenne</li>
+<li>1 łyżeczka soli</li>
+<li>½ łyżeczki czarnego pieprzu</li>
+<li>1 łyżeczka brązowego cukru (aby pomóc w rumienieniu)</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Wymieszaj wszystkie przyprawy w małej miseczce, aby uzyskać mieszankę przypraw.</li>
+<li>Osusz udka ręcznikiem papierowym.</li>
+<li>Posmaruj oliwą, a następnie obficie obtocz w mieszance przypraw.</li>
+<li>Najlepiej zostaw do marynowania w lodówce na <strong>2-4 godziny</strong> (minimum 30 minut).</li>
+<li>Wyjmij z lodówki <strong>20 minut</strong> przed smażeniem.</li>
+<li>Rozgrzej frytkownicę do <strong>180 °C przez 3 minuty</strong>.</li>
+<li>Ułóż udka w koszyku <strong>skórą do góry</strong>.</li>
+<li>Smaż w <strong>180 °C przez 15 minut</strong>.</li>
+<li>Odwróć i smaż w <strong>200 °C przez kolejne 5-10 minut</strong>, znów skórą do góry, aby skórka stała się chrupiąca.</li>
+<li>Sprawdź, czy temperatura wewnętrzna w najgrubszym miejscu osiąga <strong>74 °C</strong>.</li>
+<li>Odstaw na <strong>5 minut</strong> przed podaniem.</li>
+</ol>
+<h3>Wskazówki kucharza</h3>
+<p>Udka z kurczaka są bardziej wyrozumiałe niż piersi, jeśli chodzi o przesmażenie — naturalna zawartość tłuszczu utrzymuje je soczyste. Brązowy cukier w przyprawach sprzyja karmelizacji skórki bez jej przypalania. To danie świetnie pasuje do <a href="/pl/blog/meal-prep-airfryer-semaine">meal prepu na cały tydzień</a>.</p>
+
+<h2>4. Całe piersi z kurczaka w marynacie</h2>
+<h3>Składniki</h3>
+<ul>
+<li>2 grube piersi z kurczaka (około 200 g każda)</li>
+<li>60 ml jogurtu naturalnego</li>
+<li>2 łyżki soku z cytryny</li>
+<li>2 drobno posiekane ząbki czosnku</li>
+<li>1 łyżka oliwy z oliwek</li>
+<li>1 łyżeczka kurkumy</li>
+<li>1 łyżeczka kminku rzymskiego</li>
+<li>1 łyżeczka mielonej kolendry</li>
+<li>½ łyżeczki chili w proszku</li>
+<li>Sól i pieprz</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Jeśli piersi są bardzo grube, lekko je rozpłaszcz tłuczkiem do mięsa lub wałkiem do ciasta, aby uzyskać jednakową grubość <strong>2,5 cm</strong>. Zapewnia to równomierne smażenie.</li>
+<li>Wymieszaj jogurt, sok z cytryny, czosnek, olej i wszystkie przyprawy.</li>
+<li>Obtocz piersi w tej marynacie i odstaw do marynowania <strong>na co najmniej 2 godziny w lodówce</strong> (najlepiej na noc).</li>
+<li>Wyjmij z lodówki <strong>20 minut</strong> przed smażeniem.</li>
+<li>Rozgrzej frytkownicę do <strong>180 °C przez 3 minuty</strong>.</li>
+<li>Usuń nadmiar marynaty (nie wycieraj jej całkowicie) i włóż do koszyka.</li>
+<li>Smaż w <strong>180 °C przez 18-22 minuty</strong>, obracając w połowie czasu.</li>
+<li>Temperatura wewnętrzna powinna osiągnąć <strong>74 °C</strong>.</li>
+<li>Odstaw na <strong>5 minut</strong> pod folią aluminiową przed krojeniem.</li>
+</ol>
+<h3>Wskazówki kucharza</h3>
+<p>Marynata jogurtowa to sekret kuchni indyjskiej — kwas mlekowy delikatnie zmiękcza mięso, nie „gotując” go tak, jak zrobiłby to czysty kwas (sam sok z cytryny). Czas odpoczynku po smażeniu jest kluczowy: pozwala sokom rozprowadzić się w mięsie. Jeśli pokroisz za wcześnie, soki wypłyną, a kurczak będzie suchy.</p>
+
+<h2>5. Domowe nuggetsy z kurczaka</h2>
+<h3>Składniki</h3>
+<ul>
+<li>400 g piersi z kurczaka, pokrojonych w kostki 3 cm</li>
+<li>100 g rozkruszonych płatków kukurydzianych (niezbyt drobno)</li>
+<li>2 roztrzepane jajka</li>
+<li>50 g mąki</li>
+<li>1 łyżeczka słodkiej papryki w proszku</li>
+<li>½ łyżeczki czosnku granulowanego</li>
+<li>½ łyżeczki cebuli granulowanej</li>
+<li>Sól i pieprz</li>
+<li>Olej w sprayu</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Rozkrusz płatki kukurydziane w woreczku do zamrażania za pomocą wałka — zostaw nieregularne kawałki dla tekstury.</li>
+<li>Przygotuj trzy stanowiska: przyprawiona mąka (papryka, czosnek, cebula, sól, pieprz); roztrzepane jajka; rozkruszone płatki kukurydziane.</li>
+<li>Panieruj każdą kostkę: mąka, jajko, płatki kukurydziane, mocno dociskając.</li>
+<li>Rozgrzej frytkownicę do <strong>190 °C przez 3 minuty</strong>.</li>
+<li>Ułóż nuggetsy tak, aby na siebie nie zachodziły, spryskaj olejem.</li>
+<li>Smaż w <strong>190 °C przez 10-12 minut</strong>, obracając w połowie czasu.</li>
+<li>Sprawdź, czy temperatura wewnętrzna osiąga <strong>74 °C</strong>.</li>
+</ol>
+<h3>Wskazówki kucharza</h3>
+<p>Płatki kukurydziane dają lepszą chrupkość niż bułka tarta i piękny, naturalny złocisty kolor. Dla dzieci takie domowe nuggetsy są znacznie zdrowsze niż wersje przemysłowe. Przygotuj dużą porcję i zamroź surowe, panierowane nuggetsy — smaży się je prosto z zamrażarki, dodając <strong>3-4 minuty</strong> do czasu smażenia. Do <a href="/pl/blog/cuisiner-healthy-airfryer">zdrowego i zbilansowanego</a> posiłku podaj z surówką i sosem jogurtowym.</p>
+
+<h2>6. Szaszłyki satay z kurczaka</h2>
+<h3>Składniki</h3>
+<ul>
+<li>500 g piersi z kurczaka, pokrojonych w paski o szerokości 2 cm</li>
+<li>Drewniane szpikulce (namoczone w wodzie przez 30 minut)</li>
+</ul>
+<p><strong>Do marynaty:</strong></p>
+<ul>
+<li>3 łyżki mleka kokosowego (45 ml)</li>
+<li>2 łyżki sosu sojowego (30 ml)</li>
+<li>1 łyżka kremowego masła orzechowego</li>
+<li>1 łyżka soku z limonki</li>
+<li>1 łyżeczka curry w proszku</li>
+<li>1 łyżeczka kurkumy</li>
+<li>1 starty ząbek czosnku</li>
+<li>1 cm startego świeżego imbiru</li>
+<li>1 łyżeczka cukru palmowego lub brązowego</li>
+</ul>
+<p><strong>Do sosu orzechowego:</strong></p>
+<ul>
+<li>80 g kremowego masła orzechowego</li>
+<li>60 ml mleka kokosowego</li>
+<li>1 łyżka sosu sojowego</li>
+<li>1 łyżka soku z limonki</li>
+<li>1 łyżeczka sriracha</li>
+<li>1 łyżeczka miodu</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Wymieszaj wszystkie składniki marynaty w misce.</li>
+<li>Dodaj paski kurczaka i odstaw do marynowania <strong>na co najmniej 2 godziny w lodówce</strong> (na całą noc dla najlepszego smaku).</li>
+<li>Nadziej paski na wcześniej namoczone drewniane szpikulce.</li>
+<li>Przygotuj sos orzechowy, mieszając wszystkie składniki w małym rondelku na małym ogniu przez <strong>3 minuty</strong>, ciągle mieszając.</li>
+<li>Rozgrzej frytkownicę do <strong>190 °C przez 3 minuty</strong>.</li>
+<li>Ułóż szaszłyki w koszyku (w razie potrzeby przytnij je, żeby się zmieściły).</li>
+<li>Smaż w <strong>190 °C przez 10-12 minut</strong>, obracając w połowie czasu.</li>
+<li>Podawaj od razu z ciepłym sosem orzechowym i cząstkami limonki.</li>
+</ol>
+<h3>Wskazówki kucharza</h3>
+<p>Zawsze namaczaj drewniane szpikulce w wodzie co najmniej 30 minut przed użyciem, aby się nie przypaliły. Masło orzechowe w marynacie tworzy cienką warstwę ochronną, która utrzymuje kurczaka niezwykle miękkim. Ten przepis jest idealny na przekąskę ze znajomymi lub towarzyską kolację.</p>
+
+<h2>Tabela czasów i temperatur</h2>
+<table>
+<thead>
+<tr><th>Przepis</th><th>Temperatura</th><th>Całkowity czas</th><th>Ilość</th><th>Temp. wewn.</th></tr>
+</thead>
+<tbody>
+<tr><td>Skrzydełka buffalo</td><td>180 °C, potem 200 °C</td><td>20-22 min</td><td>1 kg</td><td>74 °C</td></tr>
+<tr><td>Panierowane tendersy</td><td>200 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
+<tr><td>Pikantne udka</td><td>180 °C, potem 200 °C</td><td>20-25 min</td><td>800 g</td><td>74 °C</td></tr>
+<tr><td>Marynowane piersi</td><td>180 °C</td><td>18-22 min</td><td>400 g</td><td>74 °C</td></tr>
+<tr><td>Domowe nuggetsy</td><td>190 °C</td><td>10-12 min</td><td>400 g</td><td>74 °C</td></tr>
+<tr><td>Szaszłyki satay</td><td>190 °C</td><td>10-12 min</td><td>500 g</td><td>74 °C</td></tr>
+</tbody>
+</table>
+
+<h2>Ogólne wskazówki dla kurczaka we frytkownicy beztłuszczowej</h2>
+<p>Kurczak to jedno z białek najlepiej nadających się do smażenia we frytkownicy beztłuszczowej, ale kilka zasad jest kluczowych:</p>
+<ul>
+<li><strong>Obowiązkowa temperatura wewnętrzna</strong> — zainwestuj w termometr z szybkim odczytem. Kurczak musi osiągnąć <strong>74 °C w środku</strong> dla optymalnego bezpieczeństwa żywności.</li>
+<li><strong>Zawsze osuszaj powierzchnię</strong> — sucha skórka lub powierzchnia = maksymalne rumienienie i chrupkość.</li>
+<li><strong>Nie przeładowuj koszyka</strong> — krążenie powietrza jest kluczowe. W razie potrzeby smaż w dwóch partiach.</li>
+<li><strong>Czas odpoczynku</strong> — zawsze odstaw kurczaka na 5 minut po smażeniu, aby soki się rozprowadziły.</li>
+<li><strong>Marynowanie</strong> — minimum 2 godziny robi całą różnicę. Marynaty jogurtowe są szczególnie skuteczne w zmiękczaniu mięsa.</li>
+</ul>
+<p>Do pełnego posiłku podaj te przepisy z <a href="/pl/blog/recettes-frites-parfaites-airfryer">idealnymi frytkami z frytkownicy beztłuszczowej</a> lub z <a href="/pl/blog/recettes-legumes-grilles-airfryer">grillowanymi warzywami</a>. Zajrzyj też do naszego poradnika <a href="/pl/blog/cuisiner-healthy-airfryer">zdrowe gotowanie we frytkownicy beztłuszczowej</a>, aby układać zbilansowane jadłospisy na co dzień.</p>
+
+<h2>5 szybkich marynat, które zmieniają wszystko</h2>
+<ul>
+<li><strong>Marynata cytrynowo-ziołowa (30 min):</strong> sok z 2 cytryn + oregano + czosnek + oliwa z oliwek. Do piersi z kurczaka.</li>
+<li><strong>Marynata sojowo-sezamowa (2 h):</strong> sos sojowy + miód + starty imbir + olej sezamowy. Do skrzydełek i tendersów.</li>
+<li><strong>Marynata jogurtowo-korzenna (4 h):</strong> jogurt grecki + kminek rzymski + papryka w proszku + kurkuma + czosnek. Do ud i podudzi.</li>
+<li><strong>Wędzona marynata BBQ (2 h):</strong> sos BBQ + chipotle + miód + sok z cytryny. Do wszystkich części.</li>
+<li><strong>Marynata harissa-cytryna (1 h):</strong> harissa + sok z cytryny + oliwa z oliwek + kolendra. Do szaszłyków.</li>
+</ul>`,
   },
   faq: [
     {
@@ -925,6 +1152,7 @@ export const article: BlogArticle = {
         es: '¿A qué temperatura interna está el pollo cocinado de forma segura?',
         it: 'A quale temperatura interna il pollo è cotto in modo sicuro?',
         nl: 'Bij welke kerntemperatuur is kip veilig gaar?',
+        pl: 'Jaka temperatura wewnętrzna oznacza bezpiecznie usmażonego kurczaka?',
       },
       answer: {
         fr: 'Le poulet doit atteindre une température interne de 74°C à coeur pour être consommé en toute sécurité. Utilisez un thermomètre de cuisine inséré dans la partie la plus épaisse, sans toucher l\'os. Après cuisson, laissez reposer 5 minutes car la température continue de monter de 2 à 3°C.',
@@ -933,6 +1161,7 @@ export const article: BlogArticle = {
         es: 'El pollo debe alcanzar una temperatura interna de 74°C en la parte más gruesa. Usa un termómetro de cocina insertado en la zona más gruesa sin tocar el hueso. Después de la cocción, deja reposar 5 minutos ya que la temperatura sigue subiendo 2-3°C.',
         it: 'Il pollo deve raggiungere una temperatura interna di 74°C nel punto più spesso per essere consumato in sicurezza. Usa un termometro da cucina inserito nella parte più spessa senza toccare l\'osso. Dopo la cottura, lascia riposare 5 minuti perché la temperatura sale ancora di 2-3°C.',
         nl: 'Kip moet een kerntemperatuur van 74°C bereiken op het dikste punt om veilig te eten. Gebruik een keukenthermometer in het dikste gedeelte zonder het bot te raken. Laat na het bakken 5 minuten rusten, want de temperatuur stijgt nog 2-3°C door.',
+        pl: 'Kurczak musi osiągnąć temperaturę wewnętrzną 74°C w środku, aby można go było bezpiecznie spożywać. Użyj termometru do mięsa wbitego w najgrubszą część, nie dotykając kości. Po smażeniu odstaw na 5 minut, ponieważ temperatura nadal rośnie o 2-3°C.',
       },
     },
     {
@@ -943,6 +1172,7 @@ export const article: BlogArticle = {
         es: '¿Cuánto tiempo hay que marinar el pollo para la freidora de aire?',
         it: 'Quanto tempo bisogna marinare il pollo per la friggitrice ad aria?',
         nl: 'Hoe lang moet je kip marineren voor de airfryer?',
+        pl: 'Jak długo marynować kurczaka do frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Un minimum de 30 minutes apporte déjà du goût, mais 2 à 4 heures au réfrigérateur donnent les meilleurs résultats. Pour les marinades acides (citron, vinaigre), ne dépassez pas 4 heures car l\'acide peut décomposer la texture de la viande. Sortez le poulet 15 minutes avant cuisson pour une température homogène.',
@@ -951,6 +1181,7 @@ export const article: BlogArticle = {
         es: 'Un mínimo de 30 minutos ya aporta sabor, pero 2-4 horas en el refrigerador dan los mejores resultados. Para marinados ácidos (limón, vinagre), no superes las 4 horas porque el ácido puede descomponer la textura de la carne. Saca el pollo 15 minutos antes de cocinar.',
         it: 'Un minimo di 30 minuti aggiunge già sapore, ma 2-4 ore in frigorifero danno i migliori risultati. Per marinature acide (limone, aceto), non superare le 4 ore perché l\'acido può rovinare la texture della carne. Togli il pollo 15 minuti prima della cottura per una temperatura uniforme.',
         nl: 'Minimaal 30 minuten voegt al smaak toe, maar 2-4 uur in de koelkast geeft de beste resultaten. Bij zure marinades (citroen, azijn) niet langer dan 4 uur, want zuur kan de vleestextuur afbreken. Haal de kip 15 minuten voor het bakken uit de koelkast voor een gelijkmatige temperatuur.',
+        pl: 'Minimum 30 minut już nadaje smak, ale 2-4 godziny w lodówce dają najlepsze rezultaty. W przypadku marynat kwaśnych (cytryna, ocet) nie przekraczaj 4 godzin, ponieważ kwas może zniszczyć strukturę mięsa. Wyjmij kurczaka 15 minut przed smażeniem dla równomiernej temperatury.',
       },
     },
     {
@@ -961,6 +1192,7 @@ export const article: BlogArticle = {
         es: '¿Se puede cocinar un pollo entero en una freidora de aire?',
         it: 'Si può cuocere un pollo intero nella friggitrice ad aria?',
         nl: 'Kun je een hele kip bereiden in de airfryer?',
+        pl: 'Czy można usmażyć całego kurczaka we frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Oui, dans un airfryer de 6 litres ou plus. Un poulet de 1,2 à 1,5 kg cuit en 50 à 60 minutes à 180°C. Commencez poitrine vers le bas pendant 30 minutes, retournez et terminez à 200°C pendant 20 minutes pour dorer la peau. Vérifiez toujours la température interne de 74°C avant de servir.',
@@ -969,6 +1201,7 @@ export const article: BlogArticle = {
         es: 'Sí, en una freidora de 6 litros o más. Un pollo de 1,2-1,5 kg se cocina en 50-60 minutos a 180°C. Empieza con la pechuga hacia abajo durante 30 minutos, voltea y termina a 200°C 20 minutos para dorar la piel. Verifica siempre la temperatura interna de 74°C antes de servir.',
         it: 'Sì, in una friggitrice ad aria da 6 litri o più. Un pollo di 1,2-1,5 kg cuoce in 50-60 minuti a 180°C. Inizia con il petto verso il basso per 30 minuti, gira e finisci a 200°C per 20 minuti per dorare la pelle. Verifica sempre la temperatura interna di 74°C prima di servire.',
         nl: 'Ja, in een airfryer van 6 liter of groter. Een kip van 1,2-1,5 kg is gaar in 50-60 minuten op 180°C. Begin met de borst naar beneden voor 30 minuten, draai om en eindig op 200°C voor 20 minuten voor een bruin velletje. Controleer altijd de kerntemperatuur van 74°C.',
+        pl: 'Tak, we frytkownicy beztłuszczowej o pojemności 6 litrów lub większej. Kurczak o wadze 1,2-1,5 kg smaży się 50-60 minut w 180°C. Zacznij, układając kurczaka piersią w dół, na 30 minut, obróć i dokończ w 200°C przez 20 minut, aby zrumienić skórę. Przed podaniem zawsze sprawdź temperaturę wewnętrzną 74°C.',
       },
     },
     {
@@ -979,6 +1212,7 @@ export const article: BlogArticle = {
         es: '¿Cómo conseguir la piel del pollo crujiente en la freidora de aire?',
         it: 'Come ottenere la pelle di pollo croccante nella friggitrice ad aria?',
         nl: 'Hoe krijg je een krokant kippenvelletje in de airfryer?',
+        pl: 'Jak uzyskać chrupiącą skórkę kurczaka we frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Le secret est de sécher parfaitement la peau avec du papier absorbant avant cuisson. Frottez légèrement d\'huile et de sel. Vous pouvez ajouter un peu de levure chimique (1 cuillère à café) mélangée au sel pour un résultat encore plus croustillant. Terminez à 200°C pendant les 5 dernières minutes.',
@@ -987,6 +1221,7 @@ export const article: BlogArticle = {
         es: 'El secreto es secar perfectamente la piel con papel absorbente antes de cocinar. Frota ligeramente con aceite y sal. Puedes añadir un poco de levadura química (1 cucharadita) mezclada con sal para un resultado aún más crujiente. Termina a 200°C los últimos 5 minutos.',
         it: 'Il segreto è asciugare perfettamente la pelle con carta assorbente prima della cottura. Strofina leggermente con olio e sale. Puoi aggiungere un po\' di lievito chimico (1 cucchiaino) mescolato al sale per un risultato ancora più croccante. Finisci a 200°C per gli ultimi 5 minuti.',
         nl: 'Het geheim is het vel perfect droog te deppen met keukenpapier voor het bakken. Wrijf licht in met olie en zout. Je kunt een beetje bakpoeder (1 theelepel) gemengd met zout toevoegen voor een nog krokanter resultaat. Eindig op 200°C voor de laatste 5 minuten voor maximale bruining.',
+        pl: 'Sekretem jest idealne osuszenie skóry ręcznikiem papierowym przed smażeniem. Natrzyj lekko olejem i solą. Możesz dodać odrobinę proszku do pieczenia (1 łyżeczka) wymieszanego z solą, by uzyskać jeszcze bardziej chrupiący efekt. Zakończ w 200°C przez ostatnie 5 minut.',
       },
     },
     {
@@ -997,6 +1232,7 @@ export const article: BlogArticle = {
         es: '¿Es peligroso el pollo poco hecho de la freidora de aire?',
         it: 'Il pollo poco cotto dalla friggitrice ad aria è pericoloso?',
         nl: 'Is onvoldoende gaar kip uit de airfryer gevaarlijk?',
+        pl: 'Czy surowy kurczak jest niebezpieczny, jeśli zostanie źle usmażony we frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Oui, le poulet insuffisamment cuit peut contenir des bactéries dangereuses comme la salmonelle. C\'est pourquoi un thermomètre de cuisine est essentiel. Le poulet doit atteindre 74°C à coeur. Ne vous fiez pas uniquement à la couleur extérieure : un poulet peut être doré dehors et encore rose dedans.',
@@ -1005,6 +1241,7 @@ export const article: BlogArticle = {
         es: 'Sí, el pollo poco hecho puede contener bacterias peligrosas como la salmonela. Por eso un termómetro de cocina es esencial. El pollo debe alcanzar 74°C internamente. No confíes solo en el color exterior: un pollo puede estar dorado por fuera y todavía rosa por dentro.',
         it: 'Sì, il pollo poco cotto può contenere batteri pericolosi come la salmonella. Per questo un termometro da cucina è essenziale. Il pollo deve raggiungere 74°C internamente. Non fidarti solo del colore esterno: un pollo può essere dorato fuori e ancora rosa dentro.',
         nl: 'Ja, onvoldoende gaar kip kan gevaarlijke bacteriën bevatten zoals salmonella. Daarom is een keukenthermometer essentieel. Kip moet intern 74°C bereiken. Vertrouw niet alleen op de kleur aan de buitenkant: kip kan goudbruin zijn van buiten en nog roze van binnen.',
+        pl: 'Tak, niedosmażony kurczak może zawierać niebezpieczne bakterie, takie jak salmonella. Dlatego termometr do mięsa jest niezbędny. Kurczak musi osiągnąć 74°C w środku. Nie polegaj wyłącznie na kolorze zewnętrznym: kurczak może być złocisty na zewnątrz i wciąż różowy w środku.',
       },
     },
   ],

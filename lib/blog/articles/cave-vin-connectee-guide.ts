@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: "Botellas de vino tumbadas en baldas, guardadas al abrigo de la luz",
         it: "Bottiglie di vino coricate sui ripiani, conservate al riparo dalla luce",
         nl: "Wijnflessen liggend op rekken, bewaard uit het licht",
+        pl: "Butelki wina ułożone poziomo na półkach, przechowywane z dala od światła",
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: "Vinoteca inteligente 2026: guía de compra y mejores modelos",
     it: "Cantinetta vino smart 2026: guida all’acquisto e migliori modelli",
     nl: "Slimme wijnkast 2026: koopgids en beste modellen",
+    pl: "Inteligentna winiarka 2026: poradnik zakupowy i najlepsze modele",
   },
   excerpt: {
     fr: "Cave de service, de vieillissement ou polyvalente : comment choisir une cave à vin connectée en 2026. Comparatif de La Sommelière ECELLAR185, Haier Wine Bank 50 et Liebherr GrandCru Selection, d’après les fiches techniques et les avis d’acheteurs.",
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: "Servicio, envejecimiento o polivalente: cómo elegir una vinoteca inteligente en 2026. Comparamos La Sommelière ECELLAR185, Haier Wine Bank 50 y Liebherr GrandCru Selection a partir de las fichas técnicas y las opiniones de compradores.",
     it: "Servizio, invecchiamento o polivalente: come scegliere una cantinetta vino smart nel 2026. Confronto tra La Sommelière ECELLAR185, Haier Wine Bank 50 e Liebherr GrandCru Selection basato su schede tecniche e pareri degli acquirenti.",
     nl: "Serveren, rijpen of allebei: zo kies je in 2026 een slimme wijnkast. We vergelijken de La Sommelière ECELLAR185, Haier Wine Bank 50 en Liebherr GrandCru Selection op basis van specificaties en ervaringen van kopers.",
+    pl: "Winiarka do serwowania, do dojrzewania czy uniwersalna: jak wybrać inteligentną winiarkę w 2026 roku. Porównanie La Sommelière ECELLAR185, Haier Wine Bank 50 i Liebherr GrandCru Selection na podstawie kart katalogowych i opinii kupujących.",
   },
   content: {
     fr: `<p>La meilleure cave à vin connectée en 2026 est, pour la plupart des amateurs, la <strong>La Sommelière ECELLAR185</strong> : 185 bouteilles, deux zones et surtout des clayettes intelligentes qui savent quelles bouteilles sont présentes et où elles se trouvent. Avec un budget plus serré, la <strong>Haier Wine Bank 50 HWS77GDAU1</strong> offre deux zones, une gestion de l’humidité et l’application hOn dans un format de 77 bouteilles, tandis que la <strong>Liebherr WPbli 5231 GrandCru Selection</strong> vise les collections importantes destinées au vieillissement.</p>
@@ -511,6 +514,84 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Wil je een wijnkast die je collectie echt beheert, dan springt de <strong>La Sommelière ECELLAR185</strong> eruit met zijn verbonden legplanken en de app Vinotag: het is het model in deze selectie dat de verbinding het best benut. Voor gemengd gebruik, serveren en bewaren, in een toegankelijker segment is de <strong>Haier HWS77GDAU1</strong> de meest evenwichtige keuze, en zijn kleine zusje <strong>HWS42GDAU1</strong> past in kleine ruimtes. Voor een grote rijpingskast met één temperatuur biedt de <strong>Liebherr WPbli 5231 GrandCru Selection</strong> de capaciteit en de meest complete veiligheidsalarmen. Controleer in elk geval eerst de echte capaciteit, de beschikbare ruimte en de kamertemperatuur: de app vult goede bewaaromstandigheden alleen aan.</p>`,
+    pl: `<p>Najlepszą inteligentną winiarką 2026 roku dla większości miłośników wina jest <strong>La Sommelière ECELLAR185</strong>: 185 butelek, dwie strefy i przede wszystkim inteligentne półki, które wiedzą, jakie butelki są w środku i gdzie leżą. Przy mniejszym budżecie <strong>Haier Wine Bank 50 HWS77GDAU1</strong> oferuje dwie strefy, regulację wilgotności i aplikację hOn w formacie na 77 butelek, a <strong>Liebherr WPbli 5231 GrandCru Selection</strong> jest przeznaczona dla dużych kolekcji do dojrzewania.</p>
+<p>Ten przewodnik porównuje modele na podstawie kart katalogowych producentów, niezależnych recenzji i opinii zweryfikowanych kupujących. Pomaga wybrać odpowiedni typ winiarki, zrozumieć, co naprawdę daje połączenie Wi-Fi, i uniknąć najczęstszych błędów przy instalacji. Aby umieścić to urządzenie w kontekście całego wyposażenia, zajrzyj także do naszego <a href="/pl/blog/guide-cuisine-connectee-2026">przewodnika po inteligentnej kuchni 2026</a> i do działu <a href="/pl/cuisine-connectee">inteligentna kuchnia</a>.</p>
+
+<h2>Winiarka do serwowania, do dojrzewania czy uniwersalna: określ swoją potrzebę</h2>
+<p>Zanim porównasz aplikacje, musisz wiedzieć, do czego winiarka ma służyć. Wyróżnia się trzy główne rodziny.</p>
+<h3>Winiarka do serwowania</h3>
+<p>Utrzymuje butelki w temperaturze podania, często w kilku strefach (chłodniejszej dla win białych i musujących, łagodniejszej dla czerwonych). Nadaje się do win pitych w ciągu kilku tygodni lub miesięcy od zakupu. Do tej kategorii należą małe winiarki dwustrefowe, jak Haier HWS42GDAU1.</p>
+<h3>Winiarka do dojrzewania (przechowywania)</h3>
+<p>Odtwarza warunki podziemnej piwnicy: jedna stabilna temperatura, zwykle około 12 °C, odpowiednia wilgotność, ciemność i jak najmniej wibracji. To wybór miłośników, którzy kupują wina do leżakowania i zostawiają je na kilka lat. Jednotemperaturowa Liebherr WPbli 5231 jest tego dobrym przykładem.</p>
+<h3>Winiarka uniwersalna</h3>
+<p>Łączy strefę przechowywania ze strefą serwowania albo pozwala przełączać się między trybami. To najbardziej elastyczne rozwiązanie dla domu, który trzyma kilka win do leżakowania, a mimo to chce zawsze mieć gotową do podania butelkę. W tę logikę wpisują się La Sommelière ECELLAR185, działająca w trybie jedno- lub wielotemperaturowym, oraz dwustrefowa Haier HWS77GDAU1.</p>
+
+<h2>Kryteria wyboru inteligentnej winiarki</h2>
+<h3>Stabilność temperatury</h3>
+<p>Przy przechowywaniu stabilność liczy się bardziej niż dokładna wartość. Powtarzające się wahania męczą korek i przyspieszają ewolucję wina. Sprawdź deklarowany zakres regulacji (5 do 20 °C w większości modeli z tego przewodnika) i przede wszystkim to, czy winiarka jest przystosowana do temperatury pomieszczenia, w którym stanie: winiarka w garażu narażonym na mróz lub upał będzie miała kłopot ze stabilnością, nawet jeśli jest z wyższej półki.</p>
+<h3>Wibracje</h3>
+<p>Sprężarka wytwarza mikrowibracje. Producenci ograniczają je sprężarkami na silentblokach lub dedykowanymi technologiami (VibrateSafe w Liebherr, silentbloki w Haier i La Sommelière). Unikaj też ustawiania winiarki przy pralce lub zmywarce.</p>
+<h3>Wilgotność</h3>
+<p>Wilgotność około 50 do 70% zapobiega wysychaniu korków. Winiarki z tego przewodnika regulują wilgotność w sposób pasywny: system Natural Airflow ze zbiornikiem na wodę w Haier, pojemnik na wodę i funkcja HumidityControl w Liebherr, regulowane cykle chłodzenia w La Sommelière. Żadna nie zastępuje aktywnego nawilżacza, ale wszystkie celują w ten zakres.</p>
+<h3>Ochrona przed światłem</h3>
+<p>Promieniowanie UV niszczy wino. Wszystkie wybrane modele mają przeszklone drzwi z filtrem UV; jeśli winiarka jest wystawiona na bezpośrednie światło słoneczne, lepsze są drzwi pełne.</p>
+<h3>Rzeczywista pojemność</h3>
+<p>Pojemności podaje się dla butelek bordoskich 0,75 l. Butelki burgundzkie, alzackie flety czy butelki szampana wyraźnie zmniejszają liczbę faktycznie zmieszczonych butelek. Zaplanuj zapas co najmniej 20 do 30% w stosunku do obecnych zasobów.</p>
+<h3>Co naprawdę daje połączenie</h3>
+<p>W zależności od modelu aplikacja pozwala śledzić i regulować temperaturę zdalnie, otrzymywać alert, gdy drzwi pozostają otwarte lub temperatura się zmienia, i prowadzić inwentarz butelek. Właśnie w tym ostatnim punkcie różnice są największe: większość winiarek opiera się na inwentarzu wpisywanym ręcznie lub przez skan etykiety, natomiast ECELLAR185 fizycznie wykrywa butelki położone na półkach lub z nich zdjęte.</p>
+<h3>Hałas i zużycie energii</h3>
+<p>Poziom hałasu waha się od około 37 dB (Haier) do 41 dB (ECELLAR185): mało uciążliwy w kuchni lub spiżarni, bardziej odczuwalny w otwartym salonie. Winiarki często lądują w niskich klasach energetycznych obecnej etykiety (klasa G dla obu modeli Haier i ECELLAR185); porównuj raczej roczne zużycie w kWh podane w karcie produktu.</p>
+
+<h2>Najlepsze inteligentne winiarki w 2026 roku</h2>
+<h3>La Sommelière ECELLAR185: najbardziej dopracowane zarządzanie winiarką</h3>
+<p><strong>ECELLAR185</strong> francuskiego producenta La Sommelière to winiarka do dojrzewania na 185 butelek, z dwiema strefami do użycia w trybie jedno- lub wielotemperaturowym, regulowanymi od 5 do 20 °C. Jej cecha wyróżniająca: 14 inteligentnych półek, każda z 12 czujnikami, czyli 168 miejsc, które automatycznie wykrywają dodane lub wyjęte butelki. Diody LED wskazują miejsce poszukiwanej butelki.</p>
+<p>Aplikacja Vinotag aktualizuje inwentarz w czasie rzeczywistym, pozwala skanować etykiety, aby rozpoznać wino, i podpowiada miejsce zależnie od typu wina i czasu leżakowania. Przez Wi-Fi zdalnie regulujesz też temperaturę i oświetlenie. W kwestii przechowywania są filtr z węglem aktywnym, silentbloki tłumiące wibracje, drzwi z hartowanego szkła z potrójną szybą i filtrem UV, zamek oraz alarmy wizualne i dźwiękowe.</p>
+<p><strong>Mocne strony:</strong> automatyczny inwentarz unikalny w tym zestawieniu, duża pojemność, dwie strefy, rozbudowana aplikacja.<br><strong>Ograniczenia:</strong> duże gabaryty (ponad 2 m wysokości, 72 cm szerokości), 41 dB, wyższe zużycie energii niż w małych modelach.<br><strong>Dla kogo:</strong> dla kolekcjonerów, którzy chcą w każdej chwili wiedzieć, co jest w winiarce, bez prowadzenia tabeli.</p>
+
+<h3>Haier Wine Bank 50 HWS77GDAU1: najlepszy stosunek wyposażenia do ceny</h3>
+<p><strong>HWS77GDAU1</strong> należy do serii Wine Bank 50 (Series 7). Mieści 77 butelek w dwóch niezależnych strefach: 5 do 10 °C dla win białych i musujących, 10 do 18 °C dla czerwonych. System Natural Airflow w połączeniu ze zbiornikiem na wodę celuje w wilgotność 50 do 70%, a filtr z węglem aktywnym oczyszcza powietrze.</p>
+<p>Łączy się przez Wi-Fi i Bluetooth, a steruje się nią aplikacją hOn od Haier, która pozwala też prowadzić inwentarz; funkcja Find Your Wine, opracowana z Vivino, rozpoznaje wino po zeskanowaniu etykiety. Funkcja Four Seasons dostosowuje pracę do temperatury otoczenia. Całość uzupełniają przeszklone drzwi z filtrem UV i zamkiem, bukowe półki, sprężarka na silentblokach i 37 dB.</p>
+<p><strong>Mocne strony:</strong> dwie dobrze oddzielone strefy, regulacja wilgotności, cicha praca, kompaktowy format (1,27 m wysokości).<br><strong>Ograniczenia:</strong> inwentarz ręczny lub przez skan, pojemność ograniczona jak na prawdziwą winiarkę do leżakowania, klasa G.<br><strong>Dla kogo:</strong> dla regularnych miłośników, którzy chcą jednocześnie serwować i przechowywać, bez przeznaczania na to całego pomieszczenia.</p>
+
+<h3>Liebherr WPbli 5231 GrandCru Selection: przechowywanie na dużą skalę</h3>
+<p><strong>WPbli 5231</strong> z serii GrandCru Selection to jednotemperaturowa winiarka do dojrzewania na 229 butelek, regulowana od 5 do 20 °C. Wykorzystuje doświadczenie Liebherr w chłodzeniu: cichą sprężarkę z technologią VibrateSafe, filtr FreshAir z węglem aktywnym, funkcję HumidityControl z pojemnikiem na wodę do suchych pomieszczeń, półki z litego buku i przeszklone drzwi z potrójną ochroną UV.</p>
+<p>Jest zgodna z aplikacją SmartDevice od Liebherr, która pozwala sprawdzać i zmieniać ustawienia zdalnie oraz przekazuje informacje bezpieczeństwa: alarm drzwi, alarm temperatury z podwójnym czujnikiem (TempProtect Plus), alert o braku prądu. Drzwi zamykają się samoczynnie i pozostają otwarte powyżej 90°, co ułatwia załadunek.</p>
+<p><strong>Mocne strony:</strong> duża pojemność, konstrukcja pomyślana pod długie leżakowanie, bardzo kompletne alarmy bezpieczeństwa.<br><strong>Ograniczenia:</strong> jedna strefa, a więc brak serwowania w dwóch temperaturach; brak automatycznego inwentarza; duże gabaryty (188 cm wysokości, 76 cm głębokości).<br><strong>Dla kogo:</strong> dla kolekcjonerów, którzy przechowują przede wszystkim wina do leżakowania i stawiają na niezawodność.</p>
+
+<h3>Haier Wine Bank 50 HWS42GDAU1: mała inteligentna winiarka</h3>
+<p>Młodsza siostra HWS77GDAU1, <strong>HWS42GDAU1</strong>, ma te same atuty w formacie na 42 butelki: dwie niezależne strefy, system Natural Airflow (wilgotność 50 do 70%), filtr z węglem aktywnym, drzwi z filtrem UV i zamkiem, sprężarkę na silentblokach, 37 dB oraz aplikację hOn z funkcją Find Your Wine.</p>
+<p><strong>Mocne strony:</strong> małe gabaryty, dwie strefy, te same funkcje inteligentne co w większych modelach serii.<br><strong>Ograniczenia:</strong> pojemność szybko się wyczerpuje, to raczej winiarka do serwowania niż do leżakowania.<br><strong>Dla kogo:</strong> dla mieszkań i miłośników, którzy trzymają pod ręką około trzydziestu butelek.</p>
+
+<p>Warto dodać: EuroCave, inny uznany francuski producent, oferuje swoją aplikację EuroCave Connect w meblu na wino Harmonie, modelu typu kredens z dwiema komorami, nastawionym bardziej na dekoracyjność niż na dużą pojemność.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Typ</th><th>Pojemność</th><th>Strefy i zakres</th><th>Aplikacja</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>La Sommelière ECELLAR185</strong></td><td>Do dojrzewania / uniwersalna</td><td>185 butelek</td><td>2 strefy, 5 do 20 °C</td><td>Vinotag (automatyczny inwentarz)</td><td>Kolekcja śledzona butelka po butelce</td></tr>
+<tr><td><strong>Haier HWS77GDAU1</strong></td><td>Uniwersalna</td><td>77 butelek</td><td>2 strefy: 5 do 10 °C i 10 do 18 °C</td><td>hOn (Wi-Fi + Bluetooth, skan Vivino)</td><td>Serwowanie i przechowywanie w średnim formacie</td></tr>
+<tr><td><strong>Liebherr WPbli 5231</strong></td><td>Do dojrzewania</td><td>229 butelek</td><td>1 strefa, 5 do 20 °C</td><td>SmartDevice (alarmy, ustawienia)</td><td>Duża winiarka do leżakowania</td></tr>
+<tr><td><strong>Haier HWS42GDAU1</strong></td><td>Do serwowania / uniwersalna</td><td>42 butelki</td><td>2 strefy</td><td>hOn (Wi-Fi + Bluetooth, skan Vivino)</td><td>Małe przestrzenie</td></tr>
+</tbody>
+</table>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Wybór winiarki do serwowania do leżakowania win:</strong> przy przechowywaniu przez kilka lat postaw na strefę ustawioną na około 12 °C i regulację wilgotności.</li>
+<li><strong>Niedoszacowanie pojemności:</strong> formaty inne niż bordoskie zajmują więcej miejsca, a kolekcja szybko rośnie.</li>
+<li><strong>Kupowanie wyłącznie dla aplikacji:</strong> słabo izolowana lub głośna winiarka pozostaje złą winiarką, nawet inteligentną. Najpierw liczą się kryteria przechowywania.</li>
+<li><strong>Lekceważenie zasięgu Wi-Fi:</strong> winiarka ustawiona w piwnicy lub w głębi garażu może znaleźć się poza zasięgiem routera. Sprawdź sygnał przed instalacją, w przeciwnym razie alerty zdalne nie będą działać.</li>
+<li><strong>Ignorowanie temperatury pomieszczenia:</strong> każda winiarka jest zaprojektowana na określony zakres temperatury otoczenia. Zajrzyj do instrukcji, zanim ustawisz ją w nieogrzewanym pomieszczeniu.</li>
+</ul>
+
+<h2>Instalacja i użytkowanie</h2>
+<p>Ustaw winiarkę na równej, stabilnej podłodze, z dala od źródeł ciepła (piekarnik, grzejnik, okno od południa), zachowując wolne przestrzenie wentylacyjne wskazane przez producenta: ma to szczególne znaczenie w modelach wolnostojących, jak te z tego przewodnika, które nie są przeznaczone do zabudowy. Po transporcie pozostaw urządzenie w pozycji pionowej na czas zalecany w instrukcji, zanim je podłączysz.</p>
+<p>Podłącz ją do gniazdka z uziemieniem i unikaj przedłużaczy oraz listew, jak zwykle zalecają producenci urządzeń chłodniczych. Poczekaj, aż temperatura się ustabilizuje, zanim załadujesz butelki, a następnie wypełniaj stopniowo. W aplikacji włącz co najmniej alerty temperatury i drzwi: to one uzasadniają połączenie, zwłaszcza podczas Twojej nieobecności. Pamiętaj wreszcie o wymianie filtra z węglem aktywnym z podaną częstotliwością (około co sześć miesięcy w Liebherr) i o uzupełnianiu zbiornika na wodę w modelach, które go mają.</p>
+
+<h2>Nasz werdykt</h2>
+<p>Jeśli chcesz winiarki, która naprawdę zarządza Twoją kolekcją, wyróżnia się <strong>La Sommelière ECELLAR185</strong> dzięki inteligentnym półkom i aplikacji Vinotag: to model z tego zestawienia, który najlepiej wykorzystuje połączenie. Do użytku mieszanego, serwowania i przechowywania, w bardziej przystępnej klasie, najbardziej wyważonym wyborem jest <strong>Haier HWS77GDAU1</strong>, a jej młodsza siostra <strong>HWS42GDAU1</strong> pasuje do małych przestrzeni. Wreszcie dla dużej jednotemperaturowej winiarki do leżakowania <strong>Liebherr WPbli 5231 GrandCru Selection</strong> oferuje największą pojemność i najbardziej kompletne alarmy bezpieczeństwa. W każdym przypadku sprawdź najpierw rzeczywistą pojemność, dostępne miejsce i temperaturę pomieszczenia: aplikacja jedynie uzupełnia dobre warunki przechowywania.</p>`,
   },
   faq: [
     {
@@ -521,6 +602,7 @@ export const article: BlogArticle = {
         es: "¿Qué diferencia hay entre una vinoteca de servicio y una de envejecimiento?",
         it: "Qual è la differenza tra una cantinetta di servizio e una d’invecchiamento?",
         nl: "Wat is het verschil tussen een serveerkast en een rijpingskast?",
+        pl: "Jaka jest różnica między winiarką do serwowania a winiarką do dojrzewania?",
       },
       answer: {
         fr: "La cave de service garde les vins à leur température de dégustation, souvent sur plusieurs zones, pour des bouteilles bues dans les mois qui suivent. La cave de vieillissement maintient une température unique et stable, autour de 12 °C, avec une hygrométrie suffisante pour une garde de plusieurs années. Une cave polyvalente combine les deux.",
@@ -529,6 +611,7 @@ export const article: BlogArticle = {
         es: "La vinoteca de servicio mantiene los vinos a temperatura de consumo, a menudo en varias zonas, para botellas que se abrirán en los meses siguientes. La de envejecimiento mantiene una única temperatura estable, en torno a 12 °C, con humedad suficiente para guardar varios años. Una polivalente combina ambas.",
         it: "La cantinetta di servizio mantiene i vini alla temperatura di consumo, spesso su più zone, per bottiglie da aprire nei mesi successivi. Quella d’invecchiamento mantiene un’unica temperatura stabile, intorno ai 12 °C, con umidità sufficiente per una conservazione di anni. Una polivalente unisce le due funzioni.",
         nl: "Een serveerkast houdt wijnen op drinktemperatuur, vaak in meerdere zones, voor flessen die je binnen enkele maanden opent. Een rijpingskast houdt één stabiele temperatuur rond 12 °C aan, met voldoende luchtvochtigheid om jaren te bewaren. Een multifunctionele kast combineert beide.",
+        pl: "Winiarka do serwowania utrzymuje wina w temperaturze podania, często w kilku strefach, dla butelek pitych w ciągu najbliższych miesięcy. Winiarka do dojrzewania utrzymuje jedną stabilną temperaturę, około 12 °C, z odpowiednią wilgotnością do przechowywania przez kilka lat. Winiarka uniwersalna łączy jedno i drugie.",
       },
     },
     {
@@ -539,6 +622,7 @@ export const article: BlogArticle = {
         es: "¿Merece la pena una vinoteca conectada?",
         it: "Una cantinetta vino connessa è davvero utile?",
         nl: "Is een verbonden wijnkast echt nuttig?",
+        pl: "Czy inteligentna winiarka naprawdę się przydaje?",
       },
       answer: {
         fr: "Elle l’est surtout si vous conservez des vins de valeur ou si vous vous absentez souvent : les alertes de température, de porte ouverte ou de coupure de courant permettent de réagir avant que les bouteilles ne souffrent. La gestion d’inventaire est un plus pour les grandes collections. Pour quelques bouteilles bues rapidement, une cave non connectée suffit.",
@@ -547,6 +631,7 @@ export const article: BlogArticle = {
         es: "Sobre todo si guardas vinos de valor o te ausentas a menudo: los avisos de temperatura, de puerta abierta o de corte de corriente permiten reaccionar antes de que las botellas sufran. La gestión del inventario es un extra para colecciones grandes. Para unas pocas botellas que se beben pronto, basta una vinoteca sin conexión.",
         it: "Lo è soprattutto se conservi vini di valore o sei spesso fuori casa: gli avvisi di temperatura, porta aperta o interruzione di corrente permettono di intervenire prima che le bottiglie ne risentano. La gestione dell’inventario è un vantaggio per le grandi collezioni. Per poche bottiglie bevute in fretta basta una cantinetta non connessa.",
         nl: "Vooral als je waardevolle wijnen bewaart of vaak weg bent: meldingen bij temperatuurafwijking, open deur of stroomuitval laten je ingrijpen voordat de flessen schade oplopen. Inventarisbeheer is een pluspunt voor grote collecties. Voor een paar flessen die je snel drinkt, volstaat een kast zonder verbinding.",
+        pl: "Przydaje się przede wszystkim wtedy, gdy przechowujesz cenne wina lub często wyjeżdżasz: alerty o temperaturze, otwartych drzwiach czy braku prądu pozwalają zareagować, zanim butelki ucierpią. Zarządzanie inwentarzem to plus dla dużych kolekcji. Przy kilku szybko wypijanych butelkach wystarczy winiarka bez połączenia.",
       },
     },
     {
@@ -557,6 +642,7 @@ export const article: BlogArticle = {
         es: "¿A qué temperatura se debe ajustar una vinoteca?",
         it: "A quale temperatura impostare una cantinetta vino?",
         nl: "Op welke temperatuur stel je een wijnkast in?",
+        pl: "Na jaką temperaturę ustawić winiarkę?",
       },
       answer: {
         fr: "Pour la conservation longue, une température stable d’environ 12 °C convient à tous les vins. Pour le service, comptez en général 6 à 8 °C pour les effervescents, 8 à 12 °C pour les blancs et rosés, et 14 à 18 °C pour les rouges selon leur structure. Avec une cave à deux zones, réglez l’une pour la garde et l’autre pour le service.",
@@ -565,6 +651,7 @@ export const article: BlogArticle = {
         es: "Para la conservación prolongada, una temperatura estable de unos 12 °C sirve para todos los vinos. Para servir, calcula en general de 6 a 8 °C para espumosos, de 8 a 12 °C para blancos y rosados, y de 14 a 18 °C para tintos según su cuerpo. Con dos zonas, ajusta una para guarda y otra para servicio.",
         it: "Per la conservazione prolungata, una temperatura stabile di circa 12 °C va bene per tutti i vini. Per il servizio si considerano in genere 6-8 °C per gli spumanti, 8-12 °C per bianchi e rosati e 14-18 °C per i rossi a seconda della struttura. Con due zone, impostane una per la conservazione e l’altra per il servizio.",
         nl: "Voor lange bewaring is een stabiele temperatuur van ongeveer 12 °C geschikt voor alle wijnen. Om te serveren reken je meestal op 6 tot 8 °C voor mousserende wijn, 8 tot 12 °C voor wit en rosé en 14 tot 18 °C voor rood, afhankelijk van de body. Met twee zones stel je er één in voor bewaren en één voor serveren.",
+        pl: "Przy długim przechowywaniu stabilna temperatura około 12 °C odpowiada wszystkim winom. Do serwowania licz zwykle 6 do 8 °C dla win musujących, 8 do 12 °C dla białych i różowych oraz 14 do 18 °C dla czerwonych, zależnie od ich struktury. W winiarce dwustrefowej ustaw jedną strefę do przechowywania, a drugą do serwowania.",
       },
     },
     {
@@ -575,6 +662,7 @@ export const article: BlogArticle = {
         es: "¿Qué capacidad elegir para una vinoteca?",
         it: "Quale capacità scegliere per una cantinetta vino?",
         nl: "Welke capaciteit kies je voor een wijnkast?",
+        pl: "Jaką pojemność winiarki wybrać?",
       },
       answer: {
         fr: "Partez de votre stock actuel et ajoutez au moins 20 à 30 % : les capacités sont annoncées en bouteilles bordelaises de 75 cl, et les bourguignonnes ou bouteilles de champagne prennent plus de place. Une cave de 40 bouteilles convient à un usage de service, 70 à 80 bouteilles à un amateur régulier, et plus de 150 bouteilles à une vraie collection.",
@@ -583,6 +671,7 @@ export const article: BlogArticle = {
         es: "Parte de tu stock actual y suma al menos un 20 o 30 %: la capacidad se indica en botellas bordelesas de 75 cl, y las de tipo borgoña o de champán ocupan más. Unas 40 botellas bastan para servicio, de 70 a 80 para un aficionado habitual y más de 150 para una verdadera colección.",
         it: "Parti dalla tua scorta attuale e aggiungi almeno il 20-30 %: la capacità è indicata in bottiglie bordolesi da 75 cl, e borgognotte o bottiglie di champagne occupano più spazio. Circa 40 bottiglie bastano per il servizio, 70-80 per un appassionato abituale e oltre 150 per una vera collezione.",
         nl: "Ga uit van je huidige voorraad en tel er minstens 20 tot 30% bij: de capaciteit wordt opgegeven in bordeauxflessen van 75 cl, en bourgogne- of champagneflessen nemen meer ruimte in. Zo’n 40 flessen volstaat om te serveren, 70 tot 80 voor een regelmatige wijndrinker en meer dan 150 voor een echte collectie.",
+        pl: "Zacznij od obecnych zasobów i dodaj co najmniej 20 do 30%: pojemności podaje się dla butelek bordoskich 0,75 l, a butelki burgundzkie czy szampana zajmują więcej miejsca. Winiarka na 40 butelek wystarczy do serwowania, 70 do 80 butelek to wybór dla regularnego miłośnika, a ponad 150 butelek dla prawdziwej kolekcji.",
       },
     },
     {
@@ -593,6 +682,7 @@ export const article: BlogArticle = {
         es: "¿Dónde instalar una vinoteca inteligente?",
         it: "Dove installare una cantinetta vino smart?",
         nl: "Waar plaats je een slimme wijnkast?",
+        pl: "Gdzie ustawić inteligentną winiarkę?",
       },
       answer: {
         fr: "Dans une pièce dont la température reste dans la plage prévue par le fabricant, loin des sources de chaleur et du soleil direct, sur un sol plan, avec les dégagements de ventilation indiqués dans la notice. Vérifiez aussi que le Wi-Fi y est bien capté : sans connexion, les alertes à distance ne fonctionnent pas.",
@@ -601,6 +691,7 @@ export const article: BlogArticle = {
         es: "En una estancia cuya temperatura se mantenga dentro del rango indicado por el fabricante, lejos de fuentes de calor y del sol directo, sobre un suelo nivelado y con las distancias de ventilación del manual. Comprueba también la cobertura Wi-Fi: sin conexión, los avisos a distancia no funcionan.",
         it: "In un locale la cui temperatura resti nell’intervallo indicato dal produttore, lontano da fonti di calore e dal sole diretto, su un pavimento in piano e con le distanze di ventilazione riportate nel manuale. Verifica anche la copertura Wi-Fi: senza connessione, gli avvisi a distanza non funzionano.",
         nl: "In een ruimte waarvan de temperatuur binnen het door de fabrikant opgegeven bereik blijft, uit de buurt van warmtebronnen en direct zonlicht, op een vlakke vloer en met de ventilatieafstanden uit de handleiding. Controleer ook het wifisignaal: zonder verbinding werken de meldingen op afstand niet.",
+        pl: "W pomieszczeniu, w którym temperatura mieści się w zakresie przewidzianym przez producenta, z dala od źródeł ciepła i bezpośredniego słońca, na równej podłodze, z zachowaniem wolnych przestrzeni wentylacyjnych wskazanych w instrukcji. Sprawdź też, czy łapie tam Wi-Fi: bez połączenia alerty zdalne nie działają.",
       },
     },
     {
@@ -611,6 +702,7 @@ export const article: BlogArticle = {
         es: "¿Hace falta una suscripción para usar la aplicación de una vinoteca conectada?",
         it: "Serve un abbonamento per usare l’app di una cantinetta connessa?",
         nl: "Heb je een abonnement nodig voor de app van een slimme wijnkast?",
+        pl: "Czy do korzystania z aplikacji inteligentnej winiarki potrzebny jest abonament?",
       },
       answer: {
         fr: "Les applications des fabricants présentées ici (Vinotag, hOn, SmartDevice) se téléchargent gratuitement sur iOS et Android pour piloter la cave. Les conditions d’éventuels services complémentaires pouvant évoluer, vérifiez-les sur la fiche du fabricant avant l’achat.",
@@ -619,6 +711,7 @@ export const article: BlogArticle = {
         es: "Las aplicaciones de los fabricantes que aparecen aquí (Vinotag, hOn, SmartDevice) se descargan gratis en iOS y Android para controlar la vinoteca. Como las condiciones de posibles servicios adicionales pueden cambiar, compruébalas en la web del fabricante antes de comprar.",
         it: "Le app dei produttori presentate qui (Vinotag, hOn, SmartDevice) si scaricano gratuitamente su iOS e Android per controllare la cantinetta. Poiché le condizioni di eventuali servizi aggiuntivi possono cambiare, verificale sul sito del produttore prima dell’acquisto.",
         nl: "De apps van de fabrikanten in deze gids (Vinotag, hOn, SmartDevice) zijn gratis te downloaden voor iOS en Android om de kast te bedienen. Omdat de voorwaarden van eventuele extra diensten kunnen veranderen, controleer je die vóór aankoop op de site van de fabrikant.",
+        pl: "Aplikacje producentów przedstawione tutaj (Vinotag, hOn, SmartDevice) można pobrać bezpłatnie na iOS i Androida, aby sterować winiarką. Warunki ewentualnych usług dodatkowych mogą się zmieniać, więc sprawdź je w karcie producenta przed zakupem.",
       },
     },
   ],

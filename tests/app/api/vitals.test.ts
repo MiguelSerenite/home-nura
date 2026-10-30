@@ -1,3 +1,4 @@
+import { LANGUAGES } from '@/lib/i18n'
 import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { POST, GET } from '@/app/api/vitals/route'
 import { __resetRateLimitForTests } from '@/lib/rate-limit'
@@ -48,7 +49,7 @@ describe('POST /api/vitals', () => {
   })
 
   it('accepts every supported locale', async () => {
-    for (const lang of ['fr', 'en', 'de', 'es', 'it', 'nl']) {
+    for (const lang of LANGUAGES) {
       const res = await POST(makeRequest({ ...validPayload, lang }, `ip-${lang}`))
       expect(res.status, `lang ${lang}`).toBe(204)
     }

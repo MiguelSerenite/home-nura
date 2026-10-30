@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Panel solar de balcón fijado a la barandilla de un edificio de ladrillo',
         it: 'Pannello solare da balcone fissato alla ringhiera di un palazzo in mattoni',
         nl: 'Balkonzonnepaneel bevestigd aan de balustrade van een bakstenen appartementengebouw',
+        pl: 'Panel słoneczny do elektrowni balkonowej zamocowany do balustrady ceglanego bloku',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Panel Solar de Balcón (Balkonkraftwerk) 2026: Normas, Rendimiento y Mejores Kits',
     it: 'Pannello Solare da Balcone (Balkonkraftwerk) 2026: Regole, Resa e Migliori Kit',
     nl: 'Balkonzonnepaneel (Balkonkraftwerk) 2026: Regels, Opbrengst en Beste Sets',
+    pl: 'Elektrownia balkonowa (Balkonkraftwerk) 2026: poradnik, przepisy i najlepsze zestawy',
   },
   excerpt: {
     fr: 'Comment fonctionne un panneau solaire de balcon, ce que dit la réglementation en 2026 (800 W en Allemagne, déclaration Enedis en France), combien il produit et quel micro-onduleur ou système avec batterie choisir : Hoymiles, Anker SOLIX, EcoFlow, Zendure.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Cómo funciona un panel solar de balcón, qué dicen las normas en 2026 (800 W en Alemania, declaración en Francia), cuánto produce y qué microinversor o sistema con batería elegir: Hoymiles, Anker SOLIX, EcoFlow, Zendure.',
     it: 'Come funziona un pannello solare da balcone, cosa prevedono le regole nel 2026 (800 W in Germania, dichiarazione in Francia), quanto produce e quale microinverter o sistema con batteria scegliere: Hoymiles, Anker SOLIX, EcoFlow, Zendure.',
     nl: 'Hoe een balkonzonnepaneel werkt, wat de regels in 2026 zeggen (800 W in Duitsland, melding in Frankrijk), hoeveel het opwekt en welke micro-omvormer of batterijsysteem je kiest: Hoymiles, Anker SOLIX, EcoFlow, Zendure.',
+    pl: 'Jak działa elektrownia balkonowa, co mówią przepisy w 2026 roku (800 W w Niemczech, zgłoszenie do Enedis we Francji), ile energii produkuje i jaki mikroinwerter lub system z akumulatorem wybrać: Hoymiles, Anker SOLIX, EcoFlow, Zendure.',
   },
   content: {
     fr: `<p><strong>Un panneau solaire de balcon, ou Balkonkraftwerk, est un petit kit photovoltaïque composé d'un ou deux panneaux et d'un micro-onduleur, en général limité à 800 W, qui alimente directement les appareils de votre logement et réduit la quantité d'électricité achetée.</strong> En 2026, le meilleur point de départ pour la plupart des foyers reste un kit simple de deux panneaux associé à un micro-onduleur de 800 VA comme le Hoymiles HMS-800W-2T ; si vous êtes absent en journée, un système avec batterie comme l'Anker SOLIX Solarbank 3 E2700 Pro ou l'EcoFlow STREAM Ultra permet d'utiliser le soir l'énergie produite à midi.</p>
@@ -542,6 +545,89 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Is er overdag iemand thuis, dan biedt een set van twee panelen met een micro-omvormer van 800 VA zoals de <strong>Hoymiles HMS-800W-2T</strong> de beste balans tussen eenvoud, betrouwbaarheid en besparing. De <strong>Anker SOLIX MI80</strong> is een degelijk alternatief voor wie een consumentvriendelijke app wil. Verbruik je vooral 's avonds, wat na het einde van de saldering zwaarder gaat wegen, dan is de <strong>Anker SOLIX Solarbank 3 E2700 Pro</strong> het meest complete batterijsysteem; de <strong>EcoFlow STREAM Ultra</strong> past beter bij kleine balkons, en de <strong>Zendure SolarFlow 800 Pro 2</strong> bij wie de opslag stap voor stap wil uitbreiden. Meld de installatie in alle gevallen en laat de aansluiting controleren.</p>`,
+    pl: `<p><strong>Elektrownia balkonowa, czyli Balkonkraftwerk, to niewielki zestaw fotowoltaiczny złożony z jednego lub dwóch paneli i mikroinwertera, zazwyczaj o mocy ograniczonej do 800 W, który zasila bezpośrednio urządzenia w mieszkaniu i zmniejsza ilość energii kupowanej z sieci.</strong> W 2026 roku najlepszym punktem wyjścia dla większości gospodarstw domowych pozostaje prosty zestaw z dwoma panelami i mikroinwerterem 800 VA, takim jak Hoymiles HMS-800W-2T; jeśli w ciągu dnia nikogo nie ma w domu, system z akumulatorem, np. Anker SOLIX Solarbank 3 E2700 Pro lub EcoFlow STREAM Ultra, pozwala wykorzystać wieczorem energię wyprodukowaną w południe.</p>
+<p>Ten poradnik opiera się na kartach katalogowych producentów, opublikowanych niezależnych testach i zweryfikowanych opiniach kupujących. Wyjaśnia zasadę działania, znane przepisy w głównych krajach europejskich, kryteria wyboru oraz najczęstsze błędy. Wszystkie dostępne zestawy znajdziesz w naszej sekcji <a href="/pl/energie-domotique/solaire-balcon">elektrownie balkonowe</a>.</p>
+
+<h2>Jak działa elektrownia balkonowa</h2>
+<p>Zestaw balkonowy składa się z trzech elementów: jednego lub dwóch <strong>paneli fotowoltaicznych</strong> (często po 400–500 Wp każdy), <strong>mikroinwertera</strong>, który zamienia prąd stały z paneli na prąd przemienny 230 V zsynchronizowany z siecią, oraz <strong>kabla przyłączeniowego</strong> do instalacji elektrycznej mieszkania. Do tego dochodzi system mocowania na balustradę, ścianę, dach płaski lub grunt.</p>
+<p>Zasada działania to <strong>autokonsumpcja</strong>: wyprodukowana energia krąży w domowym obwodzie i jest zużywana w pierwszej kolejności przez włączone urządzenia (lodówka, router, urządzenia w trybie czuwania, pralka). To, czego nie zużyjesz na bieżąco, trafia do sieci publicznej, zazwyczaj bez wynagrodzenia. Mikroinwerter wyłącza się automatycznie w razie zaniku napięcia w sieci, aby nie podawać napięcia do linii, na której trwają prace.</p>
+<p>Warto rozróżnić dwie wartości: <strong>moc szczytową paneli</strong> (Wp), która określa ich maksymalną wydajność w pełnym słońcu, oraz <strong>moc wyjściową falownika</strong> (W lub VA), która ogranicza ilość energii podawanej do instalacji w mieszkaniu. Połączenie 900 Wp paneli z falownikiem 800 VA jest częstą praktyką: falownik przycina produkcję przez kilka godzin w roku w pełni lata, ale rośnie produkcja rano, wieczorem i w pochmurne dni.</p>
+
+<h2>Przepisy 2026: co wiadomo w poszczególnych krajach</h2>
+<p>Przepisy szybko się zmieniają i różnią się w zależności od kraju. Poniżej znajdziesz ustalone zasady na dzień aktualizacji tego poradnika; przed zakupem zawsze sprawdź je u swojego operatora sieci.</p>
+<h3>Niemcy</h3>
+<p>Od wejścia w życie Solarpaket I w maju 2024 roku Balkonkraftwerk może mieć <strong>falownik do 800 VA</strong> i <strong>do 2000 Wp paneli</strong>. Zgłoszenie ogranicza się do <strong>bezpłatnej rejestracji w Marktstammdatenregister</strong> prowadzonym przez Bundesnetzagentur; odrębne powiadomienie operatora sieci zniesiono. Stary licznik bez blokady zwrotnej można zachować do czasu jego wymiany przez operatora. Norma produktowa DIN VDE V 0126-95, opublikowana pod koniec 2025 roku, reguluje podłączenie przez wtyczkę Schuko pod pewnymi warunkami dotyczącymi mocy paneli; powyżej tego progu wymagane jest specjalne gniazdo przyłączeniowe. Wreszcie od października 2024 roku najemcy i współwłaściciele mogą zażądać zainstalowania takiego urządzenia, a wynajmujący lub wspólnota może odmówić tylko z poważnego powodu, zachowując jednocześnie prawo wglądu w sposób montażu.</p>
+<h3>Francja</h3>
+<p>We Francji instalacja jest legalna, ale musi zostać <strong>zgłoszona do Enedis</strong> (lub do lokalnego operatora sieci) w ramach <strong>umowy o autokonsumpcji bez wprowadzania energii do sieci (CACSI)</strong>; jest to bezpłatna procedura online, niezależnie od mocy. Ewentualna nadwyżka wprowadzona do sieci nie jest wynagradzana. Od strony elektrycznej podłączenie reguluje norma NF C 15-100: należy unikać podłączenia do zwykłego gniazdka współdzielonego z innymi urządzeniami lub do listwy zasilającej, a zalecanym rozwiązaniem jest <strong>dedykowany, zabezpieczony obwód</strong> sprawdzony przez wykwalifikowanego elektryka. Od strony prawa budowlanego widoczny panel zamocowany na elewacji lub balustradzie może wymagać <strong>zgłoszenia wstępnego w urzędzie gminy (mairie)</strong>, a we wspólnocie mieszkaniowej zazwyczaj potrzebna jest zgoda zgromadzenia ogólnego. Najemcy muszą uzyskać pisemną zgodę właściciela.</p>
+<h3>Inne kraje</h3>
+<ul>
+<li><strong>Holandia:</strong> zestawy typu plug-in są powszechne i trzeba je zgłosić operatorowi sieci. System rozliczeń (saldering) kończy się 1 stycznia 2027 roku: od tej daty bezpośrednia autokonsumpcja staje się bardziej opłacalna niż oddawanie energii do sieci.</li>
+<li><strong>Belgia, Hiszpania, Włochy:</strong> małe instalacje są dozwolone po uproszczonym zgłoszeniu u operatora sieci, na zasadach właściwych dla danego kraju lub regionu. Zorientuj się przed zakupem.</li>
+<li><strong>Wielka Brytania:</strong> rząd otworzył drogę zestawom plug-in w 2026 roku, z mocą wyjściową ograniczoną do 800 VA i zestawami spełniającymi dedykowaną specyfikację produktową.</li>
+</ul>
+
+<h2>Kryteria wyboru</h2>
+<h3>Sam mikroinwerter czy system z akumulatorem</h3>
+<p>Zestaw bez akumulatora jest najprostszą opcją i zwraca się najszybciej: wszystko, co zostanie wyprodukowane w ciągu dnia i zużyte na miejscu, to czysty zysk. System z akumulatorem (podłączonym po stronie prądu stałego, między panelami a falownikiem) magazynuje południową nadwyżkę, aby oddać ją wieczorem. Uzasadniony jest przede wszystkim wtedy, gdy w ciągu dnia nikogo nie ma w domu. Aby lepiej przemyśleć ten wybór, przeczytaj nasze <a href="/pl/blog/batterie-domestique-stockage-solaire">porównanie domowych magazynów energii do instalacji solarnych</a>.</p>
+<h3>Liczba wejść MPPT</h3>
+<p>Każde wejście MPPT optymalizuje pracę jednego panelu niezależnie od pozostałych. Dwa wejścia wystarczą dla dwóch paneli; cztery pozwalają rozmieścić cztery panele o różnych orientacjach (np. na wschód i na zachód), w granicach mocy paneli dozwolonej w Twoim kraju.</p>
+<h3>Panele i mocowanie</h3>
+<p>Standardem są panele monokrystaliczne o mocy 400–500 Wp. Modele <strong>bifacjalne szkło-szkło</strong> wychwytują także światło odbite i lepiej znoszą upływ czasu. Sprawdź wagę (często ponad 20 kg na panel), wytrzymałość balustrady i jakość uchwytów: źle zamocowany panel narażony na wiatr to główne ryzyko związane z zestawem balkonowym.</p>
+<h3>Aplikacja i pomiar zużycia</h3>
+<p>Aplikacja pokazująca produkcję w czasie rzeczywistym pomaga przesunąć pracę urządzeń (pralka, zmywarka) na godziny nasłonecznione. W przypadku akumulatora licznik lub <a href="/pl/blog/comparatif-smart-plugs-mesure-energie">inteligentne gniazdko z pomiarem energii</a> pozwala dopasować oddawanie energii do rzeczywistego zużycia i uniknąć zwracania zmagazynowanej energii do sieci.</p>
+<h3>Gwarancja i zgodność</h3>
+<p>Wybierz falownik zgodny z europejskimi normami przyłączeniowymi (w tym z zabezpieczeniem od pracy wyspowej), z gwarancją co najmniej dziesięć lat na falownik oraz z gwarancją wydajności paneli na 25 lat lub dłużej.</p>
+
+<h2>Modele referencyjne w 2026 roku</h2>
+<h3>Hoymiles HMS-800W-2T: mikroinwerter referencyjny dla prostego zestawu</h3>
+<p>HMS-800W-2T jest stosowany w dużej części zestawów balkonowych sprzedawanych w Europie. Zapewnia <strong>800 VA</strong>, obsługuje dwa panele na <strong>dwóch niezależnych wejściach MPPT</strong> i ma wbudowane <strong>Wi-Fi</strong>, więc nie trzeba dokupować bramki komunikacyjnej. Monitoring odbywa się w aplikacji S-Miles Cloud. Obudowa IP67, chłodzenie pasywne bez wentylatora.</p>
+<p><strong>Mocne strony:</strong> uznana niezawodność, szeroka zgodność z panelami od 320 do ponad 500 Wp, wiele gotowych zestawów zbudowanych wokół tego modelu. <strong>Ograniczenia:</strong> brak magazynowania; aplikacja jest bardziej techniczna niż u marek konsumenckich. <strong>Dla kogo:</strong> gospodarstwa, w których w ciągu dnia ktoś jest w domu i które chcą najprostszego, najbardziej opłacalnego rozwiązania.</p>
+<h3>Anker SOLIX MI80: alternatywa od popularnej marki</h3>
+<p>MI80 to mikroinwerter w zestawach balkonowych Anker. Jego moc wyjściową można ustawić w aplikacji na <strong>600 lub 800 W</strong>, ma <strong>dwa wejścia MPPT</strong>, Wi-Fi i Bluetooth, obudowę IP67 oraz dziesięcioletnią gwarancję.</p>
+<p><strong>Mocne strony:</strong> przejrzysta aplikacja Anker, prowadzona konfiguracja. <strong>Ograniczenia:</strong> szczegółowa historia jest mniej rozbudowana niż w systemach z akumulatorem tej marki. <strong>Dla kogo:</strong> osoby, które wolą ekosystem popularnej marki i obsługę klienta producenta.</p>
+<h3>Anker SOLIX Solarbank 3 E2700 Pro: najlepszy system z magazynowaniem energii</h3>
+<p>Solarbank 3 E2700 Pro łączy akumulator, regulatory i falownik w jednej obudowie. Magazynuje <strong>2,688 kWh</strong>, przyjmuje do <strong>3600 Wp paneli na czterech wejściach MPPT</strong> i oddaje <strong>800 W</strong> do gniazdka. Jego pojemność można zwiększyć dodatkowymi akumulatorami, a dzięki inteligentnemu licznikowi może śledzić zużycie energii w domu.</p>
+<p><strong>Mocne strony:</strong> duża pojemność bazowa, możliwość rozbudowy, zaawansowane sterowanie. <strong>Ograniczenia:</strong> duży i ciężki; w Niemczech podłączona moc paneli musi mieścić się w limicie 2000 Wp. <strong>Dla kogo:</strong> gospodarstwa nieobecne w ciągu dnia, które zużywają energię głównie wieczorem.</p>
+<h3>EcoFlow STREAM Ultra: kompaktowy system all-in-one</h3>
+<p>STREAM Ultra ma wbudowany akumulator LiFePO4 o pojemności <strong>1,92 kWh</strong>, <strong>cztery wejścia MPPT po 500 W</strong> (łącznie 2000 W) oraz falownik, który oddaje <strong>800 W</strong> do domowej sieci, z wyjściem off-grid do 1200 W. Obudowa IP65 do montażu na zewnątrz, Wi-Fi i Bluetooth, dziesięcioletnia gwarancja.</p>
+<p><strong>Mocne strony:</strong> kompaktowy format na balkon, możliwość zwiększenia pojemności dodatkowymi akumulatorami z serii STREAM. <strong>Ograniczenia:</strong> mniejsza pojemność bazowa niż w Solarbank 3. <strong>Dla kogo:</strong> małe balkony oraz osoby, które chcą dyskretnego i rozbudowywalnego systemu.</p>
+<h3>Zendure SolarFlow 800 Pro 2: najbardziej rozbudowywalna opcja</h3>
+<p>Mniejszy i lżejszy następca SolarFlow 800 Pro. Model 800 Pro 2 zachowuje akumulator <strong>1,92 kWh</strong> z możliwością rozbudowy do <strong>11,52 kWh</strong>, <strong>cztery wejścia MPPT</strong> (do 2640 Wp) oraz dwukierunkowy falownik 800 W po stronie sieci i 1000 W na wyjściu awaryjnym.</p>
+<p><strong>Mocne strony:</strong> możliwość uzyskania bardzo dużej pojemności, ładowanie z sieci. <strong>Ograniczenia:</strong> wiele ustawień, produkt dla użytkowników, którzy lubią optymalizować. <strong>Dla kogo:</strong> osoby, które chcą zacząć od małego systemu i później dodać magazyn energii.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Typ</th><th>Kluczowa cecha</th><th>Łączność</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Hoymiles HMS-800W-2T</strong></td><td>Mikroinwerter</td><td>800 VA, 2 MPPT, IP67</td><td>Wbudowane Wi-Fi</td><td>Prosty zestaw, obecność w domu w ciągu dnia</td></tr>
+<tr><td><strong>Anker SOLIX MI80</strong></td><td>Mikroinwerter</td><td>600/800 W regulowane, 2 MPPT</td><td>Wi-Fi, Bluetooth</td><td>Ekosystem popularnej marki</td></tr>
+<tr><td><strong>Anker SOLIX Solarbank 3 E2700 Pro</strong></td><td>System z akumulatorem</td><td>2,688 kWh, 4 MPPT, rozbudowywalny</td><td>Wi-Fi, Bluetooth</td><td>Zużycie głównie wieczorem</td></tr>
+<tr><td><strong>EcoFlow STREAM Ultra</strong></td><td>System z akumulatorem</td><td>1,92 kWh, 4 MPPT, IP65</td><td>Wi-Fi, Bluetooth</td><td>Mały balkon, kompaktowy format</td></tr>
+<tr><td><strong>Zendure SolarFlow 800 Pro 2</strong></td><td>System z akumulatorem</td><td>1,92 kWh, rozbudowa do 11,52 kWh</td><td>Wi-Fi, Bluetooth</td><td>Rozbudowywalne magazynowanie</td></tr>
+</tbody>
+</table>
+
+<h2>Ile energii produkuje elektrownia balkonowa?</h2>
+<p>Produkcja zależy przede wszystkim od orientacji, nachylenia, zacienienia i regionu. Jako rząd wielkości: zestaw o mocy około 800–900 Wp skierowany na południe i nachylony pod kątem około 30° zwykle produkuje <strong>700–900 kWh rocznie</strong> w północnej Francji, Belgii lub Niemczech, a więcej w południowej Europie. Ten sam zestaw zamontowany pionowo na balustradzie produkuje wyraźnie mniej, często o około jedną trzecią. Orientacja wschodnia lub zachodnia nadal jest opłacalna, a produkcja jest lepiej rozłożona w ciągu dnia.</p>
+<p>Aby oszacować swój przypadek, skorzystaj z bezpłatnego narzędzia symulacyjnego PVGIS Komisji Europejskiej, które oblicza oczekiwaną produkcję na podstawie adresu, orientacji i nachylenia. Bez akumulatora część faktycznie zużyta na miejscu zależy od Twojej obecności w domu: jest wysoka, jeśli w ciągu dnia ktoś jest w domu, a niższa w przeciwnym razie. Oszczędność oblicza się potem prosto: zużyte na miejscu kWh razy cena Twojej kWh.</p>
+<p>Produkcja koncentruje się od kwietnia do września; zimą krótkie dni i niskie słońce wyraźnie ją zmniejszają.</p>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Podłączanie zestawu do listwy zasilającej lub przedłużacza:</strong> grozi to przegrzaniem. Użyj stałego gniazdka, najlepiej na dedykowanym obwodzie sprawdzonym przez elektryka.</li>
+<li><strong>Zaniedbanie mocowania:</strong> wiatr wywiera na panel duże siły. Użyj odpowiednich uchwytów i sprawdź wytrzymałość balustrady.</li>
+<li><strong>Zapomnienie o zgłoszeniu:</strong> Enedis we Francji, Marktstammdatenregister w Niemczech, operator sieci w innych krajach.</li>
+<li><strong>Przewymiarowanie akumulatora:</strong> akumulator zbyt duży w stosunku do produkcji przez większą część roku pozostaje w połowie pusty.</li>
+<li><strong>Ignorowanie zacienienia:</strong> drzewo lub sąsiedni balkon przesłaniający panel w południe może znacznie obniżyć produkcję.</li>
+</ul>
+
+<h2>Instalacja i bezpieczeństwo</h2>
+<p>Panele łączy się z falownikiem szczelnymi złączami MC4. Falownik mocuje się z dala od bezpośredniego słońca, za panelem lub pod balustradą. Przed podłączeniem poproś elektryka o sprawdzenie, czy dany obwód jest zabezpieczony odpowiednim wyłącznikiem nadprądowym i wyłącznikiem różnicowoprądowym 30 mA oraz czy nie jest już obciążony mocnymi urządzeniami. Nigdy nie manipuluj kablami paneli w pełnym słońcu z otwartymi złączami: są pod napięciem, gdy tylko padnie na nie światło. Aby jeszcze bardziej obniżyć rachunki, zajrzyj do naszego <a href="/pl/blog/guide-domotique-economie-energie-2026">poradnika o inteligentnym domu i oszczędzaniu energii</a>.</p>
+
+<h2>Nasz werdykt</h2>
+<p>Jeśli w ciągu dnia ktoś jest w domu, zestaw z dwoma panelami i mikroinwerterem 800 VA, takim jak <strong>Hoymiles HMS-800W-2T</strong>, oferuje najlepszy stosunek prostoty, niezawodności i oszczędności. <strong>Anker SOLIX MI80</strong> to solidna alternatywa dla osób, które wolą aplikację popularnej marki. Jeśli Twoje zużycie koncentruje się wieczorem, <strong>Anker SOLIX Solarbank 3 E2700 Pro</strong> jest najbardziej kompletnym systemem z akumulatorem; <strong>EcoFlow STREAM Ultra</strong> lepiej sprawdzi się na małych balkonach, a <strong>Zendure SolarFlow 800 Pro 2</strong> u tych, którzy chcą rozbudowywać magazyn energii etapami. W każdym przypadku zgłoś instalację i poproś o sprawdzenie przyłącza.</p>`,
   },
   faq: [
     {
@@ -552,6 +638,7 @@ export const article: BlogArticle = {
         es: '¿Es legal un panel solar de balcón en 2026?',
         it: 'Il pannello solare da balcone è legale nel 2026?',
         nl: 'Is een balkonzonnepaneel in 2026 toegestaan?',
+        pl: 'Czy elektrownia balkonowa jest legalna we Francji w 2026 roku?',
       },
       answer: {
         fr: 'Oui. L\'installation doit être déclarée gratuitement à Enedis (ou à votre gestionnaire de réseau local) via une convention d\'autoconsommation sans injection (CACSI). Un raccordement sur un circuit dédié vérifié par un électricien est recommandé, un panneau visible en façade peut nécessiter une déclaration préalable en mairie, et en copropriété l\'accord de l\'assemblée générale est généralement requis.',
@@ -560,6 +647,7 @@ export const article: BlogArticle = {
         es: 'En la mayor parte de Europa, sí, con un trámite sencillo. En España el autoconsumo está regulado por el Real Decreto 244/2019 y la instalación debe comunicarse a la distribuidora y registrarse según tu comunidad autónoma. En Alemania basta con registrarla en el Marktstammdatenregister y en Francia con declararla a Enedis. En comunidad de propietarios, consulta a la junta.',
         it: 'Sì, con una procedura semplice. In Italia i piccoli impianti plug & play si comunicano al distributore tramite il Modello Unico; in Germania basta la registrazione nel Marktstammdatenregister e in Francia la dichiarazione a Enedis. In condominio verifica il regolamento e informa l\'amministratore; in affitto serve il consenso scritto del proprietario.',
         nl: 'Ja. In Nederland meld je de installatie bij je netbeheerder en sluit je aan op een vast stopcontact, nooit op een stekkerdoos. In een appartement heb je vaak toestemming van de VvE nodig, en als huurder schriftelijke toestemming van de verhuurder. In Duitsland volstaat registratie in het Marktstammdatenregister, in Frankrijk een melding bij Enedis.',
+        pl: 'Tak. Instalację trzeba bezpłatnie zgłosić do Enedis (lub do lokalnego operatora sieci) w ramach umowy o autokonsumpcji bez wprowadzania energii do sieci (CACSI). Zalecane jest podłączenie do dedykowanego obwodu sprawdzonego przez elektryka, widoczny na elewacji panel może wymagać zgłoszenia wstępnego w urzędzie gminy (mairie), a we wspólnocie mieszkaniowej zazwyczaj potrzebna jest zgoda zgromadzenia ogólnego. W innych krajach zasady są inne, więc przed zakupem sprawdź przepisy obowiązujące w miejscu instalacji.',
       },
     },
     {
@@ -570,6 +658,7 @@ export const article: BlogArticle = {
         es: '¿Qué potencia máxima puede tener un kit solar de balcón?',
         it: 'Qual è la potenza massima di un kit solare da balcone?',
         nl: 'Wat is het maximale vermogen van een balkonset?',
+        pl: 'Jaka jest maksymalna moc zestawu balkonowego?',
       },
       answer: {
         fr: 'La référence européenne est une sortie d\'onduleur de 800 W (ou 800 VA). En Allemagne, la loi fixe 800 VA d\'onduleur et jusqu\'à 2 000 Wc de panneaux. En France, il n\'existe pas de régime aussi détaillé : la plupart des kits vendus sont limités à 800 W, et la puissance doit rester compatible avec le circuit utilisé, à faire vérifier par un électricien.',
@@ -578,6 +667,7 @@ export const article: BlogArticle = {
         es: 'La referencia europea es una salida de inversor de 800 W (u 800 VA). Alemania fija por ley 800 VA de inversor y hasta 2.000 Wp de paneles. En otros países, la potencia debe ser compatible con el circuito y con las normas locales: consulta a un instalador autorizado.',
         it: 'Il riferimento europeo è un\'uscita dell\'inverter di 800 W (o 800 VA). La Germania fissa per legge 800 VA di inverter e fino a 2.000 Wp di pannelli. In Italia verifica i limiti previsti per gli impianti plug & play con il distributore e fai controllare il circuito da un elettricista.',
         nl: 'De Europese referentie is een omvormervermogen van 800 W (of 800 VA). Duitsland legt wettelijk 800 VA omvormervermogen en maximaal 2.000 Wp aan panelen vast. In Nederland moet het vermogen passen bij de groep waarop je aansluit; laat dat bij twijfel door een installateur controleren.',
+        pl: 'Europejskim punktem odniesienia jest moc wyjściowa falownika 800 W (lub 800 VA). W Niemczech ustawa określa 800 VA falownika i do 2000 Wp paneli. We Francji nie ma tak szczegółowego reżimu: większość sprzedawanych zestawów jest ograniczona do 800 W, a moc musi być zgodna z używanym obwodem, co warto zlecić do sprawdzenia elektrykowi.',
       },
     },
     {
@@ -588,6 +678,7 @@ export const article: BlogArticle = {
         es: '¿Cuánta electricidad produce un panel solar de balcón?',
         it: 'Quanta elettricità produce un pannello solare da balcone?',
         nl: 'Hoeveel stroom wekt een balkonzonnepaneel op?',
+        pl: 'Ile energii elektrycznej produkuje elektrownia balkonowa?',
       },
       answer: {
         fr: 'Un kit d\'environ 800 à 900 Wc orienté plein sud et incliné vers 30° produit couramment 700 à 900 kWh par an dans le nord de la France, et davantage dans le sud. Posé à la verticale sur une rambarde, il produit souvent un tiers de moins. L\'outil gratuit PVGIS de la Commission européenne donne une estimation pour votre adresse.',
@@ -596,6 +687,7 @@ export const article: BlogArticle = {
         es: 'Un kit de unos 800 a 900 Wp orientado al sur e inclinado unos 30° suele producir 700 a 900 kWh al año en el centro de Europa, y bastante más en España. Colgado en vertical en una barandilla produce a menudo un tercio menos. La herramienta gratuita PVGIS de la Comisión Europea da una estimación para tu ubicación.',
         it: 'Un kit di circa 800-900 Wp esposto a sud e inclinato di circa 30° produce spesso 700-900 kWh all\'anno nell\'Europa centrale, e sensibilmente di più in Italia. Montato in verticale sulla ringhiera produce spesso un terzo in meno. Lo strumento gratuito PVGIS della Commissione europea fornisce una stima per il tuo indirizzo.',
         nl: 'Een set van ongeveer 800 tot 900 Wp op het zuiden en onder zo\'n 30° levert in Nederland en België vaak 700 tot 850 kWh per jaar op. Verticaal aan een balustrade is dat vaak ongeveer een derde minder. De gratis PVGIS-tool van de Europese Commissie geeft een schatting voor jouw adres.',
+        pl: 'Zestaw o mocy około 800–900 Wp skierowany na południe i nachylony pod kątem około 30° zwykle produkuje 700–900 kWh rocznie w północnej Francji, a więcej na południu. Zamontowany pionowo na balustradzie często produkuje o jedną trzecią mniej. Bezpłatne narzędzie PVGIS Komisji Europejskiej podaje szacunek dla Twojego adresu.',
       },
     },
     {
@@ -606,6 +698,7 @@ export const article: BlogArticle = {
         es: '¿Hace falta una batería con un panel solar de balcón?',
         it: 'Serve una batteria con un pannello solare da balcone?',
         nl: 'Heb je een batterij nodig bij een balkonzonnepaneel?',
+        pl: 'Czy do elektrowni balkonowej potrzebny jest akumulator?',
       },
       answer: {
         fr: 'Non, ce n\'est pas indispensable. Si quelqu\'un est à la maison en journée, un kit sans batterie est le plus simple et le plus vite rentabilisé. Une batterie comme l\'Anker SOLIX Solarbank 3 E2700 Pro ou l\'EcoFlow STREAM Ultra devient intéressante si votre consommation se concentre le soir, car elle évite d\'envoyer gratuitement le surplus de midi sur le réseau.',
@@ -614,6 +707,7 @@ export const article: BlogArticle = {
         es: 'No es imprescindible. Si hay alguien en casa de día, un kit sin batería es lo más sencillo y lo que antes se amortiza. Una batería como la Anker SOLIX Solarbank 3 E2700 Pro o el EcoFlow STREAM Ultra compensa si consumes sobre todo por la noche, porque evita regalar a la red el excedente del mediodía.',
         it: 'No, non è indispensabile. Se di giorno c\'è qualcuno in casa, un kit senza batteria è la soluzione più semplice e che si ripaga prima. Una batteria come l\'Anker SOLIX Solarbank 3 E2700 Pro o l\'EcoFlow STREAM Ultra conviene se consumi soprattutto la sera, perché evita di regalare alla rete l\'eccedenza di mezzogiorno.',
         nl: 'Niet per se. Ben je overdag thuis, dan is een set zonder batterij het eenvoudigst. Omdat de saldering op 1 januari 2027 stopt, wordt een batterij zoals de Anker SOLIX Solarbank 3 E2700 Pro of de EcoFlow STREAM Ultra wel interessanter als je vooral \'s avonds stroom verbruikt.',
+        pl: 'Nie, nie jest to konieczne. Jeśli w ciągu dnia ktoś jest w domu, zestaw bez akumulatora jest najprostszy i zwraca się najszybciej. Akumulator, taki jak Anker SOLIX Solarbank 3 E2700 Pro lub EcoFlow STREAM Ultra, staje się interesujący, jeśli Twoje zużycie koncentruje się wieczorem, ponieważ pozwala uniknąć oddawania południowej nadwyżki do sieci za darmo.',
       },
     },
     {
@@ -624,6 +718,7 @@ export const article: BlogArticle = {
         es: '¿Se puede enchufar un panel solar de balcón a un enchufe normal?',
         it: 'Si può collegare un pannello solare da balcone a una presa normale?',
         nl: 'Mag je een balkonzonnepaneel in een gewoon stopcontact steken?',
+        pl: 'Czy elektrownię balkonową można podłączyć do zwykłego gniazdka?',
       },
       answer: {
         fr: 'Les kits sont conçus pour se raccorder par une prise, mais en France la norme NF C 15-100 encadre ce branchement : évitez absolument les multiprises et rallonges, et privilégiez une prise sur un circuit dédié, protégé par un disjoncteur adapté et un différentiel 30 mA. Faites vérifier l\'installation par un électricien qualifié avant la mise en service.',
@@ -632,6 +727,7 @@ export const article: BlogArticle = {
         es: 'Los kits están pensados para conectarse con un enchufe, pero las normas varían según el país. Nunca uses regletas ni alargadores, y pide a un electricista que compruebe que el circuito tiene un magnetotérmico adecuado y un diferencial de 30 mA, idealmente como circuito dedicado.',
         it: 'I kit sono pensati per il collegamento tramite presa, ma le regole variano. Non usare mai ciabatte o prolunghe e fai verificare da un elettricista che il circuito sia protetto da un magnetotermico adeguato e da un differenziale da 30 mA, idealmente come circuito dedicato.',
         nl: 'De sets zijn gemaakt om via een stekker aan te sluiten, maar gebruik altijd een vast stopcontact, nooit een stekkerdoos of verlengsnoer. Laat bij twijfel door een installateur controleren of de groep een passende automaat en een aardlekschakelaar van 30 mA heeft en niet al zwaar belast is.',
+        pl: 'Zestawy są zaprojektowane do podłączania przez wtyczkę, ale we Francji podłączenie to reguluje norma NF C 15-100: bezwzględnie unikaj listew zasilających i przedłużaczy, a najlepiej wybierz gniazdko na dedykowanym obwodzie, zabezpieczonym odpowiednim wyłącznikiem nadprądowym i różnicowoprądowym 30 mA. Przed uruchomieniem poproś wykwalifikowanego elektryka o sprawdzenie instalacji.',
       },
     },
     {
@@ -642,6 +738,7 @@ export const article: BlogArticle = {
         es: '¿Funciona un panel solar de balcón en invierno?',
         it: 'Un pannello solare da balcone funziona in inverno?',
         nl: 'Werkt een balkonzonnepaneel in de winter?',
+        pl: 'Czy elektrownia balkonowa działa zimą?',
       },
       answer: {
         fr: 'Oui, mais la production baisse nettement à cause des journées courtes et du soleil bas : l\'essentiel de la production annuelle se fait d\'avril à septembre. Par temps couvert, les panneaux produisent encore grâce à la lumière diffuse, mais beaucoup moins qu\'en plein soleil. Une inclinaison plus forte, voire verticale, limite les pertes en hiver.',
@@ -650,6 +747,7 @@ export const article: BlogArticle = {
         es: 'Sí, pero la producción baja mucho por los días cortos y el sol bajo: la mayor parte se concentra entre abril y septiembre. Con cielo cubierto los paneles siguen produciendo gracias a la luz difusa, aunque mucho menos. Una inclinación mayor, incluso vertical, limita las pérdidas en invierno.',
         it: 'Sì, ma la produzione cala molto per le giornate corte e il sole basso: la maggior parte si concentra tra aprile e settembre. Con cielo coperto i pannelli producono ancora grazie alla luce diffusa, ma molto meno. Un\'inclinazione maggiore, anche verticale, limita le perdite invernali.',
         nl: 'Ja, maar de opbrengst daalt flink door korte dagen en een lage zon: het grootste deel van de jaarproductie valt tussen april en september. Bij bewolking wekken de panelen nog stroom op dankzij diffuus licht, maar veel minder dan in de zon. Een steilere of verticale opstelling beperkt de verliezen in de winter.',
+        pl: 'Tak, ale produkcja wyraźnie spada z powodu krótkich dni i niskiego słońca: większość rocznej produkcji przypada na okres od kwietnia do września. W pochmurne dni panele nadal produkują dzięki światłu rozproszonemu, ale znacznie mniej niż w pełnym słońcu. Większe nachylenie, a nawet montaż pionowy, ogranicza straty zimą.',
       },
     },
   ],

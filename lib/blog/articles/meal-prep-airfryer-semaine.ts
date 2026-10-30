@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Una gran tanda de trozos de pollo crujiente en la rejilla de una freidora de aire',
         it: 'Una grande infornata di pezzi di pollo croccante sulla griglia di una friggitrice ad aria',
         nl: 'Een grote portie krokante kipstukjes op het rooster van een airfryer',
+        pl: 'Duża porcja chrupiących kawałków kurczaka na kratce frytkownicy beztłuszczowej',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Meal Prep Semanal con Freidora de Aire: Planificación y Recetas Completas',
     it: 'Meal Prep Settimanale con la Friggitrice ad Aria: Pianificazione e Ricette Complete',
     nl: 'Wekelijkse Meal Prep met de Airfryer: Planning en Complete Recepten',
+    pl: 'Meal prep na cały tydzień we frytkownicy beztłuszczowej: plan i przepisy',
   },
   excerpt: {
     fr: 'Planifiez votre semaine complète de repas à l\'airfryer : planning du lundi au vendredi, liste de courses, batch cooking le dimanche, conseils de conservation et instructions de réchauffage.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Planifica tu semana completa de comidas con freidora de aire: planificación de lunes a viernes, lista de compras, batch cooking del domingo, consejos de conservación e instrucciones de recalentamiento.',
     it: 'Pianifica la tua settimana completa di pasti con la friggitrice ad aria: pianificazione da lunedì a venerdì, lista della spesa, batch cooking domenicale, consigli di conservazione e istruzioni per riscaldare.',
     nl: 'Plan je complete week met airfryer-maaltijden: planning van maandag tot vrijdag, boodschappenlijst, batch cooking op zondag, bewaartips en opwarm-instructies.',
+    pl: 'Zaplanuj cały tydzień posiłków we frytkownicy beztłuszczowej: plan od poniedziałku do piątku, lista zakupów, niedzielne gotowanie na zapas, wskazówki dotyczące przechowywania i odgrzewania.',
   },
   content: {
     fr: `<h2>Introduction</h2>
@@ -906,6 +909,294 @@ export const article: BlogArticle = {
 <li><strong>Energie:</strong> voor kleine hoeveelheden verwarmt de airfryer een kleinere ruimte en hoeft hij nauwelijks voor te verwarmen, dus verbruikt hij minder dan een grote oven.</li>
 <li><strong>Minder verspilling:</strong> een boodschappenlijst op basis van het weekplan voorkomt dat je eten koopt dat nooit gekookt wordt.</li>
 </ul>`,
+    pl: `<h2>Wstęp</h2>
+<p>Meal prep, czyli przygotowywanie posiłków z wyprzedzeniem, to idealna strategia, jeśli chcesz jeść zdrowo, oszczędzać czas w tygodniu i ograniczyć marnowanie jedzenia. Frytkownica beztłuszczowa (air fryer) świetnie się do tego nadaje: gotuje szybko, nie zostawia po sobie stosu naczyń, a potrawy smakują wyśmienicie nawet po odgrzaniu. Ten kompletny poradnik zawiera <strong>plan od poniedziałku do piątku</strong> z niedzielną sesją gotowania na zapas (batch cooking), jedną wspólną listę zakupów oraz wszystkie wskazówki dotyczące przechowywania i odgrzewania.</p>
+<p>Cel jest prosty: poświęć <strong>2 godziny w niedzielę</strong>, aby przygotować większość posiłków na cały tydzień. Każdego dnia wystarczy tylko skompletować, odgrzać i zjeść. Koniec ze stresem pytania „co dziś na obiad?”. Aby lepiej zorganizować swoje sesje, zajrzyj do naszego poradnika o <a href="/pl/blog/cuisiner-healthy-airfryer">zdrowym gotowaniu we frytkownicy beztłuszczowej</a>.</p>
+
+<h2>Plan na tydzień</h2>
+<table>
+<thead>
+<tr><th>Dzień</th><th>Obiad</th><th>Kolacja</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Poniedziałek</strong></td><td>Bowl z pikantnym kurczakiem, ryżem i grillowanymi brokułami</td><td>Wrapy z kurczakiem i papryką</td></tr>
+<tr><td><strong>Wtorek</strong></td><td>Łosoś teriyaki z komosą ryżową i szparagami</td><td>Sałatka z komosą ryżową i grillowanymi warzywami</td></tr>
+<tr><td><strong>Środa</strong></td><td>Falafele z hummusem i sałatką</td><td>Makaron z grillowanymi warzywami i fetą</td></tr>
+<tr><td><strong>Czwartek</strong></td><td>Udka z kurczaka, bataty i fasolka szparagowa</td><td>Zupa z grillowanych warzyw</td></tr>
+<tr><td><strong>Piątek</strong></td><td>Klopsiki wołowe z ryżem i grillowaną cukinią</td><td>Pizza na tortilli z frytkownicy</td></tr>
+</tbody>
+</table>
+
+<h2>Lista zakupów (dla 1 osoby, x2 dla pary)</h2>
+<h3>Białko</h3>
+<ul>
+<li>600 g piersi z kurczaka</li>
+<li>400 g udek z kurczaka (ze skórą)</li>
+<li>300 g filetu z łososia</li>
+<li>250 g mielonej wołowiny (5% tłuszczu)</li>
+<li>1 puszka ciecierzycy (400 g)</li>
+</ul>
+<h3>Produkty skrobiowe</h3>
+<ul>
+<li>300 g ryżu basmati</li>
+<li>200 g komosy ryżowej (quinoa)</li>
+<li>250 g makaronu pełnoziarnistego</li>
+<li>2 średnie bataty (ok. 400 g)</li>
+<li>4 tortille pełnoziarniste</li>
+</ul>
+<h3>Warzywa</h3>
+<ul>
+<li>1 brokuł (300 g)</li>
+<li>1 pęczek zielonych szparagów (300 g)</li>
+<li>2 średnie cukinie</li>
+<li>3 papryki w różnych kolorach</li>
+<li>300 g fasolki szparagowej</li>
+<li>1 czerwona cebula</li>
+<li>1 główka czosnku</li>
+<li>1 cytryna</li>
+<li>Sałata (rukola lub mieszanka sałat)</li>
+<li>2 pomidory</li>
+<li>1 ogórek</li>
+</ul>
+<h3>Produkty spiżarniane</h3>
+<ul>
+<li>Oliwa z oliwek</li>
+<li>Sos sojowy (150 ml)</li>
+<li>Miód</li>
+<li>Sos teriyaki lub składniki do jego przygotowania (sos sojowy, mirin, imbir)</li>
+<li>Hummus (200 g lub domowy)</li>
+<li>Feta (100 g)</li>
+<li>Sos pomidorowy (200 ml)</li>
+<li>Mozzarella (125 g)</li>
+<li>Przyprawy: papryka wędzona, kmin rzymski, kurkuma, czosnek granulowany, zioła prowansalskie, curry</li>
+<li>Sól, pieprz</li>
+</ul>
+
+<h2>Niedzielna sesja batch cookingu (2 godziny)</h2>
+<p>Kluczem jest organizacja. Oto optymalny przebieg dwugodzinnej sesji:</p>
+
+<h3>Faza 1: przygotowanie (30 minut)</h3>
+<ol>
+<li><strong>Nastaw ryż</strong> (300 g) w garnku z 450 ml wody. Doprowadź do wrzenia, przykryj i gotuj na małym ogniu przez 12 minut.</li>
+<li><strong>Nastaw komosę ryżową</strong> (200 g) w drugim garnku z 400 ml wody. Doprowadź do wrzenia i gotuj na małym ogniu przez 15 minut.</li>
+<li>Gdy produkty skrobiowe się gotują, <strong>przygotuj marynaty</strong>:
+<ul>
+<li><strong>Marynata do pikantnego kurczaka</strong>: 2 łyżki oliwy z oliwek, 1 łyżka wędzonej papryki, 1 łyżeczka kminu rzymskiego, 1 łyżeczka czosnku granulowanego, sól, pieprz.</li>
+<li><strong>Marynata do łososia teriyaki</strong>: 3 łyżki sosu sojowego, 1 łyżka miodu, 1 łyżeczka startego imbiru, 1 ząbek czosnku przeciśnięty przez praskę.</li>
+</ul>
+</li>
+<li><strong>Pokrój wszystkie warzywa</strong>:
+<ul>
+<li>Brokuł na różyczki o średnicy ok. 3 cm</li>
+<li>Szparagi bez zdrewniałych końcówek</li>
+<li>Cukinia w plasterkach o grubości 1 cm</li>
+<li>Papryka w paski o szerokości 2 cm</li>
+<li>Fasolka szparagowa z odciętymi końcówkami</li>
+<li>Bataty w kostkę o boku 2 cm</li>
+</ul>
+</li>
+<li><strong>Przygotuj białko</strong>:
+<ul>
+<li>Pokrój 600 g piersi z kurczaka w paski o szerokości 2 cm. 300 g włóż do pikantnej marynaty.</li>
+<li>Łososia włóż do marynaty teriyaki.</li>
+<li>Udka z kurczaka dopraw papryką, czosnkiem, solą i pieprzem.</li>
+<li>Z mielonej wołowiny uformuj 8 klopsików (po 30 g każdy) i dopraw je kminem rzymskim oraz czosnkiem.</li>
+</ul>
+</li>
+</ol>
+
+<h3>Faza 2: gotowanie we frytkownicy (60 minut)</h3>
+<p>Zaplanuj gotowanie partiami, aby pracować możliwie wydajnie:</p>
+
+<p><strong>Partia 1 — pikantny kurczak (20 min)</strong></p>
+<ol>
+<li>Ułóż w koszu paski marynowanego pikantnego kurczaka.</li>
+<li>Piecz w <strong>190 °C przez 12–14 minut</strong>, odwracając w połowie czasu.</li>
+<li>Sprawdź temperaturę w środku: <strong>74 °C</strong>.</li>
+<li>Odłóż do pojemnika.</li>
+</ol>
+
+<p><strong>Partia 2 — udka z kurczaka i bataty (25 min)</strong></p>
+<ol>
+<li>Ułóż udka skórą do góry.</li>
+<li>Jeśli masz frytkownicę dwukomorową, włóż skropione oliwą kostki batatów do drugiego kosza.</li>
+<li>Udka piecz w <strong>180 °C przez 15 minut</strong>, a następnie w <strong>200 °C przez 5–8 minut</strong>.</li>
+<li>Bataty piecz w <strong>190 °C przez 15–18 minut</strong>.</li>
+</ol>
+
+<p><strong>Partia 3 — łosoś teriyaki (12 min)</strong></p>
+<ol>
+<li>Ułóż filety z łososia skórą do dołu.</li>
+<li>Piecz w <strong>180 °C przez 10–12 minut</strong>.</li>
+<li>Łosoś jest gotowy, gdy łatwo rozpada się pod widelcem.</li>
+</ol>
+
+<p><strong>Partia 4 — klopsiki wołowe (12 min)</strong></p>
+<ol>
+<li>Ułóż klopsiki w jednej warstwie.</li>
+<li>Piecz w <strong>190 °C przez 10–12 minut</strong>, odwracając w połowie czasu.</li>
+<li>Temperatura w środku: <strong>72 °C</strong>.</li>
+</ol>
+
+<p><strong>Partia 5 — mieszane warzywa (15 min)</strong></p>
+<ol>
+<li>Piecz warzywa partiami, zgodnie z czasem właściwym dla każdego z nich (zobacz <a href="/pl/blog/recettes-legumes-grilles-airfryer">nasz kompletny poradnik o grillowanych warzywach</a>):</li>
+<li>Brokuł: <strong>190 °C, 8–10 min</strong></li>
+<li>Papryka: <strong>190 °C, 10–12 min</strong></li>
+<li>Cukinia: <strong>190 °C, 10–12 min</strong></li>
+<li>Szparagi: <strong>200 °C, 6–8 min</strong></li>
+<li>Fasolka szparagowa: <strong>200 °C, 8–10 min</strong></li>
+<li>Każdą partię dopraw 1 łyżeczką oliwy z oliwek i wybranymi przyprawami.</li>
+</ol>
+
+<h3>Faza 3: falafele i kompletowanie (30 minut)</h3>
+<p><strong>Domowe falafele (na środę):</strong></p>
+<ul>
+<li>Odcedź i opłucz ciecierzycę z puszki.</li>
+<li>Zmiksuj ją z ½ czerwonej cebuli, 2 ząbkami czosnku, 1 łyżeczką kminu rzymskiego, 1 łyżeczką mielonej kolendry, solą i 2 łyżkami mąki. Masa powinna być ziarnista, a nie gładka.</li>
+<li>Uformuj <strong>12 kulek</strong> wielkości orzecha włoskiego i lekko je spłaszcz.</li>
+<li>Piecz w <strong>190 °C przez 12–15 minut</strong>, odwracając w połowie czasu.</li>
+</ul>
+
+<p><strong>Pakowanie do pojemników:</strong></p>
+<ol>
+<li>Rozłóż jedzenie w małych porcjach i pozostaw do przestygnięcia (<strong>maksymalnie 30 minut</strong> w temperaturze pokojowej), a następnie od razu schowaj do lodówki.</li>
+<li>Rozdziel posiłki do szczelnych szklanych pojemników zgodnie z planem na tydzień.</li>
+<li>Sosy i wilgotne dodatki przechowuj osobno, w małych pojemnikach.</li>
+<li>Podpisz każdy pojemnik dniem i nazwą posiłku.</li>
+</ol>
+
+<h2>Wskazówki dotyczące przechowywania</h2>
+<ul>
+<li><strong>W lodówce</strong>: kurczak, łosoś i klopsiki wytrzymują maksymalnie <strong>3–4 dni</strong>.</li>
+<li><strong>Grillowane warzywa</strong> przechowują się w lodówce <strong>3–4 dni</strong>.</li>
+<li><strong>Ugotowany ryż</strong> jest najbardziej wrażliwym produktem (przetrwalniki <em>Bacillus cereus</em>): schłodź go w ciągu godziny, trzymaj w lodówce i najlepiej zjedz w ciągu 24 godzin, a w przeciwnym razie zamroź w porcjach. <strong>Komosa ryżowa</strong> wytrzymuje 3 dni.</li>
+<li><strong>Falafele</strong> przechowują się <strong>4 dni</strong> w lodówce lub <strong>1 miesiąc</strong> w zamrażarce.</li>
+<li><strong>Szklane pojemniki</strong>: wybieraj je zamiast plastikowych, bo lepiej przechowują jedzenie i są zdrowsze przy odgrzewaniu.</li>
+<li><strong>Schładzaj w ciągu 2 godzin od ugotowania</strong>: rozkładaj jedzenie w cienkich porcjach, aby szybko ostygło, i nigdy nie zostawiaj go dłużej w temperaturze pokojowej.</li>
+<li><strong>Czwartek i piątek</strong>: porcje zaplanowane na te dni zamroź już w niedzielę (udka z kurczaka, klopsiki, ryż, kurczak na pizzę) i rozmroź je w lodówce poprzedniego wieczoru.</li>
+<li><strong>Odgrzewaj tylko raz</strong>, aż danie będzie gorące w środku (74 °C).</li>
+</ul>
+
+<h2>Odgrzewanie we frytkownicy beztłuszczowej</h2>
+<p>Frytkownica to najlepsze urządzenie do odgrzewania posiłków z meal prepu — znacznie lepsze niż mikrofalówka, która wszystko rozmiękcza. Oto zalecane temperatury i czasy odgrzewania:</p>
+<table>
+<thead>
+<tr><th>Produkt</th><th>Temperatura</th><th>Czas</th><th>Wskazówka</th></tr>
+</thead>
+<tbody>
+<tr><td>Kurczak (paski/udka)</td><td>170 °C</td><td>4–6 min</td><td>Lekko spryskaj wodą</td></tr>
+<tr><td>Łosoś</td><td>160 °C</td><td>3–5 min</td><td>Nie przegrzewaj, szybko wysycha</td></tr>
+<tr><td>Klopsiki wołowe</td><td>180 °C</td><td>4–5 min</td><td>Odwróć w połowie czasu</td></tr>
+<tr><td>Falafele</td><td>180 °C</td><td>4–5 min</td><td>Odzyskują chrupkość</td></tr>
+<tr><td>Grillowane warzywa</td><td>180 °C</td><td>3–4 min</td><td>Krótko, żeby ich nie przesuszyć</td></tr>
+<tr><td>Bataty</td><td>180 °C</td><td>4–5 min</td><td>Dodaj odrobinę oleju</td></tr>
+<tr><td>Pizza na tortilli</td><td>190 °C</td><td>3–4 min</td><td>Odzyskuje chrupkość</td></tr>
+</tbody>
+</table>
+<p>Podane czasy są orientacyjne dla porcji prosto z lodówki: danie musi być gorące w środku (74 °C na termometrze). W razie potrzeby wydłuż czas o kilka minut, zwłaszcza w przypadku porcji rozmrożonych.</p>
+
+<h2>Wieczorne przepisy (szybkie przygotowanie)</h2>
+
+<h3>Poniedziałkowa kolacja — wrapy z kurczakiem</h3>
+<ol>
+<li>Odgrzej paski pikantnego kurczaka i paprykę w <strong>170 °C przez 4 minuty</strong>.</li>
+<li>Podgrzej tortille w <strong>160 °C przez 1 minutę</strong>.</li>
+<li>Nałóż kurczaka, paprykę, sałatę i odrobinę sosu jogurtowo-cytrynowego.</li>
+</ol>
+
+<h3>Wtorkowa kolacja — sałatka z komosą ryżową i grillowanymi warzywami</h3>
+<ol>
+<li>Wymieszaj zimną komosę ryżową z zimnymi grillowanymi warzywami (cukinia, papryka).</li>
+<li>Dodaj świeże pomidory pokrojone w kostkę, ogórek i pokruszoną fetę.</li>
+<li>Dopraw 1 łyżką oliwy z oliwek, sokiem z pół cytryny, solą i pieprzem.</li>
+</ol>
+
+<h3>Środowa kolacja — makaron z grillowanymi warzywami i fetą</h3>
+<ol>
+<li>Ugotuj 125 g makaronu pełnoziarnistego al dente (<strong>10 minut</strong>).</li>
+<li>Odgrzej pozostałe grillowane warzywa w <strong>180 °C przez 3 minuty</strong>.</li>
+<li>Wymieszaj odcedzony makaron z warzywami, 50 g pokruszonej fety, odrobiną oliwy z oliwek i świeżą bazylią.</li>
+</ol>
+
+<h3>Czwartkowa kolacja — zupa z grillowanych warzyw</h3>
+<ol>
+<li>Zbierz resztki grillowanych warzyw (brokuł, cukinia, papryka).</li>
+<li>Dodaj 400 ml bulionu drobiowego lub warzywnego.</li>
+<li>Zblenduj na krem.</li>
+<li>Podgrzej na kuchence i podaj z odrobiną oliwy z oliwek oraz grzankami zrobionymi we frytkownicy (<strong>200 °C, 3 minuty</strong>).</li>
+</ol>
+
+<h3>Piątkowa kolacja — pizza na tortilli z frytkownicy</h3>
+<ol>
+<li>Włóż tortillę do kosza frytkownicy.</li>
+<li>Rozsmaruj 3 łyżki sosu pomidorowego.</li>
+<li>Dodaj pokrojoną mozzarellę, pozostałą paprykę i resztki rozdrobnionego kurczaka.</li>
+<li>Piecz w <strong>190 °C przez 5–7 minut</strong>, aż tortilla będzie chrupiąca, a ser roztopiony i złocisty.</li>
+</ol>
+
+<h2>Warianty i personalizacja</h2>
+<p>Ten podstawowy plan łatwo dopasować do własnych upodobań i potrzeb:</p>
+<ul>
+<li><strong>Wersja wegetariańska</strong>: zastąp białko zwierzęce tofu (piecz w 190 °C przez 12–15 minut po zamarynowaniu w sosie sojowo-sezamowym), pieczoną ciecierzycą lub tempehem.</li>
+<li><strong>Dla sportowców</strong>: zwiększ porcje białka o 50% i dodaj kolejny produkt skrobiowy (bataty).</li>
+<li><strong>Ograniczony budżet</strong>: zamień łososia na filet z morszczuka lub dorsza (180 °C, 10–12 minut) — zajrzyj do poradnika o <a href="/pl/blog/meilleur-airfryer-petit-budget">najlepszej frytkownicy beztłuszczowej w niskim budżecie</a>.</li>
+<li><strong>Tydzień 2</strong>: urozmaić menu możesz dzięki naszym <a href="/pl/blog/recettes-poulet-croustillant-airfryer">6 przepisom na chrupiącego kurczaka</a> i <a href="/pl/blog/recettes-frites-parfaites-airfryer">7 wariantom frytek</a>.</li>
+</ul>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Zbyt długie trzymanie w lodówce</strong> — po upływie 3–4 dni jakość i bezpieczeństwo żywności spadają. Porcje z końca tygodnia zamroź.</li>
+<li><strong>Zapominanie o osuszeniu warzyw</strong> przed pieczeniem — zajrzyj do poradnika o <a href="/pl/blog/erreurs-courantes-airfryer">najczęstszych błędach przy użyciu frytkownicy beztłuszczowej</a>.</li>
+<li><strong>Odgrzewanie w mikrofalówce</strong> — frytkownica zachowuje chrupkość, mikrofalówka ją niszczy.</li>
+<li><strong>Przechowywanie sosów razem z jedzeniem</strong> — wilgotne sosy rozmiękczają potrawy panierowane lub grillowane. Zawsze trzymaj je osobno.</li>
+<li><strong>Brak podpisów na pojemnikach</strong> — w czwartek nie będziesz pamiętać, co zaplanowano na który dzień.</li>
+</ul>
+
+<h2>Zestawienie czasów gotowania przy batch cookingu</h2>
+<table>
+<thead>
+<tr><th>Potrawa</th><th>Temperatura</th><th>Czas</th><th>Ilość</th></tr>
+</thead>
+<tbody>
+<tr><td>Pikantny kurczak (paski)</td><td>190 °C</td><td>12–14 min</td><td>300 g</td></tr>
+<tr><td>Udka z kurczaka</td><td>180 °C, potem 200 °C</td><td>20–23 min</td><td>400 g</td></tr>
+<tr><td>Łosoś teriyaki</td><td>180 °C</td><td>10–12 min</td><td>300 g</td></tr>
+<tr><td>Klopsiki wołowe</td><td>190 °C</td><td>10–12 min</td><td>250 g</td></tr>
+<tr><td>Falafele</td><td>190 °C</td><td>12–15 min</td><td>12 sztuk</td></tr>
+<tr><td>Bataty</td><td>190 °C</td><td>15–18 min</td><td>400 g</td></tr>
+<tr><td>Brokuł</td><td>190 °C</td><td>8–10 min</td><td>300 g</td></tr>
+<tr><td>Papryka</td><td>190 °C</td><td>10–12 min</td><td>500 g</td></tr>
+<tr><td>Cukinia</td><td>190 °C</td><td>10–12 min</td><td>400 g</td></tr>
+<tr><td>Szparagi</td><td>200 °C</td><td>6–8 min</td><td>300 g</td></tr>
+<tr><td>Fasolka szparagowa</td><td>200 °C</td><td>8–10 min</td><td>300 g</td></tr>
+</tbody>
+</table>
+
+<h2>Podsumowanie</h2>
+<p>Meal prep we frytkownicy beztłuszczowej to wygrywające połączenie: zdrowe, oszczędne i smaczne jedzenie przez cały tydzień. Poświęcając 2 godziny w niedzielę, zyskujesz <strong>kilka godzin gotowania w ciągu tygodnia</strong> i unikasz pokusy sięgania po przemysłowe dania gotowe czy jedzenie z dostawą do domu.</p>
+<p>Frytkownica doskonale sprawdza się przy odgrzewaniu — tam, gdzie mikrofalówka rozmiękcza potrawy, ona przywraca im chrupkość. To decydująca zaleta w meal prepie. Aby pójść dalej, zajrzyj do naszych <a href="/pl/blog/recettes-legumes-grilles-airfryer">10 przepisów na grillowane warzywa</a>, <a href="/pl/blog/recettes-poulet-croustillant-airfryer">przepisów na chrupiącego kurczaka</a> oraz poradnika o <a href="/pl/blog/cuisiner-healthy-airfryer">zdrowym gotowaniu we frytkownicy beztłuszczowej</a>.</p>
+
+<h2>Tabela przechowywania: czas i sposób odgrzewania</h2>
+<table>
+<thead><tr><th>Przygotowany produkt</th><th>Lodówka (maks.)</th><th>Zamrażarka</th><th>Odgrzewanie we frytkownicy</th><th>Temp./czas</th></tr></thead>
+<tbody>
+<tr><td>Ugotowane piersi z kurczaka</td><td>4 dni</td><td>3 miesiące</td><td>Tak — lekko zwilż</td><td>160°C / 6–8 min</td></tr>
+<tr><td>Udka / podudzia</td><td>4 dni</td><td>3 miesiące</td><td>Tak — doskonały efekt</td><td>180°C / 8–10 min</td></tr>
+<tr><td>Grillowane warzywa</td><td>4 dni</td><td>2 miesiące</td><td>Tak — przywraca chrupkość</td><td>180°C / 4–5 min</td></tr>
+<tr><td>Domowe frytki</td><td>3 dni</td><td>2 miesiące</td><td>Tak — efekt niemal idealny</td><td>180°C / 3–5 min</td></tr>
+<tr><td>Łosoś / ryby</td><td>3 dni</td><td>2 miesiące</td><td>Tak — przykryj folią aluminiową</td><td>160°C / 5–7 min</td></tr>
+<tr><td>Tofu / białko roślinne</td><td>4 dni</td><td>3 miesiące</td><td>Tak — doskonały efekt</td><td>180°C / 5–6 min</td></tr>
+</tbody>
+</table>
+
+<h2>Co zyskujesz dzięki meal prepowi we frytkownicy beztłuszczowej</h2>
+<ul>
+<li><strong>Czas:</strong> dwugodzinna sesja w niedzielę zastępuje większość codziennych przygotowań; w tygodniu zostaje tylko odgrzanie i skompletowanie posiłku.</li>
+<li><strong>Pieniądze:</strong> gotowanie samemu wychodzi zazwyczaj znacznie taniej niż jedzenie z dostawą czy dania gotowe, tym bardziej gdy kupujesz większe ilości.</li>
+<li><strong>Energię:</strong> przy małych porcjach frytkownica nagrzewa niewielką przestrzeń i prawie nie wymaga nagrzewania wstępnego, co ogranicza zużycie w porównaniu z dużym piekarnikiem.</li>
+<li><strong>Mniej marnowania jedzenia:</strong> lista zakupów dopasowana do planu pozwala nie kupować tego, co i tak nie zostanie ugotowane.</li>
+</ul>`,
   },
   faq: [
     {
@@ -916,6 +1207,7 @@ export const article: BlogArticle = {
         es: '¿Cuánto tiempo se pueden conservar los platos del meal prep?',
         it: 'Quanto tempo si possono conservare i piatti del meal prep?',
         nl: 'Hoe lang kun je meal prep-gerechten bewaren?',
+        pl: 'Jak długo można przechowywać posiłki przygotowane w ramach meal prepu?',
       },
       answer: {
         fr: 'Au réfrigérateur, les viandes cuites et les légumes grillés se conservent 3-4 jours, le poisson 3 jours, et le riz cuit idéalement moins de 24 heures (congelez-le sinon). Utilisez des contenants hermétiques en verre de préférence. Au congélateur, la plupart des plats se conservent jusqu\'à 3 mois. Étiquetez chaque contenant avec la date de préparation.',
@@ -924,6 +1216,7 @@ export const article: BlogArticle = {
         es: 'En el refrigerador, las carnes cocidas y las verduras asadas se conservan 3-4 días, el pescado 3 días y el arroz cocido idealmente menos de 24 horas (si no, congélalo). Usa recipientes herméticos, preferiblemente de cristal. En el congelador, la mayoría de platos se conservan hasta 3 meses. Etiqueta cada recipiente con la fecha de preparación.',
         it: 'In frigorifero, le carni cotte e le verdure grigliate si conservano 3-4 giorni, il pesce 3 giorni e il riso cotto idealmente meno di 24 ore (altrimenti congelatelo). Usa contenitori ermetici, preferibilmente in vetro. Nel congelatore, la maggior parte dei piatti si conserva fino a 3 mesi. Etichetta ogni contenitore con la data di preparazione.',
         nl: 'In de koelkast houden gekookt vlees en gegrilde groenten 3-4 dagen, vis 3 dagen en gekookte rijst bij voorkeur minder dan 24 uur (anders invriezen). Gebruik luchtdichte bakken, bij voorkeur van glas. In de vriezer houden de meeste gerechten tot 3 maanden. Label elke bak met de bereidingsdatum voor makkelijk bijhouden.',
+        pl: 'W lodówce ugotowane mięso i grillowane warzywa wytrzymują 3–4 dni, ryby 3 dni, a ugotowany ryż najlepiej zjeść w ciągu 24 godzin (w przeciwnym razie zamroź go). Najlepiej używaj szczelnych szklanych pojemników. W zamrażarce większość dań przechowuje się do 3 miesięcy. Każdy pojemnik podpisz datą przygotowania.',
       },
     },
     {
@@ -934,6 +1227,7 @@ export const article: BlogArticle = {
         es: '¿Cómo recalentar los platos del meal prep en la freidora de aire?',
         it: 'Come riscaldare i piatti del meal prep nella friggitrice ad aria?',
         nl: 'Hoe warm je meal prep-gerechten op in de airfryer?',
+        pl: 'Jak odgrzewać posiłki z meal prepu we frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Réglez l\'airfryer à 160-170°C pendant 5 à 8 minutes pour la plupart des plats. Les viandes et légumes retrouvent leur croustillant, contrairement au micro-ondes. Pour le riz et les pâtes, ajoutez quelques gouttes d\'eau et couvrez de papier aluminium. Le plat doit être brûlant à cœur (74 °C) : prolongez si besoin et ne réchauffez qu\'une fois.',
@@ -942,6 +1236,7 @@ export const article: BlogArticle = {
         es: 'Pon la freidora a 160-170°C durante 5-8 minutos para la mayoría de platos. Las carnes y verduras recuperan su crujiente, a diferencia del microondas. Para arroz y pasta, añade unas gotas de agua y cubre con papel de aluminio. El plato debe quedar muy caliente en el centro (74 °C): alarga si hace falta y recalienta una sola vez.',
         it: 'Imposta la friggitrice a 160-170°C per 5-8 minuti per la maggior parte dei piatti. Carni e verdure ritrovano la loro croccantezza, a differenza del microonde. Per riso e pasta, aggiungi qualche goccia d\'acqua e copri con foglio di alluminio. Il piatto deve essere bollente al cuore (74 °C): prolungate se serve e riscaldate una sola volta.',
         nl: 'Stel de airfryer in op 160-170°C voor 5-8 minuten voor de meeste gerechten. Vlees en groenten worden weer krokant, in tegenstelling tot de magnetron. Voor rijst en pasta voeg je een paar druppels water toe en dek je af met aluminiumfolie. Het eten moet in de kern gloeiend heet zijn (74 °C): verleng zo nodig en warm maar één keer op.',
+        pl: 'Ustaw frytkownicę na 160–170°C na 5–8 minut dla większości dań. Mięso i warzywa odzyskują chrupkość, w przeciwieństwie do odgrzewania w mikrofalówce. W przypadku ryżu i makaronu dodaj kilka kropel wody i przykryj folią aluminiową. Danie musi być gorące w środku (74 °C): w razie potrzeby wydłuż czas i odgrzewaj tylko raz.',
       },
     },
     {
@@ -952,6 +1247,7 @@ export const article: BlogArticle = {
         es: '¿Qué recipientes usar para el meal prep con freidora de aire?',
         it: 'Quali contenitori usare per il meal prep con la friggitrice ad aria?',
         nl: 'Welke bakjes gebruik je voor meal prep met de airfryer?',
+        pl: 'Jakich pojemników używać do meal prepu z frytkownicą beztłuszczową?',
       },
       answer: {
         fr: 'Choisissez des contenants en verre avec couvercle hermétique : ils passent au réfrigérateur, congélateur et micro-ondes. Les contenants compartimentés permettent de séparer protéines, légumes et féculents. Évitez le plastique pour le réchauffage. Investissez dans 10-12 contenants de 700 ml pour une semaine complète.',
@@ -960,6 +1256,7 @@ export const article: BlogArticle = {
         es: 'Elige recipientes de cristal con tapa hermética: aptos para refrigerador, congelador y microondas. Los recipientes con compartimentos permiten separar proteínas, verduras y almidones. Evita el plástico para recalentar. Invierte en 10-12 recipientes de 700 ml para una semana completa.',
         it: 'Scegli contenitori in vetro con coperchio ermetico: adatti a frigorifero, congelatore e microonde. I contenitori con scomparti permettono di separare proteine, verdure e carboidrati. Evita la plastica per riscaldare. Investi in 10-12 contenitori da 700 ml per una settimana completa.',
         nl: 'Kies glazen bakken met luchtdichte deksel: geschikt voor koelkast, vriezer en magnetron. Bakken met compartimenten laten je eiwitten, groenten en zetmeel scheiden. Vermijd plastic voor opwarmen. Investeer in 10-12 bakken van 700 ml voor een complete week meal prep.',
+        pl: 'Wybierz szklane pojemniki ze szczelną pokrywką: nadają się do lodówki, zamrażarki i mikrofalówki. Pojemniki z przegródkami pozwalają oddzielić białko, warzywa i produkty skrobiowe. Do odgrzewania unikaj plastiku. Na cały tydzień przygotuj 10–12 pojemników o pojemności 700 ml.',
       },
     },
     {
@@ -970,6 +1267,7 @@ export const article: BlogArticle = {
         es: '¿Cuáles son los mejores consejos para batch cooking en la freidora de aire?',
         it: 'Quali sono i migliori consigli per il batch cooking nella friggitrice ad aria?',
         nl: 'Wat zijn de beste batch cooking-tips voor de airfryer?',
+        pl: 'Jakie są najlepsze wskazówki dotyczące gotowania na zapas we frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Organisez par température : commencez par les aliments à haute température (200°C : légumes), puis baissez pour les protéines (180°C), et terminez par les féculents. Avec un airfryer double panier, cuisez viande et légumes simultanément. Préparez tous les ingrédients avant de commencer pour un enchaînement fluide.',
@@ -978,6 +1276,7 @@ export const article: BlogArticle = {
         es: 'Organiza por temperatura: empieza con alimentos a alta temperatura (200°C: verduras), luego baja para proteínas (180°C), y termina con almidones. Con una freidora de doble cesta, cocina carne y verduras simultáneamente. Prepara todos los ingredientes antes de empezar para un flujo de trabajo eficiente.',
         it: 'Organizza per temperatura: inizia con alimenti ad alta temperatura (200°C: verdure), poi abbassa per le proteine (180°C) e finisci con i carboidrati. Con una friggitrice a doppio cestello, cuoci carne e verdure contemporaneamente. Prepara tutti gli ingredienti prima di iniziare per un flusso efficiente.',
         nl: 'Organiseer op temperatuur: begin met hoge temperatuur (200°C: groenten), verlaag dan voor eiwitten (180°C) en eindig met zetmeel. Met een dubbele mand airfryer kook je vlees en groenten tegelijk. Bereid alle ingrediënten voor je begint voor een soepele workflow.',
+        pl: 'Planuj według temperatury: zacznij od potraw wymagających wysokiej temperatury (200°C: warzywa), potem obniż ją na białko (180°C), a na końcu przygotuj produkty skrobiowe. Z frytkownicą dwukomorową możesz piec mięso i warzywa jednocześnie. Przed rozpoczęciem przygotuj wszystkie składniki, aby praca przebiegała płynnie.',
       },
     },
     {
@@ -988,6 +1287,7 @@ export const article: BlogArticle = {
         es: '¿Se pueden congelar los platos preparados en la freidora de aire?',
         it: 'Si possono congelare i piatti preparati nella friggitrice ad aria?',
         nl: 'Kun je meal prep-gerechten uit de airfryer invriezen?',
+        pl: 'Czy dania przygotowane we frytkownicy beztłuszczowej można mrozić?',
       },
       answer: {
         fr: 'Oui, la plupart des plats à l\'airfryer se congèlent très bien pour 2 à 3 mois. Refroidissez-les rapidement (moins de 2 heures) avant de congeler. Les viandes grillées, les boulettes et les légumes rôtis se congèlent excellemment. Évitez de congeler les aliments panés croustillants qui perdent leur texture. Décongelez au réfrigérateur la veille.',
@@ -996,6 +1296,7 @@ export const article: BlogArticle = {
         es: 'Sí, la mayoría de platos de freidora se congelan muy bien durante 2-3 meses. Enfríalos rápidamente (en menos de 2 horas) antes de congelar. Las carnes a la parrilla, albóndigas y verduras asadas se congelan excelentemente. Evita congelar alimentos crujientes empanados que pierden su textura. Descongela en el refrigerador la víspera.',
         it: 'Sì, la maggior parte dei piatti della friggitrice ad aria si congela molto bene per 2-3 mesi. Raffreddali rapidamente (entro 2 ore) prima di congelare. Carni grigliate, polpette e verdure arrosto si congelano benissimo. Evita di congelare alimenti impanati croccanti che perdono la texture. Scongela in frigo la sera prima.',
         nl: 'Ja, de meeste airfryer-gerechten vriezen prima in voor 2-3 maanden. Laat ze snel afkoelen (binnen 2 uur) voor het invriezen. Gegrild vlees, gehaktballen en geroosterde groenten vriezen uitstekend in. Vermijd het invriezen van krokante gepaneerde gerechten die hun textuur verliezen. Ontdooi in de koelkast de avond tevoren.',
+        pl: 'Tak, większość dań z frytkownicy bardzo dobrze znosi mrożenie przez 2–3 miesiące. Przed zamrożeniem szybko je schłodź (w mniej niż 2 godziny). Grillowane mięso, klopsiki i pieczone warzywa mrożą się doskonale. Unikaj mrożenia chrupiących potraw panierowanych, które tracą teksturę. Rozmrażaj w lodówce poprzedniego wieczoru.',
       },
     },
   ],

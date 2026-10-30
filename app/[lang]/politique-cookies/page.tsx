@@ -13,6 +13,7 @@ const metaDescriptions: Record<string, string> = {
   es: 'Política de cookies de Home Nura: cookies estrictamente necesarias, cookies de afiliación de Amazon y gestión desde tu navegador. Conforme al RGPD.',
   it: 'Politica dei cookie di Home Nura: cookie strettamente necessari, cookie di affiliazione Amazon e gestione dal browser. Conforme al GDPR.',
   nl: 'Cookiebeleid van Home Nura: strikt noodzakelijke cookies, Amazon-affiliate cookies en beheer via uw browser. AVG-conform.',
+  pl: 'Polityka plików cookie Home Nura: niezbędne pliki cookie, afiliacyjne pliki cookie Amazon, zarządzanie i ustawienia przeglądarki. Zgodna z RODO.',
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -55,6 +56,10 @@ const content: Record<string, { title: string; body: string }> = {
     title: 'Cookiebeleid',
     body: `Laatst bijgewerkt: april 2026\n\nDit beleid legt uit hoe Home Nura cookies gebruikt op zijn website.\n\nWat is een cookie?\nEen cookie is een klein tekstbestand dat op uw apparaat wordt opgeslagen wanneer u een website bezoekt. Cookies helpen de site correct te functioneren en verbeteren uw ervaring.\n\nCookies die wij gebruiken\n\nStrikt noodzakelijke cookies: Deze cookies zijn essentieel voor de werking van de site. Ze kunnen niet worden uitgeschakeld.\n\nCookies van derden (Amazon): Wanneer u op een affiliate-link naar Amazon klikt, worden cookies door Amazon geplaatst om uw aankoop te volgen en de affiliate-commissie aan ons toe te schrijven. Deze cookies zijn onderworpen aan het cookiebeleid van Amazon.\n\nCookies beheren\nU kunt cookies beheren en verwijderen via uw browserinstellingen. Het verwijderen van cookies kan uw browse-ervaring beïnvloeden.\n\nContact\nVoor vragen over ons gebruik van cookies: contact@homenura.com`,
   },
+  pl: {
+    title: 'Polityka plików cookie',
+    body: 'Ostatnia aktualizacja: kwiecień 2026\n\nTa polityka wyjaśnia, w jaki sposób Home Nura korzysta z plików cookie w swoim serwisie internetowym.\n\nCo to jest plik cookie?\nPlik cookie to mały plik tekstowy zapisywany na Twoim urządzeniu podczas odwiedzania strony internetowej. Pliki cookie pozwalają serwisowi działać prawidłowo i poprawiają Twoje wrażenia.\n\nJakich plików cookie używamy\n\nPliki cookie ściśle niezbędne: są one niezbędne do działania serwisu. Nie można ich wyłączyć.\n\nPliki cookie podmiotów trzecich (Amazon): gdy klikasz link afiliacyjny do Amazon, Amazon zapisuje pliki cookie, aby śledzić Twój zakup i przypisać nam prowizję afiliacyjną. Pliki te podlegają polityce cookie Amazon.\n\nZarządzanie plikami cookie\nMożesz kontrolować i usuwać pliki cookie w ustawieniach swojej przeglądarki. Usunięcie plików cookie może wpłynąć na komfort przeglądania.\n\nWięcej informacji o zarządzaniu plikami cookie znajdziesz w pomocy swojej przeglądarki.\n\nKontakt\nW razie pytań dotyczących naszego korzystania z plików cookie: contact@homenura.com',
+  },
 }
 
 export default async function PolitiqueCookies({ params }: { params: Promise<{ lang: string }> }) {
@@ -82,7 +87,7 @@ export default async function PolitiqueCookies({ params }: { params: Promise<{ l
         </div>
         <div className="mt-12">
           <Link href={`/${lang}`} className="text-brand-600 font-bold hover:underline">
-            &larr; {lang === 'fr' ? 'Retour à l\'accueil' : lang === 'de' ? 'Zurück zur Startseite' : lang === 'es' ? 'Volver al inicio' : lang === 'it' ? 'Torna alla home' : lang === 'nl' ? 'Terug naar home' : 'Back to home'}
+            &larr; {lang === 'fr' ? 'Retour à l\'accueil' : lang === 'de' ? 'Zurück zur Startseite' : lang === 'es' ? 'Volver al inicio' : lang === 'it' ? 'Torna alla home' : lang === 'nl' ? 'Terug naar home' : lang === 'pl' ? 'Powrót do strony głównej' : 'Back to home'}
           </Link>
         </div>
       </main>

@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: "Baño con lavabo, inodoro, ducha y bañera, zonas que conviene vigilar con un detector de fugas de agua",
         it: "Bagno con lavabo, WC, doccia e vasca, zone da sorvegliare con un rilevatore di perdite d'acqua",
         nl: "Badkamer met wastafel, toilet, douche en bad, plekken om te bewaken met een waterlekkagesensor",
+        pl: "Łazienka z umywalką, WC, prysznicem i wanną: miejsca do monitorowania za pomocą czujnika zalania",
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: "Detector de Fugas de Agua Inteligente 2026: Comparativa y Guía de Instalación",
     it: "Rilevatore di Perdite d'Acqua Smart 2026: Confronto e Guida all'Installazione",
     nl: "Slimme Waterlekkagesensor 2026: Vergelijking en Installatiegids",
+    pl: "Inteligentny czujnik zalania 2026: porównanie i poradnik montażu",
   },
   excerpt: {
     fr: "Quel détecteur de fuite d'eau connecté choisir en 2026 ? Comparatif de l'Aqara Water Leak Sensor T1, du Shelly Flood Gen4 et de l'Eve Water Guard, coupure automatique avec l'Aqara Valve Controller T1, placement des capteurs et erreurs à éviter.",
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: "¿Qué detector de fugas de agua inteligente elegir en 2026? Comparativa del Aqara Water Leak Sensor T1, el Shelly Flood Gen4 y el Eve Water Guard, corte automático con el Aqara Valve Controller T1, ubicación y errores que evitar.",
     it: "Quale rilevatore di perdite d'acqua smart scegliere nel 2026? Confronto tra Aqara Water Leak Sensor T1, Shelly Flood Gen4 ed Eve Water Guard, chiusura automatica con l'Aqara Valve Controller T1, posizionamento ed errori da evitare.",
     nl: "Welke slimme waterlekkagesensor kiest u in 2026? Vergelijking van de Aqara Water Leak Sensor T1, Shelly Flood Gen4 en Eve Water Guard, automatische afsluiting met de Aqara Valve Controller T1, plaatsing en fouten om te vermijden.",
+    pl: "Jaki inteligentny czujnik zalania wybrać w 2026 roku? Porównanie Aqara Water Leak Sensor T1, Shelly Flood Gen4 i Eve Water Guard, automatyczne odcinanie wody z Aqara Valve Controller T1, rozmieszczenie czujników i błędy do uniknięcia.",
   },
   content: {
     fr: `<p><strong>Pour la plupart des logements, le meilleur détecteur de fuite d'eau connecté en 2026 est l'Aqara Water Leak Sensor T1 : un petit capteur Zigbee à poser sous chaque appareil à risque, qui envoie une alerte sur smartphone dès que l'eau le touche.</strong> Si vous voulez aussi que l'eau soit coupée automatiquement, associez-le à l'Aqara Valve Controller T1, un moteur qui se fixe sur votre vanne d'arrêt existante et la ferme dès qu'une fuite est détectée.</p>
@@ -632,6 +635,105 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Voor de overgrote meerderheid van de woningen is de beste aanpak om onder elk risicotoestel een <strong>Aqara Water Leak Sensor T1</strong> te leggen. Wilt u verder gaan, dan maakt de <strong>Aqara Valve Controller T1</strong> van dat sensornetwerk een echt systeem voor automatische afsluiting, zonder verbouwing. De <strong>Shelly Flood Gen4</strong> past bij wie geen hub wil of een hele zone met een kabel moet bewaken, en de <strong>Eve Water Guard</strong> is de logische keuze in een Apple-huis. Alle modellen vindt u op onze pagina <a href="/nl/energie-domotique/detecteurs-fuite-eau">waterlekdetectoren</a>.</p>`,
+    pl: `<p><strong>Dla większości mieszkań najlepszym inteligentnym czujnikiem zalania w 2026 roku jest Aqara Water Leak Sensor T1: niewielki czujnik Zigbee, który kładzie się pod każdym urządzeniem narażonym na wyciek i który wysyła alert na smartfon, gdy tylko dotknie go woda.</strong> Jeśli chcesz, aby woda była też odcinana automatycznie, połącz go z Aqara Valve Controller T1, silnikiem montowanym na istniejącym zaworze odcinającym, który zamyka go natychmiast po wykryciu wycieku.</p>
+<p>Ten przewodnik porównuje rozwiązania faktycznie dostępne w Europie na podstawie kart katalogowych producentów, niezależnych recenzji i opinii zweryfikowanych kupujących: czujniki punktowe, czujniki z kablem, automatyczne odcinanie wody, rozmieszczenie czujników i błędy, których warto unikać. Cały wybór zobaczysz na stronie <a href="/pl/energie-domotique/detecteurs-fuite-eau">czujniki zalania</a>.</p>
+
+<h2>Po co instalować inteligentny czujnik zalania?</h2>
+<p>Szkody wodne należą do najczęstszych szkód w domach i mieszkaniach we Francji. Problemem nie jest sam wyciek, lecz czas, który mija, zanim go zauważysz: wąż pralki pęka w ciągu dnia pracy, zawór bezpieczeństwa podgrzewacza wody kapie w szafce, uszczelka syfonu przez tygodnie sączy się pod meblem. Gdy to odkrywasz, parkiet jest spuchnięty, płyta gipsowo-kartonowa przesiąknięta, a w bloku sąsiad z dołu ma już wodę na suficie.</p>
+<p>Inteligentny czujnik niczego nie naprawi, ale skraca to opóźnienie do kilku sekund. Powiadamia Twój telefon, gdziekolwiek jesteś, może uruchomić syrenę w mieszkaniu, a z zaworem z napędem potrafi odciąć dopływ wody bez udziału człowieka. To dyskretne, niewielkie wyposażenie, które współpracuje z najważniejszymi ekosystemami inteligentnego domu. Dobrze uzupełnia <a href="/pl/blog/alarme-maison-sans-abonnement">system alarmowy bez abonamentu</a>.</p>
+
+<h2>Jak wybrać: kryteria, które się liczą</h2>
+<h3>Czujnik punktowy czy kabel detekcyjny</h3>
+<p>Większość czujników to krążki kładzione na podłodze: reagują, gdy woda dotknie ich elektrod. To idealne rozwiązanie pod zlewem lub za zmywarką. Niektóre modele korzystają z kabla detekcyjnego, który monitoruje całą swoją długość: przydaje się wzdłuż rzędu urządzeń, przy podgrzewaczu wody lub w pralni, gdzie woda może wyciekać w kilku miejscach.</p>
+<h3>Protokół i potrzeba huba</h3>
+<p>Czujniki Zigbee (jak te od Aqara) zużywają bardzo mało energii i długo działają na jednej baterii pastylkowej, ale wymagają huba. Modele Wi-Fi łączą się bezpośrednio z routerem, kosztem większego zużycia energii. Modele Thread opierają się na routerze granicznym (HomePod mini, nowszy Apple TV lub zgodny hub). Jeśli masz już ekosystem, wybierz czujnik, który się w nim sprawdzi, zamiast dokładać kolejną aplikację.</p>
+<h3>Zasilanie</h3>
+<p>Bateria pastylkowa CR2032, baterie AA lub zasilanie sieciowe: każda opcja ma swoje ograniczenia. Model sieciowy nigdy nie zostanie bez baterii, ale zależy od gniazdka w pobliżu. Model bateryjny postawisz wszędzie, o ile będziesz kontrolować poziom baterii w aplikacji.</p>
+<h3>Alarm lokalny</h3>
+<p>Powiadomienie na nic się nie zda, jeśli telefon jest wyciszony lub nie ma połączenia z internetem. Wybierz czujnik z wbudowanym brzęczykiem albo hub zdolny uruchomić alarm w mieszkaniu.</p>
+<h3>Automatyczne odcinanie wody</h3>
+<p>Wykryć to dobrze, zatrzymać wodę to lepiej. Istnieją dwa podejścia: silnikowy siłownik zakładany na istniejący zawór ćwierćobrotowy i sterowany automatyzacją albo urządzenie zabezpieczające montowane na głównej rurze przez hydraulika. Pierwsze jest najłatwiejsze do samodzielnego wdrożenia.</p>
+<h3>Stopień ochrony i miejsce montażu</h3>
+<p>Czujnik leżący na podłodze prędzej czy później zostanie zalany: wysoki stopień ochrony (na przykład IP67) gwarantuje, że po zalaniu będzie dalej działał. Sprawdź też zakres temperatur pracy, jeśli wyposażasz piwnicę, garaż lub nieogrzewane pomieszczenie.</p>
+
+<h2>Najlepsze inteligentne czujniki zalania w 2026 roku</h2>
+<h3>Aqara Water Leak Sensor T1: najlepszy wybór dla większości mieszkań</h3>
+<p>Aqara Water Leak Sensor T1 (numer WL-S02D) to kompaktowy czujnik Zigbee 3.0 o wymiarach 50 × 50 × 15 mm, zasilany baterią CR2032 z deklarowanym czasem pracy około dwóch lat. Ma certyfikat IP67 i reaguje, gdy tylko cienka warstwa wody dotknie elektrod. W europejskiej gamie zastępuje model E1, sprzedawany głównie w Chinach.</p>
+<p><strong>Mocne strony:</strong> dyskretny format, który mieści się pod meblami, bardzo niski pobór energii, zgodność z Apple Home, Google Home, Alexa i SmartThings przez hub Aqara oraz uznana integracja z Home Assistant (ZHA lub Zigbee2MQTT). Dzięki funkcji mostu Matter w nowszych hubach Aqara pojawia się też na platformach Matter.</p>
+<p><strong>Ograniczenia:</strong> wymaga huba Aqara lub bramki Zigbee. Alarm dźwiękowy uruchamia się na hubie, a nie na samym czujniku.</p>
+<p><strong>Dla kogo:</strong> dla tych, którzy chcą niskim kosztem wyposażyć kilka punktów poboru wody albo mają już hub Aqara lub instalację Zigbee.</p>
+
+<h3>Shelly Flood Gen4: najbardziej uniwersalny bez huba</h3>
+<p>Shelly Flood Gen4 działa przez Wi-Fi, Zigbee i Bluetooth i jest zgodny z Matter. Zasilają go cztery baterie AA (szacowany czas pracy około dwóch lat, zależnie od użytkowania), a wbudowany brzęczyk ma kilka poziomów alarmu. Jego cechą wyróżniającą jest dołączony kabel detekcyjny o długości 2 m, który można przedłużyć do 150 m, oraz tryb wykrywania deszczu obok trybu zalania.</p>
+<p><strong>Mocne strony:</strong> brak obowiązkowego huba przy Wi-Fi, wbudowany alarm lokalny, kabel obejmujący całą strefę, integracja z Alexa, Google Home i Home Assistant.</p>
+<p><strong>Ograniczenia:</strong> obudowa IP44 (kabel leży na podłodze, obudowa musi pozostać sucha), większy format niż krążek. Shelly oferuje też Flood S Gen4 w obudowie IP67 bez kabla, jeśli wolisz czujnik punktowy.</p>
+<p><strong>Dla kogo:</strong> do pralni, kotłowni i piwnic oraz dla każdego, kto nie chce huba.</p>
+
+<h3>Eve Water Guard: wybór użytkowników Apple</h3>
+<p>Eve Water Guard podłącza się do gniazdka i monitoruje kabel o długości 2 m, który można przedłużyć do 150 m przedłużaczami. Komunikuje się przez Thread i Bluetooth i ma syrenę 100 dB z sygnałem świetlnym.</p>
+<p><strong>Mocne strony:</strong> brak baterii do wymiany, mocna syrena, natywna integracja z aplikacją Apple Home i lokalne działanie w Thread.</p>
+<p><strong>Ograniczenia:</strong> wymaga gniazdka w pobliżu. Powiadomienia zdalne i automatyzacje wymagają centrali Apple (HomePod mini, HomePod 2. generacji lub zgodny Apple TV 4K). To przede wszystkim produkt dla ekosystemu Apple.</p>
+<p><strong>Dla kogo:</strong> dla domów wyposażonych w urządzenia Apple, które chcą monitorować podgrzewacz wody, pralkę lub podstawę pionu bez zarządzania bateriami.</p>
+
+<h3>Aqara Valve Controller T1: automatyczne odcinanie wody bez hydraulika</h3>
+<p>Aqara Valve Controller T1 nie jest czujnikiem, lecz siłownikiem: mocuje się na istniejącym zaworze odcinającym z dźwignią lub motylkiem, w rozmiarze DN15, DN20 lub DN25 (1/2", 3/4" lub 1"), i obraca go za pomocą silnika. Działa w Zigbee na czterech bateriach AA, rozwija moment do 3,6 N·m i według producenta zamyka zawór w 5 do 20 sekund.</p>
+<p><strong>Mocne strony:</strong> nie przecinasz żadnej rury, a montaż odbywa się bez narzędzi hydraulicznych, jeśli Twój zawór jest zgodny. W parze z Water Leak Sensor T1 przez automatyzację Aqara zamyka dopływ wody, gdy tylko wykryty zostanie wyciek. Jest też zgodny z Apple Home, Alexa, Google Home, SmartThings, Home Assistant i Homey.</p>
+<p><strong>Ograniczenia:</strong> obowiązkowy hub Aqara, a istniejący zawór musi być sprawny i niezapieczony. Przed zakupem sprawdź zgodność swojego huba na stronie producenta.</p>
+<p><strong>Dla kogo:</strong> dla właścicieli i najemców, którzy chcą automatycznego odcinania wody bez prac remontowych.</p>
+
+<h3>A co z systemami montowanymi na dopływie wody?</h3>
+<p>Grohe Sense Guard, długo uchodzący za wzorcowy kontroler przepływu z wbudowanym odcinaniem, nie jest już produkowany. Wciąż można znaleźć resztki zapasów, ale już go nie polecamy. Istnieją inne urządzenia zabezpieczające montowane bezpośrednio na głównej rurze, często oferowane przez specjalistów od uzdatniania wody: wymagają montażu przez hydraulika i dobiera się je razem z nim, zależnie od Twojej instalacji.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Typ</th><th>Łączność</th><th>Zasilanie</th><th>Odcięcie wody</th><th>Idealny do</th></tr>
+</thead>
+<tbody>
+<tr><td>Aqara Water Leak Sensor T1</td><td>Czujnik punktowy IP67</td><td>Zigbee 3.0 (hub Aqara)</td><td>Bateria CR2032</td><td>Z Valve Controller T1</td><td>Wyposażenia wszystkich punktów poboru wody</td></tr>
+<tr><td>Shelly Flood Gen4</td><td>Obudowa + kabel 2 m</td><td>Wi-Fi, Zigbee, Bluetooth, Matter</td><td>4 baterie AA</td><td>Przez automatyzację</td><td>Pralni, piwnicy, bez huba</td></tr>
+<tr><td>Eve Water Guard</td><td>Wtyczka + kabel 2 m</td><td>Thread, Bluetooth</td><td>Sieć</td><td>Przez automatyzację Apple</td><td>Ekosystemu Apple</td></tr>
+<tr><td>Aqara Valve Controller T1</td><td>Siłownik zaworu</td><td>Zigbee (hub Aqara)</td><td>4 baterie AA</td><td>Tak, zamyka zawór</td><td>Automatycznego odcinania bez prac remontowych</td></tr>
+</tbody>
+</table>
+
+<h2>Gdzie rozmieścić czujniki</h2>
+<p>Zacznij od urządzeń, do których stale dopływa woda pod ciśnieniem lub które ją odprowadzają:</p>
+<ul>
+<li><strong>Za pralką lub pod nią:</strong> wąż doprowadzający i wąż odpływowy to klasyczne słabe punkty.</li>
+<li><strong>Pod zmywarką:</strong> pompa odpływowa i uszczelka drzwi.</li>
+<li><strong>W szafce pod zlewem:</strong> węże baterii, syfon, przyłącze zmywarki.</li>
+<li><strong>Przy podgrzewaczu wody:</strong> zawór bezpieczeństwa często kapie, a pęknięty zbiornik uwalnia dużo wody.</li>
+<li><strong>Pod umywalką, przy prysznicu lub wannie i za WC.</strong></li>
+<li><strong>W pobliżu zaworu na dopływie wody i wodomierza</strong>, a także w piwnicy, jeśli ją masz.</li>
+</ul>
+<p>Połóż czujnik płasko, elektrodami do podłogi, w najniższym punkcie, w którym zgromadziłaby się woda. Unikaj miejsc, w których normalnie bywa mokro (brodzik, podłoga myta dużą ilością wody), bo to prowadzi do fałszywych alarmów.</p>
+
+<h2>Montaż automatycznego odcinania wody: etapy i środki ostrożności</h2>
+<ol>
+<li><strong>Znajdź główny zawór odcinający</strong> i sprawdź, czy jest ćwierćobrotowy, z dźwignią lub motylkiem, i czy ma zgodną średnicę.</li>
+<li><strong>Kilka razy obróć go ręcznie.</strong> Zapieczony zawór powinien zostać wymieniony przez hydraulika, zanim zamontujesz na nim silnik.</li>
+<li><strong>Zainstaluj hub</strong>, a następnie dodaj czujniki i siłownik w aplikacji.</li>
+<li><strong>Zamontuj siłownik</strong> na zaworze zgodnie z instrukcją, nie przeciążając rury.</li>
+<li><strong>Utwórz automatyzację</strong> „jeśli czujnik wykryje wodę, zamknij zawór i wyślij powiadomienie”.</li>
+<li><strong>Sprawdź działanie</strong>, lekko zwilżając czujnik mokrą szmatką: zawór powinien się zamknąć, a alert trafić na Twój telefon.</li>
+</ol>
+<p>We wspólnocie mieszkaniowej lub w wynajmowanym mieszkaniu ingeruj wyłącznie w zawór swojego lokalu, nigdy we wspólny pion. Jeśli trzeba wymienić zawór lub zmienić instalację, powierz tę pracę wykwalifikowanemu hydraulikowi.</p>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Poleganie wyłącznie na powiadomieniach:</strong> bez alarmu lokalnego wyciek, gdy śpisz, może pozostać niezauważony.</li>
+<li><strong>Zapominanie o bateriach:</strong> włącz alerty niskiego poziomu baterii i zanotuj datę wymiany.</li>
+<li><strong>Umieszczenie czujnika zbyt daleko od źródła:</strong> woda płynie po spadku podłogi; połóż czujnik tam, gdzie się zbierze.</li>
+<li><strong>Montaż silnika na zapieczonym zaworze:</strong> może nie dać rady go zamknąć w dniu, w którym będzie to potrzebne.</li>
+<li><strong>Mnożenie aplikacji:</strong> trzymaj się jednego ekosystemu, aby wszystkie alerty trafiały w jedno miejsce. W wyborze pomoże nasz przewodnik o <a href="/pl/blog/maison-connectee-matter-thread-2026">Matter i Thread</a>.</li>
+</ul>
+
+<h2>Ubezpieczenie mieszkania: co warto wiedzieć</h2>
+<p>Czujnik zalania nie zastępuje ubezpieczenia i nie zwalnia z konserwacji instalacji. Niektórzy ubezpieczyciele doceniają wyposażenie prewencyjne, ale warunki różnią się w zależności od umowy: zapytaj bezpośrednio swojego ubezpieczyciela, zanim zaczniesz liczyć na korzyść cenową. W razie szkody historia alertów w aplikacji może pomóc określić moment wycieku.</p>
+
+<h2>Nasz werdykt</h2>
+<p>W zdecydowanej większości mieszkań najlepszą strategią jest położenie czujników <strong>Aqara Water Leak Sensor T1</strong> pod każdym urządzeniem narażonym na wyciek. Jeśli chcesz pójść dalej, <strong>Aqara Valve Controller T1</strong> zamienia tę sieć czujników w prawdziwy system automatycznego odcinania wody, bez prac remontowych. <strong>Shelly Flood Gen4</strong> sprawdzi się u tych, którzy nie chcą huba lub muszą monitorować całą strefę za pomocą kabla, a <strong>Eve Water Guard</strong> to naturalny wybór w domu wyposażonym w urządzenia Apple. Wszystkie modele znajdziesz na stronie <a href="/pl/energie-domotique/detecteurs-fuite-eau">czujniki zalania</a>.</p>`,
   },
   faq: [
     {
@@ -642,6 +744,7 @@ export const article: BlogArticle = {
         es: "¿Puede un detector de fugas cortar el agua automáticamente?",
         it: "Un rilevatore di perdite può chiudere l'acqua automaticamente?",
         nl: "Kan een waterlekkagesensor het water automatisch afsluiten?",
+        pl: "Czy czujnik zalania może automatycznie odciąć wodę?",
       },
       answer: {
         fr: "Pas seul : un détecteur se contente d'alerter. Pour couper l'eau, il faut l'associer à une vanne motorisée. La solution la plus simple est l'Aqara Valve Controller T1, qui se fixe sur une vanne d'arrêt quart de tour existante et la ferme via une automatisation dès qu'un capteur Aqara détecte de l'eau. Les dispositifs intégrés à la canalisation principale existent aussi, mais demandent une pose par un plombier.",
@@ -650,6 +753,7 @@ export const article: BlogArticle = {
         es: "Por sí solo, no: un detector solo avisa. Para cortar el agua hay que combinarlo con una válvula motorizada. La opción más sencilla es el Aqara Valve Controller T1, que se acopla a una llave de paso de cuarto de vuelta existente y la cierra mediante una automatización en cuanto un sensor Aqara detecta agua. También existen dispositivos integrados en la tubería principal, pero los debe instalar un fontanero.",
         it: "Da solo no: un rilevatore si limita a dare l'allarme. Per chiudere l'acqua serve una valvola motorizzata. La soluzione più semplice è l'Aqara Valve Controller T1, che si fissa su una valvola di arresto a quarto di giro esistente e la chiude tramite un'automazione appena un sensore Aqara rileva acqua. Esistono anche dispositivi integrati nella tubazione principale, ma vanno installati da un idraulico.",
         nl: "Niet op zichzelf: een sensor geeft alleen alarm. Om het water af te sluiten is een gemotoriseerde kraan nodig. De eenvoudigste oplossing is de Aqara Valve Controller T1, die op een bestaande kwartslagkraan wordt gezet en die via een automatisering dichtdraait zodra een Aqara-sensor water detecteert. Er bestaan ook apparaten voor in de hoofdleiding, maar die moet een loodgieter plaatsen.",
+        pl: "Sam nie: czujnik tylko alarmuje. Aby odciąć wodę, trzeba go połączyć z zaworem z napędem. Najprostszym rozwiązaniem jest Aqara Valve Controller T1, który mocuje się na istniejącym zaworze odcinającym ćwierćobrotowym i zamyka go przez automatyzację, gdy tylko czujnik Aqara wykryje wodę. Istnieją też urządzenia wbudowane w główną rurę, ale wymagają montażu przez hydraulika.",
       },
     },
     {
@@ -660,6 +764,7 @@ export const article: BlogArticle = {
         es: "¿Hace falta un hub para un detector de fugas inteligente?",
         it: "Serve un hub per un rilevatore di perdite smart?",
         nl: "Heb ik een hub nodig voor een slimme waterlekkagesensor?",
+        pl: "Czy inteligentny czujnik zalania wymaga huba?",
       },
       answer: {
         fr: "Cela dépend du protocole. Les capteurs Zigbee comme l'Aqara Water Leak Sensor T1 exigent un hub Aqara ou une passerelle Zigbee. Le Shelly Flood Gen4 peut fonctionner directement en Wi-Fi, sans hub. L'Eve Water Guard fonctionne en local, mais les alertes à distance passent par un concentrateur Apple (HomePod mini, HomePod ou Apple TV compatible).",
@@ -668,6 +773,7 @@ export const article: BlogArticle = {
         es: "Depende del protocolo. Los sensores Zigbee como el Aqara Water Leak Sensor T1 necesitan un hub Aqara o una pasarela Zigbee. El Shelly Flood Gen4 puede funcionar directamente por Wi-Fi, sin hub. El Eve Water Guard funciona en local, pero las alertas a distancia pasan por un concentrador de Apple (HomePod mini, HomePod o Apple TV compatible).",
         it: "Dipende dal protocollo. I sensori Zigbee come l'Aqara Water Leak Sensor T1 richiedono un hub Aqara o un gateway Zigbee. Lo Shelly Flood Gen4 può funzionare direttamente in Wi-Fi, senza hub. L'Eve Water Guard funziona in locale, ma gli avvisi a distanza passano da un hub domestico Apple (HomePod mini, HomePod o Apple TV compatibile).",
         nl: "Dat hangt af van het protocol. Zigbee-sensoren zoals de Aqara Water Leak Sensor T1 hebben een Aqara-hub of Zigbee-gateway nodig. De Shelly Flood Gen4 kan rechtstreeks via wifi werken, zonder hub. De Eve Water Guard werkt lokaal, maar meldingen op afstand lopen via een Apple-woninghub (HomePod mini, HomePod of compatibele Apple TV).",
+        pl: "To zależy od protokołu. Czujniki Zigbee, jak Aqara Water Leak Sensor T1, wymagają huba Aqara lub bramki Zigbee. Shelly Flood Gen4 może działać bezpośrednio przez Wi-Fi, bez huba. Eve Water Guard działa lokalnie, ale alerty zdalne przechodzą przez centralę Apple (HomePod mini, HomePod lub zgodny Apple TV).",
       },
     },
     {
@@ -678,6 +784,7 @@ export const article: BlogArticle = {
         es: "¿Cuántos sensores necesita un piso?",
         it: "Quanti sensori servono per un appartamento?",
         nl: "Hoeveel sensoren heeft een appartement nodig?",
+        pl: "Ile czujników potrzeba do mieszkania?",
       },
       answer: {
         fr: "Comptez un capteur par point à risque : lave-linge, lave-vaisselle, évier de cuisine, chauffe-eau, lavabo, douche ou baignoire et WC. Dans un appartement classique, cela représente souvent cinq à huit capteurs. Un modèle à câble comme le Shelly Flood Gen4 ou l'Eve Water Guard peut couvrir plusieurs appareils alignés avec un seul boîtier.",
@@ -686,6 +793,7 @@ export const article: BlogArticle = {
         es: "Cuente un sensor por punto de riesgo: lavadora, lavavajillas, fregadero, termo, lavabo, ducha o bañera e inodoro. En un piso típico suelen ser entre cinco y ocho sensores. Un modelo con cable como el Shelly Flood Gen4 o el Eve Water Guard puede cubrir varios aparatos alineados con un solo dispositivo.",
         it: "Calcolate un sensore per ogni punto a rischio: lavatrice, lavastoviglie, lavello, scaldabagno, lavabo, doccia o vasca e WC. In un appartamento tipico si arriva spesso a cinque-otto sensori. Un modello a cavo come lo Shelly Flood Gen4 o l'Eve Water Guard può coprire più elettrodomestici allineati con un solo dispositivo.",
         nl: "Reken op één sensor per risicopunt: wasmachine, vaatwasser, gootsteen, boiler, wastafel, douche of bad en toilet. In een gemiddeld appartement komt dat vaak neer op vijf tot acht sensoren. Een kabelmodel zoals de Shelly Flood Gen4 of de Eve Water Guard kan met één apparaat meerdere toestellen op een rij bewaken.",
+        pl: "Licz jeden czujnik na każdy punkt ryzyka: pralka, zmywarka, zlew kuchenny, podgrzewacz wody, umywalka, prysznic lub wanna i WC. W typowym mieszkaniu to często od pięciu do ośmiu czujników. Model z kablem, jak Shelly Flood Gen4 czy Eve Water Guard, może objąć kilka urządzeń ustawionych w rzędzie jedną obudową.",
       },
     },
     {
@@ -696,6 +804,7 @@ export const article: BlogArticle = {
         es: "¿Sigue siendo el Grohe Sense Guard una buena opción?",
         it: "Il Grohe Sense Guard è ancora una buona scelta?",
         nl: "Is de Grohe Sense Guard nog een goede keuze?",
+        pl: "Czy Grohe Sense Guard to nadal dobra opcja?",
       },
       answer: {
         fr: "Le Grohe Sense Guard n'est plus fabriqué. Même si l'on trouve encore quelques stocks, mieux vaut choisir une solution toujours commercialisée et suivie par son fabricant. Pour une coupure automatique sans travaux, l'Aqara Valve Controller T1 associé à des capteurs Aqara est l'alternative la plus accessible ; pour un dispositif monté sur la canalisation principale, demandez conseil à un plombier.",
@@ -704,6 +813,7 @@ export const article: BlogArticle = {
         es: "El Grohe Sense Guard ya no se fabrica. Aunque todavía se encuentren algunas existencias, es preferible elegir un producto que siga a la venta y con soporte del fabricante. Para un corte automático sin obras, el Aqara Valve Controller T1 con sensores Aqara es la alternativa más accesible; para un dispositivo en la tubería principal, pida consejo a un fontanero.",
         it: "Il Grohe Sense Guard non è più prodotto. Anche se se ne trovano ancora alcune scorte, è meglio scegliere un prodotto ancora in commercio e supportato dal produttore. Per una chiusura automatica senza lavori, l'Aqara Valve Controller T1 abbinato a sensori Aqara è l'alternativa più accessibile; per un dispositivo sulla tubazione principale, chiedete consiglio a un idraulico.",
         nl: "De Grohe Sense Guard wordt niet meer geproduceerd. Ook al zijn er nog restvoorraden, kies liever een product dat nog verkocht en door de fabrikant ondersteund wordt. Voor automatische afsluiting zonder verbouwing is de Aqara Valve Controller T1 met Aqara-sensoren het meest toegankelijke alternatief; voor een apparaat op de hoofdleiding vraagt u advies aan een loodgieter.",
+        pl: "Grohe Sense Guard nie jest już produkowany. Choć wciąż można znaleźć pojedyncze zapasy, lepiej wybrać rozwiązanie, które nadal jest w sprzedaży i wspierane przez producenta. Do automatycznego odcinania wody bez prac remontowych Aqara Valve Controller T1 z czujnikami Aqara to najdostępniejsza alternatywa; w przypadku urządzenia montowanego na głównej rurze zapytaj o radę hydraulika.",
       },
     },
     {
@@ -714,6 +824,7 @@ export const article: BlogArticle = {
         es: "¿Qué ocurre si se cae internet?",
         it: "Cosa succede se internet non funziona?",
         nl: "Wat gebeurt er als het internet uitvalt?",
+        pl: "Co się dzieje przy awarii internetu?",
       },
       answer: {
         fr: "Vous ne recevrez plus de notification à distance, mais l'alarme locale reste votre filet de sécurité : buzzer intégré sur le Shelly Flood Gen4, sirène de 100 dB sur l'Eve Water Guard, alarme du hub pour les capteurs Aqara. Les automatisations exécutées localement par le hub, comme la fermeture d'une vanne, peuvent continuer à fonctionner selon la configuration.",
@@ -722,6 +833,7 @@ export const article: BlogArticle = {
         es: "Dejará de recibir notificaciones a distancia, pero la alarma local sigue siendo su red de seguridad: el zumbador integrado del Shelly Flood Gen4, la sirena de 100 dB del Eve Water Guard o la alarma del hub para los sensores Aqara. Las automatizaciones que el hub ejecuta en local, como cerrar una llave, pueden seguir funcionando según la configuración.",
         it: "Non riceverete più notifiche a distanza, ma l'allarme locale resta la vostra rete di sicurezza: il cicalino integrato dello Shelly Flood Gen4, la sirena da 100 dB dell'Eve Water Guard o l'allarme dell'hub per i sensori Aqara. Le automazioni eseguite in locale dall'hub, come la chiusura di una valvola, possono continuare a funzionare a seconda della configurazione.",
         nl: "U ontvangt dan geen meldingen op afstand meer, maar het lokale alarm blijft uw vangnet: de ingebouwde zoemer van de Shelly Flood Gen4, de sirene van 100 dB van de Eve Water Guard of het hub-alarm bij Aqara-sensoren. Automatiseringen die de hub lokaal uitvoert, zoals het sluiten van een kraan, kunnen afhankelijk van de configuratie blijven werken.",
+        pl: "Nie dostaniesz już powiadomień zdalnych, ale alarm lokalny pozostaje Twoją siatką bezpieczeństwa: wbudowany brzęczyk w Shelly Flood Gen4, syrena 100 dB w Eve Water Guard, alarm huba w czujnikach Aqara. Automatyzacje wykonywane lokalnie przez hub, jak zamknięcie zaworu, mogą działać dalej, zależnie od konfiguracji.",
       },
     },
     {
@@ -732,6 +844,7 @@ export const article: BlogArticle = {
         es: "¿Se puede instalar un corte automático en un piso de alquiler?",
         it: "Si può installare una chiusura automatica in affitto?",
         nl: "Kunnen huurders een automatische afsluiting plaatsen?",
+        pl: "Czy można zamontować automatyczne odcinanie wody w wynajmowanym mieszkaniu?",
       },
       answer: {
         fr: "Les capteurs posés au sol ne posent aucun problème. Un actionneur comme l'Aqara Valve Controller T1 se fixe sur la vanne existante sans modifier la tuyauterie et se retire facilement, mais il est préférable d'en informer votre propriétaire. N'intervenez jamais sur une vanne ou une colonne commune de l'immeuble, et faites appel à un plombier si la vanne doit être remplacée.",
@@ -740,6 +853,7 @@ export const article: BlogArticle = {
         es: "Los sensores de suelo no plantean ningún problema. Un actuador como el Aqara Valve Controller T1 se acopla a la llave existente sin modificar la instalación y se retira con facilidad, pero conviene informar al propietario. No toque nunca una llave o un montante comunitario, y llame a un fontanero si hay que sustituir la llave.",
         it: "I sensori a pavimento non pongono alcun problema. Un attuatore come l'Aqara Valve Controller T1 si fissa sulla valvola esistente senza modificare le tubazioni e si rimuove facilmente, ma è preferibile informare il proprietario. Non intervenite mai su valvole o colonne condominiali, e chiamate un idraulico se la valvola va sostituita.",
         nl: "Vloersensoren zijn geen enkel probleem. Een actuator zoals de Aqara Valve Controller T1 wordt op de bestaande kraan gezet zonder de leidingen aan te passen en is eenvoudig te verwijderen, maar laat het uw verhuurder wel weten. Kom nooit aan een kraan of standleiding van het gebouw, en schakel een loodgieter in als de kraan vervangen moet worden.",
+        pl: "Czujniki kładzione na podłodze nie stwarzają żadnego problemu. Siłownik taki jak Aqara Valve Controller T1 mocuje się na istniejącym zaworze bez zmian w instalacji i łatwo go zdjąć, ale lepiej poinformować o nim właściciela. Nigdy nie ingeruj we wspólny zawór ani pion budynku, a jeśli zawór wymaga wymiany, skorzystaj z pomocy hydraulika.",
       },
     },
   ],

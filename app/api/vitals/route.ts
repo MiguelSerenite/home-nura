@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server'
 import { rateLimited, getClientIp } from '@/lib/rate-limit'
+import { LANGUAGES } from '@/lib/i18n'
 
 /**
  * /api/vitals — Phase U RUM (Real User Monitoring)
@@ -30,7 +31,7 @@ import { rateLimited, getClientIp } from '@/lib/rate-limit'
 // Canonical Web Vitals metric names. Anything else → 400.
 const VALID_METRICS = new Set(['LCP', 'FID', 'CLS', 'FCP', 'TTFB', 'INP'])
 const VALID_RATINGS = new Set(['good', 'needs-improvement', 'poor'])
-const VALID_LANGS = new Set(['fr', 'en', 'de', 'es', 'it', 'nl'])
+const VALID_LANGS: ReadonlySet<string> = new Set(LANGUAGES)
 
 // Sanity bounds — reject obvious garbage. 5 min covers even the slowest
 // real-world TTFB; anything larger is a client clock issue or abuse.

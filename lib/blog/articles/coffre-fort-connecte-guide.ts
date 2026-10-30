@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: "Teclado numérico de acero cepillado, como el de una caja fuerte electrónica",
         it: "Tastierino numerico in acciaio spazzolato, come quello di una cassaforte elettronica",
         nl: "Numeriek toetsenbord van geborsteld staal, zoals op een elektronische kluis",
+        pl: "Klawiatura numeryczna ze szczotkowanej stali, jak w elektronicznym sejfie na kod",
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: "Mejor caja fuerte inteligente 2026: huella, código o app",
     it: "Migliore cassaforte smart 2026: impronta, codice o app",
     nl: "Beste slimme kluis 2026: vingerafdruk, code of app",
+    pl: "Inteligentny sejf 2026: biometryczny, na kod czy z aplikacją, który wybrać?",
   },
   excerpt: {
     fr: "Burg-Wächter Combi-Line, Yale Smart Safe, PointSafe, Master Lock et Phoenix Next comparés : certifications EN 14450 et EN 1143-1, classement incendie, ancrage, assurance, clé de secours et piles.",
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: "Burg-Wächter Combi-Line, Yale Smart Safe, PointSafe, Master Lock y Phoenix Next comparadas: normas EN 14450 y EN 1143-1, clases de incendio, anclaje, seguro, llave de emergencia y pilas.",
     it: "Burg-Wächter Combi-Line, Yale Smart Safe, PointSafe, Master Lock e Phoenix Next a confronto: norme EN 14450 ed EN 1143-1, classi antincendio, ancoraggio, assicurazione, chiave di emergenza e pile.",
     nl: "Burg-Wächter Combi-Line, Yale Smart Safe, PointSafe, Master Lock en Phoenix Next vergeleken: EN 14450 en EN 1143-1, brandklassen, verankering, verzekering, noodsleutel en batterijen.",
+    pl: "Burg-Wächter Combi-Line, Yale Smart Safe, PointSafe, Master Lock i Phoenix Next w porównaniu: certyfikaty EN 14450 i EN 1143-1, klasy ognioodporności, kotwienie, ubezpieczenie, klucz awaryjny i baterie.",
   },
   content: {
     fr: `<p>Pour la plupart des foyers, le meilleur coffre-fort connecté ou biométrique en 2026 est le <strong>Burg-Wächter Combi-Line CL 20 E FS</strong> : il associe un lecteur d'empreintes digitales, une certification effraction EN 14450 de niveau S2 et une protection incendie de 30 minutes pour le papier. Si votre priorité est de recevoir une alerte sur smartphone à chaque ouverture, le <strong>Yale Smart Safe</strong> est le choix le plus abouti, à condition d'accepter qu'il protège moins bien contre un cambrioleur outillé.</p>
@@ -770,6 +773,128 @@ export const article: BlogArticle = {
 <h2>Ons oordeel</h2>
 <p>Om waardevolle spullen echt te beschermen, is de <strong>Burg-Wächter Combi-Line CL 20 E FS</strong> de meest evenwichtige keuze: opening met vingerafdruk, EN 14450 S2-certificering en 30 minuten brandbescherming voor papier. Met een kleiner budget biedt de <strong>PointSafe P 2 E FS</strong> biometrische opening in een compact formaat, dat u absoluut moet vastschroeven. Wilt u bij elke opening een melding, dan blijft de <strong>Yale Smart Safe</strong> de verbonden referentie, terwijl de <strong>Master Lock LX110BEURHRO</strong> past bij wie ruimte nodig heeft en de <strong>Phoenix Next LS7001FB</strong> bij wie vooral bang is voor brand.</p>
 <p>Een kluis is maar één beschermingslaag: combineer hem met een alarm en een goed beveiligde deur. Lees voor meer informatie onze <a href="/nl/blog/guide-securite-maison-connectee-2026">gids voor slimme huisbeveiliging</a> en ons artikel over <a href="/nl/blog/alarme-maison-sans-abonnement">een huisalarm zonder abonnement</a>.</p>`,
+    pl: `<p>Dla większości gospodarstw domowych najlepszym inteligentnym lub biometrycznym sejfem 2026 roku jest <strong>Burg-Wächter Combi-Line CL 20 E FS</strong>: łączy czytnik linii papilarnych, certyfikat odporności na włamanie EN 14450 na poziomie S2 i 30-minutową ochronę przeciwpożarową dla papieru. Jeśli Twoim priorytetem jest powiadomienie na smartfonie przy każdym otwarciu, <strong>Yale Smart Safe</strong> jest najbardziej dopracowanym wyborem, pod warunkiem że zaakceptujesz słabszą ochronę przed włamywaczem z narzędziami.</p>
+<p>To porównanie opiera się na kartach katalogowych producentów, opublikowanych certyfikatach i zweryfikowanych opiniach kupujących. Przegląda pięć modeli sprzedawanych w Europie, wyjaśnia, ile naprawdę znaczą normy EN 14450, EN 1143-1 i klasy ognioodporności, oraz omawia punkty, które często się pomija: kotwienie, ubezpieczenie, klucz awaryjny i zasilanie. Cały nasz wybór znajdziesz też w sekcji <a href="/pl/securite-maison/coffres-forts-connectes">inteligentne sejfy</a>.</p>
+
+<h2>Kryteria wyboru inteligentnego sejfu</h2>
+
+<h3>1. Certyfikat odporności na włamanie: EN 14450 lub EN 1143-1</h3>
+<p>To najważniejsze kryterium i to, które karty produktów eksponują najmniej. Dwie normy europejskie klasyfikują odporność sejfu na włamanie:</p>
+<ul>
+<li><strong>EN 14450</strong>: dotyczy sejfów z niższej i średniej półki, z dwoma poziomami, <strong>S1</strong> i <strong>S2</strong> (S2 jest bardziej odporny). To typowy poziom dobrego sejfu domowego.</li>
+<li><strong>EN 1143-1</strong>: to norma sejfów „profesjonalnych”, ze stopniami od <strong>0</strong> do <strong>XIII</strong>. Stopień 0 lub I jest już wyższy niż EN 14450 S2 i odpowiada osobom prywatnym, które przechowują cenną biżuterię lub duże kwoty.</li>
+</ul>
+<p>Certyfikowany sejf został poddany próbom ataku przez niezależną jednostkę (na przykład ECB·S lub VdS). Sejf „niecertyfikowany” może być dobrze wykonany, ale nic nie pozwala obiektywnie ocenić jego odporności. Oznaczenia typu „insurance rating”, spotykane w niektórych sklepach brytyjskich, to wskazówki handlowe, a nie certyfikat europejski.</p>
+
+<h3>2. Odporność na ogień: odrębne pojęcie</h3>
+<p>Sejf odporny na włamanie nie jest automatycznie ognioodporny, a sejf ognioodporny nie musi być trudny do sforsowania. Klasy przeciwpożarowe są oddzielne:</p>
+<ul>
+<li><strong>EN 15659</strong>: klasy <strong>LFS 30 P</strong> i <strong>LFS 60 P</strong>, czyli 30 lub 60 minut ochrony dokumentów papierowych.</li>
+<li><strong>EN 1047-1</strong>: bardziej wymagająca norma, z klasami dla papieru (P) i nośników danych (D, DIS).</li>
+<li><strong>NT Fire 017</strong>: bardzo rozpowszechniony skandynawski test, z klasami typu „60 Paper” lub „120 Paper”.</li>
+</ul>
+<p>Uwaga: oznaczenie „Paper” lub „P” oznacza, że temperatura wewnątrz pozostaje dość niska dla papieru, ale nie dla pendrive’a, dysku twardego czy negatywów, które znoszą ciepło znacznie gorzej. Do takich nośników potrzebna jest klasa „Data” lub „DIS”.</p>
+
+<h3>3. Sposób otwierania</h3>
+<p>Odcisk palca, kod, aplikacja lub klucz: większość modeli łączy kilka metod. Czytnik linii papilarnych jest szybki i pozwala nie pamiętać kodu, ale trzeba zarejestrować kilka palców (zranione lub bardzo suche palce mogą być źle odczytane). Aplikacja zapewnia historię otwarć i alerty, ale zależy od połączenia Bluetooth lub Wi-Fi i konta online.</p>
+
+<h3>4. Zasilanie i awaryjny dostęp</h3>
+<p>Zamek elektroniczny działa na baterie. Sprawdź, jak otworzyć sejf, gdy się wyczerpią: awaryjny klucz mechaniczny, zewnętrzne styki do podłączenia baterii awaryjnej lub kod awaryjny. Każde rozwiązanie ma swoje zalety, ale źle schowany klucz awaryjny staje się słabym punktem całego systemu.</p>
+
+<h3>5. Kotwienie, waga i pojemność</h3>
+<p>Mały sejf o wadze 15 kg, który nie jest przymocowany, można wynieść pod pachą. Waga i możliwość przymocowania sejfu do ściany lub podłogi liczą się tak samo jak grubość drzwi. Jeśli chodzi o pojemność, zmierz to, co chcesz w nim przechowywać: paszport i trochę biżuterii zmieszczą się w 20 litrach, laptop lub segregatory A4 wymagają więcej miejsca.</p>
+
+<h2>5 najlepszych inteligentnych i biometrycznych sejfów 2026 roku</h2>
+
+<h3>Burg-Wächter Combi-Line CL 20 E FS: najlepszy wybór ogólny</h3>
+<p>Niemiecki producent Burg-Wächter oferuje w serii Combi-Line jeden z nielicznych sejfów domowych, które łączą odcisk palca, certyfikat odporności na włamanie i ochronę przeciwpożarową. CL 20 E FS ma certyfikat <strong>EN 14450 poziom S2</strong> i klasę <strong>LFS 30 P według EN 15659</strong>, czyli 30 minut ochrony dokumentów papierowych.</p>
+<ul>
+<li><strong>Mocne strony</strong>: elektroniczny zamek SecuTronic z modułem odcisków palca (do 20 odcisków według producenta), konstrukcja z podwójnymi ściankami, okrągłe rygle 25 mm, dwa otwory z tyłu i dwa w dnie do kotwienia, waga około 55 kg, która zniechęca do wyniesienia.</li>
+<li><strong>Ograniczenia</strong>: brak aplikacji i alertów na smartfonie; średnia pojemność wewnętrzna (około 27 litrów); instalację warto zaplanować we dwie osoby ze względu na wagę.</li>
+<li><strong>Dla kogo</strong>: gospodarstwa, które chcą naprawdę certyfikowanego sejfu na biżuterię, dokumenty tożsamości i ważne dokumenty, z szybkim otwieraniem odciskiem palca. Seria jest dostępna także jako CL 10, CL 40 i CL 60 E FS.</li>
+</ul>
+
+<h3>Yale Smart Safe: najbardziej połączony z siecią</h3>
+<p><strong>Yale Smart Safe</strong> (numer referencyjny YSS/250/EB1) to sejf z tego zestawienia, który idzie najdalej pod względem łączności. Steruje się nim aplikacją <strong>Yale Home</strong> przez Bluetooth, a zdalny dostęp uzyskasz po dodaniu mostka Wi-Fi Yale Connect, sprzedawanego osobno.</p>
+<ul>
+<li><strong>Mocne strony</strong>: powiadomienie przy każdym otwarciu, historia dostępu, kody do udostępniania i tymczasowe, zgodność z asystentami głosowymi (w tym Apple HomeKit i Google Assistant), dwa rygle 20 mm, oświetlenie wewnętrzne, dwa klucze awaryjne w zestawie, cztery otwory z tyłu i w dnie do mocowania.</li>
+<li><strong>Ograniczenia</strong>: brak czytnika linii papilarnych, brak eksponowanego w karcie produktu certyfikatu odporności na włamanie EN, brak ochrony przeciwpożarowej; zdalny dostęp wymaga dodatkowego mostka Wi-Fi.</li>
+<li><strong>Dla kogo</strong>: osoby, które chcą wiedzieć, kiedy sejf jest otwierany (dzieci, wynajem pokoi, pomoc domowa) i przechowywać przedmioty o umiarkowanej wartości, najlepiej mocno go przytwierdzając.</li>
+</ul>
+
+<h3>Burg-Wächter PointSafe P 2 E FS: najlepszy stosunek jakości do ceny</h3>
+<p><strong>PointSafe P 2 E FS</strong> to mały sejf meblowy o pojemności 21 litrów, wyposażony w elektroniczny zamek na kod uzupełniony o czytnik linii papilarnych.</p>
+<ul>
+<li><strong>Mocne strony</strong>: podwójne otwieranie kodem lub odciskiem palca, mechaniczny klucz awaryjny, rygle 18 mm, drzwi z 4 mm stali, zawiasy wewnętrzne, otwory z tyłu i w dnie ze śrubami w zestawie, kompaktowy format (około 14 kg), łatwy do ukrycia w szafie.</li>
+<li><strong>Ograniczenia</strong>: brak certyfikatu EN 14450, brak ochrony przeciwpożarowej, brak aplikacji. Korpus z 2 mm stali sprawia, że jest to sejf raczej odstraszający niż prawdziwa przeszkoda dla włamywacza z narzędziami.</li>
+<li><strong>Dla kogo</strong>: pierwszy sejf biometryczny na paszporty, niewielką gotówkę i zwykłą biżuterię, pod warunkiem że przykręcisz go do ściany lub podłogi.</li>
+</ul>
+
+<h3>Master Lock LX110BEURHRO: najbardziej pojemny wśród biometrycznych sejfów z niższej półki</h3>
+<p>Biometryczny sejf dużego formatu Master Lock oferuje <strong>25,4 litra</strong> w płaskiej formie, w której zmieści się laptop lub dokumenty A4.</p>
+<ul>
+<li><strong>Mocne strony</strong>: pamięć 30 odcisków palca, dwa zmotoryzowane rygle ze stali, ukryty zawias, oświetlenie wewnętrzne, wyściełane dno chroniące przed zarysowaniami, dwa klucze awaryjne i zestaw awaryjny na wypadek rozładowanych baterii, śruby montażowe w zestawie.</li>
+<li><strong>Ograniczenia</strong>: producent nie podaje certyfikatu odporności na włamanie EN ani klasy ognioodporności, brak aplikacji; działa na cztery baterie AA niedołączone do zestawu.</li>
+<li><strong>Dla kogo</strong>: osoby, które potrzebują przede wszystkim miejsca na komputer, tablet i dokumenty, z prostym otwieraniem odciskiem palca dla całej rodziny.</li>
+</ul>
+
+<h3>Phoenix Next LS7001FB: najwyższa półka pod względem ochrony przed ogniem</h3>
+<p>Brytyjski Phoenix w serii Next proponuje reprezentacyjne sejfy przeznaczone na biżuterię i dokumenty. <strong>LS7001FB</strong> (czarne wykończenie) ma klasę <strong>60 Paper według NT Fire 017</strong>, czyli 60 minut ochrony przeciwpożarowej dla papieru.</p>
+<ul>
+<li><strong>Mocne strony</strong>: do 128 odcisków palca lub otwieranie kodem, blokada przed manipulacją i wewnętrzny alarm, ryglowanie z trzech stron, 47 litrów pojemności z szufladą wyłożoną filcem i wyjmowaną półką, waga około 107 kg.</li>
+<li><strong>Ograniczenia</strong>: w karcie produktu wyeksponowana jest ochrona przeciwpożarowa, a nie certyfikat odporności na włamanie EN; duży i ciężki, wymaga podłogi zdolnej utrzymać obciążenie i starannego montażu.</li>
+<li><strong>Dla kogo</strong>: gospodarstwa, które chcą przede wszystkim chronić dokumenty i kolekcję biżuterii przed pożarem, w eleganckim meblu.</li>
+</ul>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Otwieranie</th><th>Odporność na włamanie</th><th>Ochrona przeciwpożarowa</th><th>Łączność</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td>Burg-Wächter Combi-Line CL 20 E FS</td><td>Odcisk palca + kod</td><td>EN 14450 S2</td><td>LFS 30 P (EN 15659)</td><td>Brak</td><td>Certyfikowana ochrona ogólna</td></tr>
+<tr><td>Yale Smart Safe</td><td>Kod, aplikacja, klucz</td><td>Brak certyfikatu EN</td><td>Nie</td><td>Bluetooth, Wi-Fi przez mostek</td><td>Alerty i śledzenie dostępu</td></tr>
+<tr><td>Burg-Wächter PointSafe P 2 E FS</td><td>Odcisk palca, kod, klucz</td><td>Brak certyfikatu EN</td><td>Nie</td><td>Brak</td><td>Pierwszy kompaktowy sejf</td></tr>
+<tr><td>Master Lock LX110BEURHRO</td><td>Odcisk palca, klucz</td><td>Brak certyfikatu EN</td><td>Nie</td><td>Brak</td><td>Komputer i dokumenty A4</td></tr>
+<tr><td>Phoenix Next LS7001FB</td><td>Odcisk palca + kod</td><td>Brak certyfikatu EN</td><td>60 Paper (NT Fire 017)</td><td>Brak</td><td>Biżuteria i dokumenty, ryzyko pożaru</td></tr>
+</tbody>
+</table>
+
+<h2>Kotwienie do ściany lub podłogi: etap, którego nie wolno pominąć</h2>
+<p>Nieprzymocowany sejf można wynieść, a następnie spokojnie otworzyć gdzie indziej. Normy EN 14450 i EN 1143-1 przewidują zresztą, że sejfy lżejsze niż tona mają mieć system kotwienia, a ubezpieczyciele zazwyczaj oczekują, że będzie on faktycznie użyty.</p>
+<ul>
+<li><strong>Właściwe podłoże</strong>: ściana nośna z betonu lub pełnej cegły, albo płyta betonowa. Ścianka z płyt gipsowo-kartonowych lub lekka drewniana podłoga nie utrzymają sejfu wobec łomu.</li>
+<li><strong>Właściwe mocowanie</strong>: użyj dołączonych kołków lub kołków kotwiących dobranych do materiału, zgodnie z instrukcją producenta. Certyfikowane sejfy często określają wymagany typ kotwienia.</li>
+<li><strong>Właściwe miejsce</strong>: unikaj sypialni głównej i szafy w przedpokoju, czyli miejsc przeszukiwanych w pierwszej kolejności. Lepszy jest dyskretny kąt, trudno dostępny dla narzędzi.</li>
+<li><strong>Waga</strong>: ciężki model, jak Phoenix Next (około 107 kg), wymaga sprawdzenia, czy podłoga utrzyma obciążenie, zwłaszcza na piętrze.</li>
+</ul>
+
+<h2>Ubezpieczenie: co sejf może zmienić, a czego nie gwarantuje</h2>
+<p>Posiadanie sejfu nie podnosi automatycznie limitów odszkodowania. Każdy ubezpieczyciel ustala własne zasady, ale kilka reguł powtarza się często:</p>
+<ul>
+<li>Umowy ubezpieczenia mieszkania zazwyczaj ograniczają kwoty za biżuterię, przedmioty wartościowe i gotówkę. Niektórzy ubezpieczyciele akceptują wyższe kwoty, jeśli te dobra są przechowywane w sejfie <strong>certyfikowanym</strong> (EN 14450 lub EN 1143-1) i <strong>zakotwionym</strong> zgodnie ze sztuką.</li>
+<li>Sejf niecertyfikowany rzadko jest brany pod uwagę, bez względu na jego pozorną jakość.</li>
+<li>Zachowaj fakturę, certyfikat zgodności i zdjęcie instalacji: to dokumenty, o które poproszą w razie szkody.</li>
+<li>Przed zakupem zapytaj ubezpieczyciela na piśmie, jakiego poziomu certyfikacji wymaga i dla jakich kwot. To jedyna odpowiedź, która obowiązuje w Twojej umowie.</li>
+</ul>
+
+<h2>Klucz awaryjny i zasilanie: przewidź awarię</h2>
+<p>Wszystkie zamki elektroniczne z tego zestawienia działają na baterie. Gdy słabną, większość modeli wysyła ostrzeżenie: wymień je bez zwłoki i zapisz datę w kalendarzu. Jeśli baterie są całkowicie wyczerpane, w zależności od modelu istnieje kilka rozwiązań: awaryjny klucz mechaniczny (Yale Smart Safe, PointSafe, Master Lock), zestaw awaryjny zasilający zamek z zewnątrz (Master Lock) lub kod awaryjny.</p>
+<p>Klucz awaryjny jest praktyczny, ale omija odcisk palca i kod. Nigdy nie zostawiaj go obok sejfu ani w szufladzie w tym samym pomieszczeniu. Powierz go zaufanej osobie z rodziny lub przechowuj poza domem. W przypadku sejfu z łącznością pamiętaj też, że aplikacja nie zastępuje lokalnego otwierania: w razie awarii sieci lub serwera liczą się klawiatura i klucz.</p>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Mylenie ognioodporności z odpornością na włamanie</strong>: sejf z klasą przeciwpożarową można łatwo sforsować i odwrotnie.</li>
+<li><strong>Przechowywanie pendrive’ów w sejfie z klasą „Paper”</strong>: nośniki cyfrowe wymagają klasy „Data” lub „DIS”.</li>
+<li><strong>Brak przymocowania sejfu</strong>: to najczęstszy i najdroższy błąd.</li>
+<li><strong>Zarejestrowanie tylko jednego palca</strong>: zarejestruj co najmniej dwa palce na osobę, na obu dłoniach.</li>
+<li><strong>Pozostawienie kodu fabrycznego</strong>: natychmiast zmień kody domyślne i wyłącz niepotrzebne kody tymczasowe w aplikacji.</li>
+<li><strong>Ufanie handlowej „ocenie ubezpieczeniowej”</strong>: liczy się tylko certyfikat europejski i pisemna zgoda ubezpieczyciela.</li>
+</ul>
+
+<h2>Nasz werdykt</h2>
+<p>Aby naprawdę chronić cenne przedmioty, <strong>Burg-Wächter Combi-Line CL 20 E FS</strong> to najlepiej wyważony wybór: odcisk palca, certyfikat EN 14450 S2 i 30 minut ochrony przeciwpożarowej dla papieru. Przy ograniczonym budżecie <strong>PointSafe P 2 E FS</strong> oferuje otwieranie biometryczne w kompaktowym formacie, który koniecznie trzeba przykręcić. Aby dostawać alert przy każdym otwarciu, <strong>Yale Smart Safe</strong> pozostaje wzorcem wśród sejfów z łącznością, a <strong>Master Lock LX110BEURHRO</strong> sprawdzi się u tych, którzy potrzebują miejsca, natomiast <strong>Phoenix Next LS7001FB</strong> u tych, którzy najbardziej obawiają się pożaru.</p>
+<p>Sejf to tylko jedna warstwa ochrony: połącz go z alarmem i dobrze zabezpieczonymi drzwiami. Aby dowiedzieć się więcej, zajrzyj do naszego <a href="/pl/blog/guide-securite-maison-connectee-2026">poradnika o bezpieczeństwie inteligentnego domu</a> oraz materiału o <a href="/pl/blog/alarme-maison-sans-abonnement">alarmie domowym bez abonamentu</a>.</p>`,
   },
   faq: [
     {
@@ -780,6 +905,7 @@ export const article: BlogArticle = {
         es: "¿Es fiable una caja fuerte con huella dactilar?",
         it: "Una cassaforte a impronta digitale è affidabile?",
         nl: "Is een kluis met vingerafdrukslot betrouwbaar?",
+        pl: "Czy sejf na odcisk palca jest niezawodny?",
       },
       answer: {
         fr: "Oui, à condition de bien enregistrer les empreintes : au moins deux doigts par personne, sur les deux mains, pour pallier une coupure ou une peau très sèche. La fiabilité du lecteur ne dit en revanche rien de la résistance du coffre à l'effraction : c'est la certification EN 14450 ou EN 1143-1 qui renseigne sur ce point.",
@@ -788,6 +914,7 @@ export const article: BlogArticle = {
         es: "Sí, siempre que registre bien las huellas: al menos dos dedos por persona, de ambas manos, por si hay un corte o la piel está muy seca. Eso sí, un buen lector no dice nada de la resistencia de la caja al robo: eso lo indica la certificación EN 14450 o EN 1143-1.",
         it: "Sì, se le impronte vengono registrate bene: almeno due dita per persona, su entrambe le mani, per ovviare a un taglio o a una pelle molto secca. L'affidabilità del lettore però non dice nulla sulla resistenza allo scasso: per quella conta la certificazione EN 14450 o EN 1143-1.",
         nl: "Ja, als u de vingerafdrukken goed registreert: minstens twee vingers per persoon, van beide handen, voor het geval van een snee of erg droge huid. Over de inbraakwerendheid zegt de lezer echter niets: daarvoor kijkt u naar de certificering volgens EN 14450 of EN 1143-1.",
+        pl: "Tak, pod warunkiem że prawidłowo zarejestrujesz odciski: co najmniej dwa palce na osobę, na obu dłoniach, aby poradzić sobie ze skaleczeniem lub bardzo suchą skórą. Niezawodność czytnika nic jednak nie mówi o odporności sejfu na włamanie: informuje o niej certyfikat EN 14450 lub EN 1143-1.",
       },
     },
     {
@@ -798,6 +925,7 @@ export const article: BlogArticle = {
         es: "¿Cómo se abre una caja fuerte electrónica si las pilas se agotan?",
         it: "Come si apre una cassaforte elettronica con le pile scariche?",
         nl: "Hoe open je een elektronische kluis als de batterijen leeg zijn?",
+        pl: "Jak otworzyć elektroniczny sejf, gdy baterie są wyczerpane?",
       },
       answer: {
         fr: "Selon le modèle : avec la clé mécanique de secours (Yale Smart Safe, PointSafe, Master Lock), avec un kit qui alimente la serrure depuis l'extérieur (Master Lock) ou avec un code d'urgence. Le plus simple reste de changer les piles dès le premier avertissement de batterie faible.",
@@ -806,6 +934,7 @@ export const article: BlogArticle = {
         es: "Depende del modelo: con la llave mecánica de emergencia (Yale Smart Safe, PointSafe, Master Lock), con un kit que alimenta la cerradura desde fuera (Master Lock) o con un código de emergencia. Lo más sencillo es cambiar las pilas al primer aviso de batería baja.",
         it: "Dipende dal modello: con la chiave meccanica di emergenza (Yale Smart Safe, PointSafe, Master Lock), con un kit che alimenta la serratura dall'esterno (Master Lock) o con un codice di emergenza. La cosa più semplice è cambiare le pile al primo avviso di batteria scarica.",
         nl: "Dat hangt af van het model: met de mechanische noodsleutel (Yale Smart Safe, PointSafe, Master Lock), met een set die het slot van buitenaf van stroom voorziet (Master Lock) of met een noodcode. Het eenvoudigst is de batterijen te vervangen bij de eerste waarschuwing.",
+        pl: "Zależnie od modelu: awaryjnym kluczem mechanicznym (Yale Smart Safe, PointSafe, Master Lock), zestawem zasilającym zamek z zewnątrz (Master Lock) lub kodem awaryjnym. Najprościej wymienić baterie przy pierwszym ostrzeżeniu o niskim poziomie naładowania.",
       },
     },
     {
@@ -816,6 +945,7 @@ export const article: BlogArticle = {
         es: "¿Hay que fijar obligatoriamente una caja fuerte a la pared o al suelo?",
         it: "Bisogna per forza fissare una cassaforte a muro o a pavimento?",
         nl: "Moet een kluis verplicht aan muur of vloer worden vastgezet?",
+        pl: "Czy sejf trzeba koniecznie przymocować do ściany lub podłogi?",
       },
       answer: {
         fr: "Pour un coffre de moins d'une tonne, c'est fortement recommandé : sans ancrage, il peut être emporté et ouvert ailleurs. Les normes EN 14450 et EN 1143-1 prévoient un dispositif d'ancrage, et les assureurs exigent souvent qu'il soit utilisé. Fixez-le dans du béton ou de la maçonnerie pleine, jamais dans une cloison en plaques de plâtre.",
@@ -824,6 +954,7 @@ export const article: BlogArticle = {
         es: "En una caja de menos de una tonelada es muy recomendable: sin anclaje, pueden llevársela y abrirla en otro lugar. Las normas EN 14450 y EN 1143-1 prevén un sistema de anclaje, y las aseguradoras suelen exigir que se use. Fíjela en hormigón o fábrica maciza, nunca en un tabique de pladur.",
         it: "Per una cassaforte sotto una tonnellata è fortemente consigliato: senza ancoraggio può essere portata via e aperta altrove. Le norme EN 14450 ed EN 1143-1 prevedono un sistema di ancoraggio e le assicurazioni spesso ne richiedono l'uso. Fissatela nel calcestruzzo o in muratura piena, mai nel cartongesso.",
         nl: "Bij een kluis van minder dan een ton is het sterk aan te raden: zonder verankering kan hij worden meegenomen en elders worden opengebroken. EN 14450 en EN 1143-1 schrijven een verankeringsmogelijkheid voor en verzekeraars eisen vaak dat die wordt gebruikt. Bevestig hem in beton of massief metselwerk, nooit in gipsplaat.",
+        pl: "W przypadku sejfu lżejszego niż tona jest to zdecydowanie zalecane: bez kotwienia można go wynieść i otworzyć gdzie indziej. Normy EN 14450 i EN 1143-1 przewidują system kotwienia, a ubezpieczyciele często wymagają jego użycia. Przymocuj go do betonu lub pełnego muru, nigdy do ścianki z płyt gipsowo-kartonowych.",
       },
     },
     {
@@ -834,6 +965,7 @@ export const article: BlogArticle = {
         es: "¿Una caja ignífuga protege memorias USB y discos duros?",
         it: "Una cassaforte ignifuga protegge chiavette USB e dischi rigidi?",
         nl: "Beschermt een brandkluis ook usb-sticks en harde schijven?",
+        pl: "Czy sejf ognioodporny chroni pendrive’y i dyski twarde?",
       },
       answer: {
         fr: "Pas forcément. Les classements « Paper » ou « P » (LFS 30 P, LFS 60 P, 60 Paper) garantissent une température intérieure adaptée au papier, trop élevée pour les supports numériques. Pour eux, il faut un classement « Data » ou « DIS », par exemple selon EN 1047-1.",
@@ -842,6 +974,7 @@ export const article: BlogArticle = {
         es: "No necesariamente. Las clasificaciones «Paper» o «P» (LFS 30 P, LFS 60 P, 60 Paper) mantienen el interior a una temperatura apta para el papel, pero demasiado alta para los soportes digitales. Para ellos hace falta una clasificación «Data» o «DIS», por ejemplo según EN 1047-1.",
         it: "Non necessariamente. Le classi «Paper» o «P» (LFS 30 P, LFS 60 P, 60 Paper) mantengono l'interno a una temperatura adatta alla carta, ma troppo alta per i supporti digitali. Per questi serve una classe «Data» o «DIS», ad esempio secondo EN 1047-1.",
         nl: "Niet per se. Klassen met \"Paper\" of \"P\" (LFS 30 P, LFS 60 P, 60 Paper) houden de binnenkant koel genoeg voor papier, maar te warm voor digitale dragers. Daarvoor is een klasse \"Data\" of \"DIS\" nodig, bijvoorbeeld volgens EN 1047-1.",
+        pl: "Niekoniecznie. Klasy „Paper” lub „P” (LFS 30 P, LFS 60 P, 60 Paper) gwarantują temperaturę wewnątrz odpowiednią dla papieru, zbyt wysoką dla nośników cyfrowych. Do nich potrzebna jest klasa „Data” lub „DIS”, na przykład według EN 1047-1.",
       },
     },
     {
@@ -852,6 +985,7 @@ export const article: BlogArticle = {
         es: "¿Puede un pirata informático abrir a distancia una caja fuerte conectada?",
         it: "Un hacker può aprire a distanza una cassaforte connessa?",
         nl: "Kan een hacker een verbonden kluis op afstand openen?",
+        pl: "Czy haker może zdalnie otworzyć inteligentny sejf?",
       },
       answer: {
         fr: "Le risque principal est l'accès à votre compte, plus qu'une attaque de la serrure elle-même. Protégez l'application avec un mot de passe unique et robuste, activez la double authentification si elle est proposée, installez les mises à jour et supprimez les codes temporaires inutiles. Et gardez à l'esprit qu'un coffre peu résistant reste vulnérable à une simple attaque physique.",
@@ -860,6 +994,7 @@ export const article: BlogArticle = {
         es: "El riesgo principal es el acceso a su cuenta, más que un ataque a la propia cerradura. Proteja la aplicación con una contraseña única y robusta, active la verificación en dos pasos si está disponible, instale las actualizaciones y elimine los códigos temporales que no use. Y recuerde que una caja poco resistente sigue siendo vulnerable a un simple ataque físico.",
         it: "Il rischio principale è l'accesso al vostro account, più che un attacco alla serratura stessa. Proteggete l'app con una password unica e robusta, attivate l'autenticazione a due fattori se disponibile, installate gli aggiornamenti ed eliminate i codici temporanei inutili. E ricordate che una cassaforte poco resistente resta vulnerabile a un semplice attacco fisico.",
         nl: "Het grootste risico is dat iemand toegang krijgt tot uw account, eerder dan een aanval op het slot zelf. Beveilig de app met een uniek, sterk wachtwoord, schakel tweestapsverificatie in als die beschikbaar is, installeer updates en verwijder ongebruikte tijdelijke codes. En onthoud dat een zwak gebouwde kluis kwetsbaar blijft voor een eenvoudige fysieke aanval.",
+        pl: "Głównym ryzykiem jest dostęp do Twojego konta, a nie atak na sam zamek. Zabezpiecz aplikację unikalnym, silnym hasłem, włącz uwierzytelnianie dwuskładnikowe, jeśli jest dostępne, instaluj aktualizacje i usuwaj niepotrzebne kody tymczasowe. Pamiętaj też, że mało odporny sejf pozostaje podatny na zwykły atak fizyczny.",
       },
     },
     {
@@ -870,6 +1005,7 @@ export const article: BlogArticle = {
         es: "¿Una caja fuerte mejora la indemnización del seguro?",
         it: "Con una cassaforte l'assicurazione rimborsa di più?",
         nl: "Keert de verzekering meer uit als je een kluis hebt?",
+        pl: "Czy sejf pozwala uzyskać wyższe odszkodowanie od ubezpieczyciela?",
       },
       answer: {
         fr: "Parfois, mais pas automatiquement. Certains assureurs relèvent les plafonds pour les bijoux et espèces si le coffre est certifié (EN 14450 ou EN 1143-1) et correctement ancré ; un coffre non certifié est rarement pris en compte. Demandez les conditions exactes par écrit à votre assureur avant l'achat et conservez facture, certificat et photo de l'installation.",
@@ -878,6 +1014,7 @@ export const article: BlogArticle = {
         es: "A veces, pero no de forma automática. Algunas aseguradoras amplían los límites para joyas y efectivo si la caja está certificada (EN 14450 o EN 1143-1) y bien anclada; una caja sin certificar rara vez se tiene en cuenta. Pida las condiciones exactas por escrito antes de comprar y guarde factura, certificado y una foto de la instalación.",
         it: "A volte, ma non automaticamente. Alcune compagnie alzano i massimali per gioielli e contanti se la cassaforte è certificata (EN 14450 o EN 1143-1) e ancorata correttamente; una cassaforte non certificata viene raramente considerata. Chiedete le condizioni esatte per iscritto prima dell'acquisto e conservate fattura, certificato e una foto dell'installazione.",
         nl: "Soms, maar niet automatisch. Sommige verzekeraars verhogen de limieten voor sieraden en contant geld als de kluis gecertificeerd is (EN 14450 of EN 1143-1) en goed verankerd; een niet-gecertificeerde kluis telt zelden mee. Vraag de exacte voorwaarden vóór de aankoop schriftelijk op en bewaar factuur, certificaat en een foto van de installatie.",
+        pl: "Czasem, ale nie automatycznie. Niektórzy ubezpieczyciele podnoszą limity za biżuterię i gotówkę, jeśli sejf jest certyfikowany (EN 14450 lub EN 1143-1) i prawidłowo zakotwiony; sejf niecertyfikowany rzadko jest brany pod uwagę. Przed zakupem poproś ubezpieczyciela o dokładne warunki na piśmie i zachowaj fakturę, certyfikat oraz zdjęcie instalacji.",
       },
     },
   ],

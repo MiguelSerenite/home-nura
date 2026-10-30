@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Medidor de calidad del aire interior que muestra CO2, partículas PM2.5, COV, humedad y temperatura',
         it: "Monitor della qualità dell'aria interna che mostra CO2, particolato PM2.5, COV, umidità e temperatura",
         nl: 'Binnenluchtkwaliteitsmeter met weergave van CO2, fijnstof PM2.5, VOS, luchtvochtigheid en temperatuur',
+        pl: 'Monitor jakości powietrza w pomieszczeniu pokazujący CO2, pył PM2.5, LZO, wilgotność i temperaturę',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Sensor de Calidad del Aire Interior 2026: Por Qué y Cómo Medir en Casa',
     it: "Sensore Qualità dell'Aria Interna 2026: Perché e Come Misurare in Casa",
     nl: 'Binnenluchtkwaliteitsmeter 2026: Waarom en Hoe Je Thuis Meet',
+    pl: 'Czujnik jakości powietrza w domu 2026: dlaczego i jak mierzyć',
   },
   excerpt: {
     fr: "CO2, particules fines, COV, radon : quels polluants mesurer chez soi et quel capteur choisir en 2026. Comparatif d'Airthings View Plus, Netatmo, Aranet4 Home, Awair Element et Airthings Wave Plus.",
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'CO2, partículas finas, COV, radón: qué contaminantes medir en casa y qué medidor elegir en 2026. Comparativa de Airthings View Plus, Netatmo, Aranet4 Home, Awair Element y Airthings Wave Plus.',
     it: "CO2, polveri sottili, COV, radon: quali inquinanti misurare in casa e quale monitor scegliere nel 2026. Confronto tra Airthings View Plus, Netatmo, Aranet4 Home, Awair Element e Airthings Wave Plus.",
     nl: 'CO2, fijnstof, VOS, radon: welke stoffen je thuis meet en welke meter je in 2026 kiest. Vergelijking van Airthings View Plus, Netatmo, Aranet4 Home, Awair Element en Airthings Wave Plus.',
+    pl: 'CO2, pył drobny, LZO, radon: jakie zanieczyszczenia mierzyć w domu i jaki czujnik wybrać w 2026 roku. Porównanie Airthings View Plus, Netatmo, Aranet4 Home, Awair Element i Airthings Wave Plus.',
   },
   content: {
     fr: `<p>Un capteur de qualité de l'air intérieur vous dit quand aérer, purifier ou déshumidifier, en mesurant le CO2, les particules fines PM2.5, les composés organiques volatils (COV) et, sur certains modèles, le radon. Pour la plupart des foyers, un appareil doté d'un vrai capteur de CO2 NDIR suffit ; dans une région exposée au radon, un moniteur Airthings qui mesure ce gaz devient la priorité.</p>
@@ -637,6 +640,105 @@ export const article: BlogArticle = {
 <li><strong>Als aanvulling in een radongebied:</strong> Airthings Wave Plus, op batterijen en zonder scherm.</li>
 </ul>
 <p>Bekijk alle beschikbare modellen op onze pagina <a href="/nl/energie-domotique/capteurs-qualite-air">luchtkwaliteitsmeters</a>.</p>`,
+    pl: `<p>Czujnik jakości powietrza w pomieszczeniu mówi Ci, kiedy wietrzyć, oczyszczać lub osuszać powietrze, mierząc CO2, pył drobny PM2.5, lotne związki organiczne (LZO) oraz, w niektórych modelach, radon. Dla większości gospodarstw domowych wystarczy urządzenie z prawdziwym czujnikiem CO2 NDIR; w regionie narażonym na radon priorytetem staje się monitor Airthings, który mierzy ten gaz.</p>
+<p>Większość dnia spędzamy w pomieszczeniach, a powietrze jest w nich często gorzej wymieniane, niż nam się wydaje: gotowanie, świece, nowe meble, środki czystości i zwykły oddech obciążają atmosferę, choć tego nie zauważamy. Ten poradnik wyjaśnia, jakie zanieczyszczenia monitorować, jak wybrać monitor, i porównuje pięć modeli faktycznie sprzedawanych w Europie w 2026 roku, na podstawie kart katalogowych producentów, opublikowanych niezależnych porównań i opinii zweryfikowanych kupujących. Wszystkie modele z tej kategorii zebraliśmy na stronie <a href="/pl/energie-domotique/capteurs-qualite-air">czujniki jakości powietrza</a>.</p>
+
+<h2>Zanieczyszczenia, które warto monitorować w domu</h2>
+<h3>CO2: najlepszy wskaźnik wymiany powietrza</h3>
+<p>Przy stężeniach spotykanych w mieszkaniu CO2 nie jest toksyczny. Jest jednak najlepszym wskaźnikiem wymiany powietrza: im wyższe stężenie, tym bardziej powietrze w pomieszczeniu zostało już wydychane i tym bardziej gromadzą się wilgoć oraz inne zanieczyszczenia. Typowe przykłady to zamknięta sypialnia zajęta przez całą noc lub domowe biuro bez wietrzenia. Producenci i poradniki dotyczące wentylacji zazwyczaj stosują następujące punkty odniesienia:</p>
+<table>
+<thead>
+<tr><th>Zmierzone CO2</th><th>Interpretacja</th><th>Co robić</th></tr>
+</thead>
+<tbody>
+<tr><td>Poniżej 800 ppm</td><td>Powietrze dobrze wymieniane</td><td>Nic szczególnego</td></tr>
+<tr><td>800–1000 ppm</td><td>Wymiana prawidłowa</td><td>Zaplanuj wkrótce wietrzenie</td></tr>
+<tr><td>1000–1400 ppm</td><td>Wymiana niewystarczająca</td><td>Przewietrz przez kilka minut</td></tr>
+<tr><td>Powyżej 1400 ppm</td><td>Powietrze zastałe</td><td>Przewietrz natychmiast i sprawdź wentylację pomieszczenia</td></tr>
+</tbody>
+</table>
+<p>Kwestia kluczowa: tylko czujnik <strong>NDIR</strong> (niedyspersyjny podczerwony) naprawdę mierzy CO2. Niektóre urządzenia pokazują „eCO2” obliczone na podstawie czujnika LZO: to szacunek, który może znacznie odbiegać od rzeczywistości. Wszystkie modele wybrane w tym poradniku używają czujnika NDIR.</p>
+
+<h3>PM2.5: pył drobny</h3>
+<p>Cząstki PM2.5, o średnicy poniżej 2,5 mikrometra, głęboko przenikają do dróg oddechowych. W 2021 roku WHO obniżyła swoją wartość zalecaną do 5 µg/m³ jako średnią roczną. W pomieszczeniach piki pochodzą głównie z gotowania (zwłaszcza na dużym ogniu), świec i kadzideł, pieców i kominków oraz tytoniu. Pomiar PM2.5 jest przydatny, jeśli ktoś w domu choruje na astmę lub ma alergię, jeśli mieszkasz blisko ruchliwej drogi lub chcesz obiektywnie sterować oczyszczaczem powietrza.</p>
+
+<h3>LZO: lotne związki organiczne</h3>
+<p>LZO są emitowane przez farby, lakiery, kleje, meble z płyt wiórowych, środki czystości i zapachy do wnętrz. Formaldehyd, jeden z najpowszechniejszych, został sklasyfikowany jako rakotwórczy dla ludzi przez Międzynarodową Agencję Badań nad Rakiem. Czujniki konsumenckie mierzą <strong>sumaryczne LZO</strong>: dobrze sygnalizują wzrost po remoncie lub intensywnym sprzątaniu, ale nie wskazują ani konkretnego związku, ani stężenia samego formaldehydu. Służą jako alarm, a nie diagnoza. We Francji produkty budowlane i wykończeniowe mają etykietę emisji od A+ (bardzo niskie) do C: to najlepsza dźwignia ograniczania LZO u źródła.</p>
+
+<h3>Radon: niewidzialne zanieczyszczenie z gruntu</h3>
+<p>Radon to naturalny gaz promieniotwórczy pochodzący z podłoża, zwłaszcza z terenów granitowych i wulkanicznych. Przenika przez pęknięcia i przepusty rur, a gromadzi się głównie w piwnicach i na parterach. WHO uznaje go za jedną z głównych przyczyn raka płuc po paleniu tytoniu. We Francji poziom referencyjny ustalono na 300 Bq/m³ jako średnią roczną, a ASNR (dawniej IRSN) publikuje mapę gmin o potencjale radonowym. Radon bardzo się zmienia z dnia na dzień: sens ma tylko średnia z kilku tygodni, a pomiarem referencyjnym pozostaje dozymetr pasywny pozostawiony na co najmniej dwa miesiące w sezonie grzewczym.</p>
+
+<h3>Wilgotność i temperatura</h3>
+<p>Wilgotność względna między 40 a 60% jest zazwyczaj uznawana za komfortową. Poniżej błony śluzowe wysychają; powyżej 60–70% utrzymującej się przez dłuższy czas rozmnażają się roztocza i pleśnie. Jeśli Twój monitor regularnie pokazuje wysokie wartości, zajrzyj do naszego <a href="/pl/blog/deshumidificateur-connecte-guide">poradnika o inteligentnym osuszaczu powietrza</a>.</p>
+
+<h2>Kryteria dobrego wyboru</h2>
+<ul>
+<li><strong>Wbudowane czujniki:</strong> w pierwszej kolejności CO2 NDIR; PM2.5, jeśli dużo gotujesz, używasz pieca lub oczyszczacza; radon, jeśli Twoja gmina jest zaliczona do obszarów o potencjale radonowym lub mieszkasz w domu jednorodzinnym parterowym albo z piwnicą.</li>
+<li><strong>Zasilanie:</strong> modele na baterie można ustawić wszędzie i łatwo przenosić; modele sieciowe mogą częściej odświeżać pomiary i być stale połączone przez Wi-Fi.</li>
+<li><strong>Łączność:</strong> Wi-Fi pozwala sprawdzać pomiary zdalnie i otrzymywać alerty. Model wyłącznie z Bluetooth przekazuje dane, gdy telefon jest w pobliżu, lub przez bramkę tej samej marki.</li>
+<li><strong>Ekosystem:</strong> sprawdź zgodność z tym, czego już używasz (Apple Home, Amazon Alexa, Google Home, Home Assistant), jeśli chcesz automatycznie włączać wentylację mechaniczną lub oczyszczacz.</li>
+<li><strong>Wyświetlacz:</strong> ekran na urządzeniu pozwala odczytać wartość jednym spojrzeniem, bez wyciągania telefonu, co na co dzień ma duże znaczenie.</li>
+<li><strong>Liczba pomieszczeń:</strong> monitor mierzy tylko pomieszczenie, w którym stoi. Sypialnia i główny pokój dzienny to dwa priorytetowe miejsca.</li>
+</ul>
+
+<h2>5 monitorów wartych uwagi w 2026 roku</h2>
+<h3>Airthings View Plus: najbardziej kompletny</h3>
+<p><strong>Airthings View Plus</strong> jest dziś flagowym modelem Airthings. Mierzy radon, cząstki PM1 i PM2.5, CO2, LZO, wilgotność, temperaturę i ciśnienie atmosferyczne. Jego ekran e-paper wyświetla wybrane wartości, a uzupełnia je zielona, żółta lub czerwona poświata. Działa na sześciu bateriach AA, z deklarowaną żywotnością ok. dwóch lat, lub z sieci przez USB; po podłączeniu pełni też funkcję bramki Wi-Fi dla innych monitorów Airthings w domu. Aplikacja i internetowy panel prezentują historię i alerty, ze zgodnością z Amazon Alexa, Google Assistant i IFTTT.</p>
+<p><strong>Mocne strony:</strong> radon i pył drobny w jednym urządzeniu, pomiar CO2 metodą NDIR, praca na bateriach lub z sieci. <strong>Ograniczenia:</strong> to urządzenie z wyższej półki, a radon wymaga kilku dni, zanim pokaże użyteczną średnią. <strong>Dla kogo:</strong> domy w strefie występowania radonu i osoby, które chcą jednego urządzenia monitorującego wszystko.</p>
+
+<h3>Netatmo Smart Indoor Air Quality Monitor: najprostszy do śledzenia CO2</h3>
+<p><strong>Netatmo Smart Indoor Air Quality Monitor</strong>, nazywany też Healthy Home Coach, koncentruje się na tym, co najważniejsze: CO2, wilgotność, temperatura i poziom hałasu. Podłącza się do sieci przez USB, łączy przez Wi-Fi i działa z aplikacją Netatmo, bez abonamentu. Oferuje dopasowane profile (niemowlę, osoba z astmą lub zastosowanie ogólne), które zmieniają progi alertów i porady. Jest zgodny z Apple HomeKit, co pozwala włączyć jego pomiary do aplikacji Dom i do automatyzacji.</p>
+<p><strong>Mocne strony:</strong> stonowany design, bardzo prosta instalacja, zgodność z HomeKit, czytelne alerty informujące, kiedy wietrzyć. <strong>Ograniczenia:</strong> brak pomiaru pyłu drobnego, LZO i radonu oraz brak ekranu z wartościami liczbowymi na urządzeniu. <strong>Dla kogo:</strong> sypialnia lub pokój dziecka w domu, w którym chodzi głównie o to, by wiedzieć, kiedy otworzyć okna.</p>
+
+<h3>Aranet4 Home: wzorzec do pomiaru CO2 na baterie</h3>
+<p>Wyprodukowany na Łotwie <strong>Aranet4 Home</strong> to kompaktowy monitor CO2, ceniony za czujnik NDIR i stale czytelny ekran e-ink. Mierzy też temperaturę, wilgotność względną i ciśnienie atmosferyczne. Dzięki ekranowi e-ink producent deklaruje kilka lat pracy na dwóch bateriach AA, zależnie od częstotliwości pomiarów i użycia Bluetooth. Przesyła dane przez Bluetooth do aplikacji Aranet, która przechowuje historię.</p>
+<p><strong>Mocne strony:</strong> ceniony za wiarygodny pomiar CO2, bardzo długa żywotność baterii, łatwe przenoszenie z pokoju do pokoju, natychmiastowy odczyt na ekranie. <strong>Ograniczenia:</strong> brak pyłu drobnego, LZO i radonu; brak wbudowanego Wi-Fi, więc bez bramki nie ma alertów zdalnych. <strong>Dla kogo:</strong> praca zdalna, sypialnie i osoby, które chcą rzetelnego pomiaru CO2, który można zabrać wszędzie.</p>
+
+<h3>Awair Element: pył drobny i integracja z inteligentnym domem</h3>
+<p><strong>Awair Element</strong> mierzy CO2, LZO, pył PM2.5, temperaturę i wilgotność, a całość podsumowuje wynikiem jakości powietrza od 0 do 100, wyświetlanym na froncie. Łączy się przez Wi-Fi i jest zgodny z Amazon Alexa i Google Assistant. Jego atutem dla entuzjastów inteligentnego domu jest lokalne API, obsługiwane przez oficjalną integrację Home Assistant, które pozwala sterować oczyszczaczem lub wentylacją bez udziału chmury.</p>
+<p><strong>Mocne strony:</strong> połączenie CO2 + PM2.5 + LZO, czytelny wynik, lokalne API. <strong>Ograniczenia:</strong> brak radonu, wyłącznie zasilanie sieciowe, a dostępność w Europie bywa nierówna w zależności od kraju i sprzedawców. <strong>Dla kogo:</strong> gospodarstwa z osobą chorą na astmę lub uczuloną, domowe biuro i użytkownicy Home Assistant.</p>
+
+<h3>Airthings Wave Plus: radon na baterie, bez ekranu</h3>
+<p><strong>Airthings Wave Plus</strong> mierzy radon, CO2, LZO, wilgotność, temperaturę i ciśnienie atmosferyczne. Działa na bateriach i komunikuje się przez Bluetooth; machnięcie ręką przed urządzeniem zapala kolorowy pierścień świetlny, który podsumowuje jakość powietrza. Aby sprawdzać pomiary zdalnie, potrzebna jest bramka Airthings lub podłączony do sieci View Plus. Airthings promuje obecnie View Plus, ale Wave Plus nadal oferuje wielu europejskich sprzedawców.</p>
+<p><strong>Mocne strony:</strong> radon i CO2 w jednym, praca na bateriach, dyskretny wygląd. <strong>Ograniczenia:</strong> brak pyłu drobnego, brak ekranu z wartościami liczbowymi, bez bramki tylko Bluetooth. <strong>Dla kogo:</strong> drugie pomieszczenie w strefie występowania radonu, jako uzupełnienie View Plus, lub sypialnia, w której nie chcesz żadnego ekranu.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Pomiary</th><th>Radon</th><th>Zasilanie</th><th>Łączność</th><th>Idealny do</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Airthings View Plus</strong></td><td>CO2, PM1, PM2.5, LZO, wilgotność, temperatura, ciśnienie</td><td>Tak</td><td>Baterie lub USB</td><td>Wi-Fi (pełni funkcję bramki)</td><td>Dom w strefie radonu, pełny monitoring</td></tr>
+<tr><td><strong>Netatmo Smart Indoor Air Quality Monitor</strong></td><td>CO2, wilgotność, temperatura, hałas</td><td>Nie</td><td>USB z sieci</td><td>Wi-Fi, Apple HomeKit</td><td>Sypialnia, wiedza o tym, kiedy wietrzyć</td></tr>
+<tr><td><strong>Aranet4 Home</strong></td><td>CO2, wilgotność, temperatura, ciśnienie</td><td>Nie</td><td>Baterie</td><td>Bluetooth</td><td>Wiarygodne i przenośne CO2, praca zdalna</td></tr>
+<tr><td><strong>Awair Element</strong></td><td>CO2, PM2.5, LZO, wilgotność, temperatura</td><td>Nie</td><td>USB z sieci</td><td>Wi-Fi, lokalne API</td><td>Astma, alergie, Home Assistant</td></tr>
+<tr><td><strong>Airthings Wave Plus</strong></td><td>CO2, LZO, wilgotność, temperatura, ciśnienie</td><td>Tak</td><td>Baterie</td><td>Bluetooth (bramka opcjonalna)</td><td>Dodatkowe pomieszczenie w strefie radonu</td></tr>
+</tbody>
+</table>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Kupno czujnika pyłu w przekonaniu, że mierzy CO2.</strong> Niektóre podstawowe monitory mierzą tylko PM2.5, temperaturę i wilgotność; tak jest na przykład w przypadku Govee H5106. Przydatne przy dymie z gotowania, ale nie powiedzą Ci, kiedy wietrzyć sypialnię.</li>
+<li><strong>Zaufanie do „eCO2”.</strong> Wartość CO2 oszacowana na podstawie czujnika LZO nie jest pomiarem. Sprawdź w karcie katalogowej wzmiankę o NDIR.</li>
+<li><strong>Ocenianie radonu na podstawie jednego dnia.</strong> Wahania dobowe są duże: poczekaj na kilka tygodni danych, zanim wyciągniesz wnioski, a w razie wątpliwości wykonaj pomiar dozymetrem.</li>
+<li><strong>Złe ustawienie urządzenia.</strong> Przy oknie, nad grzejnikiem, w pełnym słońcu lub obok kuchenki pomiary nie odzwierciedlają powietrza, którym oddychasz.</li>
+<li><strong>Mylenie pomiaru z działaniem.</strong> Monitor niczego nie oczyszcza: mówi Ci, co zrobić. Zaplanuj kolejny krok, czy to wietrzenie, serwis wentylacji mechanicznej, czy dodanie oczyszczacza.</li>
+</ul>
+
+<h2>Instalacja i dobre praktyki</h2>
+<p>Umieść monitor na wysokości oddychania, mniej więcej 1–1,5 metra nad podłogą, co najmniej metr od okien, drzwi, kratek wentylacyjnych i źródeł ciepła. W sypialni sprawdzi się szafka nocna lub komoda, o ile nie wieje bezpośrednio na urządzenie. Pozwól urządzeniu ustabilizować się przez kilka godzin po instalacji, zanim zaufasz wskazaniom.</p>
+<p>Wiele czujników CO2 NDIR kalibruje się automatycznie, zakładając, że do pomieszczenia regularnie dociera świeże powietrze: wietrz co najmniej raz dziennie, aby ta korekta działała. W przypadku radonu zainstaluj monitor w najniżej położonym użytkowanym pomieszczeniu domu. Jeśli średnia trwale przekracza poziom referencyjny, zasięgnij informacji w kompetentnych służbach w swoim regionie i skorzystaj z pomocy specjalisty budowlanego: rozwiązania polegają zazwyczaj na uszczelnieniu punktów wnikania i poprawie wentylacji.</p>
+<p>Wreszcie, podłączony do sieci monitor pokazuje pełnię swoich możliwości w połączeniu z innymi urządzeniami: włączenie oczyszczacza, gdy rośnie PM2.5, lub powiadomienie, gdy CO2 przekroczy 1000 ppm. Aby wybrać urządzenie do pary, zajrzyj do naszego <a href="/pl/blog/guide-purificateur-air-2026">poradnika o oczyszczaczach powietrza</a>.</p>
+
+<h2>Werdykt</h2>
+<ul>
+<li><strong>Najbardziej kompletny:</strong> Airthings View Plus, jedyny model z tej selekcji łączący radon, pył drobny, CO2 i LZO.</li>
+<li><strong>Najlepszy stosunek jakości do ceny:</strong> Netatmo Smart Indoor Air Quality Monitor, by bez komplikacji wiedzieć, kiedy wietrzyć, z obsługą HomeKit.</li>
+<li><strong>Do wiarygodnego i przenośnego pomiaru CO2:</strong> Aranet4 Home, na baterie, ze stale czytelnym ekranem.</li>
+<li><strong>Do pyłu drobnego i inteligentnego domu:</strong> Awair Element, dzięki lokalnemu API.</li>
+<li><strong>Jako uzupełnienie w strefie radonu:</strong> Airthings Wave Plus, na baterie i bez ekranu.</li>
+</ul>
+<p>Wszystkie dostępne modele znajdziesz na naszej stronie <a href="/pl/energie-domotique/capteurs-qualite-air">czujniki jakości powietrza</a>.</p>`,
   },
   faq: [
     {
@@ -647,6 +749,7 @@ export const article: BlogArticle = {
         es: '¿Qué diferencia hay entre un medidor de calidad del aire y un purificador?',
         it: "Che differenza c'è tra un monitor della qualità dell'aria e un purificatore?",
         nl: 'Wat is het verschil tussen een luchtkwaliteitsmeter en een luchtreiniger?',
+        pl: 'Czym różni się czujnik jakości powietrza od oczyszczacza powietrza?',
       },
       answer: {
         fr: "Le capteur mesure la pollution mais ne la réduit pas : c'est un outil de diagnostic. Le purificateur filtre l'air, notamment les particules fines, mais ne fait rien contre un excès de CO2, qui se règle uniquement en aérant. Les deux sont complémentaires : le capteur vous indique s'il faut aérer, purifier ou les deux.",
@@ -655,6 +758,7 @@ export const article: BlogArticle = {
         es: 'El medidor mide la contaminación pero no la reduce: es una herramienta de diagnóstico. El purificador filtra el aire, sobre todo las partículas finas, pero no hace nada contra un exceso de CO2, que solo se corrige ventilando. Son complementarios: el medidor te dice si ventilar, purificar o ambas cosas.',
         it: "Il monitor misura l'inquinamento ma non lo riduce: è uno strumento di diagnosi. Il purificatore filtra l'aria, soprattutto le polveri sottili, ma non fa nulla contro l'eccesso di CO2, che si risolve solo arieggiando. Sono complementari: il monitor ti dice se arieggiare, purificare o entrambe le cose.",
         nl: 'Een meter meet de vervuiling maar vermindert die niet: het is een diagnose-instrument. Een luchtreiniger filtert de lucht, vooral fijnstof, maar doet niets tegen te veel CO2; daartegen helpt alleen ventileren. Ze vullen elkaar aan: de meter vertelt je of je moet luchten, zuiveren of allebei.',
+        pl: 'Czujnik mierzy zanieczyszczenie, ale go nie zmniejsza: to narzędzie diagnostyczne. Oczyszczacz filtruje powietrze, zwłaszcza pył drobny, ale nic nie robi z nadmiarem CO2, który usuwa się wyłącznie przez wietrzenie. Oba urządzenia się uzupełniają: czujnik mówi, czy trzeba wietrzyć, oczyszczać, czy jedno i drugie.',
       },
     },
     {
@@ -665,6 +769,7 @@ export const article: BlogArticle = {
         es: '¿A partir de qué nivel de CO2 hay que ventilar un dormitorio?',
         it: 'A quale livello di CO2 bisogna arieggiare una camera?',
         nl: 'Bij welk CO2-niveau moet ik een slaapkamer luchten?',
+        pl: 'Przy jakim poziomie CO2 trzeba wietrzyć sypialnię?',
       },
       answer: {
         fr: "Le repère le plus courant est d'aérer dès que le CO2 dépasse 1 000 ppm. Quelques minutes de fenêtres grandes ouvertes, idéalement en créant un courant d'air, suffisent généralement à faire redescendre le taux. Si la chambre dépasse régulièrement ce seuil la nuit, une entrée d'air ou une ventilation mécanique bien entretenue est la solution durable.",
@@ -673,6 +778,7 @@ export const article: BlogArticle = {
         es: 'La referencia más habitual es ventilar en cuanto el CO2 supera las 1.000 ppm. Unos minutos con las ventanas abiertas de par en par, a ser posible creando corriente, suelen bastar para bajar el nivel. Si el dormitorio supera ese umbral a menudo por la noche, un aireador o una ventilación mecánica bien mantenida es la solución duradera.',
         it: "Il riferimento più comune è arieggiare quando la CO2 supera i 1.000 ppm. Pochi minuti con le finestre spalancate, meglio se creando una corrente d'aria, bastano di solito a far scendere il valore. Se la camera supera spesso questa soglia di notte, una presa d'aria o una ventilazione meccanica ben mantenuta è la soluzione duratura.",
         nl: 'De meest gebruikte vuistregel is luchten zodra CO2 boven 1.000 ppm komt. Een paar minuten de ramen wijd open, liefst met doorstroming, brengt de waarde meestal weer omlaag. Komt de slaapkamer \'s nachts regelmatig boven die grens, dan zijn ventilatieroosters of goed onderhouden mechanische ventilatie de blijvende oplossing.',
+        pl: 'Najczęstszy punkt odniesienia to wietrzenie, gdy tylko CO2 przekroczy 1000 ppm. Kilka minut szeroko otwartych okien, najlepiej z przeciągiem, zazwyczaj wystarcza, by stężenie spadło. Jeśli w sypialni ten próg jest regularnie przekraczany w nocy, trwałym rozwiązaniem jest nawiewnik lub dobrze utrzymana wentylacja mechaniczna.',
       },
     },
     {
@@ -683,6 +789,7 @@ export const article: BlogArticle = {
         es: '¿Cómo sé si mi vivienda está afectada por el radón?',
         it: 'Come capire se la mia casa è interessata dal radon?',
         nl: 'Hoe weet ik of mijn woning met radon te maken heeft?',
+        pl: 'Skąd wiedzieć, czy mój dom jest narażony na radon?',
       },
       answer: {
         fr: "Consultez la cartographie des communes à potentiel radon publiée par l'ASNR (ex-IRSN). Si votre commune est concernée, surtout en maison avec sous-sol ou de plain-pied, mesurez : un dosimètre passif posé au moins deux mois en période de chauffe donne la mesure de référence, et un moniteur Airthings permet ensuite de suivre l'évolution au quotidien.",
@@ -691,6 +798,7 @@ export const article: BlogArticle = {
         es: 'Consulta el mapa del potencial de radón del Consejo de Seguridad Nuclear. Si tu municipio está afectado, sobre todo en una casa con sótano o dormitorios en planta baja, mide: un detector pasivo colocado durante varios meses ofrece el resultado de referencia, y un monitor Airthings permite después seguir la evolución diaria.',
         it: "Verifica se il tuo comune rientra nelle aree prioritarie a rischio radon individuate dalla tua regione; l'ARPA regionale fornisce informazioni. In caso affermativo, soprattutto in case con seminterrato o camere al piano terra, misura: un dosimetro passivo lasciato per diversi mesi dà il risultato di riferimento, e un monitor Airthings permette poi di seguire l'andamento giornaliero.",
         nl: 'Raadpleeg de informatie van het RIVM, of in België de radonkaart van het FANC. Woon je in een gebied met verhoogd radon, zeker in een huis met kelder of slaapkamers op de begane grond, meet dan: een passieve detector die enkele maanden blijft staan geeft de referentiewaarde, en een Airthings-meter laat je daarna de dagelijkse schommelingen volgen.',
+        pl: 'We Francji sprawdź mapę gmin o potencjale radonowym publikowaną przez ASNR (dawniej IRSN). Jeśli Twoja gmina jest uwzględniona, zwłaszcza w domu z piwnicą lub parterowym, zmierz stężenie: dozymetr pasywny pozostawiony na co najmniej dwa miesiące w okresie grzewczym daje pomiar referencyjny, a monitor Airthings pozwala następnie na bieżąco śledzić zmiany.',
       },
     },
     {
@@ -701,6 +809,7 @@ export const article: BlogArticle = {
         es: '¿Son precisos los medidores de calidad del aire domésticos?',
         it: "I monitor della qualità dell'aria per la casa sono precisi?",
         nl: 'Zijn luchtkwaliteitsmeters voor thuis nauwkeurig?',
+        pl: 'Czy konsumenckie czujniki jakości powietrza są dokładne?',
       },
       answer: {
         fr: "Ils sont assez précis pour prendre de bonnes décisions au quotidien, pas pour une mesure officielle. Le CO2 mesuré par un capteur NDIR est fiable ; les capteurs de particules donnent de bonnes tendances ; les COV totaux ne sont qu'une indication relative. Pour une expertise réglementaire, il faut faire appel à un professionnel équipé d'instruments étalonnés.",
@@ -709,6 +818,7 @@ export const article: BlogArticle = {
         es: 'Son lo bastante precisos para tomar buenas decisiones a diario, no para una medición oficial. El CO2 medido con un sensor NDIR es fiable; los sensores de partículas muestran bien las tendencias; los COV totales son solo una indicación relativa. Para una evaluación oficial hace falta un profesional con instrumentos calibrados.',
         it: "Sono abbastanza precisi per prendere buone decisioni quotidiane, non per una misura ufficiale. La CO2 rilevata da un sensore NDIR è affidabile; i sensori di particolato mostrano bene le tendenze; i COV totali sono solo un'indicazione relativa. Per una valutazione ufficiale serve un professionista con strumenti tarati.",
         nl: 'Ze zijn nauwkeurig genoeg voor goede dagelijkse beslissingen, niet voor officiële metingen. CO2 van een NDIR-sensor is betrouwbaar, fijnstofsensoren tonen trends goed en totale VOS zijn slechts een relatieve indicatie. Voor een officiële beoordeling heb je een vakman met gekalibreerde apparatuur nodig.',
+        pl: 'Są wystarczająco dokładne, by podejmować dobre decyzje na co dzień, ale nie do oficjalnego pomiaru. CO2 mierzone czujnikiem NDIR jest wiarygodne; czujniki pyłu dobrze pokazują trendy; sumaryczne LZO to tylko wskazanie względne. Do ekspertyzy wymaganej przepisami potrzebny jest specjalista z wzorcowanymi przyrządami.',
       },
     },
     {
@@ -719,6 +829,7 @@ export const article: BlogArticle = {
         es: '¿Cuántos medidores hacen falta en una vivienda?',
         it: 'Quanti monitor servono in una casa?',
         nl: 'Hoeveel meters heb je nodig in huis?',
+        pl: 'Ile czujników potrzeba w mieszkaniu?',
       },
       answer: {
         fr: "Un capteur ne mesure que la pièce où il se trouve. Commencez par la chambre, où l'on passe de longues heures fenêtres fermées, puis la pièce de vie. Ajoutez-en un dans la chambre des enfants ou le bureau si besoin. Un modèle sur piles comme l'Aranet4 Home peut aussi être déplacé pour repérer les pièces mal ventilées.",
@@ -727,6 +838,7 @@ export const article: BlogArticle = {
         es: 'Un medidor solo mide la habitación en la que está. Empieza por el dormitorio, donde pasas muchas horas con las ventanas cerradas, y luego la sala de estar. Añade otro en el cuarto de los niños o el despacho si hace falta. Un modelo a pilas como el Aranet4 Home también puede moverse para localizar las estancias mal ventiladas.',
         it: 'Un monitor misura solo la stanza in cui si trova. Inizia dalla camera da letto, dove trascorri molte ore con le finestre chiuse, poi il soggiorno. Aggiungine uno nella cameretta o nello studio se serve. Un modello a batteria come l\'Aranet4 Home può anche essere spostato per individuare le stanze poco ventilate.',
         nl: 'Een meter meet alleen de ruimte waarin hij staat. Begin met de slaapkamer, waar je vele uren met gesloten ramen doorbrengt, en daarna de woonkamer. Voeg zo nodig een meter toe in de kinderkamer of thuiswerkplek. Een model op batterijen zoals de Aranet4 Home kun je ook verplaatsen om slecht geventileerde ruimtes op te sporen.',
+        pl: 'Czujnik mierzy tylko pomieszczenie, w którym stoi. Zacznij od sypialni, w której spędza się długie godziny przy zamkniętych oknach, potem pokój dzienny. W razie potrzeby dodaj jeden w pokoju dzieci lub w biurze. Model na baterie, taki jak Aranet4 Home, można też przenosić, aby wykryć słabo wentylowane pomieszczenia.',
       },
     },
     {
@@ -737,6 +849,7 @@ export const article: BlogArticle = {
         es: '¿Necesita suscripción un medidor de calidad del aire?',
         it: "Un monitor della qualità dell'aria richiede un abbonamento?",
         nl: 'Heeft een luchtkwaliteitsmeter een abonnement nodig?',
+        pl: 'Czy czujnik jakości powietrza wymaga abonamentu?',
       },
       answer: {
         fr: "Non pour les modèles de ce guide : l'application et l'historique de base sont accessibles sans abonnement. Vérifiez toutefois, avant l'achat, les conditions de l'application du fabricant, qui peuvent évoluer, et privilégiez si possible un modèle avec écran, qui reste utile même sans connexion.",
@@ -745,6 +858,7 @@ export const article: BlogArticle = {
         es: 'No en el caso de los modelos de esta guía: la app y el historial básico están disponibles sin suscripción. Aun así, revisa antes de comprar las condiciones de la app del fabricante, que pueden cambiar, y prioriza si puedes un modelo con pantalla, que sigue siendo útil sin conexión.',
         it: "No per i modelli di questa guida: app e storico di base sono disponibili senza abbonamento. Verifica comunque prima dell'acquisto le condizioni dell'app del produttore, che possono cambiare, e se possibile preferisci un modello con display, utile anche senza connessione.",
         nl: 'Niet voor de modellen in deze gids: de app en de basishistorie zijn zonder abonnement beschikbaar. Controleer voor aankoop wel de voorwaarden van de app van de fabrikant, want die kunnen veranderen, en kies zo mogelijk een model met scherm, dat ook zonder verbinding bruikbaar blijft.',
+        pl: 'Nie w przypadku modeli z tego poradnika: aplikacja i podstawowa historia są dostępne bez abonamentu. Przed zakupem sprawdź jednak warunki aplikacji producenta, które mogą się zmieniać, i jeśli to możliwe, wybierz model z ekranem, który pozostaje użyteczny nawet bez połączenia.',
       },
     },
   ],

@@ -52,6 +52,13 @@ const pageContent: Record<string, { title: string; subtitle: string; intro: stri
     intro: 'Kies de modellen die u interesseren en bekijk hun specificaties parallel — Nura-score, capaciteit, sterke punten en beperkingen.',
     breadcrumb: 'Vergelijker',
   },
+  pl: {
+    kicker: 'Narzędzie porównawcze',
+    title: 'Porównywarka frytkownic beztłuszczowych',
+    subtitle: 'Porównaj do 3 modeli obok siebie',
+    intro: 'Wybierz interesujące Cię modele i zobacz ich parametry obok siebie — ocena Nura, pojemność, mocne strony i ograniczenia.',
+    breadcrumb: 'Porównywarka',
+  },
 }
 
 // SERP title/description, kept apart from the on-page H1 and intro. Written
@@ -81,6 +88,10 @@ const seoMeta: Record<Lang, { title: string; description: string }> = {
   nl: {
     title: 'Airfryer-vergelijker 2026: 3 modellen naast elkaar',
     description: 'Vergelijk airfryers naast elkaar: kies tot 3 modellen en bekijk Nura-score, capaciteit, sterke punten, beperkingen en waar je ze op Amazon koopt.',
+  },
+  pl: {
+    title: 'Porównywarka frytkownic beztłuszczowych 2026: 3 modele',
+    description: 'Porównaj frytkownice beztłuszczowe obok siebie: wybierz do 3 modeli i zobacz ocenę Nura, pojemność, mocne strony, ograniczenia oraz gdzie kupić na Amazon.',
   },
 }
 

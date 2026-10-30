@@ -180,7 +180,7 @@ describe('product photo lookup', () => {
     for (const lang of LANGUAGES) {
       const photo = productPhoto({ asin: entry.asin }, lang)
       expect(photo?.alt).toMatch(new RegExp(`^${entry.brand} .+ – .+ \\| Homenura$`))
-      expect(photo?.credit).toMatch(/^(Photo|Foto) ?: © /)
+      expect(photo?.credit).toMatch(/^(Photo|Foto|Zdjęcie) ?: © /)
       expect(photo?.pin).toBe(`${BASE_URL}${productPinPath(entry.id, 'jpg')}`)
     }
     expect(productPhoto({ asin: entry.asin }, 'fr')?.credit).toBe(`Photo : ${entry.credit}`)

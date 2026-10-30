@@ -13,6 +13,7 @@ const ogLocaleMap: Record<Lang, string> = {
   es: 'es_ES',
   it: 'it_IT',
   nl: 'nl_NL',
+  pl: 'pl_PL',
 }
 
 interface BuildPageMetadataInput {
@@ -154,6 +155,7 @@ const localeMap: Record<string, string> = {
   es: 'es-ES',
   it: 'it-IT',
   nl: 'nl-NL',
+  pl: 'pl-PL',
   en: 'en-GB',
 }
 
@@ -172,6 +174,7 @@ export const lastUpdatedLabel: Record<string, string> = {
   es: 'Actualizado el',
   it: 'Aggiornato il',
   nl: 'Bijgewerkt op',
+  pl: 'Zaktualizowano',
   en: 'Updated',
 }
 

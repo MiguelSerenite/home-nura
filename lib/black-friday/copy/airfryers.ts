@@ -135,4 +135,26 @@ export const AIRFRYERS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
       },
     ],
   },
+  pl: {
+    name: 'Frytkownice beztłuszczowe',
+    h1: `Black Friday ${Y}: frytkownice beztłuszczowe, które warto mieć na oku`,
+    metaTitle: `Black Friday ${Y}: frytkownice beztłuszczowe warte uwagi`,
+    metaDescription: `Frytkownice beztłuszczowe na Black Friday ${Y}: Ninja, Philips, Xiaomi. Pojemność, jeden lub dwa kosze: co sprawdzić przed zakupem.`,
+    blurb: 'Ninja, Philips, Xiaomi: jeden lub dwa kosze, zależnie od liczby domowników.',
+    intro: 'Frytkownica beztłuszczowa (air fryer) należy do urządzeń najczęściej pojawiających się podczas Black Friday. Zanim spojrzysz na rabat, ustal pojemność odpowiednią dla swojego domu i wybierz między jednym koszem a dwiema niezależnymi strefami: te dwa kryteria odróżniają modele poniżej.',
+    faq: [
+      {
+        question: 'Jaką pojemność frytkownicy beztłuszczowej wybrać?',
+        answer: 'Dla jednej lub dwóch osób wystarczy od 2 do 4 litrów; dla trzech lub czterech celuj w 4,5–6 litrów; od pięciu osób wzwyż wybierz 6–8 litrów lub więcej albo model z dwiema strefami, który przygotowuje danie główne i dodatek jednocześnie.',
+      },
+      {
+        question: 'Jeden czy dwa kosze: który wybrać?',
+        answer: 'Dwa kosze pozwalają przygotować dwie potrawy przy różnych ustawieniach i zakończyć je w tym samym momencie; takie urządzenie jest szersze lub wyższe. Pojedynczy kosz jest bardziej kompaktowy i sprawdza się przy jednym daniu naraz.',
+      },
+      {
+        question: 'Czy warto kupić inteligentną frytkownicę beztłuszczową?',
+        answer: 'Przyda się, jeśli korzystasz z przepisów krok po kroku lub chcesz zdalnie sprawdzać postęp smażenia. Przy prostym użyciu model bez aplikacji przygotowuje potrawy równie dobrze.',
+      },
+    ],
+  },
 }

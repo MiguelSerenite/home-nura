@@ -96,6 +96,19 @@ const LABELS: Record<string, Labels> = {
     errorRateLimited: 'Te veel pogingen. Probeer over een uur opnieuw.',
     consent: 'Door u in te schrijven gaat u akkoord met ons privacybeleid. Uitschrijven met één klik.',
   },
+  pl: {
+    title: 'Newsletter Home Nura',
+    subtitle: 'Najlepsze porównania, prawdziwe promocje, zero spamu. Jeden e-mail miesięcznie.',
+    placeholder: 'twoj.email@example.com',
+    emailLabel: 'Adres e-mail',
+    submit: 'Zapisz się',
+    submitting: 'Wysyłanie…',
+    success: 'Dziękujemy. Sprawdź skrzynkę, aby potwierdzić zapis.',
+    errorInvalid: 'Wpisz poprawny adres e-mail.',
+    errorGeneric: 'Coś poszło nie tak. Spróbuj ponownie.',
+    errorRateLimited: 'Zbyt wiele prób. Spróbuj ponownie za godzinę.',
+    consent: 'Zapisując się, akceptujesz naszą politykę prywatności. Wypisanie jednym kliknięciem.',
+  },
 }
 
 export default function NewsletterForm({ currentLang }: { currentLang: string }) {

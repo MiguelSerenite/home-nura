@@ -1,3 +1,4 @@
+import { LANGUAGES } from '@/lib/i18n'
 import { getAllArticles } from '@/lib/blog'
 import { describe, it, expect } from 'vitest'
 import sitemap from '@/app/sitemap'
@@ -7,7 +8,7 @@ import { BLACK_FRIDAY_PATHS } from '@/lib/black-friday'
 
 describe('app/sitemap.ts', () => {
   const entries = sitemap()
-  const LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
+  const LANGS = LANGUAGES
 
   it('returns at least one entry per core route', () => {
     // One entry per page and per locale (home + content routes + blog).
@@ -27,7 +28,7 @@ describe('app/sitemap.ts', () => {
     }
   })
 
-  it('every entry ships hreflang alternates for all 6 locales', () => {
+  it('every entry ships hreflang alternates for every locale', () => {
     for (const e of entries) {
       const langs = e.alternates?.languages ?? {}
       expect(Object.keys(langs).sort()).toEqual([...LANGS, 'x-default'].sort())
@@ -188,7 +189,7 @@ describe('app/sitemap.ts', () => {
       .map((a) => a.dateModified)
       .sort()
       .at(-1)
-    const blog = sitemap().find((e) => e.url === `${BASE_URL}/fr/blog`)
+    const blog = entries.find((e) => e.url === `${BASE_URL}/fr/blog`)
     expect(blog?.lastModified).toEqual(new Date(latest!))
   })
 })

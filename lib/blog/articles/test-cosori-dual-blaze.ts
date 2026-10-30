@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Freidora de aire negra sobre una encimera de cocina',
         it: 'Friggitrice ad aria nera sul piano di lavoro della cucina',
         nl: 'Zwarte airfryer op een aanrecht in de keuken',
+        pl: 'Czarna frytkownica beztłuszczowa na kuchennym blacie',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Cosori Dual Blaze Smart 6,4 L: opinión completa 2026',
     it: 'Cosori Dual Blaze Smart 6,4 L: recensione completa 2026',
     nl: 'Cosori Dual Blaze Smart 6,4 L: review en eindoordeel 2026',
+    pl: 'Cosori Dual Blaze Smart 6,4 L: opinie i analiza 2026',
   },
   excerpt: {
     fr: 'Notre avis sur le Cosori Dual Blaze Smart 6,4 L : double résistance haut et bas, application VeSync, 12 programmes et cuisson sans secouage. Forces, limites et alternatives, d’après les caractéristiques du fabricant et les retours d’acheteurs.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Nuestra opinión sobre la Cosori Dual Blaze Smart 6,4 L: calor superior e inferior, app VeSync, 12 programas y cocción sin agitar. Ventajas, límites y alternativas, según las especificaciones del fabricante y las valoraciones de compradores.',
     it: 'La nostra recensione della Cosori Dual Blaze Smart 6,4 L: calore dall’alto e dal basso, app VeSync, 12 programmi e cottura senza scuotere. Pregi, limiti e alternative, in base alle specifiche del produttore e ai pareri degli acquirenti.',
     nl: 'Onze review van de Cosori Dual Blaze Smart 6,4 L: boven- en onderwarmte, VeSync-app, 12 programma’s en bereiden zonder schudden. Sterke punten, beperkingen en alternatieven, op basis van fabrieksspecificaties en kopersbeoordelingen.',
+    pl: 'Nasza analiza Cosori Dual Blaze Smart 6,4 L: podwójna grzałka u góry i u dołu, aplikacja VeSync, 12 programów i smażenie bez potrząsania. Mocne strony, ograniczenia i alternatywy, na podstawie danych producenta i opinii kupujących.',
   },
   content: {
     fr: `<p><strong>Le Cosori Dual Blaze Smart 6,4 L est l’un des airfryers à tiroir unique les plus intéressants de 2026 pour qui veut une cuisson homogène sans secouer le panier : il chauffe par le haut et par le bas, se pilote depuis l’application VeSync et convient à un foyer de 3 à 5 personnes.</strong> Ses limites sont connues : une température plafonnée à 205 °C, un seul tiroir et un panier un peu étroit pour les grosses pièces. Cet avis s’appuie sur les caractéristiques du fabricant, les analyses de la presse spécialisée et les retours d’acheteurs vérifiés, pas sur une prise en main maison.</p>
@@ -674,6 +677,112 @@ export const article: BlogArticle = {
 
 <h2>Eindoordeel</h2>
 <p>De Cosori Dual Blaze Smart 6,4 L maakt zijn belangrijkste belofte waar: gelijkmatiger bereiden met minder handelingen dankzij de dubbele verwarming. Tel daar een doordachte app, eenvoudige schoonmaak en een gezinsformaat bij op, en je hebt een van de meest evenwichtige airfryers met één lade van dit moment. Zijn beperkingen (maximaal 205 °C, één lade, wat smalle mand) zijn echt, maar zitten bij dagelijks gebruik zelden in de weg. Voor twee gerechten tegelijk past de Ninja Double Stack beter; voor een eenvoudiger model zonder wifi blijft de Philips 3000 Series XL een veilige keuze.</p>`,
+    pl: `<p><strong>Cosori Dual Blaze Smart 6,4 L to jedna z najciekawszych frytkownic beztłuszczowych z jedną szufladą w 2026 roku dla tych, którzy chcą równomiernego smażenia bez potrząsania koszem: nagrzewa od góry i od dołu, steruje się nim z aplikacji VeSync i pasuje do domu z 3–5 osobami.</strong> Jego ograniczenia są znane: temperatura ograniczona do 205 °C, tylko jedna szuflada i kosz nieco wąski na duże kawałki. Ta analiza opiera się na danych producenta, analizach prasy specjalistycznej i opiniach zweryfikowanych kupujących, a nie na własnym użytkowaniu.</p>
+
+<p>Jeśli wciąż wahasz się między kilkoma formatami, nasz <a href="/pl/guides/airfryers">poradnik o frytkownicach beztłuszczowych</a> przedstawia całą gamę, od kompaktowych po modele z podwójną szufladą.</p>
+
+<h2>Karta techniczna Cosori Dual Blaze 6,4 L</h2>
+<table>
+<thead><tr><th>Cecha</th><th>Szczegóły</th></tr></thead>
+<tbody>
+<tr><td>Numer referencyjny</td><td>CAF-P583S (dostępny w kilku kolorach i edycjach zależnie od kraju)</td></tr>
+<tr><td>Pojemność kosza</td><td>6,4 litra, jedna szuflada</td></tr>
+<tr><td>Grzanie</td><td>Dwie grzałki: jedna nad koszem, jedna pod nim</td></tr>
+<tr><td>Moc</td><td>Około 1700 W według kart sprzedawców</td></tr>
+<tr><td>Zakres temperatur</td><td>80–205 °C</td></tr>
+<tr><td>Programy</td><td>12 gotowych funkcji (frytki, mrożonki, kurczak, stek, ryby, warzywa, pieczenie, gotowanie, zapiekanie, odgrzewanie, podtrzymywanie ciepła…)</td></tr>
+<tr><td>Łączność</td><td>Wi-Fi, aplikacja VeSync, zgodność z Amazon Alexa i Asystentem Google</td></tr>
+<tr><td>Konserwacja</td><td>Kosz i kratka z powłoką nieprzywierającą, odpowiednie do zmywarki</td></tr>
+</tbody>
+</table>
+<p>Ważna uwaga: wbrew temu, co czasem można przeczytać, ten model nie ma ani trybu dehydratacji, ani zakresu do 230 °C. Te funkcje istnieją w innych frytkownicach beztłuszczowych, ale nie w Dual Blaze 6,4 L.</p>
+
+<h2>Co naprawdę zmienia podwójna grzałka</h2>
+<p>Klasyczna frytkownica beztłuszczowa grzeje tylko od góry: grzałka znajduje się nad wentylatorem, który kieruje gorące powietrze na jedzenie. Górna strona szybko się rumieni, ta leżąca na kratce znacznie wolniej, stąd typowa rada, by potrząsnąć lub obrócić jedzenie w połowie smażenia.</p>
+<p>Dual Blaze dodaje drugą grzałkę pod koszem. Cosori deklaruje więc smażenie bez podgrzewania wstępnego i bez potrząsania w przypadku większości przepisów, z dwoma czujnikami temperatury regulującymi całość. Opinie użytkowników potwierdzają przede wszystkim dwie korzyści:</p>
+<ul>
+<li><strong>Spód jedzenia lepiej się rumieni</strong>: skrzydełka kurczaka, pieczone warzywa czy nuggetsy wychodzą bardziej równe bez interwencji.</li>
+<li><strong>Można uruchomić smażenie i odejść</strong>: przy wieczornym posiłku w tygodniu brak konieczności ponownego otwierania szuflady to realna wygoda.</li>
+</ul>
+<p>Trzeba jednak dodać nuans. Kilka analiz prasy specjalistycznej uważa, że różnica w porównaniu z najlepszymi frytkownicami beztłuszczowymi z jedną grzałką jest umiarkowana, a niektóre produkty, jak mrożone frytki, wymagają czasem kilku minut więcej niż przewidziano, by dobrze się wychrupały. Przy mocno załadowanym koszu potrząśnięcie nadal się przydaje: podwójna grzałka nie zrekompensuje zbyt grubej warstwy jedzenia.</p>
+
+<h2>Aplikacja VeSync i obsługa</h2>
+<p>Dotykowy panel sterowania, umieszczony na górze urządzenia, łączy 12 programów, ustawienie czasu i temperatury oraz przycisk pauzy. Jest czytelny, ale dość kompaktowy, co zarzuca część kupujących.</p>
+<p>Aplikacja VeSync daje:</p>
+<ul>
+<li>zdalne uruchamianie i zatrzymywanie, ze śledzeniem pozostałego czasu;</li>
+<li>bibliotekę przepisów wysyłanych bezpośrednio do urządzenia;</li>
+<li>tworzenie i zapisywanie własnych ustawień;</li>
+<li>sterowanie głosowe przez Alexę lub Asystenta Google.</li>
+</ul>
+<p>Jak wiele urządzeń inteligentnych, łączy się z Wi-Fi 2,4 GHz: jeśli Twój router nadaje jedną sieć 2,4/5 GHz, parowanie może wymagać zmiany ustawień. Aplikacja jest opcjonalna: wszystkie programy uruchomisz także z ekranu. Aby porównać z innymi modelami sterowanymi ze smartfona, zajrzyj do naszego <a href="/pl/blog/comparatif-airfryer-connecte-2026">porównania inteligentnych frytkownic beztłuszczowych</a>.</p>
+
+<h2>Mocne i słabe strony</h2>
+<h3>Mocne strony</h3>
+<ul>
+<li><strong>Bardziej równomierne smażenie</strong> dzięki grzaniu od góry i od dołu, z mniejszą liczbą czynności.</li>
+<li><strong>Brak konieczności podgrzewania wstępnego</strong> według producenta, co skraca krótkie smażenia.</li>
+<li><strong>Kompletna aplikacja</strong> i asystenci głosowi, bez obowiązku korzystania.</li>
+<li><strong>Pojemność dla rodzin</strong>: 6,4 litra wystarcza na 3–5 porcji dodatków.</li>
+<li><strong>Proste czyszczenie</strong>: kosz i kratkę można myć w zmywarce.</li>
+<li><strong>Cicha praca</strong> według większości kupujących, raczej szum powietrza niż uciążliwy hałas.</li>
+</ul>
+<h3>Słabe strony</h3>
+<ul>
+<li><strong>Temperatura maksymalna 205 °C</strong>: wystarczy do zdecydowanej większości zastosowań, mniej idealna do mocnego obsmażania mięsa.</li>
+<li><strong>Jedna szuflada</strong>: nie da się smażyć dwóch potraw w dwóch różnych temperaturach jednocześnie.</li>
+<li><strong>Dość wąski kosz</strong> na całego, dużego kurczaka lub duże kawałki.</li>
+<li><strong>Wewnętrzną kratkę trzeba podnosić za dwa uchwyty-pierścienie</strong>, mniej wygodnie niż za rączkę, gdy dno jest tłuste.</li>
+<li><strong>Brak dehydratacji</strong> w tym modelu.</li>
+<li><strong>Stonowany design z plastiku</strong>, bardziej funkcjonalny niż efektowny.</li>
+</ul>
+
+<h2>Co mówią kupujący</h2>
+<p>Na dużych europejskich platformach sprzedażowych Dual Blaze zbiera ogólnie bardzo pozytywne opinie. Pochwały dotyczą przede wszystkim równomierności smażenia i oszczędności czasu na co dzień, a następnie aplikacji, cenionej za przepisy i możliwość śledzenia smażenia z innego pokoju.</p>
+<p>Najczęstsza krytyka dotyczy szerokości kosza, czyszczenia wewnętrznej kratki oraz, u mniejszości, początkowej konfiguracji Wi-Fi. Niektórzy kupujący zaznaczają też, że powłoka nieprzywierająca wymaga przyborów silikonowych lub drewnianych, by przetrwała: dotyczy to wszystkich koszy tego typu.</p>
+
+<h2>Cosori Dual Blaze na tle konkurencji</h2>
+<table>
+<thead><tr><th>Model</th><th>Pojemność</th><th>Grzanie</th><th>Łączność</th><th>Idealny do</th></tr></thead>
+<tbody>
+<tr><td>Cosori Dual Blaze Smart 6,4 L</td><td>6,4 L, 1 szuflada</td><td>Góra i dół</td><td>Wi-Fi, VeSync, asystenci głosowi</td><td>Równomiernego smażenia bez potrząsania</td></tr>
+<tr><td>Philips Airfryer Seria 3000 XL 6,2 L</td><td>6,2 L, 1 szuflada</td><td>Od góry</td><td>Nie</td><td>Prostoty, sprawdzonej marki</td></tr>
+<tr><td>Ninja Foodi MAX Double Stack XL 9,5 L</td><td>9,5 L, 2 szuflady jedna nad drugą</td><td>Dwie niezależne strefy</td><td>Nie</td><td>Dwóch potraw jednocześnie</td></tr>
+<tr><td>Philips Airfryer Combi XXL Connected 8,3 L</td><td>8,3 L</td><td>Od góry</td><td>Wi-Fi, aplikacja</td><td>Dużej rodziny, wysokiej półki</td></tr>
+</tbody>
+</table>
+<p>W porównaniu z <a href="/pl/blog/test-philips-airfryer-3000-xl">Philips Seria 3000 XL</a> Cosori dodaje grzanie od dołu i aplikację, przy porównywalnej pojemności. W porównaniu z Ninja Double Stack traci jednoczesne smażenie dwóch potraw, ale zyskuje na kompaktowości i łączności. Aby rozważyć ten wybór, przeczytaj nasz artykuł <a href="/pl/blog/airfryer-simple-vs-double-panier">frytkownica beztłuszczowa z jednym czy dwoma koszami</a>.</p>
+
+<h2>Jak z niego korzystać na co dzień</h2>
+<p>Podwójna grzałka zmienia kilka nawyków odziedziczonych po klasycznych frytkownicach beztłuszczowych. Oto odruchy, które najczęściej wracają w poradach producenta i opiniach stałych użytkowników.</p>
+<h3>Zacznij od programów, potem dostosuj</h3>
+<p>12 programów to dobry punkt wyjścia, ale każdy produkt reaguje inaczej zależnie od wielkości, grubości i ilości. Przy pierwszym smażeniu sprawdź stopień przygotowania trochę przed końcem, zanotuj ustawienie, które Ci odpowiada, a potem zapisz je w aplikacji, by wracać do niego jednym ruchem.</p>
+<h3>Lekko skróć czas klasycznych przepisów</h3>
+<p>Ponieważ spód jedzenia nagrzewa się bezpośrednio i podgrzewanie wstępne nie jest potrzebne, przepis pomyślany dla frytkownicy beztłuszczowej z jedną grzałką może być gotowy szybciej. Zacznij od kilku minut krócej i w razie potrzeby przedłuż: to łatwiejsze niż ratowanie przesmażonej potrawy.</p>
+<h3>Wystarczy łyżka oleju</h3>
+<p>W przypadku świeżych warzyw i domowych ziemniaków niewielka ilość oleju wymieszana z jedzeniem przed smażeniem wyraźnie poprawia chrupkość. Wstępnie obsmażone mrożonki zazwyczaj go nie potrzebują. Aby dowiedzieć się więcej, nasz poradnik o <a href="/pl/blog/cuisiner-healthy-airfryer">zdrowym gotowaniu we frytkownicy beztłuszczowej</a> podaje proste wskazówki.</p>
+<h3>Konserwacja i bezpieczeństwo</h3>
+<p>Poczekaj, aż szuflada ostygnie, zanim ją umyjesz, i unikaj ostrych gąbek na powłoce. Podłączaj urządzenie bezpośrednio do gniazdka ściennego, a nie do przeciążonej listwy zasilającej, stawiaj je na stabilnym blacie odpornym na ciepło i nigdy nie używaj pod niską półką. Te środki ostrożności dotyczą wszystkich frytkownic beztłuszczowych o takiej mocy.</p>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Przeładowanie kosza</strong>: nawet przy dwóch grzałkach powietrze musi krążyć. Powyżej półtorej warstwy potrząśnij lub smaż w dwóch partiach.</li>
+<li><strong>Używanie metalowych przyborów</strong>: rysują powłokę nieprzywierającą kosza i kratki.</li>
+<li><strong>Wkładanie samego papieru do pieczenia do pustego kosza</strong>: zassany przez wentylator może dotknąć grzałki. Zawsze kładź go pod jedzeniem.</li>
+<li><strong>Przysuwanie urządzenia do ściany lub pod niską szafkę</strong>: zostaw miejsce wokół wylotów gorącego powietrza.</li>
+<li><strong>Zapominanie o dnie szuflady</strong>: zgromadzony tłuszcz dymi przy następnym smażeniu. Wystarczy opłukać po każdym użyciu.</li>
+</ul>
+
+<h2>Dla kogo jest Cosori Dual Blaze?</h2>
+<ul>
+<li><strong>Dla domów z 3–5 osobami</strong>, które gotują głównie dodatki, drób i warzywa.</li>
+<li><strong>Dla tych, którzy nie znoszą potrząsania koszem</strong> i chcą uruchomić smażenie, a potem zająć się czymś innym.</li>
+<li><strong>Dla miłośników urządzeń inteligentnych</strong>, którzy cenią przepisy krok po kroku, zdalny podgląd i sterowanie głosowe.</li>
+</ul>
+<p>Mniej pasuje tym, którzy często przygotowują dwie różne potrawy jednocześnie, albo szukają bardzo wysokiej temperatury do obsmażania mięsa.</p>
+
+<h2>Werdykt</h2>
+<p>Cosori Dual Blaze Smart 6,4 L spełnia główną obietnicę: bardziej regularne smażenie z mniejszą liczbą czynności, dzięki podwójnej grzałce. Dodaj dobrze pomyślaną aplikację, proste czyszczenie i pojemność rodzinną, a otrzymasz jedną z najbardziej zrównoważonych obecnie frytkownic beztłuszczowych z jedną szufladą. Jego ograniczenia (maksymalnie 205 °C, jedna szuflada, nieco wąski kosz) są realne, ale nie przeszkadzają w codziennym użytkowaniu. Do smażenia dwóch potraw naraz lepszy pozostaje Ninja Double Stack; jako prostsze rozwiązanie bez Wi-Fi Philips Seria 3000 XL to pewniak.</p>`,
   },
   faq: [
     {
@@ -684,6 +793,7 @@ export const article: BlogArticle = {
         es: '¿Cómo funciona la tecnología Dual Blaze?',
         it: 'Come funziona la tecnologia Dual Blaze?',
         nl: 'Hoe werkt de Dual Blaze-technologie?',
+        pl: 'Jak działa technologia Dual Blaze?',
       },
       answer: {
         fr: 'L’appareil combine une résistance au-dessus du panier et une seconde en dessous, pilotées par deux sondes de température. Le dessous des aliments chauffe directement, ce qui réduit le besoin de secouer ou de retourner en cours de cuisson.',
@@ -692,6 +802,7 @@ export const article: BlogArticle = {
         es: 'El aparato combina una resistencia encima de la cesta y otra debajo, controladas por dos sensores de temperatura. La parte inferior de los alimentos se calienta directamente, lo que reduce la necesidad de agitar o dar la vuelta.',
         it: 'L’apparecchio combina una resistenza sopra il cestello e una seconda sotto, gestite da due sensori di temperatura. La parte inferiore del cibo si scalda direttamente, riducendo la necessità di scuotere o girare.',
         nl: 'Het apparaat combineert een verwarmingselement boven de mand met een tweede eronder, aangestuurd door twee temperatuursensoren. De onderkant van het eten wordt direct verwarmd, waardoor schudden of omdraaien minder nodig is.',
+        pl: 'Urządzenie łączy grzałkę nad koszem i drugą pod nim, sterowane dwoma czujnikami temperatury. Spód jedzenia nagrzewa się bezpośrednio, co zmniejsza potrzebę potrząsania lub obracania w trakcie smażenia.',
       },
     },
     {
@@ -702,6 +813,7 @@ export const article: BlogArticle = {
         es: '¿Hay que precalentar la Cosori Dual Blaze?',
         it: 'Bisogna preriscaldare la Cosori Dual Blaze?',
         nl: 'Moet je de Cosori Dual Blaze voorverwarmen?',
+        pl: 'Czy Cosori Dual Blaze trzeba podgrzewać wstępnie?',
       },
       answer: {
         fr: 'Non, selon Cosori, la double résistance permet de lancer la cuisson directement. Pensez simplement à réduire de quelques minutes les recettes écrites pour un airfryer classique avec préchauffage.',
@@ -710,6 +822,7 @@ export const article: BlogArticle = {
         es: 'No, según Cosori la doble resistencia permite empezar a cocinar directamente. Basta con restar unos minutos a las recetas pensadas para una freidora clásica con precalentamiento.',
         it: 'No, secondo Cosori la doppia resistenza permette di avviare subito la cottura. Basta togliere qualche minuto alle ricette pensate per una friggitrice classica con preriscaldamento.',
         nl: 'Nee, volgens Cosori kun je dankzij de dubbele verwarming direct beginnen. Kort recepten voor een klassieke airfryer met voorverwarmen gewoon een paar minuten in.',
+        pl: 'Nie, według Cosori podwójna grzałka pozwala uruchomić smażenie od razu. Pamiętaj tylko, by skrócić o kilka minut przepisy napisane dla klasycznej frytkownicy beztłuszczowej z podgrzewaniem wstępnym.',
       },
     },
     {
@@ -720,6 +833,7 @@ export const article: BlogArticle = {
         es: '¿La Cosori Dual Blaze 6,4 L sirve para una familia de cuatro?',
         it: 'La Cosori Dual Blaze 6,4 L va bene per una famiglia di quattro persone?',
         nl: 'Is de Cosori Dual Blaze 6,4 L groot genoeg voor een gezin van vier?',
+        pl: 'Czy Cosori Dual Blaze 6,4 L nadaje się dla czteroosobowej rodziny?',
       },
       answer: {
         fr: 'Oui pour les accompagnements, la volaille en morceaux et les légumes. Pour un plat principal et un accompagnement cuits en même temps à des réglages différents, un modèle à deux tiroirs comme le Ninja Double Stack sera plus pratique.',
@@ -728,6 +842,7 @@ export const article: BlogArticle = {
         es: 'Sí para guarniciones, piezas de pollo y verduras. Si quieres cocinar a la vez un plato principal y una guarnición con ajustes distintos, un modelo de doble cajón como la Ninja Double Stack es más práctico.',
         it: 'Sì per contorni, pollo a pezzi e verdure. Se vuoi cuocere insieme un piatto principale e un contorno con impostazioni diverse, un modello a doppio cassetto come la Ninja Double Stack è più pratico.',
         nl: 'Ja, voor bijgerechten, stukken kip en groenten. Wil je een hoofdgerecht en een bijgerecht tegelijk op verschillende standen maken, dan is een model met twee lades zoals de Ninja Double Stack handiger.',
+        pl: 'Tak, do dodatków, drobiu w kawałkach i warzyw. Jeśli danie główne i dodatek mają się smażyć jednocześnie przy różnych ustawieniach, wygodniejszy będzie model z dwiema szufladami, jak Ninja Double Stack.',
       },
     },
     {
@@ -738,6 +853,7 @@ export const article: BlogArticle = {
         es: '¿Se puede usar la Cosori Dual Blaze sin la app?',
         it: 'Si può usare la Cosori Dual Blaze senza app?',
         nl: 'Kun je de Cosori Dual Blaze zonder app gebruiken?',
+        pl: 'Czy Cosori Dual Blaze można używać bez aplikacji?',
       },
       answer: {
         fr: 'Oui. Les 12 programmes, le temps et la température se règlent sur le panneau tactile. L’application VeSync ajoute le suivi à distance, les recettes et la commande vocale, mais elle reste facultative.',
@@ -746,6 +862,7 @@ export const article: BlogArticle = {
         es: 'Sí. Los 12 programas, el tiempo y la temperatura se ajustan en el panel táctil. La app VeSync añade seguimiento a distancia, recetas y control por voz, pero es opcional.',
         it: 'Sì. I 12 programmi, il tempo e la temperatura si impostano dal pannello touch. L’app VeSync aggiunge controllo a distanza, ricette e comandi vocali, ma è facoltativa.',
         nl: 'Ja. De 12 programma’s, tijd en temperatuur stel je in op het aanraakpaneel. De VeSync-app voegt bediening op afstand, recepten en spraakbesturing toe, maar is optioneel.',
+        pl: 'Tak. 12 programów, czas i temperaturę ustawia się na panelu dotykowym. Aplikacja VeSync dodaje zdalny podgląd, przepisy i sterowanie głosowe, ale pozostaje opcjonalna.',
       },
     },
     {
@@ -756,6 +873,7 @@ export const article: BlogArticle = {
         es: '¿Cuál es la temperatura máxima de la Cosori Dual Blaze?',
         it: 'Qual è la temperatura massima della Cosori Dual Blaze?',
         nl: 'Wat is de maximale temperatuur van de Cosori Dual Blaze?',
+        pl: 'Jaka jest maksymalna temperatura Cosori Dual Blaze?',
       },
       answer: {
         fr: 'La plage de réglage va de 80 à 205 °C. C’est suffisant pour les frites, la volaille, les légumes et la plupart des desserts, mais un peu juste pour saisir très fortement une viande rouge.',
@@ -764,6 +882,7 @@ export const article: BlogArticle = {
         es: 'El rango va de 80 a 205 °C. Basta para patatas, aves, verduras y la mayoría de postres, aunque se queda algo corto para sellar con fuerza una carne roja.',
         it: 'L’intervallo va da 80 a 205 °C. È sufficiente per patatine, pollame, verdure e la maggior parte dei dolci, ma un po’ limitato per rosolare con forza la carne rossa.',
         nl: 'Het bereik loopt van 80 tot 205 °C. Genoeg voor friet, gevogelte, groenten en de meeste desserts, maar wat krap om rood vlees heel heet dicht te schroeien.',
+        pl: 'Zakres ustawień wynosi od 80 do 205 °C. To wystarczy do frytek, drobiu, warzyw i większości deserów, ale jest trochę mało do mocnego obsmażania czerwonego mięsa.',
       },
     },
     {
@@ -774,6 +893,7 @@ export const article: BlogArticle = {
         es: '¿La cesta de la Cosori Dual Blaze va al lavavajillas?',
         it: 'Il cestello della Cosori Dual Blaze va in lavastoviglie?',
         nl: 'Kan de mand van de Cosori Dual Blaze in de vaatwasser?',
+        pl: 'Czy kosz Cosori Dual Blaze można myć w zmywarce?',
       },
       answer: {
         fr: 'Oui, le panier et la grille antiadhésifs sont compatibles lave-vaisselle. Pour préserver le revêtement plus longtemps, un lavage à la main à l’eau chaude savonneuse avec une éponge non abrasive reste conseillé.',
@@ -782,6 +902,7 @@ export const article: BlogArticle = {
         es: 'Sí, la cesta y la rejilla antiadherentes son aptas para lavavajillas. Para conservar el revestimiento más tiempo, se recomienda lavarlas a mano con agua caliente y jabón y una esponja no abrasiva.',
         it: 'Sì, cestello e griglia antiaderenti vanno in lavastoviglie. Per preservare più a lungo il rivestimento è comunque consigliato il lavaggio a mano con acqua calda e sapone e una spugna non abrasiva.',
         nl: 'Ja, de mand en het rooster met antiaanbaklaag kunnen in de vaatwasser. Om de laag langer mooi te houden, is afwassen met warm sop en een zachte spons toch aan te raden.',
+        pl: 'Tak, kosz i kratka z powłoką nieprzywierającą nadają się do zmywarki. Aby zachować powłokę dłużej, nadal zaleca się mycie ręczne w ciepłej wodzie z mydłem nieścierającą gąbką.',
       },
     },
   ],

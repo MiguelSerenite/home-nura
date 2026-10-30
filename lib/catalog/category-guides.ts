@@ -5,6 +5,7 @@ import type { Lang } from '@/lib/i18n'
 import type { ProductPhoto } from '@/lib/product-photo'
 import type { Category } from './types'
 import { getCategoryHead } from './category-heads'
+import { lowerFirst } from './content'
 
 /**
  * Blog articles behind each generic category hub (kitchen categories have
@@ -190,6 +191,19 @@ const TEMPLATES: Record<Lang, Templates> = {
       `Onze selectie voor 2026: ${n}.`,
     ],
     generic: (t) => `${t} 2026: zo kies je goed, de belangrijkste koopcriteria, fouten om te vermijden en antwoorden op veelgestelde vragen.`,
+  },
+  pl: {
+    titles: (t) => [
+      `Najlepsze ${lowerFirst(t)} 2026: porównanie i nasz wybór`,
+      `Najlepsze ${lowerFirst(t)} 2026: porównanie`,
+      `${t} 2026: ranking i porównanie`,
+      `${t} 2026`,
+    ],
+    withPicks: (n) => [
+      `Nasz wybór 2026: ${n}. Porównane pod kątem funkcji, prostoty obsługi i stosunku jakości do ceny, z bezpośrednimi linkami do Amazon.`,
+      `Nasz wybór 2026: ${n}.`,
+    ],
+    generic: (t) => `${t} 2026: jak wybrać, najważniejsze kryteria zakupu, błędy, których warto unikać, i odpowiedzi na najczęstsze pytania.`,
   },
 }
 /** SEO title (without brand suffix) and description for a category hub. */

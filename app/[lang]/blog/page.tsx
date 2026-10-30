@@ -19,6 +19,7 @@ const metaTitles: Record<string, string> = {
   es: 'Blog Home Nura | Guías, Tests y Recetas de Freidoras de Aire',
   it: 'Blog Home Nura | Guide, Test e Ricette Friggitrici ad Aria',
   nl: 'Home Nura Blog | Airfryer Gidsen, Tests & Recepten',
+  pl: 'Blog Home Nura | Frytkownice: poradniki, recenzje, przepisy',
 }
 
 const metaDescs: Record<string, string> = {
@@ -28,6 +29,7 @@ const metaDescs: Record<string, string> = {
   es: 'Descubre nuestras guías de compra, tests detallados, recetas y comparativas de freidoras de aire. Más de 25 artículos expertos.',
   it: 'Scopri le nostre guide all\'acquisto, test dettagliati, ricette e confronti di friggitrici ad aria. Oltre 25 articoli esperti.',
   nl: 'Ontdek onze koopgidsen, gedetailleerde tests, recepten en airfryer vergelijkingen. Meer dan 25 expertartikelen.',
+  pl: 'Poznaj nasze poradniki zakupowe, szczegółowe recenzje, przepisy i porównania frytkownic beztłuszczowych. Ponad 25 artykułów eksperckich o zdrowym gotowaniu.',
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -48,6 +50,7 @@ const blogIntro: Record<string, { title: string; subtitle: string }> = {
   es: { title: 'El Blog Home Nura', subtitle: 'Guías de compra, tests detallados, recetas y comparativas para dominar tu freidora de aire.' },
   it: { title: 'Il Blog Home Nura', subtitle: 'Guide all\'acquisto, test dettagliati, ricette e confronti per padroneggiare la tua friggitrice ad aria.' },
   nl: { title: 'De Home Nura Blog', subtitle: 'Koopgidsen, gedetailleerde tests, recepten en vergelijkingen om uw airfryer te beheersen.' },
+  pl: { title: 'Blog Home Nura', subtitle: 'Poradniki zakupowe, szczegółowe recenzje, przepisy i porównania, dzięki którym lepiej wykorzystasz swoją frytkownicę beztłuszczową.' },
 }
 
 export default async function BlogIndex({ params }: { params: Promise<{ lang: string }> }) {
@@ -134,7 +137,7 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
                 </h2>
                 <p className="text-sm text-slate-500 line-clamp-3">{article.excerpt[lang] || article.excerpt.fr}</p>
                 <p className="mt-4 text-sm font-semibold text-brand-600">
-                  {lang === 'fr' ? 'Lire l\'article →' : lang === 'de' ? 'Artikel lesen →' : lang === 'es' ? 'Leer artículo →' : lang === 'it' ? 'Leggi l\'articolo →' : lang === 'nl' ? 'Lees artikel →' : 'Read article →'}
+                  {lang === 'fr' ? 'Lire l\'article →' : lang === 'de' ? 'Artikel lesen →' : lang === 'es' ? 'Leer artículo →' : lang === 'it' ? 'Leggi l\'articolo →' : lang === 'nl' ? 'Lees artikel →' : lang === 'pl' ? 'Czytaj artykuł →' : 'Read article →'}
                 </p>
               </div>
             </Link>
@@ -187,19 +190,19 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
       {/* Internal Links Grid - Maillage */}
       <section className="max-w-7xl mx-auto px-6 py-12 border-t border-slate-100">
         <h2 className="text-2xl font-bold mb-6">
-          {lang === 'fr' ? 'Guides populaires' : lang === 'de' ? 'Beliebte Ratgeber' : lang === 'es' ? 'Guías populares' : lang === 'it' ? 'Guide popolari' : lang === 'nl' ? 'Populaire gidsen' : 'Popular Guides'}
+          {lang === 'fr' ? 'Guides populaires' : lang === 'de' ? 'Beliebte Ratgeber' : lang === 'es' ? 'Guías populares' : lang === 'it' ? 'Guide popolari' : lang === 'nl' ? 'Populaire gidsen' : lang === 'pl' ? 'Popularne poradniki' : 'Popular Guides'}
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <Link href={`/${lang}/guides/airfryers`} className="p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-200">
-            <p className="text-sm font-bold text-slate-900">{lang === 'fr' ? 'Guide complet des airfryers 2026' : lang === 'de' ? 'Kompletter Airfryer-Ratgeber 2026' : lang === 'es' ? 'Guía completa de freidoras 2026' : lang === 'it' ? 'Guida completa airfryer 2026' : lang === 'nl' ? 'Complete airfryer-gids 2026' : 'Complete air fryer guide 2026'}</p>
+            <p className="text-sm font-bold text-slate-900">{lang === 'fr' ? 'Guide complet des airfryers 2026' : lang === 'de' ? 'Kompletter Airfryer-Ratgeber 2026' : lang === 'es' ? 'Guía completa de freidoras 2026' : lang === 'it' ? 'Guida completa airfryer 2026' : lang === 'nl' ? 'Complete airfryer-gids 2026' : lang === 'pl' ? 'Kompletny poradnik: frytkownice beztłuszczowe 2026' : 'Complete air fryer guide 2026'}</p>
             <p className="text-xs text-slate-500 mt-1">{lang === 'fr' ? 'Notre comparatif expert des 9 meilleurs modèles' : 'Our expert comparison of the 9 best models'}</p>
           </Link>
           <Link href={`/${lang}/guides/airfryer-vs-four`} className="p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-200">
-            <p className="text-sm font-bold text-slate-900">{lang === 'fr' ? 'Airfryer vs four traditionnel' : lang === 'de' ? 'Airfryer vs Backofen' : lang === 'es' ? 'Freidora de aire vs horno' : lang === 'it' ? 'Airfryer vs forno' : lang === 'nl' ? 'Airfryer vs oven' : 'Air fryer vs oven'}</p>
+            <p className="text-sm font-bold text-slate-900">{lang === 'fr' ? 'Airfryer vs four traditionnel' : lang === 'de' ? 'Airfryer vs Backofen' : lang === 'es' ? 'Freidora de aire vs horno' : lang === 'it' ? 'Airfryer vs forno' : lang === 'nl' ? 'Airfryer vs oven' : lang === 'pl' ? 'Frytkownica beztłuszczowa czy piekarnik' : 'Air fryer vs oven'}</p>
             <p className="text-xs text-slate-500 mt-1">{lang === 'fr' ? 'Comparatif détaillé des performances' : 'Detailed performance comparison'}</p>
           </Link>
           <Link href={`/${lang}`} className="p-4 bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition duration-200">
-            <p className="text-sm font-bold text-slate-900">{lang === 'fr' ? 'Nos meilleurs choix 2026' : lang === 'de' ? 'Unsere Top-Auswahl 2026' : lang === 'es' ? 'Nuestras mejores opciones 2026' : lang === 'it' ? 'Le nostre scelte migliori 2026' : lang === 'nl' ? 'Onze beste keuzes 2026' : 'Our top picks 2026'}</p>
+            <p className="text-sm font-bold text-slate-900">{lang === 'fr' ? 'Nos meilleurs choix 2026' : lang === 'de' ? 'Unsere Top-Auswahl 2026' : lang === 'es' ? 'Nuestras mejores opciones 2026' : lang === 'it' ? 'Le nostre scelte migliori 2026' : lang === 'nl' ? 'Onze beste keuzes 2026' : lang === 'pl' ? 'Nasze typy na 2026' : 'Our top picks 2026'}</p>
             <p className="text-xs text-slate-500 mt-1">{lang === 'fr' ? 'Comparatif et scores Nura' : 'Comparison and Nura scores'}</p>
           </Link>
         </div>
@@ -211,7 +214,7 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
           {dict.guide_title || 'Guide Complet des Airfryers 2026'} &rarr;
         </Button>
         <Button href={`/${lang}`} size="lg">
-          {lang === 'fr' ? 'Voir le comparatif' : lang === 'de' ? 'Zum Vergleich' : lang === 'es' ? 'Ver comparativa' : lang === 'it' ? 'Vedi confronto' : lang === 'nl' ? 'Bekijk vergelijking' : 'See comparison'} &rarr;
+          {lang === 'fr' ? 'Voir le comparatif' : lang === 'de' ? 'Zum Vergleich' : lang === 'es' ? 'Ver comparativa' : lang === 'it' ? 'Vedi confronto' : lang === 'nl' ? 'Bekijk vergelijking' : lang === 'pl' ? 'Zobacz porównanie' : 'See comparison'} &rarr;
         </Button>
       </section>
       </main>

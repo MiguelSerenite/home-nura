@@ -305,6 +305,101 @@ const L: Record<string, QuizLabels> = {
       },
     },
   },
+  pl: {
+    kicker: 'Quiz dla Ciebie',
+    title: 'Jaka frytkownica jest dla Ciebie?',
+    subtitle: '3 pytania — rekomendacja w 30 sekund',
+    progress: 'Pytanie',
+    back: 'Wstecz',
+    restart: 'Od nowa',
+    recommend: 'Nasza rekomendacja',
+    ourPick: 'Wybór Nura',
+    whyTitle: 'Dlaczego ten model',
+    seePrice: 'Zobacz cenę na Amazon',
+    questions: {
+      household: {
+        title: 'Dla ilu osób gotujesz?',
+        options: [
+          {
+            value: 'solo',
+            label: 'Solo',
+            desc: '1 osoba',
+            icon: '👤',
+          },
+          {
+            value: 'couple',
+            label: 'Para',
+            desc: '2 osoby',
+            icon: '👥',
+          },
+          {
+            value: 'family',
+            label: 'Rodzina',
+            desc: '3–4 osoby',
+            icon: '👨‍👩‍👧',
+          },
+          {
+            value: 'large',
+            label: 'Duża rodzina',
+            desc: '5+ osób',
+            icon: '👨‍👩‍👧‍👦',
+          },
+        ],
+      },
+      budget: {
+        title: 'Jaki masz budżet?',
+        options: [
+          {
+            value: 'low',
+            label: 'Budżetowy',
+            desc: 'Poniżej 500 zł',
+            icon: '💶',
+          },
+          {
+            value: 'mid',
+            label: 'Średnia półka',
+            desc: '500–850 zł',
+            icon: '💰',
+          },
+          {
+            value: 'high',
+            label: 'Premium',
+            desc: 'Ponad 850 zł',
+            icon: '💎',
+          },
+        ],
+      },
+      priority: {
+        title: 'Co jest dla Ciebie najważniejsze?',
+        options: [
+          {
+            value: 'capacity',
+            label: 'Pojemność',
+            desc: 'Gotuj dużo naraz',
+            icon: '🍟',
+          },
+          {
+            value: 'value',
+            label: 'Opłacalność',
+            desc: 'Najlepszy w budżecie',
+            icon: '⚖️',
+          },
+          {
+            value: 'premium',
+            label: 'Wyższa półka',
+            desc: 'Najlepszy, bez kompromisów',
+            icon: '⭐',
+          },
+          {
+            value: 'compact',
+            label: 'Kompaktowy',
+            desc: 'Do małej kuchni',
+            icon: '📏',
+          },
+        ],
+      },
+    },
+  },
 }
 
 function parseCapacityLitres(cap: string): number {

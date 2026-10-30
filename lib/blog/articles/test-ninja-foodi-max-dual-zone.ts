@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Freidora de aire negra sobre una encimera de cocina',
         it: 'Friggitrice ad aria nera sul piano di lavoro della cucina',
         nl: 'Zwarte airfryer op een aanrecht in de keuken',
+        pl: 'Czarna frytkownica beztłuszczowa na kuchennym blacie',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Ninja Foodi MAX Double Stack XL 9,5 L: opinión 2026',
     it: 'Ninja Foodi MAX Double Stack XL 9,5 L: recensione 2026',
     nl: 'Ninja Foodi MAX Double Stack XL 9,5 L: review 2026',
+    pl: 'Ninja Foodi MAX Double Stack XL 9,5 L: pełna opinia 2026',
   },
   excerpt: {
     fr: "Notre avis sur le Ninja Foodi MAX Double Stack XL (SL400EU) : deux tiroirs empilés de 4,75 L, Sync et Match, format étroit. Points forts, limites et profils adaptés, d'après les fiches du fabricant et les retours d'acheteurs.",
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Nuestra opinión sobre el Ninja Foodi MAX Double Stack XL (SL400EU): dos cajones apilados de 4,75 L, Sync y Match y un formato estrecho. Puntos fuertes, límites y perfiles ideales según las fichas del fabricante y las opiniones de compradores.',
     it: 'La nostra recensione del Ninja Foodi MAX Double Stack XL (SL400EU): due cassetti impilati da 4,75 L, Sync e Match, ingombro ridotto in larghezza. Punti di forza, limiti e a chi conviene, in base alle schede del produttore e ai pareri degli acquirenti.',
     nl: 'Onze review van de Ninja Foodi MAX Double Stack XL (SL400EU): twee gestapelde laden van 4,75 L, Sync en Match en een smal formaat. Sterke punten, beperkingen en voor wie hij geschikt is, op basis van fabrieksgegevens en ervaringen van kopers.',
+    pl: 'Nasza opinia o Ninja Foodi MAX Double Stack XL (SL400EU): dwie szuflady po 4,75 L ustawione jedna na drugiej, funkcje Sync i Match, wąska obudowa. Zalety, ograniczenia i dla kogo jest to urządzenie, na podstawie danych producenta i opinii kupujących.',
   },
   content: {
     fr: `<p><strong>Le Ninja Foodi MAX Double Stack XL 9,5 L (référence SL400EU) est l'un des airfryers double zone les plus logiques pour une famille qui manque de place : ses deux tiroirs de 4,75 L sont empilés l'un sur l'autre, ce qui lui donne la largeur d'un airfryer simple.</strong> En contrepartie, il est haut, ses tiroirs sont peu profonds pour les grosses pièces et il n'a ni application ni Wi-Fi.</p>
@@ -577,6 +580,95 @@ export const article: BlogArticle = {
 
 <h2>Eindoordeel</h2>
 <p>De Ninja Foodi MAX Double Stack XL 9,5 L is een uitstekende dual-zone-keuze voor gezinnen: twee onafhankelijke compartimenten, goed doordachte Sync- en Match-functies en een smal formaat dat hem onderscheidt van bijna alle concurrenten. Zijn beperkingen zijn duidelijk: hoogte, gewicht, ondiepe laden voor grote stukken en geen connectiviteit. Heb je daar geen last van, dan is dit onze referentiekeuze onder de dual-zone airfryers voor een gezin.</p>`,
+    pl: `<p><strong>Ninja Foodi MAX Double Stack XL 9,5 L (numer SL400EU) to jedna z najbardziej rozsądnych dwustrefowych frytkownic beztłuszczowych dla rodziny, której brakuje miejsca: jej dwie szuflady po 4,75 L są ustawione jedna na drugiej, dzięki czemu urządzenie ma szerokość zwykłej frytkownicy z jedną komorą.</strong> W zamian jest wysokie, jego szuflady są płytkie jak na duże kawałki mięsa, a ponadto nie ma aplikacji ani Wi-Fi.</p>
+<p>Ta opinia opiera się na danych technicznych opublikowanych przez Ninja, na testach opublikowanych przez prasę specjalistyczną i na opiniach zweryfikowanych kupujących. Nie używaliśmy go sami w kuchni: chcemy jasno powiedzieć, co urządzenie robi dobrze, co gorzej i dla kogo jest odpowiednie. Aby umiejscowić ten model na tle innych, zajrzyj też do naszego <a href="/pl/guides/airfryers">poradnika o frytkownicach beztłuszczowych</a>.</p>
+
+<h2>Dane techniczne</h2>
+<table>
+<thead><tr><th>Cecha</th><th>Wartość podana przez Ninja</th></tr></thead>
+<tbody>
+<tr><td>Pojemność</td><td>9,5 L łącznie (2 szuflady po 4,75 L)</td></tr>
+<tr><td>Moc</td><td>2 470 W</td></tr>
+<tr><td>Funkcje</td><td>Air Fry, Max Crisp, Roast, Bake, Reheat, Dehydrate</td></tr>
+<tr><td>Temperatury</td><td>Od 40 °C (odwadnianie) do 240 °C (Max Crisp), do 210 °C w pozostałych trybach</td></tr>
+<tr><td>Wymiary (wys. x szer. x gł.)</td><td>38,5 x 28 x 47 cm</td></tr>
+<tr><td>Waga</td><td>Około 10,3 kg</td></tr>
+<tr><td>Akcesoria</td><td>2 nieprzywierające blachy do pieczenia, 2 ruszty wielopoziomowe</td></tr>
+<tr><td>Funkcje dwóch stref</td><td>Sync (jednoczesne zakończenie) i Match (skopiowane ustawienia)</td></tr>
+<tr><td>Łączność</td><td>Brak (bez aplikacji i Wi-Fi)</td></tr>
+</tbody>
+</table>
+
+<h2>Koncepcja: dwie strefy ustawione jedna na drugiej zamiast obok siebie</h2>
+<p>Większość frytkownic beztłuszczowych z dwoma koszami umieszcza szuflady obok siebie, przez co urządzenia mają 40 cm szerokości lub więcej. Double Stack XL podchodzi do problemu odwrotnie: dwie szuflady są nałożone jedna na drugą, a panel sterowania znajduje się po prawej stronie. Przy szerokości 28 cm zajmuje tyle miejsca na blacie co zwykła frytkownica z jedną komorą. Ninja przedstawia go zresztą jako o 30 % węższy od swojego klasycznego modelu z dwiema szufladami o równoważnej pojemności.</p>
+<p>Każda szuflada ma własną grzałkę i własny wentylator. Obie strefy są więc naprawdę niezależne: możesz nastawić frytki na 200 °C na górze i filet z ryby na 180 °C na dole, z różnymi czasami. Jeśli różnica między jedną komorą a dwiema strefami wydaje Ci się niejasna, nasz artykuł <a href="/pl/blog/airfryer-simple-vs-double-panier">frytkownica z jedną czy z dwiema komorami</a> opisuje obie koncepcje.</p>
+<p>Rzecz do sprawdzenia przed zakupem: wysokość. Przy 38,5 cm urządzenie zmieści się pod większością szafek wiszących, ale trzeba zostawić miejsce nad nim na odprowadzanie gorącego powietrza. Jest też głębokie (47 cm) i waży około 10 kg: to nie jest urządzenie, które chowa się do szafki po każdym posiłku.</p>
+
+<h2>Sync, Match i ruszty wielopoziomowe</h2>
+<p>Dwie funkcje sprawiają, że dwie strefy są naprawdę praktyczne na co dzień:</p>
+<ul>
+<li><strong>Sync</strong>: ustawiasz każdą szufladę z własną temperaturą i czasem, a urządzenie opóźnia start krótszego programu, aby oba zakończyły się jednocześnie. To idealne narzędzie, by podać danie i dodatek jednocześnie gorące.</li>
+<li><strong>Match</strong>: ustawienia jednej szuflady są kopiowane na drugą. Przydatne, gdy chcesz podwoić to samo danie, na przykład dwie porcje frytek lub pałek z kurczaka.</li>
+</ul>
+<p>Ninja dołącza też dwa ruszty ze stali nierdzewnej, które pozwalają piec na dwóch poziomach w każdej szufladzie, czyli według producenta do czterech warstw produktów. W praktyce ruszty nadają się głównie do płaskich produktów (filety, szaszłyki, warzywa w plasterkach); produkty, które trzeba potrząsać, lepiej gotować w jednej warstwie.</p>
+
+<h2>Wyniki gotowania: co mówią opublikowane testy i kupujący</h2>
+<p>Testy opublikowane przez serwisy specjalistyczne i opinie zweryfikowanych kupujących zgadzają się w kilku punktach:</p>
+<ul>
+<li><strong>Frytki i mrożonki</strong>: dobra chrupkość i równomierne zrumienienie, pod warunkiem że nie przepełniasz szuflad i potrząsasz w połowie gotowania. Tryb Max Crisp (do 240 °C) jest ceniony przy mrożonkach.</li>
+<li><strong>Warzywa i ryby</strong>: moc przypadająca na strefę pozwala szybko obsmażać, a wyniki są oceniane jako równomierne.</li>
+<li><strong>Drób i duże kawałki</strong>: tu format pokazuje swoje ograniczenia. Szuflady są niższe niż w dużej frytkownicy z jedną komorą; cały kurczak z trudem się mieści, zależnie od wielkości ptaka, a kilku właścicieli radzi go porozcinać.</li>
+<li><strong>Szybkość</strong>: Ninja deklaruje gotowanie do 55 % szybsze niż w piekarniku z termoobiegiem w przypadku niektórych produktów (pomiar producenta). Bez długiego nagrzewania urządzenie zwykle zużywa mniej energii niż duży piekarnik przy małych ilościach; szczegóły omawiamy w artykule o <a href="/pl/blog/airfryer-economies-energie">oszczędzaniu energii dzięki frytkownicy beztłuszczowej</a>.</li>
+</ul>
+
+<h2>Obsługa i konserwacja</h2>
+<p>Pionowy panel sterowania jest oceniany jako czytelny i prosty: wybierasz szufladę 1 lub 2, funkcję, a potem temperaturę i czas. Nie ma automatycznych programów dla poszczególnych produktów, jak w niektórych modelach z łącznością: trzeba znać (lub wyszukać) czasy gotowania.</p>
+<p>Szuflady i nieprzywierające blachy można myć w zmywarce według Ninja, który zaleca jednak mycie ręczne, aby zachować powłokę. Unikaj ostrych gąbek i metalowych przyborów na dnie szuflad.</p>
+<p>Najczęstsze negatywne uwagi kupujących dotyczą ergonomii: dolna szuflada znajduje się blisko blatu, trzeba się schylać, aby ją kontrolować, a urządzenie nie ma okienka. Żaden sygnał nie przypomina o potrząśnięciu produktami w połowie gotowania.</p>
+
+<h2>Zalety i ograniczenia</h2>
+<h3>Zalety</h3>
+<ul>
+<li>Dwie naprawdę niezależne strefy w szerokości zwykłej frytkownicy z jedną komorą</li>
+<li>Sync i Match, proste i skuteczne przy podawaniu kompletnego posiłku</li>
+<li>Łączna pojemność 9,5 L, odpowiednia dla rodziny cztero- do sześcioosobowej</li>
+<li>Ruszty w zestawie do pieczenia na dwóch poziomach</li>
+<li>Sześć funkcji, w tym odwadnianie w niskiej temperaturze</li>
+</ul>
+<h3>Ograniczenia</h3>
+<ul>
+<li>Urządzenie wysokie, głębokie i ciężkie</li>
+<li>Szuflady mało odpowiednie dla dużych, całych kurczaków</li>
+<li>Brak okienka, aplikacji i Wi-Fi</li>
+<li>Dolna szuflada mniej wygodna do kontrolowania</li>
+</ul>
+
+<h2>Porównanie z alternatywami</h2>
+<table>
+<thead><tr><th>Model</th><th>Format</th><th>Pojemność</th><th>Łączność</th><th>Idealny dla</th></tr></thead>
+<tbody>
+<tr><td><strong>Ninja Foodi MAX Double Stack XL</strong></td><td>2 szuflady ustawione jedna na drugiej</td><td>9,5 L (2 x 4,75 L)</td><td>Nie</td><td>Rodzin z małą dostępną szerokością</td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>1 duża szuflada z wyjmowanym separatorem</td><td>10,4 L (lub 2 strefy)</td><td>Nie</td><td>Cały kurczak i duże kawałki</td></tr>
+<tr><td>Philips Airfryer Combi XXL Connected</td><td>1 kosz</td><td>8,3 L</td><td>Wi-Fi i aplikacja, sonda temperatury</td><td>Gotowanie mięs do odpowiedniej temperatury wewnątrz, miłośnicy urządzeń z łącznością</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>1 kosz, grzanie od góry i od dołu</td><td>6,4 L</td><td>Wi-Fi i aplikacja</td><td>Pary i małe rodziny, bez odwracania produktów</td></tr>
+</tbody>
+</table>
+<p>W porównaniu z <a href="/pl/blog/test-ninja-foodi-flexdrawer">Ninja FlexDrawer</a> Double Stack wyraźnie wygrywa szerokością, ale FlexDrawer pozwala wyjąć separator i uzyskać jedną dużą komorę, lepiej dopasowaną do całego kurczaka. Philips Combi XXL Connected nie jest urządzeniem dwustrefowym: stawia na duży pojedynczy kosz, sondę temperatury i aplikację. Bardziej kompaktowy Cosori Dual Blaze grzeje od góry i od dołu, co ogranicza potrzebę odwracania produktów.</p>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Napełnianie szuflad po brzegi</strong>: powietrze krąży gorzej, a chrupkość na tym cierpi. Lepiej dwie szuflady wypełnione w połowie niż jedna przepełniona.</li>
+<li><strong>Ustawianie urządzenia przy ścianie lub pod niską szafką</strong>: zostaw miejsce wokół i nad nim na odprowadzanie gorącego powietrza, jak wskazuje instrukcja.</li>
+<li><strong>Zapominanie o potrząsaniu</strong>: urządzenie Ci o tym nie przypomni. Ustaw minutnik na połowę gotowania w przypadku frytek i drobnych kawałków.</li>
+<li><strong>Lekceważenie wagi</strong>: około 10 kg, zaplanuj stałe miejsce na stabilnym blacie.</li>
+<li><strong>Używanie zbyt słabego przedłużacza</strong>: przy prawie 2,5 kW podłączaj je najlepiej bezpośrednio do gniazdka ściennego.</li>
+</ul>
+
+<h2>Dla kogo?</h2>
+<p>Double Stack XL dobrze pasuje do rodzin czteroosobowych do sześcioosobowych, które chcą przygotowywać danie i dodatek jednocześnie, w kuchni, w której liczy się każdy centymetr szerokości blatu. Jest mniej trafny, jeśli gotujesz sam lub we dwoje (wystarczy model 4–6 L), jeśli często pieczesz całe kurczaki albo zależy Ci na sterowaniu urządzeniem z telefonu. Dla bardzo licznych rodzin nasz wybór <a href="/pl/blog/meilleur-airfryer-xxl-grande-famille">frytkownic beztłuszczowych XXL dla dużej rodziny</a> przedstawia inne opcje.</p>
+
+<h2>Werdykt</h2>
+<p>Ninja Foodi MAX Double Stack XL 9,5 L to doskonały wybór wśród dwustrefowych frytkownic dla rodzin: dwie niezależne komory, przemyślane funkcje Sync i Match oraz niewielka szerokość, która wyróżnia go na tle niemal wszystkich konkurentów. Jego ograniczenia są jasne i otwarcie przyznane: wysokość, waga, płytkie szuflady do dużych kawałków i brak łączności. Jeśli te kwestie Ci nie przeszkadzają, to nasz główny wybór wśród dwustrefowych frytkownic beztłuszczowych dla rodziny.</p>`,
   },
   faq: [
     {
@@ -587,6 +679,7 @@ export const article: BlogArticle = {
         es: '¿Qué capacidad tiene el Ninja Foodi MAX Double Stack XL?',
         it: 'Qual è la capacità del Ninja Foodi MAX Double Stack XL?',
         nl: 'Wat is de inhoud van de Ninja Foodi MAX Double Stack XL?',
+        pl: 'Jaka jest pojemność Ninja Foodi MAX Double Stack XL?',
       },
       answer: {
         fr: "9,5 litres au total, répartis en deux tiroirs empilés de 4,75 litres. Chaque tiroir a sa propre résistance et son propre ventilateur, avec des réglages indépendants. C'est un format adapté à une famille de quatre à six personnes.",
@@ -595,6 +688,7 @@ export const article: BlogArticle = {
         es: 'Tiene 9,5 litros en total, repartidos en dos cajones apilados de 4,75 litros. Cada cajón tiene su propia resistencia y su propio ventilador, con ajustes independientes. Es un formato adecuado para familias de cuatro a seis personas.',
         it: 'In totale 9,5 litri, divisi in due cassetti impilati da 4,75 litri. Ogni cassetto ha la propria resistenza e la propria ventola, con impostazioni indipendenti. È un formato adatto a famiglie di quattro-sei persone.',
         nl: 'In totaal 9,5 liter, verdeeld over twee gestapelde laden van 4,75 liter. Elke lade heeft een eigen verwarmingselement en ventilator met onafhankelijke instellingen. Dat past bij een gezin van vier tot zes personen.',
+        pl: 'Łącznie 9,5 litra, podzielone na dwie szuflady po 4,75 litra, ustawione jedna na drugiej. Każda szuflada ma własną grzałkę i własny wentylator, z niezależnymi ustawieniami. To format odpowiedni dla rodziny cztero- do sześcioosobowej.',
       },
     },
     {
@@ -605,6 +699,7 @@ export const article: BlogArticle = {
         es: '¿Para qué sirven las funciones Sync y Match?',
         it: 'A cosa servono le funzioni Sync e Match?',
         nl: 'Waarvoor dienen de functies Sync en Match?',
+        pl: 'Do czego służą funkcje Sync i Match?',
       },
       answer: {
         fr: "Sync décale le démarrage du tiroir le plus court pour que les deux cuissons se terminent en même temps, même avec des températures et des durées différentes. Match copie les réglages d'un tiroir sur l'autre pour doubler une même préparation.",
@@ -613,6 +708,7 @@ export const article: BlogArticle = {
         es: 'Sync retrasa el inicio del cajón más corto para que ambos terminen a la vez, incluso con temperaturas y tiempos distintos. Match copia los ajustes de un cajón en el otro para duplicar una misma receta.',
         it: "Sync ritarda l'avvio del cassetto più breve perché entrambi finiscano insieme, anche con temperature e tempi diversi. Match copia le impostazioni di un cassetto sull'altro per raddoppiare una preparazione.",
         nl: 'Sync start de kortste lade later zodat beide tegelijk klaar zijn, ook bij verschillende temperaturen en tijden. Match kopieert de instellingen van de ene lade naar de andere om een bereiding te verdubbelen.',
+        pl: 'Sync opóźnia start krótszej szuflady, aby oba programy zakończyły się jednocześnie, nawet przy różnych temperaturach i czasach. Match kopiuje ustawienia jednej szuflady na drugą, aby podwoić to samo danie.',
       },
     },
     {
@@ -623,6 +719,7 @@ export const article: BlogArticle = {
         es: '¿Se puede cocinar un pollo entero en el Ninja Double Stack XL?',
         it: 'Si può cuocere un pollo intero nel Ninja Double Stack XL?',
         nl: 'Kun je een hele kip bereiden in de Ninja Double Stack XL?',
+        pl: 'Czy w Ninja Double Stack XL można upiec całego kurczaka?',
       },
       answer: {
         fr: "C'est possible avec une petite volaille, mais les tiroirs sont peu profonds et de nombreux propriétaires préfèrent la découper. Si vous rôtissez souvent des poulets entiers, un modèle à grand compartiment unique comme le Ninja FlexDrawer est plus pratique.",
@@ -631,6 +728,7 @@ export const article: BlogArticle = {
         es: 'Es posible con un ave pequeña, pero los cajones son poco profundos y muchos propietarios prefieren trocearla. Si asas pollos enteros a menudo, un modelo con un solo compartimento grande como el Ninja FlexDrawer resulta más práctico.',
         it: 'È possibile con un pollo piccolo, ma i cassetti sono poco profondi e molti proprietari preferiscono tagliarlo a pezzi. Se arrostisci spesso polli interi, un modello con un unico grande scomparto come il Ninja FlexDrawer è più pratico.',
         nl: 'Met een kleine kip kan het, maar de laden zijn ondiep en veel eigenaren snijden hem liever in stukken. Braad je vaak hele kippen, dan is een model met één groot compartiment zoals de Ninja FlexDrawer praktischer.',
+        pl: 'Jest to możliwe w przypadku małego kurczaka, ale szuflady są płytkie, a wielu właścicieli woli go porozcinać. Jeśli często pieczesz całe kurczaki, wygodniejszy jest model z jedną dużą komorą, taki jak Ninja FlexDrawer.',
       },
     },
     {
@@ -641,6 +739,7 @@ export const article: BlogArticle = {
         es: '¿Los cajones se pueden meter en el lavavajillas?',
         it: 'I cassetti vanno in lavastoviglie?',
         nl: 'Mogen de laden in de vaatwasser?',
+        pl: 'Czy szuflady można myć w zmywarce?',
       },
       answer: {
         fr: "Oui, d'après Ninja, les tiroirs et les plaques antiadhésives passent au lave-vaisselle. Le fabricant conseille toutefois le lavage à la main pour prolonger la durée de vie du revêtement, sans éponge abrasive.",
@@ -649,6 +748,7 @@ export const article: BlogArticle = {
         es: 'Sí, según Ninja los cajones y las bandejas antiadherentes van al lavavajillas. Aun así, el fabricante recomienda lavarlos a mano, sin estropajos abrasivos, para alargar la vida del revestimiento.',
         it: 'Sì, secondo Ninja cassetti e piastre antiaderenti vanno in lavastoviglie. Il produttore consiglia comunque il lavaggio a mano, senza spugne abrasive, per prolungare la durata del rivestimento.',
         nl: 'Ja, volgens Ninja mogen de laden en antiaanbakplaten in de vaatwasser. De fabrikant raadt toch afwassen met de hand aan, zonder schuurspons, zodat de coating langer meegaat.',
+        pl: 'Tak, według Ninja szuflady i nieprzywierające blachy można myć w zmywarce. Producent zaleca jednak mycie ręczne, aby przedłużyć żywotność powłoki, bez ostrych gąbek.',
       },
     },
     {
@@ -659,6 +759,7 @@ export const article: BlogArticle = {
         es: '¿El Ninja Double Stack XL es conectado?',
         it: 'Il Ninja Double Stack XL è connesso?',
         nl: 'Is de Ninja Double Stack XL een slimme airfryer?',
+        pl: 'Czy Ninja Double Stack XL ma łączność z aplikacją?',
       },
       answer: {
         fr: "Non, il n'a ni Wi-Fi ni application : tout se règle sur le panneau de commande. Si vous voulez piloter votre airfryer depuis un smartphone, regardez plutôt le Philips Airfryer Combi XXL Connected ou le Cosori Dual Blaze.",
@@ -667,6 +768,7 @@ export const article: BlogArticle = {
         es: 'No, no tiene wifi ni aplicación: todo se ajusta en el panel de control. Si quieres manejar la freidora desde el móvil, fíjate mejor en el Philips Airfryer Combi XXL Connected o en el Cosori Dual Blaze.',
         it: 'No, non ha né Wi-Fi né app: tutto si imposta dal pannello di controllo. Se vuoi gestire la friggitrice dallo smartphone, valuta piuttosto il Philips Airfryer Combi XXL Connected o il Cosori Dual Blaze.',
         nl: 'Nee, hij heeft geen wifi of app: alles stel je in op het bedieningspaneel. Wil je je airfryer met je telefoon bedienen, kijk dan liever naar de Philips Airfryer Combi XXL Connected of de Cosori Dual Blaze.',
+        pl: 'Nie, nie ma ani Wi-Fi, ani aplikacji: wszystko ustawia się na panelu sterowania. Jeśli chcesz sterować frytkownicą beztłuszczową ze smartfona, zwróć uwagę raczej na Philips Airfryer Combi XXL Connected lub Cosori Dual Blaze.',
       },
     },
     {
@@ -677,6 +779,7 @@ export const article: BlogArticle = {
         es: '¿Cuánto espacio hace falta para instalarlo?',
         it: 'Quanto spazio serve per installarlo?',
         nl: 'Hoeveel ruimte heb je ervoor nodig?',
+        pl: 'Ile miejsca trzeba przewidzieć na ustawienie?',
       },
       answer: {
         fr: "Ninja annonce 38,5 cm de haut, 28 cm de large et 47 cm de profondeur, pour environ 10 kg. Laissez un dégagement autour et au-dessus de l'appareil pour l'évacuation de l'air chaud, et vérifiez la hauteur sous vos meubles hauts.",
@@ -685,6 +788,7 @@ export const article: BlogArticle = {
         es: 'Ninja indica 38,5 cm de alto, 28 cm de ancho y 47 cm de fondo, con unos 10 kg de peso. Deja espacio alrededor y por encima para que salga el aire caliente, y comprueba la altura bajo tus muebles altos.',
         it: "Ninja dichiara 38,5 cm di altezza, 28 cm di larghezza e 47 cm di profondità, per circa 10 kg. Lascia spazio intorno e sopra l'apparecchio per l'uscita dell'aria calda e verifica l'altezza sotto i pensili.",
         nl: 'Ninja vermeldt 38,5 cm hoog, 28 cm breed en 47 cm diep, met een gewicht van ongeveer 10 kg. Laat ruimte rondom en erboven voor de hete lucht en controleer de hoogte onder je bovenkastjes.',
+        pl: 'Ninja podaje 38,5 cm wysokości, 28 cm szerokości i 47 cm głębokości, przy wadze około 10 kg. Zostaw wolną przestrzeń wokół i nad urządzeniem na odprowadzanie gorącego powietrza oraz sprawdź wysokość pod szafkami wiszącymi.',
       },
     },
   ],

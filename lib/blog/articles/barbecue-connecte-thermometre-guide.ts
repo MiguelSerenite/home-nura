@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Carne y verduras asándose en una barbacoa mientras un cocinero las gira con pinzas',
         it: 'Carne e verdure sulla griglia di un barbecue, girate con una pinza da un cuoco',
         nl: 'Vlees en groenten op een barbecue, omgedraaid met een tang door een kok',
+        pl: 'Mięso i warzywa grillowane na grillu, obracane szczypcami przez kucharza',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Termómetro de carne inteligente 2026: guía completa para una barbacoa perfecta',
     it: 'Termometro per carne smart 2026: guida completa per un barbecue perfetto',
     nl: 'Slimme vleesthermometer 2026: complete gids voor de perfecte barbecue',
+    pl: 'Inteligentny termometr do mięsa 2026: kompletny poradnik do udanego grillowania',
   },
   excerpt: {
     fr: 'MEATER Pro, MEATER Plus, MEATER Pro XL, Inkbird IBT-4XS ou IBBQ-4BW : quel thermomètre à viande connecté choisir selon votre barbecue, le nombre de pièces et la portée dont vous avez besoin ? Critères, comparatif et températures de cuisson.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'MEATER Pro, MEATER Plus, MEATER Pro XL, Inkbird IBT-4XS o IBBQ-4BW: ¿qué termómetro de carne inteligente elegir según tu barbacoa, el número de piezas y el alcance que necesitas? Criterios, comparativa y temperaturas de cocción.',
     it: 'MEATER Pro, MEATER Plus, MEATER Pro XL, Inkbird IBT-4XS o IBBQ-4BW: quale termometro per carne smart scegliere in base al barbecue, al numero di pezzi e alla portata necessaria? Criteri, confronto e temperature al cuore.',
     nl: 'MEATER Pro, MEATER Plus, MEATER Pro XL, Inkbird IBT-4XS of IBBQ-4BW: welke slimme vleesthermometer past bij je barbecue, het aantal stukken en het bereik dat je nodig hebt? Koopcriteria, vergelijking en kerntemperaturen.',
+    pl: 'MEATER Pro, MEATER Plus, MEATER Pro XL, Inkbird IBT-4XS czy IBBQ-4BW: jaki inteligentny termometr do mięsa wybrać do swojego grilla, zależnie od liczby kawałków mięsa i potrzebnego zasięgu? Kryteria, porównanie i temperatury pieczenia.',
   },
   content: {
     fr: `<p>Le meilleur thermomètre à viande connecté pour la plupart des barbecues en 2026 est le <strong>MEATER Pro</strong> : une sonde 100 % sans fil, étanche, qui mesure à la fois le cœur de la viande et la température ambiante du grill. Si vous fumez plusieurs pièces en même temps ou cherchez un budget plus serré, un modèle filaire à 4 sondes comme l’<strong>Inkbird IBT-4XS</strong> est plus adapté.</p>
@@ -697,6 +700,115 @@ export const article: BlogArticle = {
 
 <h2>Conclusie</h2>
 <p>Voor de meeste barbecues is de <strong>MEATER Pro</strong> de meest complete keuze: draadloos, waterdicht, hittebestendig en uitstekend begeleid door de app. De <strong>MEATER Plus</strong> blijft een toegankelijke instap in draadloos als je vooral met gesloten deksel kookt. Voor roken en meerdere stukken tegelijk biedt de <strong>Inkbird IBT-4XS</strong> vier sondeaansluitingen voor een klein budget, en de <strong>IBBQ-4BW</strong> voegt wifi toe voor lange nachten. De <strong>MEATER Pro XL</strong> is voor wie vier sondes zonder enige kabel wil. Lees voor meer onze <a href="/nl/blog/guide-cuisine-connectee-2026">gids voor de slimme keuken</a>.</p>`,
+    pl: `<p>Najlepszym inteligentnym termometrem do mięsa dla większości grilli w 2026 roku jest <strong>MEATER Pro</strong>: w pełni bezprzewodowa, wodoodporna sonda, która mierzy zarówno temperaturę wewnątrz mięsa, jak i temperaturę otoczenia w grillu. Jeśli wędzisz kilka kawałków naraz albo szukasz tańszego rozwiązania, lepszy będzie przewodowy model z 4 sondami, taki jak <strong>Inkbird IBT-4XS</strong>.</p>
+<p>Ten poradnik porównuje pięć modeli sprzedawanych w Europie na podstawie kart katalogowych producentów, opublikowanych niezależnych testów i opinii zweryfikowanych kupujących. Pomaga wybrać zależnie od sposobu gotowania, a potem przypomina, jakie temperatury osiągać i jakich błędów unikać.</p>
+
+<h2>Po co inteligentny termometr przy grillu?</h2>
+<p>Przy grillu kolor skórki prawie nic nie mówi o stopniu wysmażenia w środku. Tylko <strong>temperatura wewnętrzna</strong> pokazuje, czy stek jest krwisty, czy kurczak jest bezpiecznie ugotowany i czy łopatka wieprzowa nadaje się już do szarpania. Inteligentny termometr przesyła tę temperaturę na smartfon w sposób ciągły:</p>
+<ul>
+<li><strong>Alerty:</strong> telefon ostrzega Cię, gdy mięso zbliża się do temperatury docelowej albo gdy temperatura w grillu zaczyna odbiegać od normy.</li>
+<li><strong>Szacowanie pozostałego czasu:</strong> aplikacje obliczają godzinę zakończenia na podstawie krzywej temperatury.</li>
+<li><strong>Gotowanie z podpowiedziami:</strong> wybierasz rodzaj mięsa i stopień wysmażenia, a aplikacja ustawia temperaturę docelową.</li>
+<li><strong>Historia:</strong> zachowujesz pełną krzywą, aby odtworzyć udane pieczenie.</li>
+</ul>
+<p>Największy zysk to przede wszystkim koniec z otwieraniem pokrywy co dziesięć minut: każde otwarcie obniża temperaturę grilla i wydłuża czas pieczenia.</p>
+
+<h2>Kryteria wyboru</h2>
+<h3>Sonda bezprzewodowa czy przewodowe</h3>
+<p><strong>Sondy bezprzewodowe</strong> (MEATER) to samodzielne pręty wbijane całkowicie w mięso. Żaden kabel nie przechodzi pod pokrywą, więc sprawdzają się przy zamkniętym grillu, w piekarniku lub na rożnie. W zamian każda sonda ma własny akumulator, a sygnał musi przejść przez metalową pokrywę.</p>
+<p><strong>Sondy przewodowe</strong> (Inkbird) są połączone kablem odpornym na ciepło z modułem stojącym obok grilla. Są tańsze w przeliczeniu na sondę, pozwalają śledzić kilka kawałków i temperaturę rusztu, ale kable trzeba starannie poprowadzić, a do rożna się nie nadają.</p>
+<h3>Bluetooth czy Wi-Fi</h3>
+<p>Bluetooth wystarczy, jeśli zostajesz w ogrodzie lub w pobliżu okna. Deklarowany zasięg zawsze jest mierzony na otwartej przestrzeni: zamknięta pokrywa, ściany i ciało człowieka wyraźnie go zmniejszają. Wi-Fi (Inkbird IBBQ-4BW, MEATER Pro XL) przekazuje dane przez domowy router i pozwala śledzić pieczenie z dowolnego pomieszczenia, a nawet zdalnie.</p>
+<h3>Liczba sond</h3>
+<p>Jedna sonda wystarczy do pieczeni lub dwóch antrykotów o tej samej grubości. Do wędzenia, gdy piecze się mostek wołowy i żeberka, albo gdy chcesz też monitorować temperaturę wędzarni, przygotuj 3 lub 4 sondy.</p>
+<h3>Odporność na ciepło i pielęgnacja</h3>
+<p>Sprawdź maksymalną temperaturę otoczenia, jaką wytrzyma sonda (czujnik z tyłu, wystawiony na działanie grilla), oraz czy nadaje się do zmywarki. Nowsze sondy MEATER (Pro, Pro XL) są wodoodporne i mają deklarowaną znacznie wyższą temperaturę otoczenia niż MEATER Plus.</p>
+
+<h2>5 inteligentnych termometrów do mięsa wartych uwagi w 2026 roku</h2>
+<h3>MEATER Pro: najlepszy wybór ogólny</h3>
+<p>MEATER Pro (na niektórych rynkach sprzedawany jako MEATER 2 Plus) to najbardziej dopracowana bezprzewodowa sonda tej marki. Według producenta ma pięć czujników wewnętrznych i jeden czujnik temperatury otoczenia, wykorzystuje Bluetooth dalekiego zasięgu (około 75 m na otwartej przestrzeni) i wytrzymuje bardzo wysoką temperaturę otoczenia, co pozwala obsmażać mięso na dużym ogniu. Jest wodoodporna i nadaje się do zmywarki.</p>
+<p><strong>Mocne strony:</strong> żadnych kabli, cienka sonda, która niewiele uszkadza mięso, rozbudowana aplikacja MEATER z gotowaniem z podpowiedziami i szacowaniem pozostałego czasu, a także możliwość użycia w piekarniku, we fryturze i w sous-vide.</p>
+<p><strong>Ograniczenia:</strong> tylko jedna sonda, a pełny zasięg zakłada niezbyt „opancerzony” grill. Aby śledzić pieczenie spoza domu, potrzebne jest drugie urządzenie z łącznością (funkcja MEATER Link/Cloud).</p>
+<p><strong>Dla kogo:</strong> do weekendowego grillowania, pieczeni i całych drobiów oraz dla wszystkich, którzy nie znoszą kabli.</p>
+
+<h3>MEATER Plus: najbardziej przystępny model bezprzewodowy</h3>
+<p>MEATER Plus to poprzednia generacja, nadal sprzedawana. Jego drewniana stacja ładująca działa jako przekaźnik Bluetooth i zwiększa deklarowany zasięg do 50 m. Sonda wytrzymuje do 275 °C po stronie otoczenia i 100 °C wewnątrz mięsa, a deklarowany czas pracy przekracza 24 godziny.</p>
+<p><strong>Mocne strony:</strong> ta sama aplikacja co w Pro, bardziej przystępna pozycja cenowa, duża baza użytkowników i opinii.</p>
+<p><strong>Ograniczenia:</strong> grubsza sonda, mniej odporna na bezpośredni ogień (maksymalnie 275 °C w otoczeniu), tylko jedna sonda.</p>
+<p><strong>Dla kogo:</strong> jako pierwszy termometr bezprzewodowy do pieczenia w zamkniętym grillu i w piekarniku.</p>
+
+<h3>MEATER Pro XL: cztery sondy bezprzewodowe i Wi-Fi</h3>
+<p>MEATER Pro XL łączy cztery sondy typu Pro w stacji ładującej, która pełni rolę przekaźnika Wi-Fi. Ma tryb autonomiczny z ekranem na stacji, przydatny, gdy smartfon jest poza zasięgiem. Marka deklaruje ponad 24 godziny pracy na jednym ładowaniu.</p>
+<p><strong>Mocne strony:</strong> cztery kawałki mięsa monitorowane bez żadnego kabla, podgląd z całego domu przez Wi-Fi.</p>
+<p><strong>Ograniczenia:</strong> model z wyższej półki, przewymiarowany, jeśli rzadko pieczesz więcej niż jeden kawałek.</p>
+<p><strong>Dla kogo:</strong> dla dużych rodzinnych spotkań i miłośników długiego pieczenia, którzy chcą w pełni bezprzewodowego rozwiązania.</p>
+
+<h3>Inkbird IBT-4XS: wielosondowy model o najlepszym stosunku jakości do ceny</h3>
+<p>Inkbird IBT-4XS to moduł Bluetooth z czterema gniazdami sond, z ekranem i magnesem z tyłu, który mocuje się do korpusu grilla. Inkbird podaje zakres od 0 do 300 °C w pomiarze krótkotrwałym (250 °C w sposób ciągły), dokładność ±1 °C i wbudowany akumulator. Liczba dołączonych sond różni się zależnie od zestawu.</p>
+<p><strong>Mocne strony:</strong> kilka kawałków mięsa i temperatura rusztu monitorowane jednocześnie, bardzo niski koszt na sondę, czytelny ekran, który działa bez telefonu.</p>
+<p><strong>Ograniczenia:</strong> tylko Bluetooth (deklarowany zasięg około 45 m na otwartej przestrzeni), kable do poprowadzenia, prostsza aplikacja niż MEATER.</p>
+<p><strong>Dla kogo:</strong> do wędzenia i dużych porcji, gdy zostajesz w pobliżu grilla.</p>
+
+<h3>Inkbird IBBQ-4BW: cztery sondy z Wi-Fi</h3>
+<p>IBBQ-4BW zachowuje zasadę przewodową, ale oprócz Bluetooth 5.1 dodaje Wi-Fi 2,4 GHz. Dostarczany jest z czterema sondami, mierzy od -30 do 300 °C i ma akumulator 2 500 mAh o deklarowanym czasie pracy co najmniej 24 godzin, ładowany przez USB-C. Oferuje alerty górnego i dolnego progu oraz gotowe profile pieczenia.</p>
+<p><strong>Mocne strony:</strong> podgląd z dowolnego miejsca dzięki Wi-Fi, idealny do wędzenia nocnego, cztery sondy w zestawie.</p>
+<p><strong>Ograniczenia:</strong> kable, Wi-Fi ograniczone do pasma 2,4 GHz, aplikacja funkcjonalna, ale mniej prowadząca użytkownika.</p>
+<p><strong>Dla kogo:</strong> do pieczenia trwającego od 8 do 14 godzin, gdy chcesz opuścić ogród.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Typ</th><th>Sondy</th><th>Łączność</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td>MEATER Pro</td><td>Bezprzewodowy</td><td>1</td><td>Bluetooth dalekiego zasięgu</td><td>Grillowanie, pieczenie, wszechstronność</td></tr>
+<tr><td>MEATER Plus</td><td>Bezprzewodowy</td><td>1</td><td>Bluetooth przez przekaźnik (deklarowane 50 m)</td><td>Pierwszy termometr bezprzewodowy</td></tr>
+<tr><td>MEATER Pro XL</td><td>Bezprzewodowy</td><td>4</td><td>Wi-Fi + Bluetooth</td><td>Kilka kawałków bez kabli</td></tr>
+<tr><td>Inkbird IBT-4XS</td><td>Przewodowy</td><td>Do 4</td><td>Bluetooth</td><td>Wędzenie przy niewielkim budżecie</td></tr>
+<tr><td>Inkbird IBBQ-4BW</td><td>Przewodowy</td><td>4</td><td>Wi-Fi 2,4 GHz + Bluetooth</td><td>Długie pieczenie zdalnie</td></tr>
+</tbody>
+</table>
+<p>Aby zobaczyć szczegółowe karty i opinie, przejdź do naszego <a href="/pl/cuisine-connectee/thermometres-viande">wyboru inteligentnych termometrów do mięsa</a>.</p>
+
+<h2>Temperatury wewnątrz mięsa: typowe wartości</h2>
+<table>
+<thead>
+<tr><th>Mięso</th><th>Wartość orientacyjna</th></tr>
+</thead>
+<tbody>
+<tr><td>Wołowina krwista (rare)</td><td>50–52 °C</td></tr>
+<tr><td>Wołowina średnio krwista (medium-rare)</td><td>54–57 °C</td></tr>
+<tr><td>Wołowina średnio wysmażona (medium)</td><td>60–63 °C</td></tr>
+<tr><td>Wieprzowina (polędwiczka, żeberka)</td><td>63 °C, potem odpoczynek</td></tr>
+<tr><td>Drób</td><td>74 °C w najgrubszym miejscu</td></tr>
+<tr><td>Mięso mielone (burgery)</td><td>71 °C</td></tr>
+<tr><td>Szarpana łopatka wieprzowa, wędzony mostek wołowy</td><td>90–96 °C</td></tr>
+</tbody>
+</table>
+<p>Zdejmij mięso 2–4 °C przed temperaturą docelową: temperatura rośnie jeszcze podczas odpoczynku. W przypadku drobiu i mięsa mielonego zawsze celuj w pełną temperaturę bezpieczną.</p>
+
+<h2>Wędzenie: podstawy</h2>
+<ul>
+<li><strong>Temperatura wędzarni:</strong> zazwyczaj między 107 a 135 °C przez cały czas pieczenia.</li>
+<li><strong>Plateau („stall”):</strong> przy około 65–75 °C wewnątrz mięsa temperatura może stać w miejscu przez kilka godzin z powodu parowania. To normalne; aby przejść ten etap, można owinąć kawałek w papier rzeźniczy lub folię aluminiową.</li>
+<li><strong>Odpoczynek:</strong> po długim pieczeniu zostaw owinięte mięso na 30–60 minut.</li>
+</ul>
+<p>Właśnie tutaj model z wieloma sondami pokazuje swoją wartość: jedna sonda śledzi temperaturę wędzarni, pozostałe monitorują każdy kawałek. Aby wybrać sam grill, zobacz nasze <a href="/pl/blog/grill-pellet-plancha-connecte-comparatif">porównanie grilli pelletowych i plancha z łącznością</a>.</p>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Złe umieszczenie sondy:</strong> celuj w środek najgrubszej części, z dala od kości i tłuszczu. W przypadku sondy MEATER wbij ją co najmniej do wskazanego oznaczenia, w przeciwnym razie elektronika się nagrzewa.</li>
+<li><strong>Wystawienie sondy bezprzewodowej na płomienie:</strong> przestrzegaj maksymalnej temperatury otoczenia dla danego modelu, zwłaszcza w przypadku MEATER Plus.</li>
+<li><strong>Przytrzaśnięcie kabli:</strong> kable przewodowe prowadź przez przewidziany otwór lub przepust, a nie pod pokrywą, która je zgniata.</li>
+<li><strong>Ślepe zaufanie deklarowanemu zasięgowi:</strong> przed długim pieczeniem sprawdź połączenie przy zamkniętej pokrywie, z miejsca, w którym będziesz przebywać.</li>
+<li><strong>Zapominanie o ładowaniu:</strong> naładuj sondy i moduł przed każdym nocnym wędzeniem.</li>
+</ul>
+
+<h2>Pielęgnacja</h2>
+<p>Czyść sondy po każdym użyciu. MEATER Pro i Pro XL według producenta nadają się do zmywarki; w przypadku sond przewodowych przetrzyj pręt i nigdy nie zanurzaj w wodzie złącza kabla z sondą. Od czasu do czasu sprawdź dokładność w szklance z lodowatą wodą (oczekiwane 0 °C).</p>
+
+<h2>Werdykt</h2>
+<p>Do większości grilli <strong>MEATER Pro</strong> to najbardziej kompletny wybór: bezprzewodowy, wodoodporny, odporny na ciepło i bardzo dobrze prowadzony przez aplikację. <strong>MEATER Plus</strong> pozostaje przystępnym wejściem w świat rozwiązań bezprzewodowych, jeśli piecesz głównie przy zamkniętej pokrywie. Do wędzenia i kilku kawałków jednocześnie <strong>Inkbird IBT-4XS</strong> daje cztery gniazda sond przy niewielkim budżecie, a <strong>IBBQ-4BW</strong> dodaje Wi-Fi na długie noce. <strong>MEATER Pro XL</strong> jest dla tych, którzy chcą czterech sond bez żadnego kabla. Aby zgłębić temat, przeczytaj nasz <a href="/pl/blog/guide-cuisine-connectee-2026">poradnik po inteligentnej kuchni</a>.</p>`,
   },
   faq: [
     {
@@ -707,6 +819,7 @@ export const article: BlogArticle = {
         es: '¿Funciona una sonda inalámbrica dentro de una barbacoa cerrada?',
         it: 'Una sonda wireless funziona in un barbecue chiuso?',
         nl: 'Werkt een draadloze sonde in een gesloten barbecue?',
+        pl: 'Czy termometr bezprzewodowy działa w zamkniętym grillu?',
       },
       answer: {
         fr: 'Oui, mais le couvercle métallique réduit la portée. Les MEATER récents utilisent un Bluetooth longue portée, et le MEATER Plus relaie le signal via son bloc de recharge posé près du barbecue.',
@@ -715,6 +828,7 @@ export const article: BlogArticle = {
         es: 'Sí, pero la tapa metálica reduce el alcance. Las MEATER recientes usan Bluetooth de largo alcance, y el MEATER Plus retransmite la señal mediante su base de carga colocada junto a la barbacoa.',
         it: 'Sì, ma il coperchio metallico riduce la portata. Le MEATER recenti usano un Bluetooth a lungo raggio, e il MEATER Plus ritrasmette il segnale tramite la base di ricarica posta vicino al barbecue.',
         nl: 'Ja, maar het metalen deksel verkleint het bereik. Recente MEATER-sondes gebruiken Bluetooth met groot bereik, en de MEATER Plus stuurt het signaal door via zijn laadblok naast de barbecue.',
+        pl: 'Tak, ale metalowa pokrywa zmniejsza zasięg. Nowsze MEATER wykorzystują Bluetooth dalekiego zasięgu, a MEATER Plus przekazuje sygnał przez stację ładującą ustawioną przy grillu.',
       },
     },
     {
@@ -725,6 +839,7 @@ export const article: BlogArticle = {
         es: '¿Cuántas sondas hacen falta para ahumar?',
         it: 'Quante sonde servono per affumicare?',
         nl: 'Hoeveel sondes heb je nodig om te roken?',
+        pl: 'Ile sond potrzeba do wędzenia?',
       },
       answer: {
         fr: 'Comptez une sonde par pièce, plus une pour la température du fumoir. Trois ou quatre sondes couvrent la plupart des cuissons, d’où l’intérêt de l’Inkbird IBT-4XS ou de l’IBBQ-4BW.',
@@ -733,6 +848,7 @@ export const article: BlogArticle = {
         es: 'Cuenta una sonda por pieza y otra para la temperatura del ahumador. Tres o cuatro sondas cubren la mayoría de cocciones, de ahí el interés del Inkbird IBT-4XS o del IBBQ-4BW.',
         it: 'Calcola una sonda per pezzo più una per la temperatura dell’affumicatore. Tre o quattro sonde coprono quasi tutte le cotture, per questo Inkbird IBT-4XS o IBBQ-4BW sono indicati.',
         nl: 'Reken op één sonde per stuk plus één voor de temperatuur van de smoker. Drie of vier sondes dekken de meeste bereidingen, vandaar de Inkbird IBT-4XS of IBBQ-4BW.',
+        pl: 'Policz jedną sondę na kawałek mięsa, plus jedną do temperatury wędzarni. Trzy lub cztery sondy wystarczają do większości pieczeń, stąd zalety Inkbird IBT-4XS lub IBBQ-4BW.',
       },
     },
     {
@@ -743,6 +859,7 @@ export const article: BlogArticle = {
         es: '¿Qué diferencia hay entre MEATER Pro y MEATER 2 Plus?',
         it: 'Che differenza c’è tra MEATER Pro e MEATER 2 Plus?',
         nl: 'Wat is het verschil tussen MEATER Pro en MEATER 2 Plus?',
+        pl: 'Czym różni się MEATER Pro od MEATER 2 Plus?',
       },
       answer: {
         fr: 'Il s’agit de la même génération de sonde, vendue sous l’un ou l’autre nom selon les pays et revendeurs. Vérifiez simplement qu’il s’agit bien de la sonde étanche de nouvelle génération.',
@@ -751,6 +868,7 @@ export const article: BlogArticle = {
         es: 'Es la misma generación de sonda, vendida con uno u otro nombre según el país y el vendedor. Basta con comprobar que se trata de la nueva sonda resistente al agua.',
         it: 'Si tratta della stessa generazione di sonda, venduta con l’uno o l’altro nome a seconda del paese e del rivenditore. Verifica solo che sia la nuova sonda impermeabile.',
         nl: 'Het is dezelfde generatie sonde, afhankelijk van land en verkoper onder de ene of de andere naam verkocht. Controleer alleen of het de nieuwe waterdichte sonde is.',
+        pl: 'To ta sama generacja sondy, sprzedawana pod jedną lub drugą nazwą zależnie od kraju i sprzedawcy. Upewnij się tylko, że chodzi o wodoodporną sondę nowej generacji.',
       },
     },
     {
@@ -761,6 +879,7 @@ export const article: BlogArticle = {
         es: '¿Se puede dejar una sonda MEATER sobre las llamas?',
         it: 'Si può lasciare una sonda MEATER sopra le fiamme?',
         nl: 'Mag een MEATER-sonde boven open vuur liggen?',
+        pl: 'Czy sondę MEATER można zostawić nad płomieniami?',
       },
       answer: {
         fr: 'Le MEATER Pro est conçu pour une chaleur ambiante très élevée et supporte la saisie. Le MEATER Plus est limité à 275 °C côté ambiant : préférez la cuisson indirecte et évitez le contact des flammes.',
@@ -769,6 +888,7 @@ export const article: BlogArticle = {
         es: 'El MEATER Pro está diseñado para un calor ambiente muy alto y admite sellar. El MEATER Plus se limita a 275 °C de ambiente: mejor cocción indirecta y sin contacto con las llamas.',
         it: 'Il MEATER Pro è progettato per un calore ambiente molto elevato e regge la scottatura. Il MEATER Plus è limitato a 275 °C ambiente: preferisci la cottura indiretta ed evita il contatto con le fiamme.',
         nl: 'De MEATER Pro is ontworpen voor zeer hoge omgevingshitte en kan dichtschroeien aan. De MEATER Plus is beperkt tot 275 °C omgeving: kies indirect garen en vermijd contact met vlammen.',
+        pl: 'MEATER Pro jest przeznaczony do bardzo wysokiej temperatury otoczenia i wytrzymuje obsmażanie. MEATER Plus ma limit 275 °C po stronie otoczenia: wybierz pieczenie pośrednie i unikaj kontaktu z płomieniami.',
       },
     },
     {
@@ -779,6 +899,7 @@ export const article: BlogArticle = {
         es: '¿Necesito Wi-Fi o basta con Bluetooth?',
         it: 'Serve il Wi-Fi o basta il Bluetooth?',
         nl: 'Heb ik wifi nodig of is Bluetooth genoeg?',
+        pl: 'Czy potrzebne jest Wi-Fi, czy wystarczy Bluetooth?',
       },
       answer: {
         fr: 'Le Bluetooth suffit si vous restez au jardin ou près de la maison. Pour une cuisson de nuit ou si vous sortez, un modèle Wi-Fi comme l’Inkbird IBBQ-4BW ou le MEATER Pro XL est plus confortable.',
@@ -787,6 +908,7 @@ export const article: BlogArticle = {
         es: 'El Bluetooth basta si te quedas en el jardín o cerca de casa. Para cocciones nocturnas o si sales, un modelo Wi-Fi como el Inkbird IBBQ-4BW o el MEATER Pro XL es más cómodo.',
         it: 'Il Bluetooth basta se resti in giardino o vicino a casa. Per cotture notturne o se esci, un modello Wi-Fi come l’Inkbird IBBQ-4BW o il MEATER Pro XL è più comodo.',
         nl: 'Bluetooth is genoeg als je in de tuin of bij het huis blijft. Voor nachtelijke bereidingen of als je weggaat, is een wifi-model zoals de Inkbird IBBQ-4BW of MEATER Pro XL handiger.',
+        pl: 'Bluetooth wystarczy, jeśli zostajesz w ogrodzie lub blisko domu. Przy nocnym pieczeniu lub gdy wychodzisz, wygodniejszy jest model z Wi-Fi, taki jak Inkbird IBBQ-4BW lub MEATER Pro XL.',
       },
     },
     {
@@ -797,6 +919,7 @@ export const article: BlogArticle = {
         es: '¿Cómo comprobar la precisión de un termómetro de carne?',
         it: 'Come verificare la precisione di un termometro per carne?',
         nl: 'Hoe controleer ik de nauwkeurigheid van een vleesthermometer?',
+        pl: 'Jak sprawdzić dokładność termometru do mięsa?',
       },
       answer: {
         fr: 'Plongez la pointe dans un verre rempli de glace pilée et d’eau, sans toucher les parois : la lecture doit être proche de 0 °C. Un écart important et persistant justifie de contacter le fabricant.',
@@ -805,6 +928,7 @@ export const article: BlogArticle = {
         es: 'Sumerge la punta en un vaso lleno de hielo picado y agua, sin tocar las paredes: la lectura debe acercarse a 0 °C. Una desviación grande y persistente justifica contactar con el fabricante.',
         it: 'Immergi la punta in un bicchiere pieno di ghiaccio tritato e acqua, senza toccare le pareti: la lettura deve essere vicina a 0 °C. Uno scarto ampio e costante giustifica il contatto con il produttore.',
         nl: 'Dompel de punt in een glas vol gemalen ijs en water, zonder de wand te raken: de waarde moet dicht bij 0 °C liggen. Bij een grote, blijvende afwijking neem je contact op met de fabrikant.',
+        pl: 'Zanurz końcówkę w szklance wypełnionej pokruszonym lodem i wodą, nie dotykając ścianek: odczyt powinien być bliski 0 °C. Duża i stała rozbieżność to powód, by skontaktować się z producentem.',
       },
     },
   ],

@@ -20,6 +20,7 @@ const LABELS: Record<string, { title: string; bottomTitle: string; button: strin
   es: { title: 'Los modelos citados en esta guía', bottomTitle: 'Nuestras recomendaciones', button: 'Ver en Amazon', disclosure: 'Enlaces de afiliado de Amazon: recibimos una comisión sin coste adicional para ti.' },
   it: { title: 'I modelli citati in questa guida', bottomTitle: 'Le nostre raccomandazioni', button: 'Vedi su Amazon', disclosure: 'Link di affiliazione Amazon: riceviamo una commissione senza costi aggiuntivi per te.' },
   nl: { title: 'De modellen uit deze gids', bottomTitle: 'Onze aanbevelingen', button: 'Bekijk op Amazon', disclosure: 'Amazon-affiliatelinks: wij ontvangen een commissie, zonder extra kosten voor jou.' },
+  pl: { title: 'Modele wymienione w tym poradniku', bottomTitle: 'Nasze rekomendacje', button: 'Zobacz na Amazon', disclosure: 'Linki afiliacyjne Amazon: otrzymujemy prowizję, bez dodatkowych kosztów dla Ciebie.' },
 }
 
 /**

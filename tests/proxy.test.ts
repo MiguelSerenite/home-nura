@@ -17,6 +17,7 @@
  *   5. HSTS includes preload + subdomains and a year-long max-age
  */
 
+import { LANGUAGES } from '@/lib/i18n'
 import { describe, it, expect } from 'vitest'
 import { NextRequest } from 'next/server'
 import { proxy as middleware } from '@/proxy'
@@ -200,7 +201,7 @@ describe('middleware locale routing', () => {
   })
 
   it('sends the dead /cuisine-connectee/airfryers hub to the air fryer guide in every locale', () => {
-    for (const lang of ['fr', 'en', 'de', 'es', 'it', 'nl']) {
+    for (const lang of LANGUAGES) {
       const request = new NextRequest(new URL(`http://localhost/${lang}/cuisine-connectee/airfryers`))
       const res = middleware(request) as Response
       expect(res.status, lang).toBe(301)

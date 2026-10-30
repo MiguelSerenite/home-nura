@@ -10,7 +10,7 @@ describe('problem guides', () => {
     expect(PROBLEM_GUIDE_SLUGS.length).toBeGreaterThanOrEqual(25)
   })
 
-  it('gives every guide a full structure in all 6 locales', () => {
+  it('gives every guide a full structure in every locale', () => {
     for (const slug of PROBLEM_GUIDE_SLUGS) {
       for (const lang of LANGUAGES) {
         const g = getProblemGuide(lang, slug)

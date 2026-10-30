@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Cerradura inteligente montada sobre el cilindro interior de una puerta y controlada desde una app del móvil',
         it: 'Serratura smart montata sul cilindro interno di una porta e comandata da un’app per smartphone',
         nl: 'Slim slot op de binnenkant van een deurcilinder, bediend via een smartphone-app',
+        pl: 'Inteligentny zamek założony na wewnętrzną część wkładki w drzwiach i sterowany z aplikacji w smartfonie',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Cerradura inteligente 2026: guía completa y los 6 mejores modelos para Europa',
     it: 'Serratura smart 2026: guida completa e i 6 migliori modelli per l’Europa',
     nl: 'Slim deurslot 2026: complete gids en de 6 beste modellen voor Europa',
+    pl: 'Inteligentny zamek 2026: kompletny poradnik i 6 najlepszych modeli dla Europy',
   },
   excerpt: {
     fr: 'Comment choisir une serrure connectée pour un cylindre européen en 2026 : compatibilité, Matter et Thread, alimentation, clavier à empreinte. Nuki, Tedee, Aqara, Yale et SwitchBot comparées sur fiches techniques et avis d’acheteurs.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Cómo elegir una cerradura inteligente para cilindro europeo en 2026: compatibilidad, Matter y Thread, alimentación, teclado con huella. Nuki, Tedee, Aqara, Yale y SwitchBot comparadas según fichas técnicas y opiniones de compradores.',
     it: 'Come scegliere una serratura smart per cilindro europeo nel 2026: compatibilità, Matter e Thread, alimentazione, tastierino con impronta. Nuki, Tedee, Aqara, Yale e SwitchBot a confronto su schede tecniche e opinioni degli acquirenti.',
     nl: 'Zo kies je in 2026 een slim slot voor een Europrofielcilinder: compatibiliteit, Matter en Thread, voeding, vingerafdrukklavier. Nuki, Tedee, Aqara, Yale en SwitchBot vergeleken op specificaties en ervaringen van kopers.',
+    pl: 'Jak wybrać inteligentny zamek do wkładki europejskiej w 2026 roku: kompatybilność, Matter i Thread, zasilanie, czytnik linii papilarnych. Nuki, Tedee, Aqara, Yale i SwitchBot porównane na podstawie specyfikacji i opinii kupujących.',
   },
   content: {
     fr: `<p><strong>La meilleure serrure connectée pour la plupart des portes européennes en 2026 est la Nuki Smart Lock Pro (5e génération)</strong> : elle se pose sur votre cylindre existant sans le changer, combine Wi-Fi, Bluetooth et Matter over Thread, et fonctionne sur batterie rechargeable. Pour un budget plus serré, la Nuki Smart Lock Go garde Wi-Fi et Matter ; si vous voulez un clavier à empreinte fourni d’office, l’Aqara Smart Lock U200 est la plus complète.</p>
@@ -553,6 +556,91 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p><strong>De Nuki Smart Lock Pro (5e generatie) is in 2026 het meest evenwichtige slimme slot</strong>: montage op de bestaande cilinder, ingebouwde wifi en Matter over Thread, een oplaadbare accu en een complete app. De <strong>Nuki Smart Lock Go</strong> biedt dezelfde basis in het instapsegment. De <strong>Aqara Smart Lock U200</strong> is de beste keuze als je meteen een vingerafdrukklavier wilt, de <strong>Tedee GO 2</strong> de meest discrete, de <strong>Yale Linus L2</strong> de eenvoudigste via wifi en de <strong>SwitchBot Lock Ultra</strong> gaat het langst mee per lading. Maak je voordeur compleet met onze gids over <a href="/nl/blog/sonnette-video-sans-abonnement">videodeurbellen zonder abonnement</a>.</p>`,
+    pl: `<p><strong>Najlepszy inteligentny zamek do większości europejskich drzwi w 2026 roku to Nuki Smart Lock Pro (5. generacji)</strong>: montuje się na istniejącej wkładce bez jej wymiany, łączy Wi-Fi, Bluetooth i Matter over Thread, a zasilany jest akumulatorem. Jeśli budżet jest ciaśniejszy, Nuki Smart Lock Go zachowuje Wi-Fi i Matter; jeśli zależy Ci na czytniku linii papilarnych w zestawie, najbardziej kompletny jest Aqara Smart Lock U200.</p>
+<p>Poradnik opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględnia wyłącznie modele sprzedawane w Europie w 2026 roku i zgodne z wkładkami o profilu europejskim. Cały wybór znajdziesz na stronie <a href="/pl/securite-maison/serrures-connectees">inteligentne zamki</a>.</p>
+
+<h2>Inteligentny zamek: jak działa w europejskich drzwiach?</h2>
+<p>W Europie kontynentalnej większość drzwi wejściowych ma zamek wpuszczany z <strong>wkładką o profilu europejskim</strong>. Przedstawione tu inteligentne zamki to modele „nakładkowe”: zmotoryzowana obudowa mocuje się od wewnątrz, na wkładce, i obraca klucz lub końcówkę za Ciebie. Od zewnątrz nic się nie zmienia, a Twój klucz nadal działa.</p>
+<p>Niektórzy producenci oferują też modele, które zastępują wkładkę (na przykład Nuki Smart Lock Ultra). Są bardziej kompaktowe i szybsze, ale wymagają wymiany jednego elementu zamka, co jest mniej wygodne w mieszkaniu wynajmowanym.</p>
+
+<h2>Kryteria dobrego wyboru</h2>
+<ul>
+<li><strong>Wkładka z funkcją awaryjną</strong>: to najczęściej pomijany punkt. Większość zamków nakładkowych wymaga wkładki, którą da się otworzyć z zewnątrz nawet wtedy, gdy od wewnątrz tkwi klucz (funkcja awaryjna). Bez niej możesz nie wejść do domu własnym kluczem. Sprawdź to u producenta wkładki albo zleć jej wymianę ślusarzowi.</li>
+<li><strong>Długość wkładki od strony wewnętrznej</strong>: musi wystawać z drzwi na tyle, aby zamocować na niej adapter. Każdy producent udostępnia narzędzie lub poradnik kompatybilności.</li>
+<li><strong>Łączność</strong>: Bluetooth do obsługi z bliska, wbudowane Wi-Fi lub bridge do dostępu zdalnego oraz <strong>Matter</strong>, aby sterować zamkiem z Apple Home, Google Home, Alexy lub SmartThings. Matter over Thread wymaga routera granicznego Thread (niektóre Apple TV, HomePod mini, nowsze głośniki Google lub Amazon).</li>
+<li><strong>Zasilanie</strong>: akumulator (do ładowania co kilka miesięcy) albo baterie (CR123 lub alkaliczne). Alert o niskim poziomie baterii w aplikacji jest niezbędny.</li>
+<li><strong>Klawiatura</strong>: klawiatura na kod lub z czytnikiem linii papilarnych, montowana na zewnątrz, pozwala otworzyć drzwi bez telefonu. W niektórych modelach jest w zestawie, w innych to opcja.</li>
+<li><strong>Drzwi wielopunktowe</strong>: przy zamku 3- lub 5-punktowym, który chodzi ciężko, postaw na mocny silnik i sprawdź, czy drzwi zamykają się bez wysiłku.</li>
+</ul>
+
+<h2>6 najlepszych inteligentnych zamków w 2026 roku</h2>
+
+<h3>1. Nuki Smart Lock Pro (5. generacji) — najlepszy wybór ogólny</h3>
+<p>Wprowadzona w marcu 2025 roku piąta generacja Smart Lock Pro przejmuje technologie Nuki Ultra w modelu, który montuje się na istniejącej wkładce. Ma wbudowane Wi-Fi, Bluetooth i Matter over Thread, bez dodatkowego bridge’a. Bezszczotkowy silnik oferuje trzy tryby, w tym szybki tryb deklarowany poniżej 1,5 sekundy oraz cichszy tryb „Gentle”.</p>
+<p><strong>Mocne strony</strong>: dostęp zdalny bez bridge’a; zgodność z Apple Home, Google Home, Alexą i Home Assistant przez Matter; ładowalny akumulator litowy (według Nuki ładowanie trwa około dwóch godzin); rozbudowana aplikacja z dostępami czasowymi, cyklicznymi i stałymi oraz historią zdarzeń; liczne akcesoria (Keypad 2 z czytnikiem linii papilarnych, czujnik drzwi).</p>
+<p><strong>Ograniczenia</strong>: dość duża obudowa od strony wewnętrznej; klawiatura sprzedawana osobno; wymagana wkładka z funkcją awaryjną.</p>
+<p><strong>Dla kogo</strong>: dla większości domów, które chcą trwałego zamka zgodnego ze wszystkimi dużymi ekosystemami, bez ingerencji we wkładkę.</p>
+
+<h3>2. Nuki Smart Lock Go — najlepszy stosunek jakości do ceny</h3>
+<p>Smart Lock Go to podstawowy model Nuki, który pojawił się razem z Pro 5. generacji. Zachowuje to, co najważniejsze: wbudowane Wi-Fi, Bluetooth i Matter over Thread, z tą samą aplikacją co droższe modele.</p>
+<p><strong>Mocne strony</strong>: jeden z najbardziej przystępnych sposobów na zamek z Matter i dostępem zdalnym; brak bridge’a do dokupienia; pełny ekosystem Nuki (udostępnianie dostępu, klawiatura, historia).</p>
+<p><strong>Ograniczenia</strong>: zasilanie bateriami alkalicznymi (opcjonalnie dostępny akumulatorowy Power Pack); mniej zaawansowany napęd niż w Pro; prostsze wykończenie.</p>
+<p><strong>Dla kogo</strong>: na pierwszy zakup, do mieszkania lub do wynajmu krótkoterminowego zarządzanego zdalnie.</p>
+
+<h3>3. Aqara Smart Lock U200 — najbardziej kompletny, z klawiaturą w zestawie</h3>
+<p>U200 łączy nakładkowy silnik od strony wewnętrznej z <strong>zewnętrzną klawiaturą w zestawie</strong>, wyposażoną w czytnik linii papilarnych, czytnik NFC i kod. Komunikuje się przez Bluetooth i Thread, z Matter over Thread, a do podstawowej obsługi nie potrzebuje huba Aqara. Dla mniejszych budżetów jest też wersja U200 Lite, bez klawiatury.</p>
+<p><strong>Mocne strony</strong>: klawiatura w zestawie, z czytnikiem linii papilarnych i kartą NFC; obsługa klucza w Apple Wallet (Home Key) przez NFC klawiatury; akumulator ładowany przez USB-C w silniku; zgodność z wkładkami europejskimi.</p>
+<p><strong>Ograniczenia</strong>: do dostępu zdalnego i zaawansowanych automatyzacji potrzebny jest router Thread lub hub Aqara; klawiatura działa na bateriach AAA (lub z zasilaniem przewodowym); montaż trwa nieco dłużej z powodu klawiatury.</p>
+<p><strong>Dla kogo</strong>: dla rodzin, które chcą otwierać drzwi bez telefonu, oraz użytkowników iPhone’a, którzy chcą klucza Apple.</p>
+
+<h3>4. Tedee GO 2 — najbardziej kompaktowy</h3>
+<p>Tedee, polska marka, słynie z bardzo kompaktowych zamków. GO 2 mocuje się trzema śrubami na adapterze wkładki, działa przez Bluetooth i obsługuje Matter over Thread. Tedee Bridge nadal przydaje się do integracji z chmurą i dostępu zdalnego poza Matter.</p>
+<p><strong>Mocne strony</strong>: dyskretny format; Matter over Thread bez bridge’a; automatyczne otwieranie i zamykanie, wirtualne klucze i historia; zgodność z klawiaturą Tedee Keypad PRO (linie papilarne i kod).</p>
+<p><strong>Ograniczenia</strong>: trzy baterie CR123 do wymiany, co według Tedee daje około sześciu miesięcy pracy (maksymalnie osiem); tylko do wkładek europejskich z płaskim kluczem i funkcją awaryjną.</p>
+<p><strong>Dla kogo</strong>: dla mieszkań i drzwi, w których duża obudowa przeszkadzałaby.</p>
+
+<h3>5. Yale Linus Smart Lock L2 — wybór uznanej marki</h3>
+<p>Linus L2 to nakładkowy zamek Yale do wkładek europejskich. Ma wbudowane Wi-Fi i po aktualizacji oprogramowania układowego obsługuje Matter over Wi-Fi, więc nie potrzeba bridge’a ani routera Thread. Dołączony czujnik DoorSense pokazuje, czy drzwi są naprawdę zamknięte.</p>
+<p><strong>Mocne strony</strong>: wbudowane Wi-Fi; zgodność z Apple Home, Google Home, Alexą i SmartThings przez Matter; DoorSense w zestawie; akumulator ładowany przez USB-C; rozbudowana sieć dystrybucji i serwisu.</p>
+<p><strong>Ograniczenia</strong>: deklarowana praca do około sześciu miesięcy; akumulator trzeba wyjąć, żeby go naładować; tańsza wersja L2 Lite nie ma Wi-Fi i do dostępu zdalnego wymaga bridge’a.</p>
+<p><strong>Dla kogo</strong>: dla tych, którzy chcą dużej marki z branży zamków i bezpośredniego połączenia Wi-Fi.</p>
+
+<h3>6. SwitchBot Lock Ultra — najbardziej wytrzymały</h3>
+<p>Lock Ultra to najnowszy nakładkowy zamek SwitchBot sprzedawany w Europie. Jest wyraźnie cieńszy od dawnego Lock Pro, ma akumulator 4200 mAh deklarowany na 9–12 miesięcy oraz zapasową baterię CR123A na wypadek, gdy główny akumulator jest rozładowany lub się ładuje.</p>
+<p><strong>Mocne strony</strong>: bardzo dobra deklarowana wytrzymałość baterii; szybki i cichy silnik według producenta; liczne sposoby otwierania z klawiaturami SwitchBot (kod, linie papilarne, NFC, a w niektórych modelach rozpoznawanie twarzy); szeroka zgodność z wkładkami.</p>
+<p><strong>Ograniczenia</strong>: Matter i Apple Home wymagają koniecznie huba SwitchBot zgodnego z Matter; brak natywnego Thread.</p>
+<p><strong>Dla kogo</strong>: dla domów, które mają już sprzęt SwitchBot, albo dla tych, którzy chcą ładować jak najrzadziej.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Łączność</th><th>Matter</th><th>Zasilanie</th><th>Klawiatura</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td>Nuki Smart Lock Pro (5. gen.)</td><td>Wi-Fi + Bluetooth + Thread</td><td>Tak, natywnie (Thread)</td><td>Akumulator</td><td>Opcja</td><td>Większości domów</td></tr>
+<tr><td>Nuki Smart Lock Go</td><td>Wi-Fi + Bluetooth + Thread</td><td>Tak, natywnie (Thread)</td><td>Baterie alkaliczne (Power Pack opcjonalnie)</td><td>Opcja</td><td>Rozsądny budżet</td></tr>
+<tr><td>Aqara Smart Lock U200</td><td>Bluetooth + Thread</td><td>Tak, natywnie (Thread)</td><td>Akumulator</td><td>W zestawie (linie papilarne, NFC, kod)</td><td>Otwieranie bez telefonu</td></tr>
+<tr><td>Tedee GO 2</td><td>Bluetooth + Thread</td><td>Tak, natywnie (Thread)</td><td>3 baterie CR123</td><td>Opcja</td><td>Kompaktowy format</td></tr>
+<tr><td>Yale Linus Smart Lock L2</td><td>Wi-Fi + Bluetooth</td><td>Tak, przez Wi-Fi</td><td>Akumulator</td><td>Opcja</td><td>Bezpośrednie Wi-Fi</td></tr>
+<tr><td>SwitchBot Lock Ultra</td><td>Bluetooth (+ hub)</td><td>Przez hub SwitchBot</td><td>Akumulator + bateria zapasowa</td><td>Opcja</td><td>Długa praca na jednym ładowaniu</td></tr>
+</tbody>
+</table>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Zakup bez sprawdzenia wkładki</strong>: bez funkcji awaryjnej klucz od zewnątrz może zablokować się na adapterze. To pierwsza przyczyna zwrotów.</li>
+<li><strong>Liczenie na Matter bez routera Thread</strong>: modele Matter over Thread potrzebują routera granicznego zgodnego z Twoim ekosystemem.</li>
+<li><strong>Zapominanie o ładowaniu</strong>: włącz powiadomienia o niskim poziomie baterii i miej przy sobie fizyczny klucz lub zostaw go u bliskiej osoby.</li>
+<li><strong>Przyklejanie na brudnych drzwiach</strong>: w modelach na taśmę klejącą oczyść powierzchnię przed montażem i zachowaj podany czas schnięcia.</li>
+<li><strong>Włączanie automatycznego otwierania bez regulacji</strong>: otwieranie przy zbliżaniu się wymaga dokładnego ustawienia; zacznij od powiadomienia z potwierdzeniem.</li>
+</ul>
+
+<h2>Montaż, wynajem i bezpieczeństwo</h2>
+<p>Wszystkie sześć modeli montuje się od wewnątrz, w większości bez wiercenia w drzwiach, i można je zdjąć bez śladu, więc zwykle nadają się do wynajmowanego mieszkania. Mimo to poinformuj właściciela lub zarządcę budynku, zwłaszcza jeśli na zewnątrz ma zostać zamocowana klawiatura.</p>
+<p>Pod względem bezpieczeństwa inteligentny zamek nie zwiększa mechanicznej odporności drzwi: przy próbie włamania liczą się wkładka i zamek. W drzwiach wejściowych dobrą podstawą pozostaje certyfikowana wkładka (na przykład A2P we Francji). Pod względem cyfrowym wybierz markę, która regularnie publikuje aktualizacje, włącz uwierzytelnianie dwuskładnikowe na koncie i odbieraj dostęp gościom, którzy już go nie potrzebują. Aby dowiedzieć się więcej, przeczytaj nasz <a href="/pl/blog/guide-securite-maison-connectee-2026">poradnik bezpieczeństwa inteligentnego domu</a>.</p>
+
+<h2>Nasz werdykt</h2>
+<p><strong>Nuki Smart Lock Pro (5. generacji) to najlepiej wyważony inteligentny zamek w 2026 roku</strong>: montaż na istniejącej wkładce, wbudowane Wi-Fi i Matter over Thread, akumulator i rozbudowana aplikacja. <strong>Nuki Smart Lock Go</strong> oferuje te same podstawy w cenie modelu podstawowego. <strong>Aqara Smart Lock U200</strong> to najlepsza opcja, jeśli od początku chcesz mieć klawiaturę z czytnikiem linii papilarnych, <strong>Tedee GO 2</strong> jest najbardziej dyskretny, <strong>Yale Linus L2</strong> najprostszy w obsłudze przez Wi-Fi, a <strong>SwitchBot Lock Ultra</strong> najbardziej wytrzymały. Aby uzupełnić wyposażenie wejścia, zobacz nasz poradnik o <a href="/pl/blog/sonnette-video-sans-abonnement">dzwonkach wideo bez abonamentu</a>.</p>`,
   },
   faq: [
     {
@@ -563,6 +651,7 @@ export const article: BlogArticle = {
         es: '¿Es compatible mi puerta con una cerradura inteligente?',
         it: 'La mia porta è compatibile con una serratura smart?',
         nl: 'Is mijn deur geschikt voor een slim slot?',
+        pl: 'Czy moje drzwi są zgodne z inteligentnym zamkiem?',
       },
       answer: {
         fr: 'Dans la plupart des cas, oui, si votre porte a un cylindre à profil européen. Vérifiez deux points : le cylindre doit dépasser assez côté intérieur, et il doit avoir une fonction de secours (ouverture possible de l’extérieur avec une clé engagée à l’intérieur). Les fabricants proposent des outils de compatibilité en ligne.',
@@ -571,6 +660,7 @@ export const article: BlogArticle = {
         es: 'En la mayoría de los casos, sí, si tu puerta tiene un cilindro de perfil europeo. Comprueba dos cosas: el cilindro debe sobresalir lo suficiente por dentro y tener función de emergencia (se abre desde fuera aunque haya una llave puesta por dentro). Los fabricantes ofrecen comprobadores de compatibilidad en línea.',
         it: 'Nella maggior parte dei casi sì, se la porta ha un cilindro a profilo europeo. Verificate due cose: il cilindro deve sporgere abbastanza all’interno e avere la funzione di emergenza (si apre dall’esterno anche con una chiave inserita dentro). I produttori offrono strumenti di compatibilità online.',
         nl: 'Meestal wel, als je deur een Europrofielcilinder heeft. Controleer twee dingen: de cilinder moet binnen ver genoeg uitsteken en een noodfunctie hebben (hij gaat van buitenaf open, ook als er binnen een sleutel in zit). Fabrikanten bieden online compatibiliteitschecks.',
+        pl: 'W większości przypadków tak, jeśli drzwi mają wkładkę o profilu europejskim. Sprawdź dwie rzeczy: wkładka musi wystawać wystarczająco od strony wewnętrznej i mieć funkcję awaryjną (możliwość otwarcia z zewnątrz kluczem, gdy od wewnątrz tkwi klucz). Producenci udostępniają internetowe narzędzia do sprawdzania kompatybilności.',
       },
     },
     {
@@ -581,6 +671,7 @@ export const article: BlogArticle = {
         es: '¿Puedo instalar una cerradura inteligente en un piso de alquiler?',
         it: 'Posso installare una serratura smart in una casa in affitto?',
         nl: 'Kan ik een slim slot plaatsen in een huurwoning?',
+        pl: 'Czy inteligentny zamek można zamontować w mieszkaniu wynajmowanym?',
       },
       answer: {
         fr: 'Généralement oui. Les modèles à rétrofit se posent côté intérieur, sur le cylindre existant, souvent sans percer, et se retirent sans trace. Prévenez tout de même votre propriétaire, surtout si un clavier doit être fixé à l’extérieur. Les modèles qui remplacent le cylindre sont moins adaptés à la location.',
@@ -589,6 +680,7 @@ export const article: BlogArticle = {
         es: 'Normalmente sí. Los modelos de adaptación se colocan por dentro, sobre el cilindro existente, a menudo sin taladrar, y se retiran sin dejar marcas. Aun así, avisa al casero, sobre todo si hay que fijar un teclado en el exterior. Los modelos que sustituyen el cilindro son menos adecuados para alquiler.',
         it: 'In genere sì. I modelli retrofit si montano all’interno, sul cilindro esistente, spesso senza forare, e si rimuovono senza lasciare segni. Avvisate comunque il proprietario, soprattutto se va fissato un tastierino esterno. I modelli che sostituiscono il cilindro sono meno adatti all’affitto.',
         nl: 'Meestal wel. Retrofitmodellen komen binnen op de bestaande cilinder, vaak zonder boren, en zijn spoorloos te verwijderen. Laat het je verhuurder wel weten, zeker als er buiten een klavier komt. Modellen die de cilinder vervangen zijn minder geschikt voor huurders.',
+        pl: 'Zazwyczaj tak. Modele nakładkowe montuje się od wewnątrz, na istniejącej wkładce, często bez wiercenia, i zdejmuje się je bez śladu. Mimo to uprzedź właściciela, zwłaszcza jeśli na zewnątrz ma zostać zamocowana klawiatura. Modele, które zastępują wkładkę, są mniej odpowiednie do wynajmu.',
       },
     },
     {
@@ -599,6 +691,7 @@ export const article: BlogArticle = {
         es: '¿Qué pasa si se agota la batería?',
         it: 'Cosa succede se la batteria si scarica?',
         nl: 'Wat gebeurt er als de batterij leeg is?',
+        pl: 'Co się stanie, gdy bateria się rozładuje?',
       },
       answer: {
         fr: 'Vous ouvrez avec votre clé physique, qui reste utilisable de l’extérieur avec un cylindre à fonction de secours. Les applications préviennent bien avant que la batterie soit vide. La SwitchBot Lock Ultra ajoute une pile de secours CR123A.',
@@ -607,6 +700,7 @@ export const article: BlogArticle = {
         es: 'Abres con tu llave física, que sigue funcionando desde fuera con un cilindro con función de emergencia. Las apps avisan con antelación antes de que se agote la batería. La SwitchBot Lock Ultra añade una pila CR123A de respaldo.',
         it: 'Aprite con la chiave fisica, che resta utilizzabile dall’esterno con un cilindro dotato di funzione di emergenza. Le app avvisano con largo anticipo prima che la batteria si scarichi. La SwitchBot Lock Ultra aggiunge una pila CR123A di riserva.',
         nl: 'Je opent met je fysieke sleutel, die met een cilinder met noodfunctie van buitenaf blijft werken. De apps waarschuwen ruim voordat de batterij leeg is. De SwitchBot Lock Ultra heeft daarnaast een CR123A-reservebatterij.',
+        pl: 'Otwierasz drzwi fizycznym kluczem, który nadal działa od zewnątrz przy wkładce z funkcją awaryjną. Aplikacje ostrzegają na długo przed całkowitym rozładowaniem baterii. SwitchBot Lock Ultra ma dodatkowo zapasową baterię CR123A.',
       },
     },
     {
@@ -617,6 +711,7 @@ export const article: BlogArticle = {
         es: '¿Necesito un router Thread para usar Matter?',
         it: 'Serve un router Thread per usare Matter?',
         nl: 'Heb ik een Thread-router nodig voor Matter?',
+        pl: 'Czy do Matter potrzebny jest router Thread?',
       },
       answer: {
         fr: 'Pour les modèles Matter over Thread (Nuki Pro et Go, Tedee GO 2, Aqara U200), oui : un routeur de bordure Thread compatible avec votre écosystème est nécessaire. Le Yale Linus L2 passe par le Wi-Fi, et la SwitchBot Lock Ultra par un hub SwitchBot compatible Matter.',
@@ -625,6 +720,7 @@ export const article: BlogArticle = {
         es: 'Para los modelos Matter over Thread (Nuki Pro y Go, Tedee GO 2, Aqara U200), sí: necesitas un router de borde Thread compatible con tu ecosistema. La Yale Linus L2 usa Wi-Fi y la SwitchBot Lock Ultra pasa por un hub SwitchBot compatible con Matter.',
         it: 'Per i modelli Matter over Thread (Nuki Pro e Go, Tedee GO 2, Aqara U200) sì: serve un border router Thread compatibile con il vostro ecosistema. La Yale Linus L2 usa il Wi-Fi, mentre la SwitchBot Lock Ultra passa da un hub SwitchBot compatibile Matter.',
         nl: 'Voor modellen met Matter over Thread (Nuki Pro en Go, Tedee GO 2, Aqara U200) wel: je hebt een Thread-borderrouter nodig die bij je ecosysteem past. De Yale Linus L2 werkt via wifi en de SwitchBot Lock Ultra via een SwitchBot-hub met Matter.',
+        pl: 'W modelach Matter over Thread (Nuki Pro i Go, Tedee GO 2, Aqara U200) tak: potrzebny jest router graniczny Thread zgodny z Twoim ekosystemem. Yale Linus L2 korzysta z Wi-Fi, a SwitchBot Lock Ultra z huba SwitchBot zgodnego z Matter.',
       },
     },
     {
@@ -635,6 +731,7 @@ export const article: BlogArticle = {
         es: '¿Funciona una cerradura inteligente sin internet?',
         it: 'Una serratura smart funziona senza internet?',
         nl: 'Werkt een slim slot zonder internet?',
+        pl: 'Czy inteligentny zamek działa bez internetu?',
       },
       answer: {
         fr: 'Oui, en local. Le Bluetooth permet d’ouvrir avec votre téléphone à proximité, et les claviers fonctionnent sans connexion. Internet sert à l’accès à distance, aux notifications, à la synchronisation de l’historique et aux mises à jour.',
@@ -643,6 +740,7 @@ export const article: BlogArticle = {
         es: 'Sí, en local. El Bluetooth permite abrir con el móvil cerca de la puerta y los teclados funcionan sin conexión. Internet se necesita para el acceso remoto, las notificaciones, la sincronización del historial y las actualizaciones.',
         it: 'Sì, in locale. Il Bluetooth permette di aprire con il telefono nelle vicinanze e i tastierini funzionano senza connessione. Internet serve per l’accesso remoto, le notifiche, la sincronizzazione della cronologia e gli aggiornamenti.',
         nl: 'Ja, lokaal. Via Bluetooth open je de deur met je telefoon in de buurt, en klavieren werken zonder verbinding. Internet is nodig voor toegang op afstand, meldingen, het synchroniseren van het logboek en updates.',
+        pl: 'Tak, lokalnie. Bluetooth pozwala otworzyć drzwi telefonem znajdującym się w pobliżu, a klawiatury działają bez połączenia. Internet jest potrzebny do dostępu zdalnego, powiadomień, synchronizacji historii i aktualizacji.',
       },
     },
     {
@@ -653,6 +751,7 @@ export const article: BlogArticle = {
         es: '¿Es más fácil forzar una cerradura inteligente?',
         it: 'Una serratura smart è più facile da forzare?',
         nl: 'Is een slim slot makkelijker te kraken?',
+        pl: 'Czy inteligentny zamek ułatwia włamanie?',
       },
       answer: {
         fr: 'Non, la résistance à l’effraction dépend toujours du cylindre et de la serrure, que le module ne modifie pas. Côté numérique, choisissez une marque qui publie des mises à jour, protégez votre compte par double authentification et supprimez les accès inutiles.',
@@ -661,6 +760,7 @@ export const article: BlogArticle = {
         es: 'No. La resistencia al robo sigue dependiendo del cilindro y de la cerradura, que el módulo no modifica. En lo digital, elige una marca con actualizaciones, protege tu cuenta con verificación en dos pasos y elimina los accesos que ya no uses.',
         it: 'No. La resistenza allo scasso dipende sempre da cilindro e serratura, che il modulo non modifica. Sul piano digitale scegliete un marchio che rilascia aggiornamenti, proteggete l’account con l’autenticazione a due fattori ed eliminate gli accessi inutili.',
         nl: 'Nee. De inbraakwerendheid hangt nog steeds af van de cilinder en het slot, die de motorunit niet verandert. Kies digitaal een merk dat updates uitbrengt, beveilig je account met tweestapsverificatie en verwijder toegang die je niet meer nodig hebt.',
+        pl: 'Nie, odporność na włamanie nadal zależy od wkładki i zamka, których moduł nie zmienia. Pod względem cyfrowym wybierz markę publikującą aktualizacje, zabezpiecz konto uwierzytelnianiem dwuskładnikowym i usuwaj zbędne dostępy.',
       },
     },
   ],

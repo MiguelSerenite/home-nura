@@ -173,6 +173,22 @@ const uiStrings: Record<Lang, ProblemUi> = {
     relatedProblemsTitle: 'Andere veelvoorkomende storingen in deze categorie',
     relatedProblemsSubtitle: 'Deze incidenten treffen hetzelfde type apparaat — diagnose en aanbevolen procedure per probleem.',
   },
+  pl: {
+    home: 'Strona główna',
+    troubleshooting: 'Rozwiązywanie problemów',
+    diagnosisTitle: 'Diagnoza',
+    quickFixTitle: 'Zalecana procedura',
+    causesTitle: 'Możliwe przyczyny',
+    repairOrReplaceTitle: 'Naprawić czy wymienić?',
+    repairOrReplaceFallback: 'Jeśli usterka nie ustępuje po tych sprawdzeniach, a urządzenie nie jest już objęte gwarancją, porównaj kosztorys naprawy z ceną nowego modelu.',
+    buyBoxKicker: 'Jeśli wymieniasz',
+    buyBoxQuestion: (t) => `${t}: modele wybrane w naszym poradniku zakupowym`,
+    buyBoxGuideCta: 'Czytaj pełny poradnik zakupowy',
+    faqTitle: 'Najczęstsze pytania',
+    methodologyCta: 'Przeczytaj naszą metodologię',
+    relatedProblemsTitle: 'Inne częste awarie w tej kategorii',
+    relatedProblemsSubtitle: 'Te usterki dotyczą tego samego typu urządzenia — diagnoza i zalecana procedura dla każdej z nich.',
+  },
 }
 
 const severityStyles: Record<'minor' | 'moderate' | 'critical', string> = {
