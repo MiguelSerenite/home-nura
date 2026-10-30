@@ -3,10 +3,12 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { useState, useEffect, useRef } from 'react'
+import { usePathname } from 'next/navigation'
 import SearchBar from './SearchBar'
 import { Shield, Sparkles, Trees, Wind, Zap } from 'lucide-react'
+import { switchLocalePath, type Lang } from '@/lib/i18n'
 
-const countries = [
+const countries: ReadonlyArray<{ code: Lang; flag: string; label: string; name: string }> = [
   { code: 'fr', flag: '🇫🇷', label: 'FR', name: 'Français' },
   { code: 'de', flag: '🇩🇪', label: 'DE', name: 'Deutsch' },
   { code: 'en', flag: '🇬🇧', label: 'UK', name: 'English' },
@@ -56,6 +58,8 @@ const silos = [
 
 export default function Navbar({ currentLang }: { currentLang: string }) {
   const lang = currentLang
+  // The language switcher keeps the reader on the same page.
+  const pathname = usePathname()
   const [isOpen, setIsOpen] = useState(false)
   const [maisonOpen, setMaisonOpen] = useState(false)
   const [langOpen, setLangOpen] = useState(false)
@@ -197,7 +201,8 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
                 {countries.map((c) => (
                   <Link
                     key={c.code}
-                    href={`/${c.code}`}
+                    href={switchLocalePath(pathname, c.code)}
+                    hrefLang={c.code}
                     onClick={() => { rememberLocale(c.code); setLangOpen(false) }}
                     className={`flex items-center gap-2.5 px-4 py-2 text-[13px] transition-colors ${
                       lang === c.code
@@ -307,7 +312,8 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
                   {countries.map((c) => (
                     <Link
                       key={c.code}
-                      href={`/${c.code}`}
+                      href={switchLocalePath(pathname, c.code)}
+                      hrefLang={c.code}
                       onClick={() => { rememberLocale(c.code); close() }}
                       className={`flex items-center justify-center gap-1.5 py-2.5 rounded-xl border text-sm font-semibold transition-colors ${
                         lang === c.code

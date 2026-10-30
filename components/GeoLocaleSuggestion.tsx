@@ -2,7 +2,7 @@
 
 import { useState, useSyncExternalStore } from 'react'
 import { usePathname } from 'next/navigation'
-import { COUNTRY_COOKIE, suggestLocaleForCountry, type Lang } from '@/lib/i18n'
+import { COUNTRY_COOKIE, suggestLocaleForCountry, switchLocalePath, type Lang } from '@/lib/i18n'
 
 const DISMISS_COOKIE = 'hn_geo_dismissed'
 const DISMISS_MAX_AGE = 60 * 60 * 24 * 30 // 30 days
@@ -42,7 +42,7 @@ export default function GeoLocaleSuggestion({ lang }: { lang: string }) {
 
   if (!suggested || dismissed) return null
   const copy = COPY[suggested]
-  const target = `/${suggested}${pathname.replace(/^\/[a-z]{2}(?=\/|$)/, '')}`
+  const target = switchLocalePath(pathname, suggested)
 
   const dismiss = () => {
     document.cookie = `${DISMISS_COOKIE}=1;path=/;max-age=${DISMISS_MAX_AGE};SameSite=Lax`
