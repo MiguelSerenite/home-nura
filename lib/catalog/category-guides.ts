@@ -4,6 +4,7 @@ import { getQuickAnswer } from '@/lib/blog/quick-answers'
 import type { Lang } from '@/lib/i18n'
 import type { ProductPhoto } from '@/lib/product-photo'
 import type { Category } from './types'
+import { getCategoryHead } from './category-heads'
 import { lowerFirst } from './content'
 
 /**
@@ -205,33 +206,22 @@ const TEMPLATES: Record<Lang, Templates> = {
     generic: (t) => `${t} 2026: jak wybrać, najważniejsze kryteria zakupu, błędy, których warto unikać, i odpowiedzi na najczęstsze pytania.`,
   },
 }
-
-/**
- * Hand-written hub titles for Search Console queries the template misses
- * (e.g. "motion sensor price comparison", 800+ impressions in 28 days on
- * the English hub). They name models and where to buy them, so they only
- * apply when the hub shows picks with Amazon links.
- */
-export const CATEGORY_SEO_TITLES: Readonly<Record<string, Partial<Record<Lang, string>>>> = {
-  'detecteurs-mouvement': {
-    en: 'Motion Sensor Comparison 2026: Models & Where to Buy',
-  },
-}
-
 /** SEO title (without brand suffix) and description for a category hub. */
 export function buildCategorySeo(
   category: Category,
   lang: Lang,
   pickNames: readonly string[],
 ): { title: string; description: string } {
+  // A head written for this market wins over the translated template.
+  const head = getCategoryHead(category.slug, lang)
+  if (head) return { title: head.title, description: head.description }
   const tpl = TEMPLATES[lang]
   const title = category.title[lang]
   const hasPicks = pickNames.length >= 2
   // The first title variant promises "our picks": only use it when the
   // page actually shows some.
   const titles = tpl.titles(title).slice(hasPicks ? 0 : 1)
-  const override = hasPicks ? CATEGORY_SEO_TITLES[category.slug]?.[lang] : undefined
-  const fittedTitle = override ?? titles.find((t) => t.length <= TITLE_MAX) ?? titles[titles.length - 1]
+  const fittedTitle = titles.find((t) => t.length <= TITLE_MAX) ?? titles[titles.length - 1]
 
   // Richest snippet first: 3 names with the full sentence, then fewer
   // names, then the short sentence, then the generic copy.

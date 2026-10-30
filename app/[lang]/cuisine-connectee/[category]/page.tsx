@@ -23,6 +23,7 @@ import { productKicker } from '@/lib/product-types'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import { resolveLang, LANGUAGES } from '@/lib/i18n'
 import { ChevronRight } from 'lucide-react'
+import { getCategoryHead } from '@/lib/catalog/category-heads'
 
 
 interface CategoryContent {
@@ -393,11 +394,12 @@ export async function generateMetadata({
   }
   const safeCat = category as SmartKitchenCategory
   const c = (categoryContent[safeLang] || categoryContent.fr)[safeCat]
+  const head = getCategoryHead(safeCat, safeLang)
   return buildPageMetadata({
     lang: safeLang,
     path: `/cuisine-connectee/${safeCat}`,
-    title: `${c.title} | Home Nura`,
-    description: c.intro,
+    title: `${head?.title ?? c.title} | Home Nura`,
+    description: head?.description ?? c.intro,
   })
 }
 
@@ -413,6 +415,7 @@ export default async function CategoryPage({
   }
   const safeCat = category as SmartKitchenCategory
   const c = (categoryContent[safeLang] || categoryContent.fr)[safeCat]
+  const head = getCategoryHead(safeCat, safeLang)
   const products = getSmartKitchenProductsByCategory(safeLang, safeCat)
   const faqs = getSmartKitchenFaqs(safeLang, safeCat)
   const faqTitle = faqSectionTitles[safeLang] || faqSectionTitles.fr
@@ -513,7 +516,7 @@ export default async function CategoryPage({
       {/* Hero */}
       <SectionHero
         kicker={c.kicker}
-        title={c.title}
+        title={head?.h1 ?? c.title}
         subtitle={c.subtitle}
         intro={c.intro}
       />
