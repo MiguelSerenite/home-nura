@@ -55,6 +55,15 @@ export function switchLocalePath(pathname: string | null | undefined, target: La
   return `/${target}${rest}`
 }
 
+/**
+ * True when `pathname` is the home page of `lang` (`/fr`, `/fr/`). The
+ * Navbar logo uses it: a link to the page you are already on does nothing
+ * visible, so on the home page the logo scrolls back to the top instead.
+ */
+export function isLocaleHome(pathname: string | null | undefined, lang: string): boolean {
+  return !!pathname && pathname.replace(/\/+$/, '') === `/${lang}`
+}
+
 /** Vercel geo country (ISO 3166-1 alpha-2) → the locale whose Amazon store serves it. */
 export const COUNTRY_TO_LANG: Record<string, Lang> = {
   FR: 'fr', BE: 'fr', LU: 'fr', MC: 'fr', CH: 'fr',
