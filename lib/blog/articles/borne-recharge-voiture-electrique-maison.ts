@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Coche eléctrico cargando en un cargador de pared instalado en la fachada de una casa',
         it: 'Auto elettrica in ricarica da una wallbox montata sulla facciata di una casa',
         nl: 'Elektrische auto die laadt aan een laadpaal aan de gevel van een woning',
+        pl: 'Samochód elektryczny ładowany z ładowarki ściennej zamontowanej na fasadzie domu',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Mejor cargador de coche eléctrico para casa 2026: 6 wallbox inteligentes',
     it: 'Migliore wallbox per casa 2026: 6 colonnine di ricarica smart a confronto',
     nl: 'Beste laadpaal voor thuis 2026: 6 slimme wallboxen vergeleken',
+    pl: 'Ładowarka do samochodu elektrycznego do domu 2026: 6 najlepszych wallboxów z aplikacją',
   },
   excerpt: {
     fr: 'Wallbox Pulsar Max, Easee Charge Lite, Zaptec Go 2, Hager witty one, Schneider EVlink Pro AC et ABB Terra AC : comparatif des bornes de recharge domestiques, de 7,4 à 22 kW, avec équilibrage de charge, recharge solaire, RFID et OCPP.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Wallbox Pulsar Max, Easee Charge Lite, Zaptec Go 2, Hager witty one, Schneider EVlink Pro AC y ABB Terra AC: comparativa de cargadores domésticos de 7,4 a 22 kW con balanceo de carga, carga solar, RFID y OCPP.',
     it: 'Wallbox Pulsar Max, Easee Charge Lite, Zaptec Go 2, Hager witty one, Schneider EVlink Pro AC e ABB Terra AC: confronto tra wallbox domestiche da 7,4 a 22 kW con bilanciamento dei carichi, ricarica solare, RFID e OCPP.',
     nl: 'Wallbox Pulsar Max, Easee Charge Lite, Zaptec Go 2, Hager witty one, Schneider EVlink Pro AC en ABB Terra AC: thuisladers van 7,4 tot 22 kW vergeleken, met load balancing, laden op zonne-overschot, RFID en OCPP.',
+    pl: 'Wallbox Pulsar Max, Easee Charge Lite, Zaptec Go 2, Hager witty one, Schneider EVlink Pro AC i ABB Terra AC: porównanie domowych ładowarek (wallbox) od 7,4 do 22 kW z równoważeniem obciążenia, ładowaniem solarnym, RFID i OCPP.',
   },
   content: {
     fr: `<p><strong>Pour la plupart des foyers européens, la meilleure borne de recharge connectée en 2026 est la Wallbox Pulsar Max : compacte, disponible en 7,4, 11 et 22 kW, pilotable en Wi-Fi et Bluetooth, compatible OCPP et capable d’équilibrer la charge ou de rouler au solaire avec son compteur dédié.</strong> Si vous cherchez un modèle plus abordable avec badge RFID et connexion cellulaire intégrée, l’Easee Charge Lite est le meilleur rapport qualité-prix, tandis que la Zaptec Go 2 vise ceux qui veulent du 22 kW, un écran et un compteur certifié MID dans un boîtier minuscule.</p>
@@ -643,6 +646,106 @@ export const article: BlogArticle = {
 
 <h2>Conclusie</h2>
 <p>De <strong>Wallbox Pulsar Max</strong> is de makkelijkst aan te raden laadpaal: compact, in elk vermogen verkrijgbaar, open dankzij OCPP en uitbreidbaar met load balancing en laden op zonne-overschot. De <strong>Easee Charge Lite</strong> biedt met RFID en 4G de beste uitrusting in zijn klasse, als 11 kW volstaat. De <strong>Zaptec Go 2</strong> is de premiumkeuze voor 22 kW en een MID-meter. In Frankrijk is de <strong>Hager witty one</strong> het bekijken waard, en voor gedeeld gebruik de <strong>Schneider EVlink Pro AC</strong> of de <strong>ABB Terra AC</strong>.</p>`,
+    pl: `<p><strong>Dla większości europejskich gospodarstw domowych najlepszą ładowarką do samochodu elektrycznego z aplikacją w 2026 roku jest Wallbox Pulsar Max: kompaktowa, dostępna w wersjach 7,4, 11 i 22 kW, sterowana przez Wi-Fi i Bluetooth, zgodna z OCPP i zdolna do równoważenia obciążenia lub ładowania z energii słonecznej dzięki dedykowanemu licznikowi.</strong> Jeśli szukasz tańszego modelu z czytnikiem RFID i wbudowaną łącznością komórkową, Easee Charge Lite to najlepszy stosunek jakości do ceny, a Zaptec Go 2 jest dla tych, którzy chcą 22 kW, wyświetlacza i licznika z certyfikatem MID w maleńkiej obudowie.</p>
+<p>To porównanie opiera się na kartach katalogowych producentów, opublikowanych niezależnych testach i zweryfikowanych opiniach kupujących. Obejmuje sześć ładowarek rzeczywiście sprzedawanych w Europie, z których większość jest dostępna na Amazon. Cały nasz wybór znajdziesz też w kategorii <a href="/pl/energie-domotique/bornes-recharge-ve">ładowarki do samochodów elektrycznych</a>.</p>
+
+<h2>Kryteria dobrego wyboru ładowarki</h2>
+<h3>7,4, 11 czy 22 kW: jaką moc wybrać?</h3>
+<p>Moc ładowarki zależy przede wszystkim od mocy zamówionej w umowie na prąd i rodzaju przyłącza:</p>
+<ul>
+<li><strong>7,4 kW (jednofazowo, 32 A)</strong>: najczęstszy przypadek w domu jednorodzinnym. Około 35–45 km zasięgu odzyskiwanych na godzinę, zależnie od pojazdu, w zupełności wystarczające do ładowania w nocy.</li>
+<li><strong>11 kW (trójfazowo, 16 A)</strong>: dobry kompromis, jeśli Twój dom ma zasilanie trójfazowe. Większość nowszych samochodów elektrycznych przyjmuje 11 kW prądu przemiennego.</li>
+<li><strong>22 kW (trójfazowo, 32 A)</strong>: przydatne tylko wtedy, gdy Twój samochód przyjmuje 22 kW AC, co wciąż jest rzadkością, i jeśli pozwala na to Twoja instalacja.</li>
+</ul>
+<p>Kluczowa, często pomijana kwestia: granicę wyznacza <strong>ładowarka pokładowa samochodu</strong>. Ładowarka 22 kW podłączona do samochodu ograniczonego do 11 kW będzie ładować z mocą 11 kW. Sprawdź maksymalną moc AC swojego pojazdu przed zakupem.</p>
+
+<h3>Jednofazowo czy trójfazowo</h3>
+<p>Przy zasilaniu jednofazowym nie ma sensu celować w więcej niż 7,4 kW. Przy trójfazowym ładowarka 11 kW jest często najrozsądniejszym wyborem. Wiele modeli (Pulsar Max, Zaptec Go 2, ABB Terra AC) występuje w wersji uniwersalnej, działającej w obu typach sieci: praktyczne, jeśli planujesz później przejść na zasilanie trójfazowe.</p>
+
+<h3>Równoważenie obciążenia (dynamiczne zarządzanie mocą)</h3>
+<p>Ładowarka pobierająca 32 A, gdy działają piekarnik, płyta indukcyjna i pompa ciepła, może wybić bezpieczniki przy liczniku. <strong>Dynamiczne równoważenie obciążenia</strong> mierzy zużycie energii w domu w czasie rzeczywistym i zmniejsza moc ładowarki, aby nie przekroczyć limitu Twojej umowy. Zależnie od marki odbywa się to przez dedykowany licznik energii (Wallbox, Easee Equalizer), akcesorium do zarządzania energią (Zaptec Sense) lub teleinformację licznika Linky we Francji (Hager).</p>
+
+<h3>Ładowanie z nadwyżek energii słonecznej</h3>
+<p>Przy panelach fotowoltaicznych ładowarka zdolna do śledzenia produkcji pozwala ładować samochód własnym prądem, zamiast oddawać go do sieci po niskiej cenie. Do tego służy funkcja Eco-Smart w Wallbox oraz ładowanie solarne przez Easee Equalizer. Nawet <a href="/pl/blog/balkonkraftwerk-panneau-solaire-balcon">zestaw solarny na balkon</a> nie wystarczy, by samodzielnie zasilać ładowarkę, ale instalacja dachowa może to zrobić w ciągu dnia.</p>
+
+<h3>RFID, aplikacja i OCPP</h3>
+<ul>
+<li><strong>RFID / NFC</strong>: karta lub brelok do rozpoczęcia ładowania, niezbędny, jeśli ładowarka jest dostępna z ulicy lub współdzielona we wspólnocie.</li>
+<li><strong>Aplikacja</strong>: programowanie godzin z tańszą taryfą, śledzenie zużycia, zdalne blokowanie. Standardem jest Wi-Fi; wbudowane 4G pozwala uniknąć problemów z zasięgiem w głębi garażu.</li>
+<li><strong>OCPP</strong>: otwarty protokół, który pozwala połączyć ładowarkę z innym oprogramowaniem niż producenta (zarządzanie flotą, system inteligentnego domu, rozliczanie przez pracodawcę). To gwarancja trwałości.</li>
+</ul>
+
+<h3>Kabel na stałe czy gniazdo Type 2</h3>
+<p>Ładowarka z <strong>kablem na stałe</strong> jest wygodniejsza na co dzień: zdejmujesz, podłączasz. Ładowarka z <strong>gniazdem Type 2</strong> (często „T2S” z przesłonami, we Francji) jest dyskretniejsza, pozwala wybrać długość kabla i unika kabla wystawionego na zewnątrz, ale przy każdym ładowaniu trzeba wyjąć własny. Niektóre gniazda pozwalają zablokować kabel, tworząc rozwiązanie niemal „stałe”.</p>
+
+<h2>6 najlepszych ładowarek do domu</h2>
+
+<h3>1. Wallbox Pulsar Max: najlepszy wybór ogólny</h3>
+<p>Następca bardzo popularnej Pulsar Plus, <strong>Wallbox Pulsar Max</strong> zachowuje kompaktowy format marki w solidniejszej obudowie, przeznaczonej do wnętrz i na zewnątrz. Występuje w wersjach 7,4, 11 i 22 kW, z przymocowanym kablem Type 2 o długości 5 lub 7 metrów.</p>
+<p><strong>Mocne strony:</strong> Wi-Fi i Bluetooth przez aplikację myWallbox, zgodność z OCPP, programowanie godzin z tańszą taryfą, integracja z asystentami głosowymi. Z licznikiem energii Wallbox sprzedawanym osobno zyskuje Power Boost (dynamiczne równoważenie z domem) i Eco-Smart (ładowanie w 100% solarne lub mieszane). Power Sharing pozwala połączyć kilka ładowarek na jednym obwodzie.</p>
+<p><strong>Ograniczenia:</strong> brak wbudowanego czytnika RFID, brak 4G, a licznik potrzebny do zaawansowanych funkcji to dodatkowy zakup.</p>
+<p><strong>Dla kogo:</strong> dom jednorodzinny z garażem lub prywatnym podjazdem, jednofazowy lub trójfazowy, który chce prostej, inteligentnej i rozbudowywalnej ładowarki.</p>
+
+<h3>2. Easee Charge Lite: najlepszy stosunek jakości do ceny</h3>
+<p>Norweska marka Easee proponuje w modelu <strong>Charge Lite</strong> ładowarkę z gniazdem Type 2, bardzo dobrze wyposażoną jak na swoją klasę: do 7,4 kW jednofazowo i 11 kW trójfazowo.</p>
+<p><strong>Mocne strony:</strong> Wi-Fi, Bluetooth i wbudowana eSIM komórkowa, czytnik RFID/NFC, zgodność z OCPP 1.6. W połączeniu z Easee Equalizer obsługuje dynamiczne równoważenie obciążenia i ładowanie z nadwyżek energii słonecznej.</p>
+<p><strong>Ograniczenia:</strong> ograniczona do 11 kW; instalacja wymaga odpowiedniego zewnętrznego wyłącznika różnicowoprądowego, który ma przewidzieć elektryk; kabel nie jest w zestawie.</p>
+<p><strong>Dla kogo:</strong> domy z zasilaniem trójfazowym 11 kW lub jednofazowym, które chcą RFID i łączności 4G bez płacenia za najwyższą półkę.</p>
+
+<h3>3. Zaptec Go 2: najpełniejsza w miniaturowym formacie</h3>
+<p><strong>Zaptec Go 2</strong> jest następczynią Zaptec Go, nagrodzonej za design. Dostarcza do 22 kW trójfazowo i 7,4 kW jednofazowo, w obudowie niewiele większej od tabletu.</p>
+<p><strong>Mocne strony:</strong> Wi-Fi, 4G i Bluetooth, czytnik RFID, podświetlany wyświetlacz, licznik energii z certyfikatem MID klasy B, zgodność z OCPP, sprzęt gotowy na normę ISO 15118 (Plug &amp; Charge). Stopnie ochrony IP54 i IK10 do użytku zewnętrznego. Zarządzanie energią w domu odbywa się przez akcesorium Zaptec Sense.</p>
+<p><strong>Ograniczenia:</strong> gniazdo Type 2 bez kabla w zestawie; pozycjonowanie z wyższej półki; dostępność różni się w zależności od kraju i sprzedawców.</p>
+<p><strong>Dla kogo:</strong> kierowcy, którzy chcą technicznie najbardziej dopracowanej ładowarki lub potrzebują licznika MID do zwrotu kosztów ładowania przez pracodawcę.</p>
+
+<h3>4. Hager witty one: najlepiej dopasowana do licznika Linky (Francja)</h3>
+<p>Francuski producent Hager dobrze zna domowe rozdzielnice elektryczne, a jego <strong>witty one</strong> to wykorzystuje. Występuje w wersji 7,4 kW jednofazowej i 11 kW, z gniazdem T2S.</p>
+<p><strong>Mocne strony:</strong> zależnie od wersji karta TIC do dynamicznego zarządzania obciążeniem przez teleinformację licznika Linky, podstawowa optymalizacja solarna, dostęp na kartę RFID, aplikacja przez Bluetooth, karta komunikacyjna OCPP i licznik MID. Stopień ochrony IP55.</p>
+<p><strong>Ograniczenia:</strong> opcje bardzo się różnią między poszczególnymi wersjami; sprawdź, którą proponuje Twój instalator. Zaprojektowana przede wszystkim z myślą o rynku francuskim.</p>
+<p><strong>Dla kogo:</strong> domy we Francji z licznikiem Linky, które chcą prostego zarządzania obciążeniem bez dodatkowego licznika.</p>
+
+<h3>5. Schneider Electric EVlink Pro AC: najbardziej wytrzymała do użytku współdzielonego</h3>
+<p>Zaprojektowana z myślą o wymagającym użytku domowym i małym sektorze usług, <strong>EVlink Pro AC</strong> występuje w mocach od 7,4 do 22 kW, z gniazdem T2S lub kablem na stałe.</p>
+<p><strong>Mocne strony:</strong> czytnik RFID/NFC, OCPP 1.6J, Bluetooth, Ethernet i Modbus, wykrywanie prądów upływu stałych 6 mA w zależności od wersji, obudowa IP54/IP55 i IK10, wersje z licznikiem MID.</p>
+<p><strong>Ograniczenia:</strong> aplikacja dla klienta indywidualnego mniej dopracowana niż u Wallbox czy Easee; konfiguracja pomyślana raczej dla instalatora.</p>
+<p><strong>Dla kogo:</strong> współdzielone miejsca parkingowe, małe wspólnoty, osoby prowadzące działalność, które chcą ładowarki „pro”.</p>
+
+<h3>6. ABB Terra AC Wallbox: najbardziej wszechstronna pod względem łączności</h3>
+<p><strong>ABB Terra AC Wallbox</strong> występuje w wielu wersjach: 7,4 kW jednofazowo lub do 22 kW trójfazowo, gniazdo Type 2 z przesłoną lub kabel 5 m, z wyświetlaczem lub bez i z 4G lub bez.</p>
+<p><strong>Mocne strony:</strong> uwierzytelnianie kartą RFID lub aplikacją ChargerSync, Wi-Fi, Ethernet, Bluetooth i 4G zależnie od wersji, OCPP 1.6, wbudowane wykrywanie prądów upływu stałych, wersje z certyfikatem MID. Szeroki zakres temperatur.</p>
+<p><strong>Ograniczenia:</strong> gęsta gama i liczne oznaczenia; bardziej utylitarny design.</p>
+<p><strong>Dla kogo:</strong> dla tych, którzy chcą uznanej marki przemysłowej i bardzo kompletnej łączności.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Moc maks.</th><th>Kabel / gniazdo</th><th>Łączność</th><th>RFID</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td>Wallbox Pulsar Max</td><td>7,4 / 11 / 22 kW</td><td>Kabel na stałe 5 lub 7 m</td><td>Wi-Fi, Bluetooth, OCPP</td><td>Nie</td><td>Dom jednorodzinny, energia słoneczna</td></tr>
+<tr><td>Easee Charge Lite</td><td>11 kW</td><td>Gniazdo Type 2</td><td>Wi-Fi, Bluetooth, 4G, OCPP</td><td>Tak</td><td>Najlepszy stosunek jakości do ceny</td></tr>
+<tr><td>Zaptec Go 2</td><td>22 kW</td><td>Gniazdo Type 2</td><td>Wi-Fi, Bluetooth, 4G, OCPP</td><td>Tak</td><td>22 kW, licznik MID</td></tr>
+<tr><td>Hager witty one</td><td>7,4 / 11 kW</td><td>Gniazdo T2S</td><td>Bluetooth, OCPP (opcja)</td><td>Zależnie od wersji</td><td>Zarządzanie obciążeniem przez Linky (Francja)</td></tr>
+<tr><td>Schneider EVlink Pro AC</td><td>7,4 do 22 kW</td><td>Gniazdo lub kabel</td><td>Bluetooth, Ethernet, OCPP</td><td>Tak</td><td>Użytek współdzielony</td></tr>
+<tr><td>ABB Terra AC Wallbox</td><td>7,4 do 22 kW</td><td>Gniazdo lub kabel 5 m</td><td>Wi-Fi, Ethernet, Bluetooth, 4G (zależnie od wersji), OCPP</td><td>Tak</td><td>Pełna łączność</td></tr>
+</tbody>
+</table>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Kupowanie 22 kW z zasady</strong>: jeśli Twój samochód ma limit 11 kW albo masz zasilanie jednofazowe, jest to bezcelowe.</li>
+<li><strong>Zapominanie o zarządzaniu obciążeniem</strong>: bez równoważenia obciążenia często trzeba zwiększać moc zamówioną w umowie, co kosztuje co miesiąc.</li>
+<li><strong>Lekceważenie odległości od gniazdka do samochodu</strong>: kabel 5 m może być za krótki, jeśli samochód parkuje tyłem lub są dwa miejsca.</li>
+<li><strong>Ignorowanie OCPP</strong>: zamknięta ładowarka zależy całkowicie od aplikacji producenta.</li>
+<li><strong>Codzienne podłączanie samochodu do zwykłego gniazdka domowego</strong>: te gniazdka nie są przeznaczone do długotrwałego ładowania dużym prądem.</li>
+</ul>
+
+<h2>Montaż i bezpieczeństwo</h2>
+<p>Ładowarkę musi zamontować <strong>wykwalifikowany elektryk</strong>, na dedykowanym obwodzie, z odpowiednimi zabezpieczeniami różnicowoprądowymi i właściwym przekrojem kabla. We Francji montaż ładowarki o mocy powyżej 3,7 kW musi wykonać profesjonalista z kwalifikacją <strong>IRVE</strong>, a ta kwalifikacja warunkuje też dostęp do kilku programów pomocy publicznej: sprawdź warunki obowiązujące w momencie Twojego projektu. W innych krajach europejskich może być wymagane zgłoszenie do operatora sieci; poinformuje Cię o tym Twój instalator.</p>
+<p>Przed wyceną zanotuj rodzaj przyłącza (jedno- czy trójfazowe), moc zamówioną w umowie oraz odległość między rozdzielnicą a miejscem ładowarki. Aby obniżyć rachunek, zaprogramuj ładowanie w godzinach z tańszą taryfą i połącz je z innymi sposobami opisanymi w naszym <a href="/pl/blog/guide-domotique-economie-energie-2026">poradniku o oszczędzaniu energii dzięki inteligentnemu domowi</a>.</p>
+
+<h2>Podsumowanie</h2>
+<p><strong>Wallbox Pulsar Max</strong> jest ładowarką, którą najłatwiej polecić: kompaktowa, dostępna we wszystkich mocach, otwarta dzięki OCPP i rozbudowywalna o równoważenie obciążenia oraz energię słoneczną. <strong>Easee Charge Lite</strong> oferuje najlepsze wyposażenie w swojej cenie z RFID i 4G, pod warunkiem że wystarczy Ci 11 kW. <strong>Zaptec Go 2</strong> to wybór premium dla 22 kW i licznika MID. Posiadacze licznika Linky (Francja) spojrzą na <strong>Hager witty one</strong>, a przy użytku współdzielonym na <strong>Schneider EVlink Pro AC</strong> lub <strong>ABB Terra AC</strong>.</p>`,
   },
   faq: [
     {
@@ -653,6 +756,7 @@ export const article: BlogArticle = {
         es: '¿Elijo un cargador de 7,4, 11 o 22 kW?',
         it: 'Meglio una wallbox da 7,4, 11 o 22 kW?',
         nl: 'Kies ik een laadpaal van 7,4, 11 of 22 kW?',
+        pl: 'Wybrać ładowarkę 7,4 kW, 11 kW czy 22 kW?',
       },
       answer: {
         fr: 'En monophasé, 7,4 kW est le maximum utile. En triphasé, 11 kW convient à la plupart des voitures. Le 22 kW n’a d’intérêt que si votre véhicule accepte 22 kW en courant alternatif, car c’est le chargeur embarqué de la voiture qui limite la puissance réelle.',
@@ -661,6 +765,7 @@ export const article: BlogArticle = {
         es: 'En monofásico, 7,4 kW es el máximo útil. En trifásico, 11 kW sirve para la mayoría de coches. Los 22 kW solo tienen sentido si tu coche admite 22 kW en alterna, porque el cargador de a bordo limita la potencia real.',
         it: 'In monofase 7,4 kW è il massimo utile. In trifase 11 kW va bene per la maggior parte delle auto. I 22 kW servono solo se l’auto accetta 22 kW in AC, perché è il caricatore di bordo a limitare la potenza reale.',
         nl: 'Op 1-fase is 7,4 kW het nuttige maximum. Op 3-fase volstaat 11 kW voor de meeste auto’s. 22 kW heeft alleen zin als je auto 22 kW AC aankan, want de ingebouwde lader van de auto bepaalt het echte laadvermogen.',
+        pl: 'Przy zasilaniu jednofazowym maksymalną użyteczną mocą jest 7,4 kW. Przy trójfazowym 11 kW pasuje do większości samochodów. 22 kW ma sens tylko wtedy, gdy Twój pojazd przyjmuje 22 kW prądu przemiennego, ponieważ rzeczywistą moc ogranicza ładowarka pokładowa samochodu.',
       },
     },
     {
@@ -671,6 +776,7 @@ export const article: BlogArticle = {
         es: '¿Puedo instalar yo mismo el cargador?',
         it: 'Posso installare da solo la wallbox?',
         nl: 'Mag ik mijn laadpaal zelf installeren?',
+        pl: 'Czy mogę sam zamontować ładowarkę do samochodu?',
       },
       answer: {
         fr: 'Non, c’est déconseillé et souvent interdit. Une borne doit être raccordée par un électricien qualifié sur un circuit dédié avec les protections adaptées. En France, une borne de plus de 3,7 kW doit être posée par un installateur qualifié IRVE.',
@@ -679,6 +785,7 @@ export const article: BlogArticle = {
         es: 'No es recomendable y a menudo no está permitido. El cargador debe conectarlo un electricista cualificado en un circuito dedicado con las protecciones adecuadas. En Francia, los cargadores de más de 3,7 kW requieren un instalador con cualificación IRVE.',
         it: 'No, è sconsigliato e spesso non consentito. La wallbox va collegata da un elettricista qualificato su una linea dedicata con le protezioni adeguate. In Francia, oltre 3,7 kW serve un installatore con qualifica IRVE.',
         nl: 'Nee, dat is af te raden en vaak niet toegestaan. Een laadpaal moet door een erkende elektricien op een eigen groep met de juiste beveiliging worden aangesloten. In Frankrijk is boven 3,7 kW een installateur met IRVE-kwalificatie verplicht.',
+        pl: 'Nie, odradzamy to, a często jest to zabronione. Ładowarkę musi podłączyć wykwalifikowany elektryk na dedykowanym obwodzie z odpowiednimi zabezpieczeniami. We Francji ładowarkę o mocy powyżej 3,7 kW musi zamontować instalator z kwalifikacją IRVE.',
       },
     },
     {
@@ -689,6 +796,7 @@ export const article: BlogArticle = {
         es: '¿Para qué sirve el balanceo de carga dinámico?',
         it: 'A cosa serve il bilanciamento dinamico dei carichi?',
         nl: 'Wat doet dynamische load balancing?',
+        pl: 'Do czego służy dynamiczne równoważenie obciążenia?',
       },
       answer: {
         fr: 'Il mesure la consommation de la maison en temps réel et réduit la puissance de la borne quand d’autres appareils fonctionnent. Vous évitez ainsi les coupures et, souvent, une augmentation de votre puissance d’abonnement.',
@@ -697,6 +805,7 @@ export const article: BlogArticle = {
         es: 'Mide el consumo de la casa en tiempo real y reduce la potencia del cargador cuando funcionan otros aparatos. Así evitas que salte el limitador y, a menudo, tener que subir la potencia contratada.',
         it: 'Misura in tempo reale i consumi di casa e riduce la potenza della wallbox quando altri apparecchi sono accesi. Eviti così il distacco del contatore e spesso un aumento della potenza contrattuale.',
         nl: 'Het meet het verbruik van de woning in realtime en verlaagt het laadvermogen als andere apparaten aanstaan. Zo voorkom je dat de hoofdzekering springt en vaak ook een zwaardere aansluiting.',
+        pl: 'Mierzy zużycie energii w domu w czasie rzeczywistym i zmniejsza moc ładowarki, gdy działają inne urządzenia. Dzięki temu unikasz wyłączeń prądu i często zwiększania mocy zamówionej w umowie.',
       },
     },
     {
@@ -707,6 +816,7 @@ export const article: BlogArticle = {
         es: '¿Puedo cargar el coche con mis placas solares?',
         it: 'Posso ricaricare l’auto con i pannelli solari?',
         nl: 'Kan ik mijn auto laden met mijn zonnepanelen?',
+        pl: 'Czy można ładować samochód z własnych paneli słonecznych?',
       },
       answer: {
         fr: 'Oui, avec une borne compatible et un compteur ou un module de gestion : la Wallbox Pulsar Max avec Eco-Smart ou l’Easee Charge Lite avec l’Equalizer suivent la production pour charger sur le surplus solaire.',
@@ -715,6 +825,7 @@ export const article: BlogArticle = {
         es: 'Sí, con un cargador compatible y un medidor o módulo de gestión: el Wallbox Pulsar Max con Eco-Smart o el Easee Charge Lite con el Equalizer siguen la producción para cargar con el excedente solar.',
         it: 'Sì, con una wallbox compatibile e un contatore o modulo di gestione: la Wallbox Pulsar Max con Eco-Smart o la Easee Charge Lite con l’Equalizer seguono la produzione per ricaricare con il surplus solare.',
         nl: 'Ja, met een geschikte laadpaal en een meter of energiebeheermodule: de Wallbox Pulsar Max met Eco-Smart of de Easee Charge Lite met de Equalizer volgen de opwek om op zonne-overschot te laden.',
+        pl: 'Tak, z zgodną ładowarką i licznikiem lub modułem zarządzania: Wallbox Pulsar Max z Eco-Smart lub Easee Charge Lite z Equalizerem śledzą produkcję, aby ładować z nadwyżek energii słonecznej.',
       },
     },
     {
@@ -725,6 +836,7 @@ export const article: BlogArticle = {
         es: '¿Cable integrado o toma: qué elegir?',
         it: 'Cavo fisso o presa: cosa scegliere?',
         nl: 'Vaste kabel of contactdoos: wat kies ik?',
+        pl: 'Ładowarka z kablem na stałe czy z gniazdem: co wybrać?',
       },
       answer: {
         fr: 'Le câble attaché est le plus pratique au quotidien pour une place privée. La prise Type 2 convient mieux si la borne est visible depuis la rue, si plusieurs véhicules la partagent ou si vous voulez choisir la longueur du câble.',
@@ -733,6 +845,7 @@ export const article: BlogArticle = {
         es: 'El cable integrado es lo más práctico para una plaza privada. La toma Tipo 2 es mejor si el cargador se ve desde la calle, si lo comparten varios coches o si quieres elegir la longitud del cable.',
         it: 'Il cavo fisso è il più pratico per un posto auto privato. La presa Tipo 2 è preferibile se la wallbox è visibile dalla strada, condivisa da più veicoli o se vuoi scegliere la lunghezza del cavo.',
         nl: 'Een vaste kabel is het handigst bij een eigen oprit. Een type 2-contactdoos is beter als de laadpaal vanaf de straat zichtbaar is, door meerdere auto’s wordt gebruikt of als je zelf de kabellengte wilt kiezen.',
+        pl: 'Kabel na stałe jest najwygodniejszy na co dzień przy prywatnym miejscu postojowym. Gniazdo Type 2 lepiej sprawdza się, gdy ładowarka jest widoczna z ulicy, gdy korzysta z niej kilka pojazdów albo gdy chcesz wybrać długość kabla.',
       },
     },
     {
@@ -743,6 +856,7 @@ export const article: BlogArticle = {
         es: '¿De verdad sirve el OCPP a un particular?',
         it: 'L’OCPP è davvero utile per un privato?',
         nl: 'Is OCPP echt nuttig voor particulieren?',
+        pl: 'Czy OCPP naprawdę przydaje się osobie prywatnej?',
       },
       answer: {
         fr: 'Oui, surtout sur le long terme. L’OCPP permet de piloter la borne avec un autre logiciel que celui du fabricant, par exemple pour un remboursement par l’employeur ou une intégration domotique, et la protège si l’application d’origine évolue.',
@@ -751,6 +865,7 @@ export const article: BlogArticle = {
         es: 'Sí, sobre todo a largo plazo. El OCPP permite gestionar el cargador con otro software distinto al del fabricante, por ejemplo para el reembolso de la empresa o la domótica, y te protege si la app original cambia.',
         it: 'Sì, soprattutto nel lungo periodo. L’OCPP consente di gestire la wallbox con software diversi da quello del produttore, per esempio per il rimborso aziendale o la domotica, e ti tutela se l’app originale cambia.',
         nl: 'Ja, vooral op de lange termijn. Met OCPP beheer je de laadpaal met andere software dan die van de fabrikant, bijvoorbeeld voor vergoeding door je werkgever of domotica, en ben je niet afhankelijk van de oorspronkelijke app.',
+        pl: 'Tak, zwłaszcza w dłuższej perspektywie. OCPP pozwala sterować ładowarką innym oprogramowaniem niż producenta, na przykład do zwrotu kosztów przez pracodawcę lub integracji z inteligentnym domem, i chroni ją na wypadek zmian w pierwotnej aplikacji.',
       },
     },
   ],

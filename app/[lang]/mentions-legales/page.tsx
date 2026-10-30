@@ -15,6 +15,7 @@ const metaDescriptions: Record<string, string> = {
   es: 'Aviso legal de Home Nura: editor, alojamiento, programa de afiliados de Amazon y propiedad intelectual. Información completa conforme a la ley.',
   it: 'Note legali di Home Nura: editore, hosting, programma di affiliazione Amazon e proprietà intellettuale. Informazioni complete ai sensi di legge.',
   nl: 'Juridische kennisgeving van Home Nura: uitgever, hosting, Amazon-partnerprogramma en intellectueel eigendom. Volledige wettelijke informatie.',
+  pl: 'Nota prawna Home Nura: wydawca, hosting, program partnerski Amazon i własność intelektualna. Pełne informacje prawne.',
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -192,6 +193,29 @@ const labels: Record<string, Record<string, string>> = {
     ip: 'Intellectueel eigendom',
     ipText: 'Alle op deze site genoemde merknamen, logo\'s, afbeeldingen en productnamen zijn eigendom van hun respectieve eigenaren. Redactionele inhoud (teksten, analyses, ranglijsten) is auteursrechtelijk beschermd en mag niet worden gereproduceerd zonder voorafgaande schriftelijke toestemming.',
     back: 'Terug naar home',
+  },
+  pl: {
+    title: 'Nota prawna',
+    publisher: 'Wydawca',
+    companyName: 'Nazwa firmy',
+    legalForm: 'Forma prawna',
+    capital: 'Kapitał zakładowy',
+    registeredOffice: 'Siedziba',
+    rcs: 'Rejestr handlowy (RCS)',
+    siret: 'SIRET',
+    vat: 'Numer VAT UE',
+    director: 'Dyrektor publikacji',
+    phone: 'Telefon',
+    email: 'E-mail',
+    website: 'Strona internetowa',
+    hosting: 'Hosting',
+    affiliation: 'Program partnerski',
+    affiliationText: `Home Nura uczestniczy w Programie Partnerskim Amazon EU z jednym identyfikatorem partnera (Store ID) Amazon.fr: ${AMAZON_STORE_ID}. Wszystkie linki do Amazon na stronie, w każdej wersji językowej, prowadzą do Amazon.fr. Dzięki programowi „Global Earning” Amazon przekierowuje użytkowników z innych krajów (Niemiec, Wielkiej Brytanii, Hiszpanii, Włoch, Holandii…) do tego samego produktu w sklepie Amazon w ich kraju; ewentualna prowizja trafia na to samo konto Amazon.fr. ${AMAZON_ASSOCIATE_DISCLOSURE.pl}`,
+    pricing: 'Ceny i zdjęcia produktów',
+    pricingText: 'Home Nura nie wyświetla cen ani zdjęć produktów z Amazon: wizualizacje produktów to neutralne ilustracje (kategoria, marka, model). Cena, dostępność i zdjęcia produktu są takie, jakie Amazon pokazuje w chwili Twojej wizyty, i mogą się zmienić w każdej chwili.',
+    ip: 'Własność intelektualna',
+    ipText: 'Wszystkie nazwy marek, logotypy, wizualizacje i nazwy produktów wymienione na tej stronie są własnością ich właścicieli. Treści redakcyjne (teksty, analizy, rankingi) są chronione prawem autorskim i nie mogą być powielane bez uprzedniej pisemnej zgody.',
+    back: 'Wróć na stronę główną',
   },
 }
 

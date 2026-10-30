@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: "Cocina moderna con placa de cocción, hornos empotrados y menaje sobre la encimera",
         it: "Cucina moderna con piano cottura, forni da incasso e pentole sul piano di lavoro",
         nl: "Moderne keuken met kookplaat, inbouwovens en pannen op het aanrecht",
+        pl: "Nowoczesna kuchnia z płytą grzewczą, piekarnikami do zabudowy i przyborami na blacie",
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: "Guía de cocina conectada 2026: los aparatos smart que sí son útiles",
     it: "Guida alla cucina connessa 2026: gli apparecchi smart davvero utili",
     nl: "Slimme keuken gids 2026: de verbonden apparaten die het waard zijn",
+    pl: "Inteligentna kuchnia 2026: poradnik po naprawdę przydatnych urządzeniach smart",
   },
   excerpt: {
     fr: "Multicuiseur Wi-Fi, thermomètre sans fil, prises avec suivi de consommation, balance nutritionnelle et cafetière pilotable : ce que chaque appareil connecté apporte vraiment, ses limites et dans quel ordre équiper sa cuisine en 2026.",
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: "Olla multifunción con wifi, termómetro inalámbrico, enchufes con medición de consumo, báscula nutricional y cafetera controlable: lo que aporta de verdad cada aparato conectado, sus límites y en qué orden equipar la cocina en 2026.",
     it: "Multicooker Wi-Fi, termometro senza fili, prese con monitoraggio dei consumi, bilancia nutrizionale e macchina del caffè controllabile: cosa aggiunge davvero ogni apparecchio connesso, i suoi limiti e in che ordine attrezzare la cucina nel 2026.",
     nl: "Wifi-multicooker, draadloze vleesthermometer, stekkers met verbruiksmeting, voedingsweegschaal en bedienbare koffiemachine: wat elk verbonden apparaat echt toevoegt, de beperkingen en in welke volgorde je in 2026 je keuken uitrust.",
+    pl: "Multicooker z Wi-Fi, bezprzewodowy termometr do mięsa, inteligentne wtyczki z pomiarem energii, waga kuchenna z wartościami odżywczymi i ekspres do kawy sterowany z aplikacji: co naprawdę daje każde urządzenie, jakie ma ograniczenia i w jakiej kolejności wyposażać kuchnię w 2026 roku.",
   },
   content: {
     fr: `<p>Une cuisine connectée utile en 2026 repose sur trois ou quatre appareils qui règlent un vrai problème : un <strong>multicuiseur Wi-Fi</strong> comme le Moulinex Cookeo Touch WiFi pour les plats du quotidien, un <strong>thermomètre sans fil</strong> comme le MEATER Plus pour réussir les viandes, et des <strong>prises connectées avec suivi de consommation</strong> comme la TP-Link Tapo P115 pour piloter et mesurer le reste. La cafetière connectée, la balance nutritionnelle et l'écran intelligent viennent ensuite, selon vos habitudes.</p>
@@ -626,6 +629,104 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Voor de meeste huishoudens is het nuttigste trio de <strong>Moulinex Cookeo Touch WiFi</strong> voor het dagelijkse koken, de <strong>TP-Link Tapo P115</strong> om kleine apparaten te bedienen en te meten, en de <strong>MEATER Plus</strong> voor perfect gegaard vlees. Voeg de <strong>Etekcity ESN00</strong> toe als je je voeding bijhoudt, de <strong>Inkbird IBT-4XS</strong> als je vaak barbecuet, en een <strong>De'Longhi Eletta Explore</strong> met wifi als koffie je prioriteit is. Alle apparaten vind je in de rubriek <a href="/nl/cuisine-connectee">slimme keuken</a>.</p>`,
+    pl: `<p>Przydatna inteligentna kuchnia w 2026 roku opiera się na trzech lub czterech urządzeniach, które rozwiązują realny problem: <strong>multicookerze z Wi-Fi</strong>, takim jak Moulinex Cookeo Touch WiFi, do codziennych dań, <strong>bezprzewodowym termometrze do mięsa</strong>, takim jak MEATER Plus, do udanych mięs, oraz <strong>inteligentnych wtyczkach z pomiarem energii</strong>, takich jak TP-Link Tapo P115, do sterowania resztą i mierzenia jej zużycia. Inteligentny ekspres do kawy, waga kuchenna z wartościami odżywczymi i inteligentny ekran dochodzą później, zależnie od Twoich nawyków.</p>
+<p>Ten poradnik omawia każdą rodzinę urządzeń, to, co faktycznie daje łączność, jej ograniczenia i kolejność wyposażania kuchni. Nasz wybór opiera się na kartach technicznych producentów, opublikowanych niezależnych analizach i opiniach zweryfikowanych kupujących, a nie na własnych pomiarach.</p>
+
+<h2>Co naprawdę daje inteligentna kuchnia</h2>
+<p>Sens urządzenia z łącznością sprowadza się do trzech rzeczy: <strong>prowadzenia</strong> (przepisy krok po kroku, automatyczne ustawienia), <strong>zdalnego nadzoru</strong> (temperatura mięsa, koniec gotowania, zużycie energii) i <strong>automatyzacji</strong> (włączanie, wyłączanie, programowanie). Jeśli urządzenie nie robi żadnej z tych trzech rzeczy lepiej niż wersja klasyczna, łączność jest tylko argumentem marketingowym.</p>
+<p>Uważaj też na karty produktów: wiele popularnych urządzeń ma aplikację z przepisami, nie dając realnego sterowania zdalnego. Zawsze sprawdzaj wzmiankę o <strong>Wi-Fi</strong> lub <strong>Bluetooth</strong> w specyfikacji dokładnego modelu, łącznie z oznaczeniem.</p>
+
+<h2>Kryteria wyboru</h2>
+<h3>Wi-Fi czy Bluetooth</h3>
+<p><strong>Wi-Fi</strong> pozwala odbierać powiadomienia i działać z dowolnego miejsca, pod warunkiem że urządzenie jest w Twojej sieci domowej (większość obsługuje tylko 2,4 GHz). <strong>Bluetooth</strong> zużywa mało energii i wystarcza dla wagi lub termometru, ale zasięg ogranicza się do domu lub ogrodu i mocno spada przez ściany lub drzwi piekarnika.</p>
+<h3>Aplikacja i jej trwałość</h3>
+<p>Urządzenie z łącznością jest tyle warte, co jego aplikacja. Wybieraj marki, które od lat utrzymują swoje aplikacje, i sprawdź, czy urządzenie da się w pełni używać bez telefonu: multicooker lub ekspres do kawy powinien działać normalnie, jeśli usługa online kiedyś się zakończy.</p>
+<h3>Matter i asystenci głosowi</h3>
+<p>Standard <strong>Matter</strong> ułatwia współpracę między Apple Home, Google Home, Amazon Alexa i SmartThings. W kuchni dotyczy głównie wtyczek, oświetlenia i czujników: multicookery, ekspresy do kawy i termometry nadal niemal zawsze działają przez aplikację producenta. Nie czyń więc z Matter kryterium eliminującego dla urządzenia do gotowania, ale preferuj go przy wtyczkach.</p>
+<h3>Konserwacja i bezpieczeństwo</h3>
+<p>Misa nadająca się do zmywarki, łatwa do czyszczenia sonda, dostępne części zamienne: te szczegóły liczą się bardziej niż liczba funkcji podana na pudełku.</p>
+
+<h2>Urządzenia warte uwagi w 2026 roku</h2>
+<h3>Moulinex Cookeo Touch WiFi: multicooker z prowadzeniem</h3>
+<p>Cookeo Touch WiFi (oznaczenie CE902800) to ciśnieniowy multicooker o pojemności <strong>6 litrów</strong> i mocy 1600 W, z <strong>13 trybami gotowania</strong>: ciśnieniowym, parowym, duszeniem, rumienieniem, ryżem i makaronem, utrzymywaniem ciepła, podgrzewaniem, powolnym gotowaniem oraz programami do zup, deserów i ciasta chlebowego. Pochylany ekran dotykowy prowadzi przez każdy etap z obrazami, a Wi-Fi daje dostęp do kilkuset przepisów do pobrania przez aplikację Moulinex, z automatycznymi aktualizacjami.</p>
+<p><strong>Mocne strony:</strong> bardzo przystępne przepisy z prowadzeniem, szybkie gotowanie ciśnieniowe, misa z powłoką nieprzywierającą nadająca się do zmywarki, zdalna kontrola niektórych funkcji.</p>
+<p><strong>Ograniczenia:</strong> brak funkcji frytkownicy beztłuszczowej, realne zajmowanie miejsca na blacie, a zdalna kontrola jest częściowa: trzeba być na miejscu, by dodać składniki.</p>
+<p><strong>Dla kogo:</strong> dla rodzin do sześciu osób, które chcą gotować częściej, nie myśląc o ustawieniach. Porównaj go z innymi modelami w naszym <a href="/pl/blog/comparatif-multicuiseur-connecte">porównaniu inteligentnych multicookerów</a> lub w kategorii <a href="/pl/cuisine-connectee/multicuiseurs">multicookery</a>.</p>
+
+<h3>MEATER Plus: wzorcowy bezprzewodowy termometr</h3>
+<p>MEATER Plus to <strong>całkowicie bezprzewodowa</strong> sonda wbijana w mięso. Ma dwa czujniki: jeden mierzy temperaturę wewnątrz mięsa (do 100 °C), drugi temperaturę otoczenia wokół kawałka (do 275 °C). Jej stacja ładująca działa jak wzmacniacz Bluetooth i zwiększa deklarowany zasięg do <strong>50 metrów</strong> na otwartej przestrzeni. Aplikacja szacuje pozostały czas i sygnalizuje moment wyjęcia mięsa, uwzględniając czas odpoczynku.</p>
+<p><strong>Mocne strony:</strong> żadnych kabli przeciągniętych przez drzwi piekarnika lub pokrywę grilla, prowadzenie zależnie od rodzaju mięsa, deklarowany czas pracy 24 godziny na jednym ładowaniu.</p>
+<p><strong>Ograniczenia:</strong> tylko jedna sonda, a realny zasięg wyraźnie spada w zamkniętym piekarniku lub metalowym grillu. Do jednoczesnego przygotowania kilku kawałków lepszy jest model wielosondowy.</p>
+<p><strong>Dla kogo:</strong> dla miłośników pieczeni, żeberek wołowych i wolnego gotowania. Nasz <a href="/pl/blog/barbecue-connecte-thermometre-guide">poradnik o inteligentnym grillu</a> opisuje inne opcje, a kategoria <a href="/pl/cuisine-connectee/thermometres-viande">termometry do mięsa</a> zbiera dostępne modele.</p>
+
+<h3>Inkbird IBT-4XS: cztery sondy do grilla</h3>
+<p>Inkbird IBT-4XS obsługuje do <strong>czterech sond przewodowych</strong> i przesyła temperatury przez Bluetooth do aplikacji BBQ Go, z deklarowanym zasięgiem około 45 metrów. Jego akumulator ma według producenta wystarczać na około dwadzieścia godzin, a magnetyczny tył mocuje się do grilla.</p>
+<p><strong>Mocne strony:</strong> kilka kawałków monitorowanych jednocześnie, alerty wysokiej i niskiej temperatury, duży ekran czytelny bez telefonu.</p>
+<p><strong>Ograniczenia:</strong> kable sond wymagają odrobiny organizacji, a aplikacja jest mniej prowadząca niż MEATER.</p>
+<p><strong>Dla kogo:</strong> dla tych, którzy gotują dla wielu osób na grillu lub w wędzarni.</p>
+
+<h3>TP-Link Tapo P115: inteligentna wtyczka z pomiarem</h3>
+<p>Tapo P115 to mini wtyczka Wi-Fi (2,4 GHz) z <strong>pomiarem zużycia energii</strong> w czasie rzeczywistym i historią w aplikacji Tapo. Pozwala zdalnie włączać lub odcinać urządzenie, programować harmonogramy i timery oraz działa z Alexą i Asystentem Google, bez huba. Jej kompaktowy kształt nie zasłania sąsiedniego gniazdka.</p>
+<p><strong>Mocne strony:</strong> najprostsze wejście do inteligentnej kuchni, dokładny pomiar zużycia Twoich urządzeń, także w trybie czuwania.</p>
+<p><strong>Ograniczenia:</strong> nie czyni „inteligentnym” urządzenia, które po odcięciu zasilania trzeba ponownie uruchomić przyciskiem. Do natywnej integracji z Matter gama Tapo ma osobny wariant, P110M.</p>
+<p><strong>Dla kogo:</strong> dla każdego, do ekspresu do kawy, czajnika lub małego AGD, którego zużycie chcesz znać. Zobacz nasze <a href="/pl/blog/comparatif-smart-plugs-mesure-energie">porównanie wtyczek z pomiarem energii</a> i kategorię <a href="/pl/cuisine-connectee/prises-connectees">inteligentne wtyczki</a>.</p>
+
+<h3>Etekcity ESN00: waga kuchenna z wartościami odżywczymi</h3>
+<p>Waga Etekcity Smart Nutrition Scale waży do <strong>5 kg z dokładnością do grama</strong> i łączy się przez Bluetooth z aplikacją VeSync. Ta korzysta z obszernej bazy danych o żywności, by pokazać kalorie i składniki odżywcze każdego zważonego produktu, i może synchronizować dane z Apple Zdrowie lub Fitbit.</p>
+<p><strong>Mocne strony:</strong> śledzenie wartości odżywczych bez ręcznego wpisywania wag, łatwa do czyszczenia platforma, działa też jak zwykła waga.</p>
+<p><strong>Ograniczenia:</strong> dokładność co do grama nie nadaje się do bardzo małych dawek (drożdże, przyprawy), a wartości odżywcze wymagają aplikacji.</p>
+<p><strong>Dla kogo:</strong> dla osób, które śledzą swoje odżywianie lub makroskładniki. Inne modele znajdziesz w naszym <a href="/pl/blog/balance-cuisine-connectee-comparatif">porównaniu inteligentnych wag kuchennych</a>.</p>
+
+<h3>De'Longhi Eletta Explore: ekspres naprawdę sterowany z aplikacji</h3>
+<p>W wersjach z Wi-Fi, takich jak ECAM450.86.T, Eletta Explore jest sterowana aplikacją <strong>De'Longhi Coffee Link</strong>: zdalne uruchamianie napojów, regulacja parametrów parzenia, ponad sto przepisów i przypomnienia o konserwacji. Potrafi też przygotowywać zimne napoje dzięki technologii ekstrakcji na zimno.</p>
+<p><strong>Mocne strony:</strong> szeroki wybór napojów gorących i zimnych, własne profile, śledzenie konserwacji w aplikacji.</p>
+<p><strong>Ograniczenia:</strong> ekspres z wyższej półki i zajmujący dużo miejsca; nie wszystkie warianty serii mają łączność, sprawdź dokładne oznaczenie.</p>
+<p><strong>Dla kogo:</strong> dla wielbicieli kawy, którzy chcą urozmaicać przepisy. Nasz <a href="/pl/blog/cafetiere-connectee-guide">poradnik o inteligentnych ekspresach do kawy</a> porównuje alternatywy.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Typ</th><th>Łączność</th><th>Kluczowa cecha</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td>Moulinex Cookeo Touch WiFi</td><td>Multicooker 6 l</td><td>Wi-Fi</td><td>13 trybów, przepisy z prowadzeniem</td><td>Codzienne posiłki rodziny</td></tr>
+<tr><td>MEATER Plus</td><td>Bezprzewodowy termometr</td><td>Bluetooth (wbudowany wzmacniacz)</td><td>Sonda bez kabla, podwójny czujnik</td><td>Pieczenie i wolne gotowanie</td></tr>
+<tr><td>Inkbird IBT-4XS</td><td>Termometr 4-sondowy</td><td>Bluetooth</td><td>Do 4 kawałków jednocześnie</td><td>Grill dla większej grupy</td></tr>
+<tr><td>TP-Link Tapo P115</td><td>Inteligentna wtyczka</td><td>Wi-Fi 2,4 GHz</td><td>Pomiar zużycia energii</td><td>Pierwszy krok, małe urządzenia</td></tr>
+<tr><td>Etekcity ESN00</td><td>Waga z wartościami odżywczymi</td><td>Bluetooth</td><td>5 kg, dane odżywcze</td><td>Śledzenie odżywiania</td></tr>
+<tr><td>De'Longhi Eletta Explore (wersja Wi-Fi)</td><td>Automatyczny ekspres do kawy</td><td>Wi-Fi</td><td>Napoje gorące i zimne</td><td>Wymagający miłośnicy kawy</td></tr>
+</tbody>
+</table>
+
+<h2>W jakiej kolejności wyposażać kuchnię</h2>
+<ol>
+<li><strong>Inteligentne wtyczki</strong>: sprawiają, że Twoje obecne urządzenia można sterować, i pokazują, gdzie ucieka prąd. To najłatwiejszy poziom wejścia.</li>
+<li><strong>Termometr do mięsa</strong>: zysk jest natychmiastowy już przy pierwszym kawałku mięsa.</li>
+<li><strong>Inteligentny multicooker</strong>: urządzenie, które najbardziej zmienia codzienność, jeśli często gotujesz.</li>
+<li><strong>Inteligentna waga lub ekspres do kawy</strong>: zależnie od priorytetów, odżywianie lub kawa.</li>
+<li><strong>Inteligentny ekran</strong> (typu Echo Show lub Nest Hub): wygodny do czytania przepisu z zajętymi rękami, ustawiania kilku timerów i zbierania poleceń głosowych.</li>
+</ol>
+<p>Działaj etapami: używaj każdego urządzenia kilka tygodni, zanim dodasz kolejne. Kuchnia z trzema naprawdę używanymi urządzeniami jest warta więcej niż kilkanaście zapomnianych gadżetów.</p>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Mylenie aplikacji z łącznością</strong>: aplikacja z przepisami nie oznacza sterowania zdalnego. Sprawdź dokładne oznaczenie modelu.</li>
+<li><strong>Zapominanie o paśmie 2,4 GHz</strong>: wiele urządzeń nie widzi sieci 5 GHz. Jeśli router łączy oba pasma pod jedną nazwą, parowanie może się nie udać.</li>
+<li><strong>Mnożenie aplikacji</strong>: wybierz jednego głównego asystenta (Alexa, Google Home lub Apple Home) i sprawdź zgodność przed zakupem.</li>
+<li><strong>Przeszacowywanie oszczędności</strong>: inteligentna wtyczka pomaga wykryć pobór w trybie czuwania, ale oszczędność zależy w całości od Twoich urządzeń i nawyków.</li>
+<li><strong>Zaniedbywanie czyszczenia</strong>: sondy, uszczelki i układy mleczne wymagają regularnej konserwacji, z łącznością lub bez.</li>
+</ul>
+
+<h2>Bezpieczeństwo i prywatność</h2>
+<ul>
+<li><strong>Urządzenia grzewcze:</strong> nigdy nie włączaj zdalnie bez nadzoru urządzenia, które się nagrzewa (toster, płyta, frytkownica). Zdalne sterowanie zostaw urządzeniom do tego zaprojektowanym i przestrzegaj zaleceń producenta, w tym maksymalnej mocy dopuszczalnej dla wtyczki.</li>
+<li><strong>Gotowanie ciśnieniowe:</strong> sprawdzaj uszczelkę i zawór multicookera przed każdym użyciem, tak jak w klasycznym szybkowarze.</li>
+<li><strong>Sieć:</strong> umieść urządzenia z łącznością w sieci gościnnej lub osobnej, jeśli router na to pozwala, i włącz automatyczne aktualizacje.</li>
+<li><strong>Dane:</strong> przeczytaj ustawienia prywatności aplikacji i wyłącz zbędne udostępnianie danych.</li>
+</ul>
+
+<h2>Nasz werdykt</h2>
+<p>Dla większości domów najprzydatniejsze trio to <strong>Moulinex Cookeo Touch WiFi</strong> do codziennego gotowania, <strong>TP-Link Tapo P115</strong> do sterowania małymi urządzeniami i mierzenia ich zużycia oraz <strong>MEATER Plus</strong> do udanych mięs. Dodaj <strong>Etekcity ESN00</strong>, jeśli śledzisz swoje odżywianie, <strong>Inkbird IBT-4XS</strong>, jeśli często przyjmujesz gości przy grillu, oraz <strong>De'Longhi Eletta Explore</strong> w wersji Wi-Fi, jeśli priorytetem jest kawa. Wszystkie urządzenia znajdziesz w sekcji <a href="/pl/cuisine-connectee">inteligentna kuchnia</a>.</p>`,
   },
   faq: [
     {
@@ -636,6 +737,7 @@ export const article: BlogArticle = {
         es: "¿Merece realmente la pena una cocina conectada?",
         it: "Una cucina connessa vale davvero la pena?",
         nl: "Is een slimme keuken echt de moeite waard?",
+        pl: "Czy inteligentna kuchnia naprawdę się opłaca?",
       },
       answer: {
         fr: "Oui, si chaque appareil répond à un vrai besoin. Un thermomètre sans fil évite les cuissons ratées, un multicuiseur guidé simplifie les repas du quotidien et une prise avec suivi de consommation montre ce que coûtent vos appareils. Les gadgets sans usage clair, eux, finissent vite au placard.",
@@ -644,6 +746,7 @@ export const article: BlogArticle = {
         es: "Sí, siempre que cada aparato responda a una necesidad real. Un termómetro inalámbrico evita cocciones fallidas, una olla guiada simplifica las comidas diarias y un enchufe con medición muestra lo que gastan tus aparatos. Los cacharros sin un uso claro acaban pronto en el armario.",
         it: "Sì, se ogni apparecchio risponde a un bisogno reale. Un termometro senza fili evita cotture sbagliate, un multicooker guidato semplifica i pasti quotidiani e una presa con monitoraggio mostra quanto consumano i tuoi apparecchi. I gadget senza uno scopo chiaro finiscono presto in un armadio.",
         nl: "Ja, als elk apparaat een echte behoefte invult. Een draadloze thermometer voorkomt mislukt gegaard vlees, een begeleide multicooker maakt dagelijkse maaltijden eenvoudiger en een stekker met verbruiksmeting laat zien wat je apparaten verbruiken. Gadgets zonder duidelijk doel belanden snel in de kast.",
+        pl: "Tak, jeśli każde urządzenie odpowiada na realną potrzebę. Bezprzewodowy termometr chroni przed nieudanymi mięsami, multicooker z prowadzeniem upraszcza codzienne posiłki, a wtyczka z pomiarem energii pokazuje, ile kosztują Twoje urządzenia. Gadżety bez jasnego zastosowania szybko lądują w szafce.",
       },
     },
     {
@@ -654,6 +757,7 @@ export const article: BlogArticle = {
         es: "¿Por qué aparato empezar?",
         it: "Da quale apparecchio iniziare?",
         nl: "Met welk apparaat begin ik?",
+        pl: "Od jakiego urządzenia zacząć?",
       },
       answer: {
         fr: "Une prise connectée avec suivi de consommation, comme la TP-Link Tapo P115, est l'entrée la plus simple : elle rend vos appareils existants pilotables et mesure leur consommation. Si vous cuisinez souvent de la viande, un thermomètre sans fil est le deuxième achat le plus utile.",
@@ -662,6 +766,7 @@ export const article: BlogArticle = {
         es: "Un enchufe inteligente con medición de consumo, como el TP-Link Tapo P115, es la entrada más sencilla: hace controlables tus aparatos actuales y mide lo que consumen. Si cocinas carne a menudo, un termómetro inalámbrico es la siguiente compra más útil.",
         it: "Una presa smart con monitoraggio dei consumi, come la TP-Link Tapo P115, è il punto di partenza più semplice: rende controllabili gli apparecchi che hai già e ne misura i consumi. Se cucini spesso carne, un termometro senza fili è l'acquisto successivo più utile.",
         nl: "Een slimme stekker met verbruiksmeting, zoals de TP-Link Tapo P115, is de eenvoudigste instap: hij maakt je bestaande apparaten bedienbaar en meet hun verbruik. Als je vaak vlees bereidt, is een draadloze thermometer de volgende nuttigste aankoop.",
+        pl: "Inteligentna wtyczka z pomiarem energii, taka jak TP-Link Tapo P115, to najprostsze wejście: sprawia, że obecne urządzenia można sterować, i mierzy ich zużycie. Jeśli często przyrządzasz mięso, bezprzewodowy termometr to drugi najbardziej przydatny zakup.",
       },
     },
     {
@@ -672,6 +777,7 @@ export const article: BlogArticle = {
         es: "¿Es imprescindible que los aparatos de cocina sean compatibles con Matter?",
         it: "Gli apparecchi da cucina devono per forza essere compatibili Matter?",
         nl: "Moeten keukenapparaten per se Matter ondersteunen?",
+        pl: "Czy w kuchni koniecznie potrzebne są urządzenia zgodne z Matter?",
       },
       answer: {
         fr: "Non. Matter concerne surtout les prises, l'éclairage et les capteurs. Les multicuiseurs, cafetières et thermomètres fonctionnent presque toujours avec l'application de leur fabricant. Privilégiez Matter pour les prises si vous mélangez plusieurs écosystèmes, mais ne l'exigez pas pour un appareil de cuisson.",
@@ -680,6 +786,7 @@ export const article: BlogArticle = {
         es: "No. Matter afecta sobre todo a enchufes, iluminación y sensores. Las ollas, cafeteras y termómetros funcionan casi siempre con la app de su fabricante. Prioriza Matter en los enchufes si mezclas varios ecosistemas, pero no lo exijas en un aparato de cocción.",
         it: "No. Matter riguarda soprattutto prese, illuminazione e sensori. Multicooker, macchine del caffè e termometri funzionano quasi sempre con l'app del produttore. Preferisci Matter per le prese se usi più ecosistemi, ma non pretenderlo da un apparecchio di cottura.",
         nl: "Nee. Matter gaat vooral over stekkers, verlichting en sensoren. Multicookers, koffiemachines en thermometers werken bijna altijd via de app van de fabrikant. Kies Matter bij stekkers als je meerdere ecosystemen combineert, maar eis het niet van een kookapparaat.",
+        pl: "Nie. Matter dotyczy głównie wtyczek, oświetlenia i czujników. Multicookery, ekspresy do kawy i termometry niemal zawsze działają przez aplikację producenta. Preferuj Matter przy wtyczkach, jeśli łączysz kilka ekosystemów, ale nie wymagaj go od urządzenia do gotowania.",
       },
     },
     {
@@ -690,6 +797,7 @@ export const article: BlogArticle = {
         es: "Cookeo o Thermomix: ¿qué diferencia hay?",
         it: "Cookeo o Thermomix: che differenza c'è?",
         nl: "Cookeo of Thermomix: wat is het verschil?",
+        pl: "Cookeo czy Thermomix: jaka jest różnica?",
       },
       answer: {
         fr: "Le Cookeo est un multicuiseur sous pression : il cuit, mijote et cuit à la vapeur, mais ne coupe ni ne mixe. Le Thermomix est un robot-cuiseur qui hache, mixe, pétrit et cuit, dans une gamme de prix nettement supérieure. Pour des plats mijotés rapides et guidés, le Cookeo suffit largement.",
@@ -698,6 +806,7 @@ export const article: BlogArticle = {
         es: "La Cookeo es una olla a presión multifunción: cocina, guisa y cuece al vapor, pero no corta ni tritura. La Thermomix es un robot de cocina que pica, tritura, amasa y cocina, en una gama de precio muy superior. Para guisos rápidos y guiados, la Cookeo es más que suficiente.",
         it: "Il Cookeo è un multicooker a pressione: cuoce, stufa e cuoce a vapore, ma non trita né frulla. Il Bimby (Thermomix) è un robot da cucina che trita, frulla, impasta e cuoce, in una fascia di prezzo nettamente superiore. Per piatti unici rapidi e guidati, il Cookeo basta e avanza.",
         nl: "De Cookeo is een snelkook-multicooker: hij kookt, stooft en stoomt, maar hakt en mixt niet. De Thermomix is een keukenmachine met kookfunctie die hakt, mixt, kneedt en kookt, in een duidelijk hogere prijsklasse. Voor snelle, begeleide eenpansgerechten is de Cookeo ruim voldoende.",
+        pl: "Cookeo to ciśnieniowy multicooker: gotuje, dusi i gotuje na parze, ale nie kroi ani nie miksuje. Thermomix to robot kuchenny z funkcją gotowania, który sieka, miksuje, ugniata i gotuje, w znacznie wyższej klasie cenowej. Do szybkich, prowadzonych dań duszonych Cookeo w zupełności wystarcza.",
       },
     },
     {
@@ -708,6 +817,7 @@ export const article: BlogArticle = {
         es: "¿Se puede conectar cualquier aparato de cocina a un enchufe inteligente?",
         it: "Si può collegare qualsiasi apparecchio da cucina a una presa smart?",
         nl: "Kun je elk keukenapparaat op een slimme stekker aansluiten?",
+        pl: "Czy do inteligentnej wtyczki można podłączyć dowolne urządzenie kuchenne?",
       },
       answer: {
         fr: "Non. Respectez la puissance maximale indiquée par le fabricant de la prise, et n'allumez jamais à distance un appareil qui chauffe sans surveillance, comme un grille-pain ou une friteuse. Une prise connectée convient bien à une cafetière, une bouilloire ou un petit appareil dont vous voulez mesurer la consommation.",
@@ -716,6 +826,7 @@ export const article: BlogArticle = {
         es: "No. Respeta la carga máxima indicada por el fabricante del enchufe y nunca enciendas a distancia un aparato que calienta sin vigilancia, como una tostadora o una freidora. Un enchufe inteligente va bien con una cafetera, un hervidor o un pequeño aparato cuyo consumo quieras medir.",
         it: "No. Rispetta il carico massimo indicato dal produttore della presa e non accendere mai a distanza un apparecchio che scalda senza sorveglianza, come un tostapane o una friggitrice. Una presa smart è adatta a una macchina del caffè, un bollitore o un piccolo apparecchio di cui vuoi misurare i consumi.",
         nl: "Nee. Blijf binnen de maximale belasting die de fabrikant van de stekker opgeeft, en zet nooit op afstand een apparaat aan dat zonder toezicht verwarmt, zoals een broodrooster of friteuse. Een slimme stekker past goed bij een koffiemachine, waterkoker of klein apparaat waarvan je het verbruik wilt meten.",
+        pl: "Nie. Przestrzegaj maksymalnej mocy podanej przez producenta wtyczki i nigdy nie włączaj zdalnie bez nadzoru urządzenia, które się nagrzewa, takiego jak toster czy frytkownica. Inteligentna wtyczka dobrze nadaje się do ekspresu do kawy, czajnika lub małego urządzenia, którego zużycie chcesz mierzyć.",
       },
     },
     {
@@ -726,6 +837,7 @@ export const article: BlogArticle = {
         es: "¿Qué pasa si la app de un aparato deja de tener soporte?",
         it: "Cosa succede se l'app di un apparecchio non viene più aggiornata?",
         nl: "Wat gebeurt er als de app van een apparaat niet meer wordt ondersteund?",
+        pl: "Co się stanie, jeśli aplikacja urządzenia przestanie być rozwijana?",
       },
       answer: {
         fr: "Les fonctions connectées (recettes en ligne, notifications, pilotage à distance) peuvent disparaître, mais un appareil bien conçu continue de fonctionner avec ses commandes physiques. C'est pourquoi il vaut mieux choisir des marques établies et des appareils pleinement utilisables sans téléphone.",
@@ -734,6 +846,7 @@ export const article: BlogArticle = {
         es: "Las funciones conectadas (recetas en línea, avisos, control remoto) pueden desaparecer, pero un aparato bien diseñado sigue funcionando con sus mandos físicos. Por eso conviene elegir marcas consolidadas y aparatos plenamente utilizables sin móvil.",
         it: "Le funzioni connesse (ricette online, notifiche, controllo a distanza) possono sparire, ma un apparecchio ben progettato continua a funzionare con i comandi fisici. Per questo conviene scegliere marchi affermati e apparecchi pienamente utilizzabili senza smartphone.",
         nl: "Verbonden functies (online recepten, meldingen, bediening op afstand) kunnen verdwijnen, maar een goed ontworpen apparaat blijft werken met zijn knoppen. Daarom loont het om gevestigde merken te kiezen en apparaten die zonder telefoon volledig bruikbaar blijven.",
+        pl: "Funkcje z łącznością (przepisy online, powiadomienia, zdalne sterowanie) mogą zniknąć, ale dobrze zaprojektowane urządzenie nadal działa za pomocą fizycznych przycisków. Dlatego lepiej wybierać uznane marki i urządzenia w pełni użyteczne bez telefonu.",
       },
     },
   ],

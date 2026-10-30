@@ -666,6 +666,117 @@ const nl = `<p><strong>In 2026 is de Aqara Light Switch H2 EU voor de meeste Eur
 <h2>Ons oordeel</h2>
 <p>Voor de meeste woningen biedt de <strong>Aqara Light Switch H2 EU</strong> de beste balans: met of zonder nul, Matter-compatibel en open voor alle assistenten. Wil je je huidige schakelmateriaal houden en heb je een nuldraad, dan is de <strong>Shelly 1PM Gen4</strong> de voordeligste en flexibelste keuze. Huishoudens met Hue-lampen kiezen voor de <strong>Philips Hue Tap Dial Switch</strong>, terwijl Céliane- of Living Now-installaties het best binnen hun eigen serie van <strong>Legrand</strong> of <strong>BTicino</strong> with Netatmo blijven. Wil je ook op je energierekening besparen, bekijk dan onze <a href="/nl/blog/comparatif-smart-plugs-mesure-energie">vergelijking van slimme stekkers met energiemeting</a>.</p>`
 
+const pl = `<p><strong>W 2026 roku najlepszym inteligentnym włącznikiem światła dla większości europejskich domów jest Aqara Light Switch H2 EU</strong>: działa z przewodem neutralnym i bez niego, obsługuje Zigbee oraz Matter over Thread i integruje się z Apple Home, Google Home, Alexą i Home Assistant. Jeśli chcesz zachować obecne włączniki, najbardziej uniwersalnym rozwiązaniem jest moduł dopuszkowy <strong>Shelly 1PM Gen4</strong> ukryty za nimi, a jeśli Twoje żarówki są już inteligentne, bezprzewodowy sterownik ścienny na baterię, taki jak <strong>Philips Hue Tap Dial Switch</strong>, nie wymaga żadnego okablowania.</p>
+<p>To porównanie opiera się na specyfikacjach technicznych producentów, opublikowanych niezależnych analizach i opiniach zweryfikowanych kupujących. Obejmuje trzy główne rodziny: włączniki ścienne, moduły do montażu w puszce oraz piloty bezprzewodowe. Aby zobaczyć wszystkie dostępne modele, zajrzyj do naszej sekcji <a href="/pl/energie-domotique/interrupteurs">inteligentne włączniki</a>.</p>
+
+<h2>Kryteria wyboru inteligentnego włącznika światła</h2>
+<p>Zanim spojrzysz na marki, pięć pytań pozwala odrzucić 80% nietrafionych zakupów.</p>
+<ul>
+<li><strong>Czy w puszce montażowej jest przewód neutralny?</strong> To kryterium numer jeden. W wielu starszych mieszkaniach do włącznika dochodzi tylko faza i powrót do lampy. Wtedy potrzebny jest model „bez przewodu neutralnego”.</li>
+<li><strong>Jaki protokół bezprzewodowy?</strong> Zigbee, Wi-Fi, Thread i Matter mają inne wymagania (bramka, router brzegowy, pobór energii).</li>
+<li><strong>Czy żarówki są zwykłe, czy inteligentne?</strong> Przy zwykłych żarówkach włącznik musi odcinać prąd. Przy inteligentnych nie może ich w żadnym wypadku pozbawiać zasilania.</li>
+<li><strong>Jakie obciążenie?</strong> Modele bez przewodu neutralnego mają minimalną moc: poniżej niej niektóre LED migoczą lub słabo się świecą. Kompensator (zwany też „bypassem”) często rozwiązuje problem.</li>
+<li><strong>Jaki ekosystem?</strong> Apple Home, Google Home, Alexa, Home Assistant czy aplikacja producenta: sprawdź zgodność przed zakupem.</li>
+</ul>
+
+<h2>Z przewodem neutralnym czy bez: co to naprawdę zmienia</h2>
+<p>Inteligentny włącznik musi być stale zasilany, aby nasłuchiwać poleceń radiowych. <strong>Z przewodem neutralnym</strong> zasila się bezpośrednio między fazą a przewodem neutralnym: działa stabilnie, a funkcje takie jak pomiar zużycia energii czy zabezpieczenie przed przeciążeniem stają się możliwe. <strong>Bez przewodu neutralnego</strong> moduł pobiera bardzo mały prąd przez samą żarówkę. Sprawdza się to przy wystarczającym obciążeniu, ale przy LED o małej mocy może powodować migotanie lub resztkowe świecenie.</p>
+<p>Aby to sprawdzić, wyłącz wyłącznik nadprądowy, zdemontuj włącznik i obejrzyj przewody: niebieski przewód (neutralny) obecny w puszce i niepodłączony do włącznika to dobry znak, ale w starszych instalacjach kolory nie zawsze są wiarygodne. W razie wątpliwości zleć kontrolę elektrykowi.</p>
+
+<h2>Zigbee, Wi-Fi, Thread czy Matter: jaki protokół wybrać?</h2>
+<ul>
+<li><strong>Zigbee</strong>: protokół z siecią kratową (mesh), oszczędny i sprawdzony. Wymaga bramki (Aqara, Philips Hue, IKEA DIRIGERA, bramka Netatmo, Home Assistant z kluczem Zigbee). Urządzenia zasilane z sieci elektrycznej wzmacniają sieć.</li>
+<li><strong>Wi-Fi</strong>: bez bramki, konfiguracja bezpośrednio ze smartfona. W zamian pobór energii jest wyższy, a moduły Wi-Fi zazwyczaj wymagają przewodu neutralnego. Duża liczba urządzeń Wi-Fi obciąża też router.</li>
+<li><strong>Thread</strong>: sieć kratowa o niskim poborze energii, jak Zigbee, ale oparta na IP. Potrzebny jest „router brzegowy Thread”, wbudowany w niektóre nowsze głośniki i centrale inteligentnego domu.</li>
+<li><strong>Matter</strong>: to nie radio, lecz wspólny standard działający przez Thread lub Wi-Fi. Urządzenie Matter można dodać do kilku ekosystemów jednocześnie, co ogranicza ryzyko uzależnienia od jednego producenta.</li>
+</ul>
+<p>Aby lepiej poznać te standardy, przeczytaj nasz poradnik <a href="/pl/blog/maison-connectee-matter-thread-2026">inteligentny dom: Matter i Thread w 2026 roku</a>.</p>
+
+<h2>6 najlepszych inteligentnych włączników światła 2026</h2>
+
+<h3>1. Aqara Light Switch H2 EU — najlepszy wybór ogólny</h3>
+<p>Wprowadzony w Europie na początku 2025 roku <strong>Aqara Light Switch H2 EU</strong> to włącznik ścienny w europejskim formacie, który obsługuje instalacje <strong>z przewodem neutralnym i bez niego</strong>. Łączy <strong>Zigbee i Matter over Thread</strong>, dzięki czemu może współpracować z Apple Home, Google Home, Amazon Alexa lub Home Assistant. Występuje w wersji 2-przyciskowej (1 kanał) i 4-przyciskowej (2 kanały).</p>
+<p><strong>Mocne strony:</strong> podwójna zgodność Zigbee i Matter, praca bez przewodu neutralnego, pomiar zużycia energii oraz zabezpieczenie przed przeciążeniem i przegrzaniem po podłączeniu przewodu neutralnego, dodatkowe przyciski, które można wykorzystać do scen.</p>
+<p><strong>Ograniczenia:</strong> Matter over Thread zakłada router brzegowy Thread; w Zigbee potrzebna jest bramka Aqara lub zgodna. Wygląd nie pasuje do istniejących serii osprzętu.</p>
+<p><strong>Dla kogo:</strong> dla osób, które chcą nowoczesnego włącznika otwartego na wszystkie ekosystemy, także w mieszkaniu bez przewodu neutralnego.</p>
+
+<h3>2. Legrand Céliane with Netatmo — najlepiej dopracowana integracja we Francji</h3>
+<p>Seria <strong>Céliane with Netatmo</strong> wykorzystuje wygląd osprzętu Céliane, bardzo rozpowszechnionego we Francji. Inteligentne włączniki <strong>bez przewodu neutralnego</strong> są dostępne w wersji z opcją ściemniacza (5–125 W według Legrand) oraz w wersji On/Off do 200 W, dostarczanej z kompensatorem do małych obciążeń LED. Komunikują się w Zigbee z bramką Netatmo i są sterowane przez aplikację Home + Control, z Alexą, Asystentem Google i Apple HomeKit.</p>
+<p><strong>Mocne strony:</strong> wygląd identyczny jak reszta instalacji Céliane, brak wymogu przewodu neutralnego, kompensator w zestawie, zgodność z trzema głównymi asystentami.</p>
+<p><strong>Ograniczenia:</strong> bramka Netatmo jest niezbędna, seria podstawowa jest droższa niż rozwiązania uniwersalne, a sens wyboru maleje, jeśli mieszkanie nie jest wyposażone w osprzęt Céliane.</p>
+<p><strong>Dla kogo:</strong> dla remontów i nowych budynków z osprzętem Céliane oraz dla osób, które wolą rozwiązanie montowane przez elektryka.</p>
+
+<h3>3. BTicino Living Now with Netatmo — odpowiednik na rynek włoski</h3>
+<p>Marka <strong>BTicino</strong>, należąca do tej samej grupy co Legrand, oferuje serię <strong>Living Now with Netatmo</strong>, bardzo popularną we Włoszech. Inteligentny włącznik bez przewodu neutralnego z opcją ściemniacza (numer katalogowy K4413CM2) obsługuje obciążenia od 5 do 125 W; istnieje także wersja z przewodem neutralnym. Radio to <strong>Zigbee 3.0</strong>, a zgodność obejmuje Apple HomeKit, Asystenta Google i Amazon Alexa przez aplikację Home + Control.</p>
+<p><strong>Mocne strony:</strong> stonowany wygląd, wersje z przewodem neutralnym lub bez, spójny ekosystem z gniazdami i sterowaniem roletami z tej samej serii.</p>
+<p><strong>Ograniczenia:</strong> format dostosowany do włoskich puszek, wymagana bramka, niewielki sens poza instalacją Living Now.</p>
+<p><strong>Dla kogo:</strong> dla mieszkań wyposażonych w BTicino lub remontowanych z użyciem tej serii.</p>
+
+<h3>4. Shelly 1PM Gen4 — najlepszy stosunek jakości do ceny, jeśli chcesz zachować włączniki</h3>
+<p><strong>Shelly 1PM Gen4</strong> nie jest włącznikiem, lecz <strong>modułem dopuszkowym, który wsuwasz za istniejący włącznik</strong>. Ten przekaźnik 16 A mierzy zużycie energii i obsługuje jednocześnie <strong>Wi-Fi, Bluetooth, Zigbee i Matter</strong>, bez obowiązkowej bramki. Jego wymiary (około 37 × 42 × 16 mm) pozwalają zmieścić go w dostatecznie głębokiej puszce.</p>
+<p><strong>Mocne strony:</strong> zachowujesz swój osprzęt i jego wygląd, duża uniwersalność protokołów, lokalny serwer WWW, tryb „odłączony”, w którym włącznik wysyła polecenie bez odcinania prądu (idealny z inteligentnymi żarówkami).</p>
+<p><strong>Ograniczenia:</strong> <strong>wymagany przewód neutralny</strong> (do instalacji bez przewodu neutralnego Shelly oferuje Shelly 1L Gen4 w połączeniu z bypassem), bardziej techniczne okablowanie, czasem za mało miejsca w płytkich puszkach.</p>
+<p><strong>Dla kogo:</strong> dla zaawansowanych majsterkowiczów i instalatorów, którzy chcą uczynić całe mieszkanie inteligentnym bez wymiany osprzętu.</p>
+
+<h3>5. Philips Hue Tap Dial Switch — najlepszy do inteligentnych żarówek</h3>
+<p><strong>Philips Hue Tap Dial Switch</strong> to bezprzewodowy sterownik na baterię z <strong>czterema programowalnymi przyciskami i pokrętłem do ściemniania</strong>. Mocuje się do ściany na klej lub kładzie na powierzchni magnetycznej i można go odłączyć, by używać jako pilota. W połączeniu z Hue Bridge, który według Philips jest wymagany, może sterować nawet trzema pomieszczeniami lub jedną strefą, przywoływać sceny zależnie od pory dnia lub uruchamiać automatyzacje.</p>
+<p><strong>Mocne strony:</strong> brak okablowania, wygodne pokrętło do regulacji jasności, wiele scen, idealny do mieszkania wynajmowanego.</p>
+<p><strong>Ograniczenia:</strong> ograniczony do ekosystemu Hue, bateria do wymiany, nie zastępuje włącznika, który odcina prąd zwykłym żarówkom.</p>
+<p><strong>Dla kogo:</strong> dla domów już wyposażonych w żarówki Hue. Do prostszego zastosowania Hue Dimmer Switch pozostaje bardziej podstawową alternatywą.</p>
+
+<h3>6. IKEA RODRET — najbardziej przystępny pilot</h3>
+<p>Bezprzewodowy ściemniacz <strong>IKEA RODRET</strong> włącza, wyłącza i reguluje jasność nawet dziesięciu źródeł światła IKEA jednocześnie. Paruje się bezpośrednio z inteligentnymi żarówkami i oprawami tej marki w Zigbee albo jest zarządzany w aplikacji IKEA Home smart przez bramkę DIRIGERA. Jeśli potrzebujesz więcej przycisków, IKEA STYRBAR umożliwia też zmianę barwy światła.</p>
+<p><strong>Mocne strony:</strong> bardzo przystępny, brak okablowania, działa nawet bez bramki.</p>
+<p><strong>Ograniczenia:</strong> zaprojektowany do oświetlenia IKEA, ograniczone funkcje bez DIRIGERA, proste wykonanie.</p>
+<p><strong>Dla kogo:</strong> dla osób z małym budżetem i najemców wyposażonych w żarówki IKEA.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Typ</th><th>Przewód neutralny</th><th>Łączność</th><th>Idealny do</th></tr>
+</thead>
+<tbody>
+<tr><td>Aqara Light Switch H2 EU</td><td>Włącznik ścienny</td><td>Z lub bez</td><td>Zigbee, Matter over Thread</td><td>Uniwersalne zastosowanie w wielu ekosystemach</td></tr>
+<tr><td>Legrand Céliane with Netatmo</td><td>Włącznik ścienny</td><td>Bez (kompensator w zestawie)</td><td>Zigbee + bramka Netatmo</td><td>Instalacje Céliane</td></tr>
+<tr><td>BTicino Living Now with Netatmo</td><td>Włącznik ścienny</td><td>Z lub bez, zależnie od wersji</td><td>Zigbee 3.0 + bramka</td><td>Instalacje BTicino</td></tr>
+<tr><td>Shelly 1PM Gen4</td><td>Moduł do montażu w puszce</td><td>Wymagany</td><td>Wi-Fi, Bluetooth, Zigbee, Matter</td><td>Zachowanie obecnych włączników</td></tr>
+<tr><td>Philips Hue Tap Dial Switch</td><td>Sterownik na baterię</td><td>Nie dotyczy</td><td>Zigbee (Hue Bridge)</td><td>Żarówki Hue, wynajem</td></tr>
+<tr><td>IKEA RODRET</td><td>Sterownik na baterię</td><td>Nie dotyczy</td><td>Zigbee (DIRIGERA opcjonalnie)</td><td>Mały budżet, oświetlenie IKEA</td></tr>
+</tbody>
+</table>
+
+<h2>Fizyczne włączniki przy inteligentnych żarówkach</h2>
+<p>To najczęstsza pułapka: montujesz inteligentne żarówki, ktoś wyłącza włącznik ścienny i żarówki stają się nieosiągalne. Są trzy rozwiązania:</p>
+<ul>
+<li><strong>Wymień włącznik na sterownik bezprzewodowy</strong> (Hue Tap Dial, RODRET) i zostaw obwód stale pod napięciem, na przykład wykonując obejście włącznika za ramką; tę pracę zleć elektrykowi.</li>
+<li><strong>Zamontuj moduł w trybie odłączonym</strong> (Shelly 1PM Gen4): włącznik wysyła polecenie zamiast odcinać prąd, a Ty zachowujesz dotychczasowy gest.</li>
+<li><strong>Wybierz włącznik ścienny, którego przyciski mogą sterować scenami</strong>, jak niektóre modele Aqara, skonfigurowane tak, by nie odcinały zasilania.</li>
+</ul>
+<p>I odwrotnie, jeśli zostajesz przy zwykłych żarówkach, inteligentny włącznik musi sterować obciążeniem: sprawdź zgodność ze ściemnialnymi żarówkami, jeśli korzystasz z funkcji ściemniania. Wybierając żarówki, zajrzyj do naszego <a href="/pl/blog/eclairage-connecte-comparatif">porównania inteligentnego oświetlenia</a>.</p>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Kupno modelu z przewodem neutralnym bez sprawdzenia puszki</strong>: to przyczyna zwrotów numer jeden.</li>
+<li><strong>Ignorowanie minimalnej mocy</strong> modeli bez przewodu neutralnego: wystarczy jedna LED o małej mocy, by migotała.</li>
+<li><strong>Zapomnienie o układach schodowych</strong>: obwód sterowany z dwóch miejsc wymaga specjalnego okablowania lub zgodnego drugiego sterownika.</li>
+<li><strong>Zlekceważenie głębokości puszki</strong>: moduł lub inteligentny włącznik zajmuje więcej miejsca niż zwykły model.</li>
+<li><strong>Mieszanie ekosystemów bez planu</strong>: najpierw wybierz główną aplikację, potem zgodne urządzenia.</li>
+<li><strong>Podłączanie ściemniania do żarówek nieściemnialnych</strong>: wyłącz funkcję lub zmień żarówki.</li>
+</ul>
+
+<h2>Montaż i bezpieczeństwo</h2>
+<p>Wymiana włącznika to ingerencja w stałą instalację elektryczną. Obowiązuje kilka podstawowych zasad:</p>
+<ul>
+<li><strong>Wyłącz wyłącznik nadprądowy obwodu</strong> w rozdzielnicy, a nie tylko włącznik, po czym sprawdź brak napięcia odpowiednim próbnikiem.</li>
+<li><strong>Stosuj się do instrukcji producenta</strong>: schemat połączeń, przekrój przewodów, maksymalne obciążenie.</li>
+<li><strong>Nigdy nie przekraczaj podanej mocy znamionowej</strong>, szczególnie w przypadku ściemniaczy.</li>
+<li><strong>Skorzystaj z pomocy wykwalifikowanego elektryka</strong>, jeśli nie masz pewności co do rozpoznania przewodów, jeśli instalacja jest stara lub masz jakiekolwiek wątpliwości. Instalacja musi pozostać zgodna z przepisami obowiązującymi w Twoim kraju; we Francji jest to norma NF C 15-100.</li>
+</ul>
+<p>Sterowniki na baterię nie wymagają żadnej ingerencji elektrycznej: to najbezpieczniejsze rozwiązanie dla najemców.</p>
+
+<h2>Nasz werdykt</h2>
+<p>Dla większości mieszkań <strong>Aqara Light Switch H2 EU</strong> oferuje najlepszą równowagę: z przewodem neutralnym lub bez, zgodny z Matter, otwarty na wszystkich asystentów. Jeśli zależy Ci na obecnym osprzęcie i masz przewód neutralny, <strong>Shelly 1PM Gen4</strong> to wybór najbardziej ekonomiczny i elastyczny. Domy z żarówkami Hue wybiorą <strong>Philips Hue Tap Dial Switch</strong>, a instalacjom Céliane lub Living Now opłaca się pozostać przy serii <strong>Legrand</strong> lub <strong>BTicino</strong> with Netatmo. Aby obniżyć także rachunki, zobacz nasze <a href="/pl/blog/comparatif-smart-plugs-mesure-energie">porównanie inteligentnych wtyczek z pomiarem energii</a>.</p>`
+
 export const article: BlogArticle = {
   slug: 'interrupteur-connecte-comparatif',
   category: 'comparatifs',
@@ -684,6 +795,7 @@ export const article: BlogArticle = {
         es: 'Interruptor doble de balancín blanco en una pared oscura',
         it: 'Interruttore doppio bianco a bilanciere su una parete scura',
         nl: 'Witte dubbele wipschakelaar aan een donkere muur',
+        pl: 'Podwójny biały włącznik ścienny klawiszowy na ciemnej ścianie',
       },
     },
   ],
@@ -694,6 +806,7 @@ export const article: BlogArticle = {
     es: 'Mejor Interruptor Inteligente 2026: Comparativa de 6 Modelos',
     it: 'Miglior Interruttore Smart 2026: Confronto tra 6 Modelli',
     nl: 'Beste Slimme Lichtschakelaar 2026: 6 Modellen Vergeleken',
+    pl: 'Najlepszy inteligentny włącznik światła 2026: porównanie 6 modeli',
   },
   excerpt: {
     fr: "Aqara H2, Legrand Céliane, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial et IKEA RODRET : quel interrupteur connecté choisir avec ou sans neutre, en Zigbee, Wi-Fi ou Matter.",
@@ -702,8 +815,9 @@ export const article: BlogArticle = {
     es: 'Aqara H2, Legrand Céliane, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial e IKEA RODRET: qué interruptor inteligente elegir, con o sin neutro, en Zigbee, Wi-Fi o Matter.',
     it: 'Aqara H2, Legrand Céliane, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial e IKEA RODRET: quale interruttore smart scegliere, con o senza neutro, in Zigbee, Wi-Fi o Matter.',
     nl: 'Aqara H2, Legrand Céliane, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial en IKEA RODRET: welke slimme schakelaar kiezen, met of zonder nul, via Zigbee, wifi of Matter.',
+    pl: 'Aqara H2, Legrand Céliane, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial i IKEA RODRET: jaki inteligentny włącznik wybrać z przewodem neutralnym lub bez, w Zigbee, Wi-Fi lub Matter.',
   },
-  content: { fr, en, de, es, it, nl },
+  content: { fr, en, de, es, it, nl, pl },
   faq: [
     {
       question: {
@@ -713,6 +827,7 @@ export const article: BlogArticle = {
         es: '¿Se puede instalar un interruptor inteligente sin cable neutro?',
         it: 'Si può installare un interruttore smart senza filo neutro?',
         nl: 'Kun je een slimme schakelaar zonder nuldraad installeren?',
+        pl: 'Czy można zamontować inteligentny włącznik bez przewodu neutralnego?',
       },
       answer: {
         fr: "Oui, à condition de choisir un modèle prévu pour : Aqara Light Switch H2 EU, Legrand Céliane with Netatmo sans neutre ou BTicino Living Now sans neutre. Respectez la puissance minimale indiquée et ajoutez un compensateur si des LED scintillent. Les modules Wi-Fi et le Shelly 1PM Gen4 exigent en revanche un neutre.",
@@ -721,6 +836,7 @@ export const article: BlogArticle = {
         es: 'Sí, siempre que elijas un modelo diseñado para ello: Aqara Light Switch H2 EU, Legrand Céliane with Netatmo sin neutro o BTicino Living Now sin neutro. Respeta la potencia mínima indicada y añade un compensador si los LED parpadean. En cambio, los módulos Wi-Fi y el Shelly 1PM Gen4 necesitan neutro.',
         it: "Sì, purché si scelga un modello pensato per questo: Aqara Light Switch H2 EU, Legrand Céliane with Netatmo senza neutro o BTicino Living Now senza neutro. Rispetta il carico minimo indicato e aggiungi un compensatore se i LED sfarfallano. I moduli Wi-Fi e lo Shelly 1PM Gen4 richiedono invece il neutro.",
         nl: 'Ja, mits je een model kiest dat daarvoor bedoeld is: Aqara Light Switch H2 EU, Legrand Céliane with Netatmo zonder nul of BTicino Living Now zonder nul. Respecteer de opgegeven minimale belasting en voeg een compensator toe als ledlampen knipperen. Wifimodules en de Shelly 1PM Gen4 hebben wel een nuldraad nodig.',
+        pl: 'Tak, pod warunkiem wyboru modelu do tego przeznaczonego: Aqara Light Switch H2 EU, Legrand Céliane with Netatmo w wersji bez przewodu neutralnego lub BTicino Living Now w wersji bez przewodu neutralnego. Przestrzegaj podanej mocy minimalnej i dodaj kompensator, jeśli LED migoczą. Moduły Wi-Fi i Shelly 1PM Gen4 wymagają natomiast przewodu neutralnego.',
       },
     },
     {
@@ -731,6 +847,7 @@ export const article: BlogArticle = {
         es: '¿Hace falta una pasarela para un interruptor inteligente?',
         it: 'Serve un gateway per un interruttore smart?',
         nl: 'Heb je een hub nodig voor een slimme schakelaar?',
+        pl: 'Czy do inteligentnego włącznika potrzebna jest bramka?',
       },
       answer: {
         fr: "Cela dépend du protocole. Les modèles Zigbee demandent une passerelle (Aqara, Hue, DIRIGERA, Netatmo), les modèles Matter over Thread un routeur de bordure Thread, tandis que les modules Wi-Fi comme le Shelly 1PM Gen4 fonctionnent sans passerelle.",
@@ -739,6 +856,7 @@ export const article: BlogArticle = {
         es: 'Depende del protocolo. Los modelos Zigbee necesitan una pasarela (Aqara, Hue, DIRIGERA, Netatmo), los Matter over Thread un router de borde Thread, mientras que los módulos Wi-Fi como el Shelly 1PM Gen4 funcionan sin pasarela.',
         it: 'Dipende dal protocollo. I modelli Zigbee richiedono un gateway (Aqara, Hue, DIRIGERA, Netatmo), quelli Matter over Thread un border router Thread, mentre i moduli Wi-Fi come lo Shelly 1PM Gen4 funzionano senza gateway.',
         nl: 'Dat hangt af van het protocol. Zigbee-modellen hebben een hub nodig (Aqara, Hue, DIRIGERA, Netatmo), Matter over Thread-modellen een Thread border router, terwijl wifimodules zoals de Shelly 1PM Gen4 zonder hub werken.',
+        pl: 'To zależy od protokołu. Modele Zigbee wymagają bramki (Aqara, Hue, DIRIGERA, Netatmo), modele Matter over Thread routera brzegowego Thread, natomiast moduły Wi-Fi, jak Shelly 1PM Gen4, działają bez bramki.',
       },
     },
     {
@@ -749,6 +867,7 @@ export const article: BlogArticle = {
         es: '¿Cómo mantener mis interruptores de pared con bombillas inteligentes?',
         it: 'Come mantenere gli interruttori a muro con le lampadine smart?',
         nl: 'Hoe houd ik mijn wandschakelaars met slimme lampen?',
+        pl: 'Jak zachować ścienne włączniki przy inteligentnych żarówkach?',
       },
       answer: {
         fr: "Le plus simple est un module en mode détaché, comme le Shelly 1PM Gen4 : l'interrupteur envoie un ordre sans couper le courant, et les ampoules restent joignables. Autre option : laisser le circuit alimenté et utiliser une commande sans fil comme le Hue Tap Dial Switch ou l'IKEA RODRET.",
@@ -757,6 +876,7 @@ export const article: BlogArticle = {
         es: 'Lo más sencillo es un módulo en modo desacoplado, como el Shelly 1PM Gen4: el interruptor envía una orden sin cortar la corriente y las bombillas siguen accesibles. Otra opción es dejar el circuito alimentado y usar un mando inalámbrico como el Hue Tap Dial Switch o el IKEA RODRET.',
         it: "La soluzione più semplice è un modulo in modalità detached, come lo Shelly 1PM Gen4: l'interruttore invia un comando senza togliere corrente e le lampadine restano raggiungibili. In alternativa si lascia il circuito alimentato e si usa un comando wireless come l'Hue Tap Dial Switch o l'IKEA RODRET.",
         nl: 'Het eenvoudigst is een relais in detached-modus, zoals de Shelly 1PM Gen4: de schakelaar stuurt een commando zonder de stroom te onderbreken, zodat de lampen bereikbaar blijven. Je kunt ook het circuit onder spanning laten en een draadloze bediening gebruiken, zoals de Hue Tap Dial Switch of IKEA RODRET.',
+        pl: 'Najprościej użyć modułu w trybie odłączonym, jak Shelly 1PM Gen4: włącznik wysyła polecenie bez odcinania prądu, a żarówki pozostają osiągalne. Inna opcja: zostawić obwód pod napięciem i użyć sterownika bezprzewodowego, takiego jak Hue Tap Dial Switch lub IKEA RODRET.',
       },
     },
     {
@@ -767,6 +887,7 @@ export const article: BlogArticle = {
         es: 'Matter o Zigbee: ¿qué es mejor para un interruptor inteligente?',
         it: 'Matter o Zigbee: cosa scegliere per un interruttore smart?',
         nl: 'Matter of Zigbee: wat is beter voor een slimme schakelaar?',
+        pl: 'Matter czy Zigbee: co wybrać do inteligentnego włącznika?',
       },
       answer: {
         fr: "Zigbee est éprouvé et très répandu, mais lié à une passerelle. Matter permet d'utiliser le même appareil dans plusieurs écosystèmes (Apple, Google, Amazon). Les modèles qui proposent les deux, comme l'Aqara Light Switch H2 EU ou le Shelly 1PM Gen4, offrent le plus de liberté.",
@@ -775,6 +896,7 @@ export const article: BlogArticle = {
         es: 'Zigbee es fiable y está muy extendido, pero depende de una pasarela. Matter permite usar el mismo dispositivo en varios ecosistemas (Apple, Google, Amazon). Los modelos que ofrecen ambos, como el Aqara Light Switch H2 EU o el Shelly 1PM Gen4, dan la mayor libertad.',
         it: "Zigbee è collaudato e diffuso, ma legato a un gateway. Matter consente di usare lo stesso dispositivo in più ecosistemi (Apple, Google, Amazon). I modelli che offrono entrambi, come l'Aqara Light Switch H2 EU o lo Shelly 1PM Gen4, garantiscono la massima libertà.",
         nl: 'Zigbee is beproefd en wijdverbreid, maar gebonden aan een hub. Met Matter kun je hetzelfde apparaat in meerdere ecosystemen gebruiken (Apple, Google, Amazon). Modellen met beide, zoals de Aqara Light Switch H2 EU of de Shelly 1PM Gen4, bieden de meeste vrijheid.',
+        pl: 'Zigbee jest sprawdzony i bardzo rozpowszechniony, ale związany z bramką. Matter pozwala używać tego samego urządzenia w kilku ekosystemach (Apple, Google, Amazon). Modele oferujące oba standardy, jak Aqara Light Switch H2 EU czy Shelly 1PM Gen4, dają najwięcej swobody.',
       },
     },
     {
@@ -785,6 +907,7 @@ export const article: BlogArticle = {
         es: '¿Puedo instalar yo mismo un interruptor inteligente?',
         it: 'Posso installare da solo un interruttore smart?',
         nl: 'Kan ik zelf een slimme schakelaar installeren?',
+        pl: 'Czy mogę sam zamontować inteligentny włącznik?',
       },
       answer: {
         fr: "Un bricoleur expérimenté peut le faire en coupant le disjoncteur du circuit, en vérifiant l'absence de tension et en suivant la notice. Au moindre doute sur le câblage ou sur une installation ancienne, faites appel à un électricien qualifié. Les commandes sur pile ne nécessitent aucune intervention électrique.",
@@ -793,6 +916,7 @@ export const article: BlogArticle = {
         es: 'Un aficionado con experiencia puede hacerlo bajando el magnetotérmico del circuito, comprobando la ausencia de tensión y siguiendo las instrucciones. Ante cualquier duda sobre el cableado o en instalaciones antiguas, recurre a un electricista cualificado. Los mandos a pilas no requieren intervención eléctrica.',
         it: "Un appassionato esperto può farlo abbassando il magnetotermico del circuito, verificando l'assenza di tensione e seguendo le istruzioni. In caso di dubbi sul cablaggio o con impianti datati, rivolgiti a un elettricista qualificato. I comandi a batteria non richiedono alcun intervento elettrico.",
         nl: 'Een ervaren klusser kan dit doen door de groep uit te schakelen, te controleren of er geen spanning meer is en de handleiding te volgen. Bij de minste twijfel over de bedrading of bij een oude installatie schakel je een erkende elektricien in. Bedieningen op batterij vragen geen ingreep in de elektriciteit.',
+        pl: 'Doświadczony majsterkowicz może to zrobić, wyłączając wyłącznik nadprądowy obwodu, sprawdzając brak napięcia i postępując zgodnie z instrukcją. Przy najmniejszej wątpliwości co do okablowania lub w starej instalacji skorzystaj z pomocy wykwalifikowanego elektryka. Sterowniki na baterie nie wymagają żadnej ingerencji w instalację elektryczną.',
       },
     },
     {
@@ -803,6 +927,7 @@ export const article: BlogArticle = {
         es: '¿Por qué parpadean mis LED con un interruptor inteligente?',
         it: 'Perché i miei LED sfarfallano con un interruttore smart?',
         nl: 'Waarom knipperen mijn ledlampen met een slimme schakelaar?',
+        pl: 'Dlaczego moje LED migoczą przy inteligentnym włączniku?',
       },
       answer: {
         fr: "Sur un modèle sans neutre, le module s'alimente à travers l'ampoule : si la charge est trop faible, les LED peuvent scintiller ou rester légèrement allumées. Un compensateur (bypass) installé près du luminaire, une charge plus importante ou un modèle avec neutre règlent généralement le problème.",
@@ -811,6 +936,7 @@ export const article: BlogArticle = {
         es: 'En un modelo sin neutro, el módulo se alimenta a través de la bombilla: si la carga es demasiado baja, los LED pueden parpadear o quedar ligeramente encendidos. Un compensador (bypass) junto a la luminaria, una carga mayor o un modelo con neutro suelen resolverlo.',
         it: "Nei modelli senza neutro il modulo si alimenta attraverso la lampadina: se il carico è troppo basso, i LED possono sfarfallare o restare debolmente accesi. Un compensatore (bypass) vicino al punto luce, un carico maggiore o un modello con neutro di solito risolvono il problema.",
         nl: 'Bij een model zonder nul haalt de module zijn voeding via de lamp: is de belasting te laag, dan kunnen ledlampen knipperen of zwak blijven gloeien. Een compensator (bypass) bij het armatuur, een hogere belasting of een model met nul lost dit meestal op.',
+        pl: 'W modelu bez przewodu neutralnego moduł zasila się przez żarówkę: jeśli obciążenie jest zbyt małe, LED mogą migotać lub lekko się świecić. Kompensator (bypass) zamontowany przy oprawie, większe obciążenie lub model z przewodem neutralnym zwykle rozwiązują problem.',
       },
     },
   ],

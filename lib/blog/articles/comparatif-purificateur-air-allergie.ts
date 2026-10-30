@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Purificador de aire blanco en el suelo junto a una lámpara de pie en un interior minimalista',
         it: 'Purificatore d’aria bianco appoggiato a terra accanto a una lampada da terra in un ambiente essenziale',
         nl: 'Witte luchtreiniger op de vloer naast een staande lamp in een strak interieur',
+        pl: 'Biały oczyszczacz powietrza stojący na podłodze obok lampy stojącej, w wysprzątanym wnętrzu',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Comparativa purificador de aire para alergias 2026: los 5 mejores modelos',
     it: 'Confronto purificatore d’aria per allergie 2026: i 5 migliori modelli',
     nl: 'Luchtreiniger voor allergie 2026: de 5 beste modellen vergeleken',
+    pl: 'Oczyszczacz powietrza dla alergików 2026: porównanie 5 najlepszych modeli',
   },
   excerpt: {
     fr: 'Levoit Core 400S, Levoit Core 300S, Philips AC2939/10, Blueair Blue Pure 411i Max et Xiaomi Smart Air Purifier 4 : notre comparatif 2026 des purificateurs d’air pour allergiques, basé sur les fiches techniques, les avis indépendants et les retours d’acheteurs.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Levoit Core 400S, Levoit Core 300S, Philips AC2939/10, Blueair Blue Pure 411i Max y Xiaomi Smart Air Purifier 4: nuestra comparativa 2026 de purificadores para personas alérgicas, basada en fichas técnicas, análisis independientes y opiniones de compradores.',
     it: 'Levoit Core 400S, Levoit Core 300S, Philips AC2939/10, Blueair Blue Pure 411i Max e Xiaomi Smart Air Purifier 4: il nostro confronto 2026 dei purificatori per chi soffre di allergie, basato su schede tecniche, recensioni indipendenti e pareri degli acquirenti.',
     nl: 'Levoit Core 400S, Levoit Core 300S, Philips AC2939/10, Blueair Blue Pure 411i Max en Xiaomi Smart Air Purifier 4: onze vergelijking 2026 van luchtreinigers voor mensen met allergie, op basis van specificaties, onafhankelijke reviews en kopersfeedback.',
+    pl: 'Levoit Core 400S, Levoit Core 300S, Philips AC2939/10, Blueair Blue Pure 411i Max i Xiaomi Smart Air Purifier 4: porównanie oczyszczaczy powietrza dla alergików w 2026 roku, oparte na kartach katalogowych, niezależnych recenzjach i opiniach kupujących.',
   },
   content: {
     fr: `<p><strong>Pour la plupart des personnes allergiques, le meilleur purificateur d’air en 2026 est le Levoit Core 400S</strong> : un filtre HEPA, un CADR de 400 m³/h annoncé, un capteur de particules qui pilote le mode automatique et un mode nuit discret. Pour une chambre seule, le Levoit Core 300S offre l’essentiel dans un format compact, et le Blueair Blue Pure 411i Max s’adresse à ceux qui dorment mal au moindre bruit.</p>
@@ -547,6 +550,90 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>De <strong>Levoit Core 400S</strong> is voor de meeste mensen met allergie de meest evenwichtige keuze: hoog debiet, nauwkeurige sensor, uitgebreide app. De <strong>Levoit Core 300S</strong> volstaat voor een slaapkamer en is het voordeligst. De <strong>Blueair Blue Pure 411i Max</strong> is ’s nachts het prettigst voor wie gevoelig is voor geluid. De <strong>Philips AC2939/10</strong> en de <strong>Xiaomi Smart Air Purifier 4</strong> passen bij grote ruimtes, de laatste vooral als je al het Xiaomi-ecosysteem gebruikt.</p>`,
+    pl: `<p><strong>Dla większości alergików najlepszym oczyszczaczem powietrza w 2026 roku jest Levoit Core 400S</strong>: filtr HEPA, deklarowany CADR 400 m³/h, czujnik cząstek sterujący trybem automatycznym i dyskretny tryb nocny. Do samej sypialni Levoit Core 300S oferuje to, co najważniejsze, w kompaktowej obudowie, a Blueair Blue Pure 411i Max jest dla tych, którzy źle śpią przy najmniejszym hałasie.</p>
+<p>Porównanie opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących; nie zastępuje opinii lekarza ani alergologa. Oczyszczacz powietrza może zmniejszyć ilość pyłków, sierści zwierząt i drobnych cząstek unoszących się w pomieszczeniu, ale nie leczy alergii. Cały wybór znajdziesz na naszej stronie <a href="/pl/confort-air/purificateurs-air">oczyszczacze powietrza</a>, a podstawy techniczne w naszym <a href="/pl/blog/guide-purificateur-air-2026">kompletnym poradniku o oczyszczaczach powietrza</a>.</p>
+
+<h2>Co oczyszczacz może (a czego nie może) zrobić przeciwko alergenom</h2>
+<p>Oczyszczacz zasysa powietrze z pomieszczenia i przepuszcza je przez filtr. Działa więc na to, co <strong>unosi się w powietrzu</strong>: pyłki wpadające przez okna, łupież zwierzęcy, zarodniki pleśni, dym i drobne cząstki. Te alergeny są lekkie i długo pozostają w zawieszeniu, i właśnie tu urządzenie jest najbardziej przydatne.</p>
+<p>Alergeny roztoczy kurzu domowego są inne: są cięższe i szybko opadają na pościel, dywany i sofę. Oczyszczacz wychwytuje tylko ich część, w chwili gdy zostaną ponownie uniesione (na przykład podczas ścielenia łóżka). W walce z roztoczami uzupełnia proste działania (pokrowce antyroztoczowe, pranie pościeli w wysokiej temperaturze, odkurzacz z filtrem HEPA, codzienne wietrzenie), ale ich nie zastępuje.</p>
+<p>Wreszcie, oczyszczacz nie jest leczeniem. Jeśli objawy są nasilone, narastają lub masz astmę, porozmawiaj z lekarzem.</p>
+
+<h2>Kryteria dobrego wyboru</h2>
+<ul>
+<li><strong>Prawdziwy filtr HEPA</strong>: to serce urządzenia. Zatrzymuje ogromną większość drobnych cząstek, w tym pyłki i łupież. Uważaj na niejasne określenia w rodzaju „typu HEPA” czy „HEPA-like”.</li>
+<li><strong>CADR (wydajność oczyszczania powietrza)</strong>: wyrażony w m³/h, wskazuje, ile powietrza jest filtrowane w ciągu godziny. Przy użyciu przeciw alergiom częsta zasada mówi, by celować w CADR co najmniej 4–5 razy większy niż kubatura pomieszczenia. Przykład: sypialnia 15 m² przy wysokości 2,5 m ma około 37 m³, czyli wymaga CADR co najmniej 150–190 m³/h.</li>
+<li><strong>Deklarowane powierzchnie</strong>: „do 80 lub 100 m²” podawane przez producentów opiera się często na jednej wymianie powietrza na godzinę. Przy alergiach podziel je mniej więcej przez trzy lub cztery.</li>
+<li><strong>Hałas</strong>: alergik często zostawia urządzenie włączone na noc. Poziom hałasu w trybie uśpienia liczy się bardziej niż maksymalna moc.</li>
+<li><strong>Czujnik cząstek i tryb automatyczny</strong>: urządzenie przyspiesza, gdy powietrze się pogarsza (pyłki, sprzątanie, gotowanie), a potem zwalnia. To skuteczniejsze niż stała prędkość i cichsze.</li>
+<li><strong>Koszt i dostępność filtrów</strong>: filtr wymienia się zwykle co 6–12 miesięcy, zależnie od użytkowania. Przed zakupem sprawdź, czy łatwo go dostać.</li>
+<li><strong>Brak ozonu</strong>: unikaj urządzeń wytwarzających ozon, który drażni drogi oddechowe. Pięć modeli wybranych tutaj opiera się na filtracji mechanicznej.</li>
+</ul>
+
+<h2>5 najlepszych oczyszczaczy powietrza dla alergików w 2026 roku</h2>
+
+<h3>1. Levoit Core 400S: najlepszy wybór ogólny</h3>
+<p>Core 400S powtarza formułę oczyszczaczy Levoit z większym wydechem: <strong>deklarowany CADR 400 m³/h</strong>, trzystopniowy filtr (filtr wstępny, filtr HEPA, węgiel aktywny) i laserowy czujnik pokazujący poziom PM2.5 w liczbach. W trybie automatycznym prędkość dostosowuje się do zmierzonej jakości powietrza.</p>
+<p>Steruje się nim z aplikacji VeSync (harmonogramy, śledzenie jakości powietrza, stan filtra), a współpracuje z Alexą i Asystentem Google. Tryb uśpienia wygasza ekran i obniża hałas do poziomu zgodnego z sypialnią.</p>
+<p><strong>Mocne strony:</strong> przepływ wystarczający na salon lub dużą sypialnię, czujnik PM2.5 z wyświetlaniem liczbowym, kompletna aplikacja, dobra opinia wśród kupujących.</p>
+<p><strong>Ograniczenia:</strong> większy niż model do sypialni, głośny przy maksymalnej prędkości, trzeba przewidzieć markowe filtry.</p>
+<p><strong>Dla kogo:</strong> alergicy, którzy chcą jednego wszechstronnego urządzenia, zdolnego obsłużyć salon w dzień i sypialnię w nocy.</p>
+
+<h3>2. Levoit Core 300S: najlepszy stosunek jakości do ceny do sypialni</h3>
+<p>Bardziej kompaktowy (około 22 × 22 × 36 cm) Core 300S deklaruje <strong>CADR 240 m³/h</strong>, co z zapasem wystarcza do typowej sypialni. Ma również laserowy czujnik cząstek i tryb automatyczny, z kolorowym pierścieniem świetlnym wskazującym jakość powietrza.</p>
+<p>Levoit deklaruje około 22 dB w trybie uśpienia i 50 dB na maksimum. Aplikacja VeSync oraz zgodność z Alexą i Asystentem Google są dostępne, jak w modelu wyższym.</p>
+<p><strong>Mocne strony:</strong> kompaktowa obudowa, bardzo cichy tryb nocny, tryb automatyczny, łatwo dostępne filtry.</p>
+<p><strong>Ograniczenia:</strong> za mały na duży salon, jakość powietrza pokazywana tylko kolorami.</p>
+<p><strong>Dla kogo:</strong> wyposażenie sypialni, pomieszczenia, w którym spędza się najwięcej godzin bez przerwy, przy podstawowym budżecie.</p>
+
+<h3>3. Philips AC2939/10 (Seria 2000i): do dużych pomieszczeń</h3>
+<p>Philips AC2939/10 deklaruje <strong>CADR 380 m³/h</strong> i zasięg do 98 m² (według metody producenta, przy jednej wymianie powietrza na godzinę). Jego filtracja łączy filtr wstępny, filtr NanoProtect HEPA i węgiel aktywny.</p>
+<p>Czujniki sterują trybem automatycznym, a aplikacja Air+ pozwala zdalnie śledzić jakość powietrza i zużycie filtra. Philips deklaruje 15 dB w trybie uśpienia i 54 dB w trybie turbo oraz zgodność z Alexą i Google Home.</p>
+<p><strong>Mocne strony:</strong> wysoki przepływ, według producenta bardzo cichy tryb uśpienia, czytelna aplikacja, marka dobrze obecna w Europie.</p>
+<p><strong>Ograniczenia:</strong> większe urządzenie, filtr firmowy, deklarowane powierzchnie są optymistyczne dla zastosowania przeciw alergiom.</p>
+<p><strong>Dla kogo:</strong> otwarty salon lub duże pomieszczenie dzienne, gdy chcesz jednego mocnego urządzenia.</p>
+
+<h3>4. Blueair Blue Pure 411i Max: najdyskretniejszy do spania</h3>
+<p>Blue Pure 411i Max jest przeznaczony do małych pomieszczeń. Blueair deklaruje przepływ około 180 cfm dla pyłków (prawie 306 m³/h) i zakres hałasu <strong>18–46 dB</strong>, dla pomieszczenia o powierzchni około 21 m² z blisko pięcioma wymianami powietrza na godzinę.</p>
+<p>Łączy zmywalny materiałowy filtr wstępny (dostępny w kilku kolorach) z filtracją HEPASilent marki. Czujnik PM2.5 steruje trybem automatycznym, a aplikacja Blueair umożliwia zdalną kontrolę i śledzenie filtra, podawanego na 6–9 miesięcy.</p>
+<p><strong>Mocne strony:</strong> bardzo cichy na niskim biegu, zmywalny filtr wstępny, umiarkowane zużycie energii (około 20 W), dyskretna obudowa.</p>
+<p><strong>Ograniczenia:</strong> przewidziany do jednego pomieszczenia średniej wielkości, filtry firmowe.</p>
+<p><strong>Dla kogo:</strong> osoby o lekkim śnie, które chcą oczyszczać sypialnię przez całą noc bez przeszkadzającego szumu.</p>
+
+<h3>5. Xiaomi Smart Air Purifier 4: uniwersalny model z łącznością</h3>
+<p>Smart Air Purifier 4 firmy Xiaomi deklaruje <strong>CADR 400 m³/h</strong> przy efektywnej powierzchni 28–48 m², co jest bardziej realistycznym szacunkiem niż u wielu konkurentów. Jego filtr łączy HEPA i węgiel aktywny, z maksymalną deklarowaną żywotnością 12 miesięcy.</p>
+<p>Ekran pokazuje jakość powietrza w czasie rzeczywistym, a urządzenie jest sterowane z aplikacji Xiaomi Home, a także przez Alexę i Asystenta Google. Maksymalny deklarowany poziom hałasu sięga 64 dB, więc w sypialni trzeba liczyć na tryb nocny.</p>
+<p><strong>Mocne strony:</strong> wysoki przepływ, czytelny wyświetlacz, integracja z inteligentnym domem, filtr o długiej żywotności.</p>
+<p><strong>Ograniczenia:</strong> głośny przy pełnej prędkości, wysoka obudowa (ponad 55 cm).</p>
+<p><strong>Dla kogo:</strong> domy już wyposażone w urządzenia Xiaomi, które chcą mocnego urządzenia z łącznością.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Deklarowany CADR</th><th>Czujnik / tryb auto</th><th>Aplikacja</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td>Levoit Core 400S</td><td>400 m³/h</td><td>Laser PM2.5, wyświetlanie liczbowe</td><td>VeSync, Alexa, Google</td><td>Salonu lub dużej sypialni</td></tr>
+<tr><td>Levoit Core 300S</td><td>240 m³/h</td><td>Laser PM2.5, kolorowy pierścień</td><td>VeSync, Alexa, Google</td><td>Sypialni</td></tr>
+<tr><td>Philips AC2939/10</td><td>380 m³/h</td><td>Tak</td><td>Air+, Alexa, Google</td><td>Dużego pomieszczenia dziennego</td></tr>
+<tr><td>Blueair Blue Pure 411i Max</td><td>Ok. 306 m³/h (pyłki)</td><td>PM2.5</td><td>Blueair</td><td>Sypialni, lekkiego snu</td></tr>
+<tr><td>Xiaomi Smart Air Purifier 4</td><td>400 m³/h</td><td>Tak, ekran</td><td>Xiaomi Home, Alexa, Google</td><td>Inteligentnego domu</td></tr>
+</tbody>
+</table>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Wybór na podstawie deklarowanej powierzchni</strong> zamiast CADR: przy alergiach urządzenie „na 80 m²” często pasuje do pomieszczenia 20–30 m².</li>
+<li><strong>Ustawienie w rogu lub za meblem</strong>: zostaw miejsce wokół wlotów i wylotów powietrza, najlepiej między łóżkiem a oknem.</li>
+<li><strong>Włączanie tylko na kilka minut</strong>: w sezonie pylenia zostaw je w trybie automatycznym przez cały czas, przy zamkniętych drzwiach i oknach w oczyszczanym pomieszczeniu.</li>
+<li><strong>Zapominanie o filtrze wstępnym i filtrze</strong>: zapchany filtr drastycznie obniża przepływ. Odkurzaj lub myj filtr wstępny zgodnie z instrukcją i wymieniaj filtr w podanych odstępach.</li>
+<li><strong>Poleganie wyłącznie na urządzeniu w walce z roztoczami</strong>: pościel i wilgotność pomieszczenia mają większe znaczenie.</li>
+</ul>
+
+<h2>Codzienne użytkowanie</h2>
+<p>Ustaw oczyszczacz w pierwszej kolejności w sypialni: to tam spędza się najwięcej czasu bez przerwy. W sezonie pylenia wietrz raczej wcześnie rano lub po deszczu, potem zamknij okna i pozwól urządzeniu pracować. Filtr wymieniaj w maseczce, jeśli jesteś bardzo wrażliwy, i najlepiej na zewnątrz. Aby śledzić wilgotność i cząstki w reszcie mieszkania, przydatny może być czujnik: zobacz nasz artykuł o <a href="/pl/blog/qualite-air-interieur-capteurs">jakości powietrza w pomieszczeniach i czujnikach</a>.</p>
+
+<h2>Werdykt</h2>
+<p><strong>Levoit Core 400S</strong> to najlepiej zrównoważony wybór dla większości alergików: wysoki przepływ, precyzyjny czujnik, kompletna aplikacja. <strong>Levoit Core 300S</strong> wystarcza do sypialni i pozostaje najbardziej dostępny. <strong>Blueair Blue Pure 411i Max</strong> jest najprzyjemniejszy w nocy dla śpiących wrażliwych na hałas. <strong>Philips AC2939/10</strong> i <strong>Xiaomi Smart Air Purifier 4</strong> pasują do dużych pomieszczeń, ten drugi zwłaszcza jeśli korzystasz już z ekosystemu Xiaomi.</p>`,
   },
   faq: [
     {
@@ -557,6 +644,7 @@ export const article: BlogArticle = {
         es: '¿Sirve un purificador de aire contra la alergia al polen?',
         it: 'Un purificatore d’aria è utile contro l’allergia ai pollini?',
         nl: 'Helpt een luchtreiniger bij pollenallergie?',
+        pl: 'Czy oczyszczacz powietrza jest skuteczny przy alergii na pyłki?',
       },
       answer: {
         fr: 'Un purificateur avec filtre HEPA peut réduire la quantité de pollens en suspension dans une pièce fermée, ce qui aide beaucoup d’allergiques à mieux supporter la saison. Il ne remplace pas un traitement : en cas de symptômes importants, consultez votre médecin.',
@@ -565,6 +653,7 @@ export const article: BlogArticle = {
         es: 'Un purificador con filtro HEPA puede reducir la cantidad de polen en suspensión en una habitación cerrada, lo que ayuda a muchas personas alérgicas a sobrellevar la temporada. No sustituye un tratamiento: si los síntomas son importantes, consulta a tu médico.',
         it: 'Un purificatore con filtro HEPA può ridurre la quantità di pollini sospesi in una stanza chiusa, aiutando molte persone allergiche ad affrontare meglio la stagione. Non sostituisce una terapia: se i sintomi sono importanti, rivolgetevi al medico.',
         nl: 'Een luchtreiniger met HEPA-filter kan de hoeveelheid pollen in de lucht van een gesloten kamer verminderen, wat veel mensen met allergie helpt het seizoen beter door te komen. Hij vervangt geen behandeling: heb je forse klachten, ga dan naar je arts.',
+        pl: 'Oczyszczacz z filtrem HEPA może zmniejszyć ilość pyłków unoszących się w zamkniętym pomieszczeniu, co wielu alergikom pomaga lepiej znosić sezon. Nie zastępuje leczenia: przy nasilonych objawach skonsultuj się z lekarzem.',
       },
     },
     {
@@ -575,6 +664,7 @@ export const article: BlogArticle = {
         es: '¿Y contra los ácaros?',
         it: 'E contro gli acari?',
         nl: 'En tegen huisstofmijt?',
+        pl: 'A przy alergii na roztocza?',
       },
       answer: {
         fr: 'Son effet est plus limité : les allergènes d’acariens sont lourds et retombent vite dans la literie. Le purificateur capte ceux qui sont remis en suspension, mais les housses anti-acariens, le lavage des draps à haute température et l’aspirateur à filtre HEPA restent prioritaires.',
@@ -583,6 +673,7 @@ export const article: BlogArticle = {
         es: 'El efecto es más limitado: los alérgenos de los ácaros pesan y caen rápido en la ropa de cama. El purificador capta los que se levantan, pero las fundas antiácaros, lavar las sábanas a alta temperatura y un aspirador con filtro HEPA siguen siendo prioritarios.',
         it: 'L’effetto è più limitato: gli allergeni degli acari sono pesanti e ricadono in fretta nella biancheria. Il purificatore cattura quelli sollevati, ma coprimaterasso antiacaro, lavaggio delle lenzuola ad alta temperatura e aspirapolvere con filtro HEPA restano prioritari.',
         nl: 'Het effect is beperkter: allergenen van huisstofmijt zijn zwaar en zakken snel in het beddengoed. De luchtreiniger vangt wat opdwarrelt, maar mijtdichte hoezen, beddengoed heet wassen en een stofzuiger met HEPA-filter blijven belangrijker.',
+        pl: 'Jego działanie jest bardziej ograniczone: alergeny roztoczy są ciężkie i szybko opadają na pościel. Oczyszczacz wychwytuje te, które zostały ponownie uniesione, ale pierwszeństwo mają pokrowce antyroztoczowe, pranie pościeli w wysokiej temperaturze i odkurzacz z filtrem HEPA.',
       },
     },
     {
@@ -593,6 +684,7 @@ export const article: BlogArticle = {
         es: '¿Qué CADR necesito para un dormitorio?',
         it: 'Quale CADR serve per una camera da letto?',
         nl: 'Welke CADR heb ik nodig voor een slaapkamer?',
+        pl: 'Jaki CADR wybrać do sypialni?',
       },
       answer: {
         fr: 'Pour un usage contre les allergies, visez un CADR d’au moins 4 à 5 fois le volume de la pièce. Une chambre de 15 m² sous 2,5 m de plafond (environ 37 m³) demande donc au moins 150 à 190 m³/h, ce que couvrent le Levoit Core 300S et le Blueair Blue Pure 411i Max.',
@@ -601,6 +693,7 @@ export const article: BlogArticle = {
         es: 'Para alergias, busca un CADR de al menos 4 a 5 veces el volumen de la habitación. Un dormitorio de 15 m² con 2,5 m de altura (unos 37 m³) necesita al menos 150 a 190 m³/h, algo que cubren el Levoit Core 300S y el Blueair Blue Pure 411i Max.',
         it: 'Per le allergie puntate a un CADR pari ad almeno 4-5 volte il volume della stanza. Una camera di 15 m² alta 2,5 m (circa 37 m³) richiede quindi almeno 150-190 m³/h, valori coperti dal Levoit Core 300S e dal Blueair Blue Pure 411i Max.',
         nl: 'Bij allergie mik je op een CADR van minstens 4 tot 5 keer het kamervolume. Een slaapkamer van 15 m² met 2,5 m plafondhoogte (ongeveer 37 m³) vraagt dus minstens 150 tot 190 m³/u, wat de Levoit Core 300S en de Blueair Blue Pure 411i Max halen.',
+        pl: 'Przy zastosowaniu przeciw alergiom celuj w CADR co najmniej 4–5 razy większy niż kubatura pomieszczenia. Sypialnia 15 m² przy wysokości 2,5 m (około 37 m³) wymaga więc co najmniej 150–190 m³/h, co zapewniają Levoit Core 300S i Blueair Blue Pure 411i Max.',
       },
     },
     {
@@ -611,6 +704,7 @@ export const article: BlogArticle = {
         es: '¿Hay que dejar el purificador encendido toda la noche?',
         it: 'Bisogna lasciare il purificatore acceso tutta la notte?',
         nl: 'Moet de luchtreiniger de hele nacht aanstaan?',
+        pl: 'Czy zostawiać oczyszczacz włączony na całą noc?',
       },
       answer: {
         fr: 'En saison d’allergies, oui : en mode automatique ou veille, il maintient un air plus propre pendant que vous dormez. C’est pourquoi le niveau sonore en mode veille est un critère clé. Les cinq modèles de ce comparatif proposent un mode nuit avec affichage atténué.',
@@ -619,6 +713,7 @@ export const article: BlogArticle = {
         es: 'En temporada de alergias, sí: en modo automático o nocturno mantiene el aire más limpio mientras duermes. Por eso el ruido en modo nocturno es un criterio clave. Los cinco modelos de esta comparativa tienen modo noche con pantalla atenuada.',
         it: 'Nella stagione delle allergie sì: in modalità automatica o notte mantiene l’aria più pulita mentre dormite. Per questo il rumore in modalità notte è un criterio chiave. Tutti e cinque i modelli di questo confronto hanno una modalità notte con display attenuato.',
         nl: 'In het allergieseizoen wel: in de automatische of slaapstand houdt hij de lucht schoner terwijl je slaapt. Daarom is het geluidsniveau in de slaapstand een belangrijk criterium. Alle vijf modellen in deze vergelijking hebben een nachtstand met gedimd display.',
+        pl: 'W sezonie alergii tak: w trybie automatycznym lub uśpienia utrzymuje czystsze powietrze, gdy śpisz. Dlatego poziom hałasu w trybie uśpienia to kluczowe kryterium. Wszystkie pięć modeli z tego porównania ma tryb nocny z przygaszonym wyświetlaczem.',
       },
     },
     {
@@ -629,6 +724,7 @@ export const article: BlogArticle = {
         es: '¿Cada cuánto hay que cambiar el filtro?',
         it: 'Ogni quanto va cambiato il filtro?',
         nl: 'Hoe vaak moet het filter vervangen worden?',
+        pl: 'Jak często wymieniać filtr?',
       },
       answer: {
         fr: 'En général tous les 6 à 12 mois, selon le modèle et l’usage : Blueair annonce 6 à 9 mois pour le 411i Max, Xiaomi jusqu’à 12 mois pour le Smart Air Purifier 4. Un usage continu en saison pollinique ou dans un logement enfumé raccourcit cette durée. Suivez l’indicateur de l’appareil ou de l’application.',
@@ -637,6 +733,7 @@ export const article: BlogArticle = {
         es: 'Normalmente cada 6 a 12 meses, según el modelo y el uso: Blueair indica de 6 a 9 meses para el 411i Max y Xiaomi hasta 12 meses para el Smart Air Purifier 4. El uso continuo en temporada de polen o en un hogar con humo lo acorta. Sigue el indicador del aparato o de la app.',
         it: 'In genere ogni 6-12 mesi, a seconda del modello e dell’uso: Blueair indica 6-9 mesi per il 411i Max, Xiaomi fino a 12 mesi per lo Smart Air Purifier 4. L’uso continuo nella stagione dei pollini o in una casa con fumo accorcia questa durata. Seguite l’indicatore dell’apparecchio o dell’app.',
         nl: 'Meestal elke 6 tot 12 maanden, afhankelijk van model en gebruik: Blueair noemt 6 tot 9 maanden voor de 411i Max, Xiaomi tot 12 maanden voor de Smart Air Purifier 4. Continu gebruik in het pollenseizoen of in een rokerig huis verkort dat. Volg de indicator op het apparaat of in de app.',
+        pl: 'Zwykle co 6–12 miesięcy, zależnie od modelu i użytkowania: Blueair podaje 6–9 miesięcy dla 411i Max, Xiaomi do 12 miesięcy dla Smart Air Purifier 4. Ciągła praca w sezonie pylenia lub w zadymionym mieszkaniu skraca ten czas. Kieruj się wskaźnikiem na urządzeniu lub w aplikacji.',
       },
     },
     {
@@ -647,6 +744,7 @@ export const article: BlogArticle = {
         es: '¿Purificador o humidificador para las alergias?',
         it: 'Purificatore o umidificatore per le allergie?',
         nl: 'Luchtreiniger of luchtbevochtiger bij allergie?',
+        pl: 'Oczyszczacz czy nawilżacz przy alergii?',
       },
       answer: {
         fr: 'Ce sont deux appareils différents. Le purificateur retire des allergènes de l’air ; l’humidificateur ajoute de l’humidité, utile si l’air est très sec, mais une humidité trop élevée favorise acariens et moisissures. Pour les allergies, le purificateur passe en premier, et l’humidité intérieure est généralement conseillée autour de 40 à 60 %.',
@@ -655,6 +753,7 @@ export const article: BlogArticle = {
         es: 'Son dos aparatos distintos. El purificador retira alérgenos del aire; el humidificador añade humedad, útil si el aire está muy seco, pero un exceso favorece ácaros y moho. Para las alergias, el purificador va primero, y se suele aconsejar una humedad interior de entre el 40 y el 60 %.',
         it: 'Sono due apparecchi diversi. Il purificatore toglie allergeni dall’aria; l’umidificatore aggiunge umidità, utile se l’aria è molto secca, ma un’umidità eccessiva favorisce acari e muffe. Per le allergie il purificatore viene prima, e in casa si consiglia in genere un’umidità tra il 40 e il 60 %.',
         nl: 'Het zijn twee verschillende apparaten. Een luchtreiniger haalt allergenen uit de lucht; een bevochtiger voegt vocht toe, handig bij erg droge lucht, maar te veel vocht bevordert huisstofmijt en schimmel. Bij allergie komt de luchtreiniger eerst, en binnen wordt meestal een luchtvochtigheid van zo’n 40 tot 60 % aangeraden.',
+        pl: 'To dwa różne urządzenia. Oczyszczacz usuwa alergeny z powietrza; nawilżacz dodaje wilgoci, co jest przydatne, gdy powietrze jest bardzo suche, ale zbyt wysoka wilgotność sprzyja roztoczom i pleśni. Przy alergii pierwszeństwo ma oczyszczacz, a wilgotność w pomieszczeniach zaleca się zwykle utrzymywać w granicach 40–60%.',
       },
     },
   ],

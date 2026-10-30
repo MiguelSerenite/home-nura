@@ -5,6 +5,7 @@
  * deliberately permissive about count but strict about structure.
  */
 
+import { LANGUAGES } from '@/lib/i18n'
 import { describe, it, expect } from 'vitest'
 import {
   PROBLEMS,
@@ -13,7 +14,7 @@ import {
 } from '@/lib/catalog/problems'
 import { CATEGORIES } from '@/lib/catalog/categories'
 
-const LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
+const LANGS = LANGUAGES
 const SLUG_RE = /^[a-z0-9-]+$/
 const KNOWN_CATEGORY_SLUGS = new Set(CATEGORIES.map((c) => c.slug))
 const KNOWN_SEVERITIES = new Set(['minor', 'moderate', 'critical'])
@@ -60,7 +61,7 @@ describe('PROBLEMS', () => {
     }
   })
 
-  it('query is populated for all 6 locales on every problem', () => {
+  it('query is populated for every locale on every problem', () => {
     for (const p of PROBLEMS) {
       expect(Object.keys(p.query).sort(), `${p.slug}.query keys`).toEqual(
         [...LANGS].sort()

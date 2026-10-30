@@ -93,6 +93,7 @@ export const BLACK_FRIDAY_CATEGORIES: readonly BlackFridayCategory[] = [
           es: 'Ideal para radiadores de agua, habitación por habitación',
           it: 'Ideale per termosifoni, stanza per stanza',
           nl: 'Ideaal voor radiatoren, per kamer',
+          pl: 'Do grzejników wodnych, pokój po pokoju',
         },
       },
     ],

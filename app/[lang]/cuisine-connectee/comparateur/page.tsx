@@ -65,6 +65,14 @@ const pageContent: Record<string, {
     breadcrumbRoot: 'Slimme keuken',
     breadcrumb: 'Vergelijker',
   },
+  pl: {
+    kicker: 'Narzędzie porównawcze',
+    title: 'Porównywarka inteligentnej kuchni',
+    subtitle: 'Porównaj do 3 modeli obok siebie',
+    intro: 'Multicookery, ekspresy do kawy, wagi, termometry, inteligentne wtyczki — wybierz interesujące Cię modele i zobacz ich parametry obok siebie. Ocena Nura, pojemność, mocne strony i ograniczenia.',
+    breadcrumbRoot: 'Inteligentna kuchnia',
+    breadcrumb: 'Porównywarka',
+  },
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {

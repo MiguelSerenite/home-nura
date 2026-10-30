@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Plancha de vapor sobre una tabla de planchar con una camisa blanca',
         it: 'Ferro a vapore appoggiato su un asse da stiro con una camicia bianca',
         nl: 'Stoomstrijkijzer op een strijkplank met een wit overhemd',
+        pl: 'Żelazko parowe na desce do prasowania z białą koszulą',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Mejor Centro de Planchado 2026: Comparativa Philips, Tefal, Braun y Laurastar',
     it: 'Miglior Ferro con Caldaia 2026: Confronto Philips, Tefal, Braun e Laurastar',
     nl: 'Beste Stoomgenerator 2026: Philips, Tefal, Braun en Laurastar Vergeleken',
+    pl: 'Najlepsza stacja parowa 2026: porównanie Philips, Calor, Braun, Laurastar',
   },
   excerpt: {
     fr: 'Quelle centrale vapeur choisir en 2026 ? Comparatif de 6 modèles (Philips PerfectCare 8000 et 7000, Calor Pro Express Ultimate II, Braun CareStyle 7 Pro, Laurastar Smart U, défroisseur Philips 7000) : pression, vapeur continue, anticalcaire, réservoir et vraie connectivité.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: '¿Qué centro de planchado elegir en 2026? Comparativa de 6 modelos (Philips PerfectCare 8000 y 7000, Tefal Pro Express Ultimate II, Braun CareStyle 7 Pro, Laurastar Smart U, vaporizador Philips 7000): presión, vapor continuo, antical, depósito y conectividad real.',
     it: 'Quale ferro con caldaia scegliere nel 2026? Confronto di 6 modelli (Philips PerfectCare 8000 e 7000, Tefal Pro Express Ultimate II, Braun CareStyle 7 Pro, Laurastar Smart U, stiratore Philips 7000): pressione, vapore continuo, anticalcare, serbatoio e vera connettività.',
     nl: 'Welke stoomgenerator kiest u in 2026? Vergelijking van 6 modellen (Philips PerfectCare 8000 en 7000, Tefal Pro Express Ultimate II, Braun CareStyle 7 Pro, Laurastar Smart U, Philips 7000 handstomer): druk, continue stoom, ontkalking, tank en echte connectiviteit.',
+    pl: 'Jaką stację parową wybrać w 2026 roku? Porównanie 6 modeli (Philips PerfectCare 8000 i 7000, Calor Pro Express Ultimate II, Braun CareStyle 7 Pro, Laurastar Smart U, parownica Philips 7000): ciśnienie, para ciągła, ochrona przed kamieniem, zbiornik i prawdziwa łączność.',
   },
   content: {
     fr: `<p><strong>En 2026, la meilleure centrale vapeur pour la plupart des foyers est la Philips PerfectCare 8000 Series (PSG8160) : 8,5 bars de pression, 170 g/min de vapeur continue, un réservoir de 1,8 litre et la technologie OptimalTEMP qui évite de régler la température selon le tissu.</strong> Si votre budget est plus serré, la PerfectCare 7000 (PSG7130) garde l'essentiel, tandis que la Laurastar Smart U reste la seule de ce comparatif réellement connectée, avec une application Bluetooth qui guide le repassage.</p>
@@ -506,6 +509,84 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Voor de meeste huishoudens is de <strong>Philips PerfectCare 8000 Series (PSG8160)</strong> in 2026 de meest complete stoomgenerator: veel stoom, een grote tank en geen temperatuur om in te stellen. De <strong>PerfectCare 7000 (PSG7130)</strong> biedt de essentie voor minder. Strijkt u veel zware stoffen, kijk dan naar de <strong>Tefal Pro Express Ultimate II</strong>; wilt u maximale autonomie, dan de <strong>Braun CareStyle 7 Pro</strong>. En zoekt u echt een verbonden apparaat, dan is de <strong>Laurastar Smart U</strong> de enige met een werkelijk nuttige app, tegen een investering in het topsegment. Voeg een stomer zoals de <strong>Philips 7000 Series</strong> toe voor snelle correcties 's ochtends.</p>`,
+    pl: `<p><strong>W 2026 roku najlepszą stacją parową dla większości domów jest Philips PerfectCare 8000 Series (PSG8160): ciśnienie 8,5 bara, 170 g/min pary ciągłej, zbiornik 1,8 litra i technologia OptimalTEMP, dzięki której nie trzeba ustawiać temperatury w zależności od tkaniny.</strong> Jeśli budżet jest bardziej ograniczony, PerfectCare 7000 (PSG7130) zachowuje to, co najważniejsze, a Laurastar Smart U pozostaje jedyną naprawdę połączoną z siecią w tym zestawieniu, z aplikacją Bluetooth, która prowadzi cię przez prasowanie.</p>
+<p>Powiedzmy jasno na wstępie: zdecydowana większość żelazek i stacji parowych nie jest inteligentna. „Inteligentne czujniki” Philipsa czy tryby automatyczne Calor działają bez aplikacji i bez Wi-Fi. To porównanie opiera się na kartach katalogowych producentów, niezależnych testach publikowanych przez organizacje konsumenckie i opiniach zweryfikowanych kupujących. Całą ofertę zobaczysz w naszej rubryce <a href="/pl/entretien-maison/fers-centrales-vapeur">żelazka i stacje parowe</a>.</p>
+
+<h2>Stacja parowa, żelazko parowe czy parownica: co wybrać?</h2>
+<p><strong>Klasyczne żelazko parowe</strong> podgrzewa wodę bezpośrednio w stopie: jest lekkie i kompaktowe, ale ilość pary jest ograniczona. <strong>Stacja parowa</strong> (lub generator pary) wytwarza parę pod ciśnieniem w oddzielnej bazie połączonej z żelazkiem wężem. Efekt: znacznie więcej pary, która przenika grube tkaniny i kilka warstw naraz, oraz znacznie większy zbiornik. To dobry wybór, jeśli co tydzień prasujesz stos prania.</p>
+<p><strong>Parownica</strong> (pionowa lub ręczna) nie zastąpi żelazka, gdy chcesz uzyskać wyraźny kant, ale świetnie odświeża koszulę, sukienkę czy zasłonę bez wyciągania deski do prasowania. Wiele domów łączy oba rozwiązania: stację do większości prania i parownicę do szybkich poprawek.</p>
+
+<h2>Kryteria zakupu, które naprawdę się liczą</h2>
+<h3>Ciśnienie (w barach)</h3>
+<p>Ciśnienie wskazuje, z jaką siłą para jest wtłaczana we włókna. Między 6 a 8,5 bara domowa stacja pokrywa wszystkie zastosowania. Uwaga: podawana wartość to często maksymalne ciśnienie pompy, co nie mówi wszystkiego. Systemy do prasowania Laurastar pracują na przykład przy 3,5 bara, ale stawiają na bardzo suchą parę i aktywną deskę, która zasysa parę przez tkaninę.</p>
+<h3>Ciągły strumień pary i „uderzenie parowe”</h3>
+<p>Ciągły strumień pary (w g/min) to najbardziej użyteczna na co dzień liczba: powyżej 120 g/min prasowanie staje się wyraźnie szybsze. „Uderzenie parowe” (600–700 g/min w najlepszych modelach) służy do uporczywych zagnieceń, dżinsów i lnu.</p>
+<h3>System ochrony przed kamieniem</h3>
+<p>Kamień to wróg numer jeden stacji parowej. Nowsze modele mają wyjmowany kolektor kamienia, który trzeba regularnie płukać, a kontrolka przypomina o konserwacji. Sprawdź, czy da się to zrobić bez narzędzi i w kilka minut: od tego zależy trwałość urządzenia.</p>
+<h3>Zbiornik i napełnianie</h3>
+<p>Zbiornik 1,2 litra wystarczy na normalną sesję; 1,8–2 litra pozwalają przeprasować duży stos bez przerwy. Wyjmowany zbiornik, który można uzupełniać w trakcie pracy, to prawdziwa wygoda.</p>
+<h3>Waga i ergonomia</h3>
+<p>Żelazko stacji parowej pozostaje lekkie, ponieważ para powstaje w bazie. Baza waży często ponad 4 kg: przewidź dla niej stabilne miejsce na desce do prasowania lub obok niej. System blokady żelazka na bazie ułatwia przenoszenie.</p>
+<h3>Automatyczne wyłączanie</h3>
+<p>Niezbędne dla bezpieczeństwa: większość stacji przechodzi w stan czuwania po 8–10 minutach bez używania. Sprawdź, czy ta funkcja figuruje na karcie wybranego modelu.</p>
+<h3>Łączność: rzadka i niekonieczna</h3>
+<p>Żadna stacja Philips, Calor, Rowenta ani Braun z tego porównania nie jest sterowana z aplikacji. Tylko systemy do prasowania Laurastar z serii Smart (Smart U i Smart I) łączą się przez Bluetooth z aplikacją z samouczkami i poradami dotyczącymi konserwacji. To plus dla nauki, a nie konieczność, by dobrze prasować.</p>
+
+<h2>6 najlepszych modeli 2026</h2>
+<h3>1. Philips PerfectCare 8000 Series (PSG8160/30): najlepszy wybór ogólny</h3>
+<p>PerfectCare 8000 spełnia prawie wszystkie oczekiwania: <strong>maksymalne ciśnienie 8,5 bara, 170 g/min pary ciągłej, do 700 g/min w trybie uderzenia parowego</strong> oraz wyjmowany zbiornik 1,8 litra, który można napełniać podczas prasowania. Technologia <strong>OptimalTEMP</strong> stosuje jedną temperaturę dostosowaną do wszystkich tkanin nadających się do prasowania, od jedwabiu po dżins: nie trzeba już sortować prania. Czujnik ruchu DynamiQ dostosowuje ilość pary do szybkości ruchu żelazka. Stopa SteamGlide Elite dobrze się ślizga, a konserwacja sprowadza się do kolektora kamienia.</p>
+<p><strong>Mocne strony:</strong> obfita para, brak konieczności ustawiania temperatury, duży zbiornik, możliwość pracy w pionie przy zasłonach. <strong>Ograniczenia:</strong> duża baza, brak łączności. <strong>Dla kogo:</strong> rodziny, które dużo prasują i chcą robić to szybko.</p>
+
+<h3>2. Philips PerfectCare 7000 Series (PSG7130/20): najlepszy stosunek jakości do ceny</h3>
+<p>PerfectCare 7000 przejmuje przepis starszej siostry z parametrami o stopień niższymi: <strong>8 barów, do 120 g/min pary ciągłej</strong>, wyjmowany zbiornik 1,8 litra i ta sama technologia OptimalTEMP. Wyłącza się automatycznie po 10 minutach bezczynności.</p>
+<p><strong>Mocne strony:</strong> prostota obsługi, duży zbiornik, bezpieczeństwo. <strong>Ograniczenia:</strong> skromniejszy strumień pary przy bardzo grubych tkaninach. <strong>Dla kogo:</strong> para lub niewielka rodzina, która chce tego, co najważniejsze w stacji Philips, bez celowania w najwyższą półkę.</p>
+
+<h3>3. Calor Pro Express Ultimate II (GV9721C0): moc do grubych tkanin</h3>
+<p>Sprzedawana poza Francją pod marką Tefal, Pro Express Ultimate II oferuje <strong>7,9 bara, 170 g/min pary ciągłej i 600 g/min w trybie uderzenia parowego</strong>. Jej stopa Durilium AirGlide słynie ze ślizgu, a trzy tryby (delikatny, normalny, maks.) automatycznie ustawiają temperaturę i parę. Całość uzupełniają wyjmowany kolektor kamienia i system zapobiegający kapaniu. Zbiornik 1,2 litra jest mniejszy niż u Philipsa, a żelazko waży ok. 1,3 kg, co pomaga przy lnie i grubej bawełnie. Automatyczne wyłączenie po 8 minutach.</p>
+<p>Warto wspomnieć: Rowenta Silence Steam Pro (DG9246) z tej samej grupy jest dla tych, którzy chcą cichszej stacji, z deklarowanymi 8 barami i 150 g/min.</p>
+<p><strong>Mocne strony:</strong> mocna para, ślizg, proste tryby. <strong>Ograniczenia:</strong> mniejszy zbiornik, cięższe żelazko. <strong>Dla kogo:</strong> osoby, które często prasują dżinsy, prześcieradła i pościel.</p>
+
+<h3>4. Braun CareStyle 7 Pro (IS7286BK): największy zbiornik</h3>
+<p>CareStyle 7 Pro stawia na autonomię dzięki <strong>zbiornikowi 2 litry</strong>, ciśnieniu <strong>8 barów</strong> i deklarowanemu uderzeniu parowemu do 650 g/min. Jej stopa EloxalPlus FreeGlide 3D z podniesionymi krawędziami łatwo przesuwa się po guzikach i szwach, w każdym kierunku. Ma automatyczne wyłączanie.</p>
+<p><strong>Mocne strony:</strong> duża autonomia, bardzo zwrotna stopa. <strong>Ograniczenia:</strong> duża baza, brak łączności. <strong>Dla kogo:</strong> długie, cotygodniowe sesje prasowania.</p>
+
+<h3>5. Laurastar Smart U: jedyny prawdziwie połączony system</h3>
+<p>Smart U nie jest zwykłą stacją, lecz <strong>kompletnym systemem do prasowania</strong>: generator pary, żelazko i aktywna deska, która zasysa lub nadmuchuje powietrze (4 prędkości), regulowana na 6 wysokości. Pracuje przy 3,5 bara z drobną, suchą parą (80 g/min), zbiornikiem 1,2 litra, nagrzewaniem w 3 minuty i automatycznym wyłączaniem po 10 minutach. Technologia Sensteam wykrywa ruchy żelazka i automatycznie uruchamia parę. Przez Bluetooth łączy się z <strong>aplikacją na iOS i Androida</strong>, która oferuje samouczki wideo i porady dla poszczególnych rodzajów tkanin. Smart I, o stopień niższa, zachowuje aplikację, ale traci Sensteam i parę pulsacyjną.</p>
+<p><strong>Mocne strony:</strong> rezultat zbliżony do pralni chemicznej, aktywna deska, jedyna prawdziwa łączność. <strong>Ograniczenia:</strong> bardzo wysoka półka, duże gabaryty i waga (ok. 19 kg). <strong>Dla kogo:</strong> miłośnicy nienagannie wyprasowanych ubrań i ci, którzy chcą nauczyć się lepiej prasować.</p>
+
+<h3>6. Philips 7000 Series (STH7040/80): uniwersalna ręczna parownica</h3>
+<p>Do szybkich poprawek ta ręczna parownica nagrzewa się w około 30 sekund, dostarcza <strong>do 28 g/min pary</strong>, również wykorzystuje OptimalTEMP i ma obrotową głowicę, która działa zarówno w pionie, jak i w poziomie. W zestawie są dwa zbiorniki o pojemności 100 i 200 ml oraz pokrowiec odporny na ciepło.</p>
+<p><strong>Mocne strony:</strong> kompaktowa, szybka, idealna w podróży. <strong>Ograniczenia:</strong> nie zastąpi stacji, jeśli zależy ci na wyraźnych kantach. <strong>Dla kogo:</strong> zapracowani i małe mieszkania.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Typ</th><th>Ciśnienie</th><th>Para ciągła</th><th>Zbiornik</th><th>Łączność</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td>Philips PerfectCare 8000 (PSG8160)</td><td>Stacja parowa</td><td>8,5 bara</td><td>170 g/min</td><td>1,8 l</td><td>Brak</td><td>Rodziny, duże ilości prania</td></tr>
+<tr><td>Philips PerfectCare 7000 (PSG7130)</td><td>Stacja parowa</td><td>8 barów</td><td>120 g/min</td><td>1,8 l</td><td>Brak</td><td>Najlepszy stosunek jakości do ceny</td></tr>
+<tr><td>Calor Pro Express Ultimate II (GV9721)</td><td>Stacja parowa</td><td>7,9 bara</td><td>170 g/min</td><td>1,2 l</td><td>Brak</td><td>Grube tkaniny</td></tr>
+<tr><td>Braun CareStyle 7 Pro (IS7286)</td><td>Stacja parowa</td><td>8 barów</td><td>Brak danych</td><td>2 l</td><td>Brak</td><td>Długie sesje</td></tr>
+<tr><td>Laurastar Smart U</td><td>System do prasowania</td><td>3,5 bara</td><td>80 g/min (sucha para)</td><td>1,2 l</td><td>Bluetooth + aplikacja</td><td>Wykończenie premium</td></tr>
+<tr><td>Philips 7000 Series (STH7040)</td><td>Ręczna parownica</td><td>Bez ciśnienia</td><td>28 g/min</td><td>100 + 200 ml</td><td>Brak</td><td>Poprawki, podróże</td></tr>
+</tbody>
+</table>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Kupowanie wyłącznie na podstawie podanego ciśnienia:</strong> strumień pary ciągłej, stopa i ochrona przed kamieniem liczą się tak samo jak bary.</li>
+<li><strong>Zaniedbywanie odkamieniania:</strong> płukanie kolektora, gdy tylko zaświeci się kontrolka, zapobiega białym plamom i spadkowi ilości pary.</li>
+<li><strong>Używanie nieodpowiedniej wody:</strong> stosuj się do instrukcji. Nigdy nie używaj wody zapachowej, wody z suszarki ani dodatków; niektórzy producenci radzą mieszać wodę z kranu z wodą demineralizowaną, jeśli woda jest bardzo twarda.</li>
+<li><strong>Płacenie za niepotrzebną łączność:</strong> aplikacja nie wyprasuje za ciebie. Ma sens tylko wtedy, gdy chcesz być prowadzony krok po kroku.</li>
+<li><strong>Zapominanie o dostępnym miejscu:</strong> stacja parowa wymaga solidnej deski do prasowania z odpowiednią podstawką na stację.</li>
+</ul>
+
+<h2>Użytkowanie, konserwacja i bezpieczeństwo</h2>
+<p>Zawsze stawiaj bazę na płaskiej, stabilnej powierzchni i nigdy nie zostawiaj gorącego żelazka w zasięgu dzieci. Odłącz urządzenie i poczekaj, aż ostygnie, zanim opróżnisz zbiornik lub przepłuczesz kolektor kamienia. Nigdy nie odświeżaj parą ubrania noszonego przez człowieka: para może powodować oparzenia. Regularnie sprawdzaj stan przewodu i węża parowego; w razie uszkodzenia oddaj urządzenie do naprawy w autoryzowanym serwisie. W pielęgnacji podłóg obowiązują te same zasady, jeśli używasz <a href="/pl/blog/nettoyeur-vapeur-connecte">myjek parowych</a>, a dobrze ustawiona <a href="/pl/blog/waermepumpentrockner-vergleich">suszarka z pompą ciepła</a> ogranicza już część zagnieceń.</p>
+
+<h2>Nasz werdykt</h2>
+<p>Dla większości domów <strong>Philips PerfectCare 8000 Series (PSG8160)</strong> jest w 2026 roku najbardziej kompletną stacją parową: dużo pary, duży zbiornik i brak konieczności ustawiania temperatury. <strong>PerfectCare 7000 (PSG7130)</strong> oferuje to, co najważniejsze, za mniejsze pieniądze. Miłośnicy bardzo grubych tkanin spojrzą na <strong>Calor Pro Express Ultimate II</strong>, a ci, którzy chcą największej autonomii, na <strong>Braun CareStyle 7 Pro</strong>. Wreszcie, jeśli naprawdę szukasz urządzenia z łącznością, <strong>Laurastar Smart U</strong> jako jedyny oferuje użyteczną aplikację, kosztem inwestycji z wysokiej półki. Dodaj parownicę, taką jak <strong>Philips 7000 Series</strong>, do porannych poprawek.</p>`,
   },
   faq: [
     {
@@ -516,6 +597,7 @@ export const article: BlogArticle = {
         es: `¿Cuántos bares necesita un buen centro de planchado?`,
         it: `Quanti bar servono per un buon ferro con caldaia?`,
         nl: `Hoeveel bar heeft een goede stoomgenerator nodig?`,
+        pl: `Ile barów potrzeba w dobrej stacji parowej?`,
       },
       answer: {
         fr: `Entre 6 et 8,5 bars, une centrale couvre tous les besoins d'un foyer. Au-delà de la pression, regardez le débit de vapeur continue : à partir de 120 g/min, le repassage devient nettement plus rapide.`,
@@ -524,6 +606,7 @@ export const article: BlogArticle = {
         es: `Entre 6 y 8,5 bares se cubren todas las necesidades de un hogar. Además de la presión, fíjese en el vapor continuo: a partir de unos 120 g/min, el planchado es claramente más rápido.`,
         it: `Tra 6 e 8,5 bar si coprono tutte le esigenze domestiche. Oltre alla pressione, guardate il vapore continuo: da circa 120 g/min la stiratura diventa nettamente più veloce.`,
         nl: `Met 6 tot 8,5 bar dekt u alle behoeften van een huishouden. Kijk naast de druk vooral naar de continue stoom: vanaf ongeveer 120 g/min gaat strijken merkbaar sneller.`,
+        pl: `Między 6 a 8,5 bara stacja pokrywa wszystkie potrzeby domu. Poza ciśnieniem zwróć uwagę na strumień pary ciągłej: od 120 g/min prasowanie staje się wyraźnie szybsze.`,
       },
     },
     {
@@ -534,6 +617,7 @@ export const article: BlogArticle = {
         es: `¿Existen centros de planchado conectados?`,
         it: `Esistono ferri con caldaia connessi?`,
         nl: `Bestaan er verbonden stoomgeneratoren?`,
+        pl: `Czy istnieją inteligentne stacje parowe?`,
       },
       answer: {
         fr: `Très peu. Les centrales Philips, Calor, Rowenta et Braun n'ont pas d'application. Les centres de repassage Laurastar Smart U et Smart I se connectent en Bluetooth à une application de tutoriels et de conseils d'entretien.`,
@@ -542,6 +626,7 @@ export const article: BlogArticle = {
         es: `Muy pocos. Los centros de planchado Philips, Tefal, Rowenta y Braun no tienen aplicación. Los sistemas Laurastar Smart U y Smart I se conectan por Bluetooth a una aplicación con tutoriales y consejos de mantenimiento.`,
         it: `Pochissimi. I ferri con caldaia Philips, Tefal, Rowenta e Braun non hanno app. I sistemi da stiro Laurastar Smart U e Smart I si collegano via Bluetooth a un'app con tutorial e consigli di manutenzione.`,
         nl: `Heel weinig. Stoomgeneratoren van Philips, Tefal, Rowenta en Braun hebben geen app. De strijksystemen Laurastar Smart U en Smart I maken via Bluetooth verbinding met een app met tutorials en onderhoudstips.`,
+        pl: `Bardzo niewiele. Stacje Philips, Calor, Rowenta i Braun nie mają aplikacji. Systemy do prasowania Laurastar Smart U i Smart I łączą się przez Bluetooth z aplikacją z samouczkami i poradami dotyczącymi konserwacji.`,
       },
     },
     {
@@ -552,6 +637,7 @@ export const article: BlogArticle = {
         es: `¿Qué agua hay que poner en un centro de planchado?`,
         it: `Che acqua usare nel ferro con caldaia?`,
         nl: `Welk water gebruikt u in een stoomgenerator?`,
+        pl: `Jaką wodę wlewać do stacji parowej?`,
       },
       answer: {
         fr: `Suivez la notice du fabricant. La plupart des centrales récentes acceptent l'eau du robinet grâce à leur collecteur de calcaire. Évitez l'eau parfumée, l'eau de sèche-linge et les additifs, qui peuvent abîmer l'appareil.`,
@@ -560,6 +646,7 @@ export const article: BlogArticle = {
         es: `Siga el manual del fabricante. La mayoría de los centros de planchado recientes admiten agua del grifo gracias a su colector de cal. Evite el agua perfumada, el agua de secadora y los aditivos, que pueden dañar el aparato.`,
         it: `Seguite il manuale del produttore. La maggior parte dei modelli recenti accetta l'acqua del rubinetto grazie al collettore del calcare. Evitate acqua profumata, acqua dell'asciugatrice e additivi, che possono danneggiare l'apparecchio.`,
         nl: `Volg de handleiding van de fabrikant. De meeste recente stoomgeneratoren kunnen dankzij hun kalkcollector kraanwater aan. Vermijd geparfumeerd water, drogerwater en toevoegingen, die het apparaat kunnen beschadigen.`,
+        pl: `Stosuj się do instrukcji producenta. Większość nowszych stacji akceptuje wodę z kranu dzięki kolektorowi kamienia. Unikaj wody zapachowej, wody z suszarki i dodatków, które mogą uszkodzić urządzenie.`,
       },
     },
     {
@@ -570,6 +657,7 @@ export const article: BlogArticle = {
         es: `¿Con qué frecuencia hay que descalcificar el centro de planchado?`,
         it: `Ogni quanto decalcificare il ferro con caldaia?`,
         nl: `Hoe vaak moet u een stoomgenerator ontkalken?`,
+        pl: `Jak często odkamieniać stację parową?`,
       },
       answer: {
         fr: `Dès que le voyant de détartrage s'allume, ou selon la fréquence indiquée dans la notice. Plus votre eau est calcaire, plus il faut rincer souvent le collecteur. L'opération prend quelques minutes, appareil débranché et refroidi.`,
@@ -578,6 +666,7 @@ export const article: BlogArticle = {
         es: `En cuanto se encienda el indicador de descalcificación o con la frecuencia que indique el manual. Cuanto más dura sea el agua, más a menudo hay que enjuagar el colector. Lleva unos minutos, con el aparato desenchufado y frío.`,
         it: `Appena si accende la spia di decalcificazione o con la frequenza indicata nel manuale. Più l'acqua è dura, più spesso bisogna sciacquare il collettore. Bastano pochi minuti, con l'apparecchio scollegato e raffreddato.`,
         nl: `Zodra het ontkalkingslampje gaat branden, of zo vaak als de handleiding aangeeft. Hoe harder uw water, hoe vaker u de collector moet uitspoelen. Dat duurt een paar minuten, met de stekker eruit en het apparaat afgekoeld.`,
+        pl: `Gdy tylko zaświeci się kontrolka odkamieniania lub według częstotliwości podanej w instrukcji. Im twardsza woda, tym częściej trzeba płukać kolektor. Zabieg trwa kilka minut, przy odłączonym i ostygniętym urządzeniu.`,
       },
     },
     {
@@ -588,6 +677,7 @@ export const article: BlogArticle = {
         es: `¿Puede un vaporizador sustituir a un centro de planchado?`,
         it: `Uno stiratore verticale può sostituire un ferro con caldaia?`,
         nl: `Kan een kledingstomer een stoomgenerator vervangen?`,
+        pl: `Czy parownica może zastąpić stację parową?`,
       },
       answer: {
         fr: `Pas complètement. Un défroisseur comme le Philips 7000 Series rafraîchit vite chemises, robes et rideaux, mais il ne donne pas de plis nets. Pour le linge plat et les chemises impeccables, une centrale reste plus efficace.`,
@@ -596,6 +686,7 @@ export const article: BlogArticle = {
         es: `No del todo. Un vaporizador como el Philips 7000 Series refresca rápido camisas, vestidos y cortinas, pero no marca pliegues nítidos. Para ropa de cama y camisas impecables, un centro de planchado sigue siendo más eficaz.`,
         it: `Non del tutto. Uno stiratore come il Philips 7000 Series rinfresca rapidamente camicie, vestiti e tende, ma non crea pieghe nette. Per la biancheria piana e camicie impeccabili, il ferro con caldaia resta più efficace.`,
         nl: `Niet helemaal. Een stomer zoals de Philips 7000 Series frist overhemden, jurken en gordijnen snel op, maar maakt geen scherpe vouwen. Voor vlak wasgoed en strakke overhemden blijft een stoomgenerator effectiever.`,
+        pl: `Nie do końca. Parownica, taka jak Philips 7000 Series, szybko odświeża koszule, sukienki i zasłony, ale nie daje wyraźnych kantów. Do płaskiego prania i nienagannych koszul stacja parowa jest skuteczniejsza.`,
       },
     },
     {
@@ -606,6 +697,7 @@ export const article: BlogArticle = {
         es: `¿Qué es la tecnología OptimalTEMP de Philips?`,
         it: `Che cos'è la tecnologia OptimalTEMP di Philips?`,
         nl: `Wat is de OptimalTEMP-technologie van Philips?`,
+        pl: `Czym jest technologia OptimalTEMP firmy Philips?`,
       },
       answer: {
         fr: `C'est un réglage unique de température et de vapeur que Philips présente comme adapté à tous les tissus repassables, de la soie au jean. Vous n'avez donc plus à trier le linge ni à attendre que le fer chauffe ou refroidisse.`,
@@ -614,6 +706,7 @@ export const article: BlogArticle = {
         es: `Es un único ajuste de temperatura y vapor que Philips presenta como apto para todos los tejidos planchables, de la seda al vaquero. Ya no hace falta clasificar la ropa ni esperar a que la plancha se caliente o se enfríe.`,
         it: `È un'unica impostazione di temperatura e vapore che Philips presenta come adatta a tutti i tessuti stirabili, dalla seta al denim. Non serve più dividere il bucato né aspettare che il ferro si scaldi o si raffreddi.`,
         nl: `Het is één temperatuur- en stoominstelling die Philips presenteert als geschikt voor alle strijkbare stoffen, van zijde tot denim. U hoeft de was niet meer te sorteren of te wachten tot het strijkijzer opwarmt of afkoelt.`,
+        pl: `To jedno ustawienie temperatury i pary, które Philips przedstawia jako odpowiednie dla wszystkich tkanin nadających się do prasowania, od jedwabiu po dżins. Nie musisz więc sortować prania ani czekać, aż żelazko się nagrzeje lub ostygnie.`,
       },
     },
   ],

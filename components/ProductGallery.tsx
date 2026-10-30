@@ -12,6 +12,7 @@ const THUMB_LABEL: Record<string, (n: number, total: number) => string> = {
   es: (n, t) => `Foto ${n} de ${t}`,
   it: (n, t) => `Foto ${n} di ${t}`,
   nl: (n, t) => `Foto ${n} van ${t}`,
+  pl: (n, t) => `Zdjęcie ${n} z ${t}`,
 }
 
 /**

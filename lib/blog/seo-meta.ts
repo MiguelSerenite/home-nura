@@ -21,6 +21,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Aire acondicionado portátil no enfría: causas y soluciones", description: "¿Tu aire acondicionado portátil no enfría? Revisa tubo de evacuación, filtro sucio, BTU, modo de uso y posibles fugas de gas, con soluciones." },
     it: { title: "Climatizzatore portatile che non raffredda: cause", description: "Il climatizzatore portatile non raffredda abbastanza? Cause e soluzioni passo passo: tubo di scarico, filtro sporco, BTU, modalità errata e perdita di gas." },
     nl: { title: "Mobiele Airco Koelt Niet: Oorzaken en Oplossingen 2026", description: "Koelt je mobiele airco niet genoeg? Diagnose van afvoerslang, vervuild filter, te weinig BTU, verkeerde stand en gaslek, met stap-voor-stap oplossingen." },
+    pl: { title: "Klimatyzator przenośny nie chłodzi: przyczyny i naprawa", description: "Klimatyzator przenośny nie chłodzi? Sprawdź rurę wylotową, zabrudzony filtr, zbyt małą moc BTU, ustawienia i wyciek gazu – diagnoza krok po kroku." },
   },
   "aire-acondicionado-portatil-sin-tubo": {
     fr: { title: "Climatiseur portable sans tuyau 2026 : quoi acheter", description: "Climatiseur portable sans tuyau : refroidisseur évaporatif ou vraie climatisation ? Pour qui, quelle consommation, quels modèles et quelles limites." },
@@ -29,6 +30,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Aire acondicionado portátil sin tubo 2026: qué comprar", description: "Aire acondicionado portátil sin tubo en 2026: diferencias entre climatizador evaporativo y aire real, para quién sirve cada uno, consumo y modelos." },
     it: { title: "Climatizzatore portatile senza tubo: la verità 2026", description: "Climatizzatore portatile senza tubo: differenza tra raffrescatore evaporativo e vera climatizzazione, a chi serve, consumi e tabella comparativa." },
     nl: { title: "Draagbare Airco Zonder Slang 2026: Wat Je Moet Weten", description: "De waarheid over draagbare airco's zonder slang: verdampingskoelers versus echte airconditioning, verbruik, geschikte situaties en een modelvergelijking." },
+    pl: { title: "Klimatyzator przenośny bez rury 2026: czy warto kupić?", description: "Klimatyzator przenośny bez rury to chłodzenie wyparne czy prawdziwa klimatyzacja? Dla kogo, ile prądu zużywa, które modele wybrać i jakie ma ograniczenia." },
   },
   "comment-choisir-airfryer-famille": {
     fr: { title: "Comment choisir un airfryer pour sa famille : guide 2026", description: "Choisissez l'airfryer idéal selon la taille de votre famille, votre budget et vos besoins : capacités, fonctionnalités et meilleurs modèles de 2026." },
@@ -37,6 +39,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Cómo elegir una freidora de aire para tu familia 2026", description: "Descubre cómo elegir la freidora de aire ideal según el tamaño de tu familia, tu presupuesto y tus necesidades, con comparativa de capacidades y modelos." },
     it: { title: "Come scegliere la friggitrice ad aria per la famiglia", description: "Come scegliere la friggitrice ad aria ideale in base a famiglia, budget ed esigenze: confronto di capacità, funzioni e migliori modelli del 2026." },
     nl: { title: "Airfryer Kiezen voor je Gezin: Complete Gids 2026", description: "Ontdek hoe je de ideale airfryer kiest op basis van gezinsgrootte, budget en behoeften. Vergelijking van capaciteiten, functies en beste modellen." },
+    pl: { title: "Jak wybrać frytkownicę beztłuszczową dla rodziny 2026", description: "Wybierz frytkownicę beztłuszczową dla swojej rodziny: pojemność, budżet, funkcje i najlepsze modele 2026. Sprawdź, która pasuje do Twojej kuchni." },
   },
   "cuisiner-healthy-airfryer": {
     fr: { title: "Cuisiner healthy avec un airfryer : guide nutrition", description: "Comment l'airfryer peut transformer votre alimentation : réduction des graisses, préservation des nutriments, comparatifs nutritionnels et repas sains." },
@@ -45,6 +48,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Cocinar saludable con freidora de aire: guía nutricional", description: "Descubre cómo la freidora de aire puede transformar tu alimentación: menos grasa, conservación de nutrientes, comparativas nutricionales y comidas sanas." },
     it: { title: "Cucinare sano con la friggitrice ad aria: guida", description: "Come la friggitrice ad aria può cambiare la tua alimentazione: meno grassi, conservazione dei nutrienti, confronti nutrizionali e idee per pasti sani." },
     nl: { title: "Gezond Koken met de Airfryer: Voedingsgids", description: "Ontdek hoe de airfryer je voeding verandert: minder vet, behoud van voedingsstoffen, voedingsvergelijkingen en ideeën voor gezonde maaltijden." },
+    pl: { title: "Zdrowe gotowanie we frytkownicy beztłuszczowej: poradnik", description: "Jak frytkownica beztłuszczowa zmienia sposób odżywiania: mniej tłuszczu, zachowane składniki odżywcze, porównania wartości i pomysły na zdrowe posiłki." },
   },
   "entretien-nettoyage-airfryer": {
     fr: { title: "Entretien et nettoyage de l'airfryer : guide complet", description: "Apprenez à nettoyer et entretenir votre airfryer : routine quotidienne, nettoyage profond mensuel, élimination de la graisse et astuces de longévité." },
@@ -53,6 +57,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mantenimiento y limpieza de tu freidora de aire: guía", description: "Aprende a limpiar y mantener tu freidora de aire: rutina diaria, limpieza profunda mensual, eliminación de grasa y trucos para alargar su vida útil." },
     it: { title: "Pulizia e manutenzione della friggitrice ad aria", description: "Come pulire e mantenere la friggitrice ad aria: routine quotidiana, pulizia profonda mensile, rimozione del grasso e consigli per prolungarne la durata." },
     nl: { title: "Airfryer Schoonmaken en Onderhouden: Complete Gids", description: "Zo maak je je airfryer goed schoon: dagelijkse routine, maandelijkse grondige reiniging, vetverwijdering en tips voor een langere levensduur." },
+    pl: { title: "Czyszczenie frytkownicy beztłuszczowej: pełny poradnik", description: "Jak czyścić i konserwować frytkownicę beztłuszczową: codzienna rutyna, miesięczne czyszczenie na głębię, usuwanie tłuszczu i sposoby na dłuższą żywotność." },
   },
   "erreurs-courantes-airfryer": {
     fr: { title: "10 erreurs à éviter avec un airfryer et comment corriger", description: "Les 10 erreurs les plus fréquentes avec un airfryer et nos solutions concrètes pour de meilleurs résultats, du panier surchargé à la mauvaise température." },
@@ -61,6 +66,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "10 errores a evitar con una freidora de aire", description: "Descubre los 10 errores más frecuentes al usar una freidora de aire y nuestras soluciones prácticas para conseguir siempre resultados perfectos." },
     it: { title: "10 errori da evitare con la friggitrice ad aria", description: "I 10 errori più comuni con la friggitrice ad aria e le nostre soluzioni pratiche per correggerli e ottenere risultati sempre perfetti a ogni cottura." },
     nl: { title: "10 Airfryer Fouten Vermijden en Hoe Je Ze Corrigeert", description: "De 10 meest voorkomende airfryer-fouten en onze praktische oplossingen, zodat je altijd perfecte resultaten krijgt. Lees ze voordat je begint." },
+    pl: { title: "10 błędów przy frytkownicy beztłuszczowej i ich naprawa", description: "10 najczęstszych błędów przy frytkownicy beztłuszczowej i konkretne rozwiązania: od przepełnionego koszyka po złą temperaturę. Lepsze efekty w kuchni." },
   },
   "guide-jardin-connecte-2026": {
     fr: { title: "Jardin connecté 2026 : tondeuse robot, arrosage et plus", description: "Transformez votre jardin en 2026 : tondeuses robots sans fil périmétrique, arrosage intelligent, éclairage extérieur, robots piscine et Matter." },
@@ -69,6 +75,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Jardín inteligente 2026: robot cortacésped, riego y más", description: "Todo para convertir tu jardín en un espacio inteligente en 2026: robots cortacésped sin cable perimetral, riego inteligente e iluminación exterior." },
     it: { title: "Giardino smart 2026: guida completa e tecnologie", description: "Guida al giardino smart 2026: robot tagliaerba senza filo perimetrale, irrigazione intelligente, illuminazione esterna, robot piscina e Matter." },
     nl: { title: "Slimme Tuin 2026: Robotmaaier, Sproeisysteem en Meer", description: "Maak van je tuin een slimme buitenruimte in 2026: robotmaaiers zonder begrenzingsdraad, slimme besproeiing, buitenverlichting en zwembad in één gids." },
+    pl: { title: "Inteligentny ogród 2026: robot koszący, nawadnianie", description: "Zamień ogród w inteligentny w 2026: roboty koszące bez przewodu, inteligentne nawadnianie, oświetlenie zewnętrzne, roboty basenowe i standard Matter." },
   },
   "guide-purificateur-air-2026": {
     fr: { title: "Purificateur d’air : vraiment utile ? Comparatif 2026", description: "Purificateurs d’air comparés : Levoit, Coway, Blueair, Philips, Dyson et Xiaomi par gamme, CADR, bruit et filtres. Et est-ce vraiment utile en 2026 ?" },
@@ -77,6 +84,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Comparativa purificadores de aire 2026: ¿merece la pena?", description: "Purificadores de aire comparados: Levoit, Coway, Blueair, Philips, Dyson y Xiaomi por gama, CADR, ruido y filtros. Y si de verdad merece la pena en 2026." },
     it: { title: "Purificatori d’aria a confronto 2026: servono davvero?", description: "Confronto 2026: Levoit, Coway, Blueair, Philips, Dyson e Xiaomi per fascia, CADR, rumore e filtri. E se un purificatore serve davvero contro le allergie." },
     nl: { title: "Luchtreinigers vergelijken 2026: heeft het zin?", description: "Luchtreinigers vergeleken: Levoit, Coway, Blueair, Philips, Dyson en Xiaomi per klasse, CADR, geluid en filteronderhoud. En of een luchtreiniger zin heeft." },
+    pl: { title: "Oczyszczacz powietrza: czy warto? Ranking 2026", description: "Oczyszczacze powietrza porównane: Levoit, Coway, Blueair, Philips, Dyson i Xiaomi według klasy, CADR, hałasu i filtrów. Czy warto go kupić w 2026?" },
   },
   "heissluftfritteuse-fuer-2-personen": {
     fr: { title: "Quel airfryer pour 2 personnes ? Guide d'achat 2026", description: "Couple ou petit foyer ? Découvrez la capacité idéale (3,5 à 5 L), les modèles compacts et les critères pour bien choisir votre airfryer en 2026." },
@@ -85,6 +93,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Freidora de aire para 2 personas: guía de compra 2026", description: "¿Pareja u hogar pequeño? Descubre la capacidad ideal de una freidora de aire para 2 personas (3,5-5 L), modelos compactos y criterios para elegir." },
     it: { title: "Friggitrice ad aria per 2 persone: guida 2026", description: "Quale friggitrice ad aria scegliere per 2 persone? Capacità ideale da 3,5 a 5 litri, modelli compatti 2026 e criteri di acquisto per una coppia." },
     nl: { title: "Airfryer voor 2 Personen: Complete Koopgids 2026", description: "Welke airfryer voor 2 personen? Ontdek de ideale capaciteit van 3,5 tot 5 liter, de beste compacte modellen en de criteria voor een klein huishouden." },
+    pl: { title: "Frytkownica beztłuszczowa dla 2 osób: poradnik 2026", description: "Dla pary lub małego domu? Poznaj idealną pojemność frytkownicy beztłuszczowej (3,5–5 l), kompaktowe modele i kryteria wyboru, które liczą się w 2026 roku." },
   },
   "heissluftfritteuse-riecht-nach-plastik": {
     fr: { title: "Airfryer qui sent le plastique : causes et solutions", description: "Votre airfryer dégage une odeur de plastique ? Découvrez pourquoi c'est souvent normal sur un appareil neuf, comment l'éliminer et quand s'inquiéter." },
@@ -93,6 +102,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Freidora de aire que huele a plástico: causas y soluciones", description: "¿Tu freidora de aire huele a plástico? Descubre por qué suele ser normal en un aparato nuevo, cómo quitar el olor paso a paso y cuándo debe preocuparte." },
     it: { title: "Friggitrice ad aria che odora di plastica: cause", description: "La friggitrice ad aria odora di plastica? Su un apparecchio nuovo è spesso normale. Scopri come eliminare l'odore e quando preoccuparti davvero." },
     nl: { title: "Airfryer Ruikt Naar Plastic: Oorzaken en Oplossingen", description: "Ruikt je airfryer naar plastic? Lees waarom dat bij een nieuw apparaat vaak normaal is, hoe je de geur verwijdert en wanneer je je zorgen moet maken." },
+    pl: { title: "Frytkownica beztłuszczowa śmierdzi plastikiem: co robić?", description: "Frytkownica beztłuszczowa pachnie plastikiem? Sprawdź, dlaczego to zwykle normalne w nowym urządzeniu, jak pozbyć się zapachu i kiedy warto się martwić." },
   },
   "heissluftfritteuse-stromverbrauch-kosten": {
     fr: { title: "Airfryer : consommation et coût réel d'électricité 2026", description: "Combien consomme vraiment un airfryer ? Calcul en kWh, coût annuel à environ 0,35 €/kWh, comparaison avec le four et la friteuse, modèles économes." },
@@ -101,6 +111,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Consumo eléctrico de la freidora de aire: coste real 2026", description: "Cuánta electricidad consume una freidora de aire: kWh por uso, coste anual con 0,35 €/kWh, comparación con horno y freidora, y modelos eficientes." },
     it: { title: "Consumo elettrico della friggitrice ad aria 2026", description: "Quanta elettricità consuma una friggitrice ad aria? kWh per utilizzo, costo con tariffa di circa 0,35 €/kWh, confronto con il forno e modelli efficienti." },
     nl: { title: "Stroomverbruik Airfryer: de Echte Kosten (2026)", description: "Hoeveel stroom verbruikt een airfryer echt? Bekijk het verbruik in kWh, de jaarlijkse kosten, de vergelijking met oven en frituurpan en zuinige modellen." },
+    pl: { title: "Frytkownica beztłuszczowa: zużycie prądu i koszt 2026", description: "Ile prądu zużywa frytkownica beztłuszczowa? Obliczenia w kWh, roczny koszt przy ok. 1,50 zł/kWh, porównanie z piekarnikiem i frytownicą, modele oszczędne." },
   },
   "meal-prep-airfryer-semaine": {
     fr: { title: "Meal prep à l'airfryer : planning et recettes semaine", description: "Planifiez votre semaine de repas à l'airfryer : planning du lundi au vendredi, liste de courses, batch cooking du dimanche, conservation et réchauffage." },
@@ -109,6 +120,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Meal prep semanal con freidora de aire: recetas", description: "Planifica tu semana de comidas con freidora de aire: menú de lunes a viernes, lista de la compra, batch cooking del domingo y consejos de conservación." },
     it: { title: "Meal prep settimanale con la friggitrice ad aria", description: "Pianifica una settimana di pasti con la friggitrice ad aria: menù dal lunedì al venerdì, lista della spesa, batch cooking della domenica e conservazione." },
     nl: { title: "Wekelijkse Meal Prep met de Airfryer: Planning", description: "Plan je hele week met airfryer-maaltijden: planning van maandag tot vrijdag, boodschappenlijst, batch cooking op zondag, bewaartips en opwarm-instructies." },
+    pl: { title: "Meal prep we frytkownicy beztłuszczowej: plan na tydzień", description: "Zaplanuj tydzień posiłków we frytkownicy: harmonogram od poniedziałku do piątku, lista zakupów, gotowanie na zapas w niedzielę i odgrzewanie." },
   },
   "recettes-desserts-patisseries-airfryer": {
     fr: { title: "Desserts et pâtisseries à l'airfryer : 8 recettes", description: "8 recettes de desserts à l'airfryer : brownies, muffins, chips de pomme, churros, cookies, banana bread, cinnamon rolls, lava cake, temps et températures." },
@@ -117,6 +129,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Postres en freidora de aire: 8 recetas golosas", description: "Descubre 8 recetas de postres en freidora de aire: brownies, muffins, chips de manzana, churros, cookies, banana bread, rollitos de canela y lava cake." },
     it: { title: "Ricette di dolci nella friggitrice ad aria: 8 idee", description: "8 ricette di dolci nella friggitrice ad aria: brownies, muffin, chips di mela, churros, cookies, banana bread, rotoli alla cannella e lava cake." },
     nl: { title: "Desserts en Gebak uit de Airfryer: 8 Recepten", description: "8 airfryer-dessertrecepten: brownies, muffins, appelchips, churros, koekjes, bananenbrood, kaneelbroodjes en lava cake. Zoet genieten uit je airfryer." },
+    pl: { title: "Desery we frytkownicy beztłuszczowej: 8 przepisów", description: "8 deserów z frytkownicy beztłuszczowej: brownie, muffiny, chipsy jabłkowe, churros, ciasteczka, chleb bananowy, cynamonki, lava cake – czasy i temperatury." },
   },
   "recettes-frites-parfaites-airfryer": {
     fr: { title: "Frites parfaites à l'airfryer : 7 variantes croustillantes", description: "7 recettes de frites à l'airfryer : classiques, patates douces, polenta, courgettes, avocat, truffées et belges, avec temps, températures et astuces." },
@@ -125,6 +138,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Patatas fritas perfectas en freidora de aire: 7 variantes", description: "Descubre 7 recetas de patatas fritas en freidora de aire: clásicas, boniato, polenta, calabacín, aguacate, trufa y belgas. Tiempos, temperaturas y trucos." },
     it: { title: "Patatine fritte nella friggitrice ad aria: 7 ricette", description: "7 ricette di patatine fritte nella friggitrice ad aria: classiche, patata dolce, polenta, zucchine, avocado, tartufo e belga. Tempi e temperature." },
     nl: { title: "Perfecte Frietjes uit de Airfryer: 7 Variaties", description: "7 airfryer-frietjesrecepten: klassiek, zoete aardappel, polenta, courgette, avocado, truffel en Belgische stijl, met tijden en temperaturen." },
+    pl: { title: "Frytki we frytkownicy beztłuszczowej: 7 chrupiących wersji", description: "7 przepisów na frytki we frytkownicy beztłuszczowej: klasyczne, ze słodkich ziemniaków, z polenty, cukinii, awokado, truflowe i belgijskie – czasy i triki." },
   },
   "recettes-legumes-grilles-airfryer": {
     fr: { title: "Légumes grillés à l'airfryer : 10 recettes et temps", description: "Comment griller 10 légumes à l'airfryer : brocoli, chou-fleur, courgettes, poivrons, asperges, aubergines et plus, avec temps et températures détaillés." },
@@ -133,6 +147,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Verduras a la parrilla en freidora de aire: 10 recetas", description: "Descubre cómo asar 10 verduras a la perfección en tu freidora de aire: brócoli, coliflor, calabacín, pimientos, coles de Bruselas, zanahorias y más." },
     it: { title: "Verdure grigliate nella friggitrice ad aria: 10 ricette", description: "Come grigliare 10 verdure nella friggitrice ad aria: broccoli, cavolfiore, zucchine, peperoni, cavolini, carote, asparagi, funghi, melanzane e fagiolini." },
     nl: { title: "Gegrilde Groenten uit de Airfryer: 10 Soorten", description: "Hoe je 10 groenten perfect grilt in je airfryer: broccoli, bloemkool, courgette, paprika, spruitjes, wortels, asperges, champignons en meer." },
+    pl: { title: "Warzywa z frytkownicy beztłuszczowej: 10 przepisów", description: "Jak grillować 10 warzyw we frytkownicy beztłuszczowej: brokuły, kalafior, cukinia, papryka, szparagi, bakłażan i inne – z czasami i temperaturami." },
   },
   "recettes-poulet-croustillant-airfryer": {
     fr: { title: "Poulet croustillant à l'airfryer : 6 recettes choisies", description: "6 recettes de poulet croustillant à l'airfryer : ailes, tenders, cuisses, blancs, nuggets et satay, avec marinades, températures et temps de cuisson." },
@@ -141,6 +156,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Pollo crujiente en freidora de aire: 6 recetas elegidas", description: "Descubre 6 recetas de pollo crujiente en freidora de aire: alitas, tenders, muslos, pechuga, nuggets y satay. Marinados, temperaturas y tiempos." },
     it: { title: "Ricette di pollo croccante nella friggitrice ad aria", description: "6 ricette di pollo croccante nella friggitrice ad aria: ali, tenders, cosce, petto, nuggets e satay. Marinature, temperature e tempi di cottura." },
     nl: { title: "Krokante Kip uit de Airfryer: 6 Geselecteerde Recepten", description: "6 krokante kiprecepten voor de airfryer: vleugels, tenders, dijen, borst, nuggets en satay. Met marinades, temperaturen en baktijden voor krokante kip." },
+    pl: { title: "Kurczak z frytkownicy beztłuszczowej: 6 przepisów", description: "6 przepisów na chrupiącego kurczaka z frytkownicy beztłuszczowej: skrzydełka, tendersy, udka, piersi, nuggetsy i satay – marynaty, temperatury i czasy." },
   },
   "robot-aspirateur-poils-animaux": {
     fr: { title: "Robot aspirateur poils d'animaux 2026 : top 5", description: "Les 5 robots aspirateurs recommandés pour les poils de chiens et de chats en 2026 : brosse anti-emmêlement, forte aspiration, filtre HEPA et auto-vidage." },
@@ -149,6 +165,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Robot aspirador para mascotas 2026: los 5 mejores", description: "Guía de los 5 mejores robots aspiradores para mascotas en 2026: cepillo anti-enredo, succión de más de 10.000 Pa, filtro HEPA y estación de autovaciado." },
     it: { title: "Robot aspirapolvere per peli di animali: i 5 migliori", description: "I 5 migliori robot aspirapolvere per peli di animali nel 2026: spazzola anti-groviglio, aspirazione oltre 10.000 Pa, filtro HEPA e stazione auto-empty." },
     nl: { title: "Robotstofzuiger voor Huisdieren 2026: Top 5", description: "De beste robotstofzuigers voor huisdieren in 2026: anti-klit borstel, 10.000+ Pa zuigkracht, HEPA-filter en zelfleegstation. Vijf aanbevolen modellen." },
+    pl: { title: "Robot sprzątający na sierść: top 5 modeli 2026", description: "5 polecanych robotów sprzątających na sierść psów i kotów w 2026: szczotka przeciw plątaniu włosów, mocne ssanie, filtr HEPA i automatyczne opróżnianie." },
   },
   "top-10-accessoires-airfryer": {
     fr: { title: "Top 10 accessoires indispensables pour airfryer 2026", description: "Les 10 accessoires qui rendent votre airfryer plus polyvalent : papiers perforés, grilles, moules silicone, spray huile et plus. Utilité et conseils." },
@@ -157,6 +174,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Top 10 accesorios para freidora de aire en 2026", description: "Descubre los 10 accesorios que transforman tu freidora de aire en 2026: papeles perforados, rejillas, moldes de silicona, spray de aceite y mucho más." },
     it: { title: "Top 10 accessori per friggitrice ad aria nel 2026", description: "I 10 accessori che trasformano la tua friggitrice ad aria: fogli perforati, griglie, stampi in silicone, spray per olio e altri utili strumenti." },
     nl: { title: "Top 10 Onmisbare Airfryer Accessoires in 2026", description: "De 10 accessoires die je airfryer transformeren: geperforeerd bakpapier, rekjes, siliconenvormen, oliespray en meer. Haal alles uit je airfryer." },
+    pl: { title: "Akcesoria do frytkownicy beztłuszczowej: top 10 w 2026", description: "10 akcesoriów, dzięki którym frytkownica beztłuszczowa jest bardziej uniwersalna: papier perforowany, ruszty, silikonowe foremki, spray do oleju i porady." },
   },
   "centrale-vapeur-comparatif": {
     fr: { title: "Meilleure centrale vapeur 2026 : comparatif des 6 top", description: "Philips PerfectCare 8000, Calor Pro Express, Braun CareStyle 7 Pro, Laurastar Smart U : pression, vapeur, anticalcaire et vraie connectivité comparés." },
@@ -165,6 +183,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor centro de planchado 2026: 6 modelos comparados", description: "Philips PerfectCare 8000, Tefal Pro Express, Braun CareStyle 7 Pro, Laurastar Smart U: presión, vapor continuo, antical y conectividad real comparados." },
     it: { title: "Miglior ferro con caldaia 2026: 6 modelli a confronto", description: "Philips PerfectCare 8000, Tefal Pro Express, Braun CareStyle 7 Pro, Laurastar Smart U: pressione, vapore continuo, anticalcare e vera connettività." },
     nl: { title: "Beste stoomgenerator 2026: 6 modellen vergeleken", description: "Philips PerfectCare 8000, Tefal Pro Express, Braun CareStyle 7 Pro, Laurastar Smart U: druk, continue stoom, ontkalking en echte connectiviteit vergeleken." },
+    pl: { title: "Najlepsza stacja parowa 2026: porównanie 6 modeli", description: "Philips PerfectCare 8000, Calor Pro Express, Braun CareStyle 7 Pro, Laurastar Smart U: ciśnienie, para, ochrona przed kamieniem i łączność – porównanie." },
   },
   "reveil-lumiere-simulateur-aube-comparatif": {
     fr: { title: "Meilleur réveil lumière 2026 : comparatif simulateurs", description: "Philips HF3650, HF3520, Lumie Shine 300, Beurer WL 75 : durée d'aube, lux, coucher de soleil, sons, appli et différence avec une lampe 10 000 lux." },
@@ -173,6 +192,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor despertador de luz 2026: comparativa completa", description: "Philips HF3650 y HF3520, Lumie Shine 300, Beurer WL 75: duración del amanecer, lux, atardecer, sonidos, app y diferencia con una lámpara de 10.000 lux." },
     it: { title: "Migliore sveglia luminosa 2026: confronto dei modelli", description: "Philips HF3650 e HF3520, Lumie Shine 300, Beurer WL 75: durata dell'alba, lux, tramonto, suoni, app e differenza con una lampada da 10.000 lux." },
     nl: { title: "Beste wake-up light 2026: zonsopgangwekkers vergeleken", description: "Philips HF3650 en HF3520, Lumie Shine 300, Beurer WL 75: duur van de zonsopgang, lux, zonsondergang, geluiden, app en verschil met een 10.000-luxlamp." },
+    pl: { title: "Budzik świetlny 2026: porównanie symulatorów świtu", description: "Philips HF3650, HF3520, Lumie Shine 300, Beurer WL 75: czas świtu, lux, zachód słońca, dźwięki, aplikacja i różnice względem lampy 10 000 lux." },
   },
   "robot-lave-vitre-comparatif": {
     fr: { title: "Meilleur robot lave-vitre 2026 : comparatif de 6 modèles", description: "Winbot W2 Omni, Hobot 2S, Cecotec WinDroid 1090… Aspiration, corde de sécurité, batterie de secours, vitres sans cadre : quel robot lave-vitre choisir ?" },
@@ -181,6 +201,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor robot limpiacristales 2026: 6 modelos comparados", description: "Winbot W2 Omni, Hobot 2S, Cecotec WinDroid 1090 y más: succión, cuerda de seguridad, batería de emergencia y cristales sin marco. ¿Cuál elegir?" },
     it: { title: "Miglior robot lavavetri 2026: confronto tra 6 modelli", description: "Winbot W2 Omni, Hobot 2S, Cecotec WinDroid 1090 e altri: aspirazione, corda di sicurezza, batteria di emergenza e vetri senza telaio. Quale scegliere?" },
     nl: { title: "Beste raamwasrobot 2026: 6 modellen vergeleken", description: "Winbot W2 Omni, Hobot 2S, Cecotec WinDroid 1090 en meer: zuigkracht, veiligheidskoord, noodaccu, sproeien en kaderloos glas. Welke raamwasrobot kies je?" },
+    pl: { title: "Najlepszy robot do mycia okien 2026: 6 modeli", description: "Winbot W2 Omni, Hobot 2S, Cecotec WinDroid 1090: ssanie, linka zabezpieczająca, awaryjna bateria, szyby bez ramy. Który robot do mycia okien wybrać?" },
   },
   "borne-recharge-voiture-electrique-maison": {
     fr: { title: "Borne de recharge maison 2026 : 6 wallbox comparées", description: "Wallbox Pulsar Max, Easee, Zaptec Go 2, Hager witty : quelle borne de recharge choisir en 2026 ? Puissance 7,4 à 22 kW, solaire, RFID, OCPP et pose IRVE." },
@@ -189,6 +210,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor cargador coche eléctrico casa 2026: 6 modelos", description: "Wallbox Pulsar Max, Easee Charge Lite, Zaptec Go 2 y más: ¿qué cargador doméstico elegir en 2026? De 7,4 a 22 kW, balanceo de carga, solar, RFID y OCPP." },
     it: { title: "Migliore wallbox per casa 2026: 6 modelli a confronto", description: "Wallbox Pulsar Max, Easee Charge Lite, Zaptec Go 2 e altre: quale wallbox scegliere nel 2026? Da 7,4 a 22 kW, bilanciamento carichi, solare, RFID e OCPP." },
     nl: { title: "Beste laadpaal voor thuis 2026: 6 wallboxen vergeleken", description: "Wallbox Pulsar Max, Easee Charge Lite, Zaptec Go 2 en meer: welke thuislader kies je in 2026? Van 7,4 tot 22 kW, load balancing, zonne-overschot en OCPP." },
+    pl: { title: "Wallbox do domu 2026: porównanie 6 ładowarek EV", description: "Wallbox Pulsar Max, Easee, Zaptec Go 2, Hager witty: którą ładowarkę do samochodu elektrycznego wybrać w 2026? Moc 7,4–22 kW, solar, RFID i OCPP." },
   },
   "traceur-objets-connecte-comparatif": {
     fr: { title: "Meilleur traceur d’objets 2026 : AirTag, Chipolo…", description: "Clés, sac, valise : quel traceur choisir en 2026 ? AirTag 2, Galaxy SmartTag2, Chipolo POP, Ugreen FineTrack Duo comparés selon votre iPhone ou Android." },
@@ -197,6 +219,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor localizador de objetos 2026: AirTag y más", description: "Llaves, bolso, maleta: ¿qué localizador elegir en 2026? AirTag 2, Galaxy SmartTag2, Chipolo POP y Ugreen FineTrack Duo comparados para iPhone y Android." },
     it: { title: "Miglior localizzatore di oggetti 2026: AirTag e co.", description: "Chiavi, borsa, valigia: quale localizzatore scegliere nel 2026? AirTag 2, Galaxy SmartTag2, Chipolo POP e Ugreen FineTrack Duo, per iPhone e Android." },
     nl: { title: "Beste tracker voor spullen 2026: AirTag en meer", description: "Sleutels, tas, koffer: welke tracker kies je in 2026? AirTag 2, Galaxy SmartTag2, Chipolo POP en Ugreen FineTrack Duo vergeleken voor iPhone en Android." },
+    pl: { title: "Lokalizator Bluetooth 2026: AirTag, Chipolo i inne", description: "Klucze, torba, walizka: jaki lokalizator wybrać w 2026? AirTag 2, Galaxy SmartTag2, Chipolo POP i Ugreen FineTrack Duo porównane dla iPhone'a i Androida." },
   },
   "lave-vaisselle-connecte-guide": {
     fr: { title: "Meilleur lave-vaisselle connecté 2026 : top 5", description: "Bosch Serie 6, Miele AutoDos, Siemens iQ500, LG QuadWash, Haier hOn : notre comparatif 2026 des lave-vaisselle connectés, étiquette A–G, bruit, app." },
@@ -205,6 +228,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor lavavajillas 2026: los 5 mejores conectados", description: "¿Cuál es el mejor lavavajillas de 2026? Comparamos Bosch Serie 6, Miele AutoDos, Siemens iQ500, LG QuadWash y Haier: etiqueta A–G, ruido, app y más." },
     it: { title: "Miglior lavastoviglie 2026: le 5 migliori connesse", description: "Qual è la miglior lavastoviglie del 2026? Confronto tra Bosch Serie 6, Miele AutoDos, Siemens iQ500, LG QuadWash e Haier: classe A–G, rumore, app." },
     nl: { title: "Beste slimme vaatwasser 2026: top 5 vergeleken", description: "Bosch Serie 6, Miele AutoDos, Siemens iQ500, LG QuadWash en Haier hOn vergeleken: energielabel A–G, geluid, couverts, automatische dosering en app." },
+    pl: { title: "Inteligentna zmywarka 2026: ranking 5 najlepszych", description: "Bosch Serie 6, Miele AutoDos, Siemens iQ500, LG QuadWash, Haier hOn: porównanie inteligentnych zmywarek 2026, etykieta energetyczna A–G, hałas i aplikacja." },
   },
   "station-electrique-portable-comparatif": {
     fr: { title: "Station électrique portable 2026 : top 6 comparé", description: "Meilleure station électrique portable 2026 : EcoFlow, Anker, BLUETTI, Jackery, DJI comparés. Wh vs W, LiFePO4, UPS, solaire, app et calcul d'autonomie." },
@@ -213,6 +237,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor estación de energía portátil 2026: top 6", description: "Mejor estación de energía portátil 2026: EcoFlow, Anker, BLUETTI, Jackery y DJI comparadas. Wh vs W, LiFePO4, SAI, solar, app y cálculo de autonomía." },
     it: { title: "Migliore power station portatile 2026: top 6", description: "Migliore power station portatile 2026: EcoFlow, Anker, BLUETTI, Jackery e DJI a confronto. Wh vs W, LiFePO4, UPS, solare, app e calcolo dell'autonomia." },
     nl: { title: "Beste draagbare powerstation 2026: top 6 vergeleken", description: "Beste draagbare powerstation 2026: EcoFlow, Anker, BLUETTI, Jackery en DJI vergeleken. Wh vs W, LiFePO4, UPS, zonne-energie, app en gebruiksduur berekenen." },
+    pl: { title: "Stacja zasilania 2026: ranking 6 przenośnych modeli", description: "Najlepsza przenośna stacja zasilania 2026: EcoFlow, Anker, BLUETTI, Jackery i DJI. Wh a W, LiFePO4, UPS, solar, aplikacja i obliczanie czasu pracy." },
   },
   "motorisation-portail-garage-connecte": {
     fr: { title: "Motorisation portail et garage connectée 2026", description: "Somfy, Hörmann, Meross, Shelly ou Nice : kits complets ou modules pour rendre connecté un portail ou une porte de garage, compatibilités et sécurité." },
@@ -221,6 +246,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Motorización conectada de puerta y garaje 2026", description: "Somfy, Hörmann, Meross, Shelly o Nice: kits completos o módulos para hacer inteligente una puerta o un garaje, con HomeKit, Alexa, Matter y seguridad." },
     it: { title: "Automazione smart per cancello e garage 2026", description: "Somfy, Hörmann, Meross, Shelly o Nice: kit completi o moduli per rendere smart cancello e porta da garage, con HomeKit, Alexa, Matter e sicurezza d'uso." },
     nl: { title: "Slimme poort- en garagedeuraandrijving 2026", description: "Somfy, Hörmann, Meross, Shelly of Nice: complete sets of nabouwmodules om een poort of garagedeur slim te maken, met HomeKit, Alexa, Matter en veiligheid." },
+    pl: { title: "Napęd do bramy i garażu z Wi-Fi: poradnik 2026", description: "Somfy, Hörmann, Meross, Shelly lub Nice: gotowe zestawy i moduły do inteligentnej bramy wjazdowej oraz garażowej. Zgodność z systemami i bezpieczeństwo." },
   },
   "diffuseur-huiles-essentielles-connecte": {
     fr: { title: "Diffuseur d'huiles essentielles connecté 2026", description: "Asakuki, Maxcio, Zen'Arôme, Atomiser Connect : quel diffuseur connecté Wi-Fi ou appli choisir en 2026 ? Ultrasons ou nébulisation, et précautions d'usage." },
@@ -229,6 +255,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor difusor de aceites esenciales Wi-Fi 2026", description: "Asakuki, Maxcio, Zen'Arôme, Atomiser Connect: los mejores difusores inteligentes con Wi-Fi o app en 2026, ultrasonidos o nebulización y precauciones." },
     it: { title: "Miglior diffusore di oli essenziali smart 2026", description: "Asakuki, Maxcio, Zen'Arôme, Atomiser Connect: i migliori diffusori di oli essenziali Wi-Fi e con app nel 2026, ultrasuoni o nebulizzatore e precauzioni." },
     nl: { title: "Beste slimme aromadiffuser 2026: top modellen", description: "Asakuki, Maxcio, Zen'Arôme, Atomiser Connect: de beste aromadiffusers met wifi of app in 2026, ultrasoon of vernevelaar, plus belangrijke veiligheidstips." },
+    pl: { title: "Dyfuzor olejków eterycznych z Wi-Fi: poradnik 2026", description: "Asakuki, Maxcio, Zen'Arôme, Atomiser Connect: jaki dyfuzor z Wi-Fi lub aplikacją wybrać w 2026? Ultradźwięki czy nebulizacja i zasady bezpiecznego użycia." },
   },
   "coffre-fort-connecte-guide": {
     fr: { title: "Coffre-fort connecté 2026 : 5 modèles biométriques", description: "Coffre-fort à empreinte, code ou appli : 5 modèles comparés, normes EN 14450 et EN 1143-1, classement incendie, ancrage, assurance et clé de secours." },
@@ -237,6 +264,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor caja fuerte inteligente 2026: 5 modelos", description: "Cajas fuertes con huella, código o app: 5 modelos comparados, normas EN 14450 y EN 1143-1, clases de incendio, anclaje, seguro y llave de emergencia." },
     it: { title: "Migliore cassaforte smart 2026: 5 modelli a confronto", description: "Casseforti con impronta, codice o app: 5 modelli a confronto, norme EN 14450 ed EN 1143-1, classi antincendio, ancoraggio, assicurazione, chiave di scorta." },
     nl: { title: "Beste slimme kluis 2026: 5 biometrische kluizen", description: "Kluis met vingerafdruk, code of app: 5 modellen vergeleken, met EN 14450 en EN 1143-1, brandklassen, verankering, verzekering en noodsleutel." },
+    pl: { title: "Sejf elektroniczny z odciskiem palca 2026: 5 modeli", description: "Sejf na odcisk palca, kod lub z aplikacją: 5 modeli porównanych – normy EN 14450 i EN 1143-1, odporność ogniowa, kotwienie, ubezpieczenie i klucz awaryjny." },
   },
   "lave-linge-connecte-guide": {
     fr: { title: "Meilleur lave-linge connecté 2026 : 6 modèles comparés", description: "Bosch, Siemens, Miele, Samsung, LG ou Haier : quel lave-linge connecté choisir en 2026 ? Classe énergie, capacité, bruit, dosage auto et lavante-séchante." },
@@ -245,6 +273,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor lavadora conectada 2026: 6 modelos comparados", description: "Bosch, Siemens, Miele, Samsung, LG o Haier: ¿qué lavadora conectada comprar en 2026? Etiqueta energética, capacidad, ruido, dosificación y lavasecadoras." },
     it: { title: "Migliore lavatrice connessa 2026: 6 modelli a confronto", description: "Bosch, Siemens, Miele, Samsung, LG o Haier: quale lavatrice connessa scegliere nel 2026? Etichetta energetica, capacità, rumore, autodosaggio e lavasciuga." },
     nl: { title: "Beste slimme wasmachine 2026: 6 modellen vergeleken", description: "Bosch, Siemens, Miele, Samsung, LG of Haier: welke slimme wasmachine kies je in 2026? Energielabel, capaciteit, geluid, autodosering en wasdrogers." },
+    pl: { title: "Inteligentna pralka 2026: ranking 6 najlepszych modeli", description: "Bosch, Siemens, Miele, Samsung, LG czy Haier: jaką inteligentną pralkę wybrać w 2026? Klasa energetyczna, pojemność, hałas, dozowanie i pralko-suszarki." },
   },
   "interrupteur-connecte-comparatif": {
     fr: { title: "Interrupteur connecté 2026 : les 6 meilleurs modèles", description: "Aqara H2, Legrand Céliane, Shelly 1PM Gen4, Hue Tap Dial : quel interrupteur connecté choisir en 2026, avec ou sans neutre, en Zigbee ou Matter ?" },
@@ -253,6 +282,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor interruptor inteligente 2026: 6 modelos top", description: "Aqara H2, Legrand Céliane, Shelly 1PM Gen4, Hue Tap Dial: qué interruptor inteligente elegir en 2026, con o sin neutro, con Zigbee o con Matter." },
     it: { title: "Miglior interruttore smart 2026: i 6 modelli top", description: "Aqara H2, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial: quale interruttore smart scegliere nel 2026, con o senza neutro, in Zigbee o Matter." },
     nl: { title: "Beste slimme lichtschakelaar 2026: top 6 modellen", description: "Aqara H2, Legrand Céliane, Shelly 1PM Gen4, Hue Tap Dial: welke slimme lichtschakelaar kies je in 2026, met of zonder nuldraad, Zigbee of Matter?" },
+    pl: { title: "Inteligentny włącznik światła 2026: 6 najlepszych modeli", description: "Aqara H2, Legrand Céliane, Shelly 1PM Gen4, Hue Tap Dial: jaki inteligentny włącznik wybrać w 2026? Z przewodem neutralnym lub bez, Zigbee czy Matter?" },
   },
   "box-domotique-hub-comparatif": {
     fr: { title: "Meilleure box domotique 2026 : comparatif des hubs", description: "Homey Pro, Home Assistant Green, Aqara Hub M3, IKEA Dirigera : quelle box domotique choisir en 2026 ? Zigbee, Z-Wave, Thread, Matter et local comparés." },
@@ -261,6 +291,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor hub domótico 2026: comparativa de centrales", description: "Homey Pro, Home Assistant Green, Aqara Hub M3 o IKEA Dirigera: ¿qué hub domótico elegir en 2026? Comparamos Zigbee, Z-Wave, Thread, Matter y control local." },
     it: { title: "Miglior hub domotico 2026: confronto tra centraline", description: "Homey Pro, Home Assistant Green, Aqara Hub M3 o IKEA Dirigera: quale hub domotico scegliere nel 2026? Confronto: Zigbee, Z-Wave, Thread, Matter e locale." },
     nl: { title: "Beste smart-home-hub 2026: Matter, Zigbee en Z-Wave", description: "Homey Pro, Home Assistant Green, Aqara Hub M3 of IKEA Dirigera? Vergelijk smart-home-hubs in 2026: Zigbee, Z-Wave, Thread, Matter en lokale bediening." },
+    pl: { title: "Centralka smart home 2026: porównanie najlepszych hubów", description: "Homey Pro, Home Assistant Green, Aqara Hub M3, IKEA Dirigera: jaką centralkę inteligentnego domu wybrać w 2026? Zigbee, Z-Wave, Thread, Matter i lokalnie." },
   },
   "alarme-exterieure-detecteur-jardin": {
     fr: { title: "Alarme extérieure 2026 : détecteurs et sirènes jardin", description: "Détecteurs extérieurs et sirènes pour jardin et allée en 2026 : Ajax, Ring, Somfy, Hue. Fausses alarmes, hauteur de pose, indice IP et respect des voisins." },
@@ -269,6 +300,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Alarma exterior 2026: detectores y sirenas para jardín", description: "Detectores y sirenas exteriores para jardín y entrada en 2026: Ajax, Ring, Somfy, Hue. Falsas alarmas, altura de instalación, grado IP y respeto a vecinos." },
     it: { title: "Allarme esterno 2026: rilevatori e sirene per giardino", description: "Rilevatori e sirene da esterno per giardino e vialetto nel 2026: Ajax, Ring, Somfy, Hue. Falsi allarmi, altezza di posa, grado IP e rispetto dei vicini." },
     nl: { title: "Buitenalarm 2026: beste sensoren en sirenes voor de tuin", description: "Buitensensoren en sirenes voor tuin en oprit in 2026: Ajax, Ring, Somfy en Hue vergeleken. Vals alarm, montagehoogte, IP-waarde en rekening met de buren." },
+    pl: { title: "Alarm zewnętrzny 2026: czujki i syreny do ogrodu", description: "Czujki i syreny zewnętrzne do ogrodu i podjazdu w 2026: Ajax, Ring, Somfy, Hue. Fałszywe alarmy, wysokość montażu, stopień IP i spokój sąsiadów." },
   },
   "rideau-motorise-connecte-guide": {
     fr: { title: "Rideau motorisé connecté 2026 : le comparatif", description: "Robot de rideau, rail motorisé ou store connecté : SwitchBot, Aqara, Somfy, IKEA et Eve comparés selon la tringle, le poids, la batterie et Matter." },
@@ -277,6 +309,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Cortinas motorizadas inteligentes 2026: comparativa", description: "¿Robot de cortina, riel motorizado o estor inteligente? SwitchBot, Aqara, Somfy, IKEA y Eve comparados por barra o riel, peso, batería y Matter." },
     it: { title: "Tende motorizzate smart 2026: robot, binari e rulli", description: "Robot per tende, binario motorizzato o tenda smart? SwitchBot, Aqara, Somfy, IKEA ed Eve a confronto per bastone o binario, peso, batteria e Matter." },
     nl: { title: "Slimme gordijnen 2026: robots, rails en rolgordijnen", description: "Gordijnrobot, gemotoriseerde rail of slim rolgordijn? SwitchBot, Aqara, Somfy, IKEA en Eve vergeleken op roede of rail, gewicht, batterij en Matter." },
+    pl: { title: "Inteligentne zasłony 2026: porównanie robotów i szyn", description: "Robot do zasłon, szyna z silnikiem czy inteligentna roleta: SwitchBot, Aqara, Somfy, IKEA i Eve porównane pod kątem karnisza, wagi, baterii i Matter." },
   },
   "batterie-domestique-stockage-solaire": {
     fr: { title: "Batterie domestique solaire 2026 : plug-in ou fixe ?", description: "Quelle batterie pour stocker votre électricité solaire en 2026 ? Anker, Marstek, Zendure, EcoFlow, Tesla Powerwall 3, Huawei : capacité, couplage, secours." },
@@ -285,6 +318,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor batería solar doméstica 2026: enchufable o fija", description: "¿Qué batería elegir para tu energía solar en 2026? Anker, Marstek, Zendure, EcoFlow, Tesla Powerwall 3 y Huawei: capacidad, acoplamiento AC/DC y respaldo." },
     it: { title: "Migliore batteria solare domestica 2026: plug-in o fissa", description: "Quale batteria per accumulare l'energia solare nel 2026? Anker, Marstek, Zendure, EcoFlow, Tesla Powerwall 3 e Huawei: capacità, accoppiamento e backup." },
     nl: { title: "Beste thuisbatterij zonnepanelen 2026: plug-in of vast", description: "Welke thuisbatterij voor je zonnestroom in 2026? Anker, Marstek, Zendure, EcoFlow, Tesla Powerwall 3 en Huawei: capaciteit, koppeling, noodstroom." },
+    pl: { title: "Magazyn energii do domu 2026: plug-in czy stacjonarny?", description: "Jaki magazyn energii wybrać do fotowoltaiki w 2026? Anker, Marstek, Zendure, EcoFlow, Tesla Powerwall 3, Huawei: pojemność, sprzężenie, backup." },
   },
   "humidificateur-connecte-comparatif": {
     fr: { title: "Meilleur humidificateur connecté 2026 : top 5 comparé", description: "Boneco H700 Smart, Levoit, Dyson PH04, Xiaomi : quel humidificateur connecté choisir en 2026 ? Évaporation ou ultrasons, hygiène, bruit et taille de pièce." },
@@ -293,6 +327,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor humidificador inteligente 2026: top 5 comparado", description: "Boneco H700 Smart, Levoit, Dyson PH04 y Xiaomi: ¿qué humidificador inteligente elegir en 2026? Evaporativo o ultrasónico, polvo blanco, higiene y ruido." },
     it: { title: "Miglior umidificatore smart 2026: i 5 top a confronto", description: "Boneco H700 Smart, Levoit, Dyson PH04 e Xiaomi a confronto: quale umidificatore smart scegliere nel 2026? Evaporativo o a ultrasuoni, calcare e rumore." },
     nl: { title: "Beste slimme luchtbevochtiger 2026: top 5 vergeleken", description: "Boneco H700 Smart, Levoit, Dyson PH04 en Xiaomi vergeleken: welke slimme luchtbevochtiger kies je in 2026? Verdamping of ultrasoon, wit stof en hygiëne." },
+    pl: { title: "Inteligentny nawilżacz powietrza 2026: top 5 modeli", description: "Boneco H700 Smart, Levoit, Dyson PH04, Xiaomi: jaki inteligentny nawilżacz wybrać w 2026? Odparowanie czy ultradźwięki, higiena, hałas i wielkość pokoju." },
   },
   "detecteur-mouvement-connecte-comparatif": {
     fr: { title: "Détecteur de mouvement connecté 2026 : comparatif", description: "PIR ou radar mmWave ? Comparatif 2026 des détecteurs de mouvement connectés : Aqara P2 et FP2, Hue, IKEA, Eve, Ajax. Autonomie, animaux, Matter, gammes." },
@@ -301,6 +336,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor sensor de movimiento inteligente 2026", description: "¿PIR o radar mmWave? Comparativa 2026 de sensores de movimiento: Aqara P2 y FP2, Hue, IKEA, Eve y Ajax. Autonomía, mascotas, sensor de luz, Matter y gamas." },
     it: { title: "Miglior sensore di movimento smart 2026: confronto", description: "PIR o radar mmWave? Confronto 2026 dei sensori di movimento smart: Aqara P2 e FP2, Hue, IKEA, Eve e Ajax. Autonomia, animali, sensore di luce, Matter." },
     nl: { title: "Beste slimme bewegingssensor 2026: vergelijking", description: "PIR of mmWave-radar? Vergelijking 2026 van slimme bewegingssensoren: Aqara P2 en FP2, Hue, IKEA, Eve en Ajax. Batterij, huisdieren, lichtsensor, Matter." },
+    pl: { title: "Inteligentny czujnik ruchu 2026: porównanie modeli", description: "PIR czy radar mmWave? Porównanie czujników ruchu 2026: Aqara P2 i FP2, Hue, IKEA, Eve, Ajax. Czas pracy, zwierzęta domowe, Matter i różnice między seriami." },
   },
   "compteur-energie-connecte-comparatif": {
     fr: { title: "Compteur d'énergie connecté 2026 : top 6 comparé", description: "Meilleur compteur d'énergie connecté 2026 : Shelly Pro 3EM, Lixee ZLinky, Ecojoko, Tibber comparés. Pince ou TIC Linky, solaire et Home Assistant." },
@@ -309,6 +345,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor medidor de energía conectado 2026: top 6", description: "Mejor medidor de energía conectado 2026: Shelly Pro 3EM, Shelly EM Gen3, Lixee, Tibber y frient comparados. Pinzas o contador, solar y Home Assistant." },
     it: { title: "Miglior misuratore di energia connesso 2026: top 6", description: "Miglior misuratore di energia connesso 2026: Shelly Pro 3EM, Shelly EM Gen3, Lixee, Tibber e frient. Pinze o contatore, fotovoltaico e Home Assistant." },
     nl: { title: "Beste energiemonitor 2026: top 6 vergeleken", description: "Beste energiemonitor 2026: Shelly Pro 3EM, Shelly EM Gen3, Tibber Pulse, frient en Lixee vergeleken. Stroomtang of P1-poort, zonnestroom, Home Assistant." },
+    pl: { title: "Inteligentny licznik energii 2026: ranking 6 modeli", description: "Najlepszy inteligentny licznik energii 2026: Shelly Pro 3EM, Lixee ZLinky, Ecojoko, Tibber. Cęgi czy TIC Linky (Francja), fotowoltaika i Home Assistant." },
   },
   "climatiseur-mobile-connecte-comparatif": {
     fr: { title: "Climatiseur mobile connecté 2026 : 5 modèles comparés", description: "Comparatif des meilleurs climatiseurs mobiles connectés 2026 : Midea PortaSplit, De'Longhi, Trotec, Olimpia. Puissance, bruit, classe et app Wi-Fi." },
@@ -317,6 +354,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Aire acondicionado portátil Wi-Fi 2026: 5 modelos", description: "Comparativa de los mejores aires acondicionados portátiles conectados de 2026: Midea PortaSplit, De'Longhi, Trotec. Potencia, ruido, clase y app Wi-Fi." },
     it: { title: "Condizionatore portatile Wi-Fi 2026: 5 a confronto", description: "I migliori condizionatori portatili connessi del 2026: Midea PortaSplit, De'Longhi Pinguino, Trotec, Olimpia Splendid. Potenza, rumore, classe e app." },
     nl: { title: "Beste slimme mobiele airco 2026: 5 vergeleken", description: "De beste slimme mobiele airco's van 2026 vergeleken: Midea PortaSplit, De'Longhi Pinguino, Trotec en Olimpia Splendid. Vermogen, geluid, klasse en app." },
+    pl: { title: "Klimatyzator przenośny z Wi-Fi 2026: 5 modeli", description: "Ranking najlepszych klimatyzatorów przenośnych z Wi-Fi 2026: Midea PortaSplit, De'Longhi, Trotec, Olimpia. Moc, hałas, klasa energetyczna i aplikacja." },
   },
   "robot-piscine-comparatif": {
     fr: { title: "Meilleur robot de piscine 2026 : filaire ou sans fil", description: "Comparatif 2026 des robots de piscine Dolphin, Beatbot, Aiper et Zodiac : fond, parois, ligne d’eau, filtration, autonomie sans fil et appli." },
@@ -325,6 +363,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor robot limpiafondos 2026: con o sin cable", description: "Comparativa 2026 de robots de piscina Dolphin, Beatbot, Aiper y Zodiac: fondo, paredes, línea de flotación, filtración, autonomía sin cable y app." },
     it: { title: "Miglior robot piscina 2026: con filo o senza fili", description: "Confronto 2026 dei robot piscina Dolphin, Beatbot, Aiper e Zodiac: fondo, pareti, linea d’acqua, filtrazione, autonomia senza fili e app dedicata." },
     nl: { title: "Beste zwembadrobot 2026: met of zonder snoer", description: "Vergelijking 2026 van zwembadrobots van Dolphin, Beatbot, Aiper en Zodiac: bodem, wanden, waterlijn, filterfijnheid, snoerloze accuduur en app." },
+    pl: { title: "Robot basenowy 2026: przewodowy czy bezprzewodowy?", description: "Porównanie robotów basenowych 2026: Dolphin, Beatbot, Aiper i Zodiac. Dno, ściany, linia wody, filtracja, czas pracy bez kabla oraz aplikacja mobilna." },
   },
   "grill-pellet-plancha-connecte-comparatif": {
     fr: { title: "Barbecue connecté 2026 : pellets, gaz, électrique", description: "Weber Searwood, Traeger, Ninja Woodfire, Weber Genesis Smart : comparatif des barbecues connectés 2026 pour jardin et balcon, sondes et pilotage Wi-Fi." },
@@ -333,6 +372,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Barbacoa inteligente 2026: pellets, gas y eléctrica", description: "Weber Searwood, Traeger, Ninja Woodfire y Weber Genesis Smart: las mejores barbacoas inteligentes de 2026 para jardín y balcón, con sondas y Wi-Fi." },
     it: { title: "Barbecue smart 2026: pellet, gas ed elettrico", description: "Weber Searwood, Traeger, Ninja Woodfire e Weber Genesis Smart a confronto: i migliori barbecue smart 2026 per giardino e balcone, con sonde e app Wi-Fi." },
     nl: { title: "Slimme barbecue 2026: pellet, gas en elektrisch", description: "Weber Searwood, Traeger, Ninja Woodfire en Weber Genesis Smart vergeleken: de beste slimme barbecues van 2026 voor tuin en balkon, met sondes en wifi-app." },
+    pl: { title: "Inteligentny grill 2026: pelletowy, gazowy, elektryczny", description: "Weber Searwood, Traeger, Ninja Woodfire, Weber Genesis Smart: porównanie inteligentnych grillów 2026 do ogrodu i na balkon, sondy i sterowanie przez Wi-Fi." },
   },
   "eclairage-connecte-comparatif": {
     fr: { title: "Éclairage connecté 2026 : Hue, IKEA, Tapo, Govee", description: "Philips Hue, IKEA KAJPLATS, Tapo L535E et Govee comparés : hub ou WiFi, Matter et Thread, ampoules, bandeaux LED. Notre choix selon votre usage." },
@@ -341,6 +381,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Iluminación inteligente 2026: Hue, IKEA, Tapo, Govee", description: "Philips Hue, IKEA KAJPLATS, Tapo L535E y Govee comparados: hub o wifi, Matter y Thread, bombillas y tiras LED. Nuestra elección según su uso." },
     it: { title: "Illuminazione smart 2026: Hue, IKEA, Tapo e Govee", description: "Philips Hue, IKEA KAJPLATS, Tapo L535E e Govee a confronto: hub o Wi-Fi, Matter e Thread, lampadine e strisce LED. La nostra scelta per ogni uso." },
     nl: { title: "Slimme verlichting 2026: Hue, IKEA, Tapo en Govee", description: "Philips Hue, IKEA KAJPLATS, Tapo L535E en Govee vergeleken: hub of wifi, Matter en Thread, lampen en ledstrips. Onze keuze voor elk gebruik en budget." },
+    pl: { title: "Inteligentne oświetlenie 2026: Hue, IKEA, Tapo, Govee", description: "Philips Hue, IKEA KAJPLATS, Tapo L535E i Govee: z hubem czy przez Wi-Fi, Matter i Thread, żarówki, taśmy LED. Nasz wybór zależnie od zastosowania." },
   },
   "ventilateur-connecte-comparatif": {
     fr: { title: "Ventilateur connecté 2026 : les 5 meilleurs modèles", description: "Comparatif des ventilateurs connectés 2026 : Dyson TP09, Xiaomi, Duux, Dyson HP09 et SwitchBot. Bruit, appli, Matter, purification : lequel choisir ?" },
@@ -349,6 +390,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor ventilador inteligente 2026: los 5 mejores", description: "Comparativa de ventiladores inteligentes 2026: Dyson TP09, Xiaomi, Duux, Dyson HP09 y SwitchBot. Ruido, app, Matter y purificación: ¿cuál elegir?" },
     it: { title: "Miglior ventilatore smart 2026: i 5 top modelli", description: "Confronto ventilatori smart 2026: Dyson TP09, Xiaomi, Duux, Dyson HP09 e SwitchBot. Rumorosità, app, Matter e purificazione: quale scegliere davvero?" },
     nl: { title: "Beste slimme ventilator 2026: de 5 topmodellen", description: "Slimme ventilatoren 2026 vergeleken: Dyson TP09, Xiaomi, Duux, Dyson HP09 en SwitchBot. Geluid, app, Matter en luchtzuivering: welke moet u kiezen?" },
+    pl: { title: "Inteligentny wentylator 2026: 5 najlepszych modeli", description: "Porównanie inteligentnych wentylatorów 2026: Dyson TP09, Xiaomi, Duux, Dyson HP09 i SwitchBot. Hałas, aplikacja, Matter, oczyszczanie – który wybrać?" },
   },
   "volets-roulants-connectes-guide": {
     fr: { title: "Volets roulants connectés 2026 : le guide complet", description: "Somfy Oximo io ou RTS, TaHoma Switch, volet solaire VELUX INTEGRA, Shelly 2PM Gen4 : bien choisir moteur, protocole et box pour des volets connectés." },
@@ -357,6 +399,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Persianas inteligentes 2026: guía completa", description: "Somfy Oximo io o RTS, TaHoma Switch, persiana solar VELUX INTEGRA y Shelly 2PM Gen4: cómo elegir motor, protocolo y central para persianas conectadas." },
     it: { title: "Tapparelle smart 2026: la guida completa", description: "Somfy Oximo io o RTS, TaHoma Switch, tapparella solare VELUX INTEGRA e Shelly 2PM Gen4: come scegliere motore, protocollo e centralina per tapparelle." },
     nl: { title: "Slimme rolluiken 2026: de complete koopgids", description: "Somfy Oximo io of RTS, TaHoma Switch, VELUX INTEGRA zonne-energierolluik en Shelly 2PM Gen4: zo kies je de juiste motor, het protocol en de hub." },
+    pl: { title: "Inteligentne rolety zewnętrzne 2026: pełny poradnik", description: "Somfy Oximo io lub RTS, TaHoma Switch, solarna roleta VELUX INTEGRA, Shelly 2PM Gen4: jak wybrać silnik, protokół i hub do inteligentnych rolet." },
   },
   "camera-interieure-sans-abonnement": {
     fr: { title: "Caméra intérieure sans abonnement 2026 : top 5", description: "Les 5 meilleures caméras intérieures sans abonnement en 2026 : Eufy E220, Tapo C220, Reolink E1 Pro, Aqara G3. Stockage microSD, NAS, rotation 360°." },
@@ -365,6 +408,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor cámara de interior sin suscripción 2026", description: "Las 5 mejores cámaras de interior sin suscripción en 2026: Eufy E220, Tapo C220, Reolink E1 Pro, Aqara G3. Grabación en microSD o NAS y giro de 360°." },
     it: { title: "Videocamera interna senza abbonamento 2026", description: "Le 5 migliori videocamere per interni senza abbonamento nel 2026: Eufy E220, Tapo C220, Reolink E1 Pro, Aqara G3. Archivio microSD o NAS, giro 360°." },
     nl: { title: "Beste binnencamera zonder abonnement 2026", description: "De 5 beste binnencamera's zonder abonnement in 2026: Eufy E220, Tapo C220, Reolink E1 Pro, Aqara G3 en Xiaomi. Opslag op microSD of NAS, 360° draaien." },
+    pl: { title: "Kamera wewnętrzna bez abonamentu 2026: top 5", description: "5 najlepszych kamer wewnętrznych bez abonamentu w 2026: Eufy E220, Tapo C220, Reolink E1 Pro, Aqara G3. Zapis na karcie microSD, NAS i obrót kamery o 360°." },
   },
   "aspirateur-sans-fil-comparatif-2026": {
     fr: { title: "Meilleur aspirateur balai sans fil 2026 : comparatif", description: "Dyson V15 Detect, Samsung Bespoke Jet AI, Rowenta X-Force Flex 15.60 ou LG A9K : quel aspirateur balai sans fil choisir en 2026 ? Critères et verdict." },
@@ -373,6 +417,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor aspiradora escoba sin cable 2026: comparativa", description: "Dyson V15 Detect, Samsung Bespoke Jet AI, Rowenta X-Force Flex 15.60 o LG A9K: ¿qué aspiradora escoba sin cable elegir en 2026? Criterios y veredicto." },
     it: { title: "Migliore scopa elettrica senza filo 2026: confronto", description: "Dyson V15 Detect, Samsung Bespoke Jet AI, Rowenta X-Force Flex 15.60 o LG A9K: quale scopa elettrica senza filo scegliere nel 2026? Criteri e verdetto." },
     nl: { title: "Beste draadloze steelstofzuiger 2026: 4 vergeleken", description: "Dyson V15 Detect, Samsung Bespoke Jet AI, Rowenta X-Force Flex 15.60 of LG A9K: welke draadloze steelstofzuiger kies je in 2026? Criteria en oordeel." },
+    pl: { title: "Odkurzacz pionowy bezprzewodowy 2026: porównanie", description: "Dyson V15 Detect, Samsung Bespoke Jet AI, Rowenta X-Force Flex 15.60 czy LG A9K: jaki odkurzacz pionowy bezprzewodowy wybrać w 2026? Kryteria i werdykt." },
   },
   "interphone-video-connecte": {
     fr: { title: "Interphone vidéo connecté 2026 : les 5 meilleurs", description: "Philips WelcomeEye Connect 3, BTicino Classe 100X et 300EOS, Comelit, Ring Intercom Video : quel interphone vidéo connecté pour maison ou appartement ?" },
@@ -381,6 +426,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor videoportero inteligente 2026: los 5 mejores", description: "Philips WelcomeEye Connect 3, BTicino Classe 100X y 300EOS, Comelit y Ring Intercom Video comparados: qué videoportero con app elegir para casa o piso." },
     it: { title: "Miglior videocitofono connesso 2026: i 5 migliori", description: "Philips WelcomeEye Connect 3, BTicino Classe 100X e 300EOS, Comelit e Ring Intercom Video a confronto: quale videocitofono con app scegliere per casa." },
     nl: { title: "Beste slimme video-intercom 2026: top 5 vergeleken", description: "Philips WelcomeEye Connect 3, BTicino Classe 100X en 300EOS, Comelit en Ring Intercom Video vergeleken: de juiste video-intercom met app voor huis of flat." },
+    pl: { title: "Wideodomofon 2026: 5 najlepszych inteligentnych modeli", description: "Philips WelcomeEye Connect 3, BTicino Classe 100X i 300EOS, Comelit, Ring Intercom Video: jaki wideodomofon z aplikacją wybrać do domu lub mieszkania?" },
   },
   "nettoyeur-vapeur-connecte": {
     fr: { title: "Nettoyeur vapeur 2026 : comparatif des 5 meilleurs", description: "Kärcher SC 5, SC 3, Polti Vaporetto Smart 100_T, Black+Decker et Bissell : quel nettoyeur vapeur choisir en 2026, et la vérité sur les modèles connectés." },
@@ -389,6 +435,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor limpiador a vapor 2026: 5 modelos comparados", description: "Kärcher SC 5 y SC 3, Polti Vaporetto Smart 100_T, Black+Decker y Bissell: qué limpiador a vapor elegir en 2026 y la verdad sobre los modelos conectados." },
     it: { title: "Miglior pulitore a vapore 2026: 5 modelli a confronto", description: "Kärcher SC 5 e SC 3, Polti Vaporetto Smart 100_T, Black+Decker e Bissell: quale pulitore a vapore scegliere nel 2026 e la verità sui modelli connessi." },
     nl: { title: "Beste stoomreiniger 2026: 5 modellen vergeleken", description: "Kärcher SC 5 en SC 3, Polti Vaporetto Smart 100_T, Black+Decker en Bissell: welke stoomreiniger je in 2026 kiest, en de waarheid over slimme modellen." },
+    pl: { title: "Myjka parowa 2026: ranking 5 najlepszych modeli", description: "Kärcher SC 5 i SC 3, Polti Vaporetto Smart 100_T, Black+Decker i Bissell: jaką myjkę parową wybrać w 2026 i jak jest z modelami inteligentnymi?" },
   },
   "detection-fuite-eau-connectee": {
     fr: { title: "Détecteur de fuite d'eau connecté 2026 : comparatif", description: "Quel détecteur de fuite d'eau connecté choisir en 2026 ? Aqara T1, Shelly Flood Gen4, Eve Water Guard et coupure automatique : critères, placement." },
@@ -397,6 +444,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Detector de fugas de agua inteligente 2026: guía", description: "¿Qué detector de fugas de agua inteligente elegir en 2026? Aqara T1, Shelly Flood Gen4, Eve Water Guard y corte automático: criterios, ubicación, errores." },
     it: { title: "Rilevatore perdite acqua smart 2026: guida e confronto", description: "Quale rilevatore di perdite d'acqua smart scegliere nel 2026? Aqara T1, Shelly Flood Gen4, Eve Water Guard e chiusura automatica: criteri e posizionamento." },
     nl: { title: "Slimme waterlekkagesensor 2026: vergelijking en gids", description: "Welke slimme waterlekkagesensor kiest u in 2026? Aqara T1, Shelly Flood Gen4, Eve Water Guard en automatische afsluiting vergeleken: criteria en plaatsing." },
+    pl: { title: "Czujnik zalania z Wi-Fi 2026: porównanie modeli", description: "Jaki inteligentny czujnik zalania wybrać w 2026? Aqara T1, Shelly Flood Gen4, Eve Water Guard i automatyczne odcięcie wody: kryteria i rozmieszczenie." },
   },
   "qualite-air-interieur-capteurs": {
     fr: { title: "Capteur qualité de l'air intérieur 2026 : guide d'achat", description: "CO2, PM2.5, COV, radon : comment choisir un capteur de qualité de l'air intérieur en 2026. Airthings View Plus, Netatmo, Aranet4, Awair comparés." },
@@ -405,6 +453,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Medidor de calidad del aire interior 2026: guía", description: "CO2, PM2.5, COV, radón: cómo elegir un medidor de calidad del aire interior en 2026. Comparamos Airthings View Plus, Netatmo, Aranet4 Home y Awair." },
     it: { title: "Monitor qualità dell'aria interna 2026: guida", description: "CO2, PM2.5, COV, radon: come scegliere un monitor della qualità dell'aria interna nel 2026. Confronto tra Airthings View Plus, Netatmo, Aranet4 e Awair." },
     nl: { title: "Binnenluchtkwaliteitsmeter 2026: zo kies je goed", description: "CO2, fijnstof, VOS, radon: zo kies je in 2026 een binnenluchtkwaliteitsmeter. Airthings View Plus, Netatmo, Aranet4 Home en Awair Element vergeleken." },
+    pl: { title: "Czujnik jakości powietrza w domu 2026: poradnik", description: "CO2, PM2.5, LZO, radon: jak wybrać czujnik jakości powietrza w domu w 2026. Porównanie modeli Airthings View Plus, Netatmo, Aranet4 i Awair krok po kroku." },
   },
   "radiateur-electrique-connecte-guide": {
     fr: { title: "Radiateur électrique connecté 2026 : guide et 5 modèles", description: "Radiateur connecté : inertie fluide, fonte ou bain d'huile, Wi-Fi intégré ou passerelle, fil pilote, détection de fenêtre. Thermor, Atlantic, Sauter, Mill." },
@@ -413,6 +462,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Radiador eléctrico inteligente 2026: guía y 5 modelos", description: "Radiadores inteligentes: inercia fluida, fundición o aceite, Wi-Fi o pasarela, detección de ventana abierta. Thermor, Atlantic, Sauter, Rointe, Mill." },
     it: { title: "Radiatore elettrico smart 2026: guida e 5 modelli", description: "Radiatori smart a confronto: fluido, ghisa o olio, Wi-Fi integrato o bridge, rilevamento finestra aperta. Modelli Thermor, Atlantic, Sauter, Rointe e Mill." },
     nl: { title: "Slimme elektrische radiator 2026: koopgids en 5 modellen", description: "Slimme radiatoren vergeleken: vloeistof, gietijzer of olie, ingebouwde wifi of bridge, open-raamdetectie. Thermor, Atlantic, Sauter, Rointe, Mill." },
+    pl: { title: "Inteligentny grzejnik elektryczny 2026: 5 modeli", description: "Grzejnik elektryczny z aplikacją: płyn, żeliwo lub olej, Wi-Fi w środku lub przez bramkę, wykrywanie otwartego okna. Thermor, Atlantic, Sauter i Mill." },
   },
   "detecteur-fumee-connecte-comparatif": {
     fr: { title: "Détecteur de fumée connecté 2026 : les 6 meilleurs", description: "Le Netatmo est notre meilleur détecteur de fumée connecté 2026 : EN 14604, sans hub, pile 10 ans. X-Sense pour plusieurs pièces, Netatmo CO en complément." },
@@ -421,6 +471,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Detector de humo inteligente 2026: los 6 mejores", description: "Netatmo es nuestro mejor detector de humo inteligente de 2026: EN 14604, sin hub, pila de 10 años. X-Sense para varias estancias, más el Netatmo CO." },
     it: { title: "Rilevatore di fumo smart 2026: i 6 migliori modelli", description: "Netatmo è il nostro miglior rilevatore di fumo smart del 2026: EN 14604, senza hub, batteria da 10 anni. X-Sense per più stanze, più il Netatmo CO." },
     nl: { title: "Beste slimme rookmelder 2026: 6 modellen vergeleken", description: "Netatmo is onze beste slimme rookmelder van 2026: EN 14604, geen hub, batterij voor 10 jaar. X-Sense voor meerdere kamers, plus de Netatmo CO-melder." },
+    pl: { title: "Inteligentny czujnik dymu 2026: ranking 6 modeli", description: "Netatmo to nasz wybór wśród czujników dymu 2026: norma EN 14604, bez huba, bateria 10 lat. X-Sense do wielu pomieszczeń, Netatmo CO jako uzupełnienie." },
   },
   "airfryer-economies-energie": {
     fr: { title: "Airfryer et économies d'énergie : le calcul en kWh 2026", description: "Un airfryer consomme souvent 2 à 3 fois moins qu'un four : calculs en kWh, hypothèses expliquées, économies annuelles et modèles adaptés à chaque foyer." },
@@ -429,6 +480,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Freidora de aire y ahorro energético 2026: cálculo en kWh", description: "Una freidora de aire suele gastar de 2 a 3 veces menos que el horno: cálculos en kWh, supuestos explicados, ahorro anual y modelos para cada hogar." },
     it: { title: "Friggitrice ad aria e risparmio energetico 2026 in kWh", description: "Una friggitrice ad aria consuma spesso 2-3 volte meno del forno: calcoli in kWh, ipotesi spiegate, risparmio annuo e modelli adatti a ogni famiglia." },
     nl: { title: "Airfryer en energiebesparing 2026: de berekening in kWh", description: "Een airfryer verbruikt vaak 2 tot 3 keer minder stroom dan een oven: berekeningen in kWh, heldere aannames, jaarlijkse besparing en modellen per gezin." },
+    pl: { title: "Frytkownica beztłuszczowa a oszczędność prądu: kWh 2026", description: "Frytkownica beztłuszczowa zużywa często 2–3 razy mniej prądu niż piekarnik: obliczenia w kWh, założenia, roczne oszczędności i modele dla każdego domu." },
   },
   "airfryer-simple-vs-double-panier": {
     fr: { title: "Airfryer simple ou double panier : que choisir en 2026 ?", description: "Simple ou double panier ? Capacité, encombrement, puissance et usage comparés, avec les modèles Ninja, Philips, Cosori et Moulinex à connaître en 2026." },
@@ -437,6 +489,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Freidora de aire de una o dos cestas: cuál elegir en 2026", description: "¿Una o dos cestas? Comparamos capacidad, espacio, potencia y uso diario, con los modelos de Ninja, Philips, Cosori y Moulinex que conviene conocer en 2026." },
     it: { title: "Friggitrice ad aria a cestello singolo o doppio nel 2026", description: "Cestello singolo o doppio? Capacità, ingombro, potenza e uso quotidiano a confronto, con i modelli Ninja, Philips, Cosori e Moulinex da conoscere nel 2026." },
     nl: { title: "Airfryer met enkele of dubbele mand: kiezen in 2026", description: "Eén of twee manden? Inhoud, ruimte, vermogen en dagelijks gebruik vergeleken, met de modellen van Ninja, Philips, Cosori en Moulinex die je in 2026 kent." },
+    pl: { title: "Frytkownica jednokomorowa czy dwukomorowa: co wybrać?", description: "Jedna czy dwie komory? Pojemność, gabaryty, moc i zastosowanie porównane na modelach Ninja, Philips, Cosori i Moulinex, które warto znać w 2026 roku." },
   },
   "airfryer-vs-friteuse-traditionnelle": {
     fr: { title: "Airfryer vs friteuse traditionnelle : que choisir en 2026", description: "Airfryer ou friteuse classique ? Huile, goût, rapidité, entretien et sécurité comparés, plus 4 airfryers pour remplacer votre friteuse en 2026." },
@@ -445,6 +498,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Freidora de aire vs freidora tradicional: ¿cuál en 2026?", description: "¿Freidora de aire o tradicional? Comparamos aceite, sabor, rapidez, limpieza y seguridad, y 4 freidoras de aire para sustituir tu freidora en 2026." },
     it: { title: "Friggitrice ad aria o tradizionale: cosa scegliere 2026", description: "Friggitrice ad aria o classica? Confronto su olio, gusto, rapidità, pulizia e sicurezza, più 4 friggitrici ad aria per sostituire la tua nel 2026." },
     nl: { title: "Airfryer vs traditionele frituurpan: wat kies je in 2026?", description: "Airfryer of klassieke frituurpan? Olie, smaak, snelheid, schoonmaak en veiligheid vergeleken, plus 4 airfryers die je frituurpan vervangen in 2026." },
+    pl: { title: "Frytkownica beztłuszczowa czy tradycyjna frytownica?", description: "Frytkownica beztłuszczowa czy klasyczna frytownica? Tłuszcz, smak, szybkość, czyszczenie i bezpieczeństwo oraz 4 modele, które zastąpią frytownicę w 2026." },
   },
   "alarme-maison-sans-abonnement": {
     fr: { title: "Alarme maison sans abonnement 2026 : les 4 meilleures", description: "Alarmes en autosurveillance sans contrat de télésurveillance : Ajax StarterKit 4G en tête, Somfy pour détecter avant l’effraction, Ring pour Alexa, eufy." },
@@ -453,6 +507,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Alarma para casa sin cuotas 2026: las 4 mejores", description: "Alarmas autovigiladas sin contrato de central: Ajax StarterKit 4G en cabeza, Somfy detecta antes del robo, Ring encaja con Alexa y eufy con sus cámaras." },
     it: { title: "Allarme casa senza abbonamento 2026: i 4 migliori", description: "Allarmi in autosorveglianza senza contratto di vigilanza: Ajax StarterKit 4G è la nostra scelta, Somfy rileva prima dell’effrazione, Ring per Alexa, eufy." },
     nl: { title: "Alarmsysteem zonder abonnement 2026: de 4 beste", description: "Zelfbewaakte alarmsystemen zonder meldkamercontract: Ajax StarterKit 4G is onze topkeuze, Somfy detecteert vóór de inbraak, Ring voor Alexa en eufy." },
+    pl: { title: "Alarm do domu bez abonamentu 2026: 4 najlepsze", description: "Alarmy z samodzielnym monitoringiem bez umowy z agencją ochrony: Ajax StarterKit 4G na czele, Somfy wykrywa przed włamaniem, Ring dla Alexy, eufy." },
   },
   "arrosage-connecte-intelligent": {
     fr: { title: "Arrosage connecté intelligent 2026 : guide et modèles", description: "Arrosage connecté intelligent en 2026 : Gardena smart, Eve Aqua, LinkTap G2S et Hunter Pro-HC comparés selon la connexion, les capteurs et votre jardin." },
@@ -461,6 +516,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Riego inteligente conectado 2026: guía y modelos", description: "Riego inteligente en 2026: GARDENA smart Water Control, Eve Aqua, LinkTap G2S y Hunter Pro-HC comparados por conectividad, sensores y tipo de jardín." },
     it: { title: "Irrigazione smart connessa 2026: guida e modelli", description: "Irrigazione smart nel 2026: GARDENA smart Water Control, Eve Aqua, LinkTap G2S e Hunter Pro-HC a confronto per connettività, sensori e giardino." },
     nl: { title: "Slimme tuinbesproeiing 2026: gids en beste modellen", description: "Slimme besproeiing in 2026: GARDENA smart Water Control, Eve Aqua, LinkTap G2S en Hunter Pro-HC vergeleken op verbinding, sensoren en type tuin." },
+    pl: { title: "Inteligentne nawadnianie ogrodu 2026: poradnik", description: "Inteligentne nawadnianie ogrodu w 2026: Gardena smart, Eve Aqua, LinkTap G2S i Hunter Pro-HC porównane pod kątem łączności, czujników i potrzeb ogrodu." },
   },
   "balance-cuisine-connectee-comparatif": {
     fr: { title: "Balance cuisine connectée 2026 : comparatif et avis", description: "Etekcity ESN00, Renpho, Beurer KS 34 XL et Acaia Pearl : quelle balance connectée choisir en 2026 pour le suivi nutritionnel, le café ou la pâtisserie ?" },
@@ -469,6 +525,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Báscula de cocina inteligente 2026: comparativa", description: "Etekcity ESN00, Renpho, Beurer KS 34 XL y Acaia Pearl: qué báscula inteligente elegir en 2026 para el seguimiento nutricional, el café o la repostería." },
     it: { title: "Bilancia da cucina smart 2026: confronto modelli", description: "Etekcity ESN00, Renpho, Beurer KS 34 XL e Acaia Pearl a confronto: quale bilancia smart scegliere nel 2026 per nutrizione, caffè o grandi quantità." },
     nl: { title: "Slimme keukenweegschaal 2026: de beste vergeleken", description: "Etekcity ESN00, Renpho, Beurer KS 34 XL en Acaia Pearl vergeleken: welke slimme keukenweegschaal kies je in 2026 voor voedingstracking, koffie of bakwerk?" },
+    pl: { title: "Inteligentna waga kuchenna 2026: porównanie i opinie", description: "Etekcity ESN00, Renpho, Beurer KS 34 XL i Acaia Pearl: jaką inteligentną wagę kuchenną wybrać w 2026 do diety, kawy lub wypieków? Porównanie i opinie." },
   },
   "balkonkraftwerk-panneau-solaire-balcon": {
     fr: { title: "Panneau solaire balcon 2026 : règles et meilleurs kits", description: "Panneau solaire de balcon en 2026 : fonctionnement, règles (800 W en Allemagne, déclaration Enedis), production réelle et kits Hoymiles, Anker, EcoFlow." },
@@ -477,6 +534,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Panel solar de balcón 2026: normas y mejores kits", description: "Panel solar de balcón en 2026: cómo funciona, normas por país, producción real y los mejores microinversores y sistemas con batería Hoymiles y Anker." },
     it: { title: "Pannello solare da balcone 2026: regole e migliori kit", description: "Pannello solare da balcone 2026: come funziona, regole per Paese, produzione reale e i migliori microinverter e sistemi con batteria Hoymiles e Anker." },
     nl: { title: "Balkonzonnepaneel 2026: regels, opbrengst en beste sets", description: "Balkonzonnepaneel in 2026: hoe het werkt, regels en einde saldering, de echte opbrengst en de beste omvormers en batterijen van Hoymiles, Anker en EcoFlow." },
+    pl: { title: "Elektrownia balkonowa 2026: zasady i najlepsze zestawy", description: "Elektrownia balkonowa w 2026: działanie, zasady (800 W w Niemczech), realna produkcja i zestawy Hoymiles, Anker, EcoFlow. Co sprawdzić przed zakupem." },
   },
   "barbecue-connecte-thermometre-guide": {
     fr: { title: "Thermomètre à viande connecté 2026 : guide barbecue", description: "MEATER Pro, MEATER Plus, Pro XL, Inkbird IBT-4XS et IBBQ-4BW : sondes, portée, Wi-Fi ou Bluetooth et températures à cœur pour réussir votre barbecue." },
@@ -485,6 +543,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Termómetro de carne inteligente 2026: guía barbacoa", description: "MEATER Pro, MEATER Plus, Pro XL, Inkbird IBT-4XS e IBBQ-4BW: número de sondas, alcance, Wi-Fi o Bluetooth y temperaturas internas para tu barbacoa." },
     it: { title: "Termometro per carne smart 2026: guida al barbecue", description: "MEATER Pro, MEATER Plus, Pro XL, Inkbird IBT-4XS e IBBQ-4BW a confronto: numero di sonde, portata, Wi-Fi o Bluetooth e temperature al cuore della carne." },
     nl: { title: "Slimme vleesthermometer 2026: gids voor de barbecue", description: "MEATER Pro, MEATER Plus, Pro XL, Inkbird IBT-4XS en IBBQ-4BW vergeleken: aantal sondes, bereik, wifi of Bluetooth en kerntemperaturen voor je barbecue." },
+    pl: { title: "Termometr do mięsa bezprzewodowy 2026: poradnik", description: "MEATER Pro, MEATER Plus, Pro XL, Inkbird IBT-4XS i IBBQ-4BW: sondy, zasięg, Wi-Fi czy Bluetooth i temperatury wewnątrz mięsa dla udanego grilla." },
   },
   "cafetiere-connectee-guide": {
     fr: { title: "Cafetière connectée 2026 : guide et 6 machines à grain", description: "Cafetière connectée ou machine à grain classique ? Ce que l'app apporte vraiment, nos critères et 6 modèles De'Longhi, Philips, Krups, Melitta et Jura." },
@@ -493,6 +552,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Cafetera inteligente 2026: guía y 6 superautomáticas", description: "¿Cafetera inteligente o superautomática sin app? Lo que aporta la app, cómo elegir y 6 modelos de De'Longhi, Philips, Krups, Melitta y Jura comparados." },
     it: { title: "Macchina caffè smart 2026: guida e 6 superautomatiche", description: "Macchina caffè smart o superautomatica classica? Cosa aggiunge l'app, come scegliere e 6 modelli a confronto di De'Longhi, Philips, Krups, Melitta e Jura." },
     nl: { title: "Slim koffiezetapparaat 2026: gids en 6 volautomaten", description: "Slim koffiezetapparaat of gewone volautomaat? Wat de app toevoegt, hoe je kiest en 6 modellen van De'Longhi, Philips, Krups, Melitta en Jura vergeleken." },
+    pl: { title: "Inteligentny ekspres do kawy 2026: 6 automatycznych", description: "Ekspres z aplikacją czy klasyczny automatyczny? Co naprawdę daje aplikacja, nasze kryteria i 6 modeli De'Longhi, Philips, Krups, Melitta oraz Jura." },
   },
   "capteur-sol-humidite-jardin": {
     fr: { title: "Capteur d'humidité du sol connecté 2026 : 4 modèles", description: "Gardena smart Sensor, Ecowitt WH51, ThirdReality Gen2, Xiaomi Mi Flora : quel capteur d'humidité du sol connecté choisir en 2026 pour bien arroser ?" },
@@ -501,6 +561,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Sensor de humedad del suelo 2026: 4 modelos conectados", description: "Gardena smart Sensor, Ecowitt WH51, ThirdReality Gen2 y Xiaomi Mi Flora: qué sensor de humedad del suelo conectado elegir en 2026 para regar mejor." },
     it: { title: "Sensore umidità del suolo 2026: 4 modelli connessi", description: "Gardena smart Sensor, Ecowitt WH51, ThirdReality Gen2 e Xiaomi Mi Flora: quale sensore di umidità del suolo connesso scegliere nel 2026 per irrigare." },
     nl: { title: "Slimme bodemvochtsensor 2026: 4 modellen vergeleken", description: "Gardena smart Sensor, Ecowitt WH51, ThirdReality Gen2 en Xiaomi Mi Flora: welke slimme bodemvochtsensor kiest u in 2026 om slimmer te sproeien?" },
+    pl: { title: "Czujnik wilgotności gleby 2026: 4 inteligentne modele", description: "Gardena smart Sensor, Ecowitt WH51, ThirdReality Gen2, Xiaomi Mi Flora: jaki czujnik wilgotności gleby wybrać w 2026, by dobrze podlewać ogród?" },
   },
   "cave-vin-connectee-guide": {
     fr: { title: "Cave à vin connectée 2026 : guide d’achat et modèles", description: "Cave de service, de vieillissement ou polyvalente : comment choisir une cave à vin connectée en 2026, avec La Sommelière ECELLAR185, Haier et Liebherr." },
@@ -509,6 +570,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Vinoteca inteligente 2026: guía de compra y modelos", description: "Cómo elegir una vinoteca inteligente en 2026: servicio, envejecimiento o dos zonas, humedad, avisos e inventario con La Sommelière, Haier y Liebherr." },
     it: { title: "Cantinetta vino smart 2026: guida e migliori modelli", description: "Come scegliere una cantinetta vino smart nel 2026: servizio, invecchiamento o due zone, umidità, avvisi e inventario con La Sommelière, Haier e Liebherr." },
     nl: { title: "Slimme wijnkast 2026: koopgids en beste modellen", description: "Zo kies je in 2026 een slimme wijnkast: serveren, rijpen of twee zones, luchtvochtigheid, meldingen en inventaris met La Sommelière, Haier en Liebherr." },
+    pl: { title: "Inteligentna chłodziarka do wina 2026: poradnik", description: "Chłodziarka do wina do serwowania, leżakowania lub uniwersalna: jak wybrać inteligentną szafę w 2026, m.in. La Sommelière ECELLAR185, Haier i Liebherr." },
   },
   "climatiseur-mobile-vs-ventilateur": {
     fr: { title: "Climatiseur mobile vs ventilateur 2026 : lequel choisir ?", description: "Climatiseur mobile, ventilateur ou rafraîchisseur ? Fonctionnement, consommation, bruit, installation et 5 modèles réels pour choisir selon la chaleur." },
@@ -517,6 +579,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Aire acondicionado portátil o ventilador 2026: cuál elegir", description: "¿Aire acondicionado portátil, ventilador o climatizador? Funcionamiento, consumo, ruido, instalación y 5 modelos reales para elegir según el calor." },
     it: { title: "Climatizzatore portatile o ventilatore? Guida 2026", description: "Climatizzatore portatile, ventilatore o raffrescatore? Funzionamento, consumi, rumore, installazione e 5 modelli reali per scegliere in base al caldo." },
     nl: { title: "Mobiele airco vs ventilator 2026: welke kies je?", description: "Mobiele airco, ventilator of luchtkoeler? Werking, verbruik, geluid, installatie en 5 echte modellen om te kiezen op basis van hitte, kamer en woning." },
+    pl: { title: "Klimatyzator przenośny czy wentylator 2026: co wybrać?", description: "Klimatyzator przenośny, wentylator czy ochładzacz? Działanie, zużycie prądu, hałas, montaż i 5 realnych modeli – wybierz odpowiednio do upałów." },
   },
   "comparatif-airfryer-connecte-2026": {
     fr: { title: "Airfryer connecté WiFi 2026 : comparatif des meilleurs", description: "Philips Combi XXL Connecté, Cosori Dual Blaze, Xiaomi Smart Air Fryer Pro : quel airfryer connecté choisir en 2026 ? Applis, assistants vocaux, capacité." },
@@ -525,6 +588,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Freidoras de aire WiFi 2026: comparativa de las mejores", description: "Philips Combi XXL Connected, Cosori Dual Blaze o Xiaomi Smart Air Fryer Pro: qué freidora de aire conectada elegir en 2026 según app, voz y capacidad." },
     it: { title: "Friggitrice ad aria WiFi 2026: i migliori modelli", description: "Philips Combi XXL Connected, Cosori Dual Blaze o Xiaomi Smart Air Fryer Pro: quale friggitrice ad aria connessa scegliere nel 2026: app, voce e capienza." },
     nl: { title: "Beste slimme wifi-airfryers 2026: vergelijking", description: "Philips Combi XXL Connected, Cosori Dual Blaze of Xiaomi Smart Air Fryer Pro? De beste slimme airfryers van 2026 vergeleken op app, spraak en inhoud." },
+    pl: { title: "Frytkownica beztłuszczowa WiFi 2026: porównanie", description: "Philips Combi XXL Connected, Cosori Dual Blaze, Xiaomi Smart Air Fryer Pro: jaką frytkownicę z Wi-Fi wybrać w 2026? Aplikacje, głos, pojemność." },
   },
   "comparatif-camera-surveillance-exterieure": {
     fr: { title: "Caméra de surveillance extérieure sans abonnement 2026", description: "eufyCam S3 Pro, Tapo C520WS, Reolink RLC-833A, Argus 4 Pro et SoloCam S340 comparées : stockage local, vision nocturne, alimentation et conseils de pose." },
@@ -533,6 +597,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Cámara de vigilancia exterior sin cuotas 2026: top 5", description: "eufyCam S3 Pro, Tapo C520WS, Reolink RLC-833A, Argus 4 Pro y SoloCam S340 comparadas: almacenamiento local, visión nocturna, alimentación y montaje." },
     it: { title: "Telecamera esterna senza abbonamento 2026: le 5 migliori", description: "eufyCam S3 Pro, Tapo C520WS, Reolink RLC-833A, Argus 4 Pro e SoloCam S340 a confronto: archiviazione locale, visione notturna, alimentazione e montaggio." },
     nl: { title: "Buitencamera zonder abonnement 2026: de 5 beste vergeleken", description: "eufyCam S3 Pro, Tapo C520WS, Reolink RLC-833A, Argus 4 Pro en SoloCam S340 vergeleken: lokale opslag, nachtzicht, voeding en tips voor de montage." },
+    pl: { title: "Kamera zewnętrzna bez abonamentu 2026: porównanie", description: "eufyCam S3 Pro, Tapo C520WS, Reolink RLC-833A, Argus 4 Pro i SoloCam S340: zapis lokalny, noktowizja, zasilanie i wskazówki dotyczące montażu." },
   },
   "comparatif-multicuiseur-connecte": {
     fr: { title: "Multicuiseur connecté 2026 : comparatif des 5 meilleurs", description: "Cookeo Touch WiFi, Cook4me, Ninja Foodi MAX SmartLid et Instant Pot Duo Plus comparés : lesquels sont vraiment connectés, capacité, modes et verdict." },
@@ -541,6 +606,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Olla multifunción conectada 2026: las 5 mejores", description: "Cookeo Touch WiFi, Cook4me, Ninja Foodi MAX SmartLid e Instant Pot Duo Plus comparadas: cuáles tienen wifi de verdad, capacidad, modos y veredicto." },
     it: { title: "Multicooker connesso 2026: i 5 migliori a confronto", description: "Cookeo Touch WiFi, Cook4me, Ninja Foodi MAX SmartLid e Instant Pot Duo Plus a confronto: quali sono davvero connessi, capacità, modalità e verdetto." },
     nl: { title: "Slimme multicooker 2026: de 5 beste vergeleken", description: "Cookeo Touch WiFi, Cook4me, Ninja Foodi MAX SmartLid en Instant Pot Duo Plus vergeleken: welke hebben echt wifi, inhoud, kookstanden en ons oordeel." },
+    pl: { title: "Multicooker z Wi-Fi 2026: ranking 5 najlepszych", description: "Cookeo Touch WiFi, Cook4me, Ninja Foodi MAX SmartLid i Instant Pot Duo Plus: które multicookery są naprawdę inteligentne, pojemność, programy i werdykt." },
   },
   "comparatif-purificateur-air-allergie": {
     fr: { title: "Purificateur d'air allergie 2026 : 5 modèles comparés", description: "Levoit Core 400S, Core 300S, Philips AC2939/10, Blueair 411i Max et Xiaomi 4 comparés pour allergiques : filtre HEPA, CADR, bruit la nuit et mode auto." },
@@ -549,6 +615,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Purificador de aire para alergias 2026: los 5 mejores", description: "Comparativa de purificadores para alergias 2026: Levoit Core 400S y 300S, Philips AC2939/10, Blueair 411i Max y Xiaomi 4. HEPA, CADR y ruido nocturno." },
     it: { title: "Purificatore d'aria per allergie 2026: i 5 migliori", description: "Confronto dei purificatori per allergie 2026: Levoit Core 400S e 300S, Philips AC2939/10, Blueair 411i Max e Xiaomi 4. Filtro HEPA, CADR e rumore di notte." },
     nl: { title: "Luchtreiniger voor allergie 2026: 5 modellen vergeleken", description: "Luchtreinigers voor allergie 2026: Levoit Core 400S en 300S, Philips AC2939/10, Blueair 411i Max en Xiaomi 4 vergeleken op HEPA, CADR en nachtgeluid." },
+    pl: { title: "Oczyszczacz powietrza dla alergików 2026: 5 modeli", description: "Levoit Core 400S, Core 300S, Philips AC2939/10, Blueair 411i Max i Xiaomi 4 dla alergików: filtr HEPA, CADR, hałas w nocy i tryb automatyczny." },
   },
   "comparatif-robot-aspirateur-laveur": {
     fr: { title: "Robot aspirateur laveur 2026 : comparatif des 5 meilleurs", description: "Dreame X50 Ultra, Roborock Qrevo Curv 2 Flow, Ecovacs X8 Pro Omni, Narwal et Dreame L40 Ultra : rouleau ou serpillères, station et choix du bon modèle." },
@@ -557,6 +624,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Robot aspirador y fregasuelos 2026: los 5 mejores", description: "Dreame X50 Ultra, Roborock Qrevo Curv 2 Flow, Ecovacs X8 Pro Omni, Narwal y Dreame L40 Ultra: rodillo o mopas, base, alfombras y cuál elegir en 2026." },
     it: { title: "Robot aspirapolvere lavapavimenti 2026: i 5 migliori", description: "Dreame X50 Ultra, Roborock Qrevo Curv 2 Flow, Ecovacs X8 Pro Omni, Narwal e Dreame L40 Ultra a confronto: rullo o panni, stazione, tappeti e verdetto." },
     nl: { title: "Robotstofzuiger met dweilfunctie 2026: de 5 beste", description: "Dreame X50 Ultra, Roborock Qrevo Curv 2 Flow, Ecovacs X8 Pro Omni, Narwal en Dreame L40 Ultra vergeleken: rol of pads, station, tapijt en de beste keuze." },
+    pl: { title: "Robot sprzątający z mopem 2026: ranking 5 najlepszych", description: "Dreame X50 Ultra, Roborock Qrevo Curv 2 Flow, Ecovacs X8 Pro Omni, Narwal i Dreame L40 Ultra: rolka czy mopy, stacja i wybór odpowiedniego modelu." },
   },
   "comparatif-smart-plugs-mesure-energie": {
     fr: { title: "Prise connectée avec mesure de conso 2026 : comparatif", description: "Tapo P115, Meross MSS310, Shelly Plug S Gen3 ou Eve Energy : quelle prise connectée avec mesure de consommation choisir en 2026 ? 16 A, Matter, Thread." },
@@ -565,6 +633,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Enchufe inteligente con medición de consumo 2026", description: "Tapo P115, Meross MSS310, Shelly Plug S Gen3 o Eve Energy: qué enchufe inteligente con medición de consumo elegir en 2026. Carga, Matter, Thread y más." },
     it: { title: "Presa smart con misurazione dei consumi 2026: confronto", description: "Tapo P115, Meross MSS310, Shelly Plug S Gen3 ed Eve Energy a confronto: quale presa smart con misura consumi scegliere nel 2026. Carico, Matter, Thread." },
     nl: { title: "Slimme stekker met energiemeting 2026: vergelijking", description: "Tapo P115, Meross MSS310, Shelly Plug S Gen3 en Eve Energy vergeleken: welke slimme stekker met energiemeting kies je in 2026? Belasting, Matter en Thread." },
+    pl: { title: "Inteligentna wtyczka z pomiarem energii 2026: ranking", description: "Tapo P115, Meross MSS310, Shelly Plug S Gen3 czy Eve Energy: jaką inteligentną wtyczkę z pomiarem zużycia prądu wybrać w 2026? 16 A, Matter, Thread." },
   },
   "cookeo-vs-thermomix-vs-airfryer": {
     fr: { title: "Cookeo vs Thermomix vs Airfryer : lequel choisir en 2026", description: "Cookeo, Thermomix TM7 ou airfryer ? Usages, capacités, recettes guidées et profils comparés en 2026 pour choisir l’appareil adapté à votre cuisine." },
@@ -573,6 +642,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Olla programable vs Thermomix vs freidora de aire 2026", description: "¿Olla programable, Thermomix TM7 o freidora de aire? Usos, capacidades, recetas guiadas y perfiles comparados en 2026 para elegir el aparato adecuado." },
     it: { title: "Multicooker vs Bimby vs friggitrice ad aria: guida 2026", description: "Multicooker, Bimby TM7 o friggitrice ad aria? Usi, capacità, ricette guidate e profili a confronto nel 2026 per scegliere l’apparecchio giusto per voi." },
     nl: { title: "Multicooker vs Thermomix vs airfryer: vergelijking 2026", description: "Multicooker, Thermomix TM7 of airfryer? Gebruik, capaciteit, begeleide recepten en profielen vergeleken in 2026, zodat je het juiste apparaat kiest." },
+    pl: { title: "Cookeo, Thermomix czy frytkownica: co wybrać w 2026?", description: "Cookeo, Thermomix TM7 czy frytkownica beztłuszczowa? Zastosowania, pojemności, przepisy z asystentem i profile użytkowników – wybierz urządzenie do kuchni." },
   },
   "guide-cuisine-connectee-2026": {
     fr: { title: "Guide cuisine connectée 2026 : appareils smart utiles", description: "Multicuiseur Wi-Fi, thermomètre sans fil, prise avec suivi de conso, balance et cafetière pilotable : ce qui vaut vraiment le coup dans la cuisine en 2026." },
@@ -581,6 +651,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Guía cocina conectada 2026: aparatos smart que sí sirven", description: "Olla multifunción wifi, termómetro inalámbrico, enchufe con medición, báscula nutricional y cafetera con app: lo que de verdad merece la pena en 2026." },
     it: { title: "Guida cucina connessa 2026: apparecchi smart davvero utili", description: "Multicooker Wi-Fi, termometro senza fili, presa con misura dei consumi, bilancia nutrizionale e macchina del caffè via app: cosa vale davvero nel 2026." },
     nl: { title: "Slimme keuken gids 2026: apparaten die het waard zijn", description: "Wifi-multicooker, draadloze vleesthermometer, stekker met verbruiksmeting, voedingsweegschaal en koffiemachine met app: wat in 2026 echt de moeite loont." },
+    pl: { title: "Inteligentna kuchnia 2026: które urządzenia warto kupić", description: "Multicooker z Wi-Fi, bezprzewodowy termometr, wtyczka z pomiarem energii, waga i ekspres z aplikacją: co naprawdę się opłaca w kuchni w 2026 roku." },
   },
   "guide-domotique-economie-energie-2026": {
     fr: { title: "Domotique et économie d’énergie 2026 : le guide", description: "Chauffage piloté, prises et compteurs connectés, détection de présence : les équipements domotiques qui réduisent vraiment vos kWh et les erreurs à éviter." },
@@ -589,6 +660,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Domótica y ahorro energético 2026: guía práctica", description: "Control de la calefacción, enchufes y medidores conectados, sensores de presencia: los equipos domóticos que bajan de verdad sus kWh y qué errores evitar." },
     it: { title: "Domotica e risparmio energetico 2026: la guida", description: "Gestione del riscaldamento, prese e misuratori connessi, sensori di presenza: i dispositivi domotici che riducono davvero i kWh e gli errori da non fare." },
     nl: { title: "Domotica en energiebesparing 2026: de gids", description: "Slimme verwarmingsregeling, meetstekkers, energiemonitors en aanwezigheidssensoren: welke smart-homeapparaten echt kWh besparen en welke fouten u vermijdt." },
+    pl: { title: "Inteligentny dom a oszczędność energii 2026: poradnik", description: "Sterowane ogrzewanie, inteligentne wtyczki i liczniki, wykrywanie obecności: urządzenia smart home, które realnie obniżają kWh, i błędy, których unikać." },
   },
   "guide-robot-aspirateur-2026": {
     fr: { title: "Guide robot aspirateur 2026 : critères et 5 modèles", description: "Bien choisir son robot aspirateur en 2026 : puissance, LiDAR, lavage, station, hauteur, et 5 modèles récents, du Roborock Qrevo Curv au Dreame X50." },
@@ -597,6 +669,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Guía robot aspirador 2026: cómo elegir y 5 modelos", description: "Cómo elegir un robot aspirador en 2026: succión, LiDAR, fregado, base y altura, y 5 modelos recientes comparados, del Roborock Qrevo Curv al Dreame X50." },
     it: { title: "Guida robot aspirapolvere 2026: criteri e 5 modelli", description: "Come scegliere un robot aspirapolvere nel 2026: aspirazione, LiDAR, lavaggio, base e altezza, e 5 modelli recenti, dal Roborock Qrevo Curv al Dreame X50." },
     nl: { title: "Robotstofzuiger koopgids 2026: criteria en 5 modellen", description: "Zo kies je in 2026 een robotstofzuiger: zuigkracht, LiDAR, dweilen, station en hoogte, plus 5 recente modellen, van Roborock Qrevo Curv tot Dreame X50." },
+    pl: { title: "Robot sprzątający 2026: poradnik wyboru i 5 modeli", description: "Jak wybrać robota sprzątającego w 2026: moc ssania, LiDAR, mopowanie, stacja, wysokość oraz 5 nowych modeli, od Roborock Qrevo Curv po Dreame X50." },
   },
   "histoire-evolution-airfryer": {
     fr: { title: "Qui a inventé l’airfryer ? Histoire de 2006 à 2026", description: "Qui a inventé l’airfryer, Tefal ou Philips ? ActiFry en 2006, Airfryer Philips de Fred van der Weij en 2010, double zone en 2020 : toute la chronologie." },
@@ -605,6 +678,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "¿Quién inventó la freidora de aire? Historia 2006-2026", description: "¿Quién inventó la freidora de aire, Tefal o Philips? ActiFry en 2006, Airfryer de Philips de Fred van der Weij en 2010, doble zona en 2020: la cronología." },
     it: { title: "Chi ha inventato la friggitrice ad aria? Storia 2006-2026", description: "Chi ha inventato la friggitrice ad aria, Tefal o Philips? ActiFry 2006, Airfryer Philips di Fred van der Weij 2010, doppia zona 2020: tutta la cronologia." },
     nl: { title: "Wie heeft de airfryer uitgevonden? Geschiedenis 2006-2026", description: "Wie heeft de airfryer uitgevonden, Tefal of Philips? ActiFry in 2006, Philips Airfryer van Fred van der Weij in 2010, dual zone in 2020: de hele tijdlijn." },
+    pl: { title: "Kto wynalazł frytkownicę beztłuszczową? Historia 2006–2026", description: "Kto wynalazł air fryer: Tefal czy Philips? ActiFry w 2006, Philips Airfryer (Fred van der Weij) w 2010, dwie strefy w 2020 – pełna chronologia." },
   },
   "meilleur-airfryer-petit-budget": {
     fr: { title: "Meilleur airfryer pas cher 2026 : 5 modèles à choisir", description: "Airfryer pas cher en 2026 : Moulinex Easy Fry Max, Xiaomi Smart Air Fryer Pro, Cosori Lite… nos 5 choix d’entrée de gamme et ce que vous sacrifiez." },
@@ -613,6 +687,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor freidora de aire barata 2026: 5 modelos clave", description: "Freidoras de aire baratas en 2026: Moulinex Easy Fry Max, Xiaomi Smart Air Fryer Pro, Cosori Lite y más. Qué ganas y qué sacrificas en gama de entrada." },
     it: { title: "Friggitrice ad aria economica 2026: i 5 modelli top", description: "Friggitrice ad aria economica nel 2026: Moulinex Easy Fry Max, Xiaomi Smart Air Fryer Pro, Cosori Lite e altri. Cosa ottieni e a cosa rinunci." },
     nl: { title: "Beste goedkope airfryer 2026: 5 instapmodellen", description: "De beste goedkope airfryers van 2026: Moulinex Easy Fry Max, Xiaomi Smart Air Fryer Pro, Cosori Lite en meer, plus wat je wint en opgeeft bij instap." },
+    pl: { title: "Tania frytkownica beztłuszczowa 2026: 5 modeli", description: "Tania frytkownica beztłuszczowa 2026: Moulinex Easy Fry Max, Xiaomi Smart Air Fryer Pro, Cosori Lite i inne – 5 podstawowych modeli i na co się godzisz." },
   },
   "ninja-vs-philips-quel-choisir": {
     fr: { title: "Ninja vs Philips : quel airfryer choisir en 2026 ?", description: "Ninja ou Philips ? Double tiroir ou panier unique, capacité, connectivité : comparatif 2026 des FlexDrawer, Double Stack XL, Philips 3000 XL et Combi XXL." },
@@ -621,6 +696,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Ninja vs Philips: ¿qué freidora de aire elegir en 2026?", description: "¿Ninja o Philips? Cajón doble o cesta única, capacidad y app: comparativa 2026 de FlexDrawer, Double Stack XL, Philips 3000 XL y Combi XXL para acertar." },
     it: { title: "Ninja vs Philips: quale friggitrice ad aria nel 2026?", description: "Ninja o Philips? Cassetto doppio o cestello unico, capacità e app: il confronto 2026 tra FlexDrawer, Double Stack XL, Philips 3000 XL e Combi XXL." },
     nl: { title: "Ninja vs Philips: welke airfryer kies je in 2026?", description: "Ninja of Philips? Dubbele lade of enkele mand, inhoud en app: onze vergelijking 2026 van FlexDrawer, Double Stack XL, Philips 3000 XL en Combi XXL." },
+    pl: { title: "Ninja czy Philips: jaką frytkownicę wybrać w 2026?", description: "Ninja czy Philips? Dwie szuflady czy jeden koszyk, pojemność i łączność: porównanie 2026 modeli FlexDrawer, Double Stack XL, Philips 3000 XL i Combi XXL." },
   },
   "robot-cuiseur-connecte-comparatif": {
     fr: { title: "Robot cuiseur connecté 2026 : Thermomix et alternatives", description: "Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood et Cecotec : quel robot cuiseur connecté choisir en 2026 et pour qui ?" },
@@ -629,6 +705,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Robot de cocina conectado 2026: Thermomix y alternativas", description: "Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood y Cecotec: qué robot de cocina conectado elegir en 2026 y para quién." },
     it: { title: "Robot da cucina connesso 2026: Thermomix e alternative", description: "Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood e Cecotec a confronto: che robot da cucina connesso scegliere nel 2026." },
     nl: { title: "Verbonden keukenrobot 2026: Thermomix en alternatieven", description: "Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood en Cecotec vergeleken: welke verbonden keukenrobot kiest u in 2026?" },
+    pl: { title: "Thermomix i alternatywy 2026: robot kuchenny z Wi-Fi", description: "Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert Connect, Kenwood i Cecotec: jaki robot kuchenny z gotowaniem wybrać w 2026 i dla kogo?" },
   },
   "serrure-connectee-guide": {
     fr: { title: "Meilleure serrure connectée 2026 : 6 modèles comparés", description: "La Nuki Smart Lock Pro est notre meilleure serrure connectée 2026, la Nuki Go le meilleur rapport qualité-prix, l’Aqara U200 le choix à clavier." },
@@ -637,6 +714,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor cerradura inteligente 2026: 6 modelos comparados", description: "La Nuki Smart Lock Pro es nuestra mejor cerradura inteligente de 2026, la Nuki Go la mejor relación calidad-precio y la Aqara U200 la opción con teclado." },
     it: { title: "Miglior serratura smart 2026: 6 modelli a confronto", description: "La Nuki Smart Lock Pro è la nostra miglior serratura smart del 2026, la Nuki Go il miglior rapporto qualità-prezzo, l’Aqara U200 la scelta con tastierino." },
     nl: { title: "Beste slimme deurslot 2026: 6 modellen vergeleken", description: "Het Nuki Smart Lock Pro is ons beste slimme slot van 2026, het Nuki Go de beste prijs-kwaliteit en het Aqara U200 de keuze met klavier. Matter en Thread." },
+    pl: { title: "Inteligentny zamek 2026: ranking 6 najlepszych modeli", description: "Nuki Smart Lock Pro to nasz najlepszy inteligentny zamek 2026, Nuki Go ma najlepszy stosunek jakości do ceny, a Aqara U200 to wybór z klawiaturą." },
   },
   "station-meteo-connectee-comparatif": {
     fr: { title: "Station météo connectée 2026 : comparatif des meilleures", description: "Quelle station météo connectée choisir en 2026 ? Ecowitt HP2551, Netatmo, Bresser ClearView et Davis Vantage Vue comparées : pluie, vent, CO2, domotique." },
@@ -645,6 +723,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Estación meteorológica conectada 2026: las mejores", description: "¿Qué estación meteorológica conectada elegir en 2026? Comparamos Ecowitt HP2551, Netatmo, Bresser ClearView y Davis Vantage Vue: lluvia, viento y CO2." },
     it: { title: "Stazione meteo connessa 2026: confronto dei migliori", description: "Quale stazione meteo connessa scegliere nel 2026? Ecowitt HP2551, Netatmo, Bresser ClearView e Davis Vantage Vue a confronto: pioggia, vento, CO2 e app." },
     nl: { title: "Slim weerstation 2026: de beste modellen vergeleken", description: "Welk slim weerstation kies je in 2026? Ecowitt HP2551, Netatmo, Bresser ClearView en Davis Vantage Vue vergeleken op regen, wind, CO2 en smart home." },
+    pl: { title: "Stacja pogodowa Wi-Fi 2026: porównanie najlepszych", description: "Jaką inteligentną stację pogodową wybrać w 2026? Ecowitt HP2551, Netatmo, Bresser ClearView i Davis Vantage Vue: deszcz, wiatr, CO2 i smart home." },
   },
   "test-cosori-dual-blaze": {
     fr: { title: "Cosori Dual Blaze Smart 6,4 L : avis complet 2026", description: "Avis sur le Cosori Dual Blaze 6,4 L : double résistance haut et bas, app VeSync, 80 à 205 °C. Forces, limites et alternatives d’après les acheteurs." },
@@ -653,6 +732,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Cosori Dual Blaze Smart 6,4 L: opinión completa 2026", description: "Opinión sobre la Cosori Dual Blaze 6,4 L: calor arriba y abajo, app VeSync y de 80 a 205 °C. Ventajas, límites y alternativas según los compradores." },
     it: { title: "Cosori Dual Blaze Smart 6,4 L: recensione 2026", description: "Recensione della Cosori Dual Blaze 6,4 L: calore sopra e sotto, app VeSync, da 80 a 205 °C. Pregi, limiti e alternative secondo gli acquirenti." },
     nl: { title: "Cosori Dual Blaze Smart 6,4 L: review en oordeel 2026", description: "Review van de Cosori Dual Blaze 6,4 L: boven- en onderwarmte, VeSync-app en 80 tot 205 °C. Sterke punten, beperkingen en alternatieven volgens kopers." },
+    pl: { title: "Cosori Dual Blaze Smart 6,4 l: opinie i recenzja 2026", description: "Opinie o Cosori Dual Blaze 6,4 l: grzałki u góry i na dole, aplikacja VeSync, 80–205 °C. Mocne strony, ograniczenia i alternatywy według kupujących." },
   },
   "test-moulinex-easy-fry-max": {
     fr: { title: "Moulinex Easy Fry Max 5L : avis complet 2026", description: "Avis sur le Moulinex Easy Fry Max 5L d’après les caractéristiques et les retours d’acheteurs : airfryer simple, compact et réparable pour 2 à 4 personnes." },
@@ -661,6 +741,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Moulinex Easy Fry Max 5L: opinión completa 2026", description: "Opinión sobre la Moulinex Easy Fry Max 5L según sus especificaciones y compradores: freidora de aire sencilla, compacta y reparable para 2 a 4 personas." },
     it: { title: "Moulinex Easy Fry Max 5L: recensione completa 2026", description: "Recensione della Moulinex Easy Fry Max 5L da specifiche e opinioni di acquirenti: friggitrice ad aria semplice, compatta e riparabile per 2-4 persone." },
     nl: { title: "Moulinex Easy Fry Max 5L: volledige review 2026", description: "Review van de Moulinex Easy Fry Max 5L op basis van specificaties en kopers: een eenvoudige, compacte en repareerbare airfryer voor 2 tot 4 personen." },
+    pl: { title: "Moulinex Easy Fry Max 5L: opinie i recenzja 2026", description: "Opinie o Moulinex Easy Fry Max 5L na podstawie specyfikacji i opinii kupujących: prosta, kompaktowa i naprawialna frytkownica dla 2–4 osób na 2026." },
   },
   "test-ninja-foodi-flexdrawer": {
     fr: { title: "Ninja Foodi FlexDrawer 10,4 L : avis complet 2026", description: "Avis 2026 sur le Ninja Foodi FlexDrawer AF500EU : tiroir 10,4 L ou deux zones de 5,2 L, points forts, limites et alternatives pour les grandes familles." },
@@ -669,6 +750,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Ninja Foodi FlexDrawer 10,4 L: opinión completa 2026", description: "Opinión 2026 sobre la Ninja Foodi FlexDrawer AF500EU: cajón de 10,4 L o dos zonas de 5,2 L, ventajas, límites y alternativas para familias grandes." },
     it: { title: "Ninja Foodi FlexDrawer 10,4 L: recensione 2026", description: "Recensione 2026 della Ninja Foodi FlexDrawer AF500EU: cassetto da 10,4 L o due zone da 5,2 L, pregi, limiti e alternative per famiglie numerose." },
     nl: { title: "Ninja Foodi FlexDrawer 10,4 L: review en oordeel 2026", description: "Review 2026 van de Ninja Foodi FlexDrawer AF500EU: één lade van 10,4 L of twee zones van 5,2 L, sterke punten, minpunten en alternatieven voor gezinnen." },
+    pl: { title: "Ninja Foodi FlexDrawer 10,4 L: opinie i recenzja 2026", description: "Opinie 2026 o Ninja Foodi FlexDrawer AF500EU: szuflada 10,4 l lub dwie strefy po 5,2 l, mocne strony, ograniczenia i alternatywy dla dużych rodzin." },
   },
   "test-ninja-foodi-max-dual-zone": {
     fr: { title: "Ninja Foodi MAX Double Stack XL 9,5 L : avis 2026", description: "Avis sur le Ninja Foodi MAX Double Stack XL 9,5 L : deux tiroirs empilés, Sync et Match, format étroit. Points forts, limites et profils adaptés en 2026." },
@@ -677,6 +759,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Ninja Foodi MAX Double Stack XL 9,5 L: opinión 2026", description: "Opinión sobre el Ninja Foodi MAX Double Stack XL 9,5 L: dos cajones apilados, Sync y Match y un formato estrecho. Puntos fuertes, límites y para quién." },
     it: { title: "Ninja Foodi MAX Double Stack XL 9,5 L: recensione 2026", description: "Recensione del Ninja Foodi MAX Double Stack XL 9,5 L: due cassetti impilati, Sync e Match, ingombro ridotto. Punti di forza, limiti e a chi conviene." },
     nl: { title: "Ninja Foodi MAX Double Stack XL 9,5 L: review 2026", description: "Review van de Ninja Foodi MAX Double Stack XL 9,5 L: twee gestapelde laden, Sync en Match en een smal formaat. Sterke punten, beperkingen en voor wie." },
+    pl: { title: "Ninja Foodi MAX Double Stack XL 9,5 L: opinie 2026", description: "Opinie o Ninja Foodi MAX Double Stack XL 9,5 l: dwie szuflady jedna nad drugą, Sync i Match, wąska obudowa. Zalety, wady i dla kogo w 2026 roku." },
   },
   "test-philips-airfryer-3000-xl": {
     fr: { title: "Avis Philips Airfryer 3000 Series XL 6,2 L (2026)", description: "Avis 2026 sur le Philips Airfryer 3000 Series XL 6,2 L : cuisson RapidAir, 7 programmes, limites et alternatives, d'après specs et avis d'acheteurs." },
@@ -685,6 +768,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Philips Airfryer 3000 Series XL 6,2 L: opinión 2026", description: "Opinión 2026 sobre la Philips Airfryer 3000 Series XL 6,2 L: cocción RapidAir, 7 programas, límites y alternativas según ficha y opiniones verificadas." },
     it: { title: "Philips Airfryer 3000 Series XL 6,2 L: recensione 2026", description: "Recensione 2026 della Philips Airfryer 3000 Series XL 6,2 L: cottura RapidAir, 7 programmi, limiti e alternative in base a scheda e recensioni verificate." },
     nl: { title: "Philips Airfryer 3000 Series XL 6,2 L: review 2026", description: "Review 2026 van de Philips Airfryer 3000 Series XL 6,2 L: RapidAir, 7 programma's, beperkingen en alternatieven op basis van specs en kopersreviews." },
+    pl: { title: "Philips Airfryer 3000 Series XL 6,2 L: opinie 2026", description: "Opinie 2026 o Philips Airfryer 3000 Series XL 6,2 l: RapidAir, 7 programów, ograniczenia i alternatywy – na podstawie specyfikacji i opinii kupujących." },
   },
   "test-xiaomi-smart-air-fryer-pro": {
     fr: { title: "Xiaomi Smart Air Fryer Pro 4L : avis complet 2026", description: "Avis sur le Xiaomi Smart Air Fryer Pro 4L : hublot, 40 à 200 °C, app Xiaomi Home. Points forts, limites et alternatives pour les foyers de 1 à 3 personnes." },
@@ -693,6 +777,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Xiaomi Smart Air Fryer Pro 4L: opinión 2026", description: "Opinión sobre la Xiaomi Smart Air Fryer Pro 4L: ventana, de 40 a 200 °C y app Xiaomi Home. Ventajas, límites y alternativas para hogares de 1 a 3 personas." },
     it: { title: "Xiaomi Smart Air Fryer Pro 4L: recensione 2026", description: "Recensione della Xiaomi Smart Air Fryer Pro 4L: oblò, da 40 a 200 °C e app Xiaomi Home. Pregi, limiti e alternative per nuclei da 1 a 3 persone." },
     nl: { title: "Xiaomi Smart Air Fryer Pro 4L: review 2026", description: "Review van de Xiaomi Smart Air Fryer Pro 4L: kijkvenster, 40 tot 200 °C en Xiaomi Home-app. Pluspunten, minpunten en alternatieven voor 1 tot 3 personen." },
+    pl: { title: "Xiaomi Smart Air Fryer Pro 4L: opinie i recenzja 2026", description: "Opinie o Xiaomi Smart Air Fryer Pro 4L: okienko, 40–200 °C, aplikacja Xiaomi Home. Mocne strony, wady i alternatywy dla domów z 1–3 osobami." },
   },
   "saugroboter-tierhaare-test": {
     fr: { title: "Robot aspirateur poils d'animaux : comparatif 2026", description: "Quel robot aspirateur choisir avec un chien ou un chat ? Aspiration en Pa, brosse anti-emmêlement, auto-vidage et filtre HEPA comparés pour 2026." },
@@ -701,6 +786,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Robot aspirador para pelo de mascotas 2026: comparativa", description: "Comparativa 2026 de robots aspiradores para pelo de mascotas: potencia de succión, cepillo anti-enredo, autovaciado y filtro HEPA para alérgicos." },
     it: { title: "Robot aspirapolvere per peli di animali: confronto 2026", description: "Quale robot aspirapolvere scegliere per i peli di cani e gatti? Aspirazione in Pa, spazzola anti-groviglio, autosvuotamento e filtro HEPA a confronto." },
     nl: { title: "Robotstofzuiger voor dierenharen: vergelijking 2026", description: "Welke robotstofzuiger voor dierenharen? Vergelijk zuigkracht, anti-klitborstel, zelfleegstation en HEPA-filter van Roborock, Ecovacs, Dreame en iRobot." },
+    pl: { title: "Robot odkurzający na sierść psa i kota: porównanie 2026", description: "Jaki robot odkurzający wybrać, gdy masz psa lub kota? Siła ssania w Pa, szczotka przeciw plątaniu, automatyczne opróżnianie i filtr HEPA – porównanie 2026." },
   },
   "deshumidificateur-connecte-guide": {
     fr: { title: "Déshumidificateur connecté 2026 : guide et modèles", description: "Déshumidificateur connecté : quand l’utiliser, quelle capacité, compresseur ou dessiccant, et les meilleurs modèles Wi-Fi 2026 : Meaco, Comfee, Xiaomi." },
@@ -709,6 +795,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Deshumidificador inteligente 2026: guía y modelos", description: "Cuándo necesitas un deshumidificador inteligente, qué capacidad elegir, compresor o desecante y los mejores modelos Wi-Fi de 2026: Meaco, Comfee y Xiaomi." },
     it: { title: "Deumidificatore smart 2026: guida e migliori modelli", description: "Quando serve un deumidificatore smart, che capacità scegliere, compressore o essiccante e i migliori modelli Wi-Fi del 2026: Meaco, Comfee, Xiaomi e altri." },
     nl: { title: "Slimme luchtontvochtiger 2026: koopgids en modellen", description: "Wanneer je een slimme luchtontvochtiger nodig hebt, welke capaciteit, compressor of adsorptie, en de beste wifi-modellen van 2026: Meaco, Comfee, Xiaomi." },
+    pl: { title: "Inteligentny osuszacz powietrza 2026: poradnik i modele", description: "Osuszacz powietrza z Wi-Fi: kiedy go używać, jaka wydajność, sprężarka czy adsorpcyjny oraz najlepsze modele Wi-Fi 2026: Meaco, Comfee i Xiaomi." },
   },
   "mejor-aire-acondicionado-bajo-consumo": {
     fr: { title: "Climatiseur basse consommation 2026 : 5 splits A+++", description: "Quel climatiseur basse consommation choisir en 2026 ? Classe A+++, SEER, SCOP, puissance expliqués, avec 5 splits Inverter comparés sur fiches officielles." },
@@ -717,6 +804,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor aire acondicionado bajo consumo 2026: 5 splits", description: "¿Qué aire acondicionado de bajo consumo elegir en 2026? Clase A+++, SEER, SCOP y potencia explicados, con 5 splits Inverter comparados con datos oficiales." },
     it: { title: "Condizionatore a basso consumo 2026: 5 split A+++", description: "Quale condizionatore a basso consumo scegliere nel 2026? Classe A+++, SEER, SCOP e potenza spiegati, con 5 split Inverter confrontati sui dati ufficiali." },
     nl: { title: "Beste zuinige airco 2026: 5 splitunits met A+++", description: "Welke zuinige airco kies je in 2026? Energieklasse A+++, SEER, SCOP en vermogen uitgelegd, met 5 inverter-splitunits vergeleken op officiële specificaties." },
+    pl: { title: "Klimatyzator energooszczędny 2026: 5 splitów A+++", description: "Jaki energooszczędny klimatyzator wybrać w 2026? Klasa A+++, SEER, SCOP i moc wyjaśnione, plus 5 klimatyzatorów split Inverter na podstawie kart produktów." },
   },
   "robot-aspirador-piso-pequeno": {
     fr: { title: "Robot aspirateur petit appartement : guide d’achat 2026", description: "Quel robot aspirateur pour un studio de moins de 60 m² ? Hauteur sous les meubles, navigation, base ou station : eufy C10, Xiaomi E5 et Roborock Q7 M5." },
@@ -725,6 +813,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Robot aspirador para piso pequeño: guía de compra 2026", description: "¿Qué robot aspirador elegir para un piso pequeño o estudio de menos de 60 m²? Altura, navegación y base: eufy C10, Xiaomi E5 y Roborock Q7 M5 comparados." },
     it: { title: "Robot aspirapolvere per piccolo appartamento 2026", description: "Quale robot aspirapolvere per un monolocale sotto i 60 m²? Altezza sotto i mobili, navigazione e base: eufy C10, Xiaomi E5 e Roborock Q7 M5 a confronto." },
     nl: { title: "Robotstofzuiger voor een kleine woning: koopgids 2026", description: "Welke robotstofzuiger past bij een studio onder 60 m²? Hoogte onder meubels, navigatie en station: eufy C10, Xiaomi E5 en Roborock Q7 M5 vergeleken." },
+    pl: { title: "Robot sprzątający do małego mieszkania: poradnik 2026", description: "Jaki robot sprzątający do kawalerki poniżej 60 m²? Wysokość pod meblami, nawigacja, baza lub stacja oraz modele eufy C10, Xiaomi E5 i Roborock Q7 M5." },
   },
   "eclairage-exterieur-solaire-connecte": {
     fr: { title: "Éclairage extérieur solaire et connecté 2026 : le guide", description: "Solaire ou basse tension connectée ? eufy S120, Govee solaire, Philips Hue Lily et Calla, Steinel XSolar : comment choisir son éclairage extérieur en 2026." },
@@ -733,6 +822,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Iluminación exterior solar inteligente 2026: guía", description: "¿Solar o baja tensión conectada? eufy S120, guirnalda solar Govee, Philips Hue Lily y Calla y Steinel XSolar comparados para elegir tu iluminación en 2026." },
     it: { title: "Illuminazione esterna solare smart 2026: la guida", description: "Solare o bassa tensione connessa? eufy S120, catena Govee, Philips Hue Lily e Calla e Steinel XSolar a confronto per scegliere le luci da esterno 2026." },
     nl: { title: "Slimme buitenverlichting op zonne-energie 2026: gids", description: "Zonne-energie of verbonden laagspanning? eufy S120, Govee-solarsnoer, Philips Hue Lily en Calla en Steinel XSolar vergeleken voor je buitenlampen in 2026." },
+    pl: { title: "Oświetlenie ogrodowe solarne i smart 2026: poradnik", description: "Solarne czy niskonapięciowe z aplikacją? eufy S120, Govee solar, Philips Hue Lily i Calla, Steinel XSolar: jak wybrać oświetlenie zewnętrzne w 2026." },
   },
   "sonnette-video-sans-abonnement": {
     fr: { title: "Sonnette vidéo sans abonnement 2026 : les 5 meilleures", description: "Eufy E340, Tapo D235, Aqara G4 et Reolink comparées : stockage local sur mémoire ou microSD, batterie ou filaire, détection, vie privée, sans frais." },
@@ -741,6 +831,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Timbre con vídeo sin suscripción 2026: los 5 mejores", description: "Eufy E340, Tapo D235, Aqara G4 y Reolink comparados: almacenamiento local en memoria o microSD, batería o cable, detección, privacidad, sin cuotas." },
     it: { title: "Videocampanello senza abbonamento 2026: i 5 migliori", description: "Eufy E340, Tapo D235, Aqara G4 e Reolink a confronto: archiviazione locale su memoria o microSD, batteria o cavo, rilevamento, privacy, senza canoni." },
     nl: { title: "Videodeurbel zonder abonnement 2026: de 5 beste", description: "Eufy E340, Tapo D235, Aqara G4 en Reolink vergeleken: lokale opslag in intern geheugen of op microSD, accu of bedraad, detectie, privacy, geen kosten." },
+    pl: { title: "Dzwonek wideo bez abonamentu 2026: 5 najlepszych", description: "Eufy E340, Tapo D235, Aqara G4 i Reolink: zapis lokalny na pamięci lub microSD, bateria lub przewód, wykrywanie, prywatność – bez miesięcznych opłat." },
   },
   "meilleur-airfryer-xxl-grande-famille": {
     fr: { title: "Meilleur airfryer XXL grande famille : top 5 en 2026", description: "Ninja FlexDrawer, Double Stack XL, Philips Combi XXL : les 5 meilleurs airfryers de 8 L et plus pour nourrir 5 à 8 personnes en une seule fournée en 2026." },
@@ -749,6 +840,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor freidora de aire XXL para familias grandes 2026", description: "Ninja FlexDrawer, Double Stack XL, Philips Combi XXL y más: las 5 mejores freidoras de aire de 8 litros o más para 5 a 8 personas de una sola vez en 2026." },
     it: { title: "Friggitrice ad aria XXL per famiglie numerose 2026", description: "Ninja FlexDrawer, Double Stack XL, Philips Combi XXL e altre: le 5 migliori friggitrici ad aria da 8 litri in su per sfamare 5-8 persone in una volta." },
     nl: { title: "Beste XXL-airfryer voor grote gezinnen: top 5 2026", description: "Ninja FlexDrawer, Double Stack XL, Philips Combi XXL en meer: de 5 beste airfryers van 8 liter of meer om 5 tot 8 personen in één keer te voeden in 2026." },
+    pl: { title: "Frytkownica beztłuszczowa XXL dla dużej rodziny: top 5", description: "Ninja FlexDrawer, Double Stack XL, Philips Combi XXL: 5 najlepszych frytkownic beztłuszczowych od 8 l, by nakarmić 5–8 osób jednym rzutem w 2026 roku." },
   },
   "robot-aspirateur-vs-balai": {
     fr: { title: "Robot aspirateur vs aspirateur balai : que choisir en 2026", description: "Robot aspirateur ou balai sans fil ? Différences, critères et 6 modèles (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex) pour bien choisir." },
@@ -757,6 +849,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Robot aspirador vs aspiradora escoba: cuál elegir en 2026", description: "¿Robot aspirador o escoba sin cable? Diferencias, criterios y 6 modelos (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex) para elegir bien." },
     it: { title: "Robot aspirapolvere o scopa elettrica? Guida 2026", description: "Robot aspirapolvere o scopa senza filo? Differenze, criteri e 6 modelli (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex) a confronto." },
     nl: { title: "Robotstofzuiger vs steelstofzuiger: wat kiest u in 2026?", description: "Robotstofzuiger of draadloze steelstofzuiger? Verschillen, criteria en 6 modellen (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex) vergeleken." },
+    pl: { title: "Robot sprzątający czy odkurzacz pionowy: co wybrać 2026?", description: "Robot sprzątający czy odkurzacz bezprzewodowy? Różnice, kryteria i 6 modeli (Roborock Qrevo Curv, Dyson V15 Detect, Rowenta X-Force Flex) do wyboru." },
   },
   "guide-securite-maison-connectee-2026": {
     fr: { title: "Sécurité maison connectée 2026 : alarme, caméras, serrure", description: "Alarme, sonnette vidéo, serrure, caméras et détecteur de fumée : comment bâtir un système de sécurité maison connectée en 2026 sans abonnement imposé." },
@@ -765,6 +858,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Seguridad del hogar inteligente 2026: alarma y cámaras", description: "Alarma, timbre con vídeo, cerradura inteligente, cámaras y detector de humo: cómo montar en 2026 un sistema de seguridad completo y sin cuota obligatoria." },
     it: { title: "Sicurezza casa intelligente 2026: allarme e telecamere", description: "Allarme, videocampanello, serratura smart, telecamere e rilevatore di fumo: come creare nel 2026 un sistema di sicurezza completo senza abbonamento." },
     nl: { title: "Slimme huisbeveiliging 2026: alarm, camera’s en slot", description: "Alarm, videodeurbel, slim slot, camera’s en rookmelder: zo bouw je in 2026 een compleet slim beveiligingssysteem voor je huis zonder verplicht abonnement." },
+    pl: { title: "Inteligentne zabezpieczenie domu 2026: alarm i kamery", description: "Alarm, dzwonek wideo, zamek, kamery i czujnik dymu: jak zbudować system bezpieczeństwa inteligentnego domu w 2026 bez narzucanego abonamentu." },
   },
   "tendances-maison-connectee-2026": {
     fr: { title: "Tendances maison connectée 2026 : ce qui change", description: "Matter pour caméras et énergie, Thread, Alexa+ et Gemini en Europe, domotique locale, sécurité sans abonnement : les vraies tendances 2026 et quoi acheter." },
@@ -773,6 +867,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Tendencias hogar inteligente 2026: qué cambia", description: "Matter para cámaras y energía, Thread, Alexa+ y Gemini en Europa, control local y seguridad sin suscripción: las tendencias reales de 2026 y qué comprar." },
     it: { title: "Tendenze casa smart 2026: cosa cambia davvero", description: "Matter per telecamere ed energia, Thread, Alexa+ e Gemini in Europa, controllo locale e sicurezza senza abbonamento: le vere tendenze 2026 e cosa comprare." },
     nl: { title: "Smart home trends 2026: wat er echt verandert", description: "Matter voor camera’s en energie, Thread, Alexa+ en Gemini in Europa, lokale bediening, beveiliging zonder abonnement: de echte trends van 2026." },
+    pl: { title: "Trendy smart home 2026: co się zmienia i co kupić", description: "Matter dla kamer i energii, Thread, Alexa+ i Gemini w Europie, lokalna automatyka, bezpieczeństwo bez abonamentu: prawdziwe trendy 2026 i co kupić." },
   },
   "meilleur-aspirateur-laveur-2026": {
     fr: { title: "Meilleur aspirateur laveur 2026 : 6 modèles comparés", description: "Dreame H15 Pro, H14 Pro, Tineco S7 Pro, Roborock Flexi Pro, Dyson WashG1 : notre guide 2026 des aspirateurs laveurs, critères de choix et conseils d’usage." },
@@ -781,6 +876,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Mejor aspirador fregasuelos 2026: 6 modelos comparados", description: "Dreame H15 Pro, H14 Pro, Tineco S7 Pro, Roborock Flexi Pro y Dyson WashG1: nuestra guía 2026 de aspiradores fregasuelos, con criterios y consejos de uso." },
     it: { title: "Miglior lavapavimenti senza fili 2026: 6 modelli", description: "Dreame H15 Pro, H14 Pro, Tineco S7 Pro, Roborock Flexi Pro e Dyson WashG1: la nostra guida 2026 agli aspirapolvere lavapavimenti, criteri e consigli d’uso." },
     nl: { title: "Beste nat-droogzuiger 2026: 6 modellen vergeleken", description: "Dreame H15 Pro, H14 Pro, Tineco S7 Pro, Roborock Flexi Pro en Dyson WashG1: onze gids 2026 voor nat-droogzuigers, met keuzecriteria en tips voor gebruik." },
+    pl: { title: "Odkurzacz mopujący 2026: ranking 6 najlepszych modeli", description: "Dreame H15 Pro, H14 Pro, Tineco S7 Pro, Roborock Flexi Pro, Dyson WashG1: nasz poradnik 2026 po odkurzaczach myjących, kryteria wyboru i wskazówki." },
   },
   "maison-connectee-matter-thread-2026": {
     fr: { title: "Matter et Thread 2026 : maison connectée et hubs expliqués", description: "Matter et Thread expliqués : versions 1.5 et 1.6, border routers Apple, Google et Alexa, mise à jour IKEA DIRIGERA et quel hub Matter choisir en 2026." },
@@ -789,6 +885,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Matter y Thread 2026: hogar conectado y hubs explicados", description: "Matter y Thread explicados: versiones 1.5 y 1.6, border routers de Apple, Google y Alexa, la mejora de IKEA DIRIGERA y qué hub Matter elegir en 2026." },
     it: { title: "Matter e Thread 2026: casa connessa e hub spiegati", description: "Matter e Thread spiegati: versioni 1.5 e 1.6, border router Apple, Google e Alexa, l’aggiornamento di IKEA DIRIGERA e quale hub Matter scegliere nel 2026." },
     nl: { title: "Matter en Thread 2026 uitgelegd: hubs en borderrouters", description: "Matter en Thread uitgelegd: versies 1.5 en 1.6, borderrouters van Apple, Google en Alexa, de IKEA DIRIGERA-update en welke Matter-hub je kiest in 2026." },
+    pl: { title: "Matter i Thread 2026: smart home i huby wyjaśnione", description: "Matter i Thread wyjaśnione: wersje 1.5 i 1.6, border routery Apple, Google i Alexa, aktualizacja IKEA DIRIGERA i jaki hub Matter wybrać w 2026." },
   },
   "piscine-connectee-guide": {
     fr: { title: "Piscine connectée 2026 : analyseur, robot, électrolyseur", description: "Piscine connectée 2026 : analyseurs Ondilo ICO et iopool EcO, électrolyseur Zodiac eXO iQ, robots Dolphin et Beatbot, filtration et sécurité." },
@@ -797,6 +894,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Piscina conectada 2026: analizador, robot y clorador", description: "Piscina conectada 2026: analizadores Ondilo ICO e iopool EcO, clorador Zodiac eXO iQ, robots Dolphin y Beatbot, filtración, seguridad y por dónde empezar." },
     it: { title: "Piscina connessa 2026: analizzatore, robot, elettrolisi", description: "Piscina connessa 2026: analizzatori Ondilo ICO e iopool EcO, elettrolizzatore Zodiac eXO iQ, robot Dolphin e Beatbot, filtrazione e sicurezza." },
     nl: { title: "Slim zwembad 2026: analyser, robot en zoutelektrolyse", description: "Slim zwembad 2026: wateranalysers Ondilo ICO en iopool EcO, zoutelektrolyse Zodiac eXO iQ, robots van Dolphin en Beatbot, filtering en veiligheid." },
+    pl: { title: "Inteligentny basen 2026: analizator, robot, elektroliza", description: "Inteligentny basen 2026: analizatory Ondilo ICO i iopool EcO, elektrolizer Zodiac eXO iQ, roboty Dolphin i Beatbot, filtracja oraz bezpieczeństwo." },
   },
   "ventilador-silencioso-dormitorio": {
     fr: { title: "Ventilateur silencieux chambre 2026 : top 5 pour dormir", description: "Ventilateur silencieux pour la chambre : dB à viser, moteur DC ou AC et 5 modèles comparés, dont Duux Whisper Flex 2 Smart, Xiaomi 2 Pro et Dyson TP09." },
@@ -805,6 +903,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Ventilador silencioso para dormitorio 2026: top 5", description: "Ventilador silencioso para dormitorio: decibelios ideales, motor DC o AC y 5 modelos comparados, como Duux Whisper Flex 2 Smart, Xiaomi 2 Pro y Dyson TP09." },
     it: { title: "Ventilatore silenzioso camera da letto 2026: top 5", description: "Ventilatore silenzioso per la camera: decibel ideali, motore DC o AC e 5 modelli a confronto, tra cui Duux Whisper Flex 2 Smart, Xiaomi 2 Pro e Dyson TP09." },
     nl: { title: "Stille ventilator slaapkamer 2026: de 5 beste", description: "Stille ventilator voor de slaapkamer: decibels, DC- of AC-motor, nachtmodus en 5 modellen vergeleken, zoals Duux Whisper Flex 2 Smart en Dyson TP09." },
+    pl: { title: "Cichy wentylator do sypialni 2026: top 5 do spania", description: "Cichy wentylator do sypialni: ile dB wybrać, silnik DC czy AC i 5 porównanych modeli, w tym Duux Whisper Flex 2 Smart, Xiaomi 2 Pro i Dyson TP09." },
   },
   "test-philips-combi-xxl-connected": {
     fr: { title: "Philips Combi XXL Connected : avis complet 2026", description: "Avis sur le Philips Airfryer Combi XXL Connected 8,3 L : sonde intégrée, Rapid CombiAir, 22 fonctions et app HomeID. Points forts, limites, alternatives." },
@@ -813,6 +912,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Philips Combi XXL Connected: opinión completa 2026", description: "Opinión sobre la Philips Airfryer Combi XXL Connected 8,3 L: sonda integrada, Rapid CombiAir, 22 funciones y app HomeID. Puntos fuertes, límites y rivales." },
     it: { title: "Philips Combi XXL Connected: recensione 2026", description: "Recensione della Philips Airfryer Combi XXL Connected 8,3 L: sonda integrata, Rapid CombiAir, 22 funzioni e app HomeID. Pregi, limiti e alternative." },
     nl: { title: "Philips Combi XXL Connected: review en ervaringen 2026", description: "Review van de Philips Airfryer Combi XXL Connected 8,3 L: ingebouwde sonde, Rapid CombiAir, 22 functies en HomeID-app. Plus- en minpunten, alternatieven." },
+    pl: { title: "Philips Combi XXL Connected: opinie i recenzja 2026", description: "Opinie o Philips Airfryer Combi XXL Connected 8,3 l: wbudowana sonda, Rapid CombiAir, 22 funkcje i aplikacja HomeID. Zalety, ograniczenia, alternatywy." },
   },
   "thermostat-connecte-pompe-chaleur": {
     fr: { title: "Thermostat connecté pompe à chaleur 2026 : le guide", description: "Quel thermostat connecté pour une pompe à chaleur ? tado Heat Pump Optimizer X, Netatmo Original, Honeywell T6 : on/off, OpenTherm, réglages et erreurs." },
@@ -821,6 +921,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Termostato inteligente para bomba de calor 2026", description: "¿Qué termostato inteligente elegir para una bomba de calor? tado Heat Pump Optimizer X, Netatmo Original y Honeywell T6: on/off, OpenTherm y errores." },
     it: { title: "Termostato smart per pompa di calore 2026: guida", description: "Quale termostato smart scegliere per una pompa di calore? tado Heat Pump Optimizer X, Netatmo Original e Honeywell T6 a confronto: on/off e OpenTherm." },
     nl: { title: "Slimme thermostaat voor warmtepomp 2026: gids", description: "Welke slimme thermostaat past bij een warmtepomp? tado Heat Pump Optimizer X, Netatmo Original en Honeywell T6 vergeleken: aan/uit, OpenTherm en valkuilen." },
+    pl: { title: "Termostat do pompy ciepła 2026: inteligentny poradnik", description: "Jaki inteligentny termostat do pompy ciepła? tado Heat Pump Optimizer X, Netatmo Original, Honeywell T6: on/off, OpenTherm, ustawienia i typowe błędy." },
   },
   "tondeuse-robot-sans-fil-perimetrique": {
     fr: { title: "Tondeuse robot sans fil périmétrique 2026 : comparatif", description: "ECOVACS GOAT A1600 RTK, Navimow i105E, Mammotion LUBA 2 AWD : quelle tondeuse robot sans fil périmétrique choisir en 2026 selon surface, pente et RTK." },
@@ -829,6 +930,7 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Robot cortacésped sin cable perimetral 2026: comparativa", description: "ECOVACS GOAT A1600 RTK, Navimow i105E, Mammotion LUBA 2 AWD: qué robot cortacésped sin cable perimetral elegir en 2026 según superficie, pendiente y RTK." },
     it: { title: "Robot tagliaerba senza filo perimetrale 2026: confronto", description: "ECOVACS GOAT A1600 RTK, Navimow i105E, Mammotion LUBA 2 AWD: quale robot tagliaerba senza filo perimetrale scegliere nel 2026 per superficie e pendenza." },
     nl: { title: "Robotmaaier zonder begrenzingsdraad 2026: vergelijking", description: "ECOVACS GOAT A1600 RTK, Navimow i105E, Mammotion LUBA 2 AWD: welke robotmaaier zonder begrenzingsdraad kies je in 2026 op basis van oppervlakte en helling?" },
+    pl: { title: "Robot koszący bez przewodu 2026: porównanie modeli", description: "ECOVACS GOAT A1600 RTK, Navimow i105E, Mammotion LUBA 2 AWD: jaki robot koszący bez przewodu granicznego wybrać w 2026 – powierzchnia, pochylenie i RTK." },
   },
   "waermepumpentrockner-vergleich": {
     fr: { title: "Sèche-linge pompe à chaleur 2026 : comparatif A à G", description: "Comparatif 2026 des sèche-linge à pompe à chaleur selon la nouvelle étiquette A–G : Bosch Serie 8, Siemens iQ700, AEG 9000X, Miele, Samsung et Beko." },
@@ -837,5 +939,6 @@ export const BLOG_SEO_META: Record<string, Partial<Record<Lang, SeoMeta>>> = {
     es: { title: "Secadoras con bomba de calor 2026: comparativa A–G", description: "Comparativa de secadoras con bomba de calor 2026 según la nueva etiqueta A–G: Bosch Serie 8, Siemens iQ700, AEG 9000X, Miele, Samsung y Beko, kWh y dB." },
     it: { title: "Asciugatrici a pompa di calore 2026: confronto A–G", description: "Confronto 2026 delle asciugatrici a pompa di calore con la nuova etichetta A–G: Bosch Serie 8, Siemens iQ700, AEG 9000X, Miele, Samsung e Beko, kWh e dB." },
     nl: { title: "Warmtepompdroger vergelijking 2026: nieuw label A–G", description: "Warmtepompdrogers 2026 vergeleken op het nieuwe energielabel A–G: Bosch Serie 8, Siemens iQ700, AEG 9000X, Miele, Samsung en Beko, met kWh en geluid." },
+    pl: { title: "Suszarka z pompą ciepła 2026: porównanie klas A–G", description: "Porównanie suszarek z pompą ciepła 2026 według nowej etykiety energetycznej A–G: Bosch Serie 8, Siemens iQ700, AEG 9000X, Miele, Samsung i Beko." },
   },
 }

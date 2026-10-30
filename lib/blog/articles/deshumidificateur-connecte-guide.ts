@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Ventana cubierta de gotas de agua en una habitación en penumbra, señal de un aire interior demasiado húmedo',
         it: 'Finestra coperta di gocce d’acqua in una stanza in penombra, segno di aria interna troppo umida',
         nl: 'Raam vol waterdruppels in een schemerige kamer, een teken van te vochtige binnenlucht',
+        pl: 'Okno pokryte kroplami wody w ciemnym pomieszczeniu, oznaka zbyt wilgotnego powietrza w domu',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Deshumidificador inteligente 2026: guía completa para elegir bien',
     it: 'Deumidificatore smart 2026: guida completa per scegliere bene',
     nl: 'Slimme luchtontvochtiger 2026: de complete koopgids',
+    pl: 'Inteligentny osuszacz powietrza 2026: kompletny poradnik wyboru',
   },
   excerpt: {
     fr: 'Quand faut-il un déshumidificateur connecté, comment choisir la capacité, compresseur ou dessiccant, et quels modèles Wi-Fi retenir en 2026 : Meaco, Comfee, Xiaomi, De’Longhi, Inventor.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Cuándo necesitas un deshumidificador inteligente, qué capacidad elegir, compresor o desecante y qué modelos Wi-Fi destacan en 2026: Meaco, Comfee, Xiaomi, De’Longhi e Inventor.',
     it: 'Quando serve un deumidificatore smart, che capacità scegliere, compressore o essiccante e quali modelli Wi-Fi spiccano nel 2026: Meaco, Comfee, Xiaomi, De’Longhi e Inventor.',
     nl: 'Wanneer je een slimme luchtontvochtiger nodig hebt, welke capaciteit, compressor of adsorptie, en welke wifi-modellen in 2026 opvallen: Meaco, Comfee, Xiaomi, De’Longhi en Inventor.',
+    pl: 'Kiedy potrzebny jest inteligentny osuszacz powietrza, jak wybrać wydajność, sprężarkowy czy adsorpcyjny i które modele Wi-Fi wybrać w 2026 roku: Meaco, Comfee, Xiaomi, De’Longhi, Inventor.',
   },
   content: {
     fr: `<p><strong>Un déshumidificateur connecté devient utile dès que l’humidité de votre logement dépasse régulièrement 60 %</strong> : il ramène l’air vers 45-55 %, s’arrête seul une fois la cible atteinte et vous prévient sur votre téléphone quand le bac est plein. Pour la plupart des logements, notre choix est le Meaco Arete Two 20L ; le Comfee MDDF-16DEN7-WF est l’option d’entrée de gamme la plus raisonnable, et le Xiaomi Smart Dehumidifier Lite convient bien à une chambre ou une petite pièce.</p>
@@ -703,6 +706,116 @@ export const article: BlogArticle = {
 <p><strong>Beste prijs-kwaliteitverhouding:</strong> de <strong>Comfee MDDF-16DEN7-WF</strong>, met de belangrijkste slimme functies in een compacte behuizing.</p>
 <p><strong>Voor de slaapkamer:</strong> de <strong>Xiaomi Smart Dehumidifier Lite</strong>, klein en met een stille nachtmodus.</p>
 <p>Voor een onverwarmde garage of kelder kies je beter een adsorptiemodel zoals de <strong>Meaco DD8L Zambezi</strong>.</p>`,
+    pl: `<p><strong>Inteligentny osuszacz powietrza przydaje się, gdy wilgotność w mieszkaniu regularnie przekracza 60%</strong>: sprowadza powietrze do 45–55%, wyłącza się sam po osiągnięciu zadanej wartości i powiadamia cię na telefonie, gdy zbiornik jest pełny. W większości mieszkań naszym wyborem jest Meaco Arete Two 20L; Comfee MDDF-16DEN7-WF to najrozsądniejsza opcja z niższej półki, a Xiaomi Smart Dehumidifier Lite dobrze nadaje się do sypialni lub małego pomieszczenia.</p>
+<p>Ten poradnik opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących; uwzględnia wyłącznie modele sprzedawane w Europie. Cały wybór znajdziesz na stronie <a href="/pl/confort-air/deshumidificateurs">inteligentne osuszacze powietrza</a>.</p>
+
+<h2>Kiedy potrzebny jest osuszacz powietrza?</h2>
+<p>Idealna wilgotność względna w mieszkaniu mieści się zazwyczaj między 40 a 60%. Gdy utrzymuje się powyżej 60%, rozmnażają się roztocza, a pleśń znajduje sprzyjające warunki, zwłaszcza na zimnych ścianach. Światowa Organizacja Zdrowia uznaje wilgoć i pleśń w pomieszczeniach za czynnik ryzyka dla dróg oddechowych, zwłaszcza u osób z astmą lub alergią.</p>
+<h3>Sygnały, które powinny cię zaniepokoić</h3>
+<ul>
+<li><strong>Skroplona para na oknach</strong> rano, zwłaszcza jesienią i zimą;</li>
+<li><strong>czarne lub szare plamy</strong> w rogach, za meblami lub na suficie w łazience;</li>
+<li><strong>stęchły zapach</strong>, który wraca mimo wietrzenia;</li>
+<li><strong>pranie, które słabo schnie</strong> w pomieszczeniu;</li>
+<li><strong>łuszcząca się farba</strong> lub odklejająca się tapeta.</li>
+</ul>
+<p>Przed zakupem zmierz wilgotność: wystarczy zwykły higrometr lub inteligentny czujnik. Nasz poradnik o <a href="/pl/blog/qualite-air-interieur-capteurs">jakości powietrza w domu i czujnikach</a> wyjaśnia, jak śledzić wilgotność pokój po pokoju. Jeśli odczyty przekraczają 60% kilka dni z rzędu, osuszacz jest uzasadniony. I odwrotnie: jeśli zimą powietrze jest zbyt suche, potrzebujesz nawilżacza powietrza (zobacz nasze <a href="/pl/blog/humidificateur-connecte-comparatif">porównanie inteligentnych nawilżaczy</a>).</p>
+<p>Osuszacz zwalcza objaw, nie przyczynę: przeciek, zalanie, podciąganie kapilarne lub brak wentylacji powinien usunąć fachowiec. Urządzenie pozostaje jednak najszybszym sposobem na poprawę stanu pomieszczenia w międzyczasie lub w mieszkaniu po prostu źle wentylowanym.</p>
+
+<h2>Sprężarkowy czy adsorpcyjny: dwie technologie</h2>
+<h3>Osuszacz sprężarkowy</h3>
+<p>To najpopularniejszy typ. Wentylator przepuszcza powietrze przez zimną wężownicę: woda skrapla się na niej i spływa do zbiornika, a powietrze jest lekko podgrzewane, zanim wyjdzie na zewnątrz. Ta technologia jest najbardziej oszczędna w ogrzewanym pomieszczeniu, ale jej skuteczność wyraźnie spada, gdy temperatura obniża się poniżej ok. 15 °C.</p>
+<h3>Osuszacz adsorpcyjny</h3>
+<p>Wychwytuje wilgoć dzięki materiałowi pochłaniającemu (często jest to koło zeolitowe), regenerowanemu przez grzałkę. Dobrze działa na zimnie, dlatego jest właściwym wyborem do garażu, piwnicy, werandy czy łodzi. W zamian zużywa więcej energii i trochę mocniej podgrzewa powietrze.</p>
+<p><strong>Podsumowując:</strong> ogrzewane pomieszczenie = sprężarkowy; zimna, nieogrzewana przestrzeń = adsorpcyjny.</p>
+
+<h2>Kryteria wyboru</h2>
+<ul>
+<li><strong>Wydajność (litry na dobę)</strong>: często podawana dla 30 °C i 80% wilgotności, czyli warunków znacznie wilgotniejszych niż w zwykłym mieszkaniu. Porównuj modele między sobą, zamiast traktować tę liczbę dosłownie. W praktyce: 10–13 l do sypialni lub łazienki, 16–20 l do mieszkania, 20 l i więcej do domu, piwnicy lub suszenia prania.</li>
+<li><strong>Higrostat i tryb automatyczny</strong>: urządzenie mierzy wilgotność i wstrzymuje pracę po osiągnięciu zadanej wartości. To funkcja, która najbardziej ogranicza zużycie energii.</li>
+<li><strong>Aplikacja i integracje</strong>: zdalne ustawianie wartości docelowej, programowanie, alert o pełnym zbiorniku, historia wilgotności, zgodność z Alexą lub Google Home zależnie od modelu.</li>
+<li><strong>Hałas</strong>: do sypialni wybierz model z prawdziwym trybem nocnym i porównaj wartości w decybelach deklarowane przez producentów.</li>
+<li><strong>Zbiornik i ciągły odpływ</strong>: zbiornik 3 l może napełnić się w ciągu doby w bardzo wilgotnym pomieszczeniu. Wyjście na wąż pozwala odprowadzać wodę w sposób ciągły do syfonu lub odpływu.</li>
+<li><strong>Tryb suszenia prania</strong>: przydatny, jeśli suszysz pranie w domu; urządzenie pracuje wtedy z pełną mocą przez określony czas.</li>
+<li><strong>Filtracja</strong>: niektóre modele mają filtr HEPA lub z węglem aktywnym. To plus, ale nie zastępuje prawdziwego oczyszczacza powietrza.</li>
+</ul>
+
+<h2>Najlepsze inteligentne osuszacze powietrza 2026</h2>
+
+<h3>1. Meaco Arete Two 20L: najlepszy wybór ogólny</h3>
+<p>Meaco Arete Two to inteligentna wersja serii Arete brytyjskiego specjalisty Meaco. Ten model sprężarkowy usuwa do 20 litrów wody na dobę, ma zbiornik 4,8 l z wyjściem do ciągłego odprowadzania, tryb suszenia prania i filtr HEPA. Steruje się nim przez Wi-Fi w aplikacji Meaco i współpracuje z Amazon Alexa oraz Google Home.</p>
+<p><strong>Mocne strony</strong>: silnik prądu stałego, renoma oszczędnego i cicho pracującego urządzenia, czytelny wyświetlacz pokazujący zmierzoną i docelową wilgotność, bardzo pozytywne opinie kupujących po dłuższym użytkowaniu.</p>
+<p><strong>Ograniczenia</strong>: dość wysokie i ciężkie urządzenie (około piętnastu kilogramów), wyższa półka cenowa.</p>
+<p><strong>Dla kogo</strong>: mieszkania i domy z powtarzającą się kondensacją pary, suszenie prania w domu, użytkownicy, którzy chcą kompletnego i trwałego urządzenia.</p>
+
+<h3>2. Comfee MDDF-16DEN7-WF: najlepszy stosunek jakości do ceny</h3>
+<p>Comfee, marka grupy Midea, oferuje w tym modelu osuszacz sprężarkowy o wydajności 16 l na dobę, przeznaczony do pomieszczeń o powierzchni ok. 30 m². Ma zbiornik 3 l, wyjście do ciągłego odprowadzania, tryb suszenia prania oraz łączność Wi-Fi przez aplikację NetHome Plus, zgodną z Alexą.</p>
+<p><strong>Mocne strony</strong>: bardzo popularny model z niższej półki, kompaktowy format na kółkach, podstawowe funkcje inteligentne (wilgotność docelowa, timer, alert o pełnym zbiorniku).</p>
+<p><strong>Ograniczenia</strong>: dość mały zbiornik, bardziej podstawowa aplikacja niż w Meaco, według opinii użytkowników głośniejszy niż model z wysokiej półki.</p>
+<p><strong>Dla kogo</strong>: kawalerka, mieszkanie średniej wielkości lub pojedyncze wilgotne pomieszczenie, przy ograniczonym budżecie.</p>
+
+<h3>3. Xiaomi Smart Dehumidifier Lite: najlepszy do sypialni</h3>
+<p>Ten niewielki, cylindryczny model usuwa do 13 litrów na dobę i jest przeznaczony do sypialni, łazienek i pralni. Ma zbiornik 3 l, wąż odprowadzający, trzy tryby (inteligentny, pranie, nocny) i jest sterowany w aplikacji Xiaomi Home.</p>
+<p><strong>Mocne strony</strong>: małe gabaryty, według Xiaomi bardzo dyskretny tryb nocny, naturalna integracja, jeśli masz już urządzenia Xiaomi.</p>
+<p><strong>Ograniczenia</strong>: ograniczona wydajność do dużego mieszkania lub piwnicy, mniej otwarty ekosystem niż w innych aplikacjach.</p>
+<p><strong>Dla kogo</strong>: sypialnia, małe pomieszczenie lub łazienka, użytkownicy mający już sprzęt Xiaomi.</p>
+
+<h3>4. De’Longhi Tasciugo AriaDry Multi DDSX220WF: najbardziej wszechstronny</h3>
+<p>Tasciugo AriaDry Multi to osuszacz sprężarkowy o wydajności rzędu 20 litrów na dobę, z dużym zbiornikiem 5 l, systemem filtracji łączącym filtr E12 i węgiel aktywny, trybem suszenia prania oraz łącznością Wi-Fi obsługiwaną przez aplikację De’Longhi. Wykorzystuje czynnik chłodniczy R290 o niskim wpływie na klimat.</p>
+<p><strong>Mocne strony</strong>: duży zbiornik, dokładniejsza niż przeciętna filtracja, staranne wykonanie.</p>
+<p><strong>Ograniczenia</strong>: duże gabaryty, filtry do wymiany, wysoka półka cenowa.</p>
+<p><strong>Dla kogo</strong>: mieszkania, w których chcesz jednocześnie osuszać powietrze i filtrować kurz oraz zapachy.</p>
+
+<h3>5. Inventor EVA II PRO WiFi 20L: kompletna alternatywa</h3>
+<p>Grecki producent Inventor oferuje model o wydajności 20 l na dobę ze zbiornikiem 3 l, jonizatorem, filtrami HEPA i z węglem aktywnym, trybem suszenia prania i sterowaniem przez aplikację INVmate II. Jest szeroko dystrybuowany w Europie Południowej.</p>
+<p><strong>Mocne strony</strong>: bogate wyposażenie jak na swoją kategorię, kompaktowy format jak na model 20 l.</p>
+<p><strong>Ograniczenia</strong>: mały zbiornik jak na taką wydajność, aplikacja mniej dopracowana niż u dużych marek.</p>
+<p><strong>Dla kogo</strong>: wilgotne mieszkania, zwłaszcza w klimacie śródziemnomorskim, wymagające mocy w niewielkich gabarytach.</p>
+
+<h3>6. Meaco DD8L Zambezi: do zimnych przestrzeni (bez inteligentnych funkcji)</h3>
+<p>Ten osuszacz adsorpcyjny działa według Meaco w zakresie od 1 do 37 °C, usuwa około 8 litrów na dobę i ma zbiornik 3 l z opcją ciągłego odprowadzania. Nie ma Wi-Fi: zachowuje ustawienia po zaniku zasilania, dzięki czemu można nim sterować za pomocą inteligentnej wtyczki.</p>
+<p><strong>Mocne strony</strong>: skuteczny na zimnie, lekki, idealny do garażu, piwnicy, przyczepy kempingowej lub łodzi.</p>
+<p><strong>Ograniczenia</strong>: większe zużycie energii niż w modelu sprężarkowym, brak aplikacji.</p>
+<p><strong>Dla kogo</strong>: przestrzenie nieogrzewane zimą.</p>
+
+<h2>Tabela porównawcza</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Technologia</th><th>Deklarowana wydajność</th><th>Zbiornik</th><th>Łączność</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Meaco Arete Two 20L</strong></td><td>Sprężarkowy</td><td>20 l/dobę</td><td>4,8 l</td><td>Wi-Fi, Alexa, Google Home</td><td>Mieszkanie, dom, pranie</td></tr>
+<tr><td><strong>Comfee MDDF-16DEN7-WF</strong></td><td>Sprężarkowy</td><td>16 l/dobę</td><td>3 l</td><td>Wi-Fi, Alexa</td><td>Kawalerka, wilgotne pomieszczenie</td></tr>
+<tr><td><strong>Xiaomi Smart Dehumidifier Lite</strong></td><td>Sprężarkowy</td><td>13 l/dobę</td><td>3 l</td><td>Wi-Fi (Xiaomi Home)</td><td>Sypialnia, łazienka</td></tr>
+<tr><td><strong>De’Longhi Tasciugo AriaDry Multi DDSX220WF</strong></td><td>Sprężarkowy</td><td>Ok. 20 l/dobę</td><td>5 l</td><td>Wi-Fi</td><td>Wilgoć i filtracja</td></tr>
+<tr><td><strong>Inventor EVA II PRO WiFi 20L</strong></td><td>Sprężarkowy</td><td>20 l/dobę</td><td>3 l</td><td>Wi-Fi (INVmate II)</td><td>Wilgotne mieszkanie</td></tr>
+<tr><td><strong>Meaco DD8L Zambezi</strong></td><td>Adsorpcyjny</td><td>8 l/dobę</td><td>3 l</td><td>Brak</td><td>Garaż, piwnica, łódź</td></tr>
+</tbody>
+</table>
+
+<h2>Błędy, których warto unikać</h2>
+<ul>
+<li><strong>Zbyt niska wartość docelowa</strong>: zejście poniżej 40% wysusza powietrze i niepotrzebnie obciąża urządzenie. Wartość docelowa 50% pasuje do większości pomieszczeń.</li>
+<li><strong>Stawianie przy ścianie</strong>: zostaw wolne miejsce wokół wlotów i wylotów powietrza, aby urządzenie działało prawidłowo.</li>
+<li><strong>Kupowanie modelu sprężarkowego do lodowatego garażu</strong>: poniżej ok. 15 °C lepiej sprawdzi się osuszacz adsorpcyjny.</li>
+<li><strong>Zostawianie otwartych drzwi i okien</strong>: urządzenie osuszałoby wtedy bez końca powietrze z zewnątrz.</li>
+<li><strong>Zapominanie o przyczynie</strong>: przeciek lub zalanie trzeba naprawić; osuszacz tylko ogranicza szkody.</li>
+</ul>
+
+<h2>Użytkowanie, konserwacja i bezpieczeństwo</h2>
+<ul>
+<li><strong>Filtr</strong>: regularnie go odkurzaj, zgodnie z zaleceniami producenta.</li>
+<li><strong>Zbiornik</strong>: często go opróżniaj i płucz, by uniknąć zapachów; zebrana woda nie nadaje się do picia.</li>
+<li><strong>Transport</strong>: po położeniu osuszacza sprężarkowego zostaw go w pozycji stojącej przed ponownym włączeniem, jak podaje większość instrukcji.</li>
+<li><strong>Prąd</strong>: podłączaj go bezpośrednio do gniazdka ściennego, a nie do przeciążonej listwy, i trzymaj wąż odprowadzający z dala od gniazdek.</li>
+<li><strong>Zużycie energii</strong>: tryb automatyczny, który wyłącza urządzenie po osiągnięciu wartości docelowej, pozostaje najlepszym sposobem na ograniczenie rachunku.</li>
+</ul>
+
+<h2>Nasz werdykt</h2>
+<p><strong>Najlepszy wybór ogólny:</strong> <strong>Meaco Arete Two 20L</strong>, kompletny, inteligentny i ceniony za niskie zużycie energii i dyskretną pracę.</p>
+<p><strong>Najlepszy stosunek jakości do ceny:</strong> <strong>Comfee MDDF-16DEN7-WF</strong>, który oferuje większość funkcji inteligentnych w kompaktowym formacie.</p>
+<p><strong>Do sypialni:</strong> <strong>Xiaomi Smart Dehumidifier Lite</strong>, niewielki i z dyskretnym trybem nocnym.</p>
+<p>Do nieogrzewanego garażu lub piwnicy wybierz raczej osuszacz adsorpcyjny, taki jak <strong>Meaco DD8L Zambezi</strong>.</p>`,
   },
   faq: [
     {
@@ -713,6 +826,7 @@ export const article: BlogArticle = {
         es: '¿Qué nivel de humedad conviene en casa?',
         it: 'Quale livello di umidità è ideale in casa?',
         nl: 'Welke luchtvochtigheid is ideaal in huis?',
+        pl: 'Jaką wilgotność utrzymywać w mieszkaniu?',
       },
       answer: {
         fr: 'En général entre 40 et 60 %. Une cible de 50 % convient à la plupart des pièces : au-dessus de 60 % de façon durable, les moisissures et les acariens se développent ; sous 40 %, l’air devient trop sec.',
@@ -721,6 +835,7 @@ export const article: BlogArticle = {
         es: 'Por lo general, entre el 40 y el 60 %. Un objetivo del 50 % sirve para la mayoría de estancias: por encima del 60 % de forma continuada proliferan el moho y los ácaros; por debajo del 40 %, el aire se reseca.',
         it: 'In genere tra il 40 e il 60%. Un obiettivo del 50% va bene per la maggior parte delle stanze: stabilmente sopra il 60% proliferano muffa e acari, sotto il 40% l’aria diventa troppo secca.',
         nl: 'Meestal tussen 40 en 60%. Een doel van 50% past bij de meeste ruimtes: langdurig boven 60% groeien schimmel en huisstofmijten, onder 40% wordt de lucht te droog.',
+        pl: 'Zazwyczaj między 40 a 60%. Wartość docelowa 50% pasuje do większości pomieszczeń: powyżej 60% utrzymującej się dłużej rozwijają się pleśń i roztocza, a poniżej 40% powietrze staje się zbyt suche.',
       },
     },
     {
@@ -731,6 +846,7 @@ export const article: BlogArticle = {
         es: '¿Qué capacidad de deshumidificador necesito?',
         it: 'Che capacità di deumidificatore mi serve?',
         nl: 'Welke capaciteit luchtontvochtiger heb ik nodig?',
+        pl: 'Jaką wydajność osuszacza wybrać?',
       },
       answer: {
         fr: 'Comptez 10 à 13 L par jour pour une chambre ou une salle de bain, 16 à 20 L pour un appartement, et 20 L ou plus pour une maison, un sous-sol ou le séchage du linge. Les capacités sont mesurées dans des conditions très humides : mieux vaut prévoir un peu large.',
@@ -739,6 +855,7 @@ export const article: BlogArticle = {
         es: 'Calcula 10-13 L al día para un dormitorio o baño, 16-20 L para un piso y 20 L o más para una casa, un sótano o secar ropa. Las capacidades se miden en condiciones muy húmedas, así que conviene ir algo sobrado.',
         it: 'Calcola 10-13 L al giorno per una camera o un bagno, 16-20 L per un appartamento e 20 L o più per una casa, una taverna o il bucato. Le capacità sono misurate in condizioni molto umide, meglio quindi abbondare un po’.',
         nl: 'Reken op 10-13 L per dag voor een slaapkamer of badkamer, 16-20 L voor een appartement en 20 L of meer voor een huis, kelder of het drogen van was. De capaciteit wordt gemeten in zeer vochtige omstandigheden, dus kies liever iets ruimer.',
+        pl: 'Przyjmij 10–13 l na dobę do sypialni lub łazienki, 16–20 l do mieszkania i 20 l lub więcej do domu, piwnicy lub suszenia prania. Wydajność mierzy się w bardzo wilgotnych warunkach, więc lepiej wybrać z niewielkim zapasem.',
       },
     },
     {
@@ -749,6 +866,7 @@ export const article: BlogArticle = {
         es: 'Deshumidificador de compresor o desecante: ¿cuál elegir?',
         it: 'Deumidificatore a compressore o essiccante: quale scegliere?',
         nl: 'Compressor- of adsorptie-ontvochtiger: welke kies ik?',
+        pl: 'Osuszacz sprężarkowy czy adsorpcyjny: który wybrać?',
       },
       answer: {
         fr: 'Dans une pièce chauffée, le compresseur est plus économe et plus efficace. Dans un garage, une cave ou un bateau non chauffés, où la température descend sous 15 °C environ, un dessiccant comme le Meaco DD8L Zambezi reste efficace au froid.',
@@ -757,6 +875,7 @@ export const article: BlogArticle = {
         es: 'En una estancia con calefacción, el compresor es más eficiente y económico. En un garaje, sótano o barco sin calefacción, donde se baja de unos 15 °C, un desecante como el Meaco DD8L Zambezi sigue funcionando con frío.',
         it: 'In una stanza riscaldata il compressore è più efficiente ed economico. In un garage, una cantina o una barca non riscaldati, dove si scende sotto i 15 °C circa, un essiccante come il Meaco DD8L Zambezi continua a funzionare al freddo.',
         nl: 'In een verwarmde ruimte is een compressormodel zuiniger en effectiever. In een onverwarmde garage, kelder of boot waar het kouder wordt dan ongeveer 15 °C, blijft een adsorptiemodel zoals de Meaco DD8L Zambezi in de kou werken.',
+        pl: 'W ogrzewanym pomieszczeniu sprężarkowy jest oszczędniejszy i skuteczniejszy. W nieogrzewanym garażu, piwnicy lub na łodzi, gdzie temperatura spada poniżej ok. 15 °C, osuszacz adsorpcyjny, taki jak Meaco DD8L Zambezi, pozostaje skuteczny na zimnie.',
       },
     },
     {
@@ -767,6 +886,7 @@ export const article: BlogArticle = {
         es: '¿Qué aporta un deshumidificador inteligente?',
         it: 'Cosa offre in più un deumidificatore smart?',
         nl: 'Wat biedt een slimme luchtontvochtiger extra?',
+        pl: 'Co dodatkowego daje inteligentny osuszacz powietrza?',
       },
       answer: {
         fr: 'Il se règle et se surveille à distance : taux cible, programmation, alerte de bac plein et, selon les modèles, historique d’humidité et commande vocale via Alexa ou Google Home. Pratique pour une résidence secondaire ou une cave que l’on visite peu.',
@@ -775,6 +895,7 @@ export const article: BlogArticle = {
         es: 'Puedes ajustarlo y vigilarlo a distancia: humedad objetivo, programación, aviso de depósito lleno y, según el modelo, historial de humedad y control por voz con Alexa o Google Home. Muy útil en una segunda residencia o un trastero que visitas poco.',
         it: 'Puoi regolarlo e monitorarlo a distanza: umidità obiettivo, programmazione, avviso di serbatoio pieno e, secondo il modello, storico dell’umidità e comandi vocali con Alexa o Google Home. Comodo per una seconda casa o una cantina poco frequentata.',
         nl: 'Je kunt hem op afstand instellen en volgen: doelvochtigheid, schema’s, melding bij vol reservoir en, afhankelijk van het model, vochtigheidshistorie en spraakbediening via Alexa of Google Home. Handig voor een vakantiewoning of een kelder waar je zelden komt.',
+        pl: 'Można go ustawiać i monitorować zdalnie: wartość docelowa, programowanie, alert o pełnym zbiorniku oraz, zależnie od modelu, historia wilgotności i sterowanie głosowe przez Alexę lub Google Home. Przydatne w domu letniskowym lub piwnicy, do której rzadko zaglądasz.',
       },
     },
     {
@@ -785,6 +906,7 @@ export const article: BlogArticle = {
         es: '¿Se puede usar un deshumidificador por la noche?',
         it: 'Si può usare il deumidificatore di notte?',
         nl: 'Kan een luchtontvochtiger ’s nachts draaien?',
+        pl: 'Czy osuszacz może pracować w nocy?',
       },
       answer: {
         fr: 'Oui, si le modèle dispose d’un mode nuit et du mode automatique. Vérifiez que le bac a assez de place ou installez le drainage continu : l’appareil s’arrête seul quand le bac est plein.',
@@ -793,6 +915,7 @@ export const article: BlogArticle = {
         es: 'Sí, si el modelo tiene modo noche y modo automático. Comprueba que el depósito tiene espacio o instala el drenaje continuo: el aparato se detiene solo cuando el depósito está lleno.',
         it: 'Sì, se il modello ha una modalità notte e la modalità automatica. Verifica che il serbatoio abbia spazio o installa il drenaggio continuo: l’apparecchio si ferma da solo quando il serbatoio è pieno.',
         nl: 'Ja, als het model een nachtmodus en automatische modus heeft. Zorg dat het reservoir genoeg ruimte heeft of sluit continue afvoer aan: het apparaat stopt vanzelf als het reservoir vol is.',
+        pl: 'Tak, jeśli model ma tryb nocny i tryb automatyczny. Sprawdź, czy zbiornik ma wystarczająco miejsca, lub podłącz ciągłe odprowadzanie: urządzenie wyłączy się samo, gdy zbiornik będzie pełny.',
       },
     },
     {
@@ -803,6 +926,7 @@ export const article: BlogArticle = {
         es: '¿Un deshumidificador sustituye a un purificador de aire?',
         it: 'Un deumidificatore sostituisce un purificatore d’aria?',
         nl: 'Vervangt een luchtontvochtiger een luchtreiniger?',
+        pl: 'Czy osuszacz zastępuje oczyszczacz powietrza?',
       },
       answer: {
         fr: 'Non. Le déshumidificateur retire l’eau de l’air, le purificateur filtre les particules. Certains déshumidificateurs ajoutent un filtre HEPA, mais pour les allergies un vrai purificateur reste plus adapté ; les deux appareils sont complémentaires.',
@@ -811,6 +935,7 @@ export const article: BlogArticle = {
         es: 'No. El deshumidificador quita agua del aire y el purificador filtra partículas. Algunos deshumidificadores añaden un filtro HEPA, pero para las alergias un purificador sigue siendo más adecuado; ambos aparatos se complementan.',
         it: 'No. Il deumidificatore toglie acqua dall’aria, il purificatore filtra le particelle. Alcuni deumidificatori aggiungono un filtro HEPA, ma per le allergie un vero purificatore resta più indicato; i due apparecchi sono complementari.',
         nl: 'Nee. Een ontvochtiger haalt water uit de lucht, een luchtreiniger filtert deeltjes. Sommige ontvochtigers hebben een HEPA-filter, maar bij allergieën is een echte luchtreiniger geschikter; beide apparaten vullen elkaar aan.',
+        pl: 'Nie. Osuszacz usuwa wodę z powietrza, a oczyszczacz filtruje cząstki. Niektóre osuszacze mają dodatkowy filtr HEPA, ale przy alergii prawdziwy oczyszczacz nadal jest lepszym rozwiązaniem; oba urządzenia się uzupełniają.',
       },
     },
   ],

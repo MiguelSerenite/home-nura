@@ -135,4 +135,26 @@ export const STICK_VACUUMS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
       },
     ],
   },
+  pl: {
+    name: 'Odkurzacze pionowe bezprzewodowe',
+    h1: `Black Friday ${Y}: odkurzacze pionowe bezprzewodowe, które warto mieć na oku`,
+    metaTitle: `Black Friday ${Y}: odkurzacze pionowe bezprzewodowe`,
+    metaDescription: `Odkurzacze pionowe bezprzewodowe na Black Friday ${Y}: Dyson, Rowenta, Samsung. Czas pracy, filtracja, pojemnik na kurz: co sprawdzić.`,
+    blurb: 'Dyson, Rowenta, Samsung: czas pracy, filtracja i opróżnianie.',
+    intro: 'Odkurzacz pionowy ocenia się po rzeczywistym czasie pracy w trybie normalnym, filtracji i pojemności pojemnika na kurz. Podczas promocji sprawdź też dołączone akcesoria i akumulatory: różnią się w zależności od wersji.',
+    faq: [
+      {
+        question: 'Jaki czas pracy wybrać?',
+        answer: 'Podawany czas pracy dotyczy najsłabszego trybu: w trybie normalnym lub maksymalnym bywa wyraźnie krótszy. Przy dużej powierzchni wymienny akumulator pozwala dołożyć drugi.',
+      },
+      {
+        question: 'Odkurzacz pionowy czy robot sprzątający?',
+        answer: 'Robot dba o podłogi na co dzień bez wysiłku; odkurzacz pionowy pozostaje niezastąpiony na schodach, dywanach, kanapie i w samochodzie. Wiele domów ma oba urządzenia.',
+      },
+      {
+        question: 'Czy stacja opróżniająca jest przydatna?',
+        answer: 'Zapobiega obłokowi kurzu przy opróżnianiu pojemnika, co docenią osoby z alergią. W zamian zajmuje miejsce i wymaga worków.',
+      },
+    ],
+  },
 }

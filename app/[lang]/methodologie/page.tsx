@@ -60,7 +60,7 @@ const content: Record<Lang, Content> = {
     subtitle:
       'La grille complète — sources, pondérations, mises à jour, indépendance. Rien d\'opaque.',
     intro:
-      'Home Nura est un éditeur européen indépendant. Nous comparons les appareils connectés de la maison sur 6 marchés (France, Allemagne, Royaume-Uni, Espagne, Italie, Pays-Bas) avec la même grille pour chaque catégorie. Cette page détaille comment nous procédons, ce que nous pesons, et ce que nous ne faisons pas.',
+      'Home Nura est un éditeur européen indépendant. Nous comparons les appareils connectés de la maison sur 7 marchés (France, Allemagne, Royaume-Uni, Espagne, Italie, Pays-Bas, Pologne) avec la même grille pour chaque catégorie. Cette page détaille comment nous procédons, ce que nous pesons, et ce que nous ne faisons pas.',
     breadcrumbHome: 'Accueil',
     breadcrumbCurrent: 'Méthodologie',
     pillarsTitle: 'Les 5 piliers de notre méthode',
@@ -128,7 +128,7 @@ const content: Record<Lang, Content> = {
     subtitle:
       'The full grid — sources, weighting, refresh cadence, independence. Nothing opaque.',
     intro:
-      'Home Nura is an independent European publisher. We compare connected home devices across 6 markets (France, Germany, UK, Spain, Italy, Netherlands) using the same grid in every category. This page explains exactly how we work, what we weight, and what we refuse to do.',
+      'Home Nura is an independent European publisher. We compare connected home devices across 7 markets (France, Germany, UK, Spain, Italy, Netherlands, Poland) using the same grid in every category. This page explains exactly how we work, what we weight, and what we refuse to do.',
     breadcrumbHome: 'Home',
     breadcrumbCurrent: 'Methodology',
     pillarsTitle: 'The 5 pillars of our method',
@@ -196,7 +196,7 @@ const content: Record<Lang, Content> = {
     subtitle:
       'Das komplette Raster — Quellen, Gewichtung, Aktualisierungen, Unabhängigkeit. Nichts Undurchsichtiges.',
     intro:
-      'Home Nura ist ein unabhängiger europäischer Publisher. Wir vergleichen vernetzte Haushaltsgeräte auf 6 Märkten (Frankreich, Deutschland, UK, Spanien, Italien, Niederlande) mit demselben Raster in jeder Kategorie. Diese Seite erklärt genau, wie wir arbeiten, was wir gewichten und was wir bewusst nicht tun.',
+      'Home Nura ist ein unabhängiger europäischer Publisher. Wir vergleichen vernetzte Haushaltsgeräte auf 7 Märkten (Frankreich, Deutschland, UK, Spanien, Italien, Niederlande, Polen) mit demselben Raster in jeder Kategorie. Diese Seite erklärt genau, wie wir arbeiten, was wir gewichten und was wir bewusst nicht tun.',
     breadcrumbHome: 'Start',
     breadcrumbCurrent: 'Methodik',
     pillarsTitle: 'Die 5 Säulen unserer Methode',
@@ -264,7 +264,7 @@ const content: Record<Lang, Content> = {
     subtitle:
       'La rejilla completa — fuentes, ponderación, actualizaciones, independencia. Sin zonas opacas.',
     intro:
-      'Home Nura es un medio europeo independiente. Comparamos dispositivos conectados del hogar en 6 mercados (Francia, Alemania, Reino Unido, España, Italia, Países Bajos) con la misma rejilla en cada categoría. Esta página explica exactamente cómo trabajamos, qué pesamos y qué no hacemos.',
+      'Home Nura es un medio europeo independiente. Comparamos dispositivos conectados del hogar en 7 mercados (Francia, Alemania, Reino Unido, España, Italia, Países Bajos, Polonia) con la misma rejilla en cada categoría. Esta página explica exactamente cómo trabajamos, qué pesamos y qué no hacemos.',
     breadcrumbHome: 'Inicio',
     breadcrumbCurrent: 'Metodología',
     pillarsTitle: 'Los 5 pilares de nuestro método',
@@ -332,7 +332,7 @@ const content: Record<Lang, Content> = {
     subtitle:
       'La griglia completa — fonti, ponderazione, aggiornamenti, indipendenza. Niente di opaco.',
     intro:
-      'Home Nura è un editore europeo indipendente. Confrontiamo dispositivi connessi per la casa su 6 mercati (Francia, Germania, Regno Unito, Spagna, Italia, Paesi Bassi) con la stessa griglia in ogni categoria. Questa pagina spiega esattamente come lavoriamo, cosa pesiamo e cosa rifiutiamo di fare.',
+      'Home Nura è un editore europeo indipendente. Confrontiamo dispositivi connessi per la casa su 7 mercati (Francia, Germania, Regno Unito, Spagna, Italia, Paesi Bassi, Polonia) con la stessa griglia in ogni categoria. Questa pagina spiega esattamente come lavoriamo, cosa pesiamo e cosa rifiutiamo di fare.',
     breadcrumbHome: 'Home',
     breadcrumbCurrent: 'Metodologia',
     pillarsTitle: 'I 5 pilastri del nostro metodo',
@@ -400,7 +400,7 @@ const content: Record<Lang, Content> = {
     subtitle:
       'Het volledige raster — bronnen, weging, updates, onafhankelijkheid. Niets ondoorzichtigs.',
     intro:
-      'Home Nura is een onafhankelijke Europese uitgever. We vergelijken slimme huishoudapparaten op 6 markten (Frankrijk, Duitsland, VK, Spanje, Italië, Nederland) met hetzelfde raster in elke categorie. Deze pagina legt precies uit hoe we werken, wat we wegen en wat we bewust niet doen.',
+      'Home Nura is een onafhankelijke Europese uitgever. We vergelijken slimme huishoudapparaten op 7 markten (Frankrijk, Duitsland, VK, Spanje, Italië, Nederland, Polen) met hetzelfde raster in elke categorie. Deze pagina legt precies uit hoe we werken, wat we wegen en wat we bewust niet doen.',
     breadcrumbHome: 'Home',
     breadcrumbCurrent: 'Methodologie',
     pillarsTitle: 'De 5 pijlers van onze methode',
@@ -460,6 +460,62 @@ const content: Record<Lang, Content> = {
       },
     ],
     ctaLabel: 'Bekijk onze slimme keuken-selectie',
+    ctaHref: '/cuisine-connectee',
+  },
+  pl: {
+    kicker: 'Metodologia',
+    title: 'Jak Home Nura porównuje i ocenia',
+    subtitle: 'Pełna siatka kryteriów: źródła, wagi, aktualizacje, niezależność. Nic nie jest ukryte.',
+    intro: 'Home Nura to niezależny wydawca europejski. Porównujemy urządzenia inteligentnego domu na 7 rynkach (Francja, Niemcy, Wielka Brytania, Hiszpania, Włochy, Holandia, Polska) według tej samej siatki w każdej kategorii. Ta strona szczegółowo opisuje, jak postępujemy, co bierzemy pod uwagę i czego nie robimy.',
+    breadcrumbHome: 'Start',
+    breadcrumbCurrent: 'Metodologia',
+    pillarsTitle: '5 filarów naszej metody',
+    pillars: [
+      {
+        title: '01 · Weryfikowalne źródła',
+        body: 'Dla każdego produktu zestawiamy trzy źródła: karty katalogowe producenta, opinie użytkowników z Amazon i Google (minimum 500 opinii ważonych z 12 miesięcy) oraz niezależne testy europejskiej prasy specjalistycznej (Que Choisir, Stiftung Warentest, Which?, OCU, Altroconsumo, Consumentenbond). Produkt, co do którego te trzy źródła nie są zgodne, nie trafia do naszej selekcji.',
+      },
+      {
+        title: '02 · Siatka oceny: Ocena Nura /10',
+        body: 'Każda kategoria ma własne wagi, ale Ocena Nura zawsze opiera się na tej samej skali 0–10. Główne kryteria: rzeczywista wydajność (30%), lokalny stosunek jakości do ceny (25%), ergonomia i łatwość obsługi (15%), roczny koszt zużycia energii (15%) oraz trwałość i jakość wykonania (15%). Szczegóły dla każdej kategorii publikujemy na jej stronie głównej.',
+      },
+      {
+        title: '03 · Dane europejskie, nie amerykańskie',
+        body: 'Odrzucamy recenzje tłumaczone z amerykańskich serwisów. Ceny, dostępność, zużycie energii, zgodność z RODO, zgodność z wtyczką europejską i europejską etykietę energetyczną zbieramy bezpośrednio z rynków lokalnych. Produkt może być numerem 1 w Stanach Zjednoczonych i nie znaleźć się w naszym europejskim rankingu.',
+      },
+      {
+        title: '04 · Aktualizacje co najmniej raz na kwartał',
+        body: 'Ceny się zmieniają. Numery ASIN są wycofywane. Marki wprowadzają poprawione wersje. Każda kategoria jest weryfikowana co najmniej raz na 3 miesiące. Strony, które nie zostały zaktualizowane w tym terminie, wyświetlają wyraźny komunikat. Data ostatniej aktualizacji jest widoczna na górze każdego porównania.',
+      },
+      {
+        title: '05 · Niezależność i przejrzystość afiliacyjna',
+        body: 'Home Nura jest finansowany z Programu Partnerskiego Amazon (prowizja od zakupu, bez dodatkowych kosztów dla Ciebie). Wszystkie nasze linki do Amazon prowadzą do Amazon.fr z jednym identyfikatorem partnerskim: dzięki programowi „Global Earning” Amazon przekierowuje czytelników z innych krajów do sklepu Amazon w ich kraju, a prowizja trafia na to samo konto. Prowizje nigdy nie wpływają na ranking: produkt słabo oceniony pozostaje słabo oceniony, nawet jeśli przynosi większy zarobek. Żaden producent nie płaci nam za miejsce na podium. W razie konfliktu interesów informujemy o tym na górze strony.',
+      },
+    ],
+    faqTitle: 'Najczęstsze pytania',
+    faq: [
+      {
+        question: 'Dlaczego serwis europejski, a nie globalny?',
+        answer: 'Ponieważ ceny, etykiety energetyczne, certyfikaty i dostępność różnią się w zależności od rynku. Porównanie globalne uśrednia wszystko i w efekcie nigdzie nie jest trafne. Wolimy rekomendacje obowiązujące w Twoim kraju, nawet jeśli oznacza to sześć różnych wydań.',
+      },
+      {
+        question: 'Co oznacza Ocena Nura /10?',
+        answer: 'To ocena łączna w skali 0–10, która agreguje rzeczywistą wydajność, lokalny stosunek jakości do ceny, ergonomię, roczne zużycie energii i trwałość, zgodnie z wagami przypisanymi do każdej kategorii. Ocena 8/10 w wymagającej kategorii (frytkownice) nie jest równoznaczna z 8/10 w kategorii prostszej: siatka jest równoważona osobno dla każdej kategorii.',
+      },
+      {
+        question: 'Jak radzicie sobie z konfliktami interesów?',
+        answer: 'Żaden producent nie płaci za miejsce w rankingu. Prowizje afiliacyjne Amazon są takie same niezależnie od pozycji, więc model biznesowy nie zachęca do promowania konkretnego produktu. Jeśli producent wypożyczy nam produkt, wyraźnie informujemy o tym w artykule.',
+      },
+      {
+        question: 'Jak często aktualizujecie ceny?',
+        answer: 'Nie wyświetlamy żadnych cen produktów: Amazon zmienia ceny kilka razy dziennie i zezwala na ich pokazywanie wyłącznie przez swój oficjalny interfejs produktowy. Nasze porównania mówią o przedziałach budżetowych (na przykład „poniżej 400 zł”), nigdy o cenie konkretnego modelu. Kliknij link, aby zobaczyć cenę i dostępność w czasie rzeczywistym na Amazon: trafisz do sklepu Amazon w swoim kraju.',
+      },
+      {
+        question: 'Co robicie, gdy produkt zostaje wycofany z rynku?',
+        answer: 'Usuwamy numer ASIN z naszych porównań w ciągu 48 godzin, zachowujemy kartę produktu w archiwum z oznaczeniem „produkt wycofany” i zastępujemy go w rankingu najlepszym dostępnym odpowiednikiem. Żadna strona nie zostaje z martwym linkiem do zakupu.',
+      },
+    ],
+    ctaLabel: 'Zobacz nasze zestawienie inteligentnej kuchni',
     ctaHref: '/cuisine-connectee',
   },
 }

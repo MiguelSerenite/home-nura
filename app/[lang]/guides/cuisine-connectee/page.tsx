@@ -37,23 +37,23 @@ interface PillarContent {
 const categoryLabels: Record<string, Record<string, string>> = {
   multicuiseurs: {
     fr: 'Multicuiseurs', en: 'Multicookers', de: 'Multikocher',
-    es: 'Ollas multicocción', it: 'Multicottura', nl: 'Multicookers',
+    es: 'Ollas multicocción', it: 'Multicottura', nl: 'Multicookers', pl: 'Multicookery',
   },
   cafetieres: {
     fr: 'Cafetières connectées', en: 'Smart coffee machines', de: 'Smarte Kaffeemaschinen',
-    es: 'Cafeteras conectadas', it: 'Macchine da caffè connesse', nl: 'Slimme koffiemachines',
+    es: 'Cafeteras conectadas', it: 'Macchine da caffè connesse', nl: 'Slimme koffiemachines', pl: 'Inteligentne ekspresy do kawy',
   },
   balances: {
     fr: 'Balances connectées', en: 'Smart scales', de: 'Smarte Waagen',
-    es: 'Básculas conectadas', it: 'Bilance connesse', nl: 'Slimme weegschalen',
+    es: 'Básculas conectadas', it: 'Bilance connesse', nl: 'Slimme weegschalen', pl: 'Inteligentne wagi kuchenne',
   },
   'thermometres-viande': {
     fr: 'Thermomètres à viande', en: 'Meat thermometers', de: 'Fleischthermometer',
-    es: 'Termómetros de carne', it: 'Termometri per carne', nl: 'Vleesthermometers',
+    es: 'Termómetros de carne', it: 'Termometri per carne', nl: 'Vleesthermometers', pl: 'Termometry do mięsa',
   },
   'prises-connectees': {
     fr: 'Prises connectées', en: 'Smart plugs', de: 'Smarte Steckdosen',
-    es: 'Enchufes conectados', it: 'Prese connesse', nl: 'Slimme stekkers',
+    es: 'Enchufes conectados', it: 'Prese connesse', nl: 'Slimme stekkers', pl: 'Inteligentne wtyczki',
   },
 }
 
@@ -327,6 +327,51 @@ const pageContent: Record<string, PillarContent> = {
     categoriesIntro: 'Elke categorie heeft zijn eigen aankooplogica, zijn eigen valkuilen, zijn eigen prijs-kwaliteit-sweetspot. Duik in de details.',
     seeAllButton: 'Alle modellen bekijken',
     lastUpdated: 'Bijgewerkt op 14 april 2026',
+  },
+  pl: {
+    kicker: 'Poradnik główny · Inteligentna kuchnia',
+    title: 'Kompletny poradnik po inteligentnej kuchni 2026',
+    subtitle: '5 kategorii, 15 porównanych modeli, zero marketingowego szumu',
+    intro: 'Inteligentna kuchnia to już nie gadżet. Multicookery zastępujące trzy urządzenia, ekspresy do kawy włączające się, zanim się obudzisz, wagi prowadzące przepisy co do grama, bezprzewodowe termometry, dzięki którym nie musisz otwierać piekarnika, i wtyczki mierzące rzeczywiste zużycie prądu — każde z tych urządzeń zasługuje na miejsce, jeśli wiesz, które wybrać. Ten poradnik robi porządek, kategoria po kategorii.',
+    dossierKicker: 'Omówienie',
+    dossierTitle: 'Dlaczego inteligentna kuchnia zyskuje na znaczeniu w 2026 roku',
+    chapters: [
+      {
+        num: 'I',
+        title: 'Automatyzacja codzienności',
+        body: 'W 2026 roku we Francji 38% gospodarstw domowych ma co najmniej jedno inteligentne urządzenie kuchenne — na czele multicooker lub ekspres do kawy. Motorem nie jest fascynacja technologią, lecz wymierna oszczędność czasu: 5 minut rano, 10 minut wieczorem, pieczenie dopieczone w środku bez zaglądania do piekarnika. Dla aktywnej rodziny zwrot z inwestycji w dobry multicooker lub bezprzewodową sondę liczy się w tygodniach.',
+        href: '/cuisine-connectee/multicuiseurs',
+        cta: 'Zobacz nasze wybrane multicookery',
+      },
+      {
+        num: 'II',
+        title: 'Pułapka „wszystko połączone”',
+        body: 'Uważaj na marki jadące na fali: wtyczki za 20 zł z niezałatanym firmware, wagi sprzedawane z ukrytym abonamentem, ekspresy do kawy zależne od własnościowej chmury, która jutro może zniknąć. Nasza metoda analizuje najpierw trwałość oprogramowania (aktualizacje przez 2 lata), potem rzeczywistą dokładność (według niezależnych recenzji), a dopiero potem zatwierdza rekomendację. Żaden produkt nie trafia do rekomendacji z pominięciem tej siatki kryteriów.',
+        href: '/a-propos',
+        cta: 'Nasza metodologia',
+      },
+      {
+        num: 'III',
+        title: 'Bluetooth czy Wi-Fi: jak wybrać',
+        body: 'Bluetooth wystarcza w 95% przypadków: zasięg 10 metrów, brak konta w chmurze, baterie wytrzymujące 6–12 miesięcy, zero ekspozycji danych. Wi-Fi tylko wtedy, gdy potrzebujesz zdalnej obsługi (włączenie ekspresu z biura) albo centralizujesz sterowanie w Home Assistant, Matter/Thread lub Alexa Routines. Wi-Fi to większa złożoność, potencjalne luki w zabezpieczeniach i zależność od routera — wybieraj świadomie.',
+        href: '/cuisine-connectee/prises-connectees',
+        cta: 'Nasze wybrane wtyczki Matter/Thread',
+      },
+      {
+        num: 'IV',
+        title: 'Nasz wybór, bez fałszywych obietnic',
+        body: 'Spośród 60 modeli ocenionych w 2026 roku tylko 15 przechodzi naszą siatkę kryteriów. Żadnych sztucznych rankingów top 100, żadnych produktów sponsorowanych. Każda kategoria dostaje 3–4 modele: solidny model podstawowy, model o dobrym stosunku jakości do ceny i uzasadniony model premium. Cała reszta odpada, nawet marki, które chcielibyśmy móc polecić. Tylko dzięki temu rekomendacje zachowują sens.',
+        href: '/cuisine-connectee/comparateur',
+        cta: 'Porównaj 3 modele obok siebie',
+      },
+    ],
+    breadcrumb: 'Poradnik: inteligentna kuchnia',
+    breadcrumbRoot: 'Poradniki',
+    categoriesKicker: '5 kategorii',
+    categoriesTitle: 'Przeglądaj według typu urządzenia',
+    categoriesIntro: 'Każda kategoria ma własną logikę zakupu, własne pułapki i własny stosunek jakości do ceny. Zajrzyj do szczegółów.',
+    seeAllButton: 'Wszystkie modele',
+    lastUpdated: 'Zaktualizowano 14 kwietnia 2026',
   },
 }
 

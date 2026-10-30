@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Patatas fritas doradas y crujientes en una cesta metálica',
         it: 'Patatine dorate e croccanti in un cestello di metallo',
         nl: 'Goudbruine, krokante friet in een metalen bakmand',
+        pl: 'Złociste, chrupiące frytki w metalowym koszu do smażenia',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Recetas de Patatas Fritas Perfectas en Freidora de Aire: 7 Variantes Crujientes',
     it: 'Ricette di Patatine Fritte Perfette nella Friggitrice ad Aria: 7 Varianti Croccanti',
     nl: 'Perfecte Frietjes uit de Airfryer: 7 Krokante Variaties',
+    pl: 'Przepisy na idealne frytki z frytkownicy beztłuszczowej: 7 chrupiących wariantów',
   },
   excerpt: {
     fr: 'Découvrez 7 recettes de frites à l\'airfryer : classiques, patates douces, polenta, courgettes, avocat, truffées et à la belge. Temps, températures et astuces pour un résultat croustillant à chaque fois.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: 'Descubre 7 recetas de patatas fritas en freidora de aire: clásicas, boniato, polenta, calabacín, aguacate, trufa y estilo belga. Tiempos, temperaturas y trucos para un resultado crujiente.',
     it: 'Scopri 7 ricette di patatine fritte nella friggitrice ad aria: classiche, patata dolce, polenta, zucchine, avocado, tartufo e stile belga. Tempi, temperature e consigli per risultati croccanti.',
     nl: 'Ontdek 7 airfryer frietjesrecepten: klassiek, zoete aardappel, polenta, courgette, avocado, truffel en Belgische stijl. Tijden, temperaturen en tips voor krokante resultaten.',
+    pl: 'Poznaj 7 przepisów na frytki z frytkownicy beztłuszczowej: klasyczne, ze słodkich ziemniaków, z polenty, cukinii, awokado, truflowe i po belgijsku. Czasy, temperatury i wskazówki na chrupiący efekt za każdym razem.',
   },
   content: {
     fr: `<h2>Introduction</h2>
@@ -1121,6 +1124,219 @@ export const article: BlogArticle = {
 <li><strong>Wasabi-sesamnsaus:</strong> natuurlijke yoghurt + wasabi + geroosterde sesamzaadjes. Perfect bij avocadofrietjes.</li>
 <li><strong>Pittige tomatensaus:</strong> passata + chilivlokken + verse basilicum. Klassiek bij courgettefrietjes.</li>
 </ul>`,
+    pl: `<h2>Wstęp</h2>
+<p>Frytki z frytkownicy beztłuszczowej to prawdziwa rewolucja w kuchni. Przy <strong>znacznie mniejszej ilości tłuszczu</strong> niż w tradycyjnej frytownicy (producenci deklarują nawet do 80% mniej) dostajesz frytki chrupiące z zewnątrz i miękkie w środku. Niezależnie od tego, czy używasz <a href="/pl/blog/test-ninja-foodi-max-dual-zone">Ninja Foodi Max</a>, czy <a href="/pl/blog/test-philips-airfryer-3000-xl">Philips 3000 XL</a>, te 7 przepisów na frytki pozwoli Ci urozmaicić codzienne menu.</p>
+<p>Sekret udanych frytek z frytkownicy beztłuszczowej opiera się na trzech filarach: równym pokrojeniu, wcześniejszym moczeniu, które usuwa nadmiar skrobi, oraz dwuetapowym smażeniu. W tym artykule opisujemy każdy przepis z dokładnymi ilościami, temperaturami i orientacyjnymi czasami smażenia, które warto dostosować do mocy Twojego urządzenia.</p>
+
+<h2>1. Klasyczne frytki ziemniaczane</h2>
+<h3>Składniki</h3>
+<ul>
+<li>500 g ziemniaków odmiany nadającej się na frytki (Bintje lub Agria)</li>
+<li>1 łyżka oliwy z oliwek (15 ml)</li>
+<li>1 łyżeczka drobnej soli</li>
+<li>½ łyżeczki wędzonej papryki (opcjonalnie)</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Obierz ziemniaki i pokrój je w równe słupki o <strong>grubości 1 cm</strong>.</li>
+<li>Namocz słupki w zimnej wodzie przez <strong>minimum 30 minut</strong> (najlepiej 1 godzinę), aby usunąć skrobię.</li>
+<li>Odsącz frytki i dokładnie osusz czystą ściereczką lub ręcznikiem papierowym. <strong>Ten etap jest kluczowy</strong>: mokre frytki nigdy nie będą chrupiące.</li>
+<li>W misce wymieszaj frytki z oliwą i solą.</li>
+<li>Rozgrzej frytkownicę do <strong>180 °C przez 3 minuty</strong>.</li>
+<li>Ułóż frytki w jednej warstwie w koszu, nie układając ich jedna na drugiej.</li>
+<li>Smaż w <strong>180 °C przez 10 minut</strong>, wstrząśnij koszem, a następnie zwiększ temperaturę do <strong>200 °C na kolejne 8 do 10 minut</strong>.</li>
+<li>Po wyjęciu posyp wędzoną papryką i podaj od razu.</li>
+</ol>
+<h3>Wskazówki szefa kuchni</h3>
+<p>Aby frytki były jeszcze bardziej chrupiące, dodaj <strong>½ łyżeczki skrobi kukurydzianej</strong> do mieszanki oliwy i soli. Skrobia tworzy cienką powłoczkę, która wzmacnia chrupkość. Nigdy nie przepełniaj kosza: w razie potrzeby smaż w dwóch partiach. W naszym przewodniku o <a href="/pl/blog/erreurs-courantes-airfryer">najczęstszych błędach przy użyciu frytkownicy beztłuszczowej</a> znajdziesz sposoby na uniknięcie typowych pułapek.</p>
+
+<h2>2. Frytki ze słodkich ziemniaków</h2>
+<h3>Składniki</h3>
+<ul>
+<li>500 g słodkich ziemniaków (batatów)</li>
+<li>1 łyżka roztopionego oleju kokosowego (15 ml)</li>
+<li>1 łyżeczka mielonego cynamonu</li>
+<li>½ łyżeczki soli</li>
+<li>1 szczypta pieprzu cayenne</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Obierz bataty i pokrój je w słupki o <strong>grubości 0,8 cm</strong> (cieńsze niż klasyczne frytki, bo szybciej miękną).</li>
+<li>Namocz w zimnej wodzie przez <strong>20 minut</strong>.</li>
+<li>Odsącz i dokładnie osusz.</li>
+<li>Wymieszaj z roztopionym olejem kokosowym, cynamonem, solą i pieprzem cayenne.</li>
+<li>Rozgrzej frytkownicę do <strong>190 °C przez 3 minuty</strong>.</li>
+<li>Ułóż w jednej warstwie w koszu.</li>
+<li>Smaż w <strong>190 °C przez 8 minut</strong>, wstrząśnij, a następnie kontynuuj w <strong>200 °C przez 5 do 7 minut</strong>.</li>
+</ol>
+<h3>Wskazówki szefa kuchni</h3>
+<p>Bataty zawierają więcej cukru niż zwykłe ziemniaki, przez co szybciej się rumienią. Uważnie pilnuj ostatnich minut smażenia. Mieszanka cynamonu i cayenne daje wyjątkowy kontrast słodko-ostry. Podaj z sosem z jogurtu greckiego i szczypiorku.</p>
+
+<h2>3. Frytki z polenty</h2>
+<h3>Składniki</h3>
+<ul>
+<li>250 g polenty błyskawicznej</li>
+<li>750 ml wody</li>
+<li>50 g startego parmezanu</li>
+<li>1 łyżka masła (15 g)</li>
+<li>1 łyżeczka soli</li>
+<li>1 łyżka oliwy z oliwek</li>
+<li>1 łyżeczka ziół prowansalskich</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Zagotuj osoloną wodę w garnku. Wsypuj polentę cienkim strumieniem, ciągle mieszając, przez <strong>5 minut</strong>.</li>
+<li>Zdejmij z ognia i wmieszaj masło oraz parmezan. Dobrze wymieszaj.</li>
+<li>Przelej polentę do prostokątnej formy wyłożonej papierem do pieczenia, tworząc warstwę o <strong>grubości 1,5 cm</strong>. Schładzaj w lodówce <strong>minimum 2 godziny</strong>.</li>
+<li>Wyjmij z formy i pokrój w słupki o wymiarach <strong>1,5 cm x 8 cm</strong>.</li>
+<li>Posmaruj oliwą i posyp ziołami prowansalskimi.</li>
+<li>Rozgrzej frytkownicę do <strong>200 °C przez 3 minuty</strong>.</li>
+<li>Smaż w <strong>200 °C przez 12 do 15 minut</strong>, obracając słupki w połowie czasu.</li>
+</ol>
+<h3>Wskazówki szefa kuchni</h3>
+<p>Przed krojeniem polenta musi być dobrze stężała. Jeśli jest zbyt miękka, wydłuż czas w lodówce. Te frytki są z natury bezglutenowe i świetnie pasują do grillowanego mięsa.</p>
+
+<h2>4. Frytki z cukinii</h2>
+<h3>Składniki</h3>
+<ul>
+<li>3 średnie cukinie (ok. 600 g)</li>
+<li>80 g drobnej bułki tartej</li>
+<li>40 g startego parmezanu</li>
+<li>2 roztrzepane jajka</li>
+<li>50 g mąki</li>
+<li>1 łyżeczka czosnku granulowanego</li>
+<li>Sól i pieprz</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Pokrój cukinie w słupki o <strong>długości 7 cm i grubości 1 cm</strong>.</li>
+<li>Lekko posól słupki i odstaw na <strong>15 minut</strong> na ręcznik papierowy, aby puściły wodę.</li>
+<li>Przygotuj trzy głębokie talerze: mąka, roztrzepane jajka oraz mieszanka bułki tartej, parmezanu i czosnku granulowanego.</li>
+<li>Każdy słupek obtocz kolejno w mące, jajku, a potem w bułce tartej, dobrze dociskając.</li>
+<li>Lekko spryskaj olejem lub posmaruj pędzelkiem.</li>
+<li>Rozgrzej frytkownicę do <strong>200 °C przez 3 minuty</strong>.</li>
+<li>Smaż w <strong>200 °C przez 10 do 12 minut</strong>, obracając w połowie czasu.</li>
+</ol>
+<h3>Wskazówki szefa kuchni</h3>
+<p>Sekret tkwi w dokładnym odciągnięciu wody z cukinii. Wilgoć to wróg chrupkości. W <a href="/pl/blog/cuisiner-healthy-airfryer">lżejszej wersji</a> zastąp bułkę tartą mielonymi migdałami. Podaj z ciepłym sosem marinara.</p>
+
+<h2>5. Frytki z awokado</h2>
+<h3>Składniki</h3>
+<ul>
+<li>2 awokado, jędrne, ale dojrzałe</li>
+<li>60 g bułki tartej panko</li>
+<li>1 roztrzepane jajko</li>
+<li>30 g mąki</li>
+<li>1 łyżeczka mielonego kminu rzymskiego</li>
+<li>½ łyżeczki papryki Espelette</li>
+<li>Sól i pieprz</li>
+<li>Sok z połowy limonki</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Przekrój awokado na pół, wyjmij pestkę i obierz. Każdą połówkę pokrój na <strong>6 cząstek</strong> (łącznie 24 frytki).</li>
+<li>Od razu polej sokiem z limonki, aby awokado nie ciemniało.</li>
+<li>Przygotuj trzy talerze: mąka doprawiona kminem i papryką, roztrzepane jajko, bułka tarta panko.</li>
+<li>Panieruj każdą cząstkę, obtaczając ją w mące, jajku, a potem w panko.</li>
+<li>Rozgrzej frytkownicę do <strong>190 °C przez 3 minuty</strong>.</li>
+<li>Ułóż frytki z awokado w jednej warstwie tak, aby się nie stykały.</li>
+<li>Smaż w <strong>190 °C przez 8 do 10 minut</strong>, aż panierka się zezłoci.</li>
+</ol>
+<h3>Wskazówki szefa kuchni</h3>
+<p>Wybieraj awokado <strong>jędrne</strong>: zbyt dojrzałe rozgniecie się podczas panierowania. Japońska bułka tarta panko daje lepszą chrupkość niż zwykła. Podaj z kremem z awokado i wasabi albo z sosem sojowo-sezamowym.</p>
+
+<h2>6. Frytki truflowe</h2>
+<h3>Składniki</h3>
+<ul>
+<li>500 g ziemniaków Ratte (lub Charlotte)</li>
+<li>1 łyżka oleju truflowego (15 ml)</li>
+<li>1 łyżka oliwy z oliwek (15 ml)</li>
+<li>30 g drobno startego parmezanu</li>
+<li>1 łyżka posiekanej świeżej pietruszki</li>
+<li>Fleur de sel</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Umyj ziemniaki bez obierania (skórka dodaje chrupkości). Pokrój w słupki o <strong>grubości 0,8 cm</strong>.</li>
+<li>Namocz w zimnej wodzie przez <strong>30 minut</strong>, odsącz i osusz.</li>
+<li>Wymieszaj wyłącznie z oliwą (olej truflowy dodasz po smażeniu).</li>
+<li>Rozgrzej frytkownicę do <strong>180 °C przez 3 minuty</strong>.</li>
+<li>Smaż w <strong>180 °C przez 10 minut</strong>, wstrząśnij, a następnie <strong>200 °C przez 8 minut</strong>.</li>
+<li>Zaraz po wyjęciu z kosza polej olejem truflowym, posyp parmezanem i pietruszką.</li>
+<li>Dopraw fleur de sel i podaj bez zwłoki.</li>
+</ol>
+<h3>Wskazówki szefa kuchni</h3>
+<p><strong>Nigdy</strong> nie poddawaj oleju truflowego obróbce cieplnej: wysoka temperatura niszczy jego delikatne aromaty. Dodawaj go zawsze na koniec smażenia. Odmiana Ratte, o zwartym miąższu i orzechowym smaku, idealnie nadaje się do tego wykwintnego przepisu.</p>
+
+<h2>7. Frytki po belgijsku (podwójne smażenie)</h2>
+<h3>Składniki</h3>
+<ul>
+<li>600 g ziemniaków Bintje</li>
+<li>2 łyżki oleju słonecznikowego (30 ml)</li>
+<li>1 łyżeczka soli</li>
+</ul>
+<h3>Przygotowanie</h3>
+<ol>
+<li>Obierz i pokrój ziemniaki w grube słupki o <strong>grubości 1,2 do 1,5 cm</strong>: frytki belgijskie są grubsze niż francuskie.</li>
+<li>Namocz w zimnej wodzie przez <strong>1 godzinę</strong>, wymień wodę po 30 minutach.</li>
+<li>Odsącz i bardzo dokładnie osusz.</li>
+<li>Wymieszaj z 1 łyżką oleju.</li>
+<li><strong>Pierwsze smażenie:</strong> rozgrzej do <strong>160 °C</strong>, a następnie smaż przez <strong>15 minut</strong>. Frytki powinny być ugotowane, ale jeszcze nie złote.</li>
+<li>Wyjmij frytki z kosza i zostaw je na <strong>10 minut</strong> w temperaturze pokojowej.</li>
+<li>Dodaj drugą łyżkę oleju.</li>
+<li><strong>Drugie smażenie:</strong> zwiększ temperaturę do <strong>200 °C</strong> i smaż przez <strong>8 do 10 minut</strong>, aż uzyskasz równomierny złoty kolor.</li>
+</ol>
+<h3>Wskazówki szefa kuchni</h3>
+<p>Podwójne smażenie to sekret autentycznych belgijskich frytkarni. Pierwsze smażenie dopieka środek, drugie nadaje chrupkości zewnętrznej warstwie. Odpoczynek między etapami pozwala wilgoci z wnętrza przejść na powierzchnię, co gwarantuje ultrachrupiący efekt. Do tradycyjnego dodatku przygotuj domowy majonez.</p>
+
+<h2>Tabela zbiorcza czasów i temperatur</h2>
+<table>
+<thead>
+<tr><th>Przepis</th><th>Temperatura</th><th>Całkowity czas</th><th>Ilość</th></tr>
+</thead>
+<tbody>
+<tr><td>Frytki klasyczne</td><td>180 °C, potem 200 °C</td><td>18-20 min</td><td>500 g</td></tr>
+<tr><td>Słodkie ziemniaki</td><td>190 °C, potem 200 °C</td><td>13-15 min</td><td>500 g</td></tr>
+<tr><td>Polenta</td><td>200 °C</td><td>12-15 min</td><td>250 g polenty</td></tr>
+<tr><td>Cukinia</td><td>200 °C</td><td>10-12 min</td><td>600 g</td></tr>
+<tr><td>Awokado</td><td>190 °C</td><td>8-10 min</td><td>2 awokado</td></tr>
+<tr><td>Truflowe</td><td>180 °C, potem 200 °C</td><td>18 min</td><td>500 g</td></tr>
+<tr><td>Belgijskie (podwójne smażenie)</td><td>160 °C, potem 200 °C</td><td>23-25 min + odpoczynek</td><td>600 g</td></tr>
+</tbody>
+</table>
+
+<h2>Ogólne wskazówki na idealne frytki z frytkownicy beztłuszczowej</h2>
+<p>Niezależnie od wybranego przepisu obowiązuje kilka uniwersalnych zasad, które pozwalają uzyskać idealne frytki z frytkownicy beztłuszczowej:</p>
+<ul>
+<li><strong>Zawsze susz frytki</strong>: wilgoć blokuje reakcję Maillarda, która tworzy złotą chrupiącą skórkę.</li>
+<li><strong>Nie przepełniaj kosza</strong>: gorące powietrze musi swobodnie krążyć wokół każdej frytki. W razie potrzeby smaż w kilku partiach.</li>
+<li><strong>Wstrząśnij koszem w połowie smażenia</strong>: dzięki temu frytki zrumienią się równomiernie ze wszystkich stron.</li>
+<li><strong>Zawsze rozgrzewaj frytkownicę</strong>: zwykle wystarczą 3 minuty.</li>
+<li><strong>Używaj mało oleju</strong>: 1 łyżka na 500 g w zupełności wystarczy. Spray do oleju zapewnia równomierniejsze rozprowadzenie.</li>
+</ul>
+<p>Chcesz więcej? Zobacz nasze <a href="/pl/blog/recettes-poulet-croustillant-airfryer">przepisy na chrupiącego kurczaka z frytkownicy beztłuszczowej</a>, które doskonale pasują do tych frytek, albo przewodnik o <a href="/pl/blog/cuisiner-healthy-airfryer">lekkim gotowaniu we frytkownicy beztłuszczowej</a>. Sprawdź też <a href="/pl/blog/top-10-accessoires-airfryer">10 najlepszych akcesoriów do frytkownicy beztłuszczowej</a>, które ułatwią przygotowanie potraw.</p>
+
+<h2>Porównanie wartości odżywczych: frytkownica beztłuszczowa i tradycyjna frytownica</h2>
+<table>
+<thead><tr><th>Przepis (200 g)</th><th>Kalorie – beztłuszczowa</th><th>Kalorie – tradycyjna</th><th>Tłuszcz – beztłuszczowa</th><th>Tłuszcz – tradycyjna</th><th>Oszczędność kalorii</th></tr></thead>
+<tbody>
+<tr><td>Frytki klasyczne</td><td>290 kcal</td><td>580 kcal</td><td>8 g</td><td>30 g</td><td>-50%</td></tr>
+<tr><td>Słodkie ziemniaki</td><td>260 kcal</td><td>520 kcal</td><td>7 g</td><td>26 g</td><td>-50%</td></tr>
+<tr><td>Panierowana cukinia</td><td>230 kcal</td><td>420 kcal</td><td>8 g</td><td>26 g</td><td>-45%</td></tr>
+<tr><td>Frytki truflowe</td><td>330 kcal</td><td>600 kcal</td><td>14 g</td><td>32 g</td><td>-45%</td></tr>
+<tr><td>Frytki belgijskie</td><td>300 kcal</td><td>580 kcal</td><td>9 g</td><td>30 g</td><td>-48%</td></tr>
+</tbody>
+</table>
+<p><em>Wartości orientacyjne, szacowane dla porcji 200 g i wyliczone na podstawie ilości oleju w przepisach: zależą od odmiany, sposobu krojenia i ilości wchłoniętego oleju.</em></p>
+
+<h2>Domowe sosy w 5 minut: najlepsze dodatki</h2>
+<ul>
+<li><strong>Lekki aioli:</strong> 2 łyżki jogurtu greckiego + 1 starty ząbek czosnku + sól. Idealny do klasycznych frytek.</li>
+<li><strong>Sos chipotle:</strong> lekki majonez + chipotle w proszku + sok z limonki. Doskonały do frytek ze słodkich ziemniaków.</li>
+<li><strong>Sos truflowo-parmezanowy:</strong> gęsta śmietana + kilka kropel oleju truflowego + starty parmezan. Wyłącznie do frytek truflowych.</li>
+<li><strong>Sos wasabi-sezam:</strong> serek homogenizowany + wasabi + prażony sezam. Doskonale pasuje do frytek z awokado.</li>
+<li><strong>Pikantny sos pomidorowy:</strong> passata pomidorowa + płatki chili + świeża bazylia. Klasyk do frytek z cukinii.</li>
+</ul>`,
   },
   faq: [
     {
@@ -1131,6 +1347,7 @@ export const article: BlogArticle = {
         es: '¿Es mejor usar patatas congeladas o frescas en la freidora de aire?',
         it: 'È meglio usare patatine surgelate o fresche nella friggitrice ad aria?',
         nl: 'Is het beter om diepvriesfrietjes of verse frietjes te gebruiken in de airfryer?',
+        pl: 'Czy lepiej używać mrożonych, czy świeżych frytek we frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Les deux fonctionnent très bien. Les frites fraîches offrent un meilleur goût et une texture supérieure, surtout après trempage dans l\'eau. Les surgelées sont plus pratiques et cuisent directement sans préparation. Ajoutez 2-3 minutes au temps de cuisson pour les surgelées et secouez le panier à mi-cuisson.',
@@ -1139,6 +1356,7 @@ export const article: BlogArticle = {
         es: 'Ambas funcionan muy bien. Las frescas ofrecen mejor sabor y textura superior, especialmente tras remojarlas. Las congeladas son más prácticas y se cocinan directamente sin preparación. Añade 2-3 minutos al tiempo de cocción para las congeladas y agita la cesta a mitad de cocción.',
         it: 'Entrambe funzionano molto bene. Le patatine fresche offrono gusto migliore e texture superiore, soprattutto dopo ammollo in acqua. Le surgelate sono più pratiche e cuociono direttamente senza preparazione. Aggiungi 2-3 minuti al tempo di cottura per le surgelate e scuoti il cestello a metà.',
         nl: 'Beide werken prima. Verse frietjes bieden betere smaak en superieure textuur, vooral na weken in water. Diepvriesfrietjes zijn praktischer en bereid je direct zonder voorbereiding. Voeg 2-3 minuten toe aan de baktijd voor diepvries en schud de mand halverwege voor gelijkmatige krokant.',
+        pl: 'Obie opcje sprawdzają się bardzo dobrze. Świeże frytki mają lepszy smak i lepszą teksturę, zwłaszcza po namoczeniu w wodzie. Mrożone są wygodniejsze i smaży się je od razu, bez przygotowania. W przypadku mrożonych dodaj 2-3 minuty do czasu smażenia i wstrząśnij koszem w połowie.',
       },
     },
     {
@@ -1149,6 +1367,7 @@ export const article: BlogArticle = {
         es: '¿Cuánto tiempo hay que remojar las patatas antes de freírlas?',
         it: 'Quanto tempo bisogna mettere a bagno le patate prima di cuocerle?',
         nl: 'Hoe lang moet je aardappelen weken voordat je ze bakt?',
+        pl: 'Jak długo moczyć ziemniaki przed smażeniem?',
       },
       answer: {
         fr: 'Trempez les frites coupées dans l\'eau froide pendant 30 minutes minimum, idéalement 1 à 2 heures. Cela élimine l\'amidon de surface qui empêche le croustillant. Pour un résultat optimal, changez l\'eau quand elle devient trouble. Séchez soigneusement les frites avant de les huiler et de les enfourner.',
@@ -1157,6 +1376,7 @@ export const article: BlogArticle = {
         es: 'Remoja las patatas cortadas en agua fría durante 30 minutos mínimo, idealmente 1-2 horas. Esto elimina el almidón superficial que impide lo crujiente. Para un resultado óptimo, cambia el agua cuando se enturbie. Seca las patatas cuidadosamente antes de aceitarlas y meterlas en la cesta.',
         it: 'Metti a bagno le patatine tagliate in acqua fredda per almeno 30 minuti, idealmente 1-2 ore. Questo rimuove l\'amido superficiale che impedisce la croccantezza. Per risultati ottimali, cambia l\'acqua quando diventa torbida. Asciuga accuratamente le patatine prima di oliarle e infornarle.',
         nl: 'Week gesneden frietjes minimaal 30 minuten in koud water, idealiter 1-2 uur. Dit verwijdert het oppervlaktezetmeel dat krokant worden verhindert. Voor optimaal resultaat vervang je het water als het troebel wordt. Dep de frietjes grondig droog voordat je ze oliet en in de mand legt.',
+        pl: 'Pokrojone frytki moczy się w zimnej wodzie minimum 30 minut, najlepiej 1 do 2 godzin. Usuwa to skrobię z powierzchni, która przeszkadza w uzyskaniu chrupkości. Dla najlepszego efektu zmień wodę, gdy zrobi się mętna. Przed natłuszczeniem i włożeniem do urządzenia dokładnie osusz frytki.',
       },
     },
     {
@@ -1167,6 +1387,7 @@ export const article: BlogArticle = {
         es: '¿Qué variedades de patata son mejores para las fritas en freidora de aire?',
         it: 'Quali varietà di patate sono migliori per le patatine nella friggitrice ad aria?',
         nl: 'Welke aardappelrassen zijn het beste voor frietjes uit de airfryer?',
+        pl: 'Jakie odmiany ziemniaków są najlepsze na frytki z frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Les variétés spéciales frites comme la Bintje et l\'Agria sont idéales : riches en amidon, elles deviennent croustillantes à l\'extérieur et moelleuses à l\'intérieur. La Maris Piper fonctionne aussi très bien. Évitez les pommes de terre nouvelles, trop aqueuses. Pour les frites de patate douce, choisissez des tubercules fermes et réguliers.',
@@ -1175,6 +1396,7 @@ export const article: BlogArticle = {
         es: 'Las variedades aptas para freír como Bintje y Agria son ideales: quedan crujientes por fuera y tiernas por dentro. La Maris Piper también funciona muy bien. Evita las patatas nuevas, con demasiada agua. Para las de boniato, elige tubérculos firmes y regulares.',
         it: 'Le varietà adatte alla frittura come Bintje e Agria sono ideali: restano croccanti fuori e morbide dentro. La Maris Piper funziona molto bene. Evita le patate novelle, troppo ricche d\'acqua. Per le patatine di patata dolce, scegli tuberi sodi e regolari.',
         nl: 'Kruimige frietrassen zoals Bintje en Agria zijn ideaal: krokant van buiten en zacht van binnen. Maris Piper werkt ook uitstekend. Vermijd nieuwe aardappelen, die te veel water bevatten. Voor zoete aardappelfrietjes kies je stevige, regelmatig gevormde knollen.',
+        pl: 'Idealne są odmiany przeznaczone na frytki, jak Bintje i Agria: bogate w skrobię, stają się chrupiące z zewnątrz i miękkie w środku. Bardzo dobrze sprawdza się też Maris Piper. Unikaj młodych ziemniaków, które są zbyt wodniste. Do frytek ze słodkich ziemniaków wybieraj jędrne, równe bulwy.',
       },
     },
     {
@@ -1185,6 +1407,7 @@ export const article: BlogArticle = {
         es: '¿Cómo conseguir patatas ultra crujientes en la freidora de aire?',
         it: 'Come ottenere patatine ultra croccanti nella friggitrice ad aria?',
         nl: 'Hoe krijg je ultra krokante frietjes in de airfryer?',
+        pl: 'Jak uzyskać ultrachrupiące frytki z frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Cinq secrets pour des frites ultra croustillantes : trempage d\'au moins 30 minutes, séchage parfait, fine couche d\'huile au spray, cuisson en deux temps (160°C puis 200°C), et panier jamais rempli à plus des deux tiers. La double cuisson est la technique qui fait la plus grande différence dans le résultat final.',
@@ -1193,6 +1416,7 @@ export const article: BlogArticle = {
         es: 'Cinco secretos para patatas ultra crujientes: remojo de al menos 30 minutos, secado perfecto, fina capa de spray de aceite, cocción en dos tiempos (160°C luego 200°C) y cesta nunca más de dos tercios llena. La doble cocción marca la mayor diferencia en el resultado final.',
         it: 'Cinque segreti per patatine ultra croccanti: ammollo di almeno 30 minuti, asciugatura perfetta, sottile strato di spray d\'olio, cottura in due fasi (160°C poi 200°C) e cestello mai riempito oltre i due terzi. La doppia cottura fa la differenza più grande nel risultato finale.',
         nl: 'Vijf geheimen voor ultra krokante frietjes: minstens 30 minuten weken, perfect drogen, dunne laag oliespray, bakken in twee fasen (160°C dan 200°C) en de mand nooit meer dan tweederde vullen. De dubbele baktechniek maakt het grootste verschil in het eindresultaat.',
+        pl: 'Pięć sekretów ultrachrupiących frytek: moczenie przez co najmniej 30 minut, idealne osuszenie, cienka warstwa oleju z sprayu, smażenie dwuetapowe (160°C, potem 200°C) i kosz wypełniony najwyżej do dwóch trzecich. Podwójne smażenie to technika, która najbardziej wpływa na końcowy efekt.',
       },
     },
     {
@@ -1203,6 +1427,7 @@ export const article: BlogArticle = {
         es: '¿Se pueden recalentar patatas fritas en la freidora de aire?',
         it: 'Si possono riscaldare le patatine nella friggitrice ad aria?',
         nl: 'Kun je frietjes opwarmen in de airfryer?',
+        pl: 'Czy można odgrzewać frytki we frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Oui, l\'airfryer est la meilleure méthode pour réchauffer des frites. Réglez à 180°C pendant 3 à 5 minutes. Les frites retrouvent leur croustillant comme si elles venaient d\'être cuites, contrairement au micro-ondes qui les ramollit. Pas besoin d\'ajouter d\'huile. Cette technique fonctionne aussi pour les restes de restaurant.',
@@ -1211,6 +1436,7 @@ export const article: BlogArticle = {
         es: 'Sí, la freidora de aire es el mejor método para recalentar patatas. Pon a 180°C durante 3-5 minutos. Las patatas recuperan su crujiente como recién hechas, a diferencia del microondas que las ablanda. No hace falta añadir aceite. También funciona perfectamente con sobras de restaurante.',
         it: 'Sì, la friggitrice ad aria è il metodo migliore per riscaldare le patatine. Imposta a 180°C per 3-5 minuti. Le patatine ritrovano la loro croccantezza come appena cotte, a differenza del microonde che le ammorbidisce. Non serve aggiungere olio. Funziona perfettamente anche con gli avanzi del ristorante.',
         nl: 'Ja, de airfryer is de beste methode om frietjes op te warmen. Stel in op 180°C voor 3-5 minuten. De frietjes worden weer krokant alsof ze net gebakken zijn, in tegenstelling tot de magnetron die ze slap maakt. Geen olie nodig. Dit werkt ook perfect voor restjes van het restaurant.',
+        pl: 'Tak, frytkownica beztłuszczowa to najlepszy sposób na odgrzanie frytek. Ustaw 180°C na 3 do 5 minut. Frytki odzyskują chrupkość, jakby dopiero co je usmażono, w przeciwieństwie do mikrofalówki, która je rozmiękcza. Nie trzeba dodawać oleju. Ta metoda działa też na resztki z restauracji.',
       },
     },
   ],

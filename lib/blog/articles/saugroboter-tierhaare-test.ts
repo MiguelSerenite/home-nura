@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Robot aspirador para pelo de mascotas limpiando una alfombra con perro y gato cerca',
         it: 'Robot aspirapolvere per peli di animali pulisce un tappeto con cane e gatto vicino',
         nl: 'Saugroboter voor dierenharen die een tapijt reinigt met hond en kat ernaast',
+        pl: 'Robot odkurzający na sierść zwierząt czyści dywan, w pobliżu pies i kot',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Saugroboter für Tierhaare im Vergleich 2026: comparativa especial mascotas',
     it: 'Saugroboter für Tierhaare im Vergleich 2026: il confronto per cani e gatti',
     nl: 'Saugroboter für Tierhaare im Vergleich 2026: de vergelijking voor hond & kat',
+    pl: 'Robot odkurzający na sierść zwierząt 2026: porównanie dla właścicieli psów i kotów',
   },
   excerpt: {
     fr: 'Quel Saugroboter pour les poils d\'animaux ? Comparatif 2026 : puissance d\'aspiration en Pa, brosse anti-enchevêtrement, station d\'auto-vidage, filtre HEPA pour allergiques. Roborock, Ecovacs, Dreame et iRobot pour chiens et chats.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: '¿Qué Saugroboter para pelo de mascotas? Comparativa 2026: potencia de succión en Pa, cepillo anti-enredo, estación de autovaciado, filtro HEPA para alérgicos. Roborock, Ecovacs, Dreame e iRobot para perros y gatos.',
     it: 'Quale Saugroboter per i peli di animali? Confronto 2026: potenza di aspirazione in Pa, spazzola anti-groviglio, stazione di autosvuotamento, filtro HEPA per allergici. Roborock, Ecovacs, Dreame e iRobot per cani e gatti.',
     nl: 'Welke Saugroboter voor dierenharen? Vergelijking 2026: zuigkracht in Pa, anti-klit borstel, zelfleegstation, HEPA-filter voor allergiepatiënten. Roborock, Ecovacs, Dreame en iRobot voor hond en kat.',
+    pl: 'Jaki robot odkurzający wybrać na sierść zwierząt? Porównanie 2026: siła ssania w Pa, szczotka przeciw splątaniu, stacja opróżniająca, filtr HEPA dla alergików. Roborock, Ecovacs, Dreame i iRobot dla psów i kotów.',
   },
   content: {
     de: `<h2>Warum ein spezieller Saugroboter für Tierhaare unverzichtbar ist</h2>
@@ -449,6 +452,71 @@ export const article: BlogArticle = {
 
 <h2>Conclusie</h2>
 <p>De beste robotstofzuiger voor dierenharen is degene die bij jouw huishouden past. De beste keuze voor de meeste huishoudens is de <strong>Roborock S8 MaxV Ultra</strong>. Voor maximale zuigkracht op veel tapijten: <strong>Dreame X40 Ultra</strong> of <strong>Roborock Saros Z70</strong>. Budgetbewuste huisdiereigenaren zitten goed met de <strong>Ecovacs Deebot T30 Pro Omni</strong>, en de meest klitbestendige borstel komt van de <strong>iRobot Roomba Max 705 Vac</strong>. Onthoud altijd de drie kerncriteria: voldoende zuigkracht in Pa, een echte anti-klit borstel en een zelfleegstation — dan zijn dierenharen eindelijk geen dagelijks probleem meer.</p>`,
+    pl: `<h2>Dlaczego robot odkurzający stworzony na sierść zwierząt jest niezbędny</h2>
+<p>Jeśli mieszkasz z psem lub kotem, znasz ten problem: sierść jest wszędzie. Na kanapie, w dywanach, pod meblami i w każdym zakamarku. Zwykły robot odkurzający szybko sobie z tym nie radzi: szczotka plącze się po kilku dniach, pojemnik jest pełny po jednym sprzątaniu, a zabrudzony filtr obniża siłę ssania. Domy ze zwierzętami potrzebują robota zaprojektowanego specjalnie do tak dużej ilości sierści.</p>
+<p>W tym porównaniu wskazujemy kryteria, które naprawdę decydują, modele, które przekonują w 2026 roku, oraz to, na co powinny zwrócić uwagę osoby z alergią. Szerszy przegląd znajdziesz też w naszym <a href="/pl/blog/robot-aspirateur-poils-animaux">kompletnym poradniku o robotach odkurzających na sierść zwierząt</a>.</p>
+<p>Różnicę między zwykłym modelem a prawdziwym specjalistą od sierści zwierząt widać nie w karcie technicznej, lecz na co dzień. Dobry robot dla psa i kota zdejmuje z Ciebie codzienny obowiązek: kiedy pracujesz albo jesteś poza domem, urządzenie pokonuje swoje trasy, zbiera sierść i łupież, a potem samo wraca do stacji. Odpowiednią klasę urządzenia poznasz po trzech elementach, które muszą działać razem: dużej sile ssania, przemyślanym mechanizmie przeciw splątywaniu i bezobsługowym opróżnianiu dzięki stacji opróżniającej. Gdy zabraknie choćby jednego z nich, robot szybko rozczarowuje w domu ze zwierzętami.</p>
+<p>Porównujemy najważniejsze modele Roborock, Ecovacs Deebot, Dreame i iRobot Roomba na podstawie kart technicznych producentów, opublikowanych niezależnych testów i zweryfikowanych opinii kupujących, aby uniknąć wydania kilku tysięcy złotych na robota, który nie poradzi sobie z sierścią Twojego pupila.</p>
+
+<h2>Kluczowe kryteria wyboru robota odkurzającego dla psa i kota</h2>
+<h3>Siła ssania: minimum 10 000 Pa</h3>
+<p>Siłę ssania wyraża się w paskalach (Pa). Cienka i długa sierść wnika głęboko we włókna dywanów. Aby ją wyciągnąć, potrzeba <strong>10 000 Pa lub więcej</strong>. Modele o mocy 5000–6000 Pa wystarczają na twardych podłogach, ale na tekstyliach pokazują swoje ograniczenia. Modele z najwyższej półki osiągają dziś 18 000–22 000 Pa.</p>
+<p>Warto wiedzieć: sama wartość w Pa to nie wszystko. Liczy się połączenie ssania, konstrukcji szczotki i szczelności kanału powietrznego. Dobrze uszczelniony model o mocy 10 000 Pa może zebrać więcej sierści niż urządzenie 16 000 Pa, w którym strumień powietrza ucieka bokami. Cenne jest także automatyczne zwiększanie mocy ssania na dywanach: robot rozpoznaje podłoże i przechodzi na maksymalną moc, gdy tylko zjedzie z twardej podłogi na dywan. Oszczędza to baterię, a jednocześnie zapewnia skuteczne wyciąganie sierści tam, gdzie jest to potrzebne.</p>
+<h3>Szczotka przeciw splątywaniu: guma zamiast włosia</h3>
+<p>To kryterium numer jeden. Szczotka z nylonowym włosiem bardzo szybko plącze się z długą sierścią. Najlepsze szczotki są <strong>gumowe</strong> (iRobot) albo wyposażone w system przeciw splątywaniu <strong>DuoRoller</strong> (Roborock, Dreame, Ecovacs ZeroTangle). Wyciągają sierść, nie nawijając jej na oś.</p>
+<p>Różnica na co dzień jest ogromna: przy zwykłej szczotce z włosiem trzeba czasem codziennie usuwać splątaną sierść za pomocą narzędzia tnącego — to obowiązek, który szybko zniechęca. Dobra gumowa szczotka lub system dwóch przeciwbieżnych wałków przeciwnie: spycha sierść w stronę otworu ssącego, zamiast ją nawijać. Jeśli masz psa o długiej sierści albo kota z gęstym podszerstkiem, zwróć na ten szczegół szczególną uwagę: w dużej mierze od niego zależy, czy robot naprawdę odciąży Cię na co dzień.</p>
+<h3>Duży pojemnik i stacja opróżniająca</h3>
+<p>Przy zwierzęciu pojemnik zapełnia się po 1–2 sprzątaniach, a w domu bez zwierząt dopiero po 4–5. Lepszy jest duży pojemnik o pojemności <strong>350–450 ml</strong>, ale <strong>stacja opróżniająca</strong> jest praktycznie koniecznością: zasysa sierść do worka o pojemności 2,5–3,5 litra, który wymienia się dopiero co 3–6 tygodni. Bez stacji musiałbyś opróżniać pojemnik ręcznie po niemal każdym przejeździe, co całkowicie niweczy sens automatyzacji. Dla alergików dodatkowym atutem jest zamknięty worek: wyjmujesz go bez bezpośredniego kontaktu z kurzem i alergenami.</p>
+<h3>Filtr HEPA: decydujący dla alergików</h3>
+<p><strong>Filtr HEPA</strong> zatrzymuje 99,97 % cząstek o wielkości 0,3 mikrona i większych, w tym alergeny zwierzęce. Jest niezbędny dla alergików (klasa minimum E11, najlepiej E12).</p>
+<h3>Nawigacja LiDAR</h3>
+<p><strong>Nawigacja LiDAR</strong> zapewnia metodyczne i kompletne sprzątanie, bez pomijania stref. Przy zwierzętach kluczowe jest codzienne harmonogramowanie.</p>
+
+<h2>Porównanie: najlepsze roboty odkurzające na sierść zwierząt 2026</h2>
+<table>
+<thead>
+<tr><th>Model</th><th>Ssanie (Pa)</th><th>Przeciw splątywaniu</th><th>Auto-opróżnianie</th><th>Idealny dla</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Roborock S8 MaxV Ultra</strong></td><td>10 000 Pa</td><td>Tak (gumowy DuoRoller)</td><td>Tak</td><td>większości domów ze zwierzętami</td></tr>
+<tr><td><strong>Dreame X40 Ultra</strong></td><td>12 000 Pa</td><td>Tak (szczotka przeciw splątywaniu)</td><td>Tak</td><td>narożniki i listwy przypodłogowe</td></tr>
+<tr><td><strong>Ecovacs Deebot T30 Pro Omni</strong></td><td>11 000 Pa</td><td>Tak (ZeroTangle)</td><td>Tak</td><td>najlepszy stosunek jakości do ceny</td></tr>
+<tr><td><strong>iRobot Roomba Max 705 Vac</strong></td><td>b.d.</td><td>Tak (2 gumowe wałki)</td><td>Tak (AutoEmpty)</td><td>bardzo długa sierść</td></tr>
+<tr><td><strong>Roborock Saros Z70</strong></td><td>22 000 Pa</td><td>Tak (przeciw splątywaniu + ramię)</td><td>Tak</td><td>dużo dywanów, wyższa półka</td></tr>
+</tbody>
+</table>
+
+<h2>Nasza rekomendacja: Roborock S8 MaxV Ultra</h2>
+<p>Roborock S8 MaxV Ultra to nasza pierwsza rekomendacja dla domów z psem lub kotem. Jego <strong>gumowa szczotka DuoRoller</strong> ogranicza splątywanie sierści. Przy 10 000 Pa wyciąga sierść wnikającą w dywany. Stacja opróżniająca automatycznie opróżnia pojemnik, a także czyści nakładki mopujące. Nawigacja z kamerą wykrywa przeszkody (zabawki, miskę z wodą) i omija je, zamiast je popychać. W aplikacji możesz wyznaczyć strefy zakazane wokół miski.</p>
+
+<h2>Alternatywy w szczegółach</h2>
+<h3>Dreame X40 Ultra: mistrz ssania</h3>
+<p>Dzięki 12 000 Pa i głównej szczotce przeciw splątywaniu Dreame X40 Ultra doskonale nadaje się do ras długowłosych, takich jak golden retriever czy maine coon. Wysuwana szczotka boczna sięga narożników i krawędzi, gdzie sierść gromadzi się najbardziej.</p>
+<h3>Ecovacs Deebot T30 Pro Omni: najlepszy stosunek jakości do ceny</h3>
+<p>Deebot T30 Pro Omni oferuje 11 000 Pa, szczotkę ZeroTangle i stację opróżniającą w wyraźnie przystępniejszej cenie. Dla właścicieli zwierząt, którzy pilnują budżetu, to rozsądny wybór.</p>
+<h3>iRobot Roomba Max 705 Vac: najbardziej wytrzymała szczotka</h3>
+<p>iRobot stawia na <strong>dwa przeciwbieżne gumowe wałki</strong> bez włosia — to najpewniejsze rozwiązanie przeciw splątywaniu. Roomba Max 705 Vac świetnie radzi sobie z bardzo długą sierścią i intensywnym linieniem. Stacja AutoEmpty opróżnia pojemnik automatycznie.</p>
+
+<h2>Hałas i akceptacja przez zwierzę</h2>
+<p>Aspekt często niedoceniany to hałas. Wiele psów i niektóre koty na początku reagują nerwowo. Wybierz model z cichym trybem standardowym (ok. 55–60 dB) i zaplanuj pierwsze przejazdy w swojej obecności. Większość zwierząt akceptuje robota po jednym–dwóch tygodniach. Głośniejszy tryb turbo zostaw na godziny, kiedy nikogo nie ma w domu — aplikacja pozwala wszystko zautomatyzować.</p>
+
+<h2>Dywany a twarde podłogi</h2>
+<p>Na <strong>twardych podłogach</strong> (parkiet, panele, płytki) sierść leży na powierzchni: wystarczy umiarkowane ssanie i dobra szczotka, a nacisk kładzie się na czyszczenie krawędzi wzdłuż listew przypodłogowych. Na <strong>dywanach i wykładzinach</strong> sierść wnika głęboko — potrzebne jest mocne ssanie (10 000 Pa i więcej) oraz automatyczne wykrywanie dywanów ze zwiększeniem mocy. Wskazówka dla domów z różnymi rodzajami podłóg: sprawdź, czy robot unosi mopy po wjechaniu na dywan. Modele bez tej funkcji ciągną mokry mop po dywanie i wcierają sierść we włókna — to dokładnie odwrotność zamierzonego efektu. Dywany z długim włosiem pozostają największym wyzwaniem: w ich przypadku dopłata do modelu o mocy 16 000 Pa lub więcej prawie zawsze się opłaca.</p>
+
+<h2>Alergicy: czego powinien dostarczać robot</h2>
+<p>Dla <strong>alergików</strong> niezbędne jest połączenie filtra HEPA (minimum E11) i dobrze uszczelnionej obudowy. Stacja opróżniająca z workiem pozwala opróżniać zbiornik bez bezpośredniego kontaktu z kurzem. Codzienne sprzątanie trwale zmniejsza ilość alergenów.</p>
+
+<h2>Konserwacja: szczotka i filtr HEPA</h2>
+<ul>
+<li><strong>Szczotka:</strong> sprawdzaj ją co 1–2 tygodnie, płucz gumowe szczotki, usuwaj pozostałą sierść.</li>
+<li><strong>Szczotka boczna:</strong> długa sierść często się na niej owija, sprawdzaj ją co tydzień.</li>
+<li><strong>Filtr HEPA:</strong> otrzepuj go regularnie, myj filtry nadające się do prania co 4–6 tygodni, wymieniaj je co 2–3 miesiące.</li>
+<li><strong>Czujniki i koła:</strong> sierść gromadzi się na osiach kół, comiesięczna kontrola zapobiega blokadom.</li>
+</ul>
+<p>Dzięki tej rutynie siła ssania w Pa pozostaje stała, a robot skutecznie usuwa sierść przez wiele lat. Zobacz też nasze <a href="/pl/blog/comparatif-robot-aspirateur-laveur">porównanie robotów odkurzająco-mopujących</a>.</p>
+
+<h2>Podsumowanie</h2>
+<p>Najlepszym wyborem dla większości domów jest <strong>Roborock S8 MaxV Ultra</strong>. Dla maksymalnej siły ssania: <strong>Dreame X40 Ultra</strong> lub <strong>Saros Z70</strong>. Przy małym budżecie: <strong>Ecovacs Deebot T30 Pro Omni</strong>. Najpewniejsza szczotka: <strong>iRobot Roomba Max 705 Vac</strong>. Pamiętaj o trzech kluczowych kryteriach: sile ssania w Pa, szczotce przeciw splątywaniu i stacji opróżniającej.</p>`,
   },
   faq: [
     {
@@ -459,6 +527,7 @@ export const article: BlogArticle = {
         es: '¿Qué Saugroboter es el mejor para el pelo de mascotas?',
         it: 'Quale Saugroboter è il migliore per i peli di animali?',
         nl: 'Welke Saugroboter is het beste voor dierenharen?',
+        pl: 'Jaki robot odkurzający jest najlepszy na sierść zwierząt?',
       },
       answer: {
         fr: 'Pour la plupart des foyers, le Roborock S8 MaxV Ultra est notre premier choix : brosse DuoRoller en caoutchouc anti-emmêlement, 10 000 Pa et station d\'auto-vidage. Pour un maximum d\'aspiration sur tapis, le Dreame X40 Ultra (12 000 Pa) ou le Roborock Saros Z70 (22 000 Pa) sont préférables.',
@@ -467,6 +536,7 @@ export const article: BlogArticle = {
         es: 'Para la mayoría de los hogares, el Roborock S8 MaxV Ultra es nuestra primera opción: cepillo DuoRoller de goma anti-enredo, 10.000 Pa y estación de autovaciado. Para máxima succión en alfombras, el Dreame X40 Ultra (12.000 Pa) o el Roborock Saros Z70 (22.000 Pa) son preferibles.',
         it: 'Per la maggior parte delle case, il Roborock S8 MaxV Ultra è la nostra prima scelta: spazzola DuoRoller in gomma anti-groviglio, 10.000 Pa e stazione di autosvuotamento. Per la massima aspirazione sui tappeti, il Dreame X40 Ultra (12.000 Pa) o il Roborock Saros Z70 (22.000 Pa) sono preferibili.',
         nl: 'Voor de meeste huishoudens is de Roborock S8 MaxV Ultra onze topkeuze: anti-klit DuoRoller rubberen borstel, 10.000 Pa en zelfleegstation. Voor maximale zuigkracht op tapijt zijn de Dreame X40 Ultra (12.000 Pa) of Roborock Saros Z70 (22.000 Pa) te verkiezen.',
+        pl: 'Dla większości domów Roborock S8 MaxV Ultra to nasz pierwszy wybór: gumowa szczotka DuoRoller przeciw splątywaniu, 10 000 Pa i stacja opróżniająca. Przy maksymalnej sile ssania na dywanach lepszy będzie Dreame X40 Ultra (12 000 Pa) lub Roborock Saros Z70 (22 000 Pa).',
       },
     },
     {
@@ -477,6 +547,7 @@ export const article: BlogArticle = {
         es: '¿Se enreda el pelo de mascotas en el cepillo?',
         it: 'I peli di animali si aggrovigliano nella spazzola?',
         nl: 'Verstrikken dierenharen zich in de borstel?',
+        pl: 'Czy sierść zwierząt plącze się na szczotce?',
       },
       answer: {
         fr: 'Avec une brosse classique à poils en nylon, oui, très rapidement. C\'est pourquoi il faut une brosse anti-emmêlement en caoutchouc (iRobot) ou à système DuoRoller / ZeroTangle (Roborock, Dreame, Ecovacs). Ces brosses réduisent fortement l\'enroulement, mais un contrôle toutes les 1-2 semaines reste recommandé.',
@@ -485,6 +556,7 @@ export const article: BlogArticle = {
         es: 'Con un cepillo clásico de cerdas de nylon, sí, muy rápido. Por eso necesitas un cepillo anti-enredo de goma (iRobot) o con sistema DuoRoller / ZeroTangle (Roborock, Dreame, Ecovacs). Estos cepillos reducen mucho el enrollamiento, pero se recomienda revisarlos cada 1-2 semanas.',
         it: 'Con una spazzola classica a setole di nylon sì, molto rapidamente. Per questo serve una spazzola anti-groviglio in gomma (iRobot) o con sistema DuoRoller / ZeroTangle (Roborock, Dreame, Ecovacs). Queste spazzole riducono molto l\'avvolgimento, ma è consigliato un controllo ogni 1-2 settimane.',
         nl: 'Bij een klassieke borstel met nylonharen wel, zeer snel. Daarom heb je een anti-klit rubberen borstel (iRobot) of een DuoRoller / ZeroTangle-systeem (Roborock, Dreame, Ecovacs) nodig. Deze borstels verminderen het opwikkelen sterk, maar een controle elke 1-2 weken blijft aanbevolen.',
+        pl: 'Przy zwykłej szczotce z nylonowym włosiem tak, i to bardzo szybko. Dlatego potrzebna jest gumowa szczotka przeciw splątywaniu (iRobot) albo system DuoRoller / ZeroTangle (Roborock, Dreame, Ecovacs). Takie szczotki znacznie ograniczają nawijanie sierści, ale kontrola co 1–2 tygodnie nadal jest zalecana.',
       },
     },
     {
@@ -495,6 +567,7 @@ export const article: BlogArticle = {
         es: '¿Es realmente necesaria una estación de autovaciado (Absaugstation) con una mascota?',
         it: 'Una stazione di autosvuotamento (Absaugstation) è davvero necessaria con un animale?',
         nl: 'Is een zelfleegstation (Absaugstation) echt nodig met een huisdier?',
+        pl: 'Czy stacja opróżniająca jest naprawdę potrzebna, gdy mam zwierzę?',
       },
       answer: {
         fr: 'Pratiquement, oui. Avec un animal, le bac se remplit en 1-2 sessions. Sans station d\'auto-vidage, vous devriez vider le bac à la main presque après chaque passage, ce qui supprime l\'intérêt de l\'automatisation. La station aspire les poils dans un sac de 2,5-3,5 litres changé toutes les 3-6 semaines — idéal aussi pour les allergiques.',
@@ -503,6 +576,7 @@ export const article: BlogArticle = {
         es: 'Prácticamente, sí. Con una mascota, el depósito se llena en 1-2 sesiones. Sin estación de autovaciado, tendrías que vaciar el depósito a mano casi tras cada pasada, eliminando la ventaja de la automatización. La estación aspira el pelo a una bolsa de 2,5-3,5 litros que se cambia cada 3-6 semanas — ideal también para alérgicos.',
         it: 'Praticamente sì. Con un animale, il contenitore si riempie in 1-2 sessioni. Senza stazione di autosvuotamento dovresti svuotare il contenitore a mano quasi dopo ogni passaggio, vanificando il vantaggio dell\'automazione. La stazione aspira i peli in un sacchetto da 2,5-3,5 litri da cambiare ogni 3-6 settimane — ideale anche per gli allergici.',
         nl: 'Praktisch wel. Met een huisdier raakt de bak in 1-2 sessies vol. Zonder zelfleegstation zou je de bak na bijna elke rit met de hand moeten legen, wat het voordeel van automatisering tenietdoet. Het station zuigt het haar in een zak van 2,5-3,5 liter die je elke 3-6 weken vervangt — ook ideaal voor allergiepatiënten.',
+        pl: 'W praktyce tak. Przy zwierzęciu pojemnik zapełnia się po 1–2 sprzątaniach. Bez stacji opróżniającej musiałbyś opróżniać pojemnik ręcznie niemal po każdym przejeździe, co niweczy sens automatyzacji. Stacja zasysa sierść do worka o pojemności 2,5–3,5 litra, wymienianego co 3–6 tygodni — to idealne rozwiązanie także dla alergików.',
       },
     },
     {
@@ -513,6 +587,7 @@ export const article: BlogArticle = {
         es: '¿Cuántos Pa de succión necesito para alfombras?',
         it: 'Di quanti Pa di aspirazione ho bisogno per i tappeti?',
         nl: 'Hoeveel Pa zuigkracht heb ik nodig voor tapijten?',
+        pl: 'Ile Pa siły ssania potrzeba na dywany?',
       },
       answer: {
         fr: 'Pour extraire efficacement les poils incrustés dans les tapis, visez au minimum 10 000 Pa. Sur sols durs, 5 000-6 000 Pa suffisent, mais les poils s\'enfoncent dans les fibres textiles. Une détection automatique des tapis avec boost d\'aspiration est un vrai plus pour ne pas sacrifier l\'autonomie sur les sols durs.',
@@ -521,6 +596,7 @@ export const article: BlogArticle = {
         es: 'Para extraer eficazmente el pelo incrustado en alfombras, apunta a un mínimo de 10.000 Pa. En suelos duros, 5.000-6.000 Pa bastan, pero el pelo se hunde en las fibras textiles. La detección automática de alfombras con boost de succión es una gran ventaja para no sacrificar autonomía en suelos duros.',
         it: 'Per estrarre efficacemente i peli incastrati nei tappeti, punta ad almeno 10.000 Pa. Sui pavimenti duri bastano 5.000-6.000 Pa, ma i peli affondano nelle fibre tessili. Il rilevamento automatico dei tappeti con boost di aspirazione è un vero vantaggio per non sacrificare l\'autonomia sui pavimenti duri.',
         nl: 'Om haar dat diep in tapijten zit effectief te verwijderen, mik je op minimaal 10.000 Pa. Op harde vloeren volstaan 5.000-6.000 Pa, maar haar zakt weg in de textielvezels. Automatische tapijtdetectie met zuigkrachtboost is een echt pluspunt zodat je op harde vloeren geen accuduur opoffert.',
+        pl: 'Aby skutecznie wyciągać sierść wnikającą w dywany, celuj w minimum 10 000 Pa. Na twardych podłogach wystarczy 5000–6000 Pa, ale na tekstyliach sierść wnika we włókna. Automatyczne wykrywanie dywanów ze zwiększeniem mocy ssania to prawdziwy atut, bo nie zużywasz baterii na twardych podłogach.',
       },
     },
     {
@@ -531,6 +607,7 @@ export const article: BlogArticle = {
         es: '¿Es adecuado un Saugroboter para alérgicos?',
         it: 'Un Saugroboter è adatto agli allergici?',
         nl: 'Is een Saugroboter geschikt voor allergiepatiënten?',
+        pl: 'Czy robot odkurzający nadaje się dla alergików?',
       },
       answer: {
         fr: 'Oui, à condition de choisir un modèle avec un bon filtre HEPA (E11 minimum, idéalement E12) et un boîtier bien étanche. Combiné à une station d\'auto-vidage à sac, qui évite tout contact avec la poussière, et à un passage quotidien, un Saugroboter réduit durablement les allergènes (poils, squames, protéine Fel d 1) dans l\'air intérieur.',
@@ -539,6 +616,7 @@ export const article: BlogArticle = {
         es: 'Sí, siempre que elijas un modelo con un buen filtro HEPA (E11 mínimo, idealmente E12) y carcasa bien sellada. Combinado con una estación de autovaciado con bolsa, que evita el contacto con el polvo, y una pasada diaria, un Saugroboter reduce de forma duradera los alérgenos (pelo, caspa, proteína Fel d 1) del aire interior.',
         it: 'Sì, a patto di scegliere un modello con un buon filtro HEPA (E11 minimo, idealmente E12) e una scocca ben sigillata. Combinato con una stazione di autosvuotamento con sacchetto, che evita ogni contatto con la polvere, e un passaggio quotidiano, un Saugroboter riduce in modo duraturo gli allergeni (peli, forfora, proteina Fel d 1) nell\'aria interna.',
         nl: 'Ja, mits je een model kiest met een goed HEPA-filter (E11 minimaal, idealiter E12) en een goed afgedichte behuizing. Gecombineerd met een zelfleegstation met zak, dat elk contact met stof vermijdt, en een dagelijkse rit, vermindert een Saugroboter de allergenen (haar, huidschilfers, Fel d 1-eiwit) in de binnenlucht duurzaam.',
+        pl: 'Tak, pod warunkiem że wybierzesz model z dobrym filtrem HEPA (minimum E11, najlepiej E12) i szczelną obudową. W połączeniu ze stacją opróżniającą z workiem, która eliminuje kontakt z kurzem, oraz z codziennym sprzątaniem robot trwale zmniejsza ilość alergenów (sierść, łupież, białko Fel d 1) w powietrzu w pomieszczeniach.',
       },
     },
   ],

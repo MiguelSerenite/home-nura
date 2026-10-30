@@ -6,6 +6,7 @@ describe('suggestLocaleForCountry', () => {
     expect(suggestLocaleForCountry('ES', 'en')).toBe('es')
     expect(suggestLocaleForCountry('de', 'fr')).toBe('de')
     expect(suggestLocaleForCountry('BE', 'en')).toBe('fr')
+    expect(suggestLocaleForCountry('PL', 'en')).toBe('pl')
   })
 
   it('suggests nothing when the visitor already reads the country locale', () => {

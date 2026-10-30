@@ -18,6 +18,7 @@ export const article: BlogArticle = {
         es: 'Freidora de aire negra con temporizador y termostato, un aparato que consume menos energía que el horno',
         it: 'Friggitrice ad aria nera con timer e termostato, un apparecchio che consuma meno energia del forno',
         nl: 'Zwarte airfryer met timer en temperatuurknop, een apparaat dat minder energie verbruikt dan de oven',
+        pl: 'Czarna frytkownica beztłuszczowa z minutnikiem i termostatem, urządzenie oszczędniejsze w zużyciu energii niż piekarnik',
       },
     },
   ],
@@ -28,6 +29,7 @@ export const article: BlogArticle = {
     es: 'Consumo Eléctrico de la Freidora de Aire: el Coste Real (2026)',
     it: 'Consumo Elettrico della Friggitrice ad Aria: il Costo Reale (2026)',
     nl: 'Stroomverbruik van de Airfryer: de Echte Kosten Uitgelegd (2026)',
+    pl: 'Frytkownica beztłuszczowa: zużycie prądu i rzeczywisty koszt energii (2026)',
   },
   excerpt: {
     fr: 'Combien consomme vraiment une airfryer ? Calcul du Stromverbrauch en kWh, coût annuel avec un tarif d\'exemple de 0,35 €/kWh, comparaison vs four et friteuse, et modèles les plus économes.',
@@ -36,6 +38,7 @@ export const article: BlogArticle = {
     es: '¿Cuánta electricidad consume realmente una freidora de aire? kWh por uso, coste anual con una tarifa de ejemplo de 0,35 €/kWh, comparación vs horno y freidora, y los modelos más eficientes.',
     it: 'Quanta elettricità consuma davvero una friggitrice ad aria? kWh per utilizzo, costo annuo con una tariffa di esempio di 0,35 €/kWh, confronto con forno e friggitrice e i modelli più efficienti.',
     nl: 'Hoeveel stroom verbruikt een airfryer echt? kWh per keer, jaarlijkse kosten tegen een voorbeeldtarief van € 0,35/kWh, vergelijking met oven en frituur, en de zuinigste modellen.',
+    pl: 'Ile naprawdę zużywa frytkownica beztłuszczowa? Obliczenie zużycia prądu w kWh, koszt roczny przy przykładowej stawce 1,50 zł/kWh, porównanie z piekarnikiem i frytownicą oraz najbardziej oszczędne modele.',
   },
   content: {
     de: `<h2>Heißluftfritteuse Stromverbrauch: die wichtigste Frage zuerst</h2>
@@ -671,6 +674,103 @@ export const article: BlogArticle = {
 <h2>Conclusie</h2>
 <p>Zelfs met hoge stroomprijzen blijft de airfryer een van de goedkoopste kookmethodes voor kleine tot middelgrote porties: ongeveer 0,3-0,5 kWh per keer en bescheiden jaarlijkse kosten (zo'n € 22 bij drie keer per week).</p>
 <p>Laat je niet afschrikken door het hoge vermogen op het label. Wat telt is het werkelijke verbruik in kWh, en dat blijft laag dankzij korte bereidingstijden, een klein volume en weinig tot geen voorverwarmen. Door een efficiënt model te kiezen en een paar simpele tips toe te passen, houd je de stroomkosten op lange termijn minimaal, zelfs bij hoge tarieven.</p>`,
+    pl: `<h2>Ile naprawdę zużywa frytkownica beztłuszczowa? Odpowiedź w liczbach</h2>
+<p>Niemcy mają jedne z najwyższych cen prądu w Europie, ale pytanie o rzeczywisty koszt frytkownicy beztłuszczowej dotyczy wszystkich gospodarstw domowych. Dobra wiadomość: mimo wysokiej mocy podanej na urządzeniu frytkownica beztłuszczowa w praktyce zużywa niewiele. Licz mniej więcej na <strong>0,3 do 0,5 kWh na jedno użycie</strong>, czyli zaledwie 45 do 75 groszy za prąd na jedno gotowanie, zależnie od Twojej stawki.</p>
+<p><strong>Przyjęta metoda:</strong> wszystkie przykłady kosztów w tym poradniku używają <strong>przykładowej stawki ok. 1,50 zł/kWh</strong>. Twoja własna cena za kWh widnieje na rachunku i może być wyższa lub niższa. Aby obliczyć rzeczywisty koszt, wystarczy pomnożyć podane kWh przez swoją cenę za kWh.</p>
+
+<h2>Moc podana na urządzeniu ≠ rzeczywiste zużycie</h2>
+<p>Najczęstszy błąd polega na odczytaniu mocy (na przykład 1700 W) i uznaniu, że urządzenie zużywa 1,7 kWh na godzinę. W rzeczywistości moc wskazuje tylko maksymalny pobór grzałki przy pełnym obciążeniu.</p>
+<p>Grzałka pracuje cyklicznie: wyłącza się, gdy osiągnięta jest temperatura docelowa, i włącza ponownie, gdy ta spada. Przy typowym gotowaniu jest aktywna tylko przez 50 do 70 % czasu. Poza tym większość dań jest gotowa w 12 do 25 minut, a nie w całą godzinę.</p>
+<ul>
+<li><strong>kWh = (moc ÷ 1000) × godziny × współczynnik aktywności</strong></li>
+<li>Przykład: 1700 W ÷ 1000 = 1,7 kW × 0,25 h × 0,7 = <strong>≈ 0,30 kWh</strong></li>
+</ul>
+<p>Trzeba też odróżnić fazę nagrzewania od fazy gotowania. W pierwszych minutach urządzenie pobiera pełną moc, by szybko się nagrzać. Potem zużycie wyraźnie spada, bo grzałka tylko utrzymuje temperaturę. Przy 20-minutowym gotowaniu tylko trzy do pięciu minut przypada na najbardziej energochłonną fazę. Aby poznać dokładne zużycie, wystarczy prosty watomierz włączony między gniazdko a urządzenie, który na bieżąco pokazuje zużyte kWh.</p>
+
+<h3>Szacowane zużycie na jedno użycie (współczynnik aktywności 0,7)</h3>
+<table>
+<thead>
+<tr><th>Typ urządzenia</th><th>Moc</th><th>Czas</th><th>kWh (szacunek)</th><th>Koszt (1,50 zł/kWh)</th></tr>
+</thead>
+<tbody>
+<tr><td>Kompaktowa (3–4 L)</td><td>1400 W</td><td>15 min</td><td>≈ 0,25 kWh</td><td>≈ 0,38 zł</td></tr>
+<tr><td>Standardowa (4–6 L)</td><td>1600 W</td><td>18 min</td><td>≈ 0,34 kWh</td><td>≈ 0,51 zł</td></tr>
+<tr><td>Duża (7–8 L)</td><td>2000 W</td><td>20 min</td><td>≈ 0,47 kWh</td><td>≈ 0,71 zł</td></tr>
+<tr><td>Z dwoma koszami (9–10 L)</td><td>2400 W</td><td>22 min</td><td>≈ 0,62 kWh</td><td>≈ 0,93 zł</td></tr>
+</tbody>
+</table>
+
+<h2>Koszt roczny: 3 razy w tygodniu a codziennie</h2>
+<p>Na podstawie średniej 0,4 kWh na użycie i przykładowej stawki 1,50 zł/kWh (0,4 kWh × liczba użyć × 1,50 zł).</p>
+<table>
+<thead>
+<tr><th>Częstotliwość</th><th>Użyć/rok</th><th>Zużycie/rok</th><th>Koszt/rok (1,50 zł/kWh)</th></tr>
+</thead>
+<tbody>
+<tr><td>1 raz w tygodniu</td><td>≈ 52</td><td>≈ 21 kWh</td><td>≈ 31 zł</td></tr>
+<tr><td>3 razy w tygodniu</td><td>≈ 156</td><td>≈ 62 kWh</td><td>≈ 94 zł</td></tr>
+<tr><td>5 razy w tygodniu</td><td>≈ 260</td><td>≈ 104 kWh</td><td>≈ 156 zł</td></tr>
+<tr><td>Codziennie</td><td>≈ 365</td><td>≈ 146 kWh</td><td>≈ 219 zł</td></tr>
+</tbody>
+</table>
+<p>Nawet przy codziennym użyciu roczny koszt pozostaje umiarkowany (ok. 219 zł). Przy trzech użyciach w tygodniu płaci się zaledwie ok. 94 zł za prąd rocznie.</p>
+
+<h2>Porównanie z tradycyjnym piekarnikiem</h2>
+<p>Tu leży większość oszczędności. Piekarnik musi nagrzać przestrzeń o pojemności 60 do 70 litrów i wymaga nagrzewania wstępnego. Frytkownica beztłuszczowa nagrzewa tylko 3 do 8 litrów.</p>
+<table>
+<thead>
+<tr><th>Urządzenie</th><th>Zużycie na gotowanie</th><th>Koszt (1,50 zł/kWh)</th></tr>
+</thead>
+<tbody>
+<tr><td>Frytkownica beztłuszczowa</td><td>≈ 0,40 kWh</td><td>≈ 0,60 zł</td></tr>
+<tr><td>Piekarnik z termoobiegiem</td><td>≈ 1,20 kWh</td><td>≈ 1,80 zł</td></tr>
+<tr><td>Piekarnik klasyczny</td><td>≈ 1,50 kWh</td><td>≈ 2,25 zł</td></tr>
+</tbody>
+</table>
+<p>Frytkownica beztłuszczowa oszczędza więc <strong>50 do 70 % energii</strong> w porównaniu z piekarnikiem przy tej samej ilości jedzenia. Więcej szczegółów znajdziesz w naszym poradniku o <a href="/pl/blog/airfryer-economies-energie">oszczędzaniu energii dzięki frytkownicy beztłuszczowej</a>.</p>
+
+<h2>Porównanie z klasyczną frytownicą</h2>
+<p>Frytownica olejowa musi nagrzać, a następnie utrzymywać 2 do 4 litrów oleju w temperaturze 170–180 °C.</p>
+<ul>
+<li><strong>Klasyczna frytownica:</strong> ≈ 0,6–0,8 kWh na użycie.</li>
+<li><strong>Frytkownica beztłuszczowa:</strong> ≈ 0,3–0,5 kWh na użycie.</li>
+</ul>
+<p>Dochodzą koszty oleju, który trzeba regularnie wymieniać. Zobacz nasze <a href="/pl/blog/airfryer-vs-friteuse-traditionnelle">porównanie frytkownicy beztłuszczowej z tradycyjną frytownicą</a>.</p>
+
+<h2>Sposoby na zmniejszenie zużycia</h2>
+<ul>
+<li><strong>Unikaj zbędnego nagrzewania wstępnego:</strong> często jest niepotrzebne, zwłaszcza w przypadku mrożonek.</li>
+<li><strong>Gotowanie zbiorcze:</strong> dobrze napełniony kosz jest wydajniejszy niż dwie małe partie.</li>
+<li><strong>Modele z dwoma koszami:</strong> danie i dodatek za jednym razem.</li>
+<li><strong>Regularnie czyść:</strong> zabrudzone urządzenie zużywa o 10–15 % więcej.</li>
+<li><strong>Wykorzystuj ciepło resztkowe:</strong> gotuj kolejne porcje jedna po drugiej, dopóki urządzenie jest ciepłe.</li>
+</ul>
+
+<h2>Zużycie w codziennych sytuacjach</h2>
+<p>Oto realistyczne szacunki dla typowych dań, przy przykładowej stawce 1,50 zł/kWh:</p>
+<table>
+<thead>
+<tr><th>Danie</th><th>Temperatura / czas</th><th>kWh (szacunek)</th><th>Koszt (1,50 zł/kWh)</th></tr>
+</thead>
+<tbody>
+<tr><td>Mrożone frytki (2 os.)</td><td>200 °C / 18 min</td><td>≈ 0,40 kWh</td><td>≈ 0,60 zł</td></tr>
+<tr><td>Odgrzanie 2 bułek</td><td>180 °C / 6 min</td><td>≈ 0,15 kWh</td><td>≈ 0,23 zł</td></tr>
+<tr><td>Udka z kurczaka</td><td>190 °C / 25 min</td><td>≈ 0,50 kWh</td><td>≈ 0,75 zł</td></tr>
+<tr><td>Mieszanka warzyw</td><td>180 °C / 15 min</td><td>≈ 0,33 kWh</td><td>≈ 0,50 zł</td></tr>
+<tr><td>Odgrzana pizza</td><td>160 °C / 8 min</td><td>≈ 0,18 kWh</td><td>≈ 0,27 zł</td></tr>
+</tbody>
+</table>
+<p>Do odgrzewania lub gotowania małych porcji frytkownica beztłuszczowa nie ma sobie równych: włączanie piekarnika byłoby czystym marnotrawstwem. To właśnie te częste, małe gotowania dają w skali roku największą różnicę w oszczędnościach w porównaniu z piekarnikiem.</p>
+
+<h2>Modele z łącznością: miej oko na zużycie</h2>
+<p>Wiele frytkownic beztłuszczowych ma obecnie łączność Wi-Fi i można je sterować z aplikacji. To atut pod względem zużycia: precyzyjne programy temperatury i czasu pozwalają nie przekraczać niezbędnego czasu gotowania. Z drugiej strony urządzenie z łącznością, wyświetlaczem i modułem Wi-Fi stale pobiera 1 do 3 watów w trybie czuwania, czyli około 9 do 26 kWh rocznie (14 do 39 zł przy stawce przykładowej), niezależnie od tego, czy gotujesz. Listwa zasilająca z wyłącznikiem lub inteligentna wtyczka rozwiązuje problem, całkowicie odcinając zasilanie po użyciu.</p>
+
+<h2>Najbardziej oszczędne modele i etykieta energetyczna</h2>
+<p>Modele <strong>Xiaomi</strong> i <strong>Cosori</strong> oferują doskonały stosunek mocy, czasu gotowania i zużycia (na przykład Cosori Lite 3.8L o mocy 1500 W lub Xiaomi Smart Air Fryer Pro 4L o mocy 1600 W, czyli około 0,32 do 0,34 kWh na 18 minut). Warto dodać, że nie istnieje jeszcze obowiązkowa unijna klasa efektywności energetycznej dotycząca konkretnie frytkownic beztłuszczowych, w przeciwieństwie do lodówek czy pralek. Kieruj się więc mocą, pojemnością i niezależnymi pomiarami zużycia. Z reguły umiarkowana moc przy wystarczającej pojemności jest dobrym wskaźnikiem wydajności. Nasze rekomendacje znajdziesz w zestawieniu <a href="/pl/blog/meilleur-airfryer-petit-budget">najlepszych frytkownic beztłuszczowych na mały budżet</a>.</p>
+
+<h2>Podsumowanie</h2>
+<p>Nawet przy wysokich stawkach frytkownica beztłuszczowa pozostaje jednym z najbardziej oszczędnych sposobów gotowania małych i średnich porcji: około 0,3–0,5 kWh na użycie i umiarkowany koszt roczny (około 94 zł przy trzech użyciach w tygodniu).</p>
+<p>Nie daj się przestraszyć wysokiej mocy podanej na tabliczce. Liczy się rzeczywiste zużycie w kWh, a to pozostaje niskie dzięki krótkim czasom gotowania, małej objętości i braku konieczności długiego nagrzewania. Wybierając wydajny model i stosując kilka prostych wskazówek, utrzymasz koszty prądu na trwale na minimalnym poziomie, nawet przy wysokich stawkach.</p>`,
   },
   faq: [
     {
@@ -681,6 +781,7 @@ export const article: BlogArticle = {
         es: '¿Cuánta electricidad consume una freidora de aire?',
         it: 'Quanta elettricità consuma una friggitrice ad aria?',
         nl: 'Hoeveel stroom verbruikt een airfryer?',
+        pl: 'Ile prądu zużywa frytkownica beztłuszczowa?',
       },
       answer: {
         fr: 'Une airfryer consomme environ 0,3 à 0,5 kWh par utilisation de 15 à 20 minutes, malgré une puissance affichée de 1 400 à 2 000 W. La résistance ne chauffe pas en continu : elle fonctionne par cycles. Avec un tarif d\'exemple de 0,35 €/kWh, cela représente seulement 10 à 18 centimes par cuisson.',
@@ -689,6 +790,7 @@ export const article: BlogArticle = {
         es: 'Una freidora de aire consume unos 0,3 a 0,5 kWh por uso de 15 a 20 minutos, pese a una potencia de 1.400 a 2.000 W. La resistencia no calienta de forma continua, sino por ciclos. Con una tarifa de ejemplo de 0,35 €/kWh, son solo 10 a 18 céntimos por cocción.',
         it: 'Una friggitrice ad aria consuma circa 0,3-0,5 kWh per utilizzo di 15-20 minuti, nonostante una potenza di 1.400-2.000 W. La resistenza non scalda di continuo, ma a cicli. Con una tariffa di esempio di 0,35 €/kWh sono solo 10-18 centesimi per cottura.',
         nl: 'Een airfryer verbruikt ongeveer 0,3 tot 0,5 kWh per keer van 15 tot 20 minuten, ondanks een vermogen van 1.400 tot 2.000 W. Het verwarmingselement draait niet continu maar in cycli. Tegen een voorbeeldtarief van € 0,35/kWh is dat slechts 10 tot 18 cent per bereiding.',
+        pl: 'Frytkownica beztłuszczowa zużywa około 0,3 do 0,5 kWh na jedno użycie trwające 15 do 20 minut, mimo podanej mocy od 1400 do 2000 W. Grzałka nie grzeje w sposób ciągły: pracuje cyklicznie. Przy przykładowej stawce 1,50 zł/kWh to zaledwie 45 do 75 groszy za jedno gotowanie.',
       },
     },
     {
@@ -699,6 +801,7 @@ export const article: BlogArticle = {
         es: '¿Una freidora de aire es más barata que el horno?',
         it: 'Una friggitrice ad aria è più economica del forno?',
         nl: 'Is een airfryer goedkoper dan de oven?',
+        pl: 'Czy frytkownica beztłuszczowa jest tańsza niż piekarnik?',
       },
       answer: {
         fr: 'Oui, nettement. Une airfryer consomme environ 0,4 kWh par cuisson contre 1,2 à 1,5 kWh pour un four, soit une économie de 50 à 70 % d\'électricité pour la même quantité d\'aliments. L\'écart est encore plus grand pour les petites portions, car le four doit chauffer un grand volume et nécessite un préchauffage.',
@@ -707,6 +810,7 @@ export const article: BlogArticle = {
         es: 'Sí, claramente. Una freidora de aire consume unos 0,4 kWh por cocción frente a 1,2 a 1,5 kWh de un horno, un ahorro del 50 al 70 % de electricidad para la misma cantidad. La diferencia es aún mayor en porciones pequeñas, porque el horno calienta un gran volumen y necesita precalentamiento.',
         it: 'Sì, nettamente. Una friggitrice ad aria consuma circa 0,4 kWh per cottura contro 1,2-1,5 kWh di un forno, un risparmio del 50-70 % di elettricità per la stessa quantità. Il divario è ancora maggiore per porzioni piccole, perché il forno deve scaldare un grande volume e richiede il preriscaldamento.',
         nl: 'Ja, duidelijk. Een airfryer verbruikt ongeveer 0,4 kWh per bereiding tegenover 1,2 tot 1,5 kWh voor een oven, een besparing van 50 tot 70 % stroom voor dezelfde hoeveelheid. Het verschil is nog groter bij kleine porties, omdat de oven een groot volume moet verwarmen en voorverwarmen nodig heeft.',
+        pl: 'Tak, wyraźnie. Frytkownica beztłuszczowa zużywa około 0,4 kWh na gotowanie, wobec 1,2 do 1,5 kWh w przypadku piekarnika, co daje oszczędność 50 do 70 % energii przy tej samej ilości jedzenia. Różnica jest jeszcze większa przy małych porcjach, ponieważ piekarnik musi nagrzać dużą objętość i wymaga nagrzewania wstępnego.',
       },
     },
     {
@@ -717,6 +821,7 @@ export const article: BlogArticle = {
         es: '¿Cuánto cuesta una freidora de aire en electricidad al año?',
         it: 'Quanto costa una friggitrice ad aria in elettricità all\'anno?',
         nl: 'Hoeveel kost een airfryer per jaar aan stroom?',
+        pl: 'Ile kosztuje prąd do frytkownicy beztłuszczowej w ciągu roku?',
       },
       answer: {
         fr: 'Avec un tarif d\'exemple de 0,35 €/kWh, une utilisation 3 fois par semaine coûte environ 22 € par an, et un usage quotidien environ 51 € par an. Ces chiffres sont des estimations basées sur 0,4 kWh par cuisson et varient selon le modèle, la durée de cuisson et le remplissage du panier.',
@@ -725,6 +830,7 @@ export const article: BlogArticle = {
         es: 'Con una tarifa de ejemplo de 0,35 €/kWh, usarla 3 veces por semana cuesta unos 22 € al año, y a diario unos 51 € al año. Son estimaciones basadas en 0,4 kWh por cocción y varían según el modelo, el tiempo y el llenado de la cesta.',
         it: 'Con una tariffa di esempio di 0,35 €/kWh, usarla 3 volte a settimana costa circa 22 € all\'anno, e ogni giorno circa 51 € all\'anno. Sono stime basate su 0,4 kWh per cottura e variano in base al modello, al tempo e al riempimento del cestello.',
         nl: 'Tegen een voorbeeldtarief van € 0,35/kWh kost 3 keer per week gebruiken zo\'n € 22 per jaar, en dagelijks gebruik ongeveer € 51 per jaar. Dit zijn schattingen op basis van 0,4 kWh per bereiding en variëren met het model, de bereidingstijd en hoe vol de mand is.',
+        pl: 'Przy przykładowej stawce 1,50 zł/kWh użytkowanie 3 razy w tygodniu kosztuje około 94 zł rocznie, a codzienne użytkowanie około 219 zł rocznie. To szacunki oparte na 0,4 kWh na gotowanie, które zależą od modelu, czasu gotowania i napełnienia kosza.',
       },
     },
     {
@@ -735,6 +841,7 @@ export const article: BlogArticle = {
         es: '¿Qué modelos de freidora de aire son los más eficientes?',
         it: 'Quali modelli di friggitrice ad aria sono i più efficienti?',
         nl: 'Welke airfryer-modellen zijn het zuinigst?',
+        pl: 'Które modele frytkownic beztłuszczowych są najbardziej oszczędne?',
       },
       answer: {
         fr: 'Les modèles à puissance modérée et bonne gestion de la chaleur sont les plus économes. Xiaomi et Cosori se distinguent par un bon rapport entre puissance, temps de cuisson et consommation (environ 0,32 à 0,34 kWh pour 18 minutes de cuisson). En général, une puissance plus faible pour une capacité suffisante est un bon indicateur d\'efficacité.',
@@ -743,6 +850,7 @@ export const article: BlogArticle = {
         es: 'Los modelos con potencia moderada y buena gestión del calor son los más eficientes. Xiaomi y Cosori destacan por un buen equilibrio entre potencia, tiempo y consumo (unos 0,32 a 0,34 kWh en 18 minutos). En general, una potencia más baja con capacidad suficiente es buena señal de eficiencia.',
         it: 'I modelli con potenza moderata e buona gestione del calore sono i più efficienti. Xiaomi e Cosori spiccano per un buon equilibrio tra potenza, tempo e consumo (circa 0,32-0,34 kWh in 18 minuti). In generale, una potenza più bassa con capacità adeguata è un buon segnale di efficienza.',
         nl: 'Modellen met gematigd vermogen en goed warmtebeheer zijn het zuinigst. Xiaomi en Cosori vallen op met een goede balans tussen vermogen, tijd en verbruik (ongeveer 0,32 tot 0,34 kWh in 18 minuten). Over het algemeen is een lager vermogen bij voldoende capaciteit een goed teken van efficiëntie.',
+        pl: 'Najbardziej oszczędne są modele o umiarkowanej mocy i dobrym zarządzaniu ciepłem. Xiaomi i Cosori wyróżniają się dobrym stosunkiem mocy, czasu gotowania i zużycia (około 0,32 do 0,34 kWh na 18 minut gotowania). Ogólnie niższa moc przy wystarczającej pojemności jest dobrym wskaźnikiem wydajności.',
       },
     },
     {
@@ -753,6 +861,7 @@ export const article: BlogArticle = {
         es: '¿Existe una etiqueta energética UE para freidoras de aire?',
         it: 'Esiste un\'etichetta energetica UE per le friggitrici ad aria?',
         nl: 'Bestaat er een EU-energielabel voor airfryers?',
+        pl: 'Czy dla frytkownic beztłuszczowych istnieje unijna etykieta energetyczna?',
       },
       answer: {
         fr: 'Non, il n\'existe pas encore de classe d\'efficacité énergétique UE obligatoire spécifique aux airfryers, contrairement aux réfrigérateurs ou aux lave-linge. Pour évaluer la consommation, fiez-vous à la puissance en watts, à la capacité en litres et aux mesures de consommation réelles issues de tests indépendants.',
@@ -761,6 +870,7 @@ export const article: BlogArticle = {
         es: 'No, todavía no existe una clase de eficiencia energética UE obligatoria específica para freidoras de aire, a diferencia de neveras o lavadoras. Para evaluar el consumo, fíjate en la potencia en vatios, la capacidad en litros y las mediciones reales de tests independientes.',
         it: 'No, non esiste ancora una classe di efficienza energetica UE obbligatoria specifica per le friggitrici ad aria, a differenza di frigoriferi o lavatrici. Per valutare il consumo, affidati alla potenza in watt, alla capacità in litri e alle misurazioni reali da test indipendenti.',
         nl: 'Nee, er bestaat nog geen verplichte EU-energie-efficiëntieklasse specifiek voor airfryers, anders dan bij koelkasten of wasmachines. Om het verbruik in te schatten, let je op het vermogen in watt, de capaciteit in liters en echte metingen uit onafhankelijke tests.',
+        pl: 'Nie, nie istnieje jeszcze obowiązkowa unijna klasa efektywności energetycznej dotycząca konkretnie frytkownic beztłuszczowych, w przeciwieństwie do lodówek czy pralek. Aby ocenić zużycie, kieruj się mocą w watach, pojemnością w litrach oraz rzeczywistymi pomiarami zużycia z niezależnych testów.',
       },
     },
   ],

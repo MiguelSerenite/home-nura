@@ -9,6 +9,7 @@ const texts: Record<string, { title: string; desc: string; button: string }> = {
   es: { title: 'Algo salió mal', desc: 'Se produjo un error. Por favor, inténtalo de nuevo.', button: 'Reintentar' },
   it: { title: 'Si è verificato un errore', desc: 'Qualcosa è andato storto. Riprova.', button: 'Riprova' },
   nl: { title: 'Er is een fout opgetreden', desc: 'Er ging iets mis. Probeer het opnieuw.', button: 'Opnieuw proberen' },
+  pl: { title: 'Wystąpił błąd', desc: 'Coś poszło nie tak. Spróbuj ponownie.', button: 'Ponów próbę' },
 }
 
 export default function Error({
