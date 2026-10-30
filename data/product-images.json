@@ -1053,6 +1053,1434 @@
       "rawWidth": 800,
       "rawHeight": 800,
       "notes": "LOW RES: 800 px, the largest available. The identical file is the only gallery image on the mi.com/fr and mi.com/uk buy pages and is also the page's og image. The other locales (global, de, es, it, nl) list no larger asset. Front view, device only; this is the plain Air Purifier 4 page (not Lite, Pro or Compact)."
+    },
+    {
+      "id": "airthings-view-plus",
+      "brand": "Airthings",
+      "model": "View Plus",
+      "category": "air-quality-monitor",
+      "names": [
+        "Airthings View Plus"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.airthings.com/view-plus",
+      "imageUrl": "https://www.airthings.com/media/catalog/product/v/i/view_plus_-_hero_image_-_us_-_front_desktop_1000x1000_1.png",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Airthings",
+      "officialModel": "Airthings View Plus (radon + PM2.5 + CO2 + VOC + humidity monitor), front view",
+      "rawFile": "airthings-view-plus.png",
+      "notes": "Official Airthings shop page (airthings.com/view-plus; robots.txt does not disallow it). Front view of the device on a plain light-grey background; the screen readings (2.4 radon / 637 CO2) are the device's own display. The page's og:image has a 'HSA/FSA eligible' badge and the 2-unit hero shows a phone, so the plain 'front' hero from the product gallery was used. Gallery file is a 1000x1000 PNG (largest on the page).",
+      "rawSha256": "6821b4a838e458e36a9843031fccf529b391cc299ece514a46f87a4b293f0dae",
+      "rawWidth": 1000,
+      "rawHeight": 1000
+    },
+    {
+      "id": "anker-solix-solarbank-3-e2700-pro",
+      "brand": "Anker SOLIX",
+      "model": "Solarbank 3 E2700 Pro",
+      "category": "home-battery",
+      "names": [
+        "Anker SOLIX Solarbank 3 E2700 Pro"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.ankersolix.com/de/products/a17c5",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0901/2612/3357/files/A17C53Z1_10667d0d-0e7f-412c-a54c-80f0afff708c.png?v=1763455995",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Anker SOLIX",
+      "officialModel": "Anker SOLIX Solarbank 3 E2700 Pro (A17C5 / A17C53Z1), base unit alone",
+      "rawFile": "anker-solix-solarbank-3-e2700-pro.png",
+      "notes": "Anker SOLIX official German store (ankersolix.com/de, product code A17C5/A17C53Z1); this is the page's og:image. 2000x2000 transparent PNG, base unit only (no BP2700 expansion battery, no panels). Other gallery files (A17C5_*.png 4000 px) show the unit stacked with expansion batteries, so the single-unit one was kept.",
+      "rawSha256": "953953f4c98fd200bfdf4045ecfe4bf92658f02b6291e49c32567385b81be627",
+      "rawWidth": 2000,
+      "rawHeight": 2000
+    },
+    {
+      "id": "aranet-aranet4-home",
+      "brand": "Aranet",
+      "model": "Aranet4 Home",
+      "category": "air-quality-monitor",
+      "names": [
+        "Aranet4 Home"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://help.aranet.com/",
+      "imageUrl": "https://assets.aranet.com/images/Aranet4_HOME_F_900x900_5KwWDL4.original.webp",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Aranet",
+      "officialModel": "Aranet4 HOME (CO2 / temperature / humidity / pressure e-ink sensor)",
+      "rawFile": "aranet-aranet4-home.webp",
+      "notes": "Image is the cover of the 'Aranet4' card on Aranet's official help centre (help.aranet.com, robots.txt allows crawling), hosted on Aranet's own assets.aranet.com. Front view of the sensor on a transparent background, 1801x1801 WebP kept as served (no conversion). The marketing site aranet.com is a JS-only SPA with no static image URLs; the same help page covers HOME and PRO, this is the HOME unit (readout shows 560 ppm, part of the device display).  Licence: official brand help centre, no explicit licence.",
+      "rawSha256": "4c7cd1aa01844ab5b56e956ab34e9addda7e28501d3483ca6a8c16b555634bea",
+      "rawWidth": 1801,
+      "rawHeight": 1801
+    },
+    {
+      "id": "beatbot-aquasense-2-pro",
+      "brand": "Beatbot",
+      "model": "AquaSense 2 Pro",
+      "category": "pool-robot",
+      "names": [
+        "Beatbot AquaSense 2 Pro"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://eu.beatbot.com/products/aquasense-2-pro",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0584/1980/6275/files/20250317-104751.webp?v=1765511461",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Beatbot",
+      "officialModel": "Beatbot AquaSense 2 Pro (EU store 'AquaSense 2 Pro AI robotic pool cleaner', SKU PRCFDS02-EU-G)",
+      "rawFile": "beatbot-aquasense-2-pro.png",
+      "notes": "Beatbot's official EU store (eu.beatbot.com, robots.txt allows crawling). Gallery image #0, 3200x3200 transparent background, robot on its parking stand, no overlay. URL ends in .webp but the CDN served PNG. Other EU gallery images are infographics with text. US store has a 3/4 top view (https://cdn.shopify.com/s/files/1/0812/9049/4250/files/S1ECN.webp?v=1764152352) if a different pose is preferred.",
+      "rawSha256": "9c81b3958d34b58bc8896ba3e3ee949be98b492edcf3783b25386b7420bc3fe9",
+      "rawWidth": 3200,
+      "rawHeight": 3200
+    },
+    {
+      "id": "bissell-powerfresh-slim-steam",
+      "brand": "Bissell",
+      "model": "PowerFresh Slim Steam",
+      "category": "steam-mop",
+      "names": [
+        "Bissell PowerFresh Slim Steam"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.bissell.fr/bissell-powerfresh-slimsteam",
+      "imageUrl": "https://www.bissell.fr/image/4268N/bissell-powerfresh-slimsteam/1/aw_pdp_image/1000",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Bissell",
+      "officialModel": "Bissell Powerfresh SlimSteam (FR code 4268N)",
+      "rawFile": "bissell-powerfresh-slim-steam.png",
+      "notes": "Bissell's official French store (bissell.fr; robots.txt only blocks account pages). Gallery image #1: the 3-in-1 steam mop shown in its mop and handheld configurations with the supplied attachments, on a transparent background, no text. 1000x1000 requested from the site's own image service (it resizes on demand; its true original size is not exposed, so 1000 was chosen rather than an upscale). Other gallery images are in-use/room scenes. UK equivalent is the PowerFresh SlimSteam 2234E (bissell.co.uk, only a badge+in-use image); EU/FR code differs (4268N). The www.bissell.com (US) site refuses robots.txt/ non-browser requests, not used.",
+      "rawSha256": "54ce64792e4ef1379db5d83d9104d04e66498ab351d988e183e809d4aa3df3b7",
+      "rawWidth": 1000,
+      "rawHeight": 1000
+    },
+    {
+      "id": "bluetti-elite-100-v2",
+      "brand": "BLUETTI",
+      "model": "Elite 100 V2",
+      "category": "portable-power-station",
+      "names": [
+        "BLUETTI Elite 100 V2"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.bluettipower.eu/products/elite-100-v2-portable-power-station",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0566/6396/5893/files/Elite-100-V2-2025-06-26_9.png?v=1756268622",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© BLUETTI",
+      "officialModel": "BLUETTI Elite 100 V2 Portable Power Station, 1800W 1024Wh (EU, SKU EL100V2-EU-GY-SPFEU-00)",
+      "rawFile": "bluetti-elite-100-v2.png",
+      "notes": "BLUETTI's official EU store (bluettipower.eu; robots.txt allows generic agents, 'ai-train=no' signal noted: used here only to identify the product). Gallery image #1, 2000x2000 transparent PNG, 3/4 view of the standard grey unit alone, no overlay. The page also sells bundles (solar kits, Charger 1) and a blue Bio-based version (gallery #13); standard grey unit chosen.",
+      "rawSha256": "894778825043a9eed4c3f9e234ac2d1ce5134bfea2e35eca2f533ae3ecc6b0d8",
+      "rawWidth": 2000,
+      "rawHeight": 2000
+    },
+    {
+      "id": "chipolo-pop",
+      "brand": "Chipolo",
+      "model": "POP",
+      "category": "bluetooth-tracker",
+      "names": [
+        "Chipolo POP"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://chipolo.net/en/products/chipolo-pop",
+      "imageUrl": "https://chipolo.net/imager/images/products/variants-images/4202344/POP-1-Pack-Black_6c0c164bd2b597ee32b68b8b5755bd2e.png",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Chipolo",
+      "officialModel": "Chipolo POP (1-pack, Black)",
+      "rawFile": "chipolo-pop.png",
+      "notes": "Chipolo's own store/product page (chipolo.net; robots.txt only blocks /cpresources/ and /vendor/). Variant image of the 1-pack Black tracker, 1200x958 transparent PNG (non-square, shorter side 958), no overlay. Other colours exist (Red, Yellow, White, Green, Blue) with the same framing. The brand also has a Dropbox press kit linked from chipolo.net/en/pages/press (folder, not fetched: only single image files are downloaded).",
+      "rawSha256": "cfecb1df0a724c57ab44200c9eacce5f482f1401abff1cbed019d9783538a95b",
+      "rawWidth": 1200,
+      "rawHeight": 958
+    },
+    {
+      "id": "delonghi-pinguino-pac-el112-cst-wifi",
+      "brand": "De'Longhi",
+      "model": "Pinguino PAC EL112 CST WiFi",
+      "category": "portable-air-conditioner",
+      "names": [
+        "De'Longhi Pinguino PAC EL112 CST WiFi"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.delonghi.com/en-ie/p/portable-air-conditioners-pinguino-care4me-portable-air-conditioner-pacel112cstwifi/PACEL112CSTWIFI.html",
+      "imageUrl": "https://dam.delonghi.com/902x902/assets/228998",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© De'Longhi",
+      "officialModel": "De'Longhi Pinguino Care4Me portable air conditioner PACEL112CSTWIFI (item 0151462011, EAN 8004399024229)",
+      "rawFile": "delonghi-pinguino-pac-el112-cst-wifi.jpg",
+      "notes": "De'Longhi official store (delonghi.com/en-ie; its robots.txt does not disallow /p/ pages or dam.delonghi.com). The WiFi model is sold as 'Pinguino Care4Me PACEL112CSTWIFI' (same PAC EL112 CST platform; non-WiFi is PACEL112CST). Image = first gallery picture, product alone on white, 902x902 JPEG as served on the page (the DAM accepts larger sizes but they would be upscales). The terms-and-conditions page has no image-reuse clause.",
+      "rawSha256": "648732a63bcf898384c1781edc8909e2a66da05b603330b4bb4798ab075a8d35",
+      "rawWidth": 902,
+      "rawHeight": 902
+    },
+    {
+      "id": "ecoflow-river-3-plus",
+      "brand": "EcoFlow",
+      "model": "RIVER 3 Plus",
+      "category": "portable-power-station",
+      "names": [
+        "EcoFlow RIVER 3 Plus"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://eu.ecoflow.com/products/river-3-plus-portable-power-station",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0431/3789/2516/files/ecoflow-river-3-plus-portable-power-station-1146556335.png?v=1758768890",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© EcoFlow",
+      "officialModel": "EcoFlow RIVER 3 Plus Portable Power Station (EU, SKU EFRIVER3Plus-EU-CBOX)",
+      "rawFile": "ecoflow-river-3-plus.png",
+      "notes": "EcoFlow's official EU store (eu.ecoflow.com; robots.txt does not block /products/). Gallery image #0, 1500x1500 transparent PNG, 3/4 view of the 286 Wh base unit alone, no overlay. The page also sells RIVER 3 Max / Max Plus (with extra battery) and solar bundles; the base unit image was used. The store terms are about product licensing, with no clause restricting reuse of site images.",
+      "rawSha256": "1753e5731d82bde6bffa42854d5aac102ffbd538b51ece618a04b9e31f7f7107",
+      "rawWidth": 1500,
+      "rawHeight": 1500
+    },
+    {
+      "id": "ecoflow-delta-3-plus",
+      "brand": "EcoFlow",
+      "model": "DELTA 3 Plus",
+      "category": "portable-power-station",
+      "names": [
+        "EcoFlow DELTA 3 Plus"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://eu.ecoflow.com/products/delta-3-series-portable-power-station",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0431/3789/2516/files/ecoflow-delta-3-series-portable-power-station-60905350299991.png?v=1741847645",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© EcoFlow",
+      "officialModel": "EcoFlow DELTA 3 Plus (EU, SKU EFDELTA3P-EU, 'DELTA 3 Plus / No Accessory')",
+      "rawFile": "ecoflow-delta-3-plus.png",
+      "notes": "EcoFlow's official EU store (eu.ecoflow.com). The page is the 'DELTA 3 Series' product with DELTA 3 Plus as its first variant (No Accessory); gallery image #0, 3000x3000 transparent PNG, the Plus unit alone, no overlay. The store terms have no clause restricting reuse of site images.",
+      "rawSha256": "e64219743769720bbde4a38d3826c1118e62cbd79ec39e1c28b3699cde314888",
+      "rawWidth": 3000,
+      "rawHeight": 3000
+    },
+    {
+      "id": "ecoflow-stream-ultra",
+      "brand": "EcoFlow",
+      "model": "STREAM Ultra",
+      "category": "home-battery",
+      "names": [
+        "EcoFlow STREAM Ultra"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://eu.ecoflow.com/products/stream-ultra-pro",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0431/3789/2516/files/ecoflow-stream-ultra-pro-1158520551.png?v=1747727928",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© EcoFlow",
+      "officialModel": "EcoFlow STREAM Ultra (EU, SKU EFSTREAMULTRA800W-EU) - shared STREAM Ultra/Pro/Max product page",
+      "rawFile": "ecoflow-stream-ultra.png",
+      "notes": "EcoFlow's official EU store. The page is the combined 'STREAM Ultra/Pro/Max' product (first variant = STREAM Ultra) and its main gallery image (1500x1500 transparent PNG, unit alone in 3/4 view, no overlay) is shared by the family: Ultra, Pro and Max use the same housing, so the picture cannot be told apart from the Pro/Max. The variant-specific STREAM Ultra shot (ecoflow-stream-ultra-pro-max-1181675439.png) carries a 'STREAM Ultra' label pill and a back view, so it was not used. DOUBT: identity rests on the shared housing.",
+      "rawSha256": "01a59183a0c42d9d8b13febdbc929bff8f9ed87ac11625ab7423b0696aa13dd1",
+      "rawWidth": 1500,
+      "rawHeight": 1500
+    },
+    {
+      "id": "aqara-hub-m3",
+      "brand": "Aqara",
+      "model": "Hub M3",
+      "category": "smart-home-hub",
+      "names": [
+        "Aqara Hub M3"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://eu.aqara.com/products/aqara-smart-hub-m3",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0658/9068/1031/files/M3_1.webp?v=1729064019",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Aqara",
+      "officialModel": "Aqara Hub M3 (EU store title 'Hub M3', SKU DTC-EU-HUB-M3)",
+      "rawFile": "aqara-hub-m3.png",
+      "notes": "Aqara's official EU store (eu.aqara.com, robots.txt allows crawling). Gallery image #0, 1200x1200 on transparent background, hub only. URL ends in .webp but the CDN served PNG to curl. Other gallery images are infographics, a retail box or room scenes.",
+      "rawSha256": "fb9d5dd4940b5ba87b5e3612ed8f05250ba29c6317533ac134f8b9b4e936a1fa",
+      "rawWidth": 1200,
+      "rawHeight": 1200
+    },
+    {
+      "id": "aqara-curtain-driver-e1",
+      "brand": "Aqara",
+      "model": "Curtain Driver E1",
+      "category": "smart-curtain",
+      "names": [
+        "Aqara Curtain Driver E1"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://eu.aqara.com/products/aqara-smart-curtain-motor-e1-rod-version",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0658/9068/1031/files/Aqara-Curtain-Driver-E1-_Rod-Version.webp?v=1729064656",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Aqara",
+      "officialModel": "Aqara Smart Curtain Driver E1 (Rod Version, SKU DTC-EU-CD-E1-ROD)",
+      "rawFile": "aqara-curtain-driver-e1.png",
+      "notes": "Aqara's official EU store (eu.aqara.com, robots.txt allows crawling). Gallery image #0, 1200x1200 transparent background, driver + its rod bracket, no overlay. VARIANT CAVEAT: the E1 is sold as two versions in the EU store; this is the Rod Version. The Track Version packshot is https://cdn.shopify.com/s/files/1/0658/9068/1031/files/Aqara-Curtain-Driver-E1-_Track-Version.webp?v=1729064656 (page https://eu.aqara.com/products/aqara-smart-curtain-motor-e1-track-version). URL ends in .webp but the CDN served PNG.",
+      "rawSha256": "a5144a0313a41394e5021271cbc7166c2607417e71f759acb53b805b0793198c",
+      "rawWidth": 1200,
+      "rawHeight": 1200
+    },
+    {
+      "id": "aqara-light-switch-h2-eu",
+      "brand": "Aqara",
+      "model": "Light Switch H2 EU",
+      "category": "smart-switch",
+      "names": [
+        "Aqara Light Switch H2 EU"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://eu.aqara.com/products/aqara-light-switch-h2",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0658/9068/1031/files/AqaraLightSwitchH2_1.webp?v=1756870108",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Aqara",
+      "officialModel": "Aqara Light Switch H2 EU (2 Buttons-1 Channel, SKU DTC-EU-CT-H2-2B1C)",
+      "rawFile": "aqara-light-switch-h2-eu.png",
+      "notes": "Aqara's official EU store (eu.aqara.com, robots.txt allows crawling). Gallery image #0, 1600x1600 transparent background, switch alone. VARIANT CAVEAT: the page sells two variants, 2 Buttons-1 Channel (this image) and 4 Buttons-2 Channels (gallery #1: https://cdn.shopify.com/s/files/1/0658/9068/1031/files/AqaraLightSwitchH2_8.webp?v=1736934973). URL ends in .webp but the CDN served PNG.",
+      "rawSha256": "f7523c363644c1e053e1006786ea12cd8ab7e6f6918782bccd397c09051012df",
+      "rawWidth": 1600,
+      "rawHeight": 1600
+    },
+    {
+      "id": "aqara-motion-and-light-sensor-p2",
+      "brand": "Aqara",
+      "model": "Motion and Light Sensor P2",
+      "category": "motion-sensor",
+      "names": [
+        "Aqara Motion and Light Sensor P2"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://eu.aqara.com/products/aqara-motion-and-light-sensor-p2",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0658/9068/1031/files/aqara-MotionLightSensorP2.webp?v=1774334015",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Aqara",
+      "officialModel": "Aqara Motion and Light Sensor P2 (SKU DTC-EU-SN-MLSP2)",
+      "rawFile": "aqara-motion-and-light-sensor-p2.png",
+      "notes": "Aqara's official EU store (eu.aqara.com, robots.txt allows crawling). Gallery image #0, 1600x1600 transparent background, sensor on its stand, no overlay. URL ends in .webp but the CDN served PNG.",
+      "rawSha256": "10d9817b04e3d6b968f05b2d0ec8a6fa76a67b99bf6ad59b70774af4499262bc",
+      "rawWidth": 1600,
+      "rawHeight": 1600
+    },
+    {
+      "id": "aqara-presence-sensor-fp2",
+      "brand": "Aqara",
+      "model": "Presence Sensor FP2",
+      "category": "presence-sensor",
+      "names": [
+        "Aqara Presence Sensor FP2"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://eu.aqara.com/products/aqara-presence-sensor-fp2",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0658/9068/1031/files/aqara-FP2-main-1.webp?v=1773741019",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Aqara",
+      "officialModel": "Aqara Presence Sensor FP2 (SKU DTC-EU-SN-PSFP2)",
+      "rawFile": "aqara-presence-sensor-fp2.png",
+      "notes": "Aqara's official EU store (eu.aqara.com, robots.txt allows crawling). Gallery image #0, 1600x1600 transparent background, front of the round sensor, no overlay. URL ends in .webp but the CDN served PNG.",
+      "rawSha256": "2b5646a1573b73584e721b224dca8919c6a065dc1eec9870087f7b14b3923c35",
+      "rawWidth": 1600,
+      "rawHeight": 1600
+    },
+    {
+      "id": "aqara-valve-controller-t1",
+      "brand": "Aqara",
+      "model": "Valve Controller T1",
+      "category": "water-valve-controller",
+      "names": [
+        "Aqara Valve Controller T1"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://eu.aqara.com/products/aqara-valve-controller-t1",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0658/9068/1031/files/valve-controller.webp?v=1742438116",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Aqara",
+      "officialModel": "Aqara Valve Controller T1 (SKU DTC-EU-CT-VCT1)",
+      "rawFile": "aqara-valve-controller-t1.png",
+      "notes": "Aqara's official EU store (eu.aqara.com, robots.txt allows crawling). Gallery image #0, 1200x1200 transparent background, controller with its pipe clamp, no overlay. URL ends in .webp but the CDN served PNG.",
+      "rawSha256": "f24ac30b6d4976d3bc2201b35680e46da275560bfa11c8215775e5f609c7546d",
+      "rawWidth": 1200,
+      "rawHeight": 1200
+    },
+    {
+      "id": "aqara-video-doorbell-g4",
+      "brand": "Aqara",
+      "model": "Video Doorbell G4",
+      "category": "video-doorbell",
+      "names": [
+        "Aqara Video Doorbell G4"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://eu.aqara.com/products/aqara-video-doorbell-g4",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0658/9068/1031/files/Aqara-Smart-Video-Doorbell-G4.webp?v=1729063964",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Aqara",
+      "officialModel": "Aqara Video Doorbell G4 (SKU DTC-EU-EN-G4)",
+      "rawFile": "aqara-video-doorbell-g4.png",
+      "notes": "Aqara's official EU store (eu.aqara.com, robots.txt allows crawling). Gallery image #0, 1200x1200 transparent background: doorbell + the indoor chime supplied with it (shown as in the box). No overlay. URL ends in .webp but the CDN served PNG.",
+      "rawSha256": "6815f51c2db8934a8252d85b67e0f5cfcfb36e3e87bb81f019a0f273e89476ab",
+      "rawWidth": 1200,
+      "rawHeight": 1200
+    },
+    {
+      "id": "blackdecker-bhsm1610dsm",
+      "brand": "BLACK+DECKER",
+      "model": "BHSM1610DSM",
+      "category": "steam-mop",
+      "names": [
+        "Black+Decker BHSM1610DSM"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.blackanddecker.fr/produit/bhsm1610dsm-qs/balai-vapeur-multifonction-avec-nettoyeur-main-et-gant-steamitt-1600w-14-accessoires-999-des-bacteries-et-germes-tues-sans-produit-chimique-temps-de-chauffe-1387-s-500-ml-blackdecker-bhsm1610dsm-qs",
+      "imageUrl": "https://www.blackanddecker.fr/EMEA/PRODUCT/IMAGES/HIRES/BHSM1610DSM_1.jpg",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© BLACK+DECKER",
+      "officialModel": "BLACK+DECKER BHSM1610DSM-QS steam mop (STEAMITT, 1600 W, 14 accessories)",
+      "rawFile": "blackdecker-bhsm1610dsm.jpg",
+      "notes": "BLACK+DECKER's official French site (blackanddecker.fr; its robots.txt does not block /EMEA/PRODUCT/IMAGES). Gallery image 1 (BHSM1610DSM_1.jpg, 2000x2000 JPEG): the steam mop upright on a plain white background, no text. Same SKU family as the cited BHSM1610DSM (-QS is the EU suffix). Other gallery files include an accessories kit shot and in-use photos.",
+      "rawSha256": "b360a8ccca4c4b2a7f9f229fffed5e3ca74cb8ca066ad0c64f98bea28b4a33c8",
+      "rawWidth": 2000,
+      "rawHeight": 2000
+    },
+    {
+      "id": "dreame-h14-pro",
+      "brand": "Dreame",
+      "model": "H14 Pro",
+      "category": "wet-dry-vacuum",
+      "names": [
+        "Dreame H14 Pro"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://fr.dreametech.com/products/h14-pro",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0669/4387/7400/files/wide_angle_h14pro_1.jpg?v=1721810353",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Dreame",
+      "officialModel": "Dreame H14 Pro Aspirateur Laveur (SKU 011101AA000143)",
+      "rawFile": "dreame-h14-pro.jpg",
+      "notes": "Dreame's official French store (fr.dreametech.com). Gallery image #0 (wide_angle_h14pro_1.jpg), 800x800 JPEG, product alone on white, no overlay (the 1800 px PNG on the same page carries a Les Numériques award badge so it was not used). LEGAL DOUBT: fr.dreametech.com terms of service §5 forbid using site content for commercial purposes without a licence.",
+      "rawSha256": "802c36dae917b80e1c09bad84925cb85332bd764ee9ba0ce3e3ff8cd29b28a2f",
+      "rawWidth": 800,
+      "rawHeight": 800
+    },
+    {
+      "id": "dreame-h15-pro",
+      "brand": "Dreame",
+      "model": "H15 Pro",
+      "category": "wet-dry-vacuum",
+      "names": [
+        "Dreame H15 Pro"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://fr.dreametech.com/products/dreame-h15-pro",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0669/4387/7400/files/h15_pro_wide_angle_main_body.jpg?v=1736323540",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Dreame",
+      "officialModel": "Dreame H15 Pro Aspirateur Laveur (SKU 011101AA000185)",
+      "rawFile": "dreame-h15-pro.jpg",
+      "notes": "Dreame's official French store (fr.dreametech.com). Gallery image #0, 1200x1200 JPEG, product alone on white, no overlay. LEGAL DOUBT: fr.dreametech.com terms of service §5 forbid using site content for commercial purposes without a licence.",
+      "rawSha256": "60ff91b4bb4622fd0a3fa86be72d0db9c139218afaf8bd8c2a2f2818422b7d5f",
+      "rawWidth": 1200,
+      "rawHeight": 1200
+    },
+    {
+      "id": "dyson-purifier-cool-formaldehyde-tp09",
+      "brand": "Dyson",
+      "model": "Purifier Cool Formaldehyde TP09",
+      "category": "air-purifier",
+      "names": [
+        "Dyson Purifier Cool Formaldehyde TP09"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.dyson.fr/traitement-de-l-air/purificateurs-ventilateurs/purifier-cool-formaldehyde/blanc-or-tp09",
+      "imageUrl": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/369876-01.png?fmt=png-alpha&scl=1",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Dyson",
+      "officialModel": "Dyson Purifier Cool Formaldehyde TP09 (Blanc/Or, SKU 369876-01)",
+      "rawFile": "dyson-purifier-cool-formaldehyde-tp09.png",
+      "notes": "Dyson's own Adobe Scene7 asset server (dyson-h.assetsadobe2.com, the CDN behind dyson.fr product cards; same pattern as the already-merged dyson-v15-detect). The dyson.fr/dyson.com pages and their legal terms answer HTTP 403 (Cloudflare) to non-browser clients, so neither the page nor the site terms could be read: asset identified through Dyson's own SKU number as printed in the title of its dyson.fr support page. Native Scene7 size 800x1200 (no larger rendition), PNG with alpha, product alone, no overlay. LEGAL NOT VERIFIABLE.",
+      "rawSha256": "8b6b666198938a9e846477d9eb926f912215f437eb65730d31339ef1ca77e22c",
+      "rawWidth": 800,
+      "rawHeight": 1200
+    },
+    {
+      "id": "dyson-purifier-hot-cool-formaldehyde-hp09",
+      "brand": "Dyson",
+      "model": "Purifier Hot+Cool Formaldehyde HP09",
+      "category": "air-purifier",
+      "names": [
+        "Dyson Purifier Hot+Cool Formaldehyde HP09"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.dyson.fr/traitement-de-l-air/purificateurs-chauffages/purifier-hot-cool-formaldehyde/blanc-or-hp09",
+      "imageUrl": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/369020-01.png?fmt=png-alpha&scl=1",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Dyson",
+      "officialModel": "Dyson Purifier Hot+Cool Formaldehyde HP09 (Blanc/Or, SKU 369020-01)",
+      "rawFile": "dyson-purifier-hot-cool-formaldehyde-hp09.png",
+      "notes": "Dyson's own Adobe Scene7 asset server (dyson-h.assetsadobe2.com, the CDN behind dyson.fr product cards; same pattern as the already-merged dyson-v15-detect). The dyson.fr/dyson.com pages and their legal terms answer HTTP 403 (Cloudflare) to non-browser clients, so neither the page nor the site terms could be read: asset identified through Dyson's own SKU number as printed in the title of its dyson.fr support page. Native Scene7 size 800x1200 (no larger rendition), PNG with alpha, product alone, no overlay. LEGAL NOT VERIFIABLE.",
+      "rawSha256": "2bb9c984f4fb29007e1966faaf3717b46192c2791b156f3c512f08032c8189f5",
+      "rawWidth": 800,
+      "rawHeight": 1200
+    },
+    {
+      "id": "dyson-purifier-humidify-cool-formaldehyde-ph04",
+      "brand": "Dyson",
+      "model": "Purifier Humidify+Cool Formaldehyde PH04",
+      "category": "air-purifier",
+      "names": [
+        "Dyson Purifier Humidify+Cool Formaldehyde PH04"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.dyson.fr/traitement-de-l-air/purificateurs-humidificateurs/purifier-humidify-cool-formaldehyde/blanc-or-ph04",
+      "imageUrl": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/379491-01.png?fmt=png-alpha&scl=1",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Dyson",
+      "officialModel": "Dyson Purifier Humidify+Cool Formaldehyde PH04 (Blanc/Or, SKU 379491-01)",
+      "rawFile": "dyson-purifier-humidify-cool-formaldehyde-ph04.png",
+      "notes": "Dyson's own Adobe Scene7 asset server (dyson-h.assetsadobe2.com, the CDN behind dyson.fr product cards; same pattern as the already-merged dyson-v15-detect). The dyson.fr/dyson.com pages and their legal terms answer HTTP 403 (Cloudflare) to non-browser clients, so neither the page nor the site terms could be read: asset identified through Dyson's own SKU number as printed in the title of its dyson.fr support page. Native Scene7 size 800x1200 (no larger rendition), PNG with alpha, product alone, no overlay. LEGAL NOT VERIFIABLE.",
+      "rawSha256": "86755438f0416b2c70535986df62774c83efb47287ed38fda6987776bde51c30",
+      "rawWidth": 800,
+      "rawHeight": 1200
+    },
+    {
+      "id": "dyson-washg1",
+      "brand": "Dyson",
+      "model": "WashG1",
+      "category": "wet-dry-vacuum",
+      "names": [
+        "Dyson WashG1"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.dyson.fr/nettoyeurs-de-sols/washg1/noir-bleu",
+      "imageUrl": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/486236-01.png?fmt=png-alpha&scl=1",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Dyson",
+      "officialModel": "Dyson WashG1 (SKU 486236-01)",
+      "rawFile": "dyson-washg1.png",
+      "notes": "Dyson's own Adobe Scene7 asset server (dyson-h.assetsadobe2.com, the CDN behind dyson.fr product cards; same pattern as the already-merged dyson-v15-detect). The dyson.fr/dyson.com pages and their legal terms answer HTTP 403 (Cloudflare) to non-browser clients, so neither the page nor the site terms could be read: asset identified through Dyson's own SKU number as printed in the title of its dyson.fr support page. Native Scene7 size 800x1200 (no larger rendition), PNG with alpha, product alone, no overlay. LEGAL NOT VERIFIABLE.",
+      "rawSha256": "5c3392340b7c6ffae6c3d7fa7cf2c7efa9aa6dc3167e3f2ee704135756494b72",
+      "rawWidth": 800,
+      "rawHeight": 1200
+    },
+    {
+      "id": "ecovacs-deebot-t30-pro-omni",
+      "brand": "Ecovacs",
+      "model": "Deebot T30 Pro Omni",
+      "category": "robot-vacuum",
+      "names": [
+        "Ecovacs Deebot T30 Pro Omni"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.ecovacs.com/sg/deebot-robotic-vacuum-cleaner/deebot-t30-pro-omni-white",
+      "imageUrl": "https://site-static.ecovacs.com/upload/sg/image/product/2024/03/13/101621_2726-2-DEBBOT-T30-PRO-OMNI_Right.jpg",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Ecovacs",
+      "officialModel": "ECOVACS DEEBOT T30 PRO OMNI (White)",
+      "rawFile": "ecovacs-deebot-t30-pro-omni.jpg",
+      "notes": "Ecovacs official Singapore store (ecovacs.com/sg; the EU stores no longer list the T30 Pro Omni). Gallery image 2, 1280x1280 JPEG, robot docked in its Omni station, 3/4 view, plain white background, no overlay. LEGAL DOUBT: ecovacs.com/sg/terms-of-use says copying, redistribution, use or publication of any part of the website without express written consent is strictly prohibited. The Australian main image carries a caption with the product name, so it was not used.",
+      "rawSha256": "344ed8e9f4c9c76628731dd4fbd95491e3f26e7db23bfd4507c2c5f9bde1df74",
+      "rawWidth": 1280,
+      "rawHeight": 1280
+    },
+    {
+      "id": "mammotion-luba-3-awd-5000",
+      "brand": "Mammotion",
+      "model": "LUBA 3 AWD 5000",
+      "category": "robot-lawn-mower",
+      "names": [
+        "Mammotion LUBA 3 AWD 5000"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://eu.mammotion.com/products/luba-3-awd-robot-lawn-mower",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0746/2951/3493/files/33.png?v=1788945554",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Mammotion",
+      "officialModel": "MAMMOTION LUBA 3 AWD, variant LUBA 3 AWD 5000 (5000 m², SKU MTLA25LU35KEU)",
+      "rawFile": "mammotion-luba-3-awd-5000.png",
+      "rawSha256": "3628d96e393019cbaedbbb6bdd846e88bfa1395e6f7dfe7a82a08be20160c061",
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "notes": "Official EU store (eu.mammotion.com, Shopify). The 1500/3000/5000 variants of the LUBA 3 AWD share the same gallery, so this is the correct body; the 5000 variant only differs by coverage. Transparent-background PNG, 3/4 view, mower alone, no overlay. Other transparent views (front, back, side) are on the same page."
+    },
+    {
+      "id": "mammotion-luba-2-awd-3000x",
+      "brand": "Mammotion",
+      "model": "LUBA 2 AWD 3000X",
+      "category": "robot-lawn-mower",
+      "names": [
+        "Mammotion LUBA 2 AWD 3000X"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://uk.mammotion.com/products/luba-2-awd-robot-lawn-mower",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0750/4324/2285/files/LUBA_X_7c9e7f30-8f5d-433d-bba8-7b1a4febcd5d.jpg?v=1776473175",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Mammotion",
+      "officialModel": "MAMMOTION LUBA 2 AWD, variant LUBA 2 AWD 3000X (3000 m², SKU MTL24LUX1UK02; EU SKU MTL24LUX1EU02)",
+      "rawFile": "mammotion-luba-2-awd-3000x.jpg",
+      "rawSha256": "9b2984fa8b67df1f372ccb48682028ffa63fce3f8df667b7235d4bf4c5e92a82",
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "notes": "Official regional store (uk.mammotion.com, Shopify): the 3000X variant is listed there and in fr.mammotion.com; the eu/de stores now list only 5000X. All X variants share the same gallery/body. Mower alone on light grey studio background, 45-degree view, no badge or overlay. The first gallery image carries a 'TIME Best Inventions 2024' ribbon and was NOT used; the 4096px image shows an RTK wall-mount bracket and was NOT used. Light shadow under the mower is part of the render. UK plug SKU, same robot as EU."
+    },
+    {
+      "id": "ecowitt-wh51",
+      "brand": "Ecowitt",
+      "model": "WH51",
+      "category": "soil-sensor",
+      "names": [
+        "Ecowitt WH51"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://shop.ecowitt.com/products/wh51",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0548/6539/5874/files/WH51_fe602e66-7048-4b09-b384-a2412c347c30.jpg?v=1718276807",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Ecowitt",
+      "officialModel": "Ecowitt WH51 Wireless Soil Moisture Meter / Sensor (868 MHz EU variant FG-0WH51A-ECO1 sold on the same page)",
+      "rawFile": "ecowitt-wh51.jpg",
+      "rawSha256": "bd9ce81fe1a1aedad846304776668bc5e22c5f3a5a040fe10dec364c1e92e524",
+      "rawWidth": 1600,
+      "rawHeight": 1600,
+      "notes": "Ecowitt's own official store (shop.ecowitt.com, Shopify). Product alone on white, front view, no overlay (the gallery also has images with a retail box, 'ship from' text badges and a compatibility chart, none used). The sensor body is the same for the 915/868/433 MHz versions; this gallery image is the unbranded sensor. Legal check: the shop's Terms of Service only carry Shopify's standard clause against reproducing 'any portion of the Service' (the store itself) without written permission; nothing specific to product images or press use, so treated as a generic copyright notice."
+    },
+    {
+      "id": "homey-pro-early-2023",
+      "brand": "Homey",
+      "model": "Pro (Early 2023)",
+      "category": "smart-home-hub",
+      "names": [
+        "Homey Pro (Early 2023)"
+      ],
+      "sourceType": "press-kit",
+      "sourceUrl": "https://homey.app/en-us/press/",
+      "imageUrl": "https://drive.usercontent.google.com/download?id=185Qkb7M6UzG1k6PKEghDJpylQBuOZUhU&export=download",
+      "licence": "official press kit (Athom/Homey media kit, homey.app/en-us/press/): 'The files below are free to use for publications'; manufacturer packshot used unaltered with credit",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Athom (Homey)",
+      "officialModel": "Homey Pro (Early 2023), file 'Homey Pro - 3.png' from the 'Homey Pro (Early 2023)' folder of the Homey Media Kit",
+      "rawFile": "homey-pro-early-2023.png",
+      "rawSha256": "f60218e77206964932725b956adc291e65d1454268f0d5b102499dba55dc28fc",
+      "rawWidth": 1920,
+      "rawHeight": 1920,
+      "notes": "Press kit is a public Google Drive folder embedded in homey.app/en-us/press/ (folder 1W47TTX2j9l26sqFGOg_DDLqHTwh0Et8Q, listed without sign-in; file fetched with a single GET on the public download URL). Transparent-background PNG 1920x1920, hub alone, 3/4 view, no cable or text. Sibling files 'Homey Pro - 1.png' and '- 2.png' show the power cable; 'Homey Pro + Packaging.png' shows the retail box (not used). A newer 'Homey Pro (2026)' folder exists in the kit - NOT used since the slice names the Early 2023 model."
+    },
+    {
+      "id": "hoymiles-hms-800w-2t",
+      "brand": "Hoymiles",
+      "model": "HMS-800W-2T",
+      "category": "micro-inverter",
+      "names": [
+        "Hoymiles HMS-800W-2T"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.hoymiles.com/de/products/hms-600w-700w-800w-900w-1000w-2t-wi-fi-integrated-eu.html",
+      "imageUrl": "https://www.hoymiles.com/uploadfile/5/202507/6ba284189b.png",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Hoymiles",
+      "officialModel": "Hoymiles HMS-600W/700W/800W/900W/1000W-2T Wi-Fi integrated (EU) series page; render of the 2-input HMS-xxxW-2T microinverter",
+      "rawFile": "hoymiles-hms-800w-2t.png",
+      "rawSha256": "33c42b136e4bbdd89fccd4758673ccab610246ecc46f38677c3d135f7f4ad1b5",
+      "rawWidth": 1000,
+      "rawHeight": 983,
+      "notes": "Hoymiles publishes one page and one set of renders for the whole HMS-600/700/800/900/1000W-2T family (same housing, two MPPT inputs), so this render stands for the 800W-2T. Transparent-background PNG 1000x983, front view, silver housing with its cables, no text. The 4-input black HMS-1600/2000-4T render on the same page was not used. The /uploadfile/9/ (India) copies of these images return 403 to curl; the /uploadfile/5/ (de) copies are served normally. No explicit terms or licence page found on hoymiles.com beyond the privacy notice."
+    },
+    {
+      "id": "levoit-core-400s",
+      "brand": "Levoit",
+      "model": "Core 400S",
+      "category": "air-purifier",
+      "names": [
+        "Levoit Core 400S"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://levoit.de/products/levoit-core-400s-luftreiniger",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0840/9373/1138/files/core-400s-main_6f927736-1978-4528-94a2-c05bbae4629d.jpg?v=1750056297",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Levoit",
+      "officialModel": "Levoit Core 400S Smart Air Purifier (levoit.de listing 'Levoit Core 400S Luftreiniger', EU SKU HEAPAPLVSEU0209Y)",
+      "rawFile": "levoit-core-400s.jpg",
+      "rawSha256": "b733a1460af887610afa1edca7133ecdf50b0ea890ef63a7c44e78cd139538c2",
+      "rawWidth": 3000,
+      "rawHeight": 3000,
+      "notes": "Official EU store (levoit.de). 3000x3000, front view of the purifier alone on white, no overlay. Same file family as the product's other gallery image 'core-400s-main.jpg' which adds a phone + Wi-Fi icon and was NOT used. The US store's main image shows a smartphone, so the German store was used."
+    },
+    {
+      "id": "lumie-bodyclock-shine-300",
+      "brand": "Lumie",
+      "model": "Bodyclock Shine 300",
+      "category": "wake-up-light",
+      "names": [
+        "Lumie Bodyclock Shine 300"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.lumie.com/products/bodyclock-shine-300",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0957/2873/0441/files/Lumie-Bodyclock-Shine300-01.png?v=1756908486",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Lumie",
+      "officialModel": "Lumie Bodyclock Shine 300 (sunrise/sunset wake-up light with FM radio, UK store; EU/IE/US variants differ only by plug/adaptor)",
+      "rawFile": "lumie-bodyclock-shine-300.png",
+      "rawSha256": "16db492fff07e15a1aafcb0f613f53a4d58d26b4ff92b1eb87f9d34dc6960912",
+      "rawWidth": 4000,
+      "rawHeight": 4000,
+      "notes": "Official Lumie store (lumie.com, Shopify). Transparent-background PNG 4000x4000, front view with the dome lit warm white, product alone; the clock shows 07:00 on its own LCD (not an overlay). Three other renders of the same product with orange/yellow glow exist on the page. Terms of service are Shopify's standard text, no clause on images."
+    },
+    {
+      "id": "marstek-venus-e-3-0",
+      "brand": "Marstek",
+      "model": "Venus E 3.0",
+      "category": "home-battery",
+      "names": [
+        "Marstek Venus E 3.0"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://de.marstekenergy.com/products/venus-e-gen-3-0",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0797/0812/7410/files/VEV3.png?v=1792060233",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Marstek",
+      "officialModel": "MARSTEK VENUS E Gen 3.0 (SKU MEG-VENUS-E-V3), single-unit variant",
+      "rawFile": "marstek-venus-e-3-0.png",
+      "rawSha256": "f402817e093f85d95dcee348e3d9c4e9d765235100ad60f0a9a5545e4206aeab",
+      "rawWidth": 1500,
+      "rawHeight": 1500,
+      "notes": "Marstek's own EU store (de.marstekenergy.com, Shopify). Transparent-background PNG 1500x1500, front 3/4 view, battery alone with a soft floor glow, no text. The 1200x1200 main image on marstekenergy.com carries an 'iF Design Award 2026' badge and was not used. The shop's Terms of Service contain only Shopify's standard clause against reproducing 'any portion of the Service' (the store), nothing specific to images; treated as a generic copyright notice."
+    },
+    {
+      "id": "eve-aqua",
+      "brand": "Eve",
+      "model": "Aqua",
+      "category": "irrigation-controller",
+      "names": [
+        "Eve Aqua"
+      ],
+      "sourceType": "press-kit",
+      "sourceUrl": "https://www.evehome.com/en/image-library",
+      "imageUrl": "https://drive.usercontent.google.com/download?id=1tIZoc3bF-oMm5IfzCq9CdbGemchrIo9U&export=download",
+      "licence": "official press image library (evehome.com/en/image-library, public Google Drive press folders offered to publications); no explicit licence text on the page; manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Eve Systems",
+      "officialModel": "Eve Aqua (smart water controller for garden taps, Apple HomeKit over Bluetooth), file 'Eve_Aqua_Device_2.png' from the Eve Aqua > Images press folder",
+      "rawFile": "eve-aqua.png",
+      "rawSha256": "54fd0b256ab679ca322cd01f93b24fd59c41acce8cf71b98584c7cb40042fd5a",
+      "rawWidth": 5828,
+      "rawHeight": 5828,
+      "notes": "Eve press image library: the 'Eve Aqua' product folder lists the file 'Eve_Aqua_Device_2.png' (the Drive folders are public and were listed via the embedded folder view, no sign-in; one GET on the download URL). Transparent-background PNG 5828x5828, controller alone, front 3/4 view, no tap/hose, no text. The same folder also has 'Eve_Aqua_Device_Front', '..._with_tap_EU/US' and boxshots (not used)."
+    },
+    {
+      "id": "eve-motionblinds-upgrade-kit",
+      "brand": "Eve",
+      "model": "MotionBlinds Upgrade Kit",
+      "category": "motorized-blind",
+      "names": [
+        "Eve MotionBlinds Upgrade Kit"
+      ],
+      "sourceType": "press-kit",
+      "sourceUrl": "https://www.evehome.com/en/image-library",
+      "imageUrl": "https://drive.usercontent.google.com/download?id=1uoAiNLVpT4G_PRAK2_OCW3PXHRci44f-&export=download",
+      "licence": "official press image library (evehome.com/en/image-library, public Google Drive press folders offered to publications); no explicit licence text on the page; manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Eve Systems",
+      "officialModel": "Eve Motionblinds Upgrade Kit for Roller Blinds (Matter), motor for small diameter tubes, file '00_Eve_Motionblinds_Upgrade_Kit_Motor for small diameter tubes_Device_2.png'",
+      "rawFile": "eve-motionblinds-upgrade-kit.png",
+      "rawSha256": "8fc0f7bc809b2dea7e1dcb810e6b687591befed5a0e2714e24caab2308723c88",
+      "rawWidth": 3840,
+      "rawHeight": 2160,
+      "notes": "Eve press image library, folder 'Eve Motionblinds Upgrade Kit for Roller Blinds (Matter)' > Images. Official 3840x2160 render of the kit contents (motor tube, adapters, brackets) on a plain light grey background (opaque PNG), no text or badge. Landscape. The kit exists in small and large tube-diameter versions with separate folders; the small-diameter one was used. The press folder also contains retail boxshots and a version 'with badges' (not used)."
+    },
+    {
+      "id": "eve-thermo",
+      "brand": "Eve",
+      "model": "Thermo",
+      "category": "radiator-thermostat",
+      "names": [
+        "Eve Thermo"
+      ],
+      "sourceType": "press-kit",
+      "sourceUrl": "https://www.evehome.com/en/image-library",
+      "imageUrl": "https://drive.usercontent.google.com/download?id=1jRU9I97XWeQuPOeDCAcA5Tt6ayLyZD-H&export=download",
+      "licence": "official press image library (evehome.com/en/image-library, public Google Drive press folders offered to publications); no explicit licence text on the page; manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Eve Systems",
+      "officialModel": "Eve Thermo (current 5th generation, Matter over Thread smart radiator valve), file '00_Eve_Thermo_Device_01.png' from the Eve Thermo (Matter) > Images press folder",
+      "rawFile": "eve-thermo.png",
+      "rawSha256": "e4d0d59ec30724f3643849d2be48493efe4481217ad9ffd5ff0df4e846d21fdb",
+      "rawWidth": 2459,
+      "rawHeight": 2896,
+      "notes": "GENERATION: our article cites the 5th generation (late 2025); this is the tall valve with front display and up/down arrows that evehome.com/en/eve-thermo sells now (the 4th gen cube design is on /en/eve-thermo-4th-gen). Eve press image library; transparent-background PNG 2459x2896, valve alone, front view, no text or badge (the product's website hero and Open Graph images mix the 5th and previous generations or carry a 'SAVE heating costs' badge, so they were not used)."
+    },
+    {
+      "id": "mitsubishi-electric-msz-ay35vgk",
+      "brand": "Mitsubishi Electric",
+      "model": "MSZ-AY35VGK",
+      "category": "air-conditioner",
+      "names": [
+        "Mitsubishi Electric MSZ-AY35VGK"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.mitsubishielectric.es/aire-acondicionado/producto/aire-acondicionado/msz-ap-ay/",
+      "imageUrl": "https://www.mitsubishielectric.es/aire-acondicionado/wp-content/uploads/2023/01/indoor_VGK_left_close-scaled.jpg",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Mitsubishi Electric",
+      "officialModel": "Mitsubishi Electric MSZ-AY/AP series, VGK indoor wall unit (white); MSZ-AY35VGK is listed on this page",
+      "rawFile": "mitsubishi-electric-msz-ay35vgk.jpg",
+      "rawSha256": "5a24900857c012d22a7d6dbc00cbe5a380266065e56bba9d8bca21eff0f4749a",
+      "rawWidth": 1440,
+      "rawHeight": 634,
+      "notes": "Series page for MSZ-AP/AY (Mitsubishi Electric Spain, Aire Acondicionado) lists MSZ-AY35VGK(P); the image (alt \"MSZ-AY/AP\") is the VGK indoor wall unit in white on a plain white background, no text/badge. AP and AY indoor units share the same casing, so this is the series image rather than a 35-specific shot. Other images on the page rejected: MSZ-AY_1280x730.jpg carries the Spanish national team promo overlay; UK site packshot carries an R32 logo. Fetched at full size (1440x634) as served in /uploads/ (no -scaled crop). No explicit legal notice found."
+    },
+    {
+      "id": "netatmo-smart-indoor-air-quality-monitor",
+      "brand": "Netatmo",
+      "model": "Smart Indoor Air Quality Monitor",
+      "category": "air-quality-monitor",
+      "names": [
+        "Netatmo Smart Indoor Air Quality Monitor"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.netatmo.com/en-gb/smart-indoor-air-quality-monitor",
+      "imageUrl": "https://www.netatmo.com/img/dbe44cff-501d-4394-af7b-d3545f39bfbb",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Netatmo",
+      "officialModel": "Netatmo Smart Indoor Air Quality Monitor (NHC, rose-gold/default colour; product page og:image and first carousel image)",
+      "rawFile": "netatmo-smart-indoor-air-quality-monitor.jpg",
+      "rawSha256": "eefd2f374fbaba68e59bb0ced83c53f30c0c21c4b1b2653acf822095eb1ec17b",
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "notes": "First gallery image (\"Nhc Carrousel 1\") and og:image of the product page; product alone on a plain white background, no overlay. Rose-gold aluminium body (the standard colour; a white version NHC-W also exists). Served unaltered at 2000x2000 JPEG from netatmo.com/img/<uuid>."
+    },
+    {
+      "id": "ninja-woodfire-pro-connect-xl",
+      "brand": "Ninja",
+      "model": "Woodfire Pro Connect XL",
+      "category": "electric-grill",
+      "names": [
+        "Ninja Woodfire Pro Connect XL"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.sharkninja.de/ninja-woodfire-pro-connect-xl-elektrischer-outdoor-grill-smoker/OG901EU.html",
+      "imageUrl": "https://assets.sharkninja.com/image/upload/v1/SharkNinja-EU/OG901EU_01",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Ninja",
+      "officialModel": "Ninja Woodfire Pro Connect XL Elektrischer Outdoor Grill & Smoker — OG901EU (blue/black, with probe)",
+      "rawFile": "ninja-woodfire-pro-connect-xl.png",
+      "rawSha256": "3a8f721ae4ee03d5b1124ef6b630423461bfc8a93dea66c112ffec74a1d14e0c",
+      "rawWidth": 2070,
+      "rawHeight": 2070,
+      "notes": "Front view of the device with its thermometer probe, transparent background (PNG with alpha); display text is the unit's own screen. EU model OG901EU (the US equivalent is the OG951). Same SharkNinja-EU master-asset pattern as the already accepted Ninja AF500EU entry (assets.sharkninja.com, requested without transform); product page is on sharkninja.de (Cloudflare-protected for plain curl, so page identity checked via search listing; the _01 asset is the OG901EU master)."
+    },
+    {
+      "id": "philips-hue-lily-outdoor-spot-base-kit",
+      "brand": "Philips Hue",
+      "model": "Lily Outdoor Spot Base Kit",
+      "category": "outdoor-light",
+      "names": [
+        "Philips Hue Lily Outdoor Spot Base Kit"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.philips-hue.com/fr-fr/p/hue-white-and-color-ambiance-spot-exterieur-lily/1741430P7",
+      "imageUrl": "https://www.assets.signify.com/is/image/Signify/1741430P7-carousel-RTP_01?scl=1&fmt=png-alpha",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Philips Hue",
+      "officialModel": "Hue White and Color Ambiance Lily outdoor spotlight, base kit of 3 spots with power supply (black), 1741430P7",
+      "rawFile": "philips-hue-lily-outdoor-spot-base-kit.png",
+      "rawSha256": "5704656e9f336a7ec9a2e6cb45e57d0d493d9d9a7999d8e34cf9da050680bc1b",
+      "rawWidth": 1500,
+      "rawHeight": 1500,
+      "notes": "Main/og:image of the fr-fr product page \"3 spots extérieurs Hue Lily - Noir\" (the 3-spot base kit; the extension kit is a different SKU 1741530P7 and the single spot 1742730P7). Three spots in colour mode (magenta), transparent background PNG, no text. Scene7 asset at scl=1 with fmt=png-alpha, same method as the accepted Hue E27 entry. The page title does not literally say \"base kit\"; the base-vs-extension distinction comes from the SKU family (base kits include the power supply)."
+    },
+    {
+      "id": "philips-hue-outdoor-motion-sensor",
+      "brand": "Philips Hue",
+      "model": "Outdoor Motion Sensor",
+      "category": "motion-sensor",
+      "names": [
+        "Philips Hue Outdoor Motion Sensor"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.philips-hue.com/fr-fr/p/hue-detecteur-exterieur/8719514342262",
+      "imageUrl": "https://www.assets.signify.com/is/image/Signify/8718699625474%20EU-Carousel-MainProduct-RTP_01?scl=1&fmt=png-alpha",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Philips Hue",
+      "officialModel": "Hue Motion sensor extérieur / Hue Outdoor sensor, EAN 8719514342262 (black)",
+      "rawFile": "philips-hue-outdoor-motion-sensor.png",
+      "rawSha256": "79e2865e6122da6ba845f89910fa016f6056a00018092ed9aefa4e70eb87a6ea",
+      "rawWidth": 1500,
+      "rawHeight": 1500,
+      "notes": "Main carousel image and og:image of the fr-fr \"Hue Motion sensor extérieur\" page (the product Hue sells in English as \"Outdoor sensor\"); front view, black unit, soft shadow on white, no text. Scene7 asset at scl=1 with fmt=png-alpha (same method as the accepted Hue E27 entry)."
+    },
+    {
+      "id": "philips-hue-tap-dial-switch",
+      "brand": "Philips Hue",
+      "model": "Tap Dial Switch",
+      "category": "smart-switch",
+      "names": [
+        "Philips Hue Tap Dial Switch"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.philips-hue.com/fr-fr/p/hue-tap-dial-switch/8719514440937",
+      "imageUrl": "https://www.assets.signify.com/is/image/Signify/8719514440937-929003500201-Philips-Hue-Tap-dial-switch-EU-Black-RTP?scl=1",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Philips Hue",
+      "officialModel": "Hue Tap Dial Switch - Télécommande intelligente - Noir, EAN 8719514440937 / 929003500201",
+      "rawFile": "philips-hue-tap-dial-switch.jpg",
+      "rawSha256": "1a4405bbce51459c8d716f9b993005bc4b208e6aad77ae2f4fc2fa542f91b415",
+      "rawWidth": 2500,
+      "rawHeight": 2500,
+      "notes": "Main/og:image of the fr-fr product page (black version); 3/4 view of the dial with its wall plate on white, no text. The white version is 8719514440999. Saved as the white-background JPEG (scene7 URL with ?scl=1 only) because the fmt=png-alpha variant of this asset has a dithered semi-transparent shadow halo."
+    },
+    {
+      "id": "philips-perfectcare-7000-series-psg7130-20",
+      "brand": "Philips",
+      "model": "PerfectCare 7000 Series PSG7130/20",
+      "category": "steam-generator-iron",
+      "names": [
+        "Philips PerfectCare 7000 Series PSG7130/20"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.home-appliances.philips/fr/fr/p/PSG7130_20",
+      "imageUrl": "https://dam.versuni.com/transform/jpg2048x2048/779c89fe-4f85-406c-9c59-2b82e097765d/PSG7130_Primary.jpg",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Philips",
+      "officialModel": "Philips PerfectCare Série 7000 OptimalTEMP Centrale Vapeur PSG7130/20 (2100 W, 120 g/min)",
+      "rawFile": "philips-perfectcare-7000-series-psg7130-20.jpg",
+      "rawSha256": "65362a21bf69b94f278f486f051d7e715870365c0cbbcfece28866089c88512d",
+      "rawWidth": 2048,
+      "rawHeight": 2048,
+      "notes": "Primary (first gallery) image of the official Philips/Versuni FR product page, 3/4 view of the steam generator iron on white, no overlay text beyond the product's own markings. The page is a JS app (read through the browser pane); image fetched from the dam.versuni.com transform URL at 2048x2048 JPEG, same CDN and method as the accepted Philips entries."
+    },
+    {
+      "id": "philips-perfectcare-8000-series-psg8160-30",
+      "brand": "Philips",
+      "model": "PerfectCare 8000 Series PSG8160/30",
+      "category": "steam-generator-iron",
+      "names": [
+        "Philips PerfectCare 8000 Series PSG8160/30"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.home-appliances.philips/fr/fr/p/PSG8160_30",
+      "imageUrl": "https://dam.versuni.com/transform/jpg2048x2048/aefe00eb-280c-48f6-9957-4c8e007aed51/Standard-Product-Photo-Philips-PerfectCare-8000-Series-Steam-generator-PSG8160_30.jpg",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Philips",
+      "officialModel": "Philips PerfectCare Série 8000 OptimalTEMP Centrale Vapeur PSG8160/30 (8.5 bar, plum, 1.8 L)",
+      "rawFile": "philips-perfectcare-8000-series-psg8160-30.jpg",
+      "rawSha256": "eb09fa479bece6837324f79e84640e1df98cd1850120516e74deb887b9efef86",
+      "rawWidth": 2048,
+      "rawHeight": 2048,
+      "notes": "\"Standard Product Photo\" (first gallery image) of the official Philips/Versuni FR product page, 3/4 view on white with a soft floor shadow, no overlay. JS app read through the browser pane; image from dam.versuni.com transform URL at 2048x2048 JPEG, same CDN and method as the accepted Philips entries."
+    },
+    {
+      "id": "philips-smartsleep-sleep-wake-up-light-hf3650-01",
+      "brand": "Philips",
+      "model": "SmartSleep Sleep & Wake-up Light HF3650/01",
+      "category": "wake-up-light",
+      "names": [
+        "Philips SmartSleep Sleep & Wake-up Light HF3650/01"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.philips.nl/c-p/HF3650_01/smartsleep-sleep-wake-up-light-met-relaxbreathe-om-in-slaap-te-vallen",
+      "imageUrl": "https://images.philips.com/is/image/philipsconsumer/51cd2062020741ccb332adb900a3a864?$jpglarge$&wid=2000&hei=2000",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Philips",
+      "officialModel": "Philips SmartSleep Sleep & Wake-up Light HF3650/01 (with RelaxBreathe)",
+      "rawFile": "philips-smartsleep-sleep-wake-up-light-hf3650-01.jpg",
+      "rawSha256": "aa8b27d6f59b69fdd85bcf73609ee1f8af55d540a6adf5e38554636be3eccff3",
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "notes": "og:image of the official Philips (philips.nl) product page for HF3650/01: 3/4 view of the lamp on a plain white background, no overlay (the lit display reads 7:30, which is the product screen). Image served by Philips Scene7 (images.philips.com); rendered at 2000x2000 with wid/hei parameters - the master size is not published, so the file may be slightly upscaled. philips.fr/c-p/HF3650_01 returns 404, hence the NL page (same model code, same asset family as philips.de)."
+    },
+    {
+      "id": "philips-wake-up-light-hf3520-01",
+      "brand": "Philips",
+      "model": "Wake-up Light HF3520/01",
+      "category": "wake-up-light",
+      "names": [
+        "Philips Wake-up Light HF3520/01"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.philips.fr/c-p/HF3520_01/eveil-lumiere",
+      "imageUrl": "https://images.philips.com/is/image/philipsconsumer/5c56e36a837a4aa69912adb800d77123?$jpglarge$&wid=2000&hei=2000",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Philips",
+      "officialModel": "Philips Éveil Lumière / Wake-up Light HF3520/01 (coloured sunrise simulation, 5 natural sounds)",
+      "rawFile": "philips-wake-up-light-hf3520-01.jpg",
+      "rawSha256": "273255c0bb06745e7763db55d4ddd3021be4434f457648ef8c17db48d6c394a5",
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "notes": "og:image of the official philips.fr product page (identical asset on philips.nl): 3/4 view of the lamp lit in sunrise colours on white with a floor reflection; the on-device display reads 07:00 (product screen, not an overlay). Image served by Philips Scene7 (images.philips.com), rendered at 2000x2000 with wid/hei parameters - master size not published, may be slightly upscaled."
+    },
+    {
+      "id": "philips-welcomeeye-connect-3",
+      "brand": "Philips",
+      "model": "WelcomeEye Connect 3",
+      "category": "video-doorphone",
+      "names": [
+        "Philips WelcomeEye Connect 3"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.philips.fr/c-p/DES9930VDP_10/welcomeeye-connect-3-3k-connected-video-door-phone",
+      "imageUrl": "https://images.philips.com/is/image/philipsconsumer/fa9a7c2abf35434785f7b14800ac4325?$jpglarge$&wid=2000&hei=2000",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Philips",
+      "officialModel": "Philips WelcomeEye Connect 3 - interphone vidéo connecté 3K DES9930VDP/10 (outdoor unit + 7\" indoor monitor)",
+      "rawFile": "philips-welcomeeye-connect-3.jpg",
+      "rawSha256": "8f60edef70d875144bc9243f67ef49b9d3432daa04e8759e88d816de6abaac1c",
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "notes": "og:image / first gallery image of the official philips.fr page: outdoor unit and indoor monitor on plain white, no phone, no badge. DOUBT FOR HUMAN REVIEW: the monitor shows the manufacturer's stock portrait of a smiling woman and the door unit carries a \"BAKER FAMILY\" name tag (both part of the render, not an overlay) - delete if a person's face on screen is unwanted. All other gallery images are lifestyle/phone shots. Philips-branded video door phones are licensed products (sold by Avidsen under the Philips brand); the page is the official philips.fr one. Scene7 rendering at 2000x2000 (master size not published)."
+    },
+    {
+      "id": "roborock-q7-m5",
+      "brand": "Roborock",
+      "model": "Q7 M5",
+      "category": "robot-vacuum",
+      "names": [
+        "Roborock Q7 M5"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://us.roborock.com/pages/roborock-q7-series",
+      "imageUrl": "https://us.roborock.com/cdn/shop/files/Talc_C_Pro_Black_ID.png?v=1782199388",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Roborock",
+      "officialModel": "Roborock Q7 M5 robot vacuum and mop with standard charging dock (black)",
+      "rawFile": "roborock-q7-m5.png",
+      "rawSha256": "ed522e7952cc047288f17f0412c65aaafbfffcb00e7cdf17a1c71b66fde0d8af",
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "notes": "Image labelled alt=\"Roborock Q7 M5\" on the official Roborock US Q7 series page (robot + its simple charging dock, no auto-empty dock = not the M5+). Clean render, transparent background PNG, no text. Same method/host family as the accepted roborock-q7-m5-plus entry. The fr.roborock.com Q7 M5 product page was checked first but its gallery is only marketing slides (badges, \"N°1 Mondial\") and the main image has phone + watch next to the robot. White variant: Talc_C_Pro_White_ID.png (same page)."
+    },
+    {
+      "id": "roborock-s8-maxv-ultra",
+      "brand": "Roborock",
+      "model": "S8 MaxV Ultra",
+      "category": "robot-vacuum",
+      "names": [
+        "Roborock S8 MaxV Ultra"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://fr.roborock.com/pages/roborock-s8-maxv-ultra",
+      "imageUrl": "https://fr.roborock.com/cdn/shop/files/S8_MaxV_Ultra_Black_ID.png?v=1758869433",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Roborock",
+      "officialModel": "Roborock S8 MaxV Ultra with RockDock Ultra multifunction dock (black)",
+      "rawFile": "roborock-s8-maxv-ultra.png",
+      "rawSha256": "77942a7ff8f6d838c07043b4bfa0474e6597e9b9d838092556d1a2778ec9f7b7",
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "notes": "Official \"S8 MaxV Ultra\" identity render used by the fr.roborock.com model nav / series page (robot docked in the RockDock Ultra), transparent background PNG, no text or badge. Black version (a white one exists). Same method as the accepted roborock-qrevo-curv entry (fr.roborock.com/.../*_ID.png)."
+    },
+    {
+      "id": "shelly-1pm-gen4",
+      "brand": "Shelly",
+      "model": "1PM Gen4",
+      "category": "smart-relay",
+      "names": [
+        "Shelly 1PM Gen4"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.shelly.com/products/shelly-1pm-gen4",
+      "imageUrl": "https://www.shelly.com/cdn/shop/files/Shelly-1PM-Gen4-main-image.png?v=1739527960",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Shelly (Allterco Robotics)",
+      "officialModel": "Shelly 1PM Gen4 - smart relay with power metering (single unit)",
+      "rawFile": "shelly-1pm-gen4.png",
+      "rawSha256": "91d3ecfa951bd61a01097406398225bed3aee41b31b642ff28ce2904089da9cb",
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "notes": "Main image / og:image of the official Shelly Europe product page: single red module on a transparent background (PNG with alpha), no text overlay. The same page also offers 2-pack and 4-pack images; the single-unit image was used."
+    },
+    {
+      "id": "shelly-em-gen3",
+      "brand": "Shelly",
+      "model": "EM Gen3",
+      "category": "energy-meter",
+      "names": [
+        "Shelly EM Gen3"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.shelly.com/products/shelly-em-gen3",
+      "imageUrl": "https://www.shelly.com/cdn/shop/files/Shelly-EM-Gen3-main-image.png?v=1728993665",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Shelly (Allterco Robotics)",
+      "officialModel": "Shelly EM Gen3 - single-phase energy meter with 50 A clamp",
+      "rawFile": "shelly-em-gen3.png",
+      "rawSha256": "5bfdba9fc67c767d3f7d9b8161508f12d823882c229d6fb4186d2ebf81cfca63",
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "notes": "Main image / og:image of the official Shelly Europe product page: module plus its CT clamp on a transparent background (PNG with alpha), no text overlay."
+    },
+    {
+      "id": "shelly-flood-gen4",
+      "brand": "Shelly",
+      "model": "Flood Gen4",
+      "category": "leak-sensor",
+      "names": [
+        "Shelly Flood Gen4"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.shelly.com/products/shelly-flood-gen4",
+      "imageUrl": "https://www.shelly.com/cdn/shop/files/Shelly-Flood-Gen4-main-image-02_1.png?v=1756710152",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Shelly (Allterco Robotics)",
+      "officialModel": "Shelly Flood Gen4 - Wi-Fi/Matter water leak sensor with probe cable",
+      "rawFile": "shelly-flood-gen4.png",
+      "rawSha256": "7d00e5d8f7df3968e1f5832f2a0fc97987ee283194e5d8ce0ddfad7b107dc79a",
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "notes": "Main image / og:image of the official Shelly Europe product page: sensor with its probe cable on a transparent background (PNG with alpha), no text overlay."
+    },
+    {
+      "id": "shelly-pro-3em",
+      "brand": "Shelly",
+      "model": "Pro 3EM",
+      "category": "energy-meter",
+      "names": [
+        "Shelly Pro 3EM"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.shelly.com/products/shelly-pro-3em-1",
+      "imageUrl": "https://www.shelly.com/cdn/shop/files/Shelly-Pro-3EM-120-main-image.png?v=1727260148",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Shelly (Allterco Robotics)",
+      "officialModel": "Shelly Pro 3EM (120 A clamps) - DIN-rail 3-phase energy meter",
+      "rawFile": "shelly-pro-3em.png",
+      "rawSha256": "92df9f3dbfc7a11350b4ae1921c3c356026130d42df9108444802581cd7f1762",
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "notes": "The official page \"Shelly Pro 3EM\" offers two variants: the 120 A clamp version (standard Pro 3EM, used here) and the Pro 3EM-400 with 400 A clamps (Shelly-Pro-3EM-400-main-image.png). Image: module on a DIN rail with its three CT clamps, transparent PNG with alpha, no overlay text (the module's own LED legend is printed on the product)."
+    },
+    {
+      "id": "segway-navimow-i105e",
+      "brand": "Segway",
+      "model": "Navimow i105E",
+      "category": "robot-lawn-mower",
+      "names": [
+        "Segway Navimow i105E"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://navimow.segway.com/products/navimow-i105",
+      "imageUrl": "https://navimow.segway.com/cdn/shop/files/Naivmow_i105_1000_1_8.png?v=1770228138",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Segway-Ninebot",
+      "officialModel": "Navimow i105e Robot Lawn Mower (Segway Navimow Europe store, light grey)",
+      "rawFile": "segway-navimow-i105e.png",
+      "rawSha256": "91ef967c53a3c973917d17119741d5448c2cd856287ed820ce58091d970d7d4f",
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "notes": "Main product image and og:image of the official Segway Navimow Europe product page titled \"Navimow i105e Robot Lawn Mower\" (URL slug navimow-i105): 3/4 view of the mower on a transparent background, no text beyond the product's own markings. Dark-grey i110 variant is a different model (110.png on the same page)."
+    },
+    {
+      "id": "switchbot-curtain-3",
+      "brand": "SwitchBot",
+      "model": "Curtain 3",
+      "category": "smart-curtain",
+      "names": [
+        "SwitchBot Curtain 3"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.switch-bot.com/products/switchbot-curtain-3",
+      "imageUrl": "https://www.switch-bot.com/cdn/shop/products/switchbot-curtain-3-550554.jpg?v=1766981670",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© SwitchBot",
+      "officialModel": "SwitchBot Curtain 3 (rod version, white), first image of the official SwitchBot international store page",
+      "rawFile": "switchbot-curtain-3.jpg",
+      "rawSha256": "05595e2d5ef9763868d7afb9459be7e8f12d12b80dfcb66ca44c50bcef21fe4a",
+      "rawWidth": 2048,
+      "rawHeight": 2048,
+      "notes": "First product image and og:image of the official page (switch-bot.com/products/switchbot-curtain-3): device alone on white, no text. 2048x2048 original Shopify file (URL without size suffix). The page sells Rod and U-Rail versions; the pictured unit is the rod-type hook version."
+    },
+    {
+      "id": "tp-link-tapo-c220",
+      "brand": "TP-Link",
+      "model": "Tapo C220",
+      "category": "indoor-camera",
+      "names": [
+        "TP-Link Tapo C220"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.tp-link.com/fr/home-networking/cloud-camera/tapo-c220/",
+      "imageUrl": "https://static.tp-link.com/upload/image-line/01_large_20250610013736h.jpg",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© TP-Link",
+      "officialModel": "Tapo C220 - caméra de surveillance panoramique/inclinable 2K (France page)",
+      "rawFile": "tp-link-tapo-c220.jpg",
+      "rawSha256": "7d5048e61acb144eeb1cb40da73fd265210e864166c5dfe1a1b5d544ce3e387a",
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "notes": "First gallery image (01_large) of the official tp-link.com/fr product page: camera alone on white, front view, no text/badge. (The og:image on that page, 02_large, is a feature-collage and was rejected.) Same host/method as the accepted tp-link entries."
+    },
+    {
+      "id": "tp-link-tapo-c520ws",
+      "brand": "TP-Link",
+      "model": "Tapo C520WS",
+      "category": "outdoor-camera",
+      "names": [
+        "TP-Link Tapo C520WS"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.tp-link.com/fr/home-networking/cloud-camera/tapo-c520ws/",
+      "imageUrl": "https://static.tp-link.com/upload/image-line/Tapo_C520WS_EU_1.0_overview_01_large_20230518095424f.jpg",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© TP-Link",
+      "officialModel": "Tapo C520WS - caméra de surveillance extérieure panoramique/inclinable WiFi 2K QHD (EU 1.0)",
+      "rawFile": "tp-link-tapo-c520ws.jpg",
+      "rawSha256": "c2f3d7d3c359758264568e2e64bb3b6285a4c77c2d30bb29f3d1f6983564f804",
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "notes": "First gallery image / og:image of the official tp-link.com/fr product page: camera alone on white, 3/4 view with antenna and mount, no text or badge. Same host/method as the accepted tp-link entries."
+    },
+    {
+      "id": "tp-link-tapo-d235",
+      "brand": "TP-Link",
+      "model": "Tapo D235",
+      "category": "video-doorbell",
+      "names": [
+        "TP-Link Tapo D235"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.tp-link.com/fr/home-networking/cloud-camera/tapo-d235/",
+      "imageUrl": "https://static.tp-link.com/upload/image-line/Tapo_D235_US_1.0_04_large_20231213030859s.jpg",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© TP-Link",
+      "officialModel": "Tapo D235 - carillon/sonnette vidéo Tapo 2K (doorbell + included chime)",
+      "rawFile": "tp-link-tapo-d235.jpg",
+      "rawSha256": "31f3d2b03aae042d0afeb170ec4110bf2e12fd31fa958bbbce24e253dfb587e7",
+      "rawWidth": 1000,
+      "rawHeight": 1000,
+      "notes": "og:image / first image of the official tp-link.com/fr product page: doorbell and its plug-in chime front view on white, no text or badge (the chime is part of the kit in Europe). Same host/method as the accepted tp-link entries; byte-identical file to the one on the Nordic page."
+    },
+    {
+      "id": "thirdreality-smart-soil-moisture-sensor-gen2",
+      "brand": "ThirdReality",
+      "model": "Smart Soil Moisture Sensor Gen2",
+      "category": "soil-sensor",
+      "names": [
+        "ThirdReality Smart Soil Moisture Sensor Gen2"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.thirdreality.com/products/smart-soil-moisture-sensor-gen2",
+      "imageUrl": "https://www.thirdreality.com/cdn/shop/files/1.jpg?v=1769422681",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© ThirdReality",
+      "officialModel": "ThirdReality Smart Soil Moisture Sensor Gen2 (Zigbee)",
+      "rawFile": "thirdreality-smart-soil-moisture-sensor-gen2.jpg",
+      "rawSha256": "f705111f008ef1cb3cf63c234ce01a0107876e48c060aa1f2b32a2769d2597af",
+      "rawWidth": 1500,
+      "rawHeight": 1500,
+      "notes": "First image and og:image of the official ThirdReality Gen2 product page: sensor alone on a plain white background, no text or badge. 1500x1500 original Shopify file. (Images 2-5 of the page are feature/lifestyle graphics and were not used.)"
+    },
+    {
+      "id": "trotec-pac-3910-x-wifi",
+      "brand": "Trotec",
+      "model": "PAC 3910 X WiFi",
+      "category": "portable-air-conditioner",
+      "names": [
+        "Trotec PAC 3910 X WiFi"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://en.trotec.com/shop/air-conditioner-pac-3910-x.html",
+      "imageUrl": "https://cdn.trotec.com/en_DE/1210002133/Air-conditioning-unit-PAC-3910-X-WiFi-163224-1744872765.jpg",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Trotec",
+      "officialModel": "Trotec Portable air conditioner PAC 3910 X WiFi (front view)",
+      "rawFile": "trotec-pac-3910-x-wifi.jpg",
+      "rawSha256": "15247344f9fe1573fb7982b38d7dda483f2705b2e8515944536c82d97ac14b24",
+      "rawWidth": 2000,
+      "rawHeight": 2000,
+      "notes": "Second gallery image of the official Trotec shop page: front view of the unit alone on white, no text/badge. The first gallery image (og:image, ...163231) was rejected because it shows a Wi-Fi pictogram overlay and the remote; back/side/detail/lifestyle/dimension/energy-label images were not used. Original-size file from cdn.trotec.com (no resizing parameters)."
+    },
+    {
+      "id": "wallbox-pulsar-max",
+      "brand": "Wallbox",
+      "model": "Pulsar Max",
+      "category": "ev-charger",
+      "names": [
+        "Wallbox Pulsar Max"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://support.wallbox.com/en/knowledge-base/pulsar-max-products-overview/",
+      "imageUrl": "https://support.wallbox.com/wp-content/uploads/ht_kb/2025/02/Pulsar-Max-2025-Visual.png",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Wallbox",
+      "officialModel": "Wallbox Pulsar Max (2025 visual: tethered and socket versions, black), Wallbox Help Center \"Pulsar Max - Products Overview\"",
+      "rawFile": "wallbox-pulsar-max.png",
+      "rawSha256": "83cb4d4dbdf1b60b1eab51ce838771610f058835ffd3d8bea4f44815323ca219",
+      "rawWidth": 800,
+      "rawHeight": 800,
+      "notes": "og:image of the official Wallbox Help Center product-overview page: the two Pulsar Max variants (tethered unit and socket unit) side by side on a transparent background (PNG), no text or badge. wallbox.com has no standalone Pulsar Max product page that could be fetched (the wallbox.com/en/pulsar-family page only offers lifestyle/app composites), so the support-site visual was used. Shows two units rather than one, and the black colour only (white also exists)."
+    },
+    {
+      "id": "weber-searwood-600",
+      "brand": "Weber",
+      "model": "Searwood 600",
+      "category": "pellet-grill",
+      "names": [
+        "Weber Searwood 600"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.weber.com/US/en/wood-pellet/searwood/searwood-600-wood-pellet-grill/1500120.html",
+      "imageUrl": "https://amer.weber.com/cdn/shop/files/1500120_B2_1800x1800_sync.png?v=1783623367",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Weber",
+      "officialModel": "Weber Searwood 600 Pellet Grill (part 1500120, black)",
+      "rawFile": "weber-searwood-600.png",
+      "rawSha256": "adf0cdd8960a464da8fa390c347138c9e4eeebcac57701834d2810117e6d2594",
+      "rawWidth": 1800,
+      "rawHeight": 1800,
+      "notes": "Main image (1500120_B2) of the official Weber US/Americas store page (weber.com/US redirects to amer.weber.com): front view of the grill on a transparent background (PNG), no text or badge; the controller screen and Searwood label are the product's own. The Searwood 600 is a US-market model; the page is Weber's official store for it (no EU/FR page exists to cite)."
+    },
+    {
+      "id": "weber-genesis-epx-335-smart",
+      "brand": "Weber",
+      "model": "Genesis EPX-335 Smart",
+      "category": "gas-grill",
+      "names": [
+        "Weber Genesis EPX-335 Smart"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.weber.com/JP/en/gas/genesis/genesis-se-epx-335-smart-gas-grill/35813013.html",
+      "imageUrl": "https://product-images.weber.com/35813004B_1800x1800.png",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Weber",
+      "officialModel": "Weber GENESIS SE-EPX-335 Smart Gas Grill (Weber JP page, SKU 35813013; the EU EPX-335 Smart is SKU 35810074)",
+      "rawFile": "weber-genesis-epx-335-smart.png",
+      "rawSha256": "6b779acec4915b95c9f699d6e76a537629ea6efda479e1b3ec5796afa53f8b19",
+      "rawWidth": 1800,
+      "rawHeight": 1800,
+      "notes": "Front view of the black 3-burner Genesis Smart with side burner and Weber Connect display, on white, no text or badge. DOUBT: Weber's own EU/UK/IE pages for the \"Genesis EPX-335 Smart\" (35810074) are gone (404 / redirect to the newer EPX-335W generation, which was NOT used); the live official page for the same 2022-generation grill is the Asia-Pacific \"SE-EPX-335 Smart\" listing, so the pictured grill is the same model/generation sold under a regional SKU. Native 1800x1800 file from product-images.weber.com."
+    },
+    {
+      "id": "xiaomi-robot-vacuum-e5",
+      "brand": "Xiaomi",
+      "model": "Robot Vacuum E5",
+      "category": "robot-vacuum",
+      "names": [
+        "Xiaomi Robot Vacuum E5"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.mi.com/de/product/xiaomi-robot-vacuum-e5/",
+      "imageUrl": "https://i05.appmifile.com/446_item_de/24/06/2024/018836dcf6b065b977bc71b782d5aa06.png",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Xiaomi",
+      "officialModel": "Xiaomi Robot Vacuum E5 (white, with charging dock) - mi.com Germany product page",
+      "rawFile": "xiaomi-robot-vacuum-e5.png",
+      "rawSha256": "aa58e191fd54aea9212699e730aebc79008464a80281a88bb3e854e8e13a5f95",
+      "rawWidth": 1600,
+      "rawHeight": 1600,
+      "notes": "og:image of the official Xiaomi Germany product page: robot with its charging dock on a transparent background (PNG), no text or badge. Same host (appmifile.com) and method as the accepted Xiaomi entries. The Belgian page (be-fr) uses a robot-only 3/4 render of the same model."
+    },
+    {
+      "id": "xiaomi-smart-dehumidifier-lite",
+      "brand": "Xiaomi",
+      "model": "Smart Dehumidifier Lite",
+      "category": "dehumidifier",
+      "names": [
+        "Xiaomi Smart Dehumidifier Lite"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.mi.com/fr/product/xiaomi-smart-dehumidifier-lite/",
+      "imageUrl": "https://i05.appmifile.com/629_item_fr/27/11/2024/723aba456176e20a4de7f66b90f174fa.png",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Xiaomi",
+      "officialModel": "Xiaomi Smart Dehumidifier Lite (white) - mi.com France product page",
+      "rawFile": "xiaomi-smart-dehumidifier-lite.png",
+      "rawSha256": "d25f3677519f8f88d830d13e5da7fe1bd0a874a5d50e706af172d91e3340ff07",
+      "rawWidth": 1600,
+      "rawHeight": 1600,
+      "notes": "og:image of the official Xiaomi France product page: unit alone on a transparent background (PNG), no text or badge. Same host (appmifile.com) and method as the accepted Xiaomi entries."
+    },
+    {
+      "id": "xiaomi-smart-standing-fan-2-pro",
+      "brand": "Xiaomi",
+      "model": "Smart Standing Fan 2 Pro",
+      "category": "fan",
+      "names": [
+        "Xiaomi Smart Standing Fan 2 Pro"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.mi.com/fr/product/xiaomi-smart-standing-fan-2-pro/",
+      "imageUrl": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1681110063.96372894.png",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Xiaomi",
+      "officialModel": "Xiaomi Smart Standing Fan 2 Pro (white) - mi.com France product page",
+      "rawFile": "xiaomi-smart-standing-fan-2-pro.png",
+      "rawSha256": "25e9d782e1783dcfa2166abf5927c8857a6244c1ba69322f8a25fa4683ababc7",
+      "rawWidth": 800,
+      "rawHeight": 800,
+      "notes": "og:image of the official Xiaomi France product page (byte-identical file on the German page): fan alone, front view, on a transparent background (PNG), no text or badge. Only 800x800 at source (above the 600 px minimum). Same host (appmifile.com) as the accepted Xiaomi entries."
+    },
+    {
+      "id": "zaptec-go-2",
+      "brand": "Zaptec",
+      "model": "Go 2",
+      "category": "ev-charger",
+      "names": [
+        "Zaptec Go 2"
+      ],
+      "sourceType": "product-page",
+      "sourceUrl": "https://www.zaptec.com/charging-solutions/home-charging/zaptec-go-2",
+      "imageUrl": "https://zaptec.objects.frb.io/assets/Zaptec-Go-2/Zaptec_Go-2_Front_AsphaltBlack.webp",
+      "licence": "official product page — no explicit licence (generic site copyright notice); manufacturer packshot used unaltered with credit for product identification",
+      "retrievedAt": "2026-10-30",
+      "credit": "© Zaptec",
+      "officialModel": "Zaptec Go 2 home charging station, front view, Asphalt Black",
+      "rawFile": "zaptec-go-2.webp",
+      "rawSha256": "26358a1c62c233d05ff0a851eacc3c506ecbf6b5cb1348b620c701bfea6242aa",
+      "rawWidth": 1280,
+      "rawHeight": 799,
+      "notes": "First product image of the official zaptec.com Go 2 page (read through the browser pane because plain curl on zaptec.com gets a Vercel security checkpoint, 429); the image itself is the brand asset on zaptec.objects.frb.io fetched with a single plain GET. Front view on a transparent background (WebP with alpha), no text or badge. Black version; other colour covers are sold as accessories. 1280x799 at source."
     }
   ],
   "skipped": [
@@ -1121,6 +2549,468 @@
       "brand": "X-Sense",
       "model": "XS01-WX",
       "reason": "Every official image has an overlay ('1 Pack' badge, phone in hand, feature icons) or is a lifestyle shot."
+    },
+    {
+      "id": "ajax-motionprotect-outdoor",
+      "brand": "Ajax",
+      "model": "MotionProtect Outdoor",
+      "reason": "Official ajax.systems renders show the detector only on a stylised black background with decorative rings (no plain/transparent packshot); the catalogue thumbnail is 250 px and the press asset folder needs a sign-in."
+    },
+    {
+      "id": "apple-airtag-2nd-generation",
+      "brand": "Apple",
+      "model": "AirTag (2nd generation)",
+      "reason": "Legal: Apple's 'Guidelines for Using Apple Trademarks and Copyrights' (apple.com/legal/intellectual-property/guidelinesfor3rdparties.html) say Apple does not support third-party use of images of Apple products in marketing/promotional material and that its own photographs require express written permission."
+    },
+    {
+      "id": "apple-homepod-mini",
+      "brand": "Apple",
+      "model": "HomePod mini",
+      "reason": "Legal: Apple's 'Guidelines for Using Apple Trademarks and Copyrights' (apple.com/legal/intellectual-property/guidelinesfor3rdparties.html) say Apple does not support third-party use of images of Apple products in marketing/promotional material and that its own photographs require express written permission."
+    },
+    {
+      "id": "aromatherapy-associates-atomiser-connect",
+      "brand": "Aromatherapy Associates",
+      "model": "Atomiser Connect",
+      "reason": "No clean packshot on the brand's own page: the gallery has a Get The Gloss award badge + retail box, a review-claim overlay render, a top-down view and a lifestyle table scene."
+    },
+    {
+      "id": "asakuki-smart-wi-fi-essential-oil-diffuser-500ml",
+      "brand": "ASAKUKI",
+      "model": "Smart Wi-Fi Essential Oil Diffuser 500ml",
+      "reason": "asakuki.com (Rock Smart Wi-Fi 500ml) only offers images with a phone app screen next to the diffuser or infographic/lifestyle overlays; no plain product-only packshot."
+    },
+    {
+      "id": "beko-b7t88209",
+      "brand": "Beko",
+      "model": "B7T88209",
+      "reason": "Official page (beko.com/de-de/produkte/trockner/trockner-warmepumpentrockner-8-kg-b7t88209) answers HTTP 403 Access Denied to every non-browser request, robots.txt included, and no other Beko site carries this German-market model; no download without bypassing the bot block."
+    },
+    {
+      "id": "blueair-blue-pure-411i-max",
+      "brand": "Blueair",
+      "model": "Blue Pure 411i Max",
+      "reason": "Exact model not on Blueair's own sites: blueair.com now only lists the different 'Blue Pure 411i+ Max' (SKU 115694) and the old 411i Max handle returns 404; the EU store blueair.co sells 211i/311i/511i Max under other numbers and has no 411i Max."
+    },
+    {
+      "id": "boneco-h700-smart",
+      "brand": "BONECO",
+      "model": "H700 SMART",
+      "reason": "On boneco.com the only product-alone image (H700_Smart_3.jpg) carries an overlaid red Wi-Fi icon badge; the rest are an app/phone scene, a close-up with Wi-Fi graphics and a lifestyle room; downloads page has manuals only."
+    },
+    {
+      "id": "bosch-serie-6-sms6zci42e",
+      "brand": "Bosch",
+      "model": "Serie 6 SMS6ZCI42E",
+      "reason": "Legal: bosch-home.fr legal notice (mentions légales, 'Droit de la propriété intellectuelle') reserves all reproduction rights to BSH Electroménager, photographs included, and forbids any reproduction without BSH's express prior authorisation (same as the thermor.fr case); press downloads are disallowed in robots.txt."
+    },
+    {
+      "id": "bosch-serie-8-wgb256a40",
+      "brand": "Bosch",
+      "model": "Serie 8 WGB256A40",
+      "reason": "Legal: bosch-home.fr legal notice (mentions légales, 'Droit de la propriété intellectuelle') reserves all reproduction rights to BSH Electroménager, photographs included, and forbids any reproduction without BSH's express prior authorisation (same as the thermor.fr case); press downloads are disallowed in robots.txt."
+    },
+    {
+      "id": "bosch-serie-8-wrb247c40",
+      "brand": "Bosch",
+      "model": "Serie 8 WRB247C40",
+      "reason": "Legal: bosch-home.fr legal notice (mentions légales, 'Droit de la propriété intellectuelle') reserves all reproduction rights to BSH Electroménager, photographs included, and forbids any reproduction without BSH's express prior authorisation (same as the thermor.fr case); press downloads are disallowed in robots.txt."
+    },
+    {
+      "id": "bticino-classe-100x",
+      "brand": "BTicino",
+      "model": "Classe 100X",
+      "reason": "Legal: BTicino is a Legrand Group brand; the Legrand legal notice (legrand.fr, 'Propriété intellectuelle') strictly forbids any reproduction of the site's photographs other than for personal, private, non-commercial use without Legrand's written authorisation (official packshot exists on bticino.com/products/bt-344682 but cannot be reused)."
+    },
+    {
+      "id": "burg-wachter-combi-line-cl-20-e-fs",
+      "brand": "Burg-Wächter",
+      "model": "Combi-Line CL 20 E FS",
+      "reason": "Legal: Burg-Wächter's website terms (uk.burg.biz/terms-conditions/, 'Internet Copyright Notice') prohibit any reproduction of site content other than download/print for personal and non-commercial use, so the official packshot cannot be reused on an affiliate site. (A clean 800 px packshot exists on uk.burg.biz/p/safe/combiline-finger-scan/.)"
+    },
+    {
+      "id": "burg-wachter-pointsafe-p-2-e-fs",
+      "brand": "Burg-Wächter",
+      "model": "PointSafe P 2 E FS",
+      "reason": "Legal: Burg-Wächter's website terms (uk.burg.biz/terms-conditions/, 'Internet Copyright Notice') prohibit any reproduction of site content other than download/print for personal and non-commercial use, so the official packshot cannot be reused on an affiliate site. The exact 'P 2 E FS' name is also not listed on burg.biz (only Point-Safe P 2 E EWS)."
+    },
+    {
+      "id": "cecotec-conga-windroid-1090-double-spray-connected",
+      "brand": "Cecotec",
+      "model": "Conga WinDroid 1090 Double Spray Connected",
+      "reason": "Legal: cecotec.es Condiciones de uso (clause VI, propiedad intelectual) expressly prohibits reproduction, distribution and communication of the site's content for commercial purposes without the owner's authorisation; only personal/private use is allowed. (A clean 2048 px transparent packshot exists on cecotec.es.)"
+    },
+    {
+      "id": "comfee-mddf-16den7-wf",
+      "brand": "Comfee",
+      "model": "MDDF-16DEN7-WF",
+      "reason": "No official product page for this exact model: Comfee's own domains (comfee-uk.com, comfee.eu, comfee-global.com) are dead Wix placeholders and Midea (parent) only lists related variants (MDDF2-16DEN7-UK, DF Series 20L), not the Wi-Fi MDDF-16DEN7-WF."
+    },
+    {
+      "id": "dolphin-e35i",
+      "brand": "Dolphin",
+      "model": "E35i",
+      "reason": "Legal: Maytronics' terms (maytronics.com/fr-fr/terms-of-service.html, clause 12) state that reproduction or use of the images and illustrations on its site is strictly forbidden without Maytronics' prior written consent (same logic as the thermor.fr skip). A clean 1090 px packshot exists on the E35i product page."
+    },
+    {
+      "id": "dolphin-s300i",
+      "brand": "Dolphin",
+      "model": "S300i",
+      "reason": "Legal: Maytronics' terms (maytronics.com/fr-fr/terms-of-service.html, clause 12) state that reproduction or use of the images and illustrations on its site is strictly forbidden without Maytronics' prior written consent (same logic as the thermor.fr skip). A clean 1090 px packshot exists on the S300i product page."
+    },
+    {
+      "id": "aqara-water-leak-sensor-t1",
+      "brand": "Aqara",
+      "model": "Water Leak Sensor T1",
+      "reason": "Legal doubt: eu.aqara.com Terms of Service (policies/terms-of-service) licence excludes 'Reproduce, duplicate, copy or otherwise exploit material on Aqara's Services for a commercial purpose' (non-commercial only, same logic as the Samsung skip). A clean packshot exists (kept as a ready-to-merge entry in result-1-legal-doubt.json)."
+    },
+    {
+      "id": "dreame-x40-ultra",
+      "brand": "Dreame",
+      "model": "X40 Ultra",
+      "reason": "Legal doubt: Dreame's store terms (dreametech.com and fr.dreametech.com policies/terms-of-service) forbid commercial use or copying of site content to other websites; also the US 'X40 Ultra' packshots carry a '3-Year Warranty' badge and the FR store only sells the 'X40 Ultra Complete'."
+    },
+    {
+      "id": "duux-whisper-flex-2-smart",
+      "brand": "Duux",
+      "model": "Whisper Flex 2 Smart",
+      "reason": "Every front packshot of the Smart variants on duux.com (white, black, peach, lavender, ice blue...) adds a smartphone showing the app next to the fan; the clean ones are the 'No Wi-Fi' Whisper Flex 2, a different model."
+    },
+    {
+      "id": "easee-charge-lite",
+      "brand": "Easee",
+      "model": "Charge Lite",
+      "reason": "No current official product page: easee.com/*/products/ev-chargers/charge-lite redirects to the Charge Up / overview pages (a different model); Charge Lite only appears in Easee PDF data sheets and support articles, no image file to take."
+    },
+    {
+      "id": "ecovacs-deebot-t30-pro",
+      "brand": "Ecovacs",
+      "model": "Deebot T30 Pro",
+      "reason": "No official page for a plain 'DEEBOT T30 PRO': Ecovacs' regional stores (EU, AU, SG, MY, IN) list only the T30 Pro Omni, T30e/T30c/T30s variants, so the exact model cannot be matched."
+    },
+    {
+      "id": "daikin-perfera-ftxm35r",
+      "brand": "Daikin",
+      "model": "Perfera FTXM35R",
+      "reason": "Legal: Daikin's legal notice (daikin.es/en_us/legal-notice.html, 'Copyright') prohibits reproduction of any part of the website without prior written permission (personal non-commercial use only); also the only packshot of the FTXM-R series (my.daikin.eu web rendition) is 1280x583, under the 600 px shorter-side minimum, and the original is a 166 MB TIFF."
+    },
+    {
+      "id": "ecovacs-goat-a1600-rtk",
+      "brand": "ECOVACS",
+      "model": "GOAT A1600 RTK",
+      "reason": "Legal: Ecovacs Europe terms of use (ecovacs.com/uk|fr/terms-of-use) expressly prohibit copying, publishing or distributing images from the site without prior written consent; no press kit with downloadable assets (Newsroom is text only)."
+    },
+    {
+      "id": "ecovacs-winbot-w2-omni",
+      "brand": "Ecovacs",
+      "model": "Winbot W2 Omni",
+      "reason": "Legal: Ecovacs Europe terms of use (ecovacs.com/uk|fr/terms-of-use) expressly prohibit copying, publishing or distributing images from the site without prior written consent; no press kit with downloadable assets (Newsroom is text only)."
+    },
+    {
+      "id": "eufy-auto-empty-c10",
+      "brand": "eufy",
+      "model": "Auto-Empty C10",
+      "reason": "Legal: Anker's Terms of Service (eufy.com/pages/terms-of-service, section 'License to Use Service') say users must not republish, reproduce, copy or show in public material from Anker's Services or exploit it for a commercial purpose, and eufy has no press kit with a reuse licence. Clean packshot exists if the owner accepts the risk: https://cdn.shopify.com/s/files/1/0504/1094/6753/files/T2292211-eufy_Auto-Empty_C10_1_9d3e8cfc-6106-4d9c-aa6a-fc9352065274.png?v=1757592234 (page https://uk.eufy.com/products/t2292211, transparent PNG 2400x2400)."
+    },
+    {
+      "id": "eufy-indoor-cam-e220",
+      "brand": "Eufy",
+      "model": "Indoor Cam E220",
+      "reason": "Legal: Anker's Terms of Service (eufy.com/pages/terms-of-service, section 'License to Use Service') say users must not republish, reproduce, copy or show in public material from Anker's Services or exploit it for a commercial purpose, and eufy has no press kit with a reuse licence. Clean packshot exists if the owner accepts the risk: https://cdn.shopify.com/s/files/1/0568/9691/3539/products/S220IndoorCam_ee70005d-fbdf-4d96-81f1-00bedbc54198.png?v=1701592028 (page https://fr.eufy.com/products/t8410, transparent PNG 1200x1200)."
+    },
+    {
+      "id": "eufy-solar-wall-light-cam-s120",
+      "brand": "eufy",
+      "model": "Solar Wall Light Cam S120",
+      "reason": "Legal: Anker's Terms of Service (eufy.com/pages/terms-of-service, section 'License to Use Service') say users must not republish, reproduce, copy or show in public material from Anker's Services or exploit it for a commercial purpose, and eufy has no press kit with a reuse licence. Clean packshot exists if the owner accepts the risk: https://cdn.shopify.com/s/files/1/0568/9691/3539/products/S120SolarWallLightCam-1_5386b536-1efc-4fbb-a380-a0abc8c6cd8c.png?v=1701591479 (page https://fr.eufy.com/products/t81a0311, transparent PNG 1200x1200)."
+    },
+    {
+      "id": "eufy-video-doorbell-e340",
+      "brand": "Eufy",
+      "model": "Video Doorbell E340",
+      "reason": "Legal: Anker's Terms of Service (eufy.com/pages/terms-of-service, section 'License to Use Service') say users must not republish, reproduce, copy or show in public material from Anker's Services or exploit it for a commercial purpose, and eufy has no press kit with a reuse licence. Clean packshot exists if the owner accepts the risk: https://cdn.shopify.com/s/files/1/0568/9691/3539/products/videodoorbell1500x1500_1_3a9d1b03-523f-4499-8777-aee01ef39232.png?v=1701591163 (page https://fr.eufy.com/products/t8214311, transparent PNG 1500x1500)."
+    },
+    {
+      "id": "eufy-eufycam-s3-pro",
+      "brand": "eufy",
+      "model": "eufyCam S3 Pro",
+      "reason": "Legal: Anker's Terms of Service (eufy.com/pages/terms-of-service, section 'License to Use Service') say users must not republish, reproduce, copy or show in public material from Anker's Services or exploit it for a commercial purpose, and eufy has no press kit with a reuse licence. Clean packshot exists if the owner accepts the risk: https://cdn.shopify.com/s/files/1/0568/9691/3539/files/T8162.png?v=1727685057 (page https://fr.eufy.com/products/t81623w1, transparent PNG 1200x1200)."
+    },
+    {
+      "id": "govee-outdoor-solar-string-lights",
+      "brand": "Govee",
+      "model": "Outdoor Solar String Lights",
+      "reason": "Legal: Govee's Terms of Service (eu.govee.com/policies/terms-of-service, section 5) forbid any commercial use of Site content and any copying, publishing or downloading of any part of the Site; no Govee press kit with a reuse licence found."
+    },
+    {
+      "id": "haier-flexis-plus-3-5-kw",
+      "brand": "Haier",
+      "model": "Flexis Plus 3,5 kW",
+      "reason": "Legal: Haier Europe's website terms of use (haier-europe.com/fr_FR/pages/conditions-d-utilisation-du-site-web) say the licence does not include downloading or copying any information from the site nor any commercial use, and content may not be reproduced or used for other purposes without prior written consent; no press kit found."
+    },
+    {
+      "id": "haier-i-pro-series-7-hw100-b14979",
+      "brand": "Haier",
+      "model": "I-Pro Series 7 HW100-B14979",
+      "reason": "Legal: Haier Europe's website terms of use (haier-europe.com/fr_FR/pages/conditions-d-utilisation-du-site-web) say the licence does not include downloading or copying any information from the site nor any commercial use, and content may not be reproduced or used for other purposes without prior written consent; no press kit found."
+    },
+    {
+      "id": "haier-wine-bank-50-hws77gdau1",
+      "brand": "Haier",
+      "model": "Wine Bank 50 HWS77GDAU1",
+      "reason": "Legal: Haier Europe's website terms of use (haier-europe.com/fr_FR/pages/conditions-d-utilisation-du-site-web) say the licence does not include downloading or copying any information from the site nor any commercial use, and content may not be reproduced or used for other purposes without prior written consent; no press kit found."
+    },
+    {
+      "id": "haier-xs-6b0s3fsb",
+      "brand": "Haier",
+      "model": "XS 6B0S3FSB",
+      "reason": "Legal: Haier Europe's website terms of use (haier-europe.com/fr_FR/pages/conditions-d-utilisation-du-site-web) say the licence does not include downloading or copying any information from the site nor any commercial use, and content may not be reproduced or used for other purposes without prior written consent; no press kit found."
+    },
+    {
+      "id": "hobot-2s",
+      "brand": "Hobot",
+      "model": "2S",
+      "reason": "Only official site found is hobot.com.tw, whose robots.txt disallows /wp-content/ (where every product image is hosted), so the image cannot be fetched while respecting robots.txt; no EU official store or press kit found."
+    },
+    {
+      "id": "home-assistant-green",
+      "brand": "Home Assistant",
+      "model": "Green",
+      "reason": "Legal: the official product page (home-assistant.io/green) is part of the Home Assistant website, whose repository content (images included) is published under CC BY-NC-SA 4.0 (non-commercial), which an affiliate site cannot use; no separate press kit licence found. Clean studio photo exists at https://www.home-assistant.io/images/green/ha-green-photo-front.jpg (1536x1024) if the owner accepts the risk."
+    },
+    {
+      "id": "gardena-sileno-city-600",
+      "brand": "GARDENA",
+      "model": "SILENO City 600",
+      "reason": "Legal: GARDENA's Terms of Use (gardena.com/fr/c/a-propos/conditions-generales-dutilisation and /int/c/about/terms-of-use) allow downloading content for personal, non-commercial use only and forbid reproducing, displaying or using it for advertising or commercial purposes, unless stated otherwise in the GARDENA Press area; the Press area downloads (media-gardena.com Download.aspx) are disallowed to bots by its robots.txt. Clean packshot exists if the owner accepts the risk: https://media.husqvarnagroup.com/image/BL-318426.png (page https://www.gardena.com/int/products/lawn-care/robotic-lawnmowers/robotic-mower-sileno-city-600-m/970450603.html, transparent PNG 2915x1961)."
+    },
+    {
+      "id": "gardena-smart-irrigation-control",
+      "brand": "GARDENA",
+      "model": "smart Irrigation Control",
+      "reason": "Legal: GARDENA's Terms of Use (gardena.com/fr/c/a-propos/conditions-generales-dutilisation and /int/c/about/terms-of-use) allow downloading content for personal, non-commercial use only and forbid reproducing, displaying or using it for advertising or commercial purposes, unless stated otherwise in the GARDENA Press area; the Press area downloads (media-gardena.com Download.aspx) are disallowed to bots by its robots.txt. Clean packshot exists if the owner accepts the risk: https://media.husqvarnagroup.com/image/GA910-0048.png (page https://www.gardena.com/fr/outils-jardin/arrosage/enterre/smart-irrigation-control/970658701.html, transparent PNG 3500x2422)."
+    },
+    {
+      "id": "gardena-smart-sensor",
+      "brand": "GARDENA",
+      "model": "smart Sensor",
+      "reason": "Legal: GARDENA's Terms of Use (gardena.com/fr/c/a-propos/conditions-generales-dutilisation and /int/c/about/terms-of-use) allow downloading content for personal, non-commercial use only and forbid reproducing, displaying or using it for advertising or commercial purposes, unless stated otherwise in the GARDENA Press area; the Press area downloads (media-gardena.com Download.aspx) are disallowed to bots by its robots.txt. Clean packshot exists if the owner accepts the risk: https://media.husqvarnagroup.com/image/FS-827324.png (page https://www.gardena.com/int/products/smart-system/smart-system/smart-sensor/967986501.html, article 19040-20, PNG 1075x2155)."
+    },
+    {
+      "id": "gardena-smart-water-control-set",
+      "brand": "GARDENA",
+      "model": "smart Water Control Set",
+      "reason": "Legal: GARDENA's Terms of Use (gardena.com/fr/c/a-propos/conditions-generales-dutilisation and /int/c/about/terms-of-use) allow downloading content for personal, non-commercial use only and forbid reproducing, displaying or using it for advertising or commercial purposes, unless stated otherwise in the GARDENA Press area; the Press area downloads (media-gardena.com Download.aspx) are disallowed to bots by its robots.txt. Clean packshot exists if the owner accepts the risk: https://media.husqvarnagroup.com/image/QM-220353.png (page https://www.gardena.com/int/products/watering/water-controls/smart-water-control-set/970826101.html, article 19043-20; includes a '+' pictogram composite)."
+    },
+    {
+      "id": "hoermann-supramatic-e-serie-4",
+      "brand": "Hörmann",
+      "model": "SupraMatic E Serie 4",
+      "reason": "Legal: hoermann.de Impressum limits downloads and copies of the site to private, non-commercial use; the Newsroom press photos (editorial use allowed, credit 'Abbildung: Hörmann KG') are loaded by JavaScript and no SupraMatic E Serie 4 press image could be located. Clean product-page render exists if the owner accepts the risk: https://images.hoermann-cloud.de/website/global/home_owners/operator/SupraMatic_4_E.jpg?auto=compress%2Cformat&ixlib=php-4.1.0&q=50&rect=795%2C525%2C5646%2C4238&w=930&s=1f689980e43a192b38b5244544a455f8 (page https://www.hoermann.de/private-bauherren-und-modernisierer/antriebe/garagentor-antriebe/, 930x698 JPEG, white background)."
+    },
+    {
+      "id": "ikea-dirigera",
+      "brand": "IKEA",
+      "model": "DIRIGERA",
+      "reason": "Legal: IKEA's website terms of use (e.g. ikea.com/gb/en/customer-service/terms-conditions/terms-of-use-pub8262e11a/, /nl/, /se/ copyright pages) limit the site's images to personal, non-commercial use and require prior permission for any other reproduction; the IKEA press image library is not an open download."
+    },
+    {
+      "id": "ikea-myggspray",
+      "brand": "IKEA",
+      "model": "MYGGSPRAY",
+      "reason": "Legal: IKEA's website terms of use (e.g. ikea.com/gb/en/customer-service/terms-conditions/terms-of-use-pub8262e11a/, /nl/, /se/ copyright pages) limit the site's images to personal, non-commercial use and require prior permission for any other reproduction; the IKEA press image library is not an open download."
+    },
+    {
+      "id": "iopool-eco",
+      "brand": "iopool",
+      "model": "EcO",
+      "reason": "No clean packshot on iopool's official EcO Start / EcO Start + Connect pages (every image carries a smartphone, a gateway, text callouts or lifestyle scenes). The only product-alone render (transparent PNG 2549x2549, tilted view) sits on the accessory page 'EcO V1 - Replacement' so the V1/V2 generation cannot be confirmed: https://cdn.shopify.com/s/files/1/0100/9998/2432/files/EcOhorizontal_7fe2806e-32f9-4082-9af9-8ba797617690.png?v=1759923724 (page https://iopool.com/products/eco-v1-replacement-module)."
+    },
+    {
+      "id": "irobot-roomba-j9-plus",
+      "brand": "iRobot",
+      "model": "Roomba j9+",
+      "reason": "Legal: iRobot's Terms of Service (irobot.fr/fr_FR/terms-of-service.html) forbid using Services content in any other public or commercial manner and copying or integrating it into other media, including one's own website, without iRobot's written permission; no open press kit found."
+    },
+    {
+      "id": "karcher-sc-5-easyfix",
+      "brand": "Kärcher",
+      "model": "SC 5 EasyFix",
+      "reason": "Legal: Kärcher France's legal notice (kaercher.com/fr/a-propos-de-kaercher/mentions-legales.html) prohibits any reproduction of the site's images/content without prior written authorisation and limits use to private use; the press area has no downloadable image kit for this model."
+    },
+    {
+      "id": "la-sommeliere-ecellar185",
+      "brand": "La Sommelière",
+      "model": "ECELLAR185",
+      "reason": "Legal: La Sommelière's legal notice (lasommeliere.com/fr-FR/content/2-mentions-legales, 'Droits d’auteur') forbids any reproduction or redistribution of the site's photographs and illustrations without prior express authorisation; the Espace presse only links to articles, no downloadable image kit."
+    },
+    {
+      "id": "laurastar-smart-u",
+      "brand": "Laurastar",
+      "model": "Smart U",
+      "reason": "Legal: Laurastar's terms (laurastar.fr/cgv-et-confidentialite/cgv.html) state that any reproduction, distribution or publication of any part of the site is strictly forbidden without prior written agreement; no press kit found."
+    },
+    {
+      "id": "levoit-classic-300s",
+      "brand": "Levoit",
+      "model": "Classic 300S",
+      "reason": "No clean packshot on Levoit's official stores (levoit.com US, levoit.de): the main image of the Classic 300S carries a smartphone with the VeSync app next to the humidifier, and all other gallery images are infographics, close-ups or lifestyle scenes; no other EU store lists this model."
+    },
+    {
+      "id": "lg-w4wr70e6y",
+      "brand": "LG",
+      "model": "W4WR70E6Y",
+      "reason": "Legal: LG's terms of use (lg.com/fr/lge-terms/) limit the site and its content to personal, non-commercial use; no open press kit with a reuse licence for this model."
+    },
+    {
+      "id": "liebherr-wpbli-5231-grandcru-selection",
+      "brand": "Liebherr",
+      "model": "WPbli 5231 GrandCru Selection",
+      "reason": "Legal: Liebherr's legal notice (liebherr.com/fr-fr/cross-entry-point/fr-fr-fr/corp_imprint, 'Droits d’auteur et marques') says no website content may be copied, distributed, modified or made available to third parties without the express written permission of Liebherr-International Deutschland GmbH; no open press kit for this model."
+    },
+    {
+      "id": "lixee-zlinky-tic",
+      "brand": "Lixee",
+      "model": "ZLinky_TIC",
+      "reason": "Legal: Lixee's conditions of use (lixee.fr/content/3-conditions-utilisation) forbid any reproduction, publication or adaptation of any part of the site's elements, images included, without prior written authorisation; no press kit found."
+    },
+    {
+      "id": "maxcio-smart-essential-oil-diffuser-400ml",
+      "brand": "Maxcio",
+      "model": "Smart Essential Oil Diffuser 400ml",
+      "reason": "No usable official image: maxcio.com lists this diffuser as 'Smart Aroma Diffuser 400ML'; its only clean packshots are 396x401 px (below the 600 px minimum) and the large images show a smartphone with the app or a lifestyle scene with feature icons."
+    },
+    {
+      "id": "meaco-arete-two-20l",
+      "brand": "Meaco",
+      "model": "Arete Two 20L",
+      "reason": "Legal: Meaco's terms of service (meaco.com/policies/terms-of-service) prohibit any use of the website or its contents, including copying, other than personal non-commercial use, without permission; no press kit found."
+    },
+    {
+      "id": "meross-msg100hk-smart-wi-fi-garage-door-opener",
+      "brand": "Meross",
+      "model": "MSG100HK Smart Wi-Fi Garage Door Opener",
+      "reason": "Legal: Meross's terms of use (meross.com/en-gc/terms-of-use) limit the Services to personal, non-commercial use and forbid copying, framing, storing or reproducing any part or content of them except as expressly permitted; no press kit found."
+    },
+    {
+      "id": "meross-mss210p-prise-connectee-homekit-16a-lot-de-2",
+      "brand": "Meross",
+      "model": "MSS210P Prise Connectée HomeKit 16A (lot de 2)",
+      "reason": "Already skipped in the repo ('MSS210P' appears on no official Meross page, every packshot carries a 'Works with Apple Home' badge); re-checked: Meross's terms of use (meross.com/en-gc/terms-of-use) also forbid copying or reproducing any part or content of the Services and limit use to personal, non-commercial use."
+    },
+    {
+      "id": "midea-portasplit",
+      "brand": "Midea",
+      "model": "PortaSplit",
+      "reason": "Legal: Midea France's terms of use (midea.com/fr/terms-of-use, 'Copyright') only allow downloading or printing site material for personal, non-commercial use, and the legal notice (midea.com/fr/legal-notice) reserves all photographs and images to Midea; no open press kit with a reuse licence."
+    },
+    {
+      "id": "midea-silent-cool-26-pro-wf",
+      "brand": "Midea",
+      "model": "Silent Cool 26 Pro WF",
+      "reason": "Legal: Midea France's terms of use (midea.com/fr/terms-of-use, 'Copyright') only allow downloading or printing site material for personal, non-commercial use, and the legal notice (midea.com/fr/legal-notice) reserves all photographs and images to Midea; no open press kit with a reuse licence."
+    },
+    {
+      "id": "miele-g-7110-sc-autodos",
+      "brand": "Miele",
+      "model": "G 7110 SC AutoDos",
+      "reason": "Legal: Miele's legal notice (miele.fr/cs/legal/mentions-legales-12) and terms of use (miele.fr/cs/legal/conditions-d-utilisation-304) forbid any reproduction, use or distribution of the site's photographs and content without Miele's prior written consent; no open press image library found."
+    },
+    {
+      "id": "miele-tq-1000-wp-nova-edition",
+      "brand": "Miele",
+      "model": "TQ 1000 WP Nova Edition",
+      "reason": "Legal: Miele's legal notice (miele.fr/cs/legal/mentions-legales-12) and terms of use (miele.fr/cs/legal/conditions-d-utilisation-304) forbid any reproduction, use or distribution of the site's photographs and content without Miele's prior written consent; no open press image library found."
+    },
+    {
+      "id": "husqvarna-automower-450x-nera",
+      "brand": "Husqvarna",
+      "model": "Automower 450X NERA",
+      "reason": "Legal: Husqvarna France's legal notice (husqvarna.com/fr/mentions-legales/) says the site's articles and illustrations may not be reproduced, reused or used for commercial purposes without Husqvarna's written authorisation, and its terms of use (husqvarna.com/fr/conditions-d-utilisation/) limit content to personal, non-commercial use; the model is also discontinued (only support pages remain)."
+    },
+    {
+      "id": "ondilo-ico-pool-v2",
+      "brand": "Ondilo",
+      "model": "ICO Pool V2",
+      "reason": "Every official ICO Pool V2 packshot on ondilo.com shows the retail box beside the unit (ICOPOOL02PLUS-Blanc.png), carries dimension callouts, or is a lifestyle/app image; no press kit is published."
+    },
+    {
+      "id": "ring-alarm-outdoor-siren",
+      "brand": "Ring",
+      "model": "Alarm Outdoor Siren",
+      "reason": "Not downloaded. Ring is an Amazon company; following the repo's existing decision for Ring (see skipped ring-alarm-pack-m-gen-2) no Ring-owned image is used, to stay clear of the Associates rules."
+    },
+    {
+      "id": "ring-intercom-video",
+      "brand": "Ring",
+      "model": "Intercom Video",
+      "reason": "Not downloaded. Ring is an Amazon company; following the repo's existing decision for Ring (see skipped ring-alarm-pack-m-gen-2) no Ring-owned image is used, to stay clear of the Associates rules."
+    },
+    {
+      "id": "reolink-argus-4-pro",
+      "brand": "Reolink",
+      "model": "Argus 4 Pro",
+      "reason": "Official product page only offers 400 px option thumbnails (argus-4-pro-whitesolar-panel-2-white.png), annotated diagrams or lifestyle banners; the model is not in the reolink.com/press kit either."
+    },
+    {
+      "id": "reolink-e1-pro",
+      "brand": "Reolink",
+      "model": "E1 Pro",
+      "reason": "Product page has only lifestyle banners and 400 px option thumbnails; the clean packshots are inside a 23 MB zip (home-cdn.reolink.us/wp-content/assets/press/e1-pro.zip, linked from reolink.com/press) which was not downloaded because the brief allows single image files only - could be fetched on request."
+    },
+    {
+      "id": "reolink-rlc-833a",
+      "brand": "Reolink",
+      "model": "RLC-833A",
+      "reason": "Product page has only annotated diagrams (rlc-833a-1..4.png with dimension callouts) and lifestyle banners; the clean packshots are inside a 3 MB zip (home-cdn.reolink.us/wp-content/assets/press/rlc-833a.zip, linked from reolink.com/press) which was not downloaded because the brief allows single image files only - could be fetched on request."
+    },
+    {
+      "id": "somfy-ixengo-l-3s-io-pack-confort",
+      "brand": "Somfy",
+      "model": "Ixengo L 3S io Pack Confort",
+      "reason": "Official somfy.fr page (produits/1216558) shows the correct kit packshot but its native master is 300x300 px (the 1200x1200 URL is only an upscale); the product is also flagged obsolete/no longer sold on the page."
+    },
+    {
+      "id": "somfy-oximo-io",
+      "brand": "Somfy",
+      "model": "Oximo io",
+      "reason": "No dedicated Somfy product page or packshot for the Oximo io motor itself: somfy.fr only lists replacement kits (a different product with remote and accessories) and installer notices."
+    },
+    {
+      "id": "somfy-oximo-rts",
+      "brand": "Somfy",
+      "model": "Oximo RTS",
+      "reason": "No dedicated Somfy product page or packshot for the Oximo RTS motor: it only appears in installer notices (service.somfy.com PDFs) and forum threads, not as a consumer product page."
+    },
+    {
+      "id": "tesla-powerwall-3",
+      "brand": "Tesla",
+      "model": "Powerwall 3",
+      "reason": "tesla.com refuses plain non-browser requests (403 Access Denied, including /legal, so the site terms could not be read) and the only Powerwall 3 imagery on the product page is a promotional hero (1M Powerwalls globe composition) and install lifestyle shots; no press kit or clean packshot found."
+    },
+    {
+      "id": "tp-link-tapo-p110m",
+      "brand": "TP-Link",
+      "model": "Tapo P110M",
+      "reason": "Every official image of the Tapo P110M (tp-link.com/fr and tapo.com pages) carries the Matter logo overlay or is a feature/lifestyle graphic; the plain 590x590 gallery shots are also below the 600 px minimum."
+    },
+    {
+      "id": "ugreen-finetrack-duo",
+      "brand": "Ugreen",
+      "model": "FineTrack Duo",
+      "reason": "Official ugreen.com listing (au-75646p) leads with a 4-tracker pack image (65543P.png) and otherwise only has marketing/feature graphics with text overlays (several named after Amazon listing images); no single-tracker clean packshot found."
+    },
+    {
+      "id": "velux-integra-solar-roller-shutter",
+      "brand": "VELUX",
+      "model": "INTEGRA Solar Roller Shutter",
+      "reason": "velux.fr only shows generic \"Volets roulants VELUX\" comparison images (shared by electric and solar versions, no SSL label), installed-on-roof lifestyle shots and technical PDFs; no packshot clearly identified as the INTEGRA Solar (SSL) shutter."
+    },
+    {
+      "id": "yale-smart-safe-yss-250-eb1",
+      "brand": "Yale",
+      "model": "Smart Safe YSS/250/EB1",
+      "reason": "Official Yale pages only offer images below the size minimum or with extras: yalehome.com/gw-assets packshots are 1020x510 banners (510 px short side, server-side upscaling only) and the yalehome.fr store images show a smartphone with the app and/or the Connect bridge next to the safe."
     }
   ]
 }
