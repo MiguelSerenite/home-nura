@@ -118,7 +118,7 @@ describe('generated Amazon links', () => {
       ),
     )
     expect(problems).toEqual([])
-  })
+  }, ALL_ARTICLES_TIMEOUT_MS)
 
   it('Black Friday picks, event page and Prime trial link to amazon.fr in every locale', () => {
     const problems = LANGUAGES.flatMap((lang) => [

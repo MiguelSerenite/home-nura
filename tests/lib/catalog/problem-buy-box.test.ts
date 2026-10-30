@@ -7,6 +7,9 @@ import { LANGUAGES } from '@/lib/i18n'
 // Every locale links to amazon.fr with the French store ID (Amazon Global
 // Earning, see lib/amazon.ts).
 const STORE_ORIGIN = new URL(AMAZON_BASE_URL).origin
+// Resolves the buy box of every problem in every locale (~2 s warm, more
+// on a cold CI worker): above the 5 s default would make it flaky.
+const ALL_PROBLEMS_TIMEOUT_MS = 30_000
 
 describe('problem page buy box', () => {
   it('links every pick to amazon.fr with the store ID in every locale', () => {
@@ -23,7 +26,7 @@ describe('problem page buy box', () => {
         }
       }
     }
-  })
+  }, ALL_PROBLEMS_TIMEOUT_MS)
 
   it('shows at most three picks, all named', () => {
     for (const problem of PROBLEMS) {
