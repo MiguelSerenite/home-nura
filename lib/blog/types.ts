@@ -32,9 +32,11 @@ export interface ArticleMeta {
 }
 
 export const CATEGORIES: Record<BlogArticle['category'], Record<string, string>> = {
+  // The slug stays `tests` (URLs, data); the labels never promise tests we
+  // do not run (tests/lib/blog-categories.test.ts).
   tests: {
-    fr: 'Tests & Avis', en: 'Reviews', de: 'Tests & Bewertungen',
-    es: 'Tests y Opiniones', it: 'Test e Recensioni', nl: 'Tests & Reviews',
+    fr: 'Avis détaillés', en: 'Reviews', de: 'Produktbewertungen',
+    es: 'Análisis y opiniones', it: 'Recensioni', nl: 'Reviews',
   },
   guides: {
     fr: 'Guides Pratiques', en: 'Practical Guides', de: 'Praktische Ratgeber',

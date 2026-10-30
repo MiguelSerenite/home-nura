@@ -64,24 +64,37 @@ export function isLocaleHome(pathname: string | null | undefined, lang: string):
   return !!pathname && pathname.replace(/\/+$/, '') === `/${lang}`
 }
 
-/** Vercel geo country (ISO 3166-1 alpha-2) → the locale whose Amazon store serves it. */
-export const COUNTRY_TO_LANG: Record<string, Lang> = {
-  FR: 'fr', BE: 'fr', LU: 'fr', MC: 'fr', CH: 'fr',
-  DE: 'de', AT: 'de',
-  ES: 'es',
-  IT: 'it',
-  NL: 'nl',
-  GB: 'en', IE: 'en', US: 'en', CA: 'en', AU: 'en', NZ: 'en',
+/**
+ * Vercel geo country (ISO 3166-1 alpha-2) → the site locales its people
+ * read, the default first. Multilingual countries list every national
+ * language we serve, so a Swiss reader on /de or a Belgian reader on /nl
+ * is never pushed to French. Switzerland defaults to German: most of its
+ * shoppers read German and buy on amazon.de.
+ */
+export const COUNTRY_LANGS: Readonly<Record<string, readonly Lang[]>> = {
+  FR: ['fr'], MC: ['fr'], BE: ['fr', 'nl'], LU: ['fr', 'de'],
+  DE: ['de'], AT: ['de'], LI: ['de'], CH: ['de', 'fr', 'it'],
+  ES: ['es'],
+  IT: ['it'],
+  NL: ['nl'],
+  GB: ['en'], IE: ['en'], US: ['en'], CA: ['en'], AU: ['en'], NZ: ['en'],
 }
+
+/** Default locale per country, used by proxy.ts when Accept-Language names none we serve. */
+export const COUNTRY_TO_LANG: Readonly<Record<string, Lang>> = Object.fromEntries(
+  Object.entries(COUNTRY_LANGS).map(([country, langs]) => [country, langs[0]]),
+)
 
 /** Cookie set by proxy.ts with the visitor's country, read by GeoLocaleSuggestion. */
 export const COUNTRY_COOKIE = 'hn_country'
 
 /**
  * Locale to suggest to a visitor reading `currentLang` from `country`, or
- * null when it already matches or the country has no locale of its own.
+ * null when they already read one of the country's languages or the
+ * country has no locale of its own.
  */
 export function suggestLocaleForCountry(country: string | undefined | null, currentLang: string): Lang | null {
-  const lang = country ? COUNTRY_TO_LANG[country.toUpperCase()] : undefined
-  return lang && lang !== currentLang ? lang : null
+  const langs = country ? COUNTRY_LANGS[country.toUpperCase()] : undefined
+  if (!langs || (langs as readonly string[]).includes(currentLang)) return null
+  return langs[0]
 }

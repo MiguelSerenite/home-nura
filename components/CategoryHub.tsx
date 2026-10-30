@@ -28,6 +28,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { buildBreadcrumbListSchema, buildArticleSchema, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import QuickAnswer from '@/components/QuickAnswer'
+import IndependentSources from '@/components/IndependentSources'
 import { getCategoryGuides } from '@/lib/catalog/category-guides'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import FaqSection from '@/components/FaqSection'
@@ -272,6 +273,8 @@ export default async function CategoryHub({
             </ul>
           </section>
         )}
+
+        <IndependentSources categorySlug={category.slug} categoryTitle={categoryTitle} lang={safeLang} />
 
         {/* Related categories */}
         <section className="max-w-6xl mx-auto px-4 md:px-6 pb-12">
