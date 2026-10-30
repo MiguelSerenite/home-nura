@@ -141,3 +141,89 @@ describe('EVENTS constants', () => {
     expect(EVENTS.COMPARATOR_REMOVE).toBe('comparator_remove')
   })
 })
+
+describe('trackAffiliateClick first-party beacon', () => {
+  const sendBeacon = vi.fn(() => true)
+
+  beforeEach(() => {
+    // @ts-expect-error test setup
+    globalThis.window = { dataLayer: [], location: { pathname: '/it/blog/guide-purificateur-air-2026' } }
+    vi.stubGlobal('navigator', { sendBeacon })
+    vi.spyOn(console, 'debug').mockImplementation(() => {})
+    sendBeacon.mockClear()
+  })
+
+  afterEach(() => {
+    // @ts-expect-error test cleanup
+    delete globalThis.window
+    vi.unstubAllGlobals()
+    vi.restoreAllMocks()
+  })
+
+  it('posts the click to /api/click when the link has a surface', () => {
+    trackAffiliateClick({
+      asin: '',
+      productName: 'Levoit Core 300S',
+      location: 'article_inline',
+      lang: 'it',
+      surface: 'inline',
+      url: 'https://www.amazon.fr/s?k=Levoit+Core+300S&tag=homenuraen05-21',
+    })
+    expect(sendBeacon).toHaveBeenCalledOnce()
+    const [endpoint, body] = sendBeacon.mock.calls[0] as unknown as [string, string]
+    expect(endpoint).toBe('/api/click')
+    expect(JSON.parse(body)).toEqual({
+      path: '/it/blog/guide-purificateur-air-2026',
+      lang: 'it',
+      surface: 'inline',
+      model: 'Levoit Core 300S',
+      marketplace: 'amazon.fr',
+    })
+  })
+
+  it('posts problem-page and Black Friday clicks with their own surface', () => {
+    window.location.pathname = '/fr/black-friday'
+    trackAffiliateClick({
+      asin: '',
+      productName: 'Amazon Prime free trial',
+      location: 'category_picks',
+      lang: 'fr',
+      surface: 'black_friday',
+      url: 'https://www.amazon.fr/amazonprime?_encoding=UTF8&primeCampaignId=prime_assoc_ft&tag=homenuraen05-21',
+    })
+    window.location.pathname = '/nl/guides/probleme/robot-aspirateur-ne-charge-plus'
+    trackAffiliateClick({
+      asin: '',
+      productName: 'Roborock Q7 M5+',
+      location: 'category_picks',
+      lang: 'nl',
+      surface: 'problem_picks',
+      url: 'https://www.amazon.fr/s?k=Roborock+Q7+M5%2B&tag=homenuraen05-21',
+    })
+    const bodies = sendBeacon.mock.calls.map((call) => JSON.parse((call as unknown as [string, string])[1]))
+    expect(bodies).toEqual([
+      { path: '/fr/black-friday', lang: 'fr', surface: 'black_friday', model: 'Amazon Prime free trial', marketplace: 'amazon.fr' },
+      {
+        path: '/nl/guides/probleme/robot-aspirateur-ne-charge-plus',
+        lang: 'nl',
+        surface: 'problem_picks',
+        model: 'Roborock Q7 M5+',
+        marketplace: 'amazon.fr',
+      },
+    ])
+  })
+
+  it('sends nothing for clicks without a surface', () => {
+    trackAffiliateClick({ asin: 'B001', productName: 'Test', location: 'product_card', lang: 'fr' })
+    expect(sendBeacon).not.toHaveBeenCalled()
+  })
+
+  it('never throws when the beacon fails', () => {
+    sendBeacon.mockImplementationOnce(() => {
+      throw new Error('blocked')
+    })
+    expect(() =>
+      trackAffiliateClick({ asin: '', productName: 'X', location: 'article_sticky', lang: 'fr', surface: 'sticky' }),
+    ).not.toThrow()
+  })
+})

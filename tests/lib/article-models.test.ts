@@ -18,7 +18,7 @@ describe('article models', () => {
     if (lock?.kind === 'models') {
       expect(lock.models[0]).toEqual({
         name: 'Nuki Smart Lock Pro (5th generation)',
-        url: 'https://www.amazon.es/s?k=Nuki+Smart+Lock+Pro+%285th+generation%29&tag=homenuraen0a-21',
+        url: 'https://www.amazon.fr/s?k=Nuki+Smart+Lock+Pro+%285th+generation%29&tag=homenuraen05-21',
       })
     }
     expect(getArticleRecommendations({ slug: 'meal-prep-airfryer-semaine', pillar: 'culture' }, 'fr')).toBeNull()

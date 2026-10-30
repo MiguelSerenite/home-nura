@@ -52,7 +52,7 @@ dynamique, pas de cache CDN)**. LHCI doit gagner un run mobile (Lot 3).
 - `SearchAction` du WebSite pointe vers une recherche qui n'existe pas. `ReviewArticle` sans `itemReviewed`.
 - Liens affiliés des composants sans `rel="sponsored"` (le blog l'a déjà).
 - **Newsletter : aucun ESP branché** → les inscriptions sont perdues (seulement loggées en clair avec IP). Rate-limit en mémoire, IP spoofable (`x-forwarded-for`).
-- Tags Amazon hétérogènes dans le blog (`homenuraen-21`, `…en00-21`, `…en0a-21`, `…en05-21`) → à valider côté Partenaires.
+- Tags Amazon hétérogènes dans le blog (4 tags différents) → résolu le 30/10/2026 (#47) : un seul store ID amazon.fr (Global Earning), défini dans `lib/amazon.ts` et contrôlé par `tests/lib/affiliate-tags.test.ts`.
 - Convention `middleware` dépréciée en Next 16 → `proxy`.
 
 ## Lots (1 PR par lot, base `main`)

@@ -1,13 +1,14 @@
 import type { MetadataRoute } from 'next'
 import { getAllArticles } from '@/lib/blog'
 import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
-import { LANGUAGES } from '@/lib/i18n'
+import { LANGUAGES, type Lang } from '@/lib/i18n'
 import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import {
   getIndexableSilos,
   getIndexableCategories,
   PROBLEMS,
 } from '@/lib/catalog'
+import { BLACK_FRIDAY_PATHS } from '@/lib/black-friday'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Phase X: single source of truth for freshness. Bumping
@@ -65,11 +66,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: today,
       })),
     // Troubleshooting pages: indexed — about 30% of Search Console clicks
-    // (Jul–Oct 2026) for only ~10 topics.
+    // (Jul–Oct 2026) for only ~10 topics. The index links all of them.
+    { path: '/guides/probleme', priority: 0.7, changeFrequency: 'monthly' as const, lastModified: today },
     ...PROBLEMS.map((p) => ({
       path: `/guides/probleme/${p.slug}`,
       priority: 0.7,
       changeFrequency: 'monthly' as const,
+      lastModified: today,
+    })),
+    // Black Friday hub + category pages: evergreen URLs (no year), in every
+    // locale. Weekly so the yearly copy refresh is picked up before the event.
+    ...BLACK_FRIDAY_PATHS.map((path) => ({
+      path,
+      priority: 0.7,
+      changeFrequency: 'weekly' as const,
       lastModified: today,
     })),
     // Persona buyer guides and best-for pages are built
@@ -83,43 +93,46 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // at them. They remain reachable via the site footer.
   ]
 
-  // Crawl-budget optimisation: emit ONE entry per page (the FR canonical)
-  // with hreflang alternates for all 6 languages. Google discovers the
-  // /de/, /en/, /es/, /it/, /nl/ variants through the <link rel="alternate">
-  // tags already present in every page's <head> (buildPageMetadata).
-  // This shrinks the sitemap from ~10 k entries to ~1 800, allowing Google
-  // to crawl and index 100 % of the canonical pages within its normal budget.
-  const hreflangFor = (path: string) => ({
-    ...Object.fromEntries(LANGUAGES.map(l => [l, `${BASE_URL}/${l}${path}`])),
-    'x-default': `${BASE_URL}/fr${path}`,
-  })
+  // One entry per page AND per locale, each carrying the hreflang cluster.
+  // Listing only the FR URL left the /de/, /en/, /es/, /it/ and /nl/ pages
+  // discoverable through hreflang alone, and they were crawled far less.
+  // ~2.6 k URLs, well under the 50 k-per-sitemap limit.
+  const localized = (
+    path: string,
+    langs: readonly Lang[],
+    meta: Omit<MetadataRoute.Sitemap[number], 'url' | 'alternates'>,
+  ): MetadataRoute.Sitemap => {
+    const languages: Record<string, string> = {
+      ...Object.fromEntries(langs.map((l) => [l, `${BASE_URL}/${l}${path}`])),
+      'x-default': `${BASE_URL}/${langs.includes('fr') ? 'fr' : langs[0]}${path}`,
+    }
+    return langs.map((lang) => ({ url: `${BASE_URL}/${lang}${path}`, ...meta, alternates: { languages } }))
+  }
 
-  const entries: MetadataRoute.Sitemap = []
-
-  for (const page of pages) {
-    entries.push({
-      url: `${BASE_URL}/fr${page.path}`,
+  const entries: MetadataRoute.Sitemap = pages.flatMap((page) =>
+    localized(page.path, LANGUAGES, {
       lastModified: new Date(page.lastModified),
       changeFrequency: page.changeFrequency,
       priority: page.priority,
-      alternates: { languages: hreflangFor(page.path) },
-    })
-  }
+    }),
+  )
 
-  // Blog articles — FR canonical + hreflang alternates
+  // Blog articles: only the locales the article is translated into (the
+  // other locales 404, see app/[lang]/blog/[slug]/page.tsx).
   for (const article of articles) {
     const priority = article.category === 'tests' ? 0.7
       : article.category === 'comparatifs' ? 0.7
       : article.category === 'guides' ? 0.6
       : 0.5
-    const blogPath = `/blog/${article.slug}`
-    entries.push({
-      url: `${BASE_URL}/fr${blogPath}`,
-      lastModified: new Date(article.dateModified),
-      changeFrequency: 'monthly',
-      priority,
-      alternates: { languages: hreflangFor(blogPath) },
-    })
+    const translated = LANGUAGES.filter((lang) => article.content[lang])
+    if (translated.length === 0) continue
+    entries.push(
+      ...localized(`/blog/${article.slug}`, translated, {
+        lastModified: new Date(article.dateModified),
+        changeFrequency: 'monthly',
+        priority,
+      }),
+    )
   }
 
   return entries

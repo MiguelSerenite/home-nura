@@ -12,6 +12,8 @@
  *   - Back-link to the parent category (cross-link back into real
  *     indexable content so every troubleshooting page sits inside the
  *     internal-link graph)
+ *   - "Repair or replace?" box: the category buying guide's picks, linked
+ *     to amazon.fr (Global Earning; none on review-only categories)
  *   - Derived FAQ (3 entries referencing EU Directive 2019/771 legal
  *     conformity guarantee, emits FAQPage JSON-LD via FaqSection)
  *   - Methodology CTA
@@ -39,7 +41,9 @@ import {
 } from '@/lib/seo'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import FaqSection from '@/components/FaqSection'
+import QuickAnswer from '@/components/QuickAnswer'
 import { getProblemGuide } from '@/lib/catalog/problem-guides'
+import { getProblemBuyBox } from '@/lib/catalog/problem-buy-box'
 import {
   PROBLEMS,
   getProblem,
@@ -48,18 +52,24 @@ import {
   getMetaSilo,
   getProblemContent,
   getProblemFaq,
+  categoryPath,
 } from '@/lib/catalog'
+import { getDictionary } from '../../../dictionaries'
 import { LANGUAGES, isValidLang, type Lang } from '@/lib/i18n'
 import { ChevronRight } from 'lucide-react'
 
 interface ProblemUi {
   home: string
-  guides: string
   troubleshooting: string
   diagnosisTitle: string
   quickFixTitle: string
   causesTitle: string
   repairOrReplaceTitle: string
+  /** Shown above the picks when the problem has no hand-written repair-or-replace advice. */
+  repairOrReplaceFallback: string
+  buyBoxKicker: string
+  buyBoxQuestion: (categoryTitle: string) => string
+  buyBoxGuideCta: string
   faqTitle: string
   methodologyCta: string
   /** Phase OO: sibling-problem cluster heading. */
@@ -70,12 +80,15 @@ interface ProblemUi {
 const uiStrings: Record<Lang, ProblemUi> = {
   fr: {
     home: 'Accueil',
-    guides: 'Guides',
     troubleshooting: 'Dépannage',
     diagnosisTitle: 'Diagnostic',
     quickFixTitle: 'Procédure recommandée',
     causesTitle: 'Causes possibles',
     repairOrReplaceTitle: 'Réparer ou remplacer ?',
+    repairOrReplaceFallback: 'Si la panne persiste après ces vérifications et que l\'appareil n\'est plus couvert par la garantie, comparez le devis de réparation au prix d\'un modèle neuf.',
+    buyBoxKicker: 'Si vous remplacez',
+    buyBoxQuestion: (t) => `${t} : les modèles retenus dans notre guide d'achat`,
+    buyBoxGuideCta: 'Lire le guide d\'achat complet',
     faqTitle: 'Questions fréquentes',
     methodologyCta: 'Lire notre méthodologie',
     relatedProblemsTitle: 'Autres pannes fréquentes sur cette catégorie',
@@ -83,12 +96,15 @@ const uiStrings: Record<Lang, ProblemUi> = {
   },
   en: {
     home: 'Home',
-    guides: 'Guides',
     troubleshooting: 'Troubleshooting',
     diagnosisTitle: 'Diagnosis',
     quickFixTitle: 'Recommended procedure',
     causesTitle: 'Possible causes',
     repairOrReplaceTitle: 'Repair or replace?',
+    repairOrReplaceFallback: 'If the fault persists after these checks and the appliance is no longer under warranty, compare the repair quote with the price of a new model.',
+    buyBoxKicker: 'If you replace it',
+    buyBoxQuestion: (t) => `${t}: the models in our buying guide`,
+    buyBoxGuideCta: 'Read the full buying guide',
     faqTitle: 'Frequently asked questions',
     methodologyCta: 'Read our methodology',
     relatedProblemsTitle: 'Other common failures on this category',
@@ -96,12 +112,15 @@ const uiStrings: Record<Lang, ProblemUi> = {
   },
   de: {
     home: 'Start',
-    guides: 'Ratgeber',
     troubleshooting: 'Fehlerbehebung',
     diagnosisTitle: 'Diagnose',
     quickFixTitle: 'Empfohlene Vorgehensweise',
     causesTitle: 'Mögliche Ursachen',
     repairOrReplaceTitle: 'Reparieren oder ersetzen?',
+    repairOrReplaceFallback: 'Bleibt der Fehler nach diesen Prüfungen bestehen und greift weder Garantie noch Gewährleistung, vergleichen Sie den Kostenvoranschlag für die Reparatur mit dem Preis eines Neugeräts.',
+    buyBoxKicker: 'Falls Sie ersetzen',
+    buyBoxQuestion: (t) => `${t}: die Modelle aus unserem Kaufratgeber`,
+    buyBoxGuideCta: 'Den vollständigen Kaufratgeber lesen',
     faqTitle: 'Häufige Fragen',
     methodologyCta: 'Zur Methodik',
     relatedProblemsTitle: 'Weitere häufige Störungen dieser Kategorie',
@@ -109,12 +128,15 @@ const uiStrings: Record<Lang, ProblemUi> = {
   },
   es: {
     home: 'Inicio',
-    guides: 'Guías',
     troubleshooting: 'Solución de problemas',
     diagnosisTitle: 'Diagnóstico',
     quickFixTitle: 'Procedimiento recomendado',
     causesTitle: 'Causas posibles',
     repairOrReplaceTitle: '¿Reparar o sustituir?',
+    repairOrReplaceFallback: 'Si la avería persiste tras estas comprobaciones y el aparato ya no está en garantía, compara el presupuesto de reparación con el precio de un modelo nuevo.',
+    buyBoxKicker: 'Si lo sustituyes',
+    buyBoxQuestion: (t) => `${t}: los modelos de nuestra guía de compra`,
+    buyBoxGuideCta: 'Leer la guía de compra completa',
     faqTitle: 'Preguntas frecuentes',
     methodologyCta: 'Leer nuestra metodología',
     relatedProblemsTitle: 'Otras averías frecuentes en esta categoría',
@@ -122,12 +144,15 @@ const uiStrings: Record<Lang, ProblemUi> = {
   },
   it: {
     home: 'Home',
-    guides: 'Guide',
     troubleshooting: 'Risoluzione problemi',
     diagnosisTitle: 'Diagnosi',
     quickFixTitle: 'Procedura consigliata',
     causesTitle: 'Cause possibili',
     repairOrReplaceTitle: 'Riparare o sostituire?',
+    repairOrReplaceFallback: 'Se il guasto persiste dopo questi controlli e l\'apparecchio non è più in garanzia, confronta il preventivo di riparazione con il prezzo di un modello nuovo.',
+    buyBoxKicker: 'Se lo sostituisci',
+    buyBoxQuestion: (t) => `${t}: i modelli della nostra guida all'acquisto`,
+    buyBoxGuideCta: 'Leggi la guida all\'acquisto completa',
     faqTitle: 'Domande frequenti',
     methodologyCta: 'Leggi la nostra metodologia',
     relatedProblemsTitle: 'Altri guasti frequenti su questa categoria',
@@ -135,12 +160,15 @@ const uiStrings: Record<Lang, ProblemUi> = {
   },
   nl: {
     home: 'Home',
-    guides: 'Gidsen',
     troubleshooting: 'Probleemoplossing',
     diagnosisTitle: 'Diagnose',
     quickFixTitle: 'Aanbevolen procedure',
     causesTitle: 'Mogelijke oorzaken',
     repairOrReplaceTitle: 'Repareren of vervangen?',
+    repairOrReplaceFallback: 'Blijft de storing na deze controles bestaan en valt het apparaat niet meer onder de garantie, vergelijk dan de reparatieofferte met de prijs van een nieuw model.',
+    buyBoxKicker: 'Als je vervangt',
+    buyBoxQuestion: (t) => `${t}: de modellen uit onze koopgids`,
+    buyBoxGuideCta: 'Lees de volledige koopgids',
     faqTitle: 'Veelgestelde vragen',
     methodologyCta: 'Lees onze methodologie',
     relatedProblemsTitle: 'Andere veelvoorkomende storingen in deze categorie',
@@ -201,7 +229,10 @@ export default async function ProblemGuidePage({
   const guide = getProblemGuide(safeLang, prob.slug)
   const faqEntries = getProblemFaq(safeLang, category)
   const ui = uiStrings[safeLang]
-  const categoryHref = `/${safeLang}/${silo.slug}/${category.slug}`
+  const categoryTitle = category.title[safeLang]
+  const categoryHref = `/${safeLang}${categoryPath(category)}`
+  const buyBox = getProblemBuyBox(prob, safeLang)
+  const dict = await getDictionary(safeLang)
 
   // Phase OO: sibling-problem cluster. Every problem on a given
   // category cross-links to its siblings so the troubleshooting
@@ -213,10 +244,12 @@ export default async function ProblemGuidePage({
     (p) => p.slug !== prob.slug
   )
 
+  // Same trail as the visible breadcrumb. No "Guides" level: /guides has
+  // no page of its own (it 301s to the air fryer guide).
   const breadcrumbSchema = buildBreadcrumbListSchema(safeLang, [
     { name: ui.home, path: '' },
-    { name: ui.guides, path: '/guides' },
     { name: ui.troubleshooting, path: '/guides/probleme' },
+    { name: categoryTitle, path: categoryPath(category) },
     { name: content.title, path: `/guides/probleme/${prob.slug}` },
   ])
 
@@ -247,7 +280,7 @@ export default async function ProblemGuidePage({
       ? buildClusterItemListSchema({
           lang: safeLang,
           path: `/guides/probleme/${prob.slug}`,
-          name: `${ui.relatedProblemsTitle} — ${category.title[safeLang]}`,
+          name: `${ui.relatedProblemsTitle} — ${categoryTitle}`,
           description: ui.relatedProblemsSubtitle,
           items: siblingProblems.map((sibling) => ({
             name: sibling.query[safeLang],
@@ -291,11 +324,19 @@ export default async function ProblemGuidePage({
               </Link>
             </li>
             <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
-            <li className="text-slate-600">{ui.guides}</li>
+            <li>
+              <Link href={`/${safeLang}/guides/probleme`} className="hover:text-brand-600 transition-colors">
+                {ui.troubleshooting}
+              </Link>
+            </li>
             <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
-            <li className="text-slate-600">{ui.troubleshooting}</li>
+            <li>
+              <Link href={categoryHref} className="hover:text-brand-600 transition-colors">
+                {categoryTitle}
+              </Link>
+            </li>
             <li aria-hidden="true"><ChevronRight className="h-3.5 w-3.5 text-slate-400" /></li>
-            <li className="text-slate-600 font-medium">{category.title[safeLang]}</li>
+            <li className="text-slate-600 font-medium" aria-current="page">{content.title}</li>
           </ol>
         </nav>
 
@@ -369,12 +410,37 @@ export default async function ProblemGuidePage({
           </div>
         </section>
 
-        {guide && (
+        {(guide || buyBox) && (
           <section className="max-w-3xl mx-auto px-6 pb-10">
             <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-4">
               {ui.repairOrReplaceTitle}
             </h2>
-            <p className="text-base text-slate-700 leading-relaxed">{guide.replaceWhen}</p>
+            <p className="text-base text-slate-700 leading-relaxed">
+              {guide?.replaceWhen ?? ui.repairOrReplaceFallback}
+            </p>
+            {buyBox && (
+              <>
+                {/* Picks of the category buying guide, linked to amazon.fr;
+                    QuickAnswer carries the affiliate disclosure. */}
+                <QuickAnswer
+                  kicker={ui.buyBoxKicker}
+                  question={ui.buyBoxQuestion(categoryTitle)}
+                  picks={buyBox.picks}
+                  lang={safeLang}
+                  location="category_picks"
+                  surface="problem_picks"
+                />
+                {buyBox.guide && (
+                  <Link
+                    href={buyBox.guide.href}
+                    className="inline-flex items-center gap-2 text-sm font-semibold text-brand-700 hover:text-brand-800"
+                  >
+                    <span>{ui.buyBoxGuideCta}</span>
+                    <span aria-hidden="true">→</span>
+                  </Link>
+                )}
+              </>
+            )}
           </section>
         )}
 
@@ -386,7 +452,7 @@ export default async function ProblemGuidePage({
           >
             <span aria-hidden="true">←</span>
             <span>
-              {content.backToCategoryLabel} — {category.title[safeLang]}
+              {content.backToCategoryLabel} — {categoryTitle}
             </span>
           </Link>
         </section>
@@ -408,7 +474,7 @@ export default async function ProblemGuidePage({
                     className="group flex flex-col rounded-2xl border border-slate-200 bg-white px-5 py-4 transition duration-200 hover:border-brand-200 hover:shadow-sm"
                   >
                     <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-brand-600 mb-1">
-                      {category.title[safeLang]}
+                      {categoryTitle}
                     </span>
                     <span className="text-base font-semibold text-slate-900 group-hover:text-brand-700 transition-colors">
                       {sibling.query[safeLang]}
@@ -437,7 +503,10 @@ export default async function ProblemGuidePage({
         </div>
       </main>
 
-      <SiteFooter currentLang={safeLang} />
+      <SiteFooter
+        currentLang={safeLang}
+        topContent={buyBox ? <p className="text-sm text-slate-500">{dict.affiliate_disclaimer}</p> : undefined}
+      />
     </div>
   )
 }

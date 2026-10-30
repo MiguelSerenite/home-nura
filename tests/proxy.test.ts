@@ -199,6 +199,21 @@ describe('middleware locale routing', () => {
       expect(res.status, key).not.toBe(301)
     }
   })
+
+  it('sends the dead /cuisine-connectee/airfryers hub to the air fryer guide in every locale', () => {
+    for (const lang of ['fr', 'en', 'de', 'es', 'it', 'nl']) {
+      const request = new NextRequest(new URL(`http://localhost/${lang}/cuisine-connectee/airfryers`))
+      const res = middleware(request) as Response
+      expect(res.status, lang).toBe(301)
+      expect(res.headers.get('location'), lang).toMatch(new RegExp(`/${lang}/guides/airfryers$`))
+    }
+  })
+
+  it('leaves the other smart kitchen category pages alone', () => {
+    const request = new NextRequest(new URL('http://localhost/fr/cuisine-connectee/cafetieres'))
+    const res = middleware(request) as Response
+    expect(res.status).not.toBe(301)
+  })
 })
 
 describe('proxy geo country cookie', () => {

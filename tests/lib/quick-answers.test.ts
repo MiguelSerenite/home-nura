@@ -18,17 +18,18 @@ describe('quick answers', () => {
         const qa = getQuickAnswer(article, lang)
         const expected = QUICK_ANSWERS[article.slug].picks.length
         if (!qa || qa.picks.length !== expected) missing.push(`${lang}/${article.slug}: ${qa?.picks.length ?? 0}/${expected}`)
-        qa?.picks.forEach((p) => expect(p.url, `${lang}/${article.slug}`).toMatch(/^https:\/\/www\.amazon\./))
+        qa?.picks.forEach((p) => expect(p.url, `${lang}/${article.slug}`).toMatch(/^https:\/\/www\.amazon\.fr\//))
       }
     }
     expect(missing).toEqual([])
   })
 
-  it('links Spanish readers of the smart lock guide to amazon.es', () => {
+  it('links Spanish readers of the smart lock guide to amazon.fr (Global Earning)', () => {
     const lock = articles.find((a) => a.slug === 'serrure-connectee-guide')!
     const qa = getQuickAnswer(lock, 'es')!
     expect(qa.question).toMatch(/\?$/)
     expect(qa.picks[0].model).toBe('Nuki Smart Lock Pro (5th generation)')
-    expect(qa.picks[0].url).toContain('https://www.amazon.es/')
+    expect(qa.picks[0].url).toContain('https://www.amazon.fr/')
+    expect(qa.picks[0].url).toContain('tag=homenuraen05-21')
   })
 })

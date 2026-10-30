@@ -74,6 +74,20 @@ const SLUG_ALIASES: Record<string, string> = {
   'over-ons': '/a-propos',
 }
 
+// Dead multi-segment paths still linked from published content, 301'd to
+// the page that replaced them. /cuisine-connectee/airfryers never existed
+// (the kitchen route only serves the SMART_KITCHEN_CATEGORIES) yet articles
+// in every locale still link to it; air fryers live on the pillar guide.
+const PATH_ALIASES: Record<string, string> = {
+  'cuisine-connectee/airfryers': '/guides/airfryers',
+}
+
+function aliasTarget(pathAfterLang: string): string | undefined {
+  if (Object.hasOwn(SLUG_ALIASES, pathAfterLang)) return SLUG_ALIASES[pathAfterLang]
+  if (Object.hasOwn(PATH_ALIASES, pathAfterLang)) return PATH_ALIASES[pathAfterLang]
+  return undefined
+}
+
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl
 
@@ -106,16 +120,11 @@ export function proxy(request: NextRequest) {
     return NextResponse.redirect(url, 301)
   }
 
-  // Friendly-slug redirects: /en/guide → /en/guides/airfryers, etc.
-  // Only kicks in for paths of the shape /{lang}/{alias} where {alias} is a
-  // known shortcut. Two-segment paths keep the canonical URL as the target
-  // so every redirect stays inside the current locale.
-  if (
-    isValidLang(langSegment) &&
-    segments.length === 3 &&
-    Object.hasOwn(SLUG_ALIASES, segments[2])
-  ) {
-    const canonical = SLUG_ALIASES[segments[2]]
+  // Friendly-slug and dead-path redirects: /en/guide → /en/guides/airfryers,
+  // /de/cuisine-connectee/airfryers → /de/guides/airfryers. Only exact
+  // /{lang}/{alias} matches; the redirect stays inside the current locale.
+  const canonical = isValidLang(langSegment) ? aliasTarget(segments.slice(2).join('/')) : undefined
+  if (canonical) {
     const url = request.nextUrl.clone()
     url.pathname = `/${langSegment}${canonical}`
     return NextResponse.redirect(url, 301)
