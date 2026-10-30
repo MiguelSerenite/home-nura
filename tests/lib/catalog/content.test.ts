@@ -14,6 +14,7 @@
 
 import { describe, it, expect } from 'vitest'
 import { CATEGORIES } from '@/lib/catalog/categories'
+import { getCategoryHead } from '@/lib/catalog/category-heads'
 import {
   getCategoryHero,
   getCategoryFaq,
@@ -51,10 +52,15 @@ describe('getCategoryHero', () => {
     }
   })
 
-  it('embeds the category title inside the hero title', () => {
+  it('uses the market-written H1, else embeds the category title in the template', () => {
     for (const cat of CATEGORIES) {
       for (const lang of LANGS) {
         const hero = getCategoryHero(lang, cat)
+        const head = getCategoryHead(cat.slug, lang)
+        if (head) {
+          expect(hero.title, `${cat.slug}.${lang}`).toBe(head.h1)
+          continue
+        }
         const catTitle = cat.title[lang]
         // Generic templates always reference the category — case
         // varies by locale, so we compare lowercased versions.
@@ -79,11 +85,11 @@ describe('getCategoryHero', () => {
     }
   })
 
-  it('intro references the category primary keyword (search-intent anchor)', () => {
+  it('intro references the market keyword (search-intent anchor)', () => {
     for (const cat of CATEGORIES) {
       for (const lang of LANGS) {
         const hero = getCategoryHero(lang, cat)
-        const keyword = cat.primaryKeyword[lang]
+        const keyword = getCategoryHead(cat.slug, lang)?.keyword ?? cat.primaryKeyword[lang]
         expect(
           hero.intro.includes(keyword),
           `${cat.slug}.${lang}: hero.intro should mention primaryKeyword`

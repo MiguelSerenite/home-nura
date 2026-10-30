@@ -1,8 +1,9 @@
 import { describe, it, expect } from 'vitest'
 import { getAllSlugs } from '@/lib/blog'
-import { CATEGORY_GUIDES, CATEGORY_SEO_TITLES, getCategoryGuides, buildCategorySeo } from '@/lib/catalog/category-guides'
+import { CATEGORY_GUIDES, getCategoryGuides, buildCategorySeo } from '@/lib/catalog/category-guides'
 import { getCategory } from '@/lib/catalog/categories'
-import { LANGUAGES, type Lang } from '@/lib/i18n'
+import type { Category } from '@/lib/catalog/types'
+import { LANGUAGES } from '@/lib/i18n'
 
 describe('category guides', () => {
   it('only maps existing, indexable categories to existing articles', () => {
@@ -37,8 +38,13 @@ describe('category guides', () => {
   })
 })
 
+// Every indexable hub has a market-written head (category-heads.test.ts);
+// the template below only serves hubs without one, so these tests run it
+// on a copy of a real category under a slug that has no head.
+const withoutHead = (slug: string): Category => ({ ...getCategory(slug)!, slug: `${slug}--template` })
+
 describe('category SEO title and description', () => {
-  const cat = getCategory('purificateurs-air')!
+  const cat = withoutHead('purificateurs-air')
 
   it('targets "best X 2026" and names the picks in the snippet', () => {
     const seo = buildCategorySeo(cat, 'en', ['Levoit Core 300S', 'Philips 2000i'])
@@ -48,7 +54,7 @@ describe('category SEO title and description', () => {
   })
 
   it('falls back to a generic snippet when no picks exist', () => {
-    const seo = buildCategorySeo(getCategory('detecteurs-mouvement')!, 'fr', [])
+    const seo = buildCategorySeo(withoutHead('detecteurs-mouvement'), 'fr', [])
     expect(seo.title).toMatch(/Détecteurs de Mouvement/i)
     expect(seo.description.length).toBeGreaterThan(80)
   })
@@ -63,39 +69,15 @@ describe('category SEO title and description', () => {
 
 describe('category SEO keyword cleanup', () => {
   it('never doubles "best" when the keyword already contains it', () => {
-    const { description } = buildCategorySeo(getCategory('purificateurs-air')!, 'en', ['A', 'B'])
+    const { description } = buildCategorySeo(withoutHead('purificateurs-air'), 'en', ['A', 'B'])
     expect(description).not.toMatch(/which best/i)
   })
 })
 
 describe('category SEO honesty', () => {
   it('does not promise "our picks" on a page without picks', () => {
-    const { title } = buildCategorySeo(getCategory('detecteurs-mouvement')!, 'en', [])
+    const { title } = buildCategorySeo(withoutHead('detecteurs-mouvement'), 'en', [])
     expect(title).toBe('Best Motion Sensors 2026: Comparison')
-  })
-})
-
-describe('hand-written hub titles', () => {
-  it('leads the English motion sensor hub with the "motion sensor comparison" query', () => {
-    const { picks } = getCategoryGuides('detecteurs-mouvement', 'en')
-    const { title } = buildCategorySeo(getCategory('detecteurs-mouvement')!, 'en', picks.map((p) => p.model))
-    expect(title).toBe('Motion Sensor Comparison 2026: Models & Where to Buy')
-  })
-
-  it('keeps the template in locales without an override', () => {
-    const { title } = buildCategorySeo(getCategory('detecteurs-mouvement')!, 'fr', ['A', 'B'])
-    expect(title).toBe('Détecteurs de Mouvement : comparatif 2026 et nos choix')
-  })
-
-  it('only overrides hubs with picks, within 60 characters and with the current year', () => {
-    for (const [slug, perLang] of Object.entries(CATEGORY_SEO_TITLES)) {
-      expect(CATEGORY_GUIDES[slug]?.primary, slug).toBeTruthy()
-      for (const [lang, title] of Object.entries(perLang)) {
-        expect(title!.length, `${lang}/${slug}`).toBeLessThanOrEqual(60)
-        expect(title, `${lang}/${slug}`).toContain('2026')
-        expect(getCategoryGuides(slug, lang as Lang).picks.length, `${lang}/${slug}`).toBeGreaterThanOrEqual(2)
-      }
-    }
   })
 })
 
@@ -113,7 +95,7 @@ describe('category picks match the category', () => {
   })
 
   it('reads naturally when the keyword carries a qualifier (alarm without subscription)', () => {
-    const { description } = buildCategorySeo(getCategory('alarmes')!, 'en', ['Ajax StarterKit', 'Eufy HomeBase S380'])
+    const { description } = buildCategorySeo(withoutHead('alarmes'), 'en', ['Ajax StarterKit', 'Eufy HomeBase S380'])
     expect(description).not.toMatch(/no subscription to buy/)
     expect(description).toMatch(/^Our 2026 picks: Ajax StarterKit/)
   })

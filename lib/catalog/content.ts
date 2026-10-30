@@ -26,6 +26,7 @@
 import type { Category } from './types'
 import type { Lang } from '@/lib/i18n'
 import { getMetaSilo } from './meta-silos'
+import { getCategoryHead } from './category-heads'
 
 // ---------------------------------------------------------------------
 // Hero block
@@ -106,10 +107,11 @@ export function getCategoryHero(lang: Lang, category: Category): CategoryHero {
   const tmpl = heroTemplates[lang]
   const catTitle = category.title[lang]
   const siloTitle = silo.title[lang]
-  const keyword = category.primaryKeyword[lang]
+  const head = getCategoryHead(category.slug, lang)
+  const keyword = head?.keyword ?? category.primaryKeyword[lang]
   return {
     kicker: catTitle,
-    title: tmpl.title(catTitle),
+    title: head?.h1 ?? tmpl.title(catTitle),
     subtitle: tmpl.subtitle(siloTitle),
     intro: tmpl.intro(catTitle, siloTitle, keyword),
     buyCtaLabel: tmpl.buyCtaLabel,
