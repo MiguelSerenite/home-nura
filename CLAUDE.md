@@ -2,15 +2,14 @@
 
 # Project Rules — homenura.com
 
-## Image Quality Rules (MANDATORY)
-Before committing ANY change to product images in `lib/products.ts`:
+## Amazon Associates Compliance (MANDATORY)
+Until the Amazon account can use Amazon's product API (Creators API), the Associates Operating Agreement forbids showing Amazon product images or prices. Breaking it can close the account and void every commission.
 
-1. **VALIDATE every image ID loads**: Test each Amazon CDN URL returns HTTP 200. IDs starting with 8x or 9x are often broken (lifestyle/A+ content images). Remove them.
-2. **NO duplicates**: Each image ID must appear only ONCE per country array. Check with `new Set(ids).size === ids.length`.
-3. **ALL 6 countries required**: Every product MUST have images for fr, de, en, es, it, nl. Use fallback chain: nl→de, it→fr if marketplace doesn't carry the product.
-4. **Minimum 2 images per country**: Never commit a single-image array. If a marketplace only has 1 image, use the fallback country's images instead.
-5. **Run validation**: Execute `npx tsx scripts/validate-images.ts` before committing. It checks all rules above including HTTP image loading.
-6. **Per-country images are MANDATORY**: Each country shows images from ITS OWN Amazon marketplace. Never use universal/shared images. French Amazon images (with French text) on the French site, German Amazon images (with German text) on the German site, etc.
+1. **No Amazon product images**: never hotlink, download, store or proxy an image from an Amazon CDN, and never add an Amazon host to `next.config.ts` `images.remotePatterns` or the CSP in `proxy.ts`. Product cards use `components/ProductVisual.tsx` (category icon, brand, model), fed by the `brand` field of `lib/products.ts` / `lib/smart-kitchen-products.ts`. Blog hero images come from free photo libraries (Unsplash), never Amazon.
+2. **No prices next to Amazon products**: `priceNumeric` only sorts products into budget tiers and feeds click analytics; it is never rendered. Editorial budget ranges ("moins de 100 €") are fine, a model's price is not.
+3. **Disclosure**: Amazon's exact Associates wording per locale lives in `lib/affiliate-disclosure.ts`, rendered by `components/AmazonDisclosure.tsx` in the footer and next to every block of Amazon links. Never paraphrase it.
+4. **Store-neutral CTAs**: every link goes to amazon.fr with the single store ID (`lib/amazon.ts`); Amazon Global Earning sends shoppers to their local store, so labels say "Amazon", never "Amazon.de" / "Amazon.co.uk".
+5. `tests/lib/amazon-compliance.test.ts` enforces all of the above.
 
 ## Git Workflow
 - Always provide the exact `git push origin main --force` command ready to paste
