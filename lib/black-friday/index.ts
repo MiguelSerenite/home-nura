@@ -22,7 +22,7 @@ export function blackFridayPath(slug?: string): string {
 
 /**
  * Every Black Friday URL, language-relative (same path under each of the
- * 6 language prefixes). For app/sitemap.ts, wired in a follow-up.
+ * 6 language prefixes). Listed in app/sitemap.ts for every locale.
  */
 export const BLACK_FRIDAY_PATHS: readonly string[] = [
   blackFridayPath(),

@@ -8,6 +8,7 @@ import {
   getIndexableCategories,
   PROBLEMS,
 } from '@/lib/catalog'
+import { BLACK_FRIDAY_PATHS } from '@/lib/black-friday'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Phase X: single source of truth for freshness. Bumping
@@ -71,6 +72,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       path: `/guides/probleme/${p.slug}`,
       priority: 0.7,
       changeFrequency: 'monthly' as const,
+      lastModified: today,
+    })),
+    // Black Friday hub + category pages: evergreen URLs (no year), in every
+    // locale. Weekly so the yearly copy refresh is picked up before the event.
+    ...BLACK_FRIDAY_PATHS.map((path) => ({
+      path,
+      priority: 0.7,
+      changeFrequency: 'weekly' as const,
       lastModified: today,
     })),
     // Persona buyer guides and best-for pages are built

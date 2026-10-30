@@ -3,6 +3,7 @@ import { describe, it, expect } from 'vitest'
 import sitemap from '@/app/sitemap'
 import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import { PROBLEMS } from '@/lib/catalog'
+import { BLACK_FRIDAY_PATHS } from '@/lib/black-friday'
 
 describe('app/sitemap.ts', () => {
   const entries = sitemap()
@@ -80,6 +81,21 @@ describe('app/sitemap.ts', () => {
       for (const problem of PROBLEMS) {
         const url = `${BASE_URL}/${lang}/guides/probleme/${problem.slug}`
         expect(entries.find((e) => e.url === url), url).toBeDefined()
+      }
+    }
+  })
+
+  it('lists the Black Friday hub and every category page in every locale, with hreflang', () => {
+    expect(BLACK_FRIDAY_PATHS.length).toBeGreaterThan(1)
+    for (const path of BLACK_FRIDAY_PATHS) {
+      for (const entryLang of LANGS) {
+        const url = `${BASE_URL}/${entryLang}${path}`
+        const hit = entries.find((e) => e.url === url)
+        expect(hit, url).toBeDefined()
+        for (const lang of LANGS) {
+          expect(hit?.alternates?.languages?.[lang], `${url} hreflang ${lang}`).toBe(`${BASE_URL}/${lang}${path}`)
+        }
+        expect(hit?.alternates?.languages?.['x-default'], url).toBe(`${BASE_URL}/fr${path}`)
       }
     }
   })
