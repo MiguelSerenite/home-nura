@@ -22,6 +22,8 @@ import { buildPageMetadata, buildArticleSchema, buildProductImageObject } from '
 import { LANGUAGES, isValidLang } from '@/lib/i18n'
 import { BLOG_SEO_META } from '@/lib/blog/seo-meta'
 import { ChevronRight } from 'lucide-react'
+import AuthorByline from '@/components/AuthorByline'
+import { getAuthor } from '@/lib/authors'
 
 const BASE_URL = 'https://homenura.com'
 
@@ -82,7 +84,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     type: 'article',
     publishedTime: article.datePublished,
     modifiedTime: article.dateModified,
-    authors: ['Miguel Serenite'],
+    authors: [getAuthor(lang).name],
   })
 }
 
@@ -227,10 +229,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
 
           {/* Meta */}
           <div className="flex flex-wrap items-center gap-4 text-sm text-slate-500 border-t border-b border-slate-100 py-4">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-brand-500 to-accent-600 flex items-center justify-center text-white text-xs font-bold">MS</div>
-              <span className="font-medium text-slate-600">Miguel Serenite</span>
-            </div>
+            <AuthorByline lang={lang} />
             <span>{lang === 'fr' ? 'Publié le' : lang === 'de' ? 'Veröffentlicht am' : lang === 'es' ? 'Publicado el' : lang === 'it' ? 'Pubblicato il' : lang === 'nl' ? 'Gepubliceerd op' : lang === 'pl' ? 'Opublikowano' : 'Published'} {dateFormatted}</span>
             {article.dateModified !== article.datePublished && (
               <span>{lang === 'fr' ? 'Mis à jour le' : lang === 'de' ? 'Aktualisiert am' : lang === 'es' ? 'Actualizado el' : lang === 'it' ? 'Aggiornato il' : lang === 'nl' ? 'Bijgewerkt op' : lang === 'pl' ? 'Zaktualizowano' : 'Updated'} {modifiedFormatted}</span>

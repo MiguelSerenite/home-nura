@@ -40,6 +40,7 @@ import IndependentSources from '@/components/IndependentSources'
 import { getCategoryGuides } from '@/lib/catalog/category-guides'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import FaqSection from '@/components/FaqSection'
+import AuthorByline from '@/components/AuthorByline'
 import {
   getMetaSilo,
   getCategory,
@@ -256,6 +257,8 @@ export default async function CategoryHub({
           subtitle={hero.subtitle}
           intro={hero.intro}
         />
+
+        <AuthorByline lang={safeLang} className="justify-center max-w-3xl mx-auto px-4 md:px-6 -mt-6 mb-8 text-sm" />
 
         <ProductSceneBanner photo={picks[0]?.photo} />
 
