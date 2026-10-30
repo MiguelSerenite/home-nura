@@ -4,6 +4,7 @@ import { Geist } from "next/font/google";
 import { WebVitalsReporter } from "@/components/WebVitalsReporter";
 import { Analytics } from "@vercel/analytics/next";
 import GeoLocaleSuggestion from "@/components/GeoLocaleSuggestion";
+import BackToTop from "@/components/BackToTop";
 import { LANGUAGES, isValidLang, type Lang } from "@/lib/i18n";
 import { buildPageMetadata, BASE_URL } from "@/lib/seo";
 import "../globals.css";
@@ -201,6 +202,7 @@ export default async function RootLayout({
             build-time VERCEL env guard turned out to be falsy on Vercel. */}
         <Analytics />
         {children}
+        <BackToTop lang={lang} />
       </body>
     </html>
   );

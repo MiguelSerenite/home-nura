@@ -2,11 +2,11 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, type MouseEvent as ReactMouseEvent } from 'react'
 import { usePathname } from 'next/navigation'
 import SearchBar from './SearchBar'
 import { Shield, Sparkles, Trees, Wind, Zap } from 'lucide-react'
-import { switchLocalePath, type Lang } from '@/lib/i18n'
+import { isLocaleHome, switchLocalePath, type Lang } from '@/lib/i18n'
 
 const countries: ReadonlyArray<{ code: Lang; flag: string; label: string; name: string }> = [
   { code: 'fr', flag: '🇫🇷', label: 'FR', name: 'Français' },
@@ -103,6 +103,17 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
   }, [])
 
   const close = () => setIsOpen(false)
+
+  // On the home page the logo links to the page already shown, which does
+  // nothing visible: scroll back to the top instead (instantly when the OS
+  // asks for reduced motion). Cmd/Ctrl-click still opens a new tab.
+  const onLogoClick = (e: ReactMouseEvent<HTMLAnchorElement>) => {
+    close()
+    if (!isLocaleHome(pathname, lang) || e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return
+    e.preventDefault()
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' })
+  }
   const currentCountry = countries.find(c => c.code === lang)
 
   const navLinkCls = 'whitespace-nowrap text-[13px] font-medium text-slate-600 hover:text-slate-900 transition-colors rounded px-2 py-1 hover:bg-slate-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500'
@@ -116,7 +127,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
           href={`/${lang}`}
           className="shrink-0 flex items-center"
           aria-label="Home Nura"
-          onClick={close}
+          onClick={onLogoClick}
         >
           {/* Tightly cropped logo: /logo.png has ~75% transparent margin, which
               made the wordmark tiny in the header. */}

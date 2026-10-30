@@ -11,6 +11,7 @@ import { getCategory } from '@/lib/catalog'
 import AffiliateLink from '@/components/AffiliateLink'
 import CookieBanner from '@/components/CookieBanner'
 import { getStaticProducts } from '@/lib/products'
+import { productKicker } from '@/lib/product-types'
 import { buildProductListSchema, formatLastUpdated, lastUpdatedLabel, SITE_LAST_UPDATED_ISO, buildPageMetadata } from '@/lib/seo'
 import Link from 'next/link'
 import type { Metadata } from 'next'
@@ -927,6 +928,7 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
                 lang={lang}
                 capacity={product.capacity}
                 bestFor={product.bestFor}
+                kicker={productKicker({ type: 'airfryers', lang: resolveLang(lang), bestFor: product.bestFor })}
               />
             </div>
           ))}

@@ -18,6 +18,7 @@ import {
   type SmartKitchenCategory,
 } from '@/lib/smart-kitchen-products'
 import { getSmartKitchenFaqs, faqSectionTitles } from '@/lib/smart-kitchen-faqs'
+import { productKicker } from '@/lib/product-types'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import { resolveLang, LANGUAGES } from '@/lib/i18n'
 import { ChevronRight } from 'lucide-react'
@@ -535,6 +536,7 @@ export default async function CategoryPage({
                 lang={safeLang}
                 capacity={p.capacity}
                 bestFor={p.bestFor}
+                kicker={productKicker({ type: safeCat, lang: safeLang, bestFor: p.bestFor })}
               />
             ))}
           </div>
