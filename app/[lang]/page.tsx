@@ -10,6 +10,8 @@ import NewsletterForm from '@/components/NewsletterForm'
 import ComparisonTable from '@/components/ComparisonTable'
 import CookieBanner from '@/components/CookieBanner'
 import { getStaticProducts } from '@/lib/products'
+import { productKicker } from '@/lib/product-types'
+import { resolveLang } from '@/lib/i18n'
 import { buildProductListSchema, formatLastUpdated, lastUpdatedLabel, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import Link from 'next/link'
 import { Kicker, SiteFooter, Button } from '@/components/ui'
@@ -30,6 +32,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
   // Produits statiques avec liens affiliés
   const products = getStaticProducts(lang);
+  const safeLang = resolveLang(lang);
 
   // BreadcrumbList Schema
   const breadcrumbSchema = {
@@ -177,7 +180,12 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                   <ProductHeroVisual visual={product.visual} title={product.title} badge={product.badge} lang={lang} />
                 </div>
                 <div className="px-6 pb-6">
-                  <h3 className="text-lg font-bold text-slate-900 mb-2 line-clamp-2">{product.title}</h3>
+                  <h3 className="text-lg font-bold text-slate-900 mb-2">
+                    <span className="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-brand-700">
+                      {productKicker({ type: 'airfryers', lang: safeLang, rank: i + 1, bestFor: product.bestFor })}
+                    </span>
+                    <span className="line-clamp-2">{product.title}</span>
+                  </h3>
                   <div className="flex items-center gap-2 mb-3">
                     <span className={`px-2 py-0.5 text-xs font-bold rounded-full ${product.nuraScore >= 9 ? 'bg-emerald-100 text-emerald-700' : 'bg-brand-100 text-brand-700'}`}>
                       {product.nuraScore}/10
@@ -250,6 +258,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
               lang={lang}
               capacity={product.capacity}
               bestFor={product.bestFor}
+              kicker={productKicker({ type: 'airfryers', lang: safeLang, bestFor: product.bestFor })}
             />
           ))}
         </div>
