@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { buildPageMetadata } from '@/lib/seo'
 import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
 import { Kicker, SiteFooter } from '@/components/ui'
+import { BlackFridaySiloLinks } from '@/components/black-friday/Promos'
 import { resolveLang } from '@/lib/i18n'
 import { ChevronRight } from 'lucide-react'
 
@@ -411,6 +412,8 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
         <div className="h-[2px] w-16 bg-brand-600 mx-auto mt-10"></div>
         <Kicker variant="slate" size="sm" className="mt-6">{c.lastUpdated}</Kicker>
       </section>
+
+      <BlackFridaySiloLinks lang={safeLang} siloSlug="cuisine-connectee" />
 
       {/* Editorial dossier — 4 chapters */}
       <section className="max-w-3xl mx-auto px-6 pt-10 pb-24">

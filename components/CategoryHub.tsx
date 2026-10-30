@@ -41,6 +41,7 @@ import {
 import type { MetaSiloSlug } from '@/lib/catalog'
 import { isValidLang, type Lang } from '@/lib/i18n'
 import { ChevronRight } from 'lucide-react'
+import { BlackFridayHubLink } from '@/components/black-friday/Promos'
 
 interface CategoryHubUi {
   home: string
@@ -245,6 +246,8 @@ export default async function CategoryHub({
             />
           </div>
         )}
+
+        <BlackFridayHubLink lang={safeLang} categorySlug={category.slug} />
 
         {articles.length > 0 && (
           <section className="max-w-6xl mx-auto px-4 md:px-6 pb-12">

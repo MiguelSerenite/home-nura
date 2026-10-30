@@ -4,6 +4,8 @@ import { getIndexableSilos } from '@/lib/catalog'
 import { LANGUAGES } from '@/lib/i18n'
 import { getQuickAnswer } from '@/lib/blog/quick-answers'
 import { BASE_URL } from '@/lib/seo'
+import { BLACK_FRIDAY_CATEGORIES, BLACK_FRIDAY_YEAR, blackFridayPath } from '@/lib/black-friday'
+import { HUB_COPY } from '@/lib/black-friday/copy/hub'
 
 /**
  * /llms.txt (https://llmstxt.org): a plain-markdown map of the site for
@@ -55,6 +57,12 @@ export function buildLlmsTxt(): string {
       const picks = qa.picks.map((p) => `${p.role}: ${p.model} — ${p.why}`).join(' ')
       return [`- [${qa.question}](${BASE_URL}/en/blog/${article.slug}): ${picks}`]
     }),
+    '',
+    `## Black Friday ${BLACK_FRIDAY_YEAR}`,
+    link(HUB_COPY.fr.h1, `/fr${blackFridayPath()}`, HUB_COPY.en.metaDescription),
+    ...BLACK_FRIDAY_CATEGORIES.map((c) =>
+      link(c.copy.fr.h1, `/fr${blackFridayPath(c.slug)}`, c.copy.en.metaDescription),
+    ),
     '',
     '## Optional',
     link('Sitemap', '/sitemap.xml', 'every indexable URL with hreflang alternates'),
