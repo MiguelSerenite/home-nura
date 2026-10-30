@@ -12,6 +12,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { Kicker, SiteFooter } from '@/components/ui'
+import { BlackFridayHubLink } from '@/components/black-friday/Promos'
 import { resolveLang } from '@/lib/i18n'
 
 const guideContent: Record<string, {
@@ -616,6 +617,8 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           </time>
         </div>
       </section>
+
+      <BlackFridayHubLink lang={lang} categorySlug="airfryers" />
 
       {/* Trust Section */}
       <section className="max-w-3xl mx-auto px-6 py-12">

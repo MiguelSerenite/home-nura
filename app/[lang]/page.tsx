@@ -11,6 +11,7 @@ import { getStaticProducts } from '@/lib/products'
 import { buildProductListSchema, formatLastUpdated, lastUpdatedLabel, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import Link from 'next/link'
 import { Kicker, SiteFooter, Button } from '@/components/ui'
+import { BlackFridayHomeBanner } from '@/components/black-friday/Promos'
 
 const HERO_CTA: Record<string, { primary: string; secondary: string }> = {
   fr: { primary: 'Voir notre top 3', secondary: 'Trouver mon airfryer en 1 min' },
@@ -160,6 +161,8 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
           </time>
         </div>
       </section>
+
+      <BlackFridayHomeBanner lang={lang} />
 
       {/* Top Products Showcase with Real Images */}
       <section id="top-picks" className="scroll-mt-20 px-4 sm:px-6 py-12 md:py-16 bg-white">
