@@ -15,6 +15,15 @@ export const PRODUCT_PHOTO_WIDTHS = [400, 800, 1200] as const
 export const PRODUCT_PHOTO_FORMATS = ['avif', 'webp'] as const
 /** Vertical 2:3 variant for Pinterest saves. */
 export const PRODUCT_PIN = { width: 1000, height: 1500, formats: ['jpg', 'webp'] as const }
+/**
+ * Gallery photos (in use, in a room, close-up), like the extra images of an
+ * Amazon listing: kept at their own aspect ratio, no frame.
+ */
+export const PRODUCT_GALLERY_WIDTHS = [800, 1600] as const
+export const PRODUCT_GALLERY_ROLES = ['in-use', 'lifestyle', 'detail'] as const
+
+export type ProductGalleryWidth = (typeof PRODUCT_GALLERY_WIDTHS)[number]
+export type ProductGalleryRole = (typeof PRODUCT_GALLERY_ROLES)[number]
 
 export type ProductPhotoWidth = (typeof PRODUCT_PHOTO_WIDTHS)[number]
 export type ProductPhotoFormat = (typeof PRODUCT_PHOTO_FORMATS)[number]
@@ -159,6 +168,34 @@ export interface ProductPhoto {
   copyright: string
   /** Absolute URL of the vertical variant, offered to Pinterest's save button. */
   pin: string
+  /** In-use, lifestyle and close-up photos, in display order (may be empty). */
+  gallery?: readonly ProductGalleryPhoto[]
+}
+
+/** One gallery photo of a product, ready to render in one language. */
+export interface ProductGalleryPhoto {
+  /** File stem: the product photo id and its gallery number ("ninja-x-g1"). */
+  stem: string
+  role: ProductGalleryRole
+  /** What the photo shows, localized. */
+  alt: string
+  /** Visible credit line, e.g. "Photo : © Ninja". */
+  credit: string
+  width: number
+  height: number
+}
+
+export function productGalleryStem(id: string, n: number): string {
+  return `${id}-g${n}`
+}
+
+export function productGalleryPath(stem: string, width: ProductGalleryWidth, format: ProductPhotoFormat): string {
+  return `${PRODUCT_PHOTO_DIR}/${stem}-${width}.${format}`
+}
+
+/** `srcset` of a gallery photo in one format. */
+export function productGallerySrcSet(stem: string, format: ProductPhotoFormat): string {
+  return PRODUCT_GALLERY_WIDTHS.map((w) => `${productGalleryPath(stem, w, format)} ${w}w`).join(', ')
 }
 
 export function productPhotoPath(id: string, width: ProductPhotoWidth, format: ProductPhotoFormat): string {

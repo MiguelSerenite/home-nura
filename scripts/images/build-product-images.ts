@@ -35,14 +35,17 @@
  */
 import { createHash } from 'node:crypto'
 import { existsSync, mkdirSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from 'node:fs'
-import { extname, join } from 'node:path'
+import { basename, extname, join } from 'node:path'
 import sharp from 'sharp'
 import manifest from '../../data/product-images.json'
-import type { ProductImageEntry } from '../../lib/product-images'
+import type { GalleryImageEntry, ProductImageEntry } from '../../lib/product-images'
 import {
+  PRODUCT_GALLERY_WIDTHS,
   PRODUCT_PHOTO_FORMATS,
   PRODUCT_PHOTO_WIDTHS,
   PRODUCT_PIN,
+  productGalleryPath,
+  productGalleryStem,
   productPhotoPath,
   productPinPath,
 } from '../../lib/product-photo'
@@ -187,29 +190,68 @@ function writeIfChanged(path: string, buffer: Buffer): boolean {
   return true
 }
 
-function outputsOf(id: string): string[] {
-  return [
-    ...PRODUCT_PHOTO_WIDTHS.flatMap((w) => PRODUCT_PHOTO_FORMATS.map((f) => productPhotoPath(id, w, f))),
-    ...PRODUCT_PIN.formats.map((f) => productPinPath(id, f)),
-  ].map((p) => join(PUBLIC_DIR, p))
+function galleryOutputsOf(stem: string): string[] {
+  return PRODUCT_GALLERY_WIDTHS.flatMap((w) => PRODUCT_PHOTO_FORMATS.map((f) => join(PUBLIC_DIR, productGalleryPath(stem, w, f))))
 }
 
-async function fetchRaw(entry: ProductImageEntry, path: string): Promise<void> {
-  const response = await fetch(entry.imageUrl, { headers: { 'User-Agent': USER_AGENT, Referer: entry.sourceUrl } })
-  if (!response.ok) throw new Error(`${entry.id}: download failed (${response.status}) ${entry.imageUrl}`)
+/** Every file an entry produces: framed squares, Pinterest variant, gallery photos. */
+function outputsOf(entry: ProductImageEntry): string[] {
+  return [
+    ...PRODUCT_PHOTO_WIDTHS.flatMap((w) => PRODUCT_PHOTO_FORMATS.map((f) => join(PUBLIC_DIR, productPhotoPath(entry.id, w, f)))),
+    ...PRODUCT_PIN.formats.map((f) => join(PUBLIC_DIR, productPinPath(entry.id, f))),
+    ...(entry.gallery ?? []).flatMap((_, i) => galleryOutputsOf(productGalleryStem(entry.id, i + 1))),
+  ]
+}
+
+async function fetchRaw(label: string, source: Pick<ProductImageEntry, 'imageUrl' | 'sourceUrl' | 'rawSha256'>, path: string): Promise<void> {
+  const response = await fetch(source.imageUrl, { headers: { 'User-Agent': USER_AGENT, Referer: source.sourceUrl } })
+  if (!response.ok) throw new Error(`${label}: download failed (${response.status}) ${source.imageUrl}`)
   const buffer = Buffer.from(await response.arrayBuffer())
   // Some CDNs re-encode on the fly: keep the file only when it is the one the manifest describes.
-  if (sha256(buffer) !== entry.rawSha256) {
-    throw new Error(`${entry.id}: downloaded file differs from the manifest (SHA-256); check the source and update the manifest on purpose`)
+  if (sha256(buffer) !== source.rawSha256) {
+    throw new Error(`${label}: downloaded file differs from the manifest (SHA-256); check the source and update the manifest on purpose`)
   }
   writeFileSync(path, buffer)
 }
 
-async function build(entry: ProductImageEntry, options: Options): Promise<'built' | 'unchanged' | 'kept'> {
-  const rawPath = join(RAW_DIR, entry.rawFile)
-  if (!existsSync(rawPath) && options.fetch) await fetchRaw(entry, rawPath)
+/**
+ * A gallery photo, unaltered: only rotated upright, scaled down (never up)
+ * and re-encoded. No frame, no crop: the layout decides how it is shown.
+ */
+async function buildGallery(entry: ProductImageEntry, image: GalleryImageEntry, n: number, options: Options): Promise<boolean> {
+  const stem = productGalleryStem(entry.id, n)
+  const rawPath = join(RAW_DIR, image.rawFile)
+  if (!existsSync(rawPath) && options.fetch) await fetchRaw(stem, image, rawPath)
   if (!existsSync(rawPath)) {
-    if (outputsOf(entry.id).every((p) => existsSync(p))) return 'kept'
+    if (galleryOutputsOf(stem).every((p) => existsSync(p))) return false
+    throw new Error(`${stem}: raw file missing (${image.rawFile}); run with --fetch`)
+  }
+  const raw = readFileSync(rawPath)
+  if (sha256(raw) !== image.rawSha256) throw new Error(`${stem}: raw file SHA-256 differs from the manifest`)
+
+  let changed = false
+  for (const width of PRODUCT_GALLERY_WIDTHS) {
+    const png = await sharp(raw)
+      .rotate()
+      .resize({ width, withoutEnlargement: true, kernel: 'lanczos3' })
+      .flatten({ background: PALETTE.white })
+      .png()
+      .toBuffer()
+    changed = writeIfChanged(join(PUBLIC_DIR, productGalleryPath(stem, width, 'webp')), await sharp(png).webp(ENCODE.webp).toBuffer()) || changed
+    changed = writeIfChanged(join(PUBLIC_DIR, productGalleryPath(stem, width, 'avif')), await sharp(png).avif(ENCODE.avif).toBuffer()) || changed
+  }
+  return changed
+}
+
+async function build(entry: ProductImageEntry, options: Options): Promise<'built' | 'unchanged' | 'kept'> {
+  let galleryChanged = false
+  for (const [i, image] of (entry.gallery ?? []).entries()) {
+    galleryChanged = (await buildGallery(entry, image, i + 1, options)) || galleryChanged
+  }
+  const rawPath = join(RAW_DIR, entry.rawFile)
+  if (!existsSync(rawPath) && options.fetch) await fetchRaw(entry.id, entry, rawPath)
+  if (!existsSync(rawPath)) {
+    if (outputsOf(entry).every((p) => existsSync(p))) return galleryChanged ? 'built' : 'kept'
     throw new Error(`${entry.id}: raw file missing (${entry.rawFile}); run with --fetch`)
   }
   const raw = readFileSync(rawPath)
@@ -227,15 +269,14 @@ async function build(entry: ProductImageEntry, options: Options): Promise<'built
   const pin = await compose(product, background, PRODUCT_PIN.width, PRODUCT_PIN.height)
   changed = writeIfChanged(join(PUBLIC_DIR, productPinPath(entry.id, 'jpg')), await sharp(pin).flatten({ background: PALETTE.white }).jpeg(ENCODE.jpg).toBuffer()) || changed
   changed = writeIfChanged(join(PUBLIC_DIR, productPinPath(entry.id, 'webp')), await sharp(pin).webp(ENCODE.webp).toBuffer()) || changed
-  return changed ? 'built' : 'unchanged'
+  return changed || galleryChanged ? 'built' : 'unchanged'
 }
 
-/** Deletes outputs whose id left the manifest. */
-function prune(ids: Set<string>): string[] {
-  const output = /^(.+)-(?:\d+|pin)\.(?:avif|webp|jpg)$/
+/** Deletes image files that no manifest entry produces any more. */
+function prune(entries: readonly ProductImageEntry[]): string[] {
+  const expected = new Set(entries.flatMap(outputsOf).map((path) => basename(path)))
   return readdirSync(OUT_DIR).filter((name) => {
-    const id = name.match(output)?.[1]
-    if (!id || ids.has(id) || !['.avif', '.webp', '.jpg'].includes(extname(name))) return false
+    if (expected.has(name) || !['.avif', '.webp', '.jpg'].includes(extname(name))) return false
     unlinkSync(join(OUT_DIR, name))
     return true
   })
@@ -256,7 +297,7 @@ async function main(): Promise<void> {
     counts[result] += 1
     console.log(`${result.padEnd(9)} ${entry.id}`)
   }
-  const removed = options.only.size === 0 ? prune(new Set(manifest.images.map((e) => e.id))) : []
+  const removed = options.only.size === 0 ? prune(manifest.images as ProductImageEntry[]) : []
   removed.forEach((name) => console.log(`removed   ${name}`))
   console.log(`\n${counts.built} built, ${counts.unchanged} unchanged, ${counts.kept} kept (no raw file), ${removed.length} removed`)
 }

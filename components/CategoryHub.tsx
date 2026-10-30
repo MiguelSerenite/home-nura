@@ -28,6 +28,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { buildBreadcrumbListSchema, buildArticleSchema, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import QuickAnswer from '@/components/QuickAnswer'
+import ProductSceneBanner from '@/components/ProductSceneBanner'
 import { getCategoryGuides } from '@/lib/catalog/category-guides'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import FaqSection from '@/components/FaqSection'
@@ -234,6 +235,8 @@ export default async function CategoryHub({
           subtitle={hero.subtitle}
           intro={hero.intro}
         />
+
+        <ProductSceneBanner photo={picks[0]?.photo} />
 
         {picks.length > 0 && (
           <div className="max-w-3xl mx-auto px-4 md:px-6">
