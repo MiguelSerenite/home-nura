@@ -3,14 +3,15 @@
  *
  * Written per country from what buyers actually type there
  * ("Saugroboter", "friggitrice ad aria", "robot sprzątający", "best … UK"),
- * instead of the translated catalog title run through one template. `pl`
- * is filled ahead of the Polish locale; once it ships, HEAD_LOCALES can
- * become LANGUAGES.
+ * instead of the translated catalog title run through one template. Every
+ * site locale has its heads (HEAD_LOCALES is LANGUAGES), so a new locale
+ * cannot ship without them: TypeScript flags the missing CATEGORY_HEADS key.
  */
+import { LANGUAGES, type Lang } from '@/lib/i18n'
 
-export const HEAD_LOCALES = ['fr', 'en', 'de', 'es', 'it', 'nl', 'pl'] as const
+export const HEAD_LOCALES = LANGUAGES
 
-export type HeadLocale = (typeof HEAD_LOCALES)[number]
+export type HeadLocale = Lang
 
 export interface CategoryHead {
   /** What buyers in this market search for, e.g. "meilleur aspirateur robot". */

@@ -54,7 +54,7 @@ describe('category FAQs', () => {
   })
 
   it('return undefined for an unknown locale or category', () => {
-    expect(getCategorySpecificFaq('thermostats', 'sv')).toBeUndefined()
+    expect(getCategorySpecificFaq('thermostats', 'xx')).toBeUndefined()
     expect(getCategorySpecificFaq('no-such-category', 'fr')).toBeUndefined()
   })
 })

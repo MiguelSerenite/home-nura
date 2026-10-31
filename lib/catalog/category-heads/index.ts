@@ -25,5 +25,6 @@ function isHeadLocale(value: string): value is HeadLocale {
 
 /** The market-written head of a category hub, or undefined when none exists yet. */
 export function getCategoryHead(categorySlug: string, lang: string): CategoryHead | undefined {
-  return isHeadLocale(lang) ? CATEGORY_HEADS[lang][categorySlug] : undefined
+  // `?.`: a locale whose heads are not written yet falls back to the template.
+  return isHeadLocale(lang) ? CATEGORY_HEADS[lang]?.[categorySlug] : undefined
 }
