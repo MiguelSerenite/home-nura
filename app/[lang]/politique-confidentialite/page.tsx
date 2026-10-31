@@ -46,11 +46,11 @@ const content: Record<string, PrivacyContent> = {
   fr: {
     title: 'Politique de Confidentialité',
     lastUpdated: 'Dernière mise à jour : avril 2026',
-    intro: "Home Nura (édité par Groupe M-XO, SAS, 60 Rue François 1er, 75008 Paris, SIRET 500 511 373 00044) respecte votre vie privée et s'engage à traiter vos données personnelles avec transparence, dans le strict respect du Règlement Général sur la Protection des Données (RGPD - Règlement UE 2016/679) et de la loi Informatique et Libertés modifiée.",
+    intro: "Home Nura (édité par GROUPE SERENITE, SARL, 60 Rue François 1er, 75008 Paris, SIRET 500 511 373 00051) respecte votre vie privée et s'engage à traiter vos données personnelles avec transparence, dans le strict respect du Règlement Général sur la Protection des Données (RGPD - Règlement UE 2016/679) et de la loi Informatique et Libertés modifiée.",
     sections: [
       {
         heading: '1. Responsable du traitement',
-        body: "Le responsable du traitement est Groupe M-XO, SAS au capital de 15 000 €, immatriculée au RCS de Paris sous le n° 500 511 373. Directeur de la publication : Miguel MARIE. Contact : contact@homenura.com.",
+        body: "Le responsable du traitement est GROUPE SERENITE, SARL au capital de 15 000 €, immatriculée au RCS de Paris sous le n° 500 511 373. Directeur de la publication : Miguel MARIE. Contact : contact@homenura.com.",
       },
       {
         heading: '2. Données collectées',
@@ -111,11 +111,11 @@ const content: Record<string, PrivacyContent> = {
   en: {
     title: 'Privacy Policy',
     lastUpdated: 'Last updated: April 2026',
-    intro: "Home Nura (published by Groupe M-XO, SAS, 60 Rue François 1er, 75008 Paris, France, SIRET 500 511 373 00044) respects your privacy and is committed to processing your personal data transparently, in strict compliance with the General Data Protection Regulation (GDPR - EU Regulation 2016/679) and applicable national data protection laws.",
+    intro: "Home Nura (published by GROUPE SERENITE, SARL, 60 Rue François 1er, 75008 Paris, France, SIRET 500 511 373 00051) respects your privacy and is committed to processing your personal data transparently, in strict compliance with the General Data Protection Regulation (GDPR - EU Regulation 2016/679) and applicable national data protection laws.",
     sections: [
       {
         heading: '1. Data controller',
-        body: "The data controller is Groupe M-XO, a French SAS with share capital of €15,000, registered with the Paris Trade and Companies Register under no. 500 511 373. Publication director: Miguel MARIE. Contact: contact@homenura.com.",
+        body: "The data controller is GROUPE SERENITE, a French SARL (limited liability company) with share capital of €15,000, registered with the Paris Trade and Companies Register under no. 500 511 373. Publication director: Miguel MARIE. Contact: contact@homenura.com.",
       },
       {
         heading: '2. Data collected',
@@ -176,11 +176,11 @@ const content: Record<string, PrivacyContent> = {
   de: {
     title: 'Datenschutzerklärung',
     lastUpdated: 'Letzte Aktualisierung: April 2026',
-    intro: "Home Nura (herausgegeben von Groupe M-XO, SAS, 60 Rue François 1er, 75008 Paris, Frankreich, SIRET 500 511 373 00044) respektiert Ihre Privatsphäre und verpflichtet sich, Ihre personenbezogenen Daten transparent und in strikter Übereinstimmung mit der Datenschutz-Grundverordnung (DSGVO - Verordnung EU 2016/679) zu verarbeiten.",
+    intro: "Home Nura (herausgegeben von GROUPE SERENITE, SARL, 60 Rue François 1er, 75008 Paris, Frankreich, SIRET 500 511 373 00051) respektiert Ihre Privatsphäre und verpflichtet sich, Ihre personenbezogenen Daten transparent und in strikter Übereinstimmung mit der Datenschutz-Grundverordnung (DSGVO - Verordnung EU 2016/679) zu verarbeiten.",
     sections: [
       {
         heading: '1. Verantwortlicher',
-        body: "Verantwortlich ist Groupe M-XO, eine französische SAS mit einem Stammkapital von 15.000 €, eingetragen im Handelsregister Paris unter der Nummer 500 511 373. Verantwortlicher Herausgeber: Miguel MARIE. Kontakt: contact@homenura.com.",
+        body: "Verantwortlich ist GROUPE SERENITE, eine französische SARL mit einem Stammkapital von 15.000 €, eingetragen im Handelsregister Paris unter der Nummer 500 511 373. Verantwortlicher Herausgeber: Miguel MARIE. Kontakt: contact@homenura.com.",
       },
       {
         heading: '2. Erhobene Daten',
@@ -241,11 +241,11 @@ const content: Record<string, PrivacyContent> = {
   es: {
     title: 'Política de Privacidad',
     lastUpdated: 'Última actualización: abril 2026',
-    intro: "Home Nura (editado por Groupe M-XO, SAS, 60 Rue François 1er, 75008 París, Francia, SIRET 500 511 373 00044) respeta su privacidad y se compromete a tratar sus datos personales con transparencia, en estricto cumplimiento del Reglamento General de Protección de Datos (RGPD - Reglamento UE 2016/679) y de la normativa nacional aplicable.",
+    intro: "Home Nura (editado por GROUPE SERENITE, SARL, 60 Rue François 1er, 75008 París, Francia, SIRET 500 511 373 00051) respeta su privacidad y se compromete a tratar sus datos personales con transparencia, en estricto cumplimiento del Reglamento General de Protección de Datos (RGPD - Reglamento UE 2016/679) y de la normativa nacional aplicable.",
     sections: [
       {
         heading: '1. Responsable del tratamiento',
-        body: "El responsable del tratamiento es Groupe M-XO, SAS francesa con un capital social de 15.000 €, inscrita en el Registro Mercantil de París con el número 500 511 373. Director de publicación: Miguel MARIE. Contacto: contact@homenura.com.",
+        body: "El responsable del tratamiento es GROUPE SERENITE, SARL francesa con un capital social de 15.000 €, inscrita en el Registro Mercantil de París con el número 500 511 373. Director de publicación: Miguel MARIE. Contacto: contact@homenura.com.",
       },
       {
         heading: '2. Datos recopilados',
@@ -306,11 +306,11 @@ const content: Record<string, PrivacyContent> = {
   it: {
     title: 'Informativa sulla Privacy',
     lastUpdated: 'Ultimo aggiornamento: aprile 2026',
-    intro: "Home Nura (edito da Groupe M-XO, SAS, 60 Rue François 1er, 75008 Parigi, Francia, SIRET 500 511 373 00044) rispetta la tua privacy e si impegna a trattare i tuoi dati personali con trasparenza, nel pieno rispetto del Regolamento Generale sulla Protezione dei Dati (GDPR - Regolamento UE 2016/679) e della normativa nazionale applicabile.",
+    intro: "Home Nura (edito da GROUPE SERENITE, SARL, 60 Rue François 1er, 75008 Parigi, Francia, SIRET 500 511 373 00051) rispetta la tua privacy e si impegna a trattare i tuoi dati personali con trasparenza, nel pieno rispetto del Regolamento Generale sulla Protezione dei Dati (GDPR - Regolamento UE 2016/679) e della normativa nazionale applicabile.",
     sections: [
       {
         heading: '1. Titolare del trattamento',
-        body: "Il titolare del trattamento è Groupe M-XO, SAS francese con capitale sociale di 15.000 €, iscritta al Registro delle Imprese di Parigi con il numero 500 511 373. Direttore della pubblicazione: Miguel MARIE. Contatto: contact@homenura.com.",
+        body: "Il titolare del trattamento è GROUPE SERENITE, SARL francese con capitale sociale di 15.000 €, iscritta al Registro delle Imprese di Parigi con il numero 500 511 373. Direttore della pubblicazione: Miguel MARIE. Contatto: contact@homenura.com.",
       },
       {
         heading: '2. Dati raccolti',
@@ -371,11 +371,11 @@ const content: Record<string, PrivacyContent> = {
   nl: {
     title: 'Privacybeleid',
     lastUpdated: 'Laatst bijgewerkt: april 2026',
-    intro: "Home Nura (uitgegeven door Groupe M-XO, SAS, 60 Rue François 1er, 75008 Parijs, Frankrijk, SIRET 500 511 373 00044) respecteert uw privacy en verbindt zich ertoe uw persoonsgegevens transparant te verwerken, in strikte naleving van de Algemene Verordening Gegevensbescherming (AVG - Verordening EU 2016/679) en de toepasselijke nationale wetgeving.",
+    intro: "Home Nura (uitgegeven door GROUPE SERENITE, SARL, 60 Rue François 1er, 75008 Parijs, Frankrijk, SIRET 500 511 373 00051) respecteert uw privacy en verbindt zich ertoe uw persoonsgegevens transparant te verwerken, in strikte naleving van de Algemene Verordening Gegevensbescherming (AVG - Verordening EU 2016/679) en de toepasselijke nationale wetgeving.",
     sections: [
       {
         heading: '1. Verwerkingsverantwoordelijke',
-        body: "De verwerkingsverantwoordelijke is Groupe M-XO, een Franse SAS met een maatschappelijk kapitaal van € 15.000, ingeschreven in het handelsregister van Parijs onder nummer 500 511 373. Verantwoordelijke uitgever: Miguel MARIE. Contact: contact@homenura.com.",
+        body: "De verwerkingsverantwoordelijke is GROUPE SERENITE, een Franse SARL met een maatschappelijk kapitaal van € 15.000, ingeschreven in het handelsregister van Parijs onder nummer 500 511 373. Verantwoordelijke uitgever: Miguel MARIE. Contact: contact@homenura.com.",
       },
       {
         heading: '2. Verzamelde gegevens',
@@ -436,11 +436,11 @@ const content: Record<string, PrivacyContent> = {
   pl: {
     title: 'Polityka prywatności',
     lastUpdated: 'Ostatnia aktualizacja: kwiecień 2026',
-    intro: 'Home Nura (wydawca: Groupe M-XO, SAS, 60 Rue François 1er, 75008 Paris, SIRET 500 511 373 00044) szanuje Twoją prywatność i zobowiązuje się przetwarzać Twoje dane osobowe w sposób przejrzysty, w ścisłej zgodności z Ogólnym rozporządzeniem o ochronie danych (RODO - rozporządzenie UE 2016/679) oraz zmienioną francuską ustawą o informatyce i swobodach obywatelskich (loi Informatique et Libertés).',
+    intro: 'Home Nura (wydawca: GROUPE SERENITE, SARL, 60 Rue François 1er, 75008 Paris, SIRET 500 511 373 00051) szanuje Twoją prywatność i zobowiązuje się przetwarzać Twoje dane osobowe w sposób przejrzysty, w ścisłej zgodności z Ogólnym rozporządzeniem o ochronie danych (RODO - rozporządzenie UE 2016/679) oraz zmienioną francuską ustawą o informatyce i swobodach obywatelskich (loi Informatique et Libertés).',
     sections: [
       {
         heading: '1. Administrator danych',
-        body: 'Administratorem danych jest Groupe M-XO, SAS z kapitałem zakładowym 15 000 euro, wpisana do rejestru handlowego i spółek w Paryżu (RCS Paris) pod numerem 500 511 373. Osoba odpowiedzialna za publikację: Miguel MARIE. Kontakt: contact@homenura.com.',
+        body: 'Administratorem danych jest GROUPE SERENITE, SARL z kapitałem zakładowym 15 000 euro, wpisana do rejestru handlowego i spółek w Paryżu (RCS Paris) pod numerem 500 511 373. Osoba odpowiedzialna za publikację: Miguel MARIE. Kontakt: contact@homenura.com.',
       },
       {
         heading: '2. Zbierane dane',

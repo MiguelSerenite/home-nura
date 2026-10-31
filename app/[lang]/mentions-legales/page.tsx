@@ -37,12 +37,12 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 
 // Single source of truth for legal entity info (LCEN article 6 compliance)
 const publisher = {
-  name: 'Groupe M-XO',
-  legalForm: 'SAS',
+  name: 'GROUPE SERENITE',
+  legalForm: 'SARL',
   capital: '15 000 €',
   address: '60 Rue François 1er, 75008 Paris, France',
   rcs: 'Paris 500 511 373',
-  siret: '500 511 373 00044',
+  siret: '500 511 373 00051',
   vat: 'FR30 500 511 373',
   publicationDirector: 'Miguel MARIE',
   phone: '+33 1 77 35 50 71',
