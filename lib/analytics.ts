@@ -37,6 +37,27 @@ export type EventName = (typeof EVENTS)[keyof typeof EVENTS]
 
 export type EventProps = Record<string, string | number | boolean | undefined>
 
+/** Vercel Pro records at most 2 custom properties per event (8 with Web Analytics Plus). */
+export const VERCEL_MAX_PROPERTIES = 2
+
+/**
+ * The properties sent to Vercel Web Analytics, per event. Page and language
+ * are already in the event's request path (/fr/…), so they are left out.
+ * Never free text typed by the reader (the search query stays out).
+ */
+export const VERCEL_PROPERTIES: { readonly [E in EventName]: readonly string[] } = {
+  click_affiliate: ['location', 'merchant'],
+  newsletter_submit: [],
+  newsletter_success: [],
+  newsletter_error: ['reason'],
+  search_open: ['variant'],
+  search_query: ['results'],
+  comparator_add: ['slot'],
+  comparator_remove: ['slot'],
+  quiz_start: ['quiz'],
+  quiz_complete: ['quiz'],
+}
+
 type DataLayerPayload = { event: string } & EventProps
 
 interface PlausibleFunction {
@@ -71,10 +92,10 @@ export function trackEvent(event: EventName, props: EventProps = {}): void {
     window.dataLayer.push({ event, ...cleanProps })
   }
 
-  // Vercel Web Analytics (cookieless, same-origin script). Custom events
-  // are only recorded on Vercel Pro; on Hobby the call is a harmless no-op.
+  // Vercel Web Analytics (cookieless, same-origin script, Pro plan): only
+  // the properties listed in VERCEL_PROPERTIES, within the plan limit.
   try {
-    trackVercel(event, cleanProps as Record<string, string | number | boolean>)
+    trackVercel(event, pickVercelProps(event, cleanProps))
   } catch {
     // Blocked by an extension or not loaded yet: never block the click.
   }
@@ -113,6 +134,7 @@ export function trackAffiliateClick(input: {
   /** Outbound URL, to record which Amazon store the click went to. */
   url?: string
 }): void {
+  const marketplace = (input.url && marketplaceOf(input.url)) || AMAZON_MARKETPLACE
   trackEvent(EVENTS.CLICK_AFFILIATE, {
     asin: input.asin,
     product_name: input.productName,
@@ -121,6 +143,7 @@ export function trackAffiliateClick(input: {
     location: input.location,
     surface: input.surface,
     lang: input.lang,
+    merchant: marketplace,
   })
   if (input.surface && typeof window !== 'undefined') {
     sendClickBeacon({
@@ -128,7 +151,7 @@ export function trackAffiliateClick(input: {
       lang: input.lang,
       surface: input.surface,
       model: input.productName,
-      marketplace: (input.url && marketplaceOf(input.url)) || AMAZON_MARKETPLACE,
+      marketplace,
     })
   }
 }
@@ -155,6 +178,15 @@ export function sendClickBeacon(click: AffiliateClick): void {
   } catch {
     // Dropped beacon: never surface it to the reader.
   }
+}
+
+function pickVercelProps(event: EventName, props: EventProps): Record<string, string | number | boolean> {
+  const out: Record<string, string | number | boolean> = {}
+  for (const key of VERCEL_PROPERTIES[event].slice(0, VERCEL_MAX_PROPERTIES)) {
+    const value = props[key]
+    if (value !== undefined) out[key] = value
+  }
+  return out
 }
 
 function stripUndefined(props: EventProps): EventProps {
