@@ -17,8 +17,9 @@
  */
 
 import { track as trackVercel } from '@vercel/analytics'
-import { AMAZON_MARKETPLACE } from '@/lib/amazon'
+import { amazonMarketplace } from '@/lib/amazon'
 import { CLICK_ENDPOINT, marketplaceOf, type AffiliateClick, type ClickSurface } from '@/lib/affiliate-click'
+import { resolveLang } from '@/lib/i18n'
 
 export const EVENTS = {
   CLICK_AFFILIATE: 'click_affiliate',
@@ -134,7 +135,8 @@ export function trackAffiliateClick(input: {
   /** Outbound URL, to record which Amazon store the click went to. */
   url?: string
 }): void {
-  const marketplace = (input.url && marketplaceOf(input.url)) || AMAZON_MARKETPLACE
+  // The link's own store; without a URL, the store the reader's language links to.
+  const marketplace = (input.url && marketplaceOf(input.url)) || amazonMarketplace(resolveLang(input.lang))
   trackEvent(EVENTS.CLICK_AFFILIATE, {
     asin: input.asin,
     product_name: input.productName,

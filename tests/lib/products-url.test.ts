@@ -15,6 +15,7 @@
  */
 
 import { describe, it, expect } from 'vitest'
+import { AMAZON_MISSING_ASINS, amazonMarket } from '@/lib/amazon'
 import { staticProducts, getStaticProducts } from '@/lib/products'
 import { LANGUAGES } from '@/lib/i18n'
 
@@ -22,11 +23,10 @@ import { LANGUAGES } from '@/lib/i18n'
 // Historically pre-2000 books used ISBN-10 which are the same shape.
 const ASIN_PATTERN = /^[A-Z0-9]{10}$/
 
-// Every locale links to amazon.fr with the French store ID: Amazon Global
-// Earning sends foreign readers to their own store and credits this tag
-// (see lib/amazon.ts).
-const EXPECTED_HOST = 'www.amazon.fr'
-const EXPECTED_TAG = 'homenuraen05-21'
+// Each locale links to its market (lib/amazon.ts, values pinned in
+// tests/lib/amazon-search.test.ts): amazon.it with homaviseit-21 for
+// Italian, amazon.fr with the locale's tracking ID everywhere else (Amazon
+// Global Earning sends foreign readers to their own store).
 
 describe('product ASIN integrity', () => {
   it('every staticProduct has a 10-char uppercase alphanumeric ASIN', () => {
@@ -51,6 +51,8 @@ describe('outbound URL per locale', () => {
   for (const lang of LANGUAGES) {
     describe(`locale: ${lang}`, () => {
       const resolved = getStaticProducts(lang)
+      const market = amazonMarket(lang)
+      const missing: Readonly<Record<string, string>> = AMAZON_MISSING_ASINS[lang] ?? {}
 
       it('emits at least one product', () => {
         expect(resolved.length).toBeGreaterThan(0)
@@ -63,27 +65,29 @@ describe('outbound URL per locale', () => {
         }
       })
 
-      it('every URL points at amazon.fr', () => {
+      it('every URL points at the locale store', () => {
         for (const product of resolved) {
           const url = new URL(product.url)
-          expect(url.hostname, `${lang} / ${product.asin} — wrong store`).toBe(EXPECTED_HOST)
+          expect(url.origin, `${lang} / ${product.asin} — wrong store`).toBe(market.baseUrl)
         }
       })
 
-      it('every URL path carries the product ASIN', () => {
+      it('every URL path carries the product ASIN, or searches a model the store lacks', () => {
         for (const product of resolved) {
           const url = new URL(product.url)
-          expect(
-            url.pathname,
-            `${lang} / ${product.asin} — ASIN missing from path`
-          ).toBe(`/dp/${product.asin}`)
+          if (product.asin in missing) {
+            expect(url.pathname, `${lang} / ${product.asin}`).toBe('/s')
+            expect(url.searchParams.get('k'), `${lang} / ${product.asin}`).toBe(missing[product.asin])
+          } else {
+            expect(url.pathname, `${lang} / ${product.asin} — ASIN missing from path`).toBe(`/dp/${product.asin}`)
+          }
         }
       })
 
-      it('every URL carries the French store ID', () => {
+      it('every URL carries the locale tracking ID', () => {
         for (const product of resolved) {
           const tag = new URL(product.url).searchParams.get('tag')
-          expect(tag, `${lang} / ${product.asin} — wrong or missing tag`).toBe(EXPECTED_TAG)
+          expect(tag, `${lang} / ${product.asin} — wrong or missing tag`).toBe(market.tag)
         }
       })
     })

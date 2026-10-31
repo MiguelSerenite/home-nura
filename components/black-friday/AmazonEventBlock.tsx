@@ -1,5 +1,5 @@
 import type { Lang } from '@/lib/i18n'
-import { AMAZON_BLACK_FRIDAY_URL, primeTrialUrl } from '@/lib/black-friday'
+import { amazonBlackFridayUrl, primeTrialUrl } from '@/lib/black-friday'
 import { HUB_COPY, PRIME_COPY_FR } from '@/lib/black-friday/copy/hub'
 import BlackFridayAmazonLink from './AmazonLink'
 import AmazonDisclosure from '@/components/AmazonDisclosure'
@@ -18,7 +18,7 @@ export default function AmazonEventBlock({ lang }: { lang: Lang }) {
           <h2 className="text-xl md:text-2xl font-bold tracking-tight">{copy.amazonTitle}</h2>
           <p className="mt-2 flex-1 text-sm leading-relaxed text-slate-200">{copy.amazonText}</p>
           <BlackFridayAmazonLink
-            href={AMAZON_BLACK_FRIDAY_URL}
+            href={amazonBlackFridayUrl(lang)}
             productName="Amazon Black Friday page"
             lang={lang}
             className={`${BUTTON} mt-5 self-start bg-white text-slate-900 hover:bg-brand-50`}

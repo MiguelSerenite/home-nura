@@ -6745,7 +6745,7 @@ export interface QuickAnswer {
   picks: { model: string; role: string; why: string; url: string; photo?: ProductPhoto }[]
 }
 
-/** Localized verdict with each pick linked to amazon.fr (see lib/amazon.ts). */
+/** Localized verdict with each pick linked to the reader's Amazon market (see lib/amazon.ts). */
 export function getQuickAnswer(article: { slug: string; pillar: string }, lang: Lang): QuickAnswer | null {
   const data = QUICK_ANSWERS[article.slug]
   if (!data) return null

@@ -66,6 +66,7 @@ describe('POST /api/click', () => {
     ['unknown surface', { ...valid, surface: 'popup' }],
     ['unknown locale', { ...valid, lang: 'pt' }],
     ['unknown store', { ...valid, marketplace: 'evil.example' }],
+    ['store the site never links to', { ...valid, marketplace: 'amazon.de' }],
     ['absolute URL as path', { ...valid, path: 'https://evil.example/' }],
     ['path with spaces', { ...valid, path: '/fr/blog/a b' }],
     ['path too long', { ...valid, path: '/fr/' + 'x'.repeat(600) }],
@@ -110,7 +111,9 @@ describe('GET /api/click', () => {
 
 describe('affiliate click helpers', () => {
   it('reads the store from an Amazon URL only', () => {
-    expect(marketplaceOf('https://www.amazon.fr/dp/B0CG6C26QW?tag=homenuraen05-21')).toBe('amazon.fr')
+    expect(marketplaceOf('https://www.amazon.fr/dp/B0CG6C26QW?tag=homavisede-21')).toBe('amazon.fr')
+    expect(marketplaceOf('https://www.amazon.it/dp/B0CG6C26QW?tag=homaviseit-21')).toBe('amazon.it')
+    expect(marketplaceOf('https://www.amazon.de/dp/B0CG6C26QW')).toBeNull()
     expect(marketplaceOf('https://example.com/dp/x')).toBeNull()
     expect(marketplaceOf('not a url')).toBeNull()
   })
@@ -118,6 +121,10 @@ describe('affiliate click helpers', () => {
   it('finds the article slug of a blog path', () => {
     expect(articleSlugOf('/it/blog/guide-purificateur-air-2026')).toBe('guide-purificateur-air-2026')
     expect(articleSlugOf('/it/guides/airfryers')).toBeNull()
+  })
+
+  it('accepts clicks to amazon.it, where the Italian pages link', () => {
+    expect(parseAffiliateClick({ ...valid, lang: 'it', marketplace: 'amazon.it' })?.marketplace).toBe('amazon.it')
   })
 
   it('trims the model name', () => {

@@ -13,7 +13,8 @@
  *     indexable content so every troubleshooting page sits inside the
  *     internal-link graph)
  *   - "Repair or replace?" box: the category buying guide's picks, linked
- *     to amazon.fr (Global Earning; none on review-only categories)
+ *     to the reader's Amazon market (lib/amazon.ts; none on review-only
+ *     categories)
  *   - Derived FAQ (3 entries referencing EU Directive 2019/771 legal
  *     conformity guarantee, emits FAQPage JSON-LD via FaqSection)
  *   - Methodology CTA
@@ -434,7 +435,7 @@ export default async function ProblemGuidePage({
             </p>
             {buyBox && (
               <>
-                {/* Picks of the category buying guide, linked to amazon.fr;
+                {/* Picks of the category buying guide, linked to the reader's Amazon market;
                     QuickAnswer carries the affiliate disclosure. */}
                 <QuickAnswer
                   kicker={ui.buyBoxKicker}

@@ -30,22 +30,25 @@ export function isBlackFridaySeason(now: Date = new Date()): boolean {
 export const BLACK_FRIDAY_HUB_PATH = '/black-friday'
 
 // ---------------------------------------------------------------------
-// Amazon links: built with the shared helpers of lib/amazon.ts (amazon.fr
-// + the Global Earning store ID, in every language), so the store and the
-// tag are defined in one place and covered by tests/lib/affiliate-tags.
-// Picks use amazonProductUrl / amazonSearchUrl (see ./index.ts).
+// Amazon links: built with the shared helpers of lib/amazon.ts (store and
+// tracking ID of the reader's language: amazon.it for Italian, amazon.fr
+// elsewhere), so stores and tags are defined in one place and covered by
+// tests/lib/affiliate-tags. Picks use amazonProductUrl / amazonSearchUrl
+// (see ./index.ts).
 // ---------------------------------------------------------------------
 
-/** Amazon's own Black Friday event page, same link for every language. */
-export const AMAZON_BLACK_FRIDAY_URL = amazonPageUrl('/blackfriday')
+/** Amazon's own Black Friday event page, on the store of the reader's language. */
+export function amazonBlackFridayUrl(lang: Lang): string {
+  return amazonPageUrl('/blackfriday', lang)
+}
 
 /**
  * Prime free-trial bounty link (Amazon pays a bounty per trial), format
- * verified in the French Associates Central. French pages only: a visitor
- * reading another language would sign up for the French store's Prime
- * instead of their own country's.
+ * verified in the French Associates Central. French pages only, on
+ * amazon.fr: a visitor reading another language would sign up for the
+ * French store's Prime instead of their own country's.
  */
-export const AMAZON_PRIME_TRIAL_URL = amazonPageUrl('/amazonprime', {
+export const AMAZON_PRIME_TRIAL_URL = amazonPageUrl('/amazonprime', 'fr', {
   _encoding: 'UTF8',
   primeCampaignId: 'prime_assoc_ft',
 })

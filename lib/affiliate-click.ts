@@ -7,7 +7,7 @@
  * went unrecorded. The beacon carries no personal data (no IP, no user
  * agent, no identifier): only where the click happened and on what.
  */
-import { AMAZON_MARKETPLACE } from '@/lib/amazon'
+import { AMAZON_MARKETPLACES } from '@/lib/amazon'
 import { LANGUAGES } from '@/lib/i18n'
 
 /**
@@ -29,11 +29,11 @@ export const CLICK_SURFACES = [
 export type ClickSurface = (typeof CLICK_SURFACES)[number]
 
 /**
- * Amazon stores a link may point to: amazon.fr only. Every locale links to
- * it (Global Earning, see lib/amazon.ts); a beacon naming another store
- * does not come from the site.
+ * Amazon stores a link may point to: the stores of the market table in
+ * lib/amazon.ts (amazon.it for Italian pages, amazon.fr elsewhere). A
+ * beacon naming another store does not come from the site.
  */
-export const CLICK_MARKETPLACES = [AMAZON_MARKETPLACE] as const
+export const CLICK_MARKETPLACES: readonly string[] = AMAZON_MARKETPLACES
 
 export const CLICK_ENDPOINT = '/api/click'
 export const MAX_CLICK_BODY_LENGTH = 2048
@@ -55,7 +55,7 @@ const LANGS: ReadonlySet<string> = new Set(LANGUAGES)
 const PATH_PATTERN = /^\/[^\s"'<>\\]*$/
 const CONTROL_CHARS = /[\u0000-\u001f\u007f]/
 
-/** Store host of an Amazon URL ("amazon.fr"), or null for anything else. */
+/** Store host of an Amazon URL the site links to ("amazon.fr", "amazon.it"), or null for anything else. */
 export function marketplaceOf(url: string): string | null {
   try {
     const host = new URL(url).hostname.replace(/^www\./, '')

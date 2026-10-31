@@ -768,7 +768,7 @@ export function getSmartKitchenProducts(lang: string) {
       title,
       priceNumeric: p.priceNumeric[lang] || p.priceNumeric.fr,
       visual: productVisual(p.brand, title, VISUAL_KIND[p.category], productPhoto({ asin: p.asin }, resolveLang(lang))),
-      url: amazonProductUrl(p.asin),
+      url: amazonProductUrl(p.asin, resolveLang(lang)),
       badge: p.badge ? (p.badge[lang] || p.badge.fr) : undefined,
       nuraScore: p.nuraScore,
       capacity: p.capacity,

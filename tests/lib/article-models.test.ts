@@ -18,7 +18,7 @@ describe('article models', () => {
     if (lock?.kind === 'models') {
       expect(lock.models[0]).toMatchObject({
         name: 'Nuki Smart Lock Pro (5th generation)',
-        url: 'https://www.amazon.fr/s?k=Nuki+Smart+Lock+Pro+%285th+generation%29&tag=homenuraen05-21',
+        url: 'https://www.amazon.fr/s?k=Nuki+Smart+Lock+Pro+%285th+generation%29&tag=homavisees-21',
       })
       // The manufacturer's photo comes along when data/product-images.json has one.
       expect(lock.models[0].photo?.id).toBe('nuki-smart-lock-pro-5th-gen')
