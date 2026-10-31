@@ -11,11 +11,14 @@ import { HTML_LANG, isLocaleHome, switchLocalePath, type Lang } from '@/lib/i18n
 const countries: ReadonlyArray<{ code: Lang; flag: string; label: string; name: string }> = [
   { code: 'fr', flag: '🇫🇷', label: 'FR', name: 'Français' },
   { code: 'de', flag: '🇩🇪', label: 'DE', name: 'Deutsch' },
-  { code: 'en', flag: '🇬🇧', label: 'UK', name: 'English' },
+  { code: 'en', flag: '🇬🇧', label: 'UK', name: 'English (UK)' },
   { code: 'es', flag: '🇪🇸', label: 'ES', name: 'Español' },
   { code: 'it', flag: '🇮🇹', label: 'IT', name: 'Italiano' },
   { code: 'nl', flag: '🇳🇱', label: 'NL', name: 'Nederlands' },
   { code: 'pl', flag: '🇵🇱', label: 'PL', name: 'Polski' },
+  { code: 'sv', flag: '🇸🇪', label: 'SE', name: 'Svenska' },
+  { code: 'us', flag: '🇺🇸', label: 'US', name: 'English (US)' },
+  { code: 'ca', flag: '🇨🇦', label: 'CA', name: 'English (Canada)' },
 ]
 
 function rememberLocale(code: string) {
@@ -209,7 +212,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
               </svg>
             </button>
             {langOpen && (
-              <div className="absolute top-full right-0 mt-1.5 w-44 bg-white rounded-xl shadow-lg border border-slate-200 py-1.5 z-50">
+              <div className="absolute top-full right-0 mt-1.5 w-48 bg-white rounded-xl shadow-lg border border-slate-200 py-1.5 z-50">
                 {countries.map((c) => (
                   <Link
                     key={c.code}
