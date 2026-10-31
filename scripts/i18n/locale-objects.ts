@@ -34,7 +34,7 @@ export function fileHash(text: string): string {
   return createHash('sha256').update(text).digest('hex').slice(0, 16)
 }
 
-function propertyName(name: ts.PropertyName): string | undefined {
+export function propertyName(name: ts.PropertyName): string | undefined {
   if (ts.isIdentifier(name) || ts.isStringLiteral(name) || ts.isNumericLiteral(name)) return name.text
   return undefined
 }
@@ -68,7 +68,7 @@ export function literalValue(node: ts.Expression): LiteralValue | undefined {
 }
 
 /** Readable path of a node from the file root (variable, keys, indices). */
-function nodePath(node: ts.Node): string {
+export function nodePath(node: ts.Node): string {
   const parts: string[] = []
   let current: ts.Node = node
   while (current.parent) {
@@ -88,10 +88,15 @@ function nodePath(node: ts.Node): string {
   return parts.join('.').replace(/\.\[/g, '[')
 }
 
+/** Parses `text` as the TypeScript (or TSX, by extension) file `file`. */
+export function parseText(file: string, text: string): ts.SourceFile {
+  const kind = file.endsWith('.tsx') ? ts.ScriptKind.TSX : ts.ScriptKind.TS
+  return ts.createSourceFile(file, text, ts.ScriptTarget.Latest, true, kind)
+}
+
 export function parseSource(file: string): { text: string; source: ts.SourceFile } {
   const text = readFileSync(file, 'utf8')
-  const kind = file.endsWith('.tsx') ? ts.ScriptKind.TSX : ts.ScriptKind.TS
-  return { text, source: ts.createSourceFile(file, text, ts.ScriptTarget.Latest, true, kind) }
+  return { text, source: parseText(file, text) }
 }
 
 /**
@@ -144,6 +149,8 @@ export interface LocaleTernary {
   values: Record<string, LiteralValue | null>
   /** Where `<lang> === '<target>' ? … :` goes: the fallback after the anchor test. */
   insertAt: number
+  /** The anchor locale's branch (`'Strona główna'` in `lang === 'pl' ? 'Strona główna' : …`). */
+  anchorValue: ts.Expression
   /** The tested expression, e.g. `lang`. */
   subject: string
   /** Quote character of the anchor branch. */
@@ -184,6 +191,7 @@ export function findLocaleTernaries(source: ts.SourceFile, anchorLang: string, t
         path: nodePath(top),
         values,
         insertAt: fallback.getStart(),
+        anchorValue: node.whenTrue,
         subject: test[0],
         quote: anchorText.startsWith('"') ? '"' : anchorText.startsWith('`') ? '`' : "'",
         hasTarget: fallbackTest?.[1] === target,

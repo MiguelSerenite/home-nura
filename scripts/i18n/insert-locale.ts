@@ -11,10 +11,10 @@
  * when earlier objects of the file were removed since the extraction, the
  * unit is found by that path and French value (locateUnit).
  */
-import { readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs'
-import { join } from 'node:path'
+import { readFileSync, writeFileSync } from 'node:fs'
 import ts from 'typescript'
 import { ANCHOR_LANG, SOURCE_LANGS } from './extract-locale'
+import { jsonFiles, propertyStyle, quoteString, serialize } from './literal-source'
 import {
   findLocaleObjects,
   findLocaleTernaries,
@@ -30,60 +30,9 @@ interface Unit {
   fr: LiteralValue
 }
 
-const IDENTIFIER = /^[A-Za-z_$][\w$]*$/
-
-function jsonFiles(dir: string): string[] {
-  return readdirSync(dir).flatMap((name) => {
-    const path = join(dir, name)
-    if (statSync(path).isDirectory()) return jsonFiles(path)
-    return name.endsWith('.json') ? [path] : []
-  })
-}
-
-/** Style of the anchor value, copied so inserted code reads like its neighbours. */
-interface Style {
-  quote: "'" | '"' | '`'
-  quotedKeys: boolean
-  multiline: boolean
-  indent: string
-}
-
-function quoteString(value: string, quote: Style['quote']): string {
-  if (quote === '`') return '`' + value.replace(/\\/g, '\\\\').replace(/`/g, '\\`').replace(/\$\{/g, '\\${') + '`'
-  const escaped = JSON.stringify(value).slice(1, -1)
-  return quote === '"' ? `"${escaped}"` : `'${escaped.replace(/\\"/g, '"').replace(/'/g, "\\'")}'`
-}
-
-function serialize(value: LiteralValue, style: Style, depth: number): string {
-  if (typeof value === 'string') return quoteString(value, style.quote === '`' && depth > 0 ? "'" : style.quote)
-  if (value === null || typeof value !== 'object') return String(value)
-  const pad = style.indent + '  '.repeat(depth + 1)
-  const close = style.indent + '  '.repeat(depth)
-  const key = (k: string) =>
-    style.quotedKeys || !IDENTIFIER.test(k) ? quoteString(k, style.quote === '`' ? "'" : style.quote) : k
-  const items = Array.isArray(value)
-    ? value.map((v) => serialize(v, style, depth + 1))
-    : Object.entries(value).map(([k, v]) => `${key(k)}: ${serialize(v, style, depth + 1)}`)
-  const [open, end] = Array.isArray(value) ? ['[', ']'] : ['{', '}']
-  if (!style.multiline || items.length === 0) {
-    return Array.isArray(value) ? `${open}${items.join(', ')}${end}` : `${open} ${items.join(', ')} ${end}`
-  }
-  return `${open}\n${items.map((i) => pad + i).join(',\n')},\n${close}${end}`
-}
-
 function insertion(obj: LocaleObject, source: ts.SourceFile, text: string, target: string, value: LiteralValue): string {
   const anchor = obj.anchor
-  const init = anchor.initializer.getText(source)
-  const lineStart = text.lastIndexOf('\n', anchor.getStart(source)) + 1
-  const indent = text.slice(lineStart, anchor.getStart(source)).match(/^\s*/)?.[0] ?? ''
-  // The first quote character of the anchor value (also inside arrays and objects).
-  const firstQuote = init.match(/[`"']/)?.[0]
-  const style: Style = {
-    quote: firstQuote === '`' || firstQuote === '"' ? firstQuote : "'",
-    quotedKeys: /["']\w+["']\s*:/.test(init) || ts.isStringLiteral(anchor.name),
-    multiline: init.includes('\n'),
-    indent,
-  }
+  const style = propertyStyle(anchor, source, text)
   const name = ts.isStringLiteral(anchor.name)
     ? quoteString(target, anchor.name.getText(source).startsWith('"') ? '"' : "'")
     : target
@@ -93,7 +42,7 @@ function insertion(obj: LocaleObject, source: ts.SourceFile, text: string, targe
   const previousLine = source.getLineAndCharacterOfPosition(previous.getStart(source)).line
   const inline = anchorLine === previousLine
   const rendered = `${name}: ${serialize(value, style, 0)}`
-  return inline ? `, ${rendered}` : `,\n${indent}${rendered}`
+  return inline ? `, ${rendered}` : `,\n${style.indent}${rendered}`
 }
 
 function main() {
