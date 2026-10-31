@@ -7,16 +7,18 @@
  * <translations-dir> holds JSON files (searched recursively) mapping unit
  * ids ("lib/x.ts::12") to values shaped like the French source. An object
  * is only written when its path and French value still match what
- * extract-locale.ts recorded, so edits made in between are never clobbered.
+ * extract-locale.ts recorded, so edits made in between are never clobbered;
+ * when earlier objects of the file were removed since the extraction, the
+ * unit is found by that path and French value (locateUnit).
  */
 import { readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs'
-import { isDeepStrictEqual } from 'node:util'
 import { join } from 'node:path'
 import ts from 'typescript'
 import { ANCHOR_LANG, SOURCE_LANGS } from './extract-locale'
 import {
   findLocaleObjects,
   findLocaleTernaries,
+  locateUnit,
   parseSource,
   type LiteralValue,
   type LocaleObject,
@@ -120,18 +122,18 @@ function main() {
       const id = `${file}::${index}`
       const unit = units.get(id)
       if (index.startsWith('t')) {
-        const chain = ternaries[Number(index.slice(1))]
+        const chain = unit && locateUnit(ternaries, Number(index.slice(1)), unit)
         if (!unit) problems.push(`${id}: unknown unit`)
-        else if (!chain || chain.path !== unit.path || !isDeepStrictEqual(chain.values.fr, unit.fr)) {
+        else if (!chain) {
           problems.push(`${id}: source changed since extraction (${unit.path})`)
         } else if (chain.hasTarget) problems.push(`${id}: already has ${target}`)
         else if (typeof value !== 'string') problems.push(`${id}: ternary value must be a string`)
         else edits.push({ at: chain.insertAt, insert: `${chain.subject} === '${target}' ? ${quoteString(value, chain.quote)} : ` })
         continue
       }
-      const obj = objects[Number(index)]
+      const obj = unit && locateUnit(objects, Number(index), unit)
       if (!unit) problems.push(`${id}: unknown unit`)
-      else if (!obj || obj.path !== unit.path || !isDeepStrictEqual(obj.values.fr, unit.fr)) {
+      else if (!obj) {
         problems.push(`${id}: source changed since extraction (${unit.path})`)
       } else if (obj.hasTarget) problems.push(`${id}: already has ${target}`)
       else edits.push({ at: obj.anchor.getEnd(), insert: insertion(obj, source, text, target, value) })

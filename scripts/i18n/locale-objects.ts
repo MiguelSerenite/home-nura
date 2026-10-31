@@ -10,6 +10,7 @@
  */
 import { createHash } from 'node:crypto'
 import { readFileSync } from 'node:fs'
+import { isDeepStrictEqual } from 'node:util'
 import ts from 'typescript'
 
 export type LiteralValue = string | number | boolean | null | LiteralValue[] | { [key: string]: LiteralValue }
@@ -192,4 +193,29 @@ export function findLocaleTernaries(source: ts.SourceFile, anchorLang: string, t
   }
   visit(source)
   return found
+}
+
+/** What extract-locale.ts recorded about a unit: where it was and its French source. */
+export interface UnitKey {
+  path: string
+  fr: LiteralValue
+}
+
+/**
+ * The object or ternary chain a unit was extracted from: the one at its
+ * recorded index when its path and French source still match, else the
+ * only one of the file with that path and French source (indices shift
+ * when an earlier locale object of the file is removed). Undefined when
+ * the source changed or several candidates match.
+ */
+export function locateUnit<T extends { path: string; values: Record<string, LiteralValue | null> }>(
+  candidates: readonly T[],
+  index: number,
+  unit: UnitKey,
+): T | undefined {
+  const matches = (c: T) => c.path === unit.path && isDeepStrictEqual(c.values.fr, unit.fr)
+  const atIndex = candidates[index]
+  if (atIndex && matches(atIndex)) return atIndex
+  const found = candidates.filter(matches)
+  return found.length === 1 ? found[0] : undefined
 }
