@@ -136,7 +136,7 @@ export function resolveModelLink(name: string, lang: string): ArticleAffiliateMo
   const product = catalogByFrTitle(lang).get(name)
   return product
     ? { name, label: product.title, url: product.url, asin: product.asin, cited: true }
-    : { name, label: name, url: amazonSearchUrl(name), cited: true }
+    : { name, label: name, url: amazonSearchUrl(name, resolveLang(lang)), cited: true }
 }
 
 /**

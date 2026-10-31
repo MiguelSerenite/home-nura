@@ -75,8 +75,9 @@ function resolvePick(ref: BlackFridayPickRef, lang: Lang): BlackFridayPick | nul
     role: ref.role?.[lang] ?? pick.role,
     why: pick.why,
     asin,
-    // Product page when the catalog knows the ASIN, else an Amazon search.
-    url: asin ? amazonProductUrl(asin) : amazonSearchUrl(ref.model),
+    // Product page on the reader's store when the catalog knows the ASIN
+    // (a model search where that store lacks it), else an Amazon search.
+    url: asin ? amazonProductUrl(asin, lang) : amazonSearchUrl(ref.model, lang),
     guide: { href: `/${lang}/blog/${article.slug}`, title: article.title[lang] },
     ...(photo ? { photo } : {}),
   }

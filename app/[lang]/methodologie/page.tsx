@@ -88,7 +88,7 @@ const content: Record<Lang, Content> = {
       {
         title: '05 · Indépendance et transparence affiliée',
         body:
-          'Home Nura est financé par le programme Partenaires Amazon (commission sur achat, sans surcoût pour vous). Tous nos liens Amazon pointent vers Amazon.fr avec un seul identifiant de partenaire : grâce au programme « Global Earning », Amazon redirige les lecteurs des autres pays vers la boutique Amazon de leur pays, et la commission est versée sur ce même compte. Les commissions n\'influencent jamais le classement : un produit mal noté reste mal noté même s\'il rapporte plus. Aucun constructeur ne nous paie pour une place au podium. En cas de conflit d\'intérêts nous le signalons en tête de page.',
+          'Home Nura est financé par le programme Partenaires Amazon (commission sur achat, sans surcoût pour vous). Tous nos liens Amazon passent par un seul compte Partenaires, avec un identifiant de suivi par version linguistique. Ils pointent vers Amazon.fr, sauf sur la version italienne, qui renvoie vers Amazon.it : grâce au programme « Global Earning », Amazon redirige les lecteurs des autres pays qui cliquent sur un lien Amazon.fr vers la boutique Amazon de leur pays, et la commission est versée sur ce même compte. Les commissions n\'influencent jamais le classement : un produit mal noté reste mal noté même s\'il rapporte plus. Aucun constructeur ne nous paie pour une place au podium. En cas de conflit d\'intérêts nous le signalons en tête de page.',
       },
     ],
     faqTitle: 'Questions fréquentes',
@@ -156,7 +156,7 @@ const content: Record<Lang, Content> = {
       {
         title: '05 · Independence and affiliate transparency',
         body:
-          'Home Nura is funded through the Amazon Associates programme (commission on purchase, no extra cost to you). All our Amazon links point to Amazon.fr with a single store ID: through Amazon\'s Global Earning programme, readers in other countries are redirected to their local Amazon store and the commission is credited to that same account. Commissions never influence the ranking: a poorly scored product stays poorly scored even if it pays more. No manufacturer pays us for a podium spot. Conflicts of interest are disclosed at the top of the page when they arise.',
+          'Home Nura is funded through the Amazon Associates programme (commission on purchase, no extra cost to you). All our Amazon links go through a single Associates account, with one tracking ID per language version. They point to Amazon.fr, except on the Italian version, which links to Amazon.it: through Amazon\'s Global Earning programme, readers in other countries who click an Amazon.fr link are redirected to their local Amazon store, and the commission is credited to that same account. Commissions never influence the ranking: a poorly scored product stays poorly scored even if it pays more. No manufacturer pays us for a podium spot. Conflicts of interest are disclosed at the top of the page when they arise.',
       },
     ],
     faqTitle: 'Frequently asked questions',
@@ -224,7 +224,7 @@ const content: Record<Lang, Content> = {
       {
         title: '05 · Unabhängigkeit und Affiliate-Transparenz',
         body:
-          'Home Nura wird über das Amazon-Partnerprogramm finanziert (Provision beim Kauf, ohne Mehrkosten für Sie). Alle unsere Amazon-Links führen mit einer einzigen Partner-ID zu Amazon.fr: Über das Programm „Global Earning“ leitet Amazon Leser aus anderen Ländern zu ihrem lokalen Amazon-Shop weiter, und die Provision wird demselben Konto gutgeschrieben. Provisionen beeinflussen niemals das Ranking: Ein schlecht bewertetes Produkt bleibt schlecht bewertet, auch wenn es mehr einbringt. Kein Hersteller bezahlt uns für einen Podestplatz. Interessenskonflikte werden oben auf der Seite offengelegt.',
+          'Home Nura wird über das Amazon-Partnerprogramm finanziert (Provision beim Kauf, ohne Mehrkosten für Sie). Alle unsere Amazon-Links laufen über ein einziges Partnerkonto, mit einer eigenen Tracking-ID pro Sprachversion. Sie führen zu Amazon.fr, außer in der italienischen Version, die auf Amazon.it verlinkt: Über das Programm „Global Earning“ leitet Amazon Leser aus anderen Ländern, die auf einen Amazon.fr-Link klicken, zu ihrem lokalen Amazon-Shop weiter, und die Provision wird demselben Konto gutgeschrieben. Provisionen beeinflussen niemals das Ranking: Ein schlecht bewertetes Produkt bleibt schlecht bewertet, auch wenn es mehr einbringt. Kein Hersteller bezahlt uns für einen Podestplatz. Interessenskonflikte werden oben auf der Seite offengelegt.',
       },
     ],
     faqTitle: 'Häufige Fragen',
@@ -292,7 +292,7 @@ const content: Record<Lang, Content> = {
       {
         title: '05 · Independencia y transparencia de afiliación',
         body:
-          'Home Nura se financia a través del programa de Afiliados de Amazon (comisión por compra, sin coste extra para usted). Todos nuestros enlaces de Amazon apuntan a Amazon.fr con un único identificador de afiliado: gracias al programa «Global Earning», Amazon redirige a los lectores de otros países a la tienda Amazon de su país y la comisión se abona en esa misma cuenta. Las comisiones nunca influyen en la clasificación: un producto mal puntuado sigue mal puntuado aunque reporte más. Ningún fabricante nos paga por un puesto en el podio. Los conflictos de interés se indican en la parte superior de la página.',
+          'Home Nura se financia a través del programa de Afiliados de Amazon (comisión por compra, sin coste extra para usted). Todos nuestros enlaces de Amazon pasan por una única cuenta de afiliado, con un ID de seguimiento para cada versión lingüística. Apuntan a Amazon.fr, salvo en la versión italiana, que enlaza a Amazon.it: gracias al programa «Global Earning», Amazon redirige a los lectores de otros países que hacen clic en un enlace de Amazon.fr a la tienda Amazon de su país, y la comisión se abona en esa misma cuenta. Las comisiones nunca influyen en la clasificación: un producto mal puntuado sigue mal puntuado aunque reporte más. Ningún fabricante nos paga por un puesto en el podio. Los conflictos de interés se indican en la parte superior de la página.',
       },
     ],
     faqTitle: 'Preguntas frecuentes',
@@ -360,7 +360,7 @@ const content: Record<Lang, Content> = {
       {
         title: '05 · Indipendenza e trasparenza affiliata',
         body:
-          'Home Nura è finanziata tramite il programma Amazon Affiliati (commissione sull\'acquisto, senza costi aggiuntivi per voi). Tutti i nostri link Amazon puntano ad Amazon.fr con un unico ID affiliato: grazie al programma «Global Earning», Amazon reindirizza i lettori di altri paesi allo store Amazon del proprio paese e la commissione viene accreditata sullo stesso account. Le commissioni non influenzano mai la classifica: un prodotto valutato male resta valutato male anche se rende di più. Nessun produttore ci paga per un posto sul podio. I conflitti di interesse vengono dichiarati in cima alla pagina.',
+          'Home Nura è finanziata tramite il programma Amazon Affiliati (commissione sull\'acquisto, senza costi aggiuntivi per voi). Tutti i nostri link Amazon passano da un unico account di affiliazione, con un ID di tracciamento per ogni versione linguistica. In questa versione italiana puntano ad Amazon.it; nelle altre lingue puntano ad Amazon.fr e, grazie al programma «Global Earning», Amazon reindirizza i lettori di altri paesi che cliccano su un link Amazon.fr allo store Amazon del proprio paese. La commissione viene sempre accreditata sullo stesso account. Le commissioni non influenzano mai la classifica: un prodotto valutato male resta valutato male anche se rende di più. Nessun produttore ci paga per un posto sul podio. I conflitti di interesse vengono dichiarati in cima alla pagina.',
       },
     ],
     faqTitle: 'Domande frequenti',
@@ -428,7 +428,7 @@ const content: Record<Lang, Content> = {
       {
         title: '05 · Onafhankelijkheid en affiliate-transparantie',
         body:
-          'Home Nura wordt gefinancierd via het Amazon Associates-programma (commissie bij aankoop, zonder meerkosten voor u). Al onze Amazon-links verwijzen met één partner-ID naar Amazon.fr: via het programma \'Global Earning\' stuurt Amazon lezers uit andere landen door naar de Amazon-winkel van hun land, en de commissie wordt op hetzelfde account bijgeschreven. Commissies beïnvloeden nooit de ranglijst: een slecht beoordeeld product blijft slecht beoordeeld, ook als het meer oplevert. Geen enkele fabrikant betaalt voor een podiumplaats. Belangenconflicten worden bovenaan de pagina aangegeven.',
+          'Home Nura wordt gefinancierd via het Amazon Associates-programma (commissie bij aankoop, zonder meerkosten voor u). Al onze Amazon-links lopen via één partneraccount, met een eigen tracking-ID per taalversie. Ze verwijzen naar Amazon.fr, behalve op de Italiaanse versie, die naar Amazon.it linkt: via het programma \'Global Earning\' stuurt Amazon lezers uit andere landen die op een Amazon.fr-link klikken door naar de Amazon-winkel van hun land, en de commissie wordt op hetzelfde account bijgeschreven. Commissies beïnvloeden nooit de ranglijst: een slecht beoordeeld product blijft slecht beoordeeld, ook als het meer oplevert. Geen enkele fabrikant betaalt voor een podiumplaats. Belangenconflicten worden bovenaan de pagina aangegeven.',
       },
     ],
     faqTitle: 'Veelgestelde vragen',
@@ -489,7 +489,7 @@ const content: Record<Lang, Content> = {
       },
       {
         title: '05 · Niezależność i przejrzystość afiliacyjna',
-        body: 'Home Nura jest finansowany z Programu Partnerskiego Amazon (prowizja od zakupu, bez dodatkowych kosztów dla Ciebie). Wszystkie nasze linki do Amazon prowadzą do Amazon.fr z jednym identyfikatorem partnerskim: dzięki programowi „Global Earning” Amazon przekierowuje czytelników z innych krajów do sklepu Amazon w ich kraju, a prowizja trafia na to samo konto. Prowizje nigdy nie wpływają na ranking: produkt słabo oceniony pozostaje słabo oceniony, nawet jeśli przynosi większy zarobek. Żaden producent nie płaci nam za miejsce na podium. W razie konfliktu interesów informujemy o tym na górze strony.',
+        body: 'Home Nura jest finansowany z Programu Partnerskiego Amazon (prowizja od zakupu, bez dodatkowych kosztów dla Ciebie). Wszystkie nasze linki do Amazon działają w ramach jednego konta partnerskiego, z osobnym identyfikatorem śledzenia dla każdej wersji językowej. Prowadzą do Amazon.fr, z wyjątkiem wersji włoskiej, która kieruje do Amazon.it: dzięki programowi „Global Earning” Amazon przekierowuje czytelników z innych krajów, którzy klikną link do Amazon.fr, do sklepu Amazon w ich kraju, a prowizja trafia na to samo konto. Prowizje nigdy nie wpływają na ranking: produkt słabo oceniony pozostaje słabo oceniony, nawet jeśli przynosi większy zarobek. Żaden producent nie płaci nam za miejsce na podium. W razie konfliktu interesów informujemy o tym na górze strony.',
       },
     ],
     faqTitle: 'Najczęstsze pytania',

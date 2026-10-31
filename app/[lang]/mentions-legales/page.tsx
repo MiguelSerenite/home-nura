@@ -4,8 +4,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { buildPageMetadata } from '@/lib/seo'
 import { resolveLang } from '@/lib/i18n'
-import { AMAZON_STORE_ID } from '@/lib/amazon'
-import { AMAZON_ASSOCIATE_DISCLOSURE } from '@/lib/affiliate-disclosure'
+import { amazonAffiliationNotice } from '@/lib/amazon-affiliation-notice'
 
 
 const metaDescriptions: Record<string, string> = {
@@ -72,7 +71,6 @@ const labels: Record<string, Record<string, string>> = {
     website: 'Site web',
     hosting: 'Hébergement',
     affiliation: 'Programme d\'affiliation',
-    affiliationText: `Home Nura participe au Programme Partenaires d'Amazon EU avec un seul identifiant de partenaire (Store ID) Amazon.fr : ${AMAZON_STORE_ID}. Tous les liens Amazon du site, dans toutes les langues, pointent vers Amazon.fr. Grâce au programme « Global Earning » d'Amazon, un visiteur venant d'un autre pays (Allemagne, Royaume-Uni, Espagne, Italie, Pays-Bas…) est redirigé par Amazon vers le même produit sur la boutique Amazon de son pays ; la commission éventuelle est versée sur ce même compte Amazon.fr. ${AMAZON_ASSOCIATE_DISCLOSURE.fr}`,
     pricing: 'Prix et visuels des produits',
     pricingText: 'Home Nura n\'affiche ni les prix ni les photos des produits Amazon : les visuels de produits sont des illustrations neutres (catégorie, marque, modèle). Le prix, la disponibilité et les photos d\'un produit sont ceux affichés par Amazon au moment de votre visite et peuvent changer à tout moment.',
     ip: 'Propriété intellectuelle',
@@ -95,7 +93,6 @@ const labels: Record<string, Record<string, string>> = {
     website: 'Website',
     hosting: 'Hosting',
     affiliation: 'Affiliate programme',
-    affiliationText: `Home Nura participates in the Amazon EU Associates Programme with a single Amazon.fr store ID: ${AMAZON_STORE_ID}. Every Amazon link on the site, in every language, points to Amazon.fr. Through Amazon's Global Earning programme, a visitor from another country (the United Kingdom, Germany, Spain, Italy, the Netherlands…) is redirected by Amazon to the same product on their local Amazon store, and any commission is credited to that same Amazon.fr account. ${AMAZON_ASSOCIATE_DISCLOSURE.en}`,
     pricing: 'Prices and product images',
     pricingText: 'Home Nura does not show Amazon prices or product photos: product visuals are neutral illustrations (category, brand, model). A product\'s price, availability and photos are those shown by Amazon at the time of your visit and may change at any time.',
     ip: 'Intellectual property',
@@ -118,7 +115,6 @@ const labels: Record<string, Record<string, string>> = {
     website: 'Website',
     hosting: 'Hosting',
     affiliation: 'Partnerprogramm',
-    affiliationText: `Home Nura nimmt mit einer einzigen Amazon.fr-Partner-ID (Store ID) am Amazon EU-Partnerprogramm teil: ${AMAZON_STORE_ID}. Alle Amazon-Links der Website führen in jeder Sprache zu Amazon.fr. Über das Amazon-Programm „Global Earning“ leitet Amazon Besucher aus anderen Ländern (Deutschland, Vereinigtes Königreich, Spanien, Italien, Niederlande …) zum selben Produkt in ihrem lokalen Amazon-Shop weiter; eine etwaige Provision wird demselben Amazon.fr-Konto gutgeschrieben. ${AMAZON_ASSOCIATE_DISCLOSURE.de}`,
     pricing: 'Preise und Produktbilder',
     pricingText: 'Home Nura zeigt weder Amazon-Preise noch Amazon-Produktfotos: Die Produktdarstellungen sind neutrale Illustrationen (Kategorie, Marke, Modell). Preis, Verfügbarkeit und Fotos eines Produkts sind die, die Amazon zum Zeitpunkt Ihres Besuchs anzeigt, und können sich jederzeit ändern.',
     ip: 'Geistiges Eigentum',
@@ -141,7 +137,6 @@ const labels: Record<string, Record<string, string>> = {
     website: 'Sitio web',
     hosting: 'Alojamiento',
     affiliation: 'Programa de afiliación',
-    affiliationText: `Home Nura participa en el Programa de Afiliados de Amazon EU con un único identificador de afiliado (Store ID) de Amazon.fr: ${AMAZON_STORE_ID}. Todos los enlaces de Amazon del sitio, en todos los idiomas, apuntan a Amazon.fr. Gracias al programa «Global Earning» de Amazon, Amazon redirige a los visitantes de otros países (España, Alemania, Reino Unido, Italia, Países Bajos…) al mismo producto en la tienda Amazon de su país, y la posible comisión se abona en esa misma cuenta de Amazon.fr. ${AMAZON_ASSOCIATE_DISCLOSURE.es}`,
     pricing: 'Precios e imágenes de producto',
     pricingText: 'Home Nura no muestra precios ni fotos de productos de Amazon: los visuales de producto son ilustraciones neutras (categoría, marca, modelo). El precio, la disponibilidad y las fotos de un producto son los que muestra Amazon en el momento de su visita y pueden cambiar en cualquier momento.',
     ip: 'Propiedad intelectual',
@@ -164,7 +159,6 @@ const labels: Record<string, Record<string, string>> = {
     website: 'Sito web',
     hosting: 'Hosting',
     affiliation: 'Programma di affiliazione',
-    affiliationText: `Home Nura partecipa al Programma di Affiliazione Amazon EU con un unico ID affiliato (Store ID) Amazon.fr: ${AMAZON_STORE_ID}. Tutti i link Amazon del sito, in ogni lingua, puntano ad Amazon.fr. Grazie al programma «Global Earning» di Amazon, i visitatori di altri paesi (Italia, Germania, Regno Unito, Spagna, Paesi Bassi…) vengono reindirizzati da Amazon allo stesso prodotto sullo store Amazon del proprio paese, e l'eventuale commissione viene accreditata sullo stesso account Amazon.fr. ${AMAZON_ASSOCIATE_DISCLOSURE.it}`,
     pricing: 'Prezzi e immagini dei prodotti',
     pricingText: 'Home Nura non mostra prezzi né foto dei prodotti Amazon: le immagini dei prodotti sono illustrazioni neutre (categoria, marca, modello). Prezzo, disponibilità e foto di un prodotto sono quelli mostrati da Amazon al momento della visita e possono cambiare in qualsiasi momento.',
     ip: 'Proprietà intellettuale',
@@ -187,7 +181,6 @@ const labels: Record<string, Record<string, string>> = {
     website: 'Website',
     hosting: 'Hosting',
     affiliation: 'Affiliate programma',
-    affiliationText: `Home Nura neemt deel aan het Amazon EU-partnerprogramma met één Amazon.fr-partner-ID (Store ID): ${AMAZON_STORE_ID}. Alle Amazon-links op de site verwijzen, in elke taal, naar Amazon.fr. Via het Amazon-programma 'Global Earning' stuurt Amazon bezoekers uit andere landen (Nederland, Duitsland, het Verenigd Koninkrijk, Spanje, Italië…) door naar hetzelfde product in de Amazon-winkel van hun land; een eventuele commissie wordt op hetzelfde Amazon.fr-account bijgeschreven. ${AMAZON_ASSOCIATE_DISCLOSURE.nl}`,
     pricing: 'Prijzen en productafbeeldingen',
     pricingText: 'Home Nura toont geen prijzen of productfoto\'s van Amazon: de productvisuals zijn neutrale illustraties (categorie, merk, model). Prijs, beschikbaarheid en foto\'s van een product zijn die welke Amazon toont op het moment van je bezoek en kunnen op elk moment veranderen.',
     ip: 'Intellectueel eigendom',
@@ -210,7 +203,6 @@ const labels: Record<string, Record<string, string>> = {
     website: 'Strona internetowa',
     hosting: 'Hosting',
     affiliation: 'Program partnerski',
-    affiliationText: `Home Nura uczestniczy w Programie Partnerskim Amazon EU z jednym identyfikatorem partnera (Store ID) Amazon.fr: ${AMAZON_STORE_ID}. Wszystkie linki do Amazon na stronie, w każdej wersji językowej, prowadzą do Amazon.fr. Dzięki programowi „Global Earning” Amazon przekierowuje użytkowników z innych krajów (Niemiec, Wielkiej Brytanii, Hiszpanii, Włoch, Holandii…) do tego samego produktu w sklepie Amazon w ich kraju; ewentualna prowizja trafia na to samo konto Amazon.fr. ${AMAZON_ASSOCIATE_DISCLOSURE.pl}`,
     pricing: 'Ceny i zdjęcia produktów',
     pricingText: 'Home Nura nie wyświetla cen ani zdjęć produktów z Amazon: wizualizacje produktów to neutralne ilustracje (kategoria, marka, model). Cena, dostępność i zdjęcia produktu są takie, jakie Amazon pokazuje w chwili Twojej wizyty, i mogą się zmienić w każdej chwili.',
     ip: 'Własność intelektualna',
@@ -288,7 +280,7 @@ export default async function MentionsLegales({ params }: { params: Promise<{ la
 
         <section className="mb-10">
           <h2 className="text-xl font-bold text-slate-900 mb-4 border-b border-slate-200 pb-2">{t.affiliation}</h2>
-          <p className="text-sm text-slate-600 leading-relaxed">{t.affiliationText}</p>
+          <p className="text-sm text-slate-600 leading-relaxed">{amazonAffiliationNotice(resolveLang(lang))}</p>
         </section>
 
         <section className="mb-10">

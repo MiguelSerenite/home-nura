@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
-import { AMAZON_BASE_URL, AMAZON_STORE_ID, amazonProductUrl, amazonSearchUrl } from '@/lib/amazon'
+import { amazonMarket, amazonProductUrl, amazonSearchUrl } from '@/lib/amazon'
 import {
-  AMAZON_BLACK_FRIDAY_URL,
+  amazonBlackFridayUrl,
   AMAZON_PRIME_TRIAL_URL,
   BLACK_FRIDAY_CATEGORIES,
   BLACK_FRIDAY_PATHS,
@@ -19,13 +19,16 @@ import { getArticleBySlug } from '@/lib/blog'
 import { getQuickAnswer, QUICK_ANSWERS } from '@/lib/blog/quick-answers'
 import { getCategory } from '@/lib/catalog'
 import { buildLlmsTxt } from '@/lib/llms'
-import { LANGUAGES } from '@/lib/i18n'
+import { LANGUAGES, type Lang } from '@/lib/i18n'
 import { BASE_URL } from '@/lib/seo'
 
-// Global Earning: every Amazon link points to amazon.fr with the French
-// store ID, built by the shared helpers of lib/amazon.ts.
-const STORE = AMAZON_BASE_URL.replace(/\./g, '\\.')
-const AMAZON_FR = new RegExp(`^${STORE}/(dp/[A-Z0-9]{10}\\?|s\\?k=[^&]+&)tag=${AMAZON_STORE_ID}$`)
+// Every Amazon link points to the locale market (amazon.it for Italian,
+// amazon.fr elsewhere) with its tracking ID, built by lib/amazon.ts.
+function marketLink(lang: Lang): RegExp {
+  const { baseUrl, tag } = amazonMarket(lang)
+  const store = baseUrl.replace(/\./g, '\\.')
+  return new RegExp(`^${store}/(dp/[A-Z0-9]{10}\\?|s\\?k=[^&]+&)tag=${tag}$`)
+}
 
 /** Every string a visitor reads on the Black Friday pages, per language. */
 function visibleCopy(lang: (typeof LANGUAGES)[number]): string[] {
@@ -82,13 +85,13 @@ describe('Black Friday picks', () => {
     }
   })
 
-  it('links every pick to amazon.fr with the French tag, product page when the ASIN is known', () => {
+  it('links every pick to the locale market, product page when the ASIN is known', () => {
     for (const category of BLACK_FRIDAY_CATEGORIES) {
       for (const lang of LANGUAGES) {
         for (const pick of getBlackFridayPicks(category, lang)) {
-          expect(pick.url, `${lang}/${pick.model}`).toMatch(AMAZON_FR)
-          if (pick.asin) expect(pick.url).toBe(amazonProductUrl(pick.asin))
-          else expect(pick.url).toBe(amazonSearchUrl(category.picks.find((r) => r.model === pick.model)!.model))
+          expect(pick.url, `${lang}/${pick.model}`).toMatch(marketLink(lang))
+          if (pick.asin) expect(pick.url).toBe(amazonProductUrl(pick.asin, lang))
+          else expect(pick.url).toBe(amazonSearchUrl(category.picks.find((r) => r.model === pick.model)!.model, lang))
         }
       }
     }
@@ -103,14 +106,20 @@ describe('Black Friday picks', () => {
 })
 
 describe('Black Friday Amazon links', () => {
-  it('uses the amazon.fr Black Friday page for every language', () => {
-    expect(AMAZON_BLACK_FRIDAY_URL).toBe(`${AMAZON_BASE_URL}/blackfriday?tag=${AMAZON_STORE_ID}`)
+  it("uses the Black Friday page of each locale's market, with its tag", () => {
+    expect(amazonBlackFridayUrl('fr')).toBe('https://www.amazon.fr/blackfriday?tag=homenuraen05-21')
+    expect(amazonBlackFridayUrl('de')).toBe('https://www.amazon.fr/blackfriday?tag=homavisede-21')
+    expect(amazonBlackFridayUrl('it')).toBe('https://www.amazon.it/blackfriday?tag=homaviseit-21')
+    for (const lang of LANGUAGES) {
+      const { baseUrl, tag } = amazonMarket(lang)
+      expect(amazonBlackFridayUrl(lang), lang).toBe(`${baseUrl}/blackfriday?tag=${tag}`)
+    }
   })
 
-  it('offers the Prime free trial on French pages only', () => {
+  it('offers the Prime free trial on French pages only, on amazon.fr', () => {
     expect(primeTrialUrl('fr')).toBe(AMAZON_PRIME_TRIAL_URL)
     expect(AMAZON_PRIME_TRIAL_URL).toBe(
-      `${AMAZON_BASE_URL}/amazonprime?_encoding=UTF8&primeCampaignId=prime_assoc_ft&tag=${AMAZON_STORE_ID}`,
+      'https://www.amazon.fr/amazonprime?_encoding=UTF8&primeCampaignId=prime_assoc_ft&tag=homenuraen05-21',
     )
     for (const lang of LANGUAGES.filter((l) => l !== 'fr')) expect(primeTrialUrl(lang)).toBeNull()
   })

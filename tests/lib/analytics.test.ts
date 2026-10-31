@@ -167,7 +167,7 @@ describe('trackAffiliateClick first-party beacon', () => {
       location: 'article_inline',
       lang: 'it',
       surface: 'inline',
-      url: 'https://www.amazon.fr/s?k=Levoit+Core+300S&tag=homenuraen05-21',
+      url: 'https://www.amazon.it/s?k=Levoit+Core+300S&tag=homaviseit-21',
     })
     expect(sendBeacon).toHaveBeenCalledOnce()
     const [endpoint, body] = sendBeacon.mock.calls[0] as unknown as [string, string]
@@ -177,7 +177,7 @@ describe('trackAffiliateClick first-party beacon', () => {
       lang: 'it',
       surface: 'inline',
       model: 'Levoit Core 300S',
-      marketplace: 'amazon.fr',
+      marketplace: 'amazon.it',
     })
   })
 
@@ -198,7 +198,7 @@ describe('trackAffiliateClick first-party beacon', () => {
       location: 'category_picks',
       lang: 'nl',
       surface: 'problem_picks',
-      url: 'https://www.amazon.fr/s?k=Roborock+Q7+M5%2B&tag=homenuraen05-21',
+      url: 'https://www.amazon.fr/s?k=Roborock+Q7+M5%2B&tag=homavisenl-21',
     })
     const bodies = sendBeacon.mock.calls.map((call) => JSON.parse((call as unknown as [string, string])[1]))
     expect(bodies).toEqual([
@@ -211,6 +211,15 @@ describe('trackAffiliateClick first-party beacon', () => {
         marketplace: 'amazon.fr',
       },
     ])
+  })
+
+  it("reports the reader's market when the click carries no URL", () => {
+    window.location.pathname = '/it/black-friday'
+    trackAffiliateClick({ asin: '', productName: 'Amazon Black Friday page', location: 'category_picks', lang: 'it', surface: 'black_friday' })
+    window.location.pathname = '/de/black-friday'
+    trackAffiliateClick({ asin: '', productName: 'Amazon Black Friday page', location: 'category_picks', lang: 'de', surface: 'black_friday' })
+    const bodies = sendBeacon.mock.calls.map((call) => JSON.parse((call as unknown as [string, string])[1]))
+    expect(bodies.map((b) => b.marketplace)).toEqual(['amazon.it', 'amazon.fr'])
   })
 
   it('sends nothing for clicks without a surface', () => {

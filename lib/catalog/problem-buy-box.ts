@@ -4,7 +4,7 @@ import { getCategoryGuides, type CategoryGuideLink, type CategoryPick } from './
 import type { Problem } from './types'
 
 export interface ProblemBuyBox {
-  /** The category's verdict picks, each already linked to amazon.fr (see lib/amazon.ts). */
+  /** The category's verdict picks, each already linked to the reader's Amazon market (see lib/amazon.ts). */
   picks: CategoryPick[]
   /** The buying guide those picks come from, when it exists in this locale. */
   guide?: CategoryGuideLink

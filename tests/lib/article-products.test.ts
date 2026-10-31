@@ -81,10 +81,19 @@ describe('getArticleAffiliateModels', () => {
   it('links catalog models to their product page and other models to a search', () => {
     const models = getArticleAffiliateModels({ slug: 'meilleur-airfryer-petit-budget', pillar: 'guides/airfryers' }, 'de')
     const moulinex = models.find((m) => m.name === 'Moulinex Easy Fry Max 5L')!
-    expect(moulinex).toMatchObject({ cited: true, asin: 'B0CG6C26QW', url: 'https://www.amazon.fr/dp/B0CG6C26QW?tag=homenuraen05-21' })
+    expect(moulinex).toMatchObject({ cited: true, asin: 'B0CG6C26QW', url: 'https://www.amazon.fr/dp/B0CG6C26QW?tag=homavisede-21' })
     const philips = models.find((m) => m.name.startsWith('Philips Airfryer Série 2000'))!
     expect(philips.asin).toBeUndefined()
     expect(philips.url).toMatch(/^https:\/\/www\.amazon\.fr\/s\?k=/)
+  })
+
+  it('links Italian readers to amazon.it, with a model search where amazon.it lacks the ASIN', () => {
+    const models = getArticleAffiliateModels({ slug: 'test-cosori-dual-blaze', pillar: 'guides/airfryers' }, 'it')
+    const dualBlaze = models.find((m) => m.asin === 'B0FPWSDF86')!
+    expect(dualBlaze).toMatchObject({ cited: true, url: 'https://www.amazon.it/s?k=Cosori+Dual+Blaze+Smart&tag=homaviseit-21' })
+    const others = models.filter((m) => m.asin && m.asin !== 'B0FPWSDF86')
+    expect(others.length).toBeGreaterThan(0)
+    others.forEach((m) => expect(m.url).toBe(`https://www.amazon.it/dp/${m.asin}?tag=homaviseit-21`))
   })
 
   it('adds the topic catalog after the cited models, without duplicates', () => {

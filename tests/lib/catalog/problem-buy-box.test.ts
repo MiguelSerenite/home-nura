@@ -1,26 +1,26 @@
 import { describe, it, expect } from 'vitest'
-import { AMAZON_BASE_URL, AMAZON_STORE_ID } from '@/lib/amazon'
+import { amazonMarket } from '@/lib/amazon'
 import { PROBLEMS, getCategory, getProblem } from '@/lib/catalog'
 import { getProblemBuyBox } from '@/lib/catalog/problem-buy-box'
 import { LANGUAGES } from '@/lib/i18n'
 
-// Every locale links to amazon.fr with the French store ID (Amazon Global
-// Earning, see lib/amazon.ts).
-const STORE_ORIGIN = new URL(AMAZON_BASE_URL).origin
+// Every locale links to its market with its tracking ID (lib/amazon.ts:
+// amazon.it for Italian, amazon.fr with Global Earning elsewhere).
 // Resolves the buy box of every problem in every locale (~2 s warm, more
 // on a cold CI worker): above the 5 s default would make it flaky.
 const ALL_PROBLEMS_TIMEOUT_MS = 30_000
 
 describe('problem page buy box', () => {
-  it('links every pick to amazon.fr with the store ID in every locale', () => {
+  it('links every pick to the locale market with its tracking ID', () => {
     for (const problem of PROBLEMS) {
       for (const lang of LANGUAGES) {
         const box = getProblemBuyBox(problem, lang)
         if (!box) continue
+        const market = amazonMarket(lang)
         for (const pick of box.picks) {
           const url = new URL(pick.url)
-          expect(url.origin, `${problem.slug} ${lang}`).toBe(STORE_ORIGIN)
-          expect(url.searchParams.get('tag'), `${problem.slug} ${lang}`).toBe(AMAZON_STORE_ID)
+          expect(url.origin, `${problem.slug} ${lang}`).toBe(market.baseUrl)
+          expect(url.searchParams.get('tag'), `${problem.slug} ${lang}`).toBe(market.tag)
           // Product page when the catalog knows the ASIN, else a store search.
           expect(url.pathname, `${problem.slug} ${lang}`).toMatch(/^\/(dp\/[A-Z0-9]{10}|s)$/)
         }

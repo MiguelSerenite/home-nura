@@ -1,8 +1,8 @@
 import { describe, it, expect } from 'vitest'
 import { readdirSync, readFileSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
-import { AMAZON_STORE_ID } from '@/lib/amazon'
-import { AMAZON_BLACK_FRIDAY_URL, BLACK_FRIDAY_CATEGORIES, getBlackFridayPicks, primeTrialUrl } from '@/lib/black-friday'
+import { amazonMarket } from '@/lib/amazon'
+import { amazonBlackFridayUrl, BLACK_FRIDAY_CATEGORIES, getBlackFridayPicks, primeTrialUrl } from '@/lib/black-friday'
 import { getAllArticles } from '@/lib/blog'
 import { getArticleAffiliateModels, getArticleRecommendations } from '@/lib/blog/article-products'
 import { enrichArticleHtml } from '@/lib/blog/enrichContent'
@@ -10,21 +10,32 @@ import { getQuickAnswer } from '@/lib/blog/quick-answers'
 import { PROBLEMS } from '@/lib/catalog'
 import { CATEGORY_GUIDES, getCategoryGuides } from '@/lib/catalog/category-guides'
 import { getProblemBuyBox } from '@/lib/catalog/problem-buy-box'
-import { LANGUAGES } from '@/lib/i18n'
+import { LANGUAGES, type Lang } from '@/lib/i18n'
 import { getStaticProducts } from '@/lib/products'
 import { getSmartKitchenProducts } from '@/lib/smart-kitchen-products'
 
-// Every Amazon link goes to amazon.fr with the French store ID: Amazon
-// Global Earning redirects foreign readers to their own store and credits
-// that ID (see lib/amazon.ts). Any other store or tag earns nothing.
-const STORE_ORIGIN = 'https://www.amazon.fr'
+// Every Amazon link goes to its locale market (lib/amazon.ts): amazon.it
+// with the Italian tracking ID for Italian pages, amazon.fr with the
+// locale's tracking ID elsewhere (Amazon Global Earning redirects foreign
+// readers to their own store). All tracking IDs belong to the French
+// Associates account; any other store or tag earns nothing.
 const SOURCE_DIRS = ['app', 'components', 'lib', 'scripts', 'dictionaries']
 const ROOT_FILES = ['proxy.ts', 'next.config.ts']
 const TEXT_FILE = /\.(?:tsx?|jsx?|mjs|json|txt|md|sh)$/
-const TAG_LITERAL = /homenura[a-z0-9]*-\d{2}/g
+// Tracking IDs of the account (homenura…, homavise…, amazonbe…) and any
+// other "-21" Associates tag spelled next to "tag=".
+const TAG_LITERAL = /\b(?:homenura|homavise|amazonbe)[a-z0-9]*-\d{2}\b|tag=[a-z0-9]+-\d{2}\b/g
 // Store links only (image CDN hosts are banned by amazon-compliance.test.ts).
 const STORE_LINK = /https?:\/\/(?:www\.)?amazon\.[a-z.]+/g
 const SINGLE_SOURCE = 'lib/amazon.ts'
+/** Tracking IDs listed in Associates Central ("Gérez vos ID de suivi") on 31/10/2026. */
+const ACCOUNT_TAGS = new Set([
+  'homenuraen05-21', 'amazonbe08-21',
+  'homavisefr-21', 'homaviseuk-21', 'homavisede-21', 'homavisees-21', 'homaviseit-21',
+  'homavisenl-21', 'homavisepl-21', 'homavisese-21', 'homaviseus-21', 'homaviseca-21',
+])
+/** Stores the site may link to: amazon.fr (Global Earning) and amazon.it (direct, verified). */
+const LINKED_STORES = ['https://www.amazon.fr', 'https://www.amazon.it']
 
 function files(dir: string): string[] {
   return readdirSync(dir).flatMap((name) => {
@@ -38,33 +49,47 @@ const sources = [
   ...ROOT_FILES.map((f) => join(process.cwd(), f)),
 ].map((path) => ({ path: relative(process.cwd(), path), text: readFileSync(path, 'utf8') }))
 
-function wrongStoreOrTag(url: string, where: string): string[] {
+const singleSource = sources.find(({ path }) => path === SINGLE_SOURCE)!
+
+function wrongStoreOrTag(url: string, lang: Lang, where: string): string[] {
   const parsed = new URL(url)
   const tag = parsed.searchParams.get('tag')
+  const market = amazonMarket(lang)
   return [
-    ...(parsed.origin === STORE_ORIGIN ? [] : [`${where}: store ${parsed.origin}`]),
-    ...(tag === AMAZON_STORE_ID ? [] : [`${where}: tag ${tag}`]),
+    ...(parsed.origin === market.baseUrl ? [] : [`${where}: store ${parsed.origin}`]),
+    ...(tag === market.tag ? [] : [`${where}: tag ${tag}`]),
   ]
 }
 
 describe('Amazon affiliate links in the source', () => {
-  it('only use the amazon.fr store ID', () => {
-    const wrong = sources.flatMap(({ path, text }) =>
-      [...text.matchAll(TAG_LITERAL)].filter((m) => m[0] !== AMAZON_STORE_ID).map((m) => `${path}: ${m[0]}`),
-    )
+  it('spell tracking IDs in lib/amazon.ts only', () => {
+    const wrong = sources
+      .filter(({ path }) => path !== SINGLE_SOURCE)
+      .flatMap(({ path, text }) => [...text.matchAll(TAG_LITERAL)].map((m) => `${path}: ${m[0]}`))
     expect(wrong).toEqual([])
   })
 
-  it('never hard-code another Amazon store', () => {
-    const wrong = sources.flatMap(({ path, text }) =>
-      [...text.matchAll(STORE_LINK)].filter((m) => !m[0].endsWith('amazon.fr')).map((m) => `${path}: ${m[0]}`),
-    )
+  it('only use tracking IDs of the French Associates account', () => {
+    const tags = [...singleSource.text.matchAll(TAG_LITERAL)].map((m) => m[0].replace(/^tag=/, ''))
+    expect(tags.length).toBeGreaterThan(0)
+    expect(tags.filter((tag) => !ACCOUNT_TAGS.has(tag))).toEqual([])
+  })
+
+  it('never hard-code an Amazon store outside lib/amazon.ts', () => {
+    const wrong = sources
+      .filter(({ path }) => path !== SINGLE_SOURCE)
+      .flatMap(({ path, text }) => [...text.matchAll(STORE_LINK)].map((m) => `${path}: ${m[0]}`))
     expect(wrong).toEqual([])
   })
 
-  it('define the store ID in one place', () => {
-    const definedIn = sources.filter(({ text }) => text.includes(AMAZON_STORE_ID)).map(({ path }) => path)
-    expect(definedIn).toEqual([SINGLE_SOURCE])
+  it('link to amazon.fr and amazon.it only', () => {
+    const stores = new Set([...singleSource.text.matchAll(STORE_LINK)].map((m) => m[0]))
+    expect([...stores].filter((store) => !LINKED_STORES.includes(store))).toEqual([])
+  })
+
+  it('give every locale its own market', () => {
+    const missing = LANGUAGES.filter((lang) => !amazonMarket(lang))
+    expect(missing).toEqual([])
   })
 })
 
@@ -74,16 +99,16 @@ const ALL_ARTICLES_TIMEOUT_MS = 60_000
 describe('generated Amazon links', () => {
   const articles = getAllArticles()
 
-  it('catalog products link to amazon.fr in every locale', () => {
+  it('catalog products link to the locale market', () => {
     const problems = LANGUAGES.flatMap((lang) =>
       [...getStaticProducts(lang), ...getSmartKitchenProducts(lang)].flatMap((p) =>
-        wrongStoreOrTag(p.url, `${lang}/${p.asin}`),
+        wrongStoreOrTag(p.url, lang, `${lang}/${p.asin}`),
       ),
     )
     expect(problems).toEqual([])
   })
 
-  it('article blocks, quick answers and in-text links link to amazon.fr in every locale', () => {
+  it('article blocks, quick answers and in-text links link to the locale market', () => {
     const problems = LANGUAGES.flatMap((lang) =>
       articles
         .filter((a) => a.content[lang])
@@ -96,38 +121,42 @@ describe('generated Amazon links', () => {
           const inTextUrls = [...html.matchAll(/<a [^>]*data-aff-surface="[^"]+"[^>]*>/g)].map((m) =>
             m[0].match(/href="([^"]+)"/)![1].replace(/&amp;/g, '&'),
           )
-          return [...blockUrls, ...verdictUrls, ...inTextUrls].flatMap((url) => wrongStoreOrTag(url, where))
+          return [...blockUrls, ...verdictUrls, ...inTextUrls].flatMap((url) => wrongStoreOrTag(url, lang, where))
         }),
     )
     expect(problems).toEqual([])
-   }, ALL_ARTICLES_TIMEOUT_MS)
+  }, ALL_ARTICLES_TIMEOUT_MS)
 
-  it('category picks link to amazon.fr in every locale', () => {
+  it('category picks link to the locale market', () => {
     const problems = LANGUAGES.flatMap((lang) =>
       Object.keys(CATEGORY_GUIDES).flatMap((slug) =>
-        getCategoryGuides(slug, lang).picks.flatMap((p) => wrongStoreOrTag(p.url, `${lang}/${slug}`)),
+        getCategoryGuides(slug, lang).picks.flatMap((p) => wrongStoreOrTag(p.url, lang, `${lang}/${slug}`)),
       ),
     )
     expect(problems).toEqual([])
   })
 
-  it('problem page buy boxes link to amazon.fr in every locale', () => {
+  it('problem page buy boxes link to the locale market', () => {
     const problems = LANGUAGES.flatMap((lang) =>
       PROBLEMS.flatMap((problem) =>
-        (getProblemBuyBox(problem, lang)?.picks ?? []).flatMap((p) => wrongStoreOrTag(p.url, `${lang}/${problem.slug}`)),
+        (getProblemBuyBox(problem, lang)?.picks ?? []).flatMap((p) =>
+          wrongStoreOrTag(p.url, lang, `${lang}/${problem.slug}`),
+        ),
       ),
     )
     expect(problems).toEqual([])
   }, ALL_ARTICLES_TIMEOUT_MS)
 
-  it('Black Friday picks, event page and Prime trial link to amazon.fr in every locale', () => {
+  it('Black Friday picks, event page and Prime trial link to the locale market', () => {
     const problems = LANGUAGES.flatMap((lang) => [
       ...BLACK_FRIDAY_CATEGORIES.flatMap((category) =>
-        getBlackFridayPicks(category, lang).flatMap((p) => wrongStoreOrTag(p.url, `${lang}/black-friday/${category.slug}`)),
+        getBlackFridayPicks(category, lang).flatMap((p) =>
+          wrongStoreOrTag(p.url, lang, `${lang}/black-friday/${category.slug}`),
+        ),
       ),
-      ...[AMAZON_BLACK_FRIDAY_URL, primeTrialUrl(lang)]
+      ...[amazonBlackFridayUrl(lang), primeTrialUrl(lang)]
         .filter((url): url is string => url !== null)
-        .flatMap((url) => wrongStoreOrTag(url, `${lang}/black-friday`)),
+        .flatMap((url) => wrongStoreOrTag(url, lang, `${lang}/black-friday`)),
     ])
     expect(problems).toEqual([])
   })
