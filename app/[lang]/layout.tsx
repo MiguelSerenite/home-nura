@@ -83,6 +83,9 @@ const COUNTRY_NAMES: Record<Lang, string> = {
   it: 'Italy',
   nl: 'Netherlands',
   pl: 'Poland',
+  sv: 'Sweden',
+  us: 'United States',
+  ca: 'Canada',
 };
 
 export default async function RootLayout({

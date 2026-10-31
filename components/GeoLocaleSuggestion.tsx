@@ -2,7 +2,7 @@
 
 import { useState, useSyncExternalStore } from 'react'
 import { usePathname } from 'next/navigation'
-import { COUNTRY_COOKIE, suggestLocaleForCountry, switchLocalePath, type Lang } from '@/lib/i18n'
+import { COUNTRY_COOKIE, HTML_LANG, suggestLocaleForCountry, switchLocalePath, type Lang } from '@/lib/i18n'
 
 const DISMISS_COOKIE = 'hn_geo_dismissed'
 const DISMISS_MAX_AGE = 60 * 60 * 24 * 30 // 30 days
@@ -55,7 +55,7 @@ export default function GeoLocaleSuggestion({ lang }: { lang: string }) {
   }
 
   return (
-    <div lang={suggested} className="bg-brand-900 text-white">
+    <div lang={HTML_LANG[suggested]} className="bg-brand-900 text-white">
       <div className="mx-auto flex max-w-7xl items-center gap-3 px-4 py-2 sm:px-6">
         <p className="flex-1 text-sm">{copy.text}</p>
         <a
