@@ -157,7 +157,7 @@ describe('store-neutral Amazon CTAs', () => {
   // Links go to amazon.fr (amazon.it on Italian pages) and Amazon Global
   // Earning sends each shopper to their own store, so no label may name a
   // specific store.
-  const STORE_NAME = /\bAmazon\.(?:fr|de|co\.uk|es|it|nl|com|be|pl|se)\b/i
+  const STORE_NAME = /\bAmazon\.(?:fr|de|co\.uk|es|it|nl|com|be|pl|se|ca)\b/i
 
   it('buy buttons say "Amazon" in every locale', () => {
     // sv, us and ca: pinned once their native dictionaries land; until then
