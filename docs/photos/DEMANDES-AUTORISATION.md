@@ -19,7 +19,7 @@ Pourriez-vous nous confirmer par écrit que cet usage vous convient, ou nous ind
 Bien cordialement,
 
 Miguel Marie
-Directeur de la publication — Home Nura (Groupe M-XO SAS)
+Directeur de la publication — Home Nura (GROUPE SERENITE SARL)
 contact@homenura.com — 06 33 63 68 57
 https://homenura.com
 
@@ -38,7 +38,7 @@ Could you confirm in writing that this use is fine with you, or let us know your
 Kind regards,
 
 Miguel Marie
-Publication director — Home Nura (Groupe M-XO SAS)
+Publication director — Home Nura (GROUPE SERENITE SARL)
 contact@homenura.com — +33 6 33 63 68 57
 https://homenura.com
 
@@ -57,7 +57,7 @@ Könnten Sie uns schriftlich bestätigen, dass diese Nutzung für Sie in Ordnung
 Mit freundlichen Grüßen
 
 Miguel Marie
-Verantwortlich für den Inhalt — Home Nura (Groupe M-XO SAS)
+Verantwortlich für den Inhalt — Home Nura (GROUPE SERENITE SARL)
 contact@homenura.com — +33 6 33 63 68 57
 https://homenura.com
 
