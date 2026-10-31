@@ -8,7 +8,7 @@ import { CATEGORIES } from '@/lib/blog/types'
 import type { Metadata } from 'next'
 import { SiteFooter, Button } from '@/components/ui'
 import { buildPageMetadata } from '@/lib/seo'
-import { resolveLang } from '@/lib/i18n'
+import { BCP47_LOCALE, HTML_LANG, resolveLang } from '@/lib/i18n'
 
 const BASE_URL = 'https://homenura.com'
 
@@ -78,7 +78,7 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
     name: intro.title,
     description: intro.subtitle,
     url: `${BASE_URL}/${lang}/blog`,
-    inLanguage: lang,
+    inLanguage: HTML_LANG[resolveLang(lang)],
     publisher: {
       '@type': 'Organization',
       name: 'Home Nura',
@@ -175,7 +175,7 @@ export default async function BlogIndex({ params }: { params: Promise<{ lang: st
                     </div>
                   )}
                   <div className="flex-1 min-w-0">
-                    <span className="text-xs text-slate-500">{article.readingTime} min · {new Date(article.datePublished).toLocaleDateString(lang === 'en' ? 'en-GB' : lang, { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+                    <span className="text-xs text-slate-500">{article.readingTime} min · {new Date(article.datePublished).toLocaleDateString(BCP47_LOCALE[resolveLang(lang)], { day: 'numeric', month: 'short', year: 'numeric' })}</span>
                     <h3 className="text-sm font-bold text-slate-900 mt-1 line-clamp-2 group-hover:text-brand-600 transition-colors">
                       {article.title[lang] || article.title.fr}
                     </h3>

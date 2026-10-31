@@ -27,6 +27,11 @@ describe('buildLlmsTxt', () => {
     }
   })
 
+  it('names every locale prefix with its language tag', () => {
+    expect(txt).toContain('Content is published in 8 languages (/fr/ fr, /en/ en,')
+    expect(txt).toContain('/sv/ sv-SE, /us/ en-US, /ca/ en-CA)')
+  })
+
   it('uses markdown links only with absolute URLs', () => {
     const links = [...txt.matchAll(/\]\(([^)]+)\)/g)].map((m) => m[1])
     expect(links.length).toBeGreaterThan(80)

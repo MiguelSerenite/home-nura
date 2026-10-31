@@ -11,7 +11,7 @@ import ComparisonTable from '@/components/ComparisonTable'
 import CookieBanner from '@/components/CookieBanner'
 import { getStaticProducts } from '@/lib/products'
 import { productKicker } from '@/lib/product-types'
-import { resolveLang } from '@/lib/i18n'
+import { HTML_LANG, resolveLang } from '@/lib/i18n'
 import { buildProductListSchema, formatLastUpdated, lastUpdatedLabel, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import Link from 'next/link'
 import { Kicker, SiteFooter, Button } from '@/components/ui'
@@ -58,7 +58,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
     url: `https://homenura.com/${lang}`,
     datePublished: '2024-06-01',
     dateModified: SITE_LAST_UPDATED_ISO,
-    inLanguage: lang,
+    inLanguage: HTML_LANG[safeLang],
     isPartOf: {
       '@type': 'WebSite',
       name: 'Home Nura',

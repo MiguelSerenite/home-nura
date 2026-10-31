@@ -5,7 +5,7 @@ import { WebVitalsReporter } from "@/components/WebVitalsReporter";
 import { Analytics } from "@vercel/analytics/next";
 import GeoLocaleSuggestion from "@/components/GeoLocaleSuggestion";
 import BackToTop from "@/components/BackToTop";
-import { LANGUAGES, isValidLang, type Lang } from "@/lib/i18n";
+import { HTML_LANG, LANGUAGES, isValidLang, type Lang } from "@/lib/i18n";
 import { buildPageMetadata, BASE_URL } from "@/lib/seo";
 import "../globals.css";
 
@@ -168,13 +168,13 @@ export default async function RootLayout({
     name: 'Home Nura',
     alternateName: 'HomeNura',
     url: BASE_URL,
-    inLanguage: lang,
+    inLanguage: HTML_LANG[lang],
     publisher: { '@id': `${BASE_URL}/#organization` },
   };
 
   return (
     <html
-      lang={lang}
+      lang={HTML_LANG[lang]}
       className={`${geistSans.variable} h-full antialiased`}
     >
       <head>

@@ -11,6 +11,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { HTML_LANG, isValidLang } from '@/lib/i18n'
 
 const texts: Record<string, { title: string; desc: string; button: string }> = {
   fr: { title: 'Page introuvable', desc: 'La page que vous recherchez n\'existe pas ou a été déplacée.', button: 'Retour à l\'accueil' },
@@ -29,7 +30,7 @@ export default function RootNotFound() {
   const t = texts[lang]
 
   return (
-    <html lang={lang}>
+    <html lang={isValidLang(lang) ? HTML_LANG[lang] : lang}>
       <body className="min-h-screen bg-[#FBFBFD] flex items-center justify-center px-6">
         <div className="text-center">
           <h1 className="text-8xl font-black text-slate-200 mb-4">404</h1>

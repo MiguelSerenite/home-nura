@@ -19,7 +19,7 @@ import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { SiteFooter } from '@/components/ui'
 import { buildPageMetadata, buildArticleSchema, buildProductImageObject } from '@/lib/seo'
-import { LANGUAGES, isValidLang } from '@/lib/i18n'
+import { BCP47_LOCALE, LANGUAGES, isValidLang } from '@/lib/i18n'
 import { BLOG_SEO_META } from '@/lib/blog/seo-meta'
 import { ChevronRight } from 'lucide-react'
 import AuthorByline from '@/components/AuthorByline'
@@ -195,10 +195,10 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
   }
 
   const dateFormatted = new Date(article.datePublished).toLocaleDateString(
-    lang === 'en' ? 'en-GB' : lang, { day: 'numeric', month: 'long', year: 'numeric' }
+    BCP47_LOCALE[lang], { day: 'numeric', month: 'long', year: 'numeric' }
   )
   const modifiedFormatted = new Date(article.dateModified).toLocaleDateString(
-    lang === 'en' ? 'en-GB' : lang, { day: 'numeric', month: 'long', year: 'numeric' }
+    BCP47_LOCALE[lang], { day: 'numeric', month: 'long', year: 'numeric' }
   )
 
   return (

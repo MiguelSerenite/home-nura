@@ -5,7 +5,7 @@ import { buildAuthorPerson, buildPageMetadata } from '@/lib/seo'
 import { SMART_KITCHEN_CATEGORIES } from '@/lib/smart-kitchen-products'
 import { Kicker, SiteFooter } from '@/components/ui'
 import { BlackFridaySiloLinks } from '@/components/black-friday/Promos'
-import { resolveLang } from '@/lib/i18n'
+import { HTML_LANG, resolveLang } from '@/lib/i18n'
 import { ChevronRight } from 'lucide-react'
 
 
@@ -417,7 +417,7 @@ export default async function SmartKitchenPillarGuidePage({ params }: { params: 
       logo: { '@type': 'ImageObject', url: 'https://homenura.com/logo.png', width: 1400, height: 400 },
     },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `https://homenura.com/${safeLang}/guides/cuisine-connectee` },
-    inLanguage: safeLang,
+    inLanguage: HTML_LANG[safeLang],
   }
 
   return (

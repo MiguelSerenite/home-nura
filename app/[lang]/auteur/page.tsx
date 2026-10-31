@@ -13,7 +13,7 @@ import type { Metadata } from 'next'
 import { buildAuthorPerson, buildBreadcrumbListSchema, buildPageMetadata } from '@/lib/seo'
 import { AUTHOR_PATH, getAuthor, getAuthorPageCopy } from '@/lib/authors'
 import { getAllArticles } from '@/lib/blog'
-import { LANGUAGES, isValidLang, type Lang } from '@/lib/i18n'
+import { HTML_LANG, LANGUAGES, isValidLang, type Lang } from '@/lib/i18n'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import { ChevronRight } from 'lucide-react'
 
@@ -59,7 +59,7 @@ export default async function AuthorPage({
     '@context': 'https://schema.org',
     '@type': 'ProfilePage',
     mainEntity: buildAuthorPerson(safeLang),
-    inLanguage: safeLang,
+    inLanguage: HTML_LANG[safeLang],
   }
   const breadcrumbSchema = buildBreadcrumbListSchema(safeLang, [
     { name: copy.breadcrumbHome, path: '' },

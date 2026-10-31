@@ -1,10 +1,15 @@
-import { LANGUAGES } from '@/lib/i18n'
+import { HTML_LANG, LANGUAGES, type Lang } from '@/lib/i18n'
+import type { MetadataRoute } from 'next'
 import { getAllArticles } from '@/lib/blog'
 import { describe, it, expect } from 'vitest'
 import sitemap from '@/app/sitemap'
 import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
 import { PROBLEMS } from '@/lib/catalog'
 import { BLACK_FRIDAY_PATHS } from '@/lib/black-friday'
+
+/** hreflang URL of `lang` in a sitemap entry (alternates are keyed by language tag). */
+const hreflang = (entry: MetadataRoute.Sitemap[number] | undefined, lang: Lang) =>
+  (entry?.alternates?.languages as Record<string, string> | undefined)?.[HTML_LANG[lang]]
 
 describe('app/sitemap.ts', () => {
   const entries = sitemap()
@@ -31,7 +36,7 @@ describe('app/sitemap.ts', () => {
   it('every entry ships hreflang alternates for every locale', () => {
     for (const e of entries) {
       const langs = e.alternates?.languages ?? {}
-      expect(Object.keys(langs).sort()).toEqual([...LANGS, 'x-default'].sort())
+      expect(Object.keys(langs).sort()).toEqual([...LANGS.map((l) => HTML_LANG[l]), 'x-default'].sort())
     }
   })
 
@@ -69,7 +74,7 @@ describe('app/sitemap.ts', () => {
         const hit = entries.find((e) => e.url === `${BASE_URL}/${entryLang}${path}`)
         expect(hit, `missing ${entryLang} entry for ${path}`).toBeDefined()
         for (const lang of LANGS) {
-          expect(hit?.alternates?.languages?.[lang], `missing hreflang ${lang} for ${entryLang}${path}`)
+          expect(hreflang(hit, lang), `missing hreflang ${lang} for ${entryLang}${path}`)
             .toBe(`${BASE_URL}/${lang}${path}`)
         }
       }
@@ -94,7 +99,7 @@ describe('app/sitemap.ts', () => {
         const hit = entries.find((e) => e.url === url)
         expect(hit, url).toBeDefined()
         for (const lang of LANGS) {
-          expect(hit?.alternates?.languages?.[lang], `${url} hreflang ${lang}`).toBe(`${BASE_URL}/${lang}${path}`)
+          expect(hreflang(hit, lang), `${url} hreflang ${lang}`).toBe(`${BASE_URL}/${lang}${path}`)
         }
         expect(hit?.alternates?.languages?.['x-default'], url).toBe(`${BASE_URL}/fr${path}`)
       }
@@ -114,7 +119,7 @@ describe('app/sitemap.ts', () => {
         expect(Boolean(hit), url).toBe(Boolean(article.content[lang]))
         if (hit) {
           const alternates = Object.keys(hit.alternates?.languages ?? {}).filter((l) => l !== 'x-default')
-          expect(alternates.sort(), url).toEqual(LANGS.filter((l) => article.content[l]).sort())
+          expect(alternates.sort(), url).toEqual(LANGS.filter((l) => article.content[l]).map((l) => HTML_LANG[l]).sort())
         }
       }
     }
@@ -130,7 +135,7 @@ describe('app/sitemap.ts', () => {
     expect(hit, 'missing DE methodologie entry').toBeDefined()
     expect(hit?.priority).toBeGreaterThanOrEqual(0.85)
     for (const lang of LANGS) {
-      expect(hit?.alternates?.languages?.[lang], `missing hreflang ${lang} for /methodologie`)
+      expect(hreflang(hit, lang), `missing hreflang ${lang} for /methodologie`)
         .toBe(`${BASE_URL}/${lang}/methodologie`)
     }
   })

@@ -6,7 +6,7 @@ import { useState, useEffect, useRef, type MouseEvent as ReactMouseEvent } from 
 import { usePathname } from 'next/navigation'
 import SearchBar from './SearchBar'
 import { Shield, Sparkles, Trees, Wind, Zap } from 'lucide-react'
-import { isLocaleHome, switchLocalePath, type Lang } from '@/lib/i18n'
+import { HTML_LANG, isLocaleHome, switchLocalePath, type Lang } from '@/lib/i18n'
 
 const countries: ReadonlyArray<{ code: Lang; flag: string; label: string; name: string }> = [
   { code: 'fr', flag: '🇫🇷', label: 'FR', name: 'Français' },
@@ -214,7 +214,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
                   <Link
                     key={c.code}
                     href={switchLocalePath(pathname, c.code)}
-                    hrefLang={c.code}
+                    hrefLang={HTML_LANG[c.code]}
                     onClick={() => { rememberLocale(c.code); setLangOpen(false) }}
                     className={`flex items-center gap-2.5 px-4 py-2 text-[13px] transition-colors ${
                       lang === c.code
@@ -325,7 +325,7 @@ export default function Navbar({ currentLang }: { currentLang: string }) {
                     <Link
                       key={c.code}
                       href={switchLocalePath(pathname, c.code)}
-                      hrefLang={c.code}
+                      hrefLang={HTML_LANG[c.code]}
                       onClick={() => { rememberLocale(c.code); close() }}
                       className={`flex items-center justify-center gap-1.5 py-2.5 rounded-xl border text-sm font-semibold transition-colors ${
                         lang === c.code

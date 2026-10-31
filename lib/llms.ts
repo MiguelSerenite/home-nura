@@ -1,7 +1,7 @@
 import { getAllArticles } from '@/lib/blog'
 import { BLOG_SEO_META } from '@/lib/blog/seo-meta'
 import { getIndexableSilos } from '@/lib/catalog'
-import { LANGUAGES } from '@/lib/i18n'
+import { HTML_LANG, LANGUAGES, baseLanguage } from '@/lib/i18n'
 import { getQuickAnswer } from '@/lib/blog/quick-answers'
 import { BASE_URL } from '@/lib/seo'
 import { BLACK_FRIDAY_CATEGORIES, BLACK_FRIDAY_YEAR, blackFridayPath } from '@/lib/black-friday'
@@ -28,13 +28,15 @@ const KEY_PAGES: ReadonlyArray<[label: string, path: string, note: string]> = [
 ]
 
 export function buildLlmsTxt(): string {
-  const languages = LANGUAGES.map((l) => `/${l}/`).join(', ')
+  // Prefix with its language tag: /us/ and /ca/ are the US and Canadian English versions.
+  const languages = LANGUAGES.map((l) => `/${l}/ ${HTML_LANG[l]}`).join(', ')
+  const languageCount = new Set(LANGUAGES.map(baseLanguage)).size
   const lines: string[] = [
     '# Home Nura',
     '',
     '> Independent European buying guides for the smart home: air fryers, smart kitchen, energy and home automation, home security, air comfort, home care and garden. Every guide accounts for EU specifics (energy labels, GDPR and local data storage, EU plugs, Matter compatibility).',
     '',
-    `Content is published in ${LANGUAGES.length} languages (${languages}); each French URL below has the same path under every language prefix. Product links are Amazon affiliate links (disclosed on every page); rankings follow the published methodology.`,
+    `Content is published in ${languageCount} languages (${languages}); each French URL below has the same path under every language prefix. Product links are Amazon affiliate links (disclosed on every page); rankings follow the published methodology.`,
     '',
     '## Key pages',
     ...KEY_PAGES.map(([label, path, note]) => link(label, path, note)),
