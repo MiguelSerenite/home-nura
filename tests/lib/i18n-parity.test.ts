@@ -24,6 +24,9 @@ import dictEs from '../../dictionaries/es.json'
 import dictIt from '../../dictionaries/it.json'
 import dictNl from '../../dictionaries/nl.json'
 import dictPl from '../../dictionaries/pl.json'
+import dictSv from '../../dictionaries/sv.json'
+import dictUs from '../../dictionaries/us.json'
+import dictCa from '../../dictionaries/ca.json'
 
 type Dict = Record<string, unknown>
 
@@ -35,6 +38,9 @@ const dictionaries: Record<Lang, Dict> = {
   it: dictIt,
   nl: dictNl,
   pl: dictPl,
+  sv: dictSv,
+  us: dictUs,
+  ca: dictCa,
 }
 
 /**
