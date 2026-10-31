@@ -13,6 +13,18 @@ export const AMAZON_ASSOCIATE_DISCLOSURE: Readonly<Record<Lang, string>> = {
   es: 'Como Afiliado de Amazon, obtengo ingresos por las compras adscritas que cumplen los requisitos aplicables.',
   nl: 'Als Amazon Associate verdien ik aan in aanmerking komende aankopen.',
   pl: 'Jestem Partnerem Amazon i otrzymuję wynagrodzenie z tytułu określonych zakupów dokonywanych za moim pośrednictwem.',
+  // Operating agreement of affiliate-program.amazon.se, section 5 "Identifying
+  // Yourself as an Associate" (version of October 15, 2025, read on 2026-11-01):
+  // the agreement exists in English only, even with the Swedish interface
+  // selected, and Amazon publishes no Swedish wording, so the statement stays
+  // in English rather than being paraphrased.
+  sv: 'As an Amazon Associate I earn from qualifying purchases.',
+  // affiliate-program.amazon.com/help/operating/agreement, section 5 (version of
+  // October 15, 2025, read on 2026-11-01).
+  us: 'As an Amazon Associate I earn from qualifying purchases.',
+  // associates.amazon.ca/help/operating/agreement, section 5, English version
+  // (October 15, 2025, read on 2026-11-01).
+  ca: 'As an Amazon Associate I earn from qualifying purchases.',
 }
 
 export function amazonAssociateDisclosure(lang: string): string {
