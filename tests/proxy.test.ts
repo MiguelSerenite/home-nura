@@ -200,6 +200,9 @@ describe('middleware locale routing', () => {
     expect(rootRedirect({ 'accept-language': 'en-GB', 'x-vercel-ip-country': 'US' })).toMatch(/\/us$/)
     expect(rootRedirect({ 'accept-language': 'en-US', 'x-vercel-ip-country': 'CA' })).toMatch(/\/ca$/)
     expect(rootRedirect({ 'accept-language': 'fr-CA,fr;q=0.9', 'x-vercel-ip-country': 'CA' })).toMatch(/\/fr$/)
+    // English readers outside the US and Canada keep the international version.
+    expect(rootRedirect({ 'accept-language': 'en-US,en;q=0.9', 'x-vercel-ip-country': 'DE' })).toMatch(/\/en$/)
+    expect(rootRedirect({ 'accept-language': 'en-US', 'x-vercel-ip-country': 'JP' })).toMatch(/\/en$/)
   })
 
   it('never takes a Catalan browser for the Canadian version', () => {

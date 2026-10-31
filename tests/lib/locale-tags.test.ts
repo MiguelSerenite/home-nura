@@ -90,6 +90,13 @@ describe('langForLanguageTag (Accept-Language)', () => {
     expect(langForLanguageTag('us')).toBeNull()
     expect(langForLanguageTag('pt-BR')).toBeNull()
     expect(langForLanguageTag('')).toBeNull()
+    expect(langForLanguageTag('*')).toBeNull()
+  })
+
+  it('reads the region before any extension or private-use subtag', () => {
+    expect(langForLanguageTag('en-Latn-US')).toBe('us')
+    expect(langForLanguageTag('en-u-ca-gregory')).toBe('en')
+    expect(langForLanguageTag('en-x-us')).toBe('en')
   })
 })
 
@@ -102,10 +109,19 @@ describe('countryVariant', () => {
     expect(countryVariant('en', 'PR')).toBe('us')
   })
 
-  it('leaves the language alone when the country has no version of it', () => {
-    expect(countryVariant('fr', 'CA')).toBe('fr')
-    expect(countryVariant('us', 'DE')).toBe('us')
+  it('gives readers elsewhere the default version of their language', () => {
+    // en-US is the browser default worldwide: a German or Japanese reader
+    // gets the international English version, not the amazon.com one.
+    expect(countryVariant('us', 'DE')).toBe('en')
+    expect(countryVariant('ca', 'JP')).toBe('en')
     expect(countryVariant('en', 'JP')).toBe('en')
-    expect(countryVariant('de', undefined)).toBe('de')
+    expect(countryVariant('fr', 'CA')).toBe('fr')
+    expect(countryVariant('sv', 'FI')).toBe('sv')
+  })
+
+  it('trusts the browser region when the country is unknown', () => {
+    expect(countryVariant('us', undefined)).toBe('us')
+    expect(countryVariant('ca', '')).toBe('ca')
+    expect(countryVariant('de', null)).toBe('de')
   })
 })

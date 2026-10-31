@@ -167,18 +167,23 @@ export function langForLanguageTag(tag: string): Lang | null {
   const [language, ...subtags] = tag.trim().toLowerCase().split(/[-_]/)
   const versions = LANGUAGES.filter((l) => baseLanguage(l) === language)
   if (versions.length === 0) return null
-  const region = subtags.find((s) => /^[a-z]{2}$/.test(s))
+  // The region comes before any extension or private-use part (`-u-…`, `-x-…`).
+  const singleton = subtags.findIndex((s) => s.length === 1)
+  const region = (singleton === -1 ? subtags : subtags.slice(0, singleton)).find((s) => /^[a-z]{2}$/.test(s))
   return (region && COUNTRY_LANGS[region.toUpperCase()]?.find((l) => versions.includes(l))) || versions[0]
 }
 
 /**
- * The visitor country's own version of `lang`'s language, else `lang`.
- * Browsers default to en-US worldwide, so the geo country is the better
- * signal for which English a reader wants: en-US in the UK reads /en, plain
- * English in the US reads /us.
+ * Which version of `lang`'s language a visitor from `country` reads: the
+ * country's own version when it has one, else the language's default
+ * version (the first in LANGUAGES: `en` for English). Browsers default to
+ * en-US worldwide, so the geo country is the better signal: en-US reads
+ * /en in the UK or Germany, plain English reads /us in the US. Without a
+ * country, the browser's own region stands.
  */
 export function countryVariant(lang: Lang, country: string | undefined | null): Lang {
+  if (!country) return lang
   const language = baseLanguage(lang)
-  const local = country ? COUNTRY_LANGS[country.toUpperCase()]?.find((l) => baseLanguage(l) === language) : undefined
-  return local ?? lang
+  const versions = LANGUAGES.filter((l) => baseLanguage(l) === language)
+  return COUNTRY_LANGS[country.toUpperCase()]?.find((l) => versions.includes(l)) ?? versions[0]
 }
