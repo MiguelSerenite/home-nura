@@ -16,8 +16,8 @@ import { fileHash, findLocaleObjects, findLocaleTernaries, parseSource } from '.
 const ROOT = process.cwd()
 const SOURCE_DIRS = ['app', 'components', 'lib']
 /** Locales every per-locale object already carries; the new key goes after the last. */
-export const SOURCE_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl'] as const
-export const ANCHOR_LANG = 'nl'
+export const SOURCE_LANGS = ['fr', 'en', 'de', 'es', 'it', 'nl', 'pl'] as const
+export const ANCHOR_LANG = 'pl'
 
 export function sourceFiles(dir: string): string[] {
   return readdirSync(dir).flatMap((name) => {
