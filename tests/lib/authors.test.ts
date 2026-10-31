@@ -12,12 +12,15 @@ const PEN_NAME: Record<Lang, RegExp> = {
   it: /pseudonimo/i,
   nl: /pseudoniem/i,
   pl: /pseudonim/i,
+  sv: /pseudonym/i,
+  us: /pen name/i,
+  ca: /pen name/i,
 }
 
 // No invented credential, job title or expertise claim.
-const CREDENTIAL = /ing[ée]nieur|engineer|ingegner|ingeniero|inżynier|journalist|giornalist|periodista|dziennikar|expert|esperto|experto|ekspert|diplom|degree|laurea|licenciad|certifi/i
+const CREDENTIAL = /ing[ée]nieur|engineer|ingegner|ingeniero|inżynier|ingenjör|journalist|giornalist|periodista|dziennikar|expert|esperto|experto|ekspert|diplom|degree|laurea|licenciad|certifi/i
 // No claim that the team tests products itself (negations like "sans tester" are fine).
-const SELF_TEST = /nous avons test|we (have )?tested|haben (wir )?\S* ?getestet|wir testen|abbiamo (provato|testato)|hemos (probado|evaluado)|hebben (we )?getest|przetestowali/i
+const SELF_TEST = /nous avons test|we (have )?tested|haben (wir )?\S* ?getestet|wir testen|abbiamo (provato|testato)|hemos (probado|evaluado)|hebben (we )?getest|przetestowali|vi (har )?testat/i
 
 describe('authors', () => {
   it('give every site locale a byline with initials matching the name', () => {
@@ -42,6 +45,13 @@ describe('authors', () => {
     }
   })
 
+  it('name the locale’s own pen name on its author page', () => {
+    for (const lang of LANGUAGES) {
+      expect(AUTHOR_PAGE_COPY[lang].metaDescription, lang).toContain(AUTHORS[lang].name)
+      expect(AUTHOR_PAGE_COPY[lang].penName, lang).toContain(AUTHORS[lang].name)
+    }
+  })
+
   it('claim no credential and no self-run test', () => {
     for (const lang of LANGUAGES) {
       const texts = [AUTHORS[lang].bio, ...Object.values(AUTHOR_PAGE_COPY[lang])]
@@ -53,7 +63,7 @@ describe('authors', () => {
   })
 
   it('fall back to the French byline for an unknown locale', () => {
-    expect(getAuthor('sv')).toBe(AUTHORS.fr)
+    expect(getAuthor('xx')).toBe(AUTHORS.fr)
   })
 })
 

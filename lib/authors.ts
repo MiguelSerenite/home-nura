@@ -70,6 +70,21 @@ export const AUTHORS: Record<Lang, AuthorProfile> = {
     initials: 'MN',
     bio: 'Marta Nowak podpisuje poradniki Home Nura po polsku. Pasjonatka inteligentnego domu porównuje urządzenia na podstawie danych technicznych producentów, opinii użytkowników i wyników publikowanych przez niezależne organizacje, nie sprawdzając produktów samodzielnie. Marta Nowak to pseudonim redakcji Home Nura.',
   },
+  sv: {
+    name: 'Elin Lindqvist',
+    initials: 'EL',
+    bio: 'Elin Lindqvist skriver Home Nuras guider på svenska. Hon brinner för det smarta hemmet och jämför apparater utifrån tillverkarnas tekniska specifikationer, användarrecensioner och resultat som publicerats av oberoende organisationer, utan att själv testa produkterna. Elin Lindqvist är en pseudonym som används av Home Nuras redaktion. Texterna publiceras under ansvar av Miguel Marie, grundare av Home Nura.',
+  },
+  us: {
+    name: 'Emily Carter',
+    initials: 'EC',
+    bio: "Emily Carter writes Home Nura's guides for readers in the United States. A smart-home enthusiast, she compares appliances using manufacturer specifications, user reviews, and results published by independent organizations, without testing products herself. Emily Carter is a pen name used by the Home Nura editorial team; Miguel Marie, founder of Home Nura, is responsible for what it publishes.",
+  },
+  ca: {
+    name: 'Liam Tremblay',
+    initials: 'LT',
+    bio: "Liam Tremblay writes Home Nura's guides for readers in Canada. A smart-home enthusiast, he compares appliances using manufacturer specifications, user reviews and results published by independent organizations, without testing products himself. Liam Tremblay is a pen name used by the Home Nura editorial team; Miguel Marie, founder of Home Nura, is responsible for what it publishes.",
+  },
 }
 
 export const AUTHOR_PAGE_COPY: Record<Lang, AuthorPageCopy> = {
