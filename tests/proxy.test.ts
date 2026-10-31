@@ -185,6 +185,33 @@ describe('middleware locale routing', () => {
     expect(res.headers.get('location')).toMatch(/\/de$/)
   })
 
+  const rootRedirect = (headers: Record<string, string>) =>
+    (middleware(new NextRequest(new URL('http://localhost/'), { headers })) as Response).headers.get('location')
+
+  it('sends American, Canadian and Swedish browsers to their market versions', () => {
+    expect(rootRedirect({ 'accept-language': 'en-US,en;q=0.9', 'x-vercel-ip-country': 'US' })).toMatch(/\/us$/)
+    expect(rootRedirect({ 'accept-language': 'en-CA,en;q=0.9', 'x-vercel-ip-country': 'CA' })).toMatch(/\/ca$/)
+    expect(rootRedirect({ 'accept-language': 'sv-SE,sv;q=0.9,en;q=0.8' })).toMatch(/\/sv$/)
+    expect(rootRedirect({ 'accept-language': 'en-US' })).toMatch(/\/us$/)
+  })
+
+  it('lets the visitor country pick the English version (browsers default to en-US)', () => {
+    expect(rootRedirect({ 'accept-language': 'en-US,en;q=0.9', 'x-vercel-ip-country': 'GB' })).toMatch(/\/en$/)
+    expect(rootRedirect({ 'accept-language': 'en-GB', 'x-vercel-ip-country': 'US' })).toMatch(/\/us$/)
+    expect(rootRedirect({ 'accept-language': 'en-US', 'x-vercel-ip-country': 'CA' })).toMatch(/\/ca$/)
+    expect(rootRedirect({ 'accept-language': 'fr-CA,fr;q=0.9', 'x-vercel-ip-country': 'CA' })).toMatch(/\/fr$/)
+  })
+
+  it('never takes a Catalan browser for the Canadian version', () => {
+    expect(rootRedirect({ 'accept-language': 'ca-ES,ca;q=0.9,es;q=0.8' })).toMatch(/\/es$/)
+    expect(rootRedirect({ 'accept-language': 'ca', 'x-vercel-ip-country': 'AD' })).toMatch(/\/fr$/)
+  })
+
+  it('falls back to the geo locale of the new markets when the browser language is unserved', () => {
+    expect(rootRedirect({ 'accept-language': 'fi-FI', 'x-vercel-ip-country': 'SE' })).toMatch(/\/sv$/)
+    expect(rootRedirect({ 'accept-language': 'zh-CN', 'x-vercel-ip-country': 'US' })).toMatch(/\/us$/)
+  })
+
   it('redirects /it/chi-siamo to the about page instead of looping on itself', () => {
     const request = new NextRequest(new URL('http://localhost/it/chi-siamo'))
     const res = middleware(request) as Response
