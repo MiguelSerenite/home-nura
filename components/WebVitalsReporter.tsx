@@ -2,6 +2,7 @@
 
 import { useReportWebVitals } from 'next/web-vitals'
 import { usePathname } from 'next/navigation'
+import { isValidLang } from '@/lib/i18n'
 
 /**
  * WebVitalsReporter — Phase U RUM client
@@ -24,8 +25,6 @@ import { usePathname } from 'next/navigation'
  * attached so the log drain can slice CWV by market — which is the
  * whole point of the European observability layer.
  */
-
-const VALID_LANGS = new Set(['fr', 'en', 'de', 'es', 'it', 'nl'])
 
 interface VitalsBeacon {
   name: string
@@ -72,7 +71,7 @@ export function WebVitalsReporter() {
   // 'fr' so the route validator never rejects the beacon for a path
   // that somehow escaped the middleware's locale rewriting.
   const langSegment = pathname.split('/')[1] || ''
-  const lang = VALID_LANGS.has(langSegment) ? langSegment : 'fr'
+  const lang = isValidLang(langSegment) ? langSegment : 'fr'
 
   useReportWebVitals((metric) => {
     // Only ship the 6 canonical Core Web Vitals that the route accepts.
