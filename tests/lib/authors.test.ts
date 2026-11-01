@@ -20,7 +20,7 @@ const PEN_NAME: Record<Lang, RegExp> = {
 // No invented credential, job title or expertise claim.
 const CREDENTIAL = /ing[ée]nieur|engineer|ingegner|ingeniero|inżynier|ingenjör|journalist|giornalist|periodista|dziennikar|expert|esperto|experto|ekspert|diplom|degree|laurea|licenciad|certifi/i
 // No claim that the team tests products itself (negations like "sans tester" are fine).
-const SELF_TEST = /nous avons test|we (have )?tested|haben (wir )?\S* ?getestet|wir testen|abbiamo (provato|testato)|hemos (probado|evaluado)|hebben (we )?getest|przetestowali|vi (har )?testat/i
+const SELF_TEST = /nous avons test|we (have |['’]ve )?tested|haben (wir )?\S* ?getestet|wir testen|abbiamo (provato|testato)|hemos (probado|evaluado)|hebben (we )?getest|przetestowali|testowaliśmy|vi (har )?testat|vi testade/i
 
 describe('authors', () => {
   it('give every site locale a byline with initials matching the name', () => {
