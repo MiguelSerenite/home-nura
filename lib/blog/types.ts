@@ -36,7 +36,7 @@ export const CATEGORIES: Record<BlogArticle['category'], Record<string, string>>
   // do not run (tests/lib/blog-categories.test.ts).
   tests: {
     fr: 'Avis détaillés', en: 'Reviews', de: 'Produktbewertungen',
-    es: 'Análisis y opiniones', it: 'Recensioni', nl: 'Reviews', pl: 'Recenzje',
+    es: 'Análisis y opiniones', it: 'Recensioni', nl: 'Reviews', pl: 'Szczegółowe opinie',
   },
   guides: {
     fr: 'Guides Pratiques', en: 'Practical Guides', de: 'Praktische Ratgeber',

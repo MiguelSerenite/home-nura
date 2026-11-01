@@ -18,7 +18,7 @@ export const article: BlogArticle = {
         es: 'Unidad interior de aire acondicionado blanca que muestra 22 °C de consigna',
         it: 'Unità interna di condizionatore bianca che mostra una temperatura impostata di 22 °C',
         nl: 'Witte binnenunit van een airco met een ingestelde temperatuur van 22 °C',
-        pl: 'Biała jednostka wewnętrzna klimatyzatora wyświetlająca nastawę 22 °C',
+        pl: 'Biała jednostka wewnętrzna klimatyzatora z ustawioną temperaturą 22 °C na wyświetlaczu',
       },
     },
   ],
@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: 'Midea PortaSplit, De\'Longhi Pinguino PAC EL112 CST WiFi, Midea Silent Cool 26 Pro WF, Olimpia Splendid Dolceclima Air Pro 14 HP WiFi y Trotec PAC 3910 X WiFi comparados: potencia, clase energética, ruido, kit de ventana y app.',
     it: 'Midea PortaSplit, De\'Longhi Pinguino PAC EL112 CST WiFi, Midea Silent Cool 26 Pro WF, Olimpia Splendid Dolceclima Air Pro 14 HP WiFi e Trotec PAC 3910 X WiFi a confronto: potenza, classe energetica, rumore, kit finestra e app.',
     nl: 'Midea PortaSplit, De\'Longhi Pinguino PAC EL112 CST WiFi, Midea Silent Cool 26 Pro WF, Olimpia Splendid Dolceclima Air Pro 14 HP WiFi en Trotec PAC 3910 X WiFi vergeleken: vermogen, energieklasse, geluid, raamkit en app.',
-    pl: 'Midea PortaSplit, De\'Longhi Pinguino PAC EL112 CST WiFi, Midea Silent Cool 26 Pro WF, Olimpia Splendid Dolceclima Air Pro 14 HP WiFi i Trotec PAC 3910 X WiFi w porównaniu: moc, klasa energetyczna, hałas, zestaw okienny i aplikacja.',
+    pl: 'Midea PortaSplit, De\'Longhi Pinguino PAC EL112 CST WiFi, Midea Silent Cool 26 Pro WF, Olimpia Splendid Dolceclima Air Pro 14 HP WiFi i Trotec PAC 3910 X WiFi – porównujemy moc, klasę energetyczną, hałas, zestaw okienny i aplikację.',
   },
   content: {
     fr: `<p><strong>Le meilleur climatiseur mobile connecté en 2026 est le Midea PortaSplit</strong> : sa conception en deux blocs place le compresseur dehors, ce qui le rend nettement plus silencieux et plus efficace qu'un monobloc classique, tout en s'installant sans technicien. Si vous préférez un monobloc à poser et à déplacer, le <strong>Midea Silent Cool 26 Pro WF</strong> offre le meilleur rapport prestations/prix, et le <strong>Trotec PAC 3910 X WiFi</strong> convient aux grandes pièces.</p>
@@ -490,80 +490,80 @@ export const article: BlogArticle = {
 
 <h2>Eindoordeel</h2>
 <p>Voor de meeste huishoudens is de <strong>Midea PortaSplit</strong> de meest complete slimme mobiele airco: stil, zuinig, met verwarmingsfunctie en zonder vakman te installeren. De <strong>Midea Silent Cool 26 Pro WF</strong> is het verstandigste monoblok voor een slaapkamer of kantoor, de <strong>Trotec PAC 3910 X WiFi</strong> past het best bij grote ruimtes, de <strong>De'Longhi Pinguino PAC EL112 CST WiFi</strong> is het meest verfijnd qua slim comfort, en de <strong>Olimpia Splendid Dolceclima Air Pro 14 HP WiFi</strong> is de juiste keuze als je ook wilt verwarmen. Bekijk alle modellen op onze pagina <a href="/nl/confort-air/climatiseurs-mobiles">slimme mobiele airco's</a>.</p>`,
-    pl: `<p><strong>Najlepszym klimatyzatorem przenośnym z Wi-Fi w 2026 roku jest Midea PortaSplit</strong>: dwuczęściowa konstrukcja umieszcza sprężarkę na zewnątrz, dzięki czemu jest wyraźnie cichszy i wydajniejszy niż klasyczny monoblok, a mimo to montuje się go bez technika. Jeśli wolisz monoblok, który się ustawia i przestawia, <strong>Midea Silent Cool 26 Pro WF</strong> oferuje najlepszy stosunek możliwości do ceny, a <strong>Trotec PAC 3910 X WiFi</strong> sprawdzi się w dużych pomieszczeniach.</p>
-<p>Porównanie opiera się na kartach katalogowych producentów, opublikowanych niezależnych testach i opiniach zweryfikowanych kupujących. Uwzględnia wyłącznie klimatyzatory przenośne (monobloki i „splity przenośne” typu PortaSplit) sterowane z aplikacji i sprzedawane w Europie. Aby sprawdzić, czy klimatyzator jest w ogóle potrzebny, zacznij od naszego poradnika <a href="/pl/blog/climatiseur-mobile-vs-ventilateur">klimatyzator przenośny czy wentylator</a>. Wszystkie modele z tej kategorii zebraliśmy na stronie <a href="/pl/confort-air/climatiseurs-mobiles">inteligentne klimatyzatory przenośne</a>.</p>
+    pl: `<p><strong>Najlepszy klimatyzator przenośny z Wi-Fi w 2026 roku to Midea PortaSplit</strong>. Składa się z dwóch jednostek, a jego sprężarka pracuje na zewnątrz, dzięki czemu jest wyraźnie cichszy i wydajniejszy od klasycznego monobloku. Mimo to zamontujesz go bez fachowca. Jeśli wolisz monoblok, który po prostu stawiasz na podłodze i przestawiasz z pokoju do pokoju, najlepszy stosunek jakości do ceny ma <strong>Midea Silent Cool 26 Pro WF</strong>, a do dużych pomieszczeń nadaje się <strong>Trotec PAC 3910 X WiFi</strong>.</p>
+<p>Zestawienie powstało na podstawie kart katalogowych producentów, opublikowanych niezależnych testów i opinii zweryfikowanych kupujących. Obejmuje wyłącznie klimatyzatory przenośne (monobloki i splity przenośne typu PortaSplit) sterowane z aplikacji i sprzedawane w Europie. Jeśli nie wiesz, czy klimatyzator jest Ci w ogóle potrzebny, zacznij od naszego poradnika <a href="/pl/blog/climatiseur-mobile-vs-ventilateur">Klimatyzator przenośny czy wentylator</a>. Wszystkie modele z tej kategorii znajdziesz na stronie <a href="/pl/confort-air/climatiseurs-mobiles">klimatyzatorów przenośnych z aplikacją</a>.</p>
 
-<h2>Kryteria wyboru inteligentnego klimatyzatora przenośnego</h2>
+<h2>Jak wybrać klimatyzator przenośny z Wi-Fi</h2>
 <h3>Monoblok jednowężowy, dwuwężowy czy split przenośny</h3>
-<p><strong>Monoblok jednowężowy</strong> zasysa powietrze z pomieszczenia, aby schłodzić skraplacz, a następnie wyrzuca je na zewnątrz przez wąż. To wyrzucone powietrze tworzy lekkie podciśnienie: ciepłe powietrze z zewnątrz przedostaje się przez szczeliny w drzwiach i oknach, co obniża rzeczywistą sprawność. Mimo to jest to konfiguracja najpopularniejsza i używają jej wszystkie monobloki z tego porównania.</p>
-<p><strong>Monoblok dwuwężowy</strong> pobiera powietrze do chłodzenia z zewnątrz drugim wężem, co ogranicza to zjawisko. Takie modele są w Europie rzadkie i bardziej zajmują okno.</p>
-<p><strong>Split przenośny</strong> (Midea PortaSplit) dzieli urządzenie na dwie części: jednostkę wewnętrzną i zewnętrzną, zawieszoną na oknie lub postawioną na balkonie, połączone elastycznym, fabrycznie napełnionym przewodem chłodniczym. Hałas sprężarki i ciepło zostają na zewnątrz: to rozwiązanie najbliższe prawdziwemu klimatyzatorowi stałemu, bez wiercenia i bez montera klimatyzacji.</p>
+<p><strong>Monoblok jednowężowy</strong> chłodzi skraplacz powietrzem pobranym z pomieszczenia, a potem wyrzuca je wężem na zewnątrz. Usuwanie tego powietrza wytwarza lekkie podciśnienie, przez co ciepłe powietrze z zewnątrz przedostaje się do środka przez szczeliny w drzwiach i oknach, a rzeczywista sprawność spada. Mimo to jest to najpopularniejsze rozwiązanie – stosują je wszystkie monobloki z tego zestawienia.</p>
+<p><strong>Monoblok dwuwężowy</strong> pobiera powietrze do chłodzenia z zewnątrz drugim wężem, co ogranicza ten efekt. Takie modele są w Europie rzadkie i zajmują więcej miejsca w oknie.</p>
+<p><strong>Split przenośny</strong> (Midea PortaSplit) składa się z dwóch części: jednostki wewnętrznej i zewnętrznej, którą zawiesza się na oknie albo stawia na balkonie. Łączy je elastyczny, fabrycznie napełniony przewód chłodniczy. Hałas sprężarki i ciepło zostają na zewnątrz, więc to rozwiązanie najbliższe klasycznemu klimatyzatorowi stacjonarnemu – bez wiercenia i bez wzywania instalatora.</p>
 
 <h3>Moc (BTU/kW) i powierzchnia pomieszczenia</h3>
-<p>Moc chłodnicza wyrażana jest w watach lub w BTU/h (1 kW ≈ 3412 BTU/h). Często przywoływana, przybliżona zasada to około 100 W chłodu na m² w standardowym pomieszczeniu, a więcej na poddaszu, w pokoju od strony południowej lub z dużą ilością przeszkleń. W praktyce: 2,6 kW (9000 BTU) na sypialnię do około 25–30 m², 3,5 kW (12 000 BTU) na przeciętny salon, powyżej 4 kW na duże pomieszczenie. Uwaga: „BTU” eksponowane na niektórych opakowaniach nie zawsze odpowiadają mocy mierzonej według europejskiej normy EN 14511, dlatego lepiej opierać się na wartości w kW z etykiety energetycznej.</p>
+<p>Moc chłodniczą podaje się w watach lub w BTU/h (1 kW ≈ 3412 BTU/h). Często przytaczana orientacyjna zasada mówi o ok. 100 W mocy chłodniczej na 1 m² w typowym pomieszczeniu, a więcej na poddaszu, w pokoju z oknami na południe lub z dużymi przeszkleniami. W praktyce: 2,6 kW (9000 BTU) do sypialni o powierzchni do ok. 25–30 m², 3,5 kW (12 000 BTU) do przeciętnego salonu i ponad 4 kW do dużego pomieszczenia. Pamiętaj, że wartości w „BTU” eksponowane na niektórych opakowaniach nie zawsze odpowiadają mocy zmierzonej według europejskiej normy EN 14511, dlatego lepiej kierować się wartością w kW z etykiety energetycznej.</p>
 
 <h3>Efektywność energetyczna: EER i klasa</h3>
-<p>Klimatyzatory przenośne typu monoblok są oznaczane według <strong>EER</strong> (stosunku wytworzonego chłodu do pobranej energii elektrycznej). EER równy 2,6 odpowiada klasie A, czyli górze rynku monobloków. PortaSplit, traktowany jako split, jest oceniany według <strong>SEER</strong> (wskaźnik sezonowy): jego klasy A++ nie są więc bezpośrednio porównywalne z klasami monobloku, ale świadczą o wyższej sprawności.</p>
+<p>Klasa energetyczna monoblokowych klimatyzatorów przenośnych zależy od współczynnika <strong>EER</strong> (stosunku wytworzonego chłodu do zużytej energii elektrycznej). EER równy 2,6 oznacza klasę A, czyli czołówkę wśród monobloków. PortaSplit jest klasyfikowany jako split, więc jego klasę wyznacza się według <strong>SEER</strong> (współczynnika sezonowego). Klasy A++ tego urządzenia nie da się zatem wprost porównać z klasą monobloku, ale świadczy ona o wyższej sprawności.</p>
 
 <h3>Hałas w dB</h3>
-<p>Hałas to pierwszy zarzut wobec monobloków, ponieważ sprężarka znajduje się w pomieszczeniu. Sprawdź, czy podana wartość to <strong>poziom mocy akustycznej</strong> (dB(A) Lw, wyższy) czy <strong>poziom ciśnienia akustycznego</strong> mierzony z 1 m (niższy). W sypialni tryb nocny i split przenośny robią realną różnicę.</p>
+<p>Hałas to najczęstszy zarzut wobec monobloków, bo sprężarka pracuje w pomieszczeniu. Sprawdź, czy podana wartość to <strong>poziom mocy akustycznej</strong> (dB(A) Lw, wyższy), czy <strong>poziom ciśnienia akustycznego</strong> mierzony z odległości 1 m (niższy). W sypialni dużą różnicę robią tryb nocny i split przenośny.</p>
 
 <h3>Zestaw okienny, skropliny i łączność</h3>
 <ul>
-<li><strong>Zestaw okienny</strong>: dobra szczelność wokół węża decyduje o skuteczności. Zestawy do okien uchylnych (tekstylna uszczelka z zamkiem błyskawicznym) i przesuwnych (sztywny panel) nie zawsze są w komplecie.</li>
-<li><strong>Skropliny</strong>: większość nowszych monobloków odparowuje znaczną część wody w trybie chłodzenia przez wąż, ale w trybie osuszania lub przy dużej wilgotności często potrzebny jest wąż odprowadzający. Sprawdź instrukcję modelu.</li>
-<li><strong>Aplikacja i Wi-Fi</strong>: zdalne uruchamianie, aby schłodzić pomieszczenie przed Twoim powrotem, harmonogramy, tryby nocne, czasem śledzenie zużycia i sterowanie głosowe (Alexa, Google Assistant). Wyniesiony czujnik typu „Follow Me” mierzy temperaturę tam, gdzie jesteś, a nie przy urządzeniu.</li>
+<li><strong>Zestaw okienny</strong>: od szczelności wokół węża zależy skuteczność chłodzenia. Zestawy do okien rozwiernych (materiałowa uszczelka zapinana na zamek błyskawiczny) i przesuwnych (sztywny panel) nie zawsze są w komplecie.</li>
+<li><strong>Skropliny</strong>: w trybie chłodzenia większość nowszych monobloków odparowuje znaczną część wody i usuwa ją przez wąż wylotowy, ale w trybie osuszania lub przy dużej wilgotności często potrzebny jest wężyk do odprowadzania skroplin. Sprawdź to w instrukcji danego modelu.</li>
+<li><strong>Aplikacja i Wi-Fi</strong>: zdalne włączanie, by schłodzić mieszkanie przed Twoim powrotem, harmonogramy, tryby nocne, czasem podgląd zużycia energii i sterowanie głosowe (Alexa, Asystent Google). Zewnętrzny czujnik typu „Follow Me” mierzy temperaturę tam, gdzie jesteś, a nie przy urządzeniu.</li>
 </ul>
 
-<h2>5 najlepszych inteligentnych klimatyzatorów przenośnych w 2026 roku</h2>
-<h3>1. Midea PortaSplit — najlepszy wybór ogólny</h3>
-<p><strong>Midea PortaSplit</strong> to split przenośny o mocy 12 000 BTU (3,5 kW), deklarowany dla pomieszczeń do 42 m². Jest rewersyjny (chłodzenie i grzanie) i ma klasę A++ w chłodzeniu (SEER 6,1) oraz A+ w grzaniu (SCOP 4,0). Jednostka wewnętrzna schodzi do 39 dB(A) w trybie cichym według producenta, ponieważ sprężarka jest na zewnątrz. Płaski, fabrycznie napełniony R32 przewód chłodniczy przechodzi przez uchylone okno, z dołączonym uchwytem okiennym; opcjonalnie dostępne są rozwiązania na balkon i na dach.</p>
-<p><strong>Mocne strony</strong>: cisza, sprawność, skuteczne dogrzewanie, aplikacja Midea SmartHome ze śledzeniem zużycia, zgodność z Alexą, Google Assistant i Siri. <strong>Ograniczenia</strong>: gabaryty dwóch jednostek (łącznie około 45 kg z akcesoriami), jednostkę zewnętrzną trzeba solidnie zamocować, wyższa półka cenowa. Dla małych pomieszczeń istnieje wersja tylko chłodząca o mocy 8000 BTU. <strong>Dla kogo</strong>: sypialnia lub salon, gdzie liczy się cisza, oraz najemcy, którzy nie mogą zamontować klimatyzatora stałego.</p>
+<h2>5 najlepszych klimatyzatorów przenośnych z Wi-Fi w 2026 roku</h2>
+<h3>1. Midea PortaSplit — najlepszy wybór dla większości</h3>
+<p><strong>Midea PortaSplit</strong> to split przenośny o mocy 12 000 BTU (3,5 kW), który według producenta poradzi sobie w pomieszczeniu do 42 m². Chłodzi i grzeje, ma klasę A++ w chłodzeniu (SEER 6,1) i A+ w grzaniu (SCOP 4,0). Ponieważ sprężarka pracuje na zewnątrz, jednostka wewnętrzna w trybie cichym schodzi do deklarowanych 39 dB(A). Płaski przewód chłodniczy, fabrycznie napełniony czynnikiem R32, przechodzi przez uchylone okno, a uchwyt okienny jest w zestawie; opcjonalnie dostępne są mocowania na balkon i dach.</p>
+<p><strong>Mocne strony</strong>: cicha praca, wysoka sprawność, skuteczne dogrzewanie, aplikacja Midea SmartHome z podglądem zużycia energii, współpraca z Alexą, Asystentem Google i Siri. <strong>Ograniczenia</strong>: dwie jednostki zajmują sporo miejsca (razem z akcesoriami ważą ok. 45 kg), jednostkę zewnętrzną trzeba solidnie zamocować, wysoka półka cenowa. Do małych pomieszczeń dostępna jest wersja 8000 BTU, która tylko chłodzi. <strong>Dla kogo</strong>: sypialnia lub salon, w których liczy się cisza, a także najemcy, którzy nie mogą zamontować na stałe klimatyzatora typu split.</p>
 
-<h3>2. De'Longhi Pinguino PAC EL112 CST WiFi — najinteligentniejszy z monobloków</h3>
-<p><strong>De'Longhi Pinguino PAC EL112 CST WiFi</strong> (seria Care4Me) to monoblok jednowężowy o mocy 2,9 kW, klasy A+. Technologia <strong>Cool Surround</strong> wykrywa położenie pilota, aby skierować komfort w Twoją stronę, a tryb Eco Real Feel dostosowuje razem temperaturę i wilgotność. Osusza do około 41 litrów na dobę i używa czynnika R290.</p>
-<p><strong>Mocne strony</strong>: staranne wykończenie, aplikacja De'Longhi i zgodność z Alexą oraz Google Assistant, tryb nocny. <strong>Ograniczenia</strong>: brak grzania, około 33 kg, hałas typowy dla monobloku pracującego z pełną mocą. <strong>Dla kogo</strong>: pomieszczenie 25–30 m², użytkownicy ceniący uznaną markę i sterowanie głosowe.</p>
+<h3>2. De'Longhi Pinguino PAC EL112 CST WiFi — najinteligentniejszy monoblok</h3>
+<p><strong>De'Longhi Pinguino PAC EL112 CST WiFi</strong> (seria Care4Me) to monoblok jednowężowy o mocy 2,9 kW i klasie A+. Technologia <strong>Cool Surround</strong> wykrywa położenie pilota, aby kierować nawiew w Twoją stronę, a tryb Eco Real Feel reguluje jednocześnie temperaturę i wilgotność. Urządzenie osusza do ok. 41 litrów wody na dobę i pracuje na czynniku R290.</p>
+<p><strong>Mocne strony</strong>: staranne wykończenie, aplikacja De'Longhi, współpraca z Alexą i Asystentem Google, tryb nocny. <strong>Ograniczenia</strong>: brak funkcji grzania, ok. 33 kg, przy pełnej mocy hałas typowy dla monobloku. <strong>Dla kogo</strong>: pomieszczenia 25–30 m², osoby, które cenią uznaną markę i sterowanie głosem.</p>
 
-<h3>3. Midea Silent Cool 26 Pro WF — najlepszy stosunek możliwości do ceny</h3>
-<p><strong>Midea Silent Cool 26 Pro WF</strong> dostarcza 2,6 kW (9000 BTU) dla pomieszczeń do 31 m², przy EER 2,6 (klasa A). Producent deklaruje moc akustyczną 57 dB(A) i ciśnienie akustyczne około 43–44 dB(A), czyli niskie wartości jak na monoblok. Ma funkcję Follow Me, automatyczny nawiew oscylacyjny i jest sterowany z aplikacji, przez Alexę lub Google Assistant.</p>
-<p><strong>Mocne strony</strong>: dobra sprawność, dyskrecja, czynnik R290, pełna łączność. <strong>Ograniczenia</strong>: brak grzania, moc ograniczona do średnich pomieszczeń. <strong>Dla kogo</strong>: sypialnia lub biuro, rozsądny pierwszy zakup.</p>
+<h3>3. Midea Silent Cool 26 Pro WF — najlepszy stosunek jakości do ceny</h3>
+<p><strong>Midea Silent Cool 26 Pro WF</strong> ma moc 2,6 kW (9000 BTU) i jest przeznaczony do pomieszczeń o powierzchni do 31 m², a jego EER wynosi 2,6 (klasa A). Producent podaje poziom mocy akustycznej 57 dB(A) i poziom ciśnienia akustycznego ok. 43–44 dB(A) – jak na monoblok to niskie wartości. Ma funkcję Follow Me i automatyczną oscylację, a sterować nim można z aplikacji, przez Alexę lub Asystenta Google.</p>
+<p><strong>Mocne strony</strong>: dobra sprawność, cicha praca, czynnik R290, aplikacja i sterowanie głosowe. <strong>Ograniczenia</strong>: brak funkcji grzania, moc wystarczająca tylko do średnich pomieszczeń. <strong>Dla kogo</strong>: sypialnia lub domowe biuro, rozsądny wybór na pierwszy klimatyzator.</p>
 
-<h3>4. Olimpia Splendid Dolceclima Air Pro 14 HP WiFi — włoski model rewersyjny</h3>
-<p><strong>Olimpia Splendid Dolceclima Air Pro 14 HP WiFi</strong> to rewersyjny monoblok jednowężowy: 3,5 kW w chłodzeniu (klasa A, EER 2,6) i 2,9 kW w grzaniu (klasa A+). Pracuje na R290, jest sterowany z aplikacji OS Comfort, ma tryb osuszania i 24-godzinny programator. Jego wąż o średnicy 150 mm ma 1,5 m długości.</p>
-<p><strong>Mocne strony</strong>: użytkowanie przez cztery pory roku, moc odpowiednia do salonu, włoska konstrukcja. <strong>Ograniczenia</strong>: około 34 kg, dostępność różna w zależności od kraju. <strong>Dla kogo</strong>: mieszkanie bez dodatkowego ogrzewania w okresach przejściowych, salon do około 35–40 m².</p>
+<h3>4. Olimpia Splendid Dolceclima Air Pro 14 HP WiFi — włoski model z funkcją grzania</h3>
+<p><strong>Olimpia Splendid Dolceclima Air Pro 14 HP WiFi</strong> to monoblok jednowężowy z funkcją grzania: 3,5 kW mocy chłodniczej (klasa A, EER 2,6) i 2,9 kW mocy grzewczej (klasa A+). Pracuje na czynniku R290, steruje się nim z aplikacji OS Comfort, ma tryb osuszania i programator 24-godzinny. Wąż o średnicy 150 mm ma 1,5 m długości.</p>
+<p><strong>Mocne strony</strong>: całoroczne użytkowanie, moc wystarczająca do salonu, włoska konstrukcja. <strong>Ograniczenia</strong>: ok. 34 kg, dostępność zależy od kraju. <strong>Dla kogo</strong>: mieszkanie, w którym brakuje dogrzewania wiosną i jesienią, salon do ok. 35–40 m².</p>
 
 <h3>5. Trotec PAC 3910 X WiFi — do dużych pomieszczeń</h3>
-<p><strong>Trotec PAC 3910 X WiFi</strong> deklaruje 4,1 kW (14 000 BTU) dla pomieszczeń do 52 m², w klasie A, przy ciśnieniu akustycznym 52–54 dB(A) z odległości 1 m. Osusza do 3,75 l/h, ma Follow Me, tryb nocny, oscylację i wyłącznik czasowy, a sterowany jest z aplikacji przez Wi-Fi.</p>
-<p><strong>Mocne strony</strong>: moc, marka wyspecjalizowana w uzdatnianiu powietrza, pełny zestaw funkcji. <strong>Ograniczenia</strong>: 34 kg, krótki wąż 1,5 m, głośniejszy niż split przenośny. <strong>Dla kogo</strong>: duży salon, open space, biuro.</p>
+<p>Według producenta <strong>Trotec PAC 3910 X WiFi</strong> o mocy 4,1 kW (14 000 BTU) poradzi sobie w pomieszczeniu do 52 m². Należy do klasy A, a poziom ciśnienia akustycznego w odległości 1 m wynosi 52–54 dB(A). Osusza powietrze z wydajnością do 3,75 l/h, oferuje funkcję Follow Me, tryb nocny, oscylację i wyłącznik czasowy, a sterować nim można z aplikacji przez Wi-Fi.</p>
+<p><strong>Mocne strony</strong>: duża moc, marka specjalizująca się w urządzeniach do uzdatniania powietrza, bogate wyposażenie. <strong>Ograniczenia</strong>: 34 kg, krótki wąż (1,5 m), głośniejszy od splitu przenośnego. <strong>Dla kogo</strong>: duży salon, otwarta przestrzeń dzienna, biuro.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Typ</th><th>Moc chłodnicza</th><th>Klasa</th><th>Grzanie</th><th>Łączność</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Typ</th><th>Moc chłodnicza</th><th>Klasa</th><th>Grzanie</th><th>Łączność</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td>Midea PortaSplit</td><td>Split przenośny</td><td>3,5 kW (12 000 BTU)</td><td>A++ (SEER)</td><td>Tak</td><td>Aplikacja, Alexa, Google, Siri</td><td>Cisza, do 42 m²</td></tr>
-<tr><td>De'Longhi Pinguino PAC EL112 CST WiFi</td><td>Monoblok jednowężowy</td><td>2,9 kW</td><td>A+</td><td>Nie</td><td>Aplikacja, Alexa, Google</td><td>25–30 m², inteligentny komfort</td></tr>
+<tr><td>Midea PortaSplit</td><td>Split przenośny</td><td>3,5 kW (12 000 BTU)</td><td>A++ (SEER)</td><td>Tak</td><td>Aplikacja, Alexa, Google, Siri</td><td>Cicha praca, do 42 m²</td></tr>
+<tr><td>De'Longhi Pinguino PAC EL112 CST WiFi</td><td>Monoblok jednowężowy</td><td>2,9 kW</td><td>A+</td><td>Nie</td><td>Aplikacja, Alexa, Google</td><td>25–30 m², inteligentne funkcje komfortu</td></tr>
 <tr><td>Midea Silent Cool 26 Pro WF</td><td>Monoblok jednowężowy</td><td>2,6 kW (9000 BTU)</td><td>A</td><td>Nie</td><td>Aplikacja, Alexa, Google</td><td>Sypialnia, biuro</td></tr>
-<tr><td>Olimpia Splendid Dolceclima Air Pro 14 HP WiFi</td><td>Monoblok jednowężowy</td><td>3,5 kW</td><td>A / A+ w grzaniu</td><td>Tak</td><td>Aplikacja OS Comfort</td><td>Użytkowanie przez cztery pory roku</td></tr>
+<tr><td>Olimpia Splendid Dolceclima Air Pro 14 HP WiFi</td><td>Monoblok jednowężowy</td><td>3,5 kW</td><td>A / A+ w grzaniu</td><td>Tak</td><td>Aplikacja OS Comfort</td><td>Użytkowanie przez cały rok</td></tr>
 <tr><td>Trotec PAC 3910 X WiFi</td><td>Monoblok jednowężowy</td><td>4,1 kW (14 000 BTU)</td><td>A</td><td>Nie</td><td>Aplikacja Wi-Fi</td><td>Duże pomieszczenia</td></tr>
 </tbody>
 </table>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Wiara, że klimatyzator „bez węża” chłodzi</strong>: urządzenie bez odprowadzenia powietrza na zewnątrz tylko przenosi ciepło i nie jest w stanie schłodzić pomieszczenia. Wyjaśniamy to w <a href="/pl/blog/aire-acondicionado-portatil-sin-tubo">naszym artykule o klimatyzatorach bez węża</a>.</li>
-<li><strong>Zaniżenie mocy</strong>: zbyt słabe urządzenie pracuje bez przerwy, nie osiągając nastawy, zużywa więcej energii i hałasuje bardziej.</li>
-<li><strong>Zaniedbanie szczelności okna</strong>: wąż przeprowadzony przez uchylone okno bez uszczelnienia wpuszcza gorące powietrze z powrotem.</li>
-<li><strong>Wydłużanie lub zginanie węża</strong>: powinien być jak najkrótszy i prosty, inaczej ciepło się kumuluje, a urządzenie włącza zabezpieczenie.</li>
-<li><strong>Ustawianie zbyt niskiej temperatury</strong>: różnica 5–7 °C względem temperatury zewnętrznej zwykle wystarcza dla komfortu i ogranicza zużycie energii.</li>
+<li><strong>Zakładanie, że klimatyzator „bez węża” chłodzi</strong>: urządzenie, które nie odprowadza ciepła na zewnątrz, jedynie przemieszcza je w obrębie pokoju i nie schłodzi pomieszczenia. Wyjaśniamy to w <a href="/pl/blog/aire-acondicionado-portatil-sin-tubo">naszym artykule o klimatyzatorach bez węża</a>.</li>
+<li><strong>Zaniżanie mocy</strong>: zbyt słabe urządzenie pracuje bez przerwy, nie osiąga zadanej temperatury, zużywa więcej energii i jest głośniejsze.</li>
+<li><strong>Lekceważenie szczelności okna</strong>: jeśli wąż wystawiasz przez uchylone okno bez uszczelnienia, gorące powietrze wraca do środka.</li>
+<li><strong>Przedłużanie lub zaginanie węża</strong>: powinien być jak najkrótszy i jak najprostszy, inaczej ciepło się gromadzi, a urządzenie wyłącza się dla bezpieczeństwa.</li>
+<li><strong>Ustawianie zbyt niskiej temperatury</strong>: różnica 5–7 °C względem temperatury na zewnątrz zwykle wystarczy, by było komfortowo, a przy tym ogranicza zużycie energii.</li>
 </ul>
 
 <h2>Montaż, użytkowanie i bezpieczeństwo</h2>
-<p>Monoblok podłącza się do standardowego gniazdka ściennego: unikaj przedłużaczy i listew zasilających, ponieważ urządzenie pobiera duży prąd przy starcie sprężarki. Kilka modeli używa czynnika <strong>R290 (propan)</strong>, bardzo mało szkodliwego dla klimatu, ale łatwopalnego: przestrzegaj minimalnej powierzchni pomieszczenia i odległości podanych w instrukcji oraz nigdy nie przebijaj obiegu. PortaSplit jest dostarczany fabrycznie napełniony R32, ze złączami przewidzianymi do samodzielnego montażu; jednostkę zewnętrzną trzeba solidnie zamocować na dołączonym uchwycie, tak aby nie groziło jej upadkiem, z poszanowaniem regulaminu wspólnoty lub umowy najmu, jeśli jest widoczna z zewnątrz. Regularnie czyść filtry w sezonie i opróżnij zbiornik na skropliny przed schowaniem urządzenia.</p>
+<p>Monoblok podłącza się do zwykłego gniazdka w ścianie. Unikaj przedłużaczy i listew zasilających, bo przy rozruchu sprężarki urządzenie pobiera duży prąd. Część modeli pracuje na czynniku <strong>R290 (propan)</strong>, który jest bardzo mało szkodliwy dla środowiska, ale łatwopalny. Przestrzegaj minimalnej powierzchni pomieszczenia i odległości podanych w instrukcji i nigdy nie przebijaj obiegu chłodniczego. PortaSplit jest dostarczany fabrycznie napełniony czynnikiem R32, ze złączami, które użytkownik łączy samodzielnie. Jednostkę zewnętrzną trzeba pewnie zamocować na dołączonym uchwycie, tak by nie mogła spaść, a jeśli będzie widoczna z zewnątrz, sprawdź też regulamin wspólnoty mieszkaniowej lub umowę najmu. W sezonie regularnie czyść filtry, a przed schowaniem urządzenia opróżnij zbiornik na skropliny.</p>
 
 <h2>Werdykt</h2>
-<p>Dla większości domów <strong>Midea PortaSplit</strong> to najdojrzalszy inteligentny klimatyzator przenośny: cichy, wydajny, rewersyjny i możliwy do zamontowania bez fachowca. <strong>Midea Silent Cool 26 Pro WF</strong> to najrozsądniejszy monoblok do sypialni lub biura, <strong>Trotec PAC 3910 X WiFi</strong> najlepiej pasuje do dużych pomieszczeń, <strong>De'Longhi Pinguino PAC EL112 CST WiFi</strong> jest najbardziej dopracowany pod względem inteligentnego komfortu, a <strong>Olimpia Splendid Dolceclima Air Pro 14 HP WiFi</strong> to dobry wybór, jeśli chcesz też ogrzewać. Wszystkie modele znajdziesz na naszej stronie <a href="/pl/confort-air/climatiseurs-mobiles">inteligentne klimatyzatory przenośne</a>.</p>`,
+<p>Dla większości gospodarstw domowych <strong>Midea PortaSplit</strong> to najbardziej dopracowany klimatyzator przenośny z Wi-Fi: cichy, wydajny, chłodzi i grzeje, a zamontujesz go bez fachowca. <strong>Midea Silent Cool 26 Pro WF</strong> to najrozsądniejszy monoblok do sypialni lub biura, <strong>Trotec PAC 3910 X WiFi</strong> najlepiej sprawdzi się w dużych pomieszczeniach, <strong>De'Longhi Pinguino PAC EL112 CST WiFi</strong> oferuje najbardziej rozbudowane inteligentne funkcje komfortu, a <strong>Olimpia Splendid Dolceclima Air Pro 14 HP WiFi</strong> to dobry wybór, jeśli chcesz też dogrzewać pomieszczenie. Wszystkie modele znajdziesz na naszej stronie <a href="/pl/confort-air/climatiseurs-mobiles">klimatyzatorów przenośnych z aplikacją</a>.</p>`,
   },
   faq: [
     {
@@ -574,7 +574,7 @@ export const article: BlogArticle = {
         es: '¿Un aire acondicionado portátil conectado consume más que uno normal?',
         it: 'Un condizionatore portatile connesso consuma più di uno tradizionale?',
         nl: 'Verbruikt een slimme mobiele airco meer stroom dan een gewone?',
-        pl: 'Czy inteligentny klimatyzator przenośny zużywa więcej energii niż klasyczny model?',
+        pl: 'Czy klimatyzator przenośny z Wi-Fi zużywa więcej prądu niż zwykły?',
       },
       answer: {
         fr: 'Non. Le module Wi-Fi consomme très peu en veille. La connexion aide même à économiser : vous démarrez l\'appareil juste avant votre retour au lieu de le laisser tourner, et vous programmez des plages horaires et un mode nuit. La consommation dépend surtout de l\'EER et de la bonne étanchéité de la fenêtre.',
@@ -583,7 +583,7 @@ export const article: BlogArticle = {
         es: 'No. El módulo Wi-Fi consume muy poco en reposo. La conexión incluso ayuda a ahorrar: enciende el aparato justo antes de llegar en lugar de dejarlo funcionando, y programa horarios y un modo noche. El consumo depende sobre todo del EER y de un buen sellado de la ventana.',
         it: 'No. Il modulo Wi-Fi consuma pochissimo in standby. La connessione aiuta anzi a risparmiare: accendete l\'apparecchio poco prima del rientro invece di lasciarlo acceso e programmate fasce orarie e modalità notte. Il consumo dipende soprattutto dall\'EER e dalla buona tenuta della finestra.',
         nl: 'Nee. De wifimodule verbruikt in stand-by heel weinig. De verbinding helpt zelfs besparen: je zet het toestel pas aan vlak voor je thuiskomt in plaats van het te laten draaien, en je stelt schema\'s en een nachtstand in. Het verbruik hangt vooral af van de EER en een goed afgedicht raam.',
-        pl: 'Nie. Moduł Wi-Fi pobiera bardzo mało energii w stanie czuwania. Połączenie wręcz pomaga oszczędzać: uruchamiasz urządzenie tuż przed powrotem zamiast zostawiać go włączonego na cały dzień, a do tego ustawiasz harmonogramy i tryb nocny. Zużycie zależy głównie od EER i dobrej szczelności okna.',
+        pl: 'Nie. Moduł Wi-Fi w trybie czuwania pobiera bardzo mało energii, a łączność wręcz pomaga oszczędzać: włączasz urządzenie tuż przed powrotem, zamiast zostawiać je włączone, i ustawiasz harmonogramy oraz tryb nocny. Zużycie prądu zależy przede wszystkim od współczynnika EER i szczelności okna.',
       },
     },
     {
@@ -594,7 +594,7 @@ export const article: BlogArticle = {
         es: '¿Qué potencia de aire acondicionado portátil necesito para 20 m²?',
         it: 'Che potenza di condizionatore portatile serve per una stanza di 20 m²?',
         nl: 'Hoeveel vermogen moet een mobiele airco hebben voor 20 m²?',
-        pl: 'Jaka moc klimatyzatora przenośnego do pomieszczenia 20 m²?',
+        pl: 'Jaka moc klimatyzatora przenośnego do pokoju 20 m²?',
       },
       answer: {
         fr: 'Pour une pièce de 20 m² bien isolée, un appareil d\'environ 2 à 2,6 kW (7 000 à 9 000 BTU) suffit généralement. Visez plus haut, autour de 2,6 à 3,5 kW, sous les toits, dans une pièce plein sud ou très vitrée. Basez-vous sur la puissance en kW indiquée sur l\'étiquette énergie.',
@@ -603,7 +603,7 @@ export const article: BlogArticle = {
         es: 'Para una estancia de 20 m² bien aislada suele bastar un equipo de unos 2 a 2,6 kW (7.000 a 9.000 BTU). Apunte más alto, unos 2,6 a 3,5 kW, en un ático, una habitación orientada al sur o con mucho cristal. Guíese por el valor en kW de la etiqueta energética.',
         it: 'Per una stanza di 20 m² ben isolata bastano in genere circa 2-2,6 kW (7.000-9.000 BTU). Puntate più in alto, intorno a 2,6-3,5 kW, in mansarda, in una stanza esposta a sud o molto vetrata. Fate riferimento al valore in kW dell\'etichetta energetica.',
         nl: 'Voor een goed geïsoleerde kamer van 20 m² volstaat meestal zo\'n 2 tot 2,6 kW (7.000 tot 9.000 BTU). Kies hoger, rond 2,6 tot 3,5 kW, op zolder, op het zuiden of bij veel glas. Ga uit van de kW-waarde op het energielabel.',
-        pl: 'Do dobrze izolowanego pomieszczenia 20 m² zwykle wystarcza urządzenie o mocy około 2–2,6 kW (7000–9000 BTU). Wybierz więcej, około 2,6–3,5 kW, na poddaszu, w pokoju od strony południowej lub z dużymi przeszkleniami. Kieruj się mocą w kW podaną na etykiecie energetycznej.',
+        pl: 'Do dobrze ocieplonego pokoju o powierzchni 20 m² zwykle wystarczy urządzenie o mocy ok. 2–2,6 kW (7000–9000 BTU). Na poddaszu, w pokoju z oknami na południe lub z dużymi przeszkleniami wybierz mocniejszy model, ok. 2,6–3,5 kW. Kieruj się mocą w kW podaną na etykiecie energetycznej.',
       },
     },
     {
@@ -614,7 +614,7 @@ export const article: BlogArticle = {
         es: '¿El Midea PortaSplit necesita un frigorista?',
         it: 'Il Midea PortaSplit richiede un frigorista?',
         nl: 'Heeft de Midea PortaSplit een koeltechnicus nodig?',
-        pl: 'Czy Midea PortaSplit wymaga montera klimatyzacji?',
+        pl: 'Czy montaż Midea PortaSplit wymaga instalatora klimatyzacji?',
       },
       answer: {
         fr: 'Non, selon le fabricant : le circuit est livré préchargé en R32 et les deux unités se raccordent sans outillage spécialisé. Il faut en revanche fixer solidement l\'unité extérieure avec le support fourni et vérifier le règlement de copropriété ou le bail si elle est visible de l\'extérieur.',
@@ -623,7 +623,7 @@ export const article: BlogArticle = {
         es: 'No, según el fabricante: el circuito viene precargado con R32 y las dos unidades se conectan sin herramientas especiales. Eso sí, hay que fijar bien la unidad exterior con el soporte incluido y revisar las normas de la comunidad o el contrato de alquiler si es visible desde fuera.',
         it: 'No, secondo il produttore: il circuito è precaricato con R32 e le due unità si collegano senza attrezzi specifici. Occorre però fissare saldamente l\'unità esterna con il supporto fornito e verificare il regolamento condominiale o il contratto d\'affitto se è visibile dall\'esterno.',
         nl: 'Nee, volgens de fabrikant niet: het circuit is voorgevuld met R32 en beide units worden zonder speciaal gereedschap gekoppeld. Je moet de buitenunit wel stevig vastzetten met de meegeleverde beugel en het VvE-reglement of je huurcontract nakijken als hij van buiten zichtbaar is.',
-        pl: 'Nie, według producenta: obieg jest dostarczany fabrycznie napełniony R32, a obie jednostki łączy się bez specjalistycznych narzędzi. Trzeba jednak solidnie zamocować jednostkę zewnętrzną na dołączonym uchwycie i sprawdzić regulamin wspólnoty lub umowę najmu, jeśli jest widoczna z zewnątrz.',
+        pl: 'Nie, przynajmniej według producenta: obieg jest fabrycznie napełniony czynnikiem R32, a obie jednostki łączy się bez specjalistycznych narzędzi. Trzeba za to solidnie zamocować jednostkę zewnętrzną na dołączonym uchwycie, a jeśli będzie widoczna z zewnątrz, sprawdzić regulamin wspólnoty mieszkaniowej lub umowę najmu.',
       },
     },
     {
@@ -634,7 +634,7 @@ export const article: BlogArticle = {
         es: '¿Hay que vaciar el agua de un aire acondicionado portátil?',
         it: 'Bisogna svuotare l\'acqua di un condizionatore portatile?',
         nl: 'Moet je het water van een mobiele airco legen?',
-        pl: 'Czy trzeba opróżniać wodę z klimatyzatora przenośnego?',
+        pl: 'Czy trzeba wylewać wodę z klimatyzatora przenośnego?',
       },
       answer: {
         fr: 'En mode froid, la plupart des monoblocs récents réévaporent l\'essentiel des condensats par la gaine, donc la vidange est rare. Par forte humidité ou en mode déshumidification, un tuyau d\'évacuation vers un siphon ou un récipient est souvent nécessaire. Videz toujours le bac avant de ranger l\'appareil.',
@@ -643,7 +643,7 @@ export const article: BlogArticle = {
         es: 'En modo frío, la mayoría de los monobloques recientes reevaporan casi todo el condensado por el tubo, así que rara vez hay que vaciarlo. Con mucha humedad o en modo deshumidificación suele hacer falta una manguera hacia un desagüe o un recipiente. Vacíe siempre la bandeja antes de guardar el aparato.',
         it: 'In raffreddamento, la maggior parte dei monoblocchi recenti rievapora quasi tutta la condensa attraverso il tubo, quindi raramente va svuotata. Con forte umidità o in deumidificazione serve spesso un tubo di scarico verso uno scarico o un contenitore. Svuotate sempre la vaschetta prima di riporre l\'apparecchio.',
         nl: 'In koelstand verdampen de meeste recente monoblokken het grootste deel van het condenswater via de slang, dus legen is zelden nodig. Bij hoge luchtvochtigheid of in ontvochtigingsstand is vaak een afvoerslang naar een afvoer of opvangbak nodig. Leeg de bak altijd voordat je het toestel opbergt.',
-        pl: 'W trybie chłodzenia większość nowszych monobloków odparowuje większość skroplin przez wąż, więc opróżnianie jest rzadkie. Przy dużej wilgotności lub w trybie osuszania często potrzebny jest wąż odprowadzający do syfonu lub pojemnika. Zawsze opróżnij zbiornik przed schowaniem urządzenia.',
+        pl: 'Rzadko. W trybie chłodzenia większość nowszych monobloków odparowuje większą część skroplin i usuwa je wężem wylotowym. Przy dużej wilgotności lub w trybie osuszania często potrzebny jest wężyk odprowadzający wodę do odpływu albo pojemnika. Przed schowaniem urządzenia zawsze opróżnij zbiornik.',
       },
     },
     {
@@ -654,7 +654,7 @@ export const article: BlogArticle = {
         es: '¿Se puede controlar un aire acondicionado portátil con Alexa o Google Assistant?',
         it: 'Si può controllare un condizionatore portatile con Alexa o Google Assistant?',
         nl: 'Kun je een mobiele airco bedienen met Alexa of Google Assistant?',
-        pl: 'Czy klimatyzatorem przenośnym można sterować przez Alexę lub Google Assistant?',
+        pl: 'Czy klimatyzatorem przenośnym można sterować przez Alexę lub Asystenta Google?',
       },
       answer: {
         fr: 'Oui, sur une partie des modèles. Le Midea PortaSplit, le Midea Silent Cool 26 Pro WF et le De\'Longhi Pinguino PAC EL112 CST WiFi sont annoncés compatibles Alexa et Google Assistant ; le PortaSplit l\'est aussi avec Siri. Pour les autres, vérifiez la fiche du fabricant avant l\'achat.',
@@ -663,7 +663,7 @@ export const article: BlogArticle = {
         es: 'Sí, en parte de los modelos. El Midea PortaSplit, el Midea Silent Cool 26 Pro WF y el De\'Longhi Pinguino PAC EL112 CST WiFi se anuncian compatibles con Alexa y Google Assistant, y el PortaSplit también con Siri. En los demás, consulte la ficha del fabricante antes de comprar.',
         it: 'Sì, su una parte dei modelli. Midea PortaSplit, Midea Silent Cool 26 Pro WF e De\'Longhi Pinguino PAC EL112 CST WiFi sono dichiarati compatibili con Alexa e Google Assistant, il PortaSplit anche con Siri. Per gli altri, controllate la scheda del produttore prima dell\'acquisto.',
         nl: 'Ja, bij een deel van de modellen. De Midea PortaSplit, Midea Silent Cool 26 Pro WF en De\'Longhi Pinguino PAC EL112 CST WiFi worden opgegeven als compatibel met Alexa en Google Assistant, de PortaSplit ook met Siri. Kijk bij andere modellen vóór aankoop in de specificaties van de fabrikant.',
-        pl: 'Tak, w części modeli. Midea PortaSplit, Midea Silent Cool 26 Pro WF i De\'Longhi Pinguino PAC EL112 CST WiFi są deklarowane jako zgodne z Alexą i Google Assistant; PortaSplit także z Siri. W przypadku pozostałych sprawdź kartę producenta przed zakupem.',
+        pl: 'Tak, w przypadku części modeli. Według producentów Midea PortaSplit, Midea Silent Cool 26 Pro WF i De\'Longhi Pinguino PAC EL112 CST WiFi współpracują z Alexą i Asystentem Google, a PortaSplit także z Siri. W pozostałych modelach przed zakupem sprawdź specyfikację producenta.',
       },
     },
     {
@@ -683,7 +683,7 @@ export const article: BlogArticle = {
         es: 'El R290 (propano) tiene un impacto climático muy bajo, pero es inflamable. Los aparatos están diseñados y certificados para usarlo en pequeña cantidad en un circuito cerrado. Respete la superficie mínima y las distancias del manual, mantenga alejadas las llamas y no perfore nunca el circuito.',
         it: 'L\'R290 (propano) ha un impatto climatico molto basso, ma è infiammabile. Gli apparecchi sono progettati e certificati per usarlo in piccole quantità in un circuito chiuso. Rispettate la superficie minima e le distanze del manuale, tenete lontane le fiamme libere e non forate mai il circuito.',
         nl: 'R290 (propaan) heeft een zeer lage klimaatimpact, maar is brandbaar. De toestellen zijn ontworpen en gecertificeerd om het in kleine hoeveelheid in een gesloten circuit te gebruiken. Respecteer de minimale kamergrootte en afstanden uit de handleiding, houd open vuur uit de buurt en beschadig het circuit nooit.',
-        pl: 'R290 (propan) ma bardzo niski wpływ na klimat, ale jest łatwopalny. Urządzenia są zaprojektowane i certyfikowane do użycia go w niewielkiej ilości w obiegu zamkniętym. Przestrzegaj minimalnej powierzchni pomieszczenia i odległości podanych w instrukcji, trzymaj z dala od otwartego ognia i nigdy nie przebijaj obiegu.',
+        pl: 'R290 (propan) ma bardzo niewielki wpływ na klimat, ale jest łatwopalny. Urządzenia zaprojektowano i certyfikowano tak, by zawierały niewielką ilość tego czynnika w zamkniętym obiegu. Przestrzegaj minimalnej powierzchni pomieszczenia i odległości podanych w instrukcji, trzymaj urządzenie z dala od otwartego ognia i nigdy nie przebijaj obiegu.',
       },
     },
   ],

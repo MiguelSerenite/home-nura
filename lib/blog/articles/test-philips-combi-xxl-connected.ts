@@ -18,7 +18,7 @@ export const article: BlogArticle = {
         es: 'Pollo asado dorado sobre una tabla de madera, el tipo de plato que la sonda del Philips Combi XXL Connected ayuda a clavar',
         it: 'Pollo arrosto dorato su un tagliere di legno, il tipo di piatto che la sonda del Philips Combi XXL Connected aiuta a riuscire',
         nl: 'Goudbruine braadkip op een houten plank, het soort gerecht waarbij de sonde van de Philips Combi XXL Connected helpt',
-        pl: 'Złocisty pieczony kurczak na drewnianej desce, czyli potrawa, w której udaniu pomaga sonda Philips Combi XXL Connected',
+        pl: 'Złocisty pieczony kurczak na drewnianej desce – właśnie przy takich potrawach pomaga sonda frytkownicy Philips Combi XXL Connected',
       },
     },
   ],
@@ -29,7 +29,7 @@ export const article: BlogArticle = {
     es: 'Philips Airfryer Combi XXL Connected 8,3 L: opinión 2026',
     it: 'Philips Airfryer Combi XXL Connected 8,3 L: recensione 2026',
     nl: 'Philips Airfryer Combi XXL Connected 8,3 L: review 2026',
-    pl: 'Philips Airfryer Combi XXL Connected 8,3 L: opinia 2026',
+    pl: 'Philips Airfryer Combi XXL Connected 8,3 l: opinie 2026',
   },
   excerpt: {
     fr: 'Notre avis sur le Philips Airfryer Combi XXL Connected (HD9880/90) : sonde de température intégrée, technologie Rapid CombiAir, 22 fonctions et application HomeID. Points forts, limites, retours d’acheteurs et alternatives.',
@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: 'Nuestra opinión sobre la Philips Airfryer Combi XXL Connected (HD9880/90): sonda de temperatura integrada, tecnología Rapid CombiAir, 22 funciones y app HomeID. Puntos fuertes, límites, opiniones de compradores y alternativas.',
     it: 'La nostra recensione della Philips Airfryer Combi XXL Connected (HD9880/90): sonda di temperatura integrata, tecnologia Rapid CombiAir, 22 funzioni e app HomeID. Punti di forza, limiti, opinioni degli acquirenti e alternative.',
     nl: 'Onze review van de Philips Airfryer Combi XXL Connected (HD9880/90): ingebouwde temperatuursonde, Rapid CombiAir-technologie, 22 kookfuncties en de HomeID-app. Sterke punten, beperkingen, ervaringen van kopers en alternatieven.',
-    pl: 'Nasza opinia o Philips Airfryer Combi XXL Connected (HD9880/90): wbudowana sonda temperatury, technologia Rapid CombiAir, 22 funkcje i aplikacja HomeID. Mocne strony, ograniczenia, opinie kupujących i alternatywy.',
+    pl: 'Omówienie frytkownicy Philips Airfryer Combi XXL Connected (HD9880/90): wbudowana sonda temperatury, technologia Rapid CombiAir, 22 funkcje i aplikacja HomeID. Zalety, wady, opinie kupujących i alternatywy.',
   },
   content: {
     fr: `<p><strong>Le Philips Airfryer Combi XXL Connected (HD9880/90) est l’un des airfryers les plus complets du marché en 2026 : sa sonde de température intégrée arrête la cuisson des viandes au bon degré, et sa cuve de 8,3 L accueille jusqu’à 2 kg d’aliments.</strong> C’est un excellent choix pour qui cuisine souvent rôtis, volailles et poissons pour une famille ; ceux qui veulent surtout cuire deux plats différents en même temps seront mieux servis par un modèle double tiroir.</p>
@@ -658,108 +658,108 @@ export const article: BlogArticle = {
 <h2>Ons oordeel</h2>
 <p>De Philips Airfryer Combi XXL Connected is de verstandigste keuze als u vlees en vis precies goed gegaard wilt hebben zonder erbij te blijven staan: de ingebouwde sonde, de grote pan en de zachte garingsstanden maken er een zeer compleet apparaat van. De beperkingen zijn duidelijk: hij is zwaar, heeft één lade en de geavanceerde instellingen zitten in de app.</p>
 <p>Bereidt u vooral twee gerechten tegelijk, kies dan de Ninja Double Stack XL. Zoekt u een compacter slim model, bekijk dan de Cosori Dual Blaze. Al onze aanbevelingen vindt u in onze <a href="/nl/guides/airfryers">gids met de beste airfryers</a>.</p>`,
-    pl: `<p><strong>Philips Airfryer Combi XXL Connected (HD9880/90) to jedna z najbardziej kompletnych frytkownic beztłuszczowych na rynku w 2026 roku: wbudowana sonda temperatury kończy pieczenie mięsa przy właściwym stopniu wysmażenia, a komora o pojemności 8,3 L mieści do 2 kg produktów.</strong> To doskonały wybór dla tych, którzy często przygotowują pieczenie, drób i ryby dla rodziny; ci, którzy chcą przede wszystkim przygotowywać dwa różne dania jednocześnie, będą lepiej obsłużeni przez model z dwiema szufladami.</p>
-<p>Ta opinia opiera się na parametrach opublikowanych przez Philips, niezależnych analizach i opiniach zweryfikowanych kupujących. Nie przedstawiamy własnych pomiarów. Aby zobaczyć wszystkie modele, zajrzyj na naszą stronę <a href="/pl/cuisine-connectee/airfryers">frytkownic beztłuszczowych</a>.</p>
+    pl: `<p><strong>Philips Airfryer Combi XXL Connected (HD9880/90) to jedna z najlepiej wyposażonych frytkownic beztłuszczowych na rynku w 2026 roku: wbudowana sonda temperatury kończy pieczenie mięsa, gdy osiągnie ono właściwy stopień wysmażenia, a komora o pojemności 8,3 l mieści do 2 kg jedzenia.</strong> To doskonały wybór, jeśli często pieczesz dla rodziny mięso, drób i ryby. Jeśli jednak chcesz przede wszystkim przygotowywać jednocześnie dwa różne dania, lepiej sprawdzi się model z dwiema szufladami.</p>
+<p>To omówienie opiera się na parametrach podanych przez Philipsa, niezależnych analizach i opiniach zweryfikowanych kupujących. Nie przedstawiamy własnych pomiarów. Wszystkie modele znajdziesz w naszej kategorii <a href="/pl/cuisine-connectee/airfryers">frytkownice beztłuszczowe</a>.</p>
 
 <h2>Czym jest Philips Combi XXL Connected</h2>
-<p>Model należy do serii 7000 Philips, we Francji sprzedawany pod nazwą „Airfryer Combi Série 7000 XXL Connecté”. Słowo „Combi” oznacza technologię <strong>Rapid CombiAir</strong>: grzałkę połączoną z dynamicznym przepływem powietrza, który Philips przedstawia jako swój najszybszy system cyrkulacji. To nie kuchenka mikrofalowa ani piekarnik parowy: nie ma funkcji parowej. To bardzo wszechstronna frytkownica beztłuszczowa z jedną szufladą, która potrafi też piec, grillować, wypiekać ciasta, odgrzewać lub gotować powoli w niskiej temperaturze.</p>
-<p>Jej trzy cechy szczególne to <strong>sonda temperatury</strong> (termometr do żywności), <strong>połączenie Wi-Fi z aplikacją Philips HomeID</strong> (która zastąpiła dawną aplikację NutriU) oraz możliwość regulacji w aplikacji prędkości powietrza, oprócz czasu i temperatury.</p>
+<p>Ten model należy do serii 7000 Philipsa; we Francji jest sprzedawany pod nazwą „Airfryer Combi Série 7000 XXL Connecté”. Słowo „Combi” odnosi się do technologii <strong>Rapid CombiAir</strong>, czyli połączenia grzałki z dynamicznym obiegiem powietrza, które Philips przedstawia jako swój najszybszy system cyrkulacji. Nie jest to ani kuchenka mikrofalowa, ani piekarnik parowy – urządzenie nie ma funkcji gotowania na parze. To bardzo wszechstronna frytkownica beztłuszczowa z jedną szufladą, która potrafi też piec mięso, grillować, piec ciasta, odgrzewać i powoli przyrządzać potrawy w niskiej temperaturze.</p>
+<p>Wyróżniają ją trzy rzeczy: <strong>sonda temperatury</strong> (termometr do potraw), <strong>łączność Wi-Fi z aplikacją Philips HomeID</strong> (która zastąpiła wcześniejszą aplikację NutriU) oraz możliwość regulowania w aplikacji nie tylko czasu i temperatury, ale też prędkości nawiewu.</p>
 
 <h2>Dane techniczne</h2>
 <table>
 <thead><tr><th>Cecha</th><th>Szczegóły</th></tr></thead>
 <tbody>
 <tr><td>Oznaczenie</td><td>HD9880/90</td></tr>
-<tr><td>Pojemność komory</td><td>8,3 L, do około 2 kg produktów</td></tr>
-<tr><td>Moc</td><td>2 200 W</td></tr>
-<tr><td>Temperatury</td><td>od 40 °C do 200 °C</td></tr>
+<tr><td>Pojemność komory</td><td>8,3 l, do około 2 kg jedzenia</td></tr>
+<tr><td>Moc</td><td>2200 W</td></tr>
+<tr><td>Temperatura</td><td>od 40 do 200 °C</td></tr>
 <tr><td>Technologia</td><td>Rapid CombiAir</td></tr>
-<tr><td>Funkcje</td><td>22 sposoby gotowania według Philips, programy automatyczne</td></tr>
-<tr><td>Sonda</td><td>Wbudowany termometr do żywności</td></tr>
+<tr><td>Funkcje</td><td>22 sposoby przyrządzania potraw według Philipsa, programy automatyczne</td></tr>
+<tr><td>Sonda</td><td>Wbudowany termometr do potraw</td></tr>
 <tr><td>Łączność</td><td>Wi-Fi, aplikacja Philips HomeID</td></tr>
 <tr><td>Sterowanie</td><td>Cyfrowy ekran dotykowy i pokrętło</td></tr>
 <tr><td>Waga</td><td>około 9 kg</td></tr>
-<tr><td>Format</td><td>Jedna szuflada</td></tr>
+<tr><td>Konstrukcja</td><td>Jedna szuflada</td></tr>
 </tbody>
 </table>
-<p>Wymiary nieco się różnią w kartach sprzedawców: licz około 44 cm głębokości, 33–34 cm szerokości i 35 cm wysokości. Zostaw też miejsce nad urządzeniem i za nim na odprowadzenie gorącego powietrza.</p>
+<p>Wymiary podawane przez sprzedawców nieco się różnią: przyjmij około 44 cm głębokości, 33–34 cm szerokości i 35 cm wysokości. Zostaw też wolne miejsce nad urządzeniem i za nim, żeby gorące powietrze mogło swobodnie uchodzić.</p>
 
-<h2>Sonda temperatury: prawdziwy atut</h2>
-<p>Sonda zmienia sposób przygotowywania mięs. Wbijasz ją w środek kawałka, wybierasz pożądany stopień wysmażenia (od krwistego do dobrze wysmażonego), a urządzenie monitoruje temperaturę wewnętrzną w trakcie pieczenia. Nie musisz zgadywać potrzebnego czasu przy pieczeni, której waga czy grubość za każdym razem się różni.</p>
-<p>To także aspekt najczęściej chwalony przez kupujących: całe kurczaki, piersi z kaczki, polędwiczki wieprzowe czy porcje łososia wychodzą równomierniej wysmażone niż przy zwykłym minutniku. W przypadku drobiu celuj w co najmniej 74 °C wewnątrz, zgodnie z powszechnymi zaleceniami dotyczącymi bezpieczeństwa żywności, i umieść końcówkę w najgrubszej części, nie dotykając kości.</p>
-<p>Niewiele powszechnie dostępnych frytkownic beztłuszczowych ma sondę w zestawie. Ninja oferuje ją w niektórych wersjach swoich modeli i istnieją bezprzewodowe termometry sprzedawane osobno, ale w Philips sonda jest połączona bezpośrednio z programami gotowania i aplikacją.</p>
+<h2>Sonda temperatury: największy atut</h2>
+<p>Sonda zmienia sposób pieczenia mięsa. Wbijasz ją w środek kawałka, wybierasz stopień wysmażenia (od krwistego po dobrze wysmażony), a urządzenie przez cały czas pieczenia mierzy temperaturę w środku. Nie musisz już zgadywać, ile czasu potrzebuje pieczeń, której waga czy grubość za każdym razem jest inna.</p>
+<p>Tę funkcję kupujący chwalą najczęściej: całe kurczaki, piersi z kaczki, polędwiczki wieprzowe czy kawałki łososia wychodzą równiej upieczone niż przy zwykłym minutniku. Drób powinien osiągnąć w środku co najmniej 74 °C – tak podają powszechne zalecenia dotyczące bezpieczeństwa żywności. Końcówkę sondy umieść w najgrubszym miejscu, tak by nie dotykała kości.</p>
+<p>Niewiele frytkownic beztłuszczowych dla użytkowników domowych ma sondę w standardzie. Ninja oferuje ją w niektórych wersjach swoich modeli, są też bezprzewodowe termometry sprzedawane osobno, ale w modelu Philipsa sonda współpracuje bezpośrednio z programami i z aplikacją.</p>
 
-<h2>Rapid CombiAir, 22 funkcje i delikatne gotowanie</h2>
-<p>Philips deklaruje 22 sposoby gotowania: smażenie na gorącym powietrzu, pieczenie, grillowanie, zapiekanie, odgrzewanie, suszenie, a także powolne gotowanie. Dzięki regulacji prędkości powietrza dostępnej w aplikacji urządzenie może zejść do niskich temperatur (od 40 °C) przy łagodniejszym przepływie, co przydaje się do duszenia, pieczenia mięsa w niskiej temperaturze czy wyrastania ciasta.</p>
-<p>Jeśli chodzi o rezultaty, opinie kupujących opisują dobrze zrumienione frytki i warzywa oraz równomierne gotowanie dużych ilości dzięki szerokiemu dnu komory. Pamiętaj o jednym ograniczeniu: maksymalna temperatura wynosi 200 °C, podczas gdy niektórzy konkurenci sięgają 230 lub 240 °C. Do mocnego obsmażenia mięsa jest to nieco mniej wydajne.</p>
+<h2>Rapid CombiAir, 22 funkcje i gotowanie w niskiej temperaturze</h2>
+<p>Philips deklaruje 22 sposoby przyrządzania potraw: smażenie gorącym powietrzem, pieczenie, grillowanie, zapiekanie, odgrzewanie, suszenie i wolne gotowanie. Dzięki regulacji prędkości nawiewu, dostępnej w aplikacji, urządzenie może pracować w niskiej temperaturze (od 40 °C) przy łagodniejszym przepływie powietrza. Przydaje się to do duszenia, pieczenia mięsa w niskiej temperaturze czy wyrastania ciasta.</p>
+<p>Jeśli chodzi o efekty, kupujący opisują dobrze zrumienione frytki i warzywa oraz równe pieczenie dużych porcji dzięki szerokiemu dnu komory. Pamiętaj jednak o jednym ograniczeniu: maksymalna temperatura to 200 °C, podczas gdy niektóre konkurencyjne modele osiągają 230 lub 240 °C. Do bardzo mocnego obsmażenia mięsa ta frytkownica jest więc nieco słabsza.</p>
 
 <h2>Aplikacja HomeID na co dzień</h2>
-<p>Aplikacja Philips HomeID pozwala uruchamiać i śledzić gotowanie zdalnie, otrzymywać powiadomienie o zakończeniu, zapisywać ulubione programy i korzystać z przepisów krok po kroku, z których wiele jest zaprojektowanych z myślą o sondzie. Jest bezpłatna i nie wymaga abonamentu do tych podstawowych funkcji.</p>
-<p>Urządzenie można używać bez telefonu, za pomocą ekranu i pokrętła. Kilku kupujących zauważa jednak, że najdokładniejsze ustawienia, jak prędkość powietrza czy niektóre programy, wymagają aplikacji: jeśli nie chcesz używać smartfona w kuchni, część sensu tego modelu znika. Aby porównać z innymi modelami z łącznością, przeczytaj nasze <a href="/pl/blog/comparatif-airfryer-connecte-2026">porównanie frytkownic beztłuszczowych z Wi-Fi</a>.</p>
+<p>Aplikacja Philips HomeID pozwala zdalnie uruchomić i śledzić pieczenie, dostać powiadomienie o jego zakończeniu, zapisać ulubione programy i gotować według przepisów krok po kroku – wiele z nich przygotowano z myślą o sondzie. Jest bezpłatna, a z tych podstawowych funkcji można korzystać bez abonamentu.</p>
+<p>Z urządzenia można korzystać bez telefonu, za pomocą ekranu i pokrętła. Kilku kupujących zauważa jednak, że najdokładniejsze ustawienia, takie jak prędkość nawiewu czy niektóre programy, są dostępne tylko w aplikacji. Jeśli nie chcesz używać smartfona w kuchni, tracisz więc część zalet tego modelu. Aby porównać go z innymi modelami z aplikacją, przeczytaj nasze <a href="/pl/blog/comparatif-airfryer-connecte-2026">porównanie frytkownic beztłuszczowych z Wi-Fi</a>.</p>
 
-<h2>Mocne strony i ograniczenia</h2>
-<h3>Mocne strony</h3>
+<h2>Zalety i wady</h2>
+<h3>Zalety</h3>
 <ul>
-<li><strong>Wbudowana sonda temperatury</strong>: bardziej równomierne pieczenie mięs i ryb bez osobnego termometru.</li>
-<li><strong>Duża komora 8,3 L</strong>: do około 2 kg produktów, cały kurczak się w niej zmieści.</li>
-<li><strong>Wszechstronność</strong>: 22 funkcje, delikatne gotowanie i regulacja prędkości powietrza.</li>
+<li><strong>Wbudowana sonda temperatury</strong>: równiej upieczone mięso i ryby bez osobnego termometru.</li>
+<li><strong>Duża komora 8,3 l</strong>: mieści do około 2 kg jedzenia, w tym całego kurczaka.</li>
+<li><strong>Wszechstronność</strong>: 22 funkcje, gotowanie w niskiej temperaturze i regulacja prędkości nawiewu.</li>
 <li><strong>Aplikacja HomeID</strong>: zdalny podgląd, przepisy krok po kroku i zapisane programy.</li>
-<li><strong>Pielęgnacja</strong>: wyjmowane elementy mające kontakt z żywnością nadają się do zmywarki według producenta.</li>
+<li><strong>Łatwe czyszczenie</strong>: według producenta wyjmowane elementy, które mają kontakt z jedzeniem, można myć w zmywarce.</li>
 </ul>
-<h3>Ograniczenia</h3>
+<h3>Wady</h3>
 <ul>
-<li><strong>Duże i ciężkie</strong>: około 9 kg i znaczne zajęcie miejsca na blacie.</li>
-<li><strong>Jedna szuflada</strong>: nie da się jednocześnie przygotować dwóch dań w dwóch różnych temperaturach.</li>
-<li><strong>Maksymalnie 200 °C</strong>: nieco mniej niż u niektórych konkurentów do obsmażania.</li>
+<li><strong>Duża i ciężka</strong>: waży około 9 kg i zajmuje sporo miejsca na blacie.</li>
+<li><strong>Jedna szuflada</strong>: nie przygotujesz jednocześnie dwóch dań w dwóch różnych temperaturach.</li>
+<li><strong>Maksymalnie 200 °C</strong>: do obsmażania nieco mniej niż w niektórych konkurencyjnych modelach.</li>
 <li><strong>Zależność od aplikacji</strong> przy zaawansowanych ustawieniach.</li>
-<li><strong>Wysoka półka</strong>: uzasadniona głównie wtedy, gdy naprawdę korzystasz z sondy.</li>
+<li><strong>Model z wyższej półki</strong>: opłaca się głównie wtedy, gdy naprawdę korzystasz z sondy.</li>
 </ul>
 
-<h2>Na tle alternatyw</h2>
-<h3>Ninja Foodi MAX Double Stack XL (9,5 L)</h3>
-<p>Dwie szuflady po 4,75 L ułożone jedna nad drugą, regulowane osobno, z funkcją synchronizującą koniec gotowania. To najlepszy wybór, jeśli często przygotowujesz danie i dodatek jednocześnie. Osiąga wyższą temperaturę, ale nie ma aplikacji. Nasze <a href="/pl/blog/ninja-vs-philips-quel-choisir">porównanie Ninja i Philips</a> opisuje różnice między tymi dwiema markami.</p>
-<h3>Cosori Dual Blaze (6,4 L)</h3>
-<p>Grzałka u góry i u dołu, by zrumienić obie strony bez przewracania produktów, oraz aplikacja (VeSync) do sterowania gotowaniem. Bardziej kompaktowy i przystępny niż Philips, pasuje do par i małych rodzin, które chcą modelu z łącznością bez sondy.</p>
-<h3>Ninja Foodi FlexDrawer (10,4 L)</h3>
-<p>Bardzo duża szuflada, którą można podzielić na dwie strefy dzięki wyjmowanej przegrodzie. Idealna dla dużych rodzin i dużych kawałków mięsa, bez Wi-Fi.</p>
+<h2>Alternatywy</h2>
+<h3>Ninja Foodi MAX Double Stack XL (9,5 l)</h3>
+<p>Dwie szuflady po 4,75 l ustawione jedna nad drugą, każda z osobnymi ustawieniami, oraz funkcja, która sprawia, że obie kończą pracę w tym samym momencie. To najlepszy wybór, jeśli często przygotowujesz danie główne i dodatek jednocześnie. Nagrzewa się do wyższej temperatury, ale nie ma aplikacji. Różnice między obiema markami opisujemy w <a href="/pl/blog/ninja-vs-philips-quel-choisir">porównaniu Ninja vs Philips</a>.</p>
+<h3>Cosori Dual Blaze (6,4 l)</h3>
+<p>Grzałka u góry i druga na dole rumienią jedzenie z obu stron bez obracania, a aplikacja VeSync pozwala sterować pieczeniem. Ten model jest mniejszy i bardziej przystępny cenowo niż Philips. Sprawdzi się u par i w małych rodzinach, które chcą frytkownicy z aplikacją, a sonda nie jest im potrzebna.</p>
+<h3>Ninja Foodi FlexDrawer (10,4 l)</h3>
+<p>Bardzo duża szuflada, którą wyjmowana przegroda dzieli na dwie strefy. Idealna dla dużych rodzin i do dużych kawałków mięsa, ale bez Wi-Fi.</p>
 
 <table>
-<thead><tr><th>Model</th><th>Pojemność</th><th>Główny atut</th><th>Łączność</th><th>Idealny dla</th></tr></thead>
+<thead><tr><th>Model</th><th>Pojemność</th><th>Główny atut</th><th>Łączność</th><th>Dla kogo</th></tr></thead>
 <tbody>
-<tr><td>Philips Combi XXL Connected</td><td>8,3 L, jedna szuflada</td><td>Wbudowana sonda, delikatne gotowanie</td><td>Wi-Fi, HomeID</td><td>Miłośników pieczeni i mięs</td></tr>
-<tr><td>Ninja Double Stack XL</td><td>9,5 L, 2 szuflady</td><td>Dwa dania jednocześnie</td><td>Brak</td><td>Zabieganych rodzin</td></tr>
-<tr><td>Cosori Dual Blaze</td><td>6,4 L, jedna szuflada</td><td>Podwójna grzałka</td><td>Wi-Fi, VeSync</td><td>Par, małych rodzin</td></tr>
-<tr><td>Ninja FlexDrawer</td><td>10,4 L, podzielna szuflada</td><td>Bardzo duża, modułowa pojemność</td><td>Brak</td><td>Dużych rodzin</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>8,3 l, jedna szuflada</td><td>Wbudowana sonda, gotowanie w niskiej temperaturze</td><td>Wi-Fi, HomeID</td><td>Miłośnicy pieczeni i mięsa</td></tr>
+<tr><td>Ninja Double Stack XL</td><td>9,5 l, 2 szuflady</td><td>Dwa dania jednocześnie</td><td>Brak</td><td>Zabiegane rodziny</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>6,4 l, jedna szuflada</td><td>Dwie grzałki</td><td>Wi-Fi, VeSync</td><td>Pary, małe rodziny</td></tr>
+<tr><td>Ninja FlexDrawer</td><td>10,4 l, szuflada z przegrodą</td><td>Bardzo duża pojemność z możliwością podziału</td><td>Brak</td><td>Duże rodziny</td></tr>
 </tbody>
 </table>
 
-<h2>Dla kogo jest stworzony?</h2>
+<h2>Dla kogo?</h2>
 <ul>
-<li><strong>Miłośnicy pieczeni i drobiu</strong>, którzy w pełni skorzystają z sondy przy każdym gotowaniu.</li>
-<li><strong>Rodziny liczące od czterech do sześciu osób</strong>, które przygotowują danie główne w jednej partii.</li>
-<li><strong>Ci, którzy lubią gotować z podpowiedziami</strong> i śledzić gotowanie na telefonie z innego pomieszczenia.</li>
-<li><strong>Ci, którzy chcą częściowo zastąpić piekarnik</strong> przy małych i średnich ilościach.</li>
+<li><strong>Miłośnicy pieczeni i drobiu</strong>, którzy przy każdym pieczeniu w pełni wykorzystają sondę.</li>
+<li><strong>Rodziny 4–6-osobowe</strong>, które przygotowują danie główne w jednej partii.</li>
+<li><strong>Osoby, które lubią gotować z podpowiedziami</strong> i śledzić pieczenie na telefonie z innego pokoju.</li>
+<li><strong>Osoby, które chcą częściowo zastąpić piekarnik</strong> przy małych i średnich porcjach.</li>
 </ul>
-<p>Mniej nadaje się do małych kuchni, dla osób chcących bardzo prostego urządzenia bez aplikacji oraz dla tych, którzy niemal zawsze przygotowują dwa różne dania naraz.</p>
+<p>Gorzej sprawdzi się w małej kuchni, u osób, które chcą bardzo prostego urządzenia bez aplikacji, i u tych, którzy prawie zawsze przygotowują jednocześnie dwa różne dania.</p>
 
-<h2>Jak dobrze zacząć z Combi XXL Connected</h2>
-<p>Zacznij od zainstalowania aplikacji i połączenia urządzenia z Wi-Fi przed pierwszym gotowaniem: od razu zyskasz dostęp do programów z podpowiedziami. Na pierwszy raz wybierz prosty przepis z sondą, taki jak filet z kurczaka lub pieczeń wieprzowa, aby zobaczyć, jak urządzenie samo zarządza końcem gotowania. Nie napełniaj komory po brzegi, zostaw mięso na kilka minut do odpoczynku po wyjęciu i zapisz pasujące Ci ustawienia jako ulubione.</p>
+<h2>Pierwsze kroki z Combi XXL Connected</h2>
+<p>Zanim zaczniesz pierwsze pieczenie, zainstaluj aplikację i połącz urządzenie z Wi-Fi – od razu zyskasz dostęp do programów z podpowiedziami. Na początek wybierz prosty przepis z sondą, np. filet z kurczaka albo pieczeń wieprzową, żeby zobaczyć, jak urządzenie samo decyduje o końcu pieczenia. Nie napełniaj komory po brzegi, po wyjęciu daj mięsu odpocząć kilka minut i zapisz ustawienia, które Ci odpowiadają, jako ulubione.</p>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Kupowanie dla sondy bez gotowania mięsa</strong>: jeśli robisz głównie frytki i warzywa, wystarczy prostszy model.</li>
-<li><strong>Niedoszacowanie miejsca</strong>: zmierz blat i wysokość pod szafkami przed zamówieniem.</li>
-<li><strong>Przeładowanie komory</strong>: powyżej zalecanej ilości powietrze słabo krąży i cierpi na tym chrupkość.</li>
-<li><strong>Złe umieszczenie sondy</strong>: w środku najgrubszej części, nigdy przy kości ani w tłuszczu.</li>
-<li><strong>Lekceważenie Wi-Fi</strong>: sprawdź, czy Twoja sieć obejmuje kuchnię, aby korzystać ze zdalnego podglądu.</li>
+<li><strong>Kupowanie tego modelu dla sondy, gdy nie pieczesz mięsa</strong>: jeśli przygotowujesz głównie frytki i warzywa, wystarczy prostszy model.</li>
+<li><strong>Niedocenianie gabarytów</strong>: przed zamówieniem zmierz blat i wysokość pod szafkami.</li>
+<li><strong>Przeładowywanie komory</strong>: gdy przekroczysz zalecaną ilość, powietrze słabo krąży, a jedzenie traci chrupkość.</li>
+<li><strong>Złe umieszczanie sondy</strong>: zawsze w środku najgrubszej części, nigdy przy kości ani w tłuszczu.</li>
+<li><strong>Lekceważenie zasięgu Wi-Fi</strong>: sprawdź, czy sieć dobrze działa w kuchni, bo inaczej nie skorzystasz ze zdalnego podglądu.</li>
 </ul>
 
-<h2>Bezpieczeństwo i pielęgnacja</h2>
-<p>Jak każdą frytkownicę beztłuszczową o mocy 2 200 W, podłączaj ją bezpośrednio do gniazdka ściennego, bez listwy, i zostaw wolną przestrzeń wokół na wylot gorącego powietrza. Nie stawiaj jej pod niską szafką podczas pracy. Czyść komorę i ruszt po każdym użyciu, aby uniknąć gromadzenia się tłuszczu, a sondę przecieraj wilgotną szmatką, zgodnie z instrukcją. Wskazówki dotyczące właściwych nawyków znajdziesz w naszym <a href="/pl/blog/entretien-nettoyage-airfryer">poradniku pielęgnacji frytkownic beztłuszczowych</a>.</p>
+<h2>Bezpieczeństwo i konserwacja</h2>
+<p>Ta frytkownica ma moc 2200 W, więc – jak każde urządzenie tej mocy – podłączaj ją bezpośrednio do gniazdka ściennego, bez listwy, i zostaw wokół wolne miejsce na wylot gorącego powietrza. Podczas pracy nie stawiaj jej pod niską szafką. Po każdym użyciu myj komorę i ruszt, żeby nie gromadził się tłuszcz, a sondę przecieraj wilgotną ściereczką zgodnie z instrukcją. Więcej wskazówek znajdziesz w naszym <a href="/pl/blog/entretien-nettoyage-airfryer">poradniku czyszczenia i konserwacji frytkownic beztłuszczowych</a>.</p>
 
 <h2>Nasz werdykt</h2>
-<p>Philips Airfryer Combi XXL Connected to najtrafniejszy wybór dla tych, którzy chcą piec mięsa i ryby przy właściwym stopniu wysmażenia bez pilnowania gotowania: wbudowana sonda, duża komora i delikatne gotowanie czynią z niego bardzo kompletne urządzenie. Jego ograniczenia są jasne: jest ciężki, ma tylko jedną szufladę, a zaawansowane ustawienia wymagają aplikacji.</p>
-<p>Jeśli gotujesz głównie dwa dania naraz, wybierz raczej Ninja Double Stack XL. Jeśli szukasz bardziej kompaktowego modelu z łącznością, zobacz Cosori Dual Blaze. Wszystkie nasze rekomendacje znajdziesz w <a href="/pl/guides/airfryers">przewodniku po najlepszych frytkownicach beztłuszczowych</a>.</p>`,
+<p>Philips Airfryer Combi XXL Connected to najtrafniejszy wybór dla osób, które chcą piec mięso i ryby dokładnie do właściwego stopnia wysmażenia, bez pilnowania urządzenia. Wbudowana sonda, duża komora i programy do gotowania w niskiej temperaturze sprawiają, że to bardzo wszechstronny sprzęt. Jego ograniczenia są jasne: jest ciężki, ma tylko jedną szufladę, a zaawansowane ustawienia wymagają aplikacji.</p>
+<p>Jeśli najczęściej przygotowujesz dwa dania naraz, lepiej wybierz Ninja Double Stack XL. Jeśli szukasz mniejszego modelu z aplikacją, sprawdź Cosori Dual Blaze. Wszystkie polecane przez nas modele znajdziesz w <a href="/pl/guides/airfryers">przewodniku po najlepszych frytkownicach beztłuszczowych</a>.</p>`,
   },
   faq: [
     {
@@ -779,7 +779,7 @@ export const article: BlogArticle = {
         es: 'Sí. La HD9880/90 incluye un termómetro para alimentos integrado: lo clavas en el centro de la carne o el pescado, eliges el punto y el aparato vigila la temperatura interior. Es su principal ventaja frente a otras freidoras de aire.',
         it: 'Sì. La HD9880/90 ha un termometro per alimenti integrato: lo inserisci al centro della carne o del pesce, scegli la cottura e l’apparecchio controlla la temperatura interna. È il suo principale vantaggio rispetto ad altre friggitrici ad aria.',
         nl: 'Ja. De HD9880/90 heeft een ingebouwde voedselthermometer: u steekt hem in het midden van het vlees of de vis, kiest de garing en het apparaat bewaakt de kerntemperatuur. Dat is zijn grootste voordeel ten opzichte van andere airfryers.',
-        pl: 'Tak. HD9880/90 jest dostarczany z wbudowanym termometrem do żywności: wbijasz go w środek mięsa lub ryby, wybierasz pożądany stopień wysmażenia, a urządzenie monitoruje temperaturę wewnętrzną. To jego główny atut na tle innych frytkownic beztłuszczowych.',
+        pl: 'Tak. Model HD9880/90 ma w zestawie wbudowany termometr do potraw: wbijasz go w środek mięsa lub ryby, wybierasz stopień wysmażenia, a urządzenie na bieżąco mierzy temperaturę w środku. To jego największa przewaga nad innymi frytkownicami beztłuszczowymi.',
       },
     },
     {
@@ -790,7 +790,7 @@ export const article: BlogArticle = {
         es: '¿La Philips Combi XXL Connected funciona también como microondas o al vapor?',
         it: 'La Philips Combi XXL Connected funziona anche come microonde o a vapore?',
         nl: 'Werkt de Philips Combi XXL Connected ook als magnetron of stoomoven?',
-        pl: 'Czy Philips Combi XXL Connected działa też jako kuchenka mikrofalowa lub parowar?',
+        pl: 'Czy Philips Combi XXL Connected ma też funkcję mikrofali lub gotowania na parze?',
       },
       answer: {
         fr: 'Non. « Combi » désigne la technologie Rapid CombiAir (résistance et flux d’air dynamique), pas un combiné micro-ondes. Il n’a pas de fonction vapeur. Il rôtit, grille, cuit au four, réchauffe et cuit doucement à basse température.',
@@ -799,7 +799,7 @@ export const article: BlogArticle = {
         es: 'No. «Combi» se refiere a la tecnología Rapid CombiAir (resistencia y flujo de aire dinámico), no a un combinado con microondas. No tiene función de vapor. Asa, gratina, hornea, recalienta y cocina suavemente a baja temperatura.',
         it: 'No. «Combi» indica la tecnologia Rapid CombiAir (resistenza più flusso d’aria dinamico), non un combinato con microonde. Non ha funzione vapore. Arrostisce, griglia, cuoce al forno, riscalda e cucina delicatamente a bassa temperatura.',
         nl: 'Nee. „Combi” verwijst naar de Rapid CombiAir-technologie (verwarmingselement plus dynamische luchtstroom), niet naar een combimagnetron. Er is geen stoomfunctie. Hij braadt, grillt, bakt, warmt op en gaart zacht op lage temperatuur.',
-        pl: 'Nie. „Combi” oznacza technologię Rapid CombiAir (grzałka i dynamiczny przepływ powietrza), a nie połączenie z kuchenką mikrofalową. Nie ma funkcji parowej. Piecze, grilluje, zapieka, odgrzewa i gotuje powoli w niskiej temperaturze.',
+        pl: 'Nie. „Combi” odnosi się do technologii Rapid CombiAir (grzałka i dynamiczny obieg powietrza), a nie do połączenia z kuchenką mikrofalową. Urządzenie nie ma też funkcji gotowania na parze. Piecze mięso, grilluje, zapieka, odgrzewa i powoli przyrządza potrawy w niskiej temperaturze.',
       },
     },
     {
@@ -810,7 +810,7 @@ export const article: BlogArticle = {
         es: '¿Es obligatorio usar la app HomeID?',
         it: 'L’app HomeID è obbligatoria?',
         nl: 'Is de HomeID-app verplicht?',
-        pl: 'Czy aplikacja HomeID jest obowiązkowa?',
+        pl: 'Czy aplikacja HomeID jest niezbędna?',
       },
       answer: {
         fr: 'Non, l’appareil fonctionne avec son écran et sa molette. L’application gratuite Philips HomeID ajoute le suivi à distance, les notifications, les recettes guidées et certains réglages avancés comme la vitesse d’air.',
@@ -819,7 +819,7 @@ export const article: BlogArticle = {
         es: 'No, el aparato funciona con su pantalla y su rueda. La app gratuita Philips HomeID añade seguimiento a distancia, avisos, recetas guiadas y algunos ajustes avanzados como la velocidad del aire.',
         it: 'No, l’apparecchio funziona con display e manopola. L’app gratuita Philips HomeID aggiunge controllo a distanza, notifiche, ricette guidate e alcune regolazioni avanzate come la velocità dell’aria.',
         nl: 'Nee, het apparaat werkt met het display en de draaiknop. De gratis Philips HomeID-app voegt bewaking op afstand, meldingen, begeleide recepten en enkele geavanceerde instellingen zoals de luchtsnelheid toe.',
-        pl: 'Nie, urządzenie działa za pomocą ekranu i pokrętła. Bezpłatna aplikacja Philips HomeID dodaje zdalny podgląd, powiadomienia, przepisy krok po kroku i niektóre zaawansowane ustawienia, jak prędkość powietrza.',
+        pl: 'Nie, urządzenie można obsługiwać za pomocą ekranu i pokrętła. Bezpłatna aplikacja Philips HomeID daje dodatkowo zdalny podgląd, powiadomienia, przepisy krok po kroku i niektóre zaawansowane ustawienia, takie jak prędkość nawiewu.',
       },
     },
     {
@@ -830,7 +830,7 @@ export const article: BlogArticle = {
         es: '¿Cuánta comida cabe en la Philips Combi XXL Connected?',
         it: 'Quanto cibo entra nella Philips Combi XXL Connected?',
         nl: 'Hoeveel past er in de Philips Combi XXL Connected?',
-        pl: 'Jaką ilość można przygotować w Philips Combi XXL Connected?',
+        pl: 'Ile jedzenia mieści Philips Combi XXL Connected?',
       },
       answer: {
         fr: 'La cuve fait 8,3 L et Philips annonce jusqu’à environ 2 kg d’aliments, assez pour un poulet entier ou un repas familial. Il n’y a qu’un seul tiroir : pour cuire deux plats à des températures différentes, un modèle double tiroir est plus adapté.',
@@ -839,7 +839,7 @@ export const article: BlogArticle = {
         es: 'La cubeta tiene 8,3 L y Philips indica hasta unos 2 kg de alimentos, suficiente para un pollo entero o una comida familiar. Solo tiene un cajón: para cocinar dos platos a temperaturas distintas conviene un modelo de doble cajón.',
         it: 'Il cestello è da 8,3 L e Philips indica fino a circa 2 kg di alimenti, abbastanza per un pollo intero o un pasto in famiglia. C’è un solo cassetto: per cuocere due piatti a temperature diverse è più adatto un modello a doppio cassetto.',
         nl: 'De pan heeft een inhoud van 8,3 L en Philips noemt tot ongeveer 2 kg voedsel, genoeg voor een hele kip of een gezinsmaaltijd. Er is maar één lade: voor twee gerechten op verschillende temperaturen is een model met twee lades geschikter.',
-        pl: 'Komora ma 8,3 L, a Philips deklaruje do około 2 kg produktów, co wystarcza na całego kurczaka lub rodzinny posiłek. Jest tylko jedna szuflada: do przygotowania dwóch dań w różnych temperaturach lepiej nadaje się model z dwiema szufladami.',
+        pl: 'Komora ma 8,3 l, a Philips podaje, że mieści do około 2 kg jedzenia – to wystarczy na całego kurczaka albo rodzinny posiłek. Urządzenie ma jednak tylko jedną szufladę, więc jeśli chcesz przygotowywać dwa dania w różnych temperaturach, lepiej wybierz model z dwiema szufladami.',
       },
     },
     {
@@ -859,7 +859,7 @@ export const article: BlogArticle = {
         es: 'Elige la Philips si cocinas sobre todo carne y pescado y quieres la sonda y la app. Opta por la Ninja Double Stack XL si preparas a menudo dos platos a la vez: sus dos cajones independientes son más prácticos a diario.',
         it: 'Scegli la Philips se cucini soprattutto carne e pesce e vuoi sonda e app. Prendi la Ninja Double Stack XL se prepari spesso due piatti insieme: i suoi due cassetti indipendenti sono più pratici nel quotidiano.',
         nl: 'Kies de Philips als u vooral vlees en vis bereidt en de sonde en de app wilt. Neem de Ninja Double Stack XL als u vaak twee gerechten tegelijk maakt: de twee onafhankelijke lades zijn in het dagelijks gebruik praktischer.',
-        pl: 'Wybierz Philips, jeśli gotujesz głównie mięsa i ryby i chcesz mieć sondę oraz aplikację. Weź Ninja Double Stack XL, jeśli często przygotowujesz dwa dania naraz: jego dwie niezależne szuflady są na co dzień wygodniejsze.',
+        pl: 'Wybierz Philipsa, jeśli pieczesz głównie mięso i ryby i zależy Ci na sondzie oraz aplikacji. Postaw na Ninja Double Stack XL, jeśli często przygotowujesz dwa dania naraz: dwie niezależne szuflady są na co dzień wygodniejsze.',
       },
     },
     {
@@ -870,7 +870,7 @@ export const article: BlogArticle = {
         es: '¿Las piezas de la Philips Combi XXL Connected van al lavavajillas?',
         it: 'I componenti della Philips Combi XXL Connected vanno in lavastoviglie?',
         nl: 'Mogen de onderdelen van de Philips Combi XXL Connected in de vaatwasser?',
-        pl: 'Czy elementy Philips Combi XXL Connected można myć w zmywarce?',
+        pl: 'Czy części frytkownicy Philips Combi XXL Connected można myć w zmywarce?',
       },
       answer: {
         fr: 'Selon Philips, les parties amovibles en contact avec les aliments passent au lave-vaisselle. La sonde se nettoie à la main avec un chiffon humide, et le corps de l’appareil ne doit jamais être immergé.',
@@ -879,7 +879,7 @@ export const article: BlogArticle = {
         es: 'Según Philips, las piezas extraíbles en contacto con los alimentos van al lavavajillas. La sonda se limpia a mano con un paño húmedo y el cuerpo del aparato nunca debe sumergirse.',
         it: 'Secondo Philips, le parti rimovibili a contatto con il cibo vanno in lavastoviglie. La sonda si pulisce a mano con un panno umido e il corpo dell’apparecchio non va mai immerso.',
         nl: 'Volgens Philips mogen de uitneembare onderdelen die met voedsel in contact komen in de vaatwasser. De sonde maakt u met de hand schoon met een vochtige doek, en het apparaat zelf mag nooit worden ondergedompeld.',
-        pl: 'Według Philips wyjmowane części mające kontakt z żywnością nadają się do zmywarki. Sondę czyści się ręcznie wilgotną szmatką, a korpusu urządzenia nigdy nie wolno zanurzać.',
+        pl: 'Według Philipsa wyjmowane elementy, które mają kontakt z jedzeniem, można myć w zmywarce. Sondę czyści się ręcznie wilgotną ściereczką, a obudowy urządzenia nigdy nie wolno zanurzać w wodzie.',
       },
     },
   ],

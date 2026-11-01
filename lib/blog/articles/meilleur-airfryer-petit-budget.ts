@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: 'Moulinex Easy Fry Max, Xiaomi Smart Air Fryer Pro, Cosori Lite, Philips Serie 2000 y Ninja AF100EU: qué freidora de aire de gama de entrada elegir en 2026 y qué ganas y qué sacrificas con un presupuesto ajustado.',
     it: 'Moulinex Easy Fry Max, Xiaomi Smart Air Fryer Pro, Cosori Lite, Philips Serie 2000 e Ninja AF100EU: quale friggitrice ad aria entry-level scegliere nel 2026, cosa si ottiene e a cosa si rinuncia con un budget ridotto.',
     nl: 'Moulinex Easy Fry Max, Xiaomi Smart Air Fryer Pro, Cosori Lite, Philips 2000-serie en Ninja AF100EU: welke instap-airfryer je in 2026 kiest, en wat je wint en opgeeft met een krap budget.',
-    pl: 'Moulinex Easy Fry Max, Xiaomi Smart Air Fryer Pro, Cosori Lite, Philips Seria 2000 i Ninja AF100EU: którą budżetową frytkownicę beztłuszczową wybrać w 2026 roku, co zyskujesz, a z czego rezygnujesz przy ograniczonym budżecie.',
+    pl: 'Moulinex Easy Fry Max, Xiaomi Smart Air Fryer Pro, Cosori Lite, Philips Seria 2000 i Ninja AF100EU: którą frytkownicę beztłuszczową z niższej półki wybrać w 2026 roku, co zyskujesz, a z czego musisz zrezygnować, gdy liczy się każda złotówka.',
   },
   content: {
     fr: `<p><strong>Le meilleur airfryer pas cher en 2026 pour la plupart des foyers est le Moulinex Easy Fry Max 5L</strong> : un panier de 5 litres, 10 programmes et un écran tactile, dans la gamme la plus accessible du marché. Si vous voulez un modèle connecté sans monter en gamme, le Xiaomi Smart Air Fryer Pro 4L est le plus complet, et pour une ou deux personnes dans une petite cuisine, le Cosori Lite 3.8L fait l’essentiel en prenant peu de place.</p>
@@ -569,94 +569,94 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Onthoud je er maar één, kies dan de <strong>Moulinex Easy Fry Max 5L</strong>: de veelzijdigste instap-airfryer, met genoeg inhoud voor een gezin. De <strong>Xiaomi Smart Air Fryer Pro 4L</strong> is de beste keuze als je een venster en een app wilt en toch in de budgetklasse blijft. En voor één of twee personen biedt de <strong>Cosori Lite 3.8L</strong> het belangrijkste in een compact formaat. De Philips 2000-serie en de Ninja AF100EU blijven degelijke alternatieven als je de voorkeur geeft aan een bekend merk en eenvoudige bediening.</p>`,
-    pl: `<p><strong>Najlepszą tanią frytkownicą beztłuszczową 2026 roku dla większości domów jest Moulinex Easy Fry Max 5L</strong>: kosz o pojemności 5 litrów, 10 programów i ekran dotykowy w jednym z najbardziej przystępnych przedziałów cenowych na rynku. Jeśli chcesz model inteligentny bez przechodzenia do wyższej półki, najpełniejszy jest Xiaomi Smart Air Fryer Pro 4L, a dla jednej lub dwóch osób w małej kuchni Cosori Lite 3.8L załatwia to, co najważniejsze, i zajmuje mało miejsca.</p>
-<p>Ten poradnik porównuje modele obecnie sprzedawane w Europie na podstawie kart technicznych producentów, opublikowanych niezależnych testów i opinii zweryfikowanych kupujących. Nie podajemy cen: zmieniają się co tydzień. Mówimy raczej o przedziałach: od niższej półki do przystępnej średniej półki. Cały wybór znajdziesz na naszej stronie <a href="/pl/cuisine-connectee/airfryers">frytkownice beztłuszczowe</a>.</p>
+    pl: `<p><strong>Dla większości gospodarstw domowych najlepszą tanią frytkownicą beztłuszczową w 2026 roku jest Moulinex Easy Fry Max 5L</strong>: ma kosz o pojemności 5 litrów, 10 programów i ekran dotykowy, a należy do najtańszego segmentu rynku. Jeśli zależy Ci na frytkownicy z aplikacją, ale nie chcesz dopłacać do wyższej półki, najlepiej wyposażony jest Xiaomi Smart Air Fryer Pro 4L. Dla jednej lub dwóch osób z małą kuchnią wystarczy Cosori Lite 3.8L: ma wszystko, co potrzebne, i zajmuje niewiele miejsca.</p>
+<p>W tym poradniku porównujemy modele, które są obecnie w sprzedaży w Europie, na podstawie kart katalogowych producentów, opublikowanych niezależnych testów i opinii zweryfikowanych kupujących. Nie podajemy cen, bo zmieniają się co tydzień. Zamiast tego mówimy o segmentach cenowych: od najtańszych modeli po przystępną średnią półkę. Wszystkie polecane modele znajdziesz na naszej stronie <a href="/pl/cuisine-connectee/airfryers">frytkownice beztłuszczowe</a>.</p>
 
 <h2>Co oznacza „mały budżet” w przypadku frytkownicy beztłuszczowej?</h2>
-<p>Rynek dzieli się na trzy poziomy. Na samym dole są frytkownice beztłuszczowe <strong>z niższej półki</strong>: jedna szuflada o pojemności 3,5–5 litrów, moc około 1500 W i proste przyciski. Pośrodku modele <strong>ze średniej półki</strong> dodają dużą pojemność, okienko lub łączność. Na górze są <strong>podwójne szuflady</strong>, urządzenia łączone i duże formaty 8–10 litrów.</p>
-<p>Dobra wiadomość: do codziennego gotowania (frytki, kurczak, pieczone warzywa, odgrzewanie) dobrze zaprojektowana frytkownica z niższej półki smaży bardzo poprawnie. Drogie modele wyróżniają się głównie pojemnością, wygodą użytkowania i funkcjami dodatkowymi, a nie zasadą smażenia, która pozostaje ta sama: grzałka i wentylator wprawiają w ruch gorące powietrze.</p>
+<p>Rynek dzieli się na trzy segmenty. Na samym dole są frytkownice <strong>z niższej półki</strong>: jedna szuflada o pojemności 3,5–5 litrów, moc ok. 1500 W i prosta obsługa. Modele <strong>ze średniej półki</strong> mają dodatkowo większą pojemność, okienko albo sterowanie z aplikacji. Na górze są frytkownice z <strong>dwiema szufladami</strong>, urządzenia wielofunkcyjne i duże modele o pojemności 8–10 litrów.</p>
+<p>Dobra wiadomość: w codziennym użyciu (frytki, kurczak, pieczone warzywa, odgrzewanie) dobrze zaprojektowana tania frytkownica radzi sobie bardzo przyzwoicie. Droższe modele różnią się od niej głównie pojemnością, wygodą obsługi i dodatkowymi funkcjami, a nie samą zasadą działania. Ta jest zawsze taka sama: grzałka i wentylator, który rozprowadza gorące powietrze.</p>
 
 <h2>Kryteria, które naprawdę się liczą przy małym budżecie</h2>
 <ul>
-<li><strong>Użyteczna pojemność</strong>: licz około 3,5–4 litrów dla jednej lub dwóch osób i 5 litrów dla trzech lub czterech. Zbyt mały kosz zmusza do smażenia w kilku partiach.</li>
-<li><strong>Kształt kosza</strong>: kwadratowy kosz daje większą powierzchnię dna niż okrągły o tej samej pojemności. A to właśnie powierzchnia decyduje o tym, czy jedzenie się nie piętrzy.</li>
-<li><strong>Zakres temperatur</strong>: większość modeli sięga 200 °C. Niektóre idą wyżej, inne schodzą dość nisko, by dehydratować.</li>
-<li><strong>Obsługa</strong>: ekran dotykowy lub przyciski, gotowe programy, minutnik do 60 minut. Proste przyciski rzadziej się psują i od razu wiadomo, jak z nich korzystać.</li>
-<li><strong>Czyszczenie</strong>: sprawdź, czy kosz i szuflada nadają się do zmywarki oraz czy powłoka nieprzywierająca ma dobrą opinię wśród kupujących.</li>
-<li><strong>Gabaryty</strong>: zmierz miejsce pod wiszącymi szafkami. Frytkownica beztłuszczowa potrzebuje wolnej przestrzeni wokół siebie, by odprowadzać gorące powietrze.</li>
-<li><strong>Marka i serwis</strong>: w niższej półce producent sprzedający części zamienne (kosz, kratkę) wyraźnie wydłuża życie urządzenia.</li>
+<li><strong>Pojemność użytkowa</strong>: na jedną lub dwie osoby wystarczy ok. 3,5–4 litrów, na trzy lub cztery – 5 litrów. Za mały kosz zmusza do smażenia w kilku partiach.</li>
+<li><strong>Kształt kosza</strong>: kwadratowy kosz ma większą powierzchnię dna niż okrągły o tej samej pojemności. A to właśnie od powierzchni zależy, czy produkty nie będą leżeć jeden na drugim.</li>
+<li><strong>Zakres temperatur</strong>: większość modeli nagrzewa się do 200 °C. Niektóre modele osiągają wyższą temperaturę, a inne pozwalają zejść na tyle nisko, że można w nich suszyć żywność.</li>
+<li><strong>Obsługa</strong>: ekran dotykowy lub przyciski, gotowe programy, minutnik do 60 minut. Prosty panel rzadziej się psuje, a jego obsługę opanujesz od razu.</li>
+<li><strong>Czyszczenie</strong>: sprawdź, czy kosz i szuflada nadają się do zmywarki i czy powłoka nieprzywierająca dobrze wypada w opiniach kupujących.</li>
+<li><strong>Gabaryty</strong>: zmierz, ile miejsca masz pod wiszącymi szafkami. Frytkownica potrzebuje wolnej przestrzeni wokół siebie, żeby mogła odprowadzać gorące powietrze.</li>
+<li><strong>Marka i serwis</strong>: wśród tanich modeli wybierz producenta, który sprzedaje części zamienne (kosz, kratkę) – dzięki temu urządzenie posłuży znacznie dłużej.</li>
 </ul>
 
-<h2>5 najlepszych tanich frytkownic beztłuszczowych 2026</h2>
+<h2>5 najlepszych tanich frytkownic beztłuszczowych w 2026 roku</h2>
 
-<h3>1. Moulinex Easy Fry Max 5L – najlepszy wybór ogólny</h3>
-<p>Moulinex Easy Fry Max ma największy kosz w tym zestawieniu: 5 litrów, deklarowane do rodzinnego posiłku do sześciu porcji. Ma moc 1550 W, 10 programów automatycznych, ekran dotykowy i temperaturę regulowaną od 70 do 200 °C, z minutnikiem do 60 minut. Kosz i szuflada nadają się do zmywarki.</p>
-<p><strong>Mocne strony</strong>: najbardziej hojna pojemność w niższej półce, liczne i czytelne programy, marka dobrze znana w Europie z siecią napraw.</p>
-<p><strong>Ograniczenia</strong>: brak okienka i łączności, dość głęboki format na blacie.</p>
-<p><strong>Dla kogo?</strong> Dla rodzin trzy- lub czteroosobowych, które chcą jednego prostego urządzenia na co dzień. Aby dowiedzieć się więcej, przeczytaj naszą <a href="/pl/blog/test-moulinex-easy-fry-max">szczegółową analizę Moulinex Easy Fry Max</a>.</p>
+<h3>1. Moulinex Easy Fry Max 5L – najlepszy wybór dla większości</h3>
+<p>Moulinex Easy Fry Max ma największy kosz w tym zestawieniu: 5 litrów, które według producenta wystarczą na rodzinny posiłek do sześciu porcji. Moc wynosi 1550 W, a do dyspozycji jest 10 programów automatycznych, ekran dotykowy, regulacja temperatury w zakresie 70–200 °C i minutnik do 60 minut. Kosz i szuflada nadają się do zmywarki.</p>
+<p><strong>Mocne strony</strong>: największa pojemność wśród tanich modeli, dużo programów z czytelnymi oznaczeniami, marka z mocną pozycją w Europie i siecią punktów serwisowych.</p>
+<p><strong>Ograniczenia</strong>: brak okienka i łączności, dość duża głębokość obudowy.</p>
+<p><strong>Dla kogo?</strong> Dla rodzin trzy- lub czteroosobowych, które szukają jednego prostego urządzenia do codziennego użytku. Więcej informacji znajdziesz w naszym <a href="/pl/blog/test-moulinex-easy-fry-max">szczegółowym omówieniu modelu Moulinex Easy Fry Max</a>.</p>
 
-<h3>2. Xiaomi Smart Air Fryer Pro 4L – najpełniejszy wśród inteligentnych</h3>
-<p>Xiaomi Smart Air Fryer Pro 4L łączy funkcje, które zwykle spotyka się wyżej: dotykowy ekran OLED, okienko kontrolne, 11 gotowych trybów i sterowanie z aplikacji Xiaomi Home z ponad 100 przepisami. Ma 1600 W i zakres od 40 do 200 °C, wystarczająco niski do dehydratacji, rozmrażania, a nawet robienia jogurtu.</p>
-<p><strong>Mocne strony</strong>: okienko do obserwowania smażenia bez otwierania, aplikacja, wszechstronność trybów niskotemperaturowych.</p>
-<p><strong>Ograniczenia</strong>: 4 litry wystarczą dla dwóch lub trzech osób, nie więcej; aplikacja wymaga konta Xiaomi, a niektóre funkcje tracą sens, jeśli z niej nie korzystasz.</p>
-<p><strong>Dla kogo?</strong> Dla par lub małych gospodarstw, które lubią sterować kuchnią z telefonu. Zobacz też naszą <a href="/pl/blog/test-xiaomi-smart-air-fryer-pro">analizę Xiaomi Smart Air Fryer Pro</a>.</p>
+<h3>2. Xiaomi Smart Air Fryer Pro 4L – najlepiej wyposażony model z aplikacją</h3>
+<p>Xiaomi Smart Air Fryer Pro 4L oferuje funkcje, które zwykle spotyka się dopiero w droższych modelach: dotykowy ekran OLED, okienko podglądu, 11 gotowych trybów i sterowanie z aplikacji Xiaomi Home z ponad 100 przepisami. Moc wynosi 1600 W, a temperaturę można ustawić w zakresie 40–200 °C, czyli na tyle nisko, że frytkownica nadaje się też do suszenia, rozmrażania, a nawet przygotowania jogurtu.</p>
+<p><strong>Mocne strony</strong>: okienko, przez które widać potrawę bez wysuwania kosza, aplikacja, wszechstronne tryby niskotemperaturowe.</p>
+<p><strong>Ograniczenia</strong>: 4 litry wystarczą dla dwóch lub trzech osób, nie więcej; aplikacja wymaga konta Xiaomi, a jeśli z niej nie korzystasz, część funkcji traci sens.</p>
+<p><strong>Dla kogo?</strong> Dla par i małych gospodarstw domowych, które lubią sterować urządzeniami kuchennymi ze smartfona. Zobacz też nasze <a href="/pl/blog/test-xiaomi-smart-air-fryer-pro">omówienie modelu Xiaomi Smart Air Fryer Pro</a>.</p>
 
-<h3>3. Cosori Lite 3.8L – kompakt dla jednej lub dwóch osób</h3>
-<p>Cosori Lite 3.8L (numer referencyjny CAF-LI401S) to mała, kwadratowa frytkownica beztłuszczowa o mocy 1500 W, z 7 funkcjami i zakresem od 75 do 230 °C. Można ją także obsługiwać z aplikacji VeSync, a działa z Amazon Alexa i Asystentem Google. Kwadratowy kosz i kratkę można myć w zmywarce.</p>
-<p><strong>Mocne strony</strong>: małe gabaryty, kwadratowy kosz dobrze wykorzystujący pojemność, wyższa niż przeciętna temperatura maksymalna, sterowanie głosowe.</p>
-<p><strong>Ograniczenia</strong>: 3,8 litra to mało powyżej dwóch osób; brak okienka.</p>
-<p><strong>Dla kogo?</strong> Dla osób mieszkających samotnie, par, kawalerek i studentów, którzy chcą dyskretnego urządzenia.</p>
+<h3>3. Cosori Lite 3.8L – kompaktowy model dla jednej lub dwóch osób</h3>
+<p>Cosori Lite 3.8L (model CAF-LI401S) to mała, kwadratowa frytkownica o mocy 1500 W, z 7 funkcjami i zakresem temperatur 75–230 °C. Można nią sterować z aplikacji VeSync, współpracuje też z Amazon Alexą i Asystentem Google. Kwadratowy kosz i kratkę można myć w zmywarce.</p>
+<p><strong>Mocne strony</strong>: niewielkie gabaryty, kwadratowy kosz, który dobrze wykorzystuje swoją pojemność, wyższa niż przeciętnie temperatura maksymalna, sterowanie głosowe.</p>
+<p><strong>Ograniczenia</strong>: przy więcej niż dwóch osobach 3,8 litra to już niewiele; brak okienka.</p>
+<p><strong>Dla kogo?</strong> Dla singli, par, studentów i mieszkańców kawalerek, którzy chcą mieć w kuchni małe, nierzucające się w oczy urządzenie.</p>
 
-<h3>4. Philips Airfryer Seria 2000 4,2 L (NA221/00) – pewniak dla początkujących</h3>
-<p>Model z niższej półki Philips ma kosz 4,2 litra, 1500 W i kilka gotowych programów, a kosz i szuflada nadają się do zmywarki. Philips był jednym z pierwszych producentów frytkownic beztłuszczowych dla szerokiego rynku, a jego technologia cyrkulacji powietrza RapidAir stosowana jest także w tym modelu.</p>
-<p><strong>Mocne strony</strong>: bardzo prosta obsługa, konstrukcja uchodząca wśród kupujących za solidną, rozbudowana w Europie sieć części i serwisu.</p>
-<p><strong>Ograniczenia</strong>: brak łączności, mniej programów niż w Moulinex i średnia pojemność.</p>
-<p><strong>Dla kogo?</strong> Dla tych, którzy kupują pierwszą frytkownicę beztłuszczową i chcą przede wszystkim prostego, trwałego urządzenia.</p>
+<h3>4. Philips Airfryer Seria 2000 4,2 l (NA221/00) – pewny wybór dla początkujących</h3>
+<p>Podstawowa seria frytkownic Philipsa oferuje kosz o pojemności 4,2 litra, moc 1500 W i kilka gotowych programów; kosz i szuflada nadają się do zmywarki. Philips jako jeden z pierwszych zaczął produkować frytkownice beztłuszczowe na masowy rynek, a firmowa technologia cyrkulacji powietrza RapidAir trafiła także do tego modelu.</p>
+<p><strong>Mocne strony</strong>: bardzo prosta obsługa, solidna konstrukcja (tak oceniają ją kupujący), łatwo dostępne części i rozbudowana sieć serwisowa w Europie.</p>
+<p><strong>Ograniczenia</strong>: brak łączności, mniej programów niż w modelu Moulinex, średnia pojemność.</p>
+<p><strong>Dla kogo?</strong> Dla osób, które kupują swoją pierwszą frytkownicę beztłuszczową i chcą przede wszystkim prostego, trwałego urządzenia.</p>
 
-<h3>5. Ninja Air Fryer AF100EU 3,8 L – sprawdzona klasyka</h3>
-<p>Ninja AF100EU to model, który pojawił się kilka lat temu i nadal jest sprzedawany, przez co należy do najczęściej komentowanych przez kupujących frytkownic beztłuszczowych. Ma 3,8 litra, 1500 W, temperaturę do 210 °C i cztery funkcje: air fry, pieczenie, odgrzewanie i dehydratację. Komora z powłoką nieprzywierającą i kratka nadają się do zmywarki.</p>
-<p><strong>Mocne strony</strong>: dobrze dobrane funkcje, szybkie nagrzewanie według opinii użytkowników, bogata baza przepisów Ninja.</p>
-<p><strong>Ograniczenia</strong>: jeden program na funkcję, brak ekranu dotykowego i łączności, pojemność dla dwóch–trzech osób.</p>
-<p><strong>Dla kogo?</strong> Dla tych, którzy chcą prostego urządzenia znanej marki, bez gadżetów.</p>
+<h3>5. Ninja Air Fryer AF100EU 3,8 l – sprawdzony klasyk</h3>
+<p>Ninja AF100EU jest na rynku od kilku lat i wciąż można go kupić, dlatego należy do frytkownic, o których kupujący wypowiadają się najczęściej. Ma pojemność 3,8 litra, moc 1500 W, temperaturę do 210 °C i cztery funkcje: smażenie gorącym powietrzem (Air Fry), pieczenie, odgrzewanie i suszenie. Kosz z powłoką nieprzywierającą i kratkę można myć w zmywarce.</p>
+<p><strong>Mocne strony</strong>: dobrze dobrane funkcje, szybkie nagrzewanie (według opinii użytkowników), bogata baza przepisów Ninja.</p>
+<p><strong>Ograniczenia</strong>: jeden program na funkcję, brak ekranu dotykowego i łączności, pojemność wystarczająca dla dwóch, trzech osób.</p>
+<p><strong>Dla kogo?</strong> Dla osób, które chcą prostego urządzenia znanej marki, bez zbędnych gadżetów.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Pojemność</th><th>Moc</th><th>Obsługa i łączność</th><th>Idealny do</th></tr>
+<tr><th>Model</th><th>Pojemność</th><th>Moc</th><th>Obsługa i łączność</th><th>Dla kogo</th></tr>
 </thead>
 <tbody>
-<tr><td>Moulinex Easy Fry Max 5L</td><td>5 L</td><td>1550 W</td><td>Ekran dotykowy, 10 programów</td><td>Rodzin 3–4-osobowych</td></tr>
-<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 L</td><td>1600 W</td><td>OLED, okienko, aplikacja</td><td>Małych inteligentnych gospodarstw</td></tr>
-<tr><td>Cosori Lite 3.8L</td><td>3,8 L</td><td>1500 W</td><td>7 funkcji, aplikacja, Alexa i Google</td><td>1–2 osób, małych kuchni</td></tr>
-<tr><td>Philips Seria 2000 4,2 L</td><td>4,2 L</td><td>1500 W</td><td>Przyciski, gotowe programy</td><td>Pierwszej frytkownicy beztłuszczowej</td></tr>
-<tr><td>Ninja AF100EU</td><td>3,8 L</td><td>1500 W</td><td>4 funkcje, przyciski</td><td>Prostego codziennego użytku</td></tr>
+<tr><td>Moulinex Easy Fry Max 5L</td><td>5 l</td><td>1550 W</td><td>Ekran dotykowy, 10 programów</td><td>Rodziny 3–4-osobowe</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 l</td><td>1600 W</td><td>OLED, okienko, aplikacja</td><td>Małe gospodarstwa, które lubią aplikacje</td></tr>
+<tr><td>Cosori Lite 3.8L</td><td>3,8 l</td><td>1500 W</td><td>7 funkcji, aplikacja, Alexa i Asystent Google</td><td>1–2 osoby, małe kuchnie</td></tr>
+<tr><td>Philips Seria 2000 4,2 l</td><td>4,2 l</td><td>1500 W</td><td>Przyciski, gotowe programy</td><td>Osoby kupujące pierwszą frytkownicę</td></tr>
+<tr><td>Ninja AF100EU</td><td>3,8 l</td><td>1500 W</td><td>4 funkcje, przyciski</td><td>Osoby ceniące prostą obsługę na co dzień</td></tr>
 </tbody>
 </table>
 
-<h2>Co zyskujesz, a z czego rezygnujesz w niższej półce</h2>
-<p><strong>Zachowujesz to, co najważniejsze</strong>: chrupiące smażenie przy małej ilości tłuszczu lub bez niego, programy do popularnych produktów, kosz łatwy do umycia oraz czasy smażenia często krótsze niż w piekarniku przy małych ilościach.</p>
+<h2>Co dostajesz, a z czego rezygnujesz, kupując tani model</h2>
+<p><strong>Najważniejsze zostaje</strong>: chrupiące potrawy przy niewielkiej ilości tłuszczu albo zupełnie bez niego, programy do najczęściej przygotowywanych produktów, łatwy do umycia kosz i – przy małych porcjach – często krótszy czas przygotowania niż w piekarniku.</p>
 <p><strong>Zazwyczaj rezygnujesz z</strong>:</p>
 <ul>
-<li><strong>Dwóch stref smażenia</strong>: żaden model z tego poradnika nie ma podwójnej szuflady. Aby usmażyć danie i dodatek jednocześnie, trzeba przejść do wyższej półki, jak opisujemy w naszym <a href="/pl/blog/comment-choisir-airfryer-famille">poradniku wyboru rodzinnej frytkownicy beztłuszczowej</a>.</li>
-<li><strong>Bardzo dużych pojemności</strong>: powyżej czterech osób zaplanuj kilka partii.</li>
-<li><strong>Niektórych elementów wykończenia</strong>: prostsze tworzywa, powłoki nieprzywierające wymagające większej troski, wentylatory czasem głośniejsze.</li>
-<li><strong>Łączności</strong>, z wyjątkiem Xiaomi i Cosori Lite, które w tym przedziale należą do rzadkości.</li>
+<li><strong>Dwóch stref</strong>: żaden model z tego poradnika nie ma dwóch szuflad. Aby jednocześnie przygotować danie główne i dodatek, trzeba sięgnąć po droższy model – piszemy o tym w <a href="/pl/blog/comment-choisir-airfryer-famille">poradniku wyboru frytkownicy beztłuszczowej dla rodziny</a>.</li>
+<li><strong>Bardzo dużej pojemności</strong>: przy więcej niż czterech osobach trzeba się liczyć ze smażeniem w kilku partiach.</li>
+<li><strong>Staranniejszego wykończenia</strong>: prostsze tworzywa, powłoki nieprzywierające, o które trzeba bardziej dbać, i czasem głośniejszy wentylator.</li>
+<li><strong>Łączności</strong> – wyjątkiem są Xiaomi i Cosori Lite, które w tym przedziale cenowym należą do rzadkości.</li>
 </ul>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Wybór wyłącznie według podanej pojemności</strong>: okrągły kosz 4-litrowy bywa mniej pojemny w praktyce niż kwadratowy 3,8-litrowy, bo ma mniejszą powierzchnię dna.</li>
-<li><strong>Napełnianie kosza po brzegi</strong>: powietrze musi krążyć. Jedna warstwa, co najwyżej dwie, i potrząśnięcie w połowie smażenia.</li>
-<li><strong>Kupno nieznanej marki bez części zamiennych</strong>: uszkodzony kosz może wyłączyć urządzenie z użytku.</li>
-<li><strong>Skrobanie powłoki</strong>: używaj przyborów silikonowych lub drewnianych, nigdy ostrej gąbki.</li>
-<li><strong>Zapomnienie o miejscu wokół urządzenia</strong>: zostaw wolną przestrzeń z tyłu i nad urządzeniem na wylot powietrza.</li>
+<li><strong>Kierowanie się wyłącznie deklarowaną pojemnością</strong>: okrągły kosz 4-litrowy ma czasem mniejszą powierzchnię dna niż kwadratowy 3,8-litrowy.</li>
+<li><strong>Napełnianie kosza po brzegi</strong>: powietrze musi krążyć. Układaj produkty w jednej warstwie, najwyżej w dwóch, i w połowie smażenia potrząśnij koszem.</li>
+<li><strong>Kupowanie frytkownicy nieznanej marki bez dostępu do części zamiennych</strong>: z uszkodzonym koszem urządzenie może stać się bezużyteczne.</li>
+<li><strong>Skrobanie powłoki</strong>: używaj przyborów silikonowych lub drewnianych i nigdy nie myj kosza gąbką ścierną.</li>
+<li><strong>Zapominanie o wolnym miejscu wokół urządzenia</strong>: zostaw trochę przestrzeni z tyłu i nad frytkownicą, żeby gorące powietrze mogło swobodnie uchodzić.</li>
 </ul>
 
 <h2>Użytkowanie i bezpieczeństwo</h2>
-<p>Ustaw frytkownicę beztłuszczową na stabilnej powierzchni odpornej na ciepło, z dala od zasłon i wiszących szafek. Podłączaj ją bezpośrednio do gniazdka ściennego, a nie do przeciążonej listwy zasilającej: te urządzenia pobierają dużą moc. Przy pierwszym użyciu może wydzielać się lekki zapach; uruchom ją na kilka minut na pusto przy otwartym oknie, jak zaleca większość instrukcji. Przed czyszczeniem poczekaj, aż urządzenie ostygnie. O bieżącej konserwacji przeczytasz w naszym <a href="/pl/blog/entretien-nettoyage-airfryer">poradniku konserwacji frytkownicy beztłuszczowej</a>.</p>
+<p>Ustaw frytkownicę na stabilnej, odpornej na wysoką temperaturę powierzchni, z dala od zasłon i wiszących szafek. Podłączaj ją bezpośrednio do gniazdka w ścianie, a nie do listwy, do której wpięte są już inne urządzenia – frytkownice pobierają dużą moc. Przy pierwszym uruchomieniu może pojawić się lekki zapach. Włącz ją wtedy na kilka minut na pusto, przy otwartym oknie, jak zaleca większość instrukcji obsługi. Przed czyszczeniem poczekaj, aż frytkownica ostygnie. Jak dbać o nią na co dzień, przeczytasz w naszym <a href="/pl/blog/entretien-nettoyage-airfryer">poradniku czyszczenia i konserwacji frytkownicy beztłuszczowej</a>.</p>
 
 <h2>Nasz werdykt</h2>
-<p>Jeśli miałbyś wybrać tylko jedną, weź <strong>Moulinex Easy Fry Max 5L</strong>: to najbardziej wszechstronna frytkownica beztłuszczowa z niższej półki, z pojemnością wystarczającą dla rodziny. <strong>Xiaomi Smart Air Fryer Pro 4L</strong> to najlepszy wybór, jeśli chcesz okienko i aplikację bez wychodzenia poza mały budżet. A dla jednej lub dwóch osób <strong>Cosori Lite 3.8L</strong> oferuje to, co najważniejsze, w kompaktowym formacie. Philips Seria 2000 i Ninja AF100EU pozostają solidnymi alternatywami, jeśli stawiasz na dobrze znaną markę i proste przyciski.</p>`,
+<p>Jeśli masz wybrać tylko jedną, postaw na <strong>Moulinex Easy Fry Max 5L</strong>: to najbardziej wszechstronny model wśród tanich frytkownic, a jego pojemność wystarczy dla rodziny. <strong>Xiaomi Smart Air Fryer Pro 4L</strong> to najlepszy wybór, jeśli chcesz mieć okienko i aplikację, nie wychodząc poza mały budżet. Dla jednej lub dwóch osób <strong>Cosori Lite 3.8L</strong> zapewnia wszystko, co potrzebne, i zajmuje mało miejsca. Philips Seria 2000 i Ninja AF100EU pozostają solidnymi alternatywami, jeśli stawiasz na dobrze znaną markę i prostą obsługę.</p>`,
   },
   faq: [
     {
@@ -676,7 +676,7 @@ export const article: BlogArticle = {
         es: 'Para la mayoría de los hogares, la Moulinex Easy Fry Max 5L: 5 litros, 10 programas y pantalla táctil en la gama más asequible. La Xiaomi Smart Air Fryer Pro 4L es la mejor opción conectada y la Cosori Lite 3.8L, la más adecuada para una o dos personas.',
         it: 'Per la maggior parte delle famiglie, la Moulinex Easy Fry Max 5L: 5 litri, 10 programmi e display touch nella fascia più accessibile. La Xiaomi Smart Air Fryer Pro 4L è la migliore scelta connessa, la Cosori Lite 3.8L la più adatta a una o due persone.',
         nl: 'Voor de meeste huishoudens de Moulinex Easy Fry Max 5L: 5 liter, 10 programma’s en een touchscreen in de meest betaalbare klasse. De Xiaomi Smart Air Fryer Pro 4L is de beste slimme keuze, de Cosori Lite 3.8L past het best bij één of twee personen.',
-        pl: 'Dla większości domów Moulinex Easy Fry Max 5L: 5 litrów, 10 programów i ekran dotykowy w jednym z najbardziej przystępnych przedziałów cenowych. Xiaomi Smart Air Fryer Pro 4L to najlepszy wybór wśród inteligentnych, a Cosori Lite 3.8L najlepiej pasuje do jednej lub dwóch osób.',
+        pl: 'Dla większości gospodarstw domowych – Moulinex Easy Fry Max 5L: 5 litrów, 10 programów i ekran dotykowy w najtańszym segmencie rynku. Xiaomi Smart Air Fryer Pro 4L to najlepszy wybór, jeśli zależy Ci na sterowaniu z aplikacji, a Cosori Lite 3.8L najlepiej sprawdzi się u jednej lub dwóch osób.',
       },
     },
     {
@@ -696,7 +696,7 @@ export const article: BlogArticle = {
         es: 'Para los platos habituales, en general sí: el principio de cocción es el mismo. Los modelos más caros aportan sobre todo capacidad, dos zonas de cocción, mejores acabados y funciones extra.',
         it: 'Per i piatti di tutti i giorni, nel complesso sì: il principio di cottura è lo stesso. I modelli più costosi aggiungono soprattutto capienza, due zone di cottura, finiture migliori e funzioni accessorie.',
         nl: 'Voor dagelijkse gerechten grotendeels wel: het kookprincipe is hetzelfde. Duurdere modellen voegen vooral inhoud, twee bereidingszones, betere afwerking en extra functies toe.',
-        pl: 'Przy popularnych potrawach w ogólnym rozrachunku tak: zasada smażenia jest ta sama. Droższe modele dają przede wszystkim większą pojemność, dwie strefy smażenia, lepsze wykończenie i funkcje dodatkowe.',
+        pl: 'Przy codziennych potrawach zasadniczo tak, bo zasada działania jest ta sama. Droższe modele oferują przede wszystkim większą pojemność, dwie strefy, lepsze wykończenie i dodatkowe funkcje.',
       },
     },
     {
@@ -716,7 +716,7 @@ export const article: BlogArticle = {
         es: 'Unos 3,5 a 4 litros para una o dos personas, y 5 litros para tres o cuatro. Por encima, una freidora de gama de entrada obliga a cocinar por tandas; conviene entonces un formato grande o de doble cajón.',
         it: 'Circa 3,5-4 litri per una o due persone e 5 litri per tre o quattro. Oltre, una friggitrice entry-level impone più riprese: meglio allora un grande formato o un doppio cassetto.',
         nl: 'Ongeveer 3,5 tot 4 liter voor één of twee personen en 5 liter voor drie tot vier. Daarboven betekent een instapmodel meerdere rondes; dan is een groot formaat of dubbele lade verstandiger.',
-        pl: 'Około 3,5–4 litrów dla jednej lub dwóch osób i 5 litrów dla trzech lub czterech. Powyżej tej liczby tania frytkownica beztłuszczowa wymusza kilka partii; lepiej wtedy celować w duży format lub podwójną szufladę.',
+        pl: 'Około 3,5–4 litrów na jedną lub dwie osoby i 5 litrów na trzy lub cztery. Przy większej liczbie domowników tania frytkownica wymaga smażenia w kilku partiach, dlatego lepiej wtedy wybrać duży model albo frytkownicę z dwiema szufladami.',
       },
     },
     {
@@ -727,7 +727,7 @@ export const article: BlogArticle = {
         es: '¿Hay freidoras de aire conectadas baratas?',
         it: 'Esistono friggitrici ad aria connesse economiche?',
         nl: 'Bestaan er goedkope slimme airfryers?',
-        pl: 'Czy istnieją tanie inteligentne frytkownice beztłuszczowe?',
+        pl: 'Czy są tanie frytkownice beztłuszczowe z aplikacją?',
       },
       answer: {
         fr: 'Oui. Le Xiaomi Smart Air Fryer Pro 4L se pilote avec l’application Xiaomi Home et le Cosori Lite 3.8L avec l’application VeSync, compatible Alexa et Google Assistant. Ce sont les exceptions dans l’entrée de gamme.',
@@ -736,7 +736,7 @@ export const article: BlogArticle = {
         es: 'Sí. La Xiaomi Smart Air Fryer Pro 4L se controla con la app Xiaomi Home y la Cosori Lite 3.8L con la app VeSync, compatible con Alexa y Google Assistant. Son la excepción en la gama de entrada.',
         it: 'Sì. La Xiaomi Smart Air Fryer Pro 4L si gestisce con l’app Xiaomi Home e la Cosori Lite 3.8L con l’app VeSync, compatibile con Alexa e Google Assistant. Nella fascia entry-level sono l’eccezione.',
         nl: 'Ja. De Xiaomi Smart Air Fryer Pro 4L werkt met de Xiaomi Home-app en de Cosori Lite 3.8L met de VeSync-app, compatibel met Alexa en Google Assistant. In de instapklasse zijn ze de uitzondering.',
-        pl: 'Tak. Xiaomi Smart Air Fryer Pro 4L steruje się z aplikacji Xiaomi Home, a Cosori Lite 3.8L z aplikacji VeSync, zgodnej z Alexą i Asystentem Google. To wyjątki w niższej półce.',
+        pl: 'Tak. Modelem Xiaomi Smart Air Fryer Pro 4L steruje się z aplikacji Xiaomi Home, a modelem Cosori Lite 3.8L – z aplikacji VeSync, która współpracuje z Alexą i Asystentem Google. W najtańszym segmencie to jednak wyjątki.',
       },
     },
     {
@@ -756,7 +756,7 @@ export const article: BlogArticle = {
         es: 'Limpia la cesta después de cada uso, evita estropajos abrasivos y utensilios metálicos, no sobrecargues la cesta y elige una marca que venda recambios.',
         it: 'Pulisci il cestello dopo ogni uso, evita spugne abrasive e utensili metallici, non sovraccaricare il cestello e scegli una marca che venda ricambi.',
         nl: 'Maak de mand na elk gebruik schoon, vermijd schuursponsjes en metalen keukengerei, overlaad de mand niet en kies een merk dat onderdelen verkoopt.',
-        pl: 'Myj kosz po każdym użyciu, unikaj ostrych gąbek i metalowych przyborów, nie przeładowuj kosza i wybieraj markę, która sprzedaje części zamienne.',
+        pl: 'Myj kosz po każdym użyciu, nie używaj gąbek ściernych ani metalowych przyborów, nie przeładowuj kosza i wybierz markę, która sprzedaje części zamienne.',
       },
     },
     {
@@ -776,7 +776,7 @@ export const article: BlogArticle = {
         es: 'Pocas veces. El doble cajón sirve sobre todo para cocinar dos preparaciones a la vez para una familia. Para una a tres personas basta una sola cesta de buen tamaño, que además es más asequible.',
         it: 'Raramente. Il doppio cassetto serve soprattutto a cuocere due preparazioni insieme per una famiglia. Per una-tre persone basta un solo cestello ben dimensionato, più accessibile.',
         nl: 'Zelden. Een dubbele lade is vooral handig om voor een gezin twee gerechten tegelijk te bereiden. Voor één tot drie personen volstaat één goed bemeten mand, en die blijft betaalbaarder.',
-        pl: 'Rzadko. Podwójna szuflada służy głównie do smażenia dwóch potraw jednocześnie dla rodziny. Dla jednej–trzech osób wystarczy jeden dobrze dobrany kosz, który jest przy tym tańszy.',
+        pl: 'Rzadko. Podwójna szuflada przydaje się głównie wtedy, gdy trzeba jednocześnie przygotować dwie potrawy dla całej rodziny. Dla jednej do trzech osób wystarczy jeden kosz o dobrze dobranej pojemności, a taki model jest przy tym tańszy.',
       },
     },
   ],

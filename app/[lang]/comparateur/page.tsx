@@ -56,7 +56,7 @@ const pageContent: Record<string, { title: string; subtitle: string; intro: stri
     kicker: 'Narzędzie porównawcze',
     title: 'Porównywarka frytkownic beztłuszczowych',
     subtitle: 'Porównaj do 3 modeli obok siebie',
-    intro: 'Wybierz interesujące Cię modele i zobacz ich parametry obok siebie — ocena Nura, pojemność, mocne strony i ograniczenia.',
+    intro: 'Wybierz modele, które Cię interesują, i porównaj ich parametry obok siebie: Ocena Nura, pojemność, mocne strony i ograniczenia.',
     breadcrumb: 'Porównywarka',
   },
 }
@@ -90,8 +90,8 @@ const seoMeta: Record<Lang, { title: string; description: string }> = {
     description: 'Vergelijk airfryers naast elkaar: kies tot 3 modellen en bekijk Nura-score, capaciteit, sterke punten, beperkingen en waar je ze op Amazon koopt.',
   },
   pl: {
-    title: 'Porównywarka frytkownic beztłuszczowych 2026: 3 modele',
-    description: 'Porównaj frytkownice beztłuszczowe obok siebie: wybierz do 3 modeli i zobacz ocenę Nura, pojemność, mocne strony, ograniczenia oraz gdzie kupić na Amazon.',
+    title: 'Porównywarka frytkownic beztłuszczowych 2026: do 3 modeli',
+    description: 'Porównaj frytkownice beztłuszczowe obok siebie: wybierz do 3 modeli, zobacz Ocenę Nura, pojemność, mocne strony i ograniczenia oraz ofertę na Amazon.',
   },
 }
 

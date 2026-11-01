@@ -603,24 +603,24 @@ const personaFaqTemplates: Record<Lang, CategoryFaqEntry[]> = {
   ],
   pl: [
     {
-      question: 'Jak Home Nura wybiera produkty według profilu?',
-      answer: `Nasza publiczna metodologia łączy profil użytkowania (gospodarstwo domowe, budżet, ograniczenie) z pięcioma kryteriami europejskimi: roczny koszt energii, etykieta energetyczna UE, zgodność z RODO, dostępność części zamiennych przez pięć lat i obsługa standardu Matter. Wykluczamy modele, które nie wytrzymują próby czasu.`,
+      question: 'Jak serwis Home Nura dobiera produkty do profilu?',
+      answer: `Nasza publiczna metodologia zestawia profil użytkowania (gospodarstwo domowe, budżet, ograniczenia) z pięcioma europejskimi kryteriami: rocznym kosztem energii, unijną etykietą energetyczną, zgodnością z RODO, dostępnością części zamiennych przez pięć lat i obsługą standardu Matter. Odrzucamy modele, które nie sprawdzają się na dłuższą metę.`,
     },
     {
       question: 'Czy rekomendacje są niezależne?',
-      answer: `Tak. Home Nura to niezależny europejski wydawca, a nasze rankingi nigdy nie są płatne. Linki do Amazon są afiliacyjne, ale wybór zapada przed dodaniem linków, a nasza publiczna metodologia dokumentuje każdą decyzję.`,
+      answer: `Tak. Serwis Home Nura to niezależny europejski wydawca, a miejsca w naszych rankingach nigdy nie są płatne. Linki do Amazon są afiliacyjne, ale wybór modeli zapada, zanim dodamy linki, a każdą decyzję dokumentuje nasza publiczna metodologia.`,
     },
     {
-      question: 'Jak często rankingi są aktualizowane?',
-      answer: `Co kwartał. Każdy dział jest audytowany co trzy miesiące: wycofujemy modele niedostępne w sprzedaży, weryfikujemy przedziały budżetowe, aktualizujemy koszty energii i etykiety UE. Data ostatniej aktualizacji jest widoczna na każdej stronie.`,
+      question: 'Jak często aktualizujecie rankingi?',
+      answer: `Co kwartał. Każdy dział przeglądamy co trzy miesiące: usuwamy modele niedostępne w sprzedaży, weryfikujemy przedziały budżetowe, aktualizujemy koszty energii i etykiety UE. Data ostatniej aktualizacji widnieje na każdej stronie.`,
     },
     {
-      question: 'Dlaczego wybór według profilu, a nie klasyczne „top 10”?',
-      answer: `Ogólne top 10 wciska wszystkie profile do jednego rankingu i krzywdzi nietypowe gospodarstwa domowe – małe budżety, ograniczoną przestrzeń, osoby rygorystycznie podchodzące do RODO. Nasze wybory według profilu odzwierciedlają rzeczywisty koszt użytkowania w danym gospodarstwie: policzone roczne zużycie energii, dopasowanie do nawyków i serwis dostępny na lokalnym rynku.`,
+      question: 'Dlaczego zestawienia według profilu, a nie klasyczne „top 10”?',
+      answer: `Ogólne top 10 wrzuca wszystkie profile do jednego rankingu i stawia w gorszej sytuacji nietypowe gospodarstwa domowe – z małym budżetem, z ograniczonym miejscem czy szczególnie dbające o ochronę danych (RODO). Nasze zestawienia dla poszczególnych profili pokazują rzeczywisty koszt użytkowania w danym gospodarstwie: wyliczone roczne zużycie energii, dopasowanie do codziennych nawyków i dostępność serwisu na lokalnym rynku.`,
     },
     {
       question: 'Jak oceniacie produkty pod kątem warunków europejskich?',
-      answer: `Nie testujemy produktów samodzielnie. Porównujemy zużycie energii deklarowane według norm EN, opublikowane niezależne testy i opinie zweryfikowanych kupujących. Żadna rekomendacja nie opiera się wyłącznie na karcie produktu – publiczna metodologia opisuje cały protokół.`,
+      answer: `Nie testujemy produktów samodzielnie. Porównujemy zużycie energii deklarowane zgodnie z normami EN, opublikowane niezależne testy i opinie zweryfikowanych kupujących. Żadna rekomendacja nie opiera się wyłącznie na karcie katalogowej – szczegółową procedurę opisuje nasza publiczna metodologia.`,
     },
   ],
 }

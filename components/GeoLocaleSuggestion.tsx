@@ -16,7 +16,7 @@ const COPY: Record<Lang, { text: string; cta: string; close: string }> = {
   es: { text: '¿Estás en España? Ver la web en español.', cta: 'Ver en español', close: 'Cerrar' },
   it: { text: 'Sei in Italia? Vedi il sito in italiano.', cta: 'Vai in italiano', close: 'Chiudi' },
   nl: { text: 'In Nederland? Bekijk de Nederlandse site.', cta: 'Naar Nederlands', close: 'Sluiten' },
-  pl: { text: 'Jesteś w Polsce? Zobacz stronę po polsku.', cta: 'Przełącz na polski', close: 'Zamknij' },
+  pl: { text: 'Jesteś w Polsce? Zobacz stronę po polsku.', cta: 'Przejdź na polską wersję', close: 'Zamknij' },
 }
 
 function readCookie(name: string): string | null {

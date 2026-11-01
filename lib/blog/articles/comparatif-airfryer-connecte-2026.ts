@@ -29,7 +29,7 @@ export const article: BlogArticle = {
     es: 'Comparativa freidora de aire conectada WiFi 2026: los mejores modelos',
     it: 'Friggitrice ad aria connessa WiFi 2026: confronto dei migliori modelli',
     nl: 'Slimme wifi-airfryer 2026: de beste modellen vergeleken',
-    pl: 'Porównanie inteligentnych frytkownic beztłuszczowych z Wi-Fi 2026: najlepsze modele',
+    pl: 'Frytkownica beztłuszczowa z Wi-Fi 2026: porównanie najlepszych modeli',
   },
   excerpt: {
     fr: 'Philips Combi XXL Connecté, Philips 5000 XXL Connected, Cosori Dual Blaze, Xiaomi Smart Air Fryer Pro 4L et 6.5L : quel airfryer connecté choisir en 2026 ? Applications, assistants vocaux, capacité et profils d’usage comparés.',
@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: 'Philips Combi XXL Connected, Philips 5000 XXL Connected, Cosori Dual Blaze, Xiaomi Smart Air Fryer Pro 4L y 6.5L: ¿qué freidora de aire conectada elegir en 2026? Comparamos apps, asistentes de voz, capacidad y usos.',
     it: 'Philips Combi XXL Connected, Philips 5000 XXL Connected, Cosori Dual Blaze, Xiaomi Smart Air Fryer Pro 4L e 6.5L: quale friggitrice ad aria connessa scegliere nel 2026? App, assistenti vocali, capienza e usi a confronto.',
     nl: 'Philips Combi XXL Connected, Philips 5000 XXL Connected, Cosori Dual Blaze, Xiaomi Smart Air Fryer Pro 4L en 6.5L: welke slimme airfryer kies je in 2026? Apps, spraakassistenten, inhoud en gebruik vergeleken.',
-    pl: 'Philips Combi XXL Connected, Philips 5000 XXL Connected, Cosori Dual Blaze, Xiaomi Smart Air Fryer Pro 4L i 6.5L: którą inteligentną frytkownicę beztłuszczową wybrać w 2026 roku? Porównujemy aplikacje, asystentów głosowych, pojemność i profile użytkowania.',
+    pl: 'Philips Combi XXL Connected, Philips 5000 XXL Connected, Cosori Dual Blaze, Xiaomi Smart Air Fryer Pro 4L i 6.5L: którą frytkownicę beztłuszczową z Wi-Fi wybrać w 2026 roku? Porównujemy aplikacje, asystentów głosowych, pojemność i przeznaczenie.',
   },
   content: {
     fr: `<p><strong>Le meilleur airfryer connecté en 2026 pour la plupart des foyers est le Philips Airfryer Combi XXL Connecté (8,3 L)</strong> : grande capacité, 22 modes de cuisson, sonde de température intégrée et application HomeID qui envoie les réglages des recettes à l’appareil. Pour un petit budget ou un petit foyer, le Xiaomi Smart Air Fryer Pro 4L offre l’essentiel du pilotage par application, et le Cosori Dual Blaze 6,4 L est le meilleur compromis pour une famille de quatre.</p>
@@ -562,92 +562,92 @@ export const article: BlogArticle = {
 
 <h2>Conclusie</h2>
 <p>Voor de meeste huishoudens is de <strong>Philips Airfryer Combi XXL Connected</strong> de meest complete keuze: grote inhoud, ingebouwde thermometer, veel standen en de HomeID-app. Is je budget krap of kook je voor één tot drie personen, dan levert de <strong>Xiaomi Smart Air Fryer Pro 4L</strong> de slimme basis voor een lage prijs. Voor een gezin van vier dat gelijkmatig wil bereiden en spraakbediening via Alexa of Google wil, is de <strong>Cosori Dual Blaze van 6,4 L</strong> het beste compromis. Wil je vergelijken met niet-verbonden modellen, lees dan onze <a href="/nl/guides/airfryers">airfryergids</a>.</p>`,
-    pl: `<p><strong>Najlepszą inteligentną frytkownicą beztłuszczową 2026 roku dla większości domów jest Philips Airfryer Combi XXL Connected (8,3 L)</strong>: duża pojemność, 22 tryby gotowania, wbudowana sonda temperatury i aplikacja HomeID, która wysyła do urządzenia ustawienia z przepisów. Przy mniejszym budżecie lub w małym gospodarstwie Xiaomi Smart Air Fryer Pro 4L daje najważniejsze funkcje sterowania z aplikacji, a Cosori Dual Blaze 6,4 L to najlepszy kompromis dla czteroosobowej rodziny.</p>
-<p>To porównanie opiera się na kartach technicznych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględnia wyłącznie modele sprzedawane w Europie. Cały wybór znajdziesz na naszej stronie <a href="/pl/cuisine-connectee/airfryers">frytkownice beztłuszczowe</a>.</p>
+    pl: `<p><strong>Dla większości gospodarstw domowych najlepszą frytkownicą beztłuszczową z Wi-Fi w 2026 roku jest Philips Airfryer Combi XXL Connected (8,3 l)</strong>: duża pojemność, 22 tryby pracy, wbudowana sonda temperatury i aplikacja HomeID, która przesyła do urządzenia ustawienia z przepisów. Przy mniejszym budżecie lub w małym gospodarstwie domowym Xiaomi Smart Air Fryer Pro 4L zapewnia najważniejsze funkcje sterowania z aplikacji, a Cosori Dual Blaze 6,4 l to najlepszy kompromis dla czteroosobowej rodziny.</p>
+<p>To porównanie opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględniamy wyłącznie modele sprzedawane w Europie. Wszystkie polecane modele znajdziesz na naszej stronie <a href="/pl/cuisine-connectee/airfryers">frytkownice beztłuszczowe</a>.</p>
 
-<h2>Co naprawdę daje inteligentna frytkownica beztłuszczowa</h2>
-<p>Inteligentna frytkownica beztłuszczowa smaży dokładnie tak samo jak model klasyczny: bardzo gorące powietrze, wprawiane w ruch przez wentylator, krąży wokół potrawy. Połączenie Wi-Fi nie zmienia jakości smażenia. Zmienia sposób obsługi:</p>
+<h2>Co naprawdę daje frytkownica z Wi-Fi</h2>
+<p>Frytkownica z Wi-Fi smaży dokładnie tak samo jak zwykły model: wentylator wprawia w ruch bardzo gorące powietrze, które opływa potrawy. Łączność z siecią nie wpływa na efekty smażenia – zmienia jedynie sposób obsługi:</p>
 <ul>
-<li><strong>Przepisy krok po kroku</strong>: wybierasz przepis w aplikacji, a temperatura i czas trafiają do urządzenia. To prawdziwy atut dla początkujących.</li>
-<li><strong>Zdalna kontrola</strong>: pozostały czas i koniec smażenia wyświetlają się na telefonie, czasem z przypomnieniem o wstrząśnięciu koszem.</li>
-<li><strong>Programowanie</strong>: niektóre modele pozwalają opóźnić start, w Xiaomi nawet do 24 godzin.</li>
-<li><strong>Sterowanie głosowe</strong>: w zależności od marki przez Amazon Alexa lub Asystenta Google.</li>
+<li><strong>Przepisy krok po kroku</strong>: wybierasz przepis w aplikacji, a temperatura i czas trafiają prosto do urządzenia. To największa zaleta dla początkujących.</li>
+<li><strong>Zdalny podgląd</strong>: pozostały czas i informacja o zakończeniu smażenia pojawiają się w telefonie, czasem razem z przypomnieniem, by potrząsnąć koszem.</li>
+<li><strong>Programowanie</strong>: niektóre modele pozwalają opóźnić start – w przypadku Xiaomi nawet o 24 godziny.</li>
+<li><strong>Sterowanie głosowe</strong>: w zależności od marki przez Alexę lub Asystenta Google.</li>
 </ul>
-<p>Z drugiej strony aplikacja prawie zawsze wymaga konta użytkownika, w większości modeli sieci Wi-Fi 2,4 GHz oraz zaakceptowania polityki danych. Jeśli żadna z tych rzeczy Cię nie interesuje, zwykła frytkownica beztłuszczowa wykona tę samą pracę równie dobrze.</p>
+<p>Z drugiej strony aplikacja niemal zawsze wymaga założenia konta, w większości modeli także sieci Wi-Fi 2,4 GHz, a do tego akceptacji zasad przetwarzania danych. Jeśli żadna z tych funkcji Cię nie interesuje, zwykła frytkownica bez Wi-Fi sprawdzi się równie dobrze.</p>
 
 <h2>Kryteria wyboru</h2>
 <ul>
-<li><strong>Pojemność</strong>: około 4 L dla 1–3 osób, 6–7 L dla 4 osób, 8 L i więcej dla dużej rodziny lub całego kurczaka.</li>
-<li><strong>Aplikacja</strong>: Philips używa HomeID (dawniej NutriU), Cosori aplikacji VeSync, Xiaomi aplikacji Xiaomi Home. Jakość przepisów i czytelność interfejsu liczą się bardziej niż ich liczba.</li>
-<li><strong>Asystenci głosowi</strong>: sprawdź zgodność z ekosystemem, którego już używasz (Alexa lub Google). Żaden z modeli w tym porównaniu nie jest sprzedawany jako zgodny z Apple Home ani z Matter.</li>
-<li><strong>Tryby gotowania</strong>: od 11 programów w Xiaomi do 22 funkcji w Philips (gotowanie w niskiej temperaturze, dehydratacja, fermentacja, duszenie…).</li>
-<li><strong>Czyszczenie</strong>: kosz i komora z powłoką nieprzywierającą, które można myć w zmywarce, robią realną różnicę na co dzień.</li>
+<li><strong>Pojemność</strong>: ok. 4 l dla 1–3 osób, 6–7 l dla 4 osób, 8 l i więcej dla dużej rodziny lub na całego kurczaka.</li>
+<li><strong>Aplikacja</strong>: Philips korzysta z HomeID (dawniej NutriU), Cosori z aplikacji VeSync, a Xiaomi z Xiaomi Home. Jakość przepisów i czytelność interfejsu liczą się bardziej niż liczba przepisów.</li>
+<li><strong>Asystenci głosowi</strong>: sprawdź, czy urządzenie współpracuje z ekosystemem, którego już używasz (Alexa lub Google). Żaden model z tego porównania nie jest sprzedawany jako zgodny z Apple Home ani z Matter.</li>
+<li><strong>Tryby pracy</strong>: od 11 programów w modelach Xiaomi do 22 funkcji w modelu Philipsa (pieczenie w niskiej temperaturze, suszenie, fermentacja, duszenie…).</li>
+<li><strong>Czyszczenie</strong>: kosz i komora z powłoką nieprzywierającą, które można myć w zmywarce, na co dzień naprawdę ułatwiają życie.</li>
 </ul>
 
-<h2>5 najlepszych inteligentnych frytkownic beztłuszczowych 2026</h2>
+<h2>5 najlepszych frytkownic beztłuszczowych z Wi-Fi w 2026 roku</h2>
 
-<h3>1. Philips Airfryer Combi XXL Connected (HD9880/90): najlepszy wybór ogólny</h3>
-<p>Topowy model Philips (seria 7000) łączy komorę 8,3 L, moc 2200 W i 22 tryby gotowania, w tym gotowanie w niskiej temperaturze, grill, dehydratację i fermentację. Ma wbudowaną sondę temperatury, która mierzy temperaturę wewnątrz potrawy: przydatne przy mięsie lub pieczeni. Dostępnych jest ponad 100 programów automatycznych, a aplikacja HomeID wysyła do urządzenia ustawienia z przepisów i śledzi proces smażenia. Wszystko to omawia nasza <a href="/pl/blog/test-philips-combi-xxl-connected">szczegółowa analiza Philips Combi XXL Connected</a>.</p>
-<p><strong>Mocne strony:</strong> bardzo duża pojemność, wbudowana sonda, wszechstronność, bogata aplikacja dobrze oceniana przez kupujących.</p>
-<p><strong>Ograniczenia:</strong> najwyższy przedział cenowy w porównaniu, urządzenie ciężkie i duże, Philips w tym modelu nie wyróżnia zgodności z asystentami głosowymi.</p>
-<p><strong>Dla kogo:</strong> dla rodzin i tych, którzy chcą zastąpić piekarnik w części zastosowań.</p>
+<h3>1. Philips Airfryer Combi XXL Connected (HD9880/90): najlepszy wybór dla większości</h3>
+<p>Topowy model Philipsa (seria 7000) łączy komorę 8,3 l, moc 2200 W i 22 tryby pracy, w tym pieczenie w niskiej temperaturze, grill, suszenie i fermentację. Ma wbudowaną sondę, która mierzy temperaturę w środku potrawy – przydaje się przy mięsie i pieczeni. Do dyspozycji jest ponad 100 programów automatycznych, a aplikacja HomeID przesyła do urządzenia ustawienia z przepisów i pozwala śledzić postęp pieczenia. Szczegóły znajdziesz w naszym <a href="/pl/blog/test-philips-combi-xxl-connected">omówieniu modelu Philips Combi XXL Connected</a>.</p>
+<p><strong>Mocne strony:</strong> bardzo duża pojemność, wbudowana sonda, wszechstronność, rozbudowana aplikacja, dobrze oceniana przez kupujących.</p>
+<p><strong>Ograniczenia:</strong> najwyższa półka cenowa w tym porównaniu, urządzenie ciężkie i duże, a Philips w przypadku tego modelu niewiele mówi o współpracy z asystentami głosowymi.</p>
+<p><strong>Dla kogo:</strong> rodziny i osoby, które chcą częściowo zastąpić nim piekarnik.</p>
 
-<h3>2. Cosori Dual Blaze 6,4 L: najlepszy dla czteroosobowej rodziny</h3>
-<p>Cosori Dual Blaze wyróżnia się podwójną grzałką, u góry i u dołu komory (technologia 360 ThermoIQ). Efekt: bardziej równomierne smażenie i mniejsza potrzeba potrząsania lub obracania potraw, według niezależnych recenzji i opinii kupujących. Komora 6,4 L wystarcza dla 4–6 osób i oferuje 12 funkcji. Aplikacja VeSync pozwala śledzić smażenie, automatycznie wysyłać ustawienia z przepisów, tworzyć własne programy oraz sterować głosem przez Alexę lub Asystenta Google. Zobacz naszą <a href="/pl/blog/test-cosori-dual-blaze">pełną analizę Cosori Dual Blaze</a>.</p>
-<p><strong>Mocne strony:</strong> równomierne smażenie, dobra równowaga pojemności i gabarytów, obsługa dwóch asystentów głosowych.</p>
-<p><strong>Ograniczenia:</strong> tylko jedna szuflada, aplikacja bywa oceniana przez kupujących jako wolna.</p>
-<p><strong>Dla kogo:</strong> dla gospodarstw 3–5-osobowych, które chcą inteligentnego urządzenia ze średniej półki.</p>
+<h3>2. Cosori Dual Blaze 6,4 l: najlepszy dla czteroosobowej rodziny</h3>
+<p>Cosori Dual Blaze wyróżnia się dwiema grzałkami – u góry i u dołu komory (technologia 360 ThermoIQ). Według niezależnych recenzji i opinii kupujących potrawy smażą się dzięki temu bardziej równomiernie i rzadziej trzeba je potrząsać lub obracać. Komora 6,4 l wystarcza dla 4–6 osób, a do dyspozycji jest 12 funkcji. Aplikacja VeSync pozwala śledzić postęp smażenia, automatycznie przesyłać ustawienia z przepisów, tworzyć własne programy i sterować urządzeniem głosowo przez Alexę lub Asystenta Google. Zobacz nasze <a href="/pl/blog/test-cosori-dual-blaze">pełne omówienie modelu Cosori Dual Blaze</a>.</p>
+<p><strong>Mocne strony:</strong> równomierne smażenie, dobry kompromis między pojemnością a gabarytami, obsługa dwóch asystentów głosowych.</p>
+<p><strong>Ograniczenia:</strong> tylko jedna szuflada; kupujący zarzucają czasem aplikacji powolne działanie.</p>
+<p><strong>Dla kogo:</strong> gospodarstwa 3–5-osobowe, które szukają frytkownicy z Wi-Fi ze średniej półki.</p>
 
-<h3>3. Xiaomi Smart Air Fryer Pro 4L: najlepszy stosunek funkcji do ceny</h3>
-<p>Xiaomi Smart Air Fryer Pro 4L to jedna z najbardziej przystępnych inteligentnych frytkownic beztłuszczowych. Oferuje 1600 W, zakres od 40 do 200 °C, 11 programów i przezroczyste okienko do obserwowania smażenia bez otwierania szuflady. Aplikacja Xiaomi Home udostępnia ponad 100 przepisów, programowanie z wyprzedzeniem do 24 godzin i sterowanie głosowe przez Asystenta Google. Zakres niskich temperatur pozwala też rozmrażać i fermentować.</p>
-<p><strong>Mocne strony:</strong> cena z niższej półki, okienko kontrolne, czytelna aplikacja, prosta integracja, jeśli masz już produkty Xiaomi.</p>
-<p><strong>Ograniczenia:</strong> 4 L, czyli niewiele powyżej 3 osób, i brak podwójnego kosza.</p>
-<p><strong>Dla kogo:</strong> dla par, studentów i małych gospodarstw domowych.</p>
+<h3>3. Xiaomi Smart Air Fryer Pro 4L: najlepszy stosunek możliwości do ceny</h3>
+<p>Xiaomi Smart Air Fryer Pro 4L to jedna z najbardziej przystępnych cenowo frytkownic z Wi-Fi. Ma moc 1600 W, zakres temperatur 40–200 °C, 11 programów i przezroczyste okienko, przez które obserwujesz smażenie bez wysuwania szuflady. Aplikacja Xiaomi Home oferuje ponad 100 przepisów, programowanie startu do 24 godzin naprzód i sterowanie głosowe przez Asystenta Google. Dzięki niskim temperaturom urządzenie nadaje się też do rozmrażania i fermentacji.</p>
+<p><strong>Mocne strony:</strong> cena z niższej półki, okienko, czytelna aplikacja, łatwa integracja, jeśli masz już inne urządzenia Xiaomi.</p>
+<p><strong>Ograniczenia:</strong> 4 l to niewiele dla więcej niż trzech osób; brak drugiego kosza.</p>
+<p><strong>Dla kogo:</strong> pary, studenci i małe gospodarstwa domowe.</p>
 
-<h3>4. Philips Airfryer seria 5000 XXL Connected (HD9285): prostsza alternatywa Philips</h3>
-<p>Mniej wszechstronny niż Combi, model 5000 XXL Connected ma komorę 7,2 L (do 6 porcji według Philips), 2000 W, 16 funkcji i zakres od 40 do 200 °C. Także używa aplikacji HomeID do wysyłania przepisów i śledzenia smażenia, a Philips deklaruje sterowanie głosowe przez Amazon Alexa.</p>
-<p><strong>Mocne strony:</strong> duża pojemność, aplikacja HomeID, zgodność z Alexą.</p>
-<p><strong>Ograniczenia:</strong> brak wbudowanej sondy, mniej trybów niż w Combi.</p>
-<p><strong>Dla kogo:</strong> dla rodzin, które chcą ekosystemu Philips, ale nie sięgają po najwyższy model.</p>
+<h3>4. Philips Airfryer seria 5000 XXL Connected (HD9285): prostsza alternatywa w ofercie Philipsa</h3>
+<p>Model 5000 XXL Connected jest mniej wszechstronny niż Combi, ale oferuje komorę 7,2 l (według Philipsa do 6 porcji), moc 2000 W, 16 funkcji i zakres temperatur 40–200 °C. On także korzysta z aplikacji HomeID do przesyłania przepisów i śledzenia smażenia, a Philips deklaruje sterowanie głosowe przez Alexę.</p>
+<p><strong>Mocne strony:</strong> duża pojemność, aplikacja HomeID, współpraca z Alexą.</p>
+<p><strong>Ograniczenia:</strong> brak wbudowanej sondy, mniej trybów niż w modelu Combi.</p>
+<p><strong>Dla kogo:</strong> rodziny, które chcą zostać w ekosystemie Philipsa, ale nie potrzebują modelu z najwyższej półki.</p>
 
-<h3>5. Xiaomi Smart Air Fryer 6.5L: przystępna inteligentna frytkownica dużego formatu</h3>
-<p>Ten model (europejski numer referencyjny BHR7358EU) korzysta z aplikacji Xiaomi Home i ma większy format: 6,5 L i 1800 W. Znajdziesz w nim programowanie do 24 godzin, przepisy wysyłane z aplikacji, funkcję podtrzymywania ciepła i sterowanie głosowe przez Asystenta Google.</p>
-<p><strong>Mocne strony:</strong> duża pojemność jak na ten przedział cenowy, prosta aplikacja.</p>
-<p><strong>Ograniczenia:</strong> skromniejsze wykończenie niż w Philips, mniej zaawansowanych funkcji.</p>
-<p><strong>Dla kogo:</strong> dla rodzin z ograniczonym budżetem.</p>
+<h3>5. Xiaomi Smart Air Fryer 6.5L: duża frytkownica z Wi-Fi w przystępnej cenie</h3>
+<p>Ten model (europejskie oznaczenie BHR7358EU) korzysta z tej samej aplikacji Xiaomi Home, ale jest większy: 6,5 l i 1800 W. Oferuje programowanie startu do 24 godzin, przepisy przesyłane z aplikacji, podtrzymywanie ciepła i sterowanie głosowe przez Asystenta Google.</p>
+<p><strong>Mocne strony:</strong> duża pojemność jak na tę półkę cenową, prosta aplikacja.</p>
+<p><strong>Ograniczenia:</strong> skromniejsze wykończenie niż w modelach Philipsa, mniej zaawansowanych funkcji.</p>
+<p><strong>Dla kogo:</strong> rodziny z ograniczonym budżetem.</p>
 
 <h2>HomeID, VeSync czy Xiaomi Home: którą aplikację wybrać?</h2>
-<p>Wybór inteligentnej frytkownicy beztłuszczowej często sprowadza się do wyboru aplikacji. <strong>Philips HomeID</strong> skupia się na gotowaniu: przepisy krok po kroku, programy dopasowane do każdego modelu marki i śledzenie smażenia. Pasuje tym, którzy chcą przede wszystkim wsparcia w kuchni. <strong>VeSync</strong>, aplikacja Cosori, obsługuje też inne urządzenia grupy (na przykład oczyszczacze, wagi i nawilżacze Levoit) i pozwala zapisywać własne programy. <strong>Xiaomi Home</strong> to ogólna aplikacja do inteligentnego domu: frytkownica beztłuszczowa znajduje się w niej obok żarówek, robotów odkurzających i kamer marki, co jest wygodne, jeśli już masz taki sprzęt.</p>
-<p>Przed zakupem przejrzyj ostatnie opinie w sklepie z aplikacjami na telefonie: mówią o stabilności połączenia i jakości aktualizacji. Pomyśl też o przyszłości: aplikacja może się zmieniać, zmienić nazwę (NutriU została HomeID) lub prosić o nowe uprawnienia. Na szczęście przyciski na urządzeniu działają także bez niej.</p>
+<p>Wybierając frytkownicę z Wi-Fi, w praktyce często wybierasz aplikację. <strong>Philips HomeID</strong> koncentruje się na gotowaniu: przepisy krok po kroku, programy dopasowane do konkretnych modeli marki i śledzenie postępu. To dobry wybór dla tych, którzy chcą przede wszystkim wsparcia w kuchni. <strong>VeSync</strong>, aplikacja marki Cosori, obsługuje też inne urządzenia z tej samej grupy (np. oczyszczacze powietrza, wagi i nawilżacze Levoit) i pozwala zapisywać własne programy. <strong>Xiaomi Home</strong> to uniwersalna aplikacja do inteligentnego domu: frytkownica sąsiaduje w niej z żarówkami, robotami sprzątającymi i kamerami marki, co jest wygodne, jeśli masz już takie urządzenia.</p>
+<p>Przed zakupem przejrzyj najnowsze opinie o aplikacji w sklepie z aplikacjami na swoim telefonie – sporo mówią o stabilności połączenia i jakości aktualizacji. Pomyśl też o dłuższej perspektywie: aplikacja może się zmienić, dostać nową nazwę (NutriU zmieniła się w HomeID) albo zażądać nowych uprawnień. Na szczęście panel sterowania na urządzeniu działa również bez niej.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Pojemność</th><th>Aplikacja</th><th>Asystent głosowy</th><th>Kluczowy atut</th><th>Idealny do</th></tr>
+<tr><th>Model</th><th>Pojemność</th><th>Aplikacja</th><th>Asystent głosowy</th><th>Główna zaleta</th><th>Dla kogo</th></tr>
 </thead>
 <tbody>
-<tr><td>Philips Combi XXL Connected</td><td>8,3 L</td><td>HomeID</td><td>Nie wyróżniony</td><td>22 tryby, wbudowana sonda</td><td>Dużych rodzin</td></tr>
-<tr><td>Cosori Dual Blaze</td><td>6,4 L</td><td>VeSync</td><td>Alexa, Google</td><td>Podwójna grzałka</td><td>Rodzin 4-osobowych</td></tr>
-<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 L</td><td>Xiaomi Home</td><td>Google</td><td>Okienko, programowanie 24 h</td><td>Małych gospodarstw</td></tr>
-<tr><td>Philips 5000 XXL Connected</td><td>7,2 L</td><td>HomeID</td><td>Alexa</td><td>16 funkcji</td><td>Rodzin</td></tr>
-<tr><td>Xiaomi Smart Air Fryer 6.5L</td><td>6,5 L</td><td>Xiaomi Home</td><td>Google</td><td>Duży format w przystępnej cenie</td><td>Rodzin, mały budżet</td></tr>
+<tr><td>Philips Combi XXL Connected</td><td>8,3 l</td><td>HomeID</td><td>Nieeksponowany</td><td>22 tryby, wbudowana sonda</td><td>Duże rodziny</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>6,4 l</td><td>VeSync</td><td>Alexa, Google</td><td>Dwie grzałki</td><td>Rodziny 4-osobowe</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 l</td><td>Xiaomi Home</td><td>Google</td><td>Okienko, programowanie do 24 h</td><td>Małe gospodarstwa domowe</td></tr>
+<tr><td>Philips 5000 XXL Connected</td><td>7,2 l</td><td>HomeID</td><td>Alexa</td><td>16 funkcji</td><td>Rodziny</td></tr>
+<tr><td>Xiaomi Smart Air Fryer 6.5L</td><td>6,5 l</td><td>Xiaomi Home</td><td>Google</td><td>Duża pojemność w przystępnej cenie</td><td>Rodziny z mniejszym budżetem</td></tr>
 </tbody>
 </table>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Płacenie za niepotrzebne połączenie</strong>: jeśli nie zamierzasz korzystać z aplikacji, klasyczny model o tej samej pojemności kosztuje mniej.</li>
-<li><strong>Wiara, że wszystko jest ze wszystkim zgodne</strong>: sprawdź asystenta głosowego obsługiwanego przez każdy model. Karty produktów czasem mieszają wersje zależnie od kraju.</li>
-<li><strong>Niedoszacowanie pojemności</strong>: przepełniony kosz smaży gorzej. Lepiej wybrać trochę większy niż trochę za mały.</li>
-<li><strong>Zapomnienie o Wi-Fi 2,4 GHz</strong>: większość małych urządzeń inteligentnych nie łączy się w paśmie 5 GHz. Sprawdź, czy Twój router nadaje sieć 2,4 GHz.</li>
-<li><strong>Pominięcie gabarytów</strong>: modele 7–8 L są wysokie i ciężkie. Zmierz miejsce pod szafkami.</li>
+<li><strong>Płacenie za łączność, z której nie skorzystasz</strong>: jeśli nie zamierzasz używać aplikacji, zwykły model o tej samej pojemności będzie tańszy.</li>
+<li><strong>Zakładanie, że wszystko działa ze wszystkim</strong>: sprawdź, którego asystenta głosowego obsługuje dany model. Karty produktów czasem mieszają wersje przeznaczone na różne kraje.</li>
+<li><strong>Niedocenianie pojemności</strong>: w przepełnionym koszu potrawy smażą się gorzej. Lepiej wybrać model nieco większy niż trochę za mały.</li>
+<li><strong>Zapominanie o paśmie 2,4 GHz</strong>: większość małych urządzeń z Wi-Fi nie łączy się w paśmie 5 GHz. Sprawdź, czy Twój router nadaje sieć 2,4 GHz.</li>
+<li><strong>Pomijanie gabarytów</strong>: modele 7–8 l są wysokie i ciężkie. Zmierz miejsce pod szafkami wiszącymi.</li>
 </ul>
 
 <h2>Bezpieczeństwo i prawidłowe użytkowanie</h2>
-<p>Zdalne sterowanie nie zastępuje czujności. Uruchamiaj smażenie tylko wtedy, gdy potrawy są w koszu i nic nie blokuje urządzenia. Ustaw frytkownicę na stabilnej powierzchni odpornej na ciepło, zostawiając miejsce wokół wylotów powietrza. Podłączaj ją najlepiej bezpośrednio do gniazdka ściennego, a nie do listwy zasilającej, ponieważ te urządzenia pobierają od 1600 do 2200 W. Na koniec instaluj aktualizacje aplikacji i oprogramowania sprzętowego oferowane przez producenta i wyłącz w aplikacji opcjonalne udostępnianie danych, jeśli tego nie chcesz.</p>
+<p>Zdalne sterowanie nie zwalnia z ostrożności. Uruchamiaj smażenie tylko wtedy, gdy jedzenie jest już w koszu, a nic nie zasłania urządzenia. Ustaw frytkownicę na stabilnej, odpornej na wysoką temperaturę powierzchni i zostaw wolne miejsce przy wylotach powietrza. Najlepiej podłączaj ją bezpośrednio do gniazdka w ścianie, a nie do listwy zasilającej, bo takie urządzenia mają moc od 1600 do 2200 W. Instaluj też aktualizacje aplikacji i oprogramowania sprzętowego udostępniane przez producenta, a jeśli nie chcesz przekazywać danych, wyłącz w ustawieniach aplikacji ich opcjonalne udostępnianie.</p>
 
 <h2>Werdykt</h2>
-<p>Dla większości domów <strong>Philips Airfryer Combi XXL Connected</strong> jest najpełniejszym wyborem: duża pojemność, wbudowana sonda, wiele trybów i aplikacja HomeID. Jeśli budżet jest ograniczony lub gotujesz dla jednej do trzech osób, <strong>Xiaomi Smart Air Fryer Pro 4L</strong> daje najważniejsze funkcje inteligentne w niskiej cenie. Dla czteroosobowej rodziny, która chce równomiernego smażenia i sterowania głosowego Alexą lub Google, <strong>Cosori Dual Blaze 6,4 L</strong> to najlepszy kompromis. Aby porównać z modelami bez łączności, zajrzyj do naszego <a href="/pl/guides/airfryers">poradnika o frytkownicach beztłuszczowych</a>.</p>`,
+<p>Dla większości gospodarstw domowych <strong>Philips Airfryer Combi XXL Connected</strong> to najbardziej kompletny wybór: duża pojemność, wbudowana sonda, wiele trybów i aplikacja HomeID. Przy ograniczonym budżecie albo gdy gotujesz dla 1–3 osób, <strong>Xiaomi Smart Air Fryer Pro 4L</strong> zapewnia najważniejsze funkcje sterowania z aplikacji w niskiej cenie. Czteroosobowej rodzinie, której zależy na równomiernym smażeniu i sterowaniu głosowym przez Alexę lub Asystenta Google, najlepiej posłuży <strong>Cosori Dual Blaze 6,4 l</strong>. Jeśli chcesz porównać te modele z frytkownicami bez Wi-Fi, zajrzyj do naszego <a href="/pl/guides/airfryers">poradnika o frytkownicach beztłuszczowych</a>.</p>`,
   },
   faq: [
     {
@@ -658,7 +658,7 @@ export const article: BlogArticle = {
         es: '¿Cuál es la mejor freidora de aire conectada en 2026?',
         it: 'Qual è la migliore friggitrice ad aria connessa nel 2026?',
         nl: 'Wat is de beste slimme airfryer in 2026?',
-        pl: 'Jaka jest najlepsza inteligentna frytkownica beztłuszczowa w 2026 roku?',
+        pl: 'Jaka frytkownica beztłuszczowa z Wi-Fi jest najlepsza w 2026 roku?',
       },
       answer: {
         fr: 'Pour la plupart des foyers, le Philips Airfryer Combi XXL Connecté : 8,3 L, 22 modes, sonde intégrée et application HomeID. Le Xiaomi Smart Air Fryer Pro 4L est le meilleur choix petit budget, et le Cosori Dual Blaze 6,4 L le meilleur compromis pour quatre personnes.',
@@ -667,7 +667,7 @@ export const article: BlogArticle = {
         es: 'Para la mayoría de hogares, la Philips Airfryer Combi XXL Connected: 8,3 L, 22 modos, sonda integrada y app HomeID. La Xiaomi Smart Air Fryer Pro 4L es la mejor opción económica, y la Cosori Dual Blaze de 6,4 L la más equilibrada para cuatro personas.',
         it: 'Per la maggior parte delle famiglie, la Philips Airfryer Combi XXL Connected: 8,3 L, 22 modalità, sonda integrata e app HomeID. La Xiaomi Smart Air Fryer Pro 4L è la scelta migliore a basso budget, la Cosori Dual Blaze da 6,4 L il miglior compromesso per quattro persone.',
         nl: 'Voor de meeste huishoudens de Philips Airfryer Combi XXL Connected: 8,3 L, 22 standen, ingebouwde thermometer en de HomeID-app. De Xiaomi Smart Air Fryer Pro 4L is de beste budgetkeuze en de Cosori Dual Blaze van 6,4 L de beste allrounder voor vier personen.',
-        pl: 'Dla większości domów Philips Airfryer Combi XXL Connected: 8,3 L, 22 tryby, wbudowana sonda i aplikacja HomeID. Xiaomi Smart Air Fryer Pro 4L to najlepszy wybór przy małym budżecie, a Cosori Dual Blaze 6,4 L najlepszy kompromis dla czterech osób.',
+        pl: 'Dla większości gospodarstw domowych – Philips Airfryer Combi XXL Connected: 8,3 l, 22 tryby, wbudowana sonda i aplikacja HomeID. Przy małym budżecie najlepszym wyborem jest Xiaomi Smart Air Fryer Pro 4L, a najlepszym kompromisem dla czterech osób – Cosori Dual Blaze 6,4 l.',
       },
     },
     {
@@ -678,7 +678,7 @@ export const article: BlogArticle = {
         es: '¿Cocina mejor una freidora conectada que una clásica?',
         it: 'Una friggitrice connessa cuoce meglio di un modello classico?',
         nl: 'Bereidt een slimme airfryer beter dan een gewone?',
-        pl: 'Czy inteligentna frytkownica beztłuszczowa smaży lepiej niż model klasyczny?',
+        pl: 'Czy frytkownica z Wi-Fi smaży lepiej niż zwykła?',
       },
       answer: {
         fr: 'Non. La cuisson dépend de la résistance, du ventilateur et de la capacité, pas du WiFi. La connexion apporte des recettes guidées, le suivi sur smartphone, la programmation et parfois la commande vocale.',
@@ -687,7 +687,7 @@ export const article: BlogArticle = {
         es: 'No. La cocción depende de la resistencia, el ventilador y la capacidad, no del WiFi. La conexión aporta recetas guiadas, seguimiento en el móvil, programación y a veces control por voz.',
         it: 'No. La cottura dipende da resistenza, ventola e capienza, non dal WiFi. La connessione aggiunge ricette guidate, monitoraggio da smartphone, programmazione e a volte il controllo vocale.',
         nl: 'Nee. Het resultaat hangt af van het verwarmingselement, de ventilator en de inhoud, niet van wifi. De verbinding voegt begeleide recepten, volgen via de telefoon, uitgestelde start en soms spraakbediening toe.',
-        pl: 'Nie. O smażeniu decydują grzałka, wentylator i pojemność, a nie Wi-Fi. Połączenie daje przepisy krok po kroku, podgląd na smartfonie, programowanie i czasem sterowanie głosowe.',
+        pl: 'Nie. O efektach smażenia decydują grzałka, wentylator i pojemność, a nie Wi-Fi. Łączność daje za to przepisy krok po kroku, podgląd postępu w smartfonie, programowanie startu i czasem sterowanie głosowe.',
       },
     },
     {
@@ -698,7 +698,7 @@ export const article: BlogArticle = {
         es: '¿Qué freidoras conectadas funcionan con Alexa o Google Assistant?',
         it: 'Quali friggitrici connesse funzionano con Alexa o Google Assistant?',
         nl: 'Welke slimme airfryers werken met Alexa of Google Assistant?',
-        pl: 'Które inteligentne frytkownice beztłuszczowe działają z Alexą lub Asystentem Google?',
+        pl: 'Które frytkownice z Wi-Fi działają z Alexą lub Asystentem Google?',
       },
       answer: {
         fr: 'Dans ce comparatif, le Cosori Dual Blaze prend en charge Alexa et Google Assistant, les Xiaomi Google Assistant, et le Philips 5000 XXL Connected Alexa. Vérifiez toujours la fiche du modèle exact vendu dans votre pays.',
@@ -707,7 +707,7 @@ export const article: BlogArticle = {
         es: 'En esta comparativa, la Cosori Dual Blaze admite Alexa y Google Assistant, las Xiaomi Google Assistant y la Philips 5000 XXL Connected Alexa. Comprueba siempre la ficha del modelo exacto que se vende en tu país.',
         it: 'In questo confronto, la Cosori Dual Blaze supporta Alexa e Google Assistant, le Xiaomi Google Assistant e la Philips 5000 XXL Connected Alexa. Controlla sempre la scheda del modello esatto venduto nel tuo Paese.',
         nl: 'In deze vergelijking ondersteunt de Cosori Dual Blaze Alexa en Google Assistant, de Xiaomi-modellen Google Assistant en de Philips 5000 XXL Connected Alexa. Controleer altijd de productinformatie van het exacte model in jouw land.',
-        pl: 'W tym porównaniu Cosori Dual Blaze obsługuje Alexę i Asystenta Google, modele Xiaomi Asystenta Google, a Philips 5000 XXL Connected Alexę. Zawsze sprawdzaj kartę dokładnie tego modelu, który jest sprzedawany w Twoim kraju.',
+        pl: 'Spośród modeli z tego porównania Cosori Dual Blaze obsługuje Alexę i Asystenta Google, modele Xiaomi – Asystenta Google, a Philips 5000 XXL Connected – Alexę. Zawsze sprawdź specyfikację dokładnie tej wersji, która jest sprzedawana w Twoim kraju.',
       },
     },
     {
@@ -718,7 +718,7 @@ export const article: BlogArticle = {
         es: '¿Hace falta un WiFi concreto para una freidora conectada?',
         it: 'Serve un WiFi particolare per una friggitrice connessa?',
         nl: 'Heb je een speciaal wifinetwerk nodig voor een slimme airfryer?',
-        pl: 'Czy inteligentna frytkownica beztłuszczowa wymaga specjalnej sieci Wi-Fi?',
+        pl: 'Czy frytkownica z Wi-Fi wymaga specjalnej sieci?',
       },
       answer: {
         fr: 'La plupart des petits appareils connectés utilisent uniquement le WiFi 2,4 GHz. Vérifiez que votre box diffuse ce réseau et que le signal est correct dans la cuisine. Un compte dans l’application du fabricant est aussi nécessaire.',
@@ -727,7 +727,7 @@ export const article: BlogArticle = {
         es: 'La mayoría de pequeños aparatos conectados solo usan WiFi de 2,4 GHz. Comprueba que tu router emite esa banda y que la señal llega bien a la cocina. También necesitarás una cuenta en la app del fabricante.',
         it: 'La maggior parte dei piccoli elettrodomestici connessi usa solo il WiFi a 2,4 GHz. Verifica che il router trasmetta questa banda e che il segnale arrivi bene in cucina. Serve anche un account nell’app del produttore.',
         nl: 'De meeste kleine slimme apparaten werken alleen met wifi op 2,4 GHz. Controleer of je router die band uitzendt en of het signaal in de keuken goed is. Je hebt ook een account nodig in de app van de fabrikant.',
-        pl: 'Większość małych urządzeń inteligentnych korzysta wyłącznie z Wi-Fi 2,4 GHz. Sprawdź, czy Twój router nadaje tę sieć i czy sygnał w kuchni jest dobry. Potrzebne jest także konto w aplikacji producenta.',
+        pl: 'Większość małych urządzeń z Wi-Fi działa wyłącznie w paśmie 2,4 GHz. Sprawdź, czy Twój router nadaje sieć w tym paśmie i czy w kuchni jest dobry zasięg. Potrzebne będzie też konto w aplikacji producenta.',
       },
     },
     {
@@ -738,7 +738,7 @@ export const article: BlogArticle = {
         es: '¿Funciona una freidora conectada sin app ni internet?',
         it: 'Una friggitrice connessa funziona senza app né internet?',
         nl: 'Werkt een slimme airfryer zonder app of internet?',
-        pl: 'Czy inteligentna frytkownica beztłuszczowa działa bez aplikacji i internetu?',
+        pl: 'Czy frytkownica z Wi-Fi działa bez aplikacji i internetu?',
       },
       answer: {
         fr: 'Oui. Tous les modèles de ce comparatif gardent des commandes sur l’appareil et leurs programmes intégrés. Sans connexion, vous perdez seulement les fonctions de l’application : recettes envoyées, suivi à distance et commande vocale.',
@@ -747,7 +747,7 @@ export const article: BlogArticle = {
         es: 'Sí. Todos los modelos de esta comparativa conservan los mandos en el aparato y sus programas integrados. Sin conexión solo pierdes las funciones de la app: recetas enviadas, seguimiento a distancia y control por voz.',
         it: 'Sì. Tutti i modelli di questo confronto mantengono i comandi sull’apparecchio e i programmi integrati. Senza connessione perdi solo le funzioni dell’app: ricette inviate, monitoraggio a distanza e controllo vocale.',
         nl: 'Ja. Alle modellen in deze vergelijking hebben bediening op het apparaat en ingebouwde programma’s. Zonder verbinding verlies je alleen de app-functies: verstuurde recepten, volgen op afstand en spraakbediening.',
-        pl: 'Tak. Wszystkie modele z tego porównania zachowują przyciski na urządzeniu i wbudowane programy. Bez połączenia tracisz tylko funkcje aplikacji: wysyłane przepisy, zdalny podgląd i sterowanie głosowe.',
+        pl: 'Tak. Wszystkie modele z tego porównania mają panel sterowania na obudowie i wbudowane programy. Bez połączenia tracisz tylko funkcje aplikacji: przesyłanie przepisów, zdalny podgląd i sterowanie głosowe.',
       },
     },
     {
@@ -758,7 +758,7 @@ export const article: BlogArticle = {
         es: '¿Qué tamaño de freidora conectada elegir para una familia de cuatro?',
         it: 'Che capienza scegliere per una famiglia di quattro persone?',
         nl: 'Welke inhoud kiest een gezin van vier?',
-        pl: 'Jaką pojemność inteligentnej frytkownicy beztłuszczowej wybrać dla czteroosobowej rodziny?',
+        pl: 'Jaką pojemność frytkownicy z Wi-Fi wybrać dla czteroosobowej rodziny?',
       },
       answer: {
         fr: 'Comptez au moins 6 L. Le Cosori Dual Blaze 6,4 L et le Xiaomi Smart Air Fryer 6.5L conviennent bien. Si vous cuisinez souvent des plats complets ou un poulet entier, visez 7 à 8 L, comme le Philips 5000 XXL Connected ou le Combi XXL.',
@@ -767,7 +767,7 @@ export const article: BlogArticle = {
         es: 'Cuenta con al menos 6 L. La Cosori Dual Blaze de 6,4 L y la Xiaomi Smart Air Fryer 6.5L encajan bien. Si sueles cocinar platos completos o un pollo entero, opta por 7 a 8 L, como la Philips 5000 XXL Connected o la Combi XXL.',
         it: 'Punta ad almeno 6 L. La Cosori Dual Blaze da 6,4 L e la Xiaomi Smart Air Fryer 6.5L vanno bene. Se cucini spesso piatti completi o un pollo intero, scegli 7-8 L, come la Philips 5000 XXL Connected o la Combi XXL.',
         nl: 'Reken op minstens 6 L. De Cosori Dual Blaze van 6,4 L en de Xiaomi Smart Air Fryer 6.5L passen goed. Maak je vaak complete maaltijden of een hele kip, kies dan 7 tot 8 L, zoals de Philips 5000 XXL Connected of de Combi XXL.',
-        pl: 'Licz co najmniej 6 L. Dobrze sprawdzą się Cosori Dual Blaze 6,4 L i Xiaomi Smart Air Fryer 6.5L. Jeśli często przygotowujesz całe dania lub cały kurczak, celuj w 7–8 L, jak Philips 5000 XXL Connected lub Combi XXL.',
+        pl: 'Wybierz co najmniej 6 l. Dobrze sprawdzą się Cosori Dual Blaze 6,4 l i Xiaomi Smart Air Fryer 6.5L. Jeśli często przygotowujesz całe obiady lub pieczesz całego kurczaka, celuj w 7–8 l – na przykład w model Philips 5000 XXL Connected lub Combi XXL.',
       },
     },
   ],

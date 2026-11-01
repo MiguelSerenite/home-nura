@@ -43,7 +43,7 @@ export const META_SILOS: readonly MetaSilo[] = [
       es: 'Freidoras de aire, multicocinas, cafeteras y electrodomésticos conectados para cocinar mejor cada día.',
       it: 'Friggitrici ad aria, multicooker, caffettiere ed elettrodomestici connessi per cucinare meglio ogni giorno.',
       nl: 'Airfryers, multicookers, koffiezetapparaten en slimme apparaten voor beter dagelijks koken.',
-      pl: 'Frytkownice beztłuszczowe, multicookery, ekspresy do kawy i inteligentne urządzenia do lepszego codziennego gotowania.',
+      pl: 'Frytkownice beztłuszczowe, multicookery, ekspresy do kawy i inteligentne urządzenia, które ułatwiają codzienne gotowanie.',
     },
   },
   {
@@ -93,7 +93,7 @@ export const META_SILOS: readonly MetaSilo[] = [
       es: 'Videoporteros, cámaras, cerraduras y alarmas inteligentes — proteger el hogar sin ceder datos.',
       it: 'Videocitofoni, telecamere, serrature intelligenti e allarmi — proteggere la casa senza cedere dati.',
       nl: 'Videodeurbellen, camera\'s, slimme sloten en alarmen — je huis beschermen zonder data-concessies.',
-      pl: 'Dzwonki wideo, kamery, inteligentne zamki i alarmy — chroń dom bez kompromisów w kwestii danych.',
+      pl: 'Dzwonki wideo, kamery, inteligentne zamki i alarmy — chroń dom, nie poświęcając prywatności swoich danych.',
     },
   },
   {
@@ -118,7 +118,7 @@ export const META_SILOS: readonly MetaSilo[] = [
       es: 'Purificadores, humidificadores, aires acondicionados y estaciones meteorológicas para un interior sano todo el año.',
       it: 'Purificatori, umidificatori, condizionatori e stazioni meteo per un interno sano tutto l\'anno.',
       nl: 'Luchtreinigers, luchtbevochtigers, airco\'s en weerstations voor een gezond binnenklimaat het hele jaar.',
-      pl: 'Oczyszczacze, nawilżacze, klimatyzatory i stacje pogodowe dla zdrowego wnętrza przez cały rok.',
+      pl: 'Oczyszczacze powietrza, nawilżacze, klimatyzatory i stacje pogodowe — zdrowy mikroklimat w domu przez cały rok.',
     },
   },
   {
@@ -143,7 +143,7 @@ export const META_SILOS: readonly MetaSilo[] = [
       es: 'Robots aspiradores, limpiacristales, limpiadores a vapor — automatiza las tareas diarias.',
       it: 'Aspirapolvere robot, lavavetri, pulitori a vapore — automatizzare le faccende quotidiane.',
       nl: 'Robotstofzuigers, ruitenreinigers, stoomreinigers — automatiseer je dagelijkse klusjes.',
-      pl: 'Roboty sprzątające, roboty do mycia okien, myjki parowe — zautomatyzuj codzienne obowiązki.',
+      pl: 'Roboty sprzątające, roboty do mycia okien, myjki parowe — zautomatyzuj codzienne sprzątanie.',
     },
   },
   {
@@ -159,7 +159,7 @@ export const META_SILOS: readonly MetaSilo[] = [
       es: 'Jardín y Exterior Conectados',
       it: 'Giardino ed Esterni Connessi',
       nl: 'Slimme Tuin & Buitenruimte',
-      pl: 'Inteligentny ogród i outdoor',
+      pl: 'Inteligentny ogród',
     },
     description: {
       fr: 'Tondeuses robots, arrosage, éclairage solaire, robots de piscine — l\'extérieur piloté comme l\'intérieur.',
@@ -168,7 +168,7 @@ export const META_SILOS: readonly MetaSilo[] = [
       es: 'Robots cortacésped, riego, iluminación solar, robots de piscina — el exterior como el interior.',
       it: 'Robot tagliaerba, irrigazione, illuminazione solare, robot piscina — l\'esterno pilotato come l\'interno.',
       nl: 'Robotmaaiers, irrigatie, zonneverlichting, zwembadrobots — buitenruimte net zo bestuurd als binnen.',
-      pl: 'Roboty koszące, nawadnianie, oświetlenie solarne, roboty basenowe — przestrzeń na zewnątrz sterowana jak wnętrze.',
+      pl: 'Roboty koszące, nawadnianie, oświetlenie solarne, roboty basenowe — ogrodem sterujesz tak samo wygodnie jak domem.',
     },
   },
 ] as const

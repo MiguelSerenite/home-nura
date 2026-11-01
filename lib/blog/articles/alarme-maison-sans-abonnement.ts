@@ -18,7 +18,7 @@ export const article: BlogArticle = {
         es: 'Teclado mural retroiluminado, como los que se usan para armar una alarma para casa sin cuotas',
         it: 'Tastierino a muro retroilluminato, come quelli usati per inserire un allarme casa senza abbonamento',
         nl: 'Verlicht wandtoetsenbord, zoals gebruikt om een alarmsysteem zonder abonnement in te schakelen',
-        pl: 'Podświetlana klawiatura kodowa na ścianie, jakiej używa się do uzbrajania alarmu domowego bez abonamentu',
+        pl: 'Podświetlana klawiatura alarmowa na ścianie, podobna do tych, którymi uzbraja się alarm do domu bez abonamentu',
       },
     },
   ],
@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: '¿Qué alarma para casa sin cuotas elegir en 2026? Comparamos Ajax StarterKit 4G, Somfy Home Alarm Advanced, Ring Alarm y eufy HomeBase S380: red de respaldo, batería, sirena, mascotas e instalación.',
     it: 'Quale allarme casa senza abbonamento scegliere nel 2026? Confronto tra Ajax StarterKit 4G, Somfy Home Alarm Advanced, Ring Alarm ed eufy HomeBase S380: rete di backup, batteria, sirena, animali e installazione.',
     nl: 'Welk alarmsysteem zonder abonnement kies je in 2026? Ajax StarterKit 4G, Somfy Home Alarm Advanced, Ring Alarm en eufy HomeBase S380 vergeleken op back-upnetwerk, accu, sirene, huisdieren en installatie.',
-    pl: 'Jaki alarm do domu bez abonamentu wybrać w 2026 roku? Ajax StarterKit 4G, Somfy Home Alarm Advanced, Ring Alarm i eufy HomeBase S380 porównane: awaryjne łącze, bateria, syrena, zwierzęta i montaż.',
+    pl: 'Jaki alarm do domu bez abonamentu wybrać w 2026 roku? Porównujemy Ajax StarterKit 4G, Somfy Home Alarm Advanced, Ring Alarm i eufy HomeBase S380: łączność zapasowa, akumulator, syrena, odporność na zwierzęta i montaż.',
   },
   content: {
     fr: `<p>La meilleure alarme maison sans abonnement en 2026 est, pour la plupart des maisons, l’<strong>Ajax StarterKit 4G</strong> : sa centrale fonctionne en Ethernet et en 4G, tient jusqu’à 16 heures sur batterie et est certifiée Grade 2. Si vous cherchez un système français qui détecte les tentatives d’effraction avant l’ouverture, la <strong>Somfy Home Alarm Advanced</strong> est l’alternative la plus complète, tandis que le <strong>Ring Alarm</strong> reste l’entrée de gamme la plus simple pour les foyers équipés d’Alexa.</p>
@@ -490,80 +490,80 @@ export const article: BlogArticle = {
 <h2>Ons oordeel</h2>
 <p><strong>De Ajax StarterKit 4G is onze eerste keus</strong>: centrale met ethernet en 4G, accu tot 16 uur, zeer groot radiobereik en Grade 2-certificering. Het is het abonnementsvrije systeem dat het dichtst bij een professionele installatie komt, mits je een simkaart voorziet.</p>
 <p><strong>De Somfy Home Alarm Advanced</strong> is de beste optie om een inbraakpoging al bij de eerste trillingen te betrappen, met vijf jaar gsm-back-up inbegrepen. <strong>Het Ring Alarm Pack M</strong> is de eenvoudigste instapper voor een appartement of een Alexa-huishouden, met de kanttekening dat mobiele back-up een abonnement vereist. Tot slot is <strong>de eufy HomeBase S380</strong> interessant als je al eufy-camera's hebt en een ondersteunend alarm met lokale opslag wilt toevoegen.</p>`,
-    pl: `<p>Najlepszym alarmem do domu bez abonamentu w 2026 roku jest dla większości domów <strong>Ajax StarterKit 4G</strong>: jego centrala działa przez Ethernet i 4G, wytrzymuje do 16 godzin na baterii i ma certyfikat Grade 2. Jeśli szukasz francuskiego systemu, który wykrywa próby włamania jeszcze przed otwarciem, najpełniejszą alternatywą jest <strong>Somfy Home Alarm Advanced</strong>, a <strong>Ring Alarm</strong> pozostaje najprostszym wejściem dla domów wyposażonych w Alexę.</p>
-<p>To porównanie opiera się na kartach technicznych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględnia wyłącznie systemy sprzedawane w Europie w 2026 roku. Cały wybór znajdziesz na stronie <a href="/pl/securite-maison/alarmes">alarmy domowe</a>, a ogólny przegląd w naszym <a href="/pl/blog/guide-securite-maison-connectee-2026">poradniku o bezpieczeństwie inteligentnego domu 2026</a>.</p>
+    pl: `<p>W 2026 roku najlepszym alarmem do domu bez abonamentu jest w większości przypadków <strong>Ajax StarterKit 4G</strong>: jego centrala łączy się przez Ethernet i sieć 4G, na akumulatorze działa do 16 godzin i ma certyfikat Grade 2. Jeśli szukasz francuskiego systemu, który wykrywa próbę włamania, zanim ktoś otworzy drzwi lub okno, najpełniejszą alternatywą jest <strong>Somfy Home Alarm Advanced</strong>. Z kolei <strong>Ring Alarm</strong> to najprostszy zestaw na start dla domów, w których działa już Alexa.</p>
+<p>Porównanie powstało na podstawie kart katalogowych producentów, niezależnych recenzji i opinii zweryfikowanych kupujących. Uwzględnia wyłącznie systemy sprzedawane w Europie w 2026 roku. Pełne zestawienie znajdziesz na naszej stronie <a href="/pl/securite-maison/alarmes">alarmy do domu</a>, a szersze spojrzenie na temat daje nasz <a href="/pl/blog/guide-securite-maison-connectee-2026">poradnik o bezpieczeństwie inteligentnego domu 2026</a>.</p>
 
-<h2>Samodzielny nadzór czy monitoring: co znaczy „bez abonamentu”</h2>
-<p>Alarm bez abonamentu działa w trybie <strong>samodzielnego nadzoru</strong>: gdy czujnik zadziała, włącza się syrena, a Ty dostajesz powiadomienie na smartfon. To do Ciebie należy sprawdzenie, co się dzieje, uprzedzenie sąsiada lub zadzwonienie na policję. Nie ma centrum monitoringu ani umowy zobowiązującej na czas określony.</p>
-<p>Profesjonalny monitoring dodaje operatora, który weryfikuje alarm całą dobę i może wysłać interwencję. Przydaje się, jeśli często jesteś poza zasięgiem, wyjeżdżasz na długo lub wymaga tego Twój ubezpieczyciel. Dla stałego miejsca zamieszkania, w którym regularnie ktoś jest, samodzielny nadzór pokrywa to, co najważniejsze: syrena odstrasza, a alert dociera do Ciebie w kilka sekund.</p>
-<p>Uwaga jednak: „bez abonamentu” nie zawsze oznacza „zero opłat”. Awaryjne łącze komórkowe, historia nagrań wideo czy niektóre zaawansowane usługi mogą być płatne, zależnie od marki. Przy każdym modelu to zaznaczamy.</p>
+<h2>Samodzielny nadzór czy monitoring agencji ochrony: co oznacza „bez abonamentu”</h2>
+<p>Alarm bez abonamentu działa w trybie <strong>samodzielnego nadzoru</strong>: gdy czujnik wykryje zagrożenie, włącza się syrena, a na Twój smartfon trafia powiadomienie. To Ty sprawdzasz, co się dzieje, dajesz znać sąsiadowi albo dzwonisz na policję. Nie ma tu centrum monitorowania ani umowy wiążącej Cię na określony czas.</p>
+<p>Profesjonalny monitoring to dodatkowo operator, który przez całą dobę weryfikuje alarmy i w razie potrzeby wysyła patrol interwencyjny. Przydaje się, jeśli często trudno się z Tobą skontaktować, wyjeżdżasz na dłużej albo wymaga tego ubezpieczyciel. Jeśli to Twoje stałe miejsce zamieszkania i regularnie ktoś w nim przebywa, samodzielny nadzór zapewnia to, co najważniejsze: syrena odstrasza, a powiadomienie dociera do Ciebie w kilka sekund.</p>
+<p>Pamiętaj jednak, że „bez abonamentu” nie zawsze znaczy „bez żadnych opłat”. W zależności od marki płatne bywają awaryjne łącze komórkowe, archiwum nagrań wideo czy niektóre zaawansowane usługi. Przy każdym modelu piszemy o tym wprost.</p>
 
 <h2>Kryteria wyboru</h2>
 <ul>
-<li><strong>Łącze awaryjne</strong>: jeśli włamywacz odetnie router, alarm powinien móc wysyłać alerty przez sieć komórkową. To najważniejsze kryterium.</li>
-<li><strong>Bateria centrali</strong>: przy braku prądu centrala powinna pozostać aktywna przez kilka godzin.</li>
-<li><strong>Protokół radiowy</strong>: własnościowy protokół dalekiego zasięgu (Ajax Jeweller, Somfy) jest bardziej odporny niż czujnik Wi-Fi. Z-Wave w Ringu jest niezawodny w standardowym domu, w razie potrzeby z wzmacniaczem zasięgu.</li>
-<li><strong>Ochrona obwodowa</strong>: czujniki otwarcia i wibracji na drzwiach i oknach pozwalają uzbroić alarm na noc bez utrudniania poruszania się po domu.</li>
-<li><strong>Zwierzęta</strong>: jeśli masz psa lub kota, wybieraj czujniki ruchu odporne na zwierzęta lub ochronę drzwi i okien.</li>
-<li><strong>Syrena</strong>: wewnętrzna syrena o głośności co najmniej 100 dB to minimum. Syrena zewnętrzna wzmacnia efekt odstraszający.</li>
-<li><strong>Ekosystem</strong>: zgodność z kamerami, asystentem głosowym lub centralą inteligentnego domu.</li>
+<li><strong>Łącze awaryjne</strong>: jeśli włamywacz odłączy router, alarm musi nadal wysyłać powiadomienia przez sieć komórkową. To najważniejsze kryterium.</li>
+<li><strong>Akumulator centrali</strong>: po zaniku zasilania centrala powinna działać jeszcze przez kilka godzin.</li>
+<li><strong>Protokół radiowy</strong>: autorski protokół dalekiego zasięgu (Ajax Jeweller, Somfy) jest bardziej niezawodny niż czujniki Wi-Fi. Z-Wave stosowany w systemie Ring dobrze sprawdza się w typowym domu, w razie potrzeby ze wzmacniaczem zasięgu.</li>
+<li><strong>Ochrona obwodowa</strong>: czujniki otwarcia i wibracji na drzwiach i oknach pozwalają uzbroić alarm na noc i wciąż swobodnie poruszać się po domu.</li>
+<li><strong>Zwierzęta</strong>: jeśli masz psa lub kota, wybierz czujniki ruchu odporne na zwierzęta albo postaw na ochronę drzwi i okien.</li>
+<li><strong>Syrena</strong>: wewnętrzna syrena powinna mieć co najmniej 100 dB. Syrena zewnętrzna dodatkowo odstrasza.</li>
+<li><strong>Ekosystem</strong>: zgodność z Twoimi kamerami, asystentem głosowym lub centralką inteligentnego domu.</li>
 </ul>
 
 <h2>4 najlepsze alarmy bez abonamentu w 2026 roku</h2>
 
 <h3>Ajax StarterKit 4G: najbardziej niezawodny</h3>
-<p>Zestaw obejmuje centralę <strong>Hub 2 (4G)</strong>, czujnik ruchu MotionProtect, czujnik otwarcia DoorProtect i pilot SpaceControl. Czujniki komunikują się protokołem radiowym Jeweller, którego deklarowany zasięg sięga 2 000 m na otwartej przestrzeni. To bardzo wygodne w domu z garażem, domkiem narzędziowym lub budynkiem gospodarczym.</p>
-<p><strong>Mocne strony</strong>: centrala łączy się przez Ethernet i przyjmuje dwie karty SIM, co daje jej prawdziwe łącze awaryjne; bateria wytrzymuje do 16 godzin; system ma certyfikat Grade 2 według europejskiej normy EN 50131. MotionProtect jest odporny na zwierzęta do 20 kg i 50 cm wysokości, a czujniki działają kilka lat na baterii. Aplikacja Ajax jest uznawana za czytelną, ze scenariuszami, grupami i uprawnieniami dla każdego użytkownika. System obsługuje do 100 urządzeń, w tym czujniki ze zdjęciem weryfikującym alarm (seria MotionCam).</p>
-<p><strong>Ograniczenia</strong>: Hub 2 nie ma Wi-Fi, więc potrzebny jest kabel Ethernet do routera lub karta SIM. Kartę SIM trzeba dostarczyć samemu: to nie abonament Ajax, lecz abonament u operatora komórkowego (wystarczy podstawowy pakiet danych). Ekosystem jest zamknięty, zgodne są tylko akcesoria Ajax.</p>
-<p><strong>Dla kogo</strong>: dla domów jednorodzinnych, posesji z budynkami gospodarczymi i wszystkich, którzy chcą poziomu niezawodności zbliżonego do instalacji profesjonalnej, bez umowy.</p>
+<p>W zestawie są centrala <strong>Hub 2 (4G)</strong>, czujnik ruchu MotionProtect, czujnik otwarcia DoorProtect i pilot SpaceControl. Czujniki komunikują się z centralą przez protokół radiowy Jeweller o deklarowanym zasięgu do 2000 m w otwartym terenie. To duży zapas przy domu z garażem, domkiem narzędziowym czy budynkiem gospodarczym.</p>
+<p><strong>Mocne strony</strong>: centrala łączy się przez Ethernet i mieści dwie karty SIM, więc ma pełnoprawne łącze awaryjne; akumulator wystarcza na maksymalnie 16 godzin; system ma certyfikat Grade 2 zgodnie z europejską normą EN 50131. Czujnik MotionProtect nie reaguje na zwierzęta o wadze do 20 kg i wysokości do 50 cm, a czujniki działają na bateriach przez kilka lat. Aplikacja Ajax ma opinię przejrzystej: obsługuje scenariusze, grupy i osobne uprawnienia dla każdego użytkownika. Do systemu można podłączyć do 100 urządzeń, w tym czujniki, które robią zdjęcie pozwalające zweryfikować alarm (seria MotionCam).</p>
+<p><strong>Ograniczenia</strong>: Hub 2 nie obsługuje Wi-Fi, więc potrzebny jest kabel Ethernet do routera albo karta SIM. Kartę SIM trzeba zapewnić we własnym zakresie: nie jest to abonament Ajax, tylko zwykła oferta operatora komórkowego (wystarczy podstawowy pakiet internetu). Ekosystem jest zamknięty – działają w nim tylko akcesoria Ajax.</p>
+<p><strong>Dla kogo</strong>: dla domów jednorodzinnych, posesji z budynkami gospodarczymi i wszystkich, którzy chcą niezawodności zbliżonej do profesjonalnej instalacji, ale bez podpisywania umowy.</p>
 
-<h3>Somfy Home Alarm Advanced: wykrywanie przed włamaniem</h3>
-<p>Zestaw obejmuje centralę Link Advanced, wewnętrzną syrenę 110 dB, trzy czujniki IntelliTAG, czujnik ruchu, klawiaturę i dwa breloki zbliżeniowe. Jego cechą szczególną są <strong>IntelliTAG</strong>: montowane na drzwiach i oknach, wykrywają wibracje próby włamania jeszcze przed otwarciem, dzięki czemu syrena włącza się wcześniej.</p>
-<p><strong>Mocne strony</strong>: przy braku prądu Link Advanced przełącza się na sieć GSM, oferowaną bezpłatnie przez pierwsze pięć lat w Unii Europejskiej. Somfy deklaruje 12 godzin pracy na wbudowanej baterii, a następnie do 14 dni na bateriach. IntelliTAG mają stopień ochrony IP54 i mogą też chronić bramę lub domek narzędziowy. Breloki automatycznie rozbrajają alarm po Twoim powrocie. System jest zgodny z Google Assistant, Alexą i centralą Somfy TaHoma, a także z kamerami Somfy.</p>
-<p><strong>Ograniczenia</strong>: po pięciu latach awaryjna sieć GSM staje się płatną opcją. Centrala działa przez Wi-Fi, a ekosystem pozostaje własnością Somfy.</p>
-<p><strong>Dla kogo</strong>: dla domów z wieloma oknami i drzwiami oraz domów ze zwierzętami, w których można uzbroić ochronę obwodową przez IntelliTAG bez aktywnego czujnika ruchu w pomieszczeniach dziennych.</p>
+<h3>Somfy Home Alarm Advanced: wykrywanie jeszcze przed włamaniem</h3>
+<p>W zestawie są centrala Link Advanced, wewnętrzna syrena 110 dB, trzy czujniki IntelliTAG, czujnik ruchu, klawiatura i dwa breloki zbliżeniowe. Wyróżniają go czujniki <strong>IntelliTAG</strong>, które montuje się na drzwiach i oknach. Wykrywają drgania towarzyszące próbie włamania, zanim drzwi lub okno zostaną otwarte, więc syrena włącza się wcześniej.</p>
+<p><strong>Mocne strony</strong>: po zaniku zasilania centrala Link Advanced przełącza się na sieć GSM, z której w Unii Europejskiej przez pierwsze pięć lat korzystasz bezpłatnie. Somfy deklaruje 12 godzin pracy na wbudowanym akumulatorze, a potem do 14 dni na bateriach. Czujniki IntelliTAG mają stopień ochrony IP54, więc sprawdzą się też na bramie czy domku narzędziowym. Breloki same rozbrajają alarm, gdy wracasz do domu. System współpracuje z Asystentem Google, Alexą, centralką Somfy TaHoma oraz kamerami Somfy.</p>
+<p><strong>Ograniczenia</strong>: po pięciu latach za awaryjne łącze GSM trzeba już płacić. Centrala łączy się przez Wi-Fi, a cały system obejmuje wyłącznie urządzenia Somfy.</p>
+<p><strong>Dla kogo</strong>: dla domów z dużą liczbą okien i drzwi oraz domów ze zwierzętami – ochronę obwodową z czujnikami IntelliTAG można uzbroić bez włączania czujnika ruchu w części dziennej.</p>
 
-<h3>Ring Alarm Pack M (2. generacji): wejście dla użytkowników Alexy</h3>
-<p>Pakiet M obejmuje stację bazową, klawiaturę, czujniki otwarcia, czujniki ruchu i wzmacniacz zasięgu. Czujniki używają protokołu Z-Wave, a stacja łączy się przez Wi-Fi lub Ethernet.</p>
-<p><strong>Mocne strony</strong>: stacja bazowa ma wbudowaną syrenę 104 dB i baterię deklarowaną na 24 godziny. Bez abonamentu zachowujesz powiadomienia oraz uzbrajanie i rozbrajanie w aplikacji Ring. Czujniki ruchu oferują kilka poziomów czułości, w tym niskie ustawienie przeznaczone dla zwierząt do około 23 kg. Integracja z Alexą oraz kamerami i dzwonkami Ring jest w tym porównaniu najpłynniejsza.</p>
-<p><strong>Ograniczenia</strong>: awaryjne łącze komórkowe jest dostępne wyłącznie z abonamentem Ring Protect. Bez niego przerwa w dostępie do internetu uniemożliwia wysyłanie alertów, choć lokalna syrena nadal działa. Integracja z Google Home i Apple Home jest ograniczona.</p>
-<p><strong>Dla kogo</strong>: dla mieszkań i małych domów oraz domów już wyposażonych w produkty Ring lub głośniki Echo.</p>
+<h3>Ring Alarm Pack M (2. generacja): zestaw na start dla użytkowników Alexy</h3>
+<p>W zestawie M są stacja bazowa, klawiatura, czujniki otwarcia, czujniki ruchu i wzmacniacz zasięgu. Czujniki komunikują się w standardzie Z-Wave, a stacja bazowa łączy się z siecią przez Wi-Fi lub Ethernet.</p>
+<p><strong>Mocne strony</strong>: stacja bazowa ma wbudowaną syrenę 104 dB i akumulator, który według producenta wystarcza na 24 godziny. Bez abonamentu nadal masz powiadomienia oraz uzbrajanie i rozbrajanie systemu w aplikacji Ring. Czujniki ruchu mają kilka poziomów czułości, w tym niski, przeznaczony dla domów ze zwierzętami ważącymi do ok. 23 kg. Spośród porównywanych systemów ten najlepiej współpracuje z Alexą oraz kamerami i dzwonkami wideo Ring.</p>
+<p><strong>Ograniczenia</strong>: awaryjne łącze komórkowe działa wyłącznie z abonamentem Ring Protect. Bez niego po awarii internetu alarm nie wyśle powiadomień, choć syrena na miejscu nadal zadziała. Współpraca z Google Home i Apple Home jest ograniczona.</p>
+<p><strong>Dla kogo</strong>: dla mieszkań i małych domów oraz dla osób, które mają już urządzenia Ring lub głośniki Echo.</p>
 
-<h3>eufy HomeBase S380: dla tych, którzy mają już kamery eufy</h3>
-<p>HomeBase S380 (zwana też HomeBase 3) nie jest kompletnym zestawem alarmowym, lecz centralą ekosystemu eufy. Obsługuje do 16 kamer eufy oraz czujniki otwarcia, czujniki ruchu i klawiaturę tej marki, sprzedawane osobno. Ma wbudowaną syrenę 100 dB oraz tryby Dom i Poza domem.</p>
-<p><strong>Mocne strony</strong>: nagrania zapisują się lokalnie, na 16 GB wbudowanej pamięci i w miejscu na dysk 2,5 cala do 16 TB. Do przechowywania filmów nie jest potrzebna chmura, a rozpoznawanie twarzy działa lokalnie na wszystkich podłączonych kamerach.</p>
-<p><strong>Ograniczenia</strong>: brak awaryjnego łącza komórkowego i certyfikatu alarmowego. HomeBase łączy się przez Ethernet. Lepiej więc sprawdza się jako uzupełnienie systemu wideo niż jako główny alarm domu na odludziu.</p>
-<p><strong>Dla kogo</strong>: dla domów, które już używają kamer eufy i chcą dodać prostą warstwę alarmową bez miesięcznych opłat.</p>
+<h3>eufy HomeBase S380: dla posiadaczy kamer eufy</h3>
+<p>HomeBase S380 (nazywana też HomeBase 3) nie jest kompletnym zestawem alarmowym, lecz centralą ekosystemu eufy. Obsługuje do 16 kamer eufy oraz sprzedawane osobno czujniki otwarcia, czujniki ruchu i klawiaturę tej marki. Ma wbudowaną syrenę 100 dB oraz tryby „W domu” i „Poza domem”.</p>
+<p><strong>Mocne strony</strong>: nagrania są zapisywane lokalnie – urządzenie ma 16 GB wbudowanej pamięci i gniazdo na dysk 2,5 cala o pojemności do 16 TB. Do przechowywania nagrań nie potrzebujesz chmury, a rozpoznawanie twarzy działa lokalnie dla obrazu ze wszystkich połączonych kamer.</p>
+<p><strong>Ograniczenia</strong>: nie ma awaryjnego łącza komórkowego ani certyfikatu dla systemów alarmowych. HomeBase łączy się z siecią przez Ethernet. Dlatego lepiej sprawdza się jako uzupełnienie monitoringu wideo niż jako główny alarm w domu stojącym na uboczu.</p>
+<p><strong>Dla kogo</strong>: dla osób, które korzystają już z kamer eufy i chcą dodać do nich prosty alarm bez miesięcznych opłat.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>System</th><th>Centrala i łączność</th><th>Zabezpieczenie na wypadek awarii</th><th>Główny atut</th><th>Idealny dla</th></tr>
+<tr><th>System</th><th>Centrala i łączność</th><th>Awaryjne łącze i zasilanie</th><th>Główny atut</th><th>Dla kogo</th></tr>
 </thead>
 <tbody>
-<tr><td>Ajax StarterKit 4G</td><td>Hub 2 (4G), Ethernet + 2 SIM</td><td>4G (Twoja SIM), bateria do 16 h</td><td>Jeweller dalekiego zasięgu, Grade 2</td><td>Domy, budynki gospodarcze</td></tr>
-<tr><td>Somfy Home Alarm Advanced</td><td>Link Advanced, Wi-Fi</td><td>GSM gratis przez 5 lat, 12 h + 14 dni na bateriach</td><td>IntelliTAG przeciw włamaniom</td><td>Wiele okien i drzwi, zwierzęta</td></tr>
-<tr><td>Ring Alarm Pack M (2. gen.)</td><td>Stacja bazowa, Wi-Fi / Ethernet, Z-Wave</td><td>Bateria 24 h, sieć komórkowa z Ring Protect</td><td>Wbudowana syrena, Alexa</td><td>Mieszkania, świat Ring</td></tr>
+<tr><td>Ajax StarterKit 4G</td><td>Hub 2 (4G), Ethernet + 2 SIM</td><td>4G (Twoja karta SIM), akumulator do 16 h</td><td>Jeweller dalekiego zasięgu, Grade 2</td><td>Domy, budynki gospodarcze</td></tr>
+<tr><td>Somfy Home Alarm Advanced</td><td>Link Advanced, Wi-Fi</td><td>GSM bezpłatnie przez 5 lat, 12 h + 14 dni na bateriach</td><td>IntelliTAG wykrywające próby włamania</td><td>Wiele okien i drzwi, zwierzęta</td></tr>
+<tr><td>Ring Alarm Pack M (2. gen.)</td><td>Stacja bazowa, Wi-Fi / Ethernet, Z-Wave</td><td>Akumulator 24 h, łącze komórkowe z Ring Protect</td><td>Wbudowana syrena, Alexa</td><td>Mieszkania, użytkownicy Ring</td></tr>
 <tr><td>eufy HomeBase S380</td><td>HomeBase 3, Ethernet</td><td>Brak awaryjnego łącza</td><td>Lokalny zapis wideo</td><td>Posiadacze kamer eufy</td></tr>
 </tbody>
 </table>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Pomijanie łącza awaryjnego</strong>: alarm zależny wyłącznie od routera traci powiadomienia, gdy kabel zostanie odcięty.</li>
-<li><strong>Umieszczenie centrali na widoku</strong>: zamontuj ją poza zasięgiem wzroku od wejścia, by intruz nie mógł jej odłączyć w kilka sekund.</li>
-<li><strong>Kierowanie czujnika na okno lub grzejnik</strong>: zmiany ciepła i światła to główna przyczyna fałszywych alarmów w czujnikach podczerwieni.</li>
-<li><strong>Zapominanie o okresie próbnym</strong>: zostaw na kilka dni tryb testowy, by ustawić czułość, zwłaszcza przy zwierzętach.</li>
-<li><strong>Jeden wspólny kod</strong>: utwórz dostęp dla każdej osoby, co pozwala śledzić rozbrojenia i odebrać dostęp bez rekonfiguracji całości.</li>
+<li><strong>Pomijanie łącza awaryjnego</strong>: alarm, który łączy się tylko przez domowy internet, przestaje wysyłać powiadomienia, gdy ktoś przetnie kabel.</li>
+<li><strong>Umieszczanie centrali na widoku</strong>: zamontuj ją tak, by nie było jej widać od wejścia – inaczej intruz odłączy ją w kilka sekund.</li>
+<li><strong>Kierowanie czujnika w stronę okna lub grzejnika</strong>: wahania temperatury i światła to najczęstsza przyczyna fałszywych alarmów czujników na podczerwień.</li>
+<li><strong>Pomijanie okresu testowego</strong>: zostaw system na kilka dni w trybie testowym i dopasuj czułość czujników, zwłaszcza jeśli masz zwierzęta.</li>
+<li><strong>Używanie jednego wspólnego kodu</strong>: utwórz osobny dostęp dla każdej osoby – zobaczysz wtedy, kto rozbrajał alarm, i odbierzesz komuś dostęp bez konfigurowania wszystkiego od nowa.</li>
 </ul>
 
-<h2>Instalacja i dobre praktyki</h2>
-<p>Wszystkie cztery systemy montuje się bez okablowania elektrycznego: centralę podłącza się do gniazdka, a czujniki mocuje taśmą dwustronną lub wkrętami. Zacznij od ochrony drzwi wejściowych i dostępnych okien na parterze, a potem dodaj czujnik ruchu w korytarzu, którym się przechodzi. Syrena zewnętrzna, widoczna z ulicy, wzmacnia efekt odstraszający.</p>
-<p>Poinformuj swojego ubezpieczyciela: niektóre umowy wymagają określonego poziomu zabezpieczeń lub dają zniżkę za alarm, a warto wiedzieć, czy system z samodzielnym nadzorem jest akceptowany. Jeśli dodajesz kamery, kieruj je wyłącznie na własną posesję, nie filmując drogi publicznej ani terenu sąsiadów. Żeby uzupełnić zabezpieczenie wejścia do domu, zajrzyj do naszego <a href="/pl/blog/serrure-connectee-guide">poradnika o inteligentnych zamkach</a>, a żeby dopracować wykrywanie, do <a href="/pl/blog/detecteur-mouvement-connecte-comparatif">porównania inteligentnych czujników ruchu</a>.</p>
+<h2>Montaż i dobre praktyki</h2>
+<p>Żaden z czterech systemów nie wymaga prowadzenia przewodów elektrycznych: centralę podłącza się do gniazdka, a czujniki mocuje taśmą dwustronną lub wkrętami. Zacznij od zabezpieczenia drzwi wejściowych i łatwo dostępnych okien na parterze, a potem dodaj czujnik ruchu w korytarzu, przez który trzeba przejść. Widoczna z ulicy syrena zewnętrzna dodatkowo odstrasza.</p>
+<p>Skontaktuj się z ubezpieczycielem: niektóre polisy wymagają określonego poziomu zabezpieczeń albo dają zniżkę za alarm, warto więc sprawdzić, czy system z samodzielnym nadzorem zostanie uznany. Jeśli dokładasz kamery, kieruj je wyłącznie na własną posesję, tak by nie obejmowały ulicy ani działki sąsiadów. Jeśli chcesz lepiej zabezpieczyć drzwi, zajrzyj do naszego <a href="/pl/blog/serrure-connectee-guide">poradnika o inteligentnych zamkach</a>, a jeśli zależy Ci na dokładniejszym wykrywaniu – do <a href="/pl/blog/detecteur-mouvement-connecte-comparatif">porównania inteligentnych czujników ruchu</a>.</p>
 
 <h2>Nasz werdykt</h2>
-<p><strong>Ajax StarterKit 4G to nasz główny wybór</strong>: centrala z Ethernetem i 4G, bateria do 16 godzin, bardzo duży zasięg radiowy i certyfikat Grade 2. To system bez abonamentu najbliższy instalacji profesjonalnej, pod warunkiem że zaplanujesz kartę SIM.</p>
-<p><strong>Somfy Home Alarm Advanced</strong> to najlepsza opcja do wykrywania próby włamania już przy pierwszych wibracjach, z awaryjną siecią GSM oferowaną przez pięć lat. <strong>Ring Alarm Pack M</strong> to najprostsze wejście dla mieszkania lub domu z Alexą, pamiętając, że łącze komórkowe wymaga abonamentu. <strong>eufy HomeBase S380</strong> wreszcie ma sens, jeśli masz już kamery eufy i chcesz dodać pomocniczy alarm z lokalnym zapisem.</p>`,
+<p><strong>Ajax StarterKit 4G to nasz pierwszy wybór</strong>: centrala z Ethernetem i 4G, akumulator na maksymalnie 16 godzin, bardzo duży zasięg radiowy i certyfikat Grade 2. Spośród systemów bez abonamentu najbardziej zbliża się do profesjonalnej instalacji – trzeba tylko pamiętać o karcie SIM.</p>
+<p><strong>Somfy Home Alarm Advanced</strong> najlepiej wykrywa próbę włamania, bo reaguje już na pierwsze drgania, a przez pięć lat zapewnia bezpłatne awaryjne łącze GSM. <strong>Ring Alarm Pack M</strong> to najprostszy zestaw na start do mieszkania lub domu z Alexą; pamiętaj tylko, że awaryjne łącze komórkowe wymaga abonamentu. <strong>eufy HomeBase S380</strong> ma z kolei sens, jeśli masz już kamery eufy i chcesz dodać do nich pomocniczy alarm z lokalnym zapisem nagrań.</p>`,
   },
   faq: [
     {
@@ -583,7 +583,7 @@ export const article: BlogArticle = {
         es: 'Sí, para una vivienda que se ocupa con regularidad. La sirena disuade y el aviso llega al móvil en segundos. La diferencia con la vigilancia profesional es que nadie verifica la alarma por ti: tienes que poder reaccionar o compartir los avisos con alguien de confianza.',
         it: 'Sì, per una casa abitata regolarmente. La sirena dissuade e la notifica arriva sullo smartphone in pochi secondi. La differenza con la vigilanza è che nessuno verifica l’allarme al posto tuo: devi poter reagire o condividere gli avvisi con una persona di fiducia.',
         nl: 'Ja, voor een woning die regelmatig bewoond wordt. De sirene schrikt af en de melding bereikt je smartphone binnen enkele seconden. Het verschil met een meldkamer is dat niemand het alarm voor je verifieert: je moet zelf kunnen reageren of meldingen delen met iemand die je vertrouwt.',
-        pl: 'Tak, w mieszkaniu, w którym regularnie ktoś przebywa. Syrena odstrasza, a powiadomienie dociera na smartfon w kilka sekund. Różnica względem monitoringu polega na tym, że nikt nie weryfikuje alarmu za Ciebie: musisz móc zareagować lub przekazać alerty komuś bliskiemu.',
+        pl: 'Tak, jeśli w domu lub mieszkaniu regularnie ktoś przebywa. Syrena odstrasza, a powiadomienie dociera na smartfon w kilka sekund. W odróżnieniu od monitoringu agencji ochrony nikt nie sprawdza alarmu za Ciebie: musisz być w stanie zareagować albo przekazać powiadomienia komuś bliskiemu.',
       },
     },
     {
@@ -603,7 +603,7 @@ export const article: BlogArticle = {
         es: 'Depende de la red de respaldo. El Ajax StarterKit 4G pasa a 4G con tu tarjeta SIM y la Somfy Home Alarm Advanced a la red GSM incluida cinco años. Ring Alarm deja de enviar avisos sin suscripción Ring Protect, y la eufy HomeBase S380 no tiene respaldo móvil. En todos los casos, la sirena local sigue funcionando con batería.',
         it: 'Dipende dalla rete di backup. L’Ajax StarterKit 4G passa al 4G con la tua SIM e il Somfy Home Alarm Advanced alla rete GSM inclusa per cinque anni. Ring Alarm smette di inviare avvisi senza abbonamento Ring Protect, e la eufy HomeBase S380 non ha backup cellulare. In ogni caso la sirena locale continua a funzionare a batteria.',
         nl: 'Dat hangt af van het back-upnetwerk. De Ajax StarterKit 4G schakelt met je simkaart over op 4G, de Somfy Home Alarm Advanced op het gsm-netwerk dat vijf jaar inbegrepen is. Ring Alarm verstuurt zonder Ring Protect-abonnement geen meldingen meer, en de eufy HomeBase S380 heeft geen mobiele back-up. In alle gevallen blijft de sirene ter plekke op de accu werken.',
-        pl: 'Wszystko zależy od łącza awaryjnego. Ajax StarterKit 4G przełącza się na 4G z Twoją kartą SIM, a Somfy Home Alarm Advanced na GSM wliczone przez pięć lat. Ring Alarm bez abonamentu Ring Protect przestaje wysyłać alerty, a eufy HomeBase S380 nie ma awaryjnego łącza komórkowego. W każdym przypadku lokalna syrena pozostaje aktywna na baterii.',
+        pl: 'Wszystko zależy od łącza awaryjnego. Ajax StarterKit 4G przełącza się na sieć 4G przez Twoją kartę SIM, a Somfy Home Alarm Advanced – na łącze GSM, które przez pięć lat jest w cenie. Ring Alarm bez abonamentu Ring Protect przestaje wysyłać powiadomienia, a eufy HomeBase S380 w ogóle nie ma awaryjnego łącza komórkowego. W każdym z tych systemów syrena działa dalej, zasilana z akumulatora.',
       },
     },
     {
@@ -614,7 +614,7 @@ export const article: BlogArticle = {
         es: '¿El Ajax StarterKit 4G necesita una tarjeta SIM?',
         it: 'L’Ajax StarterKit 4G ha bisogno di una SIM?',
         nl: 'Heeft de Ajax StarterKit 4G een simkaart nodig?',
-        pl: 'Czy do Ajax StarterKit 4G potrzebna jest karta SIM?',
+        pl: 'Czy zestaw Ajax StarterKit 4G wymaga karty SIM?',
       },
       answer: {
         fr: 'Elle est fortement conseillée. Le Hub 2 se connecte en Ethernet, sans Wi-Fi, et la carte SIM sert de canal de secours. Il ne s’agit pas d’un abonnement Ajax, mais d’un forfait mobile de votre choix : un petit forfait data suffit.',
@@ -623,7 +623,7 @@ export const article: BlogArticle = {
         es: 'Es muy recomendable. El Hub 2 se conecta por Ethernet, sin wifi, y la SIM hace de canal de respaldo. No es una cuota de Ajax, sino una tarifa móvil que eliges tú: basta con una tarifa de datos pequeña.',
         it: 'È fortemente consigliata. L’Hub 2 si collega via Ethernet, senza Wi-Fi, e la SIM fa da canale di backup. Non è un abbonamento Ajax ma un piano mobile a tua scelta: basta un piccolo piano dati.',
         nl: 'Die is sterk aan te raden. De Hub 2 wordt via ethernet aangesloten, zonder wifi, en de simkaart dient als back-upkanaal. Het is geen Ajax-abonnement maar een mobiel abonnement naar keuze: een kleine databundel volstaat.',
-        pl: 'Jest zdecydowanie zalecana. Hub 2 łączy się przez Ethernet, bez Wi-Fi, a karta SIM służy jako kanał awaryjny. To nie abonament Ajax, lecz pakiet u wybranego przez Ciebie operatora: wystarczy mały pakiet danych.',
+        pl: 'Zdecydowanie warto ją mieć. Hub 2 łączy się przez Ethernet (nie ma Wi-Fi), a karta SIM służy jako kanał awaryjny. To nie abonament Ajax, tylko oferta wybranego przez Ciebie operatora komórkowego – wystarczy niewielki pakiet internetu.',
       },
     },
     {
@@ -643,7 +643,7 @@ export const article: BlogArticle = {
         es: 'El detector Ajax MotionProtect es inmune a mascotas de hasta 20 kg y 50 cm de altura. Con Somfy, los IntelliTAG protegen puertas y ventanas sin un detector de movimiento activo en las estancias. Los detectores de Ring tienen un ajuste de sensibilidad baja pensado para mascotas. En cualquier caso, ajusta la configuración durante unos días.',
         it: 'Il rilevatore Ajax MotionProtect è immune agli animali fino a 20 kg e 50 cm di altezza. Con Somfy, gli IntelliTAG proteggono porte e finestre senza un rilevatore di movimento attivo nelle stanze. I rilevatori Ring hanno un’impostazione di sensibilità bassa pensata per gli animali. In ogni caso, regola le impostazioni per qualche giorno.',
         nl: 'De Ajax MotionProtect is immuun voor huisdieren tot 20 kg en 50 cm hoog. Bij Somfy beveiligen de IntelliTAG-sensoren deuren en ramen zonder actieve bewegingsmelder in de woonruimtes. De Ring-bewegingsmelders hebben een lage gevoeligheidsstand voor huisdieren. Stel de instellingen hoe dan ook een paar dagen bij.',
-        pl: 'Czujnik Ajax MotionProtect jest odporny na zwierzęta do 20 kg i 50 cm wysokości. W Somfy IntelliTAG chronią drzwi i okna bez aktywnego czujnika ruchu w pomieszczeniach. Czujniki Ring mają niskie ustawienie czułości przeznaczone dla zwierząt. W każdym przypadku dostosuj ustawienia w ciągu kilku dni.',
+        pl: 'Czujnik Ajax MotionProtect nie reaguje na zwierzęta o wadze do 20 kg i wysokości do 50 cm. W systemie Somfy czujniki IntelliTAG chronią drzwi i okna, więc czujnik ruchu w pokojach może pozostać wyłączony. Czujniki Ring mają niski poziom czułości przeznaczony dla domów ze zwierzętami. Niezależnie od systemu poświęć kilka dni na dopracowanie ustawień.',
       },
     },
     {
@@ -663,7 +663,7 @@ export const article: BlogArticle = {
         es: 'Sí. Los cuatro sistemas de esta comparativa son inalámbricos: la central va enchufada, los sensores se fijan con adhesivo o tornillos y la app guía el emparejamiento. No hace falta ningún trabajo eléctrico.',
         it: 'Sì. Tutti e quattro i sistemi del confronto sono wireless: la centrale va in una presa, i sensori si fissano con adesivo o viti e l’app guida l’abbinamento. Non serve alcun lavoro elettrico.',
         nl: 'Ja. Alle vier de systemen in deze vergelijking zijn draadloos: de centrale gaat in het stopcontact, sensoren bevestig je met tape of schroeven en de app begeleidt het koppelen. Elektrisch werk is niet nodig.',
-        pl: 'Tak. Wszystkie cztery systemy z tego porównania są bezprzewodowe: centralę podłącza się do gniazdka, czujniki mocuje się taśmą lub wkrętami, a aplikacja prowadzi przez parowanie. Nie są potrzebne żadne prace elektryczne.',
+        pl: 'Tak. Wszystkie cztery systemy z tego porównania są bezprzewodowe: centralę podłącza się do gniazdka, czujniki mocuje taśmą lub wkrętami, a aplikacja krok po kroku prowadzi przez parowanie urządzeń. Nie trzeba wykonywać żadnych prac elektrycznych.',
       },
     },
     {
@@ -674,7 +674,7 @@ export const article: BlogArticle = {
         es: '¿Acepta mi seguro una alarma sin cuotas?',
         it: 'La mia assicurazione accetta un allarme senza abbonamento?',
         nl: 'Accepteert mijn verzekeraar een alarm zonder abonnement?',
-        pl: 'Czy moje ubezpieczenie akceptuje alarm bez abonamentu?',
+        pl: 'Czy ubezpieczyciel zaakceptuje alarm bez abonamentu?',
       },
       answer: {
         fr: 'Cela dépend du contrat. Certains assureurs accordent une réduction pour toute alarme, d’autres exigent une télésurveillance ou un niveau de certification précis. Demandez les conditions avant d’acheter et conservez la documentation du système.',
@@ -683,7 +683,7 @@ export const article: BlogArticle = {
         es: 'Depende de la póliza. Algunas aseguradoras aplican un descuento por cualquier alarma y otras exigen vigilancia profesional o un nivel de certificación concreto. Consulta las condiciones antes de comprar y guarda la documentación del sistema.',
         it: 'Dipende dalla polizza. Alcune assicurazioni concedono uno sconto per qualsiasi allarme, altre richiedono la vigilanza professionale o un livello di certificazione preciso. Verifica le condizioni prima dell’acquisto e conserva la documentazione del sistema.',
         nl: 'Dat hangt af van je polis. Sommige verzekeraars geven korting voor elk alarm, andere eisen professionele bewaking of een bepaald certificeringsniveau. Vraag de voorwaarden na vóór je koopt en bewaar de documentatie van het systeem.',
-        pl: 'To zależy od umowy. Niektórzy ubezpieczyciele dają zniżkę za każdy alarm, inni wymagają monitoringu lub określonego poziomu certyfikacji. Zapytaj o warunki przed zakupem i zachowaj dokumentację systemu.',
+        pl: 'To zależy od polisy. Niektórzy ubezpieczyciele dają zniżkę za każdy alarm, inni wymagają monitoringu agencji ochrony lub określonego stopnia certyfikacji. Zapytaj o warunki przed zakupem i zachowaj dokumentację systemu.',
       },
     },
   ],

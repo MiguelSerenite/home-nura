@@ -38,13 +38,13 @@ const t: Record<string, Record<string, string>> = {
   about:        { fr: 'À propos', de: 'Über uns', es: 'Sobre nosotros', it: 'Chi siamo', nl: 'Over ons', pl: 'O nas', en: 'About' },
   openMenu:     { fr: 'Ouvrir le menu', de: 'Menü öffnen', es: 'Abrir menú', it: 'Apri menu', nl: 'Menu openen', pl: 'Otwórz menu', en: 'Open menu' },
   closeMenu:    { fr: 'Fermer le menu', de: 'Menü schließen', es: 'Cerrar menú', it: 'Chiudi menu', nl: 'Menu sluiten', pl: 'Zamknij menu', en: 'Close menu' },
-  langue:       { fr: 'Langue / Région', de: 'Sprache / Region', es: 'Idioma / Región', it: 'Lingua / Regione', nl: 'Taal / Regio', pl: 'Język / Region', en: 'Language / Region' },
+  langue:       { fr: 'Langue / Région', de: 'Sprache / Region', es: 'Idioma / Región', it: 'Lingua / Regione', nl: 'Taal / Regio', pl: 'Język / region', en: 'Language / Region' },
   /* Silo labels */
-  securite:   { fr: 'Sécurité maison', de: 'Haussicherheit', es: 'Seguridad hogar', it: 'Sicurezza casa', nl: 'Huisbeveiliging', pl: 'Ochrona domu', en: 'Home security' },
-  energie:    { fr: 'Énergie & domotique', de: 'Energie & Smart Home', es: 'Energía & domótica', it: 'Energia & domotica', nl: 'Energie & domotica', pl: 'Energia i smart home', en: 'Energy & smart home' },
-  confort:    { fr: 'Confort & air', de: 'Komfort & Luft', es: 'Confort & aire', it: 'Comfort & aria', nl: 'Comfort & lucht', pl: 'Komfort i klimat', en: 'Comfort & air' },
+  securite:   { fr: 'Sécurité maison', de: 'Haussicherheit', es: 'Seguridad hogar', it: 'Sicurezza casa', nl: 'Huisbeveiliging', pl: 'Bezpieczeństwo', en: 'Home security' },
+  energie:    { fr: 'Énergie & domotique', de: 'Energie & Smart Home', es: 'Energía & domótica', it: 'Energia & domotica', nl: 'Energie & domotica', pl: 'Energia', en: 'Energy & smart home' },
+  confort:    { fr: 'Confort & air', de: 'Komfort & Luft', es: 'Confort & aire', it: 'Comfort & aria', nl: 'Comfort & lucht', pl: 'Komfort i powietrze', en: 'Comfort & air' },
   entretien:  { fr: 'Entretien maison', de: 'Haushaltsgeräte', es: 'Limpieza hogar', it: 'Pulizia casa', nl: 'Huishoudelijk', pl: 'Sprzątanie', en: 'Home care' },
-  outdoor:    { fr: 'Jardin & outdoor', de: 'Garten & outdoor', es: 'Jardín & outdoor', it: 'Giardino & outdoor', nl: 'Tuin & outdoor', pl: 'Ogród i outdoor', en: 'Garden & outdoor' },
+  outdoor:    { fr: 'Jardin & outdoor', de: 'Garten & outdoor', es: 'Jardín & outdoor', it: 'Giardino & outdoor', nl: 'Tuin & outdoor', pl: 'Ogród', en: 'Garden & outdoor' },
 }
 
 const l = (key: string, lang: string) => t[key]?.[lang] ?? t[key]?.en ?? key

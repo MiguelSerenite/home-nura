@@ -59,23 +59,23 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
     pl: [
       {
         question: "Czy frytkownica beztłuszczowa zużywa mniej prądu niż piekarnik?",
-        answer: "Tak, przy małych i średnich porcjach frytkownica beztłuszczowa zwykle zużywa mniej energii niż klasyczny piekarnik, bo jej niewielka komora szybko się nagrzewa i wymaga krótkiego podgrzewania. Przy dużej ilości jedzenia lub obszernym daniu lepszy pozostaje piekarnik. Sprawdź moc w watach w karcie produktu i porównaj ją z rzeczywistym czasem gotowania.",
+        answer: "Tak, przy małych i średnich porcjach frytkownica beztłuszczowa zużywa zwykle mniej energii niż tradycyjny piekarnik, bo jej niewielka komora szybko się nagrzewa i wymaga krótkiego nagrzewania wstępnego. Przy dużej ilości jedzenia lub większym daniu lepiej sprawdzi się piekarnik. Sprawdź moc w watach w karcie produktu i zestaw ją z rzeczywistym czasem pieczenia.",
       },
       {
         question: "Jaką pojemność frytkownicy beztłuszczowej wybrać dla rodziny?",
-        answer: "Przyjmij około 3–4 litrów dla jednej–dwóch osób i 5–6 litrów dla rodziny z trójką lub czwórką domowników. Przy większych potrzebach model z dwiema szufladami pozwala przyrządzać dwa produkty jednocześnie. Zbyt mały kosz zmusza do gotowania na raty, co niweluje oszczędność czasu i energii.",
+        answer: "Dla jednej lub dwóch osób wystarczy około 3–4 litrów, a dla rodziny trzy- lub czteroosobowej – 5–6 litrów. Przy większych potrzebach model z dwiema szufladami pozwala przyrządzać dwie potrawy jednocześnie. Zbyt mała komora zmusza do smażenia na raty, co niweczy oszczędność czasu i energii.",
       },
       {
         question: "Czy inteligentne urządzenie kuchenne potrzebuje Wi-Fi do działania?",
-        answer: "Nie, większość inteligentnych urządzeń kuchennych można obsługiwać także ręcznie; Wi-Fi służy głównie do przepisów krok po kroku, powiadomień i aktualizacji. Przed zakupem sprawdź, co działa offline, i przeczytaj politykę prywatności aplikacji, bo przesyłane dane podlegają RODO.",
+        answer: "Nie, większość inteligentnych urządzeń kuchennych można obsługiwać także ręcznie; Wi-Fi służy głównie do przepisów krok po kroku, powiadomień i aktualizacji. Przed zakupem sprawdź, które funkcje działają bez internetu, i przeczytaj politykę prywatności aplikacji, bo przesyłane dane podlegają RODO.",
       },
       {
-        question: "Czy można podłączyć urządzenie kuchenne do inteligentnej wtyczki?",
-        answer: "Tak, pod warunkiem że inteligentna wtyczka obsługuje moc wyższą niż urządzenie, podaną w watach na jego tabliczce znamionowej. Urządzenia o dużym poborze, takie jak czajniki czy frytkownice beztłuszczowe, często wymagają wtyczki 16 A. Nie zostawiaj urządzenia grzewczego bez nadzoru, nawet jeśli sterujesz nim zdalnie.",
+        question: "Czy można podłączyć urządzenie kuchenne do inteligentnego gniazdka?",
+        answer: "Tak, pod warunkiem że inteligentne gniazdko wytrzymuje większą moc niż urządzenie – znajdziesz ją w watach na jego tabliczce znamionowej. Urządzenia o dużym poborze mocy, takie jak czajniki czy frytkownice beztłuszczowe, często wymagają gniazdka 16 A. Nie zostawiaj urządzenia grzewczego bez nadzoru, nawet jeśli możesz sterować nim zdalnie.",
       },
       {
         question: "Multicooker czy wolnowar: co wybrać?",
-        answer: "Multicooker jest bardziej uniwersalny: zwykle łączy gotowanie pod ciśnieniem, powolne duszenie, smażenie i gotowanie na parze w jednym naczyniu, a wolnowar potrafi tylko gotować powoli. Jeśli gotujesz szybko i różnorodnie, wybierz multicooker; jeśli zależy Ci wyłącznie na daniach duszonych, wystarczy wolnowar, który kosztuje mniej.",
+        answer: "Multicooker jest bardziej uniwersalny: zwykle łączy w jednym naczyniu gotowanie pod ciśnieniem, powolne duszenie, podsmażanie i gotowanie na parze, a wolnowar potrafi tylko gotować powoli. Jeśli gotujesz szybko i różnorodnie, wybierz multicooker; jeśli interesują Cię wyłącznie dania duszone, wystarczy wolnowar, który jest tańszy.",
       },
     ],
   },
@@ -124,24 +124,24 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
     ],
     pl: [
       {
-        question: "Czy potrzebny jest hub do urządzeń zgodnych z Matter?",
-        answer: "Nie zawsze: urządzenie Matter działające przez Wi-Fi współpracuje ze zgodnym kontrolerem, takim jak HomePod, głośnik Google lub Alexa. Urządzenia Matter w technologii Thread wymagają routera granicznego Thread, często wbudowanego w te same głośniki. Sprawdź zgodność swojego ekosystemu, zanim kupisz osobny hub.",
+        question: "Czy do urządzeń zgodnych z Matter potrzebny jest hub?",
+        answer: "Nie zawsze: urządzenie Matter działające przez Wi-Fi współpracuje ze zgodnym kontrolerem, takim jak HomePod, głośnik Google czy głośnik z Alexą. Urządzenia Matter korzystające z Thread wymagają natomiast routera brzegowego Thread, który często jest wbudowany w te same głośniki. Zanim kupisz osobny hub, sprawdź zgodność swojego ekosystemu.",
       },
       {
         question: "Czy inteligentny termostat naprawdę pozwala oszczędzać na ogrzewaniu?",
-        answer: "Tak, może zmniejszyć zużycie, programując temperaturę według Twojego rozkładu dnia i wyłączając ogrzewanie pod Twoją nieobecność, ale oszczędność zależy od izolacji mieszkania i Twoich nawyków. Sprawdź zgodność z kotłem lub grzejnikami i wybierz model, który potrafi sterować każdym pomieszczeniem osobno.",
+        answer: "Tak, może zmniejszyć zużycie, bo ustawia temperaturę zgodnie z Twoim planem dnia i wyłącza ogrzewanie, gdy nie ma Cię w domu, ale oszczędność zależy od izolacji budynku i Twoich nawyków. Sprawdź zgodność z kotłem lub grzejnikami i wybierz model, który pozwala sterować każdym pomieszczeniem osobno.",
       },
       {
-        question: "Czy zestawy fotowoltaiczne na balkon są dozwolone w Europie?",
-        answer: "W wielu krajach europejskich tak, w granicach mocy, które różnią się w zależności od kraju; w Niemczech na przykład typowy limit to 800 W po stronie falownika. Sprawdź lokalne przepisy, ewentualne obowiązki zgłoszenia do operatora sieci oraz to, czy falownik ma certyfikat zgodny z normami europejskimi.",
+        question: "Czy elektrownie balkonowe są dozwolone w Europie?",
+        answer: "W wielu krajach europejskich tak, choć dopuszczalna moc różni się w zależności od kraju; w Niemczech na przykład typowy limit wynosi 800 W po stronie falownika. Sprawdź lokalne przepisy, ewentualny obowiązek zgłoszenia instalacji operatorowi sieci oraz to, czy falownik ma certyfikat zgodności z normami europejskimi.",
       },
       {
-        question: "Jak sprawdzić, które urządzenia w moim domu zużywają najwięcej prądu?",
-        answer: "Podłącz podejrzane urządzenia do inteligentnej wtyczki z pomiarem zużycia, która pokazuje waty w czasie rzeczywistym i skumulowane kilowatogodziny. Aby zobaczyć cały dom, licznik energii z cęgami zamontowany w rozdzielnicy mierzy pobór całego budynku. Wybierz wtyczkę w standardzie europejskim o maksymalnej mocy dopasowanej do urządzenia.",
+        question: "Jak sprawdzić, które urządzenia w domu zużywają najwięcej prądu?",
+        answer: "Podłącz podejrzane urządzenia do inteligentnego gniazdka z pomiarem zużycia energii, które pokazuje bieżący pobór w watach i łączne zużycie w kilowatogodzinach. Całe mieszkanie lub dom obejmie miernik zużycia energii z cęgami zamontowany w rozdzielnicy. Wybierz gniazdko w standardzie europejskim, o maksymalnym obciążeniu dopasowanym do urządzenia.",
       },
       {
-        question: "Czy domowy magazyn energii ma sens z panelami fotowoltaicznymi na balkon?",
-        answer: "Ma sens głównie wtedy, gdy Twoja produkcja przekracza zużycie w ciągu dnia, a więcej energii zużywasz wieczorem. Bez regularnej nadwyżki magazyn jest mało wykorzystywany. Porównaj jego pojemność w kWh ze swoim wieczornym zużyciem i przed zakupem sprawdź zgodność z falownikiem.",
+        question: "Czy domowy magazyn energii ma sens przy elektrowni balkonowej?",
+        answer: "Przydaje się głównie wtedy, gdy w ciągu dnia produkujesz więcej energii, niż zużywasz, a więcej prądu potrzebujesz wieczorem. Bez regularnych nadwyżek magazyn będzie rzadko wykorzystywany. Przed zakupem porównaj jego pojemność w kWh ze swoim wieczornym zużyciem i sprawdź zgodność z falownikiem.",
       },
     ],
   },
@@ -190,24 +190,24 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
     ],
     pl: [
       {
-        question: "Która kamera monitoringu działa bez abonamentu?",
-        answer: "Kamery nagrywające lokalnie, na karcie microSD, rejestratorze lub domowej stacji bazowej, działają bez abonamentu. Przechowywanie w chmurze jest zwykle płatne lub ograniczone. Sprawdź też, czy kamera obsługuje otwarte protokoły, takie jak ONVIF lub RTSP, i wybieraj lokalny zapis, aby lepiej kontrolować swoje dane w świetle RODO.",
+        question: "Jaka kamera monitoringu działa bez abonamentu?",
+        answer: "Bez abonamentu działają kamery, które nagrywają lokalnie: na kartę microSD, na rejestrator albo do domowej stacji bazowej. Zapis w chmurze jest zwykle płatny lub ograniczony. Sprawdź też, czy kamera obsługuje otwarte protokoły, takie jak ONVIF lub RTSP, i stawiaj na zapis lokalny – łatwiej wtedy kontrolować swoje dane, co ma znaczenie także z punktu widzenia RODO.",
       },
       {
         question: "Czy wolno filmować kamerą otoczenie własnego domu?",
-        answer: "Co do zasady kamera powinna obejmować wyłącznie Twoją posesję, bez kadrowania drogi publicznej i sąsiadów, ponieważ RODO i przepisy krajowe regulują rejestrowanie obrazu. Szczegółowe zasady różnią się w zależności od kraju: zasięgnij informacji w lokalnym organie ochrony danych i odpowiednio ustaw kąt kamery.",
+        answer: "Co do zasady kamera powinna obejmować wyłącznie Twoją posesję, bez drogi publicznej i terenu sąsiadów, bo rejestrowanie obrazu regulują RODO i przepisy krajowe. Szczegółowe zasady różnią się w zależności od kraju: dowiedz się, co mówi na ten temat krajowy urząd ochrony danych osobowych, i odpowiednio ustaw kąt kamery.",
       },
       {
-        question: "Czy inteligentny zamek jest bezpieczny i co się stanie, gdy bateria się rozładuje?",
-        answer: "Dobry inteligentny zamek ostrzega na długo przed rozładowaniem baterii i zachowuje klucz mechaniczny lub awaryjny kod do otwarcia drzwi. Sprawdź, czy pasuje do Twojej europejskiej wkładki, czy działa przez Bluetooth także bez Wi-Fi i czy komunikacja jest szyfrowana.",
+        question: "Czy inteligentny zamek jest bezpieczny i co się stanie, gdy rozładuje się bateria?",
+        answer: "Porządny inteligentny zamek ostrzega o rozładowaniu baterii z dużym wyprzedzeniem i pozwala otworzyć drzwi zwykłym kluczem lub kodem awaryjnym. Sprawdź, czy pasuje do Twojej wkładki europejskiej, czy działa przez Bluetooth także bez Wi-Fi i czy komunikacja jest szyfrowana.",
       },
       {
-        question: "Czy do inteligentnego alarmu potrzebny jest monitoring całodobowy?",
-        answer: "Nie, monitoring przez profesjonalne centrum jest opcjonalny: inteligentny alarm może wysyłać powiadomienia na telefon i uruchamiać syrenę bez abonamentu. Monitoring dodaje reakcję człowieka, ale wiąże się z miesięcznym kosztem. Wybierz zależnie od tego, czy możesz sam reagować na alerty.",
+        question: "Czy do inteligentnego alarmu potrzebny jest monitoring agencji ochrony?",
+        answer: "Nie, monitoring prowadzony przez agencję ochrony jest opcjonalny: inteligentny alarm może wysyłać powiadomienia na telefon i włączać syrenę bez abonamentu. Monitoring zapewnia reakcję człowieka, ale wiąże się z comiesięczną opłatą. Wybierz rozwiązanie zależnie od tego, czy jesteś w stanie samodzielnie reagować na alarmy.",
       },
       {
-        question: "Gdzie zainstalować czujnik dymu i tlenku węgla?",
-        answer: "Zamontuj czujnik dymu na korytarzach prowadzących do sypialni i po jednym na każdym piętrze, a czujnik czadu w pobliżu urządzeń spalających paliwo i sypialni. Wybieraj modele zgodne z normami EN 14604 dla dymu i EN 50291 dla CO oraz takie, które można ze sobą połączyć, aby wszystkie alarmy dzwoniły jednocześnie.",
+        question: "Gdzie zamontować czujnik dymu i czujnik czadu?",
+        answer: "Czujniki dymu montuj na korytarzach prowadzących do sypialni i po jednym na każdym piętrze, a czujnik czadu – w pobliżu urządzeń, w których spala się paliwo, oraz przy sypialniach. Wybieraj modele zgodne z normą EN 14604 (dym) i EN 50291 (czad), które można połączyć ze sobą, tak by w razie zagrożenia wszystkie alarmowały jednocześnie.",
       },
     ],
   },
@@ -257,23 +257,23 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
     pl: [
       {
         question: "Czy osuszacz powietrza zużywa dużo prądu?",
-        answer: "Nie, osuszacz ze sprężarką zwykle pobiera 200–400 W, czyli około 0,2–0,4 kWh na godzinę pracy. Nie pracuje bez przerwy, jeśli higrostat jest ustawiony na 50–55%. Porównaj waty, litry wody usuwane na dobę i obecność automatycznego wyłącznika; modele adsorpcyjne zużywają więcej.",
+        answer: "Nie, osuszacz kondensacyjny (ze sprężarką) pobiera zwykle 200–400 W, czyli około 0,2–0,4 kWh na godzinę pracy. Nie pracuje bez przerwy, jeśli higrostat jest ustawiony na 50–55%. Porównaj moc w watach, wydajność w litrach na dobę i to, czy urządzenie ma automatyczne wyłączanie; modele adsorpcyjne zużywają więcej prądu.",
       },
       {
-        question: "Jaka wilgotność jest idealna w domu?",
-        answer: "Wilgotność 40–60% jest zwykle uznawana za komfortową i zdrową w mieszkaniu. Poniżej tego poziomu powietrze podrażnia drogi oddechowe, powyżej rozwijają się pleśń i roztocza. Higrometr lub inteligentna stacja pogodowa pozwala śledzić wartość w każdym pomieszczeniu i uruchamiać nawilżacz lub osuszacz powietrza.",
+        question: "Jaka wilgotność powietrza jest idealna w domu?",
+        answer: "Za komfortową i zdrową w mieszkaniu uznaje się zwykle wilgotność 40–60%. Gdy jest niższa, suche powietrze podrażnia drogi oddechowe; gdy wyższa – rozwijają się pleśń i roztocza. Higrometr lub inteligentna stacja pogodowa pozwala śledzić wilgotność w każdym pomieszczeniu i w razie potrzeby uruchamiać nawilżacz lub osuszacz.",
       },
       {
         question: "Czy oczyszczacz powietrza jest skuteczny przy alergii?",
-        answer: "Tak, oczyszczacz z filtrem HEPA zmniejsza ilość pyłków, sierści zwierząt i części unoszącego się kurzu. Nie zastępuje wietrzenia ani sprzątania. Sprawdź klasę filtra (H13 lub wyższą), wydajność oczyszczania powietrza (CADR) dopasowaną do pomieszczenia oraz koszt wymiany filtrów.",
+        answer: "Tak, oczyszczacz z filtrem HEPA zmniejsza ilość pyłków, sierści zwierząt i części kurzu unoszącego się w powietrzu. Nie zastąpi jednak wietrzenia ani sprzątania. Sprawdź klasę filtra (H13 lub wyższa), wydajność oczyszczania (CADR) dopasowaną do pomieszczenia i koszt wymiany filtrów.",
       },
       {
-        question: "Jaką moc oczyszczacza powietrza wybrać do mojego pokoju?",
-        answer: "Wybierz oczyszczacz, którego wydajność (CADR, w m³/h) odpowiada powierzchni pomieszczenia; powszechna reguła to CADR co najmniej równy dwóm trzecim powierzchni w m² przy standardowej wysokości sufitu. Przy alergiach celuj wyżej. Sprawdź też poziom hałasu w trybie nocnym.",
+        question: "Jaką wydajność oczyszczacza powietrza wybrać do pokoju?",
+        answer: "Wybierz oczyszczacz, którego wydajność (CADR, w m³/h) odpowiada powierzchni pomieszczenia; popularna reguła mówi, że CADR powinien wynosić co najmniej dwie trzecie powierzchni w m² przy standardowej wysokości sufitu. Alergicy powinni celować wyżej. Sprawdź też głośność w trybie nocnym.",
       },
       {
-        question: "Czy klimatyzator przenośny jest skuteczny i ekonomiczny?",
-        answer: "Klimatyzator przenośny schładza pomieszczenie bez montażu, ale jest mniej wydajny niż stały split, zwłaszcza modele jednowężowe, które zasysają powietrze z pomieszczenia. Zajrzyj do europejskiej etykiety energetycznej: liczą się klasa i moc chłodnicza. Model dwuwężowy, dobrze uszczelnione okno i programator ograniczają zużycie.",
+        question: "Czy klimatyzator przenośny jest wydajny i tani w eksploatacji?",
+        answer: "Klimatyzator przenośny schłodzi pomieszczenie bez żadnych prac montażowych, ale jest mniej wydajny niż klimatyzator typu split, zwłaszcza w wersji jednowężowej, która zasysa powietrze z pokoju. Zajrzyj na europejską etykietę energetyczną: liczą się klasa energetyczna i moc chłodnicza. Model dwuwężowy, dobre uszczelnienie okna i programator ograniczają zużycie prądu.",
       },
     ],
   },
@@ -322,24 +322,24 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
     ],
     pl: [
       {
-        question: "Czy robot odkurzający sprawdza się przy zwierzętach?",
-        answer: "Tak, robot odkurzający bardzo się przydaje przy psach i kotach, bo sprząta codziennie i ogranicza gromadzenie się sierści. Wybierz szczotkę odporną na plątanie, pojemnik o dużej pojemności i dobrą siłę ssania. Model ze stacją samoopróżniającą ogranicza obsługę; pamiętaj, by regularnie opróżniać lub czyścić szczotkę i filtr.",
+        question: "Czy robot sprzątający sprawdzi się, jeśli masz zwierzęta?",
+        answer: "Tak, przy psie lub kocie robot odkurzający bardzo się przydaje, bo sprząta codziennie i nie pozwala, by sierść się gromadziła. Wybierz model ze szczotką, na którą nie nawijają się włosy, z dużym pojemnikiem na kurz i dobrą siłą ssania. Stacja samoopróżniająca zmniejsza liczbę czynności przy obsłudze; mimo to pamiętaj o regularnym opróżnianiu lub czyszczeniu szczotki i filtra.",
       },
       {
         question: "Czy robot sprzątający z mopem naprawdę dobrze myje?",
-        answer: "Robot 2 w 1 dobrze utrzymuje twarde podłogi na co dzień, ale nie zastąpi ręcznego szorowania zaschniętych plam. Nowsze modele z obrotowym mopem lub stacją, która pierze i suszy nakładkę, radzą sobie lepiej. Sprawdź, czy robot unosi mopa na dywanach.",
+        answer: "Robot 2 w 1 dobrze dba o twarde podłogi na co dzień, ale nie zastąpi ręcznego mycia zaschniętych plam. Lepiej radzą sobie nowsze modele z obrotowymi mopami lub ze stacją, która pierze i suszy nakładki. Sprawdź, czy robot unosi mop na dywanach.",
       },
       {
-        question: "Czy robot odkurzający z kamerą jest bezpieczny dla prywatności?",
-        answer: "Robot z kamerą może szanować prywatność, jeśli obrazy nie opuszczają urządzenia albo kontrolujesz ich wysyłanie. Wybierz model z nawigacją LiDAR, bez kamery, lub taki, w którym kamerę można wyłączyć, oraz markę, która jasno opisuje przetwarzanie danych zgodnie z RODO. Zabezpiecz konto unikalnym hasłem.",
+        question: "Czy robot odkurzający z kamerą nie zagraża prywatności?",
+        answer: "Robot z kamerą nie musi naruszać prywatności, jeśli obraz nie opuszcza urządzenia albo masz kontrolę nad tym, co jest wysyłane. Wybierz model z nawigacją LiDAR bez kamery lub z kamerą, którą można wyłączyć, oraz markę, która jasno opisuje przetwarzanie danych zgodnie z RODO. Zabezpiecz konto unikalnym hasłem.",
       },
       {
-        question: "LiDAR czy kamera: jaką nawigację wybrać dla robota odkurzającego?",
-        answer: "LiDAR szybko mapuje i działa nawet w ciemności, więc to dobry wybór domyślny; kamera lepiej rozpoznaje niektóre przeszkody, jak kable czy skarpetki. Wiele modeli łączy obie technologie. Sprawdź możliwość tworzenia stref zakazanych i zapisywania map kilku pięter.",
+        question: "LiDAR czy kamera: jaką nawigację wybrać w robocie odkurzającym?",
+        answer: "LiDAR szybko tworzy mapę i działa nawet w ciemności, dlatego jest dobrym wyborem domyślnym; kamera lepiej rozpoznaje niektóre przeszkody, np. kable czy skarpetki. Wiele modeli łączy obie technologie. Sprawdź, czy robot pozwala wyznaczać strefy zakazane i zapisywać mapy kilku pięter.",
       },
       {
         question: "Czy robot do mycia okien jest bezpieczny i skuteczny?",
-        answer: "Tak, robot do mycia okien samodzielnie czyści gładką szybę, pod warunkiem że jest zabezpieczony linką i ma awaryjną baterię na wypadek przerwy w dostawie prądu. Gorzej nadaje się do bardzo brudnych szyb lub grubych ram. Sprawdź minimalny rozmiar szyby, przyczepność i wykrywanie krawędzi.",
+        answer: "Tak, robot do mycia okien samodzielnie umyje gładką szybę, pod warunkiem że jest przypięty linką asekuracyjną i ma akumulator awaryjny na wypadek zaniku zasilania. Gorzej radzi sobie z bardzo brudnymi szybami i grubymi ramami. Sprawdź minimalny rozmiar szyby, przyczepność i wykrywanie krawędzi.",
       },
     ],
   },
@@ -388,24 +388,24 @@ const SILO_FAQS: Record<string, Record<Lang, readonly SiloFaqItem[]>> = {
     ],
     pl: [
       {
-        question: "Czy robot koszący potrzebuje przewodu granicznego?",
-        answer: "Nie, coraz więcej robotów koszących działa bez przewodu granicznego dzięki GPS/RTK lub systemowi wizyjnemu, choć przewód pozostaje najlepiej sprawdzoną metodą. Model bez przewodu oszczędza instalacji, pod warunkiem że ma dobry widok na niebo lub skuteczny system wizyjny. Sprawdź obsługę nachyleń, maksymalną powierzchnię i strefy zakazane.",
+        question: "Czy robot koszący potrzebuje przewodu ograniczającego?",
+        answer: "Nie, coraz więcej robotów koszących działa bez przewodu ograniczającego dzięki GPS/RTK lub kamerom, choć przewód wciąż jest najlepiej sprawdzoną metodą. Model bez przewodu nie wymaga instalacji, pod warunkiem że niebo nad ogrodem nie jest zasłonięte albo kamera ma dobrą widoczność. Sprawdź, jak robot radzi sobie ze spadkami terenu, jaką maksymalną powierzchnię obsługuje i czy pozwala wyznaczać strefy zakazane.",
       },
       {
         question: "Czy robot koszący może bezpiecznie kosić w nocy?",
-        answer: "Lepiej unikać koszenia nocą, bo zwierzęta, takie jak jeże, mogą zostać zranione przez noże. Zaprogramuj robota na dzień albo wybierz model z wykrywaniem przeszkód i mało agresywnymi nożami. Kod PIN i alarm antykradzieżowy zmniejszają ryzyko kradzieży.",
+        answer: "Lepiej nie kosić w nocy, bo noże mogą zranić dzikie zwierzęta, np. jeże. Ustaw koszenie w ciągu dnia albo wybierz model z wykrywaniem przeszkód i mniej niebezpiecznymi nożami. Kod PIN i alarm antykradzieżowy zmniejszają ryzyko kradzieży.",
       },
       {
         question: "Czy inteligentne nawadnianie pozwala oszczędzać wodę?",
-        answer: "Tak, inteligentny sterownik nawadniania może ograniczyć marnowanie wody, dostosowując cykle do pogody, deszczu lub wilgotności gleby. Oszczędność zależy od dokładności ustawień i jakości instalacji. Sprawdź liczbę stref, zgodność z kranem lub zaworem elektromagnetycznym oraz obsługę Matter lub asystenta głosowego.",
+        answer: "Tak, inteligentny sterownik nawadniania może ograniczyć marnowanie wody, bo dostosowuje podlewanie do pogody, opadów lub wilgotności gleby. Oszczędność zależy od dokładności ustawień i jakości instalacji. Sprawdź liczbę stref, zgodność z Twoim kranem lub elektrozaworem oraz obsługę Matter lub asystentów głosowych.",
       },
       {
-        question: "Czy inteligentne solarne oświetlenie zewnętrzne się opłaca?",
-        answer: "Tak, nie wymaga okablowania i dobrze działa w słonecznym ogrodzie, ale zimą czas pracy spada w północnej Europie. Sprawdź pojemność baterii, moc panelu, stopień ochrony IP i możliwość dodania czujnika ruchu. Modele inteligentne wymagają dobrego zasięgu Wi-Fi lub Zigbee.",
+        question: "Czy inteligentne oświetlenie solarne do ogrodu się opłaca?",
+        answer: "Tak – nie wymaga kładzenia przewodów i dobrze sprawdza się w nasłonecznionym ogrodzie, choć w północnej Europie zimą lampy świecą krócej. Sprawdź pojemność akumulatora, moc panelu, stopień ochrony IP i to, czy można dodać czujnik ruchu. Modele inteligentne wymagają dobrego zasięgu Wi-Fi lub Zigbee.",
       },
       {
-        question: "Czy robot basenowy naprawdę czyści bez ingerencji?",
-        answer: "Tak, robot basenowy samodzielnie czyści dno, ściany i linię wody, ale trzeba regularnie opróżniać filtr. Wybieraj według kształtu i rozmiaru basenu, dokładności filtracji i czasu pracy. Modele bezprzewodowe są wygodne, ale wymagają ładowania baterii.",
+        question: "Czy robot basenowy naprawdę sprząta bez Twojego udziału?",
+        answer: "Tak, robot basenowy samodzielnie czyści dno, ściany i linię wody, ale filtr trzeba regularnie opróżniać. Wybieraj model według kształtu i wielkości basenu, dokładności filtracji i czasu pracy. Modele bezprzewodowe są wygodne, ale trzeba ładować ich akumulator.",
       },
     ],
   },

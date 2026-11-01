@@ -18,7 +18,7 @@ export const article: BlogArticle = {
         es: 'Casa con un gran jardín de césped que proteger con detectores y una sirena exterior',
         it: 'Casa con ampio giardino a prato da proteggere con rilevatori e sirena da esterno',
         nl: 'Huis met een grote tuin die je beveiligt met buitensensoren en een buitensirene',
-        pl: 'Dom z dużym ogrodem z trawnikiem, który warto chronić czujnikami i syreną zewnętrzną',
+        pl: 'Dom z dużym ogrodem i trawnikiem – posesja, którą warto chronić czujnikami i syreną zewnętrzną',
       },
     },
   ],
@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: 'Detectores exteriores, contactos para cancelas y sirenas estancas: comparativa 2026 del Ajax MotionProtect Outdoor, la Ajax StreetSiren, los accesorios Ring Alarm, la sirena Somfy Protect y el sensor Philips Hue Outdoor, con consejos contra falsas alarmas.',
     it: 'Rilevatori da esterno, contatti per cancelli e sirene impermeabili: confronto 2026 tra Ajax MotionProtect Outdoor, Ajax StreetSiren, accessori Ring Alarm, sirena Somfy Protect e sensore Philips Hue Outdoor, con consigli contro i falsi allarmi.',
     nl: 'Buitendetectoren, poortcontacten en weerbestendige sirenes: vergelijking 2026 van Ajax MotionProtect Outdoor, Ajax StreetSiren, Ring Alarm-accessoires, Somfy Protect-sirene en Philips Hue Outdoor-sensor, met tips tegen vals alarm.',
-    pl: 'Czujniki zewnętrzne, kontaktrony do bramy i wodoodporne syreny: porównanie 2026 Ajax MotionProtect Outdoor, Ajax StreetSiren, akcesoriów Ring Alarm, syreny Somfy Protect i czujnika Philips Hue Outdoor, z poradami, jak uniknąć fałszywych alarmów.',
+    pl: 'Zewnętrzne czujniki ruchu, czujniki otwarcia bramy i wodoodporne syreny – porównanie 2026: Ajax MotionProtect Outdoor, Ajax StreetSiren, akcesoria Ring Alarm, syrena Somfy Protect i czujnik Philips Hue Outdoor oraz porady, jak uniknąć fałszywych alarmów.',
   },
   content: {
     fr: `<p><strong>Pour protéger un jardin, une allée ou le périmètre d'une maison en 2026, la combinaison la plus fiable reste un détecteur extérieur à double capteur infrarouge, comme l'Ajax MotionProtect Outdoor, associé à une sirène extérieure étanche reliée à votre centrale d'alarme.</strong> Si vous possédez déjà un système Ring Alarm ou Somfy, ajoutez plutôt la sirène et les capteurs extérieurs de la même marque ; si votre objectif est surtout d'éclairer les abords au passage, un détecteur Philips Hue Outdoor suffit.</p>
@@ -574,94 +574,94 @@ export const article: BlogArticle = {
 
 <h2>Ons eindoordeel</h2>
 <p>Voor serieuze perimeterbeveiliging biedt het duo <strong>Ajax MotionProtect Outdoor</strong> en <strong>Ajax StreetSiren</strong> de beste combinatie van filtering van vals alarm, gebruiksduur en instelmogelijkheden. Gebruik je al Ring, dan is de zeer weerbestendige <strong>Ring Alarm Outdoor Siren</strong>, die ook op zonne-energie kan laden, de logischste aanvulling, samen met de <strong>Outdoor Contact Sensor</strong> op de poort. Wie een Somfy-alarm heeft, kiest de <strong>Somfy Protect-buitensirene</strong>, beschut gemonteerd. En om de oprit automatisch te verlichten is de <strong>Philips Hue Outdoor Motion Sensor</strong> een uitstekende aanvulling, zonder een alarm te willen vervangen.</p>`,
-    pl: `<p><strong>Aby chronić ogród, podjazd lub obwód domu w 2026 roku, najpewniejszym rozwiązaniem pozostaje zewnętrzny czujnik ruchu z podwójnym czujnikiem podczerwieni, taki jak Ajax MotionProtect Outdoor, w parze z wodoodporną syreną zewnętrzną połączoną z centralą alarmową.</strong> Jeśli masz już system Ring Alarm lub Somfy, lepiej dołożyć syrenę i czujniki zewnętrzne tej samej marki; jeśli zależy Ci głównie na oświetleniu otoczenia domu w momencie przejścia, wystarczy czujnik Philips Hue Outdoor.</p>
-<p>Otoczenie zewnętrzne jest znacznie trudniejszym środowiskiem niż wnętrze: słońce, wiatr, deszcz, koty, jeże i poruszające się gałęzie to częste przyczyny fałszywych alarmów. To porównanie opiera się na kartach katalogowych producentów, opublikowanych niezależnych testach i opiniach zweryfikowanych kupujących, aby pomóc Ci wybrać sprzęt, który naprawdę wykryje intruza, nie budząc całej okolicy z powodu lisa.</p>
+    pl: `<p><strong>Do ochrony ogrodu, podjazdu lub obwodu posesji w 2026 roku najpewniejszym rozwiązaniem pozostaje zewnętrzny czujnik ruchu z dwoma sensorami podczerwieni, taki jak Ajax MotionProtect Outdoor, w połączeniu z wodoodporną syreną zewnętrzną podłączoną do centrali alarmowej.</strong> Jeśli masz już system Ring Alarm lub Somfy, lepiej dokup syrenę i czujniki zewnętrzne tej samej marki. Jeśli zależy Ci głównie na tym, by wokół domu zapalało się światło, gdy ktoś przechodzi, wystarczy czujnik Philips Hue Outdoor.</p>
+<p>Na zewnątrz warunki są znacznie trudniejsze niż w domu: słońce, wiatr, deszcz, koty, jeże i poruszające się gałęzie to częste przyczyny fałszywych alarmów. Porównanie opiera się na kartach katalogowych producentów, opublikowanych niezależnych testach i opiniach zweryfikowanych kupujących. Ma Ci pomóc wybrać sprzęt, który naprawdę wykryje intruza, a nie postawi na nogi całej okolicy z powodu lisa.</p>
 
 <h2>Kryteria wyboru alarmu zewnętrznego</h2>
 <ul>
-<li><strong>Technologia detekcji.</strong> Prosty pasywny czujnik podczerwieni (PIR) reaguje na każdą zmianę ciepła. Poważne modele zewnętrzne używają dwóch nałożonych na siebie czujników PIR: alarm jest potwierdzany tylko wtedy, gdy oba widzą ruch, co odfiltrowuje znaczną część małych zwierząt i odblasków.</li>
-<li><strong>Odporność na zwierzęta.</strong> Podawana jest jako wysokość (na przykład „do 80 cm”) lub waga. Jeśli masz dużego psa swobodnie biegającego po ogrodzie, żaden czujnik objętościowy nie zignoruje go całkowicie: trzeba będzie pokombinować z ustawieniem lub strefami.</li>
-<li><strong>Stopień ochrony IP.</strong> Pierwsza cyfra dotyczy pyłu, druga wody. IP54 lub IP55 wystarczą na osłoniętej elewacji; IP65 i IP66 lepiej znoszą ulewny deszcz. IP43 oznacza montaż pod okapem.</li>
-<li><strong>Głośność syreny.</strong> Mierzy się ją w decybelach z odległości 1 metra. Powyżej 100 dB syrenę wyraźnie słychać z ulicy. Lampa błyskowa pomaga sąsiadom i służbom ratunkowym zlokalizować dom.</li>
-<li><strong>Zgodność z Twoją centralą.</strong> To kryterium rozstrzygające. Syrena Ajax działa tylko z hubem Ajax, syrena Ring tylko z Ring Alarm Base Station, a syrena Somfy tylko ze zgodnym alarmem Somfy.</li>
-<li><strong>Zasilanie i autonomia.</strong> Baterie o długiej żywotności, akumulator, panel słoneczny lub zasilanie przewodowe: im wyżej i trudniej dostępne jest urządzenie, tym ważniejsza autonomia.</li>
+<li><strong>Technologia wykrywania.</strong> Zwykły pasywny czujnik podczerwieni (PIR) reaguje na każdą zmianę temperatury. Porządne czujniki zewnętrzne mają dwa sensory PIR umieszczone jeden nad drugim. Alarm zostaje wywołany tylko wtedy, gdy ruch zarejestrują oba, dzięki czemu czujnik nie reaguje na wiele małych zwierząt i odblasków.</li>
+<li><strong>Odporność na zwierzęta.</strong> Producenci podają ją jako wysokość (np. „do 80 cm”) lub wagę zwierzęcia. Jeśli po ogrodzie swobodnie biega duży pies, żaden czujnik ruchu nie będzie go całkowicie ignorować – trzeba wtedy odpowiednio ustawić czujnik lub strefy.</li>
+<li><strong>Stopień ochrony IP.</strong> Pierwsza cyfra oznacza odporność na pył, druga – na wodę. IP54 lub IP55 wystarczą na osłoniętej elewacji, a IP65 i IP66 lepiej znoszą ulewny deszcz. Urządzenie z IP43 trzeba zamontować pod okapem.</li>
+<li><strong>Głośność syreny.</strong> Podaje się ją w decybelach mierzonych z odległości 1 m. Syrenę o głośności powyżej 100 dB wyraźnie słychać z ulicy. Lampa błyskowa pomaga sąsiadom i służbom ratunkowym szybko ustalić, o który dom chodzi.</li>
+<li><strong>Zgodność z Twoją centralą.</strong> To kryterium decydujące. Syrena Ajax działa tylko z hubem Ajax, syrena Ring – tylko z Ring Alarm Base Station, a syrena Somfy – tylko ze zgodnym alarmem Somfy.</li>
+<li><strong>Zasilanie i czas pracy.</strong> Baterie o długiej żywotności, akumulator, panel słoneczny czy zasilanie przewodowe – im wyżej zamontowane i trudniej dostępne urządzenie, tym ważniejsze, by jak najdłużej działało bez wymiany baterii.</li>
 </ul>
 
 <h2>Najlepsze zewnętrzne czujniki i syreny w 2026 roku</h2>
 
-<h3>1. Ajax MotionProtect Outdoor: wzorcowy czujnik obwodowy</h3>
-<p><strong>MotionProtect Outdoor</strong> firmy Ajax to bezprzewodowy czujnik przeznaczony do użytku na zewnątrz, który komunikuje się z hubem Ajax przez protokół radiowy Jeweller. Ma dwa czujniki PIR, regulowany zasięg od 3 do 15 metrów, odporność na zwierzęta do 80 cm wysokości oraz funkcję antymaskingu, która sygnalizuje próbę zasłonięcia soczewki. Obudowa ma klasę IP55, a zasilanie stanowią dwie baterie CR123A, z deklarowaną autonomią do 5 lat.</p>
-<p><strong>Mocne strony:</strong> skuteczny podwójny czujnik przeciw fałszywym alarmom, regulowany zasięg, by nie obejmować ulicy, bardzo duży zasięg radiowy na otwartej przestrzeni (deklarowane do 1 700 m), antymasking.<br><strong>Ograniczenia:</strong> wymaga huba Ajax; zalecana wysokość montażu jest niska (0,8–1,3 m), więc czujnik jest bardziej narażony niż ten montowany wysoko.<br><strong>Dla kogo:</strong> właściciele domów z ogrodem, którzy chcą prawdziwej detekcji obwodowej, zanim intruz dotrze do drzwi.</p>
+<h3>1. Ajax MotionProtect Outdoor: pierwszy wybór do ochrony obwodowej</h3>
+<p><strong>MotionProtect Outdoor</strong> firmy Ajax to bezprzewodowy czujnik przeznaczony do montażu na zewnątrz, który łączy się z hubem Ajax za pomocą protokołu radiowego Jeweller. Ma dwa sensory PIR, regulowany zasięg od 3 do 15 m, odporność na zwierzęta o wysokości do 80 cm oraz funkcję antymaskingu, która ostrzega, gdy ktoś próbuje zasłonić soczewkę. Obudowa ma stopień ochrony IP55, a czujnik zasilają dwie baterie CR123A, które według producenta wystarczają na maksymalnie 5 lat.</p>
+<p><strong>Mocne strony:</strong> podwójny sensor skutecznie ogranicza fałszywe alarmy; regulowany zasięg, dzięki któremu czujnik nie obejmuje ulicy; bardzo duży zasięg radiowy na otwartej przestrzeni (według producenta do 1700 m); antymasking.<br><strong>Ograniczenia:</strong> wymaga huba Ajax; zalecana wysokość montażu jest niewielka (0,8–1,3 m), więc czujnik łatwiej dosięgnąć niż urządzenie zamontowane wysoko.<br><strong>Dla kogo:</strong> właściciele domów z ogrodem, którzy chcą wykryć intruza na terenie posesji, zanim dotrze on do drzwi.</p>
 
-<h3>2. Ajax StreetSiren: najbardziej kompletna syrena zewnętrzna</h3>
-<p><strong>StreetSiren</strong> to bezprzewodowa syrena zewnętrzna Ajax. Jej głośność jest regulowana od 85 do 113 dB, czas alarmu można ustawić od 3 sekund do 3 minut, a ramka LED służy zarówno jako sygnał alarmowy, jak i wskaźnik uzbrojenia. Ma klasę IP54, działa na czterech bateriach CR123A (deklarowana autonomia do 5 lat) i opcjonalnie przyjmuje zasilanie 12 V. Zabezpieczenie antysabotażowe powiadamia hub w razie próby demontażu.</p>
-<p><strong>Mocne strony:</strong> regulowana głośność i czas trwania, co ułatwia zachowanie dobrych relacji z sąsiadami; długa autonomia; wizualna sygnalizacja stanu alarmu.<br><strong>Ograniczenia:</strong> tylko dla systemów Ajax; IP54 oznacza elewację choć trochę osłoniętą.<br><strong>Dla kogo:</strong> użytkownicy Ajax lub osoby zaczynające od zera, które chcą rozbudowywalnego systemu.</p>
+<h3>2. Ajax StreetSiren: najlepiej wyposażona syrena zewnętrzna</h3>
+<p><strong>StreetSiren</strong> to bezprzewodowa syrena zewnętrzna marki Ajax. Głośność można regulować w zakresie 85–113 dB, a czas alarmu – od 3 sekund do 3 minut. Ramka LED sygnalizuje zarówno alarm, jak i uzbrojenie systemu. Syrena ma stopień ochrony IP54, działa na czterech bateriach CR123A (według producenta nawet przez 5 lat) i opcjonalnie można ją zasilać napięciem 12 V. Zabezpieczenie przed oderwaniem powiadamia hub o każdej próbie demontażu.</p>
+<p><strong>Mocne strony:</strong> regulowana głośność i czas alarmu, co ułatwia życie w zgodzie z sąsiadami; długi czas pracy na bateriach; wizualna sygnalizacja stanu alarmu.<br><strong>Ograniczenia:</strong> działa tylko z systemami Ajax; przy IP54 elewacja powinna być choć trochę osłonięta.<br><strong>Dla kogo:</strong> użytkownicy systemu Ajax oraz osoby, które budują alarm od zera i chcą móc go później rozbudować.</p>
 
-<h3>3. Ring Alarm Outdoor Siren: syrena zewnętrzna z ekosystemu Ring</h3>
-<p><strong>Ring Alarm Outdoor Siren</strong> dokłada się do Ring Alarm Base Station (1. lub 2. generacji). Ring deklaruje ponad 100 dB z odległości 1 metra przy maksymalnym ustawieniu, pięć poziomów głośności oraz czerwoną lampę stroboskopową. Obudowa ma klasę IP66. Syrena jest zasilana wyjmowaną baterią Quick Release firmy Ring, ładowaną przez Ring Solar Panel (sprzedawane osobno), co czyni z niej praktyczną syrenę solarną, gdy w pobliżu nie ma gniazdka.</p>
-<p><strong>Mocne strony:</strong> bardzo dobra szczelność, regulowana głośność, możliwość ładowania solarnego, obsługa w tej samej aplikacji co kamery i dzwonki Ring.<br><strong>Ograniczenia:</strong> wymaga centrali Ring Alarm; bateria i panel słoneczny kupowane dodatkowo.<br><strong>Dla kogo:</strong> gospodarstwa wyposażone już w kamery lub alarm Ring.</p>
+<h3>3. Ring Alarm Outdoor Siren: syrena zewnętrzna do systemu Ring</h3>
+<p><strong>Ring Alarm Outdoor Siren</strong> rozszerza system oparty na Ring Alarm Base Station (1. lub 2. generacji). Według producenta przy maksymalnym ustawieniu osiąga ponad 100 dB z odległości 1 m. Ma pięć poziomów głośności i czerwony stroboskop, a jej obudowa ma stopień ochrony IP66. Zasila ją wyjmowany akumulator Quick Release firmy Ring, który można ładować z panelu Ring Solar Panel (oba sprzedawane osobno). To wygodne rozwiązanie, gdy chcesz mieć syrenę zasilaną energią słoneczną, a w pobliżu nie ma gniazdka.</p>
+<p><strong>Mocne strony:</strong> bardzo dobra szczelność, regulowana głośność, możliwość ładowania z panelu słonecznego, obsługa w tej samej aplikacji co kamery i dzwonki wideo Ring.<br><strong>Ograniczenia:</strong> wymaga centrali Ring Alarm; akumulator i panel słoneczny trzeba dokupić.<br><strong>Dla kogo:</strong> domy, w których działają już kamery lub alarm Ring.</p>
 
 <h3>4. Ring Alarm Outdoor Contact Sensor: do bramy i domku ogrodowego</h3>
-<p>Zamiast czujnika ruchu, <strong>Ring Alarm Outdoor Contact Sensor</strong> to kontaktron zaprojektowany do użytku na zewnątrz: brama, furtka, szopa, garaż lub budynek gospodarczy. Ma klasę IP66, działa na dwóch bateriach AA z deklarowaną autonomią do 5 lat zależnie od użytkowania i łączy się przez Z-Wave z Ring Alarm Base Station. Może wysłać powiadomienie przy otwarciu lub uruchomić syrenę, gdy alarm jest uzbrojony.</p>
-<p><strong>Mocne strony:</strong> praktycznie niewrażliwy na zwierzęta i roślinność, ponieważ reaguje tylko na otwarcie; odporny na warunki pogodowe.<br><strong>Ograniczenia:</strong> nadzoruje tylko jeden punkt przejścia; wymaga centrali Ring.<br><strong>Dla kogo:</strong> ci, którzy chcą wiedzieć, kiedy otwiera się brama, lub chronić szopę z narzędziami i rowerami.</p>
+<p><strong>Ring Alarm Outdoor Contact Sensor</strong> to nie czujnik ruchu, lecz czujnik otwarcia przeznaczony do montażu na zewnątrz: na bramie, furtce, drzwiach domku ogrodowego, garażu lub budynku gospodarczego. Ma stopień ochrony IP66 i działa na dwóch bateriach AA, które według producenta wystarczają nawet na 5 lat, zależnie od intensywności użytkowania. Z Ring Alarm Base Station łączy się przez Z-Wave. Przy otwarciu może wysłać powiadomienie albo – gdy alarm jest uzbrojony – uruchomić syrenę.</p>
+<p><strong>Mocne strony:</strong> praktycznie nie reaguje na zwierzęta i roślinność, bo wykrywa wyłącznie otwarcie; dobrze znosi niepogodę.<br><strong>Ograniczenia:</strong> chroni tylko jedno przejście; wymaga centrali Ring.<br><strong>Dla kogo:</strong> osoby, które chcą wiedzieć, kiedy otwiera się brama, albo zabezpieczyć domek ogrodowy z narzędziami i rowerami.</p>
 
-<h3>5. Somfy Protect Outdoor Siren: do uzupełnienia alarmu Somfy</h3>
-<p><strong>Syrena zewnętrzna Somfy Protect</strong> (numer referencyjny 2401491) generuje 112 dB wraz z pomarańczową lampą błyskową i wyłącza się automatycznie po 3 minutach. Komunikuje się bezprzewodowo ze zgodnymi alarmami Somfy (Somfy Home Alarm, Somfy One i One+) z deklarowanym zasięgiem radiowym 200 m na otwartej przestrzeni i działa na bateriach przez około dwa lata. Stopień ochrony IP43 wymaga montażu w osłoniętym miejscu, pod okapem dachu. Uwaga: nie jest zgodna z centralą smart home TaHoma, która nie jest centralą alarmową.</p>
-<p><strong>Mocne strony:</strong> duża moc, odstraszająca lampa błyskowa, automatyczne wyłączanie.<br><strong>Ograniczenia:</strong> zgodność ograniczona do ekosystemu alarmowego Somfy; skromny stopień IP.<br><strong>Dla kogo:</strong> użytkownicy alarmu Somfy, którzy chcą syreny widocznej z ulicy.</p>
+<h3>5. Somfy Protect Outdoor Siren: uzupełnienie alarmu Somfy</h3>
+<p><strong>Syrena zewnętrzna Somfy Protect</strong> (nr katalogowy 2401491) ma głośność 112 dB i pomarańczową lampę błyskową, a po 3 minutach wyłącza się automatycznie. Łączy się bezprzewodowo ze zgodnymi alarmami Somfy (Somfy Home Alarm, Somfy One i One+) – producent podaje zasięg radiowy 200 m na otwartej przestrzeni – a baterie wystarczają na ok. dwa lata. Przy stopniu ochrony IP43 trzeba ją zamontować w osłoniętym miejscu, pod okapem dachu. Uwaga: syrena nie współpracuje z centralką automatyki domowej TaHoma, bo TaHoma nie jest centralą alarmową.</p>
+<p><strong>Mocne strony:</strong> wysoka głośność, odstraszająca lampa błyskowa, automatyczne wyłączanie.<br><strong>Ograniczenia:</strong> działa wyłącznie z alarmami Somfy; niski stopień ochrony IP.<br><strong>Dla kogo:</strong> użytkownicy alarmu Somfy, którzy chcą mieć syrenę widoczną z ulicy.</p>
 
 <h3>6. Philips Hue Outdoor Motion Sensor: oświetlenie odstraszające, a nie alarm</h3>
-<p><strong>Philips Hue Outdoor Motion Sensor</strong> nie jest czujnikiem włamania w ścisłym znaczeniu: służy przede wszystkim do automatycznego włączania zewnętrznych lamp Hue. Obejmuje 12 metrów w zakresie 160°, ma wbudowany czujnik natężenia światła, działa na dwóch bateriach AA i ma klasę IP54. Najlepiej montować go na wysokości od 1,5 do 2,5 m, a do działania wymaga mostka Hue Bridge.</p>
-<p><strong>Mocne strony:</strong> natychmiastowe oświetlenie, które odstrasza i zapewnia bezpieczeństwo nocnych przejść, regulacja czułości i przedziałów czasowych w aplikacji.<br><strong>Ograniczenia:</strong> brak syreny, brak centrali alarmowej; uzupełnia alarm, ale go nie zastępuje.<br><strong>Dla kogo:</strong> ci, którzy chcą automatycznego oświetlenia podjazdu lub tarasu jako uzupełnienia alarmu.</p>
+<p><strong>Philips Hue Outdoor Motion Sensor</strong> nie jest czujnikiem alarmowym w ścisłym tego słowa znaczeniu: służy przede wszystkim do automatycznego włączania zewnętrznych lamp Hue. Ma zasięg 12 m i kąt widzenia 160°, wbudowany czujnik natężenia światła, działa na dwóch bateriach AA i ma stopień ochrony IP54. Najlepiej zamontować go na wysokości 1,5–2,5 m. Do działania wymaga mostka Hue Bridge.</p>
+<p><strong>Mocne strony:</strong> światło zapala się natychmiast, co odstrasza i ułatwia bezpieczne poruszanie się po zmroku; regulacja czułości i godzin działania w aplikacji.<br><strong>Ograniczenia:</strong> brak syreny i centrali alarmowej; uzupełnia alarm, ale go nie zastępuje.<br><strong>Dla kogo:</strong> osoby, które chcą automatycznie oświetlać podjazd lub taras jako uzupełnienie alarmu.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Typ</th><th>Kluczowa cecha</th><th>Stopień IP</th><th>Wymagany ekosystem</th><th>Najlepszy do</th></tr>
+<tr><th>Model</th><th>Typ</th><th>Kluczowa cecha</th><th>Stopień IP</th><th>Wymagany system</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td>Ajax MotionProtect Outdoor</td><td>Czujnik ruchu</td><td>Podwójny PIR, 3–15 m, odporność na zwierzęta do 80 cm</td><td>IP55</td><td>Hub Ajax</td><td>Detekcja obwodowa</td></tr>
-<tr><td>Ajax StreetSiren</td><td>Syrena</td><td>85–113 dB regulowane, ramka LED</td><td>IP54</td><td>Hub Ajax</td><td>Kompletny rozbudowywalny system</td></tr>
-<tr><td>Ring Alarm Outdoor Siren</td><td>Syrena</td><td>Ponad 100 dB, stroboskop, opcja solarna</td><td>IP66</td><td>Ring Alarm Base Station</td><td>Gospodarstwa z systemem Ring</td></tr>
-<tr><td>Ring Alarm Outdoor Contact Sensor</td><td>Kontaktron</td><td>Brama, szopa, garaż</td><td>IP66</td><td>Ring Alarm Base Station</td><td>Bramy i budynki gospodarcze</td></tr>
+<tr><td>Ajax MotionProtect Outdoor</td><td>Czujnik ruchu</td><td>Podwójny PIR, 3–15 m, odporność na zwierzęta do 80 cm</td><td>IP55</td><td>Hub Ajax</td><td>Ochrona obwodowa</td></tr>
+<tr><td>Ajax StreetSiren</td><td>Syrena</td><td>Regulacja 85–113 dB, ramka LED</td><td>IP54</td><td>Hub Ajax</td><td>Kompletny system z możliwością rozbudowy</td></tr>
+<tr><td>Ring Alarm Outdoor Siren</td><td>Syrena</td><td>Ponad 100 dB, stroboskop, opcja zasilania solarnego</td><td>IP66</td><td>Ring Alarm Base Station</td><td>Domy z systemem Ring</td></tr>
+<tr><td>Ring Alarm Outdoor Contact Sensor</td><td>Czujnik otwarcia</td><td>Brama, domek ogrodowy, garaż</td><td>IP66</td><td>Ring Alarm Base Station</td><td>Bramy i budynki gospodarcze</td></tr>
 <tr><td>Somfy Protect Outdoor Siren</td><td>Syrena</td><td>112 dB, lampa błyskowa, wyłączenie po 3 min</td><td>IP43</td><td>Zgodny alarm Somfy</td><td>Uzupełnienie alarmu Somfy</td></tr>
-<tr><td>Philips Hue Outdoor Motion Sensor</td><td>Czujnik do oświetlenia</td><td>12 m, 160°, czujnik natężenia światła</td><td>IP54</td><td>Hue Bridge</td><td>Automatyczne oświetlenie</td></tr>
+<tr><td>Philips Hue Outdoor Motion Sensor</td><td>Czujnik do sterowania oświetleniem</td><td>12 m, 160°, czujnik natężenia światła</td><td>IP54</td><td>Hue Bridge</td><td>Automatyczne oświetlenie</td></tr>
 </tbody>
 </table>
 
 <h2>Fałszywe alarmy: zwierzęta, roślinność i pogoda</h2>
-<p>Główną przyczyną porzucenia alarmu zewnętrznego są fałszywe wyzwolenia. Kilka zasad bardzo ogranicza ten problem:</p>
+<p>Najczęstszym powodem, dla którego ludzie rezygnują z alarmu zewnętrznego, jest syrena, która włącza się bez potrzeby. Kilka prostych zasad pozwala znacznie ograniczyć ten problem:</p>
 <ul>
-<li><strong>Celuj w otwartą przestrzeń.</strong> Żywopłot, krzew lub wysokie trawy poruszane wiatrem w polu widzenia czujnika powodują zmiany temperatury, zwłaszcza w słońcu. Przytnij roślinność lub zmień ustawienie urządzenia.</li>
-<li><strong>Unikaj bezpośredniego słońca i źródeł ciepła.</strong> Nie kieruj czujnika na wschód ani zachód w stronę horyzontu, na wylot pompy ciepła, grill ani powierzchnię, która mocno się nagrzewa.</li>
-<li><strong>Zmniejsz zasięg.</strong> Jeśli czujnik widzi chodnik, każdy przechodzień go wyzwoli. Ustaw odległość tak, by kończyła się na Twoim ogrodzeniu.</li>
-<li><strong>Przestrzegaj podanej wysokości.</strong> Odporność na zwierzęta obowiązuje tylko przy wysokości montażu przewidzianej przez producenta.</li>
-<li><strong>Tam, gdzie to możliwe, wybieraj kontaktrony.</strong> Na bramie lub w szopie kontaktron nie da się oszukać kotu.</li>
+<li><strong>Kieruj czujnik na otwartą przestrzeń.</strong> Żywopłot, krzew lub wysoka trawa, które poruszają się na wietrze w polu widzenia czujnika, wywołują zmiany temperatury, zwłaszcza w pełnym słońcu. Przytnij roślinność lub zmień kierunek urządzenia.</li>
+<li><strong>Unikaj bezpośredniego słońca i źródeł ciepła.</strong> Nie kieruj czujnika na wschodni ani zachodni horyzont, na wylot powietrza z pompy ciepła, grill ani na powierzchnię, która mocno się nagrzewa.</li>
+<li><strong>Zmniejsz zasięg.</strong> Jeśli czujnik obejmuje chodnik, uruchomi go każdy przechodzień. Ustaw zasięg tak, by kończył się na Twoim ogrodzeniu.</li>
+<li><strong>Montuj na zalecanej wysokości.</strong> Odporność na zwierzęta działa tylko przy wysokości montażu podanej przez producenta.</li>
+<li><strong>Tam, gdzie to możliwe, wybieraj czujniki otwarcia.</strong> Czujnika otwarcia na bramie czy drzwiach domku ogrodowego żaden kot nie oszuka.</li>
 </ul>
 
 <h2>Wysokość montażu i instalacja</h2>
-<p>Każdy producent podaje konkretną wysokość i bardzo się ona różni w zależności od urządzenia: 0,8–1,3 m dla Ajax MotionProtect Outdoor, 1,5–2,5 m dla Philips Hue Outdoor Motion Sensor. Trzymaj się instrukcji: to właśnie ta wysokość determinuje geometrię strefy detekcji i filtrowanie zwierząt. Syreny natomiast montuje się wysoko, poza zasięgiem ręki, i dobrze widocznie z ulicy, aby spełniały rolę odstraszającą.</p>
-<p>Przed wierceniem sprawdź zasięg radiowy w planowanym miejscu: grube mury, metalowe poszycie lub duża odległość mogą osłabić łączność z centralą. Systemy Ajax i Ring oferują repeatery. Jeśli wybierzesz zasilanie przewodowe, podłączenie powierz wykwalifikowanemu elektrykowi.</p>
+<p>Każdy producent podaje dokładną wysokość montażu, a ta znacznie się różni między urządzeniami: w przypadku Ajax MotionProtect Outdoor to 0,8–1,3 m, a w przypadku Philips Hue Outdoor Motion Sensor – 1,5–2,5 m. Trzymaj się instrukcji, bo od wysokości zależą kształt strefy wykrywania i odfiltrowywanie zwierząt. Syreny montuje się natomiast wysoko, poza zasięgiem ręki, w miejscu dobrze widocznym z ulicy – tylko wtedy skutecznie odstraszają.</p>
+<p>Zanim zaczniesz wiercić, sprawdź zasięg sygnału radiowego w planowanym miejscu montażu: grube mury, metalowa okładzina elewacji lub duża odległość mogą osłabić łączność z centralą. Ajax i Ring mają w ofercie wzmacniacze sygnału (repeatery). Jeśli wybierzesz zasilanie przewodowe, podłączenie zleć wykwalifikowanemu elektrykowi.</p>
 
 <h2>Syrena zewnętrzna a sąsiedzi</h2>
-<p>Syrena o mocy ponad 100 dB niesie się daleko. Aby zachować dobre stosunki z sąsiadami i przestrzegać lokalnych przepisów dotyczących hałasu, ogranicz czas dzwonienia (wiele modeli wyłącza się po 3 minutach lub ma regulowany czas), w miarę możliwości wyłącz zewnętrzne sygnały uzbrojenia i uprzedź najbliższych sąsiadów o montażu. Przepisy dotyczące uciążliwości hałasowej i czasu trwania syren różnią się w zależności od kraju i gminy: w razie wątpliwości zasięgnij informacji w urzędzie gminy. Wreszcie, syrena, która bez przerwy włącza się bez powodu, w końcu jest ignorowana: najpierw wyreguluj czujniki, potem aktywuj syrenę.</p>
+<p>Syrenę o głośności ponad 100 dB słychać z daleka. Aby zachować dobre relacje z sąsiadami i przestrzegać lokalnych przepisów dotyczących hałasu, skróć czas działania syreny (wiele modeli wyłącza się po 3 minutach albo pozwala ten czas ustawić), w miarę możliwości wyłącz sygnały dźwiękowe uzbrajania na zewnątrz i uprzedź najbliższych sąsiadów, że ją montujesz. Przepisy dotyczące uciążliwego hałasu i czasu działania syren różnią się w zależności od kraju i gminy, więc w razie wątpliwości zapytaj w urzędzie gminy. I jeszcze jedno: syrenę, która ciągle włącza się bez powodu, w końcu wszyscy ignorują. Dlatego najpierw wyreguluj czujniki, a dopiero potem włącz syrenę.</p>
 
-<h2>Włączenie zewnętrza do istniejącego alarmu</h2>
-<p>Zasada jest prosta: zostań przy marce swojej centrali. Bezprzewodowe czujniki i syreny używają protokołów własnościowych (Jeweller u Ajax, Z-Wave obsługiwany przez Base Station u Ring, radio Somfy) i nie mieszają się ze sobą. Jeśli Twój alarm wewnętrzny działa dobrze, dodanie zgodnego czujnika zewnętrznego i syreny jest często tańsze i pewniejsze niż wymiana wszystkiego. Aby porównać same centrale, zajrzyj do naszego <a href="/pl/blog/alarme-maison-sans-abonnement">poradnika o alarmach domowych bez abonamentu</a>.</p>
-<p>Przy bardzo długim podjeździe lub drodze dojazdowej oddalonej od domu istnieją też autonomiczne zestawy alarmowe dla podjazdu: zewnętrzny czujnik na baterie i wewnętrzny odbiornik, który dzwoni, gdy przejeżdża samochód lub przechodzi pieszy. Nie uruchamiają syreny i nie integrują się z alarmem, ale przydają się do powiadamiania o czyimś przybyciu. Deklarowane zasięgi mierzone są w idealnych warunkach i maleją wraz z przeszkodami.</p>
-<p>Wreszcie, czujnik nie mówi, co się dzieje. Połączenie alarmu zewnętrznego z kamerą pozwala rozwiać wątpliwości w kilka sekund: zobacz nasze <a href="/pl/blog/comparatif-camera-surveillance-exterieure">porównanie kamer zewnętrznych</a> oraz cały wybór w kategorii <a href="/pl/outdoor-connecte/alarmes-exterieures">alarmy zewnętrzne</a>.</p>
+<h2>Rozbudowa istniejącego alarmu o strefę zewnętrzną</h2>
+<p>Zasada jest prosta: trzymaj się marki swojej centrali. Bezprzewodowe czujniki i syreny korzystają z zamkniętych protokołów producentów (Jeweller w systemie Ajax, Z-Wave sterowany przez Base Station w systemie Ring, własny protokół radiowy Somfy), więc urządzeń różnych marek nie da się ze sobą łączyć. Jeśli Twój alarm wewnętrzny działa dobrze, dokupienie zgodnego czujnika zewnętrznego i syreny jest zwykle tańsze i pewniejsze niż wymiana całego systemu. Jeśli chcesz porównać same centrale, zajrzyj do naszego <a href="/pl/blog/alarme-maison-sans-abonnement">poradnika o alarmach do domu bez abonamentu</a>.</p>
+<p>Przy bardzo długim podjeździe lub drodze dojazdowej daleko od domu sprawdzą się też samodzielne zestawy do monitorowania podjazdu: zewnętrzny czujnik na baterie i odbiornik w domu, który daje sygnał dźwiękowy, gdy ktoś przejeżdża lub przechodzi. Nie uruchamiają syreny i nie da się ich połączyć z alarmem, ale przydają się, gdy chcesz wiedzieć o czyimś przybyciu. Deklarowany zasięg mierzy się w idealnych warunkach, a przeszkody go zmniejszają.</p>
+<p>Czujnik nie powie Ci jednak, co się dzieje. Kamera połączona z alarmem zewnętrznym pozwala w kilka sekund sprawdzić, czy alarm jest prawdziwy. Zajrzyj do naszego <a href="/pl/blog/comparatif-camera-surveillance-exterieure">porównania kamer zewnętrznych</a> i do pełnego zestawienia w kategorii <a href="/pl/outdoor-connecte/alarmes-exterieures">alarmy zewnętrzne</a>.</p>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li>Zakup syreny lub czujnika bez sprawdzenia zgodności z Twoją centralą.</li>
-<li>Montaż czujnika naprzeciw żywopłotu, ulicy lub zachodzącego słońca.</li>
-<li>Ignorowanie zalecanej wysokości montażu, co niweluje odporność na zwierzęta.</li>
-<li>Montaż syreny IP43 na wietrze i w deszczu.</li>
-<li>Mylenie czujnika oświetleniowego (jak Hue Outdoor) z czujnikiem alarmowym.</li>
-<li>Zbyt długie dzwonienie syreny, co grozi uciążliwością dla sąsiadów.</li>
+<li>Kupowanie syreny lub czujnika bez sprawdzenia, czy współpracuje z Twoją centralą.</li>
+<li>Kierowanie czujnika na żywopłot, ulicę lub zachodzące słońce.</li>
+<li>Ignorowanie zalecanej wysokości montażu, przez co odporność na zwierzęta przestaje działać.</li>
+<li>Montowanie syreny IP43 w miejscu wystawionym na wiatr i deszcz.</li>
+<li>Mylenie czujnika do sterowania oświetleniem (takiego jak Hue Outdoor) z czujnikiem alarmowym.</li>
+<li>Ustawianie zbyt długiego czasu działania syreny, co uprzykrza życie sąsiadom.</li>
 </ul>
 
-<h2>Werdykt</h2>
-<p>Do poważnej ochrony obwodu para <strong>Ajax MotionProtect Outdoor</strong> i <strong>Ajax StreetSiren</strong> oferuje najlepsze połączenie filtrowania fałszywych alarmów, autonomii i ustawień. Jeśli korzystasz już z Ring, <strong>Ring Alarm Outdoor Siren</strong>, bardzo szczelna i zgodna z ładowaniem solarnym, jest najbardziej logicznym uzupełnieniem, a na bramie warto dodać <strong>Outdoor Contact Sensor</strong>. Użytkownicy alarmu Somfy wybiorą <strong>syrenę zewnętrzną Somfy Protect</strong>, montowaną w osłoniętym miejscu. A do automatycznego oświetlenia podjazdu <strong>Philips Hue Outdoor Motion Sensor</strong> jest doskonałym dodatkiem, nie pretendując do zastąpienia alarmu.</p>`,
+<h2>Nasz werdykt</h2>
+<p>Jeśli zależy Ci na solidnej ochronie obwodowej, zestaw <strong>Ajax MotionProtect Outdoor</strong> i <strong>Ajax StreetSiren</strong> najlepiej łączy skuteczne filtrowanie fałszywych alarmów, długi czas pracy na bateriach i szerokie możliwości ustawień. Jeśli korzystasz już z systemu Ring, najbardziej logicznym uzupełnieniem będzie bardzo szczelna <strong>Ring Alarm Outdoor Siren</strong> z możliwością ładowania z panelu słonecznego, a na bramie warto zamontować <strong>Outdoor Contact Sensor</strong>. Użytkownicy alarmu Somfy wybiorą <strong>syrenę zewnętrzną Somfy Protect</strong>, montowaną w osłoniętym miejscu. Do automatycznego oświetlania podjazdu świetnie nada się <strong>Philips Hue Outdoor Motion Sensor</strong> – jako dodatek, bo alarmu nie zastąpi.</p>`,
   },
   faq: [
     {
@@ -672,7 +672,7 @@ export const article: BlogArticle = {
         es: '¿Un gato o un perro activará un detector de movimiento exterior?',
         it: 'Un gatto o un cane farà scattare un rilevatore di movimento da esterno?',
         nl: 'Gaat een buitenbewegingsmelder af door een kat of hond?',
-        pl: 'Czy kot lub pies uruchomi zewnętrzny czujnik ruchu?',
+        pl: 'Czy kot lub pies może uruchomić zewnętrzny czujnik ruchu?',
       },
       answer: {
         fr: `Les détecteurs extérieurs à double capteur, comme l'Ajax MotionProtect Outdoor, sont conçus pour ignorer les animaux jusqu'à environ 80 cm de hauteur, à condition d'être posés à la hauteur recommandée. Un grand chien en liberté peut malgré tout être détecté : réduisez alors la portée, réorientez le détecteur ou privilégiez des contacts d'ouverture sur le portail.`,
@@ -681,7 +681,7 @@ export const article: BlogArticle = {
         es: `Los detectores exteriores de doble sensor, como el Ajax MotionProtect Outdoor, están diseñados para ignorar animales de hasta unos 80 cm de altura, siempre que se instalen a la altura recomendada. Un perro grande suelto puede detectarse igualmente: reduce el alcance, reorienta el detector o usa contactos de apertura en la cancela.`,
         it: `I rilevatori da esterno a doppio sensore, come l'Ajax MotionProtect Outdoor, sono progettati per ignorare gli animali fino a circa 80 cm di altezza, a condizione di essere installati all'altezza consigliata. Un cane grande libero può comunque essere rilevato: riduci la portata, riorienta il rilevatore o usa contatti di apertura sul cancello.`,
         nl: `Buitendetectoren met dubbele sensor, zoals de Ajax MotionProtect Outdoor, zijn ontworpen om dieren tot ongeveer 80 cm hoog te negeren, mits ze op de aanbevolen hoogte hangen. Een grote, vrij rondlopende hond kan toch gedetecteerd worden: verkort dan het bereik, richt de detector anders of gebruik openingscontacten op de poort.`,
-        pl: `Zewnętrzne czujniki z podwójnym czujnikiem, takie jak Ajax MotionProtect Outdoor, są zaprojektowane tak, by ignorować zwierzęta do około 80 cm wysokości, pod warunkiem montażu na zalecanej wysokości. Duży pies biegający swobodnie może jednak zostać wykryty: zmniejsz wtedy zasięg, zmień ustawienie czujnika lub wybierz kontaktrony na bramie.`,
+        pl: `Zewnętrzne czujniki z podwójnym sensorem, takie jak Ajax MotionProtect Outdoor, zaprojektowano tak, by nie reagowały na zwierzęta o wysokości do ok. 80 cm – pod warunkiem montażu na zalecanej wysokości. Duży pies biegający swobodnie po ogrodzie może jednak zostać wykryty. W takiej sytuacji zmniejsz zasięg, zmień kierunek czujnika albo postaw na czujniki otwarcia na bramie.`,
       },
     },
     {
@@ -701,7 +701,7 @@ export const article: BlogArticle = {
         es: `Sigue siempre el manual, porque la altura depende del modelo: de 0,8 a 1,3 m para el Ajax MotionProtect Outdoor y de 1,5 a 2,5 m para el Philips Hue Outdoor Motion Sensor. Esa altura determina la zona cubierta y la inmunidad a mascotas. Las sirenas, en cambio, van en alto y fuera del alcance.`,
         it: `Segui sempre il manuale, perché l'altezza dipende dal modello: da 0,8 a 1,3 m per l'Ajax MotionProtect Outdoor, da 1,5 a 2,5 m per il Philips Hue Outdoor Motion Sensor. Questa altezza determina la zona coperta e l'immunità agli animali. Le sirene, invece, vanno in alto e fuori portata.`,
         nl: `Volg altijd de handleiding, want de hoogte hangt af van het model: 0,8 tot 1,3 m voor de Ajax MotionProtect Outdoor, 1,5 tot 2,5 m voor de Philips Hue Outdoor Motion Sensor. Die hoogte bepaalt het detectiegebied en de huisdierimmuniteit. Sirenes horen juist hoog en buiten bereik.`,
-        pl: `Zawsze trzymaj się instrukcji, bo wysokość zależy od modelu: 0,8–1,3 m dla Ajax MotionProtect Outdoor, 1,5–2,5 m dla Philips Hue Outdoor Motion Sensor. Ta wysokość determinuje obszar pokrycia i odporność na zwierzęta. Syreny natomiast montuje się wysoko, poza zasięgiem ręki.`,
+        pl: `Zawsze kieruj się instrukcją, bo zalecana wysokość zależy od modelu: w przypadku Ajax MotionProtect Outdoor to 0,8–1,3 m, a w przypadku Philips Hue Outdoor Motion Sensor – 1,5–2,5 m. Od wysokości zależą obszar wykrywania i odporność na zwierzęta. Syreny montuje się natomiast wysoko, poza zasięgiem ręki.`,
       },
     },
     {
@@ -712,7 +712,7 @@ export const article: BlogArticle = {
         es: '¿Qué grado IP necesita una sirena o un detector exterior?',
         it: 'Quale grado IP serve per una sirena o un rilevatore da esterno?',
         nl: 'Welke IP-waarde heeft een buitensirene of buitensensor nodig?',
-        pl: 'Jaki stopień IP wybrać dla syreny lub czujnika zewnętrznego?',
+        pl: 'Jaki stopień ochrony IP wybrać dla syreny lub czujnika zewnętrznego?',
       },
       answer: {
         fr: `IP54 ou IP55 conviennent à une façade abritée, IP65 ou IP66 résistent mieux à la pluie battante, comme la Ring Alarm Outdoor Siren (IP66). Un appareil IP43, comme la sirène Somfy Protect, doit être posé sous un avant-toit.`,
@@ -721,7 +721,7 @@ export const article: BlogArticle = {
         es: `IP54 o IP55 sirven para una fachada resguardada, mientras que IP65 o IP66 aguantan mejor la lluvia intensa, como la Ring Alarm Outdoor Siren (IP66). Un aparato IP43, como la sirena Somfy Protect, debe colocarse bajo un alero.`,
         it: `IP54 o IP55 vanno bene per una facciata riparata, IP65 o IP66 resistono meglio alla pioggia battente, come la Ring Alarm Outdoor Siren (IP66). Un dispositivo IP43, come la sirena Somfy Protect, va installato sotto la gronda.`,
         nl: `IP54 of IP55 volstaat voor een beschutte gevel, IP65 of IP66 kan beter tegen slagregen, zoals de Ring Alarm Outdoor Siren (IP66). Een IP43-apparaat zoals de Somfy Protect-sirene hoort onder de dakrand.`,
-        pl: `IP54 lub IP55 wystarczą na osłoniętej elewacji, IP65 lub IP66 lepiej znoszą ulewny deszcz, jak Ring Alarm Outdoor Siren (IP66). Urządzenie IP43, takie jak syrena Somfy Protect, trzeba montować pod okapem.`,
+        pl: `Na osłoniętą elewację wystarczy IP54 lub IP55. Urządzenia z IP65 lub IP66, takie jak Ring Alarm Outdoor Siren (IP66), lepiej znoszą ulewny deszcz. Sprzęt o stopniu IP43, np. syrenę Somfy Protect, trzeba montować pod okapem.`,
       },
     },
     {
@@ -732,7 +732,7 @@ export const article: BlogArticle = {
         es: '¿Puede una sirena exterior causar problemas con los vecinos?',
         it: 'Una sirena da esterno può creare problemi con i vicini?',
         nl: 'Kan een buitensirene problemen geven met de buren?',
-        pl: 'Czy syrena zewnętrzna może powodować problemy z sąsiadami?',
+        pl: 'Czy syrena zewnętrzna może przeszkadzać sąsiadom?',
       },
       answer: {
         fr: `Oui, si elle sonne longtemps ou se déclenche souvent pour rien. Limitez la durée de sonnerie (beaucoup de modèles s'arrêtent après 3 minutes ou sont réglables), réglez vos détecteurs pour éviter les fausses alarmes et prévenez vos voisins. Les règles sur le bruit varient selon les pays et les communes : renseignez-vous auprès de votre mairie.`,
@@ -741,7 +741,7 @@ export const article: BlogArticle = {
         es: `Sí, si suena mucho tiempo o se activa a menudo sin motivo. Limita la duración (muchos modelos se detienen a los 3 minutos o permiten ajustarla), ajusta los detectores para evitar falsas alarmas y avisa a tus vecinos. Las normas sobre ruido varían según el país y el municipio: consulta a tu ayuntamiento.`,
         it: `Sì, se suona a lungo o scatta spesso senza motivo. Limita la durata (molti modelli si fermano dopo 3 minuti o sono regolabili), regola i rilevatori per evitare falsi allarmi e avvisa i vicini. Le regole sul rumore variano da paese a paese e da comune a comune: informati presso il tuo comune.`,
         nl: `Ja, als hij lang loeit of vaak voor niets afgaat. Beperk de alarmduur (veel modellen stoppen na 3 minuten of zijn instelbaar), stel je detectoren af tegen vals alarm en laat het je buren weten. Geluidsregels verschillen per land en gemeente; vraag het bij twijfel na bij je gemeente.`,
-        pl: `Tak, jeśli dzwoni długo lub często włącza się bez powodu. Ogranicz czas dzwonienia (wiele modeli wyłącza się po 3 minutach lub ma regulowany czas), wyreguluj czujniki, by uniknąć fałszywych alarmów, i uprzedź sąsiadów. Przepisy dotyczące hałasu różnią się w zależności od kraju i gminy: zasięgnij informacji w urzędzie gminy.`,
+        pl: `Tak, jeśli długo wyje albo często włącza się bez powodu. Skróć czas działania syreny (wiele modeli wyłącza się po 3 minutach albo pozwala ten czas ustawić), wyreguluj czujniki, by uniknąć fałszywych alarmów, i uprzedź sąsiadów. Przepisy dotyczące hałasu różnią się w zależności od kraju i gminy, dlatego zapytaj o nie w urzędzie gminy.`,
       },
     },
     {
@@ -752,7 +752,7 @@ export const article: BlogArticle = {
         es: '¿Se puede añadir un detector exterior a una alarma existente?',
         it: 'Si può aggiungere un rilevatore da esterno a un allarme esistente?',
         nl: 'Kun je een buitensensor toevoegen aan een bestaand alarm?',
-        pl: 'Czy można dodać zewnętrzny czujnik do istniejącego alarmu?',
+        pl: 'Czy do istniejącego alarmu można dodać czujnik zewnętrzny?',
       },
       answer: {
         fr: `Oui, à condition de rester dans la marque de votre centrale : un détecteur ou une sirène Ajax exige un hub Ajax, les accessoires Ring une Ring Alarm Base Station, la sirène Somfy Protect une alarme Somfy compatible. Les protocoles radio ne sont pas interchangeables entre marques.`,
@@ -761,7 +761,7 @@ export const article: BlogArticle = {
         es: `Sí, siempre que te mantengas en la marca de tu central: un detector o una sirena Ajax requieren un hub Ajax, los accesorios Ring una Ring Alarm Base Station y la sirena Somfy Protect una alarma Somfy compatible. Los protocolos de radio no son intercambiables entre marcas.`,
         it: `Sì, a patto di restare sulla marca della centrale: un rilevatore o una sirena Ajax richiedono un hub Ajax, gli accessori Ring una Ring Alarm Base Station, la sirena Somfy Protect un allarme Somfy compatibile. I protocolli radio non sono intercambiabili tra marche.`,
         nl: `Ja, zolang je bij het merk van je centrale blijft: een Ajax-detector of -sirene vereist een Ajax-hub, Ring-accessoires een Ring Alarm Base Station en de Somfy Protect-sirene een compatibel Somfy-alarm. Radioprotocollen zijn niet uitwisselbaar tussen merken.`,
-        pl: `Tak, pod warunkiem że zostaniesz przy marce swojej centrali: czujnik lub syrena Ajax wymaga huba Ajax, akcesoria Ring wymagają Ring Alarm Base Station, a syrena Somfy Protect zgodnego alarmu Somfy. Protokoły radiowe nie są wymienne między markami.`,
+        pl: `Tak, pod warunkiem że wybierzesz urządzenie tej samej marki co centrala: czujnik lub syrena Ajax wymagają huba Ajax, akcesoria Ring – Ring Alarm Base Station, a syrena Somfy Protect – zgodnego alarmu Somfy. Protokoły radiowe różnych marek nie są ze sobą kompatybilne.`,
       },
     },
     {
@@ -781,7 +781,7 @@ export const article: BlogArticle = {
         es: `No. El Philips Hue Outdoor Motion Sensor está pensado sobre todo para encender automáticamente tus luces Hue de exterior. La iluminación repentina disuade, pero no hay sirena ni central de alarma. Úsalo como complemento de un sistema de alarma real.`,
         it: `No. Il Philips Hue Outdoor Motion Sensor serve soprattutto ad accendere automaticamente le luci Hue da esterno. L'illuminazione improvvisa è dissuasiva, ma non ci sono né sirena né centrale d'allarme. Usalo in aggiunta a un vero sistema d'allarme.`,
         nl: `Nee. De Philips Hue Outdoor Motion Sensor is vooral bedoeld om je Hue-buitenverlichting automatisch in te schakelen. Plots licht schrikt af, maar er is geen sirene en geen alarmcentrale. Gebruik hem als aanvulling op een echt alarmsysteem.`,
-        pl: `Nie. Philips Hue Outdoor Motion Sensor służy przede wszystkim do automatycznego włączania zewnętrznych lamp Hue. Nagłe światło odstrasza, ale nie ma ani syreny, ani centrali alarmowej. Używaj go jako uzupełnienia prawdziwego systemu alarmowego.`,
+        pl: `Nie. Philips Hue Outdoor Motion Sensor służy przede wszystkim do automatycznego włączania zewnętrznych lamp Hue. Nagle zapalające się światło odstrasza, ale nie ma tu ani syreny, ani centrali alarmowej. Traktuj go jako uzupełnienie prawdziwego systemu alarmowego.`,
       },
     },
   ],

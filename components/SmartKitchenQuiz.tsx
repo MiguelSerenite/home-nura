@@ -286,7 +286,7 @@ const categoryLabels: Record<SmartKitchenCategory, Record<string, string>> = {
   },
   'prises-connectees': {
     fr: 'Prises connectées', en: 'Smart plugs', de: 'Smarte Steckdosen',
-    es: 'Enchufes conectados', it: 'Prese connesse', nl: 'Slimme stekkers', pl: 'Inteligentne wtyczki',
+    es: 'Enchufes conectados', it: 'Prese connesse', nl: 'Slimme stekkers', pl: 'Inteligentne gniazdka',
   },
 }
 

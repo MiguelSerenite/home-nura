@@ -795,7 +795,7 @@ export const article: BlogArticle = {
         es: 'Interruptor doble de balancín blanco en una pared oscura',
         it: 'Interruttore doppio bianco a bilanciere su una parete scura',
         nl: 'Witte dubbele wipschakelaar aan een donkere muur',
-        pl: 'Podwójny biały włącznik ścienny klawiszowy na ciemnej ścianie',
+        pl: 'Biały podwójny włącznik klawiszowy na ciemnej ścianie',
       },
     },
   ],
@@ -815,7 +815,7 @@ export const article: BlogArticle = {
     es: 'Aqara H2, Legrand Céliane, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial e IKEA RODRET: qué interruptor inteligente elegir, con o sin neutro, en Zigbee, Wi-Fi o Matter.',
     it: 'Aqara H2, Legrand Céliane, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial e IKEA RODRET: quale interruttore smart scegliere, con o senza neutro, in Zigbee, Wi-Fi o Matter.',
     nl: 'Aqara H2, Legrand Céliane, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial en IKEA RODRET: welke slimme schakelaar kiezen, met of zonder nul, via Zigbee, wifi of Matter.',
-    pl: 'Aqara H2, Legrand Céliane, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial i IKEA RODRET: jaki inteligentny włącznik wybrać z przewodem neutralnym lub bez, w Zigbee, Wi-Fi lub Matter.',
+    pl: 'Aqara H2, Legrand Céliane, BTicino Living Now, Shelly 1PM Gen4, Hue Tap Dial i IKEA RODRET: jaki inteligentny włącznik wybrać do instalacji z przewodem neutralnym lub bez niego, w standardzie Zigbee, Wi-Fi lub Matter.',
   },
   content: { fr, en, de, es, it, nl, pl },
   faq: [
@@ -836,7 +836,7 @@ export const article: BlogArticle = {
         es: 'Sí, siempre que elijas un modelo diseñado para ello: Aqara Light Switch H2 EU, Legrand Céliane with Netatmo sin neutro o BTicino Living Now sin neutro. Respeta la potencia mínima indicada y añade un compensador si los LED parpadean. En cambio, los módulos Wi-Fi y el Shelly 1PM Gen4 necesitan neutro.',
         it: "Sì, purché si scelga un modello pensato per questo: Aqara Light Switch H2 EU, Legrand Céliane with Netatmo senza neutro o BTicino Living Now senza neutro. Rispetta il carico minimo indicato e aggiungi un compensatore se i LED sfarfallano. I moduli Wi-Fi e lo Shelly 1PM Gen4 richiedono invece il neutro.",
         nl: 'Ja, mits je een model kiest dat daarvoor bedoeld is: Aqara Light Switch H2 EU, Legrand Céliane with Netatmo zonder nul of BTicino Living Now zonder nul. Respecteer de opgegeven minimale belasting en voeg een compensator toe als ledlampen knipperen. Wifimodules en de Shelly 1PM Gen4 hebben wel een nuldraad nodig.',
-        pl: 'Tak, pod warunkiem wyboru modelu do tego przeznaczonego: Aqara Light Switch H2 EU, Legrand Céliane with Netatmo w wersji bez przewodu neutralnego lub BTicino Living Now w wersji bez przewodu neutralnego. Przestrzegaj podanej mocy minimalnej i dodaj kompensator, jeśli LED migoczą. Moduły Wi-Fi i Shelly 1PM Gen4 wymagają natomiast przewodu neutralnego.',
+        pl: 'Tak, pod warunkiem że wybierzesz model przeznaczony do takiej instalacji: Aqara Light Switch H2 EU albo Legrand Céliane with Netatmo lub BTicino Living Now w wersjach bez przewodu neutralnego. Przestrzegaj minimalnej mocy obciążenia podanej przez producenta, a jeśli żarówki LED migoczą, dodaj kompensator. Moduły Wi-Fi i Shelly 1PM Gen4 wymagają natomiast przewodu neutralnego.',
       },
     },
     {
@@ -867,7 +867,7 @@ export const article: BlogArticle = {
         es: '¿Cómo mantener mis interruptores de pared con bombillas inteligentes?',
         it: 'Come mantenere gli interruttori a muro con le lampadine smart?',
         nl: 'Hoe houd ik mijn wandschakelaars met slimme lampen?',
-        pl: 'Jak zachować ścienne włączniki przy inteligentnych żarówkach?',
+        pl: 'Jak zachować włączniki ścienne przy inteligentnych żarówkach?',
       },
       answer: {
         fr: "Le plus simple est un module en mode détaché, comme le Shelly 1PM Gen4 : l'interrupteur envoie un ordre sans couper le courant, et les ampoules restent joignables. Autre option : laisser le circuit alimenté et utiliser une commande sans fil comme le Hue Tap Dial Switch ou l'IKEA RODRET.",
@@ -876,7 +876,7 @@ export const article: BlogArticle = {
         es: 'Lo más sencillo es un módulo en modo desacoplado, como el Shelly 1PM Gen4: el interruptor envía una orden sin cortar la corriente y las bombillas siguen accesibles. Otra opción es dejar el circuito alimentado y usar un mando inalámbrico como el Hue Tap Dial Switch o el IKEA RODRET.',
         it: "La soluzione più semplice è un modulo in modalità detached, come lo Shelly 1PM Gen4: l'interruttore invia un comando senza togliere corrente e le lampadine restano raggiungibili. In alternativa si lascia il circuito alimentato e si usa un comando wireless come l'Hue Tap Dial Switch o l'IKEA RODRET.",
         nl: 'Het eenvoudigst is een relais in detached-modus, zoals de Shelly 1PM Gen4: de schakelaar stuurt een commando zonder de stroom te onderbreken, zodat de lampen bereikbaar blijven. Je kunt ook het circuit onder spanning laten en een draadloze bediening gebruiken, zoals de Hue Tap Dial Switch of IKEA RODRET.',
-        pl: 'Najprościej użyć modułu w trybie odłączonym, jak Shelly 1PM Gen4: włącznik wysyła polecenie bez odcinania prądu, a żarówki pozostają osiągalne. Inna opcja: zostawić obwód pod napięciem i użyć sterownika bezprzewodowego, takiego jak Hue Tap Dial Switch lub IKEA RODRET.',
+        pl: 'Najprościej zastosować moduł w trybie odłączonym (detached), np. Shelly 1PM Gen4: włącznik wysyła wtedy polecenie, nie odcinając prądu, więc żarówki cały czas pozostają dostępne w sieci. Inna możliwość to zostawić obwód stale pod napięciem i użyć bezprzewodowego sterownika, np. Hue Tap Dial Switch lub IKEA RODRET.',
       },
     },
     {
@@ -896,7 +896,7 @@ export const article: BlogArticle = {
         es: 'Zigbee es fiable y está muy extendido, pero depende de una pasarela. Matter permite usar el mismo dispositivo en varios ecosistemas (Apple, Google, Amazon). Los modelos que ofrecen ambos, como el Aqara Light Switch H2 EU o el Shelly 1PM Gen4, dan la mayor libertad.',
         it: "Zigbee è collaudato e diffuso, ma legato a un gateway. Matter consente di usare lo stesso dispositivo in più ecosistemi (Apple, Google, Amazon). I modelli che offrono entrambi, come l'Aqara Light Switch H2 EU o lo Shelly 1PM Gen4, garantiscono la massima libertà.",
         nl: 'Zigbee is beproefd en wijdverbreid, maar gebonden aan een hub. Met Matter kun je hetzelfde apparaat in meerdere ecosystemen gebruiken (Apple, Google, Amazon). Modellen met beide, zoals de Aqara Light Switch H2 EU of de Shelly 1PM Gen4, bieden de meeste vrijheid.',
-        pl: 'Zigbee jest sprawdzony i bardzo rozpowszechniony, ale związany z bramką. Matter pozwala używać tego samego urządzenia w kilku ekosystemach (Apple, Google, Amazon). Modele oferujące oba standardy, jak Aqara Light Switch H2 EU czy Shelly 1PM Gen4, dają najwięcej swobody.',
+        pl: 'Zigbee to sprawdzony i bardzo popularny standard, ale wymaga bramki. Matter pozwala używać tego samego urządzenia w kilku ekosystemach (Apple, Google, Amazon). Najwięcej swobody dają modele, które obsługują oba standardy, np. Aqara Light Switch H2 EU czy Shelly 1PM Gen4.',
       },
     },
     {
@@ -907,7 +907,7 @@ export const article: BlogArticle = {
         es: '¿Puedo instalar yo mismo un interruptor inteligente?',
         it: 'Posso installare da solo un interruttore smart?',
         nl: 'Kan ik zelf een slimme schakelaar installeren?',
-        pl: 'Czy mogę sam zamontować inteligentny włącznik?',
+        pl: 'Czy inteligentny włącznik można zamontować samodzielnie?',
       },
       answer: {
         fr: "Un bricoleur expérimenté peut le faire en coupant le disjoncteur du circuit, en vérifiant l'absence de tension et en suivant la notice. Au moindre doute sur le câblage ou sur une installation ancienne, faites appel à un électricien qualifié. Les commandes sur pile ne nécessitent aucune intervention électrique.",
@@ -916,7 +916,7 @@ export const article: BlogArticle = {
         es: 'Un aficionado con experiencia puede hacerlo bajando el magnetotérmico del circuito, comprobando la ausencia de tensión y siguiendo las instrucciones. Ante cualquier duda sobre el cableado o en instalaciones antiguas, recurre a un electricista cualificado. Los mandos a pilas no requieren intervención eléctrica.',
         it: "Un appassionato esperto può farlo abbassando il magnetotermico del circuito, verificando l'assenza di tensione e seguendo le istruzioni. In caso di dubbi sul cablaggio o con impianti datati, rivolgiti a un elettricista qualificato. I comandi a batteria non richiedono alcun intervento elettrico.",
         nl: 'Een ervaren klusser kan dit doen door de groep uit te schakelen, te controleren of er geen spanning meer is en de handleiding te volgen. Bij de minste twijfel over de bedrading of bij een oude installatie schakel je een erkende elektricien in. Bedieningen op batterij vragen geen ingreep in de elektriciteit.',
-        pl: 'Doświadczony majsterkowicz może to zrobić, wyłączając wyłącznik nadprądowy obwodu, sprawdzając brak napięcia i postępując zgodnie z instrukcją. Przy najmniejszej wątpliwości co do okablowania lub w starej instalacji skorzystaj z pomocy wykwalifikowanego elektryka. Sterowniki na baterie nie wymagają żadnej ingerencji w instalację elektryczną.',
+        pl: 'Tak, jeśli masz doświadczenie w majsterkowaniu: wyłącz bezpiecznik (wyłącznik nadprądowy) danego obwodu, sprawdź, czy nie ma napięcia, i postępuj zgodnie z instrukcją. Przy najmniejszych wątpliwościach co do okablowania albo w starej instalacji wezwij wykwalifikowanego elektryka. Sterowniki na baterie nie wymagają żadnych prac przy instalacji elektrycznej.',
       },
     },
     {
@@ -927,7 +927,7 @@ export const article: BlogArticle = {
         es: '¿Por qué parpadean mis LED con un interruptor inteligente?',
         it: 'Perché i miei LED sfarfallano con un interruttore smart?',
         nl: 'Waarom knipperen mijn ledlampen met een slimme schakelaar?',
-        pl: 'Dlaczego moje LED migoczą przy inteligentnym włączniku?',
+        pl: 'Dlaczego żarówki LED migoczą przy inteligentnym włączniku?',
       },
       answer: {
         fr: "Sur un modèle sans neutre, le module s'alimente à travers l'ampoule : si la charge est trop faible, les LED peuvent scintiller ou rester légèrement allumées. Un compensateur (bypass) installé près du luminaire, une charge plus importante ou un modèle avec neutre règlent généralement le problème.",
@@ -936,7 +936,7 @@ export const article: BlogArticle = {
         es: 'En un modelo sin neutro, el módulo se alimenta a través de la bombilla: si la carga es demasiado baja, los LED pueden parpadear o quedar ligeramente encendidos. Un compensador (bypass) junto a la luminaria, una carga mayor o un modelo con neutro suelen resolverlo.',
         it: "Nei modelli senza neutro il modulo si alimenta attraverso la lampadina: se il carico è troppo basso, i LED possono sfarfallare o restare debolmente accesi. Un compensatore (bypass) vicino al punto luce, un carico maggiore o un modello con neutro di solito risolvono il problema.",
         nl: 'Bij een model zonder nul haalt de module zijn voeding via de lamp: is de belasting te laag, dan kunnen ledlampen knipperen of zwak blijven gloeien. Een compensator (bypass) bij het armatuur, een hogere belasting of een model met nul lost dit meestal op.',
-        pl: 'W modelu bez przewodu neutralnego moduł zasila się przez żarówkę: jeśli obciążenie jest zbyt małe, LED mogą migotać lub lekko się świecić. Kompensator (bypass) zamontowany przy oprawie, większe obciążenie lub model z przewodem neutralnym zwykle rozwiązują problem.',
+        pl: 'W modelu bez przewodu neutralnego moduł pobiera zasilanie przez żarówkę: jeśli obciążenie jest zbyt małe, żarówki LED mogą migotać lub nie gasnąć całkowicie. Problem zwykle rozwiązuje kompensator (bypass) zamontowany przy oprawie, większe obciążenie albo model z przewodem neutralnym.',
       },
     },
   ],

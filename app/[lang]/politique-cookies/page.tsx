@@ -13,7 +13,7 @@ const metaDescriptions: Record<string, string> = {
   es: 'Política de cookies de Home Nura: cookies estrictamente necesarias, cookies de afiliación de Amazon y gestión desde tu navegador. Conforme al RGPD.',
   it: 'Politica dei cookie di Home Nura: cookie strettamente necessari, cookie di affiliazione Amazon e gestione dal browser. Conforme al GDPR.',
   nl: 'Cookiebeleid van Home Nura: strikt noodzakelijke cookies, Amazon-affiliate cookies en beheer via uw browser. AVG-conform.',
-  pl: 'Polityka plików cookie Home Nura: niezbędne pliki cookie, afiliacyjne pliki cookie Amazon, zarządzanie i ustawienia przeglądarki. Zgodna z RODO.',
+  pl: 'Polityka plików cookie serwisu Home Nura: niezbędne pliki cookie, afiliacyjne pliki cookie Amazon i zarządzanie nimi w przeglądarce. Zgodna z RODO.',
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -58,7 +58,7 @@ const content: Record<string, { title: string; body: string }> = {
   },
   pl: {
     title: 'Polityka plików cookie',
-    body: 'Ostatnia aktualizacja: kwiecień 2026\n\nTa polityka wyjaśnia, w jaki sposób Home Nura korzysta z plików cookie w swoim serwisie internetowym.\n\nCo to jest plik cookie?\nPlik cookie to mały plik tekstowy zapisywany na Twoim urządzeniu podczas odwiedzania strony internetowej. Pliki cookie pozwalają serwisowi działać prawidłowo i poprawiają Twoje wrażenia.\n\nJakich plików cookie używamy\n\nPliki cookie ściśle niezbędne: są one niezbędne do działania serwisu. Nie można ich wyłączyć.\n\nPliki cookie podmiotów trzecich (Amazon): gdy klikasz link afiliacyjny do Amazon, Amazon zapisuje pliki cookie, aby śledzić Twój zakup i przypisać nam prowizję afiliacyjną. Pliki te podlegają polityce cookie Amazon.\n\nZarządzanie plikami cookie\nMożesz kontrolować i usuwać pliki cookie w ustawieniach swojej przeglądarki. Usunięcie plików cookie może wpłynąć na komfort przeglądania.\n\nWięcej informacji o zarządzaniu plikami cookie znajdziesz w pomocy swojej przeglądarki.\n\nKontakt\nW razie pytań dotyczących naszego korzystania z plików cookie: contact@homenura.com',
+    body: 'Ostatnia aktualizacja: kwiecień 2026\n\nW tym dokumencie wyjaśniamy, jak serwis Home Nura korzysta z plików cookie.\n\nCzym jest plik cookie?\nPlik cookie to mały plik tekstowy, który zapisuje się na Twoim urządzeniu, gdy odwiedzasz stronę internetową. Dzięki plikom cookie serwis działa prawidłowo i wygodniej się z niego korzysta.\n\nJakich plików cookie używamy\n\nNiezbędne pliki cookie: bez nich serwis nie może działać. Nie można ich wyłączyć.\n\nPliki cookie stron trzecich (Amazon): gdy klikniesz link afiliacyjny prowadzący do sklepu Amazon, Amazon zapisuje pliki cookie, które pozwalają śledzić Twój zakup i przypisać nam prowizję afiliacyjną. Te pliki cookie podlegają polityce plików cookie Amazon.\n\nZarządzanie plikami cookie\nPliki cookie możesz kontrolować i usuwać w ustawieniach przeglądarki. Usunięcie plików cookie może wpłynąć na komfort przeglądania.\n\nWięcej informacji o zarządzaniu plikami cookie znajdziesz w pomocy swojej przeglądarki.\n\nKontakt\nJeśli masz pytania dotyczące plików cookie w naszym serwisie, napisz na adres: contact@homenura.com',
   },
 }
 

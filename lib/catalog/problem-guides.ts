@@ -118,21 +118,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Als slang, afdichtingen en filter in orde zijn en de kamer toch opwarmt, is het toestel mogelijk te klein voor de ruimte of verzwakt het koelcircuit; een ouder model met één slang is zelden een reparatie waard tegenover een efficiënter nieuw toestel."
     },
     "pl": {
-      "intro": "Wąż klimatyzatora przenośnego jest gorący, bo odprowadza ciepło odebrane z pomieszczenia. Jeśli jednak jest nieszczelny, załamany lub nieizolowany, część tego ciepła wraca do pokoju. Najczęstsza przyczyna to źle zatrzaśnięte połączenie albo niepełne uszczelnienie okna.",
+      "intro": "Wąż klimatyzatora przenośnego jest gorący, bo wyprowadza na zewnątrz ciepło odebrane z pomieszczenia. Jeśli jednak jest nieszczelny, załamany lub nieizolowany, część tego ciepła wraca do pokoju. Najczęściej winne jest źle zamocowane złącze albo nieszczelnie zabezpieczone okno.",
       "causes": [
-        "Źle zatrzaśnięte połączenie — gorące powietrze ucieka na styku z urządzeniem lub adapterem okiennym i da się je wyczuć dłonią.",
-        "Niepełne uszczelnienie okna — ciepłe powietrze z zewnątrz dostaje się przez szczeliny, a wokół panelu czuć przeciąg.",
-        "Załamany lub zbyt długi wąż — przepływ powietrza spada, wąż mocno się nagrzewa i oddaje ciepło do pomieszczenia.",
-        "Model z jednym wężem — urządzenie zasysa powietrze z pokoju, a w jego miejsce ciepłe powietrze z sąsiednich pomieszczeń napływa przez drzwi i szczeliny.",
+        "Źle zatrzaśnięte złącze — gorące powietrze ucieka przy połączeniu z urządzeniem lub z adapterem okiennym, co łatwo wyczuć dłonią.",
+        "Szczeliny w uszczelnieniu okna — wpada przez nie ciepłe powietrze z zewnątrz, a przy panelu okiennym czuć przeciąg.",
+        "Załamany lub zbyt długi wąż — przepływ powietrza słabnie, wąż robi się bardzo gorący i oddaje ciepło do pomieszczenia.",
+        "Model jednowężowy — urządzenie zasysa powietrze z pokoju, a na jego miejsce przez drzwi i szczeliny napływa ciepłe powietrze z sąsiednich pomieszczeń.",
       ],
       "steps": [
-        "Wyłącz urządzenie i odłącz je od prądu, a potem poczekaj, aż wąż ostygnie, zanim go dotkniesz lub zmienisz połączenie.",
-        "Sprawdź, czy oba końce węża są dobrze zatrzaśnięte lub dokręcone — od strony urządzenia i od strony adaptera okiennego — i nie ma między nimi widocznych szczelin.",
-        "Skróć wąż i możliwie najbardziej go wyprostuj, bez ostrych zagięć, aby gorące powietrze szybko wydostawało się na zewnątrz, a silnik się nie przegrzewał.",
-        "Uszczelnij szczeliny wokół okna dołączonym panelem, samoprzylepną pianką lub taśmą uszczelniającą, aby powietrze z zewnątrz nie wracało do środka.",
-        "Zamknij drzwi i okna w pomieszczeniu, wyczyść filtr i rozważ dopasowany pokrowiec izolacyjny, który ograniczy promieniowanie ciepła z węża.",
+        "Wyłącz urządzenie i wyjmij wtyczkę z gniazdka, a zanim dotkniesz węża lub zaczniesz poprawiać złącza, poczekaj, aż ostygnie.",
+        "Sprawdź, czy oba końce węża, przy urządzeniu i przy adapterze okiennym, są dobrze zatrzaśnięte lub przykręcone i czy nigdzie nie widać szczeliny.",
+        "Skróć wąż, ile się da, i wyprostuj go bez ostrych zagięć, żeby gorące powietrze szybko uchodziło na zewnątrz, a silnik się nie przegrzewał.",
+        "Uszczelnij szczeliny w oknie panelem z zestawu, samoprzylepną pianką lub taśmą uszczelniającą, żeby powietrze z zewnątrz nie wracało do środka.",
+        "Zamknij drzwi i okna w pomieszczeniu, wyczyść filtr i rozważ dopasowaną otulinę izolacyjną na wąż, która ograniczy oddawanie przez niego ciepła.",
       ],
-      "replaceWhen": "Jeśli wąż, uszczelnienia i filtr są w dobrym stanie, a pomieszczenie nadal się nagrzewa, urządzenie może mieć za małą moc albo słabnie jego obieg chłodniczy. Starszy model z jednym wężem zwykle nie jest wart naprawy w porównaniu z nowszym, wydajniejszym urządzeniem.",
+      "replaceWhen": "Jeśli wąż, uszczelnienia i filtr są w dobrym stanie, a w pomieszczeniu nadal robi się gorąco, klimatyzator może mieć za małą moc albo słabnie jego układ chłodniczy. Starego modelu jednowężowego zwykle nie opłaca się naprawiać, skoro nowsze urządzenie jest wydajniejsze.",
     }
   },
   "climatiseur-mobile-compresseur-cycle-court": {
@@ -239,21 +239,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Blijft het kort cyclen na grondig onderhoud bestaan, dan is een tekort aan koudemiddel of een versleten compressor waarschijnlijk; beide vragen een vakman en kosten bij een ouder toestel vaak meer dan de restwaarde, dus vervanging is verstandiger."
     },
     "pl": {
-      "intro": "Sprężarka klimatyzatora przenośnego, która wyłącza się i włącza co dwie minuty, prawie zawsze cierpi z powodu przegrzania albo zakłóconej regulacji — często przez zabrudzony filtr lub utrudniony odpływ powietrza w wężu. Te proste przyczyny usuń, zanim zaczniesz podejrzewać usterkę obiegu chłodniczego.",
+      "intro": "Jeśli sprężarka klimatyzatora przenośnego wyłącza się i włącza co dwie minuty, przyczyną jest prawie zawsze przegrzewanie się urządzenia albo zmylony czujnik temperatury, często z powodu zabrudzonego filtra lub utrudnionego wylotu powietrza przez wąż. Te proste przyczyny wyeliminuj, zanim zaczniesz podejrzewać usterkę układu chłodniczego.",
       "causes": [
-        "Zabrudzony filtr lub kratka — powietrze krąży słabo, urządzenie się przegrzewa, a zabezpieczenie termiczne wielokrotnie wyłącza sprężarkę.",
-        "Załamany lub zatkany wąż odprowadzający — ciepło nie wydostaje się na zewnątrz, ciśnienie rośnie i urządzenie przechodzi w tryb zabezpieczenia.",
-        "Zafałszowany odczyt czujnika temperatury — zimne powietrze z urządzenia trafia na czujnik i temperatura zadana wydaje się osiągnięta zbyt szybko.",
-        "Pełny zbiornik skroplin lub zablokowany pływak — urządzenie na chwilę się zatrzymuje, po czym włącza się ponownie, a chłodzenie nigdy się nie stabilizuje.",
+        "Zabrudzony filtr lub kratka — powietrze słabo przepływa, urządzenie się przegrzewa, a zabezpieczenie termiczne raz po raz wyłącza sprężarkę.",
+        "Załamany lub zatkany wąż wylotowy — ciepło nie uchodzi na zewnątrz, ciśnienie rośnie i urządzenie przechodzi w tryb ochronny.",
+        "Błędny odczyt czujnika temperatury — chłodne powietrze z urządzenia trafia prosto na czujnik, więc temperatura zadana wydaje się osiągnięta zbyt szybko.",
+        "Pełny zbiornik skroplin lub zablokowany pływak — urządzenie na chwilę staje i znowu rusza, a chłodzenie nie może się ustabilizować.",
       ],
       "steps": [
-        "Odłącz urządzenie od prądu i odczekaj co najmniej trzydzieści minut, aby zabezpieczenie termiczne się zresetowało, a obieg się ustabilizował.",
-        "Wyjmij filtr i umyj go w letniej wodzie, całkowicie osusz, a następnie delikatnie odkurz kratki wlotu i wylotu powietrza.",
-        "Sprawdź, czy wąż jest prosty, krótki i dobrze podłączony oraz czy zewnętrzne wyjście nie jest zasłonięte klapką lub roletą.",
-        "Odsuń urządzenie od ścian i zasłon, trzymaj je z dala od źródeł ciepła i opróżnij zbiornik skroplin lub wąż odpływowy.",
-        "Obniż temperaturę zadaną o kilka stopni lub spróbuj innego trybu, a potem sprawdź, czy cykle się wydłużają; jeśli nie, skontaktuj się z serwisem producenta.",
+        "Wyjmij wtyczkę z gniazdka i odczekaj co najmniej trzydzieści minut, aż zabezpieczenie termiczne się zresetuje, a układ chłodniczy ustabilizuje.",
+        "Wyjmij filtr, umyj go w letniej wodzie i dokładnie wysusz, a potem delikatnie odkurz kratki wlotu i wylotu powietrza.",
+        "Sprawdź, czy wąż jest prosty, krótki i dobrze podłączony oraz czy jego wylotu na zewnątrz nie zasłania okiennica ani roleta.",
+        "Odsuń urządzenie od ścian i zasłon, ustaw je z dala od źródeł ciepła i opróżnij zbiornik skroplin lub wąż odpływowy.",
+        "Obniż temperaturę zadaną o kilka stopni lub wypróbuj inny tryb i sprawdź, czy cykle pracy się wydłużają; jeśli nie, skontaktuj się z serwisem producenta.",
       ],
-      "replaceWhen": "Jeśli krótkie cykle utrzymują się mimo pełnej konserwacji, prawdopodobny jest niedobór czynnika chłodniczego albo zużyta sprężarka. Takie naprawy wymagają fachowca i często kosztują więcej, niż warte jest stare urządzenie, więc wymiana staje się wtedy rozsądniejsza.",
+      "replaceWhen": "Jeśli krótkie cykle nie ustępują mimo pełnej konserwacji, prawdopodobnie brakuje czynnika chłodniczego albo sprężarka jest zużyta. Takie naprawy wymagają fachowca i często kosztują więcej, niż wart jest stary klimatyzator, więc rozsądniej go wymienić.",
     }
   },
   "balai-aspirateur-led-clignote": {
@@ -360,21 +360,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Blijft de led rood knipperen na reiniging en volledig opladen, dan is waarschijnlijk de accu of het besturingsbord defect. Kost een vervangende accu bijna evenveel als een nieuwe stofzuiger of is hij niet meer leverbaar, dan is vervanging van het apparaat verstandiger."
     },
     "pl": {
-      "intro": "Migająca czerwona dioda LED w odkurzaczu pionowym bezprzewodowym zwykle oznacza aktywne zabezpieczenie: przegrzanie, zablokowaną szczotkę lub filtr albo problem z akumulatorem. Dokładny kod sprawdź w instrukcji, bo jego znaczenie zależy od modelu, a zacznij od sprawdzenia, czy coś nie blokuje przepływu.",
+      "intro": "Migająca czerwona dioda w odkurzaczu pionowym bezprzewodowym zwykle oznacza, że zadziałało któreś z zabezpieczeń. Przyczyną bywa przegrzanie, zablokowana szczotka, zapchany filtr albo problem z akumulatorem. Znaczenie sygnału zależy od modelu, więc dokładny kod sprawdź w instrukcji, a zacznij od szukania zatorów.",
       "causes": [
-        "Zabrudzony filtr lub pojemnik — silnik pracuje z wysiłkiem i się grzeje, a zabezpieczenie termiczne wyłącza urządzenie, przy czym miga dioda.",
-        "Szczotka zablokowana włosami lub przedmiotem — silnik szczotki pracuje z wysiłkiem, co w wielu modelach uruchamia zabezpieczenie.",
-        "Źle zatrzaśnięty akumulator lub brudne styki — zasilanie jest niestabilne, a elektronika odmawia uruchomienia.",
-        "Bardzo rozładowany lub zużyty akumulator — nie daje już wystarczającego prądu, a urządzenie sygnalizuje błąd ładowania.",
+        "Zabrudzony filtr lub pojemnik — silnik pracuje z dużym obciążeniem i się nagrzewa, aż zabezpieczenie termiczne wyłącza odkurzacz, a dioda zaczyna migać.",
+        "Szczotka zablokowana przez włosy lub jakiś przedmiot — silnik szczotki pracuje z dużym oporem, co w wielu modelach uruchamia zabezpieczenie.",
+        "Źle osadzony akumulator lub brudne styki — zasilanie jest niestabilne i elektronika nie pozwala uruchomić odkurzacza.",
+        "Głęboko rozładowany lub zużyty akumulator — nie daje już wystarczającego prądu, a odkurzacz sygnalizuje błąd ładowania.",
       ],
       "steps": [
-        "Wyjmij akumulator, jeśli jest wyjmowany, lub odczekaj co najmniej trzydzieści minut, aż urządzenie ostygnie, zanim spróbujesz ponownie.",
-        "Opróżnij pojemnik, wyczyść lub wymień filtr zgodnie z instrukcją, a przed ponownym założeniem pozostaw go do całkowitego wyschnięcia.",
-        "Zdemontuj szczotkę według instrukcji, usuń nawinięte włosy i nitki oraz sprawdź, czy żaden przedmiot nie blokuje rury lub ssawki.",
-        "Wyczyść styki akumulatora suchą szmatką, włóż akumulator do oporu aż do kliknięcia i naładuj go oryginalną ładowarką.",
-        "Sprawdź urządzenie bez napędzanej końcówki; jeśli dioda nadal miga, odczytaj kod w instrukcji i skontaktuj się z producentem.",
+        "Wyjmij akumulator, jeśli da się go wyjąć, albo odczekaj co najmniej trzydzieści minut, aż odkurzacz ostygnie, zanim spróbujesz ponownie.",
+        "Opróżnij pojemnik, wyczyść lub wymień filtr zgodnie z instrukcją i przed założeniem zostaw go do całkowitego wyschnięcia.",
+        "Zdejmij szczotkę zgodnie z instrukcją, usuń nawinięte włosy i nitki i sprawdź, czy rury ani ssawki nie blokuje żaden przedmiot.",
+        "Przetrzyj styki akumulatora suchą ściereczką, wsuń akumulator do końca, aż kliknie, i naładuj go oryginalną ładowarką.",
+        "Włącz odkurzacz bez końcówki z napędem; jeśli dioda nadal miga, odczytaj kod w instrukcji i skontaktuj się z producentem.",
       ],
-      "replaceWhen": "Jeśli miganie nie ustępuje po czyszczeniu i pełnym naładowaniu, przyczyną jest prawdopodobnie akumulator albo płyta elektroniczna. Gdy akumulator zamienny kosztuje prawie tyle co nowe urządzenie lub nie jest już dostępny, rozsądniej jest wymienić odkurzacz.",
+      "replaceWhen": "Jeśli dioda miga dalej mimo czyszczenia i pełnego naładowania, winny jest prawdopodobnie akumulator albo płytka sterująca. Gdy nowy akumulator kosztuje prawie tyle co nowy odkurzacz albo nie jest już dostępny, rozsądniej kupić nowe urządzenie.",
     }
   },
   "tiroir-ne-ferme-pas": {
@@ -481,21 +481,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Is de lade krom, het handvat gebroken of de behuizing zo vervormd dat er niets meer sluit, dan is reparatie zelden betrouwbaar. Afbladderende antiaanbaklaag is ook een reden om te vervangen, voor hygiëne en veiligheid."
     },
     "pl": {
-      "intro": "Szuflada frytkownicy beztłuszczowej, która przestaje się domykać, najczęściej jest blokowana przez przeszkodę: nadmiar jedzenia, podwijający się papier do pieczenia albo stwardniały tłuszcz na prowadnicach. Odkształcenie szuflady lub koszyka zdarza się rzadziej, ale jest możliwe po uderzeniach lub pod wpływem wysokiej temperatury.",
+      "intro": "Jeśli szuflada frytkownicy beztłuszczowej przestała się domykać, zwykle coś ją blokuje: za dużo jedzenia, podwinięty papier do pieczenia albo zaschnięty tłuszcz na prowadnicach. Rzadziej winna jest odkształcona szuflada lub kosz, co może się zdarzyć po uderzeniu albo pod wpływem wysokiej temperatury.",
       "causes": [
-        "Przepełniony koszyk lub wystające jedzenie — zawartość zahacza o grzałkę lub obudowę i uniemożliwia całkowite zamknięcie.",
-        "Podwinięty papier do pieczenia lub folia aluminiowa — zakleszczają się z tyłu lub pod koszykiem i blokują szufladę.",
-        "Nagar tłuszczu na prowadnicach — stwardniałe osady hamują ruch i nie pozwalają szufladzie wsunąć się do końca.",
-        "Źle zatrzaśnięty koszyk lub odkształcony uchwyt — koszyk nie jest zablokowany w szufladzie i lekko wystaje poza krawędź.",
+        "Przepełniony kosz lub wystające jedzenie — zawartość opiera się o grzałkę lub obudowę i szuflada nie domyka się do końca.",
+        "Podwinięty papier do pieczenia lub folia aluminiowa — klinują się z tyłu albo pod koszem i blokują szufladę.",
+        "Przypalony tłuszcz na prowadnicach — stwardniałe osady utrudniają przesuwanie i szuflada nie wsuwa się do końca.",
+        "Źle zatrzaśnięty kosz lub odkształcony uchwyt — kosz nie jest zablokowany w szufladzie i lekko wystaje poza krawędź.",
       ],
       "steps": [
-        "Odłącz urządzenie od prądu i poczekaj, aż całkowicie ostygnie, zanim dotkniesz szuflady, koszyka lub wnętrza obudowy.",
-        "Wyjmij szufladę i koszyk, usuń zakleszczony papier, folię lub resztki jedzenia i sprawdź, czy na dnie komory nic nie zostało.",
-        "Wyczyść prowadnice, krawędzie i otwór nierysującą gąbką w ciepłej wodzie z detergentem, a następnie dokładnie osusz.",
-        "Włóż koszyk do szuflady aż do kliknięcia, rozłóż jedzenie płasko poniżej oznaczenia maksymalnego napełnienia i delikatnie zamknij.",
-        "Nigdy nie omijaj wyłącznika bezpieczeństwa: urządzenie grzeje tylko wtedy, gdy szuflada jest dobrze zamknięta, i ten mechanizm musi pozostać sprawny.",
+        "Wyjmij wtyczkę z gniazdka i poczekaj, aż frytkownica całkowicie ostygnie, zanim dotkniesz szuflady, kosza lub wnętrza obudowy.",
+        "Wysuń szufladę i wyjmij kosz, usuń zaklinowany papier, folię lub resztki jedzenia i sprawdź, czy nic nie zostało na dnie komory.",
+        "Wyczyść prowadnice, krawędzie i otwór komory nierysującą gąbką w ciepłej wodzie z płynem do naczyń, a potem dokładnie osusz.",
+        "Włóż kosz do szuflady, aż usłyszysz kliknięcie, rozłóż jedzenie płasko poniżej znacznika maksymalnego napełnienia i delikatnie zamknij szufladę.",
+        "Nigdy nie obchodź wyłącznika bezpieczeństwa: frytkownica grzeje tylko przy dobrze zamkniętej szufladzie i to zabezpieczenie musi działać.",
       ],
-      "replaceWhen": "Jeśli szuflada jest skrzywiona, uchwyt złamany albo obudowa odkształcona tak, że nie da się jej zamknąć, naprawa rzadko jest wiarygodna. Łuszcząca się powłoka to również powód, by wybrać wymianę ze względu na higienę i bezpieczeństwo.",
+      "replaceWhen": "Jeśli szuflada jest wygięta, uchwyt pęknięty albo obudowa tak odkształcona, że szuflada się nie domyka, naprawa rzadko daje trwały efekt. Łuszcząca się powłoka to również powód do wymiany, ze względu na higienę i bezpieczeństwo.",
     }
   },
   "station-meteo-sonde-ext-hs": {
@@ -602,21 +602,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Is er water in de sensor gekomen, is de print gecorrodeerd of komt de verbinding ook met nieuwe batterijen nooit terug, dan is reparatie onrealistisch. Is er voor een ouder station geen losse sensor meer te krijgen, dan is complete vervanging logisch."
     },
     "pl": {
-      "intro": "Zewnętrzny czujnik stacji pogodowej, który przestał wysyłać dane, najczęściej ma słabe baterie, zwłaszcza w mrozie, albo utracił połączenie radiowe z konsolą. Wymiana baterii i ponowna synchronizacja rozwiązują większość przypadków.",
+      "intro": "Gdy czujnik zewnętrzny stacji pogodowej przestaje wysyłać dane, zwykle ma słabe baterie, zwłaszcza w mrozy, albo stracił łączność radiową z konsolą. W większości przypadków pomaga wymiana baterii i ponowna synchronizacja.",
       "causes": [
-        "Słabe baterie w czujniku — mróz dodatkowo zmniejsza ich pojemność, a nadajnik przestaje nadawać lub nadaje zbyt słabo.",
-        "Utracone połączenie radiowe po zaniku zasilania — czujnik i konsola nie są już sparowane po wymianie baterii lub awarii.",
-        "Odległość, ściany lub metalowe przeszkody — sygnał radiowy słabnie między czujnikiem a konsolą i nie dociera.",
-        "Wilgoć lub korozja w komorze baterii — styki się utleniają, a zasilanie staje się przerywane lub zanika.",
+        "Słabe baterie w czujniku — mróz dodatkowo obniża ich pojemność, więc nadajnik milknie albo nadaje zbyt słabo.",
+        "Utrata połączenia radiowego po przerwie w zasilaniu — po wymianie baterii lub awarii czujnik i konsola przestają być sparowane.",
+        "Odległość, ściany lub metalowe przeszkody — sygnał radiowy słabnie po drodze i nie dociera do konsoli.",
+        "Wilgoć lub korozja w komorze baterii — styki się utleniają, a zasilanie działa z przerwami albo całkiem zanika.",
       ],
       "steps": [
-        "Przybliż czujnik do konsoli, na kilka metrów bez przeszkód, aby sprawdzić, czy dane wracają, gdy zasięg nie ma znaczenia.",
-        "Wymień baterie w czujniku na nowe, dobrej jakości, zachowując biegunowość i typ podany w instrukcji.",
-        "Wyjmij baterie z konsoli i z czujnika, a następnie włóż najpierw baterie do czujnika, potem do konsoli, aby ponownie uruchomić parowanie.",
-        "Sprawdź kanał lub identyfikator, jeśli można go ustawić, i odsuń konsolę od routerów, telewizorów oraz innych źródeł zakłóceń radiowych.",
-        "Osusz i wyczyść styki w komorze baterii, a potem zamocuj czujnik w miejscu osłoniętym przed bezpośrednim deszczem, z dala od dużych metalowych powierzchni.",
+        "Przenieś czujnik bliżej konsoli (kilka metrów, bez przeszkód po drodze) i sprawdź, czy dane wracają; w ten sposób wykluczysz problem z zasięgiem.",
+        "Wymień baterie w czujniku na nowe, dobrej jakości, zgodnie z biegunowością i typem podanym w instrukcji.",
+        "Wyjmij baterie z konsoli i z czujnika, a potem włóż je najpierw do czujnika, a dopiero później do konsoli, żeby ponownie uruchomić parowanie.",
+        "Jeśli kanał lub identyfikator da się ustawić, sprawdź ich zgodność, a konsolę odsuń od routerów, telewizorów i innych źródeł zakłóceń radiowych.",
+        "Osusz i wyczyść styki w komorze baterii, a potem zamocuj czujnik w miejscu osłoniętym od deszczu, z dala od dużych metalowych powierzchni.",
       ],
-      "replaceWhen": "Jeśli do czujnika dostała się woda, płytka jest skorodowana albo połączenie nigdy się nie przywraca mimo nowych baterii, naprawa jest mało realna. Gdy w starszej stacji nie da się znaleźć czujnika zamiennego, uzasadniona jest wymiana całego zestawu.",
+      "replaceWhen": "Jeśli do czujnika dostała się woda, płytka jest skorodowana albo połączenie nie wraca mimo nowych baterii, naprawa raczej nie ma sensu. Gdy do starszej stacji nie da się już kupić czujnika zamiennego, warto wymienić cały zestaw.",
     }
   },
   "nettoyage-residus-brules": {
@@ -723,21 +723,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Als de antiaanbaklaag afbladdert, er roest verschijnt of er na een grondige reiniging nog een brandlucht blijft, wordt het apparaat onveiliger en minder hygiënisch. Dan is vervangen beter dan er verder in blijven koken."
     },
     "pl": {
-      "intro": "Aby oczyścić przypalone resztki we frytkownicy beztłuszczowej, poczekaj, aż urządzenie ostygnie, namocz szufladę i koszyk w ciepłej wodzie z detergentem, a następnie szoruj nierysującą gąbką. Pasta z sody oczyszczonej pomaga na upartych osadach i nie niszczy powłoki nieprzywierającej.",
+      "intro": "Żeby usunąć przypalone resztki z frytkownicy beztłuszczowej, poczekaj, aż ostygnie, namocz szufladę i kosz w ciepłej wodzie z płynem do naczyń, a potem wyszoruj je nierysującą gąbką. Na uporczywe osady pomaga pasta z sody oczyszczonej, która nie niszczy powłoki nieprzywierającej.",
       "causes": [
-        "Kapiący i przypalający się tłuszcz — krople spadają na dno szuflady i przy każdym smażeniu czernieją, jeśli się jej nie czyści.",
-        "Słodkie marynaty lub gęste sosy — cukier karmelizuje się, potem przypala na koszyku i mocno przykleja do ścianki.",
-        "Odkładanie czyszczenia między kolejnymi smażeniami — warstwy tłuszczu nakładają się i twardnieją pod wpływem powtarzanego ciepła.",
-        "Maksymalna temperatura bez oleju lub odpowiedniego papieru — jedzenie przywiera do koszyka i zostawia czarne skorupy trudne do oderwania.",
+        "Kapiący tłuszcz, który się przypala — krople spadają na dno szuflady i przy każdym użyciu czernieją, jeśli szuflada nie jest myta na bieżąco.",
+        "Słodkie marynaty lub gęste sosy — cukier się karmelizuje, a potem przypala i mocno przywiera do ścianek kosza.",
+        "Odkładanie mycia na później — kolejne warstwy tłuszczu nakładają się na siebie i przy każdym nagrzaniu coraz bardziej twardnieją.",
+        "Maksymalna temperatura bez odrobiny oleju lub odpowiedniego papieru — jedzenie przywiera do kosza i zostawia czarne, trudne do usunięcia przypalenia.",
       ],
       "steps": [
-        "Odłącz urządzenie od prądu i poczekaj, aż całkowicie ostygnie, zanim wyjmiesz szufladę i koszyk do czyszczenia.",
-        "Namocz szufladę i koszyk na piętnaście do trzydziestu minut w gorącej wodzie z płynem do naczyń, aby zmiękczyć osady.",
-        "Szoruj miękką gąbką lub szczotką; na uporczywe resztki nałóż pastę z sody oczyszczonej i wody i zostaw, aby zadziałała.",
-        "Wytrzyj wnętrze obudowy i grzałkę — gdy są zimne — dobrze wyciśniętą wilgotną ściereczką lub miękką szczotką, nie wlewając wody.",
-        "Opłucz, dokładnie osusz wszystkie elementy i złóż urządzenie. Nigdy nie używaj druciaków ani środków ściernych na powłoce.",
+        "Wyjmij wtyczkę z gniazdka i poczekaj, aż frytkownica całkowicie ostygnie, zanim wyjmiesz szufladę i kosz do mycia.",
+        "Namocz szufladę i kosz w gorącej wodzie z płynem do naczyń na 15–30 minut, żeby osady zmiękły.",
+        "Szoruj miękką gąbką lub szczoteczką; na uporczywe resztki nałóż pastę z sody oczyszczonej i wody i zostaw ją na chwilę, żeby zadziałała.",
+        "Przetrzyj wnętrze obudowy i grzałkę, gdy są zimne, dobrze wyciśniętą wilgotną ściereczką lub miękką szczoteczką; nie wlewaj do środka wody.",
+        "Opłucz i dokładnie osusz wszystkie części, a potem złóż frytkownicę. Do czyszczenia powłoki nigdy nie używaj druciaka ani środków ściernych.",
       ],
-      "replaceWhen": "Jeśli powłoka nieprzywierająca się łuszczy, pojawia się rdza albo zapach spalenizny utrzymuje się po dokładnym czyszczeniu, urządzenie staje się mniej bezpieczne i mniej higieniczne. W takiej sytuacji lepiej je wymienić, niż nadal w nim gotować.",
+      "replaceWhen": "Jeśli powłoka nieprzywierająca się łuszczy, pojawia się rdza albo zapach spalenizny nie znika mimo gruntownego czyszczenia, frytkownica staje się mniej bezpieczna i mniej higieniczna. Wtedy lepiej ją wymienić, niż dalej w niej przyrządzać jedzenie.",
     }
   },
   "purificateur-voyant-rouge": {
@@ -844,21 +844,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Blijft het lampje rood na filtervervanging, sensorreiniging en reset, dan is waarschijnlijk het bord of de sensor defect. Zijn filters niet meer te krijgen of is het apparaat oud en luidruchtig, dan is vervangen zinvoller."
     },
     "pl": {
-      "intro": "Stale świecąca czerwona kontrolka w oczyszczaczu powietrza najczęściej oznacza złą jakość powietrza wykrytą przez czujnik albo niezresetowane przypomnienie o wymianie filtra. Znaczenie zależy od modelu, więc zanim uznasz to za awarię, sprawdź instrukcję.",
+      "intro": "Czerwona kontrolka, która stale świeci w oczyszczaczu powietrza, najczęściej oznacza, że czujnik wykrył złą jakość powietrza albo że nie wyzerowano przypomnienia o wymianie filtra. Jej znaczenie zależy od modelu, więc zanim uznasz to za awarię, zajrzyj do instrukcji.",
       "causes": [
-        "Rzeczywiście zanieczyszczone powietrze — dym z gotowania, kurz lub aerozole sprawiają, że czujnik pokazuje kolor ostrzegawczy, dopóki powietrze nie zostanie oczyszczone.",
-        "Niezresetowane przypomnienie o filtrze — licznik zużycia pozostaje aktywny nawet po wymianie, jeśli nie został wyzerowany.",
-        "Zabrudzony czujnik cząstek — kurz na czujniku fałszuje pomiar i utrzymuje wskazanie złej jakości powietrza.",
-        "Źle osadzony filtr lub pokrywa — urządzenie wykrywa nieprawidłowy montaż i nie gasi kontrolki ostrzegawczej.",
+        "Powietrze naprawdę jest zanieczyszczone — dym z gotowania, kurz lub aerozole sprawiają, że czujnik pokazuje kolor ostrzegawczy, dopóki powietrze się nie oczyści.",
+        "Niewyzerowane przypomnienie o filtrze — licznik zużycia filtra działa dalej, jeśli po wymianie nie został wyzerowany.",
+        "Zabrudzony czujnik pyłu — kurz na czujniku zafałszowuje pomiar, więc urządzenie stale wskazuje złą jakość powietrza.",
+        "Źle osadzony filtr lub pokrywa — urządzenie wykrywa nieprawidłowy montaż i nie gasi kontrolki.",
       ],
       "steps": [
-        "Odłącz urządzenie od prądu, otwórz pokrywę i sprawdź, czy filtr jest dobrze osadzony i włożony właściwą stroną, a następnie prawidłowo zamknij pokrywę.",
-        "Sprawdź w instrukcji dokładne znaczenie czerwonej kontrolki, jej kolor ostrzegawczy i procedurę resetowania filtra.",
-        "Odkurz filtr wstępny, a następnie wyczyść czujnik suchym patyczkiem kosmetycznym lub miękką szczotką, przy odłączonym urządzeniu.",
-        "Przewietrz pomieszczenie, usuń pobliskie źródła zanieczyszczeń, takie jak dym czy aerozole, i pozwól urządzeniu popracować kilka godzin na wysokim biegu.",
-        "Po wymianie filtra zresetuj licznik zgodnie z instrukcją, często przez długie przytrzymanie osobnego przycisku.",
+        "Odłącz oczyszczacz od prądu, otwórz pokrywę i sprawdź, czy filtr jest dobrze osadzony i włożony właściwą stroną, a potem starannie zamknij pokrywę.",
+        "Sprawdź w instrukcji, co dokładnie oznacza czerwona kontrolka, który kolor jest ostrzegawczy i jak wyzerować licznik filtra.",
+        "Odkurz filtr wstępny, a potem, przy odłączonym urządzeniu, wyczyść czujnik suchym patyczkiem higienicznym lub miękkim pędzelkiem.",
+        "Przewietrz pomieszczenie, usuń pobliskie źródła zanieczyszczeń, takie jak dym czy aerozole, i zostaw oczyszczacz na kilka godzin na wysokim biegu.",
+        "Po wymianie filtra wyzeruj licznik zgodnie z instrukcją, często przez dłuższe przytrzymanie przeznaczonego do tego przycisku.",
       ],
-      "replaceWhen": "Jeśli kontrolka nadal świeci na czerwono po wymianie filtra, wyczyszczeniu czujnika i zresetowaniu, prawdopodobnie uszkodzona jest płyta albo czujnik. Gdy filtry nie są już dostępne lub urządzenie jest stare i głośne, wymiana ma więcej sensu.",
+      "replaceWhen": "Jeśli po wymianie filtra, wyczyszczeniu czujnika i wyzerowaniu licznika kontrolka nadal świeci na czerwono, prawdopodobnie uszkodzona jest płytka sterująca albo sam czujnik. Gdy filtry nie są już dostępne albo urządzenie jest stare i głośne, rozsądniej kupić nowe.",
     }
   },
   "centrale-vapeur-voyant-anti-calc": {
@@ -965,21 +965,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Blijft het lampje branden na zorgvuldig ontkalken en een reset, of is de boiler sterk verkalkt, dan is reparatie duur. Bij een ouder toestel dat met zeer hard water is gebruikt, is vervangen vaak de betere keuze."
     },
     "pl": {
-      "intro": "Kontrolka odkamieniania w generatorze pary często pozostaje włączona po odkamienianiu, ponieważ licznik nie został zresetowany albo kocioł nadal zawiera kamień lub resztki środka. Dokładnie przepłucz, a potem wykonaj procedurę zerowania z instrukcji.",
+      "intro": "Kontrolka odkamieniania w stacji parowej często świeci dalej po odkamienieniu, bo licznik nie został wyzerowany albo w bojlerze wciąż są kamień lub resztki odkamieniacza. Dokładnie przepłucz bojler, a potem wyzeruj kontrolkę zgodnie z instrukcją.",
       "causes": [
-        "Niezresetowany licznik konserwacji — przypomnienie opiera się na liczniku, który świeci, dopóki go nie wyzerujesz.",
-        "Niepełne odkamienianie — w kotle pozostaje kamień, a urządzenie nadal sygnalizuje potrzebę konserwacji.",
-        "Niewystarczające płukanie — resztki środka odkamieniającego zostają w kotle i mogą podtrzymywać alert lub utrudniać wytwarzanie pary.",
-        "Zużyty wkład lub kasetka antywapienna — wbudowany filtr jest nasycony i nie spełnia już funkcji ochronnej.",
+        "Niewyzerowany licznik — przypomnienie zależy od licznika, a kontrolka świeci, dopóki go nie wyzerujesz.",
+        "Niedokładne odkamienienie — w bojlerze został kamień, więc stacja nadal sygnalizuje potrzebę konserwacji.",
+        "Zbyt słabe płukanie — resztki odkamieniacza zostają w bojlerze i mogą podtrzymywać ostrzeżenie lub utrudniać wytwarzanie pary.",
+        "Zużyty wkład lub kaseta antywapienna — wbudowany filtr jest nasycony i przestaje chronić urządzenie przed kamieniem.",
       ],
       "steps": [
-        "Odłącz urządzenie od prądu, poczekaj, aż całkowicie ostygnie, i nigdy nie odkręcaj korka kotła, dopóki jest gorący lub pod ciśnieniem.",
-        "Przeczytaj ponownie procedurę odkamieniania z instrukcji: dozwolony środek, dawkowanie, czas działania i zalecaną liczbę cykli płukania.",
-        "Przepłucz kocioł kilka razy czystą wodą — napełnij go, wstrząśnij, a potem opróżnij — aż znikną resztki.",
-        "Jeśli wypływa woda z kamieniem, powtórz pełne odkamienianie, a potem ponownie przepłucz, zanim wznowisz użytkowanie urządzenia.",
-        "Zresetuj kontrolkę zgodnie z instrukcją, często przez długie przytrzymanie przycisku, i wymień wkład antywapienny, jeśli Twój model go ma.",
+        "Odłącz stację od prądu, poczekaj, aż całkowicie ostygnie, i nigdy nie odkręcaj korka bojlera, gdy jest gorący lub pod ciśnieniem.",
+        "Przeczytaj jeszcze raz w instrukcji, jak odkamieniać stację: jakim środkiem, w jakiej dawce, jak długo środek ma działać i ile razy trzeba płukać.",
+        "Przepłucz bojler kilka razy czystą wodą: napełnij go, wstrząśnij i opróżnij, aż przestaną wypływać resztki.",
+        "Jeśli wypływa woda z kamieniem, powtórz całe odkamienianie i znowu przepłucz bojler, zanim zaczniesz używać stacji.",
+        "Wyzeruj kontrolkę zgodnie z instrukcją, często przez dłuższe przytrzymanie przycisku, a jeśli Twój model ma wkład antywapienny, wymień go.",
       ],
-      "replaceWhen": "Jeśli kontrolka nadal się świeci po starannym odkamienieniu i zresetowaniu albo kocioł jest mocno zakamieniony, naprawa jest kosztowna. W starszym urządzeniu używanym przy bardzo twardej wodzie często lepiej je wymienić.",
+      "replaceWhen": "Jeśli kontrolka świeci mimo starannego odkamienienia i wyzerowania albo bojler jest mocno zakamieniony, naprawa jest kosztowna. Starszą stację używaną z bardzo twardą wodą często lepiej po prostu wymienić.",
     }
   },
   "nettoyeur-vapeur-ne-projette-plus": {
@@ -1086,21 +1086,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Komt er na ontkalken en het controleren van de accessoires geen stoom terug, dan is een defecte pomp of verwarmingselement waarschijnlijk. Bij een ouder of sterk verkalkt toestel kosten die reparaties vaak meer dan vervanging en zijn ze niet altijd veilig."
     },
     "pl": {
-      "intro": "Parownica, która przestaje wytwarzać parę mimo pełnego zbiornika, najczęściej ma źle zablokowany korek, kamień zatykający dyszę lub kocioł albo niewystarczający czas nagrzewania. Zanim zaczniesz podejrzewać pompę lub grzałkę, sprawdź te proste rzeczy.",
+      "intro": "Jeśli myjka parowa nie wytwarza pary, choć zbiornik jest pełny, najczęściej winny jest źle zamknięty korek, kamień zatykający dyszę lub kocioł albo zbyt krótkie nagrzewanie. Sprawdź te proste rzeczy, zanim zaczniesz podejrzewać pompę lub grzałkę.",
       "causes": [
-        "Źle zablokowany korek lub zabezpieczenie — ciśnienie nie rośnie albo zabezpieczenie blokuje wypływ pary.",
-        "Kamień w dyszy lub kotle — osady zmniejszają przepływ wody i pary, aż do całkowitego zablokowania przejścia.",
-        "Niezakończone nagrzewanie lub minimalne ustawienie — para jest dostępna dopiero po zapaleniu się kontrolki gotowości i ustawieniu pokrętła na właściwym poziomie.",
-        "Zatkany wąż, końcówka lub spust — zagięcie, zatyczka albo włączona blokada bezpieczeństwa uniemożliwia przepływ pary.",
+        "Źle zamknięty korek lub blokada — ciśnienie nie rośnie albo zabezpieczenie nie wypuszcza pary.",
+        "Kamień w dyszy lub kotle — osady coraz bardziej zwężają przepływ wody i pary, aż w końcu całkiem go zatykają.",
+        "Niezakończone nagrzewanie lub minimalne ustawienie — para jest dostępna dopiero wtedy, gdy zaświeci się kontrolka gotowości, a pokrętło jest ustawione na właściwy poziom.",
+        "Zatkany wąż lub końcówka albo zablokowany spust — zagięcie, zator lub włączona blokada spustu nie przepuszcza pary.",
       ],
       "steps": [
-        "Odłącz urządzenie od prądu i poczekaj, aż całkowicie ostygnie; nigdy nie otwieraj korka kotła, dopóki jest gorący lub pod ciśnieniem.",
-        "Sprawdź, czy zbiornik jest prawidłowo napełniony, korek dobrze zablokowany, a poziom wody nie przekracza oznaczenia.",
-        "Podłącz urządzenie ponownie do prądu, poczekaj, aż kontrolka pokaże gotowość, sprawdź pokrętło regulacji przepływu, a potem odblokuj spust bezpieczeństwa.",
-        "Zdejmij końcówkę, sprawdź, czy wąż nie jest zagięty ani zatkany, i udrożnij dysze miękką szczoteczką lub cienką szpilką.",
-        "Odkamień według instrukcji dozwolonym środkiem, dobrze przepłucz, a potem używaj wody demineralizowanej, jeśli producent na to pozwala.",
+        "Odłącz myjkę od prądu i poczekaj, aż całkowicie ostygnie; nigdy nie otwieraj korka kotła, gdy jest gorący lub pod ciśnieniem.",
+        "Sprawdź, czy zbiornik jest prawidłowo napełniony, korek dobrze zamknięty, a poziom wody nie przekracza znacznika.",
+        "Podłącz myjkę z powrotem, poczekaj, aż kontrolka pokaże gotowość, sprawdź pokrętło regulacji pary, a potem odblokuj spust.",
+        "Zdejmij końcówkę, sprawdź, czy wąż nie jest zagięty ani zatkany, i przeczyść dysze miękką szczoteczką lub cienką szpilką.",
+        "Odkamień myjkę dozwolonym środkiem zgodnie z instrukcją, dobrze przepłucz i, jeśli producent na to pozwala, używaj odtąd wody demineralizowanej.",
       ],
-      "replaceWhen": "Jeśli para nie wraca po odkamienieniu i sprawdzeniu akcesoriów, prawdopodobna jest wadliwa pompa lub grzałka. W starszym albo mocno zakamienionym urządzeniu takie naprawy często kosztują więcej niż wymiana i nie zawsze są bezpieczne.",
+      "replaceWhen": "Jeśli para nie wraca mimo odkamienienia i sprawdzenia akcesoriów, prawdopodobnie uszkodzona jest pompa lub grzałka. W starszej lub mocno zakamienionej myjce taka naprawa często kosztuje więcej niż nowe urządzenie i nie zawsze jest bezpieczna.",
     }
   },
   "ventilateur-telecommande-perdue": {
@@ -1213,22 +1213,22 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Een nieuwe ventilator is alleen zinvol als de originele afstandsbediening niet meer te koop is en geen knop, app of spraakassistent de bediening mogelijk maakt. Anders is een reserve-afstandsbediening veel goedkoper dan een nieuw apparaat."
     },
     "pl": {
-      "intro": "Zgubienie pilota do inteligentnego wentylatora rzadko jest dużym problemem: większość modeli można sterować także z aplikacji, przyciskami na obudowie lub asystentem głosowym. Najprościej skorzystać z aplikacji producenta, a potem zamówić pilota zamiennego.",
+      "intro": "Zgubiony pilot od inteligentnego wentylatora rzadko oznacza kłopot: większością modeli można sterować także z aplikacji, przyciskami na obudowie albo głosem przez asystenta. Najprościej skorzystać z aplikacji producenta, a potem zamówić zamienny pilot.",
       "causes": [
-        "Zagubiony pilot — wentylator nadal reaguje na przyciski na bloku silnika lub głowicy, co potwierdza, że urządzenie działa.",
-        "Wyładowane lub wyjęte baterie — odnaleziony pilot nie reaguje, a dioda nadawcza nie świeci po naciśnięciu przycisku.",
-        "Wentylator nigdy nie połączony z Wi-Fi — aplikacja go nie wykrywa, bo dotąd używano tylko pilota na podczerwień lub radiowego.",
-        "Rozparowany pilot radiowy — po zaniku zasilania wentylator ignoruje odnaleziony pilot do czasu ponownego sparowania.",
+        "Zgubiony pilot — wentylator nadal reaguje na przyciski na korpusie lub głowicy, co potwierdza, że działa.",
+        "Rozładowane lub wyjęte baterie — odnaleziony pilot nie działa, a jego dioda nadawcza nie zapala się po naciśnięciu przycisku.",
+        "Wentylator nie został nigdy połączony z Wi-Fi — aplikacja go nie wykrywa, bo dotąd korzystano tylko z pilota na podczerwień lub radiowego.",
+        "Pilot radiowy rozparowany po zaniku prądu — wentylator ignoruje odnaleziony pilot, dopóki nie sparujesz go ponownie.",
       ],
       "steps": [
-        "Najpierw poszukaj pod poduszkami, w szufladach i obok wentylatora, a potem sprawdź przyciski na obudowie, aby potwierdzić, że urządzenie działa.",
-        "Odłącz wentylator od prądu, odczekaj dziesięć sekund i podłącz go ponownie, a następnie postępuj według instrukcji, aby włączyć parowanie z Wi-Fi, jeśli Twój model ma tę funkcję.",
-        "Zainstaluj aplikację producenta, załóż konto i dodaj urządzenie w sieci 2,4 GHz; wtedy ustawisz prędkość, oscylację i wyłącznik czasowy.",
-        "Jeśli wentylator jest kompatybilny, połącz go z asystentem głosowym lub inteligentną wtyczką, aby włączać i wyłączać go bez pilota.",
-        "Użyj pilota uniwersalnego lub inteligentnego nadajnika podczerwieni, jeśli Twój model działa na podczerwień; wybierz kod odpowiadający marce.",
-        "W modelu radiowym zamów dokładnie taki pilot, jaki wskazuje tabliczka znamionowa, a potem ponownie wykonaj parowanie opisane w instrukcji.",
+        "Najpierw poszukaj pod poduszkami, w szufladach i w pobliżu wentylatora, a potem wypróbuj przyciski na obudowie, żeby upewnić się, że urządzenie działa.",
+        "Odłącz wentylator od prądu, odczekaj dziesięć sekund i podłącz go ponownie, a jeśli Twój model ma Wi-Fi, włącz parowanie zgodnie z instrukcją.",
+        "Zainstaluj aplikację producenta, załóż konto i dodaj urządzenie w sieci 2,4 GHz; potem ustawisz w niej prędkość, oscylację i wyłącznik czasowy.",
+        "Jeśli wentylator to obsługuje, połącz go z asystentem głosowym lub inteligentnym gniazdkiem, żeby włączać go i wyłączać bez pilota.",
+        "Jeśli Twój model działa na podczerwień, użyj pilota uniwersalnego lub inteligentnego nadajnika podczerwieni i wybierz kod przypisany do marki wentylatora.",
+        "W modelu radiowym zamów pilot o dokładnie takim oznaczeniu, jakie podaje tabliczka znamionowa, a potem sparuj go zgodnie z instrukcją.",
       ],
-      "replaceWhen": "Wymiana wentylatora ma sens tylko wtedy, gdy oryginalnego pilota nie da się kupić, a żaden przycisk, aplikacja ani asystent nie pozwala nim sterować. W przeciwnym razie pilot zamienny kosztuje znacznie mniej niż nowe urządzenie.",
+      "replaceWhen": "Wymiana wentylatora ma sens tylko wtedy, gdy oryginalnego pilota nie da się już kupić, a urządzeniem nie można sterować ani przyciskami, ani z aplikacji, ani przez asystenta. W każdym innym przypadku zamienny pilot kosztuje znacznie mniej niż nowy wentylator.",
     }
   },
   "station-meteo-ecran-clignote": {
@@ -1347,23 +1347,23 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Blijft het scherm knipperen met nieuwe batterijen, een andere voeding en een reset, dan is waarschijnlijk het scherm of de printplaat defect. Bij een eenvoudig apparaat zonder verkrijgbare onderdelen is vervangen meestal verstandiger dan repareren."
     },
     "pl": {
-      "intro": "Migający ekran stacji pogodowej niemal zawsze wynika z niewystarczającego zasilania: słabych baterii w konsoli lub czujniku albo nieodpowiedniego zasilacza sieciowego. Zanim zaczniesz podejrzewać sam ekran, wymień baterie i wypróbuj inne gniazdko.",
+      "intro": "Migający ekran inteligentnej stacji pogodowej niemal zawsze świadczy o zbyt słabym zasilaniu. Winne są zwykle słabe baterie w konsoli lub czujniku albo niewłaściwy zasilacz sieciowy. Zanim zaczniesz podejrzewać sam wyświetlacz, wymień baterie i podłącz zasilacz do innego gniazdka.",
       "causes": [
-        "Słabe baterie w konsoli — miganie nasila się po włączeniu podświetlenia, zwłaszcza gdy stacja działa wyłącznie na bateriach.",
-        "Wadliwy zasilacz sieciowy lub o nieprawidłowym napięciu — ekran migocze z przerwami, nawet z nowymi bateriami lub bez baterii.",
-        "Zły kontakt w komorze baterii — drgania styków powodują restart wyświetlacza, gdy dotkniesz lub przeniesiesz konsolę.",
-        "Zakłócenia radiowe lub niestabilny sygnał czujnika — ekran odświeża się w pętli, gdy konsola bezskutecznie szuka czujnika zewnętrznego.",
-        "Usterka wyświetlacza lub płyty — miganie utrzymuje się mimo prawidłowego zasilania i nowych baterii.",
+        "Słabe baterie w konsoli — ekran miga mocniej po włączeniu podświetlenia, zwłaszcza gdy stacja działa wyłącznie na bateriach.",
+        "Uszkodzony zasilacz lub zasilacz o niewłaściwym napięciu — ekran co jakiś czas migocze, nawet z nowymi bateriami albo bez nich.",
+        "Słaby kontakt w komorze baterii — gdy dotkniesz lub przesuniesz konsolę, przerywający styk powoduje restart wyświetlacza.",
+        "Zakłócenia radiowe lub niestabilny sygnał z czujnika — ekran odświeża się w kółko, bo konsola bezskutecznie szuka czujnika zewnętrznego.",
+        "Usterka wyświetlacza lub płytki sterującej — ekran miga mimo prawidłowego zasilania i nowych baterii.",
       ],
       "steps": [
-        "Wyjmij baterie z konsoli i czujnika zewnętrznego, odczekaj minutę, a następnie włóż nowe baterie alkaliczne, zachowując biegunowość.",
-        "Jeśli używasz zasilacza sieciowego, sprawdź, czy odpowiada napięciu i prądowi podanym na konsoli, i wypróbuj inne gniazdko.",
-        "Wyczyść styki w komorze suchą szmatką; wymień zardzewiałą lub wygiętą blaszkę tylko wtedy, gdy da się ją zdjąć bez specjalnych narzędzi.",
-        "Odsuń konsolę od routerów, kuchenek mikrofalowych i telefonów, a potem przybliż czujnik zewnętrzny, aby sprawdzić, czy miganie ustąpi.",
-        "Zresetuj stację przyciskiem reset, jeśli istnieje, a potem ponownie zsynchronizuj czujnik według instrukcji, trzymając konsolę i czujnik obok siebie.",
-        "Zmniejsz lub wyłącz podświetlenie w ustawieniach: jeśli to ono powoduje miganie, jest to oznaka zbyt słabego zasilania.",
+        "Wyjmij baterie z konsoli i z czujnika zewnętrznego, odczekaj minutę, a potem włóż nowe baterie alkaliczne zgodnie z oznaczeniem biegunów.",
+        "Jeśli korzystasz z zasilacza sieciowego, sprawdź, czy jego napięcie i natężenie prądu odpowiadają wartościom podanym na konsoli, i podłącz go do innego gniazdka.",
+        "Wyczyść styki w komorze baterii suchą ściereczką; zardzewiałą lub wygiętą blaszkę wymień tylko wtedy, gdy da się ją wyjąć bez specjalnych narzędzi.",
+        "Odsuń konsolę od routerów, kuchenek mikrofalowych i telefonów, a potem przenieś czujnik zewnętrzny bliżej i sprawdź, czy miganie ustąpi.",
+        "Zresetuj stację przyciskiem reset, jeśli go ma, a potem ponownie zsynchronizuj czujnik zgodnie z instrukcją, trzymając konsolę i czujnik obok siebie.",
+        "Zmniejsz jasność podświetlenia lub je wyłącz: jeśli miganie wtedy ustępuje, zasilanie jest zbyt słabe.",
       ],
-      "replaceWhen": "Jeśli miganie utrzymuje się przy nowych bateriach, innym zasilaniu i po resecie, prawdopodobnie uszkodzony jest wyświetlacz lub płyta. W urządzeniu z niższej półki, bez dostępnych części, wymiana jest zwykle rozsądniejsza niż naprawa.",
+      "replaceWhen": "Jeśli ekran nadal miga przy nowych bateriach, innym zasilaczu i po resecie, prawdopodobnie uszkodzony jest wyświetlacz lub płytka sterująca. W budżetowym modelu, do którego nie ma części zamiennych, wymiana zwykle ma więcej sensu niż naprawa.",
     }
   },
   "laveur-rouleau-ne-tourne-plus": {
@@ -1482,23 +1482,23 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Als een schone, juist geplaatste rol nog steeds niet draait, is waarschijnlijk de borstelmotor of printplaat defect. Een dure reparatie aan een ouder apparaat met een vermoeide accu pleit eerder voor vervanging."
     },
     "pl": {
-      "intro": "Gdy wałek odkurzacza myjącego przestaje się obracać, najczęstszą przyczyną jest blokada mechaniczna: włosy, nitki lub zanieczyszczenia nawinięte na oś. Wyłącz urządzenie i odłącz je od prądu, wyjmij wałek i wyczyść go, zanim zaczniesz szukać awarii silnika.",
+      "intro": "Gdy wałek odkurzacza myjącego przestaje się obracać, najczęściej blokuje go coś mechanicznie: włosy, nitki lub zanieczyszczenia nawinięte na oś. Wyłącz urządzenie, odłącz je od prądu, wyjmij wałek i go wyczyść, zanim zaczniesz szukać usterki silnika.",
       "causes": [
-        "Włosy i nitki nawinięte na końce wałka — wałek obraca się zrywami, pracuje z oporem, po czym urządzenie się zatrzymuje albo wydaje odgłos tarcia.",
-        "Źle założony wałek — nie zaskakuje na napęd i stoi w miejscu, choć silnik pracuje.",
-        "Ciało obce zakleszczone w bloku szczotki — mały przedmiot blokuje obrót, a wałek stawia opór, gdy kręcisz nim ręką.",
-        "Słaby akumulator lub zadziałało zabezpieczenie termiczne — obroty słabną lub ustają po intensywnym użyciu, a po odpoczynku wracają.",
-        "Zużyty pasek lub silnik szczotki — wałek obraca się swobodnie w ręku, ale nie jest napędzany, mimo że jest czysty i dobrze zamontowany.",
+        "Włosy i nitki nawinięte na końcach wałka — wałek obraca się nierówno i z oporem, aż odkurzacz się zatrzymuje albo słychać tarcie.",
+        "Źle założony wałek — nie łączy się z napędem i stoi w miejscu, choć silnik pracuje.",
+        "Ciało obce w głowicy — mały przedmiot blokuje obroty, a wałek stawia opór, gdy obracasz go ręką.",
+        "Słaby akumulator lub zadziałało zabezpieczenie termiczne — po intensywnym sprzątaniu wałek zwalnia albo staje, a po chwili przerwy znowu się obraca.",
+        "Zużyty pasek lub silnik szczotki — czysty i dobrze założony wałek obraca się swobodnie w dłoni, ale napęd go nie kręci.",
       ],
       "steps": [
-        "Wyłącz urządzenie, zdejmij je z podstawy ładującej i wyjmij wałek zgodnie z instrukcją, a następnie obróć go ręką, aby wyczuć ewentualny punkt oporu.",
-        "Przetnij nożyczkami nawinięte na końcach włosy i nitki i usuń je, nie używając ostrego narzędzia w pobliżu szczotki z miękkiego materiału.",
-        "Obejrzyj latarką gniazdo wałka i końcówki, a następnie usuń zakleszczone zanieczyszczenia ręką lub pęsetą.",
-        "Opłucz wałek letnią wodą, pozostaw go do całkowitego wyschnięcia, a potem załóż, sprawdzając, czy dobrze zaskakuje na napęd od strony silnika.",
-        "Naładuj akumulator do pełna, pozwól urządzeniu na chwilę ostygnąć, a potem włącz krótkie czyszczenie, aby zobaczyć, czy obrót wraca.",
-        "Jeśli wałek nadal stoi, sprawdź w instrukcji, które części eksploatacyjne użytkownik może wymienić samodzielnie, a następnie skontaktuj się z serwisem w ramach gwarancji.",
+        "Wyłącz urządzenie, zdejmij je ze stacji i wyjmij wałek zgodnie z instrukcją, a potem obróć go ręką, żeby wyczuć, czy gdzieś nie stawia oporu.",
+        "Przetnij nożyczkami włosy i nitki nawinięte na końcach i usuń je; w pobliżu miękkiego wałka nie używaj ostrych noży.",
+        "Poświeć latarką na gniazdo wałka i zaślepki, a potem usuń zaklinowane zanieczyszczenia palcami lub pęsetą.",
+        "Opłucz wałek w letniej wodzie, zostaw do całkowitego wyschnięcia i załóż z powrotem, sprawdzając, czy dobrze osadził się na napędzie po stronie silnika.",
+        "Naładuj akumulator do pełna, daj urządzeniu chwilę ostygnąć i włącz krótkie sprzątanie, żeby sprawdzić, czy wałek znów się obraca.",
+        "Jeśli wałek nadal stoi, sprawdź w instrukcji, które części eksploatacyjne możesz wymienić samodzielnie, a potem skontaktuj się z serwisem w ramach gwarancji.",
       ],
-      "replaceWhen": "Jeśli czysty, dobrze założony wałek nadal się nie obraca, przyczyną jest prawdopodobnie silnik szczotki lub płyta. Kosztowna naprawa starszego urządzenia ze zmęczonym akumulatorem raczej przemawia za wymianą.",
+      "replaceWhen": "Jeśli czysty i prawidłowo założony wałek wciąż się nie obraca, winny jest prawdopodobnie silnik szczotki albo płytka sterująca. Przy starszym urządzeniu ze zużytym akumulatorem kosztowna naprawa raczej przemawia za zakupem nowego.",
     }
   },
   "diffuseur-ne-vaporise-plus": {
@@ -1617,23 +1617,23 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Komt de nevel na zorgvuldig schoonmaken niet terug en is de plaat gebarsten of zwart, of reageert de elektronica niet, dan is repareren zelden mogelijk. Omdat deze apparaten goedkoop zijn, is vervangen meestal verstandiger."
     },
     "pl": {
-      "intro": "Dyfuzor olejków eterycznych, który przestał wytwarzać mgiełkę, najczęściej jest po prostu zabrudzony: płytka ultradźwiękowa pokryła się kamieniem lub resztkami oleju. Czyszczenie wodą z octem i rozcieńczonym denaturatem rozwiązuje większość przypadków.",
+      "intro": "Dyfuzor olejków eterycznych, który przestał wytwarzać mgiełkę, jest najczęściej po prostu zabrudzony: płytka ultradźwiękowa pokryła się kamieniem lub osadem z olejków. W większości przypadków pomaga umycie go wodą z octem i rozcieńczonym denaturatem.",
       "causes": [
-        "Płytka ultradźwiękowa pokryta kamieniem lub olejem — światło i pompa działają, ale mgła nie wydobywa się wcale lub tylko w niewielkiej ilości.",
-        "Za mało lub za dużo wody — zabezpieczenie przed brakiem wody wyłącza mgiełkę, a nadmiar zakłóca drgania.",
-        "Za dużo olejku eterycznego lub zbyt gęsty olejek — lepki osad tłumi drgania płytki.",
-        "Bardzo twarda woda — białe osady szybko tworzą się na płytce i w kominku wylotowym.",
-        "Awaria zasilania lub układu — brak kontrolki i dźwięku albo kontrolka się świeci, ale mgła nigdy się nie pojawia mimo czyszczenia.",
+        "Płytka ultradźwiękowa pokryta kamieniem lub osadem z olejków — lampka się świeci i urządzenie pracuje, ale mgiełki nie ma wcale albo jest jej bardzo mało.",
+        "Za mało lub za dużo wody — przy zbyt niskim poziomie zabezpieczenie wyłącza mgiełkę, a nadmiar wody zakłóca drgania płytki.",
+        "Za dużo olejku lub zbyt gęsty olejek — lepki osad tłumi drgania płytki.",
+        "Bardzo twarda woda — na płytce i w kominku wylotowym szybko osadza się biały kamień.",
+        "Uszkodzone zasilanie lub elektronika — nie świeci żadna kontrolka i nic nie słychać albo kontrolka się świeci, ale mimo czyszczenia mgiełka się nie pojawia.",
       ],
       "steps": [
-        "Odłącz dyfuzor od prądu, wylej pozostałą wodę i pozostaw go na kilka minut do wyschnięcia, zanim go dotkniesz.",
-        "Napełnij do połowy wodą z odrobiną białego octu, zostaw na dziesięć minut bez włączania, a potem wylej i dokładnie opłucz.",
-        "Delikatnie przetrzyj płytkę ultradźwiękową patyczkiem kosmetycznym nasączonym białym octem lub alkoholem, nie rysując jej i nie naciskając mocno.",
-        "Opłucz czystą wodą, wytrzyj kominek wylotowy, a potem napełnij wodą do ilości wskazanej między oznaczeniami min i max.",
-        "Dodaj tylko kilka kropel dobrej jakości olejku eterycznego, włącz ponownie i sprawdź, czy mgiełka pojawia się po minucie.",
-        "Używaj wody demineralizowanej lub filtrowanej i czyść urządzenie po kilku użyciach, aby kamień nie wrócił.",
+        "Odłącz dyfuzor od prądu, wylej resztę wody i odczekaj kilka minut, aż obeschnie, zanim zaczniesz go czyścić.",
+        "Napełnij zbiornik do połowy wodą z odrobiną octu spirytusowego, zostaw na dziesięć minut bez włączania, a potem wylej i dokładnie opłucz.",
+        "Delikatnie przetrzyj płytkę ultradźwiękową patyczkiem higienicznym nasączonym octem spirytusowym lub alkoholem, nie naciskając mocno, żeby jej nie porysować.",
+        "Opłucz zbiornik czystą wodą, wytrzyj kominek wylotowy i nalej wody do poziomu między oznaczeniami min i max.",
+        "Dodaj tylko kilka kropel dobrej jakości olejku eterycznego, włącz dyfuzor i sprawdź, czy po minucie pojawia się mgiełka.",
+        "Używaj wody demineralizowanej lub filtrowanej i czyść dyfuzor co kilka użyć, żeby kamień nie wracał.",
       ],
-      "replaceWhen": "Jeśli mgiełka nie wraca po starannym czyszczeniu, a płytka jest pęknięta, poczerniała albo układ nie reaguje, naprawa rzadko jest możliwa. Ponieważ te urządzenia są niedrogie, wymiana jest zazwyczaj rozsądniejsza.",
+      "replaceWhen": "Jeśli mimo starannego czyszczenia mgiełka nie wraca, a płytka jest pęknięta, poczerniała albo elektronika nie reaguje, naprawa rzadko jest możliwa. Takie urządzenia są niedrogie, więc zwykle rozsądniej kupić nowe.",
     }
   },
   "climatiseur-mobile-fuite-eau": {
@@ -1752,23 +1752,23 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Komt het water uit een intern punt terwijl reservoir, slang, filter en opstelling kloppen, dan is waarschijnlijk het circuit of een soldeerverbinding defect, wat u thuis niet kunt herstellen. Bij een ouder apparaat is vervangen meestal goedkoper dan een monteur."
     },
     "pl": {
-      "intro": "Klimatyzator przenośny, z którego wycieka woda, najczęściej jest źle zainstalowany albo ma pełny zbiornik skroplin lub źle podłączony wąż odpływowy. Wyłącz urządzenie, odłącz je od prądu i zanim zaczniesz szukać innych przyczyn, sprawdź wypoziomowanie, zbiornik i wąż.",
+      "intro": "Woda wyciekająca z klimatyzatora przenośnego to najczęściej skutek złego ustawienia urządzenia, pełnego zbiornika skroplin albo źle podłączonego węża odpływowego. Wyłącz klimatyzator, odłącz go od prądu i zanim zaczniesz szukać innych przyczyn, sprawdź jego wypoziomowanie, zbiornik i wąż.",
       "causes": [
-        "Pełny zbiornik skroplin — woda przelewa się przez podstawę, zwłaszcza przy wilgotnej pogodzie, a urządzenie może wyświetlać komunikat o pełnym zbiorniku.",
-        "Urządzenie przechylone lub postawione na nierównej podłodze — woda gromadzi się z jednej strony i wypływa poza strefę zbierania.",
-        "Wąż odpływowy załamany, zatkany lub źle zamocowany — woda zalega w wężu, a potem kapie na złączu lub u dołu urządzenia.",
-        "Zabrudzony filtr lub zablokowana kratka zasysająca — parownik zamarza, a potem odmarza, wytwarzając więcej wody, niż zbiornik jest w stanie odprowadzić.",
-        "Źle założona uszczelka lub korek spustowy — po ręcznym opróżnieniu u dołu obudowy pojawia się regularny wyciek.",
+        "Pełny zbiornik skroplin — woda przelewa się przez podstawę, zwłaszcza przy wilgotnej pogodzie, a na wyświetlaczu może się pojawić komunikat o pełnym zbiorniku.",
+        "Przechylone urządzenie lub nierówna podłoga — woda zbiera się po jednej stronie i wypływa poza miejsce, w którym powinna się gromadzić.",
+        "Załamany, zatkany lub źle zamocowany wąż odpływowy — woda zalega w wężu, a potem kapie przy złączu lub spod urządzenia.",
+        "Zabrudzony filtr lub zasłonięta kratka wlotowa — parownik pokrywa się lodem, a gdy lód taje, powstaje więcej wody, niż zbiornik jest w stanie odprowadzić.",
+        "Źle założona uszczelka lub korek spustowy — po ręcznym opróżnieniu zbiornika u dołu obudowy pojawia się stały wyciek.",
       ],
       "steps": [
-        "Wyłącz klimatyzator, odłącz go od prądu i zbierz wodę z podłogi, aby uniknąć poślizgnięcia i kontaktu z gniazdkiem.",
-        "Ustaw urządzenie w pionie na równej podłodze, z wolną przestrzenią dookoła, i sprawdź, czy nie było przewożone w pozycji leżącej.",
-        "Opróżnij zbiornik skroplin przez przewidziany korek, podstawiając pojemnik, a potem prawidłowo załóż korek wraz z uszczelką.",
-        "Sprawdź wąż odpływowy: bez zagięć, z ciągłym spadkiem w dół, złącze dobrze wciśnięte, a wylot skierowany do odpowiedniego odpływu.",
-        "Umyj filtr w letniej wodzie, pozostaw do wyschnięcia, załóż z powrotem i usuń kurz z kratek zasysających.",
-        "Włącz klimatyzator na krótszy czas i obserwuj podłogę; jeśli woda wróci, zanotuj, skąd wypływa, zanim skontaktujesz się z pomocą techniczną.",
+        "Wyłącz klimatyzator, wyjmij wtyczkę z gniazdka i zetrzyj wodę z podłogi, żeby nikt się nie poślizgnął i żeby woda nie dostała się do gniazdka.",
+        "Ustaw urządzenie pionowo na równej podłodze, z wolnym miejscem dookoła, i upewnij się, że nie było przewożone na leżąco.",
+        "Opróżnij zbiornik skroplin przez korek spustowy, podstawiając pod niego naczynie, a potem starannie załóż korek z uszczelką.",
+        "Sprawdź wąż odpływowy: nie może być zagięty, powinien mieć spadek na całej długości i być dobrze wciśnięty w złącze, a jego koniec musi trafiać do odpowiedniego odpływu.",
+        "Umyj filtr w letniej wodzie, zostaw do wyschnięcia, załóż z powrotem i odkurz kratki wlotowe.",
+        "Włącz klimatyzator na krótszy czas i obserwuj podłogę; jeśli woda znów się pojawi, zanotuj, skąd wypływa, zanim skontaktujesz się z serwisem.",
       ],
-      "replaceWhen": "Jeśli woda wypływa z wewnętrznego miejsca, mimo że zbiornik, wąż, filtr i instalacja są w porządku, prawdopodobna jest usterka obiegu lub lutów, której nie naprawisz w domu. W starszym urządzeniu wymiana jest zwykle tańsza niż interwencja technika.",
+      "replaceWhen": "Jeśli woda wypływa gdzieś ze środka, choć zbiornik, wąż, filtr i ustawienie urządzenia są w porządku, prawdopodobnie nieszczelny jest układ chłodniczy lub jego lutowania, a tego nie naprawisz w domu. Przy starszym klimatyzatorze wymiana zwykle wychodzi taniej niż wizyta technika.",
     }
   },
   "lave-vaisselle-code-erreur-e15": {
@@ -1887,23 +1887,23 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Vult de bodembak zich opnieuw terwijl rubbers en koppelingen intact zijn, dan komt het lek van een intern onderdeel dat duur kan zijn om te vervangen. Bij een oudere vaatwasser is een nieuw apparaat vaak voordeliger dan de reparatie."
     },
     "pl": {
-      "intro": "Kod E15 w wielu zmywarkach zwykle oznacza, że zadziałał układ ochrony przed wyciekiem: w misie dennej wykryto wodę, a dopływ wody został odcięty. Potwierdź to znaczenie w instrukcji, a potem poszukaj źródła wycieku, zanim uruchomisz urządzenie ponownie.",
+      "intro": "W wielu zmywarkach kod E15 oznacza, że zadziałał system ochrony przed wyciekiem: w wannie ociekowej w podstawie urządzenia wykryto wodę i dopływ został odcięty. Sprawdź w instrukcji, czy w Twoim modelu kod znaczy to samo, a potem znajdź źródło wycieku, zanim ponownie uruchomisz zmywarkę.",
       "causes": [
-        "Woda w misie dennej po wycieku — pływak zabezpieczający blokuje dopływ wody i urządzenie odmawia uruchomienia.",
-        "Zbyt dużo piany lub nabłyszczacza — piana przelewa się do misy i uruchamia wykrywanie wycieku.",
-        "Uszczelka drzwi lub ramię spryskujące przepuszcza wodę — wokół drzwi lub pod urządzeniem widać ślady wody.",
-        "Kapiący wąż lub złącze zasilania — wilgoć widać z tyłu lub przy zaworze dopływu.",
-        "Zakleszczony czujnik lub pływak w misie — kod nadal się wyświetla po wyczyszczeniu i wysuszeniu, choć misa jest sucha.",
+        "Woda w wannie ociekowej po wycieku — pływak zabezpieczający odcina dopływ i zmywarka nie chce się uruchomić.",
+        "Za dużo piany lub nabłyszczacza — piana przelewa się do wanny ociekowej i uruchamia czujnik wycieku.",
+        "Uszczelka drzwi lub ramię spryskujące przepuszcza wodę — wokół drzwi lub pod zmywarką widać ślady wody.",
+        "Kapiący wąż lub złączka dopływu — z tyłu urządzenia lub przy zaworze widać wilgoć.",
+        "Zakleszczony czujnik lub pływak — kod nadal się wyświetla, choć wanna ociekowa została wyczyszczona i jest sucha.",
       ],
       "steps": [
-        "Zatrzymaj zmywarkę, odłącz ją od prądu i zakręć zawór dopływu wody; w instrukcji sprawdź, co oznacza E15 w Twoim modelu.",
-        "Wyjmij naczynia i kosze, zbierz gąbką wodę z dna komory, a następnie sprawdź ramiona spryskujące i filtr.",
-        "Jeśli możesz to zrobić bezpiecznie, delikatnie przechyl urządzenie zgodnie z instrukcją, aby opróżnić misę denną, albo zostaw je do wyschnięcia na noc.",
-        "Sprawdź uszczelkę drzwi, wąż dopływowy i ich złącza pod kątem śladów wilgoci; widoczne złącza dokręć ręką.",
-        "Zmniejsz dawkę środka, unikaj ręcznego płynu do naczyń, a potem uruchom krótki cykl bez naczyń i obserwuj, czy kod się pojawi.",
-        "Jeśli E15 wraca lub wyciek się utrzymuje, zostaw zawór zakręcony, a urządzenie odłączone od prądu i wezwij technika lub skontaktuj się z serwisem.",
+        "Wyłącz zmywarkę, odłącz ją od prądu i zakręć zawór dopływu wody; sprawdź w instrukcji, co oznacza E15 w Twoim modelu.",
+        "Wyjmij naczynia i kosze, zbierz gąbką wodę z dna komory, a potem sprawdź ramiona spryskujące i filtr.",
+        "Jeśli możesz to zrobić bezpiecznie, delikatnie przechyl zmywarkę zgodnie z instrukcją, żeby wylać wodę z wanny ociekowej, albo zostaw ją na noc do wyschnięcia.",
+        "Sprawdź, czy na uszczelce drzwi, wężu dopływowym i ich złączkach nie ma śladów wilgoci; widoczne złączki dokręć ręką.",
+        "Zmniejsz dawkę detergentu, nie używaj płynu do ręcznego mycia naczyń, a potem uruchom krótki program bez naczyń i obserwuj, czy kod wróci.",
+        "Jeśli E15 wraca lub wyciek nie ustępuje, nie odkręcaj zaworu, zostaw zmywarkę odłączoną od prądu i wezwij technika albo skontaktuj się z serwisem.",
       ],
-      "replaceWhen": "Jeśli misa denna ponownie się napełnia mimo nieuszkodzonych uszczelek i złączy, wyciek pochodzi z wewnętrznej części, czasem kosztownej. W starszej zmywarce wymiana często wygrywa z rachunkiem za naprawę.",
+      "replaceWhen": "Jeśli wanna ociekowa znowu napełnia się wodą, choć uszczelki i złączki są całe, przecieka któraś z wewnętrznych części, a jej wymiana bywa kosztowna. W przypadku starszej zmywarki zakup nowej często wychodzi korzystniej niż naprawa.",
     }
   },
   "laveur-reservoir-eau-fuit": {
@@ -2022,23 +2022,23 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Is de tank gebarsten en het onderdeel niet meer te koop, of is er water in het dock of de elektronica gekomen, dan is gebruik riskant. Dan is vervanging van het hele apparaat verstandiger dan een noodreparatie."
     },
     "pl": {
-      "intro": "Zbiornik na czystą wodę, który przecieka podczas ładowania, najczęściej ma źle ułożoną uszczelkę lub korek albo jest pęknięty. Wyjmij go z podstawy, wszystko osusz i sprawdź uszczelki oraz pęknięcia, zanim ponownie podłączysz urządzenie do ładowania.",
+      "intro": "Jeśli zbiornik na czystą wodę przecieka podczas ładowania, najczęściej winna jest źle osadzona uszczelka lub korek albo pęknięcie zbiornika. Zdejmij urządzenie ze stacji, wszystko osusz i sprawdź uszczelki oraz zbiornik, zanim znowu postawisz je do ładowania.",
       "causes": [
-        "Zużyta, przesunięta lub brudna uszczelka korka albo zaworu — woda sączy się przy korku lub zaworze spustowym.",
-        "Zbiornik źle zatrzaśnięty na podstawie — woda wypływa przez złącze zamiast zasilać szczotkę.",
-        "Pęknięty lub odkształcony zbiornik — woda cieknie wzdłuż cienkiej linii, często po uderzeniu lub z powodu zbyt gorącej wody.",
-        "Zbiornik przepełniony lub napełniony środkiem pieniącym — ciśnienie i piana wypychają wodę przez otwory wentylacyjne.",
-        "Zawór spustowy zablokowany kamieniem lub osadami — nie zamyka się już całkowicie i kapie nawet po wyłączeniu.",
+        "Zużyta, przesunięta lub brudna uszczelka korka albo zaworu — woda sączy się przy korku lub zaworze wypływowym.",
+        "Źle osadzony zbiornik — woda wycieka przez złącze, zamiast trafiać do szczotki.",
+        "Pęknięty lub odkształcony zbiornik — woda sączy się wzdłuż cienkiej rysy, często po uderzeniu lub po nalaniu zbyt gorącej wody.",
+        "Przepełniony zbiornik lub dodany środek pieniący — ciśnienie i piana wypychają wodę przez otwory odpowietrzające.",
+        "Zawór zablokowany kamieniem lub osadem — nie domyka się i woda kapie nawet po wyłączeniu urządzenia.",
       ],
       "steps": [
         "Wyłącz urządzenie, odłącz stację ładującą od prądu i zbierz wodę wokół styków elektrycznych, zanim zrobisz cokolwiek innego.",
-        "Wyjmij zbiornik, całkowicie go opróżnij i osusz; urządzenie na podstawie ustaw dopiero wtedy, gdy styki i podstawa są suche.",
-        "Obejrzyj uszczelkę korka i zaworu, wyczyść je miękką szmatką i ułóż płasko w gnieździe.",
-        "Obejrzyj zbiornik pod światło w poszukiwaniu pęknięć, a potem przetestuj go napełniony nad zlewem, bez przechylania.",
-        "Napełniaj wyłącznie zimną lub letnią wodą, do oznaczenia maksimum, bez środka pieniącego innego niż zalecany przez producenta.",
-        "Jeśli uszczelka jest uszkodzona lub zbiornik pęknięty, zamów oryginalną część; nie używaj kleju na zbiorniku wody urządzenia elektrycznego.",
+        "Wyjmij zbiornik, opróżnij go do końca i osusz; urządzenie odstaw na stację dopiero wtedy, gdy styki i stacja będą suche.",
+        "Obejrzyj uszczelkę korka i zaworu, przetrzyj je miękką ściereczką i ułóż płasko w gniazdach.",
+        "Obejrzyj zbiornik pod światło, szukając pęknięć, a potem napełnij go i sprawdź nad zlewem, czy nie cieknie, nie przechylając go.",
+        "Nalewaj wyłącznie zimną lub letnią wodę, do oznaczenia maksimum, i nie dodawaj środków pieniących innych niż zalecany przez producenta.",
+        "Jeśli uszczelka jest uszkodzona albo zbiornik pęknięty, zamów oryginalną część; nie klej zbiornika na wodę w urządzeniu elektrycznym.",
       ],
-      "replaceWhen": "Jeśli zbiornik jest pęknięty, a części nie ma już w sprzedaży, albo woda dostała się do podstawy lub w okolice elektroniki, używanie urządzenia staje się ryzykowne. Wymiana całego zestawu jest wtedy ostrożniejsza niż prowizoryczna naprawa.",
+      "replaceWhen": "Jeśli zbiornik jest pęknięty, a części nie ma już w sprzedaży, albo woda dostała się do stacji lub w okolice elektroniki, dalsze używanie urządzenia staje się ryzykowne. Wtedy bezpieczniej wymienić cały zestaw, niż naprawiać go prowizorycznie.",
     }
   },
   "laveur-vitres-tombe": {
@@ -2157,23 +2157,23 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Blijft de zuigkracht zwak met nieuwe afdichting, schoon apparaat en volle accu, dan is de pomp of accu defect en het valgevaar echt. Het is veiliger het apparaat te vervangen dan het te blijven gebruiken."
     },
     "pl": {
-      "intro": "Robot do mycia okien, który odpada od szyby, zwykle traci przyssanie: szyba lub spód są brudne, uszczelka jest zużyta, słaby jest akumulator pompy albo powietrze przedostaje się nieszczelnościami. Nigdy nie zostawiaj go bez przymocowanej linki zabezpieczającej i zdejmij go z szyby, gdy tylko zabrzmi alarm przyssania.",
+      "intro": "Robot do mycia okien, który odpada od szyby, zwykle traci siłę ssania: szyba lub spód robota są brudne, uszczelka jest zużyta, akumulator pompy słaby albo gdzieś ucieka powietrze. Nigdy nie używaj go bez przymocowanej linki zabezpieczającej i zdejmij go z szyby, gdy tylko włączy się alarm utraty ssania.",
       "causes": [
-        "Zabrudzona szyba lub spód — kurz i tłuszcz uniemożliwiają przyleganie uszczelki, a siła przyssania szybko spada.",
-        "Zużyta lub odkształcona uszczelka ssąca — powietrze ucieka brzegami, a urządzenie regularnie wydaje ostrzegawczy sygnał.",
-        "Słaby akumulator awaryjny lub pompy — przy zaniku zasilania albo niedostatecznym naładowaniu przyssanie stopniowo słabnie.",
-        "Rama, uszczelka okienna lub powierzchnia z reliefem — robot przejeżdża przez nierówność, traci szczelność i zsuwa się lub blokuje.",
-        "Przesycona ściereczka lub śliski środek czyszczący — powierzchnia staje się śliska, a robot ślizga się zamiast przylegać.",
+        "Brudna szyba lub spód robota — kurz i tłuszcz nie pozwalają uszczelce dobrze przylegać, a siła ssania szybko spada.",
+        "Zużyta lub odkształcona uszczelka ssąca — powietrze ucieka bokami, a robot co chwilę wydaje sygnał ostrzegawczy.",
+        "Słaby akumulator awaryjny lub akumulator pompy — przy zaniku zasilania lub niepełnym naładowaniu ssanie stopniowo słabnie.",
+        "Rama, uszczelka okna lub szyba z wypukłym wzorem — robot najeżdża na nierówność, traci szczelność i zsuwa się albo się zatrzymuje.",
+        "Nasiąknięta ściereczka lub śliski środek czyszczący — powierzchnia robi się śliska, a robot ślizga się, zamiast trzymać się szyby.",
       ],
       "steps": [
-        "Zawsze przymocuj linkę zabezpieczającą do solidnego punktu wewnątrz pomieszczenia, zanim postawisz robota na szybie, i nie uruchamiaj go bez niej.",
-        "Naładuj całkowicie robota i jego zasilanie awaryjne, a potem sprawdź, czy przyssanie się włącza, zanim puścisz robota na szybie.",
-        "Najpierw umyj szybę, a potem wytrzyj spód i uszczelkę ssącą wilgotną, niepylącą ściereczką i osusz je.",
-        "Wymień ściereczkę czyszczącą, gdy tylko jest przesycona lub brudna; unikaj nadmiaru środka, który czyni szybę śliską.",
-        "Zdejmij robota z szyby, gdy tylko zapiszczy lub straci przyssanie, i nigdy nie wychylaj się z wysokiego okna, aby go odzyskać.",
-        "Jeśli uszczelka jest uszkodzona, wymień ją na oryginalną część; nie używaj robota na zewnątrz wysokich pięter, dopóki przyssanie nie będzie niezawodne.",
+        "Zanim przyłożysz robota do szyby, zawsze przymocuj linkę zabezpieczającą do solidnego punktu w pomieszczeniu i nigdy nie uruchamiaj go bez niej.",
+        "Naładuj do pełna robota i jego akumulator awaryjny, a zanim puścisz robota po szybie, sprawdź, czy ssanie się włącza.",
+        "Najpierw przetrzyj szybę, a potem wytrzyj spód robota i uszczelkę ssącą wilgotną, niepylącą ściereczką i osusz je.",
+        "Wymieniaj ściereczkę, gdy tylko nasiąknie lub się zabrudzi, i nie przesadzaj ze środkiem czyszczącym, bo szyba stanie się śliska.",
+        "Zdejmij robota z szyby, gdy tylko zacznie piszczeć lub straci ssanie, i nigdy nie wychylaj się z okna na wysokim piętrze, żeby go zdjąć.",
+        "Uszkodzoną uszczelkę wymień na oryginalną; dopóki ssanie nie działa niezawodnie, nie myj robotem zewnętrznej strony okien na wyższych piętrach.",
       ],
-      "replaceWhen": "Jeśli przyssanie pozostaje słabe mimo nowej uszczelki, czystego urządzenia i naładowanego akumulatora, uszkodzona jest pompa lub akumulator, a ryzyko upadku jest realne. Rozsądniej jest wymienić urządzenie, niż nadal z niego korzystać.",
+      "replaceWhen": "Jeśli mimo nowej uszczelki, czystego robota i naładowanego akumulatora ssanie pozostaje słabe, uszkodzona jest pompa lub akumulator, a ryzyko upadku jest realne. Bezpieczniej wtedy wymienić robota, niż dalej z niego korzystać.",
     }
   },
   "laveur-vitres-trace-centrale": {
@@ -2280,21 +2280,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Is het doekje versleten en blijft de streep na een grondige schoonmaak zichtbaar, vervang dan het doekje en niet de robot. Een nieuwe robot loont pas als de zuigkracht blijvend afneemt of de banden slippen, omdat reparatie meestal duurder uitvalt."
     },
     "pl": {
-      "intro": "Smuga na środku szyby prawie zawsze pochodzi od zabrudzonej ściereczki lub strefy, w której gromadzi się brud. Robot spycha kurz do środka swojej trasy, a potem rozprowadza go przy każdym przejeździe, zamiast odsuwać go ku brzegom.",
+      "intro": "Smuga na środku szyby prawie zawsze bierze się z brudnej ściereczki albo z pasa, na którym gromadzi się brud. Robot zgarnia kurz do środka swojej trasy, a potem rozmazuje go przy każdym przejeździe, zamiast odsuwać ku brzegom.",
       "causes": [
-        "Ściereczka przesycona brudem — gorzej wyciera pośrodku robota, gdzie nacisk jest największy, i zostawia ciemny pas.",
-        "Źle zamocowana lub pofałdowana ściereczka — fałd tworzy wyraźną linię, która powtarza się dokładnie w tym samym miejscu przy każdym przejeździe.",
-        "Zbyt zakurzona szyba na starcie — robot zbiera brud w centralny wałek, który przejeżdża ponownie, nie mogąc go wchłonąć.",
-        "Zbyt mało środka czyszczącego — ściereczka wysycha w połowie trasy i szoruje po brudzie zamiast go rozpuszczać.",
+        "Ściereczka pełna brudu — pośrodku robota, gdzie nacisk jest największy, wyciera słabiej i zostawia ciemny pas.",
+        "Źle założona lub pofałdowana ściereczka — fałda zostawia wyraźną linię, która przy każdym przejeździe pojawia się dokładnie w tym samym miejscu.",
+        "Bardzo zakurzona szyba na początku — robot zgarnia brud w pas na środku i przejeżdża po nim raz za razem, nie mogąc go zebrać.",
+        "Za mało środka czyszczącego — ściereczka wysycha w połowie trasy i zamiast rozpuszczać brud, tylko po nim trze.",
       ],
       "steps": [
-        "Odłącz robota od prądu, zdejmij ściereczkę i wypierz ją ręcznie w letniej wodzie z mydłem, bez płynu do płukania tkanin, a przed ponownym użyciem pozostaw do całkowitego wyschnięcia.",
-        "Sprawdź, czy ściereczka jest dobrze naciągnięta i bez fałd na całej szerokości, zgodnie ze schematem mocowania w instrukcji.",
-        "Najpierw przetrzyj wilgotną ściereczką brzegi i ramę szyby, aby usunąć kurz i piasek, które inaczej zostałyby zepchnięte na środek.",
-        "Równomiernie spryskaj ściereczkę lub szybę środkiem zalecanym przez producenta, bez nadmiaru, aby robot się nie ślizgał.",
-        "Uruchom drugi cykl w trybie trasy krzyżowej, a potem wyczyść bieżnik gąsienicy i uszczelkę ssącą wilgotnym wacikiem.",
+        "Odłącz robota od prądu, zdejmij ściereczkę i wypierz ją ręcznie w letniej wodzie z mydłem, bez płynu do płukania tkanin, a przed ponownym użyciem zostaw do całkowitego wyschnięcia.",
+        "Sprawdź, czy ściereczka jest dobrze naciągnięta i nie marszczy się na całej szerokości; mocuj ją według schematu z instrukcji.",
+        "Najpierw przetrzyj wilgotną ściereczką brzegi i ramę okna, żeby usunąć kurz i piasek, które robot zepchnąłby na środek.",
+        "Spryskaj równomiernie ściereczkę lub szybę środkiem zalecanym przez producenta, ale z umiarem, żeby robot się nie ślizgał.",
+        "Uruchom drugi cykl w trybie mycia na krzyż, a potem przetrzyj bieżnik gąsienicy i uszczelkę ssącą wilgotnym wacikiem.",
       ],
-      "replaceWhen": "Jeśli ściereczka jest zużyta, a smuga utrzymuje się mimo dokładnego czyszczenia, do wymiany jest akcesorium, a nie robot. Robota wymień tylko wtedy, gdy przyssanie trwale słabnie albo gąsienica się ślizga, bo naprawa często kosztuje więcej niż zakup nowego.",
+      "replaceWhen": "Jeśli ściereczka jest zużyta, a smuga nie znika mimo dokładnego czyszczenia, wymień ściereczkę, a nie robota. Robota wymień dopiero wtedy, gdy siła ssania trwale słabnie albo gąsienica się ślizga, bo naprawa często kosztuje więcej niż nowe urządzenie.",
     }
   },
   "ne-chauffe-plus": {
@@ -2401,21 +2401,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Als het verwarmingselement of de thermische zekering kapot is en de garantie is verlopen, kost reparatie vaak meer dan een nieuw model. Vervang het apparaat ook bij een beschadigd snoer, een ongewoon warme behuizing of een brandlucht."
     },
     "pl": {
-      "intro": "Frytkownica beztłuszczowa, która przestała się nagrzewać, najczęściej ma problem z zasilaniem, źle zatrzaśnięty koszyk albo zadziałało w niej zabezpieczenie termiczne. Jeśli wentylator pracuje, a powietrze pozostaje zimne, zwykle winna jest grzałka lub jej bezpiecznik.",
+      "intro": "Jeśli frytkownica beztłuszczowa przestała grzać, przyczyną jest zwykle zasilanie, źle zatrzaśnięty kosz albo zadziałanie zabezpieczenia termicznego. Gdy wentylator pracuje, a powietrze pozostaje zimne, winna jest najczęściej grzałka lub jej bezpiecznik.",
       "causes": [
-        "Źle zatrzaśnięty koszyk — wyłącznik bezpieczeństwa odcina grzanie, dopóki szuflada nie jest całkowicie zamknięta.",
-        "Wadliwe gniazdko lub przedłużacz — urządzenie włącza się słabo lub wcale w przeciążonej bądź uszkodzonej listwie zasilającej.",
-        "Zadziałało zabezpieczenie termiczne — po przegrzaniu z powodu zabrudzeń lub zatkanego otworu wentylacyjnego bezpiecznik odcina grzanie.",
-        "Wadliwa grzałka lub czujnik temperatury — wentylator pracuje i ekran się świeci, ale powietrze pozostaje letnie lub zimne.",
+        "Źle zatrzaśnięty kosz — wyłącznik bezpieczeństwa nie pozwala grzać, dopóki szuflada nie jest całkowicie zamknięta.",
+        "Wadliwe gniazdko lub przedłużacz — w przeciążonej lub uszkodzonej listwie frytkownica ledwo się włącza albo nie włącza się wcale.",
+        "Zadziałało zabezpieczenie termiczne — po przegrzaniu spowodowanym zabrudzeniem lub zatkanymi otworami wentylacyjnymi bezpiecznik odcina grzanie.",
+        "Uszkodzona grzałka lub czujnik temperatury — wentylator pracuje, wyświetlacz się świeci, ale powietrze pozostaje letnie lub zimne.",
       ],
       "steps": [
-        "Odłącz urządzenie od prądu, pozwól mu ostygnąć, a potem podłącz je ponownie bezpośrednio do gniazdka ściennego, sprawdzonego wcześniej innym urządzeniem, bez przedłużacza.",
-        "Wyjmij szufladę i włóż ją ponownie do oporu, aż do kliknięcia, i sprawdź, czy żadne okruchy nie blokują styku zamknięcia.",
-        "Wyczyść dno szuflady, kratkę i otwory wentylacyjne, ponieważ nagromadzony tłuszcz może uruchomić zabezpieczenie termiczne.",
-        "Zostaw urządzenie odłączone na godzinę, aby zresetować ewentualne zabezpieczenia, a potem uruchom pusty cykl w 180 °C na dziesięć minut.",
-        "Jeśli wentylator pracuje, ale powietrze pozostaje zimne, przerwij: nie otwieraj obudowy, skontaktuj się z serwisem lub skorzystaj z gwarancji.",
+        "Odłącz frytkownicę od prądu, poczekaj, aż ostygnie, a potem podłącz ją bez przedłużacza bezpośrednio do gniazdka ściennego, które działa z innym urządzeniem.",
+        "Wysuń szufladę i wsuń ją z powrotem do końca, aż kliknie, a potem sprawdź, czy okruchy nie blokują wyłącznika bezpieczeństwa.",
+        "Wyczyść dno szuflady, kratkę i otwory wentylacyjne, bo nagromadzony tłuszcz może uruchomić zabezpieczenie termiczne.",
+        "Zostaw frytkownicę odłączoną od prądu na godzinę, żeby ewentualne zabezpieczenia się zresetowały, a potem włącz ją na pusto na dziesięć minut w 180 °C.",
+        "Jeśli wentylator pracuje, ale powietrze wciąż jest zimne, na tym poprzestań: nie otwieraj obudowy, tylko skontaktuj się z serwisem lub zgłoś usterkę w ramach gwarancji.",
       ],
-      "replaceWhen": "Jeśli winna jest grzałka lub bezpiecznik termiczny, a urządzenie jest po gwarancji, naprawa często nie opłaca się w porównaniu z nowym modelem. Wymień je także wtedy, gdy przewód jest uszkodzony, obudowa nienormalnie się nagrzała lub pojawił się zapach spalenizny.",
+      "replaceWhen": "Jeśli winna jest grzałka lub bezpiecznik termiczny, a frytkownica nie ma już gwarancji, naprawa zwykle się nie opłaca w porównaniu z zakupem nowej. Wymień ją także wtedy, gdy przewód jest uszkodzony, obudowa nienaturalnie się nagrzała albo czuć zapach spalenizny.",
     }
   },
   "nettoyeur-vapeur-crachotement": {
@@ -2522,21 +2522,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Keert het spugen direct terug na correct ontkalken, dan is de ketel of het ventiel waarschijnlijk beschadigd. Bij een ouder apparaat kosten onderdelen vaak bijna evenveel als een nieuw model, dat bovendien veiliger is."
     },
     "pl": {
-      "intro": "Parownica, która pluje wodą, w rzeczywistości wytwarza wilgotną parę: woda skrapla się, zanim wydostanie się z urządzenia. Najczęstszą przyczyną jest zbyt słabo nagrzane urządzenie, zbyt pełny zbiornik albo kamień zakłócający grzanie.",
+      "intro": "Myjka parowa, która pluje wodą, w rzeczywistości wytwarza mokrą parę: woda skrapla się, zanim zdąży wydostać się na zewnątrz. Najczęściej winne jest niedostatecznie nagrzane urządzenie, przepełniony zbiornik albo kamień, który zakłóca grzanie.",
       "causes": [
-        "Użycie przed pełnym nagrzaniem — para nie jest jeszcze sucha, a woda w postaci kropelek wychodzi dyszą.",
-        "Zbiornik napełniony ponad maksimum — woda jest porywana razem z parą, zamiast pozostać w kotle.",
-        "Kamień w kotle lub dyszy — zmniejsza nagrzewanie i zwęża przepływ, stąd nieregularne wyrzuty.",
-        "Długi lub zimny wąż albo mokra końcówka — para skrapla się po drodze i dociera w postaci wody.",
+        "Używanie przed pełnym nagrzaniem – para nie jest jeszcze sucha, więc z dyszy wylatują kropelki wody.",
+        "Zbiornik napełniony powyżej znaku maksimum – woda zostaje porwana razem z parą, zamiast zostać w kotle.",
+        "Kamień w kotle lub dyszy – osłabia grzanie i zwęża przepływ, dlatego woda nierówno pryska.",
+        "Długi lub zimny wąż albo mokra końcówka – para skrapla się po drodze i dociera do celu jako woda.",
       ],
       "steps": [
-        "Odłącz urządzenie od prądu i poczekaj, aż całkowicie ostygnie, zanim napełnisz zbiornik; nigdy nie odkręcaj korka, gdy jest gorący lub pod ciśnieniem.",
-        "Napełniaj tylko do oznaczenia maksimum, wodą zalecaną w instrukcji, a potem poczekaj na kontrolkę gotowości temperatury.",
-        "Pierwsze sekundy pary skieruj na ściereczkę, aby usunąć skroploną wodę, zanim zaczniesz czyścić właściwą powierzchnię.",
-        "Odkamień kocioł i dyszę metodą z instrukcji, stosując dozwolony środek i zachowując czasy płukania.",
-        "Całkowicie rozwiń wąż, unikaj mokrych końcówek i przełącz na słabszy poziom pary, jeśli urządzenie ma regulację.",
+        "Odłącz urządzenie od prądu i przed napełnieniem poczekaj, aż całkowicie ostygnie; nigdy nie odkręcaj korka, gdy jest gorący lub pod ciśnieniem.",
+        "Napełniaj zbiornik tylko do znaku maksimum wodą zalecaną w instrukcji, a potem poczekaj, aż kontrolka pokaże, że urządzenie jest nagrzane.",
+        "Pierwsze sekundy pary skieruj na ściereczkę, by pozbyć się skroplonej wody, i dopiero potem czyść właściwą powierzchnię.",
+        "Odkamień kocioł i dyszę zgodnie z instrukcją, używając dozwolonego środka i przestrzegając czasu płukania.",
+        "Rozwiń cały wąż, nie używaj mokrych końcówek i zmniejsz moc pary, jeśli urządzenie ma regulację.",
       ],
-      "replaceWhen": "Jeśli rozbryzgi wody wracają od razu po prawidłowym odkamienieniu, kocioł lub zawór są prawdopodobnie uszkodzone. W starszym urządzeniu wymiana części często kosztuje prawie tyle co nowy model, który będzie bezpieczniejszy.",
+      "replaceWhen": "Jeśli woda znowu pryska tuż po prawidłowym odkamienieniu, kocioł lub zawór są prawdopodobnie uszkodzone. W starszym urządzeniu wymiana części często kosztuje prawie tyle co nowy model, który będzie przy tym bezpieczniejszy.",
     }
   },
   "humidificateur-odeur": {
@@ -2643,21 +2643,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Komt de geur snel terug ondanks regelmatig schoonmaken of zit schimmel op plekken die u niet kunt bereiken, dan is het apparaat moeilijk hygiënisch te houden. Vervang het ook bij een gescheurde of diep bekraste tank."
     },
     "pl": {
-      "intro": "Nieprzyjemny zapach nawilżacza powietrza prawie zawsze pochodzi ze stojącej wody, w której rozwijają się bakterie, pleśń i osady z kamienia. Zbiornik pozostawiony pełny, przesycony filtr albo zbyt rzadkie czyszczenie wystarczą, by w pomieszczeniu rozchodził się stęchły zapach.",
+      "intro": "Nieprzyjemny zapach z nawilżacza powietrza prawie zawsze bierze się ze stojącej wody, w której rozwijają się bakterie i pleśń oraz gromadzi się kamień. Pozostawiony pełny zbiornik, zapchany filtr albo zbyt rzadkie czyszczenie wystarczą, by po pomieszczeniu rozchodził się zapach stęchlizny.",
       "causes": [
-        "Stojąca woda w zbiorniku — pozostawiona na kilka dni sprzyja powstawaniu śliskiego nalotu i zapachu stęchlizny lub pleśni.",
-        "Pleśń lub biofilm na ściankach — rozpoznasz je po różowych lub czarnych plamach albo śliskim w dotyku osadzie.",
-        "Kamień nagromadzony na podstawie lub nebulizatorze — zatrzymuje zanieczyszczenia i wydziela ostry zapach podczas podgrzewania lub zamgławiania.",
-        "Przesycony filtr lub knot — zużyty lub nigdy niewysuszony filtr zatrzymuje wilgoć i wydziela uporczywy zapach.",
+        "Stojąca woda w zbiorniku – pozostawiona na kilka dni sprzyja powstawaniu śliskiego nalotu i zapachu zatęchłej wody lub pleśni.",
+        "Pleśń lub biofilm na ściankach – rozpoznasz je po różowych lub czarnych plamach albo po osadzie śliskim w dotyku.",
+        "Kamień na podstawie lub membranie ultradźwiękowej – zatrzymuje zanieczyszczenia i podczas podgrzewania lub wytwarzania mgiełki wydziela ostry, drażniący zapach.",
+        "Zapchany filtr lub knot – zużyty albo nigdy niesuszony filtr trzyma wilgoć i stale nieprzyjemnie pachnie.",
       ],
       "steps": [
-        "Odłącz urządzenie od prądu, całkowicie opróżnij zbiornik i podstawę, a napełniaj tylko świeżą wodą tuż przed użyciem.",
-        "Wyczyść zbiornik i podstawę roztworem rozcieńczonego białego octu, jeśli pozwala na to instrukcja, a potem wyszoruj miękką szczotką.",
-        "Dokładnie spłucz czystą wodą, aż całkowicie zniknie zapach octu, a potem pozostaw do wyschnięcia na powietrzu przed złożeniem.",
-        "Wymień filtr lub knot z częstotliwością podaną w instrukcji i nigdy nie uruchamiaj urządzenia bez filtra, jeśli model go wymaga.",
-        "Opróżniaj i susz urządzenie codziennie lub przed każdym okresem nieużywania, a raz w tygodniu czyść je dokładnie.",
+        "Odłącz urządzenie od prądu, całkowicie opróżnij zbiornik i podstawę, a odtąd nalewaj świeżą wodę dopiero tuż przed włączeniem.",
+        "Umyj zbiornik i podstawę rozcieńczonym octem spirytusowym, jeśli instrukcja na to pozwala, a potem wyszoruj je miękką szczoteczką.",
+        "Dokładnie wypłucz wszystko czystą wodą, aż zniknie zapach octu, a przed złożeniem zostaw części do wyschnięcia na powietrzu.",
+        "Wymieniaj filtr lub knot tak często, jak zaleca producent, i nigdy nie włączaj urządzenia bez filtra, jeśli model go wymaga.",
+        "Opróżniaj i osuszaj nawilżacz codziennie oraz przed każdą dłuższą przerwą w używaniu, a raz w tygodniu dokładnie go myj.",
       ],
-      "replaceWhen": "Jeśli zapach szybko wraca mimo regularnego czyszczenia albo pleśń wżarła się w miejsca, do których nie dosięgniesz, urządzenie trudno higienicznie oczyścić. Wymień je także wtedy, gdy zbiornik jest pęknięty lub głęboko porysowany.",
+      "replaceWhen": "Jeśli mimo regularnego czyszczenia zapach szybko wraca albo pleśń wżarła się w miejsca, do których nie sięgniesz, urządzenie trudno będzie skutecznie zdezynfekować. Wymień je również wtedy, gdy zbiornik jest pęknięty lub głęboko porysowany.",
     }
   },
   "laveur-vitres-traces": {
@@ -2764,21 +2764,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Blijven er strepen met een nieuw doekje en het juiste middel, controleer dan de zuigkracht en de staat van de afdichting. Een robot die blijvend vermogen verliest of een vervormde afdichting heeft, is zelden een reparatie waard."
     },
     "pl": {
-      "intro": "Robot do mycia okien, który zostawia smugi, prawie zawsze ma brudną lub zużytą ściereczkę albo nieodpowiednio dobraną ilość środka. Smugi pojawiają się, gdy brud jest tylko przesuwany, a woda wysycha zbyt szybko, zwłaszcza na nagrzanej szybie lub takiej z dużą ilością kamienia.",
+      "intro": "Jeśli robot do mycia okien zostawia smugi, prawie zawsze winna jest brudna lub zużyta ściereczka albo źle dobrana ilość płynu. Smugi powstają, gdy brud jest tylko rozmazywany, a woda wysycha zbyt szybko – zwłaszcza na nagrzanej szybie albo takiej, na której osadził się kamień.",
       "causes": [
-        "Zabrudzona lub zużyta ściereczka — nie zatrzymuje już brudu i odkłada go cienkimi liniami przy każdym przejeździe.",
-        "Za dużo wody lub środka — nadmiar spływa, wysycha w kroplach i zostawia ślady lub zacieki na dole szyby.",
-        "Szyba wystawiona na słońce — płyn wysycha, zanim zostanie wytarty, i zostawia białe smugi z kamienia lub mydła.",
-        "Szyba bardzo brudna na początku lub z tłustym nalotem — jeden przejazd nie wystarcza, a brud się rozsmarowuje, zamiast zostać wchłonięty.",
+        "Zabrudzona lub zużyta ściereczka – nie zbiera już brudu i przy każdym przejeździe zostawia go w postaci cienkich linii.",
+        "Za dużo wody lub płynu – nadmiar spływa, wysycha w kroplach i zostawia plamy oraz zacieki na dole szyby.",
+        "Szyba w pełnym słońcu – płyn wysycha, zanim robot zdąży go zebrać, i zostają białe smugi z kamienia lub środka myjącego.",
+        "Bardzo brudna lub tłusta szyba – jeden przejazd nie wystarcza, a brud, zamiast wsiąkać w ściereczkę, rozmazuje się po szybie.",
       ],
       "steps": [
-        "Zdejmij ściereczkę, wypierz ją ręcznie w letniej wodzie z mydłem bez płynu do płukania tkanin, dobrze wypłucz i przed założeniem pozostaw do wyschnięcia.",
-        "Najpierw wytrzyj ramę i krawędzie wilgotną ściereczką, aby robot nie rozsmarował po szybie kurzu i piasku.",
-        "Myj szyby w cieniu lub przy pochmurnej pogodzie i spryskuj je umiarkowaną ilością środka zalecanego przez producenta.",
-        "W przypadku bardzo brudnej lub tłustej szyby wykonaj pierwszy cykl z niewielką ilością środka, a potem drugi z czystą ściereczką.",
-        "Wyczyść bieżnik gąsienicy i uszczelkę ssącą czystą wodą oraz sprawdź, czy mocowanie ściereczki jest dobrze naciągnięte.",
+        "Zdejmij ściereczkę, wypierz ją ręcznie w letniej wodzie z mydłem, bez płynu do płukania, dobrze wypłucz i przed ponownym założeniem poczekaj, aż wyschnie.",
+        "Najpierw przetrzyj ramę i brzegi szyby wilgotną ściereczką, żeby robot nie rozmazał po szybie kurzu i piasku.",
+        "Myj okna w cieniu lub przy pochmurnej pogodzie i spryskuj szybę umiarkowaną ilością płynu zalecanego przez producenta.",
+        "Jeśli szyba jest bardzo brudna lub tłusta, najpierw puść jeden cykl z niewielką ilością płynu, a potem drugi z czystą ściereczką.",
+        "Umyj czystą wodą gąsienice napędowe i uszczelkę ssącą oraz sprawdź, czy ściereczka jest dobrze naciągnięta na mocowaniu.",
       ],
-      "replaceWhen": "Jeśli smugi nadal się pojawiają przy nowej ściereczce i odpowiednim środku, sprawdź przyssanie i stan uszczelki. Robot, który trwale traci moc lub ma odkształconą uszczelkę, jest mało opłacalny do naprawy i warto go wymienić.",
+      "replaceWhen": "Jeśli smugi zostają nawet przy nowej ściereczce i odpowiednim płynie, sprawdź siłę ssania i stan uszczelki. Gdy robot trwale traci moc albo ma odkształconą uszczelkę, naprawa przestaje się opłacać i lepiej go wymienić.",
     }
   },
   "deshumidificateur-bruit-compresseur": {
@@ -2885,21 +2885,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Blijft het geluid na waterpas zetten, schoonmaken en ontdooien en komen daar minder prestaties of herhaald uitschakelen bij, dan is de compressor waarschijnlijk aan het einde van zijn leven. Buiten garantie kost vervanging bijna evenveel als een nieuw apparaat."
     },
     "pl": {
-      "intro": "Osuszacz powietrza, który zrobił się głośny, częściej ma problem ze stabilnością, zabrudzonym filtrem lub szronem na parowniku niż prawdziwą usterkę sprężarki. Metaliczne drgania lub narastające z czasem buczenie warto jednak uważnie sprawdzić.",
+      "intro": "Jeśli osuszacz powietrza zaczął głośno pracować, przyczyną jest zwykle niestabilne ustawienie, zabrudzony filtr albo szron na parowniku, a dopiero w dalszej kolejności faktyczna usterka sprężarki. Metaliczne drgania lub buczenie, które z czasem się nasila, wymagają jednak uważnego sprawdzenia.",
       "causes": [
-        "Źle wypoziomowane urządzenie lub postawione na twardej podłodze — drgania sprężarki przenoszą się na podłogę i wzmacniają hałas.",
-        "Zatkany filtr powietrza lub zabrudzony wentylator — powietrze krąży słabo, silnik pracuje z wysiłkiem, a buczenie narasta.",
-        "Szron na parowniku lub źle zatrzaśnięty zbiornik — elementy ocierają się, stukają lub pracują z oporem przy każdym ponownym uruchomieniu.",
-        "Zużycie podpór lub sprężarki — hałas staje się głuchy, przenikliwy lub stukający, zwłaszcza po kilku latach użytkowania.",
+        "Urządzenie stoi niestabilnie lub na twardej podłodze – drgania sprężarki przenoszą się na podłoże i hałas się wzmacnia.",
+        "Zatkany filtr powietrza lub zabrudzony wentylator – powietrze słabo przepływa, silnik musi pracować ciężej i buczenie narasta.",
+        "Szron na parowniku lub źle wsunięty zbiornik – elementy ocierają się, stukają albo stawiają opór przy każdym ponownym uruchomieniu.",
+        "Zużyte mocowania sprężarki lub sama sprężarka – dźwięk staje się głuchy, piskliwy lub stukający, zwłaszcza po kilku latach użytkowania.",
       ],
       "steps": [
-        "Odłącz urządzenie od prądu, sprawdź, czy stoi płasko, i postaw je na gumowej podkładce lub macie antywibracyjnej.",
-        "Wyjmij i umyj filtr powietrza w letniej wodzie, a potem odkurz kratki i tył urządzenia odkurzaczem z miękką szczotką.",
-        "Opróżnij zbiornik, załóż go prawidłowo do kliknięcia i upewnij się, że żaden panel ani pokrywa nie jest poluzowany.",
-        "Jeśli widać szron, wyłącz urządzenie i pozwól mu odszronić się w temperaturze pokojowej, a potem włącz je w cieplejszym pomieszczeniu.",
-        "Po wyłączeniu odczekaj trzy minuty przed ponownym włączeniem, a jeśli hałas się utrzymuje, nie rozbieraj układu chłodniczego: skontaktuj się z serwisem.",
+        "Odłącz urządzenie od prądu, sprawdź, czy stoi równo, i postaw je na gumowej podkładce lub macie antywibracyjnej.",
+        "Wyjmij filtr powietrza i umyj go w letniej wodzie, a kratki i tył obudowy odkurz odkurzaczem z miękką szczotką.",
+        "Opróżnij zbiornik, wsuń go na miejsce aż do kliknięcia i sprawdź, czy wszystkie panele i osłony są dobrze zamocowane.",
+        "Jeśli widać szron, wyłącz urządzenie i poczekaj, aż szron stopnieje w temperaturze pokojowej, a potem uruchom osuszacz w cieplejszym pomieszczeniu.",
+        "Po wyłączeniu odczekaj trzy minuty przed ponownym włączeniem. Jeśli hałas nie ustępuje, nie rozbieraj układu chłodniczego, tylko skontaktuj się z serwisem.",
       ],
-      "replaceWhen": "Jeśli hałas utrzymuje się po wypoziomowaniu, wyczyszczeniu i odszronieniu, a towarzyszy mu spadek wydajności lub powtarzające się wyłączanie, sprężarka jest zapewne u kresu życia. Po gwarancji jej wymiana kosztuje prawie tyle co nowe urządzenie.",
+      "replaceWhen": "Jeśli hałas nie ustępuje mimo wypoziomowania, wyczyszczenia i rozmrożenia urządzenia, a do tego spada wydajność lub osuszacz co chwilę się wyłącza, sprężarka prawdopodobnie dobiega końca żywotności. Po upływie gwarancji jej wymiana kosztuje prawie tyle co nowe urządzenie.",
     }
   },
   "fer-semelle-accroche": {
@@ -3006,21 +3006,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Is de zool diep bekrast, afgebladderd of vervormd, dan herstelt schoonmaken de glijkwaliteit niet en beschadigt het strijkijzer uw kleding. Een ouder strijkijzer met een beschadigde zool vervangt u beter dan u het repareert."
     },
     "pl": {
-      "intro": "Stopa żelazka, która łapie tkaninę, najczęściej jest zabrudzona krochmalem, kamieniem lub stopionymi włóknami syntetycznymi. Powierzchnia traci wtedy poślizg, a zbyt wysoka temperatura lub porysowana stopa pogarszają problem.",
+      "intro": "Jeśli stopa żelazka zaczepia o tkaninę, najczęściej jest zabrudzona przypalonym krochmalem, kamieniem lub stopionymi włóknami syntetycznymi. Powierzchnia przestaje się wtedy ślizgać, a zbyt wysoka temperatura lub porysowana stopa tylko pogarszają sprawę.",
       "causes": [
-        "Resztki krochmalu, środka do prasowania lub kamienia — przypalają się na stopie i tworzą szorstką warstwę, która zahacza.",
-        "Stopione włókna syntetyczne — zbyt gorące przejechanie po poliestrze lub nylonie zostawia lepki, ledwo widoczny osad.",
-        "Otwory parowe zatkane kamieniem — woda kapie nieregularnie, zostawia plamy i zmniejsza poślizg stopy.",
-        "Porysowana lub łuszcząca się powłoka — upadek lub kontakt z suwakiem tworzy nierówności, które zahaczają o tkaninę.",
+        "Resztki krochmalu, środka ułatwiającego prasowanie lub kamienia – przypalają się na stopie i tworzą szorstką warstwę, która trze o materiał.",
+        "Stopione włókna syntetyczne – prasowanie poliestru lub nylonu w zbyt wysokiej temperaturze zostawia lepki, ledwo widoczny osad.",
+        "Otwory parowe zatkane kamieniem – woda kapie nierówno, zostawia plamy, a stopa gorzej się ślizga.",
+        "Porysowana lub łuszcząca się powłoka – po upadku albo kontakcie z zamkiem błyskawicznym powstają nierówności, które zaczepiają o tkaninę.",
       ],
       "steps": [
-        "Odłącz żelazko od prądu, pozwól mu całkowicie ostygnąć, a potem przetrzyj stopę miękką wilgotną ściereczką z odrobiną płynu do naczyń.",
-        "Jeśli osad się opiera, nałóż łagodną pastę z sody oczyszczonej i wody, o ile instrukcja na to pozwala, a potem wytrzyj, nie drapiąc metalu.",
-        "Nigdy nie używaj druciaków, ostrza ani środków ściernych, które rysują powłokę i sprawiają, że stopa bardziej zahacza.",
-        "Opróżnij zbiornik i uruchom funkcję odkamieniania lub płukania przewidzianą w instrukcji, aby udrożnić otwory parowe.",
-        "Prasuj w temperaturze podanej na metce ubrania i używaj osłony na delikatne tkaniny.",
+        "Odłącz żelazko od prądu, poczekaj, aż całkowicie ostygnie, a potem przetrzyj stopę miękką, wilgotną ściereczką z odrobiną płynu do naczyń.",
+        "Jeśli osad nie schodzi, nałóż delikatną pastę z sody oczyszczonej i wody (o ile instrukcja na to pozwala) i zetrzyj ją, nie drapiąc metalu.",
+        "Nigdy nie używaj druciaka, ostrza ani środków ściernych – rysują powłokę, przez co stopa jeszcze bardziej zaczepia o tkaninę.",
+        "Opróżnij zbiornik i uruchom funkcję odkamieniania lub płukania opisaną w instrukcji, aby udrożnić otwory parowe.",
+        "Ustaw temperaturę podaną na metce ubrania, a delikatne tkaniny prasuj przez ściereczkę.",
       ],
-      "replaceWhen": "Jeśli stopa jest głęboko porysowana, łuszczy się lub jest odkształcona, czyszczenie nie przywróci poślizgu, a żelazko będzie niszczyć Twoje ubrania. Starsze żelazko z uszkodzoną stopą warto wymienić zamiast naprawiać.",
+      "replaceWhen": "Jeśli stopa jest głęboko porysowana, łuszczy się lub jest odkształcona, czyszczenie nie przywróci jej poślizgu, a żelazko będzie niszczyć Twoje ubrania. Stare żelazko z uszkodzoną stopą lepiej wymienić niż naprawiać.",
     }
   },
   "nettoyeur-vapeur-fuite": {
@@ -3127,21 +3127,21 @@ const PROBLEM_GUIDES: Record<string, Record<Lang, ProblemGuide>> = {
       "replaceWhen": "Zijn de dop, het schroefdraad of het veiligheidsventiel beschadigd, of blijft het lek bestaan met een nieuwe afdichting, dan is het apparaat niet meer veilig. Vervang het liever dan zelf te repareren, zeker als het oud is of de ketel gescheurd is."
     },
     "pl": {
-      "intro": "Wyciek przy korku podczas nagrzewania często świadczy o zużytej uszczelce, źle dokręconym korku lub kamieniu na jego gnieździe. Ponieważ kocioł jest pod ciśnieniem, wyłącz urządzenie i nigdy nie odkręcaj korka, dopóki jest gorący: ryzyko oparzenia jest realne.",
+      "intro": "Wyciek spod korka podczas nagrzewania zwykle oznacza zużytą uszczelkę, źle zakręcony korek albo kamień na jego gnieździe. Kocioł jest pod ciśnieniem, dlatego wyłącz urządzenie i nigdy nie odkręcaj korka, dopóki jest gorący – naprawdę grozi to oparzeniem.",
       "causes": [
-        "Uszczelka korka stwardniała, pęknięta lub odkształcona — nie zamyka już szczelnie, gdy w kotle rośnie ciśnienie.",
-        "Korek źle dokręcony lub przekrzywiony — gwint nie jest dopasowany albo blokada bezpieczeństwa nie została zatrzaśnięta do końca.",
-        "Kamień na gnieździe korka lub w gwincie — osady uniemożliwiają uszczelce przyleganie płasko do kotła.",
-        "Kocioł napełniony ponad maksimum — nadmiar wody jest wypychany w stronę korka, gdy rosną temperatura i ciśnienie.",
+        "Stwardniała, pęknięta lub odkształcona uszczelka korka – przestaje szczelnie zamykać, gdy w kotle rośnie ciśnienie.",
+        "Korek zakręcony niedokładnie lub krzywo – gwint wszedł nierówno albo blokada bezpieczeństwa nie zaskoczyła do końca.",
+        "Kamień na gnieździe korka lub w gwincie – osad nie pozwala uszczelce przylegać płasko do kotła.",
+        "Kocioł napełniony powyżej znaku maksimum – gdy rosną temperatura i ciśnienie, nadmiar wody jest wypychany w stronę korka.",
       ],
       "steps": [
-        "Natychmiast odłącz urządzenie od prądu i pozostaw je do ostygnięcia na kilka godzin; nigdy nie dotykaj korka ani go nie otwieraj, dopóki jest gorący.",
-        "Gdy ostygnie, odkręć korek zgodnie z instrukcją i obejrzyj uszczelkę: powinna być elastyczna, nieuszkodzona i dobrze osadzona.",
-        "Wyczyść gniazdo i gwint wilgotną ściereczką, usuwając osady z kamienia bez rysowania metalu.",
-        "Napełniaj tylko do oznaczenia maksimum i dokręć korek do oporu, sprawdzając wyrównanie i blokadę bezpieczeństwa.",
-        "Jeśli wyciek wraca, nie używaj już urządzenia i zamów oryginalny korek lub uszczelkę albo skontaktuj się z serwisem.",
+        "Natychmiast odłącz urządzenie od prądu i zostaw je na kilka godzin do ostygnięcia; dopóki jest gorące, nie dotykaj korka i go nie otwieraj.",
+        "Gdy urządzenie ostygnie, odkręć korek zgodnie z instrukcją i obejrzyj uszczelkę: powinna być elastyczna, cała i dobrze osadzona.",
+        "Wyczyść gniazdo i gwint wilgotną ściereczką, usuwając kamień tak, by nie porysować metalu.",
+        "Napełniaj kocioł tylko do znaku maksimum i dokręć korek do oporu, sprawdzając, czy wszedł prosto i czy blokada bezpieczeństwa zaskoczyła.",
+        "Jeśli wyciek wraca, przestań używać urządzenia i zamów oryginalny korek lub uszczelkę albo skontaktuj się z serwisem.",
       ],
-      "replaceWhen": "Jeśli korek, jego gwint lub zawór bezpieczeństwa jest uszkodzony albo wyciek utrzymuje się przy nowej uszczelce, urządzenie nie jest już bezpieczne. Wymień je zamiast naprawiać na własną rękę, zwłaszcza jeśli jest stare lub kocioł jest pęknięty.",
+      "replaceWhen": "Jeśli uszkodzony jest korek, jego gwint lub zawór bezpieczeństwa albo wyciek nie ustępuje mimo nowej uszczelki, urządzenie nie jest już bezpieczne. Lepiej je wymienić niż naprawiać na własną rękę, zwłaszcza jeśli jest stare lub ma pęknięty kocioł.",
     }
   }
 }

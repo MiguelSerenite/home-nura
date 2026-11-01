@@ -51,7 +51,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Freidoras de aire comparadas en 7 mercados europeos: Ninja, Philips, Cosori, Xiaomi y más.',
       it: 'Friggitrici ad aria confrontate su 7 mercati europei: Ninja, Philips, Cosori, Xiaomi e altro.',
       nl: 'Airfryers vergeleken over 7 Europese markten: Ninja, Philips, Cosori, Xiaomi en meer.',
-      pl: 'Frytkownice beztłuszczowe porównane na 7 rynkach europejskich: Ninja, Philips, Cosori, Xiaomi i inne.',
+      pl: 'Porównanie frytkownic beztłuszczowych na 7 rynkach europejskich: Ninja, Philips, Cosori, Xiaomi i inne.',
     },
     primaryKeyword: {
       fr: 'meilleur airfryer',
@@ -84,7 +84,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Multicocinas conectadas: Instant Pot, Moulinex Cookeo, Tefal y más.',
       it: 'Multicooker connessi: Instant Pot, Moulinex Cookeo, Tefal e altro.',
       nl: 'Slimme multicookers: Instant Pot, Moulinex Cookeo, Tefal en meer.',
-      pl: 'Inteligentne multicookery z aplikacją: Instant Pot, Moulinex Cookeo, Tefal i inne.',
+      pl: 'Multicookery z aplikacją: Instant Pot, Moulinex Cookeo, Tefal i inne.',
     },
     primaryKeyword: {
       fr: 'meilleur multicuiseur',
@@ -117,7 +117,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Cafeteras conectadas espresso, de grano y cápsulas, controlables desde el smartphone.',
       it: 'Caffettiere connesse espresso, a chicchi e a capsule, pilotabili da smartphone.',
       nl: 'Slimme espresso-, bonen- en capsule-koffiezetapparaten bestuurbaar vanaf je smartphone.',
-      pl: 'Inteligentne ekspresy do kawy: ciśnieniowe, automatyczne na ziarna lub kapsułkowe, sterowane ze smartfona.',
+      pl: 'Ekspresy do kawy sterowane ze smartfona: ciśnieniowe, automatyczne do kawy ziarnistej i na kapsułki.',
     },
     primaryKeyword: {
       fr: 'meilleure cafetière connectée',
@@ -174,7 +174,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Termómetros de Carne Conectados',
       it: 'Termometri per Carne Connessi',
       nl: 'Slimme Vleesthermometers',
-      pl: 'Inteligentne termometry do mięsa',
+      pl: 'Bezprzewodowe termometry do mięsa',
     },
     description: {
       fr: 'Thermomètres à viande Bluetooth et wifi : Meater, Inkbird, ThermoPro et plus.',
@@ -210,7 +210,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Enchufes Inteligentes',
       it: 'Prese Intelligenti',
       nl: 'Slimme Stekkers',
-      pl: 'Inteligentne wtyczki',
+      pl: 'Inteligentne gniazdka',
     },
     description: {
       fr: 'Prises connectées pour automatiser et mesurer la consommation de tous vos appareils.',
@@ -219,7 +219,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Enchufes inteligentes para automatizar y medir el consumo de todos tus aparatos.',
       it: 'Prese intelligenti per automatizzare e misurare il consumo di ogni apparecchio.',
       nl: 'Slimme stekkers om het verbruik van al je apparaten te automatiseren en meten.',
-      pl: 'Inteligentne gniazdka do automatyzacji i pomiaru zużycia energii wszystkich Twoich urządzeń.',
+      pl: 'Inteligentne gniazdka, dzięki którym zautomatyzujesz wszystkie swoje urządzenia i zmierzysz, ile zużywają prądu.',
     },
     primaryKeyword: {
       fr: 'meilleure prise connectée',
@@ -228,7 +228,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'mejor enchufe inteligente',
       it: 'migliore presa intelligente',
       nl: 'beste slimme stekker',
-      pl: 'najlepsza inteligentna wtyczka',
+      pl: 'najlepsze inteligentne gniazdko',
     },
   },
   {
@@ -243,7 +243,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Robots de Cocina Multifunción',
       it: 'Robot da Cucina Multifunzione',
       nl: 'Multifunctionele Keukenrobots',
-      pl: 'Roboty kuchenne wielofunkcyjne',
+      pl: 'Roboty kuchenne z funkcją gotowania',
     },
     description: {
       fr: 'Robots cuiseurs type Thermomix : Magimix Cook Expert, Moulinex i-Companion, Lidl Monsieur Cuisine.',
@@ -261,7 +261,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'mejor robot de cocina',
       it: 'migliore robot da cucina',
       nl: 'beste keukenrobot',
-      pl: 'najlepszy robot kuchenny',
+      pl: 'najlepszy robot kuchenny z funkcją gotowania',
     },
   },
   {
@@ -285,7 +285,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Batidoras Vitamix, NutriBullet, Ninja y rivales para smoothies y sopas.',
       it: 'Frullatori Vitamix, NutriBullet, Ninja e concorrenti per smoothie e zuppe.',
       nl: 'Blenders van Vitamix, NutriBullet, Ninja en concurrenten voor smoothies en soepen.',
-      pl: 'Blendery Vitamix, NutriBullet, Ninja i konkurenci do smoothie i zup.',
+      pl: 'Blendery Vitamix, NutriBullet, Ninja i innych marek do smoothie i zup.',
     },
     primaryKeyword: {
       fr: 'meilleur blender',
@@ -309,7 +309,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Hornos Conectados y de Vapor',
       it: 'Forni Connessi e a Vapore',
       nl: 'Slimme en Stoomovens',
-      pl: 'Inteligentne piekarniki i parowary',
+      pl: 'Inteligentne piekarniki i piekarniki parowe',
     },
     description: {
       fr: 'Fours connectés, fours vapeur et fours combinés des grandes marques européennes.',
@@ -318,7 +318,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Hornos conectados, de vapor y combinados de marcas europeas líderes.',
       it: 'Forni connessi, a vapore e combinati dai migliori marchi europei.',
       nl: 'Slimme, stoom- en combi-ovens van topmerken uit Europa.',
-      pl: 'Inteligentne piekarniki, piekarniki parowe i kombi znanych marek europejskich.',
+      pl: 'Inteligentne piekarniki, piekarniki parowe i modele łączące obie funkcje od dużych marek europejskich.',
     },
     primaryKeyword: {
       fr: 'meilleur four connecté',
@@ -342,7 +342,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Microondas Conectados',
       it: 'Forni a Microonde Connessi',
       nl: 'Slimme Magnetrons',
-      pl: 'Inteligentne mikrofalówki',
+      pl: 'Inteligentne kuchenki mikrofalowe',
     },
     description: {
       fr: 'Micro-ondes connectés avec pilotage vocal et programmes automatiques.',
@@ -351,7 +351,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Microondas conectados con control por voz y programas automáticos.',
       it: 'Forni a microonde connessi con controllo vocale e programmi automatici.',
       nl: 'Slimme magnetrons met spraakbesturing en automatische programma\'s.',
-      pl: 'Inteligentne mikrofalówki ze sterowaniem głosowym i programami automatycznymi.',
+      pl: 'Inteligentne kuchenki mikrofalowe ze sterowaniem głosowym i programami automatycznymi.',
     },
     primaryKeyword: {
       fr: 'micro-ondes connecté',
@@ -375,7 +375,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Cocinado al Vacío',
       it: 'Cottura Sottovuoto',
       nl: 'Sous-Vide Apparaten',
-      pl: 'Gotowanie sous vide',
+      pl: 'Cyrkulatory sous vide',
     },
     description: {
       fr: 'Thermoplongeurs et machines sous-vide connectés pour la cuisson basse température.',
@@ -393,7 +393,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'máquina sous-vide conectada',
       it: 'roner connesso',
       nl: 'slimme sous-vide',
-      pl: 'urządzenie sous vide z aplikacją',
+      pl: 'cyrkulator sous vide z aplikacją',
     },
   },
   {
@@ -441,7 +441,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Extractores de Jugo',
       it: 'Estrattori di Succo',
       nl: 'Slowjuicers',
-      pl: 'Wyciskarki do soków',
+      pl: 'Wyciskarki wolnoobrotowe',
     },
     description: {
       fr: 'Extracteurs à vis lente pour jus de fruits et légumes maison.',
@@ -459,7 +459,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'mejor extractor de jugo',
       it: 'migliore estrattore di succo',
       nl: 'beste slowjuicer',
-      pl: 'najlepsza wyciskarka do soków',
+      pl: 'najlepsza wyciskarka wolnoobrotowa',
     },
   },
   {
@@ -484,7 +484,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Análisis a fondo de los frigoríficos Samsung Family Hub, LG InstaView y rivales.',
       it: 'Recensioni approfondite di Samsung Family Hub, LG InstaView e rivali.',
       nl: 'Diepgaande reviews van Samsung Family Hub, LG InstaView en concurrerende slimme koelkasten.',
-      pl: 'Szczegółowe recenzje inteligentnych lodówek Samsung Family Hub, LG InstaView i konkurentów.',
+      pl: 'Szczegółowe omówienia inteligentnych lodówek Samsung Family Hub, LG InstaView i konkurencyjnych modeli.',
     },
     primaryKeyword: {
       fr: 'frigo connecté',
@@ -521,7 +521,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Termostatos Netatmo, Tado, Nest, Honeywell — reduce tu factura de calefacción.',
       it: 'Termostati Netatmo, Tado, Nest, Honeywell — ridurre la bolletta del riscaldamento.',
       nl: 'Netatmo, Tado, Nest, Honeywell slimme thermostaten — verlaag je stookkosten.',
-      pl: 'Inteligentne termostaty Netatmo, Tado, Nest, Honeywell: niższe rachunki za ogrzewanie.',
+      pl: 'Inteligentne termostaty Netatmo, Tado, Nest i Honeywell, które pomagają obniżyć rachunki za ogrzewanie.',
     },
     primaryKeyword: {
       fr: 'meilleur thermostat connecté',
@@ -545,7 +545,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Medidores de Energía Inteligentes',
       it: 'Monitor Energia Connessi',
       nl: 'Slimme Energiemeters',
-      pl: 'Inteligentne liczniki energii',
+      pl: 'Mierniki zużycia energii',
     },
     description: {
       fr: 'Suivez la consommation électrique de votre foyer en temps réel, pièce par pièce.',
@@ -563,7 +563,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'medidor de energía inteligente',
       it: 'monitor energia intelligente',
       nl: 'slimme energiemeter',
-      pl: 'inteligentny licznik energii',
+      pl: 'miernik zużycia energii Wi-Fi',
     },
   },
   {
@@ -653,7 +653,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Bombillas y tiras LED inteligentes Philips Hue, IKEA Tradfri, WiZ, LIFX.',
       it: 'Lampadine e strisce LED smart Philips Hue, IKEA Tradfri, WiZ, LIFX.',
       nl: 'Slimme lampen en LED-strips van Philips Hue, IKEA Tradfri, WiZ, LIFX.',
-      pl: 'Żarówki i taśmy LED Philips Hue, IKEA Tradfri, WiZ, LIFX.',
+      pl: 'Inteligentne żarówki i taśmy LED: Philips Hue, IKEA Tradfri, WiZ, LIFX.',
     },
     primaryKeyword: {
       fr: 'ampoule connectée',
@@ -677,7 +677,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Interruptores Inteligentes',
       it: 'Interruttori Intelligenti',
       nl: 'Slimme Schakelaars',
-      pl: 'Inteligentne przełączniki',
+      pl: 'Inteligentne włączniki',
     },
     description: {
       fr: 'Interrupteurs muraux connectés Shelly, Sonoff, Legrand — y compris sans fil neutre.',
@@ -686,7 +686,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Interruptores inteligentes Shelly, Sonoff, Legrand — incluso sin neutro.',
       it: 'Interruttori smart Shelly, Sonoff, Legrand — anche senza neutro.',
       nl: 'Slimme wandschakelaars Shelly, Sonoff, Legrand — ook zonder nuldraad.',
-      pl: 'Ścienne przełączniki Shelly, Sonoff, Legrand, także bez przewodu neutralnego.',
+      pl: 'Inteligentne włączniki ścienne Shelly, Sonoff, Legrand – także do instalacji bez przewodu neutralnego.',
     },
     primaryKeyword: {
       fr: 'interrupteur connecté',
@@ -719,7 +719,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Motores de persianas y estores inteligentes para automatizar según la luz.',
       it: 'Motori smart per tapparelle e tende che si aprono in base alla luce.',
       nl: 'Slimme motoren voor rolluiken en zonwering, automatisch geopend op daglicht.',
-      pl: 'Napędy rolet i żaluzji do automatycznego otwierania w zależności od światła.',
+      pl: 'Inteligentne napędy rolet i żaluzji, które automatycznie otwierają je w zależności od światła.',
     },
     primaryKeyword: {
       fr: 'volet roulant connecté',
@@ -785,7 +785,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Detectores inteligentes de fugas de agua para evitar daños costosos.',
       it: 'Rilevatori intelligenti di perdite d\'acqua per evitare danni costosi.',
       nl: 'Slimme waterlekdetectoren om dure waterschade te voorkomen.',
-      pl: 'Inteligentne czujniki zalania, które chronią przed kosztownymi szkodami wodnymi.',
+      pl: 'Inteligentne czujniki zalania, które chronią przed kosztownymi skutkami wycieku wody.',
     },
     primaryKeyword: {
       fr: 'détecteur de fuite d\'eau',
@@ -818,7 +818,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Hubs Home Assistant, Jeedom, Homey, SmartThings — unifica todos tus dispositivos.',
       it: 'Hub Home Assistant, Jeedom, Homey, SmartThings — unificare tutti i dispositivi.',
       nl: 'Home Assistant, Jeedom, Homey, SmartThings hubs om al je apparaten samen te brengen.',
-      pl: 'Huby Home Assistant, Jeedom, Homey, SmartThings: połącz wszystkie swoje urządzenia.',
+      pl: 'Huby Home Assistant, Jeedom, Homey i SmartThings, które łączą wszystkie urządzenia w jeden system.',
     },
     primaryKeyword: {
       fr: 'meilleur hub domotique',
@@ -842,7 +842,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Estaciones de Carga VE',
       it: 'Stazioni di Ricarica EV',
       nl: 'EV Laadstations',
-      pl: 'Ładowarki do aut elektrycznych (wallbox)',
+      pl: 'Ładowarki do samochodów elektrycznych (wallbox)',
     },
     description: {
       fr: 'Bornes de recharge domestiques pour véhicules électriques — Wallbox, EVBox, Easee.',
@@ -921,7 +921,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Cámaras de vigilancia interior inteligentes para hogar y mascotas.',
       it: 'Telecamere di sorveglianza per interni smart per casa e animali.',
       nl: 'Slimme binnenbewakingscamera\'s voor huis en huisdieren.',
-      pl: 'Inteligentne kamery monitoringu wewnętrznego do domu i dla zwierząt.',
+      pl: 'Inteligentne kamery wewnętrzne do monitorowania domu i zwierząt domowych.',
     },
     primaryKeyword: {
       fr: 'caméra surveillance intérieure',
@@ -1053,7 +1053,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Detectores de humo y monóxido inteligentes certificados EN 14604.',
       it: 'Rilevatori di fumo e CO intelligenti certificati EN 14604.',
       nl: 'Slimme rook- en CO-melders gecertificeerd volgens EN 14604.',
-      pl: 'Inteligentne czujniki dymu i tlenku węgla (dla czujników dymu obowiązuje norma EN 14604).',
+      pl: 'Inteligentne czujniki dymu i czadu (tlenku węgla); czujniki dymu zgodne z normą EN 14604.',
     },
     primaryKeyword: {
       fr: 'détecteur fumée connecté',
@@ -1086,7 +1086,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Sensores de movimiento inteligentes para escenas y alarmas.',
       it: 'Sensori di movimento smart per automazioni e allarmi.',
       nl: 'Slimme bewegingssensoren voor routines en alarm.',
-      pl: 'Inteligentne czujniki obecności do scenariuszy smart home i alarmu.',
+      pl: 'Inteligentne czujniki obecności do scenariuszy automatyki domowej i alarmu.',
     },
     primaryKeyword: {
       fr: 'détecteur de mouvement connecté',
@@ -1222,7 +1222,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Purificadores Dyson, Philips, Xiaomi, Levoit comparados frente a partículas y alérgenos.',
       it: 'Purificatori Dyson, Philips, Xiaomi, Levoit confrontati su polveri sottili e allergeni.',
       nl: 'Luchtreinigers van Dyson, Philips, Xiaomi, Levoit vergeleken op fijnstof en allergenen.',
-      pl: 'Oczyszczacze Dyson, Philips, Xiaomi, Levoit porównane pod kątem pyłów zawieszonych i alergenów.',
+      pl: 'Porównanie oczyszczaczy Dyson, Philips, Xiaomi i Levoit pod kątem usuwania pyłów zawieszonych i alergenów.',
     },
     primaryKeyword: {
       fr: 'meilleur purificateur d\'air',
@@ -1288,7 +1288,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Deshumidificadores inteligentes contra humedad, moho y condensación.',
       it: 'Deumidificatori intelligenti contro umidità, muffa e condensa.',
       nl: 'Slimme luchtontvochtigers tegen vocht, schimmel en condens.',
-      pl: 'Inteligentne osuszacze powietrza przeciw wilgoci, pleśni i skraplaniu pary.',
+      pl: 'Inteligentne osuszacze powietrza do walki z wilgocią, pleśnią i skraplaniem się pary wodnej.',
     },
     primaryKeyword: {
       fr: 'meilleur déshumidificateur',
@@ -1321,7 +1321,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Aires portátiles inteligentes para enfriar pisos y oficinas sin obras.',
       it: 'Condizionatori portatili intelligenti per appartamenti e uffici senza installazione.',
       nl: 'Slimme mobiele airco\'s om appartementen en kantoren te koelen zonder installatie.',
-      pl: 'Przenośne klimatyzatory z aplikacją do chłodzenia mieszkań i biur bez montażu.',
+      pl: 'Przenośne klimatyzatory z aplikacją do chłodzenia mieszkań i biur bez prac instalacyjnych.',
     },
     primaryKeyword: {
       fr: 'climatiseur mobile',
@@ -1354,7 +1354,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Ventiladores Dyson, Xiaomi y rivales — silenciosos, eficientes, con app.',
       it: 'Ventilatori Dyson, Xiaomi e rivali — silenziosi, efficienti, controllabili da app.',
       nl: 'Dyson, Xiaomi en concurrerende slimme ventilatoren — stil, efficiënt, met app.',
-      pl: 'Wentylatory Dyson, Xiaomi i konkurenci z aplikacją: ciche, skuteczne, łatwe w sterowaniu.',
+      pl: 'Wentylatory z aplikacją marek Dyson, Xiaomi i innych: ciche, wydajne i sterowane zdalnie.',
     },
     primaryKeyword: {
       fr: 'ventilateur connecté',
@@ -1387,7 +1387,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Calefactores inteligentes para calentar una habitación a demanda.',
       it: 'Stufette intelligenti per riscaldare una stanza su richiesta.',
       nl: 'Slimme bijverwarmers om een kamer op afroep te verwarmen.',
-      pl: 'Grzejniki elektryczne i dogrzewacze z aplikacją, które ogrzeją pomieszczenie na żądanie.',
+      pl: 'Grzejniki elektryczne i dogrzewacze z aplikacją, które ogrzeją pomieszczenie wtedy, gdy tego potrzebujesz.',
     },
     primaryKeyword: {
       fr: 'chauffage d\'appoint connecté',
@@ -1420,7 +1420,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Estaciones Netatmo, Bresser, La Crosse para clima interior y exterior.',
       it: 'Stazioni meteo Netatmo, Bresser, La Crosse per clima interno ed esterno.',
       nl: 'Netatmo, Bresser, La Crosse weerstations voor binnen- en buitenklimaat.',
-      pl: 'Stacje pogodowe Netatmo, Bresser, La Crosse do monitorowania klimatu w domu i na zewnątrz.',
+      pl: 'Stacje pogodowe Netatmo, Bresser, La Crosse do śledzenia warunków w domu i na zewnątrz.',
     },
     primaryKeyword: {
       fr: 'station météo connectée',
@@ -1556,7 +1556,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Robots aspiradores Roomba, Roborock, Dreame, Ecovacs — mapeo LiDAR comparado.',
       it: 'Aspirapolvere robot Roomba, Roborock, Dreame, Ecovacs — mappatura LiDAR a confronto.',
       nl: 'Robotstofzuigers Roomba, Roborock, Dreame, Ecovacs — LiDAR-mapping vergeleken.',
-      pl: 'Roboty odkurzające Roomba, Roborock, Dreame, Ecovacs: porównanie map LiDAR.',
+      pl: 'Roboty odkurzające Roomba, Roborock, Dreame, Ecovacs: porównanie mapowania LiDAR.',
     },
     primaryKeyword: {
       fr: 'meilleur aspirateur robot',
@@ -1655,7 +1655,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Aspiradores Dyson, Samsung, Dreame, Xiaomi con app de seguimiento de filtros.',
       it: 'Scope Dyson, Samsung, Dreame, Xiaomi con app monitoraggio filtri.',
       nl: 'Dyson, Samsung, Dreame, Xiaomi steelstofzuigers met filter-app.',
-      pl: 'Odkurzacze pionowe Dyson, Samsung, Dreame, Xiaomi z aplikacją do kontroli filtra.',
+      pl: 'Odkurzacze pionowe Dyson, Samsung, Dreame, Xiaomi z aplikacją, która pokazuje stan filtra.',
     },
     primaryKeyword: {
       fr: 'meilleur aspirateur balai',
@@ -1688,7 +1688,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Limpiadoras a vapor Kärcher, Polti, Black+Decker para suelos, ventanas y baños.',
       it: 'Pulitori a vapore Kärcher, Polti, Black+Decker per pavimenti, vetri e bagni.',
       nl: 'Kärcher, Polti, Black+Decker stoomreinigers voor vloeren, ramen en badkamers.',
-      pl: 'Myjki parowe Kärcher, Polti, Black+Decker do podłóg, okien i sanitariatów.',
+      pl: 'Myjki parowe Kärcher, Polti, Black+Decker do podłóg, szyb i łazienek.',
     },
     primaryKeyword: {
       fr: 'meilleur nettoyeur vapeur',
@@ -1755,7 +1755,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Análisis de lavavajillas conectados Bosch, Siemens, Miele, Samsung.',
       it: 'Recensioni lavastoviglie connesse Bosch, Siemens, Miele, Samsung.',
       nl: 'Reviews van slimme vaatwassers Bosch, Siemens, Miele, Samsung.',
-      pl: 'Recenzje inteligentnych zmywarek Bosch, Siemens, Miele, Samsung.',
+      pl: 'Omówienia inteligentnych zmywarek Bosch, Siemens, Miele i Samsung.',
     },
     primaryKeyword: {
       fr: 'lave-vaisselle connecté',
@@ -1789,7 +1789,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Análisis de lavadoras y secadoras conectadas Samsung, LG, Bosch, Miele.',
       it: 'Recensioni di lavatrici e asciugatrici connesse Samsung, LG, Bosch, Miele.',
       nl: 'Reviews van slimme wasmachines en drogers Samsung, LG, Bosch, Miele.',
-      pl: 'Recenzje inteligentnych pralek i suszarek Samsung, LG, Bosch, Miele.',
+      pl: 'Omówienia inteligentnych pralek i suszarek Samsung, LG, Bosch i Miele.',
     },
     primaryKeyword: {
       fr: 'lave-linge connecté',
@@ -1883,7 +1883,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Iluminación Exterior Solar Inteligente',
       it: 'Illuminazione Esterna Solare Intelligente',
       nl: 'Slimme Zonne-Buitenverlichting',
-      pl: 'Inteligentne oświetlenie solarne na zewnątrz',
+      pl: 'Inteligentne oświetlenie ogrodowe (solarne)',
     },
     description: {
       fr: 'Lampes solaires connectées Philips Hue Outdoor, Ring, Netatmo pour jardin et allées.',
@@ -1892,7 +1892,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Luces solares Philips Hue Outdoor, Ring, Netatmo para jardín y entradas.',
       it: 'Luci solari Philips Hue Outdoor, Ring, Netatmo per giardino e vialetti.',
       nl: 'Zonneverlichting Philips Hue Outdoor, Ring, Netatmo voor tuin en oprit.',
-      pl: 'Lampy solarne Philips Hue Outdoor, Ring, Netatmo do ogrodu i alejek.',
+      pl: 'Inteligentne lampy solarne Philips Hue Outdoor, Ring, Netatmo do ogrodu i na ścieżki.',
     },
     primaryKeyword: {
       fr: 'éclairage extérieur connecté',
@@ -1901,7 +1901,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'iluminación exterior inteligente',
       it: 'illuminazione esterna smart',
       nl: 'slimme buitenverlichting',
-      pl: 'inteligentne oświetlenie zewnętrzne',
+      pl: 'inteligentne oświetlenie ogrodowe',
     },
   },
   {
@@ -1916,7 +1916,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Puertas Automáticas y de Garaje Inteligentes',
       it: 'Cancelli e Garage Intelligenti',
       nl: 'Slimme Poorten en Garagedeuren',
-      pl: 'Inteligentne bramy i garaże',
+      pl: 'Inteligentne napędy bram i drzwi garażowych',
     },
     description: {
       fr: 'Motorisations de portail et ouvre-portes de garage connectés Somfy, Meross, Chamberlain.',
@@ -1925,7 +1925,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Motores y abridores Somfy, Meross, Chamberlain para puertas y garajes.',
       it: 'Motorizzazioni cancelli e garage Somfy, Meross, Chamberlain.',
       nl: 'Somfy, Meross, Chamberlain slimme poort- en garagedeuropeners.',
-      pl: 'Napędy bram i otwieracze garażowe Somfy, Meross, Chamberlain z aplikacją.',
+      pl: 'Napędy do bram wjazdowych i sterowniki bram garażowych z aplikacją: Somfy, Meross, Chamberlain.',
     },
     primaryKeyword: {
       fr: 'ouvre-porte de garage connecté',
@@ -1934,7 +1934,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'abridor garaje inteligente',
       it: 'apricancello intelligente',
       nl: 'slimme garagedeuropener',
-      pl: 'inteligentny otwieracz bramy garażowej',
+      pl: 'inteligentny sterownik bramy garażowej',
     },
   },
   {
@@ -1958,7 +1958,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Robots de piscina Dolphin, Aiper, Zodiac, Bestway — limpieza sin intervención.',
       it: 'Robot piscina Dolphin, Aiper, Zodiac, Bestway — pulizia senza intervento.',
       nl: 'Dolphin, Aiper, Zodiac, Bestway zwembadrobots — handenvrij reinigen.',
-      pl: 'Roboty basenowe Dolphin, Aiper, Zodiac, Bestway: czyszczenie bez Twojej ingerencji.',
+      pl: 'Roboty basenowe Dolphin, Aiper, Zodiac, Bestway, które czyszczą basen bez Twojego udziału.',
     },
     primaryKeyword: {
       fr: 'meilleur robot de piscine',
@@ -1982,7 +1982,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Barbacoas y Planchas Inteligentes',
       it: 'Barbecue e Piastre Intelligenti',
       nl: 'Slimme Barbecues & Bakplaten',
-      pl: 'Inteligentne grille i planchy',
+      pl: 'Inteligentne grille i płyty grillowe',
     },
     description: {
       fr: 'Barbecues à pellets Traeger, Weber connectés et planchas connectées pour maîtriser la cuisson.',
@@ -1991,7 +1991,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Barbacoas de pellets Traeger, Weber y planchas inteligentes para dominar la cocción.',
       it: 'Barbecue a pellet Traeger, Weber e piastre smart per dominare la cottura outdoor.',
       nl: 'Traeger, Weber pellet BBQs en slimme bakplaten voor perfecte buiten cooking control.',
-      pl: 'Grille na pellet Traeger i Weber z aplikacją oraz inteligentne planchy do kontroli gotowania.',
+      pl: 'Grille peletowe Traeger i Weber z aplikacją oraz inteligentne płyty grillowe, dzięki którym panujesz nad grillowaniem.',
     },
     primaryKeyword: {
       fr: 'barbecue connecté',
@@ -2024,7 +2024,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Estaciones EcoFlow, Bluetti, Jackery para camping, exterior y apagones.',
       it: 'Stazioni EcoFlow, Bluetti, Jackery per campeggio, outdoor e blackout.',
       nl: 'EcoFlow, Bluetti, Jackery powerstations voor kamperen, buiten en stroomuitval.',
-      pl: 'Przenośne stacje zasilania EcoFlow, Bluetti, Jackery na biwak, outdoor i przerwy w dostawie prądu.',
+      pl: 'Przenośne stacje zasilania EcoFlow, Bluetti, Jackery na biwak, wyjazdy w plener i na wypadek przerw w dostawie prądu.',
     },
     primaryKeyword: {
       fr: 'station énergie portable',
@@ -2057,7 +2057,7 @@ export const CATEGORIES: readonly Category[] = [
       es: 'Alarmas y sensores exteriores inteligentes para jardín, cobertizo y vehículos.',
       it: 'Allarmi e sensori da esterno smart per proteggere giardino, capanno e veicoli.',
       nl: 'Slimme buitenalarmen en sensoren voor tuin, schuur en voertuigen.',
-      pl: 'Inteligentne alarmy i czujniki zewnętrzne do ochrony ogrodu, wiaty i pojazdów.',
+      pl: 'Inteligentne alarmy i czujniki zewnętrzne do ochrony ogrodu, domku narzędziowego i pojazdów.',
     },
     primaryKeyword: {
       fr: 'alarme extérieure connectée',

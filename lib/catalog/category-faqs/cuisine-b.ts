@@ -137,23 +137,23 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
     pl: [
       {
         question: "Jaką dokładność powinna mieć waga kuchenna: 1 g czy 0,1 g?",
-        answer: "Do gotowania i większości wypieków wystarczy dokładność 1 g; 0,1 g przydaje się tylko przy małych ilościach, takich jak drożdże, sól, przyprawy czy kawa. Przy 7 g suchych drożdży błąd o 1 g to aż około 14 procent. Wagi o dokładności 0,1 g mają zwykle mniejszy zakres, często od kilkuset gramów do kilku kilogramów. Do chleba na zakwasie, ciast i przetworów najwygodniejsza jest waga do 5 kg z funkcją tary.",
+        answer: "Do gotowania i większości wypieków wystarczy dokładność 1 g, a 0,1 g przydaje się dopiero przy małych ilościach, takich jak drożdże, sól, przyprawy czy kawa. Przy 7 g suchych drożdży błąd o 1 g to aż około 14%. Wagi o dokładności 0,1 g mają zwykle mniejszy zakres ważenia – często od kilkuset gramów do kilku kilogramów. Do chleba na zakwasie, ciast i przetworów najwygodniejsza jest waga do 5 kg z funkcją tary.",
       },
       {
         question: "Czy do liczenia kalorii potrzebna jest waga z aplikacją?",
-        answer: "Nie, wystarczy zwykła waga kuchenna i aplikacja, do której wpisuje się gramy, na przykład Fitatu albo inna popularna aplikacja do liczenia kalorii. Waga z Bluetooth przesyła wynik sama, więc nie trzeba niczego wpisywać, ale zwykle działa tylko z aplikacją producenta. Warto sprawdzić, czy aplikacja wymaga konta lub płatnej subskrypcji i skąd bierze wartości odżywcze. Etykiety podają wartości na 100 g produktu, a dzienniczek jedzenia to dane o zdrowiu, więc warto przeczytać politykę prywatności.",
+        answer: "Nie, wystarczy zwykła waga kuchenna i aplikacja do liczenia kalorii, np. Fitatu, w której ręcznie wpisuje się gramy. Waga z Bluetooth sama przesyła wynik, więc nie trzeba niczego wpisywać, ale zwykle współpracuje tylko z programem producenta. Warto sprawdzić, czy wymaga on konta lub płatnej subskrypcji i skąd czerpie wartości odżywcze (etykiety podają je na 100 g produktu). Dzienniczek żywieniowy to dane o zdrowiu, dlatego dobrze jest też przeczytać politykę prywatności.",
       },
       {
         question: "Waga kuchenna z misą czy płaska – która lepsza?",
-        answer: "Płaska waga jest bardziej uniwersalna, bo pozwala ważyć w dowolnej misce, garnku czy na talerzu dzięki funkcji tary. Waga z misą jest wygodna przy mące, cukrze czy owocach na przetwory, ale misa zajmuje miejsce w szafce i ogranicza ilość, którą da się zważyć naraz. Przy płaskiej wadze trzeba uważać, by duże naczynie nie zasłaniało wyświetlacza; pomaga wyświetlacz wysunięty do przodu. Płyta ze szkła lub stali łatwiej się myje niż plastik z rowkami.",
+        answer: "Płaska waga jest bardziej uniwersalna, bo dzięki funkcji tary można na niej ważyć w dowolnej misce, garnku czy na talerzu. Waga z misą jest wygodna przy mące, cukrze czy owocach na przetwory, ale misa zajmuje miejsce w szafce i ogranicza ilość, którą da się zważyć naraz. Przy płaskiej wadze trzeba uważać, by duże naczynie nie zasłaniało wyświetlacza – pomaga wtedy wyświetlacz wysunięty do przodu. Szklaną lub stalową płytę łatwiej utrzymać w czystości niż plastikową z rowkami.",
       },
       {
-        question: "Dlaczego waga kuchenna pokazuje złą wagę?",
-        answer: "Najczęściej winna jest słaba bateria, nierówne podłoże albo włączenie wagi z czymś na płycie. Warto wymienić baterię, zwykle CR2032 lub AAA, postawić wagę na twardym, poziomym blacie i włączać ją pustą. Do kontroli dobrze nadają się monety: 1 zł waży 5 g, więc dziesięć złotówek powinno dać około 50 g, z gramem tolerancji na zużycie. Jeśli błąd się utrzymuje, czujnik mógł zostać uszkodzony przez upadek lub przeciążenie, a w tanich wagach naprawa zwykle się nie opłaca.",
+        question: "Dlaczego waga kuchenna źle waży?",
+        answer: "Najczęściej winna jest słaba bateria, nierówne podłoże albo włączenie wagi, gdy coś już leży na płycie. Pomaga wymiana baterii (zwykle CR2032 lub AAA), ustawienie wagi na twardym, poziomym blacie i włączanie jej wtedy, gdy jest pusta. Do kontroli dobrze nadają się monety: złotówka waży 5 g, więc dziesięć złotówek powinno dać około 50 g, z gramem tolerancji na zużycie monet. Jeśli błąd się utrzymuje, czujnik mógł się uszkodzić przy upadku lub przeciążeniu, a w tanich wagach naprawa zwykle się nie opłaca.",
       },
       {
         question: "Jaka bateria jest w wadze kuchennej i czy lepsza jest waga ładowana przez USB?",
-        answer: "Zwykle jest to bateria guzikowa CR2032 albo dwie baterie AAA, a typ jest podany na klapce lub w instrukcji. Waga ładowana przez USB-C opłaca się przy codziennym używaniu, podświetlanym ekranie albo Bluetooth, które szybciej rozładowują baterie. Wadą jest akumulator wbudowany na stałe, którego nie zawsze da się wymienić. Gdy na ekranie pojawia się “Lo” albo cyfry skaczą, najpierw warto wymienić baterię, a przed dłuższym przechowywaniem ją wyjąć, by nie wyciekła.",
+        answer: "Zwykle jest to bateria guzikowa CR2032 albo dwie baterie AAA, a typ jest podany na klapce lub w instrukcji. Waga ładowana przez USB-C opłaca się przy codziennym ważeniu albo gdy ma podświetlany ekran lub Bluetooth, bo to one najszybciej wyczerpują baterie. Jej wadą jest akumulator wbudowany na stałe, którego nie zawsze da się wymienić. Gdy na ekranie pojawia się „Lo” albo cyfry skaczą, najpierw trzeba wymienić baterię, a przed dłuższym przechowywaniem wagi – wyjąć ją, żeby nie wyciekła.",
       },
     ],
   },
@@ -293,23 +293,23 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
     pl: [
       {
         question: "Jaka temperatura wewnątrz mięsa – wołowina, schab, karkówka?",
-        answer: "Orientacyjnie wołowina krwista to około 50–55 °C, średnio wysmażona 55–60 °C, a schab i polędwiczka wieprzowa są soczyste i bezpieczne od 63 °C. Karkówkę na grillu zwykle trzyma się dłużej, do 70 °C i więcej, bo ma dużo tłuszczu i tkanki łącznej, a łopatka czy karkówka na szarpaną wieprzowinę dochodzą do około 90–95 °C. Duże pieczenie warto zdjąć kilka stopni wcześniej, bo podczas odpoczynku temperatura jeszcze rośnie. Mierzy się w środku najgrubszego miejsca, z dala od kości.",
+        answer: "Orientacyjnie wołowina krwista to około 50–55 °C, średnio wysmażona 55–60 °C, a schab i polędwiczka wieprzowa są soczyste i bezpieczne od 63 °C. Karkówkę z grilla zwykle piecze się dłużej, do 70 °C i więcej, bo jest tłusta i ma dużo tkanki łącznej, a łopatkę czy karkówkę na szarpaną wieprzowinę doprowadza się do około 90–95 °C. Duże kawałki mięsa warto wyjąć z piekarnika lub zdjąć z grilla kilka stopni wcześniej, bo podczas odpoczywania temperatura w środku jeszcze rośnie. Temperaturę mierzy się w najgrubszym miejscu, z dala od kości.",
       },
       {
         question: "W jakiej temperaturze kurczak, indyk i gęś są bezpieczne do jedzenia?",
-        answer: "Drób powinien osiągnąć co najmniej 70–75 °C w najgrubszym miejscu, zgodnie z typowymi zaleceniami bezpieczeństwa żywności. Dotyczy to kurczaka, indyka, kaczki i gęsi, także listopadowej gęsiny na świętego Marcina. Sondę wbija się w udo blisko kości, ale bez jej dotykania, i dodatkowo sprawdza pierś. Mięso nie powinno być różowe, a wypływający sok powinien być przejrzysty. Na grillu duże kawałki kurczaka łatwo przypalić z zewnątrz, gdy w środku są jeszcze surowe, dlatego warto je dopiec pod pokrywą. Mięso mielone także musi być dobrze wysmażone.",
+        answer: "Co najmniej 70–75 °C w najgrubszym miejscu – tak mówią typowe zalecenia bezpieczeństwa żywności. Dotyczy to kurczaka, indyka, kaczki i gęsi, także gęsiny pieczonej w listopadzie na Świętego Marcina. Sondę wbija się w udo, tuż przy kości, ale tak, by jej nie dotykała, a dodatkowo sprawdza się pierś. Mięso nie powinno być różowe, a wypływający sok powinien być przejrzysty. Na grillu duże kawałki kurczaka łatwo przypalić z zewnątrz, gdy w środku są jeszcze surowe, dlatego warto dopiec je pod pokrywą. Dobrze wysmażone musi być także mięso mielone.",
       },
       {
-        question: "Termometr do wędzarni i parzenia szynki: bezprzewodowy czy z kablem?",
-        answer: "Do wędzenia i parzenia lepszy jest termometr z kablem i stacją na zewnątrz, bo sygnał sondy bezprzewodowej bardzo słabo przechodzi przez wodę i ścianki wędzarni. Przy parzeniu szynki w wodzie o temperaturze około 75–80 °C mięso trzyma się zwykle do osiągnięcia mniej więcej 68–70 °C w środku, a nie każda sonda bezprzewodowa nadaje się do zanurzenia. Z kablem łatwo też mierzyć jednocześnie temperaturę w komorze wędzarni. Warto wybrać model z dwiema sondami, odpornym na wilgoć kablem i alarmem.",
+        question: "Termometr do wędzarni i parzenia szynki: bezprzewodowy czy przewodowy?",
+        answer: "Do wędzenia i parzenia lepszy jest termometr przewodowy z wyświetlaczem na zewnątrz, bo sygnał sondy bezprzewodowej bardzo słabo przechodzi przez wodę i ścianki wędzarni. Szynkę parzy się zwykle w wodzie o temperaturze około 75–80 °C, aż w środku osiągnie mniej więcej 68–70 °C, a nie każdą sondę bezprzewodową można zanurzać. Termometrem z kablem łatwo też jednocześnie mierzyć temperaturę w komorze wędzarni. Warto wybrać model z dwiema sondami, odpornym na wilgoć kablem i alarmem.",
       },
       {
         question: "Jaki zasięg ma bezprzewodowy termometr do mięsa?",
-        answer: "W zamkniętym piekarniku lub grillu sam Bluetooth zwykle sięga tylko kilku metrów, nawet jeśli producent podaje dużo więcej w otwartej przestrzeni. Metalowe ścianki i pokrywa tłumią sygnał. Pomaga stacja ładująca lub przekaźnik postawiony obok grilla, który przesyła odczyt dalej albo przez Wi-Fi, dzięki czemu temperaturę widać w domu lub poza nim. Warto sprawdzić, czy aplikacja wymaga zakładania konta, czy alarmy działają przy zablokowanym telefonie i czy aplikacja jest po polsku.",
+        answer: "W zamkniętym piekarniku lub grillu sygnał Bluetooth sięga zwykle tylko kilku metrów, nawet jeśli producent podaje znacznie większy zasięg w otwartej przestrzeni. Metalowe ścianki i pokrywa skutecznie go tłumią. Pomaga stacja ładująca lub przekaźnik ustawiony obok grilla, który przesyła odczyt dalej, także przez Wi-Fi, dzięki czemu temperaturę widać w domu, a nawet poza nim. Przed zakupem warto sprawdzić, czy aplikacja wymaga założenia konta, czy alarmy działają przy zablokowanym telefonie i czy jest dostępna po polsku.",
       },
       {
         question: "Czy termometr do mięsa można myć w zmywarce i jak sprawdzić, czy dobrze mierzy?",
-        answer: "Tylko jeśli instrukcja wyraźnie na to pozwala; wiele sond myje się ręcznie ciepłą wodą z płynem, bez zanurzania części z elektroniką lub kabla. Dokładność łatwo sprawdzić w szklance wypełnionej pokruszonym lodem i zimną wodą: termometr powinien pokazać około 0 °C, z tolerancją mniej więcej jednego stopnia. Większe odchylenie lub skaczące odczyty oznaczają zwykle uszkodzoną sondę albo przegrzany lub załamany kabel. Akumulator sondy bezprzewodowej najlepiej naładować przed każdym długim pieczeniem lub wędzeniem.",
+        answer: "W zmywarce tylko wtedy, gdy instrukcja wyraźnie na to pozwala; wiele sond myje się ręcznie ciepłą wodą z płynem, bez zanurzania części z elektroniką ani kabla. Dokładność łatwo sprawdzić w szklance wypełnionej pokruszonym lodem i zimną wodą: termometr powinien pokazać około 0 °C, z tolerancją mniej więcej jednego stopnia. Większe odchylenie lub skaczące odczyty oznaczają zwykle uszkodzoną sondę albo przegrzany lub załamany kabel. Akumulator sondy bezprzewodowej najlepiej naładować przed każdym długim pieczeniem lub wędzeniem.",
       },
     ],
   },
@@ -449,23 +449,23 @@ export const CUISINE_B_FAQS: CategoryFaqSets = {
     pl: [
       {
         question: "Jakie inteligentne gniazdko wybrać?",
-        answer: "Najlepiej takie, które wytrzymuje 16 A, pasuje do polskiego kontaktu z bolcem i działa z systemem, którego już się używa: Matter, Zigbee albo aplikacją Wi-Fi. 16 A to około 3680 W przy 230 V, a tańsze modele mają często tylko 10 A. Warto sprawdzić, czy gniazdko mierzy zużycie energii, bo nie każde to potrafi. Popularne tanie gniazdka działają w aplikacji Tuya lub Smart Life i wymagają konta w chmurze, a modelami z obsługą Matter można sterować lokalnie przez Google Home, Alexę czy aplikację Apple Dom. Liczą się też regularne aktualizacje oprogramowania.",
+        answer: "Najlepiej takie, które ma obciążalność 16 A, pasuje do polskiego kontaktu z bolcem i współpracuje z systemem używanym już w domu: Matter, Zigbee albo aplikacją Wi-Fi. Obciążalność 16 A oznacza około 3680 W przy 230 V, a tańsze modele mają często tylko 10 A. Warto też sprawdzić, czy gniazdko mierzy zużycie energii, bo nie każde to potrafi. Popularne tanie gniazdka działają w aplikacji Tuya lub Smart Life i wymagają konta w chmurze, a modelami z obsługą Matter można sterować lokalnie przez Google Home, Alexę czy Apple Home. Liczą się też regularne aktualizacje oprogramowania.",
       },
       {
         question: "Czy gniazdko smart z wtyczką Schuko pasuje do polskiego kontaktu?",
-        answer: "Nie zawsze: polskie gniazdka mają bolec uziemiający (typ E), a czysta wtyczka Schuko (typ F) nie ma na niego otworu, więc nie wejdzie. Trzeba szukać wersji oznaczonej jako typ E lub E/F, z otworem na bolec we wtyczce i bolcem w gnieździe. To częsty problem przy zakupie wersji przeznaczonej na rynek niemiecki. Adapter to złe rozwiązanie przy dużych obciążeniach, bo luźny styk się grzeje. Do starych gniazdek bez uziemienia nie podłącza się urządzeń, które go wymagają, także przez gniazdko smart.",
+        answer: "Nie zawsze: polskie gniazdka mają bolec uziemiający (typ E), a wtyczka wyłącznie w standardzie Schuko (typ F) nie ma na niego otworu, więc się nie zmieści. Trzeba szukać wersji oznaczonej jako typ E lub E/F, z otworem na bolec we wtyczce i bolcem w gnieździe. To częsty problem przy zakupie modeli przeznaczonych na rynek niemiecki. Przejściówka przy dużym obciążeniu to złe rozwiązanie, bo luźny styk się nagrzewa. Do starych gniazdek bez uziemienia nie podłącza się urządzeń, które go wymagają – także przez gniazdko smart.",
       },
       {
         question: "Czy do inteligentnego gniazdka można podłączyć farelkę albo grzejnik olejowy?",
-        answer: "Lepiej nie: instrukcje wielu termowentylatorów i grzejników olejowych zabraniają włączania ich przez programator, timer lub zdalne sterowanie, bo przykryte lub przewrócone urządzenie może wywołać pożar. Do tego farelka o mocy 2000 W pracująca godzinami mocno obciąża gniazdko i przekaźnik. Bezpieczniej korzystać z wbudowanego termostatu i timera grzejnika, włączając go na miejscu. Do stałego ogrzewania elektrycznego lepiej nadają się termostaty i sterowniki montowane przez elektryka. Grzejnika nie podłącza się też przez listwę ani przedłużacz.",
+        answer: "Lepiej nie: instrukcje wielu termowentylatorów i grzejników olejowych zabraniają włączania ich przez programator, timer lub zdalne sterowanie, bo urządzenie włączone na odległość, gdy jest przykryte lub przewrócone, może wywołać pożar. Poza tym farelka o mocy 2000 W pracująca godzinami mocno obciąża gniazdko i jego przekaźnik. Bezpieczniej korzystać z wbudowanego termostatu i timera grzejnika, włączając go na miejscu. Do stałego ogrzewania elektrycznego lepiej nadają się termostaty i sterowniki montowane przez elektryka. Grzejnika nie podłącza się też przez listwę ani przedłużacz.",
       },
       {
         question: "Ile prądu zużywa samo inteligentne gniazdko i czy to się opłaca?",
-        answer: "Samo gniazdko pobiera zwykle około 1 W lub mniej, czyli niecałe 9 kWh rocznie; przy przykładowej cenie 1 zł za kWh to około 9 zł na rok. Opłaca się, gdy wyłącza urządzenia, które bez sensu pobierają prąd: telewizor, dekoder, konsola i soundbar pobierające razem 15 W w czuwaniu, odcięte na 16 godzin dziennie, to 15 × 16 × 365 = 88 kWh rocznie. Wynik mnoży się przez własną cenę za kWh z rachunku. Lodówki, zamrażarki i routera nie warto w ten sposób wyłączać.",
+        answer: "Samo gniazdko pobiera zwykle około 1 W lub mniej, czyli niecałe 9 kWh rocznie; przy przykładowej cenie 1 zł za kWh to około 9 zł na rok. Opłaca się, gdy odcina zasilanie urządzeniom, które niepotrzebnie pobierają prąd w trybie czuwania. Jeśli telewizor, dekoder, konsola i soundbar pobierają razem 15 W, odłączenie ich na 16 godzin dziennie oszczędza 15 W × 16 h × 365 dni ≈ 88 kWh rocznie. Wynik wystarczy pomnożyć przez cenę 1 kWh z własnego rachunku. Lodówki, zamrażarki i routera nie warto w ten sposób wyłączać.",
       },
       {
         question: "Co robi gniazdko smart po zaniku prądu?",
-        answer: "To zależy od ustawień: w wielu aplikacjach można wybrać, czy po powrocie zasilania gniazdko ma być włączone, wyłączone, czy wrócić do ostatniego stanu. Warto to ustawić zwłaszcza dla lodówki na działce czy pompki w akwarium, które powinny ruszyć same. Urządzenia z elektronicznymi przyciskami, jak ekspres do kawy czy pralka, zwykle nie włączą się same mimo powrotu prądu. Jeśli po awarii gniazdko nie łączy się z siecią, pomaga ponowne uruchomienie routera; większość gniazdek działa tylko w paśmie 2,4 GHz.",
+        answer: "To zależy od ustawień: w wielu aplikacjach można wybrać, czy po powrocie zasilania gniazdko ma się włączyć, pozostać wyłączone, czy wrócić do ostatniego stanu. Ma to znaczenie zwłaszcza przy lodówce na działce czy pompce w akwarium, które powinny ruszyć same. Urządzenia z elektronicznymi przyciskami, takie jak ekspres do kawy czy pralka, po powrocie prądu zwykle same się nie włączą. Jeśli po awarii gniazdko nie łączy się z Wi-Fi, pomaga najczęściej ponowne uruchomienie routera; większość gniazdek obsługuje tylko pasmo 2,4 GHz.",
       },
     ],
   },

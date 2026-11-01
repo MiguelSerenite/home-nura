@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: 'Descubre 8 recetas de postres en freidora de aire: brownies, muffins, chips de manzana, churros, cookies, banana bread, rollitos de canela y lava cake.',
     it: 'Scopri 8 ricette di dolci nella friggitrice ad aria: brownies, muffin, chips di mela, churros, cookies, banana bread, rotoli alla cannella e lava cake.',
     nl: 'Ontdek 8 airfryer-dessertrecepten: brownies, muffins, appelchips, churros, koekjes, bananenbrood, kaneelbroodjes en lava cake.',
-    pl: 'Poznaj 8 przepisów na desery z frytkownicy beztłuszczowej: brownie, muffinki, chipsy jabłkowe, churrosy, ciasteczka, chlebek bananowy, cinnamon rolls i lava cake. Czasy, temperatury i składniki na idealne desery.',
+    pl: 'Poznaj 8 przepisów na desery z frytkownicy beztłuszczowej: brownie, muffinki, chipsy jabłkowe, churrosy, ciasteczka, chlebek bananowy, cinnamon rolls i lava cake. Czasy pieczenia, temperatury i składniki, dzięki którym desery wyjdą idealne.',
   },
   content: {
     fr: `<h2>Introduction</h2>
@@ -1118,10 +1118,10 @@ export const article: BlogArticle = {
 <li><strong>Test met een prikker</strong> — de buitenkant kan gaar lijken terwijl de binnenkant nog vloeibaar is.</li>
 </ul>`,
     pl: `<h2>Wstęp</h2>
-<p>Frytkownica beztłuszczowa nie służy tylko do frytek i kurczaka — to także świetne narzędzie cukiernicze. Dzięki krążącemu gorącemu powietrzu i niewielkiej komorze piecze desery szybciej niż tradycyjny piekarnik, z <strong>niemal natychmiastowym nagrzewaniem</strong> i bardziej równomiernym wypiekiem. Od miękkich brownie po chrupiące churrosy — te 8 smakowitych przepisów pokaże, że frytkownica to najlepszy sprzymierzeniec Twojej ochoty na słodkie.</p>
-<p>Największą zaletą wypieków we frytkownicy jest oszczędność czasu: nie trzeba przez 15 minut nagrzewać piekarnika dla małego deseru. Ponadto niewielki kosz skupia ciepło i przy małych ilościach daje często lepszy efekt niż piekarnik. Pomyśl o <a href="/pl/blog/top-10-accessoires-airfryer">foremkach dostosowanych do frytkownicy</a>, które ułatwią przygotowanie.</p>
+<p>Frytkownica beztłuszczowa nie służy wyłącznie do frytek i kurczaka – świetnie sprawdza się też przy wypiekach. Dzięki krążącemu gorącemu powietrzu i niewielkiej komorze piecze desery szybciej niż tradycyjny piekarnik, <strong>nagrzewa się niemal natychmiast</strong>, a ciasto rumieni się równomierniej. Od wilgotnych brownie po chrupiące churrosy – tych 8 smakowitych przepisów udowodni, że frytkownica świetnie poradzi sobie z Twoją ochotą na coś słodkiego.</p>
+<p>Największą zaletą pieczenia we frytkownicy jest oszczędność czasu: nie trzeba nagrzewać piekarnika przez 15 minut, żeby upiec mały deser. Do tego niewielki kosz skupia ciepło, więc przy małych porcjach efekt bywa lepszy niż w piekarniku. Warto zaopatrzyć się w <a href="/pl/blog/top-10-accessoires-airfryer">foremki dopasowane do frytkownicy</a> – ułatwią pracę.</p>
 
-<h2>1. Miękkie brownie czekoladowe</h2>
+<h2>1. Wilgotne brownie czekoladowe</h2>
 <h3>Składniki</h3>
 <ul>
 <li>100 g gorzkiej czekolady 70% kakao</li>
@@ -1131,20 +1131,20 @@ export const article: BlogArticle = {
 <li>50 g mąki</li>
 <li>1 szczypta soli</li>
 <li>1 łyżeczka ekstraktu waniliowego</li>
-<li>50 g pokruszonych orzechów włoskich (opcjonalnie)</li>
+<li>50 g posiekanych orzechów włoskich (opcjonalnie)</li>
 </ul>
 <h3>Przygotowanie</h3>
 <ol>
-<li>Rozpuść czekoladę z masłem w kąpieli wodnej lub w mikrofalówce, co <strong>30 sekund</strong> mieszając.</li>
-<li>Dodaj cukier i wymieszaj. Wbijaj jajka po jednym, a następnie dodaj wanilię.</li>
-<li>Przesiej mąkę z solą i delikatnie wmieszaj. Dodaj orzechy, jeśli chcesz.</li>
-<li>Przelej do okrągłej lub kwadratowej foremki odpowiedniej do Twojej frytkownicy (ok. <strong>18 cm</strong>), natłuszczonej i oprószonej mąką.</li>
-<li>Nagrzej frytkownicę do <strong>160 °C przez 3 minuty</strong>.</li>
-<li>Piecz w <strong>160 °C przez 18–22 minuty</strong>. Wykałaczka wbita w środek powinna wyjść z kilkoma wilgotnymi okruchami (nie płynna).</li>
-<li>Zostaw do ostygnięcia na <strong>10 minut</strong> w foremce, a potem wyjmij.</li>
+<li>Rozpuść czekoladę z masłem w kąpieli wodnej albo w mikrofalówce, podgrzewając je po <strong>30 sekund</strong> i mieszając po każdym podgrzaniu.</li>
+<li>Dodaj cukier i wymieszaj. Wbijaj jajka po jednym, a na koniec dodaj wanilię.</li>
+<li>Przesiej mąkę z solą i delikatnie wmieszaj. Jeśli chcesz, dodaj orzechy.</li>
+<li>Przelej ciasto do natłuszczonej i oprószonej mąką okrągłej lub kwadratowej formy dopasowanej do Twojej frytkownicy (ok. <strong>18 cm</strong>).</li>
+<li>Rozgrzej frytkownicę: <strong>160 °C przez 3 minuty</strong>.</li>
+<li>Piecz w <strong>160 °C przez 18–22 minuty</strong>. Wykałaczka wbita w środek powinna wyjść z kilkoma wilgotnymi okruszkami, ale bez płynnego ciasta.</li>
+<li>Przed wyjęciem z formy zostaw brownie na <strong>10 minut</strong> do przestygnięcia.</li>
 </ol>
 <h3>Wskazówki szefa kuchni</h3>
-<p>Kluczem do miękkiego brownie jest <strong>niedopieczenie</strong>. Lepiej wyjąć odrobinę za wcześnie — brownie dopiecze się w foremce dzięki resztkowemu ciepłu. Czekolada 70% daje idealną intensywność; mleczna sprawi, że deser będzie zbyt słodki. Przykryj foremkę folią aluminiową, jeśli wierzch brązowieje zbyt szybko.</p>
+<p>Kluczem do wilgotnego brownie jest to, by go <strong>nie przepiec</strong>. Lepiej wyjąć je odrobinę za wcześnie – dopiecze się w formie dzięki ciepłu resztkowemu. Czekolada 70% zapewnia idealnie intensywny smak; z mleczną deser będzie za słodki. Jeśli wierzch zbyt szybko się rumieni, przykryj formę folią aluminiową.</p>
 
 <h2>2. Muffinki z borówkami</h2>
 <h3>Składniki</h3>
@@ -1155,22 +1155,22 @@ export const article: BlogArticle = {
 <li>1 szczypta soli</li>
 <li>1 jajko</li>
 <li>120 ml mleka</li>
-<li>60 ml neutralnego oleju roślinnego</li>
+<li>60 ml oleju roślinnego o neutralnym smaku</li>
 <li>1 łyżeczka ekstraktu waniliowego</li>
 <li>120 g świeżych lub mrożonych borówek</li>
 </ul>
 <h3>Przygotowanie</h3>
 <ol>
-<li>Wymieszaj składniki suche: mąkę, cukier, proszek do pieczenia, sól.</li>
+<li>Wymieszaj suche składniki: mąkę, cukier, proszek do pieczenia i sól.</li>
 <li>W osobnej misce roztrzep jajko z mlekiem, olejem i wanilią.</li>
-<li>Wlej składniki mokre do suchych i mieszaj <strong>tylko tyle, ile trzeba</strong>, by się połączyły — grudki są normalne i pożądane.</li>
-<li>Delikatnie wmieszaj borówki. Jeśli są mrożone, dodaj je bez rozmrażania.</li>
-<li>Rozdziel do silikonowych foremek na muffinki (napełnij do <strong>¾</strong> wysokości).</li>
-<li>Piecz w <strong>170 °C przez 12–15 minut</strong> (od 4 do 6 muffinek naraz, w zależności od rozmiaru frytkownicy).</li>
-<li>Wykałaczka powinna wyjść czysta.</li>
+<li>Wlej mokre składniki do suchych i mieszaj <strong>tylko do połączenia</strong> – grudki są normalne, a nawet pożądane.</li>
+<li>Delikatnie wmieszaj borówki. Mrożone dodaj bez rozmrażania.</li>
+<li>Rozłóż ciasto do silikonowych foremek na muffinki (do <strong>¾</strong> wysokości).</li>
+<li>Piecz w <strong>170 °C przez 12–15 minut</strong> (4–6 muffinek naraz, zależnie od wielkości frytkownicy).</li>
+<li>Wbita w muffinkę wykałaczka powinna wyjść sucha.</li>
 </ol>
 <h3>Wskazówki szefa kuchni</h3>
-<p>Sekret puszystych muffinek to <strong>nie mieszać ciasta zbyt długo</strong>. Nadmierne mieszanie rozwija gluten i daje twarde, gumowate muffinki. Obtocz borówki w mące przed dodaniem, żeby nie opadły na dno.</p>
+<p>Sekretem puszystych muffinek jest to, by <strong>nie mieszać ciasta zbyt długo</strong>. Przy zbyt długim mieszaniu rozwija się gluten, przez co muffinki wychodzą twarde i gumowate. Przed dodaniem obtocz borówki w mące – wtedy nie opadną na dno.</p>
 
 <h2>3. Chipsy jabłkowe z cynamonem</h2>
 <h3>Składniki</h3>
@@ -1181,16 +1181,16 @@ export const article: BlogArticle = {
 </ul>
 <h3>Przygotowanie</h3>
 <ol>
-<li>Umyj jabłka i usuń gniazda nasienne wykrawaczem.</li>
-<li>Pokrój w bardzo cienkie plasterki o grubości <strong>2 mm</strong> (użyj mandoliny, aby plasterki były równe).</li>
+<li>Umyj jabłka i usuń gniazda nasienne wydrążaczem.</li>
+<li>Pokrój jabłka w bardzo cienkie plasterki o grubości <strong>2 mm</strong> (równe plasterki najłatwiej uzyskasz na mandolinie).</li>
 <li>Osusz plasterki ręcznikiem papierowym.</li>
-<li>Posyp cynamonem i cukrem, jeśli chcesz.</li>
-<li>Ułóż w <strong>jednej warstwie</strong> w koszu — plasterki mogą się lekko stykać, ale nie powinny na siebie nachodzić.</li>
-<li>Piecz w <strong>150 °C przez 10–12 minut</strong>, odwracając w połowie czasu.</li>
-<li>Po wyjęciu chipsy będą jeszcze miękkie — stwardnieją podczas stygnięcia.</li>
+<li>Posyp cynamonem i ewentualnie cukrem.</li>
+<li>Rozłóż plasterki w koszu w <strong>jednej warstwie</strong> – mogą się lekko stykać, ale nie powinny na siebie nachodzić.</li>
+<li>Piecz w <strong>150 °C przez 10–12 minut</strong>, w połowie czasu przewracając plasterki na drugą stronę.</li>
+<li>Tuż po wyjęciu chipsy są jeszcze miękkie – chrupkości nabiorą podczas stygnięcia.</li>
 </ol>
 <h3>Wskazówki szefa kuchni</h3>
-<p>Cienkie krojenie jest kluczowe: zbyt grube plasterki pozostaną miękkie, zbyt cienkie się przypalą. <strong>2 mm</strong> to idealna grubość. Chipsy jabłkowe przechowują się 3–5 dni w szczelnym pojemniku w temperaturze pokojowej. To doskonała zdrowa przekąska dla dzieci.</p>
+<p>Najważniejsza jest grubość plasterków: zbyt grube pozostaną miękkie, zbyt cienkie się przypalą. <strong>2 mm</strong> to idealna grubość. W szczelnym pojemniku, w temperaturze pokojowej, chipsy jabłkowe zachowają świeżość przez 3–5 dni. To idealna zdrowa przekąska dla dzieci.</p>
 
 <h2>4. Chrupiące churrosy</h2>
 <h3>Składniki</h3>
@@ -1211,25 +1211,25 @@ export const article: BlogArticle = {
 </ul>
 <h3>Przygotowanie</h3>
 <ol>
-<li>W rondlu doprowadź do wrzenia wodę, masło, cukier i sól.</li>
-<li>Zdejmij z ognia i wsyp całą mąkę naraz. Energicznie mieszaj drewnianą łyżką, aż powstanie gładka kula odchodząca od ścianek.</li>
-<li>Odstaw do ostygnięcia na <strong>5 minut</strong>, następnie dodaj jajko i wanilię, energicznie mieszając, aż ciasto będzie gładkie i błyszczące.</li>
-<li>Przełóż ciasto do rękawa cukierniczego z tylką gwiazdkową (ząbkowaną).</li>
-<li>Potnij papier do pieczenia na paski. Wyciskaj na nim bezpośrednio patyczki o długości <strong>10 cm</strong>.</li>
-<li>Delikatnie spryskaj olejem.</li>
-<li>Włóż churrosy (razem z papierem) do kosza nagrzanego do <strong>190 °C</strong>. Papier odklei się sam po 2–3 minutach.</li>
-<li>Piecz w <strong>190 °C przez 8–10 minut</strong>, aż będą złote.</li>
-<li>Wymieszaj cukier z cynamonem na talerzu. Obtocz w tej mieszance ciepłe churrosy.</li>
+<li>W rondlu doprowadź do wrzenia wodę z masłem, cukrem i solą.</li>
+<li>Zdejmij rondel z ognia i wsyp całą mąkę naraz. Energicznie mieszaj drewnianą łyżką, aż powstanie gładka kula odchodząca od ścianek.</li>
+<li>Odstaw na <strong>5 minut</strong> do przestygnięcia, a potem dodaj jajko oraz wanilię i energicznie mieszaj, aż ciasto będzie gładkie i lśniące.</li>
+<li>Przełóż ciasto do rękawa cukierniczego z tylką w kształcie gwiazdki.</li>
+<li>Wytnij paski papieru do pieczenia i wyciskaj bezpośrednio na nie paski ciasta o długości <strong>10 cm</strong>.</li>
+<li>Delikatnie spryskaj je olejem.</li>
+<li>Włóż churrosy (razem z papierem) do kosza rozgrzanego do <strong>190 °C</strong>. Po 2–3 minutach papier sam się odklei.</li>
+<li>Piecz w <strong>190 °C przez 8–10 minut</strong>, aż się zezłocą.</li>
+<li>Na talerzu wymieszaj cukier z cynamonem i obtocz w tej mieszance jeszcze ciepłe churrosy.</li>
 </ol>
 <h3>Wskazówki szefa kuchni</h3>
-<p>Churrosy z frytkownicy są znacznie mniej tłuste niż smażone, a zachowują tę samą chrupkość na zewnątrz. Podawaj z sosem z roztopionej czekolady (100 g czekolady + 60 ml gorącej śmietanki). Aby ciasto parzone się udało, upewnij się, że woda mocno wrze, zanim dodasz mąkę.</p>
+<p>Churrosy z frytkownicy są znacznie mniej tłuste niż smażone w głębokim tłuszczu, a z zewnątrz są równie chrupiące. Podawaj je z sosem z roztopionej czekolady (100 g czekolady + 60 ml gorącej śmietanki). Żeby ciasto parzone się udało, przed dodaniem mąki upewnij się, że woda naprawdę wrze.</p>
 
 <h2>5. Ciasteczka z kawałkami czekolady</h2>
 <h3>Składniki</h3>
 <ul>
-<li>100 g zmiękczonego masła</li>
-<li>80 g cukru brązowego</li>
-<li>30 g cukru białego</li>
+<li>100 g miękkiego masła</li>
+<li>80 g brązowego cukru</li>
+<li>30 g białego cukru</li>
 <li>1 jajko</li>
 <li>1 łyżeczka ekstraktu waniliowego</li>
 <li>150 g mąki</li>
@@ -1239,18 +1239,18 @@ export const article: BlogArticle = {
 </ul>
 <h3>Przygotowanie</h3>
 <ol>
-<li>Ubij zmiękczone masło z oboma rodzajami cukru na kremową, napowietrzoną masę (<strong>3–4 minuty</strong> mikserem).</li>
-<li>Dodaj jajko i wanilię, dobrze wymieszaj.</li>
+<li>Utrzyj miękkie masło z oboma rodzajami cukru na puszystą, kremową masę (<strong>3–4 minuty</strong> mikserem).</li>
+<li>Dodaj jajko oraz wanilię i dobrze wymieszaj.</li>
 <li>Dodaj mąkę, sodę i sól. Mieszaj, aż ciasto będzie jednolite.</li>
-<li>Dodaj kawałki czekolady i wymieszaj szpatułką.</li>
-<li>Uformuj kulki po <strong>30 g</strong> (ok. 2 pełne łyżki). Lekko spłaszcz.</li>
-<li>Wytnij krążek z papieru do pieczenia dopasowany do kosza.</li>
-<li>Ułóż 4–5 ciasteczek w odstępach <strong>3 cm</strong> (rozlewają się).</li>
-<li>Piecz w <strong>170 °C przez 8–10 minut</strong>. Ciasteczka powinny być złote na brzegach, ale wciąż miękkie w środku.</li>
-<li>Zostaw do ostygnięcia na <strong>5 minut</strong> na papierze, zanim je ruszysz.</li>
+<li>Dodaj kawałki czekolady i wmieszaj je szpatułką.</li>
+<li>Uformuj kulki po <strong>30 g</strong> (ok. 2 czubate łyżki) i lekko je spłaszcz.</li>
+<li>Wytnij z papieru do pieczenia krążek dopasowany do kosza.</li>
+<li>Ułóż na nim 4–5 ciasteczek w odstępach <strong>3 cm</strong> (podczas pieczenia się rozlewają).</li>
+<li>Piecz w <strong>170 °C przez 8–10 minut</strong>. Ciasteczka powinny być złociste na brzegach, ale wciąż miękkie w środku.</li>
+<li>Zanim zdejmiesz ciasteczka z papieru, zostaw je na <strong>5 minut</strong> do przestygnięcia.</li>
 </ol>
 <h3>Wskazówki szefa kuchni</h3>
-<p>Ciasteczka dopiekają się podczas stygnięcia — wyjmij je, gdy w środku wydają się lekko niedopieczone. Cukier brązowy zapewnia miękkość i karmelowy smak. Aby były jeszcze lepsze, schłódź ciasto w lodówce przez <strong>30 minut</strong> przed uformowaniem kulek.</p>
+<p>Ciasteczka dopiekają się podczas stygnięcia – wyjmij je, gdy w środku wydają się lekko niedopieczone. Brązowy cukier sprawia, że są miękkie i mają karmelowy posmak. Jeśli chcesz, żeby były jeszcze lepsze, przed formowaniem kulek schłódź ciasto w lodówce przez <strong>30 minut</strong>.</p>
 
 <h2>6. Chlebek bananowy (banana bread)</h2>
 <h3>Składniki</h3>
@@ -1263,21 +1263,21 @@ export const article: BlogArticle = {
 <li>1 łyżeczka sody oczyszczonej</li>
 <li>1 szczypta soli</li>
 <li>1 łyżeczka cynamonu</li>
-<li>50 g pokruszonych orzechów włoskich (opcjonalnie)</li>
+<li>50 g posiekanych orzechów włoskich (opcjonalnie)</li>
 </ul>
 <h3>Przygotowanie</h3>
 <ol>
-<li>Rozgnieć banany widelcem w dużej misce.</li>
+<li>W dużej misce rozgnieć banany widelcem.</li>
 <li>Dodaj cukier, jajko i olej. Dobrze wymieszaj.</li>
-<li>Dodaj mąkę, sodę, sól i cynamon. Mieszaj krótko, bez nadmiernego wyrabiania ciasta.</li>
-<li>Dodaj orzechy, jeśli chcesz.</li>
-<li>Przelej do keksówki dostosowanej do frytkownicy (ok. <strong>20 x 10 cm</strong>), natłuszczonej i oprószonej mąką.</li>
-<li>Piecz w <strong>160 °C przez 35–40 minut</strong>. Po 20 minutach przykryj folią aluminiową, jeśli wierzch brązowieje zbyt mocno.</li>
-<li>Wykałaczka powinna wyjść czysta.</li>
-<li>Zostaw do ostygnięcia na <strong>15 minut</strong> w foremce, a następnie wyjmij na kratkę.</li>
+<li>Dodaj mąkę, sodę, sól i cynamon. Mieszaj krótko, tylko do połączenia składników.</li>
+<li>Jeśli chcesz, dodaj orzechy.</li>
+<li>Przelej ciasto do natłuszczonej i oprószonej mąką keksówki, która zmieści się we frytkownicy (ok. <strong>20 × 10 cm</strong>).</li>
+<li>Piecz w <strong>160 °C przez 35–40 minut</strong>. Jeśli po 20 minutach wierzch jest już mocno zrumieniony, przykryj go folią aluminiową.</li>
+<li>Wbita w środek wykałaczka powinna wyjść sucha.</li>
+<li>Zostaw chlebek na <strong>15 minut</strong> w formie, a potem przełóż go na kratkę.</li>
 </ol>
 <h3>Wskazówki szefa kuchni</h3>
-<p>Im bardziej dojrzałe banany (czarne, nakrapiane skórki), tym smaczniejszy i słodszy będzie chlebek bananowy — możesz wtedy zmniejszyć ilość cukru do 50 g. Pieczenie we frytkownicy trwa dłużej niż w pozostałych przepisach, ale wciąż jest znacznie szybsze niż w klasycznym piekarniku. Ten chlebek bananowy przechowuje się 4 dni zawinięty w folię spożywczą.</p>
+<p>Im bardziej dojrzałe banany (skórka czarna, w ciemne plamki), tym smaczniejszy i słodszy będzie chlebek – możesz wtedy zmniejszyć ilość cukru do 50 g. Ten wypiek wymaga dłuższego pieczenia niż pozostałe przepisy, ale i tak trwa to znacznie krócej niż w zwykłym piekarniku. Zawinięty w folię spożywczą chlebek bananowy zachowa świeżość przez 4 dni.</p>
 
 <h2>7. Cinnamon rolls (bułeczki cynamonowe)</h2>
 <h3>Składniki</h3>
@@ -1287,17 +1287,17 @@ export const article: BlogArticle = {
 <li>30 g cukru</li>
 <li>1 saszetka drożdży instant (7 g)</li>
 <li>½ łyżeczki soli</li>
-<li>120 ml ciepłego mleka</li>
+<li>120 ml letniego mleka</li>
 <li>30 g roztopionego masła</li>
 <li>1 jajko</li>
 </ul>
 <p><strong>Na nadzienie:</strong></p>
 <ul>
-<li>50 g zmiękczonego masła</li>
-<li>80 g cukru brązowego</li>
+<li>50 g miękkiego masła</li>
+<li>80 g brązowego cukru</li>
 <li>2 łyżeczki cynamonu</li>
 </ul>
-<p><strong>Na lukier:</strong></p>
+<p><strong>Na polewę:</strong></p>
 <ul>
 <li>100 g serka śmietankowego (Philadelphia)</li>
 <li>50 g cukru pudru</li>
@@ -1305,21 +1305,21 @@ export const article: BlogArticle = {
 </ul>
 <h3>Przygotowanie</h3>
 <ol>
-<li>Wymieszaj mąkę, cukier, drożdże i sól. Dodaj ciepłe mleko, roztopione masło i jajko. Wyrabiaj <strong>8–10 minut</strong>, aż ciasto będzie miękkie i elastyczne.</li>
-<li>Przykryj i zostaw do wyrośnięcia w ciepłym miejscu na <strong>1 godzinę</strong> (ciasto powinno podwoić objętość).</li>
-<li>Rozwałkuj ciasto na prostokąt o wymiarach <strong>30 x 20 cm</strong>.</li>
-<li>Posmaruj zmiękczonym masłem, posyp cukrem brązowym i cynamonem.</li>
-<li>Zwiń ciasno wzdłuż dłuższego boku i pokrój na <strong>8 równych kawałków</strong>.</li>
-<li>Ułóż w natłuszczonej okrągłej foremce dostosowanej do frytkownicy (bułeczki powinny się stykać).</li>
-<li>Zostaw do wyrośnięcia jeszcze na <strong>20 minut</strong>.</li>
-<li>Piecz w <strong>170 °C przez 12–15 minut</strong>, aż będą złote.</li>
-<li>Przygotuj lukier, mieszając serek śmietankowy, cukier puder i wanilię.</li>
-<li>Polej jeszcze lekko ciepłe bułeczki lukrem.</li>
+<li>Wymieszaj mąkę, cukier, drożdże i sól. Dodaj letnie mleko, roztopione masło i jajko. Wyrabiaj przez <strong>8–10 minut</strong>, aż ciasto będzie miękkie i elastyczne.</li>
+<li>Przykryj ciasto i odstaw w ciepłe miejsce na <strong>1 godzinę</strong> do wyrośnięcia (powinno podwoić objętość).</li>
+<li>Rozwałkuj ciasto na prostokąt o wymiarach <strong>30 × 20 cm</strong>.</li>
+<li>Posmaruj je miękkim masłem i posyp brązowym cukrem z cynamonem.</li>
+<li>Zwiń ciasno wzdłuż dłuższego boku i pokrój na <strong>8 równych plastrów</strong>.</li>
+<li>Ułóż bułeczki w natłuszczonej okrągłej formie, która zmieści się we frytkownicy (powinny się stykać).</li>
+<li>Odstaw na kolejne <strong>20 minut</strong> do wyrośnięcia.</li>
+<li>Piecz w <strong>170 °C przez 12–15 minut</strong>, aż się zezłocą.</li>
+<li>Przygotuj polewę: wymieszaj serek śmietankowy z cukrem pudrem i wanilią.</li>
+<li>Posmaruj polewą jeszcze letnie bułeczki.</li>
 </ol>
 <h3>Wskazówki szefa kuchni</h3>
-<p>Lukier z serka śmietankowego to znak rozpoznawczy amerykańskich cinnamon rolls. Nałóż go, gdy bułeczki są jeszcze lekko ciepłe, aby delikatnie się roztopił. Pilnuj, by wierzch ciasta nie brązowił się zbytnio, w razie potrzeby przykryj folią aluminiową.</p>
+<p>Polewa z serka śmietankowego to znak rozpoznawczy amerykańskich cinnamon rolls. Nałóż ją, gdy bułeczki są jeszcze letnie, żeby lekko się rozpuściła. Pilnuj, by wierzch ciasta zbytnio się nie zrumienił – w razie potrzeby przykryj go folią aluminiową.</p>
 
-<h2>8. Lava cake czekoladowe (płynny środek)</h2>
+<h2>8. Czekoladowe lava cake z płynnym środkiem</h2>
 <h3>Składniki</h3>
 <ul>
 <li>100 g gorzkiej czekolady 70%</li>
@@ -1327,72 +1327,72 @@ export const article: BlogArticle = {
 <li>2 całe jajka + 2 żółtka</li>
 <li>60 g cukru</li>
 <li>30 g mąki</li>
-<li>Masło i kakao do natłuszczenia foremek</li>
+<li>Masło i kakao do przygotowania kokilek</li>
 </ul>
 <h3>Przygotowanie</h3>
 <ol>
-<li>Rozpuść czekoladę z masłem w kąpieli wodnej. Zostaw do przestygnięcia.</li>
-<li>W misce ubijaj całe jajka, żółtka i cukier przez <strong>3 minuty</strong>, aż masa będzie spienona i jasna.</li>
+<li>Rozpuść czekoladę z masłem w kąpieli wodnej. Odstaw do przestygnięcia.</li>
+<li>W misce ubijaj całe jajka z żółtkami i cukrem przez <strong>3 minuty</strong>, aż masa będzie jasna i puszysta.</li>
 <li>Wmieszaj letnią masę czekoladowo-maślaną.</li>
 <li>Dodaj przesianą mąkę i delikatnie wymieszaj.</li>
-<li>Natłuść 4 pojedyncze kokilki (o średnicy ok. <strong>8 cm</strong>) i oprósz kakao.</li>
-<li>Rozdziel ciasto do kokilek (napełnij do <strong>¾</strong> wysokości).</li>
-<li>Piecz w <strong>190 °C przez 8–10 minut</strong>. Z zewnątrz ciasto powinno być jędrne, a środek lekko drżeć po stuknięciu w kokilkę.</li>
-<li>Zostaw na <strong>1 minutę</strong>, a następnie odwróć na talerz.</li>
+<li>Natłuść 4 pojedyncze kokilki (o średnicy ok. <strong>8 cm</strong>) i oprósz je kakao.</li>
+<li>Rozłóż ciasto do kokilek (do <strong>¾</strong> wysokości).</li>
+<li>Piecz w <strong>190 °C przez 8–10 minut</strong>. Brzegi powinny być ścięte, a środek powinien lekko drżeć, gdy stukniesz w kokilkę.</li>
+<li>Odczekaj <strong>1 minutę</strong>, a potem odwróć kokilki na talerz.</li>
 </ol>
 <h3>Wskazówki szefa kuchni</h3>
-<p>W lava cake wszystko zależy od czasu — <strong>minuta za długo i wyjdzie Ci zwykłe ciasto czekoladowe</strong> (dobre, ale to nie to samo). Najpierw sprawdź na jednej kokilce, aby skalibrować swoją frytkownicę. Ciasto można przygotować wcześniej i trzymać w lodówce do <strong>24 godzin</strong> — jeśli jest zimne, wydłuż czas pieczenia o 1–2 minuty. Podawaj od razu z gałką lodów waniliowych.</p>
+<p>W lava cake wszystko zależy od czasu – <strong>minuta za długo i wyjdzie Ci zwykłe ciasto czekoladowe</strong> (dobre, ale to nie to samo). Najpierw upiecz jedną kokilkę na próbę, żeby wyczuć swoją frytkownicę. Ciasto można przygotować wcześniej i przechowywać w lodówce do <strong>24 godzin</strong> – jeśli jest zimne, wydłuż pieczenie o 1–2 minuty. Podawaj od razu, z gałką lodów waniliowych.</p>
 
 <h2>Zestawienie czasów i temperatur</h2>
 <table>
 <thead>
-<tr><th>Deser</th><th>Temperatura</th><th>Czas</th><th>Foremka</th></tr>
+<tr><th>Deser</th><th>Temperatura</th><th>Czas</th><th>Forma</th></tr>
 </thead>
 <tbody>
-<tr><td>Brownie</td><td>160 °C</td><td>18–22 min</td><td>Okrągła/kwadratowa 18 cm</td></tr>
+<tr><td>Brownie</td><td>160 °C</td><td>18–22 min</td><td>Okrągła lub kwadratowa, 18 cm</td></tr>
 <tr><td>Muffinki z borówkami</td><td>170 °C</td><td>12–15 min</td><td>Foremki silikonowe</td></tr>
 <tr><td>Chipsy jabłkowe</td><td>150 °C</td><td>10–12 min</td><td>Bezpośrednio w koszu</td></tr>
 <tr><td>Churrosy</td><td>190 °C</td><td>8–10 min</td><td>Papier do pieczenia</td></tr>
 <tr><td>Ciasteczka</td><td>170 °C</td><td>8–10 min</td><td>Papier do pieczenia</td></tr>
 <tr><td>Chlebek bananowy</td><td>160 °C</td><td>35–40 min</td><td>Keksówka 20 cm</td></tr>
-<tr><td>Cinnamon rolls</td><td>170 °C</td><td>12–15 min</td><td>Natłuszczona foremka okrągła</td></tr>
+<tr><td>Cinnamon rolls</td><td>170 °C</td><td>12–15 min</td><td>Okrągła forma, natłuszczona</td></tr>
 <tr><td>Lava cake</td><td>190 °C</td><td>8–10 min</td><td>Kokilki 8 cm</td></tr>
 </tbody>
 </table>
 
-<h2>Ogólne wskazówki dotyczące wypieków we frytkownicy</h2>
-<p>Wypieki we frytkownicy wymagają kilku korekt w porównaniu z klasycznym piekarnikiem:</p>
+<h2>Ogólne wskazówki dotyczące pieczenia we frytkownicy</h2>
+<p>Pieczenie we frytkownicy wymaga kilku zmian w porównaniu ze zwykłym piekarnikiem:</p>
 <ul>
-<li><strong>Obniż temperaturę o 10–20 °C</strong> względem klasycznych przepisów — frytkownica działa wydajniej niż piekarnik ze względu na bliskość grzałki.</li>
-<li><strong>Używaj odpowiednich foremek</strong> — upewnij się, że mieszczą się w koszu z 1 cm odstępem wokół, który zapewni cyrkulację powietrza. Zajrzyj do naszego poradnika o <a href="/pl/blog/top-10-accessoires-airfryer">najlepszych akcesoriach</a>.</li>
-<li><strong>W razie potrzeby przykryj</strong> — jeśli wierzch brązowieje zbyt szybko, połóż na nim kawałek folii aluminiowej.</li>
-<li><strong>Pilnuj pieczenia</strong> — za pierwszymi razami sprawdzaj regularnie, bo czasy różnią się w zależności od frytkownicy.</li>
-<li><strong>Nie napełniaj foremek zbyt mocno</strong> — wypieki rosną podczas pieczenia. Napełniaj maksymalnie do ¾ wysokości.</li>
+<li><strong>Obniż temperaturę o 10–20 °C</strong> w porównaniu z tradycyjnymi przepisami – grzałka znajduje się blisko potrawy, więc frytkownica piecze efektywniej niż piekarnik.</li>
+<li><strong>Używaj dopasowanych foremek</strong> – sprawdź, czy mieszczą się w koszu z zachowaniem 1 cm odstępu dookoła, by powietrze mogło swobodnie krążyć. Zajrzyj do naszego poradnika o <a href="/pl/blog/top-10-accessoires-airfryer">najlepszych akcesoriach</a>.</li>
+<li><strong>W razie potrzeby przykryj wypiek</strong> – jeśli wierzch zbyt szybko się rumieni, połóż na nim kawałek folii aluminiowej.</li>
+<li><strong>Pilnuj pieczenia</strong> – przy pierwszych próbach zaglądaj regularnie, bo czasy pieczenia różnią się w zależności od frytkownicy.</li>
+<li><strong>Nie przepełniaj foremek</strong> – wypieki rosną podczas pieczenia. Napełniaj je najwyżej do ¾ wysokości.</li>
 </ul>
-<p>Aby uniknąć błędów początkujących, przeczytaj nasz artykuł o <a href="/pl/blog/erreurs-courantes-airfryer">najczęstszych błędach przy użyciu frytkownicy beztłuszczowej</a>. A do deserów dlaczego nie przygotować na przystawkę pysznych <a href="/pl/blog/recettes-frites-parfaites-airfryer">frytek z batatów z cynamonem</a>?</p>
+<p>Żeby nie popełniać typowych błędów początkujących, przeczytaj nasz artykuł o <a href="/pl/blog/erreurs-courantes-airfryer">najczęstszych błędach przy korzystaniu z frytkownicy beztłuszczowej</a>. A na przystawkę przed deserem? Spróbuj pysznych <a href="/pl/blog/recettes-frites-parfaites-airfryer">frytek z batatów z cynamonem</a>.</p>
 
 <h2>Zestawienie: czasy, temperatury i kalorie</h2>
 <table>
-<thead><tr><th>Deser</th><th>Temperatura</th><th>Czas pieczenia</th><th>Kalorie (ok. na porcję)</th><th>Trudność</th></tr></thead>
+<thead><tr><th>Deser</th><th>Temperatura</th><th>Czas pieczenia</th><th>Kalorie na porcję (ok.)</th><th>Poziom trudności</th></tr></thead>
 <tbody>
-<tr><td>Miękkie brownie</td><td>160°C</td><td>18–22 min</td><td>~285 kcal</td><td>Łatwe</td></tr>
-<tr><td>Muffinki z borówkami</td><td>170°C</td><td>12–15 min</td><td>~220 kcal</td><td>Łatwe</td></tr>
-<tr><td>Chipsy jabłkowe</td><td>150°C</td><td>10–12 min</td><td>~45 kcal</td><td>Bardzo łatwe</td></tr>
-<tr><td>Churrosy</td><td>190°C</td><td>8–10 min</td><td>~195 kcal</td><td>Średnie</td></tr>
-<tr><td>Miękkie ciasteczka</td><td>170°C</td><td>8–10 min</td><td>~140 kcal</td><td>Łatwe</td></tr>
-<tr><td>Chlebek bananowy</td><td>160°C</td><td>35–40 min</td><td>~210 kcal</td><td>Łatwe</td></tr>
-<tr><td>Cinnamon rolls</td><td>170°C</td><td>12–15 min</td><td>~315 kcal</td><td>Średnie</td></tr>
-<tr><td>Lava cake</td><td>190°C</td><td>8–10 min</td><td>~450 kcal</td><td>Średnie</td></tr>
+<tr><td>Wilgotne brownie</td><td>160 °C</td><td>18–22 min</td><td>~285 kcal</td><td>Łatwy</td></tr>
+<tr><td>Muffinki z borówkami</td><td>170 °C</td><td>12–15 min</td><td>~220 kcal</td><td>Łatwy</td></tr>
+<tr><td>Chipsy jabłkowe</td><td>150 °C</td><td>10–12 min</td><td>~45 kcal</td><td>Bardzo łatwy</td></tr>
+<tr><td>Churrosy</td><td>190 °C</td><td>8–10 min</td><td>~195 kcal</td><td>Średni</td></tr>
+<tr><td>Miękkie ciasteczka</td><td>170 °C</td><td>8–10 min</td><td>~140 kcal</td><td>Łatwy</td></tr>
+<tr><td>Chlebek bananowy</td><td>160 °C</td><td>35–40 min</td><td>~210 kcal</td><td>Łatwy</td></tr>
+<tr><td>Cinnamon rolls</td><td>170 °C</td><td>12–15 min</td><td>~315 kcal</td><td>Średni</td></tr>
+<tr><td>Lava cake</td><td>190 °C</td><td>8–10 min</td><td>~450 kcal</td><td>Średni</td></tr>
 </tbody>
 </table>
 
 <h2>5 wskazówek na idealne desery z frytkownicy</h2>
 <ul>
-<li><strong>Obniż temperaturę o 10–20°C</strong> względem przepisów na tradycyjny piekarnik — frytkownica nagrzewa intensywniej.</li>
-<li><strong>Używaj odpowiednich foremek</strong> — silikonowych lub cienkich aluminiowych, z 1 cm wolnej przestrzeni dookoła dla cyrkulacji powietrza.</li>
-<li><strong>W razie potrzeby przykryj</strong> — kawałek folii aluminiowej położony na wierzchu zapobiega nadmiernemu zbrązowieniu.</li>
-<li><strong>Napełniaj foremki maksymalnie do ¾</strong> — ciasta rosną bardziej niż w piekarniku.</li>
-<li><strong>Sprawdzaj stopień wypieczenia wykałaczką</strong> — z zewnątrz ciasto może wyglądać na gotowe, choć w środku wciąż jest płynne.</li>
+<li><strong>Obniż temperaturę o 10–20 °C</strong> w porównaniu z przepisami na tradycyjny piekarnik – frytkownica grzeje intensywniej.</li>
+<li><strong>Używaj odpowiednich foremek</strong> – silikonowych lub z cienkiego aluminium, tak by dookoła zostawał 1 cm wolnego miejsca na obieg powietrza.</li>
+<li><strong>W razie potrzeby przykryj wypiek</strong> – kawałek folii aluminiowej położony na wierzchu chroni go przed zbyt mocnym zrumienieniem.</li>
+<li><strong>Napełniaj foremki najwyżej do ¾</strong> – ciasto rośnie bardziej niż w piekarniku.</li>
+<li><strong>Sprawdzaj stopień upieczenia wykałaczką</strong> – z zewnątrz ciasto może wyglądać na gotowe, choć w środku wciąż jest płynne.</li>
 </ul>`,
   },
   faq: [
@@ -1404,7 +1404,7 @@ export const article: BlogArticle = {
         es: '¿Se puede realmente hacer repostería en una freidora de aire?',
         it: 'Si possono davvero fare dolci nella friggitrice ad aria?',
         nl: 'Kun je echt gebak maken in een airfryer?',
-        pl: 'Czy naprawdę można piec w frytkownicy beztłuszczowej?',
+        pl: 'Czy we frytkownicy beztłuszczowej da się naprawdę piec ciasta?',
       },
       answer: {
         fr: 'Oui, l\'airfryer est un excellent mini-four pour la pâtisserie. Il excelle pour les brownies, muffins, cookies, banana bread et petits gâteaux. La chaleur circulante produit une cuisson uniforme et rapide. Réduisez la température de 10-20°C par rapport aux recettes de four classique et surveillez la cuisson attentivement.',
@@ -1413,7 +1413,7 @@ export const article: BlogArticle = {
         es: 'Sí, la freidora de aire es un excelente mini horno para repostería. Destaca en brownies, muffins, cookies, banana bread y bizcochos pequeños. El calor circulante produce una cocción uniforme y rápida. Reduce la temperatura 10-20°C respecto a recetas de horno clásico y vigila la cocción.',
         it: 'Sì, la friggitrice ad aria è un eccellente mini forno per la pasticceria. Eccelle con brownies, muffin, cookies, banana bread e piccole torte. Il calore circolante produce una cottura uniforme e rapida. Riduci la temperatura di 10-20°C rispetto alle ricette da forno classiche e monitora attentamente.',
         nl: 'Ja, de airfryer is een uitstekende mini-oven voor gebak. Hij blinkt uit bij brownies, muffins, koekjes, bananenbrood en kleine cakes. De circulerende warmte zorgt voor gelijkmatig en snel bakken. Verlaag de temperatuur 10-20°C ten opzichte van traditionele ovenrecepten en houd het goed in de gaten.',
-        pl: 'Tak, frytkownica beztłuszczowa to świetny mini-piekarnik do wypieków. Doskonale radzi sobie z brownie, muffinkami, ciasteczkami, chlebkiem bananowym i małymi ciastami. Krążące gorące powietrze zapewnia równomierny i szybki wypiek. Obniż temperaturę o 10–20°C względem przepisów na klasyczny piekarnik i uważnie pilnuj pieczenia.',
+        pl: 'Tak. Frytkownica beztłuszczowa to świetny minipiekarnik do wypieków. Najlepiej sprawdza się przy brownie, muffinkach, ciasteczkach, chlebku bananowym i małych ciastach. Dzięki krążącemu gorącemu powietrzu ciasto piecze się szybko i równomiernie. Obniż temperaturę o 10–20 °C w porównaniu z przepisem na zwykły piekarnik i uważnie obserwuj ciasto.',
       },
     },
     {
@@ -1424,7 +1424,7 @@ export const article: BlogArticle = {
         es: '¿Qué moldes usar para los postres en la freidora de aire?',
         it: 'Quali stampi usare per i dolci nella friggitrice ad aria?',
         nl: 'Welke vormen gebruik je voor desserts in de airfryer?',
-        pl: 'Jakich foremek używać do deserów z frytkownicy beztłuszczowej?',
+        pl: 'Jakie foremki sprawdzą się do deserów we frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Privilégiez les moules en silicone résistants jusqu\'à 230°C : ils sont souples, antiadhésifs et faciles à démouler. Les ramequins en céramique conviennent aussi pour les lava cakes et crèmes. Assurez-vous que le moule laisse au moins 1 cm d\'espace autour pour la circulation d\'air. Évitez les moules trop hauts.',
@@ -1433,7 +1433,7 @@ export const article: BlogArticle = {
         es: 'Elige moldes de silicona resistentes hasta 230°C: son flexibles, antiadherentes y fáciles de desmoldar. Los ramequines de cerámica también sirven para lava cakes y cremas. Asegúrate de dejar al menos 1 cm de espacio alrededor para la circulación de aire. Evita moldes demasiado altos.',
         it: 'Scegli stampi in silicone resistenti fino a 230°C: sono flessibili, antiaderenti e facili da sformare. I ramequin in ceramica vanno bene per lava cake e creme. Assicurati che lo stampo lasci almeno 1 cm di spazio intorno per la circolazione dell\'aria. Evita stampi troppo alti.',
         nl: 'Kies siliconenvormen bestand tot 230°C: flexibel, antiaanbak en makkelijk los te maken. Keramische ramekins werken ook goed voor lava cakes en crèmes. Zorg dat de vorm minstens 1 cm ruimte overlaat voor luchtcirculatie. Vermijd te hoge vormen voor de mand.',
-        pl: 'Wybieraj silikonowe foremki odporne na temperaturę do 230°C: są elastyczne, nieprzywierające i łatwo się z nich wyjmuje wypieki. Ceramiczne kokilki nadają się też do lava cake i kremów. Upewnij się, że wokół foremki zostaje co najmniej 1 cm wolnej przestrzeni na cyrkulację powietrza. Unikaj zbyt wysokich foremek.',
+        pl: 'Najlepiej sprawdzają się foremki silikonowe odporne na temperaturę do 230 °C: są elastyczne, nieprzywierające, a wypieki łatwo z nich wyjąć. Do lava cake i kremów nadają się też ceramiczne kokilki. Zadbaj o to, by wokół foremki zostało co najmniej 1 cm wolnego miejsca na obieg powietrza. Unikaj zbyt wysokich foremek.',
       },
     },
     {
@@ -1444,7 +1444,7 @@ export const article: BlogArticle = {
         es: '¿Se puede hacer un pastel de verdad en la freidora de aire?',
         it: 'Si può fare una vera torta nella friggitrice ad aria?',
         nl: 'Kun je een echte cake bakken in de airfryer?',
-        pl: 'Czy w frytkownicy beztłuszczowej można upiec prawdziwe ciasto?',
+        pl: 'Czy we frytkownicy beztłuszczowej można upiec prawdziwe ciasto?',
       },
       answer: {
         fr: 'Oui, pour les gâteaux de petite taille. Un moule rond de 15-18 cm entre dans la plupart des airfryers. Réglez à 160°C et prévoyez 25-35 minutes selon la recette. Couvrez le dessus de papier aluminium si le gâteau dore trop vite. Le résultat est moelleux et bien levé, parfait pour un dessert rapide.',
@@ -1453,7 +1453,7 @@ export const article: BlogArticle = {
         es: 'Sí, para pasteles pequeños. Un molde redondo de 15-18 cm cabe en la mayoría de freidoras. Pon a 160°C y calcula 25-35 minutos según la receta. Cubre la parte superior con papel de aluminio si se dora demasiado rápido. El resultado es esponjoso y bien subido, perfecto para un postre rápido.',
         it: 'Sì, per torte di piccole dimensioni. Uno stampo rotondo da 15-18 cm entra nella maggior parte delle friggitrici. Imposta a 160°C e prevedi 25-35 minuti secondo la ricetta. Copri la parte superiore con foglio di alluminio se la torta dora troppo in fretta. Il risultato è morbido e ben lievitato.',
         nl: 'Ja, voor kleine cakes. Een ronde bakvorm van 15-18 cm past in de meeste airfryers. Stel in op 160°C en reken op 25-35 minuten afhankelijk van het recept. Bedek de bovenkant met aluminiumfolie als de cake te snel bruint. Het resultaat is luchtig en goed gerezen, perfect voor een snel dessert.',
-        pl: 'Tak, w przypadku małych ciast. Okrągła forma o średnicy 15–18 cm mieści się w większości frytkownic. Ustaw 160°C i zaplanuj 25–35 minut, zależnie od przepisu. Jeśli ciasto zbyt szybko się rumieni, przykryj wierzch folią aluminiową. Efekt jest puszysty i dobrze wyrośnięty, idealny na szybki deser.',
+        pl: 'Tak, o ile jest niewielkie. Okrągła forma o średnicy 15–18 cm mieści się w większości frytkownic. Ustaw 160 °C i licz się z czasem pieczenia 25–35 minut, zależnie od przepisu. Jeśli wierzch zbyt szybko się rumieni, przykryj go folią aluminiową. Ciasto wychodzi puszyste i dobrze wyrośnięte – idealne na szybki deser.',
       },
     },
     {
@@ -1473,7 +1473,7 @@ export const article: BlogArticle = {
         es: 'Sí, las galletas en freidora de aire son incluso mejores que al horno para cantidades pequeñas. Pon a 170°C durante 8-10 minutos. Usa papel perforado o base de silicona para evitar que la masa gotee. Separa las galletas 3 cm mínimo. Quedan crujientes por fuera y tiernas por dentro.',
         it: 'Sì, i cookies nella friggitrice ad aria sono anche migliori del forno per piccole quantità. Imposta a 170°C per 8-10 minuti. Usa un foglio perforato o un tappetino in silicone per evitare che l\'impasto coli. Distanzia i cookies di almeno 3 cm. Risultano croccanti fuori e morbidi dentro.',
         nl: 'Ja, koekjes uit de airfryer zijn voor kleine hoeveelheden zelfs beter dan uit de oven. Stel in op 170°C voor 8-10 minuten. Gebruik een geperforeerd vel of siliconenmat om te voorkomen dat deeg erdoor druipt. Houd minstens 3 cm afstand. Ze worden krokant van buiten en zacht van binnen.',
-        pl: 'Tak, przy małych ilościach ciasteczka z frytkownicy wychodzą nawet lepiej niż z piekarnika. Ustaw 170°C na 8–10 minut. Użyj perforowanego papieru lub silikonowej maty, aby ciasto się nie rozlewało. Zachowaj między ciasteczkami co najmniej 3 cm odstępu. Są chrupiące na zewnątrz i miękkie w środku.',
+        pl: 'Tak – przy małych porcjach ciasteczka z frytkownicy wychodzą nawet lepiej niż z piekarnika. Ustaw 170 °C na 8–10 minut. Użyj perforowanego papieru do pieczenia lub formy silikonowej, żeby ciasto się nie rozlewało. Zostaw między ciasteczkami co najmniej 3 cm odstępu. Wychodzą chrupiące z zewnątrz i miękkie w środku.',
       },
     },
     {
@@ -1493,7 +1493,7 @@ export const article: BlogArticle = {
         es: 'El rango ideal es de 150 a 170°C para la mayoría de postres. Brownies y banana bread a 160°C, muffins, galletas y rollitos de canela a 170°C, churros y lava cakes a 190°C. Reduce siempre 10-20°C respecto al horno tradicional porque la freidora concentra el calor en un espacio más pequeño y hornea más rápido.',
         it: 'L\'intervallo ideale è 150-170°C per la maggior parte dei dolci. Brownies e banana bread a 160°C, muffin, cookies e rotoli alla cannella a 170°C, churros e lava cake a 190°C. Riduci sempre di 10-20°C rispetto al forno tradizionale perché la friggitrice concentra il calore in uno spazio ridotto e cuoce più velocemente.',
         nl: 'Het ideale bereik is 150 tot 170°C voor de meeste desserts. Brownies en bananenbrood op 160°C, muffins, koekjes en kaneelbroodjes op 170°C, churros en lava cakes op 190°C. Verlaag altijd 10-20°C ten opzichte van de traditionele oven omdat de airfryer warmte in een kleinere ruimte concentreert en sneller bakt.',
-        pl: 'Idealny zakres to 150–170°C dla większości deserów. Brownie i chlebek bananowy piecze się w 160°C, muffinki, ciasteczka i cinnamon rolls w 170°C, a churrosy i lava cake wymagają 190°C. Zawsze obniżaj temperaturę o 10–20°C względem tradycyjnego piekarnika, ponieważ frytkownica skupia ciepło w małej przestrzeni i piecze szybciej.',
+        pl: 'Dla większości deserów idealny zakres to 150–170 °C. Brownie i chlebek bananowy piecze się w 160 °C, muffinki, ciasteczka i cinnamon rolls w 170 °C, a churrosy i lava cake wymagają 190 °C. Zawsze obniżaj temperaturę o 10–20 °C w porównaniu z tradycyjnym piekarnikiem, bo frytkownica skupia ciepło w małej komorze i piecze szybciej.',
       },
     },
   ],

@@ -29,7 +29,7 @@ export const article: BlogArticle = {
     es: 'Cámara de vigilancia exterior sin cuotas 2026: comparativa de las 5 mejores',
     it: 'Telecamera di sorveglianza esterna senza abbonamento 2026: le 5 migliori a confronto',
     nl: 'Beveiligingscamera buiten zonder abonnement 2026: de 5 beste vergeleken',
-    pl: 'Porównanie kamer zewnętrznych 2026: 5 najlepszych bez abonamentu',
+    pl: 'Porównanie kamer zewnętrznych 2026: 5 najlepszych modeli bez abonamentu',
   },
   excerpt: {
     fr: "eufyCam S3 Pro, Tapo C520WS, Reolink RLC-833A, Reolink Argus 4 Pro et eufy SoloCam S340 : notre comparatif 2026 des caméras de surveillance extérieures qui enregistrent en local, sans abonnement obligatoire.",
@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: 'eufyCam S3 Pro, Tapo C520WS, Reolink RLC-833A, Reolink Argus 4 Pro y eufy SoloCam S340: nuestra comparativa 2026 de cámaras de vigilancia exterior que graban en local, sin suscripción obligatoria.',
     it: 'eufyCam S3 Pro, Tapo C520WS, Reolink RLC-833A, Reolink Argus 4 Pro ed eufy SoloCam S340: il nostro confronto 2026 delle telecamere da esterno che registrano in locale, senza abbonamento obbligatorio.',
     nl: "eufyCam S3 Pro, Tapo C520WS, Reolink RLC-833A, Reolink Argus 4 Pro en eufy SoloCam S340: onze vergelijking 2026 van buitencamera's die lokaal opnemen, zonder verplicht abonnement.",
-    pl: "eufyCam S3 Pro, Tapo C520WS, Reolink RLC-833A, Reolink Argus 4 Pro i eufy SoloCam S340: nasze porównanie kamer zewnętrznych 2026, które nagrywają lokalnie i nie wymagają abonamentu.",
+    pl: "Porównujemy pięć kamer zewnętrznych na 2026 rok: eufyCam S3 Pro, Tapo C520WS, Reolink RLC-833A, Reolink Argus 4 Pro i eufy SoloCam S340. Wszystkie zapisują nagrania lokalnie i działają bez obowiązkowego abonamentu.",
   },
   content: {
     fr: `<p><strong>La meilleure caméra de surveillance extérieure sans abonnement en 2026 pour la plupart des maisons est l’eufyCam S3 Pro</strong> : vidéo 4K, vision nocturne en couleur, panneau solaire intégré et enregistrement local sur la HomeBase S380, sans frais mensuels. Pour un petit budget, la TP-Link Tapo C520WS couvre une cour entière grâce à sa tête motorisée, et pour une installation filaire durable, la Reolink RLC-833A en PoE reste une référence.</p>
@@ -497,82 +497,82 @@ export const article: BlogArticle = {
 
 <h2>Eindoordeel</h2>
 <p>De <strong>eufyCam S3 Pro</strong> is de beste keuze overall: nachtbeeld van topniveau, ingebouwd zonnepaneel en uitbreidbare lokale opslag op de HomeBase S380, zonder maandelijkse kosten. De <strong>TP-Link Tapo C520WS</strong> is de beste koop om een binnenplaats te bewaken met één toestel op netstroom. Kun je een netwerkkabel trekken, dan is de <strong>Reolink RLC-833A</strong> de stabielste oplossing, met optische zoom en continue opname op een NVR. De <strong>Argus 4 Pro</strong> en de <strong>SoloCam S340</strong> passen bij wie een zelfstandige draadloze camera zonder basisstation wil.</p>`,
-    pl: `<p><strong>Najlepszą kamerą zewnętrzną bez abonamentu w 2026 roku dla większości domów jest eufyCam S3 Pro</strong>: obraz 4K, kolorowy podgląd nocny, wbudowany panel słoneczny i lokalny zapis na HomeBase S380, bez miesięcznych opłat. Przy niewielkim budżecie TP-Link Tapo C520WS obejmuje całe podwórko dzięki ruchomej głowicy, a przy trwałej instalacji przewodowej Reolink RLC-833A z zasilaniem PoE pozostaje wzorcem.</p>
-<p>To porównanie opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględnia wyłącznie modele sprzedawane w Europie w 2026 roku, które potrafią nagrywać lokalnie, bez obowiązkowego abonamentu. Całą selekcję znajdziesz na naszej stronie <a href="/pl/securite-maison/cameras-exterieur">kamery zewnętrzne</a>.</p>
+    pl: `<p><strong>Najlepszą kamerą zewnętrzną bez abonamentu w 2026 roku jest dla większości domów eufyCam S3 Pro</strong>: obraz 4K, kolorowe widzenie w nocy, wbudowany panel słoneczny i lokalny zapis w stacji HomeBase S380 – bez miesięcznych opłat. Przy mniejszym budżecie TP-Link Tapo C520WS dzięki obrotowej głowicy obejmie całe podwórko, a do trwałej instalacji przewodowej wciąż warto wybrać Reolink RLC-833A z zasilaniem PoE.</p>
+<p>To zestawienie opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględnia wyłącznie modele sprzedawane w Europie w 2026 roku, które nagrywają lokalnie i nie wymagają abonamentu. Wszystkie modele znajdziesz w kategorii <a href="/pl/securite-maison/cameras-exterieur">kamery zewnętrzne</a>.</p>
 
-<h2>Kryteria dobrego wyboru</h2>
+<h2>Kryteria wyboru</h2>
 <ul>
-<li><strong>Pamięć lokalna</strong>: karta microSD w kamerze, pamięć wbudowana, hub z dyskiem twardym lub rejestrator NVR. Dzięki temu nie potrzebujesz abonamentu w chmurze. Sprawdź też, czy żadna kluczowa funkcja (historia, wykrywanie osób) nie jest zarezerwowana dla subskrybentów.</li>
-<li><strong>Zasilanie</strong>: bateria (swobodny montaż, ale trzeba pamiętać o ładowaniu), solarne (dłuższa autonomia przy nasłonecznionym miejscu), sieciowe (potrzebne gniazdko zewnętrzne) lub PoE (jeden kabel Ethernet dla zasilania i danych, najstabilniejsze rozwiązanie).</li>
-<li><strong>Rozdzielczość i matryca</strong>: 2K wystarczy dla wejścia lub podjazdu; 4K ułatwia rozpoznanie twarzy z większej odległości. Duża matryca i jasny obiektyw liczą się tak samo jak liczba pikseli, zwłaszcza nocą.</li>
-<li><strong>Noktowizja</strong>: podczerwień w czerni i bieli, kolor z reflektorem lub kolor przy słabym świetle bez reflektora. Reflektor ma też działanie odstraszające.</li>
-<li><strong>Inteligentne wykrywanie</strong>: rozróżnianie osób, pojazdów i zwierząt znacznie ogranicza zbędne powiadomienia. Strefy wykrywania i maski prywatności są niezbędne, aby nie filmować ulicy ani sąsiadów.</li>
-<li><strong>Szczelność</strong>: minimum IP65 w miejscu narażonym na warunki atmosferyczne, IP66 lub IP67 dla większego zapasu.</li>
-<li><strong>Pole widzenia</strong>: szeroki kąt obejmuje elewację, zoom optyczny lub ruchoma głowica pozwala śledzić bramę lub dalszy podjazd.</li>
+<li><strong>Zapis lokalny</strong>: karta microSD w kamerze, pamięć wbudowana, hub z dyskiem twardym lub rejestrator NVR. To właśnie lokalny zapis zwalnia Cię z abonamentu w chmurze. Sprawdź też, czy żadna podstawowa funkcja (historia nagrań, wykrywanie osób) nie jest dostępna wyłącznie dla abonentów.</li>
+<li><strong>Zasilanie</strong>: akumulator (montaż w dowolnym miejscu, ale trzeba pamiętać o ładowaniu), panel słoneczny (dłuższa praca bez ładowania, jeśli miejsce jest dobrze nasłonecznione), zasilanie sieciowe (potrzebne gniazdko na zewnątrz) lub PoE (jeden przewód Ethernet przesyła zasilanie i dane – to najstabilniejsze rozwiązanie).</li>
+<li><strong>Rozdzielczość i matryca</strong>: do obserwacji wejścia lub podjazdu wystarczy 2K, a 4K pozwala rozpoznać twarz z większej odległości. Duża matryca i jasny obiektyw znaczą tyle samo co liczba pikseli, zwłaszcza w nocy.</li>
+<li><strong>Widzenie w nocy</strong>: czarno-biały obraz w podczerwieni, kolor z reflektorem albo kolor przy słabym oświetleniu bez reflektora. Reflektor dodatkowo działa odstraszająco.</li>
+<li><strong>Inteligentne wykrywanie</strong>: odróżnianie ludzi, pojazdów i zwierząt wyraźnie ogranicza liczbę niepotrzebnych powiadomień. Strefy detekcji i maski prywatności są niezbędne, żeby nie nagrywać ulicy ani sąsiadów.</li>
+<li><strong>Szczelność</strong>: co najmniej IP65 w miejscu wystawionym na deszcz i wiatr, a IP66 lub IP67, jeśli chcesz mieć większy zapas.</li>
+<li><strong>Pole widzenia</strong>: szerokokątny obiektyw obejmie całą elewację, a zoom optyczny lub obrotowa głowica pozwolą obserwować bramę albo dalszą część podjazdu.</li>
 </ul>
 
 <h2>5 najlepszych kamer zewnętrznych bez abonamentu w 2026 roku</h2>
 
-<h3>1. eufyCam S3 Pro — najlepszy wybór ogólnie</h3>
-<p>eufyCam S3 Pro nagrywa w 4K z matrycą 1/1,8 cala i przysłoną f/1.0, co tłumaczy jej dobrą opinię nocą. Oferuje trzy tryby nocne: MaxColor (kolor przy słabym świetle), adaptacyjny reflektor i podczerwień. Wbudowany panel słoneczny SolarPlus 2.0 doładowuje baterię na co dzień, a wykrywanie łączy radar z pasywnym czujnikiem podczerwieni, aby ograniczyć fałszywe alarmy.</p>
-<p><strong>Mocne strony</strong>: bardzo szczegółowy obraz nocny, wbudowane ładowanie solarne, wykrywanie radarowe, klasa IP67, syrena 100 dB, lokalna pamięć 16 GB w HomeBase S380, rozszerzalna do 16 TB za pomocą dysku twardego, bez miesięcznych opłat.</p>
-<p><strong>Ograniczenia</strong>: kamera działa wyłącznie z HomeBase S380, która musi pozostać podłączona do routera. To system z wyższej półki, a obraz ma maksymalnie 15 klatek na sekundę.</p>
-<p><strong>Dla kogo</strong>: domy, które chcą kompletnego, rozbudowywalnego systemu bezprzewodowego bez abonamentu, z kilkoma kamerami wokół domu.</p>
+<h3>1. eufyCam S3 Pro – najlepszy wybór dla większości</h3>
+<p>eufyCam S3 Pro nagrywa w 4K, ma matrycę 1/1,8 cala i przysłonę f/1.0 – stąd jej dobra opinia, jeśli chodzi o obraz nocny. Oferuje trzy tryby nocne: MaxColor (kolor przy słabym oświetleniu), reflektor adaptacyjny i podczerwień. Wbudowany panel słoneczny SolarPlus 2.0 na bieżąco doładowuje akumulator, a wykrywanie łączy radar z pasywnym czujnikiem podczerwieni, co ogranicza fałszywe alarmy.</p>
+<p><strong>Mocne strony</strong>: bardzo szczegółowy obraz w nocy, wbudowany panel słoneczny, wykrywanie radarowe, stopień ochrony IP67, syrena 100 dB, 16 GB pamięci lokalnej w HomeBase S380 z możliwością rozbudowy do 16 TB za pomocą dysku twardego, brak miesięcznych opłat.</p>
+<p><strong>Ograniczenia</strong>: kamera działa wyłącznie ze stacją HomeBase S380, która musi być stale podłączona do routera. To system z wyższej półki cenowej, a obraz jest nagrywany z prędkością maksymalnie 15 klatek na sekundę.</p>
+<p><strong>Dla kogo</strong>: właściciele domów, którzy chcą kompletnego, rozbudowywalnego systemu bezprzewodowego bez abonamentu, z kilkoma kamerami wokół budynku.</p>
 
-<h3>2. TP-Link Tapo C520WS — najlepszy stosunek jakości do ceny</h3>
-<p>Tapo C520WS to zewnętrzna kamera obrotowa 2K QHD (2560 × 1440). Jej głowica obraca się o ok. 340° w poziomie i pochyla w pionie, co pozwala objąć podwórko lub ogród z jednego punktu montażu. Dwie diody LED pełniące funkcję reflektorów dają kolorowy obraz nocą.</p>
-<p><strong>Mocne strony</strong>: segment podstawowy, silnikowy obrót ze śledzeniem ruchu, karta microSD do 512 GB, klasa IP66, dwukierunkowy dźwięk, aplikacja Tapo prosta w obsłudze.</p>
-<p><strong>Ograniczenia</strong>: musi być podłączona do sieci, więc potrzebne jest gniazdko zewnętrzne lub przepust na kabel. Wi-Fi 2,4 GHz musi dobrze pokrywać miejsce montażu. Chmura Tapo Care jest płatna, ale pozostaje opcjonalna.</p>
-<p><strong>Dla kogo</strong>: pierwsza kamera lub podwórko i parking do nadzorowania jednym urządzeniem.</p>
+<h3>2. TP-Link Tapo C520WS – najlepszy stosunek jakości do ceny</h3>
+<p>Tapo C520WS to obrotowa kamera zewnętrzna o rozdzielczości 2K QHD (2560 × 1440). Jej głowica obraca się w poziomie o ok. 340° i pochyla w pionie, dzięki czemu z jednego miejsca montażu obejmie całe podwórko lub ogród. Dwa reflektory LED zapewniają kolorowy obraz w nocy.</p>
+<p><strong>Mocne strony</strong>: model budżetowy, obrotowa głowica ze śledzeniem ruchu, karta microSD do 512 GB, stopień ochrony IP66, dwukierunkowa komunikacja audio, prosta w obsłudze aplikacja Tapo.</p>
+<p><strong>Ograniczenia</strong>: wymaga zasilania z sieci, więc potrzebne jest gniazdko na zewnątrz albo poprowadzenie przewodu. Miejsce montażu musi mieć dobry zasięg Wi-Fi 2,4 GHz. Chmura Tapo Care jest płatna, ale nie jest obowiązkowa.</p>
+<p><strong>Dla kogo</strong>: osoby, które kupują pierwszą kamerę albo chcą objąć podwórko i parking jednym urządzeniem.</p>
 
-<h3>3. Reolink RLC-833A — najlepsza opcja przewodowa PoE</h3>
-<p>RLC-833A to kamera PoE 4K (8 megapikseli) z silnikowym zoomem optycznym 3x (obiektyw 2,8–8 mm). Przechodzi od szerokiego kąta 115° do wąskiego kadru 48°, co jest przydatne do wycelowania w bramę lub podjazd. Jej reflektor 700 lumenów zapewnia kolorowy obraz nocą i działa też odstraszająco, a w zestawie jest wbudowana syrena.</p>
-<p><strong>Mocne strony</strong>: jeden kabel Ethernet dla zasilania i danych, brak baterii do pilnowania, klasa IP67, karta microSD do 256 GB, zgodność z rejestratorami NVR Reolink do nagrywania ciągłego, wykrywanie osób, pojazdów i zwierząt.</p>
-<p><strong>Ograniczenia</strong>: trzeba pociągnąć kabel sieciowy do kamery i mieć switch PoE, injector lub rejestrator NVR. Montaż wymaga więcej pracy niż kamera bezprzewodowa.</p>
-<p><strong>Dla kogo</strong>: dom w budowie lub remoncie albo każdy, kto chce niezawodnego nagrywania ciągłego z kilku kamer.</p>
+<h3>3. Reolink RLC-833A – najlepsza kamera przewodowa PoE</h3>
+<p>RLC-833A to kamera PoE 4K (8 Mpx) z motozoomem optycznym 3x (obiektyw 2,8–8 mm). Kąt widzenia można zmieniać od szerokich 115° do wąskich 48°, co przydaje się, gdy chcesz objąć kadrem bramę lub podjazd. Reflektor o strumieniu 700 lumenów zapewnia kolorowy obraz w nocy i – razem z wbudowaną syreną – działa odstraszająco.</p>
+<p><strong>Mocne strony</strong>: jeden przewód Ethernet przesyła zasilanie i dane, brak akumulatora do pilnowania, stopień ochrony IP67, karta microSD do 256 GB, zgodność z rejestratorami NVR Reolink, które umożliwiają nagrywanie ciągłe, wykrywanie ludzi, pojazdów i zwierząt.</p>
+<p><strong>Ograniczenia</strong>: trzeba doprowadzić do kamery przewód sieciowy i mieć switch PoE, zasilacz PoE (injector) albo rejestrator NVR. Montaż wymaga więcej pracy niż w przypadku kamery bezprzewodowej.</p>
+<p><strong>Dla kogo</strong>: właściciele domów w budowie lub remoncie oraz wszyscy, którzy potrzebują niezawodnego, ciągłego nagrywania z kilku kamer.</p>
 
-<h3>4. Reolink Argus 4 Pro — najlepsza na baterię bez huba</h3>
-<p>Argus 4 Pro zszywa obrazy z dwóch obiektywów, aby uzyskać panoramiczny widok 4K o kącie 180°. Noktowizja ColorX daje kolorowy obraz przy słabym świetle bez włączania reflektora. Działa na baterii 6000 mAh, ładowanej przez USB-C lub panelem solarnym Reolink, i łączy się przez dwuzakresowe Wi-Fi 6.</p>
-<p><strong>Mocne strony</strong>: brak obowiązkowego huba, zapis na karcie microSD, kąt 180° obejmujący całą elewację bez martwego pola, wykrywanie osób, pojazdów i zwierząt.</p>
-<p><strong>Ograniczenia</strong>: klasa IP65, o stopień niższa niż IP67. Bardzo szeroki obraz panoramiczny jest mniej szczegółowy na odległym obiekcie niż zoom optyczny.</p>
-<p><strong>Dla kogo</strong>: osoby, które chcą autonomicznej kamery bezprzewodowej, bez bazy i bez kabla, do elewacji lub otwartego ogrodu.</p>
+<h3>4. Reolink Argus 4 Pro – najlepsza kamera na baterię bez huba</h3>
+<p>Argus 4 Pro łączy obraz z dwóch obiektywów w panoramiczny widok 4K o kącie 180°. Tryb nocny ColorX daje kolorowy obraz przy słabym oświetleniu bez włączania reflektora. Kamera działa na akumulatorze 6000 mAh, który można ładować przez USB-C lub z panelu słonecznego Reolink, i łączy się z siecią przez dwuzakresowe Wi-Fi 6.</p>
+<p><strong>Mocne strony</strong>: nie wymaga huba, zapisuje nagrania na karcie microSD, kąt 180° obejmuje całą elewację bez martwych pól, wykrywa ludzi, pojazdy i zwierzęta.</p>
+<p><strong>Ograniczenia</strong>: stopień ochrony IP65, czyli o stopień niższy niż IP67. Bardzo szeroki obraz panoramiczny pokazuje odległe obiekty mniej szczegółowo niż kamera z zoomem optycznym.</p>
+<p><strong>Dla kogo</strong>: osoby, które chcą samodzielnej kamery bezprzewodowej – bez stacji bazowej i bez kabli – do obserwacji elewacji lub otwartego ogrodu.</p>
 
-<h3>5. eufy SoloCam S340 — podwójny obiektyw bez bazy</h3>
-<p>SoloCam S340 łączy szerokokątny obiektyw 3K z teleobiektywem 2K i zoomem hybrydowym 8x. Jej głowica obraca się o 360° i pochyla o 70°, a nagrania zapisuje w 8 GB pamięci wbudowanej, bez bazy ani karty do dokupienia. Odłączany panel słoneczny 2,2 W wydłuża czas pracy.</p>
-<p><strong>Mocne strony</strong>: brak obowiązkowej HomeBase, zoom do odczytania szczegółów, pełny obrót, ładowanie solarne, kolorowa noktowizja z reflektorem.</p>
-<p><strong>Ograniczenia</strong>: 8 GB pamięci szybko się zapełnia na uczęszczanym odcinku, a Wi-Fi działa tylko w paśmie 2,4 GHz. Można ją później połączyć z HomeBase S380, aby rozszerzyć pamięć.</p>
-<p><strong>Dla kogo</strong>: dom, który chce jednej uniwersalnej kamery bezprzewodowej, zdolnej przybliżyć bramę lub podjazd.</p>
+<h3>5. eufy SoloCam S340 – dwa obiektywy bez stacji bazowej</h3>
+<p>SoloCam S340 łączy szerokokątny obiektyw 3K z teleobiektywem 2K i oferuje zoom hybrydowy 8x. Głowica obraca się o 360° i pochyla o 70°, a nagrania trafiają do 8 GB pamięci wbudowanej – bez stacji bazowej i bez dokupowania karty. Odłączany panel słoneczny 2,2 W wydłuża czas pracy na akumulatorze.</p>
+<p><strong>Mocne strony</strong>: nie wymaga HomeBase, zoom pozwala dojrzeć szczegóły, pełny obrót, ładowanie z panelu słonecznego, kolorowy obraz w nocy dzięki reflektorowi.</p>
+<p><strong>Ograniczenia</strong>: 8 GB pamięci szybko się zapełnia, jeśli kamera obserwuje ruchliwe przejście, a Wi-Fi działa tylko w paśmie 2,4 GHz. Kamerę można później połączyć z HomeBase S380, aby zwiększyć pamięć.</p>
+<p><strong>Dla kogo</strong>: osoby, które chcą jednej wszechstronnej kamery bezprzewodowej, zdolnej przybliżyć obraz bramy lub podjazdu.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Obraz</th><th>Zasilanie</th><th>Pamięć lokalna</th><th>Szczelność</th><th>Idealny do</th></tr>
+<tr><th>Model</th><th>Obraz</th><th>Zasilanie</th><th>Zapis lokalny</th><th>Szczelność</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td>eufyCam S3 Pro</td><td>4K, f/1.0</td><td>Bateria + wbudowany panel solarny</td><td>HomeBase S380 (16 GB, do 16 TB)</td><td>IP67</td><td>Kompletny system bezprzewodowy</td></tr>
-<tr><td>TP-Link Tapo C520WS</td><td>2K QHD, obrotowa</td><td>Sieć</td><td>microSD do 512 GB</td><td>IP66</td><td>Mały budżet, duże podwórko</td></tr>
+<tr><td>eufyCam S3 Pro</td><td>4K, f/1.0</td><td>Akumulator + wbudowany panel słoneczny</td><td>HomeBase S380 (16 GB, do 16 TB)</td><td>IP67</td><td>Kompletny system bezprzewodowy</td></tr>
+<tr><td>TP-Link Tapo C520WS</td><td>2K QHD, obrotowa</td><td>Sieciowe</td><td>microSD do 512 GB</td><td>IP66</td><td>Mały budżet, duże podwórko</td></tr>
 <tr><td>Reolink RLC-833A</td><td>4K, zoom optyczny 3x</td><td>PoE</td><td>microSD do 256 GB lub NVR</td><td>IP67</td><td>Instalacja przewodowa</td></tr>
-<tr><td>Reolink Argus 4 Pro</td><td>4K, 180°</td><td>Bateria, opcjonalny panel solarny</td><td>microSD</td><td>IP65</td><td>Bezprzewodowa, bez huba</td></tr>
-<tr><td>eufy SoloCam S340</td><td>3K + 2K, zoom hybrydowy 8x</td><td>Bateria + odłączany panel solarny</td><td>8 GB wbudowane</td><td>Do użytku na zewnątrz</td><td>Uniwersalna kamera pojedyncza</td></tr>
+<tr><td>Reolink Argus 4 Pro</td><td>4K, 180°</td><td>Akumulator, opcjonalny panel słoneczny</td><td>microSD</td><td>IP65</td><td>Bez kabli i bez huba</td></tr>
+<tr><td>eufy SoloCam S340</td><td>3K + 2K, zoom hybrydowy 8x</td><td>Akumulator + odłączany panel słoneczny</td><td>8 GB pamięci wbudowanej</td><td>Do użytku na zewnątrz</td><td>Jedna wszechstronna kamera</td></tr>
 </tbody>
 </table>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Zakładanie, że „bez abonamentu” oznacza „wszystkie funkcje w cenie”</strong>: niektóre marki rezerwują historię lub zaawansowane wykrywanie dla swojej chmury. Modele z tego porównania nagrywają lokalnie bez abonamentu.</li>
-<li><strong>Lekceważenie Wi-Fi</strong>: kamera w głębi ogrodu ze słabym sygnałem się rozłącza i pomija zdarzenia. Sprawdź sygnał w dokładnym miejscu montażu lub przejdź na PoE.</li>
-<li><strong>Montaż panelu słonecznego w cieniu</strong>: ładowanie zależy bezpośrednio od nasłonecznienia. Skieruj go na południe, przy niczym niezasłoniętym niebie.</li>
-<li><strong>Zamontowanie kamery zbyt wysoko</strong>: powyżej ok. 3 metrów widać głównie czubki głów. Wysokość między 2,5 a 3 metra to dobry kompromis.</li>
-<li><strong>Filmowanie ulicy lub terenu sąsiadów</strong>: skorzystaj ze stref prywatności w aplikacji, aby zasłonić wszystko, co nie jest Twoją własnością.</li>
-<li><strong>Pozostawienie domyślnego hasła</strong>: zmień je, włącz uwierzytelnianie dwuskładnikowe i aktualizuj oprogramowanie sprzętowe.</li>
+<li><strong>Przekonanie, że „bez abonamentu” znaczy „wszystkie funkcje w cenie”</strong>: niektóre marki udostępniają historię nagrań lub zaawansowane wykrywanie tylko w swojej chmurze. Modele z tego zestawienia nagrywają lokalnie bez abonamentu.</li>
+<li><strong>Lekceważenie zasięgu Wi-Fi</strong>: kamera na końcu ogrodu przy słabym sygnale traci połączenie i nie rejestruje zdarzeń. Sprawdź sygnał dokładnie w miejscu montażu albo wybierz PoE.</li>
+<li><strong>Montowanie panelu słonecznego w cieniu</strong>: ładowanie zależy wprost od nasłonecznienia. Skieruj panel na południe, tam, gdzie nic nie zasłania nieba.</li>
+<li><strong>Wieszanie kamery zbyt wysoko</strong>: powyżej ok. 3 m widać głównie czubki głów. Dobry kompromis to wysokość 2,5–3 m.</li>
+<li><strong>Filmowanie ulicy lub posesji sąsiadów</strong>: użyj stref prywatności w aplikacji, aby zamaskować wszystko, co nie należy do Twojej posesji.</li>
+<li><strong>Pozostawianie domyślnego hasła</strong>: zmień je, włącz uwierzytelnianie dwuskładnikowe i regularnie aktualizuj oprogramowanie kamery.</li>
 </ul>
 
-<h2>Instalacja i ramy prawne</h2>
-<p>Osoba prywatna może filmować własną nieruchomość, ale nie drogę publiczną ani teren czy okna sąsiadów. Ustaw kąt widzenia i maski prywatności już podczas instalacji. Jeśli zatrudniasz kogoś w domu (pomoc domowa, niania), obowiązują szczególne zasady informowania: zasięgnij informacji w organie ochrony danych osobowych w swoim kraju (we Francji jest to CNIL). Przy kamerze zasilanej z sieci lub przez PoE niezbędny jest czysty, zabezpieczony przepust kabla; przy tworzeniu jakiegokolwiek zewnętrznego gniazdka lub obwodu skorzystaj z usług wykwalifikowanego elektryka.</p>
-<p>Aby zbudować kompletny system, połącz kamerę zewnętrzną z <a href="/pl/blog/sonnette-video-sans-abonnement">dzwonkiem wideo bez abonamentu</a> i zajrzyj do naszego <a href="/pl/blog/guide-securite-maison-connectee-2026">poradnika o bezpieczeństwie inteligentnego domu</a>.</p>
+<h2>Instalacja i przepisy</h2>
+<p>Osoba prywatna może filmować własną posesję, ale nie wolno jej obejmować kadrem drogi publicznej ani działek i okien sąsiadów. Ustaw kąt widzenia i maski prywatności od razu przy montażu. Jeśli zatrudniasz kogoś w domu (np. pomoc domową lub nianię), obowiązują szczególne zasady informowania tej osoby – sprawdź je u krajowego organu ochrony danych osobowych (we Francji jest to CNIL). Kamera zasilana z sieci lub przez PoE wymaga starannie poprowadzonego i zabezpieczonego przewodu, a montaż nowego gniazdka lub obwodu na zewnątrz zleć wykwalifikowanemu elektrykowi.</p>
+<p>Kompletny system zbudujesz, łącząc kamerę zewnętrzną z <a href="/pl/blog/sonnette-video-sans-abonnement">dzwonkiem wideo bez abonamentu</a>. Więcej znajdziesz w naszym <a href="/pl/blog/guide-securite-maison-connectee-2026">poradniku o bezpieczeństwie inteligentnego domu</a>.</p>
 
 <h2>Werdykt</h2>
-<p><strong>eufyCam S3 Pro</strong> to najlepszy wybór ogólnie: obraz nocny na wysokim poziomie, wbudowane ładowanie solarne i rozbudowywalna pamięć lokalna w HomeBase S380, bez miesięcznych opłat. <strong>TP-Link Tapo C520WS</strong> to najlepsza okazja do nadzorowania podwórka jednym urządzeniem zasilanym z sieci. Jeśli możesz pociągnąć kabel sieciowy, <strong>Reolink RLC-833A</strong> oferuje najstabilniejsze rozwiązanie, ze zoomem optycznym i nagrywaniem ciągłym na NVR. <strong>Argus 4 Pro</strong> i <strong>SoloCam S340</strong> sprawdzą się u osób, które chcą autonomicznej kamery bezprzewodowej, bez bazy.</p>`,
+<p><strong>eufyCam S3 Pro</strong> to najlepszy wybór dla większości domów: świetny obraz w nocy, wbudowany panel słoneczny i rozbudowywalna pamięć lokalna w HomeBase S380, bez miesięcznych opłat. <strong>TP-Link Tapo C520WS</strong> to najkorzystniejsza cenowo propozycja, jeśli chcesz objąć podwórko jednym urządzeniem zasilanym z sieci. Jeśli możesz poprowadzić przewód sieciowy, <strong>Reolink RLC-833A</strong> zapewni najstabilniejsze działanie, zoom optyczny i ciągłe nagrywanie na rejestrator NVR. <strong>Argus 4 Pro</strong> i <strong>SoloCam S340</strong> to dobry wybór dla osób, które szukają samodzielnej kamery bezprzewodowej, bez stacji bazowej.</p>`,
   },
   faq: [
     {
@@ -592,7 +592,7 @@ export const article: BlogArticle = {
         es: 'Sí. Los modelos de esta comparativa graban en tarjeta microSD, memoria integrada, HomeBase o NVR, y envían notificaciones sin suscripción. La nube de pago sigue siendo opcional si quieres una copia fuera de casa.',
         it: 'Sì. I modelli di questo confronto registrano su scheda microSD, memoria integrata, HomeBase o NVR e inviano le notifiche senza abbonamento. Il cloud a pagamento resta facoltativo se vuoi una copia fuori casa.',
         nl: 'Ja. De modellen in deze vergelijking nemen op naar een microSD-kaart, ingebouwd geheugen, een HomeBase of een NVR, en sturen meldingen zonder abonnement. Een betaalde cloud blijft optioneel als je een kopie buitenshuis wilt.',
-        pl: 'Tak. Modele z tego porównania nagrywają na karcie microSD, w pamięci wbudowanej, w HomeBase lub na NVR i wysyłają powiadomienia bez abonamentu. Płatna chmura pozostaje opcją, jeśli chcesz mieć kopię poza domem.',
+        pl: 'Tak. Modele z tego zestawienia nagrywają na kartę microSD, do pamięci wbudowanej, w stacji HomeBase lub na rejestratorze NVR i wysyłają powiadomienia bez abonamentu. Płatna chmura to tylko opcja – przydaje się, jeśli zależy Ci na kopii nagrań poza domem.',
       },
     },
     {
@@ -612,7 +612,7 @@ export const article: BlogArticle = {
         es: 'Las imágenes guardadas en la cámara desaparecen con ella. Para reducir el riesgo, instálala fuera de alcance o elige un sistema que guarde las grabaciones dentro de casa: HomeBase S380 en eufy o NVR en las Reolink PoE.',
         it: 'Le registrazioni salvate nella telecamera spariscono con essa. Per ridurre il rischio, montala fuori portata o scegli un sistema che archivia all’interno della casa: HomeBase S380 per eufy, NVR per le Reolink PoE.',
         nl: 'Beelden die in de camera staan, verdwijnen mee. Monteer hem buiten handbereik of kies een systeem dat binnenshuis opslaat: de HomeBase S380 bij eufy, of een NVR bij de PoE-camera’s van Reolink.',
-        pl: 'Nagrania zapisane w kamerze znikają razem z nią. Aby ograniczyć to ryzyko, zamontuj ją poza zasięgiem ręki albo wybierz system, który przechowuje dane wewnątrz domu: HomeBase S380 w przypadku eufy, NVR w przypadku Reolink z PoE.',
+        pl: 'Nagrania zapisane w kamerze znikają razem z nią. Aby ograniczyć to ryzyko, zamontuj ją poza zasięgiem ręki albo wybierz system, który zapisuje nagrania wewnątrz domu: HomeBase S380 w przypadku eufy lub rejestrator NVR w przypadku kamer Reolink na PoE.',
       },
     },
     {
@@ -623,7 +623,7 @@ export const article: BlogArticle = {
         es: '2K o 4K: ¿qué resolución elegir para exterior?',
         it: '2K o 4K: quale risoluzione scegliere per l’esterno?',
         nl: '2K of 4K: welke resolutie kies je voor buiten?',
-        pl: '2K czy 4K: jaką rozdzielczość wybrać na zewnątrz?',
+        pl: '2K czy 4K: jaką rozdzielczość wybrać do kamery zewnętrznej?',
       },
       answer: {
         fr: 'La 2K suffit pour une entrée ou une cour de taille moyenne. La 4K est utile si vous voulez reconnaître un visage ou un véhicule plus loin, à condition d’avoir un Wi-Fi solide ou une connexion PoE et assez d’espace de stockage.',
@@ -632,7 +632,7 @@ export const article: BlogArticle = {
         es: 'El 2K basta para una entrada o un patio mediano. El 4K es útil si quieres reconocer una cara o un vehículo a más distancia, siempre que tengas un Wi-Fi sólido o conexión PoE y espacio de almacenamiento suficiente.',
         it: 'Il 2K basta per un ingresso o un cortile di medie dimensioni. Il 4K è utile se vuoi riconoscere un volto o un veicolo più lontano, a patto di avere un Wi-Fi solido o una connessione PoE e spazio di archiviazione sufficiente.',
         nl: '2K volstaat voor een voordeur of een middelgrote binnenplaats. 4K is nuttig als je een gezicht of voertuig verder weg wilt herkennen, op voorwaarde dat je stevige wifi of een PoE-verbinding en voldoende opslag hebt.',
-        pl: '2K wystarcza dla wejścia lub podwórka średniej wielkości. 4K przydaje się, jeśli chcesz rozpoznać twarz lub pojazd z większej odległości, pod warunkiem że masz stabilne Wi-Fi lub połączenie PoE i wystarczająco dużo miejsca na dane.',
+        pl: '2K wystarczy do obserwacji wejścia lub średniej wielkości podwórka. 4K przydaje się, gdy chcesz rozpoznać twarz lub pojazd z większej odległości – pod warunkiem że masz mocny sygnał Wi-Fi lub połączenie PoE i dość miejsca na nagrania.',
       },
     },
     {
@@ -643,7 +643,7 @@ export const article: BlogArticle = {
         es: 'Batería, solar, red eléctrica o PoE: ¿qué alimentación elegir?',
         it: 'Batteria, solare, rete elettrica o PoE: quale alimentazione scegliere?',
         nl: 'Accu, zonne-energie, netstroom of PoE: welke voeding kies je?',
-        pl: 'Bateria, solar, sieć czy PoE: jakie zasilanie wybrać?',
+        pl: 'Bateria, panel słoneczny, sieć czy PoE: jakie zasilanie wybrać?',
       },
       answer: {
         fr: 'La batterie avec panneau solaire est la plus simple à poser. Le secteur évite les recharges mais demande une prise à proximité. Le PoE est le plus fiable pour l’enregistrement continu, mais il faut tirer un câble Ethernet jusqu’à la caméra.',
@@ -652,7 +652,7 @@ export const article: BlogArticle = {
         es: 'La batería con panel solar es la más fácil de instalar. La red eléctrica evita recargas, pero necesita un enchufe cerca. El PoE es lo más fiable para grabación continua, pero hay que llevar un cable Ethernet hasta la cámara.',
         it: 'La batteria con pannello solare è la più semplice da installare. La rete elettrica evita le ricariche ma richiede una presa vicina. Il PoE è il più affidabile per la registrazione continua, ma serve un cavo Ethernet fino alla telecamera.',
         nl: 'Een accu met zonnepaneel is het eenvoudigst te monteren. Netstroom bespaart opladen, maar vraagt een stopcontact in de buurt. PoE is het betrouwbaarst voor continue opname, maar je moet een netwerkkabel tot aan de camera trekken.',
-        pl: 'Bateria z panelem słonecznym jest najprostsza w montażu. Zasilanie sieciowe eliminuje ładowanie, ale wymaga gniazdka w pobliżu. PoE jest najbardziej niezawodne przy nagrywaniu ciągłym, ale trzeba pociągnąć kabel Ethernet do kamery.',
+        pl: 'Kamerę na baterię z panelem słonecznym najłatwiej zamontować. Zasilanie z sieci eliminuje ładowanie, ale wymaga gniazdka w pobliżu. PoE jest najpewniejsze przy nagrywaniu ciągłym, ale trzeba doprowadzić do kamery przewód Ethernet.',
       },
     },
     {
@@ -672,7 +672,7 @@ export const article: BlogArticle = {
         es: 'No. Un particular solo puede grabar su propiedad, no la vía pública ni a los vecinos. Orienta la cámara hacia tu terreno y usa las zonas de privacidad de la app para ocultar el resto.',
         it: 'No. Un privato può riprendere solo la propria proprietà, non la via pubblica né i vicini. Orienta la telecamera verso il tuo terreno e usa le zone privacy dell’app per mascherare il resto.',
         nl: 'Nee. Een particulier mag alleen zijn eigen eigendom filmen, niet de openbare weg of de buren. Richt de camera op je eigen terrein en gebruik de privacyzones in de app om de rest te maskeren.',
-        pl: 'Nie. Osoba prywatna może filmować tylko swoją nieruchomość, a nie drogę publiczną ani teren sąsiadów. Skieruj kamerę na swoją działkę i użyj stref prywatności w aplikacji, aby zasłonić resztę.',
+        pl: 'Nie. Osoba prywatna może filmować tylko własną posesję, a nie drogę publiczną czy teren sąsiadów. Skieruj kamerę na swoją działkę, a resztę zamaskuj strefami prywatności w aplikacji.',
       },
     },
     {
@@ -692,7 +692,7 @@ export const article: BlogArticle = {
         es: 'No siempre. La eufyCam S3 Pro necesita la HomeBase S380, que guarda los vídeos dentro de casa. La Reolink Argus 4 Pro y la eufy SoloCam S340 funcionan solas, con tarjeta microSD o memoria integrada.',
         it: 'Non sempre. La eufyCam S3 Pro richiede la HomeBase S380, che archivia i video in casa. La Reolink Argus 4 Pro e la eufy SoloCam S340 funzionano da sole, con scheda microSD o memoria integrata.',
         nl: 'Niet altijd. De eufyCam S3 Pro vereist de HomeBase S380, die de beelden binnenshuis opslaat. De Reolink Argus 4 Pro en de eufy SoloCam S340 werken zelfstandig, met een microSD-kaart of ingebouwd geheugen.',
-        pl: 'Nie zawsze. eufyCam S3 Pro wymaga HomeBase S380, która przechowuje nagrania wewnątrz domu. Reolink Argus 4 Pro i eufy SoloCam S340 działają samodzielnie, z kartą microSD lub pamięcią wbudowaną.',
+        pl: 'Nie zawsze. eufyCam S3 Pro wymaga stacji HomeBase S380, która przechowuje nagrania w domu. Reolink Argus 4 Pro i eufy SoloCam S340 działają samodzielnie i zapisują nagrania na karcie microSD lub w pamięci wbudowanej.',
       },
     },
   ],

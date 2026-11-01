@@ -14,7 +14,7 @@ const metaDescriptions: Record<string, string> = {
   es: 'Aviso legal de Home Nura: editor, alojamiento, programa de afiliados de Amazon y propiedad intelectual. Información completa conforme a la ley.',
   it: 'Note legali di Home Nura: editore, hosting, programma di affiliazione Amazon e proprietà intellettuale. Informazioni complete ai sensi di legge.',
   nl: 'Juridische kennisgeving van Home Nura: uitgever, hosting, Amazon-partnerprogramma en intellectueel eigendom. Volledige wettelijke informatie.',
-  pl: 'Nota prawna Home Nura: wydawca, hosting, program partnerski Amazon i własność intelektualna. Pełne informacje prawne.',
+  pl: 'Nota prawna serwisu Home Nura: wydawca, dostawca hostingu, program partnerski Amazon i własność intelektualna. Informacje zgodne z francuską ustawą LCEN.',
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {

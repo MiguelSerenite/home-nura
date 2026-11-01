@@ -29,7 +29,7 @@ export const article: BlogArticle = {
     es: 'Comparativa Robot Aspirador y Fregasuelos 2026: los 5 mejores modelos',
     it: 'Confronto Robot Aspirapolvere Lavapavimenti 2026: i 5 migliori modelli',
     nl: 'Vergelijking Robotstofzuiger met Dweilfunctie 2026: de 5 beste modellen',
-    pl: 'Porównanie robotów sprzątających z mopem 2026: 5 najlepszych modeli',
+    pl: 'Robot sprzątający z mopem 2026: porównanie 5 najlepszych modeli',
   },
   excerpt: {
     fr: 'Dreame X50 Ultra Complete, Roborock Qrevo Curv 2 Flow, Ecovacs Deebot X8 Pro Omni, Narwal Freo Z Ultra et Dreame L40 Ultra : notre comparatif 2026 des robots aspirateurs laveurs, entre serpillères rotatives et rouleaux, stations et navigation.',
@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: 'Dreame X50 Ultra Complete, Roborock Qrevo Curv 2 Flow, Ecovacs Deebot X8 Pro Omni, Narwal Freo Z Ultra y Dreame L40 Ultra: nuestra comparativa 2026 de robots aspirador y fregasuelos, entre mopas giratorias y rodillos, bases y navegación.',
     it: 'Dreame X50 Ultra Complete, Roborock Qrevo Curv 2 Flow, Ecovacs Deebot X8 Pro Omni, Narwal Freo Z Ultra e Dreame L40 Ultra: il nostro confronto 2026 dei robot aspirapolvere lavapavimenti, tra panni rotanti e rulli, stazioni e navigazione.',
     nl: 'Dreame X50 Ultra Complete, Roborock Qrevo Curv 2 Flow, Ecovacs Deebot X8 Pro Omni, Narwal Freo Z Ultra en Dreame L40 Ultra: onze vergelijking 2026 van robotstofzuigers met dweilfunctie, van draaiende pads tot dweilrollen, stations en navigatie.',
-    pl: 'Dreame X50 Ultra Complete, Roborock Qrevo Curv 2 Flow, Ecovacs Deebot X8 Pro Omni, Narwal Freo Z Ultra i Dreame L40 Ultra: nasze porównanie robotów sprzątających z mopem 2026, czyli obrotowe mopy i rolki, stacje i nawigacja.',
+    pl: 'Dreame X50 Ultra Complete, Roborock Qrevo Curv 2 Flow, Ecovacs Deebot X8 Pro Omni, Narwal Freo Z Ultra i Dreame L40 Ultra: nasze porównanie robotów sprzątających z mopem na 2026 rok – mopy obrotowe czy wałek, stacje i nawigacja.',
   },
   content: {
     fr: `<p><strong>Le meilleur robot aspirateur laveur en 2026 pour la plupart des foyers est le Dreame X50 Ultra Complete</strong> : aspiration très puissante, serpillère et brosse extensibles pour les bords, lavage des serpillères à eau chaude et un châssis capable de franchir de hauts seuils. Si vous avez surtout des sols durs et des taches collantes, le Roborock Qrevo Curv 2 Flow et son rouleau laveur est l’alternative la plus intéressante, et le Dreame L40 Ultra reste le choix le plus raisonnable pour un équipement complet en milieu de gamme.</p>
@@ -520,85 +520,85 @@ export const article: BlogArticle = {
 <h2>Ons oordeel</h2>
 <p>Voor de meeste huishoudens is de <strong>Dreame X50 Ultra Complete</strong> de meest complete robotstofzuiger met dweilfunctie van 2026: krachtig, wendbaar op drempels en zeer zelfstandig. Wil je vooral grote harde vloeren dweilen, dan passen de <strong>Roborock Qrevo Curv 2 Flow</strong> en zijn continu gereinigde rol beter, met de <strong>Ecovacs Deebot X8 Pro Omni</strong> als direct alternatief. De <strong>Narwal Freo Z Ultra</strong> past bij wie dweilen voorop zet, en de <strong>Dreame L40 Ultra</strong> biedt de kern van een volledig station in een toegankelijker segment.</p>
 <p>Alle aankoopcriteria, ook voor robots zonder dweilfunctie, lees je in onze <a href="/nl/blog/guide-robot-aspirateur-2026">complete gids voor robotstofzuigers 2026</a>.</p>`,
-    pl: `<p><strong>Najlepszy robot sprzątający z mopem 2026 dla większości domów to Dreame X50 Ultra Complete</strong>: bardzo mocne ssanie, wysuwane mop i szczotka do krawędzi, mycie mopów gorącą wodą oraz podwozie zdolne pokonywać wysokie progi. Jeśli masz głównie twarde podłogi i lepiące się plamy, najciekawszą alternatywą jest Roborock Qrevo Curv 2 Flow z mopem rolkowym, a Dreame L40 Ultra pozostaje najrozsądniejszym wyborem na kompletne wyposażenie ze średniej półki.</p>
-<p>To porównanie opiera się na kartach katalogowych producentów, opublikowanych niezależnych opiniach i opiniach zweryfikowanych kupujących. Uwzględnia wyłącznie modele sprzedawane w Europie w 2026 roku. Wartości ssania i temperatury to dane deklarowane przez marki: służą do porównania modeli między sobą, a nie do przewidzenia dokładnego wyniku u Ciebie w domu. Cały wybór znajdziesz na stronie <a href="/pl/entretien-maison/aspirateurs-robots">roboty odkurzające</a>.</p>
+    pl: `<p><strong>Najlepszym robotem sprzątającym z mopem w 2026 roku jest dla większości domów Dreame X50 Ultra Complete</strong>: bardzo duża siła ssania, wysuwany mop i szczotka boczna, które docierają do krawędzi, mycie mopów gorącą wodą oraz podwozie zdolne pokonywać wysokie progi. Jeśli masz głównie twarde podłogi i często walczysz z lepkimi plamami, najciekawszą alternatywą jest Roborock Qrevo Curv 2 Flow z mopem rolkowym, a Dreame L40 Ultra to najrozsądniejszy wybór, jeśli szukasz pełnego wyposażenia w modelu ze średniej półki.</p>
+<p>To zestawienie opiera się na kartach katalogowych producentów, opublikowanych niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględnia wyłącznie modele sprzedawane w Europie w 2026 roku. Siła ssania i temperatury to wartości deklarowane przez producentów: pozwalają porównać modele między sobą, ale nie przewidzą dokładnie efektów w Twoim domu. Wszystkie modele znajdziesz w kategorii <a href="/pl/entretien-maison/aspirateurs-robots">roboty sprzątające</a>.</p>
 
-<h2>Jak wybrać robot sprzątający z mopem w 2026 roku</h2>
-<p>Prawie wszystkie modele z wyższej półki odkurzają i myją już w jednym przejeździe. Prawdziwe różnice sprowadzają się do pięciu punktów.</p>
+<h2>Jak wybrać robota sprzątającego z mopem w 2026 roku</h2>
+<p>Niemal wszystkie modele z wyższej półki odkurzają i myją podłogę w jednym przejeździe. O prawdziwych różnicach decyduje pięć kwestii.</p>
 <ul>
-<li><strong>System mycia.</strong> Współistnieją dwie rodziny. <strong>Obrotowe mopy</strong> (dwie tarcze, które obracają się, dociskając podłogę) są normą od kilku lat i często można je zostawić w stacji, by odkurzać dywany. <strong>Mopy rolkowe</strong>, nowsze, są stale zraszane czystą wodą, podczas gdy brudna woda jest zgarniana: podłoga jest więc myta rolką, która przez cały cykl pozostaje czystsza.</li>
-<li><strong>Stacja.</strong> Kompletna stacja opróżnia pojemnik na kurz, napełnia zbiornik, myje mop gorącą wodą, suszy go gorącym powietrzem, a czasem dozuje detergent. Gorąca woda służy głównie do czyszczenia mopa w stacji, co ogranicza nieprzyjemne zapachy.</li>
-<li><strong>Obsługa dywanów.</strong> Sprawdź wysokość unoszenia mopa i możliwość zostawienia go w stacji. Uniesienie o 10–12 mm wystarcza dla dywanów o krótkim włosiu, ale nie dla grubych.</li>
-<li><strong>Nawigacja i omijanie przeszkód.</strong> LiDAR odpowiada za mapowanie; kamera lub światło strukturalne 3D pozwalają omijać kable, skarpetki i odchody zwierząt.</li>
-<li><strong>Wysokość i pokonywanie progów.</strong> Robot wyższy niż 10 cm nie wjedzie pod wiele niskich mebli. Niektóre modele chowają wieżyczkę LiDAR lub unoszą podwozie, by pokonywać progi.</li>
+<li><strong>System mycia.</strong> Na rynku są dwa rozwiązania. <strong>Mopy obrotowe</strong> (dwa krążki, które obracają się, dociskając podłogę) od kilku lat są standardem i często można je zostawić w stacji, gdy robot odkurza dywany. Nowsze <strong>mopy rolkowe</strong> są przez cały czas zwilżane czystą wodą, a brudna woda jest na bieżąco zbierana zgarniaczem – podłogę myje więc wałek, który przez cały cykl pozostaje czystszy.</li>
+<li><strong>Stacja.</strong> Pełna stacja opróżnia pojemnik na kurz, napełnia zbiornik, myje mop gorącą wodą, suszy go gorącym powietrzem, a czasem sama dozuje detergent. Gorąca woda służy przede wszystkim do mycia mopa w stacji, co ogranicza nieprzyjemne zapachy.</li>
+<li><strong>Dywany.</strong> Sprawdź, na jaką wysokość robot unosi mop i czy może zostawić go w stacji. Uniesienie o 10–12 mm wystarczy na dywanach z krótkim włosiem, ale nie na grubych.</li>
+<li><strong>Nawigacja i omijanie przeszkód.</strong> LiDAR odpowiada za tworzenie mapy, a kamera lub światło strukturalne 3D pozwalają omijać kable, skarpetki i odchody zwierząt.</li>
+<li><strong>Wysokość i pokonywanie progów.</strong> Robot wyższy niż 10 cm nie zmieści się pod wieloma niskimi meblami. Niektóre modele chowają wieżyczkę LiDAR albo podnoszą podwozie, by pokonać próg.</li>
 </ul>
 
-<h2>5 najlepszych robotów sprzątających z mopem 2026</h2>
+<h2>5 najlepszych robotów sprzątających z mopem w 2026 roku</h2>
 
-<h3>1. Dreame X50 Ultra Complete: najlepszy wybór ogólny</h3>
-<p>Dreame X50 Ultra Complete deklaruje <strong>20 000 Pa ssania</strong>, szczotkę boczną i obrotowy mop wysuwające się ku listwom przypodłogowym i pod meble oraz szczotkę główną zaprojektowaną tak, by ograniczać nawijanie włosów. Jego system <strong>ProLeap</strong> pozwala mu według Dreame pokonywać przeszkody do 6 cm, a chowana wieżyczka LiDAR obniża wysokość do 8,9 cm, by wjechać pod niskie meble.</p>
-<p><strong>Mocne strony:</strong> bardzo kompletna stacja (automatyczne opróżnianie, mycie mopów w 80 °C, suszenie gorącym powietrzem), omijanie przeszkód dzięki kamerze RGB i światłu strukturalnemu 3D, deklarowana autonomia do 220 minut. Niezależne opinie chwalą przede wszystkim sprzątanie krawędzi i wszechstronność na dywanach i twardych podłogach.</p>
-<p><strong>Ograniczenia:</strong> to model premium, stacja jest duża, a aplikacja oferuje tyle ustawień, że wymaga czasu na oswojenie się.</p>
-<p><strong>Dla kogo:</strong> dla domów z progami, dywanami i mieszanymi twardymi podłogami oraz dla tych, którzy chcą robota możliwie najbardziej samodzielnego.</p>
+<h3>1. Dreame X50 Ultra Complete: najlepszy wybór dla większości</h3>
+<p>Dreame X50 Ultra Complete ma według producenta <strong>siłę ssania 20 000 Pa</strong>, szczotkę boczną i mop obrotowy, które wysuwają się w stronę listew przypodłogowych i pod meble, oraz szczotkę główną zaprojektowaną tak, by ograniczać nawijanie włosów. System <strong>ProLeap</strong> pozwala mu – według Dreame – pokonywać przeszkody o wysokości do 6 cm, a chowana wieżyczka LiDAR obniża jego wysokość do 8,9 cm, dzięki czemu wjeżdża pod niskie meble.</p>
+<p><strong>Mocne strony:</strong> bardzo dobrze wyposażona stacja (automatyczne opróżnianie, mycie mopów w temperaturze 80 °C, suszenie gorącym powietrzem), omijanie przeszkód dzięki kamerze RGB i światłu strukturalnemu 3D, deklarowany czas pracy do 220 minut. Niezależne recenzje chwalą przede wszystkim sprzątanie przy krawędziach i to, że robot równie dobrze radzi sobie na dywanach, jak na twardych podłogach.</p>
+<p><strong>Ograniczenia:</strong> to model premium, stacja zajmuje dużo miejsca, a aplikacja ma tyle ustawień, że jej opanowanie wymaga czasu.</p>
+<p><strong>Dla kogo:</strong> domy z progami, w których dywany przeplatają się z twardymi podłogami, oraz osoby, które chcą robota wymagającego jak najmniej obsługi.</p>
 
 <h3>2. Roborock Qrevo Curv 2 Flow: mop rolkowy do twardych podłóg</h3>
-<p>Roborock Qrevo Curv 2 Flow to pierwszy robot marki z <strong>mopem rolkowym</strong>. Jego system SpiraFlow rozprowadza czystą wodę przez osiem punktów zraszania na rolce o szerokości 270 mm, a zgarniacz stale usuwa brudną wodę. Roborock deklaruje wyraźnie większy docisk mycia niż w jego obrotowych mopach oraz ssanie <strong>20 000 Pa</strong>.</p>
-<p><strong>Mocne strony:</strong> rolka, która pozostaje czysta podczas przejazdu, idealna do kuchni i lepiących się plam; stacja, która opróżnia, napełnia, myje rolkę gorącą wodą do 75 °C i suszy ją gorącym powietrzem; zgodność z <strong>Matter</strong> dla integracji z inteligentnym domem; aplikacja Roborock ceniona za przejrzystość.</p>
-<p><strong>Ograniczenia:</strong> stała wieżyczka LiDAR sprawia, że jest wyższy niż modele z chowanym LiDAR, co ogranicza wjazd pod niektóre meble. Rolka jest częścią eksploatacyjną, którą trzeba obserwować.</p>
-<p><strong>Dla kogo:</strong> dla dużych powierzchni z płytkami lub winylem, otwartych kuchni i domów z dziećmi.</p>
+<p>Roborock Qrevo Curv 2 Flow to pierwszy robot tej marki z <strong>mopem rolkowym</strong>. System SpiraFlow rozprowadza czystą wodę przez osiem dysz na wałek o szerokości 270 mm, a zgarniacz na bieżąco usuwa brudną wodę. Roborock deklaruje wyraźnie większy docisk niż w swoich mopach obrotowych oraz siłę ssania <strong>20 000 Pa</strong>.</p>
+<p><strong>Mocne strony:</strong> wałek pozostaje czysty przez cały przejazd, co świetnie sprawdza się w kuchni i przy lepkich plamach; stacja opróżnia pojemnik, napełnia zbiornik, myje wałek gorącą wodą (do 75 °C) i suszy go gorącym powietrzem; obsługa standardu <strong>Matter</strong> ułatwia integrację z inteligentnym domem; aplikacja Roborock ma opinię przejrzystej.</p>
+<p><strong>Ograniczenia:</strong> stała wieżyczka LiDAR sprawia, że robot jest wyższy od modeli z wieżyczką chowaną i nie wjedzie pod niektóre meble. Wałek się zużywa, więc trzeba kontrolować jego stan.</p>
+<p><strong>Dla kogo:</strong> duże powierzchnie z płytkami lub panelami winylowymi, otwarte kuchnie i domy z dziećmi.</p>
 
-<h3>3. Ecovacs Deebot X8 Pro Omni: drugi wzorzec mopa rolkowego</h3>
-<p>Ecovacs Deebot X8 Pro Omni również stawia na rolkę, <strong>OZMO Roller</strong>, zasilaną czystą wodą przez 16 dysz i obracającą się z prędkością 200 obr./min. Deklaruje ssanie <strong>18 000 Pa</strong> i szczotkę przeciw nawijaniu ZeroTangle 2.0.</p>
-<p><strong>Mocne strony:</strong> stacja OMNI, która dostosowuje temperaturę mycia rolki między 40 a 75 °C w zależności od pomieszczenia i stopnia zabrudzenia, suszenie gorącym powietrzem i automatyczne dozowanie detergentu. Ecovacs podkreśla wanienkę do mycia deklarowaną na 150 dni bez konserwacji.</p>
-<p><strong>Ograniczenia:</strong> aplikacja ECOVACS HOME jest przez część użytkowników oceniana jako bardziej zawiła niż aplikacja Roborock, a materiały eksploatacyjne do rolki są specyficzne dla marki.</p>
-<p><strong>Dla kogo:</strong> dla tych, którzy chcą mopa rolkowego z mocno zautomatyzowaną stacją, zwłaszcza do rozległych twardych podłóg.</p>
+<h3>3. Ecovacs Deebot X8 Pro Omni: druga mocna propozycja z mopem rolkowym</h3>
+<p>Ecovacs Deebot X8 Pro Omni również korzysta z wałka – <strong>OZMO Roller</strong> – który jest zwilżany czystą wodą z 16 dysz i obraca się z prędkością 200 obr./min. Producent deklaruje siłę ssania <strong>18 000 Pa</strong> i szczotkę ZeroTangle 2.0, która zapobiega nawijaniu włosów.</p>
+<p><strong>Mocne strony:</strong> stacja OMNI dobiera temperaturę mycia wałka w zakresie 40–75 °C w zależności od pomieszczenia i stopnia zabrudzenia, suszy go gorącym powietrzem i automatycznie dozuje detergent. Ecovacs podkreśla, że tacka myjąca w stacji wytrzymuje według producenta 150 dni bez czyszczenia.</p>
+<p><strong>Ograniczenia:</strong> część użytkowników uważa aplikację ECOVACS HOME za mniej przejrzystą niż aplikacja Roborock, a części eksploatacyjne wałka pasują tylko do urządzeń tej marki.</p>
+<p><strong>Dla kogo:</strong> osoby, które chcą mopa rolkowego z mocno zautomatyzowaną stacją, zwłaszcza do dużych powierzchni twardych podłóg.</p>
 
-<h3>4. Narwal Freo Z Ultra: specjalista od mycia mopami</h3>
-<p>Narwal zyskał rozpoznawalność dzięki myciu, a Freo Z Ultra trzyma się tej logiki. Jego dwa trójkątne mopy dociskają podłogę z siłą 12 N przy 180 obr./min, a technologia <strong>DirtSense</strong> analizuje brudną wodę, by zdecydować, czy dana strefa wymaga drugiego przejazdu. Deklarowane ssanie wynosi <strong>12 000 Pa</strong>.</p>
-<p><strong>Mocne strony:</strong> podwójna kamera szerokokątna i podwójny układ do rozpoznawania około 120 rodzajów przeszkód, mycie mopów do 75 °C, a następnie suszenie w 40 °C, uniesienie mopa o 12 mm na dywanach.</p>
-<p><strong>Ograniczenia:</strong> ssanie jest słabsze niż w poprzednich modelach, co ma znaczenie na grubych dywanach lub przy dużej ilości sierści zwierząt.</p>
-<p><strong>Dla kogo:</strong> dla mieszkań z przewagą twardych podłóg, gdzie mycie liczy się bardziej niż odkurzanie dywanów.</p>
+<h3>4. Narwal Freo Z Ultra: specjalista od mopowania</h3>
+<p>Narwal zasłynął skutecznym myciem podłóg i Freo Z Ultra kontynuuje tę tradycję. Dwa trójkątne mopy dociskają podłogę z siłą 12 N i obracają się z prędkością 180 obr./min, a technologia <strong>DirtSense</strong> analizuje brudną wodę i na tej podstawie decyduje, czy dany obszar wymaga ponownego przejazdu. Deklarowana siła ssania to <strong>12 000 Pa</strong>.</p>
+<p><strong>Mocne strony:</strong> dwie kamery szerokokątne i dwa procesory rozpoznają ok. 120 rodzajów przeszkód, mycie mopów w temperaturze do 75 °C, a potem suszenie w 40 °C, unoszenie mopów o 12 mm na dywanach.</p>
+<p><strong>Ograniczenia:</strong> siła ssania jest mniejsza niż w modelach opisanych wyżej, co ma znaczenie na grubych dywanach i przy dużej ilości sierści.</p>
+<p><strong>Dla kogo:</strong> mieszkania z przewagą twardych podłóg, w których mycie jest ważniejsze niż odkurzanie dywanów.</p>
 
 <h3>5. Dreame L40 Ultra: najlepszy stosunek jakości do ceny</h3>
-<p>Dreame L40 Ultra przejmuje dużą część wyposażenia modeli premium w bardziej dostępnej serii. Deklaruje <strong>11 000 Pa</strong>, wysuwany mop MopExtend RoboSwing, wysuwaną szczotkę boczną oraz możliwość zostawienia mopów w stacji na czas odkurzania dywanów.</p>
-<p><strong>Mocne strony:</strong> kompletna stacja (opróżnianie, napełnianie, mycie mopów w 65 °C, suszenie gorącym powietrzem), nawigacja LiDAR z kamerą RGB i światłem strukturalnym 3D, deklarowana autonomia do 194 minut. Niezależne opinie zwracają uwagę na intuicyjną aplikację i dobre omijanie przeszkód.</p>
-<p><strong>Ograniczenia:</strong> uniesienie mopa o 10,5 mm jest skromne, pełny cykl trwa długo, a stacja zajmuje miejsce.</p>
-<p><strong>Dla kogo:</strong> dla mieszkania lub domu średniej wielkości, by skorzystać z kompletnej stacji bez celowania w najwyższą półkę.</p>
+<p>Dreame L40 Ultra oferuje dużą część wyposażenia modeli premium w przystępniejszej cenie. Producent deklaruje <strong>11 000 Pa</strong>, wysuwany mop MopExtend RoboSwing, wysuwaną szczotkę boczną oraz możliwość zostawienia mopów w stacji podczas odkurzania dywanów.</p>
+<p><strong>Mocne strony:</strong> pełna stacja (opróżnianie, napełnianie, mycie mopów w 65 °C, suszenie gorącym powietrzem), nawigacja LiDAR wspierana kamerą RGB i światłem strukturalnym 3D, deklarowany czas pracy do 194 minut. Niezależni recenzenci zwracają uwagę na intuicyjną aplikację i skuteczne omijanie przeszkód.</p>
+<p><strong>Ograniczenia:</strong> mop unosi się tylko o 10,5 mm, pełny cykl sprzątania trwa długo, a stacja zajmuje sporo miejsca.</p>
+<p><strong>Dla kogo:</strong> właściciele mieszkań i średniej wielkości domów, którzy chcą pełnej stacji, ale nie potrzebują modelu z najwyższej półki.</p>
 
 <h2>Tabela porównawcza robotów sprzątających z mopem 2026</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Deklarowane ssanie</th><th>System mycia</th><th>Mycie w stacji</th><th>Cecha wyróżniająca</th><th>Idealny do</th></tr>
+<tr><th>Model</th><th>Deklarowana siła ssania</th><th>System mycia</th><th>Mycie w stacji</th><th>Wyróżnik</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td>Dreame X50 Ultra Complete</td><td>20 000 Pa</td><td>Obrotowe mopy, wysuwane</td><td>Gorąca woda 80 °C + suszenie</td><td>Pokonuje do 6 cm, chowany LiDAR</td><td>Wszechstronny dom</td></tr>
-<tr><td>Roborock Qrevo Curv 2 Flow</td><td>20 000 Pa</td><td>Rolka SpiraFlow 270 mm</td><td>Gorąca woda do 75 °C + suszenie</td><td>Stale czyszczona rolka, Matter</td><td>Duże twarde podłogi, kuchnia</td></tr>
-<tr><td>Ecovacs Deebot X8 Pro Omni</td><td>18 000 Pa</td><td>Rolka OZMO Roller</td><td>40–75 °C adaptacyjnie + suszenie</td><td>Automatyczne dozowanie detergentu</td><td>Rozległe twarde podłogi</td></tr>
-<tr><td>Narwal Freo Z Ultra</td><td>12 000 Pa</td><td>Trójkątne mopy 12 N</td><td>Do 75 °C + suszenie 40 °C</td><td>DirtSense, podwójna kamera</td><td>Priorytet dla mycia</td></tr>
-<tr><td>Dreame L40 Ultra</td><td>11 000 Pa</td><td>Obrotowe mopy, MopExtend</td><td>Gorąca woda 65 °C + suszenie</td><td>Kompletne wyposażenie ze średniej półki</td><td>Najlepszy stosunek jakości do ceny</td></tr>
+<tr><td>Dreame X50 Ultra Complete</td><td>20 000 Pa</td><td>Mopy obrotowe, wysuwane</td><td>Gorąca woda 80 °C + suszenie</td><td>Pokonuje progi do 6 cm, chowany LiDAR</td><td>Dom z różnymi rodzajami podłóg</td></tr>
+<tr><td>Roborock Qrevo Curv 2 Flow</td><td>20 000 Pa</td><td>Wałek SpiraFlow 270 mm</td><td>Gorąca woda do 75 °C + suszenie</td><td>Wałek czyszczony na bieżąco, Matter</td><td>Duże twarde podłogi, kuchnia</td></tr>
+<tr><td>Ecovacs Deebot X8 Pro Omni</td><td>18 000 Pa</td><td>Wałek OZMO Roller</td><td>40–75 °C (dobierana automatycznie) + suszenie</td><td>Automatyczne dozowanie detergentu</td><td>Duże powierzchnie twardych podłóg</td></tr>
+<tr><td>Narwal Freo Z Ultra</td><td>12 000 Pa</td><td>Trójkątne mopy, docisk 12 N</td><td>Do 75 °C + suszenie w 40 °C</td><td>DirtSense, dwie kamery</td><td>Gdy liczy się przede wszystkim mycie</td></tr>
+<tr><td>Dreame L40 Ultra</td><td>11 000 Pa</td><td>Mopy obrotowe, MopExtend</td><td>Gorąca woda 65 °C + suszenie</td><td>Pełne wyposażenie w modelu ze średniej półki</td><td>Najlepszy stosunek jakości do ceny</td></tr>
 </tbody>
 </table>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Wybór wyłącznie na podstawie paskali.</strong> Powyżej 10 000 Pa szczotka, szczelność robota i system przeciw nawijaniu liczą się tak samo jak deklarowana moc.</li>
-<li><strong>Zapomnienie o miejscu na stację.</strong> Kompletna stacja zajmuje sporo miejsca na podłodze i musi pozostać dostępna, by opróżniać brudną wodę i wymieniać worek.</li>
-<li><strong>Pomijanie grubych dywanów.</strong> Uniesienie o 10–12 mm nie ochroni dywanu z długim włosiem: wybierz model, który zostawia mopy w stacji, albo utwórz strefę zakazaną dla mycia.</li>
-<li><strong>Używanie dowolnego środka.</strong> Stacje z automatycznym dozowaniem są zaprojektowane pod detergent marki. Środek pieniący się lub zbyt stężony może zapchać obiegi.</li>
-<li><strong>Ignorowanie materiałów eksploatacyjnych.</strong> Worki do stacji, filtry, szczotki, mopy czy rolki wymienia się regularnie. Przed zakupem sprawdź ich dostępność.</li>
+<li><strong>Wybieranie robota wyłącznie według paskali.</strong> Powyżej 10 000 Pa szczotka, szczelność obudowy i system zapobiegający nawijaniu włosów liczą się tak samo jak deklarowana siła ssania.</li>
+<li><strong>Zapominanie o miejscu na stację.</strong> Pełna stacja zajmuje sporo miejsca na podłodze i musi być łatwo dostępna, żeby można było wylewać brudną wodę i wymieniać worek.</li>
+<li><strong>Lekceważenie grubych dywanów.</strong> Uniesienie o 10–12 mm nie uchroni dywanu z długim włosiem: wybierz model, który zostawia mopy w stacji, albo wyznacz w aplikacji strefę wyłączoną z mopowania.</li>
+<li><strong>Używanie przypadkowych środków czyszczących.</strong> Stacje z automatycznym dozowaniem są projektowane z myślą o detergencie producenta. Środek, który się pieni lub jest zbyt stężony, może zanieczyścić przewody stacji.</li>
+<li><strong>Ignorowanie materiałów eksploatacyjnych.</strong> Worki do stacji, filtry, szczotki, mopy czy wałki trzeba regularnie wymieniać. Przed zakupem sprawdź, czy są łatwo dostępne.</li>
 </ul>
 
 <h2>Codzienne użytkowanie i konserwacja</h2>
 <ul>
-<li><strong>Parkiet:</strong> na parkiecie lakierowanym lub laminacie ustaw minimalny przepływ wody i unikaj mycia na parkiecie olejowanym lub woskowanym bez zgody producenta pokrycia podłogi.</li>
-<li><strong>Pierwsze mapowanie:</strong> schowaj kable i drobne przedmioty, otwórz drzwi i pozwól robotowi zmapować całe mieszkanie, zanim zdefiniujesz pomieszczenia i strefy zakazane.</li>
-<li><strong>Higiena:</strong> regularnie opróżniaj i płucz pojemnik na brudną wodę, nawet jeśli stacja suszy mop. To pierwsze źródło zapachów zgłaszane przez użytkowników.</li>
-<li><strong>Bezpieczeństwo:</strong> podłącz stację do sprawnego gniazdka, bez przeciążonej listwy, i trzymaj ją z dala od rozbryzgów wody. Jeśli masz zwierzęta, nasz poradnik o <a href="/pl/blog/robot-aspirateur-poils-animaux">robotach odkurzających do sierści zwierząt</a> opisuje przydatne ustawienia.</li>
+<li><strong>Parkiet:</strong> na parkiecie lakierowanym i panelach laminowanych ustaw najmniejszy przepływ wody, a na parkiecie olejowanym lub woskowanym nie włączaj mopowania bez zgody producenta podłogi.</li>
+<li><strong>Pierwsze mapowanie:</strong> schowaj kable i drobne przedmioty, otwórz drzwi i pozwól robotowi zmapować całe mieszkanie, zanim wyznaczysz pomieszczenia i strefy zakazane.</li>
+<li><strong>Higiena:</strong> regularnie opróżniaj i płucz zbiornik na brudną wodę, nawet jeśli stacja suszy mopy. Według użytkowników to on najczęściej jest źródłem nieprzyjemnych zapachów.</li>
+<li><strong>Bezpieczeństwo:</strong> podłącz stację do sprawnego gniazdka, a nie do przeciążonej listwy, i chroń ją przed chlapiącą wodą. Jeśli masz zwierzęta, przydatne ustawienia znajdziesz w naszym poradniku o <a href="/pl/blog/robot-aspirateur-poils-animaux">robotach odkurzających do sierści zwierząt</a>.</li>
 </ul>
 
-<h2>Podsumowanie</h2>
-<p>Dla większości domów <strong>Dreame X50 Ultra Complete</strong> to najpełniejszy robot sprzątający z mopem 2026 roku: mocny, zwinny na progach i bardzo samodzielny. Jeśli Twoim priorytetem jest mycie dużych powierzchni twardych podłóg, lepiej sprawdzą się <strong>Roborock Qrevo Curv 2 Flow</strong> ze stale czyszczoną rolką, a jako bezpośrednia alternatywa <strong>Ecovacs Deebot X8 Pro Omni</strong>. <strong>Narwal Freo Z Ultra</strong> przypadnie do gustu tym, którzy stawiają na mycie, a <strong>Dreame L40 Ultra</strong> daje to, co najważniejsze w kompletnej stacji, w bardziej dostępnej serii.</p>
-<p>Żeby poznać wszystkie kryteria wyboru, także dla robotów bez funkcji mycia, zajrzyj do naszego <a href="/pl/blog/guide-robot-aspirateur-2026">kompletnego poradnika o robotach odkurzających 2026</a>.</p>`,
+<h2>Nasz werdykt</h2>
+<p>Dla większości domów <strong>Dreame X50 Ultra Complete</strong> to najlepiej wyposażony robot sprzątający z mopem w 2026 roku: ma dużą siłę ssania, sprawnie pokonuje progi i wymaga bardzo niewiele obsługi. Jeśli zależy Ci przede wszystkim na myciu dużych powierzchni twardych podłóg, lepiej sprawdzi się <strong>Roborock Qrevo Curv 2 Flow</strong> z wałkiem czyszczonym na bieżąco, a jego bezpośrednią alternatywą jest <strong>Ecovacs Deebot X8 Pro Omni</strong>. <strong>Narwal Freo Z Ultra</strong> to propozycja dla osób, dla których mycie jest najważniejsze, a <strong>Dreame L40 Ultra</strong> zapewnia to, co najważniejsze w pełnej stacji, w przystępniejszej cenie.</p>
+<p>Wszystkie kryteria wyboru, także w przypadku robotów bez funkcji mopowania, omawiamy w naszym <a href="/pl/blog/guide-robot-aspirateur-2026">kompletnym poradniku o robotach sprzątających na 2026 rok</a>.</p>`,
   },
   faq: [
     {
@@ -609,7 +609,7 @@ export const article: BlogArticle = {
         es: '¿Rodillo de fregado o mopas giratorias: qué elegir?',
         it: 'Rullo lavante o panni rotanti: quale scegliere?',
         nl: 'Dweilrol of draaiende dweilpads: wat kies je?',
-        pl: 'Mop rolkowy czy obrotowe mopy: co wybrać?',
+        pl: 'Mop rolkowy czy mopy obrotowe: co wybrać?',
       },
       answer: {
         fr: 'Le rouleau est alimenté en eau propre pendant tout le passage, ce qui le rend intéressant sur de grandes surfaces de sols durs et les taches collantes. Les serpillères rotatives sont plus répandues, s’étendent souvent vers les bords et peuvent être déposées à la station pour aspirer les tapis.',
@@ -618,7 +618,7 @@ export const article: BlogArticle = {
         es: 'El rodillo recibe agua limpia durante toda la pasada, lo que lo hace interesante para grandes suelos duros y manchas pegajosas. Las mopas giratorias son más habituales, suelen extenderse hacia los bordes y pueden quedarse en la base para aspirar alfombras.',
         it: 'Il rullo riceve acqua pulita per tutto il passaggio, il che lo rende interessante per grandi pavimenti duri e macchie appiccicose. I panni rotanti sono più diffusi, spesso si estendono verso i bordi e possono restare alla stazione per aspirare i tappeti.',
         nl: 'Een dweilrol krijgt de hele beurt schoon water, wat hem interessant maakt voor grote harde vloeren en plakkerige vlekken. Draaiende pads komen vaker voor, schuiven vaak uit naar de randen en kunnen in het station blijven om tapijt te zuigen.',
-        pl: 'Rolka jest zasilana czystą wodą przez cały przejazd, co czyni ją interesującą na dużych powierzchniach twardych podłóg i przy lepiących się plamach. Obrotowe mopy są bardziej rozpowszechnione, często wysuwają się ku krawędziom i można je zostawić w stacji na czas odkurzania dywanów.',
+        pl: 'Wałek jest przez cały czas pracy zwilżany czystą wodą, dlatego dobrze sprawdza się na dużych powierzchniach twardych podłóg i przy lepkich plamach. Mopy obrotowe są popularniejsze, często wysuwają się w stronę krawędzi i można je zostawić w stacji, gdy robot odkurza dywany.',
       },
     },
     {
@@ -629,7 +629,7 @@ export const article: BlogArticle = {
         es: '¿Puede un robot aspirador y fregasuelos sustituir a la fregona?',
         it: 'Un robot aspirapolvere lavapavimenti può sostituire il lavaggio a mano?',
         nl: 'Kan een robotstofzuiger met dweilfunctie handmatig dweilen vervangen?',
-        pl: 'Czy robot sprzątający z mopem może zastąpić ręczne mycie podłóg?',
+        pl: 'Czy robot sprzątający z mopem zastąpi ręczne mycie podłóg?',
       },
       answer: {
         fr: 'Pour l’entretien régulier, oui dans la plupart des logements. Les retours d’utilisateurs montrent qu’un passage manuel reste utile de temps en temps pour les taches incrustées, les recoins inaccessibles et un nettoyage en profondeur.',
@@ -638,7 +638,7 @@ export const article: BlogArticle = {
         es: 'Para el mantenimiento habitual, sí en la mayoría de las viviendas. Las opiniones de los propietarios muestran que una limpieza manual ocasional sigue siendo útil para manchas resecas, rincones inaccesibles y limpiezas a fondo.',
         it: 'Per la pulizia regolare, sì nella maggior parte delle case. I feedback dei proprietari mostrano che un lavaggio manuale occasionale resta utile per macchie incrostate, angoli irraggiungibili e pulizie profonde.',
         nl: 'Voor regelmatig onderhoud in de meeste woningen wel. Ervaringen van eigenaars laten zien dat af en toe met de hand dweilen nuttig blijft voor ingedroogde vlekken, moeilijk bereikbare hoeken en een grondige beurt.',
-        pl: 'Do regularnego utrzymania czystości tak, w większości mieszkań. Opinie użytkowników pokazują, że ręczne przetarcie bywa od czasu do czasu potrzebne przy zaschniętych plamach, niedostępnych zakamarkach i dokładnym czyszczeniu.',
+        pl: 'Przy regularnym sprzątaniu – w większości domów tak. Z opinii użytkowników wynika jednak, że od czasu do czasu warto umyć podłogę ręcznie: przy zaschniętych plamach, w trudno dostępnych zakamarkach i przy gruntownym sprzątaniu.',
       },
     },
     {
@@ -658,7 +658,7 @@ export const article: BlogArticle = {
         es: 'Por lo general no: los modelos de esta comparativa elevan la mopa en las alfombras, y los Dreame también pueden dejarla en la base. Para una alfombra gruesa de pelo largo, crea una zona sin fregado en la app.',
         it: 'In genere no: i modelli di questo confronto sollevano il panno sui tappeti, e i Dreame possono anche lasciarlo alla stazione. Per un tappeto spesso a pelo lungo, create una zona senza lavaggio nell’app.',
         nl: 'Meestal niet: de modellen in deze vergelijking tillen hun dweil op bij tapijt, en de Dreame-modellen kunnen hem ook in het station laten. Voor een dik hoogpolig kleed stel je in de app een dweilverbod in.',
-        pl: 'Zazwyczaj nie: modele z tego porównania unoszą mop na dywanach, a Dreame mogą go też zostawić w stacji. Przy grubym dywanie z długim włosiem utwórz w aplikacji strefę zakazaną dla mycia.',
+        pl: 'Zwykle nie: modele z tego zestawienia unoszą mop na dywanach, a roboty Dreame mogą go też zostawić w stacji. W przypadku grubego dywanu z długim włosiem wyznacz w aplikacji strefę, w której robot nie mopuje.',
       },
     },
     {
@@ -678,7 +678,7 @@ export const article: BlogArticle = {
         es: 'Sirve sobre todo para lavar la mopa o el rodillo dentro de la base: el agua caliente disuelve mejor la grasa y limita los olores, sobre todo si después hay secado con aire caliente. El suelo en sí se friega normalmente con el agua del depósito.',
         it: 'Serve soprattutto a lavare il panno o il rullo nella stazione: l’acqua calda scioglie meglio il grasso e limita gli odori, soprattutto se seguita dall’asciugatura ad aria calda. Il pavimento viene di solito lavato con l’acqua del serbatoio.',
         nl: 'Het dient vooral om de dweil of rol in het station te wassen: heet water lost vet beter op en beperkt geurtjes, zeker als er daarna met warme lucht gedroogd wordt. De vloer zelf wordt meestal gedweild met water uit de tank.',
-        pl: 'Służy głównie do mycia mopa lub rolki w stacji: gorąca woda lepiej rozpuszcza tłuszcz i ogranicza zapachy, zwłaszcza gdy po niej następuje suszenie gorącym powietrzem. Sama podłoga jest zwykle myta wodą ze zbiornika.',
+        pl: 'Głównie do mycia mopa lub wałka w stacji: gorąca woda lepiej rozpuszcza tłuszcz i ogranicza nieprzyjemne zapachy, zwłaszcza jeśli potem stacja suszy go gorącym powietrzem. Samą podłogę robot myje zwykle wodą ze zbiornika.',
       },
     },
     {
@@ -698,7 +698,7 @@ export const article: BlogArticle = {
         es: 'Sí para parquet barnizado o laminado, con el caudal de agua más bajo. En madera aceitada o encerada, sigue las recomendaciones del fabricante del suelo y limita el fregado o desactívalo en esas estancias.',
         it: 'Sì per parquet verniciato o laminato, con il flusso d’acqua più basso. Su legno oliato o cerato seguite le indicazioni del produttore del pavimento e limitate il lavaggio, o disattivatelo in quelle stanze.',
         nl: 'Ja voor gelakt parket of laminaat, met de laagste waterstand. Bij geolied of gewaxt hout volg je het advies van de vloerfabrikant en beperk je het dweilen of zet je het uit in die ruimtes.',
-        pl: 'Tak, na parkiet lakierowany lub laminat, przy najniższym przepływie wody. Na parkiecie olejowanym lub woskowanym stosuj się do zaleceń producenta pokrycia i ogranicz mycie, a nawet wyłącz je w danych pomieszczeniach.',
+        pl: 'Tak, jeśli parkiet jest lakierowany albo masz panele laminowane – ustaw wtedy najmniejszy przepływ wody. W przypadku parkietu olejowanego lub woskowanego stosuj się do zaleceń producenta podłogi i ogranicz mopowanie albo całkiem je wyłącz w tych pomieszczeniach.',
       },
     },
     {
@@ -709,7 +709,7 @@ export const article: BlogArticle = {
         es: '¿Qué mantenimiento necesita un robot aspirador y fregasuelos?',
         it: 'Che manutenzione richiede un robot aspirapolvere lavapavimenti?',
         nl: 'Welk onderhoud heeft een robotstofzuiger met dweilfunctie nodig?',
-        pl: 'Jaką konserwację zaplanować dla robota sprzątającego z mopem?',
+        pl: 'Jak dbać o robota sprzątającego z mopem?',
       },
       answer: {
         fr: 'Videz et rincez le bac d’eau sale, nettoyez brosses et capteurs, et remplacez régulièrement sacs, filtres, serpillères ou rouleau selon les intervalles indiqués par le fabricant. Une station bien entretenue évite la plupart des odeurs et des pannes.',
@@ -718,7 +718,7 @@ export const article: BlogArticle = {
         es: 'Vacía y aclara el depósito de agua sucia, limpia cepillos y sensores, y cambia bolsas, filtros, mopas o rodillo según los intervalos que indica el fabricante. Una base bien cuidada evita la mayoría de olores y averías.',
         it: 'Svuotate e risciacquate il serbatoio dell’acqua sporca, pulite spazzole e sensori, e sostituite sacchetti, filtri, panni o rullo secondo gli intervalli indicati dal produttore. Una stazione ben curata evita la maggior parte di odori e guasti.',
         nl: 'Leeg en spoel de vuilwatertank, maak borstels en sensoren schoon en vervang zakken, filters, pads of de rol volgens de intervallen van de fabrikant. Een goed onderhouden station voorkomt de meeste geurtjes en storingen.',
-        pl: 'Opróżniaj i płucz pojemnik na brudną wodę, czyść szczotki i czujniki, a worki, filtry, mopy lub rolkę wymieniaj regularnie w odstępach wskazanych przez producenta. Dobrze utrzymana stacja pozwala uniknąć większości zapachów i awarii.',
+        pl: 'Opróżniaj i płucz zbiornik na brudną wodę, czyść szczotki i czujniki, a worki, filtry, mopy lub wałek wymieniaj regularnie, zgodnie z zaleceniami producenta. Zadbana stacja to mniej nieprzyjemnych zapachów i awarii.',
       },
     },
   ],

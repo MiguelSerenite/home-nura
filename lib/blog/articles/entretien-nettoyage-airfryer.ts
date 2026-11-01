@@ -29,7 +29,7 @@ export const article: BlogArticle = {
     es: 'Guía Completa de Mantenimiento y Limpieza de tu Freidora de Aire',
     it: 'Guida Completa alla Manutenzione e Pulizia della Friggitrice ad Aria',
     nl: 'Complete Onderhouds- en Schoonmaakgids voor je Airfryer',
-    pl: 'Pełny poradnik czyszczenia i konserwacji frytkownicy beztłuszczowej',
+    pl: 'Czyszczenie i konserwacja frytkownicy beztłuszczowej: kompletny poradnik',
   },
   excerpt: {
     fr: 'Apprenez à nettoyer et entretenir votre airfryer correctement : routine quotidienne, nettoyage profond mensuel, élimination de la graisse et astuces pour prolonger sa durée de vie.',
@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: 'Aprende a limpiar y mantener tu freidora de aire correctamente: rutina diaria, limpieza profunda mensual, eliminación de grasa y trucos para alargar su vida útil.',
     it: 'Impara a pulire e mantenere la tua friggitrice ad aria correttamente: routine quotidiana, pulizia profonda mensile, rimozione del grasso e consigli per prolungarne la durata.',
     nl: 'Leer hoe je je airfryer goed schoonmaakt en onderhoudt: dagelijkse routine, maandelijkse grondige reiniging, vetverwijdering en tips om de levensduur te verlengen.',
-    pl: 'Dowiedz się, jak prawidłowo czyścić i konserwować frytkownicę beztłuszczową: codzienna rutyna, miesięczne gruntowne czyszczenie, usuwanie tłuszczu i sposoby na dłuższą żywotność urządzenia.',
+    pl: 'Dowiedz się, jak prawidłowo czyścić frytkownicę beztłuszczową i o nią dbać: szybkie mycie po każdym użyciu, gruntowne czyszczenie raz w miesiącu, usuwanie tłuszczu i sposoby na dłuższą żywotność urządzenia.',
   },
   content: {
     fr: `<h2>Pourquoi le nettoyage de votre airfryer est crucial</h2>
@@ -604,112 +604,112 @@ export const article: BlogArticle = {
 <tr><td>Vaatwasser (zachte stand)</td><td>Mand en lade</td><td>Goed</td><td>Controleer de handleiding</td></tr>
 </tbody>
 </table>`,
-    pl: `<h2>Dlaczego czyszczenie frytkownicy beztłuszczowej jest tak ważne</h2>
-<p>Źle konserwowana frytkownica beztłuszczowa nie tylko nieprzyjemnie pachnie: tłuszcz zgromadzony w szufladzie i na grzałce dymi, wydziela zapach przy każdym smażeniu, a w skrajnych przypadkach może się zapalić. Powłoka nieprzywierająca zużywa się znacznie szybciej, gdy jest szorowana ostrymi gąbkami lub agresywnymi środkami.</p>
-<p>Ten poradnik podaje prosty i skuteczny schemat czyszczenia na trzech poziomach: codziennym, cotygodniowym i miesięcznym.</p>
+    pl: `<h2>Dlaczego regularne czyszczenie frytkownicy jest tak ważne</h2>
+<p>Zaniedbana frytkownica nie tylko brzydko pachnie: tłuszcz zgromadzony w szufladzie i na grzałce dymi, przy każdym użyciu wydziela nieprzyjemny zapach, a w skrajnych przypadkach może się nawet zapalić. Z kolei powłoka nieprzywierająca zużywa się dużo szybciej, jeśli szorujesz ją szorstkimi gąbkami lub czyścisz agresywnymi środkami.</p>
+<p>W tym poradniku znajdziesz prosty i skuteczny plan czyszczenia na trzech poziomach: codziennym, cotygodniowym i comiesięcznym.</p>
 
 <h2>Czyszczenie codzienne: 5 minut po każdym użyciu</h2>
-<p>Czyszczenie codzienne jest najważniejsze, ponieważ zapobiega gromadzeniu się tłuszczu, który później trudno usunąć.</p>
+<p>Codzienne czyszczenie jest najważniejsze, bo nie pozwala, by gromadził się tłuszcz, który później trudno usunąć.</p>
 
-<h3>Schemat w 4 krokach</h3>
+<h3>Plan w czterech krokach</h3>
 <ul>
-<li><strong>Krok 1 – Odłącz urządzenie i poczekaj, aż ostygnie (5–10 min):</strong> nigdy nie czyść gorącej frytkownicy. Poczekaj, aż będzie ciepła, ale dobrze da się ją chwycić (około 50 °C).</li>
-<li><strong>Krok 2 – Opróżnij resztki:</strong> wyjmij kosz i szufladę. Wyrzuć okruchy i resztki jedzenia. Jeśli w szufladzie zebrał się tłuszcz, przelej go do pojemnika (nigdy bezpośrednio do zlewu).</li>
-<li><strong>Krok 3 – Umyj kosz i szufladę:</strong> ciepła woda + kilka kropli płynu do mycia naczyń + miękka gąbka. Delikatnie wyszoruj powierzchnie wewnętrzne. Przywarte resztki namocz na 10 minut w ciepłej wodzie z mydłem.</li>
-<li><strong>Krok 4 – Przetrzyj wnętrze urządzenia:</strong> wilgotną szmatką przetrzyj wnętrze komory (miejsce, w które wsuwa się szuflada). Wytrzyj do sucha czystą ściereczką.</li>
+<li><strong>Krok 1 – Odłącz urządzenie od prądu i poczekaj, aż przestygnie (5–10 min):</strong> nigdy nie czyść rozgrzanej frytkownicy. Wystarczy, że będzie ciepła, ale da się ją bezpiecznie chwycić (około 50 °C).</li>
+<li><strong>Krok 2 – Usuń resztki:</strong> wyjmij kosz i szufladę. Wysyp okruchy i resztki jedzenia. Jeśli w szufladzie zebrał się tłuszcz, przelej go do pojemnika (nigdy nie wylewaj go bezpośrednio do zlewu).</li>
+<li><strong>Krok 3 – Umyj kosz i szufladę:</strong> ciepła woda + kilka kropli płynu do mycia naczyń + miękka gąbka. Delikatnie umyj wewnętrzne powierzchnie. Jeśli coś przywarło, namocz kosz na 10 minut w ciepłej wodzie z płynem.</li>
+<li><strong>Krok 4 – Przetrzyj wnętrze urządzenia:</strong> wilgotną szmatką wytrzyj komorę, do której wsuwa się szuflada, a potem osusz ją czystą ściereczką.</li>
 </ul>
 
 <h3>Mycie w zmywarce</h3>
-<p>Większość współczesnych koszy i szuflad można myć w zmywarce (sprawdź instrukcję swojego modelu). Umieść je w górnym koszu zmywarki. Mycie ręczne jednak wydłuża żywotność powłoki nieprzywierającej. Aby oszczędzać powłokę, na co dzień myj ręcznie, a zmywarkę zostaw na okazjonalne, gruntowniejsze czyszczenie.</p>
+<p>Większość współczesnych koszy i szuflad można myć w zmywarce (sprawdź to w instrukcji swojego modelu). Wkładaj je do górnego kosza zmywarki. Mycie ręczne pozwala jednak dłużej zachować powłokę nieprzywierającą w dobrym stanie. Dlatego na co dzień lepiej myj je ręcznie, a po zmywarkę sięgaj tylko od czasu do czasu.</p>
 
 <h2>Czyszczenie cotygodniowe: grzałka (10 minut)</h2>
-<p>Grzałka, umieszczona w górnej części komory do smażenia, to element najczęściej pomijany podczas czyszczenia. Tymczasem rozpryski tłuszczu gromadzą się na niej i zwęglają, powodując dym i nieprzyjemny zapach.</p>
+<p>Grzałka w górnej części komory to element, o którym przy czyszczeniu zapomina się najczęściej. Tymczasem osiadają na niej kropelki tłuszczu, które się przypalają – stąd dym i nieprzyjemny zapach.</p>
 
-<h3>Schemat czyszczenia grzałki</h3>
+<h3>Jak wyczyścić grzałkę</h3>
 <ul>
-<li><strong>Obróć frytkownicę</strong> (odłączoną od prądu i całkowicie ostygłą), aby dostać się do grzałki od góry.</li>
-<li><strong>Delikatnie wyszczotkuj</strong> miękką szczoteczką (np. zużytą szczoteczką do zębów lub <a href="/pl/blog/top-10-accessoires-airfryer">specjalną szczotką do czyszczenia frytkownicy beztłuszczowej</a>).</li>
-<li><strong>Przetrzyj</strong> ledwie wilgotną szmatką (ciepła woda i kropla płynu do mycia naczyń), dobrze wyciśniętą.</li>
+<li><strong>Odwróć frytkownicę do góry dnem</strong> (odłączoną od prądu i całkowicie wystygłą), aby mieć łatwy dostęp do grzałki.</li>
+<li><strong>Delikatnie oczyść grzałkę</strong> miękką szczoteczką (np. starą szczoteczką do zębów albo <a href="/pl/blog/top-10-accessoires-airfryer">specjalną szczotką do czyszczenia frytkownicy</a>).</li>
+<li><strong>Przetrzyj ją</strong> dobrze wykręconą, ledwie wilgotną szmatką (ciepła woda z kroplą płynu do naczyń).</li>
 <li><strong>Dokładnie wysusz</strong>, zanim odwrócisz urządzenie z powrotem.</li>
 <li><strong>Nigdy nie skrob</strong> grzałki metalowym przedmiotem ani szorstką gąbką.</li>
 </ul>
 
-<h2>Miesięczne gruntowne czyszczenie: pełny schemat (30 minut)</h2>
-<p>Raz w miesiącu zafunduj frytkownicy gruntowne czyszczenie. To ono naprawdę wydłuża jej żywotność.</p>
+<h2>Gruntowne czyszczenie raz w miesiącu: pełny plan (30 minut)</h2>
+<p>Raz w miesiącu zafunduj frytkownicy gruntowne czyszczenie. To właśnie ono najbardziej wydłuża jej żywotność.</p>
 
-<h3>Krok 1: namaczanie odtłuszczające (15 min)</h3>
+<h3>Krok 1: moczenie w roztworze odtłuszczającym (15 min)</h3>
 <p>Napełnij zlew ciepłą wodą i dodaj:</p>
 <ul>
-<li>2 łyżki stołowe sody oczyszczonej</li>
-<li>1 łyżkę stołową płynu do mycia naczyń</li>
-<li>Odrobinę białego octu</li>
+<li>2 łyżki sody oczyszczonej</li>
+<li>1 łyżkę płynu do mycia naczyń</li>
+<li>Odrobinę octu spirytusowego</li>
 </ul>
-<p>Zanurz kosz i szufladę na 15 minut. Soda rozkłada przypalony tłuszcz, a ocet rozpuszcza osad z kamienia.</p>
+<p>Zanurz w roztworze kosz i szufladę na 15 minut. Soda rozkłada przypieczony tłuszcz, a ocet rozpuszcza osady kamienia.</p>
 
-<h3>Krok 2: delikatne szczotkowanie (5 min)</h3>
-<p>Po namoczeniu użyj miękkiej szczotki lub nieścierającej gąbki, by wyszorować wszystkie powierzchnie. Zwróć szczególną uwagę na rogi i otwory w koszu, w których gromadzi się tłuszcz.</p>
+<h3>Krok 2: delikatne szorowanie (5 min)</h3>
+<p>Po namoczeniu wyszoruj wszystkie powierzchnie miękką szczotką lub gąbką, która nie rysuje. Szczególnie dokładnie wyczyść narożniki i otwory w koszu, w których zbiera się tłuszcz.</p>
 
 <h3>Krok 3: grzałka i komora (5 min)</h3>
-<p>Wyczyść grzałkę zgodnie z opisem powyżej. Przetrzyj całą komorę wewnętrzną wilgotną szmatką z octem.</p>
+<p>Wyczyść grzałkę w sposób opisany wyżej. Całe wnętrze komory przetrzyj szmatką zwilżoną wodą z octem.</p>
 
-<h3>Krok 4: zewnętrzna strona (3 min)</h3>
-<p>Przetrzyj obudowę wilgotną szmatką. Odciski palców na powierzchniach ze stali nierdzewnej usuń lekko zwilżoną ściereczką z mikrofibry. Otwory wentylacyjne z tyłu wyczyść małą szczoteczką.</p>
+<h3>Krok 4: obudowa (3 min)</h3>
+<p>Przetrzyj obudowę wilgotną szmatką. Odciski palców na elementach ze stali nierdzewnej usuń lekko zwilżoną ściereczką z mikrofibry. Otwory wentylacyjne z tyłu wyczyść małą szczoteczką.</p>
 
-<h3>Krok 5: dokładne wysuszenie (2 min)</h3>
-<p>Wysusz wszystkie elementy czystą ściereczką. Zostaw szufladę otwartą na 30 minut, by dobrze się przewietrzyła, zanim schowasz urządzenie. <strong>Nigdy nie składaj wilgotnego urządzenia:</strong> resztki wilgoci mogą sprzyjać pleśni i nieprzyjemnym zapachom.</p>
+<h3>Krok 5: dokładne suszenie (2 min)</h3>
+<p>Wytrzyj wszystkie części do sucha czystą ściereczką. Zanim schowasz urządzenie, zostaw szufladę wysuniętą na 30 minut, żeby wszystko dobrze wyschło. <strong>Nigdy nie składaj mokrego urządzenia:</strong> resztki wilgoci mogą sprzyjać rozwojowi pleśni i powstawaniu przykrych zapachów.</p>
 
 <h2>Jak usunąć uporczywy tłuszcz</h2>
-<p>Czasem mimo regularnego czyszczenia osady przypalonego tłuszczu nie chcą zniknąć. Oto najskuteczniejsze metody:</p>
+<p>Czasem mimo regularnego czyszczenia przypalony tłuszcz nie chce zejść. Oto najskuteczniejsze sposoby:</p>
 
 <h3>Metoda 1: pasta z sody</h3>
 <ul>
-<li>Wymieszaj 3 łyżki stołowe sody z 1 łyżką stołową wody, aby powstała gęsta pasta.</li>
-<li>Nałóż na zabrudzone miejsca.</li>
+<li>Wymieszaj 3 łyżki sody z 1 łyżką wody na gęstą pastę.</li>
+<li>Nałóż ją na zabrudzone miejsca.</li>
 <li>Zostaw na 20–30 minut.</li>
-<li>Wyszoruj miękką gąbką i opłucz.</li>
+<li>Wyszoruj miękką gąbką i spłucz.</li>
 </ul>
 
 <h3>Metoda 2: kąpiel w gorącym occie</h3>
 <ul>
-<li>Napełnij szufladę mieszanką gorącej wody i białego octu w proporcji 50/50.</li>
+<li>Napełnij szufladę gorącą wodą wymieszaną pół na pół z octem spirytusowym.</li>
 <li>Zostaw na 30 minut.</li>
-<li>Opróżnij i wyszoruj gąbką.</li>
+<li>Wylej roztwór i wyszoruj szufladę gąbką.</li>
 </ul>
 
 <h3>Metoda 3: długie moczenie</h3>
 <ul>
-<li>Zanurz szufladę i kosz w zlewie wypełnionym ciepłą wodą z mydłem.</li>
-<li>Zostaw do namoczenia na godzinę lub kilka godzin, a w przypadku najstarszych osadów nawet na całą noc.</li>
-<li>Następnie wyszoruj miękką gąbką i opłucz.</li>
+<li>Zanurz szufladę i kosz w zlewie z ciepłą wodą i płynem do naczyń.</li>
+<li>Zostaw je na godzinę lub kilka godzin, a przy najstarszych osadach nawet na całą noc.</li>
+<li>Następnie wyszoruj miękką gąbką i spłucz.</li>
 </ul>
-<p>Unikaj natomiast podgrzewania wody w komorze, aby „odkleić” tłuszcz: większość instrukcji zabrania napełniania szuflady olejem lub jakąkolwiek inną cieczą podczas pracy urządzenia.</p>
+<p>Nie podgrzewaj natomiast wody we frytkownicy, żeby „odkleić” tłuszcz: większość instrukcji zabrania wlewania do szuflady oleju czy jakiejkolwiek innej cieczy podczas pracy urządzenia.</p>
 
 <h2>Czego NIGDY nie robić</h2>
 <ul>
-<li><strong>Metalowa gąbka lub druciak:</strong> nieodwracalnie niszczy powłokę nieprzywierającą.</li>
-<li><strong>Środki ścierne lub silne odtłuszczacze:</strong> mogą uszkodzić powłokę i zostawić chemiczne pozostałości.</li>
-<li><strong>Zanurzanie podstawy urządzenia:</strong> część z silnikiem i elementami elektrycznymi nigdy nie może być mokra.</li>
-<li><strong>Skrobanie nożem lub metalową szpatułką:</strong> rysuje powłokę.</li>
-<li><strong>Używanie urządzenia z resztkami środka czyszczącego:</strong> zawsze płucz obficie.</li>
+<li><strong>Druciak lub wełna stalowa:</strong> nieodwracalnie niszczą powłokę nieprzywierającą.</li>
+<li><strong>Środki ścierne lub silne odtłuszczacze:</strong> mogą uszkodzić powłokę i zostawić pozostałości chemikaliów.</li>
+<li><strong>Zanurzanie podstawy urządzenia:</strong> część z silnikiem i elementami elektrycznymi nigdy nie może się zamoczyć.</li>
+<li><strong>Skrobanie nożem lub metalową łopatką:</strong> rysuje powłokę.</li>
+<li><strong>Używanie urządzenia z resztkami środka czyszczącego:</strong> zawsze dokładnie spłukuj umyte części.</li>
 </ul>
 
 <h2>Jak wydłużyć żywotność frytkownicy beztłuszczowej</h2>
 
 <h3>Chroń powłokę nieprzywierającą</h3>
 <ul>
-<li>Używaj <a href="/pl/blog/top-10-accessoires-airfryer">perforowanego papieru lub silikonowych foremek</a>, aby ograniczyć bezpośredni kontakt jedzenia z koszem.</li>
-<li>Nie układaj ciężkich przedmiotów w koszu podczas przechowywania.</li>
-<li>Unikaj metalowych przyborów w koszu.</li>
+<li>Używaj <a href="/pl/blog/top-10-accessoires-airfryer">perforowanego papieru do pieczenia lub silikonowych foremek</a>, by ograniczyć bezpośredni kontakt jedzenia z koszem.</li>
+<li>Nie przechowuj w koszu ciężkich przedmiotów.</li>
+<li>Nie używaj w koszu metalowych przyborów.</li>
 </ul>
 
 <h3>Dbaj o elementy mechaniczne</h3>
 <ul>
-<li>Regularnie sprawdzaj, czy prowadnice szuflady przesuwają się swobodnie. Zaklinowany kawałek jedzenia może zablokować mechanizm.</li>
-<li>Gumowe uszczelki szuflady z czasem mogą wyschnąć. Jeśli szuflada przestaje się szczelnie zamykać, skontaktuj się z serwisem w sprawie wymiany.</li>
+<li>Regularnie sprawdzaj, czy szuflada swobodnie przesuwa się w prowadnicach. Okruch, który utknie w prowadnicy, może nadwerężyć mechanizm.</li>
+<li>Gumowe uszczelki szuflady mogą z czasem wysychać. Jeśli szuflada przestała się szczelnie domykać, skontaktuj się z serwisem w sprawie wymiany.</li>
 </ul>
 
 <h3>Co zużywa się najszybciej</h3>
-<p>Powłoka nieprzywierająca kosza i szuflady jest zazwyczaj pierwszym elementem, który wykazuje oznaki zużycia (rysy, łuszczenie). Jeśli zaczyna się łuszczyć, wymień element, zamiast dalej w nim gotować: duże marki oferują zapasowe kosze i szuflady. Grzałka i wentylator cierpią głównie z powodu nagromadzonego tłuszczu, stąd sens regularnego czyszczenia.</p>
+<p>Zwykle jako pierwsza zużywa się powłoka nieprzywierająca kosza i szuflady (pojawiają się rysy i odpryski). Jeśli zaczyna odpryskiwać, wymień zużytą część, zamiast dalej przyrządzać w niej potrawy: duże marki oferują zapasowe kosze i szuflady. Grzałce i wentylatorowi szkodzi przede wszystkim nagromadzony tłuszcz – dlatego tak ważne jest regularne czyszczenie.</p>
 
 <h2>Harmonogram konserwacji w skrócie</h2>
 <table>
@@ -718,32 +718,32 @@ export const article: BlogArticle = {
 </thead>
 <tbody>
 <tr><td>Po każdym użyciu</td><td>Mycie kosza i szuflady, przetarcie wnętrza</td><td>5 min</td><td>Ciepła woda, płyn do mycia naczyń, miękka gąbka</td></tr>
-<tr><td>Co tydzień</td><td>Czyszczenie grzałki</td><td>10 min</td><td>Miękka szczotka, biały ocet</td></tr>
-<tr><td>Co miesiąc</td><td>Pełne gruntowne czyszczenie</td><td>30 min</td><td>Soda, ocet, szczotka, ściereczka z mikrofibry</td></tr>
-<tr><td>Co kwartał</td><td>Kontrola uszczelek, prowadnic, wentylacji</td><td>5 min</td><td>Tylko oględziny</td></tr>
+<tr><td>Co tydzień</td><td>Czyszczenie grzałki</td><td>10 min</td><td>Miękka szczotka, ocet spirytusowy</td></tr>
+<tr><td>Co miesiąc</td><td>Gruntowne czyszczenie całego urządzenia</td><td>30 min</td><td>Soda, ocet, szczotka, ściereczka z mikrofibry</td></tr>
+<tr><td>Co kwartał</td><td>Przegląd uszczelek, prowadnic i otworów wentylacyjnych</td><td>5 min</td><td>Tylko oględziny</td></tr>
 </tbody>
 </table>
 
-<p>Dobrze konserwowana frytkownica beztłuszczowa dłużej zachowuje wydajność smażenia i wytwarza mniej dymu oraz zapachów. Nakład czasu jest minimalny: 5 minut dziennie, 10 minut tygodniowo. Unikaj <a href="/pl/blog/erreurs-courantes-airfryer">typowych błędów w użytkowaniu</a> i zajrzyj do naszego <a href="/pl/guides/airfryers">pełnego poradnika o frytkownicach beztłuszczowych</a> oraz do <a href="/pl/guides/airfryer-vs-four">porównania frytkownicy beztłuszczowej z piekarnikiem</a>, aby w pełni wykorzystać swoje urządzenie.</p>
+<p>Zadbana frytkownica dłużej zachowuje dobre efekty smażenia, mniej dymi i wydziela mniej zapachów. Nie wymaga to wiele czasu: 5 minut dziennie i 10 minut w tygodniu. Aby w pełni wykorzystać możliwości urządzenia, unikaj <a href="/pl/blog/erreurs-courantes-airfryer">najczęstszych błędów w użytkowaniu</a> i zajrzyj do naszego <a href="/pl/guides/airfryers">kompletnego przewodnika po frytkownicach beztłuszczowych</a> oraz <a href="/pl/guides/airfryer-vs-four">porównania frytkownicy beztłuszczowej z piekarnikiem</a>.</p>
 
-<h2>5 miejsc najczęściej pomijanych podczas czyszczenia</h2>
+<h2>5 miejsc, o których najczęściej zapomina się przy czyszczeniu</h2>
 <ul>
-<li><strong>Spód zewnętrznego kosza</strong>: tłuszcz gromadzi się między koszem wewnętrznym a szufladą zewnętrzną. Ta strefa bywa ignorowana tygodniami. Efekt: uporczywy zapach i dym przy następnym tłustym smażeniu. Rozwiązanie: po każdym smażeniu mięsa czyść całą szufladę (a nie tylko kosz).</li>
-<li><strong>Grzałka (element grzejny)</strong>: widoczna po obróceniu urządzenia, zbiera rozpryski tłuszczu. Nigdy nie zanurzaj jej w wodzie. Czyść ją delikatnie suchą szczotką lub lekko wilgotną szmatką, gdy urządzenie jest zimne i odłączone od prądu.</li>
-<li><strong>Kratki wentylacyjne</strong>: kurz i tłuste opary osadzają się na otworach wlotu i wylotu powietrza. Odkurzaj je małą miękką szczoteczką, przy odłączonym urządzeniu, co 2–3 miesiące. Nigdy nie demontuj obudowy, by dostać się do wentylatora.</li>
-<li><strong>Uszczelki</strong>: w modelach z pokrywą lub uszczelką szuflady tłuszcz wnika w rowki. Czyść wykałaczką lub cienkim narzędziem zanurzonym w płynie do mycia naczyń.</li>
-<li><strong>Dno komory (pod koszem)</strong>: spływają tam tłuszcz i soki, które przypalają się przy następnym użyciu. Wycieraj po każdym smażeniu lekko wilgotnym ręcznikiem papierowym, gdy urządzenie jest ostygnięte.</li>
+<li><strong>Spód zewnętrznego kosza</strong>: tłuszcz gromadzi się między koszem wewnętrznym a zewnętrzną szufladą. O tym miejscu często zapomina się całymi tygodniami, a potem przy kolejnym smażeniu tłustych potraw pojawiają się dym i zapach, który trudno usunąć. Dlatego po każdym przyrządzaniu mięsa myj całą szufladę, a nie tylko kosz.</li>
+<li><strong>Grzałka (element grzejny)</strong>: widać ją po odwróceniu urządzenia, a osiadają na niej kropelki tłuszczu. Nigdy nie zanurzaj jej w wodzie. Czyść ją delikatnie suchą szczotką lub lekko wilgotną szmatką, gdy urządzenie jest zimne i odłączone od prądu.</li>
+<li><strong>Kratki wentylacyjne</strong>: na otworach wlotu i wylotu powietrza osadzają się kurz i tłuste opary. Co 2–3 miesiące oczyść je małą, miękką szczoteczką przy urządzeniu odłączonym od prądu. Nigdy nie rozkręcaj obudowy, żeby dostać się do wentylatora.</li>
+<li><strong>Uszczelki</strong>: w modelach z pokrywą lub uszczelką szuflady tłuszcz wnika w rowki. Czyść je wykałaczką lub innym cienkim narzędziem zamoczonym w płynie do naczyń.</li>
+<li><strong>Dno komory (pod koszem)</strong>: spływają tam tłuszcz i soki z potraw, które przypalają się przy kolejnym użyciu. Po każdym smażeniu wycieraj je lekko wilgotnym ręcznikiem papierowym, gdy urządzenie już wystygnie.</li>
 </ul>
 
 <h2>Środki czyszczące: czego używać (a czego unikać)?</h2>
 <table>
-<thead><tr><th>Środek</th><th>Zastosowanie</th><th>Skuteczność</th><th>Zgodność z powłoką</th></tr></thead>
+<thead><tr><th>Środek</th><th>Zastosowanie</th><th>Skuteczność</th><th>Bezpieczeństwo dla powłoki</th></tr></thead>
 <tbody>
-<tr><td>Zwykły płyn do mycia naczyń + miękka gąbka</td><td>Czyszczenie codzienne</td><td>Doskonała</td><td>Bezpieczny dla każdej powłoki</td></tr>
-<tr><td>Soda oczyszczona + ciepła woda</td><td>Uporczywe plamy, moczenie 20 min</td><td>Bardzo dobra</td><td>Bezpieczna, nieścierająca</td></tr>
-<tr><td>Biały ocet rozcieńczony (50/50)</td><td>Usuwanie zapachów i kamienia</td><td>Dobra</td><td>Bezpieczny, dokładnie opłucz</td></tr>
-<tr><td>Kuchenny spray odtłuszczający</td><td>Tylko na zewnątrz, nałożony na szmatkę</td><td>Dobra</td><td>NIE stosować na grzałce ani w koszu</td></tr>
-<tr><td>Gąbka ścierna / druciak</td><td>ABSOLUTNIE UNIKAĆ</td><td>–</td><td>NIEZGODNY – rysuje powłokę</td></tr>
+<tr><td>Zwykły płyn do mycia naczyń + miękka gąbka</td><td>Codzienne czyszczenie</td><td>Doskonała</td><td>Bezpieczny dla każdej powłoki</td></tr>
+<tr><td>Soda oczyszczona + ciepła woda</td><td>Uporczywe plamy, moczenie przez 20 min</td><td>Bardzo dobra</td><td>Bezpieczna, nie rysuje</td></tr>
+<tr><td>Ocet spirytusowy rozcieńczony wodą (1:1)</td><td>Usuwanie zapachów i kamienia</td><td>Dobra</td><td>Bezpieczny, ale dokładnie spłucz</td></tr>
+<tr><td>Odtłuszczacz kuchenny w sprayu</td><td>Tylko obudowa, nanoszony na szmatkę</td><td>Dobra</td><td>NIE stosować na grzałce ani w koszu</td></tr>
+<tr><td>Szorstka gąbka / druciak</td><td>ZDECYDOWANIE UNIKAĆ</td><td>–</td><td>NIE – rysuje powłokę</td></tr>
 <tr><td>Zmywarka (program delikatny)</td><td>Kosz i szuflada</td><td>Dobra</td><td>Sprawdź instrukcję – tylko niektóre modele</td></tr>
 </tbody>
 </table>`,
@@ -757,7 +757,7 @@ export const article: BlogArticle = {
         es: '¿Con qué frecuencia hay que limpiar la freidora de aire?',
         it: 'Con quale frequenza bisogna pulire la friggitrice ad aria?',
         nl: 'Hoe vaak moet je je airfryer schoonmaken?',
-        pl: 'Jak często należy czyścić frytkownicę beztłuszczową?',
+        pl: 'Jak często czyścić frytkownicę beztłuszczową?',
       },
       answer: {
         fr: 'Nettoyez le panier et le tiroir après chaque utilisation avec une éponge douce et de l\'eau savonneuse (5 minutes). Faites un nettoyage hebdomadaire de la résistance avec une brosse douce. Un nettoyage profond mensuel du boîtier entier et des grilles est recommandé pour maintenir les performances optimales.',
@@ -766,7 +766,7 @@ export const article: BlogArticle = {
         es: 'Limpia la cesta y el cajón después de cada uso con una esponja suave y agua jabonosa (5 minutos). Haz una limpieza semanal de la resistencia con un cepillo suave. Se recomienda una limpieza profunda mensual de toda la carcasa y las rejillas para mantener un rendimiento óptimo.',
         it: 'Pulisci il cestello e il cassetto dopo ogni utilizzo con una spugna morbida e acqua saponata (5 minuti). Fai una pulizia settimanale della resistenza con una spazzola morbida. Una pulizia profonda mensile dell\'intero alloggiamento e delle griglie è consigliata per prestazioni ottimali.',
         nl: 'Maak de mand en lade na elk gebruik schoon met een zachte spons en sop (5 minuten). Doe wekelijks een reiniging van het verwarmingselement met een zachte borstel. Een maandelijkse grondige reiniging van de hele behuizing en rekjes wordt aanbevolen voor optimale prestaties.',
-        pl: 'Po każdym użyciu myj kosz i szufladę miękką gąbką i wodą z mydłem (5 minut). Raz w tygodniu czyść grzałkę miękką szczotką. Aby utrzymać optymalną wydajność, zalecamy raz w miesiącu gruntowne czyszczenie całej obudowy i kratek.',
+        pl: 'Po każdym użyciu myj kosz i szufladę miękką gąbką w ciepłej wodzie z płynem do naczyń (5 minut). Raz w tygodniu czyść grzałkę miękką szczotką. Raz w miesiącu warto gruntownie wyczyścić całą obudowę i kratki wentylacyjne – dzięki temu frytkownica zachowa pełną wydajność.',
       },
     },
     {
@@ -786,7 +786,7 @@ export const article: BlogArticle = {
         es: 'La cesta extraíble y el cajón son generalmente aptos para lavavajillas en la mayoría de modelos. Consulta el manual de tu modelo específico. Nunca pongas la carcasa principal ni los componentes eléctricos. El lavavajillas puede acelerar el desgaste del antiadherente a largo plazo.',
         it: 'Il cestello estraibile e il cassetto sono generalmente lavabili in lavastoviglie nella maggior parte dei modelli. Controlla il manuale del tuo modello. Non mettere mai il corpo principale o i componenti elettrici in lavastoviglie. L\'uso frequente della lavastoviglie può accelerare l\'usura del rivestimento antiaderente.',
         nl: 'De uitneembare mand en lade zijn bij de meeste modellen vaatwasmachinebestendig. Controleer altijd de handleiding van jouw model. Zet nooit de hoofdbehuizing of elektrische onderdelen in de vaatwasser. Frequente vaatwasser kan de slijtage van de antiaanbaklaag op den duur versnellen.',
-        pl: 'Wyjmowany kosz i szuflada są zazwyczaj przystosowane do mycia w zmywarce w większości modeli. Sprawdź instrukcję swojego modelu. Nigdy nie wkładaj do zmywarki głównej obudowy ani elementów elektrycznych. Uwaga: na dłuższą metę zmywarka może przyspieszać zużycie powłoki nieprzywierającej.',
+        pl: 'W większości modeli wyjmowany kosz i szufladę można myć w zmywarce – sprawdź to w instrukcji swojego urządzenia. Nigdy nie wkładaj do zmywarki korpusu frytkownicy ani elementów elektrycznych. Uwaga: na dłuższą metę zmywarka może przyspieszać zużycie powłoki nieprzywierającej.',
       },
     },
     {
@@ -797,7 +797,7 @@ export const article: BlogArticle = {
         es: '¿Cómo eliminar los malos olores de mi freidora de aire?',
         it: 'Come eliminare i cattivi odori dalla mia friggitrice ad aria?',
         nl: 'Hoe verwijder ik nare geurtjes uit mijn airfryer?',
-        pl: 'Jak pozbyć się nieprzyjemnych zapachów z frytkownicy beztłuszczowej?',
+        pl: 'Jak pozbyć się nieprzyjemnego zapachu z frytkownicy beztłuszczowej?',
       },
       answer: {
         fr: 'Placez un mélange de jus de citron et vinaigre blanc dans un ramequin résistant à la chaleur dans le panier. Faites tourner l\'airfryer à 180°C pendant 5 minutes. Vous pouvez aussi frotter l\'intérieur avec une pâte de bicarbonate de soude. Pour les odeurs persistantes, laissez du marc de café dans le panier fermé toute une nuit.',
@@ -806,7 +806,7 @@ export const article: BlogArticle = {
         es: 'Coloca una mezcla de zumo de limón y vinagre blanco en un ramequín resistente al calor dentro de la cesta. Pon la freidora a 180°C durante 5 minutos. También puedes frotar el interior con pasta de bicarbonato. Para olores persistentes, deja posos de café en la cesta cerrada toda la noche.',
         it: 'Metti un mix di succo di limone e aceto bianco in un ramequin resistente al calore nel cestello. Fai funzionare la friggitrice a 180°C per 5 minuti. Puoi anche strofinare l\'interno con una pasta di bicarbonato. Per odori persistenti, lascia fondi di caffè nel cestello chiuso tutta la notte.',
         nl: 'Zet een mix van citroensap en witte azijn in een hittebestendig schaaltje in de mand. Laat de airfryer 5 minuten op 180°C draaien. Je kunt de binnenkant ook schrobben met een pasta van baking soda. Voor hardnekkige geuren laat je koffiedik een nacht in de gesloten mand staan.',
-        pl: 'Włóż do kosza żaroodporną miseczkę z mieszanką soku z cytryny i białego octu. Uruchom frytkownicę na 5 minut w temperaturze 180 °C. Możesz też przetrzeć wnętrze pastą z sody oczyszczonej. Przy uporczywych zapachach zostaw na całą noc fusy z kawy w zamkniętym koszu.',
+        pl: 'Włóż do kosza żaroodporną miseczkę z sokiem z cytryny wymieszanym z octem spirytusowym. Włącz frytkownicę na 5 minut w temperaturze 180 °C. Możesz też przetrzeć wnętrze pastą z sody oczyszczonej. Jeśli zapach nie znika, zostaw na noc fusy z kawy w koszu zamkniętej frytkownicy.',
       },
     },
     {
@@ -826,7 +826,7 @@ export const article: BlogArticle = {
         es: 'No hay una vida útil estándar: depende de la calidad de fabricación, la frecuencia de uso y el mantenimiento. El antiadherente suele ser lo primero en desgastarse, y las cestas o cajones de repuesto permiten a menudo alargar la vida del aparato. Limpiar con regularidad la resistencia y las rejillas reduce humo, olores y sobrecalentamiento.',
         it: 'Non esiste una durata standard: dipende dalla qualità costruttiva, dalla frequenza d\'uso e dalla manutenzione. Il rivestimento antiaderente è di solito il primo a usurarsi, e cestelli o cassetti di ricambio permettono spesso di prolungare la vita dell\'apparecchio. Pulire regolarmente resistenza e griglie di aerazione limita fumo, odori e surriscaldamento.',
         nl: 'Er is geen vaste levensduur: die hangt af van de bouwkwaliteit, hoe vaak je hem gebruikt en het onderhoud. De antiaanbaklaag slijt meestal als eerste, en losse manden of lades verlengen vaak de levensduur van het apparaat. Het verwarmingselement en de ventilatieroosters regelmatig reinigen beperkt rook, geurtjes en oververhitting.',
-        pl: 'Nie ma standardowej żywotności: zależy ona od jakości wykonania, częstotliwości używania i konserwacji. Powłoka nieprzywierająca zwykle zużywa się jako pierwsza, a zapasowe kosze lub szuflady często pozwalają przedłużyć życie urządzenia. Regularne czyszczenie grzałki i kratek wentylacyjnych ogranicza dym, zapachy i przegrzewanie.',
+        pl: 'Nie ma jednej standardowej wartości: żywotność zależy od jakości wykonania, częstotliwości używania i konserwacji. Zwykle jako pierwsza zużywa się powłoka nieprzywierająca, a dzięki zapasowym koszom lub szufladom często można przedłużyć życie urządzenia. Regularne czyszczenie grzałki i kratek wentylacyjnych ogranicza dym, zapachy i ryzyko przegrzewania.',
       },
     },
     {
@@ -846,7 +846,7 @@ export const article: BlogArticle = {
         es: 'Contacta primero con el servicio posventa del fabricante: Philips, Ninja y Moulinex ofrecen cestas y rejillas de repuesto. Amazon también vende piezas compatibles para modelos populares. Para marcas menos conocidas, verifica la disponibilidad de repuestos antes de comprar.',
         it: 'Contatta prima il servizio clienti del produttore: Philips, Ninja e Moulinex offrono cestelli e griglie di ricambio. Amazon vende anche parti compatibili per i modelli più diffusi. Per marchi meno noti, verifica la disponibilità dei ricambi prima dell\'acquisto: è un criterio spesso trascurato.',
         nl: 'Neem eerst contact op met de klantenservice van de fabrikant: Philips, Ninja en Moulinex bieden vervangende manden en rekjes aan. Amazon verkoopt ook compatibele onderdelen voor populaire modellen. Controleer voor minder bekende merken de beschikbaarheid van onderdelen vóór aankoop.',
-        pl: 'Najpierw skontaktuj się z serwisem producenta: Philips, Ninja i Moulinex oferują zamienne kosze i kratki. Amazon sprzedaje też zgodne części do popularnych modeli. W przypadku mniej znanych marek sprawdź dostępność części przed zakupem: to kryterium często pomijane.',
+        pl: 'Najpierw skontaktuj się z serwisem producenta: Philips, Ninja i Moulinex oferują zamienne kosze i ruszty. W sklepie Amazon znajdziesz też zgodne części do popularnych modeli. W przypadku mniej znanych marek sprawdź dostępność części jeszcze przed zakupem – to kryterium, o którym wiele osób zapomina.',
       },
     },
   ],

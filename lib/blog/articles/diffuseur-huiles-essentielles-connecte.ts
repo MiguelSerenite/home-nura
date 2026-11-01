@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: 'Asakuki, Maxcio, Zen’Arôme Prague, Atomiser Connect, Levoit Dual 200S: ¿qué difusor de aceites esenciales inteligente elegir en 2026? Ultrasonidos o nebulización, Wi-Fi o Bluetooth, Alexa o Apple Home, y precauciones con niños, embarazo y gatos.',
     it: 'Asakuki, Maxcio, Zen’Arôme Prague, Atomiser Connect, Levoit Dual 200S: quale diffusore di oli essenziali smart scegliere nel 2026? Ultrasuoni o nebulizzazione, Wi-Fi o Bluetooth, Alexa o Apple Casa, e precauzioni per bambini, gravidanza e gatti.',
     nl: 'Asakuki, Maxcio, Zen’Arôme Prague, Atomiser Connect, Levoit Dual 200S: welke slimme aromadiffuser kies je in 2026? Ultrasoon of vernevelaar, wifi of Bluetooth, Alexa of Apple Woning, plus voorzorgen voor kinderen, zwangerschap en katten.',
-    pl: 'Asakuki, Maxcio, Zen’Arôme Prague, Atomiser Connect, Levoit Dual 200S: jaki inteligentny dyfuzor olejków eterycznych wybrać w 2026 roku? Ultradźwięki czy nebulizacja, Wi-Fi czy Bluetooth, Alexa czy Apple Home oraz środki ostrożności dla dzieci, kobiet w ciąży i kotów.',
+    pl: 'Asakuki, Maxcio, Zen’Arôme Prague, Atomiser Connect, Levoit Dual 200S: jaki inteligentny dyfuzor olejków eterycznych wybrać w 2026 roku? Dyfuzor ultradźwiękowy czy nebulizator, Wi-Fi czy Bluetooth, Alexa czy Apple Home – a do tego zasady bezpieczeństwa, gdy w domu są dzieci, kobieta w ciąży lub kot.',
   },
   content: {
     fr: `<p>Le meilleur diffuseur d’huiles essentielles connecté pour la plupart des foyers en 2026 est l’<strong>ASAKUKI Smart Wi-Fi Essential Oil Diffuser</strong> : un modèle à ultrasons de 500 ml, piloté par appli et compatible Alexa et Google Home, qui tient une soirée entière sans remplissage. Si vous cherchez avant tout un petit prix, le <strong>Maxcio 400 ml</strong> fait l’essentiel, et si vous préférez une diffusion d’huiles pures sans eau, l’<strong>Aromatherapy Associates Atomiser Connect</strong> est l’un des rares nébuliseurs pilotables depuis un smartphone.</p>
@@ -676,111 +676,111 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Voor de meeste huishoudens biedt de <strong>ASAKUKI Smart Wi-Fi 500 ml</strong> de beste balans tussen inhoud, planning en spraakbediening. De <strong>Maxcio 400 ml</strong> is de slimme keuze met een klein budget, en de <strong>Zen’Arôme Prague</strong> spreekt iedereen aan die een mooi object wil dat met Apple Woning werkt. Puristen in aromatherapie kiezen de <strong>Atomiser Connect</strong>, terwijl de <strong>Levoit Dual 200S</strong> vooral zinvol is als je droge lucht wilt bevochtigen. Bekijk de volledige selectie in onze rubriek <a href="/nl/confort-air/diffuseurs">diffusers</a> en houd de luchtvochtigheid in de gaten met onze gids over de <a href="/nl/blog/deshumidificateur-connecte-guide">slimme luchtontvochtiger</a>.</p>`,
-    pl: `<p>Najlepszym inteligentnym dyfuzorem olejków eterycznych dla większości domów w 2026 roku jest <strong>ASAKUKI Smart Wi-Fi Essential Oil Diffuser</strong>: ultradźwiękowy model o pojemności 500 ml, sterowany aplikacją i zgodny z Alexa i Google Home, który wytrzymuje cały wieczór bez uzupełniania. Jeśli szukasz przede wszystkim taniej opcji, <strong>Maxcio 400 ml</strong> robi to, co najważniejsze, a jeśli wolisz rozpylanie czystych olejków bez wody, <strong>Aromatherapy Associates Atomiser Connect</strong> jest jednym z nielicznych nebulizatorów sterowanych ze smartfona.</p>
-<p>To porównanie opiera się na kartach katalogowych producentów, opisach europejskich dystrybutorów, opublikowanych niezależnych analizach i opiniach zweryfikowanych kupujących. Wyraźnie odróżniamy modele naprawdę inteligentne od tych, które takie nie są, a na koniec podajemy środki ostrożności, niezbędne przy olejkach eterycznych.</p>
+    pl: `<p>Najlepszym inteligentnym dyfuzorem olejków eterycznych dla większości domów w 2026 roku jest <strong>ASAKUKI Smart Wi-Fi Essential Oil Diffuser</strong>: ultradźwiękowy model o pojemności 500 ml, sterowany z aplikacji i zgodny z Alexą oraz Google Home, który bez dolewania wody działa przez cały wieczór. Jeśli liczy się przede wszystkim niska cena, <strong>Maxcio 400 ml</strong> zapewnia to, co najważniejsze, a jeśli wolisz rozpylać czyste olejki bez wody, <strong>Aromatherapy Associates Atomiser Connect</strong> to jeden z nielicznych nebulizatorów sterowanych ze smartfona.</p>
+<p>To porównanie opiera się na kartach katalogowych producentów, opisach europejskich dystrybutorów, opublikowanych niezależnych analizach i opiniach zweryfikowanych kupujących. Wyraźnie oddzielamy modele naprawdę inteligentne od pozostałych, a na koniec przypominamy o środkach ostrożności, które przy olejkach eterycznych są niezbędne.</p>
 
-<h2>Inteligentny dyfuzor: co naprawdę zmienia aplikacja</h2>
-<p>Klasyczny dyfuzor włącza się przyciskiem i wyłącza po upływie stałego czasu. Model z aplikacją dodaje trzy rzeczy przydatne na co dzień:</p>
+<h2>Inteligentny dyfuzor – co naprawdę daje aplikacja?</h2>
+<p>Zwykły dyfuzor włącza się przyciskiem i wyłącza po ustalonym czasie. Model z aplikacją daje trzy możliwości, które przydają się na co dzień:</p>
 <ul>
-<li><strong>Harmonogramy</strong>: uruchamianie dyfuzji wieczorem przed snem albo ograniczanie jej do krótkich przedziałów, bez pamiętania o tym.</li>
-<li><strong>Sterowanie zdalne i głosem</strong>: „Alexa, wyłącz dyfuzor”, gdy masz zajęte ręce albo zapomniałeś go wyłączyć przy wychodzeniu.</li>
-<li><strong>Integracja z rutynami</strong>: włączanie oświetlenia nastrojowego i dyfuzji jednocześnie ze scenariuszem „wieczór” w Alexa, Google Home lub Apple Home, zależnie od modelu.</li>
+<li><strong>Harmonogramy</strong>: dyfuzor sam włączy się wieczorem przed snem albo będzie pracował tylko przez krótkie okresy – nie musisz o tym pamiętać.</li>
+<li><strong>Sterowanie zdalne i głosowe</strong>: „Alexa, wyłącz dyfuzor”, gdy masz zajęte ręce albo zapomnisz go wyłączyć przed wyjściem z domu.</li>
+<li><strong>Integracja z rutynami</strong>: scenariusz „wieczór” w Alexie, Google Home lub Apple Home (zależnie od modelu) może jednocześnie włączyć nastrojowe światło i dyfuzor.</li>
 </ul>
-<p>Harmonogram ma też zdroworozsądkowy sens: ułatwia trzymanie się krótkich sesji dyfuzji, co zaleca większość specjalistów od aromaterapii.</p>
+<p>Harmonogram przydaje się też z czysto zdroworozsądkowego powodu: łatwiej trzymać się krótkich sesji, a to właśnie zaleca większość specjalistów od aromaterapii.</p>
 
-<h2>Ultradźwięki czy nebulizacja: dwie bardzo różne technologie</h2>
+<h2>Dyfuzor ultradźwiękowy czy nebulizator: dwie zupełnie różne technologie</h2>
 <h3>Dyfuzor ultradźwiękowy</h3>
-<p>To najpopularniejsza technologia wśród modeli z aplikacją. Napełnia się zbiornik wodą, dodaje kilka kropli olejku eterycznego, a drgająca membrana wytwarza zimną mgiełkę. Zalety: cichy, ekonomiczny w użytkowaniu (zużywa mało olejku), duża autonomia. Ograniczenia: dyfuzja jest rozcieńczona i mniej intensywna, zbiornik trzeba regularnie opróżniać i czyścić, by uniknąć stojącej wody, a twarda woda może zostawiać lekki biały osad na pobliskich meblach.</p>
-<h3>Dyfuzor nebulizujący</h3>
-<p>Nebulizator działa bez wody: czysty olejek eteryczny jest rozpylany w mikrokropelki. Dyfuzja jest wyraźnie mocniejsza i wierniejsza zapachowi olejku, ale zużywa więcej produktu i może być nieco głośniejsza. To technologia wymagająca największej ostrożności co do długości sesji, ponieważ olejek nie jest rozcieńczony.</p>
-<h3>Nawilżacz z komorą na aromaty</h3>
-<p>Trzecia rodzina: niektóre inteligentne nawilżacze, jak Levoit Dual 200S, mają komorę przeznaczoną na kilka kropli olejku. To nie jest dyfuzor w ścisłym znaczeniu, ale to logiczna opcja, jeśli zimą powietrze jest u Ciebie suche. Nigdy nie dodawaj olejku do zbiornika nawilżacza, który nie jest do tego przeznaczony: może to uszkodzić tworzywa i unieważnić gwarancję.</p>
+<p>To najpopularniejsza technologia wśród modeli sterowanych z aplikacji. Do zbiornika wlewasz wodę, dodajesz kilka kropli olejku eterycznego, a drgająca membrana wytwarza chłodną mgiełkę. Taki dyfuzor działa cicho, jest tani w eksploatacji (zużywa mało olejku) i długo pracuje bez dolewania wody. Ma jednak swoje ograniczenia: zapach jest rozcieńczony i mniej intensywny, zbiornik trzeba regularnie opróżniać i myć, żeby nie stała w nim woda, a twarda woda może zostawiać delikatny biały nalot na pobliskich meblach.</p>
+<h3>Nebulizator</h3>
+<p>Nebulizator działa bez wody: rozbija czysty olejek eteryczny na mikrokropelki. Zapach jest wyraźnie intensywniejszy i wierniej oddaje aromat olejku, ale urządzenie zużywa go więcej i może pracować nieco głośniej. Ponieważ olejek nie jest rozcieńczony, przy tej technologii trzeba szczególnie pilnować długości sesji.</p>
+<h3>Nawilżacz z pojemnikiem na olejki</h3>
+<p>Jest też trzecia możliwość: niektóre inteligentne nawilżacze, np. Levoit Dual 200S, mają specjalny pojemnik na kilka kropli olejku. To nie jest dyfuzor w ścisłym znaczeniu, ale rozsądny wybór, jeśli zimą masz w domu suche powietrze. Nigdy nie dodawaj olejku do zbiornika nawilżacza, który nie jest do tego przeznaczony: może to uszkodzić plastikowe elementy i spowodować utratę gwarancji.</p>
 
 <h2>Kryteria wyboru</h2>
 <ul>
-<li><strong>Ekosystem</strong>: większość przystępnych modeli korzysta z aplikacji Smart Life lub Tuya Smart i jest potem sterowana przez Alexa lub Google Home. Jeśli korzystasz z iPhone’a i Apple Home, sprawdź deklarowaną zgodność przed zakupem.</li>
-<li><strong>Wi-Fi 2,4 GHz</strong>: te urządzenia zazwyczaj nie łączą się z pasmem 5 GHz. Jeśli Twój router łączy oba pasma, parowanie może wymagać kilku zabiegów.</li>
-<li><strong>Wi-Fi czy Bluetooth</strong>: przy Bluetooth sterowanie działa tylko w pobliżu; tylko Wi-Fi pozwala wyłączyć dyfuzor spoza domu.</li>
-<li><strong>Pojemność zbiornika</strong>: od 120 ml w modelu ozdobnym do 500 ml przy długiej dyfuzji. Im większy zbiornik, tym rzadziej go napełniasz, ale nic nie zmusza do dyfuzji przez wiele godzin z rzędu.</li>
-<li><strong>Automatyczne wyłączanie</strong>: niezbędne w modelu ultradźwiękowym, aby urządzenie wyłączyło się, gdy zabraknie wody.</li>
-<li><strong>Powierzchnia pomieszczenia</strong>: mały dyfuzor dekoracyjny nadaje się do sypialni lub biura, ale nie do dużego otwartego salonu.</li>
-<li><strong>Konserwacja</strong>: łatwo dostępny zbiornik i szeroki otwór ułatwiają cotygodniowe czyszczenie.</li>
+<li><strong>Ekosystem</strong>: większość niedrogich modeli konfiguruje się w aplikacji Smart Life lub Tuya Smart, a potem steruje się nimi przez Alexę lub Google Home. Jeśli masz iPhone’a i korzystasz z Apple Home, przed zakupem sprawdź, czy producent deklaruje zgodność.</li>
+<li><strong>Wi-Fi 2,4 GHz</strong>: te urządzenia zwykle nie łączą się z pasmem 5 GHz. Jeśli router nadaje oba pasma pod jedną nazwą sieci, parowanie może wymagać kilku dodatkowych kroków.</li>
+<li><strong>Wi-Fi czy Bluetooth</strong>: przez Bluetooth sterujesz dyfuzorem tylko z bliska; wyłączyć go spoza domu pozwala wyłącznie Wi-Fi.</li>
+<li><strong>Pojemność zbiornika</strong>: od 120 ml w modelach dekoracyjnych do 500 ml w modelach do długiej pracy. Im większy zbiornik, tym rzadziej trzeba go napełniać – ale to nie znaczy, że dyfuzor musi pracować godzinami bez przerwy.</li>
+<li><strong>Automatyczne wyłączanie</strong>: w modelu ultradźwiękowym niezbędne, by urządzenie wyłączyło się samo, gdy zabraknie wody.</li>
+<li><strong>Powierzchnia pomieszczenia</strong>: mały dyfuzor dekoracyjny nadaje się do sypialni lub pokoju do pracy, ale nie do dużego, otwartego salonu.</li>
+<li><strong>Czyszczenie</strong>: łatwo dostępny zbiornik i szeroki otwór ułatwiają cotygodniowe mycie.</li>
 </ul>
 
-<h2>Najlepsze inteligentne dyfuzory olejków eterycznych 2026</h2>
+<h2>Najlepsze inteligentne dyfuzory olejków eterycznych w 2026 roku</h2>
 
-<h3>1. ASAKUKI Smart Wi-Fi Essential Oil Diffuser (500 ml): najlepszy wybór ogólny</h3>
-<p>Asakuki to jeden z najpopularniejszych w Europie dyfuzorów z aplikacją. Jego zbiornik 500 ml zapewnia długą autonomię, steruje się nim aplikacją Tuya Smart (lub Smart Life) i reaguje na polecenia Alexa i Google Home. Aplikacja pozwala programować godziny włączania i wyłączania, ustawiać tryb mgiełki i wybierać spośród siedmiu kolorów podświetlenia, z trybem lampki nocnej. Automatyczne wyłączanie przy braku wody jest wbudowane.</p>
-<p><strong>Mocne strony:</strong> duża pojemność, bardzo rozpowszechniony ekosystem Tuya, pełne harmonogramy, szeroka zgodność ze sterowaniem głosowym.</p>
-<p><strong>Ograniczenia:</strong> tylko Wi-Fi 2,4 GHz, wygląd bardziej funkcjonalny niż dekoracyjny, brak natywnej zgodności z Apple Home.</p>
-<p><strong>Dla kogo:</strong> ci, którzy chcą dyfuzora łatwego do zautomatyzowania w domu wyposażonym już w Alexa lub Google Home.</p>
+<h3>1. ASAKUKI Smart Wi-Fi Essential Oil Diffuser (500 ml): najlepszy wybór dla większości</h3>
+<p>Asakuki to jeden z najpopularniejszych w Europie dyfuzorów sterowanych z aplikacji. Dzięki zbiornikowi 500 ml długo pracuje bez dolewania wody, obsługuje się go w aplikacji Tuya Smart (lub Smart Life) i współpracuje z Alexą oraz Google Home. W aplikacji zaprogramujesz godziny włączania i wyłączania, ustawisz tryb mgiełki i wybierzesz jeden z siedmiu kolorów podświetlenia; jest też tryb lampki nocnej. Gdy zabraknie wody, dyfuzor wyłącza się automatycznie.</p>
+<p><strong>Mocne strony:</strong> duża pojemność, bardzo popularny ekosystem Tuya, rozbudowane harmonogramy, współpraca z wieloma asystentami głosowymi.</p>
+<p><strong>Ograniczenia:</strong> tylko Wi-Fi 2,4 GHz, wygląd bardziej funkcjonalny niż dekoracyjny, brak natywnej obsługi Apple Home.</p>
+<p><strong>Dla kogo:</strong> osoby, które mają już w domu Alexę lub Google Home i szukają dyfuzora, który łatwo włączyć do automatyzacji.</p>
 
 <h3>2. Maxcio Smart Essential Oil Diffuser (400 ml): najlepszy stosunek jakości do ceny</h3>
-<p>Maxcio, marka specjalizująca się w inteligentnych gniazdkach i akcesoriach, oferuje ultradźwiękowy dyfuzor 400 ml, który również działa przez Smart Life / Tuya, na Wi-Fi 2,4 GHz. Znajdziesz w nim sterowanie głosowe Alexa i Google Home, regulację mgiełki, timer i pierścień świetlny w siedmiu kolorach. Zbiornik pozwala na długie sesje, choć w praktyce podzielisz je na krótsze.</p>
-<p><strong>Mocne strony:</strong> segment podstawowy, kompletne funkcje smart, łatwo dołączyć do istniejącej instalacji Smart Life.</p>
-<p><strong>Ograniczenia:</strong> prostsze wykończenie, mniej regulowana mgiełka niż w modelach z wyższej półki.</p>
-<p><strong>Dla kogo:</strong> pierwszy inteligentny dyfuzor do sypialni lub biura, bez dużego budżetu.</p>
+<p>Maxcio, marka specjalizująca się w inteligentnych gniazdkach i akcesoriach, ma w ofercie ultradźwiękowy dyfuzor 400 ml, który również korzysta z aplikacji Smart Life / Tuya i łączy się przez Wi-Fi 2,4 GHz. Obsługuje sterowanie głosowe przez Alexę i Google Home, ma regulację mgiełki, wyłącznik czasowy i podświetlany pierścień w siedmiu kolorach. Zbiornik wystarcza na długie sesje, choć w praktyce i tak podzielisz je na krótsze.</p>
+<p><strong>Mocne strony:</strong> budżetowa półka, komplet funkcji inteligentnych, łatwo go dodać do istniejącej instalacji Smart Life.</p>
+<p><strong>Ograniczenia:</strong> skromniejsze wykończenie, mniejsze możliwości regulacji mgiełki niż w modelach z wyższej półki.</p>
+<p><strong>Dla kogo:</strong> osoby, które przy niewielkim budżecie szukają pierwszego inteligentnego dyfuzora do sypialni lub pokoju do pracy.</p>
 
 <h3>3. Zen’Arôme Diffuseur connecté Prague: najbardziej dekoracyjny, zgodny z Apple Home</h3>
-<p>Francuska marka Zen’Arôme oferuje w modelu Prague ultradźwiękowy dyfuzor z półprzezroczystej ceramiki, sprzedawany m.in. u dystrybutorów specjalizujących się w dobrym samopoczuciu. Łączy się przez Wi-Fi z aplikacją Smart Life / Tuya Smart i jest deklarowany jako zgodny z Apple Home, Alexa i Google Home. Aplikacja pozwala tworzyć i zapisywać scenariusze dyfuzji (godziny rozpoczęcia i zakończenia, intensywność, kolor podświetlenia). Przyciski na froncie działają także bez smartfona.</p>
-<p><strong>Mocne strony:</strong> bardzo ładny przedmiot, niski pobór mocy (2 W), programowalne scenariusze, szeroka zgodność.</p>
-<p><strong>Ograniczenia:</strong> mały zbiornik 120 ml, odpowiedni do pomieszczeń do około 40 m².</p>
-<p><strong>Dla kogo:</strong> ci, którzy chcą dekoracyjnego przedmiotu do salonu lub sypialni, zwłaszcza użytkownicy iPhone’a. Model Venise tej samej marki oferuje te same funkcje w ażurowej ceramice.</p>
+<p>Prague francuskiej marki Zen’Arôme to ultradźwiękowy dyfuzor z półprzezroczystej ceramiki, sprzedawany m.in. przez dystrybutorów specjalizujących się w produktach wellness. Łączy się przez Wi-Fi z aplikacją Smart Life / Tuya Smart, a według deklaracji jest zgodny z Apple Home, Alexą i Google Home. W aplikacji można tworzyć i zapisywać scenariusze pracy (godzina rozpoczęcia i zakończenia, intensywność, kolor podświetlenia). Dyfuzor da się też obsługiwać przyciskami na obudowie, bez smartfona.</p>
+<p><strong>Mocne strony:</strong> bardzo ładny wygląd, niski pobór mocy (2 W), programowalne scenariusze, zgodność z wieloma ekosystemami.</p>
+<p><strong>Ograniczenia:</strong> mały zbiornik (120 ml), sprawdzi się w pomieszczeniach do ok. 40 m².</p>
+<p><strong>Dla kogo:</strong> osoby, które szukają ozdobnego dyfuzora do salonu lub sypialni, zwłaszcza użytkownicy iPhone’a. Model Venise tej samej marki ma te same funkcje, ale ażurową ceramiczną obudowę.</p>
 
 <h3>4. Aromatherapy Associates Atomiser Connect: inteligentny nebulizator</h3>
-<p>Atomiser Connect to nebulizator bez wody i ciepła: rozpyla czyste olejki. Jego cechą szczególną jest system z dwiema głowicami dyfuzji, który pozwala na przemienne użycie dwóch mieszanek. Bezpłatna aplikacja (iOS i Android), działająca przez Bluetooth, służy do ustawiania intensywności (standardowa lub boost), czasu trwania (30 minut, 1 godzina lub 3 godziny), koloru światła oraz programowania przedziałów dla poszczególnych dni tygodnia. Działa bezprzewodowo po naładowaniu przez USB i został wyróżniony na Stylist Beauty Awards 2024.</p>
-<p><strong>Mocne strony:</strong> intensywna i wierna dyfuzja, podwójna mieszanka, urządzenie przenośne.</p>
-<p><strong>Ograniczenia:</strong> tylko Bluetooth (brak sterowania spoza domu i asystenta głosowego), wyższe zużycie olejku, segment premium. Jest pomyślany pod flakony tej marki: sprawdź zgodność, zanim użyjesz innych.</p>
-<p><strong>Dla kogo:</strong> miłośnicy aromaterapii, którzy chcą czystej dyfuzji i precyzyjnych programów i godzą się na pozostanie w świecie jednej marki.</p>
+<p>Atomiser Connect to nebulizator, który nie potrzebuje ani wody, ani podgrzewania – rozpyla czyste olejki. Wyróżnia go system dwóch głowic rozpylających, dzięki któremu można na zmianę używać dwóch mieszanek. W bezpłatnej aplikacji (iOS i Android), która łączy się przez Bluetooth, ustawisz intensywność (standardowa lub boost), czas pracy (30 minut, 1 godzina lub 3 godziny) i kolor światła, a także zaplanujesz godziny pracy na poszczególne dni tygodnia. Po naładowaniu przez USB działa bez kabla, a do tego zdobył wyróżnienie w Stylist Beauty Awards 2024.</p>
+<p><strong>Mocne strony:</strong> intensywny i wierny zapach, dwie mieszanki w jednym urządzeniu, możliwość przenoszenia.</p>
+<p><strong>Ograniczenia:</strong> tylko Bluetooth (brak sterowania spoza domu i obsługi asystenta głosowego), większe zużycie olejku, półka premium. Urządzenie zaprojektowano z myślą o flakonach tej marki – zanim użyjesz innych, sprawdź, czy są zgodne.</p>
+<p><strong>Dla kogo:</strong> miłośnicy aromaterapii, którzy chcą rozpylać czyste olejki według precyzyjnych programów i nie przeszkadza im przywiązanie do jednej marki.</p>
 
-<h3>5. Levoit Dual 200S: inteligentny nawilżacz, który też dyfunduje</h3>
-<p>Dual 200S to przede wszystkim ultradźwiękowy nawilżacz o pojemności 3 litrów, przeznaczony do pomieszczeń od 10 do 27 m², z autonomią do 25 godzin na najniższym ustawieniu. Steruje się nim aplikacją VeSync, zgodną z Alexa i Google Assistant, i oferuje tryb automatyczny dostosowujący mgiełkę do utrzymania wilgotności. Kilka kropli olejku eterycznego umieszcza się w dedykowanej komorze w podstawie, nie w zbiorniku.</p>
-<p><strong>Mocne strony:</strong> dwa zastosowania w jednym, tryb automatyczny zależny od wilgotności, wygodne napełnianie od góry.</p>
-<p><strong>Ograniczenia:</strong> zapach pozostaje dyskretny, to nie jest prawdziwy dyfuzor; zbędny, jeśli powietrze jest już wilgotne (nadmiar wilgoci sprzyja pleśni).</p>
-<p><strong>Dla kogo:</strong> mieszkania z suchym powietrzem zimą, do sypialni lub pokoju dziecięcego, gdzie liczy się głównie nawilżanie. Miej oko na wilgotność: pomogą nasze porady o <a href="/pl/blog/qualite-air-interieur-capteurs">jakości powietrza w pomieszczeniach i czujnikach</a>.</p>
+<h3>5. Levoit Dual 200S: inteligentny nawilżacz, który rozpyla też olejki</h3>
+<p>Dual 200S to przede wszystkim ultradźwiękowy nawilżacz o pojemności 3 litrów, przeznaczony do pomieszczeń o powierzchni 10–27 m², który na najniższym ustawieniu pracuje do 25 godzin. Steruje się nim w aplikacji VeSync, zgodnej z Alexą i Asystentem Google; ma też tryb automatyczny, który reguluje mgiełkę tak, by utrzymać stały poziom wilgotności. Kilka kropli olejku eterycznego wlewa się do specjalnego pojemnika w podstawie, a nie do zbiornika na wodę.</p>
+<p><strong>Mocne strony:</strong> dwa urządzenia w jednym, tryb automatyczny sterowany wilgotnością, wygodne napełnianie od góry.</p>
+<p><strong>Ograniczenia:</strong> zapach jest delikatny, bo to nie jest prawdziwy dyfuzor; nie ma sensu, jeśli powietrze w domu jest już wilgotne (nadmiar wilgoci sprzyja pleśni).</p>
+<p><strong>Dla kogo:</strong> mieszkania, w których zimą powietrze jest suche – do sypialni lub pokoju dziecka, gdzie chodzi przede wszystkim o nawilżanie. Pilnuj przy tym poziomu wilgotności; pomogą w tym nasze porady o <a href="/pl/blog/qualite-air-interieur-capteurs">jakości powietrza w domu i czujnikach, które ją mierzą</a>.</p>
 
 <h3>Alternatywy bez łączności</h3>
-<p><strong>Pranarôm Diffuseur Edison</strong> (bez łączności): nebulizator bez wody z drewna i dmuchanego szkła, zasilany przez USB, z dwoma programami po 30 lub 60 minut, które automatycznie przeplatają 2 minuty dyfuzji z 1 minutą przerwy, do pomieszczeń do około 30 m². Bez aplikacji, ale z dobrze pomyślanym cyklem przerywanym.</p>
-<p><strong>MUJI Large Aroma Diffuser</strong> (bez łączności): ultradźwiękowy dyfuzor 350 ml o czystym designie, z timerem 30, 60, 120 lub 180 minut i dwoma poziomami podświetlenia. Pewny wybór, jeśli nie potrzebujesz aplikacji.</p>
+<p><strong>Pranarôm Diffuseur Edison</strong> (bez łączności): bezwodny nebulizator z drewna i dmuchanego szkła, zasilany przez USB, do pomieszczeń o powierzchni do ok. 30 m². Ma dwa programy (30 lub 60 minut), w których 2 minuty rozpylania automatycznie przeplatają się z 1 minutą przerwy. Nie ma aplikacji, ale cykl pracy przerywanej jest dobrze przemyślany.</p>
+<p><strong>MUJI Large Aroma Diffuser</strong> (bez łączności): ultradźwiękowy dyfuzor 350 ml o minimalistycznym wyglądzie, z wyłącznikiem czasowym (30, 60, 120 lub 180 minut) i dwoma poziomami podświetlenia. Pewny wybór, jeśli nie potrzebujesz aplikacji.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Technologia</th><th>Łączność</th><th>Kluczowa cecha</th><th>Najlepszy do</th></tr>
+<tr><th>Model</th><th>Technologia</th><th>Łączność</th><th>Kluczowa cecha</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td>ASAKUKI Smart Wi-Fi 500 ml</td><td>Ultradźwięki</td><td>Wi-Fi, Tuya Smart, Alexa, Google Home</td><td>Zbiornik 500 ml, 7 kolorów</td><td>Uniwersalne i zautomatyzowane użytkowanie</td></tr>
-<tr><td>Maxcio 400 ml</td><td>Ultradźwięki</td><td>Wi-Fi, Smart Life, Alexa, Google Home</td><td>Zbiornik 400 ml, segment podstawowy</td><td>Pierwszy inteligentny dyfuzor</td></tr>
-<tr><td>Zen’Arôme Prague</td><td>Ultradźwięki</td><td>Wi-Fi, Smart Life, Apple Home, Alexa, Google Home</td><td>Ceramika, 120 ml, do 40 m²</td><td>Dekoracja i iPhone</td></tr>
-<tr><td>Atomiser Connect</td><td>Nebulizacja bez wody</td><td>Bluetooth, dedykowana aplikacja</td><td>Podwójna głowica dyfuzji</td><td>Dyfuzja czystych olejków</td></tr>
-<tr><td>Levoit Dual 200S</td><td>Nawilżacz ultradźwiękowy</td><td>Wi-Fi, VeSync, Alexa, Google Assistant</td><td>3 l, tryb auto zależny od wilgotności</td><td>Suche powietrze zimą</td></tr>
-<tr><td>Pranarôm Edison</td><td>Nebulizacja bez wody</td><td>Bez łączności</td><td>Cykl 2 min / 1 min</td><td>Alternatywa bez aplikacji</td></tr>
+<tr><td>ASAKUKI Smart Wi-Fi 500 ml</td><td>Ultradźwięki</td><td>Wi-Fi, Tuya Smart, Alexa, Google Home</td><td>Zbiornik 500 ml, 7 kolorów</td><td>Wszechstronne, zautomatyzowane użytkowanie</td></tr>
+<tr><td>Maxcio 400 ml</td><td>Ultradźwięki</td><td>Wi-Fi, Smart Life, Alexa, Google Home</td><td>Zbiornik 400 ml, budżetowa półka</td><td>Pierwszy inteligentny dyfuzor</td></tr>
+<tr><td>Zen’Arôme Prague</td><td>Ultradźwięki</td><td>Wi-Fi, Smart Life, Apple Home, Alexa, Google Home</td><td>Ceramika, 120 ml, do 40 m²</td><td>Dekoracja wnętrza, użytkownicy iPhone’a</td></tr>
+<tr><td>Atomiser Connect</td><td>Nebulizacja bez wody</td><td>Bluetooth, aplikacja producenta</td><td>Dwie głowice rozpylające</td><td>Rozpylanie czystych olejków</td></tr>
+<tr><td>Levoit Dual 200S</td><td>Nawilżacz ultradźwiękowy</td><td>Wi-Fi, VeSync, Alexa, Asystent Google</td><td>3 l, tryb automatyczny według wilgotności</td><td>Suche powietrze zimą</td></tr>
+<tr><td>Pranarôm Edison</td><td>Nebulizacja bez wody</td><td>Brak łączności</td><td>Cykl 2 min / 1 min</td><td>Alternatywa bez aplikacji</td></tr>
 </tbody>
 </table>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Ciągła dyfuzja przez wiele godzin</strong>: duża autonomia nie oznacza, że trzeba dyfundować całą noc. Wybieraj krótkie, zaprogramowane sesje.</li>
-<li><strong>Zapominanie o czyszczeniu</strong>: zbiornik ze stojącą wodą szybko staje się siedliskiem bakterii. Opróżniaj go po użyciu i czyść co tydzień zgodnie z instrukcją producenta.</li>
-<li><strong>Używanie syntetycznych olejków zapachowych w nebulizatorze</strong>: niektóre urządzenia są przeznaczone wyłącznie do czystych olejków eterycznych; gęste olejki mogą je zatykać.</li>
-<li><strong>Pomijanie Wi-Fi 2,4 GHz</strong>: przed zakupem sprawdź, czy Twój router je oferuje.</li>
-<li><strong>Dodawanie olejku do nawilżacza, który nie jest do tego przeznaczony</strong>: używaj wyłącznie dedykowanej komory, jeśli istnieje.</li>
+<li><strong>Włączanie dyfuzora na wiele godzin bez przerwy</strong>: to, że urządzenie może długo pracować, nie znaczy, że powinno działać całą noc. Wybieraj krótkie, zaprogramowane sesje.</li>
+<li><strong>Zapominanie o czyszczeniu</strong>: zbiornik ze stojącą wodą szybko staje się siedliskiem bakterii. Opróżniaj go po użyciu i myj co tydzień zgodnie z instrukcją producenta.</li>
+<li><strong>Używanie syntetycznych olejków zapachowych w nebulizatorze</strong>: niektóre urządzenia są przeznaczone tylko do czystych olejków eterycznych, a gęste olejki mogą je zapychać.</li>
+<li><strong>Pomijanie kwestii Wi-Fi 2,4 GHz</strong>: przed zakupem sprawdź, czy Twój router udostępnia to pasmo.</li>
+<li><strong>Dodawanie olejku do nawilżacza, który nie jest do tego przeznaczony</strong>: olejek wlewaj wyłącznie do specjalnego pojemnika, jeśli urządzenie go ma.</li>
 </ul>
 
 <h2>Bezpieczeństwo: dzieci, kobiety w ciąży, zwierzęta</h2>
-<p>Olejki eteryczne to substancje czynne, a nie zwykłe zapachy. Kilka ogólnych środków ostrożności obowiązuje niezależnie od dyfuzora:</p>
+<p>Olejki eteryczne to substancje czynne, a nie zwykłe zapachy. Niezależnie od rodzaju dyfuzora warto przestrzegać kilku ogólnych zasad:</p>
 <ul>
-<li><strong>Wietrz</strong> pomieszczenie regularnie i ogranicz czas dyfuzji; wielu farmaceutów zaleca sesje rzędu 15–30 minut, a potem przerwę.</li>
-<li><strong>Dzieci</strong>: niektóre olejki eteryczne są niewskazane dla niemowląt i małych dzieci. Unikaj dyfuzji w pomieszczeniu, w którym przebywają, zwłaszcza podczas snu.</li>
-<li><strong>Ciąża i karmienie piersią</strong>: wiele olejków jest niewskazanych, zwłaszcza na początku ciąży. Zasięgnij opinii lekarza lub farmaceuty przed jakąkolwiek dyfuzją.</li>
-<li><strong>Astma, padaczka, alergie</strong>: dyfuzja może drażnić; zalecana jest konsultacja lekarska.</li>
-<li><strong>Zwierzęta, zwłaszcza koty</strong>: koty słabo eliminują niektóre związki zawarte w olejkach eterycznych i są na nie szczególnie wrażliwe. Nigdy nie dyfunduj w zamkniętym pomieszczeniu, w którym przebywa zwierzę, zawsze zostaw mu możliwość wyjścia i poproś o radę weterynarza. Ptaki i małe gryzonie są również bardzo wrażliwe.</li>
+<li><strong>Wietrz</strong> regularnie pomieszczenie i ograniczaj czas pracy dyfuzora; wielu farmaceutów zaleca sesje trwające ok. 15–30 minut, a potem przerwę.</li>
+<li><strong>Dzieci</strong>: niektóre olejki eteryczne są niewskazane u niemowląt i małych dzieci. Nie włączaj dyfuzora w pomieszczeniu, w którym przebywają, zwłaszcza gdy śpią.</li>
+<li><strong>Ciąża i karmienie piersią</strong>: wiele olejków jest niewskazanych, szczególnie na początku ciąży. Zanim zaczniesz korzystać z dyfuzora, zapytaj o zdanie lekarza lub farmaceutę.</li>
+<li><strong>Astma, padaczka, alergie</strong>: rozpylane olejki mogą działać drażniąco – warto skonsultować się z lekarzem.</li>
+<li><strong>Zwierzęta, zwłaszcza koty</strong>: organizm kota słabo radzi sobie z usuwaniem niektórych związków zawartych w olejkach eterycznych, dlatego koty są na nie szczególnie wrażliwe. Nigdy nie włączaj dyfuzora w zamkniętym pomieszczeniu, w którym przebywa zwierzę, zawsze zostaw mu możliwość wyjścia i poradź się weterynarza. Bardzo wrażliwe są też ptaki i małe gryzonie.</li>
 <li>Ustaw dyfuzor poza zasięgiem dzieci i zwierząt, na stabilnej powierzchni, a flakony przechowuj w bezpiecznym miejscu.</li>
 </ul>
-<p>Te informacje mają charakter ogólny i nie stanowią porady medycznej. W razie wątpliwości poproś o radę pracownika ochrony zdrowia.</p>
+<p>Te informacje mają charakter ogólny i nie stanowią porady medycznej. W razie wątpliwości skonsultuj się z lekarzem lub farmaceutą.</p>
 
-<h2>Werdykt</h2>
-<p>Dla większości domów <strong>ASAKUKI Smart Wi-Fi 500 ml</strong> oferuje najlepszą równowagę między pojemnością, harmonogramami i zgodnością ze sterowaniem głosowym. <strong>Maxcio 400 ml</strong> to sprytny wybór przy małym budżecie, a <strong>Zen’Arôme Prague</strong> przypadnie do gustu tym, którzy chcą ładnego przedmiotu zgodnego z Apple Home. Purystów aromaterapii zainteresuje <strong>Atomiser Connect</strong>, a <strong>Levoit Dual 200S</strong> to oczywisty wybór, jeśli przede wszystkim musisz nawilżyć suche powietrze. Cały wybór znajdziesz w naszej sekcji <a href="/pl/confort-air/diffuseurs">dyfuzory</a>, a wilgotność w pomieszczeniach pomoże Ci kontrolować nasz poradnik o <a href="/pl/blog/deshumidificateur-connecte-guide">inteligentnym osuszaczu powietrza</a>.</p>`,
+<h2>Nasz werdykt</h2>
+<p>W większości domów najlepszą równowagę między pojemnością, harmonogramami i obsługą asystentów głosowych zapewnia <strong>ASAKUKI Smart Wi-Fi 500 ml</strong>. <strong>Maxcio 400 ml</strong> to rozsądny wybór przy małym budżecie, a <strong>Zen’Arôme Prague</strong> spodoba się osobom, które szukają ładnego dyfuzora zgodnego z Apple Home. Zwolennicy aromaterapii bez kompromisów sięgną po <strong>Atomiser Connect</strong>, a jeśli przede wszystkim musisz nawilżyć suche powietrze, oczywistym wyborem jest <strong>Levoit Dual 200S</strong>. Wszystkie polecane modele znajdziesz w kategorii <a href="/pl/confort-air/diffuseurs">dyfuzory</a>, a o kontroli wilgotności w pomieszczeniach przeczytasz w naszym poradniku o <a href="/pl/blog/deshumidificateur-connecte-guide">inteligentnych osuszaczach powietrza</a>.</p>`,
   },
   faq: [
     {
@@ -800,7 +800,7 @@ export const article: BlogArticle = {
         es: 'El difusor ultrasónico mezcla unas gotas de aceite con agua y produce una bruma fría y suave que consume poco aceite. El nebulizador funciona sin agua y pulveriza el aceite puro: el aroma es más intenso, pero gasta más aceite y requiere sesiones más cortas.',
         it: 'Il diffusore a ultrasuoni miscela poche gocce di olio con l’acqua e produce un vapore freddo e delicato, con consumi ridotti. Il nebulizzatore funziona senz’acqua e frammenta l’olio puro: la diffusione è più intensa, ma consuma più olio e richiede sessioni più brevi.',
         nl: 'Een ultrasone diffuser mengt een paar druppels olie met water en maakt een zachte, koele nevel met weinig olieverbruik. Een vernevelaar werkt zonder water en verstuift pure olie: de geur is sterker, maar het verbruik is hoger en sessies moeten korter zijn.',
-        pl: 'Dyfuzor ultradźwiękowy miesza kilka kropli olejku z wodą i wytwarza zimną, łagodną mgiełkę, oszczędną pod względem zużycia olejku. Nebulizator działa bez wody i rozpyla czysty olejek: dyfuzja jest intensywniejsza, ale zużywa więcej olejku i wymaga krótszych sesji.',
+        pl: 'Dyfuzor ultradźwiękowy rozpyla kilka kropli olejku zmieszanych z wodą w postaci chłodnej, delikatnej mgiełki i zużywa niewiele olejku. Nebulizator działa bez wody i rozpyla czysty olejek: zapach jest intensywniejszy, ale zużycie olejku większe, a sesje powinny być krótsze.',
       },
     },
     {
@@ -820,7 +820,7 @@ export const article: BlogArticle = {
         es: 'Pocas veces. La mayoría de los modelos usan Smart Life / Tuya y se controlan con Alexa o Google Home. Los distribuidores anuncian el Zen’Arôme Prague como compatible con Apple Home; en cualquier otro modelo, busca la mención explícita antes de comprar.',
         it: 'Raramente. La maggior parte dei modelli usa Smart Life / Tuya e si comanda con Alexa o Google Home. Lo Zen’Arôme Prague è indicato dai rivenditori come compatibile con Apple Casa; per gli altri modelli, verifica che la compatibilità sia dichiarata esplicitamente.',
         nl: 'Zelden. De meeste modellen werken via Smart Life / Tuya en worden bediend met Alexa of Google Home. Winkels geven de Zen’Arôme Prague op als compatibel met Apple Woning; controleer bij andere modellen vóór aankoop of dit uitdrukkelijk vermeld staat.',
-        pl: 'Rzadko. Większość modeli korzysta ze Smart Life / Tuya i jest sterowana przez Alexa lub Google Home. Zen’Arôme Prague jest deklarowany przez dystrybutorów jako zgodny z Apple Home; w przypadku każdego innego modelu sprawdź wyraźną informację przed zakupem.',
+        pl: 'Rzadko. Większość modeli korzysta z aplikacji Smart Life / Tuya i steruje się nimi przez Alexę lub Google Home. Według dystrybutorów Zen’Arôme Prague jest zgodny z Apple Home; w przypadku innych modeli przed zakupem sprawdź, czy taka zgodność jest wyraźnie zadeklarowana.',
       },
     },
     {
@@ -831,7 +831,7 @@ export const article: BlogArticle = {
         es: '¿Cuánto tiempo se deben difundir los aceites esenciales?',
         it: 'Per quanto tempo si dovrebbero diffondere gli oli essenziali?',
         nl: 'Hoe lang kun je etherische oliën het beste verspreiden?',
-        pl: 'Jak długo należy dyfundować olejki eteryczne?',
+        pl: 'Jak długo powinien pracować dyfuzor olejków eterycznych?',
       },
       answer: {
         fr: 'Il n’existe pas de règle unique, mais de nombreux pharmaciens conseillent des sessions courtes, de l’ordre de 15 à 30 minutes, suivies d’une pause et d’une aération de la pièce. La programmation d’un diffuseur connecté aide justement à respecter ces durées.',
@@ -840,7 +840,7 @@ export const article: BlogArticle = {
         es: 'No hay una regla única, pero muchos farmacéuticos aconsejan sesiones cortas, de unos 15 a 30 minutos, seguidas de una pausa y de ventilar la estancia. La programación de un difusor inteligente ayuda a respetar estos tiempos.',
         it: 'Non esiste una regola unica, ma molti farmacisti consigliano sessioni brevi, di circa 15-30 minuti, seguite da una pausa e dall’aerazione della stanza. La programmazione di un diffusore smart aiuta proprio a rispettare questi tempi.',
         nl: 'Er is geen vaste regel, maar veel apothekers adviseren korte sessies van ongeveer 15 tot 30 minuten, gevolgd door een pauze en ventileren. De planning van een slimme diffuser helpt je die tijden aan te houden.',
-        pl: 'Nie ma jednej reguły, ale wielu farmaceutów zaleca krótkie sesje, rzędu 15–30 minut, po których następuje przerwa i wietrzenie pomieszczenia. Harmonogram w inteligentnym dyfuzorze właśnie pomaga trzymać się tych czasów.',
+        pl: 'Nie ma jednej zasady, ale wielu farmaceutów zaleca krótkie sesje, trwające ok. 15–30 minut, a po nich przerwę i wietrzenie pomieszczenia. Harmonogram w inteligentnym dyfuzorze pomaga właśnie w przestrzeganiu tych czasów.',
       },
     },
     {
@@ -851,7 +851,7 @@ export const article: BlogArticle = {
         es: '¿Se puede usar un difusor de aceites esenciales si tengo gato?',
         it: 'Si può usare un diffusore di oli essenziali in casa con un gatto?',
         nl: 'Kun je een aromadiffuser gebruiken als je een kat hebt?',
-        pl: 'Czy można używać dyfuzora olejków eterycznych w obecności kota?',
+        pl: 'Czy można używać dyfuzora olejków eterycznych, gdy w domu jest kot?',
       },
       answer: {
         fr: 'Avec beaucoup de prudence. Les chats éliminent mal certains composés des huiles essentielles. Ne diffusez jamais dans une pièce fermée où se trouve l’animal, laissez-lui une porte de sortie, limitez la durée et demandez conseil à votre vétérinaire, notamment sur les huiles à éviter.',
@@ -860,7 +860,7 @@ export const article: BlogArticle = {
         es: 'Con mucha prudencia. Los gatos eliminan mal ciertos compuestos de los aceites esenciales. No difundas nunca en una habitación cerrada con el gato dentro, déjale siempre una salida, limita la duración y consulta a tu veterinario, también sobre qué aceites evitar.',
         it: 'Con molta cautela. I gatti smaltiscono male alcuni composti degli oli essenziali. Non diffondere mai in una stanza chiusa con il gatto all’interno, lasciagli sempre una via d’uscita, limita la durata e chiedi al veterinario quali oli evitare.',
         nl: 'Alleen met veel voorzichtigheid. Katten breken bepaalde stoffen uit etherische oliën slecht af. Verspreid nooit in een gesloten ruimte met de kat erin, geef hem altijd een uitweg, houd sessies kort en vraag je dierenarts welke oliën je beter vermijdt.',
-        pl: 'Z dużą ostrożnością. Koty słabo eliminują niektóre związki z olejków eterycznych. Nigdy nie dyfunduj w zamkniętym pomieszczeniu, w którym przebywa zwierzę, zostaw mu drogę ucieczki, ogranicz czas i poproś weterynarza o radę, zwłaszcza co do olejków, których należy unikać.',
+        pl: 'Tak, ale z dużą ostrożnością. Organizm kota słabo usuwa niektóre związki zawarte w olejkach eterycznych. Nigdy nie włączaj dyfuzora w zamkniętym pomieszczeniu, w którym przebywa zwierzę, zostaw mu możliwość wyjścia, ograniczaj czas pracy urządzenia i poradź się weterynarza, zwłaszcza w kwestii olejków, których należy unikać.',
       },
     },
     {
@@ -871,7 +871,7 @@ export const article: BlogArticle = {
         es: '¿Se pueden difundir aceites esenciales durante el embarazo o cerca de un bebé?',
         it: 'Si possono diffondere oli essenziali in gravidanza o vicino a un neonato?',
         nl: 'Mag je etherische oliën verspreiden tijdens de zwangerschap of bij een baby?',
-        pl: 'Czy można dyfundować olejki eteryczne w ciąży lub w pobliżu niemowlęcia?',
+        pl: 'Czy można używać dyfuzora olejków eterycznych w ciąży lub przy niemowlęciu?',
       },
       answer: {
         fr: 'De nombreuses huiles sont déconseillées pendant la grossesse, surtout au premier trimestre, ainsi que chez les bébés et jeunes enfants. Demandez l’avis d’un médecin ou d’un pharmacien et évitez de diffuser dans la chambre d’un enfant. Ceci n’est pas un avis médical.',
@@ -880,7 +880,7 @@ export const article: BlogArticle = {
         es: 'Muchos aceites no se recomiendan durante el embarazo, sobre todo en el primer trimestre, ni en bebés y niños pequeños. Consulta a un médico o farmacéutico y evita difundir en el dormitorio de un niño. Esto no es un consejo médico.',
         it: 'Molti oli sono sconsigliati in gravidanza, soprattutto nel primo trimestre, e per neonati e bambini piccoli. Chiedi il parere di un medico o di un farmacista ed evita di diffondere nella cameretta. Questo non è un parere medico.',
         nl: 'Veel oliën worden afgeraden tijdens de zwangerschap, vooral in het eerste trimester, en bij baby’s en jonge kinderen. Vraag advies aan een arts of apotheker en verspreid niet in een kinderkamer. Dit is geen medisch advies.',
-        pl: 'Wiele olejków jest niewskazanych w ciąży, zwłaszcza w pierwszym trymestrze, oraz u niemowląt i małych dzieci. Zasięgnij opinii lekarza lub farmaceuty i unikaj dyfuzji w pokoju dziecka. To nie jest porada medyczna.',
+        pl: 'Wiele olejków jest niewskazanych w ciąży, zwłaszcza w pierwszym trymestrze, a także u niemowląt i małych dzieci. Zasięgnij opinii lekarza lub farmaceuty i nie włączaj dyfuzora w pokoju dziecka. To nie jest porada medyczna.',
       },
     },
     {
@@ -900,7 +900,7 @@ export const article: BlogArticle = {
         es: 'En la mayoría de los casos, el aparato solo admite Wi-Fi de 2,4 GHz. Activa esa banda en el router (o una red de invitados en 2,4 GHz), acerca el difusor al router durante el emparejamiento y sigue el procedimiento de reinicio indicado en la app.',
         it: 'Nella maggior parte dei casi l’apparecchio supporta solo il Wi-Fi a 2,4 GHz. Attiva questa banda sul router (o una rete ospiti a 2,4 GHz), avvicina il diffusore al router durante l’abbinamento e segui la procedura di reset indicata nell’app.',
         nl: 'Meestal ondersteunt het apparaat alleen wifi op 2,4 GHz. Schakel die band in op je router (of een gastnetwerk op 2,4 GHz), zet de diffuser tijdens het koppelen dicht bij de router en volg de resetprocedure in de app.',
-        pl: 'W zdecydowanej większości przypadków urządzenie akceptuje tylko Wi-Fi 2,4 GHz. Włącz to pasmo w routerze (lub sieć gościnną 2,4 GHz), zbliż dyfuzor do routera na czas parowania i postępuj zgodnie z procedurą resetu podaną w aplikacji.',
+        pl: 'W zdecydowanej większości przypadków urządzenie obsługuje tylko Wi-Fi 2,4 GHz. Włącz to pasmo w routerze (albo utwórz sieć dla gości w paśmie 2,4 GHz), na czas parowania postaw dyfuzor bliżej routera i wykonaj procedurę resetu opisaną w aplikacji.',
       },
     },
   ],

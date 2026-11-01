@@ -928,7 +928,7 @@ export const article: BlogArticle = {
         es: 'Barbacoa de pellets de acero inoxidable con bandeja de madera en una terraza al aire libre',
         it: 'Barbecue a pellet in acciaio inox con ripiano in legno su una terrazza all\'aperto',
         nl: 'Roestvrijstalen pelletbarbecue met houten zijplank op een terras buiten',
-        pl: 'Stalowy grill peletowy z drewnianą półką ustawiony na tarasie na świeżym powietrzu',
+        pl: 'Grill peletowy ze stali nierdzewnej z drewnianą półką, ustawiony na otwartym tarasie',
       },
     },
   ],
@@ -939,7 +939,7 @@ export const article: BlogArticle = {
     es: 'Mejor Barbacoa Inteligente 2026: Pellets, Gas, Eléctrica y Plancha',
     it: 'Miglior Barbecue Smart 2026: Pellet, Gas, Elettrico e Plancha a Confronto',
     nl: 'Beste Slimme Barbecue 2026: Pellet, Gas, Elektrisch en Plancha Vergeleken',
-    pl: 'Inteligentny grill 2026: porównanie grilli peletowych, gazowych, elektrycznych i plancha',
+    pl: 'Inteligentny grill 2026: porównanie modeli peletowych, gazowych, elektrycznych i płyt grillowych',
   },
   excerpt: {
     fr: 'Weber Searwood 600, Traeger Woodridge Pro et Ironwood XL, Weber Genesis EPX-335 Smart, Masterbuilt AutoIgnite 545, Ninja Woodfire Pro Connect XL : quel barbecue connecté choisir en 2026, pour le jardin comme pour le balcon ?',
@@ -948,7 +948,7 @@ export const article: BlogArticle = {
     es: 'Weber Searwood 600, Traeger Woodridge Pro e Ironwood XL, Weber Genesis EPX-335 Smart, Masterbuilt AutoIgnite 545, Ninja Woodfire Pro Connect XL: ¿qué barbacoa inteligente elegir en 2026 para el jardín o el balcón?',
     it: 'Weber Searwood 600, Traeger Woodridge Pro e Ironwood XL, Weber Genesis EPX-335 Smart, Masterbuilt AutoIgnite 545, Ninja Woodfire Pro Connect XL: quale barbecue smart scegliere nel 2026 per giardino o balcone?',
     nl: 'Weber Searwood 600, Traeger Woodridge Pro en Ironwood XL, Weber Genesis EPX-335 Smart, Masterbuilt AutoIgnite 545, Ninja Woodfire Pro Connect XL: welke slimme barbecue kiest u in 2026 voor tuin of balkon?',
-    pl: 'Weber Searwood 600, Traeger Woodridge Pro i Ironwood XL, Weber Genesis EPX-335 Smart, Masterbuilt AutoIgnite 545, Ninja Woodfire Pro Connect XL: jaki inteligentny grill wybrać w 2026 roku, do ogrodu i na balkon?',
+    pl: 'Weber Searwood 600, Traeger Woodridge Pro i Ironwood XL, Weber Genesis EPX-335 Smart, Masterbuilt AutoIgnite 545, Ninja Woodfire Pro Connect XL: jaki inteligentny grill wybrać w 2026 roku – zarówno do ogrodu, jak i na balkon?',
   },
   content: {
     fr: contentFr,
@@ -977,7 +977,7 @@ export const article: BlogArticle = {
         es: 'Sí. El sinfín, el ventilador, el encendido y el controlador Wi-Fi funcionan con un enchufe de 230 V. Prevea un enchufe exterior protegido por un diferencial cerca de la barbacoa.',
         it: 'Sì. Coclea, ventola, accensione e controller Wi-Fi funzionano con una presa a 230 V. Prevedete una presa esterna protetta da differenziale vicino al barbecue.',
         nl: 'Ja. De vijzel, ventilator, ontsteking en wifi-regeling werken op een 230V-stopcontact. Zorg voor een buitenstopcontact met aardlekschakelaar dicht bij de barbecue.',
-        pl: 'Tak. Ślimak podajnika, wentylator, zapłon i kontroler Wi-Fi działają z gniazda 230 V. Zaplanuj gniazdo zewnętrzne zabezpieczone wyłącznikiem różnicowoprądowym w pobliżu miejsca grilla.',
+        pl: 'Tak. Podajnik ślimakowy, wentylator, zapalarka i sterownik Wi-Fi są zasilane z gniazdka 230 V. Zadbaj o zewnętrzne gniazdo z zabezpieczeniem różnicowoprądowym w pobliżu miejsca, w którym stanie grill.',
       },
     },
     {
@@ -988,7 +988,7 @@ export const article: BlogArticle = {
         es: '¿Se puede regular a distancia una barbacoa de gas inteligente?',
         it: 'Si può regolare a distanza un barbecue a gas smart?',
         nl: 'Kun je een slimme gasbarbecue op afstand regelen?',
-        pl: 'Czy można zdalnie regulować inteligentny grill gazowy?',
+        pl: 'Czy inteligentnym grillem gazowym można sterować zdalnie?',
       },
       answer: {
         fr: 'Non. Sur un modèle comme le Weber Genesis EPX-335 Smart, l\'application affiche les températures et envoie des alertes, mais la flamme se règle toujours à la main sur les boutons. Seuls les modèles à pellets, à charbon ventilé et électriques se pilotent à distance.',
@@ -1017,7 +1017,7 @@ export const article: BlogArticle = {
         es: 'Un modelo eléctrico compacto como la Ninja Woodfire Pro Connect XL es el más adecuado. Revise antes los estatutos de la comunidad o su contrato, y recuerde que el modo ahumador produce humo.',
         it: 'Un modello elettrico compatto come il Ninja Woodfire Pro Connect XL è il più adatto. Verificate prima il regolamento condominiale o il contratto d\'affitto e ricordate che la modalità affumicatore produce fumo.',
         nl: 'Een compact elektrisch model zoals de Ninja Woodfire Pro Connect XL past het best. Controleer eerst het reglement van de VvE of uw huurcontract, en denk eraan dat de rookmodus rook produceert.',
-        pl: 'Najlepszy jest kompaktowy model elektryczny, jak Ninja Woodfire Pro Connect XL. Najpierw sprawdź regulamin wspólnoty lub umowę najmu i pamiętaj, że tryb wędzarni wytwarza dym.',
+        pl: 'Najlepiej sprawdzi się kompaktowy model elektryczny, taki jak Ninja Woodfire Pro Connect XL. Najpierw sprawdź regulamin wspólnoty mieszkaniowej lub umowę najmu i pamiętaj, że w trybie wędzenia grill wytwarza dym.',
       },
     },
     {
@@ -1028,7 +1028,7 @@ export const article: BlogArticle = {
         es: '¿Existen planchas inteligentes controlables por app?',
         it: 'Esistono plancha smart controllabili da app?',
         nl: 'Bestaan er plancha\'s die je met een app bedient?',
-        pl: 'Czy istnieją plancha sterowane aplikacją?',
+        pl: 'Czy istnieją płyty grillowe (plancha) sterowane z aplikacji?',
       },
       answer: {
         fr: 'Elles restent très rares en Europe. La solution la plus aboutie est l\'insert plancha du Weber Searwood, dont la température se règle via Weber Connect. Sinon, associez une plancha classique à une sonde connectée.',
@@ -1037,7 +1037,7 @@ export const article: BlogArticle = {
         es: 'Siguen siendo muy raras en Europa. La opción más completa es el accesorio plancha de la Weber Searwood, cuya temperatura se ajusta con Weber Connect. Si no, combine una plancha clásica con una sonda conectada.',
         it: 'Sono ancora molto rare in Europa. La soluzione più completa è l\'inserto piastra del Weber Searwood, la cui temperatura si imposta tramite Weber Connect. In alternativa, abbinate una plancha classica a una sonda connessa.',
         nl: 'Ze zijn in Europa nog zeldzaam. De meest complete optie is de bakplaatinzet van de Weber Searwood, waarvan u de temperatuur via Weber Connect instelt. Combineer anders een gewone plancha met een verbonden sonde.',
-        pl: 'Nadal są bardzo rzadkie w Europie. Najbardziej dopracowanym rozwiązaniem jest wkładka plancha do Weber Searwood, której temperaturę ustawia się przez Weber Connect. W innym razie połącz klasyczną plancha z inteligentnym termometrem do mięsa.',
+        pl: 'W Europie wciąż należą do rzadkości. Najbardziej dopracowanym rozwiązaniem jest wkładka z płytą grillową do Weber Searwood: jej temperaturę ustawia się w aplikacji Weber Connect. W przeciwnym razie połącz zwykłą płytę grillową (planchę) z inteligentnym termometrem do mięsa.',
       },
     },
     {
@@ -1048,7 +1048,7 @@ export const article: BlogArticle = {
         es: '¿Se pueden usar pellets de calefacción en una barbacoa?',
         it: 'Si possono usare pellet da riscaldamento nel barbecue?',
         nl: 'Kun je verwarmingspellets in een barbecue gebruiken?',
-        pl: 'Czy można używać pelletu opałowego w grillu?',
+        pl: 'Czy do grilla można używać pelletu opałowego?',
       },
       answer: {
         fr: 'Non. Utilisez uniquement des granulés alimentaires destinés à la cuisson, sans additifs ni liants non alimentaires. Les fabricants de barbecues à pellets le précisent dans leurs notices.',
@@ -1057,7 +1057,7 @@ export const article: BlogArticle = {
         es: 'No. Use solo pellets aptos para alimentos, sin aditivos ni aglutinantes no alimentarios. Los fabricantes de barbacoas de pellets lo indican en sus manuales.',
         it: 'No. Usate solo pellet per uso alimentare, senza additivi o leganti non alimentari. I produttori di barbecue a pellet lo indicano nei manuali.',
         nl: 'Nee. Gebruik uitsluitend pellets die geschikt zijn voor voedsel, zonder niet-voedselveilige toevoegingen of bindmiddelen. Fabrikanten van pelletbarbecues vermelden dit in hun handleidingen.',
-        pl: 'Nie. Używaj wyłącznie pelletu spożywczego przeznaczonego do grillowania, bez dodatków i niespożywczych spoiw. Producenci grilli peletowych podają to w instrukcjach.',
+        pl: 'Nie. Używaj wyłącznie pelletu przeznaczonego do grillowania, bez dodatków i spoiw, które nie nadają się do kontaktu z żywnością. Producenci grilli peletowych zaznaczają to w instrukcjach obsługi.',
       },
     },
     {
@@ -1077,7 +1077,7 @@ export const article: BlogArticle = {
         es: 'No necesariamente. Las sondas incluidas bastan para la mayoría de cocciones. Una sonda inalámbrica extra es útil si cocina más piezas que puertos disponibles o quiere evitar cables.',
         it: 'Non necessariamente. Le sonde incluse bastano per la maggior parte delle cotture. Una sonda wireless in più è utile se cuocete più pezzi delle porte disponibili o volete evitare i cavi.',
         nl: 'Niet per se. De meegeleverde sondes volstaan voor de meeste bereidingen. Een extra draadloze sonde is handig als u meer stukken bereidt dan er poorten zijn of geen kabels wilt.',
-        pl: 'Niekoniecznie. Dołączone sondy wystarczą do większości potraw. Dodatkowa sonda bezprzewodowa przydaje się, gdy grillujesz więcej kawałków niż jest dostępnych portów lub chcesz uniknąć kabli.',
+        pl: 'Niekoniecznie. Sondy dołączone do grilla wystarczą w większości przypadków. Dodatkowa sonda bezprzewodowa przyda się, gdy grillujesz więcej kawałków mięsa, niż masz gniazd na sondy, albo gdy chcesz pozbyć się kabli.',
       },
     },
   ],

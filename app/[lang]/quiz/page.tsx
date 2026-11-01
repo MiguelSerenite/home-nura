@@ -55,8 +55,8 @@ const pageContent: Record<string, { title: string; subtitle: string; intro: stri
   pl: {
     kicker: 'Quiz dopasowany do Ciebie',
     title: 'Jaka frytkownica beztłuszczowa dla mnie?',
-    subtitle: 'Rekomendacja na miarę w 3 pytaniach',
-    intro: 'Odpowiedz na 3 proste pytania i dowiedz się, który model pasuje do Twojego gospodarstwa domowego, budżetu i priorytetów.',
+    subtitle: 'Dopasowana rekomendacja po 3 pytaniach',
+    intro: 'Odpowiedz na 3 proste pytania i sprawdź, który model najlepiej pasuje do liczby domowników, Twojego budżetu i priorytetów.',
     breadcrumb: 'Quiz',
   },
 }

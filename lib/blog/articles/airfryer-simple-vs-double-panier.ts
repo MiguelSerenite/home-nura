@@ -18,7 +18,7 @@ export const article: BlogArticle = {
         es: 'Trozos de pollo dorados sobre una rejilla de aire caliente, para comparar freidoras de una y dos cestas',
         it: 'Pezzi di pollo dorati su una griglia ad aria calda, per confrontare friggitrici a cestello singolo e doppio',
         nl: 'Goudbruine stukjes kip op een heteluchtrooster, ter vergelijking van airfryers met één en twee manden',
-        pl: 'Złociste kawałki kurczaka na ruszcie do gotowania na gorące powietrze, porównanie frytkownicy z jednym i dwoma koszykami',
+        pl: 'Złociste kawałki kurczaka na ruszcie frytkownicy na gorące powietrze – porównanie modeli z jednym i z dwoma koszykami',
       },
     },
   ],
@@ -29,7 +29,7 @@ export const article: BlogArticle = {
     es: 'Freidora de aire de una o dos cestas: ¿cuál elegir en 2026?',
     it: 'Friggitrice ad aria a cestello singolo o doppio: quale scegliere nel 2026?',
     nl: 'Airfryer met enkele of dubbele mand: welke kies je in 2026?',
-    pl: 'Frytkownica beztłuszczowa z jednym czy dwoma koszykami: którą wybrać w 2026?',
+    pl: 'Frytkownica beztłuszczowa z jednym czy dwoma koszykami: którą wybrać w 2026 roku?',
   },
   excerpt: {
     fr: 'Simple ou double panier ? Les vraies différences (capacité, encombrement, puissance, usage), les modèles Ninja, Philips, Cosori et Moulinex à connaître et le bon choix selon la taille de votre foyer.',
@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: '¿Una o dos cestas? Las diferencias reales (capacidad, espacio, potencia, uso diario), los modelos de Ninja, Philips, Cosori y Moulinex que conviene conocer y la mejor opción según el tamaño de tu hogar.',
     it: 'Cestello singolo o doppio? Le vere differenze (capacità, ingombro, potenza, uso quotidiano), i modelli Ninja, Philips, Cosori e Moulinex da conoscere e la scelta giusta in base al tuo nucleo familiare.',
     nl: 'Eén of twee manden? De echte verschillen (inhoud, ruimte, vermogen, dagelijks gebruik), de modellen van Ninja, Philips, Cosori en Moulinex die je moet kennen en de juiste keuze voor de grootte van je huishouden.',
-    pl: 'Jeden czy dwa koszyki? Prawdziwe różnice (pojemność, gabaryty, moc, zastosowanie), modele Ninja, Philips, Cosori i Moulinex warte uwagi oraz właściwy wybór zależnie od wielkości domu.',
+    pl: 'Jeden czy dwa koszyki? Wyjaśniamy, czym naprawdę różnią się te modele (pojemność, gabaryty, moc, zastosowanie), przedstawiamy frytkownice Ninja, Philips, Cosori i Moulinex warte uwagi i podpowiadamy, co wybrać w zależności od liczby domowników.',
   },
   content: {
     fr: `<p><strong>Choisissez un airfryer double panier si vous cuisinez régulièrement pour trois personnes ou plus et voulez préparer un plat et son accompagnement en même temps ; prenez un simple panier si vous êtes un ou deux, ou si votre plan de travail est petit.</strong> En 2026, le Ninja Foodi MAX Double Stack XL est le double panier le plus facile à caser, le Ninja Foodi FlexDrawer convient aux grandes familles, et le Philips Airfryer Série 3000 XL reste une valeur sûre en simple panier.</p>
@@ -532,87 +532,87 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>Een dubbele mand is niet per definitie ‘beter’: hij dient een duidelijk doel, namelijk twee verschillende gerechten tegelijk bereiden voor meerdere personen. Voor een gezin is de <strong>Ninja Foodi MAX Double Stack XL</strong> de meest evenwichtige keuze dankzij zijn smalle formaat. Voor grote gezelschappen biedt de <strong>Ninja Foodi FlexDrawer</strong> daarnaast één grote zone. Voor één of twee personen is een goede enkele mand zoals de <strong>Philips Airfryer 3000 Serie XL</strong> praktischer, compacter en makkelijker schoon te maken.</p>`,
-    pl: `<p><strong>Wybierz frytkownicę beztłuszczową z dwoma koszykami, jeśli regularnie gotujesz dla trzech osób lub więcej i chcesz przygotować danie i dodatek jednocześnie; weź model z jednym koszykiem, jeśli jesteś sam lub we dwoje albo masz mały blat.</strong> W 2026 roku Ninja Foodi MAX Double Stack XL to najłatwiejsza do ustawienia frytkownica z dwoma koszykami, Ninja Foodi FlexDrawer pasuje do dużych rodzin, a Philips Airfryer Series 3000 XL pozostaje pewnym wyborem wśród modeli z jednym koszykiem.</p>
-<p>To porównanie opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględnia wyłącznie modele sprzedawane w Europie w 2026 roku. Cały wybór znajdziesz na naszej stronie <a href="/pl/cuisine-connectee/airfryers">frytkownic beztłuszczowych</a>.</p>
+    pl: `<p><strong>Wybierz frytkownicę beztłuszczową z dwoma koszykami, jeśli regularnie gotujesz dla trzech lub więcej osób i chcesz jednocześnie przygotować danie główne i dodatek. Model z jednym koszykiem wystarczy, jeśli gotujesz tylko dla siebie lub we dwoje albo masz mały blat.</strong> W 2026 roku spośród modeli z dwoma koszykami najłatwiej zmieścić w kuchni Ninja Foodi MAX Double Stack XL, Ninja Foodi FlexDrawer sprawdzi się w dużej rodzinie, a Philips Airfryer Series 3000 XL to wciąż pewny wybór wśród frytkownic z jednym koszykiem.</p>
+<p>Porównanie opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Uwzględniamy w nim wyłącznie modele sprzedawane w Europie w 2026 roku. Pełne zestawienie znajdziesz w kategorii <a href="/pl/cuisine-connectee/airfryers">frytkownice beztłuszczowe</a>.</p>
 
-<h2>Jeden czy dwa koszyki: prawdziwa różnica</h2>
-<p>Frytkownica beztłuszczowa z jednym koszykiem ma jedną komorę, jedną grzałkę i jedno ustawienie czasu oraz temperatury. Model z dwoma koszykami to w praktyce dwie frytkownice w jednej obudowie: dwie szuflady, dwie grzałki i niezależne ustawienia dla każdej strefy. Możesz więc piec udka kurczaka w 200 °C po jednej stronie, a warzywa w 180 °C po drugiej.</p>
-<p>W Ninja dwie funkcje sprawiają, że ten format jest naprawdę praktyczny. <strong>Smart Finish</strong> opóźnia start krótszej strefy, aby oba dania były gotowe w tym samym momencie. <strong>Match Cook</strong> kopiuje ustawienia jednej strefy na drugą, gdy przygotowujesz dużą ilość tego samego produktu.</p>
-<p>Uwaga na pułapkę słownictwa: model „Dual” niekoniecznie ma dwa koszyki. Cosori Dual Blaze to na przykład model z jednym koszykiem, wyposażony w dwie grzałki (górną i dolną). Smaży bardziej równomiernie, ale tylko jedno danie naraz.</p>
+<h2>Jeden czy dwa koszyki: na czym polega różnica</h2>
+<p>Frytkownica z jednym koszykiem ma jedną komorę, jedną grzałkę i jedno ustawienie czasu i temperatury. Model z dwoma koszykami to w praktyce dwie frytkownice w jednej obudowie: dwie szuflady, dwie grzałki i osobne ustawienia dla każdej strefy. W jednej strefie możesz więc piec udka kurczaka w 200 °C, a w drugiej warzywa w 180 °C.</p>
+<p>W modelach Ninja dwie funkcje sprawiają, że taki układ jest naprawdę wygodny. <strong>Smart Finish</strong> opóźnia start strefy z krótszym czasem pieczenia, tak by oba dania były gotowe w tej samej chwili. <strong>Match Cook</strong> kopiuje ustawienia jednej strefy do drugiej, gdy przygotowujesz dużą porcję tego samego produktu.</p>
+<p>Uważaj na mylące nazwy: model z „Dual” w nazwie nie zawsze ma dwa koszyki. Cosori Dual Blaze to na przykład frytkownica z jednym koszykiem i dwiema grzałkami (górną i dolną). Piecze równomierniej, ale tylko jedno danie naraz.</p>
 
 <h2>Kryteria wyboru</h2>
 <ul>
-<li><strong>Wielkość domu.</strong> Dla jednej lub dwóch osób wystarczy komora o pojemności 4–5 litrów. Od trzech do pięciu osób model z jednym koszykiem o pojemności 6 litrów i więcej sprawdza się przy jednym daniu, ale dwa koszyki stają się wygodniejsze przy pełnym posiłku. Powyżej tej liczby celuj w 9–10 litrów łącznie.</li>
-<li><strong>Gabaryty.</strong> Modele z dwoma koszykami obok siebie są szerokie: około 45 cm w przypadku FlexDrawer. Modele piętrowe, takie jak Double Stack XL, są węższe (około 28 cm), ale wyższe. Zmierz miejsce pod szafkami wiszącymi i zostaw przestrzeń na parę wydobywającą się z tyłu.</li>
-<li><strong>Moc.</strong> Frytkownice Ninja z dwoma koszykami mają 2 470 W, w porównaniu z 1 500–2 000 W w modelach z jednym koszykiem opisanych tutaj. To nadal jest zgodne ze standardowym gniazdkiem, pod warunkiem że nie podłączasz urządzenia do już obciążonej listwy.</li>
-<li><strong>Kształt komory.</strong> Dwie strefy po 4,75 litra nie pozwalają upiec dużego, całego kurczaka. Jeśli to dla Ciebie ważne, szukaj modelu z wyjmowaną przegrodą (FlexDrawer) lub dużej frytkownicy z jednym koszykiem.</li>
-<li><strong>Pielęgnacja.</strong> Dwa koszyki to dwie komory i dwa ruszty do umycia. Większość nadaje się do zmywarki według producentów, ale mycie ręczne dłużej zachowuje powłokę nieprzywierającą.</li>
-<li><strong>Przydatne funkcje.</strong> Synchronizacja stref, programy automatyczne, suszenie, okienko lub aplikacja: płać tylko za to, z czego naprawdę skorzystasz.</li>
+<li><strong>Liczba domowników.</strong> Dla jednej lub dwóch osób wystarczy komora o pojemności 4–5 litrów. W rodzinie liczącej od trzech do pięciu osób model z jednym koszykiem o pojemności od 6 litrów wzwyż sprawdzi się przy jednym daniu, ale pełny posiłek wygodniej przygotować we frytkownicy z dwoma koszykami. Przy większej liczbie domowników wybierz model o łącznej pojemności 9–10 litrów.</li>
+<li><strong>Gabaryty.</strong> Modele z dwoma koszykami obok siebie są szerokie: FlexDrawer ma ok. 45 cm. Modele piętrowe, takie jak Double Stack XL, są węższe (ok. 28 cm), ale wyższe. Zmierz, ile miejsca masz pod szafkami wiszącymi, i zostaw wolną przestrzeń z tyłu, bo tamtędy uchodzi para.</li>
+<li><strong>Moc.</strong> Frytkownice Ninja z dwoma koszykami mają moc 2470 W, a opisane tu modele z jednym koszykiem – ok. 1500–2000 W. Zwykłe gniazdko sobie z tym poradzi, o ile nie podłączysz frytkownicy do listwy, która jest już obciążona innymi urządzeniami.</li>
+<li><strong>Kształt komory.</strong> W dwóch strefach po 4,75 litra nie upieczesz dużego kurczaka w całości. Jeśli to dla Ciebie ważne, poszukaj modelu z wyjmowaną przegrodą (FlexDrawer) albo dużej frytkownicy z jednym koszykiem.</li>
+<li><strong>Czyszczenie.</strong> Dwa koszyki to dwie komory i dwa ruszty do umycia. Według producentów większość z nich można myć w zmywarce, ale przy myciu ręcznym powłoka nieprzywierająca dłużej pozostaje w dobrym stanie.</li>
+<li><strong>Przydatne funkcje.</strong> Synchronizacja stref, programy automatyczne, suszenie, okienko czy aplikacja – płać tylko za to, z czego naprawdę będziesz korzystać.</li>
 </ul>
 
-<h2>Modele, które warto znać w 2026 roku</h2>
+<h2>Modele warte uwagi w 2026 roku</h2>
 
-<h3>1. Ninja Foodi MAX Double Stack XL (9,5 L): najbardziej kompaktowy model z dwoma koszykami</h3>
-<p>Ta Ninja układa dwie szuflady po 4,75 litra jedna nad drugą zamiast obok siebie. Efekt: tylko około 28 cm szerokości, czyli tyle co model z jednym koszykiem, przy łącznej pojemności 9,5 litra. Ma sześć funkcji (Air Fry, Max Crisp, pieczenie, zapiekanie, suszenie, odgrzewanie), moc 2 470 W i piętrowe ruszty umożliwiające gotowanie na czterech poziomach. Smart Finish i Match Cook są na pokładzie.</p>
-<p><strong>Mocne strony:</strong> mała szerokość, dwie niezależne strefy, synchronizacja końca gotowania.<br><strong>Ograniczenia:</strong> urządzenie wysokie (około 38,5 cm) i ciężkie; każda szuflada nadal jest za mała na całego kurczaka.<br><strong>Dla kogo:</strong> dla rodzin liczących od trzech do pięciu osób, którym brakuje szerokości blatu.</p>
+<h3>1. Ninja Foodi MAX Double Stack XL (9,5 l): najbardziej kompaktowy model z dwoma koszykami</h3>
+<p>W tym modelu Ninja dwie szuflady po 4,75 litra są umieszczone jedna nad drugą, a nie obok siebie. Dzięki temu frytkownica ma tylko ok. 28 cm szerokości, czyli tyle co model z jednym koszykiem, a jej łączna pojemność wynosi 9,5 litra. Ma sześć funkcji (Air Fry, Max Crisp, pieczenie mięsa, wypiekanie, suszenie i odgrzewanie), moc 2470 W i dodatkowe ruszty, dzięki którym można piec na czterech poziomach. Nie brakuje też funkcji Smart Finish i Match Cook.</p>
+<p><strong>Mocne strony:</strong> niewielka szerokość, dwie niezależne strefy, synchronizacja zakończenia pieczenia.<br><strong>Ograniczenia:</strong> urządzenie jest wysokie (ok. 38,5 cm) i ciężkie; żadna z szuflad nie pomieści całego kurczaka.<br><strong>Dla kogo:</strong> rodziny liczące od trzech do pięciu osób, które mają wąski blat.</p>
 
-<h3>2. Ninja Foodi FlexDrawer (10,4 L): najbardziej wszechstronny dla dużych rodzin</h3>
-<p>FlexDrawer (AF500EU) ma dużą szufladę 10,4 litra z wyjmowaną przegrodą. Z przegrodą otrzymujesz dwie niezależne strefy po 5,2 litra. Bez niej „MegaZone” pomieści całego kurczaka, pieczeń lub dużą blachę frytek. Ma 2 470 W, Smart Finish i Match Cook. Aby zgłębić temat, zobacz naszą <a href="/pl/blog/test-ninja-foodi-flexdrawer">pełną opinię o Ninja Foodi FlexDrawer</a>.</p>
-<p><strong>Mocne strony:</strong> jedyny format łączący dwie strefy i dużą, jedną komorę, hojna pojemność.<br><strong>Ograniczenia:</strong> około 45 cm szerokości i ponad 9 kg; za duży dla pary.<br><strong>Dla kogo:</strong> dla domów liczących pięć osób i więcej lub tych, którzy często przygotowują duże kawałki mięsa.</p>
+<h3>2. Ninja Foodi FlexDrawer (10,4 l): najbardziej uniwersalny model dla dużych rodzin</h3>
+<p>FlexDrawer (AF500EU) ma jedną dużą szufladę o pojemności 10,4 litra z wyjmowaną przegrodą. Z przegrodą otrzymujesz dwie niezależne strefy po 5,2 litra. Bez niej w strefie „MegaZone” zmieścisz całego kurczaka, pieczeń albo dużą porcję frytek. Moc wynosi 2470 W, są też funkcje Smart Finish i Match Cook. Więcej szczegółów znajdziesz w naszym <a href="/pl/blog/test-ninja-foodi-flexdrawer">pełnym omówieniu modelu Ninja Foodi FlexDrawer</a>.</p>
+<p><strong>Mocne strony:</strong> jako jedyny łączy dwie strefy z jedną dużą komorą; duża pojemność.<br><strong>Ograniczenia:</strong> ok. 45 cm szerokości i ponad 9 kg wagi; za duży dla pary.<br><strong>Dla kogo:</strong> gospodarstwa domowe liczące pięć osób i więcej oraz osoby, które często pieką duże kawałki mięsa.</p>
 
 <h3>3. Ninja Foodi MAX Dual Zone (AF400EU): klasyczny model z koszykami obok siebie</h3>
-<p>To model, który spopularyzował ten format: dwa koszyki po 4,75 litra obok siebie, łącznie 9,5 litra, 2 470 W, sześć funkcji, Smart Finish i Match Cook. Jest szerszy niż Double Stack XL, ale niższy, co lepiej pasuje pod niskie szafki wiszące. Nasza <a href="/pl/blog/test-ninja-foodi-max-dual-zone">opinia o Ninja Foodi MAX Dual Zone</a> opisuje jego mocne strony i ograniczenia.</p>
-<p><strong>Mocne strony:</strong> łatwo dostępne koszyki, sprawdzony format.<br><strong>Ograniczenia:</strong> duża szerokość; brak jednej dużej strefy.<br><strong>Dla kogo:</strong> dla rodzin, które mają do dyspozycji dużo długości blatu.</p>
+<p>To model, który spopularyzował ten układ: dwa koszyki po 4,75 litra ustawione obok siebie, łącznie 9,5 litra, moc 2470 W, sześć funkcji oraz Smart Finish i Match Cook. Jest szerszy niż Double Stack XL, ale niższy, dlatego łatwiej zmieści się pod nisko zawieszonymi szafkami. W naszym <a href="/pl/blog/test-ninja-foodi-max-dual-zone">omówieniu modelu Ninja Foodi MAX Dual Zone</a> opisujemy jego mocne strony i ograniczenia.</p>
+<p><strong>Mocne strony:</strong> łatwy dostęp do koszyków, sprawdzona konstrukcja.<br><strong>Ograniczenia:</strong> zajmuje dużo miejsca na szerokość; brak jednej dużej strefy.<br><strong>Dla kogo:</strong> rodziny, które mają dużo wolnego miejsca na blacie.</p>
 
-<h3>4. Philips Airfryer Series 3000 XL (6,2 L): pewny wybór wśród modeli z jednym koszykiem</h3>
-<p>Ten Philips (HD9270) oferuje komorę o pojemności 6,2 litra na około 1,2 kg produktów, moc 2 000 W, technologię Rapid Air i ekran dotykowy z siedmioma programami. Aplikacja NutriU proponuje przepisy. To hojny model z jednym koszykiem, który wykarmi trzy lub cztery osoby, gdy gotujesz jedno danie.</p>
-<p><strong>Mocne strony:</strong> uznana marka, równomierne smażenie według wielu opinii, bardzo prosta obsługa.<br><strong>Ograniczenia:</strong> tylko jedno danie naraz; brak drugiej strefy na dodatek.<br><strong>Dla kogo:</strong> dla osób samotnych, par i małych rodzin.</p>
+<h3>4. Philips Airfryer Series 3000 XL (6,2 l): pewny wybór wśród modeli z jednym koszykiem</h3>
+<p>Ta frytkownica Philips (HD9270) ma komorę o pojemności 6,2 litra, która mieści ok. 1,2 kg produktów, moc 2000 W, technologię Rapid Air i ekran dotykowy z siedmioma programami. W aplikacji NutriU znajdziesz przepisy. To pojemny model z jednym koszykiem, który wystarczy dla trzech lub czterech osób, jeśli przygotowujesz jedno danie.</p>
+<p><strong>Mocne strony:</strong> renomowana marka, według wielu opinii równomiernie piecze i smaży, bardzo prosta obsługa.<br><strong>Ograniczenia:</strong> tylko jedno danie naraz; brak drugiej strefy na dodatek.<br><strong>Dla kogo:</strong> osoby mieszkające samotnie, pary i małe rodziny.</p>
 
-<h3>5. Cosori Dual Blaze (6,4 L): model z jednym koszykiem i dwiema grzałkami</h3>
-<p>Mimo nazwy Dual Blaze ma tylko jeden koszyk o pojemności 6,4 litra. Jego cecha szczególna: grzałka u góry i u dołu, dzięki którym można smażyć bez potrząsania koszykiem i bez nagrzewania wstępnego. Ma dwanaście funkcji, zakres od 80 do 205 °C i połączenie z aplikacją VeSync, zgodną z Alexa i Google Assistant.</p>
-<p><strong>Mocne strony:</strong> równomierne smażenie bez przewracania produktów, z łącznością.<br><strong>Ograniczenia:</strong> tylko jedno danie naraz, mimo słowa „Dual”.<br><strong>Dla kogo:</strong> dla par i małych rodzin, które chcą urządzenia z łącznością.</p>
+<h3>5. Cosori Dual Blaze (6,4 l): jeden koszyk i dwie grzałki</h3>
+<p>Mimo nazwy Dual Blaze ma tylko jeden koszyk o pojemności 6,4 litra. Wyróżnia się dwiema grzałkami, górną i dolną, dzięki którym nie trzeba potrząsać koszykiem ani nagrzewać urządzenia przed pieczeniem. Ma dwanaście funkcji, zakres temperatur 80–205 °C i łączy się z aplikacją VeSync, która współpracuje z Alexą i Asystentem Google.</p>
+<p><strong>Mocne strony:</strong> równomierne smażenie bez przewracania produktów, sterowanie z aplikacji.<br><strong>Ograniczenia:</strong> mimo słowa „Dual” – tylko jedno danie naraz.<br><strong>Dla kogo:</strong> pary i małe rodziny, które szukają frytkownicy sterowanej z aplikacji.</p>
 
-<h3>6. Moulinex Easy Fry Max (5 L): prosty i skuteczny model na start</h3>
-<p>Easy Fry Max oferuje 5 litrów, 1 500 W, dziesięć programów automatycznych i zakres od 70 do 200 °C. To urządzenie bez fajerwerków, łatwe w obsłudze, wystarczające dla jednej lub dwóch osób.</p>
-<p><strong>Mocne strony:</strong> kompaktowy, prosty, umiarkowana moc.<br><strong>Ograniczenia:</strong> pojemność na styk powyżej dwóch osób; jedna strefa.<br><strong>Dla kogo:</strong> na pierwsze zetknięcie z gotowaniem na gorące powietrze lub do małej kuchni.</p>
+<h3>6. Moulinex Easy Fry Max (5 l): prosty i skuteczny model z niższej półki</h3>
+<p>Easy Fry Max ma pojemność 5 litrów, moc 1500 W, dziesięć programów automatycznych i zakres temperatur 70–200 °C. To urządzenie bez fajerwerków, łatwe w obsłudze, w zupełności wystarczające dla jednej lub dwóch osób.</p>
+<p><strong>Mocne strony:</strong> kompaktowy, prosty, umiarkowana moc.<br><strong>Ograniczenia:</strong> dla trzech i więcej osób pojemność jest na styk; tylko jedna strefa.<br><strong>Dla kogo:</strong> osoby, które dopiero zaczynają przygodę z gotowaniem na gorącym powietrzu, oraz małe kuchnie.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
-<thead><tr><th>Model</th><th>Typ</th><th>Pojemność</th><th>Moc</th><th>Idealny dla</th></tr></thead>
+<thead><tr><th>Model</th><th>Typ</th><th>Pojemność</th><th>Moc</th><th>Dla kogo</th></tr></thead>
 <tbody>
-<tr><td>Ninja Foodi MAX Double Stack XL</td><td>Dwa koszyki piętrowo</td><td>9,5 L (2 × 4,75 L)</td><td>2 470 W</td><td>Rodzin, wąskiego blatu</td></tr>
-<tr><td>Ninja Foodi FlexDrawer</td><td>Dwie strefy z wyjmowaną przegrodą</td><td>10,4 L (2 × 5,2 L)</td><td>2 470 W</td><td>Dużych rodzin, całego kurczaka</td></tr>
-<tr><td>Ninja Foodi MAX Dual Zone AF400</td><td>Dwa koszyki obok siebie</td><td>9,5 L (2 × 4,75 L)</td><td>2 470 W</td><td>Rodzin z dużą ilością miejsca</td></tr>
-<tr><td>Philips Airfryer Series 3000 XL</td><td>Jeden koszyk</td><td>6,2 L</td><td>2 000 W</td><td>1–4 osób</td></tr>
-<tr><td>Cosori Dual Blaze</td><td>Jeden koszyk, 2 grzałki</td><td>6,4 L</td><td>Około 1,7 kW</td><td>Par, użytkowania z łącznością</td></tr>
-<tr><td>Moulinex Easy Fry Max</td><td>Jeden koszyk</td><td>5 L</td><td>1 500 W</td><td>1–2 osób, małej przestrzeni</td></tr>
+<tr><td>Ninja Foodi MAX Double Stack XL</td><td>Dwa koszyki jeden nad drugim</td><td>9,5 l (2 × 4,75 l)</td><td>2470 W</td><td>Rodziny, wąski blat</td></tr>
+<tr><td>Ninja Foodi FlexDrawer</td><td>Dwie strefy z wyjmowaną przegrodą</td><td>10,4 l (2 × 5,2 l)</td><td>2470 W</td><td>Duże rodziny, cały kurczak</td></tr>
+<tr><td>Ninja Foodi MAX Dual Zone AF400</td><td>Dwa koszyki obok siebie</td><td>9,5 l (2 × 4,75 l)</td><td>2470 W</td><td>Rodziny z dużym blatem</td></tr>
+<tr><td>Philips Airfryer Series 3000 XL</td><td>Jeden koszyk</td><td>6,2 l</td><td>2000 W</td><td>1–4 osoby</td></tr>
+<tr><td>Cosori Dual Blaze</td><td>Jeden koszyk, 2 grzałki</td><td>6,4 l</td><td>Ok. 1,7 kW</td><td>Pary, sterowanie z aplikacji</td></tr>
+<tr><td>Moulinex Easy Fry Max</td><td>Jeden koszyk</td><td>5 l</td><td>1500 W</td><td>1–2 osoby, mała kuchnia</td></tr>
 </tbody>
 </table>
 
-<h2>Kto powinien wybrać co?</h2>
+<h2>Który model dla kogo?</h2>
 <ul>
-<li><strong>Osoba samotna lub para:</strong> model z jednym koszykiem o pojemności 4–6 litrów. Moulinex Easy Fry Max lub Philips Series 3000 XL w zupełności wystarczą.</li>
-<li><strong>Rodzina z trzema lub czterema osobami:</strong> dwa koszyki pozwolą zaoszczędzić jeden cykl gotowania przy każdym pełnym posiłku. Double Stack XL jest najłatwiejszy do ustawienia.</li>
-<li><strong>Rodzina z pięcioma osobami i więcej:</strong> FlexDrawer, za dwie strefy po 5,2 litra i dużą, jedną komorę.</li>
-<li><strong>Mała kuchnia:</strong> kompaktowy model z jednym koszykiem lub piętrowy z dwoma koszykami, jeśli masz miejsce na wysokość.</li>
-<li><strong>Lubisz urządzenia z łącznością:</strong> Cosori Dual Blaze, pamiętając, że gotuje tylko jedno danie naraz.</li>
+<li><strong>Jedna osoba lub para:</strong> model z jednym koszykiem o pojemności 4–6 litrów. Moulinex Easy Fry Max albo Philips Series 3000 XL w zupełności wystarczą.</li>
+<li><strong>Rodzina trzy- lub czteroosobowa:</strong> dzięki dwóm koszykom przygotujesz pełny posiłek w jednym cyklu, a nie w dwóch. Najłatwiej znaleźć miejsce dla modelu Double Stack XL.</li>
+<li><strong>Rodzina pięcioosobowa lub większa:</strong> FlexDrawer – ze względu na dwie strefy po 5,2 litra i jedną dużą komorę.</li>
+<li><strong>Mała kuchnia:</strong> kompaktowy model z jednym koszykiem albo piętrowy model z dwoma koszykami, jeśli masz zapas miejsca na wysokość.</li>
+<li><strong>Lubisz sprzęt sterowany z aplikacji:</strong> Cosori Dual Blaze – pamiętaj jednak, że przygotujesz w nim tylko jedno danie naraz.</li>
 </ul>
-<p>Aby dopasować wybór do swojego domu, przeczytaj też nasz poradnik <a href="/pl/blog/comment-choisir-airfryer-famille">jak wybrać frytkownicę beztłuszczową dla całej rodziny</a>.</p>
+<p>Aby lepiej dopasować wybór do potrzeb domowników, przeczytaj też nasz poradnik <a href="/pl/blog/comment-choisir-airfryer-famille">jak wybrać frytkownicę beztłuszczową dla całej rodziny</a>.</p>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Dodawanie litrów:</strong> 2 × 4,75 litra to nie to samo co komora 9,5 litra. Każda strefa ma rozmiar małej frytkownicy beztłuszczowej.</li>
-<li><strong>Przeładowywanie koszyków:</strong> powietrze musi krążyć. Zbyt gruba warstwa daje miękkie frytki, niezależnie od modelu.</li>
-<li><strong>Mylenie „Dual” z dwoma koszykami:</strong> zawsze sprawdź liczbę szuflad.</li>
+<li><strong>Sumowanie litrów:</strong> 2 × 4,75 litra to nie to samo co jedna komora o pojemności 9,5 litra. Każda strefa ma rozmiar małej frytkownicy.</li>
+<li><strong>Przeładowywanie koszyków:</strong> powietrze musi swobodnie krążyć. Przy zbyt grubej warstwie frytki wychodzą miękkie, niezależnie od modelu.</li>
+<li><strong>Mylenie „Dual” z dwoma koszykami:</strong> zawsze sprawdzaj liczbę szuflad.</li>
 <li><strong>Zapominanie o wysokości:</strong> model piętrowy może nie zmieścić się pod szafkami wiszącymi, a para z czasem niszczy fronty szafek.</li>
-<li><strong>Kupowanie zbyt dużego modelu:</strong> dwa koszyki dla dwóch osób to więcej zajętego miejsca i więcej sprzątania przy niewielkiej korzyści.</li>
+<li><strong>Kupowanie zbyt dużego modelu:</strong> dwa koszyki dla dwóch osób to więcej zajętego miejsca i więcej mycia, a korzyść niewielka.</li>
 </ul>
 
 <h2>Użytkowanie i bezpieczeństwo</h2>
-<p>Podłączaj urządzenie bezpośrednio do gniazdka ściennego, zwłaszcza model o mocy 2 470 W, i unikaj używania go jednocześnie z czajnikiem lub piekarnikiem na tej samej listwie. Zostaw około dziesięciu centymetrów wolnej przestrzeni wokół i z tyłu na odprowadzenie gorącego powietrza. Niczego nie stawiaj na wierzchu podczas gotowania i używaj przyborów silikonowych lub drewnianych, aby chronić powłokę. Dodatkowe wskazówki do przepisów i codziennej pielęgnacji znajdziesz w naszym <a href="/pl/guides/airfryer-vs-four">poradniku frytkownica beztłuszczowa czy piekarnik</a>.</p>
+<p>Podłączaj frytkownicę bezpośrednio do gniazdka ściennego, zwłaszcza model o mocy 2470 W, i nie włączaj jej jednocześnie z czajnikiem czy piekarnikiem podłączonym do tej samej listwy. Zostaw ok. 10 cm wolnego miejsca wokół urządzenia i z tyłu, by gorące powietrze mogło swobodnie uchodzić. Podczas pracy nie stawiaj niczego na obudowie i używaj przyborów silikonowych lub drewnianych, które nie niszczą powłoki. Więcej wskazówek dotyczących przepisów i codziennego czyszczenia znajdziesz w naszym <a href="/pl/guides/airfryer-vs-four">porównaniu frytkownicy beztłuszczowej z piekarnikiem</a>.</p>
 
 <h2>Nasz werdykt</h2>
-<p>Dwa koszyki nie są „lepsze” same w sobie: odpowiadają na konkretną potrzebę, czyli przygotowanie dwóch różnych dań naraz dla kilku osób. Dla rodziny <strong>Ninja Foodi MAX Double Stack XL</strong> to najbardziej wyważony wybór dzięki niewielkiej szerokości. Dla dużych spotkań <strong>Ninja Foodi FlexDrawer</strong> dodatkowo oferuje jedną dużą strefę. Dla jednej lub dwóch osób dobry model z jednym koszykiem, taki jak <strong>Philips Airfryer Series 3000 XL</strong>, pozostaje praktyczniejszy, bardziej kompaktowy i łatwiejszy w pielęgnacji.</p>`,
+<p>Model z dwoma koszykami nie jest „lepszy” sam w sobie. Odpowiada na konkretną potrzebę: przygotowanie dwóch różnych dań jednocześnie dla kilku osób. Dla rodziny najbardziej wyważonym wyborem jest <strong>Ninja Foodi MAX Double Stack XL</strong>, bo zajmuje niewiele miejsca na szerokość. Gdy przy stole zasiada więcej osób, <strong>Ninja Foodi FlexDrawer</strong> oferuje dodatkowo jedną dużą strefę. Dla jednej lub dwóch osób dobry model z jednym koszykiem, taki jak <strong>Philips Airfryer Series 3000 XL</strong>, będzie praktyczniejszy, bardziej kompaktowy i łatwiejszy w czyszczeniu.</p>`,
   },
   faq: [
     {
@@ -632,7 +632,7 @@ export const article: BlogArticle = {
         es: 'Su potencia máxima es mayor (2.470 W en Ninja frente a unos 1.500 a 2.000 W de una cesta única), pero el consumo depende sobre todo del tiempo de uso y de cuántas zonas están encendidas. Cocinar dos platos a la vez también evita un segundo ciclo.',
         it: 'La potenza massima è più alta (2.470 W sui Ninja contro circa 1.500-2.000 W di un cestello singolo), ma il consumo dipende soprattutto dalla durata e dal numero di zone accese. Cuocere due piatti insieme evita anche un secondo ciclo di cottura.',
         nl: 'Het maximale vermogen is hoger (2.470 W bij Ninja tegenover ongeveer 1.500 tot 2.000 W bij een enkele mand), maar het verbruik hangt vooral af van de bereidingstijd en het aantal actieve zones. Twee gerechten tegelijk bereiden bespaart bovendien een tweede kookronde.',
-        pl: 'Jej moc maksymalna jest wyższa (2 470 W w Ninja wobec około 1 500–2 000 W w modelu z jednym koszykiem), ale zużycie zależy głównie od czasu pracy i liczby włączonych stref. Gotowanie dwóch dań naraz pozwala też uniknąć drugiego cyklu.',
+        pl: 'Ma wyższą moc maksymalną (2470 W w modelach Ninja wobec ok. 1500–2000 W w przypadku jednego koszyka), ale zużycie prądu zależy przede wszystkim od czasu pracy i liczby włączonych stref. Przygotowanie dwóch dań jednocześnie oszczędza też drugi cykl pieczenia.',
       },
     },
     {
@@ -652,7 +652,7 @@ export const article: BlogArticle = {
         es: 'Sí. Cada zona funciona de forma independiente, así que puedes encender solo la que necesites, como en una cesta única.',
         it: 'Sì. Ogni zona funziona in modo indipendente: puoi accendere solo quella che ti serve, come su un cestello singolo.',
         nl: 'Ja. Elke zone werkt onafhankelijk, dus je zet alleen de zone aan die je nodig hebt, net als bij een enkele mand.',
-        pl: 'Tak. Każda strefa uruchamia się niezależnie: możesz włączyć tylko tę, której potrzebujesz, jak w modelu z jednym koszykiem.',
+        pl: 'Tak. Każdą strefę uruchamia się niezależnie, więc możesz włączyć tylko tę, której potrzebujesz – tak jak w modelu z jednym koszykiem.',
       },
     },
     {
@@ -663,7 +663,7 @@ export const article: BlogArticle = {
         es: '¿Qué capacidad elegir para una familia de cuatro personas?',
         it: 'Quale capacità scegliere per una famiglia di quattro persone?',
         nl: 'Welke inhoud kies je voor een gezin van vier?',
-        pl: 'Jaką pojemność wybrać dla rodziny z czterech osób?',
+        pl: 'Jaką pojemność wybrać dla czteroosobowej rodziny?',
       },
       answer: {
         fr: 'Un simple panier d’environ 6 litres suffit pour un plat unique. Si vous voulez préparer le plat et l’accompagnement en même temps, visez un double panier de 9 à 10 litres au total, comme le Ninja Foodi MAX Double Stack XL.',
@@ -672,7 +672,7 @@ export const article: BlogArticle = {
         es: 'Para un plato único basta una cesta de unos 6 litros. Si quieres preparar plato y guarnición a la vez, busca una doble cesta de 9 a 10 litros en total, como la Ninja Foodi MAX Double Stack XL.',
         it: 'Per un piatto unico basta un cestello singolo da circa 6 litri. Se vuoi cuocere piatto e contorno insieme, punta su un doppio cestello da 9-10 litri in totale, come la Ninja Foodi MAX Double Stack XL.',
         nl: 'Voor één gerecht volstaat een enkele mand van ongeveer 6 liter. Wil je hoofd- en bijgerecht tegelijk bereiden, kies dan een dubbele mand van 9 tot 10 liter in totaal, zoals de Ninja Foodi MAX Double Stack XL.',
-        pl: 'Model z jednym koszykiem o pojemności około 6 litrów wystarcza na jedno danie. Jeśli chcesz przygotować danie i dodatek jednocześnie, celuj w model z dwoma koszykami o łącznej pojemności 9–10 litrów, taki jak Ninja Foodi MAX Double Stack XL.',
+        pl: 'Na jedno danie wystarczy model z jednym koszykiem o pojemności ok. 6 litrów. Jeśli chcesz jednocześnie przygotować danie główne i dodatek, wybierz model z dwoma koszykami o łącznej pojemności 9–10 litrów, np. Ninja Foodi MAX Double Stack XL.',
       },
     },
     {
@@ -683,7 +683,7 @@ export const article: BlogArticle = {
         es: '¿La Cosori Dual Blaze es una freidora de doble cesta?',
         it: 'La Cosori Dual Blaze è una friggitrice a doppio cestello?',
         nl: 'Is de Cosori Dual Blaze een airfryer met dubbele mand?',
-        pl: 'Czy Cosori Dual Blaze to frytkownica beztłuszczowa z dwoma koszykami?',
+        pl: 'Czy Cosori Dual Blaze ma dwa koszyki?',
       },
       answer: {
         fr: 'Non. C’est un simple panier de 6,4 litres doté de deux résistances, en haut et en bas. Il cuit de façon plus uniforme sans secouer le panier, mais ne prépare qu’un plat à la fois.',
@@ -692,7 +692,7 @@ export const article: BlogArticle = {
         es: 'No. Es una cesta única de 6,4 litros con dos resistencias, arriba y abajo. Cocina de forma más uniforme sin agitar, pero solo un plato cada vez.',
         it: 'No. È un cestello singolo da 6,4 litri con due resistenze, sopra e sotto. Cuoce in modo più uniforme senza scuotere, ma un piatto alla volta.',
         nl: 'Nee. Het is een enkele mand van 6,4 liter met twee verwarmingselementen, boven en onder. Hij bereidt gelijkmatiger zonder schudden, maar één gerecht tegelijk.',
-        pl: 'Nie. To model z jednym koszykiem o pojemności 6,4 litra, wyposażony w dwie grzałki, górną i dolną. Smaży bardziej równomiernie bez potrząsania koszykiem, ale przygotowuje tylko jedno danie naraz.',
+        pl: 'Nie. To model z jednym koszykiem o pojemności 6,4 litra i dwiema grzałkami – górną i dolną. Piecze równomierniej i nie trzeba potrząsać koszykiem, ale naraz przygotujesz w nim tylko jedno danie.',
       },
     },
     {
@@ -703,7 +703,7 @@ export const article: BlogArticle = {
         es: 'Doble cesta apilada o lado a lado: ¿cuál elegir?',
         it: 'Doppio cestello sovrapposto o affiancato: quale scegliere?',
         nl: 'Gestapelde of naast elkaar geplaatste dubbele mand: wat kies je?',
-        pl: 'Dwa koszyki piętrowo czy obok siebie: który układ wybrać?',
+        pl: 'Koszyki jeden nad drugim czy obok siebie: który układ wybrać?',
       },
       answer: {
         fr: 'Un modèle empilé comme le Double Stack XL prend beaucoup moins de largeur, mais il est plus haut : vérifiez l’espace sous vos meubles. Un modèle côte à côte comme l’AF400 est plus bas mais occupe nettement plus de plan de travail.',
@@ -712,7 +712,7 @@ export const article: BlogArticle = {
         es: 'Un modelo apilado como la Double Stack XL ocupa mucho menos ancho, pero es más alto: comprueba el hueco bajo los muebles. Uno lado a lado como la AF400 es más bajo, pero ocupa bastante más encimera.',
         it: 'Un modello sovrapposto come la Double Stack XL occupa molta meno larghezza ma è più alto: verifica lo spazio sotto i pensili. Un modello affiancato come la AF400 è più basso ma occupa molto più piano di lavoro.',
         nl: 'Een gestapeld model zoals de Double Stack XL neemt veel minder breedte in, maar is hoger: controleer de ruimte onder je kastjes. Een model naast elkaar zoals de AF400 is lager, maar neemt veel meer aanrecht in beslag.',
-        pl: 'Model piętrowy, taki jak Double Stack XL, zajmuje znacznie mniej szerokości, ale jest wyższy: sprawdź miejsce pod szafkami. Model z koszykami obok siebie, taki jak AF400, jest niższy, ale zajmuje wyraźnie więcej blatu.',
+        pl: 'Model piętrowy, taki jak Double Stack XL, jest znacznie węższy, ale wyższy, więc sprawdź, ile miejsca masz pod szafkami. Model z koszykami obok siebie, np. AF400, jest niższy, ale zajmuje wyraźnie więcej blatu.',
       },
     },
     {
@@ -732,7 +732,7 @@ export const article: BlogArticle = {
         es: 'En la mayoría de los modelos de esta lista sí, según los fabricantes, pero revisa el manual de tu aparato. Lavarlas a mano con una esponja suave alarga la vida del antiadherente.',
         it: 'Sulla maggior parte dei modelli presentati sì, secondo i produttori, ma controlla il manuale del tuo apparecchio. Il lavaggio a mano con una spugna morbida allunga la vita del rivestimento antiaderente.',
         nl: 'Bij de meeste modellen in dit overzicht wel, volgens de fabrikanten, maar controleer de handleiding van je apparaat. Met de hand afwassen met een zachte spons verlengt de levensduur van de antiaanbaklaag.',
-        pl: 'W większości przedstawionych tu modeli tak, według producentów, ale sprawdź instrukcję swojego urządzenia. Mycie ręczne miękką gąbką wydłuża żywotność powłoki nieprzywierającej.',
+        pl: 'Według producentów większość przedstawionych tu modeli można myć w zmywarce, ale sprawdź to w instrukcji swojego urządzenia. Mycie ręczne miękką gąbką przedłuża żywotność powłoki nieprzywierającej.',
       },
     },
   ],

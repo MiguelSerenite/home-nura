@@ -18,7 +18,7 @@ export const article: BlogArticle = {
         es: "Puerta de garaje seccional gris motorizada frente a un acceso adoquinado",
         it: "Porta da garage sezionale grigia motorizzata davanti a un vialetto lastricato",
         nl: "Grijze gemotoriseerde sectionale garagedeur voor een geplaveide oprit",
-        pl: "Szara zmotoryzowana brama garażowa segmentowa przed brukowanym podjazdem",
+        pl: "Szara segmentowa brama garażowa z napędem przed wybrukowanym podjazdem",
       },
     },
   ],
@@ -29,7 +29,7 @@ export const article: BlogArticle = {
     es: "Motorización conectada de puertas y garajes 2026: comparativa",
     it: "Automazione connessa per cancelli e garage 2026: il confronto",
     nl: "Slimme poort- en garagedeuraandrijving 2026: vergelijking",
-    pl: "Inteligentny napęd do bramy wjazdowej i garażowej 2026: porównanie",
+    pl: "Inteligentne napędy do bram wjazdowych i garażowych: porównanie 2026",
   },
   excerpt: {
     fr: "Somfy Ixengo L et Elixo 500 3S io, Hörmann SupraMatic E Série 4, Meross MSG100HK, Shelly 1 Gen4 et Nice IT4WIFI : kits complets ou modules à greffer, compatibilités HomeKit, Alexa, Google et Matter, sécurité et erreurs à éviter.",
@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: "Somfy Ixengo L y Elixo 500 3S io, Hörmann SupraMatic E Serie 4, Meross MSG100HK, Shelly 1 Gen4 y Nice IT4WIFI: kits completos o módulos para motores existentes, HomeKit, Alexa, Google y Matter, seguridad y errores.",
     it: "Somfy Ixengo L ed Elixo 500 3S io, Hörmann SupraMatic E Serie 4, Meross MSG100HK, Shelly 1 Gen4 e Nice IT4WIFI: kit completi o moduli da aggiungere, compatibilità HomeKit, Alexa, Google e Matter, sicurezza ed errori da evitare.",
     nl: "Somfy Ixengo L en Elixo 500 3S io, Hörmann SupraMatic E Serie 4, Meross MSG100HK, Shelly 1 Gen4 en Nice IT4WIFI: complete sets of nabouwmodules, HomeKit, Alexa, Google en Matter, veiligheid en fouten om te vermijden.",
-    pl: "Somfy Ixengo L i Elixo 500 3S io, Hörmann SupraMatic E Series 4, Meross MSG100HK, Shelly 1 Gen4 i Nice IT4WIFI: kompletne zestawy lub moduły do doposażenia, zgodność z HomeKit, Alexą, Google i Matter, bezpieczeństwo oraz błędy do uniknięcia.",
+    pl: "Somfy Ixengo L i Elixo 500 3S io, Hörmann SupraMatic E Series 4, Meross MSG100HK, Shelly 1 Gen4 i Nice IT4WIFI: kompletne zestawy czy moduły do istniejących napędów, zgodność z HomeKit, Alexą, Google i Matter, bezpieczeństwo oraz błędy, których warto unikać.",
   },
   content: {
     fr: `<p>Pour motoriser un portail ou une porte de garage et la piloter depuis un smartphone en 2026, le choix le plus complet est un kit Somfy 3S io (Ixengo L pour un portail battant, Elixo 500 pour un coulissant) associé à l'application TaHoma, ou le Hörmann SupraMatic E Série 4 pour une porte de garage sectionnelle. Si votre portail ou votre garage est déjà motorisé, inutile de tout changer : un module comme le Meross MSG100HK, le Shelly 1 Gen4 ou le Nice IT4WIFI suffit à le rendre connecté.</p>
@@ -575,95 +575,95 @@ export const article: BlogArticle = {
 
 <h2>Conclusie</h2>
 <p>Om een poort van nul uit te rusten vormen de <strong>Somfy Ixengo L 3S io</strong> (draaipoort) en de <strong>Elixo 500 3S io</strong> (schuifpoort) het meest uitgewerkte duo, op voorwaarde dat u het TaHoma-ecosysteem en een professionele plaatsing aanvaardt. Voor een sectionaaldeur valt de <strong>Hörmann SupraMatic E Serie 4</strong> op door zijn ingebouwde bluetooth. Werkt uw aandrijving al, dan is de <strong>Meross MSG100HK</strong> de eenvoudigste en voordeligste manier om hem slim te maken, richt de <strong>Shelly 1 Gen4</strong> zich op Matter-gebruikers en de <strong>Nice IT4WIFI</strong> op eigenaars van Nice-aandrijvingen.</p>`,
-    pl: `<p>Aby w 2026 roku zmotoryzować bramę wjazdową lub garażową i sterować nią ze smartfona, najpełniejszym wyborem jest zestaw Somfy 3S io (Ixengo L do bramy skrzydłowej, Elixo 500 do przesuwnej) w połączeniu z aplikacją TaHoma albo Hörmann SupraMatic E Series 4 do segmentowej bramy garażowej. Jeśli Twoja brama lub garaż mają już napęd, nie trzeba wymieniać wszystkiego: moduł taki jak Meross MSG100HK, Shelly 1 Gen4 czy Nice IT4WIFI wystarczy, by podłączyć go do sieci.</p>
-<p>To porównanie opiera się na kartach katalogowych producentów, niezależnych recenzjach i zweryfikowanych opiniach kupujących. Rozróżnia dwie rodziny, które często się myli: <strong>kompletne zestawy napędowe</strong>, które zastępują lub wyposażają mechanikę, oraz <strong>kontrolery z łącznością</strong>, które dołącza się do istniejącego silnika. Cały wybór znajdziesz w naszej sekcji <a href="/pl/outdoor-connecte/portails-garages">inteligentne bramy wjazdowe i garażowe</a>.</p>
+    pl: `<p>Jeśli w 2026 roku chcesz zamontować napęd do bramy wjazdowej lub garażowej i sterować nią ze smartfona, najbardziej kompletnym rozwiązaniem jest zestaw Somfy 3S io (Ixengo L do bramy skrzydłowej, Elixo 500 do przesuwnej) z aplikacją TaHoma, a w przypadku segmentowej bramy garażowej – Hörmann SupraMatic E Series 4. Jeśli Twoja brama wjazdowa lub garażowa ma już napęd, nie musisz wymieniać wszystkiego: wystarczy moduł taki jak Meross MSG100HK, Shelly 1 Gen4 czy Nice IT4WIFI, by sterować nią z telefonu.</p>
+<p>To porównanie opiera się na kartach katalogowych producentów, niezależnych recenzjach i opiniach zweryfikowanych kupujących. Rozróżniamy w nim dwie często mylone kategorie: <strong>kompletne zestawy napędowe</strong>, które zastępują dotychczasowy mechanizm albo dopiero wyposażają bramę w napęd, oraz <strong>inteligentne sterowniki</strong>, które podłącza się do istniejącego napędu. Wszystkie polecane modele znajdziesz w kategorii <a href="/pl/outdoor-connecte/portails-garages">inteligentne napędy bram i drzwi garażowych</a>.</p>
 
-<h2>Kryteria wyboru napędu z łącznością</h2>
-<h3>Rodzaj skrzydła: skrzydłowa, przesuwna, segmentowa lub uchylna</h3>
-<p>Pierwszym kryterium nie jest łączność, lecz mechanika. <strong>Brama skrzydłowa</strong> jest wyposażana w siłowniki lub ramiona przegubowe (jeden silnik na skrzydło) i wymaga sprawdzenia szerokości słupków oraz miejsca za nimi. <strong>Brama przesuwna</strong> ma jeden silnik zamocowany do podłoża, który napędza listwę zębatą: potrzebna jest sprawna szyna i wystarczająco dużo miejsca z boku. W garażu <strong>brama segmentowa</strong> lub <strong>uchylna</strong> jest motoryzowana silnikiem sufitowym na szynie; brama rolowana zwykle korzysta ze specjalnego silnika rurowego.</p>
-<h3>Siła silnika i ciężar bramy</h3>
-<p>Każdy napęd podaje limit wagi i szerokości na skrzydło. Celuj w wygodny zapas: pełna brama z drewna lub aluminium stawia duży opór wiatrowi, co obciąża silnik bardziej niż brama ażurowa o tej samej wadze. Somfy Ixengo L 3S io przyjmuje na przykład do 400 kg i 4 m na skrzydło (z zamkiem elektrycznym), a Elixo 500 3S io do 500 kg i 8 m w przypadku bramy przesuwnej. Przy bramie garażowej liczą się powierzchnia i rodzaj bramy.</p>
-<h3>Zasilanie: sieć lub zestaw solarny</h3>
-<p>Bez doprowadzonego zasilania przy bramie zestaw solarny (panel i akumulator) oszczędza kopania rowu. Somfy podaje na przykład, że Elixo 500 3S io jest zgodny z jego rozwiązaniami solarnymi. Pamiętaj, że zasilanie solarne ogranicza liczbę cykli dziennie i, zależnie od modelu, niektóre akcesoria: sprawdza się przy umiarkowanym użytkowaniu domowym, gorzej przy bramie, która otwiera się dziesiątki razy dziennie zimą.</p>
-<h3>Łączność i zgodność z systemem smart home</h3>
-<p>Współistnieją trzy architektury. <strong>Własny protokół radiowy</strong> (io-homecontrol u Somfy, BiSecur u Hörmann, Opera/BusT4 u Nice) wymaga bramki lub modułu Wi-Fi tej samej marki. <strong>Bluetooth</strong> umożliwia sterowanie z bliska ze smartfona, bez bramki. <strong>Wi-Fi lub Matter</strong> to wreszcie domena kontrolerów uniwersalnych. Jeśli chodzi o asystentów, dokładnie sprawdź zgodność z Apple Home (HomeKit), Google Home, Amazon Alexa i Matter dla całego zestawu, który wybierasz: często zależy ona od bramki, a nie od samego silnika. Nasz poradnik <a href="/pl/blog/maison-connectee-matter-thread-2026">Matter i Thread</a> szczegółowo omawia te ekosystemy.</p>
-<h3>Informacja zwrotna o stanie</h3>
-<p>Dobry system z łącznością nie tylko wysyła polecenie: wskazuje też, czy brama jest faktycznie otwarta czy zamknięta. Protokoły dwukierunkowe (io-homecontrol, BusT4, HCP) przekazują tę informację; uniwersalny kontroler Wi-Fi opiera się na czujniku położenia (magnes lub styk), który trzeba prawidłowo zamontować.</p>
+<h2>Jak wybrać inteligentny napęd do bramy</h2>
+<h3>Rodzaj bramy: skrzydłowa, przesuwna, segmentowa czy uchylna</h3>
+<p>Zacznij nie od łączności, lecz od mechaniki. Do <strong>bramy skrzydłowej</strong> montuje się siłowniki liniowe lub ramieniowe (jeden napęd na skrzydło), a wcześniej trzeba sprawdzić szerokość słupków i ilość miejsca za nimi. <strong>Brama przesuwna</strong> ma jeden napęd przykręcony do podłoża, który przesuwa ją za pomocą listwy zębatej: potrzebna jest szyna jezdna w dobrym stanie i wystarczająco dużo miejsca z boku. W garażu <strong>bramę segmentową</strong> lub <strong>uchylną</strong> wyposaża się w napęd sufitowy z szyną prowadzącą, a bramę roletową – zwykle w specjalny napęd rurowy.</p>
+<h3>Siła napędu a masa bramy</h3>
+<p>Producent każdego napędu podaje maksymalną masę i szerokość skrzydła. Wybierz model z wyraźnym zapasem: pełna brama z drewna lub aluminium stawia duży opór wiatrowi, więc obciąża napęd bardziej niż ażurowa brama o tej samej masie. Somfy Ixengo L 3S io obsługuje na przykład skrzydła o masie do 400 kg i szerokości do 4 m (z elektrozamkiem), a Elixo 500 3S io – bramy przesuwne do 500 kg i 8 m. W przypadku bramy garażowej liczą się jej powierzchnia i rodzaj.</p>
+<h3>Zasilanie: z sieci czy z zestawu solarnego</h3>
+<p>Jeśli przy bramie nie ma prądu, zestaw solarny (panel i akumulator) pozwala uniknąć kopania rowu pod kabel. Somfy podaje na przykład, że Elixo 500 3S io współpracuje z zestawami solarnymi tej marki. Pamiętaj jednak, że przy zasilaniu solarnym brama wykona mniej cykli dziennie, a zależnie od modelu część akcesoriów może być niedostępna. To dobre rozwiązanie przy umiarkowanym użytkowaniu w domu, gorsze dla bramy, która zimą otwiera się kilkadziesiąt razy dziennie.</p>
+<h3>Łączność i zgodność z systemami inteligentnego domu</h3>
+<p>Do wyboru są trzy rozwiązania. <strong>Zamknięty protokół radiowy producenta</strong> (io-homecontrol firmy Somfy, BiSecur firmy Hörmann, Opera/BusT4 firmy Nice) działa przez centralkę lub moduł Wi-Fi tej samej marki. <strong>Bluetooth</strong> pozwala sterować bramą ze smartfona z niewielkiej odległości, bez centralki. <strong>Wi-Fi lub Matter</strong> to z kolei domena uniwersalnych sterowników. Jeśli chodzi o asystentów głosowych i platformy, sprawdź dokładnie, czy cały wybrany zestaw współpracuje z Apple Home (HomeKit), Google Home, Alexą i Matter – często decyduje o tym centralka lub bramka sieciowa, a nie sam napęd. Te ekosystemy szczegółowo omawiamy w poradniku <a href="/pl/blog/maison-connectee-matter-thread-2026">Matter i Thread</a>.</p>
+<h3>Informacja o stanie bramy</h3>
+<p>Dobry inteligentny system nie tylko wysyła polecenie, ale też pokazuje, czy brama jest rzeczywiście otwarta, czy zamknięta. Protokoły dwukierunkowe (io-homecontrol, BusT4, HCP) przekazują tę informację same; uniwersalny sterownik Wi-Fi korzysta z czujnika położenia (magnetycznego lub stykowego), który trzeba prawidłowo zamontować.</p>
 
-<h2>Najlepsze napędy i moduły z łącznością w 2026 roku</h2>
-<h3>Somfy Ixengo L 3S io Pack Confort: wzorzec dla bram skrzydłowych</h3>
-<p>Ixengo L 3S io to napęd z siłownikami do bramy skrzydłowej, przeznaczony do montażu przez profesjonalistę. Pakiet komfortowy obejmuje dwa silniki, sterownik 3S io, piloty, fotokomórki i pomarańczową lampę sygnalizacyjną. Protokół io-homecontrol jest dwukierunkowy i szyfrowany, dzięki czemu stan bramy można sprawdzić w aplikacji.</p>
-<p><strong>Mocne strony:</strong> do 400 kg i 4 m na skrzydło z zamkiem elektrycznym, wykrywanie przeszkody z zatrzymaniem silnika, opcjonalny akumulator awaryjny, sterowanie przez TaHoma switch lub zestaw łączności Somfy, a następnie przez asystentów głosowych zgodnych z TaHoma.</p>
-<p><strong>Ograniczenia:</strong> do zdalnego sterowania potrzebna bramka Somfy; montaż warto powierzyć profesjonaliście; produkt z wysokiej półki.</p>
-<p><strong>Dla kogo:</strong> właściciele ciężkiej lub szerokiej bramy skrzydłowej, którzy mają już (lub zamierzają mieć) rolety zewnętrzne albo inne produkty Somfy io. Jeśli to Twój przypadek, nasz poradnik o <a href="/pl/blog/volets-roulants-connectes-guide">inteligentnych roletach</a> dobrze uzupełnia ten wybór.</p>
+<h2>Najlepsze inteligentne napędy i moduły w 2026 roku</h2>
+<h3>Somfy Ixengo L 3S io Pack Confort: najlepszy do bramy skrzydłowej</h3>
+<p>Ixengo L 3S io to napęd siłownikowy do bram skrzydłowych, przeznaczony do montażu przez instalatora. Zestaw Pack Confort obejmuje dwa siłowniki, centralę sterującą 3S io, piloty, fotokomórki i pomarańczową lampę ostrzegawczą. Protokół io-homecontrol jest dwukierunkowy i szyfrowany, dzięki czemu stan bramy można sprawdzić w aplikacji.</p>
+<p><strong>Mocne strony:</strong> skrzydła do 400 kg i 4 m (z elektrozamkiem), wykrywanie przeszkód z zatrzymaniem napędu, opcjonalny akumulator awaryjny, sterowanie przez centralkę TaHoma switch lub Connectivity Kit Somfy, a za ich pośrednictwem także przez asystentów głosowych współpracujących z TaHoma.</p>
+<p><strong>Ograniczenia:</strong> zdalne sterowanie wymaga centralki Somfy; montaż należy powierzyć instalatorowi; produkt z wyższej półki.</p>
+<p><strong>Dla kogo:</strong> właściciele ciężkiej lub szerokiej bramy skrzydłowej, którzy mają już rolety zewnętrzne lub inne urządzenia Somfy io albo planują je kupić. W takim przypadku przyda Ci się też nasz poradnik o <a href="/pl/blog/volets-roulants-connectes-guide">inteligentnych roletach</a>.</p>
 
 <h3>Somfy Elixo 500 3S io Pack Confort: do bram przesuwnych</h3>
-<p>Elixo 500 3S io motoryzuje bramy przesuwne do 8 m i 500 kg. Ma tę samą elektronikę 3S io i ekosystem TaHoma co Ixengo, ze zintegrowanym otwieraniem dla pieszych i zwolnieniem na końcu ruchu.</p>
-<p><strong>Mocne strony:</strong> duża wydajność, szybkie otwieranie deklarowane przez Somfy (około 15 sekund na 3 m), zgodność z rozwiązaniami solarnymi marki, informacja zwrotna o stanie io.</p>
-<p><strong>Ograniczenia:</strong> wymaga sprawnej listwy zębatej i szyny; przy zasilaniu solarnym niektóre funkcje dodatkowe mogą być ograniczone w zależności od konfiguracji.</p>
+<p>Elixo 500 3S io to napęd do bram przesuwnych o długości do 8 m i masie do 500 kg. Korzysta z tej samej elektroniki 3S io i ekosystemu TaHoma co Ixengo, a do tego ma wbudowaną funkcję furtki (częściowe otwarcie dla pieszych) i zwalnia przed położeniem krańcowym.</p>
+<p><strong>Mocne strony:</strong> obsługa dużych i ciężkich bram, szybkie otwieranie (według Somfy ok. 15 sekund na 3 m), współpraca z zestawami solarnymi marki, informacja o stanie bramy przez io.</p>
+<p><strong>Ograniczenia:</strong> wymaga listwy zębatej i szyny jezdnej w dobrym stanie; przy zasilaniu solarnym, zależnie od konfiguracji, część funkcji dodatkowych może być niedostępna.</p>
 <p><strong>Dla kogo:</strong> duże bramy przesuwne, także tam, gdzie w pobliżu nie ma zasilania sieciowego.</p>
 
-<h3>Hörmann SupraMatic E Series 4: brama garażowa z łącznością bez bramki</h3>
-<p>SupraMatic E Series 4 to silnik sufitowy do segmentowych bram garażowych, przewidziany dla bram średnich o szerokości do 5,5 m. Jego atut: wbudowany odbiornik Bluetooth, który pozwala sterować bramą z bezpłatnej aplikacji Hörmann BlueSecur, oprócz radia BiSecur i dołączonych nadajników.</p>
-<p><strong>Mocne strony:</strong> sterowanie ze smartfona bez bramki dzięki Bluetooth, zintegrowane oświetlenie LED, interfejs HCP do smart home; z bramką Wi-Fi Hörmann zgodność z Apple Home, Amazon Alexa i Google Home deklarowana przez producenta.</p>
-<p><strong>Ograniczenia:</strong> sam Bluetooth działa tylko z bliska; zdalne sterowanie i asystenci głosowi wymagają akcesorium Wi-Fi; brak deklarowanego natywnego Matter.</p>
-<p><strong>Dla kogo:</strong> osoby, które wymieniają lub montują segmentową bramę garażową, najlepiej marki Hörmann, i chcą zintegrowanego rozwiązania.</p>
+<h3>Hörmann SupraMatic E Series 4: brama garażowa sterowana z telefonu bez centralki</h3>
+<p>SupraMatic E Series 4 to napęd sufitowy do segmentowych bram garażowych średniej wielkości, o szerokości do 5,5 m. Jego atutem jest wbudowany odbiornik Bluetooth: bramą można sterować z bezpłatnej aplikacji Hörmann BlueSecur, a także przez radio BiSecur i dołączone nadajniki.</p>
+<p><strong>Mocne strony:</strong> sterowanie ze smartfona przez Bluetooth bez dodatkowej centralki, wbudowane oświetlenie LED, interfejs HCP do integracji z inteligentnym domem; z bramką Wi-Fi Hörmann – według producenta – współpraca z Apple Home, Alexą i Google Home.</p>
+<p><strong>Ograniczenia:</strong> sam Bluetooth działa tylko z bliska; do zdalnego sterowania i obsługi asystentów głosowych potrzebne jest akcesorium Wi-Fi; producent nie deklaruje natywnej obsługi Matter.</p>
+<p><strong>Dla kogo:</strong> osoby, które wymieniają lub montują segmentową bramę garażową, najlepiej marki Hörmann, i szukają zintegrowanego rozwiązania.</p>
 
-<h3>Meross MSG100HK: najlepszy stosunek jakości do ceny przy podłączaniu istniejącego garażu</h3>
-<p>Meross Smart Wi-Fi Garage Door Opener MSG100HK nie zastępuje Twojego silnika: podłącza się do wejścia przycisku w większości istniejących silników bram garażowych i dodaje magnetyczny czujnik otwarcia. Wersja HK jest zgodna z Apple HomeKit, a także z Amazon Alexa, Google Assistant i SmartThings.</p>
-<p><strong>Mocne strony:</strong> zgodność z bardzo dużą liczbą silników na rynku, także starszych; powiadomienia o otwarciu i o niezamkniętej bramie; prosty montaż na zaciskach niskiego napięcia; produkt z niższej półki.</p>
-<p><strong>Ograniczenia:</strong> tylko Wi-Fi 2,4 GHz, więc w garażu potrzebny jest dobry sygnał; zaprojektowany do bram garażowych, a nie wjazdowych; w tym modelu brak natywnego Matter.</p>
-<p><strong>Dla kogo:</strong> gospodarstwa, które mają już sprawną zmotoryzowaną bramę garażową i chcą ją po prostu zdalnie sterować i monitorować.</p>
+<h3>Meross MSG100HK: najlepszy stosunek jakości do ceny dla istniejącej bramy garażowej</h3>
+<p>Meross Smart Wi-Fi Garage Door Opener MSG100HK nie zastępuje napędu: podłącza się go do wejścia przyciskowego w większości używanych napędów bram garażowych, a w zestawie jest magnetyczny czujnik otwarcia. Wersja HK współpracuje z Apple HomeKit, a także z Alexą, Asystentem Google i SmartThings.</p>
+<p><strong>Mocne strony:</strong> współpraca z bardzo wieloma napędami dostępnymi na rynku, także starszymi; powiadomienia o otwarciu bramy i o tym, że ktoś zapomniał ją zamknąć; prosty montaż na zaciskach niskonapięciowych; produkt z niższej półki cenowej.</p>
+<p><strong>Ograniczenia:</strong> tylko Wi-Fi 2,4 GHz, więc w garażu musi być dobry zasięg; przeznaczony raczej do bram garażowych niż wjazdowych; ten model nie obsługuje natywnie Matter.</p>
+<p><strong>Dla kogo:</strong> osoby, które mają już sprawną bramę garażową z napędem i chcą po prostu zdalnie nią sterować i sprawdzać jej stan.</p>
 
 <h3>Shelly 1 Gen4: przekaźnik Matter dla zaawansowanych majsterkowiczów</h3>
-<p>Shelly 1 Gen4 to mały przekaźnik ze stykiem suchym (bezpotencjałowym), certyfikowany w Matter, który komunikuje się przez Wi-Fi, Bluetooth i Zigbee. Po podłączeniu do wejścia „impulsowego” sterownika bramy wjazdowej lub garażowej symuluje naciśnięcie przycisku. Zasilany jest napięciem 12 V DC, 24–48 V DC lub 110–240 V AC, zależnie od instalacji.</p>
-<p><strong>Mocne strony:</strong> Matter, więc można go obsługiwać z Apple Home, Google Home, Amazon Alexa, SmartThings lub Home Assistant; działanie lokalne nawet bez internetu; kompaktowy format, który często mieści się w obudowie automatyki.</p>
-<p><strong>Ograniczenia:</strong> brak informacji o położeniu bramy bez dodatkowego czujnika podłączonego do jego wejścia; bardziej techniczna konfiguracja; okablowanie powierz osobie z odpowiednimi uprawnieniami, jeśli dotykasz napięcia sieciowego.</p>
-<p><strong>Dla kogo:</strong> zaawansowani użytkownicy smart home, którzy chcą zintegrować dowolną zmotoryzowaną bramę z ekosystemem Matter.</p>
+<p>Shelly 1 Gen4 to niewielki przekaźnik ze stykiem bezpotencjałowym („suchym”) z certyfikatem Matter, komunikujący się przez Wi-Fi, Bluetooth i Zigbee. Podłączony do wejścia impulsowego centrali sterującej bramy wjazdowej lub garażowej symuluje naciśnięcie przycisku. Zależnie od instalacji zasila się go napięciem 12 V DC, 24–48 V DC lub 110–240 V AC.</p>
+<p><strong>Mocne strony:</strong> obsługa Matter, więc sterujesz nim z Apple Home, Google Home, Alexy, SmartThings lub Home Assistant; działa lokalnie, nawet bez internetu; jest na tyle mały, że często mieści się w obudowie centrali napędu.</p>
+<p><strong>Ograniczenia:</strong> bez dodatkowego czujnika podłączonego do jego wejścia nie wie, w jakim położeniu jest brama; konfiguracja wymaga większej wiedzy technicznej; jeśli trzeba podłączyć go do napięcia sieciowego, zleć to osobie z uprawnieniami.</p>
+<p><strong>Dla kogo:</strong> zaawansowani użytkownicy inteligentnego domu, którzy chcą włączyć dowolną bramę z napędem do ekosystemu Matter.</p>
 
-<h3>Nice IT4WIFI: podłączenie istniejącej automatyki Nice</h3>
-<p>Nice IT4WIFI to interfejs Wi-Fi do automatyki Nice zgodnej z protokołem BusT4 (Opera). Jest dostarczany z adapterem IBT4N i kablem, a konfiguruje się go w trybie MyNice (aplikacja MyNice Welcome) lub w trybie Apple HomeKit.</p>
-<p><strong>Mocne strony:</strong> informacja zwrotna o stanie i diagnostyka dzięki komunikacji z płytą elektroniczną, natywna zgodność z HomeKit, oficjalne rozwiązanie marki.</p>
-<p><strong>Ograniczenia:</strong> tylko do sterowników Nice z portem BusT4; trzeba wybrać między trybem MyNice a trybem HomeKit.</p>
-<p><strong>Dla kogo:</strong> właściciele nowszej bramy wjazdowej lub garażowej Nice, którzy chcą sterować nią z iPhone’a lub aplikacji marki.</p>
-<p>Zwróć też uwagę, że w Somfy <strong>zestaw łączności</strong> (Connectivity Kit) pozwala sterować do 20 urządzeniami io i RTS, w tym bramami wjazdowymi i garażowymi, przez aplikację TaHoma, z mniejszą liczbą funkcji niż bramka TaHoma switch.</p>
+<h3>Nice IT4WIFI: inteligentne sterowanie istniejącą automatyką Nice</h3>
+<p>Nice IT4WIFI to interfejs Wi-Fi do automatyki Nice zgodnej z protokołem BusT4 (Opera). W zestawie jest adapter IBT4N i przewód, a moduł konfiguruje się w trybie MyNice (aplikacja MyNice Welcome) albo w trybie Apple HomeKit.</p>
+<p><strong>Mocne strony:</strong> informacja o stanie bramy i diagnostyka dzięki komunikacji z płytą sterującą, natywna obsługa HomeKit, oficjalne rozwiązanie producenta.</p>
+<p><strong>Ograniczenia:</strong> działa tylko z centralami Nice wyposażonymi w złącze BusT4; trzeba wybrać jeden tryb: MyNice albo HomeKit.</p>
+<p><strong>Dla kogo:</strong> właściciele nowszych bram wjazdowych lub garażowych z napędem Nice, którzy chcą sterować nimi z iPhone’a lub z aplikacji producenta.</p>
+<p>Warto też wiedzieć, że w ofercie Somfy jest <strong>Connectivity Kit</strong> (zestaw łączności), który pozwala sterować z aplikacji TaHoma maksymalnie 20 urządzeniami io i RTS, w tym bramami wjazdowymi i garażowymi – oferuje jednak mniej funkcji niż centralka TaHoma switch.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Typ</th><th>Kluczowa cecha</th><th>Łączność</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Typ</th><th>Kluczowa cecha</th><th>Łączność</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
 <tr><td>Somfy Ixengo L 3S io</td><td>Kompletny zestaw</td><td>Brama skrzydłowa, do 400 kg na skrzydło</td><td>io-homecontrol, przez TaHoma</td><td>Ciężka brama skrzydłowa</td></tr>
 <tr><td>Somfy Elixo 500 3S io</td><td>Kompletny zestaw</td><td>Brama przesuwna, do 500 kg / 8 m</td><td>io-homecontrol, przez TaHoma</td><td>Duża brama przesuwna, opcja solarna</td></tr>
-<tr><td>Hörmann SupraMatic E Series 4</td><td>Silnik garażowy</td><td>Bramy segmentowe do 5,5 m szerokości</td><td>Bluetooth (BlueSecur), BiSecur, HCP</td><td>Garaż bez bramki</td></tr>
-<tr><td>Meross MSG100HK</td><td>Kontroler</td><td>Czujnik otwarcia w zestawie</td><td>Wi-Fi 2,4 GHz, HomeKit, Alexa, Google</td><td>Garaż z istniejącym napędem</td></tr>
-<tr><td>Shelly 1 Gen4</td><td>Przekaźnik</td><td>Styk suchy, działanie lokalne</td><td>Wi-Fi, Bluetooth, Zigbee, Matter</td><td>Zaawansowany smart home</td></tr>
+<tr><td>Hörmann SupraMatic E Series 4</td><td>Napęd do garażu</td><td>Bramy segmentowe o szerokości do 5,5 m</td><td>Bluetooth (BlueSecur), BiSecur, HCP</td><td>Garaż bez centralki</td></tr>
+<tr><td>Meross MSG100HK</td><td>Sterownik</td><td>Czujnik otwarcia w zestawie</td><td>Wi-Fi 2,4 GHz, HomeKit, Alexa, Google</td><td>Garaż z istniejącym napędem</td></tr>
+<tr><td>Shelly 1 Gen4</td><td>Przekaźnik</td><td>Styk bezpotencjałowy, działanie lokalne</td><td>Wi-Fi, Bluetooth, Zigbee, Matter</td><td>Zaawansowany inteligentny dom</td></tr>
 <tr><td>Nice IT4WIFI</td><td>Interfejs</td><td>Informacja o stanie przez BusT4</td><td>Wi-Fi, MyNice lub HomeKit</td><td>Istniejąca automatyka Nice</td></tr>
 </tbody>
 </table>
 
 <h2>Bezpieczeństwo: co warto wiedzieć przed montażem</h2>
-<p>Zmotoryzowana brama wjazdowa lub garażowa to maszyna, która może zranić. Kompletne zestawy mają kilka zabezpieczeń: <strong>fotokomórki</strong>, które zatrzymują lub cofają ruch po przerwaniu wiązki, <strong>wykrywanie przeszkody</strong> przez pomiar siły silnika, <strong>lampę ostrzegawczą</strong> migającą podczas manewru oraz ręczne odblokowanie na wypadek przerwy w zasilaniu.</p>
-<p>W Europie zmotoryzowane drzwi i bramy podlegają m.in. normie produktowej EN 13241 oraz normie EN 12453 dotyczącej bezpieczeństwa użytkowania drzwi z napędem. Nie wchodząc w szczegóły prawne, pamiętaj, że zgodność zależy od całej instalacji (ustawienie sił, położenie fotokomórek, oznakowanie), a nie tylko od silnika. Dlatego montaż kompletnego zestawu przez wykwalifikowanego fachowca jest zdecydowanie zalecany: ustawia siły, sprawdza zabezpieczenia i może przekazać dokumenty potwierdzające zgodność instalacji.</p>
-<p>W przypadku kontrolerów z łącznością obowiązuje prosta zasada: uruchamiaj zdalnie bramę znajdującą się poza Twoim polem widzenia tylko wtedy, gdy instalacja zachowuje sprawne fabryczne zabezpieczenia (fotokomórki, wykrywanie przeszkody). Włącz powiadomienia o otwarciu oraz, jeśli to możliwe, automatyczne zamykanie z opóźnieniem.</p>
+<p>Brama wjazdowa lub garażowa z napędem to maszyna, która może zrobić krzywdę. Kompletne zestawy mają kilka zabezpieczeń: <strong>fotokomórki</strong>, które po przerwaniu wiązki zatrzymują bramę lub odwracają kierunek jej ruchu, <strong>wykrywanie przeszkód</strong> na podstawie pomiaru siły napędu, <strong>lampę ostrzegawczą</strong>, która miga, gdy brama się porusza, oraz ręczne odblokowanie na wypadek braku prądu.</p>
+<p>W Europie bramy i drzwi z napędem podlegają m.in. normie wyrobu EN 13241 oraz normie EN 12453, która dotyczy bezpieczeństwa użytkowania bram z napędem. Bez wchodzenia w szczegóły przepisów: zgodność z normami zależy od całej instalacji (ustawienia siły, rozmieszczenia fotokomórek, oznakowania), a nie tylko od samego napędu. Dlatego kompletny zestaw zdecydowanie warto powierzyć wykwalifikowanemu instalatorowi: ustawi siłę napędu, sprawdzi zabezpieczenia i może wystawić dokumenty potwierdzające zgodność instalacji.</p>
+<p>Przy inteligentnych sterownikach obowiązuje prosta zasada: zdalnie uruchamiaj bramę, której nie widzisz, tylko wtedy, gdy jej fabryczne zabezpieczenia (fotokomórki, wykrywanie przeszkód) są sprawne. Włącz powiadomienia o otwarciu, a jeśli to możliwe – także automatyczne zamykanie po określonym czasie.</p>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Zbyt słaby silnik</strong>: pełna brama narażona na wiatr zużywa zbyt słaby silnik i wywołuje fałszywe wykrycia przeszkody.</li>
-<li><strong>Zaniedbanie Wi-Fi przy bramie</strong>: betonowy garaż lub brama na końcu działki słabo odbiera sygnał. Sprawdź sygnał na miejscu lub przewidź repeater.</li>
-<li><strong>Zakup uniwersalnego kontrolera bez sprawdzenia wejścia silnika</strong>: potrzebne jest dostępne na płycie wejście przycisku lub impulsu.</li>
-<li><strong>Mylenie RTS i io w Somfy</strong>: RTS jest jednokierunkowy, bez wiarygodnej informacji o stanie; io jest dwukierunkowy.</li>
-<li><strong>Wyłączanie lub złe ustawienie fotokomórek</strong>: to pierwsza ochrona dzieci, zwierząt i pojazdów.</li>
-<li><strong>Zapomnienie o bezpieczeństwie konta</strong>: brama z łącznością otwiera dostęp do Twojej posesji. Używaj unikalnego hasła i uwierzytelniania dwuskładnikowego, gdy aplikacja je oferuje. Nasz <a href="/pl/blog/guide-securite-maison-connectee-2026">poradnik o bezpieczeństwie inteligentnego domu</a> podaje dobre praktyki.</li>
+<li><strong>Kupowanie zbyt słabego napędu</strong>: pełna brama narażona na wiatr szybko zużywa napęd bez zapasu mocy i powoduje fałszywe wykrywanie przeszkód.</li>
+<li><strong>Lekceważenie zasięgu Wi-Fi przy bramie</strong>: w betonowym garażu lub przy bramie na końcu działki sygnał bywa słaby. Sprawdź zasięg na miejscu albo zaplanuj wzmacniacz sygnału.</li>
+<li><strong>Kupowanie uniwersalnego sterownika bez sprawdzenia wejść napędu</strong>: na płycie sterującej musi być dostępne wejście przyciskowe lub impulsowe.</li>
+<li><strong>Mylenie systemów RTS i io w urządzeniach Somfy</strong>: RTS działa jednokierunkowo i nie przekazuje wiarygodnej informacji o stanie bramy, a io – dwukierunkowo.</li>
+<li><strong>Wyłączanie fotokomórek lub ich złe ustawianie</strong>: to podstawowe zabezpieczenie dzieci, zwierząt i samochodów.</li>
+<li><strong>Zapominanie o bezpieczeństwie konta</strong>: inteligentna brama otwiera dostęp do Twojej posesji. Używaj unikalnego hasła i uwierzytelniania dwuskładnikowego, jeśli aplikacja je oferuje. Dobre praktyki znajdziesz w naszym <a href="/pl/blog/guide-securite-maison-connectee-2026">poradniku o bezpieczeństwie inteligentnego domu</a>.</li>
 </ul>
 
-<h2>Instalacja i codzienne użytkowanie</h2>
-<p>W przypadku kompletnego zestawu przewidź montaż przez profesjonalistę: osadzenie kotew, ustawienie fotokomórek, podłączenie elektryczne zgodne z obowiązującymi przepisami i ustawienie wyłączników krańcowych. W przypadku kontrolera takiego jak Meross MSG100HK montaż polega na podłączeniu dwóch przewodów niskiego napięcia do zacisku przycisku ściennego i przyklejeniu czujnika magnetycznego; w razie wątpliwości poproś o pomoc. Shelly 1 Gen4 może wymagać podłączenia do sieci elektrycznej: powierz je wykwalifikowanemu elektrykowi.</p>
-<p>Pod względem użytkowania najprzydatniejsze scenariusze to otwieranie garażu przy zbliżaniu się do domu (geolokalizacja), automatyczne zamykanie o zmierzchu, włączanie oświetlenia zewnętrznego przy otwarciu bramy oraz alert o niezamkniętej bramie. Zawsze zachowaj fizyczny pilot: awaria internetu nie może zostawić Cię na zewnątrz.</p>
+<h2>Montaż i codzienne użytkowanie</h2>
+<p>Kompletny zestaw powinien zamontować instalator: zakotwienie wsporników, ustawienie fotokomórek, podłączenie elektryczne zgodne z obowiązującymi przepisami i ustawienie położeń krańcowych. Montaż sterownika takiego jak Meross MSG100HK sprowadza się do podłączenia dwóch przewodów niskonapięciowych do zacisków przycisku ściennego i przyklejenia czujnika magnetycznego; jeśli nie masz pewności, poproś kogoś o pomoc. Shelly 1 Gen4 może wymagać podłączenia do sieci elektrycznej – wtedy zleć to wykwalifikowanemu elektrykowi.</p>
+<p>Na co dzień najbardziej przydają się takie scenariusze: otwieranie garażu, gdy zbliżasz się do domu (geolokalizacja), automatyczne zamykanie o zmierzchu, włączanie oświetlenia zewnętrznego po otwarciu bramy i powiadomienie, gdy brama pozostanie otwarta. Zawsze miej pod ręką zwykły pilot: awaria internetu nie może sprawić, że zostaniesz przed zamkniętą bramą.</p>
 
 <h2>Werdykt</h2>
-<p>Do wyposażenia bramy od A do Z <strong>Somfy Ixengo L 3S io</strong> (skrzydłowa) i <strong>Elixo 500 3S io</strong> (przesuwna) tworzą najbardziej dopracowany duet, pod warunkiem że zaakceptujesz ekosystem TaHoma i montaż przez fachowca. Do segmentowej bramy garażowej wyróżnia się <strong>Hörmann SupraMatic E Series 4</strong> dzięki wbudowanemu Bluetooth. Jeśli Twój napęd już działa, <strong>Meross MSG100HK</strong> to najprostszy i najtańszy sposób na podłączenie go do sieci, <strong>Shelly 1 Gen4</strong> jest skierowany do użytkowników Matter, a <strong>Nice IT4WIFI</strong> do właścicieli automatyki Nice.</p>`,
+<p>Jeśli wyposażasz bramę w napęd od podstaw, najbardziej dopracowanym duetem są <strong>Somfy Ixengo L 3S io</strong> (do bram skrzydłowych) i <strong>Elixo 500 3S io</strong> (do przesuwnych) – pod warunkiem że odpowiada Ci ekosystem TaHoma i montaż przez fachowca. Wśród napędów do segmentowych bram garażowych wyróżnia się <strong>Hörmann SupraMatic E Series 4</strong> z wbudowanym Bluetooth. Jeśli masz już sprawny napęd, najprostszym i najtańszym sposobem, by sterować nim z telefonu, jest <strong>Meross MSG100HK</strong>; <strong>Shelly 1 Gen4</strong> to propozycja dla użytkowników Matter, a <strong>Nice IT4WIFI</strong> – dla właścicieli automatyki Nice.</p>`,
   },
   faq: [
     {
@@ -674,7 +674,7 @@ export const article: BlogArticle = {
         es: "¿Se puede hacer inteligente una puerta o un garaje ya motorizados?",
         it: "Si può rendere smart un cancello o un garage già motorizzato?",
         nl: "Kan ik een al gemotoriseerde poort of garagedeur slim maken?",
-        pl: "Czy można podłączyć do sieci bramę wjazdową lub garażową, która ma już napęd?",
+        pl: "Czy bramą wjazdową lub garażową, która ma już napęd, można sterować ze smartfona?",
       },
       answer: {
         fr: "Oui, dans la plupart des cas. Un contrôleur comme le Meross MSG100HK ou un relais Shelly 1 Gen4 se raccorde à l'entrée bouton-poussoir ou impulsion de l'armoire de commande. Les marques proposent aussi leurs propres modules : Nice IT4WIFI pour les automatismes BusT4, kit de connectivité ou TaHoma switch chez Somfy, passerelle Wi-Fi HCP chez Hörmann.",
@@ -683,7 +683,7 @@ export const article: BlogArticle = {
         es: "Sí, en la mayoría de los casos. Un controlador como el Meross MSG100HK o un relé Shelly 1 Gen4 se conecta a la entrada de pulsador o impulso del cuadro de maniobras. Las marcas también ofrecen sus módulos: Nice IT4WIFI para automatismos BusT4, Connectivity Kit o TaHoma switch en Somfy y la pasarela Wi-Fi HCP en Hörmann.",
         it: "Sì, nella maggior parte dei casi. Un controller come il Meross MSG100HK o un relè Shelly 1 Gen4 si collega all'ingresso pulsante o impulso della centrale. Anche i marchi propongono moduli propri: Nice IT4WIFI per le automazioni BusT4, Connectivity Kit o TaHoma switch per Somfy, gateway Wi-Fi HCP per Hörmann.",
         nl: "Ja, in de meeste gevallen. Een controller zoals de Meross MSG100HK of een Shelly 1 Gen4-relais wordt aangesloten op de drukknop- of impulsingang van de besturing. Merken hebben ook eigen modules: Nice IT4WIFI voor BusT4-aandrijvingen, de Connectivity Kit of TaHoma switch bij Somfy en de HCP-wifi-gateway bij Hörmann.",
-        pl: "Tak, w większości przypadków. Kontroler taki jak Meross MSG100HK lub przekaźnik Shelly 1 Gen4 podłącza się do wejścia przycisku lub impulsu w sterowniku. Marki oferują też własne moduły: Nice IT4WIFI do automatyki BusT4, zestaw łączności lub TaHoma switch u Somfy, bramka Wi-Fi HCP u Hörmann.",
+        pl: "Tak, w większości przypadków. Sterownik taki jak Meross MSG100HK albo przekaźnik Shelly 1 Gen4 podłącza się do wejścia przyciskowego lub impulsowego w centrali sterującej napędu. Producenci oferują też własne moduły: Nice IT4WIFI do automatyki zgodnej z BusT4, Connectivity Kit lub centralkę TaHoma switch w przypadku Somfy oraz bramkę Wi-Fi HCP w przypadku Hörmann.",
       },
     },
     {
@@ -694,7 +694,7 @@ export const article: BlogArticle = {
         es: "¿Qué motorización es compatible con Matter?",
         it: "Quale automazione è compatibile con Matter?",
         nl: "Welke aandrijving werkt met Matter?",
-        pl: "Który napęd jest zgodny z Matter?",
+        pl: "Który napęd do bramy obsługuje Matter?",
       },
       answer: {
         fr: "Parmi les produits de ce comparatif, le Shelly 1 Gen4 est certifié Matter : il permet d'intégrer n'importe quel automatisme doté d'une entrée impulsion dans Apple Home, Google Home, Alexa ou SmartThings. Les kits Somfy, Hörmann et Nice passent par leurs propres passerelles et applications.",
@@ -703,7 +703,7 @@ export const article: BlogArticle = {
         es: "Entre los productos de esta comparativa, el Shelly 1 Gen4 tiene certificación Matter: integra cualquier automatismo con entrada de impulso en Apple Home, Google Home, Alexa o SmartThings. Los sistemas de Somfy, Hörmann y Nice funcionan con sus propias pasarelas y apps.",
         it: "Tra i prodotti di questo confronto, lo Shelly 1 Gen4 è certificato Matter: integra qualsiasi automazione con ingresso impulso in Apple Home, Google Home, Alexa o SmartThings. I sistemi Somfy, Hörmann e Nice passano dai propri gateway e app.",
         nl: "Van de producten in deze vergelijking is de Shelly 1 Gen4 Matter-gecertificeerd: hij brengt elke aandrijving met een impulsingang naar Apple Home, Google Home, Alexa of SmartThings. De systemen van Somfy, Hörmann en Nice werken via hun eigen gateways en apps.",
-        pl: "Spośród produktów w tym porównaniu certyfikat Matter ma Shelly 1 Gen4: pozwala włączyć dowolną automatykę z wejściem impulsowym do Apple Home, Google Home, Alexy lub SmartThings. Zestawy Somfy, Hörmann i Nice korzystają z własnych bramek i aplikacji.",
+        pl: "Spośród urządzeń z tego porównania certyfikat Matter ma Shelly 1 Gen4: pozwala dodać do Apple Home, Google Home, Alexy lub SmartThings dowolny napęd z wejściem impulsowym. Zestawy Somfy, Hörmann i Nice działają przez własne bramki i aplikacje.",
       },
     },
     {
@@ -723,7 +723,7 @@ export const article: BlogArticle = {
         es: "Para un kit completo es muy recomendable: el ajuste de fuerzas, la colocación de las fotocélulas y la conexión eléctrica determinan la seguridad de la instalación. Un controlador de baja tensión como el Meross MSG100HK, en cambio, se instala fácilmente; cualquier conexión a la red debe hacerla un electricista cualificado.",
         it: "Per un kit completo è fortemente consigliato: regolazione delle forze, posizione delle fotocellule e collegamento elettrico determinano la sicurezza dell'impianto. Un controller in bassa tensione come il Meross MSG100HK si installa invece facilmente da sé; ogni collegamento alla rete va affidato a un elettricista qualificato.",
         nl: "Voor een complete set is dat sterk aanbevolen: krachtinstelling, plaats van de fotocellen en elektrische aansluiting bepalen hoe veilig de installatie is. Een laagspanningscontroller zoals de Meross MSG100HK plaatst u daarentegen makkelijk zelf; elke aansluiting op netspanning laat u over aan een erkende elektricien.",
-        pl: "W przypadku kompletnego zestawu jest to zdecydowanie zalecane: ustawienie sił, położenie fotokomórek i podłączenie elektryczne decydują o bezpieczeństwie instalacji. Kontroler niskiego napięcia, taki jak Meross MSG100HK, można natomiast łatwo zamontować samodzielnie; każde podłączenie do sieci elektrycznej powinien wykonać wykwalifikowany elektryk.",
+        pl: "Przy kompletnym zestawie – zdecydowanie tak: od ustawienia siły napędu, rozmieszczenia fotokomórek i podłączenia elektrycznego zależy bezpieczeństwo całej instalacji. Niskonapięciowy sterownik, taki jak Meross MSG100HK, łatwo za to zamontujesz samodzielnie; każde podłączenie do sieci elektrycznej zostaw jednak wykwalifikowanemu elektrykowi.",
       },
     },
     {
@@ -743,7 +743,7 @@ export const article: BlogArticle = {
         es: "Para un uso doméstico moderado, sí, siempre que la motorización esté prevista para ello (Somfy lo indica, por ejemplo, para el Elixo 500 3S io) y el panel reciba buen sol. El número de ciclos diarios es limitado, sobre todo en invierno, y algunos accesorios pueden verse restringidos.",
         it: "Per un uso domestico moderato sì, purché l'automazione sia prevista per questo (Somfy lo indica ad esempio per l'Elixo 500 3S io) e il pannello sia ben esposto. Il numero di cicli giornalieri è limitato, soprattutto in inverno, e alcuni accessori possono essere ridotti.",
         nl: "Voor matig huishoudelijk gebruik wel, op voorwaarde dat de aandrijving ervoor bedoeld is (Somfy vermeldt dat bijvoorbeeld voor de Elixo 500 3S io) en het paneel goed in de zon staat. Het aantal cycli per dag is beperkt, vooral in de winter, en sommige accessoires kunnen beperkt zijn.",
-        pl: "Przy umiarkowanym użytkowaniu domowym tak, pod warunkiem że napęd jest do tego przewidziany (Somfy podaje to na przykład dla Elixo 500 3S io), a panel jest dobrze nasłoneczniony. Liczba cykli dziennie jest ograniczona, zwłaszcza zimą, a niektóre akcesoria mogą być ograniczone.",
+        pl: "Przy umiarkowanym użytkowaniu w domu – tak, o ile napęd jest przystosowany do zasilania solarnego (Somfy podaje to np. dla modelu Elixo 500 3S io), a panel stoi w dobrze nasłonecznionym miejscu. Dzienna liczba cykli jest jednak ograniczona, zwłaszcza zimą, a niektóre akcesoria mogą być niedostępne.",
       },
     },
     {
@@ -754,7 +754,7 @@ export const article: BlogArticle = {
         es: "¿Qué ocurre si se corta internet o la luz?",
         it: "Cosa succede in caso di blackout o di interruzione di internet?",
         nl: "Wat gebeurt er bij een internet- of stroomstoring?",
-        pl: "Co się stanie w razie przerwy w dostępie do internetu lub w zasilaniu?",
+        pl: "Co się dzieje, gdy zabraknie internetu lub prądu?",
       },
       answer: {
         fr: "Sans internet, les télécommandes radio et, selon les produits, le Bluetooth (Hörmann BlueSecur) ou le pilotage local (Shelly) continuent de fonctionner ; seul l'accès à distance est perdu. En cas de coupure de courant, une batterie de secours optionnelle permet quelques manœuvres, et le débrayage manuel permet toujours d'ouvrir à la main.",
@@ -763,7 +763,7 @@ export const article: BlogArticle = {
         es: "Sin internet siguen funcionando los mandos de radio y, según el producto, el Bluetooth (Hörmann BlueSecur) o el control local (Shelly); solo se pierde el acceso remoto. Si se va la luz, una batería de emergencia opcional permite algunas maniobras y el desbloqueo manual siempre permite abrir a mano.",
         it: "Senza internet continuano a funzionare i telecomandi radio e, a seconda del prodotto, il Bluetooth (Hörmann BlueSecur) o il comando locale (Shelly); si perde solo l'accesso remoto. In caso di blackout, una batteria tampone opzionale consente alcune manovre e lo sblocco manuale permette sempre di aprire a mano.",
         nl: "Zonder internet blijven radio-afstandsbedieningen en, afhankelijk van het product, bluetooth (Hörmann BlueSecur) of lokale bediening (Shelly) werken; alleen toegang op afstand valt weg. Bij stroomuitval maakt een optionele noodaccu enkele bewegingen mogelijk, en met de handmatige ontgrendeling opent u altijd met de hand.",
-        pl: "Bez internetu piloty radiowe i, zależnie od produktu, Bluetooth (Hörmann BlueSecur) lub sterowanie lokalne (Shelly) nadal działają; tracisz tylko dostęp zdalny. W razie przerwy w zasilaniu opcjonalny akumulator awaryjny pozwala wykonać kilka manewrów, a ręczne odblokowanie zawsze umożliwia otwarcie bramy ręką.",
+        pl: "Bez internetu nadal działają piloty radiowe, a zależnie od urządzenia także Bluetooth (Hörmann BlueSecur) lub sterowanie lokalne (Shelly) – tracisz tylko dostęp zdalny. Przy braku prądu opcjonalny akumulator awaryjny wystarcza na kilka otwarć i zamknięć, a dzięki ręcznemu odblokowaniu bramę zawsze otworzysz ręcznie.",
       },
     },
     {
@@ -783,7 +783,7 @@ export const article: BlogArticle = {
         es: "Está diseñado y se vende para puertas de garaje, con un sensor magnético pensado para ese tipo de puerta. Para una puerta de parcela motorizada suele encajar mejor un relé de contacto seco como el Shelly 1 Gen4 o el módulo oficial de la marca (Nice IT4WIFI, Somfy TaHoma).",
         it: "È progettato e venduto per le porte da garage, con un sensore magnetico pensato per quel tipo di porta. Per un cancello motorizzato è di solito più adatto un relè a contatto pulito come lo Shelly 1 Gen4 o il modulo ufficiale del marchio (Nice IT4WIFI, Somfy TaHoma).",
         nl: "Hij is ontworpen en wordt verkocht voor garagedeuren, met een magneetsensor voor dat soort deur. Voor een gemotoriseerde poort past een relais met potentiaalvrij contact zoals de Shelly 1 Gen4 of de officiële module van het merk (Nice IT4WIFI, Somfy TaHoma) meestal beter.",
-        pl: "Jest zaprojektowany i sprzedawany do bram garażowych, z czujnikiem magnetycznym przeznaczonym do tego typu bram. Do zmotoryzowanej bramy wjazdowej zwykle lepiej nadaje się przekaźnik ze stykiem suchym, taki jak Shelly 1 Gen4, lub oficjalny moduł marki (Nice IT4WIFI, Somfy TaHoma).",
+        pl: "Meross MSG100HK powstał z myślą o bramach garażowych i do nich jest sprzedawany – razem z czujnikiem magnetycznym dopasowanym do tego typu bram. Do bramy wjazdowej z napędem zwykle lepiej pasuje przekaźnik ze stykiem bezpotencjałowym, taki jak Shelly 1 Gen4, albo oficjalny moduł danej marki (Nice IT4WIFI, Somfy TaHoma).",
       },
     },
   ],

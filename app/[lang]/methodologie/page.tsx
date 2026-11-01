@@ -464,31 +464,31 @@ const content: Record<Lang, Content> = {
   },
   pl: {
     kicker: 'Metodologia',
-    title: 'Jak Home Nura porównuje i ocenia',
-    subtitle: 'Pełna siatka kryteriów: źródła, wagi, aktualizacje, niezależność. Nic nie jest ukryte.',
-    intro: 'Home Nura to niezależny wydawca europejski. Porównujemy urządzenia inteligentnego domu na 7 rynkach (Francja, Niemcy, Wielka Brytania, Hiszpania, Włochy, Holandia, Polska) według tej samej siatki w każdej kategorii. Ta strona szczegółowo opisuje, jak postępujemy, co bierzemy pod uwagę i czego nie robimy.',
-    breadcrumbHome: 'Start',
+    title: 'Jak serwis Home Nura porównuje i ocenia sprzęt',
+    subtitle: 'Wszystkie zasady oceny: źródła, wagi, aktualizacje i niezależność. Niczego nie ukrywamy.',
+    intro: 'Home Nura to niezależny europejski wydawca. Porównujemy urządzenia do inteligentnego domu na 7 rynkach (Francja, Niemcy, Wielka Brytania, Hiszpania, Włochy, Holandia, Polska), w każdej kategorii według tych samych zasad. Na tej stronie wyjaśniamy, jak pracujemy, co bierzemy pod uwagę i czego nie robimy.',
+    breadcrumbHome: 'Strona główna',
     breadcrumbCurrent: 'Metodologia',
-    pillarsTitle: '5 filarów naszej metody',
+    pillarsTitle: 'Pięć filarów naszej metody',
     pillars: [
       {
         title: '01 · Weryfikowalne źródła',
-        body: 'Dla każdego produktu zestawiamy trzy źródła: karty katalogowe producenta, opinie użytkowników z Amazon i Google (minimum 500 opinii ważonych z 12 miesięcy) oraz niezależne testy europejskiej prasy specjalistycznej (Que Choisir, Stiftung Warentest, Which?, OCU, Altroconsumo, Consumentenbond). Produkt, co do którego te trzy źródła nie są zgodne, nie trafia do naszej selekcji.',
+        body: 'Każdy produkt sprawdzamy w trzech źródłach: w kartach katalogowych producenta, w opiniach użytkowników z Amazon i Google (co najmniej 500 opinii z 12 miesięcy, uwzględnianych z odpowiednią wagą) oraz w niezależnych testach europejskiej prasy specjalistycznej (Que Choisir, Stiftung Warentest, Which?, OCU, Altroconsumo, Consumentenbond). Jeśli te trzy źródła nie dają spójnego obrazu, produkt nie trafia do zestawienia.',
       },
       {
-        title: '02 · Siatka oceny: Ocena Nura /10',
-        body: 'Każda kategoria ma własne wagi, ale Ocena Nura zawsze opiera się na tej samej skali 0–10. Główne kryteria: rzeczywista wydajność (30%), lokalny stosunek jakości do ceny (25%), ergonomia i łatwość obsługi (15%), roczny koszt zużycia energii (15%) oraz trwałość i jakość wykonania (15%). Szczegóły dla każdej kategorii publikujemy na jej stronie głównej.',
+        title: '02 · System oceny: Ocena Nura /10',
+        body: 'Każda kategoria ma własne wagi, ale Ocena Nura zawsze jest wystawiana w tej samej skali 0–10. Główne kryteria: rzeczywiste działanie (30%), stosunek jakości do ceny na danym rynku (25%), ergonomia i łatwość obsługi (15%), roczny koszt energii wyliczany w euro (15%) oraz trwałość i jakość wykonania (15%). Szczegóły dla każdej kategorii publikujemy na jej stronie.',
       },
       {
         title: '03 · Dane europejskie, nie amerykańskie',
-        body: 'Odrzucamy recenzje tłumaczone z amerykańskich serwisów. Ceny, dostępność, zużycie energii, zgodność z RODO, zgodność z wtyczką europejską i europejską etykietę energetyczną zbieramy bezpośrednio z rynków lokalnych. Produkt może być numerem 1 w Stanach Zjednoczonych i nie znaleźć się w naszym europejskim rankingu.',
+        body: 'Nie korzystamy z recenzji przetłumaczonych z amerykańskich serwisów. Ceny, dostępność, zużycie energii, zgodność z RODO, dopasowanie wtyczki do europejskich gniazdek i europejską etykietę energetyczną sprawdzamy bezpośrednio na rynkach lokalnych. Produkt może być numerem 1 w Stanach Zjednoczonych, a mimo to nie znaleźć się w naszym europejskim rankingu.',
       },
       {
         title: '04 · Aktualizacje co najmniej raz na kwartał',
-        body: 'Ceny się zmieniają. Numery ASIN są wycofywane. Marki wprowadzają poprawione wersje. Każda kategoria jest weryfikowana co najmniej raz na 3 miesiące. Strony, które nie zostały zaktualizowane w tym terminie, wyświetlają wyraźny komunikat. Data ostatniej aktualizacji jest widoczna na górze każdego porównania.',
+        body: 'Ceny się zmieniają, numery ASIN znikają, a marki wprowadzają odświeżone wersje. Dlatego każdą kategorię przeglądamy co najmniej raz na trzy miesiące. Na stronach, których nie zaktualizowaliśmy w tym czasie, wyświetla się wyraźny komunikat. Datę ostatniej aktualizacji widać na górze każdego porównania.',
       },
       {
-        title: '05 · Niezależność i przejrzystość afiliacyjna',
+        title: '05 · Niezależność i jawne zasady afiliacji',
         body: 'Home Nura jest finansowany z Programu Partnerskiego Amazon (prowizja od zakupu, bez dodatkowych kosztów dla Ciebie). Wszystkie nasze linki do Amazon działają w ramach jednego konta partnerskiego, z osobnym identyfikatorem śledzenia dla każdej wersji językowej. Prowadzą do Amazon.fr, z wyjątkiem wersji włoskiej, która kieruje do Amazon.it: dzięki programowi „Global Earning” Amazon przekierowuje czytelników z innych krajów, którzy klikną link do Amazon.fr, do sklepu Amazon w ich kraju, a prowizja trafia na to samo konto. Prowizje nigdy nie wpływają na ranking: produkt słabo oceniony pozostaje słabo oceniony, nawet jeśli przynosi większy zarobek. Żaden producent nie płaci nam za miejsce na podium. W razie konfliktu interesów informujemy o tym na górze strony.',
       },
     ],
@@ -496,26 +496,26 @@ const content: Record<Lang, Content> = {
     faq: [
       {
         question: 'Dlaczego serwis europejski, a nie globalny?',
-        answer: 'Ponieważ ceny, etykiety energetyczne, certyfikaty i dostępność różnią się w zależności od rynku. Porównanie globalne uśrednia wszystko i w efekcie nigdzie nie jest trafne. Wolimy rekomendacje obowiązujące w Twoim kraju, nawet jeśli oznacza to sześć różnych wydań.',
+        answer: 'Bo ceny, etykiety energetyczne, certyfikaty i dostępność różnią się w zależności od rynku. Porównanie globalne wszystko uśrednia i w końcu nie jest trafne nigdzie. Wolimy rekomendacje, które sprawdzają się w Twoim kraju, nawet jeśli wymaga to sześciu osobnych wydań.',
       },
       {
         question: 'Co oznacza Ocena Nura /10?',
-        answer: 'To ocena łączna w skali 0–10, która agreguje rzeczywistą wydajność, lokalny stosunek jakości do ceny, ergonomię, roczne zużycie energii i trwałość, zgodnie z wagami przypisanymi do każdej kategorii. Ocena 8/10 w wymagającej kategorii (frytkownice) nie jest równoznaczna z 8/10 w kategorii prostszej: siatka jest równoważona osobno dla każdej kategorii.',
+        answer: 'To łączna ocena w skali 0–10, która uwzględnia rzeczywiste działanie, stosunek jakości do ceny na danym rynku, ergonomię, roczne zużycie energii i trwałość – z wagami ustalonymi dla danej kategorii. Ocena 8/10 w wymagającej kategorii (frytkownice) to nie to samo co 8/10 w kategorii prostszej, bo wagi kryteriów ustalamy osobno dla każdej kategorii.',
       },
       {
         question: 'Jak radzicie sobie z konfliktami interesów?',
-        answer: 'Żaden producent nie płaci za miejsce w rankingu. Prowizje afiliacyjne Amazon są takie same niezależnie od pozycji, więc model biznesowy nie zachęca do promowania konkretnego produktu. Jeśli producent wypożyczy nam produkt, wyraźnie informujemy o tym w artykule.',
+        answer: 'Żaden producent nie płaci za miejsce w rankingu. Prowizje afiliacyjne Amazon są takie same niezależnie od pozycji w rankingu, więc nasz model biznesowy nie skłania nas do promowania konkretnego produktu. Jeśli producent użyczy nam urządzenia, wyraźnie informujemy o tym w artykule.',
       },
       {
         question: 'Jak często aktualizujecie ceny?',
-        answer: 'Nie wyświetlamy żadnych cen produktów: Amazon zmienia ceny kilka razy dziennie i zezwala na ich pokazywanie wyłącznie przez swój oficjalny interfejs produktowy. Nasze porównania mówią o przedziałach budżetowych (na przykład „poniżej 400 zł”), nigdy o cenie konkretnego modelu. Kliknij link, aby zobaczyć cenę i dostępność w czasie rzeczywistym na Amazon: trafisz do sklepu Amazon w swoim kraju.',
+        answer: 'Nie podajemy cen produktów: Amazon zmienia je kilka razy dziennie i pozwala je wyświetlać wyłącznie przez swój oficjalny interfejs. W porównaniach mówimy o przedziałach cenowych (np. „poniżej 400 zł”), nigdy o cenie konkretnego modelu. Aktualną cenę i dostępność sprawdzisz na Amazon po kliknięciu linku – trafisz do sklepu Amazon w swoim kraju.',
       },
       {
         question: 'Co robicie, gdy produkt zostaje wycofany z rynku?',
-        answer: 'Usuwamy numer ASIN z naszych porównań w ciągu 48 godzin, zachowujemy kartę produktu w archiwum z oznaczeniem „produkt wycofany” i zastępujemy go w rankingu najlepszym dostępnym odpowiednikiem. Żadna strona nie zostaje z martwym linkiem do zakupu.',
+        answer: 'W ciągu 48 godzin usuwamy jego numer ASIN z porównań, kartę produktu przenosimy do archiwum z oznaczeniem „produkt wycofany”, a w rankingu zastępujemy go najlepszym dostępnym odpowiednikiem. Na żadnej stronie nie zostawiamy niedziałającego linku do zakupu.',
       },
     ],
-    ctaLabel: 'Zobacz nasze zestawienie inteligentnej kuchni',
+    ctaLabel: 'Zobacz nasze zestawienie urządzeń do inteligentnej kuchni',
     ctaHref: '/cuisine-connectee',
   },
 }

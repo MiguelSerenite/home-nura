@@ -61,7 +61,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: '¿Mi freidora de aire no calienta, qué hacer?',
       it: 'La mia friggitrice ad aria non scalda più, cosa fare?',
       nl: 'Mijn airfryer warmt niet meer op, wat nu?',
-      pl: 'Moja frytkownica beztłuszczowa przestała się nagrzewać, co robić?',
+      pl: 'Moja frytkownica beztłuszczowa przestała grzać – co robić?',
     },
   },
   {
@@ -75,7 +75,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi freidora de aire huele a plástico, ¿es peligroso?',
       it: 'La mia friggitrice ad aria puzza di plastica, è pericoloso?',
       nl: 'Mijn airfryer ruikt naar plastic, is dat gevaarlijk?',
-      pl: 'Moja frytkownica beztłuszczowa pachnie plastikiem, czy to niebezpieczne?',
+      pl: 'Moja frytkownica beztłuszczowa śmierdzi plastikiem – czy to niebezpieczne?',
     },
   },
   {
@@ -117,7 +117,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El cajón de mi freidora de aire ya no cierra bien',
       it: 'Il cassetto della mia friggitrice ad aria non si chiude più bene',
       nl: 'De lade van mijn airfryer sluit niet meer goed',
-      pl: 'Szuflada mojej frytkownicy beztłuszczowej nie domyka się prawidłowo',
+      pl: 'Szuflada mojej frytkownicy beztłuszczowej przestała się dobrze domykać',
     },
   },
 
@@ -135,7 +135,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La válvula de mi multicocina está atascada',
       it: 'La valvola del mio multicooker è bloccata',
       nl: 'Het ventiel van mijn multicooker zit vast',
-      pl: 'Zawór w moim multicookerze jest zablokowany',
+      pl: 'Zawór w moim multicookerze się zaciął',
     },
   },
   {
@@ -149,7 +149,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi multicocina no sube la presión',
       it: 'Il mio multicooker non va in pressione',
       nl: 'Mijn multicooker bouwt geen druk op',
-      pl: 'Mój multicooker nie osiąga ciśnienia',
+      pl: 'Mój multicooker nie nabiera ciśnienia',
     },
   },
   {
@@ -209,7 +209,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: '¿Cómo descalcificar mi cafetera conectada?',
       it: 'Come decalcificare la mia macchina da caffè connessa?',
       nl: 'Hoe ontkalk ik mijn connected koffiemachine?',
-      pl: 'Jak odkamienić mój inteligentny ekspres do kawy?',
+      pl: 'Jak odkamienić inteligentny ekspres do kawy?',
     },
   },
   {
@@ -237,7 +237,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El filtro de mi cafetera está obstruido',
       it: 'Il filtro della mia macchina da caffè è intasato',
       nl: 'Het filter van mijn koffiemachine is verstopt',
-      pl: 'Filtr w moim ekspresie do kawy jest zatkany',
+      pl: 'Filtr w moim ekspresie do kawy się zatkał',
     },
   },
   {
@@ -251,7 +251,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Hay posos en mi taza, ¿cómo solucionarlo?',
       it: 'Ci sono fondi di caffè nella mia tazza, come risolvere?',
       nl: 'Er zit koffiedik in mijn kopje, hoe los ik dit op?',
-      pl: 'W mojej filiżance są fusy z kawy, jak to naprawić?',
+      pl: 'Mam fusy w filiżance – jak temu zaradzić?',
     },
   },
   {
@@ -265,7 +265,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: '¿Cómo ajustar el molido de mi cafetera automática?',
       it: 'Come regolare la macinatura della mia macchina da caffè automatica?',
       nl: 'Hoe stel ik de maling van mijn automatische koffiemachine in?',
-      pl: 'Jak ustawić stopień zmielenia w moim automatycznym ekspresie do kawy?',
+      pl: 'Jak ustawić stopień mielenia w moim ekspresie automatycznym?',
     },
   },
 
@@ -297,7 +297,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi báscula de cocina da lecturas inestables',
       it: 'La mia bilancia da cucina dà misure instabili',
       nl: 'Mijn keukenweegschaal geeft onstabiele metingen',
-      pl: 'Moja waga kuchenna pokazuje niestabilne wyniki',
+      pl: 'Odczyt na mojej wadze kuchennej ciągle skacze',
     },
   },
   {
@@ -399,7 +399,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La batería de mi termómetro de carne ya no aguanta',
       it: 'La batteria del mio termometro per carne non dura più',
       nl: 'De batterij van mijn vleesthermometer houdt geen lading meer vast',
-      pl: 'Bateria mojego termometru do mięsa słabo trzyma',
+      pl: 'Bateria w moim termometrze do mięsa już nie trzyma',
     },
   },
   {
@@ -413,7 +413,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El cable de la sonda de mi termómetro está roto',
       it: 'Il cavo della sonda del mio termometro è rotto',
       nl: 'De kabel van de sonde van mijn vleesthermometer is gebroken',
-      pl: 'Przewód sondy mojego termometru jest przerwany',
+      pl: 'Przewód sondy w moim termometrze jest uszkodzony',
     },
   },
 
@@ -431,7 +431,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi enchufe inteligente ha perdido el WiFi',
       it: 'La mia presa smart ha perso il WiFi',
       nl: 'Mijn slimme stekker is het wifi-signaal kwijt',
-      pl: 'Moja inteligentna wtyczka straciła połączenie z Wi-Fi',
+      pl: 'Moje inteligentne gniazdko straciło połączenie z Wi-Fi',
     },
   },
   {
@@ -445,7 +445,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La app ya no detecta mi enchufe inteligente',
       it: "L'app non rileva più la mia presa smart",
       nl: 'De app ziet mijn slimme stekker niet meer',
-      pl: 'Aplikacja nie wykrywa już mojej inteligentnej wtyczki',
+      pl: 'Aplikacja nie wykrywa już mojego inteligentnego gniazdka',
     },
   },
   {
@@ -459,7 +459,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi enchufe inteligente parpadea rojo, ¿qué significa este LED?',
       it: 'La mia presa smart lampeggia rossa, cosa significa questo LED?',
       nl: 'Mijn slimme stekker knippert rood, wat betekent deze led?',
-      pl: 'Moja inteligentna wtyczka miga na czerwono, co oznacza ta dioda?',
+      pl: 'Moje inteligentne gniazdko miga na czerwono – co oznacza ta dioda?',
     },
   },
   {
@@ -473,7 +473,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi enchufe inteligente ya no corta la corriente',
       it: 'La mia presa smart non interrompe più la corrente',
       nl: 'Mijn slimme stekker schakelt de stroom niet meer uit',
-      pl: 'Moja inteligentna wtyczka nie odcina już prądu',
+      pl: 'Moje inteligentne gniazdko przestało odcinać prąd',
     },
   },
   {
@@ -487,7 +487,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi enchufe inteligente se calienta de forma anormal',
       it: 'La mia presa smart si scalda in modo anomalo',
       nl: 'Mijn slimme stekker wordt abnormaal heet',
-      pl: 'Moja inteligentna wtyczka nienormalnie się nagrzewa',
+      pl: 'Moje inteligentne gniazdko nadmiernie się nagrzewa',
     },
   },
 
@@ -507,7 +507,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi termostato inteligente no alcanza la temperatura de consigna',
       it: 'Il mio termostato intelligente non raggiunge la temperatura impostata',
       nl: 'Mijn slimme thermostaat bereikt de ingestelde temperatuur niet',
-      pl: 'Mój inteligentny termostat nie osiąga temperatury zadanej',
+      pl: 'Mój inteligentny termostat nie osiąga ustawionej temperatury',
     },
   },
   {
@@ -535,7 +535,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi termostato inteligente pierde constantemente la conexión WiFi',
       it: 'Il mio termostato intelligente perde spesso la connessione WiFi',
       nl: 'Mijn slimme thermostaat verliest steeds de WiFi-verbinding',
-      pl: 'Mój inteligentny termostat regularnie traci połączenie z Wi-Fi',
+      pl: 'Mój inteligentny termostat często traci połączenie z Wi-Fi',
     },
   },
 
@@ -551,7 +551,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi contador de energía muestra una medición incorrecta',
       it: 'Il mio contatore di energia mostra una misura sbagliata',
       nl: 'Mijn energiemeter geeft een onjuiste meting weer',
-      pl: 'Mój licznik energii pokazuje błędny pomiar',
+      pl: 'Mój miernik zużycia energii pokazuje błędne wartości',
     },
   },
   {
@@ -565,7 +565,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi contador de energía ya no envía datos',
       it: 'Il mio contatore di energia non invia più i dati',
       nl: 'Mijn energiemeter stuurt geen data meer door',
-      pl: 'Mój licznik energii nie przesyła już danych',
+      pl: 'Mój miernik zużycia energii przestał przesyłać dane',
     },
   },
   {
@@ -579,7 +579,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: '¿Cómo instalar un contador de energía sin tocar el contador principal?',
       it: 'Come installare un contatore di energia senza toccare quello principale?',
       nl: 'Hoe installeer ik een energiemeter zonder de hoofdmeter aan te raken?',
-      pl: 'Jak zainstalować licznik energii bez ingerencji w główny licznik prądu?',
+      pl: 'Jak zamontować miernik zużycia energii, nie ingerując w licznik prądu?',
     },
   },
 
@@ -595,7 +595,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi kit solar de balcón produce menos de lo anunciado',
       it: 'Il mio kit solare da balcone produce meno del previsto',
       nl: 'Mijn balkon-zonnekit produceert minder dan aangegeven',
-      pl: 'Mój balkonowy zestaw fotowoltaiczny produkuje mniej, niż deklarowano',
+      pl: 'Moja elektrownia balkonowa produkuje mniej prądu, niż deklaruje producent',
     },
   },
   {
@@ -609,7 +609,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El microinversor de mi solar de balcón ya no arranca',
       it: 'Il micro-inverter del mio solare da balcone non si avvia più',
       nl: 'De micro-omvormer van mijn balkon-zonnekit start niet meer',
-      pl: 'Mikroinwerter w mojej elektrowni balkonowej już się nie uruchamia',
+      pl: 'Mikrofalownik w mojej elektrowni balkonowej przestał się uruchamiać',
     },
   },
   {
@@ -653,7 +653,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi batería doméstica hace un ruido anómalo, ¿es peligroso?',
       it: 'La mia batteria domestica fa un rumore strano, è pericoloso?',
       nl: 'Mijn thuisbatterij maakt een raar geluid, is dat gevaarlijk?',
-      pl: 'Mój domowy magazyn energii wydaje nienormalny dźwięk, czy to niebezpieczne?',
+      pl: 'Mój domowy magazyn energii wydaje dziwne dźwięki – czy to niebezpieczne?',
     },
   },
   {
@@ -697,7 +697,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi iluminación inteligente pierde el emparejamiento con el hub',
       it: 'La mia illuminazione intelligente perde l\'accoppiamento con l\'hub',
       nl: 'Mijn slimme verlichting verliest de koppeling met de hub',
-      pl: 'Moje inteligentne oświetlenie traci sparowanie z hubem',
+      pl: 'Moje inteligentne oświetlenie samo rozparowuje się z hubem',
     },
   },
   {
@@ -771,7 +771,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi persiana inteligente se detiene a mitad de recorrido',
       it: 'La mia tapparella intelligente si ferma a metà corsa',
       nl: 'Mijn slimme rolluik stopt halverwege',
-      pl: 'Moja inteligentna roleta zatrzymuje się w połowie drogi',
+      pl: 'Moja inteligentna roleta zatrzymuje się w połowie',
     },
   },
   {
@@ -785,7 +785,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi persiana enrollable inteligente ya no baja',
       it: 'La mia tapparella intelligente non scende più',
       nl: 'Mijn slimme rolluik gaat niet meer omlaag',
-      pl: 'Moja inteligentna roleta nie opuszcza się już',
+      pl: 'Moja inteligentna roleta przestała się opuszczać',
     },
   },
   {
@@ -815,7 +815,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi sensor de calidad del aire da lecturas incoherentes',
       it: 'Il mio sensore di qualità dell\'aria fornisce misure incoerenti',
       nl: 'Mijn luchtkwaliteitssensor geeft tegenstrijdige metingen',
-      pl: 'Mój czujnik jakości powietrza pokazuje niespójne pomiary',
+      pl: 'Mój czujnik jakości powietrza pokazuje niewiarygodne odczyty',
     },
   },
   {
@@ -829,7 +829,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Las pilas de mi sensor de calidad del aire duran solo dos semanas',
       it: 'Le pile del mio sensore di qualità dell\'aria si scaricano in due settimane',
       nl: 'De batterijen van mijn luchtkwaliteitssensor gaan maar twee weken mee',
-      pl: 'Baterie w moim czujniku jakości powietrza wyczerpują się w dwa tygodnie',
+      pl: 'Baterie w moim czujniku jakości powietrza rozładowują się po dwóch tygodniach',
     },
   },
   {
@@ -859,7 +859,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi detector de fugas de agua lanza falsas alertas',
       it: 'Il mio rilevatore di perdite d\'acqua genera falsi allarmi',
       nl: 'Mijn waterlekdetector geeft valse meldingen',
-      pl: 'Mój czujnik zalania wywołuje fałszywe alarmy',
+      pl: 'Mój czujnik zalania daje fałszywe alarmy',
     },
   },
   {
@@ -873,7 +873,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La electroválvula de mi detector de fugas ya no corta el agua',
       it: 'L\'elettrovalvola del mio rilevatore di perdite non blocca più l\'acqua',
       nl: 'De afsluiter van mijn waterlekdetector stopt de toevoer niet meer',
-      pl: 'Zawór elektromagnetyczny w moim systemie wykrywania zalania nie odcina już dopływu wody',
+      pl: 'Elektrozawór mojego czujnika zalania przestał odcinać dopływ wody',
     },
   },
   {
@@ -903,7 +903,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Los dispositivos de mi hub domótico desaparecen con frecuencia',
       it: 'I dispositivi del mio hub domotico spariscono di continuo',
       nl: 'Apparaten op mijn domotica-hub verdwijnen regelmatig',
-      pl: 'Urządzenia podłączone do mojego huba smart home regularnie znikają',
+      pl: 'Z mojego huba smart home co chwilę znikają urządzenia',
     },
   },
   {
@@ -917,7 +917,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La actualización de mi hub domótico falla cada vez',
       it: 'L\'aggiornamento del mio hub domotico fallisce ogni volta',
       nl: 'De update van mijn domotica-hub mislukt elke keer',
-      pl: 'Aktualizacja mojego huba smart home za każdym razem się nie udaje',
+      pl: 'Aktualizacja mojego huba smart home za każdym razem kończy się błędem',
     },
   },
   {
@@ -947,7 +947,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi punto de recarga para VE carga mucho más lento de lo normal',
       it: 'La mia stazione di ricarica VE carica stranamente lenta',
       nl: 'Mijn EV-laadpaal laadt abnormaal langzaam',
-      pl: 'Moja ładowarka do samochodu elektrycznego (wallbox) ładuje wyjątkowo wolno',
+      pl: 'Mój wallbox ładuje samochód elektryczny wyjątkowo wolno',
     },
   },
   {
@@ -961,7 +961,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi punto de recarga para VE muestra un código de error y no arranca',
       it: 'La mia stazione di ricarica VE mostra un codice di errore e non parte più',
       nl: 'Mijn EV-laadpaal toont een foutcode en start niet meer',
-      pl: 'Moja ładowarka do samochodu elektrycznego (wallbox) wyświetla kod błędu i już się nie uruchamia',
+      pl: 'Mój wallbox wyświetla kod błędu i przestał się uruchamiać',
     },
   },
   {
@@ -975,7 +975,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: '¿Cómo instalar un punto de recarga para VE en casa de forma segura?',
       it: 'Come installare in sicurezza una stazione di ricarica VE in casa?',
       nl: 'Hoe installeer ik veilig een EV-laadpaal thuis?',
-      pl: 'Jak bezpiecznie zainstalować w domu ładowarkę do samochodu elektrycznego (wallbox)?',
+      pl: 'Jak bezpiecznie zamontować w domu ładowarkę do samochodu elektrycznego?',
     },
   },
 
@@ -1009,7 +1009,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La visión nocturna de mi videoportero se ve gris y desvaída',
       it: 'La visione notturna del mio videocitofono è grigia e sbiadita',
       nl: 'Het nachtzicht van mijn videodeurbel is grijs en vaag',
-      pl: 'Noktowizja w moim dzwonku wideo jest szara i słabej jakości',
+      pl: 'Obraz nocny z mojego dzwonka wideo jest szary i niewyraźny',
     },
   },
   {
@@ -1039,7 +1039,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La transmisión de video de mi cámara interior va muy lenta',
       it: 'Il flusso video della mia telecamera interna è molto lento',
       nl: 'De videostream van mijn binnencamera loopt erg traag',
-      pl: 'Obraz z mojej kamery wewnętrznej bardzo się opóźnia',
+      pl: 'Obraz z mojej kamery wewnętrznej ma duże opóźnienie',
     },
   },
   {
@@ -1053,7 +1053,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi cámara interior detecta movimientos que no existen',
       it: 'La mia telecamera interna rileva movimenti inesistenti',
       nl: 'Mijn binnencamera detecteert beweging die er niet is',
-      pl: 'Moja kamera wewnętrzna wykrywa nieistniejące ruchy',
+      pl: 'Moja kamera wewnętrzna wykrywa ruch, którego nie ma',
     },
   },
   {
@@ -1111,7 +1111,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi cámara exterior se pierde los movimientos importantes',
       it: 'La mia telecamera esterna si perde gli eventi importanti',
       nl: 'Mijn buitencamera mist de belangrijke momenten',
-      pl: 'Moja kamera zewnętrzna pomija ważne zdarzenia',
+      pl: 'Moja kamera zewnętrzna nie rejestruje ważnych zdarzeń',
     },
   },
 
@@ -1127,7 +1127,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi cerradura inteligente se ha averiado y me he quedado fuera',
       it: 'La mia serratura intelligente è in avaria e sono rimasto fuori casa',
       nl: 'Mijn slimme slot is uitgevallen en ik sta buitengesloten',
-      pl: 'Mój inteligentny zamek przestał działać i utknąłem przed drzwiami',
+      pl: 'Mój inteligentny zamek się zepsuł i nie mogę wejść do domu',
     },
   },
   {
@@ -1141,7 +1141,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El teclado de mi cerradura inteligente ya no responde',
       it: 'Il tastierino della mia serratura intelligente non risponde più',
       nl: 'Het toetsenblok van mijn slimme slot reageert niet meer',
-      pl: 'Klawiatura numeryczna mojego inteligentnego zamka nie reaguje',
+      pl: 'Klawiatura numeryczna mojego inteligentnego zamka przestała reagować',
     },
   },
   {
@@ -1171,7 +1171,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi alarma inteligente lanza falsas alertas por la noche',
       it: 'Il mio allarme intelligente dà falsi allarmi di notte',
       nl: 'Mijn slimme alarm geeft \'s nachts valse meldingen',
-      pl: 'Mój inteligentny alarm wywołuje fałszywe alarmy w nocy',
+      pl: 'Mój inteligentny alarm włącza się w nocy bez powodu',
     },
   },
   {
@@ -1185,7 +1185,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La sirena de mi alarma inteligente ya no suena',
       it: 'La sirena del mio allarme intelligente non suona più',
       nl: 'De sirene van mijn slimme alarm gaat niet meer af',
-      pl: 'Syrena mojego inteligentnego alarmu już nie dzwoni',
+      pl: 'Syrena mojego inteligentnego alarmu przestała się włączać',
     },
   },
   {
@@ -1199,7 +1199,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: '¿Cómo configurar el rearme automático de una alarma inteligente?',
       it: 'Come configurare il riarmo automatico di un allarme intelligente?',
       nl: 'Hoe stel ik automatisch herinschakelen in op een slim alarm?',
-      pl: 'Jak ustawić automatyczne uzbrajanie inteligentnego alarmu?',
+      pl: 'Jak ustawić automatyczne ponowne uzbrajanie inteligentnego alarmu?',
     },
   },
 
@@ -1215,7 +1215,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi detector de humo inteligente pita a intervalos aleatorios',
       it: 'Il mio rilevatore di fumo intelligente emette bip a intervalli casuali',
       nl: 'Mijn slimme rookmelder piept op willekeurige momenten',
-      pl: 'Mój inteligentny czujnik dymu piszczy w przypadkowych odstępach',
+      pl: 'Mój inteligentny czujnik dymu piszczy w nieregularnych odstępach',
     },
   },
   {
@@ -1259,7 +1259,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi detector de movimiento tiene un alcance mucho menor del anunciado',
       it: 'Il mio rilevatore di movimento ha una portata molto inferiore a quella dichiarata',
       nl: 'Mijn bewegingsmelder heeft veel minder bereik dan opgegeven',
-      pl: 'Mój czujnik ruchu ma znacznie mniejszy zasięg, niż deklarowano',
+      pl: 'Mój czujnik ruchu ma znacznie mniejszy zasięg, niż podaje producent',
     },
   },
   {
@@ -1303,7 +1303,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi rastreador de objetos pierde la conexión con frecuencia',
       it: 'Il mio tracker per oggetti perde spesso la connessione',
       nl: 'Mijn objecttracker verliest steeds de verbinding',
-      pl: 'Mój lokalizator przedmiotów regularnie traci połączenie',
+      pl: 'Mój lokalizator przedmiotów często traci połączenie',
     },
   },
   {
@@ -1347,7 +1347,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El audio de mi interfono inteligente se corta con frecuencia',
       it: 'L\'audio del mio citofono intelligente si interrompe di continuo',
       nl: 'Het geluid van mijn slimme intercom valt steeds weg',
-      pl: 'Dźwięk w moim inteligentnym domofonie ciągle się urywa',
+      pl: 'Dźwięk w moim inteligentnym wideodomofonie ciągle się urywa',
     },
   },
   {
@@ -1361,7 +1361,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi interfono inteligente ya no suena al llamar',
       it: 'Il mio citofono intelligente non suona più quando chiamano',
       nl: 'Mijn slimme intercom gaat niet meer over bij een oproep',
-      pl: 'Mój inteligentny domofon nie dzwoni przy połączeniu',
+      pl: 'Mój inteligentny wideodomofon przestał dzwonić przy wywołaniu',
     },
   },
   {
@@ -1375,7 +1375,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El botón de apertura de mi interfono inteligente tarda en responder',
       it: 'Il pulsante di apertura del mio citofono intelligente risponde in ritardo',
       nl: 'De deuropenerknop van mijn slimme intercom reageert traag',
-      pl: 'Przycisk otwierania drzwi w moim inteligentnym domofonie działa z opóźnieniem',
+      pl: 'Przycisk otwierania drzwi w moim inteligentnym wideodomofonie działa z opóźnieniem',
     },
   },
 
@@ -1391,7 +1391,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi caja fuerte inteligente está bloqueada porque las pilas se agotaron',
       it: 'La mia cassaforte intelligente è bloccata perché le pile sono scariche',
       nl: 'Mijn slimme kluis zit op slot omdat de batterijen leeg zijn',
-      pl: 'Mój inteligentny sejf jest zablokowany, bo baterie są puste',
+      pl: 'Mój inteligentny sejf się zablokował, bo rozładowały się baterie',
     },
   },
   {
@@ -1405,7 +1405,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'He olvidado el código maestro de mi caja fuerte inteligente',
       it: 'Ho dimenticato il codice master della mia cassaforte intelligente',
       nl: 'Ik ben de mastercode van mijn slimme kluis vergeten',
-      pl: 'Zapomniałem kodu głównego mojego inteligentnego sejfu',
+      pl: 'Nie pamiętam kodu głównego do mojego inteligentnego sejfu',
     },
   },
   {
@@ -1439,7 +1439,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi purificador de aire hace demasiado ruido',
       it: 'Il mio purificatore d\'aria fa troppo rumore',
       nl: 'Mijn luchtreiniger maakt veel te veel lawaai',
-      pl: 'Mój oczyszczacz powietrza zbyt głośno pracuje',
+      pl: 'Mój oczyszczacz powietrza pracuje za głośno',
     },
   },
   {
@@ -1497,7 +1497,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi humidificador ya no emite vapor',
       it: 'Il mio umidificatore non emette più vapore',
       nl: 'Mijn luchtbevochtiger geeft geen nevel meer af',
-      pl: 'Mój nawilżacz nie wytwarza już pary',
+      pl: 'Mój nawilżacz przestał parować',
     },
   },
   {
@@ -1629,7 +1629,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi ventilador inteligente vibra de forma anómala',
       it: 'Il mio ventilatore intelligente vibra in modo anomalo',
       nl: 'Mijn slimme ventilator trilt abnormaal',
-      pl: 'Mój inteligentny wentylator nienormalnie wibruje',
+      pl: 'Mój inteligentny wentylator nadmiernie wibruje',
     },
   },
   {
@@ -1643,7 +1643,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'He perdido el mando de mi ventilador inteligente, ¿qué hago?',
       it: 'Ho perso il telecomando del mio ventilatore intelligente, cosa faccio?',
       nl: 'Ik ben de afstandsbediening van mijn slimme ventilator kwijt — wat nu?',
-      pl: 'Zgubiłem pilota do inteligentnego wentylatora, co robić?',
+      pl: 'Zginął mi pilot do inteligentnego wentylatora – co robić?',
     },
   },
 
@@ -1687,7 +1687,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: '¿Para qué tamaño de habitación hay que elegir un calefactor?',
       it: 'Per quale dimensione di stanza scegliere una stufetta?',
       nl: 'Voor welke kamergrootte moet ik een bijverwarming kiezen?',
-      pl: 'Do jak dużego pomieszczenia wybrać grzejnik elektryczny?',
+      pl: 'Jak dobrać grzejnik elektryczny do wielkości pomieszczenia?',
     },
   },
 
@@ -1717,7 +1717,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: '¿Cómo calibrar la presión de mi estación meteorológica inteligente?',
       it: 'Come calibrare la pressione della mia stazione meteo intelligente?',
       nl: 'Hoe kalibreer ik de luchtdruk van mijn slimme weerstation?',
-      pl: 'Jak skalibrować ciśnienie w mojej inteligentnej stacji pogodowej?',
+      pl: 'Jak skalibrować pomiar ciśnienia w inteligentnej stacji pogodowej?',
     },
   },
   {
@@ -1791,7 +1791,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La intensidad de luz de mi despertador de luz es demasiado baja por la mañana',
       it: 'L\'intensità luminosa della mia sveglia luminosa è troppo bassa al mattino',
       nl: 'De lichtsterkte van mijn wake-up light is te zwak in de ochtend',
-      pl: 'Natężenie światła mojego budzika świetlnego jest rano za słabe',
+      pl: 'Mój budzik świetlny świeci rano za słabo',
     },
   },
   {
@@ -1805,7 +1805,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La alarma sonora de mi despertador de luz ya no suena',
       it: 'La sveglia sonora della mia sveglia luminosa non suona più',
       nl: 'Het geluidsalarm van mijn wake-up light gaat niet meer af',
-      pl: 'Alarm dźwiękowy mojego budzika świetlnego już nie dzwoni',
+      pl: 'W moim budziku świetlnym przestał działać alarm dźwiękowy',
     },
   },
   {
@@ -1835,7 +1835,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi cortina automatizada se detiene a mitad de recorrido',
       it: 'La mia tenda automatizzata si ferma a metà corsa',
       nl: 'Mijn gemotoriseerde gordijn stopt halverwege',
-      pl: 'Moja automatyczna zasłona zatrzymuje się w połowie drogi',
+      pl: 'Moja automatyczna zasłona zatrzymuje się w połowie',
     },
   },
   {
@@ -1897,7 +1897,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El cepillo principal de mi robot aspirador está bloqueado por pelos',
       it: 'La spazzola principale del mio robot aspirapolvere è bloccata dai capelli',
       nl: 'De hoofdborstel van mijn robotstofzuiger zit vast door haren',
-      pl: 'Szczotka główna mojego robota odkurzającego jest zablokowana włosami',
+      pl: 'Szczotkę główną mojego robota odkurzającego zablokowały nawinięte włosy',
     },
   },
   {
@@ -1911,7 +1911,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La batería de mi robot aspirador ya no dura un mapeo completo',
       it: 'La batteria del mio robot aspirapolvere non regge più una mappatura completa',
       nl: 'De accu van mijn robotstofzuiger haalt geen volledige kaart meer',
-      pl: 'Bateria mojego robota odkurzającego nie wytrzymuje już pełnego mapowania',
+      pl: 'Akumulator mojego robota odkurzającego nie wystarcza już na zmapowanie całego domu',
     },
   },
 
@@ -1927,7 +1927,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi aspirador lavador ya no humedece la mopa',
       it: 'La mia lavapavimenti aspirante non bagna più il panno',
       nl: 'Mijn nat-droogzuiger maakt de mopdoek niet meer nat',
-      pl: 'Mój odkurzacz mopujący nie zwilża już mopa',
+      pl: 'Mój odkurzacz myjący nie zwilża już mopa',
     },
   },
   {
@@ -1941,7 +1941,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi aspirador lavador desprende mal olor a agua sucia',
       it: 'La mia lavapavimenti aspirante emana cattivo odore di acqua sporca',
       nl: 'Mijn nat-droogzuiger geeft een vieze vuilwaterlucht af',
-      pl: 'Mój odkurzacz mopujący wydziela nieprzyjemny zapach brudnej wody',
+      pl: 'Mój odkurzacz myjący śmierdzi brudną wodą',
     },
   },
   {
@@ -1955,7 +1955,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El rodillo de mi aspirador lavador ya no gira',
       it: 'Il rullo della mia lavapavimenti aspirante non gira più',
       nl: 'De rol van mijn nat-droogzuiger draait niet meer',
-      pl: 'Rolka mojego odkurzacza mopującego przestała się obracać',
+      pl: 'Wałek mojego odkurzacza myjącego przestał się obracać',
     },
   },
 
@@ -1971,7 +1971,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi robot limpiacristales se despega y casi cae',
       it: 'Il mio robot lavavetri perde aderenza e rischia di cadere',
       nl: 'Mijn ruitenrobot verliest grip en dreigt te vallen',
-      pl: 'Mój robot do mycia okien odczepia się i grozi upadkiem',
+      pl: 'Mój robot do mycia okien odrywa się od szyby i może spaść',
     },
   },
   {
@@ -2015,7 +2015,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La autonomía de mi aspirador escoba ha bajado mucho',
       it: 'L\'autonomia della mia scopa elettrica è crollata',
       nl: 'De looptijd van mijn steelstofzuiger is sterk gedaald',
-      pl: 'Czas pracy mojego odkurzacza pionowego mocno spadł',
+      pl: 'Czas pracy na baterii w moim odkurzaczu pionowym mocno się skrócił',
     },
   },
   {
@@ -2029,7 +2029,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi aspirador escoba se apaga solo tras unos minutos',
       it: 'La mia scopa elettrica si spegne da sola dopo pochi minuti',
       nl: 'Mijn steelstofzuiger slaat vanzelf af na enkele minuten',
-      pl: 'Mój odkurzacz pionowy wyłącza się sam po kilku minutach',
+      pl: 'Mój odkurzacz pionowy sam wyłącza się po kilku minutach',
     },
   },
   {
@@ -2059,7 +2059,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi limpiador a vapor pierde agua por el tapón al calentar',
       it: 'Il mio pulitore a vapore perde dal tappo durante il riscaldamento',
       nl: 'Mijn stoomreiniger lekt bij het opwarmen via de dop',
-      pl: 'Moja myjka parowa przecieka przez korek podczas nagrzewania',
+      pl: 'Moja myjka parowa cieknie spod korka podczas nagrzewania',
     },
   },
   {
@@ -2073,7 +2073,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi limpiador a vapor ya no expulsa vapor aunque el depósito esté lleno',
       it: 'Il mio pulitore a vapore non emette più vapore nonostante il serbatoio pieno',
       nl: 'Mijn stoomreiniger geeft geen stoom meer ondanks een vol reservoir',
-      pl: 'Moja myjka parowa nie wyrzuca już pary mimo pełnego zbiornika',
+      pl: 'Moja myjka parowa przestała wytwarzać parę, choć zbiornik jest pełny',
     },
   },
   {
@@ -2103,7 +2103,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi centro de planchado escupe agua sobre la ropa',
       it: 'La mia caldaia a vapore sputa acqua sul bucato',
       nl: 'Mijn stoomgenerator spuugt water op het wasgoed',
-      pl: 'Mój generator pary pryska wodą na ubrania',
+      pl: 'Moja stacja parowa pryska wodą na ubrania',
     },
   },
   {
@@ -2131,7 +2131,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El indicador antical de mi central de vapor sigue encendido tras descalcificar',
       it: 'La spia anticalcare della mia caldaia resta accesa dopo la decalcificazione',
       nl: 'Het antikalklampje van mijn stoomgenerator blijft aan na ontkalken',
-      pl: 'Kontrolka odkamieniania w moim generatorze pary świeci po odkamienianiu',
+      pl: 'Kontrolka odkamieniania w mojej stacji parowej świeci nawet po odkamienieniu',
     },
   },
 
@@ -2147,7 +2147,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi lavavajillas inteligente ya no seca la vajilla al final del ciclo',
       it: 'La mia lavastoviglie connessa non asciuga più a fine ciclo',
       nl: 'Mijn slimme vaatwasser droogt het vaatwerk niet meer aan het einde van de cyclus',
-      pl: 'Moja inteligentna zmywarka nie suszy już naczyń pod koniec cyklu',
+      pl: 'Moja inteligentna zmywarka przestała suszyć naczynia na koniec programu',
     },
   },
   {
@@ -2219,7 +2219,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi lavadora ya no centrifuga y la ropa queda empapada',
       it: 'La mia lavatrice non centrifuga più e il bucato resta bagnato',
       nl: 'Mijn wasmachine centrifugeert niet meer en het wasgoed blijft drijfnat',
-      pl: 'Moja pralka nie wiruje i pranie zostaje mokre',
+      pl: 'Moja pralka przestała wirować, a pranie jest kompletnie mokre',
     },
   },
 
@@ -2239,7 +2239,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi robot cortacésped cruza el cable perimetral y sale del jardín',
       it: 'Il mio robot tagliaerba supera il filo perimetrale ed esce dal giardino',
       nl: 'Mijn robotmaaier steekt de begrenzingsdraad over en verlaat de tuin',
-      pl: 'Mój robot koszący przejeżdża przez przewód graniczny i wyjeżdża z ogrodu',
+      pl: 'Mój robot koszący przejeżdża za przewód ograniczający i wyjeżdża poza ogród',
     },
   },
   {
@@ -2253,7 +2253,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Las cuchillas de mi robot cortacésped se atascan en hierba alta',
       it: 'Le lame del mio robot tagliaerba si bloccano sull\'erba alta',
       nl: 'De messen van mijn robotmaaier lopen vast in lang gras',
-      pl: 'Noże mojego robota koszącego blokują się na wysokiej trawie',
+      pl: 'Noże mojego robota koszącego blokują się w wysokiej trawie',
     },
   },
   {
@@ -2267,7 +2267,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La estación de carga de mi robot cortacésped ya no carga',
       it: 'La base di ricarica del mio robot tagliaerba non carica più',
       nl: 'Het laadstation van mijn robotmaaier laadt niet meer op',
-      pl: 'Stacja ładująca mojego robota koszącego już nie ładuje',
+      pl: 'Stacja ładująca mojego robota koszącego przestała ładować',
     },
   },
 
@@ -2283,7 +2283,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La válvula de mi sistema de riego queda abierta permanentemente',
       it: 'La valvola del mio impianto di irrigazione resta aperta in continuazione',
       nl: 'De klep van mijn slimme irrigatie blijft permanent openstaan',
-      pl: 'Zawór mojego systemu nawadniania stale pozostaje otwarty',
+      pl: 'Zawór w moim systemie nawadniania się nie zamyka',
     },
   },
   {
@@ -2311,7 +2311,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi riego conectado sigue funcionando a pesar del sensor de lluvia',
       it: 'La mia irrigazione connessa continua nonostante il sensore pioggia',
       nl: 'Mijn slimme irrigatie blijft lopen ondanks de regensensor',
-      pl: 'Moje inteligentne nawadnianie działa mimo czujnika deszczu',
+      pl: 'Moje inteligentne nawadnianie podlewa mimo czujnika deszczu',
     },
   },
 
@@ -2327,7 +2327,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi iluminación exterior solar ya no carga ni a pleno día',
       it: 'La mia illuminazione esterna solare non si ricarica più in pieno giorno',
       nl: 'Mijn solar buitenverlichting laadt overdag niet meer op',
-      pl: 'Moje solarne oświetlenie zewnętrzne nie ładuje się w pełnym słońcu',
+      pl: 'Moje solarne oświetlenie ogrodowe przestało ładować się w dzień',
     },
   },
   {
@@ -2341,7 +2341,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi luz exterior con detector se enciende sola por la noche',
       it: 'La mia luce esterna con sensore si accende di notte senza motivo',
       nl: 'Mijn buitenlamp met sensor gaat \'s nachts zomaar aan',
-      pl: 'Moje oświetlenie zewnętrzne z czujnikiem włącza się bez powodu w nocy',
+      pl: 'Moje oświetlenie zewnętrzne z czujnikiem ruchu włącza się w nocy bez powodu',
     },
   },
   {
@@ -2371,7 +2371,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi puerta motorizada ya no cierra del todo',
       it: 'Il mio cancello motorizzato non si chiude più completamente',
       nl: 'Mijn gemotoriseerde poort sluit niet meer volledig',
-      pl: 'Moja brama automatyczna nie zamyka się już całkowicie',
+      pl: 'Moja brama z napędem przestała się domykać',
     },
   },
   {
@@ -2385,7 +2385,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El mando de mi garaje ha perdido mucho alcance',
       it: 'Il telecomando del mio garage ha perso molta portata',
       nl: 'De afstandsbediening van mijn garage heeft veel bereik verloren',
-      pl: 'Pilot do mojej bramy garażowej stracił dużo na zasięgu',
+      pl: 'Pilot do mojej bramy garażowej ma dużo mniejszy zasięg niż kiedyś',
     },
   },
   {
@@ -2399,7 +2399,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Las fotocélulas de mi puerta provocan una reapertura constante',
       it: 'Le fotocellule del mio cancello fanno riaprire il cancello di continuo',
       nl: 'De fotocellen van mijn poort activeren steeds een heropening',
-      pl: 'Fotokomórki mojej bramy powodują ponowne otwarcie',
+      pl: 'Fotokomórki sprawiają, że moja brama otwiera się z powrotem',
     },
   },
 
@@ -2415,7 +2415,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi robot de piscina ya no se sumerge y se queda en la superficie',
       it: 'Il mio robot piscina non si immerge più e resta in superficie',
       nl: 'Mijn zwembadrobot duikt niet meer onder en blijft aan het oppervlak',
-      pl: 'Mój robot basenowy nie nurkuje i zostaje na powierzchni',
+      pl: 'Mój robot basenowy przestał schodzić na dno i pływa na powierzchni',
     },
   },
   {
@@ -2429,7 +2429,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La hélice de mi robot de piscina está bloqueada por hojas',
       it: 'L\'elica del mio robot piscina è bloccata dalle foglie',
       nl: 'De impeller van mijn zwembadrobot zit vast door bladeren',
-      pl: 'Wirnik mojego robota basenowego jest zablokowany liśćmi',
+      pl: 'Liście zablokowały wirnik mojego robota basenowego',
     },
   },
   {
@@ -2443,7 +2443,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El cable de mi robot de piscina se enreda en cada ciclo',
       it: 'Il cavo del mio robot piscina si aggroviglia a ogni ciclo',
       nl: 'De kabel van mijn zwembadrobot raakt elke cyclus in de knoop',
-      pl: 'Kabel mojego robota basenowego plącze się w każdym cyklu',
+      pl: 'Kabel mojego robota basenowego plącze się przy każdym cyklu sprzątania',
     },
   },
 
@@ -2459,7 +2459,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La sonda de temperatura de mi barbacoa inteligente da un valor erróneo',
       it: 'La sonda temperatura del mio barbecue connesso mostra un valore errato',
       nl: 'De temperatuurprobe van mijn slimme barbecue geeft een verkeerde waarde',
-      pl: 'Sonda temperatury mojego inteligentnego grilla pokazuje błędną wartość',
+      pl: 'Sonda temperatury mojego inteligentnego grilla pokazuje błędny odczyt',
     },
   },
   {
@@ -2487,7 +2487,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi barbacoa de pellets inteligente atasca el sinfín de alimentación',
       it: 'Il mio barbecue a pellet connesso inceppa la coclea di alimentazione',
       nl: 'Mijn slimme pelletbarbecue laat de vulspiraal vastlopen',
-      pl: 'Mój inteligentny grill na pellet zapycha ślimak podajnika',
+      pl: 'W moim inteligentnym grillu peletowym zatyka się ślimak podajnika',
     },
   },
 
@@ -2503,7 +2503,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi estación de carga exterior muestra un error de humedad',
       it: 'La mia stazione di ricarica esterna segnala un errore di umidità',
       nl: 'Mijn buitenlaadstation toont een vochtfout',
-      pl: 'Moja zewnętrzna stacja ładowania wyświetla błąd wilgotności',
+      pl: 'Moja przenośna stacja zasilania wyświetla błąd wilgotności',
     },
   },
   {
@@ -2517,7 +2517,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi estación de carga exterior carga mucho más lento que antes',
       it: 'La mia stazione di ricarica esterna carica molto più lentamente di prima',
       nl: 'Mijn buitenlaadstation laadt veel trager dan vroeger',
-      pl: 'Moja zewnętrzna stacja ładowania ładuje dużo wolniej niż wcześniej',
+      pl: 'Moja przenośna stacja zasilania ładuje się dużo wolniej niż wcześniej',
     },
   },
   {
@@ -2531,7 +2531,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El enchufe de mi estación de carga exterior se ha aflojado',
       it: 'La presa della mia stazione di ricarica esterna si è allentata',
       nl: 'Het stopcontact van mijn buitenlaadstation zit los',
-      pl: 'Gniazdo mojej zewnętrznej stacji ładowania się poluzowało',
+      pl: 'Gniazdo w mojej przenośnej stacji zasilania się poluzowało',
     },
   },
 
@@ -2575,7 +2575,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La sirena de mi alarma exterior se ha vuelto demasiado débil',
       it: 'La sirena del mio allarme esterno è diventata troppo debole',
       nl: 'De sirene van mijn buitenalarm is te zwak geworden',
-      pl: 'Syrena mojego alarmu zewnętrznego stała się zbyt cicha',
+      pl: 'Syrena mojego alarmu zewnętrznego zrobiła się za cicha',
     },
   },
 
@@ -2595,7 +2595,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi robot aspirador se niega a cruzar umbrales por el sensor anticaída',
       it: 'Il mio robot aspirapolvere rifiuta di superare le soglie a causa del sensore anti-caduta',
       nl: 'Mijn robotstofzuiger weigert drempels over te steken vanwege de valsensor',
-      pl: 'Mój robot odkurzający nie chce przejeżdżać przez progi drzwi z powodu czujnika przepaści',
+      pl: 'Przez czujnik upadku mój robot odkurzający nie chce przejeżdżać przez progi',
     },
   },
   {
@@ -2625,7 +2625,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi aspirador lavador deja marcas blancas en las baldosas tras pasar',
       it: 'La mia lavapavimenti aspirante lascia aloni bianchi sulle piastrelle',
       nl: 'Mijn nat-droogzuiger laat witte strepen achter op de tegels',
-      pl: 'Mój odkurzacz mopujący zostawia białe smugi na płytkach po przejeździe',
+      pl: 'Mój odkurzacz myjący zostawia na płytkach białe smugi po umyciu',
     },
   },
   {
@@ -2639,7 +2639,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El depósito de agua limpia de mi aspirador lavador gotea al cargar',
       it: 'Il serbatoio dell\'acqua pulita della mia lavapavimenti perde durante la ricarica',
       nl: 'Het schoonwatertank van mijn nat-droogzuiger lekt tijdens het laden',
-      pl: 'Zbiornik czystej wody w moim odkurzaczu mopującym przecieka podczas ładowania',
+      pl: 'Zbiornik czystej wody w moim odkurzaczu myjącym przecieka podczas ładowania',
     },
   },
 
@@ -2655,7 +2655,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi robot limpiacristales deja una marca en el centro del cristal en cada pasada',
       it: 'Il mio robot lavavetri lascia un alone al centro del vetro a ogni passata',
       nl: 'Mijn raamreinigingsrobot laat elke keer een streep in het midden van het glas achter',
-      pl: 'Mój robot do mycia okien zostawia ślad na środku szyby przy każdym przejeździe',
+      pl: 'Mój robot do mycia okien za każdym razem zostawia smugę na środku szyby',
     },
   },
   {
@@ -2669,7 +2669,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La ventosa de mi robot limpiacristales pierde agarre y el aparato se desliza',
       it: 'La ventosa del mio robot lavavetri perde aderenza e il dispositivo scivola',
       nl: 'De zuignap van mijn raamrobot verliest grip en het apparaat glijdt weg',
-      pl: 'Przyssawka mojego robota do mycia okien traci siłę ssania i urządzenie zsuwa się',
+      pl: 'Przyssawka mojego robota do mycia okien słabnie i robot zsuwa się z szyby',
     },
   },
 
@@ -2699,7 +2699,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El indicador LED de mi aspirador escoba parpadea en rojo y no arranca',
       it: 'Il LED della mia scopa elettrica lampeggia rosso e il dispositivo non si accende',
       nl: 'De LED van mijn steelstofzuiger knippert rood en het apparaat start niet meer',
-      pl: 'Dioda LED w moim odkurzaczu pionowym miga na czerwono i urządzenie już się nie uruchamia',
+      pl: 'Dioda LED w moim odkurzaczu pionowym miga na czerwono, a odkurzacz nie chce się włączyć',
     },
   },
 
@@ -2745,7 +2745,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi centro de planchado escupe gotas marrones que manchan la ropa',
       it: 'La mia caldaia a vapore sputa gocce marroni che macchiano i tessuti',
       nl: 'Mijn stoomgenerator spuugt bruine druppels die vlekken op kleding achterlaten',
-      pl: 'Mój generator pary pryska brązowymi kroplami, które plamią pranie',
+      pl: 'Moja stacja parowa pluje brązowymi kroplami, które plamią ubrania',
     },
   },
   {
@@ -2759,7 +2759,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La suela de mi centro de planchado se pega a la tela y deja marcas brillantes',
       it: 'La piastra della mia caldaia a vapore si attacca al tessuto e lascia segni lucidi',
       nl: 'De zoolplaat van mijn stoomgenerator plakt aan de stof en laat glimmende afdrukken achter',
-      pl: 'Stopa mojego generatora pary przykleja się do tkaniny i zostawia lśniące ślady',
+      pl: 'Stopa mojej stacji parowej przykleja się do tkaniny i zostawia błyszczące ślady',
     },
   },
 
@@ -2775,7 +2775,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi lavavajillas conectado deja la vajilla empapada tras el ciclo de secado',
       it: 'La mia lavastoviglie smart lascia i piatti bagnati dopo il ciclo di asciugatura',
       nl: 'Mijn slimme vaatwasser laat de vaat drijfnat achter na het droogprogramma',
-      pl: 'Moja inteligentna zmywarka zostawia mokre naczynia po cyklu suszenia',
+      pl: 'Po suszeniu naczynia w mojej inteligentnej zmywarce są wciąż mokre',
     },
   },
   {
@@ -2789,7 +2789,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La pastilla de mi lavavajillas conectado no se disuelve y queda intacta',
       it: 'La pastiglia della mia lavastoviglie smart non si scioglie e resta intatta',
       nl: 'De vaatwastablet in mijn slimme vaatwasser lost niet op en blijft heel',
-      pl: 'Tabletka w mojej inteligentnej zmywarce się nie rozpuszcza i zostaje nietknięta',
+      pl: 'Tabletka w mojej inteligentnej zmywarce nie rozpuszcza się i zostaje w całości',
     },
   },
 
@@ -2819,7 +2819,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La goma de la puerta de mi lavadora conectada desprende un olor a humedad persistente',
       it: 'La guarnizione dell\'oblò della mia lavatrice smart emana un persistente odore di muffa',
       nl: 'De deurrubber van mijn slimme wasmachine geeft een aanhoudende muffe geur af',
-      pl: 'Uszczelka drzwiczek mojej inteligentnej pralki wydziela uporczywy zapach pleśni',
+      pl: 'Uszczelka drzwi mojej inteligentnej pralki cały czas śmierdzi stęchlizną',
     },
   },
 
@@ -2853,7 +2853,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Las cuchillas de mi robot cortacésped se desgastan anormalmente rápido y arrancan el césped',
       it: 'Le lame del mio robot tagliaerba si consumano troppo in fretta e strappano l\'erba',
       nl: 'De messen van mijn robotmaaier slijten abnormaal snel en scheuren het gras',
-      pl: 'Noże mojego robota koszącego zużywają się nienormalnie szybko, a trawa jest wyrywana',
+      pl: 'Noże mojego robota koszącego bardzo szybko się zużywają i wyrywają trawę',
     },
   },
 
@@ -2869,7 +2869,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi sistema de riego conectado se activa a la hora equivocada pese a la programación',
       it: 'Il mio sistema di irrigazione smart si attiva all\'ora sbagliata nonostante la programmazione',
       nl: 'Mijn slim irrigatiesysteem gaat op het verkeerde tijdstip aan ondanks de planning',
-      pl: 'Mój inteligentny system nawadniania włącza się o złej porze mimo ustawionego harmonogramu',
+      pl: 'Mój inteligentny system nawadniania włącza się o niewłaściwej godzinie mimo ustawionego harmonogramu',
     },
   },
   {
@@ -2883,7 +2883,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El sensor de humedad de mi riego conectado da valores absurdos',
       it: 'Il sensore di umidità del mio irrigatore smart fornisce valori completamente errati',
       nl: 'De vochtigheidssensor van mijn slimme irrigatie geeft compleet foute waarden',
-      pl: 'Czujnik wilgotności w moim inteligentnym nawadnianiu podaje absurdalne wartości',
+      pl: 'Czujnik wilgotności gleby w moim inteligentnym systemie nawadniania pokazuje nierealne wartości',
     },
   },
 
@@ -2913,7 +2913,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El panel solar de mi iluminación exterior ya no carga suficiente la batería',
       it: 'Il pannello solare della mia lampada esterna non carica più abbastanza la batteria',
       nl: 'Het zonnepaneel van mijn buitenlamp laadt de accu niet meer genoeg op',
-      pl: 'Panel słoneczny mojego oświetlenia zewnętrznego nie ładuje już wystarczająco baterii',
+      pl: 'Panel słoneczny mojego oświetlenia zewnętrznego za słabo ładuje akumulator',
     },
   },
 
@@ -2929,7 +2929,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El mando de mi portón conectado ha perdido mucho alcance',
       it: 'Il telecomando del mio cancello smart ha perso notevolmente portata',
       nl: 'De afstandsbediening van mijn slimme poort heeft sterk aan bereik verloren',
-      pl: 'Pilot do mojej inteligentnej bramy ma znacznie mniejszy zasięg',
+      pl: 'Zasięg pilota do mojej bramy z inteligentnym napędem mocno się zmniejszył',
     },
   },
   {
@@ -2943,7 +2943,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El motor de mi portón conectado fuerza y emite un ruido metálico chirriante',
       it: 'Il motore del mio cancello smart forza ed emette un rumore metallico stridente',
       nl: 'De motor van mijn slimme poort forceert en maakt een schurend metaalgeluid',
-      pl: 'Silnik mojej inteligentnej bramy pracuje z wysiłkiem i wydaje metaliczny zgrzyt',
+      pl: 'Silnik napędu mojej bramy pracuje z trudem i metalicznie zgrzyta',
     },
   },
 
@@ -2959,7 +2959,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi robot de piscina sube a la superficie y ya no se queda en el fondo',
       it: 'Il mio robot piscina sale in superficie e non resta più sul fondo',
       nl: 'Mijn zwembadrobot drijft naar het oppervlak en blijft niet meer op de bodem',
-      pl: 'Mój robot basenowy wypływa na powierzchnię i nie zostaje już na dnie basenu',
+      pl: 'Mój robot basenowy wypływa na powierzchnię i nie trzyma się dna',
     },
   },
   {
@@ -2973,7 +2973,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El filtro de mi robot de piscina se obstruye en menos de diez minutos de ciclo',
       it: 'Il filtro del mio robot piscina si intasa in meno di dieci minuti di ciclo',
       nl: 'Het filter van mijn zwembadrobot raakt binnen tien minuten verstopt',
-      pl: 'Filtr mojego robota basenowego zatyka się w niecałe dziesięć minut cyklu',
+      pl: 'Filtr mojego robota basenowego zatyka się po niecałych dziesięciu minutach pracy',
     },
   },
 
@@ -2989,7 +2989,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La llama de mi barbacoa conectada es irregular y causa puntos calientes',
       it: 'La fiamma del mio barbecue smart è irregolare e provoca punti caldi',
       nl: 'De vlam van mijn slimme barbecue brandt ongelijkmatig en veroorzaakt hete plekken',
-      pl: 'Płomień w moim inteligentnym grillu jest nierówny i powoduje gorące punkty',
+      pl: 'Płomień w moim inteligentnym grillu pali się nierówno i tworzy gorące punkty',
     },
   },
   {
@@ -3003,7 +3003,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El encendido electrónico de mi barbacoa conectada ya no enciende la llama',
       it: 'L\'accensione elettronica del mio barbecue smart non innesca più la fiamma',
       nl: 'De elektronische ontsteking van mijn slimme barbecue ontsteekt de vlam niet meer',
-      pl: 'Zapłon elektroniczny mojego inteligentnego grilla nie wywołuje już płomienia',
+      pl: 'Elektroniczny zapłon w moim inteligentnym grillu przestał zapalać płomień',
     },
   },
 
@@ -3019,7 +3019,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi estación de carga exterior muestra un indicador de error permanente',
       it: 'La mia stazione di ricarica esterna mostra una spia di errore permanente',
       nl: 'Mijn buitenlaadstation toont een permanent foutsignaal',
-      pl: 'Moja zewnętrzna stacja ładowania cały czas wyświetla kontrolkę błędu',
+      pl: 'W mojej przenośnej stacji zasilania cały czas świeci kontrolka błędu',
     },
   },
   {
@@ -3033,7 +3033,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi estación de carga exterior tarda el doble de lo previsto en cargar',
       it: 'La mia stazione di ricarica esterna impiega il doppio del tempo previsto',
       nl: 'Mijn buitenlaadstation doet er twee keer zo lang over als verwacht',
-      pl: 'Moja zewnętrzna stacja ładowania ładuje dwa razy dłużej, niż przewidziano',
+      pl: 'Moja przenośna stacja zasilania ładuje się dwa razy dłużej, niż powinna',
     },
   },
 
@@ -3063,7 +3063,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi alarma exterior se dispara en falsa alerta cada vez que sopla fuerte el viento',
       it: 'Il mio allarme esterno scatta in falso allarme ogni volta che tira forte vento',
       nl: 'Mijn buitenalarm gaat af als vals alarm zodra het hard waait',
-      pl: 'Mój alarm zewnętrzny włącza fałszywy alarm, gdy tylko mocno wieje wiatr',
+      pl: 'Mój alarm zewnętrzny włącza się fałszywie przy każdym silniejszym wietrze',
     },
   },
 
@@ -3097,7 +3097,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi termostato conectado corta la calefacción por la noche pese al programa nocturno',
       it: 'Il mio termostato smart spegne il riscaldamento di notte nonostante il programma notturno',
       nl: 'Mijn slimme thermostaat schakelt \'s nachts de verwarming uit ondanks het nachtprogramma',
-      pl: 'Mój inteligentny termostat wyłącza ogrzewanie w nocy mimo programu nocnego',
+      pl: 'Mój inteligentny termostat wyłącza w nocy ogrzewanie mimo ustawionego programu nocnego',
     },
   },
 
@@ -3113,7 +3113,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi contador de energía conectado muestra picos fantasma de consumo por la noche',
       it: 'Il mio contatore smart mostra picchi fantasma di consumo durante la notte',
       nl: 'Mijn slimme energiemeter toont \'s nachts fantoompieken in het verbruik',
-      pl: 'Mój inteligentny licznik energii pokazuje nocą fantomowe skoki zużycia',
+      pl: 'Mój miernik zużycia energii pokazuje w nocy nieistniejące skoki zużycia',
     },
   },
   {
@@ -3127,7 +3127,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El historial de consumo de mi contador conectado se borra tras cada actualización',
       it: 'Lo storico dei consumi del mio contatore smart si cancella dopo ogni aggiornamento',
       nl: 'De verbruikshistorie van mijn slimme meter wist zich na elke firmware-update',
-      pl: 'Historia zużycia w moim liczniku energii kasuje się po każdej aktualizacji',
+      pl: 'Po każdej aktualizacji mój miernik zużycia energii kasuje historię odczytów',
     },
   },
 
@@ -3143,7 +3143,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El micro-inversor de mi kit solar de balcón emite un pitido continuo',
       it: 'Il micro-inverter del mio kit solare da balcone emette un bip continuo',
       nl: 'De micro-omvormer van mijn balkonzonnepaneel piept continu',
-      pl: 'Mikroinwerter mojego zestawu fotowoltaicznego na balkon wydaje ciągły sygnał dźwiękowy',
+      pl: 'Mikrofalownik mojej elektrowni balkonowej cały czas piszczy',
     },
   },
   {
@@ -3157,7 +3157,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La app de mi kit solar de balcón muestra 0 W pese al pleno sol',
       it: 'L\'app del mio kit solare da balcone segna 0 W nonostante il pieno sole',
       nl: 'De app van mijn balkonzonnepaneel toont 0 W ondanks volle zon',
-      pl: 'Aplikacja mojego zestawu fotowoltaicznego na balkon pokazuje 0 W mimo pełnego słońca',
+      pl: 'Aplikacja mojej elektrowni balkonowej pokazuje 0 W mimo pełnego słońca',
     },
   },
 
@@ -3187,7 +3187,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi batería doméstica no reinyecta la energía almacenada en la red de la casa',
       it: 'La mia batteria domestica non reimmette l\'energia immagazzinata nella rete di casa',
       nl: 'Mijn thuisbatterij voert de opgeslagen energie niet terug naar het huisnet',
-      pl: 'Mój domowy magazyn energii nie oddaje zgromadzonej energii do sieci domowej',
+      pl: 'Mój domowy magazyn energii nie oddaje zgromadzonej energii do domowej instalacji',
     },
   },
 
@@ -3217,7 +3217,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Las escenas de iluminación guardadas en mi app ya no se activan',
       it: 'Le scene di illuminazione salvate nella mia app non si attivano più',
       nl: 'De verlichtingsscènes opgeslagen in mijn app worden niet meer geactiveerd',
-      pl: 'Zapisane w aplikacji sceny oświetlenia już się nie uruchamiają',
+      pl: 'Sceny oświetlenia zapisane w aplikacji przestały się uruchamiać',
     },
   },
 
@@ -3233,7 +3233,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi interruptor conectado tiene un retraso de respuesta de dos a tres segundos',
       it: 'Il mio interruttore smart ha un ritardo di risposta di due-tre secondi',
       nl: 'Mijn slimme schakelaar heeft een reactievertraging van twee tot drie seconden',
-      pl: 'Mój inteligentny włącznik reaguje z opóźnieniem dwóch–trzech sekund',
+      pl: 'Mój inteligentny włącznik reaguje dopiero po dwóch, trzech sekundach',
     },
   },
   {
@@ -3263,7 +3263,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi persiana conectada cambia los topes de recorrido por sí sola tras unas semanas',
       it: 'La mia tapparella smart modifica i finecorsa da sola dopo qualche settimana',
       nl: 'Mijn slim rolluik wijzigt na een paar weken zelf de eindposities',
-      pl: 'Moja inteligentna roleta sama zmienia położenia krańcowe po kilku tygodniach',
+      pl: 'W mojej inteligentnej rolecie po kilku tygodniach same rozregulowują się krańcówki',
     },
   },
   {
@@ -3277,7 +3277,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi persiana conectada vibra y hace un ruido anormal al cerrarse',
       it: 'La mia tapparella smart vibra e fa un rumore anomalo alla chiusura',
       nl: 'Mijn slim rolluik trilt en maakt een abnormaal geluid bij het sluiten',
-      pl: 'Moja inteligentna roleta wibruje i wydaje nienormalny dźwięk podczas zamykania',
+      pl: 'Moja inteligentna roleta wibruje i dziwnie hałasuje przy zamykaniu',
     },
   },
 
@@ -3307,7 +3307,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El historial de mediciones de mi sensor de aire conectado tiene huecos de datos',
       it: 'Lo storico delle misurazioni del mio sensore d\'aria smart presenta lacune nei dati',
       nl: 'De meetgeschiedenis van mijn slimme luchtsensor vertoont datagaten',
-      pl: 'Historia pomiarów mojego czujnika powietrza ma luki w danych',
+      pl: 'W historii pomiarów mojego czujnika jakości powietrza brakuje danych',
     },
   },
 
@@ -3323,7 +3323,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi detector de fugas de agua ya no activa la alerta sonora pese a la presencia de agua',
       it: 'Il mio rilevatore di perdite d\'acqua non attiva più l\'allarme acustico nonostante l\'acqua',
       nl: 'Mijn waterlekkagesensor activeert het geluidssignaal niet meer ondanks de aanwezigheid van water',
-      pl: 'Mój czujnik zalania nie włącza już alarmu dźwiękowego mimo obecności wody',
+      pl: 'Mój czujnik zalania nie włącza alarmu dźwiękowego, mimo że stoi w wodzie',
     },
   },
   {
@@ -3367,7 +3367,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Las automatizaciones programadas en mi hub domótico ya no se ejecutan',
       it: 'Le automazioni programmate sul mio hub domotico non si attivano più',
       nl: 'De geprogrammeerde automatiseringen op mijn domotica-hub worden niet meer geactiveerd',
-      pl: 'Automatyzacje zaprogramowane w moim hubie smart home już się nie uruchamiają',
+      pl: 'Automatyzacje zaprogramowane w moim hubie smart home przestały się uruchamiać',
     },
   },
 
@@ -3383,7 +3383,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi punto de carga hace saltar el diferencial en cuanto se conecta',
       it: 'La mia wallbox fa scattare il quadro elettrico appena viene collegata',
       nl: 'Mijn laadpaal laat de zekeringkast springen zodra hij wordt aangesloten',
-      pl: 'Moja ładowarka do samochodu elektrycznego (wallbox) wybija bezpiecznik w rozdzielnicy zaraz po podłączeniu',
+      pl: 'Mój wallbox wybija bezpiecznik zaraz po podłączeniu samochodu',
     },
   },
   {
@@ -3397,7 +3397,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La app de mi punto de carga muestra sesiones de carga fantasma',
       it: 'L\'app della mia wallbox mostra sessioni di ricarica fantasma',
       nl: 'De app van mijn laadpaal toont fantoomlaadbeurten',
-      pl: 'Aplikacja mojej ładowarki do samochodu elektrycznego (wallbox) pokazuje fantomowe sesje ładowania',
+      pl: 'Aplikacja mojego wallboxa pokazuje nieistniejące sesje ładowania',
     },
   },
 
@@ -3417,7 +3417,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El micrófono de mi videoportero crepita y la conversación es inaudible',
       it: 'Il microfono del mio videocitofono gracchia e rende la conversazione inudibile',
       nl: 'De microfoon van mijn videodeurbel kraakt waardoor het gesprek onhoorbaar is',
-      pl: 'Mikrofon w moim dzwonku wideo trzeszczy i rozmowa jest niezrozumiała',
+      pl: 'Mikrofon w moim dzwonku wideo trzeszczy i nie da się rozmawiać',
     },
   },
   {
@@ -3431,7 +3431,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El campo de visión de mi videoportero no cubre todo el rellano',
       it: 'Il campo visivo del mio videocitofono non copre tutto il pianerottolo',
       nl: 'Het gezichtsveld van mijn videodeurbel dekt niet de hele overloop',
-      pl: 'Pole widzenia mojego dzwonka wideo nie obejmuje całego podestu',
+      pl: 'Pole widzenia mojego dzwonka wideo nie obejmuje całego korytarza przed drzwiami',
     },
   },
 
@@ -3477,7 +3477,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El objetivo de mi cámara exterior se empaña por la mañana y la imagen es borrosa',
       it: 'L\'obiettivo della mia telecamera esterna si appanna al mattino e l\'immagine è sfocata',
       nl: 'De lens van mijn buitencamera beslaat \'s ochtends en het beeld is wazig',
-      pl: 'Obiektyw mojej kamery zewnętrznej paruje rano i obraz jest rozmyty',
+      pl: 'Obiektyw mojej kamery zewnętrznej rano zaparowuje i obraz jest nieostry',
     },
   },
   {
@@ -3491,7 +3491,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi cámara exterior envía la alerta de movimiento con treinta segundos de retraso',
       it: 'La mia telecamera esterna invia l\'avviso di movimento con trenta secondi di ritardo',
       nl: 'Mijn buitencamera stuurt de bewegingsmelding dertig seconden te laat',
-      pl: 'Moja kamera zewnętrzna wysyła alert o ruchu z trzydziestosekundowym opóźnieniem',
+      pl: 'Moja kamera zewnętrzna wysyła powiadomienie o ruchu z trzydziestosekundowym opóźnieniem',
     },
   },
 
@@ -3507,7 +3507,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi cerradura inteligente emite un ruido anormal de motor en cada apertura',
       it: 'La mia serratura smart emette un rumore anomalo del motore a ogni apertura',
       nl: 'Mijn slim slot maakt bij elke opening een abnormaal motorgeluid',
-      pl: 'Mój inteligentny zamek wydaje nienormalny dźwięk silnika przy każdym otwarciu',
+      pl: 'Silnik mojego inteligentnego zamka dziwnie hałasuje przy każdym otwieraniu',
     },
   },
   {
@@ -3537,7 +3537,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El retardo de armado de mi alarma conectada es demasiado corto y salta al salir',
       it: 'Il ritardo di attivazione del mio allarme smart è troppo breve e scatta mentre esco',
       nl: 'De inschakelvertraging van mijn slim alarm is te kort en het gaat af terwijl ik vertrek',
-      pl: 'Opóźnienie uzbrojenia mojego inteligentnego alarmu jest zbyt krótkie i alarm włącza się przy wychodzeniu',
+      pl: 'Mój inteligentny alarm ma za krótki czas na wyjście i włącza się, zanim wyjdę z domu',
     },
   },
   {
@@ -3567,7 +3567,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La prueba mensual de mi detector de humo conectado falla sin mensaje de error',
       it: 'Il test mensile del mio rilevatore di fumo smart fallisce senza messaggio di errore',
       nl: 'De maandelijkse test van mijn slimme rookmelder mislukt zonder foutmelding',
-      pl: 'Miesięczny test mojego inteligentnego czujnika dymu kończy się niepowodzeniem bez komunikatu o błędzie',
+      pl: 'Comiesięczny test mojego inteligentnego czujnika dymu kończy się niepowodzeniem bez żadnego komunikatu',
     },
   },
   {
@@ -3581,7 +3581,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi detector de CO conectado muestra ppm altos aunque la caldera está apagada',
       it: 'Il mio rilevatore di CO smart mostra ppm alti anche se la caldaia è spenta',
       nl: 'Mijn slimme CO-melder toont hoge ppm-waarden terwijl de ketel uit staat',
-      pl: 'Mój inteligentny czujnik czadu pokazuje wysokie ppm, choć kocioł jest wyłączony',
+      pl: 'Mój inteligentny czujnik czadu pokazuje wysokie stężenie (ppm), choć kocioł jest wyłączony',
     },
   },
 
@@ -3641,7 +3641,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El tono de localización de mi rastreador es demasiado débil para oírlo desde otra habitación',
       it: 'La suoneria di localizzazione del mio tracker è troppo debole per sentirla da un\'altra stanza',
       nl: 'De lokalisatietoon van mijn tracker is te zwak om in een andere kamer te horen',
-      pl: 'Sygnał dźwiękowy lokalizacji mojego lokalizatora jest zbyt cichy, by usłyszeć go w innym pokoju',
+      pl: 'Mój lokalizator piszczy zbyt cicho, by usłyszeć go z innego pokoju',
     },
   },
 
@@ -3657,7 +3657,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La imagen de vídeo de mi interfono conectado está pixelada y entrecortada',
       it: 'L\'immagine video del mio citofono smart è pixelata e a scatti',
       nl: 'Het videobeeld van mijn slimme intercom is gepixeld en schokkerig',
-      pl: 'Obraz wideo z mojego inteligentnego domofonu jest pikselowany i się zacina',
+      pl: 'Obraz z mojego inteligentnego wideodomofonu jest rozpikselowany i się zacina',
     },
   },
   {
@@ -3671,7 +3671,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La cerradura eléctrica controlada por mi interfono conectado ya no abre a distancia',
       it: 'L\'apriporta elettrico comandato dal mio citofono smart non si apre più a distanza',
       nl: 'De elektrische deuropener bestuurd door mijn slimme intercom opent niet meer op afstand',
-      pl: 'Elektrozaczep sterowany przez mój inteligentny domofon nie otwiera się już zdalnie',
+      pl: 'Elektrozaczep sterowany przez mój inteligentny wideodomofon przestał otwierać się zdalnie',
     },
   },
 
@@ -3735,7 +3735,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El sensor PM2.5 de mi purificador de aire muestra valores que derivan con el tiempo',
       it: 'Il sensore PM2.5 del mio purificatore d\'aria mostra valori che derivano col tempo',
       nl: 'De PM2.5-sensor van mijn luchtreiniger toont waarden die mettertijd afdrijven',
-      pl: 'Czujnik PM2.5 w moim oczyszczaczu powietrza pokazuje wartości, które z czasem się rozjeżdżają',
+      pl: 'Czujnik PM2.5 w moim oczyszczaczu powietrza z czasem pokazuje coraz mniej dokładne wartości',
     },
   },
 
@@ -3751,7 +3751,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi humidificador conectado crea un charco de agua debajo del aparato cada noche',
       it: 'Il mio umidificatore smart crea una pozza d\'acqua sotto l\'apparecchio ogni notte',
       nl: 'Mijn slimme luchtbevochtiger vormt elke nacht een plas water onder het apparaat',
-      pl: 'Mój inteligentny nawilżacz tworzy co noc kałużę pod urządzeniem',
+      pl: 'Pod moim inteligentnym nawilżaczem co noc pojawia się kałuża',
     },
   },
   {
@@ -3795,7 +3795,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi deshumidificador conectado muestra la alarma de depósito lleno aunque está vacío',
       it: 'Il mio deumidificatore smart mostra l\'allarme serbatoio pieno anche se è vuoto',
       nl: 'Mijn slimme ontvochtiger toont het bak-vol-alarm terwijl de bak leeg is',
-      pl: 'Mój inteligentny osuszacz pokazuje alarm pełnego zbiornika, choć zbiornik jest pusty',
+      pl: 'Mój inteligentny osuszacz sygnalizuje pełny zbiornik, choć zbiornik jest pusty',
     },
   },
 
@@ -3825,7 +3825,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El mando a distancia de mi aire acondicionado portátil conectado ya no funciona en absoluto',
       it: 'Il telecomando del mio condizionatore portatile smart non funziona più per niente',
       nl: 'De afstandsbediening van mijn slimme mobiele airco werkt helemaal niet meer',
-      pl: 'Pilot mojego inteligentnego klimatyzatora przenośnego w ogóle nie działa',
+      pl: 'Pilot do mojego inteligentnego klimatyzatora przenośnego zupełnie przestał działać',
     },
   },
 
@@ -3841,7 +3841,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La función de oscilación de mi ventilador conectado se ha quedado bloqueada a un lado',
       it: 'La funzione di oscillazione del mio ventilatore smart è bloccata da un lato',
       nl: 'De oscillatiefunctie van mijn slimme ventilator zit vast aan één kant',
-      pl: 'Funkcja oscylacji w moim inteligentnym wentylatorze zablokowała się po jednej stronie',
+      pl: 'Oscylacja w moim inteligentnym wentylatorze zacięła się w jednym położeniu',
     },
   },
   {
@@ -3855,7 +3855,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi ventilador conectado emite un zumbido grave a velocidad máxima',
       it: 'Il mio ventilatore smart produce un ronzio sordo alla velocità massima',
       nl: 'Mijn slimme ventilator produceert een laag gebrom op maximale snelheid',
-      pl: 'Mój inteligentny wentylator wydaje głuche buczenie na maksymalnej prędkości',
+      pl: 'Mój inteligentny wentylator głucho buczy na najwyższym biegu',
     },
   },
 
@@ -3871,7 +3871,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi calefactor de apoyo conectado calienta tres grados por encima de la consigna',
       it: 'Il mio riscaldatore ausiliario smart scalda tre gradi sopra la temperatura impostata',
       nl: 'Mijn slimme bijverwarming verwarmt drie graden boven het ingestelde punt',
-      pl: 'Mój inteligentny grzejnik elektryczny grzeje o trzy stopnie powyżej wyświetlanej temperatury zadanej',
+      pl: 'Mój inteligentny grzejnik elektryczny grzeje o trzy stopnie powyżej temperatury ustawionej na wyświetlaczu',
     },
   },
   {
@@ -3885,7 +3885,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El ventilador de mi calefactor conectado ya no gira y el aparato se sobrecalienta',
       it: 'La ventola del mio riscaldatore smart non gira più e il dispositivo si surriscalda',
       nl: 'De ventilator van mijn slimme bijverwarming draait niet meer en het apparaat wordt oververhit',
-      pl: 'Wentylator w moim inteligentnym grzejniku elektrycznym przestał się obracać i urządzenie się przegrzewa',
+      pl: 'Wentylator w moim inteligentnym grzejniku elektrycznym przestał się kręcić, a urządzenie się przegrzewa',
     },
   },
 
@@ -3901,7 +3901,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El pluviómetro de mi estación meteorológica conectada está obstruido y no registra la lluvia',
       it: 'Il pluviometro della mia stazione meteo smart è intasato e non registra più la pioggia',
       nl: 'De regenmeter van mijn slim weerstation is verstopt en registreert geen regen meer',
-      pl: 'Deszczomierz mojej inteligentnej stacji pogodowej jest zatkany i nie rejestruje deszczu',
+      pl: 'Deszczomierz mojej inteligentnej stacji pogodowej jest zatkany i nie mierzy opadów',
     },
   },
   {
@@ -3915,7 +3915,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El anemómetro de mi estación meteorológica conectada está bloqueado y marca siempre 0 km/h',
       it: 'L\'anemometro della mia stazione meteo smart è bloccato e segna sempre 0 km/h',
       nl: 'De windmeter van mijn slim weerstation zit vast en toont altijd 0 km/u',
-      pl: 'Anemometr mojej inteligentnej stacji pogodowej jest zablokowany i zawsze pokazuje 0 km/h',
+      pl: 'Anemometr mojej inteligentnej stacji pogodowej się zaciął i cały czas pokazuje 0 km/h',
     },
   },
 
@@ -3931,7 +3931,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El depósito de mi difusor conectado gotea por la base y mancha el mueble',
       it: 'Il serbatoio del mio diffusore smart perde dalla base e macchia il mobile',
       nl: 'Het reservoir van mijn slimme diffuser lekt bij de basis en vlekt het meubel',
-      pl: 'Zbiornik mojego inteligentnego dyfuzora przecieka przy podstawie i plami mebel',
+      pl: 'Zbiornik mojego inteligentnego dyfuzora cieknie przy podstawie i zostawia plamy na meblu',
     },
   },
   {
@@ -3945,7 +3945,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'El temporizador de mi difusor conectado no apaga el aparato a la hora prevista',
       it: 'Il timer del mio diffusore smart non spegne l\'apparecchio all\'ora prevista',
       nl: 'De timer van mijn slimme diffuser schakelt het apparaat niet uit op het geplande tijdstip',
-      pl: 'Wyłącznik czasowy mojego inteligentnego dyfuzora nie wyłącza urządzenia o zaplanowanej porze',
+      pl: 'Mój inteligentny dyfuzor nie wyłącza się o godzinie ustawionej w timerze',
     },
   },
 
@@ -3961,7 +3961,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La simulación de amanecer de mi despertador de luz pasa de 0 a 100 % en segundos en lugar de treinta minutos',
       it: 'La simulazione dell\'alba della mia sveglia luminosa passa da 0 a 100 % in pochi secondi anziché trenta minuti',
       nl: 'De zonsopgangsimulatie van mijn lichtwekker springt in seconden van 0 naar 100 % in plaats van dertig minuten',
-      pl: 'Symulacja wschodu słońca w moim budziku świetlnym przechodzi od 0 do 100% w kilka sekund zamiast w trzydzieści minut',
+      pl: 'Symulacja świtu w moim budziku świetlnym dochodzi od 0 do 100% w kilka sekund zamiast w trzydzieści minut',
     },
   },
   {
@@ -3975,7 +3975,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'La radio FM de mi despertador de luz conectado crepita y pierde la frecuencia',
       it: 'La radio FM della mia sveglia luminosa smart gracchia e perde la frequenza',
       nl: 'De FM-radio van mijn slimme lichtwekker kraakt en verliest de frequentie',
-      pl: 'Radio FM w moim inteligentnym budziku świetlnym trzeszczy i gubi częstotliwość',
+      pl: 'Radio FM w moim inteligentnym budziku świetlnym trzeszczy i gubi stację',
     },
   },
 
@@ -3991,7 +3991,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi cortina automatizada se descuelga del riel tras unas semanas de uso',
       it: 'La mia tenda automatizzata si stacca dalla guida dopo poche settimane di utilizzo',
       nl: 'Mijn gemotoriseerd gordijn laat na een paar weken gebruik los van de rail',
-      pl: 'Moja automatyczna zasłona odczepia się od szyny po kilku tygodniach użytkowania',
+      pl: 'Po kilku tygodniach używania moja automatyczna zasłona wypada z szyny',
     },
   },
   {
@@ -4005,7 +4005,7 @@ export const PROBLEMS: readonly Problem[] = [
       es: 'Mi cortina automatizada no se cierra del todo y deja un hueco de diez centímetros',
       it: 'La mia tenda automatizzata non si chiude completamente e lascia un\'apertura di dieci centimetri',
       nl: 'Mijn gemotoriseerd gordijn sluit niet helemaal en laat een opening van tien centimeter',
-      pl: 'Moja automatyczna zasłona nie zamyka się całkowicie i zostawia szczelinę dziesięciu centymetrów',
+      pl: 'Moja automatyczna zasłona nie zasuwa się do końca i zostawia dziesięciocentymetrową szparę',
     },
   },
 ] as const

@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: 'Descubre cómo elegir la freidora de aire ideal según el tamaño de tu familia, tu presupuesto y tus necesidades. Comparativa de capacidades, funcionalidades y mejores modelos 2026.',
     it: 'Scopri come scegliere la friggitrice ad aria ideale in base alle dimensioni della tua famiglia, al budget e alle esigenze. Confronto di capacità, funzionalità e migliori modelli 2026.',
     nl: 'Ontdek hoe je de ideale airfryer kiest op basis van je gezinsgrootte, budget en behoeften. Vergelijking van capaciteiten, functies en beste modellen van 2026.',
-    pl: 'Dowiedz się, jak wybrać idealną frytkownicę beztłuszczową do wielkości rodziny, budżetu i potrzeb. Porównanie pojemności, funkcji i najlepszych modeli 2026.',
+    pl: 'Jak dobrać frytkownicę beztłuszczową do liczby domowników, budżetu i potrzeb? Porównujemy pojemności, funkcje i najlepsze modele 2026 roku.',
   },
   content: {
     fr: `<h2>Pourquoi le choix d'un airfryer familial ne s'improvise pas</h2>
@@ -771,171 +771,171 @@ export const article: BlogArticle = {
 <tr><td>6+ personen</td><td>8,3L + oven</td><td>2.200 W</td><td>Philips Airfryer Combi XXL Connected</td><td>Topklasse</td></tr>
 </tbody>
 </table>`,
-    pl: `<h2>Dlaczego wybór rodzinnej frytkownicy beztłuszczowej wymaga namysłu</h2>
-<p>Kupno frytkownicy beztłuszczowej (air fryer) dla czteroosobowej rodziny to zupełnie co innego niż dla pary. Pojemność kosza, moc, funkcje i budżet różnią się znacznie w zależności od realnych potrzeb. Oferta w 2026 roku jest bardzo szeroka i łatwo się pomylić, jeśli nie wiadomo dokładnie, na co patrzeć.</p>
-<p>Ten poradnik prowadzi Cię krok po kroku przez wybór, z konkretnymi rekomendacjami opartymi na wielkości Twojego gospodarstwa, nawykach kuchennych i budżecie. Nasze rekomendacje opierają się na kartach technicznych producentów, niezależnych ocenach i opiniach zweryfikowanych kupujących.</p>
+    pl: `<h2>Dlaczego wybór frytkownicy beztłuszczowej dla rodziny wymaga namysłu</h2>
+<p>Frytkownica beztłuszczowa (air fryer) dla czteroosobowej rodziny i frytkownica dla pary to dwa zupełnie różne zakupy. Odpowiednia pojemność kosza, moc, funkcje i budżet zależą od tego, czego naprawdę potrzebujesz. W 2026 roku wybór jest ogromny i łatwo o pomyłkę, jeśli nie wiesz dokładnie, na co zwracać uwagę.</p>
+<p>Ten poradnik przeprowadzi Cię przez wybór krok po kroku i podpowie konkretne rozwiązania dopasowane do liczby domowników, kulinarnych przyzwyczajeń i budżetu. Nasze rekomendacje opieramy na kartach katalogowych producentów, niezależnych ocenach i opiniach zweryfikowanych kupujących.</p>
 
-<h2>Krok 1: Ustal idealną pojemność dla swojej rodziny</h2>
-<p>Pojemność to kryterium numer jeden. Zbyt mały kosz zmusi Cię do gotowania w kilku partiach, co niweluje przewagę szybkości frytkownicy. Z kolei zbyt duży model zużyje więcej energii i zajmie więcej miejsca na blacie.</p>
+<h2>Krok 1: dobierz pojemność do wielkości rodziny</h2>
+<p>Pojemność to kryterium numer jeden. Za mały kosz zmusi Cię do przygotowywania jedzenia na raty, a wtedy frytkownica traci swoją największą zaletę – szybkość. Z kolei za duży model zużyje więcej energii i zajmie więcej miejsca na blacie.</p>
 
 <h3>Tabela zalecanych pojemności</h3>
 <table>
 <thead>
-<tr><th>Wielkość gospodarstwa</th><th>Zalecana pojemność</th><th>Przykładowa porcja</th><th>Polecane modele</th></tr>
+<tr><th>Liczba domowników</th><th>Zalecana pojemność</th><th>Przykładowa porcja</th><th>Polecane modele</th></tr>
 </thead>
 <tbody>
-<tr><td>1–2 osoby</td><td>2 do 4 litrów</td><td>400 g frytek, 2 udka kurczaka</td><td>Xiaomi Smart Air Fryer Pro 4L</td></tr>
-<tr><td>3–4 osoby</td><td>4,5 do 6 litrów</td><td>800 g frytek, 4 podudzia kurczaka</td><td>Philips Airfryer 3000 XL, Cosori Dual Blaze</td></tr>
-<tr><td>5–6 osób</td><td>6 do 8 litrów</td><td>1,2 kg frytek, średni cały kurczak</td><td>Ninja Foodi MAX Dual Zone</td></tr>
+<tr><td>1–2 osoby</td><td>2–4 litry</td><td>400 g frytek, 2 udka z kurczaka</td><td>Xiaomi Smart Air Fryer Pro 4L</td></tr>
+<tr><td>3–4 osoby</td><td>4,5–6 litrów</td><td>800 g frytek, 4 podudzia z kurczaka</td><td>Philips Airfryer 3000 XL, Cosori Dual Blaze</td></tr>
+<tr><td>5–6 osób</td><td>6–8 litrów</td><td>1,2 kg frytek, cały kurczak średniej wielkości</td><td>Ninja Foodi MAX Dual Zone</td></tr>
 <tr><td>6+ osób</td><td>8 litrów i więcej</td><td>1,5 kg frytek, duży pieczony kurczak</td><td>Ninja Foodi FlexDrawer, Philips Combi XXL</td></tr>
 </tbody>
 </table>
 
-<p><strong>Praktyczna zasada:</strong> licz około 1,5 litra pojemności na osobę przy frytkach i 2 litry na osobę, jeśli regularnie przygotowujesz całe kawałki mięsa.</p>
+<p><strong>Praktyczna zasada:</strong> przy frytkach licz około 1,5 litra pojemności na osobę, a jeśli często pieczesz większe kawałki mięsa w całości – 2 litry na osobę.</p>
 
 <h3>Jeden kosz czy dwa?</h3>
-<p>Dla rodzin czteroosobowych i większych <a href="/pl/blog/airfryer-simple-vs-double-panier">frytkownica beztłuszczowa z dwoma koszami</a> daje ogromną przewagę: możesz jednocześnie przygotować danie główne i dodatek. Na przykład nuggetsy w jednej komorze, a grillowane warzywa w drugiej, w różnych temperaturach i czasach.</p>
-<p>Ninja Foodi MAX Dual Zone (zobacz nasz <a href="/pl/blog/test-ninja-foodi-max-dual-zone">szczegółowy opis</a>) i jego wersja z szufladami umieszczonymi jedna nad drugą, Ninja Foodi MAX Double Stack XL, to wzorce w tej kategorii, z dwiema strefami po 4,75 litra każda.</p>
+<p>W rodzinie liczącej cztery osoby lub więcej <a href="/pl/blog/airfryer-simple-vs-double-panier">frytkownica z dwoma koszami</a> to duże ułatwienie: danie główne i dodatek przygotujesz jednocześnie. Na przykład nuggetsy w jednym koszu, a grillowane warzywa w drugim – każde w innej temperaturze i przez inny czas.</p>
+<p>Ninja Foodi MAX Dual Zone (zobacz nasze <a href="/pl/blog/test-ninja-foodi-max-dual-zone">szczegółowe omówienie</a>) i jego wersja z szufladami ustawionymi jedna na drugiej, Ninja Foodi MAX Double Stack XL, należą do najważniejszych modeli w tej kategorii – oba mają dwie strefy po 4,75 litra.</p>
 
-<h2>Krok 2: Moc, kryterium często niedoceniane</h2>
-<p>Moc w watach decyduje o szybkości nagrzewania i skuteczności smażenia. Model o zbyt małej mocy dłużej osiąga temperaturę i daje mniej chrupiące rezultaty.</p>
+<h2>Krok 2: moc – często niedoceniany parametr</h2>
+<p>Moc, podawana w watach, decyduje o tym, jak szybko urządzenie się nagrzewa i jak skutecznie smaży. Model o zbyt małej mocy dłużej dochodzi do zadanej temperatury, a potrawy wychodzą mniej chrupiące.</p>
 
 <h3>Zalecana moc w zależności od pojemności</h3>
 <table>
 <thead>
-<tr><th>Pojemność</th><th>Minimalna moc</th><th>Idealna moc</th></tr>
+<tr><th>Pojemność</th><th>Minimalna moc</th><th>Optymalna moc</th></tr>
 </thead>
 <tbody>
 <tr><td>2–3 litry</td><td>1000 W</td><td>1200–1400 W</td></tr>
 <tr><td>4–5 litrów</td><td>1400 W</td><td>1600–1800 W</td></tr>
 <tr><td>6–8 litrów</td><td>1700 W</td><td>1800–2200 W</td></tr>
-<tr><td>8+ litrów</td><td>2000 W</td><td>2200–2500 W</td></tr>
+<tr><td>Ponad 8 litrów</td><td>2000 W</td><td>2200–2500 W</td></tr>
 </tbody>
 </table>
 
-<p><strong>Uwaga:</strong> wysoka moc nie oznacza nadmiernego zużycia energii. Frytkownica 2200 W, która przygotuje jedzenie w 15 minut, zużyje mniej niż model 1400 W potrzebujący 25 minut na ten sam efekt. Więcej na ten temat znajdziesz w naszym poradniku o <a href="/pl/blog/airfryer-economies-energie">oszczędzaniu energii z frytkownicą beztłuszczową</a>.</p>
+<p><strong>Uwaga:</strong> duża moc nie oznacza nadmiernego zużycia prądu. Frytkownica o mocy 2200 W, która przygotuje potrawę w 15 minut, zużyje mniej energii niż model 1400 W, który potrzebuje na to samo 25 minut. Więcej na ten temat znajdziesz w naszym poradniku o <a href="/pl/blog/airfryer-economies-energie">oszczędzaniu energii dzięki frytkownicy beztłuszczowej</a>.</p>
 
-<h2>Krok 3: Funkcje, które naprawdę się liczą</h2>
-<p>W obliczu mnożenia się marketingowych funkcji warto odróżnić te naprawdę użyteczne od zbędnych gadżetów.</p>
+<h2>Krok 3: funkcje, które naprawdę się liczą</h2>
+<p>Producenci prześcigają się w marketingowych nowinkach, dlatego warto oddzielić funkcje naprawdę przydatne od zbędnych gadżetów.</p>
 
-<h3>Funkcje podstawowe (wymagaj ich)</h3>
+<h3>Funkcje niezbędne (absolutne minimum)</h3>
 <ul>
-<li><strong>Timer z automatycznym wyłączeniem:</strong> niezbędny dla bezpieczeństwa i wygody. W 2026 roku mają go wszystkie godne uwagi modele.</li>
-<li><strong>Regulowany termostat:</strong> minimum od 80°C do 200°C. Niektóre modele sięgają 230°C, co pozwala zrumienić mięso.</li>
-<li><strong>Zdejmowany kosz z powłoką nieprzywierającą:</strong> znacznie ułatwia czyszczenie. Sprawdź, czy można go myć w zmywarce.</li>
-<li><strong>Przypomnienie o potrząśnięciu:</strong> sygnał dźwiękowy w połowie smażenia, aby przewrócić jedzenie. Proste, ale bardzo przydatne przy równomiernie złocistych frytkach.</li>
+<li><strong>Timer z automatycznym wyłączaniem:</strong> niezbędny ze względów bezpieczeństwa i dla wygody. W 2026 roku ma go każdy model wart uwagi.</li>
+<li><strong>Regulacja temperatury:</strong> co najmniej w zakresie 80–200 °C. Niektóre modele osiągają 230 °C, co pozwala mocno obsmażyć mięso.</li>
+<li><strong>Wyjmowany kosz z powłoką nieprzywierającą:</strong> znacznie ułatwia czyszczenie. Sprawdź, czy można go myć w zmywarce.</li>
+<li><strong>Przypomnienie o potrząśnięciu koszem:</strong> sygnał dźwiękowy w połowie smażenia, że czas przewrócić jedzenie. Prosta rzecz, a bardzo pomaga uzyskać równomiernie złociste frytki.</li>
 </ul>
 
-<h3>Funkcje bardzo przydatne (zalecane)</h3>
+<h3>Funkcje bardzo przydatne (warto je mieć)</h3>
 <ul>
-<li><strong>Zaprogramowane programy smażenia:</strong> od 8 do 12 programów obejmujących frytki, kurczaka, rybę, warzywa itd. Prawdziwa oszczędność czasu dla początkujących.</li>
-<li><strong>Podwójna strefa smażenia:</strong> dla rodzin 4+ osób jest to niemal niezbędne. Zajrzyj do naszego <a href="/pl/blog/airfryer-simple-vs-double-panier">porównania jednego i dwóch koszy</a>.</li>
-<li><strong>Funkcja utrzymywania ciepła:</strong> przydatna, gdy nie wszyscy jedzą jednocześnie.</li>
-<li><strong>Okienko podglądu:</strong> pozwala obserwować smażenie bez otwierania szuflady i tracenia ciepła.</li>
+<li><strong>Gotowe programy:</strong> 8–12 programów do frytek, kurczaka, ryb, warzyw itd. Dla początkujących to realna oszczędność czasu.</li>
+<li><strong>Dwie strefy pieczenia:</strong> w rodzinie od czterech osób to niemal konieczność. Zajrzyj do naszego <a href="/pl/blog/airfryer-simple-vs-double-panier">porównania frytkownic z jednym i dwoma koszami</a>.</li>
+<li><strong>Podtrzymywanie ciepła:</strong> przydaje się, gdy domownicy nie jedzą o jednej porze.</li>
+<li><strong>Okienko:</strong> pozwala kontrolować smażenie bez wysuwania szuflady i utraty ciepła.</li>
 </ul>
 
-<h3>Funkcje opcjonalne (bonus)</h3>
+<h3>Funkcje opcjonalne (miły dodatek)</h3>
 <ul>
-<li><strong>Łączność Wi-Fi / aplikacja:</strong> przydatna do przepisów prowadzących krok po kroku, ale niekonieczna.</li>
-<li><strong>Funkcja dehydratora:</strong> ciekawa, jeśli robisz suszone owoce lub jerky, ale rzadko używana na co dzień.</li>
-<li><strong>Funkcja rożna:</strong> pozwala piec całego kurczaka na obracającym się rożnie. Dostępna tylko w niektórych wielofunkcyjnych piekarnikach z wyższej półki.</li>
+<li><strong>Wi-Fi i aplikacja:</strong> przydają się, jeśli chcesz korzystać z przepisów krok po kroku, ale nie są niezbędne.</li>
+<li><strong>Suszenie:</strong> ciekawa funkcja, jeśli robisz suszone owoce lub jerky, ale na co dzień rzadko używana.</li>
+<li><strong>Rożen:</strong> pozwala upiec całego kurczaka na obracającym się rożnie. Mają go tylko niektóre wielofunkcyjne piekarniki z wyższej półki.</li>
 </ul>
 
-<h2>Krok 4: Określ swój budżet</h2>
-<p>Frytkownice beztłuszczowe dzielą się na trzy główne przedziały. Zamiast celować w konkretną kwotę, określ przedział odpowiadający Twojemu sposobowi użytkowania.</p>
+<h2>Krok 4: ustal budżet</h2>
+<p>Frytkownice można podzielić na trzy półki cenowe. Zamiast zakładać konkretną kwotę, sprawdź, która półka odpowiada temu, jak zamierzasz z urządzenia korzystać.</p>
 <table>
 <thead>
-<tr><th>Przedział</th><th>Co dostajesz</th><th>Dla kogo?</th></tr>
+<tr><th>Półka cenowa</th><th>Co dostajesz</th><th>Dla kogo?</th></tr>
 </thead>
 <tbody>
-<tr><td>Podstawowy</td><td>Kompaktowy model 2–4 l, podstawowe funkcje</td><td>Student, para bez dzieci, okazjonalne użycie</td></tr>
-<tr><td>Średni</td><td>Model 5–7 l lub z dwoma koszami, zaprogramowane programy, znane marki</td><td>Rodzina 3–5 osób, regularne użycie</td></tr>
-<tr><td>Wyższy</td><td>Duży model XXL lub z dwiema strefami, połączony z siecią, wielofunkcyjny</td><td>Duża rodzina, codzienne użycie, pasjonaci gotowania</td></tr>
+<tr><td>Niższa</td><td>Kompaktowy model 2–4 l, podstawowe funkcje</td><td>Student, para bez dzieci, sporadyczne używanie</td></tr>
+<tr><td>Średnia</td><td>Model 5–7 l lub z dwoma koszami, gotowe programy, znane marki</td><td>Rodzina 3–5-osobowa, regularne używanie</td></tr>
+<tr><td>Wyższa</td><td>Duży model XXL lub z dwiema strefami, z Wi-Fi, wielofunkcyjny</td><td>Duża rodzina, codzienne używanie, miłośnicy gotowania</td></tr>
 </tbody>
 </table>
 
-<p><strong>Nasza rada:</strong> dla czteroosobowej rodziny regularnie korzystającej z urządzenia średni przedział zwykle daje najlepszą równowagę między pojemnością, wykonaniem i trwałością. Jeśli budżet jest napięty, zajrzyj do naszego zestawienia <a href="/pl/blog/meilleur-airfryer-petit-budget">najlepszych frytkownic beztłuszczowych w niskiej cenie</a>.</p>
+<p><strong>Nasza rada:</strong> jeśli czteroosobowa rodzina będzie z frytkownicy korzystać regularnie, średnia półka zwykle zapewnia najlepszy kompromis między pojemnością, jakością wykonania i trwałością. Przy napiętym budżecie zajrzyj do naszego zestawienia <a href="/pl/blog/meilleur-airfryer-petit-budget">najlepszych tanich frytkownic beztłuszczowych</a>.</p>
 
-<h2>Krok 5: Gabaryty i wygląd</h2>
-<p>Rodzinna frytkownica beztłuszczowa zajmuje miejsce. Przed zakupem zmierz wolną przestrzeń na blacie i sprawdź, czy wybrany model się zmieści.</p>
+<h2>Krok 5: gabaryty i wygląd</h2>
+<p>Frytkownica dla rodziny zajmuje sporo miejsca. Przed zakupem zmierz wolną przestrzeń na blacie i sprawdź, czy wybrany model się na niej zmieści.</p>
 
-<h3>Średnie wymiary według kategorii</h3>
+<h3>Typowe wymiary w poszczególnych kategoriach</h3>
 <ul>
-<li><strong>Modele kompaktowe (2–4 l):</strong> około 30 x 25 x 30 cm. Łatwo schować w szafce.</li>
-<li><strong>Modele standardowe (4–6 l):</strong> około 35 x 30 x 35 cm. Zwykle zostają na blacie.</li>
-<li><strong>Modele XL/XXL (6–8 l):</strong> około 40 x 35 x 35 cm. Wymagają stałego, wydzielonego miejsca.</li>
-<li><strong>Modele z dwoma koszami (7–10 l):</strong> około 45 x 35 x 35 cm. Najbardziej zajmujące miejsce, ale też najbardziej wszechstronne.</li>
+<li><strong>Modele kompaktowe (2–4 l):</strong> ok. 30 × 25 × 30 cm. Łatwo je schować do szafki.</li>
+<li><strong>Modele standardowe (4–6 l):</strong> ok. 35 × 30 × 35 cm. Zwykle stoją na stałe na blacie.</li>
+<li><strong>Modele XL/XXL (6–8 l):</strong> ok. 40 × 35 × 35 cm. Potrzebują stałego, osobnego miejsca.</li>
+<li><strong>Modele z dwoma koszami (7–10 l):</strong> ok. 45 × 35 × 35 cm. Zajmują najwięcej miejsca, ale są też najbardziej wszechstronne.</li>
 </ul>
 
-<p><strong>Wskazówka:</strong> pomyśl też o wolnej przestrzeni z tyłu (co najmniej 10 cm) dla wentylacji. Frytkownice beztłuszczowe wydmuchują gorące powietrze z tyłu i nie powinny stać przy samej ścianie.</p>
+<p><strong>Wskazówka:</strong> zostaw też z tyłu co najmniej 10 cm wolnego miejsca na wentylację. Frytkownice wydmuchują gorące powietrze do tyłu, więc nie mogą stać tuż przy ścianie.</p>
 
-<h2>Krok 6: Łatwość czyszczenia</h2>
-<p>Przy codziennym rodzinnym użytkowaniu czyszczenie staje się kryterium decydującym. Frytkownica, którą trudno wyczyścić, wyląduje na dnie szafki.</p>
+<h2>Krok 6: łatwe czyszczenie</h2>
+<p>Gdy frytkownica pracuje codziennie dla całej rodziny, łatwe czyszczenie staje się kluczowe. Urządzenie, które trudno doczyścić, szybko wyląduje na dnie szafki.</p>
 <ul>
-<li><strong>Zdejmowany kosz nadający się do zmywarki:</strong> sprawdź to w pierwszej kolejności. Większość nowszych modeli to oferuje.</li>
-<li><strong>Dobra powłoka nieprzywierająca:</strong> oszczędzaj ją, używając silikonowych lub drewnianych przyborów i unikając szorstkich gąbek, aby wydłużyć jej żywotność.</li>
-<li><strong>Dostęp do grzałki:</strong> niektóre modele pozwalają łatwo dostać się do grzałki i ją wyczyścić.</li>
-<li><strong>Szuflada na okruchy:</strong> drobiazg, który bardzo ułatwia codzienną konserwację.</li>
+<li><strong>Wyjmowany kosz, który można myć w zmywarce:</strong> to sprawdź w pierwszej kolejności. Większość nowszych modeli na to pozwala.</li>
+<li><strong>Dobra powłoka nieprzywierająca:</strong> aby dłużej służyła, używaj silikonowych lub drewnianych przyborów i unikaj szorstkich gąbek.</li>
+<li><strong>Dostęp do grzałki:</strong> w niektórych modelach grzałkę łatwo odsłonić i wyczyścić.</li>
+<li><strong>Tacka na okruchy:</strong> drobiazg, który bardzo ułatwia codzienne sprzątanie.</li>
 </ul>
-<p>Pełny poradnik o konserwacji znajdziesz w artykule <a href="/pl/blog/entretien-nettoyage-airfryer">poświęconym czyszczeniu frytkownicy beztłuszczowej</a>.</p>
+<p>Wszystko o pielęgnacji urządzenia znajdziesz w artykule <a href="/pl/blog/entretien-nettoyage-airfryer">o czyszczeniu frytkownicy beztłuszczowej</a>.</p>
 
-<h2>Krok 7: Bezpieczeństwo i dzieci</h2>
-<p>Jeśli masz małe dzieci, niektóre funkcje bezpieczeństwa zasługują na szczególną uwagę.</p>
+<h2>Krok 7: bezpieczeństwo dzieci</h2>
+<p>Jeśli masz małe dzieci, zwróć szczególną uwagę na kilka zabezpieczeń.</p>
 <ul>
-<li><strong>Zimna zewnętrzna obudowa:</strong> najlepsze modele pozostają letnie z zewnątrz nawet podczas pracy. Sprawdź opinie użytkowników na ten temat.</li>
-<li><strong>Blokada rodzicielska:</strong> uniemożliwia małym rękom otwarcie szuflady w trakcie smażenia. Dostępna w niektórych modelach: sprawdź kartę techniczną.</li>
+<li><strong>Chłodna obudowa:</strong> w najlepszych modelach obudowa nawet podczas pracy pozostaje z zewnątrz najwyżej letnia. Sprawdź, co piszą na ten temat użytkownicy.</li>
+<li><strong>Blokada przed dziećmi:</strong> nie pozwala małym rączkom wysunąć szuflady w trakcie smażenia. Mają ją tylko niektóre modele – sprawdź specyfikację.</li>
 <li><strong>Antypoślizgowe nóżki:</strong> zapobiegają przesuwaniu się urządzenia po blacie.</li>
-<li><strong>Automatyczne wyłączenie po otwarciu:</strong> smażenie natychmiast się zatrzymuje, gdy szuflada zostanie wysunięta.</li>
+<li><strong>Automatyczne wyłączanie po otwarciu:</strong> grzanie natychmiast się wyłącza, gdy szuflada zostanie wysunięta.</li>
 </ul>
 
-<h2>Nasze 5 rekomendacji według wielkości rodziny</h2>
+<h2>5 polecanych modeli dla rodzin różnej wielkości</h2>
 
 <h3>Dla 1–2 osób: Xiaomi Smart Air Fryer Pro 4L</h3>
-<p>Kompaktowa, połączona z siecią i z niższej półki. Jej 1600 W i 4 litry wystarczą dla pary, a aplikacja Mi Home daje dostęp do ponad stu przepisów krok po kroku. Przeczytaj nasz <a href="/pl/blog/test-xiaomi-smart-air-fryer-pro">pełny opis Xiaomi Smart Air Fryer Pro</a>.</p>
+<p>Kompaktowa, z Wi-Fi i w przystępnej cenie. Moc 1600 W i pojemność 4 litrów w zupełności wystarczą dla pary, a aplikacja Mi Home daje dostęp do ponad stu przepisów krok po kroku. Przeczytaj nasze <a href="/pl/blog/test-xiaomi-smart-air-fryer-pro">pełne omówienie modelu Xiaomi Smart Air Fryer Pro</a>.</p>
 
-<h3>Dla 3–4 osób: Philips Airfryer Series 3000 XL</h3>
-<p>Pewniak z 6,2 litra, 2000 W i technologią RapidAir. Doskonały stosunek jakości do ceny w średnim przedziale. Zajrzyj do naszego <a href="/pl/blog/test-philips-airfryer-3000-xl">szczegółowego opisu Philips 3000 XL</a>.</p>
+<h3>Dla 3–4 osób: Philips Airfryer 3000 Series XL</h3>
+<p>Sprawdzony wybór: 6,2 litra pojemności, moc 2000 W i technologia RapidAir. Doskonały stosunek jakości do ceny na średniej półce. Zajrzyj do naszego <a href="/pl/blog/test-philips-airfryer-3000-xl">szczegółowego omówienia modelu Philips 3000 XL</a>.</p>
 
 <h3>Dla 4–5 osób: Ninja Foodi MAX Double Stack XL</h3>
-<p>Dwie szuflady umieszczone jedna nad drugą, po 4,75 litra każda (łącznie 9,5 litra), sterowane niezależnie, a funkcja Sync sprawia, że oba dania kończą się jednocześnie. Pionowy format zajmuje mniej miejsca niż dwa kosze obok siebie. Jeśli wolisz szuflady obok siebie, przeczytaj nasz <a href="/pl/blog/test-ninja-foodi-max-dual-zone">opis Ninja Foodi MAX Dual Zone</a>.</p>
+<p>Dwie szuflady ustawione jedna na drugiej, każda o pojemności 4,75 litra (łącznie 9,5 litra), mają niezależne ustawienia, a funkcja Sync sprawia, że obie potrawy są gotowe w tym samym momencie. Dzięki pionowej konstrukcji urządzenie zajmuje mniej miejsca niż model z dwoma koszami obok siebie. Jeśli wolisz szuflady ustawione obok siebie, przeczytaj nasze <a href="/pl/blog/test-ninja-foodi-max-dual-zone">omówienie modelu Ninja Foodi MAX Dual Zone</a>.</p>
 
 <h3>Dla 5–6 osób: Ninja Foodi FlexDrawer</h3>
-<p>Mega szuflada o pojemności 10,4 litra może pracować w jednej lub dwóch strefach dzięki zdejmowanej przegrodzie. Idealna na cały kurczak lub dużą ilość frytek.</p>
+<p>Ogromna szuflada o pojemności 10,4 litra może pracować jako jedna strefa albo – po włożeniu wyjmowanej przegrody – jako dwie. Idealna na całego kurczaka lub dużą porcję frytek.</p>
 
 <h3>Dla 6+ osób: Philips Airfryer Combi XXL Connected</h3>
-<p>Model z wyższej półki z 8,3 litra, licznymi funkcjami (smażenie na gorącym powietrzu, piekarnik, grill, dehydratacja…), sondą temperatury i łącznością. Inwestycja, która może zastąpić kilka urządzeń.</p>
+<p>Model z wyższej półki: 8,3 litra pojemności, wiele funkcji (smażenie gorącym powietrzem, piekarnik, grill, suszenie…), sonda temperatury i łączność Wi-Fi. To wydatek, który może zastąpić kilka urządzeń.</p>
 
-<h2>6 częstych błędów przy wyborze rodzinnej frytkownicy beztłuszczowej</h2>
+<h2>6 częstych błędów przy wyborze frytkownicy dla rodziny</h2>
 <ul>
-<li><strong>Wybór zbyt małej dla oszczędności</strong>: 4 l dla 4 osób zmusi do 2–3 partii, co trwa dłużej niż w tradycyjnym piekarniku. Od razu sięgnij po 6–7 l.</li>
-<li><strong>Lekceważenie mocy</strong>: poniżej 1500 W nagrzewanie jest wolne, a chrupkość ograniczona. Celuj w 1800–2000 W dla rodzin 4+.</li>
-<li><strong>Ignorowanie zajmowanego miejsca</strong>: duże modele, takie jak Ninja FlexDrawer 10,4 l, zajmują sporą część blatu. Sprawdź wymiary w karcie technicznej i zmierz miejsce przed zakupem.</li>
-<li><strong>Zapominanie o akcesoriach</strong>: dodatkowy ruszt, wkładka dzieląca, odpowiedni papier do pieczenia: uwzględnij je w budżecie. Zobacz nasze <a href="/pl/blog/top-10-accessoires-airfryer">10 najlepszych akcesoriów do frytkownicy beztłuszczowej</a>.</li>
-<li><strong>Kupowanie wyłącznie według deklarowanej pojemności</strong>: pojemność użytkowa jest mniejsza od deklarowanej, bo jedzenie musi leżeć cienką warstwą, aby było chrupiące. Sprawdź też maksymalną ilość żywności podaną przez producenta.</li>
-<li><strong>Ignorowanie serwisu i trwałości</strong>: wybieraj marki z siecią napraw i dostępnością części. Moulinex, na przykład, deklaruje, że jego produkty można naprawiać przez 15 lat.</li>
+<li><strong>Wybór zbyt małego modelu, żeby zaoszczędzić</strong>: frytkownica 4 l dla czterech osób oznacza smażenie w 2–3 turach, co trwa dłużej niż w zwykłym piekarniku. Od razu wybierz 6–7 l.</li>
+<li><strong>Niedocenianie mocy</strong>: poniżej 1500 W urządzenie wolno się nagrzewa, a potrawy są mniej chrupiące. W rodzinie od czterech osób celuj w 1800–2000 W.</li>
+<li><strong>Pomijanie wymiarów</strong>: duże modele, takie jak Ninja FlexDrawer 10,4 l, zajmują sporą część blatu. Sprawdź wymiary w specyfikacji i zmierz miejsce przed zakupem.</li>
+<li><strong>Zapominanie o akcesoriach</strong>: dodatkowy ruszt, przegroda, odpowiedni papier do pieczenia – uwzględnij je w budżecie. Zobacz nasze zestawienie <a href="/pl/blog/top-10-accessoires-airfryer">10 najlepszych akcesoriów do frytkownicy beztłuszczowej</a>.</li>
+<li><strong>Kierowanie się wyłącznie deklarowaną pojemnością</strong>: pojemność użytkowa jest mniejsza od podanej, bo żeby jedzenie było chrupiące, musi leżeć cienką warstwą. Sprawdź też maksymalną ilość produktów, jaką podaje producent.</li>
+<li><strong>Lekceważenie serwisu i trwałości</strong>: wybieraj marki z siecią serwisową i dostępnymi częściami zamiennymi. Moulinex deklaruje na przykład, że jego produkty można naprawiać przez 15 lat.</li>
 </ul>
 
-<h2>Szybka tabela decyzyjna: jaka frytkownica beztłuszczowa dla Twojej rodziny?</h2>
+<h2>Tabela szybkiego wyboru: jaka frytkownica beztłuszczowa dla Twojej rodziny?</h2>
 <table>
-<thead><tr><th>Wielkość rodziny</th><th>Zalecana pojemność</th><th>Min. moc</th><th>Polecany model</th><th>Przedział</th></tr></thead>
+<thead><tr><th>Liczba osób</th><th>Zalecana pojemność</th><th>Min. moc</th><th>Polecany model</th><th>Półka cenowa</th></tr></thead>
 <tbody>
-<tr><td>1–2 osoby</td><td>3–4 l</td><td>1400 W</td><td>Xiaomi Smart Pro 4L</td><td>Podstawowy</td></tr>
-<tr><td>2–3 osoby</td><td>5–6 l</td><td>1500 W</td><td>Moulinex Easy Fry Max 5L / Philips Airfryer 3000 XL</td><td>Podstawowy do średniego</td></tr>
-<tr><td>3–4 osoby</td><td>6–7 l</td><td>1700 W</td><td>Cosori Dual Blaze 6,4L</td><td>Średni</td></tr>
-<tr><td>4–5 osób</td><td>8–10 l</td><td>1900 W</td><td>Ninja Double Stack 9,5L</td><td>Średni do wyższego</td></tr>
-<tr><td>5–6 osób</td><td>10 l+</td><td>2000 W</td><td>Ninja FlexDrawer 10,4L</td><td>Wyższy</td></tr>
-<tr><td>6+ osób</td><td>8,3 l + piekarnik</td><td>2200 W</td><td>Philips Airfryer Combi XXL Connected</td><td>Wyższy</td></tr>
+<tr><td>1–2 osoby</td><td>3–4 l</td><td>1400 W</td><td>Xiaomi Smart Pro 4L</td><td>Niższa</td></tr>
+<tr><td>2–3 osoby</td><td>5–6 l</td><td>1500 W</td><td>Moulinex Easy Fry Max 5L / Philips Airfryer 3000 XL</td><td>Niższa–średnia</td></tr>
+<tr><td>3–4 osoby</td><td>6–7 l</td><td>1700 W</td><td>Cosori Dual Blaze 6,4L</td><td>Średnia</td></tr>
+<tr><td>4–5 osób</td><td>8–10 l</td><td>1900 W</td><td>Ninja Double Stack 9,5L</td><td>Średnia–wyższa</td></tr>
+<tr><td>5–6 osób</td><td>Od 10 l</td><td>2000 W</td><td>Ninja FlexDrawer 10,4L</td><td>Wyższa</td></tr>
+<tr><td>6+ osób</td><td>8,3 l + funkcja piekarnika</td><td>2200 W</td><td>Philips Airfryer Combi XXL Connected</td><td>Wyższa</td></tr>
 </tbody>
 </table>
 
-<h2>Podsumowanie: metoda w 3 pytaniach</h2>
-<p>Podsumowując, zadaj sobie te trzy pytania przed zakupem:</p>
+<h2>Podsumowanie: trzy pytania przed zakupem</h2>
+<p>Krótko mówiąc, zanim kupisz frytkownicę, odpowiedz sobie na trzy pytania:</p>
 <ul>
-<li><strong>Ile osób regularnie je w domu?</strong> To decyduje o minimalnej pojemności.</li>
-<li><strong>Jak często będziesz używać frytkownicy?</strong> Codzienne użycie uzasadnia model z wyższej półki.</li>
-<li><strong>Jaki jest Twój realistyczny budżet?</strong> Pamiętaj, by uwzględnić koszt <a href="/pl/blog/top-10-accessoires-airfryer">niezbędnych akcesoriów</a>.</li>
+<li><strong>Ile osób regularnie jada w domu?</strong> Od tego zależy minimalna pojemność.</li>
+<li><strong>Jak często będziesz z niej korzystać?</strong> Przy codziennym używaniu warto zainwestować w model z wyższej półki.</li>
+<li><strong>Ile realnie możesz wydać?</strong> Nie zapomnij doliczyć kosztu <a href="/pl/blog/top-10-accessoires-airfryer">niezbędnych akcesoriów</a>.</li>
 </ul>
-<p>Aby zgłębić temat, zajrzyj do naszego <a href="/pl/guides/airfryers">pełnego poradnika o frytkownicach beztłuszczowych</a> oraz do <a href="/pl/guides/airfryer-vs-four">porównania frytkownicy beztłuszczowej z tradycyjnym piekarnikiem</a>, aby zrozumieć zalety każdego urządzenia.</p>`,
+<p>Więcej informacji znajdziesz w naszym <a href="/pl/guides/airfryers">kompletnym poradniku o frytkownicach beztłuszczowych</a> oraz w <a href="/pl/guides/airfryer-vs-four">porównaniu frytkownicy beztłuszczowej z tradycyjnym piekarnikiem</a>, które pokazuje zalety obu urządzeń.</p>`,
   },
   faq: [
     {
@@ -955,7 +955,7 @@ export const article: BlogArticle = {
         es: 'Para una familia de 4 personas, elige una freidora de aire de 5 a 6 litros. Esta capacidad permite cocinar suficiente comida en una sola tanda para todos. Los modelos de doble cesta con 4,75 L por zona también son excelentes para preparar dos platos simultáneamente.',
         it: 'Per una famiglia di 4 persone, scegli una friggitrice ad aria da 5 a 6 litri. Questa capacità permette di cuocere cibo sufficiente per tutti in un solo ciclo. I modelli a doppio cestello da 4,75 L per zona sono un\'ottima opzione per preparare due piatti contemporaneamente.',
         nl: 'Voor een gezin van 4 personen kies je een airfryer van 5 tot 6 liter. Dit formaat kookt genoeg eten in één keer voor iedereen. Dubbele mandmodellen met 4,75 L per zone zijn ook uitstekend om twee gerechten tegelijk te bereiden zonder extra kooktijd.',
-        pl: 'Dla czteroosobowej rodziny wybierz frytkownicę beztłuszczową o pojemności 5–6 litrów. Taka pojemność pozwala przygotować wystarczająco dużo jedzenia dla wszystkich w jednej partii. Modele z dwoma koszami po 4,75 l na strefę to również doskonała opcja do jednoczesnego przygotowania dwóch dań.',
+        pl: 'Dla czteroosobowej rodziny wybierz frytkownicę o pojemności 5–6 litrów – wtedy za jednym razem przygotujesz porcję dla wszystkich. Świetnie sprawdzą się też modele z dwoma koszami po 4,75 l, w których jednocześnie zrobisz dwa dania.',
       },
     },
     {
@@ -975,7 +975,7 @@ export const article: BlogArticle = {
         es: 'Sí, las freidoras de aire son mucho más seguras que las freidoras de aceite. Busca modelos con paredes exteriores frías al tacto, apagado automático al abrir y bloqueo infantil. Coloca siempre el aparato fuera del alcance de los niños y vigila las salidas de vapor.',
         it: 'Sì, le friggitrici ad aria sono molto più sicure delle friggitrici a olio. Cerca modelli con pareti esterne fredde al tatto, spegnimento automatico all\'apertura e blocco bambini. Posiziona sempre l\'apparecchio fuori dalla portata dei bambini e controlla le uscite del vapore.',
         nl: 'Ja, airfryers zijn veel veiliger dan traditionele frituurpannen. Zoek modellen met koele buitenwanden, automatische stop bij openen en kinderslot. Plaats het apparaat altijd buiten bereik van kinderen en zorg dat hete stoomuitlaten niet toegankelijk zijn.',
-        pl: 'Tak, frytkownica beztłuszczowa jest znacznie bezpieczniejsza niż frytownica na olej. Szukaj modeli z zimną zewnętrzną obudową, automatycznym wyłączeniem po otwarciu i blokadą rodzicielską. Zawsze stawiaj urządzenie poza zasięgiem dzieci i dbaj, by gorąca para była niedostępna.',
+        pl: 'Tak, jest znacznie bezpieczniejsza niż tradycyjna frytkownica na olej. Szukaj modeli z chłodną obudową, automatycznym wyłączaniem po otwarciu i blokadą przed dziećmi. Zawsze stawiaj urządzenie poza zasięgiem dzieci i pilnuj, by nie miały dostępu do gorącej pary.',
       },
     },
     {
@@ -986,7 +986,7 @@ export const article: BlogArticle = {
         es: '¿Se pueden cocinar varios platos al mismo tiempo en una freidora de aire?',
         it: 'Si possono cucinare più piatti contemporaneamente nella friggitrice ad aria?',
         nl: 'Kun je meerdere gerechten tegelijk koken in een airfryer?',
-        pl: 'Czy w frytkownicy beztłuszczowej można gotować kilka dań naraz?',
+        pl: 'Czy we frytkownicy beztłuszczowej można przygotować kilka dań naraz?',
       },
       answer: {
         fr: 'Oui, avec un modèle à double panier comme le Ninja Dual Zone. Chaque zone a sa propre température et minuterie, permettant de cuire viande et légumes simultanément. Avec un airfryer simple, vous pouvez utiliser des séparateurs de panier ou empiler des grilles pour cuire deux aliments.',
@@ -995,7 +995,7 @@ export const article: BlogArticle = {
         es: 'Sí, con un modelo de doble cesta como el Ninja Dual Zone. Cada zona tiene su propia temperatura y temporizador, permitiendo cocinar carne y verduras simultáneamente. Con una freidora de cesta única, puedes usar divisores o rejillas apilables para cocinar dos alimentos.',
         it: 'Sì, con un modello a doppio cestello come il Ninja Dual Zone. Ogni zona ha temperatura e timer propri, permettendo di cuocere carne e verdure contemporaneamente. Con un cestello singolo, puoi usare divisori o griglie impilabili per cuocere due alimenti insieme.',
         nl: 'Ja, met een dubbele mandmodel zoals de Ninja Dual Zone. Elke zone heeft een eigen temperatuur en timer, zodat je vlees en groenten tegelijk kunt bereiden. Met een enkele mand kun je mandverdelers of stapelbare rekjes gebruiken om twee gerechten tegelijk te maken.',
-        pl: 'Tak, w modelu z dwoma koszami, takim jak Ninja Dual Zone. Każda strefa ma własną temperaturę i timer, co pozwala jednocześnie przygotować mięso i warzywa. W zwykłej frytkownicy beztłuszczowej możesz użyć przegród do kosza lub ułożyć ruszty jeden nad drugim, aby przygotować dwa produkty.',
+        pl: 'Tak, jeśli wybierzesz model z dwoma koszami, np. Ninja Dual Zone. Każda strefa ma osobne ustawienia temperatury i czasu, więc mięso i warzywa przygotujesz jednocześnie. W zwykłej frytkownicy możesz użyć przegrody do kosza albo ustawić ruszty piętrowo i upiec dwie potrawy naraz.',
       },
     },
     {
@@ -1006,7 +1006,7 @@ export const article: BlogArticle = {
         es: '¿Qué recetas sencillas se pueden hacer en freidora de aire para niños?',
         it: 'Quali ricette semplici si possono fare nella friggitrice ad aria per i bambini?',
         nl: 'Welke eenvoudige recepten kun je in de airfryer maken voor kinderen?',
-        pl: 'Jakie proste przepisy z frytkownicy beztłuszczowej polubią dzieci?',
+        pl: 'Jakie proste dania z frytkownicy beztłuszczowej polubią dzieci?',
       },
       answer: {
         fr: 'Les enfants adorent les nuggets de poulet maison (200°C, 10 min), les bâtonnets de poisson (180°C, 12 min), les frites de patate douce (190°C, 15 min) et les mini-pizzas sur tortilla (200°C, 5 min). Ces recettes sont rapides, saines et permettent d\'impliquer les enfants dans la préparation.',
@@ -1015,7 +1015,7 @@ export const article: BlogArticle = {
         es: 'A los niños les encantan los nuggets de pollo caseros (200°C, 10 min), palitos de pescado (180°C, 12 min), patatas fritas de boniato (190°C, 15 min) y mini pizzas en tortilla (200°C, 5 min). Estas recetas son rápidas, saludables y permiten involucrar a los niños.',
         it: 'I bambini adorano i nuggets di pollo fatti in casa (200°C, 10 min), bastoncini di pesce (180°C, 12 min), patatine di patata dolce (190°C, 15 min) e mini pizze su tortilla (200°C, 5 min). Queste ricette sono veloci, sane e coinvolgono i bambini nella preparazione.',
         nl: 'Kinderen zijn dol op zelfgemaakte kipnuggets (200°C, 10 min), vissticks (180°C, 12 min), zoete aardappelfrietjes (190°C, 15 min) en mini tortillapizza\'s (200°C, 5 min). Deze recepten zijn snel, gezond en laten kinderen meehelpen bij de bereiding.',
-        pl: 'Dzieci uwielbiają domowe nuggetsy z kurczaka (200°C, 10 min), paluszki rybne (180°C, 12 min), frytki ze słodkich ziemniaków (190°C, 15 min) i mini pizze na tortilli (200°C, 5 min). Te przepisy są szybkie, zdrowe i pozwalają włączyć dzieci w przygotowanie posiłku.',
+        pl: 'Dzieci uwielbiają domowe nuggetsy z kurczaka (200 °C, 10 min), paluszki rybne (180 °C, 12 min), frytki z batatów (190 °C, 15 min) i minipizze na tortilli (200 °C, 5 min). To szybkie i zdrowe przepisy, przy których dzieci mogą pomagać w kuchni.',
       },
     },
     {
@@ -1026,7 +1026,7 @@ export const article: BlogArticle = {
         es: '¿Qué presupuesto prever para una buena freidora de aire familiar?',
         it: 'Quale budget prevedere per una buona friggitrice ad aria familiare?',
         nl: 'Welk budget moet ik voorzien voor een goede gezins-airfryer?',
-        pl: 'Jaki budżet przeznaczyć na dobrą rodzinną frytkownicę beztłuszczową?',
+        pl: 'Ile wydać na dobrą frytkownicę beztłuszczową dla rodziny?',
       },
       answer: {
         fr: 'Pour une famille, visez le milieu de gamme : c\'est là que l\'on trouve les modèles de 6 litres et plus ou à double panier de marques reconnues. L\'entrée de gamme convient surtout aux couples. Le haut de gamme ajoute la connectivité et des fonctions multicuiseur.',
@@ -1035,7 +1035,7 @@ export const article: BlogArticle = {
         es: 'Para una familia, apunta a la gama media: ahí están los modelos de 6 litros o más y de doble cesta de marcas reconocidas. La gama de entrada sirve sobre todo para parejas. La gama alta añade conectividad y funciones multicocción.',
         it: 'Per una famiglia, puntate alla fascia media: lì si trovano i modelli da 6 litri in su o a doppio cestello di marchi noti. La fascia d\'ingresso va bene soprattutto per le coppie. La fascia alta aggiunge connettività e funzioni multicottura.',
         nl: 'Mik voor een gezin op de middenklasse: daar vind je modellen vanaf 6 liter of met dubbele mand van bekende merken. Instapmodellen zijn vooral geschikt voor stellen. De topklasse voegt connectiviteit en multifunctionele kookstanden toe.',
-        pl: 'Dla rodziny celuj w średni przedział: to tam znajdziesz modele od 6 litrów wzwyż lub z dwoma koszami od znanych marek. Przedział podstawowy nadaje się głównie dla par. Wyższy dodaje łączność z siecią i funkcje multicookera.',
+        pl: 'Dla rodziny najlepiej szukać na średniej półce cenowej: tam znajdziesz modele znanych marek o pojemności od 6 litrów albo z dwoma koszami. Modele z niższej półki sprawdzą się głównie u par, a te z wyższej oferują dodatkowo Wi-Fi i funkcje multicookera.',
       },
     },
   ],

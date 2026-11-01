@@ -146,7 +146,7 @@ const uiStrings: Record<Lang, BestForUi> = {
     primaryCta: 'Aanbevolen producten bekijken',
   },
   pl: {
-    home: 'Start',
+    home: 'Strona główna',
     guides: 'Zestawienia',
     otherPersonasTitle: 'Inne profile pasujące do tej kategorii',
     backToCategoryLabel: 'Wróć do kategorii',

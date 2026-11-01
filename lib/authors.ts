@@ -68,7 +68,7 @@ export const AUTHORS: Record<Lang, AuthorProfile> = {
   pl: {
     name: 'Marta Nowak',
     initials: 'MN',
-    bio: 'Marta Nowak podpisuje poradniki Home Nura po polsku. Pasjonatka inteligentnego domu porównuje urządzenia na podstawie danych technicznych producentów, opinii użytkowników i wyników publikowanych przez niezależne organizacje, nie sprawdzając produktów samodzielnie. Marta Nowak to pseudonim redakcji Home Nura.',
+    bio: 'Marta Nowak pisze poradniki serwisu Home Nura w języku polskim. Interesuje się inteligentnym domem i porównuje urządzenia na podstawie specyfikacji producentów, opinii użytkowników oraz wyników publikowanych przez niezależne organizacje – sama nie testuje produktów. Marta Nowak to pseudonim, którym posługuje się redakcja Home Nura.',
   },
   sv: {
     name: 'Elin Lindqvist',
@@ -163,12 +163,12 @@ export const AUTHOR_PAGE_COPY: Record<Lang, AuthorPageCopy> = {
   pl: {
     kicker: 'Autorka',
     byline: 'Autorka:',
-    metaDescription: 'Marta Nowak, pseudonim redakcji Home Nura: jak przygotowujemy porównania urządzeń inteligentnego domu, nasze źródła i najnowsze poradniki.',
-    penNameTitle: 'Pseudonim, bez tajemnic',
-    penName: 'Marta Nowak to pseudonim redakcji Home Nura dla polskich czytelników: jeden stały, rozpoznawalny podpis dla każdego języka. Za publikację odpowiada Miguel Marie, założyciel Home Nura.',
+    metaDescription: 'Marta Nowak to pseudonim redakcji Home Nura. Zobacz, jak przygotowujemy porównania sprzętu do inteligentnego domu i z jakich źródeł korzystamy.',
+    penNameTitle: 'Pseudonim – otwarcie i bez tajemnic',
+    penName: 'Marta Nowak to pseudonim, pod którym redakcja Home Nura publikuje teksty dla polskich czytelników. W każdym języku używamy jednego, stałego i rozpoznawalnego podpisu. Za publikacje odpowiada Miguel Marie, założyciel serwisu Home Nura.',
     methodTitle: 'Jak powstają nasze poradniki',
-    method: 'Każde porównanie łączy dane techniczne producentów, opinie użytkowników i wyniki publikowane przez niezależne organizacje (Stiftung Warentest, Which?, Que Choisir…), zawsze z linkiem. Nie sprawdzamy produktów samodzielnie i mówimy o tym otwarcie. Każdy poradnik ma datę ostatniej aktualizacji.',
-    methodologyLink: 'Przeczytaj naszą metodologię',
+    method: 'W każdym porównaniu zestawiamy specyfikacje producentów, opinie użytkowników i wyniki publikowane przez niezależne organizacje (Stiftung Warentest, Which?, Que Choisir…), zawsze z linkiem do źródła. Nie testujemy produktów samodzielnie i otwarcie o tym informujemy. Przy każdym poradniku podajemy datę ostatniej aktualizacji.',
+    methodologyLink: 'Poznaj naszą metodologię',
     latestTitle: 'Najnowsze poradniki',
     breadcrumbHome: 'Strona główna',
   },

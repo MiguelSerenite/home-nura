@@ -24,7 +24,7 @@ const HERO_CTA: Record<string, { primary: string; secondary: string }> = {
   es: { primary: 'Ver nuestro top 3', secondary: 'Encontrar mi freidora en 1 min' },
   it: { primary: 'Vedi la nostra top 3', secondary: 'Trova la mia friggitrice in 1 min' },
   nl: { primary: 'Bekijk onze top 3', secondary: 'Vind mijn airfryer in 1 min' },
-  pl: { primary: 'Zobacz nasze top 3', secondary: 'Znajdź swoją frytkownicę w 1 min' },
+  pl: { primary: 'Zobacz TOP 3', secondary: 'Znajdź frytkownicę dla siebie w minutę' },
 }
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {

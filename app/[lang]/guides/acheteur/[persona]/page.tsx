@@ -117,12 +117,12 @@ const uiStrings: Record<Lang, GuideUi> = {
   pl: {
     home: 'Strona główna',
     guides: 'Poradniki',
-    applicableSilosTitle: 'Obszary odpowiednie dla tego profilu',
-    relatedCategoriesTitle: 'Wybrane kategorie dla tego profilu',
+    applicableSilosTitle: 'Działy przydatne dla tego profilu',
+    relatedCategoriesTitle: 'Zestawienia dobrane do tego profilu',
     noRelated: 'Kategorie dla tego profilu pojawią się wkrótce.',
     methodologyCta: 'Poznaj naszą metodologię',
     faqTitle: 'Najczęstsze pytania',
-    bestForPrefix: 'Najlepszy',
+    bestForPrefix: 'Najlepsze',
   },
 }
 

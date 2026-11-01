@@ -42,7 +42,7 @@ const hintLabels: Record<string, string> = {
   es: 'Prueba con "Ninja", "Philips" o "9.5L"',
   it: 'Prova con "Ninja", "Philips" o "9.5L"',
   nl: 'Probeer "Ninja", "Philips" of "9.5L"',
-  pl: 'Spróbuj „Ninja”, „Philips” lub „9.5L”',
+  pl: 'Wpisz np. „Ninja”, „Philips” lub „9.5L”',
 }
 
 const searchLabel: Record<string, string> = {

@@ -691,112 +691,112 @@ export const smartKitchenFaqs: FaqData = {
   pl: {
     multicuiseurs: [
       {
-        question: 'Czy inteligentny multicooker naprawdę zastępuje garnek żeliwny i szybkowar?',
-        answer: 'Tak w 80% codziennych zastosowań: dania duszone, zupy, risotta, gotowanie na parze, jogurty, długo duszone potrawy. Modele 6–8 litrów (Instant Pot, Cosori) mają średnio 10–15 programów automatycznych. Do pieczenia ciast w piekarniku lub dużych pieczeni nadal przyda się klasyczny garnek — ale multicooker zwalnia palniki i sam pilnuje gotowania.',
+        question: 'Czy inteligentny multicooker naprawdę zastąpi garnek żeliwny i szybkowar?',
+        answer: 'Tak, w 80% codziennych zastosowań: duszone mięso, zupy, risotto, dania na parze, jogurt i potrawy gotowane godzinami. Modele 6–8-litrowe (Instant Pot, Cosori) mają średnio 10–15 programów automatycznych. Do ciast pieczonych w piekarniku i dużych pieczeni nadal przyda się klasyczny garnek – ale multicooker zwalnia palniki i sam pilnuje gotowania.',
       },
       {
-        question: 'Jaką pojemność wybrać w zależności od wielkości gospodarstwa domowego?',
-        answer: 'Przyjmij 1 litr na osobę jako bazę, a następnie dodaj 2 litry na dania duszone i resztki. Para: 3–5 litrów. Rodzina 4-osobowa: 6 litrów. Duża rodzina lub niedzielne gotowanie na zapas: 8 litrów. Powyżej tego czas dochodzenia do ciśnienia staje się uciążliwy.',
+        question: 'Jaką pojemność wybrać w zależności od liczby domowników?',
+        answer: 'Na początek przyjmij 1 litr na osobę i dodaj 2 litry na dania duszone i resztki. Para: 3–5 litrów. Rodzina czteroosobowa: 6 litrów. Duża rodzina lub niedzielne gotowanie na zapas: 8 litrów. W jeszcze większych modelach dochodzenie do ciśnienia trwa już zbyt długo.',
       },
       {
-        question: 'Czy aplikacje mobilne do multicookerów naprawdę są przydatne?',
-        answer: 'Przydają się w trzech przypadkach: do zdalnego uruchomienia przepisu w drodze do domu, do korzystania z gotowych przepisów bez ręcznego wpisywania temperatury i czasu oraz do otrzymania alertu o zakończeniu gotowania. Mniej, jeśli zawsze gotujesz te same dania — wystarczą fizyczne przyciski.',
+        question: 'Czy aplikacje do multicookerów naprawdę się przydają?',
+        answer: 'Przydają się w trzech sytuacjach: gdy chcesz zdalnie uruchomić gotowanie w drodze do domu, skorzystać z gotowego przepisu bez ręcznego wpisywania temperatury i czasu albo dostać powiadomienie, że danie jest gotowe. Jeśli zawsze gotujesz te same potrawy, wystarczą przyciski na obudowie.',
       },
       {
-        question: 'Czym różni się multicooker od robota kuchennego typu Thermomix?',
-        answer: 'Multicooker podgrzewa pod ciśnieniem i dusi, a robot kuchenny dodatkowo miksuje, waży i wyrabia ciasto. Za 800–1300 zł multicooker obsłuży 90% długich gotowań. Za 4300 zł i więcej robot kuchenny dodaje zintegrowane przygotowywanie potraw, ale gorzej radzi sobie z dużymi gotowaniami pod ciśnieniem.',
+        question: 'Czym multicooker różni się od robota kuchennego z funkcją gotowania, takiego jak Thermomix?',
+        answer: 'Multicooker gotuje pod ciśnieniem i dusi, a robot kuchenny z funkcją gotowania dodatkowo miksuje, waży i wyrabia ciasto. Za 800–1300 zł multicooker obsłuży 90% potraw wymagających długiego gotowania. Robot za 4300 zł i więcej przejmuje też przygotowanie składników, ale przy dużych porcjach gotowanych pod ciśnieniem wypada słabiej.',
       },
       {
-        question: 'Czy multicooker nadaje się do pasteryzacji słoików i domowych przetworów?',
-        answer: 'Technicznie tak, w modelach ciśnieniowych osiągających 115–118 °C, ale pojemność ogranicza liczbę do 3–5 słoików naraz. Do przetworów w dużych ilościach bardziej opłacalny jest dedykowany sterylizator. Multicooker świetnie nadaje się na próbę lub niewielką partię tygodniową.',
+        question: 'Czy w multicookerze można pasteryzować słoiki i robić domowe przetwory?',
+        answer: 'Technicznie tak – modele ciśnieniowe osiągają 115–118 °C – ale ze względu na pojemność zmieścisz naraz tylko 3–5 słoików. Przy przetworach na większą skalę bardziej opłaca się osobny sterylizator. Multicooker świetnie sprawdzi się na próbę lub przy niewielkiej cotygodniowej partii.',
       },
     ],
     cafetieres: [
       {
         question: 'Czy inteligentny ekspres do kawy jest wart dopłaty w porównaniu z klasycznym?',
-        answer: 'Jeśli pijesz kawę codziennie rano o stałej porze, tak: automatyczny start przez Wi-Fi oszczędza 5 minut dziennie. W skali roku to 30 godzin. Przy okazjonalnym użyciu w zupełności wystarczy klasyczny programowalny ekspres za 260 zł.',
+        answer: 'Jeśli pijesz kawę codziennie rano o stałej porze – tak: automatyczne uruchamianie przez Wi-Fi oszczędza 5 minut dziennie, czyli 30 godzin w skali roku. Jeśli pijesz kawę okazjonalnie, w zupełności wystarczy zwykły ekspres z programatorem za 260 zł.',
       },
       {
-        question: 'Czym różni się inteligentny ekspres przelewowy od automatycznego ekspresu na kawę ziarnistą?',
-        answer: 'Ekspres przelewowy przygotowuje dużą objętość (1–1,5 l) na kilka filiżanek naraz, idealną na rodzinne śniadanie. Ekspres na kawę ziarnistą mieli ziarna na żądanie do indywidualnego espresso i daje lepszą jakość kawy, ale jego cena wejściowa jest 3–4 razy wyższa.',
+        question: 'Czym różni się inteligentny ekspres przelewowy od ekspresu automatycznego do kawy ziarnistej?',
+        answer: 'Ekspres przelewowy parzy od razu dużo kawy (1–1,5 l) na kilka filiżanek, co jest idealne na rodzinne śniadanie. Ekspres automatyczny mieli ziarna na bieżąco i przygotowuje pojedyncze espresso o wyraźnie lepszej jakości, ale najtańsze modele kosztują 3–4 razy więcej.',
       },
       {
-        question: 'Czy Wi-Fi i Alexa/Google Home są niezawodne do sterowania ekspresem do kawy?',
-        answer: 'Niezawodne w 95% u uznanych marek (Smarter, Philips, De\'Longhi Connect). Pozostałe 5% usterek prawie zawsze wynika z routera (w większości modeli wymagane jest pasmo 2,4 GHz) albo z aktualizacji firmware, którą warto odłożyć. Sprawdź działanie w codziennym użytkowaniu w ciągu pierwszych 30 dni.',
+        question: 'Czy sterowanie ekspresem przez Wi-Fi i Alexę/Google Home działa niezawodnie?',
+        answer: 'U uznanych marek (Smarter, Philips, De\'Longhi Connect) działa niezawodnie w 95% przypadków. Pozostałe 5% problemów prawie zawsze wynika z routera (większość modeli wymaga pasma 2,4 GHz) albo z aktualizacji oprogramowania, którą lepiej odłożyć. Przez pierwsze 30 dni sprawdzaj, jak sterowanie sprawuje się na co dzień.',
       },
       {
         question: 'Czy w inteligentnym ekspresie można używać kawy mielonej?',
-        answer: 'Tak w modelach przelewowych i w większości zgodnych ekspresów kapsułkowych. W ekspresach na kawę ziarnistą niektóre modele (Jura, De\'Longhi) mają dodatkowy pojemnik na mieloną kawę bezkofeinową. Sprawdź tę opcję przed zakupem, jeśli używasz obu formatów naprzemiennie.',
+        answer: 'Tak, w ekspresach przelewowych i w większości zgodnych ekspresów na kapsułki. Wśród ekspresów automatycznych niektóre modele (Jura, De\'Longhi) mają dodatkowy pojemnik na mieloną kawę bezkofeinową. Jeśli używasz obu rodzajów kawy na zmianę, sprawdź tę opcję przed zakupem.',
       },
       {
         question: 'Jak odkamienić inteligentny ekspres do kawy, nie uszkadzając elektroniki?',
-        answer: 'Używaj wyłącznie tabletek lub płynów zalecanych przez producenta — czysty kwas cytrynowy może uszkadzać niektóre uszczelki. Modele inteligentne same wyświetlają alert co 150–200 cykli. Przy codziennym użyciu licz odkamienianie co 6–8 tygodni.',
+        answer: 'Używaj wyłącznie tabletek lub płynów zalecanych przez producenta – czysty kwasek cytrynowy może uszkodzić niektóre uszczelki. Inteligentne ekspresy same przypominają o odkamienianiu co 150–200 cykli parzenia. Przy codziennym używaniu odkamieniaj ekspres co 6–8 tygodni.',
       },
     ],
     balances: [
       {
-        question: 'Czy inteligentna waga kuchenna naprawdę poprawia moje przepisy?',
-        answer: 'Tak w cukiernictwie i pieczeniu chleba, gdzie 10 gramów różnicy zmienia wynik. Aplikacja prowadzi krok po kroku, automatycznie przelicza jednostki i przelicza proporcje, jeśli zmienisz liczbę porcji. Do gotowania na oko wystarczy prosta waga za 65 zł.',
+        question: 'Czy dzięki inteligentnej wadze kuchennej przepisy naprawdę lepiej wychodzą?',
+        answer: 'Tak, w cukiernictwie i przy pieczeniu chleba, gdzie 10 gramów różnicy zmienia efekt. Aplikacja prowadzi krok po kroku, sama przelicza jednostki, a gdy zmienisz liczbę porcji – także proporcje. Jeśli gotujesz na oko, wystarczy prosta waga za 65 zł.',
       },
       {
         question: 'Jakiej dokładności wymagać od wagi kuchennej?',
-        answer: 'Do 99% przepisów: dokładność 1 grama w zakresie od 5 g do 5 kg. Do precyzyjnego cukiernictwa (makaroniki, chleb na zakwasie): 0,1 grama przy małych ilościach (drożdże, sól). Inteligentne wagi z wyższej półki oferują oba tryby.',
+        answer: 'Do 99% przepisów wystarczy dokładność 1 g w zakresie od 5 g do 5 kg. W precyzyjnym cukiernictwie (makaroniki, chleb na zakwasie) przy małych ilościach, np. drożdży czy soli, przyda się dokładność 0,1 g. Inteligentne wagi z wyższej półki mają oba tryby.',
       },
       {
         question: 'Bluetooth czy Wi-Fi: jaką łączność wybrać?',
-        answer: 'Bluetooth wystarcza w 95% przypadków — zasięg 10 metrów, brak konta w chmurze, bateria na 6–12 miesięcy. Wi-Fi ma sens tylko wtedy, gdy chcesz zdalnie synchronizować pomiary z aplikacją żywieniową lub dzielić dane między gospodarstwami domowymi.',
+        answer: 'W 95% przypadków wystarczy Bluetooth: zasięg 10 metrów, brak konta w chmurze i bateria na 6–12 miesięcy. Wi-Fi ma sens tylko wtedy, gdy chcesz zdalnie synchronizować pomiary z aplikacją dietetyczną lub udostępniać dane innym gospodarstwom domowym.',
       },
       {
-        question: 'Czy inteligentne wagi wymagają abonamentu?',
-        answer: 'Nie w przypadku podstawowych funkcji (ważenie, tara, przeliczanie jednostek). Niektóre aplikacje oferują płatny pakiet premium do szczegółowego śledzenia wartości odżywczych lub przepisów krok po kroku ponad darmowe 20–30. Sprawdź to przed zakupem, jeśli chcesz uniknąć stałych opłat.',
+        question: 'Czy inteligentne wagi kuchenne wymagają abonamentu?',
+        answer: 'Nie do podstawowych funkcji (ważenie, tara, przeliczanie jednostek). Niektóre aplikacje mają płatną wersję premium ze szczegółową analizą wartości odżywczych lub z przepisami krok po kroku ponad 20–30 darmowych. Jeśli nie chcesz stałych opłat, sprawdź to przed zakupem.',
       },
       {
         question: 'Jak czyścić inteligentną wagę, nie uszkadzając czujników?',
-        answer: 'Wilgotna szmatka i delikatne mydło wyłącznie na platformie — nigdy nie moczyć ani nie myć w zmywarce, bo czujniki obciążenia pod platformą są wrażliwe na wilgoć. Osuszyć natychmiast. Codzienne czyszczenie po użyciu wydłuża żywotność do 5–8 lat.',
+        answer: 'Platformę przecieraj wyłącznie wilgotną ściereczką z łagodnym mydłem – nigdy nie zanurzaj wagi w wodzie ani nie myj jej w zmywarce, bo czujniki nacisku pod platformą nie znoszą wilgoci. Od razu wytrzyj ją do sucha. Codzienne czyszczenie po użyciu wydłuża żywotność wagi do 5–8 lat.',
       },
     ],
     'thermometres-viande': [
       {
-        question: 'Czy inteligentny termometr naprawdę jest dokładniejszy niż klasyczny?',
-        answer: 'Surowa dokładność jest taka sama (± 0,5–1 °C) w poważnych modelach. Zaleta tkwi w zdalnym alercie: wkładasz pieczeń do piekarnika i dostajesz na telefon powiadomienie o 58 °C w środku, bez otwierania drzwiczek. Idealne do powolnego gotowania typu low-and-slow (grill, sous-vide).',
+        question: 'Czy inteligentny termometr jest naprawdę dokładniejszy od zwykłego?',
+        answer: 'W porządnych modelach sama dokładność pomiaru jest taka sama (±0,5–1 °C). Zaletą jest zdalne powiadamianie: wkładasz pieczeń do piekarnika, a gdy w środku osiągnie 58 °C, telefon da Ci znać – bez otwierania drzwiczek. To idealne rozwiązanie do długiego pieczenia w niskiej temperaturze (low and slow), na grillu i przy sous vide.',
       },
       {
-        question: 'Jedna sonda czy wiele sond: którą wybrać?',
-        answer: 'Jedna sonda do okazjonalnego użycia w piekarniku lub na patelni — prosta, wytrzymała, 200–350 zł. Wiele sond (2–6 kanałów) do grilla, wędzarni, sous-vide lub wieczorów, gdy przyrządzasz kilka kawałków jednocześnie — licz 650–1300 zł.',
+        question: 'Jedna sonda czy kilka: co wybrać?',
+        answer: 'Jedna sonda wystarczy do okazjonalnego pieczenia w piekarniku lub smażenia na patelni – to proste, wytrzymałe rozwiązanie za 200–350 zł. Kilka sond (2–6 kanałów) przyda się przy grillu, wędzarni, sous vide lub na przyjęciach, gdy przygotowujesz kilka kawałków mięsa jednocześnie – licz się z wydatkiem 650–1300 zł.',
       },
       {
-        question: 'Jaką temperaturę wewnątrz mięsa osiągnąć dla głównych rodzajów mięsa?',
-        answer: 'Wołowina krwista 52–54 °C, średnio wysmażona 58–60 °C, dobrze wysmażona 65–70 °C. Wieprzowina 63–65 °C. Drób 74 °C w całości. Jagnięcina 55–58 °C dla różowej. Te wartości są zapisane w aplikacjach inteligentnych termometrów według rodzaju mięsa i stopnia wysmażenia.',
+        question: 'Do jakiej temperatury w środku przyrządzać najpopularniejsze rodzaje mięsa?',
+        answer: 'Wołowina krwista: 52–54 °C, średnio wysmażona: 58–60 °C, dobrze wysmażona: 65–70 °C. Wieprzowina: 63–65 °C. Drób: 74 °C w całym kawałku. Jagnięcina różowa: 55–58 °C. Aplikacje inteligentnych termometrów mają te wartości zapisane dla każdego rodzaju mięsa i stopnia wysmażenia.',
       },
       {
-        question: 'Czy inteligentne termometry wytrzymują piekarnik i grill?',
-        answer: 'Tak w przypadku sond przewodowych do 250–300 °C. Modele w pełni bezprzewodowe (typu Meater) wytrzymują temperaturę otoczenia do 275 °C wewnątrz i 100 °C w części nadawczej, co wystarcza w 95% zastosowań w piekarniku i na grillu.',
+        question: 'Czy inteligentne termometry wytrzymają piekarnik i grill?',
+        answer: 'Tak – sondy przewodowe wytrzymują 250–300 °C. Modele w pełni bezprzewodowe (np. Meater) znoszą temperaturę otoczenia do 275 °C wewnątrz i do 100 °C w części z nadajnikiem, co wystarcza w 95% przypadków pieczenia w piekarniku i grillowania.',
       },
       {
-        question: 'Jaki jest typowy czas pracy inteligentnego termometru?',
-        answer: '15–50 godzin na jednym ładowaniu, zależnie od modelu i częstotliwości transmisji Bluetooth. Sondy przewodowe działają na baterii AAA lub pastylkowej CR2032 przez 100–500 godzin. Zaplanuj ładowanie przed długim brisketem lub nocnym gotowaniem.',
+        question: 'Na jak długo wystarcza bateria w inteligentnym termometrze?',
+        answer: 'Od 15 do 50 godzin na jednym ładowaniu, w zależności od modelu i częstotliwości przesyłania danych przez Bluetooth. Termometry z sondami przewodowymi działają na bateriach AAA lub pastylkowych CR2032 przez 100–500 godzin. Przed długim pieczeniem brisketu lub gotowaniem przez całą noc naładuj termometr.',
       },
     ],
     'prises-connectees': [
       {
-        question: 'Po co inteligentna wtyczka w kuchni, a nie gdzie indziej?',
-        answer: 'Trzy kluczowe zastosowania: zdalne włączenie ekspresu lub czajnika po przebudzeniu, wyłączenie żelazka lub zapomnianego urządzenia z biura oraz monitorowanie rzeczywistego zużycia piekarnika, frytkownicy beztłuszczowej lub mikrofalówki, aby znaleźć największe pozycje na rachunku.',
+        question: 'Po co inteligentne gniazdko akurat w kuchni?',
+        answer: 'Są trzy główne zastosowania: zdalne włączanie ekspresu lub czajnika zaraz po przebudzeniu, wyłączanie z pracy zapomnianego żelazka lub innego urządzenia oraz sprawdzanie rzeczywistego zużycia prądu przez piekarnik, frytkownicę beztłuszczową czy mikrofalówkę, by wiedzieć, które urządzenia najbardziej podbijają rachunek.',
       },
       {
-        question: 'Czy inteligentna wtyczka działa z każdym urządzeniem?',
-        answer: 'Tak, z każdym urządzeniem z mechanicznym przełącznikiem ON/OFF, które po podłączeniu do prądu samo się uruchamia. Nie działa z urządzeniami z ekranem dotykowym, które wymagają ręcznego naciśnięcia, aby ruszyć (niektóre piekarniki, nowsze mikrofalówki). Sprawdź to przed zakupem.',
+        question: 'Czy inteligentne gniazdko działa z każdym urządzeniem?',
+        answer: 'Tak, z każdym urządzeniem z mechanicznym włącznikiem, które samo rusza po podłączeniu do prądu. Nie zadziała z urządzeniami z panelem dotykowym, które trzeba uruchomić ręcznie (niektóre piekarniki, nowsze mikrofalówki). Sprawdź to przed zakupem.',
       },
       {
-        question: 'Jaką maksymalną moc wytrzyma inteligentna wtyczka?',
-        answer: 'Modele konsumenckie obsługują 10–16 amperów, czyli 2200–3500 watów. Piekarnik lub płyta indukcyjna 3000 W to granica — wybierz model 16 A i dedykowane gniazdko ścienne. Frytkownice beztłuszczowe (1500–2000 W) działają bez problemu.',
+        question: 'Jakie maksymalne obciążenie wytrzyma inteligentne gniazdko?',
+        answer: 'Modele do użytku domowego obsługują 10–16 A, czyli 2200–3500 W. Piekarnik lub płyta indukcyjna o mocy 3000 W to już granica możliwości – wybierz model 16 A i osobne gniazdo ścienne. Frytkownice beztłuszczowe (1500–2000 W) działają bez problemu.',
       },
       {
-        question: 'Czy inteligentne wtyczki narażają moją sieć Wi-Fi na luki bezpieczeństwa?',
-        answer: 'Niskie ryzyko u uznanych marek (TP-Link, Xiaomi, Eve), które publikują regularne aktualizacje firmware. Dla maksymalnego bezpieczeństwa odizoluj urządzenia smart w VLAN-ie lub sieci dla gości. Unikaj nieznanych marek sprzedawanych poniżej 20 zł — z niezałataną historią luk CVE.',
+        question: 'Czy inteligentne gniazdka osłabiają bezpieczeństwo mojej sieci Wi-Fi?',
+        answer: 'U uznanych marek (TP-Link, Xiaomi, Eve), które regularnie publikują aktualizacje oprogramowania, ryzyko jest niewielkie. Dla maksymalnego bezpieczeństwa przenieś urządzenia smart home do osobnej sieci VLAN lub sieci dla gości. Unikaj nieznanych marek sprzedawanych poniżej 20 zł – mają na koncie znane luki (CVE), dla których nie wydano poprawek.',
       },
       {
-        question: 'Jak włączyć inteligentną wtyczkę do scenariusza smart home?',
-        answer: 'Przez Alexa Routines, Google Home Scripts, Home Assistant lub Matter/Thread w nowszych modelach. Przykłady: „kawa uruchomiona 5 min przed budzikiem”, „automatyczne wyłączenie żelazka po 30 min”, „alert, gdy zużycie zamrażarki spada (prawdopodobna awaria zasilania)”.',
+        question: 'Jak dodać inteligentne gniazdko do scenariusza smart home?',
+        answer: 'Przez Alexa Routines, Google Home Scripts, Home Assistant albo – w nowszych modelach – Matter/Thread. Przykłady: „kawa włącza się 5 minut przed budzikiem”, „żelazko wyłącza się automatycznie po 30 minutach”, „alert, gdy zużycie zamrażarki spada (prawdopodobnie zabrakło prądu)”.',
       },
     ],
   },

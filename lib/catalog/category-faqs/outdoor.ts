@@ -136,24 +136,24 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     ],
     pl: [
       {
-        question: "Którą kosiarkę automatyczną wybrać do ogrodu?",
-        answer: "Warto wybrać model przewidziany na powierzchnię o 20–30% większą niż rzeczywisty trawnik, bo deklaracja producenta zakłada płaski i jednolity teren. Skarpy, wąskie przejścia i oddzielne strefy wydłużają koszenie. Trzeba też sprawdzić maksymalne nachylenie w procentach (45° to 100%) oraz obsługę kilku stref. W ogrodzie z wieloma drzewami lepiej sprawdzi się model z przewodem albo z kamerą niż samo RTK.",
+        question: "Jaki robot koszący wybrać do ogrodu?",
+        answer: "Wybierz model przeznaczony do powierzchni o 20–30% większej niż Twój trawnik, bo producent podaje ją dla płaskiego, jednolitego terenu. Skarpy, wąskie przejścia i oddzielne strefy wydłużają koszenie. Sprawdź też maksymalne nachylenie podane w procentach (45° to 100%) i to, czy robot obsługuje kilka stref. W ogrodzie z wieloma drzewami lepiej sprawdzi się model z przewodem albo z kamerą niż robot z samym RTK.",
       },
       {
-        question: "Kosiarka automatyczna bez przewodu ograniczającego czy z przewodem?",
-        answer: "Bez przewodu łatwiej ją zainstalować i zmieniać strefy, ale przewód ograniczający wciąż jest najpewniejszy w ogrodach z dużą liczbą drzew. Modele RTK nawigują satelitarnie dzięki antenie referencyjnej i tracą dokładność pod koronami drzew lub przy wysokich budynkach. Modele z kamerą rozpoznają krawędź trawnika, ale mylą się przy niewyraźnej granicy z rabatą. Rozwiązania łączące RTK i kamerę najlepiej równoważą słabe strony obu technologii.",
+        question: "Robot koszący bez przewodu ograniczającego czy z przewodem?",
+        answer: "Robota bez przewodu łatwiej zainstalować i łatwiej zmienić mu strefy koszenia, ale przewód ograniczający wciąż jest najpewniejszy w ogrodach z wieloma drzewami. Modele RTK ustalają pozycję z sygnału satelitarnego korygowanego przez stację referencyjną; pod koronami drzew i przy wysokich budynkach tracą dokładność. Modele z kamerą rozpoznają krawędź trawnika, ale mylą się przy niewyraźnej granicy z rabatą. Rozwiązania łączące RTK i kamerę najlepiej równoważą słabe strony obu technologii.",
       },
       {
         question: "Czy robot koszący jest bezpieczny dla jeży, dzieci i zwierząt?",
-        answer: "Tylko wtedy, gdy pracuje w dzień: jeże, w Polsce objęte ochroną gatunkową, żerują nocą, nie uciekają przed nożami i łatwo odnoszą poważne rany. Harmonogram warto ustawić wyłącznie na godziny dzienne. Dzieci i zwierzęta powinny przebywać poza trawnikiem podczas koszenia, nawet jeśli noże zatrzymują się po podniesieniu robota. Przed pierwszym koszeniem w sezonie dobrze jest obejść ogród i usunąć zabawki, gałęzie oraz kamienie.",
+        answer: "Dla jeży – tylko wtedy, gdy kosi w dzień: jeże, w Polsce objęte ochroną gatunkową, żerują nocą, nie uciekają przed nożami i łatwo odnoszą poważne rany. Harmonogram warto więc ustawić wyłącznie na godziny dzienne. Podczas koszenia dzieci i zwierzęta domowe nie powinny przebywać na trawniku, nawet jeśli noże zatrzymują się po podniesieniu robota. Przed pierwszym koszeniem w sezonie dobrze jest obejść ogród i usunąć zabawki, gałęzie oraz kamienie.",
       },
       {
-        question: "Jak zabezpieczyć kosiarkę automatyczną przed kradzieżą?",
-        answer: "Należy włączyć blokadę PIN i alarm podniesienia, a przy większym ryzyku wybrać model z lokalizacją GPS. Zablokowany kodem i przypisany do konta robot jest bezużyteczny dla złodzieja. Lokalizacja przez sieć komórkową bywa darmowa tylko przez kilka lat, potem wymaga abonamentu. Warto też sprawdzić w OWU ubezpieczenia domu, czy obejmuje mienie pozostawione w ogrodzie, bo część polis chroni je tylko przed kradzieżą z włamaniem.",
+        question: "Jak zabezpieczyć robota koszącego przed kradzieżą?",
+        answer: "Włącz blokadę PIN i alarm przy podniesieniu, a jeśli ryzyko kradzieży jest większe, wybierz model z lokalizacją GPS. Robot zablokowany kodem i przypisany do konta jest dla złodzieja bezużyteczny. Lokalizacja przez sieć komórkową bywa bezpłatna tylko przez kilka lat, potem wymaga abonamentu. Sprawdź też w OWU ubezpieczenia domu, czy obejmuje ono mienie pozostawione w ogrodzie, bo część polis chroni je tylko przed kradzieżą z włamaniem.",
       },
       {
-        question: "Ile prądu zużywa kosiarka automatyczna i jak ją przechować zimą?",
-        answer: "Zużycie jest niewielkie: przy 6 kWh miesięcznie przez siedem miesięcy i cenie 1 zł za kWh sezon kosztuje około 42 zł. Miesięczne zużycie podaje karta produktu. Przed zimą robota trzeba dokładnie oczyścić, naładować akumulator i przechowywać w suchym pomieszczeniu bez mrozu, na przykład w garażu. Stację ładującą najlepiej odłączyć od zasilania, a o jej demontażu decyduje instrukcja producenta. Małe noże wymienia się kilka razy w sezonie.",
+        question: "Ile prądu zużywa robot koszący i jak go przechowywać zimą?",
+        answer: "Zużycie jest niewielkie: przy 6 kWh miesięcznie przez siedem miesięcy i przykładowej cenie 1 zł za kWh sezon kosztuje około 42 zł. Miesięczne zużycie podaje karta produktu. Przed zimą robota trzeba dokładnie oczyścić, naładować akumulator i schować w suchym pomieszczeniu, w którym nie ma mrozu, na przykład w garażu. Stację ładującą najlepiej odłączyć od zasilania, a to, czy ją zdemontować, podpowie instrukcja producenta. Małe noże tnące wymienia się kilka razy w sezonie.",
       },
     ],
   },
@@ -293,23 +293,23 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     pl: [
       {
         question: "Jaki sterownik nawadniania z Wi-Fi wybrać?",
-        answer: "Do węża lub linii kroplującej wystarczy sterownik kranowy, a do instalacji podziemnej ze zraszaczami potrzebny jest sterownik strefowy z elektrozaworami. Lepiej wybrać Wi-Fi przez bramkę niż sam Bluetooth, bo pozwala zmieniać harmonogram poza domem i korzystać z prognozy pogody. Warto sprawdzić zgodność z Google Home, Alexą lub aplikacją Tuya oraz zasięg Wi-Fi w ogrodzie. Przy wodzie ze studni trzeba też dopasować sterowanie do pompy.",
+        answer: "Do węża lub linii kroplującej wystarczy sterownik kranowy, a do instalacji podziemnej ze zraszaczami potrzebny jest sterownik strefowy z elektrozaworami. Lepiej wybrać łączność Wi-Fi, choćby przez bramkę, niż sam Bluetooth: pozwala zmieniać harmonogram spoza domu i korzystać z prognozy pogody. Sprawdź zgodność z Google Home, Alexą lub aplikacją Tuya oraz zasięg Wi-Fi w ogrodzie. Jeśli podlewasz wodą ze studni, trzeba też dopasować sterowanie do pompy.",
       },
       {
-        question: "Czy opłaca się podlicznik do podlewania ogrodu?",
-        answer: "Często tak, bo woda zmierzona podlicznikiem ogrodowym zwykle nie jest doliczana do ścieków, za które płaci się osobno. Zasady ustala lokalne przedsiębiorstwo wodociągowe lub gmina: zwykle trzeba zgłosić montaż, zaplombować licznik i co kilka lat go wymienić. Opłacalność łatwo policzyć: roczna ilość wody do podlewania w m³ razy stawka za ścieki, minus koszt montażu i ewentualnej opłaty abonamentowej.",
+        question: "Czy opłaca się założyć podlicznik do podlewania ogrodu?",
+        answer: "Często tak, bo za wodę zmierzoną podlicznikiem ogrodowym zwykle nie płaci się za odprowadzanie ścieków. Zasady ustala lokalne przedsiębiorstwo wodociągowe lub gmina: najczęściej trzeba zgłosić montaż, zlecić zaplombowanie licznika i co kilka lat go wymieniać. Opłacalność łatwo policzyć: roczne zużycie wody do podlewania w m³ razy stawka za ścieki, minus koszt montażu i ewentualnej opłaty abonamentowej.",
       },
       {
         question: "Czy latem można podlewać ogród, gdy gmina wprowadza zakaz?",
         answer: "Nie w godzinach objętych zakazem: w upały niektóre gminy i wodociągi ograniczają podlewanie wodą z sieci, zwłaszcza w szczycie dnia. Komunikaty publikuje urząd gminy lub przedsiębiorstwo wodociągowe. Sterownik warto ustawić na noc lub wczesny ranek, gdy zużycie w sieci jest najniższe, a parowanie najmniejsze. Zakazy dotyczą zwykle wody wodociągowej, więc deszczówka ze zbiornika jest dobrą alternatywą.",
       },
       {
-        question: "Linia kroplująca czy zraszacze – co lepsze?",
-        answer: "Linia kroplująca do żywopłotów, rabat i warzywnika, zraszacze tylko do trawnika. Kroplowanie podaje wodę bezpośrednio do korzeni, więc prawie nic nie paruje, a zraszacz traci część wody przy słońcu i wietrze. Przykład: zraszacz 600 l/h przez 20 minut zużyje 200 litrów, a 30 kroplowników po 2 l/h przez godzinę 60 litrów. Oba systemy można podłączyć do jednego sterownika w osobnych strefach.",
+        question: "Linia kroplująca czy zraszacze – co wybrać?",
+        answer: "Linia kroplująca do żywopłotów, rabat i warzywnika, zraszacze tylko do trawnika. Kroplowniki podają wodę bezpośrednio pod korzenie, więc prawie nic nie wyparowuje, a zraszacz w słońcu i na wietrze traci część wody. Przykład: zraszacz 600 l/h przez 20 minut zużyje 200 litrów, a 30 kroplowników po 2 l/h przez godzinę – 60 litrów. Oba systemy można podłączyć do jednego sterownika w osobnych strefach.",
       },
       {
         question: "Jak przygotować nawadnianie automatyczne do zimy?",
-        answer: "Przed pierwszymi przymrozkami trzeba spuścić wodę z instalacji, a sterownik kranowy zdjąć i schować w suchym miejscu. Instalację podziemną najlepiej przedmuchać sprężonym powietrzem, bo woda pozostawiona w rurach i elektrozaworach może je rozsadzić. Ze sterownika kranowego należy wyjąć baterie. Zawór kranu zewnętrznego warto zamknąć od środka domu i otworzyć kran na zewnątrz, by spuścić resztę wody.",
+        answer: "Przed pierwszymi przymrozkami trzeba spuścić wodę z instalacji, a sterownik kranowy zdjąć i schować w suchym miejscu. Instalację podziemną najlepiej przedmuchać sprężonym powietrzem, bo woda pozostawiona w rurach i elektrozaworach może je rozsadzić, gdy zamarznie. Ze sterownika kranowego należy wyjąć baterie. Zawór kranu zewnętrznego warto zamknąć od środka domu i odkręcić kran na zewnątrz, by spuścić resztę wody.",
       },
     ],
   },
@@ -449,23 +449,23 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     pl: [
       {
         question: "Czy lampy solarne działają zimą w Polsce?",
-        answer: "Działają, ale zimą świecą krócej i słabiej, bo krótki dzień i niskie słońce nie wystarczają do pełnego naładowania akumulatora. Panel warto skierować na południe i usuwać z niego śnieg oraz brud. Pomagają modele z panelem na przewodzie, który można umieścić w słońcu, gdy lampa stoi w cieniu. Przy wejściu, schodach i podjeździe, które trzeba oświetlać każdego wieczoru, pewniejsze są lampy przewodowe.",
+        answer: "Działają, ale zimą świecą krócej i słabiej, bo krótki dzień i niskie słońce nie wystarczają do pełnego naładowania akumulatora. Panel warto skierować na południe i usuwać z niego śnieg oraz brud. Pomocne są modele z osobnym panelem na przewodzie, który można ustawić w słońcu, nawet gdy lampa stoi w cieniu. Przy wejściu, schodach i podjeździe, które trzeba oświetlać każdego wieczoru, pewniejsze są lampy zasilane z sieci.",
       },
       {
         question: "Oświetlenie ogrodowe 12 V czy 230 V?",
-        answer: "Do samodzielnego montażu lepsze jest 12 V, a 230 V wybiera się przy dużej mocy lub długich odcinkach, z montażem przez elektryka. System 12 V podłącza się przez zasilacz do gniazdka zewnętrznego, więc w ziemi nie ma napięcia sieciowego. Instalacja 230 V w ogrodzie wymaga kabla ziemnego, wyłącznika różnicowoprądowego 30 mA i szczelnych puszek, dlatego powinien ją wykonać elektryk z uprawnieniami. Oba systemy można sterować z aplikacji.",
+        answer: "Do samodzielnego montażu lepsze jest 12 V, a 230 V wybiera się przy dużej mocy lub długich odcinkach i zleca elektrykowi. System 12 V podłącza się przez zasilacz do gniazdka zewnętrznego, więc w ziemi nie ma napięcia sieciowego. Instalacja 230 V w ogrodzie wymaga kabla ziemnego, wyłącznika różnicowoprądowego 30 mA i szczelnych puszek, dlatego powinien ją wykonać elektryk z uprawnieniami. Obydwoma systemami można sterować z aplikacji.",
       },
       {
         question: "Jakie inteligentne oświetlenie zewnętrzne wybrać?",
-        answer: "Najpierw warto sprawdzić szczelność, co najmniej IP44, a przy deszczu IP65, a potem zgodność z systemem smart home. Lampy Zigbee, na przykład Philips Hue, wymagają mostka, lampy Wi-Fi, często obsługiwane przez aplikację Tuya, potrzebują dobrego zasięgu w ogrodzie, a Matter ułatwia łączenie marek. Ciepła barwa 2700–3000 K jest przyjemniejsza i mniej szkodzi owadom. Czujnik ruchu lub zmierzchu ogranicza zużycie prądu.",
+        answer: "Najpierw sprawdź stopień szczelności – co najmniej IP44, a w miejscach narażonych na deszcz IP65 – a potem zgodność z systemem smart home. Lampy Zigbee, np. Philips Hue, wymagają mostka; lampy Wi-Fi, często obsługiwane przez aplikację Tuya, potrzebują dobrego zasięgu w ogrodzie, a Matter ułatwia łączenie urządzeń różnych marek. Ciepła barwa światła 2700–3000 K jest przyjemniejsza dla oka i mniej szkodzi owadom. Czujnik ruchu lub zmierzchu ogranicza zużycie prądu.",
       },
       {
         question: "Ile prądu zużywa oświetlenie ogrodu?",
-        answer: "Niewiele: dziesięć lamp LED po 5 W świecących przez 4 godziny zużywa 0,2 kWh, czyli około 20 groszy przy cenie 1 zł za kWh. W grudniu, gdy lampy świecą od zmierzchu do świtu nawet kilkanaście godzin, koszt rośnie kilkukrotnie. Przy taryfie G12 część nocnych godzin jest tańsza. Czujnik ruchu i harmonogram wyłączający światło o północy to najprostszy sposób na niższy rachunek.",
+        answer: "Niewiele: dziesięć lamp LED po 5 W świecących przez 4 godziny zużywa 0,2 kWh, czyli około 20 groszy przy przykładowej cenie 1 zł za kWh. W grudniu, gdy lampy świecą od zmierzchu do świtu nawet kilkanaście godzin, koszt rośnie kilkukrotnie. W taryfie G12 prąd jest tańszy w części godzin nocnych. Czujnik ruchu i harmonogram wyłączający światło o północy to najprostszy sposób na niższy rachunek.",
       },
       {
         question: "Czy oświetlenie ogrodu może przeszkadzać sąsiadom?",
-        answer: "Tak, a sąsiad może powołać się na przepisy o immisjach (artykuł 144 Kodeksu cywilnego), jeśli światło zakłóca korzystanie z jego nieruchomości ponad przeciętną miarę. Reflektory warto kierować w dół i na własną działkę, a mocne lampy wyposażyć w czujnik ruchu z krótkim czasem świecenia. Harmonogram wyłączający oświetlenie w nocy zmniejsza też rachunek i mniej szkodzi owadom oraz nietoperzom.",
+        answer: "Tak, a jeśli światło zakłóca sąsiadowi korzystanie z jego nieruchomości ponad przeciętną miarę, może on powołać się na przepisy o immisjach (art. 144 Kodeksu cywilnego). Reflektory warto kierować w dół i na własną działkę, a mocne lampy wyposażyć w czujnik ruchu z krótkim czasem świecenia. Wyłączanie oświetlenia w nocy według harmonogramu obniża też rachunek i chroni owady oraz nietoperze.",
       },
     ],
   },
@@ -605,23 +605,23 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     pl: [
       {
         question: "Jak sterować bramą wjazdową z telefonu?",
-        answer: "Wystarczy dodać moduł Wi-Fi lub GSM podłączony do wejścia przycisku w centrali automatyki, bez wymiany napędu. Producenci automatyki, na przykład Nice czy Somfy, oferują własne moduły, a uniwersalne działają z większością central. Warto wybrać model z czujnikiem położenia, który pokaże w aplikacji, czy brama jest zamknięta. Wersja GSM przyda się, gdy Wi-Fi nie sięga do bramy.",
+        answer: "Wystarczy podłączyć moduł Wi-Fi lub GSM do wejścia przycisku w centrali sterującej – samego napędu nie trzeba wymieniać. Producenci automatyki, na przykład Nice czy Somfy, oferują własne moduły, a uniwersalne działają z większością central. Warto wybrać model z czujnikiem położenia, który pokaże w aplikacji, czy brama jest zamknięta. Wersja GSM przyda się, gdy Wi-Fi nie sięga do bramy.",
       },
       {
         question: "Pilot do bramy nie działa – co sprawdzić?",
-        answer: "Najpierw baterię, a potem to, czy pilot nie stracił sparowania z centralą. Po wymianie baterii pilota można ponownie zaprogramować przyciskiem w centrali lub sekwencją z instrukcji. Nowy pilot musi pasować do częstotliwości, zwykle 433 lub 868 MHz, i do systemu kodowania: kod zmienny programuje się w centrali, a stały można skopiować. Jeśli zasięg nagle spadł, przyczyną bywają zakłócenia od nowych urządzeń radiowych w pobliżu.",
+        answer: "Najpierw baterię, a potem to, czy centrala nadal rozpoznaje pilota. Po wymianie baterii pilota można ponownie zaprogramować przyciskiem w centrali lub sekwencją z instrukcji. Nowy pilot musi działać na tej samej częstotliwości (zwykle 433 lub 868 MHz) i w tym samym systemie kodowania: pilot z kodem zmiennym programuje się w centrali, a z kodem stałym można po prostu skopiować. Jeśli zasięg nagle spadł, przyczyną bywają zakłócenia od nowych urządzeń radiowych w pobliżu.",
       },
       {
         question: "Brama otwiera się, ale nie zamyka – dlaczego?",
         answer: "Najczęściej winne są fotokomórki: brudne, przestawione lub zasłonięte blokują zamykanie ze względów bezpieczeństwa. Trzeba przetrzeć soczewki, usunąć przeszkodę z wiązki, na przykład gałąź lub zaspę śnieżną, i sprawdzić diodę odbiornika. W fotokomórkach bezprzewodowych warto wymienić baterie. Jeśli to nie pomaga, problem może dotyczyć krańcówek lub ustawień centrali i lepiej wezwać instalatora, niż mostkować zabezpieczenie.",
       },
       {
-        question: "Brama przesuwna czy skrzydłowa – co lepiej zautomatyzować?",
-        answer: "Przesuwna lepiej znosi zimę i pochyły podjazd, a skrzydłowa jest prostsza, gdy za bramą jest płaski i wolny teren. Skrzydła potrzebują miejsca na otwarcie, a śnieg lub spadek terenu potrafią je zablokować. Brama przesuwna wymaga z kolei miejsca wzdłuż ogrodzenia na odsunięcie skrzydła. Oba typy można wyposażyć w napęd z modułem Wi-Fi, fotokomórki i lampę ostrzegawczą.",
+        question: "Brama przesuwna czy skrzydłowa – którą lepiej zautomatyzować?",
+        answer: "Przesuwna lepiej sprawdza się zimą i na pochyłym podjeździe, a skrzydłowa jest prostsza, gdy za bramą jest płaski i wolny teren. Skrzydła potrzebują miejsca na otwarcie, a śnieg lub spadek terenu potrafią je zablokować. Brama przesuwna wymaga z kolei miejsca wzdłuż ogrodzenia na odsunięcie skrzydła. Oba typy można wyposażyć w napęd z modułem Wi-Fi, fotokomórki i lampę ostrzegawczą.",
       },
       {
-        question: "Co zrobić z bramą automatyczną przy braku prądu?",
-        answer: "Należy odblokować napęd kluczem lub dźwignią awaryjną i przesunąć bramę ręcznie. Klucz do odblokowania warto trzymać w miejscu znanym domownikom, bo bez niego brama pozostaje zablokowana. Dla garażu bez drugiego wejścia przydaje się odblokowanie od zewnątrz. Wielu producentów oferuje akumulator awaryjny, który pozwala wykonać kilka cykli bez zasilania. Po powrocie prądu napęd trzeba ponownie zablokować.",
+        question: "Jak otworzyć bramę automatyczną, gdy nie ma prądu?",
+        answer: "Odblokuj napęd kluczem lub dźwignią awaryjną i otwórz bramę ręcznie. Klucz do odblokowania trzymaj w miejscu znanym domownikom, bo bez niego brama pozostaje zablokowana. W garażu bez drugiego wejścia przydaje się odblokowanie awaryjne od zewnątrz. Wielu producentów oferuje akumulator awaryjny, który pozwala wykonać kilka cykli bez zasilania. Po powrocie prądu napęd trzeba ponownie zablokować.",
       },
     ],
   },
@@ -760,23 +760,23 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     ],
     pl: [
       {
-        question: "Jaki robot do basenu stelażowego?",
-        answer: "Do basenu stelażowego wystarczy lekki robot czyszczący samo dno, dopuszczony przez producenta do basenów z miękkimi ścianami. Ciężkie roboty wspinające się po ścianach mogą odkształcać folię, dlatego warto sprawdzić w instrukcji, czy nadają się do basenów naziemnych. Model bezprzewodowy oszczędza przekładania kabla przez wysoką krawędź. W basenie murowanym lub z niecką lepiej sprawdzi się robot czyszczący także ściany i linię wody.",
+        question: "Jaki robot wybrać do basenu stelażowego?",
+        answer: "Do basenu stelażowego wystarczy lekki robot czyszczący samo dno, dopuszczony przez producenta do basenów z miękkimi ścianami. Ciężkie roboty wspinające się po ścianach mogą odkształcać folię, dlatego sprawdź w instrukcji, czy nadają się do basenów naziemnych. Przy modelu bezprzewodowym nie trzeba przekładać kabla przez wysoką krawędź. W basenie murowanym albo z gotową niecką lepiej sprawdzi się robot, który czyści także ściany i linię wody.",
       },
       {
         question: "Robot basenowy czy ręczny odkurzacz basenowy?",
-        answer: "Robot opłaca się, gdy basen działa przez cały sezon i szkoda czasu na odkurzanie co kilka dni; przy małym basenie i okazjonalnym użyciu wystarczy ręczny odkurzacz. Odkurzacz ręczny podłączany do pompy filtrującej lub na akumulator jest tani, ale wymaga pracy. Robot działa sam, ma własny filtr i nie obciąża pompy basenu. W obu przypadkach liście warto zbierać siatką na bieżąco.",
+        answer: "Robot opłaca się, gdy basen jest używany przez cały sezon, a Ty nie chcesz tracić czasu na odkurzanie co kilka dni; przy małym basenie i okazjonalnym użyciu wystarczy ręczny odkurzacz. Taki odkurzacz, podłączany do pompy filtrującej lub zasilany akumulatorem, jest tani, ale wymaga pracy. Robot działa sam, ma własny filtr i nie obciąża pompy basenu. W obu przypadkach liście warto zbierać siatką na bieżąco.",
       },
       {
         question: "Robot basenowy bezprzewodowy czy z kablem?",
-        answer: "Bezprzewodowy do małych i średnich basenów, z kablem do dużych basenów i długiego, dokładnego sprzątania. Model akumulatorowy nie plącze kabla, ale czas pracy jest ograniczony, a ładowanie odbywa się poza wodą. Robot z kablem pracuje tak długo, jak trzeba, i zwykle mocniej wspina się po ścianach. Zasilacz należy ustawić w odległości od brzegu podanej w instrukcji i podłączyć do gniazda z wyłącznikiem różnicowoprądowym.",
+        answer: "Bezprzewodowy do małych i średnich basenów, z kablem do dużych basenów i długiego, dokładnego sprzątania. Model akumulatorowy nie ma kabla, który mógłby się plątać, ale czas pracy jest ograniczony, a ładuje się go poza wodą. Robot z kablem pracuje tak długo, jak trzeba, i zwykle lepiej wspina się po ścianach. Zasilacz ustaw w odległości od brzegu podanej w instrukcji i podłącz do gniazda z wyłącznikiem różnicowoprądowym.",
       },
       {
         question: "Ile prądu zużywa robot basenowy?",
-        answer: "Niewiele: robot o mocy 150 W podczas dwugodzinnego cyklu zużywa 0,3 kWh, czyli około 30 groszy przy cenie 1 zł za kWh. Przy trzech cyklach w tygodniu przez polskie lato daje to kilkanaście złotych za sezon. Na taryfie G12 opłaca się uruchamiać go w tańszych godzinach. Największym odbiornikiem prądu przy basenie pozostaje pompa filtrująca, której robot nie zastępuje.",
+        answer: "Niewiele: robot o mocy 150 W zużywa podczas dwugodzinnego cyklu 0,3 kWh, czyli około 30 groszy przy przykładowej cenie 1 zł za kWh. Przy trzech cyklach w tygodniu przez polskie lato daje to kilkanaście złotych za sezon. W taryfie G12 opłaca się uruchamiać go w tańszych godzinach. Największym odbiornikiem prądu przy basenie pozostaje pompa filtrująca, której robot nie zastępuje.",
       },
       {
-        question: "Jak przechować robota basenowego zimą?",
+        question: "Jak przechowywać robota basenowego zimą?",
         answer: "Robota trzeba dokładnie umyć, wysuszyć i przechowywać w pomieszczeniu, w którym nie ma mrozu. Filtr i szczotki warto wypłukać czystą wodą, a kabel rozwinąć i sprawdzić, czy nie jest uszkodzony. W modelu akumulatorowym akumulator przechowuje się z poziomem naładowania zalecanym w instrukcji i co kilka miesięcy doładowuje. Mróz w garażu lub altanie może uszkodzić uszczelki i elektronikę.",
       },
     ],
@@ -917,7 +917,7 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     pl: [
       {
         question: "Grill na pellet czy gazowy?",
-        answer: "Grill na pellet do długiego wędzenia i pieczenia sterowanego z aplikacji, gazowy do szybkiego grillowania i mocnego przypiekania. W grillu na pellet podajnik ślimakowy dozuje pellet według zadanej temperatury, co ułatwia wielogodzinne pieczenie żeberek czy karkówki. Wymaga gniazdka i nagrzewa się wolniej. Gazowy jest gotowy w kilka minut i nie potrzebuje prądu, ale nie daje takiego aromatu dymu.",
+        answer: "Grill na pellet do długiego wędzenia i pieczenia sterowanego z aplikacji, gazowy do szybkiego grillowania i mocnego przypiekania. W grillu na pellet podajnik ślimakowy dozuje pellet według zadanej temperatury, co ułatwia wielogodzinne pieczenie żeberek czy karkówki. Potrzebuje jednak zasilania z gniazdka i wolniej się nagrzewa. Grill gazowy jest gotowy po kilku minutach i nie wymaga prądu, ale nie nadaje potrawom takiego dymnego aromatu.",
       },
       {
         question: "Czy można grillować na balkonie w bloku?",
@@ -925,15 +925,15 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "Ile pelletu zużywa grill na pellet?",
-        answer: "Około 0,5 kg na godzinę przy niskiej temperaturze i ponad 1 kg na godzinę przy pełnej mocy, więcej przy wietrze i chłodzie. Sześciogodzinne pieczenie karkówki czy żeberek to więc 3–4 kg pelletu. Należy używać pelletu spożywczego do grilla, a nie opałowego. Prąd to niewielki koszt: grzałka zapłonowa pobiera kilkaset watów przez kilka minut, potem wentylator i podajnik zużywają mało.",
+        answer: "Około 0,5 kg na godzinę przy niskiej temperaturze i ponad 1 kg na godzinę przy pełnej mocy, a przy wietrze i chłodzie więcej. Sześciogodzinne pieczenie karkówki czy żeberek to więc 3–4 kg pelletu. Używaj pelletu przeznaczonego do grillowania, a nie opałowego. Koszt prądu jest niewielki: grzałka zapłonowa pobiera kilkaset watów tylko przez kilka minut, a potem wentylator i podajnik zużywają niewiele energii.",
       },
       {
         question: "Czy warto kupić bezprzewodowy termometr do mięsa?",
-        answer: "Tak, zwłaszcza przy dużych kawałkach i długim pieczeniu, bo powiadamia na telefonie o osiągnięciu temperatury bez otwierania pokrywy. Termometry Bluetooth mają ograniczony zasięg przez ściany, a wersje z Wi-Fi pozwalają śledzić pieczenie z dowolnego miejsca. Sonda musi wytrzymać temperaturę wnętrza grilla. Drób powinien osiągnąć w najgrubszym miejscu około 75 °C, a karkówka do szarpania około 90 °C.",
+        answer: "Tak, zwłaszcza przy dużych kawałkach mięsa i długim pieczeniu, bo wysyła na telefon powiadomienie o osiągnięciu zadanej temperatury i nie trzeba otwierać pokrywy. Termometry Bluetooth mają ograniczony zasięg, zwłaszcza przez ściany, a modele z Wi-Fi pozwalają śledzić pieczenie z dowolnego miejsca. Sonda musi wytrzymać temperaturę panującą w grillu. Drób powinien osiągnąć w najgrubszym miejscu około 75 °C, a karkówka na szarpaną wieprzowinę – około 90 °C.",
       },
       {
         question: "Jak czyścić grill na pellet?",
-        answer: "Co kilka użyć trzeba usunąć popiół z paleniska i wyczyścić tackę na tłuszcz, bo ich nadmiar utrudnia rozpalanie i grozi zapłonem. Zimny popiół najszybciej usuwa odkurzacz do popiołu. Pellet przechowuje się w suchym, zamkniętym miejscu, bo wilgotny pęcznieje i blokuje podajnik. Na zimę warto opróżnić zasobnik, przykryć grill pokrowcem i zainstalować aktualizacje aplikacji.",
+        answer: "Co kilka użyć usuń popiół z paleniska i wyczyść tackę na tłuszcz: nagromadzony popiół utrudnia rozpalanie, a tłuszcz może się zapalić. Zimny popiół najszybciej usuniesz odkurzaczem do popiołu. Pellet przechowuj w suchym, zamkniętym miejscu, bo wilgotny pęcznieje i blokuje podajnik. Na zimę warto opróżnić zasobnik, przykryć grill pokrowcem i zainstalować aktualizacje aplikacji.",
       },
     ],
   },
@@ -1073,23 +1073,23 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     pl: [
       {
         question: "Jaką pojemność stacji zasilania wybrać?",
-        answer: "Należy zsumować waty × godziny wszystkich urządzeń i dodać około 20% na straty przetwarzania. Przykład: lodówka turystyczna 60 W przez 10 godzin (600 Wh) i laptop 50 W przez 3 godziny (150 Wh) dają 750 Wh, więc warto szukać stacji około 900 Wh. Moc wyjściowa w watach musi też pokryć najbardziej prądożerne urządzenie wraz z jego szczytem rozruchowym. Na długie lata lepszy jest akumulator LiFePO4.",
+        answer: "Zsumuj zużycie wszystkich urządzeń (moc w watach × liczba godzin pracy) i dodaj około 20% na straty przetwarzania. Przykład: lodówka turystyczna 60 W przez 10 godzin (600 Wh) i laptop 50 W przez 3 godziny (150 Wh) dają 750 Wh, więc warto szukać stacji o pojemności około 900 Wh. Moc wyjściowa musi też wystarczyć dla najbardziej prądożernego urządzenia, łącznie z jego mocą rozruchową. Jeśli stacja ma służyć przez lata, wybierz akumulator LiFePO4.",
       },
       {
         question: "Stacja zasilania czy agregat prądotwórczy na działkę?",
-        answer: "Na działkę bez prądu, także w ROD, lepsza jest stacja zasilania: jest cicha, nie spala paliwa i nie przeszkadza sąsiadom. Regulaminy ogrodów działkowych często ograniczają hałas, a agregat słychać z daleka. Stację można ładować w domu, z samochodu lub z panelu słonecznego i używać do lodówki, oświetlenia czy elektronarzędzi o umiarkowanej mocy. Agregat ma sens przy dużych odbiornikach, jak pompa czy betoniarka, i zawsze tylko na zewnątrz.",
+        answer: "Na działkę bez prądu, także w ROD, lepsza jest stacja zasilania: jest cicha, nie spala paliwa i nie przeszkadza sąsiadom. Regulaminy ogrodów działkowych często ograniczają hałas, a agregat słychać z daleka. Stację można ładować w domu, z samochodu lub z panelu słonecznego i zasilać nią lodówkę, oświetlenie czy elektronarzędzia o umiarkowanej mocy. Agregat ma sens przy prądożernych urządzeniach, takich jak pompa czy betoniarka, i zawsze należy go uruchamiać na zewnątrz.",
       },
       {
         question: "Ile kosztuje naładowanie stacji zasilania?",
-        answer: "Niewiele: pełne naładowanie stacji 1000 Wh pobiera ze stratami około 1,1–1,2 kWh, czyli około 1,15 zł przy cenie 1 zł za kWh. Na taryfie G12 opłaca się ładować w tańszych godzinach, zwykle w nocy i w części popołudnia, zależnie od operatora. Ładowanie z panelu słonecznego jest darmowe, ale wolniejsze: panel 200 W osiąga tę moc tylko w pełnym słońcu. Jako sposób na oszczędzanie w domu stacja się nie sprawdzi.",
+        answer: "Niewiele: pełne naładowanie stacji 1000 Wh pobiera ze stratami około 1,1–1,2 kWh, czyli 1,10–1,20 zł przy przykładowej cenie 1 zł za kWh. W taryfie G12 opłaca się ładować w tańszych godzinach, zwykle w nocy i w części popołudnia, zależnie od operatora. Ładowanie z panelu słonecznego jest bezpłatne, ale wolniejsze: panel 200 W osiąga tę moc tylko w pełnym słońcu. Stacja zasilania nie jest natomiast sposobem na obniżenie domowych rachunków.",
       },
       {
         question: "Czy można zabrać stację zasilania do samolotu?",
-        answer: "Prawie nigdy: akumulatory litowe powyżej 160 Wh są zakazane w samolotach pasażerskich, a większość stacji ma znacznie więcej. Baterie od 100 do 160 Wh wymagają zgody linii lotniczej i mogą lecieć tylko w bagażu podręcznym. Powerbank poniżej 100 Wh można zabrać do kabiny bez zgody. Na wyjazd samolotem lepiej wypożyczyć stację na miejscu albo zabrać sam panel słoneczny.",
+        answer: "Prawie nigdy: akumulatorów litowych o pojemności powyżej 160 Wh nie wolno przewozić samolotami pasażerskimi, a większość stacji ma znacznie więcej. Baterie od 100 do 160 Wh wymagają zgody linii lotniczej i mogą lecieć tylko w bagażu podręcznym. Powerbank poniżej 100 Wh możesz zabrać do kabiny bez zgody przewoźnika. Na wyjazd samolotem lepiej wypożyczyć stację na miejscu albo zabrać sam panel słoneczny.",
       },
       {
         question: "Jak długo wytrzyma akumulator stacji zasilania?",
-        answer: "Akumulator LiFePO4 według deklaracji producentów wytrzymuje zwykle 3000 cykli lub więcej do spadku pojemności do 80%, a NMC od kilkuset do około tysiąca. NMC jest za to lżejszy przy tej samej pojemności. Stację najlepiej przechowywać naładowaną w 50–80%, w temperaturze dodatniej i z dala od słońca, doładowując ją co trzy miesiące. Mróz w garażu i upał w samochodzie skracają żywotność akumulatora.",
+        answer: "Według producentów akumulator LiFePO4 wytrzymuje zwykle co najmniej 3000 cykli, zanim jego pojemność spadnie do 80%, a akumulator NMC – od kilkuset do około tysiąca. NMC jest za to lżejszy przy tej samej pojemności. Stację najlepiej przechowywać naładowaną w 50–80%, w temperaturze dodatniej i z dala od słońca, doładowując ją co trzy miesiące. Mróz w garażu i upał w samochodzie skracają żywotność akumulatora.",
       },
     ],
   },
@@ -1229,11 +1229,11 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
     pl: [
       {
         question: "Jaki alarm na działkę bez prądu?",
-        answer: "Najlepiej alarm GSM/LTE zasilany z baterii lub akumulatora, który wysyła powiadomienia na telefon i włącza głośną syrenę. Do altany wystarczy czujnik otwarcia drzwi i czujnik ruchu w środku, a akumulator można doładowywać małym panelem słonecznym. Warto wybrać starter na kartę, bez abonamentu, i pamiętać o jego doładowaniu. Alarm odstrasza, ale nie zatrzyma złodzieja, więc solidna kłódka i zamknięte okiennice nadal są potrzebne.",
+        answer: "Najlepiej alarm GSM/LTE zasilany z baterii lub akumulatora, który wysyła powiadomienia na telefon i włącza głośną syrenę. Do altany wystarczy czujnik otwarcia drzwi i czujnik ruchu w środku, a akumulator można doładowywać małym panelem słonecznym. Wybierz starter na kartę, bez abonamentu, i pilnuj, by na koncie nie zabrakło środków. Alarm odstrasza, ale nie zatrzyma złodzieja, więc solidna kłódka i zamknięte okiennice nadal są potrzebne.",
       },
       {
-        question: "Czujnik ruchu zewnętrzny daje fałszywe alarmy – co zrobić?",
-        answer: "Zwykle winne są koty, gałęzie poruszane wiatrem albo słońce nagrzewające obszar dozoru. Czujnik należy skierować na otwartą przestrzeń, nie na ulicę, żywopłot ani poranne słońce, i zmniejszyć czułość. Czujniki dualne, łączące podczerwień i mikrofale, alarmują tylko wtedy, gdy ruch wykryją oba sensory. Pomaga też przycięcie gałęzi, usunięcie pajęczyn z soczewki i wybór modelu odpornego na zwierzęta.",
+        question: "Zewnętrzny czujnik ruchu daje fałszywe alarmy – co zrobić?",
+        answer: "Zwykle winne są koty, gałęzie poruszane wiatrem albo słońce nagrzewające obszar dozoru. Skieruj czujnik na otwartą przestrzeń – nie na ulicę, żywopłot ani w stronę porannego słońca – i zmniejsz czułość. Czujniki dualne, łączące podczerwień i mikrofale, alarmują tylko wtedy, gdy ruch wykryją oba sensory. Pomaga też przycięcie gałęzi, usunięcie pajęczyn z soczewki i wybór modelu odpornego na zwierzęta.",
       },
       {
         question: "Alarm z monitoringiem agencji ochrony czy bez abonamentu?",
@@ -1241,11 +1241,11 @@ export const OUTDOOR_FAQS: CategoryFaqSets = {
       },
       {
         question: "Czy syrena zewnętrzna może wyć bez końca?",
-        answer: "Nie, warto ustawić krótki czas działania syreny, bo długotrwały alarm może zostać uznany za wykroczenie zakłócania spokoju z artykułu 51 Kodeksu wykroczeń. Przepis wprost wymienia zakłócanie spokoju lub spoczynku nocnego alarmem. Po kilku minutach syrena powinna ucichnąć, a dalej może działać tylko sygnalizator świetlny. Powiadomienia w aplikacji pozwalają sprawdzić przyczynę i wyłączyć alarm zdalnie.",
+        answer: "Nie, warto ustawić krótki czas działania syreny, bo długotrwały alarm może zostać uznany za wykroczenie zakłócania spokoju (art. 51 Kodeksu wykroczeń). Przepis wprost wymienia zakłócanie spokoju lub spoczynku nocnego alarmem. Po kilku minutach syrena powinna ucichnąć, a dalej może działać tylko sygnalizator świetlny. Powiadomienia w aplikacji pozwalają sprawdzić przyczynę i wyłączyć alarm zdalnie.",
       },
       {
         question: "Na jak długo wystarczają baterie w czujnikach zewnętrznych?",
-        answer: "Zwykle od roku do kilku lat, w zależności od tego, jak często czujnik się wyzwala i jak mroźna jest zima. Mróz skraca życie ogniw litowych, a czujnik przy ruchliwej ścieżce zużywa więcej energii. Większość systemów ostrzega w aplikacji o słabej baterii i wtedy warto ją od razu wymienić. Dobrze mieć zapasową baterię dokładnie takiego typu, jak podaje instrukcja, bo wiele czujników używa mniej popularnych ogniw litowych.",
+        answer: "Zwykle od roku do kilku lat, w zależności od tego, jak często czujnik się wyzwala i jak mroźna jest zima. Mróz skraca żywotność ogniw litowych, a czujnik przy ruchliwej ścieżce zużywa więcej energii. Większość systemów ostrzega w aplikacji o słabej baterii i wtedy warto ją od razu wymienić. Dobrze mieć zapasową baterię dokładnie takiego typu, jak podaje instrukcja, bo wiele czujników używa mniej popularnych ogniw litowych.",
       },
     ],
   },

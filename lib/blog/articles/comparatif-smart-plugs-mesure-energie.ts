@@ -18,7 +18,7 @@ export const article: BlogArticle = {
         es: 'Clavija conectada a un enchufe de pared europeo, donde se intercala un enchufe inteligente con medición de consumo',
         it: 'Spina inserita in una presa a muro europea, dove si inserisce una presa smart con misurazione dei consumi',
         nl: 'Stekker in een Europees stopcontact, waar een slimme stekker met energiemeting tussen wordt geplaatst',
-        pl: 'Wtyczka z europejskiej sieci wpięta w gniazdko ścienne, między którą a urządzeniem montuje się inteligentną wtyczkę z pomiarem zużycia energii',
+        pl: 'Wtyczka w europejskim gniazdku ściennym – w tym miejscu wpina się inteligentne gniazdko z pomiarem zużycia energii',
       },
     },
   ],
@@ -29,7 +29,7 @@ export const article: BlogArticle = {
     es: 'Enchufe inteligente con medición de consumo 2026: comparativa de los mejores modelos',
     it: 'Presa smart con misurazione dei consumi 2026: confronto dei migliori modelli',
     nl: 'Slimme stekker met energiemeting 2026: de beste modellen vergeleken',
-    pl: 'Inteligentna wtyczka z pomiarem energii 2026: porównanie najlepszych modeli',
+    pl: 'Inteligentne gniazdko z pomiarem energii 2026: porównanie najlepszych modeli',
   },
   excerpt: {
     fr: 'TP-Link Tapo P115, Meross MSS310, Shelly Plug S Gen3 et Eve Energy : quelle prise connectée avec mesure de consommation choisir en 2026 ? Charge maximale, Wi-Fi ou Thread, Matter, Home Assistant et usages concrets pour traquer les appareils gourmands.',
@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: 'TP-Link Tapo P115, Meross MSS310, Shelly Plug S Gen3 y Eve Energy: ¿qué enchufe inteligente con medición de consumo elegir en 2026? Carga máxima, Wi-Fi o Thread, Matter, Home Assistant y usos prácticos para localizar los aparatos que más gastan.',
     it: 'TP-Link Tapo P115, Meross MSS310, Shelly Plug S Gen3 ed Eve Energy: quale presa smart con misurazione dei consumi scegliere nel 2026? Carico massimo, Wi-Fi o Thread, Matter, Home Assistant e usi concreti per scovare gli apparecchi energivori.',
     nl: 'TP-Link Tapo P115, Meross MSS310, Shelly Plug S Gen3 en Eve Energy: welke slimme stekker met energiemeting kies je in 2026? Maximale belasting, wifi of Thread, Matter, Home Assistant en praktische toepassingen om stroomslurpers op te sporen.',
-    pl: 'TP-Link Tapo P115, Meross MSS310, Shelly Plug S Gen3 i Eve Energy: jaką inteligentną wtyczkę z pomiarem energii wybrać w 2026 roku? Maksymalne obciążenie, Wi-Fi lub Thread, Matter, Home Assistant i praktyczne zastosowania do wyszukiwania prądożernych urządzeń.',
+    pl: 'TP-Link Tapo P115, Meross MSS310, Shelly Plug S Gen3 i Eve Energy: jakie inteligentne gniazdko z pomiarem zużycia energii wybrać w 2026 roku? Maksymalne obciążenie, Wi-Fi czy Thread, Matter, Home Assistant oraz praktyczne sposoby na namierzenie najbardziej prądożernych urządzeń.',
   },
   content: {
     fr: `<p><strong>La meilleure prise connectée avec mesure de consommation pour la plupart des foyers est la TP-Link Tapo P115 : 16 A, suivi de consommation en temps réel et historique, application simple et format compact.</strong> Si vous vivez dans l’écosystème Apple, la Meross MSS310 (version HomeKit) ou l’Eve Energy en Thread sont plus adaptées, et le Shelly Plug S Gen3 s’impose pour Home Assistant et le pilotage 100 % local.</p>
@@ -844,139 +844,139 @@ export const article: BlogArticle = {
 <p><strong>Alternatief voor Apple:</strong> de <strong>Meross MSS310</strong> in de HomeKit-versie, eveneens 16 A en met Apple Woning-integratie.</p>
 <p><strong>Automatiseren zonder meten:</strong> het <strong>Tapo P100 4-pack</strong>, als aanvulling voor kleine apparaten.</p>
 <p>Home Assistant-gebruikers kiezen de <strong>Shelly Plug S Gen3</strong>, huishoudens met een Thread-netwerk de <strong>Eve Energy</strong>. De volledige selectie vind je in onze rubriek <a href="/nl/cuisine-connectee/prises-connectees">slimme stekkers</a>.</p>`,
-    pl: `<p><strong>Najlepsza inteligentna wtyczka z pomiarem energii dla większości domów to TP-Link Tapo P115: 16 A, śledzenie zużycia w czasie rzeczywistym wraz z historią, prosta aplikacja i kompaktowa obudowa.</strong> Jeśli korzystasz z ekosystemu Apple, lepiej sprawdzą się Meross MSS310 (wersja HomeKit) lub Eve Energy w standardzie Thread, a Shelly Plug S Gen3 to propozycja dla użytkowników Home Assistant i sterowania w 100% lokalnego.</p>
-<p>Porównanie opiera się na kartach katalogowych producentów, niezależnych analizach i opiniach zweryfikowanych kupujących. Omawiamy wyłącznie modele sprzedawane w Europie w 2026 roku i wyraźnie zaznaczamy, gdzie wersje różnią się w zależności od kraju.</p>
+    pl: `<p><strong>Najlepsze inteligentne gniazdko z pomiarem energii dla większości domów to TP-Link Tapo P115: 16 A, podgląd zużycia na bieżąco wraz z historią, prosta aplikacja i kompaktowa obudowa.</strong> Jeśli korzystasz z ekosystemu Apple, lepiej sprawdzi się Meross MSS310 (wersja HomeKit) lub Eve Energy działające w standardzie Thread. Po Shelly Plug S Gen3 warto z kolei sięgnąć, jeśli masz Home Assistant i chcesz sterować wszystkim w 100% lokalnie.</p>
+<p>Porównanie opiera się na kartach katalogowych producentów, niezależnych analizach i opiniach zweryfikowanych kupujących. Omawiamy wyłącznie modele sprzedawane w Europie w 2026 roku i wyraźnie zaznaczamy, gdzie wersje różnią się między krajami.</p>
 
-<h2>Dlaczego mierzyć zużycie energii urządzenie po urządzeniu?</h2>
-<p>Licznik energii pokazuje sumę, a nie szczegóły. Inteligentna wtyczka z pomiarem energii wpina się między gniazdko ścienne a urządzenie i wyświetla jego chwilową moc (w watach) oraz zużytą energię (w kWh) w kolejnych dniach. To najprostszy sposób, by odpowiedzieć na konkretne pytania:</p>
+<h2>Po co mierzyć zużycie każdego urządzenia z osobna?</h2>
+<p>Licznik prądu pokazuje łączne zużycie, ale nie mówi, ile pobiera każde urządzenie. Inteligentne gniazdko z pomiarem energii wpinasz między gniazdo ścienne a urządzenie, a ono pokazuje chwilową moc (w watach) i zużytą energię (w kWh) dzień po dniu. To najprostszy sposób, by odpowiedzieć na konkretne pytania:</p>
 <ul>
-<li><strong>Ile naprawdę zużywa ta stara zamrażarka?</strong> Kilka dni pomiarów wystarczy, by oszacować roczne zużycie i ocenić, czy wymiana ma sens.</li>
-<li><strong>Ile kosztuje czuwanie w kąciku telewizyjnym?</strong> Zestaw pobierający stale 5 W pracuje 8 760 godzin w roku, czyli zużywa około 44 kWh. Wtyczka pokaże rzeczywistą wartość dla Twojej instalacji.</li>
-<li><strong>Czy pralka skończyła cykl?</strong> Gdy moc spada do kilku watów, aplikacja lub Twoja centrala inteligentnego domu może wysłać powiadomienie.</li>
-<li><strong>Czy moje ustawienia coś zmieniły?</strong> Historia pozwala porównać jeden tydzień z drugim po zmianie nawyków.</li>
+<li><strong>Ile naprawdę zużywa ta stara zamrażarka?</strong> Wystarczy kilka dni pomiarów, by oszacować jej roczne zużycie i ocenić, czy wymiana się opłaca.</li>
+<li><strong>Ile kosztuje tryb czuwania telewizora i reszty sprzętu RTV?</strong> Zestaw, który stale pobiera 5 W, pracuje 8760 godzin w roku, czyli zużywa około 44 kWh. Gniazdko pokaże rzeczywistą wartość dla Twojego sprzętu.</li>
+<li><strong>Czy pralka skończyła już pranie?</strong> Gdy moc spada do kilku watów, aplikacja lub centrala inteligentnego domu może wysłać Ci powiadomienie.</li>
+<li><strong>Czy nowe ustawienia coś dały?</strong> Dzięki historii porównasz kolejne tygodnie po zmianie nawyków.</li>
 </ul>
-<p>Aby zobaczyć obraz całego mieszkania, przydatny jest uzupełniająco licznik energii w rozdzielnicy: zajrzyj do naszego <a href="/pl/blog/compteur-energie-connecte-comparatif">porównania inteligentnych liczników energii</a>.</p>
+<p>Jeśli chcesz widzieć zużycie całego mieszkania, przyda się dodatkowo licznik energii montowany w rozdzielnicy – zajrzyj do naszego <a href="/pl/blog/compteur-energie-connecte-comparatif">porównania mierników zużycia energii</a>.</p>
 
-<h2>Kryteria dobrego wyboru</h2>
+<h2>Kryteria wyboru</h2>
 <h3>Maksymalne obciążenie</h3>
-<p>To kryterium bezpieczeństwa numer jeden. Wtyczki 16 A (3 680 W), takie jak Tapo P115 czy Meross MSS310, obsłużą duże urządzenia: pralkę, suszarkę, frytkownicę beztłuszczową lub grzejnik przenośny. Modele ograniczone do 11 lub 12 A (około 2 500 W), jak Eve Energy czy Shelly Plug S Gen3, bardzo dobrze nadają się do elektroniki, lodówki lub routera, ale nie do mocnych urządzeń grzewczych.</p>
+<p>To najważniejsze kryterium ze względu na bezpieczeństwo. Gniazdka 16 A (3680 W), takie jak Tapo P115 czy Meross MSS310, poradzą sobie z dużymi urządzeniami: pralką, suszarką, frytkownicą beztłuszczową czy przenośnym grzejnikiem. Modele ograniczone do 11 lub 12 A (ok. 2500 W), takie jak Eve Energy czy Shelly Plug S Gen3, świetnie nadają się do elektroniki, lodówki czy routera, ale nie do mocnych urządzeń grzewczych.</p>
 <h3>Protokół: Wi-Fi, Thread i Matter</h3>
-<p>Wtyczki Wi-Fi łączą się bezpośrednio z routerem, bez bramki, ale niemal wszystkie działają wyłącznie w paśmie 2,4 GHz. Thread (Eve Energy) tworzy energooszczędną sieć kratową, która wymaga routera granicznego Thread, na przykład HomePoda mini, zgodnego Apple TV 4K albo Nest Hub 2. generacji. Matter to wspólna warstwa, dzięki której jedną wtyczkę można używać z Apple Home, Google Home, Alexą lub SmartThings. Uwaga: nie wszystkie wtyczki obsługują Matter. W przypadku TP-Link są to na przykład warianty z literą „M” w oznaczeniu (P110M, P115M), a nie klasyczna P115.</p>
+<p>Gniazdka Wi-Fi łączą się bezpośrednio z routerem, bez bramki, ale prawie wszystkie działają tylko w paśmie 2,4 GHz. Thread (Eve Energy) tworzy energooszczędną sieć typu mesh, do której potrzebny jest router brzegowy Thread, np. HomePod mini, zgodny model Apple TV 4K lub Nest Hub 2. generacji. Matter to wspólny standard, dzięki któremu tym samym gniazdkiem można sterować przez Apple Home, Google Home, Alexę lub SmartThings. Uwaga: nie każde gniazdko obsługuje Matter. W ofercie TP-Link robią to na przykład warianty z literą „M” na końcu oznaczenia (P110M, P115M), a nie klasyczne P115.</p>
 <h3>Aplikacja i historia</h3>
-<p>Dobry pomiar na nic się nie zda bez czytelnych wykresów. Sprawdź, czy aplikacja przechowuje historię dla dni, tygodni i miesięcy oraz czy pozwala wpisać cenę kWh, aby oszacować koszt.</p>
+<p>Nawet dokładny pomiar niewiele daje bez czytelnych wykresów. Sprawdź, czy aplikacja przechowuje historię dzienną, tygodniową i miesięczną oraz czy pozwala wpisać Twoją cenę za kWh, by oszacować koszty.</p>
 <h3>Praca lokalna i integracja z inteligentnym domem</h3>
-<p>Jeśli korzystasz z Home Assistant, Jeedom lub innej centrali, wybierz wtyczkę sterowaną lokalnie. Shelly udostępnia lokalne API i bardzo dobrze współpracuje z Home Assistant. Wtyczki Matter i Thread po sparowaniu również działają lokalnie.</p>
+<p>Jeśli korzystasz z Home Assistant, Jeedom lub innej centrali, wybierz gniazdko, którym można sterować lokalnie. Shelly udostępnia lokalne API i bardzo dobrze współpracuje z Home Assistant. Gniazdka z Matter i Thread po sparowaniu również działają lokalnie.</p>
 <h3>Wymiary</h3>
-<p>Zbyt szeroka wtyczka blokuje sąsiednie gniazdko w listwie zasilającej lub w podwójnym gnieździe ściennym. Formaty „mini” są na co dzień wygodniejsze.</p>
+<p>Zbyt szeroka obudowa zasłania sąsiednie gniazdo w listwie zasilającej lub w podwójnym gnieździe ściennym. Na co dzień wygodniejsze są modele w formacie „mini”.</p>
 
-<h2>Modele w porównaniu</h2>
+<h2>Porównywane modele</h2>
 
 <h3>TP-Link Tapo P115: najlepszy wybór dla większości domów</h3>
-<p>Tapo P115 to mini wtyczka Wi-Fi 16 A / 3 680 W, która pokazuje zużycie w czasie rzeczywistym i zapisuje historię w aplikacji Tapo. Oferuje harmonogramy, timer, tryb nieobecności i współpracuje z Alexą oraz Asystentem Google.</p>
+<p>Tapo P115 to mini gniazdko Wi-Fi 16 A / 3680 W, które pokazuje zużycie w czasie rzeczywistym i zapisuje historię w aplikacji Tapo. Obsługuje harmonogramy, timer i tryb nieobecności, a do tego współpracuje z Alexą i Asystentem Google.</p>
 <p><strong>Mocne strony:</strong></p>
 <ul>
-<li>16 A: obsłuży prądożerne urządzenia, w tym frytkownicę beztłuszczową czy pralkę</li>
-<li>Czytelna aplikacja Tapo z wykresami zużycia i szacunkiem kosztów</li>
-<li>Kompaktowa obudowa, która nie blokuje sąsiedniego gniazdka</li>
+<li>16 A: poradzi sobie z prądożernymi urządzeniami, także z frytkownicą beztłuszczową czy pralką</li>
+<li>Czytelna aplikacja Tapo z wykresami zużycia i szacunkowym kosztem</li>
+<li>Kompaktowa obudowa, która nie zasłania sąsiedniego gniazda</li>
 <li>Prosta konfiguracja, bez bramki</li>
 </ul>
 <p><strong>Ograniczenia:</strong></p>
 <ul>
 <li>Tylko Wi-Fi 2,4 GHz</li>
-<li>Brak Matter w tym modelu (do Apple Home przez Matter potrzebna jest P115M)</li>
-<li>Do konfiguracji wymagane konto Tapo</li>
+<li>Ten model nie obsługuje Matter (do Apple Home przez Matter potrzebny jest model P115M)</li>
+<li>Do konfiguracji wymagane jest konto Tapo</li>
 </ul>
-<p><strong>Dla kogo?</strong> Dla początkujących oraz wszystkich, którzy używają Alexy lub Google Home i chcą niezawodnej, prostej wtyczki zdolnej zasilać duże domowe urządzenia.</p>
+<p><strong>Dla kogo?</strong> Dla początkujących i wszystkich, którzy korzystają z Alexy lub Google Home i szukają niezawodnego, prostego gniazdka, które udźwignie duże domowe urządzenia.</p>
 
 <h3>Meross MSS310: alternatywa 16 A dla ekosystemu Apple</h3>
-<p>Meross MSS310 to wtyczka Wi-Fi 16 A / 3 680 W z pomiarem zużycia w czasie rzeczywistym i historią w aplikacji Meross. Wersja dostępna w katalogu jest opisana jako zgodna z Apple HomeKit, a także z Alexą, Google Home i SmartThings. Meross oferuje też wariant Matter, model MSS315.</p>
+<p>Meross MSS310 to gniazdko Wi-Fi 16 A / 3680 W z pomiarem zużycia w czasie rzeczywistym i historią w aplikacji Meross. Wersja dostępna w katalogu jest deklarowana jako zgodna z Apple HomeKit, a także z Alexą, Google Home i SmartThings. Meross ma w ofercie również wariant z Matter – model MSS315.</p>
 <p><strong>Mocne strony:</strong></p>
 <ul>
-<li>16 A / 3 680 W dla mocnych urządzeń</li>
-<li>Sterowanie z Apple Home i przez Siri w wersji HomeKit</li>
+<li>16 A / 3680 W do mocnych urządzeń</li>
+<li>Sterowanie z Apple Home i przez Siri (w wersji HomeKit)</li>
 <li>Wbudowane harmonogramy i timer</li>
 </ul>
 <p><strong>Ograniczenia:</strong></p>
 <ul>
-<li>Grubsza obudowa, która może zasłaniać sąsiednie gniazdko</li>
-<li>Aplikacja Meross mniej dopracowana niż Tapo</li>
-<li>Zgodność z HomeKit zależy od wersji: sprawdź adnotację na karcie produktu</li>
+<li>Grubsza obudowa, która może zasłaniać sąsiednie gniazdo</li>
+<li>Aplikacja Meross jest mniej dopracowana niż Tapo</li>
+<li>Zgodność z HomeKit zależy od wersji: sprawdź oznaczenie na karcie produktu</li>
 </ul>
-<p><strong>Dla kogo?</strong> Dla użytkowników iPhone’a, którzy chcą wtyczki 16 A do integracji z Apple Home bez inwestowania w sieć Thread.</p>
+<p><strong>Dla kogo?</strong> Dla użytkowników iPhone’a, którzy chcą dodać do Apple Home gniazdko 16 A bez inwestowania w sieć Thread.</p>
 
 <h3>Shelly Plug S Gen3: faworyt użytkowników Home Assistant</h3>
-<p>Shelly Plug S Gen3 to mini wtyczka Wi-Fi i Bluetooth z pomiarem mocy, zgodna z Matter. Jej siłą jest otwartość: lokalne API, skrypty, sceny i akcje lokalne, bez zależności od chmury. Maksymalne obciążenie wynosi 12 A, czyli 2 500 W.</p>
+<p>Shelly Plug S Gen3 to mini gniazdko z Wi-Fi i Bluetooth, z pomiarem mocy i obsługą Matter. Jego największą zaletą jest otwartość: lokalne API, skrypty, sceny i akcje wykonywane lokalnie, bez zależności od chmury. Maksymalne obciążenie wynosi 12 A, czyli 2500 W.</p>
 <p><strong>Mocne strony:</strong></p>
 <ul>
 <li>Praca lokalna i bardzo ceniona integracja z Home Assistant</li>
-<li>Wbudowany Matter dla Apple Home, Google Home, Alexy i SmartThings</li>
+<li>Wbudowana obsługa Matter: Apple Home, Google Home, Alexa i SmartThings</li>
 <li>Kompaktowa obudowa i wielokolorowa dioda LED</li>
-<li>Skrypty i automatyzacje bezpośrednio we wtyczce</li>
+<li>Skrypty i automatyzacje uruchamiane bezpośrednio w gniazdku</li>
 </ul>
 <p><strong>Ograniczenia:</strong></p>
 <ul>
-<li>12 A / 2 500 W: lepiej unikać przy grzejniku lub mocnej suszarce</li>
-<li>Aplikacja Shelly jest bogata, ale mniej intuicyjna dla początkującego</li>
+<li>12 A / 2500 W: lepiej nie podłączać do niego grzejnika ani mocnej suszarki</li>
+<li>Aplikacja Shelly ma wiele funkcji, ale dla początkujących jest mniej intuicyjna</li>
 </ul>
-<p><strong>Dla kogo?</strong> Dla pasjonatów inteligentnego domu, którzy chcą danych do wykorzystania lokalnie, precyzyjnych automatyzacji i zerowej zależności od chmury.</p>
+<p><strong>Dla kogo?</strong> Dla entuzjastów inteligentnego domu, którzy chcą korzystać z danych lokalnie, tworzyć precyzyjne automatyzacje i w ogóle nie zależeć od chmury.</p>
 
-<h3>Eve Energy (Matter): wtyczka Thread dla Apple Home</h3>
-<p>Eve Energy działa w standardzie Thread z Matter. Mierzy zużycie, pracuje lokalnie bez konta w chmurze i jest sterowana z Apple Home, a dzięki Matter także z Google Home, Alexy lub SmartThings. Maksymalne obciążenie wynosi 11 A, czyli 2 500 W.</p>
+<h3>Eve Energy (Matter): gniazdko Thread do Apple Home</h3>
+<p>Eve Energy komunikuje się przez Thread i obsługuje Matter. Mierzy zużycie, działa lokalnie bez konta w chmurze i można nim sterować w Apple Home, a dzięki Matter również przez Google Home, Alexę lub SmartThings. Maksymalne obciążenie wynosi 11 A, czyli 2500 W.</p>
 <p><strong>Mocne strony:</strong></p>
 <ul>
-<li>Thread: szybko reagująca sieć kratowa, która nie obciąża Wi-Fi</li>
+<li>Thread: szybko reagująca sieć mesh, która nie obciąża Wi-Fi</li>
 <li>Praca lokalna, bez konta w chmurze</li>
 <li>Bardzo dopracowana integracja z ekosystemem Apple</li>
-<li>Pobór mocy w trybie czuwania poniżej 1 W według producenta</li>
+<li>Pobór mocy w trybie czuwania poniżej 1 W (według producenta)</li>
 </ul>
 <p><strong>Ograniczenia:</strong></p>
 <ul>
-<li>Konieczny router graniczny Thread</li>
-<li>Maksymalnie 11 A / 2 500 W</li>
-<li>Pozycjonowanie premium i dość spora obudowa</li>
+<li>Wymaga routera brzegowego Thread</li>
+<li>Maksymalnie 11 A / 2500 W</li>
+<li>Model z wyższej półki cenowej, dość duża obudowa</li>
 </ul>
-<p><strong>Dla kogo?</strong> Dla domów wyposażonych w HomePoda mini lub Apple TV 4K, które chcą lokalnej, trwałej instalacji zgodnej z wieloma ekosystemami.</p>
+<p><strong>Dla kogo?</strong> Dla osób, które mają w domu HomePod mini lub Apple TV 4K i chcą trwałej instalacji, działającej lokalnie i w wielu ekosystemach.</p>
 
 <h3>TP-Link Tapo P100 (zestaw 4 sztuk): do automatyzacji bez pomiaru</h3>
-<p>Tapo P100 nie mierzy zużycia energii i jest ograniczona do 10 A. Pozostaje przydatnym uzupełnieniem: włączenie lampy o stałej porze, odcięcie ładowarki na noc czy zaprogramowanie małej dekoracji świetlnej. Najpierw zmierz zużycie za pomocą P115, a potem zautomatyzuj małe urządzenia wtyczkami P100.</p>
+<p>Tapo P100 nie mierzy zużycia energii, a jego maksymalne obciążenie to 10 A. Mimo to sprawdza się jako uzupełnienie: włączy lampę o stałej porze, odetnie ładowarkę na noc albo uruchomi według harmonogramu niewielką dekorację świetlną. Najpierw zmierz zużycie za pomocą P115, a potem zautomatyzuj małe urządzenia gniazdkami P100.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Maks. obciążenie</th><th>Pomiar energii</th><th>Łączność</th><th>Ekosystemy</th><th>Idealna dla</th></tr>
+<tr><th>Model</th><th>Maks. obciążenie</th><th>Pomiar energii</th><th>Łączność</th><th>Ekosystemy</th><th>Dla kogo</th></tr>
 </thead>
 <tbody>
-<tr><td>TP-Link Tapo P115</td><td>16 A / 3 680 W</td><td>Tak, czas rzeczywisty i historia</td><td>Wi-Fi 2,4 GHz</td><td>Alexa, Google</td><td>Większości domów</td></tr>
-<tr><td>Meross MSS310 (HomeKit)</td><td>16 A / 3 680 W</td><td>Tak, czas rzeczywisty i historia</td><td>Wi-Fi 2,4 GHz</td><td>HomeKit, Alexa, Google, SmartThings</td><td>Dużych urządzeń przy iPhonie</td></tr>
-<tr><td>Shelly Plug S Gen3</td><td>12 A / 2 500 W</td><td>Tak</td><td>Wi-Fi, Bluetooth, Matter</td><td>Matter, Home Assistant</td><td>Lokalnego inteligentnego domu</td></tr>
-<tr><td>Eve Energy (Matter)</td><td>11 A / 2 500 W</td><td>Tak</td><td>Thread, Matter</td><td>Apple Home, Google, Alexa, SmartThings</td><td>Ekosystemu Apple</td></tr>
-<tr><td>TP-Link Tapo P100</td><td>10 A</td><td>Nie</td><td>Wi-Fi 2,4 GHz</td><td>Alexa, Google</td><td>Małych urządzeń do programowania</td></tr>
+<tr><td>TP-Link Tapo P115</td><td>16 A / 3680 W</td><td>Tak, na bieżąco i z historią</td><td>Wi-Fi 2,4 GHz</td><td>Alexa, Google</td><td>Większość domów</td></tr>
+<tr><td>Meross MSS310 (HomeKit)</td><td>16 A / 3680 W</td><td>Tak, na bieżąco i z historią</td><td>Wi-Fi 2,4 GHz</td><td>HomeKit, Alexa, Google, SmartThings</td><td>Użytkownicy iPhone’a z mocnymi urządzeniami</td></tr>
+<tr><td>Shelly Plug S Gen3</td><td>12 A / 2500 W</td><td>Tak</td><td>Wi-Fi, Bluetooth, Matter</td><td>Matter, Home Assistant</td><td>Lokalny inteligentny dom</td></tr>
+<tr><td>Eve Energy (Matter)</td><td>11 A / 2500 W</td><td>Tak</td><td>Thread, Matter</td><td>Apple Home, Google, Alexa, SmartThings</td><td>Ekosystem Apple</td></tr>
+<tr><td>TP-Link Tapo P100</td><td>10 A</td><td>Nie</td><td>Wi-Fi 2,4 GHz</td><td>Alexa, Google</td><td>Małe urządzenia do programowania</td></tr>
 </tbody>
 </table>
 
 <h2>Jak wykorzystać pomiary, by obniżyć rachunki</h2>
 <ol>
-<li><strong>Mierz tydzień, nic nie zmieniając.</strong> Podłącz wtyczkę do podejrzanego urządzenia (zamrażarka, kącik telewizyjny, router, biurko) i pozwól jej rejestrować dane.</li>
-<li><strong>Uporządkuj pozycje.</strong> Pomnóż tygodniowe zużycie przez 52, aby uzyskać rząd wielkości rocznego zużycia, a potem skup się na trzech najbardziej prądożernych urządzeniach.</li>
-<li><strong>Zautomatyzuj.</strong> Wyłączanie kącika telewizyjnego na noc, wygaszanie biurka wieczorem, powiadomienie o końcu cyklu pralki, uruchamianie urządzeń w godzinach tańszej energii, jeśli Twoja taryfa je przewiduje.</li>
-<li><strong>Sprawdzaj co miesiąc.</strong> Porównuj historię, aby potwierdzić, że ustawienia przynoszą efekty.</li>
+<li><strong>Przez tydzień tylko mierz, niczego nie zmieniając.</strong> Włącz przez inteligentne gniazdko urządzenie, które podejrzewasz o duże zużycie (zamrażarkę, sprzęt RTV, router, stanowisko przy biurku), i niech gniazdko rejestruje dane.</li>
+<li><strong>Ustal, co zużywa najwięcej.</strong> Pomnóż tygodniowe zużycie przez 52, by poznać przybliżone zużycie roczne, a potem zajmij się trzema najbardziej prądożernymi urządzeniami.</li>
+<li><strong>Zautomatyzuj.</strong> Wyłączanie sprzętu RTV na noc, odcinanie zasilania biurka wieczorem, powiadomienie o zakończeniu prania, uruchamianie urządzeń w tańszych godzinach, jeśli Twoja taryfa je przewiduje.</li>
+<li><strong>Sprawdzaj co miesiąc.</strong> Porównuj historię, by mieć pewność, że wprowadzone zmiany przynoszą efekty.</li>
 </ol>
-<p>Aby pójść dalej z termostatami, zaworami i globalnymi automatyzacjami, zajrzyj do naszego <a href="/pl/blog/guide-domotique-economie-energie-2026">poradnika o inteligentnym domu i oszczędzaniu energii</a>.</p>
+<p>Jeśli chcesz pójść dalej – termostaty, głowice termostatyczne i automatyzacje obejmujące cały dom – zajrzyj do naszego <a href="/pl/blog/guide-domotique-economie-energie-2026">poradnika o inteligentnym domu i oszczędzaniu energii</a>.</p>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Podłączanie grzejnika do wtyczki 2 500 W.</strong> Zawsze sprawdź moc urządzenia na tabliczce znamionowej i wybierz wtyczkę 16 A do ogrzewania, suszenia lub gotowania.</li>
-<li><strong>Odcinanie zasilania urządzeniu, które musi być stale zasilane.</strong> Nigdy nie programuj wyłączenia lodówki, zamrażarki, pompy ani sprzętu medycznego.</li>
-<li><strong>Piętrzenie adapterów.</strong> Inteligentną wtyczkę wpina się bezpośrednio w gniazdko ścienne, a nie na końcu już obciążonego przedłużacza.</li>
-<li><strong>Kupno wtyczki Matter przez pomyłkę… lub odwrotnie.</strong> Oznaczenia modeli są do siebie podobne: sprawdź adnotację Matter, HomeKit lub Thread na karcie konkretnego modelu.</li>
-<li><strong>Używanie wtyczki wewnętrznej na zewnątrz.</strong> Te modele nie są wodoszczelne. Na zewnątrz wybierz wtyczkę przeznaczoną do takiego użycia.</li>
+<li><strong>Podłączanie grzejnika do gniazdka 2500 W.</strong> Zawsze sprawdzaj moc urządzenia na tabliczce znamionowej, a do ogrzewania, suszenia i gotowania wybieraj gniazdko 16 A.</li>
+<li><strong>Wyłączanie urządzeń, które muszą być stale zasilane.</strong> Nigdy nie ustawiaj harmonogramu wyłączania lodówki, zamrażarki, pompy ani sprzętu medycznego.</li>
+<li><strong>Wpinanie przejściówek jedna w drugą.</strong> Inteligentne gniazdko wpina się bezpośrednio w gniazdo ścienne, a nie na końcu obciążonego już przedłużacza.</li>
+<li><strong>Kupowanie gniazdka z Matter przez pomyłkę… lub odwrotnie.</strong> Oznaczenia modeli są łudząco podobne: sprawdź, czy na karcie konkretnego modelu jest wzmianka o Matter, HomeKit lub Thread.</li>
+<li><strong>Używanie na zewnątrz gniazdka przeznaczonego do wnętrz.</strong> Te modele nie są wodoszczelne. Na zewnątrz wybierz model do tego przystosowany.</li>
 </ul>
 
-<h2>Werdykt</h2>
-<p><strong>Najlepszy wybór ogólny:</strong> <strong>TP-Link Tapo P115</strong> dzięki obciążeniu 16 A, pomiarowi w czasie rzeczywistym z historią i prostocie obsługi.</p>
+<h2>Nasz werdykt</h2>
+<p><strong>Najlepszy wybór dla większości:</strong> <strong>TP-Link Tapo P115</strong> – za obciążenie 16 A, pomiar w czasie rzeczywistym z historią i prostotę obsługi.</p>
 <p><strong>Alternatywa dla Apple:</strong> <strong>Meross MSS310</strong> w wersji HomeKit, która zachowuje 16 A i integruje się z Apple Home.</p>
-<p><strong>Do automatyzacji bez pomiaru:</strong> <strong>zestaw 4 sztuk Tapo P100</strong>, jako uzupełnienie dla małych urządzeń.</p>
-<p>Użytkownicy Home Assistant sięgną po <strong>Shelly Plug S Gen3</strong>, a domy wyposażone w Thread po <strong>Eve Energy</strong>. Cały wybór znajdziesz w naszej kategorii <a href="/pl/cuisine-connectee/prises-connectees">inteligentne wtyczki</a>.</p>`,
+<p><strong>Do automatyzacji bez pomiaru:</strong> <strong>zestaw 4 gniazdek Tapo P100</strong> jako uzupełnienie dla małych urządzeń.</p>
+<p>Użytkownicy Home Assistant sięgną po <strong>Shelly Plug S Gen3</strong>, a domy z siecią Thread – po <strong>Eve Energy</strong>. Wszystkie modele znajdziesz w naszej kategorii <a href="/pl/cuisine-connectee/prises-connectees">inteligentne gniazdka</a>.</p>`,
   },
   faq: [
     {
@@ -987,7 +987,7 @@ export const article: BlogArticle = {
         es: '¿Un enchufe inteligente con medición consume electricidad por sí mismo?',
         it: 'Una presa smart con misurazione consuma elettricità?',
         nl: 'Verbruikt een slimme stekker met energiemeting zelf stroom?',
-        pl: 'Czy inteligentna wtyczka z pomiarem sama zużywa prąd?',
+        pl: 'Czy inteligentne gniazdko z pomiarem samo zużywa prąd?',
       },
       answer: {
         fr: 'Oui, mais très peu : de l’ordre d’un watt ou moins en veille selon les modèles. Eve indique par exemple moins de 1 W pour l’Eve Energy. C’est négligeable face aux économies possibles sur un appareil gourmand.',
@@ -996,7 +996,7 @@ export const article: BlogArticle = {
         es: 'Sí, pero muy poco: alrededor de un vatio o menos en espera según el modelo. Eve, por ejemplo, indica menos de 1 W para el Eve Energy. Es insignificante frente al ahorro posible en un aparato que gasta mucho.',
         it: 'Sì, ma pochissimo: circa un watt o meno in standby a seconda del modello. Eve, ad esempio, indica meno di 1 W per la Eve Energy. È trascurabile rispetto ai risparmi possibili su un apparecchio energivoro.',
         nl: 'Ja, maar heel weinig: ongeveer een watt of minder in stand-by, afhankelijk van het model. Eve vermeldt bijvoorbeeld minder dan 1 W voor de Eve Energy. Dat valt in het niet bij de mogelijke besparing op een stroomslurper.',
-        pl: 'Tak, ale bardzo mało: w zależności od modelu rzędu jednego wata lub mniej w trybie czuwania. Eve podaje na przykład poniżej 1 W dla Eve Energy. To pomijalne wobec oszczędności, jakie można uzyskać na prądożernym urządzeniu.',
+        pl: 'Tak, ale bardzo mało: w zależności od modelu w trybie czuwania około 1 W lub mniej. Eve podaje na przykład, że Eve Energy pobiera poniżej 1 W. To znikoma ilość w porównaniu z oszczędnościami, jakie można uzyskać przy prądożernym urządzeniu.',
       },
     },
     {
@@ -1007,7 +1007,7 @@ export const article: BlogArticle = {
         es: '¿Se puede conectar un calefactor o una secadora a un enchufe inteligente?',
         it: 'Si può collegare una stufetta o un’asciugatrice a una presa smart?',
         nl: 'Kan ik een kachel of droger op een slimme stekker aansluiten?',
-        pl: 'Czy do inteligentnej wtyczki można podłączyć grzejnik lub suszarkę?',
+        pl: 'Czy do inteligentnego gniazdka można podłączyć grzejnik lub suszarkę?',
       },
       answer: {
         fr: 'Oui, si la prise est donnée pour 16 A (3 680 W), comme la Tapo P115 ou la Meross MSS310, et si l’appareil ne dépasse pas cette puissance. Évitez les modèles limités à 2 500 W pour le chauffage et branchez la prise directement au mur.',
@@ -1016,7 +1016,7 @@ export const article: BlogArticle = {
         es: 'Sí, si el enchufe admite 16 A (3.680 W), como el Tapo P115 o el Meross MSS310, y el aparato no supera esa potencia. Evita los modelos de 2.500 W para calefacción y conéctalo directamente a la pared.',
         it: 'Sì, se la presa è da 16 A (3.680 W), come la Tapo P115 o la Meross MSS310, e l’apparecchio non supera quella potenza. Evita i modelli da 2.500 W per il riscaldamento e inserisci la presa direttamente nel muro.',
         nl: 'Ja, als de stekker geschikt is voor 16 A (3.680 W), zoals de Tapo P115 of de Meross MSS310, en het apparaat daar niet boven komt. Vermijd 2.500 W-modellen voor verwarming en steek de stekker direct in het stopcontact.',
-        pl: 'Tak, jeśli wtyczka ma deklarowane 16 A (3 680 W), jak Tapo P115 czy Meross MSS310, a urządzenie nie przekracza tej mocy. Do ogrzewania unikaj modeli ograniczonych do 2 500 W i podłączaj wtyczkę bezpośrednio do gniazdka ściennego.',
+        pl: 'Tak, jeśli gniazdko ma deklarowaną obciążalność 16 A (3680 W), jak Tapo P115 czy Meross MSS310, a moc urządzenia nie przekracza tej wartości. Do ogrzewania nie wybieraj modeli ograniczonych do 2500 W, a samo gniazdko wpinaj bezpośrednio w gniazdo ścienne.',
       },
     },
     {
@@ -1027,7 +1027,7 @@ export const article: BlogArticle = {
         es: '¿El Tapo P115 es compatible con Apple HomeKit?',
         it: 'La Tapo P115 è compatibile con Apple HomeKit?',
         nl: 'Werkt de Tapo P115 met Apple HomeKit?',
-        pl: 'Czy Tapo P115 jest zgodna z Apple HomeKit?',
+        pl: 'Czy Tapo P115 współpracuje z Apple HomeKit?',
       },
       answer: {
         fr: 'Non, la P115 classique fonctionne avec Alexa et Google Assistant. Pour Apple Maison, TP-Link propose des variantes Matter à suffixe « M », comme la P110M ou la P115M. Sinon, la Meross MSS310 version HomeKit ou l’Eve Energy conviennent.',
@@ -1036,7 +1036,7 @@ export const article: BlogArticle = {
         es: 'No, el P115 normal funciona con Alexa y Google Assistant. Para Apple Casa, TP-Link ofrece variantes Matter con el sufijo «M», como el P110M o el P115M. Si no, el Meross MSS310 en versión HomeKit o el Eve Energy son buenas opciones.',
         it: 'No, la P115 standard funziona con Alexa e Google Assistant. Per Apple Casa, TP-Link offre varianti Matter con suffisso «M», come la P110M o la P115M. In alternativa vanno bene la Meross MSS310 in versione HomeKit o la Eve Energy.',
         nl: 'Nee, de gewone P115 werkt met Alexa en Google Assistant. Voor Apple Woning biedt TP-Link Matter-varianten met een „M”, zoals de P110M of P115M. Anders zijn de Meross MSS310 in HomeKit-versie of de Eve Energy goede opties.',
-        pl: 'Nie, klasyczna P115 współpracuje z Alexą i Asystentem Google. Do Apple Home TP-Link oferuje warianty Matter z literą „M”, takie jak P110M lub P115M. Można też wybrać Meross MSS310 w wersji HomeKit albo Eve Energy.',
+        pl: 'Nie. Standardowy model P115 współpracuje z Alexą i Asystentem Google. Do Apple Home TP-Link oferuje warianty z Matter oznaczone literą „M”, np. P110M lub P115M. Można też wybrać Meross MSS310 w wersji HomeKit albo Eve Energy.',
       },
     },
     {
@@ -1047,7 +1047,7 @@ export const article: BlogArticle = {
         es: '¿Hace falta un hub para usar un enchufe inteligente?',
         it: 'Serve un hub per usare una presa smart?',
         nl: 'Heb ik een hub nodig voor een slimme stekker?',
-        pl: 'Czy do inteligentnej wtyczki potrzebny jest hub?',
+        pl: 'Czy inteligentne gniazdko wymaga huba?',
       },
       answer: {
         fr: 'Pas pour les prises Wi-Fi comme la Tapo P115, la Meross MSS310 ou le Shelly Plug S Gen3, qui se connectent directement à la box. L’Eve Energy, en Thread, a besoin d’un routeur de bordure Thread comme un HomePod mini ou une Apple TV 4K compatible.',
@@ -1056,7 +1056,7 @@ export const article: BlogArticle = {
         es: 'No para los enchufes Wi-Fi como el Tapo P115, el Meross MSS310 o el Shelly Plug S Gen3, que se conectan directamente al router. El Eve Energy, con Thread, necesita un router de borde Thread como un HomePod mini o un Apple TV 4K compatible.',
         it: 'No per le prese Wi-Fi come Tapo P115, Meross MSS310 o Shelly Plug S Gen3, che si collegano direttamente al router. La Eve Energy, con Thread, richiede un border router Thread come un HomePod mini o una Apple TV 4K compatibile.',
         nl: 'Niet voor wifistekkers zoals de Tapo P115, Meross MSS310 of Shelly Plug S Gen3, die rechtstreeks met je router verbinden. De Eve Energy met Thread heeft een Thread-borderrouter nodig, zoals een HomePod mini of een compatibele Apple TV 4K.',
-        pl: 'Nie w przypadku wtyczek Wi-Fi, takich jak Tapo P115, Meross MSS310 czy Shelly Plug S Gen3, które łączą się bezpośrednio z routerem. Eve Energy w standardzie Thread wymaga routera granicznego Thread, na przykład HomePoda mini lub zgodnego Apple TV 4K.',
+        pl: 'Nie w przypadku gniazdek Wi-Fi, takich jak Tapo P115, Meross MSS310 czy Shelly Plug S Gen3, które łączą się bezpośrednio z routerem. Eve Energy działa w standardzie Thread, więc potrzebuje routera brzegowego Thread, np. HomePod mini lub zgodnego modelu Apple TV 4K.',
       },
     },
     {
@@ -1067,7 +1067,7 @@ export const article: BlogArticle = {
         es: '¿Qué enchufe elegir para Home Assistant?',
         it: 'Quale presa scegliere per Home Assistant?',
         nl: 'Welke stekker kies je voor Home Assistant?',
-        pl: 'Jaką wtyczkę wybrać do Home Assistant?',
+        pl: 'Jakie inteligentne gniazdko wybrać do Home Assistant?',
       },
       answer: {
         fr: 'Le Shelly Plug S Gen3 est le plus apprécié : API locale, scripts et intégration Home Assistant réputée, sans dépendance au cloud. Les prises Matter, dont l’Eve Energy, s’intègrent aussi en local via l’intégration Matter.',
@@ -1076,7 +1076,7 @@ export const article: BlogArticle = {
         es: 'El Shelly Plug S Gen3 es el más valorado: API local, scripts y una integración con Home Assistant muy reconocida, sin depender de la nube. Los enchufes Matter, como el Eve Energy, también se integran en local mediante la integración Matter.',
         it: 'La Shelly Plug S Gen3 è la più apprezzata: API locale, script e un’integrazione con Home Assistant molto stimata, senza dipendenza dal cloud. Anche le prese Matter, come la Eve Energy, si integrano in locale tramite l’integrazione Matter.',
         nl: 'De Shelly Plug S Gen3 is het populairst: lokale API, scripts en een gewaardeerde Home Assistant-integratie zonder cloudafhankelijkheid. Matter-stekkers, zoals de Eve Energy, integreren ook lokaal via de Matter-integratie.',
-        pl: 'Największym uznaniem cieszy się Shelly Plug S Gen3: lokalne API, skrypty i ceniona integracja z Home Assistant, bez zależności od chmury. Wtyczki Matter, w tym Eve Energy, również integrują się lokalnie przez integrację Matter.',
+        pl: 'Największym uznaniem cieszy się Shelly Plug S Gen3: lokalne API, skrypty i ceniona integracja z Home Assistant, bez zależności od chmury. Gniazdka z Matter, w tym Eve Energy, również działają lokalnie dzięki integracji Matter.',
       },
     },
     {
@@ -1087,7 +1087,7 @@ export const article: BlogArticle = {
         es: '¿Es suficientemente precisa la medición de un enchufe inteligente?',
         it: 'La misurazione di una presa smart è abbastanza precisa?',
         nl: 'Is de meting van een slimme stekker nauwkeurig genoeg?',
-        pl: 'Czy pomiar inteligentnej wtyczki jest wystarczająco dokładny?',
+        pl: 'Czy inteligentne gniazdko mierzy zużycie wystarczająco dokładnie?',
       },
       answer: {
         fr: 'Pour repérer les appareils gourmands et suivre une tendance, oui. Ce ne sont pas des compteurs certifiés pour la facturation : utilisez-les pour comparer et décider, pas pour contester une facture. Les très faibles puissances sont souvent moins bien mesurées.',
@@ -1096,7 +1096,7 @@ export const article: BlogArticle = {
         es: 'Para localizar aparatos que gastan mucho y seguir una tendencia, sí. No son contadores certificados para facturación: úsalos para comparar y decidir, no para reclamar una factura. Las potencias muy bajas suelen medirse peor.',
         it: 'Per individuare gli apparecchi energivori e seguire una tendenza, sì. Non sono contatori certificati per la fatturazione: usali per confrontare e decidere, non per contestare una bolletta. Le potenze molto basse sono spesso misurate meno bene.',
         nl: 'Om stroomslurpers op te sporen en trends te volgen, ja. Het zijn geen gecertificeerde afrekenmeters: gebruik ze om te vergelijken en te beslissen, niet om een factuur aan te vechten. Zeer lage vermogens worden vaak minder nauwkeurig gemeten.',
-        pl: 'Do wyszukiwania prądożernych urządzeń i śledzenia trendu tak. To nie są liczniki z certyfikatem do rozliczeń: używaj ich do porównywania i podejmowania decyzji, a nie do kwestionowania rachunku. Bardzo małe moce są często mierzone mniej dokładnie.',
+        pl: 'Tak, jeśli chcesz wyłapać prądożerne urządzenia i śledzić tendencje. Nie są to jednak certyfikowane liczniki rozliczeniowe: służą do porównań i podejmowania decyzji, a nie do reklamowania rachunku. Przy bardzo małej mocy pomiar bywa mniej dokładny.',
       },
     },
   ],

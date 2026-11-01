@@ -29,7 +29,7 @@ export const article: BlogArticle = {
     es: "Mejor aire acondicionado bajo consumo 2026: comparativa de 5 splits Inverter",
     it: "Miglior condizionatore a basso consumo 2026: 5 split Inverter a confronto",
     nl: "Beste zuinige airco 2026: 5 inverter-splitunits vergeleken",
-    pl: "Najlepszy klimatyzator energooszczędny 2026: 5 splitów Inverter w porównaniu",
+    pl: "Najlepszy energooszczędny klimatyzator 2026: porównanie 5 splitów z inwerterem",
   },
   excerpt: {
     fr: "Quel climatiseur basse consommation choisir en 2026 ? Classe A+++, SEER, SCOP, Inverter et puissance : comparatif de 5 splits muraux Mitsubishi Electric, Haier, Daikin et LG d’après les données officielles.",
@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: "¿Qué aire acondicionado bajo consumo elegir en 2026? Clase A+++, SEER, SCOP, Inverter y potencia: comparativa de 5 splits de pared de Mitsubishi Electric, Haier, Daikin y LG con datos oficiales.",
     it: "Quale condizionatore a basso consumo scegliere nel 2026? Classe A+++, SEER, SCOP, Inverter e potenza: confronto di 5 split a parete Mitsubishi Electric, Haier, Daikin e LG sulla base dei dati ufficiali.",
     nl: "Welke zuinige airco kies je in 2026? Energieklasse A+++, SEER, SCOP, inverter en het juiste vermogen uitgelegd, met 5 splitunits van Mitsubishi Electric, Haier, Daikin en LG vergeleken op basis van officiële gegevens.",
-    pl: "Jaki klimatyzator energooszczędny wybrać w 2026 roku? Klasa A+++, SEER, SCOP, Inverter i moc: porównanie 5 ściennych splitów Mitsubishi Electric, Haier, Daikin i LG na podstawie oficjalnych danych.",
+    pl: "Jaki energooszczędny klimatyzator wybrać w 2026 roku? Klasa A+++, współczynniki SEER i SCOP, inwerter i dobór mocy: porównujemy 5 klimatyzatorów ściennych typu split marek Mitsubishi Electric, Haier, Daikin i LG na podstawie oficjalnych danych.",
   },
   content: {
     es: `<p><strong>El mejor aire acondicionado bajo consumo en 2026 es un split Inverter de pared con clase A+++ en frío y un SEER de 8,5 o más</strong>, como el Mitsubishi Electric MSZ-AY35VGK, el Haier Flexis Plus o el Daikin Perfera FTXM35R. Si además vas a usarlo como calefacción en invierno, mira el SCOP: el Daikin Perfera es el único de esta selección con clase A+++ también en calor.</p>
@@ -791,131 +791,131 @@ export const article: BlogArticle = {
 
 <h2>Conclusie</h2>
 <p>Voor de meeste woningen is de <strong>Mitsubishi Electric MSZ-AY35VGK</strong> de meest evenwichtige zuinige airco: A+++ voor koelen, erg stil en bekend om zijn betrouwbaarheid. De <strong>Haier Flexis Plus</strong> biedt dezelfde koelklasse A+++ voor een kleiner budget, en de <strong>Daikin Perfera FTXM35R</strong> is dankzij zijn dubbele A+++ de logische keuze als je er ook mee verwarmt. De <strong>LG DUALCOOL AI Air</strong> overtuigt met zijn automatisering, en de <strong>Daikin Sensira</strong> volstaat voor matig gebruik met een krap budget. Wat je ook kiest: een goede installatie, een redelijke thermostaatinstelling en schone filters tellen net zo zwaar als het label.</p>`,
-    pl: `<p><strong>Najlepszy klimatyzator energooszczędny w 2026 roku to ścienny split z technologią Inverter, w klasie A+++ w trybie chłodzenia i ze współczynnikiem SEER równym 8,5 lub wyższym</strong>, taki jak Mitsubishi Electric MSZ-AY35VGK, Haier Flexis Plus czy Daikin Perfera FTXM35R. Jeśli planujesz też ogrzewać pomieszczenie zimą, zwróć uwagę na SCOP: Daikin Perfera jest jedynym modelem w tym zestawieniu, który w trybie grzania również należy do klasy A+++.</p>
-<p>To porównanie opiera się na kartach katalogowych i oficjalnych etykietach energetycznych producentów, opublikowanych niezależnych analizach oraz opiniach zweryfikowanych kupujących. Nie wykonujemy własnych pomiarów: wszystkie podane wartości efektywności pochodzą z dokumentacji producentów lub certyfikacji Eurovent. Skupiamy się na urządzeniach o mocy około 3,5 kW (12 000 BTU), czyli najpopularniejszej do salonu lub dużej sypialni.</p>
+    pl: `<p><strong>Najlepszy klimatyzator energooszczędny w 2026 roku to ścienny split z technologią Inverter, w klasie A+++ w chłodzeniu, o współczynniku SEER co najmniej 8,5</strong> – na przykład Mitsubishi Electric MSZ-AY35VGK, Haier Flexis Plus lub Daikin Perfera FTXM35R. Jeśli zimą chcesz nim także ogrzewać, sprawdź SCOP: Daikin Perfera jest jedynym modelem w tym zestawieniu, który również w grzaniu ma klasę A+++.</p>
+<p>To porównanie opiera się na kartach katalogowych i oficjalnych etykietach energetycznych producentów, opublikowanych niezależnych analizach oraz opiniach zweryfikowanych kupujących. Nie wykonujemy własnych pomiarów: wszystkie podane wartości efektywności pochodzą z dokumentacji producentów lub z certyfikacji Eurovent. Skupiamy się na urządzeniach o mocy ok. 3,5 kW (12 000 BTU) – to najczęściej wybierana moc do salonu lub dużej sypialni.</p>
 
 <h2>Jak rozpoznać energooszczędny klimatyzator</h2>
-<p>Żaden klimatyzator nie chłodzi za darmo: przenoszenie ciepła z wnętrza na zewnątrz zawsze wymaga energii elektrycznej. O tym, czy mamy do czynienia z <strong>klimatyzatorem energooszczędnym</strong>, decyduje ilość prądu potrzebna do uzyskania tego samego chłodu. Podsumowują to cztery kryteria.</p>
+<p>Żaden klimatyzator nie chłodzi za darmo: przeniesienie ciepła z wnętrza na zewnątrz zawsze wymaga prądu. <strong>Klimatyzator energooszczędny</strong> wyróżnia się tym, że do wytworzenia tej samej ilości chłodu zużywa mniej energii. Ocenisz to po czterech kryteriach.</p>
 
 <h3>Etykieta energetyczna: jedna klasa dla chłodzenia, druga dla grzania</h3>
-<p>W przypadku splitów do 12 kW europejska etykieta energetyczna podaje dwie klasy, ponieważ urządzenie pracuje inaczej podczas chłodzenia, a inaczej podczas grzania:</p>
+<p>W przypadku splitów o mocy do 12 kW europejska etykieta energetyczna podaje dwie klasy, bo urządzenie pracuje inaczej podczas chłodzenia, a inaczej podczas grzania:</p>
 <ul>
-<li><strong>Klasa w trybie chłodzenia</strong>, wyznaczana na podstawie SEER. Klasa A+++ wymaga SEER co najmniej 8,5; klasa A++ odpowiada wartościom od 6,1 do 8,5.</li>
-<li><strong>Klasa w trybie grzania</strong>, wyznaczana na podstawie SCOP w klimacie umiarkowanym. Klasa A+++ wymaga SCOP co najmniej 5,1; A++ odpowiada wartościom od 4,6 do 5,1; A+ wartościom od 4,0 do 4,6.</li>
+<li><strong>Klasa w trybie chłodzenia</strong> – wyznaczana na podstawie SEER. Klasa A+++ wymaga SEER co najmniej 8,5, a klasa A++ obejmuje wartości od 6,1 do 8,5.</li>
+<li><strong>Klasa w trybie grzania</strong> – wyznaczana na podstawie SCOP w klimacie umiarkowanym. Klasa A+++ wymaga SCOP co najmniej 5,1, klasa A++ obejmuje wartości od 4,6 do 5,1, a klasa A+ – od 4,0 do 4,6.</li>
 </ul>
-<p>Częsty błąd to patrzenie wyłącznie na klasę w trybie chłodzenia. Jeśli urządzenie jest rewersyjne (pompa ciepła powietrze–powietrze) i używasz go zimą, klasa w trybie grzania wpływa na rachunek tak samo, a często bardziej, bo godzin grzania jest zwykle znacznie więcej.</p>
+<p>Częsty błąd to patrzenie wyłącznie na klasę w chłodzeniu. Jeśli urządzenie ma funkcję grzania (czyli jest pompą ciepła powietrze-powietrze) i używasz go zimą, klasa w grzaniu waży na rachunku tyle samo, a nawet więcej, bo grzanie trwa zwykle znacznie więcej godzin w roku.</p>
 
 <h3>SEER i SCOP: efektywność w skali całego sezonu</h3>
-<p><strong>SEER</strong> (Seasonal Energy Efficiency Ratio) pokazuje, ile chłodu urządzenie wytwarza na każdą zużytą kWh w typowe lato. <strong>SCOP</strong> robi to samo dla ogrzewania zimą. SEER równy 8,5 oznacza, że urządzenie dostarcza średnio 8,5 kWh chłodu na 1 kWh energii elektrycznej. Między SEER 6,5 a SEER 8,7 zużycie energii w trybie chłodzenia spada o około jedną czwartą przy tym samym komforcie.</p>
+<p><strong>SEER</strong> (Seasonal Energy Efficiency Ratio) pokazuje, ile chłodu urządzenie wytwarza z każdej zużytej kWh w ciągu typowego lata. <strong>SCOP</strong> określa to samo dla grzania zimą. SEER równy 8,5 oznacza, że urządzenie dostarcza średnio 8,5 kWh chłodu na 1 kWh energii elektrycznej. Przy przejściu z SEER 6,5 na SEER 8,7 zużycie prądu na chłodzenie spada o mniej więcej jedną czwartą, a komfort pozostaje taki sam.</p>
 
-<h3>Technologia Inverter: obowiązkowa</h3>
-<p>Starszy klimatyzator typu włącz/wyłącz uruchamia sprężarkę z pełną mocą, wyłącza ją po osiągnięciu zadanej temperatury, a potem znów włącza na maksimum. <strong>Technologia Inverter</strong> płynnie reguluje prędkość sprężarki: po osiągnięciu temperatury urządzenie zwalnia zamiast się wyłączać. Efekt: mniej skoków poboru mocy, stabilniejsza temperatura i niższy poziom hałasu. Wszystkie dobre splity mają dziś Inverter, w tym pięć modeli z tego porównania.</p>
+<h3>Technologia Inverter: niezbędna</h3>
+<p>Starszy klimatyzator typu włącz/wyłącz uruchamia sprężarkę z pełną mocą, wyłącza ją po osiągnięciu zadanej temperatury, a potem znów włącza na maksimum. <strong>Technologia Inverter</strong> płynnie reguluje prędkość sprężarki: gdy temperatura zostanie osiągnięta, sprężarka zwalnia, zamiast się wyłączać. Efekt to mniej skoków poboru mocy, stabilniejsza temperatura i cichsza praca. Wszystkie porządne splity mają dziś Inverter – także pięć modeli z tego porównania.</p>
 
 <h3>Czynnik chłodniczy R-32</h3>
-<p>Obecne splity pracują na <strong>R-32</strong>, którego współczynnik ocieplenia globalnego (GWP) wynosi 675, wobec 2 088 w przypadku dawnego R-410A. Lepiej przenosi ciepło i wymaga mniejszej ilości czynnika. Wszystkie modele z tego zestawienia go używają.</p>
+<p>Współczesne splity pracują na czynniku <strong>R-32</strong>, którego współczynnik ocieplenia globalnego (GWP) wynosi 675 – wobec 2088 w przypadku starszego R-410A. R-32 lepiej przenosi ciepło, a instalacja potrzebuje go mniej. Korzystają z niego wszystkie modele z tego zestawienia.</p>
 
 <h2>Split czy klimatyzator przenośny: split zużywa znacznie mniej prądu</h2>
-<p>W tym samym pomieszczeniu <strong>split</strong> (jednostka ścienna wewnątrz i sprężarka na zewnątrz) jest wyraźnie wydajniejszy niż przenośny klimatyzator monoblokowy. Model przenośny ma sprężarkę w pokoju, a jego wąż odprowadzający powietrze tworzy podciśnienie, które zasysa ciepłe powietrze z zewnątrz: do uzyskania tego samego chłodu potrzebuje wyraźnie więcej energii. Jego etykieta używa ponadto innej skali, więc „A+++” klimatyzatora przenośnego nie jest porównywalne z A+++ splitu.</p>
-<p>Jeśli wynajmujesz mieszkanie lub nie możesz wiercić w elewacji, model przenośny pozostaje rozsądną opcją: najlepsze znajdziesz w naszym zestawieniu <a href="/pl/confort-air/climatiseurs-mobiles">inteligentnych klimatyzatorów przenośnych</a>, a jeśli wciąż się wahasz, przeczytaj nasz poradnik <a href="/pl/blog/climatiseur-mobile-vs-ventilateur">klimatyzator przenośny czy wentylator</a>.</p>
+<p>W tym samym pomieszczeniu <strong>split</strong> (jednostka wewnętrzna na ścianie, sprężarka na zewnątrz) jest wyraźnie bardziej energooszczędny niż przenośny monoblok. Klimatyzator przenośny ma sprężarkę w pokoju, a wyrzucanie powietrza wężem wylotowym wytwarza podciśnienie, które zasysa do środka ciepłe powietrze z zewnątrz – dlatego na ten sam chłód zużywa znacznie więcej prądu. Do tego jego etykieta ma inną skalę, więc klasy „A+++” klimatyzatora przenośnego nie można porównywać z klasą A+++ splitu.</p>
+<p>Jeśli wynajmujesz mieszkanie albo nie możesz wykonać otworu w elewacji, klimatyzator przenośny pozostaje rozsądnym wyjściem: najlepsze modele znajdziesz w naszym zestawieniu <a href="/pl/confort-air/climatiseurs-mobiles">inteligentnych klimatyzatorów przenośnych</a>, a jeśli wciąż się wahasz, przeczytaj poradnik, w którym porównujemy <a href="/pl/blog/climatiseur-mobile-vs-ventilateur">klimatyzator przenośny i wentylator</a>.</p>
 
 <h2>Dobór mocy: ani za duża, ani za mała</h2>
-<p>Źle dobrana moc niweczy sporą część oszczędności. Urządzenie o zbyt dużej mocy niemal zawsze pracuje na minimum i generuje wiele krótkich cykli; urządzenie o zbyt małej mocy pracuje na pełnych obrotach, a mimo to nie osiąga zadanej temperatury. Orientacyjnie przyjmuje się około <strong>100 kcal/h na metr kwadratowy</strong> (ok. 115 W), z zapasem, jeśli pomieszczenie jest mocno nasłonecznione, znajduje się pod dachem lub ma duże przeszklenia.</p>
+<p>Źle dobrana moc niweczy sporą część oszczędności. Urządzenie o zbyt dużej mocy niemal cały czas pracuje na minimum i w wielu krótkich cyklach; urządzenie o zbyt małej mocy pracuje na pełnych obrotach, a mimo to nie osiąga zadanej temperatury. Orientacyjnie przyjmuje się ok. <strong>100 kcal/h (ok. 115 W) mocy chłodniczej na metr kwadratowy</strong> i dodaje zapas, jeśli pomieszczenie jest mocno nasłonecznione, leży pod dachem albo ma duże przeszklenia.</p>
 <table>
 <thead>
 <tr><th>Powierzchnia</th><th>Moc chłodnicza</th><th>Przybliżony odpowiednik</th></tr>
 </thead>
 <tbody>
-<tr><td>10–15 m² (sypialnia)</td><td>2,5 kW</td><td>9 000 BTU / 2 150 kcal/h</td></tr>
-<tr><td>15–25 m² (mały salon)</td><td>3,5 kW</td><td>12 000 BTU / 3 000 kcal/h</td></tr>
-<tr><td>25–35 m² (duży salon)</td><td>5,0 kW</td><td>18 000 BTU / 4 300 kcal/h</td></tr>
-<tr><td>35–50 m² (otwarta przestrzeń)</td><td>7,0 kW</td><td>24 000 BTU / 6 000 kcal/h</td></tr>
+<tr><td>10–15 m² (sypialnia)</td><td>2,5 kW</td><td>9000 BTU / 2150 kcal/h</td></tr>
+<tr><td>15–25 m² (mały salon)</td><td>3,5 kW</td><td>12 000 BTU / 3000 kcal/h</td></tr>
+<tr><td>25–35 m² (duży salon)</td><td>5,0 kW</td><td>18 000 BTU / 4300 kcal/h</td></tr>
+<tr><td>35–50 m² (otwarta przestrzeń)</td><td>7,0 kW</td><td>24 000 BTU / 6000 kcal/h</td></tr>
 </tbody>
 </table>
-<p>Pięć serii z tego porównania występuje w kilku wariantach mocy; podane wartości dotyczą wersji o mocy około 3,5 kW.</p>
+<p>Każda z pięciu serii z tego porównania jest dostępna w kilku wariantach mocy; podane wartości dotyczą wersji ok. 3,5 kW.</p>
 
 <h2>5 najlepszych energooszczędnych klimatyzatorów w 2026 roku</h2>
 
-<h3>1. Mitsubishi Electric MSZ-AY35VGK: najlepiej zrównoważony</h3>
-<p>Seria AY Mitsubishi Electric jest w swojej kategorii wzorem efektywności. W wersji 3,5 kW producent deklaruje <strong>SEER 8,7 (klasa A+++)</strong> i <strong>SCOP 4,7 (klasa A++)</strong>, czynnik R-32 oraz pracę w trybie grzania do −20 °C na zewnątrz. Jednostka wewnętrzna schodzi do 18 dB(A) na niskim biegu, co jest bardzo cichym poziomem w sypialni. Wersja „VGK” ma wbudowany interfejs Wi-Fi do sterowania przez aplikację MELCloud.</p>
+<h3>1. Mitsubishi Electric MSZ-AY35VGK: najbardziej uniwersalny</h3>
+<p>Seria AY marki Mitsubishi Electric to w swojej klasie punkt odniesienia pod względem efektywności. W wersji 3,5 kW producent podaje <strong>SEER 8,7 (klasa A+++)</strong> i <strong>SCOP 4,7 (klasa A++)</strong>; urządzenie pracuje na czynniku R-32 i grzeje nawet przy −20 °C na zewnątrz. Na najniższym biegu wentylatora jednostka wewnętrzna pracuje z głośnością zaledwie 18 dB(A) – to bardzo cicho, w sam raz do sypialni. Wersja „VGK” ma wbudowany interfejs Wi-Fi do sterowania z aplikacji MELCloud.</p>
 <ul>
-<li><strong>Mocne strony:</strong> jedna z najwyższych na rynku efektywności w trybie chłodzenia, cicha praca, opinia niezawodnego urządzenia, szeroka sieć instalatorów.</li>
-<li><strong>Ograniczenia:</strong> w trybie grzania tylko klasa A++; segment premium.</li>
-<li><strong>Dla kogo:</strong> dla tych, którzy chcą maksymalnych oszczędności latem i trwałego urządzenia do intensywnego użytku.</li>
+<li><strong>Mocne strony:</strong> jedna z najwyższych na rynku efektywności chłodzenia, cicha praca, opinia niezawodnego sprzętu, szeroka sieć instalatorów.</li>
+<li><strong>Ograniczenia:</strong> w grzaniu tylko klasa A++; model z wyższej półki cenowej.</li>
+<li><strong>Dla kogo:</strong> osoby, które chcą jak najwięcej zaoszczędzić latem i szukają trwałego urządzenia do intensywnej pracy.</li>
 </ul>
 
 <h3>2. Haier Flexis Plus 3,5 kW: A+++ w bardziej przystępnej cenie</h3>
-<p>Haier Flexis Plus (jednostka wewnętrzna AS35S2SF1FA) osiąga <strong>SEER 8,5 (A+++)</strong> i <strong>SCOP 4,6 (A++)</strong> według karty producenta, przy rocznym zużyciu energii w trybie chłodzenia wynoszącym 144 kWh na etykiecie. Pracuje na R-32, ma Wi-Fi z aplikacją hOn i wyróżnia się płaskim designem dostępnym w kolorze białym, matowej czerni lub srebrnym.</p>
+<p>Według karty producenta Haier Flexis Plus (jednostka wewnętrzna AS35S2SF1FA) osiąga <strong>SEER 8,5 (A+++)</strong> i <strong>SCOP 4,6 (A++)</strong>, a etykieta podaje roczne zużycie na chłodzenie na poziomie 144 kWh. Pracuje na czynniku R-32, ma wbudowane Wi-Fi obsługiwane z aplikacji hOn i wyróżnia się płaską obudową w kolorze białym, czarnym matowym lub srebrnym.</p>
 <ul>
-<li><strong>Mocne strony:</strong> klasa A+++ w chłodzeniu w średnim segmencie cenowym, dopracowany design, Wi-Fi w standardzie.</li>
-<li><strong>Ograniczenia:</strong> SCOP nieco słabszy niż w Daikin Perfera; mniej gęsta sieć serwisowa niż u marek japońskich.</li>
-<li><strong>Dla kogo:</strong> dla tych, którzy szukają najlepszego stosunku efektywności do ceny do chłodzenia salonu.</li>
+<li><strong>Mocne strony:</strong> klasa A+++ w chłodzeniu w średnim segmencie cenowym, dopracowany wygląd, Wi-Fi w standardzie.</li>
+<li><strong>Ograniczenia:</strong> SCOP nieco niższy niż w modelu Daikin Perfera; rzadsza sieć serwisowa niż w przypadku marek japońskich.</li>
+<li><strong>Dla kogo:</strong> osoby, które szukają najlepszego stosunku efektywności do ceny do chłodzenia salonu.</li>
 </ul>
 
-<h3>3. Daikin Perfera FTXM35R: najlepszy, jeśli także ogrzewasz</h3>
-<p>Daikin Perfera (FTXM35R z jednostką zewnętrzną RXM35R9) jest jedynym modelem w tym zestawieniu <strong>klasy A+++ zarówno w chłodzeniu, jak i w grzaniu</strong>: Eurovent certyfikuje <strong>SEER 8,65</strong> i <strong>SCOP 5,10</strong>, przy 137 kWh rocznie w trybie chłodzenia i możliwości grzania do −20 °C na zewnątrz. Sterujesz nim przez aplikację Onecta, a ma też technologię oczyszczania powietrza Flash Streamer firmy Daikin.</p>
+<h3>3. Daikin Perfera FTXM35R: najlepszy, jeśli chcesz też ogrzewać</h3>
+<p>Daikin Perfera (FTXM35R z jednostką zewnętrzną RXM35R9) jest jedynym modelem w tym zestawieniu, który ma <strong>klasę A+++ zarówno w chłodzeniu, jak i w grzaniu</strong>: Eurovent potwierdza <strong>SEER 8,65</strong> i <strong>SCOP 5,10</strong>. Zużycie na chłodzenie wynosi 137 kWh rocznie, a grzać można nawet przy −20 °C na zewnątrz. Steruje się nim z aplikacji Onecta, a wbudowana technologia Flash Streamer firmy Daikin oczyszcza powietrze.</p>
 <ul>
-<li><strong>Mocne strony:</strong> najlepsza w porównaniu efektywność w trybie grzania, idealny jako główna pompa ciepła w jednym pomieszczeniu; marka referencyjna w klimatyzacji.</li>
-<li><strong>Ograniczenia:</strong> najdroższy w grupie; jego przewaga nad Mitsubishi jest naprawdę odczuwalna dopiero przy intensywnym użytkowaniu zimą.</li>
-<li><strong>Dla kogo:</strong> dla regionów z wyraźnymi zimami lub dla tych, którzy chcą zastąpić grzejniki elektryczne pompą ciepła powietrze–powietrze.</li>
+<li><strong>Mocne strony:</strong> najwyższa w zestawieniu efektywność grzania, dzięki której świetnie sprawdza się jako główna pompa ciepła ogrzewająca pomieszczenie; jedna z czołowych marek w klimatyzacji.</li>
+<li><strong>Ograniczenia:</strong> najdroższy w zestawieniu; przewagę nad modelem Mitsubishi naprawdę odczujesz dopiero wtedy, gdy zimą dużo grzejesz.</li>
+<li><strong>Dla kogo:</strong> domy w regionach z mroźnymi zimami oraz osoby, które chcą zastąpić grzejniki elektryczne pompą ciepła powietrze-powietrze.</li>
 </ul>
 
 <h3>4. LG DUALCOOL AI Air 3,5 kW: najinteligentniejszy</h3>
-<p>LG DUALCOOL AI Air deklaruje <strong>SEER 7,6</strong> i <strong>SCOP 4,6</strong>, czyli <strong>klasę A++ zarówno w chłodzeniu, jak i w grzaniu</strong>, przy około 161 kWh rocznie w trybie chłodzenia według etykiety. Jego głównym atutem jest czujnik radarowy, który wykrywa obecność i położenie domowników, by kierować strumień powietrza i dostosowywać moc; uzupełniają go jonizator Plasmaster Ionizer++ oraz sterowanie przez aplikację LG ThinQ.</p>
+<p>LG podaje dla modelu DUALCOOL AI Air <strong>SEER 7,6</strong> i <strong>SCOP 4,6</strong>, co daje <strong>klasę A++ zarówno w chłodzeniu, jak i w grzaniu</strong>; według etykiety zużycie na chłodzenie wynosi ok. 161 kWh rocznie. Największym atutem jest czujnik radarowy, który wykrywa obecność i położenie domowników, a następnie odpowiednio kieruje nawiew i dobiera moc. Do tego dochodzą jonizator Plasmaster Ionizer++ i sterowanie z aplikacji LG ThinQ.</p>
 <ul>
-<li><strong>Mocne strony:</strong> inteligentne funkcje, które pozwalają nie chłodzić pustego pokoju, dobra równowaga między chłodzeniem a grzaniem, prosta integracja z inteligentnym domem.</li>
-<li><strong>Ograniczenia:</strong> SEER niższy niż w trzech pierwszych modelach, więc latem zużycie energii jest nieco wyższe.</li>
-<li><strong>Dla kogo:</strong> dla tych, którzy chcą urządzenia połączonego z siecią, które oszczędza dzięki automatyzacji, a nie samej wartości efektywności.</li>
+<li><strong>Mocne strony:</strong> inteligentne funkcje, dzięki którym klimatyzator nie chłodzi pustego pokoju, dobre wyniki zarówno w chłodzeniu, jak i w grzaniu, łatwa integracja z inteligentnym domem.</li>
+<li><strong>Ograniczenia:</strong> SEER niższy niż w trzech pierwszych modelach, więc latem zużywa nieco więcej prądu.</li>
+<li><strong>Dla kogo:</strong> osoby, które chcą klimatyzatora sterowanego z aplikacji, oszczędzającego dzięki automatyce, a nie tylko dzięki wysokiemu współczynnikowi efektywności.</li>
 </ul>
 
-<h3>5. Daikin Sensira FTXF35E: podstawowy model dużej marki</h3>
-<p>Daikin Sensira to podstawowa seria Daikina. Wersja FTXF35E deklaruje <strong>SEER 6,5 (A++)</strong> i <strong>SCOP 4,2 (A+)</strong>, przy 188 kWh rocznie w trybie chłodzenia według etykiety. Pracuje na R-32 i korzysta z sieci Daikina, bez zaawansowanych funkcji Perfery.</p>
+<h3>5. Daikin Sensira FTXF35E: podstawowa seria renomowanej marki</h3>
+<p>Seria Sensira otwiera ofertę klimatyzatorów Daikin. Dla wersji FTXF35E producent podaje <strong>SEER 6,5 (A++)</strong> i <strong>SCOP 4,2 (A+)</strong>, a według etykiety zużycie na chłodzenie wynosi 188 kWh rocznie. Urządzenie pracuje na czynniku R-32 i korzysta z sieci instalatorów i serwisów Daikina, ale nie ma zaawansowanych funkcji modelu Perfera.</p>
 <ul>
-<li><strong>Mocne strony:</strong> jakość renomowanej marki przy ograniczonym budżecie, prosty i niezawodny.</li>
-<li><strong>Ograniczenia:</strong> najniższa efektywność w zestawieniu, zwłaszcza w trybie grzania (A+).</li>
-<li><strong>Dla kogo:</strong> sypialnia lub drugi dom z umiarkowanym użytkowaniem, głównie latem.</li>
+<li><strong>Mocne strony:</strong> jakość renomowanej marki przy skromniejszym budżecie, prostota i niezawodność.</li>
+<li><strong>Ograniczenia:</strong> najniższa efektywność w zestawieniu, zwłaszcza w grzaniu (A+).</li>
+<li><strong>Dla kogo:</strong> sypialnia lub dom letniskowy przy umiarkowanym użytkowaniu, głównie latem.</li>
 </ul>
 
 <h2>Tabela porównawcza</h2>
 <table>
 <thead>
-<tr><th>Model (3,5 kW)</th><th>Chłodzenie: SEER / klasa</th><th>Grzanie: SCOP / klasa</th><th>Roczne zużycie w chłodzeniu (etykieta)</th><th>Najlepszy do</th></tr>
+<tr><th>Model (3,5 kW)</th><th>Chłodzenie: SEER / klasa</th><th>Grzanie: SCOP / klasa</th><th>Roczne zużycie na chłodzenie (etykieta)</th><th>Zastosowanie</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Mitsubishi Electric MSZ-AY35VGK</strong></td><td>8,7 / A+++</td><td>4,7 / A++</td><td>≈ 141 kWh</td><td>Maksymalne oszczędności latem</td></tr>
-<tr><td><strong>Haier Flexis Plus 3,5 kW</strong></td><td>8,5 / A+++</td><td>4,6 / A++</td><td>144 kWh</td><td>A+++ w średnim segmencie cenowym</td></tr>
-<tr><td><strong>Daikin Perfera FTXM35R</strong></td><td>8,65 / A+++</td><td>5,10 / A+++</td><td>137 kWh</td><td>Użytkowanie przez cały rok, grzanie</td></tr>
+<tr><td><strong>Mitsubishi Electric MSZ-AY35VGK</strong></td><td>8,7 / A+++</td><td>4,7 / A++</td><td>≈ 141 kWh</td><td>Jak najniższe rachunki latem</td></tr>
+<tr><td><strong>Haier Flexis Plus 3,5 kW</strong></td><td>8,5 / A+++</td><td>4,6 / A++</td><td>144 kWh</td><td>Klasa A+++ w średniej cenie</td></tr>
+<tr><td><strong>Daikin Perfera FTXM35R</strong></td><td>8,65 / A+++</td><td>5,10 / A+++</td><td>137 kWh</td><td>Praca przez cały rok, także grzanie</td></tr>
 <tr><td><strong>LG DUALCOOL AI Air 3,5 kW</strong></td><td>7,6 / A++</td><td>4,6 / A++</td><td>161 kWh</td><td>Inteligentne funkcje</td></tr>
-<tr><td><strong>Daikin Sensira FTXF35E</strong></td><td>6,5 / A++</td><td>4,2 / A+</td><td>188 kWh</td><td>Ograniczony budżet, umiarkowane użytkowanie</td></tr>
+<tr><td><strong>Daikin Sensira FTXF35E</strong></td><td>6,5 / A++</td><td>4,2 / A+</td><td>188 kWh</td><td>Mały budżet, umiarkowane użytkowanie</td></tr>
 </tbody>
 </table>
-<p><em>Dane producenta lub certyfikacji Eurovent dla wersji o mocy około 3,5 kW. Zużycie Mitsubishi obliczono metodą z etykiety (moc × 350 h ÷ SEER).</em></p>
+<p><em>Dane producentów lub certyfikacji Eurovent dla wersji o mocy ok. 3,5 kW. Zużycie modelu Mitsubishi obliczono metodą stosowaną na etykiecie (moc × 350 h ÷ SEER).</em></p>
 
 <h2>Rzeczywiste zużycie: jak czytać kWh z etykiety</h2>
-<p>Roczne zużycie w trybie chłodzenia podane na etykiecie jest obliczane w znormalizowany sposób: odpowiada około 350 godzinom pracy rocznie z pełną mocą, podzielonym przez SEER. Służy do porównywania modeli między sobą, a nie do przewidywania dokładnego rachunku. W cieplejszych regionach, przy długich latach i urządzeniu włączanym przez wiele wieczorów, rzeczywiste zużycie może być wyraźnie wyższe; w łagodnym klimacie niższe.</p>
-<p>Aby oszacować wydatek, pomnóż te kWh przez cenę kWh z Twojej umowy i dostosuj wynik do godzin użytkowania. Liczy się przede wszystkim względna różnica: między Daikin Sensira (188 kWh) a Daikin Perfera (137 kWh) wychodzi około 50 kWh rocznie samego chłodzenia. W trybie grzania różnica jest większa: według kart katalogowych Sensira deklaruje około 867 kWh rocznie wobec 686 kWh dla Perfery, czyli prawie 180 kWh różnicy każdej zimy.</p>
+<p>Roczne zużycie na chłodzenie podane na etykiecie wylicza się według normy: moc urządzenia mnoży się przez ok. 350 godzin pracy z pełną mocą w roku, a wynik dzieli przez SEER. Ta wartość służy do porównywania modeli, a nie do przewidywania dokładnej kwoty na rachunku. W gorącym klimacie, gdzie lato trwa długo, a klimatyzator pracuje przez większość wieczorów, rzeczywiste zużycie może być znacznie wyższe; w łagodnym klimacie – niższe.</p>
+<p>Aby oszacować koszt, pomnóż tę liczbę kWh przez cenę 1 kWh ze swojej umowy i skoryguj wynik o faktyczny czas pracy urządzenia. Najważniejsza jest różnica między modelami: w przypadku Daikin Sensira (188 kWh) i Daikin Perfera (137 kWh) wynosi ona ok. 50 kWh rocznie na samym chłodzeniu. W grzaniu różnica jest większa: według kart katalogowych Sensira zużywa ok. 867 kWh rocznie, a Perfera 686 kWh – to prawie 180 kWh różnicy każdej zimy.</p>
 
-<h2>Błędy, które podnoszą zużycie</h2>
+<h2>Błędy, przez które rośnie zużycie prądu</h2>
 <ul>
-<li><strong>Zbyt niska temperatura zadana.</strong> Latem 25–27 °C pozostaje komfortowe; poradniki oszczędzania energii szacują, że każdy stopień mniej zwiększa zużycie o około 7–8%. Ustawienie 18 °C nie chłodzi szybciej, tylko zmusza urządzenie do cięższej pracy.</li>
-<li><strong>Wybór wyłącznie na podstawie ceny.</strong> Tani model z niskim SEER kosztuje mało przy zakupie, a więcej każdego lata.</li>
-<li><strong>Zbyt duża moc</strong> w przekonaniu, że lepiej schłodzi: powoduje krótkie cykle i marnuje zaletę technologii Inverter.</li>
-<li><strong>Zapominanie o filtrach.</strong> Zabrudzone filtry zmniejszają przepływ powietrza i zmuszają urządzenie do pracy na wysokich obrotach. W sezonie czyść je co kilka tygodni.</li>
-<li><strong>Klimatyzowanie przy otwartych drzwiach i oknach</strong> lub w pełnym słońcu: w najgorętszych godzinach zamykaj rolety i żaluzje.</li>
-<li><strong>Pozostawianie włączonego urządzenia w pustym domu.</strong> Skorzystaj z harmonogramu lub aplikacji, by włączyć je na krótko przed powrotem; nasz <a href="/pl/blog/guide-domotique-economie-energie-2026">poradnik o oszczędzaniu energii w inteligentnym domu</a> wyjaśnia, jak to zautomatyzować.</li>
+<li><strong>Ustawianie zbyt niskiej temperatury.</strong> Latem temperatura 25–27 °C jest wciąż komfortowa, a według poradników oszczędzania energii każdy stopień mniej zwiększa zużycie o ok. 7–8%. Ustawienie 18 °C nie schłodzi pokoju szybciej – urządzenie będzie po prostu ciężej pracować.</li>
+<li><strong>Kierowanie się wyłącznie ceną.</strong> Tani model z niskim SEER kosztuje niewiele przy zakupie, za to więcej każdego lata.</li>
+<li><strong>Kupowanie urządzenia o zbyt dużej mocy</strong> w przekonaniu, że lepiej schłodzi: skutkiem są krótkie cykle pracy i utrata przewagi, jaką daje Inverter.</li>
+<li><strong>Zapominanie o filtrach.</strong> Zabrudzone filtry ograniczają przepływ powietrza i zmuszają urządzenie do cięższej pracy. W sezonie czyść je co kilka tygodni.</li>
+<li><strong>Klimatyzowanie przy otwartych drzwiach i oknach</strong> lub w pełnym słońcu: w najgorętszych godzinach opuszczaj rolety i żaluzje.</li>
+<li><strong>Pozostawianie włączonego klimatyzatora w pustym domu.</strong> Ustaw harmonogram albo włącz urządzenie z aplikacji na krótko przed powrotem; jak to zautomatyzować, wyjaśniamy w <a href="/pl/blog/guide-domotique-economie-energie-2026">poradniku o oszczędzaniu energii w inteligentnym domu</a>.</li>
 </ul>
-<p>Prosta wskazówka: połącz klimatyzator z wentylatorem sufitowym lub stojącym. Odczucie chłodu wywołane ruchem powietrza pozwala podnieść temperaturę zadaną o jeden lub dwa stopnie bez utraty komfortu.</p>
+<p>Prosty sposób: korzystaj z klimatyzatora razem z wentylatorem sufitowym lub stojącym. Ruch powietrza daje uczucie chłodu, więc możesz podnieść ustawioną temperaturę o jeden–dwa stopnie bez utraty komfortu.</p>
 
 <h2>Montaż, konserwacja i bezpieczeństwo</h2>
-<p>Split spełnia obietnice tylko wtedy, gdy jest dobrze zamontowany. Prace z czynnikiem chłodniczym mogą wykonywać wyłącznie fachowcy z uprawnieniami wymaganymi unijnymi przepisami o gazach fluorowanych, a podłączenie elektryczne musi spełniać lokalne przepisy dotyczące instalacji elektrycznych. Montaż zawsze powierz wykwalifikowanemu instalatorowi, który przekaże też dokumenty potrzebne do gwarancji.</p>
+<p>Split osiąga deklarowane parametry tylko wtedy, gdy jest prawidłowo zamontowany. Prace z czynnikiem chłodniczym mogą wykonywać wyłącznie fachowcy z certyfikatem wymaganym przez unijne przepisy o fluorowanych gazach cieplarnianych (F-gazach), a podłączenie elektryczne musi być zgodne z obowiązującymi przepisami dotyczącymi instalacji elektrycznych. Montaż zawsze powierz wykwalifikowanemu instalatorowi, który wystawi też dokumenty potrzebne do zachowania gwarancji.</p>
 <ul>
-<li><strong>Jednostka zewnętrzna:</strong> jeśli to możliwe w cieniu i z wolną przestrzenią wokół; zamknięta w ciasnej wnęce bez wentylacji traci na efektywności.</li>
-<li><strong>Jednostka wewnętrzna:</strong> wysoko, z dala od źródeł ciepła i ustawiona tak, by rozprowadzać powietrze po całym pomieszczeniu, bez dmuchania wprost na łóżko czy kanapę.</li>
-<li><strong>Konserwacja:</strong> regularne czyszczenie filtrów i okresowa kontrola przez fachowca (wymienniki, odprowadzanie skroplin, szczelność obiegu), zwłaszcza nad morzem lub w zapylonych okolicach.</li>
-<li><strong>Wspólnota mieszkaniowa i przepisy budowlane:</strong> przed montażem jednostki na elewacji sprawdź regulamin wspólnoty lub spółdzielni oraz ewentualne lokalne przepisy budowlane.</li>
+<li><strong>Jednostka zewnętrzna:</strong> najlepiej w cieniu i z wolną przestrzenią wokół; zamknięta w ciasnej, niewentylowanej wnęce pracuje mniej efektywnie.</li>
+<li><strong>Jednostka wewnętrzna:</strong> wysoko, z dala od źródeł ciepła, skierowana tak, by rozprowadzała powietrze po całym pomieszczeniu i nie dmuchała prosto na łóżko czy kanapę.</li>
+<li><strong>Konserwacja:</strong> regularne czyszczenie filtrów i okresowy przegląd u serwisanta (wymienniki, odpływ skroplin, szczelność układu), zwłaszcza nad morzem lub w zapylonej okolicy.</li>
+<li><strong>Wspólnota mieszkaniowa i przepisy budowlane:</strong> przed montażem jednostki na elewacji sprawdź regulamin wspólnoty lub spółdzielni, a w razie potrzeby także przepisy budowlane.</li>
 </ul>
 
 <h2>Werdykt</h2>
-<p>Dla większości gospodarstw domowych <strong>Mitsubishi Electric MSZ-AY35VGK</strong> to najlepiej zrównoważony klimatyzator energooszczędny: A+++ w chłodzeniu, bardzo cichy i uchodzący za niezawodny. <strong>Haier Flexis Plus</strong> oferuje tę samą klasę A+++ w chłodzeniu przy niższym budżecie, a <strong>Daikin Perfera FTXM35R</strong> to logiczny wybór, jeśli także ogrzewasz, dzięki podwójnemu A+++. <strong>LG DUALCOOL AI Air</strong> przekonuje automatyką, a <strong>Daikin Sensira</strong> wystarczy przy umiarkowanym użytkowaniu i ograniczonym budżecie. Niezależnie od wyboru, dobry montaż, rozsądna temperatura zadana i czyste filtry liczą się tak samo jak etykieta.</p>`,
+<p>W większości domów najlepiej sprawdzi się <strong>Mitsubishi Electric MSZ-AY35VGK</strong> – najbardziej uniwersalny klimatyzator energooszczędny w zestawieniu: klasa A+++ w chłodzeniu, bardzo cicha praca i opinia niezawodnego sprzętu. <strong>Haier Flexis Plus</strong> oferuje tę samą klasę A+++ w chłodzeniu za mniejsze pieniądze, a jeśli chcesz też ogrzewać, logicznym wyborem jest <strong>Daikin Perfera FTXM35R</strong> z podwójną klasą A+++. <strong>LG DUALCOOL AI Air</strong> przekonuje automatyką, a <strong>Daikin Sensira</strong> wystarczy przy umiarkowanym użytkowaniu i ograniczonym budżecie. Niezależnie od wybranego modelu prawidłowy montaż, rozsądnie ustawiona temperatura i czyste filtry znaczą tyle samo co etykieta.</p>`,
   },
   faq: [
     {
@@ -935,7 +935,7 @@ export const article: BlogArticle = {
         es: "Para un split de 3,5 kW, la etiqueta indica entre 137 y 188 kWh al año en refrigeración según el modelo de esta comparativa. Esa cifra normalizada equivale a unas 350 horas a plena potencia: tu consumo real depende del clima, del aislamiento y de tus horas de uso.",
         it: "Per uno split da 3,5 kW, l’etichetta indica tra 137 e 188 kWh l’anno in raffrescamento a seconda del modello di questo confronto. Il dato normalizzato corrisponde a circa 350 ore alla massima potenza: il consumo reale dipende da clima, isolamento e ore di utilizzo.",
         nl: "Voor een splitunit van 3,5 kW vermeldt het label 137 tot 188 kWh per jaar voor koelen, afhankelijk van het model in deze vergelijking. Dat genormeerde cijfer komt overeen met ongeveer 350 uur op vol vermogen; je werkelijke verbruik hangt af van klimaat, isolatie en gebruiksuren.",
-        pl: "Dla splitu o mocy 3,5 kW etykieta podaje od 137 do 188 kWh rocznie w trybie chłodzenia, zależnie od modelu z tego porównania. Ta znormalizowana wartość odpowiada około 350 godzinom pracy z pełną mocą: rzeczywiste zużycie zależy od klimatu, izolacji i godzin użytkowania.",
+        pl: "W przypadku splitu o mocy 3,5 kW etykiety modeli z tego porównania podają od 137 do 188 kWh rocznie na chłodzenie. To wartość znormalizowana, odpowiadająca ok. 350 godzinom pracy z pełną mocą – rzeczywiste zużycie zależy od klimatu, izolacji budynku i czasu korzystania z klimatyzatora.",
       },
     },
     {
@@ -955,7 +955,7 @@ export const article: BlogArticle = {
         es: "En un split, la etiqueta muestra una clase para el frío y otra para el calor. A+++ en frío equivale a un SEER de al menos 8,5; A+++ en calor, a un SCOP de al menos 5,1 en clima medio. Muchos modelos son A+++ en frío pero A++ en calor.",
         it: "Su uno split l’etichetta riporta una classe per il freddo e una per il caldo. A+++ in raffrescamento corrisponde a un SEER di almeno 8,5; A+++ in riscaldamento a uno SCOP di almeno 5,1 nel clima medio. Molti modelli sono A+++ in freddo ma A++ in caldo.",
         nl: "Bij een splitunit toont het label een klasse voor koelen en een voor verwarmen. A+++ voor koelen betekent een SEER van minstens 8,5; A+++ voor verwarmen een SCOP van minstens 5,1 in het gemiddelde klimaat. Veel modellen zijn A+++ voor koelen maar A++ voor verwarmen.",
-        pl: "W splicie etykieta podaje jedną klasę dla chłodzenia i jedną dla grzania. A+++ w chłodzeniu odpowiada SEER co najmniej 8,5; A+++ w grzaniu to SCOP co najmniej 5,1 w klimacie umiarkowanym. Wiele modeli jest A+++ w chłodzeniu, ale A++ w grzaniu.",
+        pl: "Etykieta splitu podaje osobną klasę dla chłodzenia i osobną dla grzania. A+++ w chłodzeniu oznacza SEER co najmniej 8,5, a A+++ w grzaniu – SCOP co najmniej 5,1 w klimacie umiarkowanym. Wiele modeli ma klasę A+++ w chłodzeniu, ale tylko A++ w grzaniu.",
       },
     },
     {
@@ -975,7 +975,7 @@ export const article: BlogArticle = {
         es: "Entre 25 y 27 °C en verano. Las guías de ahorro energético estiman que cada grado menos aumenta el consumo en torno a un 7-8 %. Un ventilador como complemento permite subir la consigna uno o dos grados sin perder confort.",
         it: "Tra 25 e 27 °C d’estate. Le guide al risparmio energetico stimano che ogni grado in meno aumenti il consumo di circa il 7-8%. Un ventilatore in aggiunta permette di alzare la temperatura impostata di uno o due gradi senza perdere comfort.",
         nl: "In de zomer tussen 25 en 27 °C. Energiebespaargidsen schatten dat elke graad lager het verbruik met ongeveer 7 tot 8% verhoogt. Met een extra ventilator kun je de ingestelde temperatuur een of twee graden verhogen zonder comfortverlies.",
-        pl: "Latem na 25–27 °C. Poradniki oszczędzania energii szacują, że każdy stopień mniej zwiększa zużycie o około 7–8%. Wentylator jako uzupełnienie pozwala podnieść temperaturę zadaną o jeden lub dwa stopnie bez utraty komfortu.",
+        pl: "Latem na 25–27 °C. Według poradników oszczędzania energii każdy stopień mniej zwiększa zużycie o ok. 7–8%. Jeśli dodatkowo włączysz wentylator, możesz podnieść ustawioną temperaturę o jeden–dwa stopnie bez utraty komfortu.",
       },
     },
     {
@@ -986,7 +986,7 @@ export const article: BlogArticle = {
         es: "¿Cuántos BTU necesito para mi habitación?",
         it: "Quanti BTU servono per la mia stanza?",
         nl: "Welk vermogen heb ik nodig voor mijn kamer?",
-        pl: "Jaką moc wybrać do mojego pomieszczenia?",
+        pl: "Jaką moc klimatyzatora wybrać do pokoju?",
       },
       answer: {
         fr: "Comptez environ 2,5 kW (9 000 BTU) pour 10 à 15 m², 3,5 kW (12 000 BTU) pour 15 à 25 m² et 5 kW (18 000 BTU) pour 25 à 35 m², avec une marge pour une pièce très ensoleillée ou sous les toits. Un appareil surdimensionné consomme plus, pas moins.",
@@ -995,7 +995,7 @@ export const article: BlogArticle = {
         es: "Calcula unos 2,5 kW (9.000 BTU) para 10-15 m², 3,5 kW (12.000 BTU) para 15-25 m² y 5 kW (18.000 BTU) para 25-35 m², con un margen si la estancia es muy soleada o está bajo cubierta. Un equipo sobredimensionado consume más, no menos.",
         it: "Calcola circa 2,5 kW (9.000 BTU) per 10-15 m², 3,5 kW (12.000 BTU) per 15-25 m² e 5 kW (18.000 BTU) per 25-35 m², con un margine per stanze molto soleggiate o sottotetti. Un apparecchio sovradimensionato consuma di più, non di meno.",
         nl: "Reken op ongeveer 2,5 kW (9.000 BTU) voor 10 tot 15 m², 3,5 kW (12.000 BTU) voor 15 tot 25 m² en 5 kW (18.000 BTU) voor 25 tot 35 m², met extra marge voor een erg zonnige kamer of zolderkamer. Een te zwaar toestel verbruikt meer, niet minder.",
-        pl: "Przyjmij około 2,5 kW (9 000 BTU) na 10–15 m², 3,5 kW (12 000 BTU) na 15–25 m² i 5 kW (18 000 BTU) na 25–35 m², z zapasem dla pomieszczenia mocno nasłonecznionego lub pod dachem. Urządzenie o zbyt dużej mocy zużywa więcej, a nie mniej.",
+        pl: "Przyjmij ok. 2,5 kW (9000 BTU) na 10–15 m², 3,5 kW (12 000 BTU) na 15–25 m² i 5 kW (18 000 BTU) na 25–35 m², a przy mocno nasłonecznionym pokoju lub pomieszczeniu pod dachem dolicz zapas. Urządzenie o zbyt dużej mocy zużywa więcej prądu, a nie mniej.",
       },
     },
     {
@@ -1006,7 +1006,7 @@ export const article: BlogArticle = {
         es: "¿Split o portátil: cuál consume menos?",
         it: "Split o portatile: quale consuma meno?",
         nl: "Splitunit of mobiele airco: wat verbruikt minder?",
-        pl: "Split czy klimatyzator przenośny: który zużywa mniej?",
+        pl: "Split czy klimatyzator przenośny: który zużywa mniej prądu?",
       },
       answer: {
         fr: "Le split, nettement. Son compresseur est à l’extérieur et les meilleurs modèles dépassent un SEER de 8,5. Un mobile monobloc garde le compresseur dans la pièce et sa gaine fait entrer de l’air chaud, ce qui demande bien plus d’électricité pour le même froid.",
@@ -1015,7 +1015,7 @@ export const article: BlogArticle = {
         es: "El split, con diferencia. Su compresor está en el exterior y los mejores modelos superan un SEER de 8,5. Un portátil monobloque tiene el compresor dentro de la habitación y su tubo hace entrar aire caliente, así que necesita bastante más electricidad para el mismo frío.",
         it: "Lo split, nettamente. Il suo compressore è all’esterno e i modelli migliori superano un SEER di 8,5. Un portatile monoblocco tiene il compressore nella stanza e il tubo richiama aria calda, quindi serve molta più elettricità per lo stesso freddo.",
         nl: "De splitunit, met afstand. De compressor staat buiten en de beste modellen halen een SEER boven 8,5. Een mobiele monoblok-airco heeft de compressor in de kamer en de slang trekt warme lucht naar binnen, waardoor hij veel meer stroom nodig heeft voor dezelfde koeling.",
-        pl: "Zdecydowanie split. Jego sprężarka jest na zewnątrz, a najlepsze modele przekraczają SEER 8,5. Przenośny monoblok ma sprężarkę w pokoju, a jego wąż zasysa ciepłe powietrze, co wymaga znacznie więcej prądu do uzyskania tego samego chłodu.",
+        pl: "Zdecydowanie split. Jego sprężarka pracuje na zewnątrz, a najlepsze modele osiągają SEER powyżej 8,5. Przenośny monoblok ma sprężarkę w pokoju, a wyrzucanie powietrza przez wąż sprawia, że do środka zasysane jest ciepłe powietrze z zewnątrz – dlatego na ten sam chłód potrzebuje znacznie więcej prądu.",
       },
     },
     {
@@ -1026,7 +1026,7 @@ export const article: BlogArticle = {
         es: "¿Puedo instalar yo mismo un aire acondicionado split?",
         it: "Posso installare da solo un condizionatore split?",
         nl: "Kan ik een splitairco zelf installeren?",
-        pl: "Czy mogę sam zamontować klimatyzator split?",
+        pl: "Czy klimatyzator split można zamontować samodzielnie?",
       },
       answer: {
         fr: "Non pour un split classique : la mise en service du circuit frigorifique est réservée à un professionnel certifié pour la manipulation des fluides frigorigènes, et le fabricant l’exige généralement pour la garantie. Faites aussi vérifier le raccordement électrique.",
@@ -1035,7 +1035,7 @@ export const article: BlogArticle = {
         es: "En un split convencional, no: la puesta en marcha del circuito frigorífico está reservada a un profesional certificado para manipular gases refrigerantes, y el fabricante suele exigirlo para la garantía. Haz revisar también la conexión eléctrica.",
         it: "Per uno split tradizionale no: la messa in funzione del circuito frigorifero è riservata a un tecnico certificato per la manipolazione dei gas refrigeranti, e il produttore in genere lo richiede per la garanzia. Fai controllare anche il collegamento elettrico.",
         nl: "Bij een klassieke splitunit niet: het in bedrijf stellen van het koudemiddelcircuit is voorbehouden aan een vakman die gecertificeerd is voor koudemiddelen, en fabrikanten eisen dat meestal voor de garantie. Laat ook de elektrische aansluiting controleren.",
-        pl: "Nie w przypadku klasycznego splitu: uruchomienie obiegu chłodniczego jest zastrzeżone dla fachowca z uprawnieniami do pracy z czynnikami chłodniczymi, a producent zwykle wymaga tego do gwarancji. Zleć też sprawdzenie podłączenia elektrycznego.",
+        pl: "Klasycznego splitu – nie. Uruchomienie układu chłodniczego może przeprowadzić wyłącznie fachowiec z certyfikatem uprawniającym do pracy z czynnikami chłodniczymi, a producenci zwykle wymagają tego jako warunku gwarancji. Zleć też sprawdzenie podłączenia elektrycznego.",
       },
     },
   ],

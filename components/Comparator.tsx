@@ -106,7 +106,7 @@ const LABELS: Record<string, Labels> = {
     capacity: 'Pojemność',
     bestFor: 'Dla kogo',
     pros: 'Mocne strony',
-    cons: 'Na co uważać',
+    cons: 'Ograniczenia',
     viewOnAmazon: 'Zobacz na Amazon',
     clearSlot: 'Usuń',
     close: 'Zamknij',

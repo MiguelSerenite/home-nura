@@ -19,7 +19,7 @@ const metaTitles: Record<string, string> = {
   es: 'Blog Home Nura | Guías, Tests y Recetas de Freidoras de Aire',
   it: 'Blog Home Nura | Guide, Test e Ricette Friggitrici ad Aria',
   nl: 'Home Nura Blog | Airfryer Gidsen, Tests & Recepten',
-  pl: 'Blog Home Nura | Frytkownice: poradniki, recenzje, przepisy',
+  pl: 'Blog Home Nura | Frytkownice: poradniki, opinie, przepisy',
 }
 
 const metaDescs: Record<string, string> = {
@@ -29,7 +29,7 @@ const metaDescs: Record<string, string> = {
   es: 'Descubre nuestras guías de compra, tests detallados, recetas y comparativas de freidoras de aire. Más de 25 artículos expertos.',
   it: 'Scopri le nostre guide all\'acquisto, test dettagliati, ricette e confronti di friggitrici ad aria. Oltre 25 articoli esperti.',
   nl: 'Ontdek onze koopgidsen, gedetailleerde tests, recepten en airfryer vergelijkingen. Meer dan 25 expertartikelen.',
-  pl: 'Poznaj nasze poradniki zakupowe, szczegółowe recenzje, przepisy i porównania frytkownic beztłuszczowych. Ponad 25 artykułów eksperckich o zdrowym gotowaniu.',
+  pl: 'Poradniki zakupowe, szczegółowe omówienia modeli, przepisy i porównania frytkownic beztłuszczowych. Ponad 25 eksperckich artykułów o zdrowej kuchni.',
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -50,7 +50,7 @@ const blogIntro: Record<string, { title: string; subtitle: string }> = {
   es: { title: 'El Blog Home Nura', subtitle: 'Guías de compra, tests detallados, recetas y comparativas para dominar tu freidora de aire.' },
   it: { title: 'Il Blog Home Nura', subtitle: 'Guide all\'acquisto, test dettagliati, ricette e confronti per padroneggiare la tua friggitrice ad aria.' },
   nl: { title: 'De Home Nura Blog', subtitle: 'Koopgidsen, gedetailleerde tests, recepten en vergelijkingen om uw airfryer te beheersen.' },
-  pl: { title: 'Blog Home Nura', subtitle: 'Poradniki zakupowe, szczegółowe recenzje, przepisy i porównania, dzięki którym lepiej wykorzystasz swoją frytkownicę beztłuszczową.' },
+  pl: { title: 'Blog Home Nura', subtitle: 'Poradniki zakupowe, szczegółowe omówienia modeli, przepisy i porównania, dzięki którym w pełni wykorzystasz swoją frytkownicę beztłuszczową.' },
 }
 
 export default async function BlogIndex({ params }: { params: Promise<{ lang: string }> }) {

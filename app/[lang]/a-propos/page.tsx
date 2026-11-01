@@ -274,20 +274,20 @@ const content: Record<string, {
   pl: {
     title: 'O serwisie Home Nura',
     mission_title: 'Nasza misja',
-    mission: 'Home Nura to niezależny europejski przewodnik poświęcony frytkownicom beztłuszczowym. Naszą misją jest pomagać konsumentom z 7 krajów europejskich w dokonaniu najlepszego wyboru dzięki uczciwym porównaniom, przejrzystemu systemowi oceny i regularnie aktualizowanej selekcji.',
+    mission: 'Home Nura to niezależny europejski przewodnik po frytkownicach beztłuszczowych. Pomagamy kupującym z 7 krajów Europy wybrać jak najlepiej dzięki uczciwym porównaniom, przejrzystemu systemowi oceny i regularnie aktualizowanemu zestawieniu.',
     methodology_title: 'Nasza metodologia',
-    methodology: 'Każda frytkownica w naszej selekcji jest oceniana według szczegółowego protokołu, który łączy analizę kart katalogowych producenta, zestawienie zweryfikowanych opinii użytkowników (Amazon, Google) oraz uwzględnienie testów publikowanych przez prasę specjalistyczną. Oceniamy jakość gotowania, zużycie energii, łatwość obsługi, poziom hałasu, trwałość oraz stosunek jakości do ceny.',
+    methodology: 'Każdą frytkownicę z naszego zestawienia oceniamy według szczegółowej metody: analizujemy karty katalogowe producenta, porównujemy zweryfikowane opinie użytkowników (Amazon, Google) i bierzemy pod uwagę testy publikowane przez prasę specjalistyczną. Oceniamy efekty smażenia i pieczenia, zużycie energii, łatwość obsługi, poziom hałasu, trwałość oraz stosunek jakości do ceny.',
     criteria_title: 'Nasze kryteria oceny (Ocena Nura /10)',
     criteria: [
       {
-        name: 'Jakość gotowania',
+        name: 'Efekty smażenia i pieczenia',
         weight: '30%',
-        desc: 'Chrupkość, równomierność, wszechstronność przepisów',
+        desc: 'Chrupkość, równomierność pieczenia, wszechstronność zastosowań',
       },
       {
         name: 'Stosunek jakości do ceny',
         weight: '25%',
-        desc: 'Wydajność w stosunku do ceny na każdym rynku',
+        desc: 'Jakość działania w stosunku do ceny na danym rynku',
       },
       {
         name: 'Łatwość obsługi',
@@ -297,28 +297,28 @@ const content: Record<string, {
       {
         name: 'Zużycie energii',
         weight: '15%',
-        desc: 'Pobór mocy w watach, czas gotowania, efektywność',
+        desc: 'Pobór mocy, czas pieczenia, efektywność energetyczna',
       },
       {
-        name: 'Design i jakość wykonania',
+        name: 'Wzornictwo i jakość wykonania',
         weight: '15%',
         desc: 'Materiały, wykończenie, gabaryty, trwałość',
       },
     ],
     team_title: 'Nasz zespół',
-    team: 'Home Nura prowadzi niewielki zespół pasjonatów kuchni i technologii z siedzibą w Europie. Obejmujemy 7 rynków (Francja, Niemcy, Wielka Brytania, Hiszpania, Włochy, Holandia, Polska) i publikujemy w języku każdego kraju, by zapewnić autentyczne wrażenia.',
+    team: 'Za serwisem Home Nura stoi niewielki zespół pasjonatów kuchni i nowych technologii z siedzibą w Europie. Działamy na 7 rynkach (Francja, Niemcy, Wielka Brytania, Hiszpania, Włochy, Holandia, Polska) i publikujemy w języku każdego z tych krajów, tak by teksty brzmiały naturalnie dla miejscowych czytelników.',
     independence_title: 'Nasza niezależność',
-    independence: 'Home Nura jest serwisem niezależnym. Uczestniczymy w Programie Partnerskim Amazon EU, co oznacza, że otrzymujemy prowizję, gdy kupujesz przez nasze linki, bez żadnych dodatkowych kosztów dla Ciebie. To wynagrodzenie nigdy nie wpływa na nasze rankingi ani rekomendacje. Żaden producent nie może zapłacić za wyższą ocenę.',
+    independence: 'Home Nura to serwis niezależny. Uczestniczymy w Programie Partnerskim Amazon EU: gdy kupujesz przez nasze linki, otrzymujemy prowizję, a Ty nie płacisz nic więcej. To wynagrodzenie nigdy nie wpływa na nasze rankingi ani rekomendacje. Żaden producent nie może zapłacić za wyższą ocenę.',
     contact_title: 'Kontakt',
     contact: 'Masz pytania lub sugestię? Napisz do nas: contact@homenura.com. Odpowiadamy w ciągu 48 godzin.',
-    eeat_title: 'Nasze zobowiązania jakościowe',
-    eeat_experience: 'Doświadczenie: od startu Home Nura w 2024 roku stale analizujemy i porównujemy frytkownice dostępne na rynkach europejskich. Nasza selekcja jest aktualizowana wraz z nowościami od producentów i zmianami cen.',
-    eeat_expertise: 'Ekspertyza: każda recenzja powstaje na podstawie oficjalnych kart katalogowych, zestawienia zweryfikowanych opinii użytkowników i bezpośredniego porównania modeli z jednej serii. Nasz protokół oceny jest publiczny i szczegółowo opisany na tej stronie.',
-    eeat_authority: 'Autorytet: nasza Ocena Nura podsumowuje obiektywne, ważone kryteria. Ma być prostym i przejrzystym punktem odniesienia, który pomaga czytelnikom wybierać spośród modeli dostępnych w Europie.',
-    eeat_trust: 'Zaufanie: 100% niezależności. Żaden producent nie może kupić wyższej oceny. Naszym jedynym źródłem przychodów jest Program Partnerski Amazon, oznaczony przy każdym linku. Nasza metodologia i kryteria są publiczne.',
+    eeat_title: 'Nasze standardy jakości',
+    eeat_experience: 'Doświadczenie: od uruchomienia serwisu Home Nura w 2024 roku na bieżąco analizujemy i porównujemy frytkownice dostępne na rynkach europejskich. Zestawienie aktualizujemy, gdy producenci wprowadzają nowe modele i gdy zmieniają się ceny.',
+    eeat_expertise: 'Wiedza ekspercka: każde omówienie powstaje na podstawie oficjalnych kart katalogowych, porównania zweryfikowanych opinii użytkowników i bezpośredniego zestawienia modeli z tej samej serii. Zasady oceny są jawne i szczegółowo opisane na tej stronie.',
+    eeat_authority: 'Autorytet: Ocena Nura łączy obiektywne kryteria o określonych wagach. To prosty i przejrzysty punkt odniesienia, który ułatwia czytelnikom wybór spośród modeli dostępnych w Europie.',
+    eeat_trust: 'Zaufanie: pełna niezależność. Żaden producent nie może kupić wyższej oceny. Jedynym źródłem naszych przychodów jest Program Partnerski Amazon, co zaznaczamy przy każdym linku. Metodologia i kryteria są jawne.',
     founder_name: 'Miguel Marie',
     founder_title: 'Założyciel i redaktor naczelny',
-    founder_bio: 'Pasjonat technologii i zdrowej kuchni, Miguel uruchomił Home Nura w 2024 roku, widząc brak rzetelnych i niezależnych porównań frytkownic beztłuszczowych w Europie. Osobiście nadzoruje metodologię oceny i gwarantuje redakcyjną niezależność serwisu.',
+    founder_bio: 'Miguel, pasjonat nowych technologii i zdrowej kuchni, założył Home Nura w 2024 roku, bo w Europie brakowało rzetelnych i niezależnych porównań frytkownic beztłuszczowych. Osobiście nadzoruje metodologię oceny i stoi na straży niezależności redakcyjnej serwisu.',
     stats_title: 'Home Nura w liczbach',
     stats: [
       {
@@ -330,7 +330,7 @@ const content: Record<string, {
         value: '5',
       },
       {
-        label: 'Objęte kraje europejskie',
+        label: 'Kraje, w których działamy',
         value: '6',
       },
       {
@@ -342,7 +342,7 @@ const content: Record<string, {
         value: 'Co miesiąc',
       },
       {
-        label: 'Online od',
+        label: 'Działamy od',
         value: '2024',
       },
     ],

@@ -137,23 +137,23 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     pl: [
       {
         question: "Jaki termostat do pieca gazowego wybrać?",
-        answer: "Najprościej wybrać termostat podłączany do styków beznapięciowych pieca, które ma prawie każdy kocioł gazowy, a jeśli kocioł obsługuje OpenTherm – model z OpenTherm, który płynnie reguluje moc palnika. Wersje bezprzewodowe z odbiornikiem przy kotle ułatwiają montaż bez kucia ścian. Popularne w Polsce są zarówno marki takie jak Auraton czy Salus, jak i systemy tado, Netatmo czy Honeywell. Przed zakupem warto sprawdzić listę zgodności z konkretnym modelem kotła.",
+        answer: "Najprostszy wybór to termostat podłączany do styków beznapięciowych, które ma prawie każdy kocioł gazowy. Jeśli kocioł obsługuje OpenTherm, lepszy będzie termostat z tym protokołem, bo płynnie reguluje moc palnika. Wersje bezprzewodowe z odbiornikiem przy kotle ułatwiają montaż bez kucia ścian. W Polsce popularne są zarówno marki takie jak Auraton czy Salus, jak i systemy tado, Netatmo czy Honeywell. Przed zakupem warto sprawdzić na liście zgodności, czy termostat współpracuje z konkretnym modelem kotła.",
       },
       {
-        question: "Głowice termostatyczne smart czy termostat pokojowy – co wybrać?",
-        answer: "W domu z własnym kotłem warto zacząć od termostatu pokojowego, bo to on steruje źródłem ciepła; w bloku z ogrzewaniem miejskim sensowne są tylko głowice. Głowice smart pozwalają ustawić inną temperaturę w każdym pomieszczeniu, na przykład chłodniejszą sypialnię czy pokój gościnny ogrzewany tylko w razie potrzeby. Najlepiej działa połączenie obu: termostat włącza kocioł, a głowice dzielą ciepło między pokoje. Przy pompie ciepła lepiej nie zamykać zbyt wielu grzejników naraz.",
+        question: "Inteligentne głowice termostatyczne czy termostat pokojowy – co wybrać?",
+        answer: "W domu z własnym kotłem warto zacząć od termostatu pokojowego, bo to on steruje źródłem ciepła; w bloku z ogrzewaniem miejskim sens mają tylko głowice. Inteligentne głowice pozwalają ustawić inną temperaturę w każdym pomieszczeniu, np. niższą w sypialni albo w pokoju gościnnym, ogrzewanym tylko w razie potrzeby. Najlepiej działa połączenie obu rozwiązań: termostat włącza kocioł, a głowice rozdzielają ciepło między pokoje. Przy pompie ciepła lepiej nie zamykać zbyt wielu grzejników naraz.",
       },
       {
         question: "Czy w bloku z podzielnikami ciepła można założyć inteligentne głowice?",
-        answer: "Tak, zwykle wystarczy zdjąć zwykłą głowicę i założyć inteligentną na ten sam zawór, bez ruszania zaworu i podzielnika ciepła. Najczęstszy gwint to M30 × 1,5; do zaworów Danfoss potrzebny jest adapter, często dołączony do zestawu. Podzielnik jest zaplombowany i nie wolno go zdejmować ani zasłaniać. Warto też uprzedzić spółdzielnię lub zarządcę, a przy zaworach z nastawą wstępną niczego w niej nie zmieniać.",
+        answer: "Tak. Zwykle wystarczy zdjąć dotychczasową głowicę i nakręcić inteligentną na ten sam zawór – bez ingerencji w zawór i podzielnik ciepła. Najczęstszy gwint to M30 × 1,5; do zaworów Danfoss potrzebny jest adapter, często dołączony do zestawu. Podzielnik jest zaplombowany i nie wolno go zdejmować ani zasłaniać. Warto też uprzedzić spółdzielnię lub zarządcę, a jeśli zawór ma nastawę wstępną, niczego w niej nie zmieniać.",
       },
       {
         question: "Ile można zaoszczędzić, obniżając temperaturę o 1 stopień?",
-        answer: "Zwykle przyjmuje się 6–7 % mniej energii na ogrzewanie za każdy stopień mniej; takie szacunki podają francuska agencja ADEME i niemiecki urząd UBA. Przykład: przy zużyciu 1500 m³ gazu rocznie obniżenie temperatury z 22 do 20 °C daje około 13 %, czyli blisko 200 m³. Wynik warto pomnożyć przez cenę gazu z rachunku. Termostat smart nie oszczędza sam z siebie, ale pilnuje harmonogramu i obniża temperaturę, gdy nikogo nie ma w domu.",
+        answer: "Zwykle przyjmuje się, że każdy stopień mniej to 6–7% mniej energii zużytej na ogrzewanie; takie szacunki podają francuska agencja ADEME i niemiecki urząd UBA. Przykład: przy zużyciu 1500 m³ gazu rocznie obniżenie temperatury z 22 do 20 °C daje około 13% oszczędności, czyli blisko 200 m³. Wynik warto pomnożyć przez cenę gazu z rachunku. Inteligentny termostat nie oszczędza sam z siebie, ale pilnuje harmonogramu i obniża temperaturę, gdy nikogo nie ma w domu.",
       },
       {
         question: "Dlaczego inteligentna głowica nie grzeje albo głośno pracuje?",
-        answer: "Najczęściej powodem jest nieudana kalibracja albo źle dobrany adapter do zaworu. Warto zdjąć głowicę, sprawdzić adapter właściwy dla marki zaworu i ponownie uruchomić kalibrację w aplikacji. Jeśli grzejnik pozostaje zimny, trzpień zaworu mógł się zablokować po sezonie letnim: wystarczy kilka razy nacisnąć go ręcznie. Krótki szum silnika podczas regulacji jest normalny, a ciągła praca lub piszczenie często oznacza słabe baterie.",
+        answer: "Najczęściej powodem jest nieudana kalibracja albo źle dobrany adapter do zaworu. Trzeba wtedy zdjąć głowicę, sprawdzić, czy adapter pasuje do marki zaworu, i ponownie uruchomić kalibrację w aplikacji. Jeśli grzejnik pozostaje zimny, trzpień zaworu mógł się zablokować po sezonie letnim – zwykle wystarczy kilka razy nacisnąć go ręcznie. Krótki szum silnika podczas regulacji jest normalny, natomiast ciągła praca silnika lub piszczenie często oznaczają słabe baterie.",
       },
     ],
   },
@@ -293,23 +293,23 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     pl: [
       {
         question: "Jak sprawdzić zużycie prądu, jeśli mam licznik zdalnego odczytu?",
-        answer: "Dane z licznika zdalnego odczytu (LZO) zwykle można bezpłatnie sprawdzić w serwisie internetowym lub aplikacji operatora sieci (OSD), ale z opóźnieniem, a nie na żywo. Pokazują one zużycie godzinowe lub dobowe, co wystarcza, by zobaczyć, kiedy w domu zużywa się najwięcej. Do podglądu w czasie rzeczywistym potrzebny jest miernik z cęgami w rozdzielnicy albo gniazdka z pomiarem energii. Tradycyjne liczniki są stopniowo wymieniane przez operatorów na zdalnego odczytu.",
+        answer: "Dane z licznika zdalnego odczytu (LZO) można zwykle bezpłatnie sprawdzić w serwisie internetowym lub aplikacji operatora sieci (OSD) – z opóźnieniem, a nie na żywo. Widać tam zużycie godzinowe lub dobowe, co wystarczy, by zobaczyć, w jakich porach w domu zużywa się najwięcej prądu. Podgląd w czasie rzeczywistym zapewni dopiero miernik z cęgami w rozdzielnicy albo gniazdka z pomiarem energii. Operatorzy stopniowo wymieniają tradycyjne liczniki na liczniki zdalnego odczytu.",
       },
       {
         question: "Jak obliczyć, ile prądu zużywa urządzenie?",
-        answer: "Wystarczy pomnożyć moc w kilowatach przez czas pracy w godzinach: czajnik 2 kW działający łącznie 15 minut dziennie zużywa 0,5 kWh na dobę. Wynik mnoży się przez cenę 1 kWh z rachunku, łącznie z opłatami dystrybucyjnymi. W taryfie G12 tańsza strefa obejmuje noc i kilka godzin w ciągu dnia, a jej godziny zależą od operatora, więc warto tam przenosić pranie czy zmywanie. Lodówkę, która pracuje cyklicznie, lepiej zmierzyć przez tydzień gniazdkiem z pomiarem i pomnożyć wynik przez 52.",
+        answer: "Wystarczy pomnożyć moc w kilowatach przez czas pracy w godzinach: czajnik 2 kW, który działa łącznie 15 minut dziennie, zużywa 0,5 kWh na dobę. Aby poznać koszt, wynik mnoży się przez cenę 1 kWh z rachunku, łącznie z opłatami dystrybucyjnymi. W taryfie G12 tańsza strefa obejmuje noc i zwykle dwie godziny w ciągu dnia, a jej dokładne godziny ustala operator – warto przenieść na ten czas pranie czy zmywanie. Zużycie lodówki, która pracuje cyklicznie, lepiej zmierzyć przez tydzień gniazdkiem z pomiarem energii, a wynik pomnożyć przez 52.",
       },
       {
         question: "Gniazdko z pomiarem energii czy licznik na szynę DIN – co wybrać?",
-        answer: "Gniazdko z pomiarem sprawdzi się przy pojedynczym urządzeniu z wtyczką, a licznik na szynę DIN – przy całym obwodzie lub domu, na przykład kuchence, bojlerze czy pompie ciepła. Podlicznik w rozdzielnicy pokaże zużycie urządzeń podłączonych na stałe, których gniazdko nie zmierzy. Wersje z Wi-Fi lub Zigbee przesyłają dane do aplikacji. Do rozliczeń z najemcą potrzebny jest licznik z certyfikatem MID. Gniazdko montuje się samemu, licznik w rozdzielnicy – elektryk.",
+        answer: "Gniazdko z pomiarem sprawdzi się przy pojedynczym urządzeniu z wtyczką, a licznik na szynę DIN – przy całym obwodzie, np. kuchenki, bojlera czy pompy ciepła, albo przy całym domu. Podlicznik w rozdzielnicy pokaże też zużycie urządzeń podłączonych na stałe, których gniazdko nie zmierzy. Wersje z Wi-Fi lub Zigbee przesyłają dane do aplikacji. Do rozliczeń z najemcą potrzebny jest licznik z certyfikatem MID. Gniazdko wystarczy włożyć do kontaktu, a licznik w rozdzielnicy montuje elektryk.",
       },
       {
         question: "Czy licznik energii w rozdzielnicy można zamontować samemu?",
-        answer: "Lepiej nie: montaż licznika na szynie DIN wymaga otwarcia rozdzielnicy i podłączenia przewodów, dlatego warto zlecić go elektrykowi z uprawnieniami SEP. Miernik z cęgami tylko obejmuje przewód, ale i tak trzeba pracować blisko elementów pod napięciem. Licznika operatora i zabezpieczenia przedlicznikowego nie wolno ruszać, bo są zaplombowane. Ze względu na prywatność warto wybrać urządzenie, które zapisuje dane lokalnie, a nie wyłącznie w chmurze producenta.",
+        answer: "Lepiej nie: montaż licznika na szynie DIN wymaga otwarcia rozdzielnicy i podłączenia przewodów, dlatego warto zlecić go elektrykowi z uprawnieniami SEP. Miernik z cęgami wystarczy zapiąć na przewodzie, ale i tak pracuje się wtedy blisko elementów pod napięciem. Licznika operatora i zabezpieczenia przedlicznikowego nie wolno ruszać, bo są zaplombowane. Ze względu na prywatność lepiej wybrać urządzenie, które zapisuje dane lokalnie, a nie wyłącznie w chmurze producenta.",
       },
       {
         question: "Dlaczego gniazdko z pomiarem pokazuje dziwne lub zerowe zużycie?",
-        answer: "Najczęściej chodzi o bardzo małe obciążenia: wiele gniazdek mierzy niedokładnie poniżej kilku watów, więc pobór w trybie czuwania może się wyświetlać jako zero. Wahania przy lodówce czy pralce są normalne, bo sprężarka i grzałka włączają się cyklicznie – liczy się suma kWh z kilku dni. Warto sprawdzić w aplikacji ustawioną cenę prądu i zaktualizować oprogramowanie. Gniazdko nie jest przeznaczone do urządzeń powyżej 3680 W, a przegrzane może się wyłączać.",
+        answer: "Najczęściej chodzi o bardzo małe obciążenia: wiele gniazdek mierzy niedokładnie poniżej kilku watów, więc pobór w trybie czuwania może się wyświetlać jako zero. Wahania przy lodówce czy pralce są normalne, bo sprężarka i grzałka włączają się cyklicznie – liczy się suma kWh z kilku dni. Warto też sprawdzić w aplikacji ustawioną cenę prądu i zaktualizować oprogramowanie. Do gniazdka nie podłącza się urządzeń o mocy większej niż jego dopuszczalne obciążenie (przy 16 A to 3680 W), a przegrzane gniazdko może się samo wyłączać.",
       },
     ],
   },
@@ -448,24 +448,24 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     ],
     pl: [
       {
-        question: "Czy w Polsce można podłączyć panel balkonowy do gniazdka?",
-        answer: "Można, ale w Polsce nie ma jeszcze uproszczonych przepisów dla instalacji balkonowych: formalnie to mikroinstalacja, którą trzeba zgłosić operatorowi sieci (OSD) przed podłączeniem. Operator zwykle wymienia licznik na dwukierunkowy, a nadwyżki są rozliczane w net-billingu. W bloku montaż na balustradzie lub elewacji zwykle wymaga zgody spółdzielni lub wspólnoty, a w wynajmowanym mieszkaniu – właściciela. Przepisy mogą się zmienić, dlatego przed zakupem warto sprawdzić aktualne wymagania u swojego OSD.",
+        question: "Czy w Polsce można podłączyć elektrownię balkonową do gniazdka?",
+        answer: "Można, ale w Polsce nie ma jeszcze uproszczonych przepisów dla instalacji balkonowych: formalnie to mikroinstalacja, którą przed podłączeniem trzeba zgłosić operatorowi sieci (OSD). Operator zwykle wymienia wtedy licznik na dwukierunkowy, a nadwyżki są rozliczane w net-billingu. W bloku montaż na balustradzie lub elewacji wymaga najczęściej zgody spółdzielni lub wspólnoty, a w wynajmowanym mieszkaniu – właściciela. Przepisy mogą się zmienić, dlatego przed zakupem warto sprawdzić aktualne wymagania u swojego OSD.",
       },
       {
-        question: "Czy panel balkonowy opłaca się przy net-billingu?",
-        answer: "Opłaca się głównie wtedy, gdy większość energii zużywa się od razu, bo nadwyżki oddane do sieci są w net-billingu rozliczane po cenach rynkowych, zwykle niższych od ceny zakupu prądu. Oszczędność to zużyte na bieżąco kWh pomnożone przez pełną cenę 1 kWh z opłatami dystrybucyjnymi: 400 kWh rocznie przy cenie 1,10 zł daje około 440 zł. Produkcję dla swojego balkonu można oszacować w bezpłatnym kalkulatorze PVGIS Komisji Europejskiej.",
+        question: "Czy elektrownia balkonowa opłaca się przy net-billingu?",
+        answer: "Opłaca się głównie wtedy, gdy większość wyprodukowanej energii zużywa się od razu, bo nadwyżki oddane do sieci są w net-billingu rozliczane po cenach rynkowych, zwykle niższych od ceny zakupu prądu. Oszczędność to liczba kWh zużytych na bieżąco pomnożona przez pełną cenę 1 kWh z opłatami dystrybucyjnymi: 400 kWh rocznie przy cenie 1,10 zł daje około 440 zł. Ile prądu wyprodukują panele na konkretnym balkonie, można oszacować w bezpłatnym kalkulatorze PVGIS Komisji Europejskiej.",
       },
       {
-        question: "Jaką moc panelu balkonowego wybrać?",
-        answer: "Moc warto dopasować do stałego zużycia w ciągu dnia – lodówki, routera i urządzeń w czuwaniu – bo to ono od razu wykorzystuje produkcję. Przy stałym poborze około 150 W wystarczą jeden lub dwa panele; większa moc ma sens, gdy pralka, zmywarka czy klimatyzator pracują w słońcu. Stałe zużycie można sprawdzić w serwisie OSD, jeśli licznik jest zdalnego odczytu, albo miernikiem energii. Najlepsza jest ekspozycja południowa, a panel pionowy produkuje mniej niż pochylony.",
+        question: "Jaką moc elektrowni balkonowej wybrać?",
+        answer: "Moc warto dopasować do stałego zużycia w ciągu dnia – lodówki, routera i urządzeń w trybie czuwania – bo to ono na bieżąco wykorzystuje wyprodukowany prąd. Przy stałym poborze około 150 W wystarczą jeden lub dwa panele; większa moc ma sens, gdy pralka, zmywarka czy klimatyzator pracują w słoneczne godziny. Stały pobór można sprawdzić w serwisie OSD, jeśli w domu jest licznik zdalnego odczytu, albo miernikiem zużycia energii. Najlepiej sprawdza się wystawa południowa, a panel zamontowany pionowo produkuje mniej niż pochylony.",
       },
       {
-        question: "Panel balkonowy z magazynem energii czy bez?",
-        answer: "Zwykle bez: magazyn ma sens dopiero wtedy, gdy w dzień nikogo nie ma w domu, a panel produkuje wyraźnie więcej, niż wynosi stałe zużycie. Bateria może kosztować tyle co same panele i mocno wydłuża zwrot inwestycji. Najpierw warto przesunąć pranie, zmywanie czy podgrzewanie wody na godziny słoneczne i przez kilka miesięcy obserwować rzeczywiste nadwyżki. Jeśli są duże i regularne, magazyn dopasowany do nich może się opłacić.",
+        question: "Elektrownia balkonowa z magazynem energii czy bez?",
+        answer: "Zwykle bez: magazyn ma sens dopiero wtedy, gdy w dzień nikogo nie ma w domu, a panele produkują wyraźnie więcej, niż wynosi stałe zużycie. Bateria może kosztować tyle co same panele i mocno wydłuża okres zwrotu inwestycji. Najpierw warto przesunąć pranie, zmywanie czy podgrzewanie wody na słoneczne godziny i przez kilka miesięcy obserwować rzeczywiste nadwyżki. Jeśli są duże i regularne, magazyn dopasowany do nich może się opłacić.",
       },
       {
         question: "Jak bezpiecznie zamontować panel na balkonie w bloku?",
-        answer: "Najważniejsze jest mocowanie: standardowy panel waży często około 20 kg i przy wietrze działa jak żagiel, dlatego potrzebne są uchwyty przeznaczone do danego typu balustrady. Warto sprawdzić stan balustrady, nigdy nie zostawiać panelu opartego luzem nad pustą przestrzenią i raz w roku, a także po wichurach, kontrolować śruby i obejmy. Kabel należy poprowadzić tak, by nie przycinały go drzwi ani okno. Do czyszczenia wystarczy woda i miękka ściereczka.",
+        answer: "Najważniejsze jest mocowanie: standardowy panel waży często około 20 kg i przy wietrze działa jak żagiel, dlatego potrzebne są uchwyty przeznaczone do danego typu balustrady. Przed montażem trzeba sprawdzić stan balustrady. Panelu nigdy nie zostawia się opartego luzem nad pustą przestrzenią, a śruby i obejmy kontroluje się raz w roku i po każdej wichurze. Kabel należy poprowadzić tak, by nie przycinały go drzwi ani okno. Do czyszczenia wystarczą woda i miękka ściereczka.",
       },
     ],
   },
@@ -605,23 +605,23 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     pl: [
       {
         question: "Czy magazyn energii opłaca się przy net-billingu?",
-        answer: "Częściej niż w starym systemie opustów, bo w net-billingu nadwyżki są rozliczane po cenach rynkowych, a prąd z sieci kupuje się drożej, razem z opłatami dystrybucyjnymi. Każda kWh zmagazynowana w dzień i zużyta wieczorem daje różnicę między ceną zakupu a wartością sprzedanej nadwyżki. Przykład: 1500 kWh rocznie przy różnicy 0,60 zł to 900 zł oszczędności. Cenę magazynu, po odjęciu ewentualnej dotacji, warto podzielić przez tę kwotę i porównać z okresem gwarancji.",
+        answer: "Częściej niż w starym systemie opustów, bo w net-billingu nadwyżki są rozliczane po cenach rynkowych, a prąd z sieci kupuje się drożej, razem z opłatami dystrybucyjnymi. Każda kWh zmagazynowana w dzień i zużyta wieczorem pozwala zaoszczędzić różnicę między ceną zakupu a wartością sprzedanej nadwyżki. Przy 1500 kWh rocznie i różnicy 0,60 zł na kWh daje to 900 zł oszczędności. Cenę magazynu, po odjęciu ewentualnej dotacji, warto podzielić przez tę kwotę, a otrzymaną liczbę lat porównać z okresem gwarancji.",
       },
       {
         question: "Jaki magazyn energii do fotowoltaiki wybrać?",
-        answer: "Pojemność warto dobrać do zużycia wieczorem i w nocy, a nie całodobowego; popularna reguła mówi o około 1 kWh pojemności na 1 kWp mocy instalacji. Jeśli od 18 do 8 rano dom zużywa około 6 kWh, magazyn o pojemności użytecznej 6–8 kWh będzie rozsądny nawet przy instalacji 10 kWp. Liczy się pojemność użyteczna, a nie brutto, oraz moc rozładowania. Przy falowniku hybrydowym trzeba sprawdzić, które magazyny są z nim zgodne.",
+        answer: "Pojemność dobiera się do zużycia wieczorem i w nocy, a nie do zużycia całodobowego. Popularna reguła mówi o około 1 kWh pojemności na 1 kWp mocy instalacji, ale jeśli od 18:00 do 8:00 dom zużywa około 6 kWh, magazyn o pojemności użytecznej 6–8 kWh będzie rozsądny nawet przy instalacji 10 kWp. Liczy się pojemność użyteczna, a nie brutto, oraz moc rozładowania. Przy falowniku hybrydowym trzeba sprawdzić, które magazyny są z nim zgodne.",
       },
       {
         question: "Czy magazyn energii trzeba zgłosić do operatora?",
-        answer: "Zwykle tak: magazyn współpracujący z siecią należy zgłosić operatorowi sieci (OSD), najczęściej razem z mikroinstalacją albo jako jej zmianę. Formularze i wymagania różnią się między operatorami, dlatego warto pobrać je ze strony swojego OSD lub poprosić o to instalatora. Potwierdzenie zgłoszenia bywa też wymagane przy wnioskach o dotacje, na przykład z programu Mój Prąd, którego aktualne nabory trzeba sprawdzić. Stacje przenośne ładowane z gniazdka takich formalności nie wymagają.",
+        answer: "Zwykle tak: magazyn współpracujący z siecią należy zgłosić operatorowi sieci (OSD), najczęściej razem z mikroinstalacją albo jako jej zmianę. Formularze i wymagania różnią się w zależności od operatora, dlatego najlepiej pobrać je ze strony swojego OSD albo powierzyć zgłoszenie instalatorowi. Potwierdzenie zgłoszenia bywa też wymagane przy wnioskach o dotacje, np. z programu Mój Prąd – aktualne nabory trzeba sprawdzić na bieżąco. Stacje przenośne ładowane z gniazdka takich formalności nie wymagają.",
       },
       {
         question: "Magazyn energii czy grzałka w bojlerze na nadwyżki?",
-        answer: "Jeśli latem nadwyżek jest dużo, tańszym sposobem bywa podgrzewanie wody: grzałka w bojlerze lub pompa ciepła do ciepłej wody sterowana nadwyżką. Taki sterownik kosztuje zwykle ułamek ceny magazynu, a ciepła woda i tak jest potrzebna. Magazyn energii przydaje się, gdy wieczorem trzeba zasilić gniazdka, oświetlenie i sprzęty, a także jako zasilanie awaryjne. Często najlepszy efekt daje połączenie: najpierw woda, potem magazyn dobrany do pozostałych nadwyżek.",
+        answer: "Jeśli latem nadwyżek jest dużo, tańszym sposobem na ich wykorzystanie bywa podgrzewanie wody: grzałka w bojlerze lub pompa ciepła do ciepłej wody, sterowane nadwyżką z instalacji. Sterownik grzałki kosztuje zwykle ułamek ceny magazynu, a ciepła woda i tak jest potrzebna. Magazyn energii przydaje się wtedy, gdy prąd jest potrzebny wieczorem – do gniazdek, oświetlenia i sprzętów – a także jako zasilanie awaryjne. Często najlepszy efekt daje połączenie obu rozwiązań: najpierw woda, potem magazyn dobrany do pozostałych nadwyżek.",
       },
       {
         question: "Czy magazyn energii działa podczas awarii prądu?",
-        answer: "Tylko wtedy, gdy ma funkcję zasilania awaryjnego (backup, EPS) i jest do niej podłączony; większość magazynów współpracujących z siecią wyłącza się razem z nią. Układ z backupem odcina dom od sieci przełącznikiem i zasila wybrane obwody, na przykład lodówkę, oświetlenie, router czy pompę obiegową kotła. Warto zapytać instalatora, które obwody są objęte, ile trwa przełączenie i czy panele ładują magazyn podczas awarii. W aplikacji można ustawić rezerwę na wypadek braku prądu.",
+        answer: "Tylko wtedy, gdy ma funkcję zasilania awaryjnego (backup, EPS) i instalacja została do tego przygotowana; większość magazynów współpracujących z siecią wyłącza się razem z nią. Układ z backupem odcina dom od sieci przełącznikiem i zasila wybrane obwody, np. lodówkę, oświetlenie, router czy pompę obiegową kotła. Warto zapytać instalatora, które obwody będą zasilane, ile trwa przełączenie i czy panele ładują magazyn podczas awarii. W aplikacji można też ustawić rezerwę pojemności na wypadek przerwy w dostawie prądu.",
       },
     ],
   },
@@ -760,24 +760,24 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     ],
     pl: [
       {
-        question: "Żarówka smart Wi-Fi czy Zigbee – którą wybrać?",
-        answer: "Przy kilku żarówkach wystarczy Wi-Fi bez żadnej bramki, a przy większej liczbie lepiej sprawdzi się Zigbee lub Matter przez Thread, bo nie obciążają routera. Żarówki Wi-Fi, często obsługiwane przez aplikację Tuya lub Smart Life, konfiguruje się szybko telefonem. Zigbee tworzy własną sieć kratową, działa lokalnie i szybciej reaguje, ale wymaga bramki, na przykład Philips Hue, IKEA lub uniwersalnej bramki Tuya. Logo Matter na pudełku oznacza zgodność z Google Home, Alexą i Apple Dom.",
+        question: "Inteligentna żarówka Wi-Fi czy Zigbee – którą wybrać?",
+        answer: "Przy kilku żarówkach wystarczy Wi-Fi bez żadnej bramki, a przy większej liczbie lepiej sprawdzi się Zigbee albo Matter w sieci Thread, bo nie obciążają routera. Żarówki Wi-Fi, często obsługiwane przez aplikację Tuya lub Smart Life, szybko konfiguruje się telefonem. Zigbee tworzy własną sieć kratową (mesh), działa lokalnie i szybciej reaguje, ale wymaga bramki, np. Philips Hue, IKEA albo uniwersalnej bramki Tuya. Logo Matter na pudełku oznacza zgodność z Google Home, Alexą i Apple Home.",
       },
       {
         question: "Tapo, Govee czy Philips Hue – jaką markę wybrać?",
-        answer: "Govee sprawdzi się przy efektach kolorystycznych, taśmach LED i podświetleniu telewizora, Tapo przy prostych i tanich żarówkach Wi-Fi, a Philips Hue jako najbardziej rozbudowany system z bramką. Tapo i Govee działają przez Wi-Fi bez bramki i współpracują z Asystentem Google oraz Alexą; Hue korzysta z Zigbee i bramki, ale można zacząć przez Bluetooth. Warto sprawdzić gwint (E27, E14 lub GU10) i jasność w lumenach: około 800 lm odpowiada dawnej żarówce 60 W.",
+        answer: "Govee sprawdzi się przy efektach kolorystycznych, taśmach LED i podświetleniu telewizora, Tapo – przy prostych i tanich żarówkach Wi-Fi, a Philips Hue – jako najbardziej rozbudowany system z bramką. Tapo i Govee działają przez Wi-Fi bez bramki i współpracują z Asystentem Google oraz Alexą; Hue korzysta z Zigbee i bramki, ale można zacząć od sterowania przez Bluetooth. Warto sprawdzić trzonek (E27, E14 lub GU10) i jasność w lumenach: około 800 lm odpowiada tradycyjnej żarówce 60 W.",
       },
       {
-        question: "Ile prądu zużywa żarówka smart w trybie czuwania?",
-        answer: "Najwyżej 0,5 W, bo taki limit dla podłączonych źródeł światła wyznacza unijne rozporządzenie w sprawie ekoprojektu, czyli maksymalnie około 4,4 kWh rocznie na żarówkę. Przy cenie 1,10 zł za kWh to niecałe 5 zł rocznie na sztukę. Włączona zużywa tyle co zwykła żarówka LED o tej samej jasności: 9 W przez cztery godziny dziennie to około 13 kWh rocznie. Wyłączenie wyłącznikiem ściennym zeruje pobór w czuwaniu, ale żarówka przestaje reagować na aplikację.",
+        question: "Ile prądu zużywa inteligentna żarówka w trybie czuwania?",
+        answer: "Najwyżej 0,5 W – taki limit dla żarówek z łącznością sieciową wyznacza unijne rozporządzenie w sprawie ekoprojektu. Rocznie daje to maksymalnie około 4,4 kWh na żarówkę, czyli przy cenie 1,10 zł za kWh niecałe 5 zł na sztukę. Po włączeniu zużywa tyle co zwykła żarówka LED o tej samej jasności: 9 W przez cztery godziny dziennie to około 13 kWh rocznie. Wyłączenie jej włącznikiem na ścianie zeruje pobór w czuwaniu, ale wtedy żarówka przestaje reagować na aplikację.",
       },
       {
-        question: "Czy żarówkę smart można podłączyć pod zwykły wyłącznik lub ściemniacz?",
-        answer: "Pod zwykły wyłącznik tak, ale musi on pozostać włączony; pod tradycyjny ściemniacz nie, bo żarówka może migać, buczeć albo się uszkodzić. Po wyłączeniu wyłącznikiem żarówka traci zasilanie i nie odpowiada na polecenia z aplikacji. Wygodnym rozwiązaniem jest bezprzewodowy przycisk tej samej marki przyklejony obok wyłącznika albo inteligentny łącznik zamiast zwykłego. Istniejący ściemniacz warto wymienić na zwykły łącznik, najlepiej z pomocą elektryka.",
+        question: "Czy inteligentną żarówkę można podłączyć pod zwykły włącznik lub ściemniacz?",
+        answer: "Pod zwykły włącznik tak, ale musi on pozostać włączony; pod tradycyjny ściemniacz nie, bo żarówka może migać, buczeć albo się uszkodzić. Po wyłączeniu włącznikiem żarówka traci zasilanie i nie reaguje na polecenia z aplikacji. Wygodnym rozwiązaniem jest bezprzewodowy przycisk tej samej marki, przyklejony obok włącznika, albo inteligentny włącznik zamiast zwykłego. Istniejący ściemniacz warto wymienić na zwykły włącznik, najlepiej z pomocą elektryka.",
       },
       {
-        question: "Dlaczego żarówka smart traci połączenie z aplikacją?",
-        answer: "Najczęściej dlatego, że ktoś wyłączył ją wyłącznikiem, sygnał Wi-Fi jest za słaby albo zmienił się router lub hasło. Większość żarówek działa tylko w paśmie 2,4 GHz, więc przy routerze łączącym pasma warto utworzyć osobną sieć 2,4 GHz. W sieci Zigbee zasięg wzmacnia urządzenie zasilane z gniazdka, na przykład inteligentne gniazdko. Reset zwykle polega na kilkukrotnym włączeniu i wyłączeniu żarówki, a dokładna sekwencja jest w instrukcji.",
+        question: "Dlaczego inteligentna żarówka traci połączenie z aplikacją?",
+        answer: "Najczęściej dlatego, że ktoś wyłączył ją włącznikiem, sygnał Wi-Fi jest za słaby albo zmienił się router lub hasło. Większość żarówek działa tylko w paśmie 2,4 GHz, więc jeśli router nadaje oba pasma pod jedną nazwą, warto utworzyć osobną sieć 2,4 GHz. W sieci Zigbee zasięg wzmacniają urządzenia stale zasilane z sieci elektrycznej, np. inteligentne gniazdka. Reset polega zwykle na kilkukrotnym włączeniu i wyłączeniu żarówki, a dokładną sekwencję podaje instrukcja.",
       },
     ],
   },
@@ -916,24 +916,24 @@ export const ENERGIE_A_FAQS: CategoryFaqSets = {
     ],
     pl: [
       {
-        question: "Czy inteligentny łącznik zadziała bez przewodu neutralnego?",
-        answer: "Tak, są łączniki i moduły bez przewodu N, ale gorzej współpracują z oszczędnymi żarówkami LED, które mogą migać lub lekko się żarzyć po wyłączeniu. Urządzenie bez N zasila się niewielkim prądem płynącym przez lampę; zwykle pomaga kondensator (bypass) montowany przy oprawie. W wielu starszych mieszkaniach w puszce łącznika są tylko faza i przewód do lampy. Przed zakupem, po wyłączeniu zasilania, warto sprawdzić, czy w puszce jest niebieski przewód.",
+        question: "Czy inteligentny włącznik zadziała bez przewodu neutralnego?",
+        answer: "Tak, są włączniki i moduły działające bez przewodu N, ale gorzej współpracują z oszczędnymi żarówkami LED, które mogą migać lub lekko się żarzyć po wyłączeniu. Urządzenie bez N zasila się niewielkim prądem płynącym przez lampę; problem rozwiązuje zwykle kondensator (bypass) montowany przy oprawie. W wielu starszych mieszkaniach w puszce włącznika są tylko przewód fazowy i przewód do lampy. Przed zakupem warto więc – po wyłączeniu zasilania – sprawdzić, czy w puszce jest niebieski przewód neutralny.",
       },
       {
-        question: "Moduł do puszki czy kompletny łącznik smart?",
-        answer: "Moduł do puszki jest tańszy i niewidoczny, bo zostają dotychczasowe łączniki; kompletny łącznik smart zmienia wygląd i zwykle ma panel dotykowy. Moduł, na przykład Shelly albo zgodny z Tuya, wymaga miejsca w puszce: najlepiej sprawdza się puszka głęboka, w płytkiej z wieloma przewodami bywa ciasno. Przy łączniku schodowym trzeba wybrać model, który go obsługuje, albo zastąpić drugi łącznik przyciskiem bezprzewodowym. Popularne serie łączników mają też wersje smart pasujące wyglądem do reszty domu.",
+        question: "Moduł dopuszkowy czy kompletny inteligentny włącznik?",
+        answer: "Moduł dopuszkowy jest tańszy i niewidoczny, bo zostają dotychczasowe włączniki; kompletny inteligentny włącznik zmienia wygląd ściany i zwykle ma panel dotykowy. Moduł, np. Shelly albo zgodny z Tuya, potrzebuje miejsca w puszce: najlepiej sprawdza się puszka głęboka, bo w płytkiej, z wieloma przewodami, bywa ciasno. Przy łączniku schodowym trzeba wybrać model, który obsługuje taki układ, albo zastąpić drugi włącznik przyciskiem bezprzewodowym. Popularne serie osprzętu elektrycznego mają też wersje inteligentne, które wyglądem pasują do pozostałych włączników i gniazdek w domu.",
       },
       {
-        question: "Czy inteligentny łącznik można zamontować samemu?",
-        answer: "Technicznie to prosta wymiana, ale ze względów bezpieczeństwa warto zlecić ją elektrykowi z uprawnieniami SEP, zwłaszcza przy łączniku schodowym lub niejasnym okablowaniu. Przy samodzielnym montażu trzeba wyłączyć właściwy obwód w rozdzielnicy, sprawdzić brak napięcia próbnikiem i zrobić zdjęcie pierwotnych połączeń. W wynajmowanym mieszkaniu potrzebna jest zgoda właściciela, a stary łącznik warto zachować. Błędne podłączenie może też mieć znaczenie przy likwidacji szkody przez ubezpieczyciela.",
+        question: "Czy inteligentny włącznik można zamontować samemu?",
+        answer: "Technicznie to prosta wymiana, ale ze względów bezpieczeństwa lepiej zlecić ją elektrykowi z uprawnieniami SEP, zwłaszcza przy łączniku schodowym lub niejasnym okablowaniu. Przy samodzielnym montażu trzeba wyłączyć właściwy obwód w rozdzielnicy, sprawdzić próbnikiem brak napięcia i sfotografować dotychczasowe połączenia. W wynajmowanym mieszkaniu potrzebna jest zgoda właściciela, a stary włącznik warto zachować. Błędne podłączenie może też mieć znaczenie, gdy ubezpieczyciel będzie rozpatrywał szkodę.",
       },
       {
-        question: "Ile prądu zużywa inteligentny łącznik w trybie czuwania?",
-        answer: "Zwykle poniżej 1 W, czyli kilka kWh rocznie: 0,5 W przez całą dobę to około 4,4 kWh na rok. Przy dziesięciu łącznikach i cenie 1,10 zł za kWh daje to około 48 zł rocznie. Modele Zigbee lub Thread zużywają zwykle mniej niż wersje Wi-Fi. W zamian harmonogramy i czujniki ruchu wyłączają zapomniane światło, co może zrównoważyć ten pobór.",
+        question: "Ile prądu zużywa inteligentny włącznik w trybie czuwania?",
+        answer: "Zwykle poniżej 1 W, czyli kilka kWh rocznie: pobór 0,5 W przez cały rok to około 4,4 kWh. Przy dziesięciu włącznikach i cenie 1,10 zł za kWh daje to około 48 zł rocznie. Modele Zigbee i Thread pobierają na ogół mniej niż wersje z Wi-Fi. W zamian harmonogramy i czujniki ruchu wyłączają zapomniane światło, co może zrównoważyć ten pobór.",
       },
       {
-        question: "Dlaczego żarówki LED migają po założeniu inteligentnego łącznika?",
-        answer: "Najczęściej dlatego, że łącznik działa bez przewodu N, a prąd, który go zasila, płynie przez żarówki LED i powoduje ich żarzenie lub miganie. Pomaga kondensator (bypass) zalecany przez producenta, zamontowany przy oprawie, żarówki ściemnialne o nieco większej mocy albo, jeśli w puszce jest przewód N, model z przewodem neutralnym. Buczenie przy ściemnianiu oznacza zwykle żarówkę bez funkcji ściemniania lub zły tryb regulacji, który można zmienić w aplikacji.",
+        question: "Dlaczego żarówki LED migają po zamontowaniu inteligentnego włącznika?",
+        answer: "Najczęściej dlatego, że włącznik działa bez przewodu N, a prąd, który go zasila, płynie przez żarówki LED i powoduje ich żarzenie lub miganie. Pomaga kondensator (bypass) zalecany przez producenta i montowany przy oprawie, żarówki ściemnialne o nieco większej mocy albo – jeśli w puszce jest przewód N – model, który z niego korzysta. Buczenie przy ściemnianiu oznacza zwykle żarówkę bez funkcji ściemniania lub niewłaściwy tryb ściemniania, który można zmienić w aplikacji.",
       },
     ],
   },

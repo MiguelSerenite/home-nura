@@ -18,7 +18,7 @@ export const article: BlogArticle = {
         es: 'Hub domótico blanco sobre un mueble de madera junto a un mando a distancia y una planta',
         it: 'Hub domotico bianco su un mobile in legno accanto a un telecomando e a una pianta',
         nl: 'Witte smart-home-hub op een houten meubel naast een afstandsbediening en een kamerplant',
-        pl: 'Biały hub smart home na drewnianym stoliku obok pilota i zielonej rośliny',
+        pl: 'Biały hub do inteligentnego domu na drewnianej szafce obok pilota i zielonej rośliny',
       },
     },
   ],
@@ -29,7 +29,7 @@ export const article: BlogArticle = {
     es: 'Mejor Hub Domótico 2026: Comparativa de Centrales Matter, Zigbee y Z-Wave',
     it: 'Miglior Hub Domotico 2026: Confronto tra Centraline Matter, Zigbee e Z-Wave',
     nl: 'Beste Smart-Home-Hub 2026: Matter-, Zigbee- en Z-Wave-Hubs Vergeleken',
-    pl: 'Hub do inteligentnego domu 2026: porównanie najlepszych (Matter, Zigbee, Z-Wave)',
+    pl: 'Hub do inteligentnego domu 2026: porównanie najlepszych modeli (Matter, Zigbee, Z-Wave)',
   },
   excerpt: {
     fr: "Homey Pro, Home Assistant Green, Aqara Hub M3, IKEA Dirigera, Hue Bridge Pro ou Jeedom Atlas : quelle box domotique choisir en 2026 ? Radios Zigbee, Z-Wave, Thread et Matter, fonctionnement local ou cloud, facilité d'usage et puissance des automatisations comparés.",
@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: 'Homey Pro, Home Assistant Green, Aqara Hub M3, IKEA Dirigera, Hue Bridge Pro o Jeedom Atlas: ¿qué hub domótico elegir en 2026? Comparamos radios Zigbee, Z-Wave, Thread y Matter, funcionamiento local o en la nube, facilidad de uso y potencia de las automatizaciones.',
     it: "Homey Pro, Home Assistant Green, Aqara Hub M3, IKEA Dirigera, Hue Bridge Pro o Jeedom Atlas: quale hub domotico scegliere nel 2026? Confronto tra radio Zigbee, Z-Wave, Thread e Matter, funzionamento locale o cloud, facilità d'uso e potenza delle automazioni.",
     nl: 'Homey Pro, Home Assistant Green, Aqara Hub M3, IKEA Dirigera, Hue Bridge Pro of Jeedom Atlas: welke smart-home-hub kies je in 2026? Zigbee-, Z-Wave-, Thread- en Matter-radio’s, lokale of cloudbediening, gebruiksgemak en automatiseringen vergeleken.',
-    pl: 'Homey Pro, Home Assistant Green, Aqara Hub M3, IKEA Dirigera, Hue Bridge Pro czy Jeedom Atlas: jaki hub do inteligentnego domu wybrać w 2026 roku? Porównujemy radia Zigbee, Z-Wave, Thread i Matter, pracę lokalną lub w chmurze, łatwość obsługi i możliwości automatyzacji.',
+    pl: 'Homey Pro, Home Assistant Green, Aqara Hub M3, IKEA Dirigera, Hue Bridge Pro czy Jeedom Atlas: jaki hub do inteligentnego domu wybrać w 2026 roku? Porównujemy łączność Zigbee, Z-Wave, Thread i Matter, działanie lokalne lub w chmurze, łatwość obsługi i możliwości automatyzacji.',
   },
   content: {
     fr: `<p>La meilleure box domotique en 2026 est, pour la plupart des foyers, la <strong>Homey Pro (Early 2023)</strong> : elle réunit Zigbee, Z-Wave, Thread, Matter, infrarouge et 433 MHz dans un seul boîtier, fonctionne en local et reste accessible aux non-spécialistes. Si vous cherchez la puissance maximale et un logiciel libre, le <strong>Home Assistant Green</strong> s'impose ; pour un budget plus serré et un écosystème déjà Aqara, l'<strong>Aqara Hub M3</strong> est le choix le plus rationnel.</p>
@@ -622,102 +622,102 @@ export const article: BlogArticle = {
 
 <h2>Conclusie: welke smart-home-hub kies je?</h2>
 <p>De <strong>Homey Pro (Early 2023)</strong> is dankzij zijn vele radio’s en lokale werking de beste hub voor de meeste huishoudens. De <strong>Home Assistant Green</strong> is onverslaanbaar in kracht als je bereid bent te leren. De <strong>Aqara Hub M3</strong> biedt de beste balans tussen functies en budget, terwijl de <strong>IKEA Dirigera</strong> volstaat om te beginnen. De <strong>Philips Hue Bridge Pro</strong> blijft onmisbaar voor een grote Hue-installatie, en de <strong>Jeedom Atlas</strong> spreekt opensourceliefhebbers aan. Bekijk alle modellen in onze rubriek <a href="/nl/energie-domotique/hubs-domotique">smart-home-hubs</a>.</p>`,
-    pl: `<p>Najlepszym hubem do inteligentnego domu w 2026 roku jest dla większości gospodarstw domowych <strong>Homey Pro (Early 2023)</strong>: łączy Zigbee, Z-Wave, Thread, Matter, podczerwień i 433 MHz w jednej obudowie, działa lokalnie i jest przystępny także dla osób bez wiedzy technicznej. Jeśli zależy Ci na maksymalnej mocy i otwartym oprogramowaniu, wybierz <strong>Home Assistant Green</strong>; przy ciaśniejszym budżecie i istniejącym ekosystemie Aqara najrozsądniejszym wyborem jest <strong>Aqara Hub M3</strong>.</p>
-<p>To porównanie opiera się na kartach technicznych producentów, analizach prasy specjalistycznej i opiniach zweryfikowanych kupujących. Omawiamy sześć hubów rzeczywiście dostępnych w Europie, wyjaśniamy różnice między protokołami radiowymi i pomagamy uniknąć najdroższych błędów. Podstawy standardu Matter i sieci Thread znajdziesz też w naszym poradniku <a href="/pl/blog/maison-connectee-matter-thread-2026">Inteligentny dom: Matter i Thread w 2026 roku</a>.</p>
+    pl: `<p>Dla większości gospodarstw domowych najlepszym hubem do inteligentnego domu w 2026 roku jest <strong>Homey Pro (Early 2023)</strong>: w jednej obudowie łączy Zigbee, Z-Wave, Thread, Matter, podczerwień i 433 MHz, działa lokalnie i poradzą sobie z nim także osoby bez wiedzy technicznej. Jeśli zależy Ci na jak największych możliwościach i otwartym oprogramowaniu, postaw na <strong>Home Assistant Green</strong>; przy skromniejszym budżecie i urządzeniach Aqara w domu najrozsądniejszym wyborem jest <strong>Aqara Hub M3</strong>.</p>
+<p>Porównanie opiera się na kartach katalogowych producentów, analizach prasy branżowej i opiniach zweryfikowanych kupujących. Omawiamy sześć hubów, które naprawdę można kupić w Europie, wyjaśniamy różnice między protokołami radiowymi i podpowiadamy, jak uniknąć najdroższych błędów. Podstawy standardu Matter i sieci Thread znajdziesz też w poradniku <a href="/pl/blog/maison-connectee-matter-thread-2026">Inteligentny dom: Matter i Thread w 2026 roku</a>.</p>
 
 <h2>Do czego służy hub do inteligentnego domu w 2026 roku?</h2>
-<p>Hub (centrala) to mózg inteligentnego domu. Komunikuje się z czujnikami, żarówkami, wtyczkami, termostatami i roletami, a następnie wykonuje Twoje scenariusze: wyłącza wszystko przy wyjściu z domu, uruchamia ogrzewanie zależnie od pogody, odcina wtyczkę w razie wycieku wody. Bez huba każda marka narzuca własną aplikację i własne ograniczenia; z hubem wszystkim sterujesz z jednego miejsca.</p>
-<p>Pojawienie się standardu <strong>Matter</strong> zmieniło zasady gry: wspólny standard pozwala urządzeniom różnych marek działać razem. Matter nie zastępuje jednak huba. Nadal potrzebny jest „kontroler”, który zarządza automatyzacjami, a często także <strong>router brzegowy Thread</strong> dla bezprzewodowych urządzeń Matter zasilanych bateryjnie. Huby opisane poniżej spełniają te role w bardzo różnym stopniu.</p>
+<p>Hub (centrala) to mózg inteligentnego domu. Komunikuje się z czujnikami, żarówkami, gniazdkami, termostatami i roletami, a potem realizuje Twoje scenariusze: wyłącza wszystko, gdy wychodzisz z domu, włącza ogrzewanie w zależności od pogody, odcina zasilanie gniazdka po wykryciu wycieku wody. Bez huba każda marka narzuca własną aplikację i własne ograniczenia; z hubem wszystkim sterujesz z jednego miejsca.</p>
+<p>Standard <strong>Matter</strong> wiele zmienił: dzięki niemu urządzenia różnych marek mogą ze sobą współpracować. Nie zastępuje jednak huba. Nadal potrzebny jest „kontroler”, który zarządza automatyzacjami, a często także <strong>router brzegowy Thread</strong> dla bezprzewodowych urządzeń Matter zasilanych z baterii. Opisane niżej huby pełnią te funkcje w bardzo różnym zakresie.</p>
 
 <h2>Kryteria wyboru huba do inteligentnego domu</h2>
-<h3>Wbudowane radia</h3>
-<p>To kryterium numer jeden, ponieważ decyduje o tym, jakie urządzenia będą kompatybilne:</p>
+<h3>Wbudowane moduły radiowe</h3>
+<p>To najważniejsze kryterium, bo od niego zależy, z jakimi urządzeniami hub będzie współpracował:</p>
 <ul>
-<li><strong>Zigbee</strong>: najpopularniejszy protokół dla tanich czujników, żarówek i wtyczek (Aqara, IKEA, Philips Hue, Sonoff…).</li>
-<li><strong>Z-Wave</strong>: często spotykany w modułach podtynkowych, zamkach i mikromodułach do rolet; w Europie ma własne pasmo, więc rzadko zakłóca go Wi-Fi.</li>
-<li><strong>Thread</strong>: energooszczędna sieć kratowa, na której opiera się duża część nowych urządzeń Matter.</li>
-<li><strong>Matter</strong>: warstwa interoperacyjności; hub może być „kontrolerem Matter” (steruje urządzeniami Matter) i/lub „mostem Matter” (udostępnia swoje urządzenia innym platformom).</li>
-<li><strong>Podczerwień i 433 MHz</strong>: przydatne do sterowania klimatyzatorami, telewizorami oraz starszymi roletami i wtyczkami radiowymi.</li>
+<li><strong>Zigbee</strong>: najpopularniejszy protokół w niedrogich czujnikach, żarówkach i gniazdkach (Aqara, IKEA, Philips Hue, Sonoff…).</li>
+<li><strong>Z-Wave</strong>: popularny w modułach podtynkowych, zamkach i mikromodułach do rolet; w Europie działa w osobnym paśmie, więc rzadko dochodzi do zakłóceń z Wi-Fi.</li>
+<li><strong>Thread</strong>: energooszczędna sieć typu mesh, na której opiera się duża część nowych urządzeń Matter.</li>
+<li><strong>Matter</strong>: warstwa zapewniająca zgodność między platformami; hub może być „kontrolerem Matter” (steruje urządzeniami Matter), „mostem Matter” (udostępnia własne urządzenia innym platformom) albo jednym i drugim.</li>
+<li><strong>Podczerwień i 433 MHz</strong>: przydają się do sterowania klimatyzatorami, telewizorami oraz starszymi roletami i gniazdkami radiowymi.</li>
 </ul>
-<h3>Lokalnie czy w chmurze</h3>
-<p>Hub, który wykonuje automatyzacje <strong>lokalnie</strong>, działa dalej przy awarii internetu, reaguje szybciej i ogranicza ilość danych wysyłanych na zdalne serwery. Rozwiązania zależne od chmury łatwiej uruchomić, ale przestają działać przy braku połączenia lub wyłączeniu usługi.</p>
-<h3>Łatwość obsługi a moc</h3>
-<p>Im bardziej otwarty hub, tym więcej czasu wymaga nauka. Zastanów się uczciwie, czy chcesz aplikację gotową do użycia, czy jesteś gotów konfigurować integracje, panele i skrypty.</p>
+<h3>Praca lokalna czy w chmurze</h3>
+<p>Hub, który wykonuje automatyzacje <strong>lokalnie</strong>, działa także podczas awarii internetu, reaguje szybciej i wysyła mniej danych na zewnętrzne serwery. Rozwiązania oparte na chmurze łatwiej uruchomić, ale przestają działać, gdy zniknie połączenie albo producent wyłączy usługę.</p>
+<h3>Łatwość obsługi czy rozbudowane możliwości</h3>
+<p>Im bardziej otwarty hub, tym więcej czasu trzeba poświęcić na naukę. Zastanów się szczerze, czy wolisz aplikację gotową do użycia od razu, czy masz ochotę samodzielnie konfigurować integracje, panele i skrypty.</p>
 <h3>Automatyzacje</h3>
-<p>Sprawdź, jaką logikę oferuje hub: proste reguły „jeśli… to…”, wiele warunków, zmienne, przedziały czasowe, obecność domowników. To właśnie tu widać różnicę na co dzień, zwłaszcza przy oszczędzaniu energii, które opisujemy w <a href="/pl/blog/guide-domotique-economie-energie-2026">poradniku o inteligentnym domu i oszczędzaniu energii</a>.</p>
-<h3>Ekosystem i trwałość</h3>
-<p>Hub zależy od aktualizacji producenta oprogramowania. Wybieraj firmy, które regularnie publikują poprawki i jasno dokumentują swoje protokoły.</p>
+<p>Sprawdź, jakie reguły można tworzyć: proste „jeśli… to…”, kilka warunków naraz, zmienne, przedziały czasowe, obecność domowników. To tu na co dzień widać różnicę między hubami, zwłaszcza przy oszczędzaniu energii, które opisujemy w <a href="/pl/blog/guide-domotique-economie-energie-2026">poradniku o inteligentnym domu i oszczędzaniu energii</a>.</p>
+<h3>Ekosystem i długoterminowe wsparcie</h3>
+<p>Hub zależy od aktualizacji, które wydaje jego producent. Wybieraj firmy, które regularnie publikują poprawki i jasno dokumentują swoje protokoły.</p>
 
 <h2>6 najlepszych hubów do inteligentnego domu w 2026 roku</h2>
 
-<h3>1. Homey Pro (Early 2023) — najlepszy wybór ogólny</h3>
-<p><strong>Homey Pro (Early 2023)</strong> firmy Athom to najbardziej wszechstronny hub na rynku konsumenckim. Fabrycznie integruje dwupasmowe Wi-Fi, Bluetooth Low Energy, <strong>Zigbee 3.0, Z-Wave, Thread, Matter, podczerwień i 433 MHz</strong>. Radio Thread zostało uruchomione bezpłatną aktualizacją, dzięki czemu można bezpośrednio dodawać urządzenia Matter w sieci Thread bez dodatkowego routera.</p>
-<p><strong>Mocne strony:</strong> niemal uniwersalna kompatybilność, lokalne przetwarzanie automatyzacji, dopracowana aplikacja, łatwe w obsłudze wizualne „Flows” i bardzo bogaty katalog aplikacji producentów. Dyskretny design pasuje do salonu.</p>
-<p><strong>Ograniczenia:</strong> segment premium, a niektóre zaawansowane funkcje wymagają oswojenia. Ekosystem aplikacji, choć rozbudowany, jest mniejszy niż w Home Assistant.</p>
-<p><strong>Dla kogo:</strong> dla domów, które chcą wszystko zebrać w jednym miejscu, także Z-Wave i podczerwień, bez zostawania administratorem systemu.</p>
+<h3>1. Homey Pro (Early 2023) — najlepszy wybór dla większości</h3>
+<p><strong>Homey Pro (Early 2023)</strong> firmy Athom to najbardziej wszechstronny hub dla użytkowników domowych. Fabrycznie ma dwupasmowe Wi-Fi, Bluetooth Low Energy, <strong>Zigbee 3.0, Z-Wave, Thread, Matter, podczerwień i 433 MHz</strong>. Moduł Thread został aktywowany bezpłatną aktualizacją, dzięki czemu urządzenia Matter działające w sieci Thread można dodawać bezpośrednio, bez dodatkowego routera.</p>
+<p><strong>Mocne strony:</strong> współpraca z niemal każdym sprzętem, lokalne wykonywanie automatyzacji, dopracowana aplikacja, intuicyjne wizualne scenariusze „Flows” i bardzo bogata biblioteka aplikacji różnych marek. Stonowany wygląd dobrze komponuje się z salonem.</p>
+<p><strong>Ograniczenia:</strong> wysoka półka cenowa, a opanowanie niektórych zaawansowanych funkcji wymaga czasu. Biblioteka aplikacji, choć duża, jest mniejsza niż w przypadku Home Assistant.</p>
+<p><strong>Dla kogo:</strong> osoby, które chcą mieć wszystko w jednym miejscu – łącznie z Z-Wave i podczerwienią – i nie zamierzają zostawać administratorami systemu.</p>
 
-<h3>2. Home Assistant Green — najmocniejszy i najbardziej otwarty</h3>
-<p><strong>Home Assistant Green</strong> to gotowe urządzenie, na którym działa Home Assistant, najczęściej używana na świecie otwarta platforma inteligentnego domu z ponad 2000 integracji. Podłącza się go kablem Ethernet i nie ma <strong>żadnego wbudowanego radia smart home</strong>: trzeba dokupić przez USB <strong>Home Assistant Connect ZBT-2</strong> (Zigbee i Thread) i/lub <strong>Connect ZWA-2</strong> (Z-Wave).</p>
-<p><strong>Mocne strony:</strong> praca w 100% lokalna, nieograniczone automatyzacje i skrypty, konfigurowalne panele, bardzo kompletny monitoring energii, ogromna społeczność. Subskrypcja Home Assistant Cloud jest opcjonalna (prostszy dostęp zdalny, asystenci głosowi).</p>
-<p><strong>Ograniczenia:</strong> realna krzywa uczenia się; adaptery radiowe zwiększają budżet; zaawansowana konfiguracja bywa oparta na plikach YAML.</p>
-<p><strong>Dla kogo:</strong> dla pasjonatów i majsterkowiczów, którzy chcą wszystko kontrolować i łączyć bardzo różne urządzenia (falownik fotowoltaiczny, licznik Linky przez moduł (we Francji), stacja ładowania…).</p>
+<h3>2. Home Assistant Green — największe możliwości i pełna otwartość</h3>
+<p><strong>Home Assistant Green</strong> to gotowe do pracy urządzenie z systemem Home Assistant – najpopularniejszą na świecie otwartą platformą inteligentnego domu, oferującą ponad 2000 integracji. Łączy się z siecią kablem Ethernet i nie ma <strong>żadnego wbudowanego modułu radiowego</strong>: trzeba dokupić adapter USB <strong>Home Assistant Connect ZBT-2</strong> (Zigbee i Thread), <strong>Connect ZWA-2</strong> (Z-Wave) albo oba.</p>
+<p><strong>Mocne strony:</strong> działanie w 100% lokalne, automatyzacje i skrypty bez ograniczeń, panele do dowolnej konfiguracji, bardzo rozbudowany monitoring zużycia energii, ogromna społeczność. Subskrypcja Home Assistant Cloud jest opcjonalna (łatwiejszy dostęp zdalny, asystenci głosowi).</p>
+<p><strong>Ograniczenia:</strong> trzeba poświęcić sporo czasu na naukę; adaptery radiowe podnoszą koszt; zaawansowana konfiguracja czasem wymaga edycji plików YAML.</p>
+<p><strong>Dla kogo:</strong> pasjonaci i majsterkowicze, którzy chcą mieć pełną kontrolę i łączyć bardzo różne urządzenia: falownik fotowoltaiczny, ładowarkę do samochodu elektrycznego czy – we Francji – licznik Linky przez dodatkowy moduł.</p>
 
 <h3>3. Aqara Hub M3 — najlepszy stosunek jakości do ceny</h3>
-<p><strong>Aqara Hub M3</strong> to hub wieloprotokołowy: <strong>Zigbee, Thread (router brzegowy), kontroler Matter</strong>, dwupasmowe Wi-Fi, Bluetooth oraz nadajnik <strong>podczerwieni 360°</strong>. Obsługuje <strong>PoE</strong> (zasilanie przez kabel Ethernet) i ma wbudowany głośnik do alertów. Działa też jako most Matter dla akcesoriów Zigbee Aqara, które stają się widoczne w Apple Home, Google Home, Alexa lub SmartThings.</p>
-<p><strong>Mocne strony:</strong> automatyzacje wykonywane lokalnie, bardzo dobry stosunek wszechstronności do ceny, sterowanie klimatyzatorami na podczerwień przez Matter, prosta instalacja.</p>
-<p><strong>Ograniczenia:</strong> brak Z-Wave; aplikacja Aqara Home jest przede wszystkim pomyślana dla ekosystemu marki.</p>
-<p><strong>Dla kogo:</strong> dla tych, którzy zaczynają od zera z czujnikami Aqara albo chcą niezawodnego mostu Matter do Apple, Google lub Amazon.</p>
+<p><strong>Aqara Hub M3</strong> to hub wieloprotokołowy: <strong>Zigbee, Thread (router brzegowy), kontroler Matter</strong>, dwupasmowe Wi-Fi, Bluetooth oraz nadajnik <strong>podczerwieni 360°</strong>. Obsługuje <strong>PoE</strong> (zasilanie przez kabel Ethernet) i ma wbudowany głośnik do powiadomień alarmowych. Pełni też rolę mostu Matter dla akcesoriów Zigbee marki Aqara, dzięki czemu są widoczne w Apple Home, Google Home, Alexie i SmartThings.</p>
+<p><strong>Mocne strony:</strong> lokalne wykonywanie automatyzacji, duża wszechstronność w rozsądnej cenie, sterowanie klimatyzatorami na podczerwień przez Matter, prosta instalacja.</p>
+<p><strong>Ograniczenia:</strong> brak Z-Wave; aplikacja Aqara Home powstała przede wszystkim z myślą o urządzeniach tej marki.</p>
+<p><strong>Dla kogo:</strong> osoby, które budują system od zera na czujnikach Aqara albo potrzebują niezawodnego mostu Matter do ekosystemu Apple, Google lub Amazon.</p>
 
-<h3>4. IKEA Dirigera — najprostszy początek</h3>
-<p><strong>Hub IKEA Dirigera</strong> obsługuje produkty Zigbee IKEA i działa jako most Matter. Od aktualizacji z listopada 2025 roku pełni także rolę <strong>kontrolera Matter i routera brzegowego Thread</strong>, co przygotowuje go na nową gamę Matter-over-Thread tej marki.</p>
-<p><strong>Mocne strony:</strong> bardzo prosta aplikacja IKEA Home smart, instalacja w kilka minut, cena z niższej półki.</p>
-<p><strong>Ograniczenia:</strong> podstawowe automatyzacje, brak Z-Wave i podczerwieni, kompatybilność skoncentrowana na IKEA.</p>
-<p><strong>Dla kogo:</strong> dla początkujących, którzy mają żarówki, żaluzje i piloty IKEA.</p>
+<h3>4. IKEA Dirigera — najprostszy hub na początek</h3>
+<p><strong>Hub IKEA Dirigera</strong> obsługuje produkty Zigbee z oferty IKEA i działa jako most Matter. Od aktualizacji z listopada 2025 roku pełni także funkcję <strong>kontrolera Matter i routera brzegowego Thread</strong>, dzięki czemu jest gotowy na nową serię urządzeń Matter-over-Thread tej marki.</p>
+<p><strong>Mocne strony:</strong> bardzo prosta aplikacja IKEA Home smart, instalacja w kilka minut, niska cena.</p>
+<p><strong>Ograniczenia:</strong> tylko proste automatyzacje, brak Z-Wave i podczerwieni, współpraca nastawiona głównie na produkty IKEA.</p>
+<p><strong>Dla kogo:</strong> początkujący, którzy mają już żarówki, rolety i piloty IKEA.</p>
 
-<h3>5. Philips Hue Bridge Pro — wzorzec dla oświetlenia</h3>
-<p><strong>Philips Hue Bridge Pro</strong> nie jest hubem ogólnego przeznaczenia, lecz najbardziej dopracowanym mostem do oświetlenia. W <strong>Zigbee obsługuje do 150 lamp i 50 akcesoriów</strong>, łączy się przez Ethernet lub Wi-Fi i udostępnia oświetlenie platformom Matter. Funkcja <strong>MotionAware</strong> zamienia zgodne lampy Hue w czujniki ruchu, analizując zmiany sygnału radiowego.</p>
-<p><strong>Mocne strony:</strong> niezawodność, duża pojemność, bardzo bogate sceny świetlne, zgodność z Apple Home, Alexa, Google Home i SmartThings.</p>
-<p><strong>Ograniczenia:</strong> ograniczony do świata oświetlenia Hue i jego akcesoriów; nie zastępuje huba ogólnego przeznaczenia.</p>
-<p><strong>Dla kogo:</strong> dla domów z wieloma punktami świetlnymi Hue. Więcej znajdziesz w naszym <a href="/pl/blog/eclairage-connecte-comparatif">porównaniu inteligentnego oświetlenia</a>.</p>
+<h3>5. Philips Hue Bridge Pro — pierwszy wybór do oświetlenia</h3>
+<p><strong>Philips Hue Bridge Pro</strong> nie jest uniwersalnym hubem, lecz najbardziej dopracowanym mostkiem do sterowania oświetleniem. Przez <strong>Zigbee obsługuje do 150 źródeł światła i 50 akcesoriów</strong>, łączy się z siecią przez Ethernet lub Wi-Fi i udostępnia oświetlenie platformom Matter. Funkcja <strong>MotionAware</strong> zamienia zgodne lampy Hue w czujniki ruchu, analizując zmiany sygnału radiowego.</p>
+<p><strong>Mocne strony:</strong> niezawodność, obsługa dużej liczby urządzeń, bardzo bogate sceny świetlne, współpraca z Apple Home, Alexą, Google Home i SmartThings.</p>
+<p><strong>Ograniczenia:</strong> obsługuje wyłącznie oświetlenie i akcesoria Hue; nie zastąpi uniwersalnego huba.</p>
+<p><strong>Dla kogo:</strong> domy z dużą liczbą lamp Hue. Więcej informacji znajdziesz w naszym <a href="/pl/blog/eclairage-connecte-comparatif">porównaniu inteligentnego oświetlenia</a>.</p>
 
 <h3>6. Jeedom Atlas — francuski hub z otwartym oprogramowaniem</h3>
-<p><strong>Jeedom Atlas</strong> działa na otwartym oprogramowaniu Jeedom, opracowanym we Francji. Wbudowane radio wybiera się przy zakupie: <strong>Zigbee, Z-Wave lub EnOcean</strong>. Ma Gigabit Ethernet, dwupasmowe Wi-Fi, Bluetooth 5.0, 4 GB pamięci RAM, 32 GB pamięci eMMC oraz porty USB do dodawania kolejnych kluczy radiowych.</p>
-<p><strong>Mocne strony:</strong> praca lokalna bez obowiązkowej chmury, liczne wtyczki (część płatna), dobra obsługa urządzeń powszechnych we Francji, pakiet usług w cenie na początek.</p>
-<p><strong>Ograniczenia:</strong> tylko jedno fabryczne radio smart home, mniej nowoczesny interfejs, konfiguracja bardziej techniczna niż w Homey.</p>
-<p><strong>Dla kogo:</strong> dla użytkowników francuskojęzycznych, którzy chcą otwartego rozwiązania i wsparcia w języku francuskim, zwłaszcza przy EnOcean lub Z-Wave.</p>
+<p><strong>Jeedom Atlas</strong> działa na otwartym oprogramowaniu Jeedom, rozwijanym we Francji. Wbudowany moduł radiowy wybiera się przy zakupie: <strong>Zigbee, Z-Wave lub EnOcean</strong>. Hub ma gigabitowy port Ethernet, dwupasmowe Wi-Fi, Bluetooth 5.0, 4 GB RAM, 32 GB pamięci eMMC oraz porty USB, do których można podłączyć kolejne adaptery radiowe.</p>
+<p><strong>Mocne strony:</strong> praca lokalna bez obowiązku korzystania z chmury, liczne wtyczki (niektóre płatne), dobra obsługa urządzeń popularnych we Francji, pakiet usług w cenie na start.</p>
+<p><strong>Ograniczenia:</strong> tylko jeden fabryczny moduł radiowy, mniej nowoczesny interfejs, konfiguracja trudniejsza niż w Homey.</p>
+<p><strong>Dla kogo:</strong> użytkownicy francuskojęzyczni, którzy szukają otwartego rozwiązania i wsparcia technicznego po francusku, zwłaszcza w instalacjach EnOcean lub Z-Wave.</p>
 
 <h2>Tabela porównawcza hubów do inteligentnego domu</h2>
 <table>
 <thead>
-<tr><th>Model</th><th>Wbudowane radia</th><th>Matter / Thread</th><th>Sposób działania</th><th>Idealny dla</th></tr>
+<tr><th>Model</th><th>Wbudowane moduły radiowe</th><th>Matter / Thread</th><th>Tryb pracy</th><th>Dla kogo</th></tr>
 </thead>
 <tbody>
-<tr><td>Homey Pro (Early 2023)</td><td>Zigbee, Z-Wave, IR, 433 MHz, BLE, Wi-Fi</td><td>Kontroler Matter, wbudowany Thread</td><td>Lokalnie</td><td>Prosta centralizacja wszystkiego</td></tr>
-<tr><td>Home Assistant Green</td><td>Brak (opcjonalne adaptery ZBT-2 / ZWA-2)</td><td>Tak z ZBT-2</td><td>Lokalnie, otwarte oprogramowanie</td><td>Pasjonaci, maksymalna moc</td></tr>
-<tr><td>Aqara Hub M3</td><td>Zigbee, IR, BLE, Wi-Fi, PoE</td><td>Kontroler Matter, router Thread</td><td>Lokalnie</td><td>Ekosystem Aqara, most Matter</td></tr>
-<tr><td>IKEA Dirigera</td><td>Zigbee</td><td>Kontroler Matter, router Thread</td><td>Lokalnie + aplikacja</td><td>Początkujący z IKEA</td></tr>
-<tr><td>Philips Hue Bridge Pro</td><td>Zigbee</td><td>Most Matter</td><td>Lokalnie</td><td>Duże instalacje Hue</td></tr>
-<tr><td>Jeedom Atlas</td><td>Zigbee, Z-Wave lub EnOcean (do wyboru)</td><td>Zależnie od wtyczek</td><td>Lokalnie, otwarte oprogramowanie</td><td>Otwarty smart home po francusku</td></tr>
+<tr><td>Homey Pro (Early 2023)</td><td>Zigbee, Z-Wave, IR, 433 MHz, BLE, Wi-Fi</td><td>Kontroler Matter, wbudowany Thread</td><td>Lokalny</td><td>Osoby, które chcą prosto sterować wszystkim z jednego miejsca</td></tr>
+<tr><td>Home Assistant Green</td><td>Brak (opcjonalne adaptery ZBT-2 / ZWA-2)</td><td>Tak, z ZBT-2</td><td>Lokalny, otwarte oprogramowanie</td><td>Pasjonaci szukający maksymalnych możliwości</td></tr>
+<tr><td>Aqara Hub M3</td><td>Zigbee, IR, BLE, Wi-Fi, PoE</td><td>Kontroler Matter, router Thread</td><td>Lokalny</td><td>Użytkownicy Aqara i osoby potrzebujące mostu Matter</td></tr>
+<tr><td>IKEA Dirigera</td><td>Zigbee</td><td>Kontroler Matter, router Thread</td><td>Lokalny + aplikacja</td><td>Początkujący z urządzeniami IKEA</td></tr>
+<tr><td>Philips Hue Bridge Pro</td><td>Zigbee</td><td>Most Matter</td><td>Lokalny</td><td>Właściciele dużych instalacji Hue</td></tr>
+<tr><td>Jeedom Atlas</td><td>Zigbee, Z-Wave lub EnOcean (do wyboru)</td><td>Zależnie od wtyczek</td><td>Lokalny, otwarte oprogramowanie</td><td>Francuskojęzyczni zwolennicy otwartych rozwiązań</td></tr>
 </tbody>
 </table>
 
-<h2>A co z Apple TV lub HomePodem jako hubem?</h2>
-<p>Jeśli Twój dom działa w ekosystemie Apple, <strong>Apple TV 4K</strong> (wersja Wi-Fi + Ethernet) i <strong>HomePod mini</strong> mogą pełnić rolę centrali domu: są routerami brzegowymi Thread i kontrolerami Matter oraz wykonują automatyzacje aplikacji Dom. To eleganckie rozwiązanie dla urządzeń Matter i HomeKit, ale nie obsługuje bezpośrednio Zigbee ani Z-Wave i oferuje mniej precyzyjne automatyzacje niż prawdziwy hub. Częste połączenie to Apple TV do Thread i sterowania głosem oraz Homey lub Home Assistant do zaawansowanej logiki.</p>
+<h2>A może Apple TV albo HomePod w roli huba?</h2>
+<p>Jeśli korzystasz z ekosystemu Apple, <strong>Apple TV 4K</strong> (wersja Wi-Fi + Ethernet) i <strong>HomePod mini</strong> mogą pełnić funkcję centrali domowej: działają jako routery brzegowe Thread i kontrolery Matter, a także wykonują automatyzacje z aplikacji Dom. To eleganckie rozwiązanie dla urządzeń Matter i HomeKit, ale nie obsługuje bezpośrednio Zigbee ani Z-Wave, a automatyzacje są mniej rozbudowane niż w prawdziwym hubie. Często spotyka się takie połączenie: Apple TV odpowiada za Thread i sterowanie głosem, a zaawansowaną logikę przejmuje Homey lub Home Assistant.</p>
 
 <h2>Błędy, których warto unikać</h2>
 <ul>
-<li><strong>Kupno huba bez sprawdzenia posiadanych urządzeń:</strong> spisz swoje czujniki i moduły (Zigbee, Z-Wave, Wi-Fi, 433 MHz) przed wyborem. Zestaw urządzeń Z-Wave z góry wyklucza Aqara, IKEA i Hue.</li>
-<li><strong>Mnożenie osobnych sieci Thread:</strong> kilka routerów brzegowych różnych marek może tworzyć odrębne sieci. Upewnij się, że Twoje kontrolery współdzielą dane uwierzytelniające Thread.</li>
-<li><strong>Wiara, że Matter obejmuje wszystko:</strong> nie wszystkie kategorie urządzeń są jeszcze obsługiwane przez wszystkie platformy, a niektóre funkcje pozostają dostępne tylko w aplikacji producenta.</li>
-<li><strong>Umieszczenie huba w metalowej szafce:</strong> radia 2,4 GHz i Z-Wave potrzebują centralnego, wolnego miejsca, w miarę możliwości z dala od routera Wi-Fi.</li>
-<li><strong>Pomijanie kopii zapasowych:</strong> w Home Assistant lub Jeedom zaplanuj regularne kopie zapasowe poza hubem.</li>
+<li><strong>Kupowanie huba bez sprawdzenia posiadanych urządzeń:</strong> przed wyborem spisz swoje czujniki i moduły (Zigbee, Z-Wave, Wi-Fi, 433 MHz). Przy urządzeniach Z-Wave huby Aqara, IKEA i Hue od razu odpadają.</li>
+<li><strong>Tworzenie wielu oddzielnych sieci Thread:</strong> routery brzegowe różnych marek mogą zakładać osobne sieci. Sprawdź, czy Twoje kontrolery współdzielą dane uwierzytelniające sieci Thread.</li>
+<li><strong>Przekonanie, że Matter załatwia wszystko:</strong> nie każda platforma obsługuje już wszystkie kategorie urządzeń, a część funkcji nadal jest dostępna wyłącznie w aplikacji producenta.</li>
+<li><strong>Ustawianie huba w metalowej szafce:</strong> moduły radiowe 2,4 GHz i Z-Wave potrzebują centralnego, niezasłoniętego miejsca, najlepiej z dala od routera Wi-Fi.</li>
+<li><strong>Pomijanie kopii zapasowych:</strong> w Home Assistant i Jeedom ustaw regularne tworzenie kopii zapasowych przechowywanych poza hubem.</li>
 </ul>
 
 <h2>Instalacja i dobre praktyki</h2>
-<p>Najlepiej podłącz hub kablem Ethernet, aby połączenie było stabilne. Najpierw dodaj urządzenia zasilane z sieci (wtyczki, moduły podtynkowe): działają jako przekaźniki sieci kratowej Zigbee, Z-Wave lub Thread i poprawiają zasięg czujników na baterie. Moduły montowane w rozdzielnicy lub za wyłącznikiem powierz wykwalifikowanemu elektrykowi i zawsze wyłączaj prąd na bezpieczniku. Włącz uwierzytelnianie dwuskładnikowe na powiązanych kontach i instaluj aktualizacje firmware'u zaraz po ich udostępnieniu.</p>
+<p>Jeśli to możliwe, podłącz hub kablem Ethernet – połączenie będzie stabilniejsze. Najpierw dodaj urządzenia zasilane z sieci (gniazdka, moduły podtynkowe): działają jako przekaźniki w sieci mesh Zigbee, Z-Wave lub Thread i zwiększają zasięg czujników na baterie. Montaż modułów w rozdzielnicy lub za włącznikiem światła powierz wykwalifikowanemu elektrykowi i zawsze wyłączaj wcześniej bezpiecznik danego obwodu. Na powiązanych kontach włącz uwierzytelnianie dwuskładnikowe, a aktualizacje oprogramowania instaluj od razu, gdy się pojawią.</p>
 
 <h2>Werdykt: jaki hub do inteligentnego domu wybrać?</h2>
-<p><strong>Homey Pro (Early 2023)</strong> to najlepszy hub dla większości domów dzięki licznym radiom i lokalnemu wykonywaniu automatyzacji. <strong>Home Assistant Green</strong> jest bezkonkurencyjny pod względem mocy dla tych, którzy chcą się uczyć. <strong>Aqara Hub M3</strong> oferuje najlepszą równowagę między funkcjami a budżetem, a <strong>IKEA Dirigera</strong> wystarczy na początek. <strong>Philips Hue Bridge Pro</strong> pozostaje niezastąpiony przy dużej instalacji oświetlenia Hue, a <strong>Jeedom Atlas</strong> przypadnie do gustu miłośnikom otwartego oprogramowania po francusku. Wszystkie modele znajdziesz w naszej sekcji <a href="/pl/energie-domotique/hubs-domotique">huby do inteligentnego domu</a>.</p>`,
+<p><strong>Homey Pro (Early 2023)</strong> to najlepszy hub dla większości domów – dzięki wielu modułom radiowym i lokalnemu wykonywaniu automatyzacji. <strong>Home Assistant Green</strong> nie ma sobie równych pod względem możliwości, pod warunkiem że poświęcisz trochę czasu na naukę. <strong>Aqara Hub M3</strong> najlepiej łączy funkcje z rozsądną ceną, a <strong>IKEA Dirigera</strong> wystarczy na początek. <strong>Philips Hue Bridge Pro</strong> pozostaje niezastąpiony przy rozbudowanym oświetleniu Hue, a <strong>Jeedom Atlas</strong> spodoba się francuskojęzycznym zwolennikom otwartego oprogramowania. Wszystkie modele znajdziesz w naszej kategorii <a href="/pl/energie-domotique/hubs-domotique">huby do inteligentnego domu</a>.</p>`,
   },
   faq: [
     {
@@ -728,7 +728,7 @@ export const article: BlogArticle = {
         es: '¿Sigue haciendo falta un hub domótico con Matter?',
         it: 'Serve ancora un hub domotico con Matter?',
         nl: 'Heb je met Matter nog een smart-home-hub nodig?',
-        pl: 'Czy z Matterem nadal potrzebny jest hub do inteligentnego domu?',
+        pl: 'Czy przy standardzie Matter hub do inteligentnego domu jest nadal potrzebny?',
       },
       answer: {
         fr: "Oui dans la plupart des cas. Matter rend les appareils compatibles entre eux, mais il faut un contrôleur pour les piloter et exécuter les automatisations, ainsi qu'un routeur de bordure Thread pour les appareils Matter sur Thread. Une box gère aussi les appareils Zigbee ou Z-Wave que Matter ne couvre pas directement.",
@@ -737,7 +737,7 @@ export const article: BlogArticle = {
         es: 'Sí, en la mayoría de los casos. Matter hace que los dispositivos sean compatibles entre sí, pero sigue haciendo falta un controlador que los gestione y ejecute las automatizaciones, además de un router de borde Thread para los dispositivos Matter sobre Thread. Un hub también gestiona dispositivos Zigbee o Z-Wave que Matter no cubre directamente.',
         it: 'Sì, nella maggior parte dei casi. Matter rende i dispositivi compatibili tra loro, ma serve comunque un controller che li gestisca ed esegua le automazioni, oltre a un border router Thread per i dispositivi Matter su Thread. Un hub gestisce anche i dispositivi Zigbee o Z-Wave che Matter non copre direttamente.',
         nl: 'Ja, in de meeste gevallen. Matter maakt apparaten onderling compatibel, maar je hebt nog steeds een controller nodig die ze bedient en automatiseringen uitvoert, plus een Thread-border-router voor Matter-over-Thread-apparaten. Een hub beheert ook Zigbee- of Z-Wave-apparaten die Matter niet rechtstreeks ondersteunt.',
-        pl: 'W większości przypadków tak. Matter sprawia, że urządzenia są ze sobą zgodne, ale do sterowania nimi i wykonywania automatyzacji potrzebny jest kontroler, a do urządzeń Matter w sieci Thread także router brzegowy Thread. Hub obsługuje też urządzenia Zigbee lub Z-Wave, których Matter nie obejmuje bezpośrednio.',
+        pl: 'W większości przypadków tak. Matter zapewnia zgodność urządzeń, ale do sterowania nimi i wykonywania automatyzacji potrzebny jest kontroler, a w przypadku urządzeń Matter działających w sieci Thread – także router brzegowy Thread. Hub obsłuży też urządzenia Zigbee i Z-Wave, których Matter bezpośrednio nie obejmuje.',
       },
     },
     {
@@ -757,7 +757,7 @@ export const article: BlogArticle = {
         es: 'El Homey Pro (Early 2023) integra ambos de serie. El Home Assistant Green también los gestiona si añades los adaptadores USB Connect ZBT-2 (Zigbee) y Connect ZWA-2 (Z-Wave). El Jeedom Atlas incluye una sola radio a elegir, pero admite llaves USB adicionales.',
         it: "L'Homey Pro (Early 2023) li integra entrambi di serie. Anche l'Home Assistant Green li supporta aggiungendo gli adattatori USB Connect ZBT-2 (Zigbee) e Connect ZWA-2 (Z-Wave). Il Jeedom Atlas ha una sola radio a scelta, ma accetta chiavette USB aggiuntive.",
         nl: 'De Homey Pro (Early 2023) heeft beide standaard ingebouwd. Ook de Home Assistant Green ondersteunt ze als je de usb-adapters Connect ZBT-2 (Zigbee) en Connect ZWA-2 (Z-Wave) toevoegt. De Jeedom Atlas heeft één radio naar keuze, maar accepteert extra usb-sticks.',
-        pl: 'Homey Pro (Early 2023) ma oba radia fabrycznie. Home Assistant Green też je obsługuje, pod warunkiem dokupienia adapterów USB Connect ZBT-2 (Zigbee) i Connect ZWA-2 (Z-Wave). Jeedom Atlas ma jedno radio do wyboru, ale przyjmuje dodatkowe klucze USB.',
+        pl: 'Homey Pro (Early 2023) ma oba moduły radiowe fabrycznie. Home Assistant Green też je obsługuje, ale trzeba dokupić adaptery USB Connect ZBT-2 (Zigbee) i Connect ZWA-2 (Z-Wave). Jeedom Atlas ma jeden wbudowany moduł radiowy do wyboru, ale można do niego podłączyć dodatkowe adaptery USB.',
       },
     },
     {
@@ -777,7 +777,7 @@ export const article: BlogArticle = {
         es: 'Los hubs que ejecutan las automatizaciones en local, como Homey Pro, Home Assistant Green, Jeedom Atlas o Aqara Hub M3, siguen controlando la casa sin conexión. En cambio, el acceso remoto desde el móvil, los asistentes de voz y las integraciones en la nube de algunas marcas no están disponibles durante el corte.',
         it: "Gli hub che eseguono le automazioni in locale, come Homey Pro, Home Assistant Green, Jeedom Atlas o Aqara Hub M3, continuano a gestire la casa senza connessione. Durante l'interruzione non sono però disponibili l'accesso remoto dallo smartphone, gli assistenti vocali e le integrazioni cloud di alcune marche.",
         nl: 'Hubs die automatiseringen lokaal uitvoeren, zoals Homey Pro, Home Assistant Green, Jeedom Atlas of Aqara Hub M3, blijven het huis zonder verbinding aansturen. Toegang op afstand via je smartphone, spraakassistenten en cloudkoppelingen van sommige merken werken tijdens de storing echter niet.',
-        pl: 'Huby, które wykonują automatyzacje lokalnie, jak Homey Pro, Home Assistant Green, Jeedom Atlas czy Aqara Hub M3, nadal sterują domem bez połączenia. Niedostępny w czasie awarii będzie jednak zdalny dostęp ze smartfona, asystenci głosowi i integracje chmurowe niektórych marek.',
+        pl: 'Huby, które wykonują automatyzacje lokalnie – takie jak Homey Pro, Home Assistant Green, Jeedom Atlas czy Aqara Hub M3 – sterują domem także bez połączenia z internetem. Na czas awarii tracisz jednak zdalny dostęp ze smartfona, asystentów głosowych i integracje chmurowe niektórych marek.',
       },
     },
     {
@@ -788,7 +788,7 @@ export const article: BlogArticle = {
         es: 'Home Assistant u Homey: ¿cuál elegir?',
         it: 'Home Assistant o Homey: quale scegliere?',
         nl: 'Home Assistant of Homey: welke kies je?',
-        pl: 'Home Assistant czy Homey: co wybrać?',
+        pl: 'Home Assistant czy Homey: który wybrać?',
       },
       answer: {
         fr: "Homey Pro convient à ceux qui veulent une solution prête à l'emploi avec de nombreuses radios intégrées et une application simple. Home Assistant offre davantage d'intégrations et de liberté, mais demande plus de temps de configuration et l'achat d'adaptateurs radio. Si vous aimez bricoler, Home Assistant ; sinon, Homey.",
@@ -797,7 +797,7 @@ export const article: BlogArticle = {
         es: 'Homey Pro es ideal para quien quiere una solución lista para usar, con muchas radios integradas y una app sencilla. Home Assistant ofrece más integraciones y libertad, pero exige más tiempo de configuración y comprar adaptadores de radio. Si te gusta trastear, Home Assistant; si no, Homey.',
         it: 'Homey Pro è adatto a chi vuole una soluzione pronta all’uso, con molte radio integrate e un’app semplice. Home Assistant offre più integrazioni e libertà, ma richiede più tempo di configurazione e l’acquisto di adattatori radio. Se ami smanettare, Home Assistant; altrimenti, Homey.',
         nl: 'Homey Pro past bij wie een kant-en-klare oplossing wil met veel ingebouwde radio’s en een eenvoudige app. Home Assistant biedt meer integraties en vrijheid, maar vraagt meer insteltijd en extra radioadapters. Houd je van knutselen, kies dan Home Assistant; anders Homey.',
-        pl: 'Homey Pro jest dla osób, które chcą gotowego rozwiązania z wieloma wbudowanymi radiami i prostą aplikacją. Home Assistant oferuje więcej integracji i swobody, ale wymaga więcej czasu na konfigurację i zakupu adapterów radiowych. Jeśli lubisz majsterkować, wybierz Home Assistant; w przeciwnym razie Homey.',
+        pl: 'Homey Pro sprawdzi się u osób, które chcą gotowego rozwiązania z wieloma wbudowanymi modułami radiowymi i prostą aplikacją. Home Assistant daje więcej integracji i swobody, ale wymaga więcej czasu na konfigurację oraz dokupienia adapterów radiowych. Jeśli lubisz majsterkować, wybierz Home Assistant; jeśli nie – Homey.',
       },
     },
     {
@@ -817,7 +817,7 @@ export const article: BlogArticle = {
         es: 'Sí, dentro del ecosistema Apple: el Apple TV 4K (wifi + Ethernet) y el HomePod mini son routers de borde Thread y controladores Matter, y ejecutan las automatizaciones de la app Casa. No gestionan Zigbee ni Z-Wave directamente: para esos dispositivos necesitas un hub dedicado o un puente compatible.',
         it: "Sì, nell'ecosistema Apple: l'Apple TV 4K (Wi-Fi + Ethernet) e l'HomePod mini sono border router Thread e controller Matter ed eseguono le automazioni dell'app Casa. Non gestiscono direttamente Zigbee né Z-Wave: per questi dispositivi serve un hub dedicato o un bridge compatibile.",
         nl: 'Ja, binnen het Apple-ecosysteem: de Apple TV 4K (wifi + ethernet) en de HomePod mini zijn Thread-border-router en Matter-controller en voeren automatiseringen van de Woning-app uit. Zigbee en Z-Wave beheren ze niet rechtstreeks; daarvoor heb je een aparte hub of een compatibele bridge nodig.',
-        pl: 'Tak, w ekosystemie Apple: Apple TV 4K (Wi-Fi + Ethernet) i HomePod mini są routerami brzegowymi Thread i kontrolerami Matter oraz wykonują automatyzacje aplikacji Dom. Nie obsługują bezpośrednio Zigbee ani Z-Wave, więc do takich urządzeń potrzebny jest dedykowany hub lub zgodny most.',
+        pl: 'Tak, w ekosystemie Apple. Apple TV 4K (Wi-Fi + Ethernet) i HomePod mini działają jako routery brzegowe Thread i kontrolery Matter, a także wykonują automatyzacje z aplikacji Dom. Nie obsługują jednak bezpośrednio Zigbee ani Z-Wave, więc do takich urządzeń potrzebny jest osobny hub lub zgodny most.',
       },
     },
     {
@@ -828,7 +828,7 @@ export const article: BlogArticle = {
         es: '¿Dónde colocar el hub domótico para tener buen alcance?',
         it: "Dove posizionare l'hub domotico per una buona copertura?",
         nl: 'Waar plaats je een smart-home-hub voor een goed bereik?',
-        pl: 'Gdzie umieścić hub, aby miał dobry zasięg?',
+        pl: 'Gdzie postawić hub, żeby miał dobry zasięg?',
       },
       answer: {
         fr: "Au centre du logement, en hauteur et à l'air libre, jamais dans un placard métallique ni collée au routeur Wi-Fi. Branchez-la en Ethernet si possible et ajoutez des appareils alimentés sur secteur, comme des prises connectées, qui relaient le réseau maillé vers les pièces éloignées.",
@@ -837,7 +837,7 @@ export const article: BlogArticle = {
         es: 'En el centro de la vivienda, en alto y despejado, nunca en un armario metálico ni pegado al router wifi. Conéctalo por Ethernet si puedes y añade dispositivos enchufados a la red, como enchufes inteligentes, que repiten la red mallada hacia las habitaciones alejadas.',
         it: "Al centro della casa, in alto e in posizione libera, mai in un armadio metallico né attaccato al router Wi-Fi. Collegalo via Ethernet se possibile e aggiungi dispositivi alimentati da rete, come prese smart, che estendono la rete mesh alle stanze più lontane.",
         nl: 'Centraal in de woning, wat hoger en vrij opgesteld, nooit in een metalen kast of pal naast de wifirouter. Sluit hem bij voorkeur via ethernet aan en voeg apparaten op netstroom toe, zoals slimme stekkers, die het mesh-netwerk naar verder gelegen kamers doorgeven.',
-        pl: 'Na środku mieszkania, wysoko i w wolnej przestrzeni, nigdy w metalowej szafce ani tuż przy routerze Wi-Fi. Jeśli to możliwe, podłącz go kablem Ethernet i dodaj urządzenia zasilane z sieci, takie jak inteligentne wtyczki, które przekazują sygnał sieci kratowej do odległych pomieszczeń.',
+        pl: 'W centralnym miejscu mieszkania, wysoko i na otwartej przestrzeni – nigdy w metalowej szafce ani tuż obok routera Wi-Fi. Jeśli to możliwe, podłącz go kablem Ethernet i dodaj urządzenia zasilane z sieci, np. inteligentne gniazdka, które przekazują sygnał sieci mesh do dalszych pomieszczeń.',
       },
     },
   ],

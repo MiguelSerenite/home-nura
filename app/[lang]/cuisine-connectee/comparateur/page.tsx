@@ -67,9 +67,9 @@ const pageContent: Record<string, {
   },
   pl: {
     kicker: 'Narzędzie porównawcze',
-    title: 'Porównywarka inteligentnej kuchni',
+    title: 'Porównywarka urządzeń do inteligentnej kuchni',
     subtitle: 'Porównaj do 3 modeli obok siebie',
-    intro: 'Multicookery, ekspresy do kawy, wagi, termometry, inteligentne wtyczki — wybierz interesujące Cię modele i zobacz ich parametry obok siebie. Ocena Nura, pojemność, mocne strony i ograniczenia.',
+    intro: 'Multicookery, ekspresy do kawy, wagi, termometry, inteligentne gniazdka — wybierz modele, które Cię interesują, i porównaj ich parametry obok siebie: Ocena Nura, pojemność, mocne strony i ograniczenia.',
     breadcrumbRoot: 'Inteligentna kuchnia',
     breadcrumb: 'Porównywarka',
   },

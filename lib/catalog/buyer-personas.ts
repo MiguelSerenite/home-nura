@@ -63,7 +63,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Familia de 4 personas',
       it: 'Famiglia di 4 persone',
       nl: 'Gezin van 4',
-      pl: 'Rodzina 4 os.',
+      pl: 'Rodzina 4-osobowa',
     },
   },
   {
@@ -161,7 +161,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Económico (menos de 100 €)',
       it: 'Economico (meno di 100 €)',
       nl: 'Goedkoop (onder €100)',
-      pl: 'Tanio (poniżej 400 zł)',
+      pl: 'Niski budżet (poniżej 400 zł)',
     },
   },
   {
@@ -221,7 +221,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Uso diario',
       it: 'Uso quotidiano',
       nl: 'Dagelijks gebruik',
-      pl: 'Na co dzień',
+      pl: 'Codzienne użycie',
     },
   },
   {
@@ -235,7 +235,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Uso ocasional',
       it: 'Uso occasionale',
       nl: 'Incidenteel gebruik',
-      pl: 'Okazjonalnie',
+      pl: 'Okazjonalne użycie',
     },
   },
   {
@@ -338,7 +338,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Silencioso',
       it: 'Silenzioso',
       nl: 'Stil',
-      pl: 'Cichy',
+      pl: 'Cicha praca',
     },
   },
   {
@@ -352,7 +352,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Compatible con Alexa',
       it: 'Compatibile con Alexa',
       nl: 'Alexa-compatibel',
-      pl: 'Zgodny z Alexa',
+      pl: 'Zgodność z Alexą',
     },
   },
   {
@@ -366,7 +366,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Compatible con Google Home',
       it: 'Compatibile con Google Home',
       nl: 'Google Home-compatibel',
-      pl: 'Zgodny z Google Home',
+      pl: 'Zgodność z Google Home',
     },
   },
   {
@@ -385,7 +385,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Compatible con Matter',
       it: 'Compatibile con Matter',
       nl: 'Matter-compatibel',
-      pl: 'Zgodny z Matter',
+      pl: 'Zgodność z Matter',
     },
   },
   {
@@ -399,7 +399,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'RGPD estricto',
       it: 'GDPR rigoroso',
       nl: 'AVG-strikt',
-      pl: 'Ścisłe RODO',
+      pl: 'Ścisła zgodność z RODO',
     },
   },
   {
@@ -419,7 +419,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Funciona sin conexión',
       it: 'Funziona offline',
       nl: 'Werkt offline',
-      pl: 'Działa offline',
+      pl: 'Działanie bez internetu',
     },
   },
   {
@@ -438,7 +438,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Ahorro de energía',
       it: 'Risparmio energetico',
       nl: 'Energiebesparend',
-      pl: 'Energooszczędny',
+      pl: 'Oszczędność energii',
     },
   },
 
@@ -457,7 +457,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Propietarios de mascotas',
       it: 'Proprietari di animali',
       nl: 'Huisdiereigenaren',
-      pl: 'Ze zwierzętami',
+      pl: 'Właściciele zwierząt',
     },
   },
   {
@@ -499,7 +499,7 @@ export const BUYER_PERSONAS: readonly BuyerPersona[] = [
       es: 'Bebé y niño pequeño',
       it: 'Neonato e bambino piccolo',
       nl: 'Baby en peuter',
-      pl: 'Niemowlę i maluch',
+      pl: 'Niemowlę i małe dziecko',
     },
   },
 

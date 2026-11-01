@@ -103,11 +103,11 @@ const LABELS: Record<string, Labels> = {
     emailLabel: 'Adres e-mail',
     submit: 'Zapisz się',
     submitting: 'Wysyłanie…',
-    success: 'Dziękujemy. Sprawdź skrzynkę, aby potwierdzić zapis.',
+    success: 'Dziękujemy! Sprawdź skrzynkę i potwierdź zapis.',
     errorInvalid: 'Wpisz poprawny adres e-mail.',
     errorGeneric: 'Coś poszło nie tak. Spróbuj ponownie.',
     errorRateLimited: 'Zbyt wiele prób. Spróbuj ponownie za godzinę.',
-    consent: 'Zapisując się, akceptujesz naszą politykę prywatności. Wypisanie jednym kliknięciem.',
+    consent: 'Zapisując się, akceptujesz naszą politykę prywatności. Z newslettera wypiszesz się jednym kliknięciem.',
   },
 }
 

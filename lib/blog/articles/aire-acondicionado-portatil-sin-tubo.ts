@@ -18,7 +18,7 @@ export const article: BlogArticle = {
         es: 'Aire acondicionado portátil sin tubo y enfriador de aire evaporativo en un salón soleado',
         it: 'Climatizzatore portatile senza tubo e raffrescatore evaporativo in un soggiorno soleggiato',
         nl: 'Draagbare airco zonder slang en verdampingskoeler in een zonnige woonkamer',
-        pl: 'Przenośny klimatyzator bez węża i ewaporacyjny schładzacz powietrza w nasłonecznionym salonie',
+        pl: 'Klimatyzator przenośny bez węża i schładzacz ewaporacyjny w nasłonecznionym salonie',
       },
     },
   ],
@@ -29,7 +29,7 @@ export const article: BlogArticle = {
     es: 'Aire Acondicionado Portátil Sin Tubo 2026: Verdad, Límites y Qué Comprar',
     it: 'Climatizzatore Portatile Senza Tubo 2026: Verità, Limiti e Cosa Comprare',
     nl: 'Draagbare Airco Zonder Slang 2026: Waarheid, Grenzen en Wat te Kopen',
-    pl: 'Klimatyzator przenośny bez węża 2026: prawda, ograniczenia i co kupić',
+    pl: 'Klimatyzator przenośny bez rury 2026: cała prawda, ograniczenia i co kupić',
   },
   excerpt: {
     fr: 'La vérité sur les climatiseurs portables sans tuyau : rafraîchisseurs évaporatifs contre vraie climatisation, pour qui chaque solution convient, consommation, formats courants et tableau comparatif complet.',
@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: 'La verdad sobre los aires acondicionados portátiles sin tubo: climatizadores evaporativos frente a aire acondicionado real, para quién sirve cada solución, consumo, formatos habituales y tabla comparativa completa.',
     it: 'La verità sui climatizzatori portatili senza tubo: raffrescatori evaporativi vs vera climatizzazione, per chi è adatta ogni soluzione, consumi, formati comuni e tabella comparativa.',
     nl: 'De waarheid over draagbare airco\'s zonder slang: verdampingskoelers vs echte airconditioning, voor wie elke oplossing geschikt is, verbruik, gangbare types en een vergelijkingstabel.',
-    pl: 'Prawda o klimatyzatorach przenośnych bez węża: ewaporacyjne schładzacze powietrza kontra prawdziwa klimatyzacja, dla kogo jest każde rozwiązanie, zużycie energii, popularne formaty i pełna tabela porównawcza.',
+    pl: 'Cała prawda o klimatyzatorach przenośnych bez węża: schładzacze ewaporacyjne kontra prawdziwa klimatyzacja, dla kogo które rozwiązanie, zużycie energii, popularne typy urządzeń i pełna tabela porównawcza.',
   },
   content: {
     es: `<h2>Aire acondicionado portátil sin tubo: la verdad antes de comprar</h2>
@@ -541,84 +541,84 @@ export const article: BlogArticle = {
 
 <h2>Conclusie</h2>
 <p>Geen enkele <strong>draagbare airco zonder slang</strong> koelt als een split — de natuurkunde laat het niet toe. Maar de <strong>verdampingskoeler</strong> is een installatievrije, zuinige oplossing die echt verfrist bij droge lucht. In vochtige gebieden of voor gegarandeerde koeling kies je een airco met slang of een krachtige ventilator.</p>`,
-    pl: `<h2>Klimatyzator przenośny bez węża: prawda przed zakupem</h2>
-<p>Jeśli szukasz <strong>klimatyzatora przenośnego bez węża</strong>, w ofertach znajdziesz dziesiątki urządzeń obiecujących natychmiastowy chłód i <strong>brak montażu</strong>. Zanim wydasz pieniądze, trzeba powiedzieć jedno: <em>prawdziwy</em> klimatyzator — taki, który faktycznie schładza pomieszczenie jak split ścienny — musi odprowadzać gorące powietrze na zewnątrz. To fizyka, nie marketing. Dlatego prawie wszystko, co sprzedaje się jako „klimatyzator bez węża”, nie jest klimatyzatorem, lecz <strong>ewaporacyjnym schładzaczem powietrza</strong>.</p>
-<p>Ten poradnik uczciwie wyjaśnia, czego możesz oczekiwać od każdego typu urządzenia, dla kogo jest każde rozwiązanie i jakie ma ograniczenia. Dzięki temu nie kupisz urządzenia w przekonaniu, że dostajesz tani split, by odkryć wentylator z wodą. Aby pójść dalej, przeczytaj nasze <a href="/pl/blog/climatiseur-mobile-vs-ventilateur">porównanie klimatyzatora przenośnego, wentylatora i schładzacza powietrza</a>.</p>
+    pl: `<h2>Klimatyzator przenośny bez węża: co trzeba wiedzieć przed zakupem</h2>
+<p>Jeśli szukasz <strong>klimatyzatora przenośnego bez węża</strong> (czyli „bez rury”), w sklepach na pewno widzisz dziesiątki urządzeń, które obiecują natychmiastowy chłód <strong>bez montażu</strong>. Zanim wydasz pieniądze, poznaj jedną zasadę: <em>prawdziwy</em> klimatyzator — taki, który faktycznie schładza pomieszczenie jak klimatyzator split na ścianie — musi wyrzucać gorące powietrze na zewnątrz. To fizyka, a nie marketing. Dlatego niemal wszystko, co sprzedaje się jako „klimatyzator bez węża”, wcale nie jest klimatyzatorem, tylko <strong>schładzaczem ewaporacyjnym</strong>.</p>
+<p>W tym poradniku uczciwie wyjaśniamy, czego możesz się spodziewać po każdym typie urządzenia, komu które rozwiązanie się przyda i jakie ma ograniczenia. Dzięki temu nie kupisz sprzętu w przekonaniu, że to tani odpowiednik klimatyzatora split, by potem odkryć, że to tylko wentylator z wodą. Więcej znajdziesz w naszym <a href="/pl/blog/climatiseur-mobile-vs-ventilateur">porównaniu: klimatyzator przenośny, wentylator czy schładzacz powietrza</a>.</p>
 
 <h2>Dlaczego prawdziwy klimatyzator zawsze musi odprowadzać powietrze</h2>
-<p>Klimatyzator ze sprężarką nie „wytwarza” chłodu: <strong>przenosi ciepło</strong> z jednego miejsca w inne. Pobiera ciepło z powietrza w pomieszczeniu i wyrzuca je na zewnątrz. To ciepło musi gdzieś trafić: na zewnątrz, przez wąż odprowadzający albo jednostkę zewnętrzną stałego splitu.</p>
-<p>Bez węża pobrane ciepło zostaje w tym samym pomieszczeniu. Temperatura nie spada; może nawet lekko wzrosnąć, ponieważ sprężarka zużywa prąd, który również zamienia się w ciepło. Każda obietnica „prawdziwego klimatyzatora przenośnego bez węża, który chłodzi jak split” jest więc fałszywa.</p>
-<p>Nie znaczy to, że urządzenia „bez węża” to oszustwo: robią <strong>coś innego</strong>, co bywa przydatne, jeśli rozumie się ich ograniczenia.</p>
-<p>Inne częste nieporozumienie: wentylatory kolumnowe z nawilżaczem mgiełkowym i małe biurkowe urządzenia USB również nie są klimatyzatorami. Dają ochłodzenie dzięki ruchowi powietrza na skórze lub dzięki drobnej mgiełce, ale nie obniżają temperatury w pomieszczeniu. Jeśli po godzinie pracy termometr się nie rusza, masz odczucie świeżości, a nie realne schłodzenie.</p>
+<p>Klimatyzator ze sprężarką nie „wytwarza” chłodu, tylko <strong>przenosi ciepło</strong> z jednego miejsca w drugie. Odbiera je z powietrza w pokoju i wyrzuca na zewnątrz. To ciepło musi gdzieś trafić: przez wąż odprowadzający albo – w przypadku klimatyzatora split – przez jednostkę zewnętrzną.</p>
+<p>Bez węża odebrane ciepło zostaje w tym samym pomieszczeniu. Temperatura nie spada, a może nawet lekko wzrosnąć, bo sprężarka pobiera prąd, który również zamienia się w ciepło. Każda obietnica „prawdziwego klimatyzatora przenośnego bez węża, który chłodzi jak split” jest więc nieprawdziwa.</p>
+<p>Nie znaczy to, że urządzenia „bez węża” to oszustwo. Robią po prostu <strong>coś innego</strong> – i mogą się przydać, jeśli znasz ich ograniczenia.</p>
+<p>Częste jest też inne nieporozumienie: wentylatory kolumnowe z funkcją mgiełki wodnej i małe biurkowe urządzenia na USB również nie są klimatyzatorami. Dają wrażenie chłodu dzięki ruchowi powietrza na skórze albo drobnej mgiełce, ale nie obniżają temperatury w pomieszczeniu. Jeśli po godzinie pracy termometr pokazuje to samo, czujesz chłodniejszy powiew, ale pokój wcale się nie schładza.</p>
 
-<h2>Czym jest ewaporacyjny schładzacz powietrza?</h2>
-<p><strong>Ewaporacyjny schładzacz powietrza</strong> (potocznie klimator) to urządzenie, które naprawdę działa <strong>bez węża</strong> i <strong>bez montażu</strong>. Jego zasada jest naturalna: parowanie wody pochłania ciepło.</p>
-<p>W środku znajdują się zbiornik na wodę i wilgotny wkład o strukturze plastra miodu. Wentylator przepuszcza gorące, suche powietrze przez ten mokry wkład. Część wody odparowuje i schładza powietrze, zwykle o <strong>3 do 6 stopni</strong> w dobrych warunkach.</p>
+<h2>Czym jest schładzacz ewaporacyjny?</h2>
+<p><strong>Schładzacz ewaporacyjny</strong> (w sklepach często nazywany „klimatyzerem”) to urządzenie, które naprawdę działa <strong>bez węża</strong> i <strong>bez montażu</strong>. Wykorzystuje naturalne zjawisko: parująca woda pochłania ciepło.</p>
+<p>W środku znajdują się zbiornik na wodę i wilgotny wkład o strukturze plastra miodu. Wentylator przepuszcza ciepłe, suche powietrze przez ten mokry wkład. Część wody odparowuje i schładza powietrze – w dobrych warunkach zwykle o <strong>3–6 stopni</strong>.</p>
 <ul>
-<li><strong>Bez montażu:</strong> podłączasz, nalewasz wody i działa. Żadnego węża ani dziury w ścianie.</li>
-<li><strong>Niskie zużycie energii:</strong> 60–150 W, wobec 800–1400 W w prawdziwym klimatyzatorze przenośnym.</li>
-<li><strong>Naprawdę przenośny:</strong> 6–12 kg, często na kółkach.</li>
-<li><strong>Nawilża powietrze:</strong> przyjemne w bardzo suchym otoczeniu.</li>
+<li><strong>Bez montażu:</strong> podłączasz do prądu, nalewasz wody i gotowe. Żadnego węża ani otworu w ścianie.</li>
+<li><strong>Niski pobór mocy:</strong> 60–150 W, podczas gdy prawdziwy klimatyzator przenośny pobiera 800–1400 W.</li>
+<li><strong>Naprawdę przenośny:</strong> waży 6–12 kg i często ma kółka.</li>
+<li><strong>Nawilża powietrze:</strong> to zaleta, gdy w pomieszczeniu jest bardzo sucho.</li>
 </ul>
 
-<h3>Jego główne ograniczenie: wilgotność</h3>
-<p>Ewaporacyjny schładzacz działa dobrze tylko przy suchym powietrzu. Im suchsze powietrze, tym więcej wody może odparować i tym mocniej chłodzi. Powyżej 60–70 % wilgotności powietrze jest niemal nasycone i efekt chłodzenia zanika, a urządzenie nadal dodaje wilgoci, nasilając uczucie dusznej wilgoci. Idealnie sprawdza się w klimacie suchym (w głębi lądu), a rozczarowuje w wilgotnych strefach nadmorskich.</p>
-<p>Prosta wskazówka: sprawdź średnią wilgotność względną w letnie popołudnia u siebie. Poniżej 45 % schładzacz będzie skuteczny; między 45 a 60 % przyniesie umiarkowaną ulgę; powyżej 60 % praktycznie nie poczujesz różnicy.</p>
+<h3>Największe ograniczenie: wilgotność</h3>
+<p>Schładzacz ewaporacyjny dobrze działa tylko przy suchym powietrzu. Im suchsze powietrze, tym więcej wody może odparować i tym mocniej chłodzi. Przy wilgotności powyżej 60–70% powietrze jest prawie nasycone, efekt chłodzenia zanika, a urządzenie dalej dodaje wilgoci i potęguje uczucie duchoty. Najlepiej sprawdza się w suchym klimacie (w głębi lądu, w regionach o suchym, gorącym lecie), a rozczarowuje w wilgotnych regionach nadmorskich.</p>
+<p>Prosta wskazówka: sprawdź, jaka jest u Ciebie średnia wilgotność względna w letnie popołudnia. Poniżej 45% schładzacz będzie skuteczny, przy 45–60% przyniesie umiarkowaną ulgę, a powyżej 60% praktycznie nie poczujesz różnicy.</p>
 
-<h2>Przenośny klimatyzator monoblok: jak radzi sobie z powietrzem</h2>
-<p>Inna kategoria bywa myląco sprzedawana jako „bez węża”: przenośny klimatyzator monoblok. Ma sprężarkę i naprawdę chłodzi, ale <strong>nadal musi odprowadzać gorące powietrze</strong>. Różnica tkwi w sposobie, w jaki to robi:</p>
+<h2>Klimatyzator przenośny typu monoblok: co dzieje się z gorącym powietrzem</h2>
+<p>Jeszcze inna kategoria bywa myląco reklamowana jako „bez węża”: przenośny klimatyzator typu monoblok. Ma sprężarkę i naprawdę chłodzi, ale <strong>zawsze musi odprowadzać gorące powietrze</strong>. Różnice dotyczą tylko tego, jak to robi:</p>
 <ul>
-<li><strong>Monoblok z wężem:</strong> wąż odprowadza gorące powietrze przez uchylone okno z zestawem uszczelniającym. To prawdziwe rozwiązanie przenośne, które chłodzi.</li>
-<li><strong>Dwa węże:</strong> bardziej wydajne, ponieważ pobiera powietrze z zewnątrz do chłodzenia sprężarki, ale też wymaga wylotu.</li>
-<li><strong>Modele „bez węża” błędnie opisane:</strong> często to przebrane schładzacze. Sprawdź kartę produktu: brak sprężarki, brak czynnika chłodniczego, brak BTU = schładzacz.</li>
+<li><strong>Monoblok z wężem:</strong> wąż wyprowadza gorące powietrze przez uchylone okno uszczelnione specjalnym zestawem. To jedyne naprawdę chłodzące rozwiązanie przenośne.</li>
+<li><strong>Model dwuwężowy:</strong> jest wydajniejszy, bo do chłodzenia sprężarki pobiera powietrze z zewnątrz, ale również wymaga wylotu na zewnątrz.</li>
+<li><strong>Modele błędnie opisane jako „bez węża”:</strong> często to po prostu schładzacze pod inną nazwą. Sprawdź specyfikację: brak sprężarki, brak czynnika chłodniczego i brak mocy w BTU oznaczają schładzacz.</li>
 </ul>
-<p>Najpewniejszą wskazówką pozostaje <strong>moc w BTU</strong>. Prawdziwy klimatyzator pokojowy ma zwykle od 7000 do 12 000 BTU i zużywa kilkaset watów. Schładzacz nigdy nie podaje BTU, ponieważ nie ma sprężarki.</p>
+<p>Najpewniejszą wskazówką pozostaje <strong>moc w BTU</strong>. Prawdziwy klimatyzator pokojowy ma zwykle od 7000 do 12 000 BTU i pobiera kilkaset watów. Producent schładzacza nigdy nie podaje BTU, bo urządzenie nie ma sprężarki.</p>
 
-<h2>Tabela porównawcza: schładzacz a klimatyzator przenośny a wentylator</h2>
+<h2>Tabela porównawcza: schładzacz, klimatyzator przenośny i wentylator</h2>
 <table>
 <thead>
-<tr><th>Kryterium</th><th>Ewaporacyjny schładzacz</th><th>Klimatyzator przenośny (z wężem)</th><th>Wentylator</th></tr>
+<tr><th>Kryterium</th><th>Schładzacz ewaporacyjny</th><th>Klimatyzator przenośny (z wężem)</th><th>Wentylator</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Realne schłodzenie</strong></td><td>Tak, przy suchym powietrzu (-3 do -6 °C)</td><td>Tak, zawsze (-5 do -12 °C)</td><td>Nie (tylko odczucie)</td></tr>
+<tr><td><strong>Rzeczywiste schłodzenie</strong></td><td>Tak, przy suchym powietrzu (o 3–6 °C)</td><td>Tak, zawsze (o 5–12 °C)</td><td>Nie (tylko wrażenie chłodu)</td></tr>
 <tr><td><strong>Wąż / montaż</strong></td><td>Nie</td><td>Tak (wylot przez okno)</td><td>Nie</td></tr>
-<tr><td><strong>Moc</strong></td><td>60 – 150 W</td><td>800 – 1400 W</td><td>30 – 75 W</td></tr>
-<tr><td><strong>Zużycie dziennie (8 h)*</strong></td><td>0,5 – 1,2 kWh</td><td>6 – 11 kWh</td><td>0,2 – 0,6 kWh</td></tr>
-<tr><td><strong>Hałas</strong></td><td>40 – 55 dB</td><td>50 – 65 dB</td><td>30 – 55 dB</td></tr>
-<tr><td><strong>Waga</strong></td><td>6 – 12 kg (kółka)</td><td>25 – 40 kg</td><td>2 – 6 kg</td></tr>
-<tr><td><strong>Wilgotność</strong></td><td>Dodaje wilgoci</td><td>Osusza</td><td>Neutralna</td></tr>
-<tr><td><strong>Upał 40 °C+</strong></td><td>Tylko przy suchym powietrzu</td><td>Tak</td><td>Niewystarczający</td></tr>
+<tr><td><strong>Moc</strong></td><td>60–150 W</td><td>800–1400 W</td><td>30–75 W</td></tr>
+<tr><td><strong>Zużycie energii na dobę (8 h)*</strong></td><td>0,5–1,2 kWh</td><td>6–11 kWh</td><td>0,2–0,6 kWh</td></tr>
+<tr><td><strong>Głośność</strong></td><td>40–55 dB</td><td>50–65 dB</td><td>30–55 dB</td></tr>
+<tr><td><strong>Waga</strong></td><td>6–12 kg (na kółkach)</td><td>25–40 kg</td><td>2–6 kg</td></tr>
+<tr><td><strong>Wilgotność</strong></td><td>Nawilża</td><td>Osusza</td><td>Bez wpływu</td></tr>
+<tr><td><strong>Upał (40 °C i więcej)</strong></td><td>Tylko przy suchym powietrzu</td><td>Tak</td><td>Nie wystarczy</td></tr>
 </tbody>
 </table>
-<p>*Obliczenie przy mocy znamionowej przez 8 godzin. Sprężarka, która wyłącza się i włącza ponownie, zużywa nieco mniej; wartości różnią się zależnie od modelu i czasu użytkowania.</p>
+<p>*Wyliczenie dla mocy znamionowej przez 8 godzin. Sprężarka, która co jakiś czas się wyłącza i ponownie włącza, zużywa nieco mniej; wartości zależą od modelu i czasu pracy.</p>
 
-<h2>Dla kogo jest każde rozwiązanie</h2>
+<h2>Dla kogo które rozwiązanie</h2>
 <ul>
-<li><strong>Ewaporacyjny schładzacz powietrza:</strong> klimaty suche, brak możliwości montażu (wynajem, wspólnota z restrykcyjnymi zasadami), minimalne zużycie energii, schładzanie wybranej strefy.</li>
-<li><strong>Klimatyzator przenośny z wężem:</strong> gwarantowany chłód nawet w upał, strefy wilgotne, możliwość wyprowadzenia węża, potrzeba osuszania powietrza.</li>
-<li><strong>Wentylator:</strong> umiarkowane upały (rzadko powyżej 32–33 °C), maksymalna mobilność, minimalne zużycie energii. Zobacz nasze <a href="/pl/blog/ventilateur-connecte-comparatif">porównanie wentylatorów z łącznością</a>.</li>
+<li><strong>Schładzacz ewaporacyjny:</strong> suchy klimat, brak możliwości montażu (wynajmowane mieszkanie, rygorystyczny regulamin wspólnoty), jak najniższe zużycie energii, chłodzenie wybranego miejsca.</li>
+<li><strong>Klimatyzator przenośny z wężem:</strong> gwarantowany chłód nawet podczas upałów, wilgotny klimat, możliwość wyprowadzenia węża, potrzeba osuszania powietrza.</li>
+<li><strong>Wentylator:</strong> umiarkowane upały (rzadko powyżej 32–33 °C), pełna swoboda przenoszenia, jak najniższe zużycie energii. Zajrzyj do naszego <a href="/pl/blog/ventilateur-connecte-comparatif">porównania inteligentnych wentylatorów</a>.</li>
 </ul>
 
-<h2>Popularne formaty</h2>
+<h2>Najpopularniejsze typy urządzeń</h2>
 <ul>
-<li><strong>Kompaktowy schładzacz biurkowy:</strong> tworzy osobistą bańkę świeżości, a nie chłodzi całego pomieszczenia.</li>
-<li><strong>Schładzacz kolumnowy z dużym zbiornikiem:</strong> zbiornik 6–10 litrów, kilka prędkości, często timer i pilot. Najbardziej zrównoważony format w klimacie suchym.</li>
-<li><strong>Schładzacz z wkładami lodowymi:</strong> wzmacnia efekt na kilka godzin, ale nadal zależy od suchego powietrza.</li>
-<li><strong>Przenośny klimatyzator monoblok (z wężem):</strong> jedyny, który naprawdę chłodzi bez remontu, w zamian za wąż przy oknie i wysokie zużycie energii.</li>
+<li><strong>Kompaktowy schładzacz biurkowy:</strong> chłodzi tylko najbliższe otoczenie, a nie cały pokój.</li>
+<li><strong>Schładzacz kolumnowy z dużym zbiornikiem:</strong> zbiornik 6–10 l, kilka prędkości nawiewu, często timer i pilot. W suchym klimacie to najrozsądniejszy wybór.</li>
+<li><strong>Schładzacz z wkładami lodowymi:</strong> wzmacnia efekt na kilka godzin, ale nadal działa dobrze tylko przy suchym powietrzu.</li>
+<li><strong>Przenośny klimatyzator typu monoblok (z wężem):</strong> jedyne urządzenie, które naprawdę chłodzi bez prac instalacyjnych – za cenę węża wyprowadzonego przez okno i wysokiego zużycia energii.</li>
 </ul>
-<p>W karcie technicznej schładzacza zwróć uwagę na trzy dane: <strong>pojemność zbiornika</strong> (6 litrów lub więcej do sypialni), <strong>przepływ powietrza w m³/h</strong> oraz obecność timera, przydatnego do schłodzenia sypialni przed snem bez konieczności pozostawiania urządzenia włączonego przez całą noc. Uważaj na maleńkie urządzenia obiecujące schłodzenie całego pomieszczenia.</p>
+<p>W specyfikacji schładzacza zwróć uwagę na trzy parametry: <strong>pojemność zbiornika</strong> (do sypialni 6 l lub więcej), <strong>przepływ powietrza w m³/h</strong> oraz timer, który pozwala schłodzić sypialnię przed snem bez zostawiania urządzenia włączonego na całą noc. Podchodź z rezerwą do maleńkich urządzeń, które obiecują schłodzenie całego pokoju.</p>
 
-<h2>Wskazówki, jak zoptymalizować urządzenie bez węża</h2>
+<h2>Jak lepiej wykorzystać urządzenie bez węża</h2>
 <ul>
-<li>Nalewaj do zbiornika zimną wodę lub dodawaj kostki lodu.</li>
-<li>Zamykaj rolety w dzień, wietrz w nocy.</li>
-<li>Ustaw urządzenie blisko siebie i skieruj strumień powietrza na zajmowaną strefę.</li>
-<li>Czyść filtr i zbiornik, by uniknąć pleśni i zapachów; opróżniaj zbiornik, gdy urządzenie nie jest używane.</li>
-<li>Mierz temperaturę i wilgotność za pomocą <a href="/pl/blog/qualite-air-interieur-capteurs">czujnika jakości powietrza w pomieszczeniach</a>.</li>
+<li>Wlewaj do zbiornika zimną wodę albo dodawaj kostki lodu.</li>
+<li>W dzień zamykaj rolety, a w nocy wietrz.</li>
+<li>Ustaw urządzenie blisko siebie i skieruj nawiew tam, gdzie przebywasz.</li>
+<li>Czyść filtr i zbiornik, żeby uniknąć pleśni i nieprzyjemnych zapachów; gdy nie używasz urządzenia, opróżniaj zbiornik.</li>
+<li>Temperaturę i wilgotność mierz <a href="/pl/blog/qualite-air-interieur-capteurs">czujnikiem jakości powietrza w domu</a>.</li>
 </ul>
 
 <h2>Podsumowanie</h2>
-<p>Żaden <strong>klimatyzator przenośny bez węża</strong> nie chłodzi jak split: zabrania tego fizyka. Natomiast <strong>ewaporacyjny schładzacz powietrza</strong> to rozwiązanie bez montażu i o niskim zużyciu energii, które realnie schładza, gdy powietrze jest suche. W strefie wilgotnej lub gdy zależy Ci na gwarantowanym chłodzie, wybierz klimatyzator z wężem albo mocny wentylator.</p>`,
+<p>Żaden <strong>klimatyzator przenośny bez węża</strong> nie chłodzi tak jak klimatyzator split – nie pozwalają na to prawa fizyki. Za to <strong>schładzacz ewaporacyjny</strong> nie wymaga montażu, zużywa mało energii i rzeczywiście daje ochłodę, gdy powietrze jest suche. Jeśli mieszkasz w wilgotnym klimacie albo potrzebujesz gwarantowanego chłodu, wybierz klimatyzator z wężem lub mocny wentylator.</p>`,
   },
   faq: [
     {
@@ -638,7 +638,7 @@ export const article: BlogArticle = {
         de: 'Nein, nicht wirklich. Eine Kompressor-Klimaanlage muss warme Luft immer nach draußen leiten; ohne Schlauch bleibt die Wärme im Raum. Was als „schlauchlos" verkauft wird, ist fast immer ein Verdunstungskühler, der anders erfrischt, aber keine echte Klimaanlage ist.',
         it: 'No, non davvero. Un climatizzatore a compressore deve sempre espellere l\'aria calda all\'esterno; senza tubo il calore resta nella stanza. Ciò che si vende "senza tubo" è quasi sempre un raffrescatore evaporativo, che rinfresca in altro modo ma non è un vero climatizzatore.',
         nl: 'Nee, niet echt. Een airco met compressor moet altijd warme lucht naar buiten afvoeren; zonder slang blijft de warmte in de kamer. Wat als "slangloos" wordt verkocht is bijna altijd een verdampingskoeler, die op een andere manier verfrist maar geen echte airco is.',
-        pl: 'Nie, w ścisłym znaczeniu. Klimatyzator ze sprężarką zawsze musi odprowadzać gorące powietrze na zewnątrz; bez węża ciepło zostaje w pomieszczeniu. To, co sprzedaje się „bez węża”, to prawie zawsze ewaporacyjny schładzacz powietrza, który chłodzi w inny sposób, ale nie jest prawdziwą klimatyzacją.',
+        pl: 'Nie – przynajmniej nie w ścisłym tego słowa znaczeniu. Klimatyzator ze sprężarką zawsze musi wyrzucać gorące powietrze na zewnątrz; bez węża ciepło zostaje w pomieszczeniu. Urządzenia sprzedawane jako „bez węża” to prawie zawsze schładzacze ewaporacyjne, które chłodzą w inny sposób, ale nie są prawdziwymi klimatyzatorami.',
       },
     },
     {
@@ -649,7 +649,7 @@ export const article: BlogArticle = {
         de: 'Was ist der Unterschied zwischen Verdunstungskühler und Klimaanlage?',
         it: 'Che differenza c\'è tra un raffrescatore evaporativo e un climatizzatore?',
         nl: 'Wat is het verschil tussen een verdampingskoeler en een airco?',
-        pl: 'Jaka jest różnica między ewaporacyjnym schładzaczem powietrza a klimatyzatorem?',
+        pl: 'Czym różni się schładzacz ewaporacyjny od klimatyzatora?',
       },
       answer: {
         es: 'El aire acondicionado tiene compresor y gas refrigerante: extrae el calor y lo expulsa fuera por un tubo, por eso enfría de verdad y deshumidifica. El climatizador evaporativo no tiene compresor: hace pasar aire por agua y lo enfría solo unos grados, sin tubo y con muy bajo consumo, pero añade humedad y solo funciona bien con aire seco.',
@@ -658,7 +658,7 @@ export const article: BlogArticle = {
         de: 'Eine Klimaanlage hat Kompressor und Kältemittel: Sie entzieht Wärme und leitet sie über einen Schlauch ab, kühlt also wirklich und entfeuchtet. Der Verdunstungskühler hat keinen Kompressor: Er führt Luft durch Wasser, schlauchlos und stromsparend, fügt aber Feuchtigkeit hinzu und funktioniert nur bei trockener Luft gut.',
         it: 'Il climatizzatore ha compressore e gas refrigerante: estrae il calore e lo espelle con un tubo, quindi raffredda davvero e deumidifica. Il raffrescatore evaporativo non ha compressore: fa passare l\'aria nell\'acqua, senza tubo e a bassissimo consumo, ma aggiunge umidità e funziona bene solo con aria secca.',
         nl: 'Een airco heeft een compressor en koudemiddel: hij haalt warmte weg en voert die af via een slang, dus koelt echt en ontvochtigt. Een verdampingskoeler heeft geen compressor: hij leidt lucht door water, slangloos en zeer zuinig, maar voegt vocht toe en werkt alleen goed bij droge lucht.',
-        pl: 'Klimatyzator ma sprężarkę i czynnik chłodniczy: pobiera ciepło i odprowadza je wężem, więc naprawdę chłodzi i osusza powietrze. Ewaporacyjny schładzacz nie ma sprężarki: przepuszcza powietrze przez wodę, bez węża i przy bardzo niskim zużyciu energii, ale dodaje wilgoci i dobrze działa tylko przy suchym powietrzu.',
+        pl: 'Klimatyzator ma sprężarkę i czynnik chłodniczy: odbiera ciepło z pomieszczenia i odprowadza je wężem na zewnątrz, dlatego naprawdę chłodzi i przy okazji osusza powietrze. Schładzacz ewaporacyjny nie ma sprężarki: przepuszcza powietrze przez zwilżony wodą wkład, nie potrzebuje węża i zużywa bardzo mało prądu, ale nawilża powietrze i dobrze działa tylko wtedy, gdy jest ono suche.',
       },
     },
     {
@@ -669,7 +669,7 @@ export const article: BlogArticle = {
         de: 'Funktioniert ein Verdunstungskühler in Spanien gut?',
         it: 'Un raffrescatore evaporativo funziona bene in Spagna?',
         nl: 'Werkt een verdampingskoeler goed in Spanje?',
-        pl: 'Czy ewaporacyjny schładzacz dobrze działa w Hiszpanii?',
+        pl: 'Czy schładzacz ewaporacyjny sprawdzi się w Hiszpanii?',
       },
       answer: {
         es: 'Depende mucho de la zona. En el interior seco (Madrid, Castilla, Aragón, Extremadura) funciona muy bien porque la humedad es baja y el efecto refrescante es notable. En la costa mediterránea y el norte, donde la humedad es alta, rinde poco y puede dar sensación de bochorno. Antes de comprar, ten en cuenta la humedad típica de tu ciudad.',
@@ -678,7 +678,7 @@ export const article: BlogArticle = {
         de: 'Das hängt stark von der Region ab. Im trockenen Inneren Spaniens (Madrid, Kastilien, Aragonien) funktioniert er sehr gut, da die Luftfeuchtigkeit gering ist. An der Mittelmeerküste und im Norden mit hoher Feuchtigkeit leistet er wenig und kann schwül wirken.',
         it: 'Dipende molto dalla zona. Nell\'interno secco della Spagna (Madrid, Castiglia, Aragona) funziona molto bene perché l\'umidità è bassa. Sulla costa mediterranea e al nord, con umidità alta, rende poco e può dare una sensazione di afa.',
         nl: 'Dat hangt sterk van de regio af. In het droge binnenland van Spanje (Madrid, Castilië, Aragón) werkt hij goed omdat de luchtvochtigheid laag is. Aan de Middellandse Zeekust en in het noorden, met hoge vochtigheid, presteert hij slecht en kan het benauwd aanvoelen.',
-        pl: 'To zależy w dużej mierze od regionu. W suchym wnętrzu Hiszpanii (Madryt, Kastylia, Aragonia) działa bardzo dobrze, ponieważ wilgotność jest niska. Na wybrzeżu Morza Śródziemnego i na północy kraju, gdzie wilgotność jest wysoka, daje niewiele i może wywoływać uczucie dusznej wilgoci.',
+        pl: 'To w dużej mierze zależy od regionu. W suchych regionach w głębi Hiszpanii (Madryt, Kastylia, Aragonia) działa bardzo dobrze, bo wilgotność jest tam niska. Na wybrzeżu Morza Śródziemnego i na północy kraju, gdzie powietrze jest wilgotne, daje niewiele i może potęgować uczucie duchoty.',
       },
     },
     {
@@ -689,7 +689,7 @@ export const article: BlogArticle = {
         de: 'Wie viel verbraucht ein Luftkühler im Vergleich zur Klimaanlage?',
         it: 'Quanto consuma un raffrescatore rispetto a un climatizzatore?',
         nl: 'Hoeveel verbruikt een luchtkoeler vergeleken met een airco?',
-        pl: 'Ile energii zużywa schładzacz w porównaniu z klimatyzatorem?',
+        pl: 'Ile prądu zużywa schładzacz w porównaniu z klimatyzatorem?',
       },
       answer: {
         es: 'Muy poco: un climatizador evaporativo gasta entre 60 y 150 W, parecido a un ventilador. Un aire acondicionado portátil con compresor consume entre 800 y 1.400 W, es decir, hasta diez veces más. Por eso el enfriador de aire es la opción de bajo consumo si tu clima es seco; el aire acondicionado es más caro de usar pero enfría siempre.',
@@ -698,7 +698,7 @@ export const article: BlogArticle = {
         de: 'Sehr wenig: Ein Verdunstungskühler verbraucht 60-150 W, ähnlich einem Ventilator. Eine Kompressor-Klimaanlage verbraucht 800-1.400 W, bis zu zehnmal mehr. Der Kühler ist die stromsparende Option in trockenem Klima; die Klimaanlage ist teurer im Betrieb, kühlt aber immer.',
         it: 'Pochissimo: un raffrescatore evaporativo consuma 60-150 W, come un ventilatore. Un climatizzatore portatile a compressore consuma 800-1.400 W, fino a dieci volte di più. Il raffrescatore è l\'opzione a basso consumo in clima secco; il climatizzatore costa di più in uso ma raffredda sempre.',
         nl: 'Heel weinig: een verdampingskoeler verbruikt 60-150 W, vergelijkbaar met een ventilator. Een airco met compressor verbruikt 800-1.400 W, tot tien keer meer. De koeler is de zuinige optie in een droog klimaat; de airco kost meer in gebruik maar koelt altijd.',
-        pl: 'Bardzo mało: ewaporacyjny schładzacz zużywa 60–150 W, tyle co wentylator. Przenośny klimatyzator ze sprężarką zużywa 800–1400 W, czyli nawet dziesięć razy więcej. Schładzacz to więc opcja o niskim zużyciu energii w klimacie suchym; klimatyzator kosztuje więcej w użytkowaniu, ale zawsze chłodzi.',
+        pl: 'Bardzo mało: schładzacz ewaporacyjny pobiera 60–150 W, tyle co wentylator. Przenośny klimatyzator ze sprężarką pobiera 800–1400 W, czyli nawet dziesięć razy więcej. W suchym klimacie schładzacz jest więc rozwiązaniem energooszczędnym; klimatyzator jest droższy w eksploatacji, ale chłodzi zawsze.',
       },
     },
     {
@@ -718,7 +718,7 @@ export const article: BlogArticle = {
         de: 'Nicht wirksam. Ohne Abluft kehrt die warme Luft in den Raum zurück und das Gerät kühlt nicht mehr (es kann sogar leicht heizen). Wenn Sie keinen Schlauch verlegen können, ist ein Verdunstungskühler oder ein starker Ventilator die einzige realistische Lösung ohne Installation.',
         it: 'Non in modo efficace. Senza far uscire il tubo, l\'aria calda torna nella stanza e l\'apparecchio smette di raffreddare (può persino scaldare un po\'). Se non puoi far uscire il tubo, l\'unica soluzione realistica senza installazione è un raffrescatore evaporativo o un ventilatore potente.',
         nl: 'Niet effectief. Zonder de slang af te voeren keert de warme lucht terug in de kamer en stopt het apparaat met koelen (het kan zelfs iets opwarmen). Als je geen slang kunt afvoeren, is een verdampingskoeler of krachtige ventilator de enige realistische oplossing zonder installatie.',
-        pl: 'Nie skutecznie. Bez wyprowadzenia węża gorące powietrze wraca do pomieszczenia i urządzenie przestaje chłodzić (może nawet trochę ogrzewać). Jeśli nie możesz wyprowadzić węża, jedynym realistycznym rozwiązaniem bez montażu jest ewaporacyjny schładzacz powietrza lub mocny wentylator.',
+        pl: 'Nie da się tego zrobić skutecznie. Jeśli wąż nie jest wyprowadzony na zewnątrz, gorące powietrze wraca do pomieszczenia i urządzenie przestaje chłodzić (może je nawet lekko ogrzewać). Jeśli nie masz możliwości wyprowadzenia węża, jedynym realnym rozwiązaniem bez montażu jest schładzacz ewaporacyjny albo mocny wentylator.',
       },
     },
   ],

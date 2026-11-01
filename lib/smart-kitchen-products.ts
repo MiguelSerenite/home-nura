@@ -105,7 +105,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: ['Cuba antiadherente delicada', 'Precio alto'],
       it: ['Rivestimento antiaderente delicato', 'Prezzo alto'],
       nl: ['Antikleeflaag is kwetsbaar', 'Hoge prijs'],
-      pl: ['Powłoka nieprzywierająca wymaga ostrożności', 'Wysoka cena'],
+      pl: ['Misa z delikatną powłoką nieprzywierającą', 'Wysoka cena'],
     },
   },
   {
@@ -140,7 +140,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: ['14 funciones (olla a presión + airfryer)', 'Tapa SmartLid única', 'Sonda de cocción digital'],
       it: ['14 funzioni (pentola a pressione + airfryer)', 'SmartLid unico', 'Sonda di cottura digitale'],
       nl: ['14 functies (snelkookpan + airfryer)', 'Unieke SmartLid', 'Digitale kernthermometer'],
-      pl: ['14 funkcji (szybkowar + frytkownica beztłuszczowa)', 'Unikalna pokrywa SmartLid', 'Cyfrowa sonda do pomiaru temperatury'],
+      pl: ['14 funkcji (szybkowar + frytkownica beztłuszczowa)', 'Jedna pokrywa SmartLid do wszystkich funkcji', 'Cyfrowa sonda temperatury'],
     },
     cons: {
       fr: ['Encombrant sur le plan de travail', 'Pas de Wi-Fi ni d\'app'],
@@ -184,7 +184,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: ['Liberación de vapor silenciosa (WhisperQuiet)', '9-en-1 (presión, cocción lenta, arroz, vapor…)', 'Cocción a presión rápida'],
       it: ['Rilascio del vapore silenzioso (WhisperQuiet)', '9-in-1 (pressione, cottura lenta, riso, vapore…)', 'Cottura a pressione rapida'],
       nl: ['Stille stoomafvoer (WhisperQuiet)', '9-in-1 (druk, slowcook, rijst, stoom…)', 'Snelle snelkookpan'],
-      pl: ['Ciche wypuszczanie pary (WhisperQuiet)', '9 w 1 (ciśnienie, wolnowar, ryż, para…)', 'Szybkie gotowanie pod ciśnieniem'],
+      pl: ['Ciche wypuszczanie pary (WhisperQuiet)', '9 w 1 (szybkowar, wolnowar, ryż, gotowanie na parze…)', 'Szybkie gotowanie pod ciśnieniem'],
     },
     cons: {
       fr: ['Pas d\'écran tactile', 'Pas de connexion WiFi'],
@@ -193,7 +193,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: ['Sin pantalla táctil', 'Sin conexión WiFi'],
       it: ['Nessun touchscreen', 'Nessuna connessione WiFi'],
       nl: ['Geen touchscreen', 'Geen WiFi-verbinding'],
-      pl: ['Brak ekranu dotykowego', 'Brak połączenia WiFi'],
+      pl: ['Brak ekranu dotykowego', 'Brak Wi-Fi'],
     },
   },
 
@@ -236,7 +236,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: ['Jarra de leche LatteCrema', '7 bebidas con un toque', 'Molinillo integrado (13 ajustes)'],
       it: ['Caraffa latte LatteCrema', '7 bevande one touch', 'Macinino integrato (13 livelli)'],
       nl: ['LatteCrema melkkan', '7 dranken met één druk', 'Geïntegreerde molen (13 standen)'],
-      pl: ['Dzbanek na mleko LatteCrema', '7 napojów jednym dotknięciem', 'Wbudowany młynek (13 ustawień)'],
+      pl: ['Dzbanek do mleka LatteCrema', '7 napojów jednym dotknięciem', 'Wbudowany młynek (13 stopni mielenia)'],
     },
     cons: {
       fr: ['Pas d\'app mobile', 'Encombrement'],
@@ -315,7 +315,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: 'Volumen familiar',
       it: 'Volume familiare',
       nl: 'Familiegebruik',
-      pl: 'Duże ilości dla rodziny',
+      pl: 'Rodziny pijące dużo kawy',
     },
     pros: {
       fr: ['Réservoir 2.3L XL', 'Écran tactile OLED XL', '12 recettes pré-enregistrées'],
@@ -324,7 +324,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: ['Depósito XL 2.3L', 'Pantalla táctil OLED XL', '12 recetas predefinidas'],
       it: ['Serbatoio XL 2.3L', 'Touchscreen OLED XL', '12 ricette preimpostate'],
       nl: ['XL 2.3L reservoir', 'XL OLED-touchscreen', '12 voorgeprogrammeerde recepten'],
-      pl: ['Zbiornik 2.3L XL', 'Ekran dotykowy OLED XL', '12 zapisanych przepisów'],
+      pl: ['Duży zbiornik 2,3 l', 'Duży dotykowy ekran OLED', '12 zaprogramowanych napojów'],
     },
     cons: {
       fr: ['Pas de Wi-Fi ni d\'app', 'Lait aspiré par tube (pas de carafe)'],
@@ -399,7 +399,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: 'Báscula Dietética Beurer KS 34 XL',
       it: 'Bilancia Dietetica Beurer KS 34 XL',
       nl: 'Beurer KS 34 XL Dieetweegschaal',
-      pl: 'Beurer KS 34 XL Waga dietetyczna',
+      pl: 'Beurer KS 34 XL – waga dietetyczna',
     },
     priceNumeric: { fr: 29.99, de: 29.99, en: 24.99, es: 27.99, it: 29.99, nl: 27.99, pl: 29.99 },
     nuraScore: 8.3,
@@ -420,7 +420,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: ['Capacidad excepcional 15 kg', 'Plato de acero inoxidable XL', 'Marca alemana fiable'],
       it: ['Portata eccezionale 15 kg', 'Piattaforma XL in acciaio inox', 'Marchio tedesco affidabile'],
       nl: ['Uitzonderlijke 15 kg capaciteit', 'XL rvs plateau', 'Betrouwbaar Duits merk'],
-      pl: ['Nietypowa pojemność 15 kg', 'Duża platforma ze stali nierdzewnej', 'Niezawodna niemiecka marka'],
+      pl: ['Wyjątkowo duże obciążenie: do 15 kg', 'Duża platforma ze stali nierdzewnej', 'Niezawodna niemiecka marka'],
     },
     cons: {
       fr: ['Pas d\'app', 'Précision 1 g seulement'],
@@ -443,7 +443,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: 'Báscula Cocina Inteligente Renpho',
       it: 'Bilancia Cucina Smart Renpho',
       nl: 'Renpho Slimme Keukenweegschaal',
-      pl: 'Renpho Inteligentna waga kuchenna',
+      pl: 'Renpho – inteligentna waga kuchenna',
     },
     priceNumeric: { fr: 24.99, de: 24.99, en: 19.99, es: 22.99, it: 24.99, nl: 22.99, pl: 24.99 },
     nuraScore: 8.7,
@@ -473,7 +473,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: ['Diseño básico', 'App a veces lenta'],
       it: ['Design basico', 'App a volte lenta'],
       nl: ['Basisontwerp', 'App soms traag'],
-      pl: ['Prosty design', 'Aplikacja bywa wolna'],
+      pl: ['Prosty wygląd', 'Aplikacja bywa wolna'],
     },
   },
 
@@ -491,7 +491,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: 'MEATER Plus Termómetro Inalámbrico 50m',
       it: 'MEATER Plus Termometro Wireless 50m',
       nl: 'MEATER Plus Draadloze Vleesthermometer 50m',
-      pl: 'MEATER Plus Bezprzewodowy termometr Bluetooth 50m',
+      pl: 'MEATER Plus – bezprzewodowy termometr Bluetooth, zasięg 50 m',
     },
     priceNumeric: { fr: 109.99, de: 109.99, en: 99.99, es: 104.99, it: 109.99, nl: 104.99, pl: 109.99 },
     badge: {
@@ -507,7 +507,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: 'BBQ y cocciones lentas',
       it: 'BBQ e cotture lente',
       nl: 'BBQ & langzaam garen',
-      pl: 'Grill i powolne gotowanie',
+      pl: 'Grill i pieczenie w niskiej temperaturze',
     },
     pros: {
       fr: ['100% sans fil (pas de câble)', 'Portée 50 m Bluetooth', 'App avec alertes temps réel'],
@@ -516,7 +516,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: ['100% inalámbrico', 'Alcance 50 m Bluetooth', 'App con alertas en tiempo real'],
       it: ['100% wireless (senza cavo)', '50 m di portata Bluetooth', 'App con avvisi in tempo reale'],
       nl: ['Volledig draadloos', '50 m Bluetooth-bereik', 'App met realtime meldingen'],
-      pl: ['100% bezprzewodowy (bez kabla)', 'Zasięg Bluetooth 50 m', 'Aplikacja z alertami w czasie rzeczywistym'],
+      pl: ['W pełni bezprzewodowy (bez kabla)', 'Zasięg Bluetooth 50 m', 'Aplikacja z powiadomieniami na bieżąco'],
     },
     cons: {
       fr: ['Une seule sonde', 'Charge via sa base'],
@@ -539,7 +539,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: 'MEATER Pro Termómetro Inalámbrico Largo Alcance',
       it: 'MEATER Pro Termometro Wireless Lunga Portata',
       nl: 'MEATER Pro Draadloze Thermometer Groot Bereik',
-      pl: 'MEATER Pro Bezprzewodowy termometr dalekiego zasięgu',
+      pl: 'MEATER Pro – bezprzewodowy termometr o dużym zasięgu',
     },
     priceNumeric: { fr: 149.99, de: 149.99, en: 129.99, es: 144.99, it: 149.99, nl: 144.99, pl: 149.99 },
     nuraScore: 9.2,
@@ -551,7 +551,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: 'Larga distancia / jardín',
       it: 'Lunga distanza / giardino',
       nl: 'Lange afstand / tuin',
-      pl: 'Duży dystans / ogród',
+      pl: 'Duże odległości, np. w ogrodzie',
     },
     pros: {
       fr: ['Portée jusqu\'à 75 m', 'Sonde étanche, lave-vaisselle', 'Ambiant jusqu\'à 550 °C'],
@@ -560,7 +560,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: ['Alcance hasta 75 m', 'Sonda estanca, apta lavavajillas', 'Ambiente hasta 550 °C'],
       it: ['Portata fino a 75 m', 'Sonda impermeabile, lavabile in lavastoviglie', 'Ambiente fino a 550 °C'],
       nl: ['Bereik tot 75 m', 'Waterdichte, vaatwasserbestendige sonde', 'Omgeving tot 550 °C'],
-      pl: ['Zasięg do 75 m', 'Wodoszczelna sonda, myta w zmywarce', 'Temperatura otoczenia do 550 °C'],
+      pl: ['Zasięg do 75 m', 'Wodoszczelna sonda, można myć w zmywarce', 'Temperatura otoczenia do 550 °C'],
     },
     cons: {
       fr: ['Prix élevé pour 1 sonde', 'Portée annoncée en champ libre'],
@@ -569,7 +569,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: ['Caro para una sola sonda', 'Alcance indicado sin obstáculos'],
       it: ['Costoso per 1 sola sonda', 'Portata dichiarata senza ostacoli'],
       nl: ['Duur voor 1 sonde', 'Bereik opgegeven bij vrij zicht'],
-      pl: ['Wysoka cena za 1 sondę', 'Zasięg deklarowany na otwartej przestrzeni'],
+      pl: ['Wysoka cena jak za 1 sondę', 'Zasięg podany dla otwartej przestrzeni'],
     },
   },
   {
@@ -583,7 +583,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: 'Inkbird IBT-4XS Termómetro Bluetooth 4 Sondas',
       it: 'Inkbird IBT-4XS Termometro Bluetooth 4 Sonde',
       nl: 'Inkbird IBT-4XS Bluetooth Thermometer 4 Sondes',
-      pl: 'Inkbird IBT-4XS Termometr Bluetooth z 4 sondami',
+      pl: 'Inkbird IBT-4XS – termometr Bluetooth z 4 sondami',
     },
     priceNumeric: { fr: 49.99, de: 49.99, en: 39.99, es: 47.99, it: 49.99, nl: 47.99, pl: 49.99 },
     nuraScore: 8.5,
@@ -595,7 +595,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: 'Varias piezas simultáneas',
       it: 'Più pezzi contemporaneamente',
       nl: 'Meerdere stukken tegelijk',
-      pl: 'Kilka kawałków naraz',
+      pl: 'Kilka kawałków mięsa naraz',
     },
     pros: {
       fr: ['4 sondes en parallèle', 'Batterie rechargeable (env. 50 h)', 'Support magnétique'],
@@ -613,7 +613,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: ['Sondas con cable', 'Alcance limitado 50 m'],
       it: ['Sonde con cavo', 'Portata Bluetooth limitata 50 m'],
       nl: ['Bedrade sondes', 'Beperkt 50 m Bluetooth-bereik'],
-      pl: ['Sondy przewodowe', 'Ograniczony zasięg Bluetooth 50 m'],
+      pl: ['Sondy przewodowe', 'Zasięg Bluetooth ograniczony do 50 m'],
     },
   },
 
@@ -631,7 +631,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: 'TP-Link Tapo P115 Enchufe Inteligente con Medidor',
       it: 'TP-Link Tapo P115 Presa Smart con Monitor Consumi',
       nl: 'TP-Link Tapo P115 Slimme Stekker met Energiemeting',
-      pl: 'TP-Link Tapo P115 Inteligentna wtyczka z pomiarem zużycia energii',
+      pl: 'TP-Link Tapo P115 – inteligentne gniazdko z pomiarem zużycia energii',
     },
     priceNumeric: { fr: 12.99, de: 12.99, en: 10.99, es: 11.99, it: 12.99, nl: 11.99, pl: 12.99 },
     badge: {
@@ -656,7 +656,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: ['Medición de consumo en tiempo real', '16 A / 3680 W (compatible airfryer)', 'Alexa + Google Home'],
       it: ['Monitoraggio consumi in tempo reale', '16 A / 3680 W (compatibile airfryer)', 'Alexa + Google Home'],
       nl: ['Realtime energiemeting', '16 A / 3680 W (airfryer-geschikt)', 'Alexa + Google Home'],
-      pl: ['Pomiar zużycia w czasie rzeczywistym', '16A / 3680W (kompatybilna z frytkownicą beztłuszczową)', 'Alexa + Google Home'],
+      pl: ['Pomiar zużycia w czasie rzeczywistym', '16 A / 3680 W (obsłuży frytkownicę beztłuszczową)', 'Alexa + Google Home'],
     },
     cons: {
       fr: ['WiFi 2.4 GHz uniquement', 'App Tapo à part'],
@@ -665,7 +665,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: ['Solo WiFi 2,4 GHz', 'App Tapo aparte'],
       it: ['Solo WiFi 2,4 GHz', 'App Tapo separata'],
       nl: ['Alleen 2,4 GHz wifi', 'Aparte Tapo-app'],
-      pl: ['Tylko Wi-Fi 2.4 GHz', 'Osobna aplikacja Tapo'],
+      pl: ['Tylko Wi-Fi 2,4 GHz', 'Osobna aplikacja Tapo'],
     },
   },
   {
@@ -679,7 +679,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: 'TP-Link Tapo P100 Pack 4 Enchufes Inteligentes',
       it: 'TP-Link Tapo P100 Confezione da 4 Prese Smart',
       nl: 'TP-Link Tapo P100 4-Pack Slimme Stekkers',
-      pl: 'TP-Link Tapo P100 Zestaw 4 inteligentnych wtyczek',
+      pl: 'TP-Link Tapo P100 – zestaw 4 inteligentnych gniazdek',
     },
     priceNumeric: { fr: 29.99, de: 29.99, en: 24.99, es: 27.99, it: 29.99, nl: 27.99, pl: 29.99 },
     nuraScore: 9.1,
@@ -700,7 +700,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: ['Pack de 4 enchufes', 'Programación horaria', 'Alexa + Google Home'],
       it: ['Confezione da 4 prese', 'Programmazione oraria', 'Alexa + Google Home'],
       nl: ['Set van 4 stekkers', 'Schema\'s & timers', 'Alexa + Google Home'],
-      pl: ['Zestaw 4 wtyczek', 'Programowanie godzinowe', 'Alexa + Google Home'],
+      pl: ['Zestaw 4 gniazdek', 'Harmonogramy włączania', 'Alexa + Google Home'],
     },
     cons: {
       fr: ['Pas de suivi consommation', 'Limité à 10 A (pas pour airfryer)'],
@@ -709,7 +709,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: ['Sin medidor de consumo', 'Limitado a 10 A (no para airfryer)'],
       it: ['Nessun monitor consumi', 'Limitato a 10 A (no airfryer)'],
       nl: ['Geen energiemeting', 'Beperkt tot 10 A (niet voor airfryer)'],
-      pl: ['Brak pomiaru zużycia', 'Ograniczenie do 10 A (nie dla frytkownicy beztłuszczowej)'],
+      pl: ['Brak pomiaru zużycia', 'Maks. 10 A (nie do frytkownicy beztłuszczowej)'],
     },
   },
   {
@@ -723,7 +723,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: 'Meross MSS210P Enchufe Inteligente HomeKit 16A',
       it: 'Meross MSS210P Presa Smart HomeKit 16A',
       nl: 'Meross MSS210P HomeKit Slimme Stekker 16A',
-      pl: 'Meross MSS210P Inteligentna wtyczka HomeKit 16A (zestaw 2 szt.)',
+      pl: 'Meross MSS210P – inteligentne gniazdko HomeKit 16 A (zestaw 2 szt.)',
     },
     priceNumeric: { fr: 19.99, de: 19.99, en: 15.99, es: 17.99, it: 19.99, nl: 17.99, pl: 19.99 },
     nuraScore: 8.8,
@@ -744,7 +744,7 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
       es: ['Compatible HomeKit nativo', '16 A / 3680 W', 'Seguimiento consumo en app Meross'],
       it: ['HomeKit nativo', '16 A / 3680 W', 'Tracking consumi nell\'app Meross'],
       nl: ['Native HomeKit-ondersteuning', '16 A / 3680 W', 'Verbruikstracking in Meross-app'],
-      pl: ['Natywna zgodność z HomeKit', '16A / 3680W', 'Pomiar zużycia w aplikacji Meross'],
+      pl: ['Natywna obsługa HomeKit', '16 A / 3680 W', 'Pomiar zużycia w aplikacji Meross'],
     },
     cons: {
       fr: ['App Meross moins polie', 'Design un peu épais'],

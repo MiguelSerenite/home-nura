@@ -29,7 +29,7 @@ export const article: BlogArticle = {
     es: 'Cocinar Saludable con una Freidora de Aire: Guía de Nutrición y Bienestar',
     it: 'Cucinare Sano con la Friggitrice ad Aria: Guida Nutrizione e Benessere',
     nl: 'Gezond Koken met de Airfryer: Voedings- en Welzijnsgids',
-    pl: 'Zdrowe gotowanie we frytkownicy beztłuszczowej: poradnik o żywieniu i dobrym samopoczuciu',
+    pl: 'Zdrowa kuchnia z frytkownicą beztłuszczową: poradnik o odżywianiu i dobrym samopoczuciu',
   },
   excerpt: {
     fr: 'Ce que l\'airfryer change vraiment dans votre alimentation : moins d\'huile, acrylamide, nutriments, aliments à privilégier, idées de repas sains et limites à connaître.',
@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: 'Lo que la freidora de aire cambia de verdad en tu alimentación: menos aceite, acrilamida, nutrientes, alimentos recomendados, ideas de comidas sanas y sus límites.',
     it: 'Cosa cambia davvero la friggitrice ad aria nella tua alimentazione: meno olio, acrilammide, nutrienti, alimenti consigliati, idee per pasti sani e limiti da conoscere.',
     nl: 'Wat de airfryer echt verandert aan je voeding: minder olie, acrylamide, voedingsstoffen, geschikte ingrediënten, gezonde maaltijdideeën en de grenzen ervan.',
-    pl: 'Co frytkownica beztłuszczowa naprawdę zmienia w Twoim odżywianiu: mniej oleju, akrylamid, składniki odżywcze, najlepsze produkty, pomysły na zdrowe posiłki i ograniczenia, o których warto wiedzieć.',
+    pl: 'Co frytkownica beztłuszczowa naprawdę zmienia w Twojej diecie: mniej oleju, akrylamid, składniki odżywcze, produkty, po które warto sięgać, pomysły na zdrowe posiłki i ograniczenia, które trzeba znać.',
   },
   content: {
     fr: `<h2>L'airfryer est-il vraiment plus sain ?</h2>
@@ -665,108 +665,108 @@ export const article: BlogArticle = {
 <p>Met verse ingrediënten en weinig olie maakt de airfryer lichter koken in het dagelijks leven makkelijker, vooral als hij het frituren in olie vervangt. De voordelen zijn echt, maar hangen af van wat je kiest en hoe je het bereidt: goudgeel in plaats van bruin, een mand die niet te vol is, weinig bewerkte ingrediënten.</p>
 <p>Lees verder in onze <a href="/nl/guides/airfryers">complete airfryergids</a> en onze <a href="/nl/guides/airfryer-vs-four">vergelijking airfryer vs oven</a>.</p>`,
     pl: `<h2>Czy frytkownica beztłuszczowa naprawdę jest zdrowsza?</h2>
-<p>Tak, w porównaniu ze smażeniem w głębokim tłuszczu frytkownica beztłuszczowa (air fryer) pozwala gotować z dużo mniejszą ilością tłuszczu, ponieważ łyżka oleju (a nawet zwykły spray) zastępuje kilkaset mililitrów. Nie sprawi jednak, że niezdrowa żywność stanie się zdrowa: korzyść zależy przede wszystkim od tego, co wkładasz do koszyka.</p>
-<p>Ten poradnik podsumowuje, co naprawdę wiadomo, na podstawie opublikowanej literatury naukowej i zaleceń organów zdrowia publicznego, a następnie proponuje produkty, wskazówki i pomysły na posiłki, dzięki którym wykorzystasz urządzenie jak najlepiej. Nie zastępuje porady lekarza ani dietetyka, jeśli stosujesz szczególną dietę.</p>
+<p>Tak – w porównaniu ze smażeniem w głębokim tłuszczu frytkownica beztłuszczowa (air fryer) pozwala przyrządzać potrawy przy znacznie mniejszej ilości tłuszczu, bo łyżka oleju (a nawet kilka psiknięć ze spryskiwacza) zastępuje kilkaset mililitrów. Nie sprawi jednak, że niezdrowe jedzenie stanie się zdrowe: efekt zależy przede wszystkim od tego, co włożysz do kosza.</p>
+<p>W tym poradniku zbieramy to, co naprawdę wiadomo na ten temat – na podstawie opublikowanych badań naukowych i zaleceń instytucji zdrowia publicznego. Podpowiadamy też, jakie produkty wybierać, jak je przyrządzać i jakie posiłki zaplanować, żeby jak najlepiej wykorzystać frytkownicę. Ten tekst nie zastąpi porady lekarza ani dietetyka, jeśli stosujesz specjalną dietę.</p>
 
 <h3>Mniej oleju: skąd bierze się różnica</h3>
-<p>W klasycznej frytownicy produkt jest zanurzony w oleju i podczas smażenia wchłania jego część. We frytkownicy beztłuszczowej powierzchnię zagarnia bardzo gorące powietrze wprawiane w ruch przez wentylator. Do domowych frytek zwykle wystarcza łyżeczka oleju, aby uzyskać złotą powierzchnię. Dla orientacji: jedna łyżka oleju to około 120 kcal — to ilość dodanego oleju robi różnicę, znacznie bardziej niż samo urządzenie.</p>
-<p><strong>Uwaga na mrożonki wstępnie smażone:</strong> frytki, nuggetsy czy gotowe produkty panierowane często były już smażone przed zamrożeniem. Przygotowanie ich we frytkownicy beztłuszczowej pozwala nie dodawać oleju, ale zawartość tłuszczu pozostaje taka, jak podano na opakowaniu. Czytaj etykietę z wartościami odżywczymi.</p>
+<p>W tradycyjnej frytownicy produkt jest zanurzony w oleju i podczas smażenia wchłania jego część. We frytkownicy beztłuszczowej powierzchnię potrawy przypieka bardzo gorące powietrze, które tłoczy wentylator. Żeby domowe frytki ładnie się zezłociły, zwykle wystarcza łyżeczka oleju. Dla porównania: łyżka oleju to ok. 120 kcal. O różnicy decyduje więc ilość dodanego oleju – w znacznie większym stopniu niż samo urządzenie.</p>
+<p><strong>Uwaga na mrożonki, które są już podsmażone:</strong> fabryczne frytki, nuggetsy czy produkty w cieście często smaży się jeszcze przed zamrożeniem. Gdy przygotowujesz je we frytkownicy, nie musisz dodawać oleju, ale i tak zawierają tyle tłuszczu, ile podano na opakowaniu. Sprawdzaj tabelę wartości odżywczych.</p>
 
-<h3>Porównanie sposobów gotowania</h3>
+<h3>Porównanie metod obróbki</h3>
 <table>
 <thead>
-<tr><th>Sposób gotowania</th><th>Dodany olej</th><th>Uzyskana tekstura</th><th>Warto wiedzieć</th></tr>
+<tr><th>Metoda</th><th>Dodany olej</th><th>Efekt</th><th>Warto wiedzieć</th></tr>
 </thead>
 <tbody>
-<tr><td>Frytkownica beztłuszczowa</td><td>Bardzo mało (spray lub 1 łyżeczka)</td><td>Chrupiąca powierzchnia</td><td>Szybkie gotowanie, nie przepełniaj koszyka</td></tr>
-<tr><td>Tradycyjna frytownica z olejem</td><td>Pełna kąpiel</td><td>Bardzo chrupiące</td><td>Produkt wchłania część oleju</td></tr>
-<tr><td>Tradycyjny piekarnik</td><td>Mało do umiarkowanie</td><td>Złoty, czasem mniej chrupiący</td><td>Dłuższe nagrzewanie, duża pojemność</td></tr>
-<tr><td>Patelnia</td><td>Umiarkowanie</td><td>Obsmażony, złoty</td><td>Wymaga pilnowania</td></tr>
-<tr><td>Para</td><td>Brak</td><td>Miękki, bez chrupiącej skórki</td><td>Brak bezpośredniego kontaktu z wodą do gotowania</td></tr>
+<tr><td>Frytkownica beztłuszczowa</td><td>Bardzo mało (spray lub 1 łyżeczka)</td><td>Chrupiąca skórka</td><td>Krótki czas przyrządzania, nie przepełniaj kosza</td></tr>
+<tr><td>Tradycyjna frytownica</td><td>Głęboki tłuszcz</td><td>Bardzo chrupiąca skórka</td><td>Produkt wchłania część oleju</td></tr>
+<tr><td>Tradycyjny piekarnik</td><td>Od małej do umiarkowanej ilości</td><td>Złocista skórka, czasem mniej chrupiąca</td><td>Dłuższe nagrzewanie, duża pojemność</td></tr>
+<tr><td>Patelnia</td><td>Umiarkowana ilość</td><td>Przysmażona, złocista skórka</td><td>Wymaga pilnowania</td></tr>
+<tr><td>Gotowanie na parze</td><td>Brak</td><td>Miękka konsystencja, bez skórki</td><td>Produkt nie styka się bezpośrednio z wodą</td></tr>
 </tbody>
 </table>
-<p>Pełniejszą analizę znajdziesz w naszym <a href="/pl/blog/airfryer-vs-friteuse-traditionnelle">porównaniu frytkownicy beztłuszczowej z tradycyjną frytownicą</a>.</p>
+<p>Więcej szczegółów znajdziesz w naszym <a href="/pl/blog/airfryer-vs-friteuse-traditionnelle">porównaniu frytkownicy beztłuszczowej z tradycyjną frytownicą</a>.</p>
 
-<h2>Akrylamid: ograniczony w niektórych badaniach, ale nie wyeliminowany</h2>
-<p>Akrylamid powstaje podczas obróbki w wysokiej temperaturze produktów bogatych w skrobię (ziemniaki, chleb, zboża). Europejski Urząd ds. Bezpieczeństwa Żywności (EFSA) stwierdził w 2015 roku, że może on zwiększać ryzyko nowotworów, i zaleca ograniczanie narażenia; Unia Europejska reguluje zresztą jego redukcję w przemyśle spożywczym.</p>
-<p>Badanie opublikowane w 2015 roku w czasopiśmie <em>Journal of Food Science</em> (Sansano i in.) wykazało przy 180 °C o około 90 % mniej akrylamidu we frytkach przygotowanych w gorącym powietrzu niż we frytkach zanurzonych w oleju. Inne prace, zebrane w przeglądzie naukowym z 2024 roku, pokazują jednak zróżnicowane wyniki w zależności od temperatury, czasu i sposobu przygotowania ziemniaków. Lepiej więc stosować właściwe nawyki, niż polegać wyłącznie na urządzeniu.</p>
+<h2>Akrylamid: w niektórych badaniach mniej, ale nadal obecny</h2>
+<p>Akrylamid powstaje, gdy produkty bogate w skrobię (ziemniaki, pieczywo, produkty zbożowe) poddaje się obróbce w wysokiej temperaturze. W 2015 roku Europejski Urząd ds. Bezpieczeństwa Żywności (EFSA) uznał, że może on zwiększać ryzyko nowotworów, i zaleca ograniczanie narażenia na tę substancję. Unijne przepisy zobowiązują też przemysł spożywczy do zmniejszania jego zawartości.</p>
+<p>W badaniu opublikowanym w 2015 roku w czasopiśmie <em>Journal of Food Science</em> (Sansano i in.) przy obróbce w temperaturze 180 °C frytki z gorącego powietrza zawierały ok. 90% mniej akrylamidu niż frytki smażone w oleju. Inne badania, zebrane w przeglądzie naukowym z 2024 roku, dają jednak rozbieżne wyniki – zależnie od temperatury, czasu i sposobu przygotowania ziemniaków. Lepiej więc stosować dobre praktyki, niż liczyć wyłącznie na urządzenie.</p>
 
 <h3>Jak ograniczyć akrylamid we frytkownicy beztłuszczowej</h3>
 <ul>
-<li><strong>Celuj w złotożółty kolor:</strong> to zalecenie europejskich organów zdrowia publicznego. Im bardziej frytki się rumienią, tym więcej zawierają akrylamidu.</li>
-<li><strong>Trzymaj się około 170–180 °C w przypadku ziemniaków</strong> i nie wydłużaj gotowania „dla większej chrupkości”.</li>
-<li><strong>Namocz surowe frytki</strong> na 15–30 minut w zimnej wodzie, a potem dobrze osusz: moczenie zmniejsza ilość cukrów na powierzchni.</li>
-<li><strong>Stosuj się do instrukcji z opakowania</strong> w przypadku mrożonek i nie przekraczaj podanych wartości.</li>
+<li><strong>Smaż do złocistożółtego koloru:</strong> tak radzą europejskie instytucje odpowiedzialne za bezpieczeństwo żywności. Im bardziej frytki się zbrązowią, tym więcej zawierają akrylamidu.</li>
+<li><strong>Ziemniaki przyrządzaj w ok. 170–180 °C</strong> i nie przedłużaj smażenia „dla większej chrupkości”.</li>
+<li><strong>Surowe frytki namocz</strong> w zimnej wodzie na 15–30 minut, a potem dokładnie osusz: moczenie zmniejsza ilość cukrów na ich powierzchni.</li>
+<li><strong>Mrożonki przygotowuj zgodnie z instrukcją na opakowaniu</strong> i nie przekraczaj podanego czasu ani temperatury.</li>
 </ul>
 
-<h2>Zachowanie składników odżywczych: co można powiedzieć</h2>
-<p>Zawartość witamin po obróbce zależy od trzech czynników: temperatury, czasu i kontaktu z wodą. Witaminy rozpuszczalne w wodzie (witamina C, witaminy z grupy B) częściowo przechodzą do wody podczas gotowania warzyw. Frytkownica beztłuszczowa, podobnie jak piekarnik czy gotowanie na parze, unika takiego kontaktu, a jej często krótszy czas pracy w porównaniu z klasycznym piekarnikiem ogranicza ekspozycję na ciepło.</p>
-<p>Wyniki są jednak bardzo różne w zależności od produktu i żadna metoda nie jest najlepsza dla wszystkich składników odżywczych. Zapamiętaj przede wszystkim, że warzywa lepiej gotować tak, by były w sam raz, niż je wysuszyć, oraz że warto zmieniać sposoby gotowania.</p>
+<h2>Składniki odżywcze: co wiadomo</h2>
+<p>To, ile witamin zostaje po obróbce, zależy od trzech czynników: temperatury, czasu i kontaktu z wodą. Witaminy rozpuszczalne w wodzie (witamina C i witaminy z grupy B) podczas gotowania warzyw częściowo przechodzą do wody. We frytkownicy, podobnie jak w piekarniku czy na parze, nie ma takiego kontaktu z wodą, a czas obróbki jest często krótszy niż w zwykłym piekarniku, co ogranicza działanie wysokiej temperatury.</p>
+<p>Wyniki bardzo się jednak różnią w zależności od produktu i żadna metoda nie jest najlepsza dla wszystkich składników odżywczych. Najważniejsze: przyrządzaj warzywa tak, by były w sam raz, a nie przesuszone, i stosuj różne metody obróbki.</p>
 
-<h2>Najlepsze produkty do zdrowego gotowania we frytkownicy beztłuszczowej</h2>
+<h2>Najlepsze produkty do zdrowych potraw z frytkownicy beztłuszczowej</h2>
 
 <h3>1. Warzywa: chrupiące i aromatyczne</h3>
-<p>Suche gorące powietrze karmelizuje powierzchnię warzyw i koncentruje ich smak, zachowując miękki środek. Zobacz nasze <a href="/pl/blog/recettes-legumes-grilles-airfryer">przepisy na grillowane warzywa we frytkownicy beztłuszczowej</a>.</p>
+<p>Suche, gorące powietrze karmelizuje powierzchnię warzyw i wydobywa ich smak, a środek pozostaje miękki. Zajrzyj do naszych <a href="/pl/blog/recettes-legumes-grilles-airfryer">przepisów na grillowane warzywa z frytkownicy beztłuszczowej</a>.</p>
 <ul>
 <li><strong>Brokuły:</strong> 180 °C, 10–12 min, z łyżeczką oleju.</li>
 <li><strong>Cukinia:</strong> 200 °C, 8–10 min, pokrojona w plastry.</li>
-<li><strong>Kalafior:</strong> 190 °C, 15–18 min. Różyczki stają się złote i chrupiące.</li>
-<li><strong>Batat:</strong> 190 °C, 15–20 min w postaci frytek. Dostarcza beta-karotenu.</li>
-<li><strong>Pieczarki:</strong> 190 °C, 10–12 min. Soczyste i pełne smaku umami.</li>
+<li><strong>Kalafior:</strong> 190 °C, 15–18 min. Różyczki robią się złociste i chrupiące.</li>
+<li><strong>Batat:</strong> 190 °C, 15–20 min, jako frytki. Zawiera beta-karoten.</li>
+<li><strong>Pieczarki:</strong> 190 °C, 10–12 min. Soczyste, z wyraźnym smakiem umami.</li>
 </ul>
 
 <h3>2. Chude białko: chrupiące bez grubej panierki</h3>
-<p>Frytkownica beztłuszczowa tworzy chrupiącą skórkę bez potrzeby nakładania grubej warstwy panierki. Zajrzyj do naszych <a href="/pl/blog/recettes-poulet-croustillant-airfryer">przepisów na chrupiącego kurczaka</a>.</p>
+<p>Frytkownica tworzy chrupiącą skórkę bez grubej warstwy panierki. Wypróbuj nasze <a href="/pl/blog/recettes-poulet-croustillant-airfryer">przepisy na chrupiącego kurczaka</a>.</p>
 <ul>
-<li><strong>Filet z kurczaka:</strong> 180 °C, 18–22 min w zależności od grubości. Sprawdź, czy środek jest dobrze ugotowany.</li>
+<li><strong>Filet z kurczaka:</strong> 180 °C, 18–22 min w zależności od grubości. Sprawdź, czy mięso jest dopieczone w środku.</li>
 <li><strong>Łosoś:</strong> 200 °C, 8–10 min. Tłusta ryba, źródło kwasów omega-3.</li>
-<li><strong>Tofu:</strong> 190 °C, 15–18 min, dobrze odsączone. Idealne do posiłków wegetariańskich.</li>
-<li><strong>Krewetki:</strong> 200 °C, 6–8 min. Bardzo szybkie gotowanie.</li>
+<li><strong>Tofu:</strong> 190 °C, 15–18 min, dobrze odciśnięte z wody. Idealne do dań wegetariańskich.</li>
+<li><strong>Krewetki:</strong> 200 °C, 6–8 min. Są gotowe bardzo szybko.</li>
 </ul>
 
 <h3>3. Rośliny strączkowe i zboża</h3>
 <ul>
 <li><strong>Pieczona ciecierzyca:</strong> 190 °C, 15–20 min, dobrze osuszona. Chrupiąca przekąska bogata w błonnik.</li>
-<li><strong>Falafele:</strong> 180 °C, 12–15 min, lekko natłuszczone. Miękkie w środku, bez smażenia w głębokim tłuszczu.</li>
-<li><strong>Placuszki z komosy ryżowej:</strong> 180 °C, 10–12 min. Chrupiące i sycące.</li>
+<li><strong>Falafele:</strong> 180 °C, 12–15 min, lekko posmarowane olejem. Miękkie w środku, choć nie są smażone w głębokim tłuszczu.</li>
+<li><strong>Kotleciki z komosy ryżowej:</strong> 180 °C, 10–12 min. Chrupiące i sycące.</li>
 </ul>
 
-<h2>Pomysły na zdrowe posiłki z frytkownicy beztłuszczowej na cały tydzień</h2>
+<h2>Pomysły na zdrowe posiłki z frytkownicy na cały tydzień</h2>
 <ul>
 <li><strong>Poniedziałek:</strong> filety z kurczaka marynowane w cytrynie i ziołach, brokuły z czosnkiem.</li>
-<li><strong>Wtorek:</strong> stek z łososia, frytki z batatów.</li>
-<li><strong>Środa:</strong> bowl z chrupiącym tofu, różne grillowane warzywa i ryż pełnoziarnisty.</li>
+<li><strong>Wtorek:</strong> filet z łososia, frytki z batatów.</li>
+<li><strong>Środa:</strong> miska z chrupiącym tofu, mieszanką grillowanych warzyw i brązowym ryżem.</li>
 <li><strong>Czwartek:</strong> krewetki z czosnkiem, grillowana cukinia.</li>
-<li><strong>Piątek:</strong> domowe falafele, grillowana papryka i cebula, pełnoziarniste pity.</li>
-<li><strong>Sobota:</strong> kurczak panierowany w płatkach owsianych, grillowane pieczarki.</li>
+<li><strong>Piątek:</strong> domowe falafele, grillowana papryka i cebula, pełnoziarnista pita.</li>
+<li><strong>Sobota:</strong> kurczak w panierce z płatków owsianych, grillowane pieczarki.</li>
 <li><strong>Niedziela:</strong> pieczone warzywa korzeniowe, jajka w kokilkach (ok. 160 °C, 8 min).</li>
 </ul>
-<p>Aby zaplanować te posiłki z wyprzedzeniem, zobacz też nasz <a href="/pl/blog/meal-prep-airfryer-semaine">meal prep we frytkownicy beztłuszczowej na cały tydzień</a>.</p>
+<p>Jeśli chcesz przygotować te posiłki z wyprzedzeniem, zajrzyj też do naszego planu <a href="/pl/blog/meal-prep-airfryer-semaine">meal prep na cały tydzień we frytkownicy beztłuszczowej</a>.</p>
 
-<h2>5 wskazówek, jak gotować zdrowiej we frytkownicy beztłuszczowej</h2>
+<h2>5 wskazówek, jak przyrządzać zdrowsze potrawy we frytkownicy</h2>
 <ul>
-<li><strong>1. Dozuj olej sprayem:</strong> kilka psiknięć wystarcza do większości przepisów, to znacznie mniej niż łyżka wlana na oko.</li>
-<li><strong>2. Wybierz olej odporny na wysoką temperaturę:</strong> oleje rafinowane lepiej znoszą duże upały. Nie dopuszczaj do dymienia oleju.</li>
-<li><strong>3. Odchudź panierkę:</strong> zmielone płatki owsiane, sezam, pokruszone orzechy czy odrobina parmezanu dają chrupkość.</li>
-<li><strong>4. Stawiaj na marynaty bez dodatku cukru:</strong> cytryna, zioła, czosnek, imbir i przyprawy dodają smaku. Słodkie marynaty szybciej się też przypalają.</li>
-<li><strong>5. Nie przepełniaj koszyka:</strong> napełniaj go maksymalnie do dwóch trzecich i potrząśnij w połowie gotowania, aby całość ugotowała się równomiernie.</li>
+<li><strong>1. Dozuj olej spryskiwaczem:</strong> w większości przepisów wystarczy kilka psiknięć – to dużo mniej niż łyżka oleju wlewana na oko.</li>
+<li><strong>2. Wybierz olej odporny na wysoką temperaturę:</strong> oleje rafinowane znoszą ją lepiej. Nie dopuszczaj do tego, by olej zaczął dymić.</li>
+<li><strong>3. Zrób lżejszą panierkę:</strong> zmielone płatki owsiane, sezam, posiekane orzechy lub odrobina parmezanu zapewnią chrupkość.</li>
+<li><strong>4. Stawiaj na marynaty bez dodatku cukru:</strong> cytryna, zioła, czosnek, imbir i przyprawy dodadzą smaku. Słodkie marynaty w dodatku szybciej się przypalają.</li>
+<li><strong>5. Nie przepełniaj kosza:</strong> napełniaj go najwyżej do dwóch trzecich, a w połowie czasu nim potrząśnij, żeby wszystko przyrumieniło się równomiernie.</li>
 </ul>
 
-<h2>Czego frytkownica beztłuszczowa nie robi</h2>
-<p>Frytkownica beztłuszczowa nie zamieni pączka w zdrową przekąskę. Pozwala ograniczyć dodany olej, co może pomóc odchudzić niektóre dania, ale ogólna równowaga diety (ilości, różnorodność, owoce i warzywa, produkty mało przetworzone) liczy się znacznie bardziej niż urządzenie do gotowania. Jeśli masz konkretny cel zdrowotny (waga, cholesterol, cukrzyca), poproś o radę specjalistę ochrony zdrowia, zamiast polegać na urządzeniu.</p>
+<h2>Czego frytkownica nie zrobi</h2>
+<p>Frytkownica nie zamieni pączka w zdrową przekąskę. Pozwala dodać mniej oleju, dzięki czemu niektóre dania mogą być lżejsze, ale dużo ważniejsza od urządzenia jest cała dieta: wielkość porcji, różnorodność, warzywa i owoce, mało przetworzona żywność. Jeśli masz konkretny cel zdrowotny (masa ciała, cholesterol, cukrzyca), poradź się lekarza lub dietetyka, zamiast polegać na urządzeniu kuchennym.</p>
 
-<h2>5 prostych zdrowych przepisów do frytkownicy beztłuszczowej</h2>
+<h2>5 prostych, zdrowych przepisów z frytkownicy beztłuszczowej</h2>
 <ul>
 <li><strong>Frytki z cukinii z parmezanem:</strong> słupki cukinii obtoczone w cienkiej warstwie bułki tartej i parmezanu. 180 °C, 12–14 minut.</li>
-<li><strong>Chrupiąca ciecierzyca z przyprawami:</strong> ciecierzyca odsączona i osuszona, 1 łyżeczka oleju, kmin rzymski, wędzona papryka. 200 °C, 15 minut, od czasu do czasu potrząsając koszykiem.</li>
-<li><strong>Łosoś w ziołowej skorupce:</strong> stek z łososia, bułka tarta i świeże zioła. 190 °C, 10–12 minut.</li>
-<li><strong>Chipsy z bakłażana:</strong> cienkie plasterki, psiknięcie oleju, sól i tymianek. 180 °C, około 10 minut, pilnując koloru.</li>
-<li><strong>Kurczak tikka:</strong> piersi z kurczaka marynowane w jogurcie i przyprawach. 190 °C, około 18 minut.</li>
+<li><strong>Chrupiąca ciecierzyca z przyprawami:</strong> odsączona i osuszona ciecierzyca, 1 łyżeczka oleju, kmin rzymski, wędzona papryka. 200 °C, 15 minut, co jakiś czas potrząsając koszem.</li>
+<li><strong>Łosoś w ziołowej panierce:</strong> filet z łososia, bułka tarta i świeże zioła. 190 °C, 10–12 minut.</li>
+<li><strong>Chipsy z bakłażana:</strong> cienkie plastry, jedno psiknięcie oleju, sól i tymianek. 180 °C, ok. 10 minut, kontrolując stopień zrumienienia.</li>
+<li><strong>Kurczak tikka:</strong> pierś z kurczaka marynowana w jogurcie i przyprawach. 190 °C, ok. 18 minut.</li>
 </ul>
 
-<h2>Podsumowanie: praktyczne narzędzie, a nie cudowne rozwiązanie</h2>
-<p>Używana ze świeżymi składnikami i niewielką ilością oleju frytkownica beztłuszczowa ułatwia lżejsze gotowanie na co dzień, zwłaszcza jeśli zastępuje smażenie w głębokim tłuszczu. Jej zalety są realne, ale zależą od wybranych produktów i sposobu gotowania: złoty kolor zamiast brązowego, nieprzepełniony koszyk, produkty mało przetworzone.</p>
-<p>Aby pójść dalej, zajrzyj do naszego <a href="/pl/guides/airfryers">kompletnego poradnika o frytkownicach beztłuszczowych</a> i <a href="/pl/guides/airfryer-vs-four">porównania frytkownicy beztłuszczowej z tradycyjnym piekarnikiem</a>.</p>`,
+<h2>Podsumowanie: praktyczne urządzenie, a nie cudowne rozwiązanie</h2>
+<p>Frytkownica używana ze świeżymi składnikami i niewielką ilością oleju ułatwia przygotowywanie lżejszych posiłków na co dzień – zwłaszcza gdy zastępuje smażenie w głębokim tłuszczu. Jej zalety są realne, ale zależą od wybranych produktów i sposobu przyrządzania: złocisty, a nie brązowy kolor, nieprzepełniony kosz, mało przetworzone produkty.</p>
+<p>Więcej znajdziesz w naszym <a href="/pl/guides/airfryers">kompletnym poradniku o frytkownicach beztłuszczowych</a> oraz w <a href="/pl/guides/airfryer-vs-four">porównaniu frytkownicy beztłuszczowej z tradycyjnym piekarnikiem</a>.</p>`,
   },
   faq: [
     {
@@ -777,7 +777,7 @@ export const article: BlogArticle = {
         es: '¿La freidora de aire es realmente más saludable que la fritura tradicional?',
         it: 'La friggitrice ad aria è davvero più sana della frittura tradizionale?',
         nl: 'Is de airfryer echt gezonder dan traditioneel frituren?',
-        pl: 'Czy frytkownica beztłuszczowa jest naprawdę zdrowsza niż tradycyjne smażenie?',
+        pl: 'Czy frytkownica beztłuszczowa jest naprawdę zdrowsza niż smażenie w głębokim tłuszczu?',
       },
       answer: {
         fr: "Par rapport à la friture dans un bain d'huile, oui : on utilise beaucoup moins d'huile, souvent une cuillère à café ou quelques pulvérisations. L'écart réel dépend de la recette, et un produit surgelé déjà pré-frit garde la teneur en matières grasses indiquée sur son emballage.",
@@ -786,7 +786,7 @@ export const article: BlogArticle = {
         es: 'Frente a la fritura en aceite, sí: se usa mucho menos aceite, a menudo una cucharadita o unas pocas pulverizaciones. La diferencia real depende de la receta, y un congelado prefrito mantiene el contenido de grasa que indica su envase.',
         it: 'Rispetto alla frittura a immersione, sì: si usa molto meno olio, spesso un cucchiaino o qualche spruzzo. La differenza reale dipende dalla ricetta, e un surgelato prefritto mantiene il contenuto di grassi indicato sulla confezione.',
         nl: 'Vergeleken met frituren in olie wel: je gebruikt veel minder olie, vaak een theelepel of een paar keer sprayen. Het echte verschil hangt af van het recept, en een voorgebakken diepvriesproduct houdt het vetgehalte dat op de verpakking staat.',
-        pl: 'W porównaniu ze smażeniem w głębokim tłuszczu tak: zużywa się znacznie mniej oleju, często łyżeczkę albo kilka psiknięć. Rzeczywista różnica zależy od przepisu, a wstępnie smażona mrożonka zachowuje zawartość tłuszczu podaną na opakowaniu.',
+        pl: 'Tak, jeśli porównujemy ją ze smażeniem w głębokim tłuszczu: oleju potrzeba znacznie mniej, często wystarczy łyżeczka lub kilka psiknięć. Faktyczna różnica zależy od przepisu, a wstępnie podsmażona mrożonka i tak zawiera tyle tłuszczu, ile podano na opakowaniu.',
       },
     },
     {
@@ -806,7 +806,7 @@ export const article: BlogArticle = {
         es: 'No es obligatorio, pero un poco de aceite ayuda a que los alimentos frescos se doren y no se resequen. Suelen bastar unas pulverizaciones o una cucharadita. Elige un aceite refinado que aguante el calor y no dejes que humee.',
         it: "Non è obbligatorio, ma un po' d'olio aiuta gli alimenti freschi a dorarsi e a non seccarsi. Di solito bastano pochi spruzzi o un cucchiaino. Preferisci un olio raffinato che regge il calore e non lasciarlo fumare.",
         nl: 'Het is niet verplicht, maar een beetje olie helpt vers eten te bruinen en niet uit te drogen. Een paar keer sprayen of een theelepel is meestal genoeg. Kies een geraffineerde olie die tegen hitte kan en laat hem niet roken.',
-        pl: 'Nie jest to obowiązkowe, ale odrobina oleju pomaga świeżym produktom się zrumienić i nie wyschnąć. Zwykle wystarczy kilka psiknięć lub łyżeczka. Wybierz olej rafinowany, który znosi wysoką temperaturę, i nie dopuszczaj do jego dymienia.',
+        pl: 'Nie trzeba, ale odrobina oleju pomaga świeżym produktom się zrumienić i chroni je przed wysuszeniem. Zwykle wystarczy kilka psiknięć lub łyżeczka. Wybieraj olej rafinowany, odporny na wysoką temperaturę, i nie dopuszczaj do tego, by zaczął dymić.',
       },
     },
     {
@@ -826,7 +826,7 @@ export const article: BlogArticle = {
         es: 'No hay una cifra única: depende del alimento y de cuánto aceite habría absorbido al freírse. La palanca principal es el aceite añadido, y una cucharada sopera aporta unas 120 kcal. Si tienes un objetivo de peso concreto, consulta a un profesional sanitario.',
         it: "Non esiste un numero unico: dipende dall'alimento e da quanto olio avrebbe assorbito con la frittura. La leva principale è l'olio aggiunto, e un cucchiaio apporta circa 120 kcal. Per un obiettivo di peso preciso, chiedi consiglio a un professionista sanitario.",
         nl: 'Er is geen vast getal: het hangt af van het product en hoeveel olie het bij frituren zou hebben opgenomen. De belangrijkste factor is toegevoegde olie, en een eetlepel levert ongeveer 120 kcal. Heb je een concreet gewichtsdoel, vraag dan advies aan een zorgverlener.',
-        pl: 'Nie ma jednej liczby: wszystko zależy od produktu i ilości oleju, jaką wchłonąłby podczas smażenia w głębokim tłuszczu. Główną dźwignią jest dodany olej, przy czym jedna łyżka to około 120 kcal. Przy konkretnym celu dotyczącym wagi poproś o radę specjalistę ochrony zdrowia.',
+        pl: 'Nie ma jednej odpowiedzi: wszystko zależy od produktu i od tego, ile oleju wchłonąłby podczas smażenia w głębokim tłuszczu. Najwięcej zmienia ilość dodanego oleju – łyżka to ok. 120 kcal. Jeśli masz konkretny cel związany z masą ciała, poradź się lekarza lub dietetyka.',
       },
     },
     {
@@ -837,7 +837,7 @@ export const article: BlogArticle = {
         es: '¿La freidora de aire conserva los nutrientes de los alimentos?',
         it: 'La friggitrice ad aria preserva i nutrienti degli alimenti?',
         nl: 'Behoudt de airfryer de voedingsstoffen in het eten?',
-        pl: 'Czy frytkownica beztłuszczowa zachowuje składniki odżywcze produktów?',
+        pl: 'Czy frytkownica beztłuszczowa pozwala zachować składniki odżywcze?',
       },
       answer: {
         fr: "Comme le four ou la vapeur, l'airfryer évite que les vitamines hydrosolubles passent dans l'eau de cuisson, ce qui arrive quand on fait bouillir des légumes. Sa cuisson souvent courte limite aussi l'exposition à la chaleur. Les résultats varient toutefois selon les aliments : évitez simplement de trop cuire.",
@@ -846,7 +846,7 @@ export const article: BlogArticle = {
         es: 'Como el horno o el vapor, la freidora de aire evita que las vitaminas hidrosolubles pasen al agua de cocción, algo que ocurre al hervir verduras. Su cocción, a menudo corta, también limita la exposición al calor. Los resultados varían según el alimento: simplemente evita cocinar de más.',
         it: "Come il forno o il vapore, la friggitrice ad aria evita che le vitamine idrosolubili passino nell'acqua di cottura, come succede lessando le verdure. La cottura spesso breve limita anche l'esposizione al calore. I risultati variano però da alimento ad alimento: evita semplicemente di cuocere troppo.",
         nl: 'Net als de oven of het stomen voorkomt de airfryer dat wateroplosbare vitamines in kookwater terechtkomen, wat gebeurt als je groenten kookt. De vaak korte bereidingstijd beperkt ook de blootstelling aan hitte. De resultaten verschillen per product: vermijd vooral te lang garen.',
-        pl: 'Podobnie jak piekarnik czy gotowanie na parze, frytkownica beztłuszczowa zapobiega przechodzeniu witamin rozpuszczalnych w wodzie do wody do gotowania, co zdarza się przy gotowaniu warzyw. Jej często krótki czas pracy ogranicza też ekspozycję na ciepło. Wyniki są jednak różne w zależności od produktu: po prostu nie rozgotowuj.',
+        pl: 'Podobnie jak piekarnik czy gotowanie na parze, frytkownica nie wypłukuje witamin rozpuszczalnych w wodzie, a tak właśnie dzieje się przy gotowaniu warzyw. Krótki zwykle czas obróbki dodatkowo ogranicza działanie wysokiej temperatury. Wyniki różnią się jednak w zależności od produktu, więc po prostu nie przetrzymuj potraw zbyt długo.',
       },
     },
     {
@@ -866,7 +866,7 @@ export const article: BlogArticle = {
         es: 'Las verduras (brócoli, calabacín, pimientos, coliflor), el pollo, el pescado, el tofu y los garbanzos quedan muy bien con un mínimo de aceite. El boniato da unos bastones excelentes. Limita los congelados prefritos, que siguen siendo ricos en grasa.',
         it: 'Verdure (broccoli, zucchine, peperoni, cavolfiore), pollo, pesce, tofu e ceci riescono molto bene con pochissimo olio. La patata dolce dà ottimi bastoncini. Limita i surgelati prefritti, che restano ricchi di grassi.',
         nl: 'Groenten (broccoli, courgette, paprika, bloemkool), kip, vis, tofu en kikkererwten lukken heel goed met minimale olie. Zoete aardappel geeft uitstekende friet. Beperk voorgebakken diepvriesproducten, want die blijven vetrijk.',
-        pl: 'Warzywa (brokuły, cukinia, papryka, kalafior), kurczak, ryby, tofu i ciecierzyca świetnie nadają się do frytkownicy beztłuszczowej przy minimalnej ilości oleju. Z batatów wychodzą doskonałe frytki. Ogranicz wstępnie smażone mrożonki, które pozostają bogate w tłuszcz.',
+        pl: 'Warzywa (brokuły, cukinia, papryka, kalafior), kurczak, ryby, tofu i ciecierzyca świetnie wychodzą we frytkownicy przy minimalnej ilości oleju. Z batatów zrobisz doskonałe frytki. Ograniczaj natomiast wstępnie podsmażane mrożonki – nadal zawierają dużo tłuszczu.',
       },
     },
   ],

@@ -31,7 +31,7 @@ const LABELS: Record<string, { button: string; note: string }> = {
   es: { button: 'Ver precio en Amazon', note: 'Enlace de afiliado de Amazon' },
   it: { button: 'Vedi prezzo su Amazon', note: 'Link di affiliazione Amazon' },
   nl: { button: 'Bekijk prijs op Amazon', note: 'Amazon-affiliatelink' },
-  pl: { button: 'Zobacz cenę na Amazon', note: 'Link afiliacyjny Amazon' },
+  pl: { button: 'Sprawdź cenę na Amazon', note: 'Link afiliacyjny Amazon' },
 }
 
 export function escapeHtml(text: string): string {

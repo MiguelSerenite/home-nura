@@ -18,7 +18,7 @@ export const article: BlogArticle = {
         es: 'Jardín inteligente con robot cortacésped y riego automático en funcionamiento',
         it: 'Giardino smart con robot tagliaerba e irrigazione intelligente in azione',
         nl: 'Slimme tuin met robotmaaier en intelligent besproeiingssysteem in actie',
-        pl: 'Inteligentny ogród z robotem koszącym i inteligentnym nawadnianiem w akcji',
+        pl: 'Inteligentny ogród z robotem koszącym i inteligentnym nawadnianiem podczas pracy',
       },
     },
   ],
@@ -29,7 +29,7 @@ export const article: BlogArticle = {
     es: 'Guía Completa del Jardín Inteligente 2026: Robot Cortacésped, Riego Smart y Más',
     it: 'Guida Completa al Giardino Smart 2026: Robot Tagliaerba, Irrigazione Intelligente e Altro',
     nl: 'Complete Gids Slimme Tuin 2026: Robotmaaier, Slim Sproeisysteem en Meer',
-    pl: 'Kompletny przewodnik po inteligentnym ogrodzie 2026: robot koszący, inteligentne nawadnianie i więcej',
+    pl: 'Inteligentny ogród 2026: kompletny przewodnik – roboty koszące, nawadnianie i nie tylko',
   },
   excerpt: {
     fr: 'Tout savoir pour transformer votre jardin en espace connecté en 2026 : tondeuses robots sans fil périmétrique, arrosage intelligent, éclairage extérieur, robots piscine, thermomètres BBQ et compatibilité Matter.',
@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: 'Todo lo que necesitas para transformar tu jardín en un espacio inteligente en 2026: robots cortacésped sin cable perimetral, riego inteligente, iluminación exterior, robots de piscina, termómetros BBQ y compatibilidad Matter.',
     it: 'Tutto quello che devi sapere per trasformare il tuo giardino in uno spazio smart nel 2026: robot tagliaerba senza filo perimetrale, irrigazione intelligente, illuminazione esterna, robot piscina, termometri BBQ e compatibilità Matter.',
     nl: 'Alles wat je moet weten om je tuin in 2026 om te toveren tot een slimme buitenruimte: robotmaaiers zonder begrenzingsdraad, slimme besproeiing, buitenverlichting, zwembadrobots, BBQ-thermometers en Matter-compatibiliteit.',
-    pl: 'Wszystko, co trzeba wiedzieć, by w 2026 roku zamienić ogród w przestrzeń inteligentną: roboty koszące bez przewodu granicznego, inteligentne nawadnianie, oświetlenie zewnętrzne, roboty basenowe, termometry do grilla i zgodność z Matter.',
+    pl: 'Wszystko, co trzeba wiedzieć, by w 2026 roku urządzić inteligentny ogród: roboty koszące bez przewodu ograniczającego, inteligentne nawadnianie, oświetlenie zewnętrzne, roboty basenowe, termometry do grilla i zgodność z Matter.',
   },
   content: {
     fr: `<h2>Le jardin connecté en 2026 : ce qui a vraiment changé</h2>
@@ -809,107 +809,107 @@ export const article: BlogArticle = {
 <p>Ben je nieuw in de slimme tuin, begin dan met <strong>slimme besproeiing</strong>: een bescheiden investering waarvan je het effect al de eerste zomer ziet. Kies daarna een <strong>robotmaaier</strong> op basis van drie criteria: oppervlak, helling en vrij zicht op de hemel. Slimme buitenverlichting zorgt voor comfort en veiligheid, en slimme BBQ-thermometers maken het barbecueën in het weekend makkelijker.</p>
 <p>Ontdek onze gespecialiseerde gidsen voor meer details over elke categorie: <a href="/nl/blog/tondeuse-robot-sans-fil-perimetrique">robotmaaiers zonder begrenzingsdraad</a> en <a href="/nl/blog/arrosage-connecte-intelligent">slimme besproeiingssystemen</a>.</p>`,
     pl: `<h2>Inteligentny ogród w 2026 roku: co naprawdę się zmieniło</h2>
-<p>Inteligentny ogród opiera się dziś na trzech elementach: <strong>robocie koszącym</strong>, <strong>nawadnianiu sterowanym prognozą pogody</strong> i <strong>oświetleniu zewnętrznym</strong> obsługiwanym ze smartfona. W 2026 roku największą zmianą jest upowszechnienie robotów koszących bez przewodu granicznego, które orientują się dzięki RTK, LiDAR-owi lub kamerze, oraz rosnąca rola protokołu <strong>Matter</strong>, który łączy urządzenia w jednej aplikacji.</p>
-<p>Niezależnie od tego, czy masz mały miejski ogródek o powierzchni 100 m², czy działkę o powierzchni 5 000 m², ten przewodnik pomoże Ci dobrać sprzęt do Twojej przestrzeni. Obejmuje pięć kategorii: <strong>roboty koszące</strong>, <strong>inteligentne nawadnianie</strong>, <strong>oświetlenie zewnętrzne</strong>, <strong>roboty basenowe</strong> i <strong>inteligentne termometry do grilla</strong>. Informacje opieramy na kartach katalogowych producentów, niezależnych analizach i opiniach zweryfikowanych kupujących.</p>
-<p>Chcesz wiedzieć więcej? Zajrzyj do naszych przewodników tematycznych: <a href="/pl/blog/tondeuse-robot-sans-fil-perimetrique">porównanie robotów koszących bez przewodu granicznego</a> i <a href="/pl/blog/arrosage-connecte-intelligent">przewodnik po inteligentnym nawadnianiu</a>.</p>
+<p>Inteligentny ogród opiera się dziś na trzech filarach: <strong>robocie koszącym</strong>, <strong>nawadnianiu sterowanym według prognozy pogody</strong> i <strong>oświetleniu zewnętrznym</strong>, którym sterujesz ze smartfona. Największa zmiana w 2026 roku to upowszechnienie się robotów koszących bez przewodu ograniczającego, które ustalają swoje położenie za pomocą RTK, LiDAR-u lub kamery, a także coraz szersze wykorzystanie protokołu <strong>Matter</strong>, który pozwala obsługiwać wszystkie urządzenia w jednej aplikacji.</p>
+<p>Bez względu na to, czy masz mały, miejski ogródek o powierzchni 100 m², czy działkę liczącą 5000 m², ten przewodnik pomoże Ci dobrać sprzęt dopasowany do Twojego ogrodu. Omawiamy w nim pięć kategorii: <strong>roboty koszące</strong>, <strong>inteligentne nawadnianie</strong>, <strong>oświetlenie zewnętrzne</strong>, <strong>roboty basenowe</strong> i <strong>inteligentne termometry do grilla</strong>. Informacje opieramy na kartach katalogowych producentów, niezależnych analizach i opiniach zweryfikowanych kupujących.</p>
+<p>Jeśli chcesz zgłębić temat, zajrzyj do naszych szczegółowych poradników: <a href="/pl/blog/tondeuse-robot-sans-fil-perimetrique">porównanie robotów koszących bez przewodu ograniczającego</a> i <a href="/pl/blog/arrosage-connecte-intelligent">przewodnik po inteligentnym nawadnianiu</a>.</p>
 
-<h2>Roboty koszące: przewód graniczny czy nawigacja bezprzewodowa</h2>
+<h2>Roboty koszące: przewód ograniczający czy nawigacja bez przewodu</h2>
 
 <h3>Dwa różne podejścia</h3>
-<p>Klasyczny robot koszący kieruje się <strong>przewodem granicznym</strong> zakopanym lub przypiętym szpilkami wokół trawnika. Jego ułożenie zajmuje czas, a przewód można przeciąć podczas prac w ogrodzie. Modele bez przewodu granicznego wyznaczają strefę wirtualnie w aplikacji dzięki <strong>RTK</strong> (pozycjonowanie satelitarne z korekcją, dokładne do kilku centymetrów), <strong>LiDAR-owi</strong> lub <strong>kamerom</strong> z rozpoznawaniem obrazu. W zależności od marki technologie te są łączone.</p>
-<p>Zalety są wyraźne: szybszy montaż, strefy koszenia zmieniane w kilku ruchach, łatwe tworzenie stref wyłączonych (rabaty, warzywnik). Są też ograniczenia: RTK potrzebuje otwartego widoku na niebo lub korekcji z sieci, a samo rozpoznawanie obrazu może mieć problem przy słabym oświetleniu lub słabo zaznaczonych krawędziach.</p>
+<p>Klasyczny robot koszący porusza się w obrębie <strong>przewodu ograniczającego</strong>, zakopanego w ziemi lub przypiętego szpilkami wokół trawnika. Jego ułożenie zajmuje sporo czasu, a podczas prac ogrodowych łatwo go przeciąć. Modele bez przewodu ograniczającego wyznaczają granice strefy wirtualnie, w aplikacji, korzystając z <strong>RTK</strong> (pozycjonowanie satelitarne z korekcją, z dokładnością do kilku centymetrów), <strong>LiDAR-u</strong> lub <strong>kamer</strong> rozpoznających obraz. Część marek łączy kilka z tych technologii.</p>
+<p>Korzyści są oczywiste: szybszy montaż, strefy koszenia, które zmienisz kilkoma ruchami palca, i łatwe wyznaczanie stref wyłączonych z koszenia (rabaty, warzywnik). Są też ograniczenia: RTK wymaga odsłoniętego nieba albo korekcji z sieci, a sama kamera może mieć kłopot przy słabym świetle lub niewyraźnych krawędziach trawnika.</p>
 
-<h3>Modele referencyjne w 2026 roku</h3>
+<h3>Modele warte uwagi w 2026 roku</h3>
 <table>
 <thead>
 <tr><th>Marka</th><th>Model</th><th>Nawigacja</th><th>Maks. powierzchnia</th><th>Maks. nachylenie</th><th>Dla kogo</th></tr>
 </thead>
 <tbody>
-<tr><td><strong>Husqvarna</strong></td><td>Automower 450X NERA</td><td>Przewód lub EPOS (zestaw bezprzewodowy opcjonalnie)</td><td>5 000 m²</td><td>50%</td><td>Duże, skomplikowane tereny</td></tr>
-<tr><td><strong>Mammotion</strong></td><td>LUBA 3 AWD 5000</td><td>LiDAR 360° + sieciowy RTK + system wizyjny</td><td>5 000 m²</td><td>80%</td><td>Bardzo strome tereny</td></tr>
-<tr><td><strong>Segway</strong></td><td>Navimow i208 AWD</td><td>Sieciowy RTK + system wizyjny</td><td>800 m²</td><td>45%</td><td>Średnie, pofałdowane ogrody</td></tr>
+<tr><td><strong>Husqvarna</strong></td><td>Automower 450X NERA</td><td>Przewód lub EPOS (opcjonalny zestaw bez przewodu)</td><td>5000 m²</td><td>50%</td><td>Duże działki o złożonym układzie</td></tr>
+<tr><td><strong>Mammotion</strong></td><td>LUBA 3 AWD 5000</td><td>LiDAR 360° + sieciowy RTK + system wizyjny</td><td>5000 m²</td><td>80%</td><td>Bardzo strome tereny</td></tr>
+<tr><td><strong>Segway</strong></td><td>Navimow i208 AWD</td><td>Sieciowy RTK + system wizyjny</td><td>800 m²</td><td>45%</td><td>Średnie, pagórkowate ogrody</td></tr>
 <tr><td><strong>ECOVACS</strong></td><td>GOAT O600 RTK</td><td>RTK + system wizyjny</td><td>600 m²</td><td>45%</td><td>Małe ogrody z przeszkodami</td></tr>
-<tr><td><strong>Gardena</strong></td><td>SILENO City 600</td><td>Przewód graniczny</td><td>600 m²</td><td>25%</td><td>Małe, proste ogrody</td></tr>
-<tr><td><strong>Worx</strong></td><td>Landroid Vision L1600</td><td>Kamera + AI</td><td>1 600 m²</td><td>30%</td><td>Trawniki z wyraźnymi krawędziami</td></tr>
+<tr><td><strong>Gardena</strong></td><td>SILENO City 600</td><td>Przewód ograniczający</td><td>600 m²</td><td>25%</td><td>Małe, proste ogrody</td></tr>
+<tr><td><strong>Worx</strong></td><td>Landroid Vision L1600</td><td>Kamera + AI</td><td>1600 m²</td><td>30%</td><td>Trawniki z wyraźnymi krawędziami</td></tr>
 </tbody>
 </table>
-<p>Powierzchnie i nachylenia to wartości deklarowane przez producentów. Nasze <a href="/pl/blog/tondeuse-robot-sans-fil-perimetrique">pełne porównanie robotów koszących bez przewodu granicznego</a> opisuje mocne strony i ograniczenia każdego modelu, instalację oraz usuwanie usterek.</p>
+<p>Powierzchnia i nachylenie to wartości deklarowane przez producentów. W naszym <a href="/pl/blog/tondeuse-robot-sans-fil-perimetrique">pełnym porównaniu robotów koszących bez przewodu ograniczającego</a> znajdziesz mocne strony i ograniczenia każdego modelu, a także wskazówki dotyczące montażu i rozwiązywania problemów.</p>
 
 <h3>Kryteria wyboru</h3>
 <ul>
-<li><strong>Powierzchnia terenu:</strong> przy małym, prostym ogrodzie (poniżej 600 m²) model z przewodem nadal jest rozwiązaniem niezawodnym i ekonomicznym. Powyżej 1 000 m² lub przy ogrodzie podzielonym na części model bezprzewodowy jest znacznie wygodniejszy.</li>
-<li><strong>Nachylenie:</strong> jeśli Twój teren ma nachylenie powyżej 25%, wybierz model deklarowany na więcej, najlepiej z napędem na cztery koła, jak Mammotion LUBA 3 AWD (80%) lub Navimow i208 AWD (45%).</li>
-<li><strong>Wiele stref:</strong> niektóre modele obsługują kilka osobnych trawników rozdzielonych alejką lub wąskim przejściem.</li>
-<li><strong>Zasięg satelitów:</strong> przy wysokich drzewach lub murach wybierz model łączący RTK z LiDAR-em albo systemem wizyjnym.</li>
-<li><strong>Hałas i zwierzęta:</strong> roboty koszące są znacznie cichsze niż kosiarka spalinowa, ale nie programuj ich na noc: jeże, aktywne o zmierzchu, mogą zostać zranione.</li>
+<li><strong>Powierzchnia działki:</strong> w małym, prostym ogrodzie (poniżej 600 m²) model z przewodem nadal jest niezawodnym i niedrogim rozwiązaniem. Powyżej 1000 m² albo w ogrodzie podzielonym na kilka części model bez przewodu okazuje się znacznie wygodniejszy.</li>
+<li><strong>Nachylenie:</strong> jeśli spadek terenu przekracza 25%, wybierz model, dla którego producent deklaruje większe nachylenie – najlepiej z napędem na cztery koła, taki jak Mammotion LUBA 3 AWD (80%) lub Navimow i208 AWD (45%).</li>
+<li><strong>Kilka stref:</strong> niektóre modele obsługują kilka osobnych trawników rozdzielonych alejką lub wąskim przejściem.</li>
+<li><strong>Zasięg sygnału satelitarnego:</strong> jeśli w ogrodzie rosną wysokie drzewa albo stoją wysokie mury, wybierz model, który łączy RTK z LiDAR-em lub kamerą.</li>
+<li><strong>Hałas i dzikie zwierzęta:</strong> roboty koszące są znacznie cichsze od kosiarek spalinowych, ale nie ustawiaj ich pracy na noc – jeże, aktywne o zmierzchu, mogą zostać zranione.</li>
 </ul>
 
 <h2>Inteligentne nawadnianie</h2>
 
 <h3>Podlewanie tylko wtedy, gdy jest potrzebne</h3>
-<p>Inteligentny sterownik nawadniania dostosowuje czas i częstotliwość podlewania do <strong>prognozy pogody</strong>, <strong>temperatury</strong> oraz, w połączeniu z czujnikiem, do <strong>rzeczywistej wilgotności gleby</strong>. Nie podlewa tuż przed ulewą ani na wciąż wilgotnej ziemi. Oszczędność wody zależy od Twoich nawyków: jest wyraźna, jeśli podlewałeś o stałej porze bez względu na pogodę, a skromniejsza, jeśli korygowałeś to już ręcznie.</p>
+<p>Inteligentny sterownik nawadniania dopasowuje czas i częstotliwość podlewania do <strong>prognozy pogody</strong>, <strong>temperatury</strong>, a z dodatkowym czujnikiem – także do <strong>rzeczywistej wilgotności gleby</strong>. Dzięki temu nie podlewa tuż przed ulewą ani wtedy, gdy ziemia jest jeszcze mokra. Ile wody zaoszczędzisz, zależy od Twoich nawyków: różnica jest wyraźna, jeśli do tej pory podlewasz o stałej porze bez względu na pogodę, a mniejsza, jeśli już teraz korygujesz podlewanie ręcznie.</p>
 
 <h3>Rozwiązania dostępne na rynku</h3>
 <ul>
-<li><strong>Gardena smart system:</strong> kompletny ekosystem ze sterownikami (smart Water Control do jednego kranu, smart Irrigation Control do kilku zaworów), czujnikiem smart Sensor i bramką smart Gateway, wszystko obsługiwane w aplikacji Gardena smart. Bardzo popularny w Europie.</li>
-<li><strong>Hunter Hydrawise (HC, Pro-HC):</strong> sterowniki Wi-Fi do podziemnych systemów nawadniania z wieloma strefami, dostępne w europejskich wersjach 230 V. Nawadnianie predykcyjne dostosowuje się do lokalnej pogody, a obsługiwane są czujniki deszczu, mrozu i wilgotności.</li>
-<li><strong>Eve Aqua:</strong> sterownik do kranu z Matter over Thread, obsługiwany z Apple Home lub dowolnej aplikacji zgodnej z Matter. Idealny do węża ogrodowego lub prostego nawadniania kropelkowego.</li>
+<li><strong>Gardena smart system:</strong> kompletny ekosystem obejmujący sterowniki (smart Water Control do jednego kranu, smart Irrigation Control do kilku zaworów), czujnik smart Sensor i bramkę smart Gateway – wszystko obsługiwane w aplikacji Gardena smart. W Europie bardzo popularny.</li>
+<li><strong>Hunter Hydrawise (HC, Pro-HC):</strong> sterowniki Wi-Fi do podziemnych, wielostrefowych systemów nawadniania, dostępne w europejskich wersjach na 230 V. Nawadnianie predykcyjne dostosowuje się do lokalnej pogody, a sterowniki obsługują czujniki deszczu, przymrozków i wilgotności.</li>
+<li><strong>Eve Aqua:</strong> sterownik nawadniania nakręcany na kran, działający w standardzie Matter over Thread; można nim sterować z Apple Home lub dowolnej aplikacji zgodnej z Matter. Idealny do węża ogrodowego lub prostego nawadniania kropelkowego.</li>
 </ul>
-<p>W naszym <a href="/pl/blog/arrosage-connecte-intelligent">pełnym przewodniku po inteligentnym nawadnianiu</a> znajdziesz szczegółowe porównanie.</p>
+<p>Szczegółowe porównanie znajdziesz w naszym <a href="/pl/blog/arrosage-connecte-intelligent">pełnym przewodniku po inteligentnym nawadnianiu</a>.</p>
 
 <h3>Czujniki wilgotności gleby</h3>
-<p>Czujnik taki jak Gardena smart Sensor mierzy wilgotność i temperaturę gleby i pozwala wstrzymać podlewanie, gdy ziemia jest jeszcze wilgotna. Umieść go w reprezentatywnym miejscu, z dala od rynien i stałego cienia. Warto pamiętać, że stacja taka jak Eve Weather mierzy temperaturę, wilgotność powietrza i ciśnienie, ale nie wilgotność gleby.</p>
+<p>Czujnik taki jak Gardena smart Sensor mierzy wilgotność i temperaturę gleby, a gdy ziemia jest jeszcze wilgotna, pozwala wstrzymać podlewanie. Umieść go w miejscu typowym dla danej strefy, z dala od rynien i stałego cienia. Uwaga: stacja pogodowa taka jak Eve Weather mierzy temperaturę, wilgotność powietrza i ciśnienie, ale nie wilgotność gleby.</p>
 
 <h2>Inteligentne oświetlenie zewnętrzne</h2>
 
 <h3>Solarne czy niskonapięciowe</h3>
-<p>Solarne lampy ogrodowe z funkcjami inteligentnymi nie wymagają okablowania, ale ich czas pracy zależy od nasłonecznienia i wyraźnie spada zimą. Do niezawodnego oświetlenia przez cały rok lepsze są systemy niskonapięciowe, takie jak <strong>Philips Hue Outdoor</strong> (zasilanie 24 V), podłączane do zasilacza i sterowane z aplikacji, głosem lub automatyzacją. Govee i LEDVANCE SMART+ również oferują inteligentne serie zewnętrzne.</p>
+<p>Inteligentne lampy solarne nie wymagają okablowania, ale ich czas pracy zależy od nasłonecznienia i zimą wyraźnie się skraca. Jeśli zależy Ci na niezawodnym oświetleniu przez cały rok, lepiej sprawdzą się systemy niskonapięciowe, takie jak <strong>Philips Hue Outdoor</strong> (zasilanie 24 V): podłącza się je do zasilacza i steruje nimi z aplikacji, głosem lub za pomocą automatyzacji. Inteligentne serie do użytku na zewnątrz mają w ofercie także Govee i LEDVANCE SMART+.</p>
 
 <h3>Inteligentne reflektory</h3>
-<p>Philips Hue Discover to kolorowy reflektor do podświetlenia elewacji lub drzewa, a punkty świetlne Hue Lily służą do oświetlenia nastrojowego rabat. Jeśli priorytetem jest bezpieczeństwo, Ring Floodlight Cam łączy reflektor, wykrywanie ruchu i kamerę monitoringu.</p>
+<p>Philips Hue Discover to kolorowy reflektor do podświetlania elewacji lub drzewa, a reflektorki Hue Lily służą do nastrojowego oświetlenia rabat. Jeśli najważniejsze jest bezpieczeństwo, Ring Floodlight Cam łączy w jednym urządzeniu reflektor, czujnik ruchu i kamerę monitoringu.</p>
 
 <h3>Zewnętrzne taśmy i girlandy LED</h3>
-<p>Zewnętrzne taśmy LED (minimum IP65) marek Govee, Philips Hue lub LIFX tworzą nastrój na tarasach i pergolach. Są sterowane z aplikacji i zgodne z Alexa oraz Google Home; część z tych serii jest też zgodna z Matter.</p>
+<p>Zewnętrzne taśmy LED (co najmniej IP65) marek Govee, Philips Hue czy LIFX pozwalają stworzyć nastrój na tarasie lub pod pergolą. Steruje się nimi z aplikacji, współpracują z Alexą i Google Home, a część tych serii obsługuje także Matter.</p>
 
 <h2>Inteligentne roboty basenowe</h2>
 
-<h3>Dwa modele referencyjne</h3>
+<h3>Dwa polecane modele</h3>
 <p>Inteligentne roboty basenowe samodzielnie czyszczą dno, ściany i linię wody:</p>
 <ul>
-<li><strong>Dolphin S300i (Maytronics):</strong> sterowanie przez aplikację MyDolphin Plus (programowanie, wybór cyklu, czyszczenie punktowe). Cykle od 1,5 do 2,5 godziny, dno, ściany i linia wody, do basenów o długości do 12 m.</li>
-<li><strong>Zodiac CNX 40 iQ:</strong> gąsienice i podwójny silnik napędowy, czujniki żyroskopu i akcelerometru pozwalające pokryć cały basen, podwójna filtracja i sterowanie przez aplikację iAquaLink. Przeznaczony do basenów do 12 × 6 m.</li>
+<li><strong>Dolphin S300i (Maytronics):</strong> sterowanie przez aplikację MyDolphin Plus (programowanie, wybór cyklu, czyszczenie wskazanych miejsc). Cykle trwają od 1,5 do 2,5 godziny i obejmują dno, ściany oraz linię wody; robot jest przeznaczony do basenów o długości do 12 m.</li>
+<li><strong>Zodiac CNX 40 iQ:</strong> napęd gąsienicowy z dwoma silnikami, żyroskop i akcelerometr, dzięki którym robot dociera do każdego miejsca w basenie, podwójna filtracja i sterowanie przez aplikację iAquaLink. Przeznaczony do basenów o wymiarach do 12 × 6 m.</li>
 </ul>
-<p>Istnieją też bezprzewodowe roboty basenowe na baterię, jak Aiper Seagull Pro, które nie wymagają kabla zasilającego. Są wygodne w małych basenach, ale nie wszystkie oferują sterowanie przez aplikację.</p>
+<p>Są też roboty basenowe zasilane akumulatorem, takie jak Aiper Seagull Pro, które obywają się bez kabla zasilającego. Sprawdzają się w małych basenach, ale nie wszystkie można obsługiwać z aplikacji.</p>
 
 <h3>Kryteria wyboru</h3>
 <ul>
-<li><strong>Typ basenu:</strong> płaskie dno, łagodne spadki, dowolny kształt: sprawdź zgodność</li>
-<li><strong>Rozmiar niecki:</strong> trzymaj się maksymalnej długości deklarowanej przez producenta</li>
-<li><strong>Wykończenie:</strong> folia, płytki, beton: szczotki muszą być dopasowane</li>
+<li><strong>Typ basenu:</strong> płaskie dno, łagodne spadki, nieregularny kształt – sprawdź, czy robot jest do nich przystosowany</li>
+<li><strong>Wielkość niecki:</strong> nie przekraczaj maksymalnej długości basenu podanej przez producenta</li>
+<li><strong>Wykończenie:</strong> folia, płytki, beton – szczotki muszą być do niego dopasowane</li>
 <li><strong>Łączność:</strong> aplikacja, zdalne programowanie, diagnostyka</li>
 </ul>
 
 <h2>Inteligentne termometry i akcesoria do grilla</h2>
 
 <h3>MEATER 2 Plus: całkowicie bezprzewodowa sonda</h3>
-<p><strong>MEATER 2 Plus</strong> to całkowicie bezprzewodowa sonda wbijana w mięso. Mierzy temperaturę wewnątrz mięsa i temperaturę otoczenia, a ze smartfonem komunikuje się przez Bluetooth. Aby śledzić pieczenie zdalnie, aplikacja może wykorzystać drugie urządzenie pozostawione w zasięgu jako przekaźnik Wi-Fi (funkcja MEATER Link). Prowadzone pieczenie pokazuje szacowany pozostały czas.</p>
+<p><strong>MEATER 2 Plus</strong> to sonda bez żadnych kabli, którą wbija się w mięso. Mierzy temperaturę w środku mięsa i temperaturę otoczenia, a ze smartfonem łączy się przez Bluetooth. Żeby śledzić pieczenie z daleka, aplikacja może wykorzystać jako przekaźnik Wi-Fi drugie urządzenie pozostawione w zasięgu sondy (funkcja MEATER Link). W trybie z podpowiedziami krok po kroku aplikacja pokazuje szacowany czas do końca pieczenia.</p>
 
 <h3>Inkbird i Weber Connect</h3>
-<p><strong>Inkbird IBBQ-4BW:</strong> 4 sondy przewodowe, Wi-Fi 2,4 GHz i Bluetooth, aplikacja z alertami temperatury. Nadaje się do długiego pieczenia (low & slow).</p>
-<p><strong>Weber Connect Smart Grilling Hub:</strong> inteligentny moduł zgodny z dowolnym grillem, do 4 sond. Aplikacja podpowiada, kiedy obrócić mięso i kiedy podawać, oraz proponuje przepisy Weber.</p>
+<p><strong>Inkbird IBBQ-4BW:</strong> 4 sondy przewodowe, Wi-Fi 2,4 GHz i Bluetooth, aplikacja z alarmami temperatury. Dobrze sprawdza się przy długim pieczeniu w niskiej temperaturze (low & slow).</p>
+<p><strong>Weber Connect Smart Grilling Hub:</strong> inteligentny moduł, który współpracuje z każdym grillem i obsługuje do 4 sond. Aplikacja podpowiada, kiedy obrócić mięso, a kiedy podawać, i proponuje przepisy Weber.</p>
 
-<h2>Od czego zacząć w zależności od ogrodu</h2>
+<h2>Od czego zacząć w Twoim ogrodzie</h2>
 
 <h3>Mały ogród (poniżej 600 m²)</h3>
 <ul>
-<li>Inteligentny sterownik do kranu (Eve Aqua lub Gardena smart Water Control)</li>
-<li>Kosiarka z przewodem Gardena SILENO City 600 do prostego ogrodu albo ECOVACS GOAT O600 RTK, jeśli chcesz obejść się bez przewodu</li>
+<li>Inteligentny sterownik nawadniania na kran (Eve Aqua lub Gardena smart Water Control)</li>
+<li>Robot koszący z przewodem ograniczającym Gardena SILENO City 600 do prostego ogrodu albo ECOVACS GOAT O600 RTK, jeśli wolisz obejść się bez przewodu</li>
 <li>Kilka lamp solarnych lub mały zestaw oświetlenia niskonapięciowego</li>
 </ul>
 
-<h3>Średni ogród (600 do 1 600 m²)</h3>
+<h3>Średni ogród (600–1600 m²)</h3>
 <ul>
-<li>Segway Navimow i208 AWD (do 800 m², nachylenia do 45%) lub Worx Landroid Vision L1600 (do 1 600 m²)</li>
+<li>Segway Navimow i208 AWD (do 800 m², nachylenie do 45%) lub Worx Landroid Vision L1600 (do 1600 m²)</li>
 <li>Gardena smart system z czujnikiem wilgotności gleby</li>
 <li>Niskonapięciowe oświetlenie Philips Hue Outdoor</li>
 <li>Inteligentny termometr do grilla (Inkbird IBBQ-4BW lub MEATER 2 Plus)</li>
@@ -917,24 +917,24 @@ export const article: BlogArticle = {
 
 <h3>Duża lub stroma działka</h3>
 <ul>
-<li>Husqvarna Automower 450X NERA (do 5 000 m², przewód lub EPOS) albo Mammotion LUBA 3 AWD 5000 (nachylenia do 80%)</li>
+<li>Husqvarna Automower 450X NERA (do 5000 m², przewód lub EPOS) albo Mammotion LUBA 3 AWD 5000 (nachylenie do 80%)</li>
 <li>Podziemne nawadnianie wielostrefowe ze sterownikiem Hunter Hydrawise</li>
 <li>Robot basenowy Dolphin S300i lub Zodiac CNX 40 iQ, jeśli masz basen</li>
 </ul>
 
-<h2>Zgodność z Matter w inteligentnym ogrodzie</h2>
-<p>Protokół <strong>Matter</strong> wchodzi także na zewnątrz, choć nie obejmuje jeszcze wszystkich kategorii:</p>
+<h2>Matter w inteligentnym ogrodzie</h2>
+<p>Protokół <strong>Matter</strong> trafia także do ogrodów, choć nie obejmuje jeszcze wszystkich kategorii urządzeń:</p>
 <ul>
-<li><strong>Eve Aqua:</strong> natywny sterownik do kranu Matter (Thread)</li>
-<li><strong>Philips Hue Outdoor:</strong> zgodny z Matter przez Hue Bridge</li>
+<li><strong>Eve Aqua:</strong> sterownik nawadniania na kran z natywną obsługą Matter (Thread)</li>
+<li><strong>Philips Hue Outdoor:</strong> zgodność z Matter przez Hue Bridge</li>
 <li><strong>Eve Weather:</strong> wersja Matter over Thread do pomiaru temperatury i wilgotności na zewnątrz</li>
-<li><strong>Roboty koszące:</strong> obsługi Matter na razie brak; są sterowane w aplikacji producenta, a niektóre, jak Mammotion LUBA, integrują się z Alexa i Asystentem Google</li>
+<li><strong>Roboty koszące:</strong> na razie nie obsługują Matter; steruje się nimi w aplikacji producenta, a niektóre, takie jak Mammotion LUBA, współpracują z Alexą i Asystentem Google</li>
 </ul>
-<p>Zaleta Matter: ujednolicone sterowanie z Apple Home, Google Home, Amazon Alexa lub SmartThings, z lokalnym działaniem wielu funkcji. Urządzenia Thread potrzebują routera granicznego Thread (rolę tę pełnią niektóre nowsze głośniki i huby inteligentnego domu).</p>
+<p>Matter zapewnia jedno, wspólne sterowanie z Apple Home, Google Home, Amazon Alexa lub SmartThings, a wiele funkcji działa lokalnie. Urządzenia Thread wymagają routera brzegowego Thread (tę rolę pełnią niektóre nowsze głośniki i huby inteligentnego domu).</p>
 
 <h2>Podsumowanie: od czego zacząć?</h2>
-<p>Jeśli zaczynasz, zacznij od <strong>inteligentnego nawadniania</strong>: to skromna inwestycja, której efekty widać już w pierwszym lecie. Następnie wybierz <strong>robota koszącego</strong> według trzech kryteriów: powierzchni, nachylenia i dostępu do nieba. Inteligentne oświetlenie zewnętrzne dodaje komfortu i bezpieczeństwa, a inteligentne termometry do grilla ułatwiają weekendowe pieczenie.</p>
-<p>Zajrzyj do naszych przewodników tematycznych, aby poznać każdą kategorię dokładniej: <a href="/pl/blog/tondeuse-robot-sans-fil-perimetrique">roboty koszące bez przewodu</a> i <a href="/pl/blog/arrosage-connecte-intelligent">inteligentne nawadnianie</a>.</p>`,
+<p>Na początek wybierz <strong>inteligentne nawadnianie</strong>: to niewielki wydatek, a efekty zobaczysz już pierwszego lata. Potem dobierz <strong>robota koszącego</strong> według trzech kryteriów: powierzchni, nachylenia terenu i tego, jak bardzo odsłonięte jest niebo nad ogrodem. Inteligentne oświetlenie zewnętrzne poprawia wygodę i bezpieczeństwo, a inteligentne termometry ułatwiają weekendowe grillowanie.</p>
+<p>Więcej o każdej kategorii przeczytasz w naszych szczegółowych poradnikach: <a href="/pl/blog/tondeuse-robot-sans-fil-perimetrique">roboty koszące bez przewodu</a> i <a href="/pl/blog/arrosage-connecte-intelligent">inteligentne nawadnianie</a>.</p>`,
   },
   faq: [
     {
@@ -945,7 +945,7 @@ export const article: BlogArticle = {
         es: '¿Merece la pena un robot cortacésped?',
         it: 'Vale la pena un robot tagliaerba?',
         nl: 'Is een robotmaaier de investering waard?',
-        pl: 'Czy robot koszący się opłaca?',
+        pl: 'Czy warto kupić robota koszącego?',
       },
       answer: {
         fr: "Pour une pelouse d'au moins 200 m² que vous tondez chaque semaine, oui dans la plupart des cas. La tondeuse robot coupe un peu d'herbe plusieurs fois par semaine en mulching : les brins coupés restent sur place et nourrissent le gazon. Vous récupérez le temps de la tonte hebdomadaire, et la consommation électrique reste faible. Les modèles sans fil périmétrique simplifient l'installation ; pour un petit jardin simple, un modèle à fil reste le choix le plus économique.",
@@ -954,7 +954,7 @@ export const article: BlogArticle = {
         es: 'Para un césped de al menos 200 m² que cortas cada semana, sí en la mayoría de los casos. El robot corta un poco de hierba varias veces por semana en modo mulching: los restos se quedan en el césped y lo nutren. Recuperas el tiempo del corte semanal y el consumo eléctrico es bajo. Los modelos sin cable perimetral simplifican la instalación; para un jardín pequeño y sencillo, un modelo con cable sigue siendo la opción más económica.',
         it: "Per un prato di almeno 200 m² che tagli ogni settimana, nella maggior parte dei casi sì. Il robot taglia un po' d'erba più volte a settimana in modalità mulching: l'erba tagliata resta sul prato e lo nutre. Recuperi il tempo del taglio settimanale e il consumo elettrico resta basso. I modelli senza filo perimetrale semplificano l'installazione; per un giardino piccolo e semplice, un modello con filo resta la scelta più economica.",
         nl: 'Voor een gazon van minstens 200 m² dat je elke week maait, in de meeste gevallen wel. De robotmaaier knipt meerdere keren per week een beetje gras in mulchmodus: het maaisel blijft liggen en voedt het gazon. Je wint de tijd van het wekelijkse maaien terug en het stroomverbruik blijft laag. Modellen zonder begrenzingsdraad maken de installatie eenvoudiger; voor een kleine, eenvoudige tuin blijft een model met draad de voordeligste keuze.',
-        pl: 'Przy trawniku o powierzchni co najmniej 200 m², który kosisz co tydzień, w większości przypadków tak. Robot koszący skraca niewielką ilość trawy kilka razy w tygodniu metodą mulczowania: ścięte źdźbła zostają na miejscu i użyźniają darń. Odzyskujesz czas poświęcany na cotygodniowe koszenie, a zużycie prądu pozostaje niskie. Modele bez przewodu granicznego upraszczają montaż; w małym, prostym ogrodzie model z przewodem to nadal najbardziej ekonomiczny wybór.',
+        pl: 'W większości przypadków tak, jeśli masz trawnik o powierzchni co najmniej 200 m² i kosisz go co tydzień. Robot kilka razy w tygodniu przycina trawę po trochu, w trybie mulczowania: ścięte źdźbła zostają na trawniku i go użyźniają. Odzyskujesz czas, który zajmowało cotygodniowe koszenie, a zużycie prądu jest niewielkie. Modele bez przewodu ograniczającego łatwiej zainstalować, ale w małym, prostym ogrodzie najtańszym rozwiązaniem nadal pozostaje model z przewodem.',
       },
     },
     {
@@ -965,7 +965,7 @@ export const article: BlogArticle = {
         es: '¿Cómo funciona la navegación sin cable perimetral?',
         it: 'Come funziona la navigazione senza filo perimetrale?',
         nl: 'Hoe werkt draadloze navigatie zonder begrenzingsdraad?',
-        pl: 'Jak działa nawigacja bez przewodu granicznego?',
+        pl: 'Jak działa nawigacja bez przewodu ograniczającego?',
       },
       answer: {
         fr: "Les tondeuses robots sans fil périmétrique combinent plusieurs technologies. Le RTK corrige la position GPS grâce à une antenne de référence installée au jardin ou à un réseau de correction, pour une précision de quelques centimètres. Les caméras (vision) reconnaissent les bordures et les obstacles, et le LiDAR, présent sur certains modèles, cartographie l'environnement en 3D. Vous définissez la zone de tonte dans l'application, souvent en guidant une fois la tondeuse le long de la pelouse ou grâce à une cartographie automatique. Elle tond ensuite seule dans ces limites virtuelles.",
@@ -974,7 +974,7 @@ export const article: BlogArticle = {
         es: 'Los robots cortacésped sin cable perimetral combinan varias tecnologías. El RTK corrige la posición GPS mediante una antena de referencia en el jardín o una red de corrección, con una precisión de pocos centímetros. Las cámaras (visión) reconocen los bordes y los obstáculos, y el LiDAR, presente en algunos modelos, cartografía el entorno en 3D. Defines la zona de corte en la app, a menudo guiando el robot una vez por el borde del césped o mediante cartografía automática. Después corta solo dentro de esos límites virtuales.',
         it: "I robot tagliaerba senza filo perimetrale combinano diverse tecnologie. L'RTK corregge la posizione GPS grazie a un'antenna di riferimento in giardino o a una rete di correzione, con una precisione di pochi centimetri. Le telecamere riconoscono bordi e ostacoli, e il LiDAR, presente su alcuni modelli, mappa l'ambiente in 3D. Definisci l'area di taglio nell'app, spesso guidando una volta il robot lungo il bordo del prato o con la mappatura automatica. Poi taglia da solo entro quei confini virtuali.",
         nl: 'Robotmaaiers zonder begrenzingsdraad combineren meerdere technieken. RTK corrigeert de gps-positie via een referentieantenne in de tuin of een correctienetwerk, voor een nauwkeurigheid van enkele centimeters. Camera\'s herkennen gazonranden en obstakels, en LiDAR, aanwezig op sommige modellen, brengt de omgeving in 3D in kaart. Je stelt de maaizone in de app in, vaak door de maaier één keer langs de rand te sturen of via automatische kartering. Daarna maait hij zelfstandig binnen die virtuele grenzen.',
-        pl: 'Roboty koszące bez przewodu granicznego łączą kilka technologii. RTK koryguje pozycję GPS dzięki antenie referencyjnej zamontowanej w ogrodzie lub sieci korekcyjnej, co daje dokładność do kilku centymetrów. Kamery (system wizyjny) rozpoznają krawędzie i przeszkody, a LiDAR, obecny w niektórych modelach, tworzy trójwymiarową mapę otoczenia. Strefę koszenia wyznaczasz w aplikacji, często raz prowadząc robota wzdłuż trawnika lub korzystając z automatycznego mapowania. Potem kosi samodzielnie w tych wirtualnych granicach.',
+        pl: 'Roboty koszące bez przewodu ograniczającego łączą kilka technologii. RTK koryguje pozycję GPS za pomocą anteny referencyjnej ustawionej w ogrodzie albo sieci korekcyjnej, co daje dokładność do kilku centymetrów. Kamery (system wizyjny) rozpoznają krawędzie trawnika i przeszkody, a LiDAR, w który wyposażone są niektóre modele, tworzy trójwymiarową mapę otoczenia. Strefę koszenia wyznaczasz w aplikacji – często wystarczy raz poprowadzić robota wzdłuż granic trawnika albo skorzystać z automatycznego mapowania. Potem robot kosi już samodzielnie w tych wirtualnych granicach.',
       },
     },
     {
@@ -994,7 +994,7 @@ export const article: BlogArticle = {
         es: 'Depende sobre todo de tus hábitos actuales. El ahorro procede de tres palancas: adaptación automática al tiempo (sin riego antes de la lluvia), sensores de humedad del suelo (riego solo cuando hace falta) y programación por zonas según el tipo de planta. Si regabas a horas fijas sin mirar el tiempo, la diferencia es clara; si ya ajustabas a mano, es menor. Lo más sencillo es comparar las lecturas del contador de un verano a otro.',
         it: "Dipende soprattutto dalle tue abitudini attuali. Il risparmio nasce da tre leve: adattamento automatico al meteo (niente irrigazione prima della pioggia), sensori di umidità del suolo (irrigazione solo quando serve) e programmazione per zone in base al tipo di piante. Se irrigavi a orari fissi senza guardare il meteo, la differenza è netta; se regolavi già a mano, è più contenuta. Il modo più semplice è confrontare le letture del contatore da un'estate all'altra.",
         nl: 'Dat hangt vooral af van je huidige gewoonten. De besparing komt van drie factoren: automatische aanpassing aan het weer (niet sproeien voor regen), bodemvochtsensoren (alleen sproeien wanneer nodig) en planning per zone op basis van het planttype. Sproeide je op vaste tijden zonder op het weer te letten, dan is het verschil duidelijk; stuurde je al met de hand bij, dan is het kleiner. Het eenvoudigst is om je meterstanden van de ene zomer met de volgende te vergelijken.',
-        pl: 'Zależy to głównie od Twoich dotychczasowych nawyków. Oszczędność wynika z trzech czynników: automatycznego dostosowania do pogody (brak podlewania przed deszczem), czujników wilgotności gleby (podlewanie tylko wtedy, gdy trzeba) oraz programowania strefa po strefie, zależnie od rodzaju roślin. Jeśli podlewałeś o stałej porze bez względu na pogodę, różnica jest wyraźna; jeśli korygowałeś to już ręcznie, jest skromniejsza. Najprościej porównać odczyty licznika z jednego lata na drugie.',
+        pl: 'To zależy przede wszystkim od Twoich dotychczasowych nawyków. Oszczędności dają trzy rzeczy: automatyczne dostosowanie do pogody (sterownik nie podlewa przed deszczem), czujniki wilgotności gleby (podlewanie tylko wtedy, gdy jest potrzebne) oraz osobne harmonogramy dla poszczególnych stref, zależnie od rodzaju roślin. Jeśli do tej pory podlewasz o stałej porze bez względu na pogodę, różnica będzie wyraźna; jeśli już teraz korygujesz podlewanie ręcznie – mniejsza. Najprościej porównać odczyty wodomierza z dwóch kolejnych sezonów letnich.',
       },
     },
     {
@@ -1005,7 +1005,7 @@ export const article: BlogArticle = {
         es: '¿Los dispositivos de jardín inteligente funcionan sin conexión?',
         it: 'I dispositivi smart da giardino funzionano offline?',
         nl: 'Werken slimme tuinapparaten offline?',
-        pl: 'Czy inteligentne urządzenia ogrodowe działają offline?',
+        pl: 'Czy inteligentne urządzenia ogrodowe działają bez internetu?',
       },
       answer: {
         fr: "En partie. Les tondeuses robots continuent généralement de tondre selon leur programme même sans Wi-Fi, mais vous perdez le contrôle à distance et les notifications. Les programmateurs d'arrosage exécutent en général leur dernier programme enregistré, sans l'ajustement météo qui dépend d'internet. Les appareils Matter/Thread comme l'Eve Aqua peuvent être pilotés localement sans cloud. Les commandes vocales et le contrôle depuis l'extérieur de la maison nécessitent en revanche une connexion internet.",
@@ -1014,7 +1014,7 @@ export const article: BlogArticle = {
         es: 'En parte. Los robots cortacésped suelen seguir cortando según su programa sin wifi, pero pierdes el control remoto y las notificaciones. Los programadores de riego normalmente ejecutan su último programa guardado, sin el ajuste meteorológico que depende de internet. Los dispositivos Matter/Thread como Eve Aqua pueden controlarse en local sin la nube. Los comandos de voz y el control desde fuera de casa, en cambio, requieren conexión a internet.',
         it: "In parte. I robot tagliaerba di solito continuano a tagliare secondo il programma anche senza Wi-Fi, ma perdi il controllo remoto e le notifiche. Le centraline di irrigazione in genere eseguono l'ultimo programma salvato, senza l'adattamento meteo che dipende da internet. I dispositivi Matter/Thread come Eve Aqua si possono gestire in locale senza cloud. I comandi vocali e il controllo da fuori casa richiedono invece una connessione internet.",
         nl: 'Gedeeltelijk. Robotmaaiers blijven meestal volgens schema maaien zonder wifi, maar je verliest bediening op afstand en meldingen. Besproeiingscontrollers voeren doorgaans hun laatst opgeslagen schema uit, zonder de weersaanpassing die van internet afhangt. Matter/Thread-apparaten zoals Eve Aqua kun je lokaal bedienen zonder cloud. Spraakopdrachten en bediening buitenshuis vereisen wel een internetverbinding.',
-        pl: 'Częściowo. Roboty koszące zwykle kosią dalej według swojego programu nawet bez Wi-Fi, ale tracisz zdalne sterowanie i powiadomienia. Sterowniki nawadniania zazwyczaj wykonują ostatni zapisany program, bez korekty pogodowej, która zależy od internetu. Urządzeniami Matter/Thread, jak Eve Aqua, można sterować lokalnie, bez chmury. Polecenia głosowe i sterowanie spoza domu wymagają natomiast połączenia z internetem.',
+        pl: 'Częściowo. Roboty koszące na ogół kosią dalej według harmonogramu nawet bez Wi-Fi, ale tracisz zdalne sterowanie i powiadomienia. Sterowniki nawadniania zwykle wykonują ostatni zapisany program, ale bez dostosowania do pogody, które wymaga dostępu do internetu. Urządzeniami Matter/Thread, takimi jak Eve Aqua, można sterować lokalnie, bez chmury. Polecenia głosowe i sterowanie spoza domu wymagają natomiast połączenia z internetem.',
       },
     },
     {
@@ -1025,7 +1025,7 @@ export const article: BlogArticle = {
         es: '¿Cuál es la mejor temporada para instalar un jardín inteligente?',
         it: 'Qual è la stagione migliore per installare un giardino smart?',
         nl: 'Wat is het beste seizoen om een slimme tuin te installeren?',
-        pl: 'Jaka jest najlepsza pora na założenie inteligentnego ogrodu?',
+        pl: 'Kiedy najlepiej wyposażyć ogród w inteligentne urządzenia?',
       },
       answer: {
         fr: "Le printemps (mars à mai) est la meilleure période. C'est le bon moment pour installer une tondeuse robot avant la première tonte, configurer l'arrosage connecté avant les chaleurs et poser l'éclairage quand les jours rallongent. Les robots de piscine se mettent en service idéalement en avril-mai, avant la saison de baignade. Anticiper l'achat en février-mars permet aussi d'éviter les ruptures de stock du printemps.",
@@ -1034,7 +1034,7 @@ export const article: BlogArticle = {
         es: 'La primavera (de marzo a mayo) es la mejor época. Es el momento de instalar el robot cortacésped antes del primer corte, configurar el riego inteligente antes del calor y colocar la iluminación cuando los días se alargan. Los robots de piscina se ponen en marcha idealmente en abril o mayo, antes de la temporada de baño. Comprar con antelación en febrero o marzo también ayuda a evitar roturas de stock en primavera.',
         it: "La primavera (da marzo a maggio) è il periodo migliore. È il momento giusto per installare il robot tagliaerba prima del primo taglio, configurare l'irrigazione smart prima del caldo e montare l'illuminazione quando le giornate si allungano. I robot per piscina si mettono in funzione idealmente ad aprile o maggio, prima della stagione dei bagni. Acquistare in anticipo, a febbraio o marzo, aiuta anche a evitare le rotture di stock primaverili.",
         nl: 'De lente (maart tot mei) is de beste periode. Dan installeer je de robotmaaier voor de eerste maaibeurt, stel je de slimme besproeiing in voor de zomerhitte en plaats je verlichting als de dagen langer worden. Zwembadrobots neem je idealiter in april of mei in gebruik, voor het zwemseizoen. Wie al in februari of maart koopt, ontloopt bovendien tekorten in het voorjaar.',
-        pl: 'Najlepsza jest wiosna (od marca do maja). To dobry moment, by zamontować robota koszącego przed pierwszym koszeniem, skonfigurować inteligentne nawadnianie przed upałami i zainstalować oświetlenie, gdy dni robią się dłuższe. Roboty basenowe najlepiej uruchomić w kwietniu lub maju, przed sezonem kąpielowym. Zakup z wyprzedzeniem, w lutym lub marcu, pozwala też uniknąć wiosennych braków w magazynach.',
+        pl: 'Najlepsza jest wiosna (od marca do maja). To dobry moment, by zamontować robota koszącego przed pierwszym koszeniem, skonfigurować inteligentne nawadnianie przed upałami i zainstalować oświetlenie, gdy dni robią się dłuższe. Roboty basenowe najlepiej uruchomić w kwietniu lub maju, przed sezonem kąpielowym. Kupując z wyprzedzeniem, w lutym lub marcu, unikniesz też wiosennych braków w sklepach.',
       },
     },
     {
@@ -1045,7 +1045,7 @@ export const article: BlogArticle = {
         es: '¿Existen opciones solares para el jardín inteligente?',
         it: 'Esistono opzioni a energia solare per il giardino smart?',
         nl: 'Zijn er opties op zonne-energie voor de slimme tuin?',
-        pl: 'Czy dostępne są rozwiązania solarne do inteligentnego ogrodu?',
+        pl: 'Czy w inteligentnym ogrodzie można korzystać z urządzeń solarnych?',
       },
       answer: {
         fr: "Oui, surtout pour l'éclairage : bornes de chemin, projecteurs et guirlandes existent en versions solaires connectées, avec une autonomie qui baisse en hiver. Les tondeuses robots se rechargent sur leur station branchée au secteur. Les capteurs d'humidité et les programmateurs de robinet fonctionnent sur piles (l'Eve Aqua utilise des piles remplaçables). Pour les systèmes d'arrosage enterrés multi-zones, une alimentation secteur reste la norme.",
@@ -1054,7 +1054,7 @@ export const article: BlogArticle = {
         es: 'Sí, sobre todo en iluminación: balizas, focos y guirnaldas existen en versiones solares conectadas, con una autonomía que baja en invierno. Los robots cortacésped se recargan en su estación conectada a la red. Los sensores de humedad y los programadores de grifo funcionan con pilas (Eve Aqua usa pilas reemplazables). Para el riego enterrado por zonas, la alimentación de red sigue siendo lo habitual.',
         it: "Sì, soprattutto per l'illuminazione: lampade da vialetto, proiettori e catene luminose esistono in versione solare connessa, con un'autonomia che cala in inverno. I robot tagliaerba si ricaricano sulla base collegata alla rete. Sensori di umidità e programmatori per rubinetto funzionano a batterie (Eve Aqua usa batterie sostituibili). Per l'irrigazione interrata a più zone, l'alimentazione di rete resta la norma.",
         nl: 'Ja, vooral voor verlichting: padlampen, schijnwerpers en lichtslingers bestaan in slimme solarversies, met een brandduur die in de winter afneemt. Robotmaaiers laden op aan een laadstation op netstroom. Vochtsensoren en kraancontrollers werken op batterijen (Eve Aqua gebruikt vervangbare batterijen). Voor ondergrondse besproeiing met meerdere zones blijft netstroom de norm.',
-        pl: 'Tak, zwłaszcza w oświetleniu: lampy alejkowe, reflektory i girlandy są dostępne w inteligentnych wersjach solarnych, z czasem pracy, który zimą spada. Roboty koszące ładują się na stacji podłączonej do sieci. Czujniki wilgotności i sterowniki do kranu działają na baterie (Eve Aqua korzysta z wymiennych baterii). W podziemnych, wielostrefowych systemach nawadniania standardem pozostaje zasilanie sieciowe.',
+        pl: 'Tak, przede wszystkim w oświetleniu: lampy na ścieżki, reflektory i girlandy są dostępne w inteligentnych wersjach solarnych, choć zimą świecą krócej. Roboty koszące ładują się na stacji podłączonej do gniazdka. Czujniki wilgotności i sterowniki nawadniania na kran działają na baterie (Eve Aqua korzysta z wymiennych baterii). W podziemnych, wielostrefowych systemach nawadniania standardem pozostaje zasilanie z sieci.',
       },
     },
     {
@@ -1065,7 +1065,7 @@ export const article: BlogArticle = {
         es: '¿Cuánto ruido hace un robot cortacésped?',
         it: 'Quanto rumore fa un robot tagliaerba?',
         nl: 'Hoeveel geluid maakt een robotmaaier?',
-        pl: 'Jaki poziom hałasu generuje robot koszący?',
+        pl: 'Jak głośno pracuje robot koszący?',
       },
       answer: {
         fr: "Les tondeuses robots sont nettement plus silencieuses qu'une tondeuse thermique. La plupart des fabricants annoncent un niveau d'environ 55 à 65 dB, proche d'une conversation, alors qu'une tondeuse thermique est bien plus bruyante. Mammotion annonce par exemple environ 60 dB pour la gamme LUBA. Cette discrétion permet de tondre en journée pendant le télétravail sans gêne. Évitez en revanche la tonte de nuit : les hérissons sont actifs au crépuscule et peuvent être blessés, et certaines communes encadrent les horaires d'utilisation.",
@@ -1074,7 +1074,7 @@ export const article: BlogArticle = {
         es: 'Los robots cortacésped son mucho más silenciosos que un cortacésped de gasolina. La mayoría de los fabricantes indica entre 55 y 65 dB aproximadamente, cerca de una conversación, mientras que uno de gasolina es mucho más ruidoso. Mammotion, por ejemplo, indica unos 60 dB para la gama LUBA. Así puedes cortar durante el día mientras teletrabajas. Evita en cambio el corte nocturno: los erizos están activos al anochecer y pueden resultar heridos, y algunos municipios regulan los horarios de uso.',
         it: "I robot tagliaerba sono molto più silenziosi di un tosaerba a benzina. La maggior parte dei produttori dichiara circa 55-65 dB, vicino a una conversazione, mentre un tosaerba a benzina è molto più rumoroso. Mammotion, ad esempio, indica circa 60 dB per la gamma LUBA. Questo permette di tagliare di giorno anche lavorando da casa. Evita invece il taglio notturno: i ricci sono attivi al crepuscolo e possono ferirsi, e alcuni comuni regolano gli orari di utilizzo.",
         nl: 'Robotmaaiers zijn veel stiller dan een benzinemaaier. De meeste fabrikanten geven ongeveer 55 tot 65 dB op, vergelijkbaar met een gesprek, terwijl een benzinemaaier veel luider is. Mammotion noemt bijvoorbeeld zo\'n 60 dB voor de LUBA-serie. Zo kun je overdag maaien terwijl je thuiswerkt. Maai echter niet \'s nachts: egels zijn actief in de schemering en kunnen gewond raken, en sommige gemeenten beperken de gebruikstijden.',
-        pl: 'Roboty koszące są wyraźnie cichsze niż kosiarki spalinowe. Większość producentów deklaruje poziom około 55 do 65 dB, zbliżony do rozmowy, podczas gdy kosiarka spalinowa jest znacznie głośniejsza. Mammotion podaje na przykład około 60 dB dla serii LUBA. Taka dyskrecja pozwala kosić w ciągu dnia podczas pracy zdalnej bez uciążliwości. Unikaj jednak koszenia nocą: jeże są aktywne o zmierzchu i mogą zostać zranione, a w niektórych miejscowościach obowiązują ograniczenia godzin użytkowania.',
+        pl: 'Roboty koszące są wyraźnie cichsze od kosiarek spalinowych. Większość producentów deklaruje poziom hałasu około 55–65 dB, zbliżony do zwykłej rozmowy, podczas gdy kosiarka spalinowa jest znacznie głośniejsza. Mammotion podaje na przykład około 60 dB dla serii LUBA. Dzięki cichej pracy robot może kosić w ciągu dnia i nie przeszkadza, gdy pracujesz zdalnie. Unikaj jednak koszenia w nocy: jeże są aktywne o zmierzchu i mogą zostać zranione, a w niektórych miejscowościach obowiązują ograniczenia godzin pracy takich urządzeń.',
       },
     },
   ],

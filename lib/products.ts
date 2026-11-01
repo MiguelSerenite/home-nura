@@ -94,7 +94,7 @@ export const staticProducts: StaticProduct[] = [
       es: ['Doble cajón apilable 9.5L', 'Cocción ultra-homogénea', '6 modos de cocción'],
       it: ['Doppio cestello impilabile 9.5L', 'Cottura ultra-uniforme', '6 modalità di cottura'],
       nl: ['Dubbele stapelbare lade 9.5L', 'Ultra-gelijkmatig bakken', '6 kookmodi'],
-      pl: ['Podwójna szuflada piętrowa 9.5L', 'Bardzo równomierne gotowanie', '6 trybów gotowania'],
+      pl: ['Dwie piętrowe szuflady, łącznie 9,5 l', 'Równomierne smażenie i pieczenie', '6 trybów pracy'],
     },
     cons: {
       fr: ['Prix élevé', 'Encombrant'], en: ['High price', 'Bulky'],
@@ -113,14 +113,14 @@ export const staticProducts: StaticProduct[] = [
       es: 'Philips Airfryer Serie 3000 XL - 6.2L',
       it: 'Philips Airfryer Serie 3000 XL - 6.2L',
       nl: 'Philips Airfryer 3000 Serie XL - 6.2L',
-      pl: 'Philips Airfryer Série 3000 XL - 6.2L',
+      pl: 'Philips Airfryer 3000 Series XL - 6.2L',
     },
     priceNumeric: { fr: 119.99, de: 119.99, en: 99.99, es: 109.99, it: 119.99, nl: 109.99, pl: 119.99 },
     nuraScore: 8.7,
     capacity: '6.2L',
     bestFor: {
       fr: 'Rapport qualité-prix', en: 'Value for money', de: 'Preis-Leistung',
-      es: 'Relación calidad-precio', it: 'Rapporto qualità-prezzo', nl: 'Prijs-kwaliteit', pl: 'Stosunek jakości do ceny',
+      es: 'Relación calidad-precio', it: 'Rapporto qualità-prezzo', nl: 'Prijs-kwaliteit', pl: 'Dobry stosunek jakości do ceny',
     },
     pros: {
       fr: ['Technologie RapidAir Plus', 'Fenêtre de cuisson', '16 modes de cuisson'],
@@ -129,7 +129,7 @@ export const staticProducts: StaticProduct[] = [
       es: ['Tecnología RapidAir Plus', 'Ventana de cocción', '16 modos de cocción'],
       it: ['Tecnologia RapidAir Plus', 'Finestra di cottura', '16 modalità di cottura'],
       nl: ['RapidAir Plus technologie', 'Kijkvenster', '16 bereidingswijzen'],
-      pl: ['Technologia RapidAir Plus', 'Okienko podglądu', '16 trybów gotowania'],
+      pl: ['Technologia RapidAir Plus', 'Okienko podglądu', '16 trybów pracy'],
     },
     cons: {
       fr: ['Panier unique', 'Pas de Wi-Fi'], en: ['Single basket', 'No Wi-Fi'],
@@ -155,7 +155,7 @@ export const staticProducts: StaticProduct[] = [
     capacity: '6.4L',
     bestFor: {
       fr: 'Cuisson intelligente', en: 'Smart cooking', de: 'Intelligentes Kochen',
-      es: 'Cocción inteligente', it: 'Cottura intelligente', nl: 'Slim koken', pl: 'Inteligentne gotowanie',
+      es: 'Cocción inteligente', it: 'Cottura intelligente', nl: 'Slim koken', pl: 'Smażenie sterowane z aplikacji',
     },
     pros: {
       fr: ['Double résistance haut/bas', 'App VeSync (Wi-Fi)', 'Pas besoin de secouer'],
@@ -164,12 +164,12 @@ export const staticProducts: StaticProduct[] = [
       es: ['Doble resistencia arriba/abajo', 'App VeSync (Wi-Fi)', 'Sin necesidad de agitar'],
       it: ['Doppia resistenza sopra/sotto', 'App VeSync (Wi-Fi)', 'Niente da scuotere'],
       nl: ['Dubbel boven/onder verwarming', 'VeSync-app (wifi)', 'Schudden niet nodig'],
-      pl: ['Podwójna grzałka góra/dół', 'Aplikacja VeSync (Wi-Fi)', 'Bez potrząsania koszem'],
+      pl: ['Podwójna grzałka (góra i dół)', 'Aplikacja VeSync (Wi-Fi)', 'Nie trzeba potrząsać koszem'],
     },
     cons: {
       fr: ['Un seul tiroir', 'Démarrage uniquement sur l\'appareil'], en: ['Single drawer', 'Cooking can only be started on the unit'],
       de: ['Einzelner Korb', 'Start nur am Gerät'], es: ['Un solo cajón', 'Inicio solo desde el aparato'],
-      it: ['Singolo cassetto', 'Avvio solo dall\'apparecchio'], nl: ['Enkele lade', 'Starten alleen op het apparaat'], pl: ['Tylko jedna szuflada', 'Uruchomienie wyłącznie na urządzeniu'],
+      it: ['Singolo cassetto', 'Avvio solo dall\'apparecchio'], nl: ['Enkele lade', 'Starten alleen op het apparaat'], pl: ['Tylko jedna szuflada', 'Uruchamianie tylko z panelu urządzenia'],
     },
   },
   {
@@ -190,7 +190,7 @@ export const staticProducts: StaticProduct[] = [
     capacity: '1.7kg',
     bestFor: {
       fr: 'Cuisson sans surveillance', en: 'Hands-free cooking', de: 'Freihändiges Kochen',
-      es: 'Cocción sin vigilancia', it: 'Cottura senza sorveglianza', nl: 'Handsfree koken', pl: 'Gotowanie bez nadzoru',
+      es: 'Cocción sin vigilancia', it: 'Cottura senza sorveglianza', nl: 'Handsfree koken', pl: 'Smażenie bez pilnowania',
     },
     pros: {
       fr: ['Pale de brassage auto', '2 zones de cuisson', '9 programmes automatiques'],
@@ -199,7 +199,7 @@ export const staticProducts: StaticProduct[] = [
       es: ['Pala mezcladora auto', '2 zonas de cocción', '9 programas automáticos'],
       it: ['Pala mescolatrice auto', '2 zone di cottura', '9 programmi automatici'],
       nl: ['Automatische roerspatel', '2 kookzones', '9 automatische programma\'s'],
-      pl: ['Automatyczne ramię mieszające', '2 strefy gotowania', '9 programów automatycznych'],
+      pl: ['Automatyczna łopatka mieszająca', '2 strefy pieczenia', '9 programów automatycznych'],
     },
     cons: {
       fr: ['Prix premium', 'Pas de Wi-Fi'], en: ['Premium price', 'No Wi-Fi'],
@@ -238,7 +238,7 @@ export const staticProducts: StaticProduct[] = [
       es: ['Ventana de cocción', 'App Xiaomi Home (Wi-Fi)', 'Diseño compacto'],
       it: ['Finestra di cottura', 'App Xiaomi Home (Wi-Fi)', 'Design compatto'],
       nl: ['Kijkvenster', 'Xiaomi Home app (wifi)', 'Compact design'],
-      pl: ['Okienko podglądu', 'Aplikacja Xiaomi Home (Wi-Fi)', 'Kompaktowy design'],
+      pl: ['Okienko podglądu', 'Aplikacja Xiaomi Home (Wi-Fi)', 'Kompaktowe wymiary'],
     },
     cons: {
       fr: ['Capacité limitée 4L', 'Pas de double panier'],
@@ -247,7 +247,7 @@ export const staticProducts: StaticProduct[] = [
       es: ['Capacidad limitada 4L', 'Sin doble cesta'],
       it: ['Capacità limitata 4L', 'Nessun doppio cestello'],
       nl: ['Beperkte 4L capaciteit', 'Geen dubbele mand'],
-      pl: ['Ograniczona pojemność 4L', 'Brak podwójnego kosza'],
+      pl: ['Pojemność tylko 4 l', 'Brak drugiego kosza'],
     },
   },
   {
@@ -261,7 +261,7 @@ export const staticProducts: StaticProduct[] = [
       es: 'Ninja Foodi FlexDrawer 10.4L Doble Zona',
       it: 'Ninja Foodi FlexDrawer 10.4L Doppia Zona',
       nl: 'Ninja Foodi FlexDrawer 10.4L Dubbele Zone',
-      pl: 'Ninja Foodi FlexDrawer 10.4L Double Zone',
+      pl: 'Ninja Foodi FlexDrawer 10.4L Dual Zone',
     },
     priceNumeric: { fr: 249.99, de: 249.99, en: 219.99, es: 239.99, it: 249.99, nl: 239.99, pl: 249.99 },
     badge: {
@@ -281,7 +281,7 @@ export const staticProducts: StaticProduct[] = [
       es: ['Cajón flexible 10.4L', 'Modo MegaZone', 'Doble zona independiente'],
       it: ['Cassetto flessibile 10.4L', 'Modalità MegaZone', 'Doppia zona indipendente'],
       nl: ['Flexibele 10.4L lade', 'MegaZone modus', 'Onafhankelijke dubbele zone'],
-      pl: ['Elastyczna szuflada 10.4L', 'Tryb MegaZone', 'Niezależne podwójne strefy'],
+      pl: ['Dzielona szuflada 10,4 l', 'Tryb MegaZone', 'Dwie niezależne strefy'],
     },
     cons: {
       fr: ['Prix premium', 'Très encombrant'], en: ['Premium price', 'Very bulky'],
@@ -300,14 +300,14 @@ export const staticProducts: StaticProduct[] = [
       es: 'Philips Airfryer Combi XXL Conectada - 8.3L',
       it: 'Philips Airfryer Combi XXL Connessa - 8.3L',
       nl: 'Philips Airfryer Combi XXL Connected - 8.3L',
-      pl: 'Philips Airfryer Combi XXL Connecté - 8.3L',
+      pl: 'Philips Airfryer Combi XXL Connected - 8.3L',
     },
     priceNumeric: { fr: 349.99, de: 349.99, en: 299.99, es: 329.99, it: 349.99, nl: 339.99, pl: 349.99 },
     nuraScore: 9.0,
     capacity: '8.3L',
     bestFor: {
       fr: 'Haut de gamme connecté', en: 'Premium connected', de: 'Premium vernetzt',
-      es: 'Gama alta conectada', it: 'Alta gamma connessa', nl: 'Premium connected', pl: 'Wyższa półka z łącznością',
+      es: 'Gama alta conectada', it: 'Alta gamma connessa', nl: 'Premium connected', pl: 'Model z wyższej półki z Wi-Fi',
     },
     pros: {
       fr: ['Technologie Rapid CombiAir', 'Sonde de cuisson incluse', 'App HomeID (Wi-Fi)'],
@@ -316,7 +316,7 @@ export const staticProducts: StaticProduct[] = [
       es: ['Tecnología Rapid CombiAir', 'Sonda de cocción incluida', 'App HomeID (Wi-Fi)'],
       it: ['Tecnologia Rapid CombiAir', 'Sonda di cottura inclusa', 'App HomeID (Wi-Fi)'],
       nl: ['Rapid CombiAir technologie', 'Kerntemperatuurmeter inbegrepen', 'HomeID app (wifi)'],
-      pl: ['Technologia Rapid CombiAir', 'Sonda do mięsa w zestawie', 'Aplikacja HomeID (Wi-Fi)'],
+      pl: ['Technologia Rapid CombiAir', 'Sonda temperatury w zestawie', 'Aplikacja HomeID (Wi-Fi)'],
     },
     cons: {
       fr: ['Prix très élevé', 'Lourd (9,4 kg)'], en: ['Very high price', 'Heavy (9.4 kg)'],
@@ -342,7 +342,7 @@ export const staticProducts: StaticProduct[] = [
     capacity: '5.5L',
     bestFor: {
       fr: 'Familles (3-5 pers.)', en: 'Families (3-5 pers.)', de: 'Familien (3-5 Pers.)',
-      es: 'Familias (3-5 pers.)', it: 'Famiglie (3-5 pers.)', nl: 'Gezinnen (3-5 pers.)', pl: 'Rodziny (3-5 os.)',
+      es: 'Familias (3-5 pers.)', it: 'Famiglie (3-5 pers.)', nl: 'Gezinnen (3-5 pers.)', pl: 'Rodziny (3–5 osób)',
     },
     pros: {
       fr: ['11 programmes préréglés', 'Écran tactile', 'Panier compatible lave-vaisselle'],
@@ -351,7 +351,7 @@ export const staticProducts: StaticProduct[] = [
       es: ['11 programas preestablecidos', 'Pantalla táctil', 'Cesta apta para lavavajillas'],
       it: ['11 programmi preimpostati', 'Display touch', 'Cestello lavabile in lavastoviglie'],
       nl: ['11 voorgeprogrammeerde standen', 'Aanraakscherm', 'Vaatwasserbestendige mand'],
-      pl: ['11 zaprogramowanych programów', 'Ekran dotykowy', 'Kosz do mycia w zmywarce'],
+      pl: ['11 gotowych programów', 'Ekran dotykowy', 'Kosz można myć w zmywarce'],
     },
     cons: {
       fr: ['Pas de Wi-Fi ni d\'app', 'Un seul panier'], en: ['No Wi-Fi or app', 'Single basket'],
@@ -377,7 +377,7 @@ export const staticProducts: StaticProduct[] = [
     capacity: '5L',
     bestFor: {
       fr: 'Familles (3-4 pers.)', en: 'Families (3-4 pers.)', de: 'Familien (3-4 Pers.)',
-      es: 'Familias (3-4 pers.)', it: 'Famiglie (3-4 pers.)', nl: 'Gezinnen (3-4 pers.)', pl: 'Rodziny (3-4 os.)',
+      es: 'Familias (3-4 pers.)', it: 'Famiglie (3-4 pers.)', nl: 'Gezinnen (3-4 pers.)', pl: 'Rodziny (3–4 osoby)',
     },
     pros: {
       fr: ['Excellent rapport qualité-prix', 'Marque française fiable', '10 programmes'],
@@ -391,7 +391,7 @@ export const staticProducts: StaticProduct[] = [
     cons: {
       fr: ['Pas de double tiroir', 'Design classique'], en: ['No dual drawer', 'Classic design'],
       de: ['Kein Doppelkorb', 'Klassisches Design'], es: ['Sin doble cajón', 'Diseño clásico'],
-      it: ['Nessun doppio cassetto', 'Design classico'], nl: ['Geen dubbele lade', 'Klassiek design'], pl: ['Brak podwójnej szuflady', 'Klasyczny design'],
+      it: ['Nessun doppio cassetto', 'Design classico'], nl: ['Geen dubbele lade', 'Klassiek design'], pl: ['Brak podwójnej szuflady', 'Klasyczny wygląd'],
     },
   },
 ]

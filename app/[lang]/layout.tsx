@@ -41,7 +41,7 @@ const metaTitles: Record<Lang, string> = {
   es: 'Home Nura | El Hogar Conectado, comparado para Europa',
   it: 'Home Nura | La Casa Connessa, confrontata per l\'Europa',
   nl: 'Home Nura | Het Slimme Huis, vergeleken voor Europa',
-  pl: 'Home Nura | Inteligentny dom porównany dla Europy',
+  pl: 'Home Nura | Inteligentny dom: niezależne porównania',
 };
 
 const metaDescriptions: Record<Lang, string> = {
@@ -51,7 +51,7 @@ const metaDescriptions: Record<Lang, string> = {
   es: 'Comparativas independientes del hogar conectado europeo: cocina, energía, seguridad, confort, limpieza y exterior. Siete mercados, un mismo método.',
   it: 'Confronti indipendenti della casa connessa europea: cucina, energia, sicurezza, comfort, pulizia ed esterno. Sette mercati, un solo metodo.',
   nl: 'Onafhankelijke vergelijkingen van het Europese slimme huis: keuken, energie, beveiliging, comfort, schoonmaak en buitenruimte. Zeven markten, één methode.',
-  pl: 'Niezależne porównania europejskiego inteligentnego domu: kuchnia, energia, bezpieczeństwo, komfort, sprzątanie i ogród. 7 rynków, jedna metoda.',
+  pl: 'Niezależne porównania sprzętu do inteligentnego domu w Europie: kuchnia, energia, bezpieczeństwo, komfort, sprzątanie i ogród. 7 rynków, jedna metoda.',
 };
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {

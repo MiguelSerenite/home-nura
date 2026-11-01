@@ -18,7 +18,7 @@ export const article: BlogArticle = {
         es: 'Patatas fritas doradas en una pequeña cesta metálica, el tipo de resultado crujiente que se espera de una freidora de aire compacta de 4 litros',
         it: 'Patatine dorate in un piccolo cestello metallico, il risultato croccante che ci si aspetta da una friggitrice ad aria compatta da 4 litri',
         nl: 'Goudbruine friet in een klein draadmandje, het knapperige resultaat dat je van een compacte airfryer van 4 liter verwacht',
-        pl: 'Złociste frytki w małym metalowym koszyku: taka chrupiąca obróbka jest oczekiwana od kompaktowej frytkownicy beztłuszczowej o pojemności 4 litrów',
+        pl: 'Złociste frytki w małym metalowym koszu – takiej chrupkości oczekuje się od kompaktowej frytkownicy beztłuszczowej 4 l',
       },
     },
   ],
@@ -38,7 +38,7 @@ export const article: BlogArticle = {
     es: 'Nuestra opinión sobre la Xiaomi Smart Air Fryer Pro 4L, basada en la ficha técnica, análisis independientes y opiniones de compradores: una freidora de aire conectada y compacta, con ventana, funciones de baja temperatura y app Xiaomi Home, ideal para 1 a 3 personas.',
     it: 'La nostra recensione della Xiaomi Smart Air Fryer Pro 4L, basata su scheda tecnica, recensioni indipendenti e opinioni degli acquirenti: una friggitrice ad aria connessa e compatta, con oblò, funzioni a bassa temperatura e app Xiaomi Home, ideale per 1-3 persone.',
     nl: 'Onze review van de Xiaomi Smart Air Fryer Pro 4L, gebaseerd op specificaties, onafhankelijke reviews en ervaringen van kopers: een compacte connected airfryer met kijkvenster, lagetemperatuurfuncties en de Xiaomi Home-app, ideaal voor 1 tot 3 personen.',
-    pl: 'Nasza analiza Xiaomi Smart Air Fryer Pro 4L, oparta na karcie technicznej, niezależnych recenzjach i opiniach kupujących: kompaktowa inteligentna frytkownica beztłuszczowa z okienkiem podglądowym, funkcjami niskotemperaturowymi i aplikacją Xiaomi Home, idealna dla 1–3 osób.',
+    pl: 'Omówienie frytkownicy Xiaomi Smart Air Fryer Pro 4L na podstawie karty katalogowej, niezależnych recenzji i opinii kupujących: kompaktowa frytkownica beztłuszczowa z Wi-Fi, okienkiem, funkcjami do pracy w niskiej temperaturze i aplikacją Xiaomi Home, idealna dla 1–3 osób.',
   },
   content: {
     fr: `<p><strong>Le Xiaomi Smart Air Fryer Pro 4L est un bon airfryer connecté d’entrée de gamme pour 1 à 3 personnes</strong> : compact, doté d’un hublot pour surveiller la cuisson et pilotable depuis l’application Xiaomi Home, il se distingue surtout par ses fonctions basse température (40 à 80 °C). Ses limites sont claires : un panier de 4 litres, une température plafonnée à 200 °C et une chaleur moins homogène que sur les modèles plus puissants, qui impose de secouer les aliments.</p>
@@ -610,100 +610,100 @@ export const article: BlogArticle = {
 
 <h2>Ons oordeel</h2>
 <p>In 2026 blijft de Xiaomi Smart Air Fryer Pro 4L een verstandige keuze voor een stel, een student of een klein huishouden dat een connected, compacte en veelzijdige airfryer zoekt. Het verlichte kijkvenster en de lagetemperatuurfuncties onderscheiden hem van de meeste concurrenten van hetzelfde formaat. Daar staan een beperkte inhoud, minder gelijkmatige hitte en een mand voor de handwas tegenover. Kook je voor meer dan drie personen, kijk dan eerder naar de Philips 3000 Series XL of de Cosori Dual Blaze; wil je een klein connected model dat makkelijker schoon te maken is, overweeg dan de Cosori Lite 3.8L.</p>`,
-    pl: `<p><strong>Xiaomi Smart Air Fryer Pro 4L to dobra, budżetowa inteligentna frytkownica beztłuszczowa dla 1–3 osób</strong>: kompaktowa, z okienkiem do obserwowania smażenia i sterowaniem z aplikacji Xiaomi Home, wyróżnia się przede wszystkim funkcjami niskotemperaturowymi (40–80 °C). Jej ograniczenia są jasne: kosz o pojemności 4 litrów, temperatura ograniczona do 200 °C i mniej równomierne ciepło niż w mocniejszych modelach, co wymaga potrząsania jedzeniem.</p>
-<p>Ta analiza opiera się na karcie technicznej opublikowanej przez Xiaomi, niezależnych recenzjach prasy specjalistycznej i opiniach zweryfikowanych kupujących. Nie przedstawiamy własnych pomiarów: naszą rolą jest zestawienie tych źródeł, by pomóc Ci zdecydować. Wszystkie porównywane modele znajdziesz na naszej stronie <a href="/pl/cuisine-connectee/airfryers">frytkownice beztłuszczowe</a>.</p>
+    pl: `<p><strong>Xiaomi Smart Air Fryer Pro 4L to dobra inteligentna frytkownica beztłuszczowa z niższej półki dla 1–3 osób</strong>: jest kompaktowa, ma okienko, przez które widać jedzenie, można nią sterować z aplikacji Xiaomi Home, a wyróżnia się przede wszystkim funkcjami do pracy w niskiej temperaturze (40–80 °C). Jej ograniczenia są jasne: kosz ma 4 l pojemności, temperatura kończy się na 200 °C, a ciepło rozkłada się mniej równo niż w mocniejszych modelach, więc jedzeniem trzeba potrząsać.</p>
+<p>To omówienie opiera się na karcie katalogowej opublikowanej przez Xiaomi, niezależnych recenzjach w prasie specjalistycznej i opiniach zweryfikowanych kupujących. Nie przedstawiamy własnych pomiarów: zestawiamy te źródła, żeby ułatwić Ci decyzję. Wszystkie porównywane modele znajdziesz w naszej kategorii <a href="/pl/cuisine-connectee/airfryers">frytkownice beztłuszczowe</a>.</p>
 
-<h2>Karta techniczna Xiaomi Smart Air Fryer Pro 4L</h2>
+<h2>Dane techniczne Xiaomi Smart Air Fryer Pro 4L</h2>
 <table>
 <thead><tr><th>Cecha</th><th>Szczegóły (dane producenta)</th></tr></thead>
 <tbody>
-<tr><td>Pojemność kosza</td><td>4 litry</td></tr>
+<tr><td>Pojemność kosza</td><td>4 l</td></tr>
 <tr><td>Moc</td><td>1600 W</td></tr>
 <tr><td>Zakres temperatur</td><td>40–200 °C</td></tr>
-<tr><td>Programy</td><td>11 gotowych trybów według Xiaomi oraz tryb ręczny</td></tr>
-<tr><td>Obsługa</td><td>Ekran OLED i pokrętło (obrót do ustawiania, naciśnięcie do zatwierdzania)</td></tr>
-<tr><td>Okienko podglądowe</td><td>Przezroczysta szyba z potrójną warstwą izolacyjną, oświetlenie wewnętrzne</td></tr>
+<tr><td>Programy</td><td>11 programów automatycznych według Xiaomi oraz tryb ręczny</td></tr>
+<tr><td>Sterowanie</td><td>Ekran OLED i pokrętło (obrót ustawia, naciśnięcie zatwierdza)</td></tr>
+<tr><td>Okienko</td><td>Przezroczysta szyba z trzema warstwami izolacji, podświetlenie wnętrza</td></tr>
 <tr><td>Łączność</td><td>Wi-Fi, aplikacja Xiaomi Home (ponad 100 przepisów), Asystent Google</td></tr>
-<tr><td>Opóźniony start</td><td>Tak, programowany z wyprzedzeniem z aplikacji</td></tr>
-<tr><td>Wymiary</td><td>Około 25,1 x 33,5 x 30,4 cm</td></tr>
+<tr><td>Opóźniony start</td><td>Tak, można go zaprogramować z wyprzedzeniem w aplikacji</td></tr>
+<tr><td>Wymiary</td><td>Około 25,1 × 33,5 × 30,4 cm</td></tr>
 <tr><td>Waga</td><td>Około 3,9 kg</td></tr>
 </tbody>
 </table>
-<p>Wprowadzony w Europie wiosną 2023 roku, ten model pozostaje w 2026 roku jedną z najpopularniejszych małych inteligentnych frytkownic beztłuszczowych, zwłaszcza na Amazon i w sieci sklepów Xiaomi.</p>
+<p>Model, który trafił do Europy wiosną 2023 roku, w 2026 roku wciąż należy do najpopularniejszych małych frytkownic beztłuszczowych z Wi-Fi, zwłaszcza na Amazon i w sieci sklepów Xiaomi.</p>
 
-<h2>Mocne strony</h2>
+<h2>Zalety</h2>
 <h3>Naprawdę przydatne okienko</h3>
-<p>Pierwszym atutem Xiaomi Smart Air Fryer Pro jest przezroczysta szyba, oświetlona od środka. W klasycznej frytkownicy beztłuszczowej z szufladą trzeba otworzyć kosz, by sprawdzić smażenie, co obniża temperaturę. Tutaj wystarczy rzut oka, by wiedzieć, czy frytki są już złociste, a warzywa zaczynają się rumienić. Opinie kupujących regularnie wskazują ten szczegół jako główny powód wyboru, a prasa specjalistyczna doceniła go już przy premierze.</p>
+<p>Pierwszym atutem Xiaomi Smart Air Fryer Pro jest przezroczysta szyba podświetlona od środka. W klasycznej frytkownicy z szufladą trzeba wysunąć kosz, żeby sprawdzić, jak idzie smażenie, a wtedy temperatura spada. Tutaj wystarczy rzut oka, żeby zobaczyć, czy frytki są już złociste albo czy warzywa zaczynają się przypiekać. Kupujący często wymieniają ten szczegół jako główny powód zakupu, a prasa specjalistyczna doceniła go już w momencie premiery.</p>
 
-<h3>Funkcje niskotemperaturowe, rzadkie w tej klasie</h3>
-<p>Zakres 40–80 °C otwiera zastosowania, które rzadko spotyka się w kompaktowej frytkownicy beztłuszczowej: delikatne rozmrażanie, wyrastanie ciasta, domowy jogurt, suszenie owoców i podtrzymywanie ciepła bez wysuszania potraw. To nie jest dedykowana suszarka, a mała pojemność ogranicza ilości, ale przy chipsach jabłkowych czy okazjonalnym jogurcie to realny plus.</p>
+<h3>Praca w niskiej temperaturze – rzadkość w tej klasie</h3>
+<p>Zakres 40–80 °C pozwala na rzeczy, których zwykle nie zrobisz w kompaktowej frytkownicy: delikatne rozmrażanie, wyrastanie ciasta, domowy jogurt, suszenie owoców i podtrzymywanie ciepła bez wysuszania potraw. Nie zastąpi to osobnej suszarki do żywności, a mała pojemność ogranicza porcje, ale przy chipsach jabłkowych czy jogurcie robionym od czasu do czasu to realna zaleta.</p>
 
-<h3>Kompletna aplikacja i prosta obsługa</h3>
-<p>Aplikacja Xiaomi Home pozwala uruchamiać i śledzić smażenie zdalnie, zmieniać czas lub temperaturę, programować opóźniony start i korzystać z ponad 100 przepisów dopasowanych do formatu 4 litrów. Sterowanie głosowe działa przez Asystenta Google. Na samym urządzeniu pokrętło i ekran OLED pozostają proste: obracasz, naciskasz, a przypomnienie sygnalizuje moment potrząśnięcia koszem. Jeśli masz już urządzenia Xiaomi (robot odkurzający, oczyszczacz, żarówki), integracja jest naturalna.</p>
+<h3>Rozbudowana aplikacja i prosta obsługa</h3>
+<p>Aplikacja Xiaomi Home pozwala zdalnie uruchomić i śledzić smażenie, zmienić czas lub temperaturę, zaprogramować opóźniony start i korzystać z ponad 100 przepisów dopasowanych do kosza 4 l. Sterowanie głosowe działa przez Asystenta Google. Na samym urządzeniu obsługa pokrętłem i ekranem OLED jest prosta: obracasz, naciskasz, a frytkownica sama przypomina, kiedy potrząsnąć koszem. Jeśli masz już inne urządzenia Xiaomi (robota odkurzającego, oczyszczacz powietrza, żarówki), bez trudu dołączysz ją do reszty.</p>
 
-<h3>Kompaktowy format i stonowany design</h3>
-<p>Przy szerokości około 25 cm i wadze 3,9 kg łatwo go przechowywać i zajmuje mało miejsca na wąskim blacie, w kawalerce czy wynajmowanej kuchni. Jego biały, oszczędny wygląd odcina się od masywniejszych, czarnych frytkownic beztłuszczowych.</p>
+<h3>Kompaktowe wymiary i stonowany wygląd</h3>
+<p>Frytkownica ma około 25 cm szerokości i waży 3,9 kg, więc łatwo ją schować, a na wąskim blacie, w kawalerce czy w wynajmowanym mieszkaniu zajmuje mało miejsca. Biała, minimalistyczna obudowa wyróżnia się na tle masywniejszych czarnych frytkownic.</p>
 
-<h2>Ograniczenia</h2>
+<h2>Wady</h2>
 <ul>
-<li><strong>Pojemność pomyślana dla małych gospodarstw</strong>: Xiaomi wspomina o użyciu do 5 osób, ale opinie użytkowników i niezależne recenzje wskazują raczej komfort użytkowania dla 2–3 osób. Aby frytki były chrupiące, nie należy przeładowywać kosza.</li>
-<li><strong>Mniej równomierne ciepło</strong>: kilka opinii zauważa, że jedzenie w środku rumieni się wolniej niż przy brzegach. Potrząsanie lub obracanie w połowie smażenia jest konieczne, jak w większości frytkownic beztłuszczowych z jedną grzałką tej wielkości.</li>
-<li><strong>Maksymalnie 200 °C</strong>: wystarczy do frytek, kurczaka czy warzyw, ale mniej nadaje się do bardzo intensywnego obsmażania. Modele takie jak Cosori Lite sięgają 230 °C.</li>
-<li><strong>Konserwacja kosza</strong>: według opublikowanych opinii kosz myje się ręcznie, a w zmywarce można myć tylko wyjmowaną kratkę. Sprawdź instrukcję swojej wersji.</li>
-<li><strong>Aplikacja do dopracowania</strong>: funkcjonalna i bogata w przepisy, jest oceniana jako mniej przyjemna niż aplikacje Cosori czy Philips. Założenie konta i parowanie Wi-Fi to etapy, które budzą najwięcej pytań wśród kupujących.</li>
+<li><strong>Pojemność dla małych gospodarstw domowych</strong>: Xiaomi mówi o użytkowaniu przez maksymalnie 5 osób, ale według opinii użytkowników i niezależnych recenzji frytkownica najlepiej sprawdza się przy 2–3 osobach. Jeśli frytki mają być chrupiące, nie przeładowuj kosza.</li>
+<li><strong>Mniej równomierne grzanie</strong>: według kilku opinii jedzenie na środku kosza rumieni się wolniej niż przy brzegach. W połowie smażenia trzeba nim potrząsnąć albo je obrócić – jak w większości frytkownic tej wielkości z jedną grzałką.</li>
+<li><strong>Maksymalnie 200 °C</strong>: wystarczy do frytek, kurczaka czy warzyw, ale gorzej sprawdza się przy bardzo mocnym obsmażaniu. Modele takie jak Cosori Lite osiągają 230 °C.</li>
+<li><strong>Mycie kosza</strong>: według opublikowanych opinii kosz trzeba myć ręcznie, a do zmywarki nadaje się tylko wyjmowana kratka. Sprawdź to w instrukcji swojej wersji.</li>
+<li><strong>Aplikacja do dopracowania</strong>: działa i ma dużo przepisów, ale jest oceniana jako mniej wygodna niż aplikacje Cosori czy Philipsa. Najwięcej pytań kupujących dotyczy zakładania konta i łączenia urządzenia z Wi-Fi.</li>
 </ul>
 
 <h2>Co mówią kupujący i prasa</h2>
-<p>Opinie zweryfikowanych kupujących są zgodne co do trzech pozytywów: okienka do obserwacji, kompaktowych rozmiarów i dobrego stosunku funkcji do pozycji cenowej. Krytyka dotyczy głównie wielkości kosza, gdy rodzina się powiększa, konieczności potrząsania jedzeniem oraz aplikacji, uznawanej za nieco surową. Europejska prasa technologiczna przyjęła ten model ogólnie przychylnie, polecając go parom i małym gospodarstwom, które chcą inteligentnej frytkownicy beztłuszczowej bez zajmowania dużo miejsca.</p>
+<p>Zweryfikowani kupujący zgodnie chwalą trzy rzeczy: okienko, kompaktowe wymiary i dużo funkcji jak na tę półkę cenową. Krytykują głównie zbyt mały kosz, gdy rodzina się powiększa, konieczność potrząsania jedzeniem i aplikację, która wydaje się nieco surowa. Europejska prasa technologiczna przyjęła ten model w większości przychylnie i polecała go parom oraz małym gospodarstwom domowym, które chcą frytkownicy z Wi-Fi zajmującej niewiele miejsca.</p>
 
-<h2>Dla kogo jest przeznaczony?</h2>
+<h2>Dla kogo?</h2>
 <ul>
-<li><strong>Tak</strong>, jeśli gotujesz dla 1–3 osób, masz mało miejsca, lubisz obserwować smażenie bez otwierania szuflady albo korzystasz już z ekosystemu Xiaomi Home.</li>
-<li><strong>Nie</strong>, jeśli regularnie karmisz 4 osoby lub więcej, chcesz przygotowywać dwie potrawy jednocześnie albo szukasz możliwie najbardziej równomiernego smażenia bez interwencji.</li>
+<li><strong>Tak</strong>, jeśli gotujesz dla 1–3 osób, masz mało miejsca, lubisz zaglądać do jedzenia bez wysuwania szuflady albo już korzystasz z ekosystemu Xiaomi Home.</li>
+<li><strong>Nie</strong>, jeśli regularnie gotujesz dla czterech lub więcej osób, chcesz przygotowywać dwie potrawy jednocześnie albo zależy Ci na jak najrówniejszym smażeniu bez Twojego udziału.</li>
 </ul>
-<p>Przy ograniczonym budżecie porównaj też z naszym zestawieniem <a href="/pl/blog/meilleur-airfryer-petit-budget">najlepszych tanich frytkownic beztłuszczowych</a>.</p>
+<p>Jeśli masz ograniczony budżet, porównaj też modele z naszego zestawienia <a href="/pl/blog/meilleur-airfryer-petit-budget">najlepszych tanich frytkownic beztłuszczowych</a>.</p>
 
-<h2>Alternatywy do rozważenia</h2>
-<h3>Cosori Lite 3.8L Air Fryer – kompaktowa inteligentna alternatywa</h3>
-<p>Bardzo podobny format (3,8 litra, 1500 W), ale temperatura sięga 230 °C, aplikacja VeSync jest dobrze oceniana, a akcesoria z powłoką nieprzywierającą są deklarowane jako nadające się do zmywarki. Nie ma okienka ani funkcji niskotemperaturowych. Wybierz go, jeśli stawiasz na łatwość konserwacji i wyższą temperaturę maksymalną.</p>
+<h2>Alternatywy</h2>
+<h3>Cosori Lite 3.8L Air Fryer – kompaktowa alternatywa z aplikacją</h3>
+<p>Bardzo podobne wymiary (3,8 l, 1500 W), ale temperatura dochodzi do 230 °C, aplikacja VeSync jest dobrze oceniana, a akcesoria z powłoką nieprzywierającą według producenta można myć w zmywarce. Nie ma za to okienka ani funkcji do pracy w niskiej temperaturze. Wybierz go, jeśli liczy się dla Ciebie łatwe czyszczenie i wyższa temperatura maksymalna.</p>
 
-<h3>Philips Airfryer Seria 3000 XL – 6.2L – na krok większy rozmiar</h3>
-<p>Z pojemnością 6,2 litra i mocą 2000 W ten Philips lepiej pasuje do gospodarstw 3–5-osobowych. Ma wiele programów i przepisy przez aplikację Philips, ale nie steruje się nim zdalnie przez Wi-Fi. To logiczny wybór, jeśli pojemność Xiaomi wydaje Ci się za mała.</p>
+<h3>Philips Airfryer Seria 3000 XL (6,2 l) – o krok większy model</h3>
+<p>Ten Philips ma 6,2 l pojemności i moc 2000 W, więc lepiej sprawdzi się w gospodarstwach 3–5-osobowych. Oferuje wiele programów i przepisy w aplikacji Philipsa, ale nie da się nim sterować zdalnie przez Wi-Fi. To logiczny wybór, jeśli pojemność Xiaomi wydaje Ci się za mała.</p>
 
-<h3>Moulinex Easy Fry Max 5L – klasyk bez łączności</h3>
-<p>5 litrów, 1500 W i około dziesięciu programów automatycznych: prosta, sprawdzona frytkownica beztłuszczowa bez aplikacji. Pasuje, jeśli łączność Cię nie interesuje, a chcesz trochę większej pojemności dla rodziny 3–4-osobowej.</p>
+<h3>Moulinex Easy Fry Max 5L – klasyk bez aplikacji</h3>
+<p>5 l, 1500 W i około dziesięciu programów automatycznych: prosta, sprawdzona frytkownica bez aplikacji. Sprawdzi się, jeśli łączność Cię nie interesuje, a potrzebujesz nieco większej pojemności dla rodziny 3–4-osobowej.</p>
 
-<h3>Cosori Dual Blaze Smart Air Fryer – 6.4L – dla bardziej równomiernego smażenia</h3>
-<p>Jego podwójna grzałka, u góry i u dołu kosza, ogranicza potrzebę obracania jedzenia, a steruje się nim przez aplikację VeSync. Większy i z wyższej półki, odpowiada dokładnie na główną krytykę kierowaną pod adresem Xiaomi.</p>
+<h3>Cosori Dual Blaze Smart Air Fryer (6,4 l) – dla równiejszego smażenia</h3>
+<p>Dwie grzałki, u góry i na dole kosza, sprawiają, że rzadziej trzeba obracać jedzenie, a frytkownicą steruje się przez aplikację VeSync. Jest większa i z wyższej półki, ale rozwiązuje dokładnie ten problem, który kupujący najczęściej wytykają modelowi Xiaomi.</p>
 
 <h2>Tabela porównawcza</h2>
 <table>
-<thead><tr><th>Model</th><th>Pojemność</th><th>Kluczowy atut</th><th>Łączność</th><th>Idealny do</th></tr></thead>
+<thead><tr><th>Model</th><th>Pojemność</th><th>Główny atut</th><th>Łączność</th><th>Dla kogo</th></tr></thead>
 <tbody>
-<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 L</td><td>Oświetlone okienko, 40–200 °C</td><td>Wi-Fi, Xiaomi Home, Asystent Google</td><td>1–3 osób, małych kuchni</td></tr>
-<tr><td>Cosori Lite 3.8L</td><td>3,8 L</td><td>Do 230 °C</td><td>Wi-Fi, VeSync</td><td>1–3 osób, łatwa konserwacja</td></tr>
-<tr><td>Philips Seria 3000 XL</td><td>6,2 L</td><td>2000 W, duży kosz</td><td>Aplikacja z przepisami</td><td>3–5 osób</td></tr>
-<tr><td>Moulinex Easy Fry Max 5L</td><td>5 L</td><td>Prostota, programy automatyczne</td><td>Brak</td><td>3–4 osób bez aplikacji</td></tr>
-<tr><td>Cosori Dual Blaze 6.4L</td><td>6,4 L</td><td>Podwójna grzałka</td><td>Wi-Fi, VeSync</td><td>Równomierne smażenie bez obracania</td></tr>
+<tr><td>Xiaomi Smart Air Fryer Pro 4L</td><td>4 l</td><td>Podświetlone okienko, 40–200 °C</td><td>Wi-Fi, Xiaomi Home, Asystent Google</td><td>1–3 osoby, małe kuchnie</td></tr>
+<tr><td>Cosori Lite 3.8L</td><td>3,8 l</td><td>Do 230 °C</td><td>Wi-Fi, VeSync</td><td>1–3 osoby, łatwe czyszczenie</td></tr>
+<tr><td>Philips Seria 3000 XL</td><td>6,2 l</td><td>2000 W, duży kosz</td><td>Aplikacja z przepisami</td><td>3–5 osób</td></tr>
+<tr><td>Moulinex Easy Fry Max 5L</td><td>5 l</td><td>Prostota, programy automatyczne</td><td>Brak</td><td>3–4 osoby, bez aplikacji</td></tr>
+<tr><td>Cosori Dual Blaze 6.4L</td><td>6,4 l</td><td>Dwie grzałki</td><td>Wi-Fi, VeSync</td><td>Równe smażenie bez obracania</td></tr>
 </tbody>
 </table>
-<p>Aby dowiedzieć się więcej o modelach sterowanych zdalnie, zajrzyj do naszego <a href="/pl/blog/comparatif-airfryer-connecte-2026">porównania inteligentnych frytkownic beztłuszczowych</a>.</p>
+<p>Jeśli chcesz dowiedzieć się więcej o modelach sterowanych zdalnie, zajrzyj do naszego <a href="/pl/blog/comparatif-airfryer-connecte-2026">porównania frytkownic beztłuszczowych z Wi-Fi</a>.</p>
 
 <h2>Pierwsze uruchomienie</h2>
-<p>Uruchomienie jest proste, ale kilka kroków pozwala uniknąć niespodzianek. Usuń wszystkie folie i etykiety, umyj kosz i kratkę wodą z mydłem, a następnie uruchom urządzenie na kilka minut na pusto, jak zaleca większość producentów, by pozbyć się zapachu nowości. Jeśli chodzi o część inteligentną, zainstaluj aplikację Xiaomi Home, załóż lub użyj swojego konta Xiaomi, wybierz europejski region serwera i trzymaj telefon blisko urządzenia podczas parowania Wi-Fi. Jeśli połączenie się nie uda, sprawdź, czy telefon jest podłączony do tej samej sieci domowej, i zresetuj Wi-Fi urządzenia zgodnie z instrukcją. Po sparowaniu możesz dodać je do Google Home, by sterować głosem.</p>
+<p>Uruchomienie jest proste, ale kilka kroków pozwoli uniknąć przykrych niespodzianek. Zdejmij wszystkie folie i naklejki, umyj kosz i kratkę w wodzie z płynem do naczyń, a potem – jak zaleca większość producentów – włącz pustą frytkownicę na kilka minut, żeby pozbyć się zapachu nowego urządzenia. Aby połączyć ją z aplikacją, zainstaluj Xiaomi Home, załóż konto Xiaomi lub zaloguj się na istniejące, wybierz europejski region serwera i podczas łączenia z Wi-Fi trzymaj telefon blisko urządzenia. Jeśli połączenie się nie uda, sprawdź, czy telefon jest podłączony do tej samej sieci domowej, i zresetuj ustawienia Wi-Fi urządzenia zgodnie z instrukcją. Po sparowaniu możesz dodać frytkownicę do Google Home i sterować nią głosem.</p>
 
-<h2>Błędy, których warto unikać, i wskazówki użytkowania</h2>
+<h2>Błędy, których warto unikać, i porady</h2>
 <ul>
-<li><strong>Przeładowanie kosza</strong>: przy 4 litrach cienka warstwa daje znacznie lepsze efekty. Lepiej dwie partie niż miękkie smażenie.</li>
-<li><strong>Zapomnienie o potrząsaniu</strong>: reaguj na przypomnienie urządzenia i potrząśnij lub obróć jedzenie w połowie smażenia.</li>
-<li><strong>Pominięcie podgrzewania wstępnego</strong>: kilka minut wstępnego nagrzewania wyraźnie poprawia chrupkość frytek i panierek.</li>
-<li><strong>Używanie metalowych przyborów</strong>: niszczą powłokę nieprzywierającą. Wybierz silikon lub drewno.</li>
-<li><strong>Przysuwanie urządzenia do ściany</strong>: zostaw wolną przestrzeń wokół wylotu gorącego powietrza, postaw je na stabilnej powierzchni odpornej na ciepło i nie uruchamiaj pod niską szafką.</li>
-<li><strong>Uruchamianie opóźnionego startu z produktami łatwo psującymi się</strong>: programowanie zdalne jest wygodne, ale unikaj pozostawiania surowego mięsa lub ryb w temperaturze pokojowej przez wiele godzin.</li>
+<li><strong>Przeładowywanie kosza</strong>: przy pojemności 4 l cienka warstwa daje znacznie lepsze efekty. Lepiej smażyć w dwóch partiach, niż wyjąć miękkie, niechrupiące jedzenie.</li>
+<li><strong>Zapominanie o potrząsaniu</strong>: gdy urządzenie Ci przypomni, w połowie smażenia potrząśnij koszem albo obróć jedzenie.</li>
+<li><strong>Pomijanie nagrzewania wstępnego</strong>: kilka minut nagrzewania wyraźnie poprawia chrupkość frytek i panierowanych potraw.</li>
+<li><strong>Używanie metalowych przyborów</strong>: niszczą powłokę nieprzywierającą. Wybieraj silikonowe lub drewniane.</li>
+<li><strong>Ustawianie urządzenia tuż przy ścianie</strong>: zostaw wolną przestrzeń wokół wylotu gorącego powietrza, stawiaj frytkownicę na stabilnej, żaroodpornej powierzchni i nie włączaj jej pod niską szafką.</li>
+<li><strong>Programowanie opóźnionego startu z produktami, które szybko się psują</strong>: zdalne programowanie jest wygodne, ale nie zostawiaj surowego mięsa ani ryb na wiele godzin w temperaturze pokojowej.</li>
 </ul>
 
 <h2>Nasz werdykt</h2>
-<p>Xiaomi Smart Air Fryer Pro 4L pozostaje w 2026 roku trafnym wyborem dla pary, studenta lub małego gospodarstwa, które chce kompaktowej, wszechstronnej inteligentnej frytkownicy beztłuszczowej. Oświetlone okienko i funkcje niskotemperaturowe odróżniają go od większości konkurentów o podobnym formacie. Trzeba natomiast zaakceptować ograniczoną pojemność, mniej równomierne ciepło i kosz do mycia ręcznego. Jeśli gotujesz dla więcej niż trzech osób, sięgnij raczej po Philips Seria 3000 XL lub Cosori Dual Blaze; jeśli chcesz mniejszy model inteligentny, łatwiejszy w konserwacji, zobacz Cosori Lite 3.8L.</p>`,
+<p>Xiaomi Smart Air Fryer Pro 4L w 2026 roku wciąż jest dobrym wyborem dla pary, studenta lub małego gospodarstwa domowego, które szuka kompaktowej i wszechstronnej frytkownicy beztłuszczowej z Wi-Fi. Podświetlone okienko i funkcje do pracy w niskiej temperaturze odróżniają ją od większości konkurentów tej wielkości. Trzeba się jednak pogodzić z niewielką pojemnością, mniej równomiernym grzaniem i koszem do mycia ręcznego. Jeśli gotujesz dla więcej niż trzech osób, wybierz raczej Philips Seria 3000 XL lub Cosori Dual Blaze, a jeśli chcesz małego modelu z aplikacją, który łatwiej utrzymać w czystości, sprawdź Cosori Lite 3.8L.</p>`,
   },
   faq: [
     {
@@ -723,7 +723,7 @@ export const article: BlogArticle = {
         es: 'Sirve para guarniciones, pero no es ideal para una comida completa. Las opiniones de usuarios sitúan su uso cómodo en 2 o 3 personas. Para 4 o más, un modelo de 5 a 6 litros, como la Philips Serie 3000 XL, resulta más práctico.',
         it: 'Va bene per i contorni, ma non è ideale per un pasto completo. Le opinioni degli utenti ne collocano l’uso comodo a 2 o 3 persone. Per 4 persone o più, un modello da 5-6 litri come la Philips Serie 3000 XL è più pratico.',
         nl: 'Voor bijgerechten lukt het, maar voor een volledige maaltijd is hij krap. Gebruikers plaatsen comfortabel gebruik bij 2 tot 3 personen. Voor 4 of meer is een model van 5 tot 6 liter, zoals de Philips 3000 Series XL, praktischer.',
-        pl: 'Do dodatków to możliwe, ale nie jest idealny do pełnego posiłku. Opinie użytkowników wskazują komfortowe użytkowanie dla 2–3 osób. Dla 4 osób i więcej wygodniejszy będzie model 5–6-litrowy, jak Philips Seria 3000 XL.',
+        pl: 'Do dodatków tak, ale do przygotowania całego posiłku nie jest najlepszym wyborem. Według opinii użytkowników najwygodniej korzysta się z niej przy 2–3 osobach. Dla czterech lub więcej osób praktyczniejszy będzie model 5–6 l, np. Philips Seria 3000 XL.',
       },
     },
     {
@@ -734,7 +734,7 @@ export const article: BlogArticle = {
         es: '¿Se puede controlar la Xiaomi Smart Air Fryer Pro por voz?',
         it: 'Si può controllare la Xiaomi Smart Air Fryer Pro con la voce?',
         nl: 'Kun je de Xiaomi Smart Air Fryer Pro met je stem bedienen?',
-        pl: 'Czy Xiaomi Smart Air Fryer Pro można sterować głosem?',
+        pl: 'Czy frytkownicą Xiaomi Smart Air Fryer Pro można sterować głosem?',
       },
       answer: {
         fr: 'Oui, Xiaomi annonce la compatibilité avec Google Assistant, une fois l’appareil associé à l’application Xiaomi Home. L’application permet aussi de lancer, suivre et programmer une cuisson à distance.',
@@ -743,7 +743,7 @@ export const article: BlogArticle = {
         es: 'Sí, Xiaomi indica compatibilidad con Google Assistant una vez vinculada a la app Xiaomi Home. La app también permite iniciar, seguir y programar la cocción a distancia.',
         it: 'Sì, Xiaomi dichiara la compatibilità con Google Assistant una volta abbinata all’app Xiaomi Home. L’app consente anche di avviare, seguire e programmare la cottura a distanza.',
         nl: 'Ja, Xiaomi vermeldt compatibiliteit met Google Assistent zodra het apparaat aan de Xiaomi Home-app is gekoppeld. Via de app kun je het bereiden ook op afstand starten, volgen en plannen.',
-        pl: 'Tak, Xiaomi deklaruje zgodność z Asystentem Google po sparowaniu urządzenia z aplikacją Xiaomi Home. Aplikacja pozwala też uruchamiać, śledzić i programować smażenie zdalnie.',
+        pl: 'Tak. Xiaomi deklaruje, że po połączeniu urządzenia z aplikacją Xiaomi Home frytkownica współpracuje z Asystentem Google. W aplikacji można też zdalnie uruchomić, śledzić i zaprogramować smażenie.',
       },
     },
     {
@@ -763,7 +763,7 @@ export const article: BlogArticle = {
         es: 'Permite descongelar con suavidad, fermentar masas, hacer yogur casero, deshidratar fruta y mantener un plato caliente sin resecarlo. Es poco habitual en una freidora compacta, aunque la capacidad limita las cantidades.',
         it: 'Permette di scongelare delicatamente, far lievitare l’impasto, preparare lo yogurt, essiccare la frutta e mantenere in caldo un piatto senza seccarlo. È raro su una friggitrice compatta, anche se la capacità limita le quantità.',
         nl: 'Je kunt er zacht mee ontdooien, deeg laten rijzen, yoghurt maken, fruit drogen en een gerecht warmhouden zonder dat het uitdroogt. Dat is zeldzaam op een compacte airfryer, al beperkt de inhoud de hoeveelheden.',
-        pl: 'Pozwala delikatnie rozmrażać, wyrastać ciasto, przygotować domowy jogurt, suszyć owoce i podtrzymywać ciepło potrawy bez jej wysuszania. To rzadki atut w kompaktowej frytkownicy beztłuszczowej, choć pojemność ogranicza ilości.',
+        pl: 'Ten zakres nadaje się do delikatnego rozmrażania, wyrastania ciasta, przygotowania domowego jogurtu, suszenia owoców i podtrzymywania ciepła potraw bez ich wysuszania. To rzadki atut w kompaktowej frytkownicy, choć mała pojemność ogranicza porcje.',
       },
     },
     {
@@ -783,7 +783,7 @@ export const article: BlogArticle = {
         es: 'Según análisis publicados, la cesta antiadherente se lava a mano, mientras que la rejilla extraíble puede ir al lavavajillas. Consulta el manual de tu unidad y evita estropajos abrasivos para cuidar el revestimiento.',
         it: 'Secondo recensioni pubblicate, il cestello antiaderente va lavato a mano, mentre la griglia rimovibile può andare in lavastoviglie. Consulta il manuale del tuo apparecchio ed evita spugne abrasive per proteggere il rivestimento.',
         nl: 'Volgens gepubliceerde reviews moet de antiaanbakmand met de hand worden afgewassen, terwijl het uitneembare rooster in de vaatwasser mag. Raadpleeg de handleiding van jouw toestel en vermijd schuursponsjes.',
-        pl: 'Według opublikowanych opinii kosz z powłoką nieprzywierającą myje się ręcznie, a wyjmowaną kratkę można myć w zmywarce. Sprawdź instrukcję swojego egzemplarza i unikaj ostrych gąbek, by zachować powłokę.',
+        pl: 'Według opublikowanych opinii kosz z powłoką nieprzywierającą trzeba myć ręcznie, a wyjmowaną kratkę można włożyć do zmywarki. Sprawdź instrukcję swojego egzemplarza i nie używaj szorstkich gąbek, żeby nie uszkodzić powłoki.',
       },
     },
     {
@@ -803,7 +803,7 @@ export const article: BlogArticle = {
         es: 'Sí. Varios análisis independientes señalan que el centro de la cesta se dora más despacio que los bordes. El aparato muestra un aviso: remueve o da la vuelta a mitad de cocción y no sobrecargues la cesta.',
         it: 'Sì. Diverse recensioni indipendenti notano che il centro del cestello si dora più lentamente dei bordi. L’apparecchio mostra un promemoria: scuoti o gira a metà cottura e non sovraccaricare il cestello.',
         nl: 'Ja. Diverse onafhankelijke reviews merken op dat het midden van de mand langzamer bruint dan de randen. Het apparaat geeft een herinnering: halverwege schudden of omdraaien en de mand niet overladen.',
-        pl: 'Tak. Kilka niezależnych recenzji zauważa, że środek kosza rumieni się wolniej niż brzegi. Urządzenie wyświetla przypomnienie: potrząśnij lub obróć jedzenie w połowie smażenia i nie przeładowuj kosza, by wynik był równomierny.',
+        pl: 'Tak. Według kilku niezależnych recenzji środek kosza rumieni się wolniej niż brzegi. Urządzenie wyświetla przypomnienie: w połowie smażenia potrząśnij koszem albo obróć jedzenie i nie przeładowuj kosza, a efekt będzie równy.',
       },
     },
     {
@@ -814,7 +814,7 @@ export const article: BlogArticle = {
         es: 'Xiaomi Smart Air Fryer Pro 4L o Cosori Lite 3.8L: ¿cuál elegir?',
         it: 'Xiaomi Smart Air Fryer Pro 4L o Cosori Lite 3.8L: quale scegliere?',
         nl: 'Xiaomi Smart Air Fryer Pro 4L of Cosori Lite 3.8L: welke kiezen?',
-        pl: 'Xiaomi Smart Air Fryer Pro 4L czy Cosori Lite 3.8L: co wybrać?',
+        pl: 'Xiaomi Smart Air Fryer Pro 4L czy Cosori Lite 3.8L: którą wybrać?',
       },
       answer: {
         fr: 'Choisissez le Xiaomi pour son hublot éclairé, ses fonctions basse température et l’écosystème Xiaomi Home. Préférez le Cosori Lite pour sa température maximale de 230 °C, son application VeSync et ses accessoires annoncés compatibles lave-vaisselle.',
@@ -823,7 +823,7 @@ export const article: BlogArticle = {
         es: 'Elige la Xiaomi por su ventana iluminada, sus funciones de baja temperatura y el ecosistema Xiaomi Home. Prefiere la Cosori Lite por sus 230 °C máximos, la app VeSync y accesorios anunciados como aptos para lavavajillas.',
         it: 'Scegli la Xiaomi per l’oblò illuminato, le funzioni a bassa temperatura e l’ecosistema Xiaomi Home. Preferisci la Cosori Lite per i 230 °C massimi, l’app VeSync e gli accessori indicati come lavabili in lavastoviglie.',
         nl: 'Kies de Xiaomi voor het verlichte venster, de lagetemperatuurfuncties en het Xiaomi Home-ecosysteem. Kies de Cosori Lite voor 230 °C maximaal, de VeSync-app en accessoires die vaatwasserbestendig worden genoemd.',
-        pl: 'Wybierz Xiaomi ze względu na oświetlone okienko, funkcje niskotemperaturowe i ekosystem Xiaomi Home. Postaw na Cosori Lite dla temperatury maksymalnej 230 °C, aplikacji VeSync i akcesoriów deklarowanych jako nadające się do zmywarki.',
+        pl: 'Wybierz Xiaomi, jeśli zależy Ci na podświetlonym okienku, funkcjach do pracy w niskiej temperaturze i ekosystemie Xiaomi Home. Postaw na Cosori Lite, jeśli chcesz wyższej temperatury maksymalnej (230 °C), aplikacji VeSync i akcesoriów, które według producenta można myć w zmywarce.',
       },
     },
   ],

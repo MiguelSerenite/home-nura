@@ -71,9 +71,9 @@ const ctaLabels: Record<string, { title: string; subtitle: string; button: strin
   },
   pl: {
     title: 'Nasze rekomendacje',
-    subtitle: 'Najwyżej oceniane modele z naszego wyboru',
+    subtitle: 'Najwyżej oceniane modele z naszego zestawienia',
     button: 'Sprawdź cenę na Amazon',
-    seeAll: 'Zobacz cały wybór',
+    seeAll: 'Zobacz całe zestawienie',
     disclosure: 'Link afiliacyjny Amazon: otrzymujemy prowizję, bez dodatkowych kosztów dla Ciebie.',
   },
 }
