@@ -103,11 +103,34 @@ export const LOCALE_LIMITED_SECTIONS: ReadonlyArray<{ readonly prefix: string; r
 ]
 
 /**
+ * Static guide routes every locale serves (app/[lang]/guides/{slug}).
+ * Any other /guides/{slug} is a market page (lib/market-pages), which
+ * exists in one locale only; tests/lib/market-pages/routes.test.ts keeps
+ * this list in step with the app directory.
+ */
+export const SHARED_GUIDE_SLUGS = ['acheteur', 'airfryer-vs-four', 'airfryers', 'cuisine-connectee', 'floor-care', 'probleme'] as const
+
+/** Sections whose every page exists in one locale only: market duels and news. */
+export const SINGLE_LOCALE_SECTIONS = ['/vs', '/news'] as const
+
+/**
+ * A market page (lib/market-pages): written natively for one locale, with
+ * a native slug, never translated. Duels (/vs/{slug}), news (/news/{slug})
+ * and guides at /guides/{slug} outside SHARED_GUIDE_SLUGS.
+ */
+export function isSingleLocalePath(pathInLocale: string): boolean {
+  if (SINGLE_LOCALE_SECTIONS.some((prefix) => pathInLocale.startsWith(`${prefix}/`))) return true
+  const guide = pathInLocale.match(/^\/guides\/([^/]+)$/)?.[1]
+  return guide !== undefined && !(SHARED_GUIDE_SLUGS as readonly string[]).includes(guide)
+}
+
+/**
  * The same page in another locale. Slugs are not translated (every locale
  * serves /{lang}/methodologie, /{lang}/guides/probleme/…), so only the
  * locale prefix changes. A path without a supported locale prefix has no
  * known equivalent and falls back to the target locale's home; a section
- * the target locale lacks (LOCALE_LIMITED_SECTIONS) to its stand-in page.
+ * the target locale lacks (LOCALE_LIMITED_SECTIONS) to its stand-in page;
+ * a market page (one locale only) to the target locale's home.
  */
 export function switchLocalePath(pathname: string | null | undefined, target: Lang): string {
   const match = pathname?.match(LOCALE_PREFIX)
@@ -115,6 +138,7 @@ export function switchLocalePath(pathname: string | null | undefined, target: La
   const rest = (match[2] ?? '').replace(/\/+$/, '')
   const limited = LOCALE_LIMITED_SECTIONS.find(({ prefix }) => rest === prefix || rest.startsWith(`${prefix}/`))
   if (limited && !limited.langs.includes(target)) return `/${target}${limited.fallback}`
+  if (target !== match[1] && isSingleLocalePath(rest)) return `/${target}`
   return `/${target}${rest}`
 }
 

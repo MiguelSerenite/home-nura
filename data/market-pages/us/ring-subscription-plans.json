@@ -1,0 +1,304 @@
+{
+  "locale": "us",
+  "type": "guide",
+  "slug": "ring-subscription-plans",
+  "updated": "2026-11-01",
+  "metaTitle": "Ring Subscription Plans 2026: Is Ring Protect Worth It?",
+  "metaDescription": "Is a Ring subscription worth it? Ring Protect plans and US fees, what works free, 3-year costs and doorbells that record video locally with no plan.",
+  "kicker": "Subscription guide",
+  "h1": "Ring Subscription Plans: Is Ring Protect Worth It in 2026?",
+  "answer": "Ring Solo ($4.99 a month or $49.99 a year, plus tax) is worth it for one doorbell only if you want recorded video and person or package alerts; Live View, motion alerts and Two-Way Talk work free. Ring Multi ($99.99 a year) covers every device at one address. To skip fees, buy a doorbell that records locally, like the eufy E340. US fees checked November 1, 2026.",
+  "picks": [
+    {
+      "brand": "eufy",
+      "model": "eufy Video Doorbell E340 (Battery Powered)",
+      "role": "Best overall without a subscription",
+      "why": "It saves motion clips to 8 GB of built-in memory, so there's no plan and not even a microSD card to buy, and its person, package and face alerts are free. Two cameras, one aimed down at the doormat, and a choice of battery or doorbell-wire power make it the easiest swap for a Ring battery doorbell.",
+      "bestFor": "Renters and owners without doorbell wiring, porches with frequent package deliveries, and anyone replacing a Ring battery doorbell",
+      "asin": "B0CD7NT4Y9",
+      "manufacturerUrl": "https://www.eufy.com/products/t8214111",
+      "specs": {
+        "Cameras": "Two: a front camera and a downward-facing camera for packages",
+        "Resolution": "2K",
+        "Viewing angle": "160°",
+        "Power": "Removable rechargeable battery or hardwired, 8–24 V and more than 10 VA (the battery stays installed in wired mode and is topped up by the wiring)",
+        "Local storage": "8 GB built in (eMMC); eufy estimates about 90 days of clips at 30 recordings of 20 seconds a day",
+        "Expandable storage": "Optional eufy HomeBase 2 (S280) or HomeBase 3 (S380), sold separately",
+        "Smart alerts with no plan": "Person, package and face recognition",
+        "Night vision": "Color night vision, up to 16 ft",
+        "Wi-Fi": "2.4 GHz only",
+        "Chime": "Works with an existing mechanical chime, eufy HomeBase S280 or S380, eufy MiniBase Chime, and Alexa or Google Assistant devices",
+        "Works with": "Amazon Alexa, Google Assistant (no Apple HomeKit)",
+        "Weather rating": "IP65",
+        "Cloud": "Optional; eufy says notification thumbnail previews are stored temporarily in the cloud"
+      }
+    },
+    {
+      "brand": "Reolink",
+      "model": "Reolink Video Doorbell WiFi",
+      "role": "Best for 24/7 local recording",
+      "why": "It can record around the clock to a microSD card of up to 256 GB or to a Reolink NVR, with free person, vehicle and animal detection. Dual-band Wi-Fi plus an Ethernet port make it the most connection-flexible pick, but it's wired only and replaces your old mechanical chime with the plug-in Reolink Chime in the box.",
+      "bestFor": "Homes with existing doorbell wiring that want continuous recording, a 5 GHz network or an NVR setup",
+      "asin": null,
+      "manufacturerUrl": "https://reolink.com/us/product/reolink-video-doorbell-wifi/",
+      "specs": {
+        "Resolution": "5MP, 2560 x 1920 at 20 fps",
+        "Field of view": "135° horizontal, 100° vertical",
+        "Power": "Hardwired: 12–24 VAC doorbell wiring or 24 V DC with the included power adapter; no battery",
+        "Local storage": "microSD slot up to 256 GB (card not included); also records to a Reolink NVR",
+        "Recording modes": "Motion (default), 24/7 continuous or scheduled",
+        "Smart alerts with no plan": "Person, vehicle and animal detection; the spec sheet also lists package detection, noted for the white version",
+        "Connectivity": "Dual-band Wi-Fi (2.4 GHz and 5 GHz) plus a 10/100 Mbps Ethernet port",
+        "Chime": "Reolink Chime included (plugs into an outlet); does not ring existing mechanical chimes",
+        "Works with": "Google Assistant; Reolink says Alexa and Google devices can also act as a chime",
+        "Offline recording": "Reolink says its cameras keep recording to the microSD card without internet; push alerts and remote viewing stop until it reconnects",
+        "Operating temperature": "14°F to 122°F (-10°C to 50°C)",
+        "Weather rating": "IP65",
+        "Dimensions": "5.2 x 1.9 x 0.9 in (133 x 48 x 23 mm)",
+        "Warranty": "2-year limited"
+      }
+    },
+    {
+      "brand": "Wyze",
+      "model": "Wyze Video Doorbell v2",
+      "role": "Budget pick for wired doorbells",
+      "why": "It records 24/7 to a microSD card of up to 256 GB with no plan and keeps most existing mechanical chimes working through its Chime Controller. The catches: it's wired only, it runs on 2.4 GHz Wi-Fi only, and person and package alerts need Wyze's optional Cam Plus plan.",
+      "bestFor": "Wired front doors on a tight budget where continuous local recording matters more than smart alerts",
+      "asin": "B0C896D28H",
+      "manufacturerUrl": "https://www.wyze.com/products/wyze-video-doorbell-v2",
+      "specs": {
+        "Resolution": "2K, 2048 x 1536 (4:3)",
+        "Field of view": "135° horizontal, 103° vertical",
+        "Power": "Hardwired only: 16–24 VAC, 10 VA or more; no battery",
+        "Local storage": "microSD slot up to 256 GB (card not included); 24/7 continuous recording to the card",
+        "Cloud with no plan": "A 12-second clip when someone presses the button; other events save snapshots, per Wyze",
+        "Smart alerts": "Person and package detection, and more, require Cam Plus (optional)",
+        "Wi-Fi": "2.4 GHz only",
+        "Chime": "Needs an existing wired doorbell and in-house mechanical chime (the chime doesn't have to work); the included Chime Controller keeps most mechanical chimes ringing; not compatible with battery-powered, COM-terminal or long-striking chimes",
+        "Night vision": "Color night vision with a starlight sensor, plus six 940 nm IR lights",
+        "Works with": "Amazon Alexa, Google Assistant, IFTTT",
+        "Operating temperature": "-4°F to 122°F (-20°C to 50°C)",
+        "Weather rating": "IP65",
+        "Warranty": "1-year limited"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Option",
+      "Where video is saved",
+      "Recording with no monthly fee",
+      "Smart alerts included",
+      "Power",
+      "Wi-Fi",
+      "Ongoing fee"
+    ],
+    "rows": [
+      [
+        "Any Ring doorbell, no plan",
+        "Nowhere: Live View only, up to 10 minutes per session",
+        "No",
+        "Motion alerts only",
+        "Battery or wired, by model",
+        "By model",
+        "None"
+      ],
+      [
+        "Ring doorbell + Ring Solo",
+        "Ring cloud, up to 180 days",
+        "No (plan required)",
+        "Person, package and vehicle (select models)",
+        "Battery or wired, by model",
+        "By model",
+        "Monthly or yearly fee, one device"
+      ],
+      [
+        "Ring doorbell + Ring Pro + Alarm Pro",
+        "Ring cloud, up to 180 days, plus Ring Edge microSD in the Alarm Pro (card sold separately)",
+        "No (plan required)",
+        "Adds Video Descriptions, Familiar Faces, Video Search and more",
+        "Battery or wired, by model",
+        "By model",
+        "Monthly or yearly fee, one address"
+      ],
+      [
+        "eufy Video Doorbell E340",
+        "8 GB built in; optional eufy HomeBase",
+        "Yes, motion clips",
+        "Person, package, face",
+        "Battery or wired",
+        "2.4 GHz",
+        "None required; cloud optional"
+      ],
+      [
+        "Reolink Video Doorbell WiFi",
+        "microSD up to 256 GB or a Reolink NVR",
+        "Yes: motion, 24/7 or scheduled",
+        "Person, vehicle, animal",
+        "Wired only",
+        "2.4 and 5 GHz, plus Ethernet",
+        "None required"
+      ],
+      [
+        "Wyze Video Doorbell v2",
+        "microSD up to 256 GB",
+        "Yes, 24/7 continuous",
+        "Motion only (smart alerts need Cam Plus)",
+        "Wired only",
+        "2.4 GHz",
+        "None required; Cam Plus optional"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Recording with no monthly fee",
+      "weight": 30,
+      "explanation": "Skipping Ring's plan only makes sense if you still keep your video. We compare where each doorbell saves clips, how much it holds and which recording modes work without any plan, from the manufacturer's spec sheet. Reolink and Wyze take microSD cards up to 256 GB and can record 24/7; the eufy E340 saves motion clips to 8 GB of built-in memory with nothing extra to buy. Edge: Reolink, for capacity and recording modes."
+    },
+    {
+      "name": "Smart alerts included",
+      "weight": 20,
+      "explanation": "Person and package alerts are a big part of what Ring Solo charges for. We check which alerts each maker lists as free. eufy includes person, package and face recognition; Reolink includes person, vehicle and animal detection; Wyze sends motion alerts but puts person and package detection behind Cam Plus. Edge: eufy."
+    },
+    {
+      "name": "Installation and power",
+      "weight": 20,
+      "explanation": "Many US front doors have no working doorbell wiring, and many Ring owners use the battery model. We compare power options and chime compatibility. The E340 runs on battery or wiring and works with existing mechanical chimes; Wyze is wired only but keeps most existing chimes; Reolink is wired only and replaces the old chime with its own plug-in unit. Edge: eufy."
+    },
+    {
+      "name": "Video coverage",
+      "weight": 15,
+      "explanation": "A doorbell has to show faces and the package on the mat. We compare cameras, resolution and field of view as published. eufy's two cameras and 160° view cover the doormat directly; Reolink records 5MP at 135° by 100°; Wyze records 2K at 135° by 103°. Edge: eufy."
+    },
+    {
+      "name": "Connectivity, smart home and warranty",
+      "weight": 15,
+      "explanation": "Weak Wi-Fi at the front door causes missed alerts, and a warranty matters when there's no plan to extend it. Reolink is the only pick with 5 GHz Wi-Fi and Ethernet, plus a 2-year warranty; eufy and Wyze use 2.4 GHz only, and Wyze lists a 1-year warranty. Alexa and Google support is covered by eufy and Wyze, Google Assistant by Reolink. Edge: Reolink."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Ring Protect plans and fees at a glance",
+      "html": "<p>Ring renamed its plans on January 14, 2026. These are the four US tiers and the add-ons, with the fees Ring lists on its US plans page and the features described in Ring Help, checked November 1, 2026. Fees are before tax, and plans auto-renew until you cancel.</p><ul><li><strong>Ring Solo: $4.99/mo or $49.99/yr.</strong> One doorbell or camera. Up to 180 days of video history, person, package and vehicle alerts (select models), Extended Live View, Doorbell Calls, Snapshot Capture, Device Modes and 10% off at ring.com.</li><li><strong>Ring Multi: $9.99/mo or $99.99/yr.</strong> Everything in Solo for every Ring device at one address, plus an extended warranty on eligible devices.</li><li><strong>Ring Pro: $19.99/mo or $199.99/yr.</strong> Everything in Multi, plus Video Descriptions, Familiar Faces, Active Warnings, Unusual Event Alert, Single Event Alert and Video Search; 24/7 Professional Monitoring for Ring Alarm; SOS Response; and, with a Ring Alarm Pro, Backup Internet and Ring Edge local video storage.</li><li><strong>Virtual Security Guard: $99/mo.</strong> Everything in Pro, plus live video monitoring by security agents who deter intruders in real time and request emergency services when needed.</li></ul><p><strong>Add-ons:</strong> Pro Intelligence puts Pro's AI features on one camera for $5/mo with Solo or Multi (it's included in Pro). 24/7 Continuous Recording costs $3/mo per eligible camera on any plan, and those recordings stay in the cloud for up to 14 days; on Ring Elite cameras, 24/7 recording costs $6 to $18/mo depending on the model. Smoke & CO Pro Monitoring is $5/mo ($50/yr), included in Pro, and Ring says you can add it without any plan.</p>"
+    },
+    {
+      "h2": "What works without a Ring plan",
+      "html": "<p>Ring doorbells and cameras work without a subscription, but only in real time. Ring lists these features as free on every device:</p><ul><li>Live View, up to 10 minutes per session, for you and your Shared Users</li><li>Real-time motion alerts and customizable Motion Zones</li><li>Two-Way Talk</li><li>Alexa integration, such as Live View on a compatible Echo Show or Fire TV</li><li>A physical privacy cover on select indoor cameras</li></ul><p><strong>What you give up:</strong> every recording. Ring only records events after you subscribe, and you can't go back for anything that happened before. You also lose person, package and vehicle alerts, Snapshot Capture, Extended Live View (up to 30 minutes), Doorbell Calls and Device Modes. If you own a Ring Alarm, note that Ring requires a subscription for arming and disarming from the app.</p><p>Every new or certified refurbished Ring doorbell, camera or alarm starts a free 30-day trial automatically at setup, unless your address already has a plan. Decide before it ends: if a plan lapses, Ring says your stored videos are lost and can't be recovered.</p>"
+    },
+    {
+      "h2": "What a Ring plan costs over three years",
+      "html": "<p>A video doorbell stays on the door for years, so the fee is part of the real price. Here's what each tier adds up to over 36 months, before tax, at the fees Ring listed when we checked on November 1, 2026:</p><ul><li><strong>Ring Solo:</strong> $149.97 billed yearly, or $179.64 billed monthly</li><li><strong>Ring Multi:</strong> $299.97 billed yearly, or $359.64 billed monthly</li><li><strong>Ring Pro:</strong> $599.97 billed yearly, or $719.64 billed monthly</li><li><strong>Virtual Security Guard:</strong> $3,564 billed monthly (Ring lists no yearly price)</li><li><strong>Add-ons, per camera:</strong> Pro Intelligence $180; 24/7 Continuous Recording $108</li></ul><p>Yearly billing saves $9.89 a year on Solo, $19.89 on Multi and $39.89 on Pro. Ring can change its fees at any time, so check the price at checkout before you subscribe or renew.</p>"
+    },
+    {
+      "h2": "Is a Ring subscription worth it? It depends on what you own",
+      "html": "<ul><li><strong>One Ring doorbell, and you want to see what happened while you were out:</strong> Ring Solo on yearly billing is the cheapest way to get recordings and person or package alerts. Without a plan, a missed visitor is simply gone.</li><li><strong>Two or more Ring devices at one address:</strong> Ring Multi covers them all and is the first tier with Ring's extended warranty, for eligible devices that were still within the 1-year manufacturer's warranty when you added them. In the US, that coverage is a service contract administered by Allstate Protection Plans.</li><li><strong>A Ring Alarm you want professionally monitored:</strong> Ring Pro is the tier with 24/7 Professional Monitoring. Ring notes that permit, false-alarm or verified-response fees may apply, depending on where you live.</li><li><strong>You only check the door live:</strong> Skip the plan. Live View, motion alerts and Two-Way Talk stay free.</li><li><strong>You don't own Ring yet and don't want a monthly bill:</strong> Buy a doorbell that saves video at home. Our three picks record to built-in memory or a microSD card with no plan required.</li></ul><p>Two catches before you pay for Ring Pro or Pro Intelligence. Ring's AI features, including Video Descriptions, Video Search and Single Event Alert, aren't available in Illinois, and Familiar Faces isn't offered in Illinois, Texas or Portland, Oregon. And each plan covers one address: a vacation home needs its own plan.</p>"
+    },
+    {
+      "h2": "What happened to Ring Home Basic, Standard and Premium?",
+      "html": "<p>According to Ring Help, the Ring Home plans were renamed Ring Protect plans on January 14, 2026, with the same features and no extra charge for the change. Subscriptions moved over automatically:</p><ul><li>Home Basic became <strong>Ring Solo</strong>.</li><li>Home Standard without professional monitoring, or Protect Plus (1st Gen) without an alarm, became <strong>Ring Multi</strong>.</li><li>Home Standard with 24/7 Professional Monitoring, and AI Pro, became <strong>Ring Pro</strong>.</li><li>AI Solo became the <strong>Pro Intelligence</strong> add-on.</li><li>Home Premium became <strong>Premium Legacy</strong>, which includes 24/7 Professional Monitoring at no additional charge.</li><li>The Virtual Security Guard add-on became the <strong>Virtual Security Guard</strong> plan.</li></ul><p>Ring also renamed several devices in July and August 2026 to show their video resolution; the Battery Doorbell (2nd Gen) became the Battery Doorbell 2K on August 5, for example. Ring says only the names changed, not the hardware, the features or your plan.</p>"
+    },
+    {
+      "h2": "Local storage: what you gain and what you give up",
+      "html": "<p>A doorbell that records to built-in memory or a microSD card has no monthly fee and keeps your clips at home by default. Weigh these trade-offs:</p><ul><li><strong>Capacity is finite.</strong> eufy estimates the E340's 8 GB holds about 90 days of clips at 30 recordings of 20 seconds a day. A busier porch fills it faster, and a microSD card is an extra purchase with Reolink and Wyze.</li><li><strong>The footage lives in the doorbell.</strong> A card inside the doorbell goes wherever the doorbell goes. An indoor hub or recorder, such as a eufy HomeBase or a Reolink NVR, keeps recordings away from the front door.</li><li><strong>Free alerts vary.</strong> eufy and Reolink include person detection with no plan; Wyze's person and package detection needs its optional Cam Plus plan.</li><li><strong>Some data still touches the cloud.</strong> eufy says notification thumbnail previews are stored temporarily in the cloud, and all three brands sell optional cloud plans.</li><li><strong>Wired-only models need working doorbell wiring.</strong> The Reolink and Wyze picks have no battery, so check your transformer's voltage and VA rating before you buy.</li></ul>"
+    },
+    {
+      "h2": "Privacy: what regulators found",
+      "html": "<p>Local storage isn't automatically private, and cloud storage isn't automatically unsafe. Two official actions are worth knowing before you choose:</p><ul><li><strong>Ring, Federal Trade Commission, May 31, 2023:</strong> The FTC charged that Ring let employees and contractors access customers' private videos and failed to stop hackers from taking control of users' cameras. The proposed order required Ring to pay $5.8 million for consumer refunds, delete data products built from videos it unlawfully reviewed, run a privacy and security program and require multi-factor authentication for employee and customer accounts.</li><li><strong>eufy, New York Attorney General, January 28, 2025:</strong> The office secured $450,000 in penalties and costs from three companies that distribute eufy cameras, video doorbells and video smart locks. Its investigation found that, in certain situations, video sent over the internet from eufy products wasn't protected by end-to-end encryption, that at least part of the connection used no encryption at all, and that an active video stream could be opened by anyone with the right link, without authentication. The investigation followed a security researcher's public disclosure in November 2022, and the settlement requires the companies to regularly show that video is encrypted in storage and in transit.</li></ul><p>Whichever brand you pick, turn on two-step verification in its app and keep the doorbell's firmware up to date.</p>"
+    },
+    {
+      "h2": "Why this ranking",
+      "html": "<p>We ranked the three alternatives on the five weighted criteria above, using only what eufy, Reolink and Wyze publish for the US, and we don't rank on price or on clicks.</p><ul><li><strong>eufy Video Doorbell E340, first:</strong> it leads on free smart alerts (20%), installation and power (20%) and video coverage (15%). It records with nothing extra to buy, which keeps it close behind Reolink on recording (30%); its 2.4 GHz-only Wi-Fi costs it points on connectivity (15%).</li><li><strong>Reolink Video Doorbell WiFi, second:</strong> it wins recording (30%) with 24/7 recording to a 256 GB card or an NVR, and connectivity (15%) with dual-band Wi-Fi, Ethernet and a 2-year warranty. Wired-only power and no support for existing mechanical chimes hold it back on installation (20%).</li><li><strong>Wyze Video Doorbell v2, third and our budget pick:</strong> it matches Reolink on 24/7 microSD recording and keeps most existing chimes, but its person and package detection needs Cam Plus (20%) and it has 2.4 GHz-only Wi-Fi and a 1-year warranty.</li></ul>"
+    },
+    {
+      "h2": "What independent testers found",
+      "html": "<p>Consumer Reports' guide to video doorbells without a subscription, updated October 7, 2026, lists nine models that store video locally, including the eufy Video Doorbell E340. It says Ring doorbells need a subscription to save recordings and to get features like person alerts, and it points out that some no-subscription doorbells still lock smart alerts behind a paid plan, as Wyze does on its Duo Cam doorbell. In its main video doorbell ratings, updated March 18, 2026, CR includes the eufy E340 among its wireless picks and says no Ring model reached the very top of its ratings at that time.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How much is a Ring subscription per month?",
+      "a": "Ring's US plans page listed Ring Solo at $4.99 a month ($49.99 a year), Ring Multi at $9.99 a month ($99.99 a year), Ring Pro at $19.99 a month ($199.99 a year) and Virtual Security Guard at $99 a month, all plus tax, when we checked on November 1, 2026."
+    },
+    {
+      "q": "Does a Ring doorbell work without a subscription?",
+      "a": "Yes. Live View (up to 10 minutes per session), motion alerts, Motion Zones, Two-Way Talk and Alexa integration are free. Without a plan, nothing is recorded, and you don't get person, package or vehicle alerts."
+    },
+    {
+      "q": "What happens to my Ring videos if I cancel?",
+      "a": "Ring says that if you don't renew before your plan or trial ends, your stored videos are lost and can't be retrieved. Download the clips you want to keep first; plans allow downloading up to 50 videos at once."
+    },
+    {
+      "q": "Ring Solo or Ring Multi: which do I need?",
+      "a": "Solo covers one doorbell or camera. Multi covers every Ring device at one address and adds Ring's extended warranty on eligible devices. If you have more than one Ring device, or want the warranty, choose Multi."
+    },
+    {
+      "q": "Can Ring record locally without a subscription?",
+      "a": "No. Ring's only local option is Ring Edge, which stores video on a microSD card (sold separately) inside a Ring Alarm Pro base station, and it requires a Ring Pro or Virtual Security Guard plan."
+    },
+    {
+      "q": "What happened to Ring Protect Basic and Ring Home Basic?",
+      "a": "Ring Protect Basic was renamed Ring Home Basic in a late-2024 plan overhaul. Then, on January 14, 2026, Ring renamed its Home plans Ring Protect plans: Home Basic is now Ring Solo, Home Standard is now Ring Multi (or Ring Pro with professional monitoring), and Home Premium subscribers moved to Premium Legacy, which includes 24/7 Professional Monitoring at no extra charge."
+    },
+    {
+      "q": "Does one Ring plan cover two homes?",
+      "a": "No. Ring says each address needs its own Ring Protect plan. Multi and Pro cover every device at a single location."
+    },
+    {
+      "q": "Is there a free trial of Ring Protect?",
+      "a": "Yes. A 30-day trial starts automatically when you set up a new or certified refurbished Ring doorbell, camera or alarm, unless your address already has a plan. Ring notes that some retailers run promotions with different trial periods."
+    },
+    {
+      "q": "Do eufy, Reolink and Wyze doorbells need a subscription?",
+      "a": "Not to record. The eufy E340 saves clips to built-in memory, and the Reolink Video Doorbell WiFi and Wyze Video Doorbell v2 record to a microSD card. All three brands sell optional cloud plans, and Wyze's person and package detection requires its Cam Plus plan."
+    },
+    {
+      "q": "Why can't I get Ring's AI features in Illinois?",
+      "a": "Ring says Video Descriptions, Video Search, Single Event Alert and its other intelligent features aren't available to customers in Illinois because of state law, and Familiar Faces isn't available in Illinois, Texas or Portland, Oregon."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Consumer Reports",
+      "url": "https://www.consumerreports.org/home-garden/home-security-cameras/best-video-doorbell-cameras-without-a-subscription-a1134473783/",
+      "note": "Guide to video doorbells without a subscription, updated October 7, 2026: lists nine doorbells that store video locally, including the eufy Video Doorbell E340, eufy Video Doorbell C31 and eufy Video Doorbell (Wired) S330. CR says Ring doorbells need a subscription to save recordings and get features like person alerts, and notes that the Wyze Duo Cam doorbell has no smart alerts without Cam Plus."
+    },
+    {
+      "name": "Consumer Reports",
+      "url": "https://www.consumerreports.org/home-garden/home-security-cameras/best-video-doorbells-of-the-year-a1115426074/",
+      "note": "Video doorbell ratings roundup, updated March 18, 2026: the eufy Video Doorbell E340 is among its wireless picks, and CR says no Ring model reached the very top of its ratings at that time."
+    }
+  ],
+  "sources": [
+    "https://ring.com/plans",
+    "https://ring.com/support/articles/lw54x/comparing-ring-home-plans",
+    "https://ring.com/support/articles/v5hc7/introducing-ring-home-plans",
+    "https://ring.com/support/plans/solo",
+    "https://ring.com/support/plans/multi",
+    "https://ring.com/support/plans/pro",
+    "https://ring.com/support/plans/virtual-security-guard",
+    "https://ring.com/support/articles/sjo2f/live-view-for-doorbells-and-cameras",
+    "https://ring.com/support/articles/538eg/ring-product-name-changes",
+    "https://blog.ring.com/home-security/ring-cameras-without-subscription/",
+    "https://www.eufy.com/products/t8214111",
+    "https://reolink.com/us/product/reolink-video-doorbell-wifi/",
+    "https://www.wyze.com/products/wyze-video-doorbell-v2",
+    "https://www.consumerreports.org/home-garden/home-security-cameras/best-video-doorbell-cameras-without-a-subscription-a1134473783/",
+    "https://www.consumerreports.org/home-garden/home-security-cameras/best-video-doorbells-of-the-year-a1115426074/",
+    "https://www.ftc.gov/news-events/news/press-releases/2023/05/ftc-says-ring-employees-illegally-surveilled-customers-failed-stop-hackers-taking-control-users",
+    "https://ag.ny.gov/press-release/2025/attorney-general-james-secures-450000-companies-selling-home-security-cameras",
+    "https://ring.com/support/plans/basic",
+    "https://ring.com/carbon-monoxide-smoke-monitoring",
+    "https://techcrunch.com/2024/10/09/amazon-revamps-ring-subscriptions-with-ai-video-search/",
+    "https://support.reolink.com/hc/en-us/articles/10313334138265/",
+    "https://support.reolink.com/articles/900000637723-How-to-Set-up-the-Camera-to-Record-without-Internet/"
+  ],
+  "related": [
+    "/us/securite-maison/sonnettes-video",
+    "/us/securite-maison/cameras-exterieur",
+    "/us/securite-maison/cameras-interieur",
+    "/us/securite-maison/alarmes",
+    "/us/guides/probleme/sonnette-pas-notification",
+    "/us/guides/probleme/sonnette-batterie-dure-pas"
+  ]
+}

@@ -9,6 +9,7 @@ import ProductVisual from '@/components/ProductVisual'
 import AmazonDisclosure from '@/components/AmazonDisclosure'
 import ComparisonTable from '@/components/ComparisonTable'
 import IndependentSources from '@/components/IndependentSources'
+import MarketPagesHubList from '@/components/market-pages/HubList'
 import { getCategory } from '@/lib/catalog'
 import AffiliateLink from '@/components/AffiliateLink'
 import CookieBanner from '@/components/CookieBanner'
@@ -1183,6 +1184,8 @@ export default async function AirfryerGuide({ params }: { params: Promise<{ lang
           lang={lang}
         />
       </section>
+
+      <MarketPagesHubList lang={lang} path="/guides/airfryers" />
 
       <IndependentSources
         categorySlug="airfryers"

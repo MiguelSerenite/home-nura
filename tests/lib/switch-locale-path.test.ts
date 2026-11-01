@@ -30,7 +30,9 @@ describe('switchLocalePath', () => {
     expect(switchLocalePath('/ca/guides/floor-care', 'us')).toBe('/us/guides/floor-care')
     expect(switchLocalePath('/us/guides/floor-care/hard-floor-washers', 'fr')).toBe('/fr/entretien-maison')
     expect(switchLocalePath('/ca/guides/floor-care/', 'en')).toBe('/en/entretien-maison')
-    // Another guide whose slug merely starts the same way is not affected.
-    expect(switchLocalePath('/us/guides/floor-careers', 'de')).toBe('/de/guides/floor-careers')
+    // A path that merely starts the same way is not sent to the cleaning hub.
+    expect(switchLocalePath('/us/guides/floor-careers/tips', 'de')).toBe('/de/guides/floor-careers/tips')
+    // A one-segment guide outside the shared ones is a single-locale market page: the target's home.
+    expect(switchLocalePath('/us/guides/floor-careers', 'de')).toBe('/de')
   })
 })

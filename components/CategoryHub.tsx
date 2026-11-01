@@ -53,6 +53,7 @@ import { isValidLang, type Lang } from '@/lib/i18n'
 import { ChevronRight } from 'lucide-react'
 import { BlackFridayHubLink } from '@/components/black-friday/Promos'
 import FloorCareEntryBanner from '@/components/floor-care/EntryBanner'
+import MarketPagesHubList from '@/components/market-pages/HubList'
 
 interface CategoryHubUi {
   home: string
@@ -325,6 +326,8 @@ export default async function CategoryHub({
             </ul>
           </section>
         )}
+
+        <MarketPagesHubList lang={safeLang} path={`/${silo.slug}/${category.slug}`} />
 
         <IndependentSources categorySlug={category.slug} categoryTitle={categoryTitle} lang={safeLang} />
 

@@ -34,6 +34,12 @@ interface BuildPageMetadataInput {
    * when the French default is among them.
    */
   locales?: readonly Lang[]
+  /**
+   * Emit the x-default alternate (the French version). Defaults to true
+   * when French is among `locales`; false for a page that exists in one
+   * locale only (market pages: hreflang names the page itself, nothing else).
+   */
+  xDefault?: boolean
 }
 
 /**
@@ -74,6 +80,7 @@ export function buildPageMetadata(input: BuildPageMetadataInput): Metadata {
     authors,
     index = true,
     locales = LANGUAGES,
+    xDefault = locales.includes(DEFAULT_LANG),
   } = input
 
   const safeLang: Lang = isValidLang(lang) ? lang : 'fr'
@@ -90,7 +97,7 @@ export function buildPageMetadata(input: BuildPageMetadataInput): Metadata {
   const languages: Record<string, string> = Object.fromEntries(
     locales.map((l) => [HTML_LANG[l], `${BASE_URL}/${l}${normalizedPath}`])
   )
-  if (locales.includes(DEFAULT_LANG)) languages['x-default'] = `${BASE_URL}/${DEFAULT_LANG}${normalizedPath}`
+  if (xDefault && locales.includes(DEFAULT_LANG)) languages['x-default'] = `${BASE_URL}/${DEFAULT_LANG}${normalizedPath}`
 
   return {
     title,
@@ -203,7 +210,9 @@ export function buildProductListSchema(
   products: ProductLike[],
   _lang: string,
   listName: string,
-  listUrl: string
+  listUrl: string,
+  /** ISO date of the list's last editorial update (pages with their own date). */
+  dateModified: string = SITE_LAST_UPDATED_ISO
 ) {
   return {
     '@context': 'https://schema.org',
@@ -211,7 +220,7 @@ export function buildProductListSchema(
     name: listName,
     url: listUrl,
     numberOfItems: products.length,
-    dateModified: SITE_LAST_UPDATED_ISO,
+    dateModified,
     itemListElement: products.map((p, i) => ({
       '@type': 'ListItem',
       position: i + 1,

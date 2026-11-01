@@ -12,6 +12,7 @@ import {
 } from '@/lib/catalog'
 import { BLACK_FRIDAY_CATEGORIES, BLACK_FRIDAY_PATHS, blackFridayPath } from '@/lib/black-friday'
 import { FLOOR_CARE_HUB_PATH, FLOOR_CARE_MARKETS, FLOOR_CARE_PATHS, FLOOR_CARE_UPDATED_ISO } from '@/lib/floor-care/config'
+import { getMarketPages } from '@/lib/market-pages/data'
 import {
   airfryerCatalogImages,
   articleImages,
@@ -191,6 +192,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
           lastModified: new Date(FLOOR_CARE_UPDATED_ISO),
           changeFrequency: 'monthly',
           priority: path === FLOOR_CARE_HUB_PATH ? 0.8 : 0.75,
+        },
+        undefined,
+        { xDefault: false },
+      ),
+    )
+  }
+
+  // Market pages (duels, guides, news): one locale each, written for it.
+  // hreflang names the page itself only, without x-default.
+  for (const page of getMarketPages()) {
+    entries.push(
+      ...localized(
+        page.path,
+        [page.locale],
+        {
+          lastModified: new Date(page.updated),
+          changeFrequency: page.type === 'news' ? 'weekly' : 'monthly',
+          priority: page.type === 'news' ? 0.6 : 0.75,
         },
         undefined,
         { xDefault: false },

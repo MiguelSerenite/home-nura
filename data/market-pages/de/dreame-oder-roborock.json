@@ -1,0 +1,305 @@
+{
+  "locale": "de",
+  "type": "duel",
+  "slug": "dreame-oder-roborock",
+  "updated": "2026-11-01",
+  "metaTitle": "Dreame oder Roborock? X60 Pro Ultra vs. Saros 20",
+  "metaDescription": "Dreame X60 Pro Ultra Complete oder Roborock Saros 20? Bauhöhe, Schwellen, Kanten und Navigation im Duell – mit Herstellerdaten und Testerurteilen.",
+  "kicker": "Duell · Saugroboter mit Wischfunktion",
+  "h1": "Dreame oder Roborock? X60 Pro Ultra Complete gegen Saros 20",
+  "answer": "Für die meisten Haushalte liegt der Roborock Saros 20 vorn: Er ist mit 7,98 cm knapp einen Zentimeter flacher, und unabhängige Tester loben seine ausgereifte Navigation. Der Dreame X60 Pro Ultra Complete passt besser zu Wohnungen mit vielen Kanten, Stuhlbeinen und hohen Schwellen: Sein Wischmopp fährt bis 18 cm aus, und laut Dreame meistert er Doppelschwellen bis 10 cm. Beide waschen ihre Mopps mit 100 °C heißem Wasser.",
+  "picks": [
+    {
+      "brand": "Roborock",
+      "model": "Saros 20",
+      "role": "Unser Favorit: das ausgereiftere Gesamtpaket",
+      "why": "netzwelt setzte ihn im Juni 2026 mit der Note 1,4 auf Platz 1 seines Saugroboter-Vergleichs und lobte vor allem Navigation und App. Mit 7,98 cm Bauhöhe kommt er unter Möbel, unter die der Dreame mit 8,9 cm nicht mehr passt.",
+      "bestFor": "Wohnungen mit niedrigen Sofas und Betten, Haushalte, die den Roboter täglich ohne Aufsicht fahren lassen, Teppiche bis 3 cm Florhöhe",
+      "asin": "B0G4NBBZLG",
+      "manufacturerUrl": "https://de.roborock.com/pages/roborock-saros-20",
+      "specs": {
+        "Saugkraft (max.)": "36.000 Pa (HyperForce, interne Roborock-Tests)",
+        "Bauhöhe": "7,98 cm; Durchfahrtshöhe bis 7,95 cm durch leichte Kompression (laut Roborock können dabei Kratzer entstehen)",
+        "Maße Roboter": "350 × 353 × 79,8 mm",
+        "Schwellen": "einzeln bis 4,5 cm, doppelt bis 8,8 cm (4,5 + 4,3 cm, AdaptiLift Chassis 3.0)",
+        "Navigation": "StarSight System 2.0 (3D-ToF), ohne klassischen Laserturm",
+        "Hinderniserkennung": "über 300 Arten, Objekte ab 2 cm Breite und 2 cm Höhe; RGB-Kamera für Fleckenerkennung",
+        "Wischsystem": "zwei rotierende Mopps, 200 U/min, Anpressdruck 8 N, bei hartnäckigen Flecken 13 N",
+        "Kantenreinigung": "FlexiArm: ausfahrbarer Mopp und ausfahrbare FlexiArm-Arc-Seitenbürste (Reichweite nicht angegeben)",
+        "Teppich": "automatische Mopp-Abnahme; dynamische Chassisanhebung für Teppiche bis 3 cm Florhöhe",
+        "Hauptbürste": "DuoDivide, Dual-Anti-Tangle-System (laut Roborock 0 % Verheddern)",
+        "Moppwäsche": "Heißwasser bis 100 °C; Selbstreinigung des Stationssockels mit 100 °C",
+        "Trocknung": "Warmluft mit 55 °C; Frischlufttrocknung des Staubbeutels",
+        "Automatische Staubentleerung": "bis zu 65 Tage ohne manuelles Leeren",
+        "Reinigungsmittel": "automatischer Dosierer",
+        "Akku": "6.400 mAh",
+        "Laufzeit": "bis zu 200 min (Leise-Modus)",
+        "Ladezeit": "2,5 h",
+        "Gewicht": "Roboter 5,05 kg, Station 10,54 kg",
+        "Maße Station": "381 × 475 × 488 mm",
+        "Smart Home": "Matter, Alexa, Google Home, Siri-Kurzbefehle; Sprachassistent „Hello Rocky“",
+        "Garantie": "2 Jahre auf Neugeräte (Roborock-Shop Deutschland)"
+      }
+    },
+    {
+      "brand": "Dreame",
+      "model": "X60 Pro Ultra Complete",
+      "role": "Die Wahl für Kanten, Ecken und hohe Schwellen",
+      "why": "Dreame gibt die Reichweite seiner Arme genau an: Der Wischmopp fährt bis 18 cm, die Seitenbürste bis 12 cm aus. Dazu kommen 42.000 Pa und Doppelschwellen bis 10 cm laut Hersteller; netzwelt vergab im Juni 2026 die Wischnote 1,2, kritisierte aber die Navigation (Teilnote 2,8).",
+      "bestFor": "Wohnungen mit vielen Fußleisten, Tischbeinen und schmalen Spalten, Stufen oder Schiebetürschienen zwischen Räumen, große Flächen dank Schnellladung",
+      "asin": "B0GSWYM8Q2",
+      "manufacturerUrl": "https://de.dreametech.com/products/dreame-x60-pro-ultra-complete-saugroboter",
+      "specs": {
+        "Modellnummer": "RLX96DE",
+        "Saugkraft (max.)": "42.000 Pa",
+        "Bauhöhe": "8,9 cm mit eingefahrenem VersaLift-Sensor, 11,1 cm ausgefahren",
+        "Maße Roboter": "350 × 350 × 89 mm (Sensor eingefahren)",
+        "Schwellen": "einzeln bis 5,2 cm, doppelt bis 10 cm (ProLeap-System)",
+        "Navigation": "VersaLift DToF (einfahrbarer Lasersensor)",
+        "Hinderniserkennung": "2 KI-Kameras mit 120°, seitliches strukturiertes 3D-Licht und LED; über 320 Objekttypen, Objekte ab 10 mm",
+        "Wischsystem": "zwei rotierende Omni-Scrub-Mopps, 280 U/min, Anpressdruck 15 N, Pads mit Phasenwechselmaterial (laut Dreame nach der Heißwäsche minutenlang 30 bis 40 °C warm)",
+        "Kantenreinigung": "Wischmopp bis 18 cm, Seitenbürste bis 12 cm ausfahrbar (Dual UltraExtend Arm mit Doppelgelenk); der ausgefahrene Mopp erreicht Spalten ab 6 cm Höhe",
+        "Teppich": "automatische Mopp-Abnahme bei Hochflor; mit Gehäuseanhebung bis 21,5 mm Abstand zwischen Mopp und Boden (Moppanhebung allein 10,5 mm)",
+        "Hauptbürste": "HyperStream Detangling DuoBrush 2.0 (laut Dreame 0 % Verheddern, Haare bis 40 cm)",
+        "Moppwäsche": "Heißwasser mit 100 °C; Waschplatte mit Selbstreinigung (AceClean DryBoard 3.0)",
+        "Trocknung": "Heißluft (Temperatur nicht angegeben)",
+        "Automatische Staubentleerung": "bis zu 100 Tage",
+        "Reinigungsmittel": "automatische Zugabe",
+        "Wassertanks Station": "4,2 l Frischwasser, 3,0 l Schmutzwasser; Set für automatisches Nachfüllen und Entleeren separat erhältlich",
+        "Staubbehälter Roboter": "310 ml",
+        "Akku": "5.000 mAh, Schnellladung mit 11 A (24 % in 5,5 min)",
+        "Gewicht": "Roboter 4,6 kg, Station 10,8 kg",
+        "Maße Station": "390 × 456 × 499 mm",
+        "Smart Home": "Matter laut Dreame per angekündigtem OTA-Update, integrierter Sprachassistent, Sprachsteuerung von Drittanbietern (Alexa, Siri, Google Home), Apple-Watch-App",
+        "Sicherheitsupdates": "3 Jahre ab Markteinführung für Geräte, die bis zum 11.12.2027 auf den Markt kommen",
+        "Fläche pro Reinigungsdurchgang": "bis zu 1.000 m² (Dreame-Laborwert mit Zwischenladen bei Mopp-Wäschen alle 20 min, hochgerechnet)"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Merkmal",
+      "Roborock Saros 20",
+      "Dreame X60 Pro Ultra Complete"
+    ],
+    "rows": [
+      [
+        "Bauhöhe",
+        "7,98 cm (Durchfahrtshöhe bis 7,95 cm)",
+        "8,9 cm mit eingefahrenem Sensor, 11,1 cm ausgefahren"
+      ],
+      [
+        "Schwellen einzeln / doppelt",
+        "4,5 cm / 8,8 cm",
+        "5,2 cm / 10 cm"
+      ],
+      [
+        "Kantenreinigung",
+        "Mopp und FlexiArm-Arc-Seitenbürste ausfahrbar, Reichweite nicht angegeben",
+        "Mopp bis 18 cm, Seitenbürste bis 12 cm ausfahrbar"
+      ],
+      [
+        "Wischsystem",
+        "2 rotierende Mopps, 200 U/min, 8 N, bei Flecken 13 N",
+        "2 rotierende Mopps, 280 U/min, 15 N, Pads mit Wärmespeicher"
+      ],
+      [
+        "Navigation",
+        "StarSight System 2.0 (3D-ToF), ohne Laserturm",
+        "VersaLift DToF, einfahrbarer Lasersensor"
+      ],
+      [
+        "Hinderniserkennung",
+        "über 300 Arten, ab 2 × 2 cm, RGB-Kamera",
+        "über 320 Objekttypen, ab 10 mm, 2 KI-Kameras"
+      ],
+      [
+        "Saugkraft (Herstellerangabe)",
+        "36.000 Pa",
+        "42.000 Pa"
+      ],
+      [
+        "Teppich",
+        "dynamische Chassisanhebung bis 3 cm Flor, Mopp-Abnahme",
+        "Mopp-Abnahme; mit Gehäuseanhebung 21,5 mm Mopp-Abstand"
+      ],
+      [
+        "Moppwäsche / Trocknung",
+        "100 °C / Warmluft mit 55 °C",
+        "100 °C / Heißluft (ohne Temperaturangabe)"
+      ],
+      [
+        "Staubentleerung",
+        "bis zu 65 Tage",
+        "bis zu 100 Tage"
+      ],
+      [
+        "Wassertanks Station",
+        "keine Volumenangabe",
+        "4,2 l / 3,0 l, Wasseranschluss-Set separat"
+      ],
+      [
+        "Akku / Laufzeit",
+        "6.400 mAh, bis zu 200 min im Leise-Modus",
+        "5.000 mAh, laut Dreame bis zu 1.000 m² pro Durchgang mit Zwischenladen"
+      ],
+      [
+        "Laden",
+        "2,5 h",
+        "11 A: 24 % in 5,5 min"
+      ],
+      [
+        "Gewicht Roboter / Station",
+        "5,05 kg / 10,54 kg",
+        "4,6 kg / 10,8 kg"
+      ],
+      [
+        "Matter",
+        "ja",
+        "angekündigt per OTA-Update"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Navigation und Alltagstauglichkeit",
+      "weight": 30,
+      "explanation": "Ein Saugroboter nützt nur, wenn er ohne Aufsicht die ganze Wohnung schafft, ohne hängen zu bleiben oder Bereiche auszulassen. Wir werten aus, was unabhängige Tester zu Kartierung, Hindernissen und App berichten, und ergänzen die Herstellerangaben zur Hinderniserkennung."
+    },
+    {
+      "name": "Wischen und Kantenreinigung",
+      "weight": 25,
+      "explanation": "In dieser Klasse liegt der größte Unterschied beim Wischen. Wir vergleichen Mopp-System, Anpressdruck und die Reichweite der ausfahrbaren Arme laut Hersteller sowie die Wischergebnisse der Tester."
+    },
+    {
+      "name": "Saugen, Teppich und Haare",
+      "weight": 15,
+      "explanation": "Die Saugkraft in Pascal misst jeder Hersteller selbst und unter eigenen Bedingungen. Wir nehmen sie nur als Anhaltspunkt und stützen uns auf die Ergebnisse der Tester auf Hartboden und Teppich sowie auf die Anti-Verheddern-Technik."
+    },
+    {
+      "name": "Schwellen und Bauhöhe",
+      "weight": 15,
+      "explanation": "Diese beiden Maße entscheiden, ob der Roboter in jeden Raum und unter Sofa und Bett kommt. Wir vergleichen die Herstellerangaben und, wo vorhanden, die Messungen der Tester."
+    },
+    {
+      "name": "Station und Wartung",
+      "weight": 15,
+      "explanation": "Je mehr die Station erledigt, desto seltener müssen Sie eingreifen. Wir vergleichen Mopp-Wäsche, Trocknung, Entleerungsintervall, Tanks und Reinigungsmittel-Dosierung."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Dreame oder Roborock: das Urteil in drei Sätzen",
+      "html": "<p><strong>Wählen Sie den Roborock Saros 20</strong>, wenn Ihr Sofa oder Bett wenig Bodenfreiheit hat, wenn der Roboter jeden Tag ohne Aufsicht fahren soll und wenn Ihnen eine zuverlässige Navigation wichtiger ist als die letzte Ecke.</p><p><strong>Wählen Sie den Dreame X60 Pro Ultra Complete</strong>, wenn Ihre Wohnung viele Fußleisten, Tischbeine und schmale Spalten hat, wenn zwischen den Räumen hohe Schwellen oder Schiebetürschienen liegen und wenn Sie dafür eine noch nicht ganz ausgereifte Software in Kauf nehmen.</p><p>Beide sind Saugroboter mit Wischfunktion und Absaug- und Reinigungsstation aus der Oberklasse 2026. Die Marke allein entscheidet nicht: Bei Dreame wie bei Roborock liegen zwischen Einstiegs- und Spitzenmodell Welten.</p>"
+    },
+    {
+      "h2": "Welche Modelle wir vergleichen – und welche Sie nicht verwechseln sollten",
+      "html": "<p>Wir vergleichen die beiden Spitzenmodelle, die 2026 in Deutschland erschienen sind und die unabhängige Tester bereits ausführlich geprüft haben: den Roborock Saros 20 (Testbericht von heise bestenlisten vom 12.03.2026) und den Dreame X60 Pro Ultra Complete mit der Modellnummer RLX96DE (Testbericht von netzwelt vom 06.06.2026). Beide gibt es in den deutschen Shops der Hersteller und bei Amazon.</p><ul><li><strong>Roborock Saros 20 Sonic:</strong> gleiche Saugkraft und gleiches Kletterfahrwerk, aber laut Roborock ein vibrierendes Wischsystem (VibraRise 5.0) mit 14 N Anpressdruck und eine Hinderniserkennung mit strukturiertem Tri-Laser-Licht.</li><li><strong>Roborock Saros 20 Set:</strong> der Saros 20 mit zusätzlichem Zubehörset.</li><li><strong>Dreame X60 Pro Ultra Matrix und X60 Pro Master:</strong> Geschwister des X60 Pro Ultra Complete; den Master beschreibt Dreame mit einer besonders flachen Station mit automatischer Wasserbefüllung und -entleerung.</li><li><strong>Dreame X60 Ultra Complete</strong> ohne „Pro“: ein anderes Modell mit anderen Daten. Achten Sie beim Kauf auf das „Pro“ im Namen.</li></ul>"
+    },
+    {
+      "h2": "Die vier Unterschiede, die Sie im Alltag merken",
+      "html": "<ul><li><strong>Unter Möbeln.</strong> Der Saros 20 ist 7,98 cm hoch und kommt laut Roborock unter Möbel mit nur 7,95 cm Durchfahrtshöhe, weil er ohne klassischen Laserturm navigiert. Der X60 Pro Ultra Complete fährt seinen Lasersensor unter Möbeln ein und misst dann 8,9 cm, ausgefahren 11,1 cm. Dafür schiebt der Dreame laut Hersteller seinen ausgefahrenen Wischmopp bis 18 cm weit unter Möbel mit mindestens 6 cm Bodenfreiheit. Messen Sie die Bodenfreiheit von Sofa und Bett nach: Zwischen 8 und 9 cm passt nur der Roborock komplett darunter.</li><li><strong>An Kanten und Möbelbeinen.</strong> Dreame fährt den Wischmopp bis 18 cm und die Seitenbürste bis 12 cm aus und schwenkt den Arm zusätzlich um Tischbeine. Roborock fährt beim Saros 20 Mopp und Seitenbürste ebenfalls aus, nennt aber keine Reichweite in Zentimetern. netzwelt fand beim Dreame trotzdem einen bis zu 2 cm breiten Streifen entlang der Kanten, der ungereinigt blieb.</li><li><strong>Bei Schwellen.</strong> Laut Hersteller schafft der Saros 20 einzelne Schwellen bis 4,5 cm und Doppelschwellen bis 8,8 cm (4,5 + 4,3 cm), der X60 Pro Ultra Complete einzelne bis 5,2 cm und doppelte bis 10 cm. Beide Angaben stammen aus internen Labortests; netzwelt nennt für den Dreame im eigenen Test Hindernisse bis 6,8 cm.</li><li><strong>Bei der Navigation.</strong> Hier liegt der Saros 20 vorn. netzwelt lobte im Juni 2026 seine sehr gute Navigation und die App. Beim X60 Pro Ultra Complete vergab die Redaktion für die Navigation nur die Teilnote 2,8: Er fuhr in engen Passagen sehr vorsichtig, ließ Bereiche aus und stieß gelegentlich an Möbel. heise beobachtete beim Saros 20, dass er sich in sehr engen Ecken gelegentlich um die eigene Achse dreht.</li></ul>"
+    },
+    {
+      "h2": "Wischen und Station: beide auf Oberklasse-Niveau",
+      "html": "<p>Beide Roboter wischen mit zwei rotierenden Mopps, die sie vor Teppichen automatisch in der Station ablegen. Der Dreame dreht seine Mopps laut Hersteller mit 280 U/min und drückt sie mit 15 N an; seine Pads enthalten ein Phasenwechselmaterial, das nach der Heißwäsche minutenlang Wärme hält (laut Dreame 30 bis 40 °C). Der Roborock dreht mit 200 U/min und erhöht den Anpressdruck bei erkannten Flecken von 8 auf 13 N.</p><ul><li><strong>Moppwäsche:</strong> beide mit bis zu 100 °C heißem Wasser; Roborock reinigt zusätzlich den Stationssockel mit 100 °C, Dreame seine Waschplatte.</li><li><strong>Trocknung:</strong> Roborock trocknet Mopps und Sockel mit 55 °C warmer Luft und lüftet den Staubbeutel; Dreame trocknet mit Heißluft, nennt aber keine Temperatur.</li><li><strong>Staubbeutel:</strong> bis zu 65 Tage ohne Leeren beim Saros 20, bis zu 100 Tage beim X60 Pro Ultra Complete, jeweils laut Hersteller und abhängig von Wohnung und Haustieren.</li><li><strong>Wasser:</strong> Dreame nennt 4,2 l Frisch- und 3,0 l Schmutzwasser und bietet ein Set für den festen Wasseranschluss separat an; netzwelt musste die Tanks im Test von Hand wechseln. Roborock nennt für die Station des Saros 20 keine Tankvolumen.</li><li><strong>Reinigungsmittel:</strong> beide dosieren es automatisch.</li></ul><p>Im Wischtest von netzwelt entfernte der Dreame Quark sowie angetrockneten Ketchup und Kaffee vollständig, brauchte dafür aber alle drei Durchgänge, und die Fleckenerkennung griff nicht. heise merkt beim Saros 20 an, dass rotierende Mopps systembedingt hinter Wischwalzen zurückbleiben.</p>"
+    },
+    {
+      "h2": "Saugen, Teppich und Haare",
+      "html": "<p>Auf dem Papier saugt der Dreame stärker: 42.000 Pa gegen 36.000 Pa. Diese Pascal-Werte messen die Hersteller selbst und unter eigenen Bedingungen; im Alltag entscheiden Bürste, Abdichtung und Teppicherkennung mit.</p><ul><li><strong>Hartboden:</strong> netzwelt sah den Dreame alle 30 g Testschmutz im ersten Durchgang aufnehmen. heise sah den Saros 20 nahezu den gesamten groben Schmutz aufnehmen, bei feinem Mehl rund 80 %.</li><li><strong>Teppich:</strong> Der Saros 20 hebt sein Chassis dynamisch an und ist laut Roborock für Teppiche bis 3 cm Florhöhe ausgelegt; bei heise verschwanden über 90 % des groben Schmutzes aus dem Teppich. Der Dreame holte bei netzwelt auf einem Badvorleger 19,9 von 30 g heraus, weil er beim Auffahren die Ecken umklappte.</li><li><strong>Haare:</strong> Beide versprechen 0 % Verheddern an Haupt- und Seitenbürste; Dreame nennt Haare bis 40 cm Länge.</li></ul>"
+    },
+    {
+      "h2": "Akku, Laden und große Flächen",
+      "html": "<p>Roborock nennt für den Saros 20 einen Akku mit 6.400 mAh, bis zu 200 Minuten Laufzeit im Leise-Modus und 2,5 Stunden Ladezeit; heise nennt ebenfalls bis zu 200 Minuten. Dreame verbaut im X60 Pro Ultra Complete einen kleineren Akku mit 5.000 mAh, lädt aber mit 11 A: 24 % in 5,5 Minuten, so der Laborwert des Herstellers. Weil er bei jeder Mopp-Wäsche nachlädt, kommt er laut Dreame in einem Durchgang auf bis zu 1.000 m²; das ist ein hochgerechneter Laborwert. netzwelt beobachtete rund 25 % in fünf Minuten, während die Mopps gewaschen wurden.</p><p>Für eine normale Wohnung reichen beide. In einem großen Haus mit Zwischenstopps zur Moppwäsche verliert der Dreame dank Schnellladung weniger Zeit an der Station.</p>"
+    },
+    {
+      "h2": "Was unabhängige Tester herausgefunden haben",
+      "html": "<ul><li><strong>netzwelt, Vergleich vom 06.06.2026:</strong> Roborock Saros 20 mit der Note 1,4 auf Platz 1, als bestes Gesamtpaket mit sehr guter Navigation und hervorragender App. Der Dreame X60 Pro Ultra landet mit der Note 1,5 auf Platz 3: Trotz überlegener Hardware scheitere er an den Schwächen seiner Software, vor allem an der Navigation.</li><li><strong>netzwelt, Testbericht zum X60 Pro Ultra Complete vom 06.06.2026:</strong> Teilnoten Saugen 1,4, Wischen 1,2, Navigation 2,8; Lob für die ausfahrbaren Arme, das Kletterfahrwerk und den Lieferumfang mit Verschleißteilen für ein Jahr.</li><li><strong>heise bestenlisten, Testbericht zum Saros 20 vom 12.03.2026, aktualisiert am 30.10.2026:</strong> sehr starke Saugleistung, sehr flache Bauweise, 5-GHz-WLAN und Matter; Kritik an der Wischleistung im Vergleich zu Walzensystemen und an der einzelnen Seitenbürste, die vereinzelt leichte Partikel aus dem Reinigungsbereich schleudert.</li><li><strong>Stiftung Warentest:</strong> In der Datenbank (Artikel vom 30.06.2026, am 01.11.2026 eingesehen) stehen weder der Saros 20 noch der X60 Pro Ultra Complete. Geprüft wurden unter anderem der Roborock Saros Z70 und der Dreame X50 Ultra Complete; die Urteile sind nur kostenpflichtig einsehbar.</li></ul>"
+    },
+    {
+      "h2": "Eine Klasse darunter: Walze statt Mopps",
+      "html": "<p>Wer kein Flaggschiff braucht und vor allem Hartböden wischt, findet bei beiden Marken Roboter mit Wischwalze. Der <strong>Roborock Qrevo Curv 2 Flow</strong> nutzt eine 270 mm breite Walze, die sich beim Wischen laufend reinigt, wäscht sie mit Wasser bis 75 °C und saugt mit 20.000 Pa; netzwelt gab ihm im Juni 2026 die Note 2,0. Sein Gegenstück bei Dreame ist der <strong>Aqua10 Ultra Roller Complete</strong> mit AquaRoll-Walze, die sich in der Station bei 100 °C selbst reinigt.</p><p>Noch günstiger sind Modelle mit Station wie der Roborock Qrevo S Pro und der Dreame L10s Ultra Gen 3, die beide Hersteller in Deutschland weiterhin anbieten. Einen Überblick über alle Klassen gibt unser Saugroboter-Vergleich.</p>"
+    },
+    {
+      "h2": "Warum diese Reihenfolge",
+      "html": "<p>Wir haben beide Modelle nach den fünf gewichteten Kriterien verglichen, auf Grundlage der Herstellerdaten für Deutschland und der veröffentlichten Ergebnisse unabhängiger Tester. Wir haben die Geräte nicht selbst ausprobiert. Preis und Klickzahlen fließen nicht in die Reihenfolge ein.</p><ul><li><strong>Navigation und Alltagstauglichkeit (30 %):</strong> Vorteil Roborock. netzwelt lobt die Navigation des Saros 20; beim X60 Pro Ultra Complete ist sie mit der Teilnote 2,8 der wichtigste Kritikpunkt.</li><li><strong>Wischen und Kantenreinigung (25 %):</strong> Vorteil Dreame, dank 18 cm Mopp-Reichweite, 15 N Anpressdruck und der Wischnote 1,2 bei netzwelt.</li><li><strong>Saugen, Teppich und Haare (15 %):</strong> unentschieden. Der Dreame hat mehr Pascal, der Saros 20 schnitt im Teppichtest von heise gut ab, der Dreame auf dem Badvorleger von netzwelt schwächer; die beiden Tests sind aber nicht direkt vergleichbar.</li><li><strong>Schwellen und Bauhöhe (15 %):</strong> unentschieden. Der Dreame nennt höhere Schwellen, der Roborock ist knapp einen Zentimeter flacher.</li><li><strong>Station und Wartung (15 %):</strong> unentschieden. Beide waschen mit 100 °C und dosieren Reinigungsmittel; Dreame verspricht längere Beutelintervalle, Roborock trocknet zusätzlich den Staubbeutel.</li></ul><p>Damit liegt der Saros 20 vorn. Wer vor allem gründliche Kanten und hohe Schwellen braucht, gewichtet anders und ist mit dem Dreame besser bedient.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ist Dreame oder Roborock die bessere Marke?",
+      "a": "Keine der beiden Marken ist pauschal besser. Beide bauen 2026 Spitzenmodelle mit Heißwasser-Station, ausfahrbaren Mopps und Kletterfahrwerk. Im direkten Vergleich der Flaggschiffe überzeugt Roborock mit der reiferen Navigation, Dreame mit mehr Reichweite an Kanten und höheren Schwellen laut Hersteller. Vergleichen Sie deshalb Modelle, nicht Marken."
+    },
+    {
+      "q": "Was sagt die Stiftung Warentest zu Dreame und Roborock?",
+      "a": "Am 01.11.2026 führte die Datenbank der Stiftung Warentest (Artikel vom 30.06.2026) weder den Saros 20 noch den X60 Pro Ultra Complete. Von beiden Marken sind unter anderem der Roborock Saros Z70 und der Dreame X50 Ultra Complete geprüft; die Einzelurteile sind nur kostenpflichtig einsehbar. Wir nennen deshalb keine Noten."
+    },
+    {
+      "q": "Passt der Saugroboter unter mein Sofa?",
+      "a": "Messen Sie die Bodenfreiheit. Der Saros 20 ist 7,98 cm hoch und kommt laut Roborock durch leichte Kompression unter Möbel ab 7,95 cm, wobei Kratzer entstehen können. Der X60 Pro Ultra Complete misst mit eingefahrenem Lasersensor 8,9 cm, wischt aber mit dem ausgefahrenen Mopp laut Dreame unter Möbel ab 6 cm. Liegt Ihr Sofa zwischen 8 und 9 cm über dem Boden, fährt nur der Roborock komplett darunter."
+    },
+    {
+      "q": "Schafft der Roboter Türschwellen und Schiebetürschienen?",
+      "a": "Laut Hersteller überwindet der Saros 20 einzelne Schwellen bis 4,5 cm und Doppelschwellen bis 8,8 cm, der X60 Pro Ultra Complete einzelne bis 5,2 cm und doppelte bis 10 cm. Die Werte gelten unter Laborbedingungen mit festgelegten Abständen. netzwelt nennt für den Dreame im Test Hindernisse bis 6,8 cm und einen eigenen Modus für Schiebetürschienen."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen Saros 20 und Saros 20 Sonic?",
+      "a": "Laut Roborock haben beide 36.000 Pa, Doppelschwellen bis 8,8 cm und eine Heißwasser-Moppwäsche mit 100 °C. Der Sonic wischt mit einem vibrierenden Mopp (VibraRise 5.0, 14 N Anpressdruck) und erkennt Hindernisse mit strukturiertem Tri-Laser-Licht und RGB-Kamera; der Saros 20 nutzt zwei rotierende Mopps und das StarSight-Bilderkennungssystem."
+    },
+    {
+      "q": "Brauche ich einen festen Wasseranschluss?",
+      "a": "Nein. Beide Stationen arbeiten mit Tanks für Frisch- und Schmutzwasser, die Sie von Hand füllen und leeren. Für den X60 Pro Ultra Complete bietet Dreame ein Set für automatisches Nachfüllen und Entleeren separat an."
+    },
+    {
+      "q": "Haben die Roboter eine Kamera?",
+      "a": "Ja, beide. Der Saros 20 nutzt eine RGB-Kamera für die Fleckenerkennung und für Videoanrufe über die App, der X60 Pro Ultra Complete zwei KI-Kameras, mit denen ebenfalls Zwei-Wege-Videoanrufe möglich sind. Dreame sagt für Geräte, die bis zum 11.12.2027 auf den Markt kommen, drei Jahre Sicherheitsupdates ab Markteinführung zu."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "netzwelt",
+      "url": "https://www.netzwelt.de/vergleich/saugroboter-test-2026.html",
+      "note": "Vergleich vom 06.06.2026: Roborock Saros 20 mit der Note 1,4 auf Platz 1, „das beste Gesamtpaket“, mit sehr guter Navigation und hervorragender App; Dreame X60 Pro Ultra mit der Note 1,5 auf Platz 3, „trotz seiner überlegenen Hardware“ scheitere er laut Redaktion an den Schwächen seiner Software."
+    },
+    {
+      "name": "netzwelt",
+      "url": "https://www.netzwelt.de/saugroboter/dreame-x60-pro-ultra-complete/testbericht.html",
+      "note": "Testbericht vom 06.06.2026: Gesamtnote 1,5; Saugen 1,4, Wischen 1,2, Navigation 2,8. Alle 30 g Testschmutz auf Hartboden im ersten Durchgang, 19,9 von 30 g auf einem Badvorleger; Hindernisse bis 6,8 cm; bis zu 2 cm ungereinigter Streifen an Kanten; Tanks müssen von Hand gewechselt werden."
+    },
+    {
+      "name": "heise bestenlisten",
+      "url": "https://www.heise.de/bestenlisten/testbericht/roborock-saros-20-im-test-flacher-saugroboter-klettert-und-saugt-hervorragend/c42km3l",
+      "note": "Testbericht zum Roborock Saros 20 vom 12.03.2026, aktualisiert am 30.10.2026: nahezu der gesamte grobe Schmutz auf Hartboden, über 90 % auf Teppich, rund 80 % feines Mehl; 45 dB(A) im leisen Modus; Wischleistung bleibt systembedingt hinter Walzensystemen zurück."
+    },
+    {
+      "name": "Stiftung Warentest",
+      "url": "https://www.test.de/Saugroboter-im-Test-4806685-0/",
+      "note": "Datenbank Saug- und Wischroboter, Artikel vom 30.06.2026, eingesehen am 01.11.2026: weder Saros 20 noch X60 Pro Ultra Complete gelistet; geprüft sind unter anderem Roborock Saros Z70 und Dreame X50 Ultra Complete. Urteile nur kostenpflichtig, daher hier nicht wiedergegeben."
+    }
+  ],
+  "sources": [
+    "https://de.roborock.com/pages/roborock-saros-20",
+    "https://de.roborock.com/products/roborock-saros-20",
+    "https://de.roborock.com/pages/roborock-qrevo-curv-2-flow",
+    "https://de.roborock.com/",
+    "https://de.dreametech.com/products/dreame-x60-pro-ultra-complete-saugroboter",
+    "https://de.dreametech.com/products/dreame-aqua10-ultra-roller-complete-schwarz-saugroboter",
+    "https://de.dreametech.com/",
+    "https://www.netzwelt.de/vergleich/saugroboter-test-2026.html",
+    "https://www.netzwelt.de/saugroboter/dreame-x60-pro-ultra-complete/testbericht.html",
+    "https://www.heise.de/bestenlisten/testbericht/roborock-saros-20-im-test-flacher-saugroboter-klettert-und-saugt-hervorragend/c42km3l",
+    "https://www.test.de/Saugroboter-im-Test-4806685-0/",
+    "https://www.test.de/Saugroboter-im-Test-4806685-tabelle/anbieter/Roborock/",
+    "https://www.test.de/Saugroboter-im-Test-4806685-tabelle/anbieter/Dreame/",
+    "https://de.roborock.com/pages/roborock-qrevo-s-pro",
+    "https://de.dreametech.com/collections/l-serie"
+  ],
+  "related": [
+    "/de/entretien-maison/aspirateurs-robots",
+    "/de/entretien-maison/aspirateurs-laveurs",
+    "/de/blog/comparatif-robot-aspirateur-laveur",
+    "/de/blog/guide-robot-aspirateur-2026",
+    "/de/blog/saugroboter-tierhaare-test",
+    "/de/black-friday/aspirateurs-robots"
+  ]
+}

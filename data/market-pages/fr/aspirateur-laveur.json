@@ -1,0 +1,306 @@
+{
+  "locale": "fr",
+  "type": "guide",
+  "slug": "aspirateur-laveur",
+  "updated": "2026-11-01",
+  "metaTitle": "Aspirateur laveur : quel balai sans fil choisir en 2026 ?",
+  "metaDescription": "Aspirateur laveur sans fil : Dreame H15 Pro, Tineco Stretch S6 ou Dreame H12 Pro ? Sols compatibles, entretien et différence avec le robot laveur.",
+  "kicker": "Guide d’achat · Entretien des sols",
+  "h1": "Aspirateur laveur : quel balai laveur sans fil choisir en 2026 ?",
+  "answer": "Le Dreame H15 Pro est l’aspirateur laveur le plus complet pour les sols durs : rouleau lavé jusqu’à 100 °C puis séché à l’air chaud, raclette robotisée qui ramasse au ras des murs, près de 44 min mesurées par Les Numériques. Le Tineco Floor One Stretch S6 passe dans 13 cm sous les meubles, le Dreame H12 Pro FlexReach est l’entrée de gamme. Beaucoup de tapis ? Visez un 3-en-1.",
+  "picks": [
+    {
+      "brand": "Dreame",
+      "model": "H15 Pro",
+      "role": "Notre choix",
+      "why": "Il lave son rouleau par immersion dans une eau chauffée jusqu’à 100 °C, puis le sèche à l’air chaud ; son bras robotisé, une raclette qui s’abaisse quand vous reculez, ramène eau et poussières vers le rouleau jusqu’au ras des murs. Les Numériques lui donne 4 étoiles malgré son poids (5,8 kg), et Labo Maison en fait son « meilleur rapport qualité-prix » 2026 malgré une station encombrante.",
+      "bestFor": "Les familles qui ont beaucoup de sols durs (cuisine, entrée, animaux) et veulent un rouleau propre sans y toucher.",
+      "asin": "B0DT9Y8RWH",
+      "manufacturerUrl": "https://fr.dreametech.com/products/dreame-h15-pro",
+      "specs": {
+        "Aspiration": "21 000 Pa",
+        "Puissance nominale": "400 W",
+        "Autonomie annoncée": "60 min (mode silencieux), 40 min (mode intelligent)",
+        "Réservoir d’eau propre": "780 ml",
+        "Réservoir d’eau sale": "700 ml debout, 450 ml à plat",
+        "Entretien du rouleau": "lavage par immersion à 100 °C (ThermoTub), séchage 5 min à 90 °C ou 30 min à 85 °C",
+        "Bords": "bras robotisé AI DescendReach, couverture triple arête",
+        "Passage sous les meubles": "à plat à 180° : 14 cm pour l’appareil, 9,6 cm pour la tête",
+        "Anti-emmêlement": "racleur TangleCut",
+        "Modes": "Intelligent, Aspiration, Turbo, Personnalisé",
+        "Batterie": "6 × 5 000 mAh, recharge en 4 h",
+        "Poids": "5,8 kg"
+      }
+    },
+    {
+      "brand": "Tineco",
+      "model": "Floor One Stretch S6",
+      "role": "L’alternative à Dreame",
+      "why": "Couché à 180°, il ne dépasse pas 13 cm de haut et lave des deux côtés de la tête, jusqu’à 0,5 cm des murs selon Tineco. Les Numériques lui accorde 4 étoiles pour son lavage et son autonomie (37 min mesurées), mais juge son entretien laborieux.",
+      "bestFor": "Les intérieurs très meublés (lits et canapés bas) et ceux qui préfèrent une autre marque que Dreame pour l’application et les pièces.",
+      "asin": "B0CW1QDRVV",
+      "manufacturerUrl": "https://fr.tineco.com/products/floor-one-stretch-s6.html",
+      "specs": {
+        "Aspiration": "18 kPa",
+        "Puissance nominale": "220 W",
+        "Autonomie annoncée": "40 min",
+        "Réservoir d’eau sale": "0,72 L",
+        "Entretien du rouleau": "autonettoyage FlashDry, séchage 5 min à l’air chaud à 70 °C",
+        "Bords": "nettoyage des deux côtés, jusqu’à 0,5 cm des murs",
+        "Passage sous les meubles": "à plat à 180°, 13 cm de haut",
+        "Anti-emmêlement": "DualBlock",
+        "Modes": "Auto, Max, Aspiration",
+        "Autotraction": "vers l’avant",
+        "Batterie": "6 × 4 000 mAh, recharge en 5 h maximum",
+        "Écran": "LED"
+      }
+    },
+    {
+      "brand": "Dreame",
+      "model": "H12 Pro FlexReach",
+      "role": "Petit budget",
+      "why": "Il garde l’essentiel de la gamme H de Dreame : passage à plat à 180°, brosse à deux bords, racleur anti-emmêlement TangleCut, séchage du rouleau à l’air chaud (5 min à 90 °C) et 50 min annoncées en mode silencieux. Son « lavage à chaud » repose sur un flux d’air chaud, pas sur un bain d’eau chaude comme le H15 Pro, et nous n’avons trouvé aucun test indépendant de ce modèle au 1er novembre 2026.",
+      "bestFor": "Un premier aspirateur laveur pour un appartement ou une petite maison, sans viser le lavage à l’eau chaude.",
+      "asin": "B0DV5RRL9F",
+      "manufacturerUrl": "https://fr.dreametech.com/products/dreame-h12-pro-flexreach",
+      "specs": {
+        "Aspiration": "18 000 Pa",
+        "Puissance nominale": "400 W",
+        "Autonomie annoncée": "50 min (mode silencieux)",
+        "Réservoir d’eau propre": "780 ml",
+        "Réservoir d’eau sale": "700 ml debout, 480 ml à plat",
+        "Entretien du rouleau": "autonettoyage, séchage à l’air chaud 5 min à 90 °C ou 30 min à 85 °C",
+        "Bords": "brosse à deux bords",
+        "Passage sous les meubles": "à plat à 180° : 14 cm pour l’appareil, 9,6 cm pour la tête",
+        "Anti-emmêlement": "racleur TangleCut",
+        "Modes": "Intelligent, Aspiration, Turbo, Silencieux",
+        "Batterie": "6 × 4 000 mAh, recharge en 4 h",
+        "Poids": "5,1 kg"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Modèle",
+      "Note /100",
+      "Autonomie annoncée",
+      "Eau propre / eau sale",
+      "Entretien du rouleau",
+      "À plat sous les meubles",
+      "Poids annoncé",
+      "Tapis et textiles"
+    ],
+    "rows": [
+      [
+        "Dreame H15 Pro",
+        "85",
+        "60 min (silencieux), 40 min (intelligent)",
+        "780 ml / 700 ml (450 ml à plat)",
+        "Lavage à 100 °C, séchage 5 min à 90 °C",
+        "180°, 14 cm (tête 9,6 cm)",
+        "5,8 kg",
+        "Non, sols durs uniquement (mode aspiration seule)"
+      ],
+      [
+        "Dreame H14 Pro",
+        "75",
+        "40 min",
+        "880 ml / 650 ml (450 ml à plat)",
+        "Lavage à 60 °C, séchage à l’air chaud 5 min",
+        "180°, 14 cm (tête 9,8 cm)",
+        "5,7 kg",
+        "Non, sols durs uniquement (mode aspiration seule)"
+      ],
+      [
+        "Tineco Floor One Stretch S6",
+        "68",
+        "40 min",
+        "n. c. / 0,72 L",
+        "Séchage 5 min à 70 °C (FlashDry)",
+        "180°, 13 cm",
+        "n. c.",
+        "Non, sols durs uniquement (mode aspiration seule)"
+      ],
+      [
+        "Dreame H12 Pro FlexReach",
+        "63",
+        "50 min (silencieux)",
+        "780 ml / 700 ml (480 ml à plat)",
+        "Séchage 5 min à 90 °C",
+        "180°, 14 cm (tête 9,6 cm)",
+        "5,1 kg",
+        "Non, sols durs uniquement (mode aspiration seule)"
+      ],
+      [
+        "Philips AquaTrio série 9000 (XW9463/11)",
+        "54",
+        "Jusqu’à 55 min selon les modes",
+        "500 ml / 400 ml",
+        "Nettoyage automatique sur la station",
+        "Inclinaison à 180°",
+        "n. c.",
+        "Oui : aspiration à sec pour tapis et moquettes, aspirateur à main"
+      ],
+      [
+        "Philips AquaTrio série 7000 (XW7264/11)",
+        "49",
+        "25 min en lavage, 30 min à sec",
+        "n. c.",
+        "Nettoyage automatique sur la station",
+        "Inclinaison de 90 à 180°",
+        "4,5 kg (en lavage)",
+        "Oui : aspiration seule pour tapis et moquettes, aspirette"
+      ],
+      [
+        "Tineco Floor One i5 Stretch",
+        "39",
+        "30 min",
+        "0,8 L / 0,72 L",
+        "Station d’accueil, séchage à chaud non annoncé",
+        "n. c.",
+        "n. c.",
+        "Non annoncé (modes ECO et Max)"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Hygiène du rouleau",
+      "weight": 25,
+      "explanation": "Un rouleau qui reste humide finit par sentir la serpillière. Nous relevons sur la fiche française du fabricant la température de lavage du rouleau sur la station et la présence d’un séchage à l’air chaud, puis ce qu’en disent les tests : Les Numériques juge efficace l’autonettoyage du H15 Pro, alors que le rouleau du Stretch S6 reste taché après le sien."
+    },
+    {
+      "name": "Bords et passage sous les meubles",
+      "weight": 20,
+      "explanation": "La saleté s’accumule le long des plinthes et sous les meubles bas. Nous comparons le nettoyage des bords annoncé (un ou deux côtés, bras ou raclette), la hauteur à plat et les distances aux murs mesurées par les testeurs."
+    },
+    {
+      "name": "Autonomie et réservoirs",
+      "weight": 20,
+      "explanation": "La surface lavée sans s’arrêter dépend de la batterie et de l’eau. Nous retenons l’autonomie annoncée et le mode dans lequel elle est donnée, les mesures publiées et la contenance des deux réservoirs."
+    },
+    {
+      "name": "Avis des testeurs indépendants",
+      "weight": 15,
+      "explanation": "Notes et mesures publiées par des médias français qui testent en laboratoire (Les Numériques, Labo Maison), avec leur date. Un modèle sans test publié trouvé reçoit une note basse sur ce critère, sans être exclu."
+    },
+    {
+      "name": "Poids et maniabilité",
+      "weight": 10,
+      "explanation": "Poids annoncé par le fabricant et remarques des testeurs sur les virages, l’autotraction et le rangement : la plupart de ces appareils dépassent 5 kg."
+    },
+    {
+      "name": "Polyvalence selon les sols",
+      "weight": 10,
+      "explanation": "Mode aspiration seule, configuration pour tapis et moquettes, aspirateur à main : utile si votre logement mêle sols durs et textiles."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Aspirateur laveur ou robot laveur : deux appareils différents",
+      "html": "<p>L’<strong>aspirateur laveur</strong>, qu’on appelle aussi balai laveur ou aspirateur eau et poussière, se pousse à la main : il aspire les miettes et lave le sol dans le même passage, avec un réservoir d’eau propre et un réservoir d’eau sale séparés. Le <strong>robot aspirateur laveur</strong>, lui, fait le ménage seul, selon un programme, et revient sur sa station pour se recharger. Ce guide ne traite que du premier.</p><p>Les deux marchés n’ont ni la même taille ni le même budget. Selon le bilan 2025 du GIFAM, repris par Le Tribunal du Net le 18 février 2026, il s’est vendu en France environ 1,3 million d’aspirateurs balais laveurs, à un prix moyen d’environ 175 €, contre 900 000 aspirateurs robots, souvent laveurs, à environ 470 € en moyenne. Les ventes de balais laveurs ont bondi de 66 % en 2025, et environ 16 % des foyers en possèdent un.</p><ul><li><strong>Le balai laveur</strong> convient si vous voulez rattraper tout de suite une tache ou un liquide renversé, nettoyer la cuisine après le repas et laver à fond une fois par semaine.</li><li><strong>Le robot laveur</strong> convient si vous voulez un entretien quotidien sans y penser, quitte à repasser à la main dans les angles et sur les taches sèches.</li><li>Beaucoup de foyers finissent avec les deux : le robot pour l’entretien courant, le balai pour les grands nettoyages.</li></ul>"
+    },
+    {
+      "h2": "Pour quels sols ?",
+      "html": "<p>Un aspirateur laveur est fait pour les <strong>sols durs qui supportent une serpillière humide</strong>. Dreame rappelle que ses modèles visent le carrelage, certains stratifiés et les parquets correctement vitrifiés ; Philips résume la règle autrement : si vous lavez déjà ce sol à la serpillière humide sans problème, l’appareil lui convient aussi.</p><ul><li><strong>Carrelage, grès cérame, sols vinyles :</strong> le terrain idéal. Le mode automatique dose l’eau et l’aspiration selon la saleté détectée.</li><li><strong>Parquet vitrifié et stratifié :</strong> oui, en mode standard, sans détremper. Sur le H15 Pro, une raclette s’abaisse quand vous reculez pour ramener l’eau vers le rouleau. En cas de doute, suivez les recommandations du fabricant du revêtement, comme le conseille Dreame.</li><li><strong>Parquet huilé, ciré ou brut :</strong> à éviter, l’eau peut tacher ou faire travailler le bois.</li><li><strong>Tapis et moquettes :</strong> jamais en lavage. Les Dreame et Tineco de ce guide ont un mode aspiration seule, mais leur rouleau humide n’est pas une brosse à tapis. Si votre logement compte beaucoup de textiles, gardez un aspirateur balai ou choisissez un 3-en-1.</li></ul>"
+    },
+    {
+      "h2": "Entretien : les gestes qui évitent les mauvaises odeurs",
+      "html": "<p>Le point faible de la catégorie n’est pas le lavage, c’est l’entretien. Les Numériques juge celui du Tineco Stretch S6 laborieux et reproche au Dreame H14 Pro l’entretien de son bac d’eau sale. Quelques gestes suffisent pourtant à garder un appareil sain.</p><ul><li><strong>Après chaque passage :</strong> videz et rincez le réservoir d’eau sale, retirez cheveux et débris du filtre, puis reposez l’appareil sur sa station pour lancer l’autonettoyage. Dreame recommande de vider le réservoir d’eau sale après chaque séance.</li><li><strong>Le séchage du rouleau :</strong> c’est lui qui évite l’odeur de serpillière. Le H15 Pro et le H12 Pro FlexReach sèchent leur rouleau 5 min à l’air chaud à 90 °C, le Stretch S6 5 min à 70 °C. Sans séchage chaud, sortez le rouleau de temps en temps pour qu’il sèche à l’air libre.</li><li><strong>Régulièrement :</strong> contrôlez rouleau, filtre et conduits comme le demande la notice, rincez le logement du rouleau sur la station et essuyez la raclette.</li><li><strong>Le produit nettoyant :</strong> suivez la notice. Si vous en ajoutez, prenez la solution prévue par la marque ; Philips recommande la sienne, un liquide peu moussant, à raison de 10 ml par utilisation.</li><li><strong>Les pièces d’usure :</strong> rouleau et filtre se changent. Philips conseille de remplacer brosses et filtre tous les 6 mois sur l’AquaTrio. Avant d’acheter, vérifiez que la marque vend ces pièces en France.</li></ul>"
+    },
+    {
+      "h2": "Un 3-en-1 comme le Philips AquaTrio : pour qui ?",
+      "html": "<p>Le Philips AquaTrio série 9000 (XW9463/11) fonctionne autrement : deux rouleaux tournent à 4 000 tr/min et lavent en avançant comme en reculant. Surtout, il change de configuration : aspiration et lavage pour les sols durs, aspiration à sec pour les tapis et moquettes, aspirateur à main pour le canapé et les meubles. Philips annonce jusqu’à 55 min selon les modes, des réservoirs de 500 ml (eau propre) et 400 ml (eau sale) et une inclinaison à 180°.</p><p>C’est le bon choix si vous voulez <strong>un seul appareil pour un logement mixte</strong>, carrelage et tapis. Si vos sols sont presque tous durs, un modèle qui lave ou sèche son rouleau à chaud, comme les Dreame et le Tineco de ce guide, entretient mieux sa brosse. La série 7000 (XW7264/11) reprend le principe 3-en-1 avec 25 min annoncées en lavage, pour les petites surfaces : Philips indique jusqu’à 80 m² par charge.</p>"
+    },
+    {
+      "h2": "Les pièges à éviter",
+      "html": "<ul><li><strong>Choisir sur les pascals :</strong> Les Numériques a vu le H15 Pro et ses 21 000 Pa peiner sur un œuf cassé (14 allers-retours) qu’un concurrent ramasse en deux. La forme de la tête et la raclette comptent autant que la puissance.</li><li><strong>Croire l’autonomie maximale :</strong> elle est donnée dans le mode le plus économe. Dreame annonce 60 min en mode silencieux et 40 min en mode intelligent pour le H15 Pro ; Les Numériques a mesuré près de 44 min.</li><li><strong>Oublier de mesurer sous vos meubles :</strong> à plat, le H15 Pro et le H12 Pro FlexReach passent dans 14 cm (9,6 cm pour la tête), le Stretch S6 descend à 13 cm. Labo Maison note que la tête du H15 Pro ne passe pas sous tous les meubles.</li><li><strong>Négliger le poids :</strong> Dreame annonce de 5,1 à 5,8 kg pour les modèles de ce guide. Les roues motorisées aident au sol, pas dans l’escalier.</li><li><strong>Placer la station n’importe où :</strong> Labo Maison a relevé de 49 à 64 dB(A) pendant l’autonettoyage du H15 Pro. Évitez la chambre ou le coin télé.</li></ul>"
+    },
+    {
+      "h2": "Pourquoi ce classement",
+      "html": "<p>Chaque modèle est noté sur 100 avec les six critères ci-dessus, à partir des fiches techniques françaises des fabricants et des tests publiés par Les Numériques et Labo Maison. Ni le prix ni les clics n’entrent dans la note.</p><ul><li><strong>Dreame H15 Pro, 85/100 :</strong> meilleure hygiène du rouleau (100 °C puis air chaud), meilleur traitement des bords et près de 44 min mesurées par Les Numériques. Il perd des points sur le poids et la maniabilité.</li><li><strong>Dreame H14 Pro, 75/100 :</strong> 5 étoiles chez Les Numériques et le plus grand réservoir d’eau propre (880 ml), mais un rouleau lavé à 60 °C seulement et le même gabarit que le H15 Pro, dont il est le prédécesseur direct. Nous le gardons dans le tableau plutôt que de recommander deux fois le même appareil.</li><li><strong>Tineco Floor One Stretch S6, 68/100 :</strong> la meilleure note hors Dreame, avec 13 cm à plat, des bords lavés des deux côtés et 4 étoiles chez Les Numériques ; séchage moins chaud et entretien jugé laborieux.</li><li><strong>Dreame H12 Pro FlexReach, 63/100 :</strong> la meilleure note parmi les modèles d’entrée de gamme du tableau, avec séchage à 90 °C, 50 min annoncées et 5,1 kg ; aucun test dédié trouvé, d’où une note testeurs basse.</li><li><strong>Philips AquaTrio série 9000, 54/100 :</strong> le plus polyvalent (tapis, aspirateur à main), mais ni lavage ni séchage à chaud annoncés et aucun test français trouvé.</li><li><strong>Philips AquaTrio série 7000, 49/100, et Tineco Floor One i5 Stretch, 39/100 :</strong> autonomie courte (25 min en lavage pour le Philips, 30 min pour le Tineco) et fiches françaises incomplètes.</li></ul><p>Les trois choix suivent cette note : <strong>notre choix</strong> est la meilleure note ; <strong>l’alternative</strong> est la meilleure note d’une autre marque, pour garder le choix de l’application, du service après-vente et des pièces ; <strong>le petit budget</strong> est la meilleure note parmi les modèles d’entrée de gamme. Le Dreame H15 Pro Heat, qui chauffe aussi l’eau envoyée au sol, et le Tineco Floor One S9 Artist relèvent du haut de gamme : nous les opposons à part, dans notre duel « Dreame ou Tineco ».</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Aspirateur laveur ou robot laveur : lequel choisir ?",
+      "a": "Le balai laveur lave plus à fond et traite tout de suite une tache ou un liquide renversé ; le robot entretient chaque jour sans vous, mais laisse souvent les angles et les taches sèches. En 2025, un balai laveur coûtait environ 175 € en moyenne, contre environ 470 € pour un aspirateur robot, selon le GIFAM."
+    },
+    {
+      "q": "Peut-on passer un aspirateur laveur sur du parquet ?",
+      "a": "Oui sur un parquet vitrifié ou un stratifié, en mode standard : la règle est la même qu’avec une serpillière humide (c’est le critère de Philips), et Dreame conseille de vérifier les recommandations du fabricant du revêtement. Évitez le parquet huilé, ciré ou brut."
+    },
+    {
+      "q": "Un aspirateur laveur remplace-t-il l’aspirateur ?",
+      "a": "Sur les sols durs, oui pour l’essentiel : il aspire miettes et poussière tout en lavant. Pour les tapis épais, l’escalier, le canapé ou les rideaux, il faut un aspirateur balai classique ou un 3-en-1 comme le Philips AquaTrio, qui se transforme en aspirateur à sec et en aspirateur à main."
+    },
+    {
+      "q": "Aspirateur laveur Dreame ou Tineco ?",
+      "a": "Dreame mise sur l’hygiène du rouleau (lavage à 100 °C sur le H15 Pro) et sur les bords (bras robotisé). Selon Les Numériques, Tineco a inauguré le format couché à 180° avec le Floor One Stretch S6, qui descend à 13 cm, mais sèche son rouleau moins chaud (70 °C). Dans notre classement, le H15 Pro obtient 85/100 et le Stretch S6 68/100."
+    },
+    {
+      "q": "Que disent Les Numériques des aspirateurs laveurs Dreame ?",
+      "a": "Le H14 Pro a obtenu 5 étoiles et le H15 Pro 4 étoiles, notes datées du 10 juin 2025. Le magazine salue l’autonettoyage du rouleau du H15 Pro et son autonomie (près de 44 min mesurées), et reproche aux deux modèles leur poids et leur manque de maniabilité."
+    },
+    {
+      "q": "Quelle autonomie réelle attendre ?",
+      "a": "Moins que le chiffre maximal, souvent donné en mode éco. Les Numériques a mesuré près de 44 min pour le Dreame H15 Pro (60 min annoncées en mode silencieux), environ 40 min pour le H14 Pro et 37 min pour le Tineco Stretch S6 (40 min annoncées), avec des recharges de 3 h 6 min à 3 h 33 min."
+    },
+    {
+      "q": "Faut-il mettre un produit nettoyant dans l’eau ?",
+      "a": "Suivez la notice de votre appareil. Si vous ajoutez un produit, prenez la solution prévue par la marque : Philips recommande la sienne, peu moussante, à raison de 10 ml par utilisation. Selon Les Numériques, le H15 Pro ne permet pas d’ajouter de détergent, contre certains modèles Dreame plus anciens."
+    },
+    {
+      "q": "Aspirateur laveur ou balai vapeur ?",
+      "a": "L’aspirateur laveur aspire et lave en un seul passage, à l’eau. Le balai vapeur décolle certaines salissures par la chaleur, mais il ne convient qu’aux revêtements qui supportent la vapeur, comme le rappelle Dreame. Vérifiez la compatibilité de votre sol avant d’en acheter un."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Les Numériques — Dreame H15 Pro",
+      "url": "https://www.lesnumeriques.com/nettoyeur-sol/dreame-h15-pro-p76164/test.html",
+      "note": "Test publié le 26/03/2025, 4 étoiles (note du 10/06/2025). Près de 44 min d’autonomie mesurées, recharge en 3 h 10 min, 60,5 dB en mode automatique. Points forts : passage sous les meubles, larges réservoirs, raclette qui piège les poussières le long des murs, autonettoyage du rouleau efficace. Points faibles : balai lourd, difficile à manier dans les virages serrés, en difficulté face à un œuf cassé."
+    },
+    {
+      "name": "Les Numériques — Dreame H14 Pro",
+      "url": "https://www.lesnumeriques.com/nettoyeur-sol/dreame-h14-pro-p75465/test.html",
+      "note": "Test publié le 02/10/2024, 5 étoiles (note du 10/06/2025). Environ 40 min d’autonomie mesurées, conformes à l’annonce, recharge en 3 h 6 min, 61,5 dB en mode standard. Points forts : inclinaison à 180°, larges réservoirs, bon lavage. Points faibles : appareil lourd et très peu maniable, entretien du bac d’eau sale."
+    },
+    {
+      "name": "Les Numériques — Tineco Floor One Stretch S6",
+      "url": "https://www.lesnumeriques.com/nettoyeur-sol/tineco-floor-one-stretch-s6-p75123/test.html",
+      "note": "Test publié le 17/09/2024, 4 étoiles (note du 17/03/2026). 37 min mesurées en mode automatique, réservoir d’eau propre suffisant pour 40 min, rouleau qui longe les murs à 0,5 cm près, recharge en 3 h 33 min, 60 dB. Point faible : entretien laborieux, rouleau encore taché après l’autonettoyage."
+    },
+    {
+      "name": "Labo Maison — Dreame H15 Pro",
+      "url": "https://labomaison.com/entretien/aspirateur-laveur/test-dreame-h15-pro/",
+      "note": "Test publié le 19/04/2025 : aspiration, raclette rétractable et autonettoyage salués ; station volumineuse, autonettoyage bruyant (de 49 à 64 dB(A)) et tête de 9,6 cm qui ne passe pas sous tous les meubles. Désigné « meilleur rapport qualité-prix » dans la sélection 2026 du site, publiée le 16/06/2026."
+    }
+  ],
+  "sources": [
+    "https://fr.dreametech.com/products/dreame-h15-pro",
+    "https://fr.dreametech.com/products/h14-pro",
+    "https://fr.dreametech.com/products/dreame-h12-pro-flexreach",
+    "https://fr.dreametech.com/collections/aspirateur-laveur",
+    "https://fr.tineco.com/products/floor-one-stretch-s6.html",
+    "https://fr-store.tineco.com/products/tineco-floor-one-stretch-s6-aspirateur-eau-et-poussiere-laveur-de-sols",
+    "https://fr.tineco.com/products/floor-one-i5-stretch.htm",
+    "https://www.home-appliances.philips/fr/fr/p/XW9463_11",
+    "https://www.home-appliances.philips/fr/fr/p/XW7264_11",
+    "https://www.home-appliances.philips/fr/fr/u/floor-care-vacuums-mops/cordless-wet-dry-vacuums",
+    "https://www.lesnumeriques.com/nettoyeur-sol/dreame-h15-pro-p76164/test.html",
+    "https://www.lesnumeriques.com/nettoyeur-sol/dreame-h14-pro-p75465/test.html",
+    "https://www.lesnumeriques.com/nettoyeur-sol/tineco-floor-one-stretch-s6-p75123/test.html",
+    "https://labomaison.com/entretien/aspirateur-laveur/test-dreame-h15-pro/",
+    "https://labomaison.com/entretien/aspirateur-laveur/meilleurs-aspirateurs-laveurs-2026/",
+    "https://www.letribunaldunet.fr/shopping/aspirateur-balai-laveur-apres-air-fryer-appareil-coup-de-coeur-francais-gifam-2025.html"
+  ],
+  "related": [
+    "/fr/entretien-maison/aspirateurs-laveurs",
+    "/fr/entretien-maison/aspirateurs-balais",
+    "/fr/entretien-maison/nettoyeurs-vapeur",
+    "/fr/entretien-maison/aspirateurs-robots",
+    "/fr/blog/meilleur-aspirateur-laveur-2026",
+    "/fr/blog/comparatif-robot-aspirateur-laveur"
+  ]
+}

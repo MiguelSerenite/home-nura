@@ -1,0 +1,319 @@
+{
+  "locale": "us",
+  "type": "guide",
+  "slug": "video-doorbell-without-subscription",
+  "updated": "2026-11-01",
+  "metaTitle": "Video Doorbell Without Subscription: 3 Best Picks for 2026",
+  "metaDescription": "Video doorbell without a subscription: eufy E340 for most homes, Reolink for 24/7 recording, Tapo D225 on a budget, compared on local storage and power.",
+  "kicker": "No-subscription video doorbells",
+  "h1": "The Best Video Doorbells Without a Subscription in 2026",
+  "answer": "The eufy Security Video Doorbell E340 is the best video doorbell without a subscription for most homes: it saves clips to 8 GB of built-in memory, runs on battery or doorbell wiring, and a second camera watches packages on the mat. For 24/7 recording, get the wired Reolink Video Doorbell WiFi. On a budget, the Tapo D225 records to a microSD card. Specs checked November 1, 2026.",
+  "picks": [
+    {
+      "brand": "eufy",
+      "model": "eufy Security Video Doorbell E340",
+      "role": "Best overall",
+      "why": "It's the only pick that saves video with nothing else to buy: 8 GB of memory is built in, and person and package detection are included. Its downward-facing second camera covers deliveries left at the door, and the battery pops out to recharge, or you can wire it to keep the battery topped up.",
+      "bestFor": "Most front doors, package deliveries and buyers who don't want to shop for a memory card",
+      "asin": "B0CD7NT4Y9",
+      "manufacturerUrl": "https://us.eufy.com/products/t8214111",
+      "specs": {
+        "Model number": "T8214111",
+        "Cameras": "Dual: front camera for visitors, downward camera for packages on the ground (Delivery Guard)",
+        "Video resolution": "2K",
+        "Viewing angle": "160°",
+        "Night vision": "Color, up to 16 ft (5 m)",
+        "Local storage": "8 GB built-in eMMC; eufy says about 90 days of video at 30 clips of 20 seconds a day; no microSD slot",
+        "Optional base station": "Works standalone or with eufy HomeBase 2 or HomeBase S380 (sold separately)",
+        "Power": "Removable rechargeable battery (full charge in 5 hours) or doorbell wiring",
+        "Wired requirement": "8–24 V, over 10 VA; the battery must stay installed in wired mode",
+        "Free AI detection": "Human and package detection; eufy also lists face recognition",
+        "24/7 recording": "Not listed by eufy; records motion-triggered clips",
+        "Chime": "Works with an existing mechanical chime; eufy chimes and HomeBase sold separately; not compatible with the original eufy Wi-Fi Chime (T8020) or eufy Chime (T8740/T8742)",
+        "Wi-Fi": "2.4 GHz only",
+        "Works with": "Amazon Alexa, Google Assistant; no Apple HomeKit",
+        "Weather rating": "IP65",
+        "Cloud use without a plan": "Notifications with thumbnail previews temporarily store those images in the cloud; Cloud Backup is a paid option"
+      }
+    },
+    {
+      "brand": "Reolink",
+      "model": "Reolink Video Doorbell WiFi",
+      "role": "Best wired doorbell for 24/7 recording",
+      "why": "It's built for owners who want everything recorded, not just motion: it records 24/7, on a schedule or on motion, and saves to a microSD card, a Reolink NVR, a Reolink Home Hub or your own FTP server. Dual-band Wi-Fi, RTSP and ONVIF make it the most open of the three, but it has no battery and replaces your old chime with its own.",
+      "bestFor": "Homes with doorbell wiring, owners of a Reolink NVR or Home Hub, and Home Assistant or NAS setups",
+      "asin": null,
+      "manufacturerUrl": "https://reolink.com/us/product/reolink-video-doorbell-wifi/",
+      "specs": {
+        "Video resolution": "5MP, 2560 x 1920 at 20 fps",
+        "Field of view": "135° horizontal, 100° vertical",
+        "Power": "Hardwired only: 12–24 V AC (50/60 Hz) or 24 V DC doorbell wiring, or the included plug-in power adapter; no battery",
+        "Recording modes": "Motion (default), 24/7 continuous or scheduled; pre-motion recording",
+        "Local storage": "microSD card up to 256 GB (sold separately), Reolink NVR, Reolink Home Hub or your own FTP/NAS server",
+        "Free AI detection": "Person, vehicle, animal and package detection; custom motion zones",
+        "Notifications": "Push notifications and emails with a snapshot in the free Reolink app",
+        "Chime": "Plug-in Reolink Chime included; per Reolink's FAQ, it doesn't work with pre-existing mechanical chimes, which you bypass with the included jumper cable",
+        "Wi-Fi": "Dual-band 2.4 GHz and 5 GHz",
+        "Protocols": "RTSP, ONVIF, RTMP, FTP, SMTP and others",
+        "Works with": "Google Assistant and Alexa devices; no Apple HomeKit",
+        "Weather rating": "IP65",
+        "Operating temperature": "14°F to 122°F (-10°C to 50°C)",
+        "Warranty": "2-year limited"
+      }
+    },
+    {
+      "brand": "Tapo",
+      "model": "Tapo D225",
+      "role": "Budget pick",
+      "why": "It does most of what the eufy does for less: battery or wired power, a plug-in chime in the box, free on-device detection of people, pets, vehicles and packages, plus 24/7 recording once it's hardwired. You'll need to buy a microSD card, snapshot notifications require Tapo Care, and the built-in battery means taking the doorbell down to charge it.",
+      "bestFor": "Tight budgets, renters who want a battery doorbell with a chime included, and wired homes that want 24/7 recording cheaply",
+      "asin": "B0D8MKQ5RC",
+      "manufacturerUrl": "https://www.tapo.com/us/product/tapo-d225-smart-doorbell",
+      "specs": {
+        "Video resolution": "2K 4MP QHD",
+        "Field of view": "180° diagonal (170.6° horizontal, 140.1° vertical), 4:3",
+        "Power": "Built-in 10,000 mAh rechargeable battery (Tapo: up to 8 months per charge) or hardwired to doorbell wiring",
+        "Recording": "Motion events on battery; 24/7 continuous recording when hardwired; pre-roll, part of the hardwired Always-On mode, adds up to 4 seconds before motion",
+        "Local storage": "microSD card up to 512 GB (sold separately)",
+        "Free AI detection": "Person, pet, vehicle and package (on-device)",
+        "Notifications": "Plain notifications free; notifications with a snapshot require Tapo Care",
+        "Chime": "Plug-in Tapo Chime included; works with a traditional chime only when hardwired, and not in 24/7 recording mode",
+        "Night vision": "IR up to 33 ft (10 m); full-color with built-in spotlights",
+        "Siren": "98 dB",
+        "Wi-Fi": "2.4 GHz only",
+        "Works with": "Amazon Alexa, Google Assistant",
+        "Weather rating": "IP66",
+        "Operating temperature": "-4°F to 113°F"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Model",
+      "Power",
+      "Saves video without a plan to",
+      "24/7 recording",
+      "Free smart detection",
+      "Video and view",
+      "Wi-Fi",
+      "Chime"
+    ],
+    "rows": [
+      [
+        "eufy Security Video Doorbell E340",
+        "Removable battery or doorbell wiring (8–24 V)",
+        "8 GB built-in memory; eufy HomeBase optional",
+        "Not listed",
+        "Person, package (face recognition also listed)",
+        "2K, dual cameras, 160°",
+        "2.4 GHz",
+        "Existing mechanical chime; eufy chimes sold separately"
+      ],
+      [
+        "Reolink Video Doorbell WiFi",
+        "Doorbell wiring (12–24 V AC) or plug-in adapter",
+        "microSD up to 256 GB, Reolink NVR, Home Hub or FTP/NAS",
+        "Yes",
+        "Person, vehicle, animal, package",
+        "5MP, 135° x 100°",
+        "2.4/5 GHz",
+        "Reolink Chime included; old chime bypassed"
+      ],
+      [
+        "Tapo D225",
+        "Built-in 10,000 mAh battery or doorbell wiring",
+        "microSD up to 512 GB",
+        "When hardwired",
+        "Person, pet, vehicle, package",
+        "2K 4MP, 180° diagonal",
+        "2.4 GHz",
+        "Tapo Chime included"
+      ],
+      [
+        "Reolink Battery Video Doorbell (2nd Gen)",
+        "Battery or doorbell wiring (16–24 V AC or 24 V DC for Wired Power Mode)",
+        "microSD up to 512 GB, Reolink Home Hub, NVR or FTP",
+        "In Wired Power Mode, saved to the doorbell's microSD card",
+        "Person, vehicle, animal, package, visitor",
+        "4MP (2048 x 2048), 150° x 150°",
+        "2.4/5 GHz",
+        "Existing mechanical chime or Reolink Chime Plus (sold separately)"
+      ],
+      [
+        "Aqara Doorbell Camera Hub G410",
+        "Replaceable batteries or 12–24 V AC/DC wiring",
+        "microSD up to 512 GB",
+        "When wired",
+        "mmWave radar presence, on-device face recognition",
+        "2K, 4:3, 175°",
+        "2.4/5 GHz",
+        "Chime-hub included; the G410 is also a Matter controller and Thread border router"
+      ],
+      [
+        "Tapo D130",
+        "Hardwired only (8–24 V AC, 10 VA minimum)",
+        "microSD up to 512 GB",
+        "Yes",
+        "Person, pet, vehicle, package, line crossing",
+        "2K 5MP, 180° diagonal",
+        "2.4 GHz",
+        "Tapo Chime included"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Recording without a plan",
+      "weight": 30,
+      "explanation": "This is the whole point of a no-subscription doorbell. We check where each model saves video for free (built-in memory, microSD card, base station, NVR or FTP), how much it holds and whether the maker lists 24/7 recording. Edge: the Reolink Video Doorbell WiFi for the most options; the eufy E340 is the only pick that needs nothing extra to start recording."
+    },
+    {
+      "name": "Free smart detection and alerts",
+      "weight": 20,
+      "explanation": "Detection decides whether you get a useful alert or a stream of passing cars. We list which detections each maker includes at no charge and which alert features need a paid plan. All three picks detect people and packages for free; Tapo puts snapshot notifications behind Tapo Care. Edge: the eufy E340, whose second camera is dedicated to the doorstep."
+    },
+    {
+      "name": "Power and installation",
+      "weight": 20,
+      "explanation": "We compare battery, wired or both, how the battery recharges, the transformer voltage each maker lists and whether your old chime keeps ringing. Edge: the eufy E340 and Tapo D225, which run on battery or wiring; the Reolink Video Doorbell WiFi is wired only and replaces your chime."
+    },
+    {
+      "name": "Video and field of view",
+      "weight": 15,
+      "explanation": "Coverage matters more than megapixels: a head-to-toe view shows both the visitor's face and the box on the mat. We compare published resolution, field of view and night vision. Edge: the eufy E340's dual cameras, with the Tapo D225's 180° diagonal view close behind."
+    },
+    {
+      "name": "Wi-Fi and smart home",
+      "weight": 10,
+      "explanation": "We check Wi-Fi bands (5 GHz helps on crowded networks), Alexa and Google Assistant support, Apple HomeKit and open protocols such as RTSP and ONVIF. Edge: the Reolink Video Doorbell WiFi, the only pick with dual-band Wi-Fi and RTSP/ONVIF."
+    },
+    {
+      "name": "Privacy and cloud dependence",
+      "weight": 5,
+      "explanation": "We read each maker's notes on what still passes through the cloud when you skip the plan, such as thumbnail or snapshot notifications. Edge: Reolink, whose NVR, Home Hub and FTP options let you keep every recording inside your home."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "What “no subscription” really means",
+      "html": "<p>A video doorbell works without a subscription when it saves video somewhere you own: built-in memory, a microSD card inside the doorbell, or a base station or recorder inside your home. You keep live view, alerts and two-way talk, and you can play back what happened while you were out, with no monthly fee.</p><p>What you give up varies by brand. Consumer Reports counts a doorbell as subscription-free when it stores video locally, and it notes that many of these models lack intelligent object recognition, which often runs on the company's servers rather than in the doorbell. All three of our picks detect people and packages at no charge, but each maker still sells an optional cloud plan, and a few conveniences sit behind it.</p>"
+    },
+    {
+      "h2": "What each doorbell saves without a plan",
+      "html": "<ul><li><strong>eufy Security Video Doorbell E340:</strong> motion clips go to 8 GB of built-in memory, which eufy says holds about 90 days of video at 30 clips of 20 seconds a day. There's no card slot; a eufy HomeBase 2 or S380, sold separately, adds room indoors. eufy doesn't list 24/7 recording for it.</li><li><strong>Reolink Video Doorbell WiFi:</strong> motion, scheduled or 24/7 continuous recording, saved to a microSD card up to 256 GB, a Reolink NVR, a Reolink Home Hub or your own FTP/NAS server.</li><li><strong>Tapo D225:</strong> motion events on battery and 24/7 continuous recording when hardwired, saved to a microSD card up to 512 GB.</li><li><strong>Reolink Battery Video Doorbell (2nd Gen):</strong> motion-triggered recording on battery. 24/7 recording and pre-recording work only in Wired Power Mode, and Reolink says 24/7 footage stays on the doorbell's own microSD card, while a hub or NVR keeps only motion recordings.</li><li><strong>Aqara Doorbell Camera Hub G410:</strong> recording to a microSD card up to 512 GB, with 24/7 recording only when it's wired.</li></ul><p>Every model except the eufy needs a microSD card, sold separately. Format the card in the maker's app and check that clips play back before you rely on it.</p>"
+    },
+    {
+      "h2": "What Ring, Blink and Google Nest doorbells do without a plan",
+      "html": "<p>The best-known video doorbells come from Ring, Blink and Google Nest. They all work without a plan, but here's what each maker says you can save, as of November 1, 2026:</p><ul><li><strong>Ring:</strong> live view is available without a subscription, for up to 10 minutes at a time. Reviewing recorded video requires a Ring subscription; past events might appear in your history, but you can't view or recover them.</li><li><strong>Blink:</strong> without a plan, live view is limited to 5 minutes. Clips can be saved locally only through a Sync Module 2 with a USB drive (1 GB to 256 GB) or a Sync Module XR with a microSD card. The Sync Module Core, which isn't sold separately, doesn't support local storage.</li><li><strong>Google Nest:</strong> Google's help center lists up to 3 hours of event video history at no charge for the Nest Doorbell (battery) and the Nest Doorbell (wired, 2nd gen). Longer history takes a paid plan.</li></ul><p>If a monthly fee is the deal-breaker, a doorbell that records locally is the simpler route: nothing stops working when a trial ends.</p>"
+    },
+    {
+      "h2": "Wired vs. battery: which fits your door",
+      "html": "<p><strong>Wired</strong> doorbells connect to the low-voltage wiring and transformer behind a traditional doorbell. You never recharge them, and wiring is what unlocks 24/7 recording: the Tapo D225, the Reolink Battery Video Doorbell (2nd Gen) and the Aqara G410 record around the clock only when hardwired, and the Reolink Video Doorbell WiFi has no battery at all. Before you buy, compare the voltage printed on your doorbell transformer with the doorbell's range: 8–24 V for the eufy E340, 12–24 V AC or 24 V DC for the Reolink Video Doorbell WiFi, and 16–24 V AC or 24 V DC for Wired Power Mode on the Reolink 2nd Gen.</p><p><strong>Battery</strong> doorbells go anywhere, which suits renters and doors with no wiring. The trade-off is recharging. The Tapo D225's 10,000 mAh battery is built in, so the whole doorbell comes off the wall to charge. The eufy E340's battery pack comes out and fully charges in 5 hours, and the E340 needs it installed even when wired. On battery, these models record motion events, not 24/7 video.</p><p>Turn off power at the breaker before you touch doorbell wires. If your wiring is old or you're not sure what you're looking at, hire a licensed electrician.</p>"
+    },
+    {
+      "h2": "Will your old chime still ring?",
+      "html": "<ul><li><strong>eufy E340:</strong> works with an existing mechanical chime. eufy's own chimes and HomeBase units are sold separately.</li><li><strong>Tapo D225:</strong> rings a traditional chime only when hardwired, and Tapo notes that its 24/7 recording mode doesn't support an existing chime. A plug-in Tapo Chime comes in the box.</li><li><strong>Reolink Video Doorbell WiFi:</strong> Reolink's FAQ says it doesn't work with pre-existing mechanical chimes. You bypass the old chime with the included jumper cable and use the plug-in Reolink Chime instead.</li><li><strong>Reolink Battery Video Doorbell (2nd Gen):</strong> rings a compatible mechanical chime in Battery Mode on an 8–24 V AC, 5 VA to 40 VA transformer. In Wired Power Mode, keeping the chime active takes 16–24 V AC and the RLA-PK1 Power Kit, sold separately.</li></ul>"
+    },
+    {
+      "h2": "Built-in memory, microSD card or a base station?",
+      "html": "<p>Storage inside the doorbell is the simplest setup, but it has a weak spot: if someone pulls the doorbell off the wall, the footage goes with it. A base station or recorder inside the house keeps a copy out of reach.</p><ul><li><strong>eufy:</strong> the E340's 8 GB of memory can't be expanded on the doorbell itself; a HomeBase 2 or S380 adds storage indoors.</li><li><strong>Reolink:</strong> a microSD card in the doorbell, or a Reolink Home Hub or NVR indoors. The Video Doorbell WiFi can also send recordings to your own FTP/NAS server.</li><li><strong>Tapo:</strong> the D225 records to a microSD card in the doorbell, up to 512 GB.</li></ul><p>A bigger card matters most if you record 24/7. Stay within each model's limit: 256 GB for the Reolink Video Doorbell WiFi, 512 GB for the Tapo D225, the Reolink 2nd Gen and the Aqara G410.</p>"
+    },
+    {
+      "h2": "Privacy: “local” doesn't always mean offline",
+      "html": "<p>Every doorbell here needs Wi-Fi and the maker's app for alerts and remote viewing, so some data still crosses the internet. The details differ:</p><ul><li><strong>eufy</strong> says push notifications with thumbnail previews require those images to be stored temporarily in the cloud. Choose alerts without previews if you want to avoid that.</li><li><strong>Tapo</strong> lists plain notifications as free and notifications with a snapshot as a Tapo Care feature.</li><li><strong>Reolink</strong> describes push notifications and emails with a snapshot in its free app for the Video Doorbell WiFi, and its cloud service is optional.</li><li><strong>Apple's HomeKit Secure Video</strong> analyzes video on your home hub and stores it encrypted in iCloud, but it requires an iCloud+ plan, which is a subscription of its own.</li></ul>"
+    },
+    {
+      "h2": "Apple Home and Home Assistant households",
+      "html": "<p>None of our three picks works with Apple HomeKit: eufy says the E340 doesn't support it, and Tapo and Reolink list Alexa and Google Assistant. If you live in Apple Home, look at the <strong>Aqara Doorbell Camera Hub G410</strong>. It supports HomeKit Secure Video (at up to 1200p), records to a microSD card at no charge, and doubles as a Matter controller and Thread border router. HomeKit Secure Video itself needs an iCloud+ plan and a home hub such as an Apple TV or HomePod; the microSD card is the no-fee route.</p><p>For Home Assistant or a security NVR, Reolink is the most open choice: the Video Doorbell WiFi supports RTSP and ONVIF, and Reolink lists a direct Home Assistant connection for the Battery Video Doorbell (2nd Gen). Aqara offers RTSP on the G410 only when it's wired.</p>"
+    },
+    {
+      "h2": "Why this ranking",
+      "html": "<p>We scored each model against the six weighted criteria on this page, using the manufacturers' published specs, then checked independent reviews for problems the spec sheets don't show. Price, Amazon ratings and commissions play no part in the order.</p><ul><li><strong>eufy Security Video Doorbell E340 (best overall)</strong> leads on what matters most here: it records with nothing extra to buy, runs on battery or wiring, and its second camera covers packages. Its weak spots are 2.4 GHz-only Wi-Fi, no HomeKit and no 24/7 recording listed.</li><li><strong>Reolink Video Doorbell WiFi</strong> has the deepest recording options (24/7, NVR, Home Hub, FTP) and the best connectivity (dual-band Wi-Fi, RTSP, ONVIF). It ranks second because it's wired only, replaces your old chime and lacks the eufy's package camera.</li><li><strong>Tapo D225 (budget pick)</strong> matches the eufy on power flexibility and adds 24/7 recording when wired, but you have to buy a card, snapshot alerts need Tapo Care, Wi-Fi is 2.4 GHz only and the battery charges inside the doorbell.</li></ul>"
+    },
+    {
+      "h2": "What independent testers found",
+      "html": "<p>Consumer Reports' guide to video doorbells without a subscription, updated October 7, 2026, includes the eufy Video Doorbell E340, the Tapo TD25 and the Tapo D130 among its picks. CR describes the TD25 as a Best Buy-exclusive version of the Tapo D225 and names the D225 as an alternative with similar performance in its lab tests. PCWorld's roundup dated November 3, 2025, makes the Tapo D225 its best budget pick, citing 2K video and battery or low-voltage power, while flagging a bulky design and the need to take it down to charge.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is there a video doorbell that doesn't need a subscription?",
+      "a": "Yes. Doorbells from eufy, Reolink, TP-Link Tapo and Aqara save video locally, on built-in memory or a microSD card, so you can play back events with no monthly fee. Our picks are the eufy Security Video Doorbell E340, the wired Reolink Video Doorbell WiFi and, on a budget, the Tapo D225."
+    },
+    {
+      "q": "Does a Ring doorbell record without a subscription?",
+      "a": "No. Ring says live view works without a subscription, for up to 10 minutes at a time, but reviewing recorded video requires a Ring subscription. Past events might appear in your history, but you can't view or recover them."
+    },
+    {
+      "q": "Can a Blink doorbell save clips without a subscription?",
+      "a": "Only with the right Sync Module. Blink saves clips locally through a Sync Module 2 with a USB drive (1 GB to 256 GB) or a Sync Module XR with a microSD card. The Sync Module Core doesn't support local storage, and without a plan Blink limits live view to 5 minutes."
+    },
+    {
+      "q": "Do I need existing doorbell wiring?",
+      "a": "Not for the eufy E340, the Tapo D225 or the Reolink Battery Video Doorbell (2nd Gen), which also run on battery. Wiring does unlock 24/7 recording on the Tapo and Reolink models. The Reolink Video Doorbell WiFi needs doorbell wiring or its included plug-in power adapter."
+    },
+    {
+      "q": "Will my old doorbell chime still work?",
+      "a": "With the eufy E340, yes: it works with an existing mechanical chime. The Tapo D225 rings a traditional chime only when hardwired, and not in 24/7 recording mode; a plug-in Tapo Chime is included. Reolink says the Video Doorbell WiFi doesn't work with pre-existing mechanical chimes and includes its own plug-in chime."
+    },
+    {
+      "q": "What size microSD card should I buy?",
+      "a": "Stay within the doorbell's limit: up to 512 GB for the Tapo D225, the Reolink Battery Video Doorbell (2nd Gen) and the Aqara G410, and up to 256 GB for the Reolink Video Doorbell WiFi. The eufy E340 has no card slot and uses 8 GB of built-in memory. A large card matters most if you record 24/7."
+    },
+    {
+      "q": "Does any no-subscription video doorbell work with Apple HomeKit?",
+      "a": "The Aqara Doorbell Camera Hub G410 supports HomeKit Secure Video and can also record to a microSD card. HomeKit Secure Video itself requires an iCloud+ plan and a home hub. The eufy E340, the Tapo D225 and the Reolink doorbells on this page don't list HomeKit support."
+    },
+    {
+      "q": "What's the difference between the Tapo D225 and the Tapo TD25?",
+      "a": "Both run on battery or wiring, include a plug-in chime and record to a microSD card up to 512 GB. Tapo lists the TD25 at 2K 5MP and the D225 at 2K 4MP, and the TD25 is rated IP66 like the D225. Consumer Reports describes the TD25 as a Best Buy-exclusive version of the D225 and names the D225 as an alternative with similar performance in its lab tests."
+    },
+    {
+      "q": "What happens to my videos if someone steals the doorbell?",
+      "a": "Footage stored on the doorbell, in built-in memory or on a microSD card, goes with it. To keep recordings indoors, pair the doorbell with a base station or recorder: a eufy HomeBase for the E340, or a Reolink Home Hub or NVR for Reolink models."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Consumer Reports",
+      "url": "https://www.consumerreports.org/home-garden/home-security-cameras/best-video-doorbell-cameras-without-a-subscription-a1134473783/",
+      "note": "“9 Best Video Doorbell Cameras Without a Subscription,” updated October 7, 2026 (lab testing by Rich Sulin and Ari Chai): its picks include the eufy Video Doorbell E340, the TP-Link Tapo TD25, which CR describes as a Best Buy-exclusive version of the Tapo D225, and the Tapo D130, with the Tapo D225 named as an alternative. CR counts a doorbell as subscription-free when it stores video locally and notes that many such models lack intelligent object recognition, which often runs on the company's servers."
+    },
+    {
+      "name": "PCWorld",
+      "url": "https://www.pcworld.com/article/583310/best-video-doorbells.html",
+      "note": "Best video doorbells roundup dated November 3, 2025 (Martyn Williams and Sam Singleton): names the Tapo D225 its best budget pick, citing 2K video, a broad feature set and battery or low-voltage power, with a bulky design, the need to dismount it to charge and occasional minor bugs as drawbacks. It lists the eufy E340 under other doorbells it liked, describes its downward-facing package camera and notes eufy doesn't require a subscription."
+    }
+  ],
+  "sources": [
+    "https://us.eufy.com/products/t8214111",
+    "https://reolink.com/us/product/reolink-video-doorbell-wifi/",
+    "https://reolink.com/us/product/reolink-video-doorbell-2nd-gen/",
+    "https://support.reolink.com/articles/60553722670617-FAQs-Reolink-Battery-Video-Doorbell-2nd-Gen/",
+    "https://reolink.com/blog/reolink-releases-the-video-doorbell-2nd-gen/",
+    "https://www.tapo.com/us/product/tapo-d225-smart-doorbell",
+    "https://www.tapo.com/us/product/tapo-d225-smart-doorbell/specs",
+    "https://www.tapo.com/us/product/td25-smart-doorbell",
+    "https://www.tapo.com/us/product/td25-smart-doorbell/specs",
+    "https://www.tapo.com/us/product/tapo-d130-smart-doorbell",
+    "https://www.tapo.com/us/product/tapo-d130-smart-doorbell/specs",
+    "https://www.tapo.com/en/faq/655/",
+    "https://www.aqara.com/us/product/doorbell-camera-hub-g410/",
+    "https://ring.com/support/articles/sjo2f/live-view-for-doorbells-and-cameras",
+    "https://blinkforhome.com/plans",
+    "https://support.blinkforhome.com/en_US/using-your-sync-module/sync-module-2-local-storage-operation",
+    "https://support.blinkforhome.com/en_US/faq-sync-module-core/sync-module-core-faq",
+    "https://support.google.com/googlehome/answer/16593318",
+    "https://support.apple.com/guide/icloud/icloud-homekit-secure-video-mme054c72692/icloud",
+    "https://www.consumerreports.org/home-garden/home-security-cameras/best-video-doorbell-cameras-without-a-subscription-a1134473783/",
+    "https://www.pcworld.com/article/583310/best-video-doorbells.html"
+  ],
+  "related": [
+    "/us/securite-maison/sonnettes-video",
+    "/us/securite-maison/cameras-exterieur",
+    "/us/blog/camera-interieure-sans-abonnement",
+    "/us/guides/probleme/sonnette-batterie-dure-pas",
+    "/us/guides/probleme/sonnette-pas-notification",
+    "/us/methodologie"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "locale": "it",
+  "type": "guide",
+  "slug": "friggitrice-ad-aria-per-4-persone",
+  "updated": "2026-11-01",
+  "metaTitle": "Friggitrice ad aria per 4 persone: litri e 1 o 2 cestelli",
+  "metaDescription": "Friggitrice ad aria per 4 persone: quanti litri servono, 1 o 2 cestelli, 3 scelte (Ninja Dual Zone, CRISPi in vetro, Moulinex) e i dati di Altroconsumo.",
+  "kicker": "Guida all'acquisto · Friggitrici ad aria",
+  "h1": "Friggitrice ad aria per 4 persone: quanti litri e quanti cestelli servono",
+  "answer": "Per una famiglia di 4 la misura giusta è una friggitrice ad aria a due cestelli da 7,5–9,5 litri in tutto, con vani da almeno 3,5 L, se cucini secondo e contorno insieme; se cuoci un piatto alla volta basta un cestello unico da 6–7,5 litri. La nostra scelta: Ninja Dual Zone 7,6 L. In vetro: Ninja CRISPi DualZone. Per spendere meno: Moulinex Dual Easy Fry & Grill.",
+  "picks": [
+    {
+      "brand": "Ninja",
+      "model": "Dual Zone 7,6 L (DZ300EU)",
+      "role": "La nostra scelta",
+      "why": "Due cassetti uguali da 3,8 L, ognuno con programma, tempo e temperatura propri: in uno il secondo per quattro, nell'altro il contorno, pronti insieme grazie a Sync. Ninja ha l'indice di affidabilità più alto nella classifica dei marchi di Altroconsumo (91 su 100).",
+      "bestFor": "Famiglie di 4 che vogliono il pasto completo in un'unica cottura",
+      "asin": "B0F4KKZ7HH",
+      "manufacturerUrl": "https://www.sharkninja.it/friggitrice-ad-aria-ninja-dual-zone-da-76-l/DZ300EU.html",
+      "specs": {
+        "Capacità totale": "7,6 L (2 cassetti da 3,8 L)",
+        "Carico dichiarato": "fino a 1,6 kg di pollo per cassetto",
+        "Zone di cottura": "2 indipendenti, funzioni Sync e Match",
+        "Programmi": "6 (Air Fry, Max Crisp, Roast, Bake, Reheat, Dehydrate)",
+        "Potenza": "2.470 W",
+        "Peso": "8,2 kg",
+        "Dimensioni dichiarate": "26,49 × 38 × 31,5 cm (L × P × A)",
+        "Garanzia": "2 anni"
+      }
+    },
+    {
+      "brand": "Ninja",
+      "model": "CRISPi DualZone 7,6 L (DD102EU; DD103EU nella colorazione oro chiaro)",
+      "role": "Alternativa premium in vetro",
+      "why": "Stessa capacità e stesse due zone della Dual Zone, ma in contenitori di vetro senza PFAS con coperchio: cuoci, porti in tavola e conservi nello stesso recipiente. Otto programmi, tra cui Recrisp e lievitazione.",
+      "bestFor": "Chi vuole vedere la cottura e usare la friggitrice anche per conservare e riscaldare",
+      "asin": "B0HHFQBLF7",
+      "manufacturerUrl": "https://www.sharkninja.it/friggitrice-ad-aria-in-vetro-ninja-crispi-dualzone---blu-cyber/DD102EUBL1.html",
+      "specs": {
+        "Capacità totale": "7,6 L (2 contenitori in vetro da 3,8 L)",
+        "Zone di cottura": "2 indipendenti, Match Cook e Smart Finish",
+        "Programmi": "8 (Air Fry, Bake, Max Crisp, Roast, Dehydrate, Recrisp, Keep Warm, Prove)",
+        "Potenza": "2.860 W",
+        "Temperatura": "fino a 240 °C",
+        "Peso": "14,06 kg",
+        "Dimensioni dichiarate": "42,42 × 29,79 × 29,39 cm (L × P × A)",
+        "Materiali": "contenitori in vetro senza PFAS, coperchi per la conservazione, piastre antiaderenti rimovibili",
+        "Lavastoviglie": "contenitori in vetro, piastre e coperchi",
+        "Garanzia": "2 anni"
+      }
+    },
+    {
+      "brand": "Moulinex",
+      "model": "Dual Easy Fry & Grill 8,3 L (EZ905D20)",
+      "role": "Miglior rapporto qualità-prezzo",
+      "why": "Un cestello grande da 5,2 L per il secondo e uno da 3,1 L per il contorno, con Sync e funzione grill. Altroconsumo, che l'ha provata in laboratorio, la indica come il modello a due cassetti con il miglior rapporto qualità-prezzo e la ritiene adatta a una famiglia di 3-5 persone (10 settembre 2026).",
+      "bestFor": "Chi vuole il doppio cestello spendendo meno e cucina soprattutto un piatto grande più un contorno",
+      "asin": "B0DDC84KLC",
+      "manufacturerUrl": "https://www.moulinex.it/p/dual-easy-fry-grill-friggitrice-ad-aria-83l-2-cestelli-modalita-sync/1510002391",
+      "specs": {
+        "Capacità totale": "8,3 L (cestelli da 5,2 L e 3,1 L)",
+        "Carico dichiarato": "1,4 kg nel cestello grande, 0,8 kg nel piccolo",
+        "Zone di cottura": "2 cestelli, modalità Sync",
+        "Programmi": "8 preimpostati (grill compreso), 10 funzioni di cottura",
+        "Potenza": "2.700 W",
+        "Temperatura": "da 40 a 200 °C",
+        "Lavastoviglie": "cestelli, griglia in alluminio pressofuso e griglia standard",
+        "Riparabilità dichiarata": "15 anni"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": ["Modello", "Capacità totale", "Cestelli / zone", "Potenza", "Programmi", "Peso", "Ideale per"],
+    "rows": [
+      ["Ninja Dual Zone (DZ300EU)", "7,6 L", "2 cassetti da 3,8 L", "2.470 W", "6", "8,2 kg", "4 persone, secondo e contorno insieme"],
+      ["Ninja CRISPi DualZone (DD102EU)", "7,6 L", "2 contenitori in vetro da 3,8 L", "2.860 W", "8", "14,06 kg", "chi vuole il vetro e cuocere, servire e conservare nello stesso recipiente"],
+      ["Moulinex Dual Easy Fry & Grill (EZ905D20)", "8,3 L", "5,2 L + 3,1 L", "2.700 W", "8", "non indicato", "un piatto grande più un contorno"],
+      ["Ninja DualZone XL (DZ901EU)", "9,5 L", "2 cassetti da 4,75 L", "2.470 W", "6", "8,8 kg", "4 buone forchette o ospiti frequenti"],
+      ["Philips Serie 1000 cestello Flexi (NA156/60)", "7,1 L", "2 vani da 3,55 L o 1 vano unico", "2.450 W", "6 preimpostati, 10 metodi", "5,8 kg", "chi vuole scegliere di volta in volta"],
+      ["Philips Serie 3000 con finestrella (NA341/00)", "7,2 L", "1 cestello", "2.000 W", "12 preimpostati, 16 funzioni", "5,9 kg", "un piatto alla volta, cucina piccola"]
+    ]
+  },
+  "criteria": [
+    { "name": "Capacità giusta per 4 persone", "weight": 30, "explanation": "Guardiamo i litri totali e, soprattutto, quanto entra in ogni vano secondo il produttore (chili o pezzi): l'ideale per quattro sono due vani da almeno 3,5 L ciascuno, oppure un cestello unico da 6–7,5 L. Oltre i 9,5 L si paga ingombro che non si usa." },
+    { "name": "Due zone davvero indipendenti", "weight": 25, "explanation": "Diamo più punti ai cassetti con programma, tempo e temperatura propri e la sincronizzazione della fine cottura; due vani uguali valgono di più perché permettono di raddoppiare la stessa ricetta. Un divisorio con sola sincronizzazione dei tempi vale meno, un cestello unico non prende punti qui." },
+    { "name": "Affidabilità e giudizi indipendenti", "weight": 20, "explanation": "Usiamo i dati pubblicati da Altroconsumo: l'indice di affidabilità dei marchi (indagine tra i soci delle associazioni Euroconsumers) e gli eventuali giudizi sul singolo modello. Non facciamo prove in proprio." },
+    { "name": "Ingombro, peso e pulizia", "weight": 15, "explanation": "Peso e misure dichiarate, altezza utile sotto i pensili, parti lavabili in lavastoviglie: una friggitrice per quattro resta spesso sul piano di lavoro e si lava ogni giorno." },
+    { "name": "Dotazioni e durata", "weight": 10, "explanation": "Numero di programmi, materiali dei contenitori (vetro senza PFAS) e impegni del produttore sulla riparabilità." }
+  ],
+  "sections": [
+    {
+      "h2": "Quanti litri servono per 4 persone",
+      "html": "<p>I litri dichiarati sono un punto di partenza, non una garanzia: conta quanto cibo entra davvero in ogni vano, e i produttori lo indicano in chili o in pezzi. Per una famiglia di quattro con porzioni normali, queste sono le misure che funzionano.</p><ul><li><strong>Due cestelli:</strong> 7,5–9,5 litri in tutto, con ogni vano da almeno 3,5 L. In un cassetto entra il secondo per quattro, nell'altro il contorno.</li><li><strong>Cestello unico:</strong> 6–7,5 litri. Sotto i 5 litri, in quattro, capita spesso di dover fare due giri di cottura.</li><li><strong>Oltre 9,5 litri:</strong> ha senso se siete spesso in cinque o sei, o se in casa ci sono buone forchette; altrimenti è spazio sul piano che non sfrutti.</li></ul><p>Le indicazioni «per persone» dei produttori sono generose: Ninja presenta la Dual Zone da 7,6 L come adatta a 6-8 persone e la DualZone XL da 9,5 L fino a 8. Altroconsumo, nell'articolo sul doppio cestello del 10 settembre 2026, è più prudente: per 4-6 persone ritiene appropriata una capacità vicina ai 10 litri, giudica la Moulinex da 8,3 L adatta a una famiglia di 3-5 persone e ricorda che forma e superficie dei cestelli contano quanto i litri. Per quattro persone senza ospiti fissi, 7,6 L su due cassetti bastano; se a tavola siete spesso di più, sali a 9,5 L.</p>"
+    },
+    {
+      "h2": "Cestello unico o doppio: come decidere",
+      "html": "<ul><li><strong>Scegli il doppio cestello</strong> se prepari spesso secondo e contorno insieme, per esempio cotolette e patate o salsicce e verdure: con due zone indipendenti e la funzione Sync i due piatti escono nello stesso momento.</li><li><strong>Scegli il cestello unico</strong> se cucini soprattutto un piatto alla volta, se il piano di lavoro è piccolo o se vuoi un apparecchio più leggero: la Philips Serie 3000 da 7,2 L pesa 5,9 kg, la Ninja Dual Zone 8,2 kg.</li><li><strong>Vuoi poter scegliere?</strong> Esistono modelli con divisorio rimovibile, come la Philips Serie 1000 con cestello Flexi: due vani da 3,55 L oppure uno unico da 7,1 L. La pagina italiana di Philips parla di sincronizzazione dei tempi, non di temperature diverse per i due vani.</li><li><strong>Vani uguali o diversi:</strong> due cassetti identici permettono di fare la stessa ricetta in doppio (la funzione Match di Ninja); due cestelli di misura diversa, come i 5,2 + 3,1 L della Moulinex, sono pensati per un piatto grande e un contorno.</li></ul><p>Secondo Altroconsumo i modelli a due cestelli sono in genere più cari e più ingombranti di quelli tradizionali: misura il piano di lavoro prima di ordinare.</p>"
+    },
+    {
+      "h2": "Ninja Dual Zone 7,6 L (DZ300EU): la nostra scelta",
+      "html": "<p>Due cassetti antiaderenti da 3,8 L, ognuno con programma, tempo e temperatura propri. Con Sync i due piatti finiscono insieme, con Match duplichi le impostazioni per cucinare la stessa ricetta in doppio. Sei programmi (Air Fry, Max Crisp, Roast, Bake, Reheat, Dehydrate), 2.470 W, 8,2 kg; Ninja dichiara fino a 1,6 kg di pollo per cassetto.</p><ul><li><strong>Punti di forza:</strong> la disposizione più versatile per quattro persone; Ninja ha l'indice di affidabilità più alto nella classifica dei marchi di Altroconsumo (91 su 100).</li><li><strong>Limiti:</strong> la media dei test Ninja è la più bassa delle quattro marche classificate da Altroconsumo (56) e, al 1° novembre 2026, questo modello non compare tra le Ninja provate nel suo comparatore.</li><li><strong>Per chi:</strong> famiglie di quattro che vogliono il pasto completo in un'unica cottura.</li></ul>"
+    },
+    {
+      "h2": "Ninja CRISPi DualZone 7,6 L: l'alternativa premium in vetro",
+      "html": "<p>Stessa capacità della Dual Zone, ma in due contenitori in vetro da 3,8 L senza PFAS, con coperchio: cuoci, porti in tavola e conservi nello stesso recipiente. Otto programmi, tra cui Recrisp, Keep Warm e Prove (lievitazione), Match Cook e Smart Finish, 2.860 W e temperatura fino a 240 °C. Sul sito Ninja Italia è in vendita con il codice DD102EU (avorio, blu cyber, rosa); la colorazione oro chiaro, che si trova su Amazon, ha il codice DD103EU e le stesse caratteristiche.</p><ul><li><strong>Punti di forza:</strong> vedi la cottura attraverso il vetro, contenitori senza PFAS (le piastre interne restano antiaderenti), contenitori, piastre e coperchi lavabili in lavastoviglie.</li><li><strong>Limiti:</strong> è la più pesante del confronto (14,06 kg dichiarati) e quella che assorbe più potenza; non è un apparecchio da spostare spesso.</li><li><strong>Per chi:</strong> chi vuole il vetro e usa la friggitrice anche per conservare e riscaldare gli avanzi.</li></ul>"
+    },
+    {
+      "h2": "Moulinex Dual Easy Fry & Grill 8,3 L (EZ905D20): il miglior rapporto qualità-prezzo",
+      "html": "<p>Due cestelli di misura diversa: 5,2 L (Moulinex dichiara 1,4 kg) per il piatto principale e 3,1 L (0,8 kg) per il contorno. Modalità Sync, 8 programmi preimpostati tra cui il grill con griglia in alluminio pressofuso, 2.700 W, da 40 a 200 °C. Cestelli e griglie vanno in lavastoviglie e Moulinex dichiara la riparabilità per 15 anni.</p><ul><li><strong>Punti di forza:</strong> Altroconsumo, che l'ha provata in laboratorio, la indica come il modello a due cassetti con il miglior rapporto qualità-prezzo e la ritiene adatta alla routine di una famiglia di 3-5 persone; il solo cestello grande basta per il secondo di quattro persone.</li><li><strong>Limiti:</strong> il cestello piccolo, per la stessa Moulinex, è pensato per una persona, quindi non puoi dividere una ricetta in due metà uguali; peso e dimensioni non compaiono sulla pagina Moulinex; l'indice di affidabilità del marchio presso Altroconsumo è 74, contro il 91 di Ninja.</li><li><strong>Per chi:</strong> chi vuole il doppio cestello spendendo meno e cucina soprattutto un piatto grande più un contorno.</li></ul>"
+    },
+    {
+      "h2": "Perché questa classifica",
+      "html": "<p>Confrontiamo solo dati pubblicati, cioè le schede dei produttori per l'Italia e i risultati di Altroconsumo, con cinque criteri pesati: capacità giusta per 4 (30), due zone davvero indipendenti (25), affidabilità e giudizi indipendenti (20), ingombro, peso e pulizia (15), dotazioni e durata (10). L'ordine segue questi criteri, non le commissioni né i clic; l'etichetta «miglior rapporto qualità-prezzo» riprende il giudizio di Altroconsumo sul modello.</p><ul><li><strong>Ninja Dual Zone prima:</strong> il massimo sui due criteri più pesanti (due cassetti uguali da 3,8 L con programmi e temperature separati, Sync e Match) e l'indice di affidabilità del marchio più alto.</li><li><strong>CRISPi DualZone seconda:</strong> pari alla Dual Zone su capacità, zone e affidabilità, migliore nelle dotazioni (vetro senza PFAS, coperchi, 8 programmi), ma perde su peso e ingombro.</li><li><strong>Moulinex terza:</strong> buona capacità e un giudizio favorevole di Altroconsumo sul modello, ma i vani asimmetrici e un'affidabilità del marchio più bassa la tengono dietro le due Ninja.</li><li><strong>Fuori dal podio:</strong> la Ninja DualZone XL da 9,5 L è più grande e più pesante del necessario per quattro; la Philips Serie 1000 Flexi ha vani da 3,55 L e dichiara solo la sincronizzazione dei tempi; la Philips Serie 3000 da 7,2 L è un ottimo cestello unico, ma non cuoce due piatti in modo indipendente.</li></ul>"
+    },
+    {
+      "h2": "Cosa dice Altroconsumo",
+      "html": "<p>Nella classifica dei marchi pubblicata il 4 agosto 2026 (137 modelli provati tra giugno 2024 e maggio 2026, oltre 11.000 valutazioni raccolte tra i soci delle associazioni Euroconsumers in nove Paesi, Italia compresa), Philips è prima con 68 punti, davanti a Cosori (67), Ninja (65) e Moulinex (63). Ninja ha l'indice di affidabilità più alto (91) ma la media dei test più bassa (56): secondo chi le possiede si guastano poco, ma nelle prove di laboratorio ottengono in media punteggi inferiori alle concorrenti.</p><p>Nell'articolo sul doppio cestello del 10 settembre 2026, Altroconsumo indica la Moulinex EZ905D20 come il modello a due cassetti con il miglior rapporto qualità-prezzo, adatta a una famiglia di 3-5 persone, e colloca la Philips Serie 1000 NA150/00 tra le migliori del test per versatilità; sul sito Philips Italia la Serie 1000 Flexi da 7,1 L è in vendita con il codice NA156/60. Sulla scheda della Moulinex nel comparatore, Altroconsumo pubblica anche le proprie misure: fino a 2 kg di patatine al massimo e circa 1,3 kg come quantità ottimale.</p>"
+    },
+    {
+      "h2": "Ingombro, impianto elettrico e consumi",
+      "html": "<ul><li><strong>Altezza sotto i pensili:</strong> i modelli del confronto con misure dichiarate stanno tra 29 e 32 cm di altezza; lascia spazio libero sopra e dietro, dove esce l'aria calda.</li><li><strong>Contatore da 3 kW:</strong> le doppie Ninja assorbono 2.470 W, la CRISPi DualZone 2.860 W, la Moulinex 2.700 W. Con il classico contratto domestico da 3 kW, accenderle insieme a forno, lavatrice o asciugacapelli può far scattare il contatore.</li><li><strong>Presa a muro:</strong> collegala direttamente alla presa, non a una ciabatta già carica.</li><li><strong>Consumi:</strong> la potenza è un valore massimo. Una friggitrice da 2.470 W accesa per 20 minuti consuma al massimo circa 0,8 kWh, di solito meno, perché il termostato lavora a intermittenza. Con due cestelli, secondo e contorno in una sola cottura evitano un secondo ciclo.</li></ul>"
+    }
+  ],
+  "faq": [
+    { "q": "Quale friggitrice ad aria scegliere per 4 persone?", "a": "Una a due cestelli da 7,5–9,5 litri in tutto se cucini secondo e contorno insieme, oppure un cestello unico da 6–7,5 litri se cuoci un piatto alla volta. La nostra scelta è la Ninja Dual Zone 7,6 L (DZ300EU)." },
+    { "q": "Per 4 persone è meglio 1 o 2 cestelli?", "a": "Due, se vuoi il pasto completo in un'unica cottura; uno, se hai poco spazio o cucini soprattutto un piatto alla volta. Un modello con divisorio rimovibile, come la Philips Serie 1000 con cestello Flexi, permette di scegliere di volta in volta." },
+    { "q": "Bastano 5 litri per 4 persone?", "a": "Per un piatto alla volta e porzioni normali possono bastare: Altroconsumo considera adatta a 3-4 persone anche la Philips Serie 2000 (NA221/00) da 4,2 L. Per le patatine di quattro persone insieme al secondo, invece, servono due giri di cottura o due cestelli." },
+    { "q": "La Ninja Dual Zone da 7,6 L è davvero per 6-8 persone?", "a": "È quanto dichiara Ninja, ma conta il cibo che entra in ogni cassetto: 3,8 L ciascuno, fino a 1,6 kg di pollo secondo il produttore. Per quattro persone è comoda; se siete abitualmente in sei o più, guarda la DualZone XL da 9,5 L o un modello più grande." },
+    { "q": "Conviene una friggitrice ad aria in vetro?", "a": "Conviene se vuoi vedere la cottura e conservare il cibo nello stesso contenitore: i recipienti della Ninja CRISPi DualZone sono in vetro senza PFAS e hanno il coperchio. In cambio l'apparecchio pesa di più (14,06 kg dichiarati) e assorbe più potenza (2.860 W)." },
+    { "q": "Si può usare un solo cassetto della friggitrice doppia?", "a": "Sì: sulla Ninja Dual Zone ogni cassetto ha programma, tempo e temperatura propri, quindi quando cucini poco puoi accenderne uno solo." },
+    { "q": "Quanto consuma una friggitrice ad aria per 4 persone?", "a": "Dipende da potenza e durata: un modello da 2.470 W acceso per 20 minuti consuma al massimo circa 0,8 kWh, di solito meno perché il termostato lavora a intermittenza. Cuocere secondo e contorno insieme nei due cestelli evita un secondo ciclo." },
+    { "q": "Cosa dice Altroconsumo delle friggitrici Ninja?", "a": "Nella classifica dei marchi del 4 agosto 2026 Ninja ottiene 65 punti: l'indice di affidabilità più alto (91), ma la media dei test più bassa (56) tra le quattro marche classificate. Philips è prima con 68 punti." }
+  ],
+  "independentTesters": [
+    { "name": "Altroconsumo — Migliori marche di friggitrici ad aria 2026", "url": "https://www.altroconsumo.it/elettrodomestici/friggitrici-ad-aria/news/migliori-marche-friggitrici-ad-aria-2026", "note": "Pubblicato il 04/08/2026: 137 modelli provati tra il 01/06/2024 e il 31/05/2026, affidabilità e soddisfazione da oltre 11.000 valutazioni dei soci. Punteggi dei marchi: Philips 68 (primo posto), Cosori 67, Ninja 65 (indice di affidabilità 91, il più alto; media dei test 56, la più bassa delle quattro), Moulinex 63 (affidabilità 74)." },
+    { "name": "Altroconsumo — Friggitrice ad aria con doppio cestello: i modelli consigliati", "url": "https://www.altroconsumo.it/elettrodomestici/friggitrici-ad-aria/news/friggitrice-ad-aria-con-doppio-cestello", "note": "Pubblicato il 10/09/2026: 15 modelli a due cassetti provati in laboratorio; i modelli a due cestelli sono più cari e più ingombranti; per 4-6 persone una capacità vicina ai 10 litri può essere appropriata, per una o due persone 5-7 litri. Moulinex EZ905D20 indicata come il modello a due cassetti con il miglior rapporto qualità-prezzo, adatta a una famiglia di 3-5 persone; Philips NA150/00 Serie 1000 tra le migliori del test per versatilità." },
+    { "name": "Altroconsumo — Scheda Moulinex EZ905D20 nel comparatore", "url": "https://www.altroconsumo.it/elettrodomestici/friggitrici-ad-aria/comparatore/moulinex-ez905d20-easy-fry-grill/174/102356", "note": "Consultata il 01/11/2026: prodotto testato in laboratorio; misure pubbliche di Altroconsumo: patatine massime 2.000 g, quantità ottimale 1.333 g (1.233 g e 767 g nei due cestelli), 42 × 40 × 31 cm, 8,02 kg. Risultati di cottura riservati ai soci." },
+    { "name": "Altroconsumo — Friggitrici ad aria Ninja nel comparatore", "url": "https://www.altroconsumo.it/elettrodomestici/friggitrici-ad-aria/comparatore/caratteristiche/friggitrice-ad-aria-ninja", "note": "Pagina aggiornata a ottobre 2026, consultata il 01/11/2026: modelli Ninja provati AF500EU FlexDrawer, DZ400EU Dual Zone MAX, SL300EU Double Stack e FN101EUGY CRISPi; la Dual Zone DZ300EU e la CRISPi DualZone non sono in elenco." }
+  ],
+  "sources": [
+    "https://www.sharkninja.it/friggitrice-ad-aria-ninja-dual-zone-da-76-l/DZ300EU.html",
+    "https://www.sharkninja.it/friggitrice-ad-aria-in-vetro-ninja-crispi-dualzone---blu-cyber/DD102EUBL1.html",
+    "https://www.sharkninja.it/ninja-dualzone-xl-friggitrice-ad-aria-da-95%C2%A0l-con-2-scomparti%C2%A0dz901eu/DZ901EU.html",
+    "https://www.sharkninja.it/cucina/friggitrici-ad-aria/friggitrici-ad-aria-2-cestelli",
+    "https://www.moulinex.it/p/dual-easy-fry-grill-friggitrice-ad-aria-83l-2-cestelli-modalita-sync/1510002391",
+    "https://www.home-appliances.philips/it/it/p/NA156_60",
+    "https://www.home-appliances.philips/it/it/p/NA341_00",
+    "https://www.altroconsumo.it/elettrodomestici/friggitrici-ad-aria/news/migliori-marche-friggitrici-ad-aria-2026",
+    "https://www.altroconsumo.it/elettrodomestici/friggitrici-ad-aria/news/friggitrice-ad-aria-con-doppio-cestello",
+    "https://www.altroconsumo.it/elettrodomestici/friggitrici-ad-aria/comparatore/moulinex-ez905d20-easy-fry-grill/174/102356",
+    "https://www.altroconsumo.it/elettrodomestici/friggitrici-ad-aria/comparatore/caratteristiche/friggitrice-ad-aria-ninja"
+  ],
+  "related": [
+    "/it/guides/airfryers",
+    "/it/blog/airfryer-simple-vs-double-panier",
+    "/it/blog/ninja-vs-philips-quel-choisir",
+    "/it/blog/comment-choisir-airfryer-famille",
+    "/it/blog/meilleur-airfryer-xxl-grande-famille",
+    "/it/blog/airfryer-economies-energie",
+    "/it/guides/airfryer-vs-four"
+  ]
+}

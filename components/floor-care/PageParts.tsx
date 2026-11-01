@@ -5,6 +5,7 @@ import AuthorByline from '@/components/AuthorByline'
 import FaqSection from '@/components/FaqSection'
 import Navbar from '@/components/Navbar'
 import { SectionHero, SiteFooter } from '@/components/ui'
+import MarketPagesHubList from '@/components/market-pages/HubList'
 import { getMetaSilo } from '@/lib/catalog'
 import {
   FLOOR_CARE_LABELS,
@@ -203,6 +204,7 @@ export function FloorCareShell({ data, children }: { data: FloorCareGuide; child
           </div>
         )}
         <Sources data={data} />
+        <MarketPagesHubList lang={data.market} path={floorCarePath(data.guide)} />
         <Siblings data={data} />
       </main>
       <SiteFooter currentLang={data.market} />

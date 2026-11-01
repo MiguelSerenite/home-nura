@@ -15,7 +15,8 @@
  */
 
 import { FLOOR_CARE_GUIDES, FLOOR_CARE_SLUGS, FLOOR_CARE_NEEDS, FLOOR_CARE_HUB_PATH, type FloorCareGuideKey, type FloorCareMarket } from './config'
-import { parseRichText, RichTextError } from './html'
+import { parseRichText, RichTextError } from '@/lib/rich-text'
+import { AMAZON_HOST, array, httpsUrl, object, quote, text, unique, type Fail } from '@/lib/validation/json-fields'
 import { findPick, pickName } from './picks'
 import { DEFAULT_CLEARANCE_UNIT } from './units'
 import { hasClearanceCheck } from './navigation'
@@ -62,56 +63,11 @@ const MARKET_AMAZON_HOST: Readonly<Record<FloorCareMarket, RegExp>> = {
   us: /^(?:www\.)?amazon\.com$/,
   ca: /^(?:www\.)?amazon\.ca$/,
 }
-/** Any Amazon host: stores, short links and image CDNs. */
-const AMAZON_HOST = /amazon|amzn|(?:^|\.)a\.co$/i
 const ANCHOR = /^[a-z0-9][a-z0-9-]*$/
-
-type Fail = (path: string, message: string) => never
-
-function quote(value: unknown): string {
-  if (value === null) return 'null'
-  if (Array.isArray(value)) return 'an array'
-  if (typeof value === 'string') return `"${value.length > 60 ? `${value.slice(0, 57)}...` : value}"`
-  return typeof value === 'object' ? 'an object' : `${typeof value} ${String(value)}`
-}
-
-function object(value: unknown, path: string, keys: readonly string[], fail: Fail): Record<string, unknown> {
-  if (typeof value !== 'object' || value === null || Array.isArray(value)) fail(path, `expected an object, got ${quote(value)}`)
-  const record = value as Record<string, unknown>
-  for (const key of Object.keys(record)) {
-    if (key.startsWith('_') || keys.includes(key)) continue
-    fail(`${path ? `${path}.` : ''}${key}`, `unknown field (allowed: ${keys.join(', ')}; prefix comments with "_")`)
-  }
-  return record
-}
-
-function text(value: unknown, path: string, fail: Fail): string {
-  if (typeof value !== 'string' || value.trim() === '') fail(path, `expected a non-empty string, got ${quote(value)}`)
-  return (value as string).trim()
-}
-
-function array(value: unknown, path: string, fail: Fail, min = 0): unknown[] {
-  if (!Array.isArray(value)) fail(path, `expected an array, got ${quote(value)}`)
-  const list = value as unknown[]
-  if (list.length < min) fail(path, `expected at least ${min} item${min > 1 ? 's' : ''}, got ${list.length}`)
-  return list
-}
 
 function noPrice(value: string, path: string, fail: Fail): string {
   if (CURRENCY_AMOUNT.test(value)) fail(path, `${quote(value)} looks like a price: no prices next to Amazon products`)
   return value
-}
-
-function httpsUrl(value: unknown, path: string, fail: Fail): URL {
-  const raw = text(value, path, fail)
-  let url: URL
-  try {
-    url = new URL(raw)
-  } catch {
-    return fail(path, `expected an absolute https URL, got ${quote(raw)}`)
-  }
-  if (url.protocol !== 'https:') fail(path, `expected an https URL, got ${quote(raw)}`)
-  return url
 }
 
 /** A manufacturer or source URL: https, and never an Amazon page (its specs are unreliable). */
@@ -331,14 +287,6 @@ function entryBanner(value: unknown, guide: FloorCareGuideKey, fail: Fail): Floo
   if (guide !== 'hub') fail('entryBanner', 'belongs to the hub file only')
   const b = object(value, 'entryBanner', ['title', 'text'], fail)
   return { title: text(b.title, 'entryBanner.title', fail), text: text(b.text, 'entryBanner.text', fail) }
-}
-
-function unique(values: readonly string[], path: string, what: string, fail: Fail): void {
-  const seen = new Set<string>()
-  for (const value of values) {
-    if (seen.has(value)) fail(path, `${what} ${quote(value)} is listed twice`)
-    seen.add(value)
-  }
 }
 
 /**

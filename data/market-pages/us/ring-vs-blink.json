@@ -1,0 +1,294 @@
+{
+  "locale": "us",
+  "type": "duel",
+  "slug": "ring-vs-blink",
+  "updated": "2026-11-01",
+  "metaTitle": "Ring vs. Blink: Video Doorbells, Plans and Local Storage",
+  "metaDescription": "Ring vs. Blink doorbells compared: battery vs. wired, free local storage, each brand’s published plan fees (fall 2026), Alexa features and camera lineups.",
+  "kicker": "Video doorbell duel",
+  "h1": "Ring vs. Blink: Which Video Doorbell and Camera System Fits Your Home?",
+  "answer": "Choose Blink if you want to skip the monthly fee: the Battery Doorbell 2K+ saves clips to a USB drive or microSD card with no plan, once paired with a Sync Module 2 or XR. Choose Ring if you want no hub, a rechargeable battery and up to 180 days of cloud history; from three devices up, Ring Multi costs less than Blink’s paid plans (fees as of fall 2026).",
+  "picks": [
+    {
+      "brand": "Blink",
+      "model": "Blink Battery Doorbell 2K+",
+      "role": "Our pick for most homes: no monthly fee required",
+      "why": "It’s the only one of the two that keeps recording with no subscription: clips go to a USB drive on a Sync Module 2 or a microSD card in a Sync Module XR. Blink rates its three AA lithium batteries for up to 16 months at full 2K quality.",
+      "bestFor": "Renters, homes without doorbell wiring and anyone who wants free local storage instead of a plan",
+      "asin": "B0G62JQK57",
+      "manufacturerUrl": "https://support.blinkforhome.com/en_US/battery-doorbell-2k-plus-tech-specs/battery-doorbell-2k-technical-specifications",
+      "specs": {
+        "Video": "2K, 1920 × 1920, 1:1 head-to-toe view",
+        "Field of view": "140° horizontal × 140° vertical (173° diagonal)",
+        "Power": "Three AA 1.5 V lithium batteries (non-rechargeable); optional wiring to 12–24 VAC, batteries stay as backup",
+        "Battery life (Blink estimate)": "Up to 16 months at Best (the default), 19 at Standard, 22 at Saver, per Blink’s FAQ; Blink’s spec sheet says up to two years on default settings",
+        "Hub": "Sync Module required; the Amazon system bundle ships with Sync Module Core, which has no local storage",
+        "Local storage": "USB drive on Sync Module 2 or microSD card on Sync Module XR, no subscription needed (not on Sync Module Core)",
+        "Cloud video": "Up to 60 days with a Blink plan (US)",
+        "Wi-Fi": "2.4 GHz only (802.11b/g/n); 6 Mbps upload for Best quality, 2 Mbps minimum at Saver",
+        "Night vision": "Infrared, up to 33 ft (10 m) at High",
+        "Weather rating": "IP65",
+        "Operating temperature": "-5°F to 113°F (-20°C to 45°C)",
+        "Size and weight": "1.89 × 5.19 × 1.34 in, 4 oz",
+        "In-home chime": "Rings your mechanical chime when wired; otherwise Blink Chime, Blink Mini or an Alexa device",
+        "Model number (US)": "BDM00400U",
+        "Announced": "May 6, 2026"
+      }
+    },
+    {
+      "brand": "Ring",
+      "model": "Ring Battery Doorbell 2K",
+      "role": "Best for whole-home Ring systems",
+      "why": "No hub to buy, a built-in rechargeable battery that can also trickle-charge from existing doorbell wiring, and up to 180 days of cloud video history with a Ring plan. Ring Multi covers every Ring device at one address.",
+      "bestFor": "Homes adding several Ring cameras on one plan, and Alexa households that want the deepest Echo integration",
+      "asin": "B0FHJ7TKZM",
+      "manufacturerUrl": "https://ring.com/products/battery-doorbell-2nd-gen",
+      "specs": {
+        "Video": "Retinal 2K, 1920 × 1920, up to 6x enhanced zoom",
+        "Field of view": "140° horizontal × 140° vertical (173° diagonal)",
+        "Power": "Built-in rechargeable lithium-ion battery; optional trickle charge from doorbell wiring (8–24 VAC, 10–40 VA) or Ring solar charger",
+        "Battery life": "Not stated by Ring",
+        "Hub": "None",
+        "Local storage": "None on the doorbell; microSD in a Ring Alarm Pro base station with the Ring Pro plan",
+        "Cloud video": "Up to 180 days with a Ring plan",
+        "Wi-Fi": "2.4 GHz only (Wi-Fi 4); 10 Mbps upload recommended for 2K",
+        "Night vision": "Infrared, illumination up to 20 ft (6 m)",
+        "Weather rating": "Weather resistant (IPX; Ring gives no number)",
+        "Operating temperature": "-5°F to 120°F (-20.5°C to 48.5°C)",
+        "Size": "2.11 × 5.78 × 1.41 in",
+        "In-home chime": "Works with existing mechanical and digital chimes",
+        "Generation": "Battery Doorbell 2K (2nd Gen), 2026 release; sold earlier as Battery Doorbell (2nd Gen)",
+        "Warranty": "One-year limited"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Spec",
+      "Blink Battery Doorbell 2K+",
+      "Ring Battery Doorbell 2K"
+    ],
+    "rows": [
+      [
+        "Records with no subscription",
+        "Yes, to a USB drive (Sync Module 2) or microSD card (Sync Module XR)",
+        "No; Live View, Two-Way Talk and alerts only"
+      ],
+      [
+        "Local storage",
+        "Free with Sync Module 2 or XR (not Sync Module Core)",
+        "Only on a Ring Alarm Pro microSD card, with Ring Pro"
+      ],
+      [
+        "Cloud history with a plan",
+        "Up to 60 days",
+        "Up to 180 days"
+      ],
+      [
+        "Battery",
+        "3 AA lithium, replaceable, non-rechargeable",
+        "Built-in lithium-ion, rechargeable (doorbell comes off to charge)"
+      ],
+      [
+        "Rated battery life",
+        "Up to 16 months at Best, 22 at Saver",
+        "Not stated"
+      ],
+      [
+        "Wiring",
+        "Optional, 12–24 VAC; batteries become backup",
+        "Optional trickle charge, 8–24 VAC, 10–40 VA"
+      ],
+      [
+        "Hub required",
+        "Yes, a Blink Sync Module",
+        "No"
+      ],
+      [
+        "Video",
+        "1920 × 1920 (2K)",
+        "1920 × 1920 (Retinal 2K), 6x enhanced zoom"
+      ],
+      [
+        "Field of view",
+        "140° × 140°, 173° diagonal",
+        "140° × 140°, 173° diagonal"
+      ],
+      [
+        "Night vision range",
+        "Up to 33 ft (10 m)",
+        "Up to 20 ft (6 m)"
+      ],
+      [
+        "Wi-Fi",
+        "2.4 GHz only; 6 Mbps upload at Best",
+        "2.4 GHz only; 10 Mbps upload recommended"
+      ],
+      [
+        "Weather and temperature",
+        "IP65; -5°F to 113°F",
+        "IPX (no number); -5°F to 120°F"
+      ],
+      [
+        "Existing mechanical chime",
+        "Rings it when wired",
+        "Works with it when wired"
+      ],
+      [
+        "Alexa",
+        "Live View, two-way audio, doorbell announcements, voice arming",
+        "Live View, Two-Way Talk, announcements, Picture-in-Picture; Alexa+ Greetings with Ring Pro"
+      ],
+      [
+        "Other integrations",
+        "IFTTT, Siri Shortcuts",
+        "Ring Appstore apps (with a Ring plan)"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "No-subscription use and plan fees",
+      "weight": 30,
+      "explanation": "What still works with no plan, and each brand’s published monthly and yearly fees for one device and for a whole home. We read both US plans pages and date every fee, because both brands have changed prices before."
+    },
+    {
+      "name": "Local storage",
+      "weight": 20,
+      "explanation": "Whether clips can be saved on your own drive, which hub that takes, and whether a plan is still required. This decides what you pay over the life of the doorbell."
+    },
+    {
+      "name": "Power and installation",
+      "weight": 20,
+      "explanation": "Battery type and rated life, wiring voltage, whether an extra hub is needed and whether your existing chime keeps working, from the manufacturers’ spec sheets and help pages."
+    },
+    {
+      "name": "Video and night vision",
+      "weight": 15,
+      "explanation": "Resolution, field of view, infrared range, weather rating and Wi-Fi requirements as published, cross-checked against what independent reviewers reported."
+    },
+    {
+      "name": "Alexa and smart-home integration",
+      "weight": 15,
+      "explanation": "Live View and two-way talk on an Echo Show, announcements, voice control and which Alexa features sit behind a plan, from each brand’s support articles."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Choose Blink if… or Ring if…",
+      "html": "<p><strong>Choose Blink</strong> if you want a doorbell that keeps recording with no subscription, you don’t have doorbell wiring, or you’d rather swap AA batteries every year or so than take the doorbell off the wall to recharge it.</p><p><strong>Choose Ring</strong> if you plan to put several cameras on one plan, don’t want an extra hub plugged in near your router, or want the deepest Alexa features, including Alexa+ Greetings on select doorbells with the Ring Pro plan.</p><p><strong>Look elsewhere</strong> if you need Apple Home or Google Home: neither brand lists them on the product and help pages cited here. And plan on a 2.4 GHz Wi-Fi signal at the front door, because both doorbells skip 5 GHz.</p>"
+    },
+    {
+      "h2": "Battery vs. wired: how each doorbell gets power",
+      "html": "<p>The <strong>Ring Battery Doorbell 2K</strong> has a built-in lithium-ion battery. To charge it, you release the doorbell from its mount with the included tool and recharge it over USB-C (cable not included), so expect a short gap in coverage. You can avoid that by wiring it to an existing doorbell circuit (8–24 VAC, 10–40 VA) for trickle charging, or by adding Ring’s solar charger, which Ring says needs 3 to 4 hours of direct sun a day.</p><p>The <strong>Blink Battery Doorbell 2K+</strong> runs on three AA lithium batteries that you replace rather than recharge. Blink rates them for up to 16 months at the Best (1920 × 1920) setting, 19 months at Standard and 22 months at Saver, with default settings. Wire it to a 12–24 VAC doorbell circuit and the batteries become backup power, night vision defaults to its brightest setting and the Always On LED option unlocks.</p><ul><li><strong>Existing chime:</strong> both ring a standard mechanical chime once they’re wired to it. Unwired, Ring pairs with its plug-in Chime; Blink works with the Blink Chime, a Blink Mini camera or an Alexa device.</li><li><strong>Hub:</strong> Ring connects straight to your Wi-Fi. Blink requires a Sync Module, and it talks to the doorbell over its own low-frequency radio at up to 590 ft (180 m) in non-congested environments, Blink says.</li><li><strong>No batteries at all:</strong> the wired-only siblings are the Ring Wired Doorbell 2K and the Blink Wired Doorbell 2K+. Blink’s wired model doesn’t need a Sync Module but won’t ring a mechanical chime. Ring says its wired model doesn’t activate your in-home chime either and points you to its plug-in Chime instead.</li></ul>"
+    },
+    {
+      "h2": "Local storage: the biggest difference",
+      "html": "<p>This is where the two Amazon-owned brands split. <strong>Blink</strong> can save clips with no subscription: plug a USB flash drive into a Sync Module 2, or put a microSD card in a Sync Module XR, and clips stay there until you delete them or the drive fills up, at which point new recordings stop. You play them back in the Blink app. With a Blink plan, cloud clips are also copied to that drive once every 24 hours.</p><p><strong>Watch the bundle.</strong> The Battery Doorbell 2K+ system sold on Amazon includes the Sync Module Core, and Blink says the Core doesn’t support local storage. If free storage is why you’re buying Blink, add a Sync Module 2 or XR and a drive to your list.</p><p><strong>Ring</strong> has no local storage on its doorbells. Without a plan you still get Live View, Two-Way Talk and motion alerts, but nothing is saved. The only local option Ring lists is a microSD card in a Ring Alarm Pro base station, and that’s included only with the Ring Pro plan and Virtual Security Guard. In return, any Ring plan keeps up to 180 days of video history in the cloud, versus up to 60 days with a Blink plan in the US.</p>"
+    },
+    {
+      "h2": "Subscription plans, as published by each brand",
+      "html": "<p>These are each brand’s own US plan fees, plus tax, as listed on Ring’s plans page in mid-October 2026 and on Blink’s plans page on November 1, 2026. Both brands have raised prices before, so check again before you subscribe.</p><ul><li><strong>Ring Solo:</strong> $4.99 a month or $49.99 a year for one doorbell or camera. Up to 180 days of video history, person, package and vehicle alerts on select devices, extended Live View.</li><li><strong>Ring Multi:</strong> $9.99 a month or $99.99 a year for every Ring device at one address, plus extended warranties.</li><li><strong>Ring Pro:</strong> $19.99 a month or $199.99 a year. Adds Video Descriptions, Familiar Faces (beta), Video Search, 24/7 professional monitoring for Ring Alarm, Alexa+ Greetings and local video storage on Alarm Pro.</li><li><strong>Blink Basic:</strong> $3.99 a month or $39.99 a year for one device. Cloud storage for up to 60 days, person and vehicle detection, Blink Moments.</li><li><strong>Blink Plus:</strong> $11.99 a month or $119.99 a year for unlimited devices, plus extended warranty coverage.</li><li><strong>Blink Basic ai and Plus ai:</strong> $6.99 a month or $69.99 a year (one device) and $19.99 a month or $199.99 a year (unlimited devices), with first-year annual prices of $49.99 and $149.99 listed. They add Blink Video Descriptions, Known Faces (beta), Single Event Alerts and Unusual Activity Alerts.</li></ul><p>Blink’s current US fees took effect at renewals on or after October 8, 2025, which Blink called its first price update since 2021: Basic went from $3 to $3.99 a month and Plus from $10 to $11.99, according to Blink. Ring starts a free 30-day trial when you set up a device, unless your address already has a plan; the Blink Battery Doorbell 2K+ comes with a Blink Plus trial.</p><p><strong>Three years of plan fees</strong> (annual billing, before tax, at the fees above): Blink with local storage only, $0; Blink Basic, $119.97; Ring Solo, $149.97; Ring Multi, $299.97; Blink Plus, $359.97. The order flips with the number of devices: with one or two, Blink’s per-device plan is cheaper; from three devices up, Ring Multi costs less than either Blink paid plan.</p>"
+    },
+    {
+      "h2": "Alexa integration: what works on an Echo",
+      "html": "<p>Ring and Blink are both Amazon brands, and both link to Alexa, so an Echo Show can show your front door either way. The differences are in the details.</p><ul><li><strong>Ring:</strong> “Alexa, show Front Door” opens Live View on an Echo Show or Fire TV, and “Alexa, talk to Front Door” lets you answer. Picture-in-Picture keeps the feed in a corner of the TV on select Echo Show and Fire TV models. Echo devices chime and announce doorbell presses and motion, and Echos with a screen show Live View for 15 seconds after a press. Person and package announcements need a Ring plan; Alexa+ Greetings, which has Alexa+ greet visitors and handle deliveries on select doorbells, needs Ring Pro.</li><li><strong>Blink:</strong> Live View and two-way audio on Echo Show, Fire TV and Fire tablets, doorbell press and motion announcements, automatic Live View when someone presses the button, voice arming and disarming (“Alexa, arm” plus your system name), Alexa routines and low-battery reminders. Blink also works with IFTTT and Siri Shortcuts.</li></ul><p><em>Front Door</em> stands in for whatever name you gave the device during setup.</p>"
+    },
+    {
+      "h2": "Beyond the doorbell: Ring and Blink cameras",
+      "html": "<p>Ring’s US lineup in October 2026 included the Indoor Cam 2K, Outdoor Cam 2K, Floodlight Cam 2K, Spotlight Cam 2K and Peephole Cam 2K, plus 4K Pro models such as the Outdoor Cam 4K Pro. Blink’s current lineup includes the Mini 2K+ and Mini 4K+ plug-in cameras, the Mini Pan-Tilt 2K+, the battery-powered Outdoor 2K+ and Spotlight 2K+, the long-range Outdoor 2K XR+ and Frontier XR+, wired floodlights and the Solaris solar battery pack for the Outdoor 2K+ and Outdoor 4. The doorbell rules carry over to the cameras:</p><ul><li><strong>Plan coverage:</strong> Ring Solo and Blink Basic each cover one device. Ring Multi covers every device at one address; Blink Plus covers unlimited devices.</li><li><strong>Hubs:</strong> Blink’s battery cameras also run through a Sync Module (Blink lists it as required for the Outdoor 2K+ and Outdoor 4, for example), and the Sync Module XR can place up to two Outdoor 4 cameras up to 400 ft from the house. One Sync Module 2 or XR with a drive gives up to 10 eligible cameras on it free local storage.</li><li><strong>Continuous recording:</strong> Ring sells 24/7 Continuous Recording as a $3-a-month-per-camera add-on for eligible cameras on any plan, with recordings kept in the cloud for up to 14 days. Blink’s US plans page lists no continuous recording.</li></ul>"
+    },
+    {
+      "h2": "Video and night vision",
+      "html": "<p>On paper the two doorbells shoot the same square image: 1920 × 1920 pixels with a 140° × 140° head-to-toe view (173° diagonal), so you see a visitor’s face and the package on the mat. Ring adds up to 6x Enhanced Zoom. Blink lists infrared night vision out to 33 ft (10 m) at its High setting; Ring lists illumination up to 20 ft (6 m).</p><p>Both are 2.4 GHz only. Ring recommends at least 10 Mbps of upload speed for its 2K devices; Blink needs 6 Mbps at its Best setting, and 3 or 2 Mbps at lower settings. Blink spells out an IP65 weather rating and a -5°F to 113°F operating range; Ring lists its doorbell as weather resistant (IPX) with no number, rated for -5°F to 120°F.</p><p>In Tom’s Guide’s June 2026 review, the Blink showed some motion blur on moving subjects, and most night clips came out in infrared black and white. At the time of writing, we hadn’t found a published independent review of the 2026 Ring Battery Doorbell 2K.</p>"
+    },
+    {
+      "h2": "Why this ranking",
+      "html": "<p>We scored both systems on the five weighted criteria above, using only published specs, plan pages and independent reviews.</p><ul><li><strong>No-subscription use and plan fees (30):</strong> Blink. It’s the only one that records with no plan, and its one-device plan is $10 a year cheaper. Ring’s whole-home plan wins from three devices up, which keeps this close for big setups.</li><li><strong>Local storage (20):</strong> Blink, through a Sync Module 2 or XR, no plan required. Ring needs an Alarm Pro plus Ring Pro.</li><li><strong>Power and installation (20):</strong> Ring. No hub and a rechargeable battery; Blink needs a Sync Module and disposable AA lithium batteries, although Blink rates them for longer between changes.</li><li><strong>Video and night vision (15):</strong> a draw, split 7.5 each. Same resolution and field of view; Blink publishes a longer infrared range and an IP65 rating, Ring adds 6x zoom.</li><li><strong>Alexa and smart home (15):</strong> Ring, for Picture-in-Picture, person and package announcements and Alexa+ Greetings, though several of those need a plan.</li></ul><p><strong>Total: Blink 57.5, Ring 42.5.</strong> If you’ll run three or more Ring devices on one plan anyway, the plan-fee criterion moves to Ring and so does the overall result.</p>"
+    },
+    {
+      "h2": "How we compared",
+      "html": "<p>Home Nura doesn’t test products. For this duel we read Ring’s and Blink’s US product pages, spec sheets, help articles and plans pages, and the independent reviews listed below. Ring details reflect its US pages as of October 2026; Blink details reflect its US pages as of November 1, 2026. Specs, features and fees can change, and the date at the top of this page is when we last checked.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does Ring work without a subscription?",
+      "a": "Yes, but it won’t save anything. Without a Ring plan you get Live View, Two-Way Talk and motion and doorbell alerts on your phone. Recording, playback and sharing need a plan, starting with Ring Solo at $4.99 a month or $49.99 a year (Ring’s US plans page, October 2026). A free 30-day trial starts when you set up a device, unless your address already has a plan."
+    },
+    {
+      "q": "Does Blink work without a subscription?",
+      "a": "Yes, and it can still record. Live View (up to 5 minutes at a time), motion alerts and two-way audio work with no plan, and clips can be saved to a USB drive on a Sync Module 2 or a microSD card in a Sync Module XR. Cloud storage and person and vehicle detection need a Blink plan."
+    },
+    {
+      "q": "Is Blink cheaper than Ring?",
+      "a": "For one or two devices, yes: Blink Basic is $3.99 a month or $39.99 a year per device, versus $4.99 or $49.99 for Ring Solo. From three devices up, Ring Multi at $9.99 a month or $99.99 a year costs less than Blink Plus at $11.99 or $119.99. Those are the fees each brand published in October and November 2026, before tax."
+    },
+    {
+      "q": "Does the Blink Battery Doorbell 2K+ need a Sync Module?",
+      "a": "Yes. Blink says it requires a Sync Module to work and connect to the Blink app. Any Blink Sync Module works, but for local storage Blink’s doorbell FAQ names the Sync Module 2 (USB drive) and Sync Module XR (microSD card). The Sync Module Core included in the Amazon system bundle doesn’t support it."
+    },
+    {
+      "q": "Can I hardwire either doorbell?",
+      "a": "Yes. The Ring Battery Doorbell 2K can trickle-charge from existing doorbell wiring (8–24 VAC, 10–40 VA). The Blink Battery Doorbell 2K+ wires to 12–24 VAC in the US and keeps its AA batteries as backup. Once wired, both work with your existing mechanical chime."
+    },
+    {
+      "q": "Which works better with Alexa?",
+      "a": "Both show Live View, support two-way talk on an Echo Show and announce doorbell presses. Ring goes further with Picture-in-Picture on select Echo Show and Fire TV models, person and package announcements with a plan, and Alexa+ Greetings on select doorbells with Ring Pro. Blink adds voice arming and disarming and also works with IFTTT and Siri Shortcuts."
+    },
+    {
+      "q": "Do these doorbells work on 5 GHz Wi-Fi?",
+      "a": "No. Both connect on 2.4 GHz only. Ring recommends at least 10 Mbps of upload speed for its 2K devices; Blink needs 6 Mbps at its Best video setting."
+    },
+    {
+      "q": "Is facial recognition available everywhere in the US?",
+      "a": "No. Ring’s Familiar Faces and Blink’s Known Faces, both in beta and both plan-only, aren’t offered in Illinois, Texas or Portland, Oregon, and both brands’ AI video descriptions aren’t offered in Illinois, citing state and local laws."
+    },
+    {
+      "q": "Can one plan cover both Ring and Blink devices?",
+      "a": "No. Ring and Blink use separate apps and separate plans, even though both are Amazon brands. A Ring plan also covers only one address; you need a separate plan for each home."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Consumer Reports",
+      "url": "https://www.consumerreports.org/home-garden/home-security-cameras/video-doorbells/c200100/",
+      "note": "As of November 1, 2026, Consumer Reports’ video doorbell ratings covered 62 models, with scores for members only. Its public model list included the predecessors of these picks, the Ring Battery Doorbell (2024 Release) and the Blink Video Doorbell (2nd Gen) + Sync Module Core, but not the Ring Battery Doorbell 2K or the Blink Battery Doorbell 2K+."
+    },
+    {
+      "name": "Tom’s Guide (Blink Battery Doorbell 2K+ review)",
+      "url": "https://www.tomsguide.com/home/smart-home/the-blink-battery-doorbell-2k-checks-all-of-the-boxes-for-a-budget-friendly-video-doorbell",
+      "note": "Review by Jason Cipriani, published June 11, 2026, after two weeks of use: very good 2K video for the price, long battery life and optional local storage; downsides were motion blur on moving subjects, no 5 GHz Wi-Fi and AI descriptions that could be better. The reviewer’s bundle came with the Sync Module Core, which lacks local storage and clip backup, and most night clips were infrared rather than color."
+    },
+    {
+      "name": "Tom’s Guide (best Ring video doorbells)",
+      "url": "https://www.tomsguide.com/face-off/ring-video-doorbell-3-vs-doorbell-pro",
+      "note": "Guide last updated February 9, 2026, covering the earlier Ring Battery Doorbell rather than the 2026 Battery Doorbell 2K. It flagged that the built-in battery isn’t removable, so the whole doorbell comes down to recharge unless you add a solar panel, which Ring’s own instructions for the 2K model also describe."
+    }
+  ],
+  "sources": [
+    "https://ring.com/products/battery-doorbell-2nd-gen",
+    "https://ring.com/products/wired-doorbell-2nd-gen",
+    "https://ring.com/plans",
+    "https://ring.com/support/articles/k9l04/Viewing-your-Ring-cameras-with-Alexa",
+    "https://ring.com/support/articles/2mgbt/managing-alexa-announcements-for-ring-devices",
+    "https://blinkforhome.com/products",
+    "https://blinkforhome.com/plans",
+    "https://support.blinkforhome.com/en_US/battery-doorbell-2k-plus-tech-specs/battery-doorbell-2k-technical-specifications",
+    "https://support.blinkforhome.com/en_US/battery-doorbell-2k-plus-faq/battery-doorbell-2k-faq",
+    "https://support.blinkforhome.com/en_US/using-your-camera/blink-storage-options",
+    "https://support.blinkforhome.com/subscriptions/blink-subscription-plan-changes",
+    "https://support.blinkforhome.com/en_US/supported-alexa-features",
+    "https://www.consumerreports.org/home-garden/home-security-cameras/video-doorbells/c200100/",
+    "https://www.tomsguide.com/home/smart-home/the-blink-battery-doorbell-2k-checks-all-of-the-boxes-for-a-budget-friendly-video-doorbell",
+    "https://www.tomsguide.com/face-off/ring-video-doorbell-3-vs-doorbell-pro",
+    "https://support.blinkforhome.com/sync-module-reqs?kb_language=en_US"
+  ],
+  "related": [
+    "/us/securite-maison/sonnettes-video",
+    "/us/securite-maison/cameras-exterieur",
+    "/us/securite-maison/cameras-interieur",
+    "/us/guides/probleme/sonnette-batterie-dure-pas",
+    "/us/guides/probleme/sonnette-pas-notification"
+  ]
+}

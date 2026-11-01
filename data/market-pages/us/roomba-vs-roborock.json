@@ -1,0 +1,308 @@
+{
+  "locale": "us",
+  "type": "duel",
+  "slug": "roomba-vs-roborock",
+  "updated": "2026-11-01",
+  "metaTitle": "Roomba vs. Roborock (2026): Which Should You Buy?",
+  "metaDescription": "Roomba or Roborock after iRobot's Chapter 11? We compare the Roomba Plus 678 Combo and Qrevo Curv 2 Flow, and answer: will my Roomba still work?",
+  "kicker": "Robot vacuum duel",
+  "h1": "Roomba vs. Roborock: Which to Buy in 2026, and Will Your Roomba Still Work?",
+  "answer": "For most homes, the Roborock Qrevo Curv 2 Flow is the safer buy: independent reviewers confirm its strong roller mopping and dependable navigation. Pick the Roomba Plus 678 Combo for carpet-heavy homes and low furniture. And yes, your Roomba still works: iRobot emerged from Chapter 11 on January 23, 2026, wholly owned by its contract manufacturer, Picea, and still offers both of its apps.",
+  "picks": [
+    {
+      "brand": "Roborock",
+      "model": "Roborock Qrevo Curv 2 Flow",
+      "role": "Our pick",
+      "why": "Its roller mop and LiDAR navigation drew strong marks from Wired, Tom’s Guide and Gizmodo, and Roborock has been through no bankruptcy or sale. The trade-offs: it’s tuned for hard floors, and reviewers saw uneven cleaning along walls.",
+      "bestFor": "Mostly hardwood, tile or vinyl floors, busy kitchens and daily mopping",
+      "asin": "B0FXG2BDTJ",
+      "manufacturerUrl": "https://us.roborock.com/products/roborock-qrevo-curv-2-flow",
+      "specs": {
+        "Suction": "20,000 Pa",
+        "Mop system": "Edge-adaptive SpiraFlow roller mop, up to 15 N of downward pressure",
+        "Dock mop wash": "167°F (75°C) hot water",
+        "Dock mop drying": "131°F (55°C) warm air",
+        "Self-emptying": "Yes, into a disposable dust bag (interval depends on use)",
+        "Mop lift on carpet": "Up to 0.6 in (15 mm)",
+        "Edge cleaning": "Within about 0.4 in (10 mm) of walls",
+        "Navigation": "PreciSense LiDAR plus RGB camera with structured light; avoids 200+ object types at least 2 in wide and 1.2 in tall (5 × 3 cm)",
+        "Brushes": "DuoDivide main brush, anti-tangle side brush",
+        "Robot dimensions": "13.9 × 13.9 × 4.7 in",
+        "Battery": "5,200 mAh; about 3 hr to charge from 15% to full",
+        "Noise (vacuum and mop)": "About 62–65 dB",
+        "App": "Roborock app",
+        "Warranty": "1 year"
+      }
+    },
+    {
+      "brand": "iRobot",
+      "model": "Roomba Plus 678 Combo Robot + AutoWash Dock",
+      "role": "Best for carpet and low furniture",
+      "why": "On paper it out-specs the Roborock: 30,000 Pa of suction with a carpet seal, a slimmer 3.9 in body, hot-water scrubbing and a dock that doses cleaning concentrate. It went on sale September 2, 2026, and we found no published independent results yet.",
+      "bestFor": "Carpet and area rugs, low sofas and beds, raised thresholds between rooms",
+      "asin": "B0HB7C6J6P",
+      "manufacturerUrl": "https://www.irobot.com/en_US/roomba-plus-678-combo-robot-plus-autowash-dock/V185020.html",
+      "specs": {
+        "Suction": "30,000 Pa (iRobot launch announcement, September 2, 2026), with SealForce carpet sealing",
+        "Mop system": "Self-cleaning PowerSpin roller mop, 15 N of downward pressure, scrubs with 140°F (60°C) water; SprayForce AI pre-treatment spray (40,000 Pa is spray pressure, not suction)",
+        "Dock mop wash": "176°F (80°C) hot-water soak",
+        "Dock mop drying": "131°F (55°C) heated air",
+        "Self-emptying": "Yes, into a sealed bag, up to 90 days of hands-free maintenance",
+        "Cleaning solution": "Dock auto-dispenses StayClean mopping concentrate",
+        "Mop lift on carpet": "0.4 in (10 mm)",
+        "Edge cleaning": "PerfectEdge roller extends up to 1.8 in (45 mm)",
+        "Navigation": "ClearView Pro Dual-Line LiDAR plus PrecisionVision AI obstacle avoidance; up to 3 maps",
+        "Brushes": "Hair-cutting multi-surface bristle brush, anti-tangle Edge-Sweeping brush",
+        "Robot dimensions": "13.9 × 13.9 × 3.9 in",
+        "Thresholds": "Up to 1.4 in (3.5 cm)",
+        "Battery": "6,000 mAh LFP",
+        "App": "Roomba Home app; works with Alexa, Siri and Google Assistant",
+        "Warranty": "Limited 1 year"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Spec",
+      "Roborock Qrevo Curv 2 Flow",
+      "Roomba Plus 678 Combo"
+    ],
+    "rows": [
+      [
+        "Suction (manufacturer rating)",
+        "20,000 Pa",
+        "30,000 Pa"
+      ],
+      [
+        "Carpet handling",
+        "Mop lifts up to 0.6 in (15 mm)",
+        "SealForce carpet seal; mop lifts 0.4 in (10 mm)"
+      ],
+      [
+        "Mop",
+        "Roller, up to 15 N",
+        "Roller, 15 N, 140°F (60°C) water, pre-treatment spray"
+      ],
+      [
+        "Dock wash / dry",
+        "167°F / 131°F",
+        "176°F / 131°F"
+      ],
+      [
+        "Cleaning solution",
+        "Not dosed by the dock (add it to the clean-water tank)",
+        "Auto-dispensed by the dock"
+      ],
+      [
+        "Self-emptying",
+        "Yes; interval depends on use",
+        "Yes; up to 90 days"
+      ],
+      [
+        "Navigation",
+        "LiDAR + RGB camera, 200+ object types",
+        "Dual-line LiDAR + AI camera"
+      ],
+      [
+        "Robot height",
+        "4.7 in",
+        "3.9 in"
+      ],
+      [
+        "Threshold rating",
+        "Not published",
+        "Up to 1.4 in (3.5 cm)"
+      ],
+      [
+        "Edge reach",
+        "Within about 0.4 in (10 mm) of walls",
+        "Roller extends up to 1.8 in (45 mm)"
+      ],
+      [
+        "Battery",
+        "5,200 mAh",
+        "6,000 mAh LFP"
+      ],
+      [
+        "Noise, vacuum and mop",
+        "62–65 dB",
+        "Not published"
+      ],
+      [
+        "App",
+        "Roborock app",
+        "Roomba Home app"
+      ],
+      [
+        "Warranty",
+        "1 year",
+        "Limited 1 year"
+      ],
+      [
+        "Independent results (November 1, 2026)",
+        "Wired, Tom’s Guide, Gizmodo and others",
+        "None published that we could find"
+      ],
+      [
+        "Company status",
+        "No bankruptcy or sale",
+        "Owned by Picea since January 23, 2026, after Chapter 11"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Proven cleaning, vacuum and mop",
+      "weight": 35,
+      "explanation": "What independent reviewers measured or observed on floors and carpet comes first; the manufacturer’s suction and mop figures count when no independent results exist yet. A spec sheet is a promise, a published result is evidence."
+    },
+    {
+      "name": "Long-term support: company, app, parts, warranty",
+      "weight": 20,
+      "explanation": "A robot vacuum depends on its maker’s app, servers and parts for years. We look at the warranty, the parts store, which app each model uses and any change in ownership, from company filings and statements."
+    },
+    {
+      "name": "Dock automation and upkeep",
+      "weight": 20,
+      "explanation": "Hands-free time comes from the dock: wash and dry temperatures, cleaning-solution dosing, bag interval and the maintenance the maker asks of you, all from the manufacturer’s US product pages."
+    },
+    {
+      "name": "Fit for your home",
+      "weight": 15,
+      "explanation": "Robot height decides what it can clean under, threshold rating decides whether it crosses between rooms, and carpet handling decides how it copes with rugs. Published figures only."
+    },
+    {
+      "name": "Navigation and obstacle avoidance",
+      "weight": 10,
+      "explanation": "Both robots map with LiDAR and avoid obstacles with a camera, so this criterion separates them only where the published sensors or independent results differ."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "The verdict in three lines",
+      "html": "<p><strong>Choose the Roborock Qrevo Curv 2 Flow if</strong> most of your floors are hardwood, tile or vinyl, you mop the kitchen often and you want a model whose cleaning several independent reviewers have already checked.</p><p><strong>Choose the Roomba Plus 678 Combo if</strong> you have a lot of carpet or area rugs, low furniture the taller Roborock can’t get under, raised thresholds between rooms, or you want the dock to dose cleaning concentrate for you. You’re betting on iRobot’s spec sheet and on its new owner.</p><p><strong>Keep the Roomba you already own</strong> if it still cleans well. iRobot said the restructuring would not disrupt app functionality, both of its apps are still offered, and its parts store still lists filters, brushes and bags for older series.</p>"
+    },
+    {
+      "h2": "Will my Roomba still work after iRobot’s bankruptcy?",
+      "html": "<p><strong>Yes.</strong> Here is what happened, with dates, from iRobot’s SEC filings and its own announcements:</p><ul><li><strong>December 14, 2025:</strong> iRobot and two affiliates filed a prepackaged Chapter 11 case in the US Bankruptcy Court for the District of Delaware, under a deal for Shenzhen PICEA Robotics and Santrum Hong Kong (together, Picea), its secured lender and main contract manufacturer, to take 100% of the company. iRobot said it expected no disruption to app functionality, customer programs or ongoing product support during the process.</li><li><strong>December 15, 2025:</strong> iRobot disclosed that Nasdaq would delist its shares, with trading suspended from December 22, 2025.</li><li><strong>January 22, 2026:</strong> the court confirmed the restructuring plan.</li><li><strong>January 23, 2026:</strong> the plan took effect. Existing shares were canceled, Picea became the sole owner, and iRobot left Chapter 11 as a private company headquartered in Bedford, Massachusetts. It also created a separate US subsidiary, iRobot Safe, governed by an independent board of US citizens, to protect US customer data.</li><li><strong>July 7 and September 2, 2026:</strong> iRobot launched new Roomba models for North America, including the Plus 678 Combo in this duel.</li></ul><p>In short, iRobot isn’t going out of business: it changed hands, stopped being a public company and kept selling and supporting Roombas. One thing did change for buyers. iRobot filed to deregister its shares with the SEC on January 26, 2026, which ended its public financial reporting, so there is less outside visibility into its health than before.</p>"
+    },
+    {
+      "h2": "What Chapter 11 means for the app, parts and your warranty",
+      "html": "<ul><li><strong>App:</strong> Roomba 100, 200, Plus 400 and Plus 500 series robots sold after March 2025, and 2026 models such as the Plus 678 Combo and Max 875 Combo, use the Roomba Home app. Other models use the iRobot Home (Classic) app. Both were offered on iRobot’s US site on November 1, 2026, and we found no announced end-of-support date for either.</li><li><strong>What depends on the app:</strong> maps, schedules, room selection and voice control run through the app and iRobot’s servers. Most Roombas can still start a run from the button on the robot.</li><li><strong>Parts:</strong> iRobot’s US accessories store lists filters, brushes, bags and replenishment kits by series, from the new Max 875 and Plus 678 back to the i, j, s, e and 600 series and the older 400 to 900 series. A listing isn’t a stock promise, so a spare filter and brush set for an older robot is cheap insurance.</li><li><strong>Warranty:</strong> iRobot says eligible products include a limited one-year manufacturer’s warranty. Keep your proof of purchase.</li><li><strong>Data:</strong> iRobot says US customer data is handled by iRobot Safe, kept separate from its non-US owner. That is a company commitment we can report, not one we can audit.</li></ul>"
+    },
+    {
+      "h2": "Three differences you’ll notice day to day",
+      "html": "<p><strong>1. Carpet versus hard floors.</strong> The Roomba is built around carpet: iRobot rates it at 30,000 Pa of suction and adds SealForce, which seals the brush area against carpet; iRobot claims 3x deeper carpet cleaning than vacuuming without it. The Roborock is rated at 20,000 Pa, and Wired’s reviewer found it isn’t optimized for lots of carpet and that it occasionally mopped carpeted rooms it had failed to classify as carpet.</p><p><strong>2. How each one mops.</strong> Both scrub with a self-cleaning roller pressed down at 15 N, which is why this is a fair match. The Roomba adds a pressurized pre-treatment spray for dried-on spills and scrubs with 140°F (60°C) water. The Roborock’s roller slides out toward walls; reviewers praised how deep it cleans but found results along walls and in corners uneven, and Tom’s Guide saw streaks at the default water setting until it turned the flow up.</p><p><strong>3. Clearance and thresholds.</strong> The Roomba is 3.9 inches tall and rated for thresholds up to 1.4 inches (3.5 cm). The Roborock is 4.7 inches tall, and Roborock’s page doesn’t list a threshold height. Measure under your sofa and bed before you choose.</p>"
+    },
+    {
+      "h2": "Docks, upkeep and what you’ll keep buying",
+      "html": "<ul><li><strong>Roomba AutoWash dock:</strong> soaks the roller in 176°F (80°C) water, dries it with 131°F (55°C) air, refills the robot with water mixed with StayClean concentrate and empties debris into a sealed bag, for up to 90 days of hands-free maintenance by iRobot’s count. iRobot asks you to wipe the bin, rinse the dock tanks and replace the filter, brushes and mop roller every 3 to 6 months.</li><li><strong>Roborock dock:</strong> washes the roller with 167°F (75°C) water, dries it with 131°F (55°C) air and empties the robot into a disposable dust bag; Roborock says the interval depends on use. There’s no separate detergent tank, so you add the solution to the clean-water tank yourself. Android Authority (May 29, 2026) found the drying cycle runs about three hours, even in eco mode.</li><li><strong>Ongoing costs:</strong> dock bags, filters, brushes, mop rollers and each brand’s own cleaning solution. Use the solution the maker lists for your robot to avoid clogs.</li></ul>"
+    },
+    {
+      "h2": "What independent reviewers found",
+      "html": "<ul><li><strong>Wired, January 23, 2026 (Roborock):</strong> excellent mopping and navigation that reliably reached every room and returned to the dock; the weak spots were carpet-heavy homes, objects smaller than about 2 inches wide and 1.2 inches tall, and dog hair clumping in the dock’s chute.</li><li><strong>Tom’s Guide, February 23, 2026 (Roborock):</strong> in its standardized pickup tests it did very well on cereal and cat litter and less well on cat hair; mopping streaked at the default low water flow until it was turned up.</li><li><strong>Gizmodo, April 19, 2026 (Roborock):</strong> the most powerful mopping the reviewer had seen on a robot, but inconsistent near walls and in corners, and nearly three hours to recharge.</li><li><strong>Roomba Plus 678 Combo:</strong> on sale since September 2, 2026. Vacuum Wars said it had not evaluated it yet (article updated October 2, 2026), and we found no published independent results as of November 1, 2026. We’ll update this page when results appear.</li></ul>"
+    },
+    {
+      "h2": "Why this ranking",
+      "html": "<p>We score both robots on the five criteria above. The leader on each criterion takes its full weight; a tie splits it.</p><ul><li><strong>Proven cleaning (35):</strong> Roborock. Several independent reviews back its vacuuming and mopping; the Roomba’s stronger figures are still manufacturer claims.</li><li><strong>Long-term support (20):</strong> Roborock. Both carry a one-year warranty, but iRobot’s support now rests on an owner that took over in January 2026 and on a company that no longer reports its finances publicly.</li><li><strong>Dock automation and upkeep (20):</strong> Roomba. A hotter wash, automatic concentrate dosing and a stated 90-day bag interval.</li><li><strong>Fit for your home (15):</strong> Roomba. A lower body, a published 1.4 in threshold rating and a carpet-first design.</li><li><strong>Navigation (10):</strong> tie. Both pair LiDAR with camera-based obstacle avoidance; reviewers found Roborock’s reliable but blind to small objects, and iRobot’s new system has no independent results yet.</li></ul><p><strong>Result: Roborock 60, Roomba 40.</strong> If independent results for the Plus 678 confirm iRobot’s claims, the proven-cleaning criterion could flip, and the verdict with it.</p>"
+    },
+    {
+      "h2": "One tier down: Roomba 105 Combo vs. Roborock Q7 M5+",
+      "html": "<p>The same question for simpler self-emptying robots that mop with a pad and have no mop washing:</p><ul><li><strong>Roborock Q7 M5+:</strong> 10,000 Pa of suction, PreciSense LiDAR, anti-tangle main and side brushes, and a 2.7 L dock bag that Roborock rates for up to 7 weeks.</li><li><strong>Roomba 105 Combo Robot + AutoEmpty Dock:</strong> ClearView LiDAR, a micro-pump that keeps the mop pad damp and a dock iRobot rates for up to 75 days of debris; iRobot quotes 70x the suction of its old 600 series rather than a Pa figure.</li></ul><p>On published specs the Roborock is the clearer buy here too, mainly because Roborock states its suction and anti-tangle design and iRobot doesn’t.</p>"
+    },
+    {
+      "h2": "Should you replace a Roomba that still works?",
+      "html": "<p>No. A working Roomba keeps cleaning, and iRobot still offers its apps and lists parts for older series. Replace it when it fails out of warranty and the repair isn’t worth it, or when you want something it can’t do, such as a dock that washes and dries a mop. If you do upgrade, the choice above holds: Roborock for mostly hard floors, Roomba for carpet and low furniture.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is iRobot going out of business?",
+      "a": "No. iRobot filed a prepackaged Chapter 11 case on December 14, 2025, and emerged on January 23, 2026, as a private company wholly owned by Picea, its longtime contract manufacturer and lender. It kept its Bedford, Massachusetts, headquarters and launched new Roombas in July and September 2026."
+    },
+    {
+      "q": "Will my Roomba still work?",
+      "a": "Yes. iRobot said the Chapter 11 process would not disrupt app functionality or product support, and on November 1, 2026, it still offered the Roomba Home app for newer models and the iRobot Home (Classic) app for older ones. App features rely on iRobot’s servers; we found no announced end date for either app."
+    },
+    {
+      "q": "Which app does my Roomba use?",
+      "a": "Roomba 100, 200, Plus 400 and Plus 500 series robots sold after March 2025, plus 2026 models such as the Plus 678 Combo and Max 875 Combo, use the Roomba Home app. Other Wi-Fi Roombas, such as the i, j, s and e series, use the iRobot Home (Classic) app."
+    },
+    {
+      "q": "Can I still buy Roomba replacement parts?",
+      "a": "Yes. iRobot’s US accessories store lists filters, brushes, bags and replenishment kits for current models and for older series back to the 400 to 900 series. A listing isn’t a stock guarantee, so keep a spare filter and brush set for an older robot."
+    },
+    {
+      "q": "Is my Roomba warranty still valid?",
+      "a": "iRobot says eligible products come with a limited one-year manufacturer’s warranty, and in December 2025 it said customer programs would continue during the restructuring. Keep your proof of purchase and contact iRobot support to file a claim."
+    },
+    {
+      "q": "Who owns iRobot now?",
+      "a": "Shenzhen PICEA Robotics and its affiliate Santrum Hong Kong, together called Picea, acquired 100% of iRobot on January 23, 2026. iRobot says a separate US subsidiary, iRobot Safe, with an independent board of US citizens, protects US customer data."
+    },
+    {
+      "q": "Is Roborock better than Roomba?",
+      "a": "For hard floors and mopping, the Roborock Qrevo Curv 2 Flow has the stronger independent record. The Roomba Plus 678 Combo has stronger carpet specs and a slimmer body, but no published independent results yet. Mostly hard floors: Roborock. Lots of carpet and low furniture: Roomba."
+    },
+    {
+      "q": "Roomba or Roborock for pet hair?",
+      "a": "Both use brushes designed to resist hair wrap: a hair-cutting main brush on the Roomba, a DuoDivide main brush on the Roborock. Reviewers saw cat hair partly clog the Roborock’s inlet in one test and dog hair clump in its dock chute, so check both spots weekly with a heavy shedder."
+    },
+    {
+      "q": "Are Roomba and Roborock Chinese companies?",
+      "a": "Roborock is based in Beijing. iRobot has been owned by Picea, a Shenzhen robot vacuum maker, since January 23, 2026, but it remains headquartered in Massachusetts and says US customer data is handled by a separate US subsidiary."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Wired",
+      "url": "https://www.wired.com/review/roborock-qrevo-curv-2-flow/",
+      "note": "Review of the Roborock Qrevo Curv 2 Flow, January 23, 2026: praised its mopping and navigation (it did not get lost); flagged that it is not optimized for lots of carpet, misses objects smaller than about 1.2 in tall and 2 in wide (3 × 5 cm), and let dog hair clump in the dock chute."
+    },
+    {
+      "name": "Tom’s Guide",
+      "url": "https://www.tomsguide.com/home/smart-home/roborock-qrevo-curv-2-flow-review",
+      "note": "Review of the Roborock Qrevo Curv 2 Flow, February 23, 2026: strong results with cereal and cat litter in its standardized tests, weaker with cat hair; streaking at the default low water setting, fixed by raising the water flow; no detergent tank."
+    },
+    {
+      "name": "Gizmodo",
+      "url": "https://gizmodo.com/roborock-qrevo-curv-2-flow-review-ultimate-robot-mop-if-you-dont-have-corners-or-walls-2000745723",
+      "note": "Review of the Roborock Qrevo Curv 2 Flow, April 19, 2026: deepest mopping the reviewer had seen on a robot, uneven edge and corner coverage, nearly three hours to recharge, no separate detergent tank."
+    },
+    {
+      "name": "Android Authority",
+      "url": "https://www.androidauthority.com/roborock-qrevo-curv-2-flow-review-3655960/",
+      "note": "Review of the Roborock Qrevo Curv 2 Flow, May 29, 2026: tangle-free vacuuming and strong wet-mess mopping; edges hard to clean consistently, a drying cycle of about three hours even in eco mode, and some thresholds it could not climb."
+    },
+    {
+      "name": "Vacuum Wars",
+      "url": "https://vacuumwars.com/irobot-launches-roomba-max-875-and-plus-678/",
+      "note": "Launch article on the Roomba Plus 678 Combo, September 2, 2026, updated October 2, 2026: had not yet evaluated it; its figures are iRobot’s claims pending testing."
+    }
+  ],
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1159167/000119312525318337/d97115dex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/1159167/000115916725000097/irbt-20251215.htm",
+    "https://www.sec.gov/Archives/edgar/data/1159167/000115916726000006/irbt-20260122.htm",
+    "https://www.sec.gov/Archives/edgar/data/1159167/000115916726000006/exhibit991.htm",
+    "https://www.sec.gov/Archives/edgar/data/1159167/000115916726000007/form15.htm",
+    "https://media.irobot.com/2026-01-23-iRobot-Completes-Court-Supervised-Transaction-with-Picea,-Enabling-the-Next-Chapter-of-Growth",
+    "https://media.irobot.com/2026-07-07-iRobot-Redefines-Floor-Care-with-the-Introduction-of-a-5-in-1-Disinfecting-Hard-Floor-Cleaner-Along-with-a-New-Generation-of-Roomba-Robots",
+    "https://media.irobot.com/2026-09-02-iRobot-Redefines-Hands-Free-Cleaning-with-its-Most-Powerful-Robot-Ever,-the-Roomba-R-Max-875-Combo",
+    "https://www.irobot.com/en_US/roomba-plus-678-combo-robot-plus-autowash-dock/V185020.html",
+    "https://www.irobot.com/en_US/roomba-105-combo-robot-plus-autoempty-dock/Y354020.html",
+    "https://www.irobot.com/en_US/roomba-home-app.html",
+    "https://www.irobot.com/en_US/accessories.html",
+    "https://www.irobot.com/en_US/protect.html",
+    "https://us.roborock.com/products/roborock-qrevo-curv-2-flow",
+    "https://us.roborock.com/products/roborock-q7-m5-plus"
+  ],
+  "related": [
+    "/us/entretien-maison/aspirateurs-robots",
+    "/us/entretien-maison/aspirateurs-laveurs",
+    "/us/blog/comparatif-robot-aspirateur-laveur",
+    "/us/blog/robot-aspirateur-poils-animaux",
+    "/us/black-friday/aspirateurs-robots",
+    "/us/guides/floor-care/vacuums"
+  ]
+}

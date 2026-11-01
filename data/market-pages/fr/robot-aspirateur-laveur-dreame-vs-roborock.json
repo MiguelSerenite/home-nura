@@ -1,0 +1,309 @@
+{
+  "locale": "fr",
+  "type": "duel",
+  "slug": "robot-aspirateur-laveur-dreame-vs-roborock",
+  "updated": "2026-11-01",
+  "metaTitle": "Robot aspirateur laveur Dreame vs Roborock : le duel 2026",
+  "metaDescription": "Dreame L40s Pro Ultra ou Roborock Qrevo Curv 2 Pro ? Lavage à 75 ou 100 °C, hauteur, tapis, détergent, coins : notre verdict et l’avis des testeurs.",
+  "kicker": "Duel · Robots aspirateurs laveurs",
+  "h1": "Robot aspirateur laveur Dreame ou Roborock : L40s Pro Ultra ou Qrevo Curv 2 Pro ?",
+  "answer": "Pour la plupart des logements, nous plaçons le Roborock Qrevo Curv 2 Pro devant : lavage des serpillières jusqu’à 100 °C, 25 000 Pa annoncés et 7,98 cm de haut pour passer sous les meubles bas. Le Dreame L40s Pro Ultra convient mieux aux intérieurs pleins de coins et de plinthes, et à qui veut un détergent dosé automatiquement. Fiches vérifiées le 1er novembre 2026.",
+  "picks": [
+    {
+      "brand": "Roborock",
+      "model": "Qrevo Curv 2 Pro",
+      "role": "Notre choix : lavage et meubles bas",
+      "why": "C’est le plus complet des deux sur le lavage : serpillières lavées jusqu’à 100 °C, séchées à 55 °C, et réservoir du robot rempli d’eau chaude. Avec 7,98 cm de haut et un LiDAR rétractable, il nettoie aussi sous les meubles où le Dreame ne passe pas.",
+      "bestFor": "Cuisines et sols durs souvent tachés, meubles bas, tapis épais jusqu’à 3 cm",
+      "asin": "B0FFGQ7L2T",
+      "manufacturerUrl": "https://fr.roborock.com/pages/roborock-qrevo-curv-2-pro",
+      "specs": {
+        "Aspiration maximale": "25 000 Pa (HyperForce)",
+        "Dimensions du robot": "350 × 352 × 79,8 mm (7,98 cm de haut)",
+        "Dimensions de la station": "450 × 450 × 450 mm",
+        "Franchissement": "seuils à deux marches jusqu’à 4 cm au total",
+        "Navigation": "LiDAR rétractable RetractSense ; reconnaissance Reactive AI (lumière structurée et caméra RVB, plus de 200 types d’obstacles) ; laser latéral VertiBeam",
+        "Brosses": "brosse principale DuoDivide et brosse latérale FlexiArm, annoncées contre l’enroulement des cheveux jusqu’à 40 cm",
+        "Serpillières": "2 serpillières rotatives, jusqu’à 200 tr/min et 12 N de pression ; détachement automatique ; nettoyage des bords à la serpillière",
+        "Tapis": "châssis AdaptiLift qui se soulève de 20 mm, tapis jusqu’à 3 cm d’épaisseur (fonction à activer dans l’application)",
+        "Lavage et séchage": "serpillières lavées à l’eau chaude jusqu’à 100 °C ; séchage à l’air chaud à 55 °C ; remplissage du robot à l’eau chaude",
+        "Vidage automatique": "jusqu’à 65 jours sans vidage manuel ; séchage du sac à l’air ambiant",
+        "Batterie": "lithium-ion 14,4 V, 6 400 mAh (notice Roborock)",
+        "Commande vocale": "« Hello Rocky », annoncé utilisable même sans connexion Internet ; raccourcis Alexa, Siri et Google Home",
+        "Matter": "annoncé via une prochaine mise à jour du logiciel",
+        "Cartes": "jusqu’à 3 étages"
+      }
+    },
+    {
+      "brand": "Dreame",
+      "model": "L40s Pro Ultra",
+      "role": "L’alternative : coins, détergent et station autonome",
+      "why": "Sa serpillière s’étend jusqu’à 4 cm vers les plinthes, sa base dose seule le détergent et ses réservoirs annoncés (4,5 L et 4 L) dépassent ceux relevés sur le Roborock. Lavelab salue sa gestion des obstacles, mais Labo Maison et Lavelab le trouvent moins efficace sur les taches incrustées.",
+      "bestFor": "Logements avec beaucoup de coins et de plinthes, propriétaires d’animaux à poils longs, foyers qui veulent la station la plus autonome",
+      "asin": "B0DY8V59LY",
+      "manufacturerUrl": "https://fr.dreametech.com/products/l40s-pro-ultra-noir",
+      "specs": {
+        "Aspiration maximale": "19 000 Pa",
+        "Dimensions du robot": "350 × 350 × 103,5 mm",
+        "Dimensions de la base": "340 × 457 × 591 mm",
+        "Poids": "robot 4,23 kg ; base 9 kg",
+        "Franchissement": "40 mm (marche à deux niveaux), 22 mm (marche simple)",
+        "Navigation": "navigation intelligente Pathfinder ; évitement des obstacles par IA RVB et éclairage structuré 3D à double laser",
+        "Cartes": "jusqu’à 4",
+        "Brosse principale": "brosse duo démêlante HyperStream, annoncée pour les poils et cheveux jusqu’à 30 cm",
+        "Serpillières": "2 serpillières rotatives ; extension jusqu’à 4 cm ; levage à 10,5 mm du sol ; retrait automatique à la base",
+        "Brosses": "levage de la brosse principale et de la brosse latérale ; extension de la brosse latérale",
+        "Lavage et séchage": "serpillières lavées à l’eau chaude à 75 °C ; séchage à l’air chaud ; plaque de lavage autonettoyante (AceClean DryBoard)",
+        "Réservoirs de la base": "4,5 L (eau propre) / 4 L (eau sale)",
+        "Vidage automatique": "sac de 3,2 L, jusqu’à 100 jours",
+        "Détergent": "ajout automatique de solution",
+        "Raccordement à l’eau": "kit de remplissage et de vidange automatiques, vendu séparément",
+        "Bac à poussière du robot": "310 ml",
+        "Batterie": "5 200 mAh ; jusqu’à 195 min en mode Silencieux (aspiration et lavage)",
+        "Commande vocale": "« OK, Dreame » intégré ; Alexa, Siri et Google Home pris en charge"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Critère",
+      "Roborock Qrevo Curv 2 Pro",
+      "Dreame L40s Pro Ultra"
+    ],
+    "rows": [
+      [
+        "Aspiration maximale (annoncée)",
+        "25 000 Pa",
+        "19 000 Pa"
+      ],
+      [
+        "Hauteur du robot",
+        "7,98 cm, LiDAR rétractable",
+        "10,35 cm (103,5 mm)"
+      ],
+      [
+        "Franchissement annoncé",
+        "4 cm au total sur un seuil à deux marches",
+        "40 mm sur une marche à deux niveaux, 22 mm sur une marche simple"
+      ],
+      [
+        "Lavage des serpillières",
+        "eau chaude jusqu’à 100 °C, réservoir du robot rempli d’eau chaude",
+        "eau chaude à 75 °C"
+      ],
+      [
+        "Séchage",
+        "air chaud à 55 °C",
+        "air chaud (température non indiquée)"
+      ],
+      [
+        "Bords",
+        "brosse latérale FlexiArm et serpillière décalée vers le bord",
+        "brosse latérale extensible, serpillière qui s’étend jusqu’à 4 cm"
+      ],
+      [
+        "Tapis",
+        "châssis AdaptiLift relevable de 20 mm (tapis jusqu’à 3 cm), serpillières détachables",
+        "serpillières levées à 10,5 mm ou retirées, brosse principale relevable"
+      ],
+      [
+        "Détergent",
+        "pas de dosage automatique mentionné par Roborock (aucun réservoir selon Frandroid)",
+        "ajout automatique de solution"
+      ],
+      [
+        "Réservoirs de la station",
+        "non indiqués sur la fiche française",
+        "4,5 L d’eau propre / 4 L d’eau sale"
+      ],
+      [
+        "Vidage automatique",
+        "jusqu’à 65 jours",
+        "sac de 3,2 L, jusqu’à 100 jours"
+      ],
+      [
+        "Raccordement à l’eau",
+        "non mentionné",
+        "kit vendu séparément"
+      ],
+      [
+        "Batterie",
+        "6 400 mAh (autonomie non indiquée sur la fiche française)",
+        "5 200 mAh, jusqu’à 195 min en mode Silencieux"
+      ],
+      [
+        "Encombrement de la station",
+        "450 × 450 × 450 mm",
+        "340 × 457 × 591 mm"
+      ],
+      [
+        "Voix et maison connectée",
+        "« Hello Rocky » sans connexion Internet ; Alexa, Siri, Google Home par raccourcis ; Matter annoncé",
+        "« OK, Dreame » ; Alexa, Siri, Google Home ; Matter non mentionné"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Lavage des sols",
+      "weight": 25,
+      "explanation": "C’est la raison d’acheter un robot laveur plutôt qu’un simple aspirateur robot. Nous comparons la température de lavage des serpillières annoncée, ce que fait la station (eau chaude, séchage, détergent) et les résultats publiés sur les taches. Avantage net : Roborock (100 °C, eau chaude dans le robot, huile et soda entièrement retirés dans le laboratoire des Numériques). Le Dreame lave à 75 °C et peine davantage sur les taches incrustées selon Labo Maison et Lavelab."
+    },
+    {
+      "name": "Aspiration, tapis et poils",
+      "weight": 20,
+      "explanation": "Un robot laveur aspire avant tout. Nous comparons l’aspiration annoncée, la gestion des tapis (levage ou détachement des serpillières, hauteur du châssis) et les mesures publiées. Léger avantage : Roborock, grâce à son châssis AdaptiLift pour les tapis jusqu’à 3 cm ; les testeurs jugent les deux excellents sur sols durs."
+    },
+    {
+      "name": "Navigation, obstacles et seuils",
+      "weight": 20,
+      "explanation": "Un robot qui se bloque ou contourne trop large laisse des zones sales. Nous comparons les capteurs et les hauteurs de franchissement annoncées (4 cm pour les deux), puis ce que les testeurs ont observé. Égalité : Lavelab juge excellente la gestion des obstacles du Dreame, mais Labo Maison la trouve perfectible et ne l’a jamais vu franchir le pied plat de 2 cm d’un fauteuil ; Frandroid salue la navigation du Roborock, quand Les Numériques le voit éviter les obstacles trop largement et hésiter sur certains seuils."
+    },
+    {
+      "name": "Station et entretien",
+      "weight": 15,
+      "explanation": "Moins vous intervenez, plus le robot sert. Nous comparons les réservoirs, la durée de vidage annoncée, le dosage du détergent, le nettoyage de la station et son encombrement. Avantage : Dreame (détergent dosé seul, 4,5 L et 4 L, jusqu’à 100 jours, kit de raccordement en option). Roborock répond par une station plus basse dont le fond se rince à l’eau chaude."
+    },
+    {
+      "name": "Bords et coins",
+      "weight": 10,
+      "explanation": "La saleté s’accumule le long des plinthes et dans les angles. Nous comparons les systèmes d’extension des brosses et des serpillières, puis les observations publiées. Avantage : Dreame, dont la serpillière s’étend jusqu’à 4 cm et dont Les Numériques note un traitement des coins amélioré ; Les Numériques et Capital trouvent les bords et les coins perfectibles sur le Roborock."
+    },
+    {
+      "name": "Meubles bas, batterie et maison connectée",
+      "weight": 10,
+      "explanation": "Nous comparons la hauteur du robot, la capacité de batterie publiée et les intégrations (voix, Matter). Avantage : Roborock, avec 7,98 cm de haut, 6 400 mAh, une commande vocale annoncée sans connexion Internet et Matter promis par mise à jour."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Dreame ou Roborock : notre verdict",
+      "html": "<p><strong>Choisissez le Roborock Qrevo Curv 2 Pro si :</strong></p><ul><li>vos meubles sont bas : avec 7,98 cm de haut et un LiDAR qui se rétracte, il passe là où le Dreame (10,35 cm) bute ;</li><li>vous lavez souvent une cuisine ou des sols tachés : sa station lave les serpillières à l’eau chaude jusqu’à 100 °C et remplit le robot d’eau chaude ;</li><li>vous avez des tapis épais : son châssis AdaptiLift se soulève de 20 mm pour les tapis jusqu’à 3 cm.</li></ul><p><strong>Choisissez le Dreame L40s Pro Ultra si :</strong></p><ul><li>votre logement compte beaucoup de coins et de plinthes : sa serpillière s’étend jusqu’à 4 cm vers les bords, quand Les Numériques et Capital trouvent les bords et les coins perfectibles sur le Roborock ;</li><li>vous voulez que la station dose le détergent toute seule, ce que le Roborock ne fait pas selon Frandroid et le Journal du Geek ;</li><li>vous préférez de grands réservoirs (4,5 L d’eau propre, 4 L d’eau sale), un sac de 3,2 L annoncé pour 100 jours, ou un raccordement à l’eau avec le kit vendu à part.</li></ul>"
+    },
+    {
+      "h2": "Les 3 différences qui comptent à l’usage",
+      "html": "<p><strong>1. Le lavage.</strong> Roborock chauffe l’eau de lavage des serpillières jusqu’à 100 °C (valeur vérifiée par TÜV Rheinland selon la marque), sèche à 55 °C et remplit le réservoir du robot avec de l’eau chaude. Dreame annonce 75 °C et un séchage à l’air chaud, mais sa base ajoute la solution de nettoyage automatiquement. Dans le laboratoire des Numériques, le Curv 2 Pro a retiré toute l’huile et tout le soda. Labo Maison juge le Dreame efficace sur les taches fraîches et au quotidien, mais il lui faut deux ou trois passages sur les taches incrustées.</p><p><strong>2. La hauteur et les seuils.</strong> Le Curv 2 Pro mesure 7,98 cm : son LiDAR rentre dans la coque sous les meubles. Le L40s Pro Ultra mesure 10,35 cm et sa tourelle LiDAR est fixe, ce qui l’a empêché de passer sous des meubles bas chez Lavelab. Mesurez la hauteur libre sous votre canapé et vos lits avant de choisir. Les deux annoncent 4 cm sur un seuil à deux marches ; Dreame précise 22 mm pour une marche simple. Les Numériques a vu le Roborock devoir parfois s’y reprendre à deux fois sur les seuils les plus marqués. Le Dreame n’a pas fait mieux : Labo Maison ne l’a jamais vu franchir le pied plat de 2 cm d’un fauteuil, et Lavelab n’a pu le faire monter sur une planche de 40 mm qu’en plaçant une rampe devant.</p><p><strong>3. Les bords et les coins.</strong> Le Dreame sort sa brosse latérale et étend une serpillière jusqu’à 4 cm pour aller sous les meubles et dans les recoins. Le Roborock déploie sa brosse FlexiArm et décale une serpillière vers le bord, mais Les Numériques le trouve en difficulté le long des murs, faute de pression suffisante, et Capital note des virages un peu larges le long des meubles, qui lui font manquer des coins. Sur le Dreame, Les Numériques note un traitement des coins amélioré par rapport au L40 Ultra ; Labo Maison conseille toutefois d’activer souvent l’extension de la brossette et de la serpillière dans l’application, sans quoi le robot s’en sert peu.</p>"
+    },
+    {
+      "h2": "Tapis, moquettes et poils d’animaux",
+      "html": "<p>Sur le papier, les deux aspirent très fort : 25 000 Pa pour le Roborock, 19 000 Pa pour le Dreame. Ces chiffres sont mesurés par les marques elles-mêmes et ne se comparent pas tels quels d’une marque à l’autre.</p><ul><li><strong>Roborock :</strong> le châssis AdaptiLift se soulève de 20 mm pour garder le contact sur les tapis jusqu’à 3 cm d’épaisseur (fonction à activer dans l’application), et les deux serpillières se détachent pour laisser les tapis au sec. La brosse principale DuoDivide et la brosse latérale FlexiArm sont annoncées contre l’enroulement des cheveux jusqu’à 40 cm.</li><li><strong>Dreame :</strong> le robot relève sa brosse principale et lève ses serpillières à 10,5 mm du sol, ou les laisse à la base pour l’aspiration seule. Sa brosse duo démêlante HyperStream est annoncée pour les poils et cheveux jusqu’à 30 cm, et un mode tapis intensif repasse deux fois sur les tapis.</li></ul><p>En laboratoire, Les Numériques a mesuré sur le Curv 2 Pro 97,2 % de déchets ramassés sur moquette fine et 82,4 % sur tapis épais, en mode standard. Labo Maison note que le Dreame a parfois besoin de deux passages sur les tapis et moquettes, et Lavelab juge son aspiration exceptionnelle sur sols durs comme sur tapis.</p>"
+    },
+    {
+      "h2": "Station : ce qu’il vous reste à faire",
+      "html": "<ul><li><strong>Remplir et vider l’eau :</strong> Dreame annonce 4,5 L d’eau propre et 4 L d’eau sale ; Roborock ne publie pas ces volumes sur sa fiche française (Frandroid a relevé 4 L et 3,5 L). Dreame propose aussi un kit de raccordement à l’eau, vendu à part, pour le remplissage et la vidange automatiques.</li><li><strong>Le détergent :</strong> la base Dreame l’ajoute toute seule. Sur le Roborock, il faut verser soi-même la solution recommandée par la marque dans le réservoir d’eau propre, sans excès : trop de produit peut faire glisser le robot, prévient la notice.</li><li><strong>Le sac à poussière :</strong> jusqu’à 100 jours avec le sac de 3,2 L du Dreame, jusqu’à 65 jours avec le Roborock, qui sèche son sac à l’air ambiant pour limiter les odeurs.</li><li><strong>Le nettoyage de la station :</strong> le Dreame nettoie seul sa plaque de lavage (AceClean DryBoard). Roborock rince le fond de sa station à l’eau chaude et annonce une base entièrement détachable ; Les Numériques précise toutefois que le bac de trempage ne se démonte pas.</li><li><strong>La place :</strong> la base Dreame mesure 340 × 457 × 591 mm, soit 59 cm de haut ; la station Roborock 450 × 450 × 450 mm. Vérifiez la hauteur disponible si vous comptez la glisser sous un plan de travail ou une console.</li></ul>"
+    },
+    {
+      "h2": "Ce que disent les testeurs français",
+      "html": "<p>Homenura ne teste pas ces robots : voici ce qu’ont publié des rédactions françaises qui les ont eus entre les mains.</p><ul><li><strong>Les Numériques</strong>, test du Dreame publié le 13/11/2025 : excellentes performances d’aspiration, lavage efficace, traitement des coins amélioré, franchissement annoncé jusqu’à 4 cm. Seul point faible relevé : l’autonomie maximale, ramenée de 260 à 180 minutes par rapport au L40 Ultra.</li><li><strong>Les Numériques</strong>, test du Roborock publié le 25/11/2025 : aspiration parmi les meilleures mesurées par le laboratoire, huile et soda entièrement retirés, station très complète, 54 dB(A) en mode standard. En retrait : obstacles évités trop largement, seuils parfois manqués, brossette latérale qui chasse les petits déchets, bords et coins perfectibles.</li><li><strong>Labo Maison</strong>, test du Dreame publié le 13/05/2025 : tous les sols aspirés sans grande difficulté, avec parfois deux passages sur tapis ; lavage efficace au quotidien, mais deux ou trois passages sur les taches incrustées ; mode automatique CleanGenius qui repasse souvent sans nécessité ; détection des obstacles perfectible et franchissement pas toujours évident (le pied plat de 2 cm d’un fauteuil n’a jamais été franchi).</li><li><strong>Capital</strong>, test du Roborock publié le 13/10/2025 : aspiration notée 4,5 sur 5, mais des virages un peu larges le long des meubles à angle droit, si bien que la brossette rate le coin.</li><li><strong>Lavelab</strong>, test du Dreame publié le 22/05/2025 : aspiration exceptionnelle sur sols durs comme sur tapis, excellente gestion des obstacles, mais une tour LiDAR fixe qui l’empêche de passer sous les meubles bas et un lavage insuffisant sur la boue et le café séchés.</li></ul><p>Nous n’avons pas trouvé de résultat Que Choisir consultable sans abonnement pour ces deux modèles.</p>"
+    },
+    {
+      "h2": "Coût d’usage : électricité et consommables",
+      "html": "<p>La station chauffe de l’eau et de l’air, mais la facture reste modeste. Voici les puissances indiquées dans les notices, ramenées au tarif Bleu de 0,2001 € TTC le kWh (option Base, 6 kVA, au 1er août 2026).</p><ul><li><strong>Charge et séchage :</strong> 87 W pour la base Dreame, soit environ 1,7 centime par heure ; une entrée nominale de 0,6 A pour la station Roborock, soit environ 140 W sous 230 V et au plus 2,8 centimes par heure.</li><li><strong>Lavage à l’eau chaude :</strong> 1 160 W pour la base Dreame et une entrée nominale de 5,7 A (environ 1 300 W) pour la station Roborock, soit environ 4 centimes par tranche de 10 minutes de chauffe.</li><li><strong>Exemple :</strong> 4 lavages par semaine suivis chacun de 2 heures de séchage font 416 heures de séchage par an, soit environ 7 € d’électricité pour le séchage avec la base Dreame et au plus 11,50 € avec la station Roborock, hors chauffage de l’eau. Adaptez le calcul à votre rythme.</li></ul><p><strong>Consommables :</strong> d’après les durées de vidage annoncées (100 jours pour le Dreame, 65 jours pour le Roborock), comptez environ 4 sacs par an pour le Dreame et 6 pour le Roborock, plus la solution de nettoyage, les serpillières, les filtres et les brosses à remplacer selon l’usage. Dreame fournit 2 sacs (dont 1 installé) et 200 ml de solution dans la boîte. Les deux marques demandent d’utiliser leur propre solution de nettoyage.</p>"
+    },
+    {
+      "h2": "Application, abonnement, assistants vocaux et garantie",
+      "html": "<ul><li><strong>Abonnement :</strong> aucune des deux fiches françaises ne mentionne d’abonnement pour l’application (Dreamehome chez Dreame, Roborock chez Roborock).</li><li><strong>Voix :</strong> « OK, Dreame » d’un côté, « Hello Rocky » de l’autre, que Roborock annonce utilisable même sans connexion Internet. Les deux fonctionnent aussi avec Alexa, Siri et Google Home, par raccourcis chez Roborock.</li><li><strong>Matter :</strong> Roborock annonce sa prise en charge via une prochaine mise à jour ; la fiche de Dreame n’en parle pas.</li><li><strong>Plusieurs étages :</strong> Roborock annonce jusqu’à 3 cartes d’étage, reconnues automatiquement ; Dreame, jusqu’à 4 cartes.</li><li><strong>Garantie :</strong> en France, la garantie légale de conformité couvre les deux robots pendant 2 ans à compter de la livraison, dès lors qu’ils sont achetés neufs auprès d’un vendeur professionnel.</li></ul>"
+    },
+    {
+      "h2": "Les alternatives dans chaque gamme",
+      "html": "<ul><li><strong>Roborock Qrevo Curv 2 Flow :</strong> même famille, mais une serpillière à rouleau SpiraFlow de 270 mm, alimentée en continu en eau propre et raclée pendant le lavage, qui se soulève jusqu’à 15 mm devant les tapis. Une autre logique de lavage, à regarder si vos sols sont surtout durs et grands.</li><li><strong>Roborock Qrevo Curv 2 ProX :</strong> le même robot vendu avec des accessoires de rechange en plus, proposé chez Boulanger à son lancement en octobre 2025. Roborock publie une notice commune aux deux versions.</li><li><strong>Dreame L50s Pro Ultra :</strong> un autre robot de la série L au catalogue de Dreame France, à comparer si vous hésitez sur le L40s Pro Ultra.</li></ul>"
+    },
+    {
+      "h2": "Pourquoi ce classement",
+      "html": "<p>Nous avons noté chaque robot de 1 à 10 sur six critères, à partir des fiches des fabricants et des résultats publiés par les testeurs français, puis appliqué les poids.</p><ul><li>Lavage des sols (25 %) : Roborock 9, Dreame 7.</li><li>Aspiration, tapis et poils (20 %) : Roborock 9, Dreame 8.</li><li>Navigation, obstacles et seuils (20 %) : Dreame 8, Roborock 8.</li><li>Station et entretien (15 %) : Dreame 9, Roborock 8.</li><li>Bords et coins (10 %) : Dreame 9, Roborock 7.</li><li>Meubles bas, batterie et maison connectée (10 %) : Roborock 9, Dreame 7.</li></ul><p>Pondéré, le <strong>Roborock Qrevo Curv 2 Pro</strong> passe devant, 8,45 contre 7,90 sur 10, grâce au lavage, aux tapis et à sa faible hauteur. L’écart reste modeste : si les coins, une station plus autonome et un détergent dosé tout seul comptent plus pour vous que les taches grasses et les meubles bas, le <strong>Dreame L40s Pro Ultra</strong> est le meilleur choix.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Dreame ou Roborock : quelle marque choisir pour un robot aspirateur laveur ?",
+      "a": "Aucune ne domine sur tout. Sur ces deux modèles lancés en 2025, Roborock mise sur l’aspiration (25 000 Pa), l’eau à 100 °C et un robot très bas ; Dreame sur une station plus automatisée (détergent, grands réservoirs) et des serpillières qui vont mieux dans les coins. Choisissez selon vos meubles, vos tapis et vos sols plutôt que selon la marque."
+    },
+    {
+      "q": "Lequel passe sous un canapé ou un lit bas ?",
+      "a": "Le Roborock Qrevo Curv 2 Pro, qui mesure 7,98 cm : son LiDAR se rétracte, et Roborock annonce un nettoyage dans les espaces d’au moins 7,98 cm de haut. Le Dreame L40s Pro Ultra mesure 10,35 cm. Mesurez la hauteur libre sous vos meubles avant d’acheter."
+    },
+    {
+      "q": "Lequel lave le mieux un sol de cuisine gras ?",
+      "a": "Le Roborock, sur le papier comme en laboratoire : sa station lave les serpillières jusqu’à 100 °C et remplit le robot d’eau chaude, et Les Numériques l’a vu retirer toute l’huile et tout le soda (mais seulement 20 % d’une tache de carbone). Le Dreame lave ses serpillières à 75 °C ; Labo Maison note qu’il lui faut deux ou trois passages sur les taches incrustées."
+    },
+    {
+      "q": "Peut-on mettre du produit de nettoyage dans ces robots ?",
+      "a": "Oui, mais uniquement celui de la marque. La base du Dreame ajoute la solution automatiquement (200 ml fournis). Le Roborock n’a pas de réservoir de détergent selon Frandroid et le Journal du Geek : versez vous-même la solution recommandée par Roborock dans le réservoir d’eau propre, sans dépasser la dose, car trop de produit peut faire glisser le robot."
+    },
+    {
+      "q": "Quelle différence entre le Dreame L40s Pro Ultra et le L40 Ultra ?",
+      "a": "Selon Les Numériques et Labo Maison, le L40s Pro Ultra passe de 11 000 à 19 000 Pa, lave ses serpillières à 75 °C au lieu de 65 °C, franchit 4 cm au lieu de 2,2 cm et reçoit la brosse duo HyperStream. Contrepartie relevée par Les Numériques : une autonomie maximale ramenée de 260 à 180 minutes."
+    },
+    {
+      "q": "Le Qrevo Curv 2 ProX vendu en magasin est-il un autre robot ?",
+      "a": "Non. Roborock publie une notice commune « Qrevo Curv 2 Pro/ProX », avec le même robot (RRE0VSP) et la même station (EWFD49HRR). À son lancement en octobre 2025, la version ProX était vendue chez Boulanger avec des accessoires en plus : serpillières, brosse principale, sacs et filtres de rechange."
+    },
+    {
+      "q": "Combien coûte l’électricité de la station ?",
+      "a": "Quelques euros par an. Au tarif Bleu de 0,2001 € le kWh (option Base, 6 kVA, au 1er août 2026), une heure de séchage coûte environ 1,7 centime avec la base Dreame (87 W) et au plus 2,8 centimes avec la station Roborock (0,6 A en entrée nominale). Le chauffage de l’eau appelle plus de puissance : comptez environ 4 centimes par tranche de 10 minutes."
+    },
+    {
+      "q": "Que dit Que Choisir de ces deux robots ?",
+      "a": "Nous n’avons pas trouvé de résultat Que Choisir consultable sans abonnement pour ces deux modèles au 1er novembre 2026. Nous citons donc les tests datés de Les Numériques, Labo Maison, Capital, Frandroid et Lavelab, sans reprendre de note que nous n’avons pas pu lire."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Les Numériques",
+      "url": "https://www.lesnumeriques.com/aspirateur-robot/dreame-l40s-pro-ultra-p77352/test.html",
+      "note": "Test du Dreame L40s Pro Ultra publié le 13/11/2025. Points forts : excellentes performances d’aspiration, lavage efficace, installation et retrait automatiques des serpillières, traitement des coins amélioré, entretien simplifié, franchissement jusqu’à 4 cm. Point faible : autonomie maximale ramenée de 260 à 180 minutes par rapport au L40 Ultra."
+    },
+    {
+      "name": "Les Numériques",
+      "url": "https://www.lesnumeriques.com/aspirateur-robot/roborock-qrevo-curv-2-pro-p77224/test.html",
+      "note": "Test du Roborock Qrevo Curv 2 Pro publié le 25/11/2025 : 95 % des déchets ramassés sur sol dur et 97,2 % sur moquette fine en mode standard, 82,4 % sur tapis épais ; huile et soda entièrement retirés, 20 % du carbone et environ 60 % du rouge à lèvres ; 54 dB(A) en mode standard ; 3 h 35 d’autonomie mesurée en mode standard. Points faibles : obstacles évités trop largement, franchissement de seuils parfois défaillant, brossette latérale qui repousse certains déchets, bords et coins perfectibles."
+    },
+    {
+      "name": "Labo Maison",
+      "url": "https://labomaison.com/entretien/aspirateur-robot/dreame-dreame-l40s-pro-ultra/",
+      "note": "Test du Dreame L40s Pro Ultra publié le 13/05/2025 : aspiration de tous les sols sans grande difficulté, parfois en deux passages sur tapis et moquettes ; lavage efficace sur les taches fraîches, deux ou trois passages nécessaires sur les taches incrustées ; mode CleanGenius à améliorer ; détection d’obstacles perfectible et franchissement pas toujours évident (pied plat de fauteuil de 2 cm jamais franchi) ; 80 minutes en mode Turbo pour 70 m² et 139 minutes en mode CleanGenius."
+    },
+    {
+      "name": "Capital",
+      "url": "https://www.capital.fr/conso/test-roborock-qrevo-curv-2-pro-une-evolution-en-douceur-mais-il-reste-des-points-a-corriger-1519041",
+      "note": "Test du Roborock Qrevo Curv 2 Pro publié le 13/10/2025 : aspiration notée 4,5/5, sans faille sur parquet et carrelage ; navigation notée 4/5, reconnaissance des obstacles encore perfectible ; le robot prend des virages un peu larges le long des meubles à angle droit, si bien que la brossette rate le coin."
+    },
+    {
+      "name": "Frandroid",
+      "url": "https://www.frandroid.com/marques/roborock/2804417_test-du-roborock-qrevo-curv-2-pro-le-milieu-de-gamme-qui-a-tout-dun-grand",
+      "note": "Test du Roborock Qrevo Curv 2 Pro publié le 03/10/2025 : navigation et détection d’obstacles jugées précises ; réservoirs de 4 L d’eau propre et 3,5 L d’eau usée relevés dans la station ; aucun réservoir de détergent, la solution s’ajoute à la main dans l’eau propre."
+    },
+    {
+      "name": "Lavelab",
+      "url": "https://lavelab.com/tests/dreame-l40s-pro-ultra/",
+      "note": "Test du Dreame L40s Pro Ultra publié le 22/05/2025 (8/10) : aspiration exceptionnelle sur sols durs comme sur tapis, cartographie et navigation méthodiques, excellente gestion des obstacles ; tour LiDAR fixe qui l’a empêché de passer sous des meubles bas ; planche de 40 mm franchie seulement avec une rampe placée devant ; lavage insuffisant sur les traces tenaces de boue et de café séchés."
+    }
+  ],
+  "sources": [
+    "https://fr.roborock.com/pages/roborock-qrevo-curv-2-pro",
+    "https://fr.roborock.com/products/roborock-qrevo-curv-2-pro",
+    "https://fr.roborock.com/pages/roborock-qrevo-curv-2-flow",
+    "https://boulanger.scene7.com/is/content/Boulanger/6936905904362_n_0",
+    "https://fr.dreametech.com/products/l40s-pro-ultra-noir",
+    "https://fr.dreametech.com/collections/serie-l-de-robots-aspirateurs",
+    "https://objects.icecat.biz/objects/mmo_131452212_1753873150_6233_588867.pdf",
+    "https://selectra.info/energie/actualites/marche/nouveaux-prix-electricite-tarif-bleu-1er-aout-2026",
+    "https://www.lesnumeriques.com/aspirateur-robot/dreame-l40s-pro-ultra-p77352/test.html",
+    "https://www.lesnumeriques.com/aspirateur-robot/roborock-qrevo-curv-2-pro-p77224/test.html",
+    "https://labomaison.com/entretien/aspirateur-robot/dreame-dreame-l40s-pro-ultra/",
+    "https://www.capital.fr/conso/test-roborock-qrevo-curv-2-pro-une-evolution-en-douceur-mais-il-reste-des-points-a-corriger-1519041",
+    "https://www.frandroid.com/marques/roborock/2804417_test-du-roborock-qrevo-curv-2-pro-le-milieu-de-gamme-qui-a-tout-dun-grand",
+    "https://www.journaldugeek.com/test/test-roborock-qrevo-curv-2-pro-un-monstre-de-puissance-qui-change-la-donne-a-la-maison/",
+    "https://lavelab.com/tests/dreame-l40s-pro-ultra/",
+    "https://www.01net.com/actualites/tout-juste-devoile-le-roborock-qrevo-curv-2-pro-revolutionne-le-menage.html"
+  ],
+  "related": [
+    "/fr/entretien-maison/aspirateurs-laveurs",
+    "/fr/entretien-maison/aspirateurs-robots",
+    "/fr/blog/comparatif-robot-aspirateur-laveur",
+    "/fr/blog/guide-robot-aspirateur-2026",
+    "/fr/blog/robot-aspirateur-poils-animaux",
+    "/fr/black-friday/aspirateurs-robots",
+    "/fr/guides/probleme/robot-aspirateur-capteur-falaise-bloque"
+  ]
+}
