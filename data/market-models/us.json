@@ -1,0 +1,2281 @@
+{
+  "market": "us",
+  "checkedOn": "2026-11-01",
+  "models": {
+    "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L": {
+      "status": "regional",
+      "name": "Ninja DoubleStack XL 2-Basket Air Fryer (SL401)",
+      "asin": "B0CZS6SS3Y",
+      "evidence": "https://www.amazon.com/Ninja-SL401-DoubleStack-2-Basket-Technology/dp/B0CZS6SS3Y",
+      "note": "US 120 V version of the same DoubleStack XL (SL400 in Europe): two stacked baskets, 10 qt in all."
+    },
+    "Philips Airfryer Série 3000 XL - 6.2L": {
+      "status": "regional",
+      "name": "Philips 3000 Series Airfryer with Window (NA331/00)",
+      "asin": null,
+      "evidence": "https://us.home-appliances.philips/products/philips-3000-series-airfryer-6-2l",
+      "note": "North American NA331/00 version of the same 6.2 L single-basket model with window (NA330/00 in Europe), sold as 6.5 qt with 16 cooking functions. It can be ordered on Philips's US store; the amazon.com listing (B0D9WCC5KH) shows out of stock, so no ASIN. Kept over the 7.6 qt NA341/00 because the same model is still sold new."
+    },
+    "Cosori Dual Blaze Smart Air Fryer - 6.4L": {
+      "status": "regional",
+      "name": "Cosori Dual Blaze 6.8-Quart Smart Air Fryer (CAF-P583S)",
+      "asin": null,
+      "evidence": "https://cosori.com/products/dual-blaze-air-fryer",
+      "note": "Same Dual Blaze in its 120 V US version (CAF-P583S-KUS, 1,750 W, top and bottom heating elements, VeSync app), sold as 6.8 qt (6.4 L) and available on Cosori's US store; the amazon.com listing B0G4RPVRFJ shows out of stock, so no ASIN."
+    },
+    "Tefal ActiFry Genius XL 2in1 - 1.7kg": {
+      "status": "substitute",
+      "name": "T-fal Infrared Air Fryer Easy Fry (EY8228U0)",
+      "asin": null,
+      "evidence": "https://www.t-fal.com/infrared-air-fryer-easy-fry-collection-6-3-quart-digital-touch-screen-grey.html",
+      "note": "T-fal sells no ActiFry in the US; this same-brand 6.3 qt model, in stock on t-fal.com, uses No-Shake Technology so you don't have to shake the basket midway, and has a lighted window. Kept over the 7.3 qt Infrared Air Fryer 2.0 (EY8328U0) as the choice of two of the three groups."
+    },
+    "Xiaomi Smart Air Fryer Pro 4L": {
+      "status": "substitute",
+      "name": "Philips 2000 Series Airfryer with Window (NA221/00)",
+      "asin": "B0FJSG1N3D",
+      "evidence": "https://www.amazon.com/dp/B0FJSG1N3D",
+      "note": "Xiaomi doesn't sell air fryers in the US, and the Cosori Lite 4.0-Quart Smart is currently unavailable on amazon.com and no longer on Cosori's US store; the Philips 2000 Series keeps the compact 4.2 L (4.4 qt) basket and viewing window, but has no Wi-Fi."
+    },
+    "Ninja Foodi FlexDrawer 10.4L Double Zone": {
+      "status": "substitute",
+      "name": "Ninja Foodi FlexBasket Air Fryer with 7-Qt MegaZone (DZ071)",
+      "asin": "B0C768SVRN",
+      "evidence": "https://www.amazon.com/dp/B0C768SVRN",
+      "note": "The 11 qt North American FlexBasket (AD600CO) is only offered renewed in the US; the DZ071, sold new by Amazon.com, keeps Ninja's one-drawer design with a removable divider, MegaZone and Smart Finish, at 7 qt. Preferred over Instant's VersaZone because it stays in the same Ninja product line."
+    },
+    "Philips Airfryer Combi XXL Connecté - 8.3L": {
+      "status": "substitute",
+      "name": "Typhur Sync Air Fryer (AF14)",
+      "asin": "B0HBWD54P4",
+      "evidence": "https://www.amazon.com/dp/B0HBWD54P4",
+      "note": "Philips doesn't sell the Combi XXL Connected in the US; the Typhur Sync keeps its mix of a large single basket (8 qt), Wi-Fi app control and a built-in wireless food probe. Chosen over Ninja's SL451 (no Wi-Fi app) and Breville's countertop oven (a different appliance type)."
+    },
+    "Cosori CP158-AF 5.5L Air Fryer": {
+      "status": "substitute",
+      "name": "Cosori Pro Gen 2 5.8-Quart Air Fryer",
+      "asin": "B0BD4BYR11",
+      "evidence": "https://www.amazon.com/dp/B0BD4BYR11",
+      "note": "Current generation of the same Cosori Pro square-basket line the CP158-AF belongs to."
+    },
+    "Moulinex Easy Fry Max 5L": {
+      "status": "regional",
+      "name": "T-fal Easy Fry Max 5L Air Fryer (EY245B50)",
+      "asin": null,
+      "evidence": "https://www.t-fal.com/easy-fry-5l.html",
+      "note": "Groupe SEB sells Moulinex as T-fal in North America; same Easy Fry Max 5 L (5.3 qt) with 10 programs, in stock on t-fal.com. The amazon.com page B0D3M69MFJ only lists other sellers' offers, so no ASIN."
+    },
+    "Moulinex Cookeo Touch WiFi - 6L": {
+      "status": "substitute",
+      "name": "Instant Pot Pro Plus 6-Quart Wi-Fi Smart Multicooker",
+      "asin": "B08TMTJZ8L",
+      "evidence": "https://www.amazon.com/Instant-Pot-6Qt-Plus-WiFi/dp/B08TMTJZ8L",
+      "note": "The Cookeo isn't sold in North America; the Pro Plus is Instant Pot's Wi-Fi pressure multicooker with app-guided recipes, in the same 6 qt size."
+    },
+    "Instant Pot Duo Plus WhisperQuiet - 5.7L": {
+      "status": "regional",
+      "name": "Instant Pot Duo Plus 6-Quart with WhisperQuiet Steam Release",
+      "asin": "B09MZTP44L",
+      "evidence": "https://www.amazon.com/Instant-Pot-Electric-Sterilizer-Stainless/dp/B09MZTP44L",
+      "note": "Same Duo Plus WhisperQuiet, sold as the 6 qt (5.7 L) 9-in-1 model, 120 V."
+    },
+    "De'Longhi Magnifica Evo ECAM290.51.B": {
+      "status": "regional",
+      "name": "De'Longhi Magnifica Evo with LatteCrema System (ECAM29084SB)",
+      "asin": null,
+      "evidence": "https://www.delonghi.com/en-us/p/magnifica-evo-magnifica-evo-espresso-machine--automatic-milk-frother/ECAM29084SB.html?pid=0132250155",
+      "note": "North American SKU of the Magnifica Evo with the LatteCrema milk system and 7 one-touch drinks."
+    },
+    "Philips 5500 LatteGo Series EP5541/50": {
+      "status": "regional",
+      "name": "Philips 5500 Series Fully Automatic Espresso Machine with LatteGo (EP5544/94)",
+      "asin": null,
+      "evidence": "https://us.home-appliances.philips/products/philips-5500-series-fully-automatic-espresso-machine-lattego-ep5544-95",
+      "note": "US version of the same 5500 Series with the two-part LatteGo milk system and 20 hot and iced drinks; Philips's US store lists it under SKU EP5544/94 (grey chrome, 120 V)."
+    },
+    "Krups Evidence One EA895N10": {
+      "status": "substitute",
+      "name": "Krups EA89 Quattro Force Fully Automatic Espresso Machine (EA891C50)",
+      "asin": null,
+      "evidence": "https://www.krupsusa.com/BREAKFAST-APPLIANCES/SUPER-AUTOMATICS/KRUPS-EA89-QUATTRO-FORCE-DIGITAL-FULL-AUTO-ESPRESSO-MACHINE-15-DRINKS/p/8010000189",
+      "note": "The Evidence One isn't in Krups' US range; this 120 V EA89 model keeps the tube-fed milk system and offers 15 drink presets."
+    },
+    "Etekcity Smart Nutrition Scale": {
+      "status": "same",
+      "name": "Etekcity Smart Nutrition Scale",
+      "asin": null,
+      "evidence": "https://etekcity.com/products/smart-nutrition-scale-esn00",
+      "note": ""
+    },
+    "Roborock Qrevo Curv": {
+      "status": "substitute",
+      "name": "Roborock Qrevo CurvX",
+      "asin": "B0DX1DQKMD",
+      "evidence": "https://us.roborock.com/products/roborock-qrevo-curv-x",
+      "note": "Roborock's US store lists the Qrevo Curv as unavailable and amazon.com only shows other buying options for it; the Qrevo CurvX from the same Curv series is sold new (22,000 Pa, retractable LiDAR, 176°F / 80°C mop washing)."
+    },
+    "Roborock Q7 M5+": {
+      "status": "same",
+      "name": "Roborock Q7 M5+",
+      "asin": "B0DWX6B2KT",
+      "evidence": "https://us.roborock.com/products/roborock-q7-m5-plus",
+      "note": ""
+    },
+    "Dreame X50 Ultra Complete": {
+      "status": "same",
+      "name": "Dreame X50 Ultra Complete",
+      "asin": "B0F3HZFZBL",
+      "evidence": "https://www.amazon.com/DREAME-Auto-Empty-Self-Cleaning-Navigation-Detangling/dp/B0F3HZFZBL",
+      "note": ""
+    },
+    "Roborock Qrevo Curv 2 Flow": {
+      "status": "same",
+      "name": "Roborock Qrevo Curv 2 Flow",
+      "asin": "B0FXG2BDTJ",
+      "evidence": "https://us.roborock.com/products/roborock-qrevo-curv-2-flow",
+      "note": ""
+    },
+    "Dyson V15 Detect": {
+      "status": "same",
+      "name": "Dyson V15 Detect",
+      "asin": null,
+      "evidence": "https://www.dyson.com/vacuum-cleaners/cordless/v15",
+      "note": ""
+    },
+    "Rowenta X-Force Flex 15.60": {
+      "status": "substitute",
+      "name": "Rowenta X-Force Flex 12.60 Cordless Stick Vacuum (RH98A2U1)",
+      "asin": null,
+      "evidence": "https://www.rowentausa.com/x-force-flex-12-60-cordless-stick-vacuum-cleaner.html",
+      "note": "The 15.60 is no longer in Rowenta's US range; the 12.60 keeps the Flex bending wand (150 AW, up to 45 min, 30 oz bin)."
+    },
+    "Samsung Bespoke Jet AI": {
+      "status": "substitute",
+      "name": "Samsung Bespoke AI Jet Ultra Cordless Stick Vacuum (VS90F40DMK)",
+      "asin": null,
+      "evidence": "https://www.samsung.com/us/vacuum-cleaners/stick/bespoke-ai-jet-ultra-cordless-stick-vacuum-with-all-in-one-clean-station-and-400aw-suction-power-in-satin-black-sku-vs90f40dmk-aa/",
+      "note": "Samsung US no longer lists the original Bespoke Jet AI; the Bespoke AI Jet Ultra is its successor in the same line (400 AW, up to 100 minutes of runtime, All-in-One Clean Station). Samsung's own US store shows it out of stock at the moment; US appliance retailers still sell it new, so check stock before linking."
+    },
+    "tado Heat Pump Optimizer X": {
+      "status": "substitute",
+      "name": "ecobee Smart Thermostat Premium",
+      "asin": "B09XXS48P8",
+      "evidence": "https://www.ecobee.com/en-us/smart-thermostats/smart-thermostat-premium/",
+      "note": "tado doesn't sell in North America; ecobee's flagship is listed for heat pumps with 2H/2C plus 2-stage aux heat and ships with a SmartSensor."
+    },
+    "Netatmo Thermostat Original": {
+      "status": "substitute",
+      "name": "Google Nest Thermostat",
+      "asin": "B08HRPDYTP",
+      "evidence": "https://store.google.com/us/product/nest_thermostat_specs",
+      "note": "Netatmo's thermostat is built for European boilers; the Nest Thermostat is the value-tier Wi-Fi, Matter-certified model that works with single-stage heat pumps with aux or emergency heat."
+    },
+    "Honeywell Home T6": {
+      "status": "substitute",
+      "name": "ecobee Smart Thermostat Enhanced",
+      "asin": null,
+      "evidence": "https://www.ecobee.com/en-us/smart-thermostats/smart-thermostat-enhanced/",
+      "note": "The European T6 controls boilers (OpenTherm). Honeywell Home's US T6 Pro Smart is sold through installers and shows as unavailable on its own store, so ecobee's mid-range Wi-Fi model (heat pumps up to 2H/2C plus one aux stage, no hub) fills the same slot, as in Canada."
+    },
+    "tado Smart Radiator Thermostat X Starter Kit": {
+      "status": "substitute",
+      "name": "ecobee Smart Thermostat Premium",
+      "asin": "B09XXS48P8",
+      "evidence": "https://www.ecobee.com/en-us/smart-thermostats/smart-thermostat-premium/",
+      "note": "tado's radiator thermostats aren't sold in North America, where most homes heat with a central system; the ecobee Premium ships with a SmartSensor room sensor to balance comfort room by room. Chosen over a Mysa baseboard thermostat, which only fits homes with electric baseboards."
+    },
+    "Thermor Equateur 4": {
+      "status": "substitute",
+      "name": "Dreo Convection Heater 711S",
+      "asin": null,
+      "evidence": "https://www.dreo.com/products/convection-heater-711s",
+      "note": "Thermor doesn't sell in the US; Dreo's smart Wi-Fi model is a fanless 1,500 W convection heater designed to be wall mounted."
+    },
+    "Sauter Orosi 2": {
+      "status": "substitute",
+      "name": "Dreo Smart Wall-Mounted Heater 517S",
+      "asin": null,
+      "evidence": "https://www.dreo.com/products/smart-wall-mouted-heater-wh517s",
+      "note": "Sauter doesn't sell in the US; Dreo's Wi-Fi wall-mounted heater (1,500 W, app control, 24-hour timer) fills the same fixed-heater slot."
+    },
+    "Mill Gentle Air WiFi": {
+      "status": "substitute",
+      "name": "Dreo Oil-Filled Radiator 521",
+      "asin": null,
+      "evidence": "https://www.dreo.com/products/oh521-radiator-heater",
+      "note": "Mill doesn't list the US among its markets; the Gentle Air WiFi is a portable plug-in oil-filled radiator, so Dreo's portable oil-filled radiator (600 to 1,500 W, ECO mode, tip-over protection, remote and touch controls) is the closest type, though without Wi-Fi. Preferred over Dreo's wall-mounted 719S, which needs mounting."
+    },
+    "Philips PerfectCare 8000 Series PSG8160/30": {
+      "status": "substitute",
+      "name": "Rowenta Ultimate Steam Pro (DG8668U1)",
+      "asin": null,
+      "evidence": "https://www.rowentausa.com/ultimate-steam-pro-high-pressure-steam-generator.html",
+      "note": "Philips sells no steam generator irons in the US (its US garment care range is empty); this is Rowenta's top high-pressure steam station there."
+    },
+    "Philips PerfectCare 7000 Series PSG7130/20": {
+      "status": "substitute",
+      "name": "Rowenta Compact Steam Pro (DG7626U1)",
+      "asin": null,
+      "evidence": "https://www.rowentausa.com/compact-steam-pro-high-pressure-steam-generator.html",
+      "note": "No Philips steam generators in the US; Rowenta's entry high-pressure station fills the value tier (6.8 bar, auto shutoff)."
+    },
+    "Laurastar Smart U": {
+      "status": "same",
+      "name": "Laurastar Smart U",
+      "asin": null,
+      "evidence": "https://laurastarus.com/laurastar-smart-u/",
+      "note": ""
+    },
+    "Tefal Pro Express Ultimate II GV9721": {
+      "status": "substitute",
+      "name": "Rowenta Perfect Steam Pro (DG8624U1)",
+      "asin": null,
+      "evidence": "https://www.rowentausa.com/perfect-steam-pro.html",
+      "note": "Groupe SEB sells its steam generators in the US under Rowenta, not Tefal/T-fal; this high-pressure station has a 430 g/min steam boost."
+    },
+    "Braun CareStyle 7 Pro IS7286BK": {
+      "status": "substitute",
+      "name": "Rowenta Master Steam Station (VR8332U1)",
+      "asin": null,
+      "evidence": "https://www.rowentausa.com/master-steam-steam-station.html",
+      "note": "Braun sells no irons in the US; the Master Steam has the largest tank in Rowenta's US range (1.7 L, removable), closest to the Braun's 2 L."
+    },
+    "Philips SmartSleep Sleep & Wake-up Light HF3650/01": {
+      "status": "regional",
+      "name": "Philips SmartSleep Sleep and Wake-Up Light (HF3650/60)",
+      "asin": "B075S53HD9",
+      "evidence": "https://www.usa.philips.com/c-p/HF3650_60/smartsleep-sleep-and-wake-up-light",
+      "note": "North American SKU (/60) of the same model, with a 120 V adapter."
+    },
+    "Philips Wake-up Light HF3520/01": {
+      "status": "regional",
+      "name": "Philips SmartSleep Wake-Up Light (HF3520/60)",
+      "asin": "B0093162RM",
+      "evidence": "https://www.usa.philips.com/c-p/HF3520_60/smartsleep",
+      "note": "North American SKU (/60) of the same model."
+    },
+    "Lumie Bodyclock Shine 300": {
+      "status": "same",
+      "name": "Lumie Bodyclock Shine 300",
+      "asin": "B082VB97H9",
+      "evidence": "https://lumie.com/en-us/products/bodyclock-shine-300",
+      "note": ""
+    },
+    "Beurer WL 75": {
+      "status": "same",
+      "name": "Beurer WL 75",
+      "asin": "B07KFHFCT2",
+      "evidence": "https://www.shop-beurer.com/products/beurer-wake-up-light-wl75",
+      "note": ""
+    },
+    "Beurer WL 50": {
+      "status": "substitute",
+      "name": "Beurer WL32",
+      "asin": null,
+      "evidence": "https://www.shop-beurer.com/products/beurer-wake-up-light-wl32",
+      "note": "Beurer's US store does not carry the WL 50; the WL32 is its simple, button-operated sunrise light with radio, two alarms and a color-selectable mood lamp, at the same entry tier."
+    },
+    "Ecovacs Winbot W2 Omni": {
+      "status": "substitute",
+      "name": "Ecovacs Winbot W2 Pro Omni",
+      "asin": "B0DR8Y4VF9",
+      "evidence": "https://www.ecovacs.com/us/shop/winbot-window-cleaning-robot/winbot-w2-pro-omni",
+      "note": "Ecovacs US no longer lists the W2 Omni; the W2 Pro Omni keeps its portable battery station, automatic cable take-up and three-nozzle spray."
+    },
+    "Cecotec Conga WinDroid 1090 Double Spray Connected": {
+      "status": "substitute",
+      "name": "Ecovacs Winbot mini 2",
+      "asin": null,
+      "evidence": "https://www.ecovacs.com/us/shop/winbot-window-cleaning-robot/winbot-mini2",
+      "note": "Cecotec has no US distribution; the mini 2 is Ecovacs's entry-level window robot with app remote control, a safety rope and power-off protection."
+    },
+    "Hobot 2S": {
+      "status": "substitute",
+      "name": "Ecovacs Winbot W2S Pro",
+      "asin": null,
+      "evidence": "https://www.ecovacs.com/us/shop/winbot-window-cleaning-robot/winbot-w2s-pro",
+      "note": "No US listing for the Hobot 2S could be verified; the W2S Pro is a station-free model built for frameless glass with dual-axis edge detection."
+    },
+    "Ecovacs Winbot W2S Omni": {
+      "status": "same",
+      "name": "Ecovacs Winbot W2S Omni",
+      "asin": "B0G5XYX1VH",
+      "evidence": "https://www.ecovacs.com/us/shop/winbot-window-cleaning-robot/winbot-w2s-omni",
+      "note": ""
+    },
+    "Ecovacs Winbot W1 Pro": {
+      "status": "substitute",
+      "name": "Ecovacs Winbot W2S Pro",
+      "asin": null,
+      "evidence": "https://www.ecovacs.com/us/shop/winbot-window-cleaning-robot/winbot-w2s-pro",
+      "note": "The W1 Pro is no longer sold new in the US (no price on Ecovacs US, used offers only on Amazon); the W2S Pro is Ecovacs's current station-free model."
+    },
+    "Wallbox Pulsar Max": {
+      "status": "substitute",
+      "name": "Wallbox Pulsar Plus",
+      "asin": null,
+      "evidence": "https://wallbox.com/en_us/pulsar-plus-48a",
+      "note": "Same Wallbox Pulsar family: the Pulsar Max is a European Type 2 model, and Wallbox's US home lineup lists the Pulsar Plus (40 or 48 A, J1772 or NACS, 25 ft cable)."
+    },
+    "Easee Charge Lite": {
+      "status": "substitute",
+      "name": "Emporia Classic EV Charger",
+      "asin": null,
+      "evidence": "https://emporiaenergy.com/ev-chargers/",
+      "note": "Easee doesn't sell in North America; Emporia's entry smart charger matches the up-to-11 kW class and, like the Easee Equalizer, adds load management and solar charging through an add-on energy monitor (Vue)."
+    },
+    "Zaptec Go 2": {
+      "status": "substitute",
+      "name": "Grizzl-E Ultimate 80A",
+      "asin": null,
+      "evidence": "https://www.grizzl-e.com/us/products/grizzl-e-ultimate",
+      "note": "Zaptec isn't sold in North America and 22 kW three-phase charging doesn't apply to 240 V homes; the closest high-power pick is an 80 A (19.2 kW) OCPP charger. MID is an EU meter certification that doesn't apply here."
+    },
+    "Hager witty one": {
+      "status": "substitute",
+      "name": "Grizzl-E Classic Connect 40A",
+      "asin": null,
+      "evidence": "https://www.grizzl-e.com/us/products/grizzl-e-classic-connect",
+      "note": "Hager doesn't sell EV chargers in North America; a simple 40 A plug-in smart charger (NEMA 14-50, Wi-Fi, UL/cUL) is the closest basic home unit."
+    },
+    "Schneider Electric EVlink Pro AC": {
+      "status": "substitute",
+      "name": "Schneider Charge",
+      "asin": null,
+      "evidence": "https://www.se.com/us/en/product-range/405075119-schneider-charge-ac/",
+      "note": "Same brand: the EVlink Pro AC is a European model; Schneider's North American home charger is Schneider Charge (up to 11.5 kW, J1772 or NACS, built-in SmartAmp load management)."
+    },
+    "Apple AirTag (2nd generation)": {
+      "status": "same",
+      "name": "Apple AirTag (2nd generation)",
+      "asin": null,
+      "evidence": "https://www.apple.com/airtag/",
+      "note": ""
+    },
+    "Chipolo POP": {
+      "status": "same",
+      "name": "Chipolo POP",
+      "asin": null,
+      "evidence": "https://chipolo.net/en-us/products/chipolo-pop",
+      "note": ""
+    },
+    "Ugreen FineTrack Duo": {
+      "status": "substitute",
+      "name": "Pebblebee Clip 5",
+      "asin": null,
+      "evidence": "https://pebblebee.com/products/clip-5",
+      "note": "Ugreen's US store doesn't list the FineTrack Duo (its US FineTrack models are Apple-only or Android-only); the Pebblebee Clip 5 is the closest rechargeable tracker that works with Apple Find My or Google Find Hub."
+    },
+    "Samsung Galaxy SmartTag2": {
+      "status": "same",
+      "name": "Samsung Galaxy SmartTag2",
+      "asin": null,
+      "evidence": "https://www.samsung.com/us/mobile-accessories/all-mobile-accessories/?accessories_type=SmartTag",
+      "note": "Samsung's own US store showed no SmartTag listing in November 2026; availability relies on retailers."
+    },
+    "Pebblebee Clip Universal": {
+      "status": "substitute",
+      "name": "Pebblebee Clip 5",
+      "asin": null,
+      "evidence": "https://pebblebee.com/products/clip-5",
+      "note": "Pebblebee's store now sells the Clip 5, the next generation of the Clip (Apple Find My or Google Find Hub, rechargeable, LEDs)."
+    },
+    "Bosch Serie 6 SMS6ZCI42E": {
+      "status": "substitute",
+      "name": "Bosch 800 Series Dishwasher (SHP78DM5N)",
+      "asin": null,
+      "evidence": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHP78DM5N",
+      "note": "Same brand and tier: Bosch's US 800 Series uses the same zeolite drying (CrystalDry), with a flexible third rack and Home Connect, in a 24 in built-in format."
+    },
+    "Haier XS 6B0S3FSB": {
+      "status": "substitute",
+      "name": "LG LDNTH862S",
+      "asin": null,
+      "evidence": "https://www.lg.com/us/dishwashers/lg-ldnth862s-top-control-dishwasher",
+      "note": "This EU Haier model isn't sold in the US; LG's FlushFit LDNTH862S is the closest quiet (39 dBA), 16-place-setting smart dishwasher with automatic door opening at the end of the cycle (AutoVent Dry)."
+    },
+    "Miele G 7110 SC AutoDos": {
+      "status": "substitute",
+      "name": "Miele G 7196 SCVi SF",
+      "asin": null,
+      "evidence": "https://www.abt.com/Miele-G-7196-SCViSF-Fully-Integrated-Pre-Finished-Dishwasher-24-Inch-in-Clean-Touch-Steel-12496710/p/209961.html",
+      "note": "The G 7110 SC is a European freestanding model; this 24 in North American model with a pre-finished stainless door keeps AutoDos with PowerDisk and Wi-Fi control (120 V)."
+    },
+    "Siemens iQ500 SN65ZX07CE": {
+      "status": "substitute",
+      "name": "Bosch 800 Series Dishwasher (SHV78CM3N)",
+      "asin": null,
+      "evidence": "https://www.bosch-home.com/us/en/product/dishwashers/top-controls/SHV78CM3N",
+      "note": "Siemens home appliances aren't sold in the US; the panel-ready Bosch 800 Series from the same BSH group offers the same zeolite drying (CrystalDry) in a fully integrated format."
+    },
+    "LG DF455HSS": {
+      "status": "substitute",
+      "name": "LG LDNTH753S",
+      "asin": null,
+      "evidence": "https://www.lg.com/us/dishwashers/lg-ldnth753s-top-control-dishwasher",
+      "note": "Same brand: the DF455HSS is a European freestanding model; LG's US FlushFit top-control model keeps QuadWash Pro, TrueSteam and Dynamic Heat Dry."
+    },
+    "EcoFlow DELTA 3 Plus": {
+      "status": "same",
+      "name": "EcoFlow DELTA 3 Plus",
+      "asin": "B0DCC2BVFW",
+      "evidence": "https://www.amazon.com/EF-ECOFLOW-Portable-Generator-Optional/dp/B0DCC2BVFW",
+      "note": ""
+    },
+    "BLUETTI Elite 100 V2": {
+      "status": "same",
+      "name": "BLUETTI Elite 100 V2",
+      "asin": "B0F42CSQWG",
+      "evidence": "https://www.amazon.com/BLUETTI-Elite-100-V2-Generator/dp/B0F42CSQWG",
+      "note": ""
+    },
+    "EcoFlow RIVER 3 Plus": {
+      "status": "same",
+      "name": "EcoFlow RIVER 3 Plus",
+      "asin": "B0DCCB657J",
+      "evidence": "https://www.amazon.com/EF-ECOFLOW-RIVER-Plus-Expandable/dp/B0DCCB657J",
+      "note": ""
+    },
+    "Anker SOLIX C1000 Gen 2": {
+      "status": "same",
+      "name": "Anker SOLIX C1000 Gen 2",
+      "asin": "B0FN7MSY4L",
+      "evidence": "https://www.amazon.com/dp/B0FN7MSY4L",
+      "note": ""
+    },
+    "Jackery Explorer 1000 v2": {
+      "status": "same",
+      "name": "Jackery Explorer 1000 v2",
+      "asin": "B0D7PPG25F",
+      "evidence": "https://www.amazon.com/Jackery-Explorer-Portable-Generator-Emergency/dp/B0D7PPG25F",
+      "note": ""
+    },
+    "Somfy Ixengo L 3S io Pack Confort": {
+      "status": "substitute",
+      "name": "Mighty Mule MM572W",
+      "asin": "B07YP7JXWT",
+      "evidence": "https://www.amazon.com/Mighty-Mule-MM572W-Automatic-Opener/dp/B07YP7JXWT",
+      "note": "No North American version of Somfy's Ixengo kit was found; Mighty Mule's dual swing kit is the closest DIY equivalent, with app control through the optional MMS100 add-on."
+    },
+    "Meross MSG100HK Smart Wi-Fi Garage Door Opener": {
+      "status": "regional",
+      "name": "Meross Smart Wi-Fi Garage Door Opener (MSG100)",
+      "asin": null,
+      "evidence": "https://shop.meross.com/products/smart-wifi-garage-door-opener",
+      "note": "Meross's North American store sells this opener as the MSG100, with a door sensor and Apple HomeKit, Alexa and Google Assistant support."
+    },
+    "Hörmann SupraMatic E Serie 4": {
+      "status": "substitute",
+      "name": "Genie StealthDrive Connect (7155-TKV)",
+      "asin": "B07SKCGMY7",
+      "evidence": "https://www.geniecompany.com/garage-door-opener-/model-7155",
+      "note": "Hörmann's SupraMatic openers are not sold at US retail; this Genie belt-drive opener also offers hub-free phone control through built-in Aladdin Connect Wi-Fi."
+    },
+    "Somfy Elixo 500 3S io Pack Confort": {
+      "status": "substitute",
+      "name": "Mighty Mule Slide Gate Operator (LPS-13)",
+      "asin": null,
+      "evidence": "https://mightymule.com/products/lps-13",
+      "note": "No North American version of Somfy's Elixo kit was found; Mighty Mule's slide operator (gates up to 24 ft and 650 lb) is the closest DIY kit, but it showed out of stock on the brand's store and has no confirmed app control."
+    },
+    "Shelly 1 Gen4": {
+      "status": "regional",
+      "name": "Shelly 1 Gen4 UL-Certified",
+      "asin": null,
+      "evidence": "https://us.shelly.com/products/shelly-1-gen4-ul-certified-1",
+      "note": "UL-certified North American version of the same Gen4 relay, sold on Shelly's US store."
+    },
+    "ASAKUKI Smart Wi-Fi Essential Oil Diffuser 500ml": {
+      "status": "regional",
+      "name": "ASAKUKI Rock Smart Wi-Fi Essential Oil Diffuser 500ml",
+      "asin": null,
+      "evidence": "https://asakuki.com/collections/smart-wifi-enabled/products/asakuki-rock-smart-wi-fi-essential-oil-diffuser",
+      "note": "ASAKUKI's current 500 ml Wi-Fi model for North America (Tuya app, Alexa)."
+    },
+    "Maxcio Smart Essential Oil Diffuser 400ml": {
+      "status": "substitute",
+      "name": "Meross Smart Wi-Fi Essential Oil Diffuser (MOD150HK)",
+      "asin": null,
+      "evidence": "https://shop.meross.com/products/smart-wi-fi-essential-oil-diffuser",
+      "note": "Maxcio lists its diffuser for European countries only; Meross's 400 ml Wi-Fi diffuser matches the tank size and voice assistants, and adds Apple Home."
+    },
+    "Aromatherapy Associates Atomiser Connect": {
+      "status": "same",
+      "name": "Aromatherapy Associates Atomiser Connect",
+      "asin": null,
+      "evidence": "https://www.aromatherapyassociates.com/products/atomiser-connect",
+      "note": "Sold through the brand's international store, whose delivery page lists US shipping in USD."
+    },
+    "Zen'Arôme Diffuseur connecté Prague": {
+      "status": "substitute",
+      "name": "ASAKUKI New Cube Light Wood Smart WiFi Essential Oil Diffuser",
+      "asin": null,
+      "evidence": "https://asakuki.com/collections/smart-wifi-enabled/products/asakuki-cube-light-wood-smart-wifi-essential-oil-diffuser",
+      "note": "Zen'Arôme is not sold in the US; ASAKUKI's wood-look Wi-Fi model (700 ml, Tuya app, Alexa) is the closest decorative pick, without Apple Home."
+    },
+    "Levoit Dual 200S": {
+      "status": "same",
+      "name": "Levoit Dual 200S",
+      "asin": null,
+      "evidence": "https://levoit.com/products/dual-200s-smart-top-fill-humidifier",
+      "note": ""
+    },
+    "Burg-Wächter Combi-Line CL 20 E FS": {
+      "status": "substitute",
+      "name": "SentrySafe SFW123BTC",
+      "asin": null,
+      "evidence": "https://www.sentrysafe.com/product/SFW123BTC",
+      "note": "Combi-Line isn't sold through US retail or amazon.com; SentrySafe's fingerprint-and-keypad 1.23 cu ft safe is the nearest all-in-one pick (UL 1-hour fire, ETL water, bolt-down), though it carries no burglary rating."
+    },
+    "Burg-Wächter PointSafe P 2 E FS": {
+      "status": "substitute",
+      "name": "Barska Diamond AX13938",
+      "asin": null,
+      "evidence": "https://shop.barska.com/products/diamond-biometric-keypad-security-safe-ax13938",
+      "note": "PointSafe isn't sold in the US; Barska's 0.92 cu ft safe matches its recipe (fingerprint + keypad + backup keys, 4 mm door, 2 mm body, mounting hardware)."
+    },
+    "Yale Smart Safe YSS/250/EB1": {
+      "status": "substitute",
+      "name": "Vaultek ViSN DS5i",
+      "asin": null,
+      "evidence": "https://vaulteksafe.com/products/visn-ds5i",
+      "note": "Yale's North American Smart Safe is out of stock at shopyalehome.com (notify-me only, Wi-Fi needs a separate bridge); Vaultek's Wi-Fi ViSN DS5i is an app-alert safe sold new, though it is built around handgun storage."
+    },
+    "Master Lock LX110BEURHRO": {
+      "status": "substitute",
+      "name": "Barska AX11224",
+      "asin": null,
+      "evidence": "https://shop.barska.com/products/0-79-cu-ft-biometric-security-safe",
+      "note": "The LX110 is a European SKU; Barska's flat 0.79 cu ft biometric safe (16.25 in wide interior, up to 120 prints, two backup keys, external battery port) is the closest laptop-format fingerprint safe."
+    },
+    "Phoenix Next LS7001FB": {
+      "status": "substitute",
+      "name": "SentrySafe SFW205BXC",
+      "asin": null,
+      "evidence": "https://www.sentrysafe.com/product/SFW205BXC",
+      "note": "Phoenix's Next range isn't sold in the US; SentrySafe's 2.0 cu ft fingerprint-and-keypad fire safe (UL 1-hour fire, ETL water, interior light) fills the fire-first, upmarket slot."
+    },
+    "Bosch Serie 8 WGB256A40": {
+      "status": "regional",
+      "name": "Bosch 800 Series Compact Washer (WGB246AXUC)",
+      "asin": null,
+      "evidence": "https://www.bosch-home.com/us/en/product/washers-and-dryers/compact-washers/compact-washers/WGB246AXUC",
+      "note": "North American 800 Series version of the same Bosch Series 8 platform: 2.4 cu ft, 1,600 rpm, i-Dos, Home Connect (shown in stock on Bosch's US compact-washer page)."
+    },
+    "Haier I-Pro Series 7 HW100-B14979": {
+      "status": "substitute",
+      "name": "LG WM4000HWA",
+      "asin": null,
+      "evidence": "https://www.lg.com/us/washers-dryers/lg-wm4000hwa-front-load-washer",
+      "note": "Haier's I-Pro range isn't sold in the US; LG's mid-priced 4.5 cu ft Wi-Fi front-loader (ThinQ, steam, AI wash settings) is the closest value smart washer."
+    },
+    "LG W4WR70E6Y": {
+      "status": "substitute",
+      "name": "LG WashCombo All-in-One Washer/Dryer (WM6998HBA)",
+      "asin": null,
+      "evidence": "https://www.lg.com/us/washers-dryers/lg-wm6998hba",
+      "note": "LG doesn't sell the European condenser washer-dryer in the US; its WashCombo all-in-one (5.0 cu ft, ventless heat pump drying, ThinQ) is the brand's current washer-dryer combo."
+    },
+    "Siemens iQ700 WG44B2A40": {
+      "status": "substitute",
+      "name": "Bosch 500 Series Compact Washer (WGB24600UC)",
+      "asin": null,
+      "evidence": "https://www.bosch-home.com/us/en/mkt-product/washers-and-dryers/washing-machines/compact-washers/WGB24600UC",
+      "note": "Siemens doesn't sell laundry in North America; Bosch (same BSH group) 500 Series is the matching step below the 800 Series: 2.4 cu ft, 1,600 rpm, Home Connect, no i-Dos (temporarily out of stock at Bosch's store)."
+    },
+    "Miele WWR 860 WPS": {
+      "status": "regional",
+      "name": "Miele W1 WXR 860 WCS",
+      "asin": null,
+      "evidence": "https://www.mieleusa.com/c/washing-machines-1500.htm",
+      "note": "North American W1 version of the same TwinDos + PowerWash + Wi-Fi model (Miele's site blocks automated reads, so the listing could not be fetched)."
+    },
+    "Aqara Light Switch H2 EU": {
+      "status": "regional",
+      "name": "Aqara Light Switch H2 US",
+      "asin": null,
+      "evidence": "https://us.aqara.com/products/aqara-light-switch-h2-us",
+      "note": "North American version of the same dual-protocol H2 switch (Zigbee, Thread, Bluetooth; 110-240 V, 10 A); Aqara's spec page lists the neutral as optional (5 W minimum load without one)."
+    },
+    "Shelly 1PM Gen4": {
+      "status": "substitute",
+      "name": "Shelly 1PM Mini Gen4",
+      "asin": null,
+      "evidence": "https://us.shelly.com/products/shelly-1pm-mini-gen4",
+      "note": "The full-size 1PM Gen4 is listed with EU ordering codes only and isn't in Shelly's US store; the Gen4 Mini sold there is the same multiprotocol relay with power metering, rated 8 A instead of 16 A."
+    },
+    "Philips Hue Tap Dial Switch": {
+      "status": "same",
+      "name": "Philips Hue Tap Dial Switch",
+      "asin": null,
+      "evidence": "https://www.philips-hue.com/en-us/p/hue-tap-dial-switch/046677578770",
+      "note": ""
+    },
+    "Legrand Céliane with Netatmo": {
+      "status": "regional",
+      "name": "Legrand radiant Smart Switch with Netatmo (WNRL10WH)",
+      "asin": null,
+      "evidence": "https://www.legrand.us/wiring-devices/designer-switches-and-outlets/radiant-smart-switch-with-netatmo-white/p/wnrl10wh",
+      "note": "Same Legrand with Netatmo system in Legrand's North American radiant design (gateway kit WNRKH10WH; Alexa, Apple HomeKit, Google; neutral required)."
+    },
+    "BTicino Living Now with Netatmo": {
+      "status": "substitute",
+      "name": "Legrand adorne Smart Switch with Netatmo (WNAL10W1)",
+      "asin": null,
+      "evidence": "https://www.legrand.us/wiring-devices/light-switches-and-dimmers/residential-switches/adorne-smart-switch-with-netatmo-white/p/wnal10w1",
+      "note": "BTicino (a Legrand brand) isn't sold in North America; Legrand's design-led adorne collection runs the same Netatmo system (starter kit WNAH10KITW1, 120 V, neutral required)."
+    },
+    "Homey Pro (Early 2023)": {
+      "status": "substitute",
+      "name": "Homey Pro (2026)",
+      "asin": "B0G52DX5M3",
+      "evidence": "https://homey.app/en-us/homey-pro/",
+      "note": "Homey now sells this hub as Homey Pro (2026) (title on amazon.com): same radio lineup with 4 GB of RAM; 433 MHz is turned off in the US."
+    },
+    "Aqara Hub M3": {
+      "status": "same",
+      "name": "Aqara Hub M3",
+      "asin": "B0CWLHSKYC",
+      "evidence": "https://www.amazon.com/Aqara-Automation-Controller-Bluetooth-SmartThings/dp/B0CWLHSKYC",
+      "note": ""
+    },
+    "Home Assistant Green": {
+      "status": "same",
+      "name": "Home Assistant Green",
+      "asin": null,
+      "evidence": "https://www.home-assistant.io/green/",
+      "note": "The amazon.com listing (B0CXVKSG19) shows currently unavailable, so no ASIN; Home Assistant lists ameriDroid, CloudFree, Seeed Studio and Apollo Automation as US retailers."
+    },
+    "IKEA Dirigera": {
+      "status": "same",
+      "name": "IKEA DIRIGERA",
+      "asin": null,
+      "evidence": "https://www.ikea.com/us/en/p/-50503414/",
+      "note": ""
+    },
+    "Philips Hue Bridge Pro": {
+      "status": "same",
+      "name": "Philips Hue Bridge Pro",
+      "asin": "B0FMGNF87H",
+      "evidence": "https://www.philips-hue.com/en-us/p/hue-bridge-pro/046677582111",
+      "note": ""
+    },
+    "Ajax MotionProtect Outdoor": {
+      "status": "regional",
+      "name": "Ajax MotionProtect Outdoor",
+      "asin": null,
+      "evidence": "https://ajax.systems/products/specs/motionprotect-outdoor-jeweller/",
+      "note": "North American 905–926.5 MHz version (FCC ID 2AX5VMOPROU-NA, UL 639); sold through Ajax installers and dealers, not on Amazon; needs an Ajax hub."
+    },
+    "Ring Alarm Outdoor Siren": {
+      "status": "substitute",
+      "name": "Ajax StreetSiren",
+      "asin": null,
+      "evidence": "https://ajax.systems/products/specs/streetsiren-jeweller/",
+      "note": "The Outdoor Siren's page is no longer live on Ring's US store (removed from the catalog), so the closest current wireless outdoor siren is Ajax's North American StreetSiren (UL 1023), sold through Ajax dealers and installers."
+    },
+    "Philips Hue Outdoor Motion Sensor": {
+      "status": "same",
+      "name": "Philips Hue Outdoor Motion Sensor",
+      "asin": null,
+      "evidence": "https://www.philips-hue.com/en-us/p/hue-outdoor-sensor/046677570989",
+      "note": ""
+    },
+    "Ajax StreetSiren": {
+      "status": "regional",
+      "name": "Ajax StreetSiren",
+      "asin": null,
+      "evidence": "https://ajax.systems/products/specs/streetsiren-jeweller/",
+      "note": "North American 905–926.5 MHz version (FCC ID 2AX5VSTRESI-NA, UL 1023); sold through Ajax installers and dealers, not on Amazon; needs an Ajax hub."
+    },
+    "Ring Alarm Outdoor Contact Sensor": {
+      "status": "same",
+      "name": "Ring Alarm Outdoor Contact Sensor",
+      "asin": null,
+      "evidence": "https://ring.com/products/alarm-outdoor-contact-sensor",
+      "note": ""
+    },
+    "SwitchBot Curtain 3": {
+      "status": "same",
+      "name": "SwitchBot Curtain 3",
+      "asin": null,
+      "evidence": "https://us.switch-bot.com/products/switchbot-curtain-3",
+      "note": ""
+    },
+    "Aqara Curtain Driver E1": {
+      "status": "same",
+      "name": "Aqara Curtain Driver E1",
+      "asin": null,
+      "evidence": "https://us.aqara.com/products/curtain-driver-e1",
+      "note": "The amazon.com listing (rod version) showed currently unavailable; Aqara's US store sells the rod and track versions."
+    },
+    "Eve MotionBlinds Upgrade Kit": {
+      "status": "same",
+      "name": "Eve MotionBlinds Upgrade Kit",
+      "asin": null,
+      "evidence": "https://www.evehome.com/en-us/eve-motionblinds",
+      "note": "Sold only through Eve's North American online store."
+    },
+    "Aqara Roller Shade Driver E1": {
+      "status": "substitute",
+      "name": "SwitchBot Blind Tilt",
+      "asin": null,
+      "evidence": "https://us.switch-bot.com/products/switchbot-blind-tilt",
+      "note": "Not listed on Aqara's US site or store; closest retrofit driver for existing blinds at the same tier (battery, light sensor, Matter via hub), but for horizontal blinds, not bead-chain roller shades."
+    },
+    "Somfy Glydea Ultra 35": {
+      "status": "regional",
+      "name": "Somfy Glydea Ultra 35 RTS",
+      "asin": null,
+      "evidence": "https://www.somfysystems.com/en-us/products/1246116/glydea-ultra-35-motor-rts-with-10-plug",
+      "note": "North American RTS version with a 10 ft plug (90–240 V); sold and installed through Somfy dealers; temporarily out of stock when checked."
+    },
+    "Anker SOLIX Solarbank 3 E2700 Pro": {
+      "status": "substitute",
+      "name": "Anker SOLIX F3000 Portable Power Station",
+      "asin": null,
+      "evidence": "https://www.ankersolix.com/products/f3000",
+      "note": "Solarbank plug-in batteries aren't sold in the US; the F3000 is Anker SOLIX's closest US unit (3,072 Wh LFP, 2,400 W solar input, self-consumption and time-of-use modes with the optional Power Saver Kit, expandable to 24 kWh)."
+    },
+    "Marstek Venus E 3.0": {
+      "status": "substitute",
+      "name": "Anker SOLIX S5000 Portable Power Station",
+      "asin": null,
+      "evidence": "https://www.ankersolix.com/products/s5000-portable-power-station",
+      "note": "Marstek doesn't sell the Venus E in the US; the S5000 is the closest single-unit 5 kWh LFP home battery there (120/240 V, 4,500 W continuous, expandable to 30 kWh with BP5000 batteries)."
+    },
+    "Tesla Powerwall 3": {
+      "status": "same",
+      "name": "Tesla Powerwall 3",
+      "asin": null,
+      "evidence": "https://energylibrary.tesla.com/docs/Public/EnergyStorage/Powerwall/3/Datasheet/en-us/Powerwall-3-Datasheet.pdf",
+      "note": ""
+    },
+    "Zendure SolarFlow 2400 AC": {
+      "status": "substitute",
+      "name": "EcoFlow DELTA Pro 3",
+      "asin": null,
+      "evidence": "https://us.ecoflow.com/products/delta-pro-3-portable-power-station",
+      "note": "The SolarFlow 2400 AC isn't sold in the US; the DELTA Pro 3 is the closest expandable LFP home battery on EcoFlow US (4,096 Wh, 4,000 W, 120/240 V, expandable to 48 kWh), listed as shipping within a week."
+    },
+    "EcoFlow STREAM Ultra": {
+      "status": "regional",
+      "name": "EcoFlow STREAM Ultra",
+      "asin": null,
+      "evidence": "https://us.ecoflow.com/products/stream-ultra",
+      "note": "US 120 V/60 Hz version (1.92 kWh, 800 W standalone grid output); EcoFlow US lists it as a pre-order (restock March 2027), with plug-and-play installation limited to a few states."
+    },
+    "BONECO H700 SMART": {
+      "status": "substitute",
+      "name": "Sharp Smart Air Purifier with Humidifier (KCP110UW)",
+      "asin": null,
+      "evidence": "https://shop.sharpusa.com/sharp-smart-plasmacluster-ion-air-purifier-with-true-hepa-humidifier-for-extra-large-rooms-kcp110uw/",
+      "note": "BONECO has no US store for the H700; Sharp's KCP110UW is the closest US hybrid in the same premium class (True HEPA purifier with a built-in humidifier and humidifying filter, Sharp Air app, Alexa and Google Assistant)."
+    },
+    "Levoit Classic 300S": {
+      "status": "same",
+      "name": "Levoit Classic 300S",
+      "asin": null,
+      "evidence": "https://levoit.com/collections/best-seller/products/classic-300s-smart-ultrasonic-top-fill-cool-mist-humidifier",
+      "note": ""
+    },
+    "Dyson Purifier Humidify+Cool Formaldehyde PH04": {
+      "status": "substitute",
+      "name": "Dyson Purifier Humidify+Cool PH2 De-NOx",
+      "asin": null,
+      "evidence": "https://www.target.com/p/dyson-purifier-humidify-and-cool-purifier-ph2-de-nox/-/A-94590130",
+      "note": "The PH04 wasn't found at US retail in this check; the PH2 De-NOx is the current model of the same Dyson Purifier Humidify+Cool line in the US (110 V, sealed HEPA H13, no-mist humidification)."
+    },
+    "Levoit OasisMist 1000S": {
+      "status": "same",
+      "name": "Levoit OasisMist 1000S",
+      "asin": null,
+      "evidence": "https://levoit.com/collections/humidifiers-diffusers/products/oasismist-1000s-smart-ultrasonic-cool-mist-tower-humidifier",
+      "note": ""
+    },
+    "Xiaomi Smart Humidifier 2": {
+      "status": "substitute",
+      "name": "Levoit NeoClassic 450S Smart Humidifier",
+      "asin": null,
+      "evidence": "https://levoit.com/products/neoclassic-450s-smart-humidifier",
+      "note": "Xiaomi doesn't sell this humidifier in the US; closest entry-level smart top-fill model on Levoit US (4.2 L, VeSync app, Alexa and Google Assistant)."
+    },
+    "Aqara Motion and Light Sensor P2": {
+      "status": "same",
+      "name": "Aqara Motion and Light Sensor P2",
+      "asin": null,
+      "evidence": "https://www.aqara.com/us/product/motion-and-light-sensor-p2/",
+      "note": ""
+    },
+    "IKEA MYGGSPRAY": {
+      "status": "same",
+      "name": "IKEA MYGGSPRAY",
+      "asin": null,
+      "evidence": "https://www.ikea.com/us/en/p/myggspray-wireless-motion-sensor-smart-80619451/",
+      "note": ""
+    },
+    "Aqara Presence Sensor FP2": {
+      "status": "same",
+      "name": "Aqara Presence Sensor FP2",
+      "asin": null,
+      "evidence": "https://www.aqara.com/us/product/presence-sensor-fp2/",
+      "note": ""
+    },
+    "Philips Hue Motion Sensor": {
+      "status": "same",
+      "name": "Philips Hue Motion Sensor",
+      "asin": null,
+      "evidence": "https://www.philips-hue.com/en-us/p/hue-motion-sensor/046677570972",
+      "note": ""
+    },
+    "Eve Motion": {
+      "status": "same",
+      "name": "Eve Motion",
+      "asin": null,
+      "evidence": "https://www.evehome.com/en-us/eve-motion",
+      "note": ""
+    },
+    "Shelly Pro 3EM": {
+      "status": "regional",
+      "name": "Shelly Pro 3EM V2",
+      "asin": null,
+      "evidence": "https://us.shelly.com/products/shelly-pro-3em-v2",
+      "note": "Current Pro 3EM version sold on Shelly's US store."
+    },
+    "Shelly EM Gen3": {
+      "status": "regional",
+      "name": "Shelly EM Gen3 50A",
+      "asin": null,
+      "evidence": "https://us.shelly.com/products/shelly-em-gen3-50a",
+      "note": "US listing of the same two-channel EM Gen3; the 50 A clamp kit suits individual circuits, so check the clamp rating before using it on a main feed."
+    },
+    "Lixee ZLinky_TIC": {
+      "status": "substitute",
+      "name": "Rainforest Automation EAGLE-200 (RFA-Z114)",
+      "asin": null,
+      "evidence": "https://www.rainforestautomation.com/",
+      "note": "The ZLinky only fits France's Linky meter; the EAGLE-200 plays the same role, reading a Zigbee utility smart meter locally, at participating utilities only."
+    },
+    "Ecojoko": {
+      "status": "substitute",
+      "name": "Emporia Vue 3 Home Energy Monitor",
+      "asin": null,
+      "evidence": "https://shop.emporiaenergy.com/products/emporia-vue-3",
+      "note": "Ecojoko is sold only in France; the Vue 3 is a clamp-on whole-home monitor with an app, built for North American panels."
+    },
+    "Tibber Pulse P1": {
+      "status": "substitute",
+      "name": "Emporia Vue Utility Connect",
+      "asin": null,
+      "evidence": "https://www.emporiaenergy.com/how-the-vue-utility-connect-works/",
+      "note": "Tibber does not operate in North America; this plug-in reader also takes data straight from the utility meter (Zigbee AMI meters in select US utility areas) and sends it to an app over Wi-Fi."
+    },
+    "Midea PortaSplit": {
+      "status": "substitute",
+      "name": "Midea U-Shaped Smart Inverter Window Air Conditioner (MAW12AV1QWT-C)",
+      "asin": null,
+      "evidence": "https://www.midea.com/us/store/cooling-and-heating/window-air-conditioners/midea-12000-btu-u-shaped-smart-window-air-conditioner-ultra-quiet.maw12av1qwt-c",
+      "note": "PortaSplit isn't sold in North America; Midea's 12,000 BTU U-shaped inverter window unit likewise keeps the compressor outside for quiet cooling and installs without a pro. Chosen over the Duo portable (two groups of three) because it keeps the split design's noise advantage."
+    },
+    "Midea Silent Cool 26 Pro WF": {
+      "status": "substitute",
+      "name": "Midea SmartCool Smart Portable Air Conditioner (MAP08S1XWT-S)",
+      "asin": null,
+      "evidence": "https://www.midea.com/us/Heating_Cooling/portable-air-conditioners/midea-smartcool-8-000-btu-cools-up-to-350-sq--ft--smart-portable.map08s1xwt-s",
+      "note": "European-only model; Midea's 8,000 BTU Wi-Fi 3-in-1 portable matches its room size (350 sq ft) and entry tier."
+    },
+    "Trotec PAC 3910 X WiFi": {
+      "status": "substitute",
+      "name": "Midea Duo Smart Inverter Portable Air Conditioner with Heat Pump (MPT1412HVRU)",
+      "asin": null,
+      "evidence": "https://www.midea.com/us/Heating_Cooling/portable-air-conditioners/12000-btu-doe-duo-smart-inverter-portable-air-conditioner-with-heat.mpt1412hvru",
+      "note": "Trotec's PAC range is a 230 V European line; this Duo is rated for rooms up to 550 sq ft, close to the Trotec's 560 sq ft."
+    },
+    "De'Longhi Pinguino PAC EL112 CST WiFi": {
+      "status": "substitute",
+      "name": "Midea Duo Smart Inverter Portable Air Conditioner (MAP14S1TBL)",
+      "asin": null,
+      "evidence": "https://www.midea.com/us/store/cooling-and-heating/portable-air-conditioners/midea-duo-smart-inverter-portable-air-conditioner.map14s1tbl",
+      "note": "De'Longhi's US store lists no Wi-Fi Pinguino; Midea's Duo (12,000 BTU DOE, hose-in-hose inverter, app and voice control) is the closest single-unit smart portable (two groups of three)."
+    },
+    "Olimpia Splendid Dolceclima Air Pro 14 HP WiFi": {
+      "status": "substitute",
+      "name": "Midea Duo Smart Inverter Portable Air Conditioner with Heat Pump (MPT1412HVRU)",
+      "asin": null,
+      "evidence": "https://www.midea.com/us/Heating_Cooling/portable-air-conditioners/12000-btu-doe-duo-smart-inverter-portable-air-conditioner-with-heat.mpt1412hvru",
+      "note": "Dolceclima portables are a European line; this Duo matches its heat-pump, app-controlled brief."
+    },
+    "Rowenta Turbo Silence Extreme+": {
+      "status": "regional",
+      "name": "Rowenta Turbo Silence Extreme+ Stand Fan (VU5870U1)",
+      "asin": null,
+      "evidence": "https://www.rowentausa.com/turbo-silence-extreme-stand-fan-white.html",
+      "note": "US 120 V version of the same fan."
+    },
+    "Duux Whisper Flex 2 Smart": {
+      "status": "substitute",
+      "name": "Midea Smart Stand Air Circulator (MSFS07RW6GB)",
+      "asin": null,
+      "evidence": "https://www.midea.com/us/Heating_Cooling/Electric_Fans/midea-smart-stand-air-circulator-msfs07rw6gb.msfs07rw6gb",
+      "note": "Duux isn't sold in the US; Midea's DC-motor smart stand fan with 12 speeds, sleep and natural modes and app control is the closest equivalent."
+    },
+    "Cecotec EnergySilence 1040 SmartExtreme": {
+      "status": "substitute",
+      "name": "Dreo TurboPoly Fan 502S",
+      "asin": null,
+      "evidence": "https://www.dreo.com/products/turbopoly-fan-502s",
+      "note": "Cecotec isn't sold in the US; Dreo's DC-motor pedestal fan (8 speeds, 120° horizontal and vertical oscillation, remote and Wi-Fi app control) is the closest budget equivalent, and keeps a different product from the Midea fan that stands in for the Duux Whisper Flex 2 in the same guide."
+    },
+    "Dolphin S300i": {
+      "status": "regional",
+      "name": "Dolphin S300",
+      "asin": null,
+      "evidence": "https://www.maytronics.com/en-us/store/dolphin-s300/99996221-USWI.html",
+      "note": "North American version of the same S300 (99996221-USWI), sold through Dolphin dealers, with MyDolphin Plus app, caddy and ultra-fine filter kit."
+    },
+    "Dolphin E35i": {
+      "status": "substitute",
+      "name": "Dolphin Nautilus CC Pro",
+      "asin": "B0BP8G6T4Z",
+      "evidence": "https://www.maytronics.com/en-us/store/residential-pools/dolphin-nautilus-cc-pro/99996207-PCI.html",
+      "note": "No E35i in the US; like the E35i, the Nautilus CC Pro sits below the S300 in Dolphin's range and keeps waterline scrubbing, a top-load filter and MyDolphin Plus Wi-Fi."
+    },
+    "Beatbot AquaSense 2 Pro": {
+      "status": "substitute",
+      "name": "Beatbot AquaSense 2 Ultra",
+      "asin": null,
+      "evidence": "https://beatbot.com/products/aquasense-2-ultra",
+      "note": "Beatbot's US store marks the AquaSense 2 Pro as no longer available and points to the AquaSense 2 Ultra, its cordless successor that also skims the surface."
+    },
+    "Aiper Scuba X1": {
+      "status": "same",
+      "name": "Aiper Scuba X1",
+      "asin": null,
+      "evidence": "https://aiper.com/aiper-scuba-series/aiper-scuba-x1",
+      "note": ""
+    },
+    "Dolphin Liberty 400": {
+      "status": "same",
+      "name": "Dolphin Liberty 400",
+      "asin": null,
+      "evidence": "https://www.maytronics.com/en-us/store/residential-pools/cordless-cleaners/dolphin-liberty-400/99998140-US.html",
+      "note": ""
+    },
+    "Weber Searwood 600": {
+      "status": "same",
+      "name": "Weber Searwood 600",
+      "asin": null,
+      "evidence": "https://amer.weber.com/en-us/products/searwood-600-pellet-grill-black-1500120",
+      "note": ""
+    },
+    "Ninja Woodfire Pro Connect XL": {
+      "status": "regional",
+      "name": "Ninja Woodfire Pro Connect Premium XL Outdoor Grill & Smoker (OG951)",
+      "asin": "B0CB1QX1Q2",
+      "evidence": "https://www.amazon.com/dp/B0CB1QX1Q2",
+      "note": "North American 120 V version (OG951) of the European OG901 Woodfire Pro Connect XL."
+    },
+    "Weber Genesis EPX-335 Smart": {
+      "status": "substitute",
+      "name": "Weber Genesis EX-325W Smart Gas Grill",
+      "asin": null,
+      "evidence": "https://amer.weber.com/en-us/products/genesis-ex-325w-smart-gas-grill-liquid-propane-black-1501822",
+      "note": "The EPX-335 is no longer in Weber's US Genesis range; the EX-325W is the current Genesis Smart with Sear Zone and Weber Connect thermometer."
+    },
+    "Traeger Woodridge Pro": {
+      "status": "same",
+      "name": "Traeger Woodridge Pro",
+      "asin": null,
+      "evidence": "https://www.traeger.com/pellet-grills/woodridge",
+      "note": ""
+    },
+    "Traeger Ironwood XL": {
+      "status": "same",
+      "name": "Traeger Ironwood XL",
+      "asin": null,
+      "evidence": "https://www.traeger.com/pellet-grills/ironwood-xl",
+      "note": ""
+    },
+    "Philips Hue White and Color Ambiance E27": {
+      "status": "regional",
+      "name": "Philips Hue White and Color Ambiance A19 E26 Smart Bulb, 75W (1,100 lm)",
+      "asin": null,
+      "evidence": "https://www.philips-hue.com/en-us/p/hue-white-and-color-ambiance-75w-a19-e26-smart-bulb/046677591168",
+      "note": "North American A19/E26 version of the same 1,100 lm White and Color Ambiance bulb."
+    },
+    "TP-Link Tapo L535E": {
+      "status": "regional",
+      "name": "TP-Link Tapo L535E Matter Smart Bulb",
+      "asin": "B0CFG9SHPQ",
+      "evidence": "https://www.tp-link.com/us/home-networking/smart-bulb/tapo-l535e/",
+      "note": "Same Tapo L535E, North American A19/E26 version (1,055 lm per TP-Link US)."
+    },
+    "Govee RGBIC LED Strip H619A": {
+      "status": "substitute",
+      "name": "Govee RGBIC LED Strip Lights with Covers (H61B5)",
+      "asin": null,
+      "evidence": "https://us.govee.com/products/govee-rgbic-led-strip-lights-with-covers",
+      "note": "H619A isn't listed on Govee's US store; the H61B5 is its current 16.4 ft Wi-Fi + Bluetooth RGBIC strip."
+    },
+    "IKEA KAJPLATS E27 CWS globe 1055lm": {
+      "status": "regional",
+      "name": "IKEA KAJPLATS LED bulb E26 1100 lumen, smart color and white spectrum, globe opal white",
+      "asin": null,
+      "evidence": "https://www.ikea.com/us/en/p/kajplats-led-bulb-e26-1100-lumen-smart-color-and-white-spectrum-globe-opal-30611462/",
+      "note": "North American E26 version of the same KAJPLATS color globe."
+    },
+    "Philips Hue Ambiance Gradient Lightstrip 2m": {
+      "status": "regional",
+      "name": "Philips Hue White and Color Ambiance Gradient Lightstrip, 80 in",
+      "asin": null,
+      "evidence": "https://www.philips-hue.com/en-us/p/hue-white-and-color-ambiance-gradient-lightstrip-80-inch/046677570552",
+      "note": "Same 2 m Gradient Lightstrip, sold by length in inches in the US."
+    },
+    "Dyson Purifier Cool Formaldehyde TP09": {
+      "status": "substitute",
+      "name": "Dyson Purifier Cool PC2 De-NOx",
+      "asin": null,
+      "evidence": "https://www.dyson.com/air-treatment/air-purifiers/purifier-cool-pc2/de-nox-nickel-gold",
+      "note": "Dyson US no longer lists the TP09; the PC2 De-NOx is its current purifier fan with HEPA + K-Carbon filtration that also destroys formaldehyde."
+    },
+    "Xiaomi Smart Standing Fan 2 Pro": {
+      "status": "substitute",
+      "name": "Dreo TurboPoly Fan 508S",
+      "asin": null,
+      "evidence": "https://www.dreo.com/products/turbopoly-fan-508s",
+      "note": "Xiaomi doesn't sell this fan in the US; Dreo's DC-motor smart fan (9 speeds, 6 wind modes, as low as 20 dB per Dreo, app, voice and remote control) sits in the same value tier. Chosen over Midea's smart pedestal fan, which already stands in for the Duux Whisper Flex 2 and would appear twice in the same guide."
+    },
+    "Dyson Purifier Hot+Cool Formaldehyde HP09": {
+      "status": "substitute",
+      "name": "Dyson Purifier Hot+Cool HP2 De-NOx",
+      "asin": null,
+      "evidence": "https://www.dyson.com/air-treatment/air-purifier-heaters/purifier-hot-cool-hp2/de-nox-nickel-gold",
+      "note": "Dyson US no longer lists the HP09; the HP2 De-NOx is its current 3-in-1 heater, fan and purifier that also destroys formaldehyde."
+    },
+    "SwitchBot Battery Circulator Fan 2 Pro": {
+      "status": "regional",
+      "name": "SwitchBot Battery Circulator Fan 2 Pro",
+      "asin": null,
+      "evidence": "https://us.switch-bot.com/products/switchbot-battery-circulator-fan-2-pro",
+      "note": "Same fan, but SwitchBot says the ion generator is only on the EU model."
+    },
+    "Somfy Oximo io": {
+      "status": "substitute",
+      "name": "Somfy Oximo RTS 550R2",
+      "asin": null,
+      "evidence": "https://www.somfysystems.com/en-us/products/1244793/oximo-rts-550r2",
+      "note": "io-homecontrol isn't sold in North America; the 120 V Oximo RTS is Somfy's rolling shutter motor there, without position feedback."
+    },
+    "Somfy Oximo RTS": {
+      "status": "regional",
+      "name": "Somfy Oximo RTS 550R2",
+      "asin": null,
+      "evidence": "https://www.somfysystems.com/en-us/products/1244793/oximo-rts-550r2",
+      "note": "North American 120 V version of the Oximo RTS, sold through Somfy dealers (listed as temporarily out of stock)."
+    },
+    "VELUX INTEGRA Solar Roller Shutter": {
+      "status": "substitute",
+      "name": "VELUX Solar-Powered Room-Darkening Skylight Shade",
+      "asin": null,
+      "evidence": "https://www.veluxusa.com/products/shades",
+      "note": "VELUX doesn't sell exterior roller shutters in the US; its solar room-darkening skylight shade is the closest wire-free option, fitted inside."
+    },
+    "Somfy TaHoma Switch": {
+      "status": "regional",
+      "name": "Somfy TaHoma switch (RTS and Zigbee)",
+      "asin": null,
+      "evidence": "https://www.somfysystems.com/en-us/products/1871037/tahoma-switch",
+      "note": "North American version runs RTS and Zigbee products instead of io-homecontrol."
+    },
+    "Shelly 2PM Gen4": {
+      "status": "regional",
+      "name": "Shelly 2PM Gen4 UL",
+      "asin": null,
+      "evidence": "https://us.shelly.com/products/shelly-2pm-gen4-ul-certified",
+      "note": "UL-certified North American version of the same two-channel relay."
+    },
+    "Eufy Indoor Cam E220": {
+      "status": "same",
+      "name": "eufy Indoor Cam E220",
+      "asin": null,
+      "evidence": "https://www.eufy.com/products/t8410121",
+      "note": ""
+    },
+    "TP-Link Tapo C220": {
+      "status": "same",
+      "name": "TP-Link Tapo C220",
+      "asin": "B0CWD7D41R",
+      "evidence": "https://www.tp-link.com/us/home-networking/cloud-camera/tapo-c220/",
+      "note": ""
+    },
+    "Reolink E1 Pro": {
+      "status": "same",
+      "name": "Reolink E1 Pro",
+      "asin": null,
+      "evidence": "https://reolink.com/us/product/e1-pro/",
+      "note": ""
+    },
+    "Aqara Camera Hub G3": {
+      "status": "same",
+      "name": "Aqara Camera Hub G3",
+      "asin": null,
+      "evidence": "https://us.aqara.com/products/camera-hub-g3",
+      "note": ""
+    },
+    "Xiaomi Mi 360° Camera (1080p)": {
+      "status": "substitute",
+      "name": "TP-Link Tapo C210",
+      "asin": null,
+      "evidence": "https://www.tapo.com/us/product/smart-camera/tapo-c210/",
+      "note": "Xiaomi doesn't officially sell this camera in the US; the Tapo C210 is the closest budget indoor pan/tilt model (2K, 360° pan, person and crying detection, microSD)."
+    },
+    "LG CordZero A9K": {
+      "status": "substitute",
+      "name": "LG CordZero Q3 Cordless Stick Vacuum",
+      "asin": null,
+      "evidence": "https://www.lg.com/us/vacuum-cleaners/lg-c5323b0-stick-vacuum",
+      "note": "The A9K is LG's European name and LG USA shows every CordZero A9 model (including the All-in-One A931KWM) as out of stock; the Q3 is the CordZero it sells, with Kompressor but a lower tier and no auto-empty tower."
+    },
+    "Philips WelcomeEye Connect 3": {
+      "status": "substitute",
+      "name": "Aiphone JOS-1AW",
+      "asin": null,
+      "evidence": "https://www.aiphone.com/products/jos-1aw/",
+      "note": "Philips WelcomeEye kits are European only; Aiphone's JO box set is the closest North American 2-wire video intercom kit (7-inch touchscreen, Wi-Fi app), without RFID fobs."
+    },
+    "BTicino Classe 100X": {
+      "status": "substitute",
+      "name": "Ring Wired Doorbell 2K Plus",
+      "asin": null,
+      "evidence": "https://ring.com/products/wired-doorbell-plus",
+      "note": "BTicino door entry isn't sold in North America; a wired video doorbell reuses the existing doorbell wiring and answers from the app, but has no indoor screen."
+    },
+    "Ring Intercom Video": {
+      "status": "substitute",
+      "name": "Ring Peephole Cam 2K",
+      "asin": null,
+      "evidence": "https://ring.com/products/peephole-cam-2k",
+      "note": "Ring Intercom Video is a European product absent from Ring's North American lineup; the Peephole Cam 2K is Ring's no-drill, no-wiring option for apartment doors, though it doesn't connect to the building's entry panel."
+    },
+    "BTicino Classe 300EOS with Netatmo": {
+      "status": "substitute",
+      "name": "Aiphone JOS-1FW",
+      "asin": null,
+      "evidence": "https://www.aiphone.com/products/jos-1fw-boxed-set/",
+      "note": "BTicino door entry isn't sold in North America; Aiphone's flush-mount Wi-Fi box set is the closest design-led 2-wire kit (stainless door station, 7-inch touchscreen), without built-in Alexa."
+    },
+    "Comelit Visto Wi-Fi KVV8101": {
+      "status": "substitute",
+      "name": "Aiphone JOS-1VW",
+      "asin": null,
+      "evidence": "https://www.aiphone.com/products/jos-1vw-boxed-set/",
+      "note": "No US retail listing was found for the Visto Wi-Fi kit; Aiphone's Wi-Fi JO box set with a zinc die-cast door station is the closest 7-inch 2-wire kit."
+    },
+    "Kärcher SC 5 EasyFix": {
+      "status": "substitute",
+      "name": "Dupray Neat Plus Steam Cleaner",
+      "asin": null,
+      "evidence": "https://dupray.com/en-us/products/neat-plus-steam-cleaner",
+      "note": "Kärcher USA says it doesn't offer the SC 4 or SC 5 in the US (only the 120 V SC 3 EasyFix); the Neat Plus is a 120 V canister with a 54 fl oz tank you can refill during use and 17 accessories."
+    },
+    "Black+Decker BHSM1610DSM": {
+      "status": "substitute",
+      "name": "Black+Decker 7-in-1 Steam Mop with SteamGlove (HSMC1361SGP)",
+      "asin": null,
+      "evidence": "https://www.blackanddecker.com/products/hsmc1361sgp",
+      "note": "The BHSM1610DSM is a European model; Black+Decker USA's 2-in-1 mop-to-handheld steamer is ready in 20 seconds and comes with a SteamGlove kit."
+    },
+    "Bissell PowerFresh Slim Steam": {
+      "status": "regional",
+      "name": "Bissell PowerFresh Slim 3-in-1 Scrubbing & Sanitizing Steam Mop (2075A)",
+      "asin": null,
+      "evidence": "https://www.bissell.com/en-us/product/powerfresh-slim-3-in-1-scrubbing-%26-sanitizing-steam-mop-2075A.html",
+      "note": "US model of the same PowerFresh Slim, listed in Bissell's US product catalog; the page itself could not be loaded to confirm stock."
+    },
+    "Kärcher SC 3 EasyFix": {
+      "status": "regional",
+      "name": "Kärcher SC 3 EasyFix (1.513-657.0)",
+      "asin": null,
+      "evidence": "https://www.karcher.com/us/en//home-and-garden/products/sc-3-easyfix-white-p15136570",
+      "note": "120 V US version of the same SC 3 EasyFix: 1,450 W, 3 bar, 1 L tank you can refill at any time, 40-second heat-up."
+    },
+    "Polti Vaporetto Smart 100_T": {
+      "status": "substitute",
+      "name": "Dupray Neat Plus Steam Cleaner",
+      "asin": null,
+      "evidence": "https://dupray.com/en-us/products/neat-plus-steam-cleaner",
+      "note": "No US listing for the Vaporetto Smart range could be verified; the Neat Plus is the closest 120 V canister with a large tank you can refill while cleaning."
+    },
+    "Aqara Water Leak Sensor T1": {
+      "status": "regional",
+      "name": "Aqara Water Leak Sensor",
+      "asin": null,
+      "evidence": "https://us.aqara.com/products/water-leak-sensor",
+      "note": "Aqara's US store sells its hub-based leak sensor without the T1 suffix: same IP67 rating and a battery rated for over two years."
+    },
+    "Shelly Flood Gen4": {
+      "status": "same",
+      "name": "Shelly Flood Gen4",
+      "asin": null,
+      "evidence": "https://us.shelly.com/products/shelly-flood-gen4",
+      "note": ""
+    },
+    "Aqara Valve Controller T1": {
+      "status": "same",
+      "name": "Aqara Valve Controller T1",
+      "asin": null,
+      "evidence": "https://us.aqara.com/products/valve-controller-t1",
+      "note": ""
+    },
+    "Eve Water Guard": {
+      "status": "same",
+      "name": "Eve Water Guard",
+      "asin": null,
+      "evidence": "https://www.evehome.com/en-us/eve-water-guard",
+      "note": "Sold through Eve's US store with US/Canada plug support; one purchase option showed out of stock when checked."
+    },
+    "Airthings View Plus": {
+      "status": "same",
+      "name": "Airthings View Plus",
+      "asin": null,
+      "evidence": "https://www.airthings.com/en-us/view-plus",
+      "note": ""
+    },
+    "Netatmo Smart Indoor Air Quality Monitor": {
+      "status": "substitute",
+      "name": "SwitchBot Meter Pro (CO2 Monitor)",
+      "asin": null,
+      "evidence": "https://us.switch-bot.com/products/switchbot-meter-pro-co2-monitor",
+      "note": "Netatmo ended e-shop sales in the US on June 1, 2026; the Meter Pro is an affordable NDIR CO2, temperature and humidity monitor with a display."
+    },
+    "Aranet4 Home": {
+      "status": "same",
+      "name": "Aranet4 Home",
+      "asin": null,
+      "evidence": "https://aranet.com/en/home/products/aranet4-home",
+      "note": ""
+    },
+    "Awair Element": {
+      "status": "same",
+      "name": "Awair Element",
+      "asin": null,
+      "evidence": "https://www.getawair.com/products/element",
+      "note": "Still offered on Awair's US store."
+    },
+    "Airthings Wave Plus": {
+      "status": "same",
+      "name": "Airthings Wave Plus",
+      "asin": null,
+      "evidence": "https://www.airthings.com/en-us/wave-plus",
+      "note": ""
+    },
+    "Atlantic Oniris": {
+      "status": "substitute",
+      "name": "Dreo Smart Wall-Mounted Heater 719S",
+      "asin": null,
+      "evidence": "https://www.dreo.com/products/wh719s-wall-mounted-heater",
+      "note": "Atlantic does not sell its heaters in the US; Dreo's fast-heating PTC ceramic wall heater with Wi-Fi app, Alexa and Google Home control is the closest responsive smart wall model."
+    },
+    "Rointe Kyros WiFi": {
+      "status": "substitute",
+      "name": "Dreo Convection Heater 711S",
+      "asin": null,
+      "evidence": "https://www.dreo.com/products/convection-heater-711s",
+      "note": "Rointe's site lists only European markets; the 711S is a wall-mountable fanless convection heater with built-in Wi-Fi and no gateway, like the Kyros."
+    },
+    "Netatmo Smart Smoke Alarm": {
+      "status": "substitute",
+      "name": "First Alert SC5 Battery Smart Smoke and Carbon Monoxide Alarm (SMCO600NV)",
+      "asin": null,
+      "evidence": "https://www.firstalert.com/products/sc5-battery-smart-smoke-carbon-monoxide-alarm",
+      "note": "Netatmo's alarm is certified to Europe's EN 14604 and isn't sold in the US; the SC5 is a hub-free, battery-powered Wi-Fi alarm that First Alert designed to replace the Google Nest Protect (backordered on First Alert's store at the time of the check)."
+    },
+    "X-Sense XS01-WX": {
+      "status": "same",
+      "name": "X-Sense XS01-WX",
+      "asin": null,
+      "evidence": "https://www.x-sense.com/products/xs01-wx-wi-fi-smoke-alarm",
+      "note": ""
+    },
+    "Netatmo Smart Carbon Monoxide Alarm": {
+      "status": "substitute",
+      "name": "X-Sense Smart Carbon Monoxide Alarm with Voice Alerts (XC0M-iR)",
+      "asin": null,
+      "evidence": "https://www.x-sense.com/products/xc0m-ir-smart-carbon-monoxide-alarm",
+      "note": "Netatmo's CO alarm is certified to Europe's EN 50291 and isn't sold in the US; this is the closest hub-free Wi-Fi CO alarm with app alerts, and it adds a digital CO display and voice alerts."
+    },
+    "Bosch Smart Home Twinguard": {
+      "status": "substitute",
+      "name": "Kidde Smoke + Carbon Monoxide Alarm with Indoor Air Quality Monitor (P4010ACSCOAQ-WF)",
+      "asin": null,
+      "evidence": "https://www.kidde.com/products/smart/smoke-carbon-monoxide-alarm-with-indoor-air-quality-monitor",
+      "note": "Bosch Smart Home is not sold in the US; Kidde's Wi-Fi alarm keeps the Twinguard's mix of smoke detection and indoor air quality monitoring, adds CO, and needs no hub."
+    },
+    "Aqara Smoke Detector": {
+      "status": "substitute",
+      "name": "First Alert Z-Wave Plus Smart Smoke and Carbon Monoxide Alarm (SMCO410)",
+      "asin": null,
+      "evidence": "https://www.firstalert.com/products/z-wave-plus-smart-smoke-carbon-monoxide-alarm-works-with-ring",
+      "note": "Aqara's US store lists no smoke detector; First Alert's Z-Wave alarm is the closest hub-based smart-home model (works with Ring and other Z-Wave hubs) and adds CO (backordered on First Alert's store at the time of the check)."
+    },
+    "Ajax StarterKit 4G": {
+      "status": "substitute",
+      "name": "Ajax Hub 2 Plus Jeweller",
+      "asin": null,
+      "evidence": "https://ajax.systems/products/specs/hub2-plus/",
+      "note": "Ajax's 4G StarterKit is not offered for North America; the Hub 2 Plus Jeweller is its UL 1023-listed hub on the US band (905–926.5 MHz), with sensors bought separately."
+    },
+    "Somfy Home Alarm Advanced": {
+      "status": "substitute",
+      "name": "Abode Security Kit",
+      "asin": null,
+      "evidence": "https://goabode.com/product/abode-security-kit/",
+      "note": "Somfy sells no home alarm in North America; Abode is a no-monthly-fee DIY system whose Vibration Glass Break sensor covers the early break-in detection role."
+    },
+    "Ring Alarm Pack M (Gen 2)": {
+      "status": "regional",
+      "name": "Ring Alarm Security Kit, 8-Piece (2nd Gen)",
+      "asin": "B07ZPMCW64",
+      "evidence": "https://www.amazon.com/dp/B07ZPMCW64",
+      "note": "North American equivalent of Pack M: same 2nd Gen base station, keypad, motion detector and range extender, with four contact sensors."
+    },
+    "eufy HomeBase S380": {
+      "status": "same",
+      "name": "eufy HomeBase S380",
+      "asin": null,
+      "evidence": "https://www.eufy.com/products/t80301d1",
+      "note": ""
+    },
+    "GARDENA smart Water Control Set": {
+      "status": "substitute",
+      "name": "Orbit B-hyve Gen 2 Smart Hose Watering Timer with Hub",
+      "asin": null,
+      "evidence": "https://www.orbitonline.com/products/b-hyve-smart-1-outlet-watering-timer-gen-2",
+      "note": "GARDENA's smart system isn't sold in the US; B-hyve's hose timer with Wi-Fi hub (item 21204) matches it on remote control and weather-based delays."
+    },
+    "Eve Aqua": {
+      "status": "same",
+      "name": "Eve Aqua",
+      "asin": null,
+      "evidence": "https://www.evehome.com/en-us/eve-aqua",
+      "note": ""
+    },
+    "GARDENA smart Irrigation Control": {
+      "status": "substitute",
+      "name": "Orbit B-hyve Smart 6-Zone Indoor/Outdoor Sprinkler Controller",
+      "asin": null,
+      "evidence": "https://www.orbitonline.com/products/orbit-57946",
+      "note": "Not sold in the US; this B-hyve controller (item 57946) matches its six 24 VAC zones and adds weather-based skips, Wi-Fi, Bluetooth, Alexa and Google Assistant."
+    },
+    "LinkTap G2S": {
+      "status": "same",
+      "name": "LinkTap G2S",
+      "asin": null,
+      "evidence": "https://www.link-tap.com/#!/buy-from-amazon-USA",
+      "note": ""
+    },
+    "Hunter Pro-HC": {
+      "status": "same",
+      "name": "Hunter Pro-HC",
+      "asin": null,
+      "evidence": "https://www.hydrawise.com/",
+      "note": ""
+    },
+    "Renpho Balance Cuisine Connectée": {
+      "status": "regional",
+      "name": "Renpho Calibra 1 Smart Nutrition Scale",
+      "asin": null,
+      "evidence": "https://renpho.com/products/calibra-1-smart-nutrition-scale-white",
+      "note": "Same Renpho Bluetooth food scale (5 kg, glass platform), sold in the US as the Calibra 1 Smart Nutrition Scale."
+    },
+    "Beurer KS 34 XL Balance Diététique": {
+      "status": "same",
+      "name": "Beurer KS 34 XL Kitchen Scale",
+      "asin": "B07YX6QKDB",
+      "evidence": "https://www.amazon.com/dp/B07YX6QKDB",
+      "note": "Same model, sold new on Amazon US through a third-party seller; Beurer has no own store for it here."
+    },
+    "Acaia Pearl": {
+      "status": "same",
+      "name": "Acaia Pearl",
+      "asin": null,
+      "evidence": "https://acaia.co/products/pearl",
+      "note": ""
+    },
+    "Hoymiles HMS-800W-2T": {
+      "status": "substitute",
+      "name": "Hoymiles HiFlow Pro Plug-in Microinverter",
+      "asin": null,
+      "evidence": "https://www.hoymiles.com/us/hiflowpro.html",
+      "note": "The North American version of this inverter (HMS-800-2T-NA) is a hardwired 240/208 V unit; Hoymiles' plug-in HiFlow Pro line (UL 3700, Bluetooth and Wi-Fi) is its US balcony equivalent, in 360 to 500 W versions rather than 800 VA."
+    },
+    "Anker SOLIX MI80": {
+      "status": "substitute",
+      "name": "Hoymiles HiFlow Pro Plug-in Microinverter",
+      "asin": null,
+      "evidence": "https://www.hoymiles.com/us/hiflowpro.html",
+      "note": "Anker doesn't sell the MI80 in the US; Hoymiles' HiFlow Pro is the closest plug-in microinverter there (UL 3700, Bluetooth and Wi-Fi), in 360 to 500 W versions rather than 800 W."
+    },
+    "Zendure SolarFlow 800 Pro 2": {
+      "status": "substitute",
+      "name": "EcoFlow STREAM Ultra",
+      "asin": null,
+      "evidence": "https://us.ecoflow.com/products/stream-ultra",
+      "note": "Zendure sells the SolarFlow 800 Pro 2 in Europe; EcoFlow's STREAM Ultra is the closest US all-in-one (1.92 kWh, four MPPT inputs, 800 W at 120 V), currently sold out with pre-orders open."
+    },
+    "MEATER Pro Thermomètre Sans Fil Longue Portée": {
+      "status": "regional",
+      "name": "MEATER Pro",
+      "asin": "B0FK5WHS4T",
+      "evidence": "https://www.amazon.com/MEATER-Smart-Meat-Thermometer/dp/B0FK5WHS4T",
+      "note": "Same MEATER Pro."
+    },
+    "MEATER Plus Thermomètre Sans Fil Bluetooth 50m": {
+      "status": "regional",
+      "name": "MEATER Plus",
+      "asin": null,
+      "evidence": "https://store-us.meater.com/products/meater-plus",
+      "note": "Same MEATER Plus with the Bluetooth repeater charger, sold on MEATER's US store; range quoted as 165 ft. The amazon.com page seen (B0HCCD3X8P) opens on a different special-edition variant, so no ASIN."
+    },
+    "Inkbird IBT-4XS Thermomètre Bluetooth 4 Sondes": {
+      "status": "same",
+      "name": "Inkbird IBT-4XS",
+      "asin": null,
+      "evidence": "https://inkbird.com/products/bluetooth-grill-thermometer-ibt-4xs",
+      "note": "Same model, sold on Inkbird's US store."
+    },
+    "Inkbird IBBQ-4BW": {
+      "status": "same",
+      "name": "Inkbird IBBQ-4BW",
+      "asin": null,
+      "evidence": "https://www.inkbird.com/products/wi-fi-bluetooth-grill-thermometer-ibbq-4bw",
+      "note": ""
+    },
+    "MEATER Pro XL": {
+      "status": "same",
+      "name": "MEATER Pro XL",
+      "asin": null,
+      "evidence": "https://meater.com/products/meater-pro-xl",
+      "note": ""
+    },
+    "De'Longhi Rivelia EXAM440.55.B": {
+      "status": "regional",
+      "name": "De'Longhi Rivelia Fully Automatic Espresso Machine (EXAM44055B)",
+      "asin": null,
+      "evidence": "https://www.delonghi.com/en-us/p/rivelia/EXAM44055B.html",
+      "note": "Same Rivelia in Onyx Black under De'Longhi's North American SKU (18 drinks, four user profiles, two bean hoppers, LatteCrema Hot)."
+    },
+    "Melitta Barista TS Smart F86/0-100": {
+      "status": "substitute",
+      "name": "De'Longhi Eletta Explore (ECAM45086S)",
+      "asin": null,
+      "evidence": "https://www.delonghi.com/en-us/p/eletta-explore-eletta-explore-espresso-machine/ECAM45086S+EX%3A4.html?pid=0132250196",
+      "note": "The Barista TS Smart couldn't be confirmed as sold new in the US; De'Longhi's app-connected Eletta Explore (custom recipes in the app, four user profiles, 50+ hot and cold drinks) is the closest customizable alternative."
+    },
+    "Gardena smart Sensor": {
+      "status": "substitute",
+      "name": "Netro Whisperer Gen2",
+      "asin": null,
+      "evidence": "https://netrohome.com/en/shop/products/whisperer",
+      "note": "Gardena's smart system isn't sold in North America; Netro's solar Wi-Fi soil sensor feeds its readings to Netro's hose timer and sprinkler controllers, the closest sensor-to-watering link from a US brand."
+    },
+    "Ecowitt WH51": {
+      "status": "regional",
+      "name": "Ecowitt WH51 (915 MHz)",
+      "asin": null,
+      "evidence": "https://shop.ecowitt.com/products/wh51",
+      "note": "North American 915 MHz version of the same sensor (IP66, one AA battery, up to 16 per GW1100/GW2000 gateway)."
+    },
+    "ThirdReality Smart Soil Moisture Sensor Gen2": {
+      "status": "same",
+      "name": "ThirdReality Smart Soil Moisture Sensor Gen2",
+      "asin": "B0GHNB78F7",
+      "evidence": "https://www.thirdreality.com/products/smart-soil-moisture-sensor-gen2",
+      "note": ""
+    },
+    "Xiaomi Mi Flora": {
+      "status": "none",
+      "name": null,
+      "asin": null,
+      "evidence": "",
+      "note": "Xiaomi doesn't sell the Mi Flora (Flower Care) through official US channels, and no four-reading Bluetooth plant sensor from a brand with real US presence could be confirmed."
+    },
+    "La Sommelière ECELLAR185": {
+      "status": "substitute",
+      "name": "Liebherr W5250",
+      "asin": null,
+      "evidence": "https://www.liebherr.com/en-us/p/wpsd-5252-3033484",
+      "note": "La Sommelière isn't sold in the US and no US wine fridge has bottle-detecting shelves; Liebherr's freestanding two-zone W5250, which takes the optional SmartDeviceBox for the SmartDevice app, is the closest connected equivalent."
+    },
+    "Haier Wine Bank 50 HWS77GDAU1": {
+      "status": "none",
+      "name": null,
+      "asin": null,
+      "evidence": "",
+      "note": "Haier's Wine Bank range isn't sold in the US, and no value-tier, app-connected dual-zone wine fridge from a brand with real US presence could be confirmed; connected freestanding wine storage there is premium (Liebherr Vinidor)."
+    },
+    "Liebherr WPbli 5231 GrandCru Selection": {
+      "status": "substitute",
+      "name": "Liebherr Wgb7470",
+      "asin": null,
+      "evidence": "https://www.liebherr.com/en-us/p/wpgbi-7483-8989655",
+      "note": "The GrandCru Selection isn't in Liebherr's US range; the freestanding Wgb7470, the biggest cabinet in that range (558 L, 145 bottles), is the closest same-brand model for a large collection, though Liebherr's US page lists no app connectivity for it."
+    },
+    "Haier Wine Bank 50 HWS42GDAU1": {
+      "status": "none",
+      "name": null,
+      "asin": null,
+      "evidence": "",
+      "note": "Not sold in the US, and no compact app-connected dual-zone wine fridge from a brand with real US presence could be confirmed."
+    },
+    "Philips Airfryer 5000 Series XXL Connected HD9285": {
+      "status": "substitute",
+      "name": "Philips Essential Connected Airfryer XL (HD9280/91)",
+      "asin": "B0BBWMV6S6",
+      "evidence": "https://www.amazon.com/Philips-Technology-Kitchen-Compatible-HD9280/dp/B0BBWMV6S6",
+      "note": "The 5000 Series XXL Connected isn't sold in the US; the HD9280/91 is the smaller XL model of the same Philips 5000 Series, with Wi-Fi and the HomeID app, at 6.2 L."
+    },
+    "Xiaomi Smart Air Fryer 6.5L": {
+      "status": "substitute",
+      "name": "Philips Essential Connected Airfryer XL (HD9280/91)",
+      "asin": "B0BBWMV6S6",
+      "evidence": "https://www.amazon.com/Philips-Technology-Kitchen-Compatible-HD9280/dp/B0BBWMV6S6",
+      "note": "Xiaomi doesn't officially sell this model in the US; the Philips is a Wi-Fi, app-controlled basket air fryer of similar size (6.2 L) with Alexa support."
+    },
+    "eufyCam S3 Pro": {
+      "status": "same",
+      "name": "eufyCam S3 Pro",
+      "asin": null,
+      "evidence": "https://www.eufy.com/products/t88941w1",
+      "note": ""
+    },
+    "TP-Link Tapo C520WS": {
+      "status": "same",
+      "name": "TP-Link Tapo C520WS",
+      "asin": "B0C6FMSS7Y",
+      "evidence": "https://www.amazon.com/TP-Link-Tapo-Detection-Recording-C520WS/dp/B0C6FMSS7Y",
+      "note": ""
+    },
+    "Reolink RLC-833A": {
+      "status": "substitute",
+      "name": "Reolink RLC-843A",
+      "asin": null,
+      "evidence": "https://reolink.com/us/product/rlc-843a/",
+      "note": "Reolink lists the RLC-833A as discontinued; the RLC-843A is its current 4K PoE camera with optical zoom, shown on the 833A's page."
+    },
+    "Reolink Argus 4 Pro": {
+      "status": "same",
+      "name": "Reolink Argus 4 Pro",
+      "asin": null,
+      "evidence": "https://reolink.com/us/product/argus-4-pro/",
+      "note": ""
+    },
+    "eufy SoloCam S340": {
+      "status": "same",
+      "name": "eufy SoloCam S340",
+      "asin": null,
+      "evidence": "https://www.eufy.com/products/t81701w1",
+      "note": ""
+    },
+    "Ninja Foodi MAX 15-en-1 SmartLid OP500EU - 7.5L": {
+      "status": "substitute",
+      "name": "Instant Pot Duo Crisp 6.5-Quart with Ultimate Lid",
+      "asin": null,
+      "evidence": "https://instantpot.com/collections/ip-6qt/products/instant-pot-duo-crisp-6-5qt-ultimate-lid-smart-multi-cooker-and-air-fryer",
+      "note": "Ninja's North American SmartLid models couldn't be confirmed as current; this 120 V cooker also pressure cooks and air fries under a single lid, in a smaller pot."
+    },
+    "Moulinex Cookeo Touch Pro WiFi": {
+      "status": "substitute",
+      "name": "Instant Pot Pro Plus 6-Quart Wi-Fi Smart Multicooker",
+      "asin": "B08TMTJZ8L",
+      "evidence": "https://instantpot.com/collections/wifi/products/instant-pot-pro-plus-6qt-smart-multi-cooker",
+      "note": "The Cookeo isn't sold in the US; the Pro Plus is the closest Wi-Fi multicooker with app-guided recipes, without the Touch Pro's built-in scale."
+    },
+    "Tefal Cook4me Touch WiFi": {
+      "status": "substitute",
+      "name": "Instant Pot Pro Plus 6-Quart Wi-Fi Smart Multicooker",
+      "asin": "B08TMTJZ8L",
+      "evidence": "https://instantpot.com/collections/wifi/products/instant-pot-pro-plus-6qt-smart-multi-cooker",
+      "note": "T-fal doesn't sell the Cook4me Touch WiFi in the US; the Pro Plus is the closest Wi-Fi pressure multicooker with step-by-step recipes in an app."
+    },
+    "Levoit Core 400S": {
+      "status": "regional",
+      "name": "Levoit Core 400S-P",
+      "asin": "B08R794ZMX",
+      "evidence": "https://levoit.com/products/core-400s-smart-true-hepa-air-purifier",
+      "note": "Same Core 400S (spec-sheet model Core 400S) sold in North America as the 400S-P: 120 V, 231 CFM CADR per Levoit."
+    },
+    "Levoit Core 300S": {
+      "status": "regional",
+      "name": "Levoit Core 300S-P",
+      "asin": "B08L73QL1V",
+      "evidence": "https://levoit.com/products/core-300s-p-smart-air-purifier",
+      "note": "Same Core 300S (spec sheet model Core 300S) sold in the US as the 300S-P, 120 V, 141 CFM / 240 m³/h CADR."
+    },
+    "Blueair Blue Pure 411i Max": {
+      "status": "same",
+      "name": "Blueair Blue Pure 411i Max",
+      "asin": "B0BN2LH4RK",
+      "evidence": "https://www.blueair.com/collections/air-purifiers/products/blue-pure-411i-max-1",
+      "note": ""
+    },
+    "Philips AC2939/10": {
+      "status": "substitute",
+      "name": "Coway Airmega AP-1512HHS",
+      "asin": "B07TVL3F3D",
+      "evidence": "https://www.amazon.com/dp/B07TVL3F3D",
+      "note": "The AC2939/10 is a European 230 V model; the app-enabled Coway Airmega AP-1512HHS (True HEPA, Alexa compatible, rated up to 1,575 sq ft) is a comparable large-room purifier, sold new on Amazon in both the US and Canada. Chosen over the Airmega 250S, whose Wi-Fi version Coway Canada doesn't sell."
+    },
+    "Xiaomi Smart Air Purifier 4": {
+      "status": "substitute",
+      "name": "Winix 5510",
+      "asin": "B0DJG1731C",
+      "evidence": "https://www.amazon.com/dp/B0DJG1731C",
+      "note": "Xiaomi does not officially sell this European 230 V purifier in the US; the Winix 5510 (Wi-Fi app, True HEPA plus carbon filter, auto mode) is a widely sold mid-range purifier, sold by Amazon.com, and the same model used for Canada."
+    },
+    "Dreame L40 Ultra": {
+      "status": "substitute",
+      "name": "Dreame L40 Ultra Gen 2",
+      "asin": "B0FSJPFDPV",
+      "evidence": "https://www.dreametech.com/products/l40-ultra-gen2-robot-vacuum",
+      "note": "Dreame's US lineup no longer lists the original L40 Ultra; the L40 Ultra Gen 2 succeeds it in the same line, with an extending mop and side brush and a self-emptying, mop-washing dock."
+    },
+    "Ecovacs Deebot X8 Pro Omni": {
+      "status": "same",
+      "name": "Ecovacs Deebot X8 Pro Omni",
+      "asin": "B0DR8NJMCJ",
+      "evidence": "https://www.amazon.com/ECOVACS-DEEBOT-PRO-OMNI-Self-Emptying/dp/B0DR8NJMCJ",
+      "note": ""
+    },
+    "Narwal Freo Z Ultra": {
+      "status": "substitute",
+      "name": "Narwal Freo Z10 Turbo",
+      "asin": "B0GSZN3PQR",
+      "evidence": "https://us.narwal.com/products/freo-z10-turbo-robot-vacuum-and-mop",
+      "note": "Narwal's US store no longer lists the Freo Z Ultra; the Z10 Turbo is the current Z-series model, with dual spinning mops and a dock that washes, dries and empties itself."
+    },
+    "TP-Link Tapo P115 Prise Connectée avec Suivi Conso": {
+      "status": "regional",
+      "name": "TP-Link Tapo P115",
+      "asin": "B0D7FZ97T5",
+      "evidence": "https://www.tp-link.com/us/home-networking/smart-plug/tapo-p115/",
+      "note": "Same Tapo P115 energy-monitoring mini plug in its North American version (NEMA, 15 A / 1,800 W)."
+    },
+    "Meross MSS210P Prise Connectée HomeKit 16A (lot de 2)": {
+      "status": "substitute",
+      "name": "Meross Matter Smart Plug with Energy Monitor (MSS315)",
+      "asin": "B0CN6LSVBQ",
+      "evidence": "https://www.amazon.com/dp/B0CN6LSVBQ",
+      "note": "The MSS210P is a European plug; Meross's 120 V Matter plug works with Apple Home, Alexa and Google Home and tracks energy use (15 A / 1,800 W)."
+    },
+    "TP-Link Tapo P100 Pack de 4 Prises Connectées": {
+      "status": "regional",
+      "name": "TP-Link Tapo P105 (4-Pack)",
+      "asin": "B0BBYV5JM2",
+      "evidence": "https://www.amazon.com/dp/B0BBYV5JM2",
+      "note": "The P105 is the North American counterpart of the basic P100 mini plug (15 A / 1,800 W, no energy monitoring), sold as a 4-pack."
+    },
+    "Shelly Plug S Gen3": {
+      "status": "substitute",
+      "name": "Shelly Plug US Gen4",
+      "asin": "B0G2YY8TCJ",
+      "evidence": "https://us.shelly.com/products/shelly-plug-us-gen4-white",
+      "note": "The Plug S Gen3 is a Schuko-only model; Shelly's North American plug in the same line (current Gen4) adds Zigbee and Matter, with power metering and a 15 A / 1,800 W rating."
+    },
+    "Eve Energy (Matter)": {
+      "status": "same",
+      "name": "Eve Energy (Matter)",
+      "asin": "B0BZBGD87V",
+      "evidence": "https://www.evehome.com/en-us/eve-energy",
+      "note": ""
+    },
+    "Ninja Foodi MAX SmartLid OL750EU": {
+      "status": "substitute",
+      "name": "Instant Pot Duo Crisp 6.5-Quart with Ultimate Lid",
+      "asin": null,
+      "evidence": "https://instantpot.com/collections/ip-6qt/products/instant-pot-duo-crisp-6-5qt-ultimate-lid-smart-multi-cooker-and-air-fryer",
+      "note": "Ninja's US SmartLid model (OL701) shows as currently unavailable with no restock date; the Duo Crisp's single lid also pressure cooks and air fries, with 13 functions in 6.5 qt."
+    },
+    "TP-Link Tapo P110M": {
+      "status": "same",
+      "name": "TP-Link Tapo P110M",
+      "asin": null,
+      "evidence": "https://www.tp-link.com/us/home-networking/smart-plug/tapo-p110m/",
+      "note": ""
+    },
+    "Netatmo Smart Thermostat": {
+      "status": "substitute",
+      "name": "ecobee Smart Thermostat Essential",
+      "asin": null,
+      "evidence": "https://www.ecobee.com/en-us/smart-thermostats/",
+      "note": "Netatmo's thermostat is built for European boilers and isn't sold in the US; the ecobee Essential is the comparable entry-level Wi-Fi smart thermostat."
+    },
+    "Ecovacs Deebot T50 Omni": {
+      "status": "regional",
+      "name": "Ecovacs Deebot T50 Pro Omni",
+      "asin": null,
+      "evidence": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t50-pro-omni",
+      "note": "North American T50 model, with the T50 Omni's specs: 15,000 Pa, 81 mm body, ZeroTangle 2.0, TruEdge 2.0 and 70°C mop washing."
+    },
+    "Roborock Saros 10R": {
+      "status": "substitute",
+      "name": "Roborock Saros 20",
+      "asin": null,
+      "evidence": "https://us.roborock.com/products/roborock-saros-20",
+      "note": "Roborock's US store shows the Saros 10R out of stock and amazon.com offers it mostly used; the Saros 20 is the current Saros model with the same turret-free StarSight 2.0 design, rotating mops and a full dock, and is in stock on Roborock's US store."
+    },
+    "Philips Airfryer 3000 Series L HD9252": {
+      "status": "substitute",
+      "name": "Philips 2000 Series Airfryer with Window (NA221/00)",
+      "asin": "B0FJSG1N3D",
+      "evidence": "https://www.amazon.com/dp/B0FJSG1N3D",
+      "note": "Philips's US airfryer catalog no longer lists the HD9252; the 2000 Series NA221/00 is its current single-basket model of the same size (4.2 L / 4.4 qt vs. 4.1 L), with a touchscreen and window."
+    },
+    "Ninja AF100": {
+      "status": "regional",
+      "name": "Ninja Air Fryer (AF101)",
+      "asin": "B07FDJMC9Q",
+      "evidence": "https://www.amazon.com/dp/B07FDJMC9Q",
+      "note": "US version of the AF100: 4 qt, 1,550 W, 105–400°F, air fry, roast, reheat and dehydrate."
+    },
+    "Philips Airfryer Série 2000 4,2 L NA221/00": {
+      "status": "regional",
+      "name": "Philips 2000 Series Airfryer with Window (NA221/00)",
+      "asin": "B0FJSG1N3D",
+      "evidence": "https://www.amazon.com/dp/B0FJSG1N3D",
+      "note": "Same NA221/00 SKU (4.2 L, sold as 4.4 qt, with window and touchscreen) under its English name."
+    },
+    "Ninja Air Fryer AF100EU": {
+      "status": "regional",
+      "name": "Ninja Air Fryer (AF101)",
+      "asin": "B07FDJMC9Q",
+      "evidence": "https://www.amazon.com/dp/B07FDJMC9Q",
+      "note": "US version of the AF100: 4 qt, 1,550 W, 105–400°F, air fry, roast, reheat and dehydrate."
+    },
+    "Ninja Foodi MAX Dual Zone AF400EU 9.5L": {
+      "status": "regional",
+      "name": "Ninja Foodi DualZone XL 2-Basket Air Fryer (DZ401)",
+      "asin": "B096X9LGJ1",
+      "evidence": "https://www.amazon.com/dp/B096X9LGJ1",
+      "note": "US 120 V version of the AF400EU: two independent 5 qt baskets with Match Cook and Smart Finish."
+    },
+    "Roborock S8 MaxV Ultra": {
+      "status": "substitute",
+      "name": "Roborock Saros 20",
+      "asin": null,
+      "evidence": "https://us.roborock.com/products/roborock-saros-20",
+      "note": "The S8 MaxV Ultra is sold out on Roborock's US store; the Saros 20 is Roborock's current premium model with anti-tangle brushes and an RGB camera for pet recognition and video calls. Chosen over the Qrevo Curv 2 Flow to stay at the flagship, camera-equipped tier."
+    },
+    "Dreame X40 Ultra": {
+      "status": "substitute",
+      "name": "Dreame X50 Ultra Complete",
+      "asin": "B0F3HZFZBL",
+      "evidence": "https://www.amazon.com/dp/B0F3HZFZBL",
+      "note": "The X40 Ultra is no longer in Dreame's US lineup; its direct X-series successor, the X50 Ultra (listed on Amazon US as the X50 Ultra Complete), offers 20,000 Pa, a DuoBrush designed against hair tangles and extending brush and mop. Chosen over the pricier X60 Ultra as the closer tier."
+    },
+    "iRobot Roomba j9+": {
+      "status": "substitute",
+      "name": "iRobot Roomba Max 715 Vac + AutoEmpty Dock",
+      "asin": null,
+      "evidence": "https://www.irobot.com/en_US/roomba-max-715-vac-robot-plus-autoempty-dock/W255020.html",
+      "note": "The j9+ is out of stock on iRobot's US store and no longer in its lineup; the Max 715 Vac keeps dual rubber brushes, PrecisionVision AI and a self-emptying dock."
+    },
+    "Roborock Saros Z70": {
+      "status": "same",
+      "name": "Roborock Saros Z70",
+      "asin": "B0DSLBZV3F",
+      "evidence": "https://www.amazon.com/dp/B0DSLBZV3F",
+      "note": ""
+    },
+    "Ecovacs Deebot T30 Pro": {
+      "status": "substitute",
+      "name": "Ecovacs Deebot T50 Pro Omni",
+      "asin": null,
+      "evidence": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t50-pro-omni",
+      "note": "The T30 Pro Omni isn't in Ecovacs' US lineup; the T50 Pro Omni is the current T-series model at the value tier, with ZeroTangle 2.0, TruEdge 2.0 and an Omni dock."
+    },
+    "Moulinex i-Companion Touch XL": {
+      "status": "substitute",
+      "name": "Thermomix TM7",
+      "asin": null,
+      "evidence": "https://www.thermomix.com/products/thermomix%C2%AE-tm7%E2%84%A2",
+      "note": "Groupe SEB sells T-fal, not Moulinex, in the US and has no Companion cooking robot there; the TM7 is the Wi-Fi cooking robot with a touchscreen and scale sold in the US."
+    },
+    "Cecotec Mambo Touch": {
+      "status": "none",
+      "name": null,
+      "asin": null,
+      "evidence": "",
+      "note": "Cecotec doesn't sell the 230 V Mambo in the US, and no entry-level Wi-Fi cooking robot with a scale from a brand with real US presence could be confirmed (CookingPal's site no longer sells the Multo)."
+    },
+    "Kenwood Cooking Chef XL KCL95.424SI": {
+      "status": "none",
+      "name": null,
+      "asin": null,
+      "evidence": "",
+      "note": "Kenwood has no US storefront (its US address returns a 404), and no induction-heated, app-connected stand mixer from a brand with real US presence could be confirmed."
+    },
+    "Magimix Cook Expert Connect": {
+      "status": "substitute",
+      "name": "Thermomix TM7",
+      "asin": null,
+      "evidence": "https://www.thermomix.com/products/thermomix%C2%AE-tm7%E2%84%A2",
+      "note": "No US listing for the Cook Expert Connect could be confirmed; the TM7 is the heated, Wi-Fi food processor sold in the US."
+    },
+    "Nuki Smart Lock Pro (5th generation)": {
+      "status": "regional",
+      "name": "Nuki Smart Lock (Deadbolt)",
+      "asin": null,
+      "evidence": "https://nuki.io/en-us/products/smart-lock-deadbolt",
+      "note": "Nuki's US model of the same lock, with built-in Wi-Fi, Matter, a rechargeable Li-Po battery and a brushless motor, made to mount over a single-cylinder deadbolt instead of a European cylinder."
+    },
+    "Nuki Smart Lock Go": {
+      "status": "substitute",
+      "name": "August Wi-Fi Smart Lock",
+      "asin": null,
+      "evidence": "https://august.com/products/august-wifi-smart-lock",
+      "note": "The Go is made for European cylinders and Nuki sells a single deadbolt model in the US; the August is a lower-priced retrofit lock that also has built-in Wi-Fi with no bridge."
+    },
+    "Aqara Smart Lock U200": {
+      "status": "same",
+      "name": "Aqara Smart Lock U200",
+      "asin": null,
+      "evidence": "https://us.aqara.com/products/aqara-smart-lock-u200",
+      "note": ""
+    },
+    "Tedee GO 2": {
+      "status": "substitute",
+      "name": "SwitchBot Lock Pro",
+      "asin": null,
+      "evidence": "https://us.switch-bot.com/products/switchbot-lock-pro",
+      "note": "Tedee doesn't sell in North America and the GO 2 fits European cylinders; the SwitchBot Lock Pro is a compact, budget retrofit lock with a North American fitting guide and Matter through a SwitchBot Hub."
+    },
+    "Yale Linus Smart Lock L2": {
+      "status": "substitute",
+      "name": "Yale Approach Lock with Wi-Fi and Keypad",
+      "asin": null,
+      "evidence": "https://shopyalehome.com/products/yale-approach-lock-with-wi-fi-and-keypad",
+      "note": "The Linus L2 fits European cylinders; Yale's North American retrofit lock is the Approach, which mounts over an existing deadbolt and adds built-in Wi-Fi and a keypad (4 AA batteries)."
+    },
+    "Ecowitt HP2551": {
+      "status": "regional",
+      "name": "Ecowitt HP2551 (915 MHz)",
+      "asin": null,
+      "evidence": "https://shop.ecowitt.com/products/hp2551",
+      "note": "North American 915 MHz version of the same kit (7 in color console, WS69 7-in-1 sensor), stocked in Ecowitt's US warehouse."
+    },
+    "Bresser Wi-Fi ClearView Weather Station 7-in-1": {
+      "status": "substitute",
+      "name": "Ambient Weather WS-2902",
+      "asin": null,
+      "evidence": "https://www.ambientweather.com/ws-2902-smart-weather-station",
+      "note": "The ClearView is an 868 MHz European model; the WS-2902 is a widely sold US Wi-Fi station in the same tier, with rain, wind, UV, solar radiation and a full-color console."
+    },
+    "Netatmo Smart Weather Station": {
+      "status": "substitute",
+      "name": "Eve Weather",
+      "asin": null,
+      "evidence": "https://www.evehome.com/en-us/eve-weather",
+      "note": "Netatmo has taken down its US site and ended US e-shop sales on June 1, 2026; Eve Weather is the Apple Home weather sensor sold in the US (Thread, Matter), but it has no rain, wind or indoor CO2 measurement."
+    },
+    "Davis Vantage Vue": {
+      "status": "same",
+      "name": "Davis Vantage Vue",
+      "asin": null,
+      "evidence": "https://www.davisinstruments.com/pages/vantage-vue",
+      "note": ""
+    },
+    "Ecowitt Wittboy Pro HP2564": {
+      "status": "regional",
+      "name": "Ecowitt Wittboy Pro HP2564 (915 MHz)",
+      "asin": null,
+      "evidence": "https://shop.ecowitt.com/products/wittboy-pro",
+      "note": "North American 915 MHz version of the same HP2560 console and WS90 ultrasonic sensor kit."
+    },
+    "Ecovacs Deebot T30 Pro Omni": {
+      "status": "substitute",
+      "name": "Ecovacs Deebot T50 Pro Omni",
+      "asin": null,
+      "evidence": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t50-pro-omni",
+      "note": "Ecovacs US does not offer the T30 Pro Omni and the T30C is sold out; the T50 Pro Omni keeps the value tier with 15,000 Pa, ZeroTangle 2.0 and a self-emptying, mop-washing dock."
+    },
+    "iRobot Roomba Max 705 Vac": {
+      "status": "substitute",
+      "name": "iRobot Roomba Max 715 Vac + AutoEmpty Dock",
+      "asin": null,
+      "evidence": "https://www.irobot.com/en_US/roomba-max-715-vac-robot-autoempty-dock/W255020.html",
+      "note": "iRobot no longer lists the Max 705 Vac (parts only); the Max 715 Vac is its next-gen upgrade with dual rubber anti-tangle brushes, LiDAR and an AutoEmpty dock."
+    },
+    "Meaco Arete Two 20L": {
+      "status": "substitute",
+      "name": "Midea 50 Pint Cube Dehumidifier with Built-in Pump (MAD50PS1QWT-A)",
+      "asin": null,
+      "evidence": "https://www.midea.com/us/store/cooling-and-heating/dehumidifiers/50-pt-cube-dehumidifier-built-in-pump-white",
+      "note": "Meaco's store sells only to the UK and Europe; Midea's Cube, with app and voice-assistant control, is the closest premium smart dehumidifier sold in the US."
+    },
+    "Comfee MDDF-16DEN7-WF": {
+      "status": "substitute",
+      "name": "hOmeLabs 25 Pint Wi-Fi Dehumidifier",
+      "asin": null,
+      "evidence": "https://homelabs.com/products/homelabs-dehumidifier-25-pint-high-efficiency-moisture-removal-for-home-bedroom-bathroom-medium-rooms-powerful-humidity-control-quiet-portable-with-auto-shut-off",
+      "note": "No US listing could be confirmed for this European Comfee model; hOmeLabs' compact 25-pint unit matches its Wi-Fi control and continuous drainage at an entry price."
+    },
+    "Xiaomi Smart Dehumidifier Lite": {
+      "status": "substitute",
+      "name": "hOmeLabs 8 Pint Wi-Fi Dehumidifier",
+      "asin": null,
+      "evidence": "https://homelabs.com/products/homelabs-1-800-sq-ft-portable-wi-fi-dehumidifier-8-pint-ultra-quiet-compact-for-home-bedroom-bathroom-office-smart-humidity-control-with-drain-hose-included",
+      "note": "Xiaomi doesn't sell dehumidifiers in the US; hOmeLabs' 8-pint Wi-Fi model is a compact unit sized for bedrooms and home offices."
+    },
+    "De'Longhi Tasciugo AriaDry Multi DDSX220WF": {
+      "status": "substitute",
+      "name": "hOmeLabs 50 Pint Wi-Fi Dehumidifier with Pump",
+      "asin": null,
+      "evidence": "https://homelabs.com/products/7500-sq-ft-wifi-enabled-dehumidifier-with-pump",
+      "note": "De'Longhi's US range has no dehumidifiers; hOmeLabs' Wi-Fi model with a built-in pump is a comparable app-controlled unit."
+    },
+    "Inventor EVA II PRO WiFi 20L": {
+      "status": "substitute",
+      "name": "hOmeLabs 32 Pint Wi-Fi Dehumidifier",
+      "asin": null,
+      "evidence": "https://homelabs.com/products/homelabs-4500-sq-ft-dehumidifier-32-pint-high-efficiency-moisture-removal-for-home-bedroom-bathroom-large-rooms-powerful-humidity-control-quiet-portable-with-auto-shut-off",
+      "note": "Inventor sells only in the UK and Europe; hOmeLabs' 32-pint Wi-Fi model is the closest mid-size smart unit in the US."
+    },
+    "Mammotion LUBA 3 AWD 5000": {
+      "status": "same",
+      "name": "Mammotion LUBA 3 AWD 5000",
+      "asin": null,
+      "evidence": "https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower",
+      "note": ""
+    },
+    "Husqvarna Automower 450X NERA": {
+      "status": "substitute",
+      "name": "Husqvarna Automower 440 iQ",
+      "asin": null,
+      "evidence": "https://www.husqvarna.com/us/robotic-lawn-mowers/automower-440-iq/",
+      "note": "The 450X NERA isn't in Husqvarna's US lineup; the 440 iQ is its largest residential iQ model, with EPOS virtual boundaries or a physical wire."
+    },
+    "Gardena SILENO City 600": {
+      "status": "substitute",
+      "name": "Segway Navimow i105",
+      "asin": null,
+      "evidence": "https://navimow.com/products/navimow-i105",
+      "note": "Gardena's US store lists only SILENO accessories, no mowers; the Navimow i105 is an entry-level small-yard model (1/8 acre) sold in the US."
+    },
+    "Segway Navimow i208 AWD": {
+      "status": "regional",
+      "name": "Segway Navimow i210 AWD",
+      "asin": null,
+      "evidence": "https://navimow.com/products/navimow-i2-awd-robot-lawn-mower",
+      "note": "The US i2 AWD lineup comes as the i206 (0.15 acre) and i210 (0.25 acre); the i210 covers the i208's 800 m² (0.2 acre)."
+    },
+    "ECOVACS GOAT O600 RTK": {
+      "status": "substitute",
+      "name": "Ecovacs GOAT O1000 LiDAR Pro",
+      "asin": null,
+      "evidence": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro",
+      "note": "ECOVACS doesn't offer the O600 RTK in the US; the O1000 LiDAR PRO is its O-series wire-free mower for small to medium lawns there."
+    },
+    "Mitsubishi Electric MSZ-AY35VGK": {
+      "status": "substitute",
+      "name": "Mitsubishi Electric MSZ-GX Series Wall-Mounted Heat Pump",
+      "asin": null,
+      "evidence": "https://www.mitsubishicomfort.com/products/m-series/msz-gx",
+      "note": "The MSZ-AY is a European model; the MSZ-GX Premier is Mitsubishi's North American wall unit with built-in Wi-Fi and 19 dB(A) indoor noise, the closest match."
+    },
+    "Haier Flexis Plus 3,5 kW": {
+      "status": "substitute",
+      "name": "MRCOOL DIY 5th Gen 12K BTU Ductless Mini-Split Heat Pump",
+      "asin": null,
+      "evidence": "https://www.mrcool.com/product/diy-5th-generation",
+      "note": "Haier doesn't sell this Flexis model in the US; MRCOOL's DIY 5th Gen is an app-controlled US mini-split in a lower price tier than Mitsubishi and Daikin."
+    },
+    "Daikin Perfera FTXM35R": {
+      "status": "substitute",
+      "name": "Daikin ATMOSPHERA Wall Mount Heat Pump",
+      "asin": null,
+      "evidence": "https://daikincomfort.com/products/heating-cooling/single-split-ductless/heat-pumps/daikin-atmosphera-wall-mount-heat-pump",
+      "note": "The Perfera is a European model; the ATMOSPHERA is Daikin's high-efficiency North American wall unit with built-in Wi-Fi and cold-climate heating."
+    },
+    "LG DUALCOOL AI Air 3,5 kW": {
+      "status": "substitute",
+      "name": "LG ARTCOOL Deluxe Wall-Mounted Heat Pump",
+      "asin": null,
+      "evidence": "https://www.lg.com/us/residential-hvac/hvac-systems",
+      "note": "This DUALCOOL model is European; LG's US ARTCOOL Deluxe offers dual vane control, occupancy sensing and cold-weather performance."
+    },
+    "Daikin Sensira FTXF35E": {
+      "status": "substitute",
+      "name": "Daikin OTERRA Wall Mount Heat Pump",
+      "asin": null,
+      "evidence": "https://daikincomfort.com/products/heating-cooling/single-split-ductless/heat-pumps/wall-mount-daikin-oterra-heat-pump",
+      "note": "The Sensira is a European model; the OTERRA is Daikin's standard North American wall unit (up to 21 SEER2, heating down to 5°F)."
+    },
+    "eufy Auto-Empty C10": {
+      "status": "substitute",
+      "name": "eufy Robot Vacuum Omni C20",
+      "asin": null,
+      "evidence": "https://www.eufy.com/products/t2280111",
+      "note": "eufy's US store no longer sells the C10; the Omni C20 is eufy's current slim (3.35 in) model with point-laser sensing and a station that auto-empties and also washes the mop."
+    },
+    "Xiaomi Robot Vacuum E5": {
+      "status": "substitute",
+      "name": "Lefant M210 Pro",
+      "asin": null,
+      "evidence": "https://www.lefant.life/collections/robot-vacuum/products/lefant-m210-pro-white-and-black",
+      "note": "Xiaomi doesn't sell its robot vacuums in the US; the M210 Pro is a similarly slim (2.99 in) budget robot with an app and voice control, but it has no mop."
+    },
+    "Roborock Q7 M5": {
+      "status": "substitute",
+      "name": "Roborock Q7 L5",
+      "asin": null,
+      "evidence": "https://us.roborock.com/products/roborock-q7-l5",
+      "note": "Roborock US sells this robot only as the docked Q7 M5+; the Q7 L5 keeps LiDAR, anti-tangle brushes and a compact charging dock (8,000 Pa vs. 10,000 Pa)."
+    },
+    "eufy Solar Wall Light Cam S120": {
+      "status": "same",
+      "name": "eufy Solar Wall Light Cam S120",
+      "asin": null,
+      "evidence": "https://www.eufy.com/products/t81a0111",
+      "note": ""
+    },
+    "Govee Outdoor Solar String Lights": {
+      "status": "same",
+      "name": "Govee Outdoor Solar String Lights",
+      "asin": null,
+      "evidence": "https://us.govee.com/products/solar-outdoor-string-lights",
+      "note": ""
+    },
+    "Philips Hue Lily Outdoor Spot Base Kit": {
+      "status": "same",
+      "name": "Philips Hue Lily Outdoor Spot Base Kit",
+      "asin": null,
+      "evidence": "https://www.philips-hue.com/en-us/p/hue-white-and-color-ambiance-lily-outdoor-spot-light/1746730V7",
+      "note": ""
+    },
+    "Philips Hue Calla Outdoor Pedestal": {
+      "status": "regional",
+      "name": "Philips Hue Calla Outdoor Bollard",
+      "asin": null,
+      "evidence": "https://www.philips-hue.com/en-us/p/hue-white-and-color-ambiance-calla-outdoor-bollard/1741930V7",
+      "note": "Same small low-voltage Calla pedestal, sold in the US as the Calla Outdoor bollard (1741930V7)."
+    },
+    "Steinel XSolar L-S ONE": {
+      "status": "substitute",
+      "name": "Sunforce 100 LED Solar Motion Light (82102)",
+      "asin": null,
+      "evidence": "https://sunforceproducts.com/renewable-energy-products-wind-solar-sunforce/our-products/lighting-and-security/100-led-solar-motion-light-with-corner-mounting/",
+      "note": "Steinel's XSolar line isn't offered in the US; Sunforce's app-free solar motion light with a separate panel on a 15 ft cable and a 180° sensor is the closest simple solar entry light."
+    },
+    "Eufy Video Doorbell E340": {
+      "status": "same",
+      "name": "eufy Video Doorbell E340",
+      "asin": null,
+      "evidence": "https://www.eufy.com/products/t8214111",
+      "note": ""
+    },
+    "TP-Link Tapo D235": {
+      "status": "regional",
+      "name": "TP-Link Tapo TD25",
+      "asin": null,
+      "evidence": "https://www.tapo.com/us/product/td25-smart-doorbell",
+      "note": "TP-Link's US version of the D235 (its US page uses D235 product images): 2K 5 MP, 180° view, battery or wired, sold at Best Buy."
+    },
+    "Aqara Video Doorbell G4": {
+      "status": "same",
+      "name": "Aqara Video Doorbell G4",
+      "asin": "B0BPHTL7MG",
+      "evidence": "https://www.aqara.com/us/product/smart-video-doorbell-g4/",
+      "note": ""
+    },
+    "Reolink Video Doorbell WiFi": {
+      "status": "same",
+      "name": "Reolink Video Doorbell WiFi",
+      "asin": null,
+      "evidence": "https://reolink.com/us/product/reolink-video-doorbell-wifi/",
+      "note": ""
+    },
+    "Reolink Battery Doorbell": {
+      "status": "substitute",
+      "name": "Reolink Battery Video Doorbell (2nd Gen)",
+      "asin": null,
+      "evidence": "https://reolink.com/us/product/reolink-video-doorbell-2nd-gen/",
+      "note": "Reolink marks the original Battery Doorbell as discontinued; the 2nd Gen is its successor (2K 4 MP, 1:1 view, battery or wired, microSD up to 512 GB)."
+    },
+    "Tefal Dual Easy Fry EY9018 8.3L": {
+      "status": "substitute",
+      "name": "Ninja Foodi 6-in-1 2-Basket Air Fryer with DualZone Technology (DZ201)",
+      "asin": "B089TQWJKK",
+      "evidence": "https://www.amazon.com/Ninja-DZ201-2-Basket-Technology-Stainless/dp/B089TQWJKK",
+      "note": "T-fal's US range has no two-drawer air fryer; Ninja's 8 qt two-basket DZ201 matches its size and its cook-two-foods-at-once design."
+    },
+    "Eve Thermo": {
+      "status": "same",
+      "name": "Eve Thermo",
+      "asin": null,
+      "evidence": "https://www.evehome.com/en-us/eve-thermo",
+      "note": ""
+    },
+    "Dreame H15 Pro": {
+      "status": "same",
+      "name": "Dreame H15 Pro",
+      "asin": null,
+      "evidence": "https://www.dreametech.com/products/h15-pro-wet-dry-vacuum",
+      "note": ""
+    },
+    "Dreame H14 Pro": {
+      "status": "same",
+      "name": "Dreame H14 Pro",
+      "asin": null,
+      "evidence": "https://www.dreametech.com/products/h14pro-wet-and-dry-vacuum",
+      "note": ""
+    },
+    "Dyson WashG1": {
+      "status": "substitute",
+      "name": "Dyson Clean+Wash Hygiene",
+      "asin": null,
+      "evidence": "https://www.dyson.com/floor-cleaners/wet/clean-wash-hygiene/copper-prussian-blue",
+      "note": "The WashG1 shows as out of stock on Dyson's US store; the Clean+Wash Hygiene is Dyson's current in-stock wet and dry cleaner, with bristles and an anti-tangle comb for hair."
+    },
+    "Tineco Floor One S7 Pro": {
+      "status": "substitute",
+      "name": "Tineco Floor One S7 FlashDry",
+      "asin": "B0CRVTSRKH",
+      "evidence": "https://www.amazon.com/dp/B0CRVTSRKH",
+      "note": "Tineco's US store no longer sells the S7 Pro and its old Amazon listing now carries the S7 FlashDry, the same line with self-cleaning, 158°F (70°C) hot-air drying and dual-sided edge cleaning."
+    },
+    "Roborock Flexi Pro": {
+      "status": "substitute",
+      "name": "Roborock F25 Steam",
+      "asin": null,
+      "evidence": "https://us.roborock.com/products/roborock-f25-steam-wet-dry-vacuum-with-steam-and-high-temperature-cleaning",
+      "note": "Roborock does not sell the Flexi Pro in the US; its F25 Steam keeps the 180° lay-flat reach, hot self-cleaning and hot-air drying at a similar tier."
+    },
+    "IKEA DIRIGERA": {
+      "status": "same",
+      "name": "IKEA DIRIGERA",
+      "asin": null,
+      "evidence": "https://www.ikea.com/us/en/p/-50503414/",
+      "note": ""
+    },
+    "Apple HomePod mini": {
+      "status": "substitute",
+      "name": "Apple HomePod mini 2",
+      "asin": null,
+      "evidence": "https://www.apple.com/homepod-mini/specs/",
+      "note": "Apple now sells the HomePod mini 2 in place of the original; same compact Siri speaker and home hub, with Thread and Wi-Fi 6E."
+    },
+    "Amazon Echo Dot Max": {
+      "status": "same",
+      "name": "Amazon Echo Dot Max",
+      "asin": "B0D6SZKGT4",
+      "evidence": "https://www.amazon.com/dp/B0D6SZKGT4",
+      "note": ""
+    },
+    "Google Nest Hub (2nd gen)": {
+      "status": "same",
+      "name": "Google Nest Hub (2nd gen)",
+      "asin": null,
+      "evidence": "https://store.google.com/us/product/nest_hub_2nd_gen",
+      "note": ""
+    },
+    "Ondilo ICO Pool V2": {
+      "status": "substitute",
+      "name": "WaterGuru SENSE S3 Smart Pool Monitor",
+      "asin": null,
+      "evidence": "https://waterguru.com/products/waterguru-sense-s3-pool-monitor",
+      "note": "Ondilo lists no US retailer; WaterGuru's US-only automatic monitor tests pH, free chlorine, alkalinity, CYA and hardness daily, mounted in the skimmer."
+    },
+    "iopool EcO": {
+      "status": "regional",
+      "name": "iopool EcO Start + Connect Smart Water Monitor",
+      "asin": null,
+      "evidence": "https://us.iopool.com/collections/start-packs/products/eco-start-us",
+      "note": "Same EcO monitor sold by iopool's North American store with the cOnnect Bluetooth/Wi-Fi gateway; shown sold out and taking pre-orders when checked."
+    },
+    "Zodiac eXO iQ": {
+      "status": "substitute",
+      "name": "Jandy TruClear Salt Chlorinator",
+      "asin": null,
+      "evidence": "https://www.jandy.com/products/water-care/salt-chlorinators/truclear",
+      "note": "Zodiac Pool Systems sells its salt chlorine generators as Jandy in North America; TruClear is the current stand-alone model on jandy.com (app features not confirmed)."
+    },
+    "tado Smart Thermostat X": {
+      "status": "substitute",
+      "name": "Google Nest Learning Thermostat (4th gen)",
+      "asin": null,
+      "evidence": "https://store.google.com/us/product/nest_learning_thermostat_4th_gen_specs",
+      "note": "tado doesn't sell in North America; Google's learning model is the closest Matter-enabled smart thermostat, works with heat pumps including aux and emergency heat, and ships with a Nest Temperature Sensor."
+    },
+    "ECOVACS GOAT A1600 RTK": {
+      "status": "substitute",
+      "name": "Ecovacs GOAT A2000 LiDAR Pro",
+      "asin": null,
+      "evidence": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a2000-lidar-pro",
+      "note": "The A1600 RTK is no longer on ECOVACS's US site; the A2000 LiDAR PRO is the next size up in the same GOAT A line, wire-free with dual LiDAR (no RTK antenna), a 12.96 in cutting width and 50% slopes."
+    },
+    "Segway Navimow i105E": {
+      "status": "regional",
+      "name": "Segway Navimow i105",
+      "asin": null,
+      "evidence": "https://navimow.com/products/navimow-i105",
+      "note": "North American version of the i105E, listed as available on Navimow's US store (1/8 acre)."
+    },
+    "Mammotion LUBA 2 AWD 3000X": {
+      "status": "substitute",
+      "name": "Mammotion LUBA 3 AWD 3000",
+      "asin": null,
+      "evidence": "https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower",
+      "note": "Mammotion's US store has replaced the LUBA 2 AWD with the LUBA 3 AWD; the 3000 variant keeps the 0.75 acre rating and 80% slopes, with 360° LiDAR, network RTK and AI vision."
+    },
+    "Husqvarna Automower 310E NERA": {
+      "status": "substitute",
+      "name": "Husqvarna Automower 410 iQ",
+      "asin": null,
+      "evidence": "https://www.husqvarna.com/us/robotic-lawn-mowers/automower-410-iq/",
+      "note": "The 310E NERA isn't in Husqvarna's US range; the Automower 410 iQ is a current iQ model rated for 0.5 acre with physical or virtual boundaries (shown out of stock online when checked; also sold through dealers)."
+    },
+    "Worx Landroid Vision M600": {
+      "status": "substitute",
+      "name": "Mammotion YUKA mini 2 1000H",
+      "asin": null,
+      "evidence": "https://us.mammotion.com/products/yuka-mini-2-1000h-robot-lawn-mower",
+      "note": "A US listing for the Landroid Vision M600 couldn't be confirmed; the YUKA mini 2 is a wire-free small-lawn mower guided by 360° LiDAR and AI vision, rated for 0.25 acre (shown sold out on Mammotion's US store when checked)."
+    },
+    "Bosch Serie 8 WRB247C40": {
+      "status": "substitute",
+      "name": "Bosch 500 Series Compact Heat Pump Dryer (WQB245B0UC)",
+      "asin": null,
+      "evidence": "https://www.bosch-home.com/us/en/product/washers-and-dryers/compact-dryers/compact-dryers/WQB245B0UC",
+      "note": "Bosch's North American heat pump dryer: 24 in compact, 4.0 cu ft, self-cleaning condenser, Home Connect, 63 dBA, ENERGY STAR (shown out of stock on Bosch's US store when checked)."
+    },
+    "Beko B7T88209": {
+      "status": "substitute",
+      "name": "Blomberg BLH240W3",
+      "asin": null,
+      "evidence": "https://www.blombergappliances.com/products/24-4-5-cu-ft-heat-pump-compact-front-load-dryer-energy-star%C2%AE-1",
+      "note": "Beko's heat pump dryers aren't confirmed in the US; Blomberg, Beko's sister brand in North America (both Arçelik), lists this 24 in, 4.5 cu ft ENERGY STAR heat pump dryer through dealers (no steam listed)."
+    },
+    "Miele TQ 1000 WP Nova Edition": {
+      "status": "substitute",
+      "name": "Miele T1 TXB360WP",
+      "asin": null,
+      "evidence": "https://www.mieleusa.com/product/12819070/t1-heat-pump-dryer-txb360wp",
+      "note": "The Nova Edition is European; the TXB360WP is the entry model of Miele's North American T1 heat pump range (18 lb/8 kg, 120 V, Miele@home), without SteamCare."
+    },
+    "AEG 9000X TR9XW80890": {
+      "status": "substitute",
+      "name": "LG DLHC5502W",
+      "asin": null,
+      "evidence": "https://www.lg.com/us/washers-dryers/lg-dlhc5502w-electric-dryer",
+      "note": "AEG laundry isn't sold in the US; LG's 7.8 cu ft ventless Dual Inverter HeatPump dryer (ENERGY STAR Most Efficient 2024, Auto Cleaning Condenser, AI Sensor Dry, ThinQ) matches its premium heat pump tier."
+    },
+    "Samsung DV90F09F4SU2": {
+      "status": "substitute",
+      "name": "LG DLHC4002W",
+      "asin": null,
+      "evidence": "https://www.lg.com/us/washers-dryers/lg-dlhc4002w-electric-dryer",
+      "note": "No standalone Samsung heat pump dryer could be confirmed on Samsung's US site; LG's 7.8 cu ft smart ventless heat pump dryer with AI Sensor Dry and ThinQ is the closest AI-driven model."
+    }
+  }
+}

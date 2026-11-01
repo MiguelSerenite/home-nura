@@ -20,6 +20,7 @@ import { getQuickAnswer, QUICK_ANSWERS } from '@/lib/blog/quick-answers'
 import { getCategory } from '@/lib/catalog'
 import { buildLlmsTxt } from '@/lib/llms'
 import { LANGUAGES, type Lang } from '@/lib/i18n'
+import { isNorthAmericanMarket, marketDecision, marketPicks, NORTH_AMERICAN_MARKETS } from '@/lib/market-models'
 import { BASE_URL } from '@/lib/seo'
 
 // Every Amazon link points to the locale market (amazon.it for Italian,
@@ -67,9 +68,9 @@ describe('Black Friday picks', () => {
     }
   })
 
-  it('resolves every pick in every language with the verdict name and reason', () => {
+  it('resolves every pick in every European language with the verdict name and reason', () => {
     for (const category of BLACK_FRIDAY_CATEGORIES) {
-      for (const lang of LANGUAGES) {
+      for (const lang of LANGUAGES.filter((l) => !isNorthAmericanMarket(l))) {
         const picks = getBlackFridayPicks(category, lang)
         expect(picks, `${lang}/${category.slug}`).toHaveLength(category.picks.length)
         picks.forEach((pick, i) => {
@@ -85,12 +86,32 @@ describe('Black Friday picks', () => {
     }
   })
 
+  it('resolves US and Canadian picks through the market decision and that market\'s verdict', () => {
+    for (const category of BLACK_FRIDAY_CATEGORIES) {
+      for (const market of NORTH_AMERICAN_MARKETS) {
+        const expected = [
+          ...new Set(category.picks.flatMap((ref) => marketDecision(market, ref.model).name ?? [])),
+        ]
+        const picks = getBlackFridayPicks(category, market)
+        expect(picks.map((p) => p.model), `${market}/${category.slug}`).toEqual(expected)
+        for (const pick of picks) {
+          const ref = category.picks.find((r) => marketDecision(market, r.model).name === pick.model)!
+          const source = marketPicks(market, ref.article).find((p) => p.model === pick.model)!
+          expect(pick.why).toBe(source.why)
+          expect(pick.guide.href).toBe(`/${market}/blog/${ref.article}`)
+        }
+      }
+    }
+  })
+
   it('links every pick to the locale market, product page when the ASIN is known', () => {
     for (const category of BLACK_FRIDAY_CATEGORIES) {
       for (const lang of LANGUAGES) {
         for (const pick of getBlackFridayPicks(category, lang)) {
           expect(pick.url, `${lang}/${pick.model}`).toMatch(marketLink(lang))
           if (pick.asin) expect(pick.url).toBe(amazonProductUrl(pick.asin, lang))
+          // US / Canada: a search for the North-American name the page shows.
+          else if (isNorthAmericanMarket(lang)) expect(pick.url).toBe(amazonSearchUrl(pick.model, lang))
           else expect(pick.url).toBe(amazonSearchUrl(category.picks.find((r) => r.model === pick.model)!.model, lang))
         }
       }

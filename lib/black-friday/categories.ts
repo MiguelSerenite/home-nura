@@ -29,6 +29,7 @@ export const BLACK_FRIDAY_CATEGORIES: readonly BlackFridayCategory[] = [
       { article: 'ninja-vs-philips-quel-choisir', model: 'Philips Airfryer Combi XXL Connecté - 8.3L' },
       { article: 'meilleur-airfryer-petit-budget', model: 'Xiaomi Smart Air Fryer Pro 4L' },
     ],
+    visual: 'airfryer',
     copy: AIRFRYERS_COPY,
   },
   {
@@ -49,6 +50,7 @@ export const BLACK_FRIDAY_CATEGORIES: readonly BlackFridayCategory[] = [
       { article: 'guide-robot-aspirateur-2026', model: 'Dreame X50 Ultra Complete' },
       { article: 'comparatif-robot-aspirateur-laveur', model: 'Roborock Qrevo Curv 2 Flow' },
     ],
+    visual: 'robot-vacuum',
     copy: ROBOT_VACUUMS_COPY,
   },
   {
@@ -60,6 +62,7 @@ export const BLACK_FRIDAY_CATEGORIES: readonly BlackFridayCategory[] = [
       { article: 'cafetiere-connectee-guide', model: 'Philips 5500 LatteGo Series EP5541/50' },
       { article: 'cafetiere-connectee-guide', model: 'Krups Evidence One EA895N10' },
     ],
+    visual: 'coffee-machine',
     copy: BEAN_TO_CUP_COPY,
   },
   {
@@ -71,6 +74,7 @@ export const BLACK_FRIDAY_CATEGORIES: readonly BlackFridayCategory[] = [
       { article: 'aspirateur-sans-fil-comparatif-2026', model: 'Rowenta X-Force Flex 15.60' },
       { article: 'aspirateur-sans-fil-comparatif-2026', model: 'Samsung Bespoke Jet AI' },
     ],
+    visual: 'vacuum',
     copy: STICK_VACUUMS_COPY,
   },
   {
@@ -100,6 +104,7 @@ export const BLACK_FRIDAY_CATEGORIES: readonly BlackFridayCategory[] = [
         },
       },
     ],
+    visual: 'thermostat',
     copy: THERMOSTATS_COPY,
   },
   {
@@ -111,6 +116,7 @@ export const BLACK_FRIDAY_CATEGORIES: readonly BlackFridayCategory[] = [
       { article: 'radiateur-electrique-connecte-guide', model: 'Sauter Orosi 2' },
       { article: 'radiateur-electrique-connecte-guide', model: 'Mill Gentle Air WiFi' },
     ],
+    visual: 'heater',
     copy: HEATERS_COPY,
   },
 ]

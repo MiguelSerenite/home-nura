@@ -1,0 +1,2281 @@
+{
+  "market": "ca",
+  "checkedOn": "2026-11-01",
+  "models": {
+    "Ninja Foodi MAX Double Stack XL Air Fryer - 9.5L": {
+      "status": "regional",
+      "name": "Ninja DoubleStack XL 2-Basket Air Fryer (SL401)",
+      "asin": "B0CZS6SS3Y",
+      "evidence": "https://www.amazon.ca/Ninja-SL401-DoubleStack-2-Basket-Technology/dp/B0CZS6SS3Y",
+      "note": "Same North American SL401 sold in Canada: two stacked baskets, 9.5 L (10 qt) in all."
+    },
+    "Philips Airfryer Série 3000 XL - 6.2L": {
+      "status": "regional",
+      "name": "Philips 3000 Series Airfryer with Window (NA331/00)",
+      "asin": "B0D9WCC5KH",
+      "evidence": "https://www.amazon.ca/dp/B0D9WCC5KH",
+      "note": "Same NA331/00 (6.2 L / 6.5 qt, window, 16 cooking functions), sold and shipped by Amazon.ca; also listed on philips.ca."
+    },
+    "Cosori Dual Blaze Smart Air Fryer - 6.4L": {
+      "status": "regional",
+      "name": "Cosori Dual Blaze 6.8-Quart Smart Air Fryer (CAF-P583S)",
+      "asin": "B09BJHB2BD",
+      "evidence": "https://www.amazon.ca/COSORI-Shaking-Preheating-Cooking-Dishwasher/dp/B09BJHB2BD",
+      "note": "Same Dual Blaze in its North American 120 V version, sold as 6.8 qt (6.4 L)."
+    },
+    "Tefal ActiFry Genius XL 2in1 - 1.7kg": {
+      "status": "substitute",
+      "name": "T-fal ActiFry Multicooker & Air Fryer (MY740CQ0)",
+      "asin": null,
+      "evidence": "https://www.t-fal.ca/en/actifry-multicooker-air-fryer-with-automatic-stirring-paddle-6-l-6-3-qt.html",
+      "note": "The Genius XL 2in1 isn't sold in Canada; T-fal Canada's current ActiFry (6 L) keeps the automatic stirring paddle and adds a multi-layer tray."
+    },
+    "Xiaomi Smart Air Fryer Pro 4L": {
+      "status": "substitute",
+      "name": "Cosori Lite 4.0-Quart Smart Air Fryer (CAF-LI401S)",
+      "asin": "B0H4NXXCTW",
+      "evidence": "https://www.amazon.ca/dp/B0H4NXXCTW",
+      "note": "Xiaomi doesn't sell air fryers in Canada; Cosori's compact 4 qt (3.8 L) app-connected basket model (VeSync app, voice control) is the closest match and can be ordered new on Amazon.ca; it has no viewing window."
+    },
+    "Ninja Foodi FlexDrawer 10.4L Double Zone": {
+      "status": "regional",
+      "name": "Ninja Foodi DualZone FlexBasket Air Fryer with 11-Qt MegaZone (AD600CO)",
+      "asin": "B0CK9HL44D",
+      "evidence": "https://www.amazon.ca/dp/B0CK9HL44D",
+      "note": "North American version of the same 10.4 L (11 qt) drawer with a removable divider: two 5.2 L (5.5 qt) zones or one MegaZone; sold new on Amazon.ca. Preferred over the smaller 7 qt DZ071C."
+    },
+    "Philips Airfryer Combi XXL Connecté - 8.3L": {
+      "status": "substitute",
+      "name": "Typhur Sync Air Fryer (AF14)",
+      "asin": "B0FHHBVGQK",
+      "evidence": "https://www.amazon.ca/dp/B0FHHBVGQK",
+      "note": "Philips doesn't list the Combi XXL Connected in Canada; the Typhur Sync (8 qt / 7.6 L, Wi-Fi app, built-in wireless probe) is sold and shipped by Amazon.ca."
+    },
+    "Cosori CP158-AF 5.5L Air Fryer": {
+      "status": "substitute",
+      "name": "Cosori Pro LE 5.0-Quart Air Fryer",
+      "asin": "B0CCJ8X596",
+      "evidence": "https://www.amazon.ca/COSORI-Air-Fryer-5-Qt-white/dp/B0CCJ8X596",
+      "note": "Current mid-size Cosori single-basket model sold in Canada, a little smaller (5 qt)."
+    },
+    "Moulinex Easy Fry Max 5L": {
+      "status": "regional",
+      "name": "T-fal Easy Fry Max 5L Air Fryer (EY245B50)",
+      "asin": "B0D3M69MFJ",
+      "evidence": "https://www.amazon.ca/dp/B0D3M69MFJ",
+      "note": "Same Easy Fry Max sold as T-fal in Canada (EY245B50, 5 L / 5.3 qt, 10 programs), sold and shipped by Amazon.ca; T-fal Canada's own store doesn't list it, but the same model is sold new, so no substitute is needed."
+    },
+    "Moulinex Cookeo Touch WiFi - 6L": {
+      "status": "substitute",
+      "name": "Instant Pot Pro Plus 6-Quart Wi-Fi Smart Multicooker",
+      "asin": "B08TMTJZ8L",
+      "evidence": "https://www.amazon.ca/Instant-Pot-Pressure-Steamer-Canning/dp/B08TMTJZ8L",
+      "note": "The Cookeo isn't sold in Canada; the Pro Plus is Instant Pot's Wi-Fi pressure multicooker (UL and ULC listed) with app-guided recipes, in the same 5.7 L (6 qt) size."
+    },
+    "Instant Pot Duo Plus WhisperQuiet - 5.7L": {
+      "status": "regional",
+      "name": "Instant Pot Duo Plus 6-Quart with WhisperQuiet Steam Release",
+      "asin": null,
+      "evidence": "https://instantpot.com/collections/ip-6qt/products/instant-pot-duo-plus-6qt-multi-use-pressure-cooker-whisper-quiet",
+      "note": "Same Duo Plus WhisperQuiet, sold as the 6 qt (5.7 L) model; UL and ULC listed, warranty valid in Canada."
+    },
+    "De'Longhi Magnifica Evo ECAM290.51.B": {
+      "status": "regional",
+      "name": "De'Longhi Magnifica Evo with LatteCrema System (ECAM29084SB)",
+      "asin": null,
+      "evidence": "https://www.delonghi.com/en-ca/p/magnifica-evo-magnifica-evo-espresso-machine--automatic-milk-frother/ECAM29084SB.html?pid=0132250155",
+      "note": "North American SKU of the Magnifica Evo with the LatteCrema milk system and 7 one-touch drinks."
+    },
+    "Philips 5500 LatteGo Series EP5541/50": {
+      "status": "regional",
+      "name": "Philips 5500 Series Fully Automatic Espresso Machine with LatteGo (EP5544/90)",
+      "asin": null,
+      "evidence": "https://www.philips.ca/c-p/EP5544_90/series-5500-fully-automatic-espresso-machine",
+      "note": "Canadian SKU of the same 5500 Series: 20 drinks, four user profiles and the LatteGo milk system."
+    },
+    "Krups Evidence One EA895N10": {
+      "status": "substitute",
+      "name": "De'Longhi Rivelia Fully Automatic Espresso Machine (EXAM44055B)",
+      "asin": null,
+      "evidence": "https://www.delonghi.com/en-ca/p/rivelia-rivelia-fully-automatic-espresso-machine--onyx-black/EXAM44055B.html?pid=0132250088",
+      "note": "Krups Canada lists only the Coffee Crush, which has a manual steam wand; the Rivelia offers 18 preset drinks, four user profiles and a colour touch display, at a higher tier."
+    },
+    "Etekcity Smart Nutrition Scale": {
+      "status": "same",
+      "name": "Etekcity Smart Nutrition Scale",
+      "asin": null,
+      "evidence": "https://etekcity.com/products/smart-nutrition-scale-esn00",
+      "note": "Same ESN00 model; a Canadian retail listing could not be confirmed, so the link falls back to a search."
+    },
+    "Roborock Qrevo Curv": {
+      "status": "same",
+      "name": "Roborock Qrevo Curv",
+      "asin": "B0D81675BQ",
+      "evidence": "https://www.amazon.ca/dp/B0D81675BQ",
+      "note": "Still sold new in Canada through Roborock's own listing on Amazon.ca."
+    },
+    "Roborock Q7 M5+": {
+      "status": "substitute",
+      "name": "Roborock Q7 L5+",
+      "asin": null,
+      "evidence": "https://ca.roborock.com/products/roborock-q7-l5-plus",
+      "note": "Roborock Canada doesn't list the Q7 M5+; the Q7 L5+ is its Canadian Q7 with LiDAR and an auto-empty dock (8,000 Pa vs. 10,000 Pa)."
+    },
+    "Dreame X50 Ultra Complete": {
+      "status": "same",
+      "name": "Dreame X50 Ultra Complete",
+      "asin": "B0F3J51GW5",
+      "evidence": "https://www.amazon.ca/DREAME-Ultra-Complete-Vacuum-Obstacle/dp/B0F3J51GW5",
+      "note": ""
+    },
+    "Roborock Qrevo Curv 2 Flow": {
+      "status": "same",
+      "name": "Roborock Qrevo Curv 2 Flow",
+      "asin": "B0FXG2BDTJ",
+      "evidence": "https://www.amazon.ca/roborock-Qrevo-Curv-Flow-Self-Cleaning/dp/B0FXG2BDTJ",
+      "note": ""
+    },
+    "Dyson V15 Detect": {
+      "status": "same",
+      "name": "Dyson V15 Detect",
+      "asin": null,
+      "evidence": "https://www.dysoncanada.ca/en/vacuum-cleaners/cordless/v15",
+      "note": ""
+    },
+    "Rowenta X-Force Flex 15.60": {
+      "status": "substitute",
+      "name": "LG CordZero Q3 Cordless Stick Vacuum",
+      "asin": null,
+      "evidence": "https://www.lg.com/ca_en/vacuum/stick-vacuums/c5323gw/",
+      "note": "Rowenta Canada no longer lists any X-Force Flex (its site links a battery recall notice); LG's CordZero Q3 offers up to 150 AW and washable filters, without a bending wand."
+    },
+    "Samsung Bespoke Jet AI": {
+      "status": "substitute",
+      "name": "Samsung Bespoke AI Jet Ultra Cordless Stick Vacuum (VS90F40DMK)",
+      "asin": null,
+      "evidence": "https://www.samsung.com/ca/vacuum-cleaners/stick/vc9700cl-stick-vacuum-jet-ai-ultra-400w-black-vs90f40dmk-aa/",
+      "note": "Samsung Canada's current Bespoke Jet AI is the 400 W VS90F40DMK, successor to the original model (AI Cleaning Mode 2.0, up to 100 minutes of runtime, All-in-One Clean Station); Canadian appliance retailers list it in stock."
+    },
+    "tado Heat Pump Optimizer X": {
+      "status": "substitute",
+      "name": "ecobee Smart Thermostat Premium",
+      "asin": "B09XXS48P8",
+      "evidence": "https://www.ecobee.com/en-ca/smart-thermostats/smart-thermostat-premium/",
+      "note": "tado doesn't sell in Canada; ecobee's flagship is listed for heat pumps with 2H/2C plus 2-stage auxiliary heat and ships with a SmartSensor."
+    },
+    "Netatmo Thermostat Original": {
+      "status": "substitute",
+      "name": "Google Nest Thermostat",
+      "asin": "B08HRPDYTP",
+      "evidence": "https://store.google.com/ca/product/nest_thermostat_specs",
+      "note": "Netatmo's thermostat is built for European boilers; the Nest Thermostat is the value-tier Wi-Fi, Matter-certified model that works with single-stage heat pumps with auxiliary or emergency heat."
+    },
+    "Honeywell Home T6": {
+      "status": "substitute",
+      "name": "ecobee Smart Thermostat Enhanced",
+      "asin": "B09XXTQPXC",
+      "evidence": "https://www.ecobee.com/en-ca/smart-thermostats/smart-thermostat-enhanced/",
+      "note": "Honeywell Home sells in Canada, but the T6 Pro Smart couldn't be confirmed for sale there (its Canadian retailer page only links to T6 Pro Smart support); ecobee's mid-range Wi-Fi model, listed for 2H/2C heat pumps plus one aux stage and dual fuel, fills the same hub-free slot."
+    },
+    "tado Smart Radiator Thermostat X Starter Kit": {
+      "status": "substitute",
+      "name": "ecobee Smart Thermostat Premium",
+      "asin": "B09XXS48P8",
+      "evidence": "https://www.ecobee.com/en-ca/smart-thermostats/smart-thermostat-premium/",
+      "note": "tado's radiator thermostats aren't sold in North America, where most homes heat with a central system; the ecobee Premium ships with a SmartSensor room sensor to balance comfort room by room. Chosen over a Mysa baseboard thermostat, which only fits homes with electric baseboards."
+    },
+    "Thermor Equateur 4": {
+      "status": "substitute",
+      "name": "Dreo Smart Wall-Mounted Heater 719S",
+      "asin": null,
+      "evidence": "https://ca.dreo.com/products/wall-mounted-heater-719s",
+      "note": "Thermor doesn't sell in Canada; Dreo Canada's Wi-Fi wall-mounted heater (app, Alexa and Google Home, 120° oscillation) is the closest fixed connected heater. Preferred over a Mysa baseboard thermostat, which controls existing heaters rather than replacing one. Dreo Canada lists it at its regular price with no sold-out flag; one group saw it sold out earlier, so check stock before linking."
+    },
+    "Sauter Orosi 2": {
+      "status": "substitute",
+      "name": "Dreo Smart Wall-Mounted Heater 517S",
+      "asin": null,
+      "evidence": "https://ca.dreo.com/products/wall-mounted-heater-517s",
+      "note": "Sauter doesn't sell in Canada; Dreo Canada's entry-level Wi-Fi wall-mounted heater (1,500 W, app control, 24-hour timer) fills the same budget fixed-heater slot. Dreo Canada lists it with no sold-out flag; one group saw it sold out earlier, so check stock before linking."
+    },
+    "Mill Gentle Air WiFi": {
+      "status": "substitute",
+      "name": "Dreo Oil-Filled Radiator 310",
+      "asin": null,
+      "evidence": "https://ca.dreo.com/products/oil-filled-radiator-310",
+      "note": "Mill doesn't list Canada among its markets; Dreo Canada's Wi-Fi wall heater already stands in for the Thermor in the same guide, so its portable oil-filled radiator (wheels, ECO mode, remote, tip-over protection) is the next closest plug-in model, without app control."
+    },
+    "Philips PerfectCare 8000 Series PSG8160/30": {
+      "status": "substitute",
+      "name": "Rowenta Ultimate Steam Pro (DG8668U1)",
+      "asin": null,
+      "evidence": "https://www.rowenta.ca/en/p/1830008943",
+      "note": "Philips sells no steam generator irons in Canada; this 120 V Rowenta high-pressure station is the top tier available there."
+    },
+    "Philips PerfectCare 7000 Series PSG7130/20": {
+      "status": "substitute",
+      "name": "Rowenta Perfect Steam Pro (DG8624U1)",
+      "asin": null,
+      "evidence": "https://www.rowenta.ca/en/p/1830007702",
+      "note": "No Philips steam generators in Canada; the Perfect Steam Pro is the lower-tier of the two Rowenta stations listed by Rowenta Canada."
+    },
+    "Laurastar Smart U": {
+      "status": "same",
+      "name": "Laurastar Smart U",
+      "asin": null,
+      "evidence": "https://www.lsestore.com/store/p51/LAURASTAR_SMART_U.html",
+      "note": ""
+    },
+    "Tefal Pro Express Ultimate II GV9721": {
+      "status": "substitute",
+      "name": "Rowenta Ultimate Steam Pro (DG8668U1)",
+      "asin": null,
+      "evidence": "https://www.rowenta.ca/en/p/1830008943",
+      "note": "T-fal Canada sells no steam generators; Groupe SEB's high-pressure equivalent in Canada is this Rowenta station (also the best-overall substitute)."
+    },
+    "Braun CareStyle 7 Pro IS7286BK": {
+      "status": "substitute",
+      "name": "Rowenta Perfect Steam Pro (DG8624U1)",
+      "asin": null,
+      "evidence": "https://www.rowenta.ca/en/p/1830007702",
+      "note": "Braun sells no irons in Canada and no 2 L-tank station could be verified there; this is the closest steam generator from a brand present in Canada."
+    },
+    "Philips SmartSleep Sleep & Wake-up Light HF3650/01": {
+      "status": "regional",
+      "name": "Philips SmartSleep Sleep and Wake-Up Light (HF3650/60)",
+      "asin": null,
+      "evidence": "https://www.philips.ca/c-p/HF3650_60/smartsleep-sleep-and-wake-up-light",
+      "note": "North American SKU (/60) of the same model, sold by Philips Canada."
+    },
+    "Philips Wake-up Light HF3520/01": {
+      "status": "regional",
+      "name": "Philips SmartSleep Wake-Up Light (HF3520/60)",
+      "asin": "B0093162RM",
+      "evidence": "https://www.amazon.ca/Philips-HF3520-Wake-Up-Coloured-Simulation/dp/B0093162RM",
+      "note": "North American SKU (/60) of the same model."
+    },
+    "Lumie Bodyclock Shine 300": {
+      "status": "same",
+      "name": "Lumie Bodyclock Shine 300",
+      "asin": "B082VB97H9",
+      "evidence": "https://www.amazon.ca/Lumie-Bodyclock-Shine-300-Wake-up/dp/B082VB97H9",
+      "note": ""
+    },
+    "Beurer WL 75": {
+      "status": "substitute",
+      "name": "Beurer WL 90",
+      "asin": "B01N9D0S06",
+      "evidence": "https://www.amazon.ca/dp/B01N9D0S06",
+      "note": "The WL 75 could not be confirmed as sold new in Canada (Beurer's North American store ships to the US only and its old Amazon Canada listing now redirects); the WL 90, from the same Beurer line, is a Bluetooth wake-up light with FM radio and colour mood light sold new there by an official distributor."
+    },
+    "Beurer WL 50": {
+      "status": "substitute",
+      "name": "Philips SmartSleep Wake-Up Light (HF3520/60)",
+      "asin": "B0093162RM",
+      "evidence": "https://www.amazon.ca/Philips-HF3520-Wake-Up-Coloured-Simulation/dp/B0093162RM",
+      "note": "The WL 50 could not be confirmed as sold new in Canada; the HF3520 is the closest button-operated sunrise alarm clock with FM radio sold there."
+    },
+    "Ecovacs Winbot W2 Omni": {
+      "status": "substitute",
+      "name": "Ecovacs Winbot W2S Omni",
+      "asin": "B0G5XYX1VH",
+      "evidence": "https://www.ecovacs.com/ca/shop/winbot-window-cleaning-robot/winbot-w2s-omni",
+      "note": "Ecovacs Canada no longer lists the W2 Omni and shows the W2 Pro Omni as sold out; the W2S Omni is its successor with the same battery station and self-winding cable."
+    },
+    "Cecotec Conga WinDroid 1090 Double Spray Connected": {
+      "status": "substitute",
+      "name": "Ecovacs Winbot mini 2",
+      "asin": null,
+      "evidence": "https://www.ecovacs.com/ca/shop/winbot-window-cleaning-robot/winbot-mini2",
+      "note": "Cecotec has no Canadian distribution; the mini 2 is the lowest-priced window robot Ecovacs Canada sells, with the same budget feature set."
+    },
+    "Hobot 2S": {
+      "status": "substitute",
+      "name": "Ecovacs Winbot W2S Pro Omni",
+      "asin": "B0H715P9FP",
+      "evidence": "https://www.ecovacs.com/ca/shop/winbot-window-cleaning-robot/winbot-w2s-pro-omni",
+      "note": "No Canadian listing for the Hobot 2S could be verified; this Ecovacs model lists frameless glass and dual-axis edge detection."
+    },
+    "Ecovacs Winbot W2S Omni": {
+      "status": "same",
+      "name": "Ecovacs Winbot W2S Omni",
+      "asin": "B0G5XYX1VH",
+      "evidence": "https://www.ecovacs.com/ca/shop/winbot-window-cleaning-robot/winbot-w2s-omni",
+      "note": ""
+    },
+    "Ecovacs Winbot W1 Pro": {
+      "status": "substitute",
+      "name": "Ecovacs Winbot mini 2",
+      "asin": null,
+      "evidence": "https://www.ecovacs.com/ca/shop/winbot-window-cleaning-robot/winbot-mini2",
+      "note": "Ecovacs Canada no longer lists the W1 Pro; the mini 2 is its current entry-level window robot."
+    },
+    "Wallbox Pulsar Max": {
+      "status": "substitute",
+      "name": "Wallbox Pulsar Plus",
+      "asin": null,
+      "evidence": "https://wallbox.com/en_ca/pulsar-plus-48a",
+      "note": "Same Wallbox Pulsar family: the Pulsar Max is a European Type 2 model, and Wallbox Canada sells the Pulsar Plus (40 or 48 A, J1772 or NACS)."
+    },
+    "Easee Charge Lite": {
+      "status": "substitute",
+      "name": "Emporia Classic EV Charger",
+      "asin": null,
+      "evidence": "https://www.staples.ca/products/3164580-en-emporia-classic-level-2-48a-ev-charger-with-24-cable-j1772-hardwired-white",
+      "note": "Easee doesn't sell in Canada; the Emporia Classic (sold at Staples) is the closest entry smart charger, with load management and solar charging via the Emporia Vue monitor."
+    },
+    "Zaptec Go 2": {
+      "status": "substitute",
+      "name": "Grizzl-E Ultimate 80A",
+      "asin": null,
+      "evidence": "https://www.grizzl-e.com/ca/products/grizzl-e-ultimate",
+      "note": "Zaptec isn't sold in Canada and 22 kW three-phase charging doesn't apply to 240 V homes; the Canadian-made Grizzl-E Ultimate 80A (19.2 kW, OCPP) is the closest high-power home charger."
+    },
+    "Hager witty one": {
+      "status": "substitute",
+      "name": "Grizzl-E Classic Connect 40A",
+      "asin": null,
+      "evidence": "https://www.grizzl-e.com/ca/products/grizzl-e-classic-connect",
+      "note": "Hager doesn't sell EV chargers in Canada; this Canadian-made 40 A plug-in smart charger (NEMA 14-50, Wi-Fi, UL/cUL) is the closest basic home unit."
+    },
+    "Schneider Electric EVlink Pro AC": {
+      "status": "substitute",
+      "name": "Schneider Charge",
+      "asin": null,
+      "evidence": "https://www.se.com/ca/en/home/ev-charging/",
+      "note": "Same brand: the EVlink Pro AC is a European model; Schneider Electric Canada sells its home EV charger with SmartAmp load management (up to 48 A) and the Schneider Charge app."
+    },
+    "Apple AirTag (2nd generation)": {
+      "status": "same",
+      "name": "Apple AirTag (2nd generation)",
+      "asin": null,
+      "evidence": "https://www.apple.com/ca/airtag/",
+      "note": ""
+    },
+    "Chipolo POP": {
+      "status": "same",
+      "name": "Chipolo POP",
+      "asin": null,
+      "evidence": "https://chipolo.net/en/products/chipolo-pop",
+      "note": "Sold through Chipolo's international store; no Canada-specific listing could be confirmed."
+    },
+    "Ugreen FineTrack Duo": {
+      "status": "substitute",
+      "name": "Pebblebee Clip 5",
+      "asin": null,
+      "evidence": "https://pebblebee.com/products/clip-5",
+      "note": "Ugreen's Canadian store doesn't list the FineTrack Duo; the Pebblebee Clip 5 is the closest rechargeable tracker for Apple Find My or Google Find Hub (Canada-specific listing not confirmed)."
+    },
+    "Samsung Galaxy SmartTag2": {
+      "status": "same",
+      "name": "Samsung Galaxy SmartTag2",
+      "asin": null,
+      "evidence": "https://www.samsung.com/ca/mobile-accessories/galaxy-smarttag2-black-ei-t5600bbegca/",
+      "note": "Samsung Canada's store showed the SmartTag2 as out of stock in November 2026; availability relies on retailers."
+    },
+    "Pebblebee Clip Universal": {
+      "status": "substitute",
+      "name": "Pebblebee Clip 5",
+      "asin": null,
+      "evidence": "https://pebblebee.com/products/clip-5",
+      "note": "Pebblebee's store now sells the Clip 5, the next generation of the Clip (Canada-specific listing not confirmed)."
+    },
+    "Bosch Serie 6 SMS6ZCI42E": {
+      "status": "substitute",
+      "name": "Bosch 800 Series Dishwasher (SHP78DM5N)",
+      "asin": null,
+      "evidence": "https://www.bosch-home.ca/en/product/dishwashers/top-controls/SHP78DM5N",
+      "note": "Same brand and tier: Bosch's Canadian 800 Series uses the same zeolite drying (CrystalDry), with a flexible third rack and Home Connect."
+    },
+    "Haier XS 6B0S3FSB": {
+      "status": "substitute",
+      "name": "LG LDNTH862S",
+      "asin": null,
+      "evidence": "https://www.lg.com/ca_en/dishwashers/top-control/ldnth862s/",
+      "note": "This EU Haier model isn't sold in Canada; LG's FlushFit LDNTH862S is the closest quiet (39 dBA), 16-place-setting smart dishwasher with automatic door opening at the end of the cycle (AutoVentDry)."
+    },
+    "Miele G 7110 SC AutoDos": {
+      "status": "substitute",
+      "name": "Miele G 7196 SCVi SF",
+      "asin": null,
+      "evidence": "https://www.miele.ca/en/c/dishwashers-1655.htm",
+      "note": "The G 7110 SC is a European freestanding model; Miele's North American 24 in AutoDos model is the closest match. The Canadian listing could not be fetched to confirm."
+    },
+    "Siemens iQ500 SN65ZX07CE": {
+      "status": "substitute",
+      "name": "Bosch 800 Series Dishwasher (SHV78CM3N)",
+      "asin": null,
+      "evidence": "https://www.bosch-home.ca/en/product/dishwashers/top-controls/SHV78CM3N",
+      "note": "Siemens home appliances aren't sold in Canada; the panel-ready Bosch 800 Series from the same BSH group offers the same zeolite drying (CrystalDry)."
+    },
+    "LG DF455HSS": {
+      "status": "substitute",
+      "name": "LG LDNTH753S",
+      "asin": null,
+      "evidence": "https://www.lg.com/ca_en/dishwashers/top-control/ldnth753s/",
+      "note": "Same brand: the DF455HSS is a European freestanding model; LG Canada's FlushFit LDNTH753S keeps QuadWash Pro, TrueSteam and Dynamic Heat Dry."
+    },
+    "EcoFlow DELTA 3 Plus": {
+      "status": "same",
+      "name": "EcoFlow DELTA 3 Plus",
+      "asin": null,
+      "evidence": "https://ca.ecoflow.com/products/delta-3-plus-portable-power-station",
+      "note": "Same model; EcoFlow Canada currently lists it as temporarily out of stock (back early next year, per EcoFlow), so check stock before linking."
+    },
+    "BLUETTI Elite 100 V2": {
+      "status": "same",
+      "name": "BLUETTI Elite 100 V2",
+      "asin": "B0F42CSQWG",
+      "evidence": "https://www.amazon.ca/BLUETTI-Elite-100-V2-Generator/dp/B0F42CSQWG",
+      "note": ""
+    },
+    "EcoFlow RIVER 3 Plus": {
+      "status": "same",
+      "name": "EcoFlow RIVER 3 Plus",
+      "asin": "B0DFXX4D1D",
+      "evidence": "https://www.amazon.ca/EF-ECOFLOW-Portable-Expandable-Generator/dp/B0DFXX4D1D",
+      "note": ""
+    },
+    "Anker SOLIX C1000 Gen 2": {
+      "status": "same",
+      "name": "Anker SOLIX C1000 Gen 2",
+      "asin": "B0FN7MSY4L",
+      "evidence": "https://www.amazon.ca/Anker-Portable-Station-Generator-Optional/dp/B0FN7MSY4L",
+      "note": ""
+    },
+    "Jackery Explorer 1000 v2": {
+      "status": "same",
+      "name": "Jackery Explorer 1000 v2",
+      "asin": null,
+      "evidence": "https://ca.jackery.com/products/jackery-explorer-1000-v2-portable-power-station",
+      "note": ""
+    },
+    "Somfy Ixengo L 3S io Pack Confort": {
+      "status": "substitute",
+      "name": "Mighty Mule MM371W",
+      "asin": "B07X36PGH1",
+      "evidence": "https://www.amazon.ca/dp/B07X36PGH1",
+      "note": "The dual MM572W is currently unavailable on amazon.ca and Mighty Mule's own store ships to the continental US only, so the smart-ready single-leaf MM371W, available there, is the closest swing gate kit; double gates need two-leaf hardware."
+    },
+    "Meross MSG100HK Smart Wi-Fi Garage Door Opener": {
+      "status": "regional",
+      "name": "Meross Smart Wi-Fi Garage Door Opener (MSG100)",
+      "asin": null,
+      "evidence": "https://shop.meross.com/products/smart-wifi-garage-door-opener",
+      "note": "Same North American MSG100; Meross's official store ships to Canada (fulfilled through Amazon, per its shipping policy)."
+    },
+    "Hörmann SupraMatic E Serie 4": {
+      "status": "substitute",
+      "name": "Genie StealthDrive Connect (7155-TKV)",
+      "asin": "B07SKCGMY7",
+      "evidence": "https://www.amazon.ca/dp/B07SKCGMY7",
+      "note": "No SupraMatic at Canadian retail; the Genie belt-drive opener with built-in Aladdin Connect Wi-Fi is the closest hub-free smart opener."
+    },
+    "Somfy Elixo 500 3S io Pack Confort": {
+      "status": "none",
+      "name": null,
+      "asin": null,
+      "evidence": "",
+      "note": "No DIY sliding gate kit could be confirmed on a Canadian storefront, and Mighty Mule ships its slide operator to the continental US only."
+    },
+    "Shelly 1 Gen4": {
+      "status": "regional",
+      "name": "Shelly 1 Gen4 UL-Certified",
+      "asin": null,
+      "evidence": "https://us.shelly.com/products/shelly-1-gen4-ul-certified-1",
+      "note": "Look for the UL-certified North American version; Shelly's US store did not confirm shipping to Canada and no Canadian listing was verified."
+    },
+    "ASAKUKI Smart Wi-Fi Essential Oil Diffuser 500ml": {
+      "status": "regional",
+      "name": "ASAKUKI Rock Smart Wi-Fi Essential Oil Diffuser 500ml",
+      "asin": null,
+      "evidence": "https://asakuki.com/collections/smart-wifi-enabled/products/asakuki-rock-smart-wi-fi-essential-oil-diffuser",
+      "note": "Same North American 500 mL Wi-Fi model; ASAKUKI's store lists Canada in its country selector."
+    },
+    "Maxcio Smart Essential Oil Diffuser 400ml": {
+      "status": "substitute",
+      "name": "Meross Smart Wi-Fi Essential Oil Diffuser (MOD150HK)",
+      "asin": null,
+      "evidence": "https://shop.meross.com/products/smart-wi-fi-essential-oil-diffuser",
+      "note": "Maxcio is not sold in Canada; Meross's 400 mL Wi-Fi diffuser, from an official store that ships to Canada, is the closest match and adds Apple Home."
+    },
+    "Aromatherapy Associates Atomiser Connect": {
+      "status": "same",
+      "name": "Aromatherapy Associates Atomiser Connect",
+      "asin": null,
+      "evidence": "https://www.aromatherapyassociates.com/products/atomiser-connect",
+      "note": "Sold through the brand's international store, whose delivery page lists Canadian shipping in CAD."
+    },
+    "Zen'Arôme Diffuseur connecté Prague": {
+      "status": "substitute",
+      "name": "ASAKUKI New Cube Light Wood Smart WiFi Essential Oil Diffuser",
+      "asin": null,
+      "evidence": "https://asakuki.com/collections/smart-wifi-enabled/products/asakuki-cube-light-wood-smart-wifi-essential-oil-diffuser",
+      "note": "Zen'Arôme is not sold in Canada; ASAKUKI's wood-look Wi-Fi model (700 mL, Tuya app, Alexa) is the closest decorative pick, without Apple Home."
+    },
+    "Levoit Dual 200S": {
+      "status": "same",
+      "name": "Levoit Dual 200S",
+      "asin": null,
+      "evidence": "https://levoit.ca/products/levoit-dual-200s-smart-top-fill-ultrasonic-humidifier",
+      "note": ""
+    },
+    "Burg-Wächter Combi-Line CL 20 E FS": {
+      "status": "substitute",
+      "name": "SentrySafe SFW123BTC",
+      "asin": null,
+      "evidence": "https://www.sentrysafe.com/where-to-buy",
+      "note": "Same substitute as the US: SentrySafe treats the US and Canada as one territory with Canadian retailers; model page https://www.sentrysafe.com/product/SFW123BTC (Canadian listing to confirm on amazon.ca)."
+    },
+    "Burg-Wächter PointSafe P 2 E FS": {
+      "status": "substitute",
+      "name": "Barska Diamond AX13938",
+      "asin": null,
+      "evidence": "https://shop.barska.com/products/diamond-biometric-keypad-security-safe-ax13938",
+      "note": "Same substitute as the US; Barska's own store only confirms US shipping, so the Canadian (amazon.ca) listing still needs checking."
+    },
+    "Yale Smart Safe YSS/250/EB1": {
+      "status": "none",
+      "name": null,
+      "asin": null,
+      "evidence": "",
+      "note": "Yale's Wi-Fi Smart Safe is 'Currently unavailable' on amazon.ca with no restock date, and Vaultek says its ViSN alert app is only in US app stores, so no Wi-Fi alert safe is sold new in Canada."
+    },
+    "Master Lock LX110BEURHRO": {
+      "status": "substitute",
+      "name": "Barska AX11224",
+      "asin": null,
+      "evidence": "https://shop.barska.com/products/0-79-cu-ft-biometric-security-safe",
+      "note": "Same substitute as the US; Canadian (amazon.ca) listing still needs checking."
+    },
+    "Phoenix Next LS7001FB": {
+      "status": "substitute",
+      "name": "SentrySafe SFW205BXC",
+      "asin": null,
+      "evidence": "https://www.sentrysafe.com/where-to-buy",
+      "note": "Same substitute as the US; SentrySafe sells through US and Canadian retailers (model page https://www.sentrysafe.com/product/SFW205BXC)."
+    },
+    "Bosch Serie 8 WGB256A40": {
+      "status": "regional",
+      "name": "Bosch 800 Series Compact Washer (WGB246AXUC)",
+      "asin": null,
+      "evidence": "https://www.bosch-home.ca/en/product/washers-and-dryers/compact-washers/compact-washers/WGB246AXUC",
+      "note": "Same North American 800 Series SKU, listed by Bosch Canada with a 10 kg rated drum, i-Dos and Home Connect."
+    },
+    "Haier I-Pro Series 7 HW100-B14979": {
+      "status": "substitute",
+      "name": "LG WM3600HWA",
+      "asin": null,
+      "evidence": "https://www.lg.com/ca_en/laundry/washers/wm3600hwa/",
+      "note": "I-Pro isn't sold in Canada and LG Canada doesn't list the WM4000HWA; the WM3600HWA (5.2 cu. ft., AI DD, steam, ThinQ Wi-Fi) is LG Canada's equivalent value smart front-loader (discontinued in the US, so recheck stock)."
+    },
+    "LG W4WR70E6Y": {
+      "status": "substitute",
+      "name": "LG WashCombo All-in-One Washer/Dryer (WM6998HBA)",
+      "asin": null,
+      "evidence": "https://www.lg.com/ca_en/laundry/washer-dryer-combos/wm6998hba/",
+      "note": "Same WashCombo as the US, rated 5.7 cu. ft. by LG Canada, with heat pump drying and ThinQ Wi-Fi."
+    },
+    "Siemens iQ700 WG44B2A40": {
+      "status": "substitute",
+      "name": "Bosch 500 Series Compact Washer (WGB24600UC)",
+      "asin": null,
+      "evidence": "https://www.bosch-home.ca/en/product/washers-and-dryers/compact-washers/compact-washers/WGB24600UC",
+      "note": "Siemens laundry isn't sold in Canada; the BSH sister model from Bosch Canada (10 kg rated, 1,600 rpm, Home Connect)."
+    },
+    "Miele WWR 860 WPS": {
+      "status": "regional",
+      "name": "Miele W1 WXR 860 WCS",
+      "asin": null,
+      "evidence": "https://www.miele.ca/en/c/washing-machines-1500.htm",
+      "note": "Same North American W1 SKU sold by Miele Canada (page blocks automated reads; confirm the listing)."
+    },
+    "Aqara Light Switch H2 EU": {
+      "status": "regional",
+      "name": "Aqara Light Switch H2 US",
+      "asin": null,
+      "evidence": "https://us.aqara.com/products/aqara-light-switch-h2-us",
+      "note": "Same North American H2 US model (neutral optional per Aqara's specs); Aqara's US store offers Canada with CAD pricing (amazon.ca listing not confirmed)."
+    },
+    "Shelly 1PM Gen4": {
+      "status": "substitute",
+      "name": "Shelly 1PM Mini Gen4",
+      "asin": null,
+      "evidence": "https://us.shelly.com/products/shelly-1pm-mini-gen4",
+      "note": "Same Gen4 Mini as the US; Shelly has no Canadian store, so confirm the amazon.ca listing and North American certification."
+    },
+    "Philips Hue Tap Dial Switch": {
+      "status": "same",
+      "name": "Philips Hue Tap Dial Switch",
+      "asin": null,
+      "evidence": "https://www.philips-hue.com/en-ca/p/hue-tap-dial-switch/046677578770",
+      "note": ""
+    },
+    "Legrand Céliane with Netatmo": {
+      "status": "regional",
+      "name": "Legrand radiant Smart Switch with Netatmo (WNRL10WH)",
+      "asin": null,
+      "evidence": "https://www.legrand.ca/wiring-devices/radiant-collection/smart-lighting/radiant-smart-switch-gateway-kit-with-netatmo-white/p/wnrkh10wh",
+      "note": "Same Legrand North America radiant with Netatmo line, listed on legrand.ca."
+    },
+    "BTicino Living Now with Netatmo": {
+      "status": "substitute",
+      "name": "Legrand adorne Smart Switch with Netatmo (WNAL10W1)",
+      "asin": null,
+      "evidence": "https://www.legrand.ca/wiring-devices/designer-switches-and-outlets/light-switches/adorne-smart-switch-with-netatmo-starter-kit-white/p/wnah10kitw1",
+      "note": "Same adorne with Netatmo substitute, listed on legrand.ca."
+    },
+    "Homey Pro (Early 2023)": {
+      "status": "substitute",
+      "name": "Homey Pro (2026)",
+      "asin": "B0G52DX5M3",
+      "evidence": "https://homey.app/en-ca/homey-pro/",
+      "note": "Homey now sells this hub as Homey Pro (2026) (title on amazon.ca): same radio lineup with 4 GB of RAM; 433 MHz is turned off in Canada."
+    },
+    "Aqara Hub M3": {
+      "status": "same",
+      "name": "Aqara Hub M3",
+      "asin": "B0CWLHSKYC",
+      "evidence": "https://www.amazon.ca/Aqara-Automation-Controller-Bluetooth-SmartThings/dp/B0CWLHSKYC",
+      "note": ""
+    },
+    "Home Assistant Green": {
+      "status": "same",
+      "name": "Home Assistant Green",
+      "asin": "B0CXVKSG19",
+      "evidence": "https://www.amazon.ca/Nabu-Casa-Home-Assistant-Green/dp/B0CXVKSG19",
+      "note": ""
+    },
+    "IKEA Dirigera": {
+      "status": "same",
+      "name": "IKEA DIRIGERA",
+      "asin": null,
+      "evidence": "https://www.ikea.com/ca/en/p/-50503414/",
+      "note": ""
+    },
+    "Philips Hue Bridge Pro": {
+      "status": "same",
+      "name": "Philips Hue Bridge Pro",
+      "asin": "B0FMGNF87H",
+      "evidence": "https://www.philips-hue.com/en-ca/p/hue-bridge-pro/046677582111",
+      "note": ""
+    },
+    "Ajax MotionProtect Outdoor": {
+      "status": "regional",
+      "name": "Ajax MotionProtect Outdoor",
+      "asin": null,
+      "evidence": "https://ajax.systems/products/specs/motionprotect-outdoor-jeweller/",
+      "note": "North American 905–926.5 MHz version (IC 26860-MOPROUNA1, ULC S306); sold through Ajax installers and dealers, not on Amazon; needs an Ajax hub."
+    },
+    "Ring Alarm Outdoor Siren": {
+      "status": "substitute",
+      "name": "Ajax StreetSiren",
+      "asin": null,
+      "evidence": "https://ajax.systems/products/specs/streetsiren-jeweller/",
+      "note": "Ring's Canadian Outdoor Siren page returns an error and the product is gone from Ring's North American catalog, so the closest current wireless outdoor siren is Ajax's North American StreetSiren (ULC listed), sold through Ajax dealers and installers."
+    },
+    "Philips Hue Outdoor Motion Sensor": {
+      "status": "same",
+      "name": "Philips Hue Outdoor Motion Sensor",
+      "asin": null,
+      "evidence": "https://www.philips-hue.com/en-ca/p/hue-outdoor-sensor/046677570989",
+      "note": ""
+    },
+    "Ajax StreetSiren": {
+      "status": "regional",
+      "name": "Ajax StreetSiren",
+      "asin": null,
+      "evidence": "https://ajax.systems/products/specs/streetsiren-jeweller/",
+      "note": "North American 905–926.5 MHz version (IC 26860-STRESINA1, ULC/CSA listed); sold through Ajax installers and dealers, not on Amazon; needs an Ajax hub."
+    },
+    "Ring Alarm Outdoor Contact Sensor": {
+      "status": "none",
+      "name": null,
+      "asin": null,
+      "evidence": "",
+      "note": "The amazon.ca listing is currently unavailable with no restock date, and Ring's Canadian page shows US pricing and ships to the continental US only; no outdoor-rated door sensor could be confirmed at Canadian retail."
+    },
+    "SwitchBot Curtain 3": {
+      "status": "same",
+      "name": "SwitchBot Curtain 3",
+      "asin": null,
+      "evidence": "https://ca.switch-bot.com/products/switchbot-curtain-3",
+      "note": ""
+    },
+    "Aqara Curtain Driver E1": {
+      "status": "same",
+      "name": "Aqara Curtain Driver E1",
+      "asin": "B0B127THJ7",
+      "evidence": "https://www.amazon.ca/dp/B0B127THJ7",
+      "note": ""
+    },
+    "Eve MotionBlinds Upgrade Kit": {
+      "status": "same",
+      "name": "Eve MotionBlinds Upgrade Kit",
+      "asin": null,
+      "evidence": "https://www.evehome.com/en-us/shipping-information-na-online-store",
+      "note": "Sold only through Eve's North American online store, which ships to Canada by FedEx (prices in USD, duties and taxes paid on delivery)."
+    },
+    "Aqara Roller Shade Driver E1": {
+      "status": "substitute",
+      "name": "SwitchBot Blind Tilt",
+      "asin": null,
+      "evidence": "https://ca.switch-bot.com/products/switchbot-blind-tilt",
+      "note": "Not offered by Aqara in North America; closest retrofit driver for existing blinds at the same tier (battery, light sensor, Matter via hub), but for horizontal blinds, not bead-chain roller shades."
+    },
+    "Somfy Glydea Ultra 35": {
+      "status": "regional",
+      "name": "Somfy Glydea Ultra 35 RTS",
+      "asin": null,
+      "evidence": "https://www.somfysystems.com/en-us/products/1246116/glydea-ultra-35-motor-rts-with-10-plug",
+      "note": "Somfy Systems serves Canada (somfy.ca redirects to it); North American RTS version with a 10 ft plug, sold and installed through Somfy dealers."
+    },
+    "Anker SOLIX Solarbank 3 E2700 Pro": {
+      "status": "substitute",
+      "name": "Anker SOLIX F3000 Portable Power Station",
+      "asin": null,
+      "evidence": "https://www.bestbuy.ca/en-ca/product/anker-solix-f3000-portable-power-station-3-072wh-3-600w-essential-home-backup-black/19371319",
+      "note": "Solarbank isn't sold in Canada; the F3000 (3,072 Wh, 2,400 W solar input, expandable to 24 kWh) is sold new on Best Buy Canada by the marketplace seller Anker SOLIXX, though sold out on Anker SOLIX Canada at the time of the check."
+    },
+    "Marstek Venus E 3.0": {
+      "status": "substitute",
+      "name": "Jackery Explorer 3000 v2",
+      "asin": null,
+      "evidence": "https://www.bestbuy.ca/en-ca/product/jackery-explorer-3000-v2-portable-power-station-3072wh-for-essential-home-backup-and-emergency-power-supply-black/19591566",
+      "note": "Marstek doesn't sell in Canada; the Explorer 3000 v2 is a value-tier single-unit LFP home backup battery (3,072 Wh, 3,600 W, UPS switchover of 20 ms or less) sold new by Jackery on Best Buy Canada, though unlike the Venus E it can't be expanded."
+    },
+    "Tesla Powerwall 3": {
+      "status": "same",
+      "name": "Tesla Powerwall 3",
+      "asin": null,
+      "evidence": "https://energylibrary.tesla.com/docs/Public/EnergyStorage/Powerwall/3/Datasheet/en-us/Powerwall-3-Datasheet.pdf",
+      "note": ""
+    },
+    "Zendure SolarFlow 2400 AC": {
+      "status": "substitute",
+      "name": "EcoFlow DELTA Pro 3",
+      "asin": null,
+      "evidence": "https://ca.ecoflow.com/products/delta-pro-3-portable-power-station",
+      "note": "The SolarFlow 2400 AC is a European model; the DELTA Pro 3 is EcoFlow Canada's expandable LFP home battery (4,096 Wh, 4,000 W, 120/240 V), listed as a pre-order item."
+    },
+    "EcoFlow STREAM Ultra": {
+      "status": "substitute",
+      "name": "EcoFlow DELTA 3 Ultra Plus",
+      "asin": null,
+      "evidence": "https://ca.ecoflow.com/products/ecoflow-delta-3-ultra-plus-portable-power-station",
+      "note": "STREAM isn't offered by EcoFlow Canada; same brand, closest expandable LFP battery (3,072 Wh, expandable to 11 kWh, 3,600 W output). Chosen over the smaller DELTA 3 Plus, which EcoFlow Canada lists as out of stock until early next year."
+    },
+    "BONECO H700 SMART": {
+      "status": "substitute",
+      "name": "Sharp Smart Air Purifier with Humidifier (KCP110CW)",
+      "asin": null,
+      "evidence": "https://www.thebrick.com/products/sharp-smart-air-purifier-with-plasmacluster-and-built-in-humidifier-kcp110cw",
+      "note": "No Canadian listing for the H700; Sharp's KCP110CW is the closest hybrid (True HEPA purifier with a built-in humidifier, Sharp Air app), listed on Sharp Canada and sold by The Brick and on Best Buy Canada's marketplace."
+    },
+    "Levoit Classic 300S": {
+      "status": "same",
+      "name": "Levoit Classic 300S",
+      "asin": null,
+      "evidence": "https://levoit.ca/products/levoit-classic-300s-ultrasonic-smart-humidifier-1",
+      "note": ""
+    },
+    "Dyson Purifier Humidify+Cool Formaldehyde PH04": {
+      "status": "substitute",
+      "name": "Dyson Purifier Humidify+Cool PH03",
+      "asin": null,
+      "evidence": "https://www.bestbuy.ca/en-ca/product/dyson-ph03-purifier-humidify-cool-air-purifier-with-hepa-filter-white-silver/15692772",
+      "note": "The PH04 isn't listed at Best Buy Canada; the PH03 is the same Humidify+Cool line without the formaldehyde filter and sensor, sold and in stock at Best Buy Canada."
+    },
+    "Levoit OasisMist 1000S": {
+      "status": "same",
+      "name": "Levoit OasisMist 1000S",
+      "asin": null,
+      "evidence": "https://levoit.ca/products/levoit-oasismist%C2%AE-1000s-smart-ultrasonic-cool-mist-tower-humidifier",
+      "note": ""
+    },
+    "Xiaomi Smart Humidifier 2": {
+      "status": "substitute",
+      "name": "Levoit Dual 200S",
+      "asin": null,
+      "evidence": "https://levoit.ca/products/levoit-dual-200s-smart-top-fill-ultrasonic-humidifier",
+      "note": "Xiaomi doesn't sell this humidifier in Canada; closest entry-level smart top-fill ultrasonic model on Levoit Canada (3 L, VeSync app, Alexa and Google Assistant, auto mode)."
+    },
+    "Aqara Motion and Light Sensor P2": {
+      "status": "same",
+      "name": "Aqara Motion and Light Sensor P2",
+      "asin": null,
+      "evidence": "https://www.aqara.com/en/where-to-buy/",
+      "note": ""
+    },
+    "IKEA MYGGSPRAY": {
+      "status": "same",
+      "name": "IKEA MYGGSPRAY",
+      "asin": null,
+      "evidence": "https://www.ikea.com/ca/en/p/myggspray-wireless-motion-sensor-smart-80619451/",
+      "note": ""
+    },
+    "Aqara Presence Sensor FP2": {
+      "status": "same",
+      "name": "Aqara Presence Sensor FP2",
+      "asin": null,
+      "evidence": "https://www.aqara.com/en/where-to-buy/",
+      "note": ""
+    },
+    "Philips Hue Motion Sensor": {
+      "status": "same",
+      "name": "Philips Hue Motion Sensor",
+      "asin": null,
+      "evidence": "https://www.philips-hue.com/en-ca/p/hue-motion-sensor/046677570972",
+      "note": ""
+    },
+    "Eve Motion": {
+      "status": "same",
+      "name": "Eve Motion",
+      "asin": null,
+      "evidence": "https://www.evehome.com/en-us/shipping-information-na-online-store",
+      "note": ""
+    },
+    "Shelly Pro 3EM": {
+      "status": "substitute",
+      "name": "Emporia Vue 3 Home Energy Monitor",
+      "asin": null,
+      "evidence": "https://help.emporiaenergy.com/en/articles/13372390-where-to-buy",
+      "note": "Shelly's North American store is set up for US delivery only; Emporia lists its own store and an Amazon Canada store for Canadian buyers, and the Vue 3 handles 120/240 V split-phase and three-phase service with solar tracking."
+    },
+    "Shelly EM Gen3": {
+      "status": "substitute",
+      "name": "Eyedro Home Energy Monitor Plus (EYEDRO-HOME)",
+      "asin": null,
+      "evidence": "https://eyedro.com/product/home-energy-monitor/",
+      "note": "Canadian brand (Waterloo, Ontario); a compact two-sensor whole-home monitor designed for 120/240 V homes in Canada and the US."
+    },
+    "Lixee ZLinky_TIC": {
+      "status": "substitute",
+      "name": "Rainforest Automation EAGLE-200 (RFA-Z114)",
+      "asin": null,
+      "evidence": "https://www.rainforestautomation.com/",
+      "note": "The ZLinky only fits France's Linky meter; Rainforest runs a Canada store and lists BC Hydro and London Hydro among the utilities it has worked with, so check its supported-utilities list."
+    },
+    "Ecojoko": {
+      "status": "substitute",
+      "name": "Eyedro Home Energy Monitor Plus (EYEDRO-HOME)",
+      "asin": null,
+      "evidence": "https://eyedro.com/product/home-energy-monitor/",
+      "note": "Ecojoko is sold only in France; Eyedro's clip-on whole-home monitor is designed for Canadian 120/240 V homes."
+    },
+    "Tibber Pulse P1": {
+      "status": "substitute",
+      "name": "Rainforest Automation EAGLE-200 (RFA-Z114)",
+      "asin": null,
+      "evidence": "https://www.rainforestautomation.com/",
+      "note": "Tibber does not operate in Canada and Emporia's Utility Connect lists US utilities only; the EAGLE-200 reads Zigbee smart meters at participating Canadian utilities."
+    },
+    "Midea PortaSplit": {
+      "status": "substitute",
+      "name": "Midea U-Shaped Smart Inverter Window Air Conditioner (MW12MSWBA5RCM)",
+      "asin": null,
+      "evidence": "https://www.midea.com/ca/cooling/window-air-conditioners/u-shaped-window-air-conditioner7.mw12mswba5rcm",
+      "note": "PortaSplit isn't sold in Canada; Midea's 12,000 BTU U-shaped inverter window unit likewise keeps compressor noise outside and installs without professional help. Chosen over the Duo portable (two groups of three)."
+    },
+    "Midea Silent Cool 26 Pro WF": {
+      "status": "substitute",
+      "name": "LG Dual Inverter Smart Wi-Fi Portable Air Conditioner (LP0824IVSM)",
+      "asin": null,
+      "evidence": "https://www.lg.com/ca_en/heating-and-cooling/portable-air-conditioner/lp0824ivsm/",
+      "note": "Midea Canada lists only the Duo portable; LG's 8,000 BTU Wi-Fi unit matches the Silent Cool's room size and app control."
+    },
+    "Trotec PAC 3910 X WiFi": {
+      "status": "substitute",
+      "name": "LG Dual Inverter Smart Wi-Fi Portable Air Conditioner (LP1419IVSM)",
+      "asin": null,
+      "evidence": "https://www.lg.com/ca_en/heating-and-cooling/portable-air-conditioner/lp1419ivsm/",
+      "note": "Trotec's PAC range is a 230 V European line; LG Canada rates this Wi-Fi unit for up to 500 sq. ft., close to the Trotec's 52 m² (about 560 sq. ft.)."
+    },
+    "De'Longhi Pinguino PAC EL112 CST WiFi": {
+      "status": "substitute",
+      "name": "De'Longhi Pinguino Portable Air Conditioner (PAC EL376HGRFK)",
+      "asin": null,
+      "evidence": "https://www.delonghi.com/en-ca/p/portable-air-conditioners-pac-el376hgrfk-550-sq-ft-portable-air-conditioner-with-wifi--heat-and-ecoreal-feel/PACEL376HGRFK-6ALWH.html?pid=0151662203",
+      "note": "Closest Canadian Wi-Fi model in the same Pinguino PAC EL line (7,200 BTU SACC / 12,500 BTU ASHRAE, adds a heat mode), preferred over LG's LP1419IVSM to stay in the same line. De'Longhi Canada showed it out of stock off-season, so check stock before linking."
+    },
+    "Olimpia Splendid Dolceclima Air Pro 14 HP WiFi": {
+      "status": "substitute",
+      "name": "Midea Duo Ultra Quiet Inverter Portable Air Conditioner (MP10SV5CWT)",
+      "asin": null,
+      "evidence": "https://www.midea.com/ca/cooling/portable-air-conditioners/duo-ultra-quiet-portable-air-conditioner.mp10sv5cwt",
+      "note": "No heat-pump portable was verified on Canadian manufacturer sites; the Duo matches the inverter and Wi-Fi brief but cools only."
+    },
+    "Rowenta Turbo Silence Extreme+": {
+      "status": "substitute",
+      "name": "Rowenta Turbo Silence 16-Inch Stand Fan (VU5670U2)",
+      "asin": null,
+      "evidence": "https://www.rowenta.ca/en/Home-Comfort/Fans/Turbo-Silence-16%E2%80%9D-Stand-Fan/p/1830006168",
+      "note": "Rowenta Canada lists the previous Turbo Silence Extreme 16\" stand fan (as low as 35 dB(A)), not the + version."
+    },
+    "Duux Whisper Flex 2 Smart": {
+      "status": "substitute",
+      "name": "Midea Smart DC Pedestal Air Circulator (MSFS07RW6DWW)",
+      "asin": null,
+      "evidence": "https://www.midea.com/ca/cooling/fans/smart-pedestal-air-circulator-with-adjustable-height.msfs07rw6dww",
+      "note": "Duux isn't sold in Canada; Midea's DC-motor pedestal fan (as low as 21 dB per Midea, app, voice and Matter control) is the closest quiet smart equivalent."
+    },
+    "Cecotec EnergySilence 1040 SmartExtreme": {
+      "status": "substitute",
+      "name": "Midea Smart DC Pedestal Air Circulator (MSFAS07RW6WC)",
+      "asin": null,
+      "evidence": "https://www.midea.com/ca/cooling/fans/smart-pedestal-air-circulator-with-adjustable-height1.msfas07rw6wc",
+      "note": "Cecotec isn't sold in Canada; Midea's 18 W DC pedestal fan with 12 speeds, sleep mode, timer and remote is the closest equivalent."
+    },
+    "Dolphin S300i": {
+      "status": "regional",
+      "name": "Dolphin S300",
+      "asin": null,
+      "evidence": "https://www.maytronics.com/en-ca/residential-pools/best-seller-cleaners/dolphin-s300_99996221-USWI.html",
+      "note": "North American version of the same S300 (99996221-USWI), with MyDolphin Plus app, caddy and ultra-fine filter kit."
+    },
+    "Dolphin E35i": {
+      "status": "substitute",
+      "name": "Dolphin Nautilus CC Pro",
+      "asin": "B0BP8G6T4Z",
+      "evidence": "https://www.maytronics.com/en-ca/store/residential-pools/dolphin-nautilus-cc-pro/99996207-PCI.html",
+      "note": "No E35i in Canada; like the E35i, the Nautilus CC Pro sits below the S300 in Dolphin's range and keeps waterline scrubbing, a top-load filter and the MyDolphin Plus app."
+    },
+    "Beatbot AquaSense 2 Pro": {
+      "status": "substitute",
+      "name": "Beatbot AquaSense 2 Ultra",
+      "asin": null,
+      "evidence": "https://www.beatbot.com/policies/shipping-policy",
+      "note": "The 2 Pro is discontinued; Beatbot's North American store sells the AquaSense 2 Ultra, its cordless successor that also skims the surface, and ships to the United States and Canada. Preferred over Aiper's Scuba X1 Pro Max to stay in the same product line."
+    },
+    "Aiper Scuba X1": {
+      "status": "same",
+      "name": "Aiper Scuba X1",
+      "asin": null,
+      "evidence": "https://aiper.com/ca/aiper-scuba-series/aiper-scuba-x1",
+      "note": ""
+    },
+    "Dolphin Liberty 400": {
+      "status": "same",
+      "name": "Dolphin Liberty 400",
+      "asin": null,
+      "evidence": "https://www.maytronics.com/en-ca/store/residential-pools/cordless-cleaners/dolphin-liberty-400/99998140-US.html",
+      "note": ""
+    },
+    "Weber Searwood 600": {
+      "status": "same",
+      "name": "Weber Searwood 600",
+      "asin": null,
+      "evidence": "https://amer.weber.com/en-ca/products/searwood-600-pellet-grill-black-1500120",
+      "note": ""
+    },
+    "Ninja Woodfire Pro Connect XL": {
+      "status": "regional",
+      "name": "Ninja Woodfire Pro Connect Premium XL Outdoor Grill & Smoker (OG951)",
+      "asin": null,
+      "evidence": "https://www.amazon.ca/dp/B0CB1QX1Q2",
+      "note": "Same OG951 listed in Canada; shown as currently unavailable (off-season) when checked, so the link falls back to a name search."
+    },
+    "Weber Genesis EPX-335 Smart": {
+      "status": "substitute",
+      "name": "Weber Spirit EX-325 Smart Gas Grill",
+      "asin": null,
+      "evidence": "https://amer.weber.com/en-ca/products/spirit-ex-325-smart-gas-grill-liquid-propane-black-1501843",
+      "note": "Weber Canada lists no Genesis Smart model; the Spirit EX-325 Smart is the smart gas grill it sells, with Sear Zone boost and Weber Connect thermometer."
+    },
+    "Traeger Woodridge Pro": {
+      "status": "same",
+      "name": "Traeger Woodridge Pro",
+      "asin": null,
+      "evidence": "https://www.traeger.com/en-ca/pellet-grills/woodridge",
+      "note": ""
+    },
+    "Traeger Ironwood XL": {
+      "status": "same",
+      "name": "Traeger Ironwood XL",
+      "asin": null,
+      "evidence": "https://www.traeger.com/en-ca/pellet-grills/ironwood-xl",
+      "note": ""
+    },
+    "Philips Hue White and Color Ambiance E27": {
+      "status": "regional",
+      "name": "Philips Hue White and Color Ambiance A19 E26 Smart Bulb, 75W (1,100 lm)",
+      "asin": null,
+      "evidence": "https://www.philips-hue.com/en-ca/p/hue-white-and-color-ambiance-75w-a19-e26-smart-bulb/046677591168",
+      "note": "Same 1,100 lm bulb in the A19/E26 format Hue Canada lists as in stock."
+    },
+    "TP-Link Tapo L535E": {
+      "status": "regional",
+      "name": "TP-Link Tapo L535E Matter Smart Bulb",
+      "asin": "B0CFG9SHPQ",
+      "evidence": "https://www.amazon.ca/dp/B0CFG9SHPQ",
+      "note": "Same Tapo L535E, A19/E26 version linked to this listing from TP-Link Canada's product page."
+    },
+    "Govee RGBIC LED Strip H619A": {
+      "status": "substitute",
+      "name": "Govee RGBIC LED Strip Lights with Covers (H61B5)",
+      "asin": null,
+      "evidence": "https://ca.govee.com/products/govee-rgbic-led-strip-lights-with-covers",
+      "note": "H619A isn't listed on Govee Canada; the H61B5 is its current 5 m Wi-Fi + Bluetooth RGBIC strip."
+    },
+    "IKEA KAJPLATS E27 CWS globe 1055lm": {
+      "status": "regional",
+      "name": "IKEA KAJPLATS LED bulb E26 1100 lumen, smart color and white spectrum, globe opal white",
+      "asin": null,
+      "evidence": "https://www.ikea.com/ca/en/p/kajplats-led-bulb-e26-1100-lumen-smart-color-and-white-spectrum-globe-opal-white-10611463/",
+      "note": "North American E26 version of the same KAJPLATS colour globe."
+    },
+    "Philips Hue Ambiance Gradient Lightstrip 2m": {
+      "status": "substitute",
+      "name": "Philips Hue Flux Strip Light, 10 ft (3 m)",
+      "asin": null,
+      "evidence": "https://www.philips-hue.com/en-ca/p/lightstrips-flux-strip-light-10ft/046677607753",
+      "note": "Hue Canada doesn't list the 80-inch Gradient Lightstrip; the Flux strip is its current multicolour gradient strip."
+    },
+    "Dyson Purifier Cool Formaldehyde TP09": {
+      "status": "substitute",
+      "name": "Dyson Purifier Cool PC2 De-NOx",
+      "asin": null,
+      "evidence": "https://www.dysoncanada.ca/en/air-treatment/air-purifiers/purifier-cool-pc2/de-nox-white-gold",
+      "note": "Dyson Canada no longer lists the TP09; the PC2 De-NOx is its current purifier fan with HEPA + K-Carbon filtration that also destroys formaldehyde."
+    },
+    "Xiaomi Smart Standing Fan 2 Pro": {
+      "status": "substitute",
+      "name": "Dreo TurboPoly Fan 508S",
+      "asin": null,
+      "evidence": "https://ca.dreo.com/products/turbopoly%E2%84%A2-fan-508s-1",
+      "note": "Xiaomi doesn't sell this fan in Canada; Dreo's DC-motor smart fan (9 speeds, 6 wind modes, as low as 20 dB per Dreo, app, voice and remote control) sits in the same value tier. Chosen over Midea's smart pedestal fan, which already stands in for the Duux Whisper Flex 2 and would appear twice in the same guide."
+    },
+    "Dyson Purifier Hot+Cool Formaldehyde HP09": {
+      "status": "substitute",
+      "name": "Dyson Purifier Hot+Cool HP2 De-NOx",
+      "asin": null,
+      "evidence": "https://www.dysoncanada.ca/en/air-treatment/air-purifiers/purifier-hot-cool-hp2/de-nox-white-gold",
+      "note": "Dyson Canada no longer lists the HP09; the HP2 De-NOx is its current 3-in-1 heater, fan and purifier that also destroys formaldehyde."
+    },
+    "SwitchBot Battery Circulator Fan 2 Pro": {
+      "status": "regional",
+      "name": "SwitchBot Battery Circulator Fan 2 Pro",
+      "asin": null,
+      "evidence": "https://ca.switch-bot.com/products/switchbot-battery-circulator-fan-2-pro",
+      "note": "Same fan; SwitchBot Canada sells UK, EU and US types, and only the EU model has the ion generator."
+    },
+    "Somfy Oximo io": {
+      "status": "substitute",
+      "name": "Somfy Oximo RTS 550R2",
+      "asin": null,
+      "evidence": "https://www.somfysystems.com/en-us/products/1244793/oximo-rts-550r2",
+      "note": "io-homecontrol isn't sold in Canada; the 120 V Oximo RTS is Somfy's North American rolling shutter motor, without position feedback."
+    },
+    "Somfy Oximo RTS": {
+      "status": "regional",
+      "name": "Somfy Oximo RTS 550R2",
+      "asin": null,
+      "evidence": "https://www.somfysystems.com/en-us/products/1244793/oximo-rts-550r2",
+      "note": "Somfy.ca redirects to Somfy Systems North America, which sells this 120 V motor through dealers."
+    },
+    "VELUX INTEGRA Solar Roller Shutter": {
+      "status": "substitute",
+      "name": "VELUX Solar-Powered Room-Darkening Skylight Shade",
+      "asin": null,
+      "evidence": "https://www.velux.ca/en-ca/products/blinds/blackout-blinds",
+      "note": "VELUX Canada doesn't list exterior roller shutters; its solar room-darkening skylight shade is the closest wire-free option, fitted inside."
+    },
+    "Somfy TaHoma Switch": {
+      "status": "regional",
+      "name": "Somfy TaHoma switch (RTS and Zigbee)",
+      "asin": null,
+      "evidence": "https://www.somfysystems.com/en-us/products/1871037/tahoma-switch",
+      "note": "Sold in Canada through Somfy Systems North America; runs RTS and Zigbee products, not io-homecontrol."
+    },
+    "Shelly 2PM Gen4": {
+      "status": "regional",
+      "name": "Shelly 2PM Gen4 UL",
+      "asin": null,
+      "evidence": "https://us.shelly.com/products/shelly-2pm-gen4-ul-certified",
+      "note": "UL-certified North American version; Shelly's US store ships to the US only, so check a Canadian retailer."
+    },
+    "Eufy Indoor Cam E220": {
+      "status": "same",
+      "name": "eufy Indoor Cam E220",
+      "asin": null,
+      "evidence": "https://www.anker.com/ca/products/t8410121",
+      "note": ""
+    },
+    "TP-Link Tapo C220": {
+      "status": "same",
+      "name": "TP-Link Tapo C220",
+      "asin": "B0CWD7D41R",
+      "evidence": "https://www.amazon.ca/dp/B0CWD7D41R",
+      "note": "TP-Link Canada's site doesn't list the C220, but the same model is sold through Amazon in Canada."
+    },
+    "Reolink E1 Pro": {
+      "status": "substitute",
+      "name": "Reolink E1 Zoom",
+      "asin": null,
+      "evidence": "https://reolink.com/ca/product/e1-zoom/",
+      "note": "Reolink's Canadian store no longer sells the E1 Pro (its page is marked discontinued); the E1 Zoom is the same E1 indoor line, a tier up, with the same microSD, FTP/NAS and NVR/Home Hub options."
+    },
+    "Aqara Camera Hub G3": {
+      "status": "same",
+      "name": "Aqara Camera Hub G3",
+      "asin": null,
+      "evidence": "https://us.aqara.com/products/camera-hub-g3",
+      "note": "Aqara's North American store offers Canada with CAD pricing; no amazon.ca listing confirmed."
+    },
+    "Xiaomi Mi 360° Camera (1080p)": {
+      "status": "substitute",
+      "name": "TP-Link Tapo C210",
+      "asin": "B09Y8TLP25",
+      "evidence": "https://www.tp-link.com/ca/home-networking/cloud-camera/tapo-c210/",
+      "note": "Xiaomi doesn't officially sell this camera in Canada; the Tapo C210 is the closest budget indoor pan/tilt model (2K 3 MP, 360° pan, microSD up to 512 GB)."
+    },
+    "LG CordZero A9K": {
+      "status": "substitute",
+      "name": "LG CordZero Q3 Cordless Stick Vacuum",
+      "asin": null,
+      "evidence": "https://www.lg.com/ca_en/vacuum/stick-vacuums/c5323b0/",
+      "note": "LG Canada lists no A9-series CordZero; the Q3 is the only CordZero it sells, with Kompressor but a lower tier and no auto-empty tower."
+    },
+    "Philips WelcomeEye Connect 3": {
+      "status": "substitute",
+      "name": "Aiphone JOS-1AW",
+      "asin": null,
+      "evidence": "https://www.aiphone.com/products/jos-1aw/",
+      "note": "Philips WelcomeEye kits are European only; Aiphone's North American JO box set (CSA-listed power supply) is the closest 2-wire video intercom kit, without RFID fobs."
+    },
+    "BTicino Classe 100X": {
+      "status": "substitute",
+      "name": "Ring Wired Doorbell 2K Plus",
+      "asin": null,
+      "evidence": "https://ring.com/ca/en/products/wired-doorbell-plus",
+      "note": "BTicino door entry isn't sold in Canada; a wired video doorbell reuses the existing 2-wire doorbell circuit and answers from the app, but has no indoor screen."
+    },
+    "Ring Intercom Video": {
+      "status": "substitute",
+      "name": "Ring Battery Doorbell 2K",
+      "asin": null,
+      "evidence": "https://ring.com/ca/en/products/battery-doorbell-2nd-gen",
+      "note": "Ring Intercom Video isn't in Ring's Canadian lineup and the Peephole Cam 2K page says it doesn't ship to Canada; the battery doorbell needs no wiring but doesn't connect to the building's entry panel."
+    },
+    "BTicino Classe 300EOS with Netatmo": {
+      "status": "substitute",
+      "name": "Aiphone JOS-1FW",
+      "asin": null,
+      "evidence": "https://www.aiphone.com/products/jos-1fw-boxed-set/",
+      "note": "BTicino door entry isn't sold in Canada; Aiphone's flush-mount Wi-Fi box set (CSA-listed power supply) is the closest design-led 2-wire kit, without built-in Alexa."
+    },
+    "Comelit Visto Wi-Fi KVV8101": {
+      "status": "substitute",
+      "name": "Aiphone JOS-1VW",
+      "asin": null,
+      "evidence": "https://www.aiphone.com/products/jos-1vw-boxed-set/",
+      "note": "No Canadian retail listing was found for the Visto Wi-Fi kit; Aiphone's Wi-Fi JO box set with a zinc die-cast door station is the closest 7-inch 2-wire kit."
+    },
+    "Kärcher SC 5 EasyFix": {
+      "status": "substitute",
+      "name": "Dupray Neat Plus Steam Cleaner",
+      "asin": null,
+      "evidence": "https://dupray.com/en-ca/products/neat-plus-steam-cleaner",
+      "note": "Kärcher's North American range is the 120 V SC 3 EasyFix (its US site says the SC 4 and SC 5 aren't made for North American power); the Neat Plus is a 120 V canister with a 1.6 L tank you can refill during use and 17 accessories."
+    },
+    "Black+Decker BHSM1610DSM": {
+      "status": "substitute",
+      "name": "Black+Decker 7-in-1 Steam Mop with SteamGlove (HSMC1361SGP)",
+      "asin": null,
+      "evidence": "https://www.blackanddecker.ca/product/hsmc1361sgp/7in1-steam-mop-steamglove-handheld-steamer",
+      "note": "The BHSM1610DSM is a European model; Black+Decker Canada's 2-in-1 mop-to-handheld steamer is ready in 20 seconds and comes with a SteamGlove kit."
+    },
+    "Bissell PowerFresh Slim Steam": {
+      "status": "regional",
+      "name": "Bissell PowerFresh Slim 3-in-1 Scrubbing & Sanitizing Steam Mop (2181)",
+      "asin": null,
+      "evidence": "https://www.bissell.com/en-ca/product/powerfresh%C2%AE-slim-3-in-1-scrubbing-%26-sanitizing-steam-mop-2181.html",
+      "note": "Canadian model of the same PowerFresh Slim, listed in Bissell Canada's product catalogue; the page itself could not be loaded to confirm stock."
+    },
+    "Kärcher SC 3 EasyFix": {
+      "status": "regional",
+      "name": "Kärcher SC 3 EasyFix (1.513-657.0)",
+      "asin": null,
+      "evidence": "https://www.kaercher.com/ca/home-garden/steam-cleaners/sc-3-easyfix-15136570.html",
+      "note": "120 V North American version of the same SC 3 EasyFix (3 bar, 1 L tank refillable at any time), listed by Kärcher Canada."
+    },
+    "Polti Vaporetto Smart 100_T": {
+      "status": "substitute",
+      "name": "Dupray Neat Plus Steam Cleaner",
+      "asin": null,
+      "evidence": "https://dupray.com/en-ca/products/neat-plus-steam-cleaner",
+      "note": "No Canadian listing for the Vaporetto Smart range could be verified; the Neat Plus is the closest 120 V canister with a 1.6 L tank you can refill while cleaning."
+    },
+    "Aqara Water Leak Sensor T1": {
+      "status": "regional",
+      "name": "Aqara Water Leak Sensor",
+      "asin": null,
+      "evidence": "https://us.aqara.com/products/water-leak-sensor",
+      "note": "Same North American Aqara Water Leak Sensor; Aqara's US store offers Canada with CAD pricing (no amazon.ca listing verified)."
+    },
+    "Shelly Flood Gen4": {
+      "status": "same",
+      "name": "Shelly Flood Gen4",
+      "asin": null,
+      "evidence": "https://www.aartech.ca/shelly-flood-gen4",
+      "note": "Listed by Canadian Shelly retailer Aartech (Wi-Fi, Bluetooth, Zigbee, Matter, 2 m cable); stock status not shown."
+    },
+    "Aqara Valve Controller T1": {
+      "status": "same",
+      "name": "Aqara Valve Controller T1",
+      "asin": null,
+      "evidence": "https://us.aqara.com/products/valve-controller-t1",
+      "note": "Same model; Aqara's North American store, which offers Canada with CAD pricing, lists it (no amazon.ca listing verified)."
+    },
+    "Eve Water Guard": {
+      "status": "substitute",
+      "name": "Shelly Flood Gen4",
+      "asin": null,
+      "evidence": "https://www.aartech.ca/shelly-flood-gen4",
+      "note": "Eve sells the Water Guard only through its US store; the Flood Gen4 also has a built-in alarm, a 2 m sensing cable you can extend, and Matter for Apple Home."
+    },
+    "Airthings View Plus": {
+      "status": "same",
+      "name": "Airthings View Plus",
+      "asin": null,
+      "evidence": "https://www.airthings.com/en-ca/view-plus",
+      "note": ""
+    },
+    "Netatmo Smart Indoor Air Quality Monitor": {
+      "status": "substitute",
+      "name": "SwitchBot Meter Pro (CO2 Monitor)",
+      "asin": null,
+      "evidence": "https://ca.switch-bot.com/products/switchbot-meter-pro-co2-monitor",
+      "note": "Netatmo ended e-shop sales in Canada on June 1, 2026 and lists the monitor as out of stock; the Meter Pro is an affordable NDIR CO2, temperature and humidity monitor."
+    },
+    "Aranet4 Home": {
+      "status": "same",
+      "name": "Aranet4 Home",
+      "asin": null,
+      "evidence": "https://aranet.com/en/home/products/aranet4-home",
+      "note": "Battery-powered, so no mains difference; sold by Aranet's own store, which ships outside the US by DHL Express (no Canadian retailer listing verified)."
+    },
+    "Awair Element": {
+      "status": "substitute",
+      "name": "IQAir AirVisual Pro",
+      "asin": null,
+      "evidence": "https://www.iqair.com/ca/air-quality-monitors/airvisual-pro",
+      "note": "Awair has no Canadian store or verified Canadian listing; the AirVisual Pro is a premium display monitor for PM2.5, CO2, temperature and humidity, sold on IQAir's Canadian site."
+    },
+    "Airthings Wave Plus": {
+      "status": "same",
+      "name": "Airthings Wave Plus",
+      "asin": null,
+      "evidence": "https://www.airthings.com/en-ca/wave-plus",
+      "note": ""
+    },
+    "Atlantic Oniris": {
+      "status": "substitute",
+      "name": "Dreo Smart Wall-Mounted Heater 719S",
+      "asin": null,
+      "evidence": "https://ca.dreo.com/products/wall-mounted-heater-719s",
+      "note": "Atlantic doesn't sell its heaters in Canada; Dreo Canada's fast-heating ceramic Wi-Fi wall heater is the closest responsive smart wall model, as in the US."
+    },
+    "Rointe Kyros WiFi": {
+      "status": "substitute",
+      "name": "Dreo Smart Wall-Mounted Heater 719S",
+      "asin": null,
+      "evidence": "https://ca.dreo.com/products/wall-mounted-heater-719s",
+      "note": "Rointe's site lists only European markets; the 719S is a wall-mounted heater with built-in Wi-Fi and no gateway, like the Kyros."
+    },
+    "Netatmo Smart Smoke Alarm": {
+      "status": "substitute",
+      "name": "Kidde Smart Smoke + CO Alarm, Hardwired with AA Backup Battery (30CUAR-WCA)",
+      "asin": null,
+      "evidence": "https://www.kiddecanada.com/en/products/smart/smart-smoke-and-co-alarm-hardwired-aa-backup",
+      "note": "Netatmo's alarm is not sold in Canada and First Alert Canada lists no SC5; Kidde Canada's Wi-Fi smoke and CO alarm is the closest app-connected model, but it is hardwired rather than battery-only."
+    },
+    "X-Sense XS01-WX": {
+      "status": "substitute",
+      "name": "Kidde Smart Smoke Alarm, Hardwired with AA Backup Battery (20SAR-WCA)",
+      "asin": null,
+      "evidence": "https://www.kiddecanada.com/en/products/smart/smart-smoke-alarm-hardwired-aa-backup",
+      "note": "X-Sense's North American store says it does not ship to Canada and no X-Sense Canada store exists; Kidde Canada's entry-level Wi-Fi smoke alarm is the closest app-connected model (hardwired, AA backup)."
+    },
+    "Netatmo Smart Carbon Monoxide Alarm": {
+      "status": "substitute",
+      "name": "Kidde Smart Carbon Monoxide Alarm with Indoor Air Quality Monitor (COPDLQW-CA)",
+      "asin": null,
+      "evidence": "https://www.kiddecanada.com/en/products/carbon-monoxide-alarms/smart-carbon-monoxide-alarm-with-indoor-air-quality-monitor-copdlqw-ca",
+      "note": "Netatmo's CO alarm is not sold in Canada; Kidde Canada's plug-in Wi-Fi CO alarm (AA backup, display, phone alerts) is the closest app-connected model."
+    },
+    "Bosch Smart Home Twinguard": {
+      "status": "substitute",
+      "name": "Kidde Smoke + Carbon Monoxide Alarm with Indoor Air Quality Monitor (P4010ACSCOAQ-WFCA)",
+      "asin": null,
+      "evidence": "https://www.kiddecanada.com/en/products/smart/smoke-carbon-monoxide-alarm-with-indoor-air-quality-monitor-p4010acscoaq-wfca",
+      "note": "Bosch Smart Home is not sold in Canada; Kidde Canada's version of the same smoke, CO and air quality alarm is the closest match, with no hub."
+    },
+    "Aqara Smoke Detector": {
+      "status": "substitute",
+      "name": "Kidde Smoke + Carbon Monoxide Alarm with Smart Features (P4010ACSCO-WFCA)",
+      "asin": null,
+      "evidence": "https://www.kiddecanada.com/en/products/smart/smoke-carbon-monoxide-alarm",
+      "note": "Aqara's smoke detector is not sold in Canada; Kidde Canada's Wi-Fi smoke and CO alarm is the closest smart-home alarm there, with no hub needed."
+    },
+    "Ajax StarterKit 4G": {
+      "status": "substitute",
+      "name": "Ajax Hub 2 Plus Jeweller",
+      "asin": null,
+      "evidence": "https://ajax.systems/products/specs/hub2-plus/",
+      "note": "The 4G StarterKit is not offered in North America; the Hub 2 Plus Jeweller carries a Canadian IC ID and a CAN/ULC S304 listing, with sensors bought separately."
+    },
+    "Somfy Home Alarm Advanced": {
+      "status": "substitute",
+      "name": "Abode Security Kit",
+      "asin": null,
+      "evidence": "https://help.goabode.com/en/articles/8942326-shipping-faq",
+      "note": "Somfy sells no home alarm in Canada; Abode ships to Canada from goabode.com (duties paid on delivery) and offers a vibration glass break sensor for early detection."
+    },
+    "Ring Alarm Pack M (Gen 2)": {
+      "status": "regional",
+      "name": "Ring Alarm Security Kit, 8-Piece (2nd Gen)",
+      "asin": "B07ZPMCW64",
+      "evidence": "https://ring.com/ca/en/products/security-system-alarm-8",
+      "note": "Same 8-piece 2nd Gen kit on Ring's Canadian store (base station, keypad, four contact sensors, motion detector, range extender)."
+    },
+    "eufy HomeBase S380": {
+      "status": "same",
+      "name": "eufy HomeBase S380",
+      "asin": null,
+      "evidence": "https://www.anker.com/ca/products/t80301d1",
+      "note": ""
+    },
+    "GARDENA smart Water Control Set": {
+      "status": "substitute",
+      "name": "GARDENA Water Control Bluetooth",
+      "asin": null,
+      "evidence": "https://www.gardena.com/ca-en/products/watering/water-controls/water-control-bluetooth/970481101.html",
+      "note": "The smart system isn't in GARDENA's Canadian range; its Bluetooth timer (1889-20) keeps the soil moisture sensor and a rain break, but has no gateway, remote access or voice assistant support."
+    },
+    "Eve Aqua": {
+      "status": "same",
+      "name": "Eve Aqua",
+      "asin": null,
+      "evidence": "https://www.evehome.com/en-us/eve-aqua",
+      "note": "Same model; Eve has no Canadian store page and a Canadian retail listing could not be confirmed in this pass, so check before linking."
+    },
+    "GARDENA smart Irrigation Control": {
+      "status": "substitute",
+      "name": "Orbit B-hyve Smart 6-Zone Indoor/Outdoor Sprinkler Controller",
+      "asin": null,
+      "evidence": "https://www.orbitonline.com/products/orbit-57946",
+      "note": "Not sold in Canada; same six-zone B-hyve controller as the US pick, but a Canadian retail listing could not be confirmed in this pass, so check before linking."
+    },
+    "LinkTap G2S": {
+      "status": "same",
+      "name": "LinkTap G2S",
+      "asin": null,
+      "evidence": "https://www.link-tap.com/#!/buy",
+      "note": "Same model; LinkTap has no Canada-specific buying page and a Canadian retail listing could not be confirmed in this pass, so check before linking."
+    },
+    "Hunter Pro-HC": {
+      "status": "same",
+      "name": "Hunter Pro-HC",
+      "asin": null,
+      "evidence": "https://www.hydrawise.com/",
+      "note": "Same model (6, 12 or 24 zones); Hunter sells mainly through irrigation distributors, and a Canadian retail listing could not be confirmed in this pass."
+    },
+    "Renpho Balance Cuisine Connectée": {
+      "status": "regional",
+      "name": "Renpho Calibra 1 Smart Nutrition Scale",
+      "asin": null,
+      "evidence": "https://renpho.ca/products/calibra-1-smart-nutrition-scale",
+      "note": "Same Renpho Bluetooth food scale (5 kg, glass platform), sold on Renpho Canada as the Calibra 1 Smart Nutrition Scale."
+    },
+    "Beurer KS 34 XL Balance Diététique": {
+      "status": "same",
+      "name": "Beurer KS 34 XL Kitchen Scale",
+      "asin": "B07YX6QKDB",
+      "evidence": "https://www.amazon.ca/dp/B07YX6QKDB",
+      "note": "Same model, sold new on Amazon Canada through a third-party seller; Beurer has no own store for it here."
+    },
+    "Acaia Pearl": {
+      "status": "same",
+      "name": "Acaia Pearl",
+      "asin": null,
+      "evidence": "https://eightouncecoffee.ca/products/acaia-pearl-digital-scale",
+      "note": "Same model; sold new in Canada through specialty coffee retailers."
+    },
+    "Hoymiles HMS-800W-2T": {
+      "status": "regional",
+      "name": "Hoymiles HMS-800-2T-NA",
+      "asin": null,
+      "evidence": "https://www.hoymiles.com/ca/products/hms-700-800-900-1000-2t-na.html",
+      "note": "North American version of the same two-input microinverter (800 VA, 240/208 V); it's hardwired rather than plug-in and reports through a Hoymiles DTU instead of built-in Wi-Fi."
+    },
+    "Anker SOLIX MI80": {
+      "status": "substitute",
+      "name": "Hoymiles HMS-800-2T-NA",
+      "asin": null,
+      "evidence": "https://www.hoymiles.com/ca/products/hms-700-800-900-1000-2t-na.html",
+      "note": "The MI80 isn't sold in Canada; Hoymiles' two-input HMS-800-2T-NA (800 VA) is the closest microinverter listed for Canada, as a hardwired install."
+    },
+    "Zendure SolarFlow 800 Pro 2": {
+      "status": "substitute",
+      "name": "EcoFlow DELTA 3 Ultra Plus",
+      "asin": null,
+      "evidence": "https://ca.ecoflow.com/products/ecoflow-delta-3-ultra-plus-portable-power-station",
+      "note": "Zendure's SolarFlow isn't offered in Canada; this expandable EcoFlow LFP battery (3,072 Wh, 1,600 W solar input) is the closest option, though it doesn't feed household wiring and is listed as a pre-order."
+    },
+    "MEATER Pro Thermomètre Sans Fil Longue Portée": {
+      "status": "regional",
+      "name": "MEATER Pro",
+      "asin": "B0CP8BPXKR",
+      "evidence": "https://www.amazon.ca/dp/B0CP8BPXKR",
+      "note": "Same MEATER Pro."
+    },
+    "MEATER Plus Thermomètre Sans Fil Bluetooth 50m": {
+      "status": "regional",
+      "name": "MEATER Plus",
+      "asin": "B07H8WTFHW",
+      "evidence": "https://www.amazon.ca/dp/B07H8WTFHW",
+      "note": "Same MEATER Plus with the Bluetooth repeater charger."
+    },
+    "Inkbird IBT-4XS Thermomètre Bluetooth 4 Sondes": {
+      "status": "same",
+      "name": "Inkbird IBT-4XS",
+      "asin": null,
+      "evidence": "https://ca.inkbird.com/products/bluetooth-grill-thermometer-ibt-4xs",
+      "note": "Same model, sold on Inkbird's Canadian store."
+    },
+    "Inkbird IBBQ-4BW": {
+      "status": "same",
+      "name": "Inkbird IBBQ-4BW",
+      "asin": null,
+      "evidence": "https://ca.inkbird.com/products/wi-fi-bluetooth-grill-thermometer-ibbq-4bw",
+      "note": ""
+    },
+    "MEATER Pro XL": {
+      "status": "same",
+      "name": "MEATER Pro XL",
+      "asin": null,
+      "evidence": "https://meater.com/en-CA/products/meater-pro-xl",
+      "note": ""
+    },
+    "De'Longhi Rivelia EXAM440.55.B": {
+      "status": "regional",
+      "name": "De'Longhi Rivelia Fully Automatic Espresso Machine (EXAM44055B)",
+      "asin": null,
+      "evidence": "https://www.delonghi.com/en-ca/p/rivelia/EXAM44055B.html",
+      "note": "Same Rivelia in Onyx Black under De'Longhi's North American SKU (18 drinks, four user profiles, LatteCrema Hot)."
+    },
+    "Melitta Barista TS Smart F86/0-100": {
+      "status": "substitute",
+      "name": "De'Longhi Eletta Explore (ECAM45086S)",
+      "asin": null,
+      "evidence": "https://www.delonghi.com/en-ca/p/eletta-explore-eletta-explore-espresso-machine/ECAM45086S+EX%3A4.html",
+      "note": "The Barista TS Smart couldn't be confirmed as sold new in Canada; De'Longhi's Eletta Explore (user profiles, custom recipes, 50+ hot and cold drinks) is the closest customizable alternative."
+    },
+    "Gardena smart Sensor": {
+      "status": "substitute",
+      "name": "Netro Whisperer Gen2",
+      "asin": null,
+      "evidence": "https://netrohome.com/en/shop/business_partners?country=CA",
+      "note": "Gardena's smart system isn't sold in North America; Netro, which lists a Canadian irrigation dealer, pairs this solar Wi-Fi soil sensor with its own hose timer and sprinkler controllers."
+    },
+    "Ecowitt WH51": {
+      "status": "regional",
+      "name": "Ecowitt WH51 (915 MHz)",
+      "asin": null,
+      "evidence": "https://shop.ecowitt.com/products/wh51",
+      "note": "North American 915 MHz version of the same sensor, sold through Ecowitt's own store."
+    },
+    "ThirdReality Smart Soil Moisture Sensor Gen2": {
+      "status": "same",
+      "name": "ThirdReality Smart Soil Moisture Sensor Gen2",
+      "asin": "B0GHNB78F7",
+      "evidence": "https://www.amazon.ca/dp/B0GHNB78F7",
+      "note": ""
+    },
+    "Xiaomi Mi Flora": {
+      "status": "none",
+      "name": null,
+      "asin": null,
+      "evidence": "",
+      "note": "Xiaomi doesn't sell the Mi Flora (Flower Care) through official Canadian channels, and no four-reading Bluetooth plant sensor from a brand with real presence in Canada could be confirmed."
+    },
+    "La Sommelière ECELLAR185": {
+      "status": "substitute",
+      "name": "Liebherr W5250",
+      "asin": null,
+      "evidence": "https://www.liebherr.com/en-ca/p/wpsd-5252-3064205",
+      "note": "La Sommelière isn't sold in Canada; Liebherr's freestanding two-zone W5250, which takes the optional SmartDeviceBox for the SmartDevice app, is the closest connected equivalent."
+    },
+    "Haier Wine Bank 50 HWS77GDAU1": {
+      "status": "none",
+      "name": null,
+      "asin": null,
+      "evidence": "",
+      "note": "Haier's Wine Bank range isn't sold in Canada, and no value-tier, app-connected dual-zone wine fridge could be confirmed; connected freestanding wine storage there is premium (Liebherr Vinidor)."
+    },
+    "Liebherr WPbli 5231 GrandCru Selection": {
+      "status": "substitute",
+      "name": "Liebherr Wgb7470",
+      "asin": null,
+      "evidence": "https://www.liebherr.com/en-ca/p/wpgbi-7483-9012960",
+      "note": "The GrandCru Selection isn't in Liebherr's Canadian range; the freestanding Wgb7470, the biggest cabinet in that range (558 L, 145 bottles), is the closest same-brand model for a large collection, though Liebherr's Canadian page lists no app connectivity for it."
+    },
+    "Haier Wine Bank 50 HWS42GDAU1": {
+      "status": "none",
+      "name": null,
+      "asin": null,
+      "evidence": "",
+      "note": "Not sold in Canada, and no compact app-connected dual-zone wine fridge could be confirmed."
+    },
+    "Philips Airfryer 5000 Series XXL Connected HD9285": {
+      "status": "substitute",
+      "name": "Philips Essential Connected Airfryer XL (HD9280/91)",
+      "asin": "B0BBWMV6S6",
+      "evidence": "https://www.amazon.ca/Essential-Technology-Compatible-HD9280-91/dp/B0BBWMV6S6",
+      "note": "The 5000 Series XXL Connected isn't sold in Canada; the HD9280/91 is the smaller XL model of the same Philips 5000 Series, with Wi-Fi and the HomeID app, at 6.2 L."
+    },
+    "Xiaomi Smart Air Fryer 6.5L": {
+      "status": "substitute",
+      "name": "Philips Essential Connected Airfryer XL (HD9280/91)",
+      "asin": "B0BBWMV6S6",
+      "evidence": "https://www.amazon.ca/Essential-Technology-Compatible-HD9280-91/dp/B0BBWMV6S6",
+      "note": "Xiaomi doesn't officially sell this model in Canada; the Philips is a Wi-Fi, app-controlled basket air fryer of similar size (6.2 L) with Alexa support."
+    },
+    "eufyCam S3 Pro": {
+      "status": "substitute",
+      "name": "eufyCam S4",
+      "asin": null,
+      "evidence": "https://www.anker.com/ca/products/t81721w1",
+      "note": "eufy's Canadian store shows the eufyCam S3 Pro 4-Cam Kit as sold out; the eufyCam S4 is the in-stock solar eufyCam, pairing a 4K fixed lens with a 2K 360° PTZ lens and 32 GB of built-in storage."
+    },
+    "TP-Link Tapo C520WS": {
+      "status": "same",
+      "name": "TP-Link Tapo C520WS",
+      "asin": "B0C6FMSS7Y",
+      "evidence": "https://www.tp-link.com/ca/home-networking/cloud-camera/tapo-c520ws/",
+      "note": ""
+    },
+    "Reolink RLC-833A": {
+      "status": "substitute",
+      "name": "Reolink RLC-843A",
+      "asin": null,
+      "evidence": "https://reolink.com/ca/product/rlc-843a/",
+      "note": "Reolink lists the RLC-833A as discontinued; the RLC-843A is its current 4K PoE camera with optical zoom, shown on the 833A's page."
+    },
+    "Reolink Argus 4 Pro": {
+      "status": "same",
+      "name": "Reolink Argus 4 Pro",
+      "asin": null,
+      "evidence": "https://reolink.com/ca/product/argus-4-pro/",
+      "note": ""
+    },
+    "eufy SoloCam S340": {
+      "status": "same",
+      "name": "eufy SoloCam S340",
+      "asin": null,
+      "evidence": "https://www.anker.com/ca/products/t81701w1",
+      "note": ""
+    },
+    "Ninja Foodi MAX 15-en-1 SmartLid OP500EU - 7.5L": {
+      "status": "substitute",
+      "name": "Instant Pot Duo Crisp 6.5-Quart with Ultimate Lid",
+      "asin": null,
+      "evidence": "https://instantpot.com/collections/ip-6qt/products/instant-pot-duo-crisp-6-5qt-ultimate-lid-smart-multi-cooker-and-air-fryer",
+      "note": "Ninja's SmartLid range couldn't be confirmed in Canada; this UL and ULC listed cooker also pressure cooks and air fries under a single lid, in a smaller pot."
+    },
+    "Moulinex Cookeo Touch Pro WiFi": {
+      "status": "substitute",
+      "name": "Instant Pot Pro Plus 6-Quart Wi-Fi Smart Multicooker",
+      "asin": "B08TMTJZ8L",
+      "evidence": "https://www.amazon.ca/dp/B08TMTJZ8L",
+      "note": "The Cookeo isn't sold in Canada; the Pro Plus is the closest Wi-Fi multicooker with app-guided recipes, without the Touch Pro's built-in scale."
+    },
+    "Tefal Cook4me Touch WiFi": {
+      "status": "substitute",
+      "name": "Instant Pot Pro Plus 6-Quart Wi-Fi Smart Multicooker",
+      "asin": "B08TMTJZ8L",
+      "evidence": "https://www.amazon.ca/dp/B08TMTJZ8L",
+      "note": "T-fal doesn't sell the Cook4me Touch WiFi in Canada; the Pro Plus is the closest Wi-Fi pressure multicooker with step-by-step recipes in an app."
+    },
+    "Levoit Core 400S": {
+      "status": "regional",
+      "name": "Levoit Core 400S-P",
+      "asin": "B08R794ZMX",
+      "evidence": "https://www.amazon.ca/Levoit-Purifiers-Allergies-Core-400S/dp/B08R794ZMX",
+      "note": "Same Core 400S sold in Canada under the North American 400S-P name, 120 V version."
+    },
+    "Levoit Core 300S": {
+      "status": "regional",
+      "name": "Levoit Core 300S-P",
+      "asin": "B08L73QL1V",
+      "evidence": "https://www.amazon.ca/dp/B08L73QL1V",
+      "note": "Same Core 300S sold in North America under the 300S-P name, 120 V version."
+    },
+    "Blueair Blue Pure 411i Max": {
+      "status": "substitute",
+      "name": "Blueair Blue Pure 511i Max",
+      "asin": null,
+      "evidence": "https://www.blueair.com/en-ca/collections/air-purifiers/products/blue-pure-511i-max",
+      "note": "Blueair Canada's store no longer lists the 411i Max; the 511i Max is the next model in the same Blue Pure Max line (HEPASilent, Wi-Fi app, auto mode, 19 to 48 dB). Preferred over the Blue Signature Small to stay in the same line."
+    },
+    "Philips AC2939/10": {
+      "status": "substitute",
+      "name": "Coway Airmega AP-1512HHS",
+      "asin": "B07TVL3F3D",
+      "evidence": "https://www.amazon.ca/dp/B07TVL3F3D",
+      "note": "The AC2939/10 is a European 230 V model; the app-enabled Coway Airmega AP-1512HHS (True HEPA, Alexa compatible, rated up to 1,575 sq ft) is a comparable large-room purifier, sold new on Amazon in both the US and Canada. Chosen over the Airmega 250S, whose Wi-Fi version Coway Canada doesn't sell."
+    },
+    "Xiaomi Smart Air Purifier 4": {
+      "status": "substitute",
+      "name": "Winix 5510",
+      "asin": "B0DJG1731C",
+      "evidence": "https://www.amazon.ca/5510-Purifier-Generation-Deodorization-Allergies/dp/B0DJG1731C",
+      "note": "The Xiaomi Smart Air Purifier 4 is a European 230 V model; the Winix 5510 is a large-room purifier with Wi-Fi app control sold in Canada."
+    },
+    "Dreame L40 Ultra": {
+      "status": "substitute",
+      "name": "Dreame L40 Ultra Gen 2",
+      "asin": "B0FSJPFDPV",
+      "evidence": "https://ca.dreametech.com/products/l40-ultra-gen2-robot-vacuum",
+      "note": "Dreame Canada no longer lists the original L40 Ultra; it sells the L40 Ultra Gen 2, the successor in the same line with an extending mop and side brush."
+    },
+    "Ecovacs Deebot X8 Pro Omni": {
+      "status": "same",
+      "name": "Ecovacs Deebot X8 Pro Omni",
+      "asin": "B0DR8NJMCJ",
+      "evidence": "https://www.ecovacs.com/ca/shop/deebot-robotic-vacuum-cleaner/deebot-x8-pro-omni",
+      "note": ""
+    },
+    "Narwal Freo Z Ultra": {
+      "status": "substitute",
+      "name": "Narwal Freo Z10 Turbo",
+      "asin": "B0GSZN3PQR",
+      "evidence": "https://ca.narwal.com/products/narwal-freo-z10-turbo-robot-vacuum-and-mop",
+      "note": "Narwal Canada no longer lists the Freo Z Ultra; the Z10 Turbo is the current Z-series model with dual spinning mops and a self-washing, self-emptying dock."
+    },
+    "TP-Link Tapo P115 Prise Connectée avec Suivi Conso": {
+      "status": "regional",
+      "name": "TP-Link Tapo P115",
+      "asin": "B0D7FZ97T5",
+      "evidence": "https://www.amazon.ca/TP-Link-Tapo-SmartThings-Certified-P115/dp/B0D7FZ97T5",
+      "note": "Same Tapo P115 in its North American version (NEMA, 15 A / 1,800 W), sold in Canada."
+    },
+    "Meross MSS210P Prise Connectée HomeKit 16A (lot de 2)": {
+      "status": "substitute",
+      "name": "Meross Matter Smart Plug with Energy Monitor (MSS315), 4-Pack",
+      "asin": "B0CX4DDXP3",
+      "evidence": "https://www.amazon.ca/dp/B0CX4DDXP3",
+      "note": "The MSS210P is a European plug; Meross's North American Matter plug with energy monitoring (MSS315) is sold in Canada as this 4-pack."
+    },
+    "TP-Link Tapo P100 Pack de 4 Prises Connectées": {
+      "status": "regional",
+      "name": "TP-Link Tapo P105 (4-Pack)",
+      "asin": "B0BBYV5JM2",
+      "evidence": "https://www.amazon.ca/dp/B0BBYV5JM2",
+      "note": "The P105 4-pack is the North American counterpart of the P100 mini plug that TP-Link sells in Canada (15 A / 1,800 W)."
+    },
+    "Shelly Plug S Gen3": {
+      "status": "substitute",
+      "name": "Shelly Plug US Gen4",
+      "asin": "B0G2YY8TCJ",
+      "evidence": "https://www.amazon.ca/dp/B0G2YY8TCJ",
+      "note": "The same North American Shelly Plug (Gen4, UL, power metering) is sold new in Canada through third-party sellers on Amazon.ca; Shelly's own North American store ships to the US only."
+    },
+    "Eve Energy (Matter)": {
+      "status": "same",
+      "name": "Eve Energy (Matter)",
+      "asin": "B0BZBGD87V",
+      "evidence": "https://www.amazon.ca/Eve-Energy-Matter-Control-SmartThings/dp/B0BZBGD87V",
+      "note": ""
+    },
+    "Ninja Foodi MAX SmartLid OL750EU": {
+      "status": "substitute",
+      "name": "Instant Pot Duo Crisp 6.5-Quart with Ultimate Lid",
+      "asin": null,
+      "evidence": "https://instantpot.com/collections/ip-6qt/products/instant-pot-duo-crisp-6-5qt-ultimate-lid-smart-multi-cooker-and-air-fryer",
+      "note": "No current SmartLid model could be confirmed in Canada; the Duo Crisp (UL and ULC listed, 120 V) has a single lid that pressure cooks and air fries, with 13 functions in 6.5 qt (6.2 L)."
+    },
+    "TP-Link Tapo P110M": {
+      "status": "same",
+      "name": "TP-Link Tapo P110M",
+      "asin": null,
+      "evidence": "https://www.tp-link.com/ca/home-networking/smart-plug/tapo-p110m/",
+      "note": ""
+    },
+    "Netatmo Smart Thermostat": {
+      "status": "substitute",
+      "name": "ecobee Smart Thermostat Essential",
+      "asin": null,
+      "evidence": "https://www.ecobee.com/en-ca/smart-thermostats/",
+      "note": "Netatmo's thermostat is built for European boilers and isn't sold in Canada; the ecobee Essential is the comparable entry-level Wi-Fi smart thermostat."
+    },
+    "Ecovacs Deebot T50 Omni": {
+      "status": "regional",
+      "name": "Ecovacs Deebot T50 Pro Omni",
+      "asin": "B0HDRXXG7P",
+      "evidence": "https://www.amazon.ca/ECOVACS-T50-PRO-Ultra-Slim-Extendable/dp/B0HDRXXG7P",
+      "note": "Ecovacs's Canadian T50 model is the T50 Pro Omni, on the same 15,000 Pa, 81 mm platform as the European T50 Omni."
+    },
+    "Roborock Saros 10R": {
+      "status": "substitute",
+      "name": "Roborock Saros 20",
+      "asin": null,
+      "evidence": "https://ca.roborock.com/products/roborock-saros-20",
+      "note": "Roborock Canada no longer has a Saros 10R product page and no new offer could be confirmed on Amazon.ca; the Saros 20 is its current Saros model with the same turret-free design, rotating mops and a full dock."
+    },
+    "Philips Airfryer 3000 Series L HD9252": {
+      "status": "substitute",
+      "name": "Philips 2000 Series Airfryer with Window (NA221/00)",
+      "asin": "B0FJSG1N3D",
+      "evidence": "https://www.amazon.ca/technology-touchscreen-dishwasher-safe-NA221-00/dp/B0FJSG1N3D",
+      "note": "Philips Canada's airfryer catalog does not list the HD9252; the 2000 Series NA221/00 is its current single-basket model of the same size (4.2 L vs. 4.1 L), with a touchscreen and window."
+    },
+    "Ninja AF100": {
+      "status": "regional",
+      "name": "Ninja Air Fryer (AF101)",
+      "asin": "B07FDJMC9Q",
+      "evidence": "https://www.amazon.ca/dp/B07FDJMC9Q",
+      "note": "North American version of the AF100 (4 qt, 1,550 W), listed in Canada as the AF101."
+    },
+    "Philips Airfryer Série 2000 4,2 L NA221/00": {
+      "status": "regional",
+      "name": "Philips 2000 Series Airfryer with Window (NA221/00)",
+      "asin": "B0FJSG1N3D",
+      "evidence": "https://www.amazon.ca/dp/B0FJSG1N3D",
+      "note": "Same NA221/00 SKU, sold new by Amazon.ca under its English name."
+    },
+    "Ninja Air Fryer AF100EU": {
+      "status": "regional",
+      "name": "Ninja Air Fryer (AF101)",
+      "asin": "B07FDJMC9Q",
+      "evidence": "https://www.amazon.ca/dp/B07FDJMC9Q",
+      "note": "North American version of the AF100 (4 qt, 1,550 W), listed in Canada as the AF101."
+    },
+    "Ninja Foodi MAX Dual Zone AF400EU 9.5L": {
+      "status": "regional",
+      "name": "Ninja Foodi DualZone XL 2-Basket Air Fryer (DZ401)",
+      "asin": "B096X9LGJ1",
+      "evidence": "https://www.amazon.ca/dp/B096X9LGJ1",
+      "note": "Same DZ401 sold in Canada as 10 qt / 9.5 L, two independent baskets."
+    },
+    "Roborock S8 MaxV Ultra": {
+      "status": "substitute",
+      "name": "Roborock Saros 20",
+      "asin": null,
+      "evidence": "https://ca.roborock.com/products/roborock-saros-20",
+      "note": "Roborock Canada offers the S8 MaxV Ultra only refurbished; the Saros 20 is its current premium model with anti-tangle brushes and an RGB camera for pet recognition and video calls. Chosen over the Qrevo Curv 2 Flow to stay at the flagship tier."
+    },
+    "Dreame X40 Ultra": {
+      "status": "same",
+      "name": "Dreame X40 Ultra",
+      "asin": null,
+      "evidence": "https://ca.dreametech.com/products/dreametech-x40-ultra-robot-vacuum",
+      "note": "Still sold new on Dreame's Canadian store, so no substitute is needed."
+    },
+    "iRobot Roomba j9+": {
+      "status": "substitute",
+      "name": "iRobot Roomba Max 715 Vac + AutoEmpty Dock",
+      "asin": null,
+      "evidence": "https://www.irobot.ca/en_CA/roomba-max-715-vac-robot-autoempty-dock/W255020.html",
+      "note": "The j9+ is no longer in iRobot Canada's lineup; the Max 715 Vac (in stock on irobot.ca) keeps dual rubber brushes, PrecisionVision AI and a self-emptying dock."
+    },
+    "Roborock Saros Z70": {
+      "status": "same",
+      "name": "Roborock Saros Z70",
+      "asin": "B0DSLBZV3F",
+      "evidence": "https://www.amazon.ca/dp/B0DSLBZV3F",
+      "note": ""
+    },
+    "Ecovacs Deebot T30 Pro": {
+      "status": "substitute",
+      "name": "Ecovacs Deebot T50 Pro Omni",
+      "asin": "B0HDRXXG7P",
+      "evidence": "https://www.amazon.ca/dp/B0HDRXXG7P",
+      "note": "The T30 Pro Omni isn't in Ecovacs' Canadian lineup; the T50 Pro Omni is the current T-series model at the value tier, with ZeroTangle 2.0, TruEdge 2.0 and an Omni dock."
+    },
+    "Moulinex i-Companion Touch XL": {
+      "status": "substitute",
+      "name": "Thermomix TM7",
+      "asin": null,
+      "evidence": "https://www.thermomix.ca/products/thermomix-tm7",
+      "note": "T-fal Canada lists no Companion cooking robot; the TM7 is the Wi-Fi cooking robot with a touchscreen and scale sold in Canada."
+    },
+    "Cecotec Mambo Touch": {
+      "status": "none",
+      "name": null,
+      "asin": null,
+      "evidence": "",
+      "note": "Cecotec doesn't sell the 230 V Mambo in Canada, and no entry-level Wi-Fi cooking robot with a scale from a brand with real Canadian presence could be confirmed."
+    },
+    "Kenwood Cooking Chef XL KCL95.424SI": {
+      "status": "none",
+      "name": null,
+      "asin": null,
+      "evidence": "",
+      "note": "Kenwood has no Canadian storefront (its Canadian address returns a 404), and no induction-heated, app-connected stand mixer from a brand with real Canadian presence could be confirmed."
+    },
+    "Magimix Cook Expert Connect": {
+      "status": "substitute",
+      "name": "Thermomix TM7",
+      "asin": null,
+      "evidence": "https://www.thermomix.ca/products/thermomix-tm7",
+      "note": "Magimix's Canadian distributor lists only food processors and accessories, no Cook Expert; the TM7 is the heated, Wi-Fi food processor sold in Canada."
+    },
+    "Nuki Smart Lock Pro (5th generation)": {
+      "status": "substitute",
+      "name": "August Wi-Fi Smart Lock",
+      "asin": null,
+      "evidence": "https://august.com/products/august-wifi-smart-lock",
+      "note": "Nuki's deadbolt model is sold only through its US store; August makes its locks for the US and Canada, and this is a retrofit deadbolt lock with built-in Wi-Fi and no bridge (CR123 batteries, not rechargeable)."
+    },
+    "Nuki Smart Lock Go": {
+      "status": "substitute",
+      "name": "SwitchBot Lock Ultra",
+      "asin": null,
+      "evidence": "https://ca.switch-bot.com/products/switchbot-lock-ultra",
+      "note": "No Nuki lock is sold for Canadian deadbolts; SwitchBot's Canadian store lists the Lock Ultra, an entry-tier retrofit lock for single deadbolts with a rechargeable battery pack, though Matter needs a SwitchBot hub."
+    },
+    "Aqara Smart Lock U200": {
+      "status": "same",
+      "name": "Aqara Smart Lock U200",
+      "asin": null,
+      "evidence": "https://us.aqara.com/products/aqara-smart-lock-u200",
+      "note": ""
+    },
+    "Tedee GO 2": {
+      "status": "substitute",
+      "name": "SwitchBot Lock Ultra",
+      "asin": null,
+      "evidence": "https://ca.switch-bot.com/products/switchbot-lock-ultra",
+      "note": "Tedee doesn't sell in Canada and the GO 2 fits European cylinders; the Lock Ultra is the closest budget retrofit lock in SwitchBot's Canadian store, with Matter through a SwitchBot hub."
+    },
+    "Yale Linus Smart Lock L2": {
+      "status": "substitute",
+      "name": "Yale Approach Lock with Wi-Fi and Keypad",
+      "asin": null,
+      "evidence": "https://shopyalehome.com/products/yale-approach-lock-with-wi-fi-and-keypad",
+      "note": "Same brand and retrofit idea: Yale sells the Approach for US and Canadian deadbolts, with built-in Wi-Fi and a keypad."
+    },
+    "Ecowitt HP2551": {
+      "status": "regional",
+      "name": "Ecowitt HP2551 (915 MHz)",
+      "asin": null,
+      "evidence": "https://shop.ecowitt.com/products/hp2551",
+      "note": "Same kit in the North American 915 MHz band; Ecowitt's own store offers global delivery (duties may apply)."
+    },
+    "Bresser Wi-Fi ClearView Weather Station 7-in-1": {
+      "status": "substitute",
+      "name": "Ambient Weather WS-2902",
+      "asin": null,
+      "evidence": "https://ambientweather.com/shipping-options",
+      "note": "The ClearView is an 868 MHz European model; the 915 MHz WS-2902 offers the same mix of sensors and a colour console, and Ambient ships to Canada (UPS, duties and brokerage extra)."
+    },
+    "Netatmo Smart Weather Station": {
+      "status": "same",
+      "name": "Netatmo Smart Weather Station",
+      "asin": null,
+      "evidence": "https://www.netatmo.com/en-ca/smart-weather-station",
+      "note": "Still listed on Netatmo's Canadian site, but Netatmo says its e-shop stopped selling in the US and Canada on June 1, 2026, so availability depends on retailer stock."
+    },
+    "Davis Vantage Vue": {
+      "status": "same",
+      "name": "Davis Vantage Vue",
+      "asin": null,
+      "evidence": "https://www.davisinstruments.com/policies/shipping-policy",
+      "note": ""
+    },
+    "Ecowitt Wittboy Pro HP2564": {
+      "status": "regional",
+      "name": "Ecowitt Wittboy Pro HP2564 (915 MHz)",
+      "asin": null,
+      "evidence": "https://shop.ecowitt.com/products/wittboy-pro",
+      "note": "Same kit in the North American 915 MHz band, sold through Ecowitt's own store."
+    },
+    "Ecovacs Deebot T30 Pro Omni": {
+      "status": "substitute",
+      "name": "Ecovacs Deebot T50 Pro Omni",
+      "asin": "B0HDRXXG7P",
+      "evidence": "https://www.ecovacs.com/ca/shop/deebot-robotic-vacuum-cleaner/deebot-t50-pro-omni",
+      "note": "Ecovacs Canada does not list the T30 Pro Omni; its T50 Pro Omni is the next T Series model with 15,000 Pa, ZeroTangle 2.0 and an auto-empty Omni station."
+    },
+    "iRobot Roomba Max 705 Vac": {
+      "status": "substitute",
+      "name": "iRobot Roomba Max 715 Vac + AutoEmpty Dock",
+      "asin": null,
+      "evidence": "https://www.irobot.ca/en_CA/roomba-max-715-vac-robot-autoempty-dock/W255020.html",
+      "note": "iRobot Canada lists the Max 715 Vac, the next-gen upgrade of the Max 705 Vac, in stock; the 705 Vac itself is no longer offered."
+    },
+    "Meaco Arete Two 20L": {
+      "status": "substitute",
+      "name": "Frigidaire Gallery 2-in-1 50 Pint Dehumidifier with Built-in Allergy Filter and Wi-Fi (GHDD5035W1)",
+      "asin": null,
+      "evidence": "https://www.frigidaire.ca/Home-Comfort/Dehumidifiers/GHDD5035W1/",
+      "note": "Meaco doesn't sell in Canada; Frigidaire's Gallery 2-in-1 has an air quality sensor and Alexa/Google control, the closest to the Arete's dehumidifier-plus-air-care design."
+    },
+    "Comfee MDDF-16DEN7-WF": {
+      "status": "substitute",
+      "name": "Frigidaire 35 Pint Dehumidifier with Wi-Fi (FHDD3534Y1)",
+      "asin": null,
+      "evidence": "https://www.frigidaire.ca/Home-Comfort/Dehumidifiers/FHDD3534Y1/",
+      "note": "No Canadian listing could be confirmed for this European Comfee model; Frigidaire's 35-pint Wi-Fi unit offers app, Alexa and Google control and continuous drainage at an entry price."
+    },
+    "Xiaomi Smart Dehumidifier Lite": {
+      "status": "substitute",
+      "name": "Danby 22 Pint Dehumidifier with Wi-Fi (DDR022BSWDB)",
+      "asin": null,
+      "evidence": "https://www.danby.com/products/dehumidifiers/ddr022bswdb/",
+      "note": "Xiaomi doesn't sell dehumidifiers in Canada; Danby's 22-pint Wi-Fi model is a compact, app-controlled unit from a Canadian brand."
+    },
+    "De'Longhi Tasciugo AriaDry Multi DDSX220WF": {
+      "status": "substitute",
+      "name": "Frigidaire 50 Pint Built-In Pump Dehumidifier with Wi-Fi (FHDP5033Y1)",
+      "asin": null,
+      "evidence": "https://www.frigidaire.ca/Home-Comfort/Dehumidifiers/FHDP5033Y1/",
+      "note": "De'Longhi Canada's home-comfort range lists no dehumidifiers; Frigidaire's Wi-Fi model with a built-in pump is a comparable smart unit."
+    },
+    "Inventor EVA II PRO WiFi 20L": {
+      "status": "substitute",
+      "name": "Danby 50 Pint Dehumidifier with Wi-Fi (DDR050BSWDB)",
+      "asin": null,
+      "evidence": "https://www.danby.com/products/dehumidifiers/ddr050bswdb/",
+      "note": "Inventor doesn't sell in Canada; Danby's app-controlled 50-pint model is a comparable Wi-Fi unit from a Canadian brand."
+    },
+    "Mammotion LUBA 3 AWD 5000": {
+      "status": "same",
+      "name": "Mammotion LUBA 3 AWD 5000",
+      "asin": null,
+      "evidence": "https://ca.mammotion.com/products/luba-3-awd-robot-lawn-mower",
+      "note": ""
+    },
+    "Husqvarna Automower 450X NERA": {
+      "status": "substitute",
+      "name": "Husqvarna Automower 440 iQ",
+      "asin": null,
+      "evidence": "https://www.husqvarna.com/ca-en/robotic-lawn-mowers/automower-440-iq/",
+      "note": "Husqvarna Canada sells the wire-only 450X but no NERA version; the 440 iQ keeps the wire-free (virtual boundary) option."
+    },
+    "Gardena SILENO City 600": {
+      "status": "regional",
+      "name": "GARDENA SILENO city 500 m²",
+      "asin": null,
+      "evidence": "https://www.gardena.com/ca-en/products/lawn-care/robotic-lawnmowers/robotic-mower-sileno-city-500-m/967647215.html",
+      "note": "Gardena Canada sells the SILENO city in 250 m² and 500 m² versions; the 500 m² is the closest to the 600 m² model."
+    },
+    "Segway Navimow i208 AWD": {
+      "status": "regional",
+      "name": "Segway Navimow i210 AWD",
+      "asin": null,
+      "evidence": "https://ca.navimow.com/products/navimow-i2-awd-robot-lawn-mower",
+      "note": "The Canadian i2 AWD lineup comes as the i206 (0.15 acre) and i210 (0.25 acre); the i210 covers the i208's 800 m²."
+    },
+    "ECOVACS GOAT O600 RTK": {
+      "status": "substitute",
+      "name": "Ecovacs GOAT O1000 LiDAR Pro",
+      "asin": null,
+      "evidence": "https://www.ecovacs.com/ca/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro",
+      "note": "ECOVACS Canada lists only the A3000 and O1000 GOAT models; the O1000 LiDAR PRO is the O-series equivalent."
+    },
+    "Mitsubishi Electric MSZ-AY35VGK": {
+      "status": "substitute",
+      "name": "Mitsubishi Electric MSZ-GX Series Wall-Mounted Heat Pump",
+      "asin": null,
+      "evidence": "https://cdn.agilitycms.com/mesca/mem-202610-e_r-454b_residential-catalogue_lr_2.12.26.pdf",
+      "note": "The MSZ-AY is a European model; Mitsubishi Electric Canada's MSZ-GX has built-in Wi-Fi, a matte finish and 19 dB(A) indoor noise."
+    },
+    "Haier Flexis Plus 3,5 kW": {
+      "status": "substitute",
+      "name": "Mitsubishi Electric MSZ-JX Series 115 V Wall-Mounted Heat Pump",
+      "asin": null,
+      "evidence": "https://cdn.agilitycms.com/mesca/mem-202610-e_r-454b_residential-catalogue_lr_2.12.26.pdf",
+      "note": "Haier doesn't sell this Flexis model in Canada; Mitsubishi Electric's compact 115 V JX series has built-in Wi-Fi and sits below its GX and FX lines."
+    },
+    "Daikin Perfera FTXM35R": {
+      "status": "substitute",
+      "name": "Daikin ATMOSPHERA Wall Mount Heat Pump",
+      "asin": null,
+      "evidence": "https://daikincomfort.com/products/heating-cooling/single-split-ductless/heat-pumps/daikin-atmosphera-wall-mount-heat-pump",
+      "note": "The Perfera is a European model; the ATMOSPHERA is Daikin's high-efficiency North American wall unit, listed with Quebec warranty terms."
+    },
+    "LG DUALCOOL AI Air 3,5 kW": {
+      "status": "substitute",
+      "name": "Daikin AURORA R-32 Wall-Mounted Heat Pump",
+      "asin": null,
+      "evidence": "https://daikincomfort.com/products/heating-cooling/single-split-ductless/heat-pumps/daikin-aurora-r-32-wall-mount",
+      "note": "LG Canada doesn't list its wall units by model online; Daikin's AURORA R-32 is a comparable wall unit with built-in Wi-Fi and heating down to −25°C."
+    },
+    "Daikin Sensira FTXF35E": {
+      "status": "substitute",
+      "name": "Daikin OTERRA Wall Mount Heat Pump",
+      "asin": null,
+      "evidence": "https://daikincomfort.com/products/heating-cooling/single-split-ductless/heat-pumps/wall-mount-daikin-oterra-heat-pump",
+      "note": "The Sensira is a European model; the OTERRA is Daikin's standard North American wall unit (up to 21 SEER2, heating down to −15°C), listed with Quebec warranty terms."
+    },
+    "eufy Auto-Empty C10": {
+      "status": "substitute",
+      "name": "eufy Robot Vacuum Omni C20",
+      "asin": null,
+      "evidence": "https://www.anker.com/ca/products/t2280111",
+      "note": "The C10 isn't on eufy's Canadian store; the Omni C20 is eufy's slim (8.5 cm) model with point-laser sensing and a station that auto-empties and also washes the mop."
+    },
+    "Xiaomi Robot Vacuum E5": {
+      "status": "substitute",
+      "name": "eufy Clean 11S MAX",
+      "asin": null,
+      "evidence": "https://www.anker.com/ca/products/t2126113",
+      "note": "Xiaomi has no official Canadian channel for the E5; eufy's 7.2 cm 11S MAX is the slim budget robot on Anker's Canadian store, but it has no app or mop."
+    },
+    "Roborock Q7 M5": {
+      "status": "substitute",
+      "name": "Roborock Q7 L5",
+      "asin": null,
+      "evidence": "https://ca.roborock.com/products/roborock-q7-l5",
+      "note": "Roborock Canada does not list the Q7 M5; the Q7 L5 is its Q7 model with LiDAR, dual anti-tangle brushes and a simple charging dock (8,000 Pa vs. 10,000 Pa)."
+    },
+    "eufy Solar Wall Light Cam S120": {
+      "status": "substitute",
+      "name": "eufy SoloCam S340",
+      "asin": null,
+      "evidence": "https://www.anker.com/ca/products/t81701w1",
+      "note": "Anker's Canadian store lists the S120 as sold out; the SoloCam S340 is eufy's solar camera with a built-in spotlight and 8 GB of local storage, though it is a camera first rather than a wall light."
+    },
+    "Govee Outdoor Solar String Lights": {
+      "status": "none",
+      "name": null,
+      "asin": null,
+      "evidence": "",
+      "note": "Govee's Canadian store doesn't list this solar string (H3001), and no app-controlled solar string light from a major brand could be confirmed at Canadian retail."
+    },
+    "Philips Hue Lily Outdoor Spot Base Kit": {
+      "status": "same",
+      "name": "Philips Hue Lily Outdoor Spot Base Kit",
+      "asin": null,
+      "evidence": "https://www.philips-hue.com/en-ca/p/hue-white-and-color-ambiance-lily-outdoor-spot-light/1746730V7",
+      "note": ""
+    },
+    "Philips Hue Calla Outdoor Pedestal": {
+      "status": "regional",
+      "name": "Philips Hue Calla Outdoor Bollard",
+      "asin": null,
+      "evidence": "https://www.philips-hue.com/en-ca/p/hue-white-and-color-ambiance-calla-outdoor-bollard/1741930V7",
+      "note": "Same small low-voltage Calla pedestal (25 cm, IP65), listed in Canada as the Calla Outdoor bollard (1741930V7)."
+    },
+    "Steinel XSolar L-S ONE": {
+      "status": "substitute",
+      "name": "Sunforce 100 LED Solar Motion Light (82102)",
+      "asin": null,
+      "evidence": "https://sunforceproducts.ca/renewable-energy-products-wind-solar-sunforce/our-products/lighting-and-security/100-led-solar-motion-light-with-corner-mounting/",
+      "note": "Steinel's XSolar line isn't sold in Canada; this app-free solar motion light from Montreal-based Sunforce has a separate panel on a 4.5 m cable and a 180° sensor."
+    },
+    "Eufy Video Doorbell E340": {
+      "status": "same",
+      "name": "eufy Video Doorbell E340",
+      "asin": null,
+      "evidence": "https://www.anker.com/ca/products/t8214111",
+      "note": ""
+    },
+    "TP-Link Tapo D235": {
+      "status": "same",
+      "name": "TP-Link Tapo D235",
+      "asin": "B0DPGN7GBP",
+      "evidence": "https://www.tp-link.com/ca/home-networking/cloud-camera/tapo-d235/",
+      "note": ""
+    },
+    "Aqara Video Doorbell G4": {
+      "status": "same",
+      "name": "Aqara Video Doorbell G4",
+      "asin": "B0BPHTL7MG",
+      "evidence": "https://www.amazon.ca/dp/B0BPHTL7MG",
+      "note": ""
+    },
+    "Reolink Video Doorbell WiFi": {
+      "status": "same",
+      "name": "Reolink Video Doorbell WiFi",
+      "asin": null,
+      "evidence": "https://reolink.com/ca/product/reolink-video-doorbell-wifi/",
+      "note": ""
+    },
+    "Reolink Battery Doorbell": {
+      "status": "substitute",
+      "name": "Reolink Battery Video Doorbell (2nd Gen)",
+      "asin": null,
+      "evidence": "https://reolink.com/ca/product/reolink-video-doorbell-2nd-gen/",
+      "note": "Reolink's Canadian page lists the original Battery Doorbell as discontinued and points to the 2nd Gen (2K 4 MP, 1:1 view, battery or wired, microSD up to 512 GB)."
+    },
+    "Tefal Dual Easy Fry EY9018 8.3L": {
+      "status": "regional",
+      "name": "T-fal Dual Easy Fry Air Fryer (EY901850)",
+      "asin": null,
+      "evidence": "https://www.t-fal.ca/en/dual-easy-fry.html",
+      "note": "Same Dual Easy Fry sold by T-fal Canada: a 5.2 L and a 3.1 L drawer, 8.3 L in total, with a synchronized mode."
+    },
+    "Eve Thermo": {
+      "status": "same",
+      "name": "Eve Thermo",
+      "asin": null,
+      "evidence": "https://www.evehome.com/en-us/eve-thermo",
+      "note": ""
+    },
+    "Dreame H15 Pro": {
+      "status": "same",
+      "name": "Dreame H15 Pro",
+      "asin": null,
+      "evidence": "https://ca.dreametech.com/products/h15-pro-wet-dry-vacuum",
+      "note": ""
+    },
+    "Dreame H14 Pro": {
+      "status": "same",
+      "name": "Dreame H14 Pro",
+      "asin": null,
+      "evidence": "https://ca.dreametech.com/products/dreame-h14-pro-wet-and-dry-vacuum-membership",
+      "note": ""
+    },
+    "Dyson WashG1": {
+      "status": "substitute",
+      "name": "Dyson Clean+Wash Hygiene",
+      "asin": null,
+      "evidence": "https://www.dysoncanada.ca/en/wet-cleaning/clean-wash-hygiene/copper-prussian-blue",
+      "note": "Dyson Canada no longer lists the WashG1; the Clean+Wash Hygiene is its current wet and dry cleaner, with bristles and an anti-tangle comb for hair."
+    },
+    "Tineco Floor One S7 Pro": {
+      "status": "same",
+      "name": "Tineco Floor One S7 Pro",
+      "asin": "B0BVZM47JS",
+      "evidence": "https://www.amazon.ca/Tineco-Floor-ONE-S7-Centrifugal/dp/B0BVZM47JS",
+      "note": ""
+    },
+    "Roborock Flexi Pro": {
+      "status": "substitute",
+      "name": "Roborock F25 Steam",
+      "asin": null,
+      "evidence": "https://ca.roborock.com/products/roborock-f25-steam",
+      "note": "Roborock does not sell the Flexi Pro in Canada; its F25 Steam keeps the 180° lay-flat reach, hot self-cleaning and hot-air drying."
+    },
+    "IKEA DIRIGERA": {
+      "status": "same",
+      "name": "IKEA DIRIGERA",
+      "asin": null,
+      "evidence": "https://www.ikea.com/ca/en/p/-50503414/",
+      "note": ""
+    },
+    "Apple HomePod mini": {
+      "status": "substitute",
+      "name": "Apple HomePod mini 2",
+      "asin": null,
+      "evidence": "https://www.apple.com/ca/homepod-mini/specs/",
+      "note": "Apple now sells the HomePod mini 2 in place of the original; same compact Siri speaker and home hub, with Thread and Wi-Fi 6E."
+    },
+    "Amazon Echo Dot Max": {
+      "status": "same",
+      "name": "Amazon Echo Dot Max",
+      "asin": "B0D6SZKGT4",
+      "evidence": "https://www.amazon.ca/dp/B0D6SZKGT4",
+      "note": ""
+    },
+    "Google Nest Hub (2nd gen)": {
+      "status": "same",
+      "name": "Google Nest Hub (2nd gen)",
+      "asin": null,
+      "evidence": "https://store.google.com/ca/product/nest_hub_2nd_gen",
+      "note": ""
+    },
+    "Ondilo ICO Pool V2": {
+      "status": "same",
+      "name": "Ondilo ICO Pool V2",
+      "asin": null,
+      "evidence": "https://ondilo.com/en/retailers/",
+      "note": "Ondilo names Club Piscine as its Canadian online retailer; battery-powered, so no mains issue."
+    },
+    "iopool EcO": {
+      "status": "regional",
+      "name": "iopool EcO Start + Connect Smart Water Monitor",
+      "asin": null,
+      "evidence": "https://us.iopool.com/policies/shipping-policy",
+      "note": "Same EcO and gateway pack from iopool's North American store, which ships to Canada (customs charges may apply); taking pre-orders when checked."
+    },
+    "Zodiac eXO iQ": {
+      "status": "substitute",
+      "name": "Jandy TruClear Salt Chlorinator",
+      "asin": null,
+      "evidence": "https://www.jandy.com/en-ca/products/water-care/salt-chlorinators/truclear",
+      "note": "Same Jandy line on the Canadian section of jandy.com; the eXO iQ itself is a European model (app features not confirmed)."
+    },
+    "tado Smart Thermostat X": {
+      "status": "substitute",
+      "name": "Google Nest Learning Thermostat (4th gen)",
+      "asin": null,
+      "evidence": "https://store.google.com/ca/product/nest_learning_thermostat_4th_gen_specs",
+      "note": "tado doesn't sell in Canada; Google's learning model is the closest Matter-enabled smart thermostat sold there, with heat pump support."
+    },
+    "ECOVACS GOAT A1600 RTK": {
+      "status": "substitute",
+      "name": "Ecovacs GOAT A3000 LiDAR Pro",
+      "asin": null,
+      "evidence": "https://www.ecovacs.com/ca/shop/goat-robotic-lawn-mower/goat-a3000-lidar-pro",
+      "note": "ECOVACS Canada lists the A3000 LiDAR PRO as the GOAT A-line model (no A1600 RTK); it is wire-free with dual LiDAR, a 33 cm cutting width and 50% slopes, but was shown sold out on ECOVACS's Canadian store when checked."
+    },
+    "Segway Navimow i105E": {
+      "status": "regional",
+      "name": "Segway Navimow i105",
+      "asin": null,
+      "evidence": "https://ca.navimow.com/products/navimow-i105",
+      "note": "North American version of the i105E, listed in stock on Navimow's Canadian store (1/8 acre)."
+    },
+    "Mammotion LUBA 2 AWD 3000X": {
+      "status": "substitute",
+      "name": "Mammotion LUBA 3 AWD 3000",
+      "asin": null,
+      "evidence": "https://ca.mammotion.com/products/luba-3-awd-robot-lawn-mower",
+      "note": "Mammotion Canada now sells the LUBA 3 AWD instead of the LUBA 2 AWD; the 3000 variant (0.75 acre, 80% slopes, NetRTK plus LiDAR and AI vision) is listed as available in its standard cutting-height version."
+    },
+    "Husqvarna Automower 310E NERA": {
+      "status": "substitute",
+      "name": "Husqvarna Automower 410 iQ",
+      "asin": null,
+      "evidence": "https://www.husqvarna.com/ca-en/robotic-lawn-mowers/automower-410-iq/",
+      "note": "The 310E NERA isn't in Husqvarna's Canadian range; the Automower 410 iQ is a current iQ model rated for 0.5 acre with physical or virtual boundaries."
+    },
+    "Worx Landroid Vision M600": {
+      "status": "substitute",
+      "name": "Mammotion YUKA mini 2 1000H",
+      "asin": null,
+      "evidence": "https://ca.mammotion.com/products/yuka-mini-2-1000h-robot-lawn-mower",
+      "note": "A Canadian Landroid Vision listing couldn't be confirmed; the YUKA mini 2 is a wire-free small-lawn mower with LiDAR and AI vision, listed on Mammotion's Canadian store (sold out when checked)."
+    },
+    "Bosch Serie 8 WRB247C40": {
+      "status": "substitute",
+      "name": "Bosch 500 Series Compact Heat Pump Dryer (WQB245B0UC)",
+      "asin": null,
+      "evidence": "https://www.bosch-home.ca/en/product/washers-and-dryers/compact-dryers/compact-dryers/WQB245B0UC",
+      "note": "Same North American 500 Series heat pump dryer, listed in stock by Bosch Canada, with the self-cleaning condenser and Home Connect."
+    },
+    "Beko B7T88209": {
+      "status": "substitute",
+      "name": "Blomberg BLH240W3",
+      "asin": null,
+      "evidence": "https://blombergappliances.ca/products/24-4-5-cu-ft-heat-pump-compact-front-load-dryer-energy-star%C2%AE",
+      "note": "Beko laundry couldn't be confirmed in Canada; Blomberg, its North American sister brand, lists this 4.5 cu. ft. ENERGY STAR heat pump dryer through dealers (no steam listed)."
+    },
+    "Miele TQ 1000 WP Nova Edition": {
+      "status": "substitute",
+      "name": "Miele T1 TXB360WP",
+      "asin": null,
+      "evidence": "https://www.miele.ca/en/Shop/products/tumble-dryers-10-c",
+      "note": "Entry model of the T1 heat pump range Miele Canada lists (with TXF360WP and TXR960WP Eco&Steam); 8 kg, Miele@home, no SteamCare."
+    },
+    "AEG 9000X TR9XW80890": {
+      "status": "substitute",
+      "name": "LG DLHC6702B",
+      "asin": null,
+      "evidence": "https://www.lg.com/ca_en/laundry/dryers/dlhc6702b/",
+      "note": "AEG laundry isn't sold in Canada; LG Canada's premium 7.8 cu. ft. ventless heat pump dryer has an Auto Cleaning Condenser, AI Dry and ThinQ Wi-Fi control."
+    },
+    "Samsung DV90F09F4SU2": {
+      "status": "substitute",
+      "name": "LG DLHC3602W",
+      "asin": null,
+      "evidence": "https://www.lg.com/ca_en/laundry/dryers/dlhc3602w/",
+      "note": "No standalone Samsung heat pump dryer could be confirmed in Canada; LG Canada's 7.8 cu. ft. heat pump dryer with AI Sensor Dry and ThinQ is the closest AI-driven model."
+    }
+  }
+}

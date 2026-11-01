@@ -183,8 +183,8 @@ export const AIRFRYERS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
     name: 'Air fryers',
     h1: `Black Friday ${Y}: The Air Fryers Worth Watching`,
     metaTitle: `Black Friday ${Y}: Best Air Fryers to Watch`,
-    metaDescription: `Air fryers worth watching this Black Friday ${Y}: Ninja, Philips and Xiaomi. Capacity in quarts, one basket or two: what to check before you buy.`,
-    blurb: 'Ninja, Philips, Xiaomi: one basket or two, sized to your household.',
+    metaDescription: `Air fryers worth watching this Black Friday ${Y}: Ninja, Philips and Typhur. Capacity in quarts, one basket or two: what to check before you buy.`,
+    blurb: 'Ninja, Philips, Typhur: one basket or two, sized to your household.',
     intro: "Air fryers are among the most heavily promoted appliances on Black Friday. Before you look at the discount, pick the capacity your household needs and decide between a single basket and two independent zones: those two choices are what separate the models below.",
     faq: [
       {
@@ -205,8 +205,8 @@ export const AIRFRYERS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
     name: 'Air fryers',
     h1: `Black Friday ${Y}: the air fryers worth watching`,
     metaTitle: `Black Friday ${Y}: Air Fryers Worth Watching`,
-    metaDescription: `Air fryers worth watching this Black Friday ${Y}: Ninja, Philips and Xiaomi. Capacity, single or dual basket: what to check before you buy.`,
-    blurb: 'Ninja, Philips, Xiaomi: single or dual basket, sized to your household.',
+    metaDescription: `Air fryers worth watching this Black Friday ${Y}: Ninja, Philips, Cosori and Typhur. Capacity, single or dual basket: what to check before you buy.`,
+    blurb: 'Ninja, Philips, Cosori, Typhur: single or dual basket, sized to your household.',
     intro: 'Air fryers are some of the most visible appliances during Black Friday. Before you look at the discount, settle on the capacity your household needs and choose between a single basket and two independent zones. Those are the two criteria that set the models below apart.',
     faq: [
       {

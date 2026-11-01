@@ -6,7 +6,10 @@ import ArticleProductCTA from '@/components/ArticleProductCTA'
 import { getDictionary } from '../../dictionaries'
 import { getArticleBySlug, getRelatedArticles, getAllArticles } from '@/lib/blog'
 import { getArticleAffiliateModels, getArticleRecommendations } from '@/lib/blog/article-products'
+import { marketAvailabilityNotice } from '@/lib/blog/market-notice'
+import { assertMarketCoverage } from '@/lib/market-models/coverage'
 import ArticleModelLinks from '@/components/ArticleModelLinks'
+import MarketAvailabilityNotice from '@/components/MarketAvailabilityNotice'
 import QuickAnswer from '@/components/QuickAnswer'
 import { getQuickAnswer } from '@/lib/blog/quick-answers'
 import { splitBeforeNthH2 } from '@/lib/blog/split-content'
@@ -48,6 +51,9 @@ const PROSE_CLASSES = `prose md:prose-lg prose-slate max-w-none
             [&_pre]:overflow-x-auto [&_pre]:max-w-full`
 
 export async function generateStaticParams() {
+  // Fails the build when a European model the site names has no US or
+  // Canadian decision (data/market-models).
+  assertMarketCoverage()
   // Only locales the article is actually translated into.
   return LANGUAGES.flatMap((lang) =>
     getAllArticles()
@@ -123,7 +129,14 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
   const rawContent = article.content[lang]
   // Buy links where the text names one of the article's own models:
   // in-text CTAs after h2 sections, model names in comparison tables.
-  const enrichedContent = enrichArticleHtml(rawContent, getArticleAffiliateModels(article, lang), lang)
+  const affiliateModels = getArticleAffiliateModels(article, lang)
+  const enrichedContent = enrichArticleHtml(rawContent, affiliateModels, lang)
+  // US / Canada: some models the article discusses are sold in Europe only.
+  const availabilityNotice = marketAvailabilityNotice(article, lang, {
+    picksAbove: quickAnswer !== null,
+    html: rawContent,
+    models: affiliateModels,
+  })
   // Wrap tables in a scrollable container so they scroll horizontally on mobile
   // without breaking the table layout algorithm (`display: block` shrinks cells).
   const content = enrichedContent.replace(
@@ -261,6 +274,7 @@ export default async function BlogArticlePage({ params }: { params: Promise<{ la
             <QuickAnswer question={quickAnswer.question} picks={quickAnswer.picks} lang={lang} />
           </>
         )}
+        {availabilityNotice && <MarketAvailabilityNotice text={availabilityNotice} />}
 
         {/* Article Content — product block after the 2nd h2, not after the FAQ */}
         <div className={PROSE_CLASSES} dangerouslySetInnerHTML={{ __html: contentBeforeCta }} />

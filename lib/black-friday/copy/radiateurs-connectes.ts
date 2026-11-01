@@ -183,8 +183,8 @@ export const HEATERS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
     name: 'Smart electric heaters',
     h1: `Black Friday ${Y}: The Smart Electric Heaters Worth Watching`,
     metaTitle: `Black Friday ${Y}: Best Smart Electric Heaters to Watch`,
-    metaDescription: `Smart electric heaters worth watching this Black Friday ${Y}: Thermor, Sauter and Mill. Wall-mounted or portable, sensors, app control: what to check.`,
-    blurb: 'Thermor, Sauter, Mill: wall-mounted or portable, depending on your home.',
+    metaDescription: `Smart electric heaters worth watching this Black Friday ${Y}: Dreo wall-mounted and portable models. Sensors, app control: what to check.`,
+    blurb: 'Dreo: wall-mounted or portable, depending on your home.',
     intro: 'There are two kinds to tell apart: wall-mounted thermal-mass heaters, which replace an old convector heater, and portable plug-in space heaters that need no installation. Also look for open-window detection and app control.',
     faq: [
       {
@@ -197,7 +197,7 @@ export const HEATERS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
       },
       {
         question: 'Do I need an electrician?',
-        answer: 'A wall-mounted heater connects to a dedicated circuit, so hire a licensed electrician if you have any doubt. A portable heater such as the Mill Gentle Air WiFi simply plugs into an outlet; models sold in Europe are built for 230 V, so check that the version on your Amazon store is rated for 120 V.',
+        answer: 'A wall-mounted heater connects to a dedicated circuit, so hire a licensed electrician if you have any doubt. A portable heater, such as an oil-filled radiator, simply plugs into an outlet.',
       },
     ],
   },
@@ -205,8 +205,8 @@ export const HEATERS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
     name: 'Smart electric heaters',
     h1: `Black Friday ${Y}: the smart electric heaters worth watching`,
     metaTitle: `Black Friday ${Y}: Smart Electric Heaters Worth Watching`,
-    metaDescription: `Smart electric heaters worth watching this Black Friday ${Y}: Thermor, Sauter and Mill. Wall-mounted or portable, sensors, app control: what to check.`,
-    blurb: 'Thermor, Sauter, Mill: wall-mounted or portable, depending on your home.',
+    metaDescription: `Smart electric heaters worth watching this Black Friday ${Y}: Dreo wall-mounted and portable models. Sensors, app control: what to check.`,
+    blurb: 'Dreo: wall-mounted or portable, depending on your home.',
     intro: 'There are two kinds to tell apart: wall-mounted thermal-mass (inertia) heaters, which replace an old convection heater, and portable plug-in heaters that need no installation. Also check for open-window detection and app control.',
     faq: [
       {
@@ -219,7 +219,7 @@ export const HEATERS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
       },
       {
         question: 'Do I need an electrician?',
-        answer: 'A wall-mounted heater is wired to a dedicated circuit. Electrical work rules are set by each province and territory, so when in doubt, hire a licensed electrician. A portable heater such as the Mill Gentle Air WiFi simply plugs in, with no wiring.',
+        answer: 'A wall-mounted heater is wired to a dedicated circuit. Electrical work rules are set by each province and territory, so when in doubt, hire a licensed electrician. A portable heater, such as an oil-filled radiator, simply plugs in, with no wiring.',
       },
     ],
   },

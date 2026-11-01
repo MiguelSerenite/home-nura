@@ -3,8 +3,11 @@ import { getArticleBySlug } from '@/lib/blog'
 import { getQuickAnswer } from '@/lib/blog/quick-answers'
 import { getCategory, type MetaSiloSlug } from '@/lib/catalog'
 import type { Lang } from '@/lib/i18n'
+import { isNorthAmericanMarket, isSoldAsIs, marketBrand, marketDecision, marketPicks, type NorthAmericanMarket } from '@/lib/market-models'
+import { offerForMarketName } from '@/lib/market-models/offers'
 import { productPhoto } from '@/lib/product-images'
 import type { ProductPhoto } from '@/lib/product-photo'
+import { productVisual, type ProductVisualData } from '@/lib/product-visual'
 import { BLACK_FRIDAY_CATEGORIES } from './categories'
 import { BLACK_FRIDAY_HUB_PATH } from './config'
 import type { BlackFridayCategory, BlackFridayPickRef } from './types'
@@ -50,6 +53,8 @@ export interface BlackFridayPick {
   guide: { href: string; title: string }
   /** Manufacturer's official photo (lib/product-images.ts). */
   photo?: ProductPhoto
+  /** US / Canada, no official photo of that product: neutral card (icon, brand, model). */
+  visual?: ProductVisualData
 }
 
 const ASIN_IN_URL = /\/dp\/([A-Z0-9]{10})/
@@ -83,7 +88,41 @@ function resolvePick(ref: BlackFridayPickRef, lang: Lang): BlackFridayPick | nul
   }
 }
 
+/**
+ * US / Canada: the pick goes through the market decision of its European
+ * model. A model the market does not sell is replaced by its North-American
+ * equivalent with that market's own verdict label and reason (never the
+ * European model's photo); one with no equivalent is dropped.
+ */
+function resolveMarketPick(ref: BlackFridayPickRef, category: BlackFridayCategory, market: NorthAmericanMarket): BlackFridayPick | null {
+  const article = getArticleBySlug(ref.article)
+  const decision = marketDecision(market, ref.model)
+  if (!article || decision.name === null) return null
+  const pick = marketPicks(market, ref.article).find((p) => p.model === decision.name)
+  if (!pick) return null
+  const offer = offerForMarketName(decision.name, market)
+  // A label written for the European model only fits that same product.
+  const role = isSoldAsIs(decision) ? (ref.role?.[market] ?? pick.role) : pick.role
+  return {
+    model: offer.name,
+    role,
+    why: pick.why,
+    ...(offer.asin ? { asin: offer.asin } : {}),
+    url: offer.url,
+    guide: { href: `/${market}/blog/${article.slug}`, title: article.title[market] },
+    ...(offer.photo
+      ? { photo: offer.photo }
+      : { visual: productVisual(marketBrand(offer.name), offer.name, category.visual) }),
+  }
+}
+
 export function getBlackFridayPicks(category: BlackFridayCategory, lang: Lang): BlackFridayPick[] {
+  if (isNorthAmericanMarket(lang)) {
+    return category.picks
+      .flatMap((ref) => resolveMarketPick(ref, category, lang) ?? [])
+      // Two European models can share one North-American equivalent.
+      .filter((pick, i, all) => all.findIndex((p) => p.model === pick.model) === i)
+  }
   return category.picks.flatMap((ref) => resolvePick(ref, lang) ?? [])
 }
 

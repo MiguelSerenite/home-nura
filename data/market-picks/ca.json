@@ -1,0 +1,1483 @@
+{
+  "market": "ca",
+  "picks": {
+    "centrale-vapeur-comparatif": [
+      {
+        "model": "Rowenta Ultimate Steam Pro (DG8668U1)",
+        "role": "Best overall",
+        "why": "7.4 bar of pressure, 85 g/min of continuous steam with a 450 g/min boost, a removable water tank, a removable anti-scale collector and auto-off."
+      },
+      {
+        "model": "Rowenta Perfect Steam Pro (DG8624U1)",
+        "role": "Best value",
+        "why": "7.4 bar, 80 g/min of continuous steam with a 430 g/min boost, a removable 1.1 L tank and a removable anti-scale collector."
+      },
+      {
+        "model": "Laurastar Smart U",
+        "role": "The only true smart model",
+        "why": "An ironing system with an active ironing board and a Bluetooth app with tutorials, for professional-looking results."
+      }
+    ],
+    "reveil-lumiere-simulateur-aube-comparatif": [
+      {
+        "model": "Philips SmartSleep Sleep and Wake-Up Light (HF3650/60)",
+        "role": "Best overall",
+        "why": "Coloured sunrise up to 310 lux, sunset mode, RelaxBreathe guided breathing, 10 sounds and FM radio."
+      },
+      {
+        "model": "Philips SmartSleep Wake-Up Light (HF3520/60)",
+        "role": "Best value",
+        "why": "The essentials of the HF3650: a 20- to 40-minute coloured sunrise, 300 lux, sunset mode, 5 sounds and FM radio."
+      },
+      {
+        "model": "Lumie Bodyclock Shine 300",
+        "role": "Best for heavy sleepers",
+        "why": "Sunrise and sunset adjustable from 15 to 90 minutes, 15 sounds, FM radio and an auto-dimming display."
+      }
+    ],
+    "robot-lave-vitre-comparatif": [
+      {
+        "model": "Ecovacs Winbot W2S Omni",
+        "role": "Best overall",
+        "why": "A portable station with a built-in battery (about 110 minutes per charge), automatic cable take-up, three-nozzle spraying and TruEdge scrubbers for framed and frameless glass."
+      },
+      {
+        "model": "Ecovacs Winbot mini 2",
+        "role": "Best value",
+        "why": "A compact 1.3 kg robot with four spray nozzles, app control with a remote mode, a 3.3 m safety rope and more than 30 minutes of hold once the battery runs low."
+      },
+      {
+        "model": "Ecovacs Winbot W2S Pro Omni",
+        "role": "Best for frameless glass",
+        "why": "Dual-axis edge detection with an optical sensor that stops at frameless edges, three-nozzle spraying, a 5.5 m safety rope and up to 110 minutes per charge."
+      }
+    ],
+    "borne-recharge-voiture-electrique-maison": [
+      {
+        "model": "Wallbox Pulsar Plus",
+        "role": "Best overall",
+        "why": "Compact, in 40 A (9.6 kW) or 48 A (11.5 kW) versions with a J1772 or NACS connector, Wi-Fi, Bluetooth and OCPP, plus dynamic load management and solar charging with the Wallbox Power Meter."
+      },
+      {
+        "model": "Emporia Classic EV Charger",
+        "role": "Best value",
+        "why": "Up to 48 A (11.5 kW) hardwired or 40 A on a NEMA 14-50 plug, with a J1772 or NACS connector, Wi-Fi app scheduling and a NEMA Type 4 enclosure for indoor or outdoor use. Load management and solar charging are available with the Emporia Vue energy monitor."
+      },
+      {
+        "model": "Grizzl-E Ultimate 80A",
+        "role": "Best for maximum power",
+        "why": "Up to 80 A (19.2 kW) hardwired, adjustable down to 16 A, with Wi-Fi app control, OCPP, a 7.6 m (25 ft) cable and an aluminum UL Type 4 enclosure rated for indoor and outdoor use. Made in Canada."
+      }
+    ],
+    "traceur-objets-connecte-comparatif": [
+      {
+        "model": "Apple AirTag (2nd generation)",
+        "role": "Best overall (iPhone)",
+        "why": "The very dense Apple Find My network, Ultra Wideband Precision Finding with up to 50% more range, a 50% louder speaker, a replaceable CR2032 battery and IP67."
+      },
+      {
+        "model": "Chipolo POP",
+        "role": "Best for Android and mixed iPhone/Android homes",
+        "why": "Works with Apple Find My or Google Find Hub, has a roughly 120 dB ringer that's among the loudest, and runs on a replaceable CR2032 battery. It's made in Europe."
+      },
+      {
+        "model": "Pebblebee Clip 5",
+        "role": "Best value",
+        "why": "Works with Apple Find My or Google Find Hub and runs on a rechargeable battery, so there are no coin cells to buy. A loud alert and bright LEDs help you find it, and Pebblebee's free Alert safety feature is included."
+      }
+    ],
+    "lave-vaisselle-connecte-guide": [
+      {
+        "model": "Bosch 800 Series Dishwasher (SHP78DM5N)",
+        "role": "Best overall",
+        "why": "CrystalDry zeolite drying, a flexible third rack, 16 place settings, 42 dBA and Wi-Fi control in the Home Connect app."
+      },
+      {
+        "model": "LG LDNTH862S",
+        "role": "Best value",
+        "why": "A FlushFit design for a built-in look, 16 place settings, 39 dBA, QuadWash Pro, TrueSteam and Dynamic Heat Dry with AutoVentDry, which opens the door slightly at the end of the cycle, plus LG ThinQ Wi-Fi control and ENERGY STAR certification."
+      },
+      {
+        "model": "Miele G 7196 SCVi SF",
+        "role": "Best for auto-dosing",
+        "why": "AutoDos doses detergent automatically from a PowerDisk cartridge, with 42 dB(A), a 3D MultiFlex cutlery tray and Wi-Fi control through Miele@home."
+      }
+    ],
+    "station-electrique-portable-comparatif": [
+      {
+        "model": "EcoFlow DELTA 3 Plus",
+        "role": "Best overall",
+        "why": "1,024 Wh LiFePO4, 1,800 W, UPS, 1,000 W solar input and a very complete Wi-Fi/Bluetooth app: the ideal balance for home backup, the backyard and van life."
+      },
+      {
+        "model": "BLUETTI Elite 100 V2",
+        "role": "Best value",
+        "why": "Same capacity as the DELTA 3 Plus, 1,000 W solar input, 10 ms UPS switchover and 11.5 kg, usually in a more affordable tier."
+      },
+      {
+        "model": "EcoFlow RIVER 3 Plus",
+        "role": "Best for light camping",
+        "why": "Only 4.7 kg for 286 Wh and 600 W, sub-10 ms UPS switchover and expandable to 858 Wh: perfect for a tent or as backup power for your internet router."
+      }
+    ],
+    "motorisation-portail-garage-connecte": [
+      {
+        "model": "Mighty Mule MM371W",
+        "role": "Best overall",
+        "why": "Smart-ready swing gate opener for a single leaf up to 4.9 m long or 250 kg; add the MMS100 kit for app control through Nice G.O."
+      },
+      {
+        "model": "Meross Smart Wi-Fi Garage Door Opener (MSG100)",
+        "role": "Best value",
+        "why": "Makes an existing garage door opener smart, with a door sensor and Apple HomeKit, Alexa and Google Assistant support."
+      },
+      {
+        "model": "Genie StealthDrive Connect (7155-TKV)",
+        "role": "Best for garage doors",
+        "why": "Belt-drive garage door opener with built-in Aladdin Connect Wi-Fi: control and monitor the door from your phone with no hub, plus battery backup during power outages."
+      }
+    ],
+    "diffuseur-huiles-essentielles-connecte": [
+      {
+        "model": "ASAKUKI Rock Smart Wi-Fi Essential Oil Diffuser 500ml",
+        "role": "Best overall",
+        "why": "A 500 mL tank with up to 16 hours of run time, Tuya app control with timers, seven light colours and Alexa voice control."
+      },
+      {
+        "model": "Meross Smart Wi-Fi Essential Oil Diffuser (MOD150HK)",
+        "role": "Best value",
+        "why": "A 400 mL tank, daily or day-of-week schedules, adjustable coloured light, and support for Apple Home, Alexa and Google Assistant."
+      },
+      {
+        "model": "Aromatherapy Associates Atomiser Connect",
+        "role": "Best smart nebulizer",
+        "why": "Waterless pure-oil diffusion, two diffuser heads for two blends and scheduling through a Bluetooth app."
+      }
+    ],
+    "coffre-fort-connecte-guide": [
+      {
+        "model": "SentrySafe SFW123BTC",
+        "role": "Best overall",
+        "why": "Fingerprint and keypad entry, UL Classified one-hour fire protection up to 927°C (1,700°F) and ETL Verified water protection, with built-in bolt-down hardware."
+      },
+      {
+        "model": "Barska Diamond AX13938",
+        "role": "Best value",
+        "why": "Compact 26 L (0.92 cu. ft.) safe with a fingerprint reader for up to 100 prints, a touchscreen keypad and two backup keys; mounting hardware is included."
+      }
+    ],
+    "lave-linge-connecte-guide": [
+      {
+        "model": "Bosch 800 Series Compact Washer (WGB246AXUC)",
+        "role": "Best overall",
+        "why": "Compact washer with a 2.4 cu. ft. drum rated for 10 kg loads, 1,600 rpm spin, i-Dos automatic detergent dosing and the full-featured Home Connect app."
+      },
+      {
+        "model": "LG WM3600HWA",
+        "role": "Best value",
+        "why": "A 5.2 cu. ft. front-loader with an AI DD motor, 6Motion wash action, steam and the LG ThinQ app over Wi-Fi."
+      },
+      {
+        "model": "LG WashCombo All-in-One Washer/Dryer (WM6998HBA)",
+        "role": "Best washer-dryer combo",
+        "why": "Washes and dries in a single 5.7 cu. ft. drum, with ventless Inverter HeatPump drying and the LG ThinQ app over Wi-Fi."
+      }
+    ],
+    "interrupteur-connecte-comparatif": [
+      {
+        "model": "Aqara Light Switch H2 US",
+        "role": "Best overall",
+        "why": "Works with or without a neutral wire and runs on Zigbee with an Aqara hub or on Matter over Thread, so it can join Apple Home, Google Home, Alexa and Home Assistant."
+      },
+      {
+        "model": "Shelly 1PM Mini Gen4",
+        "role": "Best value",
+        "why": "An 8 A relay that hides behind your existing switch, with power metering, Wi-Fi, Zigbee and Matter, no hub needed (requires a neutral wire)."
+      },
+      {
+        "model": "Philips Hue Tap Dial Switch",
+        "role": "Best for smart bulbs",
+        "why": "Battery-powered remote with no wiring, four scene buttons and a dimming dial to control your Hue bulbs."
+      }
+    ],
+    "box-domotique-hub-comparatif": [
+      {
+        "model": "Homey Pro (2026)",
+        "role": "Best overall",
+        "why": "Built-in Zigbee, Z-Wave, Thread, Matter, Bluetooth LE and infrared, local automations, a simple app and 4 GB of RAM."
+      },
+      {
+        "model": "Aqara Hub M3",
+        "role": "Best value",
+        "why": "Matter controller, Thread border router, Zigbee, 360° infrared and PoE, with locally executed automations."
+      },
+      {
+        "model": "Home Assistant Green",
+        "role": "Best for power users",
+        "why": "Fully local open-source software with 2,000+ integrations; Zigbee/Thread and Z-Wave via ZBT-2 and ZWA-2 adapters."
+      }
+    ],
+    "alarme-exterieure-detecteur-jardin": [
+      {
+        "model": "Ajax MotionProtect Outdoor",
+        "role": "Best overall",
+        "why": "Dual PIR sensors, an adjustable range of 3 to 15 m and pet immunity up to 80 cm to cut down on false alarms."
+      },
+      {
+        "model": "Ajax StreetSiren",
+        "role": "Best outdoor siren",
+        "why": "Volume adjustable from 85 to 113 dB, an LED frame that shows alarms and arming status, IP54 and up to 5 years on its batteries, with terminals for external power. Needs an Ajax hub."
+      },
+      {
+        "model": "Philips Hue Outdoor Motion Sensor",
+        "role": "Best for automatic lighting",
+        "why": "Switches on your outdoor Hue lights when someone walks by: 12 m range over 160°, IP54, daylight sensor. An add-on, not an alarm."
+      }
+    ],
+    "rideau-motorise-connecte-guide": [
+      {
+        "model": "SwitchBot Curtain 3",
+        "role": "Best overall",
+        "why": "Comes in rod, U-rail and I-rail versions, moves curtains up to 15 kg, has a quiet mode and works with Matter through a SwitchBot hub: the most versatile curtain motor here."
+      },
+      {
+        "model": "Aqara Curtain Driver E1",
+        "role": "Best value",
+        "why": "A 6,000 mAh battery rated for up to 12 months, a built-in light sensor and Zigbee 3.0: a natural fit if you already own an Aqara hub."
+      },
+      {
+        "model": "Eve MotionBlinds Upgrade Kit",
+        "role": "Best for Matter roller shades",
+        "why": "A motor that slides into the tube of a roller shade you already own, with native Thread and Matter, a USB-C rechargeable battery and Adaptive Shading on iPhone."
+      }
+    ],
+    "batterie-domestique-stockage-solaire": [
+      {
+        "model": "Anker SOLIX F3000 Portable Power Station",
+        "role": "Best overall",
+        "why": "A 3,072 Wh battery with up to 2,400 W of solar input, 3,600 W of AC output and expansion up to 24 kWh."
+      },
+      {
+        "model": "Jackery Explorer 3000 v2",
+        "role": "Best value",
+        "why": "3,072 Wh of LFP storage in a single unit, with 3,600 W of AC output, a UPS switchover of 20 ms or less and app control over Wi-Fi or Bluetooth."
+      },
+      {
+        "model": "Tesla Powerwall 3",
+        "role": "Best for whole-home backup",
+        "why": "13.5 kWh usable, a built-in solar inverter and up to 11.5 kW of continuous output, with installation by a certified installer."
+      }
+    ],
+    "humidificateur-connecte-comparatif": [
+      {
+        "model": "Sharp Smart Air Purifier with Humidifier (KCP110CW)",
+        "role": "Best overall",
+        "why": "Combines True HEPA and carbon air purification with a built-in humidifier, plus Sharp Air app control and Alexa and Google Assistant support, for rooms up to 50 m²."
+      },
+      {
+        "model": "Levoit Classic 300S",
+        "role": "Best value",
+        "why": "A 6 L top-fill ultrasonic humidifier with auto mode, the VeSync app and Alexa and Google support, at an entry-level price point."
+      },
+      {
+        "model": "Dyson Purifier Humidify+Cool PH03",
+        "role": "Best for allergy sufferers",
+        "why": "A HEPA H13 purifier, a humidifier whose Ultraviolet Cleanse treatment kills 99.9% of bacteria in the water, and a fan in one device, with a 5 L tank and voice control."
+      }
+    ],
+    "detecteur-mouvement-connecte-comparatif": [
+      {
+        "model": "Aqara Motion and Light Sensor P2",
+        "role": "Best overall",
+        "why": "A 170° PIR sensor on Matter over Thread, with a light sensor and up to two years of rated battery life."
+      },
+      {
+        "model": "IKEA MYGGSPRAY",
+        "role": "Best value",
+        "why": "An entry-level sensor on Matter over Thread, IP67-rated for indoor and outdoor use, that takes two rechargeable AAA batteries (sold separately)."
+      },
+      {
+        "model": "Aqara Presence Sensor FP2",
+        "role": "Best presence sensor",
+        "why": "mmWave radar that detects people sitting still, with up to 30 zones and five people, and no batteries to change."
+      }
+    ],
+    "compteur-energie-connecte-comparatif": [
+      {
+        "model": "Emporia Vue 3 Home Energy Monitor",
+        "role": "Best overall",
+        "why": "Two 200 A mains sensors (expandable to three) and up to 16 branch-circuit sensors, with support for split-phase and three-phase service, solar and net-metering tracking, and Wi-Fi or Ethernet. It relies on Emporia's cloud app, with no local data storage."
+      },
+      {
+        "model": "Eyedro Home Energy Monitor Plus (EYEDRO-HOME)",
+        "role": "Best value",
+        "why": "Two directional 200 A split-core sensors clip around the main wires with no rewiring, it's solar-ready with a net-meter view in MyEyedro, and it connects over Wi-Fi or Ethernet. It's designed for 120/240 V homes in Canada and the US."
+      },
+      {
+        "model": "Rainforest Automation EAGLE-200 (RFA-Z114)",
+        "role": "Best for reading your smart meter",
+        "why": "Pairs wirelessly with a Zigbee-enabled smart meter at participating utilities once your utility authorizes it, plugs into an outlet so no electrician is needed, and offers a local API that Home Assistant supports."
+      }
+    ],
+    "climatiseur-mobile-connecte-comparatif": [
+      {
+        "model": "Midea U-Shaped Smart Inverter Window Air Conditioner (MW12MSWBA5RCM)",
+        "role": "Best overall",
+        "why": "The closest thing to a split you can install yourself: its U-shaped body straddles the sill so compressor noise stays outside, with sound rated as low as 42 dBA, while DC inverter technology cools spaces up to about 51 m² (550 sq. ft.). The window still opens and closes, and it installs in three steps with a quick-snap bracket; it's a window unit rather than a portable."
+      },
+      {
+        "model": "LG Dual Inverter Smart Wi-Fi Portable Air Conditioner (LP0824IVSM)",
+        "role": "Best value",
+        "why": "An 8,000 BTU SACC Dual Inverter portable AC for rooms up to about 33 m² (350 sq. ft.), with Wi-Fi control in the LG ThinQ app; LG says its portables run as low as 44 dB in sleep mode. It cools only."
+      },
+      {
+        "model": "LG Dual Inverter Smart Wi-Fi Portable Air Conditioner (LP1419IVSM)",
+        "role": "Best for large rooms",
+        "why": "LG rates this Dual Inverter portable AC at 10,000 BTU SACC for rooms up to about 46 m² (500 sq. ft.), with Wi-Fi control in the LG ThinQ app plus Amazon Alexa and Google Assistant. It cools only."
+      }
+    ],
+    "robot-piscine-comparatif": [
+      {
+        "model": "Dolphin S300",
+        "role": "Best overall",
+        "why": "Cleans the floor, walls and waterline in pools up to 15 m long with no battery to run down, and its fine or ultra-fine filter (both in the box) lifts out from the top."
+      },
+      {
+        "model": "Dolphin Nautilus CC Pro",
+        "role": "Best value",
+        "why": "Also covers the floor, walls and waterline in pools up to 15 m long, with an extra-large top-load fine filter basket and Wi-Fi control through the MyDolphin Plus app."
+      },
+      {
+        "model": "Beatbot AquaSense 2 Ultra",
+        "role": "Best cordless",
+        "why": "Fully cordless, it cleans the water surface as well as the floor, walls and waterline, uses AI mapping and debris detection, and is rated for pool floors up to 360 m² (3,875 sq. ft.). Beatbot's North American store ships it to Canada."
+      }
+    ],
+    "grill-pellet-plancha-connecte-comparatif": [
+      {
+        "model": "Weber Searwood 600",
+        "role": "Best overall",
+        "why": "A pellet grill that runs from 82°C to 315°C (180°F to 600°F), so it both smokes and sears, controlled over Wi-Fi and Bluetooth through Weber Connect, with two probes included."
+      },
+      {
+        "model": "Ninja Woodfire Pro Connect Premium XL Outdoor Grill & Smoker (OG951)",
+        "role": "Best value and best for balconies",
+        "why": "Compact and electric, with seven functions including a smoker, app control and two app-connected thermometers."
+      },
+      {
+        "model": "Weber Spirit EX-325 Smart Gas Grill",
+        "role": "Best smart gas grill",
+        "why": "Three burners with a boosted Sear Zone, plus a Wi-Fi thermometer that sends Weber Connect alerts when the grill is preheated and when food is ready to flip; you still adjust the flame by hand."
+      }
+    ],
+    "eclairage-connecte-comparatif": [
+      {
+        "model": "Philips Hue White and Color Ambiance A19 E26 Smart Bulb, 75W (1,100 lm)",
+        "role": "Best overall",
+        "why": "Up to 1,100 lumens, millions of colours and the most complete Hue ecosystem: add the Hue Bridge and you get advanced automations and Matter for Apple Home, Google Home and Alexa."
+      },
+      {
+        "model": "TP-Link Tapo L535E Matter Smart Bulb",
+        "role": "Best without a hub",
+        "why": "A 1,055-lumen colour A19 (E26) bulb on direct Wi-Fi with Matter certification: a simple, affordable way to make a few lamps smart without a hub."
+      },
+      {
+        "model": "Govee RGBIC LED Strip Lights with Covers (H61B5)",
+        "role": "Best for RGB mood lighting",
+        "why": "A 5 m (16.4 ft) RGBIC light strip with protective covers and independently coloured segments (up to 50 in DIY mode), Wi-Fi and Bluetooth, and Alexa and Google Assistant support: an eye-catching option for gaming setups or decor."
+      }
+    ],
+    "ventilateur-connecte-comparatif": [
+      {
+        "model": "Dyson Purifier Cool PC2 De-NOx",
+        "role": "Best overall",
+        "why": "A bladeless fan and purifier in one: a sealed HEPA and K-Carbon filter that captures particles and continuously destroys formaldehyde, air quality sensors, 350° oscillation and control from the MyDyson app, voice assistants or Matter platforms."
+      },
+      {
+        "model": "Dreo TurboPoly Fan 508S",
+        "role": "Best value",
+        "why": "A DC-motor fan with nine speeds and six wind modes, including an Auto mode that adjusts speed to room temperature, 3D oscillation up to 120°, noise as low as 20 dB according to Dreo, and control from the Dreo app, a voice assistant or the remote."
+      },
+      {
+        "model": "Dyson Purifier Hot+Cool HP2 De-NOx",
+        "role": "Best for year-round use (3-in-1)",
+        "why": "Cools you in summer, heats the room in winter and purifies the air, with integrated air quality sensors and a sealed filter system that continuously destroys formaldehyde."
+      }
+    ],
+    "volets-roulants-connectes-guide": [
+      {
+        "model": "Somfy Oximo RTS 550R2",
+        "role": "Best overall",
+        "why": "Somfy's 120 V tubular motor for exterior rolling shutters, with built-in RTS radio: pair it with the TaHoma switch for app control, schedules and scenes. Being one-way, it doesn't report the shutter's position."
+      },
+      {
+        "model": "Shelly 2PM Gen4 UL",
+        "role": "Best value",
+        "why": "A UL-certified two-channel relay with power monitoring that fits behind the wall switch of a wired shutter motor: cover mode adds app control, schedules and position calibration over Wi-Fi, with Matter support."
+      },
+      {
+        "model": "VELUX Solar-Powered Room-Darkening Skylight Shade",
+        "role": "Best for skylights",
+        "why": "A solar-powered, double-pleated room-darkening shade for VELUX skylights, with honeycomb blackout fabric, remote control and no wiring to run; VELUX ACTIVE with NETATMO can add app control."
+      }
+    ],
+    "camera-interieure-sans-abonnement": [
+      {
+        "model": "eufy Indoor Cam E220",
+        "role": "Best overall",
+        "why": "2K video, 360° pan with 96° tilt, person, pet and crying detection, local microSD recording with no monthly fee, plus Apple HomeKit, Google Assistant and Alexa support."
+      },
+      {
+        "model": "TP-Link Tapo C220",
+        "role": "Best value",
+        "why": "A well-equipped entry-level camera: 2K QHD video, 360° pan with tilt, a wide range of smart detection (person, pet, baby crying, line crossing) and microSD cards up to 512 GB."
+      },
+      {
+        "model": "Reolink E1 Zoom",
+        "role": "Best for NAS storage",
+        "why": "4K 8 MP video with 3x optical zoom, dual-band Wi-Fi 6 and, on top of microSD cards up to 512 GB, the option to back up footage to a NAS over FTP or record to a Reolink NVR or Home Hub."
+      }
+    ],
+    "aspirateur-sans-fil-comparatif-2026": [
+      {
+        "model": "Dyson V15 Detect",
+        "role": "Best overall",
+        "why": "Strong suction, a laser that reveals microscopic dust, a particle sensor that adjusts power automatically and whole-machine filtration that traps particles as small as 0.3 microns."
+      },
+      {
+        "model": "LG CordZero Q3 Cordless Stick Vacuum",
+        "role": "Best value",
+        "why": "Up to 150 air watts from LG's Smart Inverter Motor, Kompressor technology that compacts debris to fit more in the bin, automatic floor-type detection and washable filters; runtime is up to 60 minutes in Eco mode without a nozzle, 35 with one."
+      },
+      {
+        "model": "Samsung Bespoke AI Jet Ultra Cordless Stick Vacuum (VS90F40DMK)",
+        "role": "Best for battery life and self-emptying",
+        "why": "Up to 100 minutes of runtime in its lowest power mode, 400 air watts of suction, AI Cleaning Mode 2.0 that senses the floor and adjusts suction and brush speed, and an All-in-One Clean Station that empties the bin automatically."
+      }
+    ],
+    "interphone-video-connecte": [
+      {
+        "model": "Aiphone JOS-1AW",
+        "role": "Best overall",
+        "why": "A 7-inch touchscreen monitor, an IP54 surface-mount door station and Aiphone's Intercom App for up to 8 phones, all over a single 2-wire run, with door release from the app: a complete kit for a house."
+      },
+      {
+        "model": "Ring Wired Doorbell 2K Plus",
+        "role": "Best value",
+        "why": "Connects to your existing doorbell wiring (16 or 24 VAC) and sends 2K video with a 140° x 140° head-to-toe view and two-way talk to the Ring app over dual-band Wi-Fi 6; saving and reviewing recordings requires a Ring Protect plan."
+      },
+      {
+        "model": "Ring Battery Doorbell 2K",
+        "role": "Best for apartments, no rewiring",
+        "why": "Runs on a built-in rechargeable battery, so it needs no wiring and installs in about 10 minutes; 2K head-to-toe video and two-way talk go to the Ring app. It doesn't connect to the building's entry panel."
+      }
+    ],
+    "nettoyeur-vapeur-connecte": [
+      {
+        "model": "Dupray Neat Plus Steam Cleaner",
+        "role": "Best overall",
+        "why": "A 1.6 L tank you can refill as you clean for unlimited steam time, steam up to 135°C, a 2 m hose and 17 accessories: a versatile pick for floors, grout, kitchens and bathrooms."
+      },
+      {
+        "model": "Black+Decker 7-in-1 Steam Mop with SteamGlove (HSMC1361SGP)",
+        "role": "Best value",
+        "why": "A steam mop that converts to a handheld steamer at the push of a button, is ready in 20 seconds and comes with SmartSelect variable steam, a SteamGlove, a fabric steamer and grout, copper and plastic brushes: a versatile entry-level choice."
+      },
+      {
+        "model": "Bissell PowerFresh Slim 3-in-1 Scrubbing & Sanitizing Steam Mop (2181)",
+        "role": "Best for apartments",
+        "why": "A steam mop with a low-profile swivelling head, ready in 30 seconds, that slides under furniture: ideal for studios, condos and small apartments."
+      }
+    ],
+    "detection-fuite-eau-connectee": [
+      {
+        "model": "Aqara Water Leak Sensor",
+        "role": "Best overall",
+        "why": "A compact IP67 sensor to place under every appliance that could leak, with phone alerts through an Aqara hub and a battery rated to last more than two years."
+      },
+      {
+        "model": "Shelly Flood Gen4",
+        "role": "Best without a hub",
+        "why": "Works over Wi-Fi with no hub, supports Matter, and has a built-in buzzer plus an extendable 2 m sensing cable to cover a whole area."
+      },
+      {
+        "model": "Aqara Valve Controller T1",
+        "role": "Best for automatic water shut-off",
+        "why": "Clamps onto an existing lever- or butterfly-handle valve on DN15 to DN25 pipe (1/2 to 1 in.) and closes it automatically as soon as an Aqara sensor detects a leak; it runs on four AA batteries."
+      }
+    ],
+    "qualite-air-interieur-capteurs": [
+      {
+        "model": "Airthings View Plus",
+        "role": "Best overall",
+        "why": "It combines radon, PM2.5, CO2, VOCs, humidity, temperature and air pressure, and runs on six AA batteries or USB-C power: the most complete pick here."
+      },
+      {
+        "model": "SwitchBot Meter Pro (CO2 Monitor)",
+        "role": "Best value",
+        "why": "Its NDIR sensor shows CO2, temperature and humidity on a built-in screen and sounds an alert when levels climb, so you know when to open a window. It runs on USB-C or batteries; app alerts and smart-home features need a SwitchBot Hub."
+      },
+      {
+        "model": "Aranet4 Home",
+        "role": "Best for reliable, portable CO2",
+        "why": "Its NDIR sensor and battery-powered e-ink screen show CO2 at a glance for years, and it moves easily from room to room."
+      }
+    ],
+    "radiateur-electrique-connecte-guide": [
+      {
+        "model": "Dreo Smart Wall-Mounted Heater 719S",
+        "role": "Best overall",
+        "why": "A wall-mounted ceramic heater with Wi-Fi control in the Dreo app, voice control through Alexa and Google Home, and oscillation to spread warm air across the room."
+      },
+      {
+        "model": "Dreo Smart Wall-Mounted Heater 517S",
+        "role": "Best value",
+        "why": "A 1,500 W wall-mounted heater with Wi-Fi control and usage stats in the Dreo app, three heat settings and a 24-hour timer, for an entry-level budget."
+      },
+      {
+        "model": "Dreo Oil-Filled Radiator 310",
+        "role": "Best with no installation needed",
+        "why": "A portable oil-filled heater on caster wheels that plugs into a standard outlet, with a 5°C to 35°C thermostat in 1°C steps, an ECO mode, a 24-hour timer, a remote, and tip-over and overheat protection. It has no app control."
+      }
+    ],
+    "detecteur-fumee-connecte-comparatif": [
+      {
+        "model": "Kidde Smart Smoke + CO Alarm, Hardwired with AA Backup Battery (30CUAR-WCA)",
+        "role": "Best overall",
+        "why": "A hardwired smoke and CO alarm with two AA backup batteries that sets up over Wi-Fi and sends phone alerts through the Kidde app. Kidde says adding one smart alarm brings mobile alerts for the other hardwired Kidde alarms in the home."
+      },
+      {
+        "model": "Kidde Smart Smoke Alarm, Hardwired with AA Backup Battery (20SAR-WCA)",
+        "role": "Best value",
+        "why": "A hardwired Wi-Fi smoke alarm with two AA backup batteries and Kidde app alerts, with sensing designed to cut false alarms from cooking: a simple way to make existing hardwired alarms smart."
+      },
+      {
+        "model": "Kidde Smart Carbon Monoxide Alarm with Indoor Air Quality Monitor (COPDLQW-CA)",
+        "role": "Best for carbon monoxide",
+        "why": "A plug-in CO alarm with AA backup batteries and a digital display that sends CO, low-level CO and indoor air quality alerts to your phone: the add-on to get if you have a gas furnace, boiler, water heater, wood stove or fireplace."
+      }
+    ],
+    "airfryer-economies-energie": [
+      {
+        "model": "Philips 3000 Series Airfryer with Window (NA331/00)",
+        "role": "Best overall",
+        "why": "6.2 L (6.5 qt) in a single basket: enough to feed 3 to 5 people in one batch and leave the oven off."
+      },
+      {
+        "model": "T-fal Easy Fry Max 5L Air Fryer (EY245B50)",
+        "role": "Best value",
+        "why": "5 L (5.3 qt) with 10 automatic programs: enough room for 3 to 4 people, with no extras you don't need."
+      },
+      {
+        "model": "Ninja DoubleStack XL 2-Basket Air Fryer (SL401)",
+        "role": "Best oven replacement for families",
+        "why": "Two stacked baskets (9.5 L or 10 qt in all) cook a main and a side at the same time, so you don't have to turn on the oven."
+      }
+    ],
+    "airfryer-simple-vs-double-panier": [
+      {
+        "model": "Ninja DoubleStack XL 2-Basket Air Fryer (SL401)",
+        "role": "Best overall",
+        "why": "Two stacked 4.75 L (5 qt) baskets in a footprint about 28 cm (11 in.) wide: two dishes at once without taking over the counter."
+      },
+      {
+        "model": "Ninja Foodi DualZone FlexBasket Air Fryer with 11-Qt MegaZone (AD600CO)",
+        "role": "Best for large families",
+        "why": "Two 5.2 L (5.5 qt) zones or, with the divider out, one 10.4 L (11 qt) MegaZone big enough for a whole chicken: the most versatile pick for five or more people."
+      },
+      {
+        "model": "Philips 3000 Series Airfryer with Window (NA331/00)",
+        "role": "Best single basket",
+        "why": "A 6.2 L (6.5 qt) basket with a cooking window, 16 ways to cook and simple controls: plenty for one to three people, in a smaller footprint."
+      }
+    ],
+    "airfryer-vs-friteuse-traditionnelle": [
+      {
+        "model": "Philips 3000 Series Airfryer with Window (NA331/00)",
+        "role": "Best overall",
+        "why": "Its 6.2 L (6.5 qt) basket holds about 1.2 kg of fries, and its 16 ways to cook cover what a family of four needs once the deep fryer goes."
+      },
+      {
+        "model": "T-fal ActiFry Multicooker & Air Fryer (MY740CQ0)",
+        "role": "Best for french fry lovers",
+        "why": "Its automatic paddle stirs the food as it cooks, so there's no basket to shake, in a 6 L (6.3 qt) bowl with 14 programs, from air frying to slow cooking."
+      }
+    ],
+    "alarme-maison-sans-abonnement": [
+      {
+        "model": "Ajax Hub 2 Plus Jeweller",
+        "role": "Best overall",
+        "why": "A hub with Ethernet, Wi-Fi and two LTE SIM slots, up to 15 hours of backup battery on cellular, Jeweller radio range up to 2,000 m in open space and a CAN/ULC S304 listing. Sensors are sold separately."
+      },
+      {
+        "model": "Abode Security Kit",
+        "role": "Best break-in detection",
+        "why": "Pair the kit (hub, door/window sensor, key fob) with Abode's Vibration Glass Break Sensor, which picks up small, cumulative shocks and larger impacts on a pane. The hub has a 93 dB siren, up to 12 hours of backup battery and free self-monitoring; cellular backup requires a paid plan."
+      },
+      {
+        "model": "Ring Alarm Security Kit, 8-Piece (2nd Gen)",
+        "role": "Best value for Alexa users",
+        "why": "An entry-level kit that works with Alexa: a base station with a 104 dB siren and up to 24 hours of backup battery, a keypad, four contact sensors, a motion detector and a range extender. Cellular backup and arming from your phone require a paid Ring plan."
+      }
+    ],
+    "arrosage-connecte-intelligent": [
+      {
+        "model": "GARDENA Water Control Bluetooth",
+        "role": "Best overall",
+        "why": "Mounts on an outdoor faucet and is programmed from the GARDENA Bluetooth app, with up to three schedules, a rain break and an optional soil moisture sensor that skips watering when the ground is already moist."
+      },
+      {
+        "model": "Eve Aqua",
+        "role": "Best value, no gateway",
+        "why": "A Thread and Matter smart hose timer that runs locally, with no gateway or required cloud account, in Apple Home, Google Home or Alexa."
+      },
+      {
+        "model": "Orbit B-hyve Smart 6-Zone Indoor/Outdoor Sprinkler Controller",
+        "role": "Best for in-ground sprinkler systems",
+        "why": "Runs up to six 24 VAC sprinkler or drip zones, mounts indoors or outdoors and skips watering when it rains or freezes; it connects over Wi-Fi and Bluetooth and works with Alexa and Google Assistant."
+      }
+    ],
+    "balance-cuisine-connectee-comparatif": [
+      {
+        "model": "Etekcity Smart Nutrition Scale",
+        "role": "Best overall",
+        "why": "Weighs up to 5 kg to the gram, with a stainless steel platform and a VeSync app that tracks up to 19 nutrients, with reports and Apple Health sync."
+      },
+      {
+        "model": "Renpho Calibra 1 Smart Nutrition Scale",
+        "role": "Best budget pick",
+        "why": "An entry-level Bluetooth food scale with a glass platform that weighs up to 5 kg to the gram and tracks up to 25 nutrition values in its companion app."
+      },
+      {
+        "model": "Beurer KS 34 XL Kitchen Scale",
+        "role": "High capacity, no app",
+        "why": "Weighs up to 15 kg (33 lb) to the gram on an extra-large platform, with a hold function: ideal for big-batch cooking, no app required."
+      }
+    ],
+    "balkonkraftwerk-panneau-solaire-balcon": [
+      {
+        "model": "Hoymiles HMS-800-2T-NA",
+        "role": "Best overall",
+        "why": "A two-panel microinverter (800 VA) with two independent MPPT inputs and built-in rapid shutdown, monitored through a Hoymiles DTU. It's a hardwired install rather than a plug-in kit, so check with your utility and your provincial electrical safety authority, and hire a licensed electrician."
+      },
+      {
+        "model": "Anker SOLIX F3000 Portable Power Station",
+        "role": "Best with a battery",
+        "why": "A 3,072 Wh battery with up to 2,400 W of solar input, 3,600 W of AC output and expansion up to 24 kWh."
+      },
+      {
+        "model": "EcoFlow DELTA 3 Ultra Plus",
+        "role": "Best expandable battery",
+        "why": "A 3,072 Wh LFP power station with 3,600 W of AC output and up to 1,600 W of solar input, expandable to 11 kWh with extra batteries. It doesn't feed your home's wiring on its own: you plug appliances into it."
+      }
+    ],
+    "barbecue-connecte-thermometre-guide": [
+      {
+        "model": "MEATER Pro",
+        "role": "Best overall",
+        "why": "A fully wireless, waterproof, dishwasher-safe probe that reads internal and ambient temperatures and can handle searing over high heat."
+      },
+      {
+        "model": "MEATER Plus",
+        "role": "Best value wireless probe",
+        "why": "Same app as the Pro, with a Bluetooth repeater built into the charger for a rated range of 50 m: a good first wireless probe for lid-down cooking."
+      },
+      {
+        "model": "Inkbird IBT-4XS",
+        "role": "Best multi-probe for smoking",
+        "why": "Four probe jacks, a rotating LED display and a magnetic back: track several cuts and your smoker's temperature on a small budget."
+      }
+    ],
+    "cafetiere-connectee-guide": [
+      {
+        "model": "De'Longhi Magnifica Evo with LatteCrema System (ECAM29084SB)",
+        "role": "Best overall",
+        "why": "A 13-setting grinder, the LatteCrema automatic milk system and seven one-touch recipes: very easy day to day, though it has no app."
+      },
+      {
+        "model": "Philips 5500 Series Fully Automatic Espresso Machine with LatteGo (EP5544/90)",
+        "role": "Easiest to maintain",
+        "why": "Two-piece, tube-free LatteGo milk system, 20 hot and iced drinks and four user profiles on the display."
+      },
+      {
+        "model": "De'Longhi Rivelia Fully Automatic Espresso Machine (EXAM44055B)",
+        "role": "Best for families",
+        "why": "Four user profiles, the Bean Switch system with two interchangeable bean hoppers (a regular roast and a decaf, for example) and 18 one-touch drinks with the LatteCrema Hot milk system."
+      }
+    ],
+    "capteur-sol-humidite-jardin": [
+      {
+        "model": "Netro Whisperer Gen2",
+        "role": "Best overall",
+        "why": "A solar-powered Wi-Fi sensor that tracks soil moisture, temperature and sunlight and feeds those readings to Netro's Pixie hose timer and Sprite or Spark sprinkler controllers to fine-tune their watering schedules."
+      },
+      {
+        "model": "Ecowitt WH51 (915 MHz)",
+        "role": "Best value",
+        "why": "An IP66 wireless sensor that runs on one AA battery, with up to 16 per Ecowitt gateway and Home Assistant support for tracking several zones of your yard."
+      },
+      {
+        "model": "ThirdReality Smart Soil Moisture Sensor Gen2",
+        "role": "Best for Zigbee smart homes",
+        "why": "A capacitive Zigbee 3.0 soil moisture sensor that joins Home Assistant, Hubitat, SmartThings or Homey without a dedicated app."
+      }
+    ],
+    "cave-vin-connectee-guide": [
+      {
+        "model": "Liebherr W5250",
+        "role": "Best overall",
+        "why": "155 bottles in two zones you can each set from 5°C to 20°C, HumiditySelect to keep corks moist, TempProtect Plus with two sensors that alerts you to a critical temperature change, and an optional SmartDeviceBox that links it to Liebherr's SmartDevice app."
+      },
+      {
+        "model": "Liebherr Wgb7470",
+        "role": "Best for aging a large collection",
+        "why": "A freestanding cabinet with 558 L of net capacity and room for 145 bottles across three zones, each adjustable from 5°C to 20°C, plus HumiditySelect for the corks, a UV-protected glass door and TempProtect Plus temperature monitoring."
+      }
+    ],
+    "climatiseur-mobile-vs-ventilateur": [
+      {
+        "model": "De'Longhi Pinguino Portable Air Conditioner (PAC EL376HGRFK)",
+        "role": "Best for heat waves",
+        "why": "Only an air conditioner actually brings the temperature down: this Pinguino portable, rated 12,500 BTU (ASHRAE) and 7,200 BTU (SACC) for rooms up to 550 sq. ft., works over Wi-Fi with smart speakers and also heats."
+      },
+      {
+        "model": "Dreo TurboPoly Fan 508S",
+        "role": "Best value",
+        "why": "For milder summers, this DC-motor fan runs as quietly as 20 dB according to Dreo, offers nine speeds, six wind modes and 3D oscillation, and works from the Dreo app, a voice assistant or the remote, with no installation needed."
+      },
+      {
+        "model": "Midea U-Shaped Smart Inverter Window Air Conditioner (MW12MSWBA5RCM)",
+        "role": "Quietest for bedrooms",
+        "why": "Its U-shaped design keeps compressor noise outside, with sound rated as low as 42 dBA, while DC inverter technology cools spaces up to 550 sq. ft.; the window still opens and closes, and it installs in three steps with a quick-snap bracket."
+      }
+    ],
+    "comment-choisir-airfryer-famille": [
+      {
+        "model": "Ninja DoubleStack XL 2-Basket Air Fryer (SL401)",
+        "role": "Best for families of 4 to 5",
+        "why": "Its two stacked 4.75 L (5 qt) baskets, 9.5 L (10 qt) in all, cook up to four foods at once and fit a whole chicken, which makes it a strong fit for larger families."
+      },
+      {
+        "model": "Ninja Foodi DualZone FlexBasket Air Fryer with 11-Qt MegaZone (AD600CO)",
+        "role": "Best for families of 5 to 6",
+        "why": "Its 10.4 L (11 qt) MegaZone drawer works as one zone or as two 5.2 L (5.5 qt) zones with the divider, and holds a whole chicken or a big batch of fries."
+      },
+      {
+        "model": "Typhur Sync Air Fryer (AF14)",
+        "role": "Premium smart pick",
+        "why": "A 7.6 L (8 qt) basket that fits a 2.7 kg (6 lb) whole chicken, a built-in wireless probe with five sensors and optional Wi-Fi control in the Typhur app for remote monitoring and alerts."
+      }
+    ],
+    "comparatif-airfryer-connecte-2026": [
+      {
+        "model": "Typhur Sync Air Fryer (AF14)",
+        "role": "Best overall",
+        "why": "A 7.6 L (8 qt) basket, nine cooking functions, a built-in wireless probe with five internal sensors and the optional Typhur app over Wi-Fi for remote monitoring, control and alerts."
+      },
+      {
+        "model": "Cosori Lite 4.0-Quart Smart Air Fryer (CAF-LI401S)",
+        "role": "Best value",
+        "why": "A compact 3.8 L (4 qt) basket for 1 to 3 people, seven cooking functions, temperatures up to 230°C (450°F) and the VeSync app for remote control, cooking notifications and voice control."
+      },
+      {
+        "model": "Cosori Dual Blaze 6.8-Quart Smart Air Fryer (CAF-P583S)",
+        "role": "Best for a family of four",
+        "why": "Dual heating elements, top and bottom, for even cooking, 6.4 L (6.8 qt) for 4 to 6 people, the VeSync app and Alexa or Google Assistant voice control."
+      }
+    ],
+    "comparatif-camera-surveillance-exterieure": [
+      {
+        "model": "eufyCam S4",
+        "role": "Best overall",
+        "why": "A solar-powered eufyCam that pairs a 4K fixed lens with a 2K 360° pan-and-tilt lens, with 32 GB of built-in local storage."
+      },
+      {
+        "model": "TP-Link Tapo C520WS",
+        "role": "Best value",
+        "why": "A motorized 2K pan-and-tilt camera that covers a whole yard from one spot, with motion tracking and microSD storage up to 512 GB."
+      },
+      {
+        "model": "Reolink RLC-843A",
+        "role": "Best wired PoE option",
+        "why": "4K with 5x optical zoom, power and data over a single Ethernet cable, an IK10 vandal-resistant housing and colour night vision from two spotlights, recording to a Reolink NVR or microSD up to 512 GB."
+      }
+    ],
+    "comparatif-multicuiseur-connecte": [
+      {
+        "model": "Instant Pot Pro Plus 6-Quart Wi-Fi Smart Multicooker",
+        "role": "Best smart pick",
+        "why": "Truly Wi-Fi enabled: 5.7 L (6 qt), 10 functions including pressure cooking, slow cooking and sous vide, and the Instant Connect app with more than 2,000 interactive recipes, so you can monitor progress and adjust settings from your phone."
+      },
+      {
+        "model": "Instant Pot Duo Crisp 6.5-Quart with Ultimate Lid",
+        "role": "Most versatile (no Wi-Fi)",
+        "why": "Pressure cooker and air fryer under one lid, with 13 functions and a 6.2 L (6.5 qt) pot. Heads-up: no Wi-Fi, so no app control."
+      },
+      {
+        "model": "Instant Pot Duo Plus 6-Quart with WhisperQuiet Steam Release",
+        "role": "Best value (no Wi-Fi)",
+        "why": "A simple 9-in-1 multicooker with a 5.7 L (6 qt) stainless steel pot and WhisperQuiet steam release on a one-touch button. No Wi-Fi, so no app control."
+      }
+    ],
+    "comparatif-purificateur-air-allergie": [
+      {
+        "model": "Levoit Core 400S-P",
+        "role": "Best overall",
+        "why": "HEPA filter, a laser PM2.5 sensor and a sleep mode as quiet as 24 dB, in a model rated for large rooms: versatile enough for a living room by day and a bedroom at night."
+      },
+      {
+        "model": "Levoit Core 300S-P",
+        "role": "Best value",
+        "why": "Compact, with a HEPA filter, a claimed CADR of 240 m³/h, auto mode and about 22 dB in sleep mode: the essentials for a bedroom."
+      },
+      {
+        "model": "Blueair Blue Pure 511i Max",
+        "role": "Quietest for sleeping",
+        "why": "A sound range of 19 to 48 dB, HEPASilent filtration, built-in sensors that drive Auto Mode, a Night Mode and Wi-Fi app control; Blueair says it cleans a 22 m² (237 sq. ft.) room every 12.5 minutes."
+      }
+    ],
+    "comparatif-robot-aspirateur-laveur": [
+      {
+        "model": "Dreame X50 Ultra Complete",
+        "role": "Best overall",
+        "why": "A claimed 20,000 Pa of suction, an extending mop and side brush, 80°C mop washing, and it climbs thresholds up to 6 cm."
+      },
+      {
+        "model": "Dreame L40 Ultra Gen 2",
+        "role": "Best value",
+        "why": "A claimed 25,000 Pa of suction, an extending mop and side brush, 10.5 mm mop lifting and an all-in-one dock that empties the bin and washes the mops, at a more affordable tier."
+      },
+      {
+        "model": "Roborock Qrevo Curv 2 Flow",
+        "role": "Best for large hard floors",
+        "why": "Its SpiraFlow roller mop is refreshed with clean water in real time and scraped continuously, effective on sticky spills; the dock adds 75°C high-temperature mop cleaning and 55°C warm-air drying."
+      }
+    ],
+    "comparatif-smart-plugs-mesure-energie": [
+      {
+        "model": "TP-Link Tapo P115",
+        "role": "Best overall",
+        "why": "A compact 15 A / 1,800 W plug (North American version) with real-time and historical energy monitoring, bill estimates in the clear Tapo app, and Alexa, Google Assistant and SmartThings support."
+      },
+      {
+        "model": "Meross Matter Smart Plug with Energy Monitor (MSS315), 4-Pack",
+        "role": "Best alternative for Apple Home",
+        "why": "Sold in Canada as a 4-pack: 15 A / 1,800 W Matter-over-Wi-Fi plugs that work with Apple Home and Siri, plus Alexa and Google Home; energy monitoring runs in the Meross app, and Matter control needs a compatible hub."
+      },
+      {
+        "model": "TP-Link Tapo P105 (4-Pack)",
+        "role": "Best for automation without monitoring",
+        "why": "With no energy monitoring, these 15 A mini plugs complement a P115 for scheduling lamps, chargers and small appliances, with Alexa and Google Assistant control."
+      }
+    ],
+    "cookeo-vs-thermomix-vs-airfryer": [
+      {
+        "model": "Instant Pot Pro Plus 6-Quart Wi-Fi Smart Multicooker",
+        "role": "Best overall",
+        "why": "A 5.7 L (6 qt) pressure multicooker with 10 cooking functions, Wi-Fi control and guided recipes in the Instant Connect app: the most useful everyday pick for getting complete family meals on the table fast."
+      },
+      {
+        "model": "Philips 3000 Series Airfryer with Window (NA331/00)",
+        "role": "Best value",
+        "why": "A 6.2 L (6.5 qt) basket, 16 cooking functions, a viewing window and the HomeID recipe app: a no-fuss air fryer for crispy food every day, and a good partner for a multicooker."
+      },
+      {
+        "model": "Ninja DoubleStack XL 2-Basket Air Fryer (SL401)",
+        "role": "Best for large families",
+        "why": "Two stacked 4.75 L (5 qt) baskets cook a main and a side at the same time while taking up less counter space."
+      }
+    ],
+    "guide-cuisine-connectee-2026": [
+      {
+        "model": "Instant Pot Pro Plus 6-Quart Wi-Fi Smart Multicooker",
+        "role": "Best overall",
+        "why": "A 5.7 L (6 qt) pressure multicooker with 10 cooking functions, Wi-Fi control and step-by-step recipes in the Instant Connect app: the most useful for everyday meals."
+      },
+      {
+        "model": "TP-Link Tapo P115",
+        "role": "Best value",
+        "why": "A compact 15 A Wi-Fi smart plug that needs no hub, controls the appliances you already own and tracks their energy use: the simplest way into a smart kitchen."
+      },
+      {
+        "model": "MEATER Plus",
+        "role": "Best for cooking meat",
+        "why": "A fully wireless dual-sensor probe with a Bluetooth repeater built into its charging dock and guided cooking in the app."
+      }
+    ],
+    "guide-domotique-economie-energie-2026": [
+      {
+        "model": "ecobee Smart Thermostat Premium",
+        "role": "Best overall",
+        "why": "It targets heating and cooling, the biggest energy users in most homes: the included SmartSensor balances comfort room by room, and it adds a built-in occupancy sensor, an indoor air quality monitor and Apple Home support."
+      },
+      {
+        "model": "TP-Link Tapo P110M",
+        "role": "Best value",
+        "why": "A Matter-certified 15 A Wi-Fi smart plug that measures each appliance's use in kWh: the simplest way to spot wasted energy."
+      },
+      {
+        "model": "Emporia Vue 3 Home Energy Monitor",
+        "role": "Best for whole-home monitoring",
+        "why": "Built for North American split-phase panels, it tracks whole-home use plus up to 16 individual circuits and monitors solar generation and net metering; have a licensed electrician install it in your electrical panel."
+      }
+    ],
+    "guide-purificateur-air-2026": [
+      {
+        "model": "Levoit Core 300S-P",
+        "role": "Best value",
+        "why": "Three-stage filtration, a CADR of 240 m³/h, app control with Alexa and Google Assistant support, and affordable replacement filters: ideal for a bedroom."
+      },
+      {
+        "model": "Winix 5510",
+        "role": "Best smart mid-range pick",
+        "why": "Wi-Fi app control, a True HEPA filter paired with a high-deodorization carbon filter, and an auto mode, with Winix rating it to clean up to about 175 m² in one hour."
+      },
+      {
+        "model": "Coway Airmega AP-1512HHS",
+        "role": "Best for large rooms",
+        "why": "Coway rates it for up to about 146 m² (1,575 sq. ft.), with a True HEPA filter, air quality monitoring that drives Auto Mode, an Eco mode, and app and Alexa control."
+      }
+    ],
+    "guide-robot-aspirateur-2026": [
+      {
+        "model": "Roborock Qrevo Curv",
+        "role": "Best overall",
+        "why": "Rated at 18,500 Pa, with LiDAR, spinning mops that reach right to the baseboards and a dock that empties the bin, washes the mops in hot water and dries them."
+      },
+      {
+        "model": "Roborock Q7 L5+",
+        "role": "Best value",
+        "why": "The essentials at entry level: LiDAR navigation, a quoted 8,000 Pa, dual anti-tangle brushes and an auto-empty dock that Roborock says holds up to seven weeks of debris."
+      },
+      {
+        "model": "Dreame X50 Ultra Complete",
+        "role": "Best for pets and thresholds",
+        "why": "Rated at 20,000 Pa, with an anti-tangle twin brush and a ProLeap system that climbs obstacles up to 6 cm, according to the manufacturer."
+      }
+    ],
+    "histoire-evolution-airfryer": [
+      {
+        "model": "Ninja Foodi DualZone FlexBasket Air Fryer with 11-Qt MegaZone (AD600CO)",
+        "role": "Best overall",
+        "why": "The culmination of the dual-zone design Ninja launched in 2020: two independent zones, or one large 10.4 L (11 qt) MegaZone for a whole chicken."
+      },
+      {
+        "model": "Philips 3000 Series Airfryer with Window (NA331/00)",
+        "role": "Best value",
+        "why": "The direct heir of the first Airfryer from 2010: a single 6.2 L (6.5 qt) basket, RapidAir Plus technology and simple touch controls for 2 to 4 people."
+      },
+      {
+        "model": "T-fal ActiFry Multicooker & Air Fryer (MY740CQ0)",
+        "role": "Best for fries without shaking",
+        "why": "Today's ActiFry carries on the 2006 original: its automatic paddle stirs the food for you, and a multi-layer tray lets you cook proteins, grains and vegetables at the same time in the 6 L (6.3 qt) bowl."
+      }
+    ],
+    "meilleur-airfryer-petit-budget": [
+      {
+        "model": "T-fal Easy Fry Max 5L Air Fryer (EY245B50)",
+        "role": "Best overall",
+        "why": "A big basket for an entry-level model: 5 L (5.3 qt), 10 presets and a touchscreen, enough for a family of three or four."
+      },
+      {
+        "model": "Cosori Lite 4.0-Quart Smart Air Fryer (CAF-LI401S)",
+        "role": "Best budget smart pick",
+        "why": "Voice control and the free VeSync app add remote control, cooking notifications and scan-to-cook recipes, and the 3.8 L (4 qt) basket suits one to three people."
+      }
+    ],
+    "ninja-vs-philips-quel-choisir": [
+      {
+        "model": "Ninja Foodi DualZone FlexBasket Air Fryer with 11-Qt MegaZone (AD600CO)",
+        "role": "Best overall",
+        "why": "Its 10.4 L (11 qt) capacity splits into two synced zones or one large MegaZone basket, ideal for families of four or more."
+      },
+      {
+        "model": "Philips 3000 Series Airfryer with Window (NA331/00)",
+        "role": "Best value",
+        "why": "A single 6.2 L (6.6 qt) basket with a window, RapidAir Plus technology and 16 cooking methods: simple and compact, it's enough for households of one to four."
+      },
+      {
+        "model": "Typhur Sync Air Fryer (AF14)",
+        "role": "Best smart model",
+        "why": "A 7.6 L (8 qt) square basket that fits a 2.7 kg (6 lb) whole chicken, a wireless meat probe built into the unit and Wi-Fi control through the Typhur app, for anyone who cooks one big dish at a time."
+      }
+    ],
+    "robot-aspirateur-poils-animaux": [
+      {
+        "model": "Roborock Saros 20",
+        "role": "Best for pets",
+        "why": "Its anti-tangle DuoDivide main brush and FlexiArm side brush are designed to keep pet hair from wrapping, and the built-in RGB camera adds pet recognition and live video calls so you can check on your pets from the app, backed by 36,000 Pa suction."
+      },
+      {
+        "model": "Ecovacs Deebot T50 Pro Omni",
+        "role": "Best value",
+        "why": "15,000 Pa suction, a ZeroTangle 2.0 anti-tangle brush and an all-in-one dock that empties the bin and washes the mops in 70°C water: a solid first robot vacuum for a home with pets."
+      },
+      {
+        "model": "iRobot Roomba Max 715 Vac + AutoEmpty Dock",
+        "role": "Best for tangle-free cleaning",
+        "why": "Dual rubber brushes and an anti-tangle edge-sweeping brush cut down on hair wrap, PrecisionVision AI steers around cords and clutter, and the AutoEmpty dock holds up to 90 days of debris, for when tangle-free cleaning is the top priority."
+      },
+      {
+        "model": "Dreame X40 Ultra",
+        "role": "Best for rugs and corners",
+        "why": "12,000 Pa of suction, a side brush and mop that extend to reach corners and edges, mops it can remove for carpet cleaning and a hands-free base station: a good fit for homes with rugs and pets."
+      }
+    ],
+    "robot-cuiseur-connecte-comparatif": [
+      {
+        "model": "Thermomix TM7",
+        "role": "Best overall",
+        "why": "A 10-inch touchscreen, built-in Wi-Fi and scale, a 2.2 L (2.3 qt) bowl and a larger Varoma steamer for multi-level meals; guided recipes need a Cookidoo membership after the free three-month trial."
+      }
+    ],
+    "serrure-connectee-guide": [
+      {
+        "model": "August Wi-Fi Smart Lock",
+        "role": "Best overall",
+        "why": "Fits over your existing deadbolt, so you keep your keys, and connects directly to your home Wi-Fi with no bridge; it also works with Apple HomeKit and Siri."
+      },
+      {
+        "model": "SwitchBot Lock Ultra",
+        "role": "Best value",
+        "why": "A retrofit lock that works with most single deadbolts and runs on a rechargeable battery pack rated for up to 12 months; Matter support comes through a SwitchBot hub such as the Hub Mini Matter."
+      },
+      {
+        "model": "Aqara Smart Lock U200",
+        "role": "Best for phone-free entry",
+        "why": "Comes with an outdoor keypad that reads a fingerprint, NFC or PIN code, plus Matter over Thread and Apple Home Key support."
+      }
+    ],
+    "station-meteo-connectee-comparatif": [
+      {
+        "model": "Ecowitt HP2551 (915 MHz)",
+        "role": "Best overall",
+        "why": "A 7-in-1 sensor with rain, wind, UV and light right out of the box, a large 7-inch colour screen and local Home Assistant integration."
+      },
+      {
+        "model": "Ambient Weather WS-2902",
+        "role": "Best value",
+        "why": "A complete Wi-Fi station that measures rain, wind, UV and solar radiation and shows it all on a full-colour LCD console, so you don't have to rely on your phone."
+      },
+      {
+        "model": "Netatmo Smart Weather Station",
+        "role": "Best for indoor air and Apple Home",
+        "why": "The only one here that measures indoor CO2, and it works with HomeKit, but the rain gauge and anemometer are sold separately."
+      }
+    ],
+    "test-cosori-dual-blaze": [
+      {
+        "model": "Cosori Dual Blaze 6.8-Quart Smart Air Fryer (CAF-P583S)",
+        "role": "Best overall",
+        "why": "Top and bottom heating cuts down on shaking, and the VeSync app adds recipes and remote monitoring to a 6.4 L basket."
+      },
+      {
+        "model": "Philips 3000 Series Airfryer with Window (NA331/00)",
+        "role": "Simpler pick without Wi-Fi",
+        "why": "Similar capacity, very simple controls and a proven brand, for anyone who needs neither an app nor bottom heating."
+      },
+      {
+        "model": "Ninja DoubleStack XL 2-Basket Air Fryer (SL401)",
+        "role": "Best for two dishes at once",
+        "why": "Two independent stacked drawers let you cook a main and a side at the same time, with 9.5 L in total."
+      }
+    ],
+    "test-moulinex-easy-fry-max": [
+      {
+        "model": "T-fal Easy Fry Max 5L Air Fryer (EY245B50)",
+        "role": "Best for simplicity",
+        "why": "5 L (5.3 qt), 10 automatic programs and a dishwasher-safe basket: the essentials, done well, for two to four people."
+      },
+      {
+        "model": "Cosori Dual Blaze 6.8-Quart Smart Air Fryer (CAF-P583S)",
+        "role": "Most versatile",
+        "why": "Heats from the top and bottom up to 205°C (400°F), so both sides cook evenly, and works with the VeSync app: better for searing meat."
+      },
+      {
+        "model": "Philips 3000 Series Airfryer with Window (NA331/00)",
+        "role": "Best for families",
+        "why": "A roomier 6.2 L (6.5 qt) basket for a family of four when 5 L feels tight."
+      }
+    ],
+    "test-ninja-foodi-flexdrawer": [
+      {
+        "model": "Ninja Foodi DualZone FlexBasket Air Fryer with 11-Qt MegaZone (AD600CO)",
+        "role": "Best for large families",
+        "why": "One 10.4 L (11 qt) basket for big cuts, or two separately controlled 5.2 L (5.5 qt) zones with the divider in, ideal for five people or more."
+      },
+      {
+        "model": "Ninja DoubleStack XL 2-Basket Air Fryer (SL401)",
+        "role": "Best for smaller kitchens",
+        "why": "Its two stacked 4.75 L (5 qt) baskets take up little counter width and suit households of four to six who cook two dishes at once."
+      },
+      {
+        "model": "Typhur Sync Air Fryer (AF14)",
+        "role": "Best smart pick",
+        "why": "A single 7.6 L (8 qt) basket with a built-in wireless probe and Wi-Fi app control, for cooking meat and large portions with precision."
+      }
+    ],
+    "test-ninja-foodi-max-dual-zone": [
+      {
+        "model": "Ninja DoubleStack XL 2-Basket Air Fryer (SL401)",
+        "role": "Best overall",
+        "why": "Its stacked-basket design saves counter space, and a sync function ends both baskets at the same time: ideal for a family of four to six."
+      },
+      {
+        "model": "Ninja Foodi DualZone FlexBasket Air Fryer with 11-Qt MegaZone (AD600CO)",
+        "role": "Best for a single mega zone",
+        "why": "It offers a single 10.4 L (11 qt) MegaZone for a whole chicken, which the separate baskets of the DoubleStack XL can't, though it takes up more counter space."
+      },
+      {
+        "model": "Typhur Sync Air Fryer (AF14)",
+        "role": "Best for connectivity and precision",
+        "why": "A better fit if you want Wi-Fi and the precision of a built-in wireless probe, in a single 7.6 L (8 qt) basket, though it cooks only one dish at a time."
+      }
+    ],
+    "test-philips-airfryer-3000-xl": [
+      {
+        "model": "Philips 3000 Series Airfryer with Window (NA331/00)",
+        "role": "Best for simplicity",
+        "why": "A 6.2 L (6.5 qt) basket for 3 to 5 people, even RapidAir Plus cooking, 16 cooking functions and a viewing window, with a dishwasher-safe basket and no app to set up."
+      },
+      {
+        "model": "Cosori Dual Blaze 6.8-Quart Smart Air Fryer (CAF-P583S)",
+        "role": "Best smart alternative",
+        "why": "Top and bottom heating elements reduce the need to flip food, and the VeSync app lets you control and monitor cooking remotely."
+      },
+      {
+        "model": "Ninja Foodi DualZone FlexBasket Air Fryer with 11-Qt MegaZone (AD600CO)",
+        "role": "Best for large families",
+        "why": "A 10.4 L (11 qt) drawer that splits into two independently controlled 5.2 L (5.5 qt) zones to cook two dishes at once, or works as one large MegaZone for a whole chicken."
+      }
+    ],
+    "test-xiaomi-smart-air-fryer-pro": [
+      {
+        "model": "Cosori Lite 4.0-Quart Smart Air Fryer (CAF-LI401S)",
+        "role": "Best for 1 to 3 people",
+        "why": "A compact 3.8 L (4 qt) basket, seven cooking functions, temperatures up to 230°C (450°F) and the VeSync app for remote control, cooking notifications and voice control; it has no viewing window."
+      },
+      {
+        "model": "Philips 3000 Series Airfryer with Window (NA331/00)",
+        "role": "Best for 3 to 5 people",
+        "why": "With 6.2 L (6.5 qt) and 16 cooking functions, it steps in when the Cosori Lite gets too small, adding a viewing window and a dishwasher-safe basket, but no Wi-Fi control."
+      }
+    ],
+    "saugroboter-tierhaare-test": [
+      {
+        "model": "Roborock Saros 20",
+        "role": "Best overall",
+        "why": "Its anti-tangle DuoDivide main brush and FlexiArm side brush are designed to keep pet hair from wrapping, it's backed by 36,000 Pa of suction, and the built-in RGB camera adds pet recognition and video calls in the app."
+      },
+      {
+        "model": "Dreame X40 Ultra",
+        "role": "Best for long-haired pets",
+        "why": "With 12,000 Pa and an anti-tangle brush, it suits long-haired breeds, and its extendable side brush reaches into corners and along edges."
+      },
+      {
+        "model": "Ecovacs Deebot T50 Pro Omni",
+        "role": "Best value",
+        "why": "It combines 15,000 Pa, ZeroTangle 2.0 anti-tangle technology and a self-emptying dock that washes the mop in 70°C water, in the midrange: a sensible pick for pet owners on a budget."
+      }
+    ],
+    "deshumidificateur-connecte-guide": [
+      {
+        "model": "Frigidaire Gallery 2-in-1 50 Pint Dehumidifier with Built-in Allergy Filter and Wi-Fi (GHDD5035W1)",
+        "role": "Best overall",
+        "why": "Rated at 50 pints a day, with a built-in air quality sensor, a 10 L (2.7 gal.) bucket, a continuous drain option and Frigidaire app control that works with Alexa and Google Assistant. It runs at 47 dBA on its lowest fan speed."
+      },
+      {
+        "model": "Frigidaire 35 Pint Dehumidifier with Wi-Fi (FHDD3534Y1)",
+        "role": "Best value",
+        "why": "Rated at 35 pints a day and ENERGY STAR certified, with Frigidaire app control, Alexa and Google Home support, a 6.4 L (1.7 gal.) bucket and an optional continuous drain."
+      },
+      {
+        "model": "Danby 22 Pint Dehumidifier with Wi-Fi (DDR022BSWDB)",
+        "role": "Best for bedrooms",
+        "why": "A compact 22-pint (10.4 L) model for spaces up to 1,500 sq. ft., with app control, a 48 dB noise rating, ENERGY STAR certification and a direct drain for continuous operation."
+      }
+    ],
+    "guide-jardin-connecte-2026": [
+      {
+        "model": "Mammotion LUBA 3 AWD 5000",
+        "role": "Best for sloped lawns",
+        "why": "All-wheel drive, slopes rated up to 80% and LiDAR, network RTK and vision navigation for lawns up to 5,000 m² (about 1.25 acres)."
+      },
+      {
+        "model": "Husqvarna Automower 440 iQ",
+        "role": "Upgrade pick",
+        "why": "Husqvarna's largest residential iQ model navigates with EPOS satellite positioning and virtual boundaries (or an optional boundary wire), covers up to 2 acres (about 8,000 m²) and handles 45% slopes, but it's the priciest pick here."
+      },
+      {
+        "model": "GARDENA SILENO city 500 m²",
+        "role": "Best for small yards",
+        "why": "With its boundary wire and a maximum area of 500 m² (about 5,400 sq. ft.), it's the most affordable option here for a small, simple yard."
+      }
+    ],
+    "mejor-aire-acondicionado-bajo-consumo": [
+      {
+        "model": "Mitsubishi Electric MSZ-GX Series Wall-Mounted Heat Pump",
+        "role": "Best overall",
+        "why": "A mini-split with built-in Wi-Fi, rated up to 28.4 SEER2, with indoor units as quiet as 19 dB(A) and heating operation down to −37°C; Zuba cold-climate models keep 100% heating capacity at −15°C."
+      },
+      {
+        "model": "Mitsubishi Electric MSZ-JX Series 115 V Wall-Mounted Heat Pump",
+        "role": "Best value",
+        "why": "Mitsubishi Electric's 115 V series has built-in Wi-Fi, ratings up to 20 SEER2, indoor units as quiet as 22 dB(A) and heating operation down to −25°C, in 9,000 and 12,000 Btu/h sizes."
+      },
+      {
+        "model": "Daikin ATMOSPHERA Wall Mount Heat Pump",
+        "role": "Best for year-round heating",
+        "why": "Rated up to 27.4 SEER2, with full heating capacity at −15°C, continuous heating down to −25°C and built-in Wi-Fi for the Daikin Comfort Control app."
+      }
+    ],
+    "robot-aspirador-piso-pequeno": [
+      {
+        "model": "eufy Robot Vacuum Omni C20",
+        "role": "Best overall",
+        "why": "At 8.5 cm (3¼ in.) tall, it reaches under many beds and desks, with point-laser and infrared obstacle sensing, maps for up to three floors and no-go zones; its station auto-empties into a 3.1 L bag rated for up to 60 days without pets and also washes and air-dries the mop."
+      },
+      {
+        "model": "eufy Clean 11S MAX",
+        "role": "Best value",
+        "why": "At 7.2 cm (2¾ in.) tall, it slips under low furniture, with BoostIQ suction that steps up automatically when needed and a simple charging base. It uses bounce navigation and a remote, with no app or mop."
+      },
+      {
+        "model": "Roborock Q7 L5",
+        "role": "Best for multi-room apartments",
+        "why": "PreciSense LiDAR navigation with up to three saved maps, a claimed 8,000 Pa of suction, a dual anti-tangle system and a mop module, all on a simple charging dock."
+      }
+    ],
+    "eclairage-exterieur-solaire-connecte": [
+      {
+        "model": "eufy SoloCam S340",
+        "role": "Best overall",
+        "why": "A solar-powered camera with a built-in spotlight, a 3K wide-angle lens and a 2K telephoto lens, 8 GB of built-in storage and app alerts over Wi-Fi, with no power cable to run."
+      },
+      {
+        "model": "Philips Hue Lily Outdoor Spot Base Kit",
+        "role": "Best premium landscape lighting (wired)",
+        "why": "Three 24 V colour spotlights at 600 lumens each, IP65, controlled through the Hue Bridge with Alexa, Google Home, Apple Home and Home Assistant."
+      }
+    ],
+    "sonnette-video-sans-abonnement": [
+      {
+        "model": "eufy Video Doorbell E340",
+        "role": "Best overall",
+        "why": "A dual camera that watches both visitors and packages, 8 GB of built-in storage with no subscription, and power from a battery or your existing doorbell wiring."
+      },
+      {
+        "model": "TP-Link Tapo D235",
+        "role": "Best value",
+        "why": "5 MP 2K video with a 180° view, microSD up to 512 GB, an included chime and free smart detection, at an entry-level price."
+      },
+      {
+        "model": "Aqara Video Doorbell G4",
+        "role": "Best for Apple Home",
+        "why": "It supports HomeKit Secure Video, also records for free to the microSD card in its chime, and runs on batteries or existing doorbell wiring."
+      }
+    ],
+    "meilleur-airfryer-xxl-grande-famille": [
+      {
+        "model": "Ninja Foodi DualZone FlexBasket Air Fryer with 11-Qt MegaZone (AD600CO)",
+        "role": "Best overall",
+        "why": "Two independent 5.2 L (5.5 qt) zones or one large 10.4 L (11 qt) MegaZone: the biggest capacity and the most versatile model here."
+      },
+      {
+        "model": "Ninja DoubleStack XL 2-Basket Air Fryer (SL401)",
+        "role": "Best for narrow kitchens",
+        "why": "Two independent 4.75 L (5 qt) baskets stacked vertically: 9.5 L (10 qt) in total in a footprint about 28 cm (11 in.) wide, with cooking on up to four levels."
+      },
+      {
+        "model": "Typhur Sync Air Fryer (AF14)",
+        "role": "Best smart air fryer",
+        "why": "A 7.6 L (8 qt) basket, a built-in wireless probe with five sensors that stops cooking at the doneness you pick, and optional Wi-Fi control in the Typhur app: a good fit for roasts and whole chickens."
+      }
+    ],
+    "robot-aspirateur-vs-balai": [
+      {
+        "model": "Roborock Qrevo Curv",
+        "role": "Best robot vacuum",
+        "why": "For effortless daily cleaning: rated at 18,500 Pa, with LiDAR, spinning mops and a dock that empties the bin, washes the mops in hot water and dries them."
+      },
+      {
+        "model": "Dyson V15 Detect",
+        "role": "Best stick vacuum",
+        "why": "Essential for stairs, rugs and the couch: a laser that reveals fine dust, a sensor that adjusts suction and sealed filtration."
+      },
+      {
+        "model": "Roborock Q7 L5+",
+        "role": "Best value",
+        "why": "An entry-level robot that pairs well with a stick vacuum: LiDAR navigation, a rated 8,000 Pa, anti-tangle brushes and a self-emptying dock whose bag lasts up to seven weeks, according to Roborock."
+      }
+    ],
+    "guide-securite-maison-connectee-2026": [
+      {
+        "model": "Ajax Hub 2 Plus Jeweller",
+        "role": "Best overall",
+        "why": "A hub with Ethernet, Wi-Fi and two LTE SIM slots that switches to another channel if one drops, plus a backup battery rated for up to 15 hours: a solid foundation to build out with Ajax motion and door/window sensors, sold separately."
+      },
+      {
+        "model": "eufy Video Doorbell E340",
+        "role": "Best value",
+        "why": "A dual camera that watches both visitors and packages, 8 GB of built-in storage and no subscription needed for video history."
+      },
+      {
+        "model": "August Wi-Fi Smart Lock",
+        "role": "Best smart lock",
+        "why": "Fits over your existing deadbolt, so you keep your keys, and connects directly to your home Wi-Fi with no bridge, for keyless access you can share from the app."
+      }
+    ],
+    "tendances-maison-connectee-2026": [
+      {
+        "model": "Aqara Hub M3",
+        "role": "Best overall",
+        "why": "A Matter controller and Thread border router with Zigbee and IR that runs automations locally and controls several brands."
+      },
+      {
+        "model": "Eve Thermo",
+        "role": "Best for saving energy",
+        "why": "A Matter over Thread smart radiator valve that works with all major ecosystems, for room-by-room heating without a proprietary hub. It fits M30 x 1.5 valves, with Danfoss RA, RAV and RAVL adapters in the box."
+      },
+      {
+        "model": "Reolink Argus 4 Pro",
+        "role": "Best security with no subscription",
+        "why": "A 4K dual-lens (180°) battery camera with colour night vision and microSD storage, with no subscription needed for detection."
+      }
+    ],
+    "meilleur-aspirateur-laveur-2026": [
+      {
+        "model": "Dreame H15 Pro",
+        "role": "Best overall",
+        "why": "Its brush roll is washed at 100°C and then hot-air dried, with a robotic arm for edge cleaning and a 180° lie-flat design to reach under furniture."
+      },
+      {
+        "model": "Dreame H14 Pro",
+        "role": "Best value",
+        "why": "18,000 Pa, 60°C brush-roll washing, hot-air drying and lie-flat reach under furniture at a more affordable tier."
+      },
+      {
+        "model": "Dyson Clean+Wash Hygiene",
+        "role": "Best for hair and pets",
+        "why": "A wet and dry cleaner whose self-cleaning roller uses nylon bristles and an anti-tangle comb to pick up hair, with a lie-flat design that reaches under low furniture."
+      }
+    ],
+    "maison-connectee-matter-thread-2026": [
+      {
+        "model": "Aqara Hub M3",
+        "role": "Best overall",
+        "why": "Matter controller, Thread border router, Zigbee hub and Ethernet/PoE in one, compatible with every major ecosystem."
+      },
+      {
+        "model": "IKEA DIRIGERA",
+        "role": "Best value",
+        "why": "Since its July 2025 update, it's a Matter controller and Thread border router, on top of running IKEA's Zigbee lighting."
+      },
+      {
+        "model": "Apple HomePod mini 2",
+        "role": "Best for iPhone users",
+        "why": "A compact Siri speaker that works as an Apple Home hub, with Thread networking for Matter and HomeKit accessories, plus Wi-Fi 6E and temperature and humidity sensors."
+      }
+    ],
+    "piscine-connectee-guide": [
+      {
+        "model": "Ondilo ICO Pool V2",
+        "role": "Best overall",
+        "why": "A floating analyzer that measures pH, ORP and temperature every hour, with a dedicated saltwater-pool version and dosing advice."
+      },
+      {
+        "model": "iopool EcO Start + Connect Smart Water Monitor",
+        "role": "Best value",
+        "why": "A pH, ORP and temperature sensor designed to run about two years without charging or calibration, plus a Bluetooth/Wi-Fi gateway and a subscription-free app."
+      },
+      {
+        "model": "Dolphin S300",
+        "role": "Best for automated cleaning",
+        "why": "A corded robot for pools up to 15 m (about 50 ft) long: floor, walls and waterline, a top-load filter and weekly scheduling through MyDolphin Plus."
+      }
+    ],
+    "ventilador-silencioso-dormitorio": [
+      {
+        "model": "Midea Smart DC Pedestal Air Circulator (MSFS07RW6DWW)",
+        "role": "Best overall for sleeping",
+        "why": "DC motor and 12 speeds, as low as 21 dB according to Midea, with a Sleep mode, app control and Matter certification."
+      },
+      {
+        "model": "Dreo TurboPoly Fan 508S",
+        "role": "Best value",
+        "why": "DC motor, nine speeds and six wind modes, as low as 20 dB according to Dreo, with 3D oscillation up to 120° and app, voice or remote control."
+      },
+      {
+        "model": "Dyson Purifier Cool PC2 De-NOx",
+        "role": "Best for allergy sufferers",
+        "why": "Bladeless fan and purifier in one, with a sealed HEPA and K-Carbon filter that captures particles and continuously destroys formaldehyde, plus air quality sensors and control from the MyDyson app."
+      }
+    ],
+    "test-philips-combi-xxl-connected": [
+      {
+        "model": "Typhur Sync Air Fryer (AF14)",
+        "role": "Best for cooking precision",
+        "why": "Its built-in wireless meat thermometer tracks the food's internal temperature, and the app lets you follow cooking remotely, in a roomy 7.6 L (8 qt) basket."
+      },
+      {
+        "model": "Ninja DoubleStack XL 2-Basket Air Fryer (SL401)",
+        "role": "Best for cooking two dishes at once",
+        "why": "Its two stacked 4.7 L (5 qt) drawers are set independently and can finish together, ideal for a main and a side."
+      },
+      {
+        "model": "Cosori Dual Blaze 6.8-Quart Smart Air Fryer (CAF-P583S)",
+        "role": "Best compact smart alternative",
+        "why": "Top and bottom heating elements brown both sides without flipping, with the VeSync app, in a more compact 6.4 L (6.8 qt) format."
+      }
+    ],
+    "thermostat-connecte-pompe-chaleur": [
+      {
+        "model": "ecobee Smart Thermostat Premium",
+        "role": "Best for heat pumps",
+        "why": "Rated for heat pumps with two stages of heating and cooling plus two stages of auxiliary heat, it ships with a SmartSensor to balance comfort in the rooms you use most and has a built-in air quality monitor."
+      },
+      {
+        "model": "Google Nest Thermostat",
+        "role": "Best value",
+        "why": "Easy to install, it works with heat pumps that have one stage of heating and cooling plus auxiliary or emergency heat, connects over Wi-Fi and is Matter certified."
+      },
+      {
+        "model": "ecobee Smart Thermostat Enhanced",
+        "role": "Best mid-range pick without a hub",
+        "why": "Works with heat pumps (two stages of heating and cooling plus one auxiliary stage) and dual-fuel systems, connects over dual-band Wi-Fi with no hub and supports Apple HomeKit, Alexa and Google Assistant."
+      }
+    ],
+    "tondeuse-robot-sans-fil-perimetrique": [
+      {
+        "model": "Ecovacs GOAT A3000 LiDAR Pro",
+        "role": "Best overall",
+        "why": "Dual LiDAR (a 360° rotating sensor plus 3D ToF) maps the lawn with no boundary wire, RTK or GPS setup, with a 33 cm (13 in.) cutting width and slopes up to 50%, according to ECOVACS."
+      },
+      {
+        "model": "Segway Navimow i105",
+        "role": "Best value",
+        "why": "EFLS 2.0 positioning with centimetre-level accuracy and VisionFence camera obstacle avoidance for lawns up to 500 m² (about 5,400 sq. ft.) and slopes up to 30%, with app control and multi-zone schedules."
+      },
+      {
+        "model": "Mammotion LUBA 3 AWD 3000",
+        "role": "Best for large, sloped lawns",
+        "why": "All-wheel drive rated for slopes up to 80%, with Tri-Fusion positioning (360° LiDAR, network RTK and AI vision) for lawns up to about 3,000 m² (0.75 acre)."
+      }
+    ],
+    "waermepumpentrockner-vergleich": [
+      {
+        "model": "Bosch 500 Series Compact Heat Pump Dryer (WQB245B0UC)",
+        "role": "Best overall",
+        "why": "A compact ventless heat pump dryer with a self-cleaning condenser, Home Connect Wi-Fi control and a 63 dBA rating: efficient, quiet and nearly maintenance-free."
+      },
+      {
+        "model": "Blomberg BLH240W3",
+        "role": "Best value",
+        "why": "An ENERGY STAR certified 24 in. heat pump dryer with a 4.5 cu. ft. drum, a compact size that suits couples and small families."
+      },
+      {
+        "model": "Miele T1 TXB360WP",
+        "role": "Best for longevity",
+        "why": "Miele tests its T1 dryers for the equivalent of 20 years of use; this heat pump model adds PerfectDry, a maintenance-free heat exchanger, the Honeycomb drum and Wi-Fi control through Miele@home."
+      }
+    ]
+  }
+}

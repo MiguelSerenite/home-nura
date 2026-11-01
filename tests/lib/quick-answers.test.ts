@@ -3,6 +3,7 @@ import { getAllArticles } from '@/lib/blog'
 import { QUICK_ANSWERS, getQuickAnswer } from '@/lib/blog/quick-answers'
 import { amazonMarket } from '@/lib/amazon'
 import { LANGUAGES } from '@/lib/i18n'
+import { isNorthAmericanMarket } from '@/lib/market-models'
 
 describe('quick answers', () => {
   const articles = getAllArticles()
@@ -12,10 +13,12 @@ describe('quick answers', () => {
     expect(Object.keys(QUICK_ANSWERS).filter((s) => !slugs.has(s))).toEqual([])
   })
 
-  it('resolves every pick to a buy link in every locale', () => {
+  // The US and Canadian verdicts carry their own market picks:
+  // tests/lib/market-models/surfaces.test.ts.
+  it('resolves every pick to a buy link in every European locale', () => {
     const missing: string[] = []
     for (const article of articles.filter((a) => QUICK_ANSWERS[a.slug])) {
-      for (const lang of LANGUAGES) {
+      for (const lang of LANGUAGES.filter((l) => !isNorthAmericanMarket(l))) {
         const qa = getQuickAnswer(article, lang)
         const expected = QUICK_ANSWERS[article.slug].picks.length
         if (!qa || qa.picks.length !== expected) missing.push(`${lang}/${article.slug}: ${qa?.picks.length ?? 0}/${expected}`)

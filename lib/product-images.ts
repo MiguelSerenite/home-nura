@@ -14,6 +14,7 @@ import type { Lang } from '@/lib/i18n'
 import {
   productGalleryStem,
   productPhotoAlt,
+  productPhotoAltForName,
   productPhotoCredit,
   productPhotoPath,
   productPinPath,
@@ -99,11 +100,17 @@ export function findProductImage({ asin, name }: ProductImageRef): ProductImageE
   return (asin ? byAsin.get(asin) : undefined) ?? (name ? byName.get(name) : undefined)
 }
 
-/** The localized photo of a model, or undefined (neutral card). */
-export function productPhoto(ref: ProductImageRef, lang: Lang): ProductPhoto | undefined {
+/**
+ * The localized photo of a model, or undefined (neutral card).
+ * `displayName`: the name the page shows for that same product (its
+ * North-American name on the US and Canadian versions), used in the alt text.
+ */
+export function productPhoto(ref: ProductImageRef, lang: Lang, displayName?: string): ProductPhoto | undefined {
   const entry = findProductImage(ref)
   if (!entry) return undefined
-  const alt = productPhotoAlt(entry.brand, entry.model, entry.category, lang)
+  const alt = displayName
+    ? productPhotoAltForName(displayName, entry.category, lang)
+    : productPhotoAlt(entry.brand, entry.model, entry.category, lang)
   return {
     id: entry.id,
     alt,

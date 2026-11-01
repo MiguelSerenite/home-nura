@@ -8,7 +8,9 @@
  * - comparison tables: a cell that names a model links that name.
  *
  * Where the text names none of the article's models nothing is added:
- * no link at all beats a link to the wrong product.
+ * no link at all beats a link to the wrong product. On the US and Canadian
+ * versions a model the market does not sell (`unlinked`) is still matched,
+ * so its mentions are never read as another model, but gets no link.
  *
  * Links carry `data-aff-*` attributes; AffiliateClickTracker records the
  * clicks (this HTML is rendered with dangerouslySetInnerHTML).
@@ -99,12 +101,12 @@ function addInlineCtas(
     },
     { h2Count: 0, models: [] },
   ).models
-  const leadFirst = models[0]?.cited === true && named.some((m) => m.includes(0))
+  const leadFirst = models[0]?.cited === true && !models[0].unlinked && named.some((m) => m.includes(0))
 
   const initial: CtaState = { parts: [], used: new Set() }
   const { parts } = sections.reduce<CtaState>((state, section, i) => {
     const leadPending = leadFirst && !state.used.has(0)
-    const candidates = named[i].filter((m) => !state.used.has(m) && (!leadPending || m === 0))
+    const candidates = named[i].filter((m) => !state.used.has(m) && !models[m].unlinked && (!leadPending || m === 0))
     const model = state.used.size < MAX_INLINE_CTAS ? candidates[0] : undefined
     if (model === undefined) return { parts: [...state.parts, section], used: state.used }
     return {
@@ -122,7 +124,7 @@ function linkTable(tableHtml: string, models: readonly ArticleAffiliateModel[], 
     if (/<a\b/i.test(inner)) return cell
     const text = stripTags(inner)
     const match = bestMatch(text, keys)
-    if (!match || linked.has(match.model)) return cell
+    if (!match || linked.has(match.model) || models[match.model].unlinked) return cell
     if (normalizeTokens(text).length > match.end - match.start + MAX_CELL_EXTRA_TOKENS) return cell
     linked.add(match.model)
     return `${open}<a ${linkAttributes(models[match.model], 'table')}>${inner}</a>${close}`
