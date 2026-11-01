@@ -38,6 +38,26 @@ describe('buildPageMetadata', () => {
     expect(langs.de).toBe(`${BASE_URL}/de/guides/airfryers`)
   })
 
+  it('names the entry page (/) as x-default of the home pages, the French version elsewhere', () => {
+    for (const lang of LANGUAGES) {
+      const home = buildPageMetadata({ lang, path: '', title: 'T', description: 'D' })
+      expect((home.alternates?.languages as Record<string, string>)['x-default'], lang).toBe(`${BASE_URL}/`)
+      expect(home.alternates?.canonical, lang).toBe(`${BASE_URL}/${lang}`)
+    }
+    const deep = buildPageMetadata({ lang: 'us', path: '/blog', title: 'T', description: 'D' })
+    expect((deep.alternates?.languages as Record<string, string>)['x-default']).toBe(`${BASE_URL}/fr/blog`)
+  })
+
+  it('shares the localized URL: og:url is the canonical of the version displayed', () => {
+    for (const lang of LANGUAGES) {
+      for (const path of ['', '/guides/airfryers', '/vs/ring-vs-blink']) {
+        const m = buildPageMetadata({ lang, path, title: 'T', description: 'D' })
+        expect(m.openGraph?.url, `${lang}${path}`).toBe(`${BASE_URL}/${lang}${path}`)
+        expect(m.openGraph?.url).toBe(m.alternates?.canonical)
+      }
+    }
+  })
+
   it('limits hreflang to the locales a page exists in, without x-default when French is not one', () => {
     const m = buildPageMetadata({
       lang: 'ca',

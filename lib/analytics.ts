@@ -39,6 +39,12 @@ export const EVENTS = {
   COMPARATOR_REMOVE: 'comparator_remove',
   QUIZ_START: 'quiz_start',
   QUIZ_COMPLETE: 'quiz_complete',
+  /** The entry page (/) was shown to a visitor (crawlers excluded by Vercel). */
+  ENTRY_VIEW: 'entry_view',
+  /** A visitor picked a version on the entry page. */
+  ENTRY_CHOOSE: 'entry_choose',
+  /** The locale suggestion of a deep link: shown, accepted or dismissed. */
+  LOCALE_SUGGESTION: 'locale_suggestion',
 } as const
 
 export type EventName = (typeof EVENTS)[keyof typeof EVENTS]
@@ -72,6 +78,14 @@ export const VERCEL_PROPERTIES: { readonly [E in EventName]: readonly string[] }
   comparator_remove: ['slot'],
   quiz_start: ['quiz'],
   quiz_complete: ['quiz'],
+  // What ordered the list (country / browser / none) and the version
+  // proposed first ("none" without an IP country): entry_choose / entry_view
+  // is the share of visitors who continue.
+  entry_view: ['basis', 'proposed'],
+  // The version picked and whether it was the proposed one.
+  entry_choose: ['locale', 'proposed'],
+  // show / accept / dismiss, and the suggested version (accept: the one taken).
+  locale_suggestion: ['action', 'locale'],
 }
 
 type DataLayerPayload = { event: string } & EventProps
@@ -111,6 +125,7 @@ export function trackEvent(event: EventName, props: EventProps = {}): void {
   // Vercel Web Analytics (cookieless, same-origin script, Pro plan): only
   // the properties listed in VERCEL_PROPERTIES, within the plan limit.
   try {
+    ensureVercelQueue()
     trackVercel(event, pickVercelProps(event, cleanProps))
   } catch {
     // Blocked by an extension or not loaded yet: never block the click.
@@ -128,6 +143,19 @@ export function trackEvent(event: EventName, props: EventProps = {}): void {
 
   if (process.env.NODE_ENV !== 'production') {
     console.debug('[analytics]', event, cleanProps)
+  }
+}
+
+/**
+ * Vercel's own queue (what <Analytics /> sets up when it mounts): an event
+ * sent before the script is ready (the entry page's view, on mount) waits
+ * in it instead of being dropped.
+ */
+function ensureVercelQueue(): void {
+  const w = window as Window & { va?: (...params: unknown[]) => void; vaq?: unknown[][] }
+  if (w.va) return
+  w.va = (...params: unknown[]) => {
+    ;(w.vaq ??= []).push(params)
   }
 }
 

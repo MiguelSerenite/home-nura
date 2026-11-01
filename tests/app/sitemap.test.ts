@@ -29,8 +29,9 @@ const isPartialUrl = (url: string) => PARTIAL_PATHS.some((path) => LANGUAGES.som
 describe('app/sitemap.ts', () => {
   const entries = sitemap()
   const LANGS = LANGUAGES
+  const ENTRY = `${BASE_URL}/`
   // Pages that exist in every locale (blog articles: every translation).
-  const everyLocale = entries.filter((e) => !isFloorCareUrl(e.url) && !MARKET_PAGE_URLS.has(e.url))
+  const everyLocale = entries.filter((e) => e.url !== ENTRY && !isFloorCareUrl(e.url) && !MARKET_PAGE_URLS.has(e.url))
 
   it('returns at least one entry per core route', () => {
     // One entry per page and per locale (home + content routes + blog).
@@ -43,11 +44,25 @@ describe('app/sitemap.ts', () => {
     }
   })
 
-  it('every entry URL contains a language segment', () => {
+  it('every entry URL contains a language segment, but the entry page (/)', () => {
     const pattern = new RegExp(`^${BASE_URL}/(${LANGS.join('|')})(/.*)?$`)
-    for (const e of entries) {
+    for (const e of entries.filter((entry) => entry.url !== ENTRY)) {
       expect(e.url).toMatch(pattern)
     }
+  })
+
+  it('lists the entry page (/) once, in the home cluster, as its x-default', () => {
+    const entry = entries.filter((e) => e.url === ENTRY)
+    expect(entry).toHaveLength(1)
+    const homeAlternates = entries.find((e) => e.url === `${BASE_URL}/fr`)?.alternates?.languages
+    expect(entry[0].alternates?.languages).toEqual(homeAlternates)
+    for (const lang of LANGS) {
+      const home = entries.find((e) => e.url === `${BASE_URL}/${lang}`)
+      expect(home?.alternates?.languages?.['x-default'], lang).toBe(ENTRY)
+      expect(hreflang(home, lang), lang).toBe(`${BASE_URL}/${lang}`)
+    }
+    // Every other page keeps the French version as x-default.
+    expect(entries.find((e) => e.url === `${BASE_URL}/de/guides/airfryers`)?.alternates?.languages?.['x-default']).toBe(`${BASE_URL}/fr/guides/airfryers`)
   })
 
   it('every entry ships hreflang alternates for every locale', () => {

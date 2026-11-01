@@ -140,18 +140,96 @@ describe('middleware static CSP (refonte/static)', () => {
   })
 })
 
-describe('middleware locale routing', () => {
-  it('redirects the root path to the negotiated locale', () => {
-    const request = new NextRequest(new URL('http://localhost/'), {
-      headers: { 'accept-language': 'de-DE,de;q=0.9' },
-    })
-    const res = middleware(request) as Response
-    expect(res.status).toBe(302)
-    expect(res.headers.get('location')).toMatch(/\/de$/)
-    // Vary hint so a CDN doesn't pin one locale for every visitor
-    expect(res.headers.get('Vary')).toMatch(/Accept-Language/)
+const GOOGLEBOT = 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+const CHROME = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+
+/** Run the proxy on `pathname` with these request headers (cookies as a Cookie header). */
+function run(pathname: string, headers: Record<string, string> = {}): Response {
+  return middleware(new NextRequest(new URL(`http://localhost${pathname}`), { headers: { 'user-agent': CHROME, ...headers } })) as Response
+}
+
+/** NextResponse.next(): the request goes on to the page, no redirect. */
+const passesThrough = (res: Response) => res.headers.get('x-middleware-next') === '1' && res.headers.get('location') === null
+
+describe('the entry page (/)', () => {
+  it('is shown to visitors without a remembered choice, whatever their country or browser language', () => {
+    const visitors: Record<string, string>[] = [
+      {},
+      { 'accept-language': 'de-DE,de;q=0.9' },
+      { 'accept-language': 'en-US,en;q=0.9', 'x-vercel-ip-country': 'US' },
+      { 'accept-language': 'fr-BE,fr;q=0.9,nl;q=0.8', 'x-vercel-ip-country': 'BE' },
+      { 'accept-language': 'ja-JP', 'x-vercel-ip-country': 'JP' },
+      { 'accept-language': 'pt-BR,pt;q=0.9', 'x-vercel-ip-country': 'DE' },
+    ]
+    for (const headers of visitors) expect(passesThrough(run('/', headers)), JSON.stringify(headers)).toBe(true)
   })
 
+  it('sends a visitor who chose a version straight to it (302: the choice can change)', () => {
+    const res = run('/', { cookie: 'hn_market=us', 'x-vercel-ip-country': 'FR', 'accept-language': 'fr-FR' })
+    expect(res.status).toBe(302)
+    expect(res.headers.get('location')).toMatch(/\/us$/)
+    expect(res.headers.get('Vary')).toMatch(/Cookie/)
+    expect(res.headers.get('Cache-Control')).toMatch(/no-store/)
+    for (const lang of LANGUAGES) expect(run('/', { cookie: `hn_market=${lang}` }).headers.get('location'), lang).toMatch(new RegExp(`/${lang}$`))
+  })
+
+  it('ignores a preference cookie that names no version', () => {
+    for (const value of ['', 'xx', 'FR', 'catalan', '../fr']) {
+      expect(passesThrough(run('/', { cookie: `hn_market=${encodeURIComponent(value)}` })), value).toBe(true)
+    }
+  })
+
+  it('migrates the old NEXT_LOCALE choice to hn_market once', () => {
+    const res = run('/', { cookie: 'NEXT_LOCALE=de' })
+    expect(res.status).toBe(302)
+    expect(res.headers.get('location')).toMatch(/\/de$/)
+    const setCookie = res.headers.get('set-cookie') ?? ''
+    expect(setCookie).toMatch(/hn_market=de/)
+    expect(setCookie).toMatch(/Max-Age=31536000/i)
+    expect(setCookie).toMatch(/SameSite=lax/i)
+    expect(setCookie).toMatch(/NEXT_LOCALE=;/)
+    // hn_market wins over the legacy cookie.
+    expect(run('/', { cookie: 'NEXT_LOCALE=de; hn_market=it' }).headers.get('location')).toMatch(/\/it$/)
+  })
+
+  it('never redirects crawlers: they get the entry page, even with a cookie', () => {
+    for (const ua of [GOOGLEBOT, 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)', 'facebookexternalhit/1.1', '']) {
+      expect(passesThrough(run('/', { 'user-agent': ua, 'x-vercel-ip-country': 'US' })), ua).toBe(true)
+      expect(passesThrough(run('/', { 'user-agent': ua, cookie: 'hn_market=us' })), ua).toBe(true)
+    }
+  })
+
+  it('sends the entry page with the security headers and the country cookie', () => {
+    const res = run('/', { 'x-vercel-ip-country': 'BE' })
+    expect(res.headers.get('Content-Security-Policy')).toMatch(/default-src 'self'/)
+    expect(res.headers.get('set-cookie') ?? '').toMatch(/hn_country=BE/)
+  })
+})
+
+describe('deep links never redirect', () => {
+  const PATHS = ['', '/blog', '/guides/airfryers', '/black-friday', '/cuisine-connectee/cafetieres', '/methodologie']
+
+  it('keeps the visitor on the requested page whatever their cookie, country or browser language', () => {
+    for (const lang of LANGUAGES) {
+      const other = lang === 'us' ? 'fr' : 'us'
+      for (const path of PATHS) {
+        const res = run(`/${lang}${path}`, {
+          cookie: `hn_market=${other}; NEXT_LOCALE=${other}`,
+          'x-vercel-ip-country': other === 'us' ? 'US' : 'FR',
+          'accept-language': other === 'us' ? 'en-US,en;q=0.9' : 'fr-FR,fr;q=0.9',
+        })
+        expect(passesThrough(res), `/${lang}${path}`).toBe(true)
+      }
+    }
+  })
+
+  it('keeps market pages and their query string (the switch notice) untouched', () => {
+    expect(passesThrough(run('/us/vs/ring-vs-blink', { cookie: 'hn_market=fr', 'x-vercel-ip-country': 'FR' }))).toBe(true)
+    expect(passesThrough(run('/fr/securite-maison/sonnettes-video?switched=market&from=us', { 'x-vercel-ip-country': 'US' }))).toBe(true)
+  })
+})
+
+describe('middleware locale routing', () => {
   it('redirects an unknown 2-letter lang segment to the default locale', () => {
     const request = new NextRequest(new URL('http://localhost/xy/blog'))
     const res = middleware(request) as Response
@@ -164,55 +242,6 @@ describe('middleware locale routing', () => {
     const res = middleware(request) as Response
     expect(res.status).toBe(301)
     expect(res.headers.get('location')).toMatch(/\/en\/guides\/airfryers$/)
-  })
-
-  it('sends crawlers without Accept-Language to the x-default locale, not the geo-IP one', () => {
-    // Googlebot sends no Accept-Language and crawls from US IPs; x-default
-    // and the sitemap point to /fr, so the root redirect must agree.
-    const request = new NextRequest(new URL('http://localhost/'), {
-      headers: { 'x-vercel-ip-country': 'US' },
-    })
-    const res = middleware(request) as Response
-    expect(res.status).toBe(302)
-    expect(res.headers.get('location')).toMatch(/\/fr$/)
-  })
-
-  it('uses geo-IP only when Accept-Language names no supported language', () => {
-    const request = new NextRequest(new URL('http://localhost/'), {
-      headers: { 'accept-language': 'pt-BR,pt;q=0.9', 'x-vercel-ip-country': 'DE' },
-    })
-    const res = middleware(request) as Response
-    expect(res.headers.get('location')).toMatch(/\/de$/)
-  })
-
-  const rootRedirect = (headers: Record<string, string>) =>
-    (middleware(new NextRequest(new URL('http://localhost/'), { headers })) as Response).headers.get('location')
-
-  it('sends American, Canadian and Swedish browsers to their market versions', () => {
-    expect(rootRedirect({ 'accept-language': 'en-US,en;q=0.9', 'x-vercel-ip-country': 'US' })).toMatch(/\/us$/)
-    expect(rootRedirect({ 'accept-language': 'en-CA,en;q=0.9', 'x-vercel-ip-country': 'CA' })).toMatch(/\/ca$/)
-    expect(rootRedirect({ 'accept-language': 'sv-SE,sv;q=0.9,en;q=0.8' })).toMatch(/\/sv$/)
-    expect(rootRedirect({ 'accept-language': 'en-US' })).toMatch(/\/us$/)
-  })
-
-  it('lets the visitor country pick the English version (browsers default to en-US)', () => {
-    expect(rootRedirect({ 'accept-language': 'en-US,en;q=0.9', 'x-vercel-ip-country': 'GB' })).toMatch(/\/en$/)
-    expect(rootRedirect({ 'accept-language': 'en-GB', 'x-vercel-ip-country': 'US' })).toMatch(/\/us$/)
-    expect(rootRedirect({ 'accept-language': 'en-US', 'x-vercel-ip-country': 'CA' })).toMatch(/\/ca$/)
-    expect(rootRedirect({ 'accept-language': 'fr-CA,fr;q=0.9', 'x-vercel-ip-country': 'CA' })).toMatch(/\/fr$/)
-    // English readers outside the US and Canada keep the international version.
-    expect(rootRedirect({ 'accept-language': 'en-US,en;q=0.9', 'x-vercel-ip-country': 'DE' })).toMatch(/\/en$/)
-    expect(rootRedirect({ 'accept-language': 'en-US', 'x-vercel-ip-country': 'JP' })).toMatch(/\/en$/)
-  })
-
-  it('never takes a Catalan browser for the Canadian version', () => {
-    expect(rootRedirect({ 'accept-language': 'ca-ES,ca;q=0.9,es;q=0.8' })).toMatch(/\/es$/)
-    expect(rootRedirect({ 'accept-language': 'ca', 'x-vercel-ip-country': 'AD' })).toMatch(/\/fr$/)
-  })
-
-  it('falls back to the geo locale of the new markets when the browser language is unserved', () => {
-    expect(rootRedirect({ 'accept-language': 'fi-FI', 'x-vercel-ip-country': 'SE' })).toMatch(/\/sv$/)
-    expect(rootRedirect({ 'accept-language': 'zh-CN', 'x-vercel-ip-country': 'US' })).toMatch(/\/us$/)
   })
 
   it('redirects /it/chi-siamo to the about page instead of looping on itself', () => {

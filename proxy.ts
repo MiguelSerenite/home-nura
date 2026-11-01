@@ -1,66 +1,35 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
-import {
-  COUNTRY_TO_LANG,
-  COUNTRY_COOKIE,
-  DEFAULT_LANG,
-  countryVariant,
-  isValidLang,
-  langForLanguageTag,
-  type Lang,
-} from './lib/i18n'
+import { COUNTRY_COOKIE, DEFAULT_LANG, isValidLang } from './lib/i18n'
+import { isCrawlerUserAgent } from './lib/country-entry/choices'
+import { LEGACY_LOCALE_COOKIE, MARKET_COOKIE, parseMarketPreference, preferenceCookieOptions } from './lib/market-preference'
 
-const LOCALE_COOKIE = 'NEXT_LOCALE'
-
-// Parse "fr-FR,fr;q=0.9,en;q=0.8" → best matching supported language.
-// Tags go through langForLanguageTag: en-US → us, en-CA → ca, and Catalan
-// (`ca`) is never taken for the Canadian version.
-function pickFromAcceptLanguage(header: string | null): Lang | null {
-  if (!header) return null
-  const ranked = header
-    .split(',')
-    .map((part) => {
-      const [tag, ...params] = part.trim().split(';')
-      const q = params.find((p) => p.trim().startsWith('q='))
-      return {
-        tag,
-        q: q ? parseFloat(q.trim().slice(2)) || 0 : 1,
-      }
-    })
-    .sort((a, b) => b.q - a.q)
-
-  for (const { tag } of ranked) {
-    const lang = langForLanguageTag(tag)
-    if (lang) return lang
+/**
+ * / is the international entry page (app/(entry)/page.tsx), the x-default
+ * of the home pages: it lists the ten versions with the visitor's first,
+ * and never redirects by IP or browser language (Google's guidance for
+ * multi-regional sites). The one exception is an explicit choice: a
+ * visitor whose hn_market cookie names a version goes straight to it
+ * (302: the choice can change). Crawlers always get the entry page.
+ * NEXT_LOCALE, written by the old language switcher, counts as a choice
+ * once: it is migrated to hn_market and deleted.
+ */
+function rootRedirect(request: NextRequest): NextResponse | null {
+  if (isCrawlerUserAgent(request.headers.get('user-agent'))) return null
+  const chosen = parseMarketPreference(request.cookies.get(MARKET_COOKIE)?.value)
+  const legacy = chosen ? null : parseMarketPreference(request.cookies.get(LEGACY_LOCALE_COOKIE)?.value)
+  const target = chosen ?? legacy
+  if (!target) return null
+  const url = request.nextUrl.clone()
+  url.pathname = `/${target}`
+  const redirect = NextResponse.redirect(url, 302)
+  redirect.headers.set('Vary', 'Cookie, User-Agent')
+  redirect.headers.set('Cache-Control', 'private, no-store')
+  if (legacy) {
+    redirect.cookies.set(MARKET_COOKIE, legacy, preferenceCookieOptions(request.nextUrl.protocol === 'https:'))
+    redirect.cookies.delete(LEGACY_LOCALE_COOKIE)
   }
-  return null
-}
-
-function negotiateLang(request: NextRequest): Lang {
-  // 1. Explicit user choice (cookie) wins — survives reloads, respects the
-  //    language switcher, and lets Google crawl all versions without being
-  //    bounced back to a single locale.
-  const cookie = request.cookies.get(LOCALE_COOKIE)?.value
-  if (isValidLang(cookie)) return cookie
-
-  // 2. Browser preference (Accept-Language). Within one language the
-  //    visitor's country picks the version: browsers default to en-US
-  //    worldwide, so a UK reader with en-US lands on /en, not /us.
-  const country = request.headers.get('x-vercel-ip-country')?.toUpperCase()
-  const acceptLanguage = request.headers.get('accept-language')
-  const fromHeader = pickFromAcceptLanguage(acceptLanguage)
-  if (fromHeader) return countryVariant(fromHeader, country)
-
-  // No Accept-Language at all = crawler (Googlebot crawls from US IPs).
-  // Send it to the x-default locale so the redirect agrees with hreflang
-  // and the sitemap instead of following the crawler's geo-IP.
-  if (!acceptLanguage) return DEFAULT_LANG
-
-  // 3. Geo-IP (Vercel) — only when the browser's languages are all unsupported
-  if (country && COUNTRY_TO_LANG[country]) return COUNTRY_TO_LANG[country]
-
-  // 4. Last resort
-  return DEFAULT_LANG
+  return redirect
 }
 
 // Friendly-slug aliases that the Manus audit hit as 404s (e.g. /en/guide,
@@ -104,15 +73,10 @@ function aliasTarget(pathAfterLang: string): string | undefined {
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl
 
-  // Root path: negotiate a language and 302 to /{lang}
+  // Root path: the entry page, or the version the visitor chose.
   if (pathname === '/') {
-    const target = negotiateLang(request)
-    const url = request.nextUrl.clone()
-    url.pathname = `/${target}`
-    const redirect = NextResponse.redirect(url, 302)
-    // Cache variance hint for CDNs
-    redirect.headers.set('Vary', 'Accept-Language, Cookie')
-    return redirect
+    const redirect = rootRedirect(request)
+    if (redirect) return redirect
   }
 
   // Check if the path starts with a lang segment
@@ -187,7 +151,8 @@ export function proxy(request: NextRequest) {
   response.headers.set('Content-Security-Policy', csp)
 
   // Expose the visitor's country (Vercel geo) so the static pages can offer
-  // the matching locale/Amazon store client-side (GeoLocaleSuggestion).
+  // the matching version client-side (components/LocaleNotices.tsx). Deep
+  // links are never redirected: the visitor stays on the page they asked for.
   const country = request.headers.get('x-vercel-ip-country')?.toUpperCase()
   if (country && /^[A-Z]{2}$/.test(country)) {
     response.cookies.set(COUNTRY_COOKIE, country, { path: '/', maxAge: 60 * 60 * 24, sameSite: 'lax' })

@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar'
 import { SiteFooter } from '@/components/ui'
 import Link from 'next/link'
+import { PREFERENCE_COOKIES } from '@/lib/preference-cookies'
 import type { Metadata } from 'next'
 import { buildPageMetadata } from '@/lib/seo'
 import { resolveLang } from '@/lib/i18n'
@@ -86,7 +87,7 @@ const content: Record<string, PrivacyContent> = {
       headProvider: 'Émetteur',
       rows: [
         { name: 'cookie_consent', purpose: 'Mémorisation de votre choix de consentement', duration: '6 mois', provider: 'Home Nura (essentiel)' },
-        { name: 'NEXT_LOCALE', purpose: 'Mémorisation de la langue choisie', duration: 'Session', provider: 'Home Nura (essentiel)' },
+        ...PREFERENCE_COOKIES.fr.rows,
         { name: 'Amazon affiliate', purpose: 'Suivi du lien affilié pour attribution de commission', duration: 'Jusqu\'à 24h', provider: 'Amazon EU (tiers)' },
       ],
     },
@@ -151,7 +152,7 @@ const content: Record<string, PrivacyContent> = {
       headProvider: 'Issuer',
       rows: [
         { name: 'cookie_consent', purpose: 'Stores your consent choice', duration: '6 months', provider: 'Home Nura (essential)' },
-        { name: 'NEXT_LOCALE', purpose: 'Stores your language preference', duration: 'Session', provider: 'Home Nura (essential)' },
+        ...PREFERENCE_COOKIES.en.rows,
         { name: 'Amazon affiliate', purpose: 'Tracks affiliate link for commission attribution', duration: 'Up to 24h', provider: 'Amazon EU (third party)' },
       ],
     },
@@ -216,7 +217,7 @@ const content: Record<string, PrivacyContent> = {
       headProvider: 'Anbieter',
       rows: [
         { name: 'cookie_consent', purpose: 'Speichert Ihre Einwilligungswahl', duration: '6 Monate', provider: 'Home Nura (essenziell)' },
-        { name: 'NEXT_LOCALE', purpose: 'Speichert Ihre Sprachwahl', duration: 'Sitzung', provider: 'Home Nura (essenziell)' },
+        ...PREFERENCE_COOKIES.de.rows,
         { name: 'Amazon affiliate', purpose: 'Verfolgt den Affiliate-Link zur Provisionszuordnung', duration: 'Bis zu 24 Std.', provider: 'Amazon EU (Dritter)' },
       ],
     },
@@ -281,7 +282,7 @@ const content: Record<string, PrivacyContent> = {
       headProvider: 'Emisor',
       rows: [
         { name: 'cookie_consent', purpose: 'Almacena su elección de consentimiento', duration: '6 meses', provider: 'Home Nura (esencial)' },
-        { name: 'NEXT_LOCALE', purpose: 'Almacena su preferencia de idioma', duration: 'Sesión', provider: 'Home Nura (esencial)' },
+        ...PREFERENCE_COOKIES.es.rows,
         { name: 'Amazon affiliate', purpose: 'Rastrea el enlace de afiliado para atribución de comisión', duration: 'Hasta 24 h', provider: 'Amazon EU (tercero)' },
       ],
     },
@@ -346,7 +347,7 @@ const content: Record<string, PrivacyContent> = {
       headProvider: 'Emittente',
       rows: [
         { name: 'cookie_consent', purpose: 'Memorizza la tua scelta di consenso', duration: '6 mesi', provider: 'Home Nura (essenziale)' },
-        { name: 'NEXT_LOCALE', purpose: 'Memorizza la preferenza di lingua', duration: 'Sessione', provider: 'Home Nura (essenziale)' },
+        ...PREFERENCE_COOKIES.it.rows,
         { name: 'Amazon affiliate', purpose: 'Traccia il link affiliato per attribuzione della commissione', duration: 'Fino a 24h', provider: 'Amazon EU (terzo)' },
       ],
     },
@@ -411,7 +412,7 @@ const content: Record<string, PrivacyContent> = {
       headProvider: 'Uitgever',
       rows: [
         { name: 'cookie_consent', purpose: 'Slaat uw toestemmingskeuze op', duration: '6 maanden', provider: 'Home Nura (essentieel)' },
-        { name: 'NEXT_LOCALE', purpose: 'Slaat uw taalvoorkeur op', duration: 'Sessie', provider: 'Home Nura (essentieel)' },
+        ...PREFERENCE_COOKIES.nl.rows,
         { name: 'Amazon affiliate', purpose: 'Volgt de affiliate-link voor commissieattributie', duration: 'Tot 24 uur', provider: 'Amazon EU (derde)' },
       ],
     },
@@ -481,12 +482,7 @@ const content: Record<string, PrivacyContent> = {
           duration: '6 miesięcy',
           provider: 'Home Nura (niezbędne)',
         },
-        {
-          name: 'NEXT_LOCALE',
-          purpose: 'Zapamiętanie wybranego języka',
-          duration: 'Do końca sesji',
-          provider: 'Home Nura (niezbędne)',
-        },
+        ...PREFERENCE_COOKIES.pl.rows,
         {
           name: 'Amazon affiliate',
           purpose: 'Śledzenie linku afiliacyjnego w celu przypisania prowizji',
@@ -561,12 +557,7 @@ const content: Record<string, PrivacyContent> = {
           duration: '6 månader',
           provider: 'Home Nura (nödvändig)',
         },
-        {
-          name: 'NEXT_LOCALE',
-          purpose: 'Sparar det språk du har valt',
-          duration: 'Session',
-          provider: 'Home Nura (nödvändig)',
-        },
+        ...PREFERENCE_COOKIES.sv.rows,
         {
           name: 'Amazon affiliate',
           purpose: 'Spårar affiliatelänken så att provisionen kan tillskrivas rätt webbplats',
@@ -641,12 +632,7 @@ const content: Record<string, PrivacyContent> = {
           duration: '6 months',
           provider: 'Home Nura (essential)',
         },
-        {
-          name: 'NEXT_LOCALE',
-          purpose: 'Stores your language preference',
-          duration: 'Session',
-          provider: 'Home Nura (essential)',
-        },
+        ...PREFERENCE_COOKIES.us.rows,
         {
           name: 'Amazon affiliate',
           purpose: 'Tracks the affiliate link to attribute the commission',
@@ -721,12 +707,7 @@ const content: Record<string, PrivacyContent> = {
           duration: '6 months',
           provider: 'Home Nura (essential)',
         },
-        {
-          name: 'NEXT_LOCALE',
-          purpose: 'Stores your language preference',
-          duration: 'Session',
-          provider: 'Home Nura (essential)',
-        },
+        ...PREFERENCE_COOKIES.ca.rows,
         {
           name: 'Amazon affiliate',
           purpose: 'Tracks affiliate link for commission attribution',

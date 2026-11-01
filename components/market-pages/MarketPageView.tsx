@@ -2,6 +2,7 @@ import FaqSection from '@/components/FaqSection'
 import Navbar from '@/components/Navbar'
 import { SiteFooter } from '@/components/ui'
 import { relatedLinks } from '@/lib/market-pages/data'
+import { marketHubOf } from '@/lib/market-pages/switch'
 import type { MarketPage } from '@/lib/market-pages/types'
 import ComparisonTable from './ComparisonTable'
 import { AnswerBox, IndependentTesters, JsonLd, PageHeader, Ranking, RelatedLinks, Sections, Sources } from './PageParts'
@@ -26,7 +27,8 @@ export default function MarketPageView({ page, buyLabel, faqTitle }: MarketPageV
   return (
     <div className="min-h-screen overflow-x-clip bg-white">
       <JsonLd page={page} />
-      <Navbar currentLang={page.locale} />
+      {/* The other versions lack this page: the country selector sends them to its main hub. */}
+      <Navbar currentLang={page.locale} marketHub={marketHubOf(page)} />
       <main id="main" data-market-page={page.type}>
         <PageHeader page={page} />
         <AnswerBox page={page} />

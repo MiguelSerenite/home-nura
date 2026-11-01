@@ -7,6 +7,15 @@ import { AUTHOR_PATH, getAuthor } from './authors'
 
 const BASE_URL = 'https://homenura.com'
 
+/**
+ * x-default of a page at `path` (inside the locale prefix): the entry page
+ * (/, the country choice) for the home pages, the French version for every
+ * other page (the site's default language: there is no per-page chooser).
+ */
+export function xDefaultUrl(path: string): string {
+  return path === '' || path === '/' ? `${BASE_URL}/` : `${BASE_URL}/${DEFAULT_LANG}${path}`
+}
+
 interface BuildPageMetadataInput {
   /** Current language segment (fr, en, de, …). Falls back to 'fr'. */
   lang: string
@@ -93,11 +102,11 @@ export function buildPageMetadata(input: BuildPageMetadataInput): Metadata {
 
   // hreflang: map every locale the page exists in to its URL at the same
   // path, keyed by its language tag (en-US for /us, never the market code).
-  // x-default points to the French variant (site default language).
+  // x-default: the entry page for the homes, else the French variant (xDefaultUrl).
   const languages: Record<string, string> = Object.fromEntries(
     locales.map((l) => [HTML_LANG[l], `${BASE_URL}/${l}${normalizedPath}`])
   )
-  if (xDefault && locales.includes(DEFAULT_LANG)) languages['x-default'] = `${BASE_URL}/${DEFAULT_LANG}${normalizedPath}`
+  if (xDefault && locales.includes(DEFAULT_LANG)) languages['x-default'] = xDefaultUrl(normalizedPath)
 
   return {
     title,
