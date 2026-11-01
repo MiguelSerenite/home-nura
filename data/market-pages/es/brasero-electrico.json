@@ -1,0 +1,316 @@
+{
+  "locale": "es",
+  "type": "guide",
+  "slug": "brasero-electrico",
+  "updated": "2026-11-01",
+  "metaTitle": "Brasero eléctrico para mesa camilla: cuál elegir en 2026",
+  "metaDescription": "Brasero eléctrico para mesa camilla: tipos, potencia, cuánto consume y qué seguridad exigir. Comparamos Fabrilamp PERRY, Orbegozo BR 92 y LO 8000.",
+  "kicker": "Guía de compra · Calefacción",
+  "h1": "Brasero eléctrico para mesa camilla: cuál elegir y cómo usarlo con seguridad",
+  "answer": "Para una mesa camilla con faldillas, busca un brasero de 800 a 900 W con dos niveles, corte por sobrecalentamiento y antivuelco o fijación. El Fabrilamp PERRY (900 W, cerámico) es el que más seguridad declara; el Orbegozo BR 92, el clásico que se atornilla a la tarima, y el Orbegozo LO 8000 (400 W), el que menos gasta. Nunca lo enchufes a un temporizador.",
+  "picks": [
+    {
+      "brand": "Fabrilamp",
+      "model": "PERRY 900 W (ref. 282620926)",
+      "role": "Nuestra elección",
+      "why": "Es el único de la comparativa que reúne, según Fabrilamp, antivuelco, termostato que lo apaga si se sobrecalienta y rejilla que no transmite calor al tacto, con dos niveles (450 y 900 W) y 3 m de cable para no usar alargador. No hemos encontrado ningún ensayo independiente publicado de este modelo.",
+      "bestFor": "Camillas con faldillas largas, mesas donde el brasero recibe golpes con los pies y quien quiera dejarlo en el suelo sin atornillarlo.",
+      "asin": "B0H33CRVCN",
+      "manufacturerUrl": "https://www.fabrilamp.com/es/estufas-y-braseros/20856-brasero-elect-perry-blan-neg-900w-2pot-resist-cer-amica-antivuel-rejilla-seg-17x39-5x38-5-8435684371634.html",
+      "specs": {
+        "Potencia máxima": "900 W",
+        "Niveles de potencia": "450 W y 900 W",
+        "Elemento calefactor": "2 elementos cerámicos",
+        "Seguridad": "antivuelco, termostato de seguridad que lo desconecta si se sobrecalienta, rejilla que no transmite calor al tacto",
+        "Piloto luminoso": "sí",
+        "Cable": "3 m",
+        "Colocación": "apoyado sobre una superficie plana y estable, solo en interior",
+        "Medidas (ancho × alto × fondo)": "39,5 × 17 × 38,5 cm",
+        "Peso neto": "1,28 kg",
+        "Materiales": "policarbonato y cerámica",
+        "Tensión": "220-240 V",
+        "EAN": "8435684371634"
+      }
+    },
+    {
+      "brand": "Orbegozo",
+      "model": "BR 92",
+      "role": "La alternativa clásica para tarima",
+      "why": "Es el brasero redondo de siempre, de una marca española con red de asistencia técnica: dos resistencias blindadas, 450 o 900 W, asas de tacto frío y tornillos para fijarlo a la tarima, con ficha y manual completos. Orbegozo no le atribuye corte por sobrecalentamiento.",
+      "bestFor": "Mesas camilla con tarima y agujero de 35 cm, donde el brasero tiene que quedar fijo.",
+      "asin": "B0HP1BN8ZR",
+      "manufacturerUrl": "https://orbegozo.com/productos/calefaccion/calefactores-termoventiladores/brasero-electrico-br-92/",
+      "specs": {
+        "Potencia máxima": "900 W",
+        "Niveles de potencia": "450 W y 900 W (el manual indica 400 W en el nivel I)",
+        "Elemento calefactor": "2 resistencias blindadas con reflector de calor",
+        "Seguridad": "rejilla de seguridad, asas de tacto frío, desconexión general",
+        "Colocación": "atornillado a la tarima de la mesa camilla, con agujero de 35 cm de diámetro",
+        "Control de temperatura ambiente": "no",
+        "Medidas (ancho × alto × fondo)": "40 × 15 × 39 cm",
+        "Tensión": "220-240 V ~ 50 Hz",
+        "EAN": "8435568406704"
+      }
+    },
+    {
+      "brand": "Orbegozo",
+      "model": "LO 8000",
+      "role": "El de menor consumo",
+      "why": "Con 400 W como máximo gasta menos de la mitad que un brasero de 900 W, porque también calienta menos, y se atornilla bajo el tablero, así que vale para camillas sin tarima. Orbegozo pide dejar al menos 30 cm libres a los lados hasta la tela y, como no tiene asa, esperar unos 10 minutos tras apagarlo para tocarlo.",
+      "bestFor": "Camillas pequeñas o sin tarima, una o dos personas y quien prefiera gastar menos luz aunque caliente menos.",
+      "asin": "B0GJPTZ4LP",
+      "manufacturerUrl": "https://orbegozo.com/productos/calefaccion/calefactores-termoventiladores/brasero-electrico-lo-8000/",
+      "specs": {
+        "Potencia máxima": "400 W",
+        "Niveles de potencia": "2 (potencia mínima indicativa de 0,18 kW según la tabla de ecodiseño del manual)",
+        "Elemento calefactor": "resistencia blindada con difusor de expansión calorífica",
+        "Seguridad": "rejilla de seguridad con diseño de panal de abeja, interruptor con desconexión general",
+        "Colocación": "atornillado bajo el tablero con soporte y gancho; al menos 30 cm libres a los lados hasta la tela más próxima",
+        "Asa": "no tiene; no tocarlo hasta unos 10 minutos después de apagarlo",
+        "Control de temperatura ambiente": "no",
+        "Medidas (ancho × alto × fondo)": "145 × 250 × 155 mm",
+        "Tensión": "220-240 V ~ 50 Hz",
+        "EAN": "8435568408142"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Modelo",
+      "Nota /100",
+      "Potencia y niveles",
+      "Elemento calefactor",
+      "Seguridad que declara el fabricante",
+      "Colocación",
+      "Cable",
+      "Medidas (ancho × alto × fondo)"
+    ],
+    "rows": [
+      [
+        "Fabrilamp PERRY",
+        "83",
+        "900 W (450 / 900 W)",
+        "2 elementos cerámicos",
+        "Antivuelco, termostato de seguridad, rejilla fría al tacto, piloto",
+        "Apoyado sobre superficie plana",
+        "3 m",
+        "39,5 × 17 × 38,5 cm"
+      ],
+      [
+        "Orbegozo BR 92",
+        "77",
+        "900 W (450 / 900 W)",
+        "2 resistencias blindadas",
+        "Rejilla, asas de tacto frío, desconexión general",
+        "Atornillado a la tarima (agujero de 35 cm)",
+        "No indicado",
+        "40 × 15 × 39 cm"
+      ],
+      [
+        "Orbegozo LO 8000",
+        "69",
+        "400 W (2 niveles)",
+        "Resistencia blindada y difusor",
+        "Rejilla de panal de abeja, desconexión general",
+        "Colgado bajo el tablero",
+        "No indicado",
+        "14,5 × 25 × 15,5 cm"
+      ],
+      [
+        "Fabrilamp RUDY",
+        "64",
+        "900 W (450 / 900 W)",
+        "2 elementos (tipo no indicado)",
+        "Corte por sobrecalentamiento, rejilla de protección",
+        "Apoyado sobre superficie plana",
+        "3 m",
+        "38,5 × 10,5 × 38,5 cm"
+      ],
+      [
+        "FM BETA-900",
+        "59",
+        "900 W (450 / 900 W)",
+        "Resistencia cerámica",
+        "Antivuelco, piloto luminoso",
+        "No indicada",
+        "No indicado",
+        "Ø 39 cm"
+      ],
+      [
+        "Bastilipo BET-950",
+        "57",
+        "950 W (450 / 500 / 950 W)",
+        "No indicado; ventilador axial",
+        "«Sistema anti incendios» patentado, sin detalle",
+        "No indicada",
+        "3 m",
+        "No indicadas"
+      ],
+      [
+        "FM ALFA-900",
+        "55",
+        "850 W (425 / 850 W)",
+        "Resistencia blindada",
+        "Interruptor luminoso con posición de apagado",
+        "No indicada",
+        "No indicado",
+        "Ø 39 cm"
+      ],
+      [
+        "Bastilipo B-800",
+        "55",
+        "800 W (400 / 800 W)",
+        "«Calor negro», sin detalle",
+        "«Sistema anti incendios», ThermAL Disc y Black Diode, sin detalle",
+        "No indicada",
+        "3 m",
+        "Ø 40 cm"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Seguridad documentada",
+      "weight": 35,
+      "explanation": "Bajo unas faldillas, lo que evita un incendio es que el brasero se apague solo si algo lo tapa o si se vuelca, y que no se mueva con los pies. Puntuamos lo que el fabricante declara en su web o en su manual: corte por sobrecalentamiento, antivuelco o fijación a la mesa, rejilla fría al tacto, desconexión y piloto. Lo que solo aparece en el anuncio de una tienda no cuenta."
+    },
+    {
+      "name": "Encaje en la mesa camilla",
+      "weight": 15,
+      "explanation": "Comprobamos cómo se coloca (en la tarima con agujero, colgado bajo el tablero o apoyado en el suelo), sus medidas y el largo del cable: con 3 m no hace falta alargador, algo que los manuales desaconsejan."
+    },
+    {
+      "name": "Potencia y regulación",
+      "weight": 15,
+      "explanation": "Entre 400 y 900 W y al menos dos niveles. Más potencia calienta una camilla grande; más niveles permiten ajustar el gasto cuando la mesa ya está caliente."
+    },
+    {
+      "name": "Ficha técnica y manual en España",
+      "weight": 15,
+      "explanation": "Una ficha completa, un manual en español descargable y un servicio técnico localizable. Restamos puntos cuando la web del fabricante no explica sus sistemas de seguridad o sus datos no coinciden con los del anuncio."
+    },
+    {
+      "name": "Tipo de calor",
+      "weight": 10,
+      "explanation": "Preferimos elementos que no se ponen incandescentes, como la resistencia blindada o la cerámica, en línea con lo que aconseja la Dirección General de Consumo de la Junta de Andalucía. El cerámico suma por calentar antes; el ventilador, por repartir mejor el calor."
+    },
+    {
+      "name": "Disponibilidad en España",
+      "weight": 10,
+      "explanation": "Que se pueda comprar hoy en España, en Amazon o en tiendas de electrodomésticos. Este criterio no mide el precio."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Tipos de brasero eléctrico",
+      "html": "<p>Un brasero eléctrico es un calefactor pensado para ir debajo de la mesa camilla y calentar piernas y pies, no la habitación entera. Se distinguen por el elemento que calienta y por la forma de colocarlo.</p><ul><li><strong>De resistencia blindada:</strong> la resistencia va encerrada en un tubo metálico. Es el brasero redondo de toda la vida, como el Orbegozo BR 92, o el compacto que se cuelga bajo el tablero, como el Orbegozo LO 8000. Tarda algo más en dar calor, pero la resistencia no queda al rojo a la vista.</li><li><strong>Cerámico:</strong> calienta antes que la resistencia blindada. Es el caso del Fabrilamp PERRY y del FM BETA-900, que además anuncian antivuelco.</li><li><strong>De cuarzo o halógeno:</strong> tubos que se iluminan y dan calor radiante inmediato. Bajo unas faldillas no es la mejor opción: la Dirección General de Consumo de la Junta de Andalucía aconseja buscar un calor que huya de la incandescencia y evitar todo contacto con la ropa de camilla.</li><li><strong>Con ventilador:</strong> un pequeño ventilador reparte el aire caliente por debajo de la mesa, como en el Bastilipo BET-950. Reparte mejor el calor, a cambio de algo de ruido.</li><li><strong>«Calor negro»:</strong> nombre comercial de los braseros que calientan sin emitir luz, como el Bastilipo B-800. El fabricante no detalla qué elemento usa, así que no lo tratamos como una tecnología aparte.</li></ul><p>El brasero de picón o de carbón es otra cosa: quema combustible y puede desprender monóxido de carbono. El eléctrico no quema nada y no produce ese gas, pero tiene su propio riesgo: calor muy cerca de la tela.</p>"
+    },
+    {
+      "h2": "Qué potencia necesitas y cuánto gasta de verdad",
+      "html": "<p>Los braseros para mesa camilla van de 400 a 900 W, con dos o tres niveles. Como orientación:</p><ul><li><strong>400 W:</strong> mesa pequeña, una o dos personas y un salón que ya está templado.</li><li><strong>800 a 900 W:</strong> camilla grande, varias personas alrededor o una casa fría. Arranca en el nivel alto y baja al bajo cuando la mesa esté caliente.</li></ul><p>La cuenta es sencilla: kWh = potencia en W ÷ 1.000 × horas. Un brasero de 900 W a plena potencia gasta 0,9 kWh cada hora, sea de la marca que sea. Con el precio medio del PVPC que tomó Selectra para el 1 al 14 de octubre de 2026 (24,59 céntimos por kWh con impuestos, solo término de energía), son unos 0,22 € por hora; uno de 400 W, unos 0,10 €.</p><p>Por eso conviene desconfiar del «bajo consumo»: un brasero gasta menos porque calienta menos, no porque aproveche mejor la electricidad. Ninguno de los tres braseros elegidos tiene termostato de ambiente, así que consume la potencia elegida mientras está encendido. Orbegozo lo advierte en sus manuales: sus braseros solo están indicados para lugares abrigados o un uso puntual, no como calefacción principal.</p>"
+    },
+    {
+      "h2": "Seguridad: lo que de verdad importa bajo las faldillas",
+      "html": "<p>La mesa camilla junta en poco espacio calor, tela y piernas que se mueven. Según la Comunidad de Madrid (nota del 24 de noviembre de 2023), en 2022 murieron 235 personas en incendios en España, la cifra más alta desde 2010, y 176 de esas muertes se debieron a fuegos en viviendas; el 59 % de las víctimas muere en los meses más fríos. Esto es lo que conviene exigir y hacer:</p><ul><li><strong>Corte por sobrecalentamiento:</strong> un termostato de seguridad que apaga el brasero si algo lo tapa. Fabrilamp lo declara en el PERRY y el RUDY; Orbegozo no lo menciona en las fichas del BR 92 ni del LO 8000.</li><li><strong>Antivuelco o fijación:</strong> el antivuelco lo apaga si se vuelca; la fijación, con tornillos a la tarima o un soporte bajo el tablero, evita que se mueva con los pies.</li><li><strong>Rejilla que no queme:</strong> todos llevan rejilla, pero solo algunos la anuncian fría al tacto.</li><li><strong>Distancia a la tela:</strong> Orbegozo pide al menos 30 cm libres a los lados del LO 8000 hasta la tela más próxima. Las faldillas nunca deben tocar el brasero, y no hay que echarle una manta encima ni usarlo para secar ropa.</li><li><strong>Nada de temporizadores ni enchufes inteligentes:</strong> los manuales de Orbegozo y Fabrilamp prohíben conectarlo a un programador o a cualquier aparato que lo encienda solo, por riesgo de incendio si está tapado o mal colocado.</li><li><strong>Directo a la pared:</strong> Fabrilamp prohíbe alargadores y bases múltiples, y la Comunidad de Madrid aconseja enchufar los calefactores directamente a la toma. Un cable de 3 m ayuda a no necesitarlos.</li><li><strong>Apagado y desenchufado</strong> al levantarse de la mesa y antes de dormir. Los manuales piden no usarlo en habitaciones pequeñas con personas que no puedan salir solas, salvo vigilancia permanente: tenlo en cuenta con personas mayores.</li><li><strong>Un detector de humo</strong> en el salón o el pasillo, como recomiendan la Comunidad de Madrid y Consumo Responde.</li></ul>"
+    },
+    {
+      "h2": "Cómo colocarlo según tu mesa camilla",
+      "html": "<ul><li><strong>Mesa con tarima y agujero:</strong> el brasero redondo se encaja y se atornilla. El Orbegozo BR 92 está pensado para un agujero de 35 cm de diámetro, y Orbegozo pide sujetarlo solo por las asas al instalarlo.</li><li><strong>Mesa sin tarima:</strong> un modelo que se cuelga bajo el tablero, como el Orbegozo LO 8000, que se atornilla con su soporte y su gancho. Como no tiene asa, hay que esperar unos 10 minutos tras apagarlo para tocarlo.</li><li><strong>En el suelo:</strong> los braseros redondos de Fabrilamp se apoyan sobre una superficie plana y estable. Aquí el antivuelco marca la diferencia.</li></ul><p>En todos los casos, el enchufe tiene que quedar a mano para desconectarlo, como pide Orbegozo en sus manuales, y el cable no debe pasar por encima del brasero caliente.</p>"
+    },
+    {
+      "h2": "¿Brasero o radiador de aceite bajo la mesa camilla?",
+      "html": "<p>Selectra hizo la cuenta el 16 de octubre de 2026 para tardes de 5 horas: unos 0,49 € con un brasero de 400 W, 1,11 € con uno de 900 W y hasta 1,84 € con un radiador de aceite de 1.500 W. En 30 tardes, de 14,75 € a 33,20 € con brasero, frente a un máximo de 55,33 € con el radiador. La comparación no es del todo justa: el brasero solo calienta debajo de la mesa, mientras que el radiador calienta la habitación y, con su termostato, no siempre trabaja al máximo.</p><p>Si pasas la tarde sentado a la camilla, el brasero gasta menos. Si la camilla es el único punto caliente de una casa fría, o quieres templar también el resto del salón, mira nuestra guía de calefactores y radiadores.</p>"
+    },
+    {
+      "h2": "Por qué este orden",
+      "html": "<p>Puntuamos cada modelo sobre 100 con los seis criterios de arriba, solo con las fichas y los manuales que publican los fabricantes en España y con su disponibilidad en tiendas españolas. Ni el precio ni los clics entran en la nota. A 1 de noviembre de 2026 no hemos encontrado ningún ensayo independiente reciente de braseros eléctricos, tampoco de la OCU, así que la nota no incluye mediciones de laboratorio.</p><ul><li><strong>Fabrilamp PERRY, 83/100:</strong> la mejor nota en seguridad (antivuelco, termostato de seguridad, rejilla fría al tacto y piloto), elementos cerámicos y 3 m de cable. Pierde puntos porque no se puede fijar a la mesa.</li><li><strong>Orbegozo BR 92, 77/100:</strong> el que mejor encaja en una camilla con tarima y la ficha más completa, con manual y tabla de ecodiseño. Pierde puntos porque Orbegozo no le atribuye corte por sobrecalentamiento ni indica el largo del cable.</li><li><strong>Orbegozo LO 8000, 69/100:</strong> el de menor consumo y el único de la tabla que se cuelga bajo el tablero. Sus 400 W se quedan cortos en una camilla grande y no tiene asa.</li><li><strong>Fabrilamp RUDY, 64/100:</strong> corte por sobrecalentamiento y 3 m de cable, pero sin antivuelco y sin decir qué elemento calefactor usa.</li><li><strong>FM BETA-900, 59/100:</strong> cerámico y con antivuelco según su fabricante de Lucena (Córdoba), pero su ficha no menciona corte por sobrecalentamiento ni cable, y no lo hemos encontrado en Amazon.</li><li><strong>Bastilipo BET-950, 57/100; FM ALFA-900 y Bastilipo B-800, 55/100:</strong> el ALFA-900 está fabricado en España, pero su ficha solo cita un interruptor luminoso como elemento de seguridad. Los dos Bastilipo prometen un «sistema anti incendios» patentado que su web no explica, y sus datos no coinciden con los de sus anuncios (potencias del BET-950, largo del cable del B-800).</li></ul><p>Los tres elegidos siguen la nota: nuestra elección es la mejor nota; la alternativa, la mejor nota de otra marca; el de menor consumo, el único de la tabla que no pasa de 400 W. El Orbegozo BR 90 y el LO 8005 repiten las potencias del BR 92 y del LO 8000, por eso no los puntuamos aparte. Hay otros braseros en Amazon que no incluimos porque no encontramos una ficha del fabricante en España que confirme sus datos.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuánto consume un brasero eléctrico?",
+      "a": "Lo que indica su potencia por cada hora encendido: 0,4 kWh uno de 400 W y 0,9 kWh uno de 900 W a plena potencia. Con los 24,59 céntimos por kWh del PVPC que usó Selectra (1 al 14 de octubre de 2026, con impuestos y solo término de energía), son unos 0,10 € y 0,22 € por hora."
+    },
+    {
+      "q": "¿Qué potencia de brasero necesito para una mesa camilla?",
+      "a": "Con 400 W basta para una mesa pequeña y una o dos personas en un salón templado. Para una camilla grande, varias personas o una casa fría, mejor de 800 a 900 W con dos niveles: se arranca en el alto y se baja al bajo cuando la mesa ya está caliente."
+    },
+    {
+      "q": "¿Qué es mejor para la mesa camilla, brasero o radiador de aceite?",
+      "a": "Para calentar solo las piernas, el brasero gasta menos: Selectra calcula de 0,49 € a 1,11 € por tarde de 5 horas, frente a un máximo de 1,84 € con un radiador de 1.500 W. El radiador calienta toda la habitación y tiene termostato; el brasero, no."
+    },
+    {
+      "q": "¿Se puede dejar el brasero encendido toda la noche?",
+      "a": "No. Los manuales piden desenchufarlo después de usarlo, y Consumo Responde aconseja no dejarlo encendido al dormir ni cuando no hay nadie en la habitación. Además, ninguno de los tres que recomendamos tiene termostato de ambiente: sigue calentando mientras esté enchufado."
+    },
+    {
+      "q": "¿Puedo conectar el brasero a un enchufe inteligente o a un temporizador?",
+      "a": "No. Orbegozo y Fabrilamp lo prohíben en sus manuales: si el brasero se enciende solo mientras está tapado por una manta o mal colocado, hay riesgo de incendio. Enciéndelo a mano y desenchúfalo al terminar."
+    },
+    {
+      "q": "¿Un brasero eléctrico desprende monóxido de carbono?",
+      "a": "No, porque no quema nada. El monóxido de carbono sale de los braseros de picón o de carbón y de las estufas con mala combustión, que la OCU pide apagar antes de dormir. El riesgo del eléctrico es otro: el calor en contacto con la tela."
+    },
+    {
+      "q": "¿Qué distancia debe haber entre el brasero y las faldillas?",
+      "a": "La que indique el manual de tu modelo. Orbegozo pide al menos 30 cm libres a los lados del LO 8000 hasta la tela más próxima. En cualquier caso, las faldillas nunca deben tocar el brasero ni caer sobre la rejilla."
+    },
+    {
+      "q": "¿Qué dice la OCU de los braseros eléctricos?",
+      "a": "A 1 de noviembre de 2026 no hemos encontrado ningún ensayo de braseros eléctricos publicado por la OCU. Su nota del 13 de diciembre de 2024 sobre detectores de monóxido de carbono sí menciona los braseros, pero los de combustión."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Selectra — consumo del brasero frente al radiador",
+      "url": "https://selectra.es/energia/noticias/brasero-2026-mesa-camilla-radiador-consumo",
+      "note": "Artículo publicado el 16/10/2026. Con un PVPC medio de 24,59 céntimos por kWh con impuestos (1 al 14 de octubre de 2026, solo término de energía), una tarde de 5 horas cuesta unos 0,49 € con un brasero de 400 W, 1,11 € con uno de 900 W y hasta 1,84 € con un radiador de 1.500 W. Recuerda que los braseros de Orbegozo no tienen termostato, así que gastan la potencia elegida mientras están encendidos, y que el manual del BR 90 prohíbe enchufarlo a un programador o temporizador."
+    },
+    {
+      "name": "OCU — detectores de monóxido de carbono",
+      "url": "https://www.ocu.org/organizacion/prensa/notas-de-prensa/2024/detectoresco131224",
+      "note": "Nota de prensa del 13/12/2024: ocho de los nueve detectores analizados no detectan concentraciones de CO consideradas de riesgo. Recuerda que la mala combustión de una estufa, un brasero o una chimenea puede causar asfixia y que hay que apagarlos antes de dormir. No hemos encontrado ningún ensayo de braseros eléctricos de la OCU a 1/11/2026."
+    },
+    {
+      "name": "Comunidad de Madrid — campaña #CalorSeguro",
+      "url": "https://www.comunidad.madrid/node/67509",
+      "note": "Nota del 24/11/2023: 235 personas murieron en incendios en España en 2022, la cifra más alta desde 2010, 176 de ellas por fuegos en viviendas; el 59 % de las muertes se produce en los meses más fríos. Aconseja enchufar los calefactores directamente a la pared, no secar ropa sobre ellos e instalar detectores de humo."
+    },
+    {
+      "name": "Consumo Responde (Junta de Andalucía) — incendios por calentadores",
+      "url": "https://www.consumoresponde.es/actualidad/noticias/consumo_facilita_consejos_clave_para_evitar_incendios_ocasionados_por",
+      "note": "Aviso de la Dirección General de Consumo, sin fecha de publicación visible: pide evitar todo contacto con mantas, ropas de camilla o cortinas y buscar un calor que huya de la incandescencia. Cita 550 actuaciones inspectoras sobre productos como los braseros eléctricos entre el 1/01/2018 y febrero de 2023."
+    }
+  ],
+  "sources": [
+    "https://www.fabrilamp.com/es/estufas-y-braseros/20856-brasero-elect-perry-blan-neg-900w-2pot-resist-cer-amica-antivuel-rejilla-seg-17x39-5x38-5-8435684371634.html",
+    "https://www.fabrilamp.com/img/montaje/3007_20856.pdf",
+    "https://www.fabrilamp.com/es/estufas-y-braseros/20855-brasero-elect-rudy-gris-900w-2pot-rejilla-de-prote-ccion-luz-indicad-10-5x38-5x38-5cm-8435684371627.html",
+    "https://www.fabrilamp.com/img/montaje/2999_20855.pdf",
+    "https://orbegozo.com/productos/calefaccion/calefactores-termoventiladores/brasero-electrico-br-92/",
+    "https://orbegozo.com/wp-content/uploads/2025/09/BR-92.pdf",
+    "https://orbegozo.com/wp-content/uploads/2025/07/BR-92-IM.pdf",
+    "https://orbegozo.com/productos/calefaccion/calefactores-termoventiladores/brasero-electrico-lo-8000/",
+    "https://orbegozo.com/wp-content/uploads/2025/09/LO-8000.pdf",
+    "https://orbegozo.com/wp-content/uploads/2025/07/LO-8000-LO-8005-IM.pdf",
+    "https://orbegozo.com/productos/calefaccion/calefactores-termoventiladores/brasero-electrico-lo-8005/",
+    "https://orbegozo.com/productos/calefaccion/calefactores-termoventiladores/brasero-electrico-br-90/",
+    "https://fmcalefaccion.com/producto/brasero-beta-900/",
+    "https://fmcalefaccion.com/wp-content/uploads/2025/09/TECNICA-BETA-900.pdf",
+    "https://fmcalefaccion.com/producto/brasero-alfa-900/",
+    "https://fmcalefaccion.com/wp-content/uploads/2025/09/TECNICA-ALFA-900.pdf",
+    "https://bastilipo.es/product/bet-950-brasero-de-seguridad-anti-incendios/",
+    "https://bastilipo.es/product/brasero-electrico-de-seguridad-de-40-cm-con-potencia-de-400-w-y-800-w-b-800-bastilipo/",
+    "https://selectra.es/energia/noticias/brasero-2026-mesa-camilla-radiador-consumo",
+    "https://www.ocu.org/organizacion/prensa/notas-de-prensa/2024/detectoresco131224",
+    "https://www.comunidad.madrid/node/67509",
+    "https://www.consumoresponde.es/actualidad/noticias/consumo_facilita_consejos_clave_para_evitar_incendios_ocasionados_por"
+  ],
+  "related": [
+    "/es/confort-air/chauffages-appoint",
+    "/es/blog/radiateur-electrique-connecte-guide",
+    "/es/guides/probleme/chauffage-appoint-odeur-brulee",
+    "/es/guides/probleme/chauffage-appoint-coupe",
+    "/es/securite-maison/detecteurs-fumee-co"
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "locale": "fr",
+  "type": "duel",
+  "slug": "aspirateur-laveur-dreame-ou-tineco",
+  "updated": "2026-11-01",
+  "metaTitle": "Aspirateur laveur Dreame ou Tineco : lequel choisir ?",
+  "metaDescription": "Dreame H15 Pro Heat ou Tineco Floor One S9 Artist ? Eau chaude, autonomie, poids, bords : notre duel sourcé pour bien choisir votre aspirateur laveur.",
+  "kicker": "Duel · Aspirateurs laveurs",
+  "h1": "Aspirateur laveur Dreame ou Tineco : H15 Pro Heat ou Floor One S9 Artist ?",
+  "answer": "Pour la plupart des foyers, nous plaçons le Dreame H15 Pro Heat devant : seul des deux à laver le sol à l’eau chauffée, il rince sa brosse jusqu’à 100 °C et les testeurs français lui ont mesuré plus d’autonomie. Le Tineco Floor One S9 Artist reste le bon choix si vous voulez un appareil plus léger et plus maniable : 5,3 kg contre 6,2 kg.",
+  "picks": [
+    {
+      "brand": "Dreame",
+      "model": "H15 Pro Heat",
+      "role": "Notre choix pour la plupart des foyers",
+      "why": "C’est le seul des deux à chauffer l’eau qui lave le sol (jusqu’à 85 °C en sortie du module de chauffe et 55 °C sur la brosse, selon Dreame), et sa brosse est rincée à l’eau chauffée jusqu’à 100 °C puis séchée à 90 °C. En mode automatique, les testeurs français lui ont aussi mesuré nettement plus d’autonomie qu’au Tineco.",
+      "bestFor": "Cuisines et entrées très sollicitées, taches sèches ou collantes, logements avec beaucoup de plinthes, ménage complet d’une seule charge",
+      "asin": null,
+      "manufacturerUrl": "https://fr.dreametech.com/products/aspirateur-laveur-h15-pro-heat",
+      "specs": {
+        "Aspiration": "22 000 Pa",
+        "Puissance nominale": "400 W",
+        "Autonomie annoncée": "jusqu’à 72 min (mode silencieux) ; jusqu’à 20 min (mode eau chaude)",
+        "Lavage du sol": "eau chauffée : jusqu’à 85 °C en sortie du module de chauffe, jusqu’à 55 °C sur la brosse",
+        "Autonettoyage de la brosse": "eau chauffée jusqu’à 100 °C (ThermoTub)",
+        "Séchage de la brosse": "5 min à 90 °C ou 30 min à 85 °C, 63 dBA",
+        "Bords": "bras robotisé AI DescendReach (GapFree) qui se baisse au ras des plinthes, brosse à deux bords",
+        "Position à plat": "180°",
+        "Réservoir d’eau propre": "800 ml",
+        "Réservoir d’eau sale": "650 ml debout, 400 ml à plat",
+        "Poids": "6,2 kg",
+        "Batterie": "6 × 5 000 mAh",
+        "Temps de recharge": "4 h",
+        "Détection de la saleté": "capteur RVB",
+        "Anti-enroulement": "racleur TangleCut",
+        "Aide au déplacement": "assistance GlideWheel vers l’avant et vers l’arrière, aide au redressement BalanceBoost, guidage par l’application Dreamehome",
+        "Modes": "Intelligent, Aspiration, Eau chaude, Personnalisé"
+      }
+    },
+    {
+      "brand": "Tineco",
+      "model": "Floor One S9 Artist",
+      "role": "Le plus léger et le plus maniable",
+      "why": "Il pèse 5,3 kg contre 6,2 kg pour le Dreame, et Presse-citron juge sa maniabilité exceptionnelle grâce à ses roues motrices. Clubic lui a décerné, le 9 novembre 2025, son Award du meilleur aspirateur laveur de l’année.",
+      "bestFor": "Personnes que le poids d’un aspirateur laveur fatigue, ménage quotidien sur des sols peu tachés, intérieurs où l’appareil reste en vue",
+      "asin": "B0DPP6C5YP",
+      "manufacturerUrl": "https://fr.tineco.com/products/floor-one-s9-artist.html",
+      "specs": {
+        "Aspiration": "22 kPa (22 000 Pa)",
+        "Puissance nominale": "230 W",
+        "Autonomie annoncée": "jusqu’à 75 min de batterie et 50 min d’eau (fiche produit, position allongée, mode automatique) ; jusqu’à 50 min sur la boutique Tineco France",
+        "Lavage du sol": "eau propre, sans chauffe de l’eau au sol annoncée",
+        "Autonettoyage de la brosse": "FlashDry : lavage à l’eau propre chauffée (température non publiée par Tineco)",
+        "Séchage de la brosse": "5 min à l’air chaud à 85 °C",
+        "Bords": "nettoyage des deux côtés",
+        "Position à plat": "180°, 12,85 cm de haut",
+        "Réservoir d’eau propre": "0,88 L (fiche produit ; 1 L sur la boutique Tineco France)",
+        "Réservoir d’eau sale": "0,75 L",
+        "Poids": "5,3 kg (fiche de la boutique Tineco France)",
+        "Batterie": "7 × 6 250 mAh",
+        "Temps de recharge": "4 à 5 h (boutique Tineco France)",
+        "Détection de la saleté": "capteur iLoop (ajuste l’aspiration et le débit d’eau)",
+        "Anti-enroulement": "DualBlock",
+        "Aide au déplacement": "auto-traction SmoothDrive annoncée à 360° ; la FAQ de la boutique Tineco France précise que l’assistance motorisée n’agit que vers l’avant",
+        "Fin de ménage": "courte marche arrière automatique à l’arrêt pour reprendre les traces d’eau",
+        "Écran": "LED",
+        "Connectivité": "application (Wi-Fi), assistant vocal (boutique Tineco France)",
+        "Modes": "auto, max, aspiration"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Critère",
+      "Dreame H15 Pro Heat",
+      "Tineco Floor One S9 Artist"
+    ],
+    "rows": [
+      [
+        "Lavage du sol à l’eau chaude",
+        "Oui : jusqu’à 85 °C en sortie du module, 55 °C sur la brosse",
+        "Non annoncé"
+      ],
+      [
+        "Aspiration annoncée",
+        "22 000 Pa",
+        "22 kPa (22 000 Pa)"
+      ],
+      [
+        "Autonomie annoncée",
+        "Jusqu’à 72 min (mode silencieux), 20 min (eau chaude)",
+        "Jusqu’à 75 min de batterie, 50 min d’eau (mode automatique, à plat)"
+      ],
+      [
+        "Autonomie mesurée par les testeurs",
+        "Environ 55 min en mode Auto (Clubic), environ 60 min en mode normal (Presse-citron), 18 à 20 min en eau chaude",
+        "Environ 35 min (Presse-citron), un peu plus de 38 min (Capital), 40 min (Labo Maison) en mode Auto"
+      ],
+      [
+        "Poids",
+        "6,2 kg",
+        "5,3 kg"
+      ],
+      [
+        "Autonettoyage de la brosse",
+        "Eau chauffée jusqu’à 100 °C",
+        "Eau propre chauffée (température non publiée)"
+      ],
+      [
+        "Séchage de la brosse",
+        "5 min à 90 °C ou 30 min à 85 °C",
+        "5 min à l’air chaud à 85 °C"
+      ],
+      [
+        "Bords",
+        "Bras robotisé AI DescendReach et brosse à deux bords",
+        "Nettoyage des deux côtés"
+      ],
+      [
+        "Aide au déplacement",
+        "Assistance GlideWheel vers l’avant et l’arrière, guidage par l’application",
+        "Auto-traction SmoothDrive annoncée à 360° (vers l’avant uniquement selon la FAQ Tineco)"
+      ],
+      [
+        "Position à plat",
+        "180°",
+        "180°, 12,85 cm de haut"
+      ],
+      [
+        "Réservoirs eau propre / eau sale",
+        "0,8 L / 0,65 L (0,4 L à plat)",
+        "0,88 L (1 L selon la boutique) / 0,75 L"
+      ],
+      [
+        "Détection de la saleté",
+        "Capteur RVB",
+        "Capteur iLoop"
+      ],
+      [
+        "Temps de recharge",
+        "4 h",
+        "4 à 5 h"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Lavage des taches et des sols",
+      "weight": 30,
+      "explanation": "C’est la raison d’acheter un aspirateur laveur plutôt qu’un aspirateur balai. Nous comparons ce que chaque fabricant annonce (eau chauffée ou non, détection de la saleté) et ce que les testeurs français ont relevé sur les taches sèches et grasses."
+    },
+    {
+      "name": "Autonomie utile",
+      "weight": 20,
+      "explanation": "Ce qui compte, c’est le temps de lavage réel : autonomie de la batterie et de l’eau, mode par mode, telle que la marque la publie, puis confrontée aux mesures publiées par les testeurs."
+    },
+    {
+      "name": "Hygiène de la brosse",
+      "weight": 20,
+      "explanation": "Une brosse qui reste humide finit par sentir mauvais. Nous comparons la température de l’eau d’autonettoyage, la température et la durée du séchage annoncées, et la facilité du cycle selon les testeurs."
+    },
+    {
+      "name": "Maniabilité et poids",
+      "weight": 15,
+      "explanation": "Un appareil de 5 à 6 kg se pousse pendant toute la séance. Nous comparons le poids publié, l’aide motorisée au déplacement et le passage sous les meubles (angle et hauteur à plat)."
+    },
+    {
+      "name": "Bords et plinthes",
+      "weight": 15,
+      "explanation": "La bande non lavée le long des murs est le défaut le plus visible au quotidien. Nous comparons les solutions annoncées (bras articulé, brosse à deux bords, nettoyage des deux côtés) et les remarques des testeurs."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Dreame ou Tineco : le verdict en 3 lignes",
+      "html": "<p><strong>Choisissez le Dreame H15 Pro Heat</strong> si votre cuisine accumule les taches sèches ou collantes, si vous avez beaucoup de plinthes, si vous voulez laver tout le logement d’une seule charge et si vous tenez à une brosse rincée à très haute température.</p><p><strong>Choisissez le Tineco Floor One S9 Artist</strong> si le poids vous fatigue, si vous voulez l’appareil le plus facile à manier des deux et si vos sols ne réclament pas d’eau chaude.</p><p>Les deux sont des aspirateurs laveurs manuels, qu’on appelle aussi balais laveurs : ils aspirent et lavent les sols durs en un seul passage. Pour déléguer entièrement le ménage, tournez-vous plutôt vers un robot aspirateur laveur.</p>"
+    },
+    {
+      "h2": "Les 3 différences qui comptent à l’usage",
+      "html": "<ul><li><strong>L’eau chaude au sol.</strong> Le Dreame chauffe l’eau de lavage : jusqu’à 85 °C en sortie du module de chauffe et jusqu’à 55 °C sur la brosse, selon le laboratoire de la marque. Presse-citron a relevé plutôt 50 °C et Clubic décrit une eau seulement tiède, mais tous deux le trouvent efficace sur les taches grasses ou collantes. Ce mode ramène l’autonomie à 20 minutes, soit 150 m² annoncés. Tineco n’annonce pas de lavage du sol à l’eau chaude sur le S9 Artist : chez lui, l’eau chauffée et l’air chaud servent à l’autonettoyage.</li><li><strong>L’autonomie réelle.</strong> Sur le papier, les deux se valent : jusqu’à 72 minutes pour le Dreame en mode silencieux, jusqu’à 75 minutes pour le Tineco, en position allongée et en mode automatique (50 minutes sur la boutique Tineco). En test, l’écart est net : environ 55 à 60 minutes pour le Dreame chez Clubic et Presse-citron, contre 35 à 40 minutes environ pour le Tineco chez Presse-citron, Capital et Labo Maison.</li><li><strong>Le poids et les bords.</strong> Le Tineco pèse 5,3 kg contre 6,2 kg, et sa maniabilité est saluée par Presse-citron. Le Dreame ajoute à sa brosse à deux bords un bras robotisé qui se baisse le long des plinthes ; le Tineco nettoie les bords des deux côtés, sans bras. Les testeurs ne sont pas d’accord sur l’intérêt du bras : Presse-citron l’apprécie, Clubic n’y voit pas de réelle plus-value.</li></ul>"
+    },
+    {
+      "h2": "Entretien de la brosse : eau à 100 °C contre air chaud à 85 °C",
+      "html": "<p>Après chaque ménage, les deux appareils lavent puis sèchent leur brosse sur leur socle. <strong>Dreame</strong> annonce un rinçage à l’eau chauffée jusqu’à 100 °C, mesure prise au-dessus de l’élément chauffant selon la marque, puis un séchage en 5 minutes à 90 °C ou en 30 minutes à 85 °C, à 63 dBA. <strong>Tineco</strong> lave la brosse à l’eau propre chauffée, sans température publiée, puis la sèche 5 minutes à l’air chaud à 85 °C.</p><p>Sur le papier, le Dreame va plus loin. À l’usage, les avis divergent : Clubic juge excellent l’autonettoyage du Tineco, tandis que Presse-citron le trouve contraignant, avec des réservoirs à remplir et à vider plusieurs fois. Côté Dreame, Presse-citron compte environ 30 minutes pour le cycle complet.</p>"
+    },
+    {
+      "h2": "Ce que disent les testeurs français",
+      "html": "<ul><li><strong>Clubic, 9 novembre 2025</strong> : le Tineco Floor One S9 Artist reçoit le Clubic Award 2025 du meilleur aspirateur laveur. Le site salue l’aspiration, le lavage et l’autonettoyage, et regrette un appareil un peu lourd à la longue, un bouton de réglage peu clair et une application peu utile. Dans le même article, il juge le Dreame H15 Pro Heat lourd en main et moins efficace qu’attendu sur les taches d’huile.</li><li><strong>Clubic, 18 juillet 2025</strong> : le Dreame H15 Pro Heat entre dans le top 2025 du site, avec un lavage à l’eau chaude jugé efficace sur les taches grasses et environ 55 minutes d’autonomie en mode Auto, mais un mode eau chaude limité à 18 à 20 minutes.</li><li><strong>Presse-citron, 19 mai 2025</strong> : maniabilité du Tineco jugée exceptionnelle grâce à ses roues motrices, environ 35 minutes d’autonomie, mais un autonettoyage contraignant et une hauteur qui l’empêche de passer sous la plupart des meubles de cuisine.</li><li><strong>Presse-citron, 20 mai 2025</strong> : plutôt 50 °C que les 55 °C annoncés au sol avec le Dreame, environ 60 minutes d’autonomie en mode normal et 20 minutes en eau chaude, un nettoyage des bords très efficace, mais une recharge lente, plus de deux heures de 5 à 100 %.</li><li><strong>Capital (5 septembre 2025), Frandroid (8 septembre 2025) et Labo Maison (6 novembre 2025)</strong> : entre 35 et 45 minutes d’autonomie mesurées pour le Tineco en mode Auto, en deçà de l’annonce de la marque.</li></ul><p>Les classements de Que Choisir sont réservés à ses abonnés : nous ne les citons pas ici.</p>"
+    },
+    {
+      "h2": "Coût d’usage : électricité, solution et pièces",
+      "html": "<p><strong>Électricité.</strong> Aucun des deux fabricants ne publie la consommation d’une recharge ni celle du séchage. D’après les batteries annoncées (6 × 5 000 mAh pour le Dreame, 7 × 6 250 mAh pour le Tineco) et une tension habituelle de 3,6 V par cellule, une recharge complète représente environ 0,11 à 0,16 kWh, soit 2 à 3 centimes au tarif réglementé de 0,2001 € TTC le kWh (option Base, 6 kVA, depuis le 1er août 2026). À trois ménages par semaine, la batterie coûte donc moins de 6 € d’électricité par an. Le chauffage de l’eau et le séchage de la brosse s’y ajoutent, sans chiffre publié par les marques.</p><p><strong>Consommables.</strong> Le vrai coût d’usage vient de la solution de nettoyage, de la brosse et du filtre. Dreame livre une brosse et un filtre de rechange avec un nettoyant multisurface ; ses résultats sur les taches d’huile sont annoncés avec une solution spéciale huile, qui n’est pas celle de la boîte. Tineco livre une solution de nettoyage avec l’appareil et vend ses recharges, ses brosses et ses filtres sur sa boutique française.</p>"
+    },
+    {
+      "h2": "Abonnement, application et garantie",
+      "html": "<p>Aucun abonnement n’est nécessaire. Le Dreame se pilote avec l’application Dreamehome, qui permet même de le guider sous les meubles comme un robot. Le Tineco se connecte en Wi-Fi et dispose d’un assistant vocal ; Clubic juge toutefois son application peu utile.</p><p>En France, les deux bénéficient de la garantie légale de conformité de 2 ans à compter de la livraison. Tineco annonce aussi une garantie de 2 ans pour les achats faits sur sa boutique.</p>"
+    },
+    {
+      "h2": "Plus récent ou moins cher : les autres modèles Dreame et Tineco",
+      "html": "<p><strong>Plus récent chez Dreame.</strong> Le site français de la marque vend, à côté du H15 Pro Heat, un T15 Pro Heat qui annonce 30 000 Pa, un lavage des sols à l’eau chaude jusqu’à 90 °C, 9,85 cm de hauteur à plat et une batterie amovible, pour 5,9 kg et 18 minutes en mode eau chaude. La gamme T compte aussi les T12 Pro, T14 Pro, T16 Pro Heat et T16 Pro Steam.</p><p><strong>Plus accessible.</strong> Chez Dreame, les H14, H15 Pro et H15S restent au catalogue français ; le H14 annonce par exemple 18 000 Pa, un lavage de la brosse à 60 °C et un séchage à l’air chaud en 5 minutes. Chez Tineco, le Floor One S7 Stretch reprend une aspiration de 21 kPa, une autonomie annoncée de 75 minutes, un séchage à l’air chaud à 85 °C en 5 minutes et une position à plat à 180° ; le Floor One Stretch S6 annonce 18 kPa et 40 minutes.</p><p><strong>De la vapeur chez Tineco.</strong> La boutique Tineco France propose aussi des déclinaisons vapeur du S9, comme le S9 Artist Steam Pro : à regarder si la chaleur au sol est votre critère n° 1.</p>"
+    },
+    {
+      "h2": "Pourquoi ce classement",
+      "html": "<p>Nous classons les deux modèles selon cinq critères pondérés, détaillés plus bas. Le <strong>Dreame H15 Pro Heat</strong> l’emporte sur le lavage des taches (30 %), l’autonomie utile (20 %), l’hygiène de la brosse (20 %) et les bords (15 %), soit 85 points sur 100. Le <strong>Tineco Floor One S9 Artist</strong> l’emporte sur la maniabilité et le poids (15 %), soit 15 points.</p><p>Sur l’autonomie, les fiches techniques se valent, mais les testeurs français ont mesuré nettement plus de temps de lavage avec le Dreame en mode automatique. Ce résultat repose sur les fiches techniques des fabricants et sur les essais publiés par les testeurs français ; Homenura ne teste pas les appareils elle-même. Si le poids et la maniabilité comptent plus que tout pour vous, le Tineco, primé par Clubic en 2025, reste un très bon choix.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Dreame ou Tineco : quelle marque est la plus fiable ?",
+      "a": "Nous n’avons pas trouvé d’enquête de fiabilité publique qui compare les deux marques. En France, les deux bénéficient de la garantie légale de conformité de 2 ans, et Tineco annonce 2 ans de garantie sur sa boutique. Pour faire durer l’appareil, laissez la brosse sécher sur son socle après chaque ménage et remplacez le filtre comme l’indique la notice."
+    },
+    {
+      "q": "Le mode eau chaude du Dreame H15 Pro Heat abîme-t-il le parquet ?",
+      "a": "Dreame affirme, rapport de TÜV SÜD à l’appui, que son mode eau chaude ne déforme, ne raye et ne décolore pas les parquets. Vérifiez quand même la notice de votre revêtement : un parquet huilé ou un sol sensible à l’humidité supporte mal le lavage à l’eau, chaude ou non."
+    },
+    {
+      "q": "Combien de temps dure le mode eau chaude du Dreame ?",
+      "a": "Jusqu’à 20 minutes, soit environ 150 m², selon Dreame. Clubic a relevé 18 à 20 minutes et Presse-citron environ 20 minutes. Réservez-le à la cuisine et aux taches, et lavez le reste du logement en mode automatique."
+    },
+    {
+      "q": "Lequel a la meilleure autonomie ?",
+      "a": "Sur le papier, ils se valent : jusqu’à 72 minutes pour le Dreame en mode silencieux et jusqu’à 75 minutes pour le Tineco, à plat et en mode automatique (50 minutes sur la boutique Tineco). En test, le Dreame tient plus longtemps : environ 55 minutes chez Clubic et 60 minutes chez Presse-citron, contre 35 à 40 minutes environ pour le Tineco chez Presse-citron, Capital et Labo Maison. En mode eau chaude, le Dreame tombe à 20 minutes."
+    },
+    {
+      "q": "Lequel passe le mieux sous les meubles ?",
+      "a": "Les deux se couchent à plat à 180°. Tineco annonce 12,85 cm de hauteur à plat pour le S9 Artist, trop haut pour la plupart des meubles de cuisine selon Presse-citron. Dreame ne publie pas de hauteur à plat pour le H15 Pro Heat, mais son application permet de le guider sous les meubles."
+    },
+    {
+      "q": "Peut-on utiliser un autre produit de nettoyage ?",
+      "a": "Suivez la notice : les deux appareils sont livrés avec la solution de leur marque. Les résultats annoncés par Dreame sur les taches d’huile sont obtenus avec sa solution spéciale huile, pas avec de l’eau seule ni avec le nettoyant multisurface de la boîte : sans ce produit, attendez-vous à un écart moins net."
+    },
+    {
+      "q": "Que dit Que Choisir de ces deux aspirateurs laveurs ?",
+      "a": "Les classements de Que Choisir sont réservés à ses abonnés et nous ne les citons pas. Les essais publics les plus détaillés que nous avons trouvés sont ceux de Clubic et de Presse-citron, résumés plus haut avec leur date."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Clubic",
+      "url": "https://www.clubic.com/actualite-584350-tineco-floor-one-s9-artist-l-aspirateur-laveur-qui-s-impose-comme-la-reference-de-2025.html",
+      "note": "9 novembre 2025 : Clubic Award 2025 du meilleur aspirateur laveur pour le Tineco Floor One S9 Artist (aspiration, lavage et autonettoyage salués ; appareil « un peu lourd à la longue », application peu utile). Le Dreame H15 Pro Heat y est jugé lourd en main, moins efficace qu’attendu sur les taches d’huile, avec un bras robotisé sans réelle plus-value."
+    },
+    {
+      "name": "Clubic",
+      "url": "https://www.clubic.com/actualite-572799-le-dreame-h15-pro-heat-rejoint-notre-top-2025-des-meilleurs-aspirateurs-laveurs.html",
+      "note": "18 juillet 2025 : le Dreame H15 Pro Heat entre dans le top 2025 des aspirateurs laveurs de Clubic ; lavage à l’eau chaude efficace sur les taches grasses malgré une eau seulement tiède au sol, environ 55 minutes d’autonomie en mode Auto, mais mode eau chaude limité à 18 à 20 minutes et poids élevé."
+    },
+    {
+      "name": "Presse-citron",
+      "url": "https://www.presse-citron.net/test-tineco-floor-one-s9-artist/",
+      "note": "19 mai 2025 : maniabilité du Tineco Floor One S9 Artist jugée exceptionnelle grâce aux roues motrices, 5,3 kg à vide, environ 35 minutes d’autonomie ; autonettoyage jugé contraignant et hauteur qui limite le passage sous les meubles de cuisine."
+    },
+    {
+      "name": "Presse-citron",
+      "url": "https://www.presse-citron.net/test-dreame-h15-pro-heat/",
+      "note": "20 mai 2025 : plutôt 50 °C que les 55 °C annoncés au sol avec le Dreame H15 Pro Heat, environ 60 minutes d’autonomie en mode normal et 20 minutes en eau chaude, environ 6 kg ; recharge lente (plus de deux heures de 5 à 100 %), bras de bord apprécié."
+    },
+    {
+      "name": "Capital",
+      "url": "https://www.capital.fr/conso/test-tineco-floor-one-s9-artist-un-aspirateur-wet-and-dry-qui-nettoie-efficacement-et-avec-style-1517840",
+      "note": "5 septembre 2025 : un peu plus de 38 minutes d’autonomie mesurées pour le Tineco Floor One S9 Artist en mode Auto sur un sol peu sale, 27 minutes en mode Max, recharge complète en près de 4 heures."
+    },
+    {
+      "name": "Frandroid",
+      "url": "https://www.frandroid.com/test/2750127_test-du-tineco-floor-one-s9-artist-il-aspire-et-lave-passe-a-plat-a-180-et-seche-tout-seul",
+      "note": "8 septembre 2025 : environ 35 à 45 minutes d’autonomie pour le Tineco Floor One S9 Artist selon la saleté et le mode, jugées moins qu’attendu ; recharge en 4 heures environ."
+    },
+    {
+      "name": "Labo Maison",
+      "url": "https://labomaison.com/entretien/aspirateur-laveur/tineco-floor-one-s9-artist/",
+      "note": "6 novembre 2025 : 40 minutes d’autonomie réelle relevées pour le Tineco Floor One S9 Artist en mode automatique, soit environ 100 m²."
+    }
+  ],
+  "sources": [
+    "https://fr.dreametech.com/products/aspirateur-laveur-h15-pro-heat",
+    "https://fr.dreametech.com/collections/aspirateur-laveur",
+    "https://fr.dreametech.com/products/aspirateur-laveur-dreame-t15-pro-heat",
+    "https://fr.dreametech.com/products/h14",
+    "https://fr.tineco.com/products/floor-one-s9-artist.html",
+    "https://fr-store.tineco.com/products/tineco-floor-one-s9-artist-aspirateur-laveur-sec-et-humide",
+    "https://fr.tineco.com/products/floor-one-s7-stretch.html",
+    "https://fr.tineco.com/products/floor-one-stretch-s6.html",
+    "https://www.clubic.com/actualite-584350-tineco-floor-one-s9-artist-l-aspirateur-laveur-qui-s-impose-comme-la-reference-de-2025.html",
+    "https://www.clubic.com/actualite-572799-le-dreame-h15-pro-heat-rejoint-notre-top-2025-des-meilleurs-aspirateurs-laveurs.html",
+    "https://www.presse-citron.net/test-tineco-floor-one-s9-artist/",
+    "https://www.presse-citron.net/test-dreame-h15-pro-heat/",
+    "https://www.kelwatt.fr/prix/tarif-bleu-edf",
+    "https://www.service-public.gouv.fr/particuliers/vosdroits/F11094",
+    "https://www.capital.fr/conso/test-tineco-floor-one-s9-artist-un-aspirateur-wet-and-dry-qui-nettoie-efficacement-et-avec-style-1517840",
+    "https://www.frandroid.com/test/2750127_test-du-tineco-floor-one-s9-artist-il-aspire-et-lave-passe-a-plat-a-180-et-seche-tout-seul",
+    "https://labomaison.com/entretien/aspirateur-laveur/tineco-floor-one-s9-artist/"
+  ],
+  "related": [
+    "/fr/entretien-maison/aspirateurs-laveurs",
+    "/fr/blog/meilleur-aspirateur-laveur-2026",
+    "/fr/entretien-maison/aspirateurs-balais",
+    "/fr/blog/aspirateur-sans-fil-comparatif-2026",
+    "/fr/blog/comparatif-robot-aspirateur-laveur",
+    "/fr/blog/robot-aspirateur-vs-balai"
+  ]
+}

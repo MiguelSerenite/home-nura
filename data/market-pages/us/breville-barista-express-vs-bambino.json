@@ -1,0 +1,308 @@
+{
+  "locale": "us",
+  "type": "duel",
+  "slug": "breville-barista-express-vs-bambino",
+  "updated": "2026-11-01",
+  "metaTitle": "Breville Barista Express vs. Bambino (2026): Which to Buy?",
+  "metaDescription": "Barista Express or Bambino Plus? Built-in grinder vs. none, 3-second heat-up, automatic vs. manual milk frothing, counter space, and who should buy which.",
+  "kicker": "Espresso machine duel",
+  "h1": "Breville Barista Express vs. Bambino Plus: Which Should You Buy?",
+  "answer": "Get the Barista Express if you're starting from scratch: it's the only one of the two with a built-in burr grinder, and it adds a pressure gauge and a dedicated hot water outlet. Get the Bambino Plus if you already own a good espresso grinder, drink mostly lattes or have little counter space: it's ready in 3 seconds, steams milk hands-free and weighs half as much.",
+  "picks": [
+    {
+      "brand": "Breville",
+      "model": "Barista Express BES870XL (Brushed Stainless Steel)",
+      "role": "Best overall: grinder included",
+      "why": "The only one of the two with a built-in grinder (steel conical burrs, 16 settings, a 1/2 lb hopper), plus a pressure gauge, adjustable brew temperature and a dedicated hot water outlet. The trade-offs: a manual-only steam wand, a 1-year US warranty and twice the weight of the Bambino Plus.",
+      "bestFor": "First-time espresso buyers who don't own a grinder and want one machine that grinds, doses and brews",
+      "asin": "B00CH9QWOU",
+      "manufacturerUrl": "https://www.breville.com/en-us/product/bes870",
+      "specs": {
+        "Built-in grinder": "Yes: steel conical burrs, 16 grind settings, dose control",
+        "Bean hopper": "1/2 lb",
+        "Heating system": "Thermocoil with PID temperature control",
+        "Brew temperature": "200°F (93°C) default, adjustable ±4°F in 2°F steps",
+        "Heat-up time": "Not listed by Breville",
+        "Pump": "15 bar Italian pump; low-pressure pre-infusion, then 9 bar extraction",
+        "Portafilter": "54 mm stainless steel, 18 g dose",
+        "Milk frothing": "Manual steam wand",
+        "Hot water": "Dedicated hot water outlet",
+        "Pressure gauge": "Yes",
+        "Water tank": "67 fl oz (about 2 L)",
+        "Power": "1,600 W, 110–120 V",
+        "Dimensions (as listed by Breville)": "15.9 x 13.1 x 12.4 in",
+        "Weight": "22.09 lb (10 kg)",
+        "US warranty": "1-year limited"
+      }
+    },
+    {
+      "brand": "Breville",
+      "model": "Bambino Plus BES500BSS (Brushed Stainless Steel)",
+      "role": "Best for milk drinks and small kitchens",
+      "why": "Ready in 3 seconds, with an automatic steam wand that textures milk to one of three temperatures and three foam levels, in a machine that weighs 10.91 lb and carries a 2-year US warranty. You need a separate espresso grinder for fresh beans, and there is no pressure gauge.",
+      "bestFor": "Latte and cappuccino drinkers who already own a burr grinder, or who are short on counter space",
+      "asin": "B07JVD78TT",
+      "manufacturerUrl": "https://www.breville.com/en-us/product/bes500",
+      "specs": {
+        "Built-in grinder": "No (sold separately or in a bundle with the Baratza Encore ESP)",
+        "Heating system": "ThermoJet with PID temperature control",
+        "Heat-up time": "3 seconds to extraction temperature (Breville)",
+        "Pump": "15 bar Italian pump; low-pressure pre-infusion, then 9 bar extraction",
+        "Portafilter": "54 mm stainless steel, 18 g dose",
+        "Milk frothing": "Automatic steam wand: 3 milk temperatures, 3 texture levels, auto purge; manual mode too",
+        "Steam temperature": "266°F (130°C)",
+        "Hot water": "Through the steam wand",
+        "Pressure gauge": "Not listed",
+        "Low-water detection": "Yes",
+        "Water tank": "64 fl oz (about 1.9 L)",
+        "Milk jug included": "16 fl oz (480 ml) stainless steel",
+        "Power": "1,560 W, 110–120 V",
+        "Dimensions (as listed by Breville)": "11.9 x 7.4 x 14.3 in on the product page; 7.7 x 12.6 x 12.2 in (W x D x H) on its grinder-bundle page",
+        "Weight": "10.91 lb (4.95 kg)",
+        "US warranty": "2-year limited"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Spec",
+      "Barista Express (BES870XL)",
+      "Bambino Plus (BES500)",
+      "Bambino (BES450), for reference"
+    ],
+    "rows": [
+      [
+        "Built-in grinder",
+        "Yes, conical burr, 16 settings",
+        "No",
+        "No"
+      ],
+      [
+        "Bean hopper",
+        "1/2 lb",
+        "—",
+        "—"
+      ],
+      [
+        "Heating system",
+        "Thermocoil + PID",
+        "ThermoJet + PID",
+        "ThermoJet + PID"
+      ],
+      [
+        "Heat-up (Breville)",
+        "Not listed",
+        "3 seconds",
+        "3 seconds"
+      ],
+      [
+        "Milk frothing",
+        "Manual steam wand",
+        "Automatic (3 temperatures, 3 textures) or manual",
+        "Manual steam wand"
+      ],
+      [
+        "Hot water",
+        "Dedicated outlet",
+        "Via steam wand",
+        "Hot water button"
+      ],
+      [
+        "Pressure gauge",
+        "Yes",
+        "Not listed",
+        "Not listed"
+      ],
+      [
+        "Brew temperature",
+        "200°F, adjustable ±4°F",
+        "No setting listed",
+        "No setting listed"
+      ],
+      [
+        "Pump and pre-infusion",
+        "15 bar pump, 9 bar extraction",
+        "15 bar pump, 9 bar extraction",
+        "15 bar pump, 9 bar extraction"
+      ],
+      [
+        "Portafilter",
+        "54 mm, 18 g dose",
+        "54 mm, 18 g dose",
+        "54 mm, 18 g dose"
+      ],
+      [
+        "Water tank",
+        "67 fl oz",
+        "64 fl oz",
+        "47 fl oz"
+      ],
+      [
+        "Power",
+        "1,600 W, 110–120 V",
+        "1,560 W, 110–120 V",
+        "1,560 W, 110–120 V"
+      ],
+      [
+        "Weight",
+        "22.09 lb",
+        "10.91 lb",
+        "10.42 lb"
+      ],
+      [
+        "Dimensions (as listed)",
+        "15.9 x 13.1 x 12.4 in",
+        "11.9 x 7.4 x 14.3 in (product page); 7.7 x 12.6 x 12.2 in (bundle page)",
+        "11.9 x 6.1 x 13.5 in"
+      ],
+      [
+        "US warranty",
+        "1-year limited",
+        "2-year limited",
+        "1-year limited"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Grinder in the box",
+      "weight": 40,
+      "explanation": "Espresso needs fresh beans ground fine and consistently, so a machine without a grinder is only half a setup. We check whether a burr grinder is built in, its burr type, grind settings and hopper size on Breville's US spec sheets. The Barista Express wins outright; if you already own an espresso grinder, this criterion stops separating the two."
+    },
+    {
+      "name": "Milk frothing",
+      "weight": 20,
+      "explanation": "Most home espresso drinkers make lattes and cappuccinos. We compare automatic vs. manual steam wands, milk temperature and texture settings, and how much skill each one takes, from Breville's specs and independent reviews. The Bambino Plus wins."
+    },
+    {
+      "name": "Shot control and feedback",
+      "weight": 15,
+      "explanation": "A pressure gauge and adjustable brew temperature help you dial in a new bag of beans; both machines let you run pre-infusion and stop the shot by hand. We compare the controls listed by Breville and described in the US manuals. The Barista Express wins."
+    },
+    {
+      "name": "Heat-up and workflow",
+      "weight": 10,
+      "explanation": "How long you wait between switching on and pulling a shot, and how quickly the machine moves from brewing to steam. We compare Breville's heat-up claims with what independent reviewers reported. The Bambino Plus wins."
+    },
+    {
+      "name": "Footprint and weight",
+      "weight": 10,
+      "explanation": "Counter space is tight in many kitchens, and a heavy machine is harder to slide out for refills. We compare Breville's listed dimensions and weights. The Bambino Plus wins."
+    },
+    {
+      "name": "Warranty and upkeep",
+      "weight": 5,
+      "explanation": "We compare the US warranty length, low-water detection and routine maintenance (water filter, cleaning and descaling) from Breville’s product pages and manuals. The Bambino Plus wins on warranty and its low-water sensor."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "The verdict in three lines",
+      "html": "<ul><li><strong>Choose the Barista Express</strong> if you don't own an espresso grinder and want one machine that grinds, doses and brews, with a pressure gauge and a separate hot water outlet.</li><li><strong>Choose the Bambino Plus</strong> if you already have a good burr grinder (or plan to buy one), make mostly lattes and cappuccinos, or need a narrow, light machine that's ready in seconds.</li><li><strong>Consider the regular Bambino</strong> if you like the Bambino Plus's size and speed, don't mind steaming milk by hand and can live with a smaller 47 fl oz tank.</li></ul>"
+    },
+    {
+      "h2": "Built-in grinder vs. no grinder: the difference that decides it",
+      "html": "<p>Espresso needs a fine, consistent grind from fresh beans, so the grinder matters as much as the machine. The Barista Express has one built in: steel conical burrs, 16 grind settings and a 1/2 lb bean hopper on top. It grinds straight into the portafilter, and a grind-amount dial sets the dose. Breville's manual also describes an adjustable upper burr that extends the grind range when a coffee needs it.</p><p>The Bambino Plus has no grinder. To use fresh beans, you need a separate burr grinder that goes fine enough for espresso, plus room for it next to the machine. Breville also sells the Bambino Plus in a bundle with the Baratza Encore ESP grinder, which has 40 grind settings, 1 to 20 of them for espresso.</p><p>Both machines include single-wall and dual-wall filter baskets. The dual-wall baskets are made for pre-ground coffee, so either one can pull a shot from a bag of store-bought espresso grind. It's an easy way to start, but you give up the control that makes these machines worth buying.</p><p><strong>Bottom line:</strong> starting from zero, the Express is the simpler, more complete purchase. If you already own an espresso-capable grinder, its biggest advantage disappears.</p>"
+    },
+    {
+      "h2": "Heat-up: 3 seconds vs. a minute or two",
+      "html": "<p>Breville says the Bambino Plus's ThermoJet heating system reaches extraction temperature in 3 seconds, and Tom's Guide's reviewer found it switched quickly between brewing and steaming. The Barista Express uses a Thermocoil heater with PID temperature control. Breville doesn't list a heat-up time for it, and Tom's Guide advised giving it a minute or two to warm up before the first shot.</p><p>A fast heater doesn't mean a warm portafilter. On the regular Bambino, which uses the same ThermoJet system, CoffeeGeek's Mark Prince ran two blank shots to warm things up and pulled his first real shot about 3 minutes after switching on. Plan on a quick flush and a warm cup with either machine.</p><p>If you leave the Express on, its manual says it drops into sleep mode after 1 hour and switches off after 3 hours.</p>"
+    },
+    {
+      "h2": "Milk frothing: hands-free vs. learning the wand",
+      "html": "<p>This is where the Bambino Plus earns its name. Its automatic steam wand reads the milk temperature through a sensor under the jug, textures the milk on its own and stops at the setting you chose: three milk temperatures and three texture levels, from silky latte milk to thicker cappuccino foam. It purges the wand automatically afterward, and you can still steam by hand when you want to pour latte art. Breville rates its steam at 266°F.</p><p>The Barista Express has a conventional manual steam wand, run from a dial. Tom's Guide found it excellent at steaming milk, but its reviewer also said it took a while to master, and nothing stops the wand for you. The same dial runs the Express's separate hot water outlet; on the Bambino Plus, hot water comes out of the steam wand.</p><p>Neither machine brews and steams at the same time. Each has a single heating system, so you pull the shot first, then steam. The Bambino Plus switches over fast; the Express needs a short wait while its light flashes and it heats up for steam.</p>"
+    },
+    {
+      "h2": "Shot control: what the Express adds",
+      "html": "<p>Both machines share the same core: a 54 mm portafilter dosed with 18 g of coffee, a 15 bar Italian pump, low-pressure pre-infusion followed by 9 bar extraction, PID temperature control, one-touch single and double shots, and manual control: hold a shot button for as long as you want pre-infusion, then press it again to stop the shot.</p><p>The Express adds two things that help when you dial in a new bag of beans:</p><ul><li><strong>A pressure gauge</strong> on the front, so you can see whether your grind and dose are in range.</li><li><strong>Adjustable brew temperature</strong>: 200°F by default, up or down by 4°F in 2°F steps, according to the US manual.</li></ul><p>The Bambino Plus keeps things simpler: Breville lists no gauge and no brew temperature setting. Tom's Guide's reviewer still singled out its adjustable pre-infusion as the feature that gave the most control over the shot.</p>"
+    },
+    {
+      "h2": "Footprint and weight",
+      "html": "<p>The Bambino Plus is the small one. Breville lists it at 10.91 lb, about half the Express's 22.09 lb, and its grinder-bundle page gives it as 7.7 inches wide. Breville's two US listings give different figures for its other measurements, so check your space against both sets in the table.</p><p>The Express lists at 15.9 x 13.1 x 12.4 in, with the bean hopper on top and the water tank at the back. Tom's Guide pointed out that the tank can be hard to lift out under an overhanging cabinet, so check the clearance under your upper cabinets before you buy.</p><p>Remember the grinder, too. Pairing the Bambino Plus with a separate grinder takes up more counter than the machine alone; Breville lists the Baratza Encore ESP at 5.1 x 5.9 x 13.4 in.</p>"
+    },
+    {
+      "h2": "Upkeep, running costs and warranty",
+      "html": "<ul><li><strong>Warranty:</strong> Breville's US pages list a 2-year limited warranty for the Bambino Plus and a 1-year limited warranty for the Barista Express and the regular Bambino.</li><li><strong>Water:</strong> the Bambino Plus detects when the tank runs low. The Express has no low-water warning, as Tom's Guide and CoffeeGeek both noted, so keep an eye on its tank.</li><li><strong>Filters and cleaning:</strong> the Express comes with a water filter holder and a replaceable filter that Breville says to change every 2 months, plus cleaning tablets and descale powder. Both manuals walk you through a cleaning cycle and a descale cycle. The Express has a Clean/Descale light; the Bambino Plus flashes its buttons when it's due for either, and it counts 200 shots between cleaning cycles.</li><li><strong>Grinder care:</strong> on the Express, the burrs come out for cleaning, and the manual warns against grinding green or under-roasted beans.</li><li><strong>Electricity:</strong> Breville rates the Express at 1,600 W and the Bambino Plus at 1,560 W. It publishes no annual energy figure for either, so we don't estimate one. It does say ThermoJet uses up to 32% less energy a year than a Thermoblock heater, based on its own November 2022 benchmark, not a comparison with the Express.</li></ul>"
+    },
+    {
+      "h2": "What about the regular Bambino?",
+      "html": "<p>The Bambino (BES450) is the Bambino Plus without automatic milk. It keeps the 3-second ThermoJet heater, the 54 mm portafilter and the same pump and pre-infusion, and it adds a dedicated hot water button. In exchange you get a manual steam wand, a smaller 47 fl oz tank, a 1-year US warranty and no low-water sensor, which CoffeeGeek flagged in its first look.</p><p>It makes sense if you want the smallest, quickest Breville and you're happy to learn manual steaming. Like the Bambino Plus, it needs a separate grinder for fresh beans.</p>"
+    },
+    {
+      "h2": "Why this ranking",
+      "html": "<p>We weigh six criteria. The Barista Express wins <strong>grinder in the box</strong> (40%) and <strong>shot control and feedback</strong> (15%), for 55% of the total. The Bambino Plus wins <strong>milk frothing</strong> (20%), <strong>heat-up and workflow</strong> (10%), <strong>footprint and weight</strong> (10%) and <strong>warranty and upkeep</strong> (5%), for 45%.</p><p>The grinder carries the most weight because without one, the Bambino Plus can't make espresso from fresh beans. That's why the Express ranks first for most buyers. If you already own a good espresso grinder, take that criterion out and the Bambino Plus comes out ahead.</p><p>We don't test machines ourselves. This ranking compares Breville's US spec sheets and manuals with independent reviews, all checked on November 1, 2026.</p>"
+    },
+    {
+      "h2": "The bottom line",
+      "html": "<p><strong>Barista Express</strong> for an all-in-one setup that teaches you to dial in shots and steam milk by hand. <strong>Bambino Plus</strong> for fast, hands-free lattes in a small space, as long as you pair it with a real espresso grinder. Either way, budget for fresh beans: both machines are only as good as the coffee you put in them.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is the Barista Express better than the Bambino Plus?",
+      "a": "It's more complete, not better at everything. The Express includes a burr grinder, a pressure gauge, adjustable brew temperature and a dedicated hot water outlet. The Bambino Plus heats up in 3 seconds, steams milk automatically, weighs about half as much and carries a 2-year US warranty instead of 1 year. If you don't have a grinder at home, the Express is the better buy."
+    },
+    {
+      "q": "Do I need a grinder for the Breville Bambino Plus?",
+      "a": "For fresh beans, yes. It has no built-in grinder, so you need a burr grinder that grinds fine enough for espresso; Breville sells it in a bundle with the Baratza Encore ESP. You can also use pre-ground coffee in the included dual-wall baskets, but you give up control over the grind."
+    },
+    {
+      "q": "Can you use pre-ground coffee in the Barista Express?",
+      "a": "Yes. Breville's manual says the dual-wall filter baskets are for pre-ground coffee. You'd be skipping the machine's main feature, though. If you'll only ever use pre-ground coffee, a Bambino or Bambino Plus makes more sense."
+    },
+    {
+      "q": "Which heats up faster, the Barista Express or the Bambino?",
+      "a": "The Bambino and Bambino Plus. Breville says their ThermoJet system reaches extraction temperature in 3 seconds. It lists no heat-up time for the Express, and Tom's Guide suggested giving it a minute or two. On all three, warm the portafilter with a blank shot or a flush of hot water before your first shot."
+    },
+    {
+      "q": "What's the difference between the Bambino and the Bambino Plus?",
+      "a": "The Bambino Plus adds an automatic steam wand with three milk temperatures and three texture levels, a bigger 64 fl oz tank (vs. 47 fl oz), a low-water sensor and a 2-year US warranty (vs. 1 year). The regular Bambino has a manual steam wand and a dedicated hot water button. Both use a 54 mm portafilter and ThermoJet heating."
+    },
+    {
+      "q": "Can either machine brew and steam at the same time?",
+      "a": "No. Each has a single heating system (Thermocoil in the Express, ThermoJet in the Bambino Plus), so you pull the shot, then steam the milk. The Bambino Plus switches over quickly; the Express needs a short wait while it heats up for steam."
+    },
+    {
+      "q": "How often should I descale these machines?",
+      "a": "Let the machine and your water guide you. The Express has a Clean/Descale light that comes on when a cycle is due, the Bambino Plus flashes its buttons to tell you, and both manuals walk you through a descale cycle. Hard water means more frequent descaling; the Express's replaceable water filter, which Breville says to change every 2 months, helps reduce scale."
+    },
+    {
+      "q": "Will the Barista Express fit under my kitchen cabinets?",
+      "a": "Measure first. Breville lists it at 15.9 x 13.1 x 12.4 in, with the bean hopper on top, and the water tank lifts out the back, which Tom's Guide said could be hard to do under an overhanging cabinet. The Bambino Plus weighs about half as much (10.91 lb vs. 22.09 lb), so it's easier to slide forward for refills."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Tom's Guide (Barista Express review)",
+      "url": "https://www.tomsguide.com/reviews/breville-barista-express-espresso-machine",
+      "note": "Review by Mike Prospero, published April 3, 2023: praised consistent shots and milk frothing, listed no low-water warning and fingerprints on the finish as drawbacks, said the machine needs a minute or two to warm up, and pointed buyers on a budget or short on counter space to the Bambino Plus."
+    },
+    {
+      "name": "Tom's Guide (Bambino Plus review)",
+      "url": "https://www.tomsguide.com/reviews/breville-sage-bambino-plus",
+      "note": "Review by Tabitha Baker, published July 14, 2021: highlighted the 3-second heat-up, automatic milk frothing and adjustable pre-infusion; listed the lightweight build and a sometimes fiddly portafilter as drawbacks."
+    },
+    {
+      "name": "CoffeeGeek (Bambino first look)",
+      "url": "https://coffeegeek.com/reviews/firstlooks/breville-bambino-espresso-machine-first-look-review/",
+      "note": "First look by Mark Prince, published June 6, 2024 (updated August 20, 2024), covering the regular Bambino: noted it lacks the Bambino Plus's low-water sensor and auto frothing, said the Barista Express has no low-water sensor either, and described pulling a shot about 3 minutes after switching on, after two blank shots."
+    }
+  ],
+  "sources": [
+    "https://www.breville.com/en-us/product/bes870",
+    "https://www.breville.com/en-us/product/bes500",
+    "https://www.breville.com/en-us/product/bes450",
+    "https://www.breville.com/en-us/product/bep501",
+    "https://assets.breville.com/BES870/BES870_USCM_IB_X26_LR.pdf",
+    "https://assets.breville.com/BES500/BES500_USCM_IB_Y25_LR.pdf",
+    "https://www.tomsguide.com/reviews/breville-barista-express-espresso-machine",
+    "https://www.tomsguide.com/reviews/breville-sage-bambino-plus",
+    "https://coffeegeek.com/reviews/firstlooks/breville-bambino-espresso-machine-first-look-review/"
+  ],
+  "related": [
+    "/us/cuisine-connectee/cafetieres",
+    "/us/guides/probleme/detartrage-clignote",
+    "/us/guides/probleme/pression-faible",
+    "/us/methodologie"
+  ]
+}

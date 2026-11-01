@@ -1,0 +1,210 @@
+{
+  "locale": "us",
+  "type": "news",
+  "slug": "space-heater-recalls",
+  "updated": "2026-11-01",
+  "metaTitle": "Dreo Space Heater Recall: Is Your Space Heater Recalled?",
+  "metaDescription": "Dreo recalled about 338,800 DR-HSH015 space heaters on October 29, 2026. Check the model and date code, get the free replacement, see 2026's other recalls.",
+  "kicker": "Recall news",
+  "h1": "Space Heater Recalls in 2026: Dreo, Vornado and How to Check Yours",
+  "answer": "Check the model number and date code on your heater's label. As of November 1, 2026, the CPSC has announced three space heater recalls this year: Dreo DR-HSH015 heaters made April 2025 through January 2026 (about 338,800, October 29), Vornado SRTH tower heaters (about 255,000, June 4) and Merkury's MI-DHC02 fan heater (about 18,000, June 11). If yours matches, unplug it now.",
+  "picks": [],
+  "comparison": {
+    "columns": [
+      "Recall date",
+      "Heater",
+      "CPSC recall no.",
+      "Units (US)",
+      "Hazard",
+      "Remedy",
+      "Where to look"
+    ],
+    "rows": [
+      [
+        "October 29, 2026",
+        "Dreo DR-HSH015 ceramic space heater (Whole-Room Heater 715), made April 2025–January 2026",
+        "27-054",
+        "About 338,800 (plus about 36,300 in Canada)",
+        "Can overheat and ignite; 17 reports of igniting, 1 burn injury",
+        "Free replacement",
+        "Label on the underside: model DR-HSH015, date code 2025/04–2026/01"
+      ],
+      [
+        "June 11, 2026",
+        "Merkury Innovations Hot + Cool Heating and Cooling Fan, model MI-DHC02",
+        "26-539",
+        "About 18,000",
+        "Can overheat; 2 reports of catching fire, no injuries",
+        "Full refund",
+        "White label on the bottom: MI-DHC02"
+      ],
+      [
+        "June 4, 2026",
+        "Vornado SRTH Small Room Tower Heater",
+        "26-532",
+        "About 255,000 (plus about 8 in Canada)",
+        "Fan blade can detach, leading to overheating; 8 reports of fire",
+        "Full refund",
+        "Silver rating label on the bottom: TYPE SRTH"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Recognized safety listing",
+      "weight": 30,
+      "explanation": "A UL, ETL (Intertek) or CSA mark shows the heater was certified to US safety standards, and Consumer Reports' space heater buying guide (updated October 24, 2025) tells shoppers to look for one. The Govee recall of November 7, 2024 shows why it matters: the CPSC notice says testing found those heaters didn't comply with UL 1278, the voluntary industry safety standard."
+    },
+    {
+      "name": "Tip-over and overheat shutoff",
+      "weight": 25,
+      "explanation": "The heater should switch itself off if it tips over or overheats. NFPA says safety standards requiring automatic tip-over cutoffs likely helped bring US home heating fires down since 2000, and Consumer Reports advises a sensor that shuts the heater off if it overheats."
+    },
+    {
+      "name": "Recall history",
+      "weight": 20,
+      "explanation": "A model with an open CPSC recall doesn't belong on a shortlist. We search the exact model on cpsc.gov and note the date of the check, because recalls like Dreo's cover only certain production months."
+    },
+    {
+      "name": "Thermostat, timer and controls",
+      "weight": 15,
+      "explanation": "A built-in thermostat cycles the heater instead of running it flat out, and a shutoff timer makes it easier to follow the CPSC's advice never to leave a portable heater on while you sleep."
+    },
+    {
+      "name": "Fit for the room and the outlet",
+      "weight": 10,
+      "explanation": "Plug-in electric heaters on a standard 120 V outlet generally top out at 1,500 W, so we compare heat settings and the room size each maker lists rather than headline wattage."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "The Dreo DR-HSH015 recall at a glance",
+      "html": "<p>On <strong>October 29, 2026</strong>, the US Consumer Product Safety Commission (CPSC) announced recall 27-054 for the <strong>Dreo DR-HSH015</strong> space heater, which Dreo's own recall page also calls the Whole-Room Heater 715. Dreo says it is running the recall with both the CPSC and Health Canada.</p><ul><li><strong>The problem:</strong> according to the CPSC, the heaters can overheat and ignite, posing fire and burn hazards.</li><li><strong>How many:</strong> about 338,800 in the US, plus about 36,300 sold in Canada.</li><li><strong>Which units:</strong> only heaters manufactured from April 2025 through January 2026.</li><li><strong>Incidents:</strong> Dreo has received 17 reports of heaters igniting, three with property damage and one with a burn injury to the hand.</li><li><strong>The remedy:</strong> a free replacement heater, not a refund.</li><li><strong>Where it was sold:</strong> Costco stores nationwide and online at Costco.com, Dreo.com, BestBuy.com, Kohls.com, Lowes.com, QVC.com, HomeDepot.com and B2BRenew.com, from September 2025 through October 2026.</li><li><strong>Who's behind it:</strong> the importer is Hesung Innovation Corp, doing business as DREO, of Clifton, New Jersey. The heaters were made in Vietnam.</li></ul>"
+    },
+    {
+      "h2": "How to tell if your Dreo heater is included",
+      "html": "<p>Dreo sells several space heaters, and this recall covers one model and a 10-month production window. Checking takes about a minute.</p><ul><li><strong>Unplug it and turn it over.</strong> The model number and the manufacture date are printed on a label on the underside. Dreo says the same sticker shows the serial number (SN).</li><li><strong>Match the model.</strong> It must read DR-HSH015. According to Dreo, its other heaters and other products aren't part of this recall.</li><li><strong>Read the date code.</strong> It's in YYYY/MM format. Codes 2025/04 through 2026/01 are recalled; a DR-HSH015 with a code outside that window isn't included.</li><li><strong>Know what it looks like.</strong> The CPSC describes a black ceramic electric heater about 11.5 inches wide and 13 inches tall, sold with a remote control, with “DREO” on the front.</li></ul><p>Lost the receipt? Dreo's recall FAQ says you can still take part without it.</p>"
+    },
+    {
+      "h2": "How to get the free Dreo replacement",
+      "html": "<ul><li><strong>Stop using it now.</strong> The CPSC says to stop using the recalled heaters immediately, and Dreo adds that this applies even if yours has been working normally. Unplug it and keep it somewhere safe until you file.</li><li><strong>Register the claim online</strong> at recallrtr.com/spaceheater, Dreo's official registration site, which the Product Recalls link at the top of dreo.com also points to. For help, call 833-820-0887 (8:30 a.m. to 6 p.m. ET, Monday through Friday) or email spaceheater@realtimeresults.net.</li><li><strong>Prepare the photo proof.</strong> Dreo asks for a clear photo that shows the label with the model, date code and serial number, the word “Recall” and a five-digit destruction code written on that label in permanent marker, and the cut power cord.</li><li><strong>Destroy it only as instructed.</strong> The CPSC notice says you'll be asked to unplug the heater and cut its power cord. Write on the label without covering the model, date code or serial number, which must stay readable in the photo.</li><li><strong>Wait for approval.</strong> Dreo reviews each claim and sends a free replacement to approved registrations. It says delivery takes about 10 business days after shipment, depending on your address and carrier.</li></ul><p>Neither Dreo nor the CPSC names the replacement model, and Dreo's recall page gives no deadline to file.</p>"
+    },
+    {
+      "h2": "Vornado SRTH small room tower heater (June 4, 2026)",
+      "html": "<p>Recall 26-532 covers about <strong>255,000 Vornado SRTH small room tower heaters</strong> in the US, plus about eight sold in Canada. The CPSC says the fan blade can detach from the motor shaft. The fan then slows or stops, the heater overheats, and melted internal parts can ignite and breach the enclosure if the thermal cutoff or fuse doesn't activate in time.</p><ul><li><strong>Incidents:</strong> 32 reports of overheating from fan displacement, including eight reports of fire and one of smoke inhalation.</li><li><strong>How to spot it:</strong> a black or white tower about 12.5 inches high and 6 inches in diameter, with low and high heat plus a fan-only setting, “Vornado” printed over a V on the front, and “TYPE SRTH” on the silver rating label on the bottom.</li><li><strong>When and where it was sold:</strong> from August 2013 through May 2026, in stores including Kohl's, Bed Bath &amp; Beyond and ACE Hardware, and online at Vornado.com and Amazon. With nearly 13 years of sales, an SRTH bought long ago may still be in a closet.</li><li><strong>The remedy:</strong> a full refund. Stop using it and contact Vornado at 844-205-7978 (8 a.m. to 5 p.m. CT, Monday through Friday) or at recalls.vornado.com for instructions on sending photos and proof of destruction.</li></ul>"
+    },
+    {
+      "h2": "Merkury Hot + Cool heating and cooling fan (June 11, 2026)",
+      "html": "<p>Recall 26-539 covers about <strong>18,000 Merkury Innovations Hot + Cool Heating and Cooling Fans</strong>, model <strong>MI-DHC02</strong>, a bladeless fan and heater about 13 inches tall. According to the CPSC, it can overheat, posing a fire hazard. Merkury has received two reports of the fan catching fire while plugged in, one with smoke damage to property, and no reports of injuries.</p><ul><li><strong>How to spot it:</strong> the model number MI-DHC02 is on a white label on the bottom and on the packaging.</li><li><strong>Where it was sold:</strong> T.J. Maxx, Marshalls and Sierra stores nationwide, from October 2024 through October 2025.</li><li><strong>The remedy:</strong> a full refund. Merkury asks you to write the date, your initials and “Recalled” on the product in permanent marker, cut the cord, and upload a photo at merkuryinnovations.com/pages/fanrecall. Its recall line is 888-232-3143 (9 a.m. to 6 p.m. ET, Monday through Friday).</li></ul>"
+    },
+    {
+      "h2": "Other heating products recalled in 2026",
+      "html": "<p>Space heaters aren't the only winter-warmth products on the CPSC's 2026 list. If you own one of these, the same rule applies: stop using it and follow the company's instructions.</p><ul><li><strong>JKMAX heated blankets and heating pads</strong> (September 17, 2026): about 195,000, sold on Amazon from September 2022 through July 2026. The internal heating wires can overheat; JKMAX is aware of 577 reports of smoking, melting or burning, including 53 burn injuries. Full refund.</li><li><strong>OCTROT heated sherpa throws and blankets</strong> (July 30, 2026): about 178,000, sold on Amazon from August 2021 through December 2025. The cord can detach and ignite; the firm has 555 reports, including 27 fires and 15 burn or electrical shock injuries. Full refund.</li><li><strong>Rechargeable hand warmers:</strong> OCOOPA (July 30, 2026, about 1.5 million, with one death reported), Kobayashi's HotHands rechargeable warmers (October 1, 2026, about 77,000) and Gobi Heat (October 1, 2026, about 5,500). Their lithium-ion batteries can overheat and ignite. Don't put them in the trash or curbside recycling; follow the disposal steps in each notice.</li><li><strong>VQQQ natural gas patio heaters</strong> (October 22, 2026): about 100 units. Components can malfunction and release gas. Full refund.</li><li><strong>32 Degrees heated socks</strong> (April 23, 2026): about 207,800, sold at Costco and Costco.com from August 2025 through March 2026. Worn during high-intensity activity, they can cause burns; 14 heat-related incidents have been reported, 13 involving first- or second-degree burns. Full refund.</li></ul>"
+    },
+    {
+      "h2": "Earlier heater recalls still worth checking",
+      "html": "<p>A heater recalled a year or two ago can still be in daily use. If yours is older, these recent CPSC recalls are the ones to rule out first.</p><ul><li><strong>Govee and GoveeLife smart space heaters</strong> (November 7, 2024): about 512,500 units, models H7130 (including the H7130101 variation), H7131, H7132, H7133, H7134 and H7135, with the model number on the label underneath. The CPSC says they can overheat and don't comply with the voluntary safety standard UL 1278, with an overheating and fire risk tied to their wireless control features. Refund, at the full purchase price if you have the original order number.</li><li><strong>Vornado VH2 Whole Room Heaters</strong> (January 16, 2025): about 7,780, sold on Amazon. Only units with a JUL24 or AUG24 date code and “TYPE VH2” on the silver rating label underneath are included. The power cord can partially detach from the housing. Replacement.</li><li><strong>Konwin desktop heaters, model BHN2133</strong> (March 13, 2025): about 6,050, sold at Meijer stores in six states. The fan can fail to turn on, so the heater can overheat and ignite. Refund.</li></ul>"
+    },
+    {
+      "h2": "How to check any space heater for a recall",
+      "html": "<ul><li><strong>Find the rating label.</strong> It lists the brand, the model or type and often a date code. On all three space heaters recalled in 2026, it's on the bottom. Snap a photo so you have it on your phone.</li><li><strong>Search the CPSC.</strong> Look up the brand and model at cpsc.gov/Recalls. SaferProducts.gov, also run by the CPSC, lets you search recalls and incident reports and report a problem with your own heater.</li><li><strong>Match the date code, too.</strong> Recalls such as Dreo's DR-HSH015 and Vornado's VH2 cover only certain production months, so the model number alone doesn't settle it.</li><li><strong>Check the brand's recall page.</strong> Dreo's is the Product Recalls link on dreo.com; Vornado's is recalls.vornado.com.</li><li><strong>Bought it online?</strong> Your order history shows the exact model. Amazon also has a Recalls and Product Safety Alerts page, linked at the bottom of its site, which the CPSC's JKMAX notice points owners to.</li><li><strong>In Canada?</strong> Check Health Canada's Recalls and Safety Alerts site. Dreo says its DR-HSH015 recall runs with Health Canada as well.</li></ul>"
+    },
+    {
+      "h2": "Space heater safety: what the CPSC and NFPA say",
+      "html": "<p>The numbers explain why a recall notice deserves a same-day response. In the National Fire Protection Association's analysis of 2016–2020 US fire department data (published December 2022), space heaters were involved in about one-third of home heating equipment fires but nearly nine in ten of the deaths in those fires, and 46% of heating equipment fires happened from December through February. NFPA's August 2025 report ranks heating equipment as the second leading cause of US home fires and home fire deaths from 2019 to 2023, with an average of 65,000 fires and 430 deaths a year. The CPSC estimates that portable heaters, electric space heaters included, were involved in an average of 1,700 fires a year from 2017 to 2019, with 70 deaths and 160 injuries annually.</p><p>The CPSC's winter safety tips (January 5, 2023):</p><ul><li><strong>Give it 3 feet.</strong> Keep a portable heater at least 3 feet from anything that can burn, such as drapes, furniture and bedding.</li><li><strong>Wall outlet only.</strong> Plug an electric space heater directly into a wall outlet, never into an extension cord or power strip, which can overload and start a fire.</li><li><strong>Off when you sleep.</strong> Never leave a portable heater on while you're sleeping.</li><li><strong>Don't leave it running unattended in a small space</strong>, especially near infants or people with reduced physical, sensory or mental abilities. The CPSC warns that hyperthermia can be fatal, and that children, people with disabilities and seniors are especially vulnerable.</li><li><strong>Fuel-burning heaters:</strong> never refuel one while it's running; shut it off and let it cool first.</li></ul><p>Two habits we'd add: register a new heater with its manufacturer so it can reach you if a recall is announced, and keep working smoke alarms on every level of your home.</p>"
+    },
+    {
+      "h2": "What to buy instead",
+      "html": "<p>If you own a recalled Dreo DR-HSH015, you may not need to buy anything: the remedy is a free replacement. Vornado SRTH and Merkury MI-DHC02 owners get refunds instead. If you're shopping for a new heater, these are the points we weigh, in order:</p><ul><li><strong>A listing mark from a recognized lab:</strong> Consumer Reports' buying guide (updated October 24, 2025) advises a label from UL Solutions, ETL (Intertek) or CSA.</li><li><strong>Tip-over and overheat shutoff:</strong> the heater should switch itself off if it's knocked over or overheats.</li><li><strong>A clean recall check:</strong> search the exact model at cpsc.gov/Recalls before you buy, and note the date you checked.</li><li><strong>A thermostat and a shutoff timer:</strong> they keep the heater from running flat out and make it easier to switch off at bedtime.</li><li><strong>The right size:</strong> plug-in heaters on a standard 120 V outlet generally top out at 1,500 W, so compare heat settings and the room size each maker lists.</li></ul><p>Our smart space heater category lists the models we currently cover. Run any heater you're considering, there or elsewhere, through these five points before you buy.</p>"
+    },
+    {
+      "h2": "How we built this page, and update log",
+      "html": "<p>We don't test heaters. This page uses official sources only: CPSC recall notices and the CPSC's public recall database, the companies' own recall pages, and published NFPA research. Every fact carries its date. It covers every space heater recall the CPSC announced from January 1 through November 1, 2026, a selection of other 2026 heating-product recalls and three earlier heater recalls, and we update it when a new heater recall is announced.</p><ul><li><strong>November 1, 2026:</strong> page published after the Dreo DR-HSH015 recall of October 29, 2026; Vornado SRTH, Merkury MI-DHC02 and other 2026 heating recalls added, including the 32 Degrees heated socks; recall details checked against cpsc.gov, dreo.com and the CPSC recall database.</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is my Dreo space heater recalled?",
+      "a": "Only if it's model DR-HSH015 (which Dreo also calls the Whole-Room Heater 715) with a date code from 2025/04 through 2026/01 on the label underneath. Dreo says its other heaters and products aren't part of the recall announced October 29, 2026. It's the only Dreo recall we found in the CPSC's recall database as of November 1, 2026."
+    },
+    {
+      "q": "My Dreo DR-HSH015 has a 2026/02 date code. Is it included?",
+      "a": "No. The CPSC notice says only units manufactured from April 2025 through January 2026 are included, and Dreo lists date codes 2025/04 through 2026/01. If you can't read the label clearly, call Dreo's recall line at 833-820-0887."
+    },
+    {
+      "q": "Do I need a receipt to get the Dreo replacement?",
+      "a": "No. Dreo's recall FAQ says you can take part even if you no longer have the original receipt. You'll still need a clear photo showing the label with the model, date code and serial number, the word “Recall” and a five-digit destruction code written on it in permanent marker, and the cut power cord."
+    },
+    {
+      "q": "Can I get a refund from Dreo instead of a replacement?",
+      "a": "The remedy the CPSC and Dreo list is a free replacement space heater, and neither mentions a refund. If you'd rather have your money back, ask Dreo's recall line at 833-820-0887."
+    },
+    {
+      "q": "Can I keep using my recalled heater until the replacement arrives?",
+      "a": "No. The CPSC says to stop using the recalled heaters immediately, and Dreo says that applies even if the heater seems to work normally. Unplug it and store it safely until you file the claim."
+    },
+    {
+      "q": "How do I find out if my space heater is recalled?",
+      "a": "Find the brand, model and date code on the rating label, then search cpsc.gov/Recalls and the brand's own recall page. As of November 1, 2026, the CPSC has announced three plug-in space heater recalls this year: the Dreo DR-HSH015, the Vornado SRTH and the Merkury MI-DHC02."
+    },
+    {
+      "q": "How do I know if my Vornado heater is part of a recall?",
+      "a": "Check the silver rating label on the bottom. The June 4, 2026 recall covers heaters marked TYPE SRTH, sold from August 2013 through May 2026. A separate January 16, 2025 recall covered VH2 Whole Room Heaters with a JUL24 or AUG24 date code."
+    },
+    {
+      "q": "Is it safe to plug a space heater into a power strip or extension cord?",
+      "a": "No. The CPSC says to plug electric space heaters directly into a wall outlet and never into an extension cord or power strip, to avoid overloading it and starting a fire."
+    },
+    {
+      "q": "Should I sell or give away a recalled space heater?",
+      "a": "No. The CPSC says it's illegal to sell any recalled product, so follow the company's instructions instead. For the Dreo, Vornado and Merkury recalls, claiming the remedy means destroying the heater, typically by cutting the cord, and sending a photo."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Consumer Reports",
+      "url": "https://www.consumerreports.org/appliances/space-heaters/buying-guide/",
+      "note": "Space heater buying guide updated October 24, 2025: advises a label from a recognized testing lab such as UL Solutions, ETL (Intertek) or CSA, a sensor that shuts the heater off if it overheats, and a tip-over shutoff switch, which it calls useful for taller models."
+    },
+    {
+      "name": "National Fire Protection Association (NFPA), Home Heating Fires",
+      "url": "https://content.nfpa.org/-/media/Project/Storefront/Catalog/Files/Research/NFPA-Research/US-Fire-Problem/Fire-causes/osHeating.pdf",
+      "note": "Report by Richard Campbell, December 2022, on 2016–2020 data: space heaters accounted for one-third of home heating equipment fires but nearly nine in ten of the deaths and four in five of the injuries in those fires; 46% of heating equipment fires occurred December through February."
+    },
+    {
+      "name": "National Fire Protection Association (NFPA), Home Structure Fires",
+      "url": "https://content.nfpa.org/-/media/Project/Storefront/Catalog/Files/Research/NFPA-Research/Building-and-life-safety/oshomes.pdf?rev=183253699bd640d5b53cac82abfea79d",
+      "note": "Report by Shelby Hall and Tucker McGree, August 2025, on 2019–2023 data: heating equipment was the second leading cause of US home fires, home fire injuries and home fire deaths, with an average of 65,000 fires, 430 deaths and 1,530 injuries a year."
+    }
+  ],
+  "sources": [
+    "https://www.cpsc.gov/Recalls/2027/DREO-Recalls-DR-HSH015-Space-Heaters-Due-to-Fire-and-Burn-Hazards",
+    "https://www.dreo.com/pages/safety-rc",
+    "https://www.recallrtr.com/spaceheater",
+    "https://www.cpsc.gov/Recalls/2026/Vornado-Air-Recalls-SRTH-Small-Room-Tower-Heaters-Due-to-Fire-Hazard",
+    "https://www.cpsc.gov/Recalls/2026/Merkury-Innovations-Recalls-Hot-Cool-Heating-and-Cooling-Fans-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-Hazard",
+    "https://www.cpsc.gov/Recalls/2026/JKMAX-Recalls-Heated-Blankets-and-Heating-Pads-Due-to-Fire-and-Burn-Hazards",
+    "https://www.cpsc.gov/Recalls/2026/Heated-Sherpa-Throws-and-Blankets-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards-Sold-on-Amazon-by-OCTROT",
+    "https://www.cpsc.gov/Recalls/2026/OCOOPA-Direct-Recalls-1-5-Million-Rechargeable-Hand-Warmers-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards-One-Death-Reported-Imported-by-Shenzhen-Street-Cat-Technology",
+    "https://www.cpsc.gov/Recalls/2027/Kobayashi-Recalls-Rechargeable-Hand-Warmers-Due-to-Risk-of-Serious-Injury-from-Fire-and-Burn-Hazards",
+    "https://www.cpsc.gov/Recalls/2027/Gobi-Heat-Recalls-Rechargeable-Hand-Warmers-Due-to-Risk-of-Serious-Injury-from-Fire-and-Burn-Hazards",
+    "https://www.cpsc.gov/Recalls/2027/VQQQ-Gas-Patio-Heaters-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards",
+    "https://www.cpsc.gov/Recalls/2026/32-Degrees-Recalls-Heated-Socks-Due-to-Burn-Hazard",
+    "https://www.cpsc.gov/Recalls/2025/GoveeLife-and-Govee-Smart-Electric-Space-Heaters-Recalled-Due-to-Fire-and-Burn-Hazards-Imported-by-Govee",
+    "https://www.cpsc.gov/Recalls/2025/Vornado-Air-Recalls-VH2-Whole-Room-Heaters-Due-to-Electric-Shock-and-Fire-Hazards-Sold-Exclusively-on-Amazon-com",
+    "https://www.cpsc.gov/Recalls/2025/Meijer-Recalls-Konwin-Desktop-Heaters-Due-to-Fire-and-Burn-Hazards",
+    "https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallDateStart=2026-01-01&RecallDateEnd=2026-11-01",
+    "https://www.cpsc.gov/Newsroom/News-Releases/2023/CPSC-Warns-Consumers-to-be-Cautious-When-Using-Space-Heaters-Furnaces-and-Fireplaces-This-Winter",
+    "https://www.cpsc.gov/Business--Manufacturing/Business-Education/ResaleThrift-Stores-Information-Center/Stop-Online-Sale-of-Recalled-Products",
+    "https://content.nfpa.org/-/media/Project/Storefront/Catalog/Files/Research/NFPA-Research/US-Fire-Problem/Fire-causes/osHeating.pdf",
+    "https://content.nfpa.org/-/media/Project/Storefront/Catalog/Files/Research/NFPA-Research/Building-and-life-safety/oshomes.pdf?rev=183253699bd640d5b53cac82abfea79d",
+    "https://www.consumerreports.org/appliances/space-heaters/buying-guide/"
+  ],
+  "related": [
+    "/us/confort-air/chauffages-appoint",
+    "/us/guides/probleme/chauffage-appoint-odeur-brulee",
+    "/us/guides/probleme/chauffage-appoint-coupe",
+    "/us/securite-maison/detecteurs-fumee-co",
+    "/us/methodologie"
+  ]
+}

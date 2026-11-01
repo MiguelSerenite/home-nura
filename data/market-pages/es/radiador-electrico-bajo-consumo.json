@@ -1,0 +1,303 @@
+{
+  "locale": "es",
+  "type": "guide",
+  "slug": "radiador-electrico-bajo-consumo",
+  "updated": "2026-11-01",
+  "metaTitle": "Radiador eléctrico de bajo consumo: qué gasta de verdad",
+  "metaDescription": "Emisor térmico, aceite o calefactor: cuánto cuesta cada hora con el kWh a 0,25 € (Eurostat, 1.er semestre de 2026) y 3 modelos que controlan el gasto.",
+  "kicker": "Guía de compra · Calefacción y consumo",
+  "h1": "Radiador eléctrico de bajo consumo: qué significa de verdad y cuál elegir",
+  "answer": "Ningún radiador eléctrico da más calor del que gasta: todos rinden cerca del 100 % y la potencia marca el gasto máximo. Con el kWh a 0,25 € (Eurostat, primer semestre de 2026), 1000 W cuestan como mucho 0,25 € por hora. Lo que ahorra es el control: elegimos el emisor Orbegozo RRW 1000, el radiador de aceite Taurus Agadir 2000 y, para ratos cortos, el calefactor Taurus Tropicano 2000.",
+  "picks": [
+    {
+      "brand": "Orbegozo",
+      "model": "RRW 1000 (emisor térmico wifi)",
+      "role": "Nuestra elección · Emisor térmico",
+      "why": "Es el único de los tres cuyo manual marca control electrónico con programación semanal, detección de ventanas abiertas y control a distancia: justo lo que evita calentar una habitación vacía o con la ventana abierta. Con 1000 W, consume como máximo 1 kWh por hora.",
+      "bestFor": "Dormitorios y salones pequeños que se calientan a diario a horas fijas, colgado en la pared o sobre sus patas",
+      "asin": "B09DQ6BWXD",
+      "manufacturerUrl": "https://orbegozo.com/productos/calefaccion/emisores-termicos/emisor-termico-wifi-rrw-1000/",
+      "specs": {
+        "Tipo": "emisor térmico seco (sin aceite), cuerpo de aluminio, 6 elementos",
+        "Potencia": "1000 W, con dos niveles de potencia",
+        "Control": "termostato electrónico; programación diaria y semanal en franjas de una hora",
+        "Modos": "confort, eco y antihielo; Auto-Efficient System (ajusta la potencia según la temperatura ambiente)",
+        "Detección de ventanas abiertas": "sí",
+        "Rango de temperatura": "7 °C – 35 °C",
+        "Mando": "wifi con Orbegozo App (Alexa y Google Assistant), mando a distancia y panel táctil",
+        "Consumo en espera (manual)": "0,8 W",
+        "Instalación": "pared o suelo, soporte incluido",
+        "Seguridad": "limitador térmico, bloqueo infantil, interruptor de desconexión total",
+        "Medidas (ancho × alto × fondo)": "56,5 × 59 × 7,5 cm"
+      }
+    },
+    {
+      "brand": "Taurus",
+      "model": "Agadir 2000",
+      "role": "Alternativa · Radiador de aceite",
+      "why": "Termostato electrónico de 5 a 35 °C, temporizador de 1 a 24 horas y modo Eco, con una potencia mínima declarada de 0,8 kW: cuando la habitación ya está caliente, puede trabajar muy por debajo de sus 2000 W. Como todo radiador de aceite, tarda en calentar, pero reparte un calor suave y se mueve sobre ruedas.",
+      "bestFor": "Salones y estancias de hasta 20 m² (dato de Taurus) en los que pasas muchas horas y quieres un calor suave y silencioso; su manual advierte de que no hay que quedarse dormido con él encendido",
+      "asin": "B075H49K24",
+      "manufacturerUrl": "https://taurus-home.com/products/agadir-2000",
+      "specs": {
+        "Tipo": "radiador de aceite, 9 elementos",
+        "Potencia máxima (Pnom)": "2000 W",
+        "Potencia mínima indicativa (Pmin, manual)": "0,8 kW",
+        "Niveles de potencia": "3 (H1, H2 y H3)",
+        "Control": "termostato electrónico con pantalla digital, de 5 °C a 35 °C",
+        "Temporizador": "de 1 a 24 horas",
+        "Modo Eco": "sí; modo anticongelante por debajo de 5 °C",
+        "Superficie recomendada por Taurus": "hasta 20 m²",
+        "Consumo en espera (manual)": "0,7 W",
+        "Seguridad": "protector térmico de seguridad",
+        "Movilidad": "4 ruedas multidireccionales"
+      }
+    },
+    {
+      "brand": "Taurus",
+      "model": "Tropicano 2000 (FH2004)",
+      "role": "Económico · Calefactor para ratos cortos",
+      "why": "Calienta en pocos minutos y su manual declara 1 kW en el nivel bajo y hasta 2 kW en el alto, con termostato mecánico, antivuelco y protector térmico. A plena potencia consume 2 kWh por hora: tiene sentido para 15–30 minutos, no para toda la tarde.",
+      "bestFor": "Calor rápido en un despacho o en el salón al llegar a casa; no junto a la bañera ni la ducha",
+      "asin": "B0HLL8QH9H",
+      "manufacturerUrl": "https://taurus-home.com/products/tropicano-2000",
+      "specs": {
+        "Tipo": "calefactor (termoventilador)",
+        "Potencia calorífica nominal (Pnom, manual)": "1,8–2,0 kW",
+        "Potencia mínima indicativa (Pmin, manual)": "1,0 kW",
+        "Modos": "2 de calor y solo ventilador",
+        "Control": "termostato mecánico ajustable",
+        "Superficie recomendada por Taurus": "hasta 20 m²",
+        "Consumo apagado e inactivo (manual)": "0,00 W",
+        "Seguridad": "protector térmico de seguridad y antivuelco",
+        "Transporte": "asa"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Modelo",
+      "Tipo",
+      "Potencia máx.",
+      "Potencia mín. o niveles",
+      "Control (según ficha o manual)",
+      "Consumo máx. por hora",
+      "Superficie declarada"
+    ],
+    "rows": [
+      [
+        "Orbegozo RRW 1000",
+        "Emisor térmico seco",
+        "1000 W",
+        "2 niveles",
+        "Electrónico, programación semanal, ventana abierta, wifi",
+        "1 kWh",
+        "Según el clima (tabla de Orbegozo)"
+      ],
+      [
+        "Orbegozo RRW 1500",
+        "Emisor térmico seco",
+        "1500 W",
+        "2 niveles",
+        "Electrónico, programación semanal, ventana abierta, wifi",
+        "1,5 kWh",
+        "Según el clima (tabla de Orbegozo)"
+      ],
+      [
+        "Cecotec ReadyWarm 1800 Thermal Connected",
+        "Emisor térmico seco",
+        "1200 W",
+        "No declarada",
+        "Termostato de 5 a 40 °C, temporizador programable, wifi",
+        "1,2 kWh",
+        "15 m²"
+      ],
+      [
+        "Taurus Agadir 2000",
+        "Radiador de aceite",
+        "2000 W",
+        "0,8 kW (3 niveles)",
+        "Electrónico de 5 a 35 °C, temporizador de 1 a 24 h, modo Eco",
+        "2 kWh",
+        "Hasta 20 m²"
+      ],
+      [
+        "Orbegozo RF 2000",
+        "Radiador de aceite",
+        "2000 W",
+        "800 / 1200 / 2000 W",
+        "Termostato mecánico",
+        "2 kWh",
+        "No declarada"
+      ],
+      [
+        "Taurus Tropicano 2000",
+        "Calefactor (termoventilador)",
+        "2000 W",
+        "1,0 kW (2 niveles)",
+        "Termostato mecánico",
+        "2 kWh",
+        "Hasta 20 m²"
+      ],
+      [
+        "Taurus Tropicano 7CR",
+        "Calefactor cerámico PTC oscilante",
+        "1500 W",
+        "2 intensidades",
+        "Termostato regulable",
+        "1,5 kWh",
+        "Hasta 20 m²"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Control del consumo",
+      "weight": 35,
+      "explanation": "Es lo que de verdad ahorra: termostato electrónico, programación diaria o semanal, modo eco y detección de ventana abierta evitan calentar de más o a deshoras. Lo leemos en la tabla de diseño ecológico del manual, la parte que el fabricante está obligado a declarar."
+    },
+    {
+      "name": "Potencia adecuada y regulable",
+      "weight": 25,
+      "explanation": "La potencia es el techo de gasto por hora. Valoramos que encaje con la habitación (la OCU calcula unos 10 a 15 m² por cada 1000 W) y que el fabricante declare un nivel bajo (Pmin) para trabajar por debajo del máximo."
+    },
+    {
+      "name": "Encaje con el uso",
+      "weight": 20,
+      "explanation": "Horas al día, rapidez, ruido e inercia: un calefactor sirve para ratos cortos, un emisor programable para el uso diario y un radiador de aceite para un calor suave durante muchas horas. Partimos de lo que la OCU describe para cada tipo."
+    },
+    {
+      "name": "Transparencia de la ficha",
+      "weight": 10,
+      "explanation": "Premiamos fichas y manuales completos y coherentes entre sí: vatios por nivel, superficie recomendada, tipo de control y consumo en espera."
+    },
+    {
+      "name": "Seguridad declarada",
+      "weight": 10,
+      "explanation": "Protección contra sobrecalentamiento, antivuelco en los aparatos de suelo, bloqueo infantil y, para el baño, grado de protección IP. Solo contamos lo que declara el fabricante."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "«Bajo consumo»: lo que promete la etiqueta y lo que dice la física",
+      "html": "<p>Un radiador eléctrico convierte en calor prácticamente toda la electricidad que gasta. La OCU lo resume diciendo que calefactores, convectores, radiadores y estufas eléctricas tienen «más o menos, el mismo rendimiento, cerca del 100 %». No hay, por tanto, ningún emisor que saque 1,5 kWh de calor de 1 kWh de luz.</p><p>Por eso <strong>la potencia manda</strong>: los vatios son el gasto máximo por hora. Un aparato de 1000 W consume como mucho 1 kWh cada hora; uno de 2000 W, 2 kWh. Da igual que la caja diga «bajo consumo», una etiqueta que verás en las tiendas hasta en calefactores de 2000 W.</p><p>Lo que sí cambia la factura es cuánto rato pasa la resistencia encendida, y eso depende de tres cosas: la temperatura que pides (el IDAE calcula que cada grado de más sube el consumo un 7 %), lo que pierde la habitación (aislamiento, ventanas, puertas abiertas) y la precisión con la que el aparato corta. Un termostato electrónico con programación ahorra porque no calienta de más ni a deshoras; con uno mecánico, el ajuste es más aproximado.</p><p>El único aparato eléctrico que da más calor del que consume es la <strong>bomba de calor</strong>, es decir, el aire acondicionado con modo calor. Con sus propios supuestos, la OCU le calculaba menos de la mitad de gasto por hora que a un calefactor. Si ya tienes un split con bomba de calor, úsalo antes que cualquier radiador.</p>"
+    },
+    {
+      "h2": "Cuánto cuesta cada hora: el precio del kWh que usamos",
+      "html": "<p>Usamos <strong>0,25 €/kWh</strong>: es la media de Eurostat para los hogares españoles que consumen de 2500 a 4999 kWh al año, con todos los impuestos, en el <strong>primer semestre de 2026</strong> (0,2509 €/kWh; datos publicados el 19 de octubre de 2026). Esa media reparte también la parte fija de la factura, así que cada kWh de más que gasta un radiador puede salirte algo más barato. Para tu caso, multiplica la potencia en kW por las horas y por el precio de la energía de tu factura, con impuestos.</p><ul><li>500 W: 0,13 € por hora a plena potencia</li><li>1000 W: 0,25 €</li><li>1200 W: 0,30 €</li><li>1500 W: 0,38 €</li><li>2000 W: 0,50 €</li><li>2500 W: 0,63 €</li></ul><p><strong>Ejemplo de una tarde:</strong> 5 horas con un emisor de 1000 W cuestan como máximo 1,25 € (5 kWh); en un mes de 30 días, 37,50 € (150 kWh) si la resistencia no se apagara nunca durante esas horas. Si el termostato lo mantiene encendido la mitad del tiempo (supuesto nuestro: depende de la casa y del frío que haga), la cifra baja a unos 18,75 €. Un calefactor de 2000 W encendido 20 minutos al día gasta unos 0,67 kWh: unos 0,17 € al día y unos 5 € al mes.</p><p>Ojo con la idea de que «el de 2000 W gasta el doble». En la misma habitación y a la misma temperatura, un aparato más potente llega antes y después se enciende menos rato. La potencia fija el techo de gasto por hora; lo que pierde tu casa y los grados que pidas fijan el gasto real. Lo que no debe pasar es lo contrario: un aparato que se queda corto trabaja siempre a tope y nunca llega a la temperatura.</p><p>Si tienes la tarifa regulada (PVPC), la hora también cuenta. Según los precios horarios que publica Red Eléctrica, en octubre de 2026 la franja de 19:00 a 22:00 costó de media unas cinco veces más que la de 14:00 a 16:00: unos 0,33 frente a 0,065 €/kWh, antes de impuestos (cálculo nuestro con los datos de Red Eléctrica). Con una tarifa de precio fijo, la hora no cambia nada.</p>"
+    },
+    {
+      "h2": "Emisor térmico, radiador de aceite o calefactor: cuál para qué",
+      "html": "<ul><li><strong>Emisor térmico</strong>: cuerpo de aluminio con una resistencia dentro, sin aceite en los modelos «secos» como el Orbegozo RRW o el Cecotec ReadyWarm Thermal. Calienta y se enfría deprisa, se cuelga en la pared o va sobre patas, y es donde más se encuentran termostatos electrónicos, programación semanal y wifi. Es el más indicado para estancias que se usan a diario a horas fijas.</li><li><strong>Radiador de aceite</strong>: el aceite interior se calienta y reparte el calor de forma suave. La OCU lo describe como silencioso, preparado para funcionar largo rato y lento en calentar; además, es grande y pesado, y sus partes accesibles se calientan mucho. Aunque lleve ruedas, para calentar varias habitaciones la OCU considera más cómodo tener varios. Encaja en estancias en las que pasas muchas horas seguidas, como el salón.</li><li><strong>Calefactor (termoventilador)</strong>: una resistencia y un ventilador. Es el más rápido y el tipo más barato de comprar, pero la OCU lo desaconseja para muchas horas seguidas y, en su laboratorio, los termoventiladores rara vez bajan de 50 dBA. Sirve para ratos cortos: el despacho a primera hora o el salón al llegar a casa.</li><li><strong>¿Y el baño?</strong> La OCU aconseja un grado de protección IP21 o superior. Los calefactores de sobremesa sin grado IP, como el Tropicano 2000, advierten en su manual que no deben usarse junto a la bañera, la ducha o la piscina.</li></ul><p>A igual potencia y con el mismo tiempo encendidos, los tres consumen lo mismo. La diferencia está en cómo reparten el calor y, sobre todo, en lo bien que se controlan.</p>"
+    },
+    {
+      "h2": "Cómo saber en dos minutos si un radiador te ayudará a gastar menos",
+      "html": "<p>La normativa europea de diseño ecológico obliga a publicar en el manual una tabla técnica con las potencias y el tipo de control. Es el dato más honesto de la caja y casi nunca aparece en el anuncio. Fíjate en tres cosas:</p><ul><li><strong>Potencia calorífica nominal (Pnom) y mínima (Pmin)</strong>: el gasto máximo por hora y el mínimo con el que puede trabajar. El Taurus Agadir 2000 declara 2,0 y 0,8 kW; el Tropicano 2000, de 1,8 a 2,0 kW y 1,0 kW.</li><li><strong>Tipo de control</strong>: de menos a más ahorro, termostato mecánico, control electrónico, electrónico con temporizador diario y electrónico con temporizador semanal. El Tropicano 2000 marca termostato mecánico; el Agadir 2000, temporizador diario; el Orbegozo RRW 1000, temporizador semanal, además de detección de ventanas abiertas y control a distancia.</li><li><strong>El nombre no es la potencia</strong>: el Cecotec ReadyWarm 1800 Thermal Connected tiene 1200 W, según su ficha. Mira siempre los vatios.</li></ul><p>Verás también un aviso que se repite en los manuales del Orbegozo RRW, del Taurus Agadir y del Tropicano, y en la ficha de Cecotec: el aparato está indicado solo para lugares bien aislados (o «abrigados») o para un uso puntual. Tómalo al pie de la letra: son aparatos de apoyo, no la calefacción de toda la casa.</p>"
+    },
+    {
+      "h2": "Qué potencia elegir según la habitación",
+      "html": "<p>La OCU calcula que 1000 W calientan unos 10 a 15 m². Los fabricantes dan cifras parecidas o más generosas: Cecotec declara 15 m² para su emisor de 1200 W y Taurus, hasta 20 m² para el Agadir 2000 y el Tropicano 2000. Orbegozo pide además tener en cuenta el clima de tu zona, y con razón: no es lo mismo un piso en Cádiz que uno en Burgos. Como orientación:</p><ul><li>Hasta unos 10 m² (dormitorio pequeño, despacho): de 800 a 1000 W.</li><li>De 10 a 15 m²: de 1000 a 1500 W.</li><li>De 15 a 20 m²: de 1500 a 2000 W, o dos aparatos más pequeños.</li><li>Casa mal aislada o zona fría: un escalón más de potencia y, mejor todavía, tapar antes las fugas de calor.</li></ul><p>Pasarse de potencia no multiplica el gasto si el termostato es bueno, pero con un control mecánico es más fácil que la habitación acabe más caliente de lo que querías. Quedarse corto es peor: el aparato no para nunca.</p>"
+    },
+    {
+      "h2": "Qué dice la OCU de los radiadores eléctricos",
+      "html": "<p>La OCU no publica una clasificación de «radiadores de bajo consumo», y lo que sí publica va en la línea de esta guía:</p><ul><li>Todos los aparatos eléctricos de resistencia rinden casi igual, cerca del 100 % (artículo del 9 de diciembre de 2021).</li><li>Con sus supuestos de entonces (máxima potencia durante una hora, con una potencia distinta para cada aparato), estimaba 0,46 € por hora para calefactores y convectores, 0,575 € para un radiador de aceite y 0,196 € para una bomba de calor. Son cifras de 2021: sirven para comparar tipos, no como precio actual.</li><li>En su guía de compra recomienda un termostato eficaz, usar estos aparatos como complemento y durante periodos cortos, y elegir IP21 o superior para el baño.</li><li>En su laboratorio, los calefactores se puntúan sobre todo por la estabilidad y el reparto del calor (36 %) y por el tiempo de calentamiento (28 %), además del ruido, el manejo y las instrucciones; la seguridad es eliminatoria.</li></ul>"
+    },
+    {
+      "h2": "Siete gestos que bajan la factura",
+      "html": "<ul><li>Termostato a 20–21 °C cuando estás en casa; para dormir, el IDAE considera suficientes 15–17 °C, o apagar.</li><li>Usa la programación del propio aparato para que arranque un poco antes de llegar, en lugar de ponerlo a tope al entrar.</li><li>Cierra la puerta de la habitación que calientas y baja persianas y corre cortinas al anochecer.</li><li>Activa el modo eco o la detección de ventana abierta si el aparato los tiene.</li><li>Con PVPC, procura que el calor de la tarde no caiga entero entre las 19:00 y las 22:00, la franja más cara de octubre de 2026.</li><li>No tapes el aparato ni lo uses para secar ropa: es peligroso y el termostato deja de leer bien la temperatura de la habitación.</li><li><strong>Nada de enchufes inteligentes ni temporizadores externos</strong>: los manuales de los tres modelos elegidos prohíben usarlos con un programador, temporizador u otro dispositivo que los encienda solos; los del Tropicano 2000 y del Orbegozo RRW lo justifican por el riesgo de incendio si el aparato está tapado o mal colocado. Si quieres programar, elige un modelo que lo haga de serie.</li></ul>"
+    },
+    {
+      "h2": "Por qué esta clasificación",
+      "html": "<p>Puntuamos cada modelo con los criterios de esta página a partir de su ficha y su manual; no hacemos pruebas propias.</p><ul><li><strong>Orbegozo RRW 1000: 86/100.</strong> Nota máxima en control (35/35: electrónico, programación semanal, ventana abierta y control a distancia); potencia 20/25 (1000 W encajan en 10 a 15 m², pero no declara los vatios de su nivel bajo); uso 15/20; ficha 8/10; seguridad 8/10.</li><li><strong>Taurus Agadir 2000: 76/100.</strong> Control 25/35 (electrónico con temporizador diario, sin programación semanal ni detección de ventana); potencia 20/25 (mínimo declarado de 0,8 kW); uso 16/20 (calor suave y silencioso durante horas, lento al arrancar); ficha 9/10; seguridad 6/10 (protector térmico; no declara antivuelco ni bloqueo infantil).</li><li><strong>Taurus Tropicano 2000: 54/100.</strong> Control 10/35 (termostato mecánico); potencia 15/25 (1 y 2 kW declarados); uso 12/20 (rapidísimo, pero ruidoso y caro si se deja horas); ficha 9/10; seguridad 8/10 (antivuelco y protector térmico, sin grado IP).</li></ul><p>El orden no depende del precio ni de lo que pague cada tienda. El calefactor queda tercero porque solo es la mejor opción para ratos cortos, y para eso basta con que caliente rápido y sea seguro.</p>"
+    },
+    {
+      "h2": "Otros modelos que hemos comparado",
+      "html": "<ul><li><strong>Orbegozo RRW 1500</strong>: el mismo emisor con 1500 W y 8 elementos, para estancias más grandes, con las mismas funciones (programación semanal, detección de ventanas abiertas y wifi).</li><li><strong>Cecotec ReadyWarm 1800 Thermal Connected</strong>: emisor seco de 1200 W con wifi, temporizador programable y termostato de 5 a 40 °C; Cecotec le asigna 15 m². Su ficha no menciona programación semanal ni detección de ventana abierta.</li><li><strong>Taurus Agadir Connect 2000</strong>: la versión con wifi (app Taurus Connect, Alexa y Google Assistant) y programación diaria y semanal, con la misma potencia y los mismos 9 elementos.</li><li><strong>Orbegozo RF 2000</strong>: el radiador de aceite clásico, con 9 elementos y tres niveles (800, 1200 y 2000 W), y termostato mecánico según su manual.</li><li><strong>Taurus Tropicano 7CR</strong>: calefactor cerámico PTC oscilante de 1500 W con dos intensidades y termostato regulable; Taurus lo recomienda hasta 20 m².</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Existen de verdad los radiadores eléctricos de bajo consumo?",
+      "a": "No en el sentido de que gasten menos para dar el mismo calor: todos los de resistencia convierten en calor casi el 100 % de la electricidad. Lo que existe son aparatos que controlan mejor el gasto, con termostato electrónico, programación y detección de ventana abierta. «Bajo consumo» no es un dato técnico: mira los vatios y el tipo de control que declara el manual."
+    },
+    {
+      "q": "¿Cuánto consume un radiador de aceite de 2000 W?",
+      "a": "Como máximo 2 kWh por hora, unos 0,50 € con el precio medio de 0,25 €/kWh (Eurostat, primer semestre de 2026). Cuando la habitación alcanza la temperatura, el termostato lo apaga y lo enciende, y el gasto real baja. Muchos tienen niveles más bajos: el Taurus Agadir 2000 declara un mínimo de 0,8 kW."
+    },
+    {
+      "q": "¿Qué gasta menos, un emisor térmico o un radiador de aceite?",
+      "a": "Con la misma potencia y el mismo tiempo encendidos, lo mismo. El emisor suele salir ganando porque es donde más abundan los termostatos electrónicos con programación semanal, que evitan calentar de más; el de aceite tarda más en calentar y en enfriarse. Elige por el control y por el uso que le vas a dar, no por la tecnología."
+    },
+    {
+      "q": "¿Cuánto cuesta tener un calefactor encendido una hora?",
+      "a": "Uno de 2000 W a plena potencia, unos 0,50 € por hora con el kWh a 0,25 €; en su nivel bajo de 1000 W, la mitad. Por eso conviene para ratos de 15 a 30 minutos y no para toda la tarde."
+    },
+    {
+      "q": "¿Qué potencia necesito para una habitación de 12 m²?",
+      "a": "La OCU calcula que 1000 W calientan unos 10 a 15 m², así que para 12 m² basta un aparato de 1000 a 1300 W en una casa con un aislamiento normal. En zona fría o con ventanas antiguas, sube un escalón."
+    },
+    {
+      "q": "¿Puedo programar un calefactor o un radiador con un enchufe inteligente?",
+      "a": "No es buena idea. Los manuales del Orbegozo RRW, del Taurus Agadir 2000 y del Tropicano 2000 prohíben usarlos con un programador, temporizador u otro dispositivo que los encienda automáticamente; los del Tropicano y del RRW citan el riesgo de incendio si el aparato está tapado o mal colocado. Si quieres programar, elige un modelo con temporizador o wifi integrados."
+    },
+    {
+      "q": "¿Qué gasta menos que un radiador eléctrico?",
+      "a": "Una bomba de calor, por ejemplo un split de aire acondicionado con modo calor, porque da más calor del que consume. Con sus supuestos de 2021, la OCU calculaba para la bomba de calor menos de la mitad de gasto por hora que para un calefactor."
+    },
+    {
+      "q": "¿Sirve de algo el wifi para gastar menos?",
+      "a": "Sirve si lo usas para programar y para apagar a distancia, no por sí mismo. Lo que ahorra es encender solo cuando hace falta y a la temperatura justa: el IDAE calcula que cada grado de más sube el consumo un 7 %."
+    },
+    {
+      "q": "¿Qué precio del kWh debo usar para hacer mis cuentas?",
+      "a": "El de tu factura: el precio del término de energía, con los impuestos sumados. Si no lo tienes a mano, 0,25 €/kWh es la media de Eurostat para los hogares españoles en el primer semestre de 2026. Con PVPC el precio cambia cada hora: en octubre de 2026, la franja de 19:00 a 22:00 fue la más cara."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "OCU · ¿Cómo calentar tu casa si no tienes calefacción?",
+      "url": "https://www.ocu.org/vivienda-y-energia/calefaccion/consejos/calentarse-sin-calefaccion",
+      "note": "9 de diciembre de 2021: calefactores, convectores, radiadores y estufas eléctricas rinden cerca del 100 %; la bomba de calor es mucho más eficiente. Gasto estimado por hora a máxima potencia: bomba de calor 0,196 €, calefactor 0,46 €, convector 0,46 €, radiador de aceite 0,575 € (no indica el precio del kWh usado)."
+    },
+    {
+      "name": "OCU · Calefactores, ¿cuál elegir? (guía de compra)",
+      "url": "https://www.ocu.org/vivienda-y-energia/calefaccion/guia-de-compra/guia-compra-calefactores",
+      "note": "Sin fecha visible (consultada el 1 de noviembre de 2026): un calefactor de 1000 W calienta unos 10 a 15 m²; un termostato eficaz es fundamental; usar estos aparatos como complemento y en periodos cortos; en el baño, IP21 o superior."
+    },
+    {
+      "name": "OCU · Así analizamos los calefactores",
+      "url": "https://www.ocu.org/vivienda-y-energia/calefaccion/asi-analizamos/asi-analizamos-calefactores",
+      "note": "Sin fecha visible (consultada el 1 de noviembre de 2026): estabilidad y distribución del calor 36 %, tiempo de calentamiento 28 % (se mide también el consumo), ruido 16 %, facilidad de uso 10 %, manual 10 %; la seguridad es eliminatoria. En funcionamiento normal, los termoventiladores no suelen bajar de 50 dBA."
+    }
+  ],
+  "sources": [
+    "https://ec.europa.eu/eurostat/databrowser/view/nrg_pc_204/default/table",
+    "https://www.ree.es/es/datos/mercados/precios-mercados-tiempo-real",
+    "https://www.idae.es/node/301",
+    "https://www.ocu.org/vivienda-y-energia/calefaccion/consejos/calentarse-sin-calefaccion",
+    "https://www.ocu.org/vivienda-y-energia/calefaccion/guia-de-compra/guia-compra-calefactores",
+    "https://www.ocu.org/vivienda-y-energia/calefaccion/asi-analizamos/asi-analizamos-calefactores",
+    "https://orbegozo.com/productos/calefaccion/emisores-termicos/emisor-termico-wifi-rrw-1000/",
+    "https://orbegozo.com/wp-content/uploads/2021/08/RRW-1000.pdf",
+    "https://orbegozo.com/wp-content/uploads/2026/08/RRW-IM.pdf",
+    "https://orbegozo.com/productos/calefaccion/emisores-termicos/emisor-termico-wifi-rrw-1500/",
+    "https://orbegozo.com/productos/calefaccion/radiadores-de-aceite/radiador-de-aceite-rf-2000/",
+    "https://orbegozo.com/wp-content/uploads/2024/06/RF-RN-2000-IM.pdf",
+    "https://taurus-home.com/products/agadir-2000",
+    "https://taurus-home.com/cdn/shop/files/USER_MANUAL_Taurus_Alpatec_Agadir_1500_Agadir_2000_Agadir_2500.pdf?v=3792168647579072195",
+    "https://taurus-home.com/cdn/shop/files/SAFETY_MANUAL_Taurus_Alpatec_Agadir_1500_Agadir_2000_Agadir_2500.pdf?v=5121888647199051694",
+    "https://taurus-home.com/products/agadir-connect-2000",
+    "https://taurus-home.com/products/tropicano-2000",
+    "https://taurus-home.com/cdn/shop/files/MANUAL_Taurus_TROPICANO_2000.pdf?v=11544250435122188153",
+    "https://taurus-home.com/products/tropicano-7cr",
+    "https://cecotec.es/es/emisores-termicos/ready-warm-1800-thermal-connected"
+  ],
+  "related": [
+    "/es/confort-air/chauffages-appoint",
+    "/es/blog/radiateur-electrique-connecte-guide",
+    "/es/guides/probleme/chauffage-appoint-efficace-piece",
+    "/es/guides/probleme/chauffage-appoint-coupe",
+    "/es/black-friday/radiateurs-connectes",
+    "/es/blog/guide-domotique-economie-energie-2026"
+  ]
+}

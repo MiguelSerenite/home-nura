@@ -1,0 +1,296 @@
+{
+  "locale": "us",
+  "type": "duel",
+  "slug": "levoit-core-300-vs-core-400s",
+  "updated": "2026-11-01",
+  "metaTitle": "Levoit Core 300 vs. 400S (2026): Which Should You Buy?",
+  "metaDescription": "Levoit Core 300 or Core 400S? AHAM-verified CADR, room size by the 2/3 rule, noise, filters, energy cost and the VeSync app, compared side by side.",
+  "kicker": "Air purifier duel",
+  "h1": "Levoit Core 300 vs. Core 400S: Which Air Purifier Fits Your Room?",
+  "answer": "Pick the Levoit Core 400S-P for a living room or open space: AHAM lists its smoke CADR at 231 CFM, enough for about 345 sq ft under AHAM's two-thirds rule, and it adds a laser dust sensor, auto mode and the VeSync app. Pick the Core 300-P for a bedroom up to about 215 sq ft (143 CFM) when you don't need Wi-Fi. Data checked November 1, 2026.",
+  "picks": [
+    {
+      "brand": "Levoit",
+      "model": "Levoit Core 400S-P Smart Air Purifier",
+      "role": "Best for living rooms and smart control",
+      "why": "Its AHAM-listed smoke CADR of 231 CFM is about 60% higher than the Core 300's, and it's the only one of the two that's ENERGY STAR certified, with a lower annual energy rating (237 vs. 317 kWh). A laser dust sensor drives auto mode, so it speeds up on its own when you cook or vacuum.",
+      "bestFor": "Living rooms and bedrooms up to about 345 sq ft, wildfire-smoke rooms up to about 231 sq ft, and anyone who wants app control and automatic fan speeds",
+      "asin": "B08R794ZMX",
+      "manufacturerUrl": "https://levoit.com/collections/air-purifiers/products/core-400s-p-smart-air-purifier",
+      "specs": {
+        "AHAM CADR (smoke / dust / pollen)": "231 / 240 / 259 CFM (Core 400S listing); 234 / 233 / 257 CFM (LAP-C401S-WUSR/KUSR listing)",
+        "AHAM suggested room size": "358 sq ft",
+        "Room size, 2/3 rule": "About 345 sq ft",
+        "Noise (Levoit spec)": "22–52 dB",
+        "Rated power": "38 W (standby under 2 W)",
+        "Annual energy use (AHAM)": "237 kWh",
+        "ENERGY STAR": "Yes",
+        "Sensor and auto mode": "Laser dust sensor, particle readout, auto mode",
+        "App and voice control": "VeSync app; Amazon Alexa, Google Assistant",
+        "Timer": "On the unit; schedules in the VeSync app",
+        "Filter": "3-stage Core 400S-P replacement filter (Original, Toxin Absorber, Pet Allergy, Smoke Remover)",
+        "Voltage": "120 V, 60 Hz",
+        "Dimensions": "10.8 x 10.8 x 20.5 in",
+        "Weight": "11 lb",
+        "Certifications": "ENERGY STAR, CARB",
+        "Warranty": "2-year limited"
+      }
+    },
+    {
+      "brand": "Levoit",
+      "model": "Levoit Core 300-P Air Purifier",
+      "role": "Best for a bedroom without Wi-Fi",
+      "why": "A compact 14.2-inch cylinder with an AHAM-listed smoke CADR of 143 CFM, a sleep mode, a 2–8 hour timer and nothing to set up: no app, no account, no sensor. Its smaller filter cartridge costs less to replace, but it draws more power for less airflow and isn't ENERGY STAR certified.",
+      "bestFor": "Bedrooms, nurseries and home offices up to about 215 sq ft, nightstand or dresser placement, buyers who don't want another Wi-Fi device",
+      "asin": null,
+      "manufacturerUrl": "https://levoit.com/collections/air-purifiers/products/core300-p-air-purifier",
+      "specs": {
+        "AHAM CADR (smoke / dust / pollen)": "143 / 153 / 167 CFM",
+        "AHAM suggested room size": "222 sq ft",
+        "Room size, 2/3 rule": "About 215 sq ft",
+        "Noise (Levoit spec)": "24–54.5 dB",
+        "Rated power": "56 W",
+        "Annual energy use (AHAM)": "317 kWh",
+        "ENERGY STAR": "No",
+        "Sensor and auto mode": "None",
+        "App and voice control": "None",
+        "Timer": "2–8 hr",
+        "Filter": "3-stage Core 300 Series Original Filter (also Pet Allergy, Toxin Absorber, Smoke Remover)",
+        "Voltage": "120 V, 60 Hz",
+        "Dimensions": "8.7 x 8.7 x 14.2 in",
+        "Weight": "7.9 lb",
+        "Certifications": "CARB, ETL listed, FCC",
+        "Warranty": "2-year limited"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Spec",
+      "Levoit Core 300-P",
+      "Levoit Core 400S-P"
+    ],
+    "rows": [
+      [
+        "Smoke CADR (AHAM)",
+        "143 CFM",
+        "231 CFM"
+      ],
+      [
+        "Dust / pollen CADR (AHAM)",
+        "153 / 167 CFM",
+        "240 / 259 CFM"
+      ],
+      [
+        "AHAM suggested room size",
+        "222 sq ft",
+        "358 sq ft"
+      ],
+      [
+        "Largest room, 2/3 rule (8 ft ceilings)",
+        "About 215 sq ft",
+        "About 345 sq ft"
+      ],
+      [
+        "Wildfire smoke (smoke CADR = room area)",
+        "About 143 sq ft",
+        "About 231 sq ft"
+      ],
+      [
+        "Noise (Levoit spec)",
+        "24–54.5 dB",
+        "22–52 dB"
+      ],
+      [
+        "Rated power",
+        "56 W",
+        "38 W"
+      ],
+      [
+        "Annual energy use (AHAM)",
+        "317 kWh",
+        "237 kWh"
+      ],
+      [
+        "ENERGY STAR",
+        "No",
+        "Yes"
+      ],
+      [
+        "Air quality sensor and auto mode",
+        "No",
+        "Laser dust sensor, auto mode"
+      ],
+      [
+        "App and voice control",
+        "No",
+        "VeSync, Alexa, Google Assistant"
+      ],
+      [
+        "Timer",
+        "2–8 hr",
+        "On the unit, plus schedules in the VeSync app"
+      ],
+      [
+        "AHAM-certified replacement filters",
+        "Core 300-P-RF, Core-RF",
+        "LRF-C401S-P-WUS"
+      ],
+      [
+        "Size and weight",
+        "8.7 x 8.7 x 14.2 in, 7.9 lb",
+        "10.8 x 10.8 x 20.5 in, 11 lb"
+      ],
+      [
+        "Warranty",
+        "2-year limited",
+        "2-year limited"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "AHAM-verified CADR and room fit",
+      "weight": 35,
+      "explanation": "The smoke CADR in AHAM's directory decides how big a room a purifier can actually handle under AHAM's two-thirds rule. We don't use manufacturer room sizes based on a single air change per hour."
+    },
+    {
+      "name": "Noise at a usable airflow",
+      "weight": 20,
+      "explanation": "A purifier only helps if you leave it running. We compare spec-sheet decibels and independent measurements at similar airflow, not just the quietest setting."
+    },
+    {
+      "name": "Running costs: energy and filters",
+      "weight": 20,
+      "explanation": "Annual kWh from AHAM's directory, priced at the EIA average residential rate, plus the size of the replacement filter and how often independent reviewers replace it."
+    },
+    {
+      "name": "Smart features",
+      "weight": 15,
+      "explanation": "An air quality sensor and auto mode let the purifier react to cooking, dust and smoke without you; an app adds schedules, remote control and filter tracking."
+    },
+    {
+      "name": "Footprint and placement",
+      "weight": 10,
+      "explanation": "Height, width and weight decide whether it fits on a nightstand or needs floor space."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Which one should you buy?",
+      "html": "<p><strong>Choose the Core 400S-P if</strong> your room is bigger than about 215 sq ft, you want the purifier to react on its own to cooking smoke or dust, or you deal with wildfire smoke and need the extra headroom.</p><p><strong>Choose the Core 300-P if</strong> it's for a bedroom or home office up to about 215 sq ft, you'd rather not connect another device to Wi-Fi, and you want the smaller unit on a nightstand or dresser.</p><p><strong>Skip both if</strong> you need to clean an open floor plan of more than about 350 sq ft: a larger model makes more sense (see the alternatives below).</p>"
+    },
+    {
+      "h2": "CADR: the numbers AHAM verified",
+      "html": "<p>CADR (clean air delivery rate) is the volume of filtered air a purifier delivers on its highest speed, in cubic feet per minute (CFM), with separate scores for tobacco smoke, dust and pollen. The figures below come from AHAM's directory of certified room air cleaners, the database behind the AHAM Verifide seal, read on November 1, 2026.</p><ul><li><strong>Core 300:</strong> 143 CFM for smoke, 153 CFM for dust, 167 CFM for pollen.</li><li><strong>Core 400S:</strong> 231 CFM for smoke, 240 CFM for dust, 259 CFM for pollen. A second listing for the Core 400S-P (model LAP-C401S-WUSR/KUSR) shows 234, 233 and 257 CFM, the same class of performance.</li></ul><p>Levoit's US spec sheets match: 143 CFM for the Core 300-P and 231 CFM for the Core 400S-P. AHAM bases its suggested room size on the <strong>smoke</strong> number, which is the lowest of the three scores for both purifiers.</p><p>One figure to ignore: the room sizes Levoit gives at \"1 ACH\" (1,066 sq ft for the Core 300-P, 1,718 sq ft for the Core 400S-P) assume the air in the room is cleaned only once an hour. The same pages list the realistic figure at 4.8 air changes per hour, 222 and 358 sq ft, which is exactly what AHAM suggests.</p>"
+    },
+    {
+      "h2": "Room size by AHAM's two-thirds rule",
+      "html": "<p>AHAM's rule of thumb: a purifier's smoke CADR should be at least two-thirds of the room's floor area, with ceilings of 8 ft. Flip it around and the largest room a model can handle is its smoke CADR times 1.5.</p><ul><li><strong>Core 300:</strong> 143 × 1.5 is about 215 sq ft (AHAM's directory, which multiplies by 1.55, lists 222 sq ft). That covers a 12 x 16 ft bedroom (192 sq ft), but not a 14 x 16 ft room (224 sq ft).</li><li><strong>Core 400S:</strong> 231 × 1.5 is about 345 sq ft (AHAM lists 358 sq ft). That covers a 15 x 20 ft living room (300 sq ft).</li><li><strong>Wildfire smoke:</strong> AHAM recommends a smoke CADR equal to the room's area in square feet, so about 143 sq ft for the Core 300 and 231 sq ft for the Core 400S.</li><li><strong>Ceilings higher than 8 ft:</strong> AHAM says to size up. A simple adjustment is to multiply the floor area by your ceiling height divided by 8: a 200 sq ft room with 10 ft ceilings counts as 250 sq ft.</li></ul><p>Consumer Reports makes the same point from the noise side: a purifier rated for a bigger room can run on a lower, quieter speed in a smaller one. If your room sits right at the Core 300's limit, the Core 400S is the more comfortable choice.</p>"
+    },
+    {
+      "h2": "Noise: compare at the same airflow, not the same speed",
+      "html": "<p>Levoit lists 24–54.5 dB for the Core 300-P and 22–52 dB for the Core 400S-P. Another line on the 400S-P page says \"as low as 24 dB,\" so treat its floor as 22 to 24 dB. These are the manufacturer's own figures, best used to compare the two Levoits with each other.</p><p>Independent measurements are more telling. HouseFresh, measuring at 3 ft, recorded 50.2 dB for the Core 300 on its top speed. The US Core 400S measured 43.2 dB on speed 2 and 51.2 dB on speed 3, and 60.3 dB on its top speed, in a room with 35 dB of background noise. HouseFresh's own airflow estimates put the 400S on speed 2 ahead of the Core 300 running flat out. In other words, the bigger unit can do the smaller one's job more quietly.</p><p>Both have a sleep mode. The Core 400S's auto mode changes fan speed on its own, so switch it to sleep mode at night if you don't want it to ramp up when the sensor picks up dust.</p>"
+    },
+    {
+      "h2": "Filters: different cartridges, both AHAM-certified",
+      "html": "<p>The two don't share filters. Each takes its own 3-stage cartridge with an activated carbon layer for odors, smoke and VOCs.</p><ul><li><strong>Core 300-P:</strong> Levoit's Core 300 Series Original Filter, plus Pet Allergy, Toxin Absorber and Smoke Remover versions. AHAM's directory lists the Core 300-P-RF and the Core-RF as certified replacements.</li><li><strong>Core 400S-P:</strong> Levoit's Core 400S-P 3-Stage Replacement Filter, plus Toxin Absorber, Pet Allergy and Smoke Remover carbon versions. AHAM lists the LRF-C401S-P-WUS as certified, and the LRF-C401S-WUS for the 400S-P listing.</li></ul><p>Levoit's pages show a filter-check indicator on both, with filter life in the app on the 400S, but don't give a replacement interval in months. HouseFresh budgets one filter every six months for each model, and Consumer Reports says mechanical filters generally last six to 12 months, while activated carbon saturates faster and may need replacing every three months. The 400S cartridge is the larger one, so it costs more to replace; compare current filter prices on Levoit's site if running costs matter most to you.</p><p>If smoke or odors are your main concern, the carbon matters: HouseFresh reports 240 g of carbon in the Core 400S Original filter and 400 to 450 g in its Pet Allergy, Toxin Absorber and Smoke Remover versions, against 40 to 50 g in the Core 300 Original filter and 90 g in its upgraded versions. It also notes that the 400S pre-filter is part of the cartridge, not a separate washable piece.</p>"
+    },
+    {
+      "h2": "Energy use and cost to run",
+      "html": "<p>Here the bigger purifier wins. AHAM's directory rates the Core 400S at 237 kWh a year against 317 kWh for the Core 300, assuming 16 hours of running a day (the basis ENERGY STAR uses). AHAM's efficiency figures are 5.8 CFM of clean air per watt for the Core 400S against 2.7 for the Core 300, and only the Core 400S is ENERGY STAR certified.</p><p>At the US average residential rate of 18.16 cents per kWh (EIA, August 2026), that works out to <strong>about $43 a year</strong> for the Core 400S and <strong>about $58 a year</strong> for the Core 300. Rates vary by state and by season, so plug in the rate from your own power bill. Lower speeds cost far less: HouseFresh measured the US Core 400S at about 5 to 16 W on speeds 1 to 3.</p><p>Beyond electricity, the only recurring cost Levoit's pages point to for either model is the replacement filter.</p>"
+    },
+    {
+      "h2": "App, sensor and auto mode",
+      "html": "<p>The \"S\" in Core 400S is the smart part. Its laser dust sensor shows the amount of airborne particles on the display and drives auto mode. The VeSync app adds remote control, schedules and timers and filter-life tracking, and the purifier works with Amazon Alexa and Google Assistant.</p><p>The Core 300-P has none of that: touch buttons for power, fan speed and the 2–8 hour timer, a sleep mode and a filter-check indicator. If you want the app and the sensor in the smaller body, look at the Core 300S-P, a separate model.</p><p>HouseFresh praises the VeSync app's controls and auto-mode settings but flags in-app advertising (review dated October 7, 2026).</p>"
+    },
+    {
+      "h2": "Size and placement",
+      "html": "<p>The Core 300-P measures 8.7 x 8.7 x 14.2 in and weighs 7.9 lb, small enough for a nightstand or dresser. The Core 400S-P measures 10.8 x 10.8 x 20.5 in and weighs 11 lb, so it's a floor unit in most rooms.</p><p>Both plug into a standard 120 V outlet, both appear on the California Air Resources Board's list of certified air cleaners, and both come with a 2-year limited warranty.</p>"
+    },
+    {
+      "h2": "Alternatives in the Levoit lineup",
+      "html": "<ul><li><strong>Core 300S-P:</strong> the Core 300's smart sibling, with the VeSync app and an air quality sensor. AHAM lists 139 to 144 CFM of smoke CADR depending on the version, so it's still a bedroom-size purifier.</li><li><strong>Vital 200S-P:</strong> AHAM lists 250 CFM of smoke CADR and a suggested room size of 388 sq ft, slightly more than the Core 400S. HouseFresh suggests it for most buyers because its pre-filter comes out separately.</li><li><strong>Eleva 500X:</strong> a new Wi-Fi model on Levoit's US site since September 2026. AHAM lists 301 CFM of smoke CADR and a suggested room size of 467 sq ft, and it's ENERGY STAR certified.</li><li><strong>Core 600S-P:</strong> for open floor plans, AHAM lists 391 to 394 CFM of smoke CADR and a suggested room size of about 606 to 611 sq ft.</li></ul>"
+    },
+    {
+      "h2": "Why this ranking",
+      "html": "<p>We weigh five criteria, listed with their weights below. The Core 400S-P takes the three that matter most for most homes: AHAM-verified CADR and room fit (35%), noise at a usable airflow (20%) and smart features (15%). Running costs (20%) are a split decision: lower energy use, but a larger filter to replace. The Core 300-P wins on footprint (10%).</p><p>That's why the Core 400S-P ranks first, and why the Core 300-P remains the sensible pick for one bedroom up to about 215 sq ft.</p>"
+    },
+    {
+      "h2": "How we compared",
+      "html": "<p>We don't lab-test purifiers. We compared Levoit's US spec sheets, AHAM's directory of certified room air cleaners, the ENERGY STAR database, California's list of certified air cleaners and EIA electricity prices, then checked the published results of independent reviewers. All figures were read on November 1, 2026. When Levoit, AHAM or ENERGY STAR change a listing, we update this page and its date.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is the Levoit Core 400S worth it over the Core 300?",
+      "a": "For any room larger than about 215 sq ft, yes. Its AHAM-listed smoke CADR is 231 CFM against 143 CFM, it's ENERGY STAR certified, and AHAM rates it at less electricity per year (237 vs. 317 kWh). For a small bedroom where you don't need Wi-Fi, the Core 300 does the job."
+    },
+    {
+      "q": "Can a Levoit Core 300 clean a 300 sq ft room?",
+      "a": "Not by AHAM's two-thirds rule. A 300 sq ft room with 8 ft ceilings calls for a smoke CADR of at least 200 CFM, and the Core 300 is rated at 143 CFM. The Core 400S, at 231 CFM, covers it."
+    },
+    {
+      "q": "Does the Levoit Core 300 have an app or Wi-Fi?",
+      "a": "No. The Core 300-P is controlled with its buttons only. The Core 300S-P is the smart version of that size, and the Core 400S-P works with the VeSync app, Amazon Alexa and Google Assistant."
+    },
+    {
+      "q": "Do the Core 300 and Core 400S use the same filter?",
+      "a": "No. The Core 300 takes Core 300 Series filters and the Core 400S takes Core 400S-P filters. AHAM's directory lists certified replacement filters for both."
+    },
+    {
+      "q": "Which is better for wildfire smoke?",
+      "a": "The Core 400S. For wildfire smoke, AHAM recommends a smoke CADR equal to the room's area in square feet, which puts the Core 400S at rooms up to about 231 sq ft and the Core 300 at about 143 sq ft. A Smoke Remover filter adds more carbon for the smell."
+    },
+    {
+      "q": "Do they have true HEPA filters?",
+      "a": "Neither is sold as true HEPA. Levoit's US pages describe a 3-stage filter without a HEPA claim, and HouseFresh reports Levoit dropped HEPA wording from its Core series marketing in 2023. AHAM's directory records the filter as \"HEPA-type\" for the Core 300 and the Core 400S-P listings (\"HEPA\" on one Core 400S listing). The verified CADR is what tells you how much clean air you get."
+    },
+    {
+      "q": "Do the Core 300 and Core 400S produce ozone?",
+      "a": "Both are fan-and-filter purifiers, and both appear on the California Air Resources Board's list of certified air cleaners; California limits the ozone air cleaners can emit. Levoit calls the Core 300-P ozone free, and ENERGY STAR's database records 0 to 1 ppb of ozone for the two Core 400S listings."
+    },
+    {
+      "q": "What do the \"S\" and \"-P\" in the names mean?",
+      "a": "S models are Levoit's Wi-Fi smart purifiers: the Core 400S and Core 300S connect to the VeSync app, the Core 300 doesn't. Levoit currently sells the US versions as the Core 300-P and Core 400S-P, and their spec sheets still list the model as Core 300 and Core 400S, matching the AHAM ratings above."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "HouseFresh",
+      "url": "https://housefresh.com/levoit-core-300-review/",
+      "note": "Review dated February 27, 2026: in a 728 cu ft room, the Core 300 cleared incense smoke in 54 minutes on its top speed and measured 50.2 dB at 3 ft. Since 2025, the reviewer has pointed buyers toward newer Levoit and Winix models."
+    },
+    {
+      "name": "HouseFresh",
+      "url": "https://housefresh.com/levoit-core-400s-review/",
+      "note": "Review dated October 7, 2026: the US Core 400S cleared the same 728 cu ft room in 24 minutes on its top speed, measured 43.2 dB on speed 2 and 60.3 dB on its top speed at 3 ft, and drew about 5 to 16 W on speeds 1 to 3. It flags a pre-filter that isn't removable on its own and ads in the VeSync app."
+    },
+    {
+      "name": "Consumer Reports",
+      "url": "https://www.consumerreports.org/appliances/air-purifiers/buying-guide/",
+      "note": "Air purifier buying guide updated June 4, 2026: explains CADR and the AHAM Verifide seal, warns that some purifiers fall short of their claimed room sizes, and measures dust and smoke removal on the highest speed and at a lower speed no louder than 50 dB. Model ratings are for members; we link to them and don't quote them."
+    }
+  ],
+  "sources": [
+    "https://levoit.com/collections/air-purifiers/products/core300-p-air-purifier",
+    "https://levoit.com/collections/air-purifiers/products/core-400s-p-smart-air-purifier",
+    "https://levoit.com/collections/air-purifiers",
+    "https://www.ahamdir.com/room-air-cleaners/",
+    "https://www.ahamverifide.org/ahams-air-filtration-standards/",
+    "https://www.ahamverifide.org/directory-of-air-cleaners/",
+    "https://ww2.arb.ca.gov/list-carb-certified-air-cleaning-devices",
+    "https://data.energystar.gov/Active-Specifications/ENERGY-STAR-Certified-Room-Air-Cleaners-V3-0/gaa3-swy6",
+    "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
+    "https://www.consumerreports.org/appliances/air-purifiers/buying-guide/",
+    "https://housefresh.com/levoit-core-300-review/",
+    "https://housefresh.com/levoit-core-400s-review/"
+  ],
+  "related": [
+    "/us/confort-air/purificateurs-air",
+    "/us/blog/guide-purificateur-air-2026",
+    "/us/blog/comparatif-purificateur-air-allergie",
+    "/us/confort-air/humidificateurs",
+    "/us/methodologie"
+  ]
+}

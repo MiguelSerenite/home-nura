@@ -1,0 +1,201 @@
+{
+  "locale": "us",
+  "type": "news",
+  "slug": "irobot-bankruptcy-roomba-owners",
+  "updated": "2026-11-01",
+  "metaTitle": "Is iRobot Going Out of Business? Will Roombas Still Work?",
+  "metaDescription": "iRobot emerged from Chapter 11 on January 23, 2026, owned by Picea. What that means for your Roomba's app, warranty and parts, plus 3 alternatives.",
+  "kicker": "Robot vacuum news",
+  "h1": "iRobot's Bankruptcy: Will Your Roomba Still Work in 2026?",
+  "answer": "No, iRobot isn't going out of business. It used a prepackaged Chapter 11 case, filed December 14, 2025, to hand the company to Picea, its main manufacturer and lender. The plan took effect January 23, 2026, and the court closed the case February 25, 2026. iRobot says app support, software updates where applicable and warranty coverage continue, and it launched new Roombas in July and September 2026.",
+  "picks": [
+    {
+      "brand": "eufy",
+      "model": "eufy Robot Vacuum Omni E25",
+      "role": "Best overall alternative",
+      "why": "Of the three, it's the one whose dock does the most of the dirty work: it empties the robot, washes and hot-air dries the roller mop, refills the water and doses detergent, while LiDAR mapping and camera-based obstacle avoidance handle navigation. eufy's US warranty policy is also the only one of the three to state a software-update period: two years from purchase.",
+      "bestFor": "Roomba owners who want to upgrade to hands-off mopping and have floor space for a large dock",
+      "asin": "B0FK2HPNCB",
+      "manufacturerUrl": "https://www.eufy.com/products/t2353111",
+      "specs": {
+        "Model number": "T2353112 (black)",
+        "Suction": "20,000 Pa",
+        "Navigation": "LiDAR; up to 5 saved maps for multi-floor homes",
+        "Obstacle avoidance": "AI.See (RGB camera + LED)",
+        "Mop": "HydroJet self-cleaning roller mop, 11.4 in; lifts on carpet in vacuum-only mode",
+        "All-in-one dock": "Self-emptying (3 L bag, up to 75 days), self-washing, hot-air drying at 95–122°F, automatic detergent dispensing, self-refilling",
+        "Dock water tanks": "2.5 L clean, 1.8 L dirty",
+        "Brushes": "DuoSpiral detangle brushes; CornerRover extendable side-brush arm",
+        "Obstacle clearance": "0.83 in",
+        "Robot size": "12.83 x 13.72 x 4.40 in",
+        "Dock size": "14.55 x 18.18 x 17.19 in",
+        "App": "eufy Clean",
+        "Warranty": "12 months (eufy RoboVac); software upgrade service for 2 years from purchase"
+      }
+    },
+    {
+      "brand": "Roborock",
+      "model": "Roborock Q7 M5+",
+      "role": "Best budget alternative",
+      "why": "It's the closest swap for a Roomba with a self-emptying dock: LiDAR mapping that recognizes each floor of the house on its own, an anti-tangle main brush and side brush, and a compact dock with a 2.7 L bag. The mop is a simple pad with three water-flow levels, not a self-washing system.",
+      "bestFor": "Replacing a basic or mid-range Roomba without giving up mapping or self-emptying",
+      "asin": "B0DWX69JVG",
+      "manufacturerUrl": "https://us.roborock.com/products/roborock-q7-m5-plus",
+      "specs": {
+        "Suction": "10,000 Pa (Max+ mode, Roborock internal testing to IEC 62885-2)",
+        "Navigation": "PreciSense 360° LiDAR; multi-level mapping recognizes each floor automatically",
+        "Self-emptying dock": "RockDock Plus, 2.7 L dust bag, up to 7 weeks",
+        "Mop": "Detachable mop, 3 water-flow levels",
+        "Brushes": "JawScrapers Comb anti-tangle main brush, anti-tangle side brush",
+        "Carpet": "Auto Boost on carpet",
+        "Threshold climbing": "0.79 in (2 cm)",
+        "Robot height": "3.9 in",
+        "Dock size": "8.3 x 7.0 x 10.2 in",
+        "Wi-Fi": "2.4 GHz only",
+        "Voice assistants": "Amazon Alexa, Google Home",
+        "App": "Roborock app (required to use the robot as intended)",
+        "Warranty": "1-year limited (US)"
+      }
+    },
+    {
+      "brand": "Shark",
+      "model": "Shark AI Ultra Robot Self-Empty (AV2501S)",
+      "role": "Bagless alternative",
+      "why": "Its self-emptying base is bagless, so there are no dock bags to keep buying, and it maps with 360° LiDAR and cleans in Shark's Matrix Clean grid pattern. It vacuums only, with no mop. SharkNinja's own US store listed it as out of stock on November 1, 2026, while Amazon was still selling it.",
+      "bestFor": "Carpet-heavy homes and owners who are done buying dock bags",
+      "asin": "B09H8CWFNK",
+      "manufacturerUrl": "https://www.sharkninja.com/shark-ai-ultra-robot-self-empty/AV2501S.html",
+      "specs": {
+        "Model number": "AV2501S",
+        "Navigation": "AI Laser Navigation (360° LiDAR); Matrix Clean grid pattern with multiple passes",
+        "Self-emptying base": "Bagless, holds up to 30 days of debris",
+        "Filtration": "True HEPA in the base, 99.97% of dust and allergens down to 0.3 microns",
+        "Brushroll": "Self-cleaning brushroll",
+        "Mop": "None (vacuum only)",
+        "Cleaning path width": "5.7 in",
+        "Robot dust cup": "0.1 qt",
+        "Voice assistants": "Amazon Alexa, Google Assistant",
+        "Warranty": "1-year limited"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": ["Model", "Navigation", "Self-emptying", "Mopping", "Hair and carpet", "Size of the dock", "Warranty and updates (US)"],
+    "rows": [
+      ["eufy Robot Vacuum Omni E25", "LiDAR + AI.See camera obstacle avoidance; up to 5 maps", "3 L bag, up to 75 days; dock also washes, dries and refills", "Self-cleaning roller mop, 11.4 in", "DuoSpiral detangle brushes, CornerRover arm", "14.55 x 18.18 x 17.19 in", "12 months; software upgrades for 2 years from purchase"],
+      ["Roborock Q7 M5+", "PreciSense LiDAR; automatic multi-level maps", "2.7 L bag, up to 7 weeks", "Mop pad, 3 water-flow levels", "JawScrapers Comb anti-tangle main brush, anti-tangle side brush; carpet boost", "8.3 x 7.0 x 10.2 in", "1 year; no update period in its US warranty"],
+      ["Shark AI Ultra AV2501S", "360° LiDAR; Matrix Clean grid", "Bagless base, up to 30 days, true HEPA", "None", "Self-cleaning brushroll", "Product dimensions listed as 15.35 x 12.01 x 17.72 in", "1-year limited; no update period on its product page"]
+    ]
+  },
+  "criteria": [
+    { "name": "Navigation and obstacle avoidance", "weight": 25, "explanation": "Mapping is what most Roomba owners would miss first. We compare the navigation system each maker lists (LiDAR, camera), multi-floor maps and obstacle detection, from the manufacturers' US pages." },
+    { "name": "Hands-off upkeep", "weight": 25, "explanation": "A self-emptying dock is why many people bought a Roomba Plus or Combo. We compare the published dock capacity, whether it needs bags, and whether it also washes, dries and refills a mop." },
+    { "name": "Pet hair and carpet", "weight": 20, "explanation": "American homes have a lot of carpet. We look at anti-tangle brush designs, carpet suction boost and how the mop stays off rugs, as each brand describes them." },
+    { "name": "Support you can check", "weight": 20, "explanation": "After iRobot's bankruptcy, this is the question owners are asking. We compare the US warranty length each brand publishes, whether it publishes a software-update period, and what its app terms require." },
+    { "name": "Mopping", "weight": 10, "explanation": "Useful on hard floors but secondary for a vacuum replacement. A self-cleaning roller mop ranks above a static pad, and a pad above no mop at all." }
+  ],
+  "sections": [
+    {
+      "h2": "Is iRobot going out of business? No, and here's why",
+      "html": "<p>iRobot did go bankrupt, but not the kind of bankruptcy that shuts a company down. On December 14, 2025, it filed a <strong>prepackaged Chapter 11</strong> case in the US Bankruptcy Court for the District of Delaware (Case No. 25-12197) to carry out a deal it had already signed with Picea, its primary contract manufacturer and the holder of its secured debt. In a prepackaged case the restructuring is agreed before filing, and the business keeps operating while the court approves it.</p><p>The court confirmed the plan on January 22, 2026, the plan took effect on January 23, and the court entered a final decree closing the case on February 25, 2026. iRobot is now a privately held company wholly owned by Picea and still headquartered in Bedford, Massachusetts. The people who lost out were stockholders: their shares were canceled with no recovery.</p>"
+    },
+    {
+      "h2": "Timeline: what happened, with dates",
+      "html": "<ul><li><strong>January 29, 2024:</strong> Amazon and iRobot end Amazon's planned acquisition, saying the deal had no path to regulatory approval in the European Union. Amazon pays iRobot the agreed termination fee.</li><li><strong>March 12, 2025:</strong> iRobot reports full-year 2024 results, warns of “substantial doubt” about its ability to continue as a going concern and starts a strategic review.</li><li><strong>December 14, 2025:</strong> iRobot signs a restructuring support agreement with Shenzhen PICEA Robotics and its subsidiary Santrum Hong Kong (together, Picea) and files its prepackaged Chapter 11 case in Delaware.</li><li><strong>December 15, 2025:</strong> Nasdaq notifies iRobot that its stock will be delisted. Trading is suspended on December 22, 2025.</li><li><strong>January 22, 2026:</strong> The bankruptcy court confirms the plan.</li><li><strong>January 23, 2026:</strong> The plan takes effect. Picea owns 100% of iRobot, old shares are canceled, and iRobot announces a separate US data-protection subsidiary, iRobot Safe.</li><li><strong>January 26, 2026:</strong> iRobot files to deregister its stock with the SEC and stop public reporting.</li><li><strong>February 25, 2026:</strong> The court enters the final decree closing the Chapter 11 cases.</li><li><strong>March 10, 2026:</strong> iRobot launches the Roomba Mini robot vacuum and mop in the UK and Europe.</li><li><strong>July 7, 2026:</strong> iRobot announces five new Roomba robots for North America and a cordless hard-floor cleaner, the Roomba Electro Plus.</li><li><strong>September 2, 2026:</strong> iRobot launches the Roomba Max 875 Combo and Roomba Plus 678 Combo on irobot.com, with North American retail to follow that month.</li><li><strong>September 4, 2026:</strong> iRobot shows a Roomba Duo prototype, a two-robot vacuum and mop, at IFA in Berlin.</li></ul>"
+    },
+    {
+      "h2": "Will my Roomba still work?",
+      "html": "<p><strong>Yes.</strong> Nothing iRobot has announced turns off any Roomba. Its “Here to stay” customer FAQ, still online on November 1, 2026, says iRobot plans to keep supporting current products, “including customer service, software updates where applicable, and warranty coverage,” and that no changes affecting app functionality or data security are planned.</p><p>That matches what the company told the court. In its December 14, 2025 announcement, iRobot said it expected no disruption to app functionality, customer programs or ongoing product support during the case, and its SEC filing the next day said its first-day motions asked the court for authority to honor all customer obligations in the ordinary course.</p><p><strong>Which app you need.</strong> iRobot now has two apps. Its US app page says the <strong>Roomba Home</strong> app works with Roomba 100, 200, Plus 400 and Plus 500 series robots sold after March 2025, and sends owners of other models to the <strong>iRobot Home (Classic)</strong> app. iRobot's September 2026 launch materials put the new Max 875 Combo on the Roomba Home app too.</p><p><strong>What the app controls.</strong> As with every connected robot vacuum, maps, room-by-room cleaning, schedules set from your phone and voice-assistant control run through the maker's app. That dependence is industry-wide: Roborock, for example, states that its Q-series robots will not function as intended without its app. A bankruptcy is only a risk to your robot if the company stops running those services, and iRobot has said it will keep them going.</p>"
+    },
+    {
+      "h2": "The app, the cloud and your data under Picea",
+      "html": "<p>Picea (Shenzhen PICEA Robotics, formerly Shenzhen 3irobotix) is a robot vacuum maker that had been iRobot's main contract manufacturer and lender. The Verge reported on December 15, 2025 that iRobot hired Picea as its contract manufacturer after the Amazon deal fell through and that the Roomba lineup launched in 2025 was made with Picea. iRobot's December 2025 SEC filing also describes a supply agreement under which Picea will continue to design, manufacture and supply certain iRobot products. In other words, the robots come from the same supplier as before.</p><p>On data, iRobot said on January 23, 2026 that it had set up a separate US-based subsidiary, <strong>iRobot Safe Corporation</strong>, responsible for protecting US consumer data. According to iRobot, it will be governed by an independent board made up of US citizens and will include an independent, US-based Data Security Officer. iRobot also says engineering, product development and marketing stay anchored in the United States.</p><p>What iRobot hasn't published is a fixed number of years of software support for each model. Its FAQ commits to updates “where applicable,” which is in line with most of the industry; among the alternatives below, only eufy's US warranty policy states a period (two years of software upgrades from purchase).</p>"
+    },
+    {
+      "h2": "Is my Roomba warranty still good?",
+      "html": "<p>Yes. iRobot's FAQ says warranty coverage continues, and Gary Cohen, iRobot's CEO at the time, told TechRadar on December 22, 2025 that warranties will be honored. The warrantor is still iRobot Corporation.</p><ul><li><strong>Length:</strong> iRobot's limited warranty covers a new robot, battery included, for one year from purchase (or delivery, if later) when it was bought from iRobot or an authorized seller.</li><li><strong>What you need to file a claim:</strong> the robot's serial number and your original proof of purchase or delivery.</li><li><strong>What it excludes:</strong> normal wear and tear (batteries included), accessories and consumables, robots bought from unauthorized sellers, and damage from spare parts or replacement items iRobot doesn't provide or recommend.</li><li><strong>Protection plans:</strong> iRobot's optional Protect plan, sold in the US and Canada, picks up when the one-year manufacturer's warranty ends and runs for the term you choose; Protect+ also covers accidental damage from drops, spills and pets. iRobot says to file plan claims through its Support Center.</li><li><strong>Refurbished robots:</strong> iRobot Restored robots come with a standard 90-day limited warranty.</li></ul><p>The bankruptcy plan itself protected customers: general unsecured claims other than Picea's were left unimpaired, to be paid in full, and iRobot asked the court for authority to honor customer obligations in the ordinary course.</p>"
+    },
+    {
+      "h2": "Replacement parts, filters and bags",
+      "html": "<p>iRobot's US store was still selling accessories on November 1, 2026, including build-your-own accessory bundles, so there's no sign of a parts shortage. There's no need to stockpile. Two warranty details are worth knowing, though: accessories and consumables aren't covered, and the warranty doesn't cover defects related to spare parts or replacement items that iRobot doesn't provide or recommend. While your Roomba is under warranty, stick with genuine brushes, filters and bags.</p>"
+    },
+    {
+      "h2": "What Roomba owners should do now",
+      "html": "<ul><li><strong>Keep using it.</strong> Install app and firmware updates when they're offered.</li><li><strong>Find your serial number and receipt.</strong> A warranty claim needs both, and it's easier to find them now than when something breaks.</li><li><strong>Check which app your model uses:</strong> Roomba Home for models sold after March 2025 in the series iRobot lists, iRobot Home (Classic) for the rest.</li><li><strong>File any defect claim while you're covered.</strong> The one-year limited warranty runs from the purchase or delivery date.</li><li><strong>Replace wear parts with genuine ones</strong> while the robot is under warranty.</li><li><strong>Don't replace a working Roomba just because of the bankruptcy.</strong> The company is operating, selling and supporting its robots.</li></ul>"
+    },
+    {
+      "h2": "Should you replace your Roomba?",
+      "html": "<p>Only for the usual reasons: the robot is failing out of warranty, its battery no longer covers your home, or you want something it can't do, such as a dock that washes and dries a mop. Switching brands means a new app, a new map of your home and a new set of filters, brushes and bags, since accessories don't carry over.</p><p>If you're shopping now, iRobot is a live option again: it's selling a new Roomba lineup in North America, backed by the same one-year limited warranty as Roborock's and Shark's robots. Compare it on features, not on fear of the bankruptcy.</p>"
+    },
+    {
+      "h2": "If you're switching: Roborock, eufy and Shark alternatives",
+      "html": "<ul><li><strong>eufy Robot Vacuum Omni E25 (best overall alternative):</strong> LiDAR plus camera obstacle avoidance, a self-cleaning roller mop and a dock that empties, washes, hot-air dries and refills. It's the biggest dock of the three, at 14.55 x 18.18 x 17.19 in.</li><li><strong>Roborock Q7 M5+ (best budget alternative):</strong> LiDAR with automatic multi-floor maps, anti-tangle brushes and a compact self-emptying dock with a 2.7 L bag. Basic mop pad.</li><li><strong>Shark AI Ultra AV2501S (bagless alternative):</strong> 360° LiDAR, a bagless HEPA base that holds up to 30 days of debris and a self-cleaning brushroll. No mop.</li></ul><p>All specs come from each manufacturer's US website, checked November 1, 2026. We don't test robots ourselves.</p>"
+    },
+    {
+      "h2": "Why this ranking",
+      "html": "<p>The ranking follows the weighted criteria above. <strong>The eufy Omni E25 comes first</strong> because it leads on hands-off upkeep (25%), where its dock also washes, dries and refills the mop; on mopping (10%), with a self-cleaning roller; and on support you can check (20%), as the only brand of the three whose US warranty policy states a software-update period. It ties the others on LiDAR navigation and adds camera-based obstacle avoidance (25%).</p><p><strong>The Roborock Q7 M5+ is second:</strong> it matches the Shark on navigation and warranty, adds automatic multi-floor mapping, a 7-week bag and a mop pad, and has the smallest dock. <strong>The Shark AV2501S is third</strong> only because it has no mop (10%) and the shortest published self-empty capacity (30 days); its bagless base is the best choice if you never want to buy dock bags.</p>"
+    },
+    {
+      "h2": "Update log",
+      "html": "<ul><li><strong>November 1, 2026:</strong> Page published. Checked the court case status on the claims agent's site (closed by final decree on February 25, 2026), iRobot's SEC filings, press releases, customer FAQ, warranty and app pages, and the US product pages for the eufy Omni E25, Roborock Q7 M5+ and Shark AV2501S.</li></ul>"
+    }
+  ],
+  "faq": [
+    { "q": "Is iRobot going out of business?", "a": "No. iRobot used a prepackaged Chapter 11 case, filed December 14, 2025, to transfer full ownership to Picea, its main manufacturer and secured lender. The plan took effect January 23, 2026, the court closed the case on February 25, 2026, and iRobot has kept selling and launching Roomba robots since then." },
+    { "q": "Will my Roomba still work after the bankruptcy?", "a": "Yes. iRobot says it plans to keep supporting current products, including customer service, software updates where applicable and warranty coverage, and that no changes to app functionality are planned. Nothing it has announced disables any Roomba." },
+    { "q": "Who owns iRobot now?", "a": "Picea: Shenzhen PICEA Robotics Co., Ltd. and its subsidiary Santrum Hong Kong Co., Limited. Picea received 100% of the reorganized company's stock. iRobot remains headquartered in Bedford, Massachusetts, and says a separate US subsidiary, iRobot Safe, oversees the protection of US consumer data." },
+    { "q": "Will iRobot still honor my Roomba warranty?", "a": "Yes. iRobot's FAQ says warranty coverage continues. The standard limited warranty covers a new robot, including its battery, for one year from purchase or delivery when bought from iRobot or an authorized seller. Have your serial number and proof of purchase ready." },
+    { "q": "Which app does my Roomba use now?", "a": "iRobot says the Roomba Home app works with Roomba 100, 200, Plus 400 and Plus 500 series robots sold after March 2025; owners of other models should use the iRobot Home (Classic) app. Newer models such as the Max 875 Combo also use Roomba Home." },
+    { "q": "Can I still buy Roomba parts and accessories?", "a": "Yes. iRobot's US store was selling accessories on November 1, 2026. Use genuine or iRobot-recommended parts while your robot is under warranty, since the warranty doesn't cover defects related to other spare parts." },
+    { "q": "What happened to iRobot stock?", "a": "Nasdaq suspended trading on December 22, 2025, and the existing shares were canceled when the plan took effect on January 23, 2026. Stockholders received nothing, and iRobot filed to deregister with the SEC on January 26, 2026." },
+    { "q": "Why did iRobot file for bankruptcy?", "a": "iRobot had warned in March 2025 of substantial doubt about its ability to continue as a going concern, a year after Amazon's planned acquisition was called off. Reuters reported, citing the court filings, that competition from lower-priced rivals and new US tariffs, including a 46% levy on imports from Vietnam, cut into its business." },
+    { "q": "Is it safe to buy a new Roomba in 2026?", "a": "iRobot is operating normally after the restructuring, launched new robots in July and September 2026 and offers the same one-year limited warranty as Roborock and Shark. Choose it, or an alternative, on features rather than on the bankruptcy." }
+  ],
+  "independentTesters": [
+    { "name": "The Verge", "url": "https://www.theverge.com/news/844474/who-is-picea-robotics-company-owns-irobot", "note": "Explainer by Jennifer Pattison Tuohy, published December 15, 2025: describes Picea (also known as 3irobotix) as one of the largest original design manufacturers of robot vacuums, and reports that iRobot hired it as its contract manufacturer after the Amazon deal collapsed and launched a new Roomba lineup made with Picea." },
+    { "name": "TechRadar", "url": "https://www.techradar.com/home/robot-vacuums/its-business-as-usual-the-app-is-working-warranties-will-be-honored-irobot-ceo-reassures-roomba-owners-following-takeover", "note": "Interview by Ruth Hamilton, published December 22, 2025: Gary Cohen, iRobot's CEO at the time, said the app is working, warranties will be honored and firmware updates will continue." }
+  ],
+  "sources": [
+    "https://cases.stretto.com/iRobot",
+    "https://media.irobot.com/2025-12-14-iRobot-Announces-Strategic-Transaction-to-Drive-Long-Term-Growth-Plan",
+    "https://www.sec.gov/Archives/edgar/data/1159167/000119312525318337/d97115d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1159167/000115916725000097/irbt-20251215.htm",
+    "https://www.sec.gov/Archives/edgar/data/1159167/000115916726000006/irbt-20260122.htm",
+    "https://www.sec.gov/Archives/edgar/data/1159167/000115916726000006/exhibit991.htm",
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001159167&type=&dateb=&owner=include&count=40",
+    "https://media.irobot.com/2026-01-23-iRobot-Completes-Court-Supervised-Transaction-with-Picea,-Enabling-the-Next-Chapter-of-Growth",
+    "https://media.irobot.com/2025-03-12-iRobot-Reports-Fourth-Quarter-and-Full-Year-2024-Financial-Results",
+    "https://media.irobot.com/2024-01-29-Amazon-and-iRobot-agree-to-terminate-pending-acquisition",
+    "https://media.irobot.com/2026-03-10-iRobot-Launches-Roomba-R-Mini-Robot-Vacuum-Mop-AutoEmpty-TM-Dock-in-UK-and-Europe",
+    "https://media.irobot.com/2026-07-07-iRobot-Redefines-Floor-Care-with-the-Introduction-of-a-5-in-1-Disinfecting-Hard-Floor-Cleaner-Along-with-a-New-Generation-of-Roomba-Robots",
+    "https://media.irobot.com/2026-09-02-iRobot-Redefines-Hands-Free-Cleaning-with-its-Most-Powerful-Robot-Ever,-the-Roomba-R-Max-875-Combo",
+    "https://media.irobot.com/2026-09-04-iRobot-Unveils-Roomba-R-Duo-at-IFA-2026,-Proving-the-Future-of-Floor-Care-Has-a-Familiar-Name",
+    "https://www.irobot.com/en_US/here-to-stay-company-update.html",
+    "https://www.irobot.com/en_US/roomba-home-app.html",
+    "https://homesupport.irobot.com/articles/en_US/Knowledge/3096",
+    "https://homesupport.irobot.com/articles/en_US/Knowledge/31220",
+    "https://www.irobot.com/en_US/protect.html",
+    "https://www.irobot.com/en_US/legal/protection-plan/protect-plus-faqs.html",
+    "https://www.irobot.com/en_US/us/accessories",
+    "https://www.bnnbloomberg.ca/business/technology/2025/12/15/roomba-maker-irobot-files-for-bankruptcy-pursues-manufacturer-buyout/",
+    "https://www.theverge.com/news/844474/who-is-picea-robotics-company-owns-irobot",
+    "https://www.techradar.com/home/robot-vacuums/its-business-as-usual-the-app-is-working-warranties-will-be-honored-irobot-ceo-reassures-roomba-owners-following-takeover",
+    "https://www.eufy.com/products/t2353111",
+    "https://www.eufy.com/products/robot-vacuum-omni-e25-cleaning-solution",
+    "https://service.eufy.com/article-description/Does-the-E28-Robot-Support-Multiple-Floors-Can-the-E28-Robot-Save-Multiple-Maps",
+    "https://us.eufy.com/policies/refund-policy",
+    "https://us.roborock.com/products/roborock-q7-m5-plus",
+    "https://us.roborock.com/pages/roborock-q7-series",
+    "https://us.roborock.com/pages/roborock-q-series",
+    "https://us.roborock.com/pages/service-warranty",
+    "https://www.sharkninja.com/shark-ai-ultra-robot-self-empty/AV2501S.html"
+  ],
+  "related": [
+    "/us/entretien-maison/aspirateurs-robots",
+    "/us/entretien-maison/aspirateurs-laveurs",
+    "/us/black-friday/aspirateurs-robots",
+    "/us/guides/probleme/robot-aspirateur-wifi-deconnexion",
+    "/us/guides/probleme/robot-aspirateur-batterie-faible",
+    "/us/methodologie"
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "locale": "de",
+  "type": "guide",
+  "slug": "saugroboter-mit-wischfunktion",
+  "updated": "2026-11-01",
+  "metaTitle": "Saugroboter mit Wischfunktion: Ratgeber & 3 Empfehlungen",
+  "metaDescription": "Saugroboter mit Wischfunktion: Worauf es bei Wischsystem, Station und Teppich ankommt. 3 Empfehlungen von Dreame und Ecovacs mit datierten Testnoten.",
+  "kicker": "Ratgeber · Saug-Wischroboter",
+  "h1": "Saugroboter mit Wischfunktion: Worauf es beim Kauf wirklich ankommt",
+  "answer": "Beim Saugroboter mit Wischfunktion zählen drei Dinge: wie er wischt, was die Station übernimmt und wie er Teppiche schützt. Unsere Empfehlung ist der Dreame X50 Ultra Complete: Er legt die Mopps vor Hochflor automatisch ab, wäscht sie mit bis zu 80 °C heißem Wasser und klettert über Schwellen bis 4,2 cm. Für glatte Hartböden passt der Ecovacs X12 OmniCyclone mit Wischwalze, Preis-Tipp ist der L10s Ultra Gen 3.",
+  "picks": [
+    {
+      "brand": "Dreame",
+      "model": "X50 Ultra Complete",
+      "role": "Unsere Empfehlung",
+      "why": "Er legt seine Wischmopps vor Hochflorteppichen automatisch ab und hebt sie auf Kurzflor um 10,5 mm an; unter den verglichenen Modellen nennt sonst nur Roborock beim Qrevo Edge 2 eine Moppablage. Die Station wäscht die Mopps mit bis zu 80 °C heißem Wasser, und in der CHIP-Bestenliste steht er mit der Note 1,4 („sehr gut“) auf Platz 5 (abgerufen am 01.11.2026).",
+      "bestFor": "Wohnungen mit Teppichen und Hartböden im Wechsel, Altbau mit Türschwellen, Küchen mit Fettspritzern",
+      "asin": "B0DPB7RN2L",
+      "manufacturerUrl": "https://de.dreametech.com/products/dreame-x50-ultra-complete-saugroboter",
+      "specs": {
+        "Wischsystem": "2 rotierende Wischmopps, Pad fährt bis 4 cm aus (MopExtend RoboSwing), Dual Flex Arm, 32 Wassermengenstufen",
+        "Teppichschutz": "Mopps werden auf Hochflor automatisch abgelegt, auf Kurzflor um 10,5 mm angehoben",
+        "Moppwäsche": "Heißwasser bis 80 °C, 4 Temperaturstufen, integrierter Kalkhemmer",
+        "Trocknung": "Heißluft",
+        "Frisch-/Schmutzwassertank": "4,5 l / 4,0 l",
+        "Absaugung": "Staubbeutel 3,2 l, bis zu 100 Tage ohne manuelles Entleeren (Herstellerangabe)",
+        "Reinigungsmittel": "automatische Dosierung",
+        "Saugleistung": "bis zu 20.000 Pa",
+        "Schwellen": "bis 4,2 cm (einzelne Stufe), bis 6 cm (zwei Stufen, ProLeap)",
+        "Navigation": "VersaLift DToF",
+        "Hinderniserkennung": "KI-RGB und strukturiertes 3D-Licht",
+        "Höhe Roboter": "89 mm (111 mm mit ausgefahrenem VersaLift-Sensor)",
+        "Akku": "6.400 mAh",
+        "Maße Station": "457 × 340 × 590 mm",
+        "Wasseranschluss": "Wasseranbausatz für automatisches Befüllen und Entleeren separat erhältlich, Verfügbarkeit je nach Region",
+        "Garantie (Dreame-Shop)": "3 Jahre"
+      }
+    },
+    {
+      "brand": "Ecovacs",
+      "model": "Deebot X12 OmniCyclone",
+      "role": "Die Alternative mit Wischwalze",
+      "why": "Statt Tellermopps wischt eine 27 cm lange Walze, die laut Ecovacs sofort selbstreinigend ist; FocusJet sprüht verdünnte Reinigungslösung gezielt auf angetrocknete Flecken. Auf Teppich hebt sich die Walze um 15 mm und wird abgedeckt, und CHIP führt das Modell mit 1,5 („sehr gut“) auf Platz 13 der Bestenliste (abgerufen am 01.11.2026).",
+      "bestFor": "Große, ebene Hartböden wie Fliesen, Vinyl oder Laminat, angetrocknete Flecken, Haushalte ohne Lust auf Staubbeutel",
+      "asin": "B0GJD7VMPX",
+      "manufacturerUrl": "https://www.ecovacs.com/de/shop/deebot-robotic-vacuum-cleaner/deebot-x12-omnicyclone",
+      "specs": {
+        "Wischsystem": "Wischwalze OZMO ROLLER 3.0, 27 cm lang, sofort selbstreinigend; FocusJet-Fleckenvorbehandlung",
+        "Kantenreinigung": "TruEdge 3.0, luftgefederte Walze mit 2,58 cm erweiterter Reichweite",
+        "Teppichschutz": "Ultraschall-Teppicherkennung; Walze hebt sich um 15 mm, Abdeckmechanismus verhindert Kontakt mit Teppichfasern",
+        "Moppwäsche": "Frischwasser-Hochdruckreinigung mit erhitztem Wasser (Temperatur nicht angegeben), zwei Abzieher",
+        "Trocknung": "Heißluft 63 °C, 2, 3 (Standard) oder 4 Std.",
+        "Frisch-/Schmutzwassertank": "3,5 l / 2,7 l",
+        "Schmutzwasserbehälter": "automatische Selbstreinigung (Propeller mit bis zu 5.000 U/min)",
+        "Absaugung": "beutellos (OmniCyclone), 1,6-l-Staubbehälter, bis zu 48 Tage (Herstellerangabe)",
+        "Saugleistung": "bis zu 0,22 bar (22.000 Pa), Luftstrom 22 l/s",
+        "Schwellen": "bis 2,4 cm (einzelne Schwelle), bis 4 cm (Doppelstufe, TruePass 4WD)",
+        "Hinderniserkennung": "AIVI 3D 4.0",
+        "Navigation": "dToF",
+        "Höhe Roboter": "98 mm",
+        "Akku": "4.000 mAh",
+        "Laden": "13 % Akku in 3 Minuten während der Waschpausen (PowerBoost Charging Plus)",
+        "Herstellergarantie": "2 Jahre (Ecovacs Europe)"
+      }
+    },
+    {
+      "brand": "Dreame",
+      "model": "L10s Ultra Gen 3 Kit",
+      "role": "Preis-Tipp mit Komplettstation",
+      "why": "Seine Station saugt ab, wäscht und trocknet die Mopps mit Warmluft und dosiert Reinigungsmittel selbst; das Wischpad fährt an Kanten bis 4 cm aus. netzwelt vergab dem L10s Ultra Gen 3 im August 2026 die Gesamtnote 1,8 („gut“) und für die Wischleistung 1,6, kritisierte aber die Saugleistung auf Teppich.",
+      "bestFor": "Überwiegend Hartboden mit wenigen flachen Teppichen; wer auf Heißwasserwäsche verzichten kann",
+      "asin": "B0H2FPG8NY",
+      "manufacturerUrl": "https://de.dreametech.com/products/dreame-l10s-ultra-gen-3-kit-saugroboter",
+      "specs": {
+        "Wischsystem": "2 rotierende Wischmopps, Wischpad fährt bis 4 cm aus (MopExtend RoboSwing), 32 Feuchtigkeitsstufen",
+        "Teppichschutz": "Mopp-Anhebung um 10,5 mm; Teppich-Saugverstärkung und „Zuerst Teppich saugen“ per App",
+        "Moppwäsche": "AceClean DryBoard mit 20 Sprühdüsen (keine Heißwasserwäsche angegeben)",
+        "Trocknung": "Warmluft",
+        "Frisch-/Schmutzwassertank": "4,5 l / 4,0 l",
+        "Absaugung": "Staubbeutel 3,2 l, bis zu 100 Tage ohne manuelles Entleeren (Herstellerangabe)",
+        "Reinigungsmittel": "automatische Dosierung",
+        "Saugleistung": "bis zu 25.000 Pa",
+        "Hinderniserkennung": "3DAdapt mit integriertem dynamischem Laser",
+        "Höhe Roboter": "97 mm",
+        "Akku": "5.200 mAh",
+        "Maße Station": "457 × 340 × 590 mm",
+        "Wasseranschluss": "Wasseranbausatz separat erhältlich, laut Dreame in einigen Regionen verfügbar"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Modell",
+      "Wischsystem",
+      "Teppichschutz",
+      "Moppwäsche / Trocknung",
+      "Tanks / Staub",
+      "Schwellen",
+      "Höhe",
+      "Unabhängige Ergebnisse"
+    ],
+    "rows": [
+      [
+        "Dreame X50 Ultra Complete",
+        "2 rotierende Mopps, Pad fährt bis 4 cm aus",
+        "Ablage auf Hochflor, 10,5 mm Anhebung auf Kurzflor",
+        "bis 80 °C / Heißluft",
+        "4,5 l / 4,0 l; Staubbeutel",
+        "4,2 cm (einzeln), 6 cm (zwei Stufen)",
+        "89 mm",
+        "CHIP: Platz 5, 1,4 (sehr gut), 01.11.2026; in der Datenbank der Stiftung Warentest seit 27.11.2025 (Note kostenpflichtig)"
+      ],
+      [
+        "Ecovacs Deebot X12 OmniCyclone",
+        "Wischwalze 27 cm, FocusJet",
+        "15 mm Anhebung mit Abdeckung, Ultraschall-Teppicherkennung",
+        "erhitztes Frischwasser (Temperatur nicht angegeben) / Heißluft 63 °C, 2, 3 oder 4 Std.",
+        "3,5 l / 2,7 l; beutellos, 1,6 l",
+        "2,4 cm (einzeln), 4 cm (Doppelstufe)",
+        "98 mm",
+        "CHIP: Platz 13, 1,5 (sehr gut), 01.11.2026"
+      ],
+      [
+        "Dreame L10s Ultra Gen 3 Kit",
+        "2 rotierende Mopps, Pad fährt bis 4 cm aus",
+        "10,5 mm Anhebung",
+        "ohne angegebene Heißwasserwäsche / Warmluft",
+        "4,5 l / 4,0 l; Staubbeutel 3,2 l",
+        "keine Angabe",
+        "97 mm",
+        "netzwelt (L10s Ultra Gen 3): 1,8 (gut), Wischleistung 1,6, 23.08.2026"
+      ],
+      [
+        "Ecovacs Deebot T90 Pro Omni",
+        "Wischwalze 27 cm, fährt 1,5 cm aus",
+        "15 mm Anhebung, Ultraschall-Teppicherkennung",
+        "bis 75 °C / Heißluft 2, 3 oder 4 Std.",
+        "4 l / 2,2 l; Staubbeutel",
+        "2,4 cm (einzeln), 4 cm (mehrere Stufen)",
+        "95 mm",
+        "netzwelt: 2,4 (gut), Wischleistung 3,0, 28.03.2026"
+      ],
+      [
+        "Roborock Qrevo Edge 2",
+        "2 rotierende Mopps, 8 N Anpressdruck",
+        "Anhebung (Höhe nicht angegeben), automatische Moppablage",
+        "bis 80 °C / Warmluft 55 °C",
+        "Tanks: keine Angabe; Absaugung bis 65 Tage",
+        "keine Angabe",
+        "79,8 mm",
+        "CHIP: Platz 18, 1,6 (gut), Set-Variante, 01.11.2026"
+      ],
+      [
+        "Roborock Qrevo S Pro",
+        "2 rotierende Mopps, bis 200 U/min",
+        "bis 10 mm Anhebung",
+        "bis 75 °C (am Heizelement) / Warmluft 45 °C",
+        "Tanks: keine Angabe; Staubbeutel, bis 65 Tage",
+        "keine Angabe",
+        "96,5 mm",
+        "netzwelt: 2,9 (befriedigend), Wischleistung 3,9, 02.05.2026"
+      ],
+      [
+        "Medion X55 SW+",
+        "rotierende Wischplatten",
+        "Anhebung bei Teppich und Schwellen (Höhe nicht angegeben)",
+        "Reinigung in der Station (ohne Temperaturangabe) / Warmluft",
+        "4 l / 3,5 l; Staubbeutel 3,5 l",
+        "keine Angabe",
+        "keine Angabe",
+        "in der Datenbank der Stiftung Warentest seit 30.06.2026 (Note kostenpflichtig)"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Wischsystem",
+      "weight": 30,
+      "explanation": "Das Wischen ist der Grund, einen Saug-Wischroboter zu kaufen, und laut Stiftung Warentest seine häufigste Schwäche. Wir vergleichen Bauart (Tellermopps oder Walze), Anpressdruck, Wassermengenstufen und Reichweite an Kanten laut Hersteller und gleichen sie mit den Wischnoten unabhängiger Tester ab."
+    },
+    {
+      "name": "Teppichschutz und Teppicherkennung",
+      "weight": 25,
+      "explanation": "Ein nasser Mopp auf dem Wohnzimmerteppich ist der ärgerlichste Fehler. Wir vergleichen, ob die Mopps angehoben (und wie hoch), abgelegt oder abgedeckt werden, welche Teppichstrategien die App bietet und ob der Hersteller einen eigenen Teppichsensor nennt."
+    },
+    {
+      "name": "Station und Hygiene",
+      "weight": 25,
+      "explanation": "Die Station entscheidet, wie oft Sie selbst Hand anlegen. Wir vergleichen Moppwäsche (mit oder ohne Heißwasser), Trocknung, Absaugung mit oder ohne Beutel, Tankgrößen und Reinigungsmittel-Dosierung, jeweils nach Herstellerangabe."
+    },
+    {
+      "name": "Schwellen, Hindernisse und Bauhöhe",
+      "weight": 10,
+      "explanation": "Türschwellen im Altbau, Kabel und niedrige Sofas begrenzen, wo der Roboter überhaupt hinkommt. Wir vergleichen die angegebene Kletterhöhe, die Hinderniserkennung und die Bauhöhe sowie die Beobachtungen der Tester."
+    },
+    {
+      "name": "Alltag und Folgekosten",
+      "weight": 10,
+      "explanation": "Staubbeutel, Reinigungslösung, Moppbezüge und Pflege der Station fallen jahrelang an. Wir vergleichen, was die Hersteller an Verbrauchsmaterial vorschreiben, wie lange die Station ohne Leeren auskommt und welche Garantie der Hersteller-Shop nennt."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Wischsystem: Tellermopps oder Wischwalze?",
+      "html": "<p><strong>Rotierende Tellermopps</strong> sind der Standard: Zwei runde Pads drehen sich unter dem Roboter und drücken auf den Boden. Bessere Modelle schwenken ein Pad an Fußleisten und Stuhlbeinen aus. Dreame nennt das MopExtend RoboSwing: Beim X50 Ultra Complete und beim L10s Ultra Gen 3 fährt das Pad bis zu 4 cm aus. Achten Sie auch darauf, wie fein sich die Wassermenge einstellen lässt: Dreame bietet bei beiden Modellen 32 Stufen.</p><p><strong>Wischwalzen</strong> wie die OZMO ROLLER 3.0 von Ecovacs rollen über den Boden und werden laut Hersteller laufend gereinigt, damit der Roboter nicht mit schmutzigem Wasser weiterwischt. Auf ebenen Fliesen, Vinyl oder Laminat spielt das seine Stärke aus. Auf unebenen Böden kann die Walze Stellen auslassen: Das stellte netzwelt beim T90 Pro Omni fest, der mit derselben Walzentechnik arbeitet.</p><p>Bleiben Sie realistisch. Die Stiftung Warentest schreibt in ihrer Übersicht vom 30.06.2026: „Viele Geräte zeigen Schwächen, vor allem beim Wischen.“ Ein Saug-Wischroboter hält Hartböden zwischendurch sauber; eingetrocknete Soßen oder Fettflecken können trotzdem einen Lappen brauchen.</p>"
+    },
+    {
+      "h2": "Die Station: Was sie Ihnen abnehmen sollte",
+      "html": "<ul><li><strong>Moppwäsche mit heißem Wasser:</strong> löst Fett aus den Pads und ist wichtig, wenn der Roboter in der Küche wischt. Dreame nennt beim X50 Ultra Complete bis 80 °C, Roborock beim Qrevo Edge 2 ebenfalls 80 °C und beim Qrevo S Pro 75 °C (gemessen am Heizelement, nicht am Mopp), Ecovacs beim T90 Pro Omni 75 °C. Beim X12 OmniCyclone nennt Ecovacs erhitztes Wasser, aber keine Temperatur; für den L10s Ultra Gen 3 gibt Dreame keine Heißwasserwäsche an.</li><li><strong>Trocknung:</strong> Warm- oder Heißluft verhindert muffigen Geruch. Roborock nennt 45 °C Lufttemperatur am Mopp (Qrevo S Pro) bzw. 55 °C am Luftauslass (Qrevo Edge 2), Ecovacs 63 °C beim X12 OmniCyclone.</li><li><strong>Absaugung:</strong> Die meisten Stationen sammeln den Staub in Beuteln; Dreame gibt bis zu 100 Tage ohne Leeren an. Der Ecovacs X12 OmniCyclone arbeitet beutellos mit einem 1,6-Liter-Behälter, der laut Ecovacs bis zu 48 Tage reicht.</li><li><strong>Tanks:</strong> Sie bestimmen, wie oft Sie nachfüllen und ausleeren. Beim X50 Ultra Complete und beim L10s Ultra Gen 3 fassen Frisch- und Schmutzwassertank 4,5 und 4,0 Liter, beim Medion X55 SW+ 4 und 3,5 Liter, beim X12 OmniCyclone 3,5 und 2,7 Liter, beim T90 Pro Omni 4 und 2,2 Liter.</li><li><strong>Reinigungsmittel:</strong> Die Dreame-Stationen und der T90 Pro Omni dosieren automatisch, beim X12 OmniCyclone sprüht FocusJet verdünnte Reinigungslösung gezielt auf Flecken. Dreame rät, nur die eigenen Reinigungslösungen einzufüllen, um Schäden zu vermeiden.</li><li><strong>Wasseranschluss:</strong> nicht nötig. Für den X50 Ultra Complete und den L10s Ultra Gen 3 bietet Dreame ein Kit zum automatischen Befüllen und Entleeren separat an.</li></ul><p>Planen Sie Platz ein: Die beiden Dreame-Stationen messen 457 × 340 × 590 mm, die Station des Qrevo S Pro 340 × 487 × 519 mm. Und rechnen Sie mit Aufpreis: Die Stiftung Warentest weist darauf hin, dass Stationen, die die Mopps reinigen und trocknen, oft einige Hundert Euro Aufpreis bedeuten.</p>"
+    },
+    {
+      "h2": "Teppicherkennung: anheben, ablegen oder umfahren",
+      "html": "<p>Ein Wischroboter muss Teppiche erkennen und dann richtig reagieren. Es gibt drei Lösungen:</p><ul><li><strong>Mopps anheben:</strong> der Normalfall. Die Höhe macht den Unterschied: Roborock nennt beim Qrevo S Pro bis 10 mm, Dreame 10,5 mm, Ecovacs bei seinen Walzenmodellen 15 mm. Dreame selbst setzt beim X50 Ultra Complete das Anheben für Kurzflor ein.</li><li><strong>Mopps ablegen:</strong> Vor Hochflorteppichen entfernt der X50 Ultra Complete die Mopps automatisch und saugt dort nur; eine automatische Moppablage nennt Roborock auch für den Qrevo Edge 2. Für Hochflor und empfindliche Wollteppiche ist das die sicherste Lösung.</li><li><strong>Umfahren oder sperren:</strong> per App. Die Stiftung Warentest weist darauf hin, dass sich bei fast allen Robotern Sperrzonen einrichten lassen, damit kein Teppich feucht wird.</li></ul><p>Prüfen Sie nach der Einrichtung die Einstellungen: Beim Roborock Qrevo S Pro muss die Teppichstrategie (Saugkraft erhöhen oder Teppich auslassen) manuell in der App aktiviert werden. Dreame bietet beim L10s Ultra Gen 3 „Zuerst Teppich saugen“, Ecovacs nennt beim T90 Pro Omni und beim X12 OmniCyclone eine Ultraschall-Teppicherkennung und einen Modus, der erst saugt und dann wischt.</p>"
+    },
+    {
+      "h2": "Schwellen, Hindernisse und niedrige Möbel",
+      "html": "<p>Im Altbau stoppen Türschwellen viele Roboter. Messen Sie Ihre höchste Schwelle: Der X50 Ultra Complete überwindet laut Dreame einzelne Stufen bis 4,2 cm und Doppelstufen bis 6 cm, die Ecovacs-Modelle X12 OmniCyclone und T90 Pro Omni einzelne Schwellen bis 2,4 cm. Für den L10s Ultra Gen 3 und die beiden Roborock-Modelle nennen die Herstellerseiten keinen Wert.</p><p>Unter Sofas und Betten zählt die Bauhöhe: Der Qrevo Edge 2 misst 79,8 mm, der X50 Ultra Complete 89 mm mit eingefahrenem Sensor, der T90 Pro Omni 95 mm, der Qrevo S Pro 96,5 mm, der L10s Ultra Gen 3 97 mm und der X12 OmniCyclone 98 mm. Messen Sie den Abstand unter Ihrem niedrigsten Möbel nach.</p><p>Kabel und Kleinteile bleiben eine Schwachstelle: netzwelt bemängelte beim L10s Ultra Gen 3, dass die Hinderniserkennung Kabel und Kleinteile nicht zuverlässig erkannte. Räumen Sie vor dem ersten Lauf auf und legen Sie für Kabelecken Sperrzonen an.</p>"
+    },
+    {
+      "h2": "Welcher Saug-Wischroboter passt zu Ihnen?",
+      "html": "<ul><li><strong>Dreame X50 Ultra Complete</strong>, wenn bei Ihnen Hartboden und Teppiche wechseln, Hochflor oder hohe Türschwellen dazugehören und der Roboter auch in der Küche wischen soll.</li><li><strong>Ecovacs Deebot X12 OmniCyclone</strong>, wenn Sie große, ebene Hartböden haben, angetrocknete Flecken stören und Sie keine Staubbeutel nachkaufen möchten. Bei Dielen mit Fugen oder unebenen Fliesen sind Tellermopps die sicherere Wahl.</li><li><strong>Dreame L10s Ultra Gen 3</strong>, wenn Sie vor allem Hartboden wischen lassen, nur flache Teppiche liegen haben und eine Komplettstation ohne Heißwasserwäsche reicht.</li></ul>"
+    },
+    {
+      "h2": "Und Roborock?",
+      "html": "<p>Roborock gehört in Deutschland zu den bekanntesten Marken, landet aber diesmal nicht unter unseren drei Empfehlungen. Der <strong>Qrevo Edge 2</strong> überzeugt auf dem Papier mit 80 °C heißer Moppwäsche, 55 °C Warmluft, automatischer Moppablage und nur 79,8 mm Bauhöhe; CHIP vergibt für die Set-Variante 1,6 („gut“). Die Produktseite nennt aber weder die Anhebehöhe der Mopps noch Tankgrößen oder Kletterhöhe, und eine frei veröffentlichte Wischnote fehlt. Beim <strong>Qrevo S Pro</strong> lobte netzwelt im Mai 2026 Navigation und Hinderniserkennung, bewertete die Wischleistung aber nur mit 3,9.</p><p>Ganz oben in der CHIP-Bestenliste stehen derzeit der Dreame X60 Pro Ultra Complete und der Roborock Saros 20, beide mit 1,4 („sehr gut“), also mit derselben Gesamtnote wie unser X50 Ultra Complete (abgerufen am 01.11.2026).</p>"
+    },
+    {
+      "h2": "Was die Stiftung Warentest veröffentlicht hat",
+      "html": "<p>Die Stiftung Warentest führt ihre Ergebnisse zu Saug- und Wischrobotern in einer Datenbank, die laufend erweitert wird: Stand der Übersicht ist der 30.06.2026, enthalten sind 44 Geräte, Mitte 2026 kamen sieben neue hinzu. Die Noten sind kostenpflichtig; frei sichtbar sind Modellnamen und Veröffentlichungsdaten. Von unseren Empfehlungen ist der Dreame X50 Ultra Complete enthalten (online seit 27.11.2025), aus dem erweiterten Vergleich der Medion X55 SW+ (seit 30.06.2026). Eine Note nennen wir nur, wenn sie frei veröffentlicht ist.</p><p>Frei lesbar sind einige allgemeine Ergebnisse: Für Hartboden ist die Auswahl guter Roboter viel größer als für Teppich, Tierhaare entfernen, Teppich saugen oder wischen können nur wenige Modelle gut, und der Preis sagt laut den Testern nicht immer etwas über die Qualität aus. Geprüft wird außerdem, ob die Apps Daten senden, die für den Betrieb unnötig sind.</p>"
+    },
+    {
+      "h2": "Folgekosten und Pflege",
+      "html": "<ul><li><strong>Staubbeutel:</strong> Die Dreame-Modelle, der Roborock Qrevo S Pro und der T90 Pro Omni sammeln den Staub in Beuteln. Der X12 OmniCyclone kommt ohne aus, sein Staubbehälter wird von Hand geleert.</li><li><strong>Reinigungslösung:</strong> Bei automatischer Dosierung brauchen Sie Nachschub. Dreame empfiehlt ausdrücklich die eigenen Lösungen.</li><li><strong>Mopps und Walzen:</strong> Pads und Walzen nutzen sich ab; die Hersteller bieten sie als Ersatzteil an.</li><li><strong>Station reinigen:</strong> Waschbrett oder Waschwanne sammeln Schmutz. Dreame setzt auf ein selbstreinigendes Waschbrett (AceClean DryBoard). Beim T90 Pro Omni musste die Waschwanne im Test von netzwelt von Hand gereinigt werden; Ecovacs gibt für diese Wanne bis zu 150 Tage ohne Wartung an.</li><li><strong>Kalk:</strong> Bei hartem Leitungswasser hilft ein Kalkschutz; Dreame baut ihn beim X50 Ultra Complete ein.</li></ul>"
+    },
+    {
+      "h2": "Warum diese Reihenfolge",
+      "html": "<p>Wir testen nicht selbst. Wir vergleichen Herstellerangaben für den deutschen Markt und veröffentlichte Ergebnisse unabhängiger Tester und gewichten fünf Kriterien: <strong>Wischsystem 30 %</strong>, <strong>Teppichschutz 25 %</strong>, <strong>Station 25 %</strong>, <strong>Schwellen, Hindernisse und Bauhöhe 10 %</strong>, <strong>Alltag und Folgekosten 10 %</strong>. Klicks und Provisionen fließen nicht in die Bewertung ein; der Preis entscheidet nur darüber, welches Modell als Preis-Tipp infrage kommt.</p><ul><li><strong>Dreame X50 Ultra Complete (Platz 1):</strong> ausfahrendes Pad und 32 Wassermengenstufen, Moppablage bei Hochflor und 10,5 mm Anhebung auf Kurzflor, Heißwasserwäsche bis 80 °C mit großen Tanks und die höchste angegebene Kletterhöhe. Er liegt bei Teppichschutz, Station und Schwellen vorn und hat das beste CHIP-Gesamturteil im Vergleich (1,4).</li><li><strong>Ecovacs Deebot X12 OmniCyclone (Platz 2):</strong> auf dem Papier das aufwendigste Wischsystem (Walze, FocusJet, 2,58 cm Kantenreichweite) und guter Teppichschutz mit 15 mm Anhebung und Abdeckung. Er verliert Punkte bei der Station, weil Ecovacs für die Walzenwäsche keine Temperatur nennt und die Tanks mit 3,5 und 2,7 Litern kleiner sind, und bei Schwellen (2,4 cm einzeln).</li><li><strong>Dreame L10s Ultra Gen 3 (Preis-Tipp):</strong> unter den Modellen der günstigeren Klasse mit Komplettstation am stärksten: beste frei veröffentlichte Wischnote im Vergleich (netzwelt 1,6), ausfahrendes Pad, große Tanks und automatische Dosierung. Abzüge gibt es für die geringe Anhebung von 10,5 mm, die fehlende Heißwasserwäsche und die fehlende Angabe zur Kletterhöhe.</li></ul><p>Nach Punkten läge der <strong>Roborock Qrevo Edge 2</strong> vor dem L10s Ultra Gen 3: Heißwasserwäsche bis 80 °C, automatische Moppablage und mit 79,8 mm die flachste Bauweise im Vergleich. Vor den X12 OmniCyclone kommt er nicht, weil eine frei veröffentlichte Wischnote fehlt und Roborock weder Anhebehöhe noch Tankgrößen oder Kletterhöhe nennt; als Preis-Tipp kommt er nicht infrage, weil er nicht zur günstigeren Klasse gehört. Der T90 Pro Omni (Wischleistung 3,0 bei netzwelt), der Qrevo S Pro (3,9) und der Medion X55 SW+ (ohne Angaben zu Anhebehöhe, Waschtemperatur und Kletterhöhe) bleiben in unseren Kriterien darunter.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Lohnt sich ein Saugroboter mit Wischfunktion?",
+      "a": "Für Hartböden ja: Er nimmt Staub und frische Flecken mehrmals pro Woche auf, ohne dass Sie zum Wischmopp greifen. Mit vielen Teppichen sollten Sie auf eine hohe Mopp-Anhebung oder eine Moppablage achten. Laut Stiftung Warentest ist die Auswahl guter Roboter für Hartboden viel größer als für Teppich."
+    },
+    {
+      "q": "Ersetzt der Roboter das Wischen von Hand?",
+      "a": "Nicht ganz. Für die tägliche Pflege reicht er, bei eingetrockneten oder fettigen Flecken stoßen viele Modelle an Grenzen. netzwelt beobachtete etwa beim T90 Pro Omni, dass Ketchup- und Soßenreste auf unebenem Boden nur oberflächlich gelöst wurden. Planen Sie gelegentlich eine Grundreinigung von Hand ein."
+    },
+    {
+      "q": "Wischwalze oder rotierende Mopps: Was ist besser?",
+      "a": "Walzen wie bei Ecovacs werden laut Hersteller während der Fahrt laufend gereinigt und spielen ihre Stärke auf ebenen Fliesen, Vinyl und Laminat aus. Rotierende Mopps passen sich unebenen Böden und Dielen besser an und erreichen mit ausschwenkendem Pad auch Ecken. Bei Altbau-Dielen raten wir zu Tellermopps."
+    },
+    {
+      "q": "Wird mein Teppich beim Wischen nass?",
+      "a": "Bei Kurzflor in der Regel nicht, wenn der Roboter die Mopps anhebt (10 bis 15 mm je nach Modell). Bei Hochflor ist eine automatische Moppablage wie beim Dreame X50 Ultra Complete oder Roborock Qrevo Edge 2 sicherer. Alternativ richten Sie in der App eine Sperrzone ein oder lassen Teppiche zuerst saugen und erst danach wischen."
+    },
+    {
+      "q": "Was sagt die Stiftung Warentest zu Saug-Wischrobotern?",
+      "a": "Ihre Datenbank umfasst 44 Saug- und Wischroboter (Stand 30.06.2026); die Noten sind nur gegen Gebühr einsehbar. Frei veröffentlicht hat sie, dass viele Geräte vor allem beim Wischen Schwächen zeigen und dass nur wenige Modelle Tierhaare entfernen, Teppich saugen oder wischen gut beherrschen. Der Dreame X50 Ultra Complete und der Medion X55 SW+ gehören zu den geprüften Modellen."
+    },
+    {
+      "q": "Brauche ich einen Wasseranschluss für die Station?",
+      "a": "Nein. Die Stationen arbeiten mit Frisch- und Schmutzwassertank, die Sie von Hand füllen und leeren. Für den X50 Ultra Complete und den L10s Ultra Gen 3 bietet Dreame ein Kit für automatisches Befüllen und Entleeren separat an; die Verfügbarkeit hängt laut Dreame von der Region ab."
+    },
+    {
+      "q": "Welches Reinigungsmittel darf in die Station?",
+      "a": "Verwenden Sie, was der Hersteller vorgibt. Dreame rät ausdrücklich zu den eigenen Reinigungslösungen, um Schäden zu vermeiden. Ecovacs dosiert beim T90 Pro Omni automatisch und bietet auch für den X12 OmniCyclone eigene Reinigungslösungen an."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Stiftung Warentest",
+      "url": "https://www.test.de/Saugroboter-im-Test-4806685-0/",
+      "note": "Übersicht vom 30.06.2026: 44 Saug- und Wischroboter in der Datenbank, Mitte 2026 um sieben Geräte erweitert; Noten nur kostenpflichtig. Frei veröffentlicht: Viele Geräte zeigen vor allem beim Wischen Schwächen, für Hartboden ist die Auswahl guter Roboter viel größer als für Teppich. Enthalten sind u. a. Dreame X50 Ultra Complete (online seit 27.11.2025) und Medion X55 SW+ (30.06.2026)."
+    },
+    {
+      "name": "CHIP",
+      "url": "https://www.chip.de/bestenlisten/Bestenliste-Saugroboter--index/index/id/1432/",
+      "note": "Bestenliste Saugroboter, abgerufen am 01.11.2026: Dreame X50 Ultra Complete Platz 5, Testurteil 1,4 (sehr gut); Ecovacs Deebot X12 OmniCyclone Platz 13, 1,5 (sehr gut); Roborock Qrevo Edge 2 Set Platz 18, 1,6 (gut). An der Spitze: Dreame X60 Pro Ultra Complete und Roborock Saros 20, je 1,4."
+    },
+    {
+      "name": "netzwelt",
+      "url": "https://www.netzwelt.de/dreame-l10s-ultra-gen-3/testbericht.html",
+      "note": "23.08.2026: Dreame L10s Ultra Gen 3 mit Testnote 1,8 (gut) und Wischleistung 1,6; gelobt werden Wischergebnis, beweglicher Mopp und voll ausgestattete Station, kritisiert die eher schwache Saugleistung auf Teppich und die unzuverlässige Erkennung von Kabeln und Kleinteilen."
+    },
+    {
+      "name": "netzwelt",
+      "url": "https://www.netzwelt.de/ecovacs-deebot-t90-pro-omni/testbericht.html",
+      "note": "28.03.2026: Ecovacs Deebot T90 Pro Omni mit Testnote 2,4 (gut) und Wischleistung 3,0; die ausfahrbare Walze wischt nah am Rand, auf unebenen Böden bleibt die Wischleistung lückenhaft, die Waschwanne der Station muss von Hand gereinigt werden."
+    },
+    {
+      "name": "netzwelt",
+      "url": "https://www.netzwelt.de/roborock-qrevo-s-pro/testbericht.html",
+      "note": "02.05.2026: Roborock Qrevo S Pro mit Testnote 2,9 (befriedigend) und Wischleistung 3,9; gute Navigation und Hinderniserkennung, hygienische Moppreinigung in der Station, aber nur ausreichende Wischleistung und mäßige Saugleistung auf Teppich."
+    }
+  ],
+  "sources": [
+    "https://de.dreametech.com/products/dreame-x50-ultra-complete-saugroboter",
+    "https://de.dreametech.com/products/dreame-l10s-ultra-gen-3-kit-saugroboter",
+    "https://www.ecovacs.com/de/shop/deebot-robotic-vacuum-cleaner/deebot-x12-omnicyclone",
+    "https://help.ecovacs.com/de/support/warranty",
+    "https://www.ecovacs.com/de/shop/deebot-robotic-vacuum-cleaner/deebot-t90-pro-omni",
+    "https://de.roborock.com/pages/roborock-qrevo-edge-2",
+    "https://de.roborock.com/pages/roborock-qrevo-s-pro",
+    "https://www.medion.com/de/shop/p/saugroboter-medion-saugroboter-mit-3-in-1-absaugstation-x55-sw--wischfunktion-rotierende-und-bewegliche-wischmopps-lasernavigation-hinderniserkennung-durch-kreuzlinienlaser-starke-10-000-pa-saugkraft-praezise-kartenerstellung-50077776A1",
+    "https://www.test.de/Saugroboter-im-Test-4806685-0/",
+    "https://www.test.de/Saugroboter-im-Test-4806685-tabelle/",
+    "https://www.test.de/Saugroboter-im-Test-4806685-tabelle/2/",
+    "https://www.chip.de/bestenlisten/Bestenliste-Saugroboter--index/index/id/1432/",
+    "https://www.netzwelt.de/dreame-l10s-ultra-gen-3/testbericht.html",
+    "https://www.netzwelt.de/ecovacs-deebot-t90-pro-omni/testbericht.html",
+    "https://www.netzwelt.de/roborock-qrevo-s-pro/testbericht.html"
+  ],
+  "related": [
+    "/de/entretien-maison/aspirateurs-laveurs",
+    "/de/entretien-maison/aspirateurs-robots",
+    "/de/blog/comparatif-robot-aspirateur-laveur",
+    "/de/blog/guide-robot-aspirateur-2026",
+    "/de/blog/saugroboter-tierhaare-test",
+    "/de/blog/meilleur-aspirateur-laveur-2026"
+  ]
+}

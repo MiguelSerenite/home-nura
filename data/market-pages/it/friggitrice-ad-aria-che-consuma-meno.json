@@ -1,0 +1,287 @@
+{
+  "locale": "it",
+  "type": "guide",
+  "slug": "friggitrice-ad-aria-che-consuma-meno",
+  "updated": "2026-11-01",
+  "metaTitle": "Friggitrice ad aria che consuma meno: 3 scelte 2026",
+  "metaDescription": "Friggitrice ad aria che consuma meno: watt, tempi e costo per cottura al prezzo ARERA di 0,4343 €/kWh (dal 1° ottobre 2026). 3 scelte da 1 a 4 persone.",
+  "kicker": "Guida all'acquisto · Consumi",
+  "h1": "Quale friggitrice ad aria consuma meno? Watt, tempi e costo in bolletta",
+  "answer": "Consuma meno la friggitrice con la potenza più bassa che cuoce le tue porzioni in un solo giro. Per 2–3 persone scegliamo la Philips Serie 2000 da 4,2 L (1.500 W), per 1–2 la versione da 3,2 L (1.300 W), per 4 o più l'Ariete 4626 da 6 L (1.300 W). Al prezzo ARERA di 0,4343 €/kWh, 20 minuti costano circa 13–18 centesimi.",
+  "picks": [
+    {
+      "brand": "Philips",
+      "model": "Airfryer Serie 2000 con finestrella 4,2 L (NA221/00)",
+      "role": "La nostra scelta · 2–3 persone",
+      "why": "Un cestello da 4,2 L basta a 2–3 persone in un solo giro con 1.500 W di potenza, e la finestra di controllo permette di seguire la doratura senza aprire il cestello e disperdere calore. Philips è l'unico marchio del confronto che dichiara il risparmio rispetto al forno insieme alle condizioni di misura.",
+      "bestFor": "Coppie e famiglie di tre persone che usano la friggitrice più volte a settimana",
+      "asin": "B0D4ZHBWYR",
+      "manufacturerUrl": "https://www.home-appliances.philips/it/it/p/NA221_00",
+      "specs": {
+        "Capienza": "4,2 L",
+        "Potenza (assorbimento)": "1.500 W",
+        "Temperatura massima": "200 °C",
+        "Programmi": "9 preimpostati, 13 modalità di cottura",
+        "Finestrella": "sì, finestra di controllo della cottura",
+        "Spegnimento automatico": "sì",
+        "Cestello": "1, lavabile in lavastoviglie",
+        "Dimensioni": "27,3 × 36,8 × 29,3 cm",
+        "Peso": "3,51 kg",
+        "Lunghezza del cavo": "0,8 m",
+        "Dichiarazione del produttore": "fino al 50% più veloce e fino al 70% di energia in meno rispetto a un forno di classe A (misure interne: petto di pollo a 160 °C o filetto di salmone a 200 °C, senza preriscaldare)"
+      }
+    },
+    {
+      "brand": "Ariete",
+      "model": "Friggitrice ad aria 6L (4626)",
+      "role": "Alternativa per famiglie · 4 persone e più",
+      "why": "Marchio italiano, 6 L e 2,5 kg di patatine dichiarati con appena 1.300 W: tra i modelli da 6 litri che abbiamo confrontato è quello con la potenza più bassa, 400 W in meno della Philips da 6,2 L. Il cestello trasparente aiuta a non aprire durante la cottura; Ariete però non pubblica né tempi né dati di consumo.",
+      "bestFor": "Famiglie di 4 persone o più che vogliono cuocere tutto in una sola volta",
+      "asin": "B0BVVWBPRR",
+      "manufacturerUrl": "https://www.ariete.net/it/product/ariete-friggitrice-ad-aria-airy-fryer-6l-4626",
+      "specs": {
+        "Capienza totale": "6 L",
+        "Capacità per pietanze": "2,5 kg di patatine",
+        "Potenza": "1.300 W",
+        "Temperatura": "fino a 200 °C",
+        "Programmi": "8 preimpostati",
+        "Timer": "fino a 60 minuti",
+        "Cestello": "trasparente, per controllare la cottura",
+        "Pannello": "digital touch screen",
+        "Dimensioni": "23 × 35 × 33 cm",
+        "Peso": "4,02 kg"
+      }
+    },
+    {
+      "brand": "Philips",
+      "model": "Airfryer Serie 2000 con finestrella 3,2 L (NA211/00)",
+      "role": "La scelta per 1–2 persone · 1.300 W",
+      "why": "Stessa finestra di controllo e stesso spegnimento automatico della 4,2 L, ma con 1.300 W e un cestello da 3,2 L: insieme alla Serie 1000 NA110/00 è la Philips meno potente del nostro confronto. Per chi cucina per sé o in due, non scalda aria inutilmente.",
+      "bestFor": "Single e coppie, porzioni piccole e cotture brevi",
+      "asin": "B0D59XSLHG",
+      "manufacturerUrl": "https://www.home-appliances.philips/it/it/p/NA211_00",
+      "specs": {
+        "Capienza": "3,2 L",
+        "Potenza (assorbimento)": "1.300 W",
+        "Temperatura massima": "200 °C",
+        "Programmi": "9 preimpostati, 13 modalità di cottura",
+        "Timer": "fino a 60 minuti",
+        "Finestrella": "sì, finestra di controllo della cottura",
+        "Spegnimento automatico": "sì",
+        "Dimensioni": "35,2 × 25,7 × 27,3 cm",
+        "Peso": "3,87 kg",
+        "Dichiarazione del produttore": "fino al 50% più veloce e fino al 70% di energia in meno rispetto a un forno di classe A (misure interne: petto di pollo a 160 °C o filetto di salmone a 200 °C, senza preriscaldare)"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Modello",
+      "Capienza",
+      "Potenza",
+      "Vista sul cibo",
+      "Energia stimata (20 min)",
+      "Per chi"
+    ],
+    "rows": [
+      [
+        "Philips Serie 2000 con finestrella NA221/00",
+        "4,2 L",
+        "1.500 W",
+        "Finestrella",
+        "0,35–0,43 kWh",
+        "2–3 persone"
+      ],
+      [
+        "Ariete 4626",
+        "6 L (2,5 kg di patatine)",
+        "1.300 W",
+        "Cestello trasparente",
+        "0,30–0,37 kWh",
+        "4 persone e più"
+      ],
+      [
+        "Philips Serie 2000 con finestrella NA211/00",
+        "3,2 L",
+        "1.300 W",
+        "Finestrella",
+        "0,30–0,37 kWh",
+        "1–2 persone"
+      ],
+      [
+        "Ariete 4639",
+        "4,5 L",
+        "1.300 W",
+        "Finestra",
+        "0,30–0,37 kWh",
+        "2–3 persone"
+      ],
+      [
+        "Philips Serie 1000 NA110/00",
+        "3,2 L",
+        "1.300 W",
+        "No",
+        "0,30–0,37 kWh",
+        "1–2 persone"
+      ],
+      [
+        "Philips Serie 2000 con finestrella NA230/00",
+        "6,2 L",
+        "1.700 W",
+        "Finestrella",
+        "0,40–0,48 kWh",
+        "4 persone e più"
+      ],
+      [
+        "Ninja CRISPi FN201EU",
+        "3,8 L + 2,3 L in vetro",
+        "1.700 W",
+        "Contenitori in vetro",
+        "0,40–0,48 kWh",
+        "fino a 4 porzioni"
+      ],
+      [
+        "Ariete Airy Fryer XXL 4618",
+        "7 L",
+        "1.800 W",
+        "Non dichiarata",
+        "0,42–0,51 kWh",
+        "4 persone e più"
+      ]
+    ]
+  },
+  "criteria": [
+    {
+      "name": "Potenza assorbita",
+      "weight": 40,
+      "explanation": "È il tetto del consumo: un'ora di resistenza accesa costa al massimo potenza × prezzo del kWh. Usiamo il valore dichiarato sulla scheda italiana del produttore. Meno watt non garantisce meno kWh se la cottura si allunga, per questo il criterio non decide da solo."
+    },
+    {
+      "name": "Capienza giusta per un solo giro",
+      "weight": 30,
+      "explanation": "Due infornate consumano quasi il doppio di una, e un cestello troppo grande scalda aria che non serve; anche Altroconsumo consiglia un volume adatto alle porzioni. Valutiamo la capienza dichiarata rispetto al nucleo: 1–2, 2–3, 4 persone e più."
+    },
+    {
+      "name": "Accorgimenti anti-spreco",
+      "weight": 15,
+      "explanation": "Finestrella o cestello trasparente (si controlla la cottura senza aprire) e spegnimento automatico dichiarato. Ci basiamo solo su ciò che il produttore indica nella scheda tecnica."
+    },
+    {
+      "name": "Giudizio sul marchio secondo Altroconsumo",
+      "weight": 10,
+      "explanation": "Una friggitrice che si guasta presto è lo spreco più grande. Usiamo il giudizio globale della classifica delle marche di Altroconsumo del 4 agosto 2026 (137 modelli testati e oltre 11.000 valutazioni su affidabilità e soddisfazione); i marchi non classificati ricevono un voto neutro."
+    },
+    {
+      "name": "Trasparenza del produttore su tempi e consumi",
+      "weight": 5,
+      "explanation": "Premiamo chi dichiara tempi o risparmio insieme alle condizioni di misura (ricetta, temperatura, termine di paragone), così il dato si può verificare."
+    }
+  ],
+  "sections": [
+    {
+      "h2": "Come calcoliamo il consumo (ed è una stima, non una promessa)",
+      "html": "<p>Una friggitrice ad aria consuma soprattutto quando la resistenza scalda. La formula sta in una riga: <strong>kWh = potenza in kW × durata in ore × quota di tempo con la resistenza accesa</strong>. Raggiunta la temperatura, il termostato spegne e riaccende la resistenza a cicli: per questo il consumo reale resta sotto il massimo teorico.</p><p>Per le stime usiamo la potenza dichiarata dal produttore sulla scheda italiana e un'ipotesi nostra: resistenza accesa dal 70 all'85% del tempo. Non è una misura di laboratorio e cambia con la temperatura, la quantità di cibo e il modello. Per questo indichiamo sempre anche il massimo teorico, con la resistenza accesa per tutta la cottura.</p><p>Il prezzo di riferimento è quello fissato da ARERA per il quarto trimestre 2026: <strong>43,43 centesimi di euro per kWh, tasse incluse, in vigore dal 1° ottobre 2026</strong> (comunicato del 29 settembre 2026). Vale per il cliente tipo vulnerabile servito in Maggior Tutela, circa 3 milioni di clienti; sul mercato libero il prezzo è diverso. Per un ordine di grandezza del tuo, dividi il totale della bolletta per i kWh fatturati: il risultato include anche le quote fisse, quindi sovrastima un po'.</p>"
+    },
+    {
+      "h2": "Quanto costa una cottura: 15, 20 e 30 minuti",
+      "html": "<p>Stime a 0,4343 €/kWh (ARERA, dal 1° ottobre 2026), con la resistenza accesa dal 70 all'85% del tempo; tra parentesi il massimo teorico.</p><ul><li><strong>1.300 W</strong> (Philips NA211/00, Ariete 4626): 15 minuti 0,23–0,28 kWh, 0,10–0,12 € (max 0,14 €); 20 minuti 0,30–0,37 kWh, 0,13–0,16 € (max 0,19 €); 30 minuti 0,46–0,55 kWh, 0,20–0,24 € (max 0,28 €).</li><li><strong>1.500 W</strong> (Philips NA221/00): 15 minuti 0,26–0,32 kWh, 0,11–0,14 € (max 0,16 €); 20 minuti 0,35–0,43 kWh, 0,15–0,18 € (max 0,22 €); 30 minuti 0,53–0,64 kWh, 0,23–0,28 € (max 0,33 €).</li><li><strong>1.700 W</strong> (Ninja CRISPi, Philips NA230/00): 15 minuti 0,30–0,36 kWh, 0,13–0,16 € (max 0,18 €); 20 minuti 0,40–0,48 kWh, 0,17–0,21 € (max 0,25 €); 30 minuti 0,60–0,72 kWh, 0,26–0,31 € (max 0,37 €).</li><li><strong>1.800 W</strong> (Ariete Airy Fryer XXL 4618): 20 minuti 0,42–0,51 kWh, 0,18–0,22 €.</li></ul><p>Su un anno, quattro cotture da 20 minuti a settimana fanno circa 69 ore: 63–77 kWh (27–33 €) con un modello da 1.300 W, 73–88 kWh (32–38 €) con uno da 1.500 W, sempre al prezzo ARERA del quarto trimestre 2026. Se il prezzo cambia, cambia il conto: i kWh restano gli stessi.</p>"
+    },
+    {
+      "h2": "Meno watt non vuol dire sempre meno kWh",
+      "html": "<p>La potenza è un tetto: una friggitrice da 1.300 W non può assorbire più di 1,3 kWh in un'ora. Ma se per dorare le stesse patatine impiega più minuti di una da 1.500 W, la differenza si riduce o sparisce. Sulle schede italiane che abbiamo consultato nessun produttore indica il consumo in kWh di una cottura tipo: per questo non promettiamo un risparmio preciso.</p><p>Conta di più la <strong>taglia</strong>. Altroconsumo lo scrive chiaramente: più la friggitrice è grande, più consuma. Un cestello da 6 L acceso per due porzioni scalda aria inutile; uno da 3,2 L per quattro persone costringe a due giri, cioè quasi il doppio dell'energia. La nostra regola pratica: 3–3,5 L per 1–2 persone, 4–4,5 L per 2–3, 6 L o più da 4 persone in su.</p>"
+    },
+    {
+      "h2": "Cosa dice Altroconsumo sui consumi",
+      "html": "<p>Nel laboratorio di Altroconsumo il consumo elettrico si misura durante tutte le prove di frittura e si esprime per 100 g di cibo; l'associazione lo considera il «più grande tallone d'achille» di questi apparecchi (pagina sul metodo di prova, 14 maggio 2026).</p><p>In un articolo del 5 settembre 2024, per un modello generico da circa 1.800 W, Altroconsumo indica in media 70–80 Wh ogni 100 g di patatine a 180–200 °C, circa 90 Wh per le cosce di pollo e circa 116 Wh per gli involtini primavera; i modelli più energivori arrivano a 150 Wh ogni 100 g di patatine. Ricalcolati con il prezzo ARERA attuale, 700 g di patatine (0,49–0,56 kWh) costano circa 21–24 centesimi; con un modello energivoro (circa 1,05 kWh) circa 46 centesimi.</p><p>Nella classifica delle marche del 4 agosto 2026 (137 modelli testati tra giugno 2024 e maggio 2026, oltre 11.000 valutazioni su affidabilità e soddisfazione) Philips è prima con 68 punti, davanti a Cosori (67), Ninja (65, ma con l'indice di affidabilità più alto delle quattro, 91) e Moulinex (63). Ariete non compare perché non raggiunge i 5 modelli testati richiesti.</p>"
+    },
+    {
+      "h2": "Sei abitudini che tagliano i consumi",
+      "html": "<ul><li><strong>Niente preriscaldamento se la ricetta non lo chiede</strong>: Altroconsumo consiglia di evitare le funzioni di preriscaldamento e scongelamento, e Philips misura il risparmio che dichiara proprio senza preriscaldare.</li><li><strong>Un solo giro</strong>: riempi il cestello senza ammassare il cibo; due infornate consumano quasi il doppio.</li><li><strong>Guarda, non aprire</strong>: con la finestrella o il cestello trasparente controlli la doratura senza far uscire il calore.</li><li><strong>Cucina in sequenza</strong>: se prepari due piatti, il secondo parte con la camera già calda.</li><li><strong>Imposta il timer</strong>: insieme allo spegnimento automatico dichiarato da Philips evita che l'apparecchio resti acceso a vuoto.</li><li><strong>Stacca la spina</strong> se resta sempre collegata: le schede di questi modelli non indicano il consumo in standby, e 1 W continuo fa 8,76 kWh l'anno, circa 3,80 € al prezzo ARERA attuale.</li></ul>"
+    },
+    {
+      "h2": "Friggitrice ad aria o forno: quanto si risparmia davvero",
+      "html": "<p>Philips dichiara per le sue Airfryer cotture fino al 50% più veloci e fino al 70% di energia in meno rispetto al forno. Sono percentuali medie ricavate da misure interne di laboratorio: petto di pollo a 160 °C o filetto di salmone a 200 °C, senza preriscaldare, a confronto con un forno di classe A. Valgono per quel confronto, non per ogni ricetta.</p><p>Altroconsumo conferma che la friggitrice ad aria consuma meno del forno, senza indicare una percentuale. Il vantaggio si riduce quando le porzioni crescono: se servono due giri, la friggitrice lavora il doppio del tempo. Il confronto completo è nella nostra guida «friggitrice ad aria o forno».</p>"
+    },
+    {
+      "h2": "Perché questa classifica",
+      "html": "<p>Ogni modello riceve un voto da 1 a 5 per criterio, poi pesato: potenza 40%, capienza 30%, accorgimenti anti-spreco 15%, giudizio sul marchio 10%, trasparenza del produttore 5%. Prezzo d'acquisto, clic e vendite non entrano nel calcolo.</p><ul><li><strong>Potenza</strong>: 1.300 W = 5; 1.500 W = 4; 1.700 W = 3; 1.800 W = 2,5.</li><li><strong>Capienza</strong>, rispetto al nucleo: 5 se adatta, 3 se di una taglia diversa, 2 se molto più grande del necessario.</li><li><strong>Anti-spreco</strong>: 3 di base, +1 per finestrella o cestello trasparente, +1 per lo spegnimento automatico dichiarato.</li><li><strong>Giudizio sul marchio</strong> (giudizio globale Altroconsumo, 4 agosto 2026): Philips 5 (68 punti), Ninja 4 (65 punti), marchi non classificati 3.</li><li><strong>Trasparenza</strong>: 5 se il produttore dichiara tempi e risparmio con le condizioni di misura (Philips), 1 se non pubblica dati verificabili.</li></ul><p><strong>Per 2–3 persone</strong>: Philips NA221/00 4,60; Ariete 4639 4,45; Philips NA211/00 4,40; Philips NA110/00 4,25; Ninja CRISPi 3,75. <strong>Per 1–2 persone</strong>: Philips NA211/00 5,00; Philips NA110/00 4,85. <strong>Per 4 persone e più</strong>: Ariete 4626 4,45; Philips NA230/00 4,20; Ariete 4618 3,30.</p><p>L'Ariete 4639 (4,5 L, 1.300 W) è a un passo dalla nostra scelta per 2–3 persone: assorbe 200 W in meno, ma Ariete non dichiara né lo spegnimento automatico né tempi e consumi, e Altroconsumo non classifica il marchio. La segnaliamo come alternativa.</p>"
+    },
+    {
+      "h2": "Le altre friggitrici che abbiamo confrontato",
+      "html": "<ul><li><strong>Ariete 4639 (4,5 L, 1.300 W)</strong>: la stessa potenza dell'Ariete 4626 in formato da 2–3 persone, con finestra per controllare la cottura e 8 programmi. Ariete non pubblica tempi né consumi.</li><li><strong>Philips Serie 1000 NA110/00 (3,2 L, 1.300 W)</strong>: stessa potenza e capienza della NA211/00, 12 programmi e spegnimento automatico, ma senza finestrella.</li><li><strong>Philips Serie 2000 con finestrella NA230/00 (6,2 L, 1.700 W)</strong>: per famiglie, con finestrella e spegnimento automatico, ma 400 W in più dell'Ariete 4626 a parità di taglia.</li><li><strong>Ninja CRISPi FN201EU (contenitori in vetro da 3,8 e 2,3 L, PowerPod da 1.700 W)</strong>: pratica per cuocere e conservare nello stesso contenitore, fino a 4 porzioni e programmi fino a 185 °C. Il contenitore piccolo aiuta con le porzioni singole, ma la potenza è tra le più alte del confronto.</li><li><strong>Ariete Airy Fryer XXL 4618 (7 L, 1.800 W)</strong>: la potenza più alta della tabella, sensata solo se cucini spesso grandi quantità.</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quanto consuma una friggitrice ad aria in un'ora?",
+      "a": "Al massimo quanto la sua potenza: 1,3 kWh per un modello da 1.300 W, 1,5 kWh per uno da 1.500 W. Al prezzo ARERA di 0,4343 €/kWh (dal 1° ottobre 2026) sono al massimo 0,56 € e 0,65 € l'ora. In pratica si spende meno, perché il termostato spegne la resistenza a cicli: con la nostra ipotesi del 70–85%, circa 0,40–0,48 € e 0,46–0,55 € l'ora."
+    },
+    {
+      "q": "Meglio una friggitrice ad aria da 1.300 W o da 1.500 W?",
+      "a": "A parità di capienza e di tempi di cottura, quella da 1.300 W consuma fino al 13% in meno. Se però impiega più minuti, il vantaggio si riduce. Scegli prima la taglia giusta per le tue porzioni, poi, a parità di taglia, la potenza più bassa."
+    },
+    {
+      "q": "Quanto costa fare le patatine nella friggitrice ad aria?",
+      "a": "Secondo i valori medi pubblicati da Altroconsumo nel 2024 per un modello generico da circa 1.800 W, servono 70–80 Wh ogni 100 g di patatine: 700 g richiedono 0,49–0,56 kWh, cioè circa 21–24 centesimi al prezzo ARERA di 0,4343 €/kWh. Con un modello energivoro (150 Wh ogni 100 g) si arriva a circa 46 centesimi. Non sono misure dei modelli di questa pagina."
+    },
+    {
+      "q": "La friggitrice ad aria consuma meno del forno?",
+      "a": "Per porzioni piccole e medie sì. Philips dichiara fino al 70% di energia in meno rispetto a un forno di classe A, misurato in laboratorio con petto di pollo a 160 °C o salmone a 200 °C, senza preriscaldare. Se per una famiglia numerosa servono due giri, il vantaggio si riduce."
+    },
+    {
+      "q": "Bisogna preriscaldare la friggitrice ad aria?",
+      "a": "Solo se la ricetta lo richiede. Altroconsumo consiglia di evitare le funzioni di preriscaldamento e scongelamento per ridurre i consumi, e Philips misura il risparmio che dichiara senza preriscaldare."
+    },
+    {
+      "q": "Quale friggitrice ad aria consuma meno per 4 persone?",
+      "a": "Tra i modelli che abbiamo confrontato, l'Ariete 4626: 6 L e 2,5 kg di patatine dichiarati con 1.300 W. La Philips Serie 2000 da 6,2 L ha in più lo spegnimento automatico dichiarato, ma assorbe 1.700 W: su 20 minuti di cottura la differenza stimata è di circa 4–5 centesimi al prezzo ARERA attuale."
+    },
+    {
+      "q": "Che prezzo del kWh devo usare per i miei calcoli?",
+      "a": "Il valore ARERA di 43,43 centesimi per kWh, tasse incluse, vale dal 1° ottobre al 31 dicembre 2026 per i clienti vulnerabili in Maggior Tutela. Sul mercato libero conta il prezzo del tuo contratto: per un ordine di grandezza dividi il totale della bolletta per i kWh fatturati, sapendo che il risultato include le quote fisse."
+    },
+    {
+      "q": "La Ninja CRISPi consuma tanto?",
+      "a": "Il suo PowerPod assorbe 1.700 W, più dei modelli che consigliamo. Con la nostra ipotesi, 20 minuti costano circa 17–21 centesimi a 0,4343 €/kWh, contro 13–16 di un modello da 1.300 W. La CRISPi si sceglie per la praticità dei contenitori in vetro, in cui si cuoce e si conserva, non per il consumo più basso."
+    }
+  ],
+  "independentTesters": [
+    {
+      "name": "Altroconsumo · Migliori marche di friggitrici ad aria 2026",
+      "url": "https://www.altroconsumo.it/elettrodomestici/friggitrici-ad-aria/news/migliori-marche-friggitrici-ad-aria-2026",
+      "note": "4 agosto 2026: 137 modelli testati tra il 1° giugno 2024 e il 31 maggio 2026, oltre 11.000 valutazioni su affidabilità e soddisfazione. Giudizio globale: Philips 68, Cosori 67, Ninja 65 (affidabilità 91, la più alta delle quattro), Moulinex 63. Ariete, Ardes, Bosch, Cecotec, Princess e Xiaomi non sono classificate (meno di 5 modelli testati)."
+    },
+    {
+      "name": "Altroconsumo · Quanto consuma la friggitrice ad aria",
+      "url": "https://www.altroconsumo.it/elettrodomestici/friggitrici-ad-aria/consigli/quanto-consuma-la-friggitrice-ad-aria",
+      "note": "5 settembre 2024: per un modello generico da circa 1.800 W, in media 70–80 Wh ogni 100 g di patatine a 180–200 °C, circa 90 Wh per le cosce di pollo e circa 116 Wh per gli involtini primavera; i modelli più energivori arrivano a 150 Wh ogni 100 g di patatine. Consigli: volume adatto, cestello pieno ma non stipato, evitare preriscaldamento e scongelamento."
+    },
+    {
+      "name": "Altroconsumo · Friggitrici ad aria, come testiamo",
+      "url": "https://www.altroconsumo.it/elettrodomestici/friggitrici-ad-aria/come-testiamo",
+      "note": "14 maggio 2026: il consumo elettrico viene misurato durante tutte le prove di frittura e valutato per 100 g di alimenti; la qualità della frittura pesa per il 50% del giudizio globale, seguita da facilità d'uso, solidità e consumi."
+    }
+  ],
+  "sources": [
+    "https://www.arera.it/comunicati-stampa/dettaglio/elettricita-maggior-tutela-373-nel-iv-trimestre-2026-per-i-clienti-vulnerabili",
+    "https://www.altroconsumo.it/elettrodomestici/friggitrici-ad-aria/news/migliori-marche-friggitrici-ad-aria-2026",
+    "https://www.altroconsumo.it/elettrodomestici/friggitrici-ad-aria/consigli/quanto-consuma-la-friggitrice-ad-aria",
+    "https://www.altroconsumo.it/elettrodomestici/friggitrici-ad-aria/come-testiamo",
+    "https://www.home-appliances.philips/it/it/p/NA221_00",
+    "https://www.home-appliances.philips/it/it/p/NA211_00",
+    "https://www.home-appliances.philips/it/it/p/NA110_00",
+    "https://www.home-appliances.philips/it/it/p/NA230_00",
+    "https://www.ariete.net/it/product/ariete-friggitrice-ad-aria-airy-fryer-6l-4626",
+    "https://www.ariete.net/it/product/ariete-friggitrice-ad-aria-4639-nero",
+    "https://www.ariete.net/it/product/friggitrice-ad-aria-ariete-4618-air-fryer-xxl-friggere-senza-olio-nero",
+    "https://www.sharkninja.it/friggitrice-ad-aria-in-vetro-ninja-crispi---blu/FN201EUBL1.html"
+  ],
+  "related": [
+    "/it/guides/airfryers",
+    "/it/guides/airfryer-vs-four",
+    "/it/blog/airfryer-economies-energie",
+    "/it/blog/airfryer-simple-vs-double-panier",
+    "/it/blog/ninja-vs-philips-quel-choisir",
+    "/it/blog/comment-choisir-airfryer-famille"
+  ]
+}

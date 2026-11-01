@@ -1,0 +1,184 @@
+{
+  "locale": "us",
+  "type": "duel",
+  "slug": "ecobee-vs-nest",
+  "updated": "2026-11-01",
+  "metaTitle": "ecobee vs. Nest: Which Smart Thermostat to Buy in 2026",
+  "metaDescription": "ecobee vs. Nest: Premium or Nest Learning (4th gen)? We compare C-wire needs, room sensors, heat pump control, Matter, published savings and rebates.",
+  "kicker": "Smart thermostat duel",
+  "h1": "ecobee vs. Nest: Which Smart Thermostat Fits Your Home?",
+  "answer": "For most US homes, the ecobee Smart Thermostat Premium is the better pick: its included SmartSensor tracks occupancy as well as temperature, it ships with a Power Extender Kit for homes without a C wire, and it carries a 3-year warranty. Choose the Google Nest Learning Thermostat (4th gen) for Matter, a schedule that can program itself, or a three-stage system. Specs checked November 1, 2026.",
+  "picks": [
+    {
+      "brand": "ecobee",
+      "model": "ecobee Smart Thermostat Premium",
+      "role": "Our pick for most homes",
+      "why": "It's the only one of the two whose included room sensor detects occupancy, so it can favor the rooms people are actually using, and it adds air quality monitoring plus Siri or Alexa built in. It needs 24 VAC power, but the adapter for homes without a C wire is in the box.",
+      "bestFor": "Homes with hot and cold rooms, Apple Home households and buyers who want a 3-year warranty",
+      "asin": "B09XXS48P8",
+      "manufacturerUrl": "https://www.ecobee.com/en-us/smart-thermostats/smart-thermostat-premium/",
+      "specs": {
+        "Model number": "EB-STATE6-01",
+        "C-wire": "Required for power; Power Extender Kit included for homes without one",
+        "Conventional systems": "Up to 2 heating and 2 cooling stages (2H/2C)",
+        "Heat pumps": "2H/2C plus 2 stages of aux heat; dual fuel supported",
+        "Room sensor included": "1 SmartSensor (temperature and occupancy)",
+        "Thermostat sensors": "Temperature, humidity, radar occupancy and proximity; air quality monitoring",
+        "Display": "4 in full-color LCD touchscreen, 540 x 540 pixels",
+        "Connectivity": "Dual-band Wi-Fi (2.4 GHz and 5 GHz), Bluetooth 5.0, 915 MHz sensor radio",
+        "Works with": "Apple Home (HomeKit), Amazon Alexa (built in), Siri (Apple home hub required), Google Assistant, SmartThings, IFTTT",
+        "Matter": "Not certified (no ecobee model in the CSA ledger as of November 1, 2026)",
+        "Setpoint range": "45°F to 92°F (7°C to 33°C)",
+        "Accessory control": "One 1-wire or one 2-wire accessory (humidifier, dehumidifier, HRV/ERV)",
+        "Dimensions": "4.09 x 4.09 x 1.02 in",
+        "ENERGY STAR": "Certified",
+        "Warranty": "3-year limited"
+      }
+    },
+    {
+      "brand": "Google Nest",
+      "model": "Google Nest Learning Thermostat (4th gen)",
+      "role": "Best for Matter and a hands-off schedule",
+      "why": "Its Smart Schedule can build and adjust your schedule automatically, Heat Pump Balance manages costly aux heat for you, and it's Matter certified. Power Sharing lets it run without a C wire in most homes, but its included sensor reads temperature only.",
+      "bestFor": "Google Home or Matter setups, three-stage systems, heat pumps with a separate emergency heat wire and owners who want the schedule to write itself",
+      "asin": "B0D5BBYRJM",
+      "manufacturerUrl": "https://store.google.com/us/product/nest_learning_thermostat_4th_gen_specs",
+      "specs": {
+        "C-wire": "Not required in most homes (Power Sharing and a built-in rechargeable battery); Google says under 1% may need a C wire or Nest Power Connector",
+        "Conventional systems": "Up to 3 heating and 3 cooling stages",
+        "Heat pumps": "Up to 3 stages with 1 or 2 stages of aux/alternate heat and emergency heat (O/B, AUX, AUX2, E)",
+        "Room sensor included": "1 Nest Temperature Sensor (2nd gen), temperature only",
+        "Thermostat sensors": "Temperature, humidity, ambient light, Soli radar for Motion Sense",
+        "Display": "2.7 in (68 mm) round LCD, 600 x 600 pixels",
+        "Connectivity": "Wi-Fi 802.11n (2.4 GHz and 5 GHz)",
+        "Works with": "Google Home app (required for setup) and Matter-enabled apps and assistants",
+        "Matter": "Certified",
+        "Accessory control": "Humidifier, dehumidifier and ventilation (HUM, DEHUM, VENT), within the connector limits Google lists",
+        "Power consumption": "Less than 1 kWh per month",
+        "Dimensions": "3.9 in diameter x 1.1 in deep; 5.7 oz",
+        "Colors": "Polished Silver, Polished Obsidian, Polished Gold",
+        "ENERGY STAR": "Certified",
+        "Warranty": "2-year standard (retail)"
+      }
+    }
+  ],
+  "comparison": {
+    "columns": ["Spec", "ecobee Smart Thermostat Premium", "Google Nest Learning Thermostat (4th gen)"],
+    "rows": [
+      ["Power without a C wire", "Needs 24 VAC power; Power Extender Kit in the box", "Power Sharing and built-in battery; under 1% of homes may need a C wire or Nest Power Connector (sold separately)"],
+      ["Conventional furnace and AC", "Up to 2H/2C", "Up to 3H/3C"],
+      ["Heat pump support", "2H/2C plus 2 aux stages; dual fuel", "Up to 3 stages plus 1 or 2 aux/alternate stages and emergency heat"],
+      ["Aux heat control", "Aux Savings Optimization, or manual thresholds (Compressor Min Outdoor Temp, Aux Heat Max Outdoor Temp)", "Heat Pump Balance: Max Comfort (default), Balanced, Max Savings or Off"],
+      ["Room sensor in the box", "SmartSensor: temperature and occupancy, up to 60 ft away, CR2477 battery up to 5 years", "Nest Temperature Sensor (2nd gen): temperature only, Bluetooth LE, CR2 battery up to 3 years"],
+      ["Sensor limit", "Up to 32 per account", "Up to 6 per thermostat, 18 per home"],
+      ["Schedule", "Schedule Assistant suggests changes", "Smart Schedule: Automatic, Suggestions or Off"],
+      ["Published savings claim", "Up to 26% vs. a 72°F hold (ecobee internal analysis, April 2021)", "Up to 31% vs. a 72°F baseline; 12% heating and 15% cooling on average in bill-based studies"],
+      ["ENERGY STAR", "Certified", "Certified"],
+      ["Matter", "Not certified as of November 1, 2026", "Certified"],
+      ["Platforms", "Apple Home (native), Alexa built in, Siri with an Apple home hub, Google Assistant, SmartThings", "Google Home (required for setup), other platforms via Matter"],
+      ["Extras", "Air quality monitor, smart speaker, security hub (subscription for security features)", "System Health Monitor, smart ventilation, Energy Shift via free Nest Renew"],
+      ["Display", "4 in square touchscreen", "2.7 in round display"],
+      ["Warranty", "3-year limited", "2-year standard (retail)"]
+    ]
+  },
+  "criteria": [
+    { "name": "HVAC and heat pump compatibility", "weight": 25, "explanation": "A thermostat that can't drive every stage of your system wastes equipment you paid for. We compare the stages and terminals each maker lists: Nest controls up to three heating and cooling stages and lists separate AUX, AUX2 and E connections, while the ecobee Premium covers 2H/2C plus two aux stages and dual fuel. Slight edge: Nest." },
+    { "name": "C-wire and installation", "weight": 15, "explanation": "Many older US homes have no common (C) wire at the thermostat. We compare how each maker says the thermostat gets power: ecobee requires 24 VAC power and puts a Power Extender Kit in the box; Nest uses Power Sharing and a built-in battery, and Google says fewer than 1% of homes need a C wire or its Nest Power Connector, sold separately. Slight edge: ecobee, because the fix ships with it." },
+    { "name": "Room sensors", "weight": 20, "explanation": "A hallway thermostat can't see a cold bedroom. We compare the sensor in the box and the limits on adding more: ecobee's SmartSensor reads temperature and occupancy (up to 32 per account, battery rated up to 5 years), while Nest's sensor reads temperature only (up to six per thermostat, battery rated up to 3 years). Clear edge: ecobee." },
+    { "name": "Energy-saving features, as published", "weight": 20, "explanation": "We start with ENERGY STAR certification, which is based on field data, then look at how each maker documents its savings and automation. Both are certified; Google publishes bill-based averages and offers a fully automatic schedule plus Heat Pump Balance, while ecobee's Schedule Assistant suggests changes for you to approve. Slight edge: Nest." },
+    { "name": "Smart home and Matter", "weight": 10, "explanation": "We check the Connectivity Standards Alliance certification ledger and each maker's platform list. Nest is Matter certified; ecobee isn't, but it pairs natively with Apple Home and works with Alexa, Google Assistant and SmartThings. Slight edge: Nest." },
+    { "name": "Warranty, subscriptions and support", "weight": 10, "explanation": "We compare published warranties and which features sit behind a paid plan. ecobee offers 3 years versus Nest's 2 years at retail; neither charges for core thermostat features, though ecobee's smoke alarm detection and security tools need its Smart Security plan. Edge: ecobee." }
+  ],
+  "sections": [
+    {
+      "h2": "Choose ecobee if… or Nest if…",
+      "html": "<p><strong>Choose the ecobee Smart Thermostat Premium if:</strong></p><ul><li>some rooms run hot or cold and you want the thermostat to favor the rooms people are using, since the included SmartSensor detects occupancy;</li><li>your thermostat cable has no C wire and you'd rather power the thermostat with the included Power Extender Kit than rely on power sharing;</li><li>you live in Apple Home, or you want Siri or Alexa built into the thermostat (Siri needs an Apple home hub such as a HomePod);</li><li>you want indoor air quality alerts and filter reminders on the wall;</li><li>a 3-year warranty matters to you.</li></ul><p><strong>Choose the Google Nest Learning Thermostat (4th gen) if:</strong></p><ul><li>you want a schedule that builds itself: set Smart Schedule to Automatic, or to Suggestions if you'd rather approve each change;</li><li>you have a three-stage system, or a heat pump with two aux stages plus a separate emergency heat wire;</li><li>you run Google Home or want a Matter-certified thermostat you can use across platforms;</li><li>you'd rather not open the furnace: Google says Power Sharing means no C wire in most homes.</li></ul>"
+    },
+    {
+      "h2": "C-wire: how each one gets power",
+      "html": "<p>The <strong>ecobee Premium</strong> runs on dedicated 24 VAC power through its C and Rc terminals and has no battery. If your thermostat cable has no C wire, the included <strong>Power Extender Kit</strong> lets you power it without running a fifth wire. The kit connects at your furnace or air handler, so plan on opening that panel.</p><p>The <strong>Nest Learning Thermostat (4th gen)</strong> combines what Google calls Power Sharing with a built-in rechargeable lithium battery. Google says it's designed to work whether or not your home has a C wire, and that in fewer than 1% of cases a C wire or a Nest Power Connector, sold separately, may be needed.</p><p><strong>Bottom line:</strong> both install in most homes without a C wire. ecobee puts the fix in the box; Nest usually doesn't need one. Note which wires are on your current thermostat and run each brand's compatibility checker before you buy.</p>"
+    },
+    {
+      "h2": "Room sensors: occupancy vs. temperature only",
+      "html": "<p>Both thermostats come with one wireless room sensor, and that's where the biggest everyday difference lies.</p><ul><li><strong>ecobee SmartSensor:</strong> temperature and occupancy, with a 140° by 100° motion field that reaches 20 ft. It works up to 60 ft from the thermostat and runs on a CR2477 battery rated for up to 5 years. Follow Me shifts comfort to the rooms in use, and one account takes up to 32 sensors.</li><li><strong>Nest Temperature Sensor (2nd gen):</strong> temperature only, over Bluetooth Low Energy, on a CR2 battery rated for up to 3 years. You can add up to six per thermostat, then have the Nest prioritize one room or average the temperature across several.</li></ul><p>Occupancy in each room lets the ecobee tell an empty house from a quiet one. The Nest leans on the Soli radar in the thermostat itself and, if you opt in, your phone's location to decide whether you're home. The sensors don't cross brands: SmartSensors pair only with ecobee devices, and Nest sensors need a compatible Nest thermostat.</p>"
+    },
+    {
+      "h2": "Heat pumps and aux heat",
+      "html": "<p>With a heat pump, the money is in how often the thermostat calls for auxiliary heat, which Google says can cost about 2 to 5 times as much to run as the heat pump itself.</p><ul><li><strong>ecobee Premium:</strong> heat pumps with 2 heating and 2 cooling stages plus 2 stages of aux heat, and dual-fuel systems. Left on automatic staging, Aux Savings Optimization lets you lean toward savings, comfort or a balance. Switch to manual and you can set Compressor Min Outdoor Temperature and Aux Heat Max Outdoor Temperature yourself, on the thermostat.</li><li><strong>Nest Learning (4th gen):</strong> heat pumps with up to 3 stages plus 1 or 2 stages of auxiliary or alternate heat and emergency heat, with separate AUX, AUX2 and E connections. Heat Pump Balance (Max Comfort by default, Balanced, Max Savings or Off) sets the aux lockout temperature for you, using local weather over Wi-Fi. With a dual-fuel system, Heat Pump Balance isn't available and you set the lockout manually.</li></ul><p><strong>Our read:</strong> on a typical one- or two-stage heat pump, both are capable. Nest is simpler if you want the thermostat to manage aux heat on its own; ecobee gives you or your contractor more thresholds to tune. One wiring caveat: Google says the Nest's extra connector accepts only one of W3, Y3, G3, E, HUM or DEHUM.</p>"
+    },
+    {
+      "h2": "Matter and smart home platforms",
+      "html": "<p>The <strong>Nest Learning Thermostat (4th gen)</strong> is Matter certified: it appears under Google in the Connectivity Standards Alliance's public certification ledger, and Google says you can control it from Google Home and other Matter-enabled apps and assistants. Setup still requires the Google Home app.</p><p>No <strong>ecobee</strong> thermostat appears in that ledger under ecobee's vendor ID as of November 1, 2026, and the Premium's spec page doesn't list Matter. Instead, it pairs natively with Apple Home (HomeKit), has Alexa built in, offers Siri when you have an Apple home hub, and works with Google Assistant, SmartThings and IFTTT.</p><p><strong>Bottom line:</strong> if you want one thermostat shared across several platforms through Matter, pick Nest. If your home runs on Apple Home, ecobee's native HomeKit support covers you today.</p>"
+    },
+    {
+      "h2": "Energy savings: reading the published claims",
+      "html": "<p>Both thermostats are ENERGY STAR certified. The EPA says certified smart thermostats have been independently certified, based on actual field data, to deliver savings, and it puts heating and cooling at almost half of the average American household's energy bill, or more than $900 a year.</p><ul><li><strong>ecobee:</strong> up to 26% on heating and cooling costs compared with a hold of 72°F, from an internal analysis of North American customers in April 2021. ecobee turns that into up to $284 a year using an average heating and cooling cost of $1,091.</li><li><strong>Google:</strong> up to 31% on heating and cooling bills against the same 72°F baseline, which Google says may not represent the typical customer. From before-and-after utility bills, Google reports average savings of 12% on heating and 15% on cooling, first in 2015 and again in a 2024 analysis.</li></ul><p>The 26% and 31% figures share a theoretical baseline, a thermostat held at 72°F all year, so neither proves one saves more than the other in your home. Your savings depend on how you ran your old thermostat, your climate and your equipment.</p><p>The features behind the savings differ. ecobee's eco+ bundles Enhanced Smart Home and Away, Schedule Assistant suggestions, and, where available, Time of Use shifting and Community Energy Savings during peak demand. Nest offers Smart Schedule, Adaptive Eco, natural heating and cooling, Seasonal Savings, Rush Hour Rewards through participating energy companies, and Energy Shift through the free Nest Renew service.</p><p>As for running cost, the thermostats themselves draw very little: Google rates the Nest at less than 1 kWh a month, and ecobee lists up to 3.5 VA. What moves your bill is how long the furnace, AC or heat pump runs.</p>"
+    },
+    {
+      "h2": "Rebates: start with the ENERGY STAR Rebate Finder",
+      "html": "<p>There's no national smart thermostat rebate with a fixed amount. Utilities and other ENERGY STAR partners sponsor their own offers, so the amount, the eligible models and the deadline depend on where you live.</p><ul><li>Open the ENERGY STAR Rebate Finder on energystar.gov and enter your ZIP code to see offers on certified smart thermostats near you.</li><li>Check that your exact model is covered. Both the ecobee Premium and the Nest Learning (4th gen) are ENERGY STAR certified, and ENERGY STAR notes that certified smart thermostats are designed to work with programs some local utilities offer.</li><li>Ask your utility about demand response. ecobee's Community Energy Savings and Google's Rush Hour Rewards tie into utility programs that may reward you for using less energy at peak times, where offered.</li><li>Read the offer's terms before you buy, since each program sets its own rules.</li></ul><p>We don't quote rebate amounts: they change by utility and by season.</p>"
+    },
+    {
+      "h2": "Subscriptions, warranty and long-term support",
+      "html": "<ul><li><strong>Subscriptions:</strong> neither thermostat needs one for heating, cooling, scheduling or remote control. On the ecobee, smoke alarm detection, security monitoring and Pause when Open (with ecobee's door and window sensors) require an ecobee Smart Security subscription. Google describes Nest Renew as a free service.</li><li><strong>Warranty:</strong> ecobee covers the Premium and the SmartSensor with a 3-year limited warranty. Google gives the Nest Learning (4th gen) a 2-year standard warranty at retail, or 5 years through HVAC pros, and the Nest Temperature Sensor a one-year limited warranty.</li><li><strong>Support life:</strong> on October 25, 2025, Google ended app and remote support for the Nest Learning Thermostat 1st gen (2011) and 2nd gen (2012). They still run their schedules from the wall, but they no longer connect to the Nest or Google Home app or receive updates.</li></ul>"
+    },
+    {
+      "h2": "Alternatives in each lineup",
+      "html": "<ul><li><strong>ecobee Smart Thermostat Enhanced:</strong> keeps radar occupancy sensing and eco+ occupancy features, but there's no SmartSensor in the box and it supports only accessories connected by one wire.</li><li><strong>ecobee Smart Thermostat Essential:</strong> ecobee's simplest model; its occupancy features need a SmartSensor, sold separately.</li><li><strong>Google Nest Thermostat:</strong> Google's entry-level model is also Matter certified, but it doesn't learn a schedule for you and doesn't work with Nest Temperature Sensors.</li><li><strong>Electric baseboard heat:</strong> both picks here are 24 V thermostats. Line-voltage baseboard heaters need a line-voltage thermostat instead.</li></ul>"
+    },
+    {
+      "h2": "Why this ranking",
+      "html": "<p>We scored each thermostat from 1 to 10 on our six criteria, using only manufacturer specs, ENERGY STAR and CSA records and published independent findings, then applied the weights.</p><ul><li>HVAC and heat pump compatibility (25%): Nest 9, ecobee 8.</li><li>C-wire and installation (15%): ecobee 9, Nest 8.</li><li>Room sensors (20%): ecobee 10, Nest 7.</li><li>Energy-saving features, as published (20%): Nest 9, ecobee 8.</li><li>Smart home and Matter (10%): Nest 8, ecobee 7.</li><li>Warranty, subscriptions and support (10%): ecobee 9, Nest 7.</li></ul><p>Weighted, the <strong>ecobee Smart Thermostat Premium</strong> comes out ahead, 8.55 to 8.15 out of 10, mainly on the strength of its occupancy-sensing room sensor and longer warranty. Shift the weights to fit your home and the answer can flip: a Matter household or a three-stage system should lean Nest.</p>"
+    },
+    {
+      "h2": "What independent testers found",
+      "html": "<p>Consumer Reports' smart thermostat roundup, updated January 1, 2026, includes both models among its picks for boilers, furnaces and central AC systems. It reports strong scores for the Premium's manual controls and automated heating and cooling, notes that the Premium can suggest adjustments to your schedule, and says the Nest 4th gen aces its lab tests for automated heating and cooling. Wirecutter's smart thermostat guide, updated January 20, 2026, names the ecobee Premium its pick.</p><p>Those are their findings, not ours: Home Nura doesn't test thermostats. We compare manufacturer specs, public certification records and what independent testers and owners report.</p>"
+    }
+  ],
+  "faq": [
+    { "q": "Do ecobee and Nest thermostats work without a C wire?", "a": "Usually, yes. The ecobee Premium needs 24 VAC power but ships with a Power Extender Kit that powers it without a fifth wire. The Nest Learning Thermostat (4th gen) uses Power Sharing and a built-in battery; Google says fewer than 1% of homes need a C wire or its Nest Power Connector, sold separately." },
+    { "q": "Which is better for a heat pump, ecobee or Nest?", "a": "Both handle common heat pumps with aux heat. Nest supports up to 3 heat pump stages with 1 or 2 aux stages and a separate emergency heat connection, and Heat Pump Balance sets the aux lockout for you. The ecobee Premium supports 2 stages plus 2 aux stages and dual fuel, with manual thresholds for fine-tuning." },
+    { "q": "Does ecobee work with Matter?", "a": "Not as of November 1, 2026. No ecobee model appears in the Connectivity Standards Alliance's Matter certification ledger, and ecobee's spec page doesn't list Matter. The Premium works with Apple Home natively and with Alexa, Google Assistant and SmartThings. The Nest Learning Thermostat (4th gen) is Matter certified." },
+    { "q": "Can I use Nest sensors with an ecobee, or ecobee sensors with a Nest?", "a": "No. ecobee SmartSensors pair only with ecobee thermostats and cameras, and Nest Temperature Sensors need a compatible Nest thermostat." },
+    { "q": "Do I need a subscription for either thermostat?", "a": "Not for heating, cooling, scheduling or remote control. ecobee's smoke alarm detection and security features need an ecobee Smart Security subscription. Google describes Nest Renew, which can shift energy use to cleaner or cheaper times, as a free service." },
+    { "q": "Are there rebates on ecobee or Nest thermostats?", "a": "Often, through your utility, but amounts and eligible models vary by area. Enter your ZIP code in the ENERGY STAR Rebate Finder and read each offer's terms. Both models compared here are ENERGY STAR certified." },
+    { "q": "Is ecobee's 26% or Nest's 31% savings claim realistic?", "a": "Both compare against a thermostat held at 72°F all year, a theoretical baseline. Google's bill-based studies show average savings of 12% on heating and 15% on cooling. Your result depends on how you set your old thermostat, your climate and your equipment." },
+    { "q": "Why did my old Nest thermostat drop out of the app?", "a": "If it's a Nest Learning Thermostat 1st gen (2011) or 2nd gen (2012), Google ended app and remote support on October 25, 2025. It still runs from the wall with its existing schedule, but it no longer gets updates or connects to the Nest or Google Home app." },
+    { "q": "Will either thermostat work with electric baseboard heat?", "a": "Not with line-voltage baseboard heaters. Both are built for 24 V systems such as gas, oil or electric furnaces, central AC, heat pumps and boilers or radiant systems with low-voltage controls. Line-voltage baseboards need a line-voltage thermostat." }
+  ],
+  "independentTesters": [
+    { "name": "Consumer Reports", "url": "https://www.consumerreports.org/appliances/thermostats/best-smart-thermostats-of-the-year-a4768074255/", "note": "Smart thermostat roundup updated January 1, 2026: lists the ecobee Smart Thermostat Premium (EB-STATE6-01) and the Google Nest Learning Thermostat 4th Gen among its picks for boilers, furnaces and central AC systems. CR reports strong Premium scores for manual controls and automated heating and cooling, notes the Premium can suggest schedule adjustments, and says the Nest aces its lab tests for automated heating and cooling but doesn't include a wiring adapter." },
+    { "name": "Wirecutter (The New York Times)", "url": "https://www.nytimes.com/wirecutter/reviews/the-best-thermostat/", "note": "Smart thermostat guide updated January 20, 2026: names the ecobee Smart Thermostat Premium its pick, citing steadier year-round temperatures in its testing, the included SmartSensor, the built-in speaker, ecobee's privacy policy and continued support for older models." },
+    { "name": "ENERGY STAR (EPA)", "url": "https://www.energystar.gov/products/smart_thermostats", "note": "Certified smart thermostat records, read November 1, 2026: the ecobee Smart Thermostat Premium (EB-STATE6*) and the Google Nest Learning Thermostat (GA05###-**) are both listed as certified for the US and Canada. ENERGY STAR certification for smart thermostats is based on field data." }
+  ],
+  "sources": [
+    "https://www.ecobee.com/en-us/smart-thermostats/smart-thermostat-premium/",
+    "https://www.ecobee.com/en-us/smart-thermostats/",
+    "https://www.ecobee.com/en-us/sensors/smart-temperature-occupancy-sensor/",
+    "https://support.ecobee.com/s/articles/Threshold-settings-for-ecobee-thermostats",
+    "https://support.ecobee.com/s/articles/How-to-minimize-the-use-of-auxiliary-heat-with-a-heat-pump-on-your-ecobee-thermostat",
+    "https://store.google.com/us/product/nest_learning_thermostat_4th_gen_specs",
+    "https://store.google.com/us/product/nest_learning_thermostat_4th_gen",
+    "https://store.google.com/us/product/nest_temperature_sensor_2nd_gen?hl=en-US",
+    "https://store.google.com/us/magazine/nest-thermostat-savings?hl=en-US",
+    "https://support.google.com/googlenest/answer/9248719",
+    "https://support.google.com/googlenest/answer/15262051?hl=en",
+    "https://support.google.com/googlehome/answer/9247510?hl=en",
+    "https://support.google.com/googlehome/answer/16233096?hl=en",
+    "https://www.energystar.gov/products/smart_thermostats",
+    "https://www.energystar.gov/rebate-finder",
+    "https://data.energystar.gov/resource/7p2p-wkbf.json",
+    "https://on.dcl.csa-iot.org/dcl/model/models/24582",
+    "https://on.dcl.csa-iot.org/dcl/compliance/certified-models/24582/13/2/matter",
+    "https://on.dcl.csa-iot.org/dcl/vendorinfo/vendors/4224",
+    "https://www.consumerreports.org/appliances/thermostats/best-smart-thermostats-of-the-year-a4768074255/",
+    "https://www.nytimes.com/wirecutter/reviews/the-best-thermostat/"
+  ],
+  "related": [
+    "/us/energie-domotique/thermostats",
+    "/us/black-friday/thermostats",
+    "/us/energie-domotique/hubs-domotique",
+    "/us/guides/probleme/thermostat-perd-wifi",
+    "/us/guides/probleme/thermostat-temperature-consigne"
+  ]
+}
