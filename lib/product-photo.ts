@@ -248,7 +248,12 @@ export function productPhotoSrcSet(id: string, format: ProductPhotoFormat): stri
 }
 
 export function productPhotoAlt(brand: string, model: string, category: ProductPhotoCategory, lang: Lang): string {
-  return `${brand} ${model} – ${PRODUCT_PHOTO_CATEGORY_LABELS[category][lang]} | Homenura`
+  return productPhotoAltForName(`${brand} ${model}`, category, lang)
+}
+
+/** Alt text for a photo shown under another name of the same product (its North-American name). */
+export function productPhotoAltForName(name: string, category: ProductPhotoCategory, lang: Lang): string {
+  return `${name} – ${PRODUCT_PHOTO_CATEGORY_LABELS[category][lang]} | Homenura`
 }
 
 /** `credit` is the manifest credit text ("© Ninja"). */

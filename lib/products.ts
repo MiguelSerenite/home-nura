@@ -10,6 +10,7 @@ import { amazonProductUrl } from '@/lib/amazon'
 import { resolveLang } from '@/lib/i18n'
 import { productPhoto } from '@/lib/product-images'
 import { productVisual } from '@/lib/product-visual'
+import { catalogListing, marketBrand } from '@/lib/market-models'
 
 export interface StaticProduct {
   title: Record<string, string>
@@ -453,14 +454,23 @@ export const staticProducts: StaticProduct[] = [
   },
 ]
 
+/**
+ * The catalog in one language. On the US and Canadian versions it only
+ * lists the products that market sells (same model or its North-American
+ * version), under their North-American name (lib/market-models): a
+ * product's score, pros, cons and photo are never shown for another one.
+ */
 export function getStaticProducts(lang: string) {
-  return staticProducts.map((p) => {
-    const title = p.title[lang] || p.title.fr
+  return staticProducts.flatMap((p) => {
+    const listing = catalogListing(p.title.fr, resolveLang(lang))
+    if (!listing.listed) return []
+    const title = listing.name ?? (p.title[lang] || p.title.fr)
+    const brand = listing.name ? marketBrand(listing.name, p.brand) : p.brand
 
-    return {
+    return [{
       title,
       priceNumeric: p.priceNumeric[lang] || p.priceNumeric.fr,
-      visual: productVisual(p.brand, title, 'airfryer', productPhoto({ asin: p.asin }, resolveLang(lang))),
+      visual: productVisual(brand, title, 'airfryer', productPhoto({ asin: p.asin }, resolveLang(lang), listing.name)),
       asin: p.asin,
       url: amazonProductUrl(p.asin, resolveLang(lang)),
       badge: p.badge ? (p.badge[lang] || p.badge.fr) : undefined,
@@ -469,6 +479,6 @@ export function getStaticProducts(lang: string) {
       bestFor: p.bestFor[lang] || p.bestFor.fr,
       pros: p.pros[lang] || p.pros.fr,
       cons: p.cons[lang] || p.cons.fr,
-    }
+    }]
   })
 }

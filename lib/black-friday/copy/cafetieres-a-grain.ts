@@ -205,8 +205,8 @@ export const BEAN_TO_CUP_COPY: Record<Lang, BlackFridayCategoryCopy> = {
     name: 'Super-automatic espresso machines',
     h1: `Black Friday ${Y}: the super-automatic espresso machines worth watching`,
     metaTitle: `Black Friday ${Y}: Super-Automatic Espresso Machines`,
-    metaDescription: `Super-automatic espresso machines worth watching this Black Friday ${Y}: De'Longhi, Philips and Krups. Milk system, cleaning, water tank: what to check.`,
-    blurb: "De'Longhi, Philips, Krups: the milk system and cleaning come first.",
+    metaDescription: `Super-automatic espresso machines worth watching this Black Friday ${Y}: De'Longhi and Philips. Milk system, cleaning, water tank: what to check.`,
+    blurb: "De'Longhi, Philips: the milk system and cleaning come first.",
     intro: "A super-automatic espresso machine is something you'll use for years. During Black Friday, start by comparing the milk system and how easy the machine is to clean. Day to day, those matter more than the number of drinks on the menu.",
     faq: [
       {

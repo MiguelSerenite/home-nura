@@ -24,6 +24,10 @@ export type ProductVisualKind =
   | 'vacuum'
   | 'floor-washer'
   | 'carpet-cleaner'
+  // Black Friday picks on the US and Canadian versions (neutral card of a
+  // North-American equivalent): thermostats and space heaters.
+  | 'thermostat'
+  | 'heater'
 
 export interface ProductVisualData {
   brand: string

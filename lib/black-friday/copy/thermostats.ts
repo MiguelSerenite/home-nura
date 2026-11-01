@@ -180,11 +180,11 @@ export const THERMOSTATS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
     ],
   },
   us: {
-    name: 'Smart thermostats and radiator valves',
+    name: 'Smart thermostats',
     h1: `Black Friday ${Y}: The Smart Thermostats Worth Watching`,
     metaTitle: `Black Friday ${Y}: Best Smart Thermostats to Watch`,
-    metaDescription: `Smart thermostats and smart radiator valves worth watching this Black Friday ${Y} (tado, Netatmo, Honeywell), and the compatibility to check first.`,
-    blurb: 'tado, Netatmo, Honeywell: check boiler or heat pump compatibility first.',
+    metaDescription: `Smart thermostats worth watching this Black Friday ${Y} (ecobee, Google Nest), and the compatibility with your heating system to check first.`,
+    blurb: 'ecobee, Google Nest: check compatibility with your heating system first.',
     intro: "A smart thermostat only pays off if it works with your heating system. Before you look at any deal, check what you have (a boiler, a heat pump, hot-water radiators) and, for a heat pump, how it's controlled: an on/off contact or OpenTherm.",
     faq: [
       {
@@ -193,7 +193,7 @@ export const THERMOSTATS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
       },
       {
         question: 'Does a smart thermostat work with a heat pump?',
-        answer: 'Yes, if it matches how the heat pump is controlled: on/off for most, OpenTherm for some. The tado Heat Pump Optimizer X connects directly to several heat pump brands.',
+        answer: "Yes, if it matches how the heat pump is controlled: on/off for most, OpenTherm for some. Check the manufacturer's compatibility list for your heat pump before you buy.",
       },
       {
         question: 'Is installation difficult?',
@@ -202,11 +202,11 @@ export const THERMOSTATS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
     ],
   },
   ca: {
-    name: 'Smart thermostats and radiator valves',
+    name: 'Smart thermostats',
     h1: `Black Friday ${Y}: the smart thermostats worth watching`,
     metaTitle: `Black Friday ${Y}: Smart Thermostats Worth Watching`,
-    metaDescription: `Smart thermostats and radiator valves worth watching this Black Friday ${Y}: tado, Netatmo, Honeywell. Furnace, boiler or heat pump: check compatibility.`,
-    blurb: 'tado, Netatmo, Honeywell: check compatibility with your furnace, boiler or heat pump first.',
+    metaDescription: `Smart thermostats worth watching this Black Friday ${Y}: ecobee and Google Nest. Furnace, boiler or heat pump: check compatibility first.`,
+    blurb: 'ecobee, Google Nest: check compatibility with your furnace, boiler or heat pump first.',
     intro: "A smart thermostat is only useful if it works with your heating system. Before you look at any deal, check what you have (furnace, boiler with hot-water radiators, heat pump) and, for a heat pump, how it's controlled: on/off contact or OpenTherm.",
     faq: [
       {
@@ -215,7 +215,7 @@ export const THERMOSTATS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
       },
       {
         question: 'Does a smart thermostat work with a heat pump?',
-        answer: 'Yes, if it matches how the heat pump is controlled: on/off for most, OpenTherm for some. The tado Heat Pump Optimizer X connects directly to several heat pump brands.',
+        answer: "Yes, if it matches how the heat pump is controlled: on/off for most, OpenTherm for some. Check the manufacturer's compatibility list for your heat pump before you buy.",
       },
       {
         question: 'Is installation difficult?',

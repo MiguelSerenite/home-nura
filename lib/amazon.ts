@@ -28,10 +28,12 @@
  *   (ca, homaviseca-21) versions are among them: their links go to
  *   amazon.fr and Global Earning sends readers on to amazon.se, amazon.com
  *   and amazon.ca. Direct links to those three stores are not verified.
- * - Models sold only in North America (US and Canadian floor-care guides)
- *   link to an amazon.fr search for the exact model (amazonMarketModelUrl);
- *   their amazon.com / amazon.ca ASIN is kept for a later direct link,
- *   switched off in AMAZON_DIRECT_MODEL_STORES.
+ * - Models sold only in North America (US and Canadian floor-care guides,
+ *   and the North-American names of lib/market-models on every other US and
+ *   Canadian page) link to an amazon.fr search for the exact model
+ *   (amazonMarketModelUrl); their amazon.com / amazon.ca ASIN is kept for a
+ *   later direct link, switched off in AMAZON_DIRECT_MODEL_STORES. A catalog
+ *   product the market sells as is keeps its amazon.fr product page.
  */
 
 import type { Lang } from '@/lib/i18n'
@@ -132,7 +134,8 @@ export const AMAZON_DIRECT_MODEL_STORES: Readonly<Partial<Record<Lang, string | 
 }
 
 /**
- * Link for a model sold in the reader's market (floor-care guides): an
+ * Link for a model sold in the reader's market (floor-care guides, US and
+ * Canadian picks of lib/market-models): an
  * amazon.fr search for the exact model name with the market's tracking ID
  * (Global Earning sends US and Canadian shoppers to their local store),
  * or a direct product page once AMAZON_DIRECT_MODEL_STORES enables that

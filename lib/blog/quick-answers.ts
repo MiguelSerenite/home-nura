@@ -3,9 +3,13 @@
  * quoted by search engines and AI assistants. Picks are taken from each
  * article's own recommendations; models must be linkable through
  * getArticleRecommendations (enforced by tests/lib/quick-answers.test.ts).
+ * The US and Canadian versions show their market's own picks instead
+ * (data/market-picks, lib/market-models).
  */
 import type { Lang } from '@/lib/i18n'
 import { getArticleRecommendations } from '@/lib/blog/article-products'
+import { isNorthAmericanMarket, marketPicks, type NorthAmericanMarket } from '@/lib/market-models'
+import { offerForMarketName } from '@/lib/market-models/offers'
 import { productPhoto } from '@/lib/product-images'
 import type { ProductPhoto } from '@/lib/product-photo'
 
@@ -8602,8 +8606,25 @@ export interface QuickAnswer {
   picks: { model: string; role: string; why: string; url: string; photo?: ProductPhoto }[]
 }
 
+/**
+ * The US or Canadian verdict: that market's own picks (data/market-picks),
+ * named and linked as sold there. A pick shows a photo only when the
+ * market sells the European product itself (lib/market-models/offers.ts).
+ */
+function getMarketQuickAnswer(slug: string, market: NorthAmericanMarket): QuickAnswer | null {
+  const data = QUICK_ANSWERS[slug]
+  if (!data) return null
+  const picks = marketPicks(market, slug).map((pick) => {
+    const { url, photo } = offerForMarketName(pick.model, market)
+    return { model: pick.model, url, role: pick.role, why: pick.why, ...(photo ? { photo } : {}) }
+  })
+  // A market can keep a single pick when the others have no equivalent there.
+  return picks.length > 0 ? { question: data.question[market], picks } : null
+}
+
 /** Localized verdict with each pick linked to the reader's Amazon market (see lib/amazon.ts). */
 export function getQuickAnswer(article: { slug: string; pillar: string }, lang: Lang): QuickAnswer | null {
+  if (isNorthAmericanMarket(lang)) return getMarketQuickAnswer(article.slug, lang)
   const data = QUICK_ANSWERS[article.slug]
   if (!data) return null
   const rec = getArticleRecommendations(article, lang)

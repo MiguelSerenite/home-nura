@@ -5,6 +5,7 @@ import { UI } from '@/lib/black-friday/copy/ui'
 import BlackFridayAmazonLink from './AmazonLink'
 import AmazonDisclosure from '@/components/AmazonDisclosure'
 import ProductPhotoImage from '@/components/ProductPhotoImage'
+import ProductVisual from '@/components/ProductVisual'
 
 /** The models worth watching: verdict label, name, reason, source guide and Amazon link. No prices. */
 export default function PickList({ picks, lang }: { picks: readonly BlackFridayPick[]; lang: Lang }) {
@@ -33,6 +34,20 @@ export default function PickList({ picks, lang }: { picks: readonly BlackFridayP
                   className="relative block aspect-square w-40 shrink-0 self-center overflow-hidden rounded-xl sm:w-32 sm:self-start"
                 >
                   <ProductPhotoImage photo={pick.photo} sizes="160px" className="h-full w-full object-contain" />
+                </BlackFridayAmazonLink>
+              )}
+              {!pick.photo && pick.visual && (
+                // Neutral card (icon, brand, model) for a North-American equivalent without an official photo.
+                <BlackFridayAmazonLink
+                  href={pick.url}
+                  asin={pick.asin}
+                  productName={pick.model}
+                  position={i + 1}
+                  lang={lang}
+                  decorative
+                  className="relative block aspect-square w-40 shrink-0 self-center overflow-hidden rounded-xl sm:w-32 sm:self-start"
+                >
+                  <ProductVisual {...pick.visual} size="thumb" />
                 </BlackFridayAmazonLink>
               )}
               <div className="min-w-0">

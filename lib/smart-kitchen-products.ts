@@ -20,6 +20,7 @@ import { amazonProductUrl } from '@/lib/amazon'
 import { resolveLang } from '@/lib/i18n'
 import { productPhoto } from '@/lib/product-images'
 import { productVisual, type ProductVisualKind } from '@/lib/product-visual'
+import { catalogListing, marketBrand } from '@/lib/market-models'
 
 export const SMART_KITCHEN_CATEGORIES = [
   'multicuiseurs',
@@ -938,16 +939,23 @@ export const smartKitchenStaticProducts: SmartKitchenStaticProduct[] = [
   },
 ]
 
-/** Projection for a single language, ready to feed UI components. */
+/**
+ * Projection for a single language, ready to feed UI components. On the
+ * US and Canadian versions only the products that market sells are
+ * listed, under their North-American name (see getStaticProducts).
+ */
 export function getSmartKitchenProducts(lang: string) {
-  return smartKitchenStaticProducts.map((p) => {
-    const title = p.title[lang] || p.title.fr
-    return {
+  return smartKitchenStaticProducts.flatMap((p) => {
+    const listing = catalogListing(p.title.fr, resolveLang(lang))
+    if (!listing.listed) return []
+    const title = listing.name ?? (p.title[lang] || p.title.fr)
+    const brand = listing.name ? marketBrand(listing.name, p.brand) : p.brand
+    return [{
       asin: p.asin,
       category: p.category,
       title,
       priceNumeric: p.priceNumeric[lang] || p.priceNumeric.fr,
-      visual: productVisual(p.brand, title, VISUAL_KIND[p.category], productPhoto({ asin: p.asin }, resolveLang(lang))),
+      visual: productVisual(brand, title, VISUAL_KIND[p.category], productPhoto({ asin: p.asin }, resolveLang(lang), listing.name)),
       url: amazonProductUrl(p.asin, resolveLang(lang)),
       badge: p.badge ? (p.badge[lang] || p.badge.fr) : undefined,
       nuraScore: p.nuraScore,
@@ -955,7 +963,7 @@ export function getSmartKitchenProducts(lang: string) {
       bestFor: p.bestFor[lang] || p.bestFor.fr,
       pros: p.pros[lang] || p.pros.fr,
       cons: p.cons[lang] || p.cons.fr,
-    }
+    }]
   })
 }
 

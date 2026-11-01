@@ -205,8 +205,8 @@ export const STICK_VACUUMS_COPY: Record<Lang, BlackFridayCategoryCopy> = {
     name: 'Cordless stick vacuums',
     h1: `Black Friday ${Y}: the cordless stick vacuums worth watching`,
     metaTitle: `Black Friday ${Y}: Cordless Stick Vacuums Worth Watching`,
-    metaDescription: `Cordless stick vacuums worth watching this Black Friday ${Y}: Dyson, Rowenta and Samsung. Runtime, filtration, dust bin size: what to check before you buy.`,
-    blurb: 'Dyson, Rowenta, Samsung: runtime, filtration and emptying.',
+    metaDescription: `Cordless stick vacuums worth watching this Black Friday ${Y}: Dyson, LG and Samsung. Runtime, filtration, dust bin size: what to check before you buy.`,
+    blurb: 'Dyson, LG, Samsung: runtime, filtration and emptying.',
     intro: 'A cordless stick vacuum is judged on its real runtime in normal mode, its filtration and the size of its dust bin. During sales, also check which accessories and batteries come in the box, since they vary from one bundle to another.',
     faq: [
       {
