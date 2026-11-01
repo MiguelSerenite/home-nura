@@ -7,6 +7,7 @@ import GeoLocaleSuggestion from "@/components/GeoLocaleSuggestion";
 import BackToTop from "@/components/BackToTop";
 import { HTML_LANG, LANGUAGES, isValidLang, type Lang } from "@/lib/i18n";
 import { buildPageMetadata, BASE_URL } from "@/lib/seo";
+import { buildOrganizationSchema } from "@/lib/organization-schema";
 import "../globals.css";
 
 export const viewport: Viewport = {
@@ -39,11 +40,11 @@ const geistSans = Geist({
 // the flagship category but no longer define the scope.
 const metaTitles: Record<Lang, string> = {
   fr: 'Home Nura | La Maison Connectée, de l\'Europe à l\'Amérique du Nord',
-  en: 'Home Nura | Smart Home Guides for Europe & North America',
-  de: 'Home Nura | Smart-Home-Geräte unabhängig im Vergleich',
-  es: 'Home Nura: comparativas del hogar inteligente',
-  it: 'Home Nura | La casa smart, dall\'Europa al Nord America',
-  nl: 'Home Nura: slimme apparaten voor in huis vergeleken',
+  en: 'Home Nura | The Smart Home, from Europe to North America',
+  de: 'Home Nura | Das Smart Home, von Europa bis Nordamerika',
+  es: 'Home Nura | El Hogar Conectado, de Europa a Norteamérica',
+  it: 'Home Nura | La Casa Connessa, dall\'Europa al Nord America',
+  nl: 'Home Nura | Het Slimme Huis, van Europa tot Noord-Amerika',
   pl: 'Home Nura | Inteligentny dom: niezależne porównania',
   sv: 'Home Nura | Det smarta hemmet, från Europa till Nordamerika',
   us: 'Home Nura | Independent Smart Home Buying Guides',
@@ -53,10 +54,10 @@ const metaTitles: Record<Lang, string> = {
 const metaDescriptions: Record<Lang, string> = {
   fr: 'Comparatifs indépendants de la maison connectée : cuisine, énergie, sécurité, confort, entretien et extérieur. 10 marchés, en Europe et en Amérique du Nord.',
   en: 'Independent smart home reviews: kitchen, energy, security, comfort, cleaning and outdoors. Ten markets across Europe and North America, one method.',
-  de: 'Unabhängige Smart-Home-Vergleiche: smarte Küche, Energie, Sicherheit, Raumklima, Reinigung und Garten. Zehn Länder in Europa und Nordamerika, eine Methode.',
-  es: 'Comparativas independientes del hogar inteligente: cocina, energía, seguridad, confort, limpieza y exterior. 10 mercados de Europa y Norteamérica.',
-  it: 'Confronti indipendenti sulla casa smart: cucina, energia, sicurezza, comfort, pulizia ed esterni. 10 mercati tra Europa e Nord America, un solo metodo.',
-  nl: 'Onafhankelijke vergelijkingen van slimme apparaten voor in huis: keuken, energie, beveiliging, binnenklimaat, schoonmaak en tuin. 10 markten, één methode.',
+  de: 'Unabhängige Smart-Home-Vergleiche: Küche, Energie, Sicherheit, Komfort, Reinigung und Außenbereich. Zehn Märkte in Europa und Nordamerika, eine Methode.',
+  es: 'Comparativas independientes del hogar conectado: cocina, energía, seguridad, confort, limpieza y exterior. Diez mercados en Europa y Norteamérica.',
+  it: 'Confronti indipendenti sulla casa connessa: cucina, energia, sicurezza, comfort, pulizia ed esterno. Dieci mercati tra Europa e Nord America.',
+  nl: 'Onafhankelijke vergelijkingen van het slimme huis: keuken, energie, beveiliging, comfort, schoonmaak en buitenruimte. Tien markten in Europa en Noord-Amerika.',
   pl: 'Niezależne rankingi i porównania 2026: air fryer, ekspres do kawy, robot sprzątający, odkurzacz pionowy, oczyszczacz powietrza, czujnik czadu, smart home.',
   sv: 'Oberoende jämförelser av smarta hem: kök, energi, säkerhet, inomhusklimat, städning, trädgård och utomhus. 10 marknader i Europa och Nordamerika.',
   us: 'Independent smart home buying guides for the kitchen, energy, security, comfort, cleaning and the yard. Ten markets, one method, no paid placements.',
@@ -82,21 +83,6 @@ export async function generateStaticParams() {
   return LANGUAGES.map((lang) => ({ lang }));
 }
 
-// Static country label for the Organization schema. Keeping the
-// mapping adjacent to the schema keeps the file scannable.
-const COUNTRY_NAMES: Record<Lang, string> = {
-  fr: 'France',
-  de: 'Deutschland',
-  en: 'United Kingdom',
-  es: 'España',
-  it: 'Italy',
-  nl: 'Nederland',
-  pl: 'Poland',
-  sv: 'Sweden',
-  us: 'United States',
-  ca: 'Canada',
-};
-
 export default async function RootLayout({
   children,
   params,
@@ -113,63 +99,9 @@ export default async function RootLayout({
   }
   const lang: Lang = rawLang;
 
-  const organizationSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    '@id': `${BASE_URL}/#organization`,
-    name: 'Home Nura',
-    alternateName: 'HomeNura',
-    url: BASE_URL,
-    logo: {
-      '@type': 'ImageObject',
-      url: `${BASE_URL}/logo.png`,
-      width: 1400,
-      height: 400,
-    },
-    image: `${BASE_URL}/logo.png`,
-    description: metaDescriptions[lang],
-    foundingDate: '2024-01-15',
-    founder: {
-      '@type': 'Person',
-      name: 'Miguel Marie',
-      jobTitle: lang === 'fr' ? 'Fondateur & Rédacteur en Chef' : 'Founder & Editor-in-Chief',
-      url: `${BASE_URL}/${lang}/a-propos`,
-    },
-    // sameAs intentionally omitted: list only social profiles that exist
-    // and link back to homenura.com (twitter/linkedin URLs returned 404).
-    contactPoint: {
-      '@type': 'ContactPoint',
-      contactType: 'customer support',
-      email: 'contact@homenura.com',
-      availableLanguage: ['French', 'English', 'German', 'Spanish', 'Italian', 'Dutch'],
-    },
-    areaServed: LANGUAGES.map((l) => ({
-      '@type': 'Country',
-      name: COUNTRY_NAMES[l],
-    })),
-    // Phase Y: knowsAbout reflects the 6 meta-silos under the parent
-    // editorial theme "The European Smart Home". Google uses knowsAbout
-    // to attribute entity authority — staying crisp about the pillars
-    // we own stops us from looking like a commodity review farm.
-    knowsAbout: [
-      'The European Smart Home',
-      'Smart Kitchen Appliances',
-      'Energy & Home Automation',
-      'Home Security',
-      'Indoor Air Quality & Comfort',
-      'Smart Cleaning & Housekeeping',
-      'Smart Garden & Outdoor',
-      'Air Fryers',
-      'Smart Multicookers',
-      'Coffee Machines',
-      'Smart Thermostats',
-      'Video Doorbells',
-      'Robot Vacuums',
-      'GDPR-Compliant Smart Home',
-      'Matter / Thread Compatibility',
-      'EU Energy Labels',
-    ],
-  };
+  // Per edition: no GDPR / European wording and only their own country on
+  // /us and /ca, the European markets elsewhere (lib/organization-schema.ts).
+  const organizationSchema = buildOrganizationSchema(lang, metaDescriptions[lang]);
 
   // WebSite schema — site-name entity. No SearchAction: Google retired the
   // sitelinks search box (Nov 2024) and the site has no search results page.
