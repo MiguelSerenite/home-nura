@@ -105,3 +105,13 @@ describe('the preference cookies are documented and need no consent', () => {
     }
   })
 })
+
+describe('consent cookie', () => {
+  it('is named and dated in the privacy policy as the banner writes it (6 months)', () => {
+    const banner = source('components/CookieBanner.tsx')
+    expect(banner).toMatch(/const COOKIE_MAX_AGE = 182 \* 24 \* 60 \* 60/)
+    const privacy = source('app/[lang]/politique-confidentialite/page.tsx')
+    expect(privacy.match(/name: 'homenura_cookie_consent'/g)).toHaveLength(LANGUAGES.length)
+    expect(privacy).not.toMatch(/name: 'cookie_consent'/)
+  })
+})
