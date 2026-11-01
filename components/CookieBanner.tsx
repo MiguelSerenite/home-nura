@@ -4,7 +4,8 @@ import { useState, useSyncExternalStore } from 'react'
 import Link from 'next/link'
 
 const COOKIE_NAME = 'homenura_cookie_consent'
-const COOKIE_MAX_AGE = 365 * 24 * 60 * 60 // 1 year in seconds
+// The choice is kept 6 months (the CNIL's recommended duration), as the privacy policy says.
+const COOKIE_MAX_AGE = 182 * 24 * 60 * 60 // 6 months in seconds
 
 function getCookie(name: string): string | null {
   if (typeof document === 'undefined') return null
