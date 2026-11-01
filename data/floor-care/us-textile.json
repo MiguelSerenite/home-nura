@@ -1,0 +1,96 @@
+{
+  "_fixture": "FIXTURE - placeholder content for development and tests; replaced by the writers' file (same path) before release. Textile models are the verified references of 2026-11-01; every other model is a placeholder.",
+  "market": "us",
+  "guide": "textile",
+  "metaTitle": "[Fixture] Best carpet & upholstery cleaners (US)",
+  "metaDescription": "Placeholder description: spot cleaners and upright carpet cleaners for stains, pets, carpets and upholstery.",
+  "h1": "[Fixture] Carpet and upholstery cleaners for stains and pets",
+  "intro": "Placeholder intro for the fabric cleaning guide. These machines are compared on their own: they do a different job from hard-floor washers.",
+  "sections": [
+    {
+      "h2": "Spot cleaner or upright?",
+      "html": "<p>Placeholder text: a <strong>spot cleaner</strong> handles small stains; an <strong>upright carpet cleaner</strong> cleans whole rooms.</p>"
+    }
+  ],
+  "picks": [
+    {
+      "_note": "amazon.com lists it only as a bundle with 32 oz PET PRO OXY formula; no standalone 3860 listing (checked 2026-11-01).",
+      "brand": "BISSELL",
+      "model": "Little Green Max Pet 3860",
+      "role": "Best portable spot cleaner",
+      "why": "Placeholder reason (fixture).",
+      "bestFor": "Pet accidents on rugs, stairs and upholstery",
+      "asin": "B0DSWMSJZL",
+      "storeUrlSeen": "https://www.amazon.com/dp/B0DSWMSJZL",
+      "manufacturerUrl": "https://www.bissell.com/en-us/product/little-green-max-pet-portable-carpet-cleaner-3860.html",
+      "specs": {
+        "Type": "Portable carpet and upholstery spot cleaner"
+      },
+      "heightMm": null,
+      "heightSourceUrl": null
+    },
+    {
+      "_note": "Model number PX201 on the amazon.com listing (checked 2026-11-01). Exact SharkNinja page to come from the writers.",
+      "brand": "Shark",
+      "model": "StainStriker PX201",
+      "role": "Best for fresh stains",
+      "why": "Placeholder reason (fixture).",
+      "bestFor": "Spills on upholstery and car seats",
+      "asin": "B0C9H1ZRH4",
+      "storeUrlSeen": "https://www.amazon.com/dp/B0C9H1ZRH4",
+      "manufacturerUrl": "https://www.sharkninja.com/",
+      "specs": {
+        "Type": "Portable carpet and upholstery spot cleaner"
+      },
+      "heightMm": null,
+      "heightSourceUrl": null
+    },
+    {
+      "_note": "No EX201 unit on amazon.com (only accessories); sold by SharkNinja, Home Depot, Best Buy, Kohl's (checked 2026-11-01).",
+      "brand": "Shark",
+      "model": "CarpetXpert with StainStriker EX201",
+      "role": "Best upright carpet cleaner",
+      "why": "Placeholder reason (fixture).",
+      "bestFor": "Whole-room carpet cleaning",
+      "asin": null,
+      "storeUrlSeen": null,
+      "manufacturerUrl": "https://www.sharkninja.com/shark-carpetxpert-with-stainstriker/EX201.html",
+      "specs": {
+        "Type": "Upright carpet cleaner with built-in spot cleaner"
+      },
+      "heightMm": null,
+      "heightSourceUrl": null
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Model",
+      "Type"
+    ],
+    "rows": [
+      [
+        "BISSELL Little Green Max Pet 3860",
+        "Portable carpet and upholstery spot cleaner"
+      ],
+      [
+        "Shark StainStriker PX201",
+        "Portable carpet and upholstery spot cleaner"
+      ],
+      [
+        "Shark CarpetXpert with StainStriker EX201",
+        "Upright carpet cleaner with built-in spot cleaner"
+      ]
+    ]
+  },
+  "chooser": [],
+  "faq": [
+    {
+      "q": "Is this a fixture?",
+      "a": "Yes. This file is placeholder content: the writers' file replaces it before release."
+    }
+  ],
+  "sources": [
+    "https://www.bissell.com/en-us/product/little-green-max-pet-portable-carpet-cleaner-3860.html",
+    "https://www.sharkninja.com/shark-carpetxpert-with-stainstriker/EX201.html"
+  ]
+}

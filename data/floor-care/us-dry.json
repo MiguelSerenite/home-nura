@@ -1,0 +1,120 @@
+{
+  "_fixture": "FIXTURE - placeholder content for development and tests; replaced by the writers' file (same path) before release. Textile models are the verified references of 2026-11-01; every other model is a placeholder.",
+  "market": "us",
+  "guide": "dry",
+  "metaTitle": "[Fixture] Best vacuums (US)",
+  "metaDescription": "Placeholder description: robot, stick and upright vacuums for dust, crumbs and hair, with an under-furniture clearance check for robots.",
+  "h1": "[Fixture] Vacuums for dust, crumbs and hair",
+  "intro": "Placeholder intro for the dry vacuuming guide.",
+  "sections": [
+    {
+      "h2": "How we picked",
+      "html": "<p>Placeholder text: heights are the manufacturer's figures in millimetres.</p>"
+    }
+  ],
+  "picks": [
+    {
+      "brand": "Placeholder",
+      "model": "Robot Vacuum R-1",
+      "role": "Best overall robot",
+      "why": "Placeholder reason.",
+      "bestFor": "Most homes",
+      "asin": null,
+      "storeUrlSeen": null,
+      "manufacturerUrl": "https://example.com/r-1",
+      "specs": {
+        "Type": "Robot vacuum",
+        "Navigation": "Placeholder"
+      },
+      "heightMm": 94,
+      "heightSourceUrl": "https://example.com/r-1/specs"
+    },
+    {
+      "brand": "Placeholder",
+      "model": "Slim Robot R-2",
+      "role": "Best for low furniture",
+      "why": "Placeholder reason.",
+      "bestFor": "Low sofas and beds",
+      "asin": null,
+      "storeUrlSeen": null,
+      "manufacturerUrl": "https://example.com/r-2",
+      "specs": {
+        "Type": "Robot vacuum",
+        "Navigation": "Placeholder"
+      },
+      "heightMm": 79.5,
+      "heightSourceUrl": "https://example.com/r-2/specs"
+    },
+    {
+      "brand": "Placeholder",
+      "model": "Robot With Turret R-3",
+      "role": "Best mapping",
+      "why": "Placeholder reason.",
+      "bestFor": "Large homes",
+      "asin": null,
+      "storeUrlSeen": null,
+      "manufacturerUrl": "https://example.com/r-3",
+      "specs": {
+        "Type": "Robot vacuum",
+        "Navigation": "Placeholder"
+      },
+      "heightMm": 103.5,
+      "heightSourceUrl": "https://example.com/r-3/specs"
+    },
+    {
+      "brand": "Placeholder",
+      "model": "Cordless Stick S-1",
+      "role": "Best cordless stick",
+      "why": "Placeholder reason.",
+      "bestFor": "Quick daily pickups",
+      "asin": null,
+      "storeUrlSeen": null,
+      "manufacturerUrl": "https://example.com/s-1",
+      "specs": {
+        "Type": "Cordless stick vacuum",
+        "Bin": "Placeholder"
+      },
+      "heightMm": null,
+      "heightSourceUrl": null
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Model",
+      "Type",
+      "Height"
+    ],
+    "rows": [
+      [
+        "Placeholder Robot Vacuum R-1",
+        "Robot vacuum",
+        "94 mm"
+      ],
+      [
+        "Placeholder Slim Robot R-2",
+        "Robot vacuum",
+        "79.5 mm"
+      ],
+      [
+        "Placeholder Robot With Turret R-3",
+        "Robot vacuum",
+        "103.5 mm"
+      ],
+      [
+        "Placeholder Cordless Stick S-1",
+        "Cordless stick vacuum",
+        "n/a"
+      ]
+    ]
+  },
+  "chooser": [],
+  "faq": [
+    {
+      "q": "Is this a fixture?",
+      "a": "Yes. This file is placeholder content: the writers' file replaces it before release."
+    }
+  ],
+  "sources": [
+    "https://example.com/vacuum-sources"
+  ]
+}

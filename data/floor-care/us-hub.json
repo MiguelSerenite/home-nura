@@ -1,0 +1,141 @@
+{
+  "_fixture": "FIXTURE - placeholder content for development and tests; replaced by the writers' file (same path) before release. Textile models are the verified references of 2026-11-01; every other model is a placeholder.",
+  "market": "us",
+  "guide": "hub",
+  "metaTitle": "[Fixture] Floor care guide (US)",
+  "metaDescription": "Placeholder description: vacuum, wash hard floors or deep-clean carpets and upholstery? Pick the right machine for each job.",
+  "h1": "[Fixture] Floor care: vacuum, wash or deep-clean?",
+  "intro": "Placeholder intro. Three jobs, three kinds of machines: dry vacuuming for dust, crumbs and hair; washing for sealed hard floors; and fabric cleaning for stains, pets, carpets and upholstery.",
+  "sections": [
+    {
+      "h2": "Three jobs, three machines",
+      "html": "<p>Placeholder text. A vacuum lifts <strong>dry</strong> debris. A hard-floor washer scrubs <strong>sealed</strong> floors with water. A carpet or upholstery cleaner sprays, scrubs and extracts stains from <em>fabric</em>.</p><ul><li>Dust, crumbs, hair: a vacuum</li><li>Sticky spills on tile, vinyl or sealed wood: a hard-floor washer</li><li>Pet accidents and stains on carpet or a sofa: a carpet cleaner</li></ul>"
+    },
+    {
+      "h2": "Measure under your furniture first",
+      "html": "<p>Placeholder text. Before buying a robot vacuum, measure the gap under your sofa and bed. Our check accepts inches or centimeters.</p>"
+    }
+  ],
+  "picks": [
+    {
+      "brand": "Placeholder",
+      "model": "Robot Vacuum R-1",
+      "role": "Top pick for dry vacuuming",
+      "why": "Placeholder reason.",
+      "bestFor": "Most homes",
+      "asin": null,
+      "storeUrlSeen": null,
+      "manufacturerUrl": "https://example.com/r-1",
+      "specs": {
+        "Type": "Robot vacuum",
+        "Navigation": "Placeholder"
+      },
+      "heightMm": 94,
+      "heightSourceUrl": "https://example.com/r-1/specs"
+    },
+    {
+      "brand": "Placeholder",
+      "model": "Wet-Dry Vacuum HF-1",
+      "role": "Top pick for hard-floor washing",
+      "why": "Placeholder reason.",
+      "bestFor": "Kitchens and mudrooms",
+      "asin": null,
+      "storeUrlSeen": null,
+      "manufacturerUrl": "https://example.com/hf-1",
+      "specs": {
+        "Type": "Wet-dry vacuum",
+        "Floors": "Sealed hard floors"
+      },
+      "heightMm": null,
+      "heightSourceUrl": null
+    },
+    {
+      "brand": "Shark",
+      "model": "StainStriker PX201",
+      "role": "Top pick for fabric cleaning",
+      "why": "Placeholder reason (fixture).",
+      "bestFor": "Spills on upholstery and car seats",
+      "asin": "B0C9H1ZRH4",
+      "storeUrlSeen": "https://www.amazon.com/dp/B0C9H1ZRH4",
+      "manufacturerUrl": "https://www.sharkninja.com/",
+      "specs": {
+        "Type": "Portable carpet and upholstery spot cleaner"
+      },
+      "heightMm": null,
+      "heightSourceUrl": null
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Job",
+      "What it handles",
+      "Machines",
+      "Not for"
+    ],
+    "rows": [
+      [
+        "Dry vacuuming",
+        "Dust, crumbs, pet hair",
+        "Robot, stick and upright vacuums",
+        "Wet spills"
+      ],
+      [
+        "Hard-floor washing",
+        "Sealed tile, vinyl, sealed hardwood",
+        "Wet-dry vacuums, steam mops, robot mops",
+        "Carpets, unsealed wood"
+      ],
+      [
+        "Fabric cleaning",
+        "Stains, pet accidents, carpets, upholstery",
+        "Spot cleaners, upright carpet cleaners",
+        "Hard floors"
+      ]
+    ]
+  },
+  "chooser": [
+    {
+      "question": "What do you need to clean up?",
+      "answers": [
+        {
+          "label": "Dust, crumbs and hair",
+          "goesTo": "dry"
+        },
+        {
+          "label": "Spills and grime on sealed hard floors",
+          "goesTo": "hardfloor"
+        },
+        {
+          "label": "Stains on carpet, rugs or upholstery",
+          "goesTo": "textile"
+        }
+      ]
+    },
+    {
+      "question": "Is a robot vacuum on your list?",
+      "answers": [
+        {
+          "label": "Yes: will it fit under my furniture?",
+          "goesTo": "clearance"
+        },
+        {
+          "label": "No: a stick or upright vacuum",
+          "goesTo": "vacuums#picks"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this a fixture?",
+      "a": "Yes. This file is placeholder content: the writers' file replaces it before release."
+    }
+  ],
+  "sources": [
+    "https://example.com/floor-care-sources"
+  ],
+  "entryBanner": {
+    "title": "[Fixture] Vacuum, wash or deep-clean?",
+    "text": "Placeholder banner: our floor-care guide separates dry vacuuming, hard-floor washing and fabric cleaning, with a robot clearance check."
+  }
+}

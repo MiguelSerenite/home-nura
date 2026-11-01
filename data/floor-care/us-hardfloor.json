@@ -1,0 +1,99 @@
+{
+  "_fixture": "FIXTURE - placeholder content for development and tests; replaced by the writers' file (same path) before release. Textile models are the verified references of 2026-11-01; every other model is a placeholder.",
+  "market": "us",
+  "guide": "hardfloor",
+  "metaTitle": "[Fixture] Best hard-floor washers (US)",
+  "metaDescription": "Placeholder description: wet-dry vacuums, steam mops and robot mops for sealed hard floors.",
+  "h1": "[Fixture] Hard-floor washers for sealed floors",
+  "intro": "Placeholder intro for the hard-floor washing guide.",
+  "sections": [
+    {
+      "h2": "Sealed floors only",
+      "html": "<p>Placeholder text: these machines use water; keep them off <strong>unsealed</strong> wood.</p>"
+    }
+  ],
+  "picks": [
+    {
+      "brand": "Placeholder",
+      "model": "Wet-Dry Vacuum HF-1",
+      "role": "Best wet-dry vacuum",
+      "why": "Placeholder reason.",
+      "bestFor": "Kitchens and mudrooms",
+      "asin": null,
+      "storeUrlSeen": null,
+      "manufacturerUrl": "https://example.com/hf-1",
+      "specs": {
+        "Type": "Wet-dry vacuum",
+        "Floors": "Sealed hard floors"
+      },
+      "heightMm": null,
+      "heightSourceUrl": null
+    },
+    {
+      "brand": "Placeholder",
+      "model": "Steam Mop HF-2",
+      "role": "Best steam mop",
+      "why": "Placeholder reason.",
+      "bestFor": "Sealed tile",
+      "asin": null,
+      "storeUrlSeen": null,
+      "manufacturerUrl": "https://example.com/hf-2",
+      "specs": {
+        "Type": "Steam mop",
+        "Floors": "Sealed hard floors"
+      },
+      "heightMm": null,
+      "heightSourceUrl": null
+    },
+    {
+      "brand": "Placeholder",
+      "model": "Robot Mop HF-3",
+      "role": "Best robot mop",
+      "why": "Placeholder reason.",
+      "bestFor": "Daily light mopping",
+      "asin": null,
+      "storeUrlSeen": null,
+      "manufacturerUrl": "https://example.com/hf-3",
+      "specs": {
+        "Type": "Robot mop",
+        "Floors": "Sealed hard floors"
+      },
+      "heightMm": null,
+      "heightSourceUrl": null
+    }
+  ],
+  "comparison": {
+    "columns": [
+      "Model",
+      "Type",
+      "Floors"
+    ],
+    "rows": [
+      [
+        "Placeholder Wet-Dry Vacuum HF-1",
+        "Wet-dry vacuum",
+        "Sealed hard floors"
+      ],
+      [
+        "Placeholder Steam Mop HF-2",
+        "Steam mop",
+        "Sealed hard floors"
+      ],
+      [
+        "Placeholder Robot Mop HF-3",
+        "Robot mop",
+        "Sealed hard floors"
+      ]
+    ]
+  },
+  "chooser": [],
+  "faq": [
+    {
+      "q": "Is this a fixture?",
+      "a": "Yes. This file is placeholder content: the writers' file replaces it before release."
+    }
+  ],
+  "sources": [
+    "https://example.com/hard-floor-sources"
+  ]
+}
