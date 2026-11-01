@@ -1,15 +1,16 @@
 import { describe, it, expect } from 'vitest'
 import { getAllSlugs } from '@/lib/blog'
 import { CATEGORY_GUIDES, getCategoryGuides, buildCategorySeo } from '@/lib/catalog/category-guides'
-import { getCategory } from '@/lib/catalog/categories'
+import { categoryLocales, getCategory } from '@/lib/catalog/categories'
 import type { Category } from '@/lib/catalog/types'
 import { LANGUAGES } from '@/lib/i18n'
 
 describe('category guides', () => {
-  it('only maps existing, indexable categories to existing articles', () => {
+  it('only maps existing categories, indexed in at least one locale, to existing articles', () => {
     const slugs = new Set(getAllSlugs())
     for (const [category, entry] of Object.entries(CATEGORY_GUIDES)) {
-      expect(getCategory(category)?.indexable, category).toBe(true)
+      const cat = getCategory(category)
+      expect(cat !== undefined && categoryLocales(cat).length > 0, category).toBe(true)
       for (const slug of [entry.primary, ...entry.related].filter(Boolean)) {
         expect(slugs.has(slug as string), `${category} → ${slug}`).toBe(true)
       }

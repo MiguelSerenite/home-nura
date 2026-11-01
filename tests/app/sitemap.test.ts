@@ -5,7 +5,9 @@ import { describe, it, expect } from 'vitest'
 import { GIFT_GUIDES, giftGuidePath } from '@/lib/gift-guides'
 import sitemap from '@/app/sitemap'
 import { BASE_URL, SITE_LAST_UPDATED_ISO } from '@/lib/seo'
-import { PROBLEMS } from '@/lib/catalog'
+import { PROBLEMS, categoryLocales, categoryPath, getCategory, getPartiallyIndexableCategories } from '@/lib/catalog'
+import { ANSWER_FIRST_CATEGORIES, hubModifiedIso } from '@/lib/catalog/answer-first'
+import { categoryModifiedIso } from '@/lib/catalog/category-faqs'
 import { BLACK_FRIDAY_CATEGORIES, blackFridayLocales, blackFridayPath } from '@/lib/black-friday'
 import { FLOOR_CARE_MARKETS, FLOOR_CARE_PATHS } from '@/lib/floor-care/config'
 import { getMarketPages, marketPageHref } from '@/lib/market-pages/data'
@@ -19,10 +21,11 @@ const isFloorCareUrl = (url: string) => FLOOR_CARE_PATHS.some((path) => FLOOR_CA
 /** Market pages: one locale each (tests/lib/market-pages/seo.test.ts). */
 const MARKET_PAGE_URLS = new Set(getMarketPages().map((page) => `${BASE_URL}${marketPageHref(page)}`))
 
-/** Black Friday pages of some markets only, and the single-locale gift guides. */
+/** Black Friday pages of some markets only, the single-locale gift guides and the hubs of categories some markets index. */
 const PARTIAL_PATHS = [
   ...BLACK_FRIDAY_CATEGORIES.filter((c) => blackFridayLocales(c).length < LANGUAGES.length).map((c) => blackFridayPath(c.slug)),
   ...GIFT_GUIDES.map(giftGuidePath),
+  ...getPartiallyIndexableCategories().map(categoryPath),
 ]
 const isPartialUrl = (url: string) => PARTIAL_PATHS.some((path) => LANGUAGES.some((lang) => url === `${BASE_URL}/${lang}${path}`))
 
@@ -264,5 +267,36 @@ describe('app/sitemap.ts', () => {
       .at(-1)
     const blog = entries.find((e) => e.url === `${BASE_URL}/fr/blog`)
     expect(blog?.lastModified).toEqual(new Date(latest!))
+  })
+
+  it('lists the robot cooker hub in fr, de, es, it and pl only, hreflang among them, x-default French', () => {
+    const robots = getCategory('robots-multifonctions')!
+    expect(categoryLocales(robots)).toEqual(['fr', 'de', 'es', 'it', 'pl'])
+    const path = categoryPath(robots)
+    expect(path).toBe('/cuisine-connectee/robots-multifonctions')
+    for (const lang of LANGS) {
+      const hit = entries.find((e) => e.url === `${BASE_URL}/${lang}${path}`)
+      const listed = categoryLocales(robots).includes(lang)
+      expect(Boolean(hit), `${lang}${path}`).toBe(listed)
+      if (!hit) continue
+      expect(hit.alternates?.languages, `${lang}${path}`).toEqual({
+        ...Object.fromEntries(categoryLocales(robots).map((l) => [HTML_LANG[l], `${BASE_URL}/${l}${path}`])),
+        'x-default': `${BASE_URL}/fr${path}`,
+      })
+    }
+  })
+
+  it('dates each answer-first hub per locale with its changelog (US and Canada: 1 November 2026)', () => {
+    for (const slug of ANSWER_FIRST_CATEGORIES) {
+      const path = categoryPath(getCategory(slug)!)
+      for (const lang of LANGS) {
+        const hit = entries.find((e) => e.url === `${BASE_URL}/${lang}${path}`)
+        expect(hit, `${lang}${path}`).toBeDefined()
+        expect((hit?.lastModified as Date).toISOString().slice(0, 10), `${lang}${path}`).toBe(hubModifiedIso(slug, lang))
+      }
+      expect(hubModifiedIso(slug, 'us')).toBe('2026-11-01')
+      expect(hubModifiedIso(slug, 'ca')).toBe('2026-11-01')
+      expect(hubModifiedIso(slug, 'fr')).toBe(categoryModifiedIso(slug, SITE_LAST_UPDATED_ISO))
+    }
   })
 })

@@ -15,9 +15,14 @@
  * Structure:
  *   - Breadcrumb: Home → {silo} → {category}
  *   - Hero derived from getCategoryHero()
- *   - Related categories grid (indexable siblings only)
+ *   - Related categories grid (siblings indexed in this locale only)
  *   - FAQ block from getCategoryFaq() (emits FAQPage JSON-LD)
  *   - Methodology CTA (every page links the cornerstone)
+ *
+ * Categories on the "answer first" template (lib/catalog/answer-first)
+ * swap the hero for a compact header with the update date, then show
+ * the jump list, the picks, the comparison table and "why this ranking"
+ * before the rest, and close with the dated changelog.
  *
  * JSON-LD: BreadcrumbList via the Phase Y schema builder;
  * FaqSection emits its own FAQPage payload.
@@ -38,6 +43,8 @@ import QuickAnswer from '@/components/QuickAnswer'
 import ProductSceneBanner from '@/components/ProductSceneBanner'
 import IndependentSources from '@/components/IndependentSources'
 import { getCategoryGuides } from '@/lib/catalog/category-guides'
+import { getAnswerFirstHub } from '@/lib/catalog/answer-first'
+import { AnswerFirstTop, HubChangelog, HubHeader } from '@/components/answer-first/AnswerFirstHub'
 import { SectionHero, SiteFooter } from '@/components/ui'
 import FaqSection from '@/components/FaqSection'
 import AuthorByline from '@/components/AuthorByline'
@@ -47,6 +54,8 @@ import {
   getCategoriesBySilo,
   getCategoryHero,
   getCategoryFaq,
+  categoryPath,
+  isCategoryIndexableIn,
 } from '@/lib/catalog'
 import type { MetaSiloSlug } from '@/lib/catalog'
 import { isValidLang, type Lang } from '@/lib/i18n'
@@ -170,16 +179,24 @@ const uiStrings: Record<Lang, CategoryHubUi> = {
   },
 }
 
+/** Heading of a hub's picks ("Heaters: which to buy in 2026?"), also used by the kitchen route. */
+export function hubPicksQuestion(lang: Lang, categoryTitle: string): string {
+  return uiStrings[lang].picksQuestion(categoryTitle)
+}
+
 interface CategoryHubProps {
   siloSlug: MetaSiloSlug
   categorySlug: string
   lang: string
+  /** Store-neutral CTA of the comparison table (the dictionary's buy_button). */
+  buyLabel: string
 }
 
 export default async function CategoryHub({
   siloSlug,
   categorySlug,
   lang,
+  buyLabel,
 }: CategoryHubProps) {
   const safeLang: Lang = isValidLang(lang) ? lang : 'fr'
   const silo = getMetaSilo(siloSlug)
@@ -190,20 +207,26 @@ export default async function CategoryHub({
 
   const hero = getCategoryHero(safeLang, category)
   const faqEntries = getCategoryFaq(safeLang, category)
-  const modifiedIso = categoryModifiedIso(category.slug, SITE_LAST_UPDATED_ISO)
-  const updatedText = `${lastUpdatedLabel[safeLang]} ${formatLastUpdated(safeLang, modifiedIso)}`
+  // The FAQ keeps its own review date; the page's date (header, Article
+  // dateModified) also counts the answer-first changelog.
+  const faqModifiedIso = categoryModifiedIso(category.slug, SITE_LAST_UPDATED_ISO)
+  const updatedText = `${lastUpdatedLabel[safeLang]} ${formatLastUpdated(safeLang, faqModifiedIso)}`
+  const answerFirst = getAnswerFirstHub(category.slug, safeLang)
+  const modifiedIso = answerFirst?.modifiedIso ?? faqModifiedIso
   const ui = uiStrings[safeLang]
   const siloTitle = silo.title[safeLang]
   const categoryTitle = category.title[safeLang]
+  const path = categoryPath(category)
 
   const breadcrumbSchema = buildBreadcrumbListSchema(safeLang, [
     { name: ui.home, path: '' },
     { name: siloTitle, path: `/${silo.slug}` },
-    { name: categoryTitle, path: `/${silo.slug}/${category.slug}` },
+    { name: categoryTitle, path },
   ])
 
+  // Siblings with a page in this locale, linked to their own landing page.
   const related = getCategoriesBySilo(siloSlug).filter(
-    (c) => c.slug !== category.slug && c.indexable
+    (c) => c.slug !== category.slug && isCategoryIndexableIn(c, safeLang)
   )
 
   // Verdict + guides from the blog: gives the hub real buying content
@@ -212,12 +235,12 @@ export default async function CategoryHub({
 
   // Phase JJJ: Article JSON-LD for Moteur 1 category hub pages.
   // Completes the Article schema coverage across all 4 moteurs.
-  // Only indexable categories emit the payload — no Article on
-  // stub pages that aren't meant for search engines.
-  const articleSchema = category.indexable
+  // Only categories indexed in this locale emit the payload — no
+  // Article on stub pages that aren't meant for search engines.
+  const articleSchema = isCategoryIndexableIn(category, safeLang)
     ? buildArticleSchema({
         lang: safeLang,
-        path: `/${silo.slug}/${category.slug}`,
+        path,
         title: hero.title,
         description: hero.subtitle,
         image: '/og-image.png',
@@ -230,7 +253,7 @@ export default async function CategoryHub({
     : null
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen overflow-x-clip bg-white">
       <script
         type="application/ld+json"
         suppressHydrationWarning
@@ -249,7 +272,7 @@ export default async function CategoryHub({
       <main id="main">
         {/* Breadcrumb */}
         <nav
-          className="max-w-6xl mx-auto px-6 pt-10 text-xs text-slate-500"
+          className={`max-w-6xl mx-auto px-6 text-xs text-slate-500 ${answerFirst ? 'pt-4 md:pt-10' : 'pt-10'}`}
           aria-label="Breadcrumb"
         >
           <ol className="flex items-center gap-2 flex-wrap">
@@ -275,28 +298,48 @@ export default async function CategoryHub({
           </ol>
         </nav>
 
-        <SectionHero
-          kicker={hero.kicker}
-          title={hero.title}
-          subtitle={hero.subtitle}
-          intro={hero.intro}
-        />
+        {answerFirst ? (
+          <HubHeader lang={safeLang} kicker={hero.kicker} h1={hero.title} subtitle={hero.subtitle} modifiedIso={modifiedIso} />
+        ) : (
+          <>
+            <SectionHero
+              kicker={hero.kicker}
+              title={hero.title}
+              subtitle={hero.subtitle}
+              intro={hero.intro}
+            />
 
-        <AuthorByline lang={safeLang} className="justify-center max-w-3xl mx-auto px-4 md:px-6 -mt-6 mb-8 text-sm" />
+            <AuthorByline lang={safeLang} className="justify-center max-w-3xl mx-auto px-4 md:px-6 -mt-6 mb-8 text-sm" />
+          </>
+        )}
 
         <ProductSceneBanner photo={picks[0]?.photo} />
 
-        {picks.length > 0 && (
-          <div className="max-w-3xl mx-auto px-4 md:px-6">
-            <QuickAnswer
-              question={ui.picksQuestion(categoryTitle)}
-              picks={picks}
-              lang={safeLang}
-              kicker={ui.picksKicker}
-              placement="picks"
-              location="category_picks"
-            />
-          </div>
+        {answerFirst ? (
+          <AnswerFirstTop
+            lang={safeLang}
+            hub={answerFirst}
+            picksQuestion={ui.picksQuestion(categoryTitle)}
+            buyLabel={buyLabel}
+            laterItems={[
+              ...(articles.length > 0 ? [{ id: 'guides', label: ui.guidesTitle }] : []),
+              ...(faqEntries.length > 0 ? [{ id: 'faq', label: ui.faqTitle }] : []),
+            ]}
+            about={<p className="text-sm leading-relaxed text-slate-600">{hero.intro}</p>}
+          />
+        ) : (
+          picks.length > 0 && (
+            <div className="max-w-3xl mx-auto px-4 md:px-6">
+              <QuickAnswer
+                question={ui.picksQuestion(categoryTitle)}
+                picks={picks}
+                lang={safeLang}
+                kicker={ui.picksKicker}
+                placement="picks"
+                location="category_picks"
+              />
+            </div>
+          )
         )}
 
         <BlackFridayHubLink lang={safeLang} categorySlug={category.slug} />
@@ -304,7 +347,7 @@ export default async function CategoryHub({
         <FloorCareEntryBanner lang={safeLang} category={category.slug} />
 
         {articles.length > 0 && (
-          <section className="max-w-6xl mx-auto px-4 md:px-6 pb-12">
+          <section id="guides" className="max-w-6xl mx-auto px-4 md:px-6 pb-12 scroll-mt-24">
             <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-slate-900 mb-6">
               {ui.guidesTitle}
             </h2>
@@ -327,7 +370,7 @@ export default async function CategoryHub({
           </section>
         )}
 
-        <MarketPagesHubList lang={safeLang} path={`/${silo.slug}/${category.slug}`} />
+        <MarketPagesHubList lang={safeLang} path={path} />
 
         <IndependentSources categorySlug={category.slug} categoryTitle={categoryTitle} lang={safeLang} />
 
@@ -341,7 +384,7 @@ export default async function CategoryHub({
               {related.map((cat) => (
                 <Link
                   key={cat.slug}
-                  href={`/${safeLang}/${silo.slug}/${cat.slug}`}
+                  href={`/${safeLang}${categoryPath(cat)}`}
                   className="group relative flex flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-sm transition duration-200 hover:shadow-md hover:-translate-y-1 hover:border-brand-200"
                 >
                   <h3 className="text-xl font-bold text-slate-900 leading-tight mb-2 group-hover:text-brand-700 transition-colors">
@@ -357,12 +400,16 @@ export default async function CategoryHub({
         )}
 
         {/* FAQ — derived from catalog, emits FAQPage JSON-LD via FaqSection */}
-        <FaqSection
-          faqs={faqEntries}
-          title={ui.faqTitle}
-          updatedText={updatedText}
-          updatedIso={modifiedIso}
-        />
+        <div id="faq" className="scroll-mt-24">
+          <FaqSection
+            faqs={faqEntries}
+            title={ui.faqTitle}
+            updatedText={updatedText}
+            updatedIso={faqModifiedIso}
+          />
+        </div>
+
+        {answerFirst && <HubChangelog lang={safeLang} changes={answerFirst.changelog} />}
 
         {/* Methodology CTA — every category page links the cornerstone */}
         <div className="max-w-6xl mx-auto px-6 pb-20">

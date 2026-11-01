@@ -14,6 +14,10 @@ export {
   getCategory,
   getCategoriesBySilo,
   getIndexableCategories,
+  categoryLocales,
+  isCategoryIndexableIn,
+  getPartiallyIndexableCategories,
+  getCategoriesIndexableIn,
 } from './categories'
 export {
   BUYER_PERSONAS,

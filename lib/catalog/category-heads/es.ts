@@ -23,6 +23,13 @@ export const ES_HEADS: CategoryHeads = {
     h1: "Las mejores ollas programables y multicocinas de 2026",
     description: "Ollas programables y multicocinas comparadas: Moulinex Cookeo, Ninja Foodi e Instant Pot. Cocción a presión, capacidad, recetas en la app y FAQ.",
   },
+  // Indexed in this market (categories.ts indexableIn): the robot cooker guide's models.
+  "robots-multifonctions": {
+    keyword: "robot de cocina",
+    title: "Mejor robot de cocina 2026: Thermomix y alternativas",
+    h1: "Los mejores robots de cocina 2026: la Thermomix TM7 y sus alternativas",
+    description: "Thermomix TM7, Moulinex i-Companion Touch XL, Magimix Cook Expert, Kenwood Cooking Chef XL y Cecotec Mambo comparados: temperatura, vaso y app. FAQ.",
+  },
   "cafetieres": {
     keyword: "mejor cafetera superautomática",
     title: "Mejor cafetera superautomática 2026: comparativa y guía",

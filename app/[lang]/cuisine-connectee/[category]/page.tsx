@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import {
   buildPageMetadata,
+  buildArticleSchema,
   buildClusterItemListSchema,
   buildProductImageObject,
   formatLastUpdated,
@@ -13,8 +14,17 @@ import {
 import {
   getCategory,
   getPersonasForSilo,
+  getPartiallyIndexableCategories,
+  categoryLocales,
+  isCategoryIndexableIn,
+  type Category,
 } from '@/lib/catalog'
-import type { Lang } from '@/lib/i18n'
+import { isValidLang, type Lang } from '@/lib/i18n'
+import CategoryHub, { hubPicksQuestion } from '@/components/CategoryHub'
+import { AnswerFirstTop, HubChangelog, HubHeader } from '@/components/answer-first/AnswerFirstHub'
+import { getAnswerFirstHub } from '@/lib/catalog/answer-first'
+import { categoryHubMetadata } from '../../category-hub-route'
+import { getDictionary } from '../../dictionaries'
 import ProductCard from '@/components/ProductCard'
 import ProductSceneBanner from '@/components/ProductSceneBanner'
 import AmazonDisclosure from '@/components/AmazonDisclosure'
@@ -527,10 +537,27 @@ const bestForUiStrings: Record<string, { title: string; prefix: string; subtitle
   },
 }
 
+/**
+ * Kitchen categories without catalog products, indexed in some markets
+ * only (`indexableIn`, e.g. robot cookers): this route serves them with
+ * the generic hub, in those locales; elsewhere they 404.
+ */
+const CATALOG_HUBS: readonly Category[] = getPartiallyIndexableCategories().filter(
+  (c) => c.metaSilo === 'cuisine-connectee' && !(SMART_KITCHEN_CATEGORIES as readonly string[]).includes(c.slug)
+)
+
+function catalogHub(category: string, lang: string): Category | undefined {
+  const hub = CATALOG_HUBS.find((c) => c.slug === category)
+  return hub && isValidLang(lang) && isCategoryIndexableIn(hub, lang) ? hub : undefined
+}
+
 export function generateStaticParams() {
-  return SMART_KITCHEN_CATEGORIES.flatMap((category) =>
-    LANGUAGES.map((lang) => ({ lang, category }))
-  )
+  return [
+    ...SMART_KITCHEN_CATEGORIES.flatMap((category) =>
+      LANGUAGES.map((lang) => ({ lang, category }))
+    ),
+    ...CATALOG_HUBS.flatMap((hub) => categoryLocales(hub).map((lang) => ({ lang, category: hub.slug }))),
+  ]
 }
 
 export async function generateMetadata({
@@ -540,6 +567,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang, category } = await params
   const safeLang = resolveLang(lang)
+  const hub = catalogHub(category, lang)
+  if (hub) return categoryHubMetadata(hub, safeLang)
   if (!(SMART_KITCHEN_CATEGORIES as readonly string[]).includes(category)) {
     return {}
   }
@@ -561,6 +590,11 @@ export default async function CategoryPage({
 }) {
   const { lang, category } = await params
   const safeLang: Lang = resolveLang(lang)
+  const hub = catalogHub(category, lang)
+  if (hub) {
+    const dict = await getDictionary(safeLang)
+    return <CategoryHub siloSlug="cuisine-connectee" categorySlug={hub.slug} lang={safeLang} buyLabel={dict.buy_button} />
+  }
   if (!(SMART_KITCHEN_CATEGORIES as readonly string[]).includes(category)) {
     notFound()
   }
@@ -572,6 +606,26 @@ export default async function CategoryPage({
   const faqTitle = faqSectionTitles[safeLang] || faqSectionTitles.fr
   const faqModifiedIso = categoryModifiedIso(safeCat, SITE_LAST_UPDATED_ISO)
   const faqUpdatedText = `${lastUpdatedLabel[safeLang]} ${formatLastUpdated(safeLang, faqModifiedIso)}`
+
+  // "Answer first" (lib/catalog/answer-first): picks, table and ranking
+  // above the product grid, dated header and changelog, Article dateModified.
+  const answerFirst = getAnswerFirstHub(safeCat, safeLang)
+  const buyLabel: string = answerFirst ? (await getDictionary(safeLang)).buy_button : ''
+  const h1 = head?.h1 ?? c.title
+  const articleSchema = answerFirst
+    ? buildArticleSchema({
+        lang: safeLang,
+        path: `/cuisine-connectee/${safeCat}`,
+        title: h1,
+        description: c.subtitle,
+        image: '/og-image.png',
+        imageAlt: h1,
+        datePublished: '2026-02-01',
+        dateModified: answerFirst.modifiedIso,
+        articleType: 'Article',
+        articleSection: c.breadcrumbRoot,
+      })
+    : null
 
   // Phase OO: resolve the best-for persona cluster for this flagship
   // category via the shared catalog so the route stays in sync with
@@ -626,7 +680,7 @@ export default async function CategoryPage({
       : null
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className={`min-h-screen bg-white${answerFirst ? ' overflow-x-clip' : ''}`}>
       <script
         type="application/ld+json"
         suppressHydrationWarning
@@ -637,6 +691,13 @@ export default async function CategoryPage({
         suppressHydrationWarning
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
+      {articleSchema && (
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        />
+      )}
       {bestForClusterSchema && (
         <script
           type="application/ld+json"
@@ -648,7 +709,7 @@ export default async function CategoryPage({
 
       <main id="main">
       {/* Breadcrumb */}
-      <nav className="max-w-6xl mx-auto px-6 pt-10 text-xs text-slate-500" aria-label="Breadcrumb">
+      <nav className={`max-w-6xl mx-auto px-6 text-xs text-slate-500 ${answerFirst ? 'pt-4 md:pt-10' : 'pt-10'}`} aria-label="Breadcrumb">
         <ol className="flex items-center gap-2 flex-wrap">
           <li>
             <Link href={`/${safeLang}`} className="hover:text-brand-600 transition-colors">
@@ -667,18 +728,35 @@ export default async function CategoryPage({
       </nav>
 
       {/* Hero */}
-      <SectionHero
-        kicker={c.kicker}
-        title={head?.h1 ?? c.title}
-        subtitle={c.subtitle}
-        intro={c.intro}
-      />
-      <AuthorByline lang={safeLang} className="justify-center max-w-3xl mx-auto px-4 md:px-6 -mt-6 mb-8 text-sm" />
+      {answerFirst ? (
+        <HubHeader lang={safeLang} kicker={c.kicker} h1={h1} subtitle={c.subtitle} modifiedIso={answerFirst.modifiedIso} />
+      ) : (
+        <>
+          <SectionHero
+            kicker={c.kicker}
+            title={h1}
+            subtitle={c.subtitle}
+            intro={c.intro}
+          />
+          <AuthorByline lang={safeLang} className="justify-center max-w-3xl mx-auto px-4 md:px-6 -mt-6 mb-8 text-sm" />
+        </>
+      )}
 
       <ProductSceneBanner photo={products[0]?.visual.photo} />
 
+      {answerFirst && (
+        <AnswerFirstTop
+          lang={safeLang}
+          hub={answerFirst}
+          picksQuestion={hubPicksQuestion(safeLang, catalogCategory?.title[safeLang] ?? c.kicker)}
+          buyLabel={buyLabel}
+          laterItems={faqs.length > 0 ? [{ id: 'faq', label: faqTitle }] : []}
+          about={<p className="text-sm leading-relaxed text-slate-600">{c.intro}</p>}
+        />
+      )}
+
       {/* Products grid */}
-      <section className="max-w-6xl mx-auto px-4 md:px-6 pb-20">
+      <section id="products" className="max-w-6xl mx-auto px-4 md:px-6 pb-20 scroll-mt-24">
         {products.length === 0 ? (
           <p className="text-center text-slate-500">—</p>
         ) : (
@@ -742,7 +820,11 @@ export default async function CategoryPage({
       )}
 
       {/* FAQ — category-specific, emits FAQPage JSON-LD */}
-      <FaqSection faqs={faqs} title={faqTitle} updatedText={faqUpdatedText} updatedIso={faqModifiedIso} />
+      <div id="faq" className="scroll-mt-24">
+        <FaqSection faqs={faqs} title={faqTitle} updatedText={faqUpdatedText} updatedIso={faqModifiedIso} />
+      </div>
+
+      {answerFirst && <HubChangelog lang={safeLang} changes={answerFirst.changelog} />}
       </main>
 
       {/* Footer */}
